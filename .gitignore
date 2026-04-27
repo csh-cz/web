@@ -1,0 +1,54 @@
+# Node / pnpm
+node_modules
+*.log
+.pnpm-debug.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Build artifacts
+dist
+.astro
+.cache
+apps/*/dist
+apps/*/.astro
+
+# Cloudflare / Vercel / Netlify dev
+.wrangler
+.vercel
+.netlify
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Scraped raw HTML — too big k commitu, regenerable přes pnpm scrape:hodinarium
+raw/*/pages/
+raw/*/assets/
+raw/*/_index.json
+
+# Stažené obrázky (62 MB) — regenerable přes pnpm download:hodinarium
+# pokud chceš, odkomentuj řádky níže pro úspornější repo
+# apps/*/public/img/
+
+# OG images (regenerable přes pnpm og:build)
+apps/*/public/og/
+
+# Tmp soubory
+/tmp_*
+
+# zdroje/ — pracovní materiály mimo git (PDF originály, fotky pro zpracování,
+# ZIP archivy z Google Photos atd.). Příliš velké, ne všechny patří publikovat.
+zdroje/
+
+# macOS Finder aliases / drag-drop omylem
+fo:Users:*
+*Downloads:*

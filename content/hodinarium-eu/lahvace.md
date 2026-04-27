@@ -1,0 +1,14 @@
+---
+title: "Lahváče"
+slug: "lahvace"
+category: "sbirka"
+originalUrl: "https://hodinarium.eu/lahvace.htm"
+lastModified: "Wed, 26 Apr 2017 14:02:00 GMT"
+sourceCharset: "windows-1250"
+scrapedAt: "2026-04-27T17:36:56.954Z"
+---
+Do lahví se stavěly miniaturní lodě. Na webu [**digitron.cz**](http://www.digitron.cz/rekl_hodiny.htm) jsou k vidění reklamní hodiny vestavěné do láhve. Nejde o láhve ledajaké. Z korespondence s autory a současně výrobci vím, že přípravné činnosti před výrobou jsou také zajímavé. K základům hodinářské dovednosti přece patří i odstranění původního obsahu.
+
+[!](javascript:view\('img/papiraky/sklober.jpg',280,550\))[!](javascript:view\('img/papiraky/sklobal.jpg',319,498\))[!](javascript:view\('img/papiraky/sklojohn.jpg',276,550\))
+
+Web [**www.digitron.cz**](http://www.digitron.cz/) má novou grafiku a určitě stojí za shlédnutí, i když je víc o výpočetní technice než o hodinách. Ovšem o hodinách je taky. O hodinách digitronových i o hodinách v láhvi.)

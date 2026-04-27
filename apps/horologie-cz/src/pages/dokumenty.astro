@@ -1,0 +1,327 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { dokumenty as sbirka, sbirkaListinUrl, detailUrl } from '../data/sbirka-listin';
+
+// Účetní závěrky ze sbírky listin justice.cz (subject 794447, spis 439453)
+const ucetniZaverky = sbirka
+  .filter((d) => d.typ === 'ucetni-zaverka')
+  .sort((a, b) => (b.rok ?? 0) - (a.rok ?? 0));
+
+const all = await getCollection('clanky');
+const stanovy = all.find((e) => e.id === 'stanovy');
+const usneseni = all.find((e) => e.id === 'usneseni_o_zapisu_spolku');
+const sponsor = all.find((e) => e.id === 'sponsor');
+const zapisy = all.filter((e) => e.id.startsWith('zapis')).sort((a, b) => b.id.localeCompare(a.id));
+---
+<Base title="Dokumenty" description="Stanovy, hospodaření, zápisy ze schůzí, transparentní účet Českého spolku horologického.">
+  <header class="dokumenty-header">
+    <p class="eyebrow mb-4">Spolková agenda</p>
+    <h1>Dokumenty</h1>
+    <p class="lede">
+      Zakládací dokumenty, výroční zprávy o hospodaření, zápisy ze schůzí a údaje
+      o transparentním účtu spolku. Vše veřejně dostupné v rámci povinné
+      transparentnosti spolku.
+    </p>
+  </header>
+
+  <!-- ── ZAKLÁDACÍ DOKUMENTY ── -->
+  <section class="dok-section">
+    <h2>Zakládací dokumenty</h2>
+    <ul class="docs-list">
+      <li>
+        <a href="/clanky/stanovy">Stanovy spolku</a>
+        <span class="docs-meta">Plný text · 20.&nbsp;4.&nbsp;2017</span>
+      </li>
+      {usneseni && (
+        <li>
+          <a href={`/clanky/${usneseni.id}`}>Usnesení o zápisu spolku do rejstříku</a>
+          <span class="docs-meta">2016</span>
+        </li>
+      )}
+    </ul>
+    <p class="poznamka">
+      Stejné dokumenty jsou veřejně dostupné také ve <a href="https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=921906" target="_blank" rel="noopener">spolkovém rejstříku Ministerstva spravedlnosti</a>
+      (vyhledat IČO 26573008).
+    </p>
+  </section>
+
+  <!-- ── ÚČETNÍ ZÁVĚRKY ── -->
+  <section class="dok-section">
+    <h2>Účetní závěrky</h2>
+    <p class="dok-intro">
+      Účetní závěrky spolku se zveřejňují každý rok ve sbírce listin Krajského soudu
+      v Českých Budějovicích podle zákona č.&nbsp;304/2013&nbsp;Sb. Spis
+      <a href={sbirkaListinUrl} target="_blank" rel="noopener"><strong>L&nbsp;4908&nbsp;/&nbsp;KSCB</strong></a>
+      obsahuje všechny závěrky od&nbsp;roku 2014.
+    </p>
+    <table class="hospodareni-table">
+      <thead>
+        <tr>
+          <th>Rok</th>
+          <th>Číslo listiny</th>
+          <th>Zapsáno</th>
+          <th class="ta-right">Sbírka listin</th>
+        </tr>
+      </thead>
+      <tbody>
+        {ucetniZaverky.map((d) => (
+          <tr>
+            <td class="row-rok">{d.rok}</td>
+            <td><span class="docs-meta">{d.cislo}</span></td>
+            <td>{d.datumZapisu}</td>
+            <td class="ta-right">
+              <a href={detailUrl(d.dokumentId)} target="_blank" rel="noopener" class="dok-link">
+                Justice.cz&nbsp;↗
+              </a>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="poznamka">
+      Odkaz „Justice.cz ↗" otevře detail listiny ve sbírce, kde si stáhneš aktuální
+      PDF přímo od Ministerstva spravedlnosti.
+    </p>
+  </section>
+
+  <!-- ── STANOVY A ZÁPISY VE SBÍRCE ── -->
+  <section class="dok-section">
+    <h2>Stanovy a zápisy ve sbírce listin</h2>
+    <table class="hospodareni-table">
+      <thead>
+        <tr>
+          <th>Číslo</th>
+          <th>Typ</th>
+          <th>Datum vzniku</th>
+          <th>Stran</th>
+          <th class="ta-right">Sbírka listin</th>
+        </tr>
+      </thead>
+      <tbody>
+        {sbirka.filter((d) => d.typ !== 'ucetni-zaverka').map((d) => (
+          <tr>
+            <td><span class="docs-meta">{d.cislo}</span></td>
+            <td>{d.popis}</td>
+            <td>{d.datumVzniku ?? d.datumZapisu}</td>
+            <td>{d.stran}</td>
+            <td class="ta-right">
+              <a href={detailUrl(d.dokumentId)} target="_blank" rel="noopener" class="dok-link">
+                Justice.cz&nbsp;↗
+              </a>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ── TRANSPARENTNÍ ÚČET ── -->
+  <section class="dok-section">
+    <h2>Transparentní účet</h2>
+    <div class="account-card">
+      <p class="account-label">Číslo účtu</p>
+      <p class="account-number">[doplnit]</p>
+      <p class="account-bank">[doplnit banku]</p>
+      <p class="account-link">
+        <a href="#" class="muted">Pohyby na transparentním účtu →</a>
+      </p>
+    </div>
+    <p class="poznamka">
+      Transparentní účet umožňuje veřejně sledovat příjmy a výdaje spolku.
+      Číslo účtu a odkaz na webové rozhraní banky budou zveřejněny po doplnění
+      Petrem.
+    </p>
+  </section>
+
+  <!-- ── ZÁPISY ZE SCHŮZÍ ── -->
+  {zapisy.length > 0 && (
+    <section class="dok-section">
+      <h2>Zápisy ze schůzí</h2>
+      <ul class="docs-list">
+        {zapisy.map((z) => (
+          <li>
+            <a href={`/clanky/${z.id}`}>{z.data.title}</a>
+            <span class="docs-meta">Zápis</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <!-- ── SPONZORING ── -->
+  {sponsor && (
+    <section class="dok-section">
+      <h2>Sponzoring</h2>
+      <p>
+        Spolek je nezisková organizace. Provoz expozice a webu je financován
+        z členských příspěvků a darů.
+      </p>
+      <p>
+        <a href={`/clanky/${sponsor.id}`}>Více v sekci o sponzoringu</a>
+        &nbsp;·&nbsp;
+        <a href="/kontakt#darce">Jak darovat</a>
+      </p>
+    </section>
+  )}
+</Base>
+
+<style>
+  .dokumenty-header {
+    max-width: 720px;
+    margin-bottom: 3rem;
+  }
+  .dokumenty-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    line-height: 1.05;
+  }
+  .lede {
+    font-size: 1.1rem;
+    color: var(--color-text-soft);
+    max-width: 60ch;
+  }
+
+  .dok-section {
+    margin-bottom: 3rem;
+  }
+
+  .docs-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .docs-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+  }
+  .docs-list a {
+    color: var(--color-brass-bright);
+    border-bottom: none;
+    flex: 1;
+  }
+  .docs-list a:hover {
+    color: var(--color-paper);
+  }
+  .docs-meta {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    flex-shrink: 0;
+  }
+
+  .poznamka {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+    margin-top: 1rem;
+  }
+
+  .dok-intro {
+    color: var(--color-text);
+    margin-bottom: 1.25rem;
+    line-height: 1.55;
+  }
+  .dok-intro a {
+    color: var(--color-brass-bright);
+  }
+
+  .hospodareni-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .hospodareni-table th {
+    text-align: left;
+    padding: 0.75rem 1rem;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--color-copper);
+    font-weight: 500;
+    background: var(--color-bg-deep);
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  }
+  .hospodareni-table td {
+    padding: 0.75rem 1rem;
+    color: var(--color-text);
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 8%, transparent);
+  }
+  .hospodareni-table .ta-right { text-align: right; }
+  .row-rok {
+    font-feature-settings: "lnum";
+    font-weight: 500;
+    color: var(--color-brass-bright);
+  }
+  .row-pending {
+    opacity: 0.6;
+  }
+  .status-ok {
+    color: var(--color-brass-bright);
+    font-size: 0.9rem;
+  }
+  .status-pending {
+    color: var(--color-text-muted);
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+  .dok-link {
+    color: var(--color-brass-bright);
+    border-bottom: none;
+    font-weight: 500;
+  }
+  .dok-link:hover {
+    color: var(--color-paper);
+  }
+
+  .account-card {
+    background: var(--color-bg-elevated);
+    border: 1px dashed color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    padding: 1.5rem 2rem;
+    max-width: 500px;
+  }
+  .account-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--color-copper);
+    margin: 0 0 0.5rem;
+    font-weight: 500;
+  }
+  .account-number {
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 1.4rem;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.5rem;
+    letter-spacing: 0.05em;
+  }
+  .account-bank {
+    color: var(--color-text);
+    margin: 0 0 1rem;
+  }
+  .account-link {
+    margin: 0;
+  }
+  .muted {
+    color: var(--color-text-muted) !important;
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+</style>

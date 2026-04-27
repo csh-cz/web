@@ -1,0 +1,154 @@
+---
+import Base from '../layouts/Base.astro';
+import { lokace } from '../data/lokace';
+
+const cz = lokace.filter((l) => l.zeme === 'CZ');
+const zahranici = lokace.filter((l) => l.zeme !== 'CZ');
+---
+<Base title="Mapa" description="Geografická mapa věžních hodin, orlojů a expozic — Česko a Evropa.">
+  <header class="max-w-3xl mb-10">
+    <p class="eyebrow mb-4">Geografický rejstřík</p>
+    <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Mapa</h1>
+    <p class="text-[var(--color-text)] leading-relaxed">
+      <strong class="text-[var(--color-brass-bright)]">{lokace.length}</strong> věžních hodin,
+      orlojů a expozic, o kterých na webu píšeme. Klikni na pin pro detail článku.
+    </p>
+  </header>
+
+  <div id="mapa" class="mapa-canvas" role="application" aria-label="Interaktivní mapa věžních hodin"></div>
+
+  <section class="grid md:grid-cols-2 gap-10 mt-12">
+    <div>
+      <h2 class="text-2xl mb-4">Česko ({cz.length})</h2>
+      <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5 text-base">
+        {cz.map((l) => (
+          <li class="flex items-baseline gap-2">
+            {l.expozice && <span class="text-[var(--color-copper)]" title="Expozice">★</span>}
+            <a href={l.slug ? `/clanky/${l.slug}` : '#'} style="border-bottom: none;">{l.jmeno}</a>
+            {l.rok && <span class="text-sm text-[var(--color-text-muted)] italic">{l.rok}</span>}
+          </li>
+        ))}
+      </ul>
+    </div>
+    <div>
+      <h2 class="text-2xl mb-4">Zahraničí ({zahranici.length})</h2>
+      <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5 text-base">
+        {zahranici.map((l) => (
+          <li class="flex items-baseline gap-2">
+            <a href={l.slug ? `/clanky/${l.slug}` : '#'} style="border-bottom: none;">{l.jmeno}</a>
+            <span class="text-xs text-[var(--color-text-muted)] uppercase tracking-wider">{l.zeme}</span>
+            {l.rok && <span class="text-sm text-[var(--color-text-muted)] italic">{l.rok}</span>}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</Base>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<style>
+  .mapa-canvas {
+    width: 100%;
+    height: 70vh;
+    min-height: 480px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    box-shadow:
+      inset 0 1px 0 color-mix(in srgb, var(--color-brass) 12%, transparent),
+      0 4px 16px rgba(0, 0, 0, 0.4);
+    background: var(--color-bg-deep);
+  }
+
+  /* Sépiový sklon Leaflet tile vrstvy, aby ladila s paletou */
+  :global(.leaflet-container) {
+    background: var(--color-bg-deep) !important;
+    font-family: var(--font-serif) !important;
+  }
+  :global(.leaflet-tile) {
+    filter: sepia(0.5) saturate(0.7) brightness(0.85) contrast(1.05);
+  }
+  :global(.leaflet-popup-content-wrapper) {
+    background: var(--color-bg-elevated);
+    color: var(--color-text);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    font-family: var(--font-serif);
+  }
+  :global(.leaflet-popup-tip) {
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+  }
+  :global(.leaflet-popup-content a) {
+    color: var(--color-brass-bright);
+  }
+  :global(.leaflet-popup-content h4) {
+    font-family: var(--font-serif);
+    color: var(--color-brass-bright);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0 0.25em;
+  }
+  :global(.leaflet-popup-content p) {
+    margin: 0;
+    color: var(--color-text-soft);
+    font-size: 0.85rem;
+  }
+  :global(.leaflet-control-attribution) {
+    background: rgba(20, 16, 12, 0.7) !important;
+    color: var(--color-text-muted) !important;
+    font-size: 0.7rem !important;
+  }
+  :global(.leaflet-control-attribution a) {
+    color: var(--color-brass) !important;
+  }
+  :global(.leaflet-control-zoom a) {
+    background: var(--color-bg-elevated) !important;
+    color: var(--color-brass-bright) !important;
+    border-color: color-mix(in srgb, var(--color-brass) 30%, transparent) !important;
+  }
+  :global(.leaflet-marker-icon.lokace-pin) {
+    background: var(--color-brass);
+    border: 2px solid var(--color-bg);
+    border-radius: 50%;
+    width: 14px !important;
+    height: 14px !important;
+    margin-left: -7px !important;
+    margin-top: -7px !important;
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--color-brass) 40%, transparent);
+  }
+  :global(.leaflet-marker-icon.lokace-pin.expozice) {
+    background: var(--color-copper);
+    width: 18px !important;
+    height: 18px !important;
+    margin-left: -9px !important;
+    margin-top: -9px !important;
+  }
+</style>
+
+<script define:vars={{ lokace }}>
+  // @ts-expect-error Leaflet from CDN
+  const map = L.map('mapa', { zoomControl: true, scrollWheelZoom: false }).setView([49.7, 15.5], 6);
+
+  // @ts-expect-error
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap přispěvatelé',
+    maxZoom: 18,
+  }).addTo(map);
+
+  for (const l of lokace) {
+    // @ts-expect-error
+    const icon = L.divIcon({
+      className: `lokace-pin${l.expozice ? ' expozice' : ''}`,
+      html: '',
+      iconSize: [14, 14],
+    });
+    // @ts-expect-error
+    const m = L.marker([l.lat, l.lon], { icon, title: l.jmeno }).addTo(map);
+    const link = l.slug ? `<a href="/clanky/${l.slug}">Otevřít článek →</a>` : '';
+    const popis = l.popis ? `<p>${l.popis}</p>` : '';
+    const rok = l.rok ? `<p><em>${l.rok}</em></p>` : '';
+    m.bindPopup(`<h4>${l.jmeno}</h4>${rok}${popis}${link}`);
+  }
+</script>

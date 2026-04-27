@@ -1,0 +1,520 @@
+---
+import Base from '../../layouts/Base.astro';
+import { akce, akceMinule, akcePlanovane } from '../../data/akce';
+
+// Akce na časové ose — všechny seřazené chronologicky vzestupně
+const akceProOsu = [...akce].sort((a, b) => a.rok - b.rok);
+
+// Akce s lokací pro mapu
+const akceProMapu = akce.filter((a) => a.lat && a.lon);
+---
+<Base title="Akce spolku" description="Akce, výstavy, vernisáže a setkání Českého spolku horologického — minulé i plánované.">
+  <header class="akce-header">
+    <p class="eyebrow mb-4">Spolková agenda</p>
+    <h1>Akce spolku</h1>
+    <p class="lede">
+      Vernisáže, výstavy, restaurátorské reportáže a další setkání. Každá akce
+      má vlastní stránku s fotogalerií. Chceš přispět fotografiemi z minulé
+      akce? Pošli je na <a href="mailto:info@orloj.eu">info@orloj.eu</a>.
+    </p>
+  </header>
+
+  <!-- ČASOVÁ OSA -->
+  <section class="akce-section akce-osa">
+    <h2>Časová osa</h2>
+    <p class="osa-lede">
+      {akceProOsu.length} akcí a událostí od založení spolku v roce 2009 po
+      plánovaný rok 2026. <span class="legend-akce">●</span> Akce —
+      <span class="legend-udalost">●</span> události spolku.
+    </p>
+    <ol class="osa">
+      {akceProOsu.map((a) => (
+        <li class={`osa-item kat-${a.status} typ-${a.typ ?? 'akce'}`}>
+          <a href={`/akce/${a.slug}`} class="osa-link">
+            <div class="osa-rok"><span>{a.rok}</span></div>
+            <div class="osa-obsah">
+              {(a.schuze || a.typ === 'udalost-spolku') && (
+                <p class="eyebrow osa-schuze">
+                  {a.typ === 'udalost-spolku' ? 'Událost spolku' : a.schuze}
+                </p>
+              )}
+              <h3 class="osa-nazev">{a.nazev}</h3>
+              {a.datum && <p class="osa-datum">{a.datum}{a.misto && <> · <em>{a.misto}</em></>}</p>}
+            </div>
+          </a>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <!-- MAPA -->
+  <section class="akce-section">
+    <h2>Mapa míst konání</h2>
+    <p class="osa-lede">{akceProMapu.length} akcí na 2 lokalitách — Soběslav a Děčín.</p>
+    <div id="akce-mapa" class="akce-mapa-canvas" role="application" aria-label="Mapa míst konání akcí spolku"></div>
+  </section>
+
+  {akcePlanovane.length > 0 && (
+    <section class="akce-section">
+      <h2>Plánované</h2>
+      <div class="akce-grid">
+        {akcePlanovane.map((a) => (
+          <a href={`/akce/${a.slug}`} class="akce-card akce-card-planned">
+            <div class="akce-card-photo placeholder-photo">
+              <span class="placeholder-year">{a.rok}</span>
+            </div>
+            <div class="akce-card-body">
+              <p class="akce-status">Plánovaná</p>
+              <h3>{a.nazev}</h3>
+              {a.datum && <p class="akce-meta"><strong>Termín:</strong> {a.datum}</p>}
+              {a.misto && <p class="akce-meta"><strong>Místo:</strong> {a.misto}</p>}
+              <p class="akce-popis">{a.popis}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {akceMinule.length > 0 && (
+    <section class="akce-section">
+      <h2>Minulé akce</h2>
+      <div class="akce-grid">
+        {akceMinule.map((a) => {
+          const heroFoto = a.fotky?.[0];
+          const fotkaUrl = heroFoto ? `/img/akce/${a.slug}/${heroFoto}` : null;
+          return (
+            <a href={`/akce/${a.slug}`} class={`akce-card ${a.status === 'placeholder' ? 'akce-card-placeholder' : ''}`}>
+              <div class={`akce-card-photo ${fotkaUrl ? 'has-photo' : 'placeholder-photo'}`}>
+                {fotkaUrl ? (
+                  <img src={fotkaUrl} alt={a.nazev} loading="lazy" />
+                ) : (
+                  <span class="placeholder-year">{a.rok}</span>
+                )}
+              </div>
+              <div class="akce-card-body">
+                {a.status === 'placeholder' && <p class="akce-status placeholder">Čeká na fotodokumentaci</p>}
+                <h3>{a.nazev}</h3>
+                {a.datum && <p class="akce-meta"><strong>Termín:</strong> {a.datum}</p>}
+                {a.misto && <p class="akce-meta"><strong>Místo:</strong> {a.misto}</p>}
+                <p class="akce-popis">{a.popis}</p>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  )}
+
+  <section class="akce-cta">
+    <h2 style="border:none; padding-bottom: 0; margin-top: 0;">Máš fotky nebo vzpomínky?</h2>
+    <p>
+      Pomoz doplnit prázdná místa. Pokud jsi byl na některé z minulých akcí
+      spolku, pošli nám fotografie nebo krátký popis na
+      <a href="mailto:info@orloj.eu">info@orloj.eu</a>.
+      Doplníme jméno autora a vystavíme je u příslušné události.
+    </p>
+  </section>
+</Base>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script define:vars={{ akce: akceProMapu }}>
+  // @ts-expect-error Leaflet from CDN
+  const map = L.map('akce-mapa', { zoomControl: true, scrollWheelZoom: false }).setView([50.0, 14.5], 7);
+
+  // @ts-expect-error
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap přispěvatelé',
+    maxZoom: 18,
+  }).addTo(map);
+
+  // Skupina pro každou lokaci (více akcí na stejném místě)
+  const skupiny = {};
+  for (const a of akce) {
+    const klic = `${a.lat.toFixed(3)},${a.lon.toFixed(3)}`;
+    if (!skupiny[klic]) skupiny[klic] = { lat: a.lat, lon: a.lon, akce: [] };
+    skupiny[klic].akce.push(a);
+  }
+
+  for (const sk of Object.values(skupiny)) {
+    // @ts-expect-error
+    const icon = L.divIcon({
+      className: 'akce-pin' + (sk.akce.length > 1 ? ' many' : ''),
+      html: sk.akce.length > 1 ? `<span>${sk.akce.length}</span>` : '',
+      iconSize: sk.akce.length > 1 ? [28, 28] : [16, 16],
+    });
+    // @ts-expect-error
+    const m = L.marker([sk.lat, sk.lon], { icon, title: sk.akce[0].misto }).addTo(map);
+    const html = `
+      <h4>${sk.akce[0].misto || 'Místo'}</h4>
+      <p><strong>${sk.akce.length}</strong> ${sk.akce.length === 1 ? 'akce' : sk.akce.length < 5 ? 'akce' : 'akcí'}</p>
+      <ul style="list-style:none; padding:0; margin:0; max-height: 200px; overflow-y: auto;">
+        ${sk.akce.sort((a, b) => b.rok - a.rok).map((a) => `<li><strong>${a.rok}</strong> · <a href="/akce/${a.slug}">${a.nazev}</a></li>`).join('')}
+      </ul>
+    `;
+    m.bindPopup(html);
+  }
+</script>
+
+<style is:global>
+  /* Leaflet styling pro horologie.cz palette */
+  .leaflet-container {
+    background: var(--color-bg-deep) !important;
+    font-family: var(--font-serif) !important;
+  }
+  .leaflet-tile {
+    filter: sepia(0.4) saturate(0.8) brightness(0.9);
+  }
+  .leaflet-popup-content-wrapper {
+    background: var(--color-bg-elevated);
+    color: var(--color-text);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    font-family: var(--font-serif);
+  }
+  .leaflet-popup-tip {
+    background: var(--color-bg-elevated);
+  }
+  .leaflet-popup-content a {
+    color: var(--color-brass-bright);
+  }
+  .leaflet-popup-content h4 {
+    font-family: var(--font-serif);
+    color: var(--color-brass-bright);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0 0.4em;
+  }
+  .leaflet-popup-content p {
+    margin: 0 0 0.4em;
+    color: var(--color-text-soft);
+    font-size: 0.85rem;
+  }
+  .leaflet-popup-content ul li {
+    padding: 0.25em 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 12%, transparent);
+    font-size: 0.85rem;
+  }
+  .leaflet-control-attribution {
+    background: rgba(20, 17, 12, 0.7) !important;
+    color: var(--color-text-muted) !important;
+    font-size: 0.7rem !important;
+  }
+  .leaflet-control-attribution a {
+    color: var(--color-brass) !important;
+  }
+  .leaflet-control-zoom a {
+    background: var(--color-bg-elevated) !important;
+    color: var(--color-brass-bright) !important;
+    border-color: color-mix(in srgb, var(--color-brass) 30%, transparent) !important;
+  }
+  .leaflet-marker-icon.akce-pin {
+    background: var(--color-brass);
+    border: 2px solid var(--color-bg);
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--color-brass) 40%, transparent);
+  }
+  .leaflet-marker-icon.akce-pin.many {
+    background: var(--color-copper);
+    color: var(--color-paper);
+    font-weight: 700;
+    text-align: center;
+    line-height: 24px;
+    font-family: var(--font-serif);
+    font-size: 0.9rem;
+  }
+</style>
+
+<style>
+  .akce-header {
+    max-width: 720px;
+    margin-bottom: 4rem;
+  }
+  .akce-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    line-height: 1.05;
+  }
+  .lede {
+    font-size: 1.1rem;
+    color: var(--color-text-soft);
+    max-width: 60ch;
+  }
+
+  .akce-section { margin-bottom: 4rem; }
+
+  .akce-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+    grid-auto-rows: 1fr;
+  }
+
+  .akce-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+    overflow: hidden;
+    text-decoration: none;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    color: var(--color-text);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    transition: border-color 200ms ease, transform 200ms ease;
+    height: 100%;
+  }
+  .akce-card:hover {
+    border-color: var(--color-brass);
+    transform: translateY(-2px);
+  }
+  .akce-card-planned { border-color: var(--color-brass); }
+  .akce-card-placeholder {
+    opacity: 0.7;
+    border-style: dashed;
+  }
+
+  .akce-card-photo {
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background: var(--color-bg-deep);
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .akce-card-photo.has-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 400ms ease;
+    filter: sepia(0.1);
+  }
+  .akce-card:hover .akce-card-photo.has-photo img {
+    transform: scale(1.04);
+  }
+  .placeholder-photo {
+    color: var(--color-brass);
+    opacity: 0.4;
+  }
+  .placeholder-year {
+    font-family: var(--font-serif);
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--color-brass);
+    opacity: 0.4;
+    font-feature-settings: "lnum";
+  }
+
+  .akce-card-body {
+    padding: 1.25rem 1.5rem 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .akce-status {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.3rem;
+    font-weight: 500;
+  }
+  .akce-status.placeholder {
+    color: var(--color-text-muted);
+  }
+  .akce-card h3 {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.5rem;
+    line-height: 1.3;
+    border: none;
+    padding: 0;
+  }
+  .akce-card h3::before { content: none; }
+  .akce-meta {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--color-text-soft);
+  }
+  .akce-meta strong { color: var(--color-text); font-weight: 500; }
+  .akce-popis {
+    margin: 0.5rem 0 0;
+    font-size: 0.95rem;
+    color: var(--color-text);
+    line-height: 1.5;
+    flex: 1;
+  }
+
+  .akce-cta {
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    padding: 2rem;
+    text-align: center;
+  }
+  .akce-cta p {
+    color: var(--color-text);
+    max-width: 50ch;
+    margin: 0 auto;
+  }
+
+  /* Časová osa */
+  .akce-osa h2 { margin-bottom: 0.5rem; }
+  .osa-lede {
+    color: var(--color-text-soft);
+    font-size: 0.95rem;
+    font-style: italic;
+    margin: 0 0 1.5rem;
+  }
+  .osa {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    max-width: 880px;
+  }
+  .osa::before {
+    content: '';
+    position: absolute;
+    left: 70px;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    width: 2px;
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      color-mix(in srgb, var(--color-brass) 35%, transparent) 5%,
+      color-mix(in srgb, var(--color-brass) 35%, transparent) 95%,
+      transparent
+    );
+  }
+  @media (max-width: 600px) {
+    .osa::before { left: 12px; }
+  }
+  .osa-item {
+    position: relative;
+    padding: 0.4rem 0;
+  }
+  .osa-link {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 1.5rem;
+    padding: 0.6rem 0.75rem;
+    text-decoration: none;
+    color: var(--color-text);
+    border-radius: 2px;
+    border-bottom: none;
+    transition: background 150ms ease;
+  }
+  .osa-link:hover {
+    background: color-mix(in srgb, var(--color-brass) 6%, transparent);
+  }
+  @media (max-width: 600px) {
+    .osa-link {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+      padding-left: 2.25rem;
+    }
+  }
+  .osa-rok {
+    text-align: right;
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    font-feature-settings: "lnum";
+    font-style: italic;
+    position: relative;
+    padding-right: 1rem;
+  }
+  .osa-rok::after {
+    content: '';
+    position: absolute;
+    right: -7px;
+    top: 0.5rem;
+    width: 12px;
+    height: 12px;
+    background: var(--color-bg);
+    border: 2px solid var(--color-brass);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px var(--color-bg);
+    z-index: 1;
+  }
+  .osa-item.kat-planovana .osa-rok::after {
+    border-color: var(--color-brass-bright);
+    background: var(--color-brass);
+    box-shadow: 0 0 0 4px var(--color-bg), 0 0 0 5px var(--color-brass-bright);
+  }
+  .osa-item.kat-placeholder .osa-rok::after {
+    border-style: dashed;
+  }
+  /* Události spolku — měďový pin místo brass */
+  .osa-item.typ-udalost-spolku .osa-rok::after {
+    border-color: var(--color-copper);
+    background: color-mix(in srgb, var(--color-copper) 30%, var(--color-bg));
+  }
+  .legend-akce {
+    color: var(--color-brass);
+    font-weight: 700;
+  }
+  .legend-udalost {
+    color: var(--color-copper);
+    font-weight: 700;
+  }
+  @media (max-width: 600px) {
+    .osa-rok {
+      text-align: left;
+      padding-right: 0;
+      font-size: 1.05rem;
+    }
+    .osa-rok::after {
+      left: -28px;
+      right: auto;
+      top: 0.4rem;
+    }
+  }
+  .osa-obsah { padding-top: 0.1rem; }
+  .osa-schuze {
+    font-size: 0.65rem;
+    margin: 0 0 0.2rem;
+  }
+  .osa-nazev {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.25rem;
+    line-height: 1.3;
+    border: none;
+    padding: 0;
+  }
+  .osa-nazev::before { content: none; }
+  .osa-datum {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+  }
+  .osa-datum em {
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+
+  /* Mapa */
+  .akce-mapa-canvas {
+    width: 100%;
+    height: 480px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    background: var(--color-bg-deep);
+  }
+</style>

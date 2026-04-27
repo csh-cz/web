@@ -1,0 +1,217 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Licence obsahu" description="Texty na horologie.cz jsou pod licencí Creative Commons Attribution 4.0.">
+  <article class="licence-doc">
+    <header class="licence-header">
+      <p class="eyebrow mb-4">Pravidla užití</p>
+      <h1>Licence obsahu</h1>
+      <p class="lede">
+        Texty na <strong>horologie.cz</strong> jsou publikovány pod otevřenou
+        licencí <strong>Creative Commons Attribution 4.0 International
+        (CC&nbsp;BY&nbsp;4.0)</strong>. Stejně tak obsah sesterského webu
+        <a href="https://hodinarium.eu" target="_blank" rel="noopener">hodinarium.eu</a>.
+      </p>
+    </header>
+
+    <section class="licence-badge-block">
+      <a href="https://creativecommons.org/licenses/by/4.0/deed.cs" target="_blank" rel="license noopener" class="cc-badge" aria-label="Creative Commons Attribution 4.0 International">
+        <span class="cc-icon">CC</span>
+        <span class="cc-icon">BY</span>
+        <span class="cc-text">
+          <strong>CC&nbsp;BY&nbsp;4.0</strong>
+          <span class="cc-sub">Creative Commons · Uveďte autora 4.0 Mezinárodní</span>
+        </span>
+      </a>
+    </section>
+
+    <section class="licence-section">
+      <h2>Co můžeš dělat</h2>
+      <div class="rules-grid">
+        <div class="rule rule-allowed">
+          <span class="rule-icon">✓</span>
+          <h3>Sdílet</h3>
+          <p>Kopírovat a šířit materiál v jakémkoli médiu — texty na blog, citace v knize, výňatky v přednášce.</p>
+        </div>
+        <div class="rule rule-allowed">
+          <span class="rule-icon">✓</span>
+          <h3>Upravovat</h3>
+          <p>Měnit obsah, vytvářet odvozená díla — překládat, doplňovat o vlastní výzkum, kombinovat s jinými prameny.</p>
+        </div>
+        <div class="rule rule-allowed">
+          <span class="rule-icon">✓</span>
+          <h3>Komerčně i nekomerčně</h3>
+          <p>Bez omezení. Texty si může vzít komerční vydavatel i nezisková organizace.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="licence-section">
+      <h2>Jediná podmínka — uveďte autora</h2>
+      <p>Při sdílení nebo úpravě materiálu uveďte:</p>
+      <ol class="conditions">
+        <li><strong>Autora</strong> — Český spolek horologický&nbsp;z.&nbsp;s.</li>
+        <li><strong>Odkaz na zdroj</strong> — URL původního článku.</li>
+        <li><strong>Odkaz na licenci</strong> — <a href="https://creativecommons.org/licenses/by/4.0/deed.cs" target="_blank" rel="license noopener">CC&nbsp;BY&nbsp;4.0</a>.</li>
+        <li><strong>Pokud jste obsah upravili</strong>, jasně to uveďte.</li>
+      </ol>
+    </section>
+
+    <section class="licence-section">
+      <h2>Co licence nepokrývá</h2>
+      <ul class="exceptions">
+        <li><strong>Logo Českého spolku horologického</strong> — chráněno autorským právem, použití jen s výslovným souhlasem spolku.</li>
+        <li><strong>Stanovy a oficiální dokumenty spolku</strong> — jsou veřejné podle zákona o spolcích, ale jejich úprava (např. parodování) může být omezena.</li>
+        <li><strong>Účetní závěrky a interní dokumenty</strong> — jsou veřejné v rámci povinné transparentnosti spolku, ale jejich kontext patří spolku.</li>
+        <li><strong>Odkazované externí materiály</strong> (PDF z justice.cz, fotografie třetích stran) — řídí se licencí původního zdroje.</li>
+      </ul>
+    </section>
+
+    <section class="licence-section licence-cta">
+      <h2>Otázky k licenci</h2>
+      <p>
+        Plný text licence je na
+        <a href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank" rel="license noopener">creativecommons.org/licenses/by/4.0/legalcode</a>
+        (anglicky) nebo
+        <a href="https://creativecommons.org/licenses/by/4.0/deed.cs" target="_blank" rel="license noopener">v českém shrnutí</a>.
+      </p>
+      <p>
+        Pokud máš pochybnost, zda lze konkrétní použití pokrýt licencí, ozvi&nbsp;se
+        na <a href="mailto:info@orloj.eu">info@orloj.eu</a>.
+      </p>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .licence-doc {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .licence-header { margin-bottom: 2.5rem; }
+  .licence-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    line-height: 1.05;
+  }
+  .lede {
+    font-size: 1.15rem;
+    color: var(--color-text);
+    line-height: 1.6;
+    max-width: 64ch;
+  }
+
+  .licence-badge-block { margin: 0 0 3rem; }
+  .cc-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem 1.75rem;
+    background: var(--color-bg-elevated);
+    border: 2px solid var(--color-brass);
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: border-color 200ms ease;
+    border-bottom: 2px solid var(--color-brass);
+  }
+  .cc-badge:hover { border-color: var(--color-brass-bright); }
+  .cc-icon {
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-weight: 700;
+    font-size: 1.5rem;
+    width: 48px;
+    height: 48px;
+    border: 2px solid var(--color-brass);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-brass-bright);
+    flex-shrink: 0;
+  }
+  .cc-text { display: flex; flex-direction: column; gap: 0.15rem; }
+  .cc-text strong {
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--color-brass-bright);
+  }
+  .cc-text .cc-sub {
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+    font-style: italic;
+  }
+
+  .licence-section { margin-bottom: 3rem; }
+  .licence-section h3 {
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.5rem;
+  }
+
+  .rules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+  }
+  .rule {
+    padding: 1.5rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    border-left: 3px solid var(--color-brass);
+  }
+  .rule-icon {
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--color-brass);
+    color: var(--color-ink);
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 0.85rem;
+  }
+  .rule h3 { margin: 0 0 0.5rem; }
+  .rule p {
+    margin: 0;
+    color: var(--color-text);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .conditions {
+    list-style: decimal;
+    padding-left: 1.5rem;
+    color: var(--color-text);
+    line-height: 1.7;
+  }
+  .conditions li { margin-bottom: 0.5rem; }
+
+  .exceptions {
+    list-style: '— ';
+    padding-left: 1rem;
+    color: var(--color-text);
+    line-height: 1.6;
+  }
+  .exceptions li { margin-bottom: 0.75rem; }
+
+  .licence-cta {
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    padding: 2rem;
+  }
+  .licence-cta p {
+    margin: 0 0 1rem;
+    color: var(--color-text);
+  }
+  .licence-cta p:last-child { margin: 0; }
+</style>

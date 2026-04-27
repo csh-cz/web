@@ -1,0 +1,202 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import catalog from '../data/catalog.json';
+
+interface Entry {
+  slug: string;
+  title: string;
+  category: string;
+  thumbnail: string | null;
+  excerpt: string;
+  year: number | null;
+  imageCount: number;
+  wordCount: number;
+}
+
+const entries: Entry[] = catalog as Entry[];
+
+// Filtruj jen ty, co mají thumbnail (vizuálně bohaté)
+const withImage = entries.filter((e) => e.thumbnail);
+const withoutImage = entries.filter((e) => !e.thumbnail);
+
+const categories = ['decin', 'vezni-hodiny', 'sbirka', 'projekty', 'spolek', 'ostatni'];
+const categoryLabels: Record<string, string> = {
+  decin: 'Hodinárium Děčín',
+  'vezni-hodiny': 'Věžní hodiny',
+  sbirka: 'Sbírka',
+  projekty: 'Projekty',
+  spolek: 'Spolek',
+  ostatni: 'Ostatní',
+};
+---
+<Base title="Atlas" description="Vizuální katalog 218 hodin a artefaktů z webu Hodinária — náhledy, ročníky, kategorie.">
+  <header class="max-w-3xl mb-12">
+    <p class="eyebrow mb-4">Vizuální katalog</p>
+    <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Atlas</h1>
+    <p class="text-[var(--color-text)] leading-relaxed">
+      Všech <strong class="text-[var(--color-brass-bright)]">{entries.length}</strong> exponátů
+      a článků v jednom přehledu. Kliknutím se otevře detail, štítky filtrují podle kategorie.
+    </p>
+  </header>
+
+  <!-- Filtrovací panel -->
+  <nav class="atlas-filters mb-10" aria-label="Filtr kategorií">
+    <button class="atlas-filter active" data-filter="all">
+      Vše <span class="atlas-filter-count">{entries.length}</span>
+    </button>
+    {categories.map((cat) => {
+      const count = entries.filter((e) => e.category === cat).length;
+      if (count === 0) return null;
+      return (
+        <button class="atlas-filter" data-filter={cat}>
+          {categoryLabels[cat]} <span class="atlas-filter-count">{count}</span>
+        </button>
+      );
+    })}
+  </nav>
+
+  <div class="atlas-grid" id="atlas-grid">
+    {withImage.map((entry) => (
+      <div class="atlas-cell" data-category={entry.category}>
+        <Card
+          href={`/clanky/${entry.slug}`}
+          title={entry.title}
+          excerpt={entry.excerpt}
+          thumbnail={entry.thumbnail}
+          category={entry.category}
+          year={entry.year}
+          imageCount={entry.imageCount}
+        />
+      </div>
+    ))}
+    {withoutImage.map((entry) => (
+      <div class="atlas-cell" data-category={entry.category}>
+        <Card
+          href={`/clanky/${entry.slug}`}
+          title={entry.title}
+          excerpt={entry.excerpt}
+          thumbnail={null}
+          category={entry.category}
+          year={entry.year}
+          imageCount={entry.imageCount}
+        />
+      </div>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .atlas-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 20%, transparent);
+  }
+
+  .atlas-filter {
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    padding: 0.5rem 1rem;
+    font-family: var(--font-serif);
+    font-size: 0.95rem;
+    color: var(--color-text);
+    cursor: pointer;
+    transition: all 150ms ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .atlas-filter:hover {
+    border-color: var(--color-brass);
+    background: var(--color-bg-deep);
+    color: var(--color-brass-bright);
+  }
+
+  /* Aktivní filtr — pevná brass barva s tmavým inkoustem (kontrastní badge) */
+  .atlas-filter.active {
+    background: var(--color-brass);
+    border-color: var(--color-brass-bright);
+    color: var(--color-ink);
+    font-weight: 500;
+  }
+
+  .atlas-filter.active:hover {
+    background: var(--color-brass-bright);
+    color: var(--color-ink);
+  }
+
+  .atlas-filter-count {
+    background: var(--color-bg-deep);
+    color: var(--color-text);
+    font-size: 0.75rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 1px;
+    font-feature-settings: "lnum";
+    border: 1px solid color-mix(in srgb, var(--color-brass) 20%, transparent);
+  }
+
+  .atlas-filter.active .atlas-filter-count {
+    background: var(--color-ink);
+    color: var(--color-brass-bright);
+    border-color: transparent;
+  }
+
+  .atlas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+    grid-auto-rows: 1fr;   /* všechny karty stejně vysoké */
+  }
+
+  @media (min-width: 640px) {
+    .atlas-grid {
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.75rem;
+    }
+  }
+
+  .atlas-cell {
+    display: flex;        /* aby se card roztáhla na celou výšku cell */
+  }
+  .atlas-cell > * {
+    width: 100%;
+  }
+
+  .atlas-cell.hidden {
+    display: none;
+  }
+</style>
+
+<script>
+  const filters = document.querySelectorAll<HTMLButtonElement>('.atlas-filter');
+  const cells = document.querySelectorAll<HTMLElement>('.atlas-cell');
+
+  filters.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const target = btn.dataset.filter;
+      filters.forEach((b) => b.classList.toggle('active', b === btn));
+      cells.forEach((cell) => {
+        const cat = cell.dataset.category;
+        const show = target === 'all' || cat === target;
+        cell.classList.toggle('hidden', !show);
+      });
+      // Update URL hash for sharable filtered views
+      if (target && target !== 'all') {
+        history.replaceState(null, '', `#${target}`);
+      } else {
+        history.replaceState(null, '', '#');
+      }
+    });
+  });
+
+  // Aplikuj filtr z URL hash při načtení
+  const initialHash = location.hash.replace('#', '');
+  if (initialHash) {
+    const matchBtn = Array.from(filters).find((b) => b.dataset.filter === initialHash);
+    if (matchBtn) matchBtn.click();
+  }
+</script>

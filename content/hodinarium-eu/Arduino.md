@@ -1,0 +1,168 @@
+---
+title: "Hlavní NTP hodiny na bázi ESP8266 - NTPimpulzer + varianty"
+slug: "Arduino"
+category: "projekty"
+originalUrl: "https://hodinarium.eu/Arduino.htm"
+lastModified: "Mon, 16 Mar 2026 16:42:00 GMT"
+sourceCharset: "windows-1250"
+scrapedAt: "2026-04-27T17:37:09.887Z"
+---
+**[**pro třídrátový nepolarizovaný rozvod dle IBM**](/clanky/Arduino_IBM)**
+
+![Prototyp NTP Witty impulser](/img/arduino/NTP_W_E.jpg)Elektronika je stále výkonnější a levnější. I elektronické hodiny jsou stále přesnější, případně synchronizované dle DCF 77, GPS, sítě mobilních operátorů nebo z NTP servery Internetu. Pomalu ztrácí význam řešit sítě jednotného času na bázi rozvodů polarizovaných či stejnosměrných impulzů. Přesto jsou místa, kde takové sítě jsou vhodné. Přistoupili jsme proto k vývoji SW pro co nejlevnější variantu elektronických hlavních hodin na bázi modulu ESP8266 ESP-12F do napětí 24 V jak pro polarizované impulzy, tak i pro třídrátový rozvod nepolarizovaných pulzů hodin INTERNATIONAL.
+
+## Základní parametry navrhovaných hlavních hodin pro polarizované pulzy do 24V
+
+-   Časová synchronizace zajištěna NTP klientem na WiFi. Pro získání času musí být prvotně modul připojený do internetu. Do vypnutí může modul udávat čas s nižší přesností autonomně. Modul provede Scan okolí a umožní vybrat síť a zadat heslo.
+-   Pracovní napětí linek 6 - 24 V podle použitého napájecího zdroje. Maximální příkon jedné linky je 25 W. Obvykle je možné připojit minimálně 20 podružných hodin na každou linku.
+-   Automatické přepnutí na letní čas (Možnost trvale zvolit GMT.)
+-   Ukládání nastaveného času linky do (simulované nebo reálné) EEPROM paměti pro restart po výpadku.
+-   Nouzové ruční nastavení času podružných hodin tlačítkem rychlého chodu FAST.
+-   Komunikace s modulem prostřednictvím vnitřního webu. K webu se připojíte pomocí WiFi modulu nebo z místní sítě LAN. WiFi modul se hlásí jako síť se jménem obvykle NTPgenMI- plus 4 poslední znaky MAC adresy vysílače, aby bylo možné odlišit různé exempláře.
+    Vybrat lze jméno a zadat heslo sítě, ke které se modul připojuje a základní parametry. Lze nastavit čas zobrazený na podružných hodinách linky pro automatické seřízení linky. Web také zobrazuje posledních 25 řádek protokolu chodu. Parametry, které lze zvolit jsou tyto: SE(L)Č/GMT, 12:00/24:00, STOP chodu, délka pulzu a minimální mezery při rychlém chodu \[v rozsahu 75 - 4000 ms\]. Nastavovací web je chráněn heslem.
+-   Pro možnost dálkového sledování je připraven externí monitor.
+
+Naše řešení je minimalistické, bez zbytných zobrazovacích a nastavovacích prvků. Používá pouze moduly - řídící jednotku ESP8266 ESP-12F připojenou na WiFi síť pro prvotní získání času a vlastní řízení a výkonový modul s dvojitým H můstkem. Od verze 2 doplněné o EEPROM a step down zdroj. Výhodou je, že H můstek je původně určen pro řízení krokových motorů a proto obsahuje ochranné prvky pro připojení indukční zátěže cívek podružných hodin. ( Modul zároveň napětím 5V může napájet řídící jednotku. ) Pořizovací cena potřebných modulů jen několik málo stokorun.
+
+Přímé ruční ovládání je redukováno pouze na FAST tlačítko, které při normálním režimu aktivuje režim rychlého chodu a ruší příkaz STOP. Při startu způsobí vynechání pokusu o připojení k WiFi a umožní nastavit parametry. Indikuje se připojení pracovní napětí (na výkonovém modulu), malou modrou LED připojení k WiFi a RGB ledkou stav řídící jednotky (červená signalizuje čekání, modrá a zelená polaritu pulzu). Složitější ovládání řídící jednotky řeší monitorovací a nastavovací WEB na IP adrese 192.168.4.1 nebo na IP adrese určené sítí, ke které je připojena.
+
+Navržené hlavní hodiny mají přesnost danou synchronizací ze serveru NTP. Jednotka nemá vlastní RTC hodiny, při ztrátě spojení s NTP serverem určuje čas pomocí vnitřního rezonátoru. Při startu a připojení musí na prvotní získání aktuálního času počkat. ![Wifi ESP8266 ESP-12F](/img/arduino/schema_modulu_b.jpg)
+
+## Propojení modulů
+
+Schema pinů řídící jednotky je na obrázku. Jako výstupní jsou použity piny GPIO 12 a 13. Stav těchto pinů je signalizován zelenou a modrou LED v rámci RGB LED. Vedou na vstupní body můstku L298N Dual H Most DC označené jako In1 a In2 a paralelně na IN3 a IN4. Protože řídící deska nemá možnost snadného připojení vodičů, je doplněna základnou postavenou z univerzální desky a dutinkových konektorů. Výstupní dráty jsou k univerzální desce připájeny. Řídící desku lze vyjmout a připojit k její programovací základně.
+
+Na horním obrázku je zapojení ve variantě pro polarizované pulzy generované prvním z H můstků. Linka se připojuje do horních modrých svorek OUT1 a OUT2 L298N Dual H Mostu DC. (Od verze 2 i na OUT3 a OUT4). Pracovní napětí 24 V je přivedeno na svorky označené VCC a GND. Deska má vlastní stabilizátor 5 V pro potřeby vnitřní logiky desky. Zde u verze 1 je využit i k napájení Arduina. Napětí 5V je třeba připojit ze svorek 5V a GND na piny VCC a GND na řídící jednotce.
+
+## Připojení prohlížečem
+
+K řídící jednotce se můžeme připojit internetovým prohlížečem přímo na její WiFi. Jméno WiFi je obvykle NTPgenMI- plus MAC adresa zařízení. Připojení je bez hesla. Po připojení zadáme IP adresu 192.168.4.1 Pro vstup do ovládání je nutné zadat jméno admin a heslo, které bylo určeno při překladu programu. Připojit se jde i na IP přidělené WiFi sítí, pokud jsme připojeni k téže síti. Pravděpodobně nám nadřízený router nepřidělil veřejnou IP. Lze však za jistých nastaveních v firewallu nastavit DMZ tak, aby web impulzeru byl přístupný i od jinud. Podle mého názoru však nemá velký smysl nařizovat hlavní hodiny, když k nim nemám přístup.
+
+## Prvotní zadání jména a hesla WiFi sítě a nastavení všech parametrů
+
+Jak již bylo popsáno impulzer nemá vlastní nastavovací prvky, proto umožňuje veškerá nastavení pomocí mobilního telefonu či notebooku. Jednotka při startu spustí WiFi v režimu AP + STA a snaží se připojit k zadané WiFi. Režimy AP a STA jsou trochu konkurenční, tedy v případě, že se modul stále neúspěšně pokouší o připojení, nestíhá obsluhovat WEB. Aby i v tomto případě šlo zadat jméno a heslo sítě, program při stlačení FAST tlačítka při zapnutí přeskočí pokus o připojení a vstoupí rovnou do nastavovacího režimu PANIKA. Stav je signalizován rychlým blikáním červené LED.
+
+Další požnost je využití WPS režimu. Na routeru zmáčknětě WPS tlačítko a router krátkodobě umožní připojení bez hesla. V zápětí ihned po zapnutí řídící jednotky stiskněte FAST tlačítko na ESP modulu. ESP se připojí a zapamatuje si jmého sítě a heslo.
+
+Nastavovací web jednotky má čtyři stránky.
+
+![stranka 1](/img/arduino/E/Eimpulzer1.jpg)
+
+## Úvodní stránka
+
+Na stránce je v hlavičce uvedena MAC adresa bez oddělovacích dvojteček. V barevném rámečku je okno aktuálního stavu. Momentálně má olivovou barvu, je tedy vše v pořádku. Zobrazen je datum a čas dle NTP serveru. V dalším řádku je stav linky - zde 16:54 a kód stavu. Zde chod na základě záporného impulzu. Toto okno se obnovuje buď jednou za minutu nebo při rychlém chodu jednou za 2 sekundy.
+
+Kódy stavu jsou následující:
+
+-   GO+1, GO-1 = Normální chod; kladný nebo záporný impulz.
+    (Signalizují střídavě zelená a modrá LEDka.)
+
+-   FAST+1, FAST-1 = Rychlý krok celé linky pro dosažení aktuálního času po výpadku.
+
+-   WAIT = Čekání, až aktuální čas dosáhne stavu linky. Používá se maximálně pro odchylku do 60 minut.
+    (Při konci letního času se čeká.)
+-   STOP = Linka je zastavena povelem. Slouží například ke změně topologie linky.
+    (V tomto stavu červená LEDka každou minutu krátce blikne.)
+-   Všechny stavy - fialová barva značí poruchu EEPROM paměti. Po novém nastavení může impulzer do vypnutí fungovat.
+
+Další webové tlačítko umožňuje Zastavit nebo Spustit linku. Zastavení se doporučuje například při zadávání opravného stavu linky.
+
+Do formuláře času na hodinách se zadává aktuální hodnota zobrazená na hodinách. Pozor, zadává se bez oddělovacího znaku mezi hodinami a minutami tedy například 832 je ve významu 8:32. Po zadání dojde k automatickému nastavení podružných hodin na správný čas buď rychlým posunem nebo naopak vyčkáním na dosažený čas.
+
+Funkce nastavení linky byla rozšířena o možnost nastavení kalendářních hodin například CPJ061. Pokud je nastaven cyklus 24 hodin, je na stránce hlavních voleb výběrový seznam pro nastavení dne v týdnu, který hodiny ukazují. Pokud je zobrazený den v týdnu na hodinách odlišný od aktuálního dne, provede řídící jednotka tolik skupin 1440 impulzů, aby byl dosažen požadovaný den. Nastavení dne proběhne po nastavení hodin na požadovaný čas.
+
+## ![nastaveni WiFi](/img/arduino/E/Eimpulzer2.jpg)
+
+p>Další oblasti jsou tlačítka pro přechod na další nastavovací stránky: Připojení WiFi, Nastavení parametrů a Zobrazení protokolu chodu. Následuje několik stavových informací a tlačítko obnovení stránky Refresch.
+
+## Připojení k WiFi
+
+Na této stránce můžete nastavit připojení k nadřízené WiFi. Modul nejprve provede Scan sítí v okolí a nalezené sítě seřadí do výběrového menu. Zjišťování sítí nějakou dobu trvá, takže mějte trpělivost. Ve výběrovém řádku je síla signálu v dBm a SSID.
+
+Pokud to síť vyžaduje, zadáte heslo a případně i NTP server. Přednastavená hodnota cz.pool.ntp.org je pool českých NTP serverů. Pool znamená, že jsou automaticky NTP servery střídány, aby nedocházelo k přetěžování některého z nich. Většinou není vhodné toto nastavení měnit.
+
+Po zadání připojovacích informací modul restartuje.
+
+Ze stránky se můžete vrátit odkazem Zpět.
+
+Pokud se jednotka neúspěšně snaží připojit k nezadané či neexistující síti, případně s chybně zadaným heslem, je touto činností zcela vytížena a nestihne vysílat webové stránky.
+
+Dobu čekání lze zkrátit vyvoláním režimu PANIKA bez připojování k WiFi. Tento režim se hlásí rychlým blikáním červené LED. Režim vyvoláme stisknutím tlačítka FAST na modulu při zapnutí napájecího napětí. Automaticky jednotka do tohoto "panického" režimu přejde po cca 5 minutách marných pokusů o připojení. Bez prvotního získání času z NTP nemůže jednotka pracovat.
+
+![stránka 3](/img/arduino/E/Eimpulzer3b.jpg)
+
+## Nastavení parametrů
+
+-   SE(L)C - nastavení časového pásma; implicitně čas GMT.
+-   Cyklus 12:00 Při aktivace hodiny ukazují čas pouze v intervalu 00:00 až 12:00, jinak je cyklus 24 hodin.
+-   Opakovat poslední pulz (Tento parametr byl doplněn 5.9.2024 není na obrázku) Způsobí, že při startu zařízení se nejprve opakuje poslední vysílaný polarizovaný impulz. Na opakovaný polarizovaný impulz hodiny podružné hodiny typu Elektročas nereagují. Dojde však ke sjednocení hodin, pokud byly hlavní hodiny vypnuty právě během pulzu. Pokud v síti jsou hodiny reagující na nepolarizované pulzy, je potřeba volbu vypnout.
+-   Externí monitor Zapnutí nebo vypnutí vysílání dat pro externí monitor.
+-   Délka impulzu v rozmezí 75 až 4000 \[ms\].
+-   Délka mezery v rozmezí 75 až 4000 \[ms\]. (Uplatní se pouze při rychlém chodu.)
+-   Zadat Tlačítko pro provedení změn.
+-   RESTART Tlačítko pro vynucení restartu jednotky.
+-   Následují informace o místu a době připojení.
+-   Zpět \- návrat na úvodní stránku.
+
+Pozn. Ke změně voleb dojde až po zpracování v modulu ESP8266. Platné aktivní zatržení je signalizované podbarvením olivovou barvou.
+
+* * *
+
+* * *
+
+* * *
+
+## Extern¨í monitor dostupnýz internetu
+
+V levém okně běží reálný externí monitor NTP impulzeru. Zobrazuje kódový stav systému, nastavení linky, případnou existenci letního času a používanou délku pulzu a délku minimální mezery. Vzhledem k tomu, že NTPimpulzer má nastaveno několik možných AP, je zobrazeno jméno sítě, ke které je právě připojen a "síla" signálu. Pro rozlišení je uvedena i MAC adresa konkrétního NTPimpulzeru. V posledním řádku je datum a čas poslední aktualizace dat.
+
+Údaje monitoru nejsou internetové hodiny. Je to zpožděná informace o nastavení linky. Zpoždění je zejména proto, že na obrazovce vašeho počítače se nová hodnota objeví až nastane Refresch okna. Refresch je prováděn v normálním režimu jednou za minutu tak, aby byl několik sekund po celé minutě. Impulzer posílá tuto informaci až po dokončení pohybu ručiček.
+
+Je však třeba připomenout, že původní účel použitého čipu ESP8266, byl přenos sériové komunikace pomocí WiFi. Pro zpracovaní vlastního kódu se musí přerušit původní rutina obsluhující WiFi a když se zase její běh v krátkém čase neobnoví tak to může dělat různá zpoždění v komunikaci. Zároveň se asi uplatňují úspory napájení, kdy modul upadá do různě hlubokého spánku. To také lehce ovlivňuje přesnost odeslání impulzu. Tato chyba se však při připojení k NTP serveru nekumuluje a asi nebude v daném okamžiku větší než zlomek sekundy.
+
+##
+
+## Příklad použití pro historický podružný strojek s kývavou kotvou.
+
+Na videu v režimu nastavení na čas (FAST).
+
+## Odkazy na další použití a externí informace
+
+-   [Witty Cload Module Adapter Board](https://www.instructables.com/Witty-Cloud-Module-Adapter-Board/)
+-   [Vývojový modul ESP8266 ... eshop](https://www.hadex.cz/m430d-modul-wifi-esp8266-esp-12f-vyvojovy-modul-se-zakladnou-a-tlacitky/)
+-   [O ESP32 a ESP8266](https://www.root.cz/clanky/esp32-je-tu-co-prinese-nastupce-esp8266/)
+-   [H můstek ... eshop](https://dratek.cz/arduino/877-arduino-h-mustek-pro-krokovy-motor-l298n-dual-h-most-dc.html)
+-   [Mobatime](http://mobatime.cz)
+-   [Varianta NTP impulzeru pro IBM](/clanky/Arduino_IBM)
+-   [Arduino - nastavení pro časové zóny](https://sites.google.com/a/usapiens.com/opnode/time-zones)
+-   Jiná řešení jednoduchých impulzerů: [zajic.cz](http://zajic.cz/podruzsmd/podruzsmd.html), [maticni-hodiny-generator-minutovych-impulsu ...](http://www.snailshop.cz/maticni-hodiny/407-maticni-hodiny-generator-minutovych-impulsu.html)
+
+* * *
+
+* * *
+
+* * *
+
+![verze 2](/img/arduino/NTP_W_E_ver2.jpg)
+
+## Verze 2 od 2.8.2023
+
+Po asi ročním provozu jsem přikročil k vývoji druhé varianty. Tato varianta má vypuštěné volby Generování kódu P1, Generování kódu P2 a kódu Mobatime, protože se nepodařilo je vyvinout . Nicméně bych se někdy rád vrátil k jejich vývoji.
+
+Doplněno hlášení chyby EEPROM fialovou barvou ve všech režimech. Chyba vznikne v okamžiku, kdy se nepodaří zápis do EEPROM reálné či simulované. Podstatné je odstranění občasné chyby, kdy patrně při zakmitání napájecího napětí došlo k vymazání paměti nastavení. Patrně to bylo proto, že použité Arduino nemá reálnou paměť EEPROM. Tato paměť je u první varianty pouze softwarově simulovaná. Použitý HW druhé varianty je rozšířen o modul I2C EEPROM AT24C256. Tím je do impulzeru přidána reálná EEPROM paměť. Konstrukce se o několik desetikorun prodražila.
+
+Lehce se také zvětšila spotřeba energie. Při použití pro 24 V linku se vestavěný zdroj 5 V až moc zahříval. Na snímku přidán chladič bez většího úspěchu. Nakonec byl zdroj na desce H můstku vypnut a nahražen napájecím modulem Mini Step Down Buck 3A DC 5-23 na DC 1-17 umístěným pod desku ESP8266.
+
+V posledních verzích jsou zapojeny oba H můstky paralelně, takže lze řídit dvě výstupní linky. Zvýší se tak možnost připojení více podružných hodin. Zároveň je zvoleno takové propojení, že HW je pro střídavé i stejnosměrné impulzy ala IBM stejný. Liší se jen použitý SW.
+
+Funkce nastavení linky byla rozšířena o možnost nastavení kalendářních hodin například CPJ061. Pokud je nastaven cyklus 24 hodin, je na stránce hlavních voleb výběrový seznam pro nastavení dne v týdnu, který hodiny ukazují. Pokud je zobrazený den v týdnu na hodinách odlišný od aktuálního dne, provede řídící jednotka tolik skupin 1440 impulzů, aby byl dosažen požadovaný den. Nastavení dne proběhne po nastavení hodin na požadovaný čas.
+
+## Verze 2.1 od 12.3.2026
+
+Nová verze hardware má další step-down zdroj 5 V na 3.3 V pro napájení desky EEPROM. V software přibyl test, zda je fyzicky přítomný modul EEPROM. Pokud ne, řídící jednotka začne tento modul simulovat ve flash paměti ESP. Zařízení tak může fungovat i bez fyzického připojení paměťového modulu. Nevýhodou je občasná ztráta nastavení vznikající pravděpodobně při zakmitání napájecího napětí.
+
+Je také doplněna volba vypnutí nebo zapnutí funkce externího monitoru.
+
+Doplněna možnost nahrání nového SW ze serveru po wifi.
+
+Text, konstrukce, SW: Petr Král

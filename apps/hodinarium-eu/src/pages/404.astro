@@ -1,0 +1,159 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Stránka nenalezena (404)" description="Hledaná stránka neexistuje.">
+  <div class="not-found">
+    <p class="eyebrow mb-4">Chyba 404</p>
+    <h1 class="not-found-title">Stránka nenalezena</h1>
+    <p class="not-found-lede">
+      Tato cesta v expozici neexistuje. Možná byla přesunuta, nebo nikdy nebyla.
+    </p>
+
+    <div class="not-found-clock" aria-hidden="true">
+      <svg viewBox="0 0 200 200" width="120" height="120">
+        <circle cx="100" cy="100" r="90" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="4 6" />
+        <circle cx="100" cy="100" r="80" fill="none" stroke="currentColor" stroke-width="1" />
+        <line x1="100" y1="100" x2="100" y2="40" stroke="currentColor" stroke-width="3" stroke-linecap="round" transform="rotate(15 100 100)" />
+        <line x1="100" y1="100" x2="140" y2="100" stroke="currentColor" stroke-width="2" stroke-linecap="round" transform="rotate(-30 100 100)" />
+        <circle cx="100" cy="100" r="4" fill="currentColor" />
+        <text x="100" y="35" text-anchor="middle" font-family="serif" font-size="14" fill="currentColor">XII</text>
+        <text x="165" y="105" text-anchor="middle" font-family="serif" font-size="14" fill="currentColor">III</text>
+        <text x="100" y="175" text-anchor="middle" font-family="serif" font-size="14" fill="currentColor">VI</text>
+        <text x="35" y="105" text-anchor="middle" font-family="serif" font-size="14" fill="currentColor">IX</text>
+      </svg>
+    </div>
+
+    <div class="not-found-options">
+      <h2 class="text-xl mb-4" style="margin-top: 0;">Co můžeš zkusit</h2>
+      <ul class="not-found-list">
+        <li>
+          <a href="/">Začít znovu na titulce</a>
+          <span class="not-found-detail">— hero, statistiky, vybrané exponáty</span>
+        </li>
+        <li>
+          <a href="/atlas">Procházet Atlas</a>
+          <span class="not-found-detail">— vizuální katalog 218 hodin</span>
+        </li>
+        <li>
+          <a href="/mapa">Mapa věží a expozic</a>
+          <span class="not-found-detail">— 26 lokací v Česku a Evropě</span>
+        </li>
+        <li>
+          <a href="/casova-osa">Časová osa</a>
+          <span class="not-found-detail">— 600 let hodinařiny</span>
+        </li>
+        <li>
+          <button data-search-trigger class="not-found-search-btn">Vyhledat</button>
+          <span class="not-found-detail">— Cmd/Ctrl+K nebo lupa v navu</span>
+        </li>
+      </ul>
+    </div>
+
+    <p class="not-found-foot">
+      Pokud se sem dostáváš z externího odkazu, který by měl fungovat,
+      <a href="mailto:info@orloj.eu?subject=Rozbitý odkaz na hodinarium.eu">napiš nám</a>.
+    </p>
+  </div>
+</Base>
+
+<style>
+  .not-found {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 0 4rem;
+  }
+
+  .not-found-title {
+    font-family: var(--font-serif);
+    font-size: clamp(2.5rem, 8vw, 4.5rem);
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    line-height: 1;
+  }
+
+  .not-found-lede {
+    font-size: 1.2rem;
+    color: var(--color-text);
+    line-height: 1.55;
+    margin-bottom: 2.5rem;
+  }
+
+  .not-found-clock {
+    color: var(--color-brass);
+    margin: 0 auto 3rem;
+    opacity: 0.7;
+    animation: clock-spin 60s linear infinite;
+    transform-origin: center;
+  }
+
+  @keyframes clock-spin {
+    to { transform: rotate(360deg); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .not-found-clock { animation: none; }
+  }
+
+  .not-found-options {
+    text-align: left;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 20%, transparent);
+    border-radius: 2px;
+    padding: 1.5rem 1.75rem;
+    margin: 0 auto 2.5rem;
+    max-width: 480px;
+  }
+
+  .not-found-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+  }
+
+  .not-found-list li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .not-found-list a {
+    font-size: 1.05rem;
+    color: var(--color-brass-bright);
+    border-bottom: none;
+  }
+
+  .not-found-list a:hover {
+    color: var(--color-paper);
+  }
+
+  .not-found-detail {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+
+  .not-found-search-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    color: var(--color-brass-bright);
+    cursor: pointer;
+    text-align: left;
+  }
+  .not-found-search-btn:hover {
+    color: var(--color-paper);
+  }
+
+  .not-found-foot {
+    color: var(--color-text-muted);
+    font-style: italic;
+    font-size: 0.95rem;
+  }
+</style>

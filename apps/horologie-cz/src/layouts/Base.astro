@@ -1,0 +1,204 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  ogSlug?: string;
+}
+const { title, description, ogSlug } = Astro.props;
+const fullTitle = title === "Český spolek horologický" ? title : `${title} — Český spolek horologický`;
+const desc = description ?? "Český spolek horologický z. s. — sdružení obdivovatelů hodin, restaurátorů a tvůrců.";
+const site = Astro.site ?? new URL("https://horologie.cz");
+const canonical = new URL(Astro.url.pathname, site).toString();
+
+function ogSlugFromPath(path: string): string {
+  const p = path.replace(/\/$/, '').replace(/^\//, '');
+  if (p === '' || p === 'index') return 'home';
+  if (p.startsWith('clanky/')) return p.slice('clanky/'.length);
+  return p.split('/')[0];
+}
+const slug = ogSlug ?? ogSlugFromPath(Astro.url.pathname);
+const ogImage = new URL(`/og/${slug}.png`, site).toString();
+---
+<!DOCTYPE html>
+<html lang="cs" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#14110c" />
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={canonical} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="cs_CZ" />
+    <meta property="og:site_name" content="Český spolek horologický" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={fullTitle} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={desc} />
+
+    <!-- Licence: Creative Commons Attribution 4.0 International -->
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/" />
+    <meta name="dcterms.rights" content="© Český spolek horologický z. s. — CC BY 4.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" />
+    <title>{fullTitle}</title>
+  </head>
+  <body class="min-h-screen flex flex-col antialiased">
+    <a href="#hlavni-obsah" class="skip-link">Přeskočit na obsah</a>
+
+    <header class="site-header sticky top-0 z-20" role="banner">
+      <nav class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between gap-4" aria-label="Hlavní navigace">
+        <a href="/" class="brand" style="border-bottom: none;" aria-label="Český spolek horologický — domů">
+          <img src="/img/logo.jpg" alt="" width="36" height="37" />
+          <span class="hidden sm:inline">Český spolek horologický</span>
+          <span class="sm:hidden">ČSH</span>
+        </a>
+
+        <ul class="hidden md:flex gap-5 text-sm items-center" style="letter-spacing: 0.04em;">
+          <li><a href="/" style="border-bottom: none;">O spolku</a></li>
+          <li><a href="/akce" style="border-bottom: none;">Akce</a></li>
+          <li><a href="/prispevky" style="border-bottom: none;">Příspěvky</a></li>
+          <li><a href="/dokumenty" style="border-bottom: none;">Dokumenty</a></li>
+          <li><a href="/sponzoring" style="border-bottom: none;">Sponzoring</a></li>
+          <li><a href="/kontakt" style="border-bottom: none;">Kontakt</a></li>
+          <li>
+            <a href="https://hodinarium.eu" target="_blank" rel="noopener" class="nav-sister" style="border-bottom: none;" aria-label="Hodinárium — webová expozice (otevře se v novém okně)">
+              Hodinárium&nbsp;↗
+            </a>
+          </li>
+          <li>
+            <a href="https://orloj.eu" target="_blank" rel="noopener" class="nav-sister" style="border-bottom: none;" aria-label="Orloj.eu — Pražský orloj (otevře se v novém okně)">
+              Orloj.eu&nbsp;↗
+            </a>
+          </li>
+        </ul>
+
+        <details class="md:hidden relative">
+          <summary class="list-none cursor-pointer p-2 -m-2 select-none" aria-label="Otevřít menu">
+            <svg class="h-6 w-6 text-[var(--color-brass-bright)]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </summary>
+          <ul class="mobile-menu absolute right-0 top-full mt-2 w-60 py-1">
+            <li><a href="/" style="border-bottom: none;">O spolku</a></li>
+            <li><a href="/akce" style="border-bottom: none;">Akce spolku</a></li>
+            <li><a href="/prispevky" style="border-bottom: none;">Příspěvky na schůzích</a></li>
+            <li><a href="/dokumenty" style="border-bottom: none;">Dokumenty</a></li>
+            <li><a href="/sponzoring" style="border-bottom: none;">Sponzoring</a></li>
+            <li><a href="/kontakt" style="border-bottom: none;">Kontakt</a></li>
+            <li><a href="https://hodinarium.eu" target="_blank" rel="noopener" style="border-bottom: none;">Hodinárium&nbsp;↗</a></li>
+            <li><a href="https://orloj.eu" target="_blank" rel="noopener" style="border-bottom: none;">Orloj.eu&nbsp;↗</a></li>
+          </ul>
+        </details>
+      </nav>
+    </header>
+
+    <main id="hlavni-obsah" class="flex-1 max-w-5xl mx-auto px-6 py-10 md:py-16 w-full" role="main" tabindex="-1">
+      <slot />
+    </main>
+
+    <footer class="site-footer mt-20" role="contentinfo">
+      <div class="max-w-5xl mx-auto px-6 py-10 text-sm text-[var(--color-text-muted)]">
+        <div class="footer-grid">
+          <div>
+            <h3 class="footer-h">Spolek</h3>
+            <ul>
+              <li><a href="/">O spolku</a></li>
+              <li><a href="/akce">Akce</a></li>
+              <li><a href="/prispevky">Příspěvky</a></li>
+              <li><a href="/dokumenty">Dokumenty</a></li>
+              <li><a href="/sponzoring">Sponzoring</a></li>
+              <li><a href="/kontakt">Kontakt</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-h">Sesterské weby</h3>
+            <ul>
+              <li><a href="https://hodinarium.eu" target="_blank" rel="noopener">Hodinárium ↗</a></li>
+              <li><a href="https://orloj.eu" target="_blank" rel="noopener">Orloj.eu ↗</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-h">Sociální sítě</h3>
+            <ul>
+              <li><a href="https://www.facebook.com/Hodin%C3%A1rium-%C4%8Cesk%C3%BD-spolek-horologick%C3%BD-169939123371944" target="_blank" rel="noopener">Facebook ↗</a></li>
+              <li><a href="https://www.youtube.com/@muzeum_veznich_hodin" target="_blank" rel="noopener">YouTube ↗</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-h">Kontakt</h3>
+            <ul>
+              <li><a href="mailto:info@orloj.eu">info@orloj.eu</a></li>
+              <li><a href="tel:+420603502735">+420 603 502 735</a></li>
+              <li>nábřeží Otakara Ostrčila 273/6,<br/>392&nbsp;01 Soběslav&nbsp;III</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>Český spolek horologický&nbsp;z.&nbsp;s. · IČO 26573008</span>
+          <span class="footer-licence">
+            Obsah pod licencí
+            <a href="/licence" rel="license" class="cc-mini">
+              <span class="cc-mini-icon">CC</span><span class="cc-mini-icon">BY</span>
+              <span>CC&nbsp;BY&nbsp;4.0</span>
+            </a>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: var(--color-brass-bright);
+    font-size: 1rem;
+    flex-shrink: 0;
+  }
+  .brand img {
+    border-radius: 2px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    object-fit: cover;
+    width: 36px;
+    height: 37px;
+  }
+  .nav-sister {
+    color: var(--color-copper) !important;
+  }
+  .nav-sister:hover {
+    color: var(--color-brass-bright) !important;
+  }
+  .mobile-menu {
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  }
+  .mobile-menu a {
+    display: block;
+    padding: 0.85rem 1.1rem;
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 8%, transparent);
+  }
+  .mobile-menu li:last-child a {
+    border-bottom: none;
+  }
+  .mobile-menu a:hover {
+    background: color-mix(in srgb, var(--color-brass) 8%, transparent);
+  }
+</style>

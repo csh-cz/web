@@ -1,0 +1,143 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Kontakt" description="Kontaktní údaje Českého spolku horologického.">
+  <header class="kontakt-header">
+    <p class="eyebrow mb-4">Spojte se</p>
+    <h1>Kontakt</h1>
+  </header>
+
+  <section class="kontakt-section">
+    <h2>Spolek</h2>
+    <dl>
+      <div>
+        <dt>Plný název</dt>
+        <dd>Český spolek horologický z. s.</dd>
+      </div>
+      <div>
+        <dt>IČO</dt>
+        <dd>26573008</dd>
+      </div>
+      <div>
+        <dt>Sídlo</dt>
+        <dd>nábřeží Otakara Ostrčila 273/6,<br/>392 01 Soběslav III</dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="kontakt-section">
+    <h2>Spojení</h2>
+    <dl>
+      <div>
+        <dt>E-mail</dt>
+        <dd><a href="mailto:info@orloj.eu">info@orloj.eu</a></dd>
+      </div>
+      <div>
+        <dt>Telefon</dt>
+        <dd><a href="tel:+420603502735">+420 603 502 735</a></dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="kontakt-section">
+    <h2>Sociální sítě</h2>
+    <ul class="links-list">
+      <li>
+        <a href="https://www.facebook.com/Hodin%C3%A1rium-%C4%8Cesk%C3%BD-spolek-horologick%C3%BD-169939123371944" target="_blank" rel="noopener">
+          Facebook ↗
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/@muzeum_veznich_hodin" target="_blank" rel="noopener">
+          YouTube — Muzeum věžních hodin ↗
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="kontakt-section">
+    <h2>Sesterské weby</h2>
+    <ul class="links-list">
+      <li>
+        <a href="https://hodinarium.eu" target="_blank" rel="noopener">
+          Hodinárium — webová expozice ↗
+        </a>
+      </li>
+      <li>
+        <a href="https://orloj.eu" target="_blank" rel="noopener">
+          Orloj.eu — encyklopedie Pražského orloje ↗
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="kontakt-section">
+    <h2>Návštěva expozice</h2>
+    <p>
+      Fyzická expozice <strong class="text-[var(--color-brass-bright)]">Hodinárium Děčín</strong>
+      sídlí na zámku Děčín. Otevírací doba a aktuální program najdeš na
+      <a href="https://www.zamekdecin.cz/program/vystava-decinske-hodinarium" target="_blank" rel="noopener">webu zámku Děčín</a>
+      nebo v sekci <a href="https://hodinarium.eu/decin" target="_blank" rel="noopener">Hodinárium → Děčín ↗</a>.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .kontakt-header {
+    margin-bottom: 3rem;
+  }
+  .kontakt-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--color-brass-bright);
+    margin: 0;
+    line-height: 1.05;
+  }
+
+  .kontakt-section {
+    margin-bottom: 3rem;
+    max-width: 720px;
+  }
+
+  dl {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+  @media (min-width: 640px) {
+    dl {
+      grid-template-columns: 200px 1fr;
+      gap: 0.5rem 1.5rem;
+    }
+    dl div {
+      display: contents;
+    }
+  }
+  dt {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-copper);
+    font-weight: 500;
+    margin: 0;
+  }
+  dd {
+    margin: 0;
+    color: var(--color-text);
+    font-size: 1.05rem;
+    line-height: 1.5;
+  }
+
+  .links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .links-list a {
+    font-size: 1.05rem;
+  }
+</style>

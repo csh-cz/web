@@ -1,0 +1,360 @@
+Audit nového webu hodinária — k vyplnění
+=========================================
+
+Ahoj Petře,
+
+zmigroval jsem hodinarium.eu do nového stacku. Funkčně to běží, ale
+v některých bodech potřebuju tvoji autoritu. Pod každým bodem máš
+prostor pro odpověď. Prázdné body znamenají "ano, pokračuj jak
+navrhuješ". Pokud ti něco nedává smysl, napiš "???", projdeme telefonem.
+
+
+===========================================================
+A. STRATEGICKÁ ROZHODNUTÍ
+===========================================================
+
+
+-----------------------------------------------------------
+A1. Licence obsahu
+-----------------------------------------------------------
+
+Texty jsou momentálně 1:1 ze starého webu. Než nový web zveřejníme,
+musíme vědět, pod jakou licencí se obsah publikuje.
+
+Možnosti:
+
+  - CC-BY 4.0 — kdokoli může text používat (Wikipedie, knihy, jiné
+    weby) s uvedením autora.
+
+  - CC-BY-NC 4.0 — totéž, ale jen nekomerčně (= nesmí to dát
+    do placené knihy bez naší dohody).
+
+  - All rights reserved — nikdo bez výslovného souhlasu nepřebírá.
+
+  - Stejné jako dnes — pokud existuje stávající rozhodnutí, drž
+    se ho.
+
+Doporučuju CC-BY 4.0 (otevřenost odpovídá poslání spolku — popularizovat).
+
+Tvoje odpověď:
+
+
+
+-----------------------------------------------------------
+A2. Hospodaření 2020–2025
+-----------------------------------------------------------
+
+Web má PDF za roky 2016, 2017, 2018, 2019, pak nic. Dvě otázky:
+
+  - Chceme hospodaření na webu vůbec mít? Zákonem se ukládá
+    do spolkového rejstříku, ne na vlastní web. Pokud ho ale chceme
+    transparentně zveřejnit (image spolku), je třeba udržovat
+    aktuální.
+
+  - Pokud ano: dodáš mi PDF za 2020–2025?
+
+Tvoje odpověď:
+
+
+
+-----------------------------------------------------------
+A3. Maskovaná emailová adresa
+-----------------------------------------------------------
+
+Na šesti stránkách starého webu je email napsaný jako
+"info (kyselá ryba) orloj . eu" — pravděpodobně původně proti spam
+robotům.
+
+V roce 2026 to ale moderní spam roboti přečtou bez problémů, takže
+maskování vlastně chrání jen lidské uživatele před tím, aby si email
+mohli otevřít kliknutím. Doporučuju nahradit obyčejným klikatelným
+"info@orloj.eu". Souhlasíš?
+
+Tvoje odpověď:
+
+
+
+===========================================================
+B. DATA, KTERÁ POTŘEBUJU ZKONTROLOVAT
+===========================================================
+
+
+-----------------------------------------------------------
+B1. Časová osa
+-----------------------------------------------------------
+
+Sestavil jsem návrh časové osy se 17 milníky 1410–2025. Ideálně by
+to měla být osa, která propojuje **historické události** s **konkrétními
+exponáty**, které k nim ve sbírce máme. Stojí za to ji projít, doplnit
+a hlavně provázat s exponáty (každý milník by mohl odkazovat na článek
+o konkrétním stroji nebo restaurování).
+
+Návrh, který tam je teď:
+
+   1. 1410     — Pražský orloj, Mikuláš z Kadaně
+   2. ~1484?   — Soběslav, věžní stroj
+   3. 1490     — Mistr Hanuš (Jan Růže), kalendárium
+   4. 1499     — Torre dell'Orologio, Benátky
+   5. 1570     — Jan Táborský, zpráva o orloji
+   6. 1700     — vznik švarcvaldek (datum hrubě odhadnuto)
+   7. 1857     — Prokešův model orloje
+   8. 1865     — Mánesovy desky
+   9. 1911     — Steinich-Hassenteufel model
+  10. 1930     — generální oprava orloje
+  11. 1948     — poválečná rekonstrukce orloje
+  12. 2009     — vznik Virtuálního muzea hodin o.s.
+  13. 2011     — oprava orloje, kohout
+  14. 2014     — přeměna na CSH
+  15. 2015     — otevření Hodinária Děčín
+  16. 2018     — generální oprava orloje
+  17. 2025     — ASTRO2 ESP01S
+
+Co bys přidal, opravil, vyhodil — a které milníky bys chtěl propojit
+s konkrétním exponátem ze sbírky:
+
+
+
+-----------------------------------------------------------
+B2. ASTRO2 — překlep ESP01S vs ESP10S
+-----------------------------------------------------------
+
+V článku astro2_NTP se text vyskytuje v obou variantách:
+
+  "Řídí jí modul ESP01S"
+  "Koupil jsem si proto programovací adaptér na modul ESP10S"
+
+Je to překlep, nebo jde o dva různé moduly v různých fázích projektu?
+
+Tvoje odpověď:
+
+
+
+-----------------------------------------------------------
+B3. Vybrané exponáty per sekce
+-----------------------------------------------------------
+
+V každé sekci jsem vybral 4 nejvýraznější články, které se zobrazují
+nahoře. Jsou to ty, co považuješ za nejcennější / nejvíc reprezentativní?
+Pokud ne, napiš lepší výběr (názvy nebo identifikátory článků).
+
+
+Sbírka (/sbirka):
+  - svarcvaldky        — Švarcvaldky obecně
+  - vodni              — Vodní hodiny
+  - kvetinove          — Květinové hodiny
+  - rimskedigi         — Římské digitálky
+
+Tvůj výběr:
+
+
+
+Projekty (/projekty):
+  - astro2_NTP         — ASTRO2 astronomické
+  - Arduino            — Arduino DIY úvod
+  - GPS_Sakul          — GPS Sakul NTP
+  - propeller_clock    — Propeller clock
+
+Tvůj výběr:
+
+
+
+Hodinárium Děčín (/decin):
+  - decin_koncepce     — koncepce expozice
+  - decin_zamek        — zámek a okolí
+  - decin_aktual0      — stěhování 2015
+  - decin_dalsi_stroje — exponáty
+
+Tvůj výběr:
+
+
+
+Věžní hodiny (/vezni-hodiny):
+  - sobeslav3              — Soběslavský stroj
+  - bychory_zvonici_stroj  — Býchorský budík
+  - rozmberk1              — Rožmberk
+  - janovice               — Janovice
+
+Tvůj výběr:
+
+
+
+-----------------------------------------------------------
+B4. Otazníky v titulcích
+-----------------------------------------------------------
+
+Pět článků má v titulku "??":
+
+  1. Doba dřevěná — švarcvaldky v 17. století ??
+  2. Jsou v Kardašově Řečici hodiny mistra Hanuše ??
+  3. Soběslavské hodiny z 15. století ??
+  4. Vyšívané květinové hodiny — hodiny jedna báseň ??
+  5. Stroj Radošov ??
+
+Drobnost: opravdu musí být ty otazníky dva? :-)
+
+Tvoje odpověď:
+
+
+
+-----------------------------------------------------------
+B5. Datace článků
+-----------------------------------------------------------
+
+Skript vyextrahuje rok z textu automaticky. U 14 článků mu vyšel
+rok < 1500, což je často chybné — chytl číslo z citace nebo poznámky,
+ne datace samotného exponátu. Klíčové prosím opravit:
+
+  - decin_chronulator   — vyšlo 1353. Skutečnost?
+  - vez_Budislav        — vyšlo 1357. Skutečnost?
+  - decin_velika_ves    — vyšlo 1340. (Torzo gotického stroje)
+                          Skutečnost?
+  - kalendar_rimsky     — vyšlo 1465. Skutečnost?
+  - kardasova_recice    — vyšlo 1493. Skutečnost?
+
+Tvé správné roky:
+
+
+
+-----------------------------------------------------------
+B6. Aktuální info Hodinária Děčín
+-----------------------------------------------------------
+
+Web ukazuje sezóny 2015 → 2018. Co bych měl doplnit za roky
+2019 → 2026?
+
+  - Otevírací doba (letní vs zimní)?
+  - Vstupné?
+  - Aktuálně probíhající výstava / exponát?
+  - Plánované akce 2026?
+  - Adresa (Zámek Děčín, Dlouhá jízda 1254 — správně?)
+
+Tvoje info:
+
+
+
+-----------------------------------------------------------
+B7. Kategorizace 124 nezařazených článků
+-----------------------------------------------------------
+
+Skript automaticky řadí článek do sekce podle jeho názvu (ze starého
+webu). 124 článků zůstalo nezařazených (~57 % obsahu). Většinu strojem
+dotáhnu (všechny vez_* → věžní, všechny slunecni_* → sbírka), ale
+20–30 zůstane sporných.
+
+Až ti pošlu seznam těch sporných, můžeš za každým napsat kategorii?
+(Sbírka / Projekty / Děčín / Věžní / Spolek)
+
+Souhlas s tímto postupem (ano/ne, případně jiný návrh):
+
+
+
+-----------------------------------------------------------
+B8. NTPH a NTPH_st — duplikát?
+-----------------------------------------------------------
+
+Máme dva články s téměř identickým obsahem:
+
+  - NTPH    — "Hodiny NTPH..."
+  - NTPH_st — "Hodiny NTPH..." (starší verze návodu)
+
+Z textu vyplývá, že NTPH_st = "starší", NTPH = "nová". Mám:
+
+  (a) Nechat oba, jak jsou (historie),
+  (b) Sloučit do jednoho s odkazem "starší verze návodu zde",
+  (c) NTPH_st úplně vyhodit.
+
+Tvoje odpověď:
+
+
+
+===========================================================
+C. DROBNOSTI O VZHLEDU
+===========================================================
+
+
+-----------------------------------------------------------
+C1. Titulní obrázek
+-----------------------------------------------------------
+
+Titulka je teď textová (název "Hodinárium" + statistiky). Co tam
+dáme za fotku? 
+
+Tvoje odpověď:
+
+
+
+-----------------------------------------------------------
+C2. Logo
+-----------------------------------------------------------
+
+Nemáme logo. Stávající web má jen textovou grafiku
+"nadpis_hodinarium1.gif". Mám:
+
+  (a) Použít stávající logo CSH (logo_CSH_110.jpg) — ale je
+      jen 110×113 px, na nový web nestačí kvalita.
+
+  (b) Zachovat jen text "Hodinárium" v sériofovém fontu (tak
+      to je teď).
+
+  (c) Vyhlásit do pléna členů spolku soutěž na nové logo
+      hodinária — zhotovit by to mohl třeba někdo z členů
+      nebo známý grafik.
+
+   (d) použít to původní textové logo, ale moc se mi tedy nelíbí.
+
+Tvoje odpověď:
+
+
+
+-----------------------------------------------------------
+C3. Sponzoři
+-----------------------------------------------------------
+
+Stránka sponsor.md se seznamem sponzorů — patří do hodinária nebo
+do spolku?
+
+  - Když sponzor podporuje provoz expozice v Děčíně → spíš
+    hodinárium.
+
+  - Když sponzor podporuje spolek jako celek (web, akce, údržba)
+    → spíš spolek.
+
+Aktuálně je sponzoring v sekci /spolek. Mám to nechat tam, nebo
+přesunout / zveřejnit na obou místech?
+
+Tvoje odpověď:
+
+
+
+===========================================================
+D. TECHNICKÉ NÁLEZY (na info — opravím sám, nepotřebuju
+   tvoji odpověď, jen aby ses nelekl, co ti napadne)
+===========================================================
+
+Při auditu jsem našel pár drobností, které opravím strojově:
+
+  - 380 obrázků v původním webu má rozlišení < 200×200 px.
+    Byly to "thumbnaily" pro Highslide widget. V novém Atlasu
+    vypadají rozmazaně. Pokud existuje "velká verze" (obvykle
+    ano), automaticky ji použiju místo náhledu.
+
+  - Překlep "nastavovajího" v astro2_NTP (správně "nastavovacího").
+
+  - Drobnost "vtělil čas" v alzbeta — předpokládám "ohlásil čas".
+    Opravit?
+
+  - Patičkové ozdoby ze starého webu (15 ikon < 3 KB) — vyhodím
+    z lokálního archivu, nepoužívají se.
+
+
+Tvoje odpověď (jen pokud se nedá s něčím souhlasit):
+
+
+
+===========================================================
+KONEC
+===========================================================
+
+Díky za čas — nespěchám, vyplň po troškách.
+
+David

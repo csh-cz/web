@@ -1,0 +1,10 @@
+# Cloudflare Pages konfigurace pro hodinarium.eu
+# https://developers.cloudflare.com/pages/
+
+name = "hodinarium-eu"
+compatibility_date = "2026-04-27"
+pages_build_output_dir = "dist"
+
+# Build se spouští v CI (GitHub Actions / Cloudflare Pages CI),
+# tady jsou jen runtime nastavení. Pro lokální preview použij:
+#   pnpm build && pnpm wrangler pages dev dist

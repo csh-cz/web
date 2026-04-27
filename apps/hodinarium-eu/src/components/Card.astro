@@ -1,0 +1,168 @@
+---
+interface Props {
+  href: string;
+  title: string;
+  excerpt?: string;
+  thumbnail?: string | null;
+  category?: string;
+  year?: number | null;
+  imageCount?: number;
+  external?: boolean;
+}
+
+const { href, title, excerpt, thumbnail, category, year, imageCount, external } = Astro.props;
+
+const categoryLabels: Record<string, string> = {
+  decin: 'Děčín',
+  'vezni-hodiny': 'Věžní',
+  sbirka: 'Sbírka',
+  projekty: 'Projekt',
+  spolek: 'Spolek',
+  ostatni: '',
+};
+---
+<a href={href} class="atlas-card" rel={external ? 'noopener' : undefined} target={external ? '_blank' : undefined}>
+  <div class="atlas-card-photo">
+    {thumbnail ? (
+      <img src={thumbnail} alt="" loading="lazy" decoding="async" />
+    ) : (
+      <div class="atlas-card-photo-placeholder">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true">
+          <circle cx="12" cy="12" r="9" />
+          <path d="M12 7v5l3 2" stroke-linecap="round" />
+        </svg>
+      </div>
+    )}
+    {imageCount && imageCount > 1 && (
+      <span class="atlas-card-badge" aria-label={`${imageCount} fotografií`}>
+        {imageCount}&nbsp;fotek
+      </span>
+    )}
+  </div>
+  <div class="atlas-card-body">
+    <div class="atlas-card-meta">
+      {category && categoryLabels[category] && (
+        <span class="eyebrow">{categoryLabels[category]}</span>
+      )}
+      {year && <span class="atlas-card-year">{year}</span>}
+    </div>
+    <h3 class="atlas-card-title">{title}{external && <span class="text-sm">&nbsp;↗</span>}</h3>
+    {excerpt && <p class="atlas-card-excerpt">{excerpt}</p>}
+  </div>
+</a>
+
+<style>
+  .atlas-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 20%, transparent);
+    border-radius: 2px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: border-color 200ms ease, transform 200ms ease, box-shadow 200ms ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    color: var(--color-text);
+    height: 100%;          /* roztáhnout na výšku grid řádku */
+  }
+  .atlas-card:hover {
+    border-color: var(--color-brass);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
+  }
+
+  .atlas-card-photo {
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    position: relative;
+    background: var(--color-bg-deep);
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+  }
+  .atlas-card-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 600ms ease, filter 200ms ease;
+    filter: sepia(0.15) saturate(0.85);
+  }
+  .atlas-card:hover .atlas-card-photo img {
+    transform: scale(1.04);
+    filter: sepia(0) saturate(1);
+  }
+  .atlas-card-photo-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: var(--color-brass);
+    opacity: 0.3;
+  }
+  .atlas-card-photo-placeholder svg {
+    width: 50%;
+    height: 50%;
+    max-width: 80px;
+  }
+
+  .atlas-card-badge {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background: rgba(20, 16, 12, 0.85);
+    color: var(--color-brass-bright);
+    padding: 0.15rem 0.5rem;
+    font-size: 0.75rem;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 1px;
+    backdrop-filter: blur(2px);
+  }
+
+  .atlas-card-body {
+    padding: 1.1rem 1.2rem 1.3rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    min-height: 170px;     /* aby byla výška obsahu konzistentní */
+  }
+
+  .atlas-card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+  .atlas-card-year {
+    font-size: 0.85rem;
+    color: var(--color-copper);
+    font-style: italic;
+    font-feature-settings: "lnum";
+  }
+
+  .atlas-card-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.25;
+    color: var(--color-brass-bright);
+    margin: 0;
+    /* Limit titulu na 2 řádky, ať se karta nelíhne */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 3em;       /* rezervovat 2 řádky i pro krátké tituly */
+  }
+
+  .atlas-card-excerpt {
+    color: var(--color-text-soft);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    flex: 1;               /* roztáhnout na zbylou výšku těla */
+  }
+</style>

@@ -1,0 +1,413 @@
+---
+import Base from "./Base.astro";
+import Card from "../components/Card.astro";
+import catalog from "../data/catalog.json";
+import { lokace } from "../data/lokace";
+import { milniky } from "../data/milniky";
+
+interface CatalogEntry {
+  slug: string;
+  title: string;
+  category: string;
+  thumbnail: string | null;
+  excerpt: string;
+  year: number | null;
+  imageCount: number;
+  wordCount: number;
+}
+
+interface Props {
+  title: string;
+  description?: string;
+  originalUrl?: string;
+  lastModified?: string;
+  tldr?: string;
+  category?: string;
+  slug?: string;
+}
+const { title, description, originalUrl, lastModified, tldr, category, slug } = Astro.props;
+
+// Cross-reference: má tento článek odpovídající lokaci na mapě?
+const onMap = slug ? lokace.find((l) => l.slug === slug) : undefined;
+// Cross-reference: má tento článek milník na časové ose?
+const onTimeline = slug ? milniky.find((m) => m.slug === slug) : undefined;
+
+const categoryLabels: Record<string, string> = {
+  decin: 'Hodinárium Děčín',
+  'vezni-hodiny': 'Věžní hodiny',
+  sbirka: 'Sbírka',
+  projekty: 'Projekty',
+  ostatni: 'Hodinárium',
+};
+
+const all = catalog as CatalogEntry[];
+const me = slug ? all.find((e) => e.slug === slug) : undefined;
+const objectNumber = me ? `HOD-${(me.year ?? '????').toString().slice(-4)}-${slug?.toUpperCase().slice(0, 8)}` : null;
+
+// Related: 4 ze stejné kategorie, ne já, preferovat ty s thumbnailem
+const related = me
+  ? all
+      .filter((e) => e.category === me.category && e.slug !== me.slug && e.thumbnail)
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 4)
+  : [];
+
+const expoziceLabel = category === 'decin' ? 'Hodinárium Děčín — fyzická expozice' : null;
+---
+<Base title={title} description={description}>
+  <!-- Breadcrumbs -->
+  <nav class="breadcrumbs" aria-label="Drobečková navigace">
+    <a href="/">Hodinárium</a>
+    <span aria-hidden="true">›</span>
+    {category && (
+      <>
+        <a href={`/atlas#${category}`}>{categoryLabels[category]}</a>
+        <span aria-hidden="true">›</span>
+      </>
+    )}
+    <span class="current" aria-current="page">{title}</span>
+  </nav>
+
+  <article class="article-grid">
+    <!-- Hlavní sloupec: nadpis + body -->
+    <div class="article-main">
+      <header class="article-header">
+        {category && (
+          <p class="eyebrow mb-3">{categoryLabels[category] ?? category}</p>
+        )}
+        <h1 class="article-title">{title}</h1>
+        {tldr && (
+          <aside class="tldr" aria-label="Stručné shrnutí">
+            <span class="tldr-label">Stručně:</span>{tldr}
+          </aside>
+        )}
+      </header>
+
+      <div class="prose-content drop-cap">
+        <slot />
+      </div>
+
+      <div class="fleuron"></div>
+
+      {related.length > 0 && (
+        <section class="related" aria-labelledby="related-heading">
+          <header class="mb-6">
+            <p class="eyebrow mb-2">Mohlo by vás zajímat</p>
+            <h2 id="related-heading" class="text-2xl" style="margin-top: 0;">Související exponáty</h2>
+          </header>
+          <div class="related-grid">
+            {related.map((r) => (
+              <Card
+                href={`/clanky/${r.slug}`}
+                title={r.title}
+                excerpt={r.excerpt}
+                thumbnail={r.thumbnail}
+                category={r.category}
+                year={r.year}
+                imageCount={r.imageCount}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+    </div>
+
+    <!-- Boční metadata (jako muzejní katalog) -->
+    <aside class="article-meta" aria-label="Metadata exponátu">
+      {objectNumber && (
+        <div class="meta-row">
+          <dt>Identifikátor</dt>
+          <dd class="mono">{objectNumber}</dd>
+        </div>
+      )}
+      {category && (
+        <div class="meta-row">
+          <dt>Kategorie</dt>
+          <dd>{categoryLabels[category]}</dd>
+        </div>
+      )}
+      {me?.year && (
+        <div class="meta-row">
+          <dt>Datace</dt>
+          <dd>{me.year}</dd>
+        </div>
+      )}
+      {expoziceLabel && (
+        <div class="meta-row meta-onview">
+          <dt>Vystaveno</dt>
+          <dd>{expoziceLabel}</dd>
+        </div>
+      )}
+      {me && me.imageCount > 0 && (
+        <div class="meta-row">
+          <dt>Fotografií</dt>
+          <dd>{me.imageCount}</dd>
+        </div>
+      )}
+      {me && me.wordCount > 0 && (
+        <div class="meta-row">
+          <dt>Rozsah</dt>
+          <dd>{me.wordCount} slov</dd>
+        </div>
+      )}
+      {lastModified && (
+        <div class="meta-row">
+          <dt>Aktualizováno</dt>
+          <dd><time>{lastModified}</time></dd>
+        </div>
+      )}
+      {originalUrl && (
+        <div class="meta-row">
+          <dt>Originální zdroj</dt>
+          <dd>
+            <a href={originalUrl} rel="noopener" target="_blank" class="meta-link">
+              {originalUrl.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')}
+              <span class="text-sm" aria-hidden="true"> ↗</span>
+            </a>
+          </dd>
+        </div>
+      )}
+
+      <!-- Cross-references — kde jinde tento exponát najdeš -->
+      {(onMap || onTimeline) && (
+        <div class="meta-cross">
+          <p class="curator-label">Najdi také v</p>
+          <ul class="meta-cross-list">
+            {onMap && (
+              <li>
+                <a href={`/mapa#${onMap.slug}`} class="meta-cross-link">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18" aria-hidden="true">
+                    <path d="M12 2C7.5 2 4 5.5 4 10c0 5.5 8 12 8 12s8-6.5 8-12c0-4.5-3.5-8-8-8z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                  Mapa
+                  <span class="meta-cross-detail">{onMap.jmeno}</span>
+                </a>
+              </li>
+            )}
+            {onTimeline && (
+              <li>
+                <a href="/casova-osa" class="meta-cross-link">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18" aria-hidden="true">
+                    <line x1="3" y1="12" x2="21" y2="12"/>
+                    <circle cx="12" cy="12" r="2.5"/>
+                  </svg>
+                  Časová osa
+                  <span class="meta-cross-detail">rok {onTimeline.rokText ?? onTimeline.rok}</span>
+                </a>
+              </li>
+            )}
+          </ul>
+        </div>
+      )}
+
+      <!-- Poznámka kurátora — ozdobný prvek -->
+      <div class="meta-curator">
+        <p class="curator-label">Poznámka redakce</p>
+        <p class="curator-body">
+          Tento záznam je migrován z původního webu hodinarium.eu. Pokud znáš přesnější
+          dataci, autora nebo lokaci, ozvi&nbsp;se nám.
+        </p>
+      </div>
+    </aside>
+  </article>
+</Base>
+
+<style>
+  .breadcrumbs {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .breadcrumbs a {
+    color: var(--color-text-soft);
+    border-bottom: none;
+  }
+  .breadcrumbs a:hover {
+    color: var(--color-brass-bright);
+  }
+  .breadcrumbs .current {
+    color: var(--color-text-soft);
+    font-style: italic;
+  }
+  .breadcrumbs span[aria-hidden] {
+    color: var(--color-brass);
+    opacity: 0.5;
+  }
+
+  .article-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  @media (min-width: 1024px) {
+    .article-grid {
+      grid-template-columns: minmax(0, 1fr) 280px;
+      gap: 4rem;
+    }
+  }
+
+  .article-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+
+  .article-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    line-height: 1.1;
+    margin: 0 0 1rem;
+    color: var(--color-brass-bright);
+    letter-spacing: -0.01em;
+  }
+
+  /* Boční metadata — jako muzejní katalog */
+  .article-meta {
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    padding: 1.5rem 1.5rem 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    align-self: start;
+    position: sticky;
+    top: 5.5rem;
+    font-size: 0.95rem;
+  }
+
+  .meta-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 10%, transparent);
+  }
+  .meta-row:last-of-type {
+    border-bottom: none;
+  }
+
+  .meta-row dt {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--color-copper);
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .meta-row dd {
+    font-size: 0.95rem;
+    color: var(--color-text);
+    margin: 0;
+    line-height: 1.45;
+    font-feature-settings: "lnum";
+  }
+
+  .meta-row.meta-onview dd {
+    color: var(--color-brass-bright);
+    font-style: italic;
+  }
+  .meta-row.meta-onview dd::before {
+    content: '★ ';
+    color: var(--color-copper);
+  }
+
+  .mono {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 0.85rem;
+    color: var(--color-brass-bright);
+    letter-spacing: 0.02em;
+  }
+
+  .meta-link {
+    color: var(--color-brass-bright);
+    word-break: break-all;
+  }
+
+  .meta-cross {
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  }
+
+  .meta-cross-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .meta-cross-link {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.5rem 0.75rem;
+    background: var(--color-bg-deep);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+    color: var(--color-brass-bright);
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 150ms ease;
+  }
+
+  .meta-cross-link:hover {
+    border-color: var(--color-brass);
+    background: var(--color-bg);
+  }
+
+  .meta-cross-link svg {
+    color: var(--color-copper);
+    flex-shrink: 0;
+  }
+
+  .meta-cross-detail {
+    margin-left: auto;
+    font-size: 0.78rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+    text-align: right;
+  }
+
+  .meta-curator {
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px dashed color-mix(in srgb, var(--color-brass) 20%, transparent);
+  }
+  .curator-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--color-copper);
+    margin: 0 0 0.4rem;
+    font-weight: 500;
+  }
+  .curator-body {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--color-text-soft);
+    font-style: italic;
+    margin: 0;
+  }
+
+  .related {
+    margin-top: 4rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 20%, transparent);
+  }
+
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.25rem;
+  }
+</style>

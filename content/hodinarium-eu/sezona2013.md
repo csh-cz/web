@@ -1,0 +1,57 @@
+---
+title: "Věžního muzejíčko Soběslav - sezóna 2013"
+slug: "sezona2013"
+category: "decin"
+originalUrl: "https://hodinarium.eu/sezona2013.htm"
+lastModified: "Sun, 23 Apr 2017 14:18:00 GMT"
+sourceCharset: "windows-1250"
+scrapedAt: "2026-04-27T17:36:33.121Z"
+---
+Sezóna 2013 ve Věžním muzejíčku je opět ve znamení mnoha novinek. Vedle hlavního exponátu, soběslavského stroje s gotickým základem, si můžete prohlédnout rozšířenou hodinářskou i zvonařskou expozici. Restaurovány budou dva další zapůjčené barokní věžní hodinové stroje. Oba jsou s vřetenovým krokem a kyvadlem.
+
+Bohužel některé loňské exponáty již v expozici nebudou. To se týká repliky stroje s gravitačním krokem, který byl zapůjčen jen na sezónu 2012 (zde vidíte jak je důležité nás navštěvovat pravidelně) a hlavně gotické skříně, která bude restaurována a umístěna v místním muzeu.
+
+### [![čtvrtlojní](/img/ujete/cyklo1.jpg)](img/ujete/f/cyklo2.jpg)
+
+[![barokní stroj - před dokončením restaurování](/img/vez/Kli/foto_0001.jpg)](img/vez/Kli/f/foto_0001.jpg) Hlavní hodinářské exponáty - deset věžních strojů
+
+-   [starý soběslavský stroj](/clanky/vez1), "čtvrtek" (bicí stroj jednotlivých čtvrtí), ručkové převody
+-   současný věžní stroj [Elektročas 1959](/clanky/vez_elektrocas1959)
+-   [barokní věžní ministroj snad z 18 století](/clanky/vez_Zlate_Hory)
+-   [barokní špindlový stroj](vez_kli.htm) věžních hodin
+-   barokní špindlový [stroj věžních hodin z obce Budislav](vez_budislav.htm)
+-   [stroj věžních hodin 1884 - Podmokly](/clanky/vez_decin)
+-   soustrojí [Prokeš 1868](/clanky/bychory_prokes1) za zámku Býchory včetně cimbálů a zvonícího stroje
+-   stroj věžních hodin - [Horní Prysk](/clanky/vez_Prysk)
+-   [věžní rozvody](/clanky/bychory_dalsi_kola) z obce Svinky, samostatné ručkové převody, rozvodové tyče a pod.
+
+-   Nová produkce je zastoupena skeletovými hodinymi Kavalír (více na [samostatné stránce](http://www.kavalir.cz/hodiny/)) a také poněkud bláznivými hodinami s indikací času cyklistickým řetězem v čtvrtorlojním dělení (2. obrázek vpravo).
+
+### Hlavní zvonařské exponáty:
+
+-   [zvon Petr Pavel](/clanky/zvon_petr_pavel)
+-   [zvon Petr Vok](/clanky/zvon_petr_vok)
+-   [zvonařská expozic](/clanky/zvony_uvod)e, postup výroby, ukázka forem, kování zvonů, ...
+
+### Minivýstavy:
+
+-   zajímavé stroje ze Schwarcwaldu, železný stroj ukazující pouze hodiny s budíkem (cca 1760), různé další vyjímečné stroje, .....
+-   steampunk - šperky a hodiny
+-   fotovýstavy Pražský orloj a České a Moravské zvony
+-   .....
+
+* * *
+
+## Leták 2012
+
+[![Leták 2012 1. strana](/img/vez/letak2012a_m.jpg)](img/vez/letak2012a.jpg)
+
+[![Leták 2012 2. strana](/img/vez/letak2012b_m.jpg)](img/vez/letak2012b.jpg)
+
+## Listování návštěvní knihou 2011, 2012, ...
+
+Vzpomenete si, kdy vás naposledy někdo pochválil? Lidé se totiž vzájemně chválí málo, proto bývá oblíbené rčení: "Musím se pochválit sám, protože to za mne nikdo neudělá". Existují však výjimky a těší nás, že se jedna z nich týká právě našeho Věžního muzejíčka. Zápisy do knihy návštěv nás opravdu potěšily a moc si jich vážíme. Těšilo nás také to, že je psali návštěvníci různých věkový skupin i různé státní příslušnosti.
+
+Chceme se o svou radost s vámi podělit, proto jsme několik textů z návštěvní knihy vybrali. Neuvádíme jména pisatelů, protože stejně většinou nejdou přečíst.
+
+Petr Král

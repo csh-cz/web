@@ -1,0 +1,296 @@
+---
+import Base from '../layouts/Base.astro';
+
+interface Prispevek {
+  rok: number;
+  datum?: string;
+  schuze?: string;       // např. "Členská schůze 2018"
+  autor: string;
+  nazev: string;
+  popis?: string;
+  prilohy?: { jmeno: string; href: string }[];
+  status: 'plný_text' | 'shrnutí' | 'placeholder' | 'audio';
+}
+
+// Placeholder příspěvků — bude doplněno o reálná data od Petra a dalších členů.
+const prispevky: Prispevek[] = [
+  // Placeholdery pro budoucí dodatky
+  {
+    rok: 2025,
+    datum: 'jaro 2025',
+    schuze: 'Členská schůze 2025',
+    autor: 'Ing. Petr Král',
+    nazev: 'Astronomické hodiny ASTRO2 — od stavebnice meteostanice k Computu',
+    popis:
+      'Prezentace o vývoji DIY astronomických hodin postavených na čínské stavebnici '
+      + 'meteostanice s ESP01S, programovaných s pomocí AI. Detailní článek na hodinarium.eu.',
+    prilohy: [
+      { jmeno: 'Plný článek na Hodinariu', href: 'https://hodinarium.eu/clanky/astro2_NTP' },
+    ],
+    status: 'shrnutí',
+  },
+  {
+    rok: 2020,
+    datum: '10. 1. 2020',
+    schuze: 'Členská schůze 2020',
+    autor: '— neuvedeno —',
+    nazev: 'Příspěvky budou doplněny',
+    popis: 'Zápis ze schůze obsahuje strukturu prezentací, ale konkrétní obsah příspěvků zatím nemáme.',
+    prilohy: [
+      { jmeno: 'Zápis ze schůze 10. 1. 2020', href: 'https://hodinarium.eu/clanky/zapis20200110' },
+    ],
+    status: 'placeholder',
+  },
+  {
+    rok: 2019,
+    datum: '18. 1. 2019',
+    schuze: 'Členská schůze 2019',
+    autor: '— neuvedeno —',
+    nazev: 'Příspěvky budou doplněny',
+    popis: 'Zápis ze schůze obsahuje strukturu prezentací, ale konkrétní obsah příspěvků zatím nemáme.',
+    prilohy: [
+      { jmeno: 'Zápis ze schůze 18. 1. 2019', href: 'https://hodinarium.eu/clanky/zapis20190118' },
+    ],
+    status: 'placeholder',
+  },
+];
+
+prispevky.sort((a, b) => b.rok - a.rok || (b.datum ?? '').localeCompare(a.datum ?? ''));
+
+const statusLabels: Record<Prispevek['status'], string> = {
+  plný_text: 'Plný text',
+  shrnutí: 'Shrnutí',
+  placeholder: 'Čeká na doplnění',
+  audio: 'Audio záznam',
+};
+---
+<Base title="Příspěvky na členských schůzích" description="Prezentace, přednášky a referáty z členských schůzí Českého spolku horologického.">
+  <header class="prispevky-header">
+    <p class="eyebrow mb-4">Spolková agenda</p>
+    <h1>Příspěvky na členských schůzích</h1>
+    <p class="lede">
+      Členské schůze CSH nejsou jen formální agenda. Každý rok členové
+      představují své projekty, výzkumy a nálezy — od restaurování věžních
+      strojů přes DIY elektroniku po historické bádání. Tato stránka
+      shromažďuje přepisy, prezentace a doplňující materiály.
+    </p>
+  </header>
+
+  <section class="prispevky-section">
+    {prispevky.map((p) => (
+      <article class={`prispevek ${p.status === 'placeholder' ? 'prispevek-placeholder' : ''}`}>
+        <div class="prispevek-meta">
+          <span class="prispevek-rok">{p.rok}</span>
+          {p.datum && <span class="prispevek-datum">{p.datum}</span>}
+          {p.schuze && <span class="prispevek-schuze">{p.schuze}</span>}
+          <span class={`prispevek-status status-${p.status}`}>{statusLabels[p.status]}</span>
+        </div>
+
+        <h2 class="prispevek-nazev">{p.nazev}</h2>
+        <p class="prispevek-autor">— {p.autor}</p>
+
+        {p.popis && <p class="prispevek-popis">{p.popis}</p>}
+
+        {p.prilohy && p.prilohy.length > 0 && (
+          <ul class="prispevek-prilohy">
+            {p.prilohy.map((pr) => (
+              <li>
+                <a href={pr.href} target={pr.href.startsWith('http') ? '_blank' : undefined} rel={pr.href.startsWith('http') ? 'noopener' : undefined}>
+                  {pr.jmeno}{pr.href.startsWith('http') ? ' ↗' : ''}
+                </a>
+              </li>
+            ))}
+          </ul>
+        )}
+      </article>
+    ))}
+  </section>
+
+  <section class="prispevky-cta">
+    <h2 style="border:none; padding:0;">Chcete vystoupit na příští schůzi?</h2>
+    <p>
+      Členové spolku jsou srdečně zváni přidat se s vlastním příspěvkem na
+      další členské schůzi. Téma může být jakékoli — restaurování konkrétního
+      stroje, vlastní DIY projekt, historický nález, návštěva muzea v zahraničí,
+      diskusní příspěvek k tématu hodinařiny.
+    </p>
+    <p>
+      Nahlas téma předem na <a href="mailto:info@orloj.eu">info@orloj.eu</a>,
+      aby se mohlo zařadit do programu.
+    </p>
+  </section>
+
+  <section class="prispevky-archive">
+    <h2>Archivace materiálů</h2>
+    <p>
+      Pokud máš PDF prezentaci, audio záznam, fotografii nebo přepis vlastního
+      či cizího příspěvku z minulých schůzí, pošli to na
+      <a href="mailto:info@orloj.eu">info@orloj.eu</a>. Doplníme zde jméno
+      autora, datum a celý materiál.
+    </p>
+    <p>
+      Cílem je, aby všechno, co se na členských schůzích řekne, zůstalo
+      dohledatelné — nejen pro členy spolku, ale i pro budoucí badatele
+      a sběratele.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .prispevky-header {
+    max-width: 720px;
+    margin-bottom: 4rem;
+  }
+  .prispevky-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    line-height: 1.05;
+  }
+  .lede {
+    font-size: 1.1rem;
+    color: var(--color-text-soft);
+    max-width: 60ch;
+  }
+
+  .prispevky-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-bottom: 4rem;
+  }
+
+  .prispevek {
+    padding: 1.75rem 2rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+    border-left: 3px solid var(--color-copper);
+  }
+  .prispevek-placeholder {
+    opacity: 0.7;
+    border-left-style: dashed;
+    border-left-color: var(--color-text-muted);
+  }
+
+  .prispevek-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: baseline;
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.85rem;
+    padding-bottom: 0.85rem;
+    border-bottom: 1px dashed color-mix(in srgb, var(--color-brass) 15%, transparent);
+  }
+  .prispevek-rok {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    font-feature-settings: "lnum";
+  }
+  .prispevek-datum {
+    color: var(--color-text-soft);
+  }
+  .prispevek-schuze {
+    color: var(--color-text-soft);
+    font-style: italic;
+  }
+  .prispevek-status {
+    margin-left: auto;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    padding: 0.15rem 0.55rem;
+    border-radius: 2px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+  }
+  .status-plný_text {
+    color: var(--color-brass-bright);
+    border-color: var(--color-brass);
+  }
+  .status-shrnutí {
+    color: var(--color-text);
+  }
+  .status-placeholder {
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+  .status-audio {
+    color: var(--color-verdigris);
+    border-color: var(--color-verdigris);
+  }
+
+  .prispevek-nazev {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.4rem;
+    line-height: 1.3;
+    border: none;
+    padding: 0;
+  }
+  .prispevek-nazev::before { content: none; }
+
+  .prispevek-autor {
+    color: var(--color-copper);
+    font-style: italic;
+    margin: 0 0 1rem;
+    font-size: 0.95rem;
+  }
+
+  .prispevek-popis {
+    color: var(--color-text);
+    line-height: 1.6;
+    margin: 0 0 1rem;
+  }
+
+  .prispevek-prilohy {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .prispevek-prilohy li {
+    margin: 0;
+  }
+  .prispevek-prilohy a {
+    display: inline-block;
+    padding: 0.45rem 0.85rem;
+    background: var(--color-bg-deep);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    color: var(--color-brass-bright);
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  .prispevek-prilohy a:hover {
+    border-color: var(--color-brass);
+  }
+
+  .prispevky-cta,
+  .prispevky-archive {
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    max-width: 720px;
+  }
+  .prispevky-cta p,
+  .prispevky-archive p {
+    color: var(--color-text);
+    margin: 0 0 1rem;
+  }
+  .prispevky-cta p:last-child,
+  .prispevky-archive p:last-child {
+    margin-bottom: 0;
+  }
+</style>

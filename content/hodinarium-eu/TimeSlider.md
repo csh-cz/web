@@ -1,0 +1,30 @@
+---
+title: "Hodiny Time Slider od Hanse Andersona"
+slug: "TimeSlider"
+category: "projekty"
+originalUrl: "https://hodinarium.eu/TimeSlider.htm"
+lastModified: "Sun, 30 Jun 2024 14:50:00 GMT"
+sourceCharset: "windows-1250"
+scrapedAt: "2026-04-27T17:37:22.936Z"
+---
+Když se na internetu objevil návod na kuriózní hodiny vytištěné 3D tiskem s osmi krokovými motory, které řídí Arduino MEGA, toužili jsme je mít i v Hodináriu v Děčíně. Podle návodu na stránce [https://www.instructables.com/Time-Slider](https://www.instructables.com/Time-Slider) je na 3D tiskárně vytiskl a sestavil pan Jiří Spilka. Oživení a drobné rozšíření programu o rozpoznání letního času udělal pan Petr Král. Níže video na Youtube přímo od autora. Autorův návod k sestavení končí slovy:
+
+-   Zasuňte mřížky do kolejnic tak, aby ozubená kola zapadla.
+-   Zapněte napájení.
+-   Užijte si představení.
+
+Užijte si i vy.
+
+****[https://youtu.be/VBpDQtAcoWc](https://youtu.be/VBpDQtAcoWc)****
+
+* * *
+
+### Poznámka: Nastavení přesného času do RTC DS3231
+
+Původní řešení od pana Hanse Andersona nemá uživatelskou možnost přesného nastavení času do RTC modulu DS3231. Nastavení je potřeba občas udělat, přestože RTC modul má udávanou nepřesnost 1 minuta za rok. Čas je také nutné nastavit při výměně baterie. Autor k nastavení sdílí prográmek, který do RTC hodin nastaví čas zadaný při překladu. To příliš přesně udělat nejde.
+
+Nejprve jsme uvažovali o simulaci RTC modulu pomocí Lolin D1 mini s nainstalovaným NTP klientem. Toto řešení by umožňovalo nastavení na SEČ včetně přepínání letního času. Bohužel se ani s pomocí umělé inteligence nepodařilo tento simulátor zprovoznit.
+
+Zvolili jsme proto jinou cestu a to vytvoření "přípravku" na externí nastavení NTP času do modulu DS3231. Nastavovací program je nahrán do desky Wemos D1. Tato deska má tu výhodu, že DS3231 jde přímo zasunout do dutinek 14 SDA, 15 SCL a GND. Pouze napájecí napětí VCC 3.3V se musí přivézt ze vzdálenější dutinky. Není tedy potřeba skoro žádný propojovací přípravek. Nastavovaný čas je GMT samozřejmě bez letního času. Úprava na SE(L)Č se prování až v programu Time Slider.
+
+![přípravek Wedos_NTP_RTC](/img/arduino/Wedos_NTP_RTC.jpg)

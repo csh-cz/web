@@ -1,0 +1,46 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Český spolek horologický z. s.
+
+This work is licensed under the Creative Commons Attribution 4.0
+International License. To view a copy of this license, visit:
+  https://creativecommons.org/licenses/by/4.0/
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format
+  - Adapt — remix, transform, and build upon the material for any purpose,
+    even commercially.
+
+Under the following terms:
+  - Attribution — You must give appropriate credit, provide a link to
+    the license, and indicate if changes were made. You may do so in any
+    reasonable manner, but not in any way that suggests the licensor
+    endorses you or your use.
+
+No additional restrictions — You may not apply legal terms or technological
+measures that legally restrict others from doing anything the license
+permits.
+
+═══════════════════════════════════════════════════════════════════════════
+
+What is covered by this license:
+  - Texts, articles and editorial content under apps/*/src/ and content/
+  - Custom photographs taken by Český spolek horologický and its members
+  - Custom-made diagrams, illustrations and design elements
+
+What is NOT covered (rights reserved by original holders):
+  - Logo of Český spolek horologický (apps/horologie-cz/public/img/logo.jpg)
+    — used by permission, please contact the society for licensing
+  - Photographs from third-party sources (always attributed in alt text
+    or captions; respect the original license)
+  - External documents linked from the site (PDF z justice.cz, ARES, etc.)
+  - Software / source code in this repository — see SOFTWARE_LICENSE.md
+    (or the license of the respective package)
+
+═══════════════════════════════════════════════════════════════════════════
+
+For questions, exceptions, or commercial licensing of trademarked elements,
+contact: info@orloj.eu
+
+For the full legal text of CC BY 4.0:
+  https://creativecommons.org/licenses/by/4.0/legalcode

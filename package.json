@@ -1,0 +1,26 @@
+{
+  "name": "csh-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Webové projekty Českého spolku horologického — orloj.eu, hodinarium.eu",
+  "packageManager": "pnpm@10.9.0",
+  "scripts": {
+    "scrape:hodinarium": "tsx scripts/scrape-hodinarium.ts",
+    "convert:hodinarium": "tsx scripts/convert-hodinarium.ts",
+    "catalog:hodinarium": "tsx scripts/build-catalog.ts",
+    "download:hodinarium": "tsx scripts/download-assets.ts",
+    "redirects:hodinarium": "tsx scripts/build-redirects.ts",
+    "og:build": "tsx scripts/build-og-images.ts",
+    "pipeline:hodinarium": "pnpm scrape:hodinarium && pnpm convert:hodinarium && pnpm catalog:hodinarium && pnpm download:hodinarium && pnpm redirects:hodinarium",
+    "dev:hodinarium": "pnpm --filter hodinarium-eu dev",
+    "build:hodinarium": "pnpm --filter hodinarium-eu build",
+    "preview:hodinarium": "pnpm --filter hodinarium-eu preview"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/turndown": "^5.0.6",
+    "tsx": "^4.19.2",
+    "turndown": "^7.2.4",
+    "typescript": "^5.7.2"
+  }
+}

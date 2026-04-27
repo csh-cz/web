@@ -1,0 +1,319 @@
+---
+import Base from '../layouts/Base.astro';
+
+const vybor = [
+  { funkce: 'Předseda', jmeno: 'Ing. Petr Král' },
+  { funkce: 'Pokladník', jmeno: 'Ing. Miroslav Baudisch' },
+  { funkce: 'Člen výboru', jmeno: 'Ing. David Knespl' },
+];
+---
+<Base title="Český spolek horologický" description="Český spolek horologický z. s. — sdružení obdivovatelů hodin, restaurátorů a tvůrců.">
+  <section class="hero">
+    <p class="eyebrow mb-5">Spolková agenda · IČO 26573008</p>
+
+    <div class="hero-title-row">
+      <img class="hero-logo" src="/img/logo.jpg" alt="Logo Českého spolku horologického" width="180" height="185" />
+      <h1 class="hero-title">
+        Český spolek<br/>horologický
+      </h1>
+    </div>
+
+    <p class="hero-lede">
+      Sdružení obdivovatelů hodin, restaurátorů a tvůrců. Provozuje
+      <a href="https://hodinarium.eu" target="_blank" rel="noopener">Hodinárium</a>
+      v Děčíně a webovou expozici. Vznikl z Virtuálního muzea hodin
+      (2009), zapsán jako spolek roku 2014.
+    </p>
+  </section>
+
+  <section class="formality mt-16">
+    <h2>Základní údaje</h2>
+    <dl>
+      <div>
+        <dt>IČO</dt>
+        <dd>26573008</dd>
+      </div>
+      <div>
+        <dt>Sídlo</dt>
+        <dd>nábřeží Otakara Ostrčila 273/6, 392 01 Soběslav III</dd>
+      </div>
+      <div>
+        <dt>Spolkový rejstřík</dt>
+        <dd>L 4908 / KS České Budějovice (Fj 4845/2016/KSCB), zapsán 5.&nbsp;3.&nbsp;2016</dd>
+      </div>
+      <div>
+        <dt>Předchůdce</dt>
+        <dd>Virtuální muzeum hodin o.&nbsp;s. (zapsáno 9.&nbsp;1.&nbsp;2009 na MV ČR)</dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="ucel mt-12">
+    <h2>Účel spolku</h2>
+    <blockquote>
+      Účelem spolku je prezentovat a popularizovat technickou i uměleckou
+      stránku vývoje hodin od prvních konstrukcí po současnost. Pro propagaci
+      zájmu o tuto oblast kulturního dědictví využít zejména možnosti Internetu.
+      Propagovat a popularizovat tvůrčí činnost v této oblasti včetně malých
+      či amatérských výrobců hodin.
+    </blockquote>
+    <p class="cite-source">— ze Stanov spolku</p>
+  </section>
+
+  <section class="vybor mt-12">
+    <h2>Výbor spolku</h2>
+    <ul>
+      {vybor.map((v) => (
+        <li>
+          <span class="vybor-funkce">{v.funkce}</span>
+          <span class="vybor-jmeno">{v.jmeno}</span>
+        </li>
+      ))}
+    </ul>
+    <p class="poznamka">
+      Spolek navenek zastupují členové výboru, každý samostatně, nebo další
+      členové spolku pověření výborem pro konkrétní záležitost.
+      Údaje od členské schůze 5.&nbsp;6.&nbsp;2016.
+    </p>
+  </section>
+
+  <section class="cinnost mt-12">
+    <h2>Co spolek dělá</h2>
+    <div class="cinnost-grid">
+      <a href="https://hodinarium.eu" target="_blank" rel="noopener" class="cinnost-card">
+        <h3>Hodinárium Děčín ↗</h3>
+        <p>Fyzická expozice v zámku Děčín — sbírka hodin od švarcvaldek po věžní stroje 15. století.</p>
+      </a>
+      <a href="https://hodinarium.eu/projekty" target="_blank" rel="noopener" class="cinnost-card">
+        <h3>Webová expozice ↗</h3>
+        <p>218 článků o hodinách a hodinařině na hodinarium.eu — atlas, mapa, časová osa.</p>
+      </a>
+      <a href="https://hodinarium.eu/vezni-hodiny" target="_blank" rel="noopener" class="cinnost-card">
+        <h3>Restaurování věžních hodin ↗</h3>
+        <p>Identifikace a restaurování historických strojů z věží Soběslavska, Krušnohoří a dalších regionů.</p>
+      </a>
+      <a href="https://orloj.eu" target="_blank" rel="noopener" class="cinnost-card">
+        <h3>Sesterský web Orloj.eu ↗</h3>
+        <p>Encyklopedie Pražského orloje, simulátory, historie. Spravuje stejný spolek.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="kontakt-block mt-16">
+    <h2>Spojte se</h2>
+    <p>
+      Pokud máš zájem stát se členem spolku, podporovat naši činnost,
+      nebo máš tip na zajímavé hodiny — ozvi&nbsp;se.
+    </p>
+    <p class="contact-info">
+      <a href="mailto:info@orloj.eu">info@orloj.eu</a>
+      &nbsp;·&nbsp;
+      <a href="tel:+420603502735">+420 603 502 735</a>
+    </p>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    max-width: 720px;
+  }
+
+  .hero-title-row {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.75rem;
+    flex-wrap: wrap;
+  }
+
+  .hero-logo {
+    width: 110px;
+    height: auto;
+    border-radius: 4px;
+    border: 2px solid color-mix(in srgb, var(--color-brass) 40%, transparent);
+    box-shadow:
+      0 4px 16px rgba(0, 0, 0, 0.4),
+      inset 0 1px 0 color-mix(in srgb, var(--color-brass) 25%, transparent);
+    background: var(--color-bg-elevated);
+    padding: 4px;
+    flex-shrink: 0;
+    display: block;
+  }
+  @media (min-width: 700px) {
+    .hero-logo {
+      width: 140px;
+    }
+  }
+  @media (min-width: 1000px) {
+    .hero-logo {
+      width: 170px;
+    }
+  }
+
+  .hero-title {
+    margin: 0;
+    flex: 1;
+    min-width: 240px;
+  }
+
+  .hero-lede {
+    margin: 0;
+  }
+  .hero-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2.5rem, 7vw, 4.5rem);
+    line-height: 1;
+    color: var(--color-brass-bright);
+    margin: 0 0 1.5rem;
+    letter-spacing: -0.02em;
+  }
+  .hero-lede {
+    font-size: 1.25rem;
+    line-height: 1.55;
+    color: var(--color-text);
+    max-width: 60ch;
+  }
+
+  .formality dl {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+  @media (min-width: 640px) {
+    .formality dl {
+      grid-template-columns: 200px 1fr;
+      gap: 0.5rem 1.5rem;
+    }
+    .formality div {
+      display: contents;
+    }
+  }
+  .formality dt {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-copper);
+    font-weight: 500;
+    margin: 0;
+  }
+  .formality dd {
+    margin: 0 0 0.75rem;
+    color: var(--color-text);
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  @media (min-width: 640px) {
+    .formality dd { margin-bottom: 0; }
+  }
+
+  .ucel blockquote {
+    border-left: 2px solid var(--color-copper);
+    padding: 0.5rem 0 0.5rem 1.25rem;
+    font-size: 1.1rem;
+    line-height: 1.65;
+    font-style: italic;
+    color: var(--color-text);
+    margin: 0 0 0.5rem;
+    max-width: 60ch;
+  }
+  .cite-source {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+    margin: 0;
+  }
+
+  .vybor ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+  @media (min-width: 640px) {
+    .vybor ul {
+      grid-template-columns: 200px 1fr;
+      gap: 0.5rem 1.5rem;
+    }
+    .vybor li {
+      display: contents;
+    }
+  }
+  .vybor-funkce {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-copper);
+    font-weight: 500;
+  }
+  .vybor-jmeno {
+    color: var(--color-text);
+    font-size: 1.05rem;
+  }
+  .poznamka {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+    margin-top: 1rem;
+  }
+
+  .cinnost-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+  }
+  .cinnost-card {
+    display: block;
+    padding: 1.5rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all 200ms ease;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    color: var(--color-text);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  }
+  .cinnost-card:hover {
+    border-color: var(--color-brass);
+    transform: translateY(-2px);
+  }
+  .cinnost-card h3 {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.5rem;
+    border: none;
+    padding: 0;
+  }
+  .cinnost-card h3::before { content: none; }
+  .cinnost-card p {
+    margin: 0;
+    color: var(--color-text);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .kontakt-block {
+    padding: 2rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+  }
+  .kontakt-block h2 {
+    margin-top: 0;
+    border: none;
+    padding: 0;
+  }
+  .kontakt-block p {
+    color: var(--color-text);
+    margin: 0 0 1rem;
+  }
+  .contact-info {
+    font-size: 1.1rem;
+    margin: 0 !important;
+  }
+</style>

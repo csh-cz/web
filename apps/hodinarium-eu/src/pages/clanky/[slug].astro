@@ -1,0 +1,266 @@
+---
+import { getCollection, render } from 'astro:content';
+import Article from '../../layouts/Article.astro';
+
+export async function getStaticPaths() {
+  const all = await getCollection('clanky');
+  return all.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const lastModifiedReadable = entry.data.lastModified
+  ? new Date(entry.data.lastModified).toLocaleDateString('cs-CZ', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    })
+  : undefined;
+---
+<Article
+  title={entry.data.title}
+  originalUrl={entry.data.originalUrl}
+  lastModified={lastModifiedReadable}
+  tldr={entry.data.tldr}
+  category={entry.data.category}
+  slug={entry.data.slug}
+>
+  <Content />
+</Article>
+
+<!-- Lightbox dialog (jeden pro celou stránku) -->
+<dialog id="lightbox" aria-label="Lightbox obrázku">
+  <button class="lightbox-close" aria-label="Zavřít" type="button">×</button>
+  <button class="lightbox-prev" aria-label="Předchozí obrázek" type="button">‹</button>
+  <button class="lightbox-next" aria-label="Další obrázek" type="button">›</button>
+  <img src="" alt="" />
+  <div class="lightbox-caption" id="lightbox-caption"></div>
+</dialog>
+
+<style is:global>
+  /* Konsekutivní obrázky v článku — propojit do galerie */
+  .prose-content p:has(> img:only-child) {
+    display: contents;
+  }
+
+  /* Pokud následují tři a více obrázků za sebou, ukaž je v gridu — heuristika */
+  .prose-content {
+    --gallery-gap: 0.75rem;
+  }
+
+  /* Inline lightbox styling */
+  dialog#lightbox {
+    margin: auto;
+    padding: 0;
+    border: none;
+    background: rgba(20, 16, 12, 0.95);
+    backdrop-filter: blur(8px);
+    max-width: 96vw;
+    max-height: 96vh;
+    width: 96vw;
+    height: 96vh;
+    color: var(--color-text);
+  }
+  dialog#lightbox::backdrop {
+    background: rgba(10, 8, 7, 0.85);
+    backdrop-filter: blur(6px);
+  }
+  dialog#lightbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 2px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .lightbox-close, .lightbox-prev, .lightbox-next {
+    position: absolute;
+    background: rgba(20, 16, 12, 0.7);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
+    color: var(--color-brass-bright);
+    font-family: var(--font-serif);
+    font-size: 1.6rem;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 150ms ease;
+    z-index: 2;
+    line-height: 1;
+  }
+  .lightbox-close {
+    top: 1rem;
+    right: 1rem;
+    width: 44px;
+    height: 44px;
+  }
+  .lightbox-prev, .lightbox-next {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 64px;
+    font-size: 2rem;
+  }
+  .lightbox-prev { left: 1rem; }
+  .lightbox-next { right: 1rem; }
+  .lightbox-close:hover, .lightbox-prev:hover, .lightbox-next:hover {
+    background: var(--color-brass);
+    color: var(--color-ink);
+  }
+  .lightbox-caption {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5rem 1rem;
+    background: rgba(20, 16, 12, 0.85);
+    color: var(--color-text);
+    font-size: 0.9rem;
+    font-style: italic;
+    border-radius: 2px;
+    max-width: 80%;
+    text-align: center;
+  }
+  .lightbox-caption:empty { display: none; }
+
+  /* Vizuální galerie — pokud script seskupí <p><img></p> za sebou */
+  .article-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 0.75rem;
+    margin-block: 1.5rem;
+  }
+  @media (min-width: 640px) {
+    .article-gallery {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+  }
+  .article-gallery img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 2px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+    cursor: zoom-in;
+    transition: transform 200ms ease, filter 200ms ease;
+    filter: sepia(0.1) saturate(0.9);
+    margin: 0 !important;
+  }
+  .article-gallery img:hover {
+    transform: scale(1.02);
+    filter: sepia(0) saturate(1);
+    border-color: var(--color-brass);
+  }
+  .article-gallery a {
+    display: block;
+    border-bottom: none !important;
+  }
+
+  /* Standalone obrázek mimo galerii */
+  .prose-content > p > img:only-child,
+  .prose-content > img:not(.article-gallery img) {
+    cursor: zoom-in;
+    transition: filter 200ms ease;
+  }
+  .prose-content > p > img:only-child:hover {
+    filter: brightness(1.05);
+  }
+</style>
+
+<script>
+  // Build-time-friendly client logic: po načtení článku
+  // 1. Najdi po sobě jdoucí <p><img></p> a seskup je do galerie.
+  // 2. Všechny obrázky v článku = klik otevře lightbox.
+
+  function setup() {
+    const article = document.querySelector<HTMLElement>('.prose-content');
+    if (!article) return;
+
+    // Skupinování konsekutivních obrázků
+    const imgParas: HTMLParagraphElement[] = [];
+    for (const p of article.querySelectorAll<HTMLParagraphElement>('p')) {
+      const imgs = p.querySelectorAll('img');
+      const onlyImages = imgs.length > 0 &&
+        Array.from(p.childNodes).every((n) =>
+          n.nodeType !== 1 || (n as Element).tagName === 'IMG' || (n as Element).tagName === 'A' || (n as Element).tagName === 'BR'
+        );
+      if (onlyImages) imgParas.push(p);
+    }
+
+    // Najdi sekvence ≥2 takových odstavců nebo ≥2 obrázků v jednom odstavci
+    let i = 0;
+    while (i < imgParas.length) {
+      const start = imgParas[i];
+      const seq: HTMLParagraphElement[] = [start];
+      while (i + 1 < imgParas.length && imgParas[i + 1] === seq[seq.length - 1].nextElementSibling) {
+        seq.push(imgParas[++i]);
+      }
+      const totalImgs = seq.reduce((s, p) => s + p.querySelectorAll('img').length, 0);
+      if (totalImgs >= 2) {
+        // Postav galerii
+        const gallery = document.createElement('div');
+        gallery.className = 'article-gallery';
+        for (const p of seq) {
+          for (const img of Array.from(p.querySelectorAll('img'))) {
+            gallery.appendChild(img);
+          }
+        }
+        seq[0].parentElement?.insertBefore(gallery, seq[0]);
+        for (const p of seq) p.remove();
+      }
+      i++;
+    }
+
+    // Lightbox setup
+    const lb = document.getElementById('lightbox') as HTMLDialogElement | null;
+    if (!lb) return;
+    const lbImg = lb.querySelector('img') as HTMLImageElement;
+    const lbCaption = lb.querySelector('#lightbox-caption') as HTMLElement;
+    const allImgs = Array.from(article.querySelectorAll<HTMLImageElement>('img'));
+
+    function open(idx: number) {
+      const img = allImgs[idx];
+      if (!img) return;
+      lbImg.src = img.src;
+      lbImg.alt = img.alt;
+      lbCaption.textContent = img.alt && img.alt !== 'menu' && img.alt !== 'grafika' ? img.alt : '';
+      lb!.dataset.idx = String(idx);
+      lb!.showModal();
+    }
+
+    function close() { lb!.close(); }
+    function step(delta: number) {
+      const idx = parseInt(lb!.dataset.idx ?? '0', 10);
+      const next = (idx + delta + allImgs.length) % allImgs.length;
+      open(next);
+    }
+
+    allImgs.forEach((img, idx) => {
+      img.addEventListener('click', (e) => {
+        e.preventDefault();
+        open(idx);
+      });
+    });
+
+    lb.querySelector('.lightbox-close')?.addEventListener('click', close);
+    lb.querySelector('.lightbox-prev')?.addEventListener('click', () => step(-1));
+    lb.querySelector('.lightbox-next')?.addEventListener('click', () => step(1));
+    lb.addEventListener('click', (e) => {
+      if (e.target === lb) close();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (!lb.open) return;
+      if (e.key === 'Escape') close();
+      else if (e.key === 'ArrowLeft') step(-1);
+      else if (e.key === 'ArrowRight') step(1);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setup);
+  } else {
+    setup();
+  }
+</script>

@@ -1,0 +1,309 @@
+---
+import Base from '../../layouts/Base.astro';
+import { akce, getAkce } from '../../data/akce';
+
+export async function getStaticPaths() {
+  return akce.map((a) => ({
+    params: { slug: a.slug },
+    props: { slug: a.slug },
+  }));
+}
+
+const { slug } = Astro.props as { slug: string };
+const a = getAkce(slug);
+if (!a) return Astro.redirect('/akce');
+
+const fotky = a.fotky ?? [];
+const popisky = a.popisky ?? [];
+const fotkaUrl = (foto: string) => `/img/akce/${a.slug}/${foto}`;
+const heroFoto = fotky[0];
+
+// Předchozí / další akce v chronologii
+const idx = akce.findIndex((x) => x.slug === a.slug);
+const prev = idx > 0 ? akce[idx - 1] : null;
+const next = idx < akce.length - 1 ? akce[idx + 1] : null;
+---
+<Base title={a.nazev} description={a.popis}>
+  <nav class="breadcrumbs" aria-label="Drobečková navigace">
+    <a href="/">Spolek</a>
+    <span aria-hidden="true">›</span>
+    <a href="/akce">Akce</a>
+    <span aria-hidden="true">›</span>
+    <span class="current" aria-current="page">{a.nazev}</span>
+  </nav>
+
+  <article class="akce-detail">
+    <header class="akce-header">
+      {a.schuze && <p class="eyebrow mb-3">{a.schuze}</p>}
+      <h1>{a.nazev}</h1>
+      <dl class="akce-meta">
+        <div>
+          <dt>Datum</dt>
+          <dd>{a.datum ?? '—'}</dd>
+        </div>
+        {a.misto && (
+          <div>
+            <dt>Místo</dt>
+            <dd>{a.misto}</dd>
+          </div>
+        )}
+        {a.status === 'placeholder' && (
+          <div>
+            <dt>Stav stránky</dt>
+            <dd class="placeholder-tag">Čeká na fotodokumentaci</dd>
+          </div>
+        )}
+      </dl>
+    </header>
+
+    {heroFoto && (
+      <div class="hero-foto">
+        <img src={fotkaUrl(heroFoto)} alt={popisky[0] ?? a.nazev} />
+        {popisky[0] && <p class="foto-popisek">{popisky[0]}</p>}
+      </div>
+    )}
+
+    <div class="akce-popis">
+      <p>{a.popis}</p>
+      {a.detail && <div set:html={a.detail} />}
+    </div>
+
+    {fotky.length > 1 && (
+      <section class="galerie">
+        <h2>Fotogalerie</h2>
+        <div class="galerie-grid">
+          {fotky.slice(1).map((foto, i) => (
+            <a href={fotkaUrl(foto)} class="galerie-item" target="_blank" rel="noopener">
+              <img src={fotkaUrl(foto)} alt={popisky[i + 1] ?? `${a.nazev} — fotografie ${i + 2}`} loading="lazy" />
+              {popisky[i + 1] && <span class="popisek">{popisky[i + 1]}</span>}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {fotky.length === 0 && (
+      <section class="placeholder-block">
+        <h2 style="border:none; padding:0;">Fotodokumentace v přípravě</h2>
+        <p>
+          Tato akce zatím čeká na fotografie. Pokud máš snímky z této akce,
+          pošli nám je na <a href="mailto:info@orloj.eu">info@orloj.eu</a>.
+        </p>
+        <p class="poznamka">
+          Pro správce: fotografie se přidávají do
+          <code>apps/horologie-cz/public/img/akce/{a.slug}/</code> a doplňují
+          do pole <code>fotky</code> v <code>src/data/akce.ts</code>.
+        </p>
+      </section>
+    )}
+
+    <nav class="akce-nav" aria-label="Další akce">
+      {prev && (
+        <a href={`/akce/${prev.slug}`} class="akce-nav-prev">
+          <span class="dir">← Předchozí</span>
+          <span class="title">{prev.nazev}</span>
+        </a>
+      )}
+      {next && (
+        <a href={`/akce/${next.slug}`} class="akce-nav-next">
+          <span class="dir">Další →</span>
+          <span class="title">{next.nazev}</span>
+        </a>
+      )}
+    </nav>
+  </article>
+</Base>
+
+<style>
+  .breadcrumbs {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .breadcrumbs a { color: var(--color-text-soft); border-bottom: none; }
+  .breadcrumbs a:hover { color: var(--color-brass-bright); }
+  .breadcrumbs .current { color: var(--color-text-soft); font-style: italic; }
+  .breadcrumbs span[aria-hidden] { color: var(--color-brass); opacity: 0.5; }
+
+  .akce-detail { max-width: 800px; margin: 0 auto; }
+
+  .akce-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .akce-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1.25rem;
+    line-height: 1.1;
+  }
+  .akce-meta {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    margin: 0;
+  }
+  @media (min-width: 600px) {
+    .akce-meta {
+      grid-template-columns: 130px 1fr;
+      gap: 0.4rem 1.5rem;
+    }
+    .akce-meta div { display: contents; }
+  }
+  .akce-meta dt {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--color-copper);
+    font-weight: 500;
+    margin: 0;
+  }
+  .akce-meta dd { margin: 0; color: var(--color-text); }
+  .placeholder-tag {
+    color: var(--color-text-muted) !important;
+    font-style: italic;
+  }
+
+  .hero-foto {
+    margin: 0 0 2rem;
+    border-radius: 2px;
+    overflow: hidden;
+    background: var(--color-bg-deep);
+  }
+  .hero-foto img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+  }
+  .foto-popisek {
+    margin: 0.6rem 0 0;
+    padding: 0 0.5rem;
+    font-size: 0.9rem;
+    color: var(--color-text-soft);
+    font-style: italic;
+  }
+
+  .akce-popis {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--color-text);
+    margin-bottom: 2.5rem;
+  }
+  .akce-popis p { margin: 0 0 1em; }
+
+  .galerie {
+    margin-bottom: 3rem;
+  }
+  .galerie h2 {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .galerie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+  .galerie-item {
+    display: block;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    border-radius: 2px;
+    background: var(--color-bg-deep);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    position: relative;
+  }
+  .galerie-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 300ms ease, filter 200ms ease;
+    filter: sepia(0.1);
+  }
+  .galerie-item:hover img {
+    transform: scale(1.04);
+    filter: sepia(0);
+  }
+  .galerie-item .popisek {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem 0.7rem;
+    background: linear-gradient(transparent, rgba(20, 16, 12, 0.85));
+    color: var(--color-text);
+    font-size: 0.8rem;
+  }
+
+  .placeholder-block {
+    background: var(--color-bg-elevated);
+    border: 1px dashed color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+  .placeholder-block p {
+    color: var(--color-text);
+    margin: 0 0 1rem;
+  }
+  .placeholder-block .poznamka {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+  .placeholder-block code {
+    font-family: ui-monospace, monospace;
+    font-size: 0.8rem;
+    background: var(--color-bg-deep);
+    padding: 0.1em 0.4em;
+    border-radius: 2px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    color: var(--color-brass-bright);
+  }
+
+  .akce-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 20%, transparent);
+  }
+  .akce-nav a {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.25rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    color: var(--color-text);
+    transition: border-color 150ms ease;
+  }
+  .akce-nav a:hover { border-color: var(--color-brass); }
+  .akce-nav-next { text-align: right; }
+  .akce-nav-prev:only-child,
+  .akce-nav-next:only-child { grid-column: 1 / -1; }
+  .akce-nav .dir {
+    font-size: 0.8rem;
+    color: var(--color-copper);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 0.25rem;
+  }
+  .akce-nav .title {
+    color: var(--color-brass-bright);
+    font-weight: 500;
+  }
+</style>

@@ -1,0 +1,329 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const all = await getCollection('clanky');
+const sponsorClanek = all.find((e) => e.id === 'sponsor');
+---
+<Base title="Sponzoring" description="Podpořte Český spolek horologický — provoz expozice Hodinária Děčín, restaurování věžních strojů a online popularizaci hodinařiny.">
+  <header class="sponz-header">
+    <p class="eyebrow mb-4">Podpořte spolek</p>
+    <h1>Sponzoring</h1>
+    <p class="lede">
+      Český spolek horologický je nezisková organizace. Provozujeme
+      <strong>fyzickou expozici Hodinária v Děčíně</strong>, web s 218 články
+      o hodinařině a restaurujeme historické věžní stroje. Bez podpory dárců,
+      sponzorů a členských příspěvků by to nešlo.
+    </p>
+  </header>
+
+  <!-- ── PROČ ── -->
+  <section class="sponz-section">
+    <h2>Co s vaší podporou děláme</h2>
+    <div class="cinnost-grid">
+      <div class="cinnost-card">
+        <div class="cinnost-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32">
+            <rect x="3" y="6" width="18" height="14" rx="1"/>
+            <path d="M3 10h18"/>
+            <path d="M8 6V4M16 6V4"/>
+          </svg>
+        </div>
+        <h3>Provoz expozice</h3>
+        <p>Údržba expozice na zámku Děčín, materiál pro instalace, dopravu nových exponátů.</p>
+      </div>
+      <div class="cinnost-card">
+        <div class="cinnost-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M12 7v5l3 2"/>
+          </svg>
+        </div>
+        <h3>Restaurování věží</h3>
+        <p>Identifikace, restaurování a dokumentace historických věžních strojů — Soběslav, Bychory, Janovice a další.</p>
+      </div>
+      <div class="cinnost-card">
+        <div class="cinnost-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32">
+            <rect x="3" y="4" width="18" height="14" rx="1"/>
+            <line x1="3" y1="9" x2="21" y2="9"/>
+            <line x1="7" y1="13" x2="17" y2="13"/>
+            <line x1="7" y1="16" x2="14" y2="16"/>
+          </svg>
+        </div>
+        <h3>Webová expozice</h3>
+        <p>Provoz webů hodinarium.eu a orloj.eu, dokumentace, překlady, péče o digitální archiv.</p>
+      </div>
+      <div class="cinnost-card">
+        <div class="cinnost-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32">
+            <path d="M12 2L4 7v6c0 5 3.5 8.5 8 9 4.5-.5 8-4 8-9V7l-8-5z"/>
+            <path d="M9 12l2 2 4-4" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Členská setkání</h3>
+        <p>Pronájem prostor, cestování za prezentacemi, materiály na přednášky a workshopy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── JAK PODPOŘIT ── -->
+  <section class="sponz-section sponz-options">
+    <h2>Jak podpořit</h2>
+    <div class="options-grid">
+      <article class="option-card">
+        <p class="option-eyebrow">Jednorázový dar</p>
+        <h3>Bankovní převod</h3>
+        <p>
+          Pošlete libovolnou částku na transparentní účet spolku. Údaje
+          o pohybech jsou veřejně dostupné v internetovém bankovnictví.
+        </p>
+        <div class="option-detail">
+          <p class="detail-label">Číslo účtu</p>
+          <p class="account-number">[doplnit]</p>
+          <p class="detail-label">Banka</p>
+          <p class="detail-value">[doplnit banku]</p>
+          <p class="detail-label">Variabilní symbol</p>
+          <p class="detail-value">IČO sponzora nebo libovolný</p>
+        </div>
+        <p class="option-link">
+          <a href="/dokumenty#transparentní-účet">Detail transparentního účtu →</a>
+        </p>
+      </article>
+
+      <article class="option-card">
+        <p class="option-eyebrow">Pravidelná podpora</p>
+        <h3>Členství ve spolku</h3>
+        <p>
+          Staňte se členem CSH. Členové se podílejí na chodu spolku, mají
+          přístup k interním materiálům a hlasují na členských schůzích.
+        </p>
+        <div class="option-detail">
+          <p class="detail-label">Členský příspěvek</p>
+          <p class="detail-value">[doplnit výši]</p>
+          <p class="detail-label">Frekvence</p>
+          <p class="detail-value">ročně</p>
+        </div>
+        <p class="option-link">
+          <a href="mailto:info@orloj.eu?subject=Z%C3%A1jem%20o%20%C4%8Dlenstv%C3%AD%20v%20CSH">Napsat o členství →</a>
+        </p>
+      </article>
+
+      <article class="option-card">
+        <p class="option-eyebrow">Věcný dar</p>
+        <h3>Hodiny do sbírky</h3>
+        <p>
+          Máte historické hodiny, které by si zasloužily místo v expozici?
+          Po dohodě je rádi přijmeme jako dar nebo zápůjčku do sbírky.
+        </p>
+        <div class="option-detail">
+          <p class="detail-label">Druh exponátů</p>
+          <p class="detail-value">věžní stroje, švarcvaldky, elektrické, mechanické</p>
+        </div>
+        <p class="option-link">
+          <a href="mailto:info@orloj.eu?subject=Nab%C3%ADdka%20hodin%20do%20sb%C3%ADrky">Nabídnout hodiny →</a>
+        </p>
+      </article>
+
+      <article class="option-card">
+        <p class="option-eyebrow">Firemní spolupráce</p>
+        <h3>Sponzorské partnerství</h3>
+        <p>
+          Vaše firma se může stát partnerem expozice nebo konkrétního projektu.
+          Logo na webu, v expozici, ve výročních materiálech.
+        </p>
+        <div class="option-detail">
+          <p class="detail-label">Daňová uznatelnost</p>
+          <p class="detail-value">Spolek je registrovaná nezisková organizace</p>
+        </div>
+        <p class="option-link">
+          <a href="mailto:info@orloj.eu?subject=Firemn%C3%AD%20sponzoring%20CSH">Domluvit partnerství →</a>
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ── SOUČASNÍ SPONZOŘI ── -->
+  {sponsorClanek && (
+    <section class="sponz-section">
+      <h2>Současní sponzoři a partneři</h2>
+      <p>
+        Děkujeme všem, kteří už spolku pomáhají. Aktuální seznam sponzorů
+        a partnerů je v samostatném článku.
+      </p>
+      <p class="cta-line">
+        <a href={`/clanky/${sponsorClanek.id}`} class="cta-link">
+          Zobrazit seznam sponzorů →
+        </a>
+      </p>
+    </section>
+  )}
+
+  <!-- ── PRŮHLEDNOST ── -->
+  <section class="sponz-section">
+    <h2>Průhlednost</h2>
+    <p>
+      Spolek vede průhledné účetnictví. Účetní závěrky se každoročně zveřejňují
+      ve <a href="/dokumenty#%C3%BA%C4%8Detn%C3%AD-z%C3%A1v%C4%9Brky">sbírce listin Krajského soudu v Č. Budějovicích</a>
+      pod číslem L 4908. Dostupné jsou všechny závěrky od roku 2014.
+    </p>
+    <p>
+      Pohyby na transparentním účtu je možné sledovat veřejně přes webové
+      rozhraní banky.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .sponz-header {
+    max-width: 720px;
+    margin-bottom: 4rem;
+  }
+  .sponz-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    line-height: 1.05;
+  }
+  .lede {
+    font-size: 1.15rem;
+    color: var(--color-text);
+    max-width: 60ch;
+    line-height: 1.6;
+  }
+
+  .sponz-section { margin-bottom: 4rem; }
+
+  /* Co spolek dělá */
+  .cinnost-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+  .cinnost-card {
+    padding: 1.5rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+  }
+  .cinnost-icon {
+    color: var(--color-brass);
+    margin-bottom: 0.85rem;
+  }
+  .cinnost-card h3 {
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.5rem;
+    border: none;
+    padding: 0;
+  }
+  .cinnost-card h3::before { content: none; }
+  .cinnost-card p {
+    margin: 0;
+    color: var(--color-text);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  /* Možnosti podpory */
+  .options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  .option-card {
+    padding: 1.75rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    border-left: 3px solid var(--color-copper);
+    display: flex;
+    flex-direction: column;
+  }
+  .option-eyebrow {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--color-copper);
+    margin: 0 0 0.5rem;
+    font-weight: 500;
+  }
+  .option-card h3 {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.85rem;
+    border: none;
+    padding: 0;
+  }
+  .option-card h3::before { content: none; }
+  .option-card > p {
+    color: var(--color-text);
+    margin: 0 0 1.25rem;
+    line-height: 1.55;
+  }
+  .option-detail {
+    background: var(--color-bg-deep);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 12%, transparent);
+    border-radius: 2px;
+    padding: 0.85rem 1rem;
+    margin-bottom: 1.25rem;
+  }
+  .detail-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--color-copper);
+    margin: 0;
+    font-weight: 500;
+  }
+  .detail-value {
+    margin: 0 0 0.5rem;
+    color: var(--color-text);
+    font-size: 0.95rem;
+  }
+  .detail-value:last-child { margin-bottom: 0; }
+  .account-number {
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 1.1rem;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.75rem;
+    letter-spacing: 0.05em;
+  }
+  .option-link {
+    margin: auto 0 0;
+    font-size: 0.95rem;
+  }
+  .option-link a {
+    color: var(--color-brass-bright);
+    border-bottom: none;
+    font-weight: 500;
+  }
+  .option-link a:hover {
+    color: var(--color-paper);
+  }
+
+  .cta-line {
+    margin-top: 1rem;
+  }
+  .cta-link {
+    display: inline-block;
+    padding: 0.6rem 1.25rem;
+    background: var(--color-brass);
+    color: var(--color-ink);
+    border: 1px solid var(--color-brass-bright);
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: none;
+  }
+  .cta-link:hover {
+    background: var(--color-brass-bright);
+    color: var(--color-ink);
+  }
+</style>

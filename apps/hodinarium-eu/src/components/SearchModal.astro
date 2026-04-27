@@ -1,0 +1,357 @@
+---
+import catalog from "../data/catalog.json";
+
+interface Entry {
+  slug: string;
+  title: string;
+  category: string;
+  thumbnail: string | null;
+  excerpt: string;
+  year: number | null;
+  imageCount: number;
+  wordCount: number;
+}
+
+const entries: Entry[] = catalog as Entry[];
+
+// Lehčí JSON pro client (jen co potřebujeme pro search)
+const searchData = entries.map((e) => ({
+  s: e.slug,
+  t: e.title,
+  c: e.category,
+  e: e.excerpt.slice(0, 160),
+  y: e.year,
+  th: e.thumbnail,
+}));
+---
+<dialog id="search-modal" aria-label="Vyhledávání">
+  <div class="search-modal-inner">
+    <div class="search-input-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"/>
+        <path d="m20 20-3.5-3.5" stroke-linecap="round"/>
+      </svg>
+      <input
+        id="search-input"
+        type="search"
+        placeholder="Hledej hodiny, projekty, osobnosti…"
+        autocomplete="off"
+        spellcheck="false"
+        aria-label="Vyhledávání"
+      />
+      <kbd class="search-kbd">esc</kbd>
+    </div>
+    <div id="search-results" class="search-results" aria-live="polite">
+      <p class="search-hint">
+        Začni psát. Hledá v 218 článcích podle názvu i obsahu.
+        Stiskni <kbd>↵</kbd> pro otevření prvního výsledku, <kbd>esc</kbd> pro zavření.
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<style>
+  dialog#search-modal {
+    margin: auto;
+    margin-top: 8vh;
+    padding: 0;
+    border: none;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
+    border-radius: 2px;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.7);
+    width: min(640px, 92vw);
+    max-height: 80vh;
+    color: var(--color-text);
+    overflow: hidden;
+  }
+  dialog#search-modal::backdrop {
+    background: rgba(10, 8, 7, 0.7);
+    backdrop-filter: blur(4px);
+  }
+  .search-modal-inner {
+    display: flex;
+    flex-direction: column;
+    max-height: 80vh;
+  }
+  .search-input-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    background: var(--color-bg-deep);
+  }
+  .search-icon {
+    width: 22px;
+    height: 22px;
+    color: var(--color-brass);
+    flex-shrink: 0;
+  }
+  #search-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    color: var(--color-text);
+    padding: 0.25rem 0;
+  }
+  #search-input::placeholder {
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+  .search-kbd, kbd {
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 0.7rem;
+    padding: 0.15rem 0.45rem;
+    background: var(--color-bg);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    color: var(--color-text-soft);
+  }
+  .search-results {
+    overflow-y: auto;
+    flex: 1;
+  }
+  .search-hint {
+    padding: 1.5rem 1.5rem 2rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+  .search-result {
+    display: flex;
+    gap: 0.85rem;
+    padding: 0.85rem 1.25rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 12%, transparent);
+    text-decoration: none;
+    color: var(--color-text);
+    transition: background 100ms ease;
+    border-bottom-color: color-mix(in srgb, var(--color-brass) 12%, transparent);
+  }
+  .search-result:hover, .search-result.is-active {
+    background: var(--color-bg-deep);
+  }
+  .search-result-thumb {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    background: var(--color-bg);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+  }
+  .search-result-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: sepia(0.15) saturate(0.85);
+  }
+  .search-result-thumb-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-brass);
+    opacity: 0.4;
+  }
+  .search-result-body { flex: 1; min-width: 0; }
+  .search-result-title {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.15rem;
+    line-height: 1.25;
+  }
+  .search-result-meta {
+    font-size: 0.75rem;
+    color: var(--color-copper);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 0.25rem;
+  }
+  .search-result-excerpt {
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .search-result mark {
+    background: color-mix(in srgb, var(--color-brass) 35%, transparent);
+    color: var(--color-brass-bright);
+    padding: 0 1px;
+    border-radius: 1px;
+  }
+  .search-empty {
+    padding: 2rem 1.5rem;
+    color: var(--color-text-muted);
+    text-align: center;
+    font-style: italic;
+  }
+</style>
+
+<script define:vars={{ searchData }}>
+  let fuse = null;
+  let activeIdx = -1;
+  let lastResults = [];
+
+  const dialog = document.getElementById('search-modal');
+  const input = document.getElementById('search-input');
+  const resultsEl = document.getElementById('search-results');
+
+  const categoryLabels = {
+    decin: 'Děčín',
+    'vezni-hodiny': 'Věž',
+    sbirka: 'Sbírka',
+    projekty: 'Projekt',
+    spolek: 'Spolek',
+    ostatni: '',
+  };
+
+  async function ensureFuse() {
+    if (fuse) return fuse;
+    const Fuse = (await import('fuse.js')).default;
+    fuse = new Fuse(searchData, {
+      keys: [
+        { name: 't', weight: 2 },
+        { name: 'e', weight: 1 },
+        { name: 's', weight: 1.5 },
+      ],
+      threshold: 0.35,
+      includeMatches: true,
+      minMatchCharLength: 2,
+    });
+    return fuse;
+  }
+
+  function highlight(text, matches) {
+    if (!matches || !text) return text;
+    const indices = matches.flatMap((m) => m.indices ?? []).filter((r) => r[1] - r[0] >= 1);
+    if (!indices.length) return text;
+    let out = '';
+    let last = 0;
+    indices.sort((a, b) => a[0] - b[0]);
+    for (const [s, e] of indices) {
+      if (s < last) continue;
+      out += text.slice(last, s);
+      out += '<mark>' + text.slice(s, e + 1) + '</mark>';
+      last = e + 1;
+    }
+    out += text.slice(last);
+    return out;
+  }
+
+  function render(query, results) {
+    if (!query) {
+      resultsEl.innerHTML = '<p class="search-hint">Začni psát. Hledá v 218 článcích podle názvu i obsahu. Stiskni <kbd>↵</kbd> pro otevření prvního výsledku.</p>';
+      return;
+    }
+    if (results.length === 0) {
+      resultsEl.innerHTML = '<p class="search-empty">Žádný výsledek pro <em>' + query.replace(/[<>&]/g, '') + '</em></p>';
+      return;
+    }
+    const top = results.slice(0, 12);
+    lastResults = top;
+    resultsEl.innerHTML = top.map((r, idx) => {
+      const item = r.item;
+      const titleMatch = r.matches?.find((m) => m.key === 't');
+      const excerptMatch = r.matches?.find((m) => m.key === 'e');
+      const titleHtml = highlight(item.t, titleMatch ? [titleMatch] : []);
+      const excerptHtml = highlight(item.e, excerptMatch ? [excerptMatch] : []);
+      const cat = categoryLabels[item.c] ?? '';
+      const year = item.y ? ' · ' + item.y : '';
+      const thumb = item.th
+        ? `<div class="search-result-thumb"><img src="${item.th}" alt="" loading="lazy" /></div>`
+        : `<div class="search-result-thumb"><div class="search-result-thumb-placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" width="24" height="24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round"/></svg></div></div>`;
+      return `<a class="search-result${idx === activeIdx ? ' is-active' : ''}" href="/clanky/${item.s}" data-idx="${idx}">${thumb}<div class="search-result-body"><div class="search-result-meta">${cat}${year}</div><div class="search-result-title">${titleHtml}</div><div class="search-result-excerpt">${excerptHtml}</div></div></a>`;
+    }).join('');
+  }
+
+  let timer;
+  input.addEventListener('input', async () => {
+    clearTimeout(timer);
+    const q = input.value.trim();
+    if (q.length < 2) {
+      activeIdx = -1;
+      lastResults = [];
+      render('', []);
+      return;
+    }
+    timer = setTimeout(async () => {
+      const f = await ensureFuse();
+      const results = f.search(q);
+      activeIdx = results.length > 0 ? 0 : -1;
+      render(q, results);
+    }, 80);
+  });
+
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && lastResults[activeIdx]) {
+      e.preventDefault();
+      window.location.href = '/clanky/' + lastResults[activeIdx].item.s;
+    } else if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      activeIdx = Math.min(activeIdx + 1, lastResults.length - 1);
+      render(input.value.trim(), lastResults.map((item) => item));
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      activeIdx = Math.max(activeIdx - 1, 0);
+      render(input.value.trim(), lastResults.map((item) => item));
+    }
+  });
+
+  // Otevřít modal: Cmd/Ctrl+K, /, klik na trigger
+  function openModal() {
+    if (!dialog.open) dialog.showModal();
+    setTimeout(() => input.focus(), 30);
+  }
+  function closeModal() {
+    if (dialog.open) dialog.close();
+    input.value = '';
+    activeIdx = -1;
+    lastResults = [];
+    render('', []);
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      openModal();
+    } else if (e.key === '/' && document.activeElement?.tagName !== 'INPUT' && document.activeElement?.tagName !== 'TEXTAREA') {
+      e.preventDefault();
+      openModal();
+    } else if (e.key === 'Escape' && dialog.open) {
+      closeModal();
+    }
+  });
+
+  // Triggery (data-search-trigger v navu)
+  document.querySelectorAll('[data-search-trigger]').forEach((el) => {
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      openModal();
+    });
+  });
+
+  // Zavři modal po kliknutí na výsledek
+  resultsEl.addEventListener('click', (e) => {
+    const link = e.target.closest('.search-result');
+    if (link) closeModal();
+  });
+
+  // Klik mimo content = zavři
+  dialog.addEventListener('click', (e) => {
+    if (e.target === dialog) closeModal();
+  });
+</script>

@@ -1,0 +1,223 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import catalog from '../data/catalog.json';
+import { kategorie as catMeta } from '../data/kategorie';
+
+interface Entry {
+  slug: string;
+  title: string;
+  category: string;
+  thumbnail: string | null;
+  excerpt: string;
+  year: number | null;
+  imageCount: number;
+  wordCount: number;
+}
+
+export async function getStaticPaths() {
+  // Spolek má vlastní /spolek/index.astro — tady ho neuvádíme
+  return [
+    { params: { kategorie: 'sbirka' } },
+    { params: { kategorie: 'projekty' } },
+    { params: { kategorie: 'decin' } },
+    { params: { kategorie: 'vezni-hodiny' } },
+  ];
+}
+
+const { kategorie } = Astro.params;
+const meta = catMeta[kategorie as string];
+if (!meta) return Astro.redirect('/');
+
+const entries = (catalog as Entry[]).filter((e) => e.category === meta.slug);
+entries.sort((a, b) => a.title.localeCompare(b.title, 'cs'));
+
+const featured = (meta.featuredSlugs ?? [])
+  .map((s) => entries.find((e) => e.slug === s))
+  .filter((e): e is Entry => Boolean(e));
+
+const ostatni = featured.length
+  ? entries.filter((e) => !featured.some((f) => f.slug === e.slug))
+  : entries;
+
+const totalImages = entries.reduce((s, e) => s + e.imageCount, 0);
+const totalWords = entries.reduce((s, e) => s + e.wordCount, 0);
+const oldestYear = Math.min(...entries.filter((e) => e.year && e.year > 1300).map((e) => e.year as number));
+const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).map((e) => e.year as number));
+
+const ikonaSvg: Record<string, string> = {
+  mapa: '<path d="M12 2C7.5 2 4 5.5 4 10c0 5.5 8 12 8 12s8-6.5 8-12c0-4.5-3.5-8-8-8z"/><circle cx="12" cy="10" r="3"/>',
+  osa: '<line x1="3" y1="12" x2="21" y2="12"/><circle cx="12" cy="12" r="2.5"/>',
+  sluzba: '<rect x="4" y="6" width="16" height="14" rx="1"/><path d="M8 6V4h8v2"/>',
+  orloj: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round"/>',
+};
+---
+<Base title={meta.jmeno} description={meta.intro}>
+  <section class="kategorie-hero mb-16">
+    <p class="eyebrow mb-5">Sekce</p>
+    <h1 class="hero-title mb-3" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">{meta.jmeno}</h1>
+    <p class="kategorie-podnadpis">{meta.podnadpis}</p>
+    <p class="kategorie-intro mt-6">{meta.intro}</p>
+
+    <div class="kategorie-stats mt-8">
+      <div class="stat-inline">
+        <strong>{entries.length}</strong>
+        <span>{entries.length === 1 ? 'článek' : entries.length < 5 ? 'články' : 'článků'}</span>
+      </div>
+      {totalImages > 0 && (
+        <div class="stat-inline">
+          <strong>{totalImages}</strong>
+          <span>fotografií</span>
+        </div>
+      )}
+      {Number.isFinite(oldestYear) && Number.isFinite(newestYear) && oldestYear !== newestYear && (
+        <div class="stat-inline">
+          <strong>{oldestYear} → {newestYear}</strong>
+          <span>časový rozsah</span>
+        </div>
+      )}
+    </div>
+
+    {meta.doplnky && meta.doplnky.length > 0 && (
+      <div class="kategorie-doplnky mt-8">
+        {meta.doplnky.map((d) => (
+          <a href={d.href} class="doplnek-link" target={d.href.startsWith('http') ? '_blank' : undefined} rel={d.href.startsWith('http') ? 'noopener' : undefined}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20" set:html={ikonaSvg[d.ikona]} aria-hidden="true" />
+            <span>{d.jmeno}</span>
+            {d.href.startsWith('http') && <span class="text-sm" aria-hidden="true">↗</span>}
+          </a>
+        ))}
+      </div>
+    )}
+  </section>
+
+  {featured.length > 0 && (
+    <section class="mb-16" aria-labelledby="featured-heading">
+      <header class="mb-8">
+        <p class="eyebrow mb-2">Vybrané</p>
+        <h2 id="featured-heading" class="text-2xl md:text-3xl" style="margin-top: 0;">Stojí za prohlídku</h2>
+      </header>
+      <div class="featured-grid-cat">
+        {featured.map((e) => (
+          <Card
+            href={`/clanky/${e.slug}`}
+            title={e.title}
+            excerpt={e.excerpt}
+            thumbnail={e.thumbnail}
+            category={e.category}
+            year={e.year}
+            imageCount={e.imageCount}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section aria-labelledby="all-heading">
+    <header class="mb-6 pb-3 border-b border-[color:color-mix(in_srgb,var(--color-brass)_20%,transparent)]">
+      <p class="eyebrow mb-2">Kompletní seznam</p>
+      <h2 id="all-heading" class="text-2xl" style="margin-top: 0;">
+        {featured.length > 0 ? 'Další články' : 'Všechny články'}
+        <span class="text-sm text-[var(--color-text-muted)] not-italic font-normal">{ostatni.length} kusů</span>
+      </h2>
+    </header>
+    <div class="featured-grid-cat">
+      {ostatni.map((e) => (
+        <Card
+          href={`/clanky/${e.slug}`}
+          title={e.title}
+          excerpt={e.excerpt}
+          thumbnail={e.thumbnail}
+          category={e.category}
+          year={e.year}
+          imageCount={e.imageCount}
+        />
+      ))}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .kategorie-hero {
+    max-width: 880px;
+  }
+
+  .kategorie-podnadpis {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 1.4rem;
+    color: var(--color-copper);
+    margin: 0;
+  }
+
+  .kategorie-intro {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: var(--color-text);
+    max-width: 64ch;
+  }
+
+  .kategorie-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  }
+
+  .stat-inline {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .stat-inline strong {
+    font-family: var(--font-serif);
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    font-feature-settings: "lnum";
+  }
+
+  .stat-inline span {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+
+  .kategorie-doplnky {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .doplnek-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.7rem 1.1rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    color: var(--color-brass-bright);
+    text-decoration: none;
+    transition: all 150ms ease;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    font-size: 0.95rem;
+  }
+
+  .doplnek-link:hover {
+    border-color: var(--color-brass);
+    background: var(--color-bg-deep);
+  }
+
+  .doplnek-link svg {
+    color: var(--color-copper);
+  }
+
+  .featured-grid-cat {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+  }
+</style>

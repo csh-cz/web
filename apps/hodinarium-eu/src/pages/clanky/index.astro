@@ -1,0 +1,60 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const all = await getCollection('clanky');
+
+const categoryLabels: Record<string, string> = {
+  decin: 'Hodinárium Děčín',
+  'vezni-hodiny': 'Věžní hodiny',
+  sbirka: 'Sbírka',
+  projekty: 'Projekty',
+  ostatni: 'Ostatní',
+};
+
+const grouped = all.reduce<Record<string, typeof all>>((acc, entry) => {
+  const cat = entry.data.category;
+  acc[cat] ??= [] as unknown as typeof all;
+  acc[cat].push(entry);
+  return acc;
+}, {});
+
+for (const cat of Object.keys(grouped)) {
+  grouped[cat].sort((a, b) => a.data.title.localeCompare(b.data.title, 'cs'));
+}
+
+const orderedCats = ['decin', 'vezni-hodiny', 'sbirka', 'projekty', 'ostatni'].filter(
+  (c) => grouped[c]?.length,
+);
+---
+<Base title="Všechny články" description="Kompletní index Hodinária — všechny migrované články.">
+  <header class="max-w-3xl mb-12">
+    <p class="eyebrow mb-4">Index serveru</p>
+    <h1 class="hero-title mb-5" style="font-size: clamp(2rem, 5vw, 3.5rem);">Všechny články</h1>
+    <p class="text-[var(--color-text-soft)]">
+      <strong class="text-[var(--color-brass-bright)]">{all.length}</strong> článků migrovaných z
+      <a href="https://hodinarium.eu" rel="noopener" target="_blank">hodinarium.eu</a>.
+    </p>
+  </header>
+
+  {orderedCats.map((cat, idx) => (
+    <section class="mb-14">
+      <header class="mb-5 pb-2 border-b border-[color:color-mix(in_srgb,var(--color-brass)_20%,transparent)]">
+        <p class="eyebrow mb-1" style="font-size: 0.7rem;">Kapitola {['I','II','III','IV','V','VI'][idx]}</p>
+        <h2 class="text-2xl flex items-baseline gap-3" style="margin-top: 0;">
+          {categoryLabels[cat]}
+          <span class="text-sm text-[var(--color-text-muted)] not-italic font-normal">{grouped[cat].length} článků</span>
+        </h2>
+      </header>
+      <ul class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1 text-base">
+        {grouped[cat].map((entry) => (
+          <li>
+            <a href={`/clanky/${entry.id}`} class="block py-1.5" style="border-bottom: none;">
+              {entry.data.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>

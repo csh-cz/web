@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /podklady/
+
+Sitemap: https://hodinarium.eu/sitemap-index.xml

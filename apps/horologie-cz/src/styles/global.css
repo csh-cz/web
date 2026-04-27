@@ -1,0 +1,258 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  /* Spolek = formálnější, klidnější paleta — chladnější brass, méně copper.
+     Decentní, dokumentová, ne expoziční. */
+  --color-bg: #14110c;
+  --color-bg-elevated: #1e1a14;
+  --color-bg-deep: #0a0807;
+  --color-paper: #efe8d4;
+
+  /* Stříbrolento + tlumený brass (klidné, formální) */
+  --color-brass: #a89060;
+  --color-brass-bright: #c8a877;
+  --color-copper: #8b6d3a;
+  --color-verdigris: #5a8b7a;
+
+  /* Tělo textu — sytá pergamenová */
+  --color-text: #f0e7d2;
+  --color-text-soft: #cebd9b;
+  --color-text-muted: #968971;
+  --color-ink: #1a140a;
+
+  --font-serif: "Spectral", "Cardo", Georgia, "Times New Roman", serif;
+}
+
+html {
+  font-family: var(--font-serif);
+  background: var(--color-bg);
+  color: var(--color-text);
+  color-scheme: dark;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+body {
+  min-height: 100vh;
+  font-size: 19px;
+  line-height: 1.7;
+  font-weight: 400;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 768px) {
+  body { font-size: 20px; }
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background-image:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' seed='5'/><feColorMatrix values='0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 0.04 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  color: var(--color-brass-bright);
+  letter-spacing: -0.005em;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  line-height: 1.25;
+}
+
+h1 {
+  font-weight: 500;
+  letter-spacing: -0.015em;
+}
+
+h2 {
+  font-weight: 500;
+  font-style: normal;
+  color: var(--color-brass-bright);
+  margin-top: 2.5em;
+  font-size: 1.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+}
+
+a {
+  color: var(--color-brass-bright);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+  transition: border-color 150ms ease, color 150ms ease;
+}
+
+a:hover {
+  color: var(--color-paper);
+  border-bottom-color: var(--color-brass-bright);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--color-brass-bright);
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--color-brass);
+  color: var(--color-ink);
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0;
+  transform: translateY(-110%);
+  transition: transform 150ms ease;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+::selection {
+  background: var(--color-brass);
+  color: var(--color-ink);
+}
+
+summary {
+  min-height: 44px;
+  min-width: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+summary::-webkit-details-marker { display: none; }
+
+.eyebrow {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--color-copper);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.site-header {
+  border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+  background: rgba(20, 17, 12, 0.94);
+  backdrop-filter: blur(8px);
+}
+
+.site-footer {
+  border-top: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+  background: var(--color-bg-deep);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+}
+
+.footer-h {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--color-copper);
+  font-weight: 500;
+  margin: 0 0 1rem;
+}
+
+.footer-grid ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.footer-grid a {
+  color: var(--color-text-soft);
+  font-size: 0.9rem;
+  border-bottom: none;
+}
+.footer-grid a:hover {
+  color: var(--color-brass-bright);
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.footer-licence {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.cc-mini {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--color-text-soft) !important;
+  border-bottom: none !important;
+  padding: 0.25rem 0.55rem;
+  border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  border-radius: 2px;
+  transition: border-color 150ms ease, color 150ms ease;
+}
+.cc-mini:hover {
+  border-color: var(--color-brass);
+  color: var(--color-brass-bright) !important;
+}
+.cc-mini-icon {
+  font-family: ui-monospace, "SF Mono", monospace;
+  font-weight: 700;
+  font-size: 0.7rem;
+  width: 18px;
+  height: 18px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -0.05em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  html, body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt;
+  }
+  body::before { display: none; }
+  .site-header, .site-footer, .skip-link { display: none !important; }
+  main { max-width: none; padding: 0; }
+  h1, h2, h3, h4 { color: black !important; page-break-after: avoid; }
+  a { color: black !important; text-decoration: underline; border: none !important; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; font-style: italic; }
+  p, li { orphans: 3; widows: 3; }
+}

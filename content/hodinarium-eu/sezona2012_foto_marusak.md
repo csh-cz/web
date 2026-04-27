@@ -1,0 +1,30 @@
+---
+title: "Věžní muzejíčko Soběslav"
+slug: "sezona2012_foto_marusak"
+category: "decin"
+originalUrl: "https://hodinarium.eu/sezona2012_foto_marusak.htm"
+lastModified: "Sun, 23 Apr 2017 15:28:00 GMT"
+sourceCharset: "windows-1250"
+scrapedAt: "2026-04-27T17:36:34.645Z"
+---
+![Upoutávka Zvony](/img/aktual/zvony2012.jpg)
+
+Na zadní stěně již visí funkční orloj, vlevo fotografie Pražského orloje od pana Marušáka.
+
+V sestavě fotografií je největší zvon v Čechách (Zikmund) a na Moravě (Václav), další v pořadí velikosti Augustin a Kryštof, nejstarší český funkční zvon (Vilém), na severní Moravě bezejmenný zvon z Oder, dále ukázky bohatě zdobených zvonů (Vondra). Autorem dalšího bohatě zdobeného zvonu je Brikcí, který je považován za nejdokonalejšího renesančního českého zvonaře. Nechybí ani pohledy na mohutné dřevěné stolice (Jiljí a Bumerin) a ani český Liberty Bell z Ameriky, už z 20.století. Spojovacím článkem mezi hodinářskou a zvonařskou částí je zvonohra v Loretě.
+
+Fotovýstava: Stan. Marušák
+
+Průvodní text výstavy ZVONY ČECH A MORAVY [ke stažení](/download/zvony2012.pdf).
+
+* * *
+
+[!](img/vez/foto2012/f/foto_0001.jpg)
+
+[!](img/vez/foto2012/f/foto_0002.jpg)[!](img/vez/foto2012/f/foto_0003.jpg)
+
+[!](img/vez/foto2012/f/foto_0004.jpg)[!](img/vez/foto2012/f/foto_0005.jpg)
+
+[!](img/vez/foto2012/f/foto_0006.jpg)[!](img/vez/foto2012/f/foto_0007.jpg)
+
+[!](img/vez/foto2012/f/foto_0008.jpg)[!](img/vez/foto2012/f/foto_0009.jpg)
