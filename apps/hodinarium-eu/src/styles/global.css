@@ -79,12 +79,25 @@ h2 {
   margin-top: 2.5em;
 }
 
+/* Ozubené kolečko jako ornament před h2 — místo původního fleuronu ❦ */
 h2::before {
-  content: '❦ ';
-  color: var(--color-copper);
-  font-style: normal;
-  margin-right: 0.25em;
+  content: '';
+  display: inline-block;
+  width: 0.85em;
+  height: 0.85em;
+  margin-right: 0.5em;
+  margin-bottom: -0.05em;
+  background-color: var(--color-copper);
   opacity: 0.7;
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'><path d='M12 2v3M12 19v3M2 12h3M19 12h3M4.93 4.93l2.12 2.12M16.95 16.95l2.12 2.12M4.93 19.07l2.12-2.12M16.95 7.05l2.12-2.12'/><circle cx='12' cy='12' r='5'/><circle cx='12' cy='12' r='1.5' fill='currentColor'/></svg>");
+          mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'><path d='M12 2v3M12 19v3M2 12h3M19 12h3M4.93 4.93l2.12 2.12M16.95 16.95l2.12 2.12M4.93 19.07l2.12-2.12M16.95 7.05l2.12-2.12'/><circle cx='12' cy='12' r='5'/><circle cx='12' cy='12' r='1.5' fill='currentColor'/></svg>");
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+  vertical-align: middle;
 }
 
 h3 {
@@ -157,20 +170,63 @@ summary::-webkit-details-marker { display: none; }
   font-style: normal;
 }
 
-/* Fleuron divider — typografický ornament */
+/* Divider — tři ozubená kolečka jako ornament */
 .fleuron {
-  display: block;
-  text-align: center;
-  color: var(--color-copper);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
   margin: 3em 0;
-  font-size: 1.5rem;
-  letter-spacing: 1.5em;
-  text-indent: 1.5em; /* kompenzace last-letter spacing */
   opacity: 0.7;
 }
 
-.fleuron::before {
-  content: '❦  ❦  ❦';
+.fleuron::before,
+.fleuron::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    color-mix(in srgb, var(--color-copper) 60%, transparent),
+    transparent
+  );
+  max-width: 120px;
+}
+
+.fleuron > span,
+.fleuron::-webkit-after,
+.fleuron-icons {
+  display: inline-flex;
+  gap: 0.85em;
+  align-items: center;
+}
+
+.fleuron-icons svg {
+  width: 1.25em;
+  height: 1.25em;
+  color: var(--color-copper);
+}
+
+.fleuron-icons svg:nth-child(2) {
+  width: 1.55em;
+  height: 1.55em;
+}
+
+/* Když se fleuron používá bez vnitřního <span class="fleuron-icons">,
+   zobrazí jeden cog (zpětně kompatibilní) */
+.fleuron:empty::after {
+  content: '';
+  display: inline-block;
+  width: 1.55em;
+  height: 1.55em;
+  background-color: var(--color-copper);
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'><path d='M12 2v3M12 19v3M2 12h3M19 12h3M4.93 4.93l2.12 2.12M16.95 16.95l2.12 2.12M4.93 19.07l2.12-2.12M16.95 7.05l2.12-2.12'/><circle cx='12' cy='12' r='5'/><circle cx='12' cy='12' r='1.5' fill='currentColor'/></svg>");
+          mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'><path d='M12 2v3M12 19v3M2 12h3M19 12h3M4.93 4.93l2.12 2.12M16.95 16.95l2.12 2.12M4.93 19.07l2.12-2.12M16.95 7.05l2.12-2.12'/><circle cx='12' cy='12' r='5'/><circle cx='12' cy='12' r='1.5' fill='currentColor'/></svg>");
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
 }
 
 /* Drop cap pro první odstavec článku */

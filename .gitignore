@@ -37,8 +37,9 @@ raw/
 # pokud chceš, odkomentuj řádky níže pro úspornější repo
 # apps/*/public/img/
 
-# OG images (regenerable přes pnpm og:build)
-apps/*/public/og/
+# OG images jsou commitnuté — generují se přes pnpm og:build
+# (pokud bys chtěl negenerovat ručně, odkomentuj řádek níže)
+# apps/*/public/og/
 
 # Tmp soubory
 /tmp_*
