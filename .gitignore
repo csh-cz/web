@@ -30,10 +30,8 @@ apps/*/.astro
 .env.local
 .env.*.local
 
-# Scraped raw HTML — too big k commitu, regenerable přes pnpm scrape:hodinarium
-raw/*/pages/
-raw/*/assets/
-raw/*/_index.json
+# Scraped raw HTML — celý adresář je pracovní, regenerable přes pnpm scrape:hodinarium
+raw/
 
 # Stažené obrázky (62 MB) — regenerable přes pnpm download:hodinarium
 # pokud chceš, odkomentuj řádky níže pro úspornější repo
