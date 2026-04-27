@@ -3,7 +3,6 @@ import Base from "./Base.astro";
 import Card from "../components/Card.astro";
 import catalog from "../data/catalog.json";
 import { lokace } from "../data/lokace";
-import { milniky } from "../data/milniky";
 
 interface CatalogEntry {
   slug: string;
@@ -29,8 +28,6 @@ const { title, description, originalUrl, lastModified, tldr, category, slug } = 
 
 // Cross-reference: má tento článek odpovídající lokaci na mapě?
 const onMap = slug ? lokace.find((l) => l.slug === slug) : undefined;
-// Cross-reference: má tento článek milník na časové ose?
-const onTimeline = slug ? milniky.find((m) => m.slug === slug) : undefined;
 
 const categoryLabels: Record<string, string> = {
   decin: 'Hodinárium Děčín',
@@ -169,34 +166,20 @@ const expoziceLabel = category === 'decin' ? 'Hodinárium Děčín — fyzická 
       )}
 
       <!-- Cross-references — kde jinde tento exponát najdeš -->
-      {(onMap || onTimeline) && (
+      {onMap && (
         <div class="meta-cross">
           <p class="curator-label">Najdi také v</p>
           <ul class="meta-cross-list">
-            {onMap && (
-              <li>
-                <a href={`/mapa#${onMap.slug}`} class="meta-cross-link">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18" aria-hidden="true">
-                    <path d="M12 2C7.5 2 4 5.5 4 10c0 5.5 8 12 8 12s8-6.5 8-12c0-4.5-3.5-8-8-8z"/>
-                    <circle cx="12" cy="10" r="3"/>
-                  </svg>
-                  Mapa
-                  <span class="meta-cross-detail">{onMap.jmeno}</span>
-                </a>
-              </li>
-            )}
-            {onTimeline && (
-              <li>
-                <a href="/casova-osa" class="meta-cross-link">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18" aria-hidden="true">
-                    <line x1="3" y1="12" x2="21" y2="12"/>
-                    <circle cx="12" cy="12" r="2.5"/>
-                  </svg>
-                  Časová osa
-                  <span class="meta-cross-detail">rok {onTimeline.rokText ?? onTimeline.rok}</span>
-                </a>
-              </li>
-            )}
+            <li>
+              <a href={`/mapa#${onMap.slug}`} class="meta-cross-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18" aria-hidden="true">
+                  <path d="M12 2C7.5 2 4 5.5 4 10c0 5.5 8 12 8 12s8-6.5 8-12c0-4.5-3.5-8-8-8z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+                Mapa
+                <span class="meta-cross-detail">{onMap.jmeno}</span>
+              </a>
+            </li>
           </ul>
         </div>
       )}

@@ -242,7 +242,6 @@ async function main() {
     { slug: 'home', title: 'Hodinárium', description: 'Webová expozice Českého spolku horologického', siteLabel: 'Hodinárium', category: undefined },
     { slug: 'atlas', title: 'Atlas', description: 'Vizuální katalog 218 hodin a artefaktů', siteLabel: 'Hodinárium' },
     { slug: 'mapa', title: 'Mapa', description: '26 věžních hodin, orlojů a expozic v Česku a Evropě', siteLabel: 'Hodinárium' },
-    { slug: 'casova-osa', title: 'Časová osa', description: 'Šest set let hodinařiny — od 1410 po dnešek', siteLabel: 'Hodinárium' },
     { slug: 'sbirka', title: 'Sbírka', description: 'Hodiny napříč staletími a typy', siteLabel: 'Hodinárium' },
     { slug: 'projekty', title: 'Projekty', description: 'DIY hodiny a experimentální konstrukce', siteLabel: 'Hodinárium' },
     { slug: 'decin', title: 'Hodinárium Děčín', description: 'Fyzická expozice na zámku Děčín', siteLabel: 'Hodinárium' },

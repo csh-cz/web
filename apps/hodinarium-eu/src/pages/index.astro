@@ -3,7 +3,6 @@ import Base from "../layouts/Base.astro";
 import Card from "../components/Card.astro";
 import catalog from '../data/catalog.json';
 import { lokace } from '../data/lokace';
-import { milniky } from '../data/milniky';
 
 interface Entry {
   slug: string;
@@ -34,7 +33,6 @@ const total = entries.length;
 const withImages = entries.filter((e) => e.thumbnail).length;
 const totalImages = entries.reduce((s, e) => s + e.imageCount, 0);
 const lokaceCount = lokace.length;
-const milnikyCount = milniky.length;
 const oldestYear = Math.min(...entries.filter((e) => e.year && e.year > 1300).map((e) => e.year as number));
 const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).map((e) => e.year as number));
 ---
@@ -55,7 +53,7 @@ const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).ma
         </p>
         <div class="hero-cta">
           <a href="/atlas" class="btn-primary">Procházet atlas</a>
-          <a href="/casova-osa" class="btn-secondary">Časová osa →</a>
+          <a href="/mapa" class="btn-secondary">Mapa →</a>
         </div>
       </div>
       <div class="hero-stats" aria-label="Souhrn obsahu">
@@ -70,10 +68,6 @@ const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).ma
         <div class="stat">
           <span class="stat-num">{lokaceCount}</span>
           <span class="stat-label">lokací</span>
-        </div>
-        <div class="stat">
-          <span class="stat-num">{milnikyCount}</span>
-          <span class="stat-label">milníků</span>
         </div>
       </div>
     </div>
@@ -105,10 +99,10 @@ const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).ma
     </div>
   </section>
 
-  <!-- TROJICE: ATLAS / MAPA / OSA -->
+  <!-- DVOJICE: ATLAS / MAPA -->
   <section class="mb-20" aria-labelledby="explore-heading">
     <header class="mb-8">
-      <p class="eyebrow mb-3">Tři způsoby procházení</p>
+      <p class="eyebrow mb-3">Dva způsoby procházení</p>
       <h2 id="explore-heading" class="text-3xl md:text-4xl" style="margin-top: 0;">Najdi si svoji cestu</h2>
     </header>
     <div class="explore-grid">
@@ -133,18 +127,6 @@ const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).ma
         </div>
         <h3>Mapa</h3>
         <p>{lokaceCount} věžních hodin, orlojů a expozic na mapě Česka a Evropy.</p>
-      </a>
-      <a href="/casova-osa" class="explore-card">
-        <div class="explore-icon" aria-hidden="true">
-          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
-            <line x1="6" y1="24" x2="42" y2="24"/>
-            <circle cx="14" cy="24" r="3"/>
-            <circle cx="24" cy="24" r="3"/>
-            <circle cx="34" cy="24" r="3"/>
-          </svg>
-        </div>
-        <h3>Časová osa</h3>
-        <p>Šest set let hodinařiny — {milnikyCount} milníků od&nbsp;{oldestYear} po&nbsp;dnešek.</p>
       </a>
     </div>
   </section>

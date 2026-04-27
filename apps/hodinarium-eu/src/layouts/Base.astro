@@ -19,7 +19,7 @@ function ogSlugFromPath(path: string): string {
   if (p === '' || p === 'index') return 'home';
   if (p.startsWith('clanky/')) return p.slice('clanky/'.length);
   if (p === 'clanky') return 'clanky';
-  // /atlas, /mapa, /casova-osa, /sbirka, /projekty, /decin, /vezni-hodiny
+  // /atlas, /mapa, /sbirka, /projekty, /decin, /vezni-hodiny
   return p.split('/')[0];
 }
 const slug = ogSlug ?? ogSlugFromPath(Astro.url.pathname);
@@ -70,7 +70,6 @@ const ogImage = new URL(`/og/${slug}.png`, site).toString();
         <ul class="hidden md:flex gap-6 text-sm items-center" style="letter-spacing: 0.05em;">
           <li><a href="/atlas" style="border-bottom: none;">Atlas</a></li>
           <li><a href="/mapa" style="border-bottom: none;">Mapa</a></li>
-          <li><a href="/casova-osa" style="border-bottom: none;">Časová osa</a></li>
           <li><a href="/sbirka" style="border-bottom: none;">Sbírka</a></li>
           <li><a href="/projekty" style="border-bottom: none;">Projekty</a></li>
           <li><a href="/decin" style="border-bottom: none;">Děčín</a></li>
@@ -96,7 +95,6 @@ const ogImage = new URL(`/og/${slug}.png`, site).toString();
             <li class="mobile-section-label">Webová expozice</li>
             <li><a href="/atlas" style="border-bottom: none;">Atlas</a></li>
             <li><a href="/mapa" style="border-bottom: none;">Mapa</a></li>
-            <li><a href="/casova-osa" style="border-bottom: none;">Časová osa</a></li>
             <li><a href="/sbirka" style="border-bottom: none;">Sbírka</a></li>
             <li><a href="/projekty" style="border-bottom: none;">Projekty</a></li>
             <li><a href="/decin" style="border-bottom: none;">Děčín</a></li>
@@ -124,7 +122,6 @@ const ogImage = new URL(`/og/${slug}.png`, site).toString();
             <ul>
               <li><a href="/atlas">Atlas</a></li>
               <li><a href="/mapa">Mapa</a></li>
-              <li><a href="/casova-osa">Časová osa</a></li>
               <li><a href="/sbirka">Sbírka</a></li>
               <li><a href="/projekty">Projekty</a></li>
               <li><a href="/decin">Děčín</a></li>

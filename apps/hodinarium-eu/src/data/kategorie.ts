@@ -29,9 +29,6 @@ export const kategorie: Record<string, KategorieMeta> = {
       'Vlastní konstrukce — Arduino, ESP8266, NTP synchronizace, sluneční hodiny v digitální podobě, ' +
       'propeller clock i astronomické hodiny řízené mikroprocesorem. Pro maker komunitu.',
     featuredSlugs: ['astro2_NTP', 'Arduino', 'GPS_Sakul', 'propeller_clock'],
-    doplnky: [
-      { jmeno: 'Časová osa projektů', href: '/casova-osa', ikona: 'osa' },
-    ],
   },
   decin: {
     slug: 'decin',
@@ -56,7 +53,6 @@ export const kategorie: Record<string, KategorieMeta> = {
     featuredSlugs: ['sobeslav3', 'bychory_zvonici_stroj', 'rozmberk1', 'janovice'],
     doplnky: [
       { jmeno: 'Mapa věží', href: '/mapa', ikona: 'mapa' },
-      { jmeno: 'Časová osa', href: '/casova-osa', ikona: 'osa' },
     ],
   },
 };
