@@ -7,6 +7,8 @@ lastModified: "Mon, 16 Mar 2026 16:42:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:09.887Z"
 ---
+import YouTube from '../../apps/hodinarium-eu/src/components/YouTube.astro';
+
 **[**pro třídrátový nepolarizovaný rozvod dle IBM**](/clanky/Arduino_IBM)**
 
 ![Prototyp NTP Witty impulser](/img/arduino/NTP_W_E.jpg)Elektronika je stále výkonnější a levnější. I elektronické hodiny jsou stále přesnější, případně synchronizované dle DCF 77, GPS, sítě mobilních operátorů nebo z NTP servery Internetu. Pomalu ztrácí význam řešit sítě jednotného času na bázi rozvodů polarizovaných či stejnosměrných impulzů. Přesto jsou místa, kde takové sítě jsou vhodné. Přistoupili jsme proto k vývoji SW pro co nejlevnější variantu elektronických hlavních hodin na bázi modulu ESP8266 ESP-12F do napětí 24 V jak pro polarizované impulzy, tak i pro třídrátový rozvod nepolarizovaných pulzů hodin INTERNATIONAL.
@@ -120,11 +122,16 @@ V levém okně běží reálný externí monitor NTP impulzeru. Zobrazuje kódov
 
 Je však třeba připomenout, že původní účel použitého čipu ESP8266, byl přenos sériové komunikace pomocí WiFi. Pro zpracovaní vlastního kódu se musí přerušit původní rutina obsluhující WiFi a když se zase její běh v krátkém čase neobnoví tak to může dělat různá zpoždění v komunikaci. Zároveň se asi uplatňují úspory napájení, kdy modul upadá do různě hlubokého spánku. To také lehce ovlivňuje přesnost odeslání impulzu. Tato chyba se však při připojení k NTP serveru nekumuluje a asi nebude v daném okamžiku větší než zlomek sekundy.
 
-##
-
 ## Příklad použití pro historický podružný strojek s kývavou kotvou.
 
 Na videu v režimu nastavení na čas (FAST).
+
+<YouTube
+  id="RMyYnnAPIV8"
+  title="Podružný strojek s kývavou kotvou — režim nastavení času (FAST)"
+  align="right"
+  ratio="9/16"
+/>
 
 ## Odkazy
 

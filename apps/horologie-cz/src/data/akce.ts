@@ -289,7 +289,7 @@ export const akce: Akce[] = [
       '28. 10. — průběh přednášek',
       '28. 10. — přestávka mezi přednáškami',
       '28. 10. — astronomický orloj v Marienkirche',
-      '28. 10. — večerní setkání účastníků',
+      'Bernský orlojník Markus Marti a jeho pražský kolega a člen spolku Petr Skála',
       '29. 10. ráno — pokračování programu',
       '29. 10. — druhý den symposia',
       '29. 10. — závěr programu',

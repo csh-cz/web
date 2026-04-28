@@ -44,3 +44,53 @@ ny měly na co dívat, byla pořádána [výstavka šperků](/clanky/steampunk) 
 Vzpomenete si, kdy vás naposledy někdo pochválil? Lidé se totiž vzájemně chválí málo, proto bývá oblíbené rčení: "Musím se pochválit sám, protože to za mne nikdo neudělá". Existují však výjimky a těší nás, že se jedna z nich týká právě soběslavského Věžního muzejíčka. Zápisy do knihy návštěv nás opravdu potěšily a moc si jich vážíme. Těšilo nás také to, že je psali návštěvníci různých věkový skupin i různé státní příslušnsti.
 
 Chceme se o svou radost s vámi podělit, proto jsme několik textů z návštěvní knihy vybrali. Neuvádíme jména pisatelů, protože stejně většinou nejdou přečíst.
+
+> Krásná místnost plná ztraceného a odcházejícího času. Pozor na zvuky!
+
+> Obdivuji práci starých řemeslníků i lidí, kteří tato díla udržují pro dnešní generace. **Škoda, že mám málo času (žena chvátá).**
+
+> Bylo to husté.
+
+> Jsme tu hodinu a už se nám tady líbí *(Expedice Soběslav).*
+
+> Paráda.
+
+> Nikdy neutichající tikot přeje Věžnímu muzejíčku…
+
+> Krásné staré stroje. Krásný pohled do minulosti.
+
+> „Náhodou jsme zabloudily!" Ale při parkování jsme cosi zahlédly. „Oj!" Vešly jsme dovnitř a zůstaly stát! „Tikotot" nás vedl. Najednou se před námi zjevila místnost „KDE ČAS MÁ SVŮJ DŮM." Děkuji.
+
+> Moc se nám to líbilo a pán krásně viprávěl. *Anička.*
+
+> Velmi dobře vybrané exponáty by obstály v konkurenci se specializovanými muzei. K tomu nadšení amatérského sdružení — velmi pěkný zážitek.
+
+> Je vždy velkým potěšením poslouchat výklad od člověka, kdo věci rozumí a je pro to nadchnut. Ať žijí nadšenci všeho druhu.
+
+> Úžasná přehlídka úžasných strojů a stroječků.
+
+> Výklad byl velmi zajímavý. Hlavně pro našeho taťku, Josefa Pavelka ze Slavkova u Opavy, vyučeného hodináře ve Šternberku.
+
+> Moc pěkné a překvapivé. (mile :-))
+
+> Děkujeme za poutavý výklad o věžních hodinách. Radnice udělala dobře, že vás do těchto prostor pustila.
+
+> Děkujeme za zajímavý exkurz do čarodějnické kuchyně plné nepochopitelných ozubených koleček a za trpělivost a zanícení s nimž se nám věnoval ing. Král.
+
+> Úžasná výstava věžních strojů, podivuhodná důmyslná práce, pro laika magické.
+
+> Je to úžasné a originální, zajímavé, ještě přijedeme.
+
+> Velmi zajímavé a poučné. Zase člověk pozná nové věci.
+
+> Super počin a super výklad, děkujeme.
+
+> Přemohla jsem ty strašné schody a byla odměněna pohledem na úžasné časostoje.
+
+> Krásné město, krásné památky, krásné „věžní muzejíčko".
+
+> Děkujeme za poutavý výklad, který byl navíc mile nečekaný. Přejeme mnoho úspěchů v další činnosti.
+
+> Malé, ale příjemné, fundovaný a zajímavý výklad. Děkujeme.
+
+> Velmi zajímavá výstava a poutavý výklad, krásné šperky!

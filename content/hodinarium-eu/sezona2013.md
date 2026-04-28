@@ -54,4 +54,28 @@ Vzpomenete si, kdy vás naposledy někdo pochválil? Lidé se totiž vzájemně 
 
 Chceme se o svou radost s vámi podělit, proto jsme několik textů z návštěvní knihy vybrali. Neuvádíme jména pisatelů, protože stejně většinou nejdou přečíst.
 
+> Krásná místnost plná ztraceného a odcházejícího času. Pozor na zvuky!
+
+> Obdivuji práci starých řemeslníků i lidí, kteří tato díla udržují pro dnešní generace.
+
+> Jsme tu hodinu a už se nám tady líbí *(Expedice Soběslav).*
+
+> Nikdy neutichající tikot přeje Věžnímu muzejíčku…
+
+> „Náhodou jsme zabloudily!" Ale při parkování jsme cosi zahlédly. Vešly jsme dovnitř a zůstaly stát! „Tikotot" nás vedl. Najednou se před námi zjevila místnost „KDE ČAS MÁ SVŮJ DŮM."
+
+> Velmi dobře vybrané exponáty by obstály v konkurenci se specializovanými muzei. K tomu nadšení amatérského sdružení — velmi pěkný zážitek.
+
+> Je vždy velkým potěšením poslouchat výklad od člověka, kdo věci rozumí a je pro to nadchnut. Ať žijí nadšenci všeho druhu.
+
+> Úžasná přehlídka úžasných strojů a stroječků.
+
+> Výklad byl velmi zajímavý. Hlavně pro našeho taťku, vyučeného hodináře ve Šternberku.
+
+> Děkujeme za zajímavý exkurz do čarodějnické kuchyně plné nepochopitelných ozubených koleček a za trpělivost a zanícení s nimž se nám věnoval ing. Král.
+
+> Úžasná výstava věžních strojů, podivuhodná důmyslná práce, pro laika magické.
+
+> Krásné město, krásné památky, krásné „věžní muzejíčko".
+
 Petr Král

@@ -1,0 +1,113 @@
+---
+/**
+ * Slovní vyjádření aktuálního času — port z legacy normalnicas.js
+ * (https://hodinarium.eu/normalnicas.js, ~2010 windows-1250 cstring).
+ *
+ * Příklady výstupu:
+ *   "Je právě 8 hodin a 12 sekund dopoledne"
+ *   "Čtvrt na 4 a 7 minut a 33 sekund odpoledne"
+ *   "Za 5 minut tři čtvrtě na 6 a 41 sekund odpoledne"
+ *
+ * Port zachovává původní formulace (gramatika není dokonalá, ale
+ * to je součást charmu — autor si na to potrpěl).
+ */
+---
+<span class="cas-slovem" data-cas-slovem>Je právě tolik hodin, kolik právě je…</span>
+
+<style>
+  .cas-slovem {
+    display: inline-block;
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--color-brass-bright);
+    font-style: italic;
+  }
+</style>
+
+<script>
+  function hodSuffix(h: number): string {
+    if (h <= 0) return ' ';
+    if (h === 1) return ` ${h} hodina `;
+    if (h < 5) return ` ${h} hodiny `;
+    if (h < 13) return ` ${h} hodin `;
+    return ` ${h} `;
+  }
+
+  function minSuffixX1(m: number): string {
+    if (m <= 0) return ' ';
+    if (m === 1) return '  minutu ';
+    if (m < 5) return ` ${m} minuty `;
+    if (m < 60) return ` ${m} minut `;
+    return ' ';
+  }
+
+  function minSuffixX2(m: number): string {
+    if (m <= 0) return ' ';
+    if (m === 1) return ' minuta ';
+    if (m < 5) return ` ${m} minuty `;
+    if (m < 60) return ` ${m} minut `;
+    return ' ';
+  }
+
+  function pmSuffix(realHour: number, sec: number): string {
+    return realHour > 11
+      ? `   a ${sec} sekund odpoledne `
+      : `   a ${sec} sekund dopoledne `;
+  }
+
+  function casSlovem(rawHour: number, min: number, sec: number): string {
+    let hod = rawHour;
+    if (hod > 12) hod -= 12;
+
+    if (min === 0) return ' Je právě' + hodSuffix(hod) + pmSuffix(rawHour, sec);
+    if (min < 10) return ' ' + hodSuffix(hod) + ' a ' + minSuffixX2(min) + pmSuffix(rawHour, sec);
+    if (min < 15) {
+      const m = 15 - min;
+      const h = hod + 1;
+      return ' Za ' + minSuffixX1(m) + ' čtvrt na' + hodSuffix(h) + pmSuffix(rawHour, sec);
+    }
+    if (min === 15) return ' Je právě čtvrt na' + hodSuffix(hod + 1) + pmSuffix(rawHour, sec);
+    if (min < 25) {
+      const m = min - 15;
+      const h = hod + 1;
+      return ' Čtvrt na ' + h + ' a ' + minSuffixX2(m) + pmSuffix(rawHour, sec);
+    }
+    if (min < 30) {
+      const m = 30 - min;
+      const h = hod + 1;
+      return ' Za ' + minSuffixX1(m) + ' půl ' + h + pmSuffix(rawHour, sec);
+    }
+    if (min === 30) return ' Je právě půl ' + hodSuffix(hod + 1) + pmSuffix(rawHour, sec);
+    if (min < 40) {
+      const m = min - 30;
+      const h = hod + 1;
+      return ' Půl ' + h + ' a ' + minSuffixX2(m) + pmSuffix(rawHour, sec);
+    }
+    if (min < 45) {
+      const m = 45 - min;
+      const h = hod + 1;
+      return ' Za ' + minSuffixX1(m) + ' tři čtvrtě na ' + hodSuffix(h) + pmSuffix(rawHour, sec);
+    }
+    if (min === 45) return ' Je právě tři čtvrtě na ' + (hod + 1) + pmSuffix(rawHour, sec);
+    if (min < 55) {
+      const m = min - 45;
+      const h = hod + 1;
+      return ' Tři čtvrtě na ' + h + ' a ' + minSuffixX2(m) + pmSuffix(rawHour, sec);
+    }
+    // 55—59
+    const m = 60 - min;
+    const h = hod + 1;
+    return ' Za ' + minSuffixX1(m) + ' ' + h + pmSuffix(rawHour, sec);
+  }
+
+  function tick() {
+    const el = document.querySelector<HTMLElement>('[data-cas-slovem]');
+    if (!el) return;
+    const now = new Date();
+    el.textContent = casSlovem(now.getHours(), now.getMinutes(), now.getSeconds());
+  }
+
+  tick();
+  setInterval(tick, 1000);
+</script>

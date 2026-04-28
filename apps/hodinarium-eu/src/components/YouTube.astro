@@ -1,0 +1,245 @@
+---
+/**
+ * Lehká YouTube vsuvka — místo iframu zobrazí thumbnail s play tlačítkem,
+ * kliknutí teprve spustí skutečný YouTube iframe (z domény youtube-nocookie.com,
+ * žádné YT cookies / tracking dokud uživatel nezačne přehrávat).
+ *
+ * Inspirace: paulirish/lite-youtube-embed (žádný npm dep, jen vlastní
+ * web component).
+ *
+ * Použití v MDX:
+ *   import YouTube from '../../apps/hodinarium-eu/src/components/YouTube.astro';
+ *   <YouTube id="RMyYnnAPIV8" title="Podružný strojek s kyvavou kotvou" />
+ *
+ *   <YouTube id="VBpDQtAcoWc"
+ *            title="Time Slider — digital clock"
+ *            align="right" ratio="16/9" start={120} />
+ */
+
+interface Props {
+  /** YouTube video ID (např. RMyYnnAPIV8) */
+  id: string;
+  /** Volitelný titul — zobrazí se pod thumbnailem a v aria-label */
+  title?: string;
+  /** Layout: full = na celou šířku článku, left/right = float, inline = blok inline (default full) */
+  align?: 'full' | 'left' | 'right' | 'inline';
+  /** Aspect ratio (default 16/9, originály někdy mají divný 164×300) */
+  ratio?: string;
+  /** Začni přehrávat od sekundy N */
+  start?: number;
+}
+
+const { id, title, align = 'full', ratio = '16/9', start } = Astro.props;
+
+// Dvě varianty thumbnailů — `maxresdefault.jpg` je 1280×720 (existuje
+// jen pro novější videa), `hqdefault.jpg` je 480×360 (existuje vždy).
+// Začneme s maxres, fallback v <img onerror> jako lazy plán.
+const thumbHi = `https://i.ytimg.com/vi/${id}/maxresdefault.jpg`;
+const thumbLo = `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
+const watchUrl = start
+  ? `https://www.youtube.com/watch?v=${id}&t=${start}s`
+  : `https://www.youtube.com/watch?v=${id}`;
+---
+<div
+  class={`yt-embed yt-align-${align}`}
+  style={`aspect-ratio: ${ratio};`}
+  data-yt-id={id}
+  data-yt-start={start}
+  role="button"
+  tabindex="0"
+  aria-label={title ? `Přehrát: ${title}` : 'Přehrát YouTube video'}
+>
+  <a class="yt-poster" href={watchUrl} target="_blank" rel="noopener" aria-label={title ? `Otevřít na YouTube: ${title}` : 'Otevřít na YouTube'}>
+    <img
+      class="yt-thumb"
+      src={thumbHi}
+      alt={title ? `Náhled — ${title}` : ''}
+      loading="lazy"
+      decoding="async"
+      data-fallback={thumbLo}
+    />
+    <span class="yt-play" aria-hidden="true">
+      <svg viewBox="0 0 68 48" width="68" height="48">
+        <path
+          d="M66.52 7.74A8.5 8.5 0 0060.55 1.7C55.31.4 34 .4 34 .4S12.69.4 7.45 1.7A8.5 8.5 0 001.48 7.74C.18 13 .18 24 .18 24s0 11 1.3 16.26a8.5 8.5 0 005.97 6.04C12.69 47.6 34 47.6 34 47.6s21.31 0 26.55-1.3a8.5 8.5 0 005.97-6.04C67.82 35 67.82 24 67.82 24s0-11-1.3-16.26z"
+          fill="#f00"
+        />
+        <path d="M27.2 34.4l17.55-10.4-17.55-10.4z" fill="#fff" />
+      </svg>
+    </span>
+  </a>
+  {title && <p class="yt-caption">{title}</p>}
+</div>
+
+<style>
+  .yt-embed {
+    position: relative;
+    background: var(--color-bg-deep);
+    overflow: hidden;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .yt-align-full {
+    display: block;
+    max-width: 720px;
+    margin: 1.5rem auto;
+  }
+  .yt-align-left,
+  .yt-align-right {
+    max-width: 360px;
+    margin: 0.5rem 0 1rem;
+  }
+  .yt-align-left { float: left; margin-right: 1.5rem; }
+  .yt-align-right { float: right; margin-left: 1.5rem; }
+  .yt-align-inline {
+    display: inline-block;
+    max-width: 360px;
+    vertical-align: middle;
+  }
+
+  .yt-poster {
+    display: block;
+    position: absolute;
+    inset: 0;
+    border-bottom: none !important;
+  }
+
+  .yt-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 200ms ease;
+    filter: brightness(0.85);
+  }
+  .yt-embed:hover .yt-thumb,
+  .yt-embed:focus-visible .yt-thumb {
+    filter: brightness(1);
+  }
+
+  .yt-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 68px;
+    height: 48px;
+    pointer-events: none;
+    transition: transform 200ms ease, filter 200ms ease;
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.6));
+  }
+  .yt-embed:hover .yt-play,
+  .yt-embed:focus-visible .yt-play {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  .yt-embed:focus-visible {
+    outline: 2px solid var(--color-brass-bright);
+    outline-offset: 3px;
+  }
+
+  .yt-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0.6rem 0.8rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    color: var(--color-text);
+    font-size: 0.9rem;
+    line-height: 1.3;
+    pointer-events: none;
+  }
+
+  /* Po kliknutí: thumbnail se nahradí iframem, ten zachová aspect-ratio */
+  .yt-embed.yt-active iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .yt-embed.yt-active .yt-poster,
+  .yt-embed.yt-active .yt-caption {
+    display: none;
+  }
+
+  /* Mobile: float se chová jako inline blok */
+  @media (max-width: 600px) {
+    .yt-align-left,
+    .yt-align-right {
+      float: none;
+      max-width: 100%;
+      margin: 1rem auto;
+      display: block;
+    }
+  }
+</style>
+
+<script>
+  // Lazy iframe injection — až po kliknutí. Žádný YouTube embed se
+  // nenačte dokud uživatel nestiskne play. Privacy + perf.
+  function activate(embed: HTMLElement) {
+    if (embed.classList.contains('yt-active')) return;
+    const id = embed.dataset.ytId;
+    if (!id) return;
+    const start = embed.dataset.ytStart;
+
+    const iframe = document.createElement('iframe');
+    const params = new URLSearchParams({
+      autoplay: '1',
+      rel: '0',
+      ...(start ? { start } : {}),
+    });
+    iframe.src = `https://www.youtube-nocookie.com/embed/${id}?${params}`;
+    iframe.title = embed.getAttribute('aria-label') ?? 'YouTube video';
+    iframe.allow =
+      'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    iframe.allowFullscreen = true;
+    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+
+    embed.appendChild(iframe);
+    embed.classList.add('yt-active');
+  }
+
+  function bind(embed: HTMLElement) {
+    embed.addEventListener('click', (e) => {
+      // Klik mimo poster nebo na klávesu — odpálíme aktivaci
+      // a zabráníme přechodu na watchUrl (target="_blank").
+      const target = e.target as HTMLElement;
+      const isAnchorClick = target.closest('.yt-poster a') !== null;
+      if (e.target instanceof HTMLAnchorElement || target.closest('a')) {
+        // Nech anchor click (otevření v nové záložce) jen když uživatel
+        // zmáčkl modifikátor — jinak místo toho aktivujeme přehrání.
+        const ke = e as MouseEvent;
+        if (!ke.ctrlKey && !ke.metaKey && !ke.shiftKey && ke.button === 0) {
+          e.preventDefault();
+        } else {
+          return;
+        }
+      }
+      activate(embed);
+    });
+
+    embed.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        activate(embed);
+      }
+    });
+  }
+
+  // Image error fallback: maxres → hq
+  document.querySelectorAll<HTMLImageElement>('.yt-thumb').forEach((img) => {
+    img.addEventListener(
+      'error',
+      () => {
+        const fb = img.dataset.fallback;
+        if (fb && img.src !== fb) img.src = fb;
+      },
+      { once: true },
+    );
+  });
+
+  document.querySelectorAll<HTMLElement>('.yt-embed').forEach(bind);
+</script>

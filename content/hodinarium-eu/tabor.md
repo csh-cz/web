@@ -53,7 +53,7 @@ Dnes věžní hodiny mají obvykle dvě ručičky. Malou a velkou. Používat zd
 
 Jedna rafie na čtyřiadvacetihodinovém ciferníku pravděpodobně původně ukazovala italský čas počítaný od západu Slunce. ( Případně český čas počítaný od východu Slunce. ) Po zavedení německého času počítaného od půlnoci se ciferníky předělávaly. Současný táborský orloj jednou rafií ukazuje SEČ na ciferníku s číslicí 24 nahoře.
 
-Jsme muzeum virtuální, proto zařazujeme na tuto stránku programovaný ciferník. Orloj na obrázku ukazuje čas v okamžiku zobrazení stránky. Pro jistotu jsou vlevo nahoře kontrolní digitálky. Jedná se o další virtuální hodiny vytvořené pro tento web. Původně byla animace vytvořena technologií Flash. Po jejím ukončení jsou využity modernější technologie.
+Jsme muzeum virtuální, proto byl na této stránce dlouho zařazen programovaný ciferník — orloj ukazoval čas v okamžiku zobrazení stránky, vlevo nahoře byly kontrolní digitálky. Animace vznikla nejprve v technologii Flash; po jejím ukončení byla migrovaná na samostatný JavaScript hostovaný na partnerském serveru `muzeumhodin.info`. Tento server **byl bohužel v roce 2026 zrušen**, takže původní embed je nedostupný. Pracujeme na nativní implementaci přímo v Hodináriu (po vzoru [Klementinských slunečních hodin](/clanky/slunecni_filler) nebo [Židovských hodin](/clanky/zidovske)).
 
 ## Odkazy
 

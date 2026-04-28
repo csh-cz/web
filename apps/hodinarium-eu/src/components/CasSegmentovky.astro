@@ -1,0 +1,97 @@
+---
+/**
+ * "Segmentovky s překladem" — vtipný JS gimmick z legacy
+ * `segmentovky_prg.htm`. Každou číslici HH:MM:SS převede na české
+ * slovo podle vizuální podoby:
+ *
+ *   0 = placka     (kulatá nula)
+ *   1 = pendrek    (rovná čára)
+ *   2 = zatáčka    (zaoblené S)
+ *   3 = ňadra      (dvě vyboulení, no…)
+ *   4 = židlička   (čtyřúhelník s nohou)
+ *   5 = koule      (dolní oblouk + horní rovná)
+ *   6 = švestka    (kapkovitý tvar)
+ *   7 = motyka     (rovná + zaoblený dolní)
+ *   8 = sněhulák   (dvě koule nad sebou)
+ *   9 = plácačka   (švestka vzhůru nohama)
+ *
+ * Pro 12:34:56 → "pendrek zatáčka : ňadra židlička : koule švestka".
+ */
+---
+<div class="seg-prekladem">
+  <div class="seg-cas" data-seg-cas>00:00:00</div>
+  <div class="seg-prelozeno" data-seg-prelozeno>placka placka : placka placka : placka placka</div>
+</div>
+
+<style>
+  .seg-prekladem {
+    display: inline-block;
+    margin: 1.25rem 0;
+    padding: 0.9rem 1.2rem;
+    background: var(--color-bg-deep);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    font-family: var(--font-serif);
+    text-align: center;
+  }
+
+  .seg-cas {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--color-brass-bright);
+    letter-spacing: 0.05em;
+    margin-bottom: 0.4rem;
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+  }
+
+  .seg-prelozeno {
+    font-size: 0.95rem;
+    color: var(--color-text-soft);
+    font-style: italic;
+    line-height: 1.5;
+  }
+</style>
+
+<script>
+  const SLOVA: Record<number, string> = {
+    0: 'placka',
+    1: 'pendrek',
+    2: 'zatáčka',
+    3: 'ňadra',
+    4: 'židlička',
+    5: 'koule',
+    6: 'švestka',
+    7: 'motyka',
+    8: 'sněhulák',
+    9: 'plácačka',
+  };
+
+  function preloz(n: number): string {
+    return SLOVA[n] ?? '?';
+  }
+
+  function pad(n: number): [number, number] {
+    return [Math.floor(n / 10), n % 10];
+  }
+
+  function tick() {
+    const elCas = document.querySelector<HTMLElement>('[data-seg-cas]');
+    const elPre = document.querySelector<HTMLElement>('[data-seg-prelozeno]');
+    if (!elCas || !elPre) return;
+
+    const now = new Date();
+    const [h1, h2] = pad(now.getHours());
+    const [m1, m2] = pad(now.getMinutes());
+    const [s1, s2] = pad(now.getSeconds());
+
+    elCas.textContent =
+      `${h1}${h2}:${m1}${m2}:${s1}${s2}`;
+    elPre.textContent =
+      `${preloz(h1)} ${preloz(h2)} : ${preloz(m1)} ${preloz(m2)} : ${preloz(s1)} ${preloz(s2)}`;
+  }
+
+  tick();
+  setInterval(tick, 1000);
+</script>

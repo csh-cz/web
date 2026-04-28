@@ -11,7 +11,7 @@ Nejjednodušší je zobrazovat čas vždy správně. Nejlépe touto tautologií:
 
 Naštěstí je možné udělat jakýsi kompromis. **Vyslat informaci o správném čase www serverem a** dále **animovat plynutí času** třeba pomocí JAVA scriptu. Tento animační program zjistí odchylku vašich hodin od spráného času a pak již vesele přičítá vteřiny v rytmu vlastních hodin počítače - s přesností podle podmínek spojení tak 0,5 sekundy.
 
-Tak pracuje například stránka [cs.thetimenow.com](http://cs.thetimenow.com/clock/) v následující ukázce. Zobrazení času nezávisí na nastavení počítače.
+Tak pracovala například stránka [cs.thetimenow.com](http://cs.thetimenow.com/clock/), kde si návštěvník mohl složit vlastní embed widget — výběr formátu (12 / 24h), barev pozadí i číslic, šířky okraje, fontu. Vložená ukázka byla na původním webu virtuálního muzea, dnes by stejně přestala fungovat (služba změnila API i embed-URL formát).
 
 Na serveru [**www.presnycas.cz**](http://www.presnycas.cz/) tvrdí, že "*Přesný čas na serveru je přímo získáván pomocí protokolu NTP z kořenového časového serveru s atomovými hodinami (odchylka času na našem serveru od absolutně přesného času se pohybuje v řádu milisekund). Na Vašem počítači je čas z našeho serveru zobrazován pomocí Java Apletu. Celková odchylka času zobrazeného na Vašem počítači od atomového času je závislá na kvalitě připojení k Internetu. Řádově se pohybuje do 0,5 sec.*"
 
