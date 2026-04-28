@@ -605,7 +605,7 @@ export const akce: Akce[] = [
   {
     slug: 'karlstejn-dhk',
     rok: 2018,
-    datum: 'datum upřesní pamětníci',
+    datum: '2. března 2018',
     nazev: 'Návštěva Domu hodin Karlštejn',
     misto: 'Karlštejn 138, okres Beroun',
     lat: 49.9388, lon: 14.1881,
@@ -674,10 +674,7 @@ export const akce: Akce[] = [
       + '<li><a href="https://hrad-karlstejn.com/dum-hodin.php" '
       + 'target="_blank" rel="noopener">hrad-karlstejn.com</a> — '
       + 'Dům hodin v kontextu hradu Karlštejn</li>'
-      + '</ul>'
-      + '<p><em>Pozn.: Datum spolkové návštěvy se v dochovaných '
-      + 'fotografiích nepodařilo přesně určit (chybí EXIF). Pokud '
-      + 'si pamětníci na termín vzpomenou, doplníme.</em></p>',
+      + '</ul>',
     fotky: [
       'hero.jpg',
       '01-baroko-rokoko-koutek.jpg',
