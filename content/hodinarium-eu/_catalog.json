@@ -37,11 +37,11 @@
     "title": "\"Normální hodiny ?\"",
     "category": "projekty",
     "thumbnail": null,
-    "excerpt": "Celý vývoj hodinářské techniky vede ke stálému zvyšování přesnosti. V běžném životě to až tak potřebujeme. Autobus stejně pojede dřív nebo později bez ohledu na DCF hodinky na zápěstí, televizní program, stejně začne …",
+    "excerpt": "import CasSlovem from '../../apps/hodinarium-eu/src/components/CasSlovem.astro';",
     "year": null,
     "lastModified": "2017-04-26T16:08:00.000Z",
     "imageCount": 0,
-    "wordCount": 88
+    "wordCount": 94
   },
   {
     "slug": "Arduino_Solari",
@@ -532,11 +532,11 @@
     "title": "Hlavní NTP hodiny na bázi ESP8266 - NTPimpulzer + varianty",
     "category": "projekty",
     "thumbnail": "/img/arduino/NTP_W_E.jpg",
-    "excerpt": "Vybrat lze jméno a zadat heslo sítě, ke které se modul připojuje a základní parametry. Lze nastavit čas zobrazený na podružných hodinách linky pro automatické seřízení linky. Web také zobrazuje posledních 25 řádek pro…",
+    "excerpt": "import YouTube from '../../apps/hodinarium-eu/src/components/YouTube.astro';",
     "year": null,
     "lastModified": "2026-03-16T16:42:00.000Z",
     "imageCount": 6,
-    "wordCount": 2353
+    "wordCount": 2371
   },
   {
     "slug": "Arduino_IBM",
@@ -719,11 +719,11 @@
     "title": "Hodiny Time Slider od Hanse Andersona",
     "category": "projekty",
     "thumbnail": "/img/arduino/Wedos_NTP_RTC.jpg",
-    "excerpt": "Když se na internetu objevil návod na kuriózní hodiny vytištěné 3D tiskem s osmi krokovými motory, které řídí Arduino MEGA, toužili jsme je mít i v Hodináriu v Děčíně. Podle návodu na stránce https://www.instructables…",
+    "excerpt": "import YouTube from '../../apps/hodinarium-eu/src/components/YouTube.astro';",
     "year": null,
     "lastModified": "2024-06-30T14:50:00.000Z",
     "imageCount": 1,
-    "wordCount": 277
+    "wordCount": 290
   },
   {
     "slug": "vlachynsky",
@@ -1064,7 +1064,7 @@
     "year": 2015,
     "lastModified": "2025-06-03T10:07:00.000Z",
     "imageCount": 0,
-    "wordCount": 1105
+    "wordCount": 1108
   },
   {
     "slug": "maregraf",
@@ -1148,11 +1148,11 @@
     "title": "Mysteriózní hodiny — sběratelský bonbónek",
     "category": "sbirka",
     "thumbnail": "/img/mystery/clockincline1.jpg",
-    "excerpt": "Hodiny s tajemstvím. Mohou to být hodiny s utajeným strojem nebo hodiny s jinou záhadou. Velmi často to jsou hodiny, které nemají žádné viditelné pohybové ústrojí, žádný zjevný důvod chodu. Prostě si tak nějak jdou. K…",
+    "excerpt": "import CasSlovem from '../../apps/hodinarium-eu/src/components/CasSlovem.astro';",
     "year": 2026,
     "lastModified": "2017-04-26T13:40:00.000Z",
     "imageCount": 2,
-    "wordCount": 118
+    "wordCount": 144
   },
   {
     "slug": "decin_fotobrezen2017",
@@ -1599,11 +1599,11 @@
     "title": "segmentovky",
     "category": "projekty",
     "thumbnail": null,
-    "excerpt": "0 - placka 1 - pendrek 2 - zatáčka 3 - ňadra 4 - židlička",
+    "excerpt": "import CasSegmentovky from '../../apps/hodinarium-eu/src/components/CasSegmentovky.astro';",
     "year": null,
     "lastModified": "2017-04-26T16:08:00.000Z",
     "imageCount": 0,
-    "wordCount": 101
+    "wordCount": 112
   },
   {
     "slug": "sezona2012",
@@ -1614,7 +1614,7 @@
     "year": 2012,
     "lastModified": "2017-04-23T15:25:00.000Z",
     "imageCount": 18,
-    "wordCount": 273
+    "wordCount": 590
   },
   {
     "slug": "sitovky",
@@ -1691,7 +1691,7 @@
     "year": 1512,
     "lastModified": "2022-09-24T12:20:00.000Z",
     "imageCount": 3,
-    "wordCount": 730
+    "wordCount": 753
   },
   {
     "slug": "svetlonos",
@@ -2010,7 +2010,7 @@
     "year": 1868,
     "lastModified": "2017-04-23T14:18:00.000Z",
     "imageCount": 4,
-    "wordCount": 373
+    "wordCount": 553
   },
   {
     "slug": "orient",
@@ -2028,11 +2028,11 @@
     "title": "Virtuální prohlídka muzea v Mindelheimu",
     "category": "vezni-hodiny",
     "thumbnail": "/img/Mindelheim/f/foto_0001.jpg",
-    "excerpt": "Muzeum věžních hodin Mindelheim Kurátor a majitel sbírá věžní hodiny už 33 let. Pokud na ně má, tak si je koupí sám a pokud jsou drahé zaplatí to město. Město také hradí i provoz. Prakticky každý z 50 strojů je v chod…",
+    "excerpt": "import YouTube from '../../apps/hodinarium-eu/src/components/YouTube.astro';",
     "year": null,
     "lastModified": "2017-04-23T14:14:00.000Z",
     "imageCount": 35,
-    "wordCount": 70
+    "wordCount": 83
   },
   {
     "slug": "vodni_budik",
@@ -2109,7 +2109,7 @@
     "year": 1980,
     "lastModified": "2025-02-03T08:42:00.000Z",
     "imageCount": 0,
-    "wordCount": 166
+    "wordCount": 191
   },
   {
     "slug": "youtube",
@@ -2208,7 +2208,7 @@
     "year": null,
     "lastModified": "2017-04-26T16:12:00.000Z",
     "imageCount": 0,
-    "wordCount": 362
+    "wordCount": 393
   },
   {
     "slug": "zvon_petr_vok",

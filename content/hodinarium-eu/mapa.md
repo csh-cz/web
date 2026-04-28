@@ -11,7 +11,7 @@ Server používá rozbalovací menu generované pomocí JAVA script. Musí tedy 
 
 Proto při úzké obrazovce horní měnu není rozbalovací a vede na tuto mapu serveru.
 
-[HOME](/clanky/index), [Novinky](/clanky/novinky), [Vyhledávání](/clanky/hledej), [Kontakt](/clanky/kontakt), [Facebook](https://www.facebook.com/Hodin%C3%A1rium-%C4%8Cesk%C3%BD-spolek-horologick%C3%BD-169939123371944)
+[HOME](/), [Atlas](/atlas), [Mapa](/mapa), [Sbírka](/sbirka), [Hodináři](/hodinari), [Kroky](/kroky), [Podpora](/podpora), [Facebook](https://www.facebook.com/Hodin%C3%A1rium-%C4%8Cesk%C3%BD-spolek-horologick%C3%BD-169939123371944)
 
 * * *
 
