@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/brillie.htm"
 lastModified: "Sun, 18 Feb 2018 14:35:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:41.155Z"
+manualEdit: true
 ---
 ![Mateční hodiny Brillie v Hodináriu bez ciferníku pro lepší pohled na stroj.](/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg)
 
@@ -27,13 +28,18 @@ Na stránkách www.brillie.co.uk se můžeme dočíst základní údaje o histor
 
 Bohužel tato informace je velmi stručná a neověřená. Budeme doufat, že naše znalosti ještě rozšíříme.
 
-### Dobová inzerce synchronizace ([zde](/img/elektrika/brillie/Brillie4.jpg), [zde](/img/elektrika/brillie/Brillie5.jpg) a [zde](/img/elektrika/brillie/Brillie6.jpg))
+### Dobová inzerce synchronizace
+
+<div class="article-gallery">
+  <a href="/img/elektrika/brillie/Brillie4.jpg"><img src="/img/elektrika/brillie/Brillie4.jpg" alt="Dobová inzerce Brillie — řízeno T.S.F. signálem z Eiffelovy věže" loading="lazy" /></a>
+  <a href="/img/elektrika/brillie/Brillie5.jpg"><img src="/img/elektrika/brillie/Brillie5.jpg" alt="Dobová inzerce Brillie — synchronizace skupin kyvadlových hodin" loading="lazy" /></a>
+  <a href="/img/elektrika/brillie/Brillie6.jpg"><img src="/img/elektrika/brillie/Brillie6.jpg" alt="Dobová inzerce Brillie — synchronizace pomocí telefonních linek" loading="lazy" /></a>
+</div>
 
 Na reklamních cedulích je docela zajímavá informace o používané synchronizaci. ***Elektrické hodiny BRILLIÉ řízeny T.S.F.** Tento přístroj je vybaven špičkovým zařízením, které pracuje každý den podle zvláštního signálu vysílaného z Eifelovy věže. Hodiny tohoto typu mohou synchronizovat velké skupiny kyvadlových hodin BRILLIÉ, kterým zaručují souhlasný chod s úředním časem. **Synchronizace regulátorů pomocí telefonní linky**. Elektrické regulátory BRILLIÉ mohou být mezi sebou propojeny za účelem synchronizace prostřednictvím telefonních linek, aniž by toto propojení nějakým způsobem poškozovalo hovory vedené na těchto linkách.*
 
-### Zajímavé odkazy
+## Odkazy
 
--   Dobová inzerce [zde](/img/elektrika/brillie/Brillie4.jpg), [zde](/img/elektrika/brillie/Brillie5.jpg) a [zde](/img/elektrika/brillie/Brillie6.jpg).
 -   [Anglická stránka o hodinách Brillie](http://www.brillie.co.uk/)
 -   [Stránky s fotografiemi a historií](http://regulateurbrillie.monsite-orange.fr/)
 -   [Stránky Electrisal Horology](http://www.mridout.force9.co.uk/ecw/brillie.htm)

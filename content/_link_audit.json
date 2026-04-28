@@ -1694,5 +1694,5985 @@
       "decimalky"
     ],
     "checkedAt": "2026-04-28T07:03:03.858Z"
+  },
+  {
+    "url": "http://www.comtoise.info/",
+    "hostname": "www.comtoise.info",
+    "status": 200,
+    "ok": true,
+    "title": "COMTOISE UHREN MUSEUM - STARTSEITE",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "budiky1"
+    ],
+    "checkedAt": "2026-04-28T07:02:57.314Z"
+  },
+  {
+    "url": "https://papouch.com/dcf-simulator-generator-signalu-dcf77-p2685/",
+    "hostname": "papouch.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_NTP",
+      "elektromagneticke_segmenty"
+    ],
+    "checkedAt": "2026-04-28T07:03:04.059Z"
+  },
+  {
+    "url": "https://static.bodet-time.com/images/stories/Pdfs/EN/Manuals/Distribution/606547D%20NTP%20AFNOR%20interface%20instructions.pdf",
+    "hostname": "static.bodet-time.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_NTP"
+    ],
+    "checkedAt": "2026-04-28T07:03:03.895Z"
+  },
+  {
+    "url": "http://www.grother.de/gps-to-dcf77-module.html",
+    "hostname": "www.grother.de",
+    "status": 200,
+    "ok": true,
+    "title": "GPS to DCF77 Module -",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_NTP",
+      "elektromagneticke_segmenty"
+    ],
+    "checkedAt": "2026-04-28T07:03:04.100Z"
+  },
+  {
+    "url": "https://www.gnssplanning.com/#/skyplot",
+    "hostname": "www.gnssplanning.com",
+    "status": 200,
+    "ok": true,
+    "title": "Trimble GNSS Planning",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_NTP",
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:04.127Z"
+  },
+  {
+    "url": "https://kb.meinbergglobal.com/kb/time_sync/start",
+    "hostname": "kb.meinbergglobal.com",
+    "status": 200,
+    "ok": true,
+    "title": "Time Sync [Knowledge Base]",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_NTP"
+    ],
+    "checkedAt": "2026-04-28T07:03:04.242Z"
+  },
+  {
+    "url": "https://cs.wikipedia.org/wiki/GPS",
+    "hostname": "cs.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "GPS – Wikipedie",
+    "ogTitle": "GPS – Wikipedie",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_NTP",
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:04.356Z"
+  },
+  {
+    "url": "https://kb.meinbergglobal.com/kb/time_sync/time_synchronization_accuracy_with_ntp",
+    "hostname": "kb.meinbergglobal.com",
+    "status": 200,
+    "ok": true,
+    "title": "Time Synchronization Accuracy With NTP [Knowledge Base]",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_NTP"
+    ],
+    "checkedAt": "2026-04-28T07:03:04.332Z"
+  },
+  {
+    "url": "https://forum.arduino.cc/t/ntp-time-server/192816",
+    "hostname": "forum.arduino.cc",
+    "status": 200,
+    "ok": true,
+    "title": "NTP Time Server - Networking, Protocols, and Devices - Arduino Forum",
+    "ogTitle": "NTP Time Server",
+    "siteName": "Arduino Forum",
+    "error": null,
+    "articles": [
+      "decin_NTP"
+    ],
+    "checkedAt": "2026-04-28T07:03:04.559Z"
+  },
+  {
+    "url": "http://www.gpsntp.com/",
+    "hostname": "www.gpsntp.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_NTP"
+    ],
+    "checkedAt": "2026-04-28T07:03:04.498Z"
+  },
+  {
+    "url": "https://martinuvzivot.cz/konfigurace-ntp-serveru/",
+    "hostname": "martinuvzivot.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Konfigurace NTP serveru v Linuxu - Martinův život",
+    "ogTitle": "Konfigurace NTP serveru v Linuxu - Martinův život",
+    "siteName": "MartinuvZivot",
+    "error": null,
+    "articles": [
+      "decin_NTP",
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:04.557Z"
+  },
+  {
+    "url": "https://cs.wikipedia.org/wiki/Dendrochronologie",
+    "hostname": "cs.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Dendrochronologie – Wikipedie",
+    "ogTitle": "Dendrochronologie – Wikipedie",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_Wenzel_Mellner"
+    ],
+    "checkedAt": "2026-04-28T07:03:05.089Z"
+  },
+  {
+    "url": "https://dspace.vutbr.cz/bitstream/handle/11012/39582/final-thesis.pdf?sequence=-1",
+    "hostname": "dspace.vutbr.cz",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_NTP"
+    ],
+    "checkedAt": "2026-04-28T07:03:05.039Z"
+  },
+  {
+    "url": "https://horologie-cz.pages.dev/akce/stehovani-2015",
+    "hostname": "horologie-cz.pages.dev",
+    "status": 200,
+    "ok": true,
+    "title": "Stěhování expozice ze Soběslavi do Děčína — Český spolek horologický",
+    "ogTitle": "Stěhování expozice ze Soběslavi do Děčína — Český spolek horologický",
+    "siteName": "Český spolek horologický",
+    "error": null,
+    "articles": [
+      "decin_aktual0"
+    ],
+    "checkedAt": "2026-04-28T07:03:06.121Z"
+  },
+  {
+    "url": "http://www.decin.cz/2015/09/hodiny-a-hvezdy-na-zamku/",
+    "hostname": "www.decin.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Hodiny a hvězdy na zámku - Děčín",
+    "ogTitle": "Hodiny a hvězdy na zámku - Děčín",
+    "siteName": "Děčín - info z místa, kde žijete",
+    "error": null,
+    "articles": [
+      "decin_aktual0"
+    ],
+    "checkedAt": "2026-04-28T07:03:06.438Z"
+  },
+  {
+    "url": "https://www.facebook.com/169939123371944/videos/pcb.250765258622663/250763031956219/?type=3&theater",
+    "hostname": "www.facebook.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": "Hodin&#xe1;rium &#x10c;esk&#xfd; spolek horologick&#xfd; on Reels",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_Wenzel_Mellner"
+    ],
+    "checkedAt": "2026-04-28T07:03:05.702Z"
+  },
+  {
+    "url": "http://www.swatch.com/",
+    "hostname": "www.swatch.com",
+    "status": 200,
+    "ok": true,
+    "title": "Swatch watch styles | Swatch® Czech Republic",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decimalky",
+      "elektromagneticke_segmenty"
+    ],
+    "checkedAt": "2026-04-28T07:03:03.815Z"
+  },
+  {
+    "url": "http://www.answers.com/topic/french-republican-calendar",
+    "hostname": "www.answers.com",
+    "status": 200,
+    "ok": true,
+    "title": "Answers - The Most Trusted Place for Answering Life&#039;s Questions",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decimalky"
+    ],
+    "checkedAt": "2026-04-28T07:03:03.788Z"
+  },
+  {
+    "url": "http://www.zamekdecin.cz/web_cz/?p=clanky/hodiny-a-hvezdy-na-zamku&obr=1",
+    "hostname": "www.zamekdecin.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Co je nového - Zámek Děčín",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_aktual0"
+    ],
+    "checkedAt": "2026-04-28T07:03:06.264Z"
+  },
+  {
+    "url": "http://www.novinky.cz/cestovani/tipy-na-vylety/380344-decinska-expozice-ukaze-jak-nasi-predkove-merili-cas.html",
+    "hostname": "www.novinky.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Děčínská expozice ukáže, jak naši předkové měřili čas - Novinky",
+    "ogTitle": "Děčínská expozice ukáže, jak naši předkové měřili čas - Novinky",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_aktual0"
+    ],
+    "checkedAt": "2026-04-28T07:03:07.740Z"
+  },
+  {
+    "url": "https://www.google.cz/search?q=Chronulator&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjfgoWq9ZXOAhUIKsAKHeGbB9cQ_AUICCgB&biw=1353&bih=652&dpr=0.9#imgrc=_",
+    "hostname": "www.google.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Google Search",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_chronulator"
+    ],
+    "checkedAt": "2026-04-28T07:03:08.453Z"
+  },
+  {
+    "url": "https://disk.cpilot.cz/muzeum-komenskeho/2021/01/AXdD20VzIQjV7UfXlaIv.pdf",
+    "hostname": "disk.cpilot.cz",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_dalsi_stroje"
+    ],
+    "checkedAt": "2026-04-28T07:03:08.832Z"
+  },
+  {
+    "url": "http://dominanty.cz/pamatky-velka-chmelistna.php",
+    "hostname": "dominanty.cz",
+    "status": 403,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_dalsi_stroje"
+    ],
+    "checkedAt": "2026-04-28T07:03:08.909Z"
+  },
+  {
+    "url": "http://www.time.gov/",
+    "hostname": "www.time.gov",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "cas_internet2"
+    ],
+    "checkedAt": "2026-04-28T07:02:58.910Z"
+  },
+  {
+    "url": "http://digifolio.rvp.cz/user/view.php?id=1411",
+    "hostname": "digifolio.rvp.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Patrik Pařízek - DIGIFOLIO",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_aktual0"
+    ],
+    "checkedAt": "2026-04-28T07:03:07.970Z"
+  },
+  {
+    "url": "http://www.veznihodiny.cz/ukaz19.htm",
+    "hostname": "www.veznihodiny.cz",
+    "status": 200,
+    "ok": true,
+    "title": "V�n� hodiny",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_elektrifikace",
+      "elektricke1",
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:09.368Z"
+  },
+  {
+    "url": "http://www.horology-mosel.de",
+    "hostname": "www.horology-mosel.de",
+    "status": 200,
+    "ok": true,
+    "title": "Großuhren - Elektrische Uhren - Turmuhren - horology-mosels Jimdo-Page!",
+    "ogTitle": "Großuhren - Elektrische Uhren - Turmuhren",
+    "siteName": "horology-mosels Jimdo-Page!",
+    "error": null,
+    "articles": [
+      "decin_elektrifikace"
+    ],
+    "checkedAt": "2026-04-28T07:03:09.323Z"
+  },
+  {
+    "url": "https://www.facebook.com/Hodin%C3%A1rium-%C4%8Cesk%C3%BD-spolek-horologick%C3%BD-169939123371944",
+    "hostname": "www.facebook.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": "Hodin&#xe1;rium &#x10c;esk&#xfd; spolek horologick&#xfd; | Decin",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_fotolistopad2018",
+      "mapa",
+      "slunecni_polarizacni",
+      "vodni_B_Gitton"
+    ],
+    "checkedAt": "2026-04-28T07:03:09.505Z"
+  },
+  {
+    "url": "https://bastlirna.hwkitchen.cz/retrogradni-hodiny/",
+    "hostname": "bastlirna.hwkitchen.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Retrográdní hodiny - Bastlírna HWKITCHEN",
+    "ogTitle": "Retrográdní hodiny",
+    "siteName": "Bastlírna HWKITCHEN",
+    "error": null,
+    "articles": [
+      "decin_chronulator"
+    ],
+    "checkedAt": "2026-04-28T07:03:08.623Z"
+  },
+  {
+    "url": "http://www.sestka.com",
+    "hostname": "www.sestka.com",
+    "status": 200,
+    "ok": true,
+    "title": "SESTKA-voln� interpretace �asu",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_galerie"
+    ],
+    "checkedAt": "2026-04-28T07:03:10.338Z"
+  },
+  {
+    "url": "https://docplayer.org/71200072-Siemens-uhren-historische-sammlung-teil-ii.html",
+    "hostname": "docplayer.org",
+    "status": 403,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_jednotny_cas"
+    ],
+    "checkedAt": "2026-04-28T07:03:10.495Z"
+  },
+  {
+    "url": "http://www.ateo.cz",
+    "hostname": "www.ateo.cz",
+    "status": 200,
+    "ok": true,
+    "title": "aTeo - fotokoláže a jiné úlety",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_galerie"
+    ],
+    "checkedAt": "2026-04-28T07:03:10.427Z"
+  },
+  {
+    "url": "https://www.facebook.com/dpvsdecin/posts/743961309048510",
+    "hostname": "www.facebook.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": "D&#x11b;&#x10d;&#xed;nsko-podmokelsk&#xe1; vlastiv&#x11b;dn&#xe1; spole&#x10d;nost",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_aktual0"
+    ],
+    "checkedAt": "2026-04-28T07:03:07.756Z"
+  },
+  {
+    "url": "http://www.veznihodiny.cz/hlavnistrvelka.htm",
+    "hostname": "www.veznihodiny.cz",
+    "status": 200,
+    "ok": true,
+    "title": "V�n� hodiny",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_koncepce"
+    ],
+    "checkedAt": "2026-04-28T07:03:10.710Z"
+  },
+  {
+    "url": "http://gibbus.cz",
+    "hostname": "gibbus.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Gibbus &mdash; sochař a umělecký kovář",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_galerie"
+    ],
+    "checkedAt": "2026-04-28T07:03:09.851Z"
+  },
+  {
+    "url": "http://www.kavalir.cz/hodiny/",
+    "hostname": "www.kavalir.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Kavalír hodiny",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_koncepce",
+      "kavalir",
+      "sezona2013"
+    ],
+    "checkedAt": "2026-04-28T07:03:10.564Z"
+  },
+  {
+    "url": "http://www.ucernekocky.eu/",
+    "hostname": "www.ucernekocky.eu",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "dernisaz2013"
+    ],
+    "checkedAt": "2026-04-28T07:03:11.079Z"
+  },
+  {
+    "url": "http://www.giovannisoft.cz/",
+    "hostname": "www.giovannisoft.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "download"
+    ],
+    "checkedAt": "2026-04-28T07:03:11.110Z"
+  },
+  {
+    "url": "http://foto-marusak.webnode.cz/",
+    "hostname": "foto-marusak.webnode.cz",
+    "status": 200,
+    "ok": true,
+    "title": "FOTO",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_koncepce",
+      "kontakt"
+    ],
+    "checkedAt": "2026-04-28T07:03:10.760Z"
+  },
+  {
+    "url": "https://hodinarium.eu/zvuky/zegary.mp3",
+    "hostname": "hodinarium.eu",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "download"
+    ],
+    "checkedAt": "2026-04-28T07:03:11.130Z"
+  },
+  {
+    "url": "https://hodinarium.eu/download/TrenkleCatalog.pdf",
+    "hostname": "hodinarium.eu",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "download"
+    ],
+    "checkedAt": "2026-04-28T07:03:11.125Z"
+  },
+  {
+    "url": "https://hodinarium.eu/download/CoJeCas.pdf",
+    "hostname": "hodinarium.eu",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "download"
+    ],
+    "checkedAt": "2026-04-28T07:03:11.239Z"
+  },
+  {
+    "url": "http://vt-2004.astro.cz/",
+    "hostname": "vt-2004.astro.cz",
+    "status": 200,
+    "ok": true,
+    "title": "P�echod Venu�e 2004",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "download"
+    ],
+    "checkedAt": "2026-04-28T07:03:11.283Z"
+  },
+  {
+    "url": "http://www.download3k.com/DownloadLink1-7art-Cheerful-Clock-ScreenSaver.html",
+    "hostname": "www.download3k.com",
+    "status": 200,
+    "ok": true,
+    "title": "7art Cheerful Clock ScreenSaver 1.2 (7artCheerfulClockInst.exe) Windows Download",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "download"
+    ],
+    "checkedAt": "2026-04-28T07:03:11.237Z"
+  },
+  {
+    "url": "http://saluspopulae.co.uk/synclock/content/IMG_0083_large.html",
+    "hostname": "saluspopulae.co.uk",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "edgecombe"
+    ],
+    "checkedAt": "2026-04-28T07:03:11.702Z"
+  },
+  {
+    "url": "https://cs-cz.facebook.com/KnesplMajzlikHodinarskyAtelier?fref=photo",
+    "hostname": "cs-cz.facebook.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_koncepce"
+    ],
+    "checkedAt": "2026-04-28T07:03:10.707Z"
+  },
+  {
+    "url": "https://lespook.files.wordpress.com/2010/05/s-108-synclock-a.pdf",
+    "hostname": "lespook.files.wordpress.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "edgecombe"
+    ],
+    "checkedAt": "2026-04-28T07:03:11.370Z"
+  },
+  {
+    "url": "http://www.veznihodiny.cz/",
+    "hostname": "www.veznihodiny.cz",
+    "status": 200,
+    "ok": true,
+    "title": "V�n� hodiny",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "elektricke1",
+      "zidovske",
+      "kontakt"
+    ],
+    "checkedAt": "2026-04-28T07:03:12.133Z"
+  },
+  {
+    "url": "https://clockhistory.com/telechron/products/typea/index.html",
+    "hostname": "clockhistory.com",
+    "status": 200,
+    "ok": true,
+    "title": "Warren Type A Synchronous Electric Clock Motor",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "edgecombe"
+    ],
+    "checkedAt": "2026-04-28T07:03:11.746Z"
+  },
+  {
+    "url": "http://zamekdecin.cz",
+    "hostname": "zamekdecin.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Zámek Děčín - Rodinné výlety a centrum kulturního dění",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_zamek"
+    ],
+    "checkedAt": "2026-04-28T07:03:10.780Z"
+  },
+  {
+    "url": "http://www.electric-clocks.org.uk/",
+    "hostname": "www.electric-clocks.org.uk",
+    "status": 200,
+    "ok": true,
+    "title": "Electric Clock World",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "elektricke1"
+    ],
+    "checkedAt": "2026-04-28T07:03:12.146Z"
+  },
+  {
+    "url": "https://cdn.sos.sk/productdata/c0/63/d407ac85/h-715-yellow.pdf",
+    "hostname": "cdn.sos.sk",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "elektromagneticke_segmenty"
+    ],
+    "checkedAt": "2026-04-28T07:03:12.609Z"
+  },
+  {
+    "url": "https://www.wago.com/cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/gps-dcf-converter-utc%C2%B1/p/2852-7901",
+    "hostname": "www.wago.com",
+    "status": 200,
+    "ok": true,
+    "title": "Konvertor GPS DCF UTC&plusmn; | I/O syst&eacute;my | Automatiza&#269;n&iacute; technika | Produkty | WAGO Czech Republic",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "elektromagneticke_segmenty"
+    ],
+    "checkedAt": "2026-04-28T07:03:12.362Z"
+  },
+  {
+    "url": "https://mobatime.cz/obchod/sitovy-interface/",
+    "hostname": "mobatime.cz",
+    "status": 200,
+    "ok": true,
+    "title": "NMI síťový MOBALine interface - MOBATIME",
+    "ogTitle": "NMI síťový MOBALine interface - MOBATIME",
+    "siteName": "MOBATIME",
+    "error": null,
+    "articles": [
+      "elektromagneticke_segmenty"
+    ],
+    "checkedAt": "2026-04-28T07:03:12.498Z"
+  },
+  {
+    "url": "http://orloj.eu/PRS2.php",
+    "hostname": "orloj.eu",
+    "status": 200,
+    "ok": true,
+    "title": "WiFi monitor PRS10",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "fake_atomove_hodiny"
+    ],
+    "checkedAt": "2026-04-28T07:03:13.294Z"
+  },
+  {
+    "url": "http://mrk.eu/discon-h7-display-controller/",
+    "hostname": "mrk.eu",
+    "status": 200,
+    "ok": true,
+    "title": "DISCON – H7 Display Controller - MRK s.r.o.",
+    "ogTitle": "DISCON – H7 Display Controller - MRK s.r.o.",
+    "siteName": "MRK s.r.o.",
+    "error": null,
+    "articles": [
+      "elektromagneticke_segmenty"
+    ],
+    "checkedAt": "2026-04-28T07:03:12.806Z"
+  },
+  {
+    "url": "http://www.woleschko.cz/",
+    "hostname": "www.woleschko.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Ne(na)pravid(t)elný deník | WOLESCHKO",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "faust"
+    ],
+    "checkedAt": "2026-04-28T07:03:13.503Z"
+  },
+  {
+    "url": "http://turmuhren-burmeister.de/",
+    "hostname": "turmuhren-burmeister.de",
+    "status": 200,
+    "ok": true,
+    "title": "Turmuhren Burmeister",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_flatbed"
+    ],
+    "checkedAt": "2026-04-28T07:03:09.396Z"
+  },
+  {
+    "url": "http://it.wikipedia.org/wiki/Galileo_Ferraris",
+    "hostname": "it.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Galileo Ferraris - Wikipedia",
+    "ogTitle": "Galileo Ferraris - Wikipedia",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "ferramo"
+    ],
+    "checkedAt": "2026-04-28T07:03:13.593Z"
+  },
+  {
+    "url": "https://clockdoc.org/default.aspx?aid=49",
+    "hostname": "clockdoc.org",
+    "status": 200,
+    "ok": true,
+    "title": "Album: Ferramo",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "ferramo"
+    ],
+    "checkedAt": "2026-04-28T07:03:13.803Z"
+  },
+  {
+    "url": "https://www.soselectronic.cz/articles/no-name/displej-citelny-za-kazdych-svetelnych-podminek-916",
+    "hostname": "www.soselectronic.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Displej, čitelný za každých světelných podmínek",
+    "ogTitle": "Displej, čitelný za každých světelných podmínek",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "elektromagneticke_segmenty"
+    ],
+    "checkedAt": "2026-04-28T07:03:13.287Z"
+  },
+  {
+    "url": "http://www.dartmouth.edu/%7Elibrary/Library_Bulletin/Nov1992/LB-N92-King.html",
+    "hostname": "www.dartmouth.edu",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "flying_pendulum"
+    ],
+    "checkedAt": "2026-04-28T07:03:14.111Z"
+  },
+  {
+    "url": "http://www.chronometrophilia.ch/Electric-clocks/english.htm#fig10",
+    "hostname": "www.chronometrophilia.ch",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "ferramo"
+    ],
+    "checkedAt": "2026-04-28T07:03:13.709Z"
+  },
+  {
+    "url": "https://www.facebook.com/hodinarium/videos/414060895997688/",
+    "hostname": "www.facebook.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": "Do Hodin&#xe1;ria byly zakoupeny hodiny s tepeln&#xfd;m motorem  PUJA, vyr&#xe1;b&#x11b;n&#xe9; Karlem Jauchem v Schwenningenu v &#x10c;ern&#xe9;m lese. Skl&#xe1;d&#xe1; se ze dvou dvojic trubi&#x10d;ek pln&#xfd;ch alkoholu. Jedna z t&#x11b;chto trub",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "elektricke1"
+    ],
+    "checkedAt": "2026-04-28T07:03:12.184Z"
+  },
+  {
+    "url": "http://www.pieces-n-time.com/for_sale.htm",
+    "hostname": "www.pieces-n-time.com",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "flying_pendulum"
+    ],
+    "checkedAt": "2026-04-28T07:03:14.122Z"
+  },
+  {
+    "url": "http://orloj.eu/",
+    "hostname": "orloj.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Pražský\r\norloj - The Prague Astronomical Clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "index"
+    ],
+    "checkedAt": "2026-04-28T07:03:14.602Z"
+  },
+  {
+    "url": "https://hodinarium.eu",
+    "hostname": "hodinarium.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Hodinárium Děčín",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "index"
+    ],
+    "checkedAt": "2026-04-28T07:03:14.911Z"
+  },
+  {
+    "url": "http://anatomie-varhan.cz/",
+    "hostname": "anatomie-varhan.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Osobn� str�nky Ing. Petra BERNATA - ANATOMIE VARHAN",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "janovice"
+    ],
+    "checkedAt": "2026-04-28T07:03:15.023Z"
+  },
+  {
+    "url": "http://web.telecom.cz/oujanovice/",
+    "hostname": "web.telecom.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "janovice"
+    ],
+    "checkedAt": "2026-04-28T07:03:15.082Z"
+  },
+  {
+    "url": "http://home.vsb.cz/petr.bernat/texty/varhany/nastroje/janovice/janovicke_varhany.htm",
+    "hostname": "home.vsb.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "janovice"
+    ],
+    "checkedAt": "2026-04-28T07:03:15.107Z"
+  },
+  {
+    "url": "http://www.atas.cz/",
+    "hostname": "www.atas.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Úvodní stránka - ATAS elektromotory Náchod a.s.",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "janovice"
+    ],
+    "checkedAt": "2026-04-28T07:03:15.118Z"
+  },
+  {
+    "url": "http://www.youtube.com/results?search_query=Flying+Pendulum+Clock&search_type=",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "flying_pendulum",
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:03:14.016Z"
+  },
+  {
+    "url": "http://antika.avonet.cz/",
+    "hostname": "antika.avonet.cz",
+    "status": 200,
+    "ok": true,
+    "title": "internet • televize • mobily | AVONET",
+    "ogTitle": "internet • televize • mobily",
+    "siteName": "AVONET",
+    "error": null,
+    "articles": [
+      "kalendar_rimsky",
+      "novinky2"
+    ],
+    "checkedAt": "2026-04-28T07:03:15.427Z"
+  },
+  {
+    "url": "http://ardavin.net/en/",
+    "hostname": "ardavin.net",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "flying_pendulum"
+    ],
+    "checkedAt": "2026-04-28T07:03:14.479Z"
+  },
+  {
+    "url": "http://www.mobatime.cz/",
+    "hostname": "www.mobatime.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Zařízení pro zobrazování času, průmyslové hodiny, docházkové systémy a řešení časoměrných zařízení na míru MOBATIME",
+    "ogTitle": "Zařízení pro zobrazování času, průmyslové hodiny, docházkové systémy a řešení časoměrných zařízení na míru MOBATIME",
+    "siteName": "MOBATIME",
+    "error": null,
+    "articles": [
+      "jednotnycas",
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:15.315Z"
+  },
+  {
+    "url": "http://www.wothanburg.cz/",
+    "hostname": "www.wothanburg.cz",
+    "status": 403,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "kalendar_rimsky"
+    ],
+    "checkedAt": "2026-04-28T07:03:16.226Z"
+  },
+  {
+    "url": "http://www.curiavitkov.cz/clanek6.html",
+    "hostname": "www.curiavitkov.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "kalendar_rimsky"
+    ],
+    "checkedAt": "2026-04-28T07:03:15.961Z"
+  },
+  {
+    "url": "http://www.chilton.com/%7Ejimw/ballclks.html",
+    "hostname": "www.chilton.com",
+    "status": 200,
+    "ok": true,
+    "title": "Ball Clocks Page",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "kulicky"
+    ],
+    "checkedAt": "2026-04-28T07:03:16.652Z"
+  },
+  {
+    "url": "http://www.betrisey.ch/emalev.htm",
+    "hostname": "www.betrisey.ch",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "kulicky"
+    ],
+    "checkedAt": "2026-04-28T07:03:16.481Z"
+  },
+  {
+    "url": "http://www.nobu-s.com/movie/swf_clock13.html",
+    "hostname": "www.nobu-s.com",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "flying_pendulum"
+    ],
+    "checkedAt": "2026-04-28T07:03:14.532Z"
+  },
+  {
+    "url": "http://www.philohome.com/kojima_clock/ball_clock.htm",
+    "hostname": "www.philohome.com",
+    "status": 200,
+    "ok": true,
+    "title": "Bob Kojima's rolling ball clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "kulicky"
+    ],
+    "checkedAt": "2026-04-28T07:03:17.285Z"
+  },
+  {
+    "url": "http://www.webx.dk/oz2cpu/clock-scope/scope.htm",
+    "hostname": "www.webx.dk",
+    "status": 200,
+    "ok": true,
+    "title": "Homemade Scope Clock DG7 pic16",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "kuriozity1"
+    ],
+    "checkedAt": "2026-04-28T07:03:17.611Z"
+  },
+  {
+    "url": "http://abowman.com/google-modules/ball-clock/",
+    "hostname": "abowman.com",
+    "status": 200,
+    "ok": true,
+    "title": "https://www.abowman.com/gadgets/ball-clock/",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "kulicky"
+    ],
+    "checkedAt": "2026-04-28T07:03:17.561Z"
+  },
+  {
+    "url": "http://www.digitron.cz/",
+    "hostname": "www.digitron.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Digitron",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "kuriozity1",
+      "lahvace"
+    ],
+    "checkedAt": "2026-04-28T07:03:18.186Z"
+  },
+  {
+    "url": "http://www.nixieclocks.de/english/gallery/index.php",
+    "hostname": "www.nixieclocks.de",
+    "status": 200,
+    "ok": true,
+    "title": "Wird geladen...",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "kuriozity1"
+    ],
+    "checkedAt": "2026-04-28T07:03:18.071Z"
+  },
+  {
+    "url": "http://www.electricstuff.co.uk/nixclock.html",
+    "hostname": "www.electricstuff.co.uk",
+    "status": 200,
+    "ok": true,
+    "title": "Build a Nixie-tube clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "kuriozity1"
+    ],
+    "checkedAt": "2026-04-28T07:03:18.264Z"
+  },
+  {
+    "url": "http://www.cathodecorner.com/",
+    "hostname": "www.cathodecorner.com",
+    "status": 200,
+    "ok": true,
+    "title": "Cathode Corner - home of the Nixie Watch",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "kuriozity1"
+    ],
+    "checkedAt": "2026-04-28T07:03:17.809Z"
+  },
+  {
+    "url": "http://www.digitron.cz/rekl_hodiny.htm",
+    "hostname": "www.digitron.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Digitron",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "lahvace"
+    ],
+    "checkedAt": "2026-04-28T07:03:18.640Z"
+  },
+  {
+    "url": "http://oto.to/clocks/nclk.html",
+    "hostname": "oto.to",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "kuriozity1"
+    ],
+    "checkedAt": "2026-04-28T07:03:18.496Z"
+  },
+  {
+    "url": "https://hodinarium.eu/img/laplace/elektrarenske/elektrarna1c.jpg",
+    "hostname": "hodinarium.eu",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "laplace"
+    ],
+    "checkedAt": "2026-04-28T07:03:18.679Z"
+  },
+  {
+    "url": "https://hodinarium.eu/img/laplace/elektrarenske/elektrarna1a.jpg",
+    "hostname": "hodinarium.eu",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "laplace"
+    ],
+    "checkedAt": "2026-04-28T07:03:18.718Z"
+  },
+  {
+    "url": "https://www.antik-hovorka.cz/primland-clanky/",
+    "hostname": "www.antik-hovorka.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Nejaktuálnější články – AntikPrim",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "kvetinovehodiny_Chomutov",
+      "kvetinovehodiny_NMnM"
+    ],
+    "checkedAt": "2026-04-28T07:03:18.526Z"
+  },
+  {
+    "url": "http://www.novinky.cz/cestovani/tipy-na-vylety/385676-decinsky-zamek-vystavuje-mechanicke-hodiny-nechybi-ani-bizarni-kousky.html",
+    "hostname": "www.novinky.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Chyba 404 - Novinky.cz",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decin_aktual0"
+    ],
+    "checkedAt": "2026-04-28T07:03:08.079Z"
+  },
+  {
+    "url": "https://www.idnes.cz/technet/technika/zpozdene-budiky-srbsko-kosovo.A180308_192054_tec_technika_pka",
+    "hostname": "www.idnes.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Evrop&#283; se zpozdil &#269;as. Pro&#269; va&#353;e trouba spol&#233;h&#225; na spolupr&#225;ci 25 zem&#237;? - iDNES.cz",
+    "ogTitle": "Evrop&#283; se zpozdil &#269;as. Pro&#269; va&#353;e trouba spol&#233;h&#225; na spolupr&#225;ci 25 zem&#237;? - iDNES.cz",
+    "siteName": "iDNES.cz",
+    "error": null,
+    "articles": [
+      "laplace"
+    ],
+    "checkedAt": "2026-04-28T07:03:18.721Z"
+  },
+  {
+    "url": "https://www.entsoe.eu/news/2018/03/06/press-release-continuing-frequency-deviation-in-the-continental-european-power-system-originating-in-serbia-kosovo-political-solution-urgently-needed-in-addition-to-technical/",
+    "hostname": "www.entsoe.eu",
+    "status": 200,
+    "ok": true,
+    "title": "[Press Release] Continuing frequency deviation in the Continental European Power System originating in Serbia/Kosovo: Political solution urgently needed in addition to technical.",
+    "ogTitle": "[Press Release] Continuing frequency deviation in the Continental European Power System originating in Serbia/Kosovo: Political solution urgently needed in addition to technical.",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "laplace"
+    ],
+    "checkedAt": "2026-04-28T07:03:18.774Z"
+  },
+  {
+    "url": "http://www.craftsmanshipmuseum.com/Kieffer5.htm",
+    "hostname": "www.craftsmanshipmuseum.com",
+    "status": 200,
+    "ok": true,
+    "title": "Jerry Kieffer’s Clocks and Clock Tools - The Miniature Engineering Craftsmanship Museum",
+    "ogTitle": "Jerry Kieffer’s Clocks and Clock Tools - The Miniature Engineering Craftsmanship Museum",
+    "siteName": "The Miniature Engineering Craftsmanship Museum",
+    "error": null,
+    "articles": [
+      "flying_pendulum"
+    ],
+    "checkedAt": "2026-04-28T07:03:14.546Z"
+  },
+  {
+    "url": "http://www.lenzkirchclocks.com/lenzkirch-serial-numbers.shtml",
+    "hostname": "www.lenzkirchclocks.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "lenzkirch"
+    ],
+    "checkedAt": "2026-04-28T07:03:19.123Z"
+  },
+  {
+    "url": "http://www.lenzkirchclocks.com/",
+    "hostname": "www.lenzkirchclocks.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "lenzkirch"
+    ],
+    "checkedAt": "2026-04-28T07:03:19.190Z"
+  },
+  {
+    "url": "http://www.lenzkirchclocks.com/lenzkirch-trade-symbols.shtml",
+    "hostname": "www.lenzkirchclocks.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "lenzkirch"
+    ],
+    "checkedAt": "2026-04-28T07:03:19.123Z"
+  },
+  {
+    "url": "http://fyzika.jreichl.com/main.article/view/206-fyzicke-kyvadlo",
+    "hostname": "fyzika.jreichl.com",
+    "status": 200,
+    "ok": true,
+    "title": "***Fyzické kyvadlo :: MEF",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "line_kyvadlo"
+    ],
+    "checkedAt": "2026-04-28T07:03:19.622Z"
+  },
+  {
+    "url": "http://reseneulohy.cz/cs/fyzika/mechanika",
+    "hostname": "reseneulohy.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Sbírka řešených úloh",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "line_kyvadlo"
+    ],
+    "checkedAt": "2026-04-28T07:03:19.665Z"
+  },
+  {
+    "url": "http://www.kieniger.com/",
+    "hostname": "www.kieniger.com",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "literatura"
+    ],
+    "checkedAt": "2026-04-28T07:03:19.945Z"
+  },
+  {
+    "url": "http://www.beachamsclockco.com/antique-clocks.shtml",
+    "hostname": "www.beachamsclockco.com",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "lenzkirch"
+    ],
+    "checkedAt": "2026-04-28T07:03:19.228Z"
+  },
+  {
+    "url": "https://srebrnykruk.pl/do-pobrania/05-Zegarmistrzostwo-Wawrzyniec-Podwapin%CC%81ski.pdf",
+    "hostname": "srebrnykruk.pl",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "literatura"
+    ],
+    "checkedAt": "2026-04-28T07:03:19.879Z"
+  },
+  {
+    "url": "http://www.ceskatelevize.cz/porady/10116288585-archiv-ct24/218411058210010/video/",
+    "hostname": "www.ceskatelevize.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Jak jde čas - Archiv ČT24 | Česká televize",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "literatura"
+    ],
+    "checkedAt": "2026-04-28T07:03:20.004Z"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=_64lBU2LJC4",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "literatura"
+    ],
+    "checkedAt": "2026-04-28T07:03:20.050Z"
+  },
+  {
+    "url": "http://de.wikipedia.org/wiki/Aktiengesellschaft_f%C4%82%C4%BDr_Uhrenfabrikation_Lenzkirch",
+    "hostname": "de.wikipedia.org",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "lenzkirch"
+    ],
+    "checkedAt": "2026-04-28T07:03:19.619Z"
+  },
+  {
+    "url": "http://www.clockguy.com/SiteRelated/SiteReferencePages/LenzkirchHistory.html",
+    "hostname": "www.clockguy.com",
+    "status": 200,
+    "ok": true,
+    "title": "Antique Clocks Guy: We bring antique clocks collectors and buyers together. Always the highest quality antique clocks available.",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "lenzkirch"
+    ],
+    "checkedAt": "2026-04-28T07:03:18.778Z"
+  },
+  {
+    "url": "https://www.zamekdecin.cz/program/vystava-decinske-hodinarium",
+    "hostname": "www.zamekdecin.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "mapa"
+    ],
+    "checkedAt": "2026-04-28T07:03:20.119Z"
+  },
+  {
+    "url": "https://hodinarium.eu/download/EMdiplomka.pdf",
+    "hostname": "hodinarium.eu",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "mazan"
+    ],
+    "checkedAt": "2026-04-28T07:03:20.939Z"
+  },
+  {
+    "url": "http://www.zemepis.eu/stranka/mereni-casu",
+    "hostname": "www.zemepis.eu",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "mereni_casu",
+      "novinky2"
+    ],
+    "checkedAt": "2026-04-28T07:03:20.976Z"
+  },
+  {
+    "url": "https://www.youtube.com/@muzeum_veznich_hodin",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "mapa"
+    ],
+    "checkedAt": "2026-04-28T07:03:20.211Z"
+  },
+  {
+    "url": "http://is.braillnet.cz/pomucky_vypis.php?name=&sha=2",
+    "hostname": "is.braillnet.cz",
+    "status": 200,
+    "ok": true,
+    "title": "IS BraillNet - pom�cky - v�sledky vyhled�v�n�",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "mluvici1895"
+    ],
+    "checkedAt": "2026-04-28T07:03:21.068Z"
+  },
+  {
+    "url": "https://www.instructables.com/Glowing-Air-Bubble-Clock-Powerd-by-ESP8266/",
+    "hostname": "www.instructables.com",
+    "status": 200,
+    "ok": true,
+    "title": "Glowing Air-Bubble Clock; Powered by ESP8266 : 7 Steps (with Pictures) - Instructables",
+    "ogTitle": "Glowing Air-Bubble Clock; Powered by ESP8266",
+    "siteName": "Instructables",
+    "error": null,
+    "articles": [
+      "mapa"
+    ],
+    "checkedAt": "2026-04-28T07:03:20.376Z"
+  },
+  {
+    "url": "http://www.orloj.eu/cs/orloje_cz.htm",
+    "hostname": "www.orloj.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Pra�sk� orloj - Prague Astronomical Clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "mapa"
+    ],
+    "checkedAt": "2026-04-28T07:03:20.486Z"
+  },
+  {
+    "url": "https://mobatime.cz/kategorie-produktu/zpusoby-rizeni-a-synchronizace/",
+    "hostname": "mobatime.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Způsoby řízení a synchronizace Archives - MOBATIME",
+    "ogTitle": "Způsoby řízení a synchronizace Archives - MOBATIME",
+    "siteName": "MOBATIME",
+    "error": null,
+    "articles": [
+      "mobatime"
+    ],
+    "checkedAt": "2026-04-28T07:03:21.446Z"
+  },
+  {
+    "url": "https://mobatime.cz/obchod/analogove-hodiny-3218/",
+    "hostname": "mobatime.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Analogové nástěnné hodiny 3218 - MOBATIME",
+    "ogTitle": "Analogové nástěnné hodiny 3218 - MOBATIME",
+    "siteName": "MOBATIME",
+    "error": null,
+    "articles": [
+      "mobatime"
+    ],
+    "checkedAt": "2026-04-28T07:03:21.518Z"
+  },
+  {
+    "url": "http://bydawe.wz.cz/wtime.php",
+    "hostname": "bydawe.wz.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "mobil"
+    ],
+    "checkedAt": "2026-04-28T07:03:22.069Z"
+  },
+  {
+    "url": "https://www.astro.cz/clanky/ostatni/jedrzejow-mesto-slunecnich-hodin.html",
+    "hostname": "www.astro.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Jedrzejów město slunečních hodin  |  Ostatní  |  Články | Astronomický informační server astro.cz",
+    "ogTitle": "Jedrzejów město slunečních hodin",
+    "siteName": "ČAS",
+    "error": null,
+    "articles": [
+      "mapa"
+    ],
+    "checkedAt": "2026-04-28T07:03:20.913Z"
+  },
+  {
+    "url": "http://www.mindelheim.de/content/view/710/755/",
+    "hostname": "www.mindelheim.de",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "mindelheim",
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:03:21.047Z"
+  },
+  {
+    "url": "http://www.mobatime.cz",
+    "hostname": "www.mobatime.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Zařízení pro zobrazování času, průmyslové hodiny, docházkové systémy a řešení časoměrných zařízení na míru MOBATIME",
+    "ogTitle": "Zařízení pro zobrazování času, průmyslové hodiny, docházkové systémy a řešení časoměrných zařízení na míru MOBATIME",
+    "siteName": "MOBATIME",
+    "error": null,
+    "articles": [
+      "mobatime"
+    ],
+    "checkedAt": "2026-04-28T07:03:21.184Z"
+  },
+  {
+    "url": "http://www.ntm.cz/expozice/mereni-casu",
+    "hostname": "www.ntm.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:22.382Z"
+  },
+  {
+    "url": "http://www.zameksvetla.cz/",
+    "hostname": "www.zameksvetla.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Zámek Světlá nad Sázavou",
+    "ogTitle": "Zámek Světlá nad Sázavou",
+    "siteName": "Zámek Světlá nad Sázavou",
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:22.859Z"
+  },
+  {
+    "url": "http://www.ikaros.cz/node/5382",
+    "hostname": "www.ikaros.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Web Centrální evidence sbírek Ministerstva kultury | Ikaros",
+    "ogTitle": "Web Centrální evidence sbírek Ministerstva kultury",
+    "siteName": "Ikaros",
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:22.141Z"
+  },
+  {
+    "url": "http://technicalmuseum.cz/as-nad-nami-a-kolem-nas-menuvpravoexpozicetmb-90",
+    "hostname": "technicalmuseum.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:23.319Z"
+  },
+  {
+    "url": "http://www.technicalmuseum.cz/vystavy/vystava.jpg",
+    "hostname": "www.technicalmuseum.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:23.913Z"
+  },
+  {
+    "url": "http://www.expozicecasu.cz/",
+    "hostname": "www.expozicecasu.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Expozice Času - ideální místo pro rodinný výlet",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr",
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:03:23.931Z"
+  },
+  {
+    "url": "http://www.muzeum-polna.cz/inpage/expozice-historickych-hodin/",
+    "hostname": "www.muzeum-polna.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:24.445Z"
+  },
+  {
+    "url": "http://tourism.olomouc.eu/tourism/information-centre/exhibitions-at-the-town-hall/",
+    "hostname": "tourism.olomouc.eu",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:24.561Z"
+  },
+  {
+    "url": "http://www.muzeum-teplice.cz/historicke-hodiny/",
+    "hostname": "www.muzeum-teplice.cz",
+    "status": 200,
+    "ok": true,
+    "title": "The Regional Museum in Teplice",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:24.590Z"
+  },
+  {
+    "url": "http://wwwold.nkp.cz/bp/2_12.htm",
+    "hostname": "wwwold.nkp.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:24.997Z"
+  },
+  {
+    "url": "http://www.upm.cz/index.php?language=cz&page=197",
+    "hostname": "www.upm.cz",
+    "status": 200,
+    "ok": true,
+    "title": "ÚVOD - Uměleckoprůmyslové museum v Praze",
+    "ogTitle": "ÚVOD - Uměleckoprůmyslové museum v Praze",
+    "siteName": "Uměleckoprůmyslové museum v Praze",
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:22.440Z"
+  },
+  {
+    "url": "http://www.muzeumhodin.eu/cs/",
+    "hostname": "www.muzeumhodin.eu",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:25.886Z"
+  },
+  {
+    "url": "http://www.muzeumcheb.cz/",
+    "hostname": "www.muzeumcheb.cz",
+    "status": 200,
+    "ok": true,
+    "title": "MUZEUM CHEB - historické regionální muzeum v Čechách.",
+    "ogTitle": "MUZEUM CHEB - historické regionální muzeum v Čechách.",
+    "siteName": "Muzeum Cheb",
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:22.126Z"
+  },
+  {
+    "url": "http://www.muzeumpv.cz/html/sbirka_hodin.html",
+    "hostname": "www.muzeumpv.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:25.014Z"
+  },
+  {
+    "url": "http://ces.mkcr.cz/",
+    "hostname": "ces.mkcr.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:22.122Z"
+  },
+  {
+    "url": "http://www.radio.cz/cz/clanek/50301",
+    "hostname": "www.radio.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Karlštejn - Muzeum hodin | Radio Prague International",
+    "ogTitle": "Karlštejn - Muzeum hodin",
+    "siteName": "Radio Prague International",
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:26.039Z"
+  },
+  {
+    "url": "http://www.muzeum-kolovec.cz/",
+    "hostname": "www.muzeum-kolovec.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Úvod | Muzeum techniky a řemesel",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:28.268Z"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=1PUnYD6lfUc",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:27.223Z"
+  },
+  {
+    "url": "http://toulavakamera.ct24.cz/article.asp?article_id=700",
+    "hostname": "toulavakamera.ct24.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Toulavá kamera - iVysílání | Česká televize",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:28.381Z"
+  },
+  {
+    "url": "http://www.dansdata.com/timemachine.htm",
+    "hostname": "www.dansdata.com",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "timeout",
+    "articles": [
+      "kulicky"
+    ],
+    "checkedAt": "2026-04-28T07:03:16.766Z"
+  },
+  {
+    "url": "http://clock.web2001.cz/",
+    "hostname": "clock.web2001.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:28.769Z"
+  },
+  {
+    "url": "http://clock.web2001.cz/texty/znacky_v1.pdf",
+    "hostname": "clock.web2001.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:28.828Z"
+  },
+  {
+    "url": "http://www.muzeum-nmnm.cz/index.php/cz/expozice/hodinarska-expozice",
+    "hostname": "www.muzeum-nmnm.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Hodinářská expozice",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:28.424Z"
+  },
+  {
+    "url": "http://www.hodinyjbc.eu/",
+    "hostname": "www.hodinyjbc.eu",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "muzea_cr",
+      "vezni_zikmund1"
+    ],
+    "checkedAt": "2026-04-28T07:03:28.887Z"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=6a5WC2qFFco",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:28.163Z"
+  },
+  {
+    "url": "http://www.mikrolisk.de/show.php/280/letter_F",
+    "hostname": "www.mikrolisk.de",
+    "status": 200,
+    "ok": true,
+    "title": "Mikrolisk - The horological trade mark index",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:28.845Z"
+  },
+  {
+    "url": "http://www.roger-russell.com/mysteryclocks/mysteryclocks.htm",
+    "hostname": "www.roger-russell.com",
+    "status": 200,
+    "ok": true,
+    "title": "Mystery Clock History Page",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "mystery"
+    ],
+    "checkedAt": "2026-04-28T07:03:29.130Z"
+  },
+  {
+    "url": "http://www.roger-russell.com/haddon/hadvary.htm",
+    "hostname": "www.roger-russell.com",
+    "status": 200,
+    "ok": true,
+    "title": "Haddon Mystery Clock Variations",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "mystery"
+    ],
+    "checkedAt": "2026-04-28T07:03:29.315Z"
+  },
+  {
+    "url": "http://www.muzeumhodin-kno.cz/",
+    "hostname": "www.muzeumhodin-kno.cz",
+    "status": 200,
+    "ok": true,
+    "title": "MUZEUM HODIN &#8211; Klášterec nad Ohří",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "muzea_cr",
+      "zmizele"
+    ],
+    "checkedAt": "2026-04-28T07:03:26.328Z"
+  },
+  {
+    "url": "http://www.davewestclocks.co.uk/Clockrepairs/smiths-mystery-clock.htm",
+    "hostname": "www.davewestclocks.co.uk",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "mystery"
+    ],
+    "checkedAt": "2026-04-28T07:03:30.339Z"
+  },
+  {
+    "url": "http://www.roger-russell.com/haddon/haddon.htm",
+    "hostname": "www.roger-russell.com",
+    "status": 200,
+    "ok": true,
+    "title": "Haddon Clocks",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "mystery"
+    ],
+    "checkedAt": "2026-04-28T07:03:29.983Z"
+  },
+  {
+    "url": "http://www.cafebudik.cz/",
+    "hostname": "www.cafebudik.cz",
+    "status": 200,
+    "ok": true,
+    "title": "cafebudik.cz",
+    "ogTitle": null,
+    "siteName": "cafebudik.cz",
+    "error": null,
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:28.976Z"
+  },
+  {
+    "url": "http://www.sbirkajara.cz/detail-vynalezu.php?Id=128",
+    "hostname": "www.sbirkajara.cz",
+    "status": 500,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "nonsens2015"
+    ],
+    "checkedAt": "2026-04-28T07:03:30.700Z"
+  },
+  {
+    "url": "https://www.google.com/search?q=astronomical%20nocturnal&tbm=isch&tbs=rimg%3ACS4i4LSYrfXiImDpG90hZ6vqZv8KyDc7oravo4W9RekJ3gliD0t375ca9A8ppdB0qegoDINJabW6oFcsZ9wWMuLikYZJ8XyC4Yswc_1rs3l9JVEhYRYg8vKlUYrXG7KSGVjkIyRsExyEhPXoqEgnpG90hZ6vqZhF8uFV5LdF4PioSCf8KyDc7oravEUaZMLgjMfPeKhIJo4W9RekJ3gkR10nMc6fdyaAqEgliD0t375ca9BGsViEaEWO7LCoSCQ8ppdB0qegoERi2yf1voX-dKhIJDINJabW6oFcRqZlv1lQFDlsqEgksZ9wWMuLikRHFhOvUTnShfCoSCYZJ8XyC4YswEZQf5KMgqm5uKhIJc_1rs3l9JVEgRECfi6tfCeskqEglYRYg8vKlUYhHKQCVz6BYTFyoSCbXG7KSGVjkIEW8nr6Ta6rlaKhIJyRsExyEhPXoRLvSDxDQUr5Vhi0gX-FNarLE&rlz=1C1CHWL_csCZ847CZ847&hl=cs&ved=0CAIQrnZqFwoTCMDBxPfD9ugCFQAAAAAdAAAAABAM&biw=1344&bih=571",
+    "hostname": "www.google.com",
+    "status": 200,
+    "ok": true,
+    "title": "Google Search",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "nocturnal"
+    ],
+    "checkedAt": "2026-04-28T07:03:30.570Z"
+  },
+  {
+    "url": "http://ateo.cz/pg/home/",
+    "hostname": "ateo.cz",
+    "status": 200,
+    "ok": true,
+    "title": "aTeo - fotokoláže a jiné úlety",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "nonsens2015"
+    ],
+    "checkedAt": "2026-04-28T07:03:30.758Z"
+  },
+  {
+    "url": "http://www.sbirkajara.cz/",
+    "hostname": "www.sbirkajara.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Sbírka Jára",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "nonsens2015"
+    ],
+    "checkedAt": "2026-04-28T07:03:30.970Z"
+  },
+  {
+    "url": "http://ateo.cz/t/14-ad-absurdum/",
+    "hostname": "ateo.cz",
+    "status": 200,
+    "ok": true,
+    "title": "aTeo - fotokoláže a jiné úlety",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "nonsens2015"
+    ],
+    "checkedAt": "2026-04-28T07:03:30.914Z"
+  },
+  {
+    "url": "http://www.mjakub.cz/?idc=1308",
+    "hostname": "www.mjakub.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Nonsens | Muzeum J. A. Komenského Uherský Brod",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "nonsens2015"
+    ],
+    "checkedAt": "2026-04-28T07:03:31.070Z"
+  },
+  {
+    "url": "https://www.lh-shop.cz/index.php?page=shop.product_details&product_id=3519&category_id=134&flypage=trh_flypage.tpl&option=com_virtuemart&Itemid=5&lang=cs",
+    "hostname": "www.lh-shop.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Hlavní nabídka",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "nocturnal"
+    ],
+    "checkedAt": "2026-04-28T07:03:30.420Z"
+  },
+  {
+    "url": "http://www.technicalmuseum.cz/tiskove-zpravy-rok-2009-menuvpravotiskovky-234/nonsens",
+    "hostname": "www.technicalmuseum.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "nonsens2015"
+    ],
+    "checkedAt": "2026-04-28T07:03:31.803Z"
+  },
+  {
+    "url": "http://uv201.com/Clock_Pages/mystery_clocks.htm",
+    "hostname": "uv201.com",
+    "status": 200,
+    "ok": true,
+    "title": "Evolution of Radio Signal: From Early Receivers to Smart Devices",
+    "ogTitle": "Evolution of Radio Signal: From Early Receivers to Smart Devices",
+    "siteName": "Evolution of Radio Signal",
+    "error": null,
+    "articles": [
+      "mystery"
+    ],
+    "checkedAt": "2026-04-28T07:03:30.024Z"
+  },
+  {
+    "url": "http://www.orloj.eu/download/rkp.3412_Erben.pdf",
+    "hostname": "www.orloj.eu",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "ohlednuti2011"
+    ],
+    "checkedAt": "2026-04-28T07:03:34.337Z"
+  },
+  {
+    "url": "http://www2.muzeumct.cz/tesin/sbirky/hodiny.php",
+    "hostname": "www2.muzeumct.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "muzea_cr"
+    ],
+    "checkedAt": "2026-04-28T07:03:24.757Z"
+  },
+  {
+    "url": "http://www.webarchiv.cz/",
+    "hostname": "www.webarchiv.cz",
+    "status": 200,
+    "ok": true,
+    "title": "The Museum of Czech\nweb | Webarchiv.cz",
+    "ogTitle": null,
+    "siteName": "Webarchiv",
+    "error": null,
+    "articles": [
+      "ohlednuti2011"
+    ],
+    "checkedAt": "2026-04-28T07:03:34.880Z"
+  },
+  {
+    "url": "http://www.orloj.eu/",
+    "hostname": "www.orloj.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Pražský\r\norloj - The Prague Astronomical Clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "ohlednuti2011"
+    ],
+    "checkedAt": "2026-04-28T07:03:34.641Z"
+  },
+  {
+    "url": "https://kalendar.beda.cz/slunecni-kruh",
+    "hostname": "kalendar.beda.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Sluneční kruh",
+    "ogTitle": "Sluneční kruh",
+    "siteName": "Kalendář Beda",
+    "error": null,
+    "articles": [
+      "orient"
+    ],
+    "checkedAt": "2026-04-28T07:03:35.745Z"
+  },
+  {
+    "url": "http://www.papirovysvet.cz/",
+    "hostname": "www.papirovysvet.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Papírový svět",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "papir"
+    ],
+    "checkedAt": "2026-04-28T07:03:35.840Z"
+  },
+  {
+    "url": "https://cs.wikipedia.org/wiki/Orient_Watch",
+    "hostname": "cs.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Orient Watch – Wikipedie",
+    "ogTitle": "Orient Watch – Wikipedie",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "orient"
+    ],
+    "checkedAt": "2026-04-28T07:03:35.205Z"
+  },
+  {
+    "url": "http://steampunker.de/galerie/list/category/uhren/#.VcyUn_ntmko",
+    "hostname": "steampunker.de",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "nonsens2015"
+    ],
+    "checkedAt": "2026-04-28T07:03:32.329Z"
+  },
+  {
+    "url": "http://cs.wikipedia.org/wiki/Stirling%C4%B9%C5%BBv_motor",
+    "hostname": "cs.wikipedia.org",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "perpetum_mobile"
+    ],
+    "checkedAt": "2026-04-28T07:03:36.276Z"
+  },
+  {
+    "url": "http://mve.energetika.cz/uvod/stirling.htm",
+    "hostname": "mve.energetika.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Teplovzdu�n� motory",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "perpetum_mobile"
+    ],
+    "checkedAt": "2026-04-28T07:03:36.631Z"
+  },
+  {
+    "url": "http://www.ub.cz/zpravy/Muzejni-Nonsens",
+    "hostname": "www.ub.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "nonsens2015"
+    ],
+    "checkedAt": "2026-04-28T07:03:31.231Z"
+  },
+  {
+    "url": "http://www.youtube.com/results?search_query=stirling+pendulum+clock+&search_type=",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "perpetum_mobile"
+    ],
+    "checkedAt": "2026-04-28T07:03:35.926Z"
+  },
+  {
+    "url": "http://www.my-time-machines.net/korfhage_remontore.htm",
+    "hostname": "www.my-time-machines.net",
+    "status": 200,
+    "ok": true,
+    "title": "Korfhage remontore",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pichacky",
+      "vez_elektrocas1959"
+    ],
+    "checkedAt": "2026-04-28T07:03:37.129Z"
+  },
+  {
+    "url": "http://www.wikiwand.com/de/Johannes_B%C3%BCrk",
+    "hostname": "www.wikiwand.com",
+    "status": 200,
+    "ok": true,
+    "title": "Johannes Bürk - Wikiwand",
+    "ogTitle": "Johannes Bürk - Wikiwand",
+    "siteName": "Wikiwand",
+    "error": null,
+    "articles": [
+      "pichacky"
+    ],
+    "checkedAt": "2026-04-28T07:03:36.738Z"
+  },
+  {
+    "url": "http://www.workclocks.co.uk/index.html",
+    "hostname": "www.workclocks.co.uk",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pichacky"
+    ],
+    "checkedAt": "2026-04-28T07:03:37.217Z"
+  },
+  {
+    "url": "http://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk",
+    "hostname": "www.wikiwand.com",
+    "status": 403,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pichacky"
+    ],
+    "checkedAt": "2026-04-28T07:03:38.507Z"
+  },
+  {
+    "url": "http://www.workclocks.co.uk/dey.html",
+    "hostname": "www.workclocks.co.uk",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pichacky"
+    ],
+    "checkedAt": "2026-04-28T07:03:37.594Z"
+  },
+  {
+    "url": "http://62.168.39.166/paichl/hodiny.html",
+    "hostname": "62.168.39.166",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "muzea_cr",
+      "novinky2"
+    ],
+    "checkedAt": "2026-04-28T07:03:28.703Z"
+  },
+  {
+    "url": "http://www.watchclocks.org/Types/19th_Century/52_Burk/52_burk.html",
+    "hostname": "www.watchclocks.org",
+    "status": 200,
+    "ok": true,
+    "title": "52 Burk",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pichacky"
+    ],
+    "checkedAt": "2026-04-28T07:03:38.551Z"
+  },
+  {
+    "url": "https://www.kmp.cz/",
+    "hostname": "www.kmp.cz",
+    "status": 200,
+    "ok": true,
+    "title": "KMP.cz &#8211; český výrobce tonerů, inkoustových náplní, barvicích pásek | Český výrobce tonerů, inkoustových náplní, barvicích pásek",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pichacky"
+    ],
+    "checkedAt": "2026-04-28T07:03:38.679Z"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=yUnEWZihKKg",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pilovky"
+    ],
+    "checkedAt": "2026-04-28T07:03:38.883Z"
+  },
+  {
+    "url": "http://www.hwynen.de/jgh-elektronom.html",
+    "hostname": "www.hwynen.de",
+    "status": 200,
+    "ok": true,
+    "title": "Junghans Elektronom",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pneumatika",
+      "pneumatika2",
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:39.143Z"
+  },
+  {
+    "url": "http://www.workclocks.co.uk/bundy.html",
+    "hostname": "www.workclocks.co.uk",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pichacky"
+    ],
+    "checkedAt": "2026-04-28T07:03:38.337Z"
+  },
+  {
+    "url": "http://www.douglas-self.com/MUSEUM/COMMS/airclock/airclock.htm",
+    "hostname": "www.douglas-self.com",
+    "status": 200,
+    "ok": true,
+    "title": "The Paris Pneumatic Clock Network",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pneumatika2"
+    ],
+    "checkedAt": "2026-04-28T07:03:39.324Z"
+  },
+  {
+    "url": "https://www.cetin.cz/",
+    "hostname": "www.cetin.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Propojujeme Česko spolehlivou sítí - cetin.cz",
+    "ogTitle": "Propojujeme Česko spolehlivou sítí - cetin.cz",
+    "siteName": "cetin.cz",
+    "error": null,
+    "articles": [
+      "pneumatika2"
+    ],
+    "checkedAt": "2026-04-28T07:03:39.177Z"
+  },
+  {
+    "url": "https://www.antik-hovorka.cz/primland-clanky/antik-blog-1/chronotoulky-cast-iii-kvetinove-hodiny-v-podebradech-11.html",
+    "hostname": "www.antik-hovorka.cz",
+    "status": 200,
+    "ok": true,
+    "title": "CHRONOTOULKY, část III. – Květinové hodiny v Poděbradech – AntikPrim",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "podebrady2"
+    ],
+    "checkedAt": "2026-04-28T07:03:39.553Z"
+  },
+  {
+    "url": "http://pragotron.sk/",
+    "hostname": "pragotron.sk",
+    "status": 200,
+    "ok": true,
+    "title": "PRAGOTRON - jednotn� �as, informa�n� syst�my",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pragotron1"
+    ],
+    "checkedAt": "2026-04-28T07:03:39.621Z"
+  },
+  {
+    "url": "https://www.academia.edu/35888544/Orologi_pubblici_pneumatici_a_Parigi",
+    "hostname": "www.academia.edu",
+    "status": 200,
+    "ok": true,
+    "title": "(PDF) Orologi pubblici pneumatici a Parigi",
+    "ogTitle": "Orologi pubblici pneumatici a Parigi",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pneumatika2"
+    ],
+    "checkedAt": "2026-04-28T07:03:39.175Z"
+  },
+  {
+    "url": "http://www.bobblick.com/techref/projects/propclock/propclock.html",
+    "hostname": "www.bobblick.com",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "propeller_clock"
+    ],
+    "checkedAt": "2026-04-28T07:03:39.798Z"
+  },
+  {
+    "url": "https://youtu.be/gol_p2aWrJg?si=nUwjQInJs2A-c52s",
+    "hostname": "youtu.be",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pneumatika2"
+    ],
+    "checkedAt": "2026-04-28T07:03:39.464Z"
+  },
+  {
+    "url": "http://www.luberth.com/analog.htm",
+    "hostname": "www.luberth.com",
+    "status": 444,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "propeller_clock"
+    ],
+    "checkedAt": "2026-04-28T07:03:40.862Z"
+  },
+  {
+    "url": "http://www.stirling.cz/",
+    "hostname": "www.stirling.cz",
+    "status": 200,
+    "ok": true,
+    "title": "TEDOM - kogenerace, fotovoltaika, služby v energetice",
+    "ogTitle": "Úvodní strana",
+    "siteName": "TEDOM",
+    "error": null,
+    "articles": [
+      "perpetum_mobile"
+    ],
+    "checkedAt": "2026-04-28T07:03:36.335Z"
+  },
+  {
+    "url": "http://hackedgadgets.com/2006/06/29/nixie-propeller-clock/",
+    "hostname": "hackedgadgets.com",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "propeller_clock"
+    ],
+    "checkedAt": "2026-04-28T07:03:41.397Z"
+  },
+  {
+    "url": "http://www.freepatentsonline.com/6856303.html",
+    "hostname": "www.freepatentsonline.com",
+    "status": 200,
+    "ok": true,
+    "title": "Rotating display system - KOWALEWSKI DANIEL L.",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "propeller_clock"
+    ],
+    "checkedAt": "2026-04-28T07:03:40.205Z"
+  },
+  {
+    "url": "http://www.herrnbaumgarten.at/system/web/sonderseite.aspx?menuonr=219816518&detailonr=219816518",
+    "hostname": "www.herrnbaumgarten.at",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "timeout",
+    "articles": [
+      "nonsens2015"
+    ],
+    "checkedAt": "2026-04-28T07:03:31.017Z"
+  },
+  {
+    "url": "http://waitingtrain.blogspot.cz/",
+    "hostname": "waitingtrain.blogspot.cz",
+    "status": 200,
+    "ok": true,
+    "title": "The Gents' 'Pulsynetic' Waiting Train Electric Turret Clock Movement.",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pulsynetic"
+    ],
+    "checkedAt": "2026-04-28T07:03:41.788Z"
+  },
+  {
+    "url": "http://www.hvtesla.com/masters/",
+    "hostname": "www.hvtesla.com",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pulsynetic"
+    ],
+    "checkedAt": "2026-04-28T07:03:43.193Z"
+  },
+  {
+    "url": "http://pulsynetic.eu/turret/waiting-train/",
+    "hostname": "pulsynetic.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Pulsynetic  \n\n &raquo; Waiting Train",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pulsynetic"
+    ],
+    "checkedAt": "2026-04-28T07:03:41.722Z"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=OhAOsCUvkfo",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pulsynetic"
+    ],
+    "checkedAt": "2026-04-28T07:03:43.326Z"
+  },
+  {
+    "url": "http://pulsynetic.eu/",
+    "hostname": "pulsynetic.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Pulsynetic",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pulsynetic"
+    ],
+    "checkedAt": "2026-04-28T07:03:41.671Z"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=6Rba4Il6gcg",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pulsynetic"
+    ],
+    "checkedAt": "2026-04-28T07:03:44.404Z"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=kAEyjUT0vL4",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pulsynetic"
+    ],
+    "checkedAt": "2026-04-28T07:03:44.232Z"
+  },
+  {
+    "url": "https://youtu.be/VwSTKJxhaa4",
+    "hostname": "youtu.be",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pulsynetic"
+    ],
+    "checkedAt": "2026-04-28T07:03:43.021Z"
+  },
+  {
+    "url": "http://crypto-world.info/pravo/podpis/pravo/496_04.htm",
+    "hostname": "crypto-world.info",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "razitka"
+    ],
+    "checkedAt": "2026-04-28T07:03:45.448Z"
+  },
+  {
+    "url": "http://business.center.cz/business/pravo/zakony/epodpis/cast1.aspx",
+    "hostname": "business.center.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "razitka"
+    ],
+    "checkedAt": "2026-04-28T07:03:45.379Z"
+  },
+  {
+    "url": "http://vsol.obce.cz/clanek.asp?id=2006111",
+    "hostname": "vsol.obce.cz",
+    "status": 200,
+    "ok": true,
+    "title": "VSOL 1/2006: �asov� raz�tko",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "razitka"
+    ],
+    "checkedAt": "2026-04-28T07:03:45.591Z"
+  },
+  {
+    "url": "https://hodinarium.eu/download/MovaviClips_rimskedigi.mp4.mp4",
+    "hostname": "hodinarium.eu",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "rimskedigi2"
+    ],
+    "checkedAt": "2026-04-28T07:03:45.864Z"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=VwSTKJxhaa4&feature=youtu.be",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pulsynetic"
+    ],
+    "checkedAt": "2026-04-28T07:03:44.837Z"
+  },
+  {
+    "url": "https://prirucka.ujc.cas.cz/?id=793",
+    "hostname": "prirucka.ujc.cas.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Internetová jazyková příručka: Římské číslice",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "rimskedigi2"
+    ],
+    "checkedAt": "2026-04-28T07:03:45.914Z"
+  },
+  {
+    "url": "http://orloj.eu/img/orloje/venecia/f/digitalky1.jpg",
+    "hostname": "orloj.eu",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "rimskedigi2"
+    ],
+    "checkedAt": "2026-04-28T07:03:45.932Z"
+  },
+  {
+    "url": "https://dratek.cz/arduino/1457-esp8266-esp-12e-ota-wemos-d1-ch340-wifi.html",
+    "hostname": "dratek.cz",
+    "status": 200,
+    "ok": true,
+    "title": "ESP8266 ESP-12E OTA WeMos D1 CH340 WiFi | dratek.cz",
+    "ogTitle": "ESP8266 ESP-12E OTA WeMos D1 CH340 WiFi | dratek.cz | dratek.cz",
+    "siteName": "dratek.cz",
+    "error": null,
+    "articles": [
+      "rimskedigi2"
+    ],
+    "checkedAt": "2026-04-28T07:03:46.066Z"
+  },
+  {
+    "url": "https://hodinarium.eu/download/Arduino/Rimske_digi-210919a.zip",
+    "hostname": "hodinarium.eu",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "rimskedigi2"
+    ],
+    "checkedAt": "2026-04-28T07:03:46.471Z"
+  },
+  {
+    "url": "https://dratek.cz/arduino/1570-iic-i2c-display-lcd-1602-16x2-znaku-lcd-modul-modry.html",
+    "hostname": "dratek.cz",
+    "status": 200,
+    "ok": true,
+    "title": "IIC I2C displej LCD 1602, 16 x 2 LCD znaků - Modrý modul | dratek.cz",
+    "ogTitle": "IIC I2C displej LCD 1602, 16 x 2 LCD znaků - Modrý modul | dratek.cz | dratek.cz",
+    "siteName": "dratek.cz",
+    "error": null,
+    "articles": [
+      "rimskedigi2"
+    ],
+    "checkedAt": "2026-04-28T07:03:46.271Z"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=kJ6h7yOsQT4&t=19s",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "pulsynetic"
+    ],
+    "checkedAt": "2026-04-28T07:03:45.371Z"
+  },
+  {
+    "url": "http://interval.cz/clanky/elektronicke-casove-razitko-doplnek-elektronickeho-podpisu",
+    "hostname": "interval.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Elektronické časové razítko, doplněk elektronického podpisu | Interval.cz",
+    "ogTitle": "Elektronické časové razítko, doplněk elektronického podpisu",
+    "siteName": "Interval.cz",
+    "error": null,
+    "articles": [
+      "razitka"
+    ],
+    "checkedAt": "2026-04-28T07:03:45.505Z"
+  },
+  {
+    "url": "https://www.sothebys.com/en/auctions/ecatalogue/2012/george-daniels-so-l12313/lot.130.html",
+    "hostname": "www.sothebys.com",
+    "status": 200,
+    "ok": true,
+    "title": "(#130) Joseph Knibb",
+    "ogTitle": null,
+    "siteName": "Sothebys.com",
+    "error": null,
+    "articles": [
+      "rimskedigi2"
+    ],
+    "checkedAt": "2026-04-28T07:03:46.689Z"
+  },
+  {
+    "url": "https://www.sothebys.com/en/auctions/ecatalogue/2012/george-daniels-so-l12313/lot.131.html",
+    "hostname": "www.sothebys.com",
+    "status": 200,
+    "ok": true,
+    "title": "(#131) Joseph Knibb",
+    "ogTitle": null,
+    "siteName": "Sothebys.com",
+    "error": null,
+    "articles": [
+      "rimskedigi2"
+    ],
+    "checkedAt": "2026-04-28T07:03:46.784Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Joseph_Knibb",
+    "hostname": "en.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Joseph Knibb - Wikipedia",
+    "ogTitle": "Joseph Knibb - Wikipedia",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "rimskedigi2"
+    ],
+    "checkedAt": "2026-04-28T07:03:46.517Z"
+  },
+  {
+    "url": "https://www.sothebys.com/en/auctions/ecatalogue/2013/treasures-princely-taste-l13303/lot.12.html",
+    "hostname": "www.sothebys.com",
+    "status": 200,
+    "ok": true,
+    "title": "(#12) Joseph Knibb. A small silver-mounted ebony roman striking table clock, London, circa 1680",
+    "ogTitle": null,
+    "siteName": "Sothebys.com",
+    "error": null,
+    "articles": [
+      "rimskedigi2"
+    ],
+    "checkedAt": "2026-04-28T07:03:46.886Z"
+  },
+  {
+    "url": "https://www.horologiumprecision.co.uk/joseph-knibb-reconstruction",
+    "hostname": "www.horologiumprecision.co.uk",
+    "status": 200,
+    "ok": true,
+    "title": "Joseph Knibb Reconstruction &mdash; Horologium Precision LTD",
+    "ogTitle": "Joseph Knibb Reconstruction &mdash; Horologium Precision LTD",
+    "siteName": "Horologium Precision LTD",
+    "error": null,
+    "articles": [
+      "rimskedigi2"
+    ],
+    "checkedAt": "2026-04-28T07:03:46.987Z"
+  },
+  {
+    "url": "https://unmz.gov.cz/files/metrologie/casopis/priloha-metrologie-2013.pdf",
+    "hostname": "unmz.gov.cz",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "ruzne"
+    ],
+    "checkedAt": "2026-04-28T07:03:47.896Z"
+  },
+  {
+    "url": "http://www.aldebaran.cz/bulletin/2004_43_nah.html",
+    "hostname": "www.aldebaran.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Presmerovani",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "ruzne"
+    ],
+    "checkedAt": "2026-04-28T07:03:47.965Z"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Bxg6hyv889s",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "rimskedigi2"
+    ],
+    "checkedAt": "2026-04-28T07:03:47.113Z"
+  },
+  {
+    "url": "http://www.watchmagazine.cz/",
+    "hostname": "www.watchmagazine.cz",
+    "status": 200,
+    "ok": true,
+    "title": "| WatchMagazine.cz",
+    "ogTitle": null,
+    "siteName": "WatchMagazine.cz",
+    "error": null,
+    "articles": [
+      "ruzne"
+    ],
+    "checkedAt": "2026-04-28T07:03:48.129Z"
+  },
+  {
+    "url": "http://www.chronomag.cz/",
+    "hostname": "www.chronomag.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Web je ve výstavbě",
+    "ogTitle": "Web je ve výstavbě",
+    "siteName": "CHRONOMAG.cz | magazín o hodinkách a všem tikajícím -",
+    "error": null,
+    "articles": [
+      "ruzne"
+    ],
+    "checkedAt": "2026-04-28T07:03:48.197Z"
+  },
+  {
+    "url": "http://www.sestka.com/",
+    "hostname": "www.sestka.com",
+    "status": 200,
+    "ok": true,
+    "title": "SESTKA-voln� interpretace �asu",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "sestka"
+    ],
+    "checkedAt": "2026-04-28T07:03:48.459Z"
+  },
+  {
+    "url": "http://old.roznovskastredni.cz/dwnl/pel2009/06/zalud.pdf",
+    "hostname": "old.roznovskastredni.cz",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "settopbox"
+    ],
+    "checkedAt": "2026-04-28T07:03:48.503Z"
+  },
+  {
+    "url": "http://www.rufa.de/",
+    "hostname": "www.rufa.de",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "sitovky"
+    ],
+    "checkedAt": "2026-04-28T07:03:48.565Z"
+  },
+  {
+    "url": "https://www.christies.com/en/lot/lot-4973414",
+    "hostname": "www.christies.com",
+    "status": 200,
+    "ok": true,
+    "title": "A JAMES II WALNUT ROMAN-STRIKING LONGCASE CLOCK OF THREE MONTH DURATION, THE MOVEMENT BY JOSEPH KNIBB, LONDON, CIRCA 1685; THE ASSOCIATED CASE LATE 17TH CENTURY AND ADAPTED | Christie's",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "rimskedigi2"
+    ],
+    "checkedAt": "2026-04-28T07:03:46.951Z"
+  },
+  {
+    "url": "http://www.radiomuseum.org/dsp_hersteller_detail.cfm?company_id=8549",
+    "hostname": "www.radiomuseum.org",
+    "status": 200,
+    "ok": true,
+    "title": "Rufa Sprechanlagen; Küps/Bayern manufacturer in D, Model typ | Radiomuseum.org",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "sitovky"
+    ],
+    "checkedAt": "2026-04-28T07:03:48.732Z"
+  },
+  {
+    "url": "https://worldwide.espacenet.com/publicationDetails/biblio?DB=EPODOC&II=0&ND=3&adjacent=true&locale=en_EP&FT=D&date=19520611&CC=GB&NR=673831A&KC=A",
+    "hostname": "worldwide.espacenet.com",
+    "status": 403,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "skymaster_ghost"
+    ],
+    "checkedAt": "2026-04-28T07:03:49.002Z"
+  },
+  {
+    "url": "http://www.hw.cz/Teorie-a-praxe/Dokumentace/ART1027-Presny-cas-na-PC-prostrednictvim-Internetu.html",
+    "hostname": "www.hw.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Přesný čas na PC prostřednictvím Internetu | Vývoj.HW.cz",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "ruzne",
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:48.447Z"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/Category:Racingpigeons_clocks",
+    "hostname": "commons.wikimedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Category:Racingpigeons clocks - Wikimedia Commons",
+    "ogTitle": "Category:Racingpigeons clocks - Wikimedia Commons",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "skymaster_ghost"
+    ],
+    "checkedAt": "2026-04-28T07:03:48.797Z"
+  },
+  {
+    "url": "https://www.sothebys.com/en/buy/auction/2021/treasures-2/joseph-knibb-a-charles-ii-ebony-roman-striking",
+    "hostname": "www.sothebys.com",
+    "status": 200,
+    "ok": true,
+    "title": "Joseph Knibb. A Charles II ebony Roman striking three-month longcase",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "rimskedigi2"
+    ],
+    "checkedAt": "2026-04-28T07:03:46.629Z"
+  },
+  {
+    "url": "http://www.slunecni-hodiny.webzdarma.cz/",
+    "hostname": "www.slunecni-hodiny.webzdarma.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Slune�n� hodiny",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:49.318Z"
+  },
+  {
+    "url": "http://www.astrohk.cz/ashk/slunecni_hodiny/index.php",
+    "hostname": "www.astrohk.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:49.480Z"
+  },
+  {
+    "url": "http://www.sweb.cz/hodiny/",
+    "hostname": "www.sweb.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:49.435Z"
+  },
+  {
+    "url": "http://www.astroama.com/",
+    "hostname": "www.astroama.com",
+    "status": 409,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:49.563Z"
+  },
+  {
+    "url": "http://digilander.libero.it/orologi.solari/download/download.html",
+    "hostname": "digilander.libero.it",
+    "status": 200,
+    "ok": true,
+    "title": "Orologi Solari e Meridiane",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:49.614Z"
+  },
+  {
+    "url": "http://en.wikipedia.org/wiki/Sundial",
+    "hostname": "en.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Sundial - Wikipedia",
+    "ogTitle": "Sundial - Wikipedia",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:49.653Z"
+  },
+  {
+    "url": "http://perso.orange.fr/blateyron/sundials/gb/index.html",
+    "hostname": "perso.orange.fr",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:50.069Z"
+  },
+  {
+    "url": "http://perso.orange.fr/blateyron/sundials/shadowspro/gb/index.html",
+    "hostname": "perso.orange.fr",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:50.107Z"
+  },
+  {
+    "url": "http://slunecnihodiny.wz.cz/",
+    "hostname": "slunecnihodiny.wz.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:50.110Z"
+  },
+  {
+    "url": "http://slunecnihodiny.wz.cz/sh/obrsh01.htm",
+    "hostname": "slunecnihodiny.wz.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:50.212Z"
+  },
+  {
+    "url": "http://translationportal.epo.org/emtp/translate/?ACTION=abstract-retrieval&COUNTRY=GB&ENGINE=google&FORMAT=docdb&KIND=A&LOCALE=en_EP&NUMBER=673831&SRCLANG=EN&OPS=ops.epo.org/3.2&TRGLANG=cs",
+    "hostname": "translationportal.epo.org",
+    "status": 200,
+    "ok": true,
+    "title": "673831-Abst-cs",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "skymaster_ghost"
+    ],
+    "checkedAt": "2026-04-28T07:03:49.183Z"
+  },
+  {
+    "url": "http://www.hela.cz/",
+    "hostname": "www.hela.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Slune�n� hodiny - V�roba a malby slune�n�ch hodin",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:50.234Z"
+  },
+  {
+    "url": "http://cs.wikipedia.org/wiki/SluneÄŤnĂ­_hodiny",
+    "hostname": "cs.wikipedia.org",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:50.019Z"
+  },
+  {
+    "url": "http://www.slunecni-hodiny.webzdarma.cz/spolecnosti.html",
+    "hostname": "www.slunecni-hodiny.webzdarma.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Spole�nosti zab�vaj�c� se slune�n�mi hodinami",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:50.559Z"
+  },
+  {
+    "url": "http://www.fransmaes.nl/genk/welcome-e.htm",
+    "hostname": "www.fransmaes.nl",
+    "status": 200,
+    "ok": true,
+    "title": "Sundial Park Genk (Belgium)",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni",
+      "slunecni_digi"
+    ],
+    "checkedAt": "2026-04-28T07:03:50.673Z"
+  },
+  {
+    "url": "http://www.zastarouprahu.cz/ruzne/slunecni.htm",
+    "hostname": "www.zastarouprahu.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Klub Za starou Prahu",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:50.566Z"
+  },
+  {
+    "url": "http://www.graffagnino.net/frankie/projects/propeller_clock/index.php",
+    "hostname": "www.graffagnino.net",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "propeller_clock"
+    ],
+    "checkedAt": "2026-04-28T07:03:40.824Z"
+  },
+  {
+    "url": "http://www.graffagnino.net/frankie/projects/propeller_clock/",
+    "hostname": "www.graffagnino.net",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "propeller_clock"
+    ],
+    "checkedAt": "2026-04-28T07:03:40.212Z"
+  },
+  {
+    "url": "http://www.zastarouprahu.cz/ruzne/slunecni2.htm",
+    "hostname": "www.zastarouprahu.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Klub Za starou Prahu",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:50.613Z"
+  },
+  {
+    "url": "http://www.slunecnihodiny.eu/",
+    "hostname": "www.slunecnihodiny.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Active24",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:51.296Z"
+  },
+  {
+    "url": "http://www.ens-lyon.fr/RELIE/Cadrans/",
+    "hostname": "www.ens-lyon.fr",
+    "status": 200,
+    "ok": true,
+    "title": "Les Cadrans Solaires",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:50.973Z"
+  },
+  {
+    "url": "http://www.harmony-shop.cz/digi-dum/eshop/1-1-Slunecni-hodiny/1-2-Projekcni",
+    "hostname": "www.harmony-shop.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni_digi"
+    ],
+    "checkedAt": "2026-04-28T07:03:51.440Z"
+  },
+  {
+    "url": "http://vlastafiller.sweb.cz/",
+    "hostname": "vlastafiller.sweb.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Prostor pro vlastní internetové stránky zdarma - Sweb.cz",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:51.382Z"
+  },
+  {
+    "url": "http://vlastafiller.wz.cz/",
+    "hostname": "vlastafiller.wz.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni_filler"
+    ],
+    "checkedAt": "2026-04-28T07:03:51.681Z"
+  },
+  {
+    "url": "http://astro.mff.cuni.cz/mira/sh/sh.php?rec=43630",
+    "hostname": "astro.mff.cuni.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Sluneční hodiny - chybové hlášení",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:51.383Z"
+  },
+  {
+    "url": "http://www.nmm.ac.uk/collections/explore/index.cfm/category/sundials",
+    "hostname": "www.nmm.ac.uk",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:51.381Z"
+  },
+  {
+    "url": "http://spinka.webz.cz/",
+    "hostname": "spinka.webz.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Ji�� �pinka",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "spinka"
+    ],
+    "checkedAt": "2026-04-28T07:03:52.087Z"
+  },
+  {
+    "url": "http://astro.mff.cuni.cz/mira/sh/sh.php?type=exif&img=images/0_01_01_11-KOCI-201108221032-Klementinum_Hosp_dvur_13_2.jpg&rec=20853",
+    "hostname": "astro.mff.cuni.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Sluneční hodiny - chybové hlášení",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni_filler"
+    ],
+    "checkedAt": "2026-04-28T07:03:51.725Z"
+  },
+  {
+    "url": "http://www.digitalsundial.com/product.html",
+    "hostname": "www.digitalsundial.com",
+    "status": 200,
+    "ok": true,
+    "title": "Digital Sundials International - Product information",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni_digi"
+    ],
+    "checkedAt": "2026-04-28T07:03:51.667Z"
+  },
+  {
+    "url": "http://www.hineslab.com/digital-sundial/",
+    "hostname": "www.hineslab.com",
+    "status": 200,
+    "ok": true,
+    "title": "Digital Sundial",
+    "ogTitle": "Digital Sundial",
+    "siteName": "HinesLab",
+    "error": null,
+    "articles": [
+      "slunecni_digi"
+    ],
+    "checkedAt": "2026-04-28T07:03:51.504Z"
+  },
+  {
+    "url": "http://www.polarization.com/viking/viking.html",
+    "hostname": "www.polarization.com",
+    "status": 200,
+    "ok": true,
+    "title": "Viking navigation",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni_polarizacni"
+    ],
+    "checkedAt": "2026-04-28T07:03:52.075Z"
+  },
+  {
+    "url": "http://www.facebook.com/TikTakJinak",
+    "hostname": "www.facebook.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "steampunk"
+    ],
+    "checkedAt": "2026-04-28T07:03:52.654Z"
+  },
+  {
+    "url": "http://www.wooden-clockworks.com/",
+    "hostname": "www.wooden-clockworks.com",
+    "status": 200,
+    "ok": true,
+    "title": "Wooden ClockWorks Scroll Saw Plans",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "spinka"
+    ],
+    "checkedAt": "2026-04-28T07:03:52.345Z"
+  },
+  {
+    "url": "http://www.sperky-viks.cz/hodinovesperky",
+    "hostname": "www.sperky-viks.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "steampunk"
+    ],
+    "checkedAt": "2026-04-28T07:03:53.186Z"
+  },
+  {
+    "url": "http://www.fler.cz/chochojana",
+    "hostname": "www.fler.cz",
+    "status": 200,
+    "ok": true,
+    "title": "TikŤakJinak | Fler.cz",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "steampunk"
+    ],
+    "checkedAt": "2026-04-28T07:03:52.922Z"
+  },
+  {
+    "url": "http://www.lisaboyer.com/Claytonsite/Claytonsite1.htm",
+    "hostname": "www.lisaboyer.com",
+    "status": 200,
+    "ok": true,
+    "title": "Wooden Gear Clock Plans by Clayton Boyer",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "spinka"
+    ],
+    "checkedAt": "2026-04-28T07:03:52.184Z"
+  },
+  {
+    "url": "http://www.fler.cz/blog/37556",
+    "hostname": "www.fler.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Fler BLOG",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "steampunk"
+    ],
+    "checkedAt": "2026-04-28T07:03:53.008Z"
+  },
+  {
+    "url": "http://de.wikipedia.org/wiki/Schwarzwalduhr",
+    "hostname": "de.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Uhrenproduktion im Schwarzwald – Wikipedia",
+    "ogTitle": "Uhrenproduktion im Schwarzwald – Wikipedia",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:53.362Z"
+  },
+  {
+    "url": "http://www.jockele.de/",
+    "hostname": "www.jockele.de",
+    "status": 200,
+    "ok": true,
+    "title": "Willkommen bei Otto-Max Herbstritt",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:53.473Z"
+  },
+  {
+    "url": "http://www.faller-uhren.de/",
+    "hostname": "www.faller-uhren.de",
+    "status": 200,
+    "ok": true,
+    "title": "Helga Faller | Uhrenmanufaktur | Gütenbach | Schilderuhr | Home",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:53.518Z"
+  },
+  {
+    "url": "http://www.snetzle.de/termine/dauerausstellungschwarzwalduhr.html",
+    "hostname": "www.snetzle.de",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:53.856Z"
+  },
+  {
+    "url": "http://www.deutsches-uhrenmuseum.de/",
+    "hostname": "www.deutsches-uhrenmuseum.de",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:53.725Z"
+  },
+  {
+    "url": "http://www.sankt-maergen.de/de/kultur/uhren.php?sid=&psid=&lang=de&rg=7",
+    "hostname": "www.sankt-maergen.de",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:53.917Z"
+  },
+  {
+    "url": "http://www.antique-horology.org/_Editorial/BlackForestClocks/default.htm",
+    "hostname": "www.antique-horology.org",
+    "status": 200,
+    "ok": true,
+    "title": "Black Forest Clocks, exhibition at The Museum of the Dutch clock.",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:53.704Z"
+  },
+  {
+    "url": "http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html",
+    "hostname": "www.villingen-schwenningen.de",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:53.896Z"
+  },
+  {
+    "url": "http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm",
+    "hostname": "www.dorfmuseum-guetenbach.de",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:54.033Z"
+  },
+  {
+    "url": "http://astro.mff.cuni.cz/mira/sh/sh.php",
+    "hostname": "astro.mff.cuni.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Sluneční hodiny - Úvod",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "slunecni"
+    ],
+    "checkedAt": "2026-04-28T07:03:49.282Z"
+  },
+  {
+    "url": "http://www.black-forest.org/",
+    "hostname": "www.black-forest.org",
+    "status": 200,
+    "ok": true,
+    "title": "You can be sure to own a genuine Black Forest Clock with our Certificate of Authenticity » Black Forest Clock Association",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:54.060Z"
+  },
+  {
+    "url": "http://www.antike-uhren.de/antike-schwarzwalduhren.asp",
+    "hostname": "www.antike-uhren.de",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:54.805Z"
+  },
+  {
+    "url": "http://www.schwarzwalduhr.de/",
+    "hostname": "www.schwarzwalduhr.de",
+    "status": 200,
+    "ok": true,
+    "title": "Exklusive Kuckucksuhren Unikate - Familienbetrieb seit 1868",
+    "ogTitle": "Exklusive Kuckucksuhren Unikate - Familienbetrieb seit 1868",
+    "siteName": "Christophe Herr",
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:54.609Z"
+  },
+  {
+    "url": "http://www.black-forest-clock.de/",
+    "hostname": "www.black-forest-clock.de",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:53.785Z"
+  },
+  {
+    "url": "http://www.haus-der-schwarzwalduhren.de/",
+    "hostname": "www.haus-der-schwarzwalduhren.de",
+    "status": 200,
+    "ok": true,
+    "title": "Kuckucksuhren bestellen | Große Auswahl an Schwarzwalduhren",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:54.459Z"
+  },
+  {
+    "url": "http://www.schwarzwald-uhren.de/uhren.htm",
+    "hostname": "www.schwarzwald-uhren.de",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:54.871Z"
+  },
+  {
+    "url": "http://www.uhrenhanse.de/sammlerecke/museen/schwarzwald/schwarzwald5.htm#%DCber%20die%20Schwarzwalduhr",
+    "hostname": "www.uhrenhanse.de",
+    "status": 200,
+    "ok": true,
+    "title": "UH Sammler-Ecke, Museen & Ausstellungen  Sehensw�rdigkeiten rund um die\nUhr im s�dlichen Schwarzwald 5",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.006Z"
+  },
+  {
+    "url": "http://aandam.klokkenmuseum.info/",
+    "hostname": "aandam.klokkenmuseum.info",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "svarcvaldky_stroje"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.164Z"
+  },
+  {
+    "url": "http://www.allegro.pl/",
+    "hostname": "www.allegro.pl",
+    "status": 403,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky_17stol",
+      "svarcvaldky_hraci"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.055Z"
+  },
+  {
+    "url": "http://www.gibbus.cz/",
+    "hostname": "www.gibbus.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Gibbus &mdash; sochař a umělecký kovář",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svetlonos"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.216Z"
+  },
+  {
+    "url": "http://www.sezimovousti.cz/articlepage.php?id_article=370",
+    "hostname": "www.sezimovousti.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svetlonos"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.357Z"
+  },
+  {
+    "url": "http://www.aukro.cz/",
+    "hostname": "www.aukro.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Aukro.cz - největší online bazar s aukcemi",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky_18stol"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.160Z"
+  },
+  {
+    "url": "http://astro.mff.cuni.cz/mira/sh/sh.php?rec=18315",
+    "hostname": "astro.mff.cuni.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Sluneční hodiny - chybové hlášení",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svetlonos"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.251Z"
+  },
+  {
+    "url": "http://www.steampunker.de/",
+    "hostname": "www.steampunker.de",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "steampunk"
+    ],
+    "checkedAt": "2026-04-28T07:03:53.303Z"
+  },
+  {
+    "url": "http://sechtl-vosecek.ucw.cz/cml/desky/deska1031.html",
+    "hostname": "sechtl-vosecek.ucw.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Šechtl a Voseček: Hodiny Spořitelny | foto id: desky/deska1031",
+    "ogTitle": "Šechtl a Voseček: Hodiny Spořitelny | foto id: desky/deska1031",
+    "siteName": "Šechtl a Voseček",
+    "error": null,
+    "articles": [
+      "svitici"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.676Z"
+  },
+  {
+    "url": "http://sechtl-vosecek.ucw.cz/cml/desky/deska1023.html",
+    "hostname": "sechtl-vosecek.ucw.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Šechtl a Voseček: Světelná reklama Grand hotelu | foto id: desky/deska1023",
+    "ogTitle": "Šechtl a Voseček: Světelná reklama Grand hotelu | foto id: desky/deska1023",
+    "siteName": "Šechtl a Voseček",
+    "error": null,
+    "articles": [
+      "svitici"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.728Z"
+  },
+  {
+    "url": "http://uhrendoktor.at/Verkauf/Schwarzwalduhren/schwarzwalduhren.htm",
+    "hostname": "uhrendoktor.at",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.003Z"
+  },
+  {
+    "url": "http://www.praha.eu/jnp/cz/extra/metamorfozy/orloj/index.html",
+    "hostname": "www.praha.eu",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svitici"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.633Z"
+  },
+  {
+    "url": "https://home.zcu.cz/~poupa/oma50.html",
+    "hostname": "home.zcu.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Martin Poupa - Vše o času - OMA 50",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.881Z"
+  },
+  {
+    "url": "http://home.zcu.cz/~poupa/pccas.html",
+    "hostname": "home.zcu.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Martin Poupa - Vše o času",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.963Z"
+  },
+  {
+    "url": "http://cs.wikipedia.org/wiki/Big_Ben",
+    "hostname": "cs.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Big Ben – Wikipedie",
+    "ogTitle": "Big Ben – Wikipedie",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svitici"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.632Z"
+  },
+  {
+    "url": "https://cs.wikipedia.org/wiki/Vys%C3%ADla%C4%8D_OMA",
+    "hostname": "cs.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Vysílač OMA – Wikipedie",
+    "ogTitle": "Vysílač OMA – Wikipedie",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:56.044Z"
+  },
+  {
+    "url": "https://mobatime.cz/",
+    "hostname": "mobatime.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Zařízení pro zobrazování času, průmyslové hodiny, docházkové systémy a řešení časoměrných zařízení na míru MOBATIME",
+    "ogTitle": "Zařízení pro zobrazování času, průmyslové hodiny, docházkové systémy a řešení časoměrných zařízení na míru MOBATIME",
+    "siteName": "MOBATIME",
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.849Z"
+  },
+  {
+    "url": "http://www.fccps.cz/default.asp?inc=inc/DCF77.htm",
+    "hostname": "www.fccps.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:56.286Z"
+  },
+  {
+    "url": "http://www.meinbergglobal.com/english/sw/ntp.htm",
+    "hostname": "www.meinbergglobal.com",
+    "status": 200,
+    "ok": true,
+    "title": "Meinberg NTP Software Downloads",
+    "ogTitle": "Meinberg NTP Software Downloads",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:56.210Z"
+  },
+  {
+    "url": "https://www.wikiwand.com/cs/Vys%C3%ADla%C4%8D_OMA",
+    "hostname": "www.wikiwand.com",
+    "status": 200,
+    "ok": true,
+    "title": "Vysílač OMA - Wikiwand",
+    "ogTitle": "Vysílač OMA - Wikiwand",
+    "siteName": "Wikiwand",
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:56.011Z"
+  },
+  {
+    "url": "https://www.parabola.cz/clanky/1899/digitalni-vysilani-je-uvadeny-cas-skutecne-presny/",
+    "hostname": "www.parabola.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Digit�ln� vys�l�n�: Je uv�d�n� �as skute�n� p�esn�? - Parabola.cz",
+    "ogTitle": "Digit�ln� vys�l�n�: Je uv�d�n� �as skute�n� p�esn�?",
+    "siteName": "Parabola.cz",
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:56.729Z"
+  },
+  {
+    "url": "https://www.parabola.cz/clanky/1914/digit-vysilani-je-uvadeny-cas-skutecne-presny-2/",
+    "hostname": "www.parabola.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Digit. vys�l�n�: Je uv�d�n� �as skute�n� p�esn�? (2.) - Parabola.cz",
+    "ogTitle": "Digit. vys�l�n�: Je uv�d�n� �as skute�n� p�esn�? (2.)",
+    "siteName": "Parabola.cz",
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:56.973Z"
+  },
+  {
+    "url": "http://www.elektrocas.cz/",
+    "hostname": "www.elektrocas.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Zařízení pro zobrazování času, průmyslové hodiny, docházkové systémy a řešení časoměrných zařízení na míru MOBATIME",
+    "ogTitle": "Zařízení pro zobrazování času, průmyslové hodiny, docházkové systémy a řešení časoměrných zařízení na míru MOBATIME",
+    "siteName": "MOBATIME",
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.773Z"
+  },
+  {
+    "url": "http://piknymburk.cz/hodiny.html",
+    "hostname": "piknymburk.cz",
+    "status": 200,
+    "ok": true,
+    "title": "PIK s.r.o. Zařízení pro testování a formování Aku-článků",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:57.112Z"
+  },
+  {
+    "url": "http://piknymburk.cz/histhod.html",
+    "hostname": "piknymburk.cz",
+    "status": 200,
+    "ok": true,
+    "title": "PIK s.r.o. Zařízení pro testování a formování Aku-článků",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:57.173Z"
+  },
+  {
+    "url": "https://www.ntp-zeit.de/images/stratum-levels.jpg",
+    "hostname": "www.ntp-zeit.de",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:57.214Z"
+  },
+  {
+    "url": "https://cs.qwe.wiki/wiki/Radio_clock",
+    "hostname": "cs.qwe.wiki",
+    "status": 200,
+    "ok": true,
+    "title": "Rádiové hodiny - Radio clock - abcdef.wiki",
+    "ogTitle": "Radio clock - Wikipedia",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:56.381Z"
+  },
+  {
+    "url": "https://cs.qwe.wiki/wiki/DCF77",
+    "hostname": "cs.qwe.wiki",
+    "status": 200,
+    "ok": true,
+    "title": "DCF77 - DCF77 - abcdef.wiki",
+    "ogTitle": "DCF77 - Wikipedia",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:56.378Z"
+  },
+  {
+    "url": "http://www.ntp.org/",
+    "hostname": "www.ntp.org",
+    "status": 200,
+    "ok": true,
+    "title": "Welcome to the home of the Network Time Protocol (NTP) Project.",
+    "ogTitle": "Welcome to the home of the Network Time Protocol (NTP) Project.",
+    "siteName": "NTP: Network Time Protocol",
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:57.294Z"
+  },
+  {
+    "url": "http://is.muni.cz/th/143076/fi_m/thesis.pdf",
+    "hostname": "is.muni.cz",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:58.109Z"
+  },
+  {
+    "url": "https://radiozurnal.rozhlas.cz/casova-znameni-10-dil-ceska-republika-6303408",
+    "hostname": "radiozurnal.rozhlas.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Časová znamení  10. díl, Česká republika | Radiožurnál",
+    "ogTitle": "Časová znamení  10. díl, Česká republika",
+    "siteName": "Radiožurnál",
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:57.418Z"
+  },
+  {
+    "url": "http://www.eecis.udel.edu/%7Emills/ntp/html/index.html",
+    "hostname": "www.eecis.udel.edu",
+    "status": 200,
+    "ok": true,
+    "title": "The Network Time Protocol (NTP) Distribution",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:57.407Z"
+  },
+  {
+    "url": "http://www.schwarzwalduhren.com/",
+    "hostname": "www.schwarzwalduhren.com",
+    "status": 200,
+    "ok": true,
+    "title": "Josef Noe Schwarzwalduhren",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "svarcvaldky"
+    ],
+    "checkedAt": "2026-04-28T07:03:54.194Z"
+  },
+  {
+    "url": "http://www.vaelektronik.cz/",
+    "hostname": "www.vaelektronik.cz",
+    "status": 200,
+    "ok": true,
+    "title": "dcf http://www.vaelektronik.cz",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:59.400Z"
+  },
+  {
+    "url": "http://www.lupa.cz/clanky/ntp-filozofie-synchronizace-casu-po-internetu/",
+    "hostname": "www.lupa.cz",
+    "status": 200,
+    "ok": true,
+    "title": "NTP: Filozofie synchronizace času po Internetu - Lupa.cz",
+    "ogTitle": "NTP: Filozofie synchronizace času po Internetu - Lupa.cz",
+    "siteName": "Lupa.cz",
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:59.375Z"
+  },
+  {
+    "url": "http://www.massive.cz/",
+    "hostname": "www.massive.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "svitici"
+    ],
+    "checkedAt": "2026-04-28T07:03:55.422Z"
+  },
+  {
+    "url": "https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tabor-krov-jan-zizka-600-let.A200821_123202_imp-jihocesky_kov/",
+    "hostname": "www.impuls.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Unik&#225;tn&#237; krov i gotick&#253; s&#225;l. Radnice star&#225; p&#345;es 550 let z&#225;&#345;&#237; novotou - regiony.impuls.cz",
+    "ogTitle": "Unik&#225;tn&#237; krov i gotick&#253; s&#225;l. Radnice star&#225; p&#345;es 550 let z&#225;&#345;&#237; novotou - regiony.impuls.cz",
+    "siteName": "iRegiony - R�dio Impuls",
+    "error": null,
+    "articles": [
+      "tabor"
+    ],
+    "checkedAt": "2026-04-28T07:04:00.417Z"
+  },
+  {
+    "url": "http://osel.cz/index.php?clanek=1458",
+    "hostname": "osel.cz",
+    "status": 200,
+    "ok": true,
+    "title": ":: OSEL.CZ ::  - 300 let starý objev umožní rychlou komunikace ve vesmíru",
+    "ogTitle": "300 let starý objev umožní rychlou komunikace ve vesmíru",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:58.622Z"
+  },
+  {
+    "url": "https://sechtl-vosecek.ucw.cz/cml/dir/square_west.html",
+    "hostname": "sechtl-vosecek.ucw.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Šechtl a Voseček: foto kategorie Západní strana Náměstí",
+    "ogTitle": "Šechtl a Voseček: foto kategorie Západní strana Náměstí",
+    "siteName": "Šechtl a Voseček",
+    "error": null,
+    "articles": [
+      "tabor"
+    ],
+    "checkedAt": "2026-04-28T07:04:01.515Z"
+  },
+  {
+    "url": "http://sechtl-vosecek.ucw.cz/cml/dir/index.html",
+    "hostname": "sechtl-vosecek.ucw.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Šechtl a Voseček: Digitální archiv (fotobanka)",
+    "ogTitle": "Šechtl a Voseček: Digitální archiv (fotobanka)",
+    "siteName": "Šechtl a Voseček",
+    "error": null,
+    "articles": [
+      "tabor"
+    ],
+    "checkedAt": "2026-04-28T07:04:01.607Z"
+  },
+  {
+    "url": "https://www.taborcz.eu/obnova-stare-radnice-prispeje-k-oslavam-zalozeni-mesta/d-66966",
+    "hostname": "www.taborcz.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Obnova Staré radnice přispěje k oslavám založení města: Město Tábor - oficiální webové stránky",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "tabor"
+    ],
+    "checkedAt": "2026-04-28T07:04:00.608Z"
+  },
+  {
+    "url": "http://www.techeblog.com/index.php/tech-gadget/webtime-series-elite-watch",
+    "hostname": "www.techeblog.com",
+    "status": 200,
+    "ok": true,
+    "title": "WebTime Series Elite Watch - TechEBlog",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "ukazatele"
+    ],
+    "checkedAt": "2026-04-28T07:04:01.657Z"
+  },
+  {
+    "url": "http://www.husitskemuzeum.cz/zizkovo-namesti-v-promenach-casu-i/",
+    "hostname": "www.husitskemuzeum.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Husitské muzeum v Táboře - Nejen o husitství&#8230; | Žižkovo náměstí v proměnách času I",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "tabor"
+    ],
+    "checkedAt": "2026-04-28T07:03:59.857Z"
+  },
+  {
+    "url": "http://www.lhainz.cz/",
+    "hostname": "www.lhainz.cz",
+    "status": 200,
+    "ok": true,
+    "title": "LHAINZ - Vyrábíme a rekonstruujeme věžní hodiny",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vez_elektrocas1959"
+    ],
+    "checkedAt": "2026-04-28T07:04:03.221Z"
+  },
+  {
+    "url": "http://www.my-time-machines.net/index.htm",
+    "hostname": "www.my-time-machines.net",
+    "status": 200,
+    "ok": true,
+    "title": "MY-TIME-MACHINES",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vez_elektrocas1959"
+    ],
+    "checkedAt": "2026-04-28T07:04:04.211Z"
+  },
+  {
+    "url": "http://www.sobeslav.xf.cz/index.php?pg=main",
+    "hostname": "www.sobeslav.xf.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vez_provoz2011",
+      "vezni_muzejicko"
+    ],
+    "checkedAt": "2026-04-28T07:04:04.651Z"
+  },
+  {
+    "url": "http://www.u-spirku.cz/",
+    "hostname": "www.u-spirku.cz",
+    "status": 200,
+    "ok": true,
+    "title": "restauraceuspirku.cz &#8211; Tradicni ceska restaurace",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "uspirku"
+    ],
+    "checkedAt": "2026-04-28T07:04:02.060Z"
+  },
+  {
+    "url": "http://www.orloj.eu/cs/orloj_chronometr.htm",
+    "hostname": "www.orloj.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Pra�sk� orloj - Prague Astronomical Clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vez_elektrocas1959",
+      "zmizele"
+    ],
+    "checkedAt": "2026-04-28T07:04:03.549Z"
+  },
+  {
+    "url": "https://taborsky.denik.cz/zpravy_region/hodinovy-stroj-z-kostelni-veze-ozdobil-radnici.html",
+    "hostname": "taborsky.denik.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Hodinový stroj  z kostelní  věže  ozdobil  radnici - Táborský deník",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "tabor"
+    ],
+    "checkedAt": "2026-04-28T07:03:59.522Z"
+  },
+  {
+    "url": "https://www.samotisky.cz/assets/File.ashx?id_org=14603&id_dokumenty=1005",
+    "hostname": "www.samotisky.cz",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni2021"
+    ],
+    "checkedAt": "2026-04-28T07:04:05.091Z"
+  },
+  {
+    "url": "http://www.zamekbrandlin.cz/",
+    "hostname": "www.zamekbrandlin.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Zámek Brandlín | svatby,  firemní akce, historie",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vez_provoz2011"
+    ],
+    "checkedAt": "2026-04-28T07:04:04.753Z"
+  },
+  {
+    "url": "http://www.istudio.cz/sobeslav/index.html",
+    "hostname": "www.istudio.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Město Soběslav - Virtuální prohlídka",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko"
+    ],
+    "checkedAt": "2026-04-28T07:04:05.862Z"
+  },
+  {
+    "url": "http://www.zvonarstvi-votruba.cz/",
+    "hostname": "www.zvonarstvi-votruba.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Zvona�stv� Votruba",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko"
+    ],
+    "checkedAt": "2026-04-28T07:04:05.980Z"
+  },
+  {
+    "url": "http://www.orloj.eu/cs/mistr_hanus.htm",
+    "hostname": "www.orloj.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Pra�sk� orloj - Prague Astronomical Clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vez_provoz2011",
+      "vez_signatury"
+    ],
+    "checkedAt": "2026-04-28T07:04:04.718Z"
+  },
+  {
+    "url": "http://www.rozhlas.cz/iradio/praha",
+    "hostname": "www.rozhlas.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko"
+    ],
+    "checkedAt": "2026-04-28T07:04:06.073Z"
+  },
+  {
+    "url": "http://www.husitskemuzeum.cz/view.php?nazevclanku=vystava-%E2%80%9Esobeslav-%E2%80%93-mesto-petiliste-ruze%E2%80%9C-v-sobeslavi&cisloclanku=2011060008",
+    "hostname": "www.husitskemuzeum.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vez_provoz2011"
+    ],
+    "checkedAt": "2026-04-28T07:04:04.721Z"
+  },
+  {
+    "url": "http://lx.ujf.cas.cz/time/pctime-cz.html",
+    "hostname": "lx.ujf.cas.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:57.192Z"
+  },
+  {
+    "url": "https://www.facebook.com/watch/?v=584102629482123",
+    "hostname": "www.facebook.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": "A takhle funguj&#xed;... | Hodin&#xe1;rium &#x10c;esk&#xfd; spolek horologick&#xfd;",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni2021"
+    ],
+    "checkedAt": "2026-04-28T07:04:05.685Z"
+  },
+  {
+    "url": "http://www.waldmuenchen.de/turm_etagen.html",
+    "hostname": "www.waldmuenchen.de",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko",
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:07.385Z"
+  },
+  {
+    "url": "http://www.mindelheim.de/museen/mindelheimer-museen",
+    "hostname": "www.mindelheim.de",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko"
+    ],
+    "checkedAt": "2026-04-28T07:04:06.375Z"
+  },
+  {
+    "url": "http://www.waldmuenchen.de/turm_geschichte.html",
+    "hostname": "www.waldmuenchen.de",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko"
+    ],
+    "checkedAt": "2026-04-28T07:04:07.689Z"
+  },
+  {
+    "url": "http://www.mhmg.gda.pl/oddzial/3/muzeum-zegarow-wiezowych",
+    "hostname": "www.mhmg.gda.pl",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "vezni_muzejicko"
+    ],
+    "checkedAt": "2026-04-28T07:04:07.696Z"
+  },
+  {
+    "url": "http://www.bockenem.de/tourismus/museum-der-zeit.html",
+    "hostname": "www.bockenem.de",
+    "status": 200,
+    "ok": true,
+    "title": "Museum der Zeit: Stadt Bockenem",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko",
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:07.867Z"
+  },
+  {
+    "url": "http://www.trebinotowerclockmakers.com/museo-orologi",
+    "hostname": "www.trebinotowerclockmakers.com",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "vezni_muzejicko",
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:08.148Z"
+  },
+  {
+    "url": "http://commons.wikimedia.org/wiki/Category:Turmuhrenmuseum_Bockenem",
+    "hostname": "commons.wikimedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Category:Turmuhrenmuseum Bockenem - Wikimedia Commons",
+    "ogTitle": "Category:Turmuhrenmuseum Bockenem - Wikimedia Commons",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko"
+    ],
+    "checkedAt": "2026-04-28T07:04:07.934Z"
+  },
+  {
+    "url": "http://www.mindelheim.de/sites/default/files/mn_turmuhrenmuseum_broschuere_2013.pdf",
+    "hostname": "www.mindelheim.de",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko"
+    ],
+    "checkedAt": "2026-04-28T07:04:07.280Z"
+  },
+  {
+    "url": "http://olomouc.idnes.cz/litovelska-radnicni-vez-nabizi-krome-vyhledu-i-komurku-hlasneho-pxr-/olomouc-zpravy.aspx?c=A120514_1777773_olomouc-zpravy_sot",
+    "hostname": "olomouc.idnes.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Litovelsk&#225; radni&#269;n&#237; v&#283;&#382; nab&#237;z&#237; mimo v&#253;hledu i pozn&#225;n&#237; kom&#367;rky hl&#225;sn&#233;ho - iDNES.cz",
+    "ogTitle": "Litovelsk&#225; radni&#269;n&#237; v&#283;&#382; nab&#237;z&#237; mimo v&#253;hledu i pozn&#225;n&#237; kom&#367;rky hl&#225;sn&#233;ho - iDNES.cz",
+    "siteName": "iDNES.cz",
+    "error": null,
+    "articles": [
+      "vezni_muzejicko"
+    ],
+    "checkedAt": "2026-04-28T07:04:08.560Z"
+  },
+  {
+    "url": "http://de.wikipedia.org/wiki/J._F._Weule",
+    "hostname": "de.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "J. F. Weule – Wikipedia",
+    "ogTitle": "J. F. Weule – Wikipedia",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko"
+    ],
+    "checkedAt": "2026-04-28T07:04:07.972Z"
+  },
+  {
+    "url": "http://ntm.cz/expozice/mereni-casu",
+    "hostname": "ntm.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:08.964Z"
+  },
+  {
+    "url": "http://theclockworks.org/",
+    "hostname": "theclockworks.org",
+    "status": 200,
+    "ok": true,
+    "title": "The Clockworks &#8211; Museum | Workshop | Library",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko"
+    ],
+    "checkedAt": "2026-04-28T07:04:08.599Z"
+  },
+  {
+    "url": "http://www.muzeum-polna.cz/inpage/prohlidkove-trasy-770/",
+    "hostname": "www.muzeum-polna.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:09.599Z"
+  },
+  {
+    "url": "http://zamekbrandlin.cz/",
+    "hostname": "zamekbrandlin.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Zámek Brandlín | svatby,  firemní akce, historie",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:09.718Z"
+  },
+  {
+    "url": "http://dml.cz/bitstream/handle/10338.dmlcz/138777/PokrokyMFA_25-1980-3_4.pdf",
+    "hostname": "dml.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "timeout",
+    "articles": [
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:58.412Z"
+  },
+  {
+    "url": "http://www.trebino.it/Objects/Pagina.asp?ID=5&T=Museo%20orologi",
+    "hostname": "www.trebino.it",
+    "status": 200,
+    "ok": true,
+    "title": "Museo dell'orologio da torre | Uscio, Genova | Trebino Roberto",
+    "ogTitle": "Museo dell&#039;orologio da torre | Uscio, Genova | Trebino Roberto",
+    "siteName": "Trebino | Orologi da torre e campane",
+    "error": null,
+    "articles": [
+      "vezni_muzejicko"
+    ],
+    "checkedAt": "2026-04-28T07:04:08.163Z"
+  },
+  {
+    "url": "http://www.my-time-machines.net/",
+    "hostname": "www.my-time-machines.net",
+    "status": 200,
+    "ok": true,
+    "title": "MY-TIME-MACHINES",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:10.418Z"
+  },
+  {
+    "url": "http://www.nm.cz/Historicke-muzeum/Expozice-HM/Ceske-zvonarstvi.html",
+    "hostname": "www.nm.cz",
+    "status": 200,
+    "ok": true,
+    "title": "České zvonařství - Národní muzeum",
+    "ogTitle": "České zvonařství - Národní muzeum",
+    "siteName": "Národní muzeum",
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:09.470Z"
+  },
+  {
+    "url": "http://www.jindrisskavez.cz/",
+    "hostname": "www.jindrisskavez.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:10.912Z"
+  },
+  {
+    "url": "http://www.uhrenmuseum.at/",
+    "hostname": "www.uhrenmuseum.at",
+    "status": 200,
+    "ok": true,
+    "title": "Karlstein an der Thaya - GEM2GO WEB - Startseite - Uhrenmuseum",
+    "ogTitle": "Karlstein an der Thaya",
+    "siteName": "Karlstein an der Thaya",
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:10.075Z"
+  },
+  {
+    "url": "http://esbirky.cz/",
+    "hostname": "esbirky.cz",
+    "status": 200,
+    "ok": true,
+    "title": "eSbirky.cz",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:10.906Z"
+  },
+  {
+    "url": "http://www.youtube.com/watch?v=NtGAeJH4DdY",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:10.414Z"
+  },
+  {
+    "url": "http://www.muzeum-tyniste.cz/",
+    "hostname": "www.muzeum-tyniste.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Úvodní stránka",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:11.201Z"
+  },
+  {
+    "url": "https://www.warendorf.de/bildung-kultur/museen-in-warendorf/turmmuseum.html",
+    "hostname": "www.warendorf.de",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:11.486Z"
+  },
+  {
+    "url": "http://www.technicalmuseum.cz/",
+    "hostname": "www.technicalmuseum.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Úvodní stránka - Technické muzeum v Brně",
+    "ogTitle": "Úvodní stránka - Technické muzeum v Brně",
+    "siteName": "Technické muzeum v Brně",
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:08.968Z"
+  },
+  {
+    "url": "http://www.mojeurlopy.pl/gdansk/atrakcje-turystyczne/1906",
+    "hostname": "www.mojeurlopy.pl",
+    "status": 200,
+    "ok": true,
+    "title": "Muzeum Zegarów Wieżowych - Gdańsk, Wielkie Młyny",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:11.671Z"
+  },
+  {
+    "url": "http://www.orloj.eu/cs/prostejov.htm",
+    "hostname": "www.orloj.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Pra�sk� orloj - Prague Astronomical Clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:11.003Z"
+  },
+  {
+    "url": "http://manager.money.pl/galerie/ponowne-otwarcie-muzeum-zegarow-wiezowych-g560057.html",
+    "hostname": "manager.money.pl",
+    "status": 449,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:12.012Z"
+  },
+  {
+    "url": "https://pl.wikipedia.org/wiki/Muzeum_Zegar%C3%B3w_Wie%C5%BCowych",
+    "hostname": "pl.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Muzeum Zegarów Wieżowych – Wikipedia, wolna encyklopedia",
+    "ogTitle": "Muzeum Zegarów Wieżowych – Wikipedia, wolna encyklopedia",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:11.995Z"
+  },
+  {
+    "url": "https://www.weinviertel.at/ausflug-und-freizeit/a-pfarrkirche-st-martin-u-turmmuseum-pillichsdorf",
+    "hostname": "www.weinviertel.at",
+    "status": 200,
+    "ok": true,
+    "title": "Pfarrkirche St. Martin u. Turmmuseum Pillichsdorf | Weinviertel",
+    "ogTitle": "Pfarrkirche St. Martin u. Turmmuseum Pillichsdorf",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:11.605Z"
+  },
+  {
+    "url": "http://www.hibrno.cz/",
+    "hostname": "www.hibrno.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Web HI BRNO - hibrno.cz",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vlachynsky"
+    ],
+    "checkedAt": "2026-04-28T07:04:13.198Z"
+  },
+  {
+    "url": "http://www.uhrenstube-aschau.at/",
+    "hostname": "www.uhrenstube-aschau.at",
+    "status": 200,
+    "ok": true,
+    "title": "Uhrenstube Aschau, 7432 Oberschützen, Aschau 49 &#8211; Museum für Uhren und Bratenwender",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:12.210Z"
+  },
+  {
+    "url": "http://www.uhrenmuseum-chemnitz.de/",
+    "hostname": "www.uhrenmuseum-chemnitz.de",
+    "status": 200,
+    "ok": true,
+    "title": "Startseite - www.Uhrenmuseum Chemnitz e.V.",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:12.160Z"
+  },
+  {
+    "url": "http://www.atelier90.cz/",
+    "hostname": "www.atelier90.cz",
+    "status": 200,
+    "ok": true,
+    "title": "A90 &ndash; hlavní strana",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vlachynsky",
+      "vodni"
+    ],
+    "checkedAt": "2026-04-28T07:04:13.298Z"
+  },
+  {
+    "url": "https://trojmiasto.tv/Muzeum-Zegarow-Wiezowych-5893.html",
+    "hostname": "trojmiasto.tv",
+    "status": 200,
+    "ok": true,
+    "title": "Muzeum Zegarów Wieżowych - Wideo - Trojmiasto.pl",
+    "ogTitle": "Muzeum Zegarów Wieżowych",
+    "siteName": "www.trojmiasto.pl",
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:11.713Z"
+  },
+  {
+    "url": "http://perso.orange.fr/cadrans.solaires/cadrans/Cadran-clepsydre.html",
+    "hostname": "perso.orange.fr",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "vodni_B_Gitton",
+      "vodni_odkazy"
+    ],
+    "checkedAt": "2026-04-28T07:04:13.854Z"
+  },
+  {
+    "url": "http://en.wikipedia.org/wiki/Water_clock",
+    "hostname": "en.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Water clock - Wikipedia",
+    "ogTitle": "Water clock - Wikipedia",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vodni_B_Gitton",
+      "vodni_odkazy"
+    ],
+    "checkedAt": "2026-04-28T07:04:13.857Z"
+  },
+  {
+    "url": "http://www.jamesmcadam.co.uk/",
+    "hostname": "www.jamesmcadam.co.uk",
+    "status": 200,
+    "ok": true,
+    "title": "",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vodni_budik"
+    ],
+    "checkedAt": "2026-04-28T07:04:14.630Z"
+  },
+  {
+    "url": "http://jita.czweb.org/cokdyz/android.starovek.htm",
+    "hostname": "jita.czweb.org",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vodni_odkazy"
+    ],
+    "checkedAt": "2026-04-28T07:04:14.919Z"
+  },
+  {
+    "url": "http://kdf.mff.cuni.cz/veletrh/sbornik/Veletrh_05/05_26_Patc.html",
+    "hostname": "kdf.mff.cuni.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "vodni_odkazy"
+    ],
+    "checkedAt": "2026-04-28T07:04:14.978Z"
+  },
+  {
+    "url": "http://kdf.mff.cuni.cz/veletrh/sbornik/Veletrh_06/06_08_Hotova.html",
+    "hostname": "kdf.mff.cuni.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "vodni_odkazy"
+    ],
+    "checkedAt": "2026-04-28T07:04:15.057Z"
+  },
+  {
+    "url": "https://www.youtube.com/results?search_query=water+clock",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "vodni_odkazy"
+    ],
+    "checkedAt": "2026-04-28T07:04:15.117Z"
+  },
+  {
+    "url": "https://f-k-turmuhren.de/museen",
+    "hostname": "f-k-turmuhren.de",
+    "status": 200,
+    "ok": true,
+    "title": "Turmuhrenmuseen - Fachkreis Turmuhren in der Deutschen Gesellschaft für Chronometrie e.V.",
+    "ogTitle": "Turmuhrenmuseen - Fachkreis Turmuhren in der Deutschen Gesellschaft für Chronometrie e.V.",
+    "siteName": "Fachkreis Turmuhren in der Deutschen Gesellschaft für Chronometrie e.V.",
+    "error": null,
+    "articles": [
+      "vezni_muzejicko_evropa"
+    ],
+    "checkedAt": "2026-04-28T07:04:12.273Z"
+  },
+  {
+    "url": "http://media.rozhlas.cz/_audio/2409342.mp3",
+    "hostname": "media.rozhlas.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "vezni_muzejicko"
+    ],
+    "checkedAt": "2026-04-28T07:04:06.081Z"
+  },
+  {
+    "url": "http://www.youtube.com/results?search_query=roling+ball+clock&search_type=",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:04:16.321Z"
+  },
+  {
+    "url": "http://www.youtube.com/results?search_query=wooden+clock&search_type=%C2%A0",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:04:16.244Z"
+  },
+  {
+    "url": "http://www.youtube.com/results?search_query=propeller+clock&search_type=",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:04:16.390Z"
+  },
+  {
+    "url": "http://www.youtube.com/results?search_query=Water+Gun+Alarm+Clock&search_type=",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:04:17.467Z"
+  },
+  {
+    "url": "http://www.youtube.com/watch?v=y0qdQuJmQa4&feature=related",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:04:17.619Z"
+  },
+  {
+    "url": "http://www.youtube.com/watch?v=pQOossf32OE&feature=related",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:04:17.635Z"
+  },
+  {
+    "url": "http://www.youtube.com/watch?v=f4jzrlnUmwM&feature=related",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:04:18.692Z"
+  },
+  {
+    "url": "http://www.youtube.com/watch?v=KmCxB_LdsBE&feature=related",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:04:18.689Z"
+  },
+  {
+    "url": "http://www.youtube.com/results?search_query=tourbillon&search_type=",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:04:18.910Z"
+  },
+  {
+    "url": "http://www.youtube.com/results?search_query=lego+escapement&search_type=",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:04:19.787Z"
+  },
+  {
+    "url": "http://www.youtube.com/results?search_query=Escapement&search_type=",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:04:19.771Z"
+  },
+  {
+    "url": "http://www.youtube.com/results?search_query=water+clock&search_type=",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:04:20.095Z"
+  },
+  {
+    "url": "http://www.youtube.com/results?search_query=Patek+Philippe&search_type=",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:04:20.823Z"
+  },
+  {
+    "url": "http://www.doricakova.cz/",
+    "hostname": "www.doricakova.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "zapekane"
+    ],
+    "checkedAt": "2026-04-28T07:04:22.085Z"
+  },
+  {
+    "url": "http://www.youtube.com/watch?v=IO25JYZIKPI",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:04:20.892Z"
+  },
+  {
+    "url": "http://mapy.cz/s/kcyO",
+    "hostname": "mapy.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "zidovske"
+    ],
+    "checkedAt": "2026-04-28T07:04:22.112Z"
+  },
+  {
+    "url": "http://www.firmy.cz/detail/1949348-stanislav-marusak-foto-roztoky.html",
+    "hostname": "www.firmy.cz",
+    "status": 410,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "zidovske"
+    ],
+    "checkedAt": "2026-04-28T07:04:22.225Z"
+  },
+  {
+    "url": "http://www.youtube.com/watch?v=QMX1syA6R84&NR=1",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "youtube"
+    ],
+    "checkedAt": "2026-04-28T07:04:21.202Z"
+  },
+  {
+    "url": "http://vlastafiller.sweb.cz/v003r.html",
+    "hostname": "vlastafiller.sweb.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "zidovske"
+    ],
+    "checkedAt": "2026-04-28T07:04:22.370Z"
+  },
+  {
+    "url": "http://www.veznihodiny.cz/ukaz4.htm",
+    "hostname": "www.veznihodiny.cz",
+    "status": 200,
+    "ok": true,
+    "title": "V�n� hodiny",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "zidovske"
+    ],
+    "checkedAt": "2026-04-28T07:04:22.577Z"
+  },
+  {
+    "url": "http://sk.wikipedia.org/wiki/Hebrejsk%C3%A1_abeceda",
+    "hostname": "sk.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Hebrejské písmo – Wikipédia",
+    "ogTitle": "Hebrejské písmo – Wikipédia",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "zidovske"
+    ],
+    "checkedAt": "2026-04-28T07:04:22.182Z"
+  },
+  {
+    "url": "http://www.veznihodiny.cz/pracnapln.htm",
+    "hostname": "www.veznihodiny.cz",
+    "status": 200,
+    "ok": true,
+    "title": "V�n� hodiny",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "zmizele"
+    ],
+    "checkedAt": "2026-04-28T07:04:22.759Z"
+  },
+  {
+    "url": "http://www.ceskasibir.cz/dok/d328.php",
+    "hostname": "www.ceskasibir.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Muzeum �esk� Sibi�e, �en�k Habart: Votick� orloj",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "zmizele"
+    ],
+    "checkedAt": "2026-04-28T07:04:22.630Z"
+  },
+  {
+    "url": "http://www.zvonarstvi-votruba.cz/kontakt.html",
+    "hostname": "www.zvonarstvi-votruba.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Zvona�stv� Votruba",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "kontakt"
+    ],
+    "checkedAt": "2026-04-28T07:04:22.939Z"
+  },
+  {
+    "url": "http://zvony-votruba.webnode.cz/",
+    "hostname": "zvony-votruba.webnode.cz",
+    "status": 200,
+    "ok": true,
+    "title": "církevní zvony",
+    "ogTitle": "církevní zvony",
+    "siteName": "Zvony-votruba",
+    "error": null,
+    "articles": [
+      "zvon_petr_vok",
+      "zvony_uvod"
+    ],
+    "checkedAt": "2026-04-28T07:04:22.814Z"
+  },
+  {
+    "url": "http://aplikace.mvcr.cz/rady/sdruzeni/sdruz144.html",
+    "hostname": "aplikace.mvcr.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "spolek"
+    ],
+    "checkedAt": "2026-04-28T07:04:23.257Z"
+  },
+  {
+    "url": "https://ib.fio.cz/ib/transparent?a=2801617704",
+    "hostname": "ib.fio.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Internetové bankovnictví | Fio banka",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "spolek"
+    ],
+    "checkedAt": "2026-04-28T07:04:23.429Z"
+  },
+  {
+    "url": "http://proxy.hodinarium2.eu/chrony2.php",
+    "hostname": "proxy.hodinarium2.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Chrony – stav synchronizace",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "novinky"
+    ],
+    "checkedAt": "2026-04-28T07:04:23.001Z"
+  },
+  {
+    "url": "http://www.bernard-gitton.com/cadre_horloge.htm",
+    "hostname": "www.bernard-gitton.com",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "vodni_B_Gitton"
+    ],
+    "checkedAt": "2026-04-28T07:04:13.393Z"
+  },
+  {
+    "url": "https://or.justice.cz/ias/ui/vypis-sl-detail?dokument=42887580&subjektId=794447&spis=439453",
+    "hostname": "or.justice.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Veřejný rejstřík a Sbírka listin - Ministerstvo spravedlnosti České republiky",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "stanovy"
+    ],
+    "checkedAt": "2026-04-28T07:04:23.582Z"
+  },
+  {
+    "url": "https://www.google.com/maps/@50.0900894,14.4183905,3a,33.9y,155.76h,129.84t/data=%213m6%211e1%213m4%211sKmCS8Nq_pn0tjnhLiHW6Uw%212e0%217i13312%218i6656",
+    "hostname": "www.google.com",
+    "status": 200,
+    "ok": true,
+    "title": "Mapy Google",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "zidovske"
+    ],
+    "checkedAt": "2026-04-28T07:04:22.421Z"
+  },
+  {
+    "url": "http://www.marcdatabase.com/%7Elemur/dm-gitton-indianapolis.html",
+    "hostname": "www.marcdatabase.com",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "timeout",
+    "articles": [
+      "vodni_B_Gitton"
+    ],
+    "checkedAt": "2026-04-28T07:04:13.371Z"
+  },
+  {
+    "url": "http://www.marcdatabase.com/%7Elemur/dm-gitton.html",
+    "hostname": "www.marcdatabase.com",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "timeout",
+    "articles": [
+      "vodni_B_Gitton",
+      "vodni_odkazy"
+    ],
+    "checkedAt": "2026-04-28T07:04:13.502Z"
   }
 ]
