@@ -1,0 +1,38 @@
+name: ✨ Návrh úpravy / nová funkce
+description: Něco doplnit, vylepšit, přepracovat.
+title: "[návrh] "
+labels: ["enhancement", "status:triage"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Co navrhuješ
+      description: Stručně, jednou až dvěma větami.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Proč to dává smysl
+      description: Jakou potřebu to řeší? Pro koho?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: site
+    attributes:
+      label: Kterého webu se týká
+      options:
+        - hodinarium-eu (hodinarium.eu)
+        - horologie-cz (horologie.cz)
+        - obou
+        - infrastruktura / nástroje
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Doplňující kontext
+      description: Reference, mockup, screenshot, příklady z jiných webů…

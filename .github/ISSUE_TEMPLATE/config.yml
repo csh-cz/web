@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📧 Kontakt e-mailem
+    url: mailto:info@orloj.eu
+    about: Pokud nechceš zakládat veřejné Issue, napiš nám rovnou.

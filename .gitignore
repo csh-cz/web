@@ -41,6 +41,11 @@ raw/
 # (pokud bys chtěl negenerovat ručně, odkomentuj řádek níže)
 # apps/*/public/og/
 
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
 # Tmp soubory
 /tmp_*
 

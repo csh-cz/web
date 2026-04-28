@@ -1,0 +1,77 @@
+name: 🐞 Hlášení chyby
+description: Něco na webu nefunguje, vypadá rozbitě nebo chybí.
+title: "[bug] "
+labels: ["bug", "status:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Díky, že chybu hlásíš. Čím konkrétnější, tím rychleji se opraví.
+
+  - type: input
+    id: url
+    attributes:
+      label: URL stránky
+      description: Konkrétní adresa, kde chybu vidíš (zkopíruj z prohlížeče).
+      placeholder: https://hodinarium-eu.pages.dev/clanky/Kappa
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Co vidíš (skutečné chování)
+      description: Stručný popis problému. Přilož screenshot — otevře se po vložení do textu (Ctrl/Cmd+V).
+      placeholder: |
+        Iframe na konci článku ukazuje chybovou hlášku 404…
+        Hover na odkaz „Podpora" v horním menu — text se ztratí.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Co bys čekal (očekávané chování)
+      placeholder: |
+        Iframe ukazuje živý monitor NTP jednotky.
+        Hover má jen měďovou barvu, text zůstává čitelný.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: site
+    attributes:
+      label: Kterého webu se chyba týká
+      options:
+        - hodinarium-eu (hodinarium.eu)
+        - horologie-cz (horologie.cz)
+        - obou
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Závažnost
+      description: Hrubý odhad, triage to může změnit.
+      options:
+        - "kritická — stránka nejde otevřít / chybí celá sekce"
+        - "vysoká — funkce je rozbitá, ale stránka se otevře"
+        - "běžná — vizuální / kosmetická vada"
+        - "drobná — překlep, formulace, marginálie"
+      default: 2
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Prohlížeč a OS
+      description: "Příklad: Safari 17 / macOS 14, Chrome 130 / Windows 11, Firefox / Android"
+      placeholder: Chrome 130 / Windows 11
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Další poznámky
+      description: Třeba kdy se to objevilo, jestli to bylo dřív v pořádku, atp.
