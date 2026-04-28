@@ -80,14 +80,14 @@ import Base from '../layouts/Base.astro';
         </p>
         <div class="option-detail">
           <p class="detail-label">Číslo účtu</p>
-          <p class="account-number">[doplnit]</p>
+          <p class="account-number">2801617704 / 2010</p>
           <p class="detail-label">Banka</p>
-          <p class="detail-value">[doplnit banku]</p>
+          <p class="detail-value">FIO banka, a. s. — transparentní účet</p>
           <p class="detail-label">Variabilní symbol</p>
           <p class="detail-value">IČO sponzora nebo libovolný</p>
         </div>
         <p class="option-link">
-          <a href="/dokumenty#transparentní-účet">Detail transparentního účtu →</a>
+          <a href="https://ib.fio.cz/ib/transparent?a=2801617704" target="_blank" rel="noopener">Pohyby na účtu — FIO&nbsp;↗</a>
         </p>
       </article>
 
@@ -100,7 +100,7 @@ import Base from '../layouts/Base.astro';
         </p>
         <div class="option-detail">
           <p class="detail-label">Členský příspěvek</p>
-          <p class="detail-value">[doplnit výši]</p>
+          <p class="detail-value">domlouvá se na členské schůzi</p>
           <p class="detail-label">Frekvence</p>
           <p class="detail-value">ročně</p>
         </div>
@@ -140,6 +140,24 @@ import Base from '../layouts/Base.astro';
           <a href="mailto:info@orloj.eu?subject=Firemn%C3%AD%20sponzoring%20CSH">Domluvit partnerství →</a>
         </p>
       </article>
+    </div>
+  </section>
+
+  <!-- ── QR KÓD PRO ČLENSKÉ PŘÍSPĚVKY ── -->
+  <section class="sponz-section qr-section" id="qr">
+    <h2>QR pro platbu členského příspěvku</h2>
+    <div class="qr-block">
+      <img src="/img/prispevky2026.png" alt="QR kód pro platbu členského příspěvku na transparentní účet 2801617704/2010" width="300" height="300" />
+      <div class="qr-info">
+        <p>
+          Naskenujte v bankovní aplikaci. QR předvyplní převod na transparentní účet
+          <strong>2801617704&nbsp;/&nbsp;2010</strong> (FIO banka). Pro jiný účel platby
+          zvolte raději ruční převod a uveďte vlastní variabilní symbol.
+        </p>
+        <p class="qr-note">
+          QR pro rok 2026. Aktuální výše členského příspěvku se domlouvá na členské schůzi.
+        </p>
+      </div>
     </div>
   </section>
 
@@ -190,6 +208,41 @@ import Base from '../layouts/Base.astro';
   }
 
   .sponz-section { margin-bottom: 4rem; }
+
+  .qr-section .qr-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 20%, transparent);
+    border-radius: 2px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  }
+  .qr-section .qr-block img {
+    width: 220px;
+    height: 220px;
+    background: white;
+    padding: 8px;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+  .qr-info {
+    flex: 1;
+    min-width: 240px;
+  }
+  .qr-info p {
+    margin: 0 0 0.85rem;
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+  .qr-info p:last-child { margin-bottom: 0; }
+  .qr-info .qr-note {
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+    font-style: italic;
+  }
 
   /* Co spolek dělá */
   .cinnost-grid {
