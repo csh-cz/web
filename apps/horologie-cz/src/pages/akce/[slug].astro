@@ -58,7 +58,7 @@ const next = idx < akce.length - 1 ? akce[idx + 1] : null;
 
     {heroFoto && (
       <div class="hero-foto">
-        <img src={fotkaUrl(heroFoto)} alt={popisky[0] ?? a.nazev} />
+        <img src={fotkaUrl(heroFoto)} alt={popisky[0] ?? a.nazev} data-lightbox-target />
         {popisky[0] && <p class="foto-popisek">{popisky[0]}</p>}
       </div>
     )}
@@ -73,8 +73,8 @@ const next = idx < akce.length - 1 ? akce[idx + 1] : null;
         <h2>Fotogalerie</h2>
         <div class="galerie-grid">
           {fotky.slice(1).map((foto, i) => (
-            <a href={fotkaUrl(foto)} class="galerie-item" target="_blank" rel="noopener">
-              <img src={fotkaUrl(foto)} alt={popisky[i + 1] ?? `${a.nazev} — fotografie ${i + 2}`} loading="lazy" />
+            <a href={fotkaUrl(foto)} class="galerie-item" data-lightbox-link>
+              <img src={fotkaUrl(foto)} alt={popisky[i + 1] ?? `${a.nazev} — fotografie ${i + 2}`} loading="lazy" data-lightbox-target />
               {popisky[i + 1] && <span class="popisek">{popisky[i + 1]}</span>}
             </a>
           ))}
@@ -96,6 +96,14 @@ const next = idx < akce.length - 1 ? akce[idx + 1] : null;
         </p>
       </section>
     )}
+
+    <dialog id="lightbox" aria-label="Lightbox fotografie">
+      <button class="lightbox-close" aria-label="Zavřít" type="button">×</button>
+      <button class="lightbox-prev" aria-label="Předchozí fotografie" type="button">‹</button>
+      <button class="lightbox-next" aria-label="Další fotografie" type="button">›</button>
+      <img src="" alt="" />
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </dialog>
 
     <nav class="akce-nav" aria-label="Další akce">
       {prev && (
@@ -306,4 +314,145 @@ const next = idx < akce.length - 1 ? akce[idx + 1] : null;
     color: var(--color-brass-bright);
     font-weight: 500;
   }
+
+  /* Hero photo & gallery → click triggers lightbox */
+  .hero-foto img { cursor: zoom-in; }
+  .galerie-item { cursor: zoom-in; }
+
+  /* Lightbox dialog */
+  dialog#lightbox {
+    margin: auto;
+    padding: 0;
+    border: none;
+    background: rgba(20, 16, 12, 0.95);
+    backdrop-filter: blur(8px);
+    max-width: 96vw;
+    max-height: 96vh;
+    width: 96vw;
+    height: 96vh;
+    color: var(--color-text);
+  }
+  dialog#lightbox::backdrop {
+    background: rgba(10, 8, 7, 0.85);
+    backdrop-filter: blur(6px);
+  }
+  dialog#lightbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 2px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .lightbox-close, .lightbox-prev, .lightbox-next {
+    position: absolute;
+    background: rgba(20, 16, 12, 0.7);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
+    color: var(--color-brass-bright);
+    font-family: var(--font-serif);
+    font-size: 1.6rem;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 150ms ease;
+    z-index: 2;
+    line-height: 1;
+  }
+  .lightbox-close { top: 1rem; right: 1rem; width: 44px; height: 44px; }
+  .lightbox-prev, .lightbox-next {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 64px;
+    font-size: 2rem;
+  }
+  .lightbox-prev { left: 1rem; }
+  .lightbox-next { right: 1rem; }
+  .lightbox-close:hover, .lightbox-prev:hover, .lightbox-next:hover {
+    background: var(--color-brass);
+    color: var(--color-ink);
+  }
+  .lightbox-caption {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5rem 1rem;
+    background: rgba(20, 16, 12, 0.85);
+    color: var(--color-text);
+    font-size: 0.9rem;
+    font-style: italic;
+    border-radius: 2px;
+    max-width: 80%;
+    text-align: center;
+  }
+  .lightbox-caption:empty { display: none; }
 </style>
+
+<script>
+  function setupLightbox() {
+    const lb = document.getElementById('lightbox') as HTMLDialogElement | null;
+    if (!lb) return;
+    const lbImg = lb.querySelector('img') as HTMLImageElement | null;
+    const lbCaption = lb.querySelector('#lightbox-caption') as HTMLElement | null;
+    if (!lbImg || !lbCaption) return;
+
+    // All gallery images + hero, in DOM order
+    const targets = Array.from(
+      document.querySelectorAll<HTMLImageElement>('img[data-lightbox-target]')
+    );
+    if (targets.length === 0) return;
+
+    const meta = targets.map((img) => ({
+      src: img.src,
+      alt: img.alt,
+      caption:
+        (img.parentElement?.querySelector('.popisek')?.textContent ??
+         img.parentElement?.parentElement?.querySelector('.foto-popisek')?.textContent ??
+         img.alt) || '',
+    }));
+
+    function open(idx: number) {
+      const m = meta[idx];
+      if (!m) return;
+      lbImg!.src = m.src;
+      lbImg!.alt = m.alt;
+      lbCaption!.textContent = m.caption;
+      lb!.dataset.idx = String(idx);
+      lb!.showModal();
+    }
+
+    function step(delta: number) {
+      const idx = parseInt(lb!.dataset.idx ?? '0', 10);
+      open((idx + delta + meta.length) % meta.length);
+    }
+
+    targets.forEach((img, idx) => {
+      img.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        open(idx);
+      });
+    });
+    document.querySelectorAll<HTMLAnchorElement>('a[data-lightbox-link]').forEach((a) => {
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+      });
+    });
+
+    lb.querySelector('.lightbox-close')?.addEventListener('click', () => lb.close());
+    lb.querySelector('.lightbox-prev')?.addEventListener('click', () => step(-1));
+    lb.querySelector('.lightbox-next')?.addEventListener('click', () => step(1));
+    lb.addEventListener('click', (e) => { if (e.target === lb) lb.close(); });
+    document.addEventListener('keydown', (e) => {
+      if (!lb.open) return;
+      if (e.key === 'Escape') lb.close();
+      else if (e.key === 'ArrowLeft') step(-1);
+      else if (e.key === 'ArrowRight') step(1);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupLightbox);
+  } else {
+    setupLightbox();
+  }
+</script>

@@ -82,43 +82,45 @@ export const akce: Akce[] = [
       + '<p><strong>Den druhý (20. 8. 2022)</strong> — přesun do '
       + '<strong>Českých Budějovic</strong>, návštěva <strong>Jihočeského '
       + 'muzea</strong> a výstavy <strong>Zvuk času</strong>.</p>'
-      + '<p>Akce navázala na dlouholetou tradici spolkových výprav po '
-      + 'regionálních hodinářských památkách jižních Čech.</p>'
       + '<p><em>Pokud máte vlastní fotografie nebo vzpomínky na akci, '
       + 'ozvěte se nám — rádi popisky a podrobnosti doplníme.</em></p>',
+    // Pořadí fotek je chronologické podle EXIF DateTimeOriginal / času z názvu souboru.
+    // Hero zůstává jako úvodní pohled (kompozice), ne první v čase.
     fotky: [
       'hero.jpg',
-      '01-pivovar.jpg',
-      '02-pivovar-detail.jpg',
-      '03-platan-pivovar.jpg',
-      '04-prohlidka-1.jpg',
-      '05-prohlidka-2.jpg',
-      '06-detaily-hodin-1.jpg',
-      '07-detaily-hodin-2.jpg',
-      '08-pan-kubelka.jpg',
-      '09-kemp-rano.jpg',
-      '10-budejovice.jpg',
-      '11-zvuk-casu.jpg',
-      '12-spolek.jpg',
-      '13-zaver.jpg',
-      '14-skupinova.jpg',
+      '12-spolek.jpg',                 // 19. 8. 10:38 — sraz před pivovarem
+      '01-pivovar.jpg',                // 19. 8. 11:52 — pivovar
+      '02-pivovar-detail.jpg',         // 19. 8. 12:50 — pivovar detail
+      '03-platan-pivovar.jpg',         // 19. 8. 14:06 — Platan v zahradě
+      '04-prohlidka-1.jpg',            // 19. 8. 15:56 — Království času
+      '05-prohlidka-2.jpg',            // 19. 8. 15:59 — KČ
+      '14-skupinova.jpg',              // 19. 8. 16:00 — skupinová u expozice
+      '06-detaily-hodin-1.jpg',        // 19. 8. 16:04 — KČ detail
+      '07-detaily-hodin-2.jpg',        // 19. 8. 16:05 — KČ detail
+      '15-mezi-prohlidkou.jpg',        // 19. 8. 16:57 — pokračování prohlídky
+      '08-pan-kubelka.jpg',            // 19. 8. 17:26 — pan Kubelka
+      '13-zaver.jpg',                  // 19. 8. 18:26 — večer
+      '09-kemp-rano.jpg',              // 20. 8. 8:58 — kemp ráno
+      '10-budejovice.jpg',             // 20. 8. 10:05 — Č. Budějovice
+      '11-zvuk-casu.jpg',              // 20. 8. 10:14 — výstava Zvuk času
     ],
     popisky: [
       'Spolková výprava do Protivína 2022',
+      'Setkání spolku ráno před protivínským pivovarem',
       'Návštěva protivínského pivovaru',
       'Pivovar Protivín — detail',
       'V zahradní restauraci před Protivínským pivovarem nad pulitrem místního vyhlášeného piva Platan',
-      'Prohlídka Království času',
+      'Prohlídka Království času s panem Kubelkou',
       'Prohlídka Království času (pokračování)',
+      'Skupinová fotografie u expozice Království času',
       'Detail vystavovaných hodin',
       'Detail vystavovaných hodin',
+      'V průběhu prohlídky Království času',
       'Pan Kubelka, majitel Království času, provádí spolek expozicí',
+      'Závěr prvního dne v Protivíně',
       'Ráno druhého dne — chatky v místním kempu',
-      'Druhý den — příjezd do Českých Budějovic',
+      'Příjezd do Českých Budějovic',
       'Jihočeské muzeum — výstava Zvuk času',
-      'Skupina členů spolku',
-      'Závěr výpravy',
-      'Skupinová fotografie',
     ],
     status: 'minula',
     typ: 'akce',

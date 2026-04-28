@@ -335,7 +335,9 @@ const lastModifiedReadable = (() => {
     if (!lb) return;
     const lbImg = lb.querySelector('img');
     const lbCaption = lb.querySelector('#lightbox-caption');
-    const lbImgs = Array.from(article.querySelectorAll('img.img-large, img.img-tall, img.img-full, img.img-standalone'));
+    const lbImgs = Array.from(article.querySelectorAll(
+      'img.img-large, img.img-tall, img.img-full, img.img-standalone, .article-gallery img'
+    ));
 
     function open(idx) {
       const img = lbImgs[idx];
