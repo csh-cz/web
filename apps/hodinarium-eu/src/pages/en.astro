@@ -1,0 +1,183 @@
+---
+import Base from '../layouts/Base.astro';
+import { SISTER_SPOLEK } from '../data/sites';
+import catalog from '../data/catalog.json';
+
+const articleCount = (catalog as Array<unknown>).length;
+---
+<Base
+  title="English summary"
+  description="Hodinárium — Czech horological exhibition at Děčín Castle and online encyclopedia run by the Czech Horology Society (ČSH)."
+>
+  <article class="en-doc" lang="en">
+    <header class="en-header">
+      <p class="eyebrow mb-4">English summary</p>
+      <h1>Hodinárium</h1>
+      <p class="lede">
+        <strong>Hodinárium</strong> is a clock exhibition and online encyclopedia
+        operated by the <a href={SISTER_SPOLEK} target="_blank" rel="noopener">Czech Horology Society</a>
+        (<em>Český spolek horologický</em>, est. 2014). It combines a permanent
+        physical exhibition at Děčín Castle in northern Bohemia with a web
+        archive of {articleCount} articles on tower clocks, mechanical movements,
+        clockmakers and horological history.
+      </p>
+    </header>
+
+    <section class="en-section">
+      <h2>What you can see online</h2>
+      <ul class="en-list">
+        <li>
+          <a href="/atlas"><strong>Atlas</strong></a> — visual catalog of every
+          object covered on the site, browseable by image.
+        </li>
+        <li>
+          <a href="/mapa"><strong>Map</strong></a> — two themed maps: where the
+          tower clocks in our exhibition come from, and where to find clock
+          museums, famous astronomical clocks and horological landmarks across
+          Europe.
+        </li>
+        <li>
+          <a href="/expozice"><strong>Clock exhibitions</strong></a> — guide to
+          notable clock museums and astronomical clocks worldwide
+          (Glashütte, La Chaux-de-Fonds, Furtwangen, Greenwich, Vienna and more).
+        </li>
+        <li>
+          <a href="/hodinari"><strong>Clockmakers</strong></a> — biographical
+          stubs for the makers whose work we feature: Jan Prokeš, Ludvík Hainz,
+          Richard Liebing, Václav Krečmer, Josef Achrer and others.
+        </li>
+        <li>
+          <a href="/kroky"><strong>Escapements</strong></a> — illustrated
+          register of clock escapement mechanisms (verge, anchor, Graham,
+          Amant, Hipp toggle, …).
+        </li>
+        <li>
+          <a href="/decin"><strong>Hodinárium Děčín</strong></a> — items in our
+          physical exhibition organised by category.
+        </li>
+        <li>
+          <a href="/projekty"><strong>Projects</strong></a> — DIY and experimental
+          clocks: Arduino-based GPS NTP servers, retrograde displays, electronic
+          escapements.
+        </li>
+      </ul>
+    </section>
+
+    <section class="en-section">
+      <h2>Visit Hodinárium Děčín</h2>
+      <p>
+        The physical exhibition is open seasonally (April—October) at
+        <strong>Děčín Castle</strong> in northern Bohemia, ~90 minutes from
+        Prague by train. Up-to-date opening hours are at the
+        <a href="https://www.zamekdecin.cz/program/vystava-decinske-hodinarium" target="_blank" rel="noopener">castle's official site</a>.
+      </p>
+      <p>
+        Highlights include the Soběslav tower clock movement (possibly
+        the oldest preserved one in Bohemia, ~1484), the Bychory ringing
+        movement by Jan Prokeš (1868), and a working wall-mounted
+        astronomical clock by sculptors Petr Skála and Miroslav Kotrba.
+      </p>
+    </section>
+
+    <section class="en-section">
+      <h2>About the society</h2>
+      <p>
+        The <strong>Czech Horology Society</strong> is a non-profit association
+        of clock enthusiasts, restorers and craftspeople. It runs Hodinárium,
+        restores historical tower clocks across Czechia, and maintains the
+        sister site <a href="https://orloj.eu" target="_blank" rel="noopener">orloj.eu</a>,
+        a comprehensive encyclopedia of the Prague Astronomical Clock.
+      </p>
+      <p>
+        For the society itself — bylaws, board, financial reports — see the
+        spolek site:
+        <a href={SISTER_SPOLEK} target="_blank" rel="noopener">{`horologie-cz.pages.dev`}</a>
+        (English summary
+        <a href={`${SISTER_SPOLEK}/en`} target="_blank" rel="noopener">there</a>).
+      </p>
+    </section>
+
+    <section class="en-section">
+      <h2>Contact</h2>
+      <ul class="en-list contact-list">
+        <li>Email: <a href="mailto:info@orloj.eu">info@orloj.eu</a></li>
+        <li>Phone: <a href="tel:+420603502735">+420 603 502 735</a></li>
+        <li>Web (Czech): <a href="/">hodinarium-eu.pages.dev</a></li>
+      </ul>
+    </section>
+
+    <section class="en-section en-licence">
+      <h2>License</h2>
+      <p>
+        Texts and images on this site are published under
+        <a href="https://creativecommons.org/licenses/by/4.0/deed.en" target="_blank" rel="license noopener">Creative Commons Attribution 4.0 International</a>.
+        Share and adapt with proper attribution.
+      </p>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .en-doc {
+    max-width: 70ch;
+    margin: 0 auto;
+  }
+  .en-header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .en-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+    line-height: 1.1;
+    margin: 0 0 1.25rem;
+    color: var(--color-brass-bright);
+    letter-spacing: -0.01em;
+  }
+  .lede {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: var(--color-text);
+    margin: 0;
+  }
+  .en-section {
+    margin-bottom: 2.5rem;
+  }
+  .en-section h2 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+  }
+  .en-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .en-list li {
+    padding: 0.6rem 0 0.6rem 1.25rem;
+    border-bottom: 1px dashed color-mix(in srgb, var(--color-brass) 15%, transparent);
+    position: relative;
+    line-height: 1.55;
+  }
+  .en-list li::before {
+    content: '·';
+    color: var(--color-copper);
+    position: absolute;
+    left: 0.25rem;
+    font-weight: 700;
+  }
+  .en-list li:last-child { border-bottom: none; }
+  .contact-list li::before { content: ''; }
+  .contact-list li { padding-left: 0; }
+
+  .en-licence p {
+    font-size: 0.9rem;
+    color: var(--color-text-soft);
+    line-height: 1.55;
+    margin: 0 0 0.6rem;
+  }
+</style>

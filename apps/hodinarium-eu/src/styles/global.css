@@ -498,6 +498,20 @@ summary::-webkit-details-marker { display: none; }
   color: var(--color-brass-bright) !important;
 }
 
+/* EN pill v navu — drobnější než ostatní položky */
+.nav-en {
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent) !important;
+  border-radius: 2px;
+  color: var(--color-text-soft) !important;
+}
+.nav-en:hover {
+  border-color: var(--color-brass) !important;
+  color: var(--color-brass-bright) !important;
+}
+
 .nav-search-btn {
   display: inline-flex;
   align-items: center;
