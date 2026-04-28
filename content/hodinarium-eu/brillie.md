@@ -7,7 +7,7 @@ lastModified: "Sun, 18 Feb 2018 14:35:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:41.155Z"
 ---
-![Mateční hodiny Brillie v Hodináriu bez ciferníku pro lepší pohled na stroj.](/img/elektrika/brillie/brillie%20_hodinarium_bez_ciferniku.jpg)
+![Mateční hodiny Brillie v Hodináriu bez ciferníku pro lepší pohled na stroj.](/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg)
 
 Elektromagnetické impulsní mateční hodiny Brilié byly navržené a vyrobené ve Francii. Základní typ s půlsekundovým kyvadlem byl navržen tak, aby každých třicet sekund poskytoval střídavé impulzy pro podřízené hodiny. Jako zdroj centrálního času donedávna sloužil ve Francii v mnoho továrnách, nádražích, školách i v nemocnicích. V Čechách se používala soustava minutových impulzů, pro impulzy 30 sekund by byly potřeba jiné podružné hodiny. Proto je výskyt hodin Brillie zde spíše vzácností. O to větší radost máme z funkčního exponátu v Hodináriu.
 
