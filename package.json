@@ -11,6 +11,7 @@
     "download:hodinarium": "tsx scripts/download-assets.ts",
     "redirects:hodinarium": "tsx scripts/build-redirects.ts",
     "og:build": "tsx scripts/build-og-images.ts",
+    "imgindex:build": "tsx scripts/build-image-index.ts",
     "pipeline:hodinarium": "pnpm scrape:hodinarium && pnpm convert:hodinarium && pnpm catalog:hodinarium && pnpm download:hodinarium && pnpm redirects:hodinarium",
     "dev:hodinarium": "pnpm --filter hodinarium-eu dev",
     "build:hodinarium": "pnpm --filter hodinarium-eu build",

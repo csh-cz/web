@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Article from '../../layouts/Article.astro';
+import imageSizes from '../../data/image-sizes.json';
 
 export async function getStaticPaths() {
   const all = await getCollection('clanky');
@@ -42,12 +43,66 @@ const lastModifiedReadable = entry.data.lastModified
 </dialog>
 
 <style is:global>
-  /* Konsekutivní obrázky v článku — propojit do galerie */
+  /* === Inline image layout v článcích — časopisecký float === */
+
+  /* Small: float vpravo s textem obtékajícím (kolem 200 px) */
+  .prose-content img.img-small {
+    float: right;
+    width: auto;
+    max-width: 220px;
+    margin: 0.4rem 0 0.75rem 1.5rem;
+    border-radius: 2px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    cursor: default;
+  }
+  .prose-content img.img-small:nth-of-type(even) {
+    float: left;
+    margin: 0.4rem 1.5rem 0.75rem 0;
+  }
+
+  /* Medium: standalone, žádné zvětšení (větší verze neexistuje) */
+  .prose-content img.img-medium {
+    display: block;
+    max-width: min(100%, 480px);
+    margin: 1.25rem auto;
+    cursor: default;
+    border-radius: 2px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+  }
+
+  /* Large: standalone, klik = lightbox (větší rozlišení k dispozici) */
+  .prose-content img.img-large {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 1.5rem 0;
+    cursor: zoom-in;
+    border-radius: 2px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+    transition: filter 200ms ease, transform 200ms ease;
+  }
+  .prose-content img.img-large:hover {
+    filter: brightness(1.05);
+  }
+
+  /* Po obtékaných obrázcích — clearfix na hranici sekcí */
+  .prose-content h2,
+  .prose-content h3,
+  .prose-content .fleuron,
+  .prose-content hr {
+    clear: both;
+  }
+
+  /* Když je odstavec moc krátký vedle obtékaného obrázku, zruš float pro další */
+  .prose-content p {
+    overflow: hidden; /* zabraň aby se float prolínal nesouvisejícími odstavci */
+  }
+
+  /* Konsekutivní obrázky v článku — propojit do galerie (jen pro velké) */
   .prose-content p:has(> img:only-child) {
     display: contents;
   }
 
-  /* Pokud následují tři a více obrázků za sebou, ukaž je v gridu — heuristika */
   .prose-content {
     --gallery-gap: 0.75rem;
   }
@@ -158,48 +213,68 @@ const lastModifiedReadable = entry.data.lastModified
     border-bottom: none !important;
   }
 
-  /* Standalone obrázek mimo galerii */
-  .prose-content > p > img:only-child,
-  .prose-content > img:not(.article-gallery img) {
-    cursor: zoom-in;
-    transition: filter 200ms ease;
+  /* Galerie obrázků — pouze pro skupinu obrázků, neskupinujeme small/medium */
+  .article-gallery img {
+    cursor: default;
   }
-  .prose-content > p > img:only-child:hover {
-    filter: brightness(1.05);
+  .article-gallery img.img-large {
+    cursor: zoom-in;
   }
 </style>
 
-<script>
-  // Build-time-friendly client logic: po načtení článku
-  // 1. Najdi po sobě jdoucí <p><img></p> a seskup je do galerie.
-  // 2. Všechny obrázky v článku = klik otevře lightbox.
+<script define:vars={{ imageSizes }}>
+  /**
+   * Po načtení článku:
+   * 1. Pro každý <img> přidá class podle skutečné velikosti (small/medium/large).
+   * 2. Small obrázky → float, text obtéká.
+   * 3. Medium → standalone, žádný lightbox.
+   * 4. Large → standalone, lightbox při kliknutí.
+   * 5. ≥2 large obrázky vedle sebe = galerie.
+   */
 
   function setup() {
-    const article = document.querySelector<HTMLElement>('.prose-content');
+    const article = document.querySelector('.prose-content');
     if (!article) return;
 
-    // Skupinování konsekutivních obrázků
-    const imgParas: HTMLParagraphElement[] = [];
-    for (const p of article.querySelectorAll<HTMLParagraphElement>('p')) {
-      const imgs = p.querySelectorAll('img');
-      const onlyImages = imgs.length > 0 &&
-        Array.from(p.childNodes).every((n) =>
-          n.nodeType !== 1 || (n as Element).tagName === 'IMG' || (n as Element).tagName === 'A' || (n as Element).tagName === 'BR'
-        );
-      if (onlyImages) imgParas.push(p);
+    const sizes = imageSizes;
+
+    // 1. Klasifikuj všechny obrázky podle dat ze JSON indexu
+    const allImgs = Array.from(article.querySelectorAll('img'));
+    for (const img of allImgs) {
+      const src = img.getAttribute('src') || '';
+      const dim = sizes[src];
+      const klass = dim ? dim.size : 'medium'; // fallback medium pro externí URL
+      img.classList.add(`img-${klass}`);
+      // Lightbox pouze pro large; medium/small disable
+      if (klass !== 'large') {
+        img.dataset.noLightbox = '1';
+      }
     }
 
-    // Najdi sekvence ≥2 takových odstavců nebo ≥2 obrázků v jednom odstavci
+    // 2. Skupinování konsekutivních LARGE obrázků do galerie
+    //    (small/medium float v textu, ne sloučit)
+    const largeParas = [];
+    for (const p of article.querySelectorAll('p')) {
+      const imgs = p.querySelectorAll('img.img-large');
+      if (imgs.length === 0) continue;
+      const onlyImages = Array.from(p.childNodes).every((n) =>
+        n.nodeType !== 1 ||
+        n.tagName === 'IMG' ||
+        n.tagName === 'A' ||
+        n.tagName === 'BR'
+      );
+      if (onlyImages) largeParas.push(p);
+    }
+
     let i = 0;
-    while (i < imgParas.length) {
-      const start = imgParas[i];
-      const seq: HTMLParagraphElement[] = [start];
-      while (i + 1 < imgParas.length && imgParas[i + 1] === seq[seq.length - 1].nextElementSibling) {
-        seq.push(imgParas[++i]);
+    while (i < largeParas.length) {
+      const start = largeParas[i];
+      const seq = [start];
+      while (i + 1 < largeParas.length && largeParas[i + 1] === seq[seq.length - 1].nextElementSibling) {
+        seq.push(largeParas[++i]);
       }
       const totalImgs = seq.reduce((s, p) => s + p.querySelectorAll('img').length, 0);
       if (totalImgs >= 2) {
-        // Postav galerii
         const gallery = document.createElement('div');
         gallery.className = 'article-gallery';
         for (const p of seq) {
@@ -213,46 +288,46 @@ const lastModifiedReadable = entry.data.lastModified
       i++;
     }
 
-    // Lightbox setup
-    const lb = document.getElementById('lightbox') as HTMLDialogElement | null;
+    // 3. Lightbox — pouze pro large
+    const lb = document.getElementById('lightbox');
     if (!lb) return;
-    const lbImg = lb.querySelector('img') as HTMLImageElement;
-    const lbCaption = lb.querySelector('#lightbox-caption') as HTMLElement;
-    const allImgs = Array.from(article.querySelectorAll<HTMLImageElement>('img'));
+    const lbImg = lb.querySelector('img');
+    const lbCaption = lb.querySelector('#lightbox-caption');
+    const lbImgs = Array.from(article.querySelectorAll('img.img-large'));
 
-    function open(idx: number) {
-      const img = allImgs[idx];
+    function open(idx) {
+      const img = lbImgs[idx];
       if (!img) return;
       lbImg.src = img.src;
       lbImg.alt = img.alt;
       lbCaption.textContent = img.alt && img.alt !== 'menu' && img.alt !== 'grafika' ? img.alt : '';
-      lb!.dataset.idx = String(idx);
-      lb!.showModal();
+      lb.dataset.idx = String(idx);
+      lb.showModal();
     }
 
-    function close() { lb!.close(); }
-    function step(delta: number) {
-      const idx = parseInt(lb!.dataset.idx ?? '0', 10);
-      const next = (idx + delta + allImgs.length) % allImgs.length;
+    function closeLb() { lb.close(); }
+    function step(delta) {
+      const idx = parseInt(lb.dataset.idx ?? '0', 10);
+      const next = (idx + delta + lbImgs.length) % lbImgs.length;
       open(next);
     }
 
-    allImgs.forEach((img, idx) => {
+    lbImgs.forEach((img, idx) => {
       img.addEventListener('click', (e) => {
         e.preventDefault();
         open(idx);
       });
     });
 
-    lb.querySelector('.lightbox-close')?.addEventListener('click', close);
+    lb.querySelector('.lightbox-close')?.addEventListener('click', closeLb);
     lb.querySelector('.lightbox-prev')?.addEventListener('click', () => step(-1));
     lb.querySelector('.lightbox-next')?.addEventListener('click', () => step(1));
     lb.addEventListener('click', (e) => {
-      if (e.target === lb) close();
+      if (e.target === lb) closeLb();
     });
     document.addEventListener('keydown', (e) => {
       if (!lb.open) return;
-      if (e.key === 'Escape') close();
+      if (e.key === 'Escape') closeLb();
       else if (e.key === 'ArrowLeft') step(-1);
       else if (e.key === 'ArrowRight') step(1);
     });
