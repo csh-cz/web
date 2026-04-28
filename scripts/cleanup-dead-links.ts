@@ -86,29 +86,16 @@ async function main() {
         }
       }
 
-      // --- B) strip ---
-      // [visible text](dead-url) → visible text
-      // Image links with `[![alt](img)](url)` → keep just the image markdown.
-      for (const url of stillDead) {
-        const escaped = url.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        // First: image-link pattern (preserve image)
-        const imgLinkRe = new RegExp('\\[(!\\[[^\\]]*\\]\\([^)]+\\))\\]\\(' + escaped + '\\)', 'g');
-        let n1 = 0;
-        content = content.replace(imgLinkRe, () => { n1++; return '$1'; });
-        // Hack: above sed-style $1 doesn't work in replace string when arrow fn captured;
-        // redo properly:
-      }
-
-      // Re-do strip with proper capture groups (rebuild from before-replacement state)
-      let stripped = content;
+      // --- B) strip dead links ---
+      // [![alt](thumb)](dead-url)  → ![alt](thumb)   (keep image)
+      // [visible text](dead-url)   → visible text    (keep text)
       for (const url of stillDead) {
         const escaped = url.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
         const imgLinkRe = new RegExp('\\[(!\\[[^\\]]*\\]\\([^)]+\\))\\]\\(' + escaped + '\\)', 'g');
-        stripped = stripped.replace(imgLinkRe, (_m, inner) => { urlsStripped++; return inner; });
+        content = content.replace(imgLinkRe, (_m, inner) => { urlsStripped++; return inner; });
         const linkRe = new RegExp('\\[([^\\]]+)\\]\\(' + escaped + '\\)', 'g');
-        stripped = stripped.replace(linkRe, (_m, txt) => { urlsStripped++; return txt; });
+        content = content.replace(linkRe, (_m, txt) => { urlsStripped++; return txt; });
       }
-      content = stripped;
 
       if (content !== before) {
         await writeFile(path, content, 'utf-8');
