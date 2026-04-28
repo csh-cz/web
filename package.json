@@ -12,6 +12,7 @@
     "redirects:hodinarium": "tsx scripts/build-redirects.ts",
     "og:build": "tsx scripts/build-og-images.ts",
     "imgindex:build": "tsx scripts/build-image-index.ts",
+    "imgvariants:build": "tsx scripts/generate-image-formats.ts",
     "pipeline:hodinarium": "pnpm scrape:hodinarium && pnpm convert:hodinarium && pnpm catalog:hodinarium && pnpm download:hodinarium && pnpm redirects:hodinarium",
     "dev:hodinarium": "pnpm --filter hodinarium-eu dev",
     "build:hodinarium": "pnpm --filter hodinarium-eu build",
@@ -21,8 +22,10 @@
     "@resvg/resvg-js": "^2.6.2",
     "@types/turndown": "^5.0.6",
     "playwright": "^1.59.1",
+    "sharp": "^0.34.5",
     "tsx": "^4.19.2",
     "turndown": "^7.2.4",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "unist-util-visit": "^5.0.0"
   }
 }

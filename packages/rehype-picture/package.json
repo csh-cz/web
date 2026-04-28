@@ -1,0 +1,13 @@
+{
+  "name": "@csh/rehype-picture",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "dependencies": {
+    "unist-util-visit": "^5.0.0"
+  }
+}
