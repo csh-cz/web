@@ -17,21 +17,24 @@ Naopak fandíme pokusům vytvořit nový časoměrný artefakt. Ať již jsou c�
 
 ## Několik příkladů:
 
-**[!
-
-!](/clanky/hinspirace)![](/clanky/hinspirace)**![](/clanky/hinspirace)**![](/clanky/hinspirace)**![](/clanky/hinspirace)
-
-[!!](/clanky/hinspirace)
+[![Stolní bicí hodiny s prstencovými číselníky](/img/fucik/mini/prstencove.jpg)](/clanky/hinspirace)
+[![Pilové hodiny — varianta 1](/img/fucik/mini/pilove1.jpg)](/clanky/hinspirace)
+[![Pilové hodiny — varianta 2](/img/fucik/mini/pilove2.jpg)](/clanky/hinspirace)
+[![Ptáček v kleci](/img/fucik/mini/klec1.jpg)](/clanky/hinspirace)
+[![Vlastní konstrukce](/img/fucik/mini/vlastni_konstrukce.jpg)](/clanky/hinspirace)
+[![Hodiny rok 2000](/img/fucik/mini/2000.jpg)](/clanky/hinspirace)
+[![Kyvadlové hodiny](/img/fucik/mini/kyvadlo.jpg)](/clanky/hinspirace)
+[![Hodiny rok 2001](/img/fucik/mini/2001_11.jpg)](/clanky/hinspirace)
 
 **Stolní bicí hodiny s prstencovými číselníky, pilové hodiny, ptáček v kleci, různé miniatury a další hodiny...**
 
-![Původní stroj švarcvaldek je doplněn kovovým ciferníkem z jiného typu hodin. Průhledná část je CD. Hodiny doplněny novým řetízkem a kopií závaží. Rovněž kyvadlo je vyrobeno z výlisku, který původně zdobil lustr. ](/img/dostavby/svarcvaldky_cd.jpg)
+![Původní stroj švarcvaldek je doplněn kovovým ciferníkem z jiného typu hodin. Průhledná část je CD. Hodiny doplněny novým řetízkem a kopií závaží. Rovněž kyvadlo je vyrobeno z výlisku, který původně zdobil lustr.](/img/dostavby/svarcvaldky_cd.jpg)
 
 Nápad například na postavení prstencových hodin prý vznikl při pohledu na obrázek v časopise, kde se psalo, že jsou známy jediné, které vlastní Národní technické muzeum v Praze. Jak se tento a jiné nápady podařilo zhmotnit, ukazuje samostatná stránka **[Historické inspirace.](/clanky/hinspirace)**
 
 ## ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934
 
-![](/clanky/jezdecke)
+[![Hodiny z třmenu a kapesních hodinek — zemské jezdecké závody Praha 1934](/img/jezdeke/trmen1934_1_i.jpg)](/clanky/jezdecke)
 
 **H**odinám vytvořeným pro jezdecké závody v roce 1934 z třmenu a kapesních hodinek je věnovaná [**samostatná stránka**](/clanky/jezdecke)
 
@@ -39,13 +42,13 @@ Nápad například na postavení prstencových hodin prý vznikl při pohledu na
 
 **C**ílem jednoduché dostavby hodin vpravo byla snaha prezentovat "skeletový" charakter stroje původních, již kovových, švarcvaldek. Původní stroj včetně skříně je doplněn kovovým ciferníkem z jiného, lehce mladšího typu hodin. Průhledná čelní část je krycí cédéčko. Hodiny jsou doplněny novým řetízkem a kopií závaží v podobě trpaslíků. Kyvadlo je vyrobeno z výlisku, který původně zdobil lustr. Přestože do vlastního stroje není nijak zasaženo a hodiny i po létech bez problémů jdou.
 
-## !
-
 ## Náramkové sloupkové
+
+![Náramkové hodinky přestavené na sloupkové vysoké 9 cm](/img/dostavby/sloupkove_naramkove.jpg)
 
 **J**inou, asi 40 let starou, přestavbu vidíte na obrázku vlevo. Náramkové hodinky přestavené na sloupkové vysoké 9 cm.
 
-**Z**e stroje náramkových hodinek bez kamenů odstraněna setrvačka a nahrazena kyvadlem. Závěs kyvadla (patrně z kytarové struny) přilepen **!!!** přímo na kotvu kroku. Čočka kyvadla původně přidržována připájeným drátkem, dnes fixováno pomocí lepicí gumy. Schrána stroje vznikla pájením připojených částí předválečného nábytkového kování.
+**Z**e stroje náramkových hodinek bez kamenů odstraněna setrvačka a nahrazena kyvadlem. Závěs kyvadla (patrně z kytarové struny) přilepen přímo na kotvu kroku. Čočka kyvadla původně přidržována připájeným drátkem, dnes fixováno pomocí lepicí gumy. Schrána stroje vznikla pájením připojených částí předválečného nábytkového kování.
 
 **H**odiny vydrží v chodu i několik hodin.
 

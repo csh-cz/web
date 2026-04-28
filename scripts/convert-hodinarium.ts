@@ -324,6 +324,44 @@ async function main() {
     },
   });
 
+  // Iframy zachováme jako raw HTML — ztrácet je při HTML→MD nedává
+  // smysl (PDF náhledy, embeds, externí PHP monitory). Astro markdown
+  // raw HTML respektuje. Atributy normalizujeme: relativní src
+  // dostane úvodní '/'.
+  turndown.addRule('preserveIframe', {
+    filter: 'iframe',
+    replacement: (_content, node) => {
+      const el = node as HTMLElement;
+      let src = el.getAttribute('src') ?? '';
+      if (!src) return '';
+      // Relativní path → absolutní (např. 'download/foo.pdf' → '/download/foo.pdf')
+      if (!/^https?:\/\//i.test(src) && !src.startsWith('/')) {
+        src = '/' + src;
+      }
+      const width = el.getAttribute('width');
+      const height = el.getAttribute('height');
+      const title = el.getAttribute('title') ?? alt2title(el);
+      const attrs = [
+        `src="${src}"`,
+        width ? `width="${width}"` : null,
+        height ? `height="${height}"` : null,
+        title ? `title="${title}"` : null,
+        'loading="lazy"',
+      ].filter(Boolean).join(' ');
+      // Newline okolo aby Astro markdown nezatáhl iframe do okolního <p>
+      return `\n\n<iframe ${attrs}></iframe>\n\n`;
+    },
+  });
+
+  // Pomocná funkce — vyrobí "title" z kontextu jako fallback (pokud
+  // existuje sourozenec <h1>/<h2>, použij jeho text — jinak prázdný).
+  function alt2title(el: HTMLElement): string {
+    const parent = el.parentElement;
+    if (!parent) return '';
+    const h = parent.querySelector('h1, h2, h3');
+    return h?.textContent?.trim().slice(0, 100) ?? '';
+  }
+
   const stats = { ok: 0, skipped: 0, failed: 0 };
   const audit: { slug: string; category: string; title: string; words: number; oldUrl: string }[] = [];
 

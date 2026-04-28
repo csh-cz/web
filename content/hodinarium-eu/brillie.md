@@ -7,6 +7,7 @@ lastModified: "Sun, 18 Feb 2018 14:35:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:41.155Z"
 manualEdit: true
+thumbnail: "/img/elektrika/brillie/Brillie_x2_m.jpg"
 ---
 ![Mateční hodiny Brillie v Hodináriu bez ciferníku pro lepší pohled na stroj.](/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg)
 

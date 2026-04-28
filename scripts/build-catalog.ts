@@ -50,9 +50,17 @@ function parseFrontmatter(content: string): { fm: Record<string, unknown>; body:
   return { fm, body: m[2] };
 }
 
+/**
+ * Najde první rasterový obrázek v těle článku, který může být použit
+ * jako thumbnail pro atlas/karty. Pravidla:
+ *   - URL musí začínat /img/ — odmítáme ![](/clanky/...) a podobné
+ *     polokomické artefakty z turndown konverze.
+ *   - Přípona musí být raster (jpg/jpeg/png/gif/webp/avif). SVG ne.
+ *   - První takový kandidát se vrací.
+ */
 function extractFirstImage(body: string): string | null {
-  // Markdown: ![alt](url)
-  const m = body.match(/!\[[^\]]*\]\(([^)\s]+)/);
+  const re = /!\[[^\]]*\]\((\/img\/[^)\s]+\.(?:jpe?g|png|gif|webp|avif))\)/gi;
+  const m = re.exec(body);
   return m ? m[1] : null;
 }
 
@@ -102,7 +110,7 @@ function countWords(body: string): number {
 }
 
 async function main() {
-  const files = (await readdir(CONTENT_DIR)).filter((f) => f.endsWith('.md'));
+  const files = (await readdir(CONTENT_DIR)).filter((f) => f.endsWith('.md') || f.endsWith('.mdx'));
   const catalog: CatalogEntry[] = [];
 
   for (const file of files) {
@@ -118,11 +126,17 @@ async function main() {
         })()
       : null;
 
+    // Thumbnail: explicitní override z frontmatteru (pokud je) má přednost,
+    // jinak vezme první vhodný obrázek z těla.
+    const fmThumb = typeof fm.thumbnail === 'string' && fm.thumbnail.startsWith('/img/')
+      ? (fm.thumbnail as string)
+      : null;
+
     catalog.push({
-      slug: (fm.slug as string) ?? file.replace(/\.md$/, ''),
+      slug: (fm.slug as string) ?? file.replace(/\.(md|mdx)$/, ''),
       title: (fm.title as string) ?? file,
       category: (fm.category as string) ?? 'ostatni',
-      thumbnail: extractFirstImage(body),
+      thumbnail: fmThumb ?? extractFirstImage(body),
       excerpt: extractExcerpt(body),
       year: extractYear((fm.title as string) ?? '', body),
       lastModified: lastModifiedISO,

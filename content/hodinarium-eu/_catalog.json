@@ -55,6 +55,17 @@
     "wordCount": 1643
   },
   {
+    "slug": "zidovske",
+    "title": "**Židovské hodiny z roku 1764**",
+    "category": "sbirka",
+    "thumbnail": "/img/zidovske/staronova_synagoga.jpg",
+    "excerpt": "import ZidovskeHodiny from '../../apps/hodinarium-eu/src/components/ZidovskeHodiny.astro';",
+    "year": 1764,
+    "lastModified": "2020-11-24T02:06:00.000Z",
+    "imageCount": 4,
+    "wordCount": 1238
+  },
+  {
     "slug": "alzbeta",
     "title": "Alžběta - 14112 - hlášení přesného času",
     "category": "projekty",
@@ -102,11 +113,11 @@
     "slug": "astronomicke_Sauter",
     "title": "Astronomické spínací hodiny — Syst. Fr. Sauter",
     "category": "projekty",
-    "thumbnail": null,
+    "thumbnail": "/img/astronomicky_Sauter/f/Sauter1.jpg",
     "excerpt": "Pod pojmem spínací astronomické hodiny se obvykle myslí spínací hodiny, které dobu spínání automaticky upravují podle roční doby. Dnes takové hodiny jsou řízeny programem mikropočítače. V dobách mechanických to zajišť…",
     "year": null,
     "lastModified": "2020-09-08T00:00:00.000Z",
-    "imageCount": 0,
+    "imageCount": 2,
     "wordCount": 612
   },
   {
@@ -1070,7 +1081,7 @@
     "slug": "brillie",
     "title": "Mateční hodiny Brillie",
     "category": "sbirka",
-    "thumbnail": "/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg",
+    "thumbnail": "/img/elektrika/brillie/Brillie_x2_m.jpg",
     "excerpt": "Elektromagnetické impulsní mateční hodiny Brilié byly navržené a vyrobené ve Francii. Základní typ s půlsekundovým kyvadlem byl navržen tak, aby každých třicet sekund poskytoval střídavé impulzy pro podřízené hodiny. …",
     "year": null,
     "lastModified": "2018-02-18T14:35:00.000Z",
@@ -1136,7 +1147,7 @@
     "slug": "mystery",
     "title": "Mysteriózní hodiny — sběratelský bonbónek",
     "category": "sbirka",
-    "thumbnail": "/img/mystery1.jpg",
+    "thumbnail": "/img/mystery/clockincline1.jpg",
     "excerpt": "Hodiny s tajemstvím. Mohou to být hodiny s utajeným strojem nebo hodiny s jinou záhadou. Velmi často to jsou hodiny, které nemají žádné viditelné pohybové ústrojí, žádný zjevný důvod chodu. Prostě si tak nějak jdou. K…",
     "year": 2026,
     "lastModified": "2017-04-26T13:40:00.000Z",
@@ -1455,12 +1466,12 @@
     "slug": "prestavby",
     "title": "Přestavby a dostavby",
     "category": "sbirka",
-    "thumbnail": "/clanky/hinspirace",
+    "thumbnail": "/img/fucik/mini/prstencove.jpg",
     "excerpt": "Je kolem nás mnoho hodin, které v průběhu času změnily podobu. Došlo u nich k přestavbě z důvodů rozličných. Nejčastěji je přestavba motivována snahou zachovat schránu hodin, ale původní stroj nahradit jiným, chodivěj…",
-    "year": null,
+    "year": 2000,
     "lastModified": "2017-04-26T14:05:00.000Z",
-    "imageCount": 6,
-    "wordCount": 449
+    "imageCount": 11,
+    "wordCount": 452
   },
   {
     "slug": "decin_dalsi_stroje",
@@ -1554,7 +1565,7 @@
     "slug": "rimskedigi2",
     "title": "Římské digitálky - tentokrát s Arduinem",
     "category": "projekty",
-    "thumbnail": "http://orloj.eu/img/orloje/venecia/f/digitalky1.jpg",
+    "thumbnail": null,
     "excerpt": "Prosakují zprávy, že se uvažuje o vyřazení římských číslic ze školních osnov. Protože s tímto trendem nesouhlasíme, navrhli jsme římské digitálky nejprve jako script pro tento web (viz níže), následně pak jako exponát…",
     "year": 1550,
     "lastModified": "2022-04-04T09:25:00.000Z",
@@ -1626,6 +1637,17 @@
     "lastModified": "2017-04-26T16:23:00.000Z",
     "imageCount": 2,
     "wordCount": 323
+  },
+  {
+    "slug": "slunecni_filler",
+    "title": "Sluneční hodiny Vlasty Fillera",
+    "category": "sbirka",
+    "thumbnail": null,
+    "excerpt": "import SlunecniHodinyKlementinum from '../../apps/hodinarium-eu/src/components/SlunecniHodinyKlementinum.astro';",
+    "year": null,
+    "lastModified": "2023-03-06T12:18:00.000Z",
+    "imageCount": 0,
+    "wordCount": 86
   },
   {
     "slug": "sobeslav2",

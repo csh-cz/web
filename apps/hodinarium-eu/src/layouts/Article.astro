@@ -48,9 +48,12 @@ const related = me
       .slice(0, 4)
   : [];
 
-const lastModifiedReadable = lastModified
-  ? new Date(lastModified).toLocaleDateString('cs-CZ', { day: 'numeric', month: 'long', year: 'numeric' })
+const lastModifiedParsed = lastModified ? new Date(lastModified) : null;
+const lastModifiedValid = lastModifiedParsed && !Number.isNaN(lastModifiedParsed.getTime());
+const lastModifiedReadable = lastModifiedValid
+  ? lastModifiedParsed!.toLocaleDateString('cs-CZ', { day: 'numeric', month: 'long', year: 'numeric' })
   : null;
+const lastModifiedISO = lastModifiedValid ? lastModifiedParsed!.toISOString() : null;
 
 const hodinariZmineni = slug ? hodinariProClanek(slug) : [];
 const krokyZmineni = slug ? krokyProClanek(slug) : [];
@@ -73,7 +76,7 @@ const krokyZmineni = slug ? krokyProClanek(slug) : [];
     <meta itemprop="inLanguage" content="cs" />
     <meta itemprop="author" content="Český spolek horologický" />
     <meta itemprop="publisher" content="Český spolek horologický" />
-    {lastModified && <meta itemprop="dateModified" content={lastModified} />}
+    {lastModifiedISO && <meta itemprop="dateModified" content={lastModifiedISO} />}
 
     <header class="article-header">
       {category && (
@@ -135,7 +138,7 @@ const krokyZmineni = slug ? krokyProClanek(slug) : [];
       <span class="byline-author">Český spolek horologický</span>
       <span class="byline-sep" aria-hidden="true">·</span>
       {lastModifiedReadable
-        ? <span class="byline-date">Aktualizováno <time datetime={lastModified}>{lastModifiedReadable}</time></span>
+        ? <span class="byline-date">Aktualizováno <time datetime={lastModifiedISO ?? undefined}>{lastModifiedReadable}</time></span>
         : <span class="byline-date byline-date-unknown">Datum aktualizace neznámo</span>}
     </footer>
 

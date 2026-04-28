@@ -7,6 +7,7 @@ lastModified: "Wed, 26 Apr 2017 13:40:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:47.986Z"
 manualEdit: true
+thumbnail: "/img/mystery/clockincline1.jpg"
 tldr: "Hodiny s tajemstvím — bez viditelného pohybového ústrojí, bez zjevného důvodu chodu. Otáčivé skleněné kotouče, magnetické převody a další podivnosti. Sbírka pro hledače kuriozit."
 ---
 ![Mysteriózní hodiny — pohyb bez viditelného mechanizmu](/img/mystery1.jpg)

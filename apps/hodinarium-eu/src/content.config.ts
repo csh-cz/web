@@ -18,6 +18,8 @@ const clanky = defineCollection({
     manualEdit: z.boolean().optional(),
     /** Custom path (e.g. /img/...) to override the default template-based OG image. */
     ogImage: z.string().optional(),
+    /** Custom thumbnail for atlas / katalog karet — přebíjí prvni-image z těla. */
+    thumbnail: z.string().optional(),
   }),
 });
 

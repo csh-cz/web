@@ -9,6 +9,8 @@ scrapedAt: "2026-04-27T17:37:24.078Z"
 manualEdit: true
 tldr: "Mechanické astronomické spínací hodiny systému Fr. Sauter Basel, výrobní č. 333573 ZWE6K. Vačky východu a západu Slunce zajišťovaly automatické přizpůsobení doby spínání podle roční doby."
 ---
+![Spínací kotouč astronomických hodin Fr. Sauter](/img/astronomicky_Sauter/f/Sauter1.jpg)
+
 Pod pojmem **spínací astronomické hodiny** se obvykle myslí spínací hodiny, které dobu spínání automaticky upravují podle roční doby. Dnes takové hodiny jsou řízeny programem mikropočítače. V dobách mechanických to zajišťovaly **vačky východu a západu Slunce**.
 
 Hodiny System Fr. Sauter a. s. v Basileji (zakoupeny pro Č. S. R. S. Schop. Praha) jsou mechanické hodiny natahované elektromotorem. Výrobní číslo je **333573 ZWE6K**. Cívky motoru se mohou zapojit buď na 220 V nebo na 380 V. Hodinová hřídel se otočí jednou za 24 hodin a nese vlastní spínací systém.
@@ -23,6 +25,8 @@ Jednodenní posun natáčí dvě vačky; samostatně pro východ a západ Slunce
 Střední šrouby s půlkulatou hlavou slouží jednak k manipilaci s ciferníkem, ale také umožňují ciferník natočit (opět v rozsahu cca dvou hodin) a kompenzovat tak zeměpisný posun vůči poledníku, pro který je astaven pásmový čas. Spínací hodiny je tak možné nastavit lépe na pravý sluneční čas. Systém umožňuje i nastavit posun letního času i když tak asi nebyl zamýšlen.
 
 Na obrázku je nastavena situace v polovině září. Hodiny spínají přibližně v 18:40, vypínají v 23:05 a znovu spínají v 1:00 a vypínají v 5:05.
+
+![Detail vaček a převodů](/img/astronomicky_Sauter/f/Sauter2.jpg)
 
 ## Vačky a sezónní nastavení
 

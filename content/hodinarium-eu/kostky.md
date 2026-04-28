@@ -18,3 +18,9 @@ Pozoruhodný je i způsob vzniku sbírky. Dr. Jarek Adam z Turnova, člen Klubu 
 Vzniklá sbírka byla v roce 2013 vyhodnocena jako "Pozoruhodná sbírka KSK" a "Originální a největší" pro splnění Rekordu v Agentuře Dobrý den Pelhřimov. V současné době čítá asi 70 kusů, což není v dlouhodobém vývoji sbírky číslo konečné.
 
 Jsme rádi, že i náš spolek přispěl k obohacení sbírky vlastním exponátem.
+
+## Brožura k výstavě
+
+[**Stáhnout PDF brožury — Výtvarné miniatury ve tvaru kostky**](/download/brozura_miniatury.pdf)
+
+<iframe src="/download/brozura_miniatury.pdf" width="100%" height="700" title="Brožura — Výtvarné miniatury ve tvaru kostky" loading="lazy"></iframe>

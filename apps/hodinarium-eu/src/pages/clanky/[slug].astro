@@ -13,18 +13,11 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-
-const lastModifiedReadable = (() => {
-  if (!entry.data.lastModified) return undefined;
-  const d = new Date(entry.data.lastModified);
-  if (Number.isNaN(d.getTime())) return undefined;
-  return d.toLocaleDateString('cs-CZ', { year: 'numeric', month: 'long', day: 'numeric' });
-})();
 ---
 <Article
   title={entry.data.title}
   originalUrl={entry.data.originalUrl}
-  lastModified={lastModifiedReadable}
+  lastModified={entry.data.lastModified}
   tldr={entry.data.tldr}
   category={entry.data.category}
   slug={entry.data.slug}
