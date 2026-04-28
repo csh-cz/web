@@ -176,6 +176,20 @@ export const spolky: Spolek[] = [
     typ: 'muzeum',
   },
 
+  {
+    slug: 'vmo',
+    jmeno: 'Vlastivědné muzeum v Olomouci',
+    zeme: 'CZ',
+    popis:
+      'Olomoucké muzeum eviduje téměř dva miliony sbírkových předmětů, '
+      + 'mezi nimi unikátně dochovaný soubor originálních součástek olomouckého '
+      + 'orloje. V roce 2019 hostilo výstavu k 500. výročí první zmínky o orloji '
+      + '(kurátor Radim Himmler).',
+    web: 'https://www.vmo.cz/',
+    typ: 'muzeum',
+    spoluprace: true,
+  },
+
   // ─── Slovensko ───
   {
     slug: 'slovenske-orloje',
@@ -250,6 +264,18 @@ export const kontakty: KontaktUdalost[] = [
       + 'prohlídka soukromé hodinářské sbírky Království času pana Kubelky. '
       + 'Druhý den návštěva Jihočeského muzea v Č. Budějovicích a výstavy Zvuk času.',
     akceSlug: 'protivin-2022',
+  },
+  {
+    datum: '2019-10-04 — 2020-01-05',
+    rok: 2019,
+    smer: 'spolecne',
+    partner: 'Vlastivědné muzeum v Olomouci',
+    popis:
+      'Výstava „Olomoucký orloj — 500 let od první písemné zmínky". Radim Himmler '
+      + 'byl kurátorem výstavy, členové spolku se aktivně podíleli na přípravě '
+      + 'exponátů; David Knespl je spoluautorem (s Martinem Šimkem) repliky '
+      + 'číselníkového patra olomouckého orloje, prezentované na výstavě.',
+    akceSlug: 'olomoucky-orloj-2019',
   },
 ];
 

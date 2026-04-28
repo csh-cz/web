@@ -60,6 +60,67 @@ export const akce: Akce[] = [
 
   // ─── MINULÉ ───
   {
+    slug: 'olomoucky-orloj-2019',
+    rok: 2019,
+    datum: '4. října 2019 — 5. ledna 2020',
+    nazev: 'Olomoucký orloj — 500 let od první písemné zmínky',
+    misto: 'Vlastivědné muzeum v Olomouci',
+    lat: 49.5944, lon: 17.2509,
+    popis:
+      'Výstava ve Vlastivědném muzeu v Olomouci k 500. výročí první písemné '
+      + 'zmínky o olomouckém orloji (1519). Kurátorem výstavy byl člen spolku '
+      + 'Radim Himmler; členové spolku se podíleli na přípravě exponátů, '
+      + 'David Knespl je spoluautorem repliky číselníkového patra orloje.',
+    detail:
+      '<p>Vlastivědné muzeum v Olomouci uspořádalo k <strong>500. výročí '
+      + 'první písemné zmínky</strong> o olomouckém orloji (1519) výstavu '
+      + '„<em>Olomoucký orloj — 500 let od první písemné zmínky</em>", '
+      + 'otevřenou od 4. října 2019 do 5. ledna 2020.</p>'
+      + '<p><a href="https://www.vmo.cz/vystavy/170/olomoucky-orloj--500-let-od-prvni-pisemne-zminky" '
+      + 'target="_blank" rel="noopener">Stránka výstavy na vmo.cz ↗</a></p>'
+      + '<h2>Účast spolku</h2>'
+      + '<ul>'
+      + '<li><strong>Radim Himmler</strong> — kurátor výstavy.</li>'
+      + '<li>Členové spolku se aktivně podíleli na <strong>přípravě '
+      + 'exponátů</strong> — restaurování, technické konzultace, dohledávání '
+      + 'historických materiálů.</li>'
+      + '<li><strong>David Knespl</strong> je spolu s Martinem Šimkem autorem '
+      + '<strong>repliky číselníkového patra olomouckého orloje</strong> '
+      + 'podle zobrazení Josefa Vladislava Fischera z roku 1805 — replika '
+      + 'byla na výstavě prezentována.</li>'
+      + '<li>Členové spolku se zúčastnili <strong>vernisáže</strong>.</li>'
+      + '</ul>'
+      + '<h2>Citace</h2>'
+      + '<p class="citation">'
+      + 'KNESPL, David a Martin ŠIMEK. Replika číselníkového patra olomouckého '
+      + 'orloje dle zobrazení Josefa Vladislava Fischera z roku 1805. '
+      + '<em>Zpravodaj Společnosti přátel starožitných hodin.</em> 2019, č. 34, s. 20—23. '
+      + '<a href="/download/Knespl-Simek-2019-replika-ciselnikoveho-patra.pdf" '
+      + 'target="_blank" rel="noopener">PDF&nbsp;↗</a>'
+      + '</p>'
+      + '<p><em>Pokud máte další fotografie z výstavy nebo z přípravných prací, '
+      + 'ozvěte se na <a href="mailto:info@orloj.eu">info@orloj.eu</a>, '
+      + 'rád to doplním.</em></p>',
+    fotky: [
+      'hero.jpg',
+      '01-vystava-celek.jpg',
+      '02-eksponaty-1.jpg',
+      '03-eksponaty-2.jpg',
+      '04-vernisaz-1.jpg',
+      '05-vernisaz-2.jpg',
+    ],
+    popisky: [
+      'Výstava „Olomoucký orloj — 500 let od první písemné zmínky"',
+      'Pohled do expozice',
+      'Vystavované exponáty',
+      'Vystavované exponáty',
+      'Vernisáž výstavy',
+      'Vernisáž výstavy',
+    ],
+    status: 'minula',
+    typ: 'akce',
+  },
+  {
     slug: 'rostock-2022',
     rok: 2022,
     datum: '28.—30. října 2022',
