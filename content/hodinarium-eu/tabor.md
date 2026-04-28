@@ -1,11 +1,12 @@
 ---
-title: "[Stěhovavý orloj v Táboře](/img/vezni/tabor/presuny_rytina.jpg)"
+title: "Stěhovavý orloj v Táboře"
 slug: "tabor"
 category: "vezni-hodiny"
 originalUrl: "https://hodinarium.eu/tabor.htm"
 lastModified: "Sat, 24 Sep 2022 12:20:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:15.240Z"
+manualEdit: true
 ---
 ![Šechtl Voseček Tábor radnice](/img/vezni/tabor/foto0189x.jpg)
 
@@ -20,15 +21,17 @@ Na počátku 16. století byl Tábor prosperujícím městem, což se odráželo
 
 Kvůli hodinám se téhož roku přestavěl prostřední gotický štít radnice. Jeho nová barokní podoba lépe vyhovovala tvaru hodin. Nad štítem vznikla i barokní věžička, v níž byly umístěny hodinové cimbály. Na fotografii Ateliéru Šechtl - Voseček je vidět tato druhá instalace hodin. Zde byly hodiny až do 70. let 19. století. Z různých nerealizovaných nákresů přestavby se zdá, že hodiny v té době měly dvě rafie. Následná gotizující přestavba se k jediné rafii patrně vrátila.
 
-## [![Šecht Voseček Hodiny na věži po Niklasově přestavbě](/img/vezni/tabor/deska0401.jpg)](http://sechtl-vosecek.ucw.cz/cml/dir/square_west.html)Třetí a současná lokalita - radniční věž
+## Třetí a současná lokalita — radniční věž
+
+[![Šechtl-Voseček: hodiny na věži po Niklasově přestavbě](/img/vezni/tabor/deska0401.jpg)](http://sechtl-vosecek.ucw.cz/cml/dir/square_west.html)
 
 V této době se město začalo přizpůsobovat tehdejším historizujícím architektonickým směrům. V roce 1876 byl přijat návrh profesora pražské techniky Josefa Niklase na přestavbu radnice v novogotickém stylu. Do podoby radnice však zasáhl poněkud necitlivě a jeho úprava byla často kritizována.
 
 Hodiny se opět stěhovaly, tentokrát do radniční věže, jež byla nejen přistavěna, ale doplněna o vysokou střechu s věžičkami.
 
-## ![Jeden ze strojů Tábor](/img/vezni/tabor/stroj1b.jpg)
-
 ## Stroj
+
+![Jeden ze strojů táborského orloje — celkový pohled](/img/vezni/tabor/stroj1b.jpg)
 
 Jaký byl osud středověkých hodin? Přesné zprávy o původním stroji nemáme. Předpokládá se, že hodiny na kostelní věži byly minimálně od 30. let 16. století.
 
@@ -61,4 +64,4 @@ Jsme muzeum virtuální, proto zařazujeme na tuto stránku programovaný cifern
 -   Studentské listy, 1882
 -   Staré fotografie náměstí v Táboře ateliéru Šechtl Voseček najdete na stránce věnované fotografům z rodu Šechtlů. Prohlídku můžete začít u fotografií [západní strany Žižkova náměstí](https://sechtl-vosecek.ucw.cz/cml/dir/square_west.html).
 
-Text: J. Bumerlová, P. Král, animace: P. Král, náhledy cb fotografií: [Digitální archiv Šechtl a Voseček](http://sechtl-vosecek.ucw.cz/cml/dir/index.html) aa
+Text: J. Bumerlová, P. Král, animace: P. Král, náhledy čb fotografií: [Digitální archiv Šechtl a Voseček](http://sechtl-vosecek.ucw.cz/cml/dir/index.html).
