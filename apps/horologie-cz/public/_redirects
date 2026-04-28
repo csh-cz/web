@@ -1,6 +1,0 @@
-# Cloudflare Pages redirecty pro horologie-cz
-# Formát: source destination [status]
-
-# Sloučení článku /clanky/sponsor do /sponzoring (sponsor.md smazán)
-/clanky/sponsor    /sponzoring    301
-/clanky/sponsor/   /sponzoring    301
