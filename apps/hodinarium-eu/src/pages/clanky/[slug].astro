@@ -248,6 +248,26 @@ const lastModifiedReadable = (() => {
     filter: sepia(0) saturate(1);
     border-color: var(--color-brass);
   }
+
+  /* Modifikátor: zachovat plný poměr stran (žádný crop), pevný počet
+     sloupců na řádek. Použij pro skeny dobových inzerátů, dokumenty apod.,
+     kde má smysl vidět celou stránku. */
+  .article-gallery.gallery-portrait {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+  }
+  .article-gallery.gallery-portrait img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+    object-fit: contain;
+    background: var(--color-bg-deep);
+  }
+  @media (max-width: 540px) {
+    .article-gallery.gallery-portrait {
+      grid-template-columns: 1fr;
+    }
+  }
   .article-gallery a {
     display: block;
     border-bottom: none !important;

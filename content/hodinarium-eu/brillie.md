@@ -30,7 +30,7 @@ Bohužel tato informace je velmi stručná a neověřená. Budeme doufat, že na
 
 ### Dobová inzerce synchronizace
 
-<div class="article-gallery">
+<div class="article-gallery gallery-portrait">
   <a href="/img/elektrika/brillie/Brillie4.jpg"><img src="/img/elektrika/brillie/Brillie4.jpg" alt="Dobová inzerce Brillie — řízeno T.S.F. signálem z Eiffelovy věže" loading="lazy" /></a>
   <a href="/img/elektrika/brillie/Brillie5.jpg"><img src="/img/elektrika/brillie/Brillie5.jpg" alt="Dobová inzerce Brillie — synchronizace skupin kyvadlových hodin" loading="lazy" /></a>
   <a href="/img/elektrika/brillie/Brillie6.jpg"><img src="/img/elektrika/brillie/Brillie6.jpg" alt="Dobová inzerce Brillie — synchronizace pomocí telefonních linek" loading="lazy" /></a>
