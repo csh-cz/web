@@ -3,52 +3,96 @@ import Base from '../layouts/Base.astro';
 import { lokace } from '../data/lokace';
 import catalog from '../data/catalog.json';
 
-const cz = lokace.filter((l) => l.zeme === 'CZ');
-const zahranici = lokace.filter((l) => l.zeme !== 'CZ');
+const puvod = lokace.filter((l) => l.typ === 'puvod' || l.slug === 'decin_zamek');
+const expozice = lokace.filter((l) => l.typ === 'expozice' || l.typ === 'zajimavost');
+
+const expoCZ = expozice.filter((l) => l.zeme === 'CZ');
+const expoZahranici = expozice.filter((l) => l.zeme !== 'CZ');
 
 const articleSlugs = new Set((catalog as Array<{ slug: string }>).map((c) => c.slug));
 const hasArticle = (slug?: string) => slug ? articleSlugs.has(slug) : false;
 ---
-<Base title="Mapa" description="Geografická mapa věžních hodin, orlojů a expozic — Česko a Evropa.">
+<Base title="Mapa" description="Geografické mapy: původ exponátů Hodinária a další hodinářské expozice u nás i ve světě.">
   <header class="max-w-3xl mb-10">
     <p class="eyebrow mb-4">Geografický rejstřík</p>
     <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Mapa</h1>
     <p class="text-[var(--color-text)] leading-relaxed">
-      <strong class="text-[var(--color-brass-bright)]">{lokace.length}</strong> věžních hodin,
-      orlojů a expozic, o kterých na webu píšeme. Klikni na pin pro detail článku.
+      Dvě tématické mapy. <strong>Nahoře</strong>: odkud pochází stroje a exponáty
+      v <a href="/decin">Hodináriu Děčín</a>. <strong>Dole</strong>: další hodinářské
+      expozice, slavné orloje a horologické zajímavosti u nás i ve světě.
     </p>
   </header>
 
-  <div id="mapa" class="mapa-canvas" role="application" aria-label="Interaktivní mapa věžních hodin"></div>
+  <!-- ═══ MAPA 1: PŮVOD HODIN V EXPOZICI ═══ -->
+  <section class="mb-16">
+    <header class="mapa-section-header">
+      <p class="eyebrow mb-2">Mapa 1</p>
+      <h2 class="text-3xl mb-3" style="margin-top: 0;">Původ hodin v expozici</h2>
+      <p class="text-[var(--color-text-soft)]">
+        Místa, odkud pochází věžní stroje a další exponáty Hodinária —
+        kostely, věže a sbírky, ze kterých se dostaly do Děčína.
+        <strong class="text-[var(--color-brass-bright)]">{puvod.length}</strong> lokací.
+      </p>
+    </header>
 
-  <section class="grid md:grid-cols-2 gap-10 mt-12">
-    <div>
-      <h2 class="text-2xl mb-4">Česko ({cz.length})</h2>
-      <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5 text-base">
-        {cz.map((l) => (
-          <li class="flex items-baseline gap-2">
-            {l.expozice && <span class="text-[var(--color-copper)]" title="Expozice">★</span>}
-            {hasArticle(l.slug)
-              ? <a href={`/clanky/${l.slug}`} style="border-bottom: none;">{l.jmeno}</a>
-              : <span class="text-[var(--color-text-soft)]">{l.jmeno}</span>}
-            {l.rok && <span class="text-sm text-[var(--color-text-muted)] italic">{l.rok}</span>}
-          </li>
-        ))}
-      </ul>
-    </div>
-    <div>
-      <h2 class="text-2xl mb-4">Zahraničí ({zahranici.length})</h2>
-      <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5 text-base">
-        {zahranici.map((l) => (
-          <li class="flex items-baseline gap-2">
-            {hasArticle(l.slug)
-              ? <a href={`/clanky/${l.slug}`} style="border-bottom: none;">{l.jmeno}</a>
-              : <span class="text-[var(--color-text-soft)]">{l.jmeno}</span>}
-            <span class="text-xs text-[var(--color-text-muted)] uppercase tracking-wider">{l.zeme}</span>
-            {l.rok && <span class="text-sm text-[var(--color-text-muted)] italic">{l.rok}</span>}
-          </li>
-        ))}
-      </ul>
+    <div id="mapa-puvod" class="mapa-canvas" role="application" aria-label="Mapa původu exponátů Hodinária"></div>
+
+    <ul class="lokace-list mt-6">
+      {puvod.map((l) => (
+        <li class="flex items-baseline gap-2">
+          {l.expozice && <span class="text-[var(--color-copper)]" title="Expozice">★</span>}
+          {hasArticle(l.slug)
+            ? <a href={`/clanky/${l.slug}`} style="border-bottom: none;">{l.jmeno}</a>
+            : <span class="text-[var(--color-text-soft)]">{l.jmeno}</span>}
+          {l.rok && <span class="text-sm text-[var(--color-text-muted)] italic">{l.rok}</span>}
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <!-- ═══ MAPA 2: HODINÁŘSKÉ EXPOZICE A ZAJÍMAVOSTI ═══ -->
+  <section>
+    <header class="mapa-section-header">
+      <p class="eyebrow mb-2">Mapa 2</p>
+      <h2 class="text-3xl mb-3" style="margin-top: 0;">Hodinářské expozice u nás i ve světě</h2>
+      <p class="text-[var(--color-text-soft)]">
+        Veřejně přístupné hodinářské expozice, slavné orloje a další horologické
+        zajímavosti — muzea, výrobní lokality, observatoře.
+        <strong class="text-[var(--color-brass-bright)]">{expozice.length}</strong> míst.
+      </p>
+    </header>
+
+    <div id="mapa-expozice" class="mapa-canvas" role="application" aria-label="Mapa hodinářských expozic ve světě"></div>
+
+    <div class="grid md:grid-cols-2 gap-10 mt-6">
+      <div>
+        <h3 class="lokace-list-h">Česko ({expoCZ.length})</h3>
+        <ul class="lokace-list">
+          {expoCZ.map((l) => (
+            <li class="flex items-baseline gap-2">
+              {l.expozice && <span class="text-[var(--color-copper)]" title="Expozice">★</span>}
+              {hasArticle(l.slug)
+                ? <a href={`/clanky/${l.slug}`} style="border-bottom: none;">{l.jmeno}</a>
+                : <span class="text-[var(--color-text-soft)]">{l.jmeno}</span>}
+              {l.rok && <span class="text-sm text-[var(--color-text-muted)] italic">{l.rok}</span>}
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <h3 class="lokace-list-h">Zahraničí ({expoZahranici.length})</h3>
+        <ul class="lokace-list">
+          {expoZahranici.map((l) => (
+            <li class="flex items-baseline gap-2">
+              {hasArticle(l.slug)
+                ? <a href={`/clanky/${l.slug}`} style="border-bottom: none;">{l.jmeno}</a>
+                : <span class="text-[var(--color-text-soft)]">{l.jmeno}</span>}
+              <span class="text-xs text-[var(--color-text-muted)] uppercase tracking-wider">{l.zeme}</span>
+              {l.rok && <span class="text-sm text-[var(--color-text-muted)] italic">{l.rok}</span>}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   </section>
 </Base>
@@ -59,8 +103,8 @@ const hasArticle = (slug?: string) => slug ? articleSlugs.has(slug) : false;
 <style>
   .mapa-canvas {
     width: 100%;
-    height: 70vh;
-    min-height: 480px;
+    height: 60vh;
+    min-height: 420px;
     border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
     border-radius: 2px;
     box-shadow:
@@ -69,7 +113,36 @@ const hasArticle = (slug?: string) => slug ? articleSlugs.has(slug) : false;
     background: var(--color-bg-deep);
   }
 
-  /* Sépiový sklon Leaflet tile vrstvy, aby ladila s paletou */
+  .mapa-section-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .lokace-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+  @media (min-width: 600px) {
+    .lokace-list {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.4rem 1.5rem;
+    }
+  }
+
+  .lokace-list-h {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  }
+
+  /* Sépiový sklon Leaflet tile vrstvy */
   :global(.leaflet-container) {
     background: var(--color-bg-deep) !important;
     font-family: var(--font-serif) !important;
@@ -133,31 +206,55 @@ const hasArticle = (slug?: string) => slug ? articleSlugs.has(slug) : false;
     margin-left: -9px !important;
     margin-top: -9px !important;
   }
+  :global(.leaflet-marker-icon.lokace-pin.zajimavost) {
+    background: var(--color-text-soft);
+  }
 </style>
 
-<script define:vars={{ lokace, articleSlugs: [...articleSlugs] }}>
-  // @ts-expect-error Leaflet from CDN
-  const map = L.map('mapa', { zoomControl: true, scrollWheelZoom: false }).setView([49.7, 15.5], 6);
-
-  // @ts-expect-error
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap přispěvatelé',
-    maxZoom: 18,
-  }).addTo(map);
-
+<script define:vars={{ puvod, expozice, articleSlugs: [...articleSlugs] }}>
   const slugSet = new Set(articleSlugs);
-  for (const l of lokace) {
-    // @ts-expect-error
-    const icon = L.divIcon({
-      className: `lokace-pin${l.expozice ? ' expozice' : ''}`,
-      html: '',
-      iconSize: [14, 14],
-    });
-    // @ts-expect-error
-    const m = L.marker([l.lat, l.lon], { icon, title: l.jmeno }).addTo(map);
-    const link = l.slug && slugSet.has(l.slug) ? `<a href="/clanky/${l.slug}">Otevřít článek →</a>` : '';
+
+  function buildPopupHtml(l) {
+    const link = l.slug && slugSet.has(l.slug)
+      ? `<a href="/clanky/${l.slug}">Otevřít článek →</a>`
+      : '';
     const popis = l.popis ? `<p>${l.popis}</p>` : '';
     const rok = l.rok ? `<p><em>${l.rok}</em></p>` : '';
-    m.bindPopup(`<h4>${l.jmeno}</h4>${rok}${popis}${link}`);
+    return `<h4>${l.jmeno}</h4>${rok}${popis}${link}`;
   }
+
+  function makeMap(elementId, lokaceList, defaultCenter, defaultZoom) {
+    // @ts-expect-error Leaflet from CDN
+    const map = L.map(elementId, { zoomControl: true, scrollWheelZoom: false })
+      .setView(defaultCenter, defaultZoom);
+
+    // @ts-expect-error
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap přispěvatelé',
+      maxZoom: 18,
+    }).addTo(map);
+
+    for (const l of lokaceList) {
+      const classes = ['lokace-pin'];
+      if (l.expozice) classes.push('expozice');
+      if (l.typ === 'zajimavost') classes.push('zajimavost');
+      // @ts-expect-error
+      const icon = L.divIcon({
+        className: classes.join(' '),
+        html: '',
+        iconSize: [14, 14],
+      });
+      // @ts-expect-error
+      L.marker([l.lat, l.lon], { icon, title: l.jmeno })
+        .addTo(map)
+        .bindPopup(buildPopupHtml(l));
+    }
+    return map;
+  }
+
+  // Mapa 1: Původ hodin (CZ-zaměřená)
+  makeMap('mapa-puvod', puvod, [49.7, 15.5], 7);
+
+  // Mapa 2: Expozice ve světě
+  makeMap('mapa-expozice', expozice, [50.0, 11.5], 5);
 </script>

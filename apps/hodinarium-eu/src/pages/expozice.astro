@@ -1,0 +1,234 @@
+---
+import Base from '../layouts/Base.astro';
+import { lokace } from '../data/lokace';
+import catalog from '../data/catalog.json';
+
+const expozice = lokace.filter((l) => l.typ === 'expozice' || l.typ === 'zajimavost');
+
+const expoCZ = expozice
+  .filter((l) => l.zeme === 'CZ')
+  .sort((a, b) => Number(b.expozice ?? false) - Number(a.expozice ?? false) || a.jmeno.localeCompare(b.jmeno, 'cs'));
+
+const expoZahranici = expozice
+  .filter((l) => l.zeme !== 'CZ')
+  .sort((a, b) => a.zeme.localeCompare(b.zeme) || a.jmeno.localeCompare(b.jmeno, 'cs'));
+
+const articleSlugs = new Set((catalog as Array<{ slug: string }>).map((c) => c.slug));
+
+const zemeLabel: Record<string, string> = {
+  CZ: 'Česko',
+  DE: 'Německo',
+  AT: 'Rakousko',
+  CH: 'Švýcarsko',
+  IT: 'Itálie',
+  FR: 'Francie',
+  SK: 'Slovensko',
+  KR: 'Korea',
+  BE: 'Belgie',
+  ES: 'Španělsko',
+};
+
+function groupByCountry(list: typeof expozice) {
+  const m = new Map<string, typeof expozice>();
+  for (const l of list) {
+    if (!m.has(l.zeme)) m.set(l.zeme, []);
+    m.get(l.zeme)!.push(l);
+  }
+  return m;
+}
+const zahraniciByZeme = groupByCountry(expoZahranici);
+---
+<Base
+  title="Hodinářské expozice"
+  description="Veřejně přístupné hodinářské expozice, slavné orloje a horologické zajímavosti — průvodce po českých i světových muzeích hodin."
+>
+  <header class="max-w-3xl mb-12">
+    <p class="eyebrow mb-4">Průvodce</p>
+    <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Hodinářské expozice</h1>
+    <p class="text-[var(--color-text)] leading-relaxed">
+      Doporučená místa pro každého, kdo má rád hodiny. Veřejně přístupné expozice,
+      slavné orloje, hodinářská muzea a horologické zajímavosti
+      v <strong class="text-[var(--color-brass-bright)]">Česku</strong> i ve světě.
+      Pro geografický přehled nahlédněte do <a href="/mapa">mapy</a>.
+    </p>
+  </header>
+
+  <!-- ČESKO -->
+  <section class="expo-section">
+    <header class="expo-section-header">
+      <h2>Česko ({expoCZ.length})</h2>
+    </header>
+    <div class="expo-grid">
+      {expoCZ.map((l) => (
+        <article class={`expo-card${l.expozice ? ' expo-card-featured' : ''}`}>
+          <header>
+            {l.expozice && <span class="expo-tag">★ Expozice</span>}
+            {!l.expozice && l.typ === 'zajimavost' && <span class="expo-tag expo-tag-zajimavost">Zajímavost</span>}
+            {!l.expozice && l.typ === 'expozice' && <span class="expo-tag expo-tag-orloj">Orloj</span>}
+            <h3>{l.jmeno}</h3>
+            {l.rok && <p class="expo-rok">{l.rok}</p>}
+          </header>
+          {l.popis && <p class="expo-popis">{l.popis}</p>}
+          <footer class="expo-links">
+            {articleSlugs.has(l.slug) && (
+              <a href={`/clanky/${l.slug}`}>Detail v Hodináriu →</a>
+            )}
+            {l.web && (
+              <a href={l.web} target="_blank" rel="noopener">Oficiální web&nbsp;↗</a>
+            )}
+          </footer>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <!-- ZAHRANIČÍ -->
+  <section class="expo-section mt-16">
+    <header class="expo-section-header">
+      <h2>Zahraničí ({expoZahranici.length})</h2>
+    </header>
+    {[...zahraniciByZeme.entries()].map(([zeme, list]) => (
+      <div class="expo-zeme-group">
+        <h3 class="expo-zeme-h">{zemeLabel[zeme] ?? zeme} <span class="expo-zeme-code">({zeme})</span></h3>
+        <div class="expo-grid">
+          {list.map((l) => (
+            <article class={`expo-card${l.expozice ? ' expo-card-featured' : ''}`}>
+              <header>
+                {l.typ === 'zajimavost' && <span class="expo-tag expo-tag-zajimavost">Muzeum / observatoř</span>}
+                {l.typ === 'expozice' && <span class="expo-tag expo-tag-orloj">Orloj / expozice</span>}
+                <h3>{l.jmeno}</h3>
+                {l.rok && <p class="expo-rok">{l.rok}</p>}
+              </header>
+              {l.popis && <p class="expo-popis">{l.popis}</p>}
+              <footer class="expo-links">
+                {articleSlugs.has(l.slug) && (
+                  <a href={`/clanky/${l.slug}`}>Detail v Hodináriu →</a>
+                )}
+                {l.web && (
+                  <a href={l.web} target="_blank" rel="noopener">Oficiální web&nbsp;↗</a>
+                )}
+              </footer>
+            </article>
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+
+  <p class="expo-note mt-12">
+    <strong>Tip:</strong> seznam je samozřejmě neúplný. Pokud znáte další zajímavé
+    hodinářské muzeum nebo expozici, <a href="mailto:info@orloj.eu?subject=Tip na hodin%C3%A1%C5%99skou expozici">napište nám</a> —
+    rozšíříme seznam.
+  </p>
+</Base>
+
+<style>
+  .expo-section-header h2 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .expo-zeme-group {
+    margin-bottom: 2.5rem;
+  }
+  .expo-zeme-h {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--color-brass);
+    margin: 1.5rem 0 1rem;
+  }
+  .expo-zeme-code {
+    color: var(--color-text-muted);
+    font-size: 0.85em;
+    font-weight: 400;
+  }
+  .expo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.25rem;
+  }
+  .expo-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    padding: 1.25rem 1.4rem 1.1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  }
+  .expo-card-featured {
+    border-color: var(--color-copper);
+    background: linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--color-bg-elevated) 92%, var(--color-copper)),
+      var(--color-bg-elevated)
+    );
+  }
+  .expo-card header {
+    margin-bottom: 0.6rem;
+  }
+  .expo-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--color-copper);
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+  }
+  .expo-tag-zajimavost {
+    color: var(--color-text-muted);
+  }
+  .expo-tag-orloj {
+    color: var(--color-brass);
+  }
+  .expo-card h3 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.2rem;
+    line-height: 1.25;
+  }
+  .expo-rok {
+    font-size: 0.85rem;
+    color: var(--color-copper);
+    font-style: italic;
+    margin: 0;
+    font-feature-settings: "lnum";
+  }
+  .expo-popis {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--color-text-soft);
+    margin: 0 0 0.85rem;
+    flex: 1;
+  }
+  .expo-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.85rem;
+  }
+  .expo-links a {
+    color: var(--color-brass-bright);
+    border-bottom: none;
+  }
+  .expo-links a:hover {
+    color: var(--color-paper);
+  }
+  .expo-note {
+    font-size: 0.95rem;
+    color: var(--color-text-soft);
+    padding: 1rem 1.25rem;
+    background: color-mix(in srgb, var(--color-bg-deep) 85%, var(--color-copper));
+    border-left: 3px solid var(--color-copper);
+    border-radius: 2px;
+    line-height: 1.55;
+  }
+</style>
