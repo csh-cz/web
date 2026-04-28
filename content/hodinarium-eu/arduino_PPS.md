@@ -15,7 +15,7 @@ StartStopStiskněte Start a Stop pro zobrazení času.
 
 V příkladu je použito z cenových důvodů Arduino UNO na 16 MHz. To vede k jistému omezení přesnosti. Například funkce micros() vlivem předděličky 8 počítá čas po 4 mikrosekundách. Lepších výsledků by se dosáhlo při použití například Arduino DUE, které má taktovací frekvenci 84MHz.
 
-# ![Prototyp GPS PPS Arduino UNO](/img/arduino/GPS_PPS.jpg)
+## ![Prototyp GPS PPS Arduino UNO](/img/arduino/GPS_PPS.jpg)
 
 ## Čas a Arduino
 

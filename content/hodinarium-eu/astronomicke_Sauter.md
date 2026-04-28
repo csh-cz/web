@@ -19,7 +19,7 @@ Střední šrouby s půlkulatou hlavou slouží jednak k manipilaci s ciferníke
 
 Na obrázku je nastavena situace v polovině září. Hodiny spínají přibližně v 18:40, vypínají v 23:05 a znovu spínají v 1:00 a vypínají v 5:05.
 
-# ![spínací kotouč](https://hodinarium.eu/img/astronomicky_Sauter/f/Sauter2.jpg)
+## ![spínací kotouč](https://hodinarium.eu/img/astronomicky_Sauter/f/Sauter2.jpg)
 
 Pokusili jsme se zjistit, zda absence části mechanismu denního posunu nemá příčinu v tom, že u zkoumaného exempláře nejsou vačky správně nastaveny. Zvažovali jsme i polohu Basileje 45.6N a 7.6E. Výsledky se nepodařilo k nějaké poloze přiřadit. Předpokládal bych, že nastavení na střed tolerancí by mělo odpovídat SEČ, tedy poloze 15E.
 

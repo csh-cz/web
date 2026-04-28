@@ -1,5 +1,5 @@
 ---
-title: "Hodinárium Děčín - expozice časoměrných strojů"
+title: "Hodiny Datumatic"
 slug: "datumatik"
 category: "projekty"
 originalUrl: "https://hodinarium.eu/datumatik.htm"
@@ -9,7 +9,6 @@ scrapedAt: "2026-04-27T17:37:04.066Z"
 ---
 ![Datumatic 1](/img/datumatic/foto_0001.jpg)
 
-# Hodiny Datumatic
 
 Na našem serveru dělíme časoměrné přístroje na hodiny, hodinky, minutky, sekundovky a dňovky - tedy hodiny s kalendářem. U hodinek nepřekvapí zobrazení data, někdy i dalších kalendářních údajů, avšak u větších hodin je přidání kalendářního soustrojí spíše vyjímečné. Dňovky mohou být pravé a nepravé. Nepravé dňovky sice mají kalendářní ukazatele, ale tyto nejsou spojené s chodem hodin, nastavují se ručně. Z pravých dňovek jsme si vybrali ty nejpravější - hodiny DATUMATIC.
 

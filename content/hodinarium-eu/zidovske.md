@@ -1,5 +1,5 @@
 ---
-title: "Hodinárium Děčín - expozice časoměrných strojů"
+title: "**Židovské hodiny z roku 1764**"
 slug: "zidovske"
 category: "sbirka"
 originalUrl: "https://hodinarium.eu/zidovske.htm"
@@ -9,7 +9,6 @@ scrapedAt: "2026-04-27T17:37:14.599Z"
 ---
 ![v popředí Staronová synagoga, v pozadí budova radnice s hodinami](/img/zidovske/staronova_synagoga.jpg)
 
-# **Židovské hodiny z roku 1764**
 
 ***Na půdě Židovské radnice, proti Staronové synagoze v Praze, se nacházejí patrně nejstarší známé hebrejské hodiny na veřejném místě,** možná dokonce nejstarší hebrejské hodiny vůbec. Není dokonce vyloučeno, že na stejném místě byly původně hodiny ještě starší.*
 

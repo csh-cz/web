@@ -1,9 +1,13 @@
 ---
 import Base from '../layouts/Base.astro';
 import { lokace } from '../data/lokace';
+import catalog from '../data/catalog.json';
 
 const cz = lokace.filter((l) => l.zeme === 'CZ');
 const zahranici = lokace.filter((l) => l.zeme !== 'CZ');
+
+const articleSlugs = new Set((catalog as Array<{ slug: string }>).map((c) => c.slug));
+const hasArticle = (slug?: string) => slug ? articleSlugs.has(slug) : false;
 ---
 <Base title="Mapa" description="Geografická mapa věžních hodin, orlojů a expozic — Česko a Evropa.">
   <header class="max-w-3xl mb-10">
@@ -24,7 +28,9 @@ const zahranici = lokace.filter((l) => l.zeme !== 'CZ');
         {cz.map((l) => (
           <li class="flex items-baseline gap-2">
             {l.expozice && <span class="text-[var(--color-copper)]" title="Expozice">★</span>}
-            <a href={l.slug ? `/clanky/${l.slug}` : '#'} style="border-bottom: none;">{l.jmeno}</a>
+            {hasArticle(l.slug)
+              ? <a href={`/clanky/${l.slug}`} style="border-bottom: none;">{l.jmeno}</a>
+              : <span class="text-[var(--color-text-soft)]">{l.jmeno}</span>}
             {l.rok && <span class="text-sm text-[var(--color-text-muted)] italic">{l.rok}</span>}
           </li>
         ))}
@@ -35,7 +41,9 @@ const zahranici = lokace.filter((l) => l.zeme !== 'CZ');
       <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5 text-base">
         {zahranici.map((l) => (
           <li class="flex items-baseline gap-2">
-            <a href={l.slug ? `/clanky/${l.slug}` : '#'} style="border-bottom: none;">{l.jmeno}</a>
+            {hasArticle(l.slug)
+              ? <a href={`/clanky/${l.slug}`} style="border-bottom: none;">{l.jmeno}</a>
+              : <span class="text-[var(--color-text-soft)]">{l.jmeno}</span>}
             <span class="text-xs text-[var(--color-text-muted)] uppercase tracking-wider">{l.zeme}</span>
             {l.rok && <span class="text-sm text-[var(--color-text-muted)] italic">{l.rok}</span>}
           </li>
@@ -127,7 +135,7 @@ const zahranici = lokace.filter((l) => l.zeme !== 'CZ');
   }
 </style>
 
-<script define:vars={{ lokace }}>
+<script define:vars={{ lokace, articleSlugs: [...articleSlugs] }}>
   // @ts-expect-error Leaflet from CDN
   const map = L.map('mapa', { zoomControl: true, scrollWheelZoom: false }).setView([49.7, 15.5], 6);
 
@@ -137,6 +145,7 @@ const zahranici = lokace.filter((l) => l.zeme !== 'CZ');
     maxZoom: 18,
   }).addTo(map);
 
+  const slugSet = new Set(articleSlugs);
   for (const l of lokace) {
     // @ts-expect-error
     const icon = L.divIcon({
@@ -146,7 +155,7 @@ const zahranici = lokace.filter((l) => l.zeme !== 'CZ');
     });
     // @ts-expect-error
     const m = L.marker([l.lat, l.lon], { icon, title: l.jmeno }).addTo(map);
-    const link = l.slug ? `<a href="/clanky/${l.slug}">Otevřít článek →</a>` : '';
+    const link = l.slug && slugSet.has(l.slug) ? `<a href="/clanky/${l.slug}">Otevřít článek →</a>` : '';
     const popis = l.popis ? `<p>${l.popis}</p>` : '';
     const rok = l.rok ? `<p><em>${l.rok}</em></p>` : '';
     m.bindPopup(`<h4>${l.jmeno}</h4>${rok}${popis}${link}`);

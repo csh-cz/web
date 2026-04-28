@@ -40,8 +40,7 @@ Co se týče druhů pohonu - najdete na výstavě: pilové hodiny pohybující s
 
 !
 
-[!
-](javascript:history.back\(\))*přímá adresa stránky je:*
+*přímá adresa stránky je:*
 
 !
 

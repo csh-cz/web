@@ -32,7 +32,7 @@ Hodiny jsou vyrobeny 3D tiskem ve dvou variantách a jsou ovládané elektroniko
 
 ##
 
-# Návod k obsluze
+## Návod k obsluze
 
 ## Počáteční rychlé připojení k internetu
 

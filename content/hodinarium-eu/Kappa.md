@@ -1,5 +1,5 @@
 ---
-title: "Hodinárium Děčín - expozice časoměrných strojů"
+title: "KAPPA – výrobce námořních hodin master-slave"
 slug: "Kappa"
 category: "projekty"
 originalUrl: "https://hodinarium.eu/Kappa.htm"
@@ -9,7 +9,6 @@ scrapedAt: "2026-04-27T17:37:21.730Z"
 ---
 ![SSC-321 celkový pohled](/img/elektrika/Kappa/Kappa1.jpg)
 
-# KAPPA – výrobce námořních hodin master-slave
 
 **Kappa Orologi Industriali** (případně **Kappa Time Systems**) byla italská firma specializovaná na výrobu přesných hodinových systémů jednotného času, zejména určených pro námořní a průmyslové použití. Po mnoho let byla známá kvalitou svých **master-slave** hodin a dalších časoměrných zařízení, často určených pro náročné provozy na lodích, v přístavech či v továrnách. Potřeba jednotného času měla zvláštní význam zejména na námořních lodích často překračujících časová pásma.
 
@@ -52,7 +51,7 @@ Hodiny KAPPA dnes představují svědectví robustní italské techniky druhé p
 
 * * *
 
-# ![SAMSUNG SSC-MQI čelní pohled](/img/elektrika/Kappa/SSC-MQI_celni_pohled.jpg)KAPPA MARINE CLOCK SSC-MQI
+## ![SAMSUNG SSC-MQI čelní pohled](/img/elektrika/Kappa/SSC-MQI_celni_pohled.jpg)KAPPA MARINE CLOCK SSC-MQI
 SAMSUNG WATCH COM., LMT SEOUL KOREA
 
 Tyto hlavní hodiny SSC-MQI mají dva hodinové ciferníky. Jeden ukazuje čas hlavních hodin, druhý ukazuje čas linky na slave hodinách. Hodiny mají poměrně jednoduché ovládání. V pravém dolním uzamykatelném panelu jsou tyto prvky:

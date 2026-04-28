@@ -1,5 +1,5 @@
 ---
-title: "Hodinárium Děčín - expozice časoměrných strojů"
+title: "Instalované NTP servery"
 slug: "decin_NTP"
 category: "decin"
 originalUrl: "https://hodinarium.eu/decin_NTP.htm"
@@ -25,7 +25,6 @@ Po připojení napětí hodiny zaujmou klidovou polohu (12:00, 4:00 nebo 8:00 ho
 
 ![schema použití NTP v Hodináriu](/img/elektrika/NTP/NTPschema2.jpg)
 
-# Instalované NTP servery
 
 K hodinám samozřejmě firma Bodet a mnoho jiných nabízí profesionální síťové hlavní hodiny či NTP časové servery. Pro použití v sítích nepřipojených do Internetu jsou tyto servery synchronizovány signálem DCF 77 nebo nyní spíše GPS. Jako obvyklá přesnost nastavení času se uvádí hodnota lepší než +- 0,5 ms. Tato přesnost je vyvážena relativně vyšší cenou. Servery jsou v ceně již od 15.000.- Kč, avšak obvykle je cena mnoho desítek tisíc Kč.
 

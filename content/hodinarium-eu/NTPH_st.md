@@ -25,7 +25,7 @@ Nejsou to tedy běžné hodiny s jednoduchou obsluhou. Předpokládá se základ
 
 ##
 
-# Návod k obsluze
+## Návod k obsluze
 
 Platí od 1.3.2024, kdy je doplněna funkce WPS tlačítka .
 

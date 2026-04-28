@@ -73,8 +73,7 @@ Rovněž digitální zobrazení není slunečním hodinám cizí. Také [sluneč
 
 !
 
-[!
-](javascript:history.back\(\))*přímá adresa stránky je:*
+*přímá adresa stránky je:*
 
 !
 

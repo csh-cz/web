@@ -7,7 +7,7 @@ lastModified: "Wed, 26 Apr 2017 13:40:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:47.986Z"
 ---
-# **!**
+## **!**
 
 Hodiny s tajemnem. Mohou to být hodiny s utajeným strojem nebo hodiny s jinou záhadou. Velmi často to jsou hodiny, které nemají žádné viditelné pohybové ústrojí, žádný důvod chodu. Prostě si tak nějak jdou. Každé muzeum se chlubí mysteriózními hodinami. Jsou návštěvníky obdivované a vyhledávané.
 

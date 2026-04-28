@@ -1,5 +1,5 @@
 ---
-title: "Hodinárium Děčín - expozice časoměrných strojů"
+title: "[Stěhovavý orloj v Táboře](/img/vezni/tabor/presuny_rytina.jpg)"
 slug: "tabor"
 category: "vezni-hodiny"
 originalUrl: "https://hodinarium.eu/tabor.htm"
@@ -9,7 +9,6 @@ scrapedAt: "2026-04-27T17:37:15.240Z"
 ---
 ![Šechtl Voseček Tábor radnice](/img/vezni/tabor/foto0189x.jpg)
 
-# [Stěhovavý orloj v Táboře](/img/vezni/tabor/presuny_rytina.jpg)
 
 Každé staré hodiny s 24 hodinovým ciferníkem se někdy nazývaly orloje.
 

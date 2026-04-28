@@ -11,7 +11,7 @@ scrapedAt: "2026-04-27T17:36:32.117Z"
 
 * * *
 
-# ![Fotografie 10](/img/vez/28_11_2010/foto_010.jpg)
+## ![Fotografie 10](/img/vez/28_11_2010/foto_010.jpg)
 
 *Bývá zvykem, že muzeum je tvořeno několika místnostmi, rozmístěnými na ploše. Ve věži je tomu trochu jinak. Zde musíte k jednotlivým částem expozice vystupovat po poněkud krkolomném schodišti.* *Ve většině věží je cílem návštěvníků dostat se až nahoru a obdivovat pohled do okolí.* *Soběslavská věž nabízí zajímavé pohledy už během cesty.*
 

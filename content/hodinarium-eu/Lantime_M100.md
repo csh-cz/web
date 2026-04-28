@@ -1,5 +1,5 @@
 ---
-title: "Hodinárium Děčín - expozice časoměrných strojů"
+title: "Meinberg NTP LANTIME M100 GPS (ELX)"
 slug: "Lantime_M100"
 category: "projekty"
 originalUrl: "https://hodinarium.eu/Lantime_M100.htm"
@@ -9,7 +9,6 @@ scrapedAt: "2026-04-27T17:36:29.659Z"
 ---
 ![Panel Lantime M100](/img/decin/NTP_Meinberg/panelM100.jpg)
 
-# Meinberg NTP LANTIME M100 GPS (ELX)
 
 Společnost Meinberg Funkuhren GmbH & Co. KG byla založena v roce 1979 Wernerem a Günterem Meinbergem a nyní je moderní průmyslovou společností. Více než 100 zaměstnanců pracuje na vývoji a výrobě elektronických modulů a systémů pro časovou a frekvenční synchronizaci.
 
