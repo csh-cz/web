@@ -209,6 +209,9 @@ export const akce: Akce[] = [
       + '<li><strong>Markus Marti</strong> — Zytglogge Bern</li>'
       + '<li><strong>Viktoria Weinebeck</strong> — St.-Paulus-Dom Münster</li>'
       + '<li><strong>Fedor Mitschke</strong> — Univerzita Rostock</li>'
+      + '<li><strong>Bettina a Jochen Motschmannovi</strong> — vedoucí sekce '
+      + 'věžních hodin <em>Deutsche Gesellschaft für Chronometrie</em> '
+      + '(<a href="mailto:info@f-k-turmuhren.de">info@f-k-turmuhren.de</a>)</li>'
       + '</ul>'
       + '<p>Plodné přátelství bylo navázáno také s <strong>Deutsche Gesellschaft '
       + 'für Chronometrie</strong> '
@@ -262,7 +265,12 @@ export const akce: Akce[] = [
       + '<em>Astronomische Uhr Rostock von 1472 e.V.</em></li>'
       + '<li><a href="https://www.dg-chrono.de" target="_blank" '
       + 'rel="noopener">dg-chrono.de</a> — Deutsche Gesellschaft für Chronometrie</li>'
-      + '</ul>',
+      + '</ul>'
+      + '<h2>In memoriam</h2>'
+      + '<p><em>Od konání sympózia nás bohužel opustili hned tři vzácní '
+      + 'přátelé — <strong>prof. Manfred Schukowski</strong>, bernský orlojník '
+      + '<strong>Markus Marti</strong> a <strong>Jochen Motschmann</strong>. '
+      + 'Setkání s nimi v Rostocku bylo o to vzácnější, čest jejich památce.</em></p>',
     fotky: [
       'hero.jpg',
       '01-rano.jpg',
