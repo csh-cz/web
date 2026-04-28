@@ -51,9 +51,9 @@ O mluvících hodinkách popisovaných v časopisu **"Z říše vědy a práce" 
 
 ## Odkazy
 
--   [Pražská telefonní časová služba (1949)](https://www.ceskatelevize.cz/porady/10116288585-archiv-ct24/218411058210010/video/609195) Archiv ČT
--   [Speaking Clock Aka Time (1954)](https://www.youtube.com/watch?v=rErC-f_ru4c)
--   [Assman speaking clock](https://clockdoc.org/default.aspx?aid=110)
+-   [Pražská telefonní časová služba (1949)](https://www.ceskatelevize.cz/porady/10116288585-archiv-ct24/218411058210010/video/609195) — ceskatelevize.cz. [cit. 2026-04-28]
+-   [Speaking Clock Aka Time (1954)](https://www.youtube.com/watch?v=rErC-f_ru4c) — youtube.com. [cit. 2026-04-28]
+-   [Assman speaking clock](https://clockdoc.org/default.aspx?aid=110) — clockdoc.org. [cit. 2026-04-28]
 -   [Mluvící hodinky](/clanky/mluvici1895)
 -   [Když hodiny promluvily](/download/Quando_gli_orologi_parlavano.pdf) - Marisa Addomine, italský text QUANDO GLI OROLOGI PARLAVANO [¬](/download/Kdyz_hodiny_zacaly-mluvit.pdf)
 

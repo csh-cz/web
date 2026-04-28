@@ -21,16 +21,16 @@ Dalším možným principem atomových hodin je tzv. atomová fontána, která v
 
 ## Odkazy
 
--   [Atomové hodiny](https://www.3pol.cz/cz/rubriky/fyzika-a-klasicka-energetika/671-atomove-hodiny)
--   [Atomová sekunda](http://home.zcu.cz/~poupa/ptb.html)
--   [Rubidium standard](https://en.wikipedia.org/wiki/Rubidium_standard)
+-   [Atomové hodiny](https://www.3pol.cz/cz/rubriky/fyzika-a-klasicka-energetika/671-atomove-hodiny) — 3pol.cz. [cit. 2026-04-28]
+-   [Atomová sekunda](http://home.zcu.cz/~poupa/ptb.html) — home.zcu.cz. [cit. 2026-04-28]
+-   [Rubidium standard](https://en.wikipedia.org/wiki/Rubidium_standard) — en.wikipedia.org. [cit. 2026-04-28]
 -   [Rubidiový oscilátor PRS10](/clanky/PRS10)
--   [Popis činnosti atomové fontány](http://fyzika.jreichl.com/main.article/view/1636-princip-atomove-fontany)
--   [NASA spustila svůj nový prototyp vesmírných atomových hodin DSAC](https://www.svethardware.cz/nasa-spustila-svuj-novy-prototyp-vesmirnych-atomovych-hodin-dsac/50043)
+-   [Popis činnosti atomové fontány](http://fyzika.jreichl.com/main.article/view/1636-princip-atomove-fontany) — fyzika.jreichl.com. [cit. 2026-04-28]
+-   [NASA spustila svůj nový prototyp vesmírných atomových hodin DSAC](https://www.svethardware.cz/nasa-spustila-svuj-novy-prototyp-vesmirnych-atomovych-hodin-dsac/50043) — Svět hardware. [cit. 2026-04-28]
 -   Deep Space Atomic Clock (DSAC) - atomové hodiny založené na jodových iontech.
--   [O přesnosti atomových hodin](http://fyzika.jreichl.com/main.article/view/1633-atomove-hodiny)
+-   [O přesnosti atomových hodin](http://fyzika.jreichl.com/main.article/view/1633-atomove-hodiny) — fyzika.jreichl.com. [cit. 2026-04-28]
 -   [A History of the Rubidium Frequency Standard](<download/A History of the Rubidium Frequency Standard.pdf>)
--   [Jaderné hodiny s vyšší frekvencí](https://theconversation.com/why-timekeeping-is-now-on-the-verge-of-a-giant-leap-forward-in-accuracy-238744)
+-   [Jaderné hodiny s vyšší frekvencí](https://theconversation.com/why-timekeeping-is-now-on-the-verge-of-a-giant-leap-forward-in-accuracy-238744) — The Conversation. [cit. 2026-04-28]
 
 * * *
 

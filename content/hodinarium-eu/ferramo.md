@@ -28,6 +28,6 @@ Několik fotografií motoru Ferraris použitého pro natahování hodin. Všimn�
 
 ## Odkazy
 
--   [it.wikipedia.org/wiki/Galileo\_Ferraris](http://it.wikipedia.org/wiki/Galileo_Ferraris)
--   [www.chronometrophilia.ch/Electric-clocks/english.htm#fig10](http://www.chronometrophilia.ch/Electric-clocks/english.htm#fig10)
--   [https://clockdoc.org/default.aspx?aid=49](https://clockdoc.org/default.aspx?aid=49)
+-   [it.wikipedia.org/wiki/Galileo\_Ferraris](http://it.wikipedia.org/wiki/Galileo_Ferraris) — it.wikipedia.org. [cit. 2026-04-28]
+-   [www.chronometrophilia.ch/Electric-clocks/english.htm#fig10](http://www.chronometrophilia.ch/Electric-clocks/english.htm#fig10) — chronometrophilia.ch. [cit. 2026-04-28]
+-   [Album: Ferramo](https://clockdoc.org/default.aspx?aid=49) — clockdoc.org. [cit. 2026-04-28]

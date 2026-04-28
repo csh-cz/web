@@ -97,12 +97,12 @@ Je otázka, jak (ne)přesný NTP server na starším 32 bitové notebooku s Lubu
 
 ## Odkazy
 
--   Více také na [Wikipedii](https://cs.wikipedia.org/wiki/GPS) a [v popisu Systému GPS.](https://cs.wikipedia.org/wiki/Glob%C3%A1ln%C3%AD_dru%C5%BEicov%C3%BD_polohov%C3%BD_syst%C3%A9m)
--   [Přesnost atomových hodin, GPS a teorie relativity](https://www.osel.cz/3225-presnost-atomovych-hodin-gps-a-teorie-relativity.html)
--   [www.gpsntp.com](http://www.gpsntp.com/)
--   [Konfigurace NTP serveru](https://martinuvzivot.cz/konfigurace-ntp-serveru/)
--   [Synchronizace času (obsáhlá informace od MEINBERG )](https://kb.meinbergglobal.com/kb/time_sync/start)
--   [NTP server na bázi Arduina](https://forum.arduino.cc/t/ntp-time-server/192816)
--   Bakalářská práce - [Digitální hodiny řízené protokolem NTP](https://dspace.vutbr.cz/bitstream/handle/11012/39582/final-thesis.pdf?sequence=-1)
+-   [Wikipedii](https://cs.wikipedia.org/wiki/GPS) — cs.wikipedia.org. [cit. 2026-04-28]
+-   [Přesnost atomových hodin, GPS a teorie relativity](https://www.osel.cz/3225-presnost-atomovych-hodin-gps-a-teorie-relativity.html) — osel.cz. [cit. 2026-04-28]
+-   [www.gpsntp.com](http://www.gpsntp.com/) — gpsntp.com. [cit. 2026-04-28]
+-   [Konfigurace NTP serveru](https://martinuvzivot.cz/konfigurace-ntp-serveru/) — MartinuvZivot. [cit. 2026-04-28]
+-   [Synchronizace času (obsáhlá informace od MEINBERG )](https://kb.meinbergglobal.com/kb/time_sync/start) — kb.meinbergglobal.com. [cit. 2026-04-28]
+-   [NTP server na bázi Arduina](https://forum.arduino.cc/t/ntp-time-server/192816) — Arduino Forum. [cit. 2026-04-28]
+-   [Digitální hodiny řízené protokolem NTP](https://dspace.vutbr.cz/bitstream/handle/11012/39582/final-thesis.pdf?sequence=-1) — dspace.vutbr.cz. [cit. 2026-04-28]
 
 Text a řešení expozice: Ing. Petr Král

@@ -57,6 +57,6 @@ Ve fyzice se kyvadlo chápe jako pevný předmět. Ovšem všechno co kývá mů
 
 ## Odkazy
 
--   [fyzika.jreichl.com/main.article/view/206-fyzicke-kyvadlo](http://fyzika.jreichl.com/main.article/view/206-fyzicke-kyvadlo)
+-   [fyzika.jreichl.com/main.article/view/206-fyzicke-kyvadlo](http://fyzika.jreichl.com/main.article/view/206-fyzicke-kyvadlo) — fyzika.jreichl.com. [cit. 2026-04-28]
 -   Kniha Mechanika od Dr. Č. Strouhala z roku 1901
--   [Řešené úlohy z mechaniky](http://reseneulohy.cz/cs/fyzika/mechanika)
+-   [Řešené úlohy z mechaniky](http://reseneulohy.cz/cs/fyzika/mechanika) — reseneulohy.cz. [cit. 2026-04-28]

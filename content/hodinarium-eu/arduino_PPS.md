@@ -58,13 +58,13 @@ Celý tento projekt má spíše význam školníhou příkladu.
 
 ## Odkazy
 
--   [Stránky Rubidiového ościkátoru PRS10](https://www.thinksrs.com/products/prs10.html)
--   [GPS disciplined oscillator](https://en.wikipedia.org/wiki/GPS_disciplined_oscillator)
--   [Rubidium Frequency Oscillators firmy AccuBeat](https://www.accubeat.com/rubidium-frequency-oscillators)
+-   [Stránky Rubidiového ościkátoru PRS10](https://www.thinksrs.com/products/prs10.html) — thinksrs.com. [cit. 2026-04-28]
+-   [GPS disciplined oscillator](https://en.wikipedia.org/wiki/GPS_disciplined_oscillator) — en.wikipedia.org. [cit. 2026-04-28]
+-   [Rubidium Frequency Oscillators firmy AccuBeat](https://www.accubeat.com/rubidium-frequency-oscillators) — accubeat.com. [cit. 2026-04-28]
 -   Zpracování dat z GPS
 -   Přesnost hodin Arduino - diskuze
--   [GPS synchronizace u náramkových hodinek](https://www.hodinky-365.cz/blog/gps-synchronizace-casu)
--   [Amater radio statiom W8BH](http://w8bh.net/)
--   [Přesnost časování pomocí Arduina](https://www.mylms.cz/presnost-casovani-pomoci-arduina/)
+-   [GPS synchronizace u náramkových hodinek](https://www.hodinky-365.cz/blog/gps-synchronizace-casu) — hodinky-365.cz. [cit. 2026-04-28]
+-   [Amater radio statiom W8BH](http://w8bh.net/) — w8bh.net. [cit. 2026-04-28]
+-   [Přesnost časování pomocí Arduina](https://www.mylms.cz/presnost-casovani-pomoci-arduina/) — mylms.cz. [cit. 2026-04-28]
 
 Text: Petr Král

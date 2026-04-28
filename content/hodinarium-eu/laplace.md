@@ -59,5 +59,5 @@ Podle vzájemného úhlu obou minutových ručiček bylo možné zjistit kumulov
 ## Odkazy
 
 -   [Laplace – synchrónne hodiny z Košíc, Marián Majerník, SLOVENSK0 TECHNICKÉ MUZEUM KOŠICE](/download/Laplace.pdf)
--   [Evropě se zpozdil čas. Proč vaše trouba spoléhá na spolupráci 25 zemí?](https://www.idnes.cz/technet/technika/zpozdene-budiky-srbsko-kosovo.A180308_192054_tec_technika_pka)
--   [Continuing frequency deviation in the Continental European Power System originating in Serbia/Kosovo: Political solution urgently needed in addition to technical.](https://www.entsoe.eu/news/2018/03/06/press-release-continuing-frequency-deviation-in-the-continental-european-power-system-originating-in-serbia-kosovo-political-solution-urgently-needed-in-addition-to-technical/)
+-   [Evropě se zpozdil čas. Proč vaše trouba spoléhá na spolupráci 25 zemí?](https://www.idnes.cz/technet/technika/zpozdene-budiky-srbsko-kosovo.A180308_192054_tec_technika_pka) — iDNES.cz. [cit. 2026-04-28]
+-   [Continuing frequency deviation in the Continental European Power System originating in Serbia/Kosovo: Political solution urgently needed in addition to technical.](https://www.entsoe.eu/news/2018/03/06/press-release-continuing-frequency-deviation-in-the-continental-european-power-system-originating-in-serbia-kosovo-political-solution-urgently-needed-in-addition-to-technical/) — entsoe.eu. [cit. 2026-04-28]

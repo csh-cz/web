@@ -41,11 +41,11 @@ Stroj je celokovový kovaný ve velkém klecovém rámu. Všechny spoje jsou kl�
 
 V roce 1892 byla ve věži provedena výměna starého hodinového stroje za nový vyrobený firmou Ludvíka Hainze. Tento stroj vydržel na radniční věži asi do roku 1984, kdy ho nahradil stroj od firmy OPP Vyškov. Stroj L. Hainze je nyní vystaven v nové budově radnice v Táboře.
 
-## Hlavní použité zdroje:
+## Použitá literatura
 
--   Thir K: Staré domy a rodiny táborské I. a II. díl, 1920
--   Vybíral J.: Století dědiců a zakladatelů, Praha 1999
--   Český jih, Tábor 26.3. 1921, číslo13, ročník 49
+-   THIR, K. *Staré domy a rodiny táborské.* I. a II. díl. Tábor, 1920.
+-   VYBÍRAL, J. *Století dědiců a zakladatelů.* Praha, 1999.
+-   *Český jih.* Tábor, 26. 3. 1921, č. 13, roč. 49.
 
 ## Animace
 
@@ -57,11 +57,11 @@ Jsme muzeum virtuální, proto zařazujeme na tuto stránku programovaný cifern
 
 ## Odkazy
 
--   [Hodinový stroj z kostelní věže ozdobil radnici](https://taborsky.denik.cz/zpravy_region/hodinovy-stroj-z-kostelni-veze-ozdobil-radnici.html)
--   [Žižkovo náměstí v proměnách času](http://www.husitskemuzeum.cz/zizkovo-namesti-v-promenach-casu-i/) Historičky Husitského muzea v Táboře, Lenka a Jitka Vandrovcovy, připravily přehled proměn ústředního prostoru města Tábora, dnešního Žižkova náměstí, v průběhu staletí. (text i video) Závěrečná část se zmiňuje i o hodinách na kostelní věži, radnici a radniční věži.
--   [Obnovení radnice v Táboře](https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tabor-krov-jan-zizka-600-let.A200821_123202_imp-jihocesky_kov/) (v závěru videa se mihne hodiový stroj patrně OPP Vyškov)
--   [Rekonstrukce radnice 2020](https://www.taborcz.eu/obnova-stare-radnice-prispeje-k-oslavam-zalozeni-mesta/d-66966)
+-   [Hodinový stroj z kostelní věže ozdobil radnici](https://taborsky.denik.cz/zpravy_region/hodinovy-stroj-z-kostelni-veze-ozdobil-radnici.html) — taborsky.denik.cz. [cit. 2026-04-28]
+-   [Žižkovo náměstí v proměnách času](http://www.husitskemuzeum.cz/zizkovo-namesti-v-promenach-casu-i/) — husitskemuzeum.cz. [cit. 2026-04-28]
+-   [Obnovení radnice v Táboře](https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tabor-krov-jan-zizka-600-let.A200821_123202_imp-jihocesky_kov/) — iRegiony — Rádio Impuls. [cit. 2026-04-28]
+-   [Rekonstrukce radnice 2020](https://www.taborcz.eu/obnova-stare-radnice-prispeje-k-oslavam-zalozeni-mesta/d-66966) — taborcz.eu. [cit. 2026-04-28]
 -   Studentské listy, 1882
--   Staré fotografie náměstí v Táboře ateliéru Šechtl Voseček najdete na stránce věnované fotografům z rodu Šechtlů. Prohlídku můžete začít u fotografií [západní strany Žižkova náměstí](https://sechtl-vosecek.ucw.cz/cml/dir/square_west.html).
+-   [západní strany Žižkova náměstí](https://sechtl-vosecek.ucw.cz/cml/dir/square_west.html) — Šechtl a Voseček. [cit. 2026-04-28]
 
 Text: J. Bumerlová, P. Král, animace: P. Král, náhledy čb fotografií: [Digitální archiv Šechtl a Voseček](http://sechtl-vosecek.ucw.cz/cml/dir/index.html).

@@ -19,8 +19,8 @@ I naše virtuální muzeum má takové. Nejčastěji se používají **otáčiv�
 
 ## Odkazy
 
-- Roger Russell: [Mystery Clocks](http://www.roger-russell.com/mysteryclocks/mysteryclocks.htm)
-- Roger Russell: [Haddon variants](http://www.roger-russell.com/haddon/hadvary.htm)
-- Roger Russell: [Haddon mystery clocks](http://www.roger-russell.com/haddon/haddon.htm)
-- UV201: [Mystery clocks reference](http://uv201.com/Clock_Pages/mystery_clocks.htm)
+- [Mystery Clocks](http://www.roger-russell.com/mysteryclocks/mysteryclocks.htm) — roger-russell.com. [cit. 2026-04-28]
+- [Haddon variants](http://www.roger-russell.com/haddon/hadvary.htm) — roger-russell.com. [cit. 2026-04-28]
+- [Haddon mystery clocks](http://www.roger-russell.com/haddon/haddon.htm) — roger-russell.com. [cit. 2026-04-28]
+- [Mystery clocks reference](http://uv201.com/Clock_Pages/mystery_clocks.htm) — Evolution of Radio Signal. [cit. 2026-04-28]
 - Dave West Clocks: Smiths Mystery Clock

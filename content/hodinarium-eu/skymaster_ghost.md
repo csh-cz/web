@@ -21,5 +21,5 @@ Dolometr tak zaznamenával pohyb způsobený otáčením hodin a pokud naměřen
 
 ## Odkazy
 
--   [Různé typy konstatovacích hodin](https://commons.wikimedia.org/wiki/Category:Racingpigeons_clocks)
--   Patent GB673831 (A) - Improvements in time recording apparatus ([automatický překlad](http://translationportal.epo.org/emtp/translate/?ACTION=abstract-retrieval&COUNTRY=GB&ENGINE=google&FORMAT=docdb&KIND=A&LOCALE=en_EP&NUMBER=673831&SRCLANG=EN&OPS=ops.epo.org/3.2&TRGLANG=cs))
+-   [Různé typy konstatovacích hodin](https://commons.wikimedia.org/wiki/Category:Racingpigeons_clocks) — commons.wikimedia.org. [cit. 2026-04-28]
+-   [automatický překlad](http://translationportal.epo.org/emtp/translate/?ACTION=abstract-retrieval&COUNTRY=GB&ENGINE=google&FORMAT=docdb&KIND=A&LOCALE=en_EP&NUMBER=673831&SRCLANG=EN&OPS=ops.epo.org/3.2&TRGLANG=cs) — translationportal.epo.org. [cit. 2026-04-28]

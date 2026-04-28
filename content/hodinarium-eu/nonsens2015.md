@@ -114,10 +114,10 @@ Sluneční hodinky
 
 ## Odkazy
 
--   [Sbírka Jára](http://www.sbirkajara.cz/)
+-   [Sbírka Jára](http://www.sbirkajara.cz/) — sbirkajara.cz. [cit. 2026-04-28]
 -   Nonseum v Heernbaumgartenu
--   [Muzeum J. A. Komenského](http://www.mjakub.cz/?idc=1308)
+-   [Muzeum J. A. Komenského](http://www.mjakub.cz/?idc=1308) — mjakub.cz. [cit. 2026-04-28]
 -   Muzeum J. A. Komenského 2
 -   Technické muzeum v Brně
--   [ateo.cz](http://ateo.cz/pg/home/) fotokoláže a jiné úlety
--   [steampunker.de](http://steampunker.de/galerie/list/category/uhren/#.VcyUn_ntmko) - mnoho hodin ve stylu steampunk
+-   [aTeo](http://ateo.cz/pg/home/) — ateo.cz. [cit. 2026-04-28]
+-   [steampunker.de](http://steampunker.de/galerie/list/category/uhren/#.VcyUn_ntmko) — steampunker.de. [cit. 2026-04-28]

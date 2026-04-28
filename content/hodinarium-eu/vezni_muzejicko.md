@@ -67,7 +67,7 @@ Virtuální audio procházku se Světlanou Lavičkovou v pořadu Odysea si můž
 -   Muzeum věžních hodin Mindelheim. (Brožura)
 -   Městská věž Waldmünchen. Velmi zajímavé muzem věžních hodin blízko našich hranic přímo v městské ve věži. Historie věže.
 -   Gdaňsk - Muzeum Zegarów Wieżowych. Muzeum je po požáru znovu otevřeno.
--   [Turmuhrenmuseum Bockenem](http://www.bockenem.de/tourismus/museum-der-zeit.html) - Muzeum věžních hodin v Bockenem. Obrázky vystavených věžních hodin najdete i ve [wikipedii](http://commons.wikimedia.org/wiki/Category:Turmuhrenmuseum_Bockenem). Muzeum je zaměženo na představení působení firmy [Bockenemer Turmuhrenfabrik](http://de.wikipedia.org/wiki/J._F._Weule) [J F Weule](http://de.wikipedia.org/wiki/J._F._Weule) - výroba věžních hodin a slévárna zvonů. V muzeu je údajně 40 funkčních exponátů a zvonohra.
--   www.trebinotowerclockmakers.com Italské muzeum věžních hodin v prostorách výrobní firmy TREBINO. Stránky v italské verzi jsou poněkud odlišné. Zkuste také [www.trebino.it.](http://www.trebino.it/Objects/Pagina.asp?ID=5&T=Museo%20orologi)
--   [Litovelská radniční věž](http://olomouc.idnes.cz/litovelska-radnicni-vez-nabizi-krome-vyhledu-i-komurku-hlasneho-pxr-/olomouc-zpravy.aspx?c=A120514_1777773_olomouc-zpravy_sot) možná také více ožije. Zpráva z 19.5.2012 to naznačuje.
--   Jeden z poněkud odlišných projektů, který obdivujeme - [theclockworks.org](http://theclockworks.org/)
+-   [Turmuhrenmuseum Bockenem](http://www.bockenem.de/tourismus/museum-der-zeit.html) — bockenem.de. [cit. 2026-04-28]
+-   [Museo dell'orologio da torre | Uscio, Genova](http://www.trebino.it/Objects/Pagina.asp?ID=5&T=Museo%20orologi) — Trebino | Orologi da torre e campane. [cit. 2026-04-28]
+-   [Litovelská radniční věž](http://olomouc.idnes.cz/litovelska-radnicni-vez-nabizi-krome-vyhledu-i-komurku-hlasneho-pxr-/olomouc-zpravy.aspx?c=A120514_1777773_olomouc-zpravy_sot) — iDNES.cz. [cit. 2026-04-28]
+-   [The Clockworks &#8211; Museum | Workshop](http://theclockworks.org/) — theclockworks.org. [cit. 2026-04-28]

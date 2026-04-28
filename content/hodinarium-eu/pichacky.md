@@ -97,7 +97,7 @@ Na tento vynález narazil autor webu workclocks, když procházel stovky patent�
 -   Bundy
 
 -   [Firma Bürk](https://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk)
--   [Strážní hodiny Bürk](http://www.watchclocks.org/Types/19th_Century/52_Burk/52_burk.html)
+-   [Strážní hodiny Bürk](http://www.watchclocks.org/Types/19th_Century/52_Burk/52_burk.html) — watchclocks.org. [cit. 2026-04-28]
 
 ## Poděkování
 

@@ -128,14 +128,14 @@ Na videu v režimu nastavení na čas (FAST).
 
 ## Odkazy
 
--   [Witty Cload Module Adapter Board](https://www.instructables.com/Witty-Cloud-Module-Adapter-Board/)
+-   [Witty Cload Module Adapter Board](https://www.instructables.com/Witty-Cloud-Module-Adapter-Board/) — Instructables. [cit. 2026-04-28]
 -   Vývojový modul ESP8266 ... eshop
--   [O ESP32 a ESP8266](https://www.root.cz/clanky/esp32-je-tu-co-prinese-nastupce-esp8266/)
--   [H můstek ... eshop](https://dratek.cz/arduino/877-arduino-h-mustek-pro-krokovy-motor-l298n-dual-h-most-dc.html)
--   [Mobatime](http://mobatime.cz)
+-   [O ESP32 a ESP8266](https://www.root.cz/clanky/esp32-je-tu-co-prinese-nastupce-esp8266/) — Root.cz. [cit. 2026-04-28]
+-   [H můstek ... eshop](https://dratek.cz/arduino/877-arduino-h-mustek-pro-krokovy-motor-l298n-dual-h-most-dc.html) — dratek.cz. [cit. 2026-04-28]
+-   [Zařízení pro zobrazování času, průmyslové hodiny, docházkové systémy a řešení časoměrných zařízení na míru MOBATIME](http://mobatime.cz) — MOBATIME. [cit. 2026-04-28]
 -   [Varianta NTP impulzeru pro IBM](/clanky/Arduino_IBM)
--   [Arduino - nastavení pro časové zóny](https://sites.google.com/a/usapiens.com/opnode/time-zones)
--   Jiná řešení jednoduchých impulzerů: [zajic.cz](http://zajic.cz/podruzsmd/podruzsmd.html), [maticni-hodiny-generator-minutovych-impulsu ...](http://www.snailshop.cz/maticni-hodiny/407-maticni-hodiny-generator-minutovych-impulsu.html)
+-   [Arduino - nastavení pro časové zóny](https://sites.google.com/a/usapiens.com/opnode/time-zones) — sites.google.com. [cit. 2026-04-28]
+-   [Generátor minutových impulsů](http://zajic.cz/podruzsmd/podruzsmd.html) — zajic.cz. [cit. 2026-04-28]
 
 * * *
 

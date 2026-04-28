@@ -27,11 +27,11 @@ Exponát Hodinária je funkční časový zámek Thomas Fox Mechanical Time Over
 
 ## Odkazy
 
--   [Velká sbírka časových zámků](http://www.my-time-machines.net/my_time_lock_collection.htm). (To nevynechejte. Mechanické časové zámky se montovaly do tresorů bohatých lidí. Nezaujmou jen svou technickou invencí, ale i krásou. )
+-   [Velká sbírka časových zámků](http://www.my-time-machines.net/my_time_lock_collection.htm) — my-time-machines.net. [cit. 2026-04-28]
 -   Web výrobce prvního časového zámku. Škoda, že uvedené návody k použití nelze automaticky přeložit.
--   [Web dodavatele našeho exponátu.](http://www.safeandvaultcompany.co.uk/)
+-   [Web dodavatele našeho exponátu.](http://www.safeandvaultcompany.co.uk/) — Safe + Vault. [cit. 2026-04-28]
 -   Základní popis funkce a použití časových zámků.
--   [Wikipedia](https://en.wikipedia.org/wiki/Time_lock) (anglicky)
+-   [Time lock](https://en.wikipedia.org/wiki/Time_lock) — en.wikipedia.org. [cit. 2026-04-28]
 -   [Bank Vault Anathomy](http://web.archive.org/web/20160303223330/https://dl.dropboxusercontent.com/u/74738260/Bank_Vault_Anatomy.pdf).
--   [TMI Guide to Timelock Movements](http://www.sopl.us/uploads/1/3/0/1/1301029/tmi_guide_to_timelock_2009.pdf).
--   [I v počítačovém bankovnictví se používá druh časového zámku](http://finexpert.e15.cz/ceska-sporitelna-prodluzuje-tzv-casovy-zamek-pri-zmene-telefonniho-cisla-v-internetovem-bankovnictvi).
+-   [TMI Guide to Timelock Movements](http://www.sopl.us/uploads/1/3/0/1/1301029/tmi_guide_to_timelock_2009.pdf) — sopl.us. [cit. 2026-04-28]
+-   [I v počítačovém bankovnictví se používá druh časového zámku](http://finexpert.e15.cz/ceska-sporitelna-prodluzuje-tzv-casovy-zamek-pri-zmene-telefonniho-cisla-v-internetovem-bankovnictvi) — e15.cz. [cit. 2026-04-28]
