@@ -11,9 +11,9 @@ scrapedAt: "2026-04-27T17:37:05.222Z"
 
 Mezi kuriózní hodiny můžeme zařadit i hodiny ukazující více časů. Na úvodním obrázku jsou hodiny „SVĚTOVÝ ČAS“ od firmy Spel. Jedná se o analogové hodiny v kombinaci s digitálním datumem. Hodiny ukazují místní čas a čas v městech ***New York, London, Sofia a Moskva***.
 
-Možnost zobrazovat čas alespoň ve dvou pásmech dnes patří k dobrému tónu u lepších náramkových hodinek. [![hodinyky s mnoha časy](/img/ujete/pasmovky_hodinky_i.jpg)](javascript:view\('img/ujete/pasmovky_hodinky.jpg',401,491\))I pomocí mobilu lze zjistit čas v různých částech světa. Pásmové hodiny jsou i v našem virtuálním muzeu na stránce [**papíráků**](/clanky/papir) (hodiny Praha - Denver).
+Možnost zobrazovat čas alespoň ve dvou pásmech dnes patří k dobrému tónu u lepších náramkových hodinek. [![hodinyky s mnoha časy](/img/ujete/pasmovky_hodinky_i.jpg)](/img/ujete/pasmovky_hodinky.jpg)I pomocí mobilu lze zjistit čas v různých částech světa. Pásmové hodiny jsou i v našem virtuálním muzeu na stránce [**papíráků**](/clanky/papir) (hodiny Praha - Denver).
 
-Na obrázku vlevo jsou luxusní hodinky - mechanické automaty zn. LOUIS VALON. Ukazují 6 časových zón a to Londýn, Johannesburg, Sao Paolo, Bangkok, New York a Sydney. V Londýně, New Yorku a Bangkoku ukazují i postavení Slunce a Měsíce. *([klikněte](javascript:view\('img/ujete/pasmovky_hodinky.jpg',401,491\)) pro zvětšení.)*
+Na obrázku vlevo jsou luxusní hodinky - mechanické automaty zn. LOUIS VALON. Ukazují 6 časových zón a to Londýn, Johannesburg, Sao Paolo, Bangkok, New York a Sydney. V Londýně, New Yorku a Bangkoku ukazují i postavení Slunce a Měsíce. *([klikněte](/img/ujete/pasmovky_hodinky.jpg) pro zvětšení.)*
 
 V poslední době se v Karlových Varech objevují hodiny nastavené na moskevský čas. Nic proti moskevskému času. Bylo by však vhodnější nastavovat moskevský čas pouze na pásmových hodinách. Proto příliš nevítáme zavádění moskevského času na mnoha místech Karlových Varů.
 
@@ -23,7 +23,7 @@ Do kategorie opravdových pásmovek patří hodiny **Digi-tech - Hodiny se svět
 
 Časové pásmo je teoreticky ohraničeno poledníky po 15 stupních. Prakticky časová pásma obvykle respektují hranice státu či přírodní útvary. Velkými státy naopak prochází několik pásem. Všechna časová pásma vidíte na obrázku. Kliknutém na obrázek získáte větší zobrazení. Pak uvidíte, že čas se neposouvá vždy o celé hodiny. Ve hře jsou i půlhodiny (například Indie nebo ostrov Norfolk), dokonce ve výjimečných případech i čtvrthodiny. Také stojí za povšimnutí, že značná část světa nezavádí letní čas. Na dolním obrázku šikmo šrafované území.
 
-[![mapa pásem](/img/worldzones.gif)](javascript:view\('img/worldzones.gif',1000,507\))V dolní části vidíte tabulku časových posunů proti času GMT (Greenwichský čas). Pásma jsou značena tzv. **vojenským značením**. U nás se častěji používá označení vyplývající ze zeměpisné polohy s případným doplněním letního času či "času denního světla". Příklady:
+[![mapa pásem](/img/worldzones.gif)](/img/worldzones.gif)V dolní části vidíte tabulku časových posunů proti času GMT (Greenwichský čas). Pásma jsou značena tzv. **vojenským značením**. U nás se častěji používá označení vyplývající ze zeměpisné polohy s případným doplněním letního času či "času denního světla". Příklady:
 
 ))
 

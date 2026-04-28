@@ -2,6 +2,7 @@
 import Base from "./Base.astro";
 import Card from "../components/Card.astro";
 import catalog from "../data/catalog.json";
+import { hodinariProClanek } from "../data/hodinari";
 
 interface CatalogEntry {
   slug: string;
@@ -48,6 +49,8 @@ const related = me
 const lastModifiedReadable = lastModified
   ? new Date(lastModified).toLocaleDateString('cs-CZ', { day: 'numeric', month: 'long', year: 'numeric' })
   : null;
+
+const hodinariZmineni = slug ? hodinariProClanek(slug) : [];
 ---
 <Base title={title} description={description}>
   <!-- Breadcrumbs -->
@@ -81,6 +84,28 @@ const lastModifiedReadable = lastModified
     </div>
 
     <div class="fleuron"></div>
+
+    {hodinariZmineni.length > 0 && (
+      <aside class="hodinari-box" aria-label="Hodináři zmínění v článku">
+        <p class="eyebrow hodinari-box-label">Hodináři v tomto článku</p>
+        <ul class="hodinari-box-list">
+          {hodinariZmineni.map((h) => (
+            <li>
+              <a href={`/hodinari/${h.slug}`}>
+                <strong>{h.jmeno}</strong>
+                {h.obdobi && <span class="hodinari-box-meta">{h.obdobi}</span>}
+                {h.mesto && (
+                  <>
+                    <span class="hodinari-box-sep" aria-hidden="true">·</span>
+                    <span class="hodinari-box-meta">{h.mesto}</span>
+                  </>
+                )}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </aside>
+    )}
 
     <footer class="article-byline">
       <span class="byline-author">Český spolek horologický</span>
@@ -161,6 +186,56 @@ const lastModifiedReadable = lastModified
     margin: 0 0 1rem;
     color: var(--color-brass-bright);
     letter-spacing: -0.01em;
+  }
+
+  .hodinari-box {
+    background: color-mix(in srgb, var(--color-bg-deep) 80%, var(--color-copper));
+    border: 1px solid color-mix(in srgb, var(--color-copper) 30%, transparent);
+    border-left: 3px solid var(--color-copper);
+    border-radius: 2px;
+    padding: 1rem 1.25rem;
+    margin: 2rem 0 1rem;
+  }
+  .hodinari-box-label {
+    margin: 0 0 0.6rem;
+  }
+  .hodinari-box-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+  }
+  .hodinari-box-list a {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0.35rem 0.75rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    color: var(--color-brass-bright);
+    transition: border-color 150ms ease, background 150ms ease;
+  }
+  .hodinari-box-list a:hover {
+    border-color: var(--color-brass);
+    background: var(--color-bg);
+  }
+  .hodinari-box-list strong {
+    font-family: var(--font-serif);
+    font-weight: 500;
+  }
+  .hodinari-box-meta {
+    color: var(--color-text-muted);
+    font-size: 0.82rem;
+    font-feature-settings: "lnum";
+  }
+  .hodinari-box-sep {
+    color: var(--color-brass);
+    opacity: 0.5;
   }
 
   .article-byline {

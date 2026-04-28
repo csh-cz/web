@@ -33,14 +33,14 @@ Nebudeme si všímat bouřlivé politické atmosféry a raději si ukážeme, ja
 **N**a prvním obrázku je najjednodušší kombinovaný ciferník, kde hodinová ručička ukazuje
 1-10 decimálních hodin a doplňkově 2 x 1-12. Pro minutovou ručičku má ciferník pouze značení 1-60. Ukazuje tedy v minutách předrevoluční čas a oběhne ciferník za den celkem 24x. Jsou to tedy "normální" celodenní hodiny, včetně převodu na minutovou ručičku, pouze s domalovaným novým ciferníkem hodin. Minuty v desetinné soustavě můžeme pouze odhadovat z polohy malé ručičky. Na ciferníku je přibližne 1,3 hodiny, tedy 1 hodina 30 minut.
 
-![](<javascript:view\('img/decimalky/225.jpg', 486, 500\)>)[!
-](<javascript:view\('img/decimalky/Horloge-republicaine2.jpg', 473, 471\)>)Obrázky převzaty z serveru [www.decimaltime.hynes.net](http://www.decimaltime.hynes.net/) Kliknutím zvětšte.
+![](/img/decimalky/225.jpg)[!
+](/img/decimalky/Horloge-republicaine2.jpg)Obrázky převzaty z serveru [www.decimaltime.hynes.net](http://www.decimaltime.hynes.net/) Kliknutím zvětšte.
 
 **N**a druhém ciferníku zdobeném revoluční čapkou republiky a národními barvami je již pokročilejší řešení. Pro velkou ručičku jsou opět namalovány oba ciferníky jako v předchozím případě. Tentokrát jsou i dva ciferníky pro minuty. V tomto případě musí být ovšem dvě různé minutové ručičky s různými převody. Jedna minutová ručička obíhá ciferník 10 x za den, druhá (klasická) 24 x za den.
 
 **H**odiny ukazují přibližně 2 hod 73 minut decimálního času a současně 6 hodin 29 minut klasického času. Jedna decimální hodina odpovídá 24/10 = 2,4 (2 h 24 min) klasickým hodinám. Tedy přepočet 2,73 x 2,4 = 6,552 = 6 h 33 minut. Poloha malých ručiček je celkem správná.
 
-I u nás se docházelo k přemalování ciferníků, jak svědčí [nalezená tabulka.](<javascript:view\('img/decimalky/cedule2.jpg', 566, 287\)>)
+I u nás se docházelo k přemalování ciferníků, jak svědčí [nalezená tabulka.](/img/decimalky/cedule2.jpg)
 
 * * *
 

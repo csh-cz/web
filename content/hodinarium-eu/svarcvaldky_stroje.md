@@ -15,13 +15,13 @@ Od nejstarších dob do nedaleké minulosti měly švarcvaldky dřevěný rám s
 
 Vyráběné stroje se lišily velikostí rámu, velikostí kyvadla a tím jiným poměrem ozubení, dále bicím zařízením, [budíkem](budiky1.htm#budik2) či kukačkou. Neměnila se však základní koncepce stroje. Jicí stroj s typickým kyvadlovým černoleským krokem má pouze 3 kola hlavního soukolí (hnací kolo, mezilehlé kolo a krokové kolo). Převod na ručičky je odvozen přímo od hnacího kola. Na stejné hřídeli je nasazeno "střídné" kolo s pastorkem zabírající do hodinového i minutového kola. Výjimku tvoří pouze pérový stroj, který pro zmenšení počtu otáček pérovníku, má jedno mezilehlé kolo navíc.
 
-V průběhu 18. a 19. století se podstatně měnila technologie výroby ozubených kol.![](<javascript:view\('img/svarcvald/technologie.jpg', 800, 553\)>) Nejstarší hodiny měly zcela dřevěná kola. Později zůstal dřevěný pouze náboj (často s železným trnem ložiska). Lucernový pastorek měl nadále dřevěná čela. Ozubená kola byla mosazná. Ještě později byla celá kolečka mosazná nadále s lucernovým pastorkem. Trochu s humorem nazýváme jednotlivé způsoby výroby převodů "**doba dřevěná**", "**doba polodřevěná**" a "**doba mosazná**".
+V průběhu 18. a 19. století se podstatně měnila technologie výroby ozubených kol.![](/img/svarcvald/technologie.jpg) Nejstarší hodiny měly zcela dřevěná kola. Později zůstal dřevěný pouze náboj (často s železným trnem ložiska). Lucernový pastorek měl nadále dřevěná čela. Ozubená kola byla mosazná. Ještě později byla celá kolečka mosazná nadále s lucernovým pastorkem. Trochu s humorem nazýváme jednotlivé způsoby výroby převodů "**doba dřevěná**", "**doba polodřevěná**" a "**doba mosazná**".
 
 Obrázek ukazuje ve spodní části stejnou součástku - minutové kolo - ve všech zmíněných technologiích. Na obrázku jsou také hnací kolo pro šňůrový pohon a hodinová kola a krokové kolo bez hřídele.
 
 Povšimněte si prosím,že celodřevěné ozubené kolo (1. zleva) má jeden zub plombován železnou plombou.
 
-[![švarcvaldky 1840](/img/svarcvald/kukacky1840.jpg)](<javascript:view\('http://www.antique-horology.org/_Editorial/BlackForestClocks/Images/koekoek1.jpg', 750, 531\)>)Je zajímavé, že se měnilo i umístění strojů v rámu. Nejčastěji, z pohledu ze strany ciferníku, je jicí stroj vlevo, bicí vpravo. Existují stroje s opačnym uspořádáním. To je i případ uvedeného pérového stroje. Klasické uspořádání švarcvldek má v rámu stroje za sebou. Samozřejmě vpředu jicí stroj, vzadu bicí stroj. Na níže uvedených obrázcích je tato konstrukce rámu jak pro polodřevěná kola, tak pro mosazná kola. Dělí je tedy od sebe přibližně jedno století.
+[![švarcvaldky 1840](/img/svarcvald/kukacky1840.jpg)](/http://www.antique-horology.org/_Editorial/BlackForestClocks/Images/koekoek1.jpg)Je zajímavé, že se měnilo i umístění strojů v rámu. Nejčastěji, z pohledu ze strany ciferníku, je jicí stroj vlevo, bicí vpravo. Existují stroje s opačnym uspořádáním. To je i případ uvedeného pérového stroje. Klasické uspořádání švarcvldek má v rámu stroje za sebou. Samozřejmě vpředu jicí stroj, vzadu bicí stroj. Na níže uvedených obrázcích je tato konstrukce rámu jak pro polodřevěná kola, tak pro mosazná kola. Dělí je tedy od sebe přibližně jedno století.
 
 **D**efilé strojů z 19. a 20. století symbolicky zahájíme fotografií nádherných kukaček z muzea **Museum of the Dutch Clock** Zaanse Schans, Zaandam viz **[zaandam.klokkenmuseum.info](http://aandam.klokkenmuseum.info/).** Jedná se o polodřevěné hodiny **z roku 1840**. Muzeum uvádí výrobu kukaček od roku 1730, nejstarší exponáty má z roku 1760.
 
@@ -29,7 +29,7 @@ Celodřevěné, trochu nepřesně datované, hodiny jsou [**zde**](/clanky/svarc
 
 * * *
 
-![](<javascript:view\('img/svarcvald/sw_d1.jpg', 480, 640\)>)
+![](/img/svarcvald/sw_d1.jpg)
 
 * * *
 
@@ -40,7 +40,7 @@ Bicí palička udeří zdola na rozdíl od druhého stroje, kde dopadá shora.
 
 * * *
 
-![](<javascript:view\('img/svarcvald/sw_d2.jpg', 479, 639\)>)
+![](/img/svarcvald/sw_d2.jpg)
 
 * * *
 
@@ -52,7 +52,7 @@ Tento stroj je doplněn kukačkou, ze které zde ovšem téměř nic není vidě
 
 [!
 
-](<javascript:view\('img/svarcvald/sw_d3.jpg', 479, 555\)>)
+](/img/svarcvald/sw_d3.jpg)
 
 * * *
 
@@ -73,7 +73,7 @@ Půlové bití.
 
 * * *
 
-![](<javascript:view\('img/svarcvald/sw_d4.jpg', 479, 639\)>)
+![](/img/svarcvald/sw_d4.jpg)
 
 !
 
@@ -93,7 +93,7 @@ Více fotografií tohoto typu hodin po restaurování si můžete prohlédnout [
 
 * * *
 
-![](<javascript:view\('img/svarcvald/s-lak2det7.jpg', 270, 350\)>)
+![](/img/svarcvald/s-lak2det7.jpg)
 
 * * *
 
@@ -104,7 +104,7 @@ Možná KIENZLE, 30. léta 20. století ?
 
 * * *
 
-![](<javascript:view\('img/svarcvald/sw_d6.jpg', 480, 640\)>)
+![](/img/svarcvald/sw_d6.jpg)
 
 * * *
 

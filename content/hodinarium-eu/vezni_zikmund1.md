@@ -22,7 +22,7 @@ roku. Ale pěkně od začátku.*
 
 *K práci na zhotovení elektrického pohonu natahování závaží hodin jsem si přizval kolegu Pavla Jandu s přesvědčením, že zařízení rozumí, ale hlavně více disponuje potřebným strojním vybavením. Nakonec se práce ujal zcela samostatně. Řekl jsem si - dobře mi tak, hlavně že nám zase oživne další pěkný stroj věžních hodin. Mou nabízenou pomoc a radu za celou dobu nevyužil, tak jsem věřil, že se práce úspěšně daří. Na podzim jsem se doslechl, že kolega již hotový stroj nainstaloval, tak jsem se celej zvědavej šel podívat, jak to vypadá:*
 
-[![stroj](/img/vezni/Jablonec/stroj_m.jpg)](<javascript:view\('img/vezni/Jablonec/stroj.jpg', 639, 645\)>)
+[![stroj](/img/vezni/Jablonec/stroj_m.jpg)](/img/vezni/Jablonec/stroj.jpg)
 
 *Zařízení velmi pěkně vyhlíželo, na každé ze tří původně ručně natahovaných hřídelí byla nasazena masivní lesklá ocelová šroubovice s bronzovými maticemi k ovládání koncových spínačů tří motorů s převodovkami a speciálními spojkami. Vše ve speciálním svařovaném rámu, vše s velmi pěknou povrchovou úpravou. **Jen to spustit........***
 

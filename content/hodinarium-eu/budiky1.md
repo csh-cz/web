@@ -15,7 +15,7 @@ Od roku 1680 do roku 1920 byla centrem výroby hodin Comtoise obec Morbier v reg
 
 Hnací kolo a rohatka je na stejné ose jako kolo krokové. Na prvním obrázku vše viditelné vpravo dole. Místo řetězu je často použita jen šňůra s dvojicí nestejně velkých závaží. V porovnání se závažím jicího stroje jsou tato závaží podstatně menší. Budící stroj se "natahuje" zatažením za šňůru.
 
-[![comtoise budík](/img/budiky1/budik_comtoise1m.jpg)](<javascript:view\('img/budiky1/budik_comtoise1.jpg', 297, 400\)>)[![comtoise budík](/img/budiky1/budik_comtoise2m.jpg)](<javascript:view\('img/budiky1/budik_comtoise2.jpg', 297, 400\)>)
+[![comtoise budík](/img/budiky1/budik_comtoise1m.jpg)](/img/budiky1/budik_comtoise1.jpg)[![comtoise budík](/img/budiky1/budik_comtoise2m.jpg)](/img/budiky1/budik_comtoise2.jpg)
 
 U budícího stroje se obvykle používá černoleský krok. Krok má však jiný úkol než u hodinového stroje. Slouží pouze k přeměňování otáčivého pohybu v kývavý pohyb paličky, která tak přebírá funkci regulátoru rychlosti otáčení krokového kola. ![součásti budíku](/img/budiky1/budik_comtoise_casti.jpg)U hodin Comtoise na obrázku je opět použit krok vřetenový jako u jicího stroje. Na ose vřetena je palička, která bije do zvonku bicího mechanismu, nebo do samostatného zvonku.
 
@@ -31,13 +31,13 @@ Vlevo dole: dvouramenná palička, krokové kolo; Šikmo středem: vřeteno s tr
 
 Zde je řešení podobné, jen krokové kolo a krok je jiný.
 
-![](<javascript:view\('img/budiky1/budik_schwarz3.jpg', 493, 653\)>)
+![](/img/budiky1/budik_schwarz3.jpg)
 
-![](<javascript:view\('img/budiky1/budik_schwarz1.jpg', 493, 653\)>)
+![](/img/budiky1/budik_schwarz1.jpg)
 
-![](<javascript:view\('img/budiky1/budik_schwarz2.jpg', 653, 493\)>)
+![](/img/budiky1/budik_schwarz2.jpg)
 
-![](<javascript:view\('img/budiky1/budik_schwarz4.jpg', 653, 493\)>)
+![](/img/budiky1/budik_schwarz4.jpg)
 
 Téměř celý budící stroj vpravo nahoře.
 

@@ -1,0 +1,267 @@
+---
+import Base from '../../layouts/Base.astro';
+import { hodinari } from '../../data/hodinari';
+import catalog from '../../data/catalog.json';
+
+interface CatalogEntry {
+  slug: string;
+  title: string;
+  category: string;
+  thumbnail: string | null;
+  excerpt: string;
+  imageCount: number;
+}
+
+export async function getStaticPaths() {
+  return hodinari.map((h) => ({
+    params: { slug: h.slug },
+    props: { hodinar: h },
+  }));
+}
+
+const { hodinar } = Astro.props;
+const all = catalog as CatalogEntry[];
+const related = hodinar.relatedSlugs
+  .map((s) => all.find((e) => e.slug === s))
+  .filter((e): e is CatalogEntry => Boolean(e));
+---
+<Base
+  title={`${hodinar.jmeno} — hodinář`}
+  description={hodinar.shrnuti}
+>
+  <nav class="breadcrumbs" aria-label="Drobečková navigace">
+    <a href="/">Hodinárium</a>
+    <span aria-hidden="true">›</span>
+    <a href="/hodinari">Hodináři</a>
+    <span aria-hidden="true">›</span>
+    <span class="current" aria-current="page">{hodinar.jmeno}</span>
+  </nav>
+
+  <article class="hodinar-detail">
+    <header class="hodinar-detail-header">
+      <p class="eyebrow mb-3">{hodinar.typ === 'osoba' ? 'Hodinář' : 'Hodinářská firma'}</p>
+      <h1 class="hodinar-detail-title">{hodinar.jmeno}</h1>
+
+      <dl class="hodinar-detail-meta">
+        {hodinar.obdobi && (
+          <div>
+            <dt>{hodinar.typ === 'osoba' ? 'Životní data / aktivita' : 'Působení'}</dt>
+            <dd>{hodinar.obdobi}</dd>
+          </div>
+        )}
+        {hodinar.mesto && (
+          <div>
+            <dt>Lokalita</dt>
+            <dd>{hodinar.mesto}{hodinar.zeme && hodinar.zeme !== 'CZ' && <span class="hodinar-zeme">&nbsp;({hodinar.zeme})</span>}</dd>
+          </div>
+        )}
+      </dl>
+    </header>
+
+    <div class="prose-content">
+      <p class="lead">{hodinar.shrnuti}</p>
+
+      <aside class="hodinar-stub-note">
+        <p>
+          <strong>Životopisný profil je zatím stub.</strong> Připravujeme rozšířený text
+          s archivními prameny, podrobnostmi o dílně a typologii zachovaných strojů.
+          Pokud disponujete dochovanými dokumenty, fotografiemi nebo svědectvími,
+          ozvěte&nbsp;se nám — uvítáme každý další střípek.
+        </p>
+      </aside>
+
+      {related.length > 0 && (
+        <section>
+          <h2>Zmíněn v článcích</h2>
+          <ul class="hodinar-related-list">
+            {related.map((c) => (
+              <li>
+                <a href={`/clanky/${c.slug}`}>
+                  {c.thumbnail && (
+                    <img src={c.thumbnail} alt="" loading="lazy" decoding="async" />
+                  )}
+                  <span class="related-text">
+                    <strong>{c.title || c.slug}</strong>
+                    {c.excerpt && <span class="related-excerpt">{c.excerpt.slice(0, 140)}{c.excerpt.length > 140 ? '…' : ''}</span>}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </div>
+
+    <footer class="article-byline">
+      <span class="byline-author">Český spolek horologický</span>
+      <span class="byline-sep" aria-hidden="true">·</span>
+      <span class="byline-date">Stub profil — připravujeme rozšířený životopis</span>
+    </footer>
+  </article>
+</Base>
+
+<style>
+  .breadcrumbs {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .breadcrumbs a {
+    color: var(--color-text-soft);
+    border-bottom: none;
+  }
+  .breadcrumbs a:hover {
+    color: var(--color-brass-bright);
+  }
+  .breadcrumbs .current {
+    color: var(--color-text-soft);
+    font-style: italic;
+  }
+  .breadcrumbs span[aria-hidden] {
+    color: var(--color-brass);
+    opacity: 0.5;
+  }
+
+  .hodinar-detail {
+    max-width: 72ch;
+    margin: 0 auto;
+  }
+  .hodinar-detail-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .hodinar-detail-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    line-height: 1.1;
+    margin: 0 0 1.25rem;
+    color: var(--color-brass-bright);
+    letter-spacing: -0.01em;
+  }
+  .hodinar-detail-meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin: 0;
+  }
+  .hodinar-detail-meta div {
+    border-left: 2px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    padding-left: 0.85rem;
+  }
+  .hodinar-detail-meta dt {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--color-copper);
+    font-weight: 500;
+    margin: 0 0 0.2rem;
+  }
+  .hodinar-detail-meta dd {
+    font-size: 1rem;
+    color: var(--color-text);
+    margin: 0;
+    font-feature-settings: "lnum";
+  }
+  .hodinar-zeme {
+    color: var(--color-text-muted);
+    font-size: 0.9em;
+  }
+
+  .lead {
+    font-size: 1.2rem;
+    line-height: 1.55;
+    color: var(--color-text);
+    margin-top: 0;
+  }
+
+  .hodinar-stub-note {
+    background: color-mix(in srgb, var(--color-bg-deep) 85%, var(--color-copper));
+    border: 1px solid color-mix(in srgb, var(--color-copper) 40%, transparent);
+    border-left: 3px solid var(--color-copper);
+    padding: 1rem 1.25rem;
+    margin: 2rem 0;
+    border-radius: 2px;
+  }
+  .hodinar-stub-note p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--color-text-soft);
+  }
+
+  .hodinar-related-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .hodinar-related-list a {
+    display: flex;
+    gap: 1rem;
+    padding: 0.75rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--color-text);
+    align-items: flex-start;
+    transition: border-color 150ms ease;
+  }
+  .hodinar-related-list a:hover {
+    border-color: var(--color-brass);
+  }
+  .hodinar-related-list img {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 2px;
+    flex-shrink: 0;
+    filter: sepia(0.15) saturate(0.85);
+  }
+  .related-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1;
+    min-width: 0;
+  }
+  .related-text strong {
+    color: var(--color-brass-bright);
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .related-excerpt {
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+    line-height: 1.4;
+  }
+
+  .article-byline {
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .byline-author {
+    color: var(--color-text-soft);
+    font-style: italic;
+  }
+  .byline-sep {
+    color: var(--color-brass);
+    opacity: 0.5;
+  }
+</style>

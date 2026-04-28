@@ -27,7 +27,7 @@ Sluneční hodiny symbolizují sepětí člověka s přírodou. Proto jsem rád,
 
 **Z**eměpisný posun a posun letního času jsou konstantní a je možné je korigovat natočením ciferníku. Korekce podle časové rovnice je složitější křivka jménem analema. Lze ji nakreslit na ciferník, nebo podle ní tvarovat ukazatel. Čas je pak odečítán v části křivky příslušné k určitému datu v roce. Pozorovatel je v dost obtížné situaci, protože musí rozhodující bod určit obvykle podle znamení zvěrokruhu.
 
-**Z** úcty k tradici si myslím, že sluneční hodiny mají ukazovat pravý sluneční čas příslušný k stanovišti. Korekci podle časové rovnice by měla usnadňovat vhodná [**tabulka**](<javascript:view\('img/slunecni/tab_rovnice.gif', 505, 264\)>). Kdyby taková byla i u Strážce času, nebylo by možné remcat na to, že socha ukazuje špatně. (Ačkoliv. Remcat je možné vždy.)
+**Z** úcty k tradici si myslím, že sluneční hodiny mají ukazovat pravý sluneční čas příslušný k stanovišti. Korekci podle časové rovnice by měla usnadňovat vhodná [**tabulka**](/img/slunecni/tab_rovnice.gif). Kdyby taková byla i u Strážce času, nebylo by možné remcat na to, že socha ukazuje špatně. (Ačkoliv. Remcat je možné vždy.)
 
 * * *
 

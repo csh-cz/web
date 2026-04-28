@@ -9,7 +9,7 @@ scrapedAt: "2026-04-27T17:37:15.610Z"
 ---
 ***Převzato z webu [anatomie-varhan.cz](http://anatomie-varhan.cz/) Za souhlas děkujeme.***
 
-Kostel sv. Josefa v [**Janovicích**](http://web.telecom.cz/oujanovice/) u Frýdku - Místku (od roku 2000 národní kulturní památka) v sobě skrývá mnoho pozoruhodností. Zajímavý je i jeho "technický" inventář. S varhanami se můžete velmi podrobně seznámit v sekci "[**varhany - Janovice**](http://home.vsb.cz/petr.bernat/texty/varhany/nastroje/janovice/janovicke_varhany.htm)". ![](<javascript:view\('img/vezni/janovice/janovice.jpg', 680, 485\)>)
+Kostel sv. Josefa v [**Janovicích**](http://web.telecom.cz/oujanovice/) u Frýdku - Místku (od roku 2000 národní kulturní památka) v sobě skrývá mnoho pozoruhodností. Zajímavý je i jeho "technický" inventář. S varhanami se můžete velmi podrobně seznámit v sekci "[**varhany - Janovice**](http://home.vsb.cz/petr.bernat/texty/varhany/nastroje/janovice/janovicke_varhany.htm)". ![](/img/vezni/janovice/janovice.jpg)
 
 Další zajímavostí jsou **hodiny**. V roce 2000 byla provedena jejich generální oprava. Hodiny byly pořízeny do nového kostela až téměř po deseti letech jeho existence **v roce 1899**. Od té doby sloužily prakticky nepřetržitě až do roku 1999, až se sto let po svém vzniku nadlouho zastavily. Příčin bylo několik, především zchátralost rozvodu a cifernikových převodovek. Samotný stroj byl v poměrně dobrém stavu, poslední větší opravu prodělal cca o deset let dříve. I na něm se však našlo několik menších závad.
 

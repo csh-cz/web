@@ -1,0 +1,179 @@
+---
+import Base from '../../layouts/Base.astro';
+import { hodinari, eraLabel, type Hodinar } from '../../data/hodinari';
+
+const osoby = hodinari.filter((h) => h.typ === 'osoba');
+const firmy = hodinari.filter((h) => h.typ === 'firma');
+
+const eraOrder: Hodinar['era'][] = ['baroko', '19stol', 'prelom', '20stol', 'soucasnost'];
+
+function groupByEra(list: Hodinar[]): Map<Hodinar['era'], Hodinar[]> {
+  const m = new Map<Hodinar['era'], Hodinar[]>();
+  for (const era of eraOrder) m.set(era, []);
+  for (const h of list) m.get(h.era)?.push(h);
+  for (const [k, v] of m) {
+    v.sort((a, b) => a.jmeno.localeCompare(b.jmeno, 'cs'));
+    if (v.length === 0) m.delete(k);
+  }
+  return m;
+}
+
+const osobyByEra = groupByEra(osoby);
+const firmyByEra = groupByEra(firmy);
+---
+<Base
+  title="Hodináři"
+  description="Rejstřík hodinářů, hodinářských firem a atelliérů zmíněných v článcích Hodinária. Životopisné stuby k postupnému doplňování."
+>
+  <header class="max-w-3xl mb-10">
+    <p class="eyebrow mb-4">Biografický rejstřík</p>
+    <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Hodináři</h1>
+    <p class="text-[var(--color-text)] leading-relaxed">
+      Lidé a dílny, jejichž věžní stroje, mechanizmy a signatury najdete v článcích Hodinária.
+      Rejstřík je <strong class="text-[var(--color-brass-bright)]">{hodinari.length}</strong> položkami
+      stále neúplný — jednotlivé profily postupně rozšiřujeme o životopisné a dílenské podrobnosti.
+    </p>
+  </header>
+
+  <section class="mb-16">
+    <header class="mb-6">
+      <p class="eyebrow mb-2">Osobnosti</p>
+      <h2 class="text-3xl" style="margin-top: 0;">Hodináři</h2>
+    </header>
+    {[...osobyByEra.entries()].map(([era, list]) => (
+      <div class="hodinar-era-group">
+        <h3 class="hodinar-era-label">{eraLabel[era]}</h3>
+        <div class="hodinar-grid">
+          {list.map((h) => (
+            <a href={`/hodinari/${h.slug}`} class="hodinar-card">
+              <h4 class="hodinar-name">{h.jmeno}</h4>
+              <p class="hodinar-meta">
+                {h.obdobi && <span>{h.obdobi}</span>}
+                {h.obdobi && h.mesto && <span class="hodinar-sep" aria-hidden="true">·</span>}
+                {h.mesto && <span>{h.mesto}</span>}
+              </p>
+              <p class="hodinar-summary">{h.shrnuti}</p>
+              <p class="hodinar-count">
+                {h.relatedSlugs.length > 0
+                  ? `${h.relatedSlugs.length} ${h.relatedSlugs.length === 1 ? 'článek' : h.relatedSlugs.length < 5 ? 'články' : 'článků'}`
+                  : 'samostatný profil'}
+              </p>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+
+  <section>
+    <header class="mb-6">
+      <p class="eyebrow mb-2">Firmy a dílny</p>
+      <h2 class="text-3xl" style="margin-top: 0;">Hodinářské podniky</h2>
+    </header>
+    {[...firmyByEra.entries()].map(([era, list]) => (
+      <div class="hodinar-era-group">
+        <h3 class="hodinar-era-label">{eraLabel[era]}</h3>
+        <div class="hodinar-grid">
+          {list.map((h) => (
+            <a href={`/hodinari/${h.slug}`} class="hodinar-card hodinar-card-firma">
+              <h4 class="hodinar-name">{h.jmeno}</h4>
+              <p class="hodinar-meta">
+                {h.obdobi && <span>{h.obdobi}</span>}
+                {h.obdobi && h.mesto && <span class="hodinar-sep" aria-hidden="true">·</span>}
+                {h.mesto && <span>{h.mesto}</span>}
+              </p>
+              <p class="hodinar-summary">{h.shrnuti}</p>
+              <p class="hodinar-count">
+                {h.relatedSlugs.length > 0
+                  ? `${h.relatedSlugs.length} ${h.relatedSlugs.length === 1 ? 'článek' : h.relatedSlugs.length < 5 ? 'články' : 'článků'}`
+                  : 'samostatný profil'}
+              </p>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+</Base>
+
+<style>
+  .hodinar-era-group {
+    margin-bottom: 2.5rem;
+  }
+  .hodinar-era-label {
+    font-family: var(--font-serif);
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: var(--color-copper);
+    font-weight: 500;
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  }
+  .hodinar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.25rem;
+  }
+  .hodinar-card {
+    display: block;
+    padding: 1.25rem 1.4rem 1.1rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: border-color 200ms ease, transform 200ms ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    border-bottom-color: color-mix(in srgb, var(--color-brass) 22%, transparent);
+  }
+  .hodinar-card:hover {
+    border-color: var(--color-brass);
+    transform: translateY(-2px);
+  }
+  .hodinar-card-firma {
+    background: linear-gradient(
+      to bottom,
+      var(--color-bg-elevated),
+      color-mix(in srgb, var(--color-bg-deep) 60%, var(--color-bg-elevated))
+    );
+  }
+  .hodinar-name {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.25rem;
+    line-height: 1.2;
+  }
+  .hodinar-meta {
+    font-size: 0.8rem;
+    color: var(--color-copper);
+    margin: 0 0 0.6rem;
+    font-feature-settings: "lnum";
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .hodinar-sep {
+    opacity: 0.6;
+  }
+  .hodinar-summary {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--color-text-soft);
+    margin: 0 0 0.75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .hodinar-count {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+  }
+</style>

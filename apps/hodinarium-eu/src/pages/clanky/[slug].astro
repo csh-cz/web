@@ -45,29 +45,34 @@ const lastModifiedReadable = entry.data.lastModified
 <style is:global>
   /* === Inline image layout v článcích — časopisecký float === */
 
-  /* Small: float vpravo s textem obtékajícím (kolem 200 px) */
-  .prose-content img.img-small {
+  /* Small + Medium: float v textu, časopisecký dojem.
+     Small ~200 px, Medium ~320 px. */
+  .prose-content img.img-small,
+  .prose-content img.img-medium {
     float: right;
     width: auto;
-    max-width: 220px;
     margin: 0.4rem 0 0.75rem 1.5rem;
     border-radius: 2px;
     border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
     cursor: default;
   }
-  .prose-content img.img-small:nth-of-type(even) {
+  .prose-content img.img-small { max-width: 220px; }
+  .prose-content img.img-medium { max-width: 320px; }
+
+  .prose-content img.img-small:nth-of-type(even),
+  .prose-content img.img-medium:nth-of-type(even) {
     float: left;
     margin: 0.4rem 1.5rem 0.75rem 0;
   }
 
-  /* Medium: standalone, žádné zvětšení (větší verze neexistuje) */
-  .prose-content img.img-medium {
-    display: block;
-    max-width: min(100%, 480px);
-    margin: 1.25rem auto;
-    cursor: default;
-    border-radius: 2px;
-    border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+  /* Na úzkých displejích (~mobile) se medium chová jako standalone, aby se vůbec vešly. */
+  @media (max-width: 600px) {
+    .prose-content img.img-medium {
+      float: none;
+      display: block;
+      max-width: 100%;
+      margin: 1.25rem auto;
+    }
   }
 
   /* Large: standalone, klik = lightbox (větší rozlišení k dispozici) */

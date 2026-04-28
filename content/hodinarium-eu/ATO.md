@@ -16,7 +16,7 @@ Následuje namlsávací koláž složená z hodin z galerie na **[www.lothar-fre
 
 !
 
-Hodiny ATO byly založeny na stejném principu jako **[Bulle hodiny](/clanky/bulle)** s tím rozdílem, že cívka elektromagnetu byla nehybná a permanentní magnet byl uložen pohyblivě na kyvadle. Vypůjčená animace kroku [zde](<javascript:view\('img/elektrika/ato/atopend.gif', 280, 398\)>).
+Hodiny ATO byly založeny na stejném principu jako **[Bulle hodiny](/clanky/bulle)** s tím rozdílem, že cívka elektromagnetu byla nehybná a permanentní magnet byl uložen pohyblivě na kyvadle. Vypůjčená animace kroku [zde](/img/elektrika/ato/atopend.gif).
 
 **P**ro oba systémy platí, že klasické mechanické kyvadlo prochází při kyvu několika fázemi. Při popudu je urychlováno strojem a naopak je brzděno v době, kdy stroj postrkuje. Kyvadlo v ostatní době kýve volně. Brzdění a urychlování se na pravidelnosti doby kyvu projevuje jistě negativně. U sytémů s popudem elektromagneticky přeneseným do kyvadla se překrývají úhly urychlení a brzdění, a tak se tento zdroj nepřesnosti částečně eliminuje.
 

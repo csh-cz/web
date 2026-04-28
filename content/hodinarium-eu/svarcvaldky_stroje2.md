@@ -19,6 +19,6 @@ Bicí stroj má také určitou zvláštnost. Spouštěcí kolík bicího stroje 
 
 A nyní se již spolu s námi pokochejte několika obrázky . (klikněte pro zvětšení)
 
-![](<javascript:view\('img/svarcvald/stolove1.jpg', 375, 500\)>)![](<javascript:view\('img/svarcvald/stolove2.jpg', 375, 500\)>)![](<javascript:view\('img/svarcvald/stolove3.jpg', 375, 500\)>)![](<javascript:view\('img/svarcvald/stolove4.jpg', 375, 500\)>)![](<javascript:view\('img/svarcvald/stolove5.jpg', 375, 500\)>)
+![](/img/svarcvald/stolove1.jpg)![](/img/svarcvald/stolove2.jpg)![](/img/svarcvald/stolove3.jpg)![](/img/svarcvald/stolove4.jpg)![](/img/svarcvald/stolove5.jpg)
 
 Majitel ještě dodává, že po opravě hodiny šlapou celkem obstojně.

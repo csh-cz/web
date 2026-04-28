@@ -9,7 +9,7 @@ scrapedAt: "2026-04-27T17:36:53.927Z"
 ---
 Pan doktor Jegorov má mnoho zajímavých zájmů a jedním z nich je i konstruování různých, řekli bychom "netradičně tradičních", hodin. Postavil dvoje sluneční hodiny, nyní pracuje na hodinách lihýřových.
 
-Při cestě do Rakouska obdivoval vodní hodiny od sochaře Elmsteinera (v **[Reichethalu](<javascript:view\('img/vodni/reichental.jpg', 505, 675\)>)** a **[Pieberschlagu](<javascript:view\('img/vodni/pieberschlag.jpg', 675, 505\)>)**) a rozhodl se vyrobit si své. Požádali jsme ho o bližší informace.
+Při cestě do Rakouska obdivoval vodní hodiny od sochaře Elmsteinera (v **[Reichethalu](/img/vodni/reichental.jpg)** a **[Pieberschlagu](/img/vodni/pieberschlag.jpg)**) a rozhodl se vyrobit si své. Požádali jsme ho o bližší informace.
 
 **P**an doktor Jegorov píše: *".... vše je založeno na přesném vyvážení kývajícího se hranolu který má na konci mističku, do které přitéká shora «čůrek» vody, kývne se, voda se vylije a hranol se narovná a vše se opakuje. Hlavní problémem při mé výrobě bylo právě vymyslet vhodné uložení, takže od klasických kuličkových ložisek přes různé valivé konstrukce jsem dospěl k ose z RADEKA, která má spodní břit a ten se kýve ve vybroušeném loži opět z RADEKA. (RADEKO - ocel , ze které se dělají soustružnické nože.)*
 
