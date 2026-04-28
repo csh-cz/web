@@ -23,8 +23,8 @@ const OUT = join(ROOT, 'apps', 'hodinarium-eu', 'src', 'data', 'image-sizes.json
 interface ImageSize {
   w: number;
   h: number;
-  /** kategorie: small / medium / large */
-  size: 'small' | 'medium' | 'large';
+  /** kategorie: small / medium / large / tall (úzký vysoký = portrétní velký obrázek, který by jako "large" zabral nepříjemně mnoho místa) */
+  size: 'small' | 'medium' | 'large' | 'tall';
 }
 
 async function walk(dir: string, base = dir): Promise<string[]> {
@@ -44,6 +44,8 @@ function classify(w: number, h: number): ImageSize['size'] {
   const max = Math.max(w, h);
   if (max < 250) return 'small';
   if (max < 600) return 'medium';
+  // Úzký vysoký (portrét) by jako "large" zabral celou stránku na výšku — float jako medium.
+  if (h >= 600 && w < 400 && h / w > 1.8) return 'tall';
   return 'large';
 }
 
@@ -75,7 +77,7 @@ async function main() {
   console.log(`Skenuji ${files.length} obrázků…`);
 
   const index: Record<string, ImageSize> = {};
-  let small = 0, medium = 0, large = 0, skipped = 0;
+  let small = 0, medium = 0, large = 0, tall = 0, skipped = 0;
 
   for (const rel of files) {
     const abs = join(ROOT, 'apps', 'hodinarium-eu', 'public', rel);
@@ -88,6 +90,7 @@ async function main() {
     index[rel] = { ...dim, size };
     if (size === 'small') small++;
     else if (size === 'medium') medium++;
+    else if (size === 'tall') tall++;
     else large++;
   }
 
@@ -97,10 +100,11 @@ async function main() {
   console.log(`Index obrázků: ${OUT}`);
   console.log(`Velikost JSON: ${(JSON.stringify(index).length / 1024).toFixed(1)} KB`);
   console.log(`\nKlasifikace:`);
-  console.log(`  small  (<250 px):  ${small}`);
-  console.log(`  medium (250-599):  ${medium}`);
-  console.log(`  large  (>=600 px): ${large}`);
-  console.log(`  přeskočeno:        ${skipped}`);
+  console.log(`  small  (<250 px):     ${small}`);
+  console.log(`  medium (250-599):     ${medium}`);
+  console.log(`  large  (>=600 px):    ${large}`);
+  console.log(`  tall   (úzký vysoký): ${tall}`);
+  console.log(`  přeskočeno:           ${skipped}`);
 }
 
 main().catch((e) => {

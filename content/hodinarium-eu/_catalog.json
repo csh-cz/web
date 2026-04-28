@@ -506,6 +506,17 @@
     "wordCount": 964
   },
   {
+    "slug": "decin_galerie",
+    "title": "Galerie uměleckých děl v Hodináriu Děčín",
+    "category": "decin",
+    "thumbnail": "/img/Achrer/2strany2.jpg",
+    "excerpt": "Hodinárium není jen expozice věžních strojů, ale také galerie různých uměleckých děl souvisejících s hodinami. Na rozdíl od technické části je tato sekce více dočasná — většina děl je zapůjčena na krátkou dobu. Někter…",
+    "year": 1907,
+    "lastModified": "2024-08-13T09:20:00.000Z",
+    "imageCount": 6,
+    "wordCount": 468
+  },
+  {
     "slug": "hinspirace",
     "title": "Historické inspirace",
     "category": "sbirka",
@@ -583,17 +594,6 @@
     "wordCount": 32
   },
   {
-    "slug": "decin_galerie",
-    "title": "Hodinárium Děčín - expozice časoměrných strojů",
-    "category": "decin",
-    "thumbnail": "/img/nadpis_hodinarium1.gif",
-    "excerpt": "Hodinárim není jen expozice věžních strojů, ale i galerie různých děl souvisejících s hodinymi. Na rozdíl od technické části je více dočasná. Většina děl je od autorů zapůjčena na krátkou dobu. Jsou ovšem i vyjímky ja…",
-    "year": 1907,
-    "lastModified": "2024-08-13T09:20:00.000Z",
-    "imageCount": 10,
-    "wordCount": 542
-  },
-  {
     "slug": "decin_jednotny_cas",
     "title": "Hodinárium Děčín - expozice časoměrných strojů",
     "category": "decin",
@@ -603,17 +603,6 @@
     "lastModified": "2023-01-14T10:40:00.000Z",
     "imageCount": 7,
     "wordCount": 573
-  },
-  {
-    "slug": "decin_vypousteny",
-    "title": "Hodinárium Děčín - expozice časoměrných strojů",
-    "category": "decin",
-    "thumbnail": "https://hodinarium.eu/img/decin/elektricky_spousteny_stroj/Strana%20spou%C5%A1t%C4%9Bn%C3%AD.jpg",
-    "excerpt": "Chodový podružný věžní stroj Elektročas vypouštěný minutovými impulzy pro nás představuje můstek k nově budované expozici elektrických hodin v Hodináriu v Děčíně. Stroj v expozici pochází z roku 1959.",
-    "year": 1959,
-    "lastModified": "2019-03-02T19:58:00.000Z",
-    "imageCount": 15,
-    "wordCount": 365
   },
   {
     "slug": "settopbox",
@@ -823,6 +812,17 @@
     "lastModified": "2017-05-14T09:44:00.000Z",
     "imageCount": 0,
     "wordCount": 112
+  },
+  {
+    "slug": "decin_vypousteny",
+    "title": "Chodový podružný věžní stroj Elektročas vypouštěný minutovými impulzy",
+    "category": "decin",
+    "thumbnail": "/img/decin/elektricky_spousteny_stroj/strana_spousteni.jpg",
+    "excerpt": "Chodový podružný věžní stroj Elektročas vypouštěný minutovými impulzy představuje můstek k nově budované expozici elektrických hodin v Hodináriu v Děčíně. Stroj v expozici pochází z roku 1959.",
+    "year": 1959,
+    "lastModified": "2019-03-02T19:58:00.000Z",
+    "imageCount": 15,
+    "wordCount": 374
   },
   {
     "slug": "decin_chronulator",
