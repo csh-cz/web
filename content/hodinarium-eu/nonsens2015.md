@@ -112,7 +112,7 @@ Hodinky pro gemblera
 
 Sluneční hodinky
 
-## Další odkazy
+## Odkazy
 
 -   [Sbírka Jára](http://www.sbirkajara.cz/)
 -   [Nonseum v Heernbaumgartenu](http://www.herrnbaumgarten.at/system/web/sonderseite.aspx?menuonr=219816518&detailonr=219816518)

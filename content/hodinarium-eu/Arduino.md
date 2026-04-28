@@ -126,7 +126,7 @@ Je však třeba připomenout, že původní účel použitého čipu ESP8266, by
 
 Na videu v režimu nastavení na čas (FAST).
 
-## Odkazy na další použití a externí informace
+## Odkazy
 
 -   [Witty Cload Module Adapter Board](https://www.instructables.com/Witty-Cloud-Module-Adapter-Board/)
 -   [Vývojový modul ESP8266 ... eshop](https://www.hadex.cz/m430d-modul-wifi-esp8266-esp-12f-vyvojovy-modul-se-zakladnou-a-tlacitky/)

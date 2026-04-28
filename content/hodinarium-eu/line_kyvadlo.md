@@ -55,7 +55,7 @@ Pokud je délka ramen rovná délce závěsu, je doba kyvu přibližně 1.41 kr�
 
 Ve fyzice se kyvadlo chápe jako pevný předmět. Ovšem všechno co kývá můžeme považovat za kyvadlo, tedy i dvouramenné váhy na snímku připojené k hodinám Burk. Ty jsou dosti složitou soustavou pák. Základem je vodorovné rameno vah podepřené nad těžištěm soustavy. Veškerá pohyblivá hmota ovlivňuje moment setrvačnosti. Moment gravitační síly byl zde moc malý a váhy kývaly příliš pomalu. Musela se na rameno vah doplnit tyč s přívažkem (není ještě na snímku), tedy jakési urychlovací kyvadlo. Jeho prodlužováním se váhy zrychlovaly. Řešeno bylo empiricky. Tady tedy byl opačný problém, jak původní líné kyvadlo z vah urychlit. Urychlení by se dosáhlo i zmenšením pohyblivé hmoty, ovšem váhy by po odstrojení ztratily své kouzlo.
 
-## Odkazy a podklady
+## Odkazy
 
 -   [fyzika.jreichl.com/main.article/view/206-fyzicke-kyvadlo](http://fyzika.jreichl.com/main.article/view/206-fyzicke-kyvadlo)
 -   Kniha Mechanika od Dr. Č. Strouhala z roku 1901

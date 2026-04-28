@@ -26,7 +26,7 @@ Několik fotografií motoru Ferraris použitého pro natahování hodin. Všimn�
 
 [![Zenith - ferraris](/img/elektrika/ferraris3.jpg)](/img/elektrika/ferraris3.jpg)[![Zenith - ferraris](/img/elektrika/ferraris5.jpg)](/img/elektrika/ferraris5.jpg)
 
-## Odkazy:
+## Odkazy
 
 -   [it.wikipedia.org/wiki/Galileo\_Ferraris](http://it.wikipedia.org/wiki/Galileo_Ferraris)
 -   [www.chronometrophilia.ch/Electric-clocks/english.htm#fig10](http://www.chronometrophilia.ch/Electric-clocks/english.htm#fig10)

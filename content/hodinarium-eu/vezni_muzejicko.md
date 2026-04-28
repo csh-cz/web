@@ -58,7 +58,7 @@ Virtuální audio procházku se Světlanou Lavičkovou v pořadu Odysea si můž
 
 * * *
 
-## Odkazy na podobné projekty, které dokládají jedinečnost konceptu
+## Odkazy
 
 *(Odkazy rychle zastarávají, zkuste případně dohledat.)*
 

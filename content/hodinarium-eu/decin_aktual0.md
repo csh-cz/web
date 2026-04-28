@@ -146,7 +146,7 @@ Výjezdní zasedání Českého spolku horologického v Hodináriu
 
 Za organizátory ing. Petr Král a ing. Miroslav Baudisch
 
-## Odkazy na jiné stránky:
+## Odkazy
 
 -   [Hodiny a hvězdy na zámku](http://www.zamekdecin.cz/web_cz/?p=clanky/hodiny-a-hvezdy-na-zamku&obr=1) a [ještě jednou](http://www.decin.cz/2015/09/hodiny-a-hvezdy-na-zamku/)
 -   [novinky.cz](http://www.novinky.cz/cestovani/tipy-na-vylety/380344-decinska-expozice-ukaze-jak-nasi-predkove-merili-cas.html)

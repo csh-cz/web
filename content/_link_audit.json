@@ -1,0 +1,1698 @@
+[
+  {
+    "url": "http://www.davewestclocks.co.uk/bulle-and-Eureka/artdeco_ato_clock.htm",
+    "hostname": "www.davewestclocks.co.uk",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "ATO"
+    ],
+    "checkedAt": "2026-04-28T07:02:45.845Z"
+  },
+  {
+    "url": "http://www.sweb.cz/vezhb/obr.htm",
+    "hostname": "www.sweb.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "12_24"
+    ],
+    "checkedAt": "2026-04-28T07:02:45.844Z"
+  },
+  {
+    "url": "http://books.google.cz/patents?id=2V1QAAAAEBAJ&dq=wejrostek",
+    "hostname": "books.google.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "12_24"
+    ],
+    "checkedAt": "2026-04-28T07:02:45.845Z"
+  },
+  {
+    "url": "http://www.davewestclocks.co.uk/bulle-and-Eureka/bulle.html",
+    "hostname": "www.davewestclocks.co.uk",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "ATO",
+      "bulle",
+      "eureka"
+    ],
+    "checkedAt": "2026-04-28T07:02:46.219Z"
+  },
+  {
+    "url": "http://www.mridout.force9.co.uk/ecw/ato.htm",
+    "hostname": "www.mridout.force9.co.uk",
+    "status": 200,
+    "ok": true,
+    "title": "ATO",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "ATO"
+    ],
+    "checkedAt": "2026-04-28T07:02:46.065Z"
+  },
+  {
+    "url": "http://www.mridout.force9.co.uk/ecw/atoqtrsec.htm",
+    "hostname": "www.mridout.force9.co.uk",
+    "status": 200,
+    "ok": true,
+    "title": "ATO Mantel Clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "ATO"
+    ],
+    "checkedAt": "2026-04-28T07:02:46.152Z"
+  },
+  {
+    "url": "http://www.orloj.eu",
+    "hostname": "www.orloj.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Pražský\r\norloj - The Prague Astronomical Clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "12_24"
+    ],
+    "checkedAt": "2026-04-28T07:02:45.833Z"
+  },
+  {
+    "url": "http://www.faszination.ch/e_einz_e.htm",
+    "hostname": "www.faszination.ch",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "ATO"
+    ],
+    "checkedAt": "2026-04-28T07:02:45.846Z"
+  },
+  {
+    "url": "https://www.root.cz/clanky/esp32-je-tu-co-prinese-nastupce-esp8266/",
+    "hostname": "www.root.cz",
+    "status": 200,
+    "ok": true,
+    "title": "ESP32 je tu. Co přinese nástupce ESP8266? - Root.cz",
+    "ogTitle": "ESP32 je tu. Co přinese nástupce ESP8266? - Root.cz",
+    "siteName": "Root.cz",
+    "error": null,
+    "articles": [
+      "Arduino"
+    ],
+    "checkedAt": "2026-04-28T07:02:46.440Z"
+  },
+  {
+    "url": "https://www.hadex.cz/m430d-modul-wifi-esp8266-esp-12f-vyvojovy-modul-se-zakladnou-a-tlacitky/",
+    "hostname": "www.hadex.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "Arduino"
+    ],
+    "checkedAt": "2026-04-28T07:02:46.439Z"
+  },
+  {
+    "url": "https://www.instructables.com/Witty-Cloud-Module-Adapter-Board/",
+    "hostname": "www.instructables.com",
+    "status": 200,
+    "ok": true,
+    "title": "Witty Cloud Module Adapter Board : 5 Steps (with Pictures) - Instructables",
+    "ogTitle": "Witty Cloud Module Adapter Board",
+    "siteName": "Instructables",
+    "error": null,
+    "articles": [
+      "Arduino"
+    ],
+    "checkedAt": "2026-04-28T07:02:46.322Z"
+  },
+  {
+    "url": "http://zajic.cz/podruzsmd/podruzsmd.html",
+    "hostname": "zajic.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Gener�tor minutov�ch impuls�",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "Arduino"
+    ],
+    "checkedAt": "2026-04-28T07:02:46.954Z"
+  },
+  {
+    "url": "http://mobatime.cz",
+    "hostname": "mobatime.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Zařízení pro zobrazování času, průmyslové hodiny, docházkové systémy a řešení časoměrných zařízení na míru MOBATIME",
+    "ogTitle": "Zařízení pro zobrazování času, průmyslové hodiny, docházkové systémy a řešení časoměrných zařízení na míru MOBATIME",
+    "siteName": "MOBATIME",
+    "error": null,
+    "articles": [
+      "Arduino"
+    ],
+    "checkedAt": "2026-04-28T07:02:46.688Z"
+  },
+  {
+    "url": "http://www.lothar-frerking.de/",
+    "hostname": "www.lothar-frerking.de",
+    "status": 200,
+    "ok": true,
+    "title": "lothar-frerking.de | fruits",
+    "ogTitle": "lothar-frerking.de is for sale!",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "ATO"
+    ],
+    "checkedAt": "2026-04-28T07:02:45.845Z"
+  },
+  {
+    "url": "https://sites.google.com/a/usapiens.com/opnode/time-zones",
+    "hostname": "sites.google.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "Arduino"
+    ],
+    "checkedAt": "2026-04-28T07:02:46.883Z"
+  },
+  {
+    "url": "https://dratek.cz/arduino/832-eses-krokovy-motor-driver-pro-jednodeskove-pocitace.html",
+    "hostname": "dratek.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Krokový motor s řadičem - 28BYJ-48 | dratek.cz",
+    "ogTitle": "Krokový motor s řadičem - 28BYJ-48 | dratek.cz | dratek.cz",
+    "siteName": "dratek.cz",
+    "error": null,
+    "articles": [
+      "Arduino_Solari"
+    ],
+    "checkedAt": "2026-04-28T07:02:47.502Z"
+  },
+  {
+    "url": "https://www.sakul.cz/gps-hodiny-v2-pe2-2015/n/",
+    "hostname": "www.sakul.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Sakul.cz - GPS Hodiny v2 (PE2/2015)",
+    "ogTitle": "Sakul.cz - GPS Hodiny v2 (PE2/2015)",
+    "siteName": "Sakul.cz",
+    "error": null,
+    "articles": [
+      "GPS_Sakul"
+    ],
+    "checkedAt": "2026-04-28T07:02:47.808Z"
+  },
+  {
+    "url": "https://dratek.cz/arduino/877-arduino-h-mustek-pro-krokovy-motor-l298n-dual-h-most-dc.html",
+    "hostname": "dratek.cz",
+    "status": 200,
+    "ok": true,
+    "title": "H můstek pro krokový motor - L298N Dual H Most DC | dratek.cz",
+    "ogTitle": "H můstek pro krokový motor - L298N Dual H Most DC | dratek.cz | dratek.cz",
+    "siteName": "dratek.cz",
+    "error": null,
+    "articles": [
+      "Arduino"
+    ],
+    "checkedAt": "2026-04-28T07:02:46.642Z"
+  },
+  {
+    "url": "https://www.czechspaceportal.cz/3-sekce/gnss-systemy/egnos/technicky-popis-systemu-egnos/",
+    "hostname": "www.czechspaceportal.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "GPS_Sakul",
+      "decin_NTP"
+    ],
+    "checkedAt": "2026-04-28T07:02:47.983Z"
+  },
+  {
+    "url": "https://www.sakul.cz/stopky-pro-hasice-smd/n",
+    "hostname": "www.sakul.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Sakul.cz - Stopky pro hasiče SMD",
+    "ogTitle": "Sakul.cz - Stopky pro hasiče SMD",
+    "siteName": "Sakul.cz",
+    "error": null,
+    "articles": [
+      "GPS_Sakul"
+    ],
+    "checkedAt": "2026-04-28T07:02:48.069Z"
+  },
+  {
+    "url": "https://forum.sakul.cz/viewtopic.php?p=1512#p1512",
+    "hostname": "forum.sakul.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Sakul WORLD - fórum &bull; Zobrazit téma - GPS Hodiny v2.1",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "GPS_Sakul"
+    ],
+    "checkedAt": "2026-04-28T07:02:48.033Z"
+  },
+  {
+    "url": "http://www.snailshop.cz/maticni-hodiny/407-maticni-hodiny-generator-minutovych-impulsu.html",
+    "hostname": "www.snailshop.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Mati&#269;n&iacute; hodiny - gener&aacute;tor minutov&yacute;ch impuls&#367; - Snail Shop",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "Arduino"
+    ],
+    "checkedAt": "2026-04-28T07:02:47.449Z"
+  },
+  {
+    "url": "http://support.fccps.cz/download/Meinberg/prehled/mbg-vystupy.htm",
+    "hostname": "support.fccps.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Druhy v�stup� na za��zen�ch Meinberg",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "Lantime_M100"
+    ],
+    "checkedAt": "2026-04-28T07:02:48.613Z"
+  },
+  {
+    "url": "https://cs.wikipedia.org/wiki/Glob%C3%A1ln%C3%AD_dru%C5%BEicov%C3%BD_polohov%C3%BD_syst%C3%A9m",
+    "hostname": "cs.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Satelitní navigace – Wikipedie",
+    "ogTitle": "Satelitní navigace – Wikipedie",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "GPS_Sakul",
+      "decin_NTP",
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:02:48.103Z"
+  },
+  {
+    "url": "https://www.solari.it/",
+    "hostname": "www.solari.it",
+    "status": 200,
+    "ok": true,
+    "title": "Solari Spa, l&#039;azienda del tempo - Keeps the World Moving",
+    "ogTitle": "Solari Spa, l&#039;azienda del tempo - Keeps the World Moving",
+    "siteName": "Solari Spa",
+    "error": null,
+    "articles": [
+      "Arduino_Solari"
+    ],
+    "checkedAt": "2026-04-28T07:02:47.493Z"
+  },
+  {
+    "url": "http://support.fccps.cz/download/Meinberg/prehled/meinberg-prehled.htm",
+    "hostname": "support.fccps.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Produkty Meinberg pro synchronizaci �asu",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "Lantime_M100"
+    ],
+    "checkedAt": "2026-04-28T07:02:48.902Z"
+  },
+  {
+    "url": "http://support.fccps.cz/download/Meinberg/prehled/meinberg-presnosti.htm",
+    "hostname": "support.fccps.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Zdroje �asu od firmy Meinberg - p�esnosti na r�zn�ch rozhran�ch / vrstv�ch / technologi�ch",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "Lantime_M100"
+    ],
+    "checkedAt": "2026-04-28T07:02:48.979Z"
+  },
+  {
+    "url": "http://support.fccps.cz/download/Meinberg/prehled/DCF77.htm",
+    "hostname": "support.fccps.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Meinberg DCF77 - technick� podrobnosti",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "Lantime_M100",
+      "dcf77"
+    ],
+    "checkedAt": "2026-04-28T07:02:49.067Z"
+  },
+  {
+    "url": "https://www.meinbergglobal.com/english/specs/gpsopt.htm",
+    "hostname": "www.meinbergglobal.com",
+    "status": 200,
+    "ok": true,
+    "title": "Oscillator Options for Meinberg GNSS Receivers",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "Lantime_M100"
+    ],
+    "checkedAt": "2026-04-28T07:02:48.324Z"
+  },
+  {
+    "url": "http://support.fccps.cz/",
+    "hostname": "support.fccps.cz",
+    "status": 200,
+    "ok": true,
+    "title": "FCC PS technick� podpora / support website",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "Lantime_M100"
+    ],
+    "checkedAt": "2026-04-28T07:02:49.145Z"
+  },
+  {
+    "url": "https://dratek.cz/docs/produkty/0/142/driver_ch341ser.ZIP",
+    "hostname": "dratek.cz",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "NTPH",
+      "NTPH_st"
+    ],
+    "checkedAt": "2026-04-28T07:02:49.188Z"
+  },
+  {
+    "url": "https://dratek.cz/docs/produkty/0/143/driver_ch341ser_linux.ZIP",
+    "hostname": "dratek.cz",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "NTPH",
+      "NTPH_st"
+    ],
+    "checkedAt": "2026-04-28T07:02:49.204Z"
+  },
+  {
+    "url": "https://dratek.cz/docs/produkty/0/144/driver_ch341ser_mac.ZIP",
+    "hostname": "dratek.cz",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "NTPH",
+      "NTPH_st"
+    ],
+    "checkedAt": "2026-04-28T07:02:49.218Z"
+  },
+  {
+    "url": "http://support.fccps.cz/download/Meinberg/prehled/mbg-redundance.htm",
+    "hostname": "support.fccps.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Redundance zdroj� �asu - v kontextu NTP a hardwaru Meinberg",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "Lantime_M100"
+    ],
+    "checkedAt": "2026-04-28T07:02:49.178Z"
+  },
+  {
+    "url": "https://www.meinberg.de/",
+    "hostname": "www.meinberg.de",
+    "status": 200,
+    "ok": true,
+    "title": "Meinberg – Ihr Partner für professionelle Lösungen zur Zeit- und Frequenzsynchronisationssystemen",
+    "ogTitle": "Meinberg – Ihr Partner für professionelle Lösungen zur Zeit- und Frequenzsynchronisationssystemen",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "Lantime_M100"
+    ],
+    "checkedAt": "2026-04-28T07:02:48.743Z"
+  },
+  {
+    "url": "https://www.meinbergglobal.com/english/products/rail-mount-ntp-server.htm",
+    "hostname": "www.meinbergglobal.com",
+    "status": 200,
+    "ok": true,
+    "title": "LANTIME M150: NTP Time Server for 35mm Rails",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "Lantime_M100"
+    ],
+    "checkedAt": "2026-04-28T07:02:48.898Z"
+  },
+  {
+    "url": "https://www.thinksrs.com/downloads/pdfs/catalog/PRS10c.pdf",
+    "hostname": "www.thinksrs.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "PRS10"
+    ],
+    "checkedAt": "2026-04-28T07:02:49.258Z"
+  },
+  {
+    "url": "https://www.thinksrs.com/downloads/pdfs/manuals/PRS10m.pdf",
+    "hostname": "www.thinksrs.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "PRS10",
+      "fake_atomove_hodiny"
+    ],
+    "checkedAt": "2026-04-28T07:02:49.260Z"
+  },
+  {
+    "url": "https://www.thinksrs.com/products/prs10.html",
+    "hostname": "www.thinksrs.com",
+    "status": 200,
+    "ok": true,
+    "title": "PRS10 - Rubidium Frequency Standard",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "PRS10",
+      "arduino_PPS"
+    ],
+    "checkedAt": "2026-04-28T07:02:49.256Z"
+  },
+  {
+    "url": "https://www.thinksrs.com/downloads/pdfs/other%20stuff/PRS10_radioactivity.pdf",
+    "hostname": "www.thinksrs.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "PRS10"
+    ],
+    "checkedAt": "2026-04-28T07:02:49.410Z"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=_vfzAL5L29Y&feature=youtu.be",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "GPS_Sakul"
+    ],
+    "checkedAt": "2026-04-28T07:02:48.198Z"
+  },
+  {
+    "url": "https://www.espressif.com/en/support/download/other-tools",
+    "hostname": "www.espressif.com",
+    "status": 200,
+    "ok": true,
+    "title": "Tools | Espressif Systems",
+    "ogTitle": "Tools",
+    "siteName": "Espressif Systems",
+    "error": null,
+    "articles": [
+      "NTPH",
+      "NTPH_st"
+    ],
+    "checkedAt": "2026-04-28T07:02:49.254Z"
+  },
+  {
+    "url": "http://www.usboomers.com/clockdom.htm",
+    "hostname": "www.usboomers.com",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "RickStanley"
+    ],
+    "checkedAt": "2026-04-28T07:02:49.487Z"
+  },
+  {
+    "url": "http://www.usboomers.com/clockothers.htm",
+    "hostname": "www.usboomers.com",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "RickStanley"
+    ],
+    "checkedAt": "2026-04-28T07:02:50.405Z"
+  },
+  {
+    "url": "http://www.usboomers.com/clockgolfer.htm",
+    "hostname": "www.usboomers.com",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "RickStanley"
+    ],
+    "checkedAt": "2026-04-28T07:02:49.494Z"
+  },
+  {
+    "url": "http://www.usboomers.com/clockincline.htm",
+    "hostname": "www.usboomers.com",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "RickStanley"
+    ],
+    "checkedAt": "2026-04-28T07:02:49.440Z"
+  },
+  {
+    "url": "http://www.usboomers.com/clocktrain.htm",
+    "hostname": "www.usboomers.com",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "RickStanley"
+    ],
+    "checkedAt": "2026-04-28T07:02:49.539Z"
+  },
+  {
+    "url": "http://www.timhunkin.com/27_domestic_clocks.htm",
+    "hostname": "www.timhunkin.com",
+    "status": 200,
+    "ok": true,
+    "title": "tim hunkin/domestic clocks",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "TimHunkin"
+    ],
+    "checkedAt": "2026-04-28T07:02:53.158Z"
+  },
+  {
+    "url": "http://www.timhunkin.com/26_public_clocks1.htm",
+    "hostname": "www.timhunkin.com",
+    "status": 200,
+    "ok": true,
+    "title": "tim hunkin/public clocks 1",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "TimHunkin"
+    ],
+    "checkedAt": "2026-04-28T07:02:53.142Z"
+  },
+  {
+    "url": "http://www.timhunkin.com/63_southwold_water_clock.htm",
+    "hostname": "www.timhunkin.com",
+    "status": 200,
+    "ok": true,
+    "title": "timhunkin/southwold warterclock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "TimHunkin"
+    ],
+    "checkedAt": "2026-04-28T07:02:53.129Z"
+  },
+  {
+    "url": "http://www.timhunkin.com/31_giant_steam_clock2.htm",
+    "hostname": "www.timhunkin.com",
+    "status": 200,
+    "ok": true,
+    "title": "tim hunkin/giant steam clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "TimHunkin"
+    ],
+    "checkedAt": "2026-04-28T07:02:53.159Z"
+  },
+  {
+    "url": "http://www.timhunkin.com/62_chelsea_flower_show.htm",
+    "hostname": "www.timhunkin.com",
+    "status": 200,
+    "ok": true,
+    "title": "timhunkin/chelsea flower show waterclock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "TimHunkin"
+    ],
+    "checkedAt": "2026-04-28T07:02:53.239Z"
+  },
+  {
+    "url": "http://www.timhunkin.com/a136_zoo-clock.htm",
+    "hostname": "www.timhunkin.com",
+    "status": 200,
+    "ok": true,
+    "title": "london zoo clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "TimHunkin"
+    ],
+    "checkedAt": "2026-04-28T07:02:53.623Z"
+  },
+  {
+    "url": "http://www.timhunkin.com/",
+    "hostname": "www.timhunkin.com",
+    "status": 200,
+    "ok": true,
+    "title": "tim hunkin home page",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "TimHunkin"
+    ],
+    "checkedAt": "2026-04-28T07:02:53.623Z"
+  },
+  {
+    "url": "https://www.ceskatelevize.cz/porady/10116288585-archiv-ct24/218411058210010/video/609195",
+    "hostname": "www.ceskatelevize.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Jak jde čas - Archiv ČT24 | Česká televize",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "alzbeta"
+    ],
+    "checkedAt": "2026-04-28T07:02:53.657Z"
+  },
+  {
+    "url": "https://clockdoc.org/default.aspx?aid=110",
+    "hostname": "clockdoc.org",
+    "status": 200,
+    "ok": true,
+    "title": "Album: Assmann speaking clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "alzbeta"
+    ],
+    "checkedAt": "2026-04-28T07:02:53.900Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/GPS_disciplined_oscillator",
+    "hostname": "en.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "GPS disciplined oscillator - Wikipedia",
+    "ogTitle": "GPS disciplined oscillator - Wikipedia",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "arduino_PPS"
+    ],
+    "checkedAt": "2026-04-28T07:02:54.271Z"
+  },
+  {
+    "url": "https://youtu.be/VBpDQtAcoWc",
+    "hostname": "youtu.be",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "TimeSlider"
+    ],
+    "checkedAt": "2026-04-28T07:02:53.626Z"
+  },
+  {
+    "url": "https://www.accubeat.com/rubidium-frequency-oscillators",
+    "hostname": "www.accubeat.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "arduino_PPS"
+    ],
+    "checkedAt": "2026-04-28T07:02:54.514Z"
+  },
+  {
+    "url": "https://arduino.narkive.cz/KFsqpvZa/p-esnost-hodin-arduino",
+    "hostname": "arduino.narkive.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "arduino_PPS"
+    ],
+    "checkedAt": "2026-04-28T07:02:54.912Z"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=rErC-f_ru4c",
+    "hostname": "www.youtube.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "alzbeta"
+    ],
+    "checkedAt": "2026-04-28T07:02:53.900Z"
+  },
+  {
+    "url": "https://www.instructables.com/Time-Slider",
+    "hostname": "www.instructables.com",
+    "status": 200,
+    "ok": true,
+    "title": "Time Slider : 6 Steps (with Pictures) - Instructables",
+    "ogTitle": "Time Slider",
+    "siteName": "Instructables",
+    "error": null,
+    "articles": [
+      "TimeSlider"
+    ],
+    "checkedAt": "2026-04-28T07:02:53.624Z"
+  },
+  {
+    "url": "https://www.hodinky-365.cz/blog/gps-synchronizace-casu",
+    "hostname": "www.hodinky-365.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Atomový čas z GPS satelitu v náramkových hodinkách",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "arduino_PPS"
+    ],
+    "checkedAt": "2026-04-28T07:02:55.006Z"
+  },
+  {
+    "url": "https://www.mylms.cz/presnost-casovani-pomoci-arduina/",
+    "hostname": "www.mylms.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Přesnost časování pomocí Arduina &#8211; Peťanovo.cz",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "arduino_PPS"
+    ],
+    "checkedAt": "2026-04-28T07:02:55.246Z"
+  },
+  {
+    "url": "https://muzeumhodin.info/download/GPS_Sakul/L80_GPS_Protocol_Specification_V1.1.pdf",
+    "hostname": "muzeumhodin.info",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "arduino_PPS"
+    ],
+    "checkedAt": "2026-04-28T07:02:54.852Z"
+  },
+  {
+    "url": "https://hackaday.io/project/5012-gpsatomic-clock-build",
+    "hostname": "hackaday.io",
+    "status": 200,
+    "ok": true,
+    "title": "GPS+Atomic clock build | Hackaday.io",
+    "ogTitle": "GPS+Atomic clock build",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "arduino_PPS"
+    ],
+    "checkedAt": "2026-04-28T07:02:54.158Z"
+  },
+  {
+    "url": "http://fyzika.jreichl.com/main.article/view/1636-princip-atomove-fontany",
+    "hostname": "fyzika.jreichl.com",
+    "status": 200,
+    "ok": true,
+    "title": "Princip atomové fontány :: MEF",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "atomove_kapesni"
+    ],
+    "checkedAt": "2026-04-28T07:02:55.325Z"
+  },
+  {
+    "url": "http://home.zcu.cz/~poupa/ptb.html",
+    "hostname": "home.zcu.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Martin Poupa - Vše o času - Atomové hodiny",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "atomove_kapesni"
+    ],
+    "checkedAt": "2026-04-28T07:02:55.546Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Rubidium_standard",
+    "hostname": "en.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Rubidium standard - Wikipedia",
+    "ogTitle": "Rubidium standard - Wikipedia",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "atomove_kapesni"
+    ],
+    "checkedAt": "2026-04-28T07:02:55.550Z"
+  },
+  {
+    "url": "https://www.3pol.cz/cz/rubriky/fyzika-a-klasicka-energetika/671-atomove-hodiny",
+    "hostname": "www.3pol.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Atomové hodiny | 3 pól - Magazín plný pozitivní energie",
+    "ogTitle": "Atomové hodiny | 3 pól - Magazín plný pozitivní energie",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "atomove_kapesni"
+    ],
+    "checkedAt": "2026-04-28T07:02:55.528Z"
+  },
+  {
+    "url": "http://w8bh.net/",
+    "hostname": "w8bh.net",
+    "status": 200,
+    "ok": true,
+    "title": "Amateur Radio Station W8BH",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "arduino_PPS"
+    ],
+    "checkedAt": "2026-04-28T07:02:55.183Z"
+  },
+  {
+    "url": "http://fyzika.jreichl.com/main.article/view/1633-atomove-hodiny",
+    "hostname": "fyzika.jreichl.com",
+    "status": 200,
+    "ok": true,
+    "title": "Atomové hodiny :: MEF",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "atomove_kapesni"
+    ],
+    "checkedAt": "2026-04-28T07:02:55.686Z"
+  },
+  {
+    "url": "https://www.europastar.com/magazine/features/1004086535-lab-hoptroff-the-world-s-most-accurate-watch.html",
+    "hostname": "www.europastar.com",
+    "status": 200,
+    "ok": true,
+    "title": "Lab - HOPTROFF - The world&#039;s most accurate watch",
+    "ogTitle": "Lab - HOPTROFF - The world&#8217;s most accurate watch",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "atomove_kapesni"
+    ],
+    "checkedAt": "2026-04-28T07:02:55.906Z"
+  },
+  {
+    "url": "https://theconversation.com/why-timekeeping-is-now-on-the-verge-of-a-giant-leap-forward-in-accuracy-238744",
+    "hostname": "theconversation.com",
+    "status": 200,
+    "ok": true,
+    "title": "Why timekeeping is now on the verge of a giant leap forward in accuracy",
+    "ogTitle": "Why timekeeping is now on the verge of a giant leap forward in accuracy",
+    "siteName": "The Conversation",
+    "error": null,
+    "articles": [
+      "atomove_kapesni"
+    ],
+    "checkedAt": "2026-04-28T07:02:55.855Z"
+  },
+  {
+    "url": "https://www.microsemi.com/images/gallery/new_products/EvalKit%20Cartoon.png",
+    "hostname": "www.microsemi.com",
+    "status": 200,
+    "ok": true,
+    "title": "Microsemi Products | Microchip Technology",
+    "ogTitle": "Microsemi Products",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "atomove_kapesni"
+    ],
+    "checkedAt": "2026-04-28T07:02:56.191Z"
+  },
+  {
+    "url": "https://www.svethardware.cz/nasa-spustila-svuj-novy-prototyp-vesmirnych-atomovych-hodin-dsac/50043",
+    "hostname": "www.svethardware.cz",
+    "status": 200,
+    "ok": true,
+    "title": "NASA spustila svůj nový prototyp vesmírných atomových hodin DSAC | Svět hardware",
+    "ogTitle": "NASA spustila svůj nový prototyp vesmírných atomových hodin DSAC",
+    "siteName": "Svět hardware",
+    "error": null,
+    "articles": [
+      "atomove_kapesni"
+    ],
+    "checkedAt": "2026-04-28T07:02:55.644Z"
+  },
+  {
+    "url": "http://regulateurbrillie.monsite-orange.fr/",
+    "hostname": "regulateurbrillie.monsite-orange.fr",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "brillie"
+    ],
+    "checkedAt": "2026-04-28T07:02:56.953Z"
+  },
+  {
+    "url": "http://www.brillie.co.uk/",
+    "hostname": "www.brillie.co.uk",
+    "status": 200,
+    "ok": true,
+    "title": "Welcome To Brillie.co.uk",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "brillie"
+    ],
+    "checkedAt": "2026-04-28T07:02:56.885Z"
+  },
+  {
+    "url": "http://www.mridout.force9.co.uk/ecw/brillie.htm",
+    "hostname": "www.mridout.force9.co.uk",
+    "status": 200,
+    "ok": true,
+    "title": "Brillie",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "brillie"
+    ],
+    "checkedAt": "2026-04-28T07:02:57.166Z"
+  },
+  {
+    "url": "https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5570-miniature-atomic-clock-mac-sa5x",
+    "hostname": "www.microsemi.com",
+    "status": 200,
+    "ok": true,
+    "title": "Miniature Atomic Clock | Microchip Technology",
+    "ogTitle": "Miniature Atomic Clock",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "atomove_kapesni"
+    ],
+    "checkedAt": "2026-04-28T07:02:55.964Z"
+  },
+  {
+    "url": "http://f5mna.free.fr/h_mere%20Dossier/SYNCHRONISATION%20HORLOGE%20BRILLIE%20LE%20RETOUR%20VERSION%202.pdf",
+    "hostname": "f5mna.free.fr",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "brillie"
+    ],
+    "checkedAt": "2026-04-28T07:02:57.295Z"
+  },
+  {
+    "url": "https://www.nasa.gov/directorates/heo/scan/engineering/technology/dsac",
+    "hostname": "www.nasa.gov",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "atomove_kapesni"
+    ],
+    "checkedAt": "2026-04-28T07:02:55.655Z"
+  },
+  {
+    "url": "http://www.horologix.com/restore_bulle_174475.pdf",
+    "hostname": "www.horologix.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "bulle"
+    ],
+    "checkedAt": "2026-04-28T07:02:57.431Z"
+  },
+  {
+    "url": "http://www.csprojects.eu/bulle_clock.htm",
+    "hostname": "www.csprojects.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Restauration horloge Bulle Clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "bulle"
+    ],
+    "checkedAt": "2026-04-28T07:02:57.775Z"
+  },
+  {
+    "url": "http://www.sobnet.cz/eshop1/index.html?zb=22001",
+    "hostname": "www.sobnet.cz",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "bulle"
+    ],
+    "checkedAt": "2026-04-28T07:02:58.004Z"
+  },
+  {
+    "url": "http://www.nawcc-index.net/Articles/Smith-restore_bulle_section_01.pdf",
+    "hostname": "www.nawcc-index.net",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "bulle"
+    ],
+    "checkedAt": "2026-04-28T07:02:57.396Z"
+  },
+  {
+    "url": "http://www.antiquity.in/brillie-1.html",
+    "hostname": "www.antiquity.in",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "brillie"
+    ],
+    "checkedAt": "2026-04-28T07:02:57.292Z"
+  },
+  {
+    "url": "http://www.orloj.eu/cs/prokes_model.htm",
+    "hostname": "www.orloj.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Pra�sk� orloj - Prague Astronomical Clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "bychory_prokes1"
+    ],
+    "checkedAt": "2026-04-28T07:02:58.021Z"
+  },
+  {
+    "url": "http://www.jaknaweb.com",
+    "hostname": "www.jaknaweb.com",
+    "status": 200,
+    "ok": true,
+    "title": "JakNaWeb.com - tvorba webov�ch str�nek pomoc� XHTML, CSS, PHP, MySQL,.NET, SEO a grafika - rady jak tvo�it www",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "cas_internet1"
+    ],
+    "checkedAt": "2026-04-28T07:02:58.678Z"
+  },
+  {
+    "url": "http://www.jaknaweb.com/scripty/javascripty/datum-cas",
+    "hostname": "www.jaknaweb.com",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "cas_internet1"
+    ],
+    "checkedAt": "2026-04-28T07:02:58.792Z"
+  },
+  {
+    "url": "http://www.jaknaweb.com/script-ukazka/114/rucickove-hodiny-a-datum-u-kurzoru-mysi",
+    "hostname": "www.jaknaweb.com",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "cas_internet1"
+    ],
+    "checkedAt": "2026-04-28T07:02:58.819Z"
+  },
+  {
+    "url": "http://www.orloj.eu/cs/orloj_bici_stroj.htm",
+    "hostname": "www.orloj.eu",
+    "status": 200,
+    "ok": true,
+    "title": "Pra�sk� orloj - Prague Astronomical Clock",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "bychory_zvonici_stroj"
+    ],
+    "checkedAt": "2026-04-28T07:02:58.131Z"
+  },
+  {
+    "url": "http://www.clocklink.com/",
+    "hostname": "www.clocklink.com",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "carokodky"
+    ],
+    "checkedAt": "2026-04-28T07:02:58.515Z"
+  },
+  {
+    "url": "http://www.presnycas.cz/",
+    "hostname": "www.presnycas.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Přesný čas",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "cas_internet2",
+      "ruzne"
+    ],
+    "checkedAt": "2026-04-28T07:02:58.906Z"
+  },
+  {
+    "url": "http://www.betrisey.ch/",
+    "hostname": "www.betrisey.ch",
+    "status": 200,
+    "ok": true,
+    "title": "Marcel Bétrisey &#8211; Créations / Prototypes / Inventions",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "betrisey",
+      "kulicky"
+    ],
+    "checkedAt": "2026-04-28T07:02:56.389Z"
+  },
+  {
+    "url": "http://uzitecne.mpelikan.com/casova-pasma.html",
+    "hostname": "uzitecne.mpelikan.com",
+    "status": null,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": "fetch failed",
+    "articles": [
+      "casova_pasma"
+    ],
+    "checkedAt": "2026-04-28T07:02:59.101Z"
+  },
+  {
+    "url": "http://www.sargentandgreenleaf.com/MN-timeDelay.php",
+    "hostname": "www.sargentandgreenleaf.com",
+    "status": 403,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "casovy_zamek"
+    ],
+    "checkedAt": "2026-04-28T07:02:59.251Z"
+  },
+  {
+    "url": "http://cs.thetimenow.com/clock/",
+    "hostname": "cs.thetimenow.com",
+    "status": 200,
+    "ok": true,
+    "title": "Váš aktuální čas - Pouze hodiny",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "cas_internet2"
+    ],
+    "checkedAt": "2026-04-28T07:02:58.833Z"
+  },
+  {
+    "url": "http://www.my-time-machines.net/my_time_lock_collection.htm",
+    "hostname": "www.my-time-machines.net",
+    "status": 200,
+    "ok": true,
+    "title": "MY TIME LOCK COLLECTION",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "casovy_zamek"
+    ],
+    "checkedAt": "2026-04-28T07:02:59.773Z"
+  },
+  {
+    "url": "http://www.jinova.cz/trezor-s-casovym-zamkem",
+    "hostname": "www.jinova.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "casovy_zamek"
+    ],
+    "checkedAt": "2026-04-28T07:03:00.643Z"
+  },
+  {
+    "url": "http://www.thisisit.ca/worldclock2001/",
+    "hostname": "www.thisisit.ca",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "casova_pasma"
+    ],
+    "checkedAt": "2026-04-28T07:02:59.106Z"
+  },
+  {
+    "url": "https://dl.dropboxusercontent.com/u/74738260/Bank_Vault_Anatomy.pdf",
+    "hostname": "dl.dropboxusercontent.com",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "casovy_zamek"
+    ],
+    "checkedAt": "2026-04-28T07:03:00.771Z"
+  },
+  {
+    "url": "https://www.osel.cz/3225-presnost-atomovych-hodin-gps-a-teorie-relativity.html",
+    "hostname": "www.osel.cz",
+    "status": 200,
+    "ok": true,
+    "title": ":: OSEL.CZ ::  - Přesnost atomových hodin, GPS a teorie relativity",
+    "ogTitle": "Přesnost atomových hodin, GPS a teorie relativity",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "GPS_Sakul",
+      "decin_NTP"
+    ],
+    "checkedAt": "2026-04-28T07:02:47.913Z"
+  },
+  {
+    "url": "http://www.sopl.us/uploads/1/3/0/1/1301029/tmi_guide_to_timelock_2009.pdf",
+    "hostname": "www.sopl.us",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "casovy_zamek"
+    ],
+    "checkedAt": "2026-04-28T07:03:00.990Z"
+  },
+  {
+    "url": "http://finexpert.e15.cz/ceska-sporitelna-prodluzuje-tzv-casovy-zamek-pri-zmene-telefonniho-cisla-v-internetovem-bankovnictvi",
+    "hostname": "finexpert.e15.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Finexpert | e15.cz",
+    "ogTitle": "Finexpert",
+    "siteName": "e15.cz",
+    "error": null,
+    "articles": [
+      "casovy_zamek"
+    ],
+    "checkedAt": "2026-04-28T07:03:01.026Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Time_lock",
+    "hostname": "en.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Time lock - Wikipedia",
+    "ogTitle": "Time lock - Wikipedia",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "casovy_zamek"
+    ],
+    "checkedAt": "2026-04-28T07:03:00.737Z"
+  },
+  {
+    "url": "http://cs.wikipedia.org/wiki/DCF77",
+    "hostname": "cs.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "DCF77 – Wikipedie",
+    "ogTitle": "DCF77 – Wikipedie",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "dcf77"
+    ],
+    "checkedAt": "2026-04-28T07:03:01.578Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/WWVB",
+    "hostname": "en.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "WWVB - Wikipedia",
+    "ogTitle": "WWVB - Wikipedia",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "dcf77"
+    ],
+    "checkedAt": "2026-04-28T07:03:01.951Z"
+  },
+  {
+    "url": "http://www.chrono.cz/radiem-rizene-hodinky/",
+    "hostname": "www.chrono.cz",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "dcf77"
+    ],
+    "checkedAt": "2026-04-28T07:03:01.512Z"
+  },
+  {
+    "url": "https://hackaday.com/2014/03/22/build-your-own-radio-clock-transmitter/",
+    "hostname": "hackaday.com",
+    "status": 200,
+    "ok": true,
+    "title": "Build Your Own Radio Clock Transmitter | Hackaday",
+    "ogTitle": "Build Your Own Radio Clock Transmitter",
+    "siteName": "Hackaday",
+    "error": null,
+    "articles": [
+      "dcf77"
+    ],
+    "checkedAt": "2026-04-28T07:03:01.955Z"
+  },
+  {
+    "url": "https://www.anishathalye.com/2016/12/26/micro-wwvb/",
+    "hostname": "www.anishathalye.com",
+    "status": 200,
+    "ok": true,
+    "title": "μWWVB: A Tiny WWVB Station",
+    "ogTitle": "μWWVB: A Tiny WWVB Station",
+    "siteName": "Anish Athalye",
+    "error": null,
+    "articles": [
+      "dcf77"
+    ],
+    "checkedAt": "2026-04-28T07:03:02.304Z"
+  },
+  {
+    "url": "https://sites.google.com/site/cisc071jc/public/experiments/wwvb-transmitter",
+    "hostname": "sites.google.com",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "dcf77"
+    ],
+    "checkedAt": "2026-04-28T07:03:02.131Z"
+  },
+  {
+    "url": "http://home.zcu.cz/~poupa/dcf77.html",
+    "hostname": "home.zcu.cz",
+    "status": 200,
+    "ok": true,
+    "title": "Martin Poupa - Vše o času - DCF77 a PTB",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "dcf77",
+      "synchronizace_hodin"
+    ],
+    "checkedAt": "2026-04-28T07:03:03.254Z"
+  },
+  {
+    "url": "http://www.safeandvaultcompany.co.uk/",
+    "hostname": "www.safeandvaultcompany.co.uk",
+    "status": 200,
+    "ok": true,
+    "title": "Home | Safe + Vault",
+    "ogTitle": "Home | Safe + Vault",
+    "siteName": "Safe + Vault",
+    "error": null,
+    "articles": [
+      "casovy_zamek"
+    ],
+    "checkedAt": "2026-04-28T07:02:59.600Z"
+  },
+  {
+    "url": "https://www.ptb.de/cms/en/ptb/fachabteilungen/abt4/fb-44/ag-442/dissemination-of-legal-time/dcf77.html",
+    "hostname": "www.ptb.de",
+    "status": 200,
+    "ok": true,
+    "title": "DCF77 - PTB.de",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "dcf77"
+    ],
+    "checkedAt": "2026-04-28T07:03:02.913Z"
+  },
+  {
+    "url": "http://decimaltime.hynes.net/times.html",
+    "hostname": "decimaltime.hynes.net",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decimalky"
+    ],
+    "checkedAt": "2026-04-28T07:03:03.314Z"
+  },
+  {
+    "url": "http://www.decimaltime.hynes.net/",
+    "hostname": "www.decimaltime.hynes.net",
+    "status": 200,
+    "ok": true,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decimalky"
+    ],
+    "checkedAt": "2026-04-28T07:03:03.316Z"
+  },
+  {
+    "url": "http://www.swatch.com/xx_en/internettime.html",
+    "hostname": "www.swatch.com",
+    "status": 404,
+    "ok": false,
+    "title": null,
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decimalky"
+    ],
+    "checkedAt": "2026-04-28T07:03:03.386Z"
+  },
+  {
+    "url": "http://en.wikipedia.org/wiki/Decimal_time",
+    "hostname": "en.wikipedia.org",
+    "status": 200,
+    "ok": true,
+    "title": "Decimal time - Wikipedia",
+    "ogTitle": "Decimal time - Wikipedia",
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decimalky"
+    ],
+    "checkedAt": "2026-04-28T07:03:03.506Z"
+  },
+  {
+    "url": "http://www.fodor.sk/Spectrum/itimec.htm",
+    "hostname": "www.fodor.sk",
+    "status": 200,
+    "ok": true,
+    "title": "Internet time converter",
+    "ogTitle": null,
+    "siteName": null,
+    "error": null,
+    "articles": [
+      "decimalky"
+    ],
+    "checkedAt": "2026-04-28T07:03:03.858Z"
+  }
+]

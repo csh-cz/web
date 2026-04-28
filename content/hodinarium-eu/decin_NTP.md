@@ -94,7 +94,7 @@ Seznam používaných vstupních NTP serverů kromě pps.hodinarium je zadán ja
 
 Je otázka, jak (ne)přesný NTP server na starším 32 bitové notebooku s Lubuntu vznikl. Z fotografie obrazovky lze usoudit, že čas poskytovaný vybraným serverem je stabilní v rozsahu desítek mikrosekund. Použitý GPS NTP server dle firemních údajů poskytuje NTP čas s přesností 0.5 až 2 ms. Pokud by byla k dispozici pouze WiFi síť internetu, bude přesnost horší. Obecně lze říci, že časová přesnost, kterou můžete na straně klienta získat, závisí nejen na přesnosti dostupného zdroje referenčního času, ale také na řadě předpokladů na straně klienta. Na operačním systému (Windows, Linux, ...) a jeho konkrétní verzi, typ CPU (dobrá podpora TSC, nebo ne), čipová sada na základní desce a kvalita oscilátoru na základní desce, která určuje obecnou stabilitu systémového času. Kromě toho existují hardwarová omezení zavedená konceptem sběrnic systému, např. PCI nebo USB, latence přerušení atd. S problematikou se můžete více seznámit na stránkách firmy [MEINBERG](https://kb.meinbergglobal.com/kb/time_sync/start) konkrétně na stránce [o přesnosti synchronizace](https://kb.meinbergglobal.com/kb/time_sync/time_synchronization_accuracy_with_ntp).
 
-## Zajímavé odkazy
+## Odkazy
 
 -   Více také na [Wikipedii](https://cs.wikipedia.org/wiki/GPS) a [v popisu Systému GPS.](https://cs.wikipedia.org/wiki/Glob%C3%A1ln%C3%AD_dru%C5%BEicov%C3%BD_polohov%C3%BD_syst%C3%A9m)
 -   [Přesnost atomových hodin, GPS a teorie relativity](https://www.osel.cz/3225-presnost-atomovych-hodin-gps-a-teorie-relativity.html)

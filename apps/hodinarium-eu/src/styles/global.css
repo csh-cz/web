@@ -489,6 +489,57 @@ summary::-webkit-details-marker { display: none; }
   color: var(--color-copper);
 }
 
+/* === Sekce "## Odkazy" — externí zdroje a literatura ===
+   Astro generuje pro H2 "Odkazy" id="odkazy". Stylizujeme samotný
+   nadpis i následující seznam. */
+.prose-content h2#odkazy {
+  font-family: var(--font-serif);
+  font-size: 0.95rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--color-copper) !important;
+  font-weight: 500;
+  margin-top: 3.5em;
+  margin-bottom: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0;
+  border-top: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+}
+.prose-content h2#odkazy::after { display: none !important; }
+
+.prose-content h2#odkazy + ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 0;
+}
+.prose-content h2#odkazy + ul li {
+  padding: 0.55rem 0 0.55rem 1.5rem;
+  border-bottom: 1px dashed color-mix(in srgb, var(--color-brass) 12%, transparent);
+  position: relative;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--color-text-soft);
+}
+.prose-content h2#odkazy + ul li::marker { content: ''; }
+.prose-content h2#odkazy + ul li::before {
+  content: '↗';
+  position: absolute;
+  left: 0.25rem;
+  top: 0.6rem;
+  color: var(--color-copper);
+  font-size: 0.9em;
+  opacity: 0.75;
+}
+.prose-content h2#odkazy + ul li:last-child {
+  border-bottom: none;
+}
+.prose-content h2#odkazy + ul a {
+  color: var(--color-brass-bright);
+}
+.prose-content h2#odkazy + ul a:hover {
+  color: var(--color-paper);
+}
+
 /* Nav search button */
 /* Sesterský web (horologie.cz, orloj.eu) v navu — měďový tón */
 .nav-sister {

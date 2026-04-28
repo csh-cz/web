@@ -93,7 +93,7 @@ Bez synchronizace rychle driftují
 
 * * *
 
-## Zajímavé odkazy
+## Odkazy
 
 -   [DIGITÁLNÍ TELEVIZE A DIGITÁLNÍ ROZHLAS SOUČASNOST A PERSPEKTIVY](http://old.roznovskastredni.cz/dwnl/pel2009/06/zalud.pdf)
 -   [Digitální vysílání: Je uváděný čas skutečně přesný?](www.parabola.cz/clanky/1899/digitalni-vysilani-je-uvadeny-cas-skutecne-presny/) Obsahuje vyjádření různých televizí v ČR na tuto otázku.
