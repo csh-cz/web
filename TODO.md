@@ -70,13 +70,45 @@ Petr explicitně řekl "zatím nedělat" — počkáme.
 Připraveno, čeká na zelenou:
 
 - **TL;DR generator** — pro každý článek 2-3 věty stručného shrnutí (Gemini Flash, free tier)
-- **Sémantické vyhledávání** — embeddings při buildu, prohledávání přes Transformers.js v browseru (zdarma navždy)
+- **Sémantické vyhledávání** — embeddings při buildu, prohledávání přes Transformers.js v browseru (zdarma navždy). Návrh viz níže.
 - **Zeptej se Hodinária** — RAG chatbot přes Cloudflare Workers AI (free tier 10k Neuronů/den)
 - **AI překlad CS → EN** — Claude/Gemini, glosář horologických termínů
 
 Vyžaduje:
 - Schválení licence A1 (kvůli odvozeným dílům z AI)
 - Reálná poptávka (zatím čistě česky stačí)
+
+#### Sémantické vyhledávání — návrh tří cest
+
+Jako vodítko před implementací. Doporučuju **A** kvůli nulovým provozním
+nákladům a kompletní statice — ladí s aktuální Cloudflare Pages architekturou.
+
+**A. Transformers.js v prohlížeči (doporučeno)**
+- Build: `@xenova/transformers` v Node embedduje title + excerpt každého
+  článku, výstup `apps/hodinarium-eu/public/search-index.json` (~250 KB,
+  256-dim × 200 článků).
+- Runtime: `/hledat` stránka načte JSON + model `Xenova/multilingual-e5-small`
+  (~120 MB, jednorázově do cache), embedduje dotaz a počítá kosinovou
+  podobnost. Fallback na Pagefind keyword pro krátké dotazy.
+- Provoz: 0 Kč navždy. První návštěva /hledat má ~3—5 s startovní latenci.
+- Práce: ~4—6 h. Čistě v repu.
+
+**B. Cloudflare Workers AI + Vectorize**
+- Build: stejný embed, ale uload do Vectorize indexu pomocí Wrangler.
+- Runtime: Worker přijímá dotazy, embedduje přes Workers AI a dotazuje
+  Vectorize. Bez frontend modelu — dotazy se načtou okamžitě.
+- Provoz: free tier 10k Neuronů/den a 30M dotazů/měsíc. Vystačí.
+- Práce: ~6—8 h. Vyžaduje `wrangler.toml`, Workers AI binding
+  a build-time Vectorize upload.
+
+**C. Pagefind + synonyma (nejmenší krok)**
+- Současný Pagefind doplnit o ručně psaný slovník horologických synonym
+  (švarcvald = Schwarzwald = lesní hodiny atd.).
+- Není sémantika, ale velmi laciné a obratem užitečné.
+- Práce: ~1—2 h.
+
+Implementačně lze postupovat C → A. C je vždycky výhra; A se zapne až
+po doménovém přesunu (kvůli velikosti indexu chce ostré HTTP/2 + Brotli).
 
 ### 🎨 Design pokračování
 
@@ -109,3 +141,13 @@ DNS přesun, TLS certifikát Let's Encrypt zdarma. ~30 minut každá doména.
       (`spolek`, `sponsor`, `stanovy` atd.) na hodinarium-eu — vyčistit
 - [ ] **Cleanup unused script** `strip-dead-refs.ts` — už ne aktuální
 - [ ] **`raw/`** soubor `.DS_Store` — měl by být v gitignore (i když celá složka je)
+- [ ] **`build-image-index.ts`** zatím jen pro hodinarium-eu; rozšířit
+      i na horologie-cz (~63 obrázků), aby `rehype-picture` mohl doplnit
+      intrinsic w/h i tam.
+- [ ] **`rehype-picture` opt `wrapInPicture: true`** — zapnout až po
+      `pnpm imgvariants:build` a commitu .avif/.webp variant. Pozor na
+      Cloudflare Pages limit 20k souborů (2700 zdrojů × 3 formáty = 8100
+      img + ~250 stránek = pohodlně pod limitem).
+- [ ] **`Article.astro` byline `<time>`** — vykresluje `Invalid Date`
+      pro většinu článků (chyba v parsování `lastModified` z frontmatteru,
+      nesouvisí s last-modified opravou commitu fa298a7).
