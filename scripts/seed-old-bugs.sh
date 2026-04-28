@@ -44,7 +44,7 @@ ensure_issue() {
 
 close_issue() {
   local num="$1"
-  local comment="$2"
+  local comment="${2:-}"
 
   local state
   state=$(gh issue view "$num" --repo "$REPO" --json state --jq '.state')
@@ -53,7 +53,11 @@ close_issue() {
     return
   fi
 
-  gh issue close "$num" --repo "$REPO" --comment "$comment" --reason completed >/dev/null
+  if [[ -n "$comment" ]]; then
+    gh issue close "$num" --repo "$REPO" --comment "$comment" --reason completed >/dev/null
+  else
+    gh issue close "$num" --repo "$REPO" --reason completed >/dev/null
+  fi
   echo "  ✓ zavřený #$num"
 }
 
@@ -61,7 +65,7 @@ resolved() {
   local title="$1"
   local labels="$2"
   local body="$3"
-  local closure="$4"
+  local closure="${4:-}"
 
   echo "» $title"
   local num
