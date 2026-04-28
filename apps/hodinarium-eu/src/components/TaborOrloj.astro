@@ -1,0 +1,108 @@
+---
+/**
+ * Animovaný táborský orloj — JEDNORUČIČKOVÝ na 24-hodinovém ciferníku
+ * s číslicí 24 nahoře. Náhrada původního iframe na
+ * hodinarium.eu/tabor/tab.php (server-side PHP renderoval rotaci
+ * jednou za načtení; nahradili jsme nativní client-side komponentou
+ * podle stejného vzoru jako ZidovskeHodiny / SlunecniHodinyKlementinum).
+ *
+ * Statické assety (podklad ciferníku + ručička) zrcadlené z
+ * hodinarium.eu/tabor/ do /public/img/tabor/clock/.
+ */
+---
+<figure class="tabor-orloj" aria-label="Animace táborského orloje — jednoručičkové 24h hodiny">
+  <div class="tabor-orloj-canvas">
+    <img class="tabor-podklad"
+         src="/img/tabor/clock/podklad.jpg"
+         alt="24-hodinový ciferník táborského orloje s číslicí 24 nahoře"
+         width="350" height="262"
+         loading="lazy" decoding="async" />
+    <img class="tabor-rafie"
+         data-tabor-rafie
+         src="/img/tabor/clock/rafie2.png"
+         alt=""
+         width="21" height="172" />
+    <time class="tabor-cas" data-tabor-cas>00:00</time>
+  </div>
+  <figcaption><strong>Jediná hodinová ručička</strong> obíhá ciferník jednou za 24 hodin — ukazuje SEČ na ciferníku s číslicí 24 nahoře.</figcaption>
+</figure>
+
+<style>
+  .tabor-orloj {
+    margin: 1.5rem auto;
+    max-width: 350px;
+  }
+
+  .tabor-orloj-canvas {
+    position: relative;
+    width: 350px;
+    max-width: 100%;
+    aspect-ratio: 350 / 262;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    overflow: hidden;
+    background: var(--color-bg-deep);
+  }
+
+  .tabor-podklad {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .tabor-cas {
+    position: absolute;
+    top: 4%;
+    left: 5%;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+    pointer-events: none;
+    /* Nepoužíváme dark text-shadow, podklad obrazu má zde jasné místo */
+  }
+
+  .tabor-rafie {
+    position: absolute;
+    /* Kotva v ose ciferníku (~50% × ~38% canvasu, viz tab.php top:39px left:165px,
+       canvas 350×262 → 165/350=47%, 39/262=15%; transform-origin 50% 0% s top-center
+       znamená kotva nad ručičkou, takže umístíme tak aby horní střed byl ve středu ciferníku) */
+    top: 14%;
+    left: calc(50% - 10.5px);
+    width: 21px;
+    height: 172px;
+    transform-origin: 50% 0%;
+    transition: transform 200ms ease-out;
+    pointer-events: none;
+  }
+
+  @media (max-width: 540px) {
+    .tabor-cas { font-size: 1.1rem; }
+  }
+</style>
+
+<script>
+  /**
+   * Táborský orloj jednoručičkový: hand obíhá ciferník jednou za 24 h.
+   * Úhel = ((h * 60 + m) / 1440) * 360 ° clockwise from 12 (vrchol = 24).
+   */
+  function tick() {
+    const elCas = document.querySelector<HTMLElement>('[data-tabor-cas]');
+    const elRafie = document.querySelector<HTMLElement>('[data-tabor-rafie]');
+    if (!elCas || !elRafie) return;
+
+    const now = new Date();
+    const h = now.getHours();
+    const m = now.getMinutes();
+
+    elCas.textContent =
+      String(h).padStart(2, '0') + ':' + String(m).padStart(2, '0');
+
+    const deg = ((h * 60 + m) / 1440) * 360;
+    elRafie.style.transform = `rotate(${deg}deg)`;
+  }
+
+  tick();
+  setInterval(tick, 30_000);
+</script>

@@ -8,6 +8,8 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:15.240Z"
 manualEdit: true
 ---
+import TaborOrloj from '../../apps/hodinarium-eu/src/components/TaborOrloj.astro';
+
 ![Šechtl Voseček Tábor radnice](/img/vezni/tabor/foto0189x.jpg)
 
 
@@ -53,7 +55,9 @@ Dnes věžní hodiny mají obvykle dvě ručičky. Malou a velkou. Používat zd
 
 Jedna rafie na čtyřiadvacetihodinovém ciferníku pravděpodobně původně ukazovala italský čas počítaný od západu Slunce. ( Případně český čas počítaný od východu Slunce. ) Po zavedení německého času počítaného od půlnoci se ciferníky předělávaly. Současný táborský orloj jednou rafií ukazuje SEČ na ciferníku s číslicí 24 nahoře.
 
-Jsme muzeum virtuální, proto byl na této stránce dlouho zařazen programovaný ciferník — orloj ukazoval čas v okamžiku zobrazení stránky, vlevo nahoře byly kontrolní digitálky. Animace vznikla nejprve v technologii Flash; po jejím ukončení byla migrovaná na samostatný JavaScript hostovaný na partnerském serveru `muzeumhodin.info`. Tento server **byl bohužel v roce 2026 zrušen**, takže původní embed je nedostupný. Pracujeme na nativní implementaci přímo v Hodináriu (po vzoru [Klementinských slunečních hodin](/clanky/slunecni_filler) nebo [Židovských hodin](/clanky/zidovske)).
+Jsme muzeum virtuální, proto i na této stránce ukazujeme **animovaný ciferník v reálném čase**. Orloj ukazuje SEČ v okamžiku otevření stránky a každou půlminutu se aktualizuje. Vlevo nahoře jsou kontrolní digitálky — při srovnání obou údajů je hned vidět ta podivuhodnost jediné pomalu obíhající rafije.
+
+<TaborOrloj />
 
 ## Odkazy
 
