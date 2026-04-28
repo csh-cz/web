@@ -80,9 +80,11 @@ export const akce: Akce[] = [
       + '<p>Český spolek horologický zastupovali <strong>David Knespl</strong>, '
       + '<strong>Miroslav Baudisch</strong>, <strong>Petr Skála</strong> a '
       + '<strong>Radim Himmler</strong>.</p>'
-      + '<p><em>Petře, Mirku, Petře a Pavle — pokud máte přesnější popisky '
-      + 'k jednotlivým fotografiím a další podrobnosti k programu, ozvěte se, '
-      + 'rád to doplním.</em></p>',
+      + '<p>Při symposiu bylo navázáno plodné přátelství s <strong>Deutsche '
+      + 'Gesellschaft für Chronometrie</strong> '
+      + '(<a href="https://www.dg-chrono.de" target="_blank" rel="noopener">dg-chrono.de</a>).</p>'
+      + '<p><em>Pokud máte přesnější popisky k jednotlivým fotografiím a další '
+      + 'podrobnosti k programu, ozvěte se, rád to doplním.</em></p>',
     fotky: [
       'hero.jpg',
       '01-rano.jpg',
