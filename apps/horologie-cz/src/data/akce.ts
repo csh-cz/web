@@ -69,7 +69,7 @@ export const akce: Akce[] = [
     popis:
       'Mezinárodní symposium k 550. výročí rostockého astronomického orloje. '
       + 'Spolek zastupovali David Knespl, Miroslav Baudisch, Petr Skála '
-      + 'a Pavel Himpler.',
+      + 'a Radim Himmler.',
     detail:
       '<p>Konec října 2022 hostilo německé hanzovní město <strong>Rostock</strong> '
       + 'mezinárodní symposium k <strong>550. výročí astronomického orloje</strong> '
@@ -79,7 +79,7 @@ export const akce: Akce[] = [
       + 'Příspěvky vyšly v <em>Tagungsbandu „550 Jahre astronomische Uhr Rostock"</em>.</p>'
       + '<p>Český spolek horologický zastupovali <strong>David Knespl</strong>, '
       + '<strong>Miroslav Baudisch</strong>, <strong>Petr Skála</strong> a '
-      + '<strong>Pavel Himpler</strong>.</p>'
+      + '<strong>Radim Himmler</strong>.</p>'
       + '<p><em>Petře, Mirku, Petře a Pavle — pokud máte přesnější popisky '
       + 'k jednotlivým fotografiím a další podrobnosti k programu, ozvěte se, '
       + 'rád to doplním.</em></p>',
