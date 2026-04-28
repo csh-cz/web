@@ -3,6 +3,7 @@ import Base from "./Base.astro";
 import Card from "../components/Card.astro";
 import catalog from "../data/catalog.json";
 import { hodinariProClanek } from "../data/hodinari";
+import { krokyProClanek } from "../data/kroky";
 
 interface CatalogEntry {
   slug: string;
@@ -51,6 +52,7 @@ const lastModifiedReadable = lastModified
   : null;
 
 const hodinariZmineni = slug ? hodinariProClanek(slug) : [];
+const krokyZmineni = slug ? krokyProClanek(slug) : [];
 ---
 <Base title={title} description={description}>
   <!-- Breadcrumbs -->
@@ -105,6 +107,22 @@ const hodinariZmineni = slug ? hodinariProClanek(slug) : [];
                     <span class="hodinari-box-meta">{h.mesto}</span>
                   </>
                 )}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </aside>
+    )}
+
+    {krokyZmineni.length > 0 && (
+      <aside class="hodinari-box" aria-label="Hodinové kroky zmínění v článku">
+        <p class="eyebrow hodinari-box-label">Hodinové kroky v tomto článku</p>
+        <ul class="hodinari-box-list">
+          {krokyZmineni.map((k) => (
+            <li>
+              <a href={`/kroky/${k.slug}`}>
+                <strong>{k.jmeno}</strong>
+                {k.rok && <span class="hodinari-box-meta">{k.rok}</span>}
               </a>
             </li>
           ))}

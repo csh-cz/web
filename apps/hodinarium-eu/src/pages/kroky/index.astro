@@ -1,0 +1,133 @@
+---
+import Base from '../../layouts/Base.astro';
+import { kroky, skupinaLabel, type Krok } from '../../data/kroky';
+
+const skupinaOrder: Krok['skupina'][] = ['rane', 'klasicke', 'presne', 'volne', 'elektricke'];
+
+function groupBySkupina(list: Krok[]): Map<Krok['skupina'], Krok[]> {
+  const m = new Map<Krok['skupina'], Krok[]>();
+  for (const s of skupinaOrder) m.set(s, []);
+  for (const k of list) m.get(k.skupina)?.push(k);
+  for (const [k, v] of m) {
+    v.sort((a, b) => a.jmeno.localeCompare(b.jmeno, 'cs'));
+    if (v.length === 0) m.delete(k);
+  }
+  return m;
+}
+
+const krokyByGroup = groupBySkupina(kroky);
+---
+<Base
+  title="Hodinové kroky"
+  description="Rejstřík hodinových kroků (escapements) zmíněných v článcích Hodinária. Stuby pro budoucí podrobné technické články."
+>
+  <header class="max-w-3xl mb-10">
+    <p class="eyebrow mb-4">Technický rejstřík</p>
+    <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Hodinové kroky</h1>
+    <p class="text-[var(--color-text)] leading-relaxed">
+      Mechanizmus, který přerušuje pohyb soukolí a předává energii oscilátoru — kyvadlu nebo balanci.
+      Krok určuje přesnost hodin a celý jejich charakter.
+      Tento rejstřík obsahuje <strong class="text-[var(--color-brass-bright)]">{kroky.length}</strong> kroků
+      zmíněných v článcích.
+    </p>
+  </header>
+
+  {[...krokyByGroup.entries()].map(([skupina, list]) => (
+    <section class="krok-skupina">
+      <h2 class="krok-skupina-label">{skupinaLabel[skupina]}</h2>
+      <div class="krok-grid">
+        {list.map((k) => (
+          <a href={`/kroky/${k.slug}`} class="krok-card">
+            <h3 class="krok-name">{k.jmeno}</h3>
+            <p class="krok-meta">
+              {k.vynalezce && <span>{k.vynalezce}</span>}
+              {k.vynalezce && k.rok && <span class="krok-sep" aria-hidden="true">·</span>}
+              {k.rok && <span>{k.rok}</span>}
+            </p>
+            <p class="krok-summary">{k.shrnuti}</p>
+            <p class="krok-count">
+              {k.relatedSlugs.length > 0
+                ? `${k.relatedSlugs.length} ${k.relatedSlugs.length === 1 ? 'článek' : k.relatedSlugs.length < 5 ? 'články' : 'článků'}`
+                : 'samostatný profil'}
+            </p>
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
+</Base>
+
+<style>
+  .krok-skupina {
+    margin-bottom: 2.5rem;
+  }
+  .krok-skupina-label {
+    font-family: var(--font-serif);
+    font-size: 0.78rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: var(--color-copper);
+    font-weight: 500;
+    margin: 0 0 1rem !important;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  }
+  .krok-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.25rem;
+  }
+  .krok-card {
+    display: block;
+    padding: 1.25rem 1.4rem 1.1rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: border-color 200ms ease, transform 200ms ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    border-bottom-color: color-mix(in srgb, var(--color-brass) 22%, transparent);
+  }
+  .krok-card:hover {
+    border-color: var(--color-brass);
+    transform: translateY(-2px);
+  }
+  .krok-name {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.25rem !important;
+    color: var(--color-brass-bright) !important;
+    margin: 0 0 0.25rem !important;
+    line-height: 1.2 !important;
+  }
+  .krok-meta {
+    font-size: 0.8rem;
+    color: var(--color-copper);
+    margin: 0 0 0.6rem;
+    font-feature-settings: "lnum";
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .krok-sep {
+    opacity: 0.6;
+  }
+  .krok-summary {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--color-text-soft);
+    margin: 0 0 0.75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .krok-count {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+  }
+</style>

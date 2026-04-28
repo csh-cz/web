@@ -1,0 +1,244 @@
+---
+import Base from '../../layouts/Base.astro';
+import { kroky } from '../../data/kroky';
+import catalog from '../../data/catalog.json';
+
+interface CatalogEntry {
+  slug: string;
+  title: string;
+  category: string;
+  thumbnail: string | null;
+  excerpt: string;
+  imageCount: number;
+}
+
+export async function getStaticPaths() {
+  return kroky.map((k) => ({
+    params: { slug: k.slug },
+    props: { krok: k },
+  }));
+}
+
+const { krok } = Astro.props;
+const all = catalog as CatalogEntry[];
+const related = krok.relatedSlugs
+  .map((s) => all.find((e) => e.slug === s))
+  .filter((e): e is CatalogEntry => Boolean(e));
+---
+<Base
+  title={`${krok.jmeno} — hodinový krok`}
+  description={krok.shrnuti}
+>
+  <nav class="breadcrumbs" aria-label="Drobečková navigace">
+    <a href="/">Hodinárium</a>
+    <span aria-hidden="true">›</span>
+    <a href="/kroky">Hodinové kroky</a>
+    <span aria-hidden="true">›</span>
+    <span class="current" aria-current="page">{krok.jmeno}</span>
+  </nav>
+
+  <article class="krok-detail">
+    <header class="krok-detail-header">
+      <p class="eyebrow mb-3">Hodinový krok</p>
+      <h1 class="krok-detail-title">{krok.jmeno}</h1>
+
+      <dl class="krok-detail-meta">
+        {krok.vynalezce && (
+          <div>
+            <dt>Vynálezce / původ</dt>
+            <dd>{krok.vynalezce}</dd>
+          </div>
+        )}
+        {krok.rok && (
+          <div>
+            <dt>Datace</dt>
+            <dd>{krok.rok}</dd>
+          </div>
+        )}
+      </dl>
+    </header>
+
+    <div class="prose-content">
+      <p class="lead">{krok.shrnuti}</p>
+
+      <h2>Charakteristika</h2>
+      <p>{krok.charakteristika}</p>
+
+      <aside class="krok-stub-note">
+        <p>
+          <strong>Podrobný technický článek je zatím stub.</strong>
+          Připravujeme rozšířený text s nákresy mechanizmu, funkčním schématem
+          a srovnáním přesnosti. Pokud disponujete technickou dokumentací,
+          ozvěte&nbsp;se nám.
+        </p>
+      </aside>
+
+      {related.length > 0 && (
+        <section>
+          <h2>Zmíněn v článcích</h2>
+          <ul class="krok-related-list">
+            {related.map((c) => (
+              <li>
+                <a href={`/clanky/${c.slug}`}>
+                  {c.thumbnail && (
+                    <img src={c.thumbnail} alt="" loading="lazy" decoding="async" />
+                  )}
+                  <span class="related-text">
+                    <strong>{c.title || c.slug}</strong>
+                    {c.excerpt && <span class="related-excerpt">{c.excerpt.slice(0, 140)}{c.excerpt.length > 140 ? '…' : ''}</span>}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </div>
+
+    <footer class="article-byline">
+      <span class="byline-author">Český spolek horologický</span>
+      <span class="byline-sep" aria-hidden="true">·</span>
+      <span class="byline-date">Stub profil — připravujeme rozšířený technický popis</span>
+    </footer>
+  </article>
+</Base>
+
+<style>
+  .breadcrumbs {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .breadcrumbs a { color: var(--color-text-soft); border-bottom: none; }
+  .breadcrumbs a:hover { color: var(--color-brass-bright); }
+  .breadcrumbs .current { color: var(--color-text-soft); font-style: italic; }
+  .breadcrumbs span[aria-hidden] { color: var(--color-brass); opacity: 0.5; }
+
+  .krok-detail { max-width: 72ch; margin: 0 auto; }
+  .krok-detail-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .krok-detail-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    line-height: 1.1;
+    margin: 0 0 1.25rem;
+    color: var(--color-brass-bright);
+    letter-spacing: -0.01em;
+  }
+  .krok-detail-meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin: 0;
+  }
+  .krok-detail-meta div {
+    border-left: 2px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    padding-left: 0.85rem;
+  }
+  .krok-detail-meta dt {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--color-copper);
+    font-weight: 500;
+    margin: 0 0 0.2rem;
+  }
+  .krok-detail-meta dd {
+    font-size: 1rem;
+    color: var(--color-text);
+    margin: 0;
+    font-feature-settings: "lnum";
+  }
+
+  .lead {
+    font-size: 1.2rem;
+    line-height: 1.55;
+    color: var(--color-text);
+    margin-top: 0;
+  }
+
+  .krok-stub-note {
+    background: color-mix(in srgb, var(--color-bg-deep) 85%, var(--color-copper));
+    border: 1px solid color-mix(in srgb, var(--color-copper) 40%, transparent);
+    border-left: 3px solid var(--color-copper);
+    padding: 1rem 1.25rem;
+    margin: 2rem 0;
+    border-radius: 2px;
+  }
+  .krok-stub-note p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--color-text-soft);
+  }
+
+  .krok-related-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .krok-related-list a {
+    display: flex;
+    gap: 1rem;
+    padding: 0.75rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--color-text);
+    align-items: flex-start;
+    transition: border-color 150ms ease;
+  }
+  .krok-related-list a:hover { border-color: var(--color-brass); }
+  .krok-related-list img {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 2px;
+    flex-shrink: 0;
+    filter: sepia(0.15) saturate(0.85);
+  }
+  .related-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1;
+    min-width: 0;
+  }
+  .related-text strong {
+    color: var(--color-brass-bright);
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .related-excerpt {
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+    line-height: 1.4;
+  }
+
+  .article-byline {
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .byline-author { color: var(--color-text-soft); font-style: italic; }
+  .byline-sep { color: var(--color-brass); opacity: 0.5; }
+</style>
