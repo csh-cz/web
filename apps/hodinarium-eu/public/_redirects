@@ -219,7 +219,8 @@
 /slunecni.htm /clanky/slunecni 301
 /co_pisi_jini.htm /clanky/co_pisi_jini 301
 /download.htm /clanky/download 301
-/NTPH_st.htm /clanky/NTPH_st 301
+/NTPH_st.htm /clanky/NTPH 301
+/clanky/NTPH_st /clanky/NTPH 301
 
 # Fallback — neznámé .htm cesty
 /*.htm /404 404

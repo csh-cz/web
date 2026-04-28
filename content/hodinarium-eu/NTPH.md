@@ -1,25 +1,22 @@
 ---
-title: "Hodiny NTPH - mikropočítačem řízené hodiny vyrobené 3D tiskem se synchronizací času z internetu"
+title: "Hodiny NTPH — mikropočítačem řízené hodiny vyrobené 3D tiskem se synchronizací času z internetu"
 slug: "NTPH"
 category: "projekty"
 originalUrl: "https://hodinarium.eu/NTPH.htm"
 lastModified: "Wed, 01 Oct 2025 11:22:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:23.264Z"
+manualEdit: true
 ---
 ![NTPH magnetické](/img/3D/magneticke.jpg)
 
 Hodiny jsou vyrobeny 3D tiskem ve dvou variantách a jsou ovládané elektronikou sestávající z modulu ESP8266 ESP-12F a motoru s řadičem 28BYJ48. Design hodin je převzat z hodin publikovaných na internetu, SW je vlastní vývoj. Hodiny jsou napájeny 5 V adaptérem s konektorem USB mikro. Hodiny po zapnutí potřebují prvotní nastavení času buď z NTP serveru v internetu nebo nouzově přímo z mobilního telefonu. Jít mohou i bez nastavení času. Synchronizaci zajistí alespoň občasné připojení.
 
-[Starší verze návodu](/clanky/NTPH_st)
-
-##
-
 ## Základní vlastnosti
 
--   ## ![NTPH pevné převody](/img/3D/prevodove.jpg)
+![NTPH pevné převody](/img/3D/prevodove.jpg)
 
-    NTPH jsou hodiny vyrobené 3D tiskem ve dvou variantách designu.
+-   NTPH jsou hodiny vyrobené 3D tiskem ve dvou variantách designu.
 -   Řídící program byl navržen speciálně pro tyto hodiny.
 -   Hodiny posouvají ručičky vždy po minutě.
 -   Časová synchronizace NTP serveru v internetu po WiFi síti včetně přepnutí letního času.
@@ -71,8 +68,6 @@ Modul ESP8266 prvotně obsluhuje WiFi komunikaci. Zde ještě obtížněji, prot
 ## Podrobnější popis
 
 ### Připojení na vnitřní web
-
-##
 
 Vnitřní web je základním způsobem ovládání hodin. Po zapnutí hodiny spustí WiFi s názvem sítě NTPH-xxxx, kde xxxx jsou poslední čtyři znaky MAC adresy WiFi adaptéru. Připojíte se na tuto síť bez hesla a v prohlížeči zadáte 192.168.4.1 Objeví se základní obrazovka jako na spodním obrázku. Přistoupíte k zadání způsobu získání aktuálního času, tedy obvykle k nastavení připojení k internetu.Modul provede Scan okolí a umožní vybrat síť a zadat heslo.
 
