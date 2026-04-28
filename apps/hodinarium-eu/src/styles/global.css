@@ -613,6 +613,13 @@ summary::-webkit-details-marker { display: none; }
   border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
   border-radius: 2px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  /* Když je položek hodně (Hodinárium má ~15), seznam přesahuje
+     viewport. Necháme ho skrolovat uvnitř — výška se omezí na
+     výšku okna minus header (~80 px) a malý buffer. */
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
 }
 
 .mobile-menu a {
