@@ -267,8 +267,8 @@ export const akce: Akce[] = [
       + 'přátelé — <strong>prof. Manfred Schukowski</strong>, bernský orlojník '
       + '<strong>Markus Marti</strong> a <strong>Jochen Motschmann</strong>. '
       + 'Setkání s nimi v Rostocku bylo o to vzácnější, čest jejich památce.</em></p>'
-      + '<p class="article-credit"><em>Text: Radim Himmler, David Knespl. '
-      + 'Foto: David Knespl, Lenka Knesplová.</em></p>',
+      + '<p class="article-credit"><em>Text: Miroslav Baudisch, Radim Himmler, '
+      + 'David Knespl. Foto: David Knespl, Lenka Knesplová.</em></p>',
     fotky: [
       'hero.jpg',
       '01-rano.jpg',
