@@ -25,8 +25,9 @@ interface Props {
   tldr?: string;
   category?: string;
   slug?: string;
+  ogImageOverride?: string;
 }
-const { title, description, lastModified, tldr, category, slug } = Astro.props;
+const { title, description, lastModified, tldr, category, slug, ogImageOverride } = Astro.props;
 
 const categoryLabels: Record<string, string> = {
   decin: 'Hodinárium Děčín',
@@ -54,7 +55,7 @@ const lastModifiedReadable = lastModified
 const hodinariZmineni = slug ? hodinariProClanek(slug) : [];
 const krokyZmineni = slug ? krokyProClanek(slug) : [];
 ---
-<Base title={title} description={description}>
+<Base title={title} description={description} ogImageOverride={ogImageOverride}>
   <!-- Breadcrumbs -->
   <nav class="breadcrumbs" aria-label="Drobečková navigace">
     <a href="/">Hodinárium</a>

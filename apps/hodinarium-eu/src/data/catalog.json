@@ -8,7 +8,7 @@
     "year": null,
     "lastModified": "2016-07-02T20:07:00.000Z",
     "imageCount": 0,
-    "wordCount": 511
+    "wordCount": 510
   },
   {
     "slug": "slunecni",
@@ -19,7 +19,7 @@
     "year": null,
     "lastModified": "2016-07-02T20:07:00.000Z",
     "imageCount": 3,
-    "wordCount": 388
+    "wordCount": 387
   },
   {
     "slug": "mobil",
@@ -53,6 +53,28 @@
     "lastModified": "2022-04-24T09:31:00.000Z",
     "imageCount": 7,
     "wordCount": 1643
+  },
+  {
+    "slug": "tabor",
+    "title": "[Stěhovavý orloj v Táboře](/img/vezni/tabor/presuny_rytina.jpg)",
+    "category": "vezni-hodiny",
+    "thumbnail": "/img/vezni/tabor/foto0189x.jpg",
+    "excerpt": "Každé staré hodiny s 24 hodinovým ciferníkem se někdy nazývaly orloje.",
+    "year": 1512,
+    "lastModified": "2022-09-24T12:20:00.000Z",
+    "imageCount": 3,
+    "wordCount": 774
+  },
+  {
+    "slug": "zidovske",
+    "title": "**Židovské hodiny z roku 1764**",
+    "category": "sbirka",
+    "thumbnail": "/img/zidovske/staronova_synagoga.jpg",
+    "excerpt": "Nejprve tedy jednotlivé znaky: (Více o hebrejské abecedě naleznete například ve wikipedii. ) (Zobrazení písmen může někde dělat potíže. Nainstalujte si do prohlížeče podporu hebrejštiny.)",
+    "year": 1764,
+    "lastModified": "2020-11-24T02:06:00.000Z",
+    "imageCount": 5,
+    "wordCount": 1181
   },
   {
     "slug": "alzbeta",
@@ -539,39 +561,6 @@
     "wordCount": 418
   },
   {
-    "slug": "Kappa",
-    "title": "Hodinárium Děčín - expozice časoměrných strojů",
-    "category": "projekty",
-    "thumbnail": "/img/elektrika/Kappa/Kappa1.jpg",
-    "excerpt": "Kappa Orologi Industriali byla založena v Itálii pravděpodobně v druhé polovině 20. století, v době, kdy narůstala potřeba synchronizace času ve velkých průmyslových a námořních komplexech. Jejich výrobní program zahr…",
-    "year": null,
-    "lastModified": "2025-12-08T20:44:00.000Z",
-    "imageCount": 4,
-    "wordCount": 947
-  },
-  {
-    "slug": "Lantime_M100",
-    "title": "Hodinárium Děčín - expozice časoměrných strojů",
-    "category": "projekty",
-    "thumbnail": "/img/decin/NTP_Meinberg/panelM100.jpg",
-    "excerpt": "Společnost Meinberg Funkuhren GmbH & Co. KG byla založena v roce 1979 Wernerem a Günterem Meinbergem a nyní je moderní průmyslovou společností. Více než 100 zaměstnanců pracuje na vývoji a výrobě elektronických modulů…",
-    "year": 1979,
-    "lastModified": "2021-02-01T01:21:00.000Z",
-    "imageCount": 2,
-    "wordCount": 412
-  },
-  {
-    "slug": "datumatik",
-    "title": "Hodinárium Děčín - expozice časoměrných strojů",
-    "category": "projekty",
-    "thumbnail": "/img/datumatic/foto_0001.jpg",
-    "excerpt": "Na našem serveru dělíme časoměrné přístroje na hodiny, hodinky, minutky, sekundovky a dňovky - tedy hodiny s kalendářem. U hodinek nepřekvapí zobrazení data, někdy i dalších kalendářních údajů, avšak u větších hodin j…",
-    "year": 1906,
-    "lastModified": "2017-04-26T16:00:00.000Z",
-    "imageCount": 4,
-    "wordCount": 548
-  },
-  {
     "slug": "decin_2015_08_04",
     "title": "Hodinárium Děčín - expozice časoměrných strojů",
     "category": "decin",
@@ -592,17 +581,6 @@
     "lastModified": "2020-01-02T14:31:00.000Z",
     "imageCount": 123,
     "wordCount": 32
-  },
-  {
-    "slug": "decin_NTP",
-    "title": "Hodinárium Děčín - expozice časoměrných strojů",
-    "category": "decin",
-    "thumbnail": "/img/elektrika/Bodet/logo_bodet.png",
-    "excerpt": "Synchronizace hodin jednotného času se dělala nejčastěji vysíláním polarizovaných minutových impulzů po dvoudrátovém rozvodu od matečních hodin k hodinám podružným. Méně často se používaly impulzy půlminutové (Brillie…",
-    "year": null,
-    "lastModified": "2023-03-20T10:16:00.000Z",
-    "imageCount": 7,
-    "wordCount": 1674
   },
   {
     "slug": "decin_galerie",
@@ -649,28 +627,6 @@
     "wordCount": 932
   },
   {
-    "slug": "tabor",
-    "title": "Hodinárium Děčín - expozice časoměrných strojů",
-    "category": "vezni-hodiny",
-    "thumbnail": "/img/vezni/tabor/foto0189x.jpg",
-    "excerpt": "Každé staré hodiny s 24 hodinovým ciferníkem se někdy nazývaly orloje.",
-    "year": 1512,
-    "lastModified": "2022-09-24T12:20:00.000Z",
-    "imageCount": 3,
-    "wordCount": 779
-  },
-  {
-    "slug": "zidovske",
-    "title": "Hodinárium Děčín - expozice časoměrných strojů",
-    "category": "sbirka",
-    "thumbnail": "/img/zidovske/staronova_synagoga.jpg",
-    "excerpt": "Nejprve tedy jednotlivé znaky: (Více o hebrejské abecedě naleznete například ve wikipedii. ) (Zobrazení písmen může někde dělat potíže. Nainstalujte si do prohlížeče podporu hebrejštiny.)",
-    "year": 1764,
-    "lastModified": "2020-11-24T02:06:00.000Z",
-    "imageCount": 5,
-    "wordCount": 1187
-  },
-  {
     "slug": "muzea_cr",
     "title": "Hodinářská muzea, sbírky a weby v ČR",
     "category": "sbirka",
@@ -713,6 +669,17 @@
     "lastModified": "2017-04-26T13:36:00.000Z",
     "imageCount": 5,
     "wordCount": 254
+  },
+  {
+    "slug": "datumatik",
+    "title": "Hodiny Datumatic",
+    "category": "projekty",
+    "thumbnail": "/img/datumatic/foto_0001.jpg",
+    "excerpt": "Na našem serveru dělíme časoměrné přístroje na hodiny, hodinky, minutky, sekundovky a dňovky - tedy hodiny s kalendářem. U hodinek nepřekvapí zobrazení data, někdy i dalších kalendářních údajů, avšak u větších hodin j…",
+    "year": 1906,
+    "lastModified": "2017-04-26T16:00:00.000Z",
+    "imageCount": 4,
+    "wordCount": 545
   },
   {
     "slug": "jezdecke",
@@ -869,6 +836,17 @@
     "wordCount": 247
   },
   {
+    "slug": "decin_NTP",
+    "title": "Instalované NTP servery",
+    "category": "decin",
+    "thumbnail": "/img/elektrika/Bodet/Profil930NTP.png",
+    "excerpt": "Synchronizace hodin jednotného času se dělala nejčastěji vysíláním polarizovaných minutových impulzů po dvoudrátovém rozvodu od matečních hodin k hodinám podružným. Méně často se používaly impulzy půlminutové (Brillie…",
+    "year": null,
+    "lastModified": "2023-03-20T10:16:00.000Z",
+    "imageCount": 7,
+    "wordCount": 1669
+  },
+  {
     "slug": "perpetum_mobile",
     "title": "Jako perpetum mobile - věčné hodiny ?",
     "category": "sbirka",
@@ -922,6 +900,17 @@
     "lastModified": "2017-04-26T16:01:00.000Z",
     "imageCount": 3,
     "wordCount": 335
+  },
+  {
+    "slug": "Kappa",
+    "title": "KAPPA – výrobce námořních hodin master-slave",
+    "category": "projekty",
+    "thumbnail": "/img/elektrika/Kappa/Kappa1.jpg",
+    "excerpt": "Kappa Orologi Industriali byla založena v Itálii pravděpodobně v druhé polovině 20. století, v době, kdy narůstala potřeba synchronizace času ve velkých průmyslových a námořních komplexech. Jejich výrobní program zahr…",
+    "year": null,
+    "lastModified": "2025-12-08T20:44:00.000Z",
+    "imageCount": 4,
+    "wordCount": 940
   },
   {
     "slug": "spinka",
@@ -1142,6 +1131,17 @@
     "lastModified": "2017-04-26T14:11:00.000Z",
     "imageCount": 2,
     "wordCount": 272
+  },
+  {
+    "slug": "Lantime_M100",
+    "title": "Meinberg NTP LANTIME M100 GPS (ELX)",
+    "category": "projekty",
+    "thumbnail": "/img/decin/NTP_Meinberg/panelM100.jpg",
+    "excerpt": "Společnost Meinberg Funkuhren GmbH & Co. KG byla založena v roce 1979 Wernerem a Günterem Meinbergem a nyní je moderní průmyslovou společností. Více než 100 zaměstnanců pracuje na vývoji a výrobě elektronických modulů…",
+    "year": 1979,
+    "lastModified": "2021-02-01T01:21:00.000Z",
+    "imageCount": 2,
+    "wordCount": 405
   },
   {
     "slug": "mereni_casu",

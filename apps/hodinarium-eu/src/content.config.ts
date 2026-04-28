@@ -16,6 +16,8 @@ const clanky = defineCollection({
     scrapedAt: z.string(),
     tldr: z.string().optional(),
     manualEdit: z.boolean().optional(),
+    /** Custom path (e.g. /img/...) to override the default template-based OG image. */
+    ogImage: z.string().optional(),
   }),
 });
 

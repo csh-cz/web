@@ -7,8 +7,10 @@ interface Props {
   title: string;
   description?: string;
   ogSlug?: string;
+  /** Override path (e.g. /img/foo.jpg) — kdy chceš místo template-based OG použít vlastní obrázek. */
+  ogImageOverride?: string;
 }
-const { title, description, ogSlug } = Astro.props;
+const { title, description, ogSlug, ogImageOverride } = Astro.props;
 const fullTitle = title === "Hodinárium" ? title : `${title} — Hodinárium`;
 const desc = description ?? "Český spolek horologický — sbírka, expozice, projekty.";
 const site = Astro.site ?? new URL("https://hodinarium.eu");
@@ -24,7 +26,9 @@ function ogSlugFromPath(path: string): string {
   return p.split('/')[0];
 }
 const slug = ogSlug ?? ogSlugFromPath(Astro.url.pathname);
-const ogImage = new URL(`/og/${slug}.png`, site).toString();
+const ogImage = ogImageOverride
+  ? new URL(ogImageOverride, site).toString()
+  : new URL(`/og/${slug}.png`, site).toString();
 ---
 <!DOCTYPE html>
 <html lang="cs" dir="ltr">

@@ -6,10 +6,11 @@ originalUrl: "https://hodinarium.eu/decin_NTP.htm"
 lastModified: "Mon, 20 Mar 2023 10:16:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:29.360Z"
+ogImage: "/img/elektrika/Bodet/Profil930NTP.png"
 ---
-![Logo Bodet](/img/elektrika/Bodet/logo_bodet.png)
+![Bodet Profil 930 NTP — analogové podružné hodiny](/img/elektrika/Bodet/Profil930NTP.png)
 
-![Bodet 930](/img/elektrika/Bodet/Profil930NTP.png)
+![Logo Bodet](/img/elektrika/Bodet/logo_bodet.png)
 
 Synchronizace hodin jednotného času se dělala nejčastěji vysíláním polarizovaných minutových impulzů po dvoudrátovém rozvodu od matečních hodin k hodinám podružným. Méně často se používaly impulzy půlminutové ([Brillie](/clanky/brillie)), stejnosměrné impulzy, impulzy po tří drátu ([IBM](/clanky/decin_regulaceIBM)) a další systémy. V druhé polovině 19. století se používal i [stlačený vzduch](/clanky/pneumatika2). V současné době se pro řízení hodin používá kompletní časová informace například po lince [MOBAline](/clanky/mobatime). Nejmodernějším způsobem šíření časového signálu po vlastním vedením je síť LAN - Ethernet nebo WiFi. (Více také na stránce [synchronizace](/clanky/synchronizace_hodin).)
 
@@ -38,9 +39,9 @@ Do sestavy je také připojen i [NTP to DCF simulátor](https://papouch.com/dcf-
 
 * * *
 
-## ![Levné AP od Mikrotiku](/img/elektrika/Bodet/mAPlite.jpg)
-
 ## MikroTik jako NTP server v režimu Broadcast
+
+![Levné AP od Mikrotiku](/img/elektrika/Bodet/mAPlite.jpg)
 
 Jako první NTP server jsme zvolili zařízení na platformě Routerboardu MikroTik. Mikrotik s licencí L4 umožňuje nainstalovat NTP server s režimem Broadcast. Pro synchronizaci v síti Internet potřebujeme přístup pomocí zabudované WiFi karty s anténou a výstup na Ethernet pro připojení LAN směrem k hodinám. Vybrali jsme MikroTik mAP lite, jehož konfigurace našim potřebám dostačuje. Cena byla cca 600.- Kč.
 
