@@ -603,6 +603,109 @@ export const akce: Akce[] = [
     typ: 'akce',
   },
   {
+    slug: 'karlstejn-dhk',
+    rok: 2018,
+    datum: 'datum upřesní pamětníci',
+    nazev: 'Návštěva Domu hodin Karlštejn',
+    misto: 'Karlštejn 138, okres Beroun',
+    lat: 49.9388, lon: 14.1881,
+    popis:
+      'Spolková výprava do soukromého Muzea hodin Karlštejn pana '
+      + 'Miroslava Svobody — největší expozice hodin v ČR (přes 850 '
+      + 'exempářů od renesance po novověk).',
+    detail:
+      '<p><strong>Dům hodin Karlštejn</strong> '
+      + '(<a href="https://muzeumhodin.cz" target="_blank" rel="noopener">muzeumhodin.cz</a>) '
+      + 'je soukromé muzeum pana <strong>Miroslava Svobody</strong> '
+      + 've vile pod hradem Karlštejn. Sbírka začala kolem roku 1970 '
+      + 'náhodným nákupem pendlovek, postupně se rozrostla do '
+      + '<strong>největší výstavy hodin v České republice</strong> — '
+      + 'aktuálně přes <strong>850 exempářů</strong> od renesance '
+      + '(nejstarší stroj z roku 1520) po novověk (nejmladší z roku 1950).</p>'
+      + '<p>V roce 1994 vznikl Klub přátel historických hodin, byla '
+      + 'koupena a zrekonstruována vila v podhradí Karlštejna a v dubnu '
+      + '<strong>2003</strong> byly otevřeny dveře Domu hodin '
+      + 'veřejnosti. Sbírka pokrývá hodiny z Anglie, Švýcarska, Francie, '
+      + 'Německa, Itálie, Rakouska-Uherska, Ameriky, Číny, Japonska '
+      + 'i českých dílen — exponáty z období renesance, baroka, '
+      + 'klasicismu a secese.</p>'
+      + '<h2>Co jsme viděli</h2>'
+      + '<ul>'
+      + '<li><strong>Stěnová sestava schwarzwaldských hodin</strong> '
+      + '— typické žluté „bauernuhren" s malovanými ciferníky, '
+      + 'kukačka, automaty.</li>'
+      + '<li><strong>Barokní a rokokový koutek</strong> — bohatě '
+      + 'pozlacené rokoko, černo-zlaté empírové stroje, francouzské '
+      + 'a vídeňské pendlovky 18.—19. století.</li>'
+      + '<li><strong>Porcelánové hodiny s míšeňskými figurkami</strong> '
+      + '— vitrína s ozdobnými stolními hodinami z Míšně, Sèvres '
+      + 'a podobných manufaktur.</li>'
+      + '<li><strong>Sbírka kapesních hodinek</strong> — chronografy, '
+      + 'lépe zachovalé exempláře v původních krabičkách, řetízky.</li>'
+      + '<li><strong>Mechanická zvonkohra</strong> s kovovými miskami '
+      + 'řízená válcem s kolíky.</li>'
+      + '<li>Olejomalba městečka s farním kostelem, jehož věžní '
+      + 'hodiny mají skutečně osazený funkční mechanismus pohybující '
+      + 'rafiemi.</li>'
+      + '<li>Charakteristická figurína „Černokněžníka" v plášti '
+      + 's klobákem stojící mezi cuckoo-clock kazetami — symbol '
+      + 'tajemna staré technologie.</li>'
+      + '</ul>'
+      + '<p>Součástí venkovní expozice je i <strong>Karlštejnská '
+      + 'zvonkohra</strong> osazená 12 zvonky, která odbíjí každých '
+      + '15 minut a v celou hodinu hraje známé melodie z repertoáru '
+      + 'přes 1000 skladeb.</p>'
+      + '<h2>Praktické</h2>'
+      + '<ul>'
+      + '<li>Adresa: <strong>Karlštejn 138, 267 18, okres Beroun</strong></li>'
+      + '<li>Web: <a href="https://muzeumhodin.cz" target="_blank" '
+      + 'rel="noopener">muzeumhodin.cz</a></li>'
+      + '<li>Návštěva po telefonické objednávce, max. 5 návštěvníků '
+      + 've skupině; děti pouze v doprovodu rodičů (pro děti mladší '
+      + '6 let je expozice nevhodná).</li>'
+      + '</ul>'
+      + '<h2>Odkazy</h2>'
+      + '<ul>'
+      + '<li><a href="https://muzeumhodin.cz" target="_blank" '
+      + 'rel="noopener">muzeumhodin.cz</a> — oficiální web muzea</li>'
+      + '<li><a href="https://www.regiontourist.cz/co-podniknout/dum-hodin-karlstejn/" '
+      + 'target="_blank" rel="noopener">regiontourist.cz</a> — '
+      + 'turistický portál Region Tourist</li>'
+      + '<li><a href="https://hrad-karlstejn.com/dum-hodin.php" '
+      + 'target="_blank" rel="noopener">hrad-karlstejn.com</a> — '
+      + 'Dům hodin v kontextu hradu Karlštejn</li>'
+      + '</ul>'
+      + '<p><em>Pozn.: Datum spolkové návštěvy se v dochovaných '
+      + 'fotografiích nepodařilo přesně určit (chybí EXIF). Pokud '
+      + 'si pamětníci na termín vzpomenou, doplníme.</em></p>',
+    fotky: [
+      'hero.jpg',
+      '01-baroko-rokoko-koutek.jpg',
+      '02-baroko-stolni.jpg',
+      '03-svarcvaldky-stena.jpg',
+      '04-cernoknezna-figurina.jpg',
+      '05-porcelan-figurky.jpg',
+      '06-kapesni-hodinky.jpg',
+      '07-zvonkohra.jpg',
+      '08-malba-vez-orloj.jpg',
+      '09-vizitka-muzea.jpg',
+    ],
+    popisky: [
+      'Barokní a rokokový koutek expozice — francouzské a vídeňské pendlovky',
+      'Detail barokního koutku — ornament a pozlátko 18. století',
+      'Vitrína s drobnějšími barokními stolními hodinami — černo-zlaté schránky, sloupkové konstrukce',
+      'Stěnová sestava schwarzwaldských „bauernuhren" — malované ciferníky, kukačka, automaty',
+      'Figurína „Černokněžníka" mezi cuckoo-clock kazetami — symbol tajemna starých mechanismů',
+      'Vitrína s porcelánovými hodinami a míšeňskými figurkami',
+      'Sbírka kapesních hodinek v původních krabičkách + sběratelské klíče a řetízky',
+      'Mechanická zvonkohra s kovovými miskami řízená válcem s kolíky',
+      'Olejomalba městečka s funkčním ciferníkem ve věži kostela',
+      'Vizitka muzea — adresa, kontakt, logo (Sine Mora, Volat Hora)',
+    ],
+    status: 'minula',
+    typ: 'akce',
+  },
+  {
     slug: 'sezona-2025',
     rok: 2025,
     datum: 'duben—říjen 2025',
