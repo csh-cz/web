@@ -7,7 +7,7 @@ lastModified: "Thu, 27 Apr 2017 09:14:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:25.371Z"
 ---
-## ![](/img/vez/Budislav/f/kostel.jpg)
+## ![kostel](/img/vez/Budislav/f/kostel.jpg)
 
 Do expozice Věžního muzejíčka v Soběslavi byl v roce 2012 zapůjčen vřetenový stroj věžních hodin z kostela Nanebevzetí Panny Marie z nedaleké obce Budislav. Stroj byl před mnoha lety demontován a nahrazen mechanickým strojem Hainz. Byl v chodu, vyžadoval však pravidelné ruční natahování, což je možná zábava pro hodinářského nadšence, méně to vyhovuje jako povinnost. V současné době je odstaven i stroj Hainz a hodiny ovládá elektrický stroj.
 
@@ -23,26 +23,26 @@ V kovaném rámu se sloupky v horní části s ozdobným zatočením je umístě
 
 Fotografie nálezového stavu. Trojice kladek a závaží ve formě plechových nádob naplněných pískem k tomuto stroji nepatří. Při původní prohlídce fotografií nás to trochu mátlo.
 
-![](/img/vez/Budislav/f/foto_0001.jpg)
+![Fotografie 1](/img/vez/Budislav/f/foto_0001.jpg)
 
-![](/img/vez/Budislav/f/foto_0002.jpg)![](/img/vez/Budislav/f/foto_0003.jpg)
+![Fotografie 2](/img/vez/Budislav/f/foto_0002.jpg)![Fotografie 3](/img/vez/Budislav/f/foto_0003.jpg)
 
 #### Během jednoho dne byl stroj snesen z věže v Budislavi, nakonzervován a vystaven v nově uspořádané expozici Věžního muzejíčka.
 
 Horní nástavba s krokovým vřetenovým mechanismem byla na místě demontována, tak aby stroj prošel točitým schodištěm. Stroj byl snesen a převezen do Soběslavi. Všechny díly byly částečně očištěny a nakonzervovány. Dále byly převezeny do expozice Věžního muzejíčka, kde byl celý stroj vystaven jako statický exponát. O restaurování a uvedení do chodu budeme uvažovat pro příští sezónu.
 
-![](/img/vez/Budislav/f/foto_0004.jpg)
+![Fotografie 4](/img/vez/Budislav/f/foto_0004.jpg)
 
-![](/img/vez/Budislav/f/napis1.jpg)
-![](/img/vez/Budislav/f/napis2.jpg)
-![](/img/vez/Budislav/f/napis3.jpg)
+![napis 1](/img/vez/Budislav/f/napis1.jpg)
+![napis 2](/img/vez/Budislav/f/napis2.jpg)
+![napis 3](/img/vez/Budislav/f/napis3.jpg)
 
 Nápis zůstává nezřetelný. Zdá se, že začíná textem "Tyto hodiny......" a končí číslicemi a textem: "....8%77 v Táboře". Znak vypadající jako % by mohl být den / měsíc, tedy 6 / 9. Zbytek nápisu většinou zničila koroze. Nápis vypadá jako zápis o opravě, protože hodiny v této podobě nemohly vzniknout až roku 1877.
 
 Při přesunu expozice do Hodinária v Děčíně, byl stroj částečně restaurován. Odrezena byla menší kola a stroj byl vystaven na novém strojanu.
 
-![](/img/decin0/2015_08_04/f/foto_0017.jpg)
+![Fotografie 17](/img/decin0/2015_08_04/f/foto_0017.jpg)
 
-![](/img/decin0/2015_08_04/f/foto_0018.jpg)![](/img/decin0/2015_08_04/f/foto_0019.jpg)
+![Fotografie 18](/img/decin0/2015_08_04/f/foto_0018.jpg)![Fotografie 19](/img/decin0/2015_08_04/f/foto_0019.jpg)
 
 Text a částečné restaurování: P. Král, foto: M. Ctiborová, P. Král, S. Marušák

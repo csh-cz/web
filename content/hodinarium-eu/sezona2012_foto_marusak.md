@@ -19,12 +19,12 @@ Průvodní text výstavy ZVONY ČECH A MORAVY [ke stažení](/download/zvony2012
 
 * * *
 
-![](/img/vez/foto2012/f/foto_0001.jpg)
+![Fotografie 1](/img/vez/foto2012/f/foto_0001.jpg)
 
-![](/img/vez/foto2012/f/foto_0002.jpg)![](/img/vez/foto2012/f/foto_0003.jpg)
+![Fotografie 2](/img/vez/foto2012/f/foto_0002.jpg)![Fotografie 3](/img/vez/foto2012/f/foto_0003.jpg)
 
-![](/img/vez/foto2012/f/foto_0004.jpg)![](/img/vez/foto2012/f/foto_0005.jpg)
+![Fotografie 4](/img/vez/foto2012/f/foto_0004.jpg)![Fotografie 5](/img/vez/foto2012/f/foto_0005.jpg)
 
-![](/img/vez/foto2012/f/foto_0006.jpg)![](/img/vez/foto2012/f/foto_0007.jpg)
+![Fotografie 6](/img/vez/foto2012/f/foto_0006.jpg)![Fotografie 7](/img/vez/foto2012/f/foto_0007.jpg)
 
-![](/img/vez/foto2012/f/foto_0008.jpg)![](/img/vez/foto2012/f/foto_0009.jpg)
+![Fotografie 8](/img/vez/foto2012/f/foto_0008.jpg)![Fotografie 9](/img/vez/foto2012/f/foto_0009.jpg)

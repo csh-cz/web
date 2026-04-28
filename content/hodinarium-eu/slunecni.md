@@ -49,15 +49,15 @@ Sluneční hodiny
 
 -   [**Jedna z největších sbírek**](http://www.nmm.ac.uk/collections/explore/index.cfm/category/sundials) **slunečních hodin** na světě - cca 400 exemplářů v **N**ational **M**aritime **M**useum, Greenwich. Odtud pochází i ilustrativní fota dole. Vybrali jsme diptychové hodiny obdobné těm, které jsou v našich sbírkách. Doufáme, že se je jednou se podaří restaurovat do stejné krásy.
 
-![](/img/slunecni/diptych1a.jpg)
+![diptych1a](/img/slunecni/diptych1a.jpg)
 
-![](/img/slunecni/diptych1b.jpg)
+![diptych1b](/img/slunecni/diptych1b.jpg)
 
 * * *
 
 ## Ovšem nejenom historie má co říci k slunečním hodinám
 
-![](/img/slunecni/slunecni_digi1.jpg)
+![slunecni digi 1](/img/slunecni/slunecni_digi1.jpg)
 
 Objevují se i konstrukce slunečních hodin pojeté značně netradičně. Hodiny využívající [polarizace světla](/clanky/slunecni_polarizacni) popisujeme samostatně.
 

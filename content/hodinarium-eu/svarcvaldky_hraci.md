@@ -15,6 +15,6 @@ Konstrukce hracích strojů byly rozmanité. Objevovaly se hodiny s píšťalov�
 
 Polská aukce byla nějak předčasně ukončena na ceně 8 405.- kč, což patrně neodpovídá kráse tohoto stroje. Zůstaly jen fotografie z aukce o které se nyní podělíme. Mlsejte s námi.
 
-![](/img/svarcvald/hraci/462616837.jpg)
+![4 62616837](/img/svarcvald/hraci/462616837.jpg)
 
-![](/img/svarcvald/hraci/462616837_1.jpg)
+![462616837 1](/img/svarcvald/hraci/462616837_1.jpg)

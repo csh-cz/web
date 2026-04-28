@@ -13,55 +13,55 @@ Vystavujeme raději funkční hodinové stroje neobvykle instalované ve stylu s
 
 ## Ukázka exponátů
 
-![](/img/nonsens2015/f/foto_0001.jpg)
+![Fotografie 1](/img/nonsens2015/f/foto_0001.jpg)
 
 Zajímavé spínací hodiny pro spínání 1 x za 24 hodin. Zde instalované se steampunkové schránce. Ryhlost chodu kyvadla kyvadla se řídí vkládáním závažíček do misky naběračky. Školní poučka, že na hmotě kyvadla nezáleží, platí pouze pro kyvadlo matematické. U naběračky na hmotě záleží.
 
-![](/img/nonsens2015/f/foto_0003.jpg)
+![Fotografie 3](/img/nonsens2015/f/foto_0003.jpg)
 
 Tytéž spínací hodiny. Na obrázku je vidět LAN kabel, neboť hodiny jsou připojeny na 48 V POE soustavu napájení. Natahovány jsou v několika minutovém intervalu magnetem dole.
 
-![](/img/nonsens2015/f/foto_0004.jpg)
+![Fotografie 4](/img/nonsens2015/f/foto_0004.jpg)
 
 Elektricky natahovaný stroj s běžnou porcelánovou velkou ručičkou.
 
-![](/img/nonsens2015/f/foto_0005.jpg)
+![Fotografie 5](/img/nonsens2015/f/foto_0005.jpg)
 
 Razidlo času by byl továrně vyráběný exponát, kdyby nebyl složen z několika vraků. Po namočení razidel do barvy je možné vyznačit čas, který udávají hodiny.
 
-![](/img/nonsens2015/f/foto_0006.jpg)
+![Fotografie 6](/img/nonsens2015/f/foto_0006.jpg)
 
 Sluneční polarizační hodiny měří rovinu polarizace slunečního světla. Z orientace této roviny lze odvodit čas ve 24 hodinovém dělení.
 
-![](/img/nonsens2015/f/foto_0007.jpg)
+![Fotografie 7](/img/nonsens2015/f/foto_0007.jpg)
 
 Sluneční polazizační hodiny se drží za pažbu a namíří se směrem k severnímu pólu oblohy. Pokud je tato část oblohy bez mraků, lze natáčením polaritační filtru s páskem z celofánu, který mění rovinu polarizace, najít poměrně přesně rovinu polarizace. Ukazatel na otočném filtru určujě čas s přesností cca 10 minut.
 
-![](/img/nonsens2015/f/foto_0008.jpg)
+![Fotografie 8](/img/nonsens2015/f/foto_0008.jpg)
 
 Velmi hlučný budík z období druhé světové války.
 
-![](/img/nonsens2015/f/foto_0009.jpg)
+![Fotografie 9](/img/nonsens2015/f/foto_0009.jpg)
 
 Sovětské hodiny Slava upravené pro provoz v Karlových Varech. Jedna hodinová ručička ukazuje SEČ, druhá Moskevský čas.
 
-![](/img/nonsens2015/f/foto_0010.jpg)
+![Fotografie 10](/img/nonsens2015/f/foto_0010.jpg)
 
 Běžné náramkové hodinky.
 
-![](/img/nonsens2015/f/foto_0011.jpg)
+![Fotografie 11](/img/nonsens2015/f/foto_0011.jpg)
 
 Nárameníkové hodinky pro nadporučíky z období, kdy běžný pozdrav byl: "Davaj časy".
 
-![](/img/nonsens2015/f/foto_0012.jpg)
+![Fotografie 12](/img/nonsens2015/f/foto_0012.jpg)
 
 Steapunkový nulový orloj. Slunce je ve znamení Raka v 5 hodin. Dolní hrana skla představuje obratník Raka, střední drátěná čára odpovídá rovníku. Nejmenší část kružnice je v místě obratníku Kozoroha. Horní hrana skla představuje obzor. Na nulovém orloji sluníčko oběhne základovou desku astrolábu jednou za 24 hodin. Roční posun po ramenu musí občas udělat orlojník ručně.
 
-![](/img/nonsens2015/f/foto_0014.jpg)
+![Fotografie 14](/img/nonsens2015/f/foto_0014.jpg)
 
 Oblíbení hodinářské bonbóny ŤIC ŤAC - objev Járy da Cimrmana.
 
-![](/img/nonsens2015/f/foto_0013.jpg)
+![Fotografie 13](/img/nonsens2015/f/foto_0013.jpg)
 
 Na závěr obdivuhodné dílo hodináře ze Schwarzwaldu.
 
@@ -76,39 +76,39 @@ Nejen chlebem je živ člověk. I duševní stravu potřebuje. Při prohlížen�
 [Nelze-li něco vysvětlit pomocí­ Murphyho zákonů, pak TO neexistuje.
 Pokud TO navzdory výše uvedenému tvrzení­ existuje, ignorujte TO. (aTeo)](http://ateo.cz/t/14-ad-absurdum/)
 
-![](/img/nonsens2015/aTeo/f/foto_0001.jpg)
+![Fotografie 1](/img/nonsens2015/aTeo/f/foto_0001.jpg)
 
 Přelévací hodiny
 
-![](/img/nonsens2015/aTeo/f/foto_0002.jpg)
+![Fotografie 2](/img/nonsens2015/aTeo/f/foto_0002.jpg)
 
 Hodiny DIG BEN
 
-![](/img/nonsens2015/aTeo/f/foto_0003.jpg)
+![Fotografie 3](/img/nonsens2015/aTeo/f/foto_0003.jpg)
 
 Salvador Dalí: iTime
 
-![](/img/nonsens2015/aTeo/f/foto_0004.jpg)
+![Fotografie 4](/img/nonsens2015/aTeo/f/foto_0004.jpg)
 
 Eurozóna se sype
 
-![](/img/nonsens2015/aTeo/f/foto_0006.jpg)
+![Fotografie 6](/img/nonsens2015/aTeo/f/foto_0006.jpg)
 
 Little Big Ben
 
-![](/img/nonsens2015/aTeo/f/foto_0007.jpg)
+![Fotografie 7](/img/nonsens2015/aTeo/f/foto_0007.jpg)
 
 Novinka
 
-![](/img/nonsens2015/aTeo/f/foto_0005.jpg)
+![Fotografie 5](/img/nonsens2015/aTeo/f/foto_0005.jpg)
 
 Laděno v tónině Es dur
 
-![](/img/nonsens2015/aTeo/f/foto_0008.jpg)
+![Fotografie 8](/img/nonsens2015/aTeo/f/foto_0008.jpg)
 
 Hodinky pro gemblera
 
-![](/img/nonsens2015/aTeo/f/foto_0009.jpg)
+![Fotografie 9](/img/nonsens2015/aTeo/f/foto_0009.jpg)
 
 Sluneční hodinky
 

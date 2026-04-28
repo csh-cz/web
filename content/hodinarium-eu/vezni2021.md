@@ -21,17 +21,17 @@ Na rámu je štítek se jménem výrobce : J. Spáčil Samotišky. O Jindřichu 
 
 ## Na prvních fotografiích je "nálezový" stav
 
-![](/img/vezni/setrvackove/f/foto_0001.jpg)
+![Fotografie 1](/img/vezni/setrvackove/f/foto_0001.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0002.jpg)
+![Fotografie 2](/img/vezni/setrvackove/f/foto_0002.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0003.jpg)
+![Fotografie 3](/img/vezni/setrvackove/f/foto_0003.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0004.jpg)
+![Fotografie 4](/img/vezni/setrvackove/f/foto_0004.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0005.jpg)
+![Fotografie 5](/img/vezni/setrvackove/f/foto_0005.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0006.jpg)
+![Fotografie 6](/img/vezni/setrvackove/f/foto_0006.jpg)
 
 * * *
 
@@ -43,37 +43,37 @@ Následovalo očištění a vyleštění ozubených kol, vyčištění ložisek.
 
 Věžní hodiny se setrvačkou jsou již vystaveny v Hodináriu, kde mají místo mezi ostatními věžními hodinami.
 
-![](/img/vezni/setrvackove/f/foto_0008.jpg)
+![Fotografie 8](/img/vezni/setrvackove/f/foto_0008.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0009.jpg)
+![Fotografie 9](/img/vezni/setrvackove/f/foto_0009.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0010.jpg)
+![Fotografie 10](/img/vezni/setrvackove/f/foto_0010.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0011.jpg)
+![Fotografie 11](/img/vezni/setrvackove/f/foto_0011.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0012.jpg)
+![Fotografie 12](/img/vezni/setrvackove/f/foto_0012.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0013.jpg)
+![Fotografie 13](/img/vezni/setrvackove/f/foto_0013.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0014.jpg)
+![Fotografie 14](/img/vezni/setrvackove/f/foto_0014.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0015.jpg)
+![Fotografie 15](/img/vezni/setrvackove/f/foto_0015.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0016.jpg)
+![Fotografie 16](/img/vezni/setrvackove/f/foto_0016.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0017.jpg)
+![Fotografie 17](/img/vezni/setrvackove/f/foto_0017.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0018.jpg)
+![Fotografie 18](/img/vezni/setrvackove/f/foto_0018.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0019.jpg)
+![Fotografie 19](/img/vezni/setrvackove/f/foto_0019.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0020.jpg)
+![Fotografie 20](/img/vezni/setrvackove/f/foto_0020.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0021.jpg)
+![Fotografie 21](/img/vezni/setrvackove/f/foto_0021.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0022.jpg)
+![Fotografie 22](/img/vezni/setrvackove/f/foto_0022.jpg)
 
-![](/img/vezni/setrvackove/f/foto_0023.jpg)![](/img/vezni/setrvackove/f/foto_0024.jpg)
+![Fotografie 23](/img/vezni/setrvackove/f/foto_0023.jpg)![Fotografie 24](/img/vezni/setrvackove/f/foto_0024.jpg)
 
 **[Video na facebooku](https://www.facebook.com/watch/?v=584102629482123)**
 
@@ -85,24 +85,24 @@ Text: Miroslav Baudisch, foto: prodávající a M. Baudisch
 
 Věžní hodinový stroj od neznámého výrobce původně řídil ručky hodin na fasádě městského domu, čemuž odpovídají jeho poměrně malé rozměry. Stroj má jen chodové soukolí, které je oproti běžně používané konstrukce rozšířeno o další kolo, což výrazně prodlužuje dobu chodu na jedno natažení. Chod je řízen Amantovým krokem, potřebnou energii dodává těžké litinové závaží s vestavěnou kladkou.
 
-![](/img/vezni/prirustky2021/f/foto_0001.jpg)
+![Fotografie 1](/img/vezni/prirustky2021/f/foto_0001.jpg)
 
-![](/img/vezni/prirustky2021/f/foto_0002.jpg)
+![Fotografie 2](/img/vezni/prirustky2021/f/foto_0002.jpg)
 
-![](/img/vezni/prirustky2021/f/foto_0003.jpg)
+![Fotografie 3](/img/vezni/prirustky2021/f/foto_0003.jpg)
 
-![](/img/vezni/prirustky2021/f/foto_0004.jpg)
+![Fotografie 4](/img/vezni/prirustky2021/f/foto_0004.jpg)
 
-![](/img/vezni/prirustky2021/f/foto_0005.jpg)
+![Fotografie 5](/img/vezni/prirustky2021/f/foto_0005.jpg)
 
-![](/img/vezni/prirustky2021/f/foto_0006.jpg)
+![Fotografie 6](/img/vezni/prirustky2021/f/foto_0006.jpg)
 
-![](/img/vezni/prirustky2021/f/foto_0007.jpg)
+![Fotografie 7](/img/vezni/prirustky2021/f/foto_0007.jpg)
 
-![](/img/vezni/prirustky2021/f/foto_0008.jpg)
+![Fotografie 8](/img/vezni/prirustky2021/f/foto_0008.jpg)
 
-![](/img/vezni/prirustky2021/f/foto_0009.jpg)
+![Fotografie 9](/img/vezni/prirustky2021/f/foto_0009.jpg)
 
-![](/img/vezni/prirustky2021/f/foto_0010.jpg)
+![Fotografie 10](/img/vezni/prirustky2021/f/foto_0010.jpg)
 
 Text a foto: Miroslav Baudisch

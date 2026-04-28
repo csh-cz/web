@@ -52,11 +52,11 @@ Pan Prokeš se ucházel v roce 1865 i o opravu Pražského orloje. Vyrobil pro t
 
 ## Stroj v původním umístění
 
-![](/img/vez/bychory/autenticky/f/foto_0001.jpg)
+![Fotografie 1](/img/vez/bychory/autenticky/f/foto_0001.jpg)
 
-![](/img/vez/bychory/autenticky/f/foto_0002.jpg)![](/img/vez/bychory/autenticky/f/foto_0003.jpg)
+![Fotografie 2](/img/vez/bychory/autenticky/f/foto_0002.jpg)![Fotografie 3](/img/vez/bychory/autenticky/f/foto_0003.jpg)
 
-![](/img/vez/bychory/autenticky/f/foto_0004.jpg)![](/img/vez/bychory/autenticky/f/foto_0005.jpg)
+![Fotografie 4](/img/vez/bychory/autenticky/f/foto_0004.jpg)![Fotografie 5](/img/vez/bychory/autenticky/f/foto_0005.jpg)
 
 ## Doba pokročila a stroj je vystaven v Hodináriu
 

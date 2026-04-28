@@ -9,7 +9,7 @@ scrapedAt: "2026-04-27T17:36:46.678Z"
 ---
 V roce 2020 jsme do Hodinária dostali prototyp hodin řízených signálem z družice. Jde o hodiny popsané na [webu sakul.cz](https://www.sakul.cz/gps-hodiny-v2-pe2-2015/n/) včetně podrobné dokumentace pro vlastní stavbu. Rozšířila se tak část expozice věnovaná systémům [synchronizace hodin](/clanky/synchronizace_hodin).
 
-![](/img/decin/GPS_Sakul/f/GPS_Sakul1.jpg)Autorovi děkujeme.
+![GPS Sakul 1](/img/decin/GPS_Sakul/f/GPS_Sakul1.jpg)Autorovi děkujeme.
 
 Globální družicový polohový systém (GNSS z anglického Global Navigation Satellite System) případně GPS (Global Positioning System) je systém umožňující určit polohu přijímače na základě zjištění vzdálenosti k jednotlivým družicím podle doby, o kterou byl údaj o přesném čase zpožděn na cestě od družice k přijímači. Nejdůležitější podmínkou je možnost měřit čas s přesností odpovídající požadované přesností určení polohy. Rychlost světla je 299 792 km/s. Pro určení vzdálenosti v řádu 1 m potřebujeme čas s přesností nanosekund (10\-9 s). Družice jsou ve výšce kolem 20 tisíc km, tedy zpoždění vlivem vzdálenosti minimálně překročí hodnotu 65 milisekund. Časové zpoždění signálu kromě vzdálenosti závisí na vlastnostech prostředí, kterým se pohybuje družice nebo signál. Je ovlivněno i vlivy, které popisuje speciální a obecná teorii relativity. (Pro podrobnější pochopení doporučuji článek [Přesnost atomových hodin, GPS a teorie relativity](https://www.osel.cz/3225-presnost-atomovych-hodin-gps-a-teorie-relativity.html). Korekci k signálu GPS vlivem průchodu atmosférou poskytuje například [EGNOS](https://www.czechspaceportal.cz/3-sekce/gnss-systemy/egnos/technicky-popis-systemu-egnos/).
 
@@ -23,7 +23,7 @@ Jsme však v jiné situaci. Pro občanské využití s rozlišením maximálně 
 
 ## GPS přijímač je základem konstrukce hodin
 
-![](/img/decin/GPS_Sakul/f/GPS_Sakul2.jpg)
+![GPS Sakul 2](/img/decin/GPS_Sakul/f/GPS_Sakul2.jpg)
 
 Popis je čerpán z [webu autora](https://www.sakul.cz/gps-hodiny-v2-pe2-2015/n/).
 

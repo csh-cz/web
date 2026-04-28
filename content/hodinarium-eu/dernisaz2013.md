@@ -17,54 +17,54 @@ Zhodnocení třetí sezóny Věžního muzejíčka jen krátce. Každý rok je v
 
 Atmosféru můžete vidět na fotografiích pana Marušáka.
 
-![](/img/dernisaz2013/f/dernisaz2013_0001.jpg)
+![dernisaz2013 1](/img/dernisaz2013/f/dernisaz2013_0001.jpg)
 
 Mechanická hudba již na náměstí.
 
-![](/img/dernisaz2013/f/dernisaz2013_0002.jpg)
+![dernisaz2013 2](/img/dernisaz2013/f/dernisaz2013_0002.jpg)
 
 Mechanická hudba již na náměstí.
 
-![](/img/dernisaz2013/f/dernisaz2013_0003.jpg)
+![dernisaz2013 3](/img/dernisaz2013/f/dernisaz2013_0003.jpg)
 
 Mechanická hudba již na náměstí.
 
-![](/img/dernisaz2013/f/dernisaz2013_0004.jpg)
+![dernisaz2013 4](/img/dernisaz2013/f/dernisaz2013_0004.jpg)
 
-![](/img/dernisaz2013/f/dernisaz2013_0005.jpg)
+![dernisaz2013 5](/img/dernisaz2013/f/dernisaz2013_0005.jpg)
 
-![](/img/dernisaz2013/f/dernisaz2013_0006.jpg)
+![dernisaz2013 6](/img/dernisaz2013/f/dernisaz2013_0006.jpg)
 
-![](/img/dernisaz2013/f/dernisaz2013_0007.jpg)
+![dernisaz2013 7](/img/dernisaz2013/f/dernisaz2013_0007.jpg)
 
-![](/img/dernisaz2013/f/dernisaz2013_0008.jpg)
+![dernisaz2013 8](/img/dernisaz2013/f/dernisaz2013_0008.jpg)
 
-![](/img/dernisaz2013/f/dernisaz2013_0009.jpg)
+![dernisaz2013 9](/img/dernisaz2013/f/dernisaz2013_0009.jpg)
 
 Přírůstek sezóny 2013. Špindlový stroj z Budislavi.
 
-![](/img/dernisaz2013/f/dernisaz2013_0010.jpg)
+![dernisaz2013 10](/img/dernisaz2013/f/dernisaz2013_0010.jpg)
 
 Přírůstek sezóny 2013. Zapůjčený špindlový stroj.
 
-![](/img/dernisaz2013/f/dernisaz2013_0011.jpg)
+![dernisaz2013 11](/img/dernisaz2013/f/dernisaz2013_0011.jpg)
 
 Přírůstek sezóny 2013. Nástěnné hodiny Kavalír.
 
-![](/img/dernisaz2013/f/dernisaz2013_0012.jpg)
+![dernisaz2013 12](/img/dernisaz2013/f/dernisaz2013_0012.jpg)
 
-![](/img/dernisaz2013/f/dernisaz2013_0013.jpg)
+![dernisaz2013 13](/img/dernisaz2013/f/dernisaz2013_0013.jpg)
 
-![](/img/dernisaz2013/f/dernisaz2013_0014.jpg)
+![dernisaz2013 14](/img/dernisaz2013/f/dernisaz2013_0014.jpg)
 
 Nové osvětlení fotogalerie v "Kozím patře".
 
-![](/img/dernisaz2013/f/dernisaz2013_0015.jpg)
+![dernisaz2013 15](/img/dernisaz2013/f/dernisaz2013_0015.jpg)
 
 Nové osvětlení fotogalerie v "Kozím patře".
 
 Účastníci dernisáže ještě zhlédli nově vytvářený orloj pana Volfa a rovněž jeho novou variantu loňského exponátu - stroje s kuriózním gravitačním krokem a "líným kyvadlem".
 
-![](/img/dernisaz2013/f/dernisaz2013_0016.jpg)
+![dernisaz2013 16](/img/dernisaz2013/f/dernisaz2013_0016.jpg)
 
-![](/img/dernisaz2013/f/dernisaz2013_0017.jpg)
+![dernisaz2013 17](/img/dernisaz2013/f/dernisaz2013_0017.jpg)

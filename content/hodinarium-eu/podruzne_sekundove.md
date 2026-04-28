@@ -17,27 +17,27 @@ Neobvyklé je i nastavení velikosti ovládacího napětí pro krokový motorek 
 
 Na úvodním obrázku je také napájecí přívod 230 V pro synchronní motorek. Přívod minutových polarizovaných impulzů není připojen. Jeho konektor je zčásti vidět na předposledním obrázku.
 
-![](/img/elektrika/podruzne_sekundove/f/foto_0001.jpg)
+![Fotografie 1](/img/elektrika/podruzne_sekundove/f/foto_0001.jpg)
 
 1 Vteřinové kolo s výřezem.
 
-![](/img/elektrika/podruzne_sekundove/f/foto_0002.jpg)
+![Fotografie 2](/img/elektrika/podruzne_sekundove/f/foto_0002.jpg)
 
 2 Vteřinový stroj.
 
-![](/img/elektrika/podruzne_sekundove/f/foto_0003.jpg)
+![Fotografie 3](/img/elektrika/podruzne_sekundove/f/foto_0003.jpg)
 
 3 Blokovací páka.
 
-![](/img/elektrika/podruzne_sekundove/f/foto_0004.jpg)
+![Fotografie 4](/img/elektrika/podruzne_sekundove/f/foto_0004.jpg)
 
 4 Mezi kolo s pastorkem.
 
-![](/img/elektrika/podruzne_sekundove/f/foto_0006.jpg)
+![Fotografie 6](/img/elektrika/podruzne_sekundove/f/foto_0006.jpg)
 
 5 Krokový mechanizmus.
 
-![](/img/elektrika/podruzne_sekundove/f/foto_0008.jpg)
+![Fotografie 8](/img/elektrika/podruzne_sekundove/f/foto_0008.jpg)
 
 Text a foto: M. Baudisch
 

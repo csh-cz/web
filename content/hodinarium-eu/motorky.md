@@ -11,12 +11,12 @@ Na [jiném místě](/clanky/sestka) tohoto webu se tvrdí, že na světě neexis
 
 *(Pro zvětšení klikněte na obrázek, listujte pomocí kláves nebo zapněte zobrazení galerie.)*
 
-![](/img/ujete/motorky/file004681066.jpg)
+![file 4681066](/img/ujete/motorky/file004681066.jpg)
 
-![](/img/ujete/motorky/file00246844.jpg)![](/img/ujete/motorky/image13511.jpg)
+![file 246844](/img/ujete/motorky/file00246844.jpg)![Fotografie 13511](/img/ujete/motorky/image13511.jpg)
 
-![](/img/ujete/motorky/file005791177.jpg)![](/img/ujete/motorky/file00357955.jpg)
+![file 5791177](/img/ujete/motorky/file005791177.jpg)![file 357955](/img/ujete/motorky/file00357955.jpg)
 
-![](/img/ujete/motorky/file00135733.jpg)![](/img/ujete/motorky/file00024622.jpg)
+![file 135733](/img/ujete/motorky/file00135733.jpg)![file 24622](/img/ujete/motorky/file00024622.jpg)
 
 Napadlo vás něco podobného? Dejte vědět.

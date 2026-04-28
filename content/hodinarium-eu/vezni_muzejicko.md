@@ -11,7 +11,7 @@ scrapedAt: "2026-04-27T17:36:32.117Z"
 
 * * *
 
-# ![](/img/vez/28_11_2010/foto_010.jpg)
+# ![Fotografie 10](/img/vez/28_11_2010/foto_010.jpg)
 
 *Bývá zvykem, že muzeum je tvořeno několika místnostmi, rozmístěnými na ploše. Ve věži je tomu trochu jinak. Zde musíte k jednotlivým částem expozice vystupovat po poněkud krkolomném schodišti.* *Ve většině věží je cílem návštěvníků dostat se až nahoru a obdivovat pohled do okolí.* *Soběslavská věž nabízí zajímavé pohledy už během cesty.*
 
@@ -19,7 +19,7 @@ scrapedAt: "2026-04-27T17:36:32.117Z"
 
 *Věžní muzejíčko není obvyklý způsob, jak výstavní prostory řešit. Není však ani zcela ojedinělý. Podívejte se i na odkazy v závěru stránky a najdete více "hodinových" věží. Přesto šlo asi o jedinečný projekt v Čechách.*
 
-## Soběslavská věž![](/img/vez/f/A-foto_018.jpg)
+## Soběslavská věž![A foto 18](/img/vez/f/A-foto_018.jpg)
 
 **A**ť přicházíme, přijíždíme či připlouváme do Soběslavi odkudkoliv vždy nás zdaleka přivítá významný symbol zdejšího kraje - soběslavská věž. Její vysoké (68 m) štíhlé tělo ční nad okolní terén tak, aby celé údolí bylo z ochozu jako na dlani. Patří mezi nejstarší a nejzajímavější stavby Soběslavi. Již od svého vzniku byla pozorovatelnou, strážním místem, malou pevností, zvonicí a také městskou klenotnicí. Již roku 1484 na ní byly zřízeny hodiny. ...
 (Volně podle knihy Petra Lintnera - Pohledy soběslavské.)
@@ -42,7 +42,7 @@ Muzejíčko se nezaměřovalo jen na hodiny "seriózní", ale zajímalo se také
 
 Nesmíme zapomínat ani na [stroj Elektročas z roku 1959](/clanky/vez_elektrocas1959), který dosud řídí ručičky věže. I on je historickým exponátem, právě tak jako rumpál na úrovni ochozu věže.
 
-## ![](/img/vez/zvony/petrvok/sveceni/f/foto_0012.jpg)
+## ![Fotografie 12](/img/vez/zvony/petrvok/sveceni/f/foto_0012.jpg)
 
 ## Zvony a cimbály
 

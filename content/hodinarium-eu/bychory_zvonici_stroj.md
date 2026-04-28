@@ -17,11 +17,11 @@ Stroj se zachoval téměř kompletní, chybí rohatka a matička na větrníku a
 
 Zjevně je poškozen větrník (ohnuté a nalomené brzdící plochy), lehce ohnuta hřídel větrníku a naražené závěrkové kolo, takže při pohybu hází, ale nadále plní funkci. Stroj orezlý, matky nepohyblivé, nepohyblivá rohatka řetězového kola. Cca 3 bicí kolíky jsou ohnuté a nalomené.
 
-![](/img/vez/bychory/nalezovy_stav/f/nalez_zvonici001.jpg)
+![nalez zvonici 1](/img/vez/bychory/nalezovy_stav/f/nalez_zvonici001.jpg)
 
-![](/img/vez/bychory/nalezovy_stav/f/nalez_zvonici004.jpg)![](/img/vez/bychory/nalezovy_stav/f/nalez_zvonici002.jpg)
+![nalez zvonici 4](/img/vez/bychory/nalezovy_stav/f/nalez_zvonici004.jpg)![nalez zvonici 2](/img/vez/bychory/nalezovy_stav/f/nalez_zvonici002.jpg)
 
-![](/img/vez/bychory/nalezovy_stav/f/nalez_zvonici005.jpg)
+![nalez zvonici 5](/img/vez/bychory/nalezovy_stav/f/nalez_zvonici005.jpg)
 
 Po odrezení a obnově nátěru je stroj připraven k namontování k cimbálu. To jsme ale stihli až v roce 2016 v Hodináriu v Děčíně.
 

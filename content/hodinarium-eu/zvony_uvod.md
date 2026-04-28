@@ -13,7 +13,7 @@ V[![cimbýly zdola](/img/vez/cimbaly/cimbaly_vez_zdola.jpg)](/img/vez/cimbaly/f/
 
 * * *
 
-Nalezli a vystavili jsme mnoho zbytků kování, závěsů a starých ložisek ze zvonů původně zavěšených ve zdejší věž. Některá kování jsem vystavili na maketu závěsu zvonů. Nalezli jsme i pozůstatky závěsu zvonu pořízeného pro sousední kostel sv. Víta. Na obrázku vpravo je deska s věnováním. Po kliknutí se zobrazí v restaurovaném stavu.![](/img/vez/zvony/f/deska_zvon2.jpg)
+Nalezli a vystavili jsme mnoho zbytků kování, závěsů a starých ložisek ze zvonů původně zavěšených ve zdejší věž. Některá kování jsem vystavili na maketu závěsu zvonů. Nalezli jsme i pozůstatky závěsu zvonu pořízeného pro sousední kostel sv. Víta. Na obrázku vpravo je deska s věnováním. Po kliknutí se zobrazí v restaurovaném stavu.![deska zvon 2](/img/vez/zvony/f/deska_zvon2.jpg)
 
 *( Nápis na závěsu hlásá:
 1650 - 1871 v kapli dvorce Reifsmanky u Prahy.
@@ -23,11 +23,11 @@ svob. pánů Spens z Boodenů. + 1869 a + 1878. )*
 
 * * *
 
-![](/img/vez/zvony/f/litinovy_zaves.jpg)
+![litinovy zaves](/img/vez/zvony/f/litinovy_zaves.jpg)
 
 Díky zapůjčování dalších exponátů zvonařské techniky se daří expozici nadále rozšiřovat. Příkladem může být litinový závěs se zalomenou osou otáčení a překlápěcími ložisky pocházející z kostela sv. Imricha v obci Báb (okres Nitra) zobrazený na snímku vlevo.
 
-![](/img/vez/zvony/f/kozipatro.jpg)
+![kozipatro](/img/vez/zvony/f/kozipatro.jpg)
 
 * * *
 

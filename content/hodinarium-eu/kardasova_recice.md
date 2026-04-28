@@ -57,10 +57,10 @@ Natahovací pastorky jsou posuvné po svých hřídelích, takže v době chodu 
 
 ## Několik fotografií po restaurování
 
-![](/img/KardasovaRecice/f/foto_0003.jpg)
+![Fotografie 3](/img/KardasovaRecice/f/foto_0003.jpg)
 
-![](/img/KardasovaRecice/f/foto_0004.jpg)
+![Fotografie 4](/img/KardasovaRecice/f/foto_0004.jpg)
 
-![](/img/KardasovaRecice/f/foto_0005.jpg)
+![Fotografie 5](/img/KardasovaRecice/f/foto_0005.jpg)
 
-![](/img/KardasovaRecice/f/foto_0006.jpg)
+![Fotografie 6](/img/KardasovaRecice/f/foto_0006.jpg)

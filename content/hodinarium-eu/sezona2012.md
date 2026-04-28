@@ -9,7 +9,7 @@ scrapedAt: "2026-04-27T17:36:34.257Z"
 ---
 ![Hodiny z kostela v Prysku - před dokončením restaurování](/img/vez/prysk/foto_0001.jpg)
 
-Sezóna 2012 ve Věžním muzejíčku byla ve znamení mnoha novinek. Vedle hlavního exponátu, soběslavského stroje s gotickým základem, jste si mohli prohlédnout rozšířenou hodinářskou i zvonařskou expozici. Restaurovány jsou dva další věžní hodinové stroje, třetí se připravuje. Na obrázku vlevo je vidět nálezový stav barokního stroje z kostela ve Zlatých Horách.![](/img/vez/ZlateHory/f/foto_0001.jpg)Ukázka restaurátorské práce na hodinách zapůjčených z majetku Biskupství litoměřického je na fotografiích vpravo. Více na samostatných stránkách hodin z [Horního Prysku](/clanky/vez_Prysk) a ze [Zlatých Hor.](/clanky/vez_Zlate_Hory)
+Sezóna 2012 ve Věžním muzejíčku byla ve znamení mnoha novinek. Vedle hlavního exponátu, soběslavského stroje s gotickým základem, jste si mohli prohlédnout rozšířenou hodinářskou i zvonařskou expozici. Restaurovány jsou dva další věžní hodinové stroje, třetí se připravuje. Na obrázku vlevo je vidět nálezový stav barokního stroje z kostela ve Zlatých Horách.![Fotografie 1](/img/vez/ZlateHory/f/foto_0001.jpg)Ukázka restaurátorské práce na hodinách zapůjčených z majetku Biskupství litoměřického je na fotografiích vpravo. Více na samostatných stránkách hodin z [Horního Prysku](/clanky/vez_Prysk) a ze [Zlatých Hor.](/clanky/vez_Zlate_Hory)
 
 Ve zvonařské části je i naznačena podoba nového stokilového soběslavského [zvonu Petr Vok](/clanky/zvon_petr_vok). Zvon čeká slavnostní vysvěcení a tažení na 22.9.2012. [![Hodiny z kostela v Prysku - nálezový stav](/img/vez/prysk/foto_0002.jpg)](/img/vez/prysk/f/foto_0002.jpg)
 
@@ -25,19 +25,19 @@ ny měly na co dívat, byla pořádána [výstavka šperků](/clanky/steampunk) 
 
 ## Slavnostní zahájení fotoaparátem Stan. Marušáka
 
-![](/img/vez/sezona2012/f/foto_0001.jpg)
+![Fotografie 1](/img/vez/sezona2012/f/foto_0001.jpg)
 
-![](/img/vez/sezona2012/f/foto_0002.jpg)![](/img/vez/sezona2012/f/foto_0003.jpg)
+![Fotografie 2](/img/vez/sezona2012/f/foto_0002.jpg)![Fotografie 3](/img/vez/sezona2012/f/foto_0003.jpg)
 
-![](/img/vez/sezona2012/f/foto_0004.jpg)![](/img/vez/sezona2012/f/foto_0005.jpg)
+![Fotografie 4](/img/vez/sezona2012/f/foto_0004.jpg)![Fotografie 5](/img/vez/sezona2012/f/foto_0005.jpg)
 
-![](/img/vez/sezona2012/f/foto_0006.jpg)![](/img/vez/sezona2012/f/foto_0007.jpg)
+![Fotografie 6](/img/vez/sezona2012/f/foto_0006.jpg)![Fotografie 7](/img/vez/sezona2012/f/foto_0007.jpg)
 
-![](/img/vez/sezona2012/f/foto_0008.jpg)![](/img/vez/sezona2012/f/foto_0009.jpg)
+![Fotografie 8](/img/vez/sezona2012/f/foto_0008.jpg)![Fotografie 9](/img/vez/sezona2012/f/foto_0009.jpg)
 
-![](/img/vez/sezona2012/f/foto_0010.jpg)![](/img/vez/sezona2012/f/foto_0011.jpg)
+![Fotografie 10](/img/vez/sezona2012/f/foto_0010.jpg)![Fotografie 11](/img/vez/sezona2012/f/foto_0011.jpg)
 
-![](/img/vez/sezona2012/f/foto_0012.jpg)![](/img/vez/sezona2012/f/foto_0013.jpg)
+![Fotografie 12](/img/vez/sezona2012/f/foto_0012.jpg)![Fotografie 13](/img/vez/sezona2012/f/foto_0013.jpg)
 
 ## Listování návštěvní knihou 2011, 2012
 

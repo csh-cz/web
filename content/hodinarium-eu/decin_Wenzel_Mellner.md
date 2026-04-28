@@ -11,23 +11,23 @@ V závěru roku 2015 byl Hodináriu pronajat od firmy POTRUBÍ Praha, spol. s r.
 
 ## Fotografie nálezového stavu
 
-![](/img/decin/baroko/barokoMellner/f/foto_0001.jpg)
+![Fotografie 1](/img/decin/baroko/barokoMellner/f/foto_0001.jpg)
 
-![](/img/decin/baroko/barokoMellner/f/foto_0003.jpg)
+![Fotografie 3](/img/decin/baroko/barokoMellner/f/foto_0003.jpg)
 
-![](/img/decin/baroko/barokoMellner/f/foto_0004.jpg)
+![Fotografie 4](/img/decin/baroko/barokoMellner/f/foto_0004.jpg)
 
-![](/img/decin/baroko/barokoMellner/f/foto_0005.jpg)
+![Fotografie 5](/img/decin/baroko/barokoMellner/f/foto_0005.jpg)
 
-![](/img/decin/baroko/barokoMellner/f/foto_0006.jpg)
+![Fotografie 6](/img/decin/baroko/barokoMellner/f/foto_0006.jpg)
 
-![](/img/decin/baroko/barokoMellner/f/foto_0002.jpg)
+![Fotografie 2](/img/decin/baroko/barokoMellner/f/foto_0002.jpg)
 
-![](/img/decin/baroko/barokoMellner/f/foto_0007.jpg)
+![Fotografie 7](/img/decin/baroko/barokoMellner/f/foto_0007.jpg)
 
-![](/img/decin/baroko/barokoMellner/f/foto_0008.jpg)
+![Fotografie 8](/img/decin/baroko/barokoMellner/f/foto_0008.jpg)
 
-![](/img/decin/baroko/barokoMellner/f/foto_0009.jpg)
+![Fotografie 9](/img/decin/baroko/barokoMellner/f/foto_0009.jpg)
 
 Na první pohled je vidět, že stroj byl přestavován. Patrně měl původně v rámu jen jicí stroj a stroj bití celých hodin. Rám bicího stroje byl později přestavěn na čtvrťový stroj a připojen byl nový rám, do kterého se přestěhoval bicí stroj celých hodin. Bohužel nevíme, kdy k tomu došlo. To, že bicí stroj celých hodin byl původně vedle jicího stroje dokládá i bizarní tvar spouštěcí páky. Páka je trochu vidět na čtvrtém obrázku vlevo nahoře. Když byl bicí stroj vedle jicího stroje, musela spouštěcí páka dosahovat až téměř k ose minutového lanového kola, kde je spouštěcí kolík. Nyní jí nadzvedávají čtyři spouštěcí kolíky na kole na minutové hřídeli. Rohatka na kole umožňuje nastavit rafie. Po přestavbě je bicí stroj spouštěn kolíkem na závěrkovém kole čtvrťového stroje. Tento kolík je až na obvodu kola, tedy značně blíže ke hřídeli spouštěcí páky. Místo toho, aby páka byla zkrácena, byla jen zohybána do zcela nezvyklého tvaru. U stroje se zachovalo poměrně dlouhé kyvadlo s neobvykle dlouhou kovanou závěsnou planžetou.
 
@@ -41,9 +41,9 @@ Při montáži se ukázalo, že krok nelze seřídit pouhým výškovým posunem
 
 Stroj je nyní chopen krátkodobého chodu i práce bicích strojů. Není však připojen ani na rafie ani na cimbály.
 
-![](/img/decin/baroko/barokoMellner/f/foto_0011.jpg)
+![Fotografie 11](/img/decin/baroko/barokoMellner/f/foto_0011.jpg)
 
-![](/img/decin/baroko/barokoMellner/f/foto_0012.jpg)![](/img/decin/baroko/barokoMellner/f/foto_0013.jpg)
+![Fotografie 12](/img/decin/baroko/barokoMellner/f/foto_0012.jpg)![Fotografie 13](/img/decin/baroko/barokoMellner/f/foto_0013.jpg)
 
 Jeden z dřevěných bubnů byl zaslán do Třeboňského pracoviště Botanického ústavu Akademie věd České republiky, v.v.i. Byl zde proveden pokus o určení stáří dřeva pomocí [dendochronometrie](https://cs.wikipedia.org/wiki/Dendrochronologie). Bohužel počet rozpoznatelných letokruhů nebyl dostatečný pro jednoznačný výsledek. Stáří použitého dřeva se tak nepodařilo určit.
 

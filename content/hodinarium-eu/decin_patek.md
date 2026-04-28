@@ -9,13 +9,13 @@ scrapedAt: "2026-04-27T17:36:24.780Z"
 ---
 Torzo starého hodinového stroje v nálezovém stavu dokládá, jak vypadá stroj před restaurováním. Není to však nějaký anonymní vrak. Je to stroj, který má svůj původ a svou historii. Původně byl umístěn na věži zámku v Pátku nad Ohří. Stroj je nejspíše z roku 1694 a po 34 letech provozu byl nahrazen strojem modernějším se soukolím čtvrťového bití. Onen novější stroj je zachycen rovněž v nálezovém stavu na předposlední fotografii a na poslední po restaurování Ateliérem Skálových. Je signován Wenceslaŭs Neümann (in?) Pra 1728. Nyní již několik let opět funguje. Starší stroj byl po mnoho století uschován na půdě zámku. Když v sedmdesátých letech dvacátého století byla opravována střešní krytina zámku byl z půdy vyhozen na břeh řeky Ohře. Roku 2005 byl opět nalezen a je vystaven v expozici o historii Pátku nad Ohří v tamním zámku. V roce 2015 je zapůjčován do Hodinária v Děčíně na dobu mimo havních prázdnin.
 
-![](/img/decin/Patek/f/foto_0001.jpg)
+![Fotografie 1](/img/decin/Patek/f/foto_0001.jpg)
 
-![](/img/decin/Patek/f/foto_0002.jpg)
+![Fotografie 2](/img/decin/Patek/f/foto_0002.jpg)
 
-![](/img/decin/Patek/f/foto_0003.jpg)
+![Fotografie 3](/img/decin/Patek/f/foto_0003.jpg)
 
-![](/img/decin/Patek/f/foto_0004.jpg)
+![Fotografie 4](/img/decin/Patek/f/foto_0004.jpg)
 
 Ze stroje se zachovaly je některé součástky. Shození z půdy mu jistě nepřidalo. Bicí stroj se závěrkovým kolem obsahuje všechna kola, chybí ovšem většina pák. Z jicího stroje se zachovalo jen jedno kolo s lanovým bubnem. Nad ním můžeme tušit kolo s kolmým ozubením a vodorovné krokové korunové kolo s paletovou hřídelí krátkého kyvadla. Podobné řešení vidíme na střední části novějšího hodinového stroje.
 

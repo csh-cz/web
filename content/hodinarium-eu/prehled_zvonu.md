@@ -39,7 +39,7 @@ Zvon Petr Pavel však dlouho osamocen nezůstal. Po válce byly vyrobeny a **v r
 -   **Janu Nepomuckému** 599 kg
 -   **Panně Marii** 408 kg
 
-*![](/img/vez/zvony/f/sundavani_zvonu1942.jpg)*
+*![sundavani zvonu 1942](/img/vez/zvony/f/sundavani_zvonu1942.jpg)*
 
 **N**a věži však nepobyly dlouho. Za II. světové války v roce **1941 byly také zrekvírovány** a opět byl ušetřen pouze zvon Petr Pavel, který je na věži dodnes. Válečné doby přečkal snad jen díky tomu, že byl opravdu ze všech zvonů největší, ale i on během doby své existence utrpěl mnohé šrámy Byl poprvé odlit v roce 1492. V 17.stol. byla věž zasažena bleskem a zvon byl poškozen. **V roce 1663 musel být tedy přelit, přičemž do zvonoviny byly přidány 3 mosazné dělové hlavně**. Rovněž po 1. světové válce byl opravován.
 

@@ -28,9 +28,9 @@ Spínač na levém obrázku podle patentu z roku 1920. Polarita proudu v cívce 
 -   [Praktický návod na opravu](http://www.nawcc-index.net/Articles/Smith-restore_bulle_section_01.pdf)
 -   [Restaurování Bulle clock seriového čísla 174475](http://www.horologix.com/restore_bulle_174475.pdf)
 -   [Oprava hodin z roku 1927](http://www.csprojects.eu/bulle_clock.htm)
--   ![](/img/pohlednice/bulle1925.jpg)
+-   ![bulle 1925](/img/pohlednice/bulle1925.jpg)
 
-![](/img/pohlednice/bulle1925b.jpg)**a také naše první pohlednice**
+![bulle1925b](/img/pohlednice/bulle1925b.jpg)**a také naše první pohlednice**
 
 **P**odpořit nás můžete také **zakoupením této pohlednice** v e-shopu
 [**TB Group**](http://www.sobnet.cz/eshop1/index.html?zb=22001). Výtěžek z prodeje bude věnován na rozvoj tohoto webu.

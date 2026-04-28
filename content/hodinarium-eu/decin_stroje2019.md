@@ -15,15 +15,15 @@ Stroj má celkem jednoduchou konstrukci a několik zvláštností. Kotva amantov
 
 Stroj má na první pohled různá poškození (znační koroze zejména povrchu šneku čtvrťového stroje a zlomená hřídel větrníku čtvrtí, ...), chybějí některé díly (větrník čvrtí, vidlice kyvadla, kyvadlo, lana, závaží, ..).
 
-![](/img/decin/dalsi_stroje/bassler1864/f/foto_0006.jpg)
+![Fotografie 6](/img/decin/dalsi_stroje/bassler1864/f/foto_0006.jpg)
 
-![](/img/decin/dalsi_stroje/bassler1864/f/foto_0007.jpg)![](/img/decin/dalsi_stroje/bassler1864/f/foto_0008.jpg)
+![Fotografie 7](/img/decin/dalsi_stroje/bassler1864/f/foto_0007.jpg)![Fotografie 8](/img/decin/dalsi_stroje/bassler1864/f/foto_0008.jpg)
 
-![](/img/decin/dalsi_stroje/bassler1864/f/foto_0009.jpg)![](/img/decin/dalsi_stroje/bassler1864/f/foto_0010.jpg)
+![Fotografie 9](/img/decin/dalsi_stroje/bassler1864/f/foto_0009.jpg)![Fotografie 10](/img/decin/dalsi_stroje/bassler1864/f/foto_0010.jpg)
 
-![](/img/decin/dalsi_stroje/bassler1864/f/foto_0011.jpg)![](/img/decin/dalsi_stroje/bassler1864/f/foto_0012.jpg)
+![Fotografie 11](/img/decin/dalsi_stroje/bassler1864/f/foto_0011.jpg)![Fotografie 12](/img/decin/dalsi_stroje/bassler1864/f/foto_0012.jpg)
 
-![](/img/decin/dalsi_stroje/bassler1864/f/foto_0013.jpg)![](/img/decin/dalsi_stroje/bassler1864/f/foto_0008.jpg)
+![Fotografie 13](/img/decin/dalsi_stroje/bassler1864/f/foto_0013.jpg)![Fotografie 8](/img/decin/dalsi_stroje/bassler1864/f/foto_0008.jpg)
 
 ### A už se to klube
 
@@ -33,11 +33,11 @@ U bicího stroje celých hodin jsou doplněny listy větrníku. Bicí stroj po s
 
 Horší je stav hřídele větrníku bicího stroje čtvrtí. Šnek je mnohem více zkorodován než šnek větrníku celých hodin a poháněcí kolo má značně poškozené zuby. Vypadá to, že tento šnek je starší a nebyl opravován. Navíc je hřídel zlomená v horním ložisku a horní část je ztracena. Nyní je již zlomená hřídel nastavena a vyrábí se rotor větrníku. Kvalita povrchu šneku je u převodu do rychla zásadní. Kola stroje zatím nejsou schopna šnek roztočit. Protože stroj je restaurován jen k vystavení, zůstane bití zatím nefunkční.
 
-![](/img/decin/dalsi_stroje/bassler1864/f/foto_0001.jpg)
+![Fotografie 1](/img/decin/dalsi_stroje/bassler1864/f/foto_0001.jpg)
 
-![](/img/decin/dalsi_stroje/bassler1864/f/foto_0002.jpg)![](/img/decin/dalsi_stroje/bassler1864/f/foto_0003.jpg)
+![Fotografie 2](/img/decin/dalsi_stroje/bassler1864/f/foto_0002.jpg)![Fotografie 3](/img/decin/dalsi_stroje/bassler1864/f/foto_0003.jpg)
 
-![](/img/decin/dalsi_stroje/bassler1864/f/foto_0004.jpg)![](/img/decin/dalsi_stroje/bassler1864/f/foto_0005.jpg)
+![Fotografie 4](/img/decin/dalsi_stroje/bassler1864/f/foto_0004.jpg)![Fotografie 5](/img/decin/dalsi_stroje/bassler1864/f/foto_0005.jpg)
 
 * * *
 
@@ -49,28 +49,28 @@ Bicí stroj má neobvykle řešený větrník s kolmou osou. Koncepce umožňova
 
 V Hodináriu se opravený původní stojan dočkal svého stroje 24.6.2019. Konečně tak můžeme vidět i odlučovače nátahu ve správné poloze přišroubované ke stojanu. Stroj tiká při použití tahu za provaz cca 6 kp. Jako závaží jicího stroje je přes kladku na konopném laně zavěšené ozubené kolo z nějakého zemědělského stroje. Čočka kyvadla je provizorně vyrobena ze závaží z posilovny. Neumožňuje posun pro regulaci délky kyvadla. Vzhledem k tomu, že stroj je bez ručiček, asi to není zásadní problém.
 
-![](/img/decin/dalsi_stroje/Holandske/f/foto_0002.jpg)
+![Fotografie 2](/img/decin/dalsi_stroje/Holandske/f/foto_0002.jpg)
 
-![](/img/decin/dalsi_stroje/Holandske/f/foto_0001.jpg)![](/img/decin/dalsi_stroje/Holandske/f/foto_0003.jpg)
+![Fotografie 1](/img/decin/dalsi_stroje/Holandske/f/foto_0001.jpg)![Fotografie 3](/img/decin/dalsi_stroje/Holandske/f/foto_0003.jpg)
 
-![](/img/decin/dalsi_stroje/Holandske/f/foto_0004.jpg)
-![](/img/decin/dalsi_stroje/Holandske/f/foto_0005.jpg)
+![Fotografie 4](/img/decin/dalsi_stroje/Holandske/f/foto_0004.jpg)
+![Fotografie 5](/img/decin/dalsi_stroje/Holandske/f/foto_0005.jpg)
 
-![](/img/decin/dalsi_stroje/Holandske/f/foto_0006.jpg)![](/img/decin/dalsi_stroje/Holandske/f/foto_0007.jpg)
+![Fotografie 6](/img/decin/dalsi_stroje/Holandske/f/foto_0006.jpg)![Fotografie 7](/img/decin/dalsi_stroje/Holandske/f/foto_0007.jpg)
 
 * * *
 
 ## [Vystaven již je elektricky vypouštěný stroj neznámé provenience](/img/decin/dalsi_stroje/Holandske/f/foto_0003.jpg)
 
-![](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0001.jpg)
+![Fotografie 1](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0001.jpg)
 
-![](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0002.jpg)
+![Fotografie 2](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0002.jpg)
 
-![](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0003.jpg)
+![Fotografie 3](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0003.jpg)
 
-![](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0004.jpg)
+![Fotografie 4](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0004.jpg)
 
-![](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0005.jpg)![](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0006.jpg)
+![Fotografie 5](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0005.jpg)![Fotografie 6](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0006.jpg)
 
 * * *
 

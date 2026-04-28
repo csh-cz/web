@@ -9,12 +9,6 @@ scrapedAt: "2026-04-27T17:37:23.812Z"
 ---
 Sedmi segmentový displej je nejúspornější způsob vyjádření číslic a několika znaků. Většinou se s nimi setkáváme v provedení LED nebo LCD. Mechanické provedení sedmi segmentového displeje ovládané elektromagnety má některé výhody. Na obrázcích vidíme čelní pohled na zobrazenou číslice 6. Na tmavém otočném segmentu je vidět magnet, který pomocí elektromagnetů na posledním obrázku převrátí segment do polohy ON nebo OFF podle polarity impulzu přivedeného do cívky. V klidovém stavu nepotřebuje displej žádné napájení, protože magnet se přitahuje k jádru cívky. To znamená, že napájení je potřebné jen pro změnu stavu. Nožový konektor vpravo dole zajišťuje adresový výběr jednotky.
 
-![](/img/H715_BODET/f/foto_0001.jpg)
-
-![](/img/H715_BODET/f/foto_0002.jpg)
-
-![](/img/H715_BODET/f/foto_0003.jpg)
-
 Jednotky jsou propojeny datovou sběrnicí na kterou řídící jednotka v případě potřeby vyšle data a zároveň adresovacím vodičem určí, pro kterou jednotku je informace určena .
 
 ![schema zapojení](/img/H715_BODET/schema1.jpg)
@@ -29,7 +23,7 @@ Jednotky jsou propojeny datovou sběrnicí na kterou řídící jednotka v pří
 
 ## Použití
 
-Jednotky BODET se vyrábějí ve velikostech od 10 do 58 cm. Poměrně jednoduše se instalují pomocí plochého kabelu. Jsou vhodné pro zobrazení např. těchto údajů: kurz nebo cena (čerpací stanice PHM), sportovní tabule s časem / skóre / rychlostí, hmotnost u průmyslových vah, cena pokojů v hotelech, čas a teplota, různá průmyslová měřidla a mnoho dalších...![](/img/H715_BODET/f/foto_0004.jpg)
+Jednotky BODET se vyrábějí ve velikostech od 10 do 58 cm. Poměrně jednoduše se instalují pomocí plochého kabelu. Jsou vhodné pro zobrazení např. těchto údajů: kurz nebo cena (čerpací stanice PHM), sportovní tabule s časem / skóre / rychlostí, hmotnost u průmyslových vah, cena pokojů v hotelech, čas a teplota, různá průmyslová měřidla a mnoho dalších...
 
 Pro Hodinárium jsme získali řídící jednotku GEMA ADHT z roku 1998 s teplotním čidlem a třemi zobrazovači H715M. Řídící jednotka je postavena na bázi mikroprocesoru AT89C52. Jednotku jsme nechali přeprogramovat na hodiny ukazující Internetový SWATCH čas. Tento čas jsme zvolili proto, že takových hodin není mnoho a mimo jiné i proto, že postačí zobrazení na 3 místa (původně použitá pro zobrazení teploty). Je to zajímavý způsob měření času. Tvůrcem tohoto konceptu počítání času je známá švýcarská firma [SWATCH](http://www.swatch.com/), která jej poprvé uvedla v roce 1998. Hlavní myšlenkou je odstranit časová pásma a také změny na letní čas - čas je stejný na celé planetě. Můžete si tak domluvit schůzku či telefonní hovor s kýmkoliv na světě, aniž byste složitě přepočítávali časové zóny.
 

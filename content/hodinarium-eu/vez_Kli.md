@@ -13,15 +13,15 @@ Kovaný rám obsajuje nyní kyvadlový stroj s vřetenovým krokem v horní nás
 
 Na rámu stroje jsou viditelné známky přestavby. Několikeré rozebírání a sestavování dokládají několikeré značky. Je pravděpodobné, že horní nástavba je novější a stroj byl původně stavěn s lihýřem. To by posouvalo dobu vzniku před 18. století. Bohužel o původu a historii stroje nemáme žádné další informace.
 
-![](/img/vez/Kli/f/foto_0001.jpg)
+![Fotografie 1](/img/vez/Kli/f/foto_0001.jpg)
 
-![](/img/vez/Kli/f/foto_0002.jpg)![](/img/vez/Kli/f/foto_0003.jpg)
+![Fotografie 2](/img/vez/Kli/f/foto_0002.jpg)![Fotografie 3](/img/vez/Kli/f/foto_0003.jpg)
 
-![](/img/vez/Kli/f/foto_0004.jpg)![](/img/vez/Kli/f/foto_0005.jpg)
+![Fotografie 4](/img/vez/Kli/f/foto_0004.jpg)![Fotografie 5](/img/vez/Kli/f/foto_0005.jpg)
 
-![](/img/vez/Kli/f/foto_0006.jpg)![](/img/vez/Kli/f/foto_0007.jpg)
+![Fotografie 6](/img/vez/Kli/f/foto_0006.jpg)![Fotografie 7](/img/vez/Kli/f/foto_0007.jpg)
 
-![](/img/vez/Kli/f/foto_0010.jpg)
+![Fotografie 10](/img/vez/Kli/f/foto_0010.jpg)
 
 Společná natahovací klika pro jicí a bicí stroj nebyla nalezena. Čočka kyvadla byla rekonstruována. Fotografie stroje jsou kromě poslední pořízeny ještě v restaurátorském ateliéru před konzervováním. Poslední fotografie ukazuje instalaci v okenním výklenku klenotnice Věžního muzejíčka. Nálezový stav neuvádíme, protože stroj by předán v rozebraném stavu.
 

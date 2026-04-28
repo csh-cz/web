@@ -7,9 +7,9 @@ lastModified: "Sun, 23 Apr 2017 20:02:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:39.148Z"
 ---
-![](/img/vez/zvony/f/petrpavel1.jpg)
+![petrpavel 1](/img/vez/zvony/f/petrpavel1.jpg)
 
-![](/img/vez/zvony/f/petrpavel2.jpg)
+![petrpavel 2](/img/vez/zvony/f/petrpavel2.jpg)
 
 **Hlavní zvon soběslavské věže.
 Vysvěcený v roce 1492, přelit v roce 1663.**

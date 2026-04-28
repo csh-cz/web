@@ -16,11 +16,11 @@ scrapedAt: "2026-04-27T17:36:42.685Z"
 ***K** napsání této stránky nás inspiroval nález torza mosazného hodinového stroje se synchronním motorem.
 (Pro zvětšení klikněte na obrázek, listujte pomocí kláves nebo zapněte zobrazení galerie.)*
 
-![](/img/elektrika/4ruce/nalez5.jpg)
+![nalez 5](/img/elektrika/4ruce/nalez5.jpg)
 
-![](/img/elektrika/4ruce/nalez1.jpg)![](/img/elektrika/4ruce/nalez3.jpg)
+![nalez 1](/img/elektrika/4ruce/nalez1.jpg)![nalez 3](/img/elektrika/4ruce/nalez3.jpg)
 
-![](/img/elektrika/4ruce/nalez2.jpg)![](/img/elektrika/4ruce/nalez6.jpg)
+![nalez 2](/img/elektrika/4ruce/nalez2.jpg)![nalez 6](/img/elektrika/4ruce/nalez6.jpg)
 
 ***N**a první fotografii je stroj po částečném očičtění s nasazenými předními i zadními ručičkami. Stroj je připojen k síti a je funkční. Další 3 fotografie zachycují nálezový stav. Na poslední je vidět detail kuželových převodů k obrácení směru otáčení. Minutová hřídel je za prvním kuželovým kolem přerušena. Ve stejném směru pokračuje minutová hřídel zadního ciferníku .*
 
