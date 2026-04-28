@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://horologie.cz/sitemap-index.xml
+# Utility pages — keep out of search results
+Disallow: /og/
+
+Sitemap: https://horologie-cz.pages.dev/sitemap-index.xml

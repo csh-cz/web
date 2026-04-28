@@ -23,6 +23,39 @@ function ogSlugFromPath(path: string): string {
 }
 const slug = ogSlug ?? ogSlugFromPath(Astro.url.pathname);
 const ogImage = new URL(`/og/${slug}.png`, site).toString();
+
+// hreflang alternate — /en je samostatná anglická stránka, jiné cs↔en pairs
+// nemáme. Ostatní stránky deklarují alternate jen tehdy když existuje en verze.
+const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '/index';
+const isEn = Astro.url.pathname === '/en' || Astro.url.pathname === '/en/';
+const csUrl = new URL('/', site).toString();
+const enUrl = new URL('/en', site).toString();
+
+// Organization JSON-LD jen na home
+const orgJsonLd = isHome ? {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': csUrl,
+  name: 'Český spolek horologický',
+  alternateName: 'CSH',
+  url: csUrl,
+  logo: new URL('/img/logo-csh.png', site).toString(),
+  email: 'info@orloj.eu',
+  telephone: '+420603502735',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'nábřeží Otakara Ostrčila 273/6',
+    postalCode: '392 01',
+    addressLocality: 'Soběslav',
+    addressCountry: 'CZ',
+  },
+  taxID: '26573008',
+  foundingDate: '2014',
+  sameAs: [
+    'https://hodinarium-eu.pages.dev/',
+    'https://orloj.eu/',
+  ],
+} : null;
 ---
 <!DOCTYPE html>
 <html lang="cs" dir="ltr">
@@ -32,6 +65,13 @@ const ogImage = new URL(`/og/${slug}.png`, site).toString();
     <meta name="theme-color" content="#14110c" />
     <meta name="description" content={desc} />
     <link rel="canonical" href={canonical} />
+    {(isHome || isEn) && (
+      <>
+        <link rel="alternate" hreflang="cs" href={csUrl} />
+        <link rel="alternate" hreflang="en" href={enUrl} />
+        <link rel="alternate" hreflang="x-default" href={csUrl} />
+      </>
+    )}
 
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="cs_CZ" />
@@ -56,6 +96,9 @@ const ogImage = new URL(`/og/${slug}.png`, site).toString();
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" />
     <title>{fullTitle}</title>
+    {orgJsonLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />
+    )}
   </head>
   <body class="min-h-screen flex flex-col antialiased">
     <a href="#hlavni-obsah" class="skip-link">Přeskočit na obsah</a>

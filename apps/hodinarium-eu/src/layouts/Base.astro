@@ -31,6 +31,38 @@ const slug = ogSlug ?? ogSlugFromPath(Astro.url.pathname);
 const ogImage = ogImageOverride
   ? new URL(ogImageOverride, site).toString()
   : new URL(`/og/${slug}.png`, site).toString();
+
+// hreflang alternate — /en je samostatná anglická stránka
+const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '/index';
+const isEn = Astro.url.pathname === '/en' || Astro.url.pathname === '/en/';
+const csUrl = new URL('/', site).toString();
+const enUrl = new URL('/en', site).toString();
+
+// Organization JSON-LD jen na home — odkazuje na spolek jako provozovatele
+const orgJsonLd = isHome ? {
+  '@context': 'https://schema.org',
+  '@type': 'Museum',
+  '@id': csUrl,
+  name: 'Hodinárium',
+  alternateName: 'Český spolek horologický — webová expozice',
+  url: csUrl,
+  logo: new URL('/img/logo-csh.png', site).toString(),
+  description: 'Webová a fyzická expozice o hodinách Českého spolku horologického. ~218 článků, sbírka, atlas, mapa expozic.',
+  parentOrganization: {
+    '@type': 'Organization',
+    name: 'Český spolek horologický',
+    url: 'https://horologie-cz.pages.dev/',
+  },
+  sameAs: [
+    'https://horologie-cz.pages.dev/',
+    'https://orloj.eu/',
+  ],
+  location: {
+    '@type': 'Place',
+    name: 'Zámek Děčín',
+    address: { '@type': 'PostalAddress', addressLocality: 'Děčín', addressCountry: 'CZ' },
+  },
+} : null;
 ---
 <!DOCTYPE html>
 <html lang="cs" dir="ltr">
@@ -40,6 +72,13 @@ const ogImage = ogImageOverride
     <meta name="theme-color" content="#14100c" />
     <meta name="description" content={desc} />
     <link rel="canonical" href={canonical} />
+    {(isHome || isEn) && (
+      <>
+        <link rel="alternate" hreflang="cs" href={csUrl} />
+        <link rel="alternate" hreflang="en" href={enUrl} />
+        <link rel="alternate" hreflang="x-default" href={csUrl} />
+      </>
+    )}
 
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="cs_CZ" />
@@ -64,6 +103,9 @@ const ogImage = ogImageOverride
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" />
     <title>{fullTitle}</title>
+    {orgJsonLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />
+    )}
   </head>
   <body class="min-h-screen flex flex-col antialiased">
     <a href="#hlavni-obsah" class="skip-link">Přeskočit na obsah</a>
