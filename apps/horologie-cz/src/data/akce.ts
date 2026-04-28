@@ -126,14 +126,24 @@ export const akce: Akce[] = [
       + 'rád to doplním.</em></p>',
     fotky: [
       'hero.jpg',
-      '01-vystava-celek.jpg',
-      '02-eksponaty-1.jpg',
-      '03-eksponaty-2.jpg',
-      '04-vernisaz-1.jpg',
-      '05-vernisaz-2.jpg',
+      '01-vyroba-1.jpg',           // 5. 8. 2019
+      '02-vyroba-2.jpg',           // 10. 8. 2019
+      '03-vyroba-3.jpg',           // 11. 8. 2019
+      '04-vyroba-4.jpg',           // 23. 8. 2019
+      '05-vyroba-5.jpg',           // 7. 9. 2019
+      '06-vystava-celek.jpg',
+      '07-eksponaty-1.jpg',
+      '08-eksponaty-2.jpg',
+      '09-vernisaz-1.jpg',
+      '10-vernisaz-2.jpg',
     ],
     popisky: [
       'Výstava „Olomoucký orloj — 500 let od první písemné zmínky"',
+      'Výroba exponátu — repliky orloje (5. 8. 2019)',
+      'Výroba exponátu — repliky orloje (10. 8. 2019)',
+      'Výroba exponátu — repliky orloje (11. 8. 2019)',
+      'Výroba exponátu — repliky orloje (23. 8. 2019)',
+      'Výroba exponátu — repliky orloje (7. 9. 2019)',
       'Pohled do expozice',
       'Vystavované exponáty',
       'Vystavované exponáty',
