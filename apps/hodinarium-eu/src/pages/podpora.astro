@@ -1,0 +1,120 @@
+---
+import Base from '../layouts/Base.astro';
+import { SISTER_SPOLEK } from '../data/sites';
+
+const sponzoringUrl = `${SISTER_SPOLEK}/sponzoring`;
+const sponzoringQrUrl = `${SISTER_SPOLEK}/sponzoring#qr`;
+---
+<Base
+  title="Podpora"
+  description="Hodinárium Děčín, restaurování věžních strojů a tento web — to vše stojí lidskou práci, čas a peníze. Jak nám můžete pomoci."
+>
+  <article class="podpora-doc">
+    <header class="podpora-header">
+      <p class="eyebrow mb-4">Pomozte nám</p>
+      <h1 class="hero-title">Podpora</h1>
+      <p class="lede">
+        Hodinárium není komerční muzeum. Stojí na práci nadšenců a několika
+        málo zdrojích — bez podpory dárců, sponzorů a členů
+        <a href="https://horologie-cz.pages.dev/" target="_blank" rel="noopener">Českého spolku horologického</a>
+        by to nešlo.
+      </p>
+    </header>
+
+    <section class="prose-content">
+      <h2>Co podporujete</h2>
+
+      <ul>
+        <li>
+          <strong>Provoz expozice Hodinária Děčín</strong> — pronájem prostor,
+          osvětlení, údržba vitrín, instalace nových exponátů.
+        </li>
+        <li>
+          <strong>Restaurování věžních hodin</strong> — identifikace dochovaných
+          strojů, jejich konzervace, dokumentace a vrácení do funkčního stavu.
+          Soběslav, Bychory, Janovice a další jsou výsledkem této práce.
+        </li>
+        <li>
+          <strong>Provoz a údržbu webu</strong> — Hodinárium na webu, jeho
+          rozšiřování o nové články, péče o digitální archiv a sesterský
+          <a href="https://orloj.eu" target="_blank" rel="noopener">orloj.eu</a>.
+        </li>
+      </ul>
+
+      <h2>Jak podpořit</h2>
+
+      <p>
+        Podporu — finanční i věcnou — administruje Český spolek horologický.
+        Detaily o transparentním účtu, členství, věcných darech i firemním
+        partnerství najdete na stránce
+        <a href={sponzoringUrl} target="_blank" rel="noopener">
+          Podpora na horologie-cz.pages.dev&nbsp;↗
+        </a>.
+      </p>
+
+      <p>
+        Pro rychlou platbu členského příspěvku je k dispozici
+        <a href={sponzoringQrUrl} target="_blank" rel="noopener">QR kód&nbsp;↗</a>.
+      </p>
+
+      <p class="contact-line">
+        Máte historické hodiny, fotografie nebo svědectví, které by stálo za
+        zařazení do expozice nebo archivu? Napište:
+        <a href="mailto:info@orloj.eu">info@orloj.eu</a>.
+      </p>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .podpora-doc {
+    max-width: 70ch;
+    margin: 0 auto;
+  }
+  .podpora-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .hero-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+    line-height: 1.1;
+    margin: 0 0 1.25rem;
+    color: var(--color-brass-bright);
+    letter-spacing: -0.01em;
+  }
+  .lede {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: var(--color-text);
+    margin: 0;
+  }
+  .prose-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem;
+  }
+  .prose-content ul li {
+    padding: 0.6rem 0 0.6rem 1.5rem;
+    border-bottom: 1px dashed color-mix(in srgb, var(--color-brass) 18%, transparent);
+    line-height: 1.55;
+    position: relative;
+  }
+  .prose-content ul li::before {
+    content: '·';
+    position: absolute;
+    left: 0.5rem;
+    color: var(--color-copper);
+    font-weight: 700;
+  }
+  .prose-content ul li:last-child { border-bottom: none; }
+  .contact-line {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    font-size: 0.95rem;
+    color: var(--color-text-soft);
+  }
+</style>
