@@ -76,18 +76,18 @@ Děti si to náramně užily a teď už nezbývá než doufat, že nějaký čer
 
 * * *
 
-[!](img/faust/f/foto_0001.jpg)
+![](/img/faust/f/foto_0001.jpg)
 
-[!](img/faust/f/foto_0002.jpg)[!](img/faust/f/foto_0003.jpg)
+![](/img/faust/f/foto_0002.jpg)![](/img/faust/f/foto_0003.jpg)
 
-[!](img/faust/f/foto_0004.jpg)[!](img/faust/f/foto_0005.jpg)
+![](/img/faust/f/foto_0004.jpg)![](/img/faust/f/foto_0005.jpg)
 
-[!](img/faust/f/foto_0006.jpg)[!](img/faust/f/foto_0007.jpg)
+![](/img/faust/f/foto_0006.jpg)![](/img/faust/f/foto_0007.jpg)
 
-[!](img/faust/f/foto_0008.jpg)[!](img/faust/f/foto_0009.jpg)
+![](/img/faust/f/foto_0008.jpg)![](/img/faust/f/foto_0009.jpg)
 
-[!](img/faust/f/foto_0010.jpg)[!](img/faust/f/foto_0011.jpg)
+![](/img/faust/f/foto_0010.jpg)![](/img/faust/f/foto_0011.jpg)
 
-[!](img/faust/f/foto_0012.jpg)[!](img/faust/f/foto_0013.jpg)
+![](/img/faust/f/foto_0012.jpg)![](/img/faust/f/foto_0013.jpg)
 
-[!](img/faust/f/foto_0014.jpg)[!](img/faust/f/foto_0015.jpg)
+![](/img/faust/f/foto_0014.jpg)![](/img/faust/f/foto_0015.jpg)

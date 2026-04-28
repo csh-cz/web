@@ -7,7 +7,7 @@ lastModified: "Sat, 14 Jan 2023 10:40:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:29.942Z"
 ---
-[![podružné hodiny art deco](/img/elektrika/jednotny_cas/artdeco/celek_artdeco.jpg)Dvoje stolní podružné hodiny s otočnou kotvou](img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg)
+[![podružné hodiny art deco](/img/elektrika/jednotny_cas/artdeco/celek_artdeco.jpg)Dvoje stolní podružné hodiny s otočnou kotvou](/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg)
 
 Stolní podružné hodiny jsou samy o sobě výjimečné. První ukázkou budou nesignované hodiny ve stylu art deco se strojkem Siemens. Druhé podružné hodiny s nápisem "Jednotný čas" jsou zachované jen částečně, ale jsou také funkční.
 
@@ -23,13 +23,13 @@ Použití strojku bylo kvůli danému momentu omezeno na hodiny s průměrem č�
 
 Odkazy: Götsch, Taschenbuch für Fernmeldetechniker 1950, Teil 2Ww 285: Die elektrischen Zeitdienstanlagen im Reichsbahndirektions-Bezirk Berlin 1923.
 
-[!](img/elektrika/jednotny_cas/artdeco/f/detail_b.jpg)
+![](/img/elektrika/jednotny_cas/artdeco/f/detail_b.jpg)
 
-[!](img/elektrika/jednotny_cas/artdeco/f/detail_a.jpg)
+![](/img/elektrika/jednotny_cas/artdeco/f/detail_a.jpg)
 
 * * *
 
-## [![podružné hodiny art deco](/img/elektrika/jednotny_cas/artdeco/celek_jednotny_cas.jpg)](img/elektrika/jednotny_cas/artdeco/f/celek_jednotny_cas.jpg)Hodiny značené firmou Jednotný čas
+## [![podružné hodiny art deco](/img/elektrika/jednotny_cas/artdeco/celek_jednotny_cas.jpg)](/img/elektrika/jednotny_cas/artdeco/f/celek_jednotny_cas.jpg)Hodiny značené firmou Jednotný čas
 
 Předmětem podnikání firmy Jednotný čas, s. s r.o., Praha nebyla výroba, ale nákup, prodej, pronajímání a instalování elektrických hodin. Společnost byla ustavena v červenci 1923. V roce 1948 byla začleněna do podniku Chromotechny Šternberk a v následujícím roce se společně se závodem Ludvík Hainz spojila do závodu Elektročas. (Podle knihy Zdeněk Martínek, Dějiny Československého hodinářského průmyslu.)
 
@@ -37,9 +37,9 @@ Zachovalo se poměrně málo výrobků s označením "Jednotný čas" na cifern�
 
 Hodinový stroj je zapuštěn do masivního dřevěného bloku. Tvar je spíše moderna než kubismus. Chybí bohužel přední rámeček a ani nemáme žádnou fotografii, jak vypadal. Dobu výroby odhadujeme spíše na dobu před II. světovou válkou, ačkoliv firma dovážela strojky až do roku 1944. Na schránce vzadu je namalované pořadové či inventární číslo 309.
 
-[!](img/elektrika/jednotny_cas/f/foto_0002.jpg)
+![](/img/elektrika/jednotny_cas/f/foto_0002.jpg)
 
-[!](img/elektrika/jednotny_cas/f/foto_0003.jpg)
+![](/img/elektrika/jednotny_cas/f/foto_0003.jpg)
 
 Podružný strojek je značen EZ 110838, což odpovídá značení ve firmě Telefonbau und Normalzeit od které firma Jednotný čas strojky běžně kupovala. Možná byla zřízena jako filiálka této německé firmy.
 

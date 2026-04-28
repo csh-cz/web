@@ -7,9 +7,9 @@ lastModified: "Wed, 26 Apr 2017 16:01:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:04.335Z"
 ---
-[![Brevete](/img/hodinky/kapesni_orloj/627893335_6_n.jpg)](img/hodinky/kapesni_orloj/627893335_6.jpg)
+[![Brevete](/img/hodinky/kapesni_orloj/627893335_6_n.jpg)](/img/hodinky/kapesni_orloj/627893335_6.jpg)
 
-[![Brevete](/img/hodinky/kapesni_orloj/627893335_1_n.jpg)](img/hodinky/kapesni_orloj/627893335_1.jpg)
+[![Brevete](/img/hodinky/kapesni_orloj/627893335_1_n.jpg)](/img/hodinky/kapesni_orloj/627893335_1.jpg)
 
 Kolikrát jsem už o větších hodinkách slyšel zvolání: "to je ale orloj". Málokdy ovšem na výroku něco bylo. Trochu jinak je to u hodinek BREVETE S. G. D. G. Jejich konstrukce kalendářní komplikace včetně zobrazení měsíčních fází je podivuhodná, tedy opravdu hodná podivu.
 
@@ -19,7 +19,7 @@ Kolikrát jsem už o větších hodinkách slyšel zvolání: "to je ale orloj".
 
 ... a objeví se "orloj". Přesněji řečeno velmi zajímavá kalendářní komplikace.
 
-**S**kládá se ze dvou ciferníků pro den v měsíci a den v týdnu doplněná o průřezy k zobrazení názvu měsíce s počtem dní a lunár neboli o ukazatel oběhu Měsíce. Hodinky tedy ukazují pořadové číslo dne, den v týdnu, dále pak ve výřezu název měsíce s údajem, [!](img/hodinky/kapesni_orloj/orloj.jpg) kolik má daný měsíc dnů a fázi Měsíce.
+**S**kládá se ze dvou ciferníků pro den v měsíci a den v týdnu doplněná o průřezy k zobrazení názvu měsíce s počtem dní a lunár neboli o ukazatel oběhu Měsíce. Hodinky tedy ukazují pořadové číslo dne, den v týdnu, dále pak ve výřezu název měsíce s údajem, ![](/img/hodinky/kapesni_orloj/orloj.jpg) kolik má daný měsíc dnů a fázi Měsíce.
 
 **Z**a pozornost stojí, že pohyblivý stříbrný ciferník, který uvádí počáteční písmena dní v týdnu, je uvádí celkem pětkrát. Tomu odpovídá 35 dní zlatého ciferníku. Část kruhu vyhrazená neexistujícím číslům dne je vhodně využita pro zobrazení názvu měsíce s celkovým počtem dnů. *(Na obrázku: "únor - 28 dní".)*
 

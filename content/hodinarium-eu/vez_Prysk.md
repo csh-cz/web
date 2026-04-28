@@ -7,7 +7,7 @@ lastModified: "Sun, 23 Apr 2017 09:01:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:28.149Z"
 ---
-## [!](img/vez/prysk/f/foto2_000.jpg)
+## ![](/img/vez/prysk/f/foto2_000.jpg)
 
 Do expozice Věžního muzejíčka v Soběslavi byly v roce 2012 zapůjčeny laskavostí Biskupství litoměřického věžní hodiny, které byly před instalací moderních, elektronicky řízených hodin, umístěny ve zvonici kostela Petra a Pavla v Horním Prysku. Hodiny delší dobu nebyly funkční, trpěly nepřízní počasí, neboť do věže před její nedávnou opravou zřejmě zatékalo. Rám stroje i kola byla značně zkorodována, některé součásti byly poškozeny, nebo vůbec chyběly (obr. 1).
 
@@ -31,5 +31,5 @@ Po sestavení celého stroje byl doplněn závěs kyvadla. Pro demonstraci chodu
 
 Opravu provedli: Ing. Miroslav Baudisch, Jiří Kořínek
 
-[!](img/vez/prysk/f/foto2_001.jpg) 1 [!](img/vez/prysk/f/foto2_002.jpg) 2
-[!](img/vez/prysk/f/foto2_003.jpg) 3 [!](img/vez/prysk/f/foto2_004.jpg) 4 [!](img/vez/prysk/f/foto2_005.jpg) 5 [!](img/vez/prysk/f/foto2_007.jpg) 6 [!](img/vez/prysk/f/foto2_006.jpg) 7 [!](img/vez/prysk/f/foto2_008.jpg) 8 [!](img/vez/prysk/f/foto2_009.jpg) 9[!](img/vez/prysk/f/foto2_010.jpg) 10 [!](img/vez/prysk/f/foto2_011.jpg) 11
+![](/img/vez/prysk/f/foto2_001.jpg) 1 ![](/img/vez/prysk/f/foto2_002.jpg) 2
+![](/img/vez/prysk/f/foto2_003.jpg) 3 ![](/img/vez/prysk/f/foto2_004.jpg) 4 ![](/img/vez/prysk/f/foto2_005.jpg) 5 ![](/img/vez/prysk/f/foto2_007.jpg) 6 ![](/img/vez/prysk/f/foto2_006.jpg) 7 ![](/img/vez/prysk/f/foto2_008.jpg) 8 ![](/img/vez/prysk/f/foto2_009.jpg) 9![](/img/vez/prysk/f/foto2_010.jpg) 10 ![](/img/vez/prysk/f/foto2_011.jpg) 11

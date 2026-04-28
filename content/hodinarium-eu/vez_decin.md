@@ -7,11 +7,11 @@ lastModified: "Thu, 27 Apr 2017 21:48:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:27.570Z"
 ---
-Další velký exponát Hodinária pochází z evangelického kostela v Podmoklech. V německých pramenech je kostel uváděn jako evangelische Christuskirche.[!](img/vez/decin/decin1.jpg) Kostel byl vybudován zásluhou podnikatele Franze Jordana, který také založil v Podmoklech čokoládovnu (na jejíž tradici později navázala známá Diana), podle plánů drážďanského architekta G. L. Moeckela. Kostel se pyšní tím, že na zdejší varhany v roce 1923 hrál Albert Schweitzer.
+Další velký exponát Hodinária pochází z evangelického kostela v Podmoklech. V německých pramenech je kostel uváděn jako evangelische Christuskirche.![](/img/vez/decin/decin1.jpg) Kostel byl vybudován zásluhou podnikatele Franze Jordana, který také založil v Podmoklech čokoládovnu (na jejíž tradici později navázala známá Diana), podle plánů drážďanského architekta G. L. Moeckela. Kostel se pyšní tím, že na zdejší varhany v roce 1923 hrál Albert Schweitzer.
 
 Malá osada Podmokly, ležící na druhém břehu Labe proti Děčínu, se začala rozrůstat v polovině 19.stol. v souvislosti s rozvíjejícím se průmyslem v této lokalitě. Pro potřeby protestantského obyvatelstva, které bylo v této obci početně zastoupeno, byl na Teplické ulici postaven evangelický kostel s vysokou špičatou věží. Do kostela, jenž byl dostavěn v roce **1884**, byly téhož roku zakoupeny **věžní hodiny od firmy Julius Hiemann** ze saského Lipska.
 
-Hodinový stroj je uložen v litinovém rámu. Grahamův krok je řízen kyvadlem, zavěšeným na ocelové planžetě. Téměř dvoumetrová kyvadlová tyč je dřevěná, na konci osazená těžkou litinovou čočkou. Bití je čtvrťové, stroj odbíjí jednotlivé čtvrtě, v celou hodinu se odjistí odbíjení příslušného počtu hodin. Plynulost odbíjení regulují dva plechové větrníky. [!](img/vez/decin/decin_instalace3.jpg)
+Hodinový stroj je uložen v litinovém rámu. Grahamův krok je řízen kyvadlem, zavěšeným na ocelové planžetě. Téměř dvoumetrová kyvadlová tyč je dřevěná, na konci osazená těžkou litinovou čočkou. Bití je čtvrťové, stroj odbíjí jednotlivé čtvrtě, v celou hodinu se odjistí odbíjení příslušného počtu hodin. Plynulost odbíjení regulují dva plechové větrníky. ![](/img/vez/decin/decin_instalace3.jpg)
 
 Energii dodávají tři těžká litinová závaží, zavěšená na ocelových lanech. Závaží bylo nutno ručně klikou vytahovat každý den přes hnací bubny.
 
@@ -25,6 +25,6 @@ Stroj je vystaven na kovovém podstavci, který omožňuje předvést stroj v n�
 
 ## Několik fotografií z instalace hodin
 
-[![Král, Baudisch, Kořínek](/img/vez/decin/min/decin_instalace1.jpg)](img/vez/decin/decin_instalace1.jpg)
+[![Král, Baudisch, Kořínek](/img/vez/decin/min/decin_instalace1.jpg)](/img/vez/decin/decin_instalace1.jpg)
 
-[![Jirka Kořínek](/img/vez/decin/min/decin_instalace2.jpg)](img/vez/decin/decin_instalace2.jpg)[![ing. Baudisch a pan Kořínek](/img/vez/decin/min/decin_instalace4.jpg)](img/vez/decin/decin_instalace4.jpg)
+[![Jirka Kořínek](/img/vez/decin/min/decin_instalace2.jpg)](/img/vez/decin/decin_instalace2.jpg)[![ing. Baudisch a pan Kořínek](/img/vez/decin/min/decin_instalace4.jpg)](/img/vez/decin/decin_instalace4.jpg)

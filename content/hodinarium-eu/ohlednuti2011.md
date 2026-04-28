@@ -7,7 +7,7 @@ lastModified: "Sun, 23 Apr 2017 15:40:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:35.329Z"
 ---
-[![Knobloch - kresba ze soukromé sbírky](/img/aktual/knobloch_kresba.jpg)](img/aktual/f/knobloch_kresba.jpg)
+[![Knobloch - kresba ze soukromé sbírky](/img/aktual/knobloch_kresba.jpg)](/img/aktual/f/knobloch_kresba.jpg)
 
 V závěru roku bývá zvykem, bilancovat minulé úspěchy a případní prohry. Čas údajně plyne rovnoměrně, ale často i nedávné události jsou již pokryty tlustou vrstvou času. Proto se raději již v prosinci ohlédneme za rokem 2011 očima členů a sympatizantů Virtuálního muzea hodin o.s. Právě díky spolupráci našeho týmu a mnohoprofesnímu pohledu se podařilo mnohého dosáhnout. Všem tedy patří poděkování a slova uznání.
 

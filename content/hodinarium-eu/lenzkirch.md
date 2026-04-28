@@ -17,9 +17,9 @@ Korporaci pro výrobu hodin založili zde pánové **Eduard Hauser** (1825 - 190
 
 Hodiny z Lenzkirchu, technicky zajímavé i pěkné na pohled, dosáhly na celém světě vynikající pověsti. Jejich hodnota mezi sběrateli se neustále zvyšuje.
 
-[!](img/svarcvald/lenzkirch/lodicka.jpg)
+![](/img/svarcvald/lenzkirch/lodicka.jpg)
 
-[!](img/svarcvald/lenzkirch/mramorovy_budik.jpg)!
+![](/img/svarcvald/lenzkirch/mramorovy_budik.jpg)!
 
 !
 

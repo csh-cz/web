@@ -31,7 +31,7 @@ Svítily a již opět svítí i ciferníky Staroměstské radnice
 
 **P**o velké opravě pražského orloje v roce 1865 byly změněny boční ciferníky. *Ciferníky byly z matného skla a byly v noci zezadu osvětlovány plynovými hořáky. Byly to svým způsobem prvé svítící hodiny v Praze. Jediné co mohlo být diskutabilní, zda připojení tohoto novodobého doplňku bylo k starobylému orloji dosti citlivé. Dnes ciferníky večer a v noci nesvítí a je to tak lépe,* píše Zdeněk Horský v knize "Pražský orloj".
 
-**S**ituace se trochu změnila. Na stránkách [praha.eu](http://www.praha.eu/jnp/cz/extra/metamorfozy/orloj/index.html) jsme se 25.2.2008 dočetli, že "Zatímco se instalovaly sochy na orloj, pracovníci magistrátu vyměňovali žárovky u postranních ciferníků, které jsou z leptaného skla. *„**Žárovky, které ciferníky podsvěcují, už nebyly funkční. Protože má ale klíč jen orlojník pan Zámečník, počkali jsme na instalaci soch,* [!](<javascript:view\('img/elektrika/svitici/osvetleni_KHora.jpg', 450, 600\)>) *abychom mohli osvětlení zprovoznit,“* wq=
+**S**ituace se trochu změnila. Na stránkách [praha.eu](http://www.praha.eu/jnp/cz/extra/metamorfozy/orloj/index.html) jsme se 25.2.2008 dočetli, že "Zatímco se instalovaly sochy na orloj, pracovníci magistrátu vyměňovali žárovky u postranních ciferníků, které jsou z leptaného skla. *„**Žárovky, které ciferníky podsvěcují, už nebyly funkční. Protože má ale klíč jen orlojník pan Zámečník, počkali jsme na instalaci soch,* ![](<javascript:view\('img/elektrika/svitici/osvetleni_KHora.jpg', 450, 600\)>) *abychom mohli osvětlení zprovoznit,“* wq=
 
 řekl energetik hospodářské správy magistrátu Jiří Ježek. Ciferníky budou svítit denně od 16 do 8 hodin."
 
@@ -51,21 +51,21 @@ Svítily a již opět svítí i ciferníky Staroměstské radnice
 
 *(Textilní tovární impérium založil v Liberci Johann Liebieg. Všechny německé textilní firmy byly nejprve v roce 1945 konfiskovány a o rok později znárodněny. V letech 2003 až 2004 byl celý areál Textilany zbourán. )*
 
-[!](<javascript:view\('img/elektrika/svitici/textilana.jpg', 488, 500\)>)
+![](<javascript:view\('img/elektrika/svitici/textilana.jpg', 488, 500\)>)
 
-[!](<javascript:view\('img/elektrika/svitici/textilana2.jpg', 375, 500\)>)
+![](<javascript:view\('img/elektrika/svitici/textilana2.jpg', 375, 500\)>)
 
-[!](<javascript:view\('img/elektrika/svitici/textilana4.jpg', 375, 500\)>)
+![](<javascript:view\('img/elektrika/svitici/textilana4.jpg', 375, 500\)>)
 
-[!](<javascript:view\('img/elektrika/svitici/textilana5.jpg', 570, 500\)>)
+![](<javascript:view\('img/elektrika/svitici/textilana5.jpg', 570, 500\)>)
 
-[!](<javascript:view\('img/elektrika/svitici/textilana6.jpg', 204, 500\)>)
+![](<javascript:view\('img/elektrika/svitici/textilana6.jpg', 204, 500\)>)
 
 **Z**pět k hodinám. Jedná se o elektrické podružné hodiny **Siemens - Halske**, 30. léta 20. stol., malba a nástřik na skle, prosvětleno systémem Siemens - Schuckert. Na obrázcích je vidět ciferník a ručičky ( hliník, mosaz, litina), detail číslic, podružný hodinový stroj a detail a držáky žárovek.
 
 **I** v domácnostech v nedávné době (cca 1890) sloužily svítící hodiny. Jako zdroj světla se používala svíčka. Na snímcích dole jsou **stolní**, **kyvadlové** hodiny s otáčivým **průsvitným ciferníkem** za pevnou ručičkou. Stroj v dolní části podstavce, hodinová hřídel protažena vzhůru a zakončena držákem kruhového skleněného ciferníku. Výška je 22 cm, průměr skleněné koule asi 9,5 cm. **Z**ajímavé je provedení kyvadla, které kývá kolmo ke stroji. Protože není minutová ručička, není ani střídné kolo.
 
-[!](<javascript:view\('img/elektrika/svitici/na_svicku1.jpg', 450, 600\)>)[!](<javascript:view\('img/elektrika/svitici/na_svicku2.jpg', 800, 600\)>)[!](<javascript:view\('img/elektrika/svitici/na_svicku3.jpg', 800, 600\)>)
+![](<javascript:view\('img/elektrika/svitici/na_svicku1.jpg', 450, 600\)>)![](<javascript:view\('img/elektrika/svitici/na_svicku2.jpg', 800, 600\)>)![](<javascript:view\('img/elektrika/svitici/na_svicku3.jpg', 800, 600\)>)
 
 **H**odiny jsou velmi dekorativní, neobvyklé a na první pohled zaujmou. Majitel říká, že večer, po rozsvícení svíčky je to prostě nádhera. To mu jistě věříme.
 
@@ -89,14 +89,14 @@ Svítily a již opět svítí i ciferníky Staroměstské radnice
 
 * * *
 
-[!](<javascript:view\('img/elektrika/svitici/zapalovac_hodiny.jpg', 287, 385\)>)**S**e svítícími hodinami se setkáme i na dalších místech značně netradičních. Citujme z "Ilustrovaného přehledu hodinového" firmy Max Böhnel z roku 1911:
+![](<javascript:view\('img/elektrika/svitici/zapalovac_hodiny.jpg', 287, 385\)>)**S**e svítícími hodinami se setkáme i na dalších místech značně netradičních. Citujme z "Ilustrovaného přehledu hodinového" firmy Max Böhnel z roku 1911:
 
 -   *Nejnovější **hodiny s krucifixem**, as 75 cm vysoké, **s věčným světlem (červenou lampičkou)**. S nádherným pozlaceným dřevěným křížem a dvěma svatými figurami, s dobře jdoucím hodinovým strojem aneb se strojkem hrajícím svaté písně....K18.*
 -   *Se strojkem hodinovým a hracím...K 18.-"*
 -   *Podobné jsou i "Nejnovější **kapličkové hodiny** as 80 cm vysoké, **s červenou lampičkou**, v nádherně provedené dřevěné schráně, s Kristem na kříži, dobře jdoucím hodinovým strojem aneb se strojkem hrajícím svaté písně ...K12.*
 -   *Se strojem hodinovým a hracím ...K 15."*
 
--   ***Noční hodiny*** *s dvojzvonkovým budíčkem a **patentovanou nepáchnoucí petrolejovou lampu**, 32 cm vysoké....K 12.- Lampa se naplní petrolejem a kvůli bezpečí uzavře se kovovým kloboučkem. Rozžehne-li s lampa, je tím číselník z mléčného skla osvětlen tou měrou, že lze pohodlně viděti, kolik je hodin. Zároveň je okolí slabě osvětleno. Výdaj za svítivo činí týdně 8 haléřů."**[!](<javascript:view\('img/elektrika/svitici/detske1.jpg', 380, 293\)>)*
+-   ***Noční hodiny*** *s dvojzvonkovým budíčkem a **patentovanou nepáchnoucí petrolejovou lampu**, 32 cm vysoké....K 12.- Lampa se naplní petrolejem a kvůli bezpečí uzavře se kovovým kloboučkem. Rozžehne-li s lampa, je tím číselník z mléčného skla osvětlen tou měrou, že lze pohodlně viděti, kolik je hodin. Zároveň je okolí slabě osvětleno. Výdaj za svítivo činí týdně 8 haléřů."**![](<javascript:view\('img/elektrika/svitici/detske1.jpg', 380, 293\)>)*
 
 **Noční hodiny**
 
@@ -104,7 +104,7 @@ naleznou často uplatnění v dětských pokojících. Jsou tu proto, aby se dě
 
 **Autohodiny**
 
-[!](<javascript:view\('img/elektrika/svitici/autobus.jpg', 480, 479\)>)[!](<javascript:view\('img/elektrika/metamec/metamec1.jpg', 366, 500\)>)**N**esmíme opominout ještě jednu velkou oblast svítících hodin. **Svítící hodiny v autech**. Obvykle jde o poměrně robustní kvalitní hodiny, které musí snášet otřesy za jízdy. Protože bývají pevně zabudovány mají odlišný systém natahování a seřizování ručiček. Pomocí žároviček pro palubní napětí 12 respektive 24 V je ciferník decentně osvětlován. Často lze intenzitu osvětlení plynule nastavit. Pokud zařadíte autohodiny do své sbírky, zkuste zajistit i osvětlení. Pro úsporu elektrické energie můžete, u starších autohodin poněkud nestylově, použít svítící diody a potřebných 12 voltů brát třeba z počítače. LEDky do parkovaček či interiérového osvětlení auta lze koupit celkem levně. Elektricky osvětlené hodiny z autobusu působí v přítmí obýváku docela pěkně.
+![](<javascript:view\('img/elektrika/svitici/autobus.jpg', 480, 479\)>)![](<javascript:view\('img/elektrika/metamec/metamec1.jpg', 366, 500\)>)**N**esmíme opominout ještě jednu velkou oblast svítících hodin. **Svítící hodiny v autech**. Obvykle jde o poměrně robustní kvalitní hodiny, které musí snášet otřesy za jízdy. Protože bývají pevně zabudovány mají odlišný systém natahování a seřizování ručiček. Pomocí žároviček pro palubní napětí 12 respektive 24 V je ciferník decentně osvětlován. Často lze intenzitu osvětlení plynule nastavit. Pokud zařadíte autohodiny do své sbírky, zkuste zajistit i osvětlení. Pro úsporu elektrické energie můžete, u starších autohodin poněkud nestylově, použít svítící diody a potřebných 12 voltů brát třeba z počítače. LEDky do parkovaček či interiérového osvětlení auta lze koupit celkem levně. Elektricky osvětlené hodiny z autobusu působí v přítmí obýváku docela pěkně.
 
 **A**utohodiny se objevují nejčastěji v nebo na palubní desce. Někdy se ale zatoulají třeba do zpětného zrcátka. I ty mohou být osvětlené. Jeden veteránský exemplář je na dalších obrázcích.
 
@@ -116,4 +116,4 @@ naleznou často uplatnění v dětských pokojících. Jsou tu proto, aby se dě
 > Francouzské stolní hodiny Art Deco s lampičkou.
 > Hnědý odstín kouřového skla krásně ladí se záměrem svítících hodin.
 > 40 x 20 cm Klikněte, ať si je pořádně prohlédnete.
-> [!](<javascript:view\('img/elektrika/svitici/artdeco_lampa4.jpg', 750, 500\)>)
+> ![](<javascript:view\('img/elektrika/svitici/artdeco_lampa4.jpg', 750, 500\)>)

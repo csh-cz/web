@@ -56,7 +56,7 @@ policy
 
 * * *
 
-Časová[!](<javascript:view\('img/razitko2.jpg', 375, 500\)>)[!](<javascript:view\('img/razitko1.jpg', 375, 500\)>)razítka u elektronických souborů je věc poměrně nová. Jsou to jakási razítka virtuální. Přesto se Virtuální muzeum zajímá spíše o historická reálná razítka. I v minulosti bylo nutné osvědčit nějaký čas.
+Časová![](<javascript:view\('img/razitko2.jpg', 375, 500\)>)![](<javascript:view\('img/razitko1.jpg', 375, 500\)>)razítka u elektronických souborů je věc poměrně nová. Jsou to jakási razítka virtuální. Přesto se Virtuální muzeum zajímá spíše o historická reálná razítka. I v minulosti bylo nutné osvědčit nějaký čas.
 
 **N**ejznámější značkovací hodiny byly **hodiny docházkové - píchačky**.
 

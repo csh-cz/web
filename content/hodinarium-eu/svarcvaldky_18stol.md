@@ -19,11 +19,11 @@ Jako obvykle se obrázky na kliknutí zvětší
 
 * * *
 
-[!](img/svarcvald/18stol1.jpg)
+![](/img/svarcvald/18stol1.jpg)
 
-[!](img/svarcvald/18stol6.jpg)[!](img/svarcvald/18stol4.jpg)
+![](/img/svarcvald/18stol6.jpg)![](/img/svarcvald/18stol4.jpg)
 
-[!](img/svarcvald/18stol5.jpg)[!](img/svarcvald/18stol7.jpg)
+![](/img/svarcvald/18stol5.jpg)![](/img/svarcvald/18stol7.jpg)
 
 Hodiny na první pohled upoutají perfektním vzhledem. I ozubená dřevěná kola a cévky lucernových pastorků vypadají velmi zachovale. Pravděpodobně jsou hodiny restaurované.
 

@@ -17,16 +17,16 @@ Tato stránka je jen pozvánka do světa stavebnicových konstruktérů.
 
 Na Ebay.it se nedávno prodávaly stojací hodiny, které si dovolujeme uvést v následující galerii.
 
-[!](img/ujete/Mertur/f/foto_0001.jpg)
+![](/img/ujete/Mertur/f/foto_0001.jpg)
 
-[!](img/ujete/Mertur/f/foto_0005.jpg)[!](img/ujete/Mertur/f/foto_0009.jpg)
+![](/img/ujete/Mertur/f/foto_0005.jpg)![](/img/ujete/Mertur/f/foto_0009.jpg)
 
-[!](img/ujete/Mertur/f/foto_0002.jpg)[!](img/ujete/Mertur/f/foto_0010.jpg)
+![](/img/ujete/Mertur/f/foto_0002.jpg)![](/img/ujete/Mertur/f/foto_0010.jpg)
 
-[!](img/ujete/Mertur/f/foto_0006.jpg)[!](img/ujete/Mertur/f/foto_0007.jpg)
+![](/img/ujete/Mertur/f/foto_0006.jpg)![](/img/ujete/Mertur/f/foto_0007.jpg)
 
-[!](img/ujete/Mertur/f/foto_0008.jpg)[!](img/ujete/Mertur/f/foto_0004.jpg)
+![](/img/ujete/Mertur/f/foto_0008.jpg)![](/img/ujete/Mertur/f/foto_0004.jpg)
 
-[!](img/ujete/Mertur/f/foto_0011.jpg)[!](img/ujete/Mertur/f/foto_0003.jpg)
+![](/img/ujete/Mertur/f/foto_0011.jpg)![](/img/ujete/Mertur/f/foto_0003.jpg)
 
 ## A nebo taky z Merkuru jinak - [sluneční hodiny.](/img/ujete/Mertur/slunecni.jpg)

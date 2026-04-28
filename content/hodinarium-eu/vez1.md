@@ -9,7 +9,7 @@ scrapedAt: "2026-04-27T17:36:36.535Z"
 ---
 **N**a první pohled na kovaném hodinovém stroji ze soběslavské věže zaujme jeho štíhlá a vysoká stavba rámu zakončeného kovanými hlavicemi ve stylu gotických hřebů. To by mohlo naznačovat gotický původ rámu. Stáří restaurovaného stroje není dostatečně přesně určeno. Historické záznamy byly psány kronikáři či účetními, tak není snadné jednotlivým zápisům porozumět. Přestože hodiny byly mnohokrát přestavovány, měnila se většina kol, měnil způsob zobrazení času z českého na německý, měnil se krokový mechanizmus z vřetenového kroku s lihýřem na kotvový krok s kyvadlem, nás vzhled opravňuje k domněnce, že rám hodin pochází z nejstarších soběslavských hodin.
 
-**R**ám soběslavského hodinového stroje nyní obsahuje jicí tříkolový stroj s lanovým bubnem jehož osa je současně minutová hřídel. Všechna kola jsou kovaná s lucernovými pastorky. Krok je vratný kotvový s přibližně čtyřmetrovým kyvadlem. [!](img/vez/f/sostroj1.jpg) Závěs dřevěné tyče kyvadla obkračuje minutovou hřídel. Na minutové hřídeli je spojka, která umožňovala seřizování ručiček. Na témže hřídeli je další ozubené kolo bez zjevné funkce. Zajímavě a jednoduše (odklopením dorazu) je řešena možnost vysunutí kotvy ze záběru a tím uvolnění stroje pro volné otočení kol.
+**R**ám soběslavského hodinového stroje nyní obsahuje jicí tříkolový stroj s lanovým bubnem jehož osa je současně minutová hřídel. Všechna kola jsou kovaná s lucernovými pastorky. Krok je vratný kotvový s přibližně čtyřmetrovým kyvadlem. ![](/img/vez/f/sostroj1.jpg) Závěs dřevěné tyče kyvadla obkračuje minutovou hřídel. Na minutové hřídeli je spojka, která umožňovala seřizování ručiček. Na témže hřídeli je další ozubené kolo bez zjevné funkce. Zajímavě a jednoduše (odklopením dorazu) je řešena možnost vysunutí kotvy ze záběru a tím uvolnění stroje pro volné otočení kol.
 
 **V** rámu je dále uložen bicí stroj celých hodin se závěrkovým kolem. Stroj není v současnosti přímo spouštěný jicím strojem. Sestava ve věži obsahovala ještě mladší stroj čtvrťového bití, který teprve spouštěl bicí stroj celých hodin. Přídavný bicí stroj též vystaven ve Věžním muzejíčku. Oba stroje hlavního rámu se "natahovaly přendávanou" klikou s volným pastorkem. Místo slova natahování by se spíše hodilo vytahování, protože stroje poháněly kamenná závaží zavěšená přes kladky na lanech. Dochovaná závaží jsou vyrobena z upravených, dříve patrně stavebních, kamenných kvádrů. Jako zajímavost ještě uveďme, že mnohé součástky jsou [**signovány**](/clanky/vez_signatury) opravujícími hodináři nebo jménem představitele města.
 
@@ -29,14 +29,14 @@ scrapedAt: "2026-04-27T17:36:36.535Z"
 
 ## Vernisáž a detaily starého soběslavského stroje hodinového stroje
 
-[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_08.jpg)](img/u_vita/f/e_hod_08.jpg)
+[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_08.jpg)](/img/u_vita/f/e_hod_08.jpg)
 
-[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_29.jpg)](img/u_vita/f/e_hod_29.jpg)[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_43.jpg)](img/u_vita/f/e_hod_43.jpg)
+[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_29.jpg)](/img/u_vita/f/e_hod_29.jpg)[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_43.jpg)](/img/u_vita/f/e_hod_43.jpg)
 
-[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_68.jpg)](img/u_vita/f/e_hod_68.jpg)[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_55.jpg)](img/u_vita/f/e_hod_55.jpg)
+[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_68.jpg)](/img/u_vita/f/e_hod_68.jpg)[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_55.jpg)](/img/u_vita/f/e_hod_55.jpg)
 
-[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_51.jpg)](img/u_vita/f/e_hod_51.jpg)[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_52.jpg)](img/u_vita/f/e_hod_52.jpg)
+[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_51.jpg)](/img/u_vita/f/e_hod_51.jpg)[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_52.jpg)](/img/u_vita/f/e_hod_52.jpg)
 
-[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_53.jpg)](img/u_vita/f/e_hod_53.jpg)[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_54.jpg)](img/u_vita/f/e_hod_54.jpg)
+[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_53.jpg)](/img/u_vita/f/e_hod_53.jpg)[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_54.jpg)](/img/u_vita/f/e_hod_54.jpg)
 
-[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_56.jpg)](img/u_vita/f/e_hod_56.jpg)
+[![Výstava v Knihkupectví U sv. Víta](/img/vez/e_hod_56.jpg)](/img/u_vita/f/e_hod_56.jpg)

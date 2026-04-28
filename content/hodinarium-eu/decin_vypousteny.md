@@ -41,10 +41,10 @@ Do Hodinária se v roce 2017 dostává další stroj z produkce Elektročasu - V
 
 ## Vypouštěný stroj neznámé provenience
 
-[!](img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0001.jpg)
+![](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0001.jpg)
 
-[!](img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0002.jpg)[!](img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0003.jpg)
+![](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0002.jpg)![](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0003.jpg)
 
-[!](img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0004.jpg)
+![](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0004.jpg)
 
-[!](img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0005.jpg)[!](img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0006.jpg)
+![](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0005.jpg)![](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0006.jpg)

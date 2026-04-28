@@ -7,7 +7,7 @@ lastModified: "Sun, 24 Apr 2022 09:31:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:11.133Z"
 ---
-![čelní panel](https://hodinarium.eu/img/arduino/Solari/Solari1.jpg)
+![čelní panel](/img/arduino/Solari/Solari1.jpg)
 FLIP CLOCK SOLARI UDINE SPECIAL EDITION Arduinem
 
 * * *
@@ -16,7 +16,7 @@ Italská firma Solari Udine má bohatou historií. Společnost Fratelli Solari b
 
 * * *
 
-[![Původní provedení](/img/arduino/Solari/Solari_original.jpg)](img/arduino/Solari/f/Solari_original.jpg)
+[![Původní provedení](/img/arduino/Solari/Solari_original.jpg)](/img/arduino/Solari/f/Solari_original.jpg)
 
 Do sbírky získané hodiny FLIP CLOCK SOLARI UDINE SPECIAL EDITION mají čtyři řádky "překlapávacích" ukazatelů. Zobrazují den v měsíci, měsíc, den v týdnu a ukazatele hodin v 24 hodinovém členění a desítky a jednotky minut. Bohužel u těchto hodin přestala být funkční elektronika. Je možné, že sběratelsky správné by bylo opravit původní elektroniku. Nicméně součástková základna se rychle vyvíjí a oprava by nemusela být jednoduchá. Proto byla zvolena modernizace se zachováním původních dílů. Místo opravy jsem zvolil náhradu původní elektroniky modulem složeným z ESP8266 ESP-12F a [krokového motoru 28BYJ-48 s řadičem](https://dratek.cz/arduino/832-eses-krokovy-motor-driver-pro-jednodeskove-pocitace.html), tedy stejným modulem, jaký byl připraven pro lineární hodiny. Hodiny jsou nastaveny podle času získaného z NTP serveru v internetu. Pamatují si poslední nastavení času a dokážou ho obnovit po výpadku elektrické energie. Samozřejmě zvládnou i přechody letního času. Řídí se však pouze čas. Případná změna data se musí nastavit ručně. Je to jednak proto, že den v týdnu je odvozen od přechodu přes 24:00 a přetáčení například o šest dnů by trvalo příliš dlouho a jednak proto, že přetáčení dne v měsíci a měsíce je ovládáno druhým motorem. Jeho řízení elektromechanicky zvládá i přestupný rok a byla by škoda ho nahrazovat.
 
@@ -26,7 +26,7 @@ Vlastní (vratná) přestavba byla poměrně jednoduchá. Na levém obrázku je 
 
 Potřeba otáčet hřídelí za minutu o jednu pětinu otáčky byl u zvoleného krokového motoru trochu problém. Použitý motor se zabudovaným převodem potřebuje na jednu otáčku 512 kroků. Toto číslo bohužel není beze zbytku dělitelné pěti. 512 / 5 = 102,4 kroky. Tento nesoulad musí řešit program například tak, že motor udělá každou minutu 102 kroků a každou minutu dělitelnou pěti přidá ještě dva kroky. Rozdíl jisté nedotáčivosti v pětiminutovém intervalu není příliš patrný.
 
-[![Nové řešení](/img/arduino/Solari/Solari2.jpg)](img/arduino/Solari/f/Solari2.jpg)
+[![Nové řešení](/img/arduino/Solari/Solari2.jpg)](/img/arduino/Solari/f/Solari2.jpg)
 
 Program pro Arduino může vycházet z [návrhu pro hlavní hodiny s Arduinem](/clanky/Arduino), kde pouze místo vyslání polarizovaného impulzu provede motor část otáčky. Hodiny budou používány v domácím prostředí, tak program bude zjednodušený. Vynechán bude monitor chodu a podobně. Prvotní nastavení hodin je možné udělat i nastavovací webové stránky, lze najet na správnou hodnotu pomocí tlačítka FAST, nebo je možné hodiny vůbec nenastavovat a využít toho, že se o půlnoci sami nastaví. (Řídící ESP8266 nastavuje pouze čas; den v týdnu se musí nastavit ručně, stejně jako den v měsíci a měsíc.) Pokud je během startu drženo tlačítko na modulu, přepne se modul do režimu AP a na IP 192.168.4.1 lze prohlížečem zobrazit nastavovací obrazovku. Nastavuje se jméno sítě, její heslo a čas zobrazený na ukazatelích. Po restartu hodiny najedou na správný čas. Stisk tlačítka během normálního chodu způsobí pohyb ukazatelů vpřed. Lze tak ručně dohnat zpoždění hodin a zejména jemné nastavení překlápěcích lístků minut těsně před spadnutím.
 
@@ -36,7 +36,7 @@ Program pro Arduino může vycházet z [návrhu pro hlavní hodiny s Arduinem](/
 
 V hodinách Solari jsou dva motory. Arduinem je nahrazen pouze motor otáčející hřídelí jednotek minut. Nastavení pořadového čísla dne a jména měsíce nastavuje druhý motor. Mechanicky je také ovládáno násobné přetáčení dnů u měsíců kratších než 31 dní a dokonce se ve čtyřletém cyklu správně nastaví přechod na 1. březen v přestupném roce. Mechanismus řídící počet dní v měsících stojí za to více popsat. Hlavní řídící částí je kalendářní kolo obsahující 4x12 poloh pro měsíce. Výška výstupku nad číslem měsíce určuje, kolik dní na začátku měsíce se má "protočit". V segmentu přestupného roku jsou zapsány přestupné roky 1980, 1984,... až 2000. Z toho jde usoudit, že hodiny byly vyrobeny mezi roky 1977 až 1980. Systém samozřejmě funguje i po roce 2000.
 
-Aktivaci přetáčení nadbytečných dní určuje vačka se čtyřmi poloměry. Otočí se jednou za 31 dní. Vačky se dotýká páka nesoucí spínač. (Na fotografii není vidět, protože je pod pákou.) Při sepnutém spínači motor přetočí kalendářní ukazatel o další den. [![měsíční přepínač](/img/arduino/Solari/Solari3.jpg)](img/arduino/Solari/f/Solari3.jpg)Druhým koncem se páka opírá o některý výstupek na kalendářním kole.
+Aktivaci přetáčení nadbytečných dní určuje vačka se čtyřmi poloměry. Otočí se jednou za 31 dní. Vačky se dotýká páka nesoucí spínač. (Na fotografii není vidět, protože je pod pákou.) Při sepnutém spínači motor přetočí kalendářní ukazatel o další den. [![měsíční přepínač](/img/arduino/Solari/Solari3.jpg)](/img/arduino/Solari/f/Solari3.jpg)Druhým koncem se páka opírá o některý výstupek na kalendářním kole.
 
 Na začátku běžného dne se motor otáčející ukazatelem dnů v měsíci zastaví po otočení o jeden den. Doplňkový spínač není sepnut. Když je 29. den, je páka na prvním "zubu" vačky. Zda dojde k sepnutí kontaktu a tím k novému startu přetáčecího motoru záleží na tom, o jak vysoký výstupek kalendářního kola se opírá druhý konec páky. Pouze v případě, že se opírá o nejvyšší výstupek dojde k sepnutí. Nejvyšší výstupky jsou u měsíců označených číslem 3 avšak jen v nepřestupných letech. Následně dojde k otočení denní vačky na 30. a protože druhý konec páky stále stojí na vysokém výstupku, zůstává spínač sepnut. Denní vačka se natočí na 31. a díky stále sepnutému kontaktu se motor dále točí a nastaví 1. března.
 

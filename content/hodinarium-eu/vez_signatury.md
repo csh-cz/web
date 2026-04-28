@@ -41,15 +41,13 @@ Pp
 
 Rozsáhlá rekonstrukce
 
-**1743**
-
+## 1743
 **S1**
 
 **Johan Höner Kraslice - oprava**
 \- Johan Höner z Bechyně byl známý stavitel věžních hodin 18. století
 
-**1771**
-
+## 1771
 **S1**
 
 **Wasmon**
@@ -66,8 +64,7 @@ Rozsáhlá rekonstrukce
 
 **Joseph Kotrbeletz**
 
-**1829**
-
+## 1829
 **S2**
 
 **Joseph Kotrbeletz**
@@ -78,8 +75,7 @@ Pp
 
 Oprava zámečnický mistr Kopecký
 
-**1957**
-
+## 1957
 **S2**
 
 **Opraveno O.P.K. Soběslav Zedník, Hořický**

@@ -14,7 +14,7 @@ scrapedAt: "2026-04-27T17:36:53.309Z"
 !
 [![www.orloj.eu](/img/banery/apo_11midi.gif)](http://www.orloj.eu/)
 !
-[!](https://www.facebook.com/Hodin%C3%A1rium-%C4%8Cesk%C3%BD-spolek-horologick%C3%BD-169939123371944)
+![](https://www.facebook.com/Hodin%C3%A1rium-%C4%8Cesk%C3%BD-spolek-horologick%C3%BD-169939123371944)
 !
 
 !
@@ -63,7 +63,7 @@ Zde jen krátký popis. Model ukazuje, jak je konečně na našem serveru zvykem
 
 **N**a závěr si dovolím v úctě smeknout dva klobouky. Jeden na počest pana **Bernarda Gittona** a druhý na počest pana **Ronalda Bartha.**
 
-## ****[Animace zde](img/vodni/time_flow_clock/wuhrmsierelativ.html)****
+## ****[Animace zde](/img/vodni/time_flow_clock/wuhrmsierelativ.html)****
 
 ## Další odkazy na stránky o těchto hodinách:
 

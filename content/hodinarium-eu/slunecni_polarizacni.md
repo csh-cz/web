@@ -14,7 +14,7 @@ scrapedAt: "2026-04-27T17:37:16.762Z"
 !
 [![www.orloj.eu](/img/banery/apo_11midi.gif)](http://www.orloj.eu/)
 !
-[!](https://www.facebook.com/Hodin%C3%A1rium-%C4%8Cesk%C3%BD-spolek-horologick%C3%BD-169939123371944)
+![](https://www.facebook.com/Hodin%C3%A1rium-%C4%8Cesk%C3%BD-spolek-horologick%C3%BD-169939123371944)
 !
 
 !
@@ -55,9 +55,9 @@ Co byste řekli slunečním hodinám, které nemají žádný ukazatel vrhajíc�
 
 **S**luneční hodiny zcela nového typu jsou založeny na jevu polarizace světla. Princip popsal poprvé pan **Bradley Schaefer v roce 1997**. Zjednodušeně řečeno: světlo se průchodem atmosférou částečně polarizuje. Zjištění polarizační roviny umožňuje určit směr ke Slunci bez toho, aby bylo Slunce přímo viditelné. Ze známého směru pak určíme čas.
 
-[!](img/slunecni/polar1.jpg)
+![](/img/slunecni/polar1.jpg)
 
-[!](img/slunecni/polar2.jpg)
+![](/img/slunecni/polar2.jpg)
 
 Polarizační rovinu můžeme zjišťovat natáčením polarizačního filtru. Určení minima nebo maxima procházejícího světla je ovšem u ploché křivky v praxi obtížné. Oko se přizpůsobuje, tak změnu někdy ani nepozorujeme.
 
@@ -83,9 +83,9 @@ Polarizační rovinu můžeme zjišťovat natáčením polarizačního filtru. U
 
 **D**alší vývojová etapa by zahrnovala vložení aretovatelně otočného skla za filtr s namalovanou ručičkou. Také filtr by měl býr uložen v přípravku s kompasem pro snadnější orientaci, nebo na pevném stanovičti. Pro realizaci těchto hodin jsem vybral styl steampunk. Hodiny jsou pro držení v ruce doplněny pažbou a kompasem pro orientaci.
 
-[!](img/nonsens2015/f/foto_0006.jpg)
+![](/img/nonsens2015/f/foto_0006.jpg)
 
-[!](img/nonsens2015/f/foto_0007.jpg)
+![](/img/nonsens2015/f/foto_0007.jpg)
 
 Při pokusech jsem zaznamenal i jakési podivné chování filtru. Teprve po chvíli jsem si uvědomil, že i mé sluneční brýle jsou částečně polarizační a docházá ke křížení polarizátorů. Přiložený proužek celofánu na brýle měl podobný efekt. Celý efekt pootočení roviny polarizace můžete doma dobře pozorovat v polarizovaném světle vašeho LCD monitoru.
 

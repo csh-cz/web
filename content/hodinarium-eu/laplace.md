@@ -44,9 +44,9 @@ Zatím bez podrobnějšího popisu uvádíme několik náčrtků patrně z roku 
 
 ![Laplace - skeletová přestavba](/img/laplace/laplace_prestavba2b.jpg)
 
-[![Hodiny Laplace pro řízení frekvence sítě](https://hodinarium.eu/img/laplace/elektrarenske/elektrarna1c.jpg)](img/laplace/elektrarenske/elektrarna1d.jpg)
+[![Hodiny Laplace pro řízení frekvence sítě](https://hodinarium.eu/img/laplace/elektrarenske/elektrarna1c.jpg)](/img/laplace/elektrarenske/elektrarna1d.jpg)
 
-[![Hodiny Laplace pro řízení frekvence sítě](https://hodinarium.eu/img/laplace/elektrarenske/elektrarna1a.jpg)](img/laplace/elektrarenske/elektrarna1b.jpg)
+[![Hodiny Laplace pro řízení frekvence sítě](https://hodinarium.eu/img/laplace/elektrarenske/elektrarna1a.jpg)](/img/laplace/elektrarenske/elektrarna1b.jpg)
 
 ## Použití hodin Laplace v elektrárně pro řízení frekvence
 

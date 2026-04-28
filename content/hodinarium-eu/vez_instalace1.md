@@ -19,52 +19,52 @@ Petr Král
 
 ## Perná příprava
 
-[!](img/instalace1/f/foto_001.jpg)
+![](/img/instalace1/f/foto_001.jpg)
 
-[!](img/instalace1/f/foto_002.jpg)[!](img/instalace1/f/foto_003.jpg)
+![](/img/instalace1/f/foto_002.jpg)![](/img/instalace1/f/foto_003.jpg)
 
-[!](img/instalace1/f/foto_004.jpg)[!](img/instalace1/f/foto_005.jpg)
+![](/img/instalace1/f/foto_004.jpg)![](/img/instalace1/f/foto_005.jpg)
 
-[!](img/instalace1/f/foto_006.jpg)[!](img/instalace1/f/foto_007.jpg)
+![](/img/instalace1/f/foto_006.jpg)![](/img/instalace1/f/foto_007.jpg)
 
-[!](img/instalace1/f/foto_008.jpg)[!](img/instalace1/f/foto_009.jpg)
+![](/img/instalace1/f/foto_008.jpg)![](/img/instalace1/f/foto_009.jpg)
 
-[!](img/instalace1/f/foto_010.jpg)[!](img/instalace1/f/foto_011.jpg)
+![](/img/instalace1/f/foto_010.jpg)![](/img/instalace1/f/foto_011.jpg)
 
-[!](img/instalace1/f/foto_012.jpg)[!](img/instalace1/f/foto_015.jpg)
+![](/img/instalace1/f/foto_012.jpg)![](/img/instalace1/f/foto_015.jpg)
 
-[!](img/instalace1/f/foto_013.jpg)[!](img/instalace1/f/foto_014.jpg)
+![](/img/instalace1/f/foto_013.jpg)![](/img/instalace1/f/foto_014.jpg)
 
-[!](img/instalace1/f/foto_016.jpg)[!](img/instalace1/f/foto_018.jpg)
+![](/img/instalace1/f/foto_016.jpg)![](/img/instalace1/f/foto_018.jpg)
 
-[!](img/instalace1/f/foto_017.jpg)[!](img/instalace1/f/foto_019.jpg)
+![](/img/instalace1/f/foto_017.jpg)![](/img/instalace1/f/foto_019.jpg)
 
-[!](img/instalace1/f/foto_020.jpg)[!](img/instalace1/f/foto_021.jpg)
+![](/img/instalace1/f/foto_020.jpg)![](/img/instalace1/f/foto_021.jpg)
 
-[!](img/instalace1/f/foto_022.jpg)[!](img/instalace1/f/foto_023.jpg)
+![](/img/instalace1/f/foto_022.jpg)![](/img/instalace1/f/foto_023.jpg)
 
 * * *
 
 ## a takhle to dopadlo
 
-[!](img/vez/28_11_2010/foto_018.jpg)
+![](/img/vez/28_11_2010/foto_018.jpg)
 
-[!](img/vez/28_11_2010/foto_004.jpg)[!](img/vez/28_11_2010/foto_012.jpg)
+![](/img/vez/28_11_2010/foto_004.jpg)![](/img/vez/28_11_2010/foto_012.jpg)
 
-[!](img/vez/28_11_2010/foto_019.jpg)[!](img/vez/28_11_2010/foto_002.jpg)
+![](/img/vez/28_11_2010/foto_019.jpg)![](/img/vez/28_11_2010/foto_002.jpg)
 
-[!](img/vez/28_11_2010/foto_001.jpg)[!](img/vez/28_11_2010/foto_003.jpg)
+![](/img/vez/28_11_2010/foto_001.jpg)![](/img/vez/28_11_2010/foto_003.jpg)
 
-[!](img/vez/28_11_2010/foto_005.jpg)[!](img/vez/28_11_2010/foto_015.jpg)
+![](/img/vez/28_11_2010/foto_005.jpg)![](/img/vez/28_11_2010/foto_015.jpg)
 
-[!](img/vez/28_11_2010/foto_006.jpg)[!](img/vez/28_11_2010/foto_024.jpg)
+![](/img/vez/28_11_2010/foto_006.jpg)![](/img/vez/28_11_2010/foto_024.jpg)
 
-[!](img/vez/28_11_2010/foto_007.jpg)[!](img/vez/28_11_2010/foto_008.jpg)
+![](/img/vez/28_11_2010/foto_007.jpg)![](/img/vez/28_11_2010/foto_008.jpg)
 
-[!](img/vez/28_11_2010/foto_014.jpg)[!](img/vez/28_11_2010/foto_011.jpg)
+![](/img/vez/28_11_2010/foto_014.jpg)![](/img/vez/28_11_2010/foto_011.jpg)
 
-[!](img/vez/28_11_2010/foto_013.jpg)[!](img/vez/28_11_2010/foto_021.jpg)
+![](/img/vez/28_11_2010/foto_013.jpg)![](/img/vez/28_11_2010/foto_021.jpg)
 
-[!](img/vez/28_11_2010/foto_022.jpg)[!](img/vez/28_11_2010/foto_023.jpg)
+![](/img/vez/28_11_2010/foto_022.jpg)![](/img/vez/28_11_2010/foto_023.jpg)
 
-[!](img/vez/28_11_2010/foto_009.jpg)[!](img/vez/28_11_2010/foto_010.jpg)
+![](/img/vez/28_11_2010/foto_009.jpg)![](/img/vez/28_11_2010/foto_010.jpg)

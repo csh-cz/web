@@ -7,7 +7,7 @@ lastModified: "Wed, 26 Apr 2017 14:12:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:01.254Z"
 ---
-[!](img/pilovky/f/foto_0001.jpg)
+![](/img/pilovky/f/foto_0001.jpg)
 
 V roce 2014 se na Aukru prodaly pilové hodiny se samonivelačním fyzikálním kyvadlem. Prodejce uváděl, že se jedná o velmi zajímavé, staré, postříbřené, pilové hodiny, vyrobené kolem roku 1880 - 1900 v Anglii podle anglického patentu. Stroj je kvalitního provedení za sklem, se zvláštním těžkým kyvadlem, které má protizávaží nahoře. Díky tomuto provedení je jejich chod velmi pomalý, důstojný a klidný. Seřízení přesnosti se provádí malým závažím na závitu na kyvadle u spodní kuličky. Nezvykle se seřizují naopak jako u pendlovky. Hodiny jdou rychleji při šroubování závaží dolů, pomaleji při šroubování nahoru. Díky konstrukci kroku hodiny nejsou závislé na ideálně vodorovné ploše stolu, protože kyvadlo nekývá v klasických ložiskách, ale odvaluje se na čepech v půlkruhovém segmentu. Krokový mechanismus je za chodu pod sklem vidět. Výška hodin je 25 cm, průměr tubusu je 10,3 cm. Klikněte zde a uvidíte [hodiny v pohybu](https://www.youtube.com/watch?v=yUnEWZihKKg).
 
@@ -31,14 +31,14 @@ Myšlenka samonivelace vznikla ze snahy zmírnit požadavek na vodorovnost ploch
 
 Pokud nepředpokládáme velké náklony, postačí řešení ukázané na prvním obrázku dole. Osa kyvadla a kotvy se odvaluje po krátkém kruhovém oblouku. Jednoduché a funkční.
 
-[!](img/pilovky/f/foto_0003.jpg)
+![](/img/pilovky/f/foto_0003.jpg)
 
-[!](img/pilovky/f/foto_0004.jpg)
+![](/img/pilovky/f/foto_0004.jpg)
 
-[!](img/pilovky/f/foto_0005.jpg)
+![](/img/pilovky/f/foto_0005.jpg)
 
-[!](img/pilovky/f/foto_0006.jpg)
+![](/img/pilovky/f/foto_0006.jpg)
 
-[!](img/pilovky/f/foto_0007.jpg)
+![](/img/pilovky/f/foto_0007.jpg)
 
-[!](img/pilovky/f/foto_0008.jpg)
+![](/img/pilovky/f/foto_0008.jpg)

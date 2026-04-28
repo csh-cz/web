@@ -9,7 +9,7 @@ scrapedAt: "2026-04-27T17:36:30.255Z"
 ---
 Pokud někdo vystavuje starý věžní hodinový stroj, soustředí se většinou na vlastní rám, ve kterém může být podle okolností samostatný jicí stroj, někdy spolu s bicím strojem celých hodin případně bicím strojem čtvrťovým. To je nejzajímavější část. Věžní hodiny ovšem tvoří další soustavy převodů, které otáčení minutové hřídele jicího stroje převedou až na ciferníky. Teprve zde se k minutové hřídeli přidává hřídel hodinová a dají se tak pohánět obě rafie.
 
-Otáčení minutové hřídele se na různé strany rozvádí soustavou tyčí a převodů rozvodovky. Přímo v místě ciferníku jsou ručková soukolí. Ve Věžním muzejíčku je vystavena jedna rozvodovka a jedno ručkové soukolí z dílny Prokeš, i když patrně nepochází ze zámku Býchory jako ostatní části. [![rozbodobk Prokeš](/img/vez/bychory/prokes1873.jpg)](img/vez/bychory/f/prokes1873.jpg)
+Otáčení minutové hřídele se na různé strany rozvádí soustavou tyčí a převodů rozvodovky. Přímo v místě ciferníku jsou ručková soukolí. Ve Věžním muzejíčku je vystavena jedna rozvodovka a jedno ručkové soukolí z dílny Prokeš, i když patrně nepochází ze zámku Býchory jako ostatní části. [![rozbodobk Prokeš](/img/vez/bychory/prokes1873.jpg)](/img/vez/bychory/f/prokes1873.jpg)
 
 ## Rozvodovka
 
@@ -21,7 +21,7 @@ Na obrázku je ilustrační fotografie části rozvodů restaurovaného stroje P
 
 * * *
 
-[![ručkový převod 4/48](/img/vez/bychory/ruckova_prevodovka.jpg)](img/vez/bychory/f/ruckova_prevodovka.jpg)
+[![ručkový převod 4/48](/img/vez/bychory/ruckova_prevodovka.jpg)](/img/vez/bychory/f/ruckova_prevodovka.jpg)
 
 ## Ručkové soukolí
 
@@ -43,7 +43,7 @@ Pravý strojek se musí vypořádat s opačně točící minutovou hřídelí. T
 
 * * *
 
-[![rozvodovka s dvouchodým šroubem](/img/vez/bychory/rozvod_prevod.jpg)](img/vez/bychory/f/rozvod_prevod.jpg)
+[![rozvodovka s dvouchodým šroubem](/img/vez/bychory/rozvod_prevod.jpg)](/img/vez/bychory/f/rozvod_prevod.jpg)
 
 ## Rozvodovka se šnekovým převodem
 

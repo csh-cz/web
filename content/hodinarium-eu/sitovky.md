@@ -17,12 +17,12 @@ Frekvence 50 Hz je pro mechanické hodiny dost vysoká. Proto jsou synchronní m
 
 **Anglické hodiny METAMEC Dereham, Norfolk** - 50 léta minulého století
 
-[![Svítící elektrický synchronní budík METAMEC, Dereham, Norfolk, 50 léta minulého století](/img/elektrika/metamec/metamec_001.jpg)](img/elektrika/metamec/metamec1.jpg)
+[![Svítící elektrický synchronní budík METAMEC, Dereham, Norfolk, 50 léta minulého století](/img/elektrika/metamec/metamec_001.jpg)](/img/elektrika/metamec/metamec1.jpg)
 
-[![Svítící elektrický synchronní budík METAMEC, Dereham, Norfolk, 50 léta minulého století](/img/elektrika/metamec/metamec_002.jpg)](img/elektrika/metamec/metamec2.jpg)[![Svítící elektrický synchronní budík METAMEC, Dereham, Norfolk, 50 léta minulého století](/img/elektrika/metamec/metamec_003.jpg)](img/elektrika/metamec/metamec3.jpg)
+[![Svítící elektrický synchronní budík METAMEC, Dereham, Norfolk, 50 léta minulého století](/img/elektrika/metamec/metamec_002.jpg)](/img/elektrika/metamec/metamec2.jpg)[![Svítící elektrický synchronní budík METAMEC, Dereham, Norfolk, 50 léta minulého století](/img/elektrika/metamec/metamec_003.jpg)](/img/elektrika/metamec/metamec3.jpg)
 
 [![Svítící elektrický synchronní budík METAMEC, Dereham, Norfolk, 50 léta minulého století](/img/elektrika/metamec/metamec_004.jpg)
-](img/elektrika/metamec/metamec4.jpg)*Obrázky se dají jednotlivě zvětšit*
+](/img/elektrika/metamec/metamec4.jpg)*Obrázky se dají jednotlivě zvětšit*
 
 **T**yto hodiny používají elektrickou síť trojím způsobem. Osvětlují okolí, udávají čas a hlasitě elektricky budí. Pocházejí z padesátých let minulého století. Datování se opírá o fakt, že budíky s osvětlením začala firma METAMEC v Derehamu vyrábět v roce 1952 a v roce 1962 již montovala modernější typ stroje SS, tedy Self-starting synchronous movement.
 
@@ -46,8 +46,8 @@ Rozmanitost hodin firmy METAMEC inspiruje k tvorbě specializovaných sbírek. I
 
 **H**odiny mohou mluvit z reproduktoru třeba i hlasem vašeho "oblíbeného politika". Jedná se totiž o hodiny vestavěné do "reprobedny". Termín Uhr-Lautsprecher lze možná přeložit i jako hodinotlampač nebo tlampačohodiny. Stačí připojit třeba k rozhlasu po drátě a můžete sledovat plynutí času během jeho projevu. Naštěstí i legendární "dráťák" vysílal hudbu. Za doprovodu linoucích se tónů by snad i hodinový stroj lépe snášel působení magnetického pole reproduktoru.
 
-[![Hodiny Rufa rok 1956](/img/elektrika/rufa1_n.jpg)](img/elektrika/rufa1.jpg)
+[![Hodiny Rufa rok 1956](/img/elektrika/rufa1_n.jpg)](/img/elektrika/rufa1.jpg)
 
-[![Hodiny Rufa rok 1956 - sysnchronní motor na 220 V](/img/elektrika/rufa3_n.jpg)](img/elektrika/rufa3.jpg)[![Hodiny Rufa rok 1956 - doplněn reproduktorem](/img/elektrika/rufa5_n.jpg)](img/elektrika/rufa5.jpg)
+[![Hodiny Rufa rok 1956 - sysnchronní motor na 220 V](/img/elektrika/rufa3_n.jpg)](/img/elektrika/rufa3.jpg)[![Hodiny Rufa rok 1956 - doplněn reproduktorem](/img/elektrika/rufa5_n.jpg)](/img/elektrika/rufa5.jpg)
 
 Náznak historie výrobce **Rufa Sprechanlagen, Dietze & Co Küps,Ofr.** najdete na firemní stránce [www.rufa.de](http://www.rufa.de/). V současné době má firma poněkud jiný výrobní program. Informace o výrobě hodin jsme zatím nenašli. Něco k tématu je i na stránkách **[rádiomusea](http://www.radiomuseum.org/dsp_hersteller_detail.cfm?company_id=8549)**.

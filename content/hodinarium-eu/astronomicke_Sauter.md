@@ -33,28 +33,28 @@ Výklopná páčka na třetím rameni umožňuje vynechat noční vypnutí. V t�
 
 I ve věžních hodinách mohly být vačky východu a západu Slunce. Jedno takové zažízení se dražilo na ebay.de v září 2020. Uvádíme několik fotofrafií z aukce pro představu.
 
-[!](img/astronomicke/vezni_signalni/f/foto_0001.jpg)
+![](/img/astronomicke/vezni_signalni/f/foto_0001.jpg)
 
-[!](img/astronomicke/vezni_signalni/f/foto_0002.jpg)
+![](/img/astronomicke/vezni_signalni/f/foto_0002.jpg)
 
-[!](img/astronomicke/vezni_signalni/f/foto_0003.jpg)
+![](/img/astronomicke/vezni_signalni/f/foto_0003.jpg)
 
-[!](img/astronomicke/vezni_signalni/f/foto_0004.jpg)
+![](/img/astronomicke/vezni_signalni/f/foto_0004.jpg)
 
-[!](img/astronomicke/vezni_signalni/f/foto_0005.jpg)
+![](/img/astronomicke/vezni_signalni/f/foto_0005.jpg)
 
-[!](img/astronomicke/vezni_signalni/f/foto_0006.jpg)
+![](/img/astronomicke/vezni_signalni/f/foto_0006.jpg)
 
-[!](img/astronomicke/vezni_signalni/f/foto_0007.jpg)
+![](/img/astronomicke/vezni_signalni/f/foto_0007.jpg)
 
-[!](img/astronomicke/vezni_signalni/f/foto_0008.jpg)
+![](/img/astronomicke/vezni_signalni/f/foto_0008.jpg)
 
-[!](img/astronomicke/vezni_signalni/f/foto_0009.jpg)
+![](/img/astronomicke/vezni_signalni/f/foto_0009.jpg)
 
-[!](img/astronomicke/vezni_signalni/f/foto_0010.jpg)
+![](/img/astronomicke/vezni_signalni/f/foto_0010.jpg)
 
-[!](img/astronomicke/vezni_signalni/f/foto_0011.jpg)
+![](/img/astronomicke/vezni_signalni/f/foto_0011.jpg)
 
-[!](img/astronomicke/vezni_signalni/f/foto_0012.jpg)
+![](/img/astronomicke/vezni_signalni/f/foto_0012.jpg)
 
 Text a foto Petr Král a ebay.de

@@ -33,9 +33,9 @@ Sluneční hodiny symbolizují sepětí člověka s přírodou. Proto jsem rád,
 
 **Dodatek srpen 2009.** Nevím, zda remcání pomohlo, ale nyní již u Strážce času dvě vysvětlující tabulky jsou.
 
-[![Vysvětlující tTabulka u Strážce času](/img/slunecni/tabulka_svetlonos1.jpg)](img/slunecni/f/tabulka_svetlonos1.jpg)
+[![Vysvětlující tTabulka u Strážce času](/img/slunecni/tabulka_svetlonos1.jpg)](/img/slunecni/f/tabulka_svetlonos1.jpg)
 
-[![Vysvětlující tTabulka u Strážce času](/img/slunecni/tabulka_svetlonos2.jpg)](img/slunecni/f/tabulka_svetlonos2.jpg)
+[![Vysvětlující tTabulka u Strážce času](/img/slunecni/tabulka_svetlonos2.jpg)](/img/slunecni/f/tabulka_svetlonos2.jpg)
 
 Tabulky jednak uvádějí základní informace o "největších slunečních horizontálních hodinách v České republice s ciferníkem 20 x 21 m vybudovaných v Sezimově Ústí v roce 2005. Hodiny se nacházejí ve výšce 412 , n.m. a ukazují pravý sluneční čas odpovídající poloze 14° 41' východní zeměpisné délky a 49° 24' severní šířky.
 

@@ -31,19 +31,19 @@ Nalezené součásti byly nejprve rozneseny po místnosti. Vybrány byly části
 
 začíná skládačka
 
-[!](img/vezni/sobeslav/fenix/fenix_001.jpg)
+![](/img/vezni/sobeslav/fenix/fenix_001.jpg)
 
-[!](img/vezni/sobeslav/fenix/fenix_002.jpg)[!](img/vezni/sobeslav/fenix/fenix_003.jpg)
+![](/img/vezni/sobeslav/fenix/fenix_002.jpg)![](/img/vezni/sobeslav/fenix/fenix_003.jpg)
 
-[!](img/vezni/sobeslav/fenix/fenix_004.jpg)[!](img/vezni/sobeslav/fenix/fenix_005.jpg)
+![](/img/vezni/sobeslav/fenix/fenix_004.jpg)![](/img/vezni/sobeslav/fenix/fenix_005.jpg)
 
-[!](img/vezni/sobeslav/fenix/fenix_007.jpg)[!](img/vezni/sobeslav/fenix/fenix_006.jpg)
+![](/img/vezni/sobeslav/fenix/fenix_007.jpg)![](/img/vezni/sobeslav/fenix/fenix_006.jpg)
 
-[!](img/vezni/sobeslav/fenix/fenix_008.jpg)[!](img/vezni/sobeslav/fenix/fenix_009.jpg)
+![](/img/vezni/sobeslav/fenix/fenix_008.jpg)![](/img/vezni/sobeslav/fenix/fenix_009.jpg)
 
-[!](img/vezni/sobeslav/fenix/fenix_010.jpg)[!](img/vezni/sobeslav/fenix/fenix_011.jpg)
+![](/img/vezni/sobeslav/fenix/fenix_010.jpg)![](/img/vezni/sobeslav/fenix/fenix_011.jpg)
 
-[!](img/vezni/sobeslav/fenix/fenix_012.jpg)
+![](/img/vezni/sobeslav/fenix/fenix_012.jpg)
 
 prach jsi a v prach se obrátíš ?
 

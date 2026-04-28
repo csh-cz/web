@@ -18,7 +18,7 @@ scrapedAt: "2026-04-27T17:36:38.852Z"
 
 V roce 1716 byl nově vyroben zvon Umíráček.
 
-[![rekvírování](/img/vez/zvony/rekvirovani.jpg)](img/vez/zvony/f/rekvirovani.jpg)**Z**vony svým hlasem určovaly rytmus života města. Nápisy na nich často nesou poselství nabádající k pokoře. Lidé však pokoru před zvony necítili. Během 1. světové války byly k válečným účelům **zrekvírovány 4 zvony**, uchoval se jen Velký (Petr Pavel).
+[![rekvírování](/img/vez/zvony/rekvirovani.jpg)](/img/vez/zvony/f/rekvirovani.jpg)**Z**vony svým hlasem určovaly rytmus života města. Nápisy na nich často nesou poselství nabádající k pokoře. Lidé však pokoru před zvony necítili. Během 1. světové války byly k válečným účelům **zrekvírovány 4 zvony**, uchoval se jen Velký (Petr Pavel).
 
 Citujme z listu, který je uložen u zachovaného úlomku Cerazkého zvonu:
 
@@ -31,7 +31,7 @@ Zajímavé je, že polovina vojáků si dává za odměnu cigárko.
 
 * * *
 
-[![Zvon Sv. Václav](/img/vez/zvony/f/sv_vaclav.jpg)](img/vez/zvony/f/sv_vaclav.jpg)
+[![Zvon Sv. Václav](/img/vez/zvony/f/sv_vaclav.jpg)](/img/vez/zvony/f/sv_vaclav.jpg)
 
 Zvon Petr Pavel však dlouho osamocen nezůstal. Po válce byly vyrobeny a **v roce 1925** slavnostně vysvěceny zvony zasvěcené:
 
@@ -39,7 +39,7 @@ Zvon Petr Pavel však dlouho osamocen nezůstal. Po válce byly vyrobeny a **v r
 -   **Janu Nepomuckému** 599 kg
 -   **Panně Marii** 408 kg
 
-*[!](img/vez/zvony/f/sundavani_zvonu1942.jpg)*
+*![](/img/vez/zvony/f/sundavani_zvonu1942.jpg)*
 
 **N**a věži však nepobyly dlouho. Za II. světové války v roce **1941 byly také zrekvírovány** a opět byl ušetřen pouze zvon Petr Pavel, který je na věži dodnes. Válečné doby přečkal snad jen díky tomu, že byl opravdu ze všech zvonů největší, ale i on během doby své existence utrpěl mnohé šrámy Byl poprvé odlit v roce 1492. V 17.stol. byla věž zasažena bleskem a zvon byl poškozen. **V roce 1663 musel být tedy přelit, přičemž do zvonoviny byly přidány 3 mosazné dělové hlavně**. Rovněž po 1. světové válce byl opravován.
 
@@ -68,6 +68,6 @@ Velký cimbál je zvonovitý. Stáří odhaduje pan Votruba na 15-16 století. C
 
 Malý cimbál má průměr 57cm, výšku 26cm, sílu stěny 3,5cm. Cimbál je mísovitý. Jako datum odlití je uveden rok 1703. Cimbál nese nápis (ve volném překladu): "V BUDĚJOVICÍCH MNE ULIL SILVIUS KREYZ L.P. 1703" a dále 2 ozdobné reliéfní pásy a oblouny po obvodu. Tento zvonař působil v Linci. Je také tvůrcem největšího zvonu Bumerin na Černé věži v Českých Budějovicích. Hmotnost tohoto zvonu dosahuje 3429 kg průměr 181cm rok odlití 1723.
 
-[![cimbýly zdola](/img/vez/cimbaly/cimbaly_vez_zdola.jpg)](img/vez/cimbaly/f/cimbaly_vez_zdola.jpg)
+[![cimbýly zdola](/img/vez/cimbaly/cimbaly_vez_zdola.jpg)](/img/vez/cimbaly/f/cimbaly_vez_zdola.jpg)
 
-[![velký cimbál](/img/vez/cimbaly/cimbaly_vez_velky.jpg)](img/vez/cimbaly/f/cimbaly_vez_velky.jpg)[![malý cimbál](/img/vez/cimbaly/cimbaly_vez_maly.jpg)](img/vez/cimbaly/f/cimbaly_vez_maly.jpg)
+[![velký cimbál](/img/vez/cimbaly/cimbaly_vez_velky.jpg)](/img/vez/cimbaly/f/cimbaly_vez_velky.jpg)[![malý cimbál](/img/vez/cimbaly/cimbaly_vez_maly.jpg)](/img/vez/cimbaly/f/cimbaly_vez_maly.jpg)

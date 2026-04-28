@@ -7,7 +7,7 @@ lastModified: "Sun, 23 Apr 2017 09:11:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:30.563Z"
 ---
-[![Časový zámek T.FOX and CO](/img/decin/casove_zamky/f/T_FOX_a_CO_LTD.jpg)](img/decin/casove_zamky/f/T_FOX_a_CO_LTD.jpg)
+[![Časový zámek T.FOX and CO](/img/decin/casove_zamky/f/T_FOX_a_CO_LTD.jpg)](/img/decin/casove_zamky/f/T_FOX_a_CO_LTD.jpg)
 
 Hodiny, které nejsou primárně určeny pro zobrazování času se označují jako hodiny profesní. Zajímavou oblast tvoří i časové zámky. Moc se o nich nepíše, protože představují jeden z prvků zabezpečení trezorů. Úkolem časového zámku je zabránit otevření trezoru po určitý čas. Brání otevření trezoru například mimo pracovní dobu. Mohou bránit otevření bezprostředně po použití klíče. I časový interval 15 minut může stačit pro dojezd zásahové jednotky. Toto zařízení se spíše něž časový zámek nazývá "zpožďovač". Dnes se samozřejmě používají časové zámky elektronické. Ty mají někdy i další funkci také nazývanou Time Lock. Zámek se na nastavenou dobu uzamkne po třikrát chybně zadaném kódu.
 
@@ -23,7 +23,7 @@ Exponát Hodinária je funkční časový zámek Thomas Fox Mechanical Time Over
 
 ##
 
-## [![čtyřnásobný časový zámek](/img/decin/casove_zamky/f/trezorove_dvere.jpg)](img/decin/casove_zamky/f/trezorove_dvere.jpg)
+## [![čtyřnásobný časový zámek](/img/decin/casove_zamky/f/trezorove_dvere.jpg)](/img/decin/casove_zamky/f/trezorove_dvere.jpg)
 
 ## Odkazy
 

@@ -15,6 +15,6 @@ Digitalizace se u hodinek (tehdy kapesních) projevila již v roce 1885, kdy byl
 
 Hodinky se prodávaly na Aukru v dubnu 2009 a pocházely ze sbírky prodejce. Kromě výše uvedeného popisu hodinek prodejce dále uvedl: " Podobné hodinky jsem viděl prodávat jen jednou v životě a také jsem viděl pár kusů v muzeu v Schaffhausenu. U tohoto exempláře je navíc velmi zachovalý ciferník. "
 
-[!](img/hodinky/schaffhausen/digi1.jpg)
+![](/img/hodinky/schaffhausen/digi1.jpg)
 
-[!](img/hodinky/schaffhausen/digi3.jpg)
+![](/img/hodinky/schaffhausen/digi3.jpg)

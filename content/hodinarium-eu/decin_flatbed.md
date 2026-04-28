@@ -11,19 +11,19 @@ Půlový hodinový stroj s rámem typu flatbed. Strojů s tímto rámem je u ná
 
 ## Nálezový stav
 
-[!](img/decin/francie1770/f/foto_0001.jpg)
+![](/img/decin/francie1770/f/foto_0001.jpg)
 
-[!](img/decin/francie1770/f/foto_0002.jpg)[!](img/decin/francie1770/f/foto_0003.jpg)
+![](/img/decin/francie1770/f/foto_0002.jpg)![](/img/decin/francie1770/f/foto_0003.jpg)
 
-[!](img/decin/francie1770/f/foto_0004.jpg)[!](img/decin/francie1770/f/foto_0005.jpg)
+![](/img/decin/francie1770/f/foto_0004.jpg)![](/img/decin/francie1770/f/foto_0005.jpg)
 
-[!](img/decin/francie1770/f/foto_0006.jpg)[!](img/decin/francie1770/f/foto_0007.jpg)
+![](/img/decin/francie1770/f/foto_0006.jpg)![](/img/decin/francie1770/f/foto_0007.jpg)
 
-[!](img/decin/francie1770/f/foto_0008.jpg)[!](img/decin/francie1770/f/foto_0009.jpg)
+![](/img/decin/francie1770/f/foto_0008.jpg)![](/img/decin/francie1770/f/foto_0009.jpg)
 
-[!](img/decin/francie1770/f/foto_0010.jpg)[!](img/decin/francie1770/f/foto_0011.jpg)
+![](/img/decin/francie1770/f/foto_0010.jpg)![](/img/decin/francie1770/f/foto_0011.jpg)
 
-[!](img/decin/francie1770/f/foto_0012.jpg)
+![](/img/decin/francie1770/f/foto_0012.jpg)
 
 Po prvním postavení na pracovní stůl se ukázalo, že držák kyvadla je namontován obráceně (možná pro úsporu místa při dopravě ?), na krokovém kole je vylomený jeden kolík a spouštěcí páka bití je v nefunkční poloze. Na rámu jsou známky pozdějších přestaveb. Chybí kyvadlo a natahovací klika. Natahovací pastorek je naštěstí zachován. Chybí také několik šroubů a klínků. Zdálo se, že chybí celý převod na rafie. Prodejce však přibalil krabici součástek, ze kterých se podařilo tento převod složit. Tím bylo možné přesunout spouštěcí páku bití do správné polohy. Jak se stroj změnil můžete porovnat z následujících snímků.
 
@@ -33,24 +33,24 @@ Po prvním postavení na pracovní stůl se ukázalo, že držák kyvadla je nam
 
 Již se to klube....
 
-[!](img/decin/francie1770/f/foto__0001.jpg)
+![](/img/decin/francie1770/f/foto__0001.jpg)
 
-[!](img/decin/francie1770/f/foto__0002.jpg)[!](img/decin/francie1770/f/foto__0003.jpg)
+![](/img/decin/francie1770/f/foto__0002.jpg)![](/img/decin/francie1770/f/foto__0003.jpg)
 
-[!](img/decin/francie1770/f/foto__0004.jpg)
+![](/img/decin/francie1770/f/foto__0004.jpg)
 
 Tak kam?
 
-[!](img/decin/francie1770/f/foto_s0001.jpg)
+![](/img/decin/francie1770/f/foto_s0001.jpg)
 
-[!](img/decin/francie1770/f/foto_s0002.jpg)[!](img/decin/francie1770/f/foto_s0003.jpg)
+![](/img/decin/francie1770/f/foto_s0002.jpg)![](/img/decin/francie1770/f/foto_s0003.jpg)
 
-[!](img/decin/francie1770/f/foto_s0004.jpg)
+![](/img/decin/francie1770/f/foto_s0004.jpg)
 
 Prostě sem.
 
-[!](img/decin/francie1770/f/foto_f0001.jpg)
+![](/img/decin/francie1770/f/foto_f0001.jpg)
 
-[!](img/decin/francie1770/f/foto_f0002.jpg)[!](img/decin/francie1770/f/foto_f0003.jpg)
+![](/img/decin/francie1770/f/foto_f0002.jpg)![](/img/decin/francie1770/f/foto_f0003.jpg)
 
 19\. 3. 2016 byl stroj přesunut do Hodinária.

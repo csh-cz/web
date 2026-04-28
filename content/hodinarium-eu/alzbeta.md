@@ -25,19 +25,19 @@ Když se podíváme v archivu ČT na film " [Pražská telefonní časová služ
 
 * * *
 
-[!](img/alzbeta/f/Alzbeta2.jpg)
+![](/img/alzbeta/f/Alzbeta2.jpg)
 
 Řídící kyvadlové hodiny Alžběty a část řídícího systému.
 
-[!](img/alzbeta/f/Alzbeta1.jpg)
+![](/img/alzbeta/f/Alzbeta1.jpg)
 
 Reléový řadič Alžběty
 
-[!](img/alzbeta/f/Alzbeta4.jpg)
+![](/img/alzbeta/f/Alzbeta4.jpg)
 
 Mechanismus ovládání polohy čtecí fotobuňky.
 
-[!](img/alzbeta/f/Alzbeta5.jpg)
+![](/img/alzbeta/f/Alzbeta5.jpg)
 
 * * *
 

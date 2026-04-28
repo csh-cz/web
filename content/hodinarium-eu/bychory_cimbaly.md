@@ -15,17 +15,17 @@ Cimbály jsou poměrně vzácné. Nápis na nich uvádí, že byly **ulity ve sl
 
 ## Nálezový stav
 
-[!](img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_001.jpg)
+![](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_001.jpg)
 
-[!](img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_002.jpg)
+![](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_002.jpg)
 
-[!](img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_003.jpg)
+![](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_003.jpg)
 
-[!](img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_004.jpg)
+![](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_004.jpg)
 
-[!](img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_006.jpg)
+![](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_006.jpg)
 
-[!](img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_007.jpg)
+![](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_007.jpg)
 
 * * *
 

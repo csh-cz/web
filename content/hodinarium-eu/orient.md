@@ -28,7 +28,7 @@ Celý cyklus se tak prodloužil ze 4 na 400 let. To je ovšem příliš dlouhá 
 
 Naštěstí v běžném životě pro nastavení na rok mimo rozsah nemusíme tento výpočet absolvovat. Využijeme toho, že víme kolikátého je dnes a jaký je den v týdnu. Nastavíme číselník tak, aby den a datum odpovídal bez ohledu na zobrazovaný rok. V dalších měsících postupujeme jednoduše stejně nebo využijte rok zjištěný v předchozím kroku.
 
-[![Ciferník Orient CEU07005WX](/img/Orient/raketa.jpg)](img/Orient/raketa.jpg)
+[![Ciferník Orient CEU07005WX](/img/Orient/raketa.jpg)](/img/Orient/raketa.jpg)
 
 * * *
 

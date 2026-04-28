@@ -7,7 +7,7 @@ lastModified: "Wed, 26 Apr 2017 16:28:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:54.868Z"
 ---
-![vodní budík](https://hodinarium.eu/img/ujete/vodni_budik.jpg)
+![vodní budík](/img/ujete/vodni_budik.jpg)
 
 ![vodní budík](/img/ujete/vodni_budik2.jpg)**Vodní budík**
 

@@ -7,7 +7,7 @@ lastModified: "Mon, 01 Feb 2021 01:21:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:29.659Z"
 ---
-![Panel Lantime M100](https://hodinarium.eu/img/decin/NTP_Meinberg/panelM100.jpg)
+![Panel Lantime M100](/img/decin/NTP_Meinberg/panelM100.jpg)
 
 # Meinberg NTP LANTIME M100 GPS (ELX)
 
@@ -22,7 +22,7 @@ Všechny NTP servery Meinberg jsou založené na miniaturním průmyslovém PC t
 Jiné modely mají možnost přijímat časovou informaci z DCF77, GPS, GLONASS, Galileo, IRIG-A/B či jako řetězec na RS-232, PPS, .. Rovněž výstupy mohou být třeba řetězec na RS-232 (v několika různých formátech a s volitelnou rychlostí UARTu), NTP na Ethernetu, PTP na Ethernetu, pulse per second, pulse per minute, stabilní frekvence na rozhraní TTL (100 kHz, 1 MHz, 10 MHz, volně programovatelný syntezátor), generovaný signál IRIG-A/B, generovaný signál DCF77, normalizovaný signál GPS (vzniklý analogovou konverzí mezifrekvenčního vstupu 35 MHz zpět do základního pásma), "telekomikační" výstupy pro PDH/SDH, synchronizační signály pro studiovou audio a video techniku. [Podrobněji zde](http://support.fccps.cz/download/Meinberg/prehled/mbg-vystupy.htm).
 
 Model LANTIME M100 PS (ELX) je nejmenším ze NTP serverů firmy a je v možnostech omezen. Přesto by byl nejsilnějším článkem na panelu našich NTP serverů. Šíře nastavovacích možností na ilustračním obrázku webového přístupu ukazuje množství funkcí tohoto modelu. Server dále vytváří různé statistiky chodu a umožňuje chod monitorovat.
-[![Ovládací web zařízení](/img/decin/NTP_Meinberg/M100_web_control_m.jpg)](img/decin/NTP_Meinberg/M100_web_control.jpg)
+[![Ovládací web zařízení](/img/decin/NTP_Meinberg/M100_web_control_m.jpg)](/img/decin/NTP_Meinberg/M100_web_control.jpg)
 
 ## Odkazy
 

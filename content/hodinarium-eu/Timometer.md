@@ -7,7 +7,7 @@ lastModified: "Mon, 03 Nov 2025 17:07:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:20.481Z"
 ---
-![Pohled na ciferník](https://hodinarium.eu/img/Timometer/f/foto_0008.jpg)
+![Pohled na ciferník](/img/Timometer/f/foto_0008.jpg)
 
 V roce 2015 se na Aukru objevil Timometr a byl zakoupen soukromou osobou a umístěn v Hodináriu. Timometr se tak stane jedním ze dvou nejstarších "píchaček" v Hodináriu. AI k tomu dohledala následující informace:
 
@@ -45,24 +45,24 @@ Tyto přístroje představují počátky průmyslové evidence pracovní doby a 
 
 * * *
 
-[!](img/Timometer/f/foto_0001.jpg)
+![](/img/Timometer/f/foto_0001.jpg)
 
-[!](img/Timometer/f/foto_0010.jpg)
+![](/img/Timometer/f/foto_0010.jpg)
 
-[!](img/Timometer/f/foto_0002.jpg)[
-](/img/Timometer/f/foto_0010.jpg)[!](img/Timometer/f/foto_0007.jpg)
+![](/img/Timometer/f/foto_0002.jpg)[
+](/img/Timometer/f/foto_0010.jpg)![](/img/Timometer/f/foto_0007.jpg)
 
-[!](img/Timometer/f/foto_0008.jpg)
+![](/img/Timometer/f/foto_0008.jpg)
 
-[!](img/Timometer/f/foto_0009.jpg)
+![](/img/Timometer/f/foto_0009.jpg)
 
-[!](img/Timometer/f/foto_0003.jpg)
+![](/img/Timometer/f/foto_0003.jpg)
 
-[!](img/Timometer/f/foto_0004.jpg)
+![](/img/Timometer/f/foto_0004.jpg)
 
-[!](img/Timometer/f/foto_0005.jpg)
+![](/img/Timometer/f/foto_0005.jpg)
 
-[!](img/Timometer/f/foto_0006.jpg)
+![](/img/Timometer/f/foto_0006.jpg)
 
 * * *
 

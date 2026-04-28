@@ -11,11 +11,11 @@ Asi nejstarší švarcvaldky, co se objevily v poslední době na portálu [www.
 
 Datování hodin je snad až příliš optimistické. Podle literatury se sice v té době hodiny v jižním Bádensku již vyráběly, ale nejstarší zpráva o hodinářích je až z roku 1667. Podobné hodiny popisuje i pan S. Michal a datuje je na 18. až 19. století, případně R. Kynčl na konec 18. století.. Moje pochybnosti v datování stroje nemění fakt, že to jsou nejstarší švarcvaldky v našem virtuálním muzeu. Bohužel pouze virtuálně.
 
-[!](img/svarcvald/17stol5.jpg)
+![](/img/svarcvald/17stol5.jpg)
 
-[!](img/svarcvald/17stol1.jpg)[!](img/svarcvald/17stol2.jpg)
+![](/img/svarcvald/17stol1.jpg)![](/img/svarcvald/17stol2.jpg)
 
-[!](img/svarcvald/17stol4.jpg)[!](img/svarcvald/17stol3.jpg)
+![](/img/svarcvald/17stol4.jpg)![](/img/svarcvald/17stol3.jpg)
 
 Na obrázcích jsou hodiny z levého "bokorysu", "nárysu" a pravého "bokorysu", ze "zádorysu" a trochu z "půdorysu". "Skleporys" uveden není.
 

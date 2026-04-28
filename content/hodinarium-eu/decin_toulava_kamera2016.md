@@ -17,7 +17,7 @@ O času a lidské touze ho měřit už toho bylo napsáno hodně. Na zámku v D�
 
 V reportáži bylo vidět, že expozice vytvořená Českým spolkem horologickým se zaměřuje zejména na věžní hodinové stroje. Nevyhýbá se však ani spíše výtvarně pojatým novodobým exponátům včetně i výstavy nonsensů. V sezóně 2016 očekáváme účast dalších výtvarníků a možná se dočkáte i zvonařské expozice.
 
-[!](img/decin0/2015_08_04/f/foto_0002.jpg)
+![](/img/decin0/2015_08_04/f/foto_0002.jpg)
 
 ## Ohlas u diváků
 

@@ -11,9 +11,9 @@ Sezóna 2013 ve Věžním muzejíčku je opět ve znamení mnoha novinek. Vedle 
 
 Bohužel některé loňské exponáty již v expozici nebudou. To se týká repliky stroje s gravitačním krokem, který byl zapůjčen jen na sezónu 2012 (zde vidíte jak je důležité nás navštěvovat pravidelně) a hlavně gotické skříně, která bude restaurována a umístěna v místním muzeu.
 
-### [![čtvrtlojní](/img/ujete/cyklo1.jpg)](img/ujete/f/cyklo2.jpg)
+### [![čtvrtlojní](/img/ujete/cyklo1.jpg)](/img/ujete/f/cyklo2.jpg)
 
-[![barokní stroj - před dokončením restaurování](/img/vez/Kli/foto_0001.jpg)](img/vez/Kli/f/foto_0001.jpg) Hlavní hodinářské exponáty - deset věžních strojů
+[![barokní stroj - před dokončením restaurování](/img/vez/Kli/foto_0001.jpg)](/img/vez/Kli/f/foto_0001.jpg) Hlavní hodinářské exponáty - deset věžních strojů
 
 -   [starý soběslavský stroj](/clanky/vez1), "čtvrtek" (bicí stroj jednotlivých čtvrtí), ručkové převody
 -   současný věžní stroj [Elektročas 1959](/clanky/vez_elektrocas1959)
@@ -44,9 +44,9 @@ Bohužel některé loňské exponáty již v expozici nebudou. To se týká repl
 
 ## Leták 2012
 
-[![Leták 2012 1. strana](/img/vez/letak2012a_m.jpg)](img/vez/letak2012a.jpg)
+[![Leták 2012 1. strana](/img/vez/letak2012a_m.jpg)](/img/vez/letak2012a.jpg)
 
-[![Leták 2012 2. strana](/img/vez/letak2012b_m.jpg)](img/vez/letak2012b.jpg)
+[![Leták 2012 2. strana](/img/vez/letak2012b_m.jpg)](/img/vez/letak2012b.jpg)
 
 ## Listování návštěvní knihou 2011, 2012, ...
 

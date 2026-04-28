@@ -76,7 +76,7 @@ Modul ESP8266 prvotně obsluhuje WiFi komunikaci. Zde ještě obtížněji, prot
 
 Vnitřní web je základním způsobem ovládání hodin. Po zapnutí hodiny spustí WiFi s názvem sítě NTPH-xxxx, kde xxxx jsou poslední čtyři znaky MAC adresy WiFi adaptéru. Připojíte se na tuto síť bez hesla a v prohlížeči zadáte 192.168.4.1 Objeví se základní obrazovka jako na spodním obrázku. Přistoupíte k zadání způsobu získání aktuálního času, tedy obvykle k nastavení připojení k internetu.Modul provede Scan okolí a umožní vybrat síť a zadat heslo.
 
-### [!](img/NTPH/NTPH2.jpg)
+### ![](/img/NTPH/NTPH2.jpg)
 
 ### Připojení k internetu
 
@@ -96,7 +96,7 @@ Hodiny umožňují také autonomní provoz do okamžiku vypnutí. Pamatují si p
 
 O další volbě "Scan + WiFi" jsme již psali. Následuje různobarevné okno aktuálního stavu.
 
-### [!](img/NTPH/NTPH1.jpg)
+### ![](/img/NTPH/NTPH1.jpg)
 
 ### Okno aktuálního stavu
 

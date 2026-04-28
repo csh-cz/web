@@ -15,7 +15,7 @@ Elektrická energie se nejprve používala k vytahování závaží či k [osvě
 
 Nejjednodušším případem je použití elektrického vypouštění na klasický věžní stoj. U stroje je krok nahrazen elektrickým systémem ovládaným matičními hodinami. Soukolí věžního stroje se po vypuštění pootočí o jednu minutu případně půlminutu. Takovým případem je i tento exponát [Hodinária](/clanky/decin_vypousteny). Podobné úpravy popisuje již Atlas věžních hodin z roku 1894. Curt Dietzschold (\* 1852 in Dresden; † 5. Mai 1922 in Karlstein an der Thaya) zde uvádí několik mechanismů vypouštění mechanického věžního stroje. Výběr konstrukcí je na dalším obrázku (po kliknutí celý výkres).
 
-[![Výběz z Atlasu 1884 Curt Dietzschold](/img/decin/elektrika/Tab12_1.jpg)](img/decin/elektrika/tab12b.jpg)
+[![Výběz z Atlasu 1884 Curt Dietzschold](/img/decin/elektrika/Tab12_1.jpg)](/img/decin/elektrika/tab12b.jpg)
 
 V odborném časopisu Die Uhrmacherwoche z roku 1924 je příklad jiného řešení. Další informace na [www.horology-mosel.de](http://www.horology-mosel.de)
 

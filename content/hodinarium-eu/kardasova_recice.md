@@ -41,7 +41,7 @@ V roce 1822 byla v Jindřichově Hradci zbořena městská brána, zvaná Pražs
 
 * * *
 
-[![radnice s hodinami v Kardašově Řečici](/img/KardasovaRecice/f/0001.jpg)](img/KardasovaRecice/f/foto_0002.jpg)
+[![radnice s hodinami v Kardašově Řečici](/img/KardasovaRecice/f/0001.jpg)](/img/KardasovaRecice/f/foto_0002.jpg)
 
 ## Nová etapa
 
@@ -57,10 +57,10 @@ Natahovací pastorky jsou posuvné po svých hřídelích, takže v době chodu 
 
 ## Několik fotografií po restaurování
 
-[!](img/KardasovaRecice/f/foto_0003.jpg)
+![](/img/KardasovaRecice/f/foto_0003.jpg)
 
-[!](img/KardasovaRecice/f/foto_0004.jpg)
+![](/img/KardasovaRecice/f/foto_0004.jpg)
 
-[!](img/KardasovaRecice/f/foto_0005.jpg)
+![](/img/KardasovaRecice/f/foto_0005.jpg)
 
-[!](img/KardasovaRecice/f/foto_0006.jpg)
+![](/img/KardasovaRecice/f/foto_0006.jpg)

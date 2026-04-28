@@ -19,36 +19,36 @@ Hezký obrázek ze začátku 18. stol. před přestavbou zámku.
 
 ## Několik pohlednic
 
-[!](img/decin/pohledy/f/foto_0001.jpg)
+![](/img/decin/pohledy/f/foto_0001.jpg)
 
-[!](img/decin/pohledy/f/foto_0002.jpg)
+![](/img/decin/pohledy/f/foto_0002.jpg)
 
-[!](img/decin/pohledy/f/foto_0003.jpg)
+![](/img/decin/pohledy/f/foto_0003.jpg)
 
-[!](img/decin/pohledy/f/foto_0004.jpg)
+![](/img/decin/pohledy/f/foto_0004.jpg)
 
-[!](img/decin/pohledy/f/foto_0005.jpg)
+![](/img/decin/pohledy/f/foto_0005.jpg)
 
-[!](img/decin/pohledy/f/foto_0006.jpg)
+![](/img/decin/pohledy/f/foto_0006.jpg)
 
-[!](img/decin/pohledy/f/foto_0007.jpg)
+![](/img/decin/pohledy/f/foto_0007.jpg)
 
-[!](img/decin/pohledy/f/foto_0008.jpg)
+![](/img/decin/pohledy/f/foto_0008.jpg)
 
-[!](img/decin/pohledy/f/foto_0009.jpg)
+![](/img/decin/pohledy/f/foto_0009.jpg)
 
-[!](img/decin/pohledy/f/foto_0010.jpg)
+![](/img/decin/pohledy/f/foto_0010.jpg)
 
-[!](img/decin/pohledy/f/foto_0011.jpg)
+![](/img/decin/pohledy/f/foto_0011.jpg)
 
-[!](img/decin/pohledy/f/foto_0012.jpg)
+![](/img/decin/pohledy/f/foto_0012.jpg)
 
-[!](img/decin/pohledy/f/foto_0013.jpg)
+![](/img/decin/pohledy/f/foto_0013.jpg)
 
-[!](img/decin/pohledy/f/foto_0014.jpg)
+![](/img/decin/pohledy/f/foto_0014.jpg)
 
-[!](img/decin/pohledy/f/foto_0015.jpg)
+![](/img/decin/pohledy/f/foto_0015.jpg)
 
-[!](img/decin/pohledy/f/foto_0016.jpg)
+![](/img/decin/pohledy/f/foto_0016.jpg)
 
-[!](img/decin/pohledy/f/foto_0017.jpg)
+![](/img/decin/pohledy/f/foto_0017.jpg)

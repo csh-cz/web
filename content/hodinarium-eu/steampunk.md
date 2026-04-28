@@ -25,24 +25,24 @@ Uvedené exponáty bohužel v muzejíčku neuvidíte. Pro rozšíření vaší p
 
 * * *
 
-[!](img/steampunk/f/foto_0001.jpg)
+![](/img/steampunk/f/foto_0001.jpg)
 
-[!](img/steampunk/f/foto_0002.jpg)[!](img/steampunk/f/foto_0003.jpg)
+![](/img/steampunk/f/foto_0002.jpg)![](/img/steampunk/f/foto_0003.jpg)
 
-[!](img/steampunk/f/foto_0004.jpg)[!](img/steampunk/f/foto_0005.jpg)
+![](/img/steampunk/f/foto_0004.jpg)![](/img/steampunk/f/foto_0005.jpg)
 
-[!](img/steampunk/f/foto_0006.jpg)[!](img/steampunk/f/foto_0007.jpg)
+![](/img/steampunk/f/foto_0006.jpg)![](/img/steampunk/f/foto_0007.jpg)
 
-[!](img/steampunk/f/foto_0008.jpg)[!](img/steampunk/f/foto_0009.jpg)
+![](/img/steampunk/f/foto_0008.jpg)![](/img/steampunk/f/foto_0009.jpg)
 
-[!](img/steampunk/f/foto_0010.jpg)[!](img/steampunk/f/foto_0011.jpg)
+![](/img/steampunk/f/foto_0010.jpg)![](/img/steampunk/f/foto_0011.jpg)
 
-[!](img/steampunk/f/foto_0012.jpg)[!](img/steampunk/f/foto_0013.jpg)
+![](/img/steampunk/f/foto_0012.jpg)![](/img/steampunk/f/foto_0013.jpg)
 
-[!](img/steampunk/f/foto_0014.jpg)[!](img/steampunk/f/foto_0015.jpg)
+![](/img/steampunk/f/foto_0014.jpg)![](/img/steampunk/f/foto_0015.jpg)
 
-[!](img/steampunk/f/foto_0017.jpg)[!](img/steampunk/f/foto_0018.jpg)
+![](/img/steampunk/f/foto_0017.jpg)![](/img/steampunk/f/foto_0018.jpg)
 
-[!](img/steampunk/f/foto_0019.jpg)[!](img/steampunk/f/foto_0020.jpg)
+![](/img/steampunk/f/foto_0019.jpg)![](/img/steampunk/f/foto_0020.jpg)
 
 Na internetu existuje mnoho dalších zdrojů. Za všechny [www.steampunker.de](http://www.steampunker.de/)

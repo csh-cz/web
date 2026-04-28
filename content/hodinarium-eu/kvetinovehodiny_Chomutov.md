@@ -13,23 +13,23 @@ Po konci druhé světové války došlo k nucenému vystěhování tehdejšího 
 
 Nedaleko místa kde byly dříve květinové hodiny dodnes stojí pomník, který má velmi zajímavou a pro naši zemi bohužel typickou historii. Jeho různé podoby jsou ostatně zachyceny na historických fotografiích, které jsou na konci tohoto článku. Původně to byl bronzový pomník císaře Josefa II. Ten byl v roce 1920 stržen českými vlastenci. Následně bylo místo upraveno jako památník obětem první světové války. Na soklu, který stojí dodnes byl vytesán německý nápis Für Euch (Za Vás) a nahoře umístěna socha schýleného vojáka s přilbou a kopím. Na čtyřech sloupcích lemujících pomník byla vytesána jména 460 padlých občanů Chomutova. Ani tento pomník nevydržel dlouho. Po druhé světové válce byl zničen a zůstal z něho jen sokl. Na ten postavili tehdejší vládci cementový jehlan ozdobený rudou pěticípou hvězdou a nápisem „Na věčnou paměť slavné rudé armádě osvoboditelce všech slovanských zemí od fašismu.“ Přišel rok 1989 a opět se měnil vzhled pomníku. Byla stržena rudá hvězda a místo původní desky s nápisem oslavujícím Rudou armádu byla umístěna nová deska opásaná ostnatým drátem. Tentokrát s nápisem „Obětem fašismu“. Jsem zvědavý, jak dlouho tato podoba vydrží. Přál bych si, aby již byla definitivní, ale příliš v to nevěřím.
 
-[!](img/Chomutov/f/foto_0001.jpg)
+![](/img/Chomutov/f/foto_0001.jpg)
 
 Chomutov
 
-[!](img/Chomutov/f/foto_0002.jpg)
+![](/img/Chomutov/f/foto_0002.jpg)
 
 Květinové hodiny a pomník 400 obětem první světové války - období protektorátu.
 
-[!](img/Chomutov/f/foto_0003.jpg)
+![](/img/Chomutov/f/foto_0003.jpg)
 
 Květinové hodiny a pomník rudé armády - 60.léta.
 
-[!](img/Chomutov/f/foto_0005.jpg)
+![](/img/Chomutov/f/foto_0005.jpg)
 
 Obrázek z Německa.
 
-[!](img/Chomutov/f/foto_0004.jpg)
+![](/img/Chomutov/f/foto_0004.jpg)
 
 Květinové hodiny ve městě Erlangen.
 

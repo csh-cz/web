@@ -7,7 +7,7 @@ lastModified: "Mon, 08 Dec 2025 20:44:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:21.730Z"
 ---
-![SSC-321 celkový pohled](https://hodinarium.eu/img/elektrika/Kappa/Kappa1.jpg)
+![SSC-321 celkový pohled](/img/elektrika/Kappa/Kappa1.jpg)
 
 # KAPPA – výrobce námořních hodin master-slave
 

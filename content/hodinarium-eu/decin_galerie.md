@@ -14,7 +14,7 @@ scrapedAt: "2026-04-27T17:36:24.180Z"
 !
 [![www.orloj.eu](/img/banery/apo_11midi.gif)](http://www.orloj.eu/)
 !
-[!](https://www.facebook.com/Hodin%C3%A1rium-%C4%8Cesk%C3%BD-spolek-horologick%C3%BD-169939123371944)
+![](https://www.facebook.com/Hodin%C3%A1rium-%C4%8Cesk%C3%BD-spolek-horologick%C3%BD-169939123371944)
 !
 
 !
@@ -70,13 +70,13 @@ Zapůjčeny pro sezónu 2017 byly i plastiky z [kovářství Gibbus.](http://gib
 
 Humor zastupuje několik autorů. Nouzové zastavené času vytvořil pan Čejka ([www.sestka.com](http://www.sestka.com)), Vážený čas čas pan Petr Král, úžasné fotokoláže autor s pseudonymem aTeo ([www.ateo.cz](http://www.ateo.cz)) a další.
 
-[![Hodiny Achrer 85](/img/Achrer/2strany2.jpg)](img/Achrer/2strany2.jpg)
+[![Hodiny Achrer 85](/img/Achrer/2strany2.jpg)](/img/Achrer/2strany2.jpg)
 
-[![Zdeněk Legner hodiny](/img/decin/galerie/Lenger.jpg)](img/decin/galerie/Lenger_b.jpg)[![Nouzové zastavení času](/img/decin/galerie/nouzove_zastaveni_casu.jpg)](img/decin/galerie/nouzove_zastaveni_casu.jpg)
+[![Zdeněk Legner hodiny](/img/decin/galerie/Lenger.jpg)](/img/decin/galerie/Lenger_b.jpg)[![Nouzové zastavení času](/img/decin/galerie/nouzove_zastaveni_casu.jpg)](/img/decin/galerie/nouzove_zastaveni_casu.jpg)
 
-[![vážené hodiny](/img/nonsens2015/foto_0000.jpg)](img/nonsens2015/f/foto_0000.jpg)[![pivní hodiny aTeo](/img/nonsens2015/aTeo/f/foto_0001.jpg)](img/nonsens2015/aTeo/f/foto_0001.jpg)
+[![vážené hodiny](/img/nonsens2015/foto_0000.jpg)](/img/nonsens2015/f/foto_0000.jpg)[![pivní hodiny aTeo](/img/nonsens2015/aTeo/f/foto_0001.jpg)](/img/nonsens2015/aTeo/f/foto_0001.jpg)
 
-[![Kovaná plastika Gibbus](/img/decin/gibbus/gibbus1_m.jpg)](img/decin/gibbus/gibbus1.jpg)
+[![Kovaná plastika Gibbus](/img/decin/gibbus/gibbus1_m.jpg)](/img/decin/gibbus/gibbus1.jpg)
 
 * * *
 

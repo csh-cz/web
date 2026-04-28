@@ -7,7 +7,7 @@ lastModified: "Tue, 24 Nov 2020 02:06:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:14.599Z"
 ---
-![v popředí Staronová synagoga, v pozadí budova radnice s hodinami](https://hodinarium.eu/img/zidovske/staronova_synagoga.jpg)
+![v popředí Staronová synagoga, v pozadí budova radnice s hodinami](/img/zidovske/staronova_synagoga.jpg)
 
 # **Židovské hodiny z roku 1764**
 

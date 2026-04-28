@@ -44,7 +44,7 @@ Pro natažení se přeci jen používají větší proudy a je spínán obvod s 
 Na dalším obrázku je schéma neobvyklého elektrického **termo-pneumatického** pohonu, respektive natahovacího zařízení. Jde o jakýsi **odpařovací motor !!!** Kapalina (alkohol) v dolní části skleněného rotoru se zahřívá elektrickým topným tělesem a odpařuje se. Kondenzuje v horní části označené číslem 3. Časem kapalina převáží a rotor se pootočí, tím se opět dostane kapalina nad ohřívací těleso a děj se opakuje. Pozoruhodné. Německý patent 714893 z roku 1940 (bez záruky).
 !
 
-[!](img/elektrika/junhhans/PujaMantelClock2.jpg)[Video](https://www.facebook.com/hodinarium/videos/414060895997688/)
+![](/img/elektrika/junhhans/PujaMantelClock2.jpg)[Video](https://www.facebook.com/hodinarium/videos/414060895997688/)
 1 - síťový přívod 220 V
 2 - topné tělísko
 3 - skleněná trubička

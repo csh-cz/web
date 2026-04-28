@@ -59,8 +59,8 @@ Klasický bateriový Quartz stroj je doplněn převodem na střední 24 hodinov�
 
 Kde jinde naž na letištích je třeba získat informaci o čase v různých částach města. Často tak vznikají zajímavá seskupení hodin. Několik ukázek:
 
-[![pásmové hodiny na letištích](/img/pasmovky/letiste4.jpg)](img/pasmovky/letiste4.jpg)
+[![pásmové hodiny na letištích](/img/pasmovky/letiste4.jpg)](/img/pasmovky/letiste4.jpg)
 
-[![pásmové hodiny na letištích](/img/pasmovky/letiste1.jpg)](img/pasmovky/letiste1.jpg)[![pásmové hodiny na letištích](/img/pasmovky/letiste2.jpg)](img/pasmovky/letiste2.jpg)
+[![pásmové hodiny na letištích](/img/pasmovky/letiste1.jpg)](/img/pasmovky/letiste1.jpg)[![pásmové hodiny na letištích](/img/pasmovky/letiste2.jpg)](/img/pasmovky/letiste2.jpg)
 
-[![pásmové hodiny na letištích](/img/pasmovky/letiste3.jpg)](img/pasmovky/letiste3.jpg)
+[![pásmové hodiny na letištích](/img/pasmovky/letiste3.jpg)](/img/pasmovky/letiste3.jpg)

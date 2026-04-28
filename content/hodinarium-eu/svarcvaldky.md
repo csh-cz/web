@@ -112,14 +112,14 @@ V {} závorkách uvedena hloubka včetně bicího stroje, pokud byl vestavěn.
 
 **Několik odkazů na další informace:** (klikněta na ! Internet se však rychle mění, některé odkazy již nemusí fungovat. )
 
-[!](http://de.wikipedia.org/wiki/Schwarzwalduhr)Dělení švarcvaldek podle encyklopedie Wikipedia[
+![](http://de.wikipedia.org/wiki/Schwarzwalduhr)Dělení švarcvaldek podle encyklopedie Wikipedia[
 !](http://www.jockele.de/)Jockele !!!!!!!!!![
 !](http://www.faller-uhren.de/)a výroba pokračuje[
 !](http://www.antique-horology.org/_Editorial/BlackForestClocks/default.htm)Super muzeum[
 !](http://www.deutsches-uhrenmuseum.de/)Německé muzeum hodin[
 !](http://www.black-forest-clock.de/)Black-forest-clock.de[
-!](http://www.snetzle.de/termine/dauerausstellungschwarzwalduhr.html)Deutsches Uhrenmuseum Robert-Gerwig-Platz 1 78120 Furtwangen[!](http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html)museum - Heimat- und Uhrenmuseum Schwenningen[
-!](http://www.sankt-maergen.de/de/kultur/uhren.php?sid=&psid=&lang=de&rg=7)museum - Uhrenmuseum (die Anfänge der Schwarzwalduhr) St. Märgen[!](http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm)museum[
+!](http://www.snetzle.de/termine/dauerausstellungschwarzwalduhr.html)Deutsches Uhrenmuseum Robert-Gerwig-Platz 1 78120 Furtwangen![](http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html)museum - Heimat- und Uhrenmuseum Schwenningen[
+!](http://www.sankt-maergen.de/de/kultur/uhren.php?sid=&psid=&lang=de&rg=7)museum - Uhrenmuseum (die Anfänge der Schwarzwalduhr) St. Märgen![](http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm)museum[
 !](http://www.black-forest.org/)Black Forest Clock Association[
 !](http://www.schwarzwalduhren.com/)Josef Noe Schwarzwalduhren Köln[
 !](http://www.haus-der-schwarzwalduhren.de/)Adolf Herr[

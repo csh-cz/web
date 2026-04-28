@@ -27,7 +27,7 @@ Ze specializovaných a většinou soukromých aktivit je nutné jmenovat alespo�
 
 Ze zahraničních expozic věžních hodin jmenujme například K druhému typu muzeí, kdy se vystavují zejména stroje věžních hodin nebo jsou tyto stroje základem expozic patří některá zahraniční muzea, např. [Turmuhrenmuseum Bockenem](http://www.bockenem.de/tourismus/museum-der-zeit.html) založené v roce 1970 v prostorách továrny na věžní hodiny a slévárny zvonů JF Veule (cca 40 exponátů věžních hodin a zvonohra), muzeum [Roberta Trebina](http://www.trebinotowerclockmakers.com/museo-orologi) v italském Usciu.Shodou okolností existuje i nedaleké [Uhrenmuseum Karlstein](http://www.uhrenmuseum.at/) an der Thaya ([Film](http://www.youtube.com/watch?v=NtGAeJH4DdY)). Rozsáhlou internetovou prezentací zaujme sbírka amerického restaurátora Marka Franka [www.my-time-machines.net](http://www.my-time-machines.net/) Je jen škoda, že internetové prezentaci sbírek se naše muzea až tolik nevěnují. V projektu [esbirky.cz](http://esbirky.cz/)\- kulturní dědictví on line je zatím jen minimum exponátů. V srpnu 2013 bylo pod heslem hodiny uvedeno jen 19 exponátů , z toho čtyři byly z Věžního muzejíčka Soběslav.
 
-[![Sietl věž se strojem Howard](/img/vezni/sestava_howard.jpg)](img/vezni/sestava_howard.jpg)
+[![Sietl věž se strojem Howard](/img/vezni/sestava_howard.jpg)](/img/vezni/sestava_howard.jpg)
 
 ## Věžní muzea
 
@@ -35,31 +35,31 @@ Nejprve provedeme jakýsi krok stranou a upozorníme na vtipné vystavení staro
 
 Pro výstavní účely jsou historické věže různým způsobem upraveny. Někdy jsou razantně přestaveny, někdy jde jen o umožnění vstupu. Několik příkladů.
 
-### [![Jindřížská věž](/img/veze/Praha_Jindrizska_vez.jpg)](img/veze/f/Praha_Jindrizska_vez.jpg)[Přestavba Jindřišské věže - Praha](http://www.jindrisskavez.cz/)
+### [![Jindřížská věž](/img/veze/Praha_Jindrizska_vez.jpg)](/img/veze/f/Praha_Jindrizska_vez.jpg)[Přestavba Jindřišské věže - Praha](http://www.jindrisskavez.cz/)
 
 Jde patrně o nejnákladnější projekt přestavby věže v České republice. Tato věž je razantně k novému účelu upravena. Celý projekt je multifunkční a vynaloženým nákladům odpovídá i cena vstupného (90.- Kč). Do Jindřišské věže byla vestavěna nová ocelová konstrukce, jakási věž ve věži i s výtahem. V deseti patrech je umístěna recepce a wiskerie a kavárna, tři patra galerie, wc, muzeum, patra restaurace a patro se zvonicí s funkční zvonohrou dvaceti zvonů (Manoušek) a vyhlídkou. Nezbytnou součástí projektu je web věže [www.jindrisskavez.cz](http://www.jindrisskavez.cz/) a na něm umístěna virtuální prohlídka. Píše se, že cílem bylo "zpřístupnit a komerčně využít 400 let starou zvonici, tak aby vyhovovala návštěvníkům 3. tisíciletí a přitom respektovala přísné požadavky památkové péče kladené na tuto unikátní středověkou stavbu...". Jindřišská věž je příkladem mnohoúčelového nového využití věže s lehce potlačenou autenticitou a to přesto, že zejména v patrech s okny, kde jsou restaurace, bylo zařízení citlivě přizpůsobeno duchu středověku. Restaurace je pravděpodobně hlavním cílem přestavby. Projekt byl vybudován za účinné pomoci Magistrátu hl. m Prahy a mnoha dalších partnerů z řad institucí, církve, soukromých firem i jednotlivců.
 
-[![převody astrolábu po restaurování](/img/veze/prostejov.jpg)](img/veze/f/prostejov.jpg)
+[![převody astrolábu po restaurování](/img/veze/prostejov.jpg)](/img/veze/f/prostejov.jpg)
 
 ### [Radniční věž - Prostějov](http://www.orloj.eu/cs/prostejov.htm)
 
 Dalším příkladem razantně přestavěné věže je secesní věž v Prostějově. V roce 2011 město získalo dotaci z Regionálního operačního programu regionu soudržnosti Střední Morava ve výši cca 6 milionů Kč na realizaci projektu s názvem Prostějov - Historie a současnost města z radniční věže. Cílem projektu je zvýšení atraktivity města prostřednictvím zpřístupnění věže radnice a posílení cestovního ruchu a turismu ve městě. Ve vnitřních prostorách věže je umístěno několik stálých expozic vztahujících se k historii a současnosti města a k místnímu restaurovanému orloji. Současně je návštěvníkům věže umožněn výhled na město a jeho okolí z výšky cca 46 m i pomocí 4 instalovaných dalekohledů.
 
-[![virtuální prostějov](/img/veze/prostejov_prohlidka.jpg)](img/veze/f/prostejov_prohlidka.jpg)
+[![virtuální prostějov](/img/veze/prostejov_prohlidka.jpg)](/img/veze/f/prostejov_prohlidka.jpg)
 
 Ve věži je vystaven jako exponát kovaný kyvadlový stroj s vřetenovým krokem z jiné lokality.Součástí projektu je i virtuální prohlídka věže včetně kruhových rozhledů na město. Dostupné na webu a patrně i na CD. Na obrázku vlevo statický pohled prohlídku vstupní síně věže.
 
 ### [Týniště nad Orlicí](http://www.muzeum-tyniste.cz/)
 
-[![Týniště nad Orlocí - stěhování hodinového stroje](/img/veze/tyniste_n_o_stehovani_stroje.jpg)](img/veze/f/tyniste_n_o_stehovani_stroje.jpg)Mnohem skromněji působí projekt Spolku přátel města Týniště nad Orlicí, který má od roku 2010 v dlouhodobém užívání památku místního významu - vodárenskou věž. Věž byla 19. 6. 2010 slavnostně otevřena a v letních měsících roku 2010 v ní byla instalována expozice na téma vodárenské věže a zásobování města pitnou vodou. V první polovině roku 2011 došlo k rekonstrukci vnitřních prostor věže z dotace poskytnuté SZIF, DSO Poorlicko a Městem Týniště nad Orlicí. 9. 6. 2011 byla věž po vnitřní rekonstrukci znovu nově otevřena vernisáží výstavy POCTA TÝNIŠŤSKÝM MALÍŘŮM. Do vodárenské věže byl přestěhován restaurovaný hodinový stroj a celá expozice je stále doplňována z darů a zápůjček místních občanů.
+[![Týniště nad Orlocí - stěhování hodinového stroje](/img/veze/tyniste_n_o_stehovani_stroje.jpg)](/img/veze/f/tyniste_n_o_stehovani_stroje.jpg)Mnohem skromněji působí projekt Spolku přátel města Týniště nad Orlicí, který má od roku 2010 v dlouhodobém užívání památku místního významu - vodárenskou věž. Věž byla 19. 6. 2010 slavnostně otevřena a v letních měsících roku 2010 v ní byla instalována expozice na téma vodárenské věže a zásobování města pitnou vodou. V první polovině roku 2011 došlo k rekonstrukci vnitřních prostor věže z dotace poskytnuté SZIF, DSO Poorlicko a Městem Týniště nad Orlicí. 9. 6. 2011 byla věž po vnitřní rekonstrukci znovu nově otevřena vernisáží výstavy POCTA TÝNIŠŤSKÝM MALÍŘŮM. Do vodárenské věže byl přestěhován restaurovaný hodinový stroj a celá expozice je stále doplňována z darů a zápůjček místních občanů.
 
 Několik podobných "malých" projektů najdeme i u sousedů v Německu či Rakousku. Většinou jde o drobné expozice ve věžích případně v celém kostele přístupné pouze na vyžádání. Vystavené exponáty jsou většinou předměty nalezené ve věži (hodinové stroje či zvony) nebo památky místního významu. Příkladem může být [Warendorf](https://www.warendorf.de/bildung-kultur/museen-in-warendorf/turmmuseum.html) nebo [Turmmuseum Pillichsdorf](https://www.weinviertel.at/ausflug-und-freizeit/a-pfarrkirche-st-martin-u-turmmuseum-pillichsdorf) V druhém případě jde o malé věžní muzeum v 500 let staré kostelní věži farního kostela sv. Martina. Bylo založena v roce 1984 a od roku 1987 se rozšířilo o druhé podlaží věže. Po točitých schodech se dostanete do dvou místností, kde je více než 130 exponátů z oborů: geologie, prehistorie a rané historie, středověk i moderní doby. Mezi nejvýznamnější exponáty patří zrekonstruovaný předmět z vykopávek z počátku doby železné (doba halštatská, asi 650 př. nl ) a zrenovovaný barokní hodinový stroj z roku 1762. Větších věžních muzeí zaměřených na technologii najdeme jen několik. Na prvním místě uveďme již vzpomínaný Gdaňsk.
 
 ### Muzeum Zegarów Wieżowych Gdaňsk
 
-[![Výstava Gdaňsk](/img/veze/gdansk1.jpg)](img/veze/f/gdansk1.jpg)
+[![Výstava Gdaňsk](/img/veze/gdansk1.jpg)](/img/veze/f/gdansk1.jpg)
 
-[![Výstava Gnaňsk](/img/veze/gdansk2.jpg)](img/veze/f/gdansk2.jpg)
+[![Výstava Gnaňsk](/img/veze/gdansk2.jpg)](/img/veze/f/gdansk2.jpg)
 
 Toto muzeum mělo ještě nedávno velice působivou internetovou prezentaci včetně virtuální procházky po expozici. V roce 2006 vypukl v kostele požár a muzeum bylo uzavřeno. Muzeum však snad dále existuje, jen asi nemá vlastní prezentaci.
 Nalezené odkazy:
@@ -72,9 +72,9 @@ Muzeum sídlí ve věži kostela sv. Kateřiny. Jedná se o pobočku Historické
 
 Věžní hodinářské museum bylo založeno v roce 1996. Naštěstí požár, který vypukl v kostele 22. května 2006, měl za následek pouze drobné poškozením exponátů muzea převážně od vody použité k hašení. Požár však vážně poškodil věž. Během rekonstrukce věže bylo muzeum uzavřeno a probíhaly opravy a údržba exponátů. Před opětovným otevřením byla uspořádána [výstava](http://manager.money.pl/galerie/ponowne-otwarcie-muzeum-zegarow-wiezowych-g560057.html), ze které jsou vystavené fotografie. Mimo jiné dokazují, jak působivá je hra světla na starých exponátech a cihlových zdech.Jako raritu je třeba uvést, že zde jsou od roku 2011 vystaveny pulsarové hodiny, které jako časovou základnu používají impulsy vysílané pulsary.
 
-### [!](img/Mindelheim/f/foto_0014.jpg)
+### ![](/img/Mindelheim/f/foto_0014.jpg)
 
-[!](img/Mindelheim/f/foto_0012.jpg)[Mindelheim](http://www.mindelheim.de/content/view/710/755/)
+![](/img/Mindelheim/f/foto_0012.jpg)[Mindelheim](http://www.mindelheim.de/content/view/710/755/)
 
 Rozsáhlé muzeum věžních hodin v bývalém kostele sv. Silvestra bylo založeno v roce 1979 učitelem Wolgangem Vogtem. V současné době vystavuje asi 50 věžních hodin od 30 výrobců z let 1562 - 1933. Kurátor a majitel sbírá věžní hodiny už cca 35 let. Říká, že pokud na ně má, tak si je koupí sám a pokud jsou drahé zakoupí je Město. Město také hradí i provoz muzea.
 
@@ -86,9 +86,9 @@ Muzeum s podobným zájmem jako naše Hodinárium. Zajímá se zejména o věžn
 
 V oblasti hlavních a signálních kyvadlových hodin jsou vystaveny kromě německých i anglické a francouzské hodiny. Vystaveny jsou i časové ústředny, píchačky a mnoho podružných hodin. Nechybí ani píchačky či časová razítka.
 
-### [![Waldmunchen](/img/veze/waldmunchen.jpg)](img/veze/f/waldmunchen.jpg)[Waldmünchen](http://www.waldmuenchen.de/turm_etagen.html)
+### [![Waldmunchen](/img/veze/waldmunchen.jpg)](/img/veze/f/waldmunchen.jpg)[Waldmünchen](http://www.waldmuenchen.de/turm_etagen.html)
 
-Malé věžní muzeum je také ve Waldmünchenu. První zmínky městě jsou z roce 1240. Dnes má 7 097 obyvatel. Je vzdálené pouze 16 km od Klenčí pod Čerchovem (od hraničního přechodu Lísková je to cca 6 km pěšky). Ve městě se nachází kostel sv. Štěpána s věží. První zmínka o věži je kolem roku 1492. Věž byla nejprve gotická, v 17. stol. byla přestavěna v barokním stylu. Význam věže byl „klasický“, hlásný dohlížel na okolí a ohlašoval blížící se nebezpečí – oheň, nebo nepřítele. Proto také věž patřívala městu nikoli farnosti. Hlásný byl ve věži do roku 1923. Jeho funkci mu pomáhaly plnit i zvony, které sice byly v době válek rekvírovány, ale v roce 1949 byly instalovány 4 nové zvony – všechny zasvěcené sv. Štěpánu. Původně byla zvonice v 5. patře věže, ale nyní je z důvodu lepší slyšitelnosti zvonů v 7. patře místo původního byt hlásného. [![Turmuhr Nickelsdorf Bgld., Anfang 18.Jh.;Sammlung Dr. Julius Brachetka](/img/veze/Komzak.jpg)](img/veze/f/Komzak.jpg)
+Malé věžní muzeum je také ve Waldmünchenu. První zmínky městě jsou z roce 1240. Dnes má 7 097 obyvatel. Je vzdálené pouze 16 km od Klenčí pod Čerchovem (od hraničního přechodu Lísková je to cca 6 km pěšky). Ve městě se nachází kostel sv. Štěpána s věží. První zmínka o věži je kolem roku 1492. Věž byla nejprve gotická, v 17. stol. byla přestavěna v barokním stylu. Význam věže byl „klasický“, hlásný dohlížel na okolí a ohlašoval blížící se nebezpečí – oheň, nebo nepřítele. Proto také věž patřívala městu nikoli farnosti. Hlásný byl ve věži do roku 1923. Jeho funkci mu pomáhaly plnit i zvony, které sice byly v době válek rekvírovány, ale v roce 1949 byly instalovány 4 nové zvony – všechny zasvěcené sv. Štěpánu. Původně byla zvonice v 5. patře věže, ale nyní je z důvodu lepší slyšitelnosti zvonů v 7. patře místo původního byt hlásného. [![Turmuhr Nickelsdorf Bgld., Anfang 18.Jh.;Sammlung Dr. Julius Brachetka](/img/veze/Komzak.jpg)](/img/veze/f/Komzak.jpg)
 
 První doložitelná zpráva o hodinách na věži je Merianova rytina z roku 1644. Ve 20. století se hodiny na věži „modernizovaly“. Mechanické hodiny byly ve věži do roku 1983. V současné době je ve věži muzeum hodin. Na jednotlivých poschodích je umístěno 16 strojů věžních hodin pocházejících z rozmezí let 1600 – 1920. Vlastní mechanický stroj již se ve věži nepoužívá, nahradila ho elektronika s dálkovým řízením.
 

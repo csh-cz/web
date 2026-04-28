@@ -7,7 +7,7 @@ lastModified: "Thu, 27 Apr 2017 23:23:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:27.878Z"
 ---
-[![Kostel Zlaté Hory](/img/vez/ZlateHory/kostel_Zlate_Hory.jpg)](img/vez/ZlateHory/f/kostel_Zlate_Hory.jpg)
+[![Kostel Zlaté Hory](/img/vez/ZlateHory/kostel_Zlate_Hory.jpg)](/img/vez/ZlateHory/f/kostel_Zlate_Hory.jpg)
 
 Hodinářská expozice byly rozšířena o zapůjčený barokní kovaný čtvrťový stroj pocházející snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách. Restaurování započalo 7.5.2012. Miniaturní rozměry stroje ( 30 x 21 x 29 cm) stroje postačovaly pro pohon jednoho ciferníku.
 
@@ -17,11 +17,11 @@ Stroj byl stavěn nejméně ve dvou etapách a následně opravován. První eta
 
 Kola jsou železná s výjimkou mosazného krokového kola a mezikola čtvrťového bití. Na obou bicích strojích jsou dodatečně namontovány novodobé mosazné větrníky. Pastorek bití celých hodin je vyměněn. Zuby zejména na pastorkách jsou značně probroušeny. Bicí páky chybí, nezachovalo se ani kyvadlo. Podle počtu zubů jicího stroje se zdá, že kyvadlo bylo cca 90 cm dlouhé. V nálezovém stavu byl stroj zablokován nesprávně vloženou spouštěcí pákou čtvrťového bití.
 
-[!](img/vez/ZlateHory/f/foto_0001.jpg)
+![](/img/vez/ZlateHory/f/foto_0001.jpg)
 
-[!](img/vez/ZlateHory/f/foto_0007.jpg)[!](img/vez/ZlateHory/f/foto_0002.jpg)
+![](/img/vez/ZlateHory/f/foto_0007.jpg)![](/img/vez/ZlateHory/f/foto_0002.jpg)
 
-[!](img/vez/ZlateHory/f/foto_0003.jpg)[!](img/vez/ZlateHory/f/foto_0005.jpg)
+![](/img/vez/ZlateHory/f/foto_0003.jpg)![](/img/vez/ZlateHory/f/foto_0005.jpg)
 
 ## Historie hodin
 

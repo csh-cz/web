@@ -7,7 +7,7 @@ lastModified: "Sat, 11 Jun 2022 09:27:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:42.058Z"
 ---
-[![Pulsynetic 1935](/img/elektrika/pulsynetic/p1959_3_m.jpg)](img/elektrika/pulsynetic/p1959_3.jpg)
+[![Pulsynetic 1935](/img/elektrika/pulsynetic/p1959_3_m.jpg)](/img/elektrika/pulsynetic/p1959_3.jpg)
 
 Expozice Hodinária bude rozšířená o mateční hodiny z produkce firmy Gent & Co ze série označované jako PUL-SYN-ETIC. Konkrétně jde o "Gents C7 Pulsynetic master clock". Informace na této stránce se opírají jednak o vlastní zkušenosti s rekonstrukcí torza tohoto stroje a jednak o zdroje uvedené v části odkazy. Najdete tam mnoho netradičních řešení jako je řízení doby kyvu kyvadla elektromagnetickým vkládáním závažíčka na misku kyvadla, zvonek signalizující slabou baterii a zejména legendární věžní stroj Waiting Train.
 
@@ -49,7 +49,7 @@ Společnost vyráběla mnoho typů podružných hodin nejen na půlminutové imp
 
 je z roku cca 1930. Délka impulzu vznikající v matečních hodinách Gents je dána dobou potřebnou pro vrácení popudné páky do základní polohy. Při čerstvé baterii je impulz krátký a palička zvonku nestihne dopadnout na zvonek. Pro zvětšení momentu setrvačnosti paličky a tím pro zpomalení pohybu má palička horní "protizávaží". Když baterie zeslábne, vracení popudné páky v matečních hodinách je pomalejší a doba impulzu se tím prodlouží. Kladívko v půlminutových intervalech dopadá až na zvonek. Zvonek začne cinkat nejprve slabě, potom silněji.
 
-### [![detail závažíčka spouštěného na misku kyvadla](/img/elektrika/pulsynetic/zavazicko.jpg)](img/elektrika/pulsynetic/obs-seesaw2.jpg)
+### [![detail závažíčka spouštěného na misku kyvadla](/img/elektrika/pulsynetic/zavazicko.jpg)](/img/elektrika/pulsynetic/obs-seesaw2.jpg)
 
 ### Mateční hodiny řízené telegrafem
 

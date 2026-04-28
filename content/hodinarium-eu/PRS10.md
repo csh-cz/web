@@ -7,7 +7,7 @@ lastModified: "Thu, 03 Apr 2025 16:47:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:22.360Z"
 ---
-![celkový pohled PRS10](https://hodinarium.eu/img/PRS10/PRS10stage2LG.jpg)
+![celkový pohled PRS10](/img/PRS10/PRS10stage2LG.jpg)
 výtah ze [stránek výrobce](https://www.thinksrs.com/products/prs10.html) (přeloženo strojově, trochu problematicky)
 
 PRS10 je 10 MHz rubidium disciplinovaný krystalový oscilátor s ultra-nízkým fázovým šumem. Má frekvenční přesnost 1x10\-11. Zařízení splňuje různé požadavky na komunikaci, synchronizaci a přístrojové vybavení. Fázový šum výstupu 10 MHz je dostatečně nízký, aby mohl být použit jako referenční zdroj pro syntezátory. Krátkodobá stabilita jednotky a nízké koeficienty prostředí z ní činí ideální součást pro synchronizaci sítě. Jeho nízká rychlost stárnutí z něj činí vynikající časovou základnu pro přesná měření frekvence. PRS10 používá lampu s bočním ramenem naplněným 1 mg rubidia. [Více v katalogovém listu](https://www.thinksrs.com/downloads/pdfs/catalog/PRS10c.pdf) nebo v [manuálu](https://www.thinksrs.com/downloads/pdfs/manuals/PRS10m.pdf).

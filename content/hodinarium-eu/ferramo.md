@@ -7,7 +7,7 @@ lastModified: "Tue, 03 Oct 2023 08:25:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:40.293Z"
 ---
-[![replika 1. motoru Ferraris](/img/elektrika/motore_cmr_1.gif)](img/elektrika/motore_cmr_1.gif)
+[![replika 1. motoru Ferraris](/img/elektrika/motore_cmr_1.gif)](/img/elektrika/motore_cmr_1.gif)
 
 V elektricky natahovaných hodinách se silnějším motorem bývá problém ve spínání motoru spínačem odvozeným od stavu pružiny. U hodin Ferramo je pro natahování použit slabý indukční motor Ferraris, který je zapnut stále. Proud se nepřerušuje, protože je to zbytečné. Motor odebírá jen 2 W. Rotor je lehce brzděn pákou potaženou plstí. Zastaví se vlivem odporu natažené pružiny. Motor natahuje v krátkých časových intervalech. Uvádí se interval 2-3 sec. Motor jede dlouze jen po výpadku proudu. Výhodou motoru je tichý chod. Vinutí motoru umožňuje připojení na 110 V, 160 V a 220 V. Vlastní hodinový stroj je setrvačkový se zajímavě řešenou regulací. Motor Ferraris se používal i pro natahování kyvadlových přesných hodin Zenith.
 
@@ -19,12 +19,12 @@ Funkce motoru je založena na točivém magnetickém poli v jeho vzduchové meze
 
 Několik fotografií motoru Ferraris použitého pro natahování hodin. Všimněte si jemné regulace setrvačky pomocí vačky. Regulaci lze provádět i ze strany ciferníku.
 
-[![Zenith - ferraris](/img/elektrika/ferraris1.jpg)](img/elektrika/ferraris1.jpg)
+[![Zenith - ferraris](/img/elektrika/ferraris1.jpg)](/img/elektrika/ferraris1.jpg)
 
-[![Zenith - ferraris](/img/elektrika/ferraris2.jpg)](img/elektrika/ferraris2.jpg)[![regulace- ferraris](/img/elektrika/ferraris7b.jpg)](img/elektrika/ferraris7b.jpg)
-[![Zenith - ferraris](/img/elektrika/ferraris4.jpg)](img/elektrika/ferraris4.jpg)
+[![Zenith - ferraris](/img/elektrika/ferraris2.jpg)](/img/elektrika/ferraris2.jpg)[![regulace- ferraris](/img/elektrika/ferraris7b.jpg)](/img/elektrika/ferraris7b.jpg)
+[![Zenith - ferraris](/img/elektrika/ferraris4.jpg)](/img/elektrika/ferraris4.jpg)
 
-[![Zenith - ferraris](/img/elektrika/ferraris3.jpg)](img/elektrika/ferraris3.jpg)[![Zenith - ferraris](/img/elektrika/ferraris5.jpg)](img/elektrika/ferraris5.jpg)
+[![Zenith - ferraris](/img/elektrika/ferraris3.jpg)](/img/elektrika/ferraris3.jpg)[![Zenith - ferraris](/img/elektrika/ferraris5.jpg)](/img/elektrika/ferraris5.jpg)
 
 ## Odkazy:
 

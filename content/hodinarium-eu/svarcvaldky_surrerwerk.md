@@ -15,11 +15,11 @@ U většiny strojů švarcvaldích je vidět celkem jednotná koncepce. Většin
 
 Jde o bicí stroj s možností opakování. To je zásadní rozdíl proti funkci bicího stroje, který je založen na závěrkovém kole. Toto zdokonalení se však používalo jen okrajově, neboť brzy bylo vytlačeno dnes všeobecně používaným bicím strojem s početníkem.
 
-[!](javascript:view\('img/svarcvald/surrerwerk1.jpg',375,500\))[!](javascript:view\('img/svarcvald/surrerwerk3.jpg',375,500\))[!](javascript:view\('img/svarcvald/surrerwerk2.jpg',375,500\))
+![](javascript:view\('img/svarcvald/surrerwerk1.jpg',375,500\))![](javascript:view\('img/svarcvald/surrerwerk3.jpg',375,500\))![](javascript:view\('img/svarcvald/surrerwerk2.jpg',375,500\))
 
 Princip odbíjení pomocí posuvného palce a různě dlouhých kolíků není vynálezem švarcvaldek. Byl již dříve používán v Itálii. První stroje s tímto systémem bití se ve Schwarzwaldu objevují přibližně od roku 1800. Jsou popsány dvě varianty. Stroj v první variantě odbíjí pouze hodiny, ve druhé odbíjí i čtvrthodiny. Zde je ukázána druhá varianta - čtvrťový stroj s odbíjením do spirál. Existují i varianty odbíjející do zvonků. Vznik stroje na obrázcích odhadujeme na období kolem roku 1830.
 
-[!](<javascript:view\('img/svarcvald/ctvrtky1.jpg', 576, 768\)>)[!](<javascript:view\('img/svarcvald/ctvrtky2.jpg', 748, 768\)>)[!](<javascript:view\('img/svarcvald/ctvrtky3.jpg', 576, 768\)>)
+![](<javascript:view\('img/svarcvald/ctvrtky1.jpg', 576, 768\)>)![](<javascript:view\('img/svarcvald/ctvrtky2.jpg', 748, 768\)>)![](<javascript:view\('img/svarcvald/ctvrtky3.jpg', 576, 768\)>)
 
 Základem bicího stroje je odbíjecí kolo s odstupňovanou délkou kolíků. U čtvrťového bicího stroje je jediné odbíjecí kolo osazeno z jedné strany čtyřmi kolíky pro čtvrtě a z druhé strany dvanácti kolíky pro odbíjení hodin. Pomocí vaček na minutovém kole (čtvrtě) a na pomocném kole (hodiny) se posouvají hřídele s odbíjecími palci tak, že narazí jen na kolíky od určité délky.
 

@@ -15,7 +15,7 @@ Trochu jiný pohled najdete na stránce **[Historie věžních hodin v Soběslav
 
 ## Po stopách času
 
-**Č**as se na soběslavské věži měřil již za válek husitských. O podobě tehdejších hodin však nejsou žádné zprávy. První písemnou zmínku lze nalézt v městských účtech z roku 1484. Tehdy zjednali páni na službu natahování, mazání a oprav hodinového stroje zámečníka Štandla. Za to mu bylo předem vyplaceno 70 grošů a zadarmo pronajat jakýsi obchod ve městě. V roce 1489 byly na věž vytaženy hodiny jiné. Tehdy nebyly umístěny v nynější výši, ale níže nad kaplí. Nevíme, zda to byly obyčejné hodiny nebo nákladnější orloj, ale určitě byly bicí, protože roku 1490 k nim přivezl Ondráček z Budějovic struny, které spojovaly cimbály (zvonky) s vlastním hodinovým strojem.[![Torzo hodinového stroje z roku 1677. Foto Jan Lintner 2008.](/img/vezni/sobeslav/torzo1677_m.jpg)](img/vezni/sobeslav/torzo1677.jpg)
+**Č**as se na soběslavské věži měřil již za válek husitských. O podobě tehdejších hodin však nejsou žádné zprávy. První písemnou zmínku lze nalézt v městských účtech z roku 1484. Tehdy zjednali páni na službu natahování, mazání a oprav hodinového stroje zámečníka Štandla. Za to mu bylo předem vyplaceno 70 grošů a zadarmo pronajat jakýsi obchod ve městě. V roce 1489 byly na věž vytaženy hodiny jiné. Tehdy nebyly umístěny v nynější výši, ale níže nad kaplí. Nevíme, zda to byly obyčejné hodiny nebo nákladnější orloj, ale určitě byly bicí, protože roku 1490 k nim přivezl Ondráček z Budějovic struny, které spojovaly cimbály (zvonky) s vlastním hodinovým strojem.[![Torzo hodinového stroje z roku 1677. Foto Jan Lintner 2008.](/img/vezni/sobeslav/torzo1677_m.jpg)](/img/vezni/sobeslav/torzo1677.jpg)
 
 **R**oku 1545 si Soběslavští pořídili hodiny nové. Jejich autorem byl budějovický hodinář Michal. Železo bylo nakoupeno od kováře Kocourka, vyrobeny byly v Soběslavi v kovářské dílně u Vaňků. Při opravě věže bylo pro ně připraveno místo truhlářem Mikulášem. Novou sféru (ciferník) namaloval malíř Hons. Hodiny byly českého typu, neboli celý orloj. Ukazovaly celých 24 hodin, přičemž první hodina začínala odpoledne.
 
@@ -25,7 +25,7 @@ Trochu jiný pohled najdete na stránce **[Historie věžních hodin v Soběslav
 
 **P**o rozebrání byly starobylé věžní hodiny uloženy do bývalé klenotnice, kde leží vedle staré gotické skříně společně s rafikami dodnes. *(Pozn: Od roku 2010 restaurovány a vystaveny.)*
 
-[![Hodinová stroj Elektročas z r. 1959 . Foto Jan Lintner 2008.](/img/vezni/sobeslav/elektrocas1959b.jpg)](img/vezni/sobeslav/elektrocas1959.jpg)
+[![Hodinová stroj Elektročas z r. 1959 . Foto Jan Lintner 2008.](/img/vezni/sobeslav/elektrocas1959b.jpg)](/img/vezni/sobeslav/elektrocas1959.jpg)
 
 * * *
 

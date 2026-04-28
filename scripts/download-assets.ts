@@ -107,7 +107,9 @@ async function main() {
       const i = idx++;
       const url = urlList[i];
       const local = urlToLocal(url);
-      const r = await downloadOne(url, local);
+      // Konstrukce absolutní URL — pokud URL začíná /img/..., přidej origin
+      const fullUrl = url.startsWith('http') ? url : `${ORIGIN}${url}`;
+      const r = await downloadOne(fullUrl, local);
       if (r.ok) {
         if (r.cached) stats.cached++;
         else stats.ok++;

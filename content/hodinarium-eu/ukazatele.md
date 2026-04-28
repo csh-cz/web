@@ -15,7 +15,7 @@ scrapedAt: "2026-04-27T17:37:03.447Z"
 
 **J**iný problém mají uživatelé hodin v polárních krajinách. My celkem snadno poznáme, zda je 5 hodin ráno nebo odpoledne. Jak to ale poznat v polární noci nebo dni? Proto třeba sovětské polární hodinky "RARE VINTAGE MILITARY POLAR EXPEDITION" mají 24 hodinový ciferník (viz. obrázek) I mnohé jiné "mnohoručičkové" hodinky ukazují čas i v 24 hodinovém dělení. Nedovedu bohužel posoudit, jak praktické je to při častých mezikontinentálních přeletech. Nicméně je to příležitost pro prestižní hodinky přidat nějaké to hejble navíc.
 
-**J**sou i jiné kuriózní ukazatele času. Čas lze ukazovat třeba pomocí kuliček na houpačce a mnoha a mnoha dalšími způsoby. Celý mechanizmus zobrazení času můžeme i otočit. [!](javascript:view\('img/ujete/pyramida.jpg',537,625\))Ručičky stojí a točí se ciferníky. I to je již historicky prověřeno. Jedno "moderní" pyramidové řešení je na obrázku. (Po kliknutí uvidíte popis.)
+**J**sou i jiné kuriózní ukazatele času. Čas lze ukazovat třeba pomocí kuliček na houpačce a mnoha a mnoha dalšími způsoby. Celý mechanizmus zobrazení času můžeme i otočit. ![](javascript:view\('img/ujete/pyramida.jpg',537,625\))Ručičky stojí a točí se ciferníky. I to je již historicky prověřeno. Jedno "moderní" pyramidové řešení je na obrázku. (Po kliknutí uvidíte popis.)
 
 !
 

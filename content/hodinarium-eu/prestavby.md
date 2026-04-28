@@ -19,7 +19,7 @@ Naopak fandíme pokusům vytvořit nový časoměrný artefakt. Ať již jsou c�
 
 **[!
 
-!](/clanky/hinspirace)[!](/clanky/hinspirace)**[!](/clanky/hinspirace)**[!](/clanky/hinspirace)**[!](/clanky/hinspirace)
+!](/clanky/hinspirace)![](/clanky/hinspirace)**![](/clanky/hinspirace)**![](/clanky/hinspirace)**![](/clanky/hinspirace)
 
 [!!](/clanky/hinspirace)
 
@@ -29,7 +29,7 @@ Naopak fandíme pokusům vytvořit nový časoměrný artefakt. Ať již jsou c�
 
 Nápad například na postavení prstencových hodin prý vznikl při pohledu na obrázek v časopise, kde se psalo, že jsou známy jediné, které vlastní Národní technické muzeum v Praze. Jak se tento a jiné nápady podařilo zhmotnit, ukazuje samostatná stránka **[Historické inspirace.](/clanky/hinspirace)**
 
-## [!](/clanky/jezdecke)ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934
+## ![](/clanky/jezdecke)ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934
 
 **H**odinám vytvořeným pro jezdecké závody v roce 1934 z třmenu a kapesních hodinek je věnovaná [**samostatná stránka**](/clanky/jezdecke)
 
