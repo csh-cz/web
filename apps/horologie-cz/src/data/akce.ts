@@ -466,19 +466,19 @@ export const akce: Akce[] = [
     slug: 'vidne-aschau-2015',
     rok: 2015,
     datum: '24.—25. března 2015',
-    nazev: 'Spolková výprava do Vídně a Aschau im Chiemgau',
-    misto: 'Vídeň (KHM, Uhrenmuseum) + Aschau im Chiemgau (Uhrenstube)',
+    nazev: 'Spolková výprava do Vídně a Aschau im Burgenland',
+    misto: 'Vídeň (KHM, Uhrenmuseum) + Aschau im Burgenland (Uhrenstube)',
     lat: 48.2082, lon: 16.3738,
     popis:
       'Dvoudenní výprava CSH za hodinářským dědictvím střední Evropy. '
       + 'Den první ve Vídni — Kunsthistorisches Museum a Uhrenmuseum Wien. '
-      + 'Den druhý v bavorském Aschau im Chiemgau — slavná Uhrenstube '
+      + 'Den druhý v rakouském Aschau im Burgenland — slavná Uhrenstube '
       + 'Aschau, soukromá depozitní kolekce věžních a domácích hodin.',
     detail:
       '<p>V březnu 2015 se členové spolku vydali na dvoudenní výpravu '
       + 'po dvou špičkových středoevropských hodinářských destinacích — '
       + '<strong>Vídeň</strong> (úterý 24. 3.) a <strong>Aschau im '
-      + 'Chiemgau</strong> v Bavorsku (středa 25. 3.).</p>'
+      + 'Burgenland</strong> v Rakousku (středa 25. 3.).</p>'
       + '<h2>Itinerář</h2>'
       + '<h3>Úterý 24. 3. 2015 — Vídeň</h3>'
       + '<ul>'
@@ -491,7 +491,7 @@ export const akce: Akce[] = [
       + '<li><strong>~18:00</strong> — příjezd do Aschau, setkání s <strong>panem Komzakem</strong>, '
       + 'ubytování v Trattmannsdorfu, večer společné posezení</li>'
       + '</ul>'
-      + '<h3>Středa 25. 3. 2015 — Aschau im Chiemgau</h3>'
+      + '<h3>Středa 25. 3. 2015 — Aschau im Burgenland</h3>'
       + '<ul>'
       + '<li><strong>dopoledne</strong> — prohlídka věžního muzea (Uhrenstube Aschau)</li>'
       + '<li>oběd</li>'
@@ -521,7 +521,8 @@ export const akce: Akce[] = [
       + '(<a href="https://www.atlasobscura.com/places/uhrenstube-aschau" '
       + 'target="_blank" rel="noopener">odkaz na Atlas Obscura</a>) '
       + 'je nezvyklá kombinace soukromého depozitu a malého muzea '
-      + 'v podhůří bavorských Alp. Hostitelem výpravy byl <strong>pan '
+      + 've východním Burgenlandu (vesnice u Krumbachu, ~10 km od '
+      + 'rakousko-maďarské hranice). Hostitelem výpravy byl <strong>pan '
       + 'Komzak</strong>, který spolku ukázal sbírku věžních strojů '
       + 'a podělil se o restaurátorskou praxi. Obě cesty '
       + '(KHM/Uhrenmuseum a Uhrenstube) byly inspirací pro budování '
@@ -584,11 +585,11 @@ export const akce: Akce[] = [
       'Uhrenmuseum Wien — vídeňská regulátorová tradice 19. století',
       '25. 3. ráno — výjezd druhého dne (~7:45 ráno)',
       '25. 3. ráno — pokračování (~8:00)',
-      '25. 3. cesta z Vídně do bavorského Chiemgau',
-      '25. 3. cesta — průjezd alpským podhůřím',
-      '25. 3. cesta — krajina jihovýchodního Bavorska',
-      '25. 3. — blížíme se k Aschau',
-      '25. 3. ~10:00 — příjezd do Aschau im Chiemgau',
+      '25. 3. cesta z Vídně do Aschau im Burgenland',
+      '25. 3. cesta — A2 směrem na Graz',
+      '25. 3. cesta — krajina jihovýchodního Rakouska (Burgenland)',
+      '25. 3. — blížíme se k Aschau (odbočka Krumbach)',
+      '25. 3. ~10:00 — příjezd do Aschau im Burgenland',
       'Uhrenstube Aschau — vstup do depozitu / muzea',
       'Uhrenstube Aschau — výklad o sbírce',
       'Uhrenstube Aschau — pohled na exponáty',
