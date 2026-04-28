@@ -11,7 +11,9 @@ Za sluneční hodiny lze považovat různé konstrukce. Například elektronick�
 
 Patrně extrémem jsou sluneční hodiny ukazující střední čas. Realizovány jsou pomocí polosu a počítače, který vhodným způsobem nastavuje číselník hodin. My ale budeme mluvit o slunečních digitálkách fungujících bez jakékoliv elektroniky. Uvedeme hned tři typy takových slunečních hodin.
 
-## [![sluneční digi - projekční](/img/slunecni/slunecni_profilas1.jpg)](/img/slunecni/slunecni_profilas1v.jpg)Projekční hodiny
+## Projekční hodiny
+
+[![sluneční digi - projekční](/img/slunecni/slunecni_profilas1.jpg)](/img/slunecni/slunecni_profilas1v.jpg)
 
 Nejjednodušší je, vyříznout číslice to stínícího plechu. Nastavují se tak, aby štěrbina měla směr zemské osy. Je u nich vše tak trochu "naruby" Místo polosu je soustava štěrbin, na ciferníku je jediná čára. Ostrost odečítání údaje je celkem dobrá. Vyrábí firma **Harmony UH** a daly se koupitt v [eshopu](http://www.harmony-shop.cz/digi-dum/eshop/1-1-Slunecni-hodiny/1-2-Projekcni).
 

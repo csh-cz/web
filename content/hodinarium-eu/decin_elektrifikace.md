@@ -21,7 +21,9 @@ V odborném časopisu Die Uhrmacherwoche z roku 1924 je příklad jiného řeše
 
 ![Eletkrické vypoiuštění Schmitt](/img/decin/elektrika/schnitt_M-M.jpg)
 
-## Hodiny synchronizované polarizovanými impulzy![Mader po r. 1900](/img/decin/elektrika/Mader.jpg)
+## Hodiny synchronizované polarizovanými impulzy
+
+![Mader po r. 1900](/img/decin/elektrika/Mader.jpg)
 
 Na rozdíl od předchozích systémů, kdy jsou hodiny impulzy přímo řízeny, existuje systém, kdy je plně zachována schopnost chodu věžních hodin a polarizované impulzy slouží pouze k upřesnění chodu. Příkladem jsou hodiny vyrobené po roce 1900 Mäderem, Andelfingen.
 
@@ -31,7 +33,7 @@ Záchyt kyvadla řízený elektronicky používá i dnes restaurátorský ateli�
 
 ## Dnešní řešení pohonu rafií
 
-## ![Hodinový ručkový převod 1/12 je autonomní pohon hodinových ručiček s zabudovaným motorkem 230 V a mechanickou zpětnou vazbou. Ručkový převod je určen pro montáž na hodinové číselníky do průměru 4 metrů. Převod se montuje za číselník a zeď za pomoci prodloužení os tak, aby vlastní strojek byl až za zdí. Jeho malé rozměry ho předurčují pro instalaci na malé hodinové skleněné nebo plastové číselníky s osvětlením. Ovládání je řešeno minutovým pulsem ( A a B ) s délkou impulsu 4 vteřiny.](/img/decin/elektrika/ecat-2_1299217329.jpg)
+![Hodinový ručkový převod 1/12 je autonomní pohon hodinových ručiček s zabudovaným motorkem 230 V a mechanickou zpětnou vazbou. Ručkový převod je určen pro montáž na hodinové číselníky do průměru 4 metrů. Převod se montuje za číselník a zeď za pomoci prodloužení os tak, aby vlastní strojek byl až za zdí. Jeho malé rozměry ho předurčují pro instalaci na malé hodinové skleněné nebo plastové číselníky s osvětlením. Ovládání je řešeno minutovým pulsem ( A a B ) s délkou impulsu 4 vteřiny.](/img/decin/elektrika/ecat-2_1299217329.jpg)
 
 Na úvodním obrázku je nahoře ještě vlevo vidět hřídel od motorického vytahování závaží. Postupným vývojem došlo ke sloučení silové a spouštěcí části a věžní stroj byl redukován na spouštěný motorový pohon samostatných ciferníků, případně soustavy ciferníků. Dnes jsou obvykle v cifernících namontovány autonomní motorické pohony řízené z centrální jednotky buď polarizovanými impulzy nebo úplnou časovou informací. Hlavní hodiny jsou obvykle synchronizovány radiovým vysílačem (DCF 77), satelitním přijímačem GTS signálu nebo NTP serverem. Hlavní hodiny také ovládají odbíjení elektrickými kladivy i zvonění zvonů.
 

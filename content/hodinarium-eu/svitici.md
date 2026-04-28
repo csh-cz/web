@@ -15,11 +15,13 @@ scrapedAt: "2026-04-27T17:37:00.055Z"
 
 ***H**odinymě docela zaujaly a začal jsem pátrat, jak to s osvětlováním hodin, zejména veřejných, vlastně je. Svítících hodin je kolem nás možná víc, než si uvědomujeme. Svítí, nebo jsou osvětleny ciferníky věžních hodin. Na ulicích svítí mnoho hodin, většinou reklamních. K vidění jsou tu a tam i svítící "neonové" hodiny. Ani doma nás svítící hodiny neopouštějí. Setkáváme se tu s mnoha typy těchto hodin-od fluoreskujících ciferníků starých budíku či hodinek, po svítící digitální hodiny, které nalezneme i na předmětech "zcela nehodinových", jako je mikrovlnka či satelit. I fujtajblové šantánové lucerničky svítí v hodinových hotelech. Čím dál víc k hodinám světlo patří. Vnucují nám myšlenku, že čas **utíká rychlostí světla.***
 
-## [![Big Ben](/img/elektrika/svitici/bigben1_m.jpg)](/img/elektrika/svitici/bigben1.jpg)
+[![Big Ben](/img/elektrika/svitici/bigben1_m.jpg)](/img/elektrika/svitici/bigben1.jpg)
 
 ## Jak tedy hodiny svítí. Nejprve dvě historické odbočky.
 
-## [![big ben](/img/elektrika/svitici/bigben_cifernik_m.jpg)](/img/elektrika/svitici/bigben_cifernik.jpg)Svítí i Big Ben
+## Svítí i Big Ben
+
+[![big ben](/img/elektrika/svitici/bigben_cifernik_m.jpg)](/img/elektrika/svitici/bigben_cifernik.jpg)
 
 **Z**ačněme u svítícího ciferníku hodinové věže Westminsterského opatství v Londýně, které se podle známého zvonu, obvykle říká **Big Ben**. Podle informací ve [Wikipedii](http://cs.wikipedia.org/wiki/Big_Ben)*"Hodiny na věži byly ve své době největšími hodinami světa a jsou schopny odbít první úder každou celou hodinu s přesností jedné sekundy.* *Mechanismus hodin byl dokončen roku 1854, ale vlastní věž byla dokončena až několik let poté.*
 

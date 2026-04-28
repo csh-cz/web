@@ -13,7 +13,7 @@ Ještě nedávno většina zaměstnanců začínala svou pracovní směnu "odpí
 
 * * *
 
-## ![Stroj Bürk - Bundy](/img/pichacky/DSCN0109.JPG)
+![Stroj Bürk - Bundy](/img/pichacky/DSCN0109.JPG)
 
 ![Kontrolní hodiny Bürk - Bundy - ilustrační obrázek](/img/pichacky/19141443794.jpg)Vlajkovou lodí je neobvyklý stroj**
 Bürk - Bundy Original**
@@ -30,7 +30,7 @@ Naše hodiny označené jako Bürk - Bundy Original používají hodinový stroj
 
 U našeho exponátu se bohužel nezachoval odlitek předního kola s otvory pro vedení ovládací páky, ani tato páka. Odlitek je symbolizován plexisklem vyřezaným laserem. Po hodinářské stránce je exponát v chodu.
 
-## ![Fotografie 15](/img/decin/foto201707/f/foto_0015.jpg)
+![Fotografie 15](/img/decin/foto201707/f/foto_0015.jpg)
 
 ## Píchačky Laplace
 

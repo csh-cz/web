@@ -19,7 +19,7 @@ Při měření hodinového úhlu přístroj držíme rukojetí nebo závěsem do
 
 Správné nastavení ciferníku nocturnalu je nutné denně upravit, protože hvězdný den je cca o 4 minuty kratší než běžný den. Natočení ciferníku volíme na základě aktuálního data v kalendáři. Vnitřní disk je třeba natočit tak, aby značka pro vybranou referenční hvězdu ukazovala na aktuální datum na vnějším disku.
 
-## ![torzo nocturnalu](/img/nocturnal/aukro_nocturnal.jpg)
+![torzo nocturnalu](/img/nocturnal/aukro_nocturnal.jpg)
 
 Protože získáváme pravý místní čas, je dnes ještě potřeba ho převést na pásmový čas. Naměřená údaj je nutné korigovat o vzdálenost lokality od určujícího poledníku pásmového času. Nocturnal samostatnou stupnici nemá, protože vznikal daleko dříve než byl pásmový čas zaveden. Platí však, že posuv o jeden stupeň od poledníku je přibližně jeden den v kalendáři, takže lze snadno nastavit obě korekce současně. Vliv případného letního času již připočítáme sami, nebo zkusíme posun o 15 dní. Výhodou je, že nedochází k nelineárnímu posunu, jako u přepočtu pravého slunečního času, kdy do korekce musíme zahrnout ještě časovou rovnici ve tvaru analémy.
 

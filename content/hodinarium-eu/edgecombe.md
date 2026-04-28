@@ -19,7 +19,7 @@ Hodiny mají jednoduchou indikaci přerušení dodávky proudu: v otvoru pod č�
 
 ![stator](/img/elektrika/edgecombe/stator.jpg)
 
-## ![řez převodovkou](/img/elektrika/edgecombe/rez.jpg)
+![řez převodovkou](/img/elektrika/edgecombe/rez.jpg)
 
 ## Odkazy
 

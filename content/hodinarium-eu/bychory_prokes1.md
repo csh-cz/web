@@ -9,7 +9,7 @@ scrapedAt: "2026-04-27T17:36:26.301Z"
 ---
 Do Hodinária byl zapůjčen věžní komplet Prokeš 1868 s unikátním věžním [zvonícím strojem](/clanky/bychory_zvonici_stroj) a [cimbály](/clanky/bychory_cimbaly). Kromě již zmíněného zvonícího stroje má i neobvyklý kyvadlový krok.
 
-## [![nic](/img/vez/bychory/nalezovy_stav.jpg)](/img/vez/bychory/nalezovy_stav.jpg)
+[![nic](/img/vez/bychory/nalezovy_stav.jpg)](/img/vez/bychory/nalezovy_stav.jpg)
 
 ### Výňatek z restaurátorské zprávy, kterou před mnoha lety vypracoval Petr Skála.
 

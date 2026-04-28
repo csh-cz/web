@@ -111,7 +111,7 @@ Signál DCF 77 dnes nese dvě složky modulace. Původní amplitudovou modulaci 
 
 Vysílač DCF 77 od konce roku 1995 asi nejvíce využívaný vysílač na Evropském kontinentě. Jsou i jiné. Informace o dalších vysílačích a různých systémech najdete například [zde](https://cs.qwe.wiki/wiki/Radio_clock) Podrobně popisuje sutuaci také [pan Poupa](http://home.zcu.cz/~poupa/dcf77.html).
 
-## ![Hodiny PIK s.r.o. DCF-1](/img/Mobatime/PIK_dcf1.jpg)
+![Hodiny PIK s.r.o. DCF-1](/img/Mobatime/PIK_dcf1.jpg)
 
 ## Časové informace vysílané ze studia
 

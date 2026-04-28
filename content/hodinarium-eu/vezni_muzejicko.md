@@ -11,7 +11,7 @@ scrapedAt: "2026-04-27T17:36:32.117Z"
 
 * * *
 
-## ![Fotografie 10](/img/vez/28_11_2010/foto_010.jpg)
+![Fotografie 10](/img/vez/28_11_2010/foto_010.jpg)
 
 *Bývá zvykem, že muzeum je tvořeno několika místnostmi, rozmístěnými na ploše. Ve věži je tomu trochu jinak. Zde musíte k jednotlivým částem expozice vystupovat po poněkud krkolomném schodišti.* *Ve většině věží je cílem návštěvníků dostat se až nahoru a obdivovat pohled do okolí.* *Soběslavská věž nabízí zajímavé pohledy už během cesty.*
 
@@ -19,7 +19,9 @@ scrapedAt: "2026-04-27T17:36:32.117Z"
 
 *Věžní muzejíčko není obvyklý způsob, jak výstavní prostory řešit. Není však ani zcela ojedinělý. Podívejte se i na odkazy v závěru stránky a najdete více "hodinových" věží. Přesto šlo asi o jedinečný projekt v Čechách.*
 
-## Soběslavská věž![A foto 18](/img/vez/f/A-foto_018.jpg)
+## Soběslavská věž
+
+![A foto 18](/img/vez/f/A-foto_018.jpg)
 
 **A**ť přicházíme, přijíždíme či připlouváme do Soběslavi odkudkoliv vždy nás zdaleka přivítá významný symbol zdejšího kraje - soběslavská věž. Její vysoké (68 m) štíhlé tělo ční nad okolní terén tak, aby celé údolí bylo z ochozu jako na dlani. Patří mezi nejstarší a nejzajímavější stavby Soběslavi. Již od svého vzniku byla pozorovatelnou, strážním místem, malou pevností, zvonicí a také městskou klenotnicí. Již roku 1484 na ní byly zřízeny hodiny. ...
 (Volně podle knihy Petra Lintnera - Pohledy soběslavské.)
@@ -34,7 +36,7 @@ Virtuálně si můžete město prohlédnout [zde](http://www.istudio.cz/sobeslav
 
 Nález starého **[stroje kovaných soběslavských věžních hodin](/clanky/vez1)** a jeho restaurování byl hlavním impulzem pro vznik Věžního muzejíčka, a to se ještě nevědělo, že je to stroj tak vzácný. Jeho **některé části patrně pocházejí již z 15. století**. Město Soběslav zaplatilo restaurování stroje a upravilo místnost klenotnice pro jeho vystavení. Vznikl tak základ hodinářské expozice. Další exponáty zapůjčili další instituce a členové sdružení. Po opuštění věže naším spolkem zůstal starý stroj s asi o dvě stě let mladším čtvrťovým zvonícím strojem hlavním vystaveným exponátem. V klenotnici zůstaly také tři dochované rafie, závaží a několik drobností. Gotická skříň částečně zobrazená na levé fotografii byla přemístěna do místního muzea.
 
-## ![cimbál Býchory](/img/vez/bychory/f/velky_cimbal.jpg)
+![cimbál Býchory](/img/vez/bychory/f/velky_cimbal.jpg)
 
 I v mnoha jiných muzeích jsou vystaveny věžní hodiny. Tím je ovšem většinou míněn pouze hlavní stroj. Trochu se zapomíná na to, že více koleček věžních hodin je až v rozvodovce (obvykle na 4 strany věže) a v převodech ciferníků. V klenotnici najdete proto i rozvodové tyče a ručičkové převody.
 
@@ -42,7 +44,7 @@ Muzejíčko se nezaměřovalo jen na hodiny "seriózní", ale zajímalo se také
 
 Nesmíme zapomínat ani na [stroj Elektročas z roku 1959](/clanky/vez_elektrocas1959), který dosud řídí ručičky věže. I on je historickým exponátem, právě tak jako rumpál na úrovni ochozu věže.
 
-## ![Fotografie 12](/img/vez/zvony/petrvok/sveceni/f/foto_0012.jpg)
+![Fotografie 12](/img/vez/zvony/petrvok/sveceni/f/foto_0012.jpg)
 
 ## Zvony a cimbály
 

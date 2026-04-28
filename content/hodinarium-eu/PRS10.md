@@ -57,7 +57,7 @@ V PRS10 působí fyzikální balíček rubidia jako velmi stabilní frekvenční
 
 PRS10 používá ve své lampě a článku asi miligram rubidia. Přirozeně se vyskytující Rubidium se skládá ze dvou izotopů; asi 72 % Rb85 a 28 % Rb87. Jedna složka přírodního rubidia (Rb87) je slabě radioaktivní. Protože jeho poločas rozpadu (čas trvá, než polovina atomů podstoupí radioaktivní rozpad), je velmi dlouhý (více než 47 miliard let) nejsou při manipulaci s rubidiem nutná žádná bezpečnostní opatření.
 
-## ![Okno moRbMonitoru](/img/PRS10/Rbmon.png)
+![Okno moRbMonitoru](/img/PRS10/Rbmon.png)
 
 Uvádí se, že průměrný banán (jedlý plod, obecně uznávaný jako bezpečný) obsahuje 400 mg draslíku. Draslík je stejně jako rubidium alkalický kov. Přirozeně se vyskytující draslík se skládá ze tří izotopů: K39 (93 %), K40 (0,0117 %) a K41 (7 %). Izotop K40 je radioaktivní s dobou rozpadu 1,27 miliardy let. Porovnáme radioaktivitu atomových hodin PRS10 s radioaktivitou banánu. Jak pro atomové hodiny, tak pro banán počítáme počet atomů radioaktivní izotopu vydělený poločasem rozpadu izotopu a pak tato čísla poměříme. Zjistíme, že PRS10 obsahuje 6 % radioaktivity banánu. Dále jako rubidium v PRS10 je utěsněn ve skle, které je uzavřeno v kovu a je uživateli zcela nepřístupné, Můžeme rozumně tvrdit, že PRS10 nepředstavuje pro své uživatele žádné riziko.
 

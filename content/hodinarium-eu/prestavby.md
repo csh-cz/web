@@ -25,11 +25,13 @@ Naopak fandíme pokusům vytvořit nový časoměrný artefakt. Ať již jsou c�
 
 **Stolní bicí hodiny s prstencovými číselníky, pilové hodiny, ptáček v kleci, různé miniatury a další hodiny...**
 
-## ![Původní stroj švarcvaldek je doplněn kovovým ciferníkem z jiného typu hodin. Průhledná část je CD. Hodiny doplněny novým řetízkem a kopií závaží. Rovněž kyvadlo je vyrobeno z výlisku, který původně zdobil lustr. ](/img/dostavby/svarcvaldky_cd.jpg)
+![Původní stroj švarcvaldek je doplněn kovovým ciferníkem z jiného typu hodin. Průhledná část je CD. Hodiny doplněny novým řetízkem a kopií závaží. Rovněž kyvadlo je vyrobeno z výlisku, který původně zdobil lustr. ](/img/dostavby/svarcvaldky_cd.jpg)
 
 Nápad například na postavení prstencových hodin prý vznikl při pohledu na obrázek v časopise, kde se psalo, že jsou známy jediné, které vlastní Národní technické muzeum v Praze. Jak se tento a jiné nápady podařilo zhmotnit, ukazuje samostatná stránka **[Historické inspirace.](/clanky/hinspirace)**
 
-## ![](/clanky/jezdecke)ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934
+## ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934
+
+![](/clanky/jezdecke)
 
 **H**odinám vytvořeným pro jezdecké závody v roce 1934 z třmenu a kapesních hodinek je věnovaná [**samostatná stránka**](/clanky/jezdecke)
 

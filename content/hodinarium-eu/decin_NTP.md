@@ -26,7 +26,6 @@ Po připojení napětí hodiny zaujmou klidovou polohu (12:00, 4:00 nebo 8:00 ho
 
 ![schema použití NTP v Hodináriu](/img/elektrika/NTP/NTPschema2.jpg)
 
-
 K hodinám samozřejmě firma Bodet a mnoho jiných nabízí profesionální síťové hlavní hodiny či NTP časové servery. Pro použití v sítích nepřipojených do Internetu jsou tyto servery synchronizovány signálem DCF 77 nebo nyní spíše GPS. Jako obvyklá přesnost nastavení času se uvádí hodnota lepší než +- 0,5 ms. Tato přesnost je vyvážena relativně vyšší cenou. Servery jsou v ceně již od 15.000.- Kč, avšak obvykle je cena mnoho desítek tisíc Kč.
 
 Pro instalaci v Hodináriu jsme naopak hledali řešení co nejlevnější a nejsnáze realizovatelné i za cenu případného částečného snížení přesnosti. Výstup NTP serveru bude zobrazován pouze ručkovými hodinami, tak se spokojíme i s přesností +- 1 sec. Instalovaná řešení jsou však i tak přesnější. Jak vidíte na animaci, ani digitálně zobrazovaný čas v milisekundách není přímo pro člověka použitelný. (Aby to počítač stíhal, obnovuje se zde zobrazení přibližně jen jednou za 10 ms.)
@@ -62,7 +61,9 @@ V roce 2020 jsme sekci NTP serverů rozšířili o průmyslově vyráběný, av�
 
 ![GPS NTP server MADE IN CHINA](/img/elektrika/NTP/celek_NTP.jpg)
 
-### [![družice 8.6.2020](/img/elektrika/NTP/druzice.png)](http://gnssmissionplanning.com/App/Skyplot)Vybrané uváděné technické parametry
+### Vybrané uváděné technické parametry
+
+[![družice 8.6.2020](/img/elektrika/NTP/druzice.png)](http://gnssmissionplanning.com/App/Skyplot)
 
 -   Time synchronization accuracy: 100 ns
 -   NTP v2, v3, v4 (RFC 1119, RFC 1305,RFC5905), SNTP v3 a v4 (RFC 1769, RFC 2030)

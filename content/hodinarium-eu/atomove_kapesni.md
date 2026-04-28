@@ -17,7 +17,7 @@ Na schematu jednoho principu atomových hodin můžeme vidět, že z pece O vyl�
 
 Dalším možným principem atomových hodin je tzv. atomová fontána, která využívá vlastností laserového chlazení atomů. [Popis činnosti například zde](http://fyzika.jreichl.com/main.article/view/1636-princip-atomove-fontany).
 
-## ![DSAC](/img/SCAC/dsac.jpg)
+![DSAC](/img/SCAC/dsac.jpg)
 
 ## Odkazy
 

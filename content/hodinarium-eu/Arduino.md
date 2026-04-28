@@ -71,7 +71,7 @@ Do formuláře času na hodinách se zadává aktuální hodnota zobrazená na h
 
 Funkce nastavení linky byla rozšířena o možnost nastavení kalendářních hodin například CPJ061. Pokud je nastaven cyklus 24 hodin, je na stránce hlavních voleb výběrový seznam pro nastavení dne v týdnu, který hodiny ukazují. Pokud je zobrazený den v týdnu na hodinách odlišný od aktuálního dne, provede řídící jednotka tolik skupin 1440 impulzů, aby byl dosažen požadovaný den. Nastavení dne proběhne po nastavení hodin na požadovaný čas.
 
-## ![nastaveni WiFi](/img/arduino/E/Eimpulzer2.jpg)
+![nastaveni WiFi](/img/arduino/E/Eimpulzer2.jpg)
 
 p>Další oblasti jsou tlačítka pro přechod na další nastavovací stránky: Připojení WiFi, Nastavení parametrů a Zobrazení protokolu chodu. Následuje několik stavových informací a tlačítko obnovení stránky Refresch.
 

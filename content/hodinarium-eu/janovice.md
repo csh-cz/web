@@ -13,7 +13,7 @@ Kostel sv. Josefa v [**Janovicích**](http://web.telecom.cz/oujanovice/) u Frýd
 
 Další zajímavostí jsou **hodiny**. V roce 2000 byla provedena jejich generální oprava. Hodiny byly pořízeny do nového kostela až téměř po deseti letech jeho existence **v roce 1899**. Od té doby sloužily prakticky nepřetržitě až do roku 1999, až se sto let po svém vzniku nadlouho zastavily. Příčin bylo několik, především zchátralost rozvodu a cifernikových převodovek. Samotný stroj byl v poměrně dobrém stavu, poslední větší opravu prodělal cca o deset let dříve. I na něm se však našlo několik menších závad.
 
-## ![Řez věží.](/img/vezni/janovice/kostel.jpg)
+![Řez věží.](/img/vezni/janovice/kostel.jpg)
 
 **S**tojící hodiny budily v obci značnou pozornost, na jejich zprovoznění měl zájem i obecní úřad, který nakonec celou opravu financoval z prostředků získaných z veřejné sbírky. Zvažováno bylo několik variant, jednou z nich bylo i pořízení nového, elektronického, rádiovým signálem řízeného hodinového stroje.
 
@@ -27,7 +27,7 @@ Stav rozvodu byl špatný. Velmi opotřebované byly především klouby, někte
 
 **C**elý rozvod jsme renovovali, doplnili do něj další kloub tak, aby mohl být fixován na zvonovou stolici a neměl zbytečně velké vůle.
 
-## ![Štítek výrobce.](/img/vezni/janovice/hodiny_stitek.jpg)
+![Štítek výrobce.](/img/vezni/janovice/hodiny_stitek.jpg)
 
 ## Hodinový stroj
 
@@ -59,7 +59,7 @@ Na detailu převodovky, jejího uchycení a kloubu náhonu jsou dobře viditeln�
 
 ## DCF hodiny.
 
-## ![DCF hodinový stroj](/img/vezni/janovice/DCF_hodiny.jpg)
+![DCF hodinový stroj](/img/vezni/janovice/DCF_hodiny.jpg)
 
 **P**ro Vaše srovnání - takto vypadá elektrický hodinový stroj, řízený rádiovým signálem (DCF z Frankfurtu). Má tři části - řídicí elektroniku, přijímač rádiového signálu a elektromotor s převodovkou a čidlem polohy pro pohon ručiček. Na pohled velmi jednoduché, kompaktní a moderní. Ale ve srovnání s klasickým stoletým strojem na předchozích snímcích bez jakékoliv elegance. Vzhledem k mé profesi mne nikdo nemůže podezírat, že jsem proti novým technologiím, když je stále prosazujido praxe. Proto jen kratičké vysvětlení proč jsme byli proti řešení, které nabízelo výměnu hodin za tyto elektrické.
 

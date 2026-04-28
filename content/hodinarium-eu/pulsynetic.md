@@ -49,7 +49,7 @@ Společnost vyráběla mnoho typů podružných hodin nejen na půlminutové imp
 
 je z roku cca 1930. Délka impulzu vznikající v matečních hodinách Gents je dána dobou potřebnou pro vrácení popudné páky do základní polohy. Při čerstvé baterii je impulz krátký a palička zvonku nestihne dopadnout na zvonek. Pro zvětšení momentu setrvačnosti paličky a tím pro zpomalení pohybu má palička horní "protizávaží". Když baterie zeslábne, vracení popudné páky v matečních hodinách je pomalejší a doba impulzu se tím prodlouží. Kladívko v půlminutových intervalech dopadá až na zvonek. Zvonek začne cinkat nejprve slabě, potom silněji.
 
-### [![detail závažíčka spouštěného na misku kyvadla](/img/elektrika/pulsynetic/zavazicko.jpg)](/img/elektrika/pulsynetic/obs-seesaw2.jpg)
+[![detail závažíčka spouštěného na misku kyvadla](/img/elektrika/pulsynetic/zavazicko.jpg)](/img/elektrika/pulsynetic/obs-seesaw2.jpg)
 
 ### Mateční hodiny řízené telegrafem
 

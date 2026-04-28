@@ -36,7 +36,9 @@ Na zadní straně tohoto stroje je uveden datum prodeje a následných oprav .
 
 ## Stroj doplněn o půlový bicí mechanismus
 
-## ![](/img/budiky1/budik_schw11.jpg)![](/img/budiky1/budik_schw12.jpg)![](/img/budiky1/budik_schw14.jpg)
+![](/img/budiky1/budik_schw11.jpg)
+![](/img/budiky1/budik_schw12.jpg)
+![](/img/budiky1/budik_schw14.jpg)
 
 ## A na závěr lahůdka. Hodiny s “návodem na použití“, který je napsaný na zadní straně stroje.
 

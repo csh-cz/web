@@ -15,7 +15,7 @@ StartStopStiskněte Start a Stop pro zobrazení času.
 
 V příkladu je použito z cenových důvodů Arduino UNO na 16 MHz. To vede k jistému omezení přesnosti. Například funkce micros() vlivem předděličky 8 počítá čas po 4 mikrosekundách. Lepších výsledků by se dosáhlo při použití například Arduino DUE, které má taktovací frekvenci 84MHz.
 
-## ![Prototyp GPS PPS Arduino UNO](/img/arduino/GPS_PPS.jpg)
+![Prototyp GPS PPS Arduino UNO](/img/arduino/GPS_PPS.jpg)
 
 ## Čas a Arduino
 
@@ -42,7 +42,7 @@ Přestože zobrazování času na displeji ani na setiny sekundy nemá valný sm
 
 Pro náročnější aplikace můžeme přímo programovat vestavěný Timer, pro méně náročné aplikace můžeme použít funkci millis() a získat dělení na ms. Použití funkce micros() je již problematické, protože funkce používá předděličku 8 a připočítává mikosekundy po čtyřech. Pro mnoho aplikací to však stačí.
 
-## ![Rubidium frekvenční normál PRS10](/img/PRS10/PRS10stage3LG.jpg)
+![Rubidium frekvenční normál PRS10](/img/PRS10/PRS10stage3LG.jpg)
 
 ## Přesnější frekvence oscilátoru
 

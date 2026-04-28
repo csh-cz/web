@@ -7,7 +7,7 @@ lastModified: "Thu, 27 Apr 2017 09:14:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:25.371Z"
 ---
-## ![kostel](/img/vez/Budislav/f/kostel.jpg)
+![kostel](/img/vez/Budislav/f/kostel.jpg)
 
 Do expozice Věžního muzejíčka v Soběslavi byl v roce 2012 zapůjčen vřetenový stroj věžních hodin z kostela Nanebevzetí Panny Marie z nedaleké obce Budislav. Stroj byl před mnoha lety demontován a nahrazen mechanickým strojem Hainz. Byl v chodu, vyžadoval však pravidelné ruční natahování, což je možná zábava pro hodinářského nadšence, méně to vyhovuje jako povinnost. V současné době je odstaven i stroj Hainz a hodiny ovládá elektrický stroj.
 

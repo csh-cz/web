@@ -7,7 +7,7 @@ lastModified: "Thu, 11 Jun 2020 21:22:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:31.538Z"
 ---
-## ![Fotografie 2](/img/decin/rok2020/Jilove/f/foto_0002.jpg)
+![Fotografie 2](/img/decin/rok2020/Jilove/f/foto_0002.jpg)
 
 ## Věžní hodiny z kostela v Jílovém
 
@@ -17,7 +17,7 @@ Způsob stavby stroje a především tvar kotvy hodně připomíná hodiny z dí
 
 Stroj věžních hodin má rám složený ze železných kovaných pásů, spojených železnými maticemi. Je složen ze tří funkčních celků : soukolí hodinového, bití čtvrtí a celých hodin. Má vratný kotvový krok, původně řízený 2,8 m dlouhým kyvadlem s plechovou čočkou. Stroj byl poháněn těžkými závažími, vyrobenými z upravených pískovcových sloupců. Závěsná lana se navíjela na bubny, vyrobené ze dřeva. Na stroji nebyla nalezena žádná signatura výrobce, pouze na jednom kovaném dílu byla vyražena značka H. Hodiny zaujmou svou velikostí: jejich šířka je 160 cm.
 
-## ![Fotografie 1](/img/decin/rok2020/Jilove/f/foto_0001.jpg)
+![Fotografie 1](/img/decin/rok2020/Jilove/f/foto_0001.jpg)
 
 ![Fotografie 4](/img/decin/rok2020/Jilove/f/foto_0004.jpg)![Fotografie 5](/img/decin/rok2020/Jilove/f/foto_0005.jpg)
 

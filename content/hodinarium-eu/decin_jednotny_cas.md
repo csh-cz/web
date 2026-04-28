@@ -29,7 +29,9 @@ Odkazy: Götsch, Taschenbuch für Fernmeldetechniker 1950, Teil 2Ww 285: Die ele
 
 * * *
 
-## [![podružné hodiny art deco](/img/elektrika/jednotny_cas/artdeco/celek_jednotny_cas.jpg)](/img/elektrika/jednotny_cas/artdeco/f/celek_jednotny_cas.jpg)Hodiny značené firmou Jednotný čas
+## Hodiny značené firmou Jednotný čas
+
+[![podružné hodiny art deco](/img/elektrika/jednotny_cas/artdeco/celek_jednotny_cas.jpg)](/img/elektrika/jednotny_cas/artdeco/f/celek_jednotny_cas.jpg)
 
 Předmětem podnikání firmy Jednotný čas, s. s r.o., Praha nebyla výroba, ale nákup, prodej, pronajímání a instalování elektrických hodin. Společnost byla ustavena v červenci 1923. V roce 1948 byla začleněna do podniku Chromotechny Šternberk a v následujícím roce se společně se závodem Ludvík Hainz spojila do závodu Elektročas. (Podle knihy Zdeněk Martínek, Dějiny Československého hodinářského průmyslu.)
 

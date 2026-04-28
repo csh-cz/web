@@ -133,12 +133,10 @@ const krokyZmineni = slug ? krokyProClanek(slug) : [];
 
     <footer class="article-byline">
       <span class="byline-author">Český spolek horologický</span>
-      {lastModifiedReadable && (
-        <>
-          <span class="byline-sep" aria-hidden="true">·</span>
-          <span class="byline-date">Aktualizováno <time datetime={lastModified}>{lastModifiedReadable}</time></span>
-        </>
-      )}
+      <span class="byline-sep" aria-hidden="true">·</span>
+      {lastModifiedReadable
+        ? <span class="byline-date">Aktualizováno <time datetime={lastModified}>{lastModifiedReadable}</time></span>
+        : <span class="byline-date byline-date-unknown">Datum aktualizace neznámo</span>}
     </footer>
 
     {related.length > 0 && (

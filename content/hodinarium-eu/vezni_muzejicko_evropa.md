@@ -35,7 +35,9 @@ Nejprve provedeme jakýsi krok stranou a upozorníme na vtipné vystavení staro
 
 Pro výstavní účely jsou historické věže různým způsobem upraveny. Někdy jsou razantně přestaveny, někdy jde jen o umožnění vstupu. Několik příkladů.
 
-### [![Jindřížská věž](/img/veze/Praha_Jindrizska_vez.jpg)](/img/veze/f/Praha_Jindrizska_vez.jpg)[Přestavba Jindřišské věže - Praha](http://www.jindrisskavez.cz/)
+### [Přestavba Jindřišské věže - Praha](http://www.jindrisskavez.cz/)
+
+[![Jindřížská věž](/img/veze/Praha_Jindrizska_vez.jpg)](/img/veze/f/Praha_Jindrizska_vez.jpg)
 
 Jde patrně o nejnákladnější projekt přestavby věže v České republice. Tato věž je razantně k novému účelu upravena. Celý projekt je multifunkční a vynaloženým nákladům odpovídá i cena vstupného (90.- Kč). Do Jindřišské věže byla vestavěna nová ocelová konstrukce, jakási věž ve věži i s výtahem. V deseti patrech je umístěna recepce a wiskerie a kavárna, tři patra galerie, wc, muzeum, patra restaurace a patro se zvonicí s funkční zvonohrou dvaceti zvonů (Manoušek) a vyhlídkou. Nezbytnou součástí projektu je web věže [www.jindrisskavez.cz](http://www.jindrisskavez.cz/) a na něm umístěna virtuální prohlídka. Píše se, že cílem bylo "zpřístupnit a komerčně využít 400 let starou zvonici, tak aby vyhovovala návštěvníkům 3. tisíciletí a přitom respektovala přísné požadavky památkové péče kladené na tuto unikátní středověkou stavbu...". Jindřišská věž je příkladem mnohoúčelového nového využití věže s lehce potlačenou autenticitou a to přesto, že zejména v patrech s okny, kde jsou restaurace, bylo zařízení citlivě přizpůsobeno duchu středověku. Restaurace je pravděpodobně hlavním cílem přestavby. Projekt byl vybudován za účinné pomoci Magistrátu hl. m Prahy a mnoha dalších partnerů z řad institucí, církve, soukromých firem i jednotlivců.
 
@@ -72,7 +74,7 @@ Muzeum sídlí ve věži kostela sv. Kateřiny. Jedná se o pobočku Historické
 
 Věžní hodinářské museum bylo založeno v roce 1996. Naštěstí požár, který vypukl v kostele 22. května 2006, měl za následek pouze drobné poškozením exponátů muzea převážně od vody použité k hašení. Požár však vážně poškodil věž. Během rekonstrukce věže bylo muzeum uzavřeno a probíhaly opravy a údržba exponátů. Před opětovným otevřením byla uspořádána [výstava](http://manager.money.pl/galerie/ponowne-otwarcie-muzeum-zegarow-wiezowych-g560057.html), ze které jsou vystavené fotografie. Mimo jiné dokazují, jak působivá je hra světla na starých exponátech a cihlových zdech.Jako raritu je třeba uvést, že zde jsou od roku 2011 vystaveny pulsarové hodiny, které jako časovou základnu používají impulsy vysílané pulsary.
 
-### ![Fotografie 14](/img/Mindelheim/f/foto_0014.jpg)
+![Fotografie 14](/img/Mindelheim/f/foto_0014.jpg)
 
 ![Fotografie 12](/img/Mindelheim/f/foto_0012.jpg)[Mindelheim](http://www.mindelheim.de/content/view/710/755/)
 
@@ -86,7 +88,9 @@ Muzeum s podobným zájmem jako naše Hodinárium. Zajímá se zejména o věžn
 
 V oblasti hlavních a signálních kyvadlových hodin jsou vystaveny kromě německých i anglické a francouzské hodiny. Vystaveny jsou i časové ústředny, píchačky a mnoho podružných hodin. Nechybí ani píchačky či časová razítka.
 
-### [![Waldmunchen](/img/veze/waldmunchen.jpg)](/img/veze/f/waldmunchen.jpg)[Waldmünchen](http://www.waldmuenchen.de/turm_etagen.html)
+### [Waldmünchen](http://www.waldmuenchen.de/turm_etagen.html)
+
+[![Waldmunchen](/img/veze/waldmunchen.jpg)](/img/veze/f/waldmunchen.jpg)
 
 Malé věžní muzeum je také ve Waldmünchenu. První zmínky městě jsou z roce 1240. Dnes má 7 097 obyvatel. Je vzdálené pouze 16 km od Klenčí pod Čerchovem (od hraničního přechodu Lísková je to cca 6 km pěšky). Ve městě se nachází kostel sv. Štěpána s věží. První zmínka o věži je kolem roku 1492. Věž byla nejprve gotická, v 17. stol. byla přestavěna v barokním stylu. Význam věže byl „klasický“, hlásný dohlížel na okolí a ohlašoval blížící se nebezpečí – oheň, nebo nepřítele. Proto také věž patřívala městu nikoli farnosti. Hlásný byl ve věži do roku 1923. Jeho funkci mu pomáhaly plnit i zvony, které sice byly v době válek rekvírovány, ale v roce 1949 byly instalovány 4 nové zvony – všechny zasvěcené sv. Štěpánu. Původně byla zvonice v 5. patře věže, ale nyní je z důvodu lepší slyšitelnosti zvonů v 7. patře místo původního byt hlásného. [![Turmuhr Nickelsdorf Bgld., Anfang 18.Jh.;Sammlung Dr. Julius Brachetka](/img/veze/Komzak.jpg)](/img/veze/f/Komzak.jpg)
 

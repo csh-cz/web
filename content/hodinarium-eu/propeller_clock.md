@@ -14,7 +14,7 @@ scrapedAt: "2026-04-27T17:36:46.948Z"
 
 **M**ožná první číslicové vrtulové hodiny publikoval 25. ledna 1997 pan [Bob Blick](http://www.bobblick.com/techref/projects/propclock/propclock.html). Učil elektroniku a vytvářel pro studenty jednoduché elektronické konstrukce. Vznikl tak i projekt hodin, respektive projekt podivuhodného ukazatele času, který autor nazývá "Mechanically scanned digital clocks operated by a PIC that uses an array of LEDs to create the illusion of digits". Princip vytváření virtuálního obrazu v prostoru zaujal mnoho dalších designérů. Po celém světě vznikají stále nové a nové trochu bláznivé konstrukce. Pokusíme se je trochu roztřídit. Dnes je způsob zobrazení - **Rotating display system** - chráněn patentem USA [6856303](http://www.freepatentsonline.com/6856303.html).
 
-## ![Podobně vypadající hodiny, lze koupit za cca 130 USD.](/img/propcloch_anim1.gif)
+![Podobně vypadající hodiny, lze koupit za cca 130 USD.](/img/propcloch_anim1.gif)
 
 ## Analogové vrtuálky
 

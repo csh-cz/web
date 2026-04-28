@@ -45,7 +45,7 @@ Metodu náhradu kyvadla několika hmotnými body můžeme uplatnit i pro jiné k
 
 **Po dosazení do prvního vzorce vidíme, že opět lze zkrátit zlomek velikostí hmoty, nikoliv však už délkou závěsu. Ani u tohoto "líného" kyvadla doba kyvu nezáleží na velikosti hmoty. Ovšem hmota musí být nenulová a značně převažovat nad hmotou ostatních konstrukčních prvků kyvadla..**
 
-## ![váhy místo kyvadla](/img/line_kyvadlo/kyvadlo_vahy.jpg)
+![váhy místo kyvadla](/img/line_kyvadlo/kyvadlo_vahy.jpg)
 
 **Tedy:** t = pí SQRT ((L2 + R2)/gL)
 

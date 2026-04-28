@@ -11,7 +11,7 @@ Některé hodiny prostě neseženete. Jsou třeba jen v jednom exempláři někd
 
 Pro hodiny, které dále představíme se příliš nehodí suché označení replika nebo model. Budeme je proto nazývat "historické inspirace". Jde o hodiny vytvořené sběratelem a obdivovatelem hodin nejčastěji podle obrázku muzejního exponátu, případně jako variace na obdobné hodiny. Použitý novější hodinový stroj byl v různé míře upraven. Mnohdy to znamenalo změnit i podstatné deaily a přestavba si tak vyžádala nemalý kus technické invence. Namátkou: čtvercové základové desky zaměněny za kulaté, sloupky nahrazeny jinou zdobenější variantou, pérový pohon nahrazen závažím, otočení polohy stroje s dořešením "pohybu vlastní vahou" pomocí pružinek atd. Schrána hodin byla většinou zcela nově vytvořena s úctou k řemeslu.
 
-## ![prstencove](/img/fucik/prstencove.jpg)
+![prstencove](/img/fucik/prstencove.jpg)
 
 V další části ponecháme slovo zhotoviteli těchto unikátů. Společně můžeme hodiny obdivovat.
 
@@ -23,7 +23,7 @@ V další části ponecháme slovo zhotoviteli těchto unikátů. Společně mů
 
 Nápad postavit tyto hodiny vznikl při pohledu na obrázek z časopisu. V článku se uvádělo, že jsou známy jediné, které vlastní Národní technické muzeum v Praze.
 
-## ![pilove 1](/img/fucik/pilove1.jpg)
+![pilove 1](/img/fucik/pilove1.jpg)
 
 ![pilove 2](/img/fucik/pilove2.jpg)Nástěnné hodiny pilové I.
 
@@ -71,11 +71,15 @@ Nápad postavit tyto hodiny vznikl při pohledu na obrázek z časopisu. V člá
 
 **M**iniaturní nástěnné kyvadlové hodiny byly vyrobeny ve zmenšené velikosti podle obrázku hodin, které vlastnilo Muzeum hodin ve Šternberku. Stroj běžný s kotvovým krokem poháněný závažím.
 
-## ![2 0](/img/fucik/2000.jpg)Miniaturní železné
+## Miniaturní železné
+
+![2 0](/img/fucik/2000.jpg)
 
 **H**odiny jsou 13.5cm vysoké a 9 cm široké. Kyvadélko před číselníkem je dlouhé 11 cm. Pohon stroje je jedním závažím s protizávažím na provázku. Vyrobeny v roce **2000**. Jsou příkladem toho, co jde s běžným strojem kuchyňských hodin udělat.
 
-## Replika lucernových hodin ![lucernove 1](/img/fucik/lucernove1.jpg)
+## Replika lucernových hodin
+
+![lucernove 1](/img/fucik/lucernove1.jpg)
 
 ![lucernove 2](/img/fucik/lucernove2.jpg)
 

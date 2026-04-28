@@ -7,7 +7,7 @@ lastModified: "Sun, 23 Apr 2017 09:01:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:28.149Z"
 ---
-## ![foto2 0](/img/vez/prysk/f/foto2_000.jpg)
+![foto2 0](/img/vez/prysk/f/foto2_000.jpg)
 
 Do expozice Věžního muzejíčka v Soběslavi byly v roce 2012 zapůjčeny laskavostí Biskupství litoměřického věžní hodiny, které byly před instalací moderních, elektronicky řízených hodin, umístěny ve zvonici kostela Petra a Pavla v Horním Prysku. Hodiny delší dobu nebyly funkční, trpěly nepřízní počasí, neboť do věže před její nedávnou opravou zřejmě zatékalo. Rám stroje i kola byla značně zkorodována, některé součásti byly poškozeny, nebo vůbec chyběly (obr. 1).
 

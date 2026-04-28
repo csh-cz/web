@@ -56,7 +56,7 @@ normální chod
 
 ![volba WiFi](/img/arduino/web_IBM2.jpg)![parametry](/img/arduino/web_IBM3.jpg)
 
-## ![Ipulzer IBM_EEPROM verze 2](/img/arduino/E/NTPimpulzerIBM2.jpg)
+![Ipulzer IBM_EEPROM verze 2](/img/arduino/E/NTPimpulzerIBM2.jpg)
 
 ## Rozdíly HW v NTP impulzeru pro verzi pro polarizované impulzy
 

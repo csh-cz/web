@@ -23,7 +23,7 @@ Exponát Hodinária je funkční časový zámek Thomas Fox Mechanical Time Over
 
 ##
 
-## [![čtyřnásobný časový zámek](/img/decin/casove_zamky/f/trezorove_dvere.jpg)](/img/decin/casove_zamky/f/trezorove_dvere.jpg)
+[![čtyřnásobný časový zámek](/img/decin/casove_zamky/f/trezorove_dvere.jpg)](/img/decin/casove_zamky/f/trezorove_dvere.jpg)
 
 ## Odkazy
 
