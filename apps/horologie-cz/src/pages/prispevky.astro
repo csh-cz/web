@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import { SISTER_HODINARIUM } from '../data/sites';
 
 interface Prispevek {
   rok: number;
@@ -23,9 +24,9 @@ const prispevky: Prispevek[] = [
     nazev: 'Astronomické hodiny ASTRO2 — od stavebnice meteostanice k Computu',
     popis:
       'Prezentace o vývoji DIY astronomických hodin postavených na čínské stavebnici '
-      + 'meteostanice s ESP01S, programovaných s pomocí AI. Detailní článek na hodinarium.eu.',
+      + 'meteostanice s ESP01S, programovaných s pomocí AI. Detailní článek na Hodinariu.',
     prilohy: [
-      { jmeno: 'Plný článek na Hodinariu', href: 'https://hodinarium.eu/clanky/astro2_NTP' },
+      { jmeno: 'Plný článek na Hodinariu', href: `${SISTER_HODINARIUM}/clanky/astro2_NTP` },
     ],
     status: 'shrnutí',
   },
@@ -37,7 +38,7 @@ const prispevky: Prispevek[] = [
     nazev: 'Příspěvky budou doplněny',
     popis: 'Zápis ze schůze obsahuje strukturu prezentací, ale konkrétní obsah příspěvků zatím nemáme.',
     prilohy: [
-      { jmeno: 'Zápis ze schůze 10. 1. 2020', href: 'https://hodinarium.eu/clanky/zapis20200110' },
+      { jmeno: 'Zápis ze schůze 10. 1. 2020', href: `${SISTER_HODINARIUM}/clanky/zapis20200110` },
     ],
     status: 'placeholder',
   },
@@ -49,7 +50,7 @@ const prispevky: Prispevek[] = [
     nazev: 'Příspěvky budou doplněny',
     popis: 'Zápis ze schůze obsahuje strukturu prezentací, ale konkrétní obsah příspěvků zatím nemáme.',
     prilohy: [
-      { jmeno: 'Zápis ze schůze 18. 1. 2019', href: 'https://hodinarium.eu/clanky/zapis20190118' },
+      { jmeno: 'Zápis ze schůze 18. 1. 2019', href: `${SISTER_HODINARIUM}/clanky/zapis20190118` },
     ],
     status: 'placeholder',
   },

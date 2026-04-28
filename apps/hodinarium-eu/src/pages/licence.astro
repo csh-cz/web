@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import { SISTER_SPOLEK, SISTER_SPOLEK_LABEL } from '../data/sites';
 ---
 <Base title="Licence obsahu" description="Texty a obrazové materiály na hodinarium.eu jsou pod licencí Creative Commons Attribution 4.0.">
   <article class="licence-doc">
@@ -94,7 +95,7 @@ licencováno pod <a href="https://creativecommons.org/licenses/by/4.0/deed.cs">C
       <h2>Sesterský web Horologie.cz</h2>
       <p>
         Stejná licence (<a href="https://creativecommons.org/licenses/by/4.0/deed.cs" target="_blank" rel="license noopener">CC&nbsp;BY&nbsp;4.0</a>)
-        platí i pro obsah na <a href="https://horologie.cz" target="_blank" rel="noopener">horologie.cz</a>
+        platí i pro obsah na <a href={SISTER_SPOLEK} target="_blank" rel="noopener">{SISTER_SPOLEK_LABEL}</a>
         — webu Českého spolku horologického.
       </p>
     </section>

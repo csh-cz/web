@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import { SISTER_HODINARIUM } from "../data/sites";
 
 interface Props {
   title: string;
@@ -73,7 +74,7 @@ const ogImage = new URL(`/og/${slug}.png`, site).toString();
           <li><a href="/sponzoring" style="border-bottom: none;">Sponzoring</a></li>
           <li><a href="/kontakt" style="border-bottom: none;">Kontakt</a></li>
           <li>
-            <a href="https://hodinarium.eu" target="_blank" rel="noopener" class="nav-sister" style="border-bottom: none;" aria-label="Hodinárium — webová expozice (otevře se v novém okně)">
+            <a href={SISTER_HODINARIUM} target="_blank" rel="noopener" class="nav-sister" style="border-bottom: none;" aria-label="Hodinárium — webová expozice (otevře se v novém okně)">
               Hodinárium&nbsp;↗
             </a>
           </li>
@@ -97,7 +98,7 @@ const ogImage = new URL(`/og/${slug}.png`, site).toString();
             <li><a href="/dokumenty" style="border-bottom: none;">Dokumenty</a></li>
             <li><a href="/sponzoring" style="border-bottom: none;">Sponzoring</a></li>
             <li><a href="/kontakt" style="border-bottom: none;">Kontakt</a></li>
-            <li><a href="https://hodinarium.eu" target="_blank" rel="noopener" style="border-bottom: none;">Hodinárium&nbsp;↗</a></li>
+            <li><a href={SISTER_HODINARIUM} target="_blank" rel="noopener" style="border-bottom: none;">Hodinárium&nbsp;↗</a></li>
             <li><a href="https://orloj.eu" target="_blank" rel="noopener" style="border-bottom: none;">Orloj.eu&nbsp;↗</a></li>
           </ul>
         </details>
@@ -125,7 +126,7 @@ const ogImage = new URL(`/og/${slug}.png`, site).toString();
           <div>
             <h3 class="footer-h">Sesterské weby</h3>
             <ul>
-              <li><a href="https://hodinarium.eu" target="_blank" rel="noopener">Hodinárium ↗</a></li>
+              <li><a href={SISTER_HODINARIUM} target="_blank" rel="noopener">Hodinárium ↗</a></li>
               <li><a href="https://orloj.eu" target="_blank" rel="noopener">Orloj.eu ↗</a></li>
             </ul>
           </div>

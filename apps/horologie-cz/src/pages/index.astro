@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import { SISTER_HODINARIUM } from '../data/sites';
 
 const vybor = [
   { funkce: 'Předseda', jmeno: 'Ing. Petr Král' },
@@ -20,7 +21,7 @@ const vybor = [
 
     <p class="hero-lede">
       Sdružení obdivovatelů hodin, restaurátorů a tvůrců. Provozuje
-      <a href="https://hodinarium.eu" target="_blank" rel="noopener">Hodinárium</a>
+      <a href={SISTER_HODINARIUM} target="_blank" rel="noopener">Hodinárium</a>
       v Děčíně a webovou expozici. Vznikl z Virtuálního muzea hodin
       (2009), zapsán jako spolek roku 2014.
     </p>
@@ -80,15 +81,15 @@ const vybor = [
   <section class="cinnost mt-12">
     <h2>Co spolek dělá</h2>
     <div class="cinnost-grid">
-      <a href="https://hodinarium.eu" target="_blank" rel="noopener" class="cinnost-card">
+      <a href={SISTER_HODINARIUM} target="_blank" rel="noopener" class="cinnost-card">
         <h3>Hodinárium Děčín ↗</h3>
         <p>Fyzická expozice v zámku Děčín — sbírka hodin od švarcvaldek po věžní stroje 15. století.</p>
       </a>
-      <a href="https://hodinarium.eu/projekty" target="_blank" rel="noopener" class="cinnost-card">
+      <a href={`${SISTER_HODINARIUM}/projekty`} target="_blank" rel="noopener" class="cinnost-card">
         <h3>Webová expozice ↗</h3>
-        <p>218 článků o hodinách a hodinařině na hodinarium.eu — atlas, mapa, časová osa.</p>
+        <p>218 článků o hodinách a hodinařině v Hodináriu — atlas, mapa, profily hodinářů.</p>
       </a>
-      <a href="https://hodinarium.eu/vezni-hodiny" target="_blank" rel="noopener" class="cinnost-card">
+      <a href={`${SISTER_HODINARIUM}/vezni-hodiny`} target="_blank" rel="noopener" class="cinnost-card">
         <h3>Restaurování věžních hodin ↗</h3>
         <p>Identifikace a restaurování historických strojů z věží Soběslavska, Krušnohoří a dalších regionů.</p>
       </a>

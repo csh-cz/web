@@ -66,20 +66,25 @@ const hodinariZmineni = slug ? hodinariProClanek(slug) : [];
     <span class="current" aria-current="page">{title}</span>
   </nav>
 
-  <article class="article-single">
+  <article class="article-single" itemscope itemtype="https://schema.org/Article">
+    <meta itemprop="inLanguage" content="cs" />
+    <meta itemprop="author" content="Český spolek horologický" />
+    <meta itemprop="publisher" content="Český spolek horologický" />
+    {lastModified && <meta itemprop="dateModified" content={lastModified} />}
+
     <header class="article-header">
       {category && (
         <p class="eyebrow mb-3">{categoryLabels[category] ?? category}</p>
       )}
-      <h1 class="article-title">{title}</h1>
+      <h1 class="article-title" itemprop="headline">{title}</h1>
       {tldr && (
-        <aside class="tldr" aria-label="Stručné shrnutí">
+        <p class="tldr" itemprop="description" aria-label="Stručné shrnutí">
           <span class="tldr-label">Stručně:</span>{tldr}
-        </aside>
+        </p>
       )}
     </header>
 
-    <div class="prose-content drop-cap">
+    <div class="prose-content drop-cap" itemprop="articleBody">
       <slot />
     </div>
 

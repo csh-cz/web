@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import { SISTER_HODINARIUM, SISTER_HODINARIUM_LABEL } from '../data/sites';
 ---
 <Base title="Licence obsahu" description="Texty na horologie.cz jsou pod licencí Creative Commons Attribution 4.0.">
   <article class="licence-doc">
@@ -10,7 +11,7 @@ import Base from '../layouts/Base.astro';
         Texty na <strong>horologie.cz</strong> jsou publikovány pod otevřenou
         licencí <strong>Creative Commons Attribution 4.0 International
         (CC&nbsp;BY&nbsp;4.0)</strong>. Stejně tak obsah sesterského webu
-        <a href="https://hodinarium.eu" target="_blank" rel="noopener">hodinarium.eu</a>.
+        <a href={SISTER_HODINARIUM} target="_blank" rel="noopener">{SISTER_HODINARIUM_LABEL}</a>.
       </p>
     </header>
 
