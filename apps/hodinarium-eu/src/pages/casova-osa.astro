@@ -1,0 +1,184 @@
+---
+import Base from '../layouts/Base.astro';
+import { milniky } from '../data/milniky';
+
+const sorted = [...milniky].sort((a, b) => a.rok - b.rok);
+
+const kategorieLabels: Record<string, string> = {
+  orloj: 'Pražský orloj',
+  vez: 'Věžní hodiny',
+  objev: 'Bádání',
+  sbirka: 'Sbírka',
+  projekty: 'Projekty',
+  spolek: 'Spolek',
+};
+---
+<Base title="Časová osa" description="Šest set let hodinařiny — od Mikuláše z Kadaně po DIY hodiny s mikroprocesorem.">
+  <header class="max-w-3xl mb-12">
+    <p class="eyebrow mb-4">600 let hodinařiny</p>
+    <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Časová osa</h1>
+    <p class="text-[var(--color-text)] leading-relaxed">
+      Od astrolabia Mikuláše z Kadaně (1410) přes lidové švarcvaldky až po hodiny řízené ESP01S
+      modulem (2025). {sorted.length} milníků, které tvoří kontext.
+    </p>
+  </header>
+
+  <ol class="timeline" aria-label="Časová osa milníků hodinařiny">
+    {sorted.map((m) => (
+      <li class={`timeline-item kat-${m.kategorie}`}>
+        <div class="timeline-rok" aria-label={`Rok ${m.rok}`}>
+          <span>{m.rokText ?? m.rok}</span>
+        </div>
+        <div class="timeline-obsah">
+          <p class="eyebrow timeline-kat">{kategorieLabels[m.kategorie]}</p>
+          <h3 class="timeline-titulek">{m.titulek}</h3>
+          <p class="timeline-popis" set:html={m.popis} />
+          {(m.slug || m.externalUrl) && (
+            <p class="timeline-odkaz">
+              {m.slug && (
+                <a href={`/clanky/${m.slug}`}>Otevřít článek →</a>
+              )}
+              {m.externalUrl && (
+                <a href={m.externalUrl} rel="noopener" target="_blank">
+                  {m.externalUrl.replace(/^https?:\/\//, '')} ↗
+                </a>
+              )}
+            </p>
+          )}
+        </div>
+      </li>
+    ))}
+  </ol>
+</Base>
+
+<style>
+  .timeline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    max-width: 880px;
+  }
+
+  /* Středová linie */
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 130px;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    width: 2px;
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      color-mix(in srgb, var(--color-brass) 40%, transparent) 5%,
+      color-mix(in srgb, var(--color-brass) 40%, transparent) 95%,
+      transparent
+    );
+  }
+
+  @media (max-width: 640px) {
+    .timeline::before {
+      left: 12px;
+    }
+  }
+
+  .timeline-item {
+    position: relative;
+    padding: 1rem 0 2rem;
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 2rem;
+  }
+
+  @media (max-width: 640px) {
+    .timeline-item {
+      grid-template-columns: 12px 1fr;
+      gap: 1.25rem;
+      padding-bottom: 1.5rem;
+    }
+  }
+
+  .timeline-rok {
+    text-align: right;
+    position: relative;
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    font-feature-settings: "lnum";
+    font-style: italic;
+    padding-right: 1.5rem;
+  }
+
+  /* Kotva — kovový pin */
+  .timeline-rok::after {
+    content: '';
+    position: absolute;
+    right: -7px;
+    top: 0.35rem;
+    width: 14px;
+    height: 14px;
+    background: var(--color-bg);
+    border: 2px solid var(--color-brass);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px var(--color-bg);
+    z-index: 1;
+  }
+
+  .timeline-item.kat-orloj .timeline-rok::after { border-color: var(--color-copper); }
+  .timeline-item.kat-projekty .timeline-rok::after { border-color: var(--color-verdigris); }
+
+  @media (max-width: 640px) {
+    .timeline-rok {
+      grid-column: 2;
+      text-align: left;
+      padding-right: 0;
+      font-size: 1.1rem;
+      margin-bottom: 0.25rem;
+    }
+    .timeline-rok::after {
+      left: -29px;
+      right: auto;
+      top: 0.5rem;
+    }
+  }
+
+  .timeline-obsah {
+    padding-top: 0.1rem;
+  }
+
+  @media (max-width: 640px) {
+    .timeline-obsah {
+      grid-column: 2;
+    }
+  }
+
+  .timeline-kat {
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .timeline-titulek {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.4rem;
+    line-height: 1.25;
+  }
+
+  .timeline-popis {
+    color: var(--color-text);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 0 0.6rem;
+  }
+
+  .timeline-odkaz {
+    margin: 0;
+    font-size: 0.9rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+</style>
