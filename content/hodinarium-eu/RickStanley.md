@@ -25,4 +25,4 @@ Tajemství hodin záleží v tom, že jsou použity tajné elektronické hodiny,
 -   [**www.usboomers.com/clockincline.htm**](http://www.usboomers.com/clockincline.htm) nááááááádhera
 -   [**www.usboomers.com/clockgolfer.htm**](http://www.usboomers.com/clockgolfer.htm) prototyp golfových hodin
 -   [**www.usboomers.com/clocktrain.htm**](http://www.usboomers.com/clocktrain.htm) místo ručičky vláček
--   [**www.usboomers.com/clockothers.htm**](http://www.usboomers.com/clockothers.htm) a další.
+-   [**www.usboomers.com/clockothers.htm**](http://web.archive.org/web/20170117010318/http://www.usboomers.com:80/clockothers.htm) a další.

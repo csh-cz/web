@@ -41,7 +41,7 @@ Na reklamních cedulích je docela zajímavá informace o používané synchroni
 ## Odkazy
 
 -   [Anglická stránka o hodinách Brillie](http://www.brillie.co.uk/)
--   [Stránky s fotografiemi a historií](http://regulateurbrillie.monsite-orange.fr/)
+-   [Stránky s fotografiemi a historií](http://web.archive.org/web/20230929035107/https://regulateurbrillie.monsite-orange.fr/)
 -   [Stránky Electrisal Horology](http://www.mridout.force9.co.uk/ecw/brillie.htm)
--   [O restaurování varianty se sekundovým kyvadlem](http://www.antiquity.in/brillie-1.html)
+-   [O restaurování varianty se sekundovým kyvadlem](http://web.archive.org/web/20191122123049/http://www.antiquity.in/brillie-1.html)
 -   [O synchronizaci hodin Brillie pomocí DCF 77](http://f5mna.free.fr/h_mere%20Dossier/SYNCHRONISATION%20HORLOGE%20BRILLIE%20LE%20RETOUR%20VERSION%202.pdf)

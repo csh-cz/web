@@ -11,7 +11,10 @@
     "articles": [
       "ATO"
     ],
-    "checkedAt": "2026-04-28T07:02:45.845Z"
+    "checkedAt": "2026-04-28T07:02:45.845Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.sweb.cz/vezhb/obr.htm",
@@ -25,7 +28,10 @@
     "articles": [
       "12_24"
     ],
-    "checkedAt": "2026-04-28T07:02:45.844Z"
+    "checkedAt": "2026-04-28T07:02:45.844Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://books.google.cz/patents?id=2V1QAAAAEBAJ&dq=wejrostek",
@@ -39,7 +45,10 @@
     "articles": [
       "12_24"
     ],
-    "checkedAt": "2026-04-28T07:02:45.845Z"
+    "checkedAt": "2026-04-28T07:02:45.845Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.davewestclocks.co.uk/bulle-and-Eureka/bulle.html",
@@ -55,7 +64,10 @@
       "bulle",
       "eureka"
     ],
-    "checkedAt": "2026-04-28T07:02:46.219Z"
+    "checkedAt": "2026-04-28T07:02:46.219Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.mridout.force9.co.uk/ecw/ato.htm",
@@ -139,7 +151,10 @@
     "articles": [
       "Arduino"
     ],
-    "checkedAt": "2026-04-28T07:02:46.439Z"
+    "checkedAt": "2026-04-28T07:02:46.439Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://www.instructables.com/Witty-Cloud-Module-Adapter-Board/",
@@ -266,7 +281,10 @@
       "GPS_Sakul",
       "decin_NTP"
     ],
-    "checkedAt": "2026-04-28T07:02:47.983Z"
+    "checkedAt": "2026-04-28T07:02:47.983Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://www.sakul.cz/stopky-pro-hasice-smd/n",
@@ -611,7 +629,10 @@
     "articles": [
       "RickStanley"
     ],
-    "checkedAt": "2026-04-28T07:02:49.487Z"
+    "checkedAt": "2026-04-28T07:02:49.487Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.usboomers.com/clockothers.htm",
@@ -625,7 +646,12 @@
     "articles": [
       "RickStanley"
     ],
-    "checkedAt": "2026-04-28T07:02:50.405Z"
+    "checkedAt": "2026-04-28T07:02:50.405Z",
+    "wayback": {
+      "available": true,
+      "url": "http://web.archive.org/web/20170117010318/http://www.usboomers.com:80/clockothers.htm",
+      "ts": "20170117010318"
+    }
   },
   {
     "url": "http://www.usboomers.com/clockgolfer.htm",
@@ -639,7 +665,10 @@
     "articles": [
       "RickStanley"
     ],
-    "checkedAt": "2026-04-28T07:02:49.494Z"
+    "checkedAt": "2026-04-28T07:02:49.494Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.usboomers.com/clockincline.htm",
@@ -653,7 +682,10 @@
     "articles": [
       "RickStanley"
     ],
-    "checkedAt": "2026-04-28T07:02:49.440Z"
+    "checkedAt": "2026-04-28T07:02:49.440Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.usboomers.com/clocktrain.htm",
@@ -667,7 +699,10 @@
     "articles": [
       "RickStanley"
     ],
-    "checkedAt": "2026-04-28T07:02:49.539Z"
+    "checkedAt": "2026-04-28T07:02:49.539Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.timhunkin.com/27_domestic_clocks.htm",
@@ -849,7 +884,10 @@
     "articles": [
       "arduino_PPS"
     ],
-    "checkedAt": "2026-04-28T07:02:54.912Z"
+    "checkedAt": "2026-04-28T07:02:54.912Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://www.youtube.com/watch?v=rErC-f_ru4c",
@@ -919,7 +957,10 @@
     "articles": [
       "arduino_PPS"
     ],
-    "checkedAt": "2026-04-28T07:02:54.852Z"
+    "checkedAt": "2026-04-28T07:02:54.852Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://hackaday.io/project/5012-gpsatomic-clock-build",
@@ -1087,7 +1128,12 @@
     "articles": [
       "brillie"
     ],
-    "checkedAt": "2026-04-28T07:02:56.953Z"
+    "checkedAt": "2026-04-28T07:02:56.953Z",
+    "wayback": {
+      "available": true,
+      "url": "http://web.archive.org/web/20230929035107/https://regulateurbrillie.monsite-orange.fr/",
+      "ts": "20230929035107"
+    }
   },
   {
     "url": "http://www.brillie.co.uk/",
@@ -1157,7 +1203,10 @@
     "articles": [
       "atomove_kapesni"
     ],
-    "checkedAt": "2026-04-28T07:02:55.655Z"
+    "checkedAt": "2026-04-28T07:02:55.655Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.horologix.com/restore_bulle_174475.pdf",
@@ -1199,7 +1248,10 @@
     "articles": [
       "bulle"
     ],
-    "checkedAt": "2026-04-28T07:02:58.004Z"
+    "checkedAt": "2026-04-28T07:02:58.004Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.nawcc-index.net/Articles/Smith-restore_bulle_section_01.pdf",
@@ -1227,7 +1279,12 @@
     "articles": [
       "brillie"
     ],
-    "checkedAt": "2026-04-28T07:02:57.292Z"
+    "checkedAt": "2026-04-28T07:02:57.292Z",
+    "wayback": {
+      "available": true,
+      "url": "http://web.archive.org/web/20191122123049/http://www.antiquity.in/brillie-1.html",
+      "ts": "20191122123049"
+    }
   },
   {
     "url": "http://www.orloj.eu/cs/prokes_model.htm",
@@ -1269,7 +1326,10 @@
     "articles": [
       "cas_internet1"
     ],
-    "checkedAt": "2026-04-28T07:02:58.792Z"
+    "checkedAt": "2026-04-28T07:02:58.792Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.jaknaweb.com/script-ukazka/114/rucickove-hodiny-a-datum-u-kurzoru-mysi",
@@ -1283,7 +1343,10 @@
     "articles": [
       "cas_internet1"
     ],
-    "checkedAt": "2026-04-28T07:02:58.819Z"
+    "checkedAt": "2026-04-28T07:02:58.819Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.orloj.eu/cs/orloj_bici_stroj.htm",
@@ -1311,7 +1374,10 @@
     "articles": [
       "carokodky"
     ],
-    "checkedAt": "2026-04-28T07:02:58.515Z"
+    "checkedAt": "2026-04-28T07:02:58.515Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.presnycas.cz/",
@@ -1355,7 +1421,10 @@
     "articles": [
       "casova_pasma"
     ],
-    "checkedAt": "2026-04-28T07:02:59.101Z"
+    "checkedAt": "2026-04-28T07:02:59.101Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.sargentandgreenleaf.com/MN-timeDelay.php",
@@ -1369,7 +1438,10 @@
     "articles": [
       "casovy_zamek"
     ],
-    "checkedAt": "2026-04-28T07:02:59.251Z"
+    "checkedAt": "2026-04-28T07:02:59.251Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://cs.thetimenow.com/clock/",
@@ -1411,7 +1483,10 @@
     "articles": [
       "casovy_zamek"
     ],
-    "checkedAt": "2026-04-28T07:03:00.643Z"
+    "checkedAt": "2026-04-28T07:03:00.643Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.thisisit.ca/worldclock2001/",
@@ -1425,7 +1500,12 @@
     "articles": [
       "casova_pasma"
     ],
-    "checkedAt": "2026-04-28T07:02:59.106Z"
+    "checkedAt": "2026-04-28T07:02:59.106Z",
+    "wayback": {
+      "available": true,
+      "url": "http://web.archive.org/web/20100514052728/http://www.thisisit.ca:80/worldclock2001/",
+      "ts": "20100514052728"
+    }
   },
   {
     "url": "https://dl.dropboxusercontent.com/u/74738260/Bank_Vault_Anatomy.pdf",
@@ -1439,7 +1519,12 @@
     "articles": [
       "casovy_zamek"
     ],
-    "checkedAt": "2026-04-28T07:03:00.771Z"
+    "checkedAt": "2026-04-28T07:03:00.771Z",
+    "wayback": {
+      "available": true,
+      "url": "http://web.archive.org/web/20160303223330/https://dl.dropboxusercontent.com/u/74738260/Bank_Vault_Anatomy.pdf",
+      "ts": "20160303223330"
+    }
   },
   {
     "url": "https://www.osel.cz/3225-presnost-atomovych-hodin-gps-a-teorie-relativity.html",
@@ -1538,7 +1623,10 @@
     "articles": [
       "dcf77"
     ],
-    "checkedAt": "2026-04-28T07:03:01.512Z"
+    "checkedAt": "2026-04-28T07:03:01.512Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://hackaday.com/2014/03/22/build-your-own-radio-clock-transmitter/",
@@ -1665,7 +1753,12 @@
     "articles": [
       "decimalky"
     ],
-    "checkedAt": "2026-04-28T07:03:03.386Z"
+    "checkedAt": "2026-04-28T07:03:03.386Z",
+    "wayback": {
+      "available": true,
+      "url": "http://web.archive.org/web/20130524065953/http://www.swatch.com:80/xx_en/internettime.html",
+      "ts": "20130524065953"
+    }
   },
   {
     "url": "http://en.wikipedia.org/wiki/Decimal_time",
@@ -2021,7 +2114,12 @@
     "articles": [
       "decin_dalsi_stroje"
     ],
-    "checkedAt": "2026-04-28T07:03:08.909Z"
+    "checkedAt": "2026-04-28T07:03:08.909Z",
+    "wayback": {
+      "available": true,
+      "url": "http://web.archive.org/web/20160327202644/http://dominanty.cz/pamatky-velka-chmelistna.php",
+      "ts": "20160327202644"
+    }
   },
   {
     "url": "http://www.time.gov/",
@@ -2035,7 +2133,10 @@
     "articles": [
       "cas_internet2"
     ],
-    "checkedAt": "2026-04-28T07:02:58.910Z"
+    "checkedAt": "2026-04-28T07:02:58.910Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://digifolio.rvp.cz/user/view.php?id=1411",
@@ -2138,7 +2239,10 @@
     "articles": [
       "decin_jednotny_cas"
     ],
-    "checkedAt": "2026-04-28T07:03:10.495Z"
+    "checkedAt": "2026-04-28T07:03:10.495Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.ateo.cz",
@@ -2224,7 +2328,10 @@
     "articles": [
       "dernisaz2013"
     ],
-    "checkedAt": "2026-04-28T07:03:11.079Z"
+    "checkedAt": "2026-04-28T07:03:11.079Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.giovannisoft.cz/",
@@ -2238,7 +2345,12 @@
     "articles": [
       "download"
     ],
-    "checkedAt": "2026-04-28T07:03:11.110Z"
+    "checkedAt": "2026-04-28T07:03:11.110Z",
+    "wayback": {
+      "available": true,
+      "url": "http://web.archive.org/web/20170627153127/http://www.giovannisoft.cz/",
+      "ts": "20170627153127"
+    }
   },
   {
     "url": "http://foto-marusak.webnode.cz/",
@@ -2281,7 +2393,10 @@
     "articles": [
       "download"
     ],
-    "checkedAt": "2026-04-28T07:03:11.125Z"
+    "checkedAt": "2026-04-28T07:03:11.125Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://hodinarium.eu/download/CoJeCas.pdf",
@@ -2295,7 +2410,10 @@
     "articles": [
       "download"
     ],
-    "checkedAt": "2026-04-28T07:03:11.239Z"
+    "checkedAt": "2026-04-28T07:03:11.239Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://vt-2004.astro.cz/",
@@ -2337,7 +2455,10 @@
     "articles": [
       "edgecombe"
     ],
-    "checkedAt": "2026-04-28T07:03:11.702Z"
+    "checkedAt": "2026-04-28T07:03:11.702Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://cs-cz.facebook.com/KnesplMajzlikHodinarskyAtelier?fref=photo",
@@ -2577,7 +2698,10 @@
     "articles": [
       "flying_pendulum"
     ],
-    "checkedAt": "2026-04-28T07:03:14.111Z"
+    "checkedAt": "2026-04-28T07:03:14.111Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.chronometrophilia.ch/Electric-clocks/english.htm#fig10",
@@ -2619,7 +2743,10 @@
     "articles": [
       "flying_pendulum"
     ],
-    "checkedAt": "2026-04-28T07:03:14.122Z"
+    "checkedAt": "2026-04-28T07:03:14.122Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://orloj.eu/",
@@ -2675,7 +2802,10 @@
     "articles": [
       "janovice"
     ],
-    "checkedAt": "2026-04-28T07:03:15.082Z"
+    "checkedAt": "2026-04-28T07:03:15.082Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://home.vsb.cz/petr.bernat/texty/varhany/nastroje/janovice/janovicke_varhany.htm",
@@ -2689,7 +2819,10 @@
     "articles": [
       "janovice"
     ],
-    "checkedAt": "2026-04-28T07:03:15.107Z"
+    "checkedAt": "2026-04-28T07:03:15.107Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.atas.cz/",
@@ -2747,7 +2880,10 @@
     "articles": [
       "flying_pendulum"
     ],
-    "checkedAt": "2026-04-28T07:03:14.479Z"
+    "checkedAt": "2026-04-28T07:03:14.479Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.mobatime.cz/",
@@ -2776,7 +2912,10 @@
     "articles": [
       "kalendar_rimsky"
     ],
-    "checkedAt": "2026-04-28T07:03:16.226Z"
+    "checkedAt": "2026-04-28T07:03:16.226Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.curiavitkov.cz/clanek6.html",
@@ -2790,7 +2929,10 @@
     "articles": [
       "kalendar_rimsky"
     ],
-    "checkedAt": "2026-04-28T07:03:15.961Z"
+    "checkedAt": "2026-04-28T07:03:15.961Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.chilton.com/%7Ejimw/ballclks.html",
@@ -2818,7 +2960,10 @@
     "articles": [
       "kulicky"
     ],
-    "checkedAt": "2026-04-28T07:03:16.481Z"
+    "checkedAt": "2026-04-28T07:03:16.481Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.nobu-s.com/movie/swf_clock13.html",
@@ -2832,7 +2977,10 @@
     "articles": [
       "flying_pendulum"
     ],
-    "checkedAt": "2026-04-28T07:03:14.532Z"
+    "checkedAt": "2026-04-28T07:03:14.532Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.philohome.com/kojima_clock/ball_clock.htm",
@@ -2959,7 +3107,10 @@
     "articles": [
       "kuriozity1"
     ],
-    "checkedAt": "2026-04-28T07:03:18.496Z"
+    "checkedAt": "2026-04-28T07:03:18.496Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://hodinarium.eu/img/laplace/elektrarenske/elektrarna1c.jpg",
@@ -2973,7 +3124,10 @@
     "articles": [
       "laplace"
     ],
-    "checkedAt": "2026-04-28T07:03:18.679Z"
+    "checkedAt": "2026-04-28T07:03:18.679Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://hodinarium.eu/img/laplace/elektrarenske/elektrarna1a.jpg",
@@ -2987,7 +3141,10 @@
     "articles": [
       "laplace"
     ],
-    "checkedAt": "2026-04-28T07:03:18.718Z"
+    "checkedAt": "2026-04-28T07:03:18.718Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://www.antik-hovorka.cz/primland-clanky/",
@@ -3142,7 +3299,10 @@
     "articles": [
       "literatura"
     ],
-    "checkedAt": "2026-04-28T07:03:19.945Z"
+    "checkedAt": "2026-04-28T07:03:19.945Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.beachamsclockco.com/antique-clocks.shtml",
@@ -3156,7 +3316,10 @@
     "articles": [
       "lenzkirch"
     ],
-    "checkedAt": "2026-04-28T07:03:19.228Z"
+    "checkedAt": "2026-04-28T07:03:19.228Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://srebrnykruk.pl/do-pobrania/05-Zegarmistrzostwo-Wawrzyniec-Podwapin%CC%81ski.pdf",
@@ -3212,7 +3375,10 @@
     "articles": [
       "lenzkirch"
     ],
-    "checkedAt": "2026-04-28T07:03:19.619Z"
+    "checkedAt": "2026-04-28T07:03:19.619Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.clockguy.com/SiteRelated/SiteReferencePages/LenzkirchHistory.html",
@@ -3240,7 +3406,10 @@
     "articles": [
       "mapa"
     ],
-    "checkedAt": "2026-04-28T07:03:20.119Z"
+    "checkedAt": "2026-04-28T07:03:20.119Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://hodinarium.eu/download/EMdiplomka.pdf",
@@ -3254,7 +3423,10 @@
     "articles": [
       "mazan"
     ],
-    "checkedAt": "2026-04-28T07:03:20.939Z"
+    "checkedAt": "2026-04-28T07:03:20.939Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.zemepis.eu/stranka/mereni-casu",
@@ -3269,7 +3441,10 @@
       "mereni_casu",
       "novinky2"
     ],
-    "checkedAt": "2026-04-28T07:03:20.976Z"
+    "checkedAt": "2026-04-28T07:03:20.976Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://www.youtube.com/@muzeum_veznich_hodin",
@@ -3367,7 +3542,10 @@
     "articles": [
       "mobil"
     ],
-    "checkedAt": "2026-04-28T07:03:22.069Z"
+    "checkedAt": "2026-04-28T07:03:22.069Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://www.astro.cz/clanky/ostatni/jedrzejow-mesto-slunecnich-hodin.html",
@@ -3396,7 +3574,10 @@
       "mindelheim",
       "vezni_muzejicko_evropa"
     ],
-    "checkedAt": "2026-04-28T07:03:21.047Z"
+    "checkedAt": "2026-04-28T07:03:21.047Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.mobatime.cz",
@@ -3424,7 +3605,10 @@
     "articles": [
       "muzea_cr"
     ],
-    "checkedAt": "2026-04-28T07:03:22.382Z"
+    "checkedAt": "2026-04-28T07:03:22.382Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.zameksvetla.cz/",
@@ -3466,7 +3650,10 @@
     "articles": [
       "muzea_cr"
     ],
-    "checkedAt": "2026-04-28T07:03:23.319Z"
+    "checkedAt": "2026-04-28T07:03:23.319Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.technicalmuseum.cz/vystavy/vystava.jpg",
@@ -3480,7 +3667,10 @@
     "articles": [
       "muzea_cr"
     ],
-    "checkedAt": "2026-04-28T07:03:23.913Z"
+    "checkedAt": "2026-04-28T07:03:23.913Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.expozicecasu.cz/",
@@ -3509,7 +3699,10 @@
     "articles": [
       "muzea_cr"
     ],
-    "checkedAt": "2026-04-28T07:03:24.445Z"
+    "checkedAt": "2026-04-28T07:03:24.445Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://tourism.olomouc.eu/tourism/information-centre/exhibitions-at-the-town-hall/",
@@ -3523,7 +3716,10 @@
     "articles": [
       "muzea_cr"
     ],
-    "checkedAt": "2026-04-28T07:03:24.561Z"
+    "checkedAt": "2026-04-28T07:03:24.561Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.muzeum-teplice.cz/historicke-hodiny/",
@@ -3551,7 +3747,10 @@
     "articles": [
       "muzea_cr"
     ],
-    "checkedAt": "2026-04-28T07:03:24.997Z"
+    "checkedAt": "2026-04-28T07:03:24.997Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.upm.cz/index.php?language=cz&page=197",
@@ -3579,7 +3778,10 @@
     "articles": [
       "muzea_cr"
     ],
-    "checkedAt": "2026-04-28T07:03:25.886Z"
+    "checkedAt": "2026-04-28T07:03:25.886Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.muzeumcheb.cz/",
@@ -3607,7 +3809,10 @@
     "articles": [
       "muzea_cr"
     ],
-    "checkedAt": "2026-04-28T07:03:25.014Z"
+    "checkedAt": "2026-04-28T07:03:25.014Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://ces.mkcr.cz/",
@@ -3621,7 +3826,10 @@
     "articles": [
       "muzea_cr"
     ],
-    "checkedAt": "2026-04-28T07:03:22.122Z"
+    "checkedAt": "2026-04-28T07:03:22.122Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.radio.cz/cz/clanek/50301",
@@ -3691,7 +3899,10 @@
     "articles": [
       "kulicky"
     ],
-    "checkedAt": "2026-04-28T07:03:16.766Z"
+    "checkedAt": "2026-04-28T07:03:16.766Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://clock.web2001.cz/",
@@ -3705,7 +3916,10 @@
     "articles": [
       "muzea_cr"
     ],
-    "checkedAt": "2026-04-28T07:03:28.769Z"
+    "checkedAt": "2026-04-28T07:03:28.769Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://clock.web2001.cz/texty/znacky_v1.pdf",
@@ -3719,7 +3933,10 @@
     "articles": [
       "muzea_cr"
     ],
-    "checkedAt": "2026-04-28T07:03:28.828Z"
+    "checkedAt": "2026-04-28T07:03:28.828Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.muzeum-nmnm.cz/index.php/cz/expozice/hodinarska-expozice",
@@ -3748,7 +3965,10 @@
       "muzea_cr",
       "vezni_zikmund1"
     ],
-    "checkedAt": "2026-04-28T07:03:28.887Z"
+    "checkedAt": "2026-04-28T07:03:28.887Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://www.youtube.com/watch?v=6a5WC2qFFco",
@@ -3833,7 +4053,10 @@
     "articles": [
       "mystery"
     ],
-    "checkedAt": "2026-04-28T07:03:30.339Z"
+    "checkedAt": "2026-04-28T07:03:30.339Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.roger-russell.com/haddon/haddon.htm",
@@ -3875,7 +4098,10 @@
     "articles": [
       "nonsens2015"
     ],
-    "checkedAt": "2026-04-28T07:03:30.700Z"
+    "checkedAt": "2026-04-28T07:03:30.700Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://www.google.com/search?q=astronomical%20nocturnal&tbm=isch&tbs=rimg%3ACS4i4LSYrfXiImDpG90hZ6vqZv8KyDc7oravo4W9RekJ3gliD0t375ca9A8ppdB0qegoDINJabW6oFcsZ9wWMuLikYZJ8XyC4Yswc_1rs3l9JVEhYRYg8vKlUYrXG7KSGVjkIyRsExyEhPXoqEgnpG90hZ6vqZhF8uFV5LdF4PioSCf8KyDc7oravEUaZMLgjMfPeKhIJo4W9RekJ3gkR10nMc6fdyaAqEgliD0t375ca9BGsViEaEWO7LCoSCQ8ppdB0qegoERi2yf1voX-dKhIJDINJabW6oFcRqZlv1lQFDlsqEgksZ9wWMuLikRHFhOvUTnShfCoSCYZJ8XyC4YswEZQf5KMgqm5uKhIJc_1rs3l9JVEgRECfi6tfCeskqEglYRYg8vKlUYhHKQCVz6BYTFyoSCbXG7KSGVjkIEW8nr6Ta6rlaKhIJyRsExyEhPXoRLvSDxDQUr5Vhi0gX-FNarLE&rlz=1C1CHWL_csCZ847CZ847&hl=cs&ved=0CAIQrnZqFwoTCMDBxPfD9ugCFQAAAAAdAAAAABAM&biw=1344&bih=571",
@@ -3973,7 +4199,10 @@
     "articles": [
       "nonsens2015"
     ],
-    "checkedAt": "2026-04-28T07:03:31.803Z"
+    "checkedAt": "2026-04-28T07:03:31.803Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://uv201.com/Clock_Pages/mystery_clocks.htm",
@@ -4015,7 +4244,10 @@
     "articles": [
       "muzea_cr"
     ],
-    "checkedAt": "2026-04-28T07:03:24.757Z"
+    "checkedAt": "2026-04-28T07:03:24.757Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.webarchiv.cz/",
@@ -4113,7 +4345,10 @@
     "articles": [
       "perpetum_mobile"
     ],
-    "checkedAt": "2026-04-28T07:03:36.276Z"
+    "checkedAt": "2026-04-28T07:03:36.276Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://mve.energetika.cz/uvod/stirling.htm",
@@ -4141,7 +4376,10 @@
     "articles": [
       "nonsens2015"
     ],
-    "checkedAt": "2026-04-28T07:03:31.231Z"
+    "checkedAt": "2026-04-28T07:03:31.231Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.youtube.com/results?search_query=stirling+pendulum+clock+&search_type=",
@@ -4198,7 +4436,10 @@
     "articles": [
       "pichacky"
     ],
-    "checkedAt": "2026-04-28T07:03:37.217Z"
+    "checkedAt": "2026-04-28T07:03:37.217Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk",
@@ -4212,7 +4453,10 @@
     "articles": [
       "pichacky"
     ],
-    "checkedAt": "2026-04-28T07:03:38.507Z"
+    "checkedAt": "2026-04-28T07:03:38.507Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.workclocks.co.uk/dey.html",
@@ -4226,7 +4470,10 @@
     "articles": [
       "pichacky"
     ],
-    "checkedAt": "2026-04-28T07:03:37.594Z"
+    "checkedAt": "2026-04-28T07:03:37.594Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://62.168.39.166/paichl/hodiny.html",
@@ -4241,7 +4488,10 @@
       "muzea_cr",
       "novinky2"
     ],
-    "checkedAt": "2026-04-28T07:03:28.703Z"
+    "checkedAt": "2026-04-28T07:03:28.703Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.watchclocks.org/Types/19th_Century/52_Burk/52_burk.html",
@@ -4313,7 +4563,10 @@
     "articles": [
       "pichacky"
     ],
-    "checkedAt": "2026-04-28T07:03:38.337Z"
+    "checkedAt": "2026-04-28T07:03:38.337Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.douglas-self.com/MUSEUM/COMMS/airclock/airclock.htm",
@@ -4397,7 +4650,10 @@
     "articles": [
       "propeller_clock"
     ],
-    "checkedAt": "2026-04-28T07:03:39.798Z"
+    "checkedAt": "2026-04-28T07:03:39.798Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://youtu.be/gol_p2aWrJg?si=nUwjQInJs2A-c52s",
@@ -4425,7 +4681,10 @@
     "articles": [
       "propeller_clock"
     ],
-    "checkedAt": "2026-04-28T07:03:40.862Z"
+    "checkedAt": "2026-04-28T07:03:40.862Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.stirling.cz/",
@@ -4453,7 +4712,10 @@
     "articles": [
       "propeller_clock"
     ],
-    "checkedAt": "2026-04-28T07:03:41.397Z"
+    "checkedAt": "2026-04-28T07:03:41.397Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.freepatentsonline.com/6856303.html",
@@ -4481,7 +4743,10 @@
     "articles": [
       "nonsens2015"
     ],
-    "checkedAt": "2026-04-28T07:03:31.017Z"
+    "checkedAt": "2026-04-28T07:03:31.017Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://waitingtrain.blogspot.cz/",
@@ -4509,7 +4774,10 @@
     "articles": [
       "pulsynetic"
     ],
-    "checkedAt": "2026-04-28T07:03:43.193Z"
+    "checkedAt": "2026-04-28T07:03:43.193Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://pulsynetic.eu/turret/waiting-train/",
@@ -4607,7 +4875,10 @@
     "articles": [
       "razitka"
     ],
-    "checkedAt": "2026-04-28T07:03:45.448Z"
+    "checkedAt": "2026-04-28T07:03:45.448Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://business.center.cz/business/pravo/zakony/epodpis/cast1.aspx",
@@ -4621,7 +4892,10 @@
     "articles": [
       "razitka"
     ],
-    "checkedAt": "2026-04-28T07:03:45.379Z"
+    "checkedAt": "2026-04-28T07:03:45.379Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://vsol.obce.cz/clanek.asp?id=2006111",
@@ -4649,7 +4923,10 @@
     "articles": [
       "rimskedigi2"
     ],
-    "checkedAt": "2026-04-28T07:03:45.864Z"
+    "checkedAt": "2026-04-28T07:03:45.864Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://www.youtube.com/watch?v=VwSTKJxhaa4&feature=youtu.be",
@@ -4719,7 +4996,10 @@
     "articles": [
       "rimskedigi2"
     ],
-    "checkedAt": "2026-04-28T07:03:46.471Z"
+    "checkedAt": "2026-04-28T07:03:46.471Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://dratek.cz/arduino/1570-iic-i2c-display-lcd-1602-16x2-znaku-lcd-modul-modry.html",
@@ -4943,7 +5223,10 @@
     "articles": [
       "sitovky"
     ],
-    "checkedAt": "2026-04-28T07:03:48.565Z"
+    "checkedAt": "2026-04-28T07:03:48.565Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://www.christies.com/en/lot/lot-4973414",
@@ -4985,7 +5268,10 @@
     "articles": [
       "skymaster_ghost"
     ],
-    "checkedAt": "2026-04-28T07:03:49.002Z"
+    "checkedAt": "2026-04-28T07:03:49.002Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.hw.cz/Teorie-a-praxe/Dokumentace/ART1027-Presny-cas-na-PC-prostrednictvim-Internetu.html",
@@ -5056,7 +5342,10 @@
     "articles": [
       "slunecni"
     ],
-    "checkedAt": "2026-04-28T07:03:49.480Z"
+    "checkedAt": "2026-04-28T07:03:49.480Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.sweb.cz/hodiny/",
@@ -5070,7 +5359,10 @@
     "articles": [
       "slunecni"
     ],
-    "checkedAt": "2026-04-28T07:03:49.435Z"
+    "checkedAt": "2026-04-28T07:03:49.435Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.astroama.com/",
@@ -5084,7 +5376,10 @@
     "articles": [
       "slunecni"
     ],
-    "checkedAt": "2026-04-28T07:03:49.563Z"
+    "checkedAt": "2026-04-28T07:03:49.563Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://digilander.libero.it/orologi.solari/download/download.html",
@@ -5126,7 +5421,10 @@
     "articles": [
       "slunecni"
     ],
-    "checkedAt": "2026-04-28T07:03:50.069Z"
+    "checkedAt": "2026-04-28T07:03:50.069Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://perso.orange.fr/blateyron/sundials/shadowspro/gb/index.html",
@@ -5140,7 +5438,10 @@
     "articles": [
       "slunecni"
     ],
-    "checkedAt": "2026-04-28T07:03:50.107Z"
+    "checkedAt": "2026-04-28T07:03:50.107Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://slunecnihodiny.wz.cz/",
@@ -5154,7 +5455,10 @@
     "articles": [
       "slunecni"
     ],
-    "checkedAt": "2026-04-28T07:03:50.110Z"
+    "checkedAt": "2026-04-28T07:03:50.110Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://slunecnihodiny.wz.cz/sh/obrsh01.htm",
@@ -5168,7 +5472,10 @@
     "articles": [
       "slunecni"
     ],
-    "checkedAt": "2026-04-28T07:03:50.212Z"
+    "checkedAt": "2026-04-28T07:03:50.212Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://translationportal.epo.org/emtp/translate/?ACTION=abstract-retrieval&COUNTRY=GB&ENGINE=google&FORMAT=docdb&KIND=A&LOCALE=en_EP&NUMBER=673831&SRCLANG=EN&OPS=ops.epo.org/3.2&TRGLANG=cs",
@@ -5210,7 +5517,10 @@
     "articles": [
       "slunecni"
     ],
-    "checkedAt": "2026-04-28T07:03:50.019Z"
+    "checkedAt": "2026-04-28T07:03:50.019Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.slunecni-hodiny.webzdarma.cz/spolecnosti.html",
@@ -5267,7 +5577,10 @@
     "articles": [
       "propeller_clock"
     ],
-    "checkedAt": "2026-04-28T07:03:40.824Z"
+    "checkedAt": "2026-04-28T07:03:40.824Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.graffagnino.net/frankie/projects/propeller_clock/",
@@ -5281,7 +5594,10 @@
     "articles": [
       "propeller_clock"
     ],
-    "checkedAt": "2026-04-28T07:03:40.212Z"
+    "checkedAt": "2026-04-28T07:03:40.212Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.zastarouprahu.cz/ruzne/slunecni2.htm",
@@ -5337,7 +5653,10 @@
     "articles": [
       "slunecni_digi"
     ],
-    "checkedAt": "2026-04-28T07:03:51.440Z"
+    "checkedAt": "2026-04-28T07:03:51.440Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://vlastafiller.sweb.cz/",
@@ -5365,7 +5684,10 @@
     "articles": [
       "slunecni_filler"
     ],
-    "checkedAt": "2026-04-28T07:03:51.681Z"
+    "checkedAt": "2026-04-28T07:03:51.681Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://astro.mff.cuni.cz/mira/sh/sh.php?rec=43630",
@@ -5393,7 +5715,10 @@
     "articles": [
       "slunecni"
     ],
-    "checkedAt": "2026-04-28T07:03:51.381Z"
+    "checkedAt": "2026-04-28T07:03:51.381Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://spinka.webz.cz/",
@@ -5505,7 +5830,10 @@
     "articles": [
       "steampunk"
     ],
-    "checkedAt": "2026-04-28T07:03:53.186Z"
+    "checkedAt": "2026-04-28T07:03:53.186Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.fler.cz/chochojana",
@@ -5603,7 +5931,10 @@
     "articles": [
       "svarcvaldky"
     ],
-    "checkedAt": "2026-04-28T07:03:53.856Z"
+    "checkedAt": "2026-04-28T07:03:53.856Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.deutsches-uhrenmuseum.de/",
@@ -5617,7 +5948,10 @@
     "articles": [
       "svarcvaldky"
     ],
-    "checkedAt": "2026-04-28T07:03:53.725Z"
+    "checkedAt": "2026-04-28T07:03:53.725Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.sankt-maergen.de/de/kultur/uhren.php?sid=&psid=&lang=de&rg=7",
@@ -5631,7 +5965,10 @@
     "articles": [
       "svarcvaldky"
     ],
-    "checkedAt": "2026-04-28T07:03:53.917Z"
+    "checkedAt": "2026-04-28T07:03:53.917Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.antique-horology.org/_Editorial/BlackForestClocks/default.htm",
@@ -5659,7 +5996,10 @@
     "articles": [
       "svarcvaldky"
     ],
-    "checkedAt": "2026-04-28T07:03:53.896Z"
+    "checkedAt": "2026-04-28T07:03:53.896Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm",
@@ -5673,7 +6013,10 @@
     "articles": [
       "svarcvaldky"
     ],
-    "checkedAt": "2026-04-28T07:03:54.033Z"
+    "checkedAt": "2026-04-28T07:03:54.033Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://astro.mff.cuni.cz/mira/sh/sh.php",
@@ -5715,7 +6058,10 @@
     "articles": [
       "svarcvaldky"
     ],
-    "checkedAt": "2026-04-28T07:03:54.805Z"
+    "checkedAt": "2026-04-28T07:03:54.805Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.schwarzwalduhr.de/",
@@ -5771,7 +6117,10 @@
     "articles": [
       "svarcvaldky"
     ],
-    "checkedAt": "2026-04-28T07:03:54.871Z"
+    "checkedAt": "2026-04-28T07:03:54.871Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.uhrenhanse.de/sammlerecke/museen/schwarzwald/schwarzwald5.htm#%DCber%20die%20Schwarzwalduhr",
@@ -5799,7 +6148,10 @@
     "articles": [
       "svarcvaldky_stroje"
     ],
-    "checkedAt": "2026-04-28T07:03:55.164Z"
+    "checkedAt": "2026-04-28T07:03:55.164Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.allegro.pl/",
@@ -5814,7 +6166,10 @@
       "svarcvaldky_17stol",
       "svarcvaldky_hraci"
     ],
-    "checkedAt": "2026-04-28T07:03:55.055Z"
+    "checkedAt": "2026-04-28T07:03:55.055Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.gibbus.cz/",
@@ -5842,7 +6197,10 @@
     "articles": [
       "svetlonos"
     ],
-    "checkedAt": "2026-04-28T07:03:55.357Z"
+    "checkedAt": "2026-04-28T07:03:55.357Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.aukro.cz/",
@@ -5926,7 +6284,10 @@
     "articles": [
       "svarcvaldky"
     ],
-    "checkedAt": "2026-04-28T07:03:55.003Z"
+    "checkedAt": "2026-04-28T07:03:55.003Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.praha.eu/jnp/cz/extra/metamorfozy/orloj/index.html",
@@ -5940,7 +6301,10 @@
     "articles": [
       "svitici"
     ],
-    "checkedAt": "2026-04-28T07:03:55.633Z"
+    "checkedAt": "2026-04-28T07:03:55.633Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://home.zcu.cz/~poupa/oma50.html",
@@ -6024,7 +6388,10 @@
     "articles": [
       "synchronizace_hodin"
     ],
-    "checkedAt": "2026-04-28T07:03:56.286Z"
+    "checkedAt": "2026-04-28T07:03:56.286Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.meinbergglobal.com/english/sw/ntp.htm",
@@ -6276,7 +6643,10 @@
     "articles": [
       "svitici"
     ],
-    "checkedAt": "2026-04-28T07:03:55.422Z"
+    "checkedAt": "2026-04-28T07:03:55.422Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tabor-krov-jan-zizka-600-let.A200821_123202_imp-jihocesky_kov/",
@@ -6417,7 +6787,10 @@
       "vez_provoz2011",
       "vezni_muzejicko"
     ],
-    "checkedAt": "2026-04-28T07:04:04.651Z"
+    "checkedAt": "2026-04-28T07:04:04.651Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.u-spirku.cz/",
@@ -6545,7 +6918,10 @@
     "articles": [
       "vezni_muzejicko"
     ],
-    "checkedAt": "2026-04-28T07:04:06.073Z"
+    "checkedAt": "2026-04-28T07:04:06.073Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.husitskemuzeum.cz/view.php?nazevclanku=vystava-%E2%80%9Esobeslav-%E2%80%93-mesto-petiliste-ruze%E2%80%9C-v-sobeslavi&cisloclanku=2011060008",
@@ -6559,7 +6935,10 @@
     "articles": [
       "vez_provoz2011"
     ],
-    "checkedAt": "2026-04-28T07:04:04.721Z"
+    "checkedAt": "2026-04-28T07:04:04.721Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://lx.ujf.cas.cz/time/pctime-cz.html",
@@ -6573,7 +6952,10 @@
     "articles": [
       "synchronizace_hodin"
     ],
-    "checkedAt": "2026-04-28T07:03:57.192Z"
+    "checkedAt": "2026-04-28T07:03:57.192Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://www.facebook.com/watch/?v=584102629482123",
@@ -6602,7 +6984,10 @@
       "vezni_muzejicko",
       "vezni_muzejicko_evropa"
     ],
-    "checkedAt": "2026-04-28T07:04:07.385Z"
+    "checkedAt": "2026-04-28T07:04:07.385Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.mindelheim.de/museen/mindelheimer-museen",
@@ -6616,7 +7001,10 @@
     "articles": [
       "vezni_muzejicko"
     ],
-    "checkedAt": "2026-04-28T07:04:06.375Z"
+    "checkedAt": "2026-04-28T07:04:06.375Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.waldmuenchen.de/turm_geschichte.html",
@@ -6630,7 +7018,10 @@
     "articles": [
       "vezni_muzejicko"
     ],
-    "checkedAt": "2026-04-28T07:04:07.689Z"
+    "checkedAt": "2026-04-28T07:04:07.689Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.mhmg.gda.pl/oddzial/3/muzeum-zegarow-wiezowych",
@@ -6644,7 +7035,10 @@
     "articles": [
       "vezni_muzejicko"
     ],
-    "checkedAt": "2026-04-28T07:04:07.696Z"
+    "checkedAt": "2026-04-28T07:04:07.696Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.bockenem.de/tourismus/museum-der-zeit.html",
@@ -6674,7 +7068,10 @@
       "vezni_muzejicko",
       "vezni_muzejicko_evropa"
     ],
-    "checkedAt": "2026-04-28T07:04:08.148Z"
+    "checkedAt": "2026-04-28T07:04:08.148Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://commons.wikimedia.org/wiki/Category:Turmuhrenmuseum_Bockenem",
@@ -6702,7 +7099,10 @@
     "articles": [
       "vezni_muzejicko"
     ],
-    "checkedAt": "2026-04-28T07:04:07.280Z"
+    "checkedAt": "2026-04-28T07:04:07.280Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://olomouc.idnes.cz/litovelska-radnicni-vez-nabizi-krome-vyhledu-i-komurku-hlasneho-pxr-/olomouc-zpravy.aspx?c=A120514_1777773_olomouc-zpravy_sot",
@@ -6744,7 +7144,10 @@
     "articles": [
       "vezni_muzejicko_evropa"
     ],
-    "checkedAt": "2026-04-28T07:04:08.964Z"
+    "checkedAt": "2026-04-28T07:04:08.964Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://theclockworks.org/",
@@ -6772,7 +7175,10 @@
     "articles": [
       "vezni_muzejicko_evropa"
     ],
-    "checkedAt": "2026-04-28T07:04:09.599Z"
+    "checkedAt": "2026-04-28T07:04:09.599Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://zamekbrandlin.cz/",
@@ -6800,7 +7206,10 @@
     "articles": [
       "synchronizace_hodin"
     ],
-    "checkedAt": "2026-04-28T07:03:58.412Z"
+    "checkedAt": "2026-04-28T07:03:58.412Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.trebino.it/Objects/Pagina.asp?ID=5&T=Museo%20orologi",
@@ -6856,7 +7265,10 @@
     "articles": [
       "vezni_muzejicko_evropa"
     ],
-    "checkedAt": "2026-04-28T07:04:10.912Z"
+    "checkedAt": "2026-04-28T07:04:10.912Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.uhrenmuseum.at/",
@@ -6926,7 +7338,10 @@
     "articles": [
       "vezni_muzejicko_evropa"
     ],
-    "checkedAt": "2026-04-28T07:04:11.486Z"
+    "checkedAt": "2026-04-28T07:04:11.486Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.technicalmuseum.cz/",
@@ -6982,7 +7397,10 @@
     "articles": [
       "vezni_muzejicko_evropa"
     ],
-    "checkedAt": "2026-04-28T07:04:12.012Z"
+    "checkedAt": "2026-04-28T07:04:12.012Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://pl.wikipedia.org/wiki/Muzeum_Zegar%C3%B3w_Wie%C5%BCowych",
@@ -7096,7 +7514,10 @@
       "vodni_B_Gitton",
       "vodni_odkazy"
     ],
-    "checkedAt": "2026-04-28T07:04:13.854Z"
+    "checkedAt": "2026-04-28T07:04:13.854Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://en.wikipedia.org/wiki/Water_clock",
@@ -7139,7 +7560,10 @@
     "articles": [
       "vodni_odkazy"
     ],
-    "checkedAt": "2026-04-28T07:04:14.919Z"
+    "checkedAt": "2026-04-28T07:04:14.919Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://kdf.mff.cuni.cz/veletrh/sbornik/Veletrh_05/05_26_Patc.html",
@@ -7153,7 +7577,10 @@
     "articles": [
       "vodni_odkazy"
     ],
-    "checkedAt": "2026-04-28T07:04:14.978Z"
+    "checkedAt": "2026-04-28T07:04:14.978Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://kdf.mff.cuni.cz/veletrh/sbornik/Veletrh_06/06_08_Hotova.html",
@@ -7167,7 +7594,10 @@
     "articles": [
       "vodni_odkazy"
     ],
-    "checkedAt": "2026-04-28T07:04:15.057Z"
+    "checkedAt": "2026-04-28T07:04:15.057Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://www.youtube.com/results?search_query=water+clock",
@@ -7209,7 +7639,10 @@
     "articles": [
       "vezni_muzejicko"
     ],
-    "checkedAt": "2026-04-28T07:04:06.081Z"
+    "checkedAt": "2026-04-28T07:04:06.081Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.youtube.com/results?search_query=roling+ball+clock&search_type=",
@@ -7405,7 +7838,10 @@
     "articles": [
       "zapekane"
     ],
-    "checkedAt": "2026-04-28T07:04:22.085Z"
+    "checkedAt": "2026-04-28T07:04:22.085Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.youtube.com/watch?v=IO25JYZIKPI",
@@ -7433,7 +7869,10 @@
     "articles": [
       "zidovske"
     ],
-    "checkedAt": "2026-04-28T07:04:22.112Z"
+    "checkedAt": "2026-04-28T07:04:22.112Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.firmy.cz/detail/1949348-stanislav-marusak-foto-roztoky.html",
@@ -7447,7 +7886,10 @@
     "articles": [
       "zidovske"
     ],
-    "checkedAt": "2026-04-28T07:04:22.225Z"
+    "checkedAt": "2026-04-28T07:04:22.225Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.youtube.com/watch?v=QMX1syA6R84&NR=1",
@@ -7475,7 +7917,10 @@
     "articles": [
       "zidovske"
     ],
-    "checkedAt": "2026-04-28T07:04:22.370Z"
+    "checkedAt": "2026-04-28T07:04:22.370Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.veznihodiny.cz/ukaz4.htm",
@@ -7574,7 +8019,10 @@
     "articles": [
       "spolek"
     ],
-    "checkedAt": "2026-04-28T07:04:23.257Z"
+    "checkedAt": "2026-04-28T07:04:23.257Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://ib.fio.cz/ib/transparent?a=2801617704",
@@ -7616,7 +8064,10 @@
     "articles": [
       "vodni_B_Gitton"
     ],
-    "checkedAt": "2026-04-28T07:04:13.393Z"
+    "checkedAt": "2026-04-28T07:04:13.393Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "https://or.justice.cz/ias/ui/vypis-sl-detail?dokument=42887580&subjektId=794447&spis=439453",
@@ -7658,7 +8109,10 @@
     "articles": [
       "vodni_B_Gitton"
     ],
-    "checkedAt": "2026-04-28T07:04:13.371Z"
+    "checkedAt": "2026-04-28T07:04:13.371Z",
+    "wayback": {
+      "available": false
+    }
   },
   {
     "url": "http://www.marcdatabase.com/%7Elemur/dm-gitton.html",
@@ -7673,6 +8127,9 @@
       "vodni_B_Gitton",
       "vodni_odkazy"
     ],
-    "checkedAt": "2026-04-28T07:04:13.502Z"
+    "checkedAt": "2026-04-28T07:04:13.502Z",
+    "wayback": {
+      "available": false
+    }
   }
 ]

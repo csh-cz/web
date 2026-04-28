@@ -32,6 +32,6 @@ Exponát Hodinária je funkční časový zámek Thomas Fox Mechanical Time Over
 -   [Web dodavatele našeho exponátu.](http://www.safeandvaultcompany.co.uk/)
 -   [Základní popis funkce a použití časových zámků](http://www.jinova.cz/trezor-s-casovym-zamkem).
 -   [Wikipedia](https://en.wikipedia.org/wiki/Time_lock) (anglicky)
--   [Bank Vault Anathomy](https://dl.dropboxusercontent.com/u/74738260/Bank_Vault_Anatomy.pdf).
+-   [Bank Vault Anathomy](http://web.archive.org/web/20160303223330/https://dl.dropboxusercontent.com/u/74738260/Bank_Vault_Anatomy.pdf).
 -   [TMI Guide to Timelock Movements](http://www.sopl.us/uploads/1/3/0/1/1301029/tmi_guide_to_timelock_2009.pdf).
 -   [I v počítačovém bankovnictví se používá druh časového zámku](http://finexpert.e15.cz/ceska-sporitelna-prodluzuje-tzv-casovy-zamek-pri-zmene-telefonniho-cisla-v-internetovem-bankovnictvi).
