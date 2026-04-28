@@ -91,14 +91,14 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
     ze serveru [www.zemepis.eu/stranka/mereni-casu](http://www.zemepis.eu/stranka/mereni-casu)
 -   1\. 2. 2009 [Římský kalendář](/clanky/kalendar_rimsky) Díky laskavosti autora uvádíme celý článek ze serveru
     [ANTIKA.avonet.cz](http://antika.avonet.cz/)
--   18\. 1. 2009 Doplněny části o Virtuálnám muzeu hodin, o.s. [Úvod](sdruzeni.htm), [stanovy](/clanky/stanovy),
-    [sponzorování](/clanky/sponsor) včetně banerů. Založena možnost výměny odkazů.
+-   18\. 1. 2009 Doplněny části o Virtuálnám muzeu hodin, o.s. — úvod, [stanovy](/clanky/stanovy),
+    sponzorování včetně banerů. Založena možnost výměny odkazů.
 -   17\. 1. 2009 Obecně o orlojích a zejména [o orlojích v Uherském Brodu](orloj_uherskybrod.htm)
     s množstvím podstránek (převzato)
 -   17\. 1. 2009 Decimálky doplněny o [Internetový Swatch čas](decimalky.htm#internet) "Jeden svět - jeden čas",
     zavináčovky funkční včetně převodního formuláře
 -   17\. 1. 2009 Stránka [o obdivu k prezentaci orloje v Ulmu](orloj_ulm.htm)
--   15\. 1. 2009 Doplněna [strána o možnosti sponzorování](/clanky/sponsor)
+-   15\. 1. 2009 Doplněna stránka o možnosti sponzorování
 -   12\. 1. 2009 Nová [**home**](home1.htm) stránka
 -   * * *
 

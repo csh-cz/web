@@ -273,7 +273,7 @@ Proto při úzké obrazovce horní měnu není rozbalovací a vede na tuto mapu 
     -   [Stanovy](/clanky/stanovy)
         -   [Zapis 18.1.2019](/clanky/zapis20190118)
         -   [Zapis 10.1.2020](/clanky/zapis20200110)
-    -   [Financování](/clanky/sponsor)
+    -   Financování
     -   Hospodaření
         -   [Rok 2016](/download/spolek/Hospodareni2016.pdf)
         -   [Rok 2017](/download/spolek/Hospodareni2017.pdf)
