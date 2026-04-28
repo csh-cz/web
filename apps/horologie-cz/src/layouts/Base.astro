@@ -61,7 +61,10 @@ const ogImage = new URL(`/og/${slug}.png`, site).toString();
     <header class="site-header sticky top-0 z-20" role="banner">
       <nav class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between gap-4" aria-label="Hlavní navigace">
         <a href="/" class="brand" style="border-bottom: none;" aria-label="Český spolek horologický — domů">
-          <img src="/img/logo.jpg" alt="" width="36" height="37" />
+          <picture>
+            <source srcset="/img/logo-csh.svg" type="image/svg+xml" />
+            <img src="/img/logo-csh.png" alt="" width="36" height="36" />
+          </picture>
           <span class="hidden sm:inline">Český spolek horologický</span>
           <span class="sm:hidden">ČSH</span>
         </a>
@@ -175,11 +178,9 @@ const ogImage = new URL(`/og/${slug}.png`, site).toString();
     flex-shrink: 0;
   }
   .brand img {
-    border-radius: 2px;
-    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
-    object-fit: cover;
     width: 36px;
-    height: 37px;
+    height: 36px;
+    object-fit: contain;
   }
   .nav-sister {
     color: var(--color-copper) !important;

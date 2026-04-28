@@ -13,7 +13,10 @@ const vybor = [
     <p class="eyebrow mb-5">Spolková agenda · IČO 26573008</p>
 
     <div class="hero-title-row">
-      <img class="hero-logo" src="/img/logo.jpg" alt="Logo Českého spolku horologického" width="180" height="185" />
+      <picture class="hero-logo-pic">
+        <source srcset="/img/logo-csh.svg" type="image/svg+xml" />
+        <img class="hero-logo" src="/img/logo-csh.png" alt="Logo Českého spolku horologického" width="180" height="180" />
+      </picture>
       <h1 class="hero-title">
         Český spolek<br/>horologický
       </h1>
@@ -127,16 +130,10 @@ const vybor = [
     flex-wrap: wrap;
   }
 
+  .hero-logo-pic { display: contents; }
   .hero-logo {
     width: 110px;
     height: auto;
-    border-radius: 4px;
-    border: 2px solid color-mix(in srgb, var(--color-brass) 40%, transparent);
-    box-shadow:
-      0 4px 16px rgba(0, 0, 0, 0.4),
-      inset 0 1px 0 color-mix(in srgb, var(--color-brass) 25%, transparent);
-    background: var(--color-bg-elevated);
-    padding: 4px;
     flex-shrink: 0;
     display: block;
   }
