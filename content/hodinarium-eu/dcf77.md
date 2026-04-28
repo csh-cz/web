@@ -1,17 +1,17 @@
 ---
-title: "DCF 77 - rádiem řízené hodiny"
+title: "DCF 77 — rádiem řízené hodiny"
 slug: "dcf77"
 category: "projekty"
 originalUrl: "https://hodinarium.eu/dcf77.htm"
 lastModified: "Sat, 16 Aug 2025 15:13:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:46.354Z"
+manualEdit: true
+ogImage: "/img/dcf_analog.jpg"
 ---
-![DCF pendlovky](/img/dcf_pendlovky.jpg)
+![Analogový DCF budík — kombinace klasického ciferníku a atomové přesnosti](/img/dcf_analog.jpg)
 
-![Náramkové digitální hodinky s přijímačem DCF](/img/dcf_naramkove.jpg)
-
-Hodiny se synchronizovaly již v dávné minulosti. Zvukem (výstřel z děla), světlem (mávnutí praporem), později vysíláním časového signálu v rádiu či v televizi. Automatizovaně se synchronizovaly hodiny pomocí speciálních sítí (systémy matričních a podružných hodin), přenosem signálu po elektrickém vedení, Internetem.
+Hodiny se synchronizovaly již v dávné minulosti. Zvukem (výstřel z děla), světlem (mávnutí praporem), později vysíláním časového signálu v rádiu či v televizi. ![Náramkové digitální DCF hodinky](/img/dcf_naramkove.jpg) Automatizovaně se synchronizovaly hodiny pomocí speciálních sítí (systémy matričních a podružných hodin), přenosem signálu po elektrickém vedení, Internetem.
 
 Stále se hledají cesty jak levně obsáhnout co největší okruh uživatelů. **Radiové vysílání DCF 77 je jedna možnost.** **DCF77** je rádiová stanice vysílající časový signál, podle kterého se (pomocí časových značek) hodiny samy nastaví a jdou stále přesně, včetně nastavení na letní čas zpět.
 
@@ -19,21 +19,23 @@ Přijímače signálu DCF jsou stále levnější (nejlevnější prodejní cena
 
 Typickým znakem hodin "řízených rádiem" je symbol vysílače a případný nápis "Radio Controlled Clock". *(Pozor, nezaměnit s Radio Clock- rádiobudíkem, tedy za rádio s vestavěným budíkem. )*
 
-**H**odiny s DCF přijímačem se obvykle vyrábějí, zejména z cenových důvodů, jako digitální. V muzeu kuriózních hodin ukážeme proto i několik analogových a kombinovaných budíků. Existují DCF nádražní hodiny i DCF pendlovky. Kyvadlo je zde ovšem spíše jakýmsi mávátkem bez vlivu na chod hodin. Nicméně je to docela efektní. Je celkem zajímavé pozorovat počáteční nastavení analogových hodin. "Pendlovky" vlevo se po vložení baterie nastaví na pozici 4, 8 nebo 12 hodin ![DCF hodinky Eurochron -Kryt z ušlechtilé oceli bez niklu, hnědý kožený pásek se sponkou z ušlechtilé oceli, vodotěsné do 50 m, minerální sklo odolné proti poškrábání, automatické nastavení času a přepínání letního/zimní čas, nastavení světových časových zón, indikace hodin, minut, sekund, Indikace data](/img/dcf_naramkove2.jpg)a vyčkávají cca 4 minuty na příjem rádio signálu. Správný časový údaj se kontroluje 12 x za den.
+**H**odiny s DCF přijímačem se obvykle vyrábějí, zejména z cenových důvodů, jako digitální. ![DCF pendlovky — efektní „mávátko" bez vlivu na chod](/img/dcf_pendlovky.jpg) V muzeu kuriózních hodin ukážeme proto i několik analogových a kombinovaných budíků. Existují DCF nádražní hodiny i DCF pendlovky. Kyvadlo je zde ovšem spíše jakýmsi mávátkem bez vlivu na chod hodin. Nicméně je to docela efektní. Je celkem zajímavé pozorovat počáteční nastavení analogových hodin. „Pendlovky" se po vložení baterie nastaví na pozici 4, 8 nebo 12 hodin a vyčkávají cca 4 minuty na příjem rádiového signálu. ![DCF hodinky Eurochron — analogový vzhled, atomová přesnost](/img/dcf_naramkove2.jpg) Správný časový údaj se kontroluje 12× za den.
 
 Přijímač DCF lze dnes vestavět i do náramkových hodinek. Kdybych si pořizoval nové hodinky, asi bych sáhl po kombinaci klasického vzhledu s analogovým ukazatelem času a přesnosti atomových hodin dosaženou synchronizací DCF přijímačem. Prostě ručičky jsou ručičky a bezstarostnost o nastavení je to pravé, co nabízejí například **[DCF hodinky Eurochron](http://www.chrono.cz/radiem-rizene-hodinky/)** na obrázku vpravo. Navíc [**římské**](/clanky/rimskedigi) číslice na ciferníku....
 
-## Vysílač časového signálu![Analogový DCF budík](/img/dcf_analog.jpg)
+## Vysílač časového signálu
 
 Časová informace je vysílána stanicí DCF77 na dlouhých vlnách s kmitočtem 77,5 kHz z vysílače v Mainflingenu (asi 24 km jihovýchodně od Frankfurtu nad Mohanem, souřadnice 50°01' severní šířky, 09°00' východní délky). Vysílač má výkon 50 kW, odhadnutý vyzářený výkon je přibližně 25 kW. K vysílání je určena 150 m vysoká (200 m vysoká záložní) vertikální všesměrová anténa s kapacitním nástavcem. Dosah vysílače je okolo 1500–2000 km.
 
-**S**třední hodnota nosného kmitočtu 77,5 kHz se neodchyluje od jmenovité hodnoty více než o 10\-12 týdně. Relativní nepřesnost za více než 100 dní je pouze 2.10\-13. Provádět měření přesnosti za kratší dobu nemá význam, neboť vysílač vysílá za týden pouze 77500\*3600\*24\*7 = 4,6872\*1010 sinusových kmitů. Aby bylo kontrolní měření prováděno s přesností 10\-12, musí rozeznat 1/20 periody za týden. Dlouhodobá přesnost 2\*10\-13 odpovídá při 77,5 kHz jednomu kmitu za dva roky.**[![DCF budík](/img/dcf_kombinace.jpg)](Ru%C4%8Di%C4%8Dkov%C3%A9%20hod%20s%20bud%C3%ADkem%20a%20projektorem%20DCF-77)**
+**S**třední hodnota nosného kmitočtu 77,5 kHz se neodchyluje od jmenovité hodnoty více než o 10⁻¹² týdně. Relativní nepřesnost za více než 100 dní je pouze 2·10⁻¹³. Provádět měření přesnosti za kratší dobu nemá význam, neboť vysílač vysílá za týden pouze 77 500 × 3600 × 24 × 7 = 4,6872 × 10¹⁰ sinusových kmitů. ![Ručičkové hodiny s budíkem a projektorem DCF-77](/img/dcf_kombinace.jpg) Aby bylo kontrolní měření prováděno s přesností 10⁻¹², musí rozeznat 1/20 periody za týden. Dlouhodobá přesnost 2 × 10⁻¹³ odpovídá při 77,5 kHz jednomu kmitu za dva roky.
 
 **K**ódování časové informace je prováděno pulzně šířkovou modulací, poklesem amplitudy nosné na 25 % na začátku každé sekundy. Klíčování je synchronizováno fázovou synchronizací s nosnou a odpovídá na 10 mikrosekund přesně úřední časové stupnici fyzikálně technického ústavu v Braunschweigu (PTB - Physikalisch-Technischen Bundesanstalt).
 
 Částečně citováno z „[cs.wikipedia.org/wiki/DCF77](http://cs.wikipedia.org/wiki/DCF77)“
 
-**![nejlevnější DCF hodinový modul](/img/dcf_modul.jpg)**Nejlevnější nové DCF hodiny lze patrně získat zakoupením vestavného modulu WT100 (viz obrázek). Panel ukazuje čas s přesností sekund. Synchronizace s vysílačem probíhá 1 x za hodinu. Nejlevnější náramkové digitální DCF hodinky lze získat za cenu pod 400.- Kč. Zakoupit lze i samostatné strojky ručičkových hodin s kyvadlem.
+![Nejlevnější DCF hodinový modul WT100](/img/dcf_modul.jpg)
+
+Nejlevnější nové DCF hodiny lze patrně získat zakoupením vestavného modulu WT100 (viz obrázek). Panel ukazuje čas s přesností sekund. Synchronizace s vysílačem probíhá 1× za hodinu. Nejlevnější náramkové digitální DCF hodinky lze získat za cenu pod 400 Kč. Zakoupit lze i samostatné strojky ručičkových hodin s kyvadlem.
 
 ## Další použití
 

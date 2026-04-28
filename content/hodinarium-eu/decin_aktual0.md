@@ -138,7 +138,7 @@ Výjezdní zasedání Českého spolku horologického v Hodináriu
 
 ![Fotografie 25](/img/decin0/f/foto_0025.jpg)
 
-**[Další fotografie pana S. Marušáka těsně před otevřením.](/clanky/decin_2015_08_04)**
+**Další fotografie Stana Marušáka z přípravy expozice najdete u akce [Stěhování 2015](https://horologie-cz.pages.dev/akce/stehovani-2015).**
 
 Výjezdní zasedání Českého spolku horologického v Hodináriu
 

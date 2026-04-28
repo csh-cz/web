@@ -13,7 +13,7 @@ Princip pohonu je poměrně jednoduchý. Kompresní žárovka je zapnuta kontakt
 
 ![Obvyklý tvar kompresní žárovky](/img/elektrika/junhhans/kompresslampe.jpg)
 
-!
+![Schéma zapojení elektro-pneumatického nátahu Junghans](/img/elektrika/junhhans/schema1.jpg)
 
 1 - síťový přívod 220 V
 2 - minutový kontakt spínán hodinovým strojem
@@ -24,7 +24,7 @@ Princip pohonu je poměrně jednoduchý. Kompresní žárovka je zapnuta kontakt
 7 - blokovací západka proti zpětnému pohybu
 8 - rohatka blokovací západka proti zpětnému pohyb
 
-!
+![Patentový výkres Elektronom — princip elektro-pneumatického nátahu](/img/elektrika/junhhans/elektronom_patent.gif)
 
 **Zdroj tlakových pulzů**
 

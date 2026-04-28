@@ -13,13 +13,12 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 
-const lastModifiedReadable = entry.data.lastModified
-  ? new Date(entry.data.lastModified).toLocaleDateString('cs-CZ', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-    })
-  : undefined;
+const lastModifiedReadable = (() => {
+  if (!entry.data.lastModified) return undefined;
+  const d = new Date(entry.data.lastModified);
+  if (Number.isNaN(d.getTime())) return undefined;
+  return d.toLocaleDateString('cs-CZ', { year: 'numeric', month: 'long', day: 'numeric' });
+})();
 ---
 <Base title={entry.data.title} description="">
   <nav class="breadcrumbs" aria-label="Drobečková navigace">

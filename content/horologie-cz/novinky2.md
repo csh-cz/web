@@ -18,7 +18,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 * * *
 
 -   29.12.2015 [Kovaný stroj Wenzel Mellner](/clanky/decin_Wenzel_Mellner) zakoupený naším sponzorem se začíná restaurovat.
--   4\. 9.2015 [První otevření Hodinária](/clanky/decin_2015_09_04)
+-   4\. 9. 2015 První otevření Hodinária Děčín
 -   20\. 8. 2015 Instalován [elektrický bicí stroj Brillie](/clanky/decin_bici_stroje)
 -   6\. 8. 2015 Výstavka 2015 v Hodináriu Děčín. [Výtvarné miniatury ve tvaru kostky - Dr. Jaroslav Adam](/clanky/kostky)
 

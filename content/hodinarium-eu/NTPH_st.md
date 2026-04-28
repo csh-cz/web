@@ -23,8 +23,6 @@ Hodiny jsou vyrobeny 3D tiskem ve dvou variantách a jsou ovládané elektroniko
 
 Nejsou to tedy běžné hodiny s jednoduchou obsluhou. Předpokládá se základní orientace v organizaci připojení k internetu v místě použití.
 
-##
-
 ## Návod k obsluze
 
 Platí od 1.3.2024, kdy je doplněna funkce WPS tlačítka .
@@ -62,13 +60,11 @@ ESP8266 prvotně obsluhuje WiFi komunikaci. Zde ještě obtížněji, protože h
 
 ## Připojení na vnitřní web
 
-##
-
 Vnitřní web je základním způsobem ovládání hodin. Po zapnutí hodiny spustí WiFi s názvem sítě NTPH-xxxx, kde xxxx jsou poslední čtyři znaky MAC adresy WiFi adaptéru. Připojíte se na tuto síť bez hesla a v prohlížeči zadáte 192.168.4.1 Objeví se základní obrazovka jako na spodním obrázku. Přistoupíte k zadání způsobu získání aktuálního času, tedy obvykle k nastavení připojení k internetu.Modul provede Scan okolí a umožní vybrat síť a zadat heslo.
 
-### ![NTPH 2](/img/NTPH/NTPH2.jpg)
-
 ## Připojení k internetu
+
+<img src="/img/NTPH/NTPH2.jpg" alt="Vstupní obrazovka NTPH webu po zapnutí" class="img-standalone" loading="lazy" />
 
 Po připojení na vnitřní web klikněte na volbu "Scan + WiFi" a přejdete k výběru sítě (viz obrázek vpravo). Hodiny provedou Scan okolí a nalezené WiFi sítě zobrazí pomocí rozbalovacího menu. Klikněte na něj a ze seznamu zobrazených sítí doplněných sílou signálu si kliknutím vyberete nejvhodnější přístupový bod. Dále zadáte heslo. Ve většině případů můžete přednastavený NTP server ponechat. Informace hodinám odešlete tlačítkem Send. Tím ukončíte čekací smyčku na zadání z webu. Hodiny se nyní budou pokoušet o připojení k vámi zadané WiFi a o získání času ze zadaného NTP serveru. Pokud uspějí, nastaví si aktuální čas
 
@@ -86,9 +82,9 @@ Hodiny umožňují také autonomní provoz do okamžiku vypnutí. Pamatují si p
 
 O další volbě "Scan + WiFi" jsme již psali. Následuje různobarevné okno aktuálního stavu.
 
-### ![NTPH 1](/img/NTPH/NTPH1.jpg)
-
 ### Okno aktuálního stavu
+
+<img src="/img/NTPH/NTPH1.jpg" alt="Hlavní stránka komunikačního webu NTPH s oknem aktuálního stavu" class="img-standalone" loading="lazy" />
 
 Okno zobrazuje datum a čas získaný z NTP serveru a informaci o tom, jaký je stav na hodinách a co případně hodiny dělají. Získaný čas je SE(L)Č, tedy respektuje případný letní čas. Je-li pole olivové barvy, jde o normální chod hodin. Červená barva značí, že hodiny byly zastaveny povelem "STOP" nebo na něco čekají. Žlutá barva značí, že se hodiny právě seřizují. Čas na hodinách je v tomto případě komentován textem "FAST" na rozdíl od stavu "CHOD". Aktuální okno se obnovuje jednou za minutu kromě stavu "FAST", kdy je refresch za 2 sec. Při změně stavu je vhodné obnovit celou stránku tlačítkem "Refresch".
 

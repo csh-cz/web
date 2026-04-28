@@ -1,17 +1,22 @@
 ---
-title: "Astronomické spínací hodiny - Syst. Fr. Sauter"
+title: "Astronomické spínací hodiny — Syst. Fr. Sauter"
 slug: "astronomicke_Sauter"
 category: "projekty"
 originalUrl: "https://hodinarium.eu/astronomicke_Sauter.htm"
 lastModified: "Tue, 08 Sep 2020 00:00:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:24.078Z"
+manualEdit: true
+tldr: "Mechanické astronomické spínací hodiny systému Fr. Sauter Basel, výrobní č. 333573 ZWE6K. Vačky východu a západu Slunce zajišťovaly automatické přizpůsobení doby spínání podle roční doby."
 ---
-![spínací kotouč](https://hodinarium.eu/img/astronomicky_Sauter/f/Sauter1.jpg)
+Pod pojmem **spínací astronomické hodiny** se obvykle myslí spínací hodiny, které dobu spínání automaticky upravují podle roční doby. Dnes takové hodiny jsou řízeny programem mikropočítače. V dobách mechanických to zajišťovaly **vačky východu a západu Slunce**.
 
-Pod pojmen spínací astronomické hodiny se obvykle myslí spínací hodiny, které dobu spínání automaticky upravují podle roční doby. Dnes takové hodiny jsou řízeny programem mikropočítače. V dobách mechanických to zajišťovaly vačky východu a západu Slunce. Hodiny System Fr. Sauter a.s. v Basileji (zakoupeny pro Č.S.R. S. Schop. Praha ??) jsou mechanické hodiny natahované elektromotorem. Výrobní číslo je 333573 ZWE6K. Cívky motoru se mohou zapojit buď na 220 V nebo na 380 V. Hodinová hřídel se otočí jednou za 24 hodin a nese vlastní spínací systém na obrázku.
+Hodiny System Fr. Sauter a. s. v Basileji (zakoupeny pro Č. S. R. S. Schop. Praha) jsou mechanické hodiny natahované elektromotorem. Výrobní číslo je **333573 ZWE6K**. Cívky motoru se mohou zapojit buď na 220 V nebo na 380 V. Hodinová hřídel se otočí jednou za 24 hodin a nese vlastní spínací systém.
 
-Otáčivý ciferník nese dvě dvojice spínacích a vypínacích ovládacích pák. V polední poloze je stupnice kalendářnáko měsíce. Prvek v poloze 12 zajišťuje posun o jeden den při každé otáčce. Rozdělění cierníku respekuje rozdílný počet dní v jednotlivých měsících. (U zkoumaného exempláře chyběl trn, který by přepínání provádě, takře hodiny byly degradovány na běžné spínací hodiny.
+> **Pozn.:** Fotografie spínacího kotouče z původního archivu se bohužel nedochovaly.
+> Pokud disponujete dobovými snímky tohoto stroje, ozvěte se na <info@orloj.eu>.
+
+Otáčivý ciferník nese dvě dvojice spínacích a vypínacích ovládacích pák. V polední poloze je stupnice kalendářního měsíce. Prvek v poloze 12 zajišťuje posun o jeden den při každé otáčce. Rozdělení ciferníku respektuje rozdílný počet dní v jednotlivých měsících. U zkoumaného exempláře chyběl trn, který by přepínání prováděl, takže hodiny byly degradovány na běžné spínací hodiny.
 
 Jednodenní posun natáčí dvě vačky; samostatně pro východ a západ Slunce. Vačky mají označení 17261 A, což se nepovedlo přiřadit k zeměpisné šířce. Obvod vaček přes pákový systém sludují ramena nesoucí pohyblivé kontakty. Jsou to na obrázku ta ramena nesoucí seřititelné kontakty. Lze tak nastavit, při jaké úrovni soumraku mají spínat. Nastavení je v rozmezí cca dvou hodin. Protože nejde o "absolutní astronomickou přesnost", je vačka spočtena pro nějakou "střední?" zeměpisnou šířku.
 
@@ -19,7 +24,7 @@ Střední šrouby s půlkulatou hlavou slouží jednak k manipilaci s ciferníke
 
 Na obrázku je nastavena situace v polovině září. Hodiny spínají přibližně v 18:40, vypínají v 23:05 a znovu spínají v 1:00 a vypínají v 5:05.
 
-## ![spínací kotouč](https://hodinarium.eu/img/astronomicky_Sauter/f/Sauter2.jpg)
+## Vačky a sezónní nastavení
 
 Pokusili jsme se zjistit, zda absence části mechanismu denního posunu nemá příčinu v tom, že u zkoumaného exempláře nejsou vačky správně nastaveny. Zvažovali jsme i polohu Basileje 45.6N a 7.6E. Výsledky se nepodařilo k nějaké poloze přiřadit. Předpokládal bych, že nastavení na střed tolerancí by mělo odpovídat SEČ, tedy poloze 15E.
 

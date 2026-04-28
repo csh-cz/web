@@ -14,13 +14,12 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 
-const lastModifiedReadable = entry.data.lastModified
-  ? new Date(entry.data.lastModified).toLocaleDateString('cs-CZ', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-    })
-  : undefined;
+const lastModifiedReadable = (() => {
+  if (!entry.data.lastModified) return undefined;
+  const d = new Date(entry.data.lastModified);
+  if (Number.isNaN(d.getTime())) return undefined;
+  return d.toLocaleDateString('cs-CZ', { year: 'numeric', month: 'long', day: 'numeric' });
+})();
 ---
 <Article
   title={entry.data.title}
@@ -45,6 +44,30 @@ const lastModifiedReadable = entry.data.lastModified
 
 <style is:global>
   /* === Inline image layout v článcích — časopisecký float === */
+
+  /* Manuální override: <img class="img-full"> v markdownu vynutí
+     full-width zobrazení (ignoruje JS klasifikaci). */
+  .prose-content img.img-full {
+    display: block;
+    float: none !important;
+    width: 100%;
+    max-width: 100%;
+    margin: 1.5rem 0;
+    border-radius: 2px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+    cursor: zoom-in;
+  }
+
+  /* Standalone na střed — pro screenshoty a obrázky kde float nedává smysl. */
+  .prose-content img.img-standalone {
+    display: block;
+    float: none !important;
+    max-width: min(100%, 480px);
+    margin: 1.5rem auto;
+    border-radius: 2px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+    cursor: zoom-in;
+  }
 
   /* Small + Medium + Tall: float v textu, časopisecký dojem.
      Small ~200 px, Medium ~320 px, Tall (úzký vysoký) ~240 px se zoomem. */
@@ -255,9 +278,11 @@ const lastModifiedReadable = entry.data.lastModified
 
     const sizes = imageSizes;
 
-    // 1. Klasifikuj všechny obrázky podle dat ze JSON indexu
+    // 1. Klasifikuj všechny obrázky podle dat ze JSON indexu.
+    //    Manuální override class="img-full" v markdownu má přednost.
     const allImgs = Array.from(article.querySelectorAll('img'));
     for (const img of allImgs) {
+      if (img.classList.contains('img-full') || img.classList.contains('img-standalone')) continue;
       const src = img.getAttribute('src') || '';
       const dim = sizes[src];
       const klass = dim ? dim.size : 'medium'; // fallback medium pro externí URL
@@ -310,7 +335,7 @@ const lastModifiedReadable = entry.data.lastModified
     if (!lb) return;
     const lbImg = lb.querySelector('img');
     const lbCaption = lb.querySelector('#lightbox-caption');
-    const lbImgs = Array.from(article.querySelectorAll('img.img-large, img.img-tall'));
+    const lbImgs = Array.from(article.querySelectorAll('img.img-large, img.img-tall, img.img-full, img.img-standalone'));
 
     function open(idx) {
       const img = lbImgs[idx];

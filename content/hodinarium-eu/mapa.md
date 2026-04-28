@@ -27,7 +27,7 @@ Proto při úzké obrazovce horní měnu není rozbalovací a vede na tuto mapu 
             -   [Stěhování do Děčína](/clanky/decin_aktual0)
             -   [Minitury ve tvaru kostky](/clanky/kostky)
             -   [Výstavka Nonsens 2015](/clanky/nonsens2015)
-            -   [Před otevřením 4.9.2015](/clanky/decin_2015_09_04)
+            -   Před otevřením 4. 9. 2015
         -   Sezóna 2016
             -   [Toulavá kamera 3.1.2016](/clanky/decin_toulava_kamera2016)
             -   [Chronulator](/clanky/decin_chronulator)

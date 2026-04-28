@@ -162,15 +162,32 @@ export const akce: Akce[] = [
   {
     slug: 'stehovani-2015',
     rok: 2015,
-    datum: 'jaro—léto 2015',
+    datum: 'jaro—léto 2015 (foto 4. srpna 2015)',
     nazev: 'Stěhování expozice ze Soběslavi do Děčína',
     misto: 'Soběslav → Zámek Děčín',
-    lat: 49.2599, lon: 14.7195,
+    lat: 50.7807, lon: 14.2155,
     popis:
       'Po komunálních volbách 2015 přesun celé expozice do podkrovních prostor '
       + 'zámku Děčín. Týdny balení, převozů a instalace.',
-    status: 'placeholder',
-    fotky: [],
+    detail:
+      '<p>Fotografická bilance přípravy expozice — týdny balení v Soběslavi, '
+      + 'několik nákladních převozů do Děčína a finální instalace v podkrovních '
+      + 'prostorách zámku. Fotografie pořídil <strong>Stan Marušák</strong> '
+      + '4. srpna 2015, měsíc před oficiálním otevřením.</p>',
+    fotky: [
+      'hero.jpg',
+      '01-priprava.jpg',
+      '02-stehovani.jpg',
+      '03-prevoz.jpg',
+      '04-instalace.jpg',
+      '05-vystavba.jpg',
+      '06-stroje.jpg',
+      '07-detaily.jpg',
+      '08-fotogalerie.jpg',
+      '09-zaver.jpg',
+    ],
+    status: 'minula',
+    typ: 'akce',
   },
   {
     slug: 'dernisaz-2013',
