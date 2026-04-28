@@ -271,10 +271,14 @@ export const kontakty: KontaktUdalost[] = [
     smer: 'spolecne',
     partner: 'Vlastivědné muzeum v Olomouci',
     popis:
-      'Výstava „Olomoucký orloj — 500 let od první písemné zmínky". Radim Himmler '
-      + 'byl kurátorem výstavy, členové spolku se aktivně podíleli na přípravě '
-      + 'exponátů; David Knespl je spoluautorem (s Martinem Šimkem) repliky '
-      + 'číselníkového patra olomouckého orloje, prezentované na výstavě.',
+      'Výstava „Olomoucký orloj — 500 let od první písemné zmínky". '
+      + 'Radim Himmler byl kurátorem výstavy a autorem monografie '
+      + '„Olomoucký orloj: historie v obrazech a faktech" (VMO 2019, '
+      + 'ISBN 978-80-85037-96-8). Knespl a Šimek vytvořili repliku '
+      + 'číselníkového patra dle Fischerova zobrazení z 1805, '
+      + 'Marušák a Král počítačový emulátor renesanční verze orloje. '
+      + 'Členové spolku rovněž identifikovali Prokešův model orloje, '
+      + 'který byl restaurován a vystaven.',
     akceSlug: 'olomoucky-orloj-2019',
   },
 ];
