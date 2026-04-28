@@ -15,9 +15,6 @@ Pod pojmem **spínací astronomické hodiny** se obvykle myslí spínací hodiny
 
 Hodiny System Fr. Sauter a. s. v Basileji (zakoupeny pro Č. S. R. S. Schop. Praha) jsou mechanické hodiny natahované elektromotorem. Výrobní číslo je **333573 ZWE6K**. Cívky motoru se mohou zapojit buď na 220 V nebo na 380 V. Hodinová hřídel se otočí jednou za 24 hodin a nese vlastní spínací systém.
 
-> **Pozn.:** Fotografie spínacího kotouče z původního archivu se bohužel nedochovaly.
-> Pokud disponujete dobovými snímky tohoto stroje, ozvěte se na <info@orloj.eu>.
-
 Otáčivý ciferník nese dvě dvojice spínacích a vypínacích ovládacích pák. V polední poloze je stupnice kalendářního měsíce. Prvek v poloze 12 zajišťuje posun o jeden den při každé otáčce. Rozdělení ciferníku respektuje rozdílný počet dní v jednotlivých měsících. U zkoumaného exempláře chyběl trn, který by přepínání prováděl, takže hodiny byly degradovány na běžné spínací hodiny.
 
 Jednodenní posun natáčí dvě vačky; samostatně pro východ a západ Slunce. Vačky mají označení 17261 A, což se nepovedlo přiřadit k zeměpisné šířce. Obvod vaček přes pákový systém sludují ramena nesoucí pohyblivé kontakty. Jsou to na obrázku ta ramena nesoucí seřititelné kontakty. Lze tak nastavit, při jaké úrovni soumraku mají spínat. Nastavení je v rozmezí cca dvou hodin. Protože nejde o "absolutní astronomickou přesnost", je vačka spočtena pro nějakou "střední?" zeměpisnou šířku.
@@ -40,6 +37,25 @@ Výklopná páčka na třetím rameni umožňuje vynechat noční vypnutí. V t�
 
 * * *
 
-I ve věžních hodinách mohly být vačky východu a západu Slunce. Jedno takové zažízení se dražilo na ebay.de v září 2020. Uvádíme několik fotofrafií z aukce pro představu.
+## Příklad ve věžních hodinách
 
-Text a foto Petr Král a ebay.de
+I ve věžních hodinách mohly být vačky východu a západu Slunce. Jedno takové zařízení se dražilo na ebay.de v září 2020. Uvádíme několik fotografií z aukce pro představu.
+
+<div class="article-gallery">
+
+[![Astronomický spínací mechanismus věžních hodin — celkový pohled (foto 1)](/img/astronomicke/vezni_signalni/foto_0001.jpg)](/img/astronomicke/vezni_signalni/f/foto_0001.jpg)
+[![Detail vaček (foto 2)](/img/astronomicke/vezni_signalni/foto_0002.jpg)](/img/astronomicke/vezni_signalni/f/foto_0002.jpg)
+[![Pákový systém kontaktů (foto 3)](/img/astronomicke/vezni_signalni/foto_0003.jpg)](/img/astronomicke/vezni_signalni/f/foto_0003.jpg)
+[![Pohled shora (foto 4)](/img/astronomicke/vezni_signalni/foto_0004.jpg)](/img/astronomicke/vezni_signalni/f/foto_0004.jpg)
+[![Detail spínacího mechanismu (foto 5)](/img/astronomicke/vezni_signalni/foto_0005.jpg)](/img/astronomicke/vezni_signalni/f/foto_0005.jpg)
+[![Pohled zboku (foto 6)](/img/astronomicke/vezni_signalni/foto_0006.jpg)](/img/astronomicke/vezni_signalni/f/foto_0006.jpg)
+[![Boční pohled na páky (foto 7)](/img/astronomicke/vezni_signalni/foto_0007.jpg)](/img/astronomicke/vezni_signalni/f/foto_0007.jpg)
+[![Mechanismus z jiného úhlu (foto 8)](/img/astronomicke/vezni_signalni/foto_0008.jpg)](/img/astronomicke/vezni_signalni/f/foto_0008.jpg)
+[![Detail kalendářního ciferníku (foto 9)](/img/astronomicke/vezni_signalni/foto_0009.jpg)](/img/astronomicke/vezni_signalni/f/foto_0009.jpg)
+[![Štítek s typovým označením (foto 10)](/img/astronomicke/vezni_signalni/foto_0010.jpg)](/img/astronomicke/vezni_signalni/f/foto_0010.jpg)
+[![Vnitřek hodinového stroje (foto 11)](/img/astronomicke/vezni_signalni/foto_0011.jpg)](/img/astronomicke/vezni_signalni/f/foto_0011.jpg)
+[![Skříň s mechanismem (foto 12)](/img/astronomicke/vezni_signalni/foto_0012.jpg)](/img/astronomicke/vezni_signalni/f/foto_0012.jpg)
+
+</div>
+
+Text a foto: P. Král a ebay.de
