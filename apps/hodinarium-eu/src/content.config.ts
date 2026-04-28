@@ -4,7 +4,7 @@ import { glob } from 'astro/loaders';
 const clanky = defineCollection({
   loader: glob({
     base: '../../content/hodinarium-eu',
-    pattern: '**/*.md',
+    pattern: '**/*.{md,mdx}',
   }),
   schema: z.object({
     title: z.string(),

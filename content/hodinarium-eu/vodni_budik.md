@@ -7,9 +7,12 @@ lastModified: "Wed, 26 Apr 2017 16:28:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:54.868Z"
 ---
-![vodní budík](/img/ujete/vodni_budik.jpg)
+<div class="article-gallery">
 
-![vodní budík](/img/ujete/vodni_budik2.jpg)**Vodní budík**
+![vodní budík — obecný princip](/img/ujete/vodni_budik.jpg)
+![vodní budík — kalibrovaná karafa](/img/ujete/vodni_budik2.jpg)
+
+</div>
 
 **N**a stránkách pana **[James McAdama](http://www.jamesmcadam.co.uk/)** je publikován jednoduchý vodní budík. Zařazujeme ho jako kuriozitu k vodním hodinám, protože všechny vodní hodin mají tak trochu i tento rozměr.
 

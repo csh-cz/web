@@ -7,7 +7,7 @@ lastModified: "Wed, 26 Apr 2017 14:13:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:01.550Z"
 ---
-[![logo zoutube](/img/youtube.gif)](http://www.youtube.com/)Fenomén amarérsky pořizovaných videozáznamů a jejich ukládání na **YouTube** nemůže zůstat nepovšimnut ani při pátrání po kuriózních hodinách. Není rychlejší prostředek, jak informace o podivuhodných hodinách šířit po celém světě. Zkuste vyhledání třeba dřevěných hodin a uvidíte, jaké množtví nápadů naleznete.
+Fenomén amatérsky pořizovaných videozáznamů a jejich ukládání na **[YouTube](http://www.youtube.com/)** nemůže zůstat nepovšimnut ani při pátrání po kuriózních hodinách. Není rychlejší prostředek, jak informace o podivuhodných hodinách šířit po celém světě. Zkuste vyhledání třeba dřevěných hodin a uvidíte, jaké množtví nápadů naleznete.
 
 **P**okud najdete příspěvky obzvláště vypečené, sdělte nám adresu nebo vyhledávací řetězec a můžete se o úlovek podělit.
 

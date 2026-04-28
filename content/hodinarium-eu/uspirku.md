@@ -11,9 +11,9 @@ V historických částech měst jsou oblíbené hospůdky, které uspořádání
 
 V pražské restauraci **U Špirků** (viz [web](http://www.u-spirku.cz/) restaurace ) je tento pocit ubíhajícího času ještě umocněn či zvýrazněn nezvyklou výzdobou. Dominantou interiéru jsou totiž velké netradiční hodiny. Také ony se tváří "starobyle". Vypadají jako skeletové věžní hodiny. I když ukazují čas, jsou vlastně spíše kinetickou plastikou. Ačkoliv, podle sdělení majitele, by prý po malých úpravách byly i schopny samostatného mechanického chodu. No, spíše pochybuji o pravdivosti této informace.
 
-!
+![Skeletové věžní hodiny v restauraci U Špirků — celkový pohled](/img/vezni/praha/uspirku1.JPG)
 
-!
+![Skeletové věžní hodiny v restauraci U Špirků — detail mechanismu](/img/vezni/praha/uspirku2.JPG)
 
 Elektricky poháněná kinetická plastika sice hodiny jen simuluje, ale ručičky správný čas v klidovém stavu ukazují. To by však bylo málo akční, tak každou minutu je proveden rituál posunu ručiček. Minutová ručička se nejprve několikrát posune dopředu a dozadu, aby se vrátila do původní polohy a pak již hrdě pokročila na následující minutu.
 

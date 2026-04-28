@@ -55,17 +55,6 @@
     "wordCount": 1643
   },
   {
-    "slug": "zidovske",
-    "title": "**Židovské hodiny z roku 1764**",
-    "category": "sbirka",
-    "thumbnail": "/img/zidovske/staronova_synagoga.jpg",
-    "excerpt": "Nejprve tedy jednotlivé znaky: (Více o hebrejské abecedě naleznete například ve wikipedii. ) (Zobrazení písmen může někde dělat potíže. Nainstalujte si do prohlížeče podporu hebrejštiny.)",
-    "year": 1764,
-    "lastModified": "2020-11-24T02:06:00.000Z",
-    "imageCount": 5,
-    "wordCount": 1181
-  },
-  {
     "slug": "alzbeta",
     "title": "Alžběta - 14112 - hlášení přesného času",
     "category": "projekty",
@@ -866,7 +855,7 @@
     "year": null,
     "lastModified": "2025-12-08T20:44:00.000Z",
     "imageCount": 4,
-    "wordCount": 940
+    "wordCount": 952
   },
   {
     "slug": "spinka",
@@ -1030,7 +1019,7 @@
     "excerpt": "Síťové synchronní hodiny jak z Verneových románů. Stroj přímo svádí k přestavbě na steampunkové skeletové hodiny.",
     "year": 1869,
     "lastModified": "2024-03-24T22:15:00.000Z",
-    "imageCount": 14,
+    "imageCount": 12,
     "wordCount": 558
   },
   {
@@ -1389,12 +1378,12 @@
     "slug": "slunecni_polarizacni",
     "title": "Polarizační sluneční hodiny",
     "category": "sbirka",
-    "thumbnail": "/img/nadpis1.gif",
+    "thumbnail": "/img/slunecni/polar1.jpg",
     "excerpt": "Co byste řekli slunečním hodinám, které nemají žádný ukazatel vrhající stín? Hodinám, které správně ukazují čas, i když je Slunce zakryto mrakem, a které po nějakou dobu fungují dokonce i po západu Slunce či před jeho…",
     "year": 1997,
     "lastModified": "2017-04-26T16:22:00.000Z",
     "imageCount": 8,
-    "wordCount": 685
+    "wordCount": 632
   },
   {
     "slug": "fake_atomove_hodiny",
@@ -1639,17 +1628,6 @@
     "wordCount": 323
   },
   {
-    "slug": "slunecni_filler",
-    "title": "Sluneční hodiny Vlasty Fillera",
-    "category": "sbirka",
-    "thumbnail": null,
-    "excerpt": "Díky laskavosti pana Vlasty Fillera, autora webu vlastafiller.wz.cz, můžeme zde ukázat sluneční hodiny z jižní stěny Hospodářského dvora pražského Klementina. Program v JavaScriptu od autora převzat jen s drobným zása…",
-    "year": null,
-    "lastModified": "2023-03-06T12:18:00.000Z",
-    "imageCount": 0,
-    "wordCount": 80
-  },
-  {
     "slug": "sobeslav2",
     "title": "Soběslavské hodiny z 15. století ??",
     "category": "vezni-hodiny",
@@ -1818,12 +1796,12 @@
     "slug": "vodni_B_Gitton",
     "title": "TIME FLOW CLOCK - hodiny protékajícího času",
     "category": "sbirka",
-    "thumbnail": "/img/nadpis1.gif",
+    "thumbnail": "/img/vodni/time_flow_clock0.jpg",
     "excerpt": "Na obrázcích můžete vidět dvě realizace těchto hodin. Hodiny se skládají ze soustavy skleněných trubic, ve kterých se pohybuje kapalina (obvykle směs vody a lihu). Úroveň hladiny v levé trubici ukazuje hodiny, v pravé…",
     "year": 1979,
     "lastModified": "2017-04-26T16:25:00.000Z",
-    "imageCount": 6,
-    "wordCount": 419
+    "imageCount": 2,
+    "wordCount": 372
   },
   {
     "slug": "Timometer",
@@ -1906,12 +1884,12 @@
     "slug": "uspirku",
     "title": "Variace na věžní hodiny",
     "category": "sbirka",
-    "thumbnail": "/img/vezni/praha/uspirku3.jpg",
+    "thumbnail": "/img/vezni/praha/uspirku1.JPG",
     "excerpt": "V historických částech měst jsou oblíbené hospůdky, které uspořádáním svého interiéru navozují starobylou, někdy až středověkou atmosféru. Atmosféru klidu. Atmosféru, ve které jako bychom vnímali ubíhající čas. Napomá…",
     "year": null,
     "lastModified": "2017-04-26T14:05:00.000Z",
-    "imageCount": 2,
-    "wordCount": 303
+    "imageCount": 4,
+    "wordCount": 301
   },
   {
     "slug": "bychory_zvonici_stroj",
@@ -2039,11 +2017,11 @@
     "title": "Vodní budík",
     "category": "sbirka",
     "thumbnail": "/img/ujete/vodni_budik.jpg",
-    "excerpt": "©James McAdam 2002",
+    "excerpt": "<div class=\"article-gallery\">",
     "year": 2002,
     "lastModified": "2017-04-26T16:28:00.000Z",
     "imageCount": 2,
-    "wordCount": 58
+    "wordCount": 59
   },
   {
     "slug": "vodni_jegorov",
@@ -2082,12 +2060,12 @@
     "slug": "zvony_vyroba",
     "title": "Výroba zvonů",
     "category": "vezni-hodiny",
-    "thumbnail": null,
+    "thumbnail": "/img/vez/zvony/pruzez_zvonem.gif",
     "excerpt": "Zvonařství, řemeslo které si svou technologii uchovalo více jak 1000 let. Princip výroby je stále stejný jako ve středověku. Moderní technologie napomáhají pouze při manipulací s těžkými břemeny a během tavby zvonovéh…",
     "year": null,
     "lastModified": "2017-04-23T20:06:00.000Z",
-    "imageCount": 0,
-    "wordCount": 691
+    "imageCount": 1,
+    "wordCount": 690
   },
   {
     "slug": "gobelin",
@@ -2115,11 +2093,11 @@
     "slug": "youtube",
     "title": "YOUTUBE",
     "category": "sbirka",
-    "thumbnail": "/img/youtube.gif",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Fenomén amatérsky pořizovaných videozáznamů a jejich ukládání na YouTube nemůže zůstat nepovšimnut ani při pátrání po kuriózních hodinách. Není rychlejší prostředek, jak informace o podivuhodných hodinách šířit po cel…",
     "year": null,
     "lastModified": "2017-04-26T14:13:00.000Z",
-    "imageCount": 1,
+    "imageCount": 0,
     "wordCount": 163
   },
   {

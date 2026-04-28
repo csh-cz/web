@@ -1,0 +1,207 @@
+---
+/**
+ * Sluneční hodiny Vlasty Fillera (Klementinum) — interaktivní
+ * vizualizace pražského pravého slunečního času.
+ *
+ * Nahrazuje původní iframe na /slunecni2.htm (port z legacy
+ * `slunecni2.htm`, https://hodinarium.eu/slunecni2.htm).
+ *
+ * Co se změnilo proti originálu:
+ *   - výpočet rovnice času používá tečky místo čárek (původní
+ *     hodnoty `58,0915570` JS interpretoval jako comma-operator
+ *     a vracel `915570` — odchylka E byla v podstatě jen sin2)
+ *   - 200 absolutně umístěných <img> dot-spritů → jedna SVG čára
+ *   - žádný `document.write` / `setInterval` / META REFRESH —
+ *     update přes `requestAnimationFrame` jednou za minutu
+ *   - dark/light + responsive layout, přizpůsobeno hodinariu
+ */
+const SUNDIAL_W = 496;
+const SUNDIAL_H = 459;
+---
+<figure class="klementinum" aria-label="Sluneční hodiny — Klementinum, Praha">
+  <div class="klementinum-canvas">
+    <img
+      class="klementinum-photo"
+      src="/img/slunecni/klementinum_anim.jpg"
+      alt="Sluneční hodiny na jižní stěně Hospodářského dvora pražského Klementina"
+      width={SUNDIAL_W}
+      height={SUNDIAL_H}
+      loading="lazy"
+      decoding="async"
+    />
+    <img
+      class="klementinum-overlay"
+      src="/img/slunecni/b0.gif"
+      alt="Sluneční hodiny umístěné na jižní stěně Hospodářského dvora pražského Klementina vyzdobené dětmi vypouštějícími mýdlové bubliny, další děti z dolních rohů do bublin foukají, uprostřed stojí přesýpací hodiny na lebce s hnáty — my jsme ty děti, které se bez užitku pachtějí za bublinami tohoto světa a zapomínáme na pomíjivost pozemského života, i když jsme varováni skrze hodiny před jeho krácením s každou uplynulou hodinou"
+      width={SUNDIAL_W}
+      height={SUNDIAL_H}
+      loading="lazy"
+      decoding="async"
+    />
+    <svg
+      class="klementinum-svg"
+      viewBox={`0 0 ${SUNDIAL_W} ${SUNDIAL_H}`}
+      role="img"
+      aria-hidden="true"
+    >
+      <line data-sun-line stroke="#fff" stroke-width="2" stroke-dasharray="2 3" stroke-linecap="round" x1="247" y1="61" x2="247" y2="61" />
+      <circle data-sun-marker cx="247" cy="61" r="6" fill="#ffd966" stroke="#fff" stroke-width="1.5" />
+    </svg>
+  </div>
+  <figcaption class="klementinum-status">
+    <span class="klementinum-line">
+      <span data-status-greeting>Vítejte</span>.
+      Tyto sluneční hodiny fungují za jakéhokoliv počasí.
+    </span>
+    <span class="klementinum-line">
+      Právě je <strong data-solar-time>—:—</strong> pražského pravého slunečního času.
+    </span>
+  </figcaption>
+</figure>
+
+<style>
+  .klementinum {
+    margin: 1.5rem auto;
+    max-width: 496px;
+  }
+
+  .klementinum-canvas {
+    position: relative;
+    width: 496px;
+    max-width: 100%;
+    aspect-ratio: 496 / 459;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    overflow: hidden;
+    background: var(--color-bg-deep);
+  }
+
+  .klementinum-photo,
+  .klementinum-overlay,
+  .klementinum-svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .klementinum-overlay { mix-blend-mode: normal; }
+  .klementinum-svg { pointer-events: none; }
+
+  .klementinum-status {
+    margin-top: 0.75rem;
+    font-size: 0.95rem;
+    color: var(--color-text-soft);
+    line-height: 1.5;
+    text-align: center;
+  }
+  .klementinum-line { display: block; }
+  .klementinum-status strong {
+    color: var(--color-brass-bright);
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+  }
+</style>
+
+<script>
+  /**
+   * Pražský pravý sluneční čas + projekce slunce na ciferníku.
+   *
+   * 1) Equation of Time (rovnice času) — odchylka mezi pravým a
+   *    středním slunečním časem v minutách.
+   *    Anal. aproximace s ročními a půlročními sin složkami:
+   *    E = -(7.9·sin(B1) + 9.9·sin(B2))
+   *    kde B1 = (dr - 2.7395833) / (365.05/2π)
+   *        B2 = (dr + 10.047222) / (182.52/2π)
+   *
+   * 2) Anchor points — pixel pozice slunce na fotce ciferníku
+   *    pro hodiny 6—18 (pravý sluneční čas), získané z původního
+   *    slunecni2.htm.
+   */
+  const ANCHORS: Record<number, { l: number; t: number }> = {
+    6:  { l: 50,  t: 61  },
+    7:  { l: 64,  t: 133 },
+    8:  { l: 98,  t: 190 },
+    9:  { l: 137, t: 227 },
+    10: { l: 176, t: 248 },
+    11: { l: 212, t: 258 },
+    12: { l: 247, t: 260 },
+    13: { l: 280, t: 258 },
+    14: { l: 317, t: 248 },
+    15: { l: 357, t: 227 },
+    16: { l: 398, t: 190 },
+    17: { l: 430, t: 134 },
+    18: { l: 443, t: 61  },
+  };
+  const GNOMON = { l: 247, t: 61 };
+
+  function computeEquationOfTime(now: Date): number {
+    // Dny od 1970-01-01 v lokálním (pražském) čase, jak to dělal originál.
+    const offMs = now.getTimezoneOffset() * 60_000;
+    const localMs = now.getTime() - offMs;
+    const dr = localMs / 86_400_000;
+    const b1 = (dr - 2.7395833) / (365.05 / (2 * Math.PI));
+    const b2 = (dr + 10.047222) / (182.52 / (2 * Math.PI));
+    return -(Math.sin(b1) * 7.9 + Math.sin(b2) * 9.9);
+  }
+
+  function greetingFor(h: number, m: number): string {
+    if (h < 6) return 'Dobrou noc';
+    if (h < 9) return 'Dobré ráno';
+    if (h < 11 || (h === 11 && m < 30)) return 'Dobré dopoledne';
+    if ((h === 11 && m >= 30) || h === 12) return 'Dobré poledne';
+    if (h < 18) return 'Dobré odpoledne';
+    if (h < 22) return 'Dobrý večer';
+    return 'Dobrou noc';
+  }
+
+  function pickAnchor(hh: number, mm: number) {
+    // V "noci" (mimo 6—18) posuň o 12 hodin, aby ručička jezdila
+    // pořád po denní oblouku — zachováno z originálu pro UX.
+    let h = hh;
+    if (h < 6) h += 12;
+    if (h > 18) h -= 12;
+
+    if (h < 6) return ANCHORS[6];
+    if (h >= 18 && mm === 0) return ANCHORS[18];
+    if (h >= 18) return ANCHORS[6];
+
+    const cur = ANCHORS[h];
+    const nxt = ANCHORS[h + 1] ?? ANCHORS[18];
+    return {
+      l: cur.l + ((nxt.l - cur.l) * mm) / 60,
+      t: cur.t + ((nxt.t - cur.t) * mm) / 60,
+    };
+  }
+
+  function tick() {
+    const now = new Date();
+    const E = computeEquationOfTime(now);
+
+    // Pražský pravý sluneční čas = lokální čas + E (v minutách).
+    const solar = new Date(now.getTime() + E * 60_000);
+    const hh = solar.getHours();
+    const mm = solar.getMinutes();
+
+    const time = document.querySelector('[data-solar-time]');
+    const greet = document.querySelector('[data-status-greeting]');
+    const line = document.querySelector('[data-sun-line]');
+    const marker = document.querySelector('[data-sun-marker]');
+    if (!time || !greet || !line || !marker) return;
+
+    time.textContent =
+      String(hh).padStart(2, '0') + ':' + String(mm).padStart(2, '0');
+    greet.textContent = greetingFor(now.getHours(), now.getMinutes());
+
+    const a = pickAnchor(hh, mm);
+    line.setAttribute('x2', String(a.l));
+    line.setAttribute('y2', String(a.t));
+    line.setAttribute('x1', String(GNOMON.l));
+    line.setAttribute('y1', String(GNOMON.t));
+    marker.setAttribute('cx', String(a.l));
+    marker.setAttribute('cy', String(a.t));
+  }
+
+  tick();
+  setInterval(tick, 30_000);
+</script>

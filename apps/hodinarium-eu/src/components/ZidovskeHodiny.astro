@@ -1,0 +1,145 @@
+---
+/**
+ * Živý ciferník Židovské radnice — hebrejské hodiny jdoucí "proti
+ * směru hodinových ručiček", větší ručička = minuty, menší = hodiny.
+ *
+ * Nahrazuje původní iframe na hodinarium.eu/zidovske/zid.php.
+ * PHP server-side renderoval rotace; tady je logika v klientu (CSS
+ * transform), takže žádný cross-origin iframe.
+ *
+ * Obrázky jsou v /public/img/zidovske/clock/ (původní podklad +
+ * dvě GIF ručičky).
+ */
+---
+<figure class="zidovske-hodiny" aria-label="Živý ciferník Židovské radnice">
+  <div class="zidovske-hodiny-canvas">
+    <img class="zidovske-podklad" src="/img/zidovske/clock/podklad.jpg" alt="Hebrejský ciferník Židovské radnice" width="500" height="362" loading="lazy" decoding="async" />
+    <span class="zidovske-attribution"><strong>www.muzeumhodin.info</strong></span>
+    <time class="zidovske-cas" data-clock-time>00:00</time>
+    <img class="zidovske-rucka zidovske-hodinova" data-clock-hour src="/img/zidovske/clock/hodinova.gif" alt="" width="33" height="103" />
+    <img class="zidovske-rucka zidovske-minutova" data-clock-minute src="/img/zidovske/clock/minutova.gif" alt="" width="33" height="67" />
+  </div>
+  <figcaption><strong>Ručičky hodin ukazují stále správný čas.</strong> Vytvořeno pro tento server.</figcaption>
+</figure>
+
+<style>
+  .zidovske-hodiny {
+    margin: 1.5rem auto;
+    max-width: 500px;
+  }
+
+  .zidovske-hodiny-canvas {
+    position: relative;
+    width: 500px;
+    max-width: 100%;
+    aspect-ratio: 500 / 362;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    overflow: hidden;
+    background: var(--color-bg-deep);
+  }
+
+  .zidovske-podklad {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .zidovske-attribution {
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--color-text);
+    font-family: var(--font-serif);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    pointer-events: none;
+  }
+
+  .zidovske-cas {
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--color-text);
+    background: rgba(0, 0, 0, 0.55);
+    padding: 0.1em 0.4em;
+    border-radius: 2px;
+    pointer-events: none;
+  }
+
+  .zidovske-rucka {
+    position: absolute;
+    transform-origin: 50% 0%;
+    transition: transform 200ms ease-out;
+    pointer-events: none;
+  }
+
+  /* Hodinová ručička — kratší, kotvená v ose ciferníku, směřuje dolů
+     (počáteční rotace 0deg = nahoru, ale obrazek je orientován dolů,
+     takže přidáváme 180deg). */
+  .zidovske-hodinova {
+    /* Kotva v ose ciferníku (cca 50% × 50% canvasu).
+       Image je 33×103, transform-origin = 16,0 (top-center) */
+    top: 46%;
+    left: calc(50% - 16.5px);
+    width: 33px;
+    height: 103px;
+  }
+
+  .zidovske-minutova {
+    top: 51%;
+    left: calc(50% - 16.5px);
+    width: 33px;
+    height: 67px;
+  }
+
+  @media (max-width: 540px) {
+    .zidovske-attribution { font-size: 0.7rem; }
+    .zidovske-cas { font-size: 1.1rem; }
+  }
+</style>
+
+<script>
+  /**
+   * Hebrejské hodiny: ručičky se otáčejí PROTI směru hodinových
+   * ručiček, hodinová ručička je MENŠÍ než minutová (zaměnené proti
+   * konvenci, viz raritu radničního ciferníku).
+   *
+   * Hodinový úhel: -((h % 12) * 30 + m * 0.5) deg
+   * Minutový úhel: -(m * 6) deg
+   *
+   * Záporné = counter-clockwise. CSS transform-origin = top-center
+   * (50% 0%), obrázek je nakreslený "směrem dolů" — proto přidáváme
+   * 180° offset, aby ručička při 12 mířila vzhůru.
+   */
+  function tick() {
+    const els = {
+      time: document.querySelector('[data-clock-time]'),
+      hour: document.querySelector('[data-clock-hour]'),
+      min: document.querySelector('[data-clock-minute]'),
+    };
+    if (!els.time || !els.hour || !els.min) return;
+
+    const now = new Date();
+    const h = now.getHours();
+    const m = now.getMinutes();
+
+    els.time.textContent =
+      String(h).padStart(2, '0') + ':' + String(m).padStart(2, '0');
+
+    const hourDeg = 180 - ((h % 12) * 30 + m * 0.5);
+    const minDeg = 180 - m * 6;
+
+    (els.hour as HTMLElement).style.transform = `rotate(${hourDeg}deg)`;
+    (els.min as HTMLElement).style.transform = `rotate(${minDeg}deg)`;
+  }
+
+  tick();
+  setInterval(tick, 30_000);
+</script>

@@ -25,7 +25,7 @@ Sedmým krokem je chladnutí zvonu a to podle velikosti. Malý zvon chladne něk
 
 Sepsal Michal Votruba
 
-!
+![Průřez formou pro odlévání zvonu](/img/vez/zvony/pruzez_zvonem.gif)
 
 a- železný podstavec, b- vyzděné jádro, c- zámek na známce jádra,
 d- dutina pro roztavený kov, e- plášť formy, f- železné třmeny pro manipulaci,

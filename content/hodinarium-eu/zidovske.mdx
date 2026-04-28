@@ -7,6 +7,8 @@ lastModified: "Tue, 24 Nov 2020 02:06:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:14.599Z"
 ---
+import ZidovskeHodiny from '../../apps/hodinarium-eu/src/components/ZidovskeHodiny.astro';
+
 ![v popředí Staronová synagoga, v pozadí budova radnice s hodinami](/img/zidovske/staronova_synagoga.jpg)
 
 
@@ -24,162 +26,83 @@ scrapedAt: "2026-04-27T17:37:14.599Z"
 
 Nejprve tedy jednotlivé znaky: (Více o hebrejské abecedě naleznete například ve [wikipedii](http://sk.wikipedia.org/wiki/Hebrejsk%C3%A1_abeceda). ) (Zobrazení písmen může někde dělat potíže. Nainstalujte si do prohlížeče podporu hebrejštiny.)
 
-* * *
-
-א
-
-1
-
-Alef
-
-ב
-
-2
-
-Bet (vet)
-
-ג
-
-3
-
-Gimel
-
-ד
-
-4
-
-Dalet
-
-ה
-
-5
-
-He
-
-ו
-
-6
-
-Waw
-
-ז
-
-7
-
-Zajin
-
-ח
-
-8
-
-Chet
-
-ט
-
-9
-
-Tet
-
-י
-
-10
-
-Jod
-
-* * *
+<table class="zidovske-abeceda">
+  <caption>Hebrejské znaky a jejich číselná hodnota</caption>
+  <thead><tr><th>Znak</th><th>Hodnota</th><th>Jméno</th></tr></thead>
+  <tbody>
+    <tr><td lang="he" dir="rtl">א</td><td>1</td><td>Alef</td></tr>
+    <tr><td lang="he" dir="rtl">ב</td><td>2</td><td>Bet (vet)</td></tr>
+    <tr><td lang="he" dir="rtl">ג</td><td>3</td><td>Gimel</td></tr>
+    <tr><td lang="he" dir="rtl">ד</td><td>4</td><td>Dalet</td></tr>
+    <tr><td lang="he" dir="rtl">ה</td><td>5</td><td>He</td></tr>
+    <tr><td lang="he" dir="rtl">ו</td><td>6</td><td>Waw</td></tr>
+    <tr><td lang="he" dir="rtl">ז</td><td>7</td><td>Zajin</td></tr>
+    <tr><td lang="he" dir="rtl">ח</td><td>8</td><td>Chet</td></tr>
+    <tr><td lang="he" dir="rtl">ט</td><td>9</td><td>Tet</td></tr>
+    <tr><td lang="he" dir="rtl">י</td><td>10</td><td>Jod</td></tr>
+  </tbody>
+</table>
 
 A nyní již ciferníky:
 
-11
+<div class="zidovske-ciferniky">
+  <figure>
+    <div class="zidovske-cifernik">
+      <span class="pos-12">12</span>
+      <span class="pos-1">1</span>
+      <span class="pos-2">2</span>
+      <span class="pos-3">3</span>
+      <span class="pos-4">4</span>
+      <span class="pos-5">5</span>
+      <span class="pos-6">6</span>
+      <span class="pos-7">7</span>
+      <span class="pos-8">8</span>
+      <span class="pos-9">9</span>
+      <span class="pos-10">10</span>
+      <span class="pos-11">11</span>
+      <span class="pos-c">+</span>
+    </div>
+    <figcaption>"Normální" ciferník.</figcaption>
+  </figure>
+  <figure>
+    <div class="zidovske-cifernik">
+      <span class="pos-12">12</span>
+      <span class="pos-1">11</span>
+      <span class="pos-2">10</span>
+      <span class="pos-3">9</span>
+      <span class="pos-4">8</span>
+      <span class="pos-5">7</span>
+      <span class="pos-6">6</span>
+      <span class="pos-7">5</span>
+      <span class="pos-8">4</span>
+      <span class="pos-9">3</span>
+      <span class="pos-10">2</span>
+      <span class="pos-11">1</span>
+      <span class="pos-c">+</span>
+    </div>
+    <figcaption>Převrácený ciferník pro hodiny jdoucí "proti směru ručiček".</figcaption>
+  </figure>
+  <figure>
+    <div class="zidovske-cifernik" lang="he">
+      <span class="pos-12">יב</span>
+      <span class="pos-1">יא</span>
+      <span class="pos-2">י</span>
+      <span class="pos-3">ט</span>
+      <span class="pos-4">ח</span>
+      <span class="pos-5">ז</span>
+      <span class="pos-6">ו</span>
+      <span class="pos-7">ה</span>
+      <span class="pos-8">ד</span>
+      <span class="pos-9">ג</span>
+      <span class="pos-10">ב</span>
+      <span class="pos-11">א</span>
+      <span class="pos-c">+</span>
+    </div>
+    <figcaption>"Hebrejský převrácený" ciferník — čísla v základní orientaci.</figcaption>
+  </figure>
+</div>
 
-12
-
-1
-
-10
-
-2
-
-9
-
-+
-
-3
-
-8
-
-4
-
-7
-
-6
-
-5
-
-1
-
-12
-
-11
-
-2
-
-10
-
-3
-
-+
-
-9
-
-4
-
-8
-
-5
-
-6
-
-7
-
-**א**
-
-**יב**
-
-**יא**
-
-**ב**
-
-**י**
-
-**ג**
-
-**+**
-
-**ט**
-
-**ד**
-
-**ח**
-
-**ה**
-
-**ו**
-
-**ז**
-
-0
-
-**"Normální" ciferník.**
-
-**"Převrácený ciferník pro hodiny jdoucí "proti směru ručiček".**
-
-**"hebrejský převrácený" ciferník, čísla v základní orientaci.**
-
-* * *
-
-![celkový pohled](/img/zidovske/marusak_rad_1.jpg)
-**Ručičky hodin ukazují stále správný čas.** Vytvořeno pro tento server.
+<ZidovskeHodiny />
 
 **N**a virtuálním modelu ciferníku nahoře můžete sami posoudit "snadnost přečtení správního času". Ručičky hodin na fotografii se nastavují podle času na vašem PC. Pro kontrolu vlevo nahoře digitální hodiny, které ovšem ukazují čas v 24 hodinovém dělení. Tím je zmatek dovršen, protože např. v 17 hodin ukazuje velká hodinová ručička na číslici 5, která ovšem je tam, kde obvykle očekáváme číslici 7.
 

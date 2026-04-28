@@ -631,6 +631,100 @@ summary::-webkit-details-marker { display: none; }
   background: color-mix(in srgb, var(--color-brass) 8%, transparent);
 }
 
+/* Komponenty v MDX článcích — Židovské hodiny porovnávací ciferníky
+   + abeceda. */
+.prose-content .zidovske-abeceda {
+  margin: 1rem auto;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.prose-content .zidovske-abeceda caption {
+  caption-side: top;
+  text-align: center;
+  font-style: italic;
+  color: var(--color-text-soft);
+  margin-bottom: 0.4rem;
+}
+.prose-content .zidovske-abeceda th,
+.prose-content .zidovske-abeceda td {
+  padding: 0.4rem 0.9rem;
+  border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  text-align: center;
+}
+.prose-content .zidovske-abeceda td:first-child {
+  font-size: 1.6rem;
+  font-family: serif;
+  color: var(--color-brass-bright);
+}
+
+.prose-content .zidovske-ciferniky {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+@media (max-width: 720px) {
+  .prose-content .zidovske-ciferniky {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+.prose-content .zidovske-ciferniky figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.prose-content .zidovske-ciferniky figcaption {
+  font-size: 0.85rem;
+  color: var(--color-text-soft);
+  text-align: center;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.zidovske-cifernik {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border: 2px solid var(--color-brass);
+  border-radius: 50%;
+  background: var(--color-bg-elevated);
+  font-family: serif;
+  font-size: 1rem;
+  color: var(--color-text);
+  flex-shrink: 0;
+}
+.zidovske-cifernik span {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  font-feature-settings: "lnum";
+}
+.zidovske-cifernik span.pos-c {
+  top: 50%; left: 50%;
+  color: var(--color-copper);
+  font-weight: 700;
+}
+/* 12 pozic na kruhu, 30° na hodinu, začínáme nahoře a jdeme po směru. */
+.zidovske-cifernik span.pos-12 { top:  8%; left: 50%; }
+.zidovske-cifernik span.pos-1  { top: 14%; left: 73%; }
+.zidovske-cifernik span.pos-2  { top: 27%; left: 89%; }
+.zidovske-cifernik span.pos-3  { top: 50%; left: 92%; }
+.zidovske-cifernik span.pos-4  { top: 73%; left: 89%; }
+.zidovske-cifernik span.pos-5  { top: 86%; left: 73%; }
+.zidovske-cifernik span.pos-6  { top: 92%; left: 50%; }
+.zidovske-cifernik span.pos-7  { top: 86%; left: 27%; }
+.zidovske-cifernik span.pos-8  { top: 73%; left: 11%; }
+.zidovske-cifernik span.pos-9  { top: 50%; left:  8%; }
+.zidovske-cifernik span.pos-10 { top: 27%; left: 11%; }
+.zidovske-cifernik span.pos-11 { top: 14%; left: 27%; }
+
 /* Iframe živého monitoru (např. NTP jednotka v Hodináriu) */
 .prose-content iframe.live-monitor,
 .prose-content .live-monitor {
