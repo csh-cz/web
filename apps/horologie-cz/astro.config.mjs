@@ -3,6 +3,7 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import rehypePicture from '../../packages/rehype-picture/index.mjs';
+import imageSizes from './src/data/image-sizes.json' with { type: 'json' };
 
 export default defineConfig({
   // Dočasně pages.dev — ostrá doména horologie.cz zatím neběží.
@@ -14,9 +15,7 @@ export default defineConfig({
   },
   markdown: {
     rehypePlugins: [
-      // Bez imageSizes — horologie-cz má málo obrázků, intrinsic w/h
-      // není kritické (CLS se uplatní hlavně u dlouhých článků).
-      rehypePicture,
+      [rehypePicture, { imageSizes }],
     ],
   },
   integrations: [mdx(), sitemap()],

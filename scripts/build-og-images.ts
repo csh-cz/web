@@ -9,7 +9,7 @@
  *   apps/hodinarium-eu/public/og/<slug>.png
  *   apps/horologie-cz/public/og/<slug>.png
  */
-import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, readdir, unlink } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Resvg } from '@resvg/resvg-js';
@@ -233,6 +233,29 @@ interface CatalogEntry {
   excerpt: string;
 }
 
+/**
+ * Smaže OG soubory pro slugy, které už neexistují v aktuální sadě
+ * (např. po smazání článku). Idempotentní — nedělá nic, pokud
+ * složka neexistuje nebo už je čistá.
+ */
+async function pruneStaleOg(outDir: string, validSlugs: string[]): Promise<void> {
+  const valid = new Set(validSlugs);
+  let entries: string[];
+  try {
+    entries = await readdir(outDir);
+  } catch {
+    return;
+  }
+  for (const f of entries) {
+    if (!f.endsWith('.png')) continue;
+    const slug = f.slice(0, -'.png'.length);
+    if (!valid.has(slug)) {
+      await unlink(join(outDir, f));
+      console.log(`  🗑  smazán stale: ${f}`);
+    }
+  }
+}
+
 async function main() {
   // ── HODINÁRIUM ──
   const catalogPath = join(ROOT, 'content', 'hodinarium-eu', '_catalog.json');
@@ -265,11 +288,12 @@ async function main() {
   for (const page of hodinariumPages) {
     await generate(HODINARIUM_OG, page, 'hodinarium');
   }
+  await pruneStaleOg(HODINARIUM_OG, hodinariumPages.map((p) => p.slug));
   console.log(`  ✅ ${hodinariumPages.length} OG images uloženo do ${HODINARIUM_OG}`);
 
   // ── HOROLOGIE ──
   const horologiePath = join(ROOT, 'content', 'horologie-cz');
-  const horologieFiles = (await readdir(horologiePath)).filter((f) => f.endsWith('.md'));
+  const horologieFiles = (await readdir(horologiePath)).filter((f) => f.endsWith('.md') || f.endsWith('.mdx'));
 
   const horologiePages: OgPage[] = [
     { slug: 'home', title: 'Český spolek horologický', description: 'IČO 26573008 · Sdružení obdivovatelů hodin', siteLabel: 'horologie.cz' },
@@ -284,7 +308,7 @@ async function main() {
   for (const file of horologieFiles) {
     const content = await readFile(join(horologiePath, file), 'utf-8');
     const titleMatch = content.match(/^title:\s*"([^"]+)"/m);
-    const slug = file.replace('.md', '');
+    const slug = file.replace(/\.(md|mdx)$/, '');
     if (titleMatch) {
       horologiePages.push({
         slug,
@@ -299,6 +323,7 @@ async function main() {
   for (const page of horologiePages) {
     await generate(HOROLOGIE_OG, page, 'horologie');
   }
+  await pruneStaleOg(HOROLOGIE_OG, horologiePages.map((p) => p.slug));
   console.log(`  ✅ ${horologiePages.length} OG images uloženo do ${HOROLOGIE_OG}`);
 
   console.log(`\n=== Hotovo ===`);

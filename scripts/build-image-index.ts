@@ -1,7 +1,9 @@
 /**
  * Generuje JSON index s rozměry všech obrázků v public/img/.
  *
- * Výstup: apps/hodinarium-eu/src/data/image-sizes.json
+ * Výstupy:
+ *   - apps/hodinarium-eu/src/data/image-sizes.json
+ *   - apps/horologie-cz/src/data/image-sizes.json
  *
  * Klient potom načte přes import a rozhodne, jak obrázek prezentovat:
  *   - small (<250 px)   → float v textu, žádný lightbox
@@ -17,8 +19,19 @@ import { execFileSync } from 'node:child_process';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const ROOT = join(__dirname, '..');
-const PUBLIC_IMG = join(ROOT, 'apps', 'hodinarium-eu', 'public', 'img');
-const OUT = join(ROOT, 'apps', 'hodinarium-eu', 'src', 'data', 'image-sizes.json');
+
+const APPS = [
+  {
+    name: 'hodinarium-eu',
+    publicImg: join(ROOT, 'apps', 'hodinarium-eu', 'public', 'img'),
+    out: join(ROOT, 'apps', 'hodinarium-eu', 'src', 'data', 'image-sizes.json'),
+  },
+  {
+    name: 'horologie-cz',
+    publicImg: join(ROOT, 'apps', 'horologie-cz', 'public', 'img'),
+    out: join(ROOT, 'apps', 'horologie-cz', 'src', 'data', 'image-sizes.json'),
+  },
+] as const;
 
 interface ImageSize {
   w: number;
@@ -67,20 +80,21 @@ function sipsDimensions(absPath: string): { w: number; h: number } | null {
   }
 }
 
-async function main() {
-  if (!existsSync(PUBLIC_IMG)) {
-    console.error(`Adresář ${PUBLIC_IMG} neexistuje.`);
-    process.exit(1);
+async function buildOne(app: { name: string; publicImg: string; out: string }) {
+  if (!existsSync(app.publicImg)) {
+    console.warn(`  ⚠ Adresář ${app.publicImg} neexistuje, přeskakuji ${app.name}.`);
+    return;
   }
 
-  const files = await walk(PUBLIC_IMG);
+  const files = await walk(app.publicImg);
+  console.log(`\n=== ${app.name} ===`);
   console.log(`Skenuji ${files.length} obrázků…`);
 
   const index: Record<string, ImageSize> = {};
   let small = 0, medium = 0, large = 0, tall = 0, skipped = 0;
 
   for (const rel of files) {
-    const abs = join(ROOT, 'apps', 'hodinarium-eu', 'public', rel);
+    const abs = join(app.publicImg, '..', rel);
     const dim = sipsDimensions(abs);
     if (!dim) {
       skipped++;
@@ -94,17 +108,18 @@ async function main() {
     else large++;
   }
 
-  await writeFile(OUT, JSON.stringify(index, null, 0), 'utf-8');
+  await writeFile(app.out, JSON.stringify(index, null, 0), 'utf-8');
 
-  console.log(`\n=== Hotovo ===`);
-  console.log(`Index obrázků: ${OUT}`);
+  console.log(`Index obrázků: ${app.out}`);
   console.log(`Velikost JSON: ${(JSON.stringify(index).length / 1024).toFixed(1)} KB`);
-  console.log(`\nKlasifikace:`);
-  console.log(`  small  (<250 px):     ${small}`);
-  console.log(`  medium (250-599):     ${medium}`);
-  console.log(`  large  (>=600 px):    ${large}`);
-  console.log(`  tall   (úzký vysoký): ${tall}`);
-  console.log(`  přeskočeno:           ${skipped}`);
+  console.log(`Klasifikace:  small ${small} · medium ${medium} · large ${large} · tall ${tall} · přeskočeno ${skipped}`);
+}
+
+async function main() {
+  for (const app of APPS) {
+    await buildOne(app);
+  }
+  console.log(`\n=== Hotovo ===`);
 }
 
 main().catch((e) => {
