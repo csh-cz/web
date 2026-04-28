@@ -809,6 +809,17 @@ summary::-webkit-details-marker { display: none; }
   :global(.leaflet-tile) {
     filter: sepia(0.15) saturate(0.95) brightness(1) !important;
   }
+
+  /* V light módu měla hlavička hardcoded tmavé pozadí
+     (rgba(20, 16, 12, 0.94)) ale text se přebarvil na tmavý podle
+     --color-text → tmavé na tmavém. Přebarvíme i pozadí. */
+  .site-header {
+    background: rgba(255, 250, 240, 0.94);
+    border-bottom-color: color-mix(in srgb, var(--color-brass) 35%, transparent);
+  }
+  .site-footer {
+    background: var(--color-bg-deep);
+  }
 }
 
 /* Print */
