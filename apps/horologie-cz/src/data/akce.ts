@@ -371,6 +371,98 @@ export const akce: Akce[] = [
     typ: 'akce',
   },
   {
+    slug: 'schwarzwald-2019',
+    rok: 2019,
+    datum: 'jaro 2019',
+    nazev: 'Návštěva výstavy „Hodiny ze Schwarzwaldu" v Brně',
+    misto: 'Technické muzeum v Brně, Purkyňova 105',
+    lat: 49.2308, lon: 16.5752,
+    popis:
+      'Spolková návštěva výstavy schwarzwaldských hodin v TMB '
+      + '— ze soukromé sbírky Miloše Klikara doplněné exponáty '
+      + 'Technického muzea v Brně. Výstava potrvala do 21. 4. 2019.',
+    detail:
+      '<p>Na jaře 2019 zavedla naše spolková výprava členy do '
+      + '<strong>Technického muzea v Brně</strong> (Purkyňova 105) '
+      + 'na výstavu <strong>„Hodiny ze Schwarzwaldu"</strong>. '
+      + 'Výstavu připravil <strong>Miloš Klikar</strong> ze své '
+      + 'soukromé sbírky a TMB ji doplnilo z vlastních depozitářů. '
+      + 'Výstava byla otevřena do <strong>21. 4. 2019</strong>.</p>'
+      + '<p>Schwarzwaldské hodiny — zejména „švarcvaldky" v různých '
+      + 'kombinacích dřeva, polychromované cínované plechové ciferníky, '
+      + 'malované obrazové ciferníky pod sklem, jednoduché lihýrové '
+      + 'mechanismy s automaty (kukačka, smrt s kosou, panna Maria, '
+      + 'mlynář u kola, betlém ve „Surreru") — vznikly v 18. a 19. '
+      + 'století v jihoněmeckém Schwarzwaldu jako masová domácká '
+      + 'manufaktura. Od poloviny 19. století je rozváželi '
+      + '<strong>podomní hodináři („Uhrenträger")</strong> po celé '
+      + 'střední Evropě. V Čechách se s nimi setkáváme dodnes '
+      + '— mnohé jsou ve sbírkách Hodinária v Děčíně i v soukromých '
+      + 'sbírkách členů spolku.</p>'
+      + '<h2>Výběr exponátů</h2>'
+      + '<ul>'
+      + '<li><strong>Celodřevěné hodiny s postavou Panny Marie</strong>, '
+      + 'jejíž paže slouží jako caplové kyvadlo. Hodinový a čtvrťový '
+      + 'číselník + ukazatel dne v měsíci.</li>'
+      + '<li><strong>Polodřevěné hodiny s osmi pohyby</strong> — '
+      + 'kukačka, zvoník, procházející mnich, boží oko, větrný mlýn, '
+      + 'žena u studny, přadlena a vodní mlýn. Bohatě zdobená '
+      + 'malovaná dřevěná kazeta.</li>'
+      + '<li><strong>Čtvrťové polodřevěné „Surrer"</strong> — s betlémem '
+      + 've vrchním prořezávaném okénku, ručně malovaným ciferníkem '
+      + 'a otáčejícími se figurkami.</li>'
+      + '<li><strong>Celodřevěné jednoručičkové lihýrové hodiny se '
+      + 'smrtkou</strong>, která se pohybuje synchronně s lihýrem '
+      + '(memento mori). 19. století.</li>'
+      + '<li><strong>Plechové reliéfní ciferníky</strong> s motivy '
+      + 'rytířů na koni a romantického boha lovu Diany v polychromii '
+      + 's pozlátkem.</li>'
+      + '<li><strong>Obrazové hodiny pod sklem</strong> — malby na '
+      + 'plátně se zatuženým ciferníkem (postava rytíře, mladá žena '
+      + 's košíkem květin).</li>'
+      + '<li><strong>Plastika podomního hodináře (Uhrenträger)</strong> '
+      + 's kompletní hodinkou v ruce a brašnou na zádech — symbol '
+      + 'dobové distribuce schwarzwaldské produkce.</li>'
+      + '</ul>'
+      + '<p>Výstava krásně ukázala šíři typů od nejjednodušších '
+      + 'jednoručičkových mechanismů po komplexní automaty s múzickou '
+      + 'figurální parádou.</p>'
+      + '<h2>Odkazy</h2>'
+      + '<ul>'
+      + '<li><a href="https://www.tmbrno.cz" target="_blank" '
+      + 'rel="noopener">tmbrno.cz</a> — Technické muzeum v Brně</li>'
+      + '<li>Pro typologii schwarzwaldských hodin viz též článek '
+      + '<a href="https://hodinarium-eu.pages.dev/clanky/svarcvaldky_18stol" '
+      + 'target="_blank" rel="noopener">„Doba dřevěná — švarcvaldky '
+      + 'v 18. století"</a> v Hodináriu.</li>'
+      + '</ul>'
+      + '<p class="article-credit"><em>Foto: M. Baudisch.</em></p>',
+    fotky: [
+      'hero.jpg',
+      '01-cesti-clenove.jpg',
+      '02-panna-marie.jpg',
+      '03-polodrevene-osm-pohybu.jpg',
+      '04-surrer-betlem.jpg',
+      '05-smrt-lihyr.jpg',
+      '06-rytci-baroko.jpg',
+      '07-obrazove-pod-sklem.jpg',
+      '08-podomni-hodinar.jpg',
+    ],
+    popisky: [
+      'Plakát výstavy „Hodiny ze Schwarzwaldu" v Technickém muzeu v Brně',
+      'Členové spolku před hlavním exponátem výstavy',
+      'Celodřevěné hodiny s postavou Panny Marie — paže jako caplové kyvadlo',
+      'Polodřevěné hodiny s osmi automatickými pohyby (kukačka, mnich, mlýn, přadlena…)',
+      'Čtvrťové polodřevěné „Surrer" s betlémem v prořezávaném okénku',
+      'Celodřevěné jednoručičkové lihýrové hodiny se smrtkou — 19. století',
+      'Plechové reliéfní ciferníky s motivy rytířů a antické mytologie',
+      'Obrazové hodiny pod sklem — postavy se zatuženým ciferníkem',
+      'Plastika podomního hodináře („Uhrenträger") s hodinkou a brašnou',
+    ],
+    status: 'minula',
+    typ: 'akce',
+  },
+  {
     slug: 'sezona-2025',
     rok: 2025,
     datum: 'duben—říjen 2025',
