@@ -60,6 +60,65 @@ export const akce: Akce[] = [
 
   // ─── MINULÉ ───
   {
+    slug: 'rostock-2022',
+    rok: 2022,
+    datum: '27.—29. října 2022',
+    nazev: 'Symposium 550 let astronomického orloje v Rostocku',
+    misto: 'Rostock (Mariánský kostel), Německo',
+    lat: 54.0901, lon: 12.1410,
+    popis:
+      'Mezinárodní symposium k 550. výročí rostockého astronomického orloje. '
+      + 'Spolek zastupovali David Knespl, Miroslav Baudisch, Petr Skála '
+      + 'a Pavel Himpler.',
+    detail:
+      '<p>Konec října 2022 hostilo německé hanzovní město <strong>Rostock</strong> '
+      + 'mezinárodní symposium k <strong>550. výročí astronomického orloje</strong> '
+      + 'v Mariánském kostele (Marienkirche). Stroj z roku 1472 je považován za '
+      + '<strong>nejstarší orloj s dochovaným funkčním středověkým strojem</strong>.</p>'
+      + '<p>Experti diskutovali nové vědecké poznatky o díle a o jeho restaurování. '
+      + 'Příspěvky vyšly v <em>Tagungsbandu „550 Jahre astronomische Uhr Rostock"</em>.</p>'
+      + '<p>Český spolek horologický zastupovali <strong>David Knespl</strong>, '
+      + '<strong>Miroslav Baudisch</strong>, <strong>Petr Skála</strong> a '
+      + '<strong>Pavel Himpler</strong>.</p>'
+      + '<p><em>Petře, Mirku, Petře a Pavle — pokud máte přesnější popisky '
+      + 'k jednotlivým fotografiím a další podrobnosti k programu, ozvěte se, '
+      + 'rád to doplním.</em></p>',
+    fotky: [
+      'hero.jpg',
+      '01-rano.jpg',
+      '02-zahajeni.jpg',
+      '03-symposium-1.jpg',
+      '04-symposium-2.jpg',
+      '05-symposium-3.jpg',
+      '06-symposium-4.jpg',
+      '07-prestavka.jpg',
+      '08-orloj.jpg',
+      '09-vecer.jpg',
+      '10-rano-2.jpg',
+      '11-symposium-2den.jpg',
+      '12-zaver.jpg',
+      '13-odjezd.jpg',
+    ],
+    popisky: [
+      'Marienkirche v Rostocku — místo konání symposia',
+      '28. 10. — ráno před zahájením symposia',
+      '28. 10. 13:22 — zahájení symposia',
+      '28. 10. — průběh přednášek',
+      '28. 10. — průběh přednášek',
+      '28. 10. — průběh přednášek',
+      '28. 10. — průběh přednášek',
+      '28. 10. — přestávka mezi přednáškami',
+      '28. 10. — astronomický orloj v Marienkirche',
+      '28. 10. — večerní setkání účastníků',
+      '29. 10. ráno — pokračování programu',
+      '29. 10. — druhý den symposia',
+      '29. 10. — závěr programu',
+      '29. 10. — pohled na Rostock před odjezdem',
+    ],
+    status: 'minula',
+    typ: 'akce',
+  },
+  {
     slug: 'protivin-2022',
     rok: 2022,
     datum: '19.—20. srpna 2022',
