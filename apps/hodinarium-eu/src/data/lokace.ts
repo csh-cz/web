@@ -71,6 +71,7 @@ export const lokace: Lokace[] = [
   { slug: 'mindelheim', jmeno: 'Mindelheim — Turmuhrenmuseum', zeme: 'DE', lat: 48.0436, lon: 10.4856, popis: 'Bavorské muzeum věžních hodin', typ: 'expozice', web: 'https://www.mindelheim.de/leben-erleben/freizeit-und-sport/sehenswuerdigkeiten/turmuhrenmuseum' },
   { slug: 'schaffhausen', jmeno: 'Schaffhausen', zeme: 'CH', lat: 47.6970, lon: 8.6339, popis: 'IWC Schaffhausen Museum a věžní hodiny v pevnosti Munot', typ: 'expozice', web: 'https://www.iwc.com/en/iwc-museum.html' },
   { slug: 'orloje_2', jmeno: 'Slovensko — orloje', zeme: 'SK', lat: 48.7500, lon: 19.1500, popis: 'Slovenské orloje (Stará Bystrica, Banská Bystrica, …)', typ: 'expozice' },
+  { slug: 'kralovstvi-casu', jmeno: 'Protivín — Království času', zeme: 'CZ', lat: 49.1992, lon: 14.2153, popis: 'Soukromá hodinářská expozice v secesní vile z roku 1907 — přes 1200 exponátů, dětský prostor a kavárna', typ: 'expozice', web: 'https://kralovstvicasu.cz/' },
 
   // ─── Další horologické zajímavosti ───
   { slug: 'glashutte', jmeno: 'Glashütte — Deutsches Uhrenmuseum', zeme: 'DE', lat: 50.8499, lon: 13.7820, popis: 'Saské hodinářské centrum — A. Lange & Söhne, Glashütte Original a německé hodinářské muzeum', typ: 'zajimavost', web: 'https://www.uhrenmuseum-glashuette.com/' },
