@@ -54,10 +54,6 @@ const lastModifiedReadable = entry.data.lastModified
     border-radius: 2px;
     border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
     cursor: default;
-    /* Blend mode — pokus o "transparent" pozadí na tmavém webu.
-       Funguje pro fotky s bílým pozadím; pro tmavé pozadí udělá nic. */
-    mix-blend-mode: screen;
-    background: transparent;
   }
   .prose-content img.img-small:nth-of-type(even) {
     float: left;
@@ -72,8 +68,6 @@ const lastModifiedReadable = entry.data.lastModified
     cursor: default;
     border-radius: 2px;
     border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
-    mix-blend-mode: screen;
-    background: transparent;
   }
 
   /* Large: standalone, klik = lightbox (větší rozlišení k dispozici) */
@@ -104,33 +98,6 @@ const lastModifiedReadable = entry.data.lastModified
     overflow: hidden; /* zabraň aby se float prolínal nesouvisejícími odstavci */
   }
 
-  /* Light mode (pergamenové pozadí) — multiply místo screen pro stejný efekt */
-  @media (prefers-color-scheme: light) {
-    .prose-content img.img-small,
-    .prose-content img.img-medium {
-      mix-blend-mode: multiply;
-    }
-  }
-
-  /* Tisk — bez blend (na bílém papíru s multiply ne každý fotka vypadá dobře) */
-  @media print {
-    .prose-content img.img-small,
-    .prose-content img.img-medium {
-      mix-blend-mode: normal;
-    }
-  }
-
-  /* Lightbox / large — vždy plný obrázek, bez blendu */
-  .prose-content img.img-large,
-  dialog#lightbox img {
-    mix-blend-mode: normal;
-  }
-
-  /* Opt-out per article — pokud má článek class .no-blend (např. dekor),
-     vypne blend pro všechny obrázky uvnitř */
-  .prose-content.no-blend img {
-    mix-blend-mode: normal !important;
-  }
 
   /* Konsekutivní obrázky v článku — propojit do galerie (jen pro velké) */
   .prose-content p:has(> img:only-child) {
