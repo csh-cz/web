@@ -65,13 +65,15 @@ Uvnitř jednotky je přepínač napětí sítě, dále samostatné vypínače pr
 
 ### Svorkovnice
 
-![Svorkovnice SSC-MQI](/img/elektrika/Kappa/svorkovnice%20SSC-MQI.jpg)
+![Svorkovnice SSC-MQI](/img/elektrika/Kappa/svorkovnice_SSC-MQI.jpg)
 
 Zajímavé je, že téměř stejné hlavní hodiny nesou štítek Seiko QC-6M3 Maritime Master Clock. Novější hlavní hodiny mají někdy označení též TXS-10F CITIZEN Marine Master Uhr.
 
 * * *
 
 ## Hlavní hodiny na bázi ESP8266
+
+<iframe src="https://www.orloj.eu/arduino2_polarizace.php?MAC=NTPi-C234" class="live-monitor" title="Živý monitor chodu NTP jednotky v Hodináriu (orloj.eu)" loading="lazy"></iframe>
 
 Přestože je možné na eBay.de originální hlavní hodiny koupit, přikročili jsme zejména z cenových důvodů k vytvoření vlastních hlavních hodin. Použili jsme stejný HW jako u první varianty [NTP jednotky](/clanky/Arduino), pouze jsme pro polarizované impulzy pohybu vzad použili i druhý H můstek. Sice byl trochu programový oříšek jak se vyrovnat s hrozícím zkratem mezi můstky způsobený spojením jednoho konce cívek v hodinách, ale podařilo se. Výstup hodin je pouze COM, ADV, REV. Při použití 100 ms pulzů je pěkná podívaná na počáteční nastavení při rozdílu větším než 6 hodin rychlým pohybem vzad.
 

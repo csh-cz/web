@@ -39,9 +39,10 @@ interface Index {
 }
 
 function extractMain(html: string): string {
-  // Hlavní obsah je v <div class="hlavni">...</div> (před patičkou)
-  // Patička je v <div class="pata">
-  const m = html.match(/<div class=["']hlavni["'][^>]*>([\s\S]*?)<div class=["']pata["']/);
+  // Hlavní obsah je v <div ... class="hlavni" ...>...</div> (před patičkou).
+  // Patička je v <div class="pata">. Atribut class může být na libovolné
+  // pozici (některé staré stránky mají nejdřív style="..." a class až za ním).
+  const m = html.match(/<div\b[^>]*\bclass=["'][^"']*\bhlavni\b[^"']*["'][^>]*>([\s\S]*?)<div\b[^>]*\bclass=["'][^"']*\bpata\b[^"']*["']/);
   if (m) return m[1];
   // Fallback: vezmi <body> a doufej
   const body = html.match(/<body[^>]*>([\s\S]*)<\/body>/);

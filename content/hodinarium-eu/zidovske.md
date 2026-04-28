@@ -178,7 +178,7 @@ A nyní již ciferníky:
 
 * * *
 
-![celkový pohled](/img/zidovske/marusak_rad%201.jpg)
+![celkový pohled](/img/zidovske/marusak_rad_1.jpg)
 **Ručičky hodin ukazují stále správný čas.** Vytvořeno pro tento server.
 
 **N**a virtuálním modelu ciferníku nahoře můžete sami posoudit "snadnost přečtení správního času". Ručičky hodin na fotografii se nastavují podle času na vašem PC. Pro kontrolu vlevo nahoře digitální hodiny, které ovšem ukazují čas v 24 hodinovém dělení. Tím je zmatek dovršen, protože např. v 17 hodin ukazuje velká hodinová ručička na číslici 5, která ovšem je tam, kde obvykle očekáváme číslici 7.

@@ -44,10 +44,6 @@ Zatím bez podrobnějšího popisu uvádíme několik náčrtků patrně z roku 
 
 ![Laplace - skeletová přestavba](/img/laplace/laplace_prestavba2b.jpg)
 
-![Hodiny Laplace pro řízení frekvence sítě](/img/laplace/elektrarenske/elektrarna1d.jpg)
-
-![Hodiny Laplace pro řízení frekvence sítě](/img/laplace/elektrarenske/elektrarna1b.jpg)
-
 ## Použití hodin Laplace v elektrárně pro řízení frekvence
 
 Aby mohl být u synchronních hodin zajištěn přesný časový údaj, bylo nutné frekvenci sítě regulovat. K tomuto účelu ing. Michl navrhl speciální hodiny, které byly instalované ve velkých elektrárnách v Československu i dalších státech. Tyto hodiny zobrazují kumulovanou odchylku frekvence sítě porovnáním minutových ručiček přesně jdoucích mechanických hodina a hodin Laplace synchronizovaných rozvodnou sítí. Princip je poměrně jednoduchý. Zobrazuje se čas, který ukazují mechanické hodiny i synchronní hodiny. Vizuálním porovnáním se určí rozdíl obou časů.

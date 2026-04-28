@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<HTML>
+<HEAD><TITLE>Sluneční hodiny Vlasta Filler</TITLE>
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=utf-8">
+
+<style type="text/css">
+<!--
+body {
+width: 660px;
+overflow: auto;
+text-align: left;
+background-color: #85530a;
+    font-weight: bold;
+    color: #ffffff;
+    
+span  {font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;}
+
+a:link {color: #ffffcc}
+a:visited {color: #ffffcc}
+a:active {color: #ffffcc}
+a:hover {color: #ffffcc}
+-->
+
+</style>
+
+</HEAD>
+<body bgcolor="#85530A" text="#FFFFFF">
+
+<div style="overflow: visible"> <!-- stejne to nefunguje -->
+
+<script language="JavaScript" type="text/javascript">
+
+if(navigator.appName=="Microsoft Internet Explorer")
+document.write("<span style='position: relative; top: 0px; left: 2px; z-index: 0'>");
+else if(navigator.appName=="Netscape")
+document.write("<span style='position: relative; top: 0px; left: 2px; z-index: 0'>");
+else
+document.write("<span style='position: relative; top: 14px; left: 2px; z-index: 0'>");
+</script>
+
+<span style="position: absolute; top: 0px; left: 0px; z-index: 1">
+<img src='/img/slunecni/klementinum_anim.jpg' style='width: 496px; height: 459px; float: left' alt=''>
+</span>
+
+<span style="position: absolute; top: 0px; left: 0px; z-index: 5">
+<img src='/img/slunecni/b0.gif' style='width: 496px; height: 459px; float: left' alt='sluneční hodiny umístěné na jižní stěně Hospodářského dvora pražského Klementina vyzdobené dětmi vypouštějícími mýdlové bubliny, další děti z&nbsp;dolních rohů do bublin foukají, uprostřed stojí přesýpací hodiny na lebce s&nbsp;hnáty - my jsme ty děti, které se bez užitku pachtějí za bublinami tohoto světa a&nbsp;zapomínáme na pomíjivost pozemského života, i&nbsp;když jsme varováni skrze hodiny před jeho krácením s&nbsp;každou uplynulou hodinou' title='sluneční hodiny umístěné na jižní stěně Hospodářského dvora pražského Klementina vyzdobené dětmi vypouštějícími mýdlové bubliny, další děti z&nbsp;dolních rohů do bublin foukají, uprostřed stojí přesýpací hodiny na lebce s&nbsp;hnáty - my jsme ty děti, které se bez užitku pachtějí za bublinami tohoto světa a&nbsp;zapomínáme na pomíjivost pozemského života, i&nbsp;když jsme varováni skrze hodiny před jeho krácením s&nbsp;každou uplynulou hodinou' />
+</span>
+
+<span style="position: absolute; top: 0px; left: 0px; z-index: 2">
+
+
+<div style='overflow: hidden; overflow-y: -moz-scrollbars-vertical; overflow-x: -moz-scrollbars-horizontal; width: 496; height: 459px'>
+
+<script type="text/javascript">
+//--------------------------------------------------------------------------
+
+
+prom0 = new Date();
+M0 = prom0.getMonth() + 1;
+D0 = prom0.getDate();
+h0 = prom0.getHours();
+m0 = prom0.getMinutes();
+s0 = prom0.getSeconds();
+mis0 = prom0 * 1;
+//--------------------------------------------------------------------------
+prom1 = new Date();
+off1 = prom1.getTimezoneOffset() * 60 * 1000; // pasmovy posun od UTC v ms
+prom1.setTime(prom1.getTime() + off1 + 3460300)
+mis1 = prom1 * 1;
+//--------------------------------------------------------------------------
+prom2 = new Date(1970,M0-1,D0,h0,m0,s0); // R,M0-11,D,h,m
+prom2.setTime(prom2.getTime() - off1);
+mis2 = prom2 * 1;
+//--------------------------------------------------------------------------
+dr = mis2 / 1000 / 60 / 60 / 24; // dnu v roce v Praze
+//--------------------------------------------------------------------------
+sin1 = Math.sin((dr - 2.7395833) / 58,0915570) * 7.9; 
+sin2 = Math.sin((dr + 10.047222) / 29,0457785) * 9.9;
+E = - (sin1 + sin2);
+F = Math.abs(E);
+G = Math.round((F - Math.floor(F)) * 6000) / 100;
+//--------------------------------------------------------------------------
+prom1.setTime(prom1.getTime() + E * 60 * 1000)
+hh = prom1.getHours();
+mm = prom1.getMinutes();
+//--------------------------------------------------------------------------
+document.write("&nbsp; &nbsp; &nbsp; &nbsp; Tyto sluneční hodiny fungují &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; za jakéhokoliv počasí.<br/>&nbsp; &nbsp; &nbsp; &nbsp; Právě je ");
+
+if(hh < 10){document.write("&nbsp;&nbsp;")}
+document.write(hh + " : ");
+
+if(mm < 10){document.write("0")}
+document.write(mm + " hodin &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;pražského pravého<br/>&nbsp; &nbsp; &nbsp; &nbsp; slunečního času.");
+
+document.write("&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ");
+
+if(h0 < 6){document.write("Dobrou noc")}
+if(h0 >= 6 && h0 < 9){document.write("Dobré ráno")}
+if(h0 >= 9 && h0 < 11){document.write("Dobré dopoledne")}
+if(h0 == 11 && m0 < 30){document.write("Dobré dopoledne")}
+if(h0 == 11 && m0 >= 30){document.write("&nbsp; &nbsp; Dobré poledne")}
+if(h0 >= 12 && h0 < 13){document.write("&nbsp; &nbsp; Dobré poledne")}
+if(h0 >= 13 && h0 < 18){document.write("Dobré odpoledne")}
+if(h0 >= 18 && h0 < 22){document.write("Dobrý večer")}
+if(h0 >= 22){document.write("Dobrou noc")}
+
+var la = 247; var ta =  61; // stred slunce
+var lb = 0; var tb = 0; var lp = 0; var tp = 0;
+
+var l600 = 248 ; var t600 = 61 ; 
+var l606 = 50 ; var t606 = 61 ;
+var l607 = 64 ; var t607 = 133 ;
+var l608 = 98 ; var t608 = 190 ;
+var l609 = 137 ; var t609 = 227 ;
+var l610 = 176 ; var t610 = 248 ;
+var l611 = 212 ; var t611 = 258 ;
+var l612 = 247 ; var t612 = 260 ;
+var l613 = 280 ; var t613 = 258 ;
+var l614 = 317 ; var t614 = 248 ;
+var l615 = 357 ; var t615 = 227 ;
+var l616 = 398 ; var t616 = 190 ;
+var l617 = 430 ; var t617 = 134 ;
+var l618 = 443 ; var t618 = 61 ;
+
+//// uprava Kral - V "noci" se posune o 12 hodin, aby hodiny stale ukazovali čas
+if(hh<6) hh=hh+12;
+if(hh>18) hh=hh-12;
+////////////////
+
+if(hh<6){lb=l600; tb=t600;}
+else if(hh==6){lb=l606; tb=t606; lp=(l607-l606)/60; tp=(t607-t606)/60;}
+else if(hh==7){lb=l607; tb=t607; lp=(l608-l607)/60; tp=(t608-t607)/60;}
+else if(hh==8){lb=l608; tb=t608; lp=(l609-l608)/60; tp=(t609-t608)/60;}
+else if(hh==9){lb=l609; tb=t609; lp=(l610-l609)/60; tp=(t610-t609)/60;}
+else if(hh==10){lb=l610; tb=t610; lp=(l611-l610)/60; tp=(t611-t610)/60;}
+else if(hh==11){lb=l611; tb=t611; lp=(l612-l611)/60; tp=(t612-t611)/60;}
+else if(hh==12){lb=l612; tb=t612; lp=(l613-l612)/60; tp=(t613-t612)/60;}
+else if(hh==13){lb=l613; tb=t613; lp=(l614-l613)/60; tp=(t614-t613)/60;}
+else if(hh==14){lb=l614; tb=t614; lp=(l615-l614)/60; tp=(t615-t614)/60;}
+else if(hh==15){lb=l615; tb=t615; lp=(l616-l615)/60; tp=(t616-t615)/60;}
+else if(hh==16){lb=l616; tb=t616; lp=(l617-l616)/60; tp=(t617-t616)/60;}
+else if(hh==17){lb=l617; tb=t617; lp=(l618-l617)/60; tp=(t618-t617)/60;}
+else if(hh==18 && mm==0){lb=l618; tb=t618;}
+else if(hh==18 && mm>0){lb=l600; tb=t600;}
+else if(hh>18){lb=l600; tb=t600;}
+
+lu = lb + lp * mm ;
+tu = tb + tp * mm ;
+
+var lc  = (lu - la) / 200;
+var tc  = (tu - ta) / 200;
+
+citac = 0;
+while (citac < 200) {
+
+var l01 = la + citac * lc;
+var t01 = ta + citac * tc;
+
+var s01 = "<div style='width: 655; height: 450px'><span style='position: absolute; top: "+ t01 +"; left: "+ l01 +"'><img src='/img/slunecni/s.gif' style='width: 4px; height: 4px; float: left' alt='' /></span></div>";
+document.write(s01);
+citac++;}
+
+
+
+</script>
+</div>
+</span>
+
+</body>
+</html>

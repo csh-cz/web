@@ -7,47 +7,7 @@ lastModified: "Wed, 26 Apr 2017 16:25:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:53.309Z"
 ---
-![nadpis VMH](/img/nadpis1.gif)
-
-!
-[![logo český spolek Horologický](/img/logo_CSH_110.jpg)](/clanky/spolek)
-!
-[![www.orloj.eu](/img/banery/apo_11midi.gif)](http://www.orloj.eu/)
-!
-![](https://www.facebook.com/Hodin%C3%A1rium-%C4%8Cesk%C3%BD-spolek-horologick%C3%BD-169939123371944)
-!
-
-!
-
-!
-
-!
-
-* * *
-
-**[HOME](/clanky/index)**
-
-* * *
-
-[Novinky](/clanky/novinky)
-
-* * *
-
-[Mapa](/clanky/mapa)
-
-* * *
-
-[Kontakt](/clanky/kontakt)
-
-* * *
-
-[Vyhledávání](/clanky/hledej)
-
-* * *
-
-!
-
-\- hodiny protékajícího času
+**TIME FLOW CLOCK** — hodiny protékajícího času.
 
 ![realizace1](/img/vodni/time_flow_clock0.jpg)
 
@@ -71,9 +31,3 @@ Zde jen krátký popis. Model ukazuje, jak je konečně na našem serveru zvykem
 -   www.marcdatabase.com/~lemur/dm-gitton.html Asi informačně nejhodnotnější stránka o autorovi včetně podrobného popisu hodin a vysvětlení principů, na kterých jsou založeny. Obsahuje i nákres kyvadla, zde neuvedeného. (An)
 -   perso.orange.fr/cadrans.solaires/cadrans/Cadran-clepsydre.html Také technický nákres (FR)
 -   [en.wikipedia.org/wiki/Water\_clock](http://en.wikipedia.org/wiki/Water_clock) Obecněji o vodních hodinách ve Wikipedii.
-
-* * *
-
-Telefon: 603 502 735, email: info (kyselá ryba) orloj . eu
-
-* * *

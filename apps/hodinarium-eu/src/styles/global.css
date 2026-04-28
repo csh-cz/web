@@ -141,6 +141,10 @@ a {
   transition: border-color 150ms ease, color 150ms ease;
 }
 
+a:visited {
+  color: var(--color-brass-bright);
+}
+
 a:hover {
   color: var(--color-paper);
   border-bottom-color: var(--color-brass-bright);
@@ -150,6 +154,18 @@ a:focus-visible {
   outline: 2px solid var(--color-brass-bright);
   outline-offset: 3px;
   border-radius: 1px;
+}
+
+/* Hlavní navigace — vyšší kontrast textu na tmavém podkladu hlavičky */
+.site-header nav a {
+  color: var(--color-text);
+}
+.site-header nav a:hover,
+.site-header nav a:focus-visible {
+  color: var(--color-brass-bright);
+}
+.site-header nav a:visited {
+  color: var(--color-text);
 }
 
 /* Skip link — viditelný jen po Tabu */
@@ -613,6 +629,30 @@ summary::-webkit-details-marker { display: none; }
 
 .mobile-menu a:hover {
   background: color-mix(in srgb, var(--color-brass) 8%, transparent);
+}
+
+/* Iframe živého monitoru (např. NTP jednotka v Hodináriu) */
+.prose-content iframe.live-monitor,
+.prose-content .live-monitor {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  height: 200px;
+  margin: 1.25rem auto;
+  border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+  border-radius: 2px;
+  background: var(--color-bg-deep);
+}
+
+/* Iframe Fillerových slunečních hodin (Klementinum) — pevný viewport
+   pro zachování layoutu zděděného JS programu. */
+.prose-content iframe.filler-clock {
+  display: block;
+  max-width: 100%;
+  margin: 1.5rem auto;
+  border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+  border-radius: 2px;
+  background: var(--color-bg-deep);
 }
 
 /* TL;DR aside na článku */
