@@ -1,67 +1,241 @@
 # BUGS
 
 Automatický crawl Playwrightem dne 2026-04-28.
-Otestováno 1794 stránek napříč hodinarium-eu.pages.dev a horologie-cz.pages.dev.
+Otestováno 381 stránek napříč hodinarium-eu.pages.dev a horologie-cz.pages.dev.
 
 ## Souhrn
 
 | Typ chyby | Počet |
 |---|---|
-| js-error | 1427 |
-| broken-image | 1251 |
-| failed-request | 55 |
-| no-h1 | 25 |
-| multiple-h1 | 24 |
+| no-h1 | 54 |
+| js-error | 21 |
 | http-error | 20 |
+| failed-request | 13 |
+| broken-image | 6 |
 
-**Celkem 2802 nálezů.**
+**Celkem 114 nálezů.**
 
 
-## js-error (1427)
+## no-h1 (54)
 
-### /mapa
+### /img/vezni/sobeslav/fenix/fenix_005.jpg
 
-- L is not defined
+- 0× <h1>
 
-### /clanky/astronomicke_Sauter
+### /img/decin/vizualizace_vstup.jpg
 
-- Failed to load resource: the server responded with a status of 404 ()
-- Failed to load resource: the server responded with a status of 404 ()
-- Failed to load resource: the server responded with a status of 404 ()
-- Failed to load resource: the server responded with a status of 404 ()
-- Failed to load resource: the server responded with a status of 404 ()
-- Failed to load resource: the server responded with a status of 404 ()
-- Failed to load resource: the server responded with a status of 404 ()
-- Failed to load resource: the server responded with a status of 404 ()
-- Failed to load resource: the server responded with a status of 404 ()
-- Failed to load resource: the server responded with a status of 404 ()
-- Failed to load resource: the server responded with a status of 404 ()
-- Failed to load resource: the server responded with a status of 404 ()
+- 0× <h1>
 
-### /clanky/bulle
+### /img/arduino/schema_klasikab.jpg
 
-- Failed to load resource: the server responded with a status of 404 ()
+- 0× <h1>
 
-### /clanky/12_24
+### /img/slunecni/tab_rovnice.gif
 
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
+- 0× <h1>
 
-### /clanky/kontakt
+### /img/slunecni/f/tabulka_svetlonos1.jpg
 
-- Failed to load resource: the server responded with a status of 404 ()
+- 0× <h1>
 
-### /clanky/spolek
+### /img/slunecni/f/tabulka_svetlonos2.jpg
 
-- Failed to load resource: the server responded with a status of 404 ()
+- 0× <h1>
 
-### /clanky/elektromagneticke_segmenty
+### /img/decin/dalsi_stroje/Holandske/f/foto_0003.jpg
 
-- Failed to load resource: the server responded with a status of 404 ()
-- Failed to load resource: the server responded with a status of 404 ()
-- Failed to load resource: the server responded with a status of 404 ()
+- 0× <h1>
+
+### /img/akce/stehovani-2015/01-priprava.jpg
+
+- 0× <h1>
+
+### /img/akce/stehovani-2015/02-stehovani.jpg
+
+- 0× <h1>
+
+### /img/akce/stehovani-2015/03-prevoz.jpg
+
+- 0× <h1>
+
+### /img/akce/stehovani-2015/04-instalace.jpg
+
+- 0× <h1>
+
+### /img/akce/stehovani-2015/05-vystavba.jpg
+
+- 0× <h1>
+
+### /img/akce/stehovani-2015/06-stroje.jpg
+
+- 0× <h1>
+
+### /img/akce/stehovani-2015/07-detaily.jpg
+
+- 0× <h1>
+
+### /img/akce/stehovani-2015/08-fotogalerie.jpg
+
+- 0× <h1>
+
+### /img/akce/stehovani-2015/09-zaver.jpg
+
+- 0× <h1>
+
+### /img/akce/olomoucky-orloj-2019/01-vyroba-1.jpg
+
+- 0× <h1>
+
+### /img/akce/olomoucky-orloj-2019/02-vyroba-2.jpg
+
+- 0× <h1>
+
+### /img/akce/olomoucky-orloj-2019/03-vyroba-3.jpg
+
+- 0× <h1>
+
+### /img/akce/olomoucky-orloj-2019/04-vyroba-4.jpg
+
+- 0× <h1>
+
+### /img/akce/olomoucky-orloj-2019/05-vyroba-5.jpg
+
+- 0× <h1>
+
+### /img/akce/olomoucky-orloj-2019/06-vystava-celek.jpg
+
+- 0× <h1>
+
+### /img/akce/olomoucky-orloj-2019/07-eksponaty-1.jpg
+
+- 0× <h1>
+
+### /img/akce/olomoucky-orloj-2019/08-eksponaty-2.jpg
+
+- 0× <h1>
+
+### /img/akce/olomoucky-orloj-2019/09-vernisaz-1.jpg
+
+- 0× <h1>
+
+### /img/akce/olomoucky-orloj-2019/10-vernisaz-2.jpg
+
+- 0× <h1>
+
+### /img/akce/rostock-2022/01-rano.jpg
+
+- 0× <h1>
+
+### /img/akce/rostock-2022/02-zahajeni.jpg
+
+- 0× <h1>
+
+### /img/akce/rostock-2022/03-symposium-1.jpg
+
+- 0× <h1>
+
+### /img/akce/rostock-2022/04-symposium-2.jpg
+
+- 0× <h1>
+
+### /img/akce/rostock-2022/05-symposium-3.jpg
+
+- 0× <h1>
+
+### /img/akce/rostock-2022/06-symposium-4.jpg
+
+- 0× <h1>
+
+### /img/akce/rostock-2022/07-prestavka.jpg
+
+- 0× <h1>
+
+### /img/akce/rostock-2022/08-orloj.jpg
+
+- 0× <h1>
+
+### /img/akce/rostock-2022/09-vecer.jpg
+
+- 0× <h1>
+
+### /img/akce/rostock-2022/10-rano-2.jpg
+
+- 0× <h1>
+
+### /img/akce/rostock-2022/11-symposium-2den.jpg
+
+- 0× <h1>
+
+### /img/akce/rostock-2022/12-zaver.jpg
+
+- 0× <h1>
+
+### /img/akce/rostock-2022/13-odjezd.jpg
+
+- 0× <h1>
+
+### /img/akce/protivin-2022/12-spolek.jpg
+
+- 0× <h1>
+
+### /img/akce/protivin-2022/01-pivovar.jpg
+
+- 0× <h1>
+
+### /img/akce/protivin-2022/02-pivovar-detail.jpg
+
+- 0× <h1>
+
+### /img/akce/protivin-2022/03-platan-pivovar.jpg
+
+- 0× <h1>
+
+### /img/akce/protivin-2022/04-prohlidka-1.jpg
+
+- 0× <h1>
+
+### /img/akce/protivin-2022/05-prohlidka-2.jpg
+
+- 0× <h1>
+
+### /img/akce/protivin-2022/14-skupinova.jpg
+
+- 0× <h1>
+
+### /img/akce/protivin-2022/06-detaily-hodin-1.jpg
+
+- 0× <h1>
+
+### /img/akce/protivin-2022/07-detaily-hodin-2.jpg
+
+- 0× <h1>
+
+### /img/akce/protivin-2022/15-mezi-prohlidkou.jpg
+
+- 0× <h1>
+
+### /img/akce/protivin-2022/08-pan-kubelka.jpg
+
+- 0× <h1>
+
+
+*… +4 dalších stránek s tímto typem chyby*
+
+## js-error (21)
+
+### /clanky/svarcvaldky_18stol
+
 - Failed to load resource: the server responded with a status of 404 ()
 
 ### /clanky/Kappa
+
+- Failed to load resource: the server responded with a status of 404 ()
+
+### /clanky/decin_2015_08_04
+
+- Failed to load resource: the server responded with a status of 404 ()
+
+### /clanky/decin_2015_09_04
 
 - Failed to load resource: the server responded with a status of 404 ()
 
@@ -69,170 +243,14 @@ Otestováno 1794 stránek napříč hodinarium-eu.pages.dev a horologie-cz.pages
 
 - Failed to load resource: the server responded with a status of 404 ()
 
-### /clanky/budiky1
-
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-
-### /clanky/budiky2
-
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-
-### /clanky/janovice
-
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-
-### /clanky/brillie
+### /clanky/laplace
 
 - Failed to load resource: the server responded with a status of 404 ()
-
-### /clanky/novinky
-
 - Failed to load resource: the server responded with a status of 404 ()
 
-### /clanky/sponsor
+### /clanky/prestavby
 
 - Failed to load resource: the server responded with a status of 404 ()
-
-### /clanky/svarcvaldky_surrerwerk
-
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-
-### /clanky/svitici
-
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-
-### /clanky/svarcvaldky_stroje
-
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-
-### /clanky/ukazatele
-
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-
-### /clanky/usneseni_o_zapisu_spolku
-
-- Failed to load resource: the server responded with a status of 404 ()
-
-### /clanky/stanovy
-
-- Failed to load resource: the server responded with a status of 404 ()
-
-### /clanky/zapis20190118
-
-- Failed to load resource: the server responded with a status of 404 ()
-
-### /clanky/decimalky
-
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-
-### /clanky/svarcvaldky_17stol
-
-- Failed to load resource: the server responded with a status of 404 ()
-
-### /clanky/zapis20200110
-
-- Failed to load resource: the server responded with a status of 404 ()
-
-### /clanky/jezdecke
-
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-
-### /clanky/elektricke2
-
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: the server responded with a status of 404 ()
-
-### /clanky/razitka
-
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-
-### /clanky/lahvace
-
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: the server responded with a status of 404 ()
-
-### /clanky/maregraf
-
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-
-### /clanky/novinky2
-
-- Failed to load resource: the server responded with a status of 404 ()
-
-### /clanky/slunecni_filler
-
-- Failed to load resource: the server responded with a status of 404 ()
-
-### /clanky/svarcvaldky_stroje2
-
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-
-### /clanky/svarcvaldky_stroje_polodrev
-
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-- Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME
-
-### /clanky/hledej
-
-- Failed to load resource: the server responded with a status of 404 ()
-
-### /mapa/
-
-- L is not defined
 
 ### /clanky/litomysl
 
@@ -278,281 +296,166 @@ Otestováno 1794 stránek napříč hodinarium-eu.pages.dev a horologie-cz.pages
 
 - Failed to load resource: the server responded with a status of 404 ()
 
-### /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_001.jpg
+### /akce
 
-- Failed to load resource: the server responded with a status of 404 ()
+- L is not defined
 
-### /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_002.jpg
+### /akce/
 
-- Failed to load resource: the server responded with a status of 404 ()
-
-### /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_003.jpg
-
-- Failed to load resource: the server responded with a status of 404 ()
+- L is not defined
 
 
-*… +1267 dalších stránek s tímto typem chyby*
+## http-error (20)
 
-## broken-image (1251)
+### /clanky/Arduino_Solari
 
-### /clanky/astronomicke_Sauter
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/Arduino_Solari", waiting until "networkidle"
 
-- 404 /img/astronomicke/vezni_signalni/f/foto_0003.jpg
-- 404 /img/astronomicke/vezni_signalni/f/foto_0006.jpg
-- 404 /img/astronomicke/vezni_signalni/f/foto_0007.jpg
-- 404 /img/astronomicke/vezni_signalni/f/foto_0008.jpg
-- 404 /img/astronomicke/vezni_signalni/f/foto_0001.jpg
-- 404 /img/astronomicke/vezni_signalni/f/foto_0002.jpg
-- 404 /img/astronomicke/vezni_signalni/f/foto_0004.jpg
-- 404 /img/astronomicke/vezni_signalni/f/foto_0005.jpg
-- 404 /img/astronomicke/vezni_signalni/f/foto_0009.jpg
-- 404 /img/astronomicke/vezni_signalni/f/foto_0010.jpg
-- 404 /img/astronomicke/vezni_signalni/f/foto_0011.jpg
-- 404 /img/astronomicke/vezni_signalni/f/foto_0012.jpg
 
-### /clanky/bulle
+### /clanky/atomove_kapesni
 
-- 404 /img/elektrika/brillie/brillie%20_hodinarium_bez_ciferniku.jpg
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/atomove_kapesni", waiting until "networkidle"
 
-### /clanky/elektromagneticke_segmenty
 
-- 404 /img/H715_BODET/f/foto_0001.jpg
-- 404 /img/H715_BODET/f/foto_0002.jpg
-- 404 /img/H715_BODET/f/foto_0003.jpg
-- 404 /img/H715_BODET/f/foto_0004.jpg
+### /clanky/12_24
 
-### /clanky/Kappa
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/12_24", waiting until "networkidle"
 
-- 404 /img/elektrika/Kappa/svorkovnice%20SSC-MQI.jpg
 
-### /clanky/zidovske
+### /clanky/dcf77
 
-- 404 /img/zidovske/marusak_rad%201.jpg
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/dcf77", waiting until "networkidle"
+
+
+### /clanky/line_kyvadlo
+
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/line_kyvadlo", waiting until "networkidle"
+
+
+### /clanky/hinspirace
+
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/hinspirace", waiting until "networkidle"
+
+
+### /clanky/Arduino
+
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/Arduino", waiting until "networkidle"
+
+
+### /clanky/decin_jednotny_cas
+
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/decin_jednotny_cas", waiting until "networkidle"
+
+
+### /clanky/budiky1
+
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/budiky1", waiting until "networkidle"
+
+
+### /clanky/kardasova_recice
+
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/kardasova_recice", waiting until "networkidle"
+
+
+### /clanky/podebrady
+
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/podebrady", waiting until "networkidle"
+
+
+### /clanky/lenzkirch
+
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/lenzkirch", waiting until "networkidle"
+
 
 ### /clanky/brillie
 
-- 404 /img/elektrika/brillie/brillie%20_hodinarium_bez_ciferniku.jpg
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/brillie", waiting until "networkidle"
 
-### /clanky/svarcvaldky_17stol
 
-- 404 /img/elektrika/brillie/brillie%20_hodinarium_bez_ciferniku.jpg
+### /clanky/podebrady2
 
-### /clanky/elektricke2
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/podebrady2", waiting until "networkidle"
 
-- 404 /img/elektrika/brillie/brillie%20_hodinarium_bez_ciferniku.jpg
 
-### /clanky/lahvace
+### /clanky/pulsynetic
 
-- 404 /img/elektrika/brillie/brillie%20_hodinarium_bez_ciferniku.jpg
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/pulsynetic", waiting until "networkidle"
 
-### /clanky/slunecni_filler
 
-- 404 /img/elektrika/brillie/brillie%20_hodinarium_bez_ciferniku.jpg
+### /clanky/PRS10
 
-### /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_001.jpg
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/PRS10", waiting until "networkidle"
 
-- 404 /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_001.jpg
 
-### /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_002.jpg
+### /clanky/vez_decin
 
-- 404 /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_002.jpg
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/vez_decin", waiting until "networkidle"
 
-### /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_003.jpg
 
-- 404 /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_003.jpg
+### /clanky/svitici
 
-### /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_004.jpg
+- page.goto: Page crashed
+Call log:
+  - navigating to "https://hodinarium-eu.pages.dev/clanky/svitici", waiting until "networkidle"
 
-- 404 /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_004.jpg
 
-### /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_005.jpg
+### /download/Knespl-Simek-2019-replika-ciselnikoveho-patra.pdf
 
-- 404 /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_005.jpg
+- page.goto: Download is starting
+Call log:
+  - navigating to "https://horologie-cz.pages.dev/download/Knespl-Simek-2019-replika-ciselnikoveho-patra.pdf
 
-### /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_007.jpg
+### /dokumenty/stanovy.pdf
 
-- 404 /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_007.jpg
+- page.goto: Download is starting
+Call log:
+  - navigating to "https://horologie-cz.pages.dev/dokumenty/stanovy.pdf", waiting until "networkidle"
 
-### /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_006.jpg
 
-- 404 /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_006.jpg
 
-### /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_008.jpg
+## failed-request (13)
 
-- 404 /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_008.jpg
+### /clanky/decin_2015_08_04
 
-### /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_009.jpg
+- 404 /clanky/decin_2015_08_04
 
-- 404 /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_009.jpg
+### /clanky/decin_2015_09_04
 
-### /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_010.jpg
-
-- 404 /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_010.jpg
-
-### /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_011.jpg
-
-- 404 /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_011.jpg
-
-### /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_012.jpg
-
-- 404 /clanky/sobeslav3/img/vezni/sobeslav/fenix/fenix_012.jpg
-
-### /clanky/decin_koncepce/img/decin0/18_8_2015/f/foto_0015.jpg
-
-- 404 /clanky/decin_koncepce/img/decin0/18_8_2015/f/foto_0015.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0001.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0001.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0002.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0002.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0003.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0003.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0004.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0004.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0005.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0005.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0006.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0006.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0007.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0007.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0008.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0008.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0009.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0009.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0010.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0010.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0011.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0011.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0012.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0012.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0013.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0013.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0014.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0014.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0015.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0015.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0017.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0017.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0018.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0018.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0019.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0019.jpg
-
-### /clanky/steampunk/img/steampunk/f/foto_0020.jpg
-
-- 404 /clanky/steampunk/img/steampunk/f/foto_0020.jpg
-
-### /clanky/decin_velika_ves/img/decin/gotika/f/foto_0001.jpg
-
-- 404 /clanky/decin_velika_ves/img/decin/gotika/f/foto_0001.jpg
-
-### /clanky/decin_velika_ves/img/decin/gotika/f/foto_0002.jpg
-
-- 404 /clanky/decin_velika_ves/img/decin/gotika/f/foto_0002.jpg
-
-### /clanky/decin_velika_ves/img/decin/gotika/f/foto_0003.jpg
-
-- 404 /clanky/decin_velika_ves/img/decin/gotika/f/foto_0003.jpg
-
-### /clanky/decin_velika_ves/img/decin/gotika/f/foto_0004.jpg
-
-- 404 /clanky/decin_velika_ves/img/decin/gotika/f/foto_0004.jpg
-
-### /clanky/decin_velika_ves/img/decin/gotika/f/foto_0005.jpg
-
-- 404 /clanky/decin_velika_ves/img/decin/gotika/f/foto_0005.jpg
-
-### /clanky/decin_velika_ves/img/decin/gotika/f/foto_0007.jpg
-
-- 404 /clanky/decin_velika_ves/img/decin/gotika/f/foto_0007.jpg
-
-### /clanky/decin_velika_ves/img/decin/gotika/f/foto_0008.jpg
-
-- 404 /clanky/decin_velika_ves/img/decin/gotika/f/foto_0008.jpg
-
-### /clanky/decin_velika_ves/img/decin/gotika/f/foto_0010.jpg
-
-- 404 /clanky/decin_velika_ves/img/decin/gotika/f/foto_0010.jpg
-
-
-*… +1187 dalších stránek s tímto typem chyby*
-
-## failed-request (55)
-
-### /clanky/kontakt
-
-- 404 /clanky/kontakt
-
-### /clanky/spolek
-
-- 404 /clanky/spolek
-
-### /clanky/novinky
-
-- 404 /clanky/novinky
-
-### /clanky/sponsor
-
-- 404 /clanky/sponsor
-
-### /clanky/usneseni_o_zapisu_spolku
-
-- 404 /clanky/usneseni_o_zapisu_spolku
-
-### /clanky/stanovy
-
-- 404 /clanky/stanovy
-
-### /clanky/zapis20190118
-
-- 404 /clanky/zapis20190118
-
-### /clanky/zapis20200110
-
-- 404 /clanky/zapis20200110
-
-### /clanky/novinky2
-
-- 404 /clanky/novinky2
-
-### /clanky/hledej
-
-- 404 /clanky/hledej
+- 404 /clanky/decin_2015_09_04
 
 ### /clanky/litomysl
 
@@ -598,453 +501,27 @@ Otestováno 1794 stránek napříč hodinarium-eu.pages.dev a horologie-cz.pages
 
 - 404 /clanky/orloje_2
 
-### /clanky/casova_pasma/decimalky.htm
 
-- 404 /clanky/casova_pasma/decimalky.htm
+## broken-image (6)
 
-### /clanky/atomove_kapesni/download/A%20History%20of%20the%20Rubidium%20Frequency%20Standard.pdf
+### /clanky/svarcvaldky_18stol
 
-- 404 /clanky/atomove_kapesni/download/A%20History%20of%20the%20Rubidium%20Frequency%20Standard.pdf
-
-### /clanky/12_24/svetova_cas1.htm
-
-- 404 /clanky/12_24/svetova_cas1.htm
-
-### /clanky/mazan/smeti/decimalky.htm
-
-- 404 /clanky/mazan/smeti/decimalky.htm
-
-### /clanky/dcf77/Ru%C4%8Di%C4%8Dkov%C3%A9%20hod%20s%20bud%C3%ADkem%20a%20projektorem%20DCF-77
-
-- 404 /clanky/dcf77/Ru%C4%8Di%C4%8Dkov%C3%A9%20hod%20s%20bud%C3%ADkem%20a%20projektorem%20DCF-77
-
-### /clanky/elektromagneticke_segmenty/download/ADHT/Doc/ADHTpopis_zapojeni.doc
-
-- 404 /clanky/elektromagneticke_segmenty/download/ADHT/Doc/ADHTpopis_zapojeni.doc
-
-### /clanky/vezni_muzejicko_evropa/www.muzeumhodin.eu
-
-- 404 /clanky/vezni_muzejicko_evropa/www.muzeumhodin.eu
-
-### /clanky/budiky2/budiky1.htm
-
-- 404 /clanky/budiky2/budiky1.htm
-
-### /clanky/synchronizace_hodin/elektricke1.htm
-
-- 404 /clanky/synchronizace_hodin/elektricke1.htm
-
-### /clanky/orloj.eu/cs/www.muzeumhodin.info
-
-- 404 /clanky/orloj.eu/cs/www.muzeumhodin.info
-
-### /clanky/podebrady3/podebrady1b.htm
-
-- 404 /clanky/podebrady3/podebrady1b.htm
-
-### /clanky/slunecni_polarizacni/zidovsk%C3%A9%20hodiny.htm
-
-- 404 /clanky/slunecni_polarizacni/zidovsk%C3%A9%20hodiny.htm
-
-### /clanky/fake_atomove_hodiny/PRS2.php
-
-- 404 /clanky/fake_atomove_hodiny/PRS2.php
-
-### /clanky/PRS10/PRS2.php
-
-- 404 /clanky/PRS10/PRS2.php
-
-### /clanky/sezona2012/steampunk2.htm
-
-- 404 /clanky/sezona2012/steampunk2.htm
-
-### /clanky/vez1/lihyr_teorie.htm
-
-- 404 /clanky/vez1/lihyr_teorie.htm
-
-### /clanky/svitici/sitovky.htm
-
-- 404 /clanky/svitici/sitovky.htm
-
-### /clanky/svarcvaldky_stroje/budiky1.htm
-
-- 404 /clanky/svarcvaldky_stroje/budiky1.htm
-
-### /clanky/vodni_B_Gitton/img/vodni/time_flow_clock/wuhrmsierelativ.html
-
-- 404 /clanky/vodni_B_Gitton/img/vodni/time_flow_clock/wuhrmsierelativ.html
-
-### /clanky/sezona2013/vez_kli.htm
-
-- 404 /clanky/sezona2013/vez_kli.htm
-
-### /clanky/sezona2013/vez_budislav.htm
-
-- 404 /clanky/sezona2013/vez_budislav.htm
-
-### /clanky/vodni/vodn%C3%A1_minutka.htm
-
-- 404 /clanky/vodni/vodn%C3%A1_minutka.htm
-
-### /clanky/download/download/pckukacky_setup.exe
-
-- 404 /clanky/download/download/pckukacky_setup.exe
-
-### /clanky/download/download/metronom_v1_0.exe
-
-- 404 /clanky/download/download/metronom_v1_0.exe
-
-### /clanky/settopbox/www.parabola.cz/clanky/1899/digitalni-vysilani-je-uvadeny-cas-skutecne-presny/
-
-- 404 /clanky/settopbox/www.parabola.cz/clanky/1899/digitalni-vysilani-je-uvadeny-cas-skutecne-presny/
-
-### /clanky/4ruce/janovice.htm
-
-- 404 /clanky/4ruce/janovice.htm
-
-### /clanky/elektricke2/animace.htm
-
-- 404 /clanky/elektricke2/animace.htm
-
-### /clanky/GPS_Sakul/decin_NTP.htm
-
-- 404 /clanky/GPS_Sakul/decin_NTP.htm
-
-### /clanky/jednotnycas/synchronizace_hodin_PC.htm
-
-- 404 /clanky/jednotnycas/synchronizace_hodin_PC.htm
-
-
-*… +5 dalších stránek s tímto typem chyby*
-
-## no-h1 (25)
-
-### /img/vezni/sobeslav/fenix/fenix_005.jpg
-
-- 0× <h1>
-
-### /img/decin/vizualizace_vstup.jpg
-
-- 0× <h1>
-
-### /img/elektrika/junhhans/PujaMantelClock2.jpg
-
-- 0× <h1>
-
-### /img/elektrika/junhhans/puja04-1.jpg
-
-- 0× <h1>
-
-### /img/decin0/2015_08_04/f/foto_0072.jpg
-
-- 0× <h1>
-
-### /img/decin0/2015_08_04/f/foto_0075.jpg
-
-- 0× <h1>
-
-### /img/decin0/2015_08_04/f/foto_0104.jpg
-
-- 0× <h1>
-
-### /img/decin0/2015_08_04/f/foto_0124.jpg
-
-- 0× <h1>
-
-### /img/vezni/tabor/presuny_rytina.jpg
-
-- 0× <h1>
-
-### /img/ujete/Mertur/slunecni.jpg
-
-- 0× <h1>
-
-### /img/elektrika/ato/atopend.gif
-
-- 0× <h1>
-
-### /img/elektrika/brillie/Brillie4.jpg
-
-- 0× <h1>
-
-### /img/elektrika/brillie/Brillie5.jpg
-
-- 0× <h1>
-
-### /img/elektrika/brillie/Brillie6.jpg
-
-- 0× <h1>
-
-### /img/elektrika/pulsynetic/spinaci.jpg
-
-- 0× <h1>
-
-### /img/elektrika/pulsynetic/obs-diagram.jpg
-
-- 0× <h1>
-
-### /img/pulsynetic/f/wt_named_parts_big.jpg
-
-- 0× <h1>
-
-### /img/Mobatime/struktura2020.jpg
-
-- 0× <h1>
-
-### /img/Timometer/f/foto_0010.jpg
-
-- 0× <h1>
-
-### /img/arduino/schema_klasikab.jpg
-
-- 0× <h1>
-
-### /img/vez/bychory/f/komplet.jpg
-
-- 0× <h1>
-
-### /img/Orient/kalendar.jpg
-
-- 0× <h1>
-
-### /img/kalendarni/hodinky-sharp-calendar-quartz.jpeg
-
-- 0× <h1>
-
-### /img/decin/dalsi_stroje/Holandske/f/foto_0003.jpg
-
-- 0× <h1>
-
-### /img/decin0/f/foto_0018.jpg
-
-- 0× <h1>
-
-
-## multiple-h1 (24)
-
-### /clanky/arduino_PPS
-
-- 2× <h1>
-
-### /clanky/astronomicke_Sauter
-
-- 2× <h1>
+- 404 /img/elektrika/brillie/brillie%20_hodinarium_bez_ciferniku.jpg
 
 ### /clanky/Kappa
 
-- 3× <h1>
-
-### /clanky/Lantime_M100
-
-- 2× <h1>
-
-### /clanky/datumatik
-
-- 2× <h1>
-
-### /clanky/decin_NTP
-
-- 2× <h1>
-
-### /clanky/tabor
-
-- 2× <h1>
+- 404 /img/elektrika/Kappa/svorkovnice%20SSC-MQI.jpg
 
 ### /clanky/zidovske
 
-- 2× <h1>
+- 404 /img/zidovske/marusak_rad%201.jpg
 
-### /clanky/NTPH
+### /clanky/laplace
 
-- 2× <h1>
+- 404 /img/laplace/elektrarenske/elektrarna1d.jpg
+- 404 /img/laplace/elektrarenske/elektrarna1b.jpg
 
-### /clanky/mystery
+### /clanky/prestavby
 
-- 2× <h1>
-
-### /clanky/vezni_muzejicko
-
-- 2× <h1>
-
-### /clanky/NTPH_st
-
-- 2× <h1>
-
-### /clanky/arduino_PPS/
-
-- 2× <h1>
-
-### /clanky/astronomicke_Sauter/
-
-- 2× <h1>
-
-### /clanky/Kappa/
-
-- 3× <h1>
-
-### /clanky/Lantime_M100/
-
-- 2× <h1>
-
-### /clanky/datumatik/
-
-- 2× <h1>
-
-### /clanky/decin_NTP/
-
-- 2× <h1>
-
-### /clanky/tabor/
-
-- 2× <h1>
-
-### /clanky/zidovske/
-
-- 2× <h1>
-
-### /clanky/NTPH/
-
-- 2× <h1>
-
-### /clanky/mystery/
-
-- 2× <h1>
-
-### /clanky/vezni_muzejicko/
-
-- 2× <h1>
-
-### /clanky/NTPH_st/
-
-- 2× <h1>
-
-
-## http-error (20)
-
-### /download/RestauratorskyZamerVelikaVes.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/RestauratorskyZamerVelikaVes.pdf", waiting until
-
-### /download/Quando_gli_orologi_parlavano.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/Quando_gli_orologi_parlavano.pdf", waiting until
-
-### /download/Kdyz_hodiny_zacaly-mluvit.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/Kdyz_hodiny_zacaly-mluvit.pdf", waiting until "n
-
-### /download/microchip-mac-sa5x.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/microchip-mac-sa5x.pdf", waiting until "networki
-
-### /download/elektrika/bulle_catalogue_1925.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/elektrika/bulle_catalogue_1925.pdf", waiting unt
-
-### /download/CALENDAR_CLOCK_Wejrostek.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/CALENDAR_CLOCK_Wejrostek.pdf", waiting until "ne
-
-### /clanky/dcf77/
-
-- page.goto: Page crashed
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/clanky/dcf77/", waiting until "networkidle"
-
-
-### /download/NTP/Analogue_clocks_Profil930-940NTPSlaveClockInstructions.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/NTP/Analogue_clocks_Profil930-940NTPSlaveClockIn
-
-### /download/KONGRES-hodiny.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/KONGRES-hodiny.pdf", waiting until "networkidle"
-
-### /clanky/podebrady/
-
-- page.goto: Page crashed
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/clanky/podebrady/", waiting until "networkidle"
-
-
-### /download/Laplace.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/Laplace.pdf", waiting until "networkidle"
-
-
-### /download/MachacekS.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/MachacekS.pdf", waiting until "networkidle"
-
-
-### /download/zvony2012.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/zvony2012.pdf", waiting until "networkidle"
-
-
-### /clanky/hinspirace/
-
-- page.goto: Page crashed
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/clanky/hinspirace/", waiting until "networkidle"
-
-
-### /download/GPS_Sakul/L80_GPS_Protocol_Specification_V1.1.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/GPS_Sakul/L80_GPS_Protocol_Specification_V1.1.pd
-
-### /download/spolek/Hospodareni2016.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/spolek/Hospodareni2016.pdf", waiting until "netw
-
-### /download/spolek/Hospodareni2017.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/spolek/Hospodareni2017.pdf", waiting until "netw
-
-### /download/spolek/Hospodareni2018.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/spolek/Hospodareni2018.pdf", waiting until "netw
-
-### /download/spolek/Hospodareni2019.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://hodinarium-eu.pages.dev/download/spolek/Hospodareni2019.pdf", waiting until "netw
-
-### /dokumenty/stanovy.pdf
-
-- page.goto: Download is starting
-Call log:
-  - navigating to "https://horologie-cz.pages.dev/dokumenty/stanovy.pdf", waiting until "networkidle"
-
+- 404 /img/elektrika/brillie/brillie%20_hodinarium_bez_ciferniku.jpg
 
