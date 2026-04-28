@@ -463,6 +463,129 @@ export const akce: Akce[] = [
     typ: 'akce',
   },
   {
+    slug: 'vidne-aschau-2015',
+    rok: 2015,
+    datum: '24.—25. března 2015',
+    nazev: 'Spolková výprava do Vídně a Aschau im Chiemgau',
+    misto: 'Vídeň (KHM, Uhrenmuseum) + Aschau im Chiemgau (Uhrenstube)',
+    lat: 48.2082, lon: 16.3738,
+    popis:
+      'Dvoudenní výprava CSH za hodinářským dědictvím střední Evropy. '
+      + 'Den první ve Vídni — Kunsthistorisches Museum a Uhrenmuseum Wien. '
+      + 'Den druhý v bavorském Aschau im Chiemgau — slavná Uhrenstube '
+      + 'Aschau, soukromá depozitní kolekce věžních a domácích hodin.',
+    detail:
+      '<p>V březnu 2015 se členové spolku vydali na dvoudenní výpravu '
+      + 'po dvou špičkových středoevropských hodinářských destinacích — '
+      + '<strong>Vídeň</strong> (úterý 24. 3.) a <strong>Aschau im '
+      + 'Chiemgau</strong> v Bavorsku (středa 25. 3.).</p>'
+      + '<h2>Den 1 — Vídeň, 24. března 2015</h2>'
+      + '<h3>Kunsthistorisches Museum (KHM)</h3>'
+      + '<p>Kunsthistorisches Museum hostí jednu z nejvýznamnějších '
+      + 'evropských sbírek <strong>renesančních a manýristických '
+      + 'astronomických hodin a planetárních strojů</strong>. Jejich '
+      + 'původcem je hofburská císařská sbírka Habsburků — Rudolf II., '
+      + 'Maxmilián II. a další panovníci shromažďovali na svých '
+      + 'dvorech nejlepší díla evropského hodinářského řemesla. '
+      + 'Návštěvníky upoutají jak monumentální stolní astronomické '
+      + 'hodiny s planetárními ciferníky, tak miniaturní precizní '
+      + 'mechanismy z jižního Německa, Augšpurku a Norimberka.</p>'
+      + '<h3>Uhrenmuseum Wien</h3>'
+      + '<p>Odpolední přesun na <strong>Schulhof 2</strong> '
+      + '(<a href="https://www.wienmuseum.at/uhrenmuseum" target="_blank" '
+      + 'rel="noopener">Uhrenmuseum jako pobočka Wien Museum</a>) — '
+      + 'tematické muzeum hodin v paláci Obizzi v centru Vídně. '
+      + 'Sbírka pokrývá celý vývoj měření času od kovaných gotických '
+      + 'věžních strojů přes vídeňské „Laterndluhren" a vídeňskou '
+      + 'regulátorovou tradici 19. století po elektrické hodiny '
+      + 'počátku 20. století.</p>'
+      + '<h2>Den 2 — Aschau im Chiemgau, 25. března 2015</h2>'
+      + '<h3>Uhrenstube Aschau</h3>'
+      + '<p><strong>Uhrenstube Aschau</strong> '
+      + '(<a href="https://www.atlasobscura.com/places/uhrenstube-aschau" '
+      + 'target="_blank" rel="noopener">odkaz na Atlas Obscura</a>) '
+      + 'je nezvyklá kombinace soukromého depozitu a malého muzea '
+      + 'v podhůří bavorských Alp. Po prohlídce sbírky věžních strojů '
+      + 'a dalších rarit účastníky čekal výklad o restaurátorské '
+      + 'praxi. Obě cesty (KHM/Uhrenmuseum a Uhrenstube) byly '
+      + 'inspirací pro budování vlastní expozice Hodinária — '
+      + 'především pro koncept zpřístupnění strojů ne za vitrínou, '
+      + 'ale tak, aby návštěvník viděl mechanismus v chodu.</p>'
+      + '<h2>Odkazy</h2>'
+      + '<ul>'
+      + '<li><a href="https://www.khm.at" target="_blank" '
+      + 'rel="noopener">khm.at</a> — Kunsthistorisches Museum Wien</li>'
+      + '<li><a href="https://www.wienmuseum.at/uhrenmuseum" '
+      + 'target="_blank" rel="noopener">wienmuseum.at/uhrenmuseum</a> '
+      + '— Uhrenmuseum Wien</li>'
+      + '<li><a href="https://www.atlasobscura.com/places/uhrenstube-aschau" '
+      + 'target="_blank" rel="noopener">atlasobscura.com/places/uhrenstube-aschau</a> '
+      + '— profil Uhrenstube Aschau</li>'
+      + '</ul>',
+    fotky: [
+      'hero.jpg',
+      '01-vidne-rano.jpg',
+      '02-vidne-rano-2.jpg',
+      '03-khm-astronomicke.jpg',
+      '04-khm-detail.jpg',
+      '05-khm-vitrina-1.jpg',
+      '06-khm-vitrina-2.jpg',
+      '07-khm-vitrina-3.jpg',
+      '08-khm-zaver.jpg',
+      '09-vidne-prechod.jpg',
+      '10-uhrenmuseum-wien-1.jpg',
+      '11-uhrenmuseum-wien-2.jpg',
+      '12-rano-2den.jpg',
+      '13-rano-2den-2.jpg',
+      '14-cesta-1.jpg',
+      '15-cesta-2.jpg',
+      '16-cesta-3.jpg',
+      '17-cesta-4.jpg',
+      '18-aschau-pribyti.jpg',
+      '19-aschau-prohlidka-1.jpg',
+      '20-aschau-prohlidka-2.jpg',
+      '21-aschau-prohlidka-3.jpg',
+      '22-aschau-strojky-na-zdi.jpg',
+      '23-aschau-prohlidka-4.jpg',
+      '24-aschau-prohlidka-5.jpg',
+      '25-aschau-prohlidka-6.jpg',
+      '26-aschau-haagska-konvence.jpg',
+      '27-aschau-zaver.jpg',
+    ],
+    popisky: [
+      'Renesanční astronomické stolní hodiny ve sbírce KHM Wien',
+      '24. 3. ráno — příjezd do Vídně',
+      '24. 3. ráno — Vídeň, cesta na Maria-Theresien-Platz',
+      'KHM Wien — astronomické hodiny s planetárním ciferníkem (snad nejcennější exponát výpravy)',
+      'KHM Wien — detail vrcholové konstrukce a sloupkového řešení skříně',
+      'KHM Wien — vitrína s renesančními a manýristickými stolními hodinami',
+      'KHM Wien — pohled do vitríny s precizními miniaturními mechanismy',
+      'KHM Wien — pohled na další vitrínu hofburské sbírky',
+      'KHM Wien — závěr prohlídky sbírky',
+      'Vídeň 12:44 — přesun mezi KHM a Uhrenmuseum (centrum města)',
+      'Uhrenmuseum Wien — palác Obizzi, Schulhof 2',
+      'Uhrenmuseum Wien — vídeňská regulátorová tradice 19. století',
+      '25. 3. ráno — výjezd druhého dne (~7:45 ráno)',
+      '25. 3. ráno — pokračování (~8:00)',
+      '25. 3. cesta z Vídně do bavorského Chiemgau',
+      '25. 3. cesta — průjezd alpským podhůřím',
+      '25. 3. cesta — krajina jihovýchodního Bavorska',
+      '25. 3. — blížíme se k Aschau',
+      '25. 3. ~10:00 — příjezd do Aschau im Chiemgau',
+      'Uhrenstube Aschau — vstup do depozitu / muzea',
+      'Uhrenstube Aschau — výklad o sbírce',
+      'Uhrenstube Aschau — pohled na exponáty',
+      'Uhrenstube Aschau — věžní strojky vystavené přímo na zdi (skeletální mechanismy)',
+      'Uhrenstube Aschau — pokračování prohlídky',
+      'Uhrenstube Aschau — další exponáty',
+      'Uhrenstube Aschau — závěr prohlídky',
+      'Štítek Haagské konvence — Uhrenstube Aschau jako chráněná kulturní památka',
+      'Aschau — pohled před odjezdem zpět',
+    ],
+    status: 'minula',
+    typ: 'akce',
+  },
+  {
     slug: 'sezona-2025',
     rok: 2025,
     datum: 'duben—říjen 2025',
