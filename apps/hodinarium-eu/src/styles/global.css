@@ -109,23 +109,19 @@ h2::after {
   );
 }
 
-/* SVG ozubeného kolečka — Heroicons cog-6-tooth (solid, fill-rule evenodd) */
-:root {
-  --cog-svg: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'><path fill-rule='evenodd' d='M11.078 2.25c-.917 0-1.699.663-1.85 1.567L9.05 4.889c-.02.12-.115.26-.297.348a7.493 7.493 0 0 0-.986.57c-.166.115-.334.126-.45.083L6.3 5.508a1.875 1.875 0 0 0-2.282.819l-.922 1.597a1.875 1.875 0 0 0 .432 2.385l.84.692c.095.078.17.229.154.43a7.598 7.598 0 0 0 0 1.139c.015.2-.059.352-.153.43l-.841.692a1.875 1.875 0 0 0-.432 2.385l.922 1.597a1.875 1.875 0 0 0 2.282.818l1.019-.382c.115-.043.283-.031.45.082.312.214.641.405.985.57.182.088.277.228.297.35l.178 1.071c.151.904.933 1.567 1.85 1.567h1.844c.916 0 1.699-.663 1.85-1.567l.178-1.072c.02-.12.114-.26.297-.349.344-.165.673-.356.985-.57.167-.114.335-.125.45-.082l1.02.382a1.875 1.875 0 0 0 2.28-.819l.923-1.597a1.875 1.875 0 0 0-.432-2.385l-.84-.692c-.095-.078-.17-.229-.154-.43a7.614 7.614 0 0 0 0-1.139c-.016-.2.059-.352.153-.43l.84-.692c.708-.582.891-1.59.433-2.385l-.922-1.597a1.875 1.875 0 0 0-2.282-.818l-1.02.382c-.114.043-.282.031-.449-.083a7.49 7.49 0 0 0-.985-.57c-.183-.087-.277-.227-.297-.348l-.179-1.072a1.875 1.875 0 0 0-1.85-1.567h-1.843ZM12 15.75a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5Z' clip-rule='evenodd'/></svg>");
-}
-
 h3 {
   font-weight: 600;
   font-style: normal;
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   margin-top: 1.75em;
-  margin-bottom: 0.4em;
-  color: var(--color-brass-bright);
+  margin-bottom: 0.35em;
+  color: var(--color-brass);
+  letter-spacing: 0;
 }
 
 @media (min-width: 768px) {
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -203,63 +199,18 @@ summary::-webkit-details-marker { display: none; }
   font-style: normal;
 }
 
-/* Divider — tři ozubená kolečka jako ornament */
+/* Divider — jednoduchá tenká linka s gradientem */
 .fleuron {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5em;
-  margin: 3em 0;
-  opacity: 0.7;
-}
-
-.fleuron::before,
-.fleuron::after {
-  content: '';
-  flex: 1;
+  display: block;
   height: 1px;
+  margin: 3em auto;
+  max-width: 8em;
   background: linear-gradient(
     to right,
     transparent,
-    color-mix(in srgb, var(--color-copper) 60%, transparent),
+    color-mix(in srgb, var(--color-copper) 55%, transparent),
     transparent
   );
-  max-width: 120px;
-}
-
-.fleuron > span,
-.fleuron::-webkit-after,
-.fleuron-icons {
-  display: inline-flex;
-  gap: 0.85em;
-  align-items: center;
-}
-
-.fleuron-icons svg {
-  width: 1.25em;
-  height: 1.25em;
-  color: var(--color-copper);
-}
-
-.fleuron-icons svg:nth-child(2) {
-  width: 1.55em;
-  height: 1.55em;
-}
-
-/* Když se fleuron používá bez vnitřního <span class="fleuron-icons">,
-   zobrazí jeden cog (zpětně kompatibilní) */
-.fleuron:empty::after {
-  content: '';
-  display: inline-block;
-  width: 1.55em;
-  height: 1.55em;
-  background-color: var(--color-copper);
-  -webkit-mask-image: var(--cog-svg);
-          mask-image: var(--cog-svg);
-  -webkit-mask-size: contain;
-          mask-size: contain;
-  -webkit-mask-repeat: no-repeat;
-          mask-repeat: no-repeat;
 }
 
 /* Drop cap pro první odstavec článku */
@@ -489,52 +440,18 @@ summary::-webkit-details-marker { display: none; }
   font-size: inherit;
 }
 
-/* Horizontální čára — místo CSS čáry tří ozubených koleček */
+/* Horizontální čára — jednoduchá tenká linka s gradientem */
 .prose-content hr {
   border: none;
   margin: 3em auto;
-  text-align: center;
-  height: 1.4em;
-  position: relative;
-}
-.prose-content hr::before {
-  content: '';
-  display: inline-block;
-  width: 1.4em;
-  height: 1.4em;
-  background-color: var(--color-copper);
-  opacity: 0.55;
-  -webkit-mask-image: var(--cog-svg);
-          mask-image: var(--cog-svg);
-  -webkit-mask-size: contain;
-          mask-size: contain;
-  -webkit-mask-repeat: no-repeat;
-          mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-          mask-position: center;
-}
-
-/* Decentní horizontální čára vlevo a vpravo od cogu */
-.prose-content hr {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5em;
-}
-.prose-content hr::after,
-.prose-content hr::before {
-  content: '';
-  display: block;
-}
-.prose-content hr::after {
-  width: 6em;
   height: 1px;
+  max-width: 8em;
   background: linear-gradient(
     to right,
-    color-mix(in srgb, var(--color-copper) 40%, transparent),
+    transparent,
+    color-mix(in srgb, var(--color-copper) 55%, transparent),
     transparent
   );
-  flex: 0 0 auto;
 }
 
 .prose-content code {

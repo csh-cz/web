@@ -10,6 +10,7 @@ interface Entry {
   thumbnail: string | null;
   excerpt: string;
   year: number | null;
+  lastModified: string | null;
   imageCount: number;
   wordCount: number;
 }
@@ -65,7 +66,7 @@ const categoryLabels: Record<string, string> = {
           excerpt={entry.excerpt}
           thumbnail={entry.thumbnail}
           category={entry.category}
-          year={entry.year}
+          lastModified={entry.lastModified}
           imageCount={entry.imageCount}
         />
       </div>
@@ -78,7 +79,7 @@ const categoryLabels: Record<string, string> = {
           excerpt={entry.excerpt}
           thumbnail={null}
           category={entry.category}
-          year={entry.year}
+          lastModified={entry.lastModified}
           imageCount={entry.imageCount}
         />
       </div>

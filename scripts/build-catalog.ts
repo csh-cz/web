@@ -26,6 +26,7 @@ interface CatalogEntry {
   thumbnail: string | null;
   excerpt: string;
   year: number | null;
+  lastModified: string | null;
   imageCount: number;
   wordCount: number;
 }
@@ -109,6 +110,14 @@ async function main() {
     const content = await readFile(path, 'utf-8');
     const { fm, body } = parseFrontmatter(content);
 
+    const lastModifiedRaw = (fm.lastModified as string) ?? null;
+    const lastModifiedISO = lastModifiedRaw
+      ? (() => {
+          const d = new Date(lastModifiedRaw);
+          return Number.isNaN(d.getTime()) ? null : d.toISOString();
+        })()
+      : null;
+
     catalog.push({
       slug: (fm.slug as string) ?? file.replace(/\.md$/, ''),
       title: (fm.title as string) ?? file,
@@ -116,6 +125,7 @@ async function main() {
       thumbnail: extractFirstImage(body),
       excerpt: extractExcerpt(body),
       year: extractYear((fm.title as string) ?? '', body),
+      lastModified: lastModifiedISO,
       imageCount: countImages(body),
       wordCount: countWords(body),
     });

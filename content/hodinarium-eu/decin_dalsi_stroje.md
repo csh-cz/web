@@ -10,7 +10,7 @@ scrapedAt: "2026-04-27T17:36:30.882Z"
 ## 2018
 * * *
 
-## Krečmer
+### Krečmer
 
 Malý hodinový stroj, mající jen chodové soukolí pouze se dvěma koly: hnacím bubnem a krokovým kolem. Je uložen v litinovém rámu. Hodiny jsou výrobkem hodináře Václava Krečmera, který působil na přelomu 19. a 20. století v Královských Vinohradech. Vyznačují se pečlivým provedením, typickým pro tohoto hodináře, například způsobem zavěšení kyvadla s paletami Amantova kroku. Hodiny, přestože přežily povodeň na Mělnicku v roce 2002, se podařilo restaurovat do současného stavu, kdy jsou schopny spolehlivé funkce. Hodiny se přestěhovaly na zámek jako 21. věžní stroj.
 
@@ -20,7 +20,7 @@ Malý hodinový stroj, mající jen chodové soukolí pouze se dvěma koly: hnac
 
 ![Fotografie 3](/img/decin/dalsi_stroje/Krecmer/f/foto_0003.jpg)![Fotografie 5](/img/decin/dalsi_stroje/Krecmer/f/foto_0005.jpg)
 
-## Torzo barokního stroje
+### Torzo barokního stroje
 
 Tohle torzo bylo tak trochu hlavolam. Získali jsme ho rozložené na prvočinitele a pouze jsme tušili, co všechno mu chybí. Po odrezení všech součástek se ukázalo, že to byl původně jicí stroj s vřetenovým krokem. Nezachovalo se však ani korunové kolo, ani kolo s kolmým ozubením včetně hřídelí a pastorků.
 
@@ -38,7 +38,7 @@ Na prvním obrázku je vidět počáteční pokus o sestavení hlavních dílů.
 
 ![Fotografie 6](/img/decin/dalsi_stroje/Kappler_barok/f/foto_0006.jpg)
 
-## Stroj s Amantovým krokem a se šroubovými převody větrníků
+### Stroj s Amantovým krokem a se šroubovými převody větrníků
 
 Hodinový stroj je uložen v kovaných pásnicích, které jsou uchyceny v rohových odlévaných sloupcích. Svislé pásnice s ložisky pro kola jsou zdobeny prořezáváním. Chod jicího stroje je řízen Amantovým krokem. Ve stroji chybělo krokové kolo a kyvadlo s paletami, což bylo doplněno při opravě. Přesnost chodu je možno sledovat na kontrolním ciferníku. Obě bicí soukolí mají méně používanou konstrukci se šnekem. Toto řešení je úsporné, potřebuje pouze hnací buben a šnek s větrníkem, v provozu je obtížněji seříditelné a je náročnější na údržbu. Odbíjení čtvrtí je řešeno různě dlouhými kolíky na hnacím bubnu. Buben čtvrťového bicího stroje je osazen krátkými a dlouhými kolíčky v pořadí: K-K-D-K-D-D-K-D-D-D (celkem deset ), ovládajícími páku bití, zároveň nahrazujícími závěrkové kolo. Po kolíčcích pojíždějí dvě lyžiny vedle sebe různé délky. Souhrou kolíčků a lyžin je určen počet úderů v dané čtvrthodině.
 
@@ -54,7 +54,7 @@ Stroj je uložen na původním rámu, na kterém se zachoval letopočet 1898.
 
 ![Fotografie 8](/img/decin/dalsi_stroje/Amantuv_krok/f/foto_0008.jpg)
 
-## L. Hanz
+### L. Hanz
 
 Hodinový stroj byl vyroben v roce 1946. V litinovém rámu jsou uloženy tři stroje: jicí, bicí čtvrtí a bicí celých hodin. Grahamův krok je řízen kyvadlem, zavěšeným na ocelové planžetě. Kyvadlová tyč je dřevěná, na konci osazená těžkou litinovou čočkou. Zajímavým způsobem je řešen pohon jicího stroje při nátahu – natahovací čtyřhran je třeba zpřístupnit pootočením páky, na jejímž konci je zavěšeno pomocné závaží, které dodává potřebnou energii během nátahu.
 
@@ -62,7 +62,7 @@ Hodinový stroj byl vyroben v roce 1946. V litinovém rámu jsou uloženy tři s
 
 ![Fotografie 2](/img/decin/dalsi_stroje/Hainz/f/foto_0002.jpg)
 
-## Věžní hodiny dřevěné
+### Věžní hodiny dřevěné
 
 Repliku dřevěných věžních hodin vyrobil v roce 2015 pan Peter Fridrich z Hodruše. Hodinový mechanizmus je uložen v dřevěném rámu, má jicí stroj a stroj odbíjení celých hodin. Chod vřetenového kroku je řízen lehkým kyvadlem. Kola jsou spolu s hřídeli vytočena ze dřeva, ozubení tvoří ocelové věnce s vypilovanými zuby. Čepy hřídelí jsou uloženy mosazných ložiscích. Hodiny jsou vybaveny ručně malovaným ciferníkem. Natahování se provádí klikou přes vkládaný pastorek.
 
@@ -77,7 +77,7 @@ Repliku dřevěných věžních hodin vyrobil v roce 2015 pan Peter Fridrich z H
 ## 2017
 * * *
 
-## Richard Liebing
+### Richard Liebing
 
 Hodinový stroj snesený z děčínského soudu. Na stroji je nápis: "Richard Liebing, Wien, XIII./10. Speising". Stroj je zajímavý mimo jiné velmi úsporným převodem na brzdící větrníky. Bicí stroje mají jen jedno kolo zabírající do šneku větrníku. Stroj zapůjčilo Oblastní muzeum v Děčíně.
 
@@ -89,7 +89,7 @@ Hodinový stroj snesený z děčínského soudu. Na stroji je nápis: "Richard L
 
 [![stroj Thondel z muzea v Olomouvi](/img/decin/dalsi_stroje/thondel_olomouc1.jpg)](/img/decin/dalsi_stroje/f/thondel_olomouc1.jpg)
 
-## Věžní stroj Thöndel - pouze torzo
+### Věžní stroj Thöndel - pouze torzo
 
 Součástí Hodinária je i torzo věžního hodinového stroje signované **Thöndel Rud. 191?0 Mähr. Neustat.** Je v dost špatném stavu. Asi na věži hořelo a hodiny spadly. Ložiska a mosazné krokové kolo se roztavily. Od rámu se ulomilo jedno bití, litinový rám má uražené nohy, chybí krokové kolo a další věci. Byl by to hezký stroj, kdyby byl v pořádku.
 
@@ -109,7 +109,7 @@ Himmler: [K dochovaným věžním hodinovým strojům Uničovské firmy Thöndel
 
 [![Věžní stroj F. X. Beitel nálezový stav](/img/decin/dalsi_stroje/Beitel1.jpg)](/img/decin/dalsi_stroje/f/Beitel1.jpg)
 
-## Věžní stroj F. X. Beitel
+### Věžní stroj F. X. Beitel
 
 Hodinový stroj má jeden bicí stroj - hodinový. Stroj jicí má krokový mechanismus s klidovým krokem (krok Grahamův s kotvou krátkoramennou). Na hodinovém stroji je osazen kontrolní ciferníček. Rám hodin je litinový – dva základní díly jsou spojeny rozpěrnými sloupky. Na štítku upevněném na rámu hodin se nachází signatura FRANZ. X. BEITEL BÄRN Mähren, výrobní číslo 68.
 
@@ -121,7 +121,7 @@ Věžní hodiny jsou signovány Franz X. Beitel z Moravského Berouna a datován
 
 * * *
 
-## Věžní hodinový stroj
+### Věžní hodinový stroj
 
 Hodinový stroj původem zřejmě z poloviny dvacátého století pravděpodobně není výrobkem odborné firmy, ale sestaven z různých dílů neznámým hodinářem. Jsou na něm použity prvky z různých zdrojů. Je vybaven Amantovým (1741) kolíčkovým krokem a čtvrťovým bitím zajímavé konstrukce. Buben čtvrťového bicího stroje je osazen krátkými a dlouhými kolíčky v pořadí: K-K-D-K-D-D-K-D-D-D (celkem deset ), ovládajícími páku bití, zároveň nahrazujícími závěrkové kolo. Po kolíčcích pojíždějí dvě lyžiny vedle sebe různé délky. Souhrou kolíčků a lyžin je určen počet úderů v dané čtvrthodině.
 
@@ -133,7 +133,7 @@ Hodinový stroj původem zřejmě z poloviny dvacátého století pravděpodobn�
 
 ![kostel sv. Bartoloměje Velká Chmelišná](/img/decin/torzo1874/VelkaChmelistna_Kostel_svateho_Bartolomeje.jpg)
 
-## Torzo stroje z obce Velká Chmelišná, kostel sv. Bartoloměje z roku 1874
+### Torzo stroje z obce Velká Chmelišná, kostel sv. Bartoloměje z roku 1874
 
 Nechceme být muzeem věžních vraků, proto i poslední přírůstek v roce 2016 již procází odrezením. Na obrázcích můžete vidět stav při získání torza. Není to příliš povzbuzující pohled. Z jicího stroje je zachováno jen krokové kolo, kotva, kolo lanového bubnu s bubnem a jedno zatím nejasné kolo. Čtvrťový bicí stroj kromě několika pák zcela chybí. Z bicího stroje celých hodin je zachováno jen kolo lanového bubnu s bubnem, jedna samotná hřídel se západkou, závěrkové kolo a také několik pák.
 
@@ -149,7 +149,7 @@ Spoje rámu jsou šroubové se čtvrerhranými maticemi. Na rámu je dobře čit
 
 * * *
 
-## Dne 29.8.2016 byl do Hodinária zapůjčen stroj Kohlert Kraslice
+### Dne 29.8.2016 byl do Hodinária zapůjčen stroj Kohlert Kraslice
 
 Snímky zachycují stěhování a přípravu instalace. K hodinám jsou kompletní ručkové rozvody. Při troše píle bychom mohli náznakově ukázat systém od stroje až po rafije.
 

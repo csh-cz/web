@@ -92,7 +92,7 @@ Hodiny demontovány a nahrazeny novým strojem
 
 * * *
 
-## Nalezené signatury a datace - velký stroj:
+### Nalezené signatury a datace - velký stroj:
 
 !
 
@@ -127,7 +127,7 @@ Joseph Kotrbeletz**
 
 * * *
 
-## Malý stroj (čtvrtek)
+### Malý stroj (čtvrtek)
 
 !
 

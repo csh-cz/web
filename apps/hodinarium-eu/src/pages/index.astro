@@ -11,6 +11,7 @@ interface Entry {
   thumbnail: string | null;
   excerpt: string;
   year: number | null;
+  lastModified: string | null;
   imageCount: number;
   wordCount: number;
 }
@@ -92,7 +93,7 @@ const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).ma
           excerpt={e.excerpt}
           thumbnail={e.thumbnail}
           category={e.category}
-          year={e.year}
+          lastModified={e.lastModified}
           imageCount={e.imageCount}
         />
       ))}
@@ -148,7 +149,7 @@ const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).ma
           excerpt={e.excerpt}
           thumbnail={e.thumbnail}
           category={e.category}
-          year={e.year}
+          lastModified={e.lastModified}
           imageCount={e.imageCount}
         />
       ))}

@@ -11,6 +11,7 @@ interface Entry {
   thumbnail: string | null;
   excerpt: string;
   year: number | null;
+  lastModified: string | null;
   imageCount: number;
   wordCount: number;
 }
@@ -105,7 +106,7 @@ const ikonaSvg: Record<string, string> = {
             excerpt={e.excerpt}
             thumbnail={e.thumbnail}
             category={e.category}
-            year={e.year}
+            lastModified={e.lastModified}
             imageCount={e.imageCount}
           />
         ))}
@@ -129,7 +130,7 @@ const ikonaSvg: Record<string, string> = {
           excerpt={e.excerpt}
           thumbnail={e.thumbnail}
           category={e.category}
-          year={e.year}
+          lastModified={e.lastModified}
           imageCount={e.imageCount}
         />
       ))}

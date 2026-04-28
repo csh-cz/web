@@ -5,12 +5,12 @@ interface Props {
   excerpt?: string;
   thumbnail?: string | null;
   category?: string;
-  year?: number | null;
+  lastModified?: string | null;
   imageCount?: number;
   external?: boolean;
 }
 
-const { href, title, excerpt, thumbnail, category, year, imageCount, external } = Astro.props;
+const { href, title, excerpt, thumbnail, category, lastModified, imageCount, external } = Astro.props;
 
 const categoryLabels: Record<string, string> = {
   decin: 'Děčín',
@@ -20,6 +20,15 @@ const categoryLabels: Record<string, string> = {
   spolek: 'Spolek',
   ostatni: '',
 };
+
+const lastModifiedShort = lastModified
+  ? (() => {
+      const d = new Date(lastModified);
+      return Number.isNaN(d.getTime())
+        ? null
+        : d.toLocaleDateString('cs-CZ', { month: 'short', year: 'numeric' });
+    })()
+  : null;
 ---
 <a href={href} class="atlas-card" rel={external ? 'noopener' : undefined} target={external ? '_blank' : undefined}>
   <div class="atlas-card-photo">
@@ -44,7 +53,11 @@ const categoryLabels: Record<string, string> = {
       {category && categoryLabels[category] && (
         <span class="eyebrow">{categoryLabels[category]}</span>
       )}
-      {year && <span class="atlas-card-year">{year}</span>}
+      {lastModifiedShort && (
+        <span class="atlas-card-updated" title={`Aktualizováno ${lastModifiedShort}`}>
+          <time datetime={lastModified ?? undefined}>{lastModifiedShort}</time>
+        </span>
+      )}
     </div>
     <h3 class="atlas-card-title">{title}{external && <span class="text-sm">&nbsp;↗</span>}</h3>
     {excerpt && <p class="atlas-card-excerpt">{excerpt}</p>}
@@ -132,11 +145,16 @@ const categoryLabels: Record<string, string> = {
     align-items: baseline;
     gap: 0.5rem;
   }
-  .atlas-card-year {
-    font-size: 0.85rem;
-    color: var(--color-copper);
-    font-style: italic;
+  .atlas-card-updated {
+    font-size: 0.78rem;
+    color: var(--color-text-muted);
     font-feature-settings: "lnum";
+    white-space: nowrap;
+  }
+  .atlas-card-updated::before {
+    content: 'akt. ';
+    color: var(--color-copper);
+    opacity: 0.75;
   }
 
   .atlas-card-title {
