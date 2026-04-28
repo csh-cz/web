@@ -29,14 +29,14 @@ Sluneční hodiny
     **© [M. Brož](mailto:miroslav.broz@email.cz), [M. Nosek](mailto:hodiny@seznam.cz), J. a V. Trebichavští, [D. Pecinová](mailto:dnovak@asu.cas.cz),
     L. Mucha a kol. autorů dipl. prací
 
--   [**Sluneční hodiny**](http://www.slunecni-hodiny.webzdarma.cz/) rovněž web pana Noska a další jeho stránky [zde](http://www.sweb.cz/hodiny/)
--   [**Nové stránky přátel slunečních hodin**](http://www.astrohk.cz/ashk/slunecni_hodiny/index.php)
--   **[Astronomie moje hobby](http://www.astroama.com/)** - web pana Jaromíra Ciesla. Stránky sluneční hodiny a zkušenosti s programem **Orologi Solari** včetně českého překladu.
+-   [**Sluneční hodiny**](http://www.slunecni-hodiny.webzdarma.cz/) rovněž web pana Noska a další jeho stránky zde
+-   **Nové stránky přátel slunečních hodin**
+-   **Astronomie moje hobby** - web pana Jaromíra Ciesla. Stránky sluneční hodiny a zkušenosti s programem **Orologi Solari** včetně českého překladu.
     Přímý download italského programu [zde](http://digilander.libero.it/orologi.solari/download/download.html).
--   [**Wikipedia**](http://en.wikipedia.org/wiki/Sundial) - poměrně obsáhlá stránka s charakterizováním rozličných slunečních hodin. (Anglicky. [Česká verze](http://cs.wikipedia.org/wiki/SluneÄŤnĂ­_hodiny) je mnohem stručnější.)
--   [**Sundials**](http://perso.orange.fr/blateyron/sundials/gb/index.html) - stránky, na kterých je ke stažení program [**Shadows**](http://perso.orange.fr/blateyron/sundials/shadowspro/gb/index.html)
--   [**Sluneční hodiny a archeoastronomie**](http://slunecnihodiny.wz.cz/)
--   [**Návod na vystřihovánky**](http://slunecnihodiny.wz.cz/sh/obrsh01.htm)
+-   [**Wikipedia**](http://en.wikipedia.org/wiki/Sundial) - poměrně obsáhlá stránka s charakterizováním rozličných slunečních hodin. (Anglicky. Česká verze je mnohem stručnější.)
+-   **Sundials** - stránky, na kterých je ke stažení program **Shadows**
+-   **Sluneční hodiny a archeoastronomie**
+-   **Návod na vystřihovánky**
 -   [**Sluneční hodinářství**](http://www.hela.cz/)
 -   [**www.slunecni-hodiny.webzdarma.cz/spolecnosti.html**](http://www.slunecni-hodiny.webzdarma.cz/spolecnosti.html)
 -   [**www.zastarouprahu.cz/ruzne/slunecni.htm**](http://www.zastarouprahu.cz/ruzne/slunecni.htm)
@@ -47,7 +47,7 @@ Sluneční hodiny
     **Sluneční hodiny na Siyul Kibera** - [**www.slunecnihodiny.eu**](http://www.slunecnihodiny.eu/)
     Světový unikát. První podmořské sluneční hodiny v modravých vodách Rudého moře, mnoho dalších grandiózních plánů. Nevěříte? Věřte.
 
--   [**Jedna z největších sbírek**](http://www.nmm.ac.uk/collections/explore/index.cfm/category/sundials) **slunečních hodin** na světě - cca 400 exemplářů v **N**ational **M**aritime **M**useum, Greenwich. Odtud pochází i ilustrativní fota dole. Vybrali jsme diptychové hodiny obdobné těm, které jsou v našich sbírkách. Doufáme, že se je jednou se podaří restaurovat do stejné krásy.
+-   **Jedna z největších sbírek** **slunečních hodin** na světě - cca 400 exemplářů v **N**ational **M**aritime **M**useum, Greenwich. Odtud pochází i ilustrativní fota dole. Vybrali jsme diptychové hodiny obdobné těm, které jsou v našich sbírkách. Doufáme, že se je jednou se podaří restaurovat do stejné krásy.
 
 ![diptych1a](/img/slunecni/diptych1a.jpg)
 

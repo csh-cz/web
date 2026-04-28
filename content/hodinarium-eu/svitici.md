@@ -11,7 +11,7 @@ scrapedAt: "2026-04-27T17:37:00.055Z"
 
 ![massive](/img/elektrika/svitici/svitici1.jpg)Svítící hodiny
 
-**N**a začátku tohoto povídání je nový přírůstek mé sbírky - **svítící hodiny** či snad osvětlovací těleso s hodinami **Watch the light od firmy [Massive](http://www.massive.cz/)** (katalogové číslo 80999/22/47). Svítidlo používá dvě úsporné "žárovky" do maximálního výkonu 2x9W. Ve středu skleněného stínidla je krystalový hodinový bateriový strojek. Osvětlovací těleso je pro malý světelný výkon použitelné spíše jako dekorační či noční osvětlení. Hodiny dával výrobce jako dárek. Dnes se již nevyrábí.
+**N**a začátku tohoto povídání je nový přírůstek mé sbírky - **svítící hodiny** či snad osvětlovací těleso s hodinami **Watch the light od firmy Massive** (katalogové číslo 80999/22/47). Svítidlo používá dvě úsporné "žárovky" do maximálního výkonu 2x9W. Ve středu skleněného stínidla je krystalový hodinový bateriový strojek. Osvětlovací těleso je pro malý světelný výkon použitelné spíše jako dekorační či noční osvětlení. Hodiny dával výrobce jako dárek. Dnes se již nevyrábí.
 
 ***H**odinymě docela zaujaly a začal jsem pátrat, jak to s osvětlováním hodin, zejména veřejných, vlastně je. Svítících hodin je kolem nás možná víc, než si uvědomujeme. Svítí, nebo jsou osvětleny ciferníky věžních hodin. Na ulicích svítí mnoho hodin, většinou reklamních. K vidění jsou tu a tam i svítící "neonové" hodiny. Ani doma nás svítící hodiny neopouštějí. Setkáváme se tu s mnoha typy těchto hodin-od fluoreskujících ciferníků starých budíku či hodinek, po svítící digitální hodiny, které nalezneme i na předmětech "zcela nehodinových", jako je mikrovlnka či satelit. I fujtajblové šantánové lucerničky svítí v hodinových hotelech. Čím dál víc k hodinám světlo patří. Vnucují nám myšlenku, že čas **utíká rychlostí světla.***
 
@@ -33,7 +33,7 @@ Svítily a již opět svítí i ciferníky Staroměstské radnice
 
 **P**o velké opravě pražského orloje v roce 1865 byly změněny boční ciferníky. *Ciferníky byly z matného skla a byly v noci zezadu osvětlovány plynovými hořáky. Byly to svým způsobem prvé svítící hodiny v Praze. Jediné co mohlo být diskutabilní, zda připojení tohoto novodobého doplňku bylo k starobylému orloji dosti citlivé. Dnes ciferníky večer a v noci nesvítí a je to tak lépe,* píše Zdeněk Horský v knize "Pražský orloj".
 
-**S**ituace se trochu změnila. Na stránkách [praha.eu](http://www.praha.eu/jnp/cz/extra/metamorfozy/orloj/index.html) jsme se 25.2.2008 dočetli, že "Zatímco se instalovaly sochy na orloj, pracovníci magistrátu vyměňovali žárovky u postranních ciferníků, které jsou z leptaného skla. *„**Žárovky, které ciferníky podsvěcují, už nebyly funkční. Protože má ale klíč jen orlojník pan Zámečník, počkali jsme na instalaci soch,* ![](/img/elektrika/svitici/osvetleni_KHora.jpg) *abychom mohli osvětlení zprovoznit,“* wq=
+**S**ituace se trochu změnila. Na stránkách praha.eu jsme se 25.2.2008 dočetli, že "Zatímco se instalovaly sochy na orloj, pracovníci magistrátu vyměňovali žárovky u postranních ciferníků, které jsou z leptaného skla. *„**Žárovky, které ciferníky podsvěcují, už nebyly funkční. Protože má ale klíč jen orlojník pan Zámečník, počkali jsme na instalaci soch,* ![](/img/elektrika/svitici/osvetleni_KHora.jpg) *abychom mohli osvětlení zprovoznit,“* wq=
 
 řekl energetik hospodářské správy magistrátu Jiří Ježek. Ciferníky budou svítit denně od 16 do 8 hodin."
 

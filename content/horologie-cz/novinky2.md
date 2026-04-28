@@ -88,7 +88,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
     úsporné zobrazení nejen pro děje v časové kompresi
 
 -   1\. 2. 2009 [MĚŘENÍ ČASU](/clanky/mereni_casu) Díky laskavosti původních autorů doslovně převzato
-    ze serveru [www.zemepis.eu/stranka/mereni-casu](http://www.zemepis.eu/stranka/mereni-casu)
+    ze serveru www.zemepis.eu/stranka/mereni-casu
 -   1\. 2. 2009 [Římský kalendář](/clanky/kalendar_rimsky) Díky laskavosti autora uvádíme celý článek ze serveru
     [ANTIKA.avonet.cz](http://antika.avonet.cz/)
 -   18\. 1. 2009 Doplněny části o Virtuálnám muzeu hodin, o.s. — úvod, [stanovy](/clanky/stanovy),
@@ -131,7 +131,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 -   20\. 3. 2008 Hodiny k ocenění - ["ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934"](/clanky/jezdecke)
 -   18\. 3. 2008 Hodiny s [elektrickým impulzem do oscilátoru](/clanky/elektricke2)
 -   15\. 3. 2008 Synchronní svítící budík [METAMEC](sitovky.htm#metamec)
--   25\. 2. 2008 **[Terminologický slovník hodináře](paichl_slovnik.htm) -** převzato s laskavým svolením autora ze serveru [62.168.39.166:80/paichl/hodiny.html](http://62.168.39.166/paichl/hodiny.html) Obsáhlý soubor zejména hodinářských nástrojů včetně fotografií.
+-   25\. 2. 2008 **[Terminologický slovník hodináře](paichl_slovnik.htm) -** převzato s laskavým svolením autora ze serveru 62.168.39.166:80/paichl/hodiny.html Obsáhlý soubor zejména hodinářských nástrojů včetně fotografií.
 -   18\. 2. 2008 [Valící se kuličky](/clanky/kulicky)
 -   18\. 2. 2008 [Zapékané hodiny](/clanky/zapekane) (do skla)
 -   18\. 2. 2008 Japonské [kuriózní hodinky](whodinky.htm) eshop

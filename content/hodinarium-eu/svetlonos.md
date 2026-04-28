@@ -13,7 +13,7 @@ Sluneční hodiny symbolizují sepětí člověka s přírodou. Proto jsem rád,
 
 **K**upodivu polemika o vhodnosti této sochy probírá také otázku, jaký čas vlastně sluneční hodiny mají ukazovat. Fotografie Strážce času byla pořízena 12.3.2007 v 11:03. Stín ukazuje přibliž 10:50 a nachází se před čárou rovníku. Údaj odpovídá místnímu slunečnímu času.
 
-**V**ytrženo z diskuse na [www.sezimovousti.cz](http://www.sezimovousti.cz/articlepage.php?id_article=370) : *"Hodiny které ukazují špatný čas jsou prostě špatné."* .... *" Pokud Vám přesně jdoucí hodiny připadají jako porušování přírodních zákonů, doporučuji Vám odborné vyšetření Vašeho duševního stavu od MUDr. Cimického."* .....
+**V**ytrženo z diskuse na www.sezimovousti.cz : *"Hodiny které ukazují špatný čas jsou prostě špatné."* .... *" Pokud Vám přesně jdoucí hodiny připadají jako porušování přírodních zákonů, doporučuji Vám odborné vyšetření Vašeho duševního stavu od MUDr. Cimického."* .....
 
 **H**istorické hodiny ukazují obvykle **místní pravý sluneční čas**. Tento čas ovšem plyne poněkud nerovnoměrně. Je otázka, zda se máme pokoušet "běh Slunce" vtěsnat do rovnoměrnosti času středoevropského. Udělat to patrně lze. Lze zkonstruovat číselníky, či speciálně tvarovat ukazatel času a přímo odečítat SEČ s ohledem na den v roce a letní posun. Složitost odečítání tohoto času ovšem způsobí větší problémy než přepočet podle časové rovnice.
 

@@ -47,9 +47,9 @@ policy
 
 **Několik zajímavých odkazů:**
 
--   [business.center.cz/business/pravo/zakony/epodpis/cast1.aspx
-    ](http://business.center.cz/business/pravo/zakony/epodpis/cast1.aspx)**Zákon o elektronickém podpisu**
--   [crypto-world.info/pravo/podpis/pravo/496\_04.htm](http://crypto-world.info/pravo/podpis/pravo/496_04.htm)
+-   business.center.cz/business/pravo/zakony/epodpis/cast1.aspx
+    **Zákon o elektronickém podpisu**
+-   crypto-world.info/pravo/podpis/pravo/496\_04.htm
     **Vyhláška o elektronických podatelnách**
 -   [interval.cz/clanky/elektronicke-casove-razitko-doplnek-elektronickeho-podpisu](http://interval.cz/clanky/elektronicke-casove-razitko-doplnek-elektronickeho-podpisu) Elektronické časové razítko, doplněk elektronického podpisu - obsáhlý článek na Interval.cz
 -   [vsol.obce.cz/clanek.asp?id=2006111](http://vsol.obce.cz/clanek.asp?id=2006111)Časové razítko - krátký článek na obce.cz

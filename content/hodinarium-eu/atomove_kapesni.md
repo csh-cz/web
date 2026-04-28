@@ -27,7 +27,7 @@ Dalším možným principem atomových hodin je tzv. atomová fontána, která v
 -   [Rubidiový oscilátor PRS10](/clanky/PRS10)
 -   [Popis činnosti atomové fontány](http://fyzika.jreichl.com/main.article/view/1636-princip-atomove-fontany)
 -   [NASA spustila svůj nový prototyp vesmírných atomových hodin DSAC](https://www.svethardware.cz/nasa-spustila-svuj-novy-prototyp-vesmirnych-atomovych-hodin-dsac/50043)
--   [Deep Space Atomic Clock](https://www.nasa.gov/directorates/heo/scan/engineering/technology/dsac) [(DSAC)](https://www.nasa.gov/directorates/heo/scan/engineering/technology/dsac) - atomové hodiny založené na jodových iontech.
+-   Deep Space Atomic Clock (DSAC) - atomové hodiny založené na jodových iontech.
 -   [O přesnosti atomových hodin](http://fyzika.jreichl.com/main.article/view/1633-atomove-hodiny)
 -   [A History of the Rubidium Frequency Standard](<download/A History of the Rubidium Frequency Standard.pdf>)
 -   [Jaderné hodiny s vyšší frekvencí](https://theconversation.com/why-timekeeping-is-now-on-the-verge-of-a-giant-leap-forward-in-accuracy-238744)

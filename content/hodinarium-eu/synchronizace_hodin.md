@@ -107,7 +107,7 @@ Zajímavý podrobný [článek zde](https://www.wikiwand.com/cs/Vys%C3%ADla%C4%8
 
 DCF 77je německá stanice, která vysílá nepřetržitě na dlouhé vlně z vysílače v Mainflingen (50° 01" severní šířky, 09° 00" východní délky), asi 25 km jihovýchodně od Frankfurtu nad Mohanem. Provoz zajišťují společně Spolková pošta Telekom, která provozuje vlastní vysílač a antény, a Spolkový fyzikálně-technický ústav PTB Braunschweig, který odpovídá za řídící signál odvozovaný od atomových hodin. Stanice začala vysílat v září roku 1970. Vysílač má výkon 50 kW s odhadovaným vyzářeným výkonem (ERP) asi 30 kW. Dosah vysílače je dle údajů PTB kolem 2000 km. K vysílání je určena 150 m vysoká (200 m vysoká záložní) vertikální všesměrová anténa s kapacitním nástavcem. Čas je odvozován od lokálních atomových hodin.
 
-Signál DCF 77 dnes nese dvě složky modulace. Původní amplitudovou modulaci a později uvedenou fázovou složku. Modulační schéma je vymyšleno tak, aby AM demodulátory "neviděly" fázovou složku, a naopak fázové detektory mají signál na vstupu "zarovnaný" limiterem, takže AM složku ignorují. Dražší přijímače s fázovou demodulací (PZF) vykazují mnohem lepší odolnost proti rušení. Firma [Meinberg](http://www.meinbergglobal.com/english/sw/ntp.htm) tvrdí, že PZF přijímač leckdy ukazuje bezchybná demodulovaná data ještě i na signálu, kde užitečná amplitudová modulace je zcela překryta rušením. Kvalita signálu závisí na mnoha faktorech a zdrojích rušení. [Více...](http://www.fccps.cz/default.asp?inc=inc/DCF77.htm) Další informace také [zde](https://cs.qwe.wiki/wiki/DCF77).
+Signál DCF 77 dnes nese dvě složky modulace. Původní amplitudovou modulaci a později uvedenou fázovou složku. Modulační schéma je vymyšleno tak, aby AM demodulátory "neviděly" fázovou složku, a naopak fázové detektory mají signál na vstupu "zarovnaný" limiterem, takže AM složku ignorují. Dražší přijímače s fázovou demodulací (PZF) vykazují mnohem lepší odolnost proti rušení. Firma [Meinberg](http://www.meinbergglobal.com/english/sw/ntp.htm) tvrdí, že PZF přijímač leckdy ukazuje bezchybná demodulovaná data ještě i na signálu, kde užitečná amplitudová modulace je zcela překryta rušením. Kvalita signálu závisí na mnoha faktorech a zdrojích rušení. Více... Další informace také [zde](https://cs.qwe.wiki/wiki/DCF77).
 
 Vysílač DCF 77 od konce roku 1995 asi nejvíce využívaný vysílač na Evropském kontinentě. Jsou i jiné. Informace o dalších vysílačích a různých systémech najdete například [zde](https://cs.qwe.wiki/wiki/Radio_clock) Podrobně popisuje sutuaci také [pan Poupa](http://home.zcu.cz/~poupa/dcf77.html).
 
@@ -154,7 +154,7 @@ Vlastní synchronizaci počítačových hodin zajišťuje operační systém po�
 
 Zajímavou možností umožňující systém lépe pochopit je spustit na vlastním počítači NTP server s vhodným monitorem. Doporučujeme i pro použití ve Windows server ntpd - Network Time Protocol Daemon. Na obrázku dole vidíte monitor tohoto serveru pod windows. Server i monitor ke stažení na stránce [Meinberg](http://www.meinbergglobal.com/english/sw/ntp.htm). (Pro přenosné počítače se nyní více využívá démon chronyd.)
 
-V okně monitoru vidíme situaci, kdy pokusný NTP server je nainstalován na počítači s W XP připojeném ADSL linkou k internetu. Jeden ze NTP serverů používaných k synchronizaci je server lx.ujf. cas.cz což je [NTP server Ústavu Jaderné fyziky AV ČR](http://lx.ujf.cas.cz/time/pctime-cz.html). Server je na prvním žlutém řádku označen jako použitelný (znak +). Zelený řádek se znakem \* označuje server, který program vybral k synchronizaci. Jde o server Stratum 1, tedy server s nejvyší autoritou synchronizován DCF rádiem. Tmavozelený řádek se znakem - představuje server vyloučený ze synchronizace pro velkou rozdílnost údajů.
+V okně monitoru vidíme situaci, kdy pokusný NTP server je nainstalován na počítači s W XP připojeném ADSL linkou k internetu. Jeden ze NTP serverů používaných k synchronizaci je server lx.ujf. cas.cz což je NTP server Ústavu Jaderné fyziky AV ČR. Server je na prvním žlutém řádku označen jako použitelný (znak +). Zelený řádek se znakem \* označuje server, který program vybral k synchronizaci. Jde o server Stratum 1, tedy server s nejvyší autoritou synchronizován DCF rádiem. Tmavozelený řádek se znakem - představuje server vyloučený ze synchronizace pro velkou rozdílnost údajů.
 
 ### Legenda:
 
@@ -188,7 +188,7 @@ Odkazy:
 -   [Časová znamení v rozhlase](https://radiozurnal.rozhlas.cz/casova-znameni-10-dil-ceska-republika-6303408)
 -   [NTP servery v Hodináriu](/clanky/decin_NTP)
 -   [Synchronizace času pomocí NTP](http://is.muni.cz/th/143076/fi_m/thesis.pdf) - diplomová práce
--   [Čas a kmitočet](http://dml.cz/bitstream/handle/10338.dmlcz/138777/PokrokyMFA_25-1980-3_4.pdf) - PMFA 1980 - O. Buzek, J. Čermák
+-   [Čas a kmitočet](https://dml.cz/bitstream/handle/10338.dmlcz/138777/PokrokyMFA_25-1980-3_4.pdf) - PMFA 1980 - O. Buzek, J. Čermák
 -   [Osel.cz](http://osel.cz/index.php?clanek=1458)
 -   [NTP: Filozofie synchronizace času po Internetu](http://www.lupa.cz/clanky/ntp-filozofie-synchronizace-casu-po-internetu/)
 -   [Česká firma Vaelektronik](http://www.vaelektronik.cz/) vyrábějící široký sortiment přijímačů časového kódu DCF77 a další výrobky

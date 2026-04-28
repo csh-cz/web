@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:27.014Z"
 ---
 **D**nes již není mnoho lidí, kteří umí číst staré a dnes již nepoužívané arabské číslice. Svět se čárokóduje. Proto i běžné hodiny ukazují v čárovém kódu.
-Sice máme naprogramované i vlastní muzejní čárokódové hodiny, ale jiní to dokázali lépe. Proto tyto čárokódky přebíráme ze serveru [www.clocklink.com](http://www.clocklink.com/)
+Sice máme naprogramované i vlastní muzejní čárokódové hodiny, ale jiní to dokázali lépe. Proto tyto čárokódky přebíráme ze serveru [www.clocklink.com](https://www.clocklink.com/)
 (Nevíme proč, ale hodiny asi neumí letní čas.)
 
 ( Pro ty, kteří mají rozbitý scaner jsou tam i číslice. )

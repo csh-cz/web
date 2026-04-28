@@ -7,7 +7,7 @@ lastModified: "Wed, 26 Apr 2017 16:21:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:15.998Z"
 ---
-**![věž Jablonec](/img/vezni/Jablonec/ZSSumVezP.gif)N**erad pokračuji v seriálu o zmizelých hodinách. Život to tak ale chce. Narazil jsem na web hodináře z Jablonce nad Nisou, pana **Miloše Zikmunda**, a přečetl si kauzu opravy hodin na ZŠ Šumava. S jeho dovolením ji zde přetiskuji. Samozřejmě doporučuji všem celý web [**www.hodinyjbc.eu**](http://www.hodinyjbc.eu/) si přečíst. Jsou tam nemalé hodinářské i nehodinářské zajímavosti.
+**![věž Jablonec](/img/vezni/Jablonec/ZSSumVezP.gif)N**erad pokračuji v seriálu o zmizelých hodinách. Život to tak ale chce. Narazil jsem na web hodináře z Jablonce nad Nisou, pana **Miloše Zikmunda**, a přečetl si kauzu opravy hodin na ZŠ Šumava. S jeho dovolením ji zde přetiskuji. Samozřejmě doporučuji všem celý web **www.hodinyjbc.eu** si přečíst. Jsou tam nemalé hodinářské i nehodinářské zajímavosti.
 
 Pan Zikmund píše:
 

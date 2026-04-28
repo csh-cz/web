@@ -20,7 +20,7 @@ Proto při úzké obrazovce horní měnu není rozbalovací a vede na tuto mapu 
 -   [Hodinárium](/clanky/mapa)
 
     -   Pro návštěvníky
-        -   [Informace ze zámku](https://www.zamekdecin.cz/program/vystava-decinske-hodinarium)
+        -   Informace ze zámku
         -   [Zámek a okolí](/clanky/decin_zamek)
     -   [Aktuality](/clanky/decin_aktual0)
         -   Sezóna 2015

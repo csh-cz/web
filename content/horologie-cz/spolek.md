@@ -9,7 +9,7 @@ scrapedAt: "2026-04-27T17:36:08.086Z"
 ---
 ![logo český spolek Horologický](/img/logo_CSH_110.jpg)
 
-vznikl z původního občanského sdružení Virtuální muzeum hodin o.s., které bylo dne 9.1.2009 [**zapsáno na MVČR**](http://aplikace.mvcr.cz/rady/sdruzeni/sdruz144.html).
+vznikl z původního občanského sdružení Virtuální muzeum hodin o.s., které bylo dne 9.1.2009 **zapsáno na MVČR**.
 Po změně OZ bylo převedeno na zapsaný spolek k datu 1.1.2014.
 Na členské schůzi 5.6.2015 byla mimo jiné schválena změna názvu, stanovy a nový výbor spolku. Usnesením Krajského soudu v Č.B. ze dne 12.2.2016 bylo rozhodnuto o zápisu změny do spolkového rejstříku. ( L4908/RD10/KSCB Fj 4845/2016/KSCB ) Zapsáno 5.3.2016.
 

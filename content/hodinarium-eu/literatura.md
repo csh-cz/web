@@ -66,7 +66,7 @@ scrapedAt: "2026-04-27T17:37:05.801Z"
 ## Firemní katalogy
 
 -   **Kieninger 98 / 99** \- TIME CULTURE FOR THE NEXT MILLENIUM
-    Také na [www.kieniger.com](http://www.kieniger.com/)
+    Také na www.kieniger.com
 
 ## Media
 

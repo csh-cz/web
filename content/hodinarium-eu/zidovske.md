@@ -14,7 +14,7 @@ scrapedAt: "2026-04-27T17:37:14.599Z"
 
 **J**de o věhlasnou kuriozitu a je proto až s podivem, jak málo je o nich informací na Internetu. Pokusíme se to trochu napravit touto stránkou.
 
-**N**a mapě Prahy židovské hodiny najdete přibližně [**zde**](http://mapy.cz/s/kcyO). Obrázek ukazuje Staronovou synagogu v popředí, v pozadí pak budovu Židovské radnice s hodinami a ciferníky na štítu a na věžičce. Všechny ciferníky jsou poháněny jediným hodinovým strojem pomocí poměrně komplikovaných převodů.
+**N**a mapě Prahy židovské hodiny najdete přibližně **zde**. Obrázek ukazuje Staronovou synagogu v popředí, v pozadí pak budovu Židovské radnice s hodinami a ciferníky na štítu a na věžičce. Všechny ciferníky jsou poháněny jediným hodinovým strojem pomocí poměrně komplikovaných převodů.
 
 **N**a první pohled návštěvníka upoutá starý neobvyklý ciferník ve štítu radnice. Jedná se o **ciferník s hebrejskými písmeny ve významu číslic.** Tak jako se hebrejský text čte zprava doleva, tak se ručičky těchto hodin otáčejí doleva. Trochu nelogicky můžeme prohlásit, že "**ručičky se pohybují proti směru hodinových ručiček**". Navíc menší ručička ukazuje minuty, větší pak hodiny. Koncepce ciferníku je rarita i v židovské kultuře.
 
@@ -183,9 +183,9 @@ A nyní již ciferníky:
 
 **N**a virtuálním modelu ciferníku nahoře můžete sami posoudit "snadnost přečtení správního času". Ručičky hodin na fotografii se nastavují podle času na vašem PC. Pro kontrolu vlevo nahoře digitální hodiny, které ovšem ukazují čas v 24 hodinovém dělení. Tím je zmatek dovršen, protože např. v 17 hodin ukazuje velká hodinová ručička na číslici 5, která ovšem je tam, kde obvykle očekáváme číslici 7.
 
-**N**aštěstí má radnice na věžičce instalovány ještě ciferníky s římskými číslicemi. Tyto ciferníky jsou podstatně novější dílo od firmy Hainz. Celkový pohled na radnici jakož i podklad pro virtuální hodiny poskytl [fotoateliér Marušák](http://www.firmy.cz/detail/1949348-stanislav-marusak-foto-roztoky.html)
+**N**aštěstí má radnice na věžičce instalovány ještě ciferníky s římskými číslicemi. Tyto ciferníky jsou podstatně novější dílo od firmy Hainz. Celkový pohled na radnici jakož i podklad pro virtuální hodiny poskytl fotoateliér Marušák
 
-**N**a závěr jsem chtěl napsat několik zajímavých odkazů na jiné stránky, ale našel jsem jen jeden ([Židovské hodiny u Staronové synagogy](http://vlastafiller.sweb.cz/v003r.html)) a to považuji rovněž za podivuhodné. Jedny z nejzajímavějších hodin v Praze nějak unikají publicitě na Internetu.
+**N**a závěr jsem chtěl napsat několik zajímavých odkazů na jiné stránky, ale našel jsem jen jeden (Židovské hodiny u Staronové synagogy) a to považuji rovněž za podivuhodné. Jedny z nejzajímavějších hodin v Praze nějak unikají publicitě na Internetu.
 
 ![stroj hodin](/img/zidovske/zidovske_stroj1.jpg)
 

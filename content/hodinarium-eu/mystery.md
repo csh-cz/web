@@ -23,4 +23,4 @@ I naše virtuální muzeum má takové. Nejčastěji se používají **otáčiv�
 - Roger Russell: [Haddon variants](http://www.roger-russell.com/haddon/hadvary.htm)
 - Roger Russell: [Haddon mystery clocks](http://www.roger-russell.com/haddon/haddon.htm)
 - UV201: [Mystery clocks reference](http://uv201.com/Clock_Pages/mystery_clocks.htm)
-- Dave West Clocks: [Smiths Mystery Clock](http://www.davewestclocks.co.uk/Clockrepairs/smiths-mystery-clock.htm)
+- Dave West Clocks: Smiths Mystery Clock

@@ -7,7 +7,7 @@ lastModified: "Sun, 23 Apr 2017 14:14:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:32.775Z"
 ---
-Muzeum věžních hodin [Mindelheim](http://www.mindelheim.de/content/view/710/755/) Kurátor a majitel sbírá věžní hodiny už 33 let. Pokud na ně má, tak si je koupí sám a pokud jsou drahé zaplatí to město. Město také hradí i provoz. Prakticky každý z 50 strojů je v chodu. I stroj s 30 metrovým kyvadlem (5 sec), které je patrně druhé nejdelší kyvadlo na světě. Navštívit tohle museum se určitě vyplatí.
+Muzeum věžních hodin Mindelheim Kurátor a majitel sbírá věžní hodiny už 33 let. Pokud na ně má, tak si je koupí sám a pokud jsou drahé zaplatí to město. Město také hradí i provoz. Prakticky každý z 50 strojů je v chodu. I stroj s 30 metrovým kyvadlem (5 sec), které je patrně druhé nejdelší kyvadlo na světě. Navštívit tohle museum se určitě vyplatí.
 
 ![Fotografie 1](/img/Mindelheim/f/foto_0001.jpg)
 

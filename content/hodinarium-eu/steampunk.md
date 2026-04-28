@@ -15,7 +15,7 @@ Zajímají nás hodiny v jakékoli podobě, a proto nás zaujalo i využití hod
 
 V klenotnici Věžního muzejíčka se připravuje prodejní výstava několika autorů. Podle Jany Nyergesové jsme jí nazvali TikŤakJinak. Dále se účastní Veronika Boušková a možná i další. Steampunkové šperky vzniklé z hodinářských součástek jsou tou správnou protiváhou velkých strojů věžních hodin a zajímavou nabídkou pro ženy, které navštíví naši expozici. Podobně působí funkční hodiny stylizované do steampunku.
 
-Více informací o Janě Nyergesové najdete [na facebooku](http://www.facebook.com/TikTakJinak), na [www.flear.cz](http://www.fler.cz/chochojana) či jejím [blogu](http://www.fler.cz/blog/37556). Šperky Veroniky Bouškové můžete vidět také na [jejím webu](http://www.sperky-viks.cz/hodinovesperky).
+Více informací o Janě Nyergesové najdete [na facebooku](http://www.facebook.com/TikTakJinak), na [www.flear.cz](http://www.fler.cz/chochojana) či jejím [blogu](http://www.fler.cz/blog/37556). Šperky Veroniky Bouškové můžete vidět také na jejím webu.
 
 * * *
 

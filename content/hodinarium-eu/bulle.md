@@ -24,7 +24,7 @@ Spínač na levém obrázku podle patentu z roku 1920. Polarita proudu v cívce 
 **Několik odkazů.**
 
 -   [Katalog BULLE hodin z r. 1925](/download/elektrika/bulle_catalogue_1925.pdf) 6.6 MB
--   Virtuální galerie [**Dave West Clock**](http://www.davewestclocks.co.uk/bulle-and-Eureka/bulle.html) - Antique Battery Clocks - Bulle and Eureka plus Tiffany Never Wind plus Brillie and ATO clocks
+-   Virtuální galerie **Dave West Clock** - Antique Battery Clocks - Bulle and Eureka plus Tiffany Never Wind plus Brillie and ATO clocks
 -   [Praktický návod na opravu](http://www.nawcc-index.net/Articles/Smith-restore_bulle_section_01.pdf)
 -   [Restaurování Bulle clock seriového čísla 174475](http://www.horologix.com/restore_bulle_174475.pdf)
 -   [Oprava hodin z roku 1927](http://www.csprojects.eu/bulle_clock.htm)
@@ -33,7 +33,7 @@ Spínač na levém obrázku podle patentu z roku 1920. Polarita proudu v cívce 
 ![bulle1925b](/img/pohlednice/bulle1925b.jpg)**a také naše první pohlednice**
 
 **P**odpořit nás můžete také **zakoupením této pohlednice** v e-shopu
-[**TB Group**](http://www.sobnet.cz/eshop1/index.html?zb=22001). Výtěžek z prodeje bude věnován na rozvoj tohoto webu.
+**TB Group**. Výtěžek z prodeje bude věnován na rozvoj tohoto webu.
 
 **N**yní je k dispozici pohlednice s vyobrazením elektromechanických bateriových hodin Bulle (Francie). Impulz do kyvadla, pevný magnet, pohyblivá cívka na kyvadle.
 

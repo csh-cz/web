@@ -7,7 +7,7 @@ lastModified: "Wed, 26 Apr 2017 21:04:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:49.223Z"
 ---
-Asi nejstarší švarcvaldky, co se objevily v poslední době na portálu [www.allegro.pl](http://www.allegro.pl/), jsou tyto nádherné **"klášterní" hodiny údajně z roku cca 1650**. I když se jedná pouze o **neúplné hodiny**, dražba začínala na ceně 10 000.-zl a byla doplněna možností "kup teď" za 12 000.- zl (což je asi 85 tisíc Kč). V aukci nebylo přihazováno. Možná máte příště šanci.
+Asi nejstarší švarcvaldky, co se objevily v poslední době na portálu www.allegro.pl, jsou tyto nádherné **"klášterní" hodiny údajně z roku cca 1650**. I když se jedná pouze o **neúplné hodiny**, dražba začínala na ceně 10 000.-zl a byla doplněna možností "kup teď" za 12 000.- zl (což je asi 85 tisíc Kč). V aukci nebylo přihazováno. Možná máte příště šanci.
 
 Datování hodin je snad až příliš optimistické. Podle literatury se sice v té době hodiny v jižním Bádensku již vyráběly, ale nejstarší zpráva o hodinářích je až z roku 1667. Podobné hodiny popisuje i pan S. Michal a datuje je na 18. až 19. století, případně R. Kynčl na konec 18. století.. Moje pochybnosti v datování stroje nemění fakt, že to jsou nejstarší švarcvaldky v našem virtuálním muzeu. Bohužel pouze virtuálně.
 

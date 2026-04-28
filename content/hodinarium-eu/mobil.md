@@ -16,7 +16,7 @@ Asi každý mobil nějakým způsobem čas zobrazit umí. Nejčastěji v digitá
 -   Telefon umí automaticky přepínat letní čas.
 -   Telefon umí používat externí programy pro časové funkce. Nabídka aplikací se stále rozšiřuje zejména pro Android.
 
-Nás zajímá hlavně poslední bod. Nabídka programů je značně široká a stále se vyvíjí. Na této stránce proto uvedeme jen jeden starší příklad. Jedná se o [program WTime](http://bydawe.wz.cz/wtime.php) Jde o Java aplikaci sloužící jako kompas, zobrazení světových časů a dalších informací. Dejme raději slovo autorovi:
+Nás zajímá hlavně poslední bod. Nabídka programů je značně široká a stále se vyvíjí. Na této stránce proto uvedeme jen jeden starší příklad. Jedná se o program WTime Jde o Java aplikaci sloužící jako kompas, zobrazení světových časů a dalších informací. Dejme raději slovo autorovi:
 
 ### Program WTime (J2ME):
 

@@ -129,7 +129,7 @@ Na videu v režimu nastavení na čas (FAST).
 ## Odkazy
 
 -   [Witty Cload Module Adapter Board](https://www.instructables.com/Witty-Cloud-Module-Adapter-Board/)
--   [Vývojový modul ESP8266 ... eshop](https://www.hadex.cz/m430d-modul-wifi-esp8266-esp-12f-vyvojovy-modul-se-zakladnou-a-tlacitky/)
+-   Vývojový modul ESP8266 ... eshop
 -   [O ESP32 a ESP8266](https://www.root.cz/clanky/esp32-je-tu-co-prinese-nastupce-esp8266/)
 -   [H můstek ... eshop](https://dratek.cz/arduino/877-arduino-h-mustek-pro-krokovy-motor-l298n-dual-h-most-dc.html)
 -   [Mobatime](http://mobatime.cz)

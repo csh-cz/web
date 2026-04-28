@@ -19,4 +19,4 @@ Hodiny na fotovoltaickou energii tady již byly podstatně dříve. Firma **Kien
 
 Na obrázku také z YouTube je model takovýchto hodin. Žárovka vlevo nahrazuje energii slunce a zahřívá levou "horkou" komoru stirlingova motoru. Tlakové změny jsou vedeny zelenou hadičkou do válce. Píst ve válci je pákovým převodem přímo spojen s kyvadlem a zároveň postrkuje rohatku v hodinovém stroji. Jedná se tedy o hodiny s impulzem do kyvadla. Kyvadlo zároveň slouží jako setrvačník stirlingova motoru. Trochu mate, že přeháneč není spojen s kyvadlem.
 
-Po kliknutí na obrázek opět video. (Pokud vás zajímají další informace o stirlingově motoru, historii, principu, použití, ... přejděte na stránky [wikipedie](http://cs.wikipedia.org/wiki/Stirling%C4%B9%C5%BBv_motor) nebo [www.stirling.cz](http://www.stirling.cz/)[nebo](http://mve.energetika.cz/uvod/stirling.htm) ....)
+Po kliknutí na obrázek opět video. (Pokud vás zajímají další informace o stirlingově motoru, historii, principu, použití, ... přejděte na stránky wikipedie nebo [www.stirling.cz](http://www.stirling.cz/)[nebo](http://mve.energetika.cz/uvod/stirling.htm) ....)

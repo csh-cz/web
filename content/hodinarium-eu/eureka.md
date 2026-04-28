@@ -15,6 +15,6 @@ Hodiny jsou nápadné velkou setrvačkou ( průměr až 8cm ), pohybující se v
 
 Přenos časové informace se na ručkové soukolí přenáší lomenou pákou, mající na jednom konci kladku, která kopíruje povrch excentrického válečku, nalisovaného na ose setrvačky. Druhý konec páky má zobáček, který postrkuje ozubené kolo ručkového soukolí.
 
-Některá další provedení například na stránce [www.davewestclocks.co.uk/bulle-and-Eureka/bulle.html](http://www.davewestclocks.co.uk/bulle-and-Eureka/bulle.html)
+Některá další provedení například na stránce www.davewestclocks.co.uk/bulle-and-Eureka/bulle.html
 
 !

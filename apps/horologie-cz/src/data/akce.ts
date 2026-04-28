@@ -67,27 +67,49 @@ export const akce: Akce[] = [
     misto: 'Protivín, jižní Čechy',
     lat: 49.2024, lon: 14.2099,
     popis:
-      'Dvoudenní spolková výprava do jihočeského Protivína — prohlídka místních '
-      + 'věžních hodin, hodinářských sbírek a setkání u příležitosti spolkové činnosti.',
+      'Dvoudenní spolková výprava do jihočeského Protivína — návštěva místního '
+      + 'pivovaru a především prohlídka soukromé hodinářské sbírky Království '
+      + 'času pana Kubelky.',
     detail:
       '<p>Členové Českého spolku horologického strávili dva srpnové dny '
-      + 'v Protivíně. Náplní byla prohlídka věžního stroje na místním kostele, '
-      + 'návštěva soukromých sbírek a neformální setkání členů. Akce navázala '
-      + 'na dlouholetou tradici spolkových výprav po regionálních hodinářských '
-      + 'památkách jižních Čech.</p>'
+      + 'v Protivíně. Na programu byla <strong>návštěva místního protivínského '
+      + 'pivovaru</strong> a hlavně prohlídka <strong><a href="https://kralovstvicasu.cz/" '
+      + 'target="_blank" rel="noopener">Království času</a></strong> — soukromé '
+      + 'hodinářské expozice — za doprovodu jejího majitele <strong>pana '
+      + 'Kubelky</strong>.</p>'
+      + '<p>Akce navázala na dlouholetou tradici spolkových výprav po '
+      + 'regionálních hodinářských památkách jižních Čech.</p>'
       + '<p><em>Pokud máte vlastní fotografie nebo vzpomínky na akci, '
       + 'ozvěte se nám — rádi popisky a podrobnosti doplníme.</em></p>',
     fotky: [
-      '01-veznicka.jpg',
-      '02-stroj-detail.jpg',
-      '03-sbirka.jpg',
-      '04-cinnost.jpg',
-      '05-prohlidka.jpg',
-      '06-odpoledne.jpg',
-      '07-vecer.jpg',
-      '08-druhy-den.jpg',
-      '09-zaver.jpg',
-      '10-detail.jpg',
+      'hero.jpg',
+      '01-pivovar.jpg',
+      '02-pivovar-detail.jpg',
+      '03-kralovstvi-cas-uvod.jpg',
+      '04-prohlidka-1.jpg',
+      '05-prohlidka-2.jpg',
+      '06-detaily-hodin-1.jpg',
+      '07-detaily-hodin-2.jpg',
+      '08-pan-kubelka.jpg',
+      '09-druhy-den.jpg',
+      '10-spolek.jpg',
+      '11-zaver.jpg',
+      '12-skupinova.jpg',
+    ],
+    popisky: [
+      'Spolková výprava do Protivína 2022',
+      'Návštěva protivínského pivovaru',
+      'Pivovar Protivín — detail',
+      'Království času — vstup do expozice',
+      'Prohlídka Království času',
+      'Prohlídka Království času (pokračování)',
+      'Detail vystavovaných hodin',
+      'Detail vystavovaných hodin',
+      'Pan Kubelka, majitel Království času, provádí spolek expozicí',
+      'Druhý den — pokračování programu',
+      'Skupina členů spolku',
+      'Závěr výpravy',
+      'Skupinová fotografie',
     ],
     status: 'minula',
     typ: 'akce',

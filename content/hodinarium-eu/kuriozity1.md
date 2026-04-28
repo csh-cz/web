@@ -17,5 +17,5 @@ scrapedAt: "2026-04-27T17:36:48.329Z"
 -   [české stránky o digitronkách](http://www.digitron.cz/)
 -   [a ještě](http://www.electricstuff.co.uk/nixclock.html)
 -   [Nixie Clock Galery](http://www.electricstuff.co.uk/nixclock.html) ( i z telefonních krokových voličů lze udělat hodiny )
--   seznam dalších [zde](http://oto.to/clocks/nclk.html)
+-   seznam dalších zde
 -   * * *

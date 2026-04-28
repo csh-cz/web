@@ -12,7 +12,7 @@ scrapedAt: "2026-04-27T17:36:46.948Z"
 
 **H**odiny mají ukazatel času umístněný na točící se "vrtuli". Ukazatel je tvořen zdroji světla (nejčastěji svítícími diodami - LED, ale třeba i digitrony). Rozsvěcování je ovládáno obvykle programem běžícím na 8 bitovém mikroprocesoru tak, aby v prostoru vznikl zdánlivý obraz ručiček hodin, číselného vyjádření času, případně jakékoliv další informace. Co bude zobrazováno určuje obslužný program. Zobrazovaná informace se může plynule měnit. Program běžící na mikroprocesoru je při zobrazování limitován pouze "rozlišením" rotačního displeje, které je dáno především počtem použitých diod a stabilitou otáček.
 
-**M**ožná první číslicové vrtulové hodiny publikoval 25. ledna 1997 pan [Bob Blick](http://www.bobblick.com/techref/projects/propclock/propclock.html). Učil elektroniku a vytvářel pro studenty jednoduché elektronické konstrukce. Vznikl tak i projekt hodin, respektive projekt podivuhodného ukazatele času, který autor nazývá "Mechanically scanned digital clocks operated by a PIC that uses an array of LEDs to create the illusion of digits". Princip vytváření virtuálního obrazu v prostoru zaujal mnoho dalších designérů. Po celém světě vznikají stále nové a nové trochu bláznivé konstrukce. Pokusíme se je trochu roztřídit. Dnes je způsob zobrazení - **Rotating display system** - chráněn patentem USA [6856303](http://www.freepatentsonline.com/6856303.html).
+**M**ožná první číslicové vrtulové hodiny publikoval 25. ledna 1997 pan Bob Blick. Učil elektroniku a vytvářel pro studenty jednoduché elektronické konstrukce. Vznikl tak i projekt hodin, respektive projekt podivuhodného ukazatele času, který autor nazývá "Mechanically scanned digital clocks operated by a PIC that uses an array of LEDs to create the illusion of digits". Princip vytváření virtuálního obrazu v prostoru zaujal mnoho dalších designérů. Po celém světě vznikají stále nové a nové trochu bláznivé konstrukce. Pokusíme se je trochu roztřídit. Dnes je způsob zobrazení - **Rotating display system** - chráněn patentem USA [6856303](http://www.freepatentsonline.com/6856303.html).
 
 ![Podobně vypadající hodiny, lze koupit za cca 130 USD.](/img/propcloch_anim1.gif)
 
@@ -48,10 +48,10 @@ Jsou technicky prakticky stejné. Pouze jiný program mikroprocesoru vytváří 
 
 **Některé další zajímavé linky:**
 
-1.  [www.bobblick.com/techref/projects/propclock/propclock.html](http://www.bobblick.com/techref/projects/propclock/propclock.html)
-2.  [www.graffagnino.net/frankie/projects/propeller\_clock/](http://www.graffagnino.net/frankie/projects/propeller_clock/)
-3.  [www.graffagnino.net/frankie/projects/propeller\_clock/index.php](http://www.graffagnino.net/frankie/projects/propeller_clock/index.php)
-4.  [www.luberth.com/analog.htm](http://www.luberth.com/analog.htm)
-5.  [hackedgadgets.com/2006/06/29/nixie-propeller-clock/](http://hackedgadgets.com/2006/06/29/nixie-propeller-clock/)
+1.  www.bobblick.com/techref/projects/propclock/propclock.html
+2.  www.graffagnino.net/frankie/projects/propeller\_clock/
+3.  www.graffagnino.net/frankie/projects/propeller\_clock/index.php
+4.  www.luberth.com/analog.htm
+5.  hackedgadgets.com/2006/06/29/nixie-propeller-clock/
 
 !

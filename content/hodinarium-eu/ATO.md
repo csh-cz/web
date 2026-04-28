@@ -22,12 +22,12 @@ Hodiny ATO byly založeny na stejném principu jako **[Bulle hodiny](/clanky/bul
 
 **Další stránky**
 
--   Virtuální galerie [**ART-DECO ATO CLOCK**](http://www.davewestclocks.co.uk/bulle-and-Eureka/artdeco_ato_clock.htm)
+-   Virtuální galerie **ART-DECO ATO CLOCK**
 
 -   Virtuální galerie [**Elektrické hodiny**](http://www.faszination.ch/e_einz_e.htm)
 
 -   Virtuální galerie **Electrical horology** - [**nástěnné**](http://www.mridout.force9.co.uk/ecw/ato.htm)UTILIA, [**stolní**](http://www.mridout.force9.co.uk/ecw/atoqtrsec.htm)
 
--   Virtuální galerie [**Dave West Clock**](http://www.davewestclocks.co.uk/bulle-and-Eureka/bulle.html) - Antique Battery Clocks - Bulle and Eureka plus Tiffany Never Wind plus Brillie and ATO clocks
+-   Virtuální galerie **Dave West Clock** - Antique Battery Clocks - Bulle and Eureka plus Tiffany Never Wind plus Brillie and ATO clocks
 
 -   ... a jistě najdete mnoho dalších....Bohužel jsme koncem roku vyřadili cca polovinu již nefunkčních odkazů. Někde jinde možná jsou...

@@ -19,7 +19,7 @@ I tato na první pohled jednoduchá reforma se však setkala s nepochopením neb
 
 S těmito dvěma reformátory římského kalendáře se také pojí historka, díky které máme měsíce tak nelogicky různě dlouhé. V původním konceptu juliánského kalendáře se počítalo s tím, že liché měsíce budou mít 31 dnů a sudé 30, jen únor v nepřestupném roce měl mít jen 29 dnů. Pak však byl měsíc Quintilis přejmenován na Caesarovu počest na Iulius, přičemž si zanechal stejný počet dnů, tedy 31. Když pak ovšem dostal "svůj" měsíc i Augustus (původně Sextilis), měl mít jen 30 dnů. To bylo samozřejmě politicky nemyslitelné, a proto odebrali jeden den září a přidali jej srpnu... A tak, zářijoví rodáci, můžeme hovořit o skutečně historické křivdě, která se nám stala...
 
-Po reformě spojené s nutností vyznamenat Augusta měsícem s 31 dny, se počet dnů v jednotlivých měsících ustálil. Přehledný soupis počtů a názvů dnů v jednotlivých měsících můžete nalézt [zde](http://www.curiavitkov.cz/clanek6.html) (tento odkaz byl použit s laskavým svolením autora z webu [www.curiavitkov.cz](http://www.wothanburg.cz/)).
+Po reformě spojené s nutností vyznamenat Augusta měsícem s 31 dny, se počet dnů v jednotlivých měsících ustálil. Přehledný soupis počtů a názvů dnů v jednotlivých měsících můžete nalézt zde (tento odkaz byl použit s laskavým svolením autora z webu www.curiavitkov.cz).
 
 Římský kalendář začínal původně až v březnu. Proto mají některé měsíce napohled nelogická jména - září (september) by mělo být sedmým měsícem, prosinec (december) desátým atd. Od tohoto počítání se upustilo roku 153 před n.l., kdy se začal nový rok počítat od 1.ledna. Roky se pak počítaly obecně od data údajného založení Říma (753 před n.l.) a označovaly se jmény konzulů, kteří byli zvoleni.
 

@@ -55,6 +55,6 @@ Protože je celý strojek zapuštěn do schrány a seřirovaví kolečko je norm
 
 ### Odkazy
 
--   [https://docplayer.org/71200072-Siemens-uhren-historische-sammlung-teil-ii.html](https://docplayer.org/71200072-Siemens-uhren-historische-sammlung-teil-ii.html)
+-   https://docplayer.org/71200072-Siemens-uhren-historische-sammlung-teil-ii.html
 
 Text a foto: Petr Král

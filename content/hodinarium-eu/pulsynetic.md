@@ -78,7 +78,7 @@ O tomto neobvyklém stroji existuje od roku 2008 [blog](http://waitingtrain.blog
 ### Odkazy
 
 -   Nejpodrobnější stránka co jsme o řadě Pulsynetic našli - [pulsynetic.eu](http://pulsynetic.eu/) uvádí mnohem širší záběr výrobků Gents.
--   [Electric masters](http://www.hvtesla.com/masters/) - stránka pojednávající o mnoha systémech matečních hodin (Synchronome, Gents PUL-SYN-ETIC, Gensing , Post Office 36, Carl Bohmeier, Burk Master Clock, General Tele's Ltd a různé podružné hodiny a programátory impulsů)
+-   Electric masters - stránka pojednávající o mnoha systémech matečních hodin (Synchronome, Gents PUL-SYN-ETIC, Gensing , Post Office 36, Carl Bohmeier, Burk Master Clock, General Tele's Ltd a různé podružné hodiny a programátory impulsů)
 -   Videa na Youtube. Například [zde](https://www.youtube.com/watch?v=OhAOsCUvkfo), [zde](https://www.youtube.com/watch?v=kAEyjUT0vL4) a [zde](https://www.youtube.com/watch?v=6Rba4Il6gcg). [Video WT](https://www.youtube.com/watch?v=VwSTKJxhaa4&feature=youtu.be)
 -   [Video sekundového podružného stroje Gents](https://www.youtube.com/watch?v=kJ6h7yOsQT4&t=19s)
 -   [Blog obdivovatelů Pulsynetic](http://waitingtrain.blogspot.cz/)

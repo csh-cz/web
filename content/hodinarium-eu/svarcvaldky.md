@@ -116,15 +116,15 @@ V {} závorkách uvedena hloubka včetně bicího stroje, pokud byl vestavěn.
 !](http://www.jockele.de/)Jockele !!!!!!!!!![
 !](http://www.faller-uhren.de/)a výroba pokračuje[
 !](http://www.antique-horology.org/_Editorial/BlackForestClocks/default.htm)Super muzeum[
-!](http://www.deutsches-uhrenmuseum.de/)Německé muzeum hodin[
-!](http://www.black-forest-clock.de/)Black-forest-clock.de[
-!](http://www.snetzle.de/termine/dauerausstellungschwarzwalduhr.html)Deutsches Uhrenmuseum Robert-Gerwig-Platz 1 78120 Furtwangen![](http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html)museum - Heimat- und Uhrenmuseum Schwenningen[
-!](http://www.sankt-maergen.de/de/kultur/uhren.php?sid=&psid=&lang=de&rg=7)museum - Uhrenmuseum (die Anfänge der Schwarzwalduhr) St. Märgen![](http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm)museum[
+!](https://www.deutsches-uhrenmuseum.de/)Německé muzeum hodin[
+!](http://www.black-forest-clock.de/)Black-forest-clock.de
+!Deutsches Uhrenmuseum Robert-Gerwig-Platz 1 78120 Furtwangen![](http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html)museum - Heimat- und Uhrenmuseum Schwenningen
+!museum - Uhrenmuseum (die Anfänge der Schwarzwalduhr) St. Märgen![](http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm)museum[
 !](http://www.black-forest.org/)Black Forest Clock Association[
 !](http://www.schwarzwalduhren.com/)Josef Noe Schwarzwalduhren Köln[
 !](http://www.haus-der-schwarzwalduhren.de/)Adolf Herr[
-!](http://www.schwarzwalduhr.de/)Unikátní švarcvaldky[
-!](http://www.antike-uhren.de/antike-schwarzwalduhren.asp)Antik[
-!](http://www.schwarzwald-uhren.de/uhren.htm)prodej[
-!](http://uhrendoktor.at/Verkauf/Schwarzwalduhren/schwarzwalduhren.htm)Uhrendoktor[
+!](http://www.schwarzwalduhr.de/)Unikátní švarcvaldky
+!Antik
+!prodej
+!Uhrendoktor[
 !](http://www.uhrenhanse.de/sammlerecke/museen/schwarzwald/schwarzwald5.htm#%DCber%20die%20Schwarzwalduhr)Über die Schwarzwalduhr

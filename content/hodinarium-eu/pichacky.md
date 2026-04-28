@@ -48,7 +48,7 @@ V expozici dále mimo jiné najdete značky Pragotron či Benzing. Zastoupen bud
 
 * * *
 
-## Druhy kontrolních hodin podle [workclocks](http://www.workclocks.co.uk/index.html)
+## Druhy kontrolních hodin podle workclocks
 
 Existuje několik různých způsobů k dosažení stejného cíle, kterým bylo přesné zaznamenání počtu hodin odpracovaných každým zaměstnancem. K tomu, aby kontrolní hodiny byly úspěšné, musela být jejich obsluha jednoduchá a musely být přesné a spolehlivé. To na jejich konstrukci i po hodinářské stránce kladlo vysoké nároky. První typ časového zapisovače používaného ve Velké Británii byl patentovaný a vyrobený William Llewellin (1881) a Frank Brook (1889), ale pravděpodobně nejprve vynalezl John Adams v 1855. Kontrolní hodiny měly buben rozdělený do přihrádek například po 10 minutách. Přicházející pracovník sejmul z nástěnky svůj žeton a hodil ho do otvoru v hodinách. Pověřený pracovník, zaznamenal čas příchodu podle toho, do které přihrádky žeton spadl.
 
@@ -84,19 +84,19 @@ Tento příklad byl časným vynálezem Edwarda G Watkinsa, který vyústil v za
 
 ### Fotografický záznamník
 
-Na tento vynález narazil autor webu [workclocks](http://www.workclocks.co.uk/index.html), když procházel stovky patentů o píchačkách. Předpoklá, že fotografický záznamník nikdy nedosáhl výrobní etapy, ale musí to být zde uveden pro inovativní design na tu dobu (Londýn 1898).Koncept byl kombinací hodin, tiskařského mechanismu a kamery a časového razítka. Fotografie obličeje zaměstnance při zahájení a opuštění práce.
+Na tento vynález narazil autor webu workclocks, když procházel stovky patentů o píchačkách. Předpoklá, že fotografický záznamník nikdy nedosáhl výrobní etapy, ale musí to být zde uveden pro inovativní design na tu dobu (Londýn 1898).Koncept byl kombinací hodin, tiskařského mechanismu a kamery a časového razítka. Fotografie obličeje zaměstnance při zahájení a opuštění práce.
 
 * * *
 
 ## Odkazy
 
 -   [Časové razítko na našem serveru](/clanky/razitka)
--   Velmi zajímavý specializovaný web "píchaček" [http://www.workclocks.co.uk/index.html](http://www.workclocks.co.uk/index.html) Z obsahu vyjímáne:
+-   Velmi zajímavý specializovaný web "píchaček" http://www.workclocks.co.uk/index.html Z obsahu vyjímáne:
 
--   [Day](http://www.workclocks.co.uk/dey.html)
--   [Bundy](http://www.workclocks.co.uk/bundy.html)
+-   Day
+-   Bundy
 
--   [Firma Bürk](http://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk)
+-   [Firma Bürk](https://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk)
 -   [Strážní hodiny Bürk](http://www.watchclocks.org/Types/19th_Century/52_Burk/52_burk.html)
 
 ## Poděkování

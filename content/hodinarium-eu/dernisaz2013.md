@@ -9,7 +9,7 @@ scrapedAt: "2026-04-27T17:36:33.993Z"
 ---
 [![nic](/img/dernisaz2013/clovek_v_zizni.jpg)](/img/dernisaz2013/f/clovek_v_zizni.jpg)
 
-Sezóna ve Věžním muzejíčku byla slavnostně ukončena dernisáží pořádanou dne 13. 9. 2013 v restauraci [U ČERNÉ KOČKY](http://www.ucernekocky.eu/) v Soběslavi. Diskusní podvečer byl současně výjezdním seminářem sdružení. Atmosféru dokreslilo živé vystoupení mechanické hudby. Výtěžek z produkce byl, jak vidno, věnován uskupení "Člověka v žízni".
+Sezóna ve Věžním muzejíčku byla slavnostně ukončena dernisáží pořádanou dne 13. 9. 2013 v restauraci U ČERNÉ KOČKY v Soběslavi. Diskusní podvečer byl současně výjezdním seminářem sdružení. Atmosféru dokreslilo živé vystoupení mechanické hudby. Výtěžek z produkce byl, jak vidno, věnován uskupení "Člověka v žízni".
 
 Končit sezónu uspořádáním dernisáže není zcela běžné. Dokonce není běžné ani toto slovo. Označuje se jím slavnostní zakončení výstavy, když například nebyla pořádána vernisáž. Absenci vernisáže si vynutil hektičtější začátek sezóny. Nebylo zcela jasné, kdy se podaří expozici otevřít. I tak některé exponáty byly doplňovány během prázdnin. Byla to však dobrá příležitost k zhodnocení sezóny a k poděkování všem zúčastněným, ať jsou to byli tvůrci expozice, zapůjčitelé exponátů, sponzoři, nositelé myšlenek i nositelé exponátů po točitých schodech věže.
 

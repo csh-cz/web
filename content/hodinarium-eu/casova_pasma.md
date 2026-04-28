@@ -35,7 +35,7 @@ Do kategorie opravdových pásmovek patří hodiny **Digi-tech - Hodiny se svět
 -   NFT, GMT + **11:30**, Norfolk Time, Čas ostrova Norfolk
 -   ......
 
-**V**íce o značení najdete např. [zde](http://uzitecne.mpelikan.com/casova-pasma.html). Doporučuji vaší pozornosti zejména pásmo GMT - 10, které je označováno **W** neboli **Whiskey Time Zone.** Tady je možné tušit souvislost s hodinami, kterým na tomto serveru říkáme [lahváče](/clanky/lahvace) ;-). Jako mají Britové čaje o páté, mají Američané Whisky Time Zone. ;-)
+**V**íce o značení najdete např. zde. Doporučuji vaší pozornosti zejména pásmo GMT - 10, které je označováno **W** neboli **Whiskey Time Zone.** Tady je možné tušit souvislost s hodinami, kterým na tomto serveru říkáme [lahváče](/clanky/lahvace) ;-). Jako mají Britové čaje o páté, mají Američané Whisky Time Zone. ;-)
 
 )
 

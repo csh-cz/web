@@ -26,7 +26,7 @@ scrapedAt: "2026-04-27T17:36:32.117Z"
 **A**ť přicházíme, přijíždíme či připlouváme do Soběslavi odkudkoliv vždy nás zdaleka přivítá významný symbol zdejšího kraje - soběslavská věž. Její vysoké (68 m) štíhlé tělo ční nad okolní terén tak, aby celé údolí bylo z ochozu jako na dlani. Patří mezi nejstarší a nejzajímavější stavby Soběslavi. Již od svého vzniku byla pozorovatelnou, strážním místem, malou pevností, zvonicí a také městskou klenotnicí. Již roku 1484 na ní byly zřízeny hodiny. ...
 (Volně podle knihy Petra Lintnera - Pohledy soběslavské.)
 
-**V**ěž byla tedy místem pro uložení pokladů. Díky členům [Českého spolku horologického](/clanky/spolek) také nějakou dobu byla **Věžním muzejíčkem**, které ukrývalo mnohé historické poklady. Muzejíčko začínalo v prvním patře v klenuté místnosti bývalé městské klenotnice nad kaplí sv. Jana Křtitele a pokračovalo směrem vzhůru. Expozice Věžního muzejíčko doprovázela 168 schodů výstupové trasy na ochoz věže. Přístup na věž provozuje [**Aeroklub Soběslav**](http://www.sobeslav.xf.cz/index.php?pg=main).
+**V**ěž byla tedy místem pro uložení pokladů. Díky členům [Českého spolku horologického](/clanky/spolek) také nějakou dobu byla **Věžním muzejíčkem**, které ukrývalo mnohé historické poklady. Muzejíčko začínalo v prvním patře v klenuté místnosti bývalé městské klenotnice nad kaplí sv. Jana Křtitele a pokračovalo směrem vzhůru. Expozice Věžního muzejíčko doprovázela 168 schodů výstupové trasy na ochoz věže. Přístup na věž provozuje **Aeroklub Soběslav**.
 
 [![klenotnice](/img/vez/expozice/expozice2011.jpg)](/img/vez/expozice/expozice2011.jpg)
 
@@ -56,7 +56,7 @@ Ve věži najdeme ozubená kola i u rumpálu, který usnadňoval život hlásné
 
 Ke klenotnici patří i pancéřové dveře a staré zámky. Bohužel se zámky na původních gotických dveřích pobitých ručně kovaným plechem nedochovaly.
 
-Virtuální audio procházku se Světlanou Lavičkovou v pořadu Odysea si můžete poslechnout na stránkách [**archivu ČRo2 - Praha - iRadio**](http://www.rozhlas.cz/iradio/praha), kde si můžete pořad vyhledat nebo použít [**přímý odkaz na mp3 pořadu**](http://media.rozhlas.cz/_audio/2409342.mp3).
+Virtuální audio procházku se Světlanou Lavičkovou v pořadu Odysea si můžete poslechnout na stránkách **archivu ČRo2 - Praha - iRadio**, kde si můžete pořad vyhledat nebo použít **přímý odkaz na mp3 pořadu**.
 
 * * *
 
@@ -64,10 +64,10 @@ Virtuální audio procházku se Světlanou Lavičkovou v pořadu Odysea si můž
 
 *(Odkazy rychle zastarávají, zkuste případně dohledat.)*
 
--   Muzeum věžních hodin [Mindelheim](http://www.mindelheim.de/museen/mindelheimer-museen). ([Brožura](http://www.mindelheim.de/sites/default/files/mn_turmuhrenmuseum_broschuere_2013.pdf))
--   Městská věž [Waldmünchen](http://www.waldmuenchen.de/turm_etagen.html). Velmi zajímavé muzem věžních hodin blízko našich hranic přímo v městské ve věži. [Historie věže](http://www.waldmuenchen.de/turm_geschichte.html).
--   Gdaňsk - [Muzeum Zegarów Wieżowych.](http://www.mhmg.gda.pl/oddzial/3/muzeum-zegarow-wiezowych) Muzeum je po požáru znovu otevřeno.
+-   Muzeum věžních hodin Mindelheim. (Brožura)
+-   Městská věž Waldmünchen. Velmi zajímavé muzem věžních hodin blízko našich hranic přímo v městské ve věži. Historie věže.
+-   Gdaňsk - Muzeum Zegarów Wieżowych. Muzeum je po požáru znovu otevřeno.
 -   [Turmuhrenmuseum Bockenem](http://www.bockenem.de/tourismus/museum-der-zeit.html) - Muzeum věžních hodin v Bockenem. Obrázky vystavených věžních hodin najdete i ve [wikipedii](http://commons.wikimedia.org/wiki/Category:Turmuhrenmuseum_Bockenem). Muzeum je zaměženo na představení působení firmy [Bockenemer Turmuhrenfabrik](http://de.wikipedia.org/wiki/J._F._Weule) [J F Weule](http://de.wikipedia.org/wiki/J._F._Weule) - výroba věžních hodin a slévárna zvonů. V muzeu je údajně 40 funkčních exponátů a zvonohra.
--   [www.trebinotowerclockmakers.com](http://www.trebinotowerclockmakers.com/museo-orologi) Italské muzeum věžních hodin v prostorách výrobní firmy TREBINO. Stránky v italské verzi jsou poněkud odlišné. Zkuste také [www.trebino.it.](http://www.trebino.it/Objects/Pagina.asp?ID=5&T=Museo%20orologi)
+-   www.trebinotowerclockmakers.com Italské muzeum věžních hodin v prostorách výrobní firmy TREBINO. Stránky v italské verzi jsou poněkud odlišné. Zkuste také [www.trebino.it.](http://www.trebino.it/Objects/Pagina.asp?ID=5&T=Museo%20orologi)
 -   [Litovelská radniční věž](http://olomouc.idnes.cz/litovelska-radnicni-vez-nabizi-krome-vyhledu-i-komurku-hlasneho-pxr-/olomouc-zpravy.aspx?c=A120514_1777773_olomouc-zpravy_sot) možná také více ožije. Zpráva z 19.5.2012 to naznačuje.
 -   Jeden z poněkud odlišných projektů, který obdivujeme - [theclockworks.org](http://theclockworks.org/)

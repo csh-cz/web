@@ -1,0 +1,37 @@
+[
+  {
+    "original": "http://www.clocklink.com/",
+    "replacement": "https://www.clocklink.com/",
+    "finalStatus": 200
+  },
+  {
+    "original": "http://www.time.gov/",
+    "replacement": "https://www.time.gov/",
+    "finalStatus": 200
+  },
+  {
+    "original": "http://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk",
+    "replacement": "https://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk",
+    "finalStatus": 200
+  },
+  {
+    "original": "http://www.rufa.de/",
+    "replacement": "https://rufa.de/",
+    "finalStatus": 200
+  },
+  {
+    "original": "http://www.deutsches-uhrenmuseum.de/",
+    "replacement": "https://www.deutsches-uhrenmuseum.de/",
+    "finalStatus": 200
+  },
+  {
+    "original": "http://dml.cz/bitstream/handle/10338.dmlcz/138777/PokrokyMFA_25-1980-3_4.pdf",
+    "replacement": "https://dml.cz/bitstream/handle/10338.dmlcz/138777/PokrokyMFA_25-1980-3_4.pdf",
+    "finalStatus": 200
+  },
+  {
+    "original": "http://www.jindrisskavez.cz/",
+    "replacement": "https://jindrisskavez.cz/index.php/cs/",
+    "finalStatus": 200
+  }
+]

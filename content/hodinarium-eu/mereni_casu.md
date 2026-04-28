@@ -9,7 +9,7 @@ scrapedAt: "2026-04-27T17:37:04.915Z"
 ---
 Díky laskavosti původních autorů doslovně převzato ze serveru
 
-[www.zemepis.eu/stranka/mereni-casu](http://www.zemepis.eu/stranka/mereni-casu)
+www.zemepis.eu/stranka/mereni-casu
 
 Měření času dělá lidstvu problémy, neboť sluneční soustava je nehomogenní a tělesa se v ní pohybují různými směry. Naopak fyzikální procesy se odehrávají tak pomalu, že je můžeme sledovat na vzdálených objektech. Pro měření času je nutno vytvořit soustavy souřadnic.
 

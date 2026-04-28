@@ -50,4 +50,4 @@ Rozmanitost hodin firmy METAMEC inspiruje k tvorbě specializovaných sbírek. I
 
 [![Hodiny Rufa rok 1956 - sysnchronní motor na 220 V](/img/elektrika/rufa3_n.jpg)](/img/elektrika/rufa3.jpg)[![Hodiny Rufa rok 1956 - doplněn reproduktorem](/img/elektrika/rufa5_n.jpg)](/img/elektrika/rufa5.jpg)
 
-Náznak historie výrobce **Rufa Sprechanlagen, Dietze & Co Küps,Ofr.** najdete na firemní stránce [www.rufa.de](http://www.rufa.de/). V současné době má firma poněkud jiný výrobní program. Informace o výrobě hodin jsme zatím nenašli. Něco k tématu je i na stránkách **[rádiomusea](http://www.radiomuseum.org/dsp_hersteller_detail.cfm?company_id=8549)**.
+Náznak historie výrobce **Rufa Sprechanlagen, Dietze & Co Küps,Ofr.** najdete na firemní stránce [www.rufa.de](https://rufa.de/). V současné době má firma poněkud jiný výrobní program. Informace o výrobě hodin jsme zatím nenašli. Něco k tématu je i na stránkách **[rádiomusea](http://www.radiomuseum.org/dsp_hersteller_detail.cfm?company_id=8549)**.

@@ -19,7 +19,7 @@ scrapedAt: "2026-04-27T17:36:33.395Z"
 
 ## Vstupné
 
-> Přístup na věž provozuje [**Aeroklub Soběslav**](http://www.sobeslav.xf.cz/index.php?pg=main). Vstupné do věže je 20 Kč, děti 10.- Kč. **Komentovanou prohlídku** zajišťuje naše občanské sdružení.
+> Přístup na věž provozuje **Aeroklub Soběslav**. Vstupné do věže je 20 Kč, děti 10.- Kč. **Komentovanou prohlídku** zajišťuje naše občanské sdružení.
 
 ## V sezóně 2011 je ve věži vystaveno:
 
@@ -50,7 +50,7 @@ scrapedAt: "2026-04-27T17:36:33.395Z"
 > * * *
 
 Všechny vás v průběhu prázdnin zveme na návštěvu a doporučujeme současně
-navštívit v Rožmberském domě výstavu **[Soběslav - město pětilisté růže](http://www.husitskemuzeum.cz/view.php?nazevclanku=vystava-%E2%80%9Esobeslav-%E2%80%93-mesto-petiliste-ruze%E2%80%9C-v-sobeslavi&cisloclanku=2011060008)**
+navštívit v Rožmberském domě výstavu **Soběslav - město pětilisté růže**
 a také **expozici hodin** na nedalekém [**zámku Brandlín**](http://www.zamekbrandlin.cz/)
 
 * * *

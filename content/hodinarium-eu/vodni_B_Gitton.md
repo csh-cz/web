@@ -53,7 +53,7 @@ scrapedAt: "2026-04-27T17:36:53.309Z"
 
 ![realizace 2](/img/vodni/time_flow_clock.jpg)
 
-**F**rancouz **Bernard Gitton** v roce 1979 vytvořil ze skleněných trubic několik fantastických vodních hodin. Dnes je ve světě více než 30 míst, kde se lze těmto hodinám obdivovat. Je to například [**The Children´s Museum**](http://www.marcdatabase.com/%7Elemur/dm-gitton-indianapolis.html) v Indianopolis, obchodní centrum Sao Paulo a další.
+**F**rancouz **Bernard Gitton** v roce 1979 vytvořil ze skleněných trubic několik fantastických vodních hodin. Dnes je ve světě více než 30 míst, kde se lze těmto hodinám obdivovat. Je to například **The Children´s Museum** v Indianopolis, obchodní centrum Sao Paulo a další.
 
 Na obrázcích můžete vidět dvě realizace těchto hodin. Hodiny se skládají ze soustavy skleněných trubic, ve kterých se pohybuje kapalina (obvykle směs vody a lihu). Úroveň hladiny v levé trubici ukazuje hodiny, v pravé trubici minuty. Kapalina je pumpována elektrickou pumpou ze základní nádoby do horní nádoby. Odtud je po částech v pravidelných intervalech vypouštěna do střední soustavy sifonů. To je na pohled nejzajímavější část, protože soustavou sifonů kapalina prochází v závislosti na jejich okamžitém naplnění. Více u animace. Detailní popis najde laskavý čtenář v odkazech na anglicky nebo francouzsky psaný text.
 
@@ -67,9 +67,9 @@ Zde jen krátký popis. Model ukazuje, jak je konečně na našem serveru zvykem
 
 ## Další odkazy na stránky o těchto hodinách:
 
--   [Stránky autora Bernarda Gittona](http://www.bernard-gitton.com/cadre_horloge.htm)
--   [www.marcdatabase.com/~lemur/dm-gitton.html](http://www.marcdatabase.com/%7Elemur/dm-gitton.html) Asi informačně nejhodnotnější stránka o autorovi včetně podrobného popisu hodin a vysvětlení principů, na kterých jsou založeny. Obsahuje i nákres kyvadla, zde neuvedeného. (An)
--   [perso.orange.fr/cadrans.solaires/cadrans/Cadran-clepsydre.html](http://perso.orange.fr/cadrans.solaires/cadrans/Cadran-clepsydre.html) Také technický nákres (FR)
+-   Stránky autora Bernarda Gittona
+-   www.marcdatabase.com/~lemur/dm-gitton.html Asi informačně nejhodnotnější stránka o autorovi včetně podrobného popisu hodin a vysvětlení principů, na kterých jsou založeny. Obsahuje i nákres kyvadla, zde neuvedeného. (An)
+-   perso.orange.fr/cadrans.solaires/cadrans/Cadran-clepsydre.html Také technický nákres (FR)
 -   [en.wikipedia.org/wiki/Water\_clock](http://en.wikipedia.org/wiki/Water_clock) Obecněji o vodních hodinách ve Wikipedii.
 
 * * *

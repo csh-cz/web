@@ -68,7 +68,7 @@ V roce 2020 jsme sekci NTP serverů rozšířili o průmyslově vyráběný, av�
 -   Time synchronization accuracy: 100 ns
 -   NTP v2, v3, v4 (RFC 1119, RFC 1305,RFC5905), SNTP v3 a v4 (RFC 1769, RFC 2030)
 -   NTP LAN timing accuracy: 0.5-2 ms
--   Support constellation: GPS L1, Beidou B1, GLONASSL1, Galileo E1, SBAS (WAAS, [EGNOS](https://www.czechspaceportal.cz/3-sekce/gnss-systemy/egnos/technicky-popis-systemu-egnos/), MSAS)
+-   Support constellation: GPS L1, Beidou B1, GLONASSL1, Galileo E1, SBAS (WAAS, EGNOS, MSAS)
 -   Implicitní IP 192.168.0.100
 
 Zkratkou GPS, tedy Global Positioning System, je míněn obecný družicový systém pro určování polohy na zeměkouli. Informace o poloze má značný vojenský význam, proto je vyvíjeno více národních systémů. Označení GPS přešlo do obecné mluvy jako označení nejen pro americký systém NOVASTAR GPS, ale pro jakýkoliv elektronický systém zjišťování polohy. Zde uváděn čínský BeiDou, ruský GLONASS, evropský systém Galileo, nebo družice systému QZSS doplňkově používané pro Japonsko. O vlastním nezávislém systému se mluví také v Británii. Kromě Galilea jde zejména o vojenské systémy, které pro civilní použití mají obvykle sníženou přesnost, protože přesnější údaje jsou šifrovány. Dne 8.6.2020 bylo na oběžné dráze již 134 takových družic. Podívejte se sami. Nastavte si polohu a spusťte animaci na stránce [gnssplanning.com](https://www.gnssplanning.com/#/skyplot).

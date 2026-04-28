@@ -24,5 +24,5 @@ Hodiny mají jednoduchou indikaci přerušení dodávky proudu: v otvoru pod č�
 ## Odkazy
 
 -   [https://lespook.files.wordpress.com/2010/05/s-108-synclock-a.pdf](https://lespook.files.wordpress.com/2010/05/s-108-synclock-a.pdf)
--   [http://saluspopulae.co.uk/synclock/content/IMG\_0083\_large.html](http://saluspopulae.co.uk/synclock/content/IMG_0083_large.html)
+-   http://saluspopulae.co.uk/synclock/content/IMG\_0083\_large.html
 -   [https://clockhistory.com/telechron/products/typea/index.html](https://clockhistory.com/telechron/products/typea/index.html)

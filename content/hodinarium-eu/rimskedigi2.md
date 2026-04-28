@@ -11,7 +11,7 @@ Prosakují zprávy, že se uvažuje o vyřazení římských číslic ze školn�
 
 ## script rimskedigi
 
-Váš prohlížeč nepodporuje prvek video – soubor si stáhněte [odsud](https://hodinarium.eu/download/MovaviClips_rimskedigi.mp4.mp4).
+Váš prohlížeč nepodporuje prvek video – soubor si stáhněte odsud.
 
 Pro římské digitálky je použito Arduino ESP WEMOS D1. Čas získávají protokolem NTP z WiFi sítě internetu a zobrazuje ho na displeji IIC I2C Display LCD 1602, tedy dvou řádcích a 16 znacích. SW řešení používá knihovnu ESP8266WiFiMulti, která umožňuje zadat více možných přístupových bodů. Vzhledem k plánovanému použití v Hodináriu není doplněna funkce uživatelského zadání jména a hesla k libovolnému AP. Seznam použitelných AP je zadán již při překladu.
 
@@ -35,7 +35,7 @@ Tato teorie je zkráceně převzata z internetové jazykové příručky [https:
 
 -   [ESP8266 ESP-12E OTA WeMos D1 CH340 WiFi](https://dratek.cz/arduino/1457-esp8266-esp-12e-ota-wemos-d1-ch340-wifi.html) Vývojová platforma Espressif založená na ESP-8266EX
 -   [IIC I2C Display LCD 1602 16X2 Znaků LCD](https://dratek.cz/arduino/1570-iic-i2c-display-lcd-1602-16x2-znaku-lcd-modul-modry.html)
--   [Program](https://hodinarium.eu/download/Arduino/Rimske_digi-210919a.zip) (Kdyby si to někdo chtěl snad také vyzkoušet.)
+-   Program (Kdyby si to někdo chtěl snad také vyzkoušet.)
 
 Digitální ukazatel minut na orloji v Benátkách. Číslice se mění v pětiminutovém intervalu.
 

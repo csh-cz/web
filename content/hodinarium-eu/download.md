@@ -26,7 +26,7 @@ scrapedAt: "2026-04-27T17:37:40.635Z"
 **KATALOGY**
 
 -   [Katalog BULLE hodin z r 1925](/download/elektrika/bulle_catalogue_1925.pdf) 6.6 MB
--   Katalog hodin [Trenkle Uhren GmbH](https://hodinarium.eu/download/TrenkleCatalog.pdf) 11 MB
+-   Katalog hodin Trenkle Uhren GmbH 11 MB
     zobrazuje široký sortiment "nových hodin z Černého lesa"
 
 **Zvuky**
@@ -42,4 +42,4 @@ scrapedAt: "2026-04-27T17:37:40.635Z"
 
 **Různé**
 
--   [**Co je čas**](https://hodinarium.eu/download/CoJeCas.pdf). PDF dokument ze serveru [vt-2004.astro.cz](http://vt-2004.astro.cz/)
+-   **Co je čas**. PDF dokument ze serveru [vt-2004.astro.cz](http://vt-2004.astro.cz/)

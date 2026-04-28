@@ -13,7 +13,7 @@ Hodiny, které nejsou primárně určeny pro zobrazování času se označují j
 
 Na rozdíl od zámoří u nás mechanické časové nebyly běžně používány. Není tu výrobce, důvěra ani znalost, že něco takového existuje. Do rukou sběratelů se americké nebo anglické mechanické časové zámky dostanou spíše výjimečně. A je to škoda, jak dokazuje první uvedený odkaz. Je to velmi kvalitní hodinářská práce. Zejména starší výrobky jsou obvykle krásně zdobené.
 
-Prvním člověkem, který postavil a nainstaloval časový zámek na dveře trezoru byl pan James Sargent. Bylo to v roce 1874 a firma [S & G](http://www.sargentandgreenleaf.com/MN-timeDelay.php) dodnes vyrábí mechanické časové zámky a zpožďovače.
+Prvním člověkem, který postavil a nainstaloval časový zámek na dveře trezoru byl pan James Sargent. Bylo to v roce 1874 a firma S & G dodnes vyrábí mechanické časové zámky a zpožďovače.
 
 Na mechanismus časového zámku jsou kladeny vysoké nároky. Zámek musí spolehlivě uzamknou dveře nebo u větších trezorů uzamknout zamykací mechanismus. Musí však zejména po uplynutí nastavené doby umožnit odemknutí. Selhání časového zámku by vedlo k nutnosti násilného otevření trezoru, což by se neobešlo bez velkých škod.
 
@@ -28,9 +28,9 @@ Exponát Hodinária je funkční časový zámek Thomas Fox Mechanical Time Over
 ## Odkazy
 
 -   [Velká sbírka časových zámků](http://www.my-time-machines.net/my_time_lock_collection.htm). (To nevynechejte. Mechanické časové zámky se montovaly do tresorů bohatých lidí. Nezaujmou jen svou technickou invencí, ale i krásou. )
--   [Web výrobce prvního časového zámku](http://www.sargentandgreenleaf.com/MN-timeDelay.php). Škoda, že uvedené návody k použití nelze automaticky přeložit.
+-   Web výrobce prvního časového zámku. Škoda, že uvedené návody k použití nelze automaticky přeložit.
 -   [Web dodavatele našeho exponátu.](http://www.safeandvaultcompany.co.uk/)
--   [Základní popis funkce a použití časových zámků](http://www.jinova.cz/trezor-s-casovym-zamkem).
+-   Základní popis funkce a použití časových zámků.
 -   [Wikipedia](https://en.wikipedia.org/wiki/Time_lock) (anglicky)
 -   [Bank Vault Anathomy](http://web.archive.org/web/20160303223330/https://dl.dropboxusercontent.com/u/74738260/Bank_Vault_Anatomy.pdf).
 -   [TMI Guide to Timelock Movements](http://www.sopl.us/uploads/1/3/0/1/1301029/tmi_guide_to_timelock_2009.pdf).

@@ -11,7 +11,7 @@ scrapedAt: "2026-04-27T17:36:51.467Z"
 
 Konstrukce hracích strojů byly rozmanité. Objevovaly se hodiny s píšťalovým hracím strojem (flétnové hodiny) či s hracím strojem strunovým (cimbálové hodiny). Hrací stroj býval někdy doplněn i pohyblivými figurkami hudebníků či tanečníků.
 
-**N**a nedávné aukci na [www.allegro.pl](http://www.allegro.pl/) se objevil hodinový stroj se zvonkohrou s devíti kovovými zvonky. Polodřevěný stroj pravděpodobně z druhé poloviny 19. století vypadal celkem zachovale. Obdobný vlastní Deutsches Museum Mnichov. Jen hrací stroj je prodloužený s jedenácti kovovými zvonky a je ještě "provázkový". Ttento je již na řetízky. Další podstatné odlišnosti jsme si na fotografiích neobjevili.
+**N**a nedávné aukci na www.allegro.pl se objevil hodinový stroj se zvonkohrou s devíti kovovými zvonky. Polodřevěný stroj pravděpodobně z druhé poloviny 19. století vypadal celkem zachovale. Obdobný vlastní Deutsches Museum Mnichov. Jen hrací stroj je prodloužený s jedenácti kovovými zvonky a je ještě "provázkový". Ttento je již na řetízky. Další podstatné odlišnosti jsme si na fotografiích neobjevili.
 
 Polská aukce byla nějak předčasně ukončena na ceně 8 405.- kč, což patrně neodpovídá kráse tohoto stroje. Zůstaly jen fotografie z aukce o které se nyní podělíme. Mlsejte s námi.
 

@@ -11,7 +11,7 @@ Na této stránce vyjadřujeme obdiv k nápadům pana Rick Stanley.
 
 ![ultramysteriózní hodiny](/img/mystery/clockincline1.jpg)
 
-**Hodiny na nakloněné rovině**. více na [jeho webu](http://www.usboomers.com/clockincline.htm).
+**Hodiny na nakloněné rovině**. více na jeho webu.
 
 Je moc pěkné se dívat na tyto hodiny. Válec se pomalu kutálí po nakloněné rovině, za půl hodiny urazí dráhu z jednoho konce na druhý. Na konci dráhy spustí přepínač, dráha se překlopí a válec se vydá na půlhodinovou pouť opačným směrem. Při každém cyklu se na počitadle vlevo připočte další hodina.
 
@@ -21,8 +21,8 @@ Tajemství hodin záleží v tom, že jsou použity tajné elektronické hodiny,
 
 **Další nápady:**
 
--   [**www.usboomers.com/clockdom.htm**](http://www.usboomers.com/clockdom.htm) domino hodiny
--   [**www.usboomers.com/clockincline.htm**](http://www.usboomers.com/clockincline.htm) nááááááádhera
--   [**www.usboomers.com/clockgolfer.htm**](http://www.usboomers.com/clockgolfer.htm) prototyp golfových hodin
--   [**www.usboomers.com/clocktrain.htm**](http://www.usboomers.com/clocktrain.htm) místo ručičky vláček
+-   **www.usboomers.com/clockdom.htm** domino hodiny
+-   **www.usboomers.com/clockincline.htm** nááááááádhera
+-   **www.usboomers.com/clockgolfer.htm** prototyp golfových hodin
+-   **www.usboomers.com/clocktrain.htm** místo ručičky vláček
 -   [**www.usboomers.com/clockothers.htm**](http://web.archive.org/web/20170117010318/http://www.usboomers.com:80/clockothers.htm) a další.
