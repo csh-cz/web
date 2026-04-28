@@ -1,9 +1,5 @@
 ---
 import Base from '../layouts/Base.astro';
-import { getCollection } from 'astro:content';
-
-const all = await getCollection('clanky');
-const sponsorClanek = all.find((e) => e.id === 'sponsor');
 ---
 <Base title="Sponzoring" description="Podpořte Český spolek horologický — provoz expozice Hodinária Děčín, restaurování věžních strojů a online popularizaci hodinařiny.">
   <header class="sponz-header">
@@ -147,21 +143,16 @@ const sponsorClanek = all.find((e) => e.id === 'sponsor');
     </div>
   </section>
 
-  <!-- ── SOUČASNÍ SPONZOŘI ── -->
-  {sponsorClanek && (
-    <section class="sponz-section">
-      <h2>Současní sponzoři a partneři</h2>
-      <p>
-        Děkujeme všem, kteří už spolku pomáhají. Aktuální seznam sponzorů
-        a partnerů je v samostatném článku.
-      </p>
-      <p class="cta-line">
-        <a href={`/clanky/${sponsorClanek.id}`} class="cta-link">
-          Zobrazit seznam sponzorů →
-        </a>
-      </p>
-    </section>
-  )}
+  <!-- ── DOSAVADNÍ DÁRCI ── -->
+  <section class="sponz-section">
+    <h2>Dosavadní dárci</h2>
+    <p>
+      V minulosti jako dárci vystupovaly různé organizace i soukromé osoby.
+      Namátkově: <strong>Magistrát hl. m. Prahy</strong>, <strong>Metrostav&nbsp;a.&nbsp;s.</strong>,
+      <strong>Potrubí Praha&nbsp;a.&nbsp;s.</strong> a další soukromí dárci.
+      Děkujeme všem, kteří se na podpoře spolku podíleli.
+    </p>
+  </section>
 
   <!-- ── PRŮHLEDNOST ── -->
   <section class="sponz-section">
