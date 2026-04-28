@@ -2,23 +2,24 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  /* Spolek = formálnější, klidnější paleta — chladnější brass, méně copper.
-     Decentní, dokumentová, ne expoziční. */
-  --color-bg: #14110c;
-  --color-bg-elevated: #1e1a14;
-  --color-bg-deep: #0a0807;
-  --color-paper: #efe8d4;
+  /* Spolek = formálnější, klidnější paleta. Light-first (inverze
+     Hodinária) — pergamenové pozadí, tmavá brass typografie. Dark mode
+     existuje jako opt-in přes prefers-color-scheme: dark níže. */
+  --color-bg: #f3ebd5;
+  --color-bg-elevated: #fdf6e3;
+  --color-bg-deep: #d8c8a8;
+  --color-paper: #fffbf2;
 
-  /* Stříbrolento + tlumený brass (klidné, formální) */
-  --color-brass: #a89060;
-  --color-brass-bright: #c8a877;
-  --color-copper: #8b6d3a;
-  --color-verdigris: #5a8b7a;
+  /* Tlumený dark-brass (klidné, formální, čitelné na pergamenu) */
+  --color-brass: #8b6d2e;
+  --color-brass-bright: #6e4d1d;
+  --color-copper: #a85a3c;
+  --color-verdigris: #3d6b5a;
 
-  /* Tělo textu — sytá pergamenová */
-  --color-text: #f0e7d2;
-  --color-text-soft: #cebd9b;
-  --color-text-muted: #968971;
+  /* Tělo textu — tmavá inkoust */
+  --color-text: #2a1f15;
+  --color-text-soft: #4a3a28;
+  --color-text-muted: #6f5f48;
   --color-ink: #1a140a;
 
   --font-serif: "Spectral", "Cardo", Georgia, "Times New Roman", serif;
@@ -28,7 +29,7 @@ html {
   font-family: var(--font-serif);
   background: var(--color-bg);
   color: var(--color-text);
-  color-scheme: dark;
+  color-scheme: light;
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
@@ -159,8 +160,8 @@ summary::-webkit-details-marker { display: none; }
 }
 
 .site-header {
-  border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
-  background: rgba(20, 17, 12, 0.94);
+  border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
+  background: rgba(255, 250, 240, 0.94);
   backdrop-filter: blur(8px);
 }
 
@@ -247,6 +248,31 @@ summary::-webkit-details-marker { display: none; }
   align-items: center;
   justify-content: center;
   letter-spacing: -0.05em;
+}
+
+/* Volitelný dark mode pro uživatele s prefers-color-scheme: dark.
+   Inverze defaultu. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #14110c;
+    --color-bg-elevated: #1e1a14;
+    --color-bg-deep: #0a0807;
+    --color-paper: #efe8d4;
+
+    --color-brass: #a89060;
+    --color-brass-bright: #c8a877;
+    --color-copper: #c8895c;
+    --color-verdigris: #5a8b7a;
+
+    --color-text: #f0e7d2;
+    --color-text-soft: #cebd9b;
+    --color-text-muted: #968971;
+    --color-ink: #1a140a;
+  }
+  html { color-scheme: dark; }
+  .site-header {
+    background: rgba(20, 17, 12, 0.94);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
