@@ -4,7 +4,9 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://hodinarium.eu',
+  // Dočasně pages.dev — ostrá doména hodinarium.eu zatím neběží.
+  // Po DNS switch změnit zpět na 'https://hodinarium.eu'.
+  site: 'https://hodinarium-eu.pages.dev',
   trailingSlash: 'never',
   build: {
     format: 'directory',

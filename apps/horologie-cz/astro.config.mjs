@@ -4,7 +4,9 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://horologie.cz',
+  // Dočasně pages.dev — ostrá doména horologie.cz zatím neběží.
+  // Po DNS switch změnit zpět na 'https://horologie.cz'.
+  site: 'https://horologie-cz.pages.dev',
   trailingSlash: 'never',
   build: {
     format: 'directory',

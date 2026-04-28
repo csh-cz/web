@@ -62,29 +62,57 @@ export const akce: Akce[] = [
   {
     slug: 'rostock-2022',
     rok: 2022,
-    datum: '27.—29. října 2022',
-    nazev: 'Symposium 550 let astronomického orloje v Rostocku',
-    misto: 'Rostock (Mariánský kostel), Německo',
+    datum: '28.—30. října 2022',
+    nazev: 'VII. Symposium „Mittelalterliche astronomische Großuhren" — 550 let orloje v Rostocku',
+    misto: 'Rostock (St.-Marien-Kirche), Německo',
     lat: 54.0901, lon: 12.1410,
     popis:
-      'Mezinárodní symposium k 550. výročí rostockého astronomického orloje. '
-      + 'Spolek zastupovali David Knespl, Miroslav Baudisch, Petr Skála '
-      + 'a Radim Himmler.',
+      'Mezinárodní symposium k 550. výročí astronomického orloje v rostockém '
+      + 'Mariánském kostele. Český spolek horologický zde zastupovali David '
+      + 'Knespl, Miroslav Baudisch, Petr Skála a Radim Himmler.',
     detail:
       '<p>Konec října 2022 hostilo německé hanzovní město <strong>Rostock</strong> '
-      + 'mezinárodní symposium k <strong>550. výročí astronomického orloje</strong> '
-      + 'v Mariánském kostele (Marienkirche). Stroj z roku 1472 je považován za '
-      + '<strong>nejstarší orloj s dochovaným funkčním středověkým strojem</strong>.</p>'
-      + '<p>Experti diskutovali nové vědecké poznatky o díle a o jeho restaurování. '
-      + 'Příspěvky vyšly v <em>Tagungsbandu „550 Jahre astronomische Uhr Rostock"</em>.</p>'
-      + '<p>Český spolek horologický zastupovali <strong>David Knespl</strong>, '
-      + '<strong>Miroslav Baudisch</strong>, <strong>Petr Skála</strong> a '
-      + '<strong>Radim Himmler</strong>.</p>'
+      + '<strong>VII. Internationales Symposium „Mittelalterliche astronomische '
+      + 'Großuhren"</strong>, věnované 550. výročí astronomického orloje '
+      + 'v <strong>St.-Marien-Kirche</strong>. Stroj z roku 1472 je považován '
+      + 'za <strong>nejstarší orloj s dochovaným funkčním středověkým strojem</strong>.</p>'
+      + '<p>Symposium organizoval spolek <em>Astronomische Uhr Rostock von 1472 e.V.</em> '
+      + 'pod záštitou zemské vlády Meklenbursko-Předního Pomořanska, '
+      + 'evangelicko-luteránské obce, města Rostocku a Univerzity v Rostocku.</p>'
+      + '<h2>Český příspěvek</h2>'
+      + '<p>V sobotu <strong>29. 10. v 11:00</strong> přednesl <strong>David '
+      + 'Knespl</strong> v zastoupení <strong>Petra Skály</strong> referát '
+      + '„<em>Die Prager Astronomische Uhr und ihre Restaurierung im Jahr 2018</em>" '
+      + '— o Pražském orloji a jeho restaurování v roce 2018.</p>'
+      + '<h2>Vybraní řečníci a témata</h2>'
+      + '<ul>'
+      + '<li><strong>Pá 28. 10.</strong> — Prof. Manfred Schukowski (Rostock) '
+      + 'vedl prohlídku rostockého orloje a představil novou knihu „Versteckt — '
+      + 'Entdeckt"; Julian Landgraf (Univerzita Rostock) — digitální vizualizace '
+      + 'hlavního a apoštolského soukolí; Tilo Schöfbeck — dendrochronologie; '
+      + 'Sabine Bock a Fedor Mitschke — UNESCO World Heritage potenciál orloje.</li>'
+      + '<li><strong>So 29. 10.</strong> — Günther Oestmann (Brémy): štrasburský '
+      + 'orloj; Jürgen Hamel (Archenhold-Sternwarte Berlín): orloj ve Stralsundu; '
+      + 'Marita Schlüter / Viktoria Weinebeck: konzervace münsterského orloje '
+      + '2017–2021; Markus Marti: bernský Zytglogge; Petr Skála (přednesl D. Knespl): '
+      + 'Pražský orloj; Andrzej Januszajtis (Gdaňsk): orloj v gdaňské Marii.</li>'
+      + '<li><strong>Veřejné odpoledne v aule univerzity</strong> — pozdrav '
+      + 'premiérky M.-V. Manuely Schwesig a rektora univerzity prof. Wolfganga '
+      + 'Scharecka; přednášky Marc von der Höh, Jörg Haspel, Michael Schmidt '
+      + 'a Gerhard Dohrn-van Rossum.</li>'
+      + '<li><strong>Ne 30. 10.</strong> — slavnostní bohoslužba „Uhrengottesdienst" '
+      + 'v Marienkirche, demonstrace nátahu orloje a přechodu z letního na zimní '
+      + 'čas, závěrečný apoštolský průvod a zvonkohra.</li>'
+      + '</ul>'
+      + '<p>Příspěvky vyšly v <em>Tagungsbandu „550 Jahre astronomische Uhr '
+      + 'Rostock"</em> (Thomas Helms Verlag, Schwerin). '
+      + 'Kompletní program a další materiály na '
+      + '<a href="http://www.astronomischeuhr.de/files/symposium22.htm" '
+      + 'target="_blank" rel="noopener">astronomischeuhr.de</a>.</p>'
+      + '<h2>Navázaná spolupráce</h2>'
       + '<p>Při symposiu bylo navázáno plodné přátelství s <strong>Deutsche '
       + 'Gesellschaft für Chronometrie</strong> '
-      + '(<a href="https://www.dg-chrono.de" target="_blank" rel="noopener">dg-chrono.de</a>).</p>'
-      + '<p><em>Pokud máte přesnější popisky k jednotlivým fotografiím a další '
-      + 'podrobnosti k programu, ozvěte se, rád to doplním.</em></p>',
+      + '(<a href="https://www.dg-chrono.de" target="_blank" rel="noopener">dg-chrono.de</a>).</p>',
     fotky: [
       'hero.jpg',
       '01-rano.jpg',

@@ -1,0 +1,305 @@
+---
+import Base from '../layouts/Base.astro';
+import { spolky, kontakty, zemeLabel, smerLabel, type Spolek, type KontaktUdalost } from '../data/spolky';
+
+// Group spolky by country for the directory
+const order: Spolek['zeme'][] = ['CZ', 'DE', 'AT', 'CH', 'GB', 'FR', 'PL', 'SK', 'IT', 'NL', 'BE', 'US'];
+const groupedByZeme = new Map<Spolek['zeme'], Spolek[]>();
+for (const z of order) groupedByZeme.set(z, []);
+for (const s of spolky) {
+  if (!groupedByZeme.has(s.zeme)) groupedByZeme.set(s.zeme, []);
+  groupedByZeme.get(s.zeme)!.push(s);
+}
+for (const [k, v] of groupedByZeme) {
+  v.sort((a, b) => a.jmeno.localeCompare(b.jmeno, 'cs'));
+  if (v.length === 0) groupedByZeme.delete(k);
+}
+
+const partneri = spolky.filter((s) => s.spoluprace);
+
+// Sort kontakty by date (newest first)
+const kontaktyDesc = [...kontakty].sort((a, b) => b.datum.localeCompare(a.datum));
+---
+<Base
+  title="Horologické spolky ve světě a kontakty"
+  description="Adresář horologických spolků a muzeí, se kterými udržujeme kontakt. Záznam vzájemných návštěv, společných akcí a partnerských výprav."
+>
+  <header class="spolky-header">
+    <p class="eyebrow mb-4">Mezinárodní spolupráce</p>
+    <h1>Horologické spolky ve světě a kontakty</h1>
+    <p class="lede">
+      Hodinářství je úzká celosvětová komunita. Český spolek horologický se
+      účastní mezinárodních symposií, navštěvuje sbírky v zahraničí a sám hostí
+      kolegy ze zahraničí. Tato stránka shrnuje, <strong>s kým udržujeme
+      kontakty</strong>, a zaznamenává <strong>jednotlivé společné akce</strong>.
+    </p>
+  </header>
+
+  <!-- ═══ ZÁZNAM VZÁJEMNÝCH KONTAKTŮ ═══ -->
+  <section class="spolky-section">
+    <h2>Záznam vzájemných kontaktů</h2>
+    <p class="section-intro">
+      Chronologický přehled — kdy jsme byli u nich, kdy oni u nás, kdy jsme
+      pořádali společnou akci.
+    </p>
+    <ol class="kontakty-list">
+      {kontaktyDesc.map((k) => (
+        <li class={`kontakt-row kontakt-${k.smer}`}>
+          <div class="kontakt-meta">
+            <time datetime={k.datum.split(' — ')[0]}>{k.datum}</time>
+            <span class={`kontakt-smer kontakt-smer-${k.smer}`}>{smerLabel[k.smer]}</span>
+          </div>
+          <div class="kontakt-body">
+            <h3>{k.partner}</h3>
+            <p>{k.popis}</p>
+            {k.akceSlug && (
+              <p class="kontakt-link">
+                <a href={`/akce/${k.akceSlug}`}>Detail akce →</a>
+              </p>
+            )}
+          </div>
+        </li>
+      ))}
+    </ol>
+    <p class="section-note">
+      Záznam dosud není kompletní — naše tradice mezinárodní spolupráce
+      pokračuje od roku 2009 a starší akce postupně dohledáváme. Pokud
+      pamatujete na společnou akci nebo návštěvu, která zde chybí, ozvěte se na
+      <a href="mailto:info@orloj.eu">info@orloj.eu</a>.
+    </p>
+  </section>
+
+  {partneri.length > 0 && (
+    <section class="spolky-section">
+      <h2>Aktivní partneři</h2>
+      <p class="section-intro">
+        Organizace, se kterými udržujeme dlouhodobou spolupráci.
+      </p>
+      <div class="spolky-grid">
+        {partneri.map((s) => (
+          <article class="spolek-card spolek-card-partner">
+            <header>
+              <span class="spolek-zeme">{zemeLabel[s.zeme]}</span>
+              <h3>{s.jmeno}</h3>
+            </header>
+            <p class="spolek-popis">{s.popis}</p>
+            <footer class="spolek-links">
+              {s.web && <a href={s.web} target="_blank" rel="noopener">Web&nbsp;↗</a>}
+            </footer>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="spolky-section">
+    <h2>Adresář spolků a muzeí podle zemí</h2>
+    <p class="section-intro">
+      Spolky a muzea, na které odkazujeme nebo se kterými jsme v různé míře
+      v kontaktu.
+    </p>
+    {[...groupedByZeme.entries()].map(([zeme, list]) => (
+      <div class="spolky-zeme-group">
+        <h3 class="spolky-zeme-h">{zemeLabel[zeme]} ({list.length})</h3>
+        <div class="spolky-grid">
+          {list.map((s) => (
+            <article class={`spolek-card${s.spoluprace ? ' spolek-card-partner' : ''}`}>
+              <header>
+                <h3>{s.jmeno}</h3>
+              </header>
+              <p class="spolek-popis">{s.popis}</p>
+              <footer class="spolek-links">
+                {s.web && <a href={s.web} target="_blank" rel="noopener">Web&nbsp;↗</a>}
+              </footer>
+            </article>
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+</Base>
+
+<style>
+  .spolky-header { max-width: 720px; margin-bottom: 3rem; }
+  .spolky-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1.25rem;
+    line-height: 1.1;
+  }
+  .lede { font-size: 1.15rem; line-height: 1.6; color: var(--color-text); }
+
+  .spolky-section { margin-bottom: 3rem; }
+  .spolky-section > h2 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .section-intro {
+    font-size: 0.95rem;
+    color: var(--color-text-soft);
+    margin: 0.75rem 0 1.5rem;
+    font-style: italic;
+  }
+  .section-note {
+    margin-top: 2rem;
+    padding: 1rem 1.25rem;
+    background: color-mix(in srgb, var(--color-bg-deep) 85%, var(--color-copper));
+    border-left: 3px solid var(--color-copper);
+    border-radius: 2px;
+    font-size: 0.92rem;
+    color: var(--color-text-soft);
+  }
+
+  /* === Kontakty timeline === */
+  .kontakty-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .kontakt-row {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 1.5rem;
+    padding: 1.25rem 1.5rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-left: 3px solid var(--color-copper);
+    border-radius: 2px;
+  }
+  @media (max-width: 600px) {
+    .kontakt-row { grid-template-columns: 1fr; gap: 0.5rem; }
+  }
+  .kontakt-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .kontakt-meta time {
+    font-size: 0.85rem;
+    color: var(--color-text);
+    font-feature-settings: "lnum";
+    font-variant-numeric: tabular-nums;
+  }
+  .kontakt-smer {
+    display: inline-block;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    padding: 0.2rem 0.55rem;
+    border-radius: 2px;
+    width: fit-content;
+    font-weight: 500;
+  }
+  .kontakt-smer-k-nim {
+    color: var(--color-copper);
+    background: color-mix(in srgb, var(--color-copper) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-copper) 30%, transparent);
+  }
+  .kontakt-smer-k-nam {
+    color: var(--color-brass-bright);
+    background: color-mix(in srgb, var(--color-brass) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+  }
+  .kontakt-smer-spolecne {
+    color: var(--color-text);
+    background: color-mix(in srgb, var(--color-text-soft) 8%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-text-soft) 25%, transparent);
+  }
+  .kontakt-body h3 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.15rem;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.5rem;
+    line-height: 1.3;
+  }
+  .kontakt-body p {
+    margin: 0 0 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--color-text);
+  }
+  .kontakt-link a {
+    font-size: 0.85rem;
+    color: var(--color-brass-bright);
+    border-bottom: none;
+  }
+
+  /* === Adresář === */
+  .spolky-zeme-group { margin: 2rem 0 1rem; }
+  .spolky-zeme-h {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--color-brass);
+    margin: 1.5rem 0 1rem;
+  }
+  .spolky-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.25rem;
+  }
+  .spolek-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    padding: 1.25rem 1.4rem 1.1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  }
+  .spolek-card-partner {
+    border-color: var(--color-copper);
+    background: linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--color-bg-elevated) 92%, var(--color-copper)),
+      var(--color-bg-elevated)
+    );
+  }
+  .spolek-card header { margin-bottom: 0.6rem; }
+  .spolek-zeme {
+    display: inline-block;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--color-copper);
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+  }
+  .spolek-card h3 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.15rem;
+    color: var(--color-brass-bright);
+    margin: 0;
+    line-height: 1.25;
+  }
+  .spolek-popis {
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--color-text-soft);
+    margin: 0 0 0.85rem;
+    flex: 1;
+  }
+  .spolek-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.85rem;
+  }
+  .spolek-links a {
+    color: var(--color-brass-bright);
+    border-bottom: none;
+  }
+  .spolek-links a:hover { color: var(--color-paper); }
+</style>

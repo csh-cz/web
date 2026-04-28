@@ -13,7 +13,9 @@ interface Props {
 const { title, description, ogSlug, ogImageOverride } = Astro.props;
 const fullTitle = title === "Hodinárium" ? title : `${title} — Hodinárium`;
 const desc = description ?? "Český spolek horologický — sbírka, expozice, projekty.";
-const site = Astro.site ?? new URL("https://hodinarium.eu");
+// Dočasně canonical na pages.dev — ostrá doména hodinarium.eu zatím neběží
+// (po DNS switch změnit zpět na "https://hodinarium.eu" a aktualizovat astro.config).
+const site = Astro.site ?? new URL("https://hodinarium-eu.pages.dev");
 const canonical = new URL(Astro.url.pathname, site).toString();
 
 // Mapa URL → OG slug. Když volající nepředá ogSlug, odvodíme z pathname.

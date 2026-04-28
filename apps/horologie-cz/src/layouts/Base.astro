@@ -10,7 +10,9 @@ interface Props {
 const { title, description, ogSlug } = Astro.props;
 const fullTitle = title === "Český spolek horologický" ? title : `${title} — Český spolek horologický`;
 const desc = description ?? "Český spolek horologický z. s. — sdružení obdivovatelů hodin, restaurátorů a tvůrců.";
-const site = Astro.site ?? new URL("https://horologie.cz");
+// Dočasně canonical na pages.dev — ostrá doména horologie.cz zatím neběží
+// (po DNS switch změnit zpět a aktualizovat astro.config).
+const site = Astro.site ?? new URL("https://horologie-cz.pages.dev");
 const canonical = new URL(Astro.url.pathname, site).toString();
 
 function ogSlugFromPath(path: string): string {
@@ -74,6 +76,7 @@ const ogImage = new URL(`/og/${slug}.png`, site).toString();
           <li><a href="/akce" style="border-bottom: none;">Akce</a></li>
           <li><a href="/prispevky" style="border-bottom: none;">Příspěvky</a></li>
           <li><a href="/dokumenty" style="border-bottom: none;">Dokumenty</a></li>
+          <li><a href="/spolky" style="border-bottom: none;">Spolky</a></li>
           <li><a href="/sponzoring" style="border-bottom: none;">Podpora</a></li>
           <li><a href="/kontakt" style="border-bottom: none;">Kontakt</a></li>
           <li>
@@ -102,6 +105,7 @@ const ogImage = new URL(`/og/${slug}.png`, site).toString();
             <li><a href="/akce" style="border-bottom: none;">Akce spolku</a></li>
             <li><a href="/prispevky" style="border-bottom: none;">Příspěvky na schůzích</a></li>
             <li><a href="/dokumenty" style="border-bottom: none;">Dokumenty</a></li>
+            <li><a href="/spolky" style="border-bottom: none;">Horologické spolky</a></li>
             <li><a href="/sponzoring" style="border-bottom: none;">Podpora</a></li>
             <li><a href="/kontakt" style="border-bottom: none;">Kontakt</a></li>
             <li><a href={SISTER_HODINARIUM} target="_blank" rel="noopener" style="border-bottom: none;">Hodinárium&nbsp;↗</a></li>
