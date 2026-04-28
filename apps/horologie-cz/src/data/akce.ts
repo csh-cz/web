@@ -58,7 +58,40 @@ export const akce: Akce[] = [
     status: 'planovana',
   },
 
-  // ─── MINULÉ — ŠABLONY K DOPLNĚNÍ ───
+  // ─── MINULÉ ───
+  {
+    slug: 'protivin-2022',
+    rok: 2022,
+    datum: '19.—20. srpna 2022',
+    nazev: 'Spolková výprava do Protivína',
+    misto: 'Protivín, jižní Čechy',
+    lat: 49.2024, lon: 14.2099,
+    popis:
+      'Dvoudenní spolková výprava do jihočeského Protivína — prohlídka místních '
+      + 'věžních hodin, hodinářských sbírek a setkání u příležitosti spolkové činnosti.',
+    detail:
+      '<p>Členové Českého spolku horologického strávili dva srpnové dny '
+      + 'v Protivíně. Náplní byla prohlídka věžního stroje na místním kostele, '
+      + 'návštěva soukromých sbírek a neformální setkání členů. Akce navázala '
+      + 'na dlouholetou tradici spolkových výprav po regionálních hodinářských '
+      + 'památkách jižních Čech.</p>'
+      + '<p><em>Pokud máte vlastní fotografie nebo vzpomínky na akci, '
+      + 'ozvěte se nám — rádi popisky a podrobnosti doplníme.</em></p>',
+    fotky: [
+      '01-veznicka.jpg',
+      '02-stroj-detail.jpg',
+      '03-sbirka.jpg',
+      '04-cinnost.jpg',
+      '05-prohlidka.jpg',
+      '06-odpoledne.jpg',
+      '07-vecer.jpg',
+      '08-druhy-den.jpg',
+      '09-zaver.jpg',
+      '10-detail.jpg',
+    ],
+    status: 'minula',
+    typ: 'akce',
+  },
   {
     slug: 'sezona-2025',
     rok: 2025,
