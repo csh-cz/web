@@ -56,4 +56,7 @@ zdroje/
 # macOS Finder aliases / drag-drop omylem
 fo:Users:*
 *Downloads:*
-.claude/
+# Claude Code local config — personal/devbox-only, not shared
+.claude/*
+# Skills jsou sdílená pravidla pro celý tým, tracked v repu
+!.claude/skills/
