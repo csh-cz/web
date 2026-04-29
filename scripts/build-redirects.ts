@@ -48,8 +48,11 @@ function newHref(slug: string, catalog: CatalogEntry[], kronikaSlugs: Set<string
 const SPECIAL: Record<string, string> = {
   '/index.htm': '/',
   '/mapa.htm': '/atlas',
-  '/spolek.htm': '/spolek',
-  '/kontakt.htm': '/spolek#kontakt',
+  // Spolková identita patří na sister site horologie-cz, ne do hodinarium-eu
+  // (M5 cleanup — /spolek/ stránka v hodinarium-eu byla redundantní orphan).
+  '/spolek.htm': 'https://horologie-cz.pages.dev/',
+  '/kontakt.htm': 'https://horologie-cz.pages.dev/kontakt',
+  '/spolek': 'https://horologie-cz.pages.dev/',
   '/hledej.htm': '/atlas',
   '/novinky.htm': '/',
   '/decin_zamek.htm': '/expozice',
