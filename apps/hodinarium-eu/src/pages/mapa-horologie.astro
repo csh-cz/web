@@ -303,6 +303,15 @@ const matchedCount = Object.keys(linkMap).length;
     font-size: 0.85rem;
     border-bottom: 1px dotted color-mix(in srgb, var(--color-brass) 50%, transparent);
   }
+  :global(.leaflet-popup-content h4 a) {
+    color: var(--color-brass-bright);
+    border-bottom: 1px dotted color-mix(in srgb, var(--color-brass) 40%, transparent);
+    text-decoration: none;
+  }
+  :global(.leaflet-popup-content .popup-ext) {
+    font-size: 0.85em;
+    color: var(--color-copper);
+  }
   :global(.leaflet-control-attribution) {
     background: rgba(20, 16, 12, 0.7) !important;
     color: var(--color-text-muted) !important;
@@ -341,6 +350,11 @@ const matchedCount = Object.keys(linkMap).length;
   // Map of folder → array of leaflet markers (pro filter toggle)
   const markersByFolder = new Map();
 
+  // Regex pro extrakci URL z plain textu (filtr na ne-image hosts — googleusercontent
+  // jsou Mapsy thumbnaily inside <img>, ty ignoruj jako "external link")
+  const urlExtractRe = /https?:\/\/[^\s<>"]+/i;
+  const isExternalUrl = (u) => u && !u.includes('googleusercontent.com');
+
   for (const p of items) {
     const color = folderColors[p.folder] || 'soft';
     const icon = L.divIcon({
@@ -348,18 +362,44 @@ const matchedCount = Object.keys(linkMap).length;
       html: '',
       iconSize: [12, 12],
     });
-    const link = linkMap[p.name];
-    let html = `<p class="popup-folder">${p.folder}</p><h4>${p.name}</h4>`;
+
+    // Cleanup descriptionHtml + extract first non-image URL jako "external link"
+    let safeHtml = '';
+    let externalUrl = null;
     if (p.descriptionHtml && p.descriptionHtml.trim().length > 0) {
-      // Sanitize basic — povolíme jen img, br, a, p, strong, em
-      const safe = p.descriptionHtml
+      let cleaned = p.descriptionHtml
         .replace(/<script[\s\S]*?<\/script>/gi, '')
         .replace(/<style[\s\S]*?<\/style>/gi, '')
         .replace(/on\w+="[^"]*"/gi, '');
-      html += `<div class="popup-desc">${safe}</div>`;
+      // Odstraň plain-text URL z popisu (extract pro h4 hyperlink), ale jen
+      // ne-image hosts (googleusercontent zůstává v <img src=…>)
+      const m = cleaned.match(urlExtractRe);
+      if (m && isExternalUrl(m[0])) {
+        externalUrl = m[0];
+        // Strip URL ze HTML; trailing <br><br> taky pryč
+        cleaned = cleaned.replace(urlExtractRe, '').replace(/(<br\s*\/?>\s*){1,}\s*$/i, '').trim();
+      }
+      safeHtml = cleaned;
     }
-    if (link) {
-      html += `<a class="popup-link" href="${link}">Otevřít detail v Hodináriu →</a>`;
+
+    // Priorita pro hyperlink na name: interní cross-link > externí URL > nic
+    const internalLink = linkMap[p.name];
+    let nameHtml;
+    if (internalLink) {
+      nameHtml = `<a href="${internalLink}">${p.name}</a>`;
+    } else if (externalUrl) {
+      nameHtml = `<a href="${externalUrl}" target="_blank" rel="noopener">${p.name} <span class="popup-ext">↗</span></a>`;
+    } else {
+      nameHtml = p.name;
+    }
+
+    let html = `<p class="popup-folder">${p.folder}</p><h4>${nameHtml}</h4>`;
+    if (safeHtml.length > 0) {
+      html += `<div class="popup-desc">${safeHtml}</div>`;
+    }
+    // Pokud máme interní link AND externí URL existuje, ukážeme ji jako sekundární
+    if (internalLink && externalUrl) {
+      html += `<a class="popup-link" href="${externalUrl}" target="_blank" rel="noopener">Externí web ↗</a>`;
     }
 
     const marker = L.marker([p.coords.lat, p.coords.lng], { icon, title: p.name })
