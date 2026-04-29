@@ -17,7 +17,7 @@ const { Content } = await render(entry);
 <Article
   title={entry.data.title}
   originalUrl={entry.data.originalUrl}
-  lastModified={entry.data.lastModified}
+  lastModified={entry.data.lastModified ?? undefined}
   tldr={entry.data.tldr}
   category={entry.data.category}
   slug={entry.data.slug}
