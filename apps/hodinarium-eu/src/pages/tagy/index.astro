@@ -1,0 +1,154 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import tagsWhitelist from '../../data/tags.json';
+
+interface TagsWhitelist {
+  _meta?: unknown;
+  [dimenze: string]: string[] | unknown;
+}
+
+// Spočítat počet článků per tag z živého obsahu (= jen tagy reálně použité).
+const all = await getCollection('clanky');
+const tagCounts: Record<string, number> = {};
+for (const e of all) {
+  for (const t of e.data.tags ?? []) {
+    tagCounts[t] = (tagCounts[t] ?? 0) + 1;
+  }
+}
+
+// Whitelist seskupený do dimenzí (typ, pohon, regulator, …) z tags.json.
+// Renderujeme všechny dimenze; v každé jen tagy s ≥ 1 článkem (žluté
+// rozlišení použitých vs. nepoužitých by jen mátlo na úvodní stránce).
+const dimenzeOrder = [
+  'typ', 'pohon', 'regulator', 'obdobi', 'stav',
+  'lokace', 'kontext', 'vyrobce',
+];
+const dimenzeLabels: Record<string, string> = {
+  typ: 'Typ hodin',
+  pohon: 'Pohon',
+  regulator: 'Regulátor',
+  obdobi: 'Období',
+  stav: 'Stav',
+  lokace: 'Lokace',
+  kontext: 'Kontext',
+  vyrobce: 'Výrobce',
+};
+
+const wl = tagsWhitelist as TagsWhitelist;
+const dimenze = dimenzeOrder
+  .map((dim) => {
+    const tags = (wl[dim] as string[] | undefined) ?? [];
+    const used = tags
+      .map((t) => ({ tag: t, count: tagCounts[t] ?? 0 }))
+      .filter((x) => x.count > 0)
+      .sort((a, b) => b.count - a.count);
+    return { dim, label: dimenzeLabels[dim] ?? dim, tags: used };
+  })
+  .filter((d) => d.tags.length > 0);
+
+const totalUsed = Object.keys(tagCounts).length;
+const totalArticles = all.length;
+const taggedArticles = all.filter((e) => (e.data.tags ?? []).length > 0).length;
+---
+<Base
+  title="Tagy"
+  description={`Filtr článků podle ${totalUsed} tagů v 8 dimenzích — typ hodin, pohon, regulátor, období, stav, lokace, kontext, výrobce.`}
+>
+  <header class="tagy-header">
+    <p class="eyebrow mb-3">Tagy</p>
+    <h1 class="tagy-title">Filtr podle vlastností</h1>
+    <p class="tagy-lede">
+      Tagy systematicky klasifikují články do {dimenze.length} dimenzí
+      (typ, pohon, regulátor, období, stav, lokace, kontext, výrobce).
+      Aktuálně je v živém obsahu použito <strong>{totalUsed} tagů</strong> na
+      <strong>{taggedArticles} z {totalArticles}</strong> článků.
+    </p>
+  </header>
+
+  {dimenze.map(({ dim, label, tags }) => (
+    <section class="tagy-dimenze" id={`dim-${dim}`}>
+      <h2 class="tagy-dim-h">{label}</h2>
+      <ul class="tagy-list">
+        {tags.map(({ tag, count }) => (
+          <li>
+            <a href={`/tagy/${tag}`} class="tag-chip">
+              <span class="tag-name">{tag}</span>
+              <span class="tag-count">{count}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>
+
+<style>
+  .tagy-header {
+    margin-bottom: 3rem;
+  }
+  .tagy-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    line-height: 1.1;
+  }
+  .tagy-lede {
+    font-size: 1.05rem;
+    color: var(--color-text);
+    line-height: 1.6;
+    max-width: 72ch;
+  }
+
+  .tagy-dimenze {
+    margin: 2.5rem 0;
+  }
+  .tagy-dim-h {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    border: none;
+    padding: 0;
+  }
+  .tagy-dim-h::before { content: none; }
+
+  .tagy-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.6rem;
+  }
+
+  .tag-chip {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0.35rem 0.75rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    color: var(--color-text);
+    transition: border-color 150ms ease, background 150ms ease;
+  }
+  .tag-chip:hover {
+    border-color: var(--color-brass);
+    background: var(--color-bg);
+  }
+  .tag-name {
+    color: var(--color-brass-bright);
+    font-feature-settings: "lnum";
+  }
+  .tag-count {
+    color: var(--color-text-muted);
+    font-size: 0.82rem;
+    font-feature-settings: "lnum";
+  }
+</style>

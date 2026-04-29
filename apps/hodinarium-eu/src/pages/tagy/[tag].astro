@@ -1,0 +1,154 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import catalog from '../../data/catalog.json';
+import { clanekHref } from '../../data/url-helpers';
+import tagsWhitelist from '../../data/tags.json';
+
+interface CatalogEntry {
+  slug: string;
+  title: string;
+  category: string;
+  thumbnail: string | null;
+  excerpt: string;
+  year: number | null;
+  lastModified: string | null;
+  imageCount: number;
+  wordCount: number;
+}
+interface TagsWhitelist {
+  _meta?: unknown;
+  [dimenze: string]: string[] | unknown;
+}
+
+export async function getStaticPaths() {
+  const all = await getCollection('clanky');
+  // Sesbírej VŠECHNY použité tagy z živého obsahu (= articles tagged).
+  // Tagy ve whitelistu, které žádný článek nemá, se filter page negeneruje.
+  const used = new Set<string>();
+  for (const e of all) {
+    for (const t of e.data.tags ?? []) used.add(t);
+  }
+  return Array.from(used).map((tag) => ({
+    params: { tag },
+    props: { tag },
+  }));
+}
+
+interface Props { tag: string; }
+const { tag } = Astro.props;
+
+const all = await getCollection('clanky');
+const matching = all.filter((e) => (e.data.tags ?? []).includes(tag));
+const slugs = new Set(matching.map((e) => e.data.slug));
+
+// Použij catalog.json pro thumbnail / excerpt / wordCount, fallback na frontmatter.
+const catEntries = (catalog as CatalogEntry[]).filter((e) => slugs.has(e.slug));
+catEntries.sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
+
+// Najdi dimenzi tagu (typ / pohon / regulator / …) pro breadcrumb context.
+const wl = tagsWhitelist as TagsWhitelist;
+const dim = Object.entries(wl).find(([k, v]) => k !== '_meta' && Array.isArray(v) && (v as string[]).includes(tag))?.[0];
+const dimLabels: Record<string, string> = {
+  typ: 'Typ', pohon: 'Pohon', regulator: 'Regulátor', obdobi: 'Období',
+  stav: 'Stav', lokace: 'Lokace', kontext: 'Kontext', vyrobce: 'Výrobce',
+};
+---
+<Base
+  title={`Tag: ${tag}`}
+  description={`${catEntries.length} článků s tagem "${tag}" v hodinárium-eu.`}
+>
+  <nav class="breadcrumbs" aria-label="Drobečková navigace">
+    <a href="/">Hodinárium</a>
+    <span aria-hidden="true">›</span>
+    <a href="/tagy">Tagy</a>
+    {dim && (
+      <>
+        <span aria-hidden="true">·</span>
+        <span class="bc-dim">{dimLabels[dim] ?? dim}</span>
+      </>
+    )}
+    <span aria-hidden="true">›</span>
+    <span class="current" aria-current="page">{tag}</span>
+  </nav>
+
+  <header class="tag-header">
+    <p class="eyebrow mb-3">Tag</p>
+    <h1 class="tag-title">{tag}</h1>
+    <p class="tag-lede">
+      {catEntries.length} {catEntries.length === 1 ? 'článek' : catEntries.length < 5 ? 'články' : 'článků'}
+      {dim && <> · dimenze <strong>{dimLabels[dim] ?? dim}</strong></>}
+    </p>
+  </header>
+
+  {catEntries.length > 0 ? (
+    <div class="tag-grid">
+      {catEntries.map((e) => (
+        <Card
+          href={clanekHref(e)}
+          title={e.title}
+          excerpt={e.excerpt}
+          thumbnail={e.thumbnail}
+          category={e.category}
+          lastModified={e.lastModified}
+          imageCount={e.imageCount}
+        />
+      ))}
+    </div>
+  ) : (
+    <p class="tag-empty">
+      Žádné články s tímto tagem (možná byl právě smazán nebo neexistuje
+      v aktuálním whitelistu).
+    </p>
+  )}
+</Base>
+
+<style>
+  .breadcrumbs {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .breadcrumbs a { color: var(--color-text-soft); border-bottom: none; }
+  .breadcrumbs a:hover { color: var(--color-brass-bright); }
+  .breadcrumbs .current { color: var(--color-text-soft); font-style: italic; }
+  .breadcrumbs .bc-dim { color: var(--color-copper); font-style: italic; }
+  .breadcrumbs span[aria-hidden] { color: var(--color-brass); opacity: 0.5; }
+
+  .tag-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .tag-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 0.75rem;
+    line-height: 1.1;
+    font-feature-settings: "lnum";
+  }
+  .tag-lede {
+    font-size: 1rem;
+    color: var(--color-text-soft);
+    margin: 0;
+  }
+
+  .tag-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .tag-empty {
+    color: var(--color-text-muted);
+    font-style: italic;
+    margin: 2rem 0;
+  }
+</style>
