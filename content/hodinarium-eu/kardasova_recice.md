@@ -37,10 +37,6 @@ V roce 1822 byla v Jindřichově Hradci zbořena městská brána, zvaná Pražs
 
 * * *
 
-* * *
-
-* * *
-
 [![radnice s hodinami v Kardašově Řečici](/img/KardasovaRecice/f/0001.jpg)](/img/KardasovaRecice/f/foto_0002.jpg)
 
 ## Nová etapa

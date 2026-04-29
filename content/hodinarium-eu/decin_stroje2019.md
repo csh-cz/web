@@ -73,7 +73,3 @@ V Hodináriu se opravený původní stojan dočkal svého stroje 24.6.2019. Kone
 ![Fotografie 5](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0005.jpg)![Fotografie 6](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0006.jpg)
 
 * * *
-
-* * *
-
-* * *

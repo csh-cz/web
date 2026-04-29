@@ -32,7 +32,3 @@ Začátkem června 2020 byl do Hodinária zapůjčen další věžní hodinový 
 Stěhování bylo obtížné. Další informace, až po odpočinku :-)
 
 * * *
-
-* * *
-
-* * *

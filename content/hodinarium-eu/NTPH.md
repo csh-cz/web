@@ -59,8 +59,6 @@ Hodiny jsou vyrobeny 3D tiskem ve dvou variantách a jsou ovládané elektroniko
 
 * * *
 
-* * *
-
 Modul ESP8266 prvotně obsluhuje WiFi komunikaci. Zde ještě obtížněji, protože hodiny fungují jako stanice i jako AP a webserver. Ve volném čase může probíhat vlastní program hodin. Ten je dále přerušován časovačem, tlačítkem nebo požadavky z webu.
 
 * * *
@@ -123,10 +121,6 @@ Tyto informace jsou závislé na verzi hodin a na způsobu získání času. Jak
 -   Od 1.3.2024 se mění způsob připojování. Bylo zavedeno tlačítko WPS pro "automatické párování". Tato funkce představuje určité bezpečnostní riziko. Nemusí být dostupná buď pro absenci či zákazem v routeru nebo jen tím, že k routeru nemáme přístup. Nemusí se ani vždy povést, pokud se v blízkém okolí nachází více AP a hodiny "svůj" AP nestačí najít.
 -   Pozor na routery, které mají společné tlačítko WPS/RST, aby nedošlo k resetování konfigurace.
 -   Od 9.2.2024 není již na hlavní stránce webu volba protokol. Můžete ho však vyvolat zadáním vaše IP/log
-
-* * *
-
-* * *
 
 * * *
 

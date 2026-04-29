@@ -38,6 +38,20 @@ const { Content } = await render(entry);
 <style is:global>
   /* === Inline image layout v článcích — časopisecký float === */
 
+  /* Hero — první obrázek v článku, aplikuje se automaticky (viz JS).
+     Plná šířka článku, výrazný spodní margin, žádný float. Lightbox
+     funguje (cursor zoom-in), klik otevře dialog s vyšším rozlišením. */
+  .prose-content img.img-hero {
+    display: block;
+    float: none !important;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 2.25rem;
+    border-radius: 2px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    cursor: zoom-in;
+  }
+
   /* Manuální override: <img class="img-full"> v markdownu vynutí
      full-width zobrazení (ignoruje JS klasifikaci). */
   .prose-content img.img-full {
@@ -291,11 +305,27 @@ const { Content } = await render(entry);
 
     const sizes = imageSizes;
 
-    // 1. Klasifikuj všechny obrázky podle dat ze JSON indexu.
-    //    Manuální override class="img-full" v markdownu má přednost.
+    // 0. První obrázek v článku → automaticky `img-hero` (jednotný styl
+    //    napříč články). Manuální override (img-hero/img-full/
+    //    img-standalone/img-skip-hero) vyhrává.
     const allImgs = Array.from(article.querySelectorAll('img'));
+    if (allImgs.length > 0) {
+      const first = allImgs[0];
+      const hasManual = ['img-hero', 'img-full', 'img-standalone', 'img-skip-hero']
+        .some((c) => first.classList.contains(c));
+      if (!hasManual) {
+        first.classList.add('img-hero');
+      }
+    }
+
+    // 1. Klasifikuj zbývající obrázky podle dat z JSON indexu.
+    //    Manuální override class (img-hero/img-full/img-standalone) má přednost.
     for (const img of allImgs) {
-      if (img.classList.contains('img-full') || img.classList.contains('img-standalone')) continue;
+      if (
+        img.classList.contains('img-hero') ||
+        img.classList.contains('img-full') ||
+        img.classList.contains('img-standalone')
+      ) continue;
       const src = img.getAttribute('src') || '';
       const dim = sizes[src];
       const klass = dim ? dim.size : 'medium'; // fallback medium pro externí URL
@@ -349,7 +379,7 @@ const { Content } = await render(entry);
     const lbImg = lb.querySelector('img');
     const lbCaption = lb.querySelector('#lightbox-caption');
     const lbImgs = Array.from(article.querySelectorAll(
-      'img.img-large, img.img-tall, img.img-full, img.img-standalone, .article-gallery img'
+      'img.img-large, img.img-tall, img.img-full, img.img-standalone, img.img-hero, .article-gallery img'
     ));
 
     function open(idx) {

@@ -63,8 +63,6 @@ Přesto stroj vypadá velmi podobně.
 
 * * *
 
-* * *
-
 <<<<<<<<
 
 Asi dnes nejběžnější **"škoťáky**, neboli **šotské hodiny".** Stroje uspořádány vedle sebe.

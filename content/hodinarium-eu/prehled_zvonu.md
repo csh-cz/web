@@ -58,8 +58,6 @@ Zdá se, že ani ve století dvacátém nekončí historie soběslavských zvon�
 
 * * *
 
-* * *
-
 ## Cimbály věžních hodin
 
 V lucerně pod horní bání jsou zavěšeny dva cimbály pro odbíjení čtvrtí a celých hodin. Od věžního stroje k nim vedou poměrně dlouhé dráty. Zatím jsme nenalezli žádné písemné prameny určující jejich stáří a historii. Jsme tedy odkázáni pouze na vnější popis a odhady.

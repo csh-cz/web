@@ -20,10 +20,6 @@ Po připojení napětí hodiny zaujmou klidovou polohu (12:00, 4:00 nebo 8:00 ho
 
 * * *
 
-* * *
-
-* * *
-
 ![schema použití NTP v Hodináriu](/img/elektrika/NTP/NTPschema2.jpg)
 
 K hodinám samozřejmě firma Bodet a mnoho jiných nabízí profesionální síťové hlavní hodiny či NTP časové servery. Pro použití v sítích nepřipojených do Internetu jsou tyto servery synchronizovány signálem DCF 77 nebo nyní spíše GPS. Jako obvyklá přesnost nastavení času se uvádí hodnota lepší než +- 0,5 ms. Tato přesnost je vyvážena relativně vyšší cenou. Servery jsou v ceně již od 15.000.- Kč, avšak obvykle je cena mnoho desítek tisíc Kč.
@@ -78,10 +74,6 @@ Podstatné je, že nové NTP servery umí časovou informaci získat z většiny
 První a nejznámější je americký systém NOVASTAR GPS. Tvoří ho 30 družic kroužících na přesně specifikovaných oběžných drahách asi 20 tisíc km nad zemí. Družice jsou vybaveny přijímačem, vysílačem, atomovými hodinami a dalšími přístroji pro navigaci a speciální účely. Každá družice vysílá kódované informace o přesném čase,signál PPS (přesné pulzy jednou za sekundu), informaci o své poloze ve vesmíru a přibližné poloze ostatních družic systému. Pro příjem a zpracování vysílaných signálů byly vyvinuty speciální přijímače. K určení polohy potřebuje přijímač zachytil alespoň 3 až 4 družice. Součástí vysílaného signálu je časová informace ve formátu UTC (Universal Time Coordinated), ke kterému jsou vztaženy časové základny hlavních hodin a časových center. Lokální čas lze zadat přidělením časové zóny s informací o změně letního času. Výhodou tohoto systému je celosvětový dosah a vysoká přesnost časové informace.
 
 Doplňme ještě, že družice Galileo nesou dva druhy hodin: Rubidiové atomové hodiny (Rubidium Atomic clocks) a vodíkové „maserové“ atomové hodiny (Hydrogen Maser /Microwave Amplification by Stimulated Emission of Radiation).
-
-* * *
-
-* * *
 
 * * *
 

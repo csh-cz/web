@@ -69,10 +69,6 @@ Foto: Baudisch, Král, Text: Petr Krá
 
 * * *
 
-* * *
-
-* * *
-
 ![modul s L286N](/img/arduino/modul_L298N.jpg)
 
 ## Nová ochrana kontaktů před jiskřením
@@ -84,9 +80,5 @@ Výhodou je, že modul má i vlastní step-down zdroj 5V. Ten můžete s výhodo
 Výstupy z vačkové logiky A a B vedete na vstupy poloviny každého můstku. Aby nevznikaly při rozpojených kontaktech nejisté stavy, uzemníte tyto vstupy přes odpory 10K. To jsou jedinné doplněné součástky. Pozor, společný bod cívek v hodinách musí být zapojen jen na OUT2 nebo OUT3, aby nedocházelo ke zkratu mezi jednotlivými H můstky. A drát rozvodu linky je na OUT1, B drát na OUT4. Použití tohoto modulu prakticky znemožní jiskření na kontaktech a zvýší tak spolehlivost funkce. Odzkoušeno.
 
 Text a konstrukce: Petr Král
-
-* * *
-
-* * *
 
 * * *

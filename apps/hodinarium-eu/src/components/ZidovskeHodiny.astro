@@ -4,16 +4,22 @@
  * směru hodinových ručiček", větší ručička = minuty, menší = hodiny.
  *
  * Nahrazuje původní iframe na hodinarium.eu/zidovske/zid.php.
- * PHP server-side renderoval rotace; tady je logika v klientu (CSS
- * transform), takže žádný cross-origin iframe.
+ * Logika rotace mirrorovaná z Petrova zid.php (server-side PHP
+ * generoval inline rotate() v CSS):
+ *   - transform-origin = default (50% 50%, střed image)
+ *   - hodinova.gif (33×103) je nakreslena symetricky kolem pivotu,
+ *     position absolute top:167 left:212 v původním 500×362 canvasu →
+ *     pin v (228.5, 218.5) px = (45.7%, 60.36%) canvasu
+ *   - minutova.gif (33×67) stejný pivot, top:185 left:212
+ *   - žádný 180° offset, žádný translateX — Petrovy úhly:
+ *       hodinova = -((h%12)*30 + m*0.5)
+ *       minutova = -(m*6)
+ *
+ * Procentuální pozice + width:6.6% + aspect-ratio dělá ručičky
+ * responzivními bez ztráty správného umístění pinu.
  *
  * Obrázky jsou v /public/img/zidovske/clock/ (původní podklad +
  * dvě GIF ručičky).
- *
- * Ručičky jsou pozicované v procentech canvasu, aby se škálovaly
- * spolu s podkladem na všech šířkách displeje. Transform-origin je
- * top-center ručičky (pin v ose ciferníku), translateX(-50%) ji
- * horizontálně centruje na canvas.
  */
 ---
 <figure class="zidovske-hodiny" aria-label="Živý ciferník Židovské radnice">
@@ -78,31 +84,31 @@
     pointer-events: none;
   }
 
-  /* Ručičky — width v % canvasu, aspect-ratio drží proporci.
-     Transform-origin = top-center → pin v ose ciferníku.
-     JS combine translateX(-50%) + rotate(deg) — translation horizontálně
-     centruje, rotation odjede kolem pinu. */
+  /* Ručičky — pozice mirrorovaná z Petrova zid.php (top/left v px
+     na 500×362 canvasu, převedené na %). Width v % aby ručička
+     scalovala s podkladem. transform-origin DEFAULT (50% 50%) =
+     střed image, jako v Petrově PHP — image je nakreslená symetricky
+     kolem pinu. */
   .zidovske-rucka {
     position: absolute;
-    left: 50%;
     width: 6.6%; /* 33 / 500 */
     height: auto;
     transition: transform 200ms ease-out;
-    transform-origin: 50% 0;
     pointer-events: none;
   }
 
-  /* Hodinová ručička — kratší, kotvená v ose ciferníku.
-     33 × 103 px → aspect-ratio 33/103. Top na úroveň středu ciferníku. */
+  /* Hodinová ručička — kratší (33×103), menší ze dvou (rarita: hod = malá). */
   .zidovske-hodinova {
     aspect-ratio: 33 / 103;
-    top: 46%;
+    top: 46.13%;  /* 167 / 362 */
+    left: 42.4%;  /* 212 / 500 */
   }
 
-  /* Minutová ručička — 33 × 67 px, mírně níž (těsně pod středem). */
+  /* Minutová ručička — větší (33×67), umístění mírně níž. */
   .zidovske-minutova {
     aspect-ratio: 33 / 67;
-    top: 51%;
+    top: 51.10%;  /* 185 / 362 */
+    left: 42.4%;  /* 212 / 500 */
   }
 
   @media (max-width: 540px) {
@@ -117,16 +123,8 @@
    * ručiček, hodinová ručička je MENŠÍ než minutová (zaměnené proti
    * konvenci, viz raritu radničního ciferníku).
    *
-   * Hodinový úhel: -((h % 12) * 30 + m * 0.5) deg
-   * Minutový úhel: -(m * 6) deg
-   *
-   * Záporné = counter-clockwise. CSS transform-origin = top-center
-   * (50% 0%), obrázek je nakreslený "směrem dolů" — proto přidáváme
-   * 180° offset, aby ručička při 12 mířila vzhůru.
-   *
-   * Transform string začíná translateX(-50%) — to centruje ručičku
-   * horizontálně přes left:50% (přesune box doleva o polovinu jeho
-   * vlastní šířky). Bez toho by ručička seděla na pravé straně pinu.
+   * Úhly mirrorované z Petrova zid.php — transform-origin defaultně
+   * uprostřed image, takže žádný offset, jen čistý rotate(deg).
    */
   function tick() {
     const els = {
@@ -143,13 +141,11 @@
     els.time.textContent =
       String(h).padStart(2, '0') + ':' + String(m).padStart(2, '0');
 
-    const hourDeg = 180 - ((h % 12) * 30 + m * 0.5);
-    const minDeg = 180 - m * 6;
+    const hourDeg = -((h % 12) * 30 + m * 0.5);
+    const minDeg = -(m * 6);
 
-    (els.hour as HTMLElement).style.transform =
-      `translateX(-50%) rotate(${hourDeg}deg)`;
-    (els.min as HTMLElement).style.transform =
-      `translateX(-50%) rotate(${minDeg}deg)`;
+    (els.hour as HTMLElement).style.transform = `rotate(${hourDeg}deg)`;
+    (els.min as HTMLElement).style.transform = `rotate(${minDeg}deg)`;
   }
 
   tick();

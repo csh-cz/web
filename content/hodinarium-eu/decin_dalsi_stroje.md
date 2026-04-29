@@ -174,5 +174,3 @@ Snímky zachycují stěhování a přípravu instalace. K hodinám jsou kompletn
 ![Fotografie 11](/img/decin/Kohlert_Kraslice/f/foto_0011.jpg)
 
 * * *
-
-* * *
