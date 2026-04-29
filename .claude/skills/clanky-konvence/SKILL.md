@@ -258,16 +258,72 @@ Pravidlo: **vždy jen jeden** `* * *` mezi sekcemi. Vícenásobné `* * *` po so
 
 Skript `scripts/build-favicon.ts` je příklad; pro hromadný cleanup HRs napříč všemi články použij Python script (frontmatter-aware: ignoruje opening/closing `---` YAML delimiteru).
 
-## 10. Autor v byline
+## 10. Atribuce
 
-`author: "Petr Král"` v frontmatter → byline pod článkem ukáže **„P. Král"** (helper `formatAuthor` v `Article.astro`):
+**Atribuce** = uvedení autorů, citace původního zdroje a poděkování. Je to umbrella term, který pokrývá tři sémanticky příbuzné věci:
 
+1. **Autor článku** — kdo článek napsal (typicky člen spolku)
+2. **Citace zdroje** — odkud byl text převzat (jiný web, kniha, archivní materiál)
+3. **Poděkování** — komu vděčíme za informace, fotky, konzultaci, materiály
+
+Všechno tohle patří **mimo hlavní text článku** — v hierarchii:
+
+### a) Autor → `author:` ve frontmatteru → byline pod článkem
+
+```yaml
+author: "Petr Král"            # 1 autor
+author: "Petr Král a Miroslav Baudisch"   # více autorů jako string
+```
+
+Helper `formatAuthor` v `Article.astro` vyrobí display formát „P. Král":
 - Strip `Ing.|Dr.|Mgr.|MUDr.|RNDr.|JUDr.|PaedDr.|MgA.|prof.|doc.`
 - Vezme první písmeno křestního jména (uppercase) + `". "` + příjmení
 - Pokud je první část už iniciála („P." nebo „P"), normalizuje
-- Příklady: `Petr Král` → `P. Král`, `Ing. Petr Král` → `P. Král`, `P. Král` → `P. Král`
+- Příklady: `Petr Král` → `P. Král`, `Ing. Petr Král` → `P. Král`
 
-**Atribuci nedávat do textu článku** (typicky na konci „Petr Král"). Patří do `author:` ve frontmatter, byline ji zobrazí pod článkem. Při refactoru existujícího článku strip atribuci z těla.
+Při refactoru existujícího článku **strip atribuci autora z těla** (typický legacy pattern „Petr Král" jako poslední řádek) → přesun do `author:`.
+
+### b) Citace zdroje → `references:` + atribuce paragraf
+
+Pokud byl text **převzat** odjinud (s souhlasem nebo z licence):
+
+1. **`references:`** entry s `type: odkaz` — discoverability v sekci „Literatura a odkazy"
+   ```yaml
+   references:
+     - title: "anatomie-varhan.cz"
+       url: "http://anatomie-varhan.cz/"
+       type: odkaz
+       note: "Zdrojový web — text k článku převzat se souhlasem"
+   ```
+2. **Atribuce paragraf** na konci článku — explicit human-readable věta:
+   ```markdown
+   *Text byl převzat se souhlasem z webu [anatomie-varhan.cz](http://anatomie-varhan.cz/) — za poskytnutí děkujeme.*
+   ```
+
+### c) Poděkování → atribuce paragraf na konci
+
+Pokud k vzniku článku přispěli další lidé (informace, fotky, konzultace, archivní materiály):
+
+```markdown
+*Informace ke stránce poskytli PhDr. Arno Pařík, akademický sochař Petr Skála, Stanislav Marušák a další. Všem děkujeme.*
+```
+
+### Konvence pro atribuce paragraf
+
+- **Italic** (jeden `*` z obou stran)
+- Na **konci článku**, oddělený `* * *` od posledního obsahového paragrafu (pokud má článek několik sekcí; krátký jednoduchý článek nemusí mít hr)
+- Pokud kombinuje víc typů (autoři + zdroj + poděkování), může být víc paragrafů za sebou — každý italic
+- **NEPSAT do těla článku** atribuci, která patří do byline (`author:`), references (`references:`) nebo bottom paragraph
+
+### Co kam patří — quick rule
+
+| Typ | Kam |
+|---|---|
+| Autor článku (1 osoba ze spolku) | `author:` frontmatter |
+| Spoluautor / kolektiv ze spolku | `author: "X a Y"` frontmatter |
+| Externí zdroj (převzato) | `references:` + atribuce paragraf |
+| Poděkování externím přispěvatelům | atribuce paragraf |
+| Fotokredit (autor obrázku) | `<Photo author="..." />` (ne atribuce) |
 
 ## 11. Perex / abstract
 
