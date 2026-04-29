@@ -13,6 +13,11 @@ import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 
+interface Props {
+  class?: string;
+}
+const { class: className } = Astro.props;
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const logoPath = resolve(__dirname, '../../public/img/logo-csh.svg');
 const logoSvg = readFileSync(logoPath, 'utf-8')
@@ -20,7 +25,7 @@ const logoSvg = readFileSync(logoPath, 'utf-8')
   // Strip vnitřní <style> blocky — barvy řešíme zvenku přes is:global CSS.
   .replace(/<style>[^<]*<\/style>/g, '');
 ---
-<span class="brand-logo" aria-hidden="true" set:html={logoSvg}></span>
+<span class:list={['brand-logo', className]} aria-hidden="true" set:html={logoSvg}></span>
 
 <style is:global>
   .brand-logo {

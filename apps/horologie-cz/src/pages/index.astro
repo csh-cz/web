@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { SISTER_HODINARIUM } from '../data/sites';
+import BrandLogo from '../components/BrandLogo.astro';
 
 const vybor = [
   { funkce: 'Předseda', jmeno: 'Ing. Petr Král' },
@@ -13,10 +14,7 @@ const vybor = [
     <p class="eyebrow mb-5">Spolková agenda · IČO 26573008</p>
 
     <div class="hero-title-row">
-      <picture class="hero-logo-pic">
-        <source srcset="/img/logo-csh.svg" type="image/svg+xml" />
-        <img class="hero-logo" src="/img/logo-csh.png" alt="Logo Českého spolku horologického" width="180" height="180" />
-      </picture>
+      <BrandLogo class="hero-logo" />
       <h1 class="hero-title">
         Český spolek<br/>horologický
       </h1>
@@ -132,21 +130,25 @@ const vybor = [
     flex-wrap: wrap;
   }
 
-  .hero-logo-pic { display: contents; }
-  .hero-logo {
+  /* Hero verze BrandLogo — větší velikost. Override default 36px
+     z .brand-logo. Color dědí z .hero-title-row → hero defaultně
+     v --color-brass-bright (jasná zlatá pro hero). */
+  :global(.brand-logo.hero-logo) {
     width: 110px;
-    height: auto;
+    height: 110px;
+    color: var(--color-brass-bright);
     flex-shrink: 0;
-    display: block;
   }
   @media (min-width: 700px) {
-    .hero-logo {
+    :global(.brand-logo.hero-logo) {
       width: 140px;
+      height: 140px;
     }
   }
   @media (min-width: 1000px) {
-    .hero-logo {
+    :global(.brand-logo.hero-logo) {
       width: 170px;
+      height: 170px;
     }
   }
 
