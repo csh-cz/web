@@ -2,19 +2,100 @@
 /**
  * Živý monitor rubidiového oscilátoru PRS10 vystaveného v Hodináriu.
  *
- * Nahrazuje původní iframe (PRS2.php). Fetchuje plain-text endpoint
- * https://www.orloj.eu/PRS10_text.php (CORS *), parsuje semicolon-separated
- * řádek z RS-232 monitoru a renderuje nativně.
+ * Nahrazuje původní iframe (PRS2.php) — fetchuje plain-text endpoint
+ * https://www.orloj.eu/PRS10_text.php (CORS *), parsuje semicolon-
+ * separated řádek z RS-232 monitoru a renderuje stejné tři tabulky
+ * (Kód / Stav / Popis) jako Petrův PRS2.php — Faktory setting, Analog
+ * Output Values, PPS Control.
  *
- * Server čte /linka/PRS10.dat, do kterého WEMOS jednotka přes RS-232
- * zapisuje statistiku z PRS10. Klient pollne každých 5 s; pokud se
- * hodnota nezmění víc než 30 s, upozorní (zdroj možná tichý).
+ * Data layout (po split ';'):
+ *   idx 0      ID (PRS10_<verze>_SN_<sériové číslo>)
+ *   idx 1..23  Faktory setting (SD0–7, R, N, A, SF, SS, MO, MR, MS,
+ *                LO, GA, PH, [??], FC1, FC2, DS)
+ *   idx 24..42 Analog Output (AD1–AD19)
+ *   idx 43..51 PPS Control (TO, TS, [empty], PS, PL, PF, PI, LM, TT)
+ *   idx 52     ST? — 6 stavových bajtů (zatím nerozdekódováno)
+ *
+ * Polling 5 s (stejně jako <meta refresh> v PRS2.php). Pokud se
+ * řádek nezmění >30 s, status zšedne ("stale" — WEMOS asi přestal
+ * zapisovat /linka/PRS10.dat).
+ *
+ * TODO: stav. bajty + threshold-coloring (modrá/červená v PRS2.php).
+ *       Vyžaduje vstup od Petra — bit-mapping ST? + per-field rozsahy.
  */
 const ENDPOINT = 'https://www.orloj.eu/PRS10_text.php';
+
+interface FieldDef {
+  code: string;
+  idx: number;
+  popis: string;
+}
+
+const FAKTORY: FieldDef[] = [
+  { code: 'SD0', idx: 1,  popis: 'Řídí amplitudu RF k multiplikátoru v rezonanční buňce' },
+  { code: 'SD1', idx: 2,  popis: 'Ovládá analogovou část (0 až 99 ns) zpoždění pro výstup 1 PPS' },
+  { code: 'SD2', idx: 3,  popis: 'Nastavení DAC (intenzita lampy); 255 = pokus o rozsvícení' },
+  { code: 'SD3', idx: 4,  popis: 'Řídí teplotu výbojky' },
+  { code: 'SD4', idx: 5,  popis: 'Ovládá teplotu 10 MHz SC broušeného krystalu' },
+  { code: 'SD5', idx: 6,  popis: 'Řídí teplotu rezonanční buňky' },
+  { code: 'SD6', idx: 7,  popis: 'Ovládá amplitudu 10 MHz oscilátoru' },
+  { code: 'SD7', idx: 8,  popis: 'Řídí špičkovou odchylku pro RF fázovou modulaci' },
+  { code: 'R',   idx: 9,  popis: 'Parametry syntetizátoru RF = 19 × (64·N + A) / R' },
+  { code: 'N',   idx: 10, popis: '' },
+  { code: 'A',   idx: 11, popis: '' },
+  { code: 'SF',  idx: 12, popis: 'Frekvenční posun (−2000 ≤ x ≤ +2000)' },
+  { code: 'SS',  idx: 13, popis: 'Sklon (−2000 ≤ x ≤ +2000)' },
+  { code: 'MO',  idx: 14, popis: 'Magnetický offset (2300 ≤ x ≤ 3600)' },
+  { code: 'MR',  idx: 15, popis: 'Ovládací hodnota mag. pole; jemné nastavování RF' },
+  { code: 'MS',  idx: 16, popis: 'Vypnutí/zapnutí 5 Hz spínání ladícího magnetického pole' },
+  { code: 'LO',  idx: 17, popis: 'Zámek smyčky kmitočtu' },
+  { code: 'GA',  idx: 18, popis: 'Rychlost algoritmu frekvenční smyčky' },
+  { code: 'PH',  idx: 19, popis: 'Fáze (0 ≤ x ≤ 31)' },
+  // idx 20 = '??' — RS-232 toto pole nevrátí, PRS2.php řádek vynechá
+  { code: 'FC1', idx: 21, popis: 'Ovládání frekvence — vysoký (0 ≤ x ≤ 4095)' },
+  { code: 'FC2', idx: 22, popis: 'Ovládání frekvence — nízký (1024 ≤ x ≤ 3072)' },
+  { code: 'DS',  idx: 23, popis: 'Zjištěné signály' },
+];
+
+const ANALOG: FieldDef[] = [
+  { code: 'AD1',  idx: 24, popis: '+24 V (napájení ohřívače) / 10' },
+  { code: 'AD2',  idx: 25, popis: '+24 V (napájení elektroniky) / 10' },
+  { code: 'AD3',  idx: 26, popis: 'Napětí lampy FET / 10' },
+  { code: 'AD4',  idx: 27, popis: 'Napětí brány k lampě FET / 10' },
+  { code: 'AD5',  idx: 28, popis: 'Řídicí napětí krystalového ohřívače' },
+  { code: 'AD6',  idx: 29, popis: 'Řídicí napětí ohřívače rezonančních článků' },
+  { code: 'AD7',  idx: 30, popis: 'Ovládací napětí vyhřívání výbojky' },
+  { code: 'AD8',  idx: 31, popis: 'Zesílený střídavý fotosignál' },
+  { code: 'AD9',  idx: 32, popis: 'Napětí I/V převodníku fotobuňky / 4' },
+  { code: 'AD10', idx: 33, popis: 'Teplota pouzdra (10 mV / °C)' },
+  { code: 'AD11', idx: 34, popis: 'Krystalové termistory' },
+  { code: 'AD12', idx: 35, popis: 'Článkové termistory' },
+  { code: 'AD13', idx: 36, popis: 'Lampové termistory' },
+  { code: 'AD14', idx: 37, popis: 'Potenciál pro kalibraci frekvence / externí kalibrační napětí' },
+  { code: 'AD15', idx: 38, popis: 'Analogové uzemnění' },
+  { code: 'AD16', idx: 39, popis: 'Varaktorové napětí pro 22,48 MHz VCXO (uvnitř RF syntezátoru) / 4' },
+  { code: 'AD17', idx: 40, popis: 'Varaktorové napětí pro 360 MHz VCO (výstup RF syntezátoru) / 4' },
+  { code: 'AD18', idx: 41, popis: 'Řídicí napětí pro zesilovač, který řídí násobič frekvence / 4' },
+  { code: 'AD19', idx: 42, popis: 'Napětí indikátoru uzamčení RF syntezátoru (4,8 V při uzamčení)' },
+];
+
+const PPS: FieldDef[] = [
+  { code: 'TO', idx: 43, popis: 'Časový posun' },
+  { code: 'TS', idx: 44, popis: 'Časový sklon PPS input' },
+  // idx 45 = '' — PRS2.php toto pole vynechává
+  { code: 'PS', idx: 46, popis: 'Sklon PPS output (0 ≤ x ≤ 999 999 999)' },
+  { code: 'PL', idx: 47, popis: 'Ovládání fázového zámku (0 / 1)' },
+  { code: 'PF', idx: 48, popis: 'Faktor stability fázového závěsu (0 ≤ x ≤ 4)' },
+  { code: 'PI', idx: 49, popis: 'Integrátor fázového závěsu (−2000 ≤ x ≤ 2000)' },
+  { code: 'LM', idx: 50, popis: 'Výstup PPS (0, 1, 2, 3)' },
+  { code: 'TT', idx: 51, popis: 'Poslední odeslání PPS' },
+];
+
+const STATUS_BYTES_IDX = 52;
 ---
 <figure class="prs10-live" aria-label="Živý monitor rubidiového oscilátoru PRS10">
   <header class="prs10-live-header">
-    <h3 class="prs10-live-title">PRS10 — živý monitor</h3>
+    <h3 class="prs10-live-title">WiFi monitor PRS10 — živý</h3>
     <p class="prs10-live-status" data-prs10-status data-state="loading">Načítám…</p>
   </header>
   <div class="prs10-live-body" data-prs10-body hidden>
@@ -22,24 +103,68 @@ const ENDPOINT = 'https://www.orloj.eu/PRS10_text.php';
       <div><dt>Model</dt><dd data-prs10-model>—</dd></div>
       <div><dt>S/N</dt><dd data-prs10-sn>—</dd></div>
     </dl>
-    <details class="prs10-live-details">
-      <summary>Surová data (<span data-prs10-count>0</span> hodnot)</summary>
-      <table class="prs10-live-table">
-        <thead><tr><th>#</th><th>Hodnota</th></tr></thead>
-        <tbody data-prs10-table></tbody>
-      </table>
+    <details class="prs10-live-details" open>
+      <summary>Detail (Kód · Stav · Popis)</summary>
+
+      <section class="prs10-section">
+        <h4>Faktory setting</h4>
+        <table class="prs10-live-table">
+          <thead><tr><th>Kód</th><th>Stav</th><th>Popis</th></tr></thead>
+          <tbody data-prs10-section="faktory">{FAKTORY.map(f => (
+            <tr data-idx={f.idx}>
+              <td class="prs10-code">{f.code}</td>
+              <td class="prs10-value" data-prs10-cell={f.idx}>—</td>
+              <td class="prs10-popis">{f.popis}</td>
+            </tr>
+          ))}</tbody>
+        </table>
+      </section>
+
+      <section class="prs10-section">
+        <h4>Analog Output Values</h4>
+        <table class="prs10-live-table">
+          <thead><tr><th>Kód</th><th>Stav</th><th>Popis</th></tr></thead>
+          <tbody data-prs10-section="analog">{ANALOG.map(f => (
+            <tr data-idx={f.idx}>
+              <td class="prs10-code">{f.code}</td>
+              <td class="prs10-value" data-prs10-cell={f.idx}>—</td>
+              <td class="prs10-popis">{f.popis}</td>
+            </tr>
+          ))}</tbody>
+        </table>
+      </section>
+
+      <section class="prs10-section">
+        <h4>PPS Control</h4>
+        <table class="prs10-live-table">
+          <thead><tr><th>Kód</th><th>Stav</th><th>Popis</th></tr></thead>
+          <tbody data-prs10-section="pps">{PPS.map(f => (
+            <tr data-idx={f.idx}>
+              <td class="prs10-code">{f.code}</td>
+              <td class="prs10-value" data-prs10-cell={f.idx}>—</td>
+              <td class="prs10-popis">{f.popis}</td>
+            </tr>
+          ))}</tbody>
+        </table>
+      </section>
+
+      <p class="prs10-status-bytes">
+        <span class="prs10-status-bytes-label">Stavové bajty (ST?):</span>
+        <span data-prs10-status-bytes>—</span>
+        <span class="prs10-status-bytes-note">— dekódování příznaků čeká na vstup od&nbsp;Petra (bit-mapping ST? + per-field rozsahy pro modré/červené hodnoty z&nbsp;PRS2.php)</span>
+      </p>
     </details>
   </div>
   <p class="prs10-live-source">
     Zdroj: <a href={ENDPOINT} rel="noopener" target="_blank">www.orloj.eu/PRS10_text.php</a>
-    · polling 5 s · program: Petr Král.
+    · polling 5 s · program: Petr Král. Tabulka mirrorována z <a href="https://orloj.eu/PRS2.php" rel="noopener" target="_blank">PRS2.php</a>.
   </p>
 </figure>
 
 <style>
   .prs10-live {
     margin: 1.5rem auto;
-    max-width: 640px;
+    max-width: 760px;
     padding: 1rem 1.25rem;
     background: var(--color-bg-deep);
     border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
@@ -96,11 +221,24 @@ const ENDPOINT = 'https://www.orloj.eu/PRS10_text.php';
     font-size: 0.9rem;
     color: var(--color-text-muted);
     cursor: pointer;
-    padding: 0.25rem 0;
+    padding: 0.25rem 0 0.5rem;
   }
   .prs10-live-details summary:hover { color: var(--color-brass-bright); }
+
+  .prs10-section {
+    margin: 1rem 0 1.25rem;
+  }
+  .prs10-section h4 {
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.4rem;
+    font-weight: 500;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  }
+
   .prs10-live-table {
-    margin-top: 0.5rem;
     width: 100%;
     border-collapse: collapse;
     font-family: ui-monospace, "SF Mono", Menlo, monospace;
@@ -108,9 +246,10 @@ const ENDPOINT = 'https://www.orloj.eu/PRS10_text.php';
   }
   .prs10-live-table th,
   .prs10-live-table td {
-    padding: 0.22rem 0.6rem;
+    padding: 0.25rem 0.6rem;
     text-align: left;
     border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 12%, transparent);
+    vertical-align: top;
   }
   .prs10-live-table th {
     color: var(--color-copper);
@@ -119,12 +258,57 @@ const ENDPOINT = 'https://www.orloj.eu/PRS10_text.php';
     text-transform: uppercase;
     letter-spacing: 0.12em;
   }
-  .prs10-live-table td:first-child {
-    color: var(--color-text-muted);
-    width: 3em;
-    text-align: right;
+  .prs10-live-table .prs10-code {
+    width: 4em;
+    color: var(--color-copper);
+    font-weight: 600;
   }
-  .prs10-live-table td:last-child { color: var(--color-text); }
+  .prs10-live-table .prs10-value {
+    width: 6em;
+    color: var(--color-brass-bright);
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  .prs10-live-table .prs10-value[data-empty="1"] {
+    color: var(--color-text-muted);
+  }
+  .prs10-live-table .prs10-popis {
+    color: var(--color-text);
+    font-family: var(--font-sans, system-ui, sans-serif);
+    line-height: 1.45;
+  }
+
+  @media (max-width: 600px) {
+    .prs10-live-table .prs10-popis { font-size: 0.85rem; }
+    .prs10-live-table .prs10-value { width: 5em; }
+    .prs10-live-table th,
+    .prs10-live-table td { padding: 0.25rem 0.4rem; }
+  }
+
+  .prs10-status-bytes {
+    margin: 1rem 0 0;
+    padding: 0.6rem 0.8rem;
+    background: var(--color-bg-elevated);
+    border-radius: 2px;
+    font-size: 0.85rem;
+    color: var(--color-text);
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  .prs10-status-bytes-label {
+    color: var(--color-copper);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.72rem;
+    margin-right: 0.5rem;
+  }
+  .prs10-status-bytes-note {
+    display: block;
+    margin-top: 0.35rem;
+    color: var(--color-text-muted);
+    font-family: var(--font-sans, system-ui, sans-serif);
+    font-size: 0.78rem;
+    font-style: italic;
+  }
 
   .prs10-live-source {
     margin: 1rem 0 0;
@@ -134,7 +318,7 @@ const ENDPOINT = 'https://www.orloj.eu/PRS10_text.php';
   .prs10-live-source a { color: var(--color-brass-bright); }
 </style>
 
-<script is:inline define:vars={{ ENDPOINT }}>
+<script is:inline define:vars={{ ENDPOINT, STATUS_BYTES_IDX }}>
   (function () {
     const root = document.querySelector('.prs10-live');
     if (!root) return;
@@ -143,9 +327,12 @@ const ENDPOINT = 'https://www.orloj.eu/PRS10_text.php';
       body: root.querySelector('[data-prs10-body]'),
       model: root.querySelector('[data-prs10-model]'),
       sn: root.querySelector('[data-prs10-sn]'),
-      table: root.querySelector('[data-prs10-table]'),
-      count: root.querySelector('[data-prs10-count]'),
+      statusBytes: root.querySelector('[data-prs10-status-bytes]'),
     };
+    const valueCells = new Map();
+    root.querySelectorAll('[data-prs10-cell]').forEach((td) => {
+      valueCells.set(parseInt(td.dataset.prs10Cell, 10), td);
+    });
 
     let lastPayload = '';
     let lastChange = Date.now();
@@ -181,7 +368,7 @@ const ENDPOINT = 'https://www.orloj.eu/PRS10_text.php';
       const parts = text.split(';');
       el.body.hidden = false;
 
-      const idMatch = parts[0].match(/^(PRS10[_\d.]*)_SN_(\d+)$/);
+      const idMatch = (parts[0] || '').match(/^(PRS10[_\d.]*)_SN_(\d+)$/);
       if (idMatch) {
         el.model.textContent = idMatch[1].replace(/_/g, ' ');
         el.sn.textContent = idMatch[2];
@@ -190,19 +377,22 @@ const ENDPOINT = 'https://www.orloj.eu/PRS10_text.php';
         el.sn.textContent = '—';
       }
 
-      const values = parts.slice(1).filter((v) => v !== '');
-      el.count.textContent = String(values.length);
-
-      el.table.replaceChildren();
-      for (let i = 0; i < values.length; i++) {
-        const tr = document.createElement('tr');
-        const num = document.createElement('td');
-        num.textContent = String(i + 1);
-        const val = document.createElement('td');
-        val.textContent = values[i];
-        tr.append(num, val);
-        el.table.append(tr);
+      // Naplň hodnoty do předem vykreslených buněk podle idx.
+      // Hodnota '??' nebo prázdná → muted styl.
+      for (const [idx, td] of valueCells) {
+        const raw = parts[idx];
+        if (raw === undefined || raw === '' || raw === '??') {
+          td.textContent = raw === '??' ? '??' : '—';
+          td.dataset.empty = '1';
+        } else {
+          td.textContent = raw;
+          delete td.dataset.empty;
+        }
       }
+
+      // Status bajty (ST?) — surová hodnota bez dekódování.
+      const statusRaw = parts[STATUS_BYTES_IDX];
+      el.statusBytes.textContent = statusRaw && statusRaw.length > 0 ? statusRaw : '—';
     }
 
     poll();
