@@ -9,6 +9,11 @@
  *
  * Obrázky jsou v /public/img/zidovske/clock/ (původní podklad +
  * dvě GIF ručičky).
+ *
+ * Ručičky jsou pozicované v procentech canvasu, aby se škálovaly
+ * spolu s podkladem na všech šířkách displeje. Transform-origin je
+ * top-center ručičky (pin v ose ciferníku), translateX(-50%) ji
+ * horizontálně centruje na canvas.
  */
 ---
 <figure class="zidovske-hodiny" aria-label="Živý ciferník Židovské radnice">
@@ -73,30 +78,31 @@
     pointer-events: none;
   }
 
+  /* Ručičky — width v % canvasu, aspect-ratio drží proporci.
+     Transform-origin = top-center → pin v ose ciferníku.
+     JS combine translateX(-50%) + rotate(deg) — translation horizontálně
+     centruje, rotation odjede kolem pinu. */
   .zidovske-rucka {
     position: absolute;
-    transform-origin: 50% 0%;
+    left: 50%;
+    width: 6.6%; /* 33 / 500 */
+    height: auto;
     transition: transform 200ms ease-out;
+    transform-origin: 50% 0;
     pointer-events: none;
   }
 
-  /* Hodinová ručička — kratší, kotvená v ose ciferníku, směřuje dolů
-     (počáteční rotace 0deg = nahoru, ale obrazek je orientován dolů,
-     takže přidáváme 180deg). */
+  /* Hodinová ručička — kratší, kotvená v ose ciferníku.
+     33 × 103 px → aspect-ratio 33/103. Top na úroveň středu ciferníku. */
   .zidovske-hodinova {
-    /* Kotva v ose ciferníku (cca 50% × 50% canvasu).
-       Image je 33×103, transform-origin = 16,0 (top-center) */
+    aspect-ratio: 33 / 103;
     top: 46%;
-    left: calc(50% - 16.5px);
-    width: 33px;
-    height: 103px;
   }
 
+  /* Minutová ručička — 33 × 67 px, mírně níž (těsně pod středem). */
   .zidovske-minutova {
+    aspect-ratio: 33 / 67;
     top: 51%;
-    left: calc(50% - 16.5px);
-    width: 33px;
-    height: 67px;
   }
 
   @media (max-width: 540px) {
@@ -117,6 +123,10 @@
    * Záporné = counter-clockwise. CSS transform-origin = top-center
    * (50% 0%), obrázek je nakreslený "směrem dolů" — proto přidáváme
    * 180° offset, aby ručička při 12 mířila vzhůru.
+   *
+   * Transform string začíná translateX(-50%) — to centruje ručičku
+   * horizontálně přes left:50% (přesune box doleva o polovinu jeho
+   * vlastní šířky). Bez toho by ručička seděla na pravé straně pinu.
    */
   function tick() {
     const els = {
@@ -136,8 +146,10 @@
     const hourDeg = 180 - ((h % 12) * 30 + m * 0.5);
     const minDeg = 180 - m * 6;
 
-    (els.hour as HTMLElement).style.transform = `rotate(${hourDeg}deg)`;
-    (els.min as HTMLElement).style.transform = `rotate(${minDeg}deg)`;
+    (els.hour as HTMLElement).style.transform =
+      `translateX(-50%) rotate(${hourDeg}deg)`;
+    (els.min as HTMLElement).style.transform =
+      `translateX(-50%) rotate(${minDeg}deg)`;
   }
 
   tick();
