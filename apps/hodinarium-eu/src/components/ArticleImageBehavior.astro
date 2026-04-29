@@ -336,6 +336,9 @@ import imageSizes from '../data/image-sizes.json';
 
     // 1. Klasifikuj zbývající obrázky podle dat z JSON indexu.
     //    Manuální override class (img-hero/img-full/img-standalone) má přednost.
+    //    Pokud je img uvnitř figure.photo (Photo komponenta), propaguj size
+    //    class i na figure — figure pak nese layout (float/max-width), img
+    //    fills figure (100%). Caption overlay zůstává absolutně na figure.
     for (const img of allImgs) {
       if (
         img.classList.contains('img-hero') ||
@@ -346,6 +349,8 @@ import imageSizes from '../data/image-sizes.json';
       const dim = sizes[src];
       const klass = dim ? dim.size : 'medium'; // fallback medium pro externí URL
       img.classList.add(`img-${klass}`);
+      const photoFig = img.closest('figure.photo');
+      if (photoFig) photoFig.classList.add(`img-${klass}`);
       // Lightbox pro large i tall; medium/small disable
       if (klass !== 'large' && klass !== 'tall') {
         img.dataset.noLightbox = '1';
@@ -415,9 +420,12 @@ import imageSizes from '../data/image-sizes.json';
     const baseFontSize = parseFloat(proseStyle.fontSize) || 17;
     const lineHeight = parseFloat(proseStyle.lineHeight) || baseFontSize * 1.65;
 
+    // Photo komponenta (figure.photo) je teď taky floatable — caption overlay
+    // se s float dobře snáší (žádný flow under-image text). Layout se aplikuje
+    // na figure.photo (ne na img uvnitř).
     const floatable = Array.from(
       article.querySelectorAll('img.img-small, img.img-medium, img.img-tall')
-    ).filter((img) => !img.closest('figure.photo'));
+    );
 
     function snapToLineHeight(img) {
       const natW = img.naturalWidth;
@@ -447,11 +455,17 @@ import imageSizes from '../data/image-sizes.json';
     floatable.forEach(processFloatable);
 
     // 1.7. Rytmický float — sekvenční counter střídá pravo/levo.
-    //      Photo komponenta (figure.photo) je vyloučena, zůstává standalone
-    //      i pokud má img-small/medium/tall class (credit caption pod
-    //      obrázkem se s float špatně snáší).
+    //      Pro img v markdown ![]() se class přidá na img.
+    //      Pro img uvnitř Photo (figure.photo) se class přidá na figure
+    //      — figure je layout container, img fills 100%.
     floatable.forEach((img, idx) => {
-      img.classList.add(idx % 2 === 0 ? 'img-float-right' : 'img-float-left');
+      const klass = idx % 2 === 0 ? 'img-float-right' : 'img-float-left';
+      const photoFig = img.closest('figure.photo');
+      if (photoFig) {
+        photoFig.classList.add(klass);
+      } else {
+        img.classList.add(klass);
+      }
     });
 
     // 2. Skupinování konsekutivních LARGE obrázků do galerie

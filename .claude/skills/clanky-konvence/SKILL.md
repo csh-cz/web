@@ -121,7 +121,9 @@ Whitelist je v `apps/hodinarium-eu/src/data/tags.json`, organizovaný do dimenz�
 
 ### Photo komponenta a float
 
-Photo komponenta (`<figure class="photo">`) je z float vyloučena — credit caption pod obrázkem se s obtékaným textem špatně snáší (caption by „plula" neviditelně). Pokud chceš obrázek **s creditem v textu floatovaný**, použij místo Photo prostý markdown `![alt](src)` plus credit doplň ručně do paragrafu nebo do references s `type: odkaz`.
+Photo komponenta (`<figure class="photo">`) **podporuje float** — caption je teď overlay v pravém dolním rohu obrázku, takže s obtékaným textem nekoliduje (žádný flow textu pod caption). JS v ArticleImageBehavior klasifikuje obrázek (small/medium/tall) a propaguje class na figure (ne na img uvnitř); figure je layout container, img fills 100 %. Float se rotuje pravo/levo deterministicky stejně jako u markdown obrázků.
+
+Mobile (≤600 px) figure float vypnuté, caption se vrátí pod obrázek (overlay nad ~320 px wide fotkou je nečitelný).
 
 ## 3.5. Popisná karta sbírkového předmětu — `karta` ve frontmatteru
 
@@ -188,8 +190,10 @@ Pokud `class="img-hero"` nedáš a Photo je první v článku, JS auto-promote h
 
 Caption (autor + licence + zdroj) se renderuje **jako overlay v pravém dolním rohu obrázku** (ne pod ním jako dřív). Barva textu je vybrána automaticky podle jasu pravého dolního rohu obrázku:
 
-- **Světlé pozadí** → tmavý text (`#1a1a1a`) + jemné světlé halo (text-shadow)
-- **Tmavé pozadí** → světlý text (`#f5f3ee`) + jemné tmavé halo
+- **Světlé pozadí** → čistá černá (`#000`)
+- **Tmavé pozadí** → čistá bílá (`#fff`)
+
+Žádné halo / text-shadow — záměrné rozhodnutí. Halo působí synteticky a kazí "filmový" dojem. Plain B/W lépe sedí k periodikálnímu stylu webu; pokud jednou narazíme na fotku, kde to není čitelné, řešíme per-image (manuální tone override v Photo prop, případně přesun na jinou fotku).
 
 Tone se počítá build-time pomocí `sharp` v `scripts/build-image-index.ts` — vyřízne ~30 % × 30 % BR rohu, spočítá průměrný grayscale jas, threshold 140 z 255 oddělí `dark` (světlé pozadí, tmavý text) od `light` (tmavé pozadí, světlý text). Výsledek se uloží jako pole `tone` do `image-sizes.json`. Photo komponenta tone načte a aplikuje class `.credit-tone-dark` / `.credit-tone-light`.
 

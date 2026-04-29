@@ -120,21 +120,13 @@ const tone: 'light' | 'dark' = sizeInfo?.tone ?? 'light';
     border-bottom: 1px dotted color-mix(in srgb, currentColor 50%, transparent);
   }
 
-  /* Tmavý text na světlém pozadí + jemné světlé halo */
+  /* Tmavý text na světlém pozadí — čistá černá, bez halo */
   .img-credit-overlay.credit-tone-dark {
-    color: #1a1a1a;
-    text-shadow:
-      0 0 2px rgba(255, 255, 255, 0.85),
-      0 0 5px rgba(255, 255, 255, 0.55),
-      0 1px 0 rgba(255, 255, 255, 0.7);
+    color: #000;
   }
-  /* Světlý text na tmavém pozadí + jemné tmavé halo */
+  /* Světlý text na tmavém pozadí — čistá bílá, bez halo */
   .img-credit-overlay.credit-tone-light {
-    color: #f5f3ee;
-    text-shadow:
-      0 0 2px rgba(0, 0, 0, 0.85),
-      0 0 5px rgba(0, 0, 0, 0.55),
-      0 1px 0 rgba(0, 0, 0, 0.7);
+    color: #fff;
   }
 
   .img-credit-overlay.credit-tone-dark a:hover {
@@ -146,7 +138,42 @@ const tone: 'light' | 'dark' = sizeInfo?.tone ?? 'light';
     border-bottom-color: var(--color-brass, #b8923e);
   }
 
-  /* Mobile fallback — overlay zpět pod obrázek (nad ~320 px je nečitelný) */
+  /* === Photo komponenta umí floatovat (jako markdown ![]() obrázky) ===
+     Figure.photo s image size class (img-small/medium/tall) → float v textu.
+     Img uvnitř fills figure (width 100%). Caption overlay zůstává absolute. */
+  .prose-content figure.photo.img-small,
+  .prose-content figure.photo.img-medium,
+  .prose-content figure.photo.img-tall {
+    margin: 0.4rem 0 0.75rem 1.5rem;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+  }
+  .prose-content figure.photo.img-small { float: right; max-width: 220px; }
+  .prose-content figure.photo.img-medium { float: right; max-width: 320px; }
+  .prose-content figure.photo.img-tall { float: right; max-width: 240px; max-height: 480px; }
+
+  /* JS counter rotuje pravo/levo, propaguje na figure.photo */
+  .prose-content figure.photo.img-float-right {
+    float: right !important;
+    margin: 0.4rem 0 0.75rem 1.5rem !important;
+  }
+  .prose-content figure.photo.img-float-left {
+    float: left !important;
+    margin: 0.4rem 1.5rem 0.75rem 0 !important;
+  }
+
+  /* Img uvnitř floatovaného figure.photo se sníží na 100% figure */
+  .prose-content figure.photo.img-small img,
+  .prose-content figure.photo.img-medium img,
+  .prose-content figure.photo.img-tall img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: none;
+    margin: 0;
+  }
+
+  /* Mobile fallback — overlay zpět pod obrázek + figure float vypnout */
   @media (max-width: 600px) {
     .img-credit-overlay {
       position: static;
@@ -154,10 +181,18 @@ const tone: 'light' | 'dark' = sizeInfo?.tone ?? 'light';
       margin-top: 0.35rem;
       padding: 0;
       color: var(--color-text-muted) !important;
-      text-shadow: none !important;
     }
     .img-credit-overlay a {
       color: var(--color-text-soft);
+    }
+    .prose-content figure.photo.img-small,
+    .prose-content figure.photo.img-medium,
+    .prose-content figure.photo.img-tall,
+    .prose-content figure.photo.img-float-left,
+    .prose-content figure.photo.img-float-right {
+      float: none !important;
+      max-width: 100%;
+      margin: 1.25rem auto !important;
     }
   }
 </style>
