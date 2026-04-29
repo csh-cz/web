@@ -69,24 +69,33 @@ function countImages(body: string): number {
 }
 
 function extractExcerpt(body: string): string {
+  // Strip multi-line JSX/component bloky <Photo … />, <ZidovskeHodiny />, …
+  // (uppercase první písmeno = MDX component, ne HTML tag).
+  let cleaned = body.replace(/<[A-Z][\w]*\b[^>]*\/>/g, '');                                  // self-closing
+  cleaned = cleaned.replace(/<[A-Z][\w]*\b[\s\S]*?\/>/g, '');                               // self-closing s breaky
+  cleaned = cleaned.replace(/<[A-Z][\w]*\b[\s\S]*?>[\s\S]*?<\/[A-Z][\w]*>/g, '');           // párový
+
   // Vezmi první nenulový odstavec
-  const lines = body.split('\n');
+  const lines = cleaned.split('\n');
   const paras: string[] = [];
   let buf: string[] = [];
   for (const line of lines) {
-    if (line.trim() === '') {
+    const t = line.trim();
+    if (t === '') {
       if (buf.length) {
         paras.push(buf.join(' '));
         buf = [];
       }
     } else if (
-      !line.startsWith('#') &&
-      !line.startsWith('!') &&
-      !line.startsWith('[!') &&
-      !line.startsWith('-') &&
-      !line.startsWith('*')
+      !t.startsWith('#') &&            // headings
+      !t.startsWith('!') &&            // markdown image
+      !t.startsWith('[!') &&           // image link
+      !/^[\-\*]\s/.test(t) &&          // list item ("- " or "* ") — bold "**X**" zachytit
+      !t.startsWith('<') &&            // raw HTML / JSX (Photo, ZidovskeHodiny, …)
+      !/^import\s/.test(t) &&          // MDX import statementy
+      !/^export\s/.test(t)             // MDX export
     ) {
-      buf.push(line.trim());
+      buf.push(t);
     }
   }
   if (buf.length) paras.push(buf.join(' '));

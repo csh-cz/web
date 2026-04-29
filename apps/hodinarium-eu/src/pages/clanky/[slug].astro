@@ -149,7 +149,9 @@ const { Content } = await render(entry);
     filter: brightness(1.05);
   }
 
-  /* Po obtékaných obrázcích — clearfix na hranici sekcí */
+  /* Vysoké obrázky obtékat přes víc odstavců — žádný overflow: hidden
+     na <p>, float pokračuje až do nejbližšího clear (h2/h3/hr/.fleuron).
+     To zajistí, že tall image se nesvazuje s krátkým paragrafem. */
   .prose-content h2,
   .prose-content h3,
   .prose-content .fleuron,
@@ -157,10 +159,9 @@ const { Content } = await render(entry);
     clear: both;
   }
 
-  /* Když je odstavec moc krátký vedle obtékaného obrázku, zruš float pro další */
-  .prose-content p {
-    overflow: hidden; /* zabraň aby se float prolínal nesouvisejícími odstavci */
-  }
+  /* Manuální clearfix — pokud autor chce explicitně ukončit float-block,
+     může vložit <div class="clearfix"></div> nebo <hr>. */
+  .prose-content .clearfix { clear: both; }
 
 
   /* Konsekutivní obrázky v článku — propojit do galerie (jen pro velké) */
@@ -394,13 +395,50 @@ const { Content } = await render(entry);
       }
     }
 
+    // 1.6. Line-height snap pro floatable images — mírné resize tak, aby
+    //      výška obrázku byla celočíselný násobek line-height paragrafu.
+    //      Tím obrázek "lícuje" s textovým gridem v default rozlišení;
+    //      zabrání se polovičním řádkům přebývajícím nad/pod obrázkem.
+    //      Šířka se sníží proporcionálně, max-width z CSS class zůstává limit.
+    const proseStyle = window.getComputedStyle(article);
+    const baseFontSize = parseFloat(proseStyle.fontSize) || 17;
+    const lineHeight = parseFloat(proseStyle.lineHeight) || baseFontSize * 1.65;
+
+    const floatable = Array.from(
+      article.querySelectorAll('img.img-small, img.img-medium, img.img-tall')
+    ).filter((img) => !img.closest('figure.photo'));
+
+    function snapToLineHeight(img) {
+      const natW = img.naturalWidth;
+      const natH = img.naturalHeight;
+      if (!natW || !natH) return;
+      const renderedW = img.offsetWidth;
+      if (!renderedW) return;
+      const aspect = natH / natW;
+      const renderedH = renderedW * aspect;
+      // Cílová výška: nejbližší celočíselný násobek line-height (min 2 řádky).
+      const lines = Math.max(2, Math.round(renderedH / lineHeight));
+      const targetH = lines * lineHeight;
+      const targetW = targetH / aspect;
+      // Nezvětšuj — jen sniž k cíli, pokud je to v rozumném rozsahu (>20% rozdíl je moc).
+      if (Math.abs(targetH - renderedH) / renderedH > 0.2) return;
+      img.style.width = Math.round(Math.min(targetW, renderedW)) + 'px';
+      img.style.height = Math.round(targetH) + 'px';
+    }
+
+    function processFloatable(img) {
+      if (img.complete && img.naturalWidth > 0) {
+        snapToLineHeight(img);
+      } else {
+        img.addEventListener('load', () => snapToLineHeight(img), { once: true });
+      }
+    }
+    floatable.forEach(processFloatable);
+
     // 1.7. Rytmický float — sekvenční counter střídá pravo/levo.
     //      Photo komponenta (figure.photo) je vyloučena, zůstává standalone
     //      i pokud má img-small/medium/tall class (credit caption pod
     //      obrázkem se s float špatně snáší).
-    const floatable = Array.from(
-      article.querySelectorAll('img.img-small, img.img-medium, img.img-tall')
-    ).filter((img) => !img.closest('figure.photo'));
     floatable.forEach((img, idx) => {
       img.classList.add(idx % 2 === 0 ? 'img-float-right' : 'img-float-left');
     });
