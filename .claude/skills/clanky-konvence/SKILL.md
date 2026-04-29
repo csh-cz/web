@@ -123,6 +123,39 @@ Whitelist je v `apps/hodinarium-eu/src/data/tags.json`, organizovaný do dimenz�
 
 Photo komponenta (`<figure class="photo">`) je z float vyloučena — credit caption pod obrázkem se s obtékaným textem špatně snáší (caption by „plula" neviditelně). Pokud chceš obrázek **s creditem v textu floatovaný**, použij místo Photo prostý markdown `![alt](src)` plus credit doplň ručně do paragrafu nebo do references s `type: odkaz`.
 
+## 3.5. Popisná karta sbírkového předmětu — `karta` ve frontmatteru
+
+Pro `category: sbirka` články o **konkrétním sbírkovém předmětu** používej structured `karta:` ve frontmatteru. Renderuje se jako definition list (`<dl>`) s brass border vlevo, copper labels v small-caps, hodnoty vpravo. JS ji automaticky přesune **za hero obrázek** (vizuálně: nadpis → hero → karta → text); bez JS zůstává před hero.
+
+```yaml
+karta:
+  vyrobce: "Jan Prokeš v Sobotce, 1868"
+  ram: "klecový z ocelových pásnic"
+  krokJicihoStroje: "Grahamovy palety, vlastní konstrukce"
+  biciStroje: "čtvrťový a hodinový"
+  rozmery: "š 80 × v 68 × h 38 cm"
+  kyvadlo: "délka cca 235 cm"
+  ciselnik: "smaltovaný, římské číslice"
+  pohon: "závaží 12 kg + 8 kg"
+  signatura: "Jan Prokeš v Sobotce 1868"
+  stav: "po restaurování (Petr Skála, 2003)"
+  provenience: "zámek Býchory, ze sbírky pana X"
+  extra:
+    - { label: "Inventární číslo", value: "ČSH-S-042" }
+    - { label: "Lokace", value: "Hodinárium Děčín, vitrína 3" }
+```
+
+**Standardní pole** (v pevném pořadí): `vyrobce`, `ram`, `krokJicihoStroje`, `biciStroje`, `rozmery`, `kyvadlo`, `ciselnik`, `pohon`, `signatura`, `stav`, `provenience`. Všechna volitelná, prázdná pole se nerenderují.
+
+**`extra[]`** — pole `{ label, value }` pro nestandardní atributy (inventární čísla, lokace v expozici, …). Renderuje se na konci karty v pořadí, jak je zadáno.
+
+**Kdy kartu doplnit:**
+- Vždy pro nový článek o konkrétním exponátu (`category: sbirka`)
+- Při review starých `sbirka` článků postupně doplňovat
+- **Ne pro:** virtualni-muzeum (cizí exponáty bez vlastních dat), zajimavosti, projekty (jiný layout), konstrukce (obecné), muzea, kronika
+
+Schema je v `apps/hodinarium-eu/src/content.config.ts`, komponenta v `apps/hodinarium-eu/src/components/KartaSbirky.astro`.
+
 ## 4. Photo komponenta — preferovaný způsob
 
 Cesta: `apps/hodinarium-eu/src/components/Photo.astro`.

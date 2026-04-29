@@ -352,6 +352,20 @@ import imageSizes from '../data/image-sizes.json';
       }
     }
 
+    // 1.4. Karta sbírky — pokud je první v prose-content, přesunout hned za hero
+    //      (vizuálně: nadpis → hero → karta → text). Bez JS zůstává jako první
+    //      před hero, což je taky čitelné.
+    {
+      const karta = article.querySelector(':scope > .karta-sbirky');
+      const hero = article.querySelector('img.img-hero');
+      if (karta && hero) {
+        const heroBlock = hero.closest('figure, p') || hero;
+        if (heroBlock.parentElement === article) {
+          heroBlock.insertAdjacentElement('afterend', karta);
+        }
+      }
+    }
+
     // 1.5. Post-hero guard — za hero MUSÍ následovat text (paragraf), ne další
     //      velký obrázek. Pokud je hned po hero blok obsahující jen img
     //      (img-large / img-full / img-standalone / img-hero), přesun ho

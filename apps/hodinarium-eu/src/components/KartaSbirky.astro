@@ -1,0 +1,151 @@
+---
+/**
+ * Popisná karta sbírkového předmětu.
+ *
+ * Renderuje se jako definition list (`<dl>`) s pevnou levou kolonou
+ * štítků a pravou kolonou hodnot. Standardní pole jsou v fixním pořadí
+ * (Výrobce → Rám → Krok → Bicí → Rozměry → Kyvadlo → Ciferník → Pohon
+ *  → Signatura → Stav → Provenience), `extra[]` se přidá na konec
+ * v pořadí, jak je v frontmatteru.
+ *
+ * Položky bez hodnoty se nerenderují. Pokud je celá karta prázdná,
+ * komponenta nevyrenderuje vůbec nic.
+ *
+ * Place: typicky vyrenderováno Article.astro před `<slot />`. JS
+ * v ArticleImageBehavior pak přesune kartu hned za hero obrázek
+ * (pokud existuje), takže výsledek je: nadpis → hero → karta → text.
+ *
+ * Použití (Article.astro):
+ *   {karta && <KartaSbirky karta={karta} />}
+ *
+ * Schema (frontmatter):
+ *   karta:
+ *     vyrobce: "Jan Prokeš v Sobotce, 1868"
+ *     ram: "klecový z ocelových pásnic"
+ *     biciStroje: "čtvrťový a hodinový"
+ *     rozmery: "š 80 × v 68 × h 38 cm"
+ *     kyvadlo: "délka cca 235 cm"
+ *     extra:
+ *       - { label: "Inventární číslo", value: "ČSH-S-042" }
+ */
+interface KartaExtra {
+  label: string;
+  value: string;
+}
+interface Karta {
+  vyrobce?: string;
+  ram?: string;
+  krokJicihoStroje?: string;
+  biciStroje?: string;
+  rozmery?: string;
+  kyvadlo?: string;
+  ciselnik?: string;
+  pohon?: string;
+  signatura?: string;
+  stav?: string;
+  provenience?: string;
+  extra?: KartaExtra[];
+}
+interface Props {
+  karta: Karta;
+}
+const { karta } = Astro.props;
+
+// Pevné pořadí standardních polí. Label vlevo, hodnota vpravo.
+const standardFields: Array<{ key: keyof Karta; label: string }> = [
+  { key: 'vyrobce', label: 'Výrobce' },
+  { key: 'ram', label: 'Rám stroje' },
+  { key: 'krokJicihoStroje', label: 'Krok jdoucího stroje' },
+  { key: 'biciStroje', label: 'Bicí stroje' },
+  { key: 'rozmery', label: 'Rozměry' },
+  { key: 'kyvadlo', label: 'Kyvadlo' },
+  { key: 'ciselnik', label: 'Ciferník' },
+  { key: 'pohon', label: 'Pohon' },
+  { key: 'signatura', label: 'Signatura' },
+  { key: 'stav', label: 'Stav' },
+  { key: 'provenience', label: 'Provenience' },
+];
+
+const items: Array<{ label: string; value: string }> = [
+  ...standardFields
+    .filter(({ key }) => {
+      const v = karta[key];
+      return typeof v === 'string' && v.trim().length > 0;
+    })
+    .map(({ key, label }) => ({ label, value: karta[key] as string })),
+  ...(karta.extra ?? []).filter((e) => e.value && e.value.trim().length > 0),
+];
+---
+{items.length > 0 && (
+  <aside class="karta-sbirky" aria-label="Popisná karta exponátu">
+    <p class="eyebrow karta-sbirky-label">Popisná karta</p>
+    <dl class="karta-sbirky-list">
+      {items.map((it) => (
+        <div class="karta-sbirky-row">
+          <dt>{it.label}</dt>
+          <dd>{it.value}</dd>
+        </div>
+      ))}
+    </dl>
+  </aside>
+)}
+
+<style is:global>
+  .karta-sbirky {
+    margin: 0 0 2rem;
+    padding: 1.25rem 1.5rem;
+    background: color-mix(in srgb, var(--color-bg-deep) 85%, var(--color-brass));
+    border: 1px solid color-mix(in srgb, var(--color-brass) 28%, transparent);
+    border-left: 3px solid var(--color-brass);
+    border-radius: 2px;
+  }
+  .karta-sbirky-label {
+    margin: 0 0 0.85rem;
+  }
+  .karta-sbirky-list {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.5rem 1.5rem;
+    margin: 0;
+  }
+  .karta-sbirky-row {
+    display: contents;
+  }
+  .karta-sbirky-list dt {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-copper);
+    font-weight: 500;
+    margin: 0;
+    padding-top: 0.15rem;
+    line-height: 1.4;
+  }
+  .karta-sbirky-list dd {
+    font-size: 0.98rem;
+    color: var(--color-text);
+    margin: 0;
+    line-height: 1.5;
+    font-feature-settings: "lnum";
+  }
+  @media (max-width: 600px) {
+    .karta-sbirky {
+      padding: 1rem 1.1rem;
+    }
+    .karta-sbirky-list {
+      grid-template-columns: 1fr;
+      gap: 0.15rem 0;
+    }
+    .karta-sbirky-row {
+      display: block;
+      padding-bottom: 0.65rem;
+    }
+    .karta-sbirky-row + .karta-sbirky-row {
+      padding-top: 0.65rem;
+      border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    }
+    .karta-sbirky-list dt {
+      margin-bottom: 0.2rem;
+    }
+  }
+</style>

@@ -76,6 +76,32 @@ const clanky = defineCollection({
      * Validace: každý tag musí být ve whitelistu, jinak build failne
      * (typo / neznámý tag se neproklouzne).
      */
+    /**
+     * Popisná karta exponátu (typicky pro `category: sbirka` články
+     * o konkrétním sbírkovém předmětu). Renderuje se jako definition
+     * list pod hero obrázkem na začátku článku.
+     *
+     * Všechna pole volitelná. Pole `extra` umožní libovolný klíč/hodnota
+     * pro nestandardní atributy (signatura, čísla v inventáři, …).
+     */
+    karta: z
+      .object({
+        vyrobce: z.string().optional(),
+        ram: z.string().optional(),
+        krokJicihoStroje: z.string().optional(),
+        biciStroje: z.string().optional(),
+        rozmery: z.string().optional(),
+        kyvadlo: z.string().optional(),
+        ciselnik: z.string().optional(),
+        pohon: z.string().optional(),
+        signatura: z.string().optional(),
+        stav: z.string().optional(),
+        provenience: z.string().optional(),
+        extra: z
+          .array(z.object({ label: z.string(), value: z.string() }))
+          .optional(),
+      })
+      .optional(),
     tags: z
       .array(z.string())
       .optional()

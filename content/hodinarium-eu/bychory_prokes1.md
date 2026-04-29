@@ -6,6 +6,12 @@ originalUrl: "https://hodinarium.eu/bychory_prokes1.htm"
 lastModified: "Wed, 02 Nov 2022 10:11:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:26.301Z"
+karta:
+  vyrobce: "Jan Prokeš v Sobotce, 1868"
+  ram: "klecový z ocelových pásnic"
+  biciStroje: "čtvrťový a hodinový"
+  rozmery: "š 80 × v 68 × h 38 cm"
+  kyvadlo: "délka cca 235 cm"
 ---
 Do Hodinária byl zapůjčen věžní komplet Prokeš 1868 s unikátním věžním [zvonícím strojem](/clanky/bychory_zvonici_stroj) a [cimbály](/clanky/bychory_cimbaly). Kromě již zmíněného zvonícího stroje má i neobvyklý kyvadlový krok.
 

@@ -1,6 +1,7 @@
 ---
 import Base from "./Base.astro";
 import Card from "../components/Card.astro";
+import KartaSbirky from "../components/KartaSbirky.astro";
 import catalog from "../data/catalog.json";
 import { hodinariProClanek } from "../data/hodinari";
 import { krokyProClanek } from "../data/kroky";
@@ -27,6 +28,14 @@ interface Reference {
   note?: string;
 }
 
+interface KartaExtra { label: string; value: string; }
+interface Karta {
+  vyrobce?: string; ram?: string; krokJicihoStroje?: string;
+  biciStroje?: string; rozmery?: string; kyvadlo?: string;
+  ciselnik?: string; pohon?: string; signatura?: string;
+  stav?: string; provenience?: string; extra?: KartaExtra[];
+}
+
 interface Props {
   title: string;
   description?: string;
@@ -39,8 +48,9 @@ interface Props {
   author?: string;
   references?: Reference[];
   referenceStyle?: 'bullet' | 'numbered';
+  karta?: Karta;
 }
-const { title, description, lastModified, tldr, category, slug, ogImageOverride, author, references, referenceStyle = 'bullet' } = Astro.props;
+const { title, description, lastModified, tldr, category, slug, ogImageOverride, author, references, referenceStyle = 'bullet', karta } = Astro.props;
 
 /**
  * Formát autora pro byline: "Petr Král" → "P. Král",
@@ -130,6 +140,7 @@ const krokyZmineni = slug ? krokyProClanek(slug) : [];
     </header>
 
     <div class="prose-content drop-cap" itemprop="articleBody">
+      {karta && <KartaSbirky karta={karta} />}
       <slot />
     </div>
 
