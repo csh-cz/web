@@ -21,6 +21,7 @@ category: "sbirka"           # Exponáty spolku (vystavené i depozit)
        | "konstrukce"        # Mechanismy a principy hodin obecně
        | "projekty"          # DIY autorské konstrukce spolku
        | "virtualni-muzeum"  # Zajímavé hodiny mimo sbírku spolku
+       | "muzea"             # Sister muzea, přehledy sbírek (Mindelheim, Protivín, …)
        | "zajimavosti"       # Eseje o čase, kalendáře, časoměrné systémy
 
 # Deprecated (postupná migrace; schema je dočasně akceptuje):

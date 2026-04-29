@@ -9,7 +9,8 @@ Celkem článků: **207**
 | sbirka | 75 |
 | konstrukce | 30 |
 | projekty | 35 |
-| virtualni-muzeum | 25 |
+| virtualni-muzeum | 21 |
+| muzea | 4 |
 | zajimavosti | 19 |
 | kronika | 23 |
 
@@ -168,7 +169,7 @@ Celkem článků: **207**
 | `TimeSlider` | projekty | — | DEFAULT: projekty → projekty |
 | `Timometer` | projekty | — | DEFAULT: projekty → projekty |
 
-## virtualni-muzeum (25)
+## virtualni-muzeum (21)
 
 | slug | starou kategorií | navrh tagů | důvod |
 |---|---|---|---|
@@ -178,12 +179,9 @@ Celkem článků: **207**
 | `janovice` | vezni-hodiny | vezni, cesko | OVERRIDE: kostel Janovice |
 | `kardasova_recice` | vezni-hodiny | vezni, cesko | OVERRIDE: Kardašova Řečice |
 | `kavalir` | projekty | kuriozita | OVERRIDE: Hodiny Kavalír |
-| `kralovstvi-casu` | ostatni | cesko | OVERRIDE: sister muzeum Protivín |
 | `kvetinove` | sbirka | kvetinove | OVERRIDE: přehled květinových hodin ve světě |
 | `kvetinovehodiny_Chomutov` | sbirka | kvetinove, cesko | OVERRIDE: Chomutov |
 | `kvetinovehodiny_NMnM` | sbirka | kvetinove, cesko, 1900s | OVERRIDE: NM nad Metují |
-| `mindelheim` | vezni-hodiny | evropa | OVERRIDE: externí muzeum |
-| `muzea_cr` | sbirka | cesko | OVERRIDE: přehled muzeí ČR |
 | `podebrady` | sbirka | kvetinove, cesko | OVERRIDE: Poděbrady květinové |
 | `podebrady1` | sbirka | kvetinove, cesko | OVERRIDE: Poděbrady 1 |
 | `podebrady1b` | sbirka | kvetinove, cesko | OVERRIDE: Poděbrady ohlasy |
@@ -194,9 +192,17 @@ Celkem článků: **207**
 | `svetlonos` | projekty | cesko | OVERRIDE: Sezimovo Ústí |
 | `tabor` | vezni-hodiny | vezni, cesko | OVERRIDE: táborský orloj |
 | `TimHunkin` | projekty | kuriozita | OVERRIDE: humor — Tim Hunkin |
-| `vezni_muzejicko_evropa` | vezni-hodiny | evropa | OVERRIDE: fenomén věžních muzeí |
 | `vlachynsky` | projekty | cesko | OVERRIDE: Holiday Inn Brno |
 | `zmizele` | sbirka | — | OVERRIDE: zmizelé hodiny |
+
+## muzea (4)
+
+| slug | starou kategorií | navrh tagů | důvod |
+|---|---|---|---|
+| `kralovstvi-casu` | ostatni | cesko | OVERRIDE: sister muzeum Protivín |
+| `mindelheim` | vezni-hodiny | evropa | OVERRIDE: externí muzeum Mindelheim DE |
+| `muzea_cr` | sbirka | cesko | OVERRIDE: přehled muzeí ČR |
+| `vezni_muzejicko_evropa` | vezni-hodiny | evropa | OVERRIDE: fenomén věžních muzeí |
 
 ## zajimavosti (19)
 

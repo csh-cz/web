@@ -30,7 +30,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
 const CONTENT = join(ROOT, 'content/hodinarium-eu');
 
-type NewCategory = 'sbirka' | 'konstrukce' | 'projekty' | 'virtualni-muzeum' | 'zajimavosti' | 'kronika';
+type NewCategory = 'sbirka' | 'konstrukce' | 'projekty' | 'virtualni-muzeum' | 'muzea' | 'zajimavosti' | 'kronika';
 
 interface MigrationDecision {
   slug: string;
@@ -126,11 +126,13 @@ const SLUG_OVERRIDES: Record<string, { cat: NewCategory; tags?: string[]; reason
   // Změny zde:
   'mereni_casu_projekty': { cat: 'projekty', reason: 'pokud existuje pod jiným slugem' },
 
+  // --- MUZEA (sister muzea, přehledy sbírek) ---
+  'mindelheim': { cat: 'muzea', tags: ['evropa'], reason: 'externí muzeum Mindelheim DE' },
+  'vezni_muzejicko_evropa': { cat: 'muzea', tags: ['evropa'], reason: 'fenomén věžních muzeí' },
+  'kralovstvi-casu': { cat: 'muzea', tags: ['cesko'], reason: 'sister muzeum Protivín' },
+  'muzea_cr': { cat: 'muzea', tags: ['cesko'], reason: 'přehled muzeí ČR' },
+
   // --- VIRTUÁLNÍ MUZEUM (zajímavé hodiny mimo sbírku) ---
-  'mindelheim': { cat: 'virtualni-muzeum', tags: ['evropa'], reason: 'externí muzeum' },
-  'vezni_muzejicko_evropa': { cat: 'virtualni-muzeum', tags: ['evropa'], reason: 'fenomén věžních muzeí' },
-  'kralovstvi-casu': { cat: 'virtualni-muzeum', tags: ['cesko'], reason: 'sister muzeum Protivín' },
-  'muzea_cr': { cat: 'virtualni-muzeum', tags: ['cesko'], reason: 'přehled muzeí ČR' },
   'kvetinove': { cat: 'virtualni-muzeum', tags: ['kvetinove'], reason: 'přehled květinových hodin ve světě' },
   'kvetinovehodiny_NMnM': { cat: 'virtualni-muzeum', tags: ['kvetinove', 'cesko', '1900s'], reason: 'NM nad Metují' },
   'kvetinovehodiny_Chomutov': { cat: 'virtualni-muzeum', tags: ['kvetinove', 'cesko'], reason: 'Chomutov' },
@@ -246,6 +248,7 @@ function main() {
     konstrukce: [],
     projekty: [],
     'virtualni-muzeum': [],
+    muzea: [],
     zajimavosti: [],
     kronika: [],
   };

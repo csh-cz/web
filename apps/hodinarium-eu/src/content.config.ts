@@ -41,6 +41,7 @@ const clanky = defineCollection({
      *   - konstrukce        — mechanismy a principy hodin obecně
      *   - projekty          — DIY autorské konstrukce spolku
      *   - virtualni-muzeum  — zajímavé hodiny mimo sbírku spolku
+     *   - muzea             — sister muzea, přehledy sbírek (Mindelheim, Protivín, …)
      *   - zajimavosti       — eseje o čase, kalendáře, časoměrné systémy
      *
      * Stará schema (pre-2026-04, postupná migrace):
@@ -49,7 +50,7 @@ const clanky = defineCollection({
      */
     category: z.enum([
       // nové
-      'sbirka', 'konstrukce', 'projekty', 'virtualni-muzeum', 'zajimavosti',
+      'sbirka', 'konstrukce', 'projekty', 'virtualni-muzeum', 'muzea', 'zajimavosti',
       // staré (deprecated, ponechané kvůli postupné migraci)
       'decin', 'vezni-hodiny', 'ostatni',
     ]),
