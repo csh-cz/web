@@ -15,6 +15,7 @@
     "imgvariants:build": "tsx scripts/generate-image-formats.ts",
     "favicon:build": "tsx scripts/build-favicon.ts",
     "hodinari:detect": "tsx scripts/detect-hodinari-mentions.ts",
+    "gmaps:parse": "tsx scripts/parse-gmaps-kml.ts",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:headed": "playwright test --headed",
