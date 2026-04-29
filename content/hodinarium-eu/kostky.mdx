@@ -7,6 +7,8 @@ lastModified: "Mon, 03 Feb 2025 08:42:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:09.798Z"
 ---
+import PdfPager from '../../apps/hodinarium-eu/src/components/PdfPager.astro';
+
 Dr. Jaroslav Adam
 
 ### Pozoruhodná sbírka pana Dr. Adama byla vystavena v roce 2015.
@@ -21,8 +23,4 @@ Jsme rádi, že i náš spolek přispěl k obohacení sbírky vlastním exponát
 
 ## Brožura k výstavě
 
-<div class="pdf-frame">
-  <iframe src="/download/brozura_miniatury.pdf#toolbar=1&navpanes=0&scrollbar=1&zoom=page-fit&view=Fit" title="Brožura — Výtvarné miniatury ve tvaru kostky (76 stran, A5)" loading="lazy" allow="fullscreen"></iframe>
-</div>
-
-<p class="pdf-frame-fallback">PDF se nezobrazuje? <a href="/download/brozura_miniatury.pdf" rel="noopener" target="_blank">Otevřít brožuru v novém okně</a> nebo ji <a href="/download/brozura_miniatury.pdf" download>stáhnout</a> (76 stran, A5, 2,0 MB).</p>
+<PdfPager src="/download/brozura_miniatury.pdf" title="Brožura — Výtvarné miniatury ve tvaru kostky" pages={76} />

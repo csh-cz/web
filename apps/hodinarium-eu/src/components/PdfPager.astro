@@ -1,0 +1,249 @@
+---
+/**
+ * Inline PDF prohlížeč s page-by-page navigací (PDF.js).
+ *
+ * Renderuje právě jednu stránku na <canvas>, fit-to-width default
+ * (žádné šedé okraje kolem stránky). Toolbar nahoře: prev/next,
+ * page X/N, zoom −/+/⤢ (reset na fit), download.
+ *
+ * Šipky doleva/doprava posouvají stránky (focus v canvas-wrap).
+ *
+ * PDF.js z jsDelivr CDN (pdfjs-dist ESM). Pokud CDN selže nebo JS
+ * nepoběží, zobrazí se fallback s download / open-in-new-tab.
+ *
+ * Použití:
+ *   import PdfPager from '.../PdfPager.astro';
+ *   <PdfPager src="/download/foo.pdf" title="…" pages={76} />
+ *
+ * `pages` je optional — slouží jen pro initial label, finální počet
+ * dotahá PDF.js z dokumentu.
+ */
+interface Props {
+  src: string;
+  title?: string;
+  pages?: number;
+}
+const { src, title = 'PDF dokument', pages } = Astro.props;
+const PDFJS_VERSION = '4.0.379';
+---
+<div class="pdf-pager" data-pdf-src={src} data-pdf-title={title} data-pdfjs-version={PDFJS_VERSION}>
+  <div class="pdf-pager-toolbar" role="toolbar" aria-label="Ovládání PDF">
+    <button type="button" class="pdf-pager-btn" data-pdf-prev aria-label="Předchozí stránka" disabled>‹</button>
+    <span class="pdf-pager-pageinfo">
+      <span data-pdf-page>1</span> / <span data-pdf-total>{pages ?? '—'}</span>
+    </span>
+    <button type="button" class="pdf-pager-btn" data-pdf-next aria-label="Další stránka" disabled>›</button>
+    <span class="pdf-pager-spacer"></span>
+    <button type="button" class="pdf-pager-btn" data-pdf-zoom-out aria-label="Zmenšit">−</button>
+    <button type="button" class="pdf-pager-btn" data-pdf-zoom-reset aria-label="Vyplnit šířku" title="Vyplnit šířku">⤢</button>
+    <button type="button" class="pdf-pager-btn" data-pdf-zoom-in aria-label="Zvětšit">+</button>
+    <a class="pdf-pager-btn pdf-pager-download" href={src} download aria-label="Stáhnout PDF" title="Stáhnout">↓</a>
+  </div>
+  <div class="pdf-pager-canvas-wrap" tabindex="0" aria-label={`${title} — listujte šipkami doleva a doprava`}>
+    <canvas data-pdf-canvas></canvas>
+    <p class="pdf-pager-status" data-pdf-loading>Načítám PDF…</p>
+    <p class="pdf-pager-status pdf-pager-error" data-pdf-error hidden>
+      PDF se nepodařilo zobrazit. <a href={src} download>Stáhnout</a>
+      nebo <a href={src} target="_blank" rel="noopener">otevřít v novém okně</a>.
+    </p>
+  </div>
+</div>
+
+<script>
+  // Astro processed module script — async IIFE umožní await na CDN import.
+  (async function setupPdfPager() {
+    const root = document.querySelector('.pdf-pager');
+    if (!root) return;
+    const src = (root as HTMLElement).dataset.pdfSrc!;
+    const ver = (root as HTMLElement).dataset.pdfjsVersion!;
+    const canvas = root.querySelector('[data-pdf-canvas]') as HTMLCanvasElement;
+    const ctx = canvas.getContext('2d')!;
+    const wrap = root.querySelector('.pdf-pager-canvas-wrap') as HTMLElement;
+    const loading = root.querySelector('[data-pdf-loading]') as HTMLElement;
+    const errorEl = root.querySelector('[data-pdf-error]') as HTMLElement;
+    const pageEl = root.querySelector('[data-pdf-page]') as HTMLElement;
+    const totalEl = root.querySelector('[data-pdf-total]') as HTMLElement;
+    const prevBtn = root.querySelector('[data-pdf-prev]') as HTMLButtonElement;
+    const nextBtn = root.querySelector('[data-pdf-next]') as HTMLButtonElement;
+
+    let pdf: any;
+    let pageNum = 1;
+    let zoom = 1.0;
+    let fitMode = true;
+
+    try {
+      // pdfjs-dist ESM s public worker
+      const pdfjs: any = await import(
+        /* @vite-ignore */ `https://cdn.jsdelivr.net/npm/pdfjs-dist@${ver}/+esm`
+      );
+      pdfjs.GlobalWorkerOptions.workerSrc =
+        `https://cdn.jsdelivr.net/npm/pdfjs-dist@${ver}/build/pdf.worker.min.mjs`;
+      pdf = await pdfjs.getDocument(src).promise;
+    } catch (err) {
+      console.error('[PdfPager] failed to load PDF.js:', err);
+      loading.hidden = true;
+      errorEl.hidden = false;
+      return;
+    }
+
+    totalEl.textContent = String(pdf.numPages);
+    loading.hidden = true;
+
+    async function render() {
+      const page = await pdf.getPage(pageNum);
+      const wrapW = wrap.clientWidth;
+      const baseViewport = page.getViewport({ scale: 1 });
+      const fitScale = wrapW / baseViewport.width;
+      const scale = fitMode ? fitScale : fitScale * zoom;
+      const viewport = page.getViewport({ scale });
+      // Hi-DPI: render at devicePixelRatio, scale CSS down.
+      const dpr = window.devicePixelRatio || 1;
+      canvas.width = Math.floor(viewport.width * dpr);
+      canvas.height = Math.floor(viewport.height * dpr);
+      canvas.style.width = viewport.width + 'px';
+      canvas.style.height = viewport.height + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      await page.render({ canvasContext: ctx, viewport }).promise;
+      pageEl.textContent = String(pageNum);
+      prevBtn.disabled = pageNum <= 1;
+      nextBtn.disabled = pageNum >= pdf.numPages;
+    }
+
+    prevBtn.addEventListener('click', () => {
+      if (pageNum > 1) { pageNum--; render(); }
+    });
+    nextBtn.addEventListener('click', () => {
+      if (pageNum < pdf.numPages) { pageNum++; render(); }
+    });
+    (root.querySelector('[data-pdf-zoom-in]') as HTMLButtonElement).addEventListener('click', () => {
+      fitMode = false; zoom = Math.min(4, zoom * 1.25); render();
+    });
+    (root.querySelector('[data-pdf-zoom-out]') as HTMLButtonElement).addEventListener('click', () => {
+      fitMode = false; zoom = Math.max(0.3, zoom / 1.25); render();
+    });
+    (root.querySelector('[data-pdf-zoom-reset]') as HTMLButtonElement).addEventListener('click', () => {
+      fitMode = true; zoom = 1; render();
+    });
+
+    wrap.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft' && pageNum > 1) {
+        e.preventDefault(); pageNum--; render();
+      } else if (e.key === 'ArrowRight' && pageNum < pdf.numPages) {
+        e.preventDefault(); pageNum++; render();
+      }
+    });
+
+    // Re-fit on resize (debounced)
+    let resizeTimer: number | undefined;
+    window.addEventListener('resize', () => {
+      if (resizeTimer) clearTimeout(resizeTimer);
+      resizeTimer = window.setTimeout(() => { if (fitMode) render(); }, 200);
+    });
+
+    await render();
+  })();
+</script>
+
+<style>
+  .pdf-pager {
+    width: 100%;
+    margin: 1.5rem 0;
+    background: var(--color-bg-deep);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .pdf-pager-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.45rem 0.7rem;
+    background: var(--color-bg-elevated);
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    flex-wrap: wrap;
+  }
+  .pdf-pager-btn {
+    background: transparent;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 28%, transparent);
+    color: var(--color-text);
+    padding: 0.28rem 0.6rem;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 0.95rem;
+    line-height: 1;
+    text-decoration: none;
+    transition: border-color 120ms ease, background 120ms ease;
+    font-family: inherit;
+    min-width: 1.8rem;
+    text-align: center;
+  }
+  .pdf-pager-btn:hover:not(:disabled) {
+    border-color: var(--color-brass);
+    background: color-mix(in srgb, var(--color-brass) 10%, transparent);
+    color: var(--color-brass-bright);
+  }
+  .pdf-pager-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+  .pdf-pager-pageinfo {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+    margin: 0 0.35rem;
+    min-width: 4em;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+  }
+  .pdf-pager-pageinfo span {
+    color: var(--color-brass-bright);
+    font-weight: 500;
+  }
+  .pdf-pager-spacer { flex: 1 1 0; }
+
+  .pdf-pager-canvas-wrap {
+    width: 100%;
+    background: var(--color-bg-deep);
+    text-align: center;
+    overflow: auto;
+    outline: none;
+    min-height: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+  }
+  .pdf-pager-canvas-wrap:focus-visible {
+    box-shadow: inset 0 0 0 2px var(--color-brass);
+  }
+  .pdf-pager-canvas-wrap canvas {
+    display: block;
+    max-width: 100%;
+  }
+  .pdf-pager-status {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-text-muted);
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+  }
+  .pdf-pager-status a { color: var(--color-brass-bright); }
+  .pdf-pager-error {
+    font-style: normal;
+  }
+
+  @media (max-width: 540px) {
+    .pdf-pager-toolbar {
+      gap: 0.25rem;
+      padding: 0.35rem 0.5rem;
+    }
+    .pdf-pager-btn {
+      padding: 0.25rem 0.45rem;
+      font-size: 0.85rem;
+    }
+  }
+</style>
