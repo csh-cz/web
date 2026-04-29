@@ -1,0 +1,42 @@
+---
+/**
+ * Inline citace na položku v references[] frontmatteru.
+ *
+ * Používat ve článcích s `referenceStyle: numbered`. Komponenta vyrendruje
+ * superscript [N] s anchor na #ref-N (v references-list položka má id).
+ *
+ * Použití:
+ *   <Ref n={1} />     → [1] linkující na #ref-1
+ *   <Ref n={2} />     → [2] linkující na #ref-2
+ *
+ * Číslování odpovídá pořadí položek v references[] (1-indexed).
+ */
+interface Props {
+  n: number;
+}
+const { n } = Astro.props;
+---
+<sup class="ref-cite"><a href={`#ref-${n}`} aria-label={`Reference ${n}`}>[{n}]</a></sup>
+
+<style is:global>
+  .ref-cite {
+    font-size: 0.75em;
+    vertical-align: super;
+    line-height: 0;
+    margin-left: 0.05em;
+    font-feature-settings: "lnum";
+  }
+  .ref-cite a {
+    color: var(--color-copper);
+    text-decoration: none;
+    border: none !important;
+    padding: 0 0.15em;
+  }
+  .ref-cite a:hover {
+    color: var(--color-brass-bright);
+  }
+  .ref-cite a:target,
+  .references-list li:target {
+    background: color-mix(in srgb, var(--color-brass) 15%, transparent);
+  }
+</style>

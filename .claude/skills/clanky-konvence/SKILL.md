@@ -107,7 +107,9 @@ Pokud `class="img-hero"` nedáš a Photo je první v článku, JS auto-promote h
 
 **„Dovětkový" link** (závorka „více ve wiki", „další info na wiki") **vždy** pryč z textu do references.
 
-CSS automaticky přidá drobnou měděnou ⓦ ikonku za každý wiki/commons link v `.prose-content` i v `.references-list` — selektor URL pattern `wikipedia.org/wiki/` a `wikimedia.org/wiki/`.
+CSS automaticky přidá:
+- **V textu (`.prose-content`)** — drobnou měděnou **ⓦ** ikonku za každý wiki/commons link (`wikipedia.org/wiki/`, `wikimedia.org/wiki/`).
+- **V references-list** — `<li class="reference-wiki">` má **W bullet vlevo**, ⓦ za textem se NEpřidává (duplicate by byl rušivý). Stejně to platí pro mapy (pin bullet vlevo, žádný ::after pin).
 
 ## 6. Odkazy na mapy
 
@@ -201,7 +203,92 @@ Hromadná migrace 200+ legacy `.md` → MDX a strukturní pravidla = velký job.
 - `scripts/build-catalog.ts` — generuje `catalog.json` (excerpt, wordCount, year, …)
 - Skript pro hromadný cleanup HRs — viz Python inline v conversation history (frontmatter-aware HR collapse)
 
-## 17. Kdy spawnovat `cestina` skill
+## 17. Reference style (bullet vs numbered)
+
+`references[]` v article frontmatter podporuje **dva styly** zobrazení, řízené `referenceStyle:` field:
+
+### A) `bullet` (default) — souhrnný seznam pod článkem
+
+Hodí se pro **většinu článků**. Položky se zobrazí jako odrážkový seznam s ikonou podle `type` (W pro wiki, pin pro mapa, 📖 pro kniha, ⤓ pro pdf, § pro článek, · pro odkaz). V těle článku se přímo neodkazuje — reference jsou „další zdroje" nebo „dovětky".
+
+```yaml
+referenceStyle: bullet  # nebo neuvedeno (default)
+references:
+  - title: "Hebrejská abeceda"
+    url: "https://cs.wikipedia.org/wiki/Hebrejská_abeceda"
+    type: wiki
+```
+
+### B) `numbered` — citované reference s anchory
+
+Pro **odborné články s přesnými citacemi**. Položky v references-list se vyrenderují jako `[1]`, `[2]`, …; v textu se odkazuje přes komponentu `<Ref n={N}>`, která vyrenderuje superscript `[N]` → `#ref-N` anchor.
+
+```yaml
+referenceStyle: numbered
+references:
+  - title: "PRS10 manuál"
+    url: "https://www.thinksrs.com/downloads/pdfs/manuals/PRS10m.pdf"
+    type: pdf
+  - title: "About the radioactivity of atomic clocks"
+    url: "https://www.thinksrs.com/downloads/pdfs/other%20stuff/PRS10_radioactivity.pdf"
+    type: pdf
+```
+
+```mdx
+import Ref from '../../apps/hodinarium-eu/src/components/Ref.astro';
+
+PRS10 je rubidiový oscilátor<Ref n={1} /> s nízkým fázovým šumem. Radioaktivita
+je nižší než u banánu<Ref n={2} />.
+```
+
+CSS counter() inkrementuje `[1]`, `[2]`, … u `<li>` v references. `:target` zvýrazní položku, na kterou jsme přišli z `<Ref>`.
+
+### Kdy který styl
+
+| Typ článku | Doporučený styl |
+|---|---|
+| Popis exponátu, vyprávění, popularizační | `bullet` (default) |
+| Technický článek s přesnými citacemi | `numbered` |
+| Souhrn legacy webu s odkazy „více na…" | `bullet` |
+| Vlastní výzkum / publikace | `numbered` |
+
+Můžeš hybridnout — `referenceStyle: numbered` ale v textu **nepoužít** `<Ref>`. Numbering je tam tak jako tak (jen čtenář nenajde kotvy zpětně). Stejně tak `bullet` styl s `<Ref>` v textu funguje (anchor projde), ale uživatel uvidí `[1]` jako text bez vizuální reference k seznamu.
+
+## 18. Kontrola MD → HTML konverze (legacy import artefakty)
+
+Většina článků pochází z **legacy import** z hodinarium.eu (HTML → markdown přes turndown). Konverze není dokonalá a zanechává artefakty, které **při buildu silently projdou** a vyrenderují se chybně. Při editaci článku **vždy projít** a zkontrolovat:
+
+### Časté artefakty z importu
+
+| Vzor v MDX | Problém | Oprava |
+|---|---|---|
+| `**[text](url)**word` | bold + link bez whitespace za `**` — markdown to neparsuje jako bold; rendruje se literální `**` | strip bold (`[text](url)` stačí), přidat space před následujícím slovem |
+| `**X**text` (bez mezery) | nezavřený bold — všechen následující text je bold až do dalšího `**` | přidat mezeru za uzavírací `**` |
+| `***Na text...** ...*` | 3 hvězdičky vlevo, 2 vpravo — italický `Na text...` v bold, ale uzavření asymetrické | Strip nebo přepsat na čisté `*Na text… vůbec.*` (jen italika) |
+| `**Co tvoří hodiny hodinami**` na samostatném řádku | bold paragraph místo nadpisu | změnit na `## Co tvoří hodiny hodinami` |
+| `* * *` třikrát po sobě | duplicate horizontal rules | collapse na jeden (script v conversation history) |
+| `[odkaz na **něco**](url)` | bold uvnitř link textu | OK, funguje, ale často nadbytečné — zvážit strip bold |
+| `*[odkaz](url)*` | italika kolem linku | OK, funguje, ale často špatně z importu — zkontrolovat sémantiku |
+| `text. ![alt](src)` (image inline na konci paragrafu) | image jako float „lepený" za text | přesunout na samostatný řádek nebo do správné sekce |
+| `Petr Král` na konci článku | atribuce v body (legacy pattern) | strip a doplnit `author: "Petr Král"` ve frontmatter |
+
+### Workflow při revizi článku
+
+1. **Otevři live náhled** na pages.dev — porovnej s legacy `hodinarium.eu/<slug>.htm`. Najdi vizuálně rozbité kusy (rozjeté `**`, divné mezery, duplicate `<hr>`).
+2. **Strip atribuci z body** (Petr Král / Ing. Petr Král) → `author:` ve frontmatter.
+3. **Convert bold subheadings** (`**Title**` na samostatném řádku) → `## Title`.
+4. **Promote wiki/mapa odkazy** z body do `references:` (kde věta není organická — typicky „více v…" nebo závorka).
+5. **Strip duplicitní `* * *`** — nech jen jeden.
+6. **Hero**: pokud první obrázek má atribuci (Wikimedia, archiv), vyměnit `![](src)` → `<Photo>` s credit prop.
+7. **Build lokálně** `pnpm build` — `astro check` chytne typed errors; vizuální MD problémy chytí jen lidská kontrola.
+
+### Plánovaná hromadná revize
+
+Existuje **200+ článků** z legacy importu. Hromadný script-based fix je rizikový — heuristika nezvládne semantiku. **Strategie:** revize postupně při dotyku článku (editing trigger), plus jednou za čas „revize sweep" — projít top 20 nejnavštěvovanějších článků (podle analytics, až budou) a procesovat manuálně.
+
+Při revizi **vždy** zachytit specifické artefakty, které se objeví, a doplnit je do tabulky výše — abychom z opakování viděli pattern a mohli pak napsat targeted regex/script.
+
+## 19. Kdy spawnovat `cestina` skill
 
 Při delším českém textu článku (popis, perex, references title, sekce) je užitečné nechat ho zkontrolovat skillem **cestina** — odstraní AI-tells, slovakismy, anglicismy a opravu české typografie (uvozovky, pomlčky, mezery u jednotek).
 

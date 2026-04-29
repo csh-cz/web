@@ -38,6 +38,9 @@ const clanky = defineCollection({
     author: z.string().optional(),
     /** Literatura a odkazy renderované v sekci pod článkem. */
     references: z.array(reference).optional(),
+    /** Styl seznamu referencí: 'bullet' (default — type-icon) nebo 'numbered'
+     *  ([1], [2] …, vhodné pro články s přímými citacemi přes <Ref n={N}>). */
+    referenceStyle: z.enum(['bullet', 'numbered']).optional(),
   }),
 });
 

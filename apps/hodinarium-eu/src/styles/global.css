@@ -872,13 +872,11 @@ summary::-webkit-details-marker { display: none; }
   }
 }
 
-/* Wikipedia & Wikimedia odkazy — drobná měděná ⓦ ikonka po textu,
-   konsistentní styling napříč celým webem. Aplikuje se v prose-content
-   (články) i v references-list (literatura pod článkem). */
+/* Wikipedia & Wikimedia odkazy v textu — drobná měděná ⓦ ikonka po textu.
+   V references-list NE — tam má každá položka type-bullet (W) vlevo,
+   duplikát ⓦ vpravo by byl redundantní. */
 .prose-content a[href*="wikipedia.org/wiki/"]::after,
-.prose-content a[href*="wikimedia.org/wiki/"]::after,
-.references-list a[href*="wikipedia.org/wiki/"]::after,
-.references-list a[href*="wikimedia.org/wiki/"]::after {
+.prose-content a[href*="wikimedia.org/wiki/"]::after {
   content: '\00A0ⓦ';
   font-size: 0.85em;
   color: var(--color-copper);
@@ -888,28 +886,19 @@ summary::-webkit-details-marker { display: none; }
   vertical-align: baseline;
 }
 .prose-content a[href*="wikipedia.org/wiki/"]:hover::after,
-.prose-content a[href*="wikimedia.org/wiki/"]:hover::after,
-.references-list a[href*="wikipedia.org/wiki/"]:hover::after,
-.references-list a[href*="wikimedia.org/wiki/"]:hover::after {
+.prose-content a[href*="wikimedia.org/wiki/"]:hover::after {
   color: var(--color-brass-bright);
 }
 
-/* Odkazy na mapové služby — drobná měděná pin ikonka po textu.
-   Pokrývá: mapy.cz, mapy.com (Mapy.com je nový brand), google.com/maps,
-   maps.google.*, openstreetmap.org. Mask trick — barva přes
-   background-color (currentColor → copper), tvar přes inline SVG mask. */
+/* Odkazy na mapové služby v textu — drobná měděná pin ikonka po textu.
+   Stejně jako wiki, v references-list neaplikujeme — tam je pin bullet
+   vlevo (.reference-mapa::before). */
 .prose-content a[href*="mapy.cz"]::after,
 .prose-content a[href*="mapy.com"]::after,
 .prose-content a[href*="google.com/maps"]::after,
 .prose-content a[href*="maps.google"]::after,
 .prose-content a[href*="goo.gl/maps"]::after,
-.prose-content a[href*="openstreetmap.org"]::after,
-.references-list a[href*="mapy.cz"]::after,
-.references-list a[href*="mapy.com"]::after,
-.references-list a[href*="google.com/maps"]::after,
-.references-list a[href*="maps.google"]::after,
-.references-list a[href*="goo.gl/maps"]::after,
-.references-list a[href*="openstreetmap.org"]::after {
+.prose-content a[href*="openstreetmap.org"]::after {
   content: '';
   display: inline-block;
   width: 0.85em;
@@ -926,13 +915,7 @@ summary::-webkit-details-marker { display: none; }
 .prose-content a[href*="google.com/maps"]:hover::after,
 .prose-content a[href*="maps.google"]:hover::after,
 .prose-content a[href*="goo.gl/maps"]:hover::after,
-.prose-content a[href*="openstreetmap.org"]:hover::after,
-.references-list a[href*="mapy.cz"]:hover::after,
-.references-list a[href*="mapy.com"]:hover::after,
-.references-list a[href*="google.com/maps"]:hover::after,
-.references-list a[href*="maps.google"]:hover::after,
-.references-list a[href*="goo.gl/maps"]:hover::after,
-.references-list a[href*="openstreetmap.org"]:hover::after {
+.prose-content a[href*="openstreetmap.org"]:hover::after {
   background-color: var(--color-brass-bright);
 }
 

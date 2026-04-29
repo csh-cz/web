@@ -37,8 +37,9 @@ interface Props {
   ogImageOverride?: string;
   author?: string;
   references?: Reference[];
+  referenceStyle?: 'bullet' | 'numbered';
 }
-const { title, description, lastModified, tldr, category, slug, ogImageOverride, author, references } = Astro.props;
+const { title, description, lastModified, tldr, category, slug, ogImageOverride, author, references, referenceStyle = 'bullet' } = Astro.props;
 
 /**
  * Formát autora pro byline: "Petr Král" → "P. Král",
@@ -181,9 +182,9 @@ const krokyZmineni = slug ? krokyProClanek(slug) : [];
     {references && references.length > 0 && (
       <section class="references" aria-labelledby="references-heading">
         <h2 id="references-heading" class="references-title">Literatura a odkazy</h2>
-        <ul class="references-list">
-          {references.map((r) => (
-            <li class={`reference reference-${r.type ?? 'odkaz'}`}>
+        <ul class="references-list" data-style={referenceStyle}>
+          {references.map((r, i) => (
+            <li id={`ref-${i + 1}`} class={`reference reference-${r.type ?? 'odkaz'}`}>
               {r.author && <span class="ref-author">{r.author}:</span>}
               {r.url
                 ? <a href={r.url} rel="noopener" target="_blank">{r.title}</a>
@@ -417,6 +418,45 @@ const krokyZmineni = slug ? krokyProClanek(slug) : [];
     background-color: var(--color-copper);
     mask: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z'/%3E%3C/svg%3E") no-repeat center / contain;
     -webkit-mask: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z'/%3E%3C/svg%3E") no-repeat center / contain;
+  }
+
+  /* Numbered styl — [1], [2], … místo type-bullet ikonek.
+     Aktivuje se přes data-style="numbered" na <ul> (vychází z frontmatter
+     referenceStyle: numbered). CSS counter() inkrementuje per <li>. */
+  .references-list[data-style="numbered"] {
+    counter-reset: ref;
+    padding-left: 2.5em;
+  }
+  .references-list[data-style="numbered"] li {
+    padding-left: 0.4rem;
+  }
+  .references-list[data-style="numbered"] li::before {
+    content: '[' counter(ref) ']';
+    counter-increment: ref;
+    width: 2.2em;
+    left: -2.2em;
+    top: 0;
+    color: var(--color-copper);
+    font-weight: 500;
+    font-feature-settings: "lnum";
+    text-align: right;
+    padding-right: 0.4em;
+    /* Reset všech mask trickách z bullet stylu */
+    background: none !important;
+    mask: none !important;
+    -webkit-mask: none !important;
+    height: auto;
+    font-style: normal;
+    font-family: inherit;
+  }
+  /* Při :target (kliknutí na ref-N) zvýraznit položku */
+  .references-list li:target {
+    background: color-mix(in srgb, var(--color-brass) 12%, transparent);
+    border-radius: 2px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-right: 0.4rem;
+    transition: background 200ms ease;
   }
   .references-list a {
     color: var(--color-brass-bright);
