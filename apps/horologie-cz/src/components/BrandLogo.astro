@@ -1,0 +1,37 @@
+---
+/**
+ * Inline SVG logo ČSH s currentColor.
+ *
+ * Mask trick (CSS) na některých prohlížečích nedotahoval barvu —
+ * inline SVG s build-time replace #ffffff → currentColor je
+ * deterministické: SVG se vykreslí v barvě rodiče (color: var(--color-text)).
+ *
+ * SVG se načítá ze /public/img/logo-csh.svg během buildu (Node fs).
+ */
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { dirname, resolve } from 'node:path';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const logoPath = resolve(__dirname, '../../public/img/logo-csh.svg');
+const logoSvg = readFileSync(logoPath, 'utf-8')
+  .replace(/#ffffff/gi, 'currentColor')
+  // odstraní xml declaration (uvnitř HTML způsobuje problém v některých parserech)
+  .replace(/^<\?xml[^>]*\?>\s*/i, '');
+---
+<span class="brand-logo" aria-hidden="true" set:html={logoSvg}></span>
+
+<style>
+  .brand-logo {
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    flex-shrink: 0;
+    line-height: 0;
+  }
+  .brand-logo :global(svg) {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+</style>

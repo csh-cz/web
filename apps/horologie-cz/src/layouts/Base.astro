@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import { SISTER_HODINARIUM } from "../data/sites";
+import BrandLogo from "../components/BrandLogo.astro";
 
 interface Props {
   title: string;
@@ -106,7 +107,7 @@ const orgJsonLd = isHome ? {
     <header class="site-header sticky top-0 z-20" role="banner">
       <nav class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between gap-4" aria-label="Hlavní navigace">
         <a href="/" class="brand" style="border-bottom: none;" aria-label="Český spolek horologický — domů">
-          <span class="brand-logo" aria-hidden="true"></span>
+          <BrandLogo />
           <span class="hidden sm:inline">Český spolek horologický</span>
           <span class="sm:hidden">ČSH</span>
         </a>
@@ -220,17 +221,6 @@ const orgJsonLd = isHome ? {
     color: var(--color-text);
     font-size: 1rem;
     flex-shrink: 0;
-  }
-  /* Logo skrz CSS mask, aby barva = currentColor (textová barva).
-     SVG má hardcoded fill: #ffffff; mask trick to obarví na barvu textu. */
-  .brand-logo {
-    width: 36px;
-    height: 36px;
-    display: inline-block;
-    flex-shrink: 0;
-    background-color: currentColor;
-    mask: url('/img/logo-csh.svg') no-repeat center / contain;
-    -webkit-mask: url('/img/logo-csh.svg') no-repeat center / contain;
   }
   .nav-sister {
     color: var(--color-copper) !important;
