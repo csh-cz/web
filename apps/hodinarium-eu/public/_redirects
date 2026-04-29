@@ -4,12 +4,13 @@
 
 # Specifické přesměrovky (root pages legacy hodinarium.eu)
 /index.htm / 301
-/mapa.htm /atlas 301
+/mapa.htm /mapa 301
 /spolek.htm https://horologie-cz.pages.dev/ 301
 /kontakt.htm https://horologie-cz.pages.dev/kontakt 301
 /spolek https://horologie-cz.pages.dev/ 301
-/clanky /atlas 301
-/hledej.htm /atlas 301
+/atlas /sbirka 301
+/clanky /sbirka 301
+/hledej.htm /sbirka 301
 /novinky.htm / 301
 /decin_zamek.htm /expozice 301
 
@@ -301,10 +302,13 @@
 /clanky/perpetum_mobile /sbirka/perpetum_mobile 301
 /clanky/synchronizace_hodin /konstrukce/synchronizace_hodin 301
 /clanky/jednotnycas /konstrukce/jednotnycas 301
+/clanky/muzeum_jindrisska_vez /muzea/muzeum_jindrisska_vez 301
 /clanky/kardasova_recice /virtualni-muzeum/kardasova_recice 301
+/clanky/muzeum_kadan_orloj /muzea/muzeum_kadan_orloj 301
 /clanky/kapesni_orloj /sbirka/kapesni_orloj 301
 /clanky/Kappa /projekty/Kappa 301
 /clanky/spinka /sbirka/spinka 301
+/clanky/muzeum_klementinum /muzea/muzeum_klementinum 301
 /clanky/hainz_natahovani /zajimavosti/hainz_natahovani 301
 /clanky/pneumatika /konstrukce/pneumatika 301
 /clanky/decin_koncepce /sbirka/decin_koncepce 301
@@ -330,17 +334,22 @@
 /clanky/mluvici1895 /konstrukce/mluvici1895 301
 /clanky/motorky /sbirka/motorky 301
 /clanky/muzeum_mih_chaux_de_fonds /muzea/muzeum_mih_chaux_de_fonds 301
+/clanky/muzeum_waldmunchen /muzea/muzeum_waldmunchen 301
+/clanky/muzeum_mnichovo_hradiste /muzea/muzeum_mnichovo_hradiste 301
+/clanky/muzeum_gdansk_zegarow_wiezowych /muzea/muzeum_gdansk_zegarow_wiezowych 301
 /clanky/mystery /sbirka/mystery 301
 /clanky/decin_bici_stroje /sbirka/decin_bici_stroje 301
 /clanky/nocturnal /sbirka/nocturnal 301
 /clanky/vezni_zikmund1 /sbirka/vezni_zikmund1 301
 /clanky/vodni_odkazy /sbirka/vodni_odkazy 301
 /clanky/kuriozity1 /zajimavosti/kuriozity1 301
+/clanky/muzeum_ostravske /muzea/muzeum_ostravske 301
 /clanky/paichl_knihy_hodiny_hodiny_slovnik_slovnik /zajimavosti/paichl_knihy_hodiny_hodiny_slovnik_slovnik 301
 /clanky/betrisey /virtualni-muzeum/betrisey 301
 /clanky/RickStanley /projekty/RickStanley 301
 /clanky/papir /sbirka/papir 301
 /clanky/casova_pasma /zajimavosti/casova_pasma 301
+/clanky/muzeum_patek_philippe /muzea/muzeum_patek_philippe 301
 /clanky/pichacky /konstrukce/pichacky 301
 /clanky/pilovky /konstrukce/pilovky 301
 /clanky/pneumatika2 /konstrukce/pneumatika2 301
@@ -358,6 +367,7 @@
 /clanky/decin_stroje2020 /sbirka/decin_stroje2020 301
 /clanky/pulsynetic /konstrukce/pulsynetic 301
 /clanky/radiotelegraficke_signaly /projekty/radiotelegraficke_signaly 301
+/clanky/muzeum_radnicni_vez_prostejov /muzea/muzeum_radnicni_vez_prostejov 301
 /clanky/muzeum_royal_observatory /muzea/muzeum_royal_observatory 301
 /clanky/PRS10 /projekty/PRS10 301
 /clanky/ruzne /zajimavosti/ruzne 301
@@ -382,11 +392,15 @@
 /clanky/svitici /sbirka/svitici 301
 /clanky/svarcvaldky /konstrukce/svarcvaldky 301
 /clanky/svarcvaldky_stroje /konstrukce/svarcvaldky_stroje 301
+/clanky/muzeum_chemnitz /muzea/muzeum_chemnitz 301
 /clanky/vodni_B_Gitton /sbirka/vodni_B_Gitton 301
 /clanky/Timometer /projekty/Timometer 301
 /clanky/decin_velika_ves /sbirka/decin_velika_ves 301
 /clanky/decin_patek /sbirka/decin_patek 301
 /clanky/decin_regulaceIBM /sbirka/decin_regulaceIBM 301
+/clanky/muzeum_pillichsdorf /muzea/muzeum_pillichsdorf 301
+/clanky/muzeum_beyer_zurich /muzea/muzeum_beyer_zurich 301
+/clanky/muzeum_aschau_burgenland /muzea/muzeum_aschau_burgenland 301
 /clanky/ukazatele /konstrukce/ukazatele 301
 /clanky/svarcvaldky_stroje_polodrev /konstrukce/svarcvaldky_stroje_polodrev 301
 /clanky/uspirku /sbirka/uspirku 301
@@ -397,6 +411,7 @@
 /clanky/orient /projekty/orient 301
 /clanky/mindelheim /muzea/mindelheim 301
 /clanky/muzeum_olomouc_vmo /muzea/muzeum_olomouc_vmo 301
+/clanky/muzeum_tyniste_n_orlici /muzea/muzeum_tyniste_n_orlici 301
 /clanky/vodni_budik /sbirka/vodni_budik 301
 /clanky/vodni_jegorov /sbirka/vodni_jegorov 301
 /clanky/vodni_minutky /sbirka/vodni_minutky 301

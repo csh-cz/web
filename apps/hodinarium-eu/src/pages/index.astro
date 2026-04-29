@@ -54,7 +54,7 @@ const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).ma
           až po&nbsp;astroláby řízené&nbsp;mikroprocesorem.
         </p>
         <div class="hero-cta">
-          <a href="/atlas" class="btn-primary">Procházet atlas</a>
+          <a href="/sbirka" class="btn-primary">Procházet sbírku</a>
           <a href="/mapa" class="btn-secondary">Mapa →</a>
         </div>
       </div>
@@ -84,7 +84,7 @@ const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).ma
         <p class="eyebrow mb-3">Vybrané exponáty</p>
         <h2 id="featured-heading" class="text-3xl md:text-4xl" style="margin-top: 0;">Stojí za prohlídku</h2>
       </div>
-      <a href="/atlas" class="text-sm">Vše v atlase →</a>
+      <a href="/tagy" class="text-sm">Procházet podle tagu →</a>
     </header>
     <div class="featured-grid">
       {featured.map((e) => (
@@ -108,17 +108,17 @@ const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).ma
       <h2 id="explore-heading" class="text-3xl md:text-4xl" style="margin-top: 0;">Najdi si svoji cestu</h2>
     </header>
     <div class="explore-grid">
-      <a href="/atlas" class="explore-card">
+      <a href="/tagy" class="explore-card">
         <div class="explore-icon" aria-hidden="true">
           <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
-            <rect x="6" y="6" width="14" height="14" rx="1"/>
-            <rect x="28" y="6" width="14" height="14" rx="1"/>
-            <rect x="6" y="28" width="14" height="14" rx="1"/>
-            <rect x="28" y="28" width="14" height="14" rx="1"/>
+            <path d="M6 14h36M6 24h36M6 34h36"/>
+            <circle cx="14" cy="14" r="2"/>
+            <circle cx="24" cy="24" r="2"/>
+            <circle cx="34" cy="34" r="2"/>
           </svg>
         </div>
-        <h3>Atlas</h3>
-        <p>Vizuální mřížka {withImages} hodin a artefaktů. Filtruj podle kategorie, klikni na detail.</p>
+        <h3>Tagy</h3>
+        <p>Filtr {withImages}+ článků podle vlastností — typ hodin, pohon, regulátor, období, lokace, výrobce.</p>
       </a>
       <a href="/mapa" class="explore-card">
         <div class="explore-icon" aria-hidden="true">
@@ -140,7 +140,7 @@ const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).ma
         <p class="eyebrow mb-3">Pro inspiraci</p>
         <h2 id="random-heading" class="text-3xl md:text-4xl" style="margin-top: 0;">Náhodný výběr</h2>
       </div>
-      <a href="/atlas" class="text-sm">Procházet vše →</a>
+      <a href="/sbirka" class="text-sm">Procházet vše →</a>
     </header>
     <div class="featured-grid">
       {browsable.map((e) => (

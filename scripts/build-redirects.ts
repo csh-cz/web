@@ -47,15 +47,18 @@ function newHref(slug: string, catalog: CatalogEntry[], kronikaSlugs: Set<string
 
 const SPECIAL: Record<string, string> = {
   '/index.htm': '/',
-  '/mapa.htm': '/atlas',
+  '/mapa.htm': '/mapa',
   // Spolková identita patří na sister site horologie-cz, ne do hodinarium-eu
   // (M5 cleanup — /spolek/ stránka v hodinarium-eu byla redundantní orphan).
   '/spolek.htm': 'https://horologie-cz.pages.dev/',
   '/kontakt.htm': 'https://horologie-cz.pages.dev/kontakt',
   '/spolek': 'https://horologie-cz.pages.dev/',
-  // /clanky/ overview byl smazán (M5.6) — /atlas pokrývá overview funkci
-  '/clanky': '/atlas',
-  '/hledej.htm': '/atlas',
+  // /atlas overview byl smazán — /sbirka jako default landing pro browsing,
+  // /tagy pro cross-cut filter podle vlastností
+  '/atlas': '/sbirka',
+  // /clanky/ overview byl smazán (M5.6) → /sbirka (dříve /atlas, teď taky pryč)
+  '/clanky': '/sbirka',
+  '/hledej.htm': '/sbirka',
   '/novinky.htm': '/',
   '/decin_zamek.htm': '/expozice',
 };
