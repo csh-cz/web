@@ -13,6 +13,7 @@
     "og:build": "tsx scripts/build-og-images.ts",
     "imgindex:build": "tsx scripts/build-image-index.ts",
     "imgvariants:build": "tsx scripts/generate-image-formats.ts",
+    "favicon:build": "tsx scripts/build-favicon.ts",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:headed": "playwright test --headed",
