@@ -5,14 +5,19 @@ category: "virtualni-muzeum"
 tags:
   - vezni
   - cesko
+references:
+  - title: "anatomie-varhan.cz"
+    url: "http://anatomie-varhan.cz/"
+    type: odkaz
+    note: "Zdrojový web — text k článku převzat se souhlasem"
 originalUrl: "https://hodinarium.eu/janovice.htm"
 lastModified: "Wed, 26 Apr 2017 16:20:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:15.610Z"
 ---
-***Převzato z webu [anatomie-varhan.cz](http://anatomie-varhan.cz/) Za souhlas děkujeme.***
+![Pohled na kostel sv. Josefa v Janovicích u Frýdku-Místku](/img/vezni/janovice/janovice.jpg)
 
-Kostel sv. Josefa v **Janovicích** u Frýdku - Místku (od roku 2000 národní kulturní památka) v sobě skrývá mnoho pozoruhodností. Zajímavý je i jeho "technický" inventář. S varhanami se můžete velmi podrobně seznámit v sekci "**varhany - Janovice**". ![](/img/vezni/janovice/janovice.jpg)
+Kostel sv. Josefa v **Janovicích** u Frýdku - Místku (od roku 2000 národní kulturní památka) v sobě skrývá mnoho pozoruhodností. Zajímavý je i jeho "technický" inventář. S varhanami se můžete velmi podrobně seznámit v sekci "**varhany - Janovice**".
 
 Další zajímavostí jsou **hodiny**. V roce 2000 byla provedena jejich generální oprava. Hodiny byly pořízeny do nového kostela až téměř po deseti letech jeho existence **v roce 1899**. Od té doby sloužily prakticky nepřetržitě až do roku 1999, až se sto let po svém vzniku nadlouho zastavily. Příčin bylo několik, především zchátralost rozvodu a cifernikových převodovek. Samotný stroj byl v poměrně dobrém stavu, poslední větší opravu prodělal cca o deset let dříve. I na něm se však našlo několik menších závad.
 
@@ -95,3 +100,5 @@ Hodiny po opravě jsou poměrně přesné, nesplnila se naše obava z možného 
 A na závěr ještě alespoň seznam těch, kdo se na opravě hodin podíleli:
 
 **Komponenty nátahu, rozváděč s řídící elektronikou a mechanické díly vyrobil Zdeněk Kubala. Renovaci převodovek, opravu rozvodu a většinu montážních prací provedl Jan Kozel, ručičky natřela Petra Kozlová, skříň hodin renovoval Stanislav Kaděra, pomáhali Marek Václavík, Ing. Pavel Bernat, Marta Bernatová, a další. Organizaci opravy, projekt úprav, zkonstruování nátahu, elektroinstalaci a montáže zajistil Ing. Petr Bernat.**
+
+*Text byl převzat se souhlasem z webu [anatomie-varhan.cz](http://anatomie-varhan.cz/) — za poskytnutí děkujeme.*
