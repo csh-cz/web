@@ -93,6 +93,30 @@ Whitelist je v `apps/hodinarium-eu/src/data/tags.json`, organizovaný do dimenz�
 - Pokud ano, **přesune ho** za první následující paragraf s textem (>50 znaků).
 - Tj. v MDX můžeš mít dva `![]()` po sobě, JS to vyřeší — nicméně pro stabilitu ideálně **piš v pořadí: hero → text → další obrázek**.
 
+## 2.5. Iniciála — drop cap na začátku článku
+
+**Konvence:** první písmeno prvního odstavce článku se zobrazí jako **iniciála** (drop cap) — velký dekorativní znak v serifovém fontu, brass-bright barva, float left, 4,5em výška, 2 řádky textu vedle něj. Vyrenderuje se **automaticky** přes CSS `.drop-cap > p:first-of-type::first-letter` v `global.css`.
+
+**Co psát v markdownu:** prostý text. Žádný manuální zápis nebo zvýraznění — CSS detekuje první písmeno automaticky.
+
+```markdown
+Chomutovské květinové hodiny stály u vchodu do tehdejšího městského parku…
+```
+
+→ "C" se vyrenderuje jako iniciála.
+
+### Legacy artefakt: `**X**a první pohled` per-paragraph
+
+Mnoho legacy článků z hodinarium.eu importu má **na každém paragrafu** zbytnostně bolded první písmeno: `**N**a první pohled`, `**P**oměrně bohatá historie`, `**S**troj byl…`. Tohle je **legacy noise** z původního HTML stylingu — vypadá to jako střední věk manuskript, ale na webu zbytnostně přitahuje pozornost a kazí čitelnost.
+
+**Pravidlo:** strip manuální `**X**slovo` na začátku paragrafu. CSS drop-cap pokrývá jen **první paragraf** (autorstickým způsobem); ostatní paragrafy mají normální typografii.
+
+Při refactoru existujícího článku regex find-and-replace:
+- Hledat: `\*\*([A-ZÁ-Ž])\*\*([a-zá-ž])` na začátku řádky paragrafu
+- Nahradit: `$1$2` (sjednotit zpět do plain textu)
+
+Hromadný cleanup je riskový (může chybným regexem zasáhnout i platný bold uprostřed věty) — postupně při dotyku článku.
+
 ## 3. Obrázky v textu
 
 | Velikost (z image-sizes.json) | CSS chování | Kdy |
