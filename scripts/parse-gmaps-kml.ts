@@ -38,6 +38,12 @@ function unescapeHtml(s: string): string {
     .replace(/&#39;/g, "'");
 }
 
+/** Strip <![CDATA[...]]> wrapper, který KML používá kolem názvů s diakritikou
+ *  a kolem HTML descriptions. */
+function stripCdata(s: string): string {
+  return s.replace(/^<!\[CDATA\[([\s\S]*?)\]\]>$/, '$1').trim();
+}
+
 function htmlToText(html: string): string {
   return html
     .replace(/<br\s*\/?>/gi, '\n')
@@ -51,15 +57,37 @@ function htmlToText(html: string): string {
  * Filtr / remap pravidla per folder. Aplikuje se při parsování — nech raw
  * KML beze změny, ale výsledný JSON už obsahuje jen relevantní data.
  *
- * keep:     pokud existuje, zachová JEN položky, jejichž name je v listu
- * remapTo:  zachované položky se přesunou do jiného folderu
- * skip:     true → celý folder vyhodit
+ * keep:           pokud existuje, zachová JEN položky, jejichž name je v listu
+ * remapTo:        zachované položky se přesunou do jiného folderu
+ * remapPerItem:   per-item: zachovat a přesunout do specifického folderu
+ * dropOthers:     true (s remapPerItem) → cokoli mimo remapPerItem vyhodit
+ * skip:           true → celý folder vyhodit
  */
-const FOLDER_FILTERS: Record<string, { keep?: string[]; remapTo?: string; skip?: boolean }> = {
+interface FolderFilter {
+  keep?: string[];
+  remapTo?: string;
+  remapPerItem?: Record<string, string>;
+  dropOthers?: boolean;
+  skip?: boolean;
+}
+const FOLDER_FILTERS: Record<string, FolderFilter> = {
   'Výlet Kassel': {
     // Zrušený výlet — z položek zachovat jen muzeum
     keep: ['Astronomisch-physikalisches Kabinett'],
     remapTo: 'Muzea',
+  },
+  'Konference a výlet Rostock': {
+    // Itinerary + nádraží + cesta vyhodit, jen relevantní orloje + muzeum
+    remapPerItem: {
+      'Marienkirche, Rostock': 'Orloje a astronomické hodiny',
+      'Doberaner Münster': 'Orloje a astronomické hodiny',
+      'Orloj Lübeck': 'Orloje a astronomické hodiny',
+      "Jens Olsen's World Clock": 'Orloje a astronomické hodiny',
+      'Katedrála v Lundu': 'Orloje a astronomické hodiny',
+      'Nikolaikirche Stralsund': 'Orloje a astronomické hodiny',
+      'City History Museum of Wismar': 'Muzea',
+    },
+    dropOthers: true,
   },
 };
 
@@ -78,8 +106,8 @@ async function main() {
     let pmMatch;
     while ((pmMatch = placemarkRe.exec(folderBlock)) !== null) {
       const pmBlock = pmMatch[1];
-      const name = (pmBlock.match(/<name>([\s\S]*?)<\/name>/)?.[1] ?? '').trim();
-      const descHtml = unescapeHtml((pmBlock.match(/<description>([\s\S]*?)<\/description>/)?.[1] ?? '').trim());
+      const name = stripCdata((pmBlock.match(/<name>([\s\S]*?)<\/name>/)?.[1] ?? '').trim());
+      const descHtml = unescapeHtml(stripCdata((pmBlock.match(/<description>([\s\S]*?)<\/description>/)?.[1] ?? '').trim()));
       const description = htmlToText(descHtml);
       const coordsStr = (pmBlock.match(/<coordinates>([\s\S]*?)<\/coordinates>/)?.[1] ?? '').trim();
       const [lng, lat] = coordsStr.split(',').map((n) => parseFloat(n));
@@ -88,7 +116,12 @@ async function main() {
       const filter = FOLDER_FILTERS[folderName];
       if (filter?.skip) continue;
       if (filter?.keep && !filter.keep.includes(name)) continue;
-      const finalFolder = filter?.remapTo ?? folderName;
+      let finalFolder = filter?.remapTo ?? folderName;
+      if (filter?.remapPerItem) {
+        const target = filter.remapPerItem[name];
+        if (target) finalFolder = target;
+        else if (filter.dropOthers) continue;
+      }
       placemarks.push({
         name,
         description,
