@@ -272,6 +272,25 @@ import imageSizes from '../data/image-sizes.json';
     border-color: var(--color-brass);
   }
 
+  /* Gallery item s caption — figure wrapper okolo img + figcaption */
+  .article-gallery .gallery-item {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .article-gallery .gallery-caption {
+    font-size: 0.78rem;
+    font-style: italic;
+    line-height: 1.4;
+    color: var(--color-text-muted);
+    text-align: center;
+    padding: 0 0.25rem;
+  }
+  .article-gallery .gallery-caption a {
+    color: var(--color-brass);
+  }
+
   /* Modifikátor: zachovat plný poměr stran (žádný crop), pevný počet
      sloupců na řádek. Použij pro skeny dobových inzerátů, dokumenty apod.,
      kde má smysl vidět celou stránku. */
@@ -470,39 +489,78 @@ import imageSizes from '../data/image-sizes.json';
 
     // 2. Skupinování konsekutivních LARGE obrázků do galerie
     //    (small/medium float v textu, ne sloučit)
-    const largeParas = [];
-    for (const p of article.querySelectorAll('p')) {
-      const imgs = p.querySelectorAll('img.img-large');
-      if (imgs.length === 0) continue;
-      const onlyImages = Array.from(p.childNodes).every((n) =>
+    //
+    //    Pravidlo: ≥2 konsekutivní img-large paragrafy → .article-gallery
+    //    grid s thumbnaily + lightbox. Krátké caption paragrafy (text < 120
+    //    znaků, žádný img) sekvenci NEPŘERUŠUJÍ — naopak se připojí jako
+    //    <figcaption> k předchozímu thumbnailu v galerii. Delší text =
+    //    obsahový paragraf, sekvenci ukončí.
+    const isImgOnlyP = (el) => {
+      if (!el || el.tagName !== 'P') return false;
+      if (el.querySelectorAll('img.img-large').length === 0) return false;
+      return Array.from(el.childNodes).every((n) =>
         n.nodeType !== 1 ||
-        n.tagName === 'IMG' ||
-        n.tagName === 'A' ||
-        n.tagName === 'BR'
+        n.tagName === 'IMG' || n.tagName === 'A' || n.tagName === 'BR'
       );
-      if (onlyImages) largeParas.push(p);
+    };
+    const isShortCaptionP = (el) => {
+      if (!el || el.tagName !== 'P') return false;
+      if (el.querySelector('img')) return false;
+      const text = (el.textContent || '').trim();
+      return text.length > 0 && text.length < 120;
+    };
+
+    // Posbírej sekvence: img-only p (s případnými short-caption mezi nimi)
+    const sequences = [];
+    let cursor = article.firstElementChild;
+    while (cursor) {
+      if (isImgOnlyP(cursor)) {
+        const seq = [cursor];
+        let next = cursor.nextElementSibling;
+        while (next && (isImgOnlyP(next) || isShortCaptionP(next))) {
+          seq.push(next);
+          next = next.nextElementSibling;
+        }
+        // Trim trailing captions (caption MUSÍ být MEZI img, ne na konci)
+        while (seq.length > 0 && !isImgOnlyP(seq[seq.length - 1])) seq.pop();
+        sequences.push(seq);
+        cursor = next;
+      } else {
+        cursor = cursor.nextElementSibling;
+      }
     }
 
-    let i = 0;
-    while (i < largeParas.length) {
-      const start = largeParas[i];
-      const seq = [start];
-      while (i + 1 < largeParas.length && largeParas[i + 1] === seq[seq.length - 1].nextElementSibling) {
-        seq.push(largeParas[++i]);
-      }
-      const totalImgs = seq.reduce((s, p) => s + p.querySelectorAll('img').length, 0);
-      if (totalImgs >= 2) {
-        const gallery = document.createElement('div');
-        gallery.className = 'article-gallery';
-        for (const p of seq) {
+    for (const seq of sequences) {
+      const imgCount = seq.reduce(
+        (s, p) => s + (isImgOnlyP(p) ? p.querySelectorAll('img').length : 0),
+        0
+      );
+      if (imgCount < 2) continue;
+
+      const gallery = document.createElement('div');
+      gallery.className = 'article-gallery';
+      let pendingFigure = null;
+
+      for (const p of seq) {
+        if (isImgOnlyP(p)) {
           for (const img of Array.from(p.querySelectorAll('img'))) {
-            gallery.appendChild(img);
+            const fig = document.createElement('figure');
+            fig.className = 'gallery-item';
+            fig.appendChild(img);
+            gallery.appendChild(fig);
+            pendingFigure = fig; // captions se připojí k posledně vloženému
           }
+        } else if (isShortCaptionP(p) && pendingFigure) {
+          const cap = document.createElement('figcaption');
+          cap.className = 'gallery-caption';
+          // Přesun všech child node z p do figcaption (zachová <a>, <em>, …)
+          while (p.firstChild) cap.appendChild(p.firstChild);
+          pendingFigure.appendChild(cap);
         }
-        seq[0].parentElement?.insertBefore(gallery, seq[0]);
-        for (const p of seq) p.remove();
       }
-      i++;
+
+      seq[0].parentElement?.insertBefore(gallery, seq[0]);
+      for (const p of seq) p.remove();
     }
 
     // 3. Lightbox — pro large i tall

@@ -95,21 +95,30 @@ Whitelist je v `apps/hodinarium-eu/src/data/tags.json`, organizovaný do dimenz�
 
 ## 2.5. Iniciála — drop cap na začátku článku
 
-**Konvence:** první písmeno prvního odstavce článku se zobrazí jako **iniciála** (drop cap) — velký dekorativní znak v serifovém fontu, brass-bright barva, float left, 4,5em výška, 2 řádky textu vedle něj. Vyrenderuje se **automaticky** přes CSS `.drop-cap > p:first-of-type::first-letter` v `global.css`.
+**Dvě pravidla, která jdou ruku v ruce:**
 
-**Co psát v markdownu:** prostý text. Žádný manuální zápis nebo zvýraznění — CSS detekuje první písmeno automaticky.
+1. **První písmeno textu = iniciála** — první znak prvního odstavce se vyrenderuje jako velká dekorativní iniciála (drop cap) v serifovém fontu, brass-bright barva, float left, 4,5em výška, 2 řádky textu vedle ní. Auto via CSS `.drop-cap > p:first-of-type::first-letter` v `global.css`.
+2. **První písmena dalších odstavců NEZVÝRAZŇOVAT** — žádný `**bold**`, žádný drop cap, normální typografie. CSS pokrývá záměrně jen první paragraf.
+
+### Co psát v markdownu
+
+Prostý text. Žádný manuální zápis ani zvýraznění iniciály.
 
 ```markdown
 Chomutovské květinové hodiny stály u vchodu do tehdejšího městského parku…
+
+V dalším odstavci se hodiny popisují podrobněji…
+
+Třetí odstavec pokračuje obvyklou typografií.
 ```
 
-→ "C" se vyrenderuje jako iniciála.
+→ „C" v prvním odstavci se vyrenderuje jako iniciála; „V" a „T" v dalších odstavcích zůstávají normální velikosti.
 
 ### Legacy artefakt: `**X**a první pohled` per-paragraph
 
-Mnoho legacy článků z hodinarium.eu importu má **na každém paragrafu** zbytnostně bolded první písmeno: `**N**a první pohled`, `**P**oměrně bohatá historie`, `**S**troj byl…`. Tohle je **legacy noise** z původního HTML stylingu — vypadá to jako střední věk manuskript, ale na webu zbytnostně přitahuje pozornost a kazí čitelnost.
+Mnoho legacy článků z hodinarium.eu importu má **na každém paragrafu** zbytečně bolded první písmeno: `**N**a první pohled`, `**P**oměrně bohatá historie`, `**S**troj byl…`. Tohle je **legacy noise** z původního HTML stylingu — vypadá to jako středověký manuskript, ale na webu zbytečně přitahuje pozornost, kazí čitelnost a porušuje pravidlo 2 výše.
 
-**Pravidlo:** strip manuální `**X**slovo` na začátku paragrafu. CSS drop-cap pokrývá jen **první paragraf** (autorstickým způsobem); ostatní paragrafy mají normální typografii.
+**Pravidlo:** strip manuální `**X**slovo` na začátku paragrafu. CSS drop-cap pokrývá jen **první paragraf** (autorský pattern); ostatní paragrafy mají normální typografii.
 
 Při refactoru existujícího článku regex find-and-replace:
 - Hledat: `\*\*([A-ZÁ-Ž])\*\*([a-zá-ž])` na začátku řádky paragrafu
@@ -181,6 +190,30 @@ karta:
 - **Ne pro:** virtualni-muzeum (cizí exponáty bez vlastních dat), zajimavosti, projekty (jiný layout), konstrukce (obecné), muzea, kronika
 
 Schema je v `apps/hodinarium-eu/src/content.config.ts`, komponenta v `apps/hodinarium-eu/src/components/KartaSbirky.astro`.
+
+## 3.7. Galerie — větší množství obrázků bez textu
+
+**Pravidlo:** ≥2 konsekutivní `img-large` obrázky (každý na samostatné řádce, oddělené prázdným řádkem) → JS automaticky seskupí do `.article-gallery` gridu (auto-fill 200 px sloupce, 4:3 cover crop, sepia hover) s lightbox při kliknutí na thumbnail.
+
+**Krátké caption paragrafy** (text < 120 znaků, žádný `<img>`) **mezi obrázky NEPŘERUŠUJÍ** sekvenci — naopak se připojí k předchozímu obrázku jako `<figcaption>` v galerii. Delší text = obsahový paragraf, sekvenci ukončí.
+
+```markdown
+![Fotografie 1](/img/foo/foto_0001.jpg)
+
+Chomutov
+
+![Fotografie 2](/img/foo/foto_0002.jpg)
+
+Květinové hodiny v období protektorátu.
+
+![Fotografie 3](/img/foo/foto_0003.jpg)
+```
+
+→ 3 obrázky v gridu, caption pod thumbnailem, klik = lightbox v plné velikosti s prev/next.
+
+**Kdy nechat obrázky standalone (NE galerie):** krátký článek se 2 obrázky, kde každý nese vlastní téma nebo má důkladný popisný text. Stačí 1 obsahový paragraf mezi nimi (>120 znaků) — JS sekvenci ukončí.
+
+**Pro fotoreport / kroniku** s mnoha obrázky tedy stačí psát `![alt](src)` po sobě s případnou krátkou caption — JS se postará o gallery layout a lightbox automaticky.
 
 ## 4. Photo komponenta — preferovaný způsob
 
