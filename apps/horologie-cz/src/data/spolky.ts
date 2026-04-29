@@ -30,6 +30,19 @@ export const spolky: Spolek[] = [
     email: 'info@orloj.eu',
     typ: 'spolek',
   },
+  {
+    slug: 'spsh-brno',
+    jmeno: 'Společnost přátel starožitných hodin',
+    zeme: 'CZ',
+    popis:
+      'Brněnský spolek (založen 1970, dříve Sekce přátel starožitných hodin) '
+      + 'při Technickém muzeu v Brně. Sdružuje sběratele a zájemce o starožitné '
+      + 'hodiny — od začátečníků po odborníky. Pořádá členské schůze s přednáškami, '
+      + 'odborné exkurze a vydává Zpravodaj. Předsedou je P. Nekuža.',
+    web: 'https://pratele-hodin.webnode.cz/',
+    email: 'nekuza@tmbrno.cz',
+    typ: 'spolek',
+  },
 
   // ─── Německo ───
   {
