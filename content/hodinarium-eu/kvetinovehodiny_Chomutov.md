@@ -42,4 +42,4 @@ Květinové hodiny ve městě Erlangen.
 
 * * *
 
-*Autor děkuje paní Hedwig Gemmrigové za poskytnutí obrázků a informací vztahujících se ke květinovým hodinám v Chomutově a Erlangenu.*
+*Za obrázky a informace ke květinovým hodinám v Chomutově a Erlangenu děkujeme paní H. Gemmrigové.*

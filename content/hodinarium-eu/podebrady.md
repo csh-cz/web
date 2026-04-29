@@ -32,4 +32,4 @@ Zda změny místu prospěly, posoudíte sami.
 
 -   **[Květinové hodiny jinde ve světě](/clanky/kvetinove)**
 
-*Stránky vycházejí z materiálů, které zpracovali a poskytli pan Miroslav Malovec, Dr. Jana Hrabětová a akademický sochař Petr Skála. Všem velmi děkujeme.*
+*Za materiály ke stránce děkujeme M. Malovcovi, J. Hrabětové a P. Skálovi.*

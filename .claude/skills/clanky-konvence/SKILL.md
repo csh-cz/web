@@ -329,8 +329,31 @@ Pokud byl text **převzat** odjinud (s souhlasem nebo z licence):
 Pokud k vzniku článku přispěli další lidé (informace, fotky, konzultace, archivní materiály):
 
 ```markdown
-*Informace ke stránce poskytli PhDr. Arno Pařík, akademický sochař Petr Skála, Stanislav Marušák a další. Všem děkujeme.*
+*Za informace a konzultaci děkujeme A. Paříkovi, P. Skálovi a S. Marušákovi.*
 ```
+
+### Slovník atribuce — `Text` / `Foto`, ne `Autor`
+
+V atribuci **nepoužívat** slovo „Autor" (Autor: …, Autor děkuje …) — působí formálně a zatemňuje, čeho se atribuce týká. Místo toho:
+
+- **`Text:`** — autor / původ textu článku
+- **`Foto:`** — autor / původ fotek (typicky jen v Photo komponentě, ne v atribuce paragrafu)
+- **`Za … děkujeme …`** — poděkování za informace, konzultaci, materiály (žádné „Autor děkuje")
+- **`Text byl převzat se souhlasem z …`** — pokud byl text převzat odjinud
+
+### Jména v atribuci — křestní jméno na iniciálu
+
+Stejný formát jako byline: **iniciála křestního jména + tečka + příjmení**, tituly (Ing., Dr., PhDr., …) **strip**.
+
+| Plné jméno | V atribuci |
+|---|---|
+| `Petr Skála` | `P. Skála` |
+| `PhDr. Arno Pařík` | `A. Pařík` |
+| `Stanislav Marušák` | `S. Marušák` |
+| `akademický sochař Petr Skála` | `P. Skála` |
+| `pan Miroslav Malovec` | `M. Malovec` (slovo `pan/paní` strip) |
+
+Důvod: konzistence s byline, vizuální čistota, web čte i internationally — full names s tituly působí překombinovaně.
 
 ### Konvence pro atribuce paragraf
 
@@ -339,15 +362,25 @@ Pokud k vzniku článku přispěli další lidé (informace, fotky, konzultace, 
 - Pokud kombinuje víc typů (autoři + zdroj + poděkování), může být víc paragrafů za sebou — každý italic
 - **NEPSAT do těla článku** atribuci, která patří do byline (`author:`), references (`references:`) nebo bottom paragraph
 
+### Příklady (po normalizaci)
+
+```markdown
+*Text byl převzat se souhlasem z webu [anatomie-varhan.cz](http://anatomie-varhan.cz/) — za poskytnutí děkujeme.*
+
+*Informace a konzultace poskytli A. Pařík, P. Skála, S. Marušák a další. Všem děkujeme.*
+
+*Za obrázky a informace ke květinovým hodinám v Chomutově a Erlangenu děkujeme paní H. Gemmrigové.*
+```
+
 ### Co kam patří — quick rule
 
 | Typ | Kam |
 |---|---|
 | Autor článku (1 osoba ze spolku) | `author:` frontmatter |
 | Spoluautor / kolektiv ze spolku | `author: "X a Y"` frontmatter |
-| Externí zdroj (převzato) | `references:` + atribuce paragraf |
-| Poděkování externím přispěvatelům | atribuce paragraf |
-| Fotokredit (autor obrázku) | `<Photo author="..." />` (ne atribuce) |
+| Externí zdroj (převzato) | `references:` + atribuce paragraf (`Text byl převzat …`) |
+| Poděkování externím přispěvatelům | atribuce paragraf (`Za … děkujeme …`) |
+| Fotokredit (autor obrázku) | `<Photo author="..." />` (ne atribuce paragraf) |
 
 ## 11. Perex / abstract
 
