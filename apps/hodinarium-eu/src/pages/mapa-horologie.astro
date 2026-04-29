@@ -74,6 +74,26 @@ for (const p of items) {
   if (match) linkMap[p.name] = `/muzea/${match.slug}`;
 }
 
+// Pro server-side render seznamu pod mapou: extract first non-image URL
+// z descriptionHtml. Strip ji z plain-text description (jinak se duplikovala
+// jako " — http://..." text za názvem).
+const isExternalUrl = (u: string) => u && !u.includes('googleusercontent.com');
+function extractExternalUrl(htmlOrText: string): string | null {
+  const all = htmlOrText.match(/https?:\/\/[^\s<>"]+/gi) || [];
+  return all.find(isExternalUrl) || null;
+}
+interface ItemMeta { externalUrl: string | null; cleanDesc: string; }
+const itemMeta: Record<string, ItemMeta> = {};
+for (const p of items) {
+  const ext = extractExternalUrl(p.descriptionHtml || p.description || '');
+  let cleanDesc = p.description || '';
+  if (ext) {
+    // Description (plain text) je často přímo ta URL — strip ji + osamělé pomlčky / whitespace
+    cleanDesc = cleanDesc.split(ext).join('').trim();
+  }
+  itemMeta[p.name] = { externalUrl: ext, cleanDesc };
+}
+
 const matchedCount = Object.keys(linkMap).length;
 ---
 <Base
@@ -113,14 +133,24 @@ const matchedCount = Object.keys(linkMap).length;
           <span class="folder-count">{list.length}</span>
         </summary>
         <ul class="placemarks-list">
-          {list.map((p) => (
-            <li>
-              {linkMap[p.name]
-                ? <a href={linkMap[p.name]} style="border-bottom: none;"><strong>{p.name}</strong></a>
-                : <strong>{p.name}</strong>}
-              {p.description && <span class="placemark-desc"> — {p.description.length > 120 ? p.description.slice(0, 120) + '…' : p.description}</span>}
-            </li>
-          ))}
+          {list.map((p) => {
+            const meta = itemMeta[p.name];
+            const ext = meta?.externalUrl;
+            const desc = meta?.cleanDesc ?? '';
+            // Hyperlink priority: interní cross-link > externí URL > nic
+            return (
+              <li>
+                {linkMap[p.name] ? (
+                  <a href={linkMap[p.name]} style="border-bottom: none;"><strong>{p.name}</strong></a>
+                ) : ext ? (
+                  <a href={ext} target="_blank" rel="noopener" style="border-bottom: none;"><strong>{p.name}</strong> <span class="placemark-ext">↗</span></a>
+                ) : (
+                  <strong>{p.name}</strong>
+                )}
+                {desc && <span class="placemark-desc"> — {desc.length > 120 ? desc.slice(0, 120) + '…' : desc}</span>}
+              </li>
+            );
+          })}
         </ul>
       </details>
     ))}
@@ -246,6 +276,10 @@ const matchedCount = Object.keys(linkMap).length;
     color: var(--color-text-muted);
     font-size: 0.82rem;
     font-style: italic;
+  }
+  .placemark-ext {
+    color: var(--color-copper);
+    font-size: 0.85em;
   }
 
   /* Sépiový sklon Leaflet tile vrstvy */
