@@ -2,7 +2,7 @@
   {
     "slug": "co_pisi_jini",
     "title": "",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": null,
     "excerpt": "O hodinách lze psát různě. Parafrázujeme-li známou větu ze hry \"Jak se chodí za holkama\", můžeme tvrdit, že o hodinách se píše dobře (když je čas) i špatně (když je nečas). Hodiny jsou zajímavé po technické i umělecké…",
     "year": null,
@@ -24,7 +24,7 @@
   {
     "slug": "normalni",
     "title": "\"Normální hodiny ?\"",
-    "category": "projekty",
+    "category": "zajimavosti",
     "thumbnail": null,
     "excerpt": "Celý vývoj hodinářské techniky vede ke stálému zvyšování přesnosti. V běžném životě to až tak potřebujeme. Autobus stejně pojede dřív nebo později bez ohledu na DCF hodinky na zápěstí, televizní program, stejně začne …",
     "year": null,
@@ -90,13 +90,24 @@
   {
     "slug": "astronomicke_Sauter",
     "title": "Astronomické spínací hodiny — Syst. Fr. Sauter",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": "/img/astronomicky_Sauter/f/Sauter1.jpg",
     "excerpt": "Pod pojmem spínací astronomické hodiny se obvykle myslí spínací hodiny, které dobu spínání automaticky upravují podle roční doby. Dnes takové hodiny jsou řízeny programem mikropočítače. V dobách mechanických to zajišť…",
     "year": null,
     "lastModified": "2020-09-08T00:00:00.000Z",
     "imageCount": 14,
     "wordCount": 610
+  },
+  {
+    "slug": "muzeum_gdansk_marien",
+    "title": "Astronomický orloj v Mariackém kostele v Gdaňsku",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Středověký orloj v gdaňské Bazilice Nanebevzetí Panny Marie. Patří mezi nejstarší dochované astronomické věžní hodiny v Polsku. V roce 2022 byl detailně prezentován prof. A. Januszajtisem na rostockém symposiu Mittela…",
+    "year": 2022,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 32
   },
   {
     "slug": "atomove_kapesni",
@@ -112,7 +123,7 @@
   {
     "slug": "vez_Kli",
     "title": "Barokní \"špindlový\" stroj věžních hodin",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vez/Kli/f/foto_0001.jpg",
     "excerpt": "Do Hodinária byl od soukromého sběratele zapůjčen stroj věžních hodin se zajímavým kyvadlem a vřetenovým krokem. Od sezóny 2013 bude dlouhodobou součástí expozice.",
     "year": 2013,
@@ -123,7 +134,7 @@
   {
     "slug": "decin_Wenzel_Mellner",
     "title": "Barokní stroj značený Wenzel Mellner",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/decin/baroko/barokoMellner/f/foto_0001.jpg",
     "excerpt": "V závěru roku 2015 byl Hodináriu pronajat od firmy POTRUBÍ Praha, spol. s r.o. špindlový čtvrťový věžní hodinový stroj v nálezovém stavu. O historii stroje zatím mnoho nevíme. Stroj je těžko identifikovatelný. Podle r…",
     "year": 1618,
@@ -134,7 +145,7 @@
   {
     "slug": "vez_Zlate_Hory",
     "title": "Barokní věžní ministroj",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vez/ZlateHory/kostel_Zlate_Hory.jpg",
     "excerpt": "Hodinářská expozice byly rozšířena o zapůjčený barokní kovaný čtvrťový stroj pocházející snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách. Restaurování započalo 7.5.2012. Miniaturní rozměry stroje ( 30 x 21 x …",
     "year": 2012,
@@ -145,7 +156,7 @@
   {
     "slug": "bulle",
     "title": "BULLE hodiny - elektromagnet se dvěma magnetickými poli",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/elektrika/bulle/magnet.jpg",
     "excerpt": "Jde o hodiny s elektromagnetickým impulzem do kyvadla, které následně posunuje stroj. Proti nákresům z patentních spisů je osa páčky která posunuje rohatku nastavitelná, takže lze nastavit, aby při poměrně velkém ampl…",
     "year": 1920,
@@ -167,7 +178,7 @@
   {
     "slug": "12_24",
     "title": "Celodeňky - 12 verzus 24",
-    "category": "projekty",
+    "category": "zajimavosti",
     "thumbnail": "/img/vezni/litomysl/litomysl1907.jpg",
     "excerpt": "Den má 24 hodin, proto by se zdálo logické, že i ciferníky hodin budou dělené na 24 částí. Nějak se však v minulosti stalo, že vyhrál orloj poloviční ![Orloj Litomyšl stav 1907](/img/vezni/litomysl1907v.jpg) (půlorloj…",
     "year": 1907,
@@ -178,7 +189,7 @@
   {
     "slug": "bychory_cimbaly",
     "title": "Cimbály ze zámku Býchory",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_001.jpg",
     "excerpt": "Našemu Věžnímu muzejíčky byly zapůjčeny společně se čtvrťovým věžním strojem Prokeš z roku 1868 dva cimbály. Cimbály sloužily k odbíjení čtvrtí a celých hodin hodinovým strojem a zároveň na velký cimbál vyzváněl přída…",
     "year": 1868,
@@ -211,7 +222,7 @@
   {
     "slug": "mazan",
     "title": "Časová symbolika trochu jinak",
-    "category": "projekty",
+    "category": "zajimavosti",
     "thumbnail": "/img/Mazan/mazan0.gif",
     "excerpt": "\\- vizualizace celodenního AM/PM času s astronomickými prvky- úsporné zobrazení nejen pro děje v časové kompresi",
     "year": 2021,
@@ -222,7 +233,7 @@
   {
     "slug": "casovy_zamek",
     "title": "Časový zámek - Time Lock",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": "/img/decin/casove_zamky/f/T_FOX_a_CO_LTD.jpg",
     "excerpt": "Hodiny, které nejsou primárně určeny pro zobrazování času se označují jako hodiny profesní. Zajímavou oblast tvoří i časové zámky. Moc se o nich nepíše, protože představují jeden z prvků zabezpečení trezorů. Úkolem ča…",
     "year": 1874,
@@ -233,7 +244,7 @@
   {
     "slug": "bychory_dalsi_kola",
     "title": "Další kola made in Prokeš cca 1868",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vez/bychory/prokes1873.jpg",
     "excerpt": "Pokud někdo vystavuje starý věžní hodinový stroj, soustředí se většinou na vlastní rám, ve kterém může být podle okolností samostatný jicí stroj, někdy spolu s bicím strojem celých hodin případně bicím strojem čtvrťov…",
     "year": 1868,
@@ -275,6 +286,28 @@
     "wordCount": 253
   },
   {
+    "slug": "muzeum_furtwangen",
+    "title": "Deutsches Uhrenmuseum Furtwangen",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Schwarzwaldské muzeum hodin v jihoněmeckém Furtwangenu — kolébka kukačkových hodin a jedna z nejvýznamnějších evropských sbírek mechanického hodinářství. Stálá expozice mapuje hodinářskou tradici Černého lesa od 17. s…",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 41
+  },
+  {
+    "slug": "muzeum_glashutte",
+    "title": "Deutsches Uhrenmuseum Glashütte",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Saské hodinářské muzeum v centru německé hodinářské tradice (Glashütte). Sbírka mechanických hodin a hodinek od poloviny 19. století po současnost; významný důraz na vývoj přesných pražcových strojů a saskou školu jem…",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 32
+  },
+  {
     "slug": "matematicke",
     "title": "Devítkové hodiny pro matematiky",
     "category": "projekty",
@@ -288,7 +321,7 @@
   {
     "slug": "rizeni_kyvadla",
     "title": "Digitálně řízené kyvadlo s automatickou regulací",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": "/img/elektrika/kyvadlo/pripravek.jpg",
     "excerpt": "Přesná mechanická kyvadla jsou obvykle teplotně i barometricky kompenzována. Jednou z jiných cest může být (zejména u historických či věžních hodin) měření doby kyvu například infračerveným optickým snímačem a další z…",
     "year": 2000,
@@ -299,7 +332,7 @@
   {
     "slug": "svarcvaldky_17stol",
     "title": "Doba dřevěná - švarcvaldky v 17. století ??",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/svarcvald/17stol5.jpg",
     "excerpt": "Asi nejstarší švarcvaldky, co se objevily v poslední době na portálu www.allegro.pl, jsou tyto nádherné \"klášterní\" hodiny údajně z roku cca 1650. I když se jedná pouze o neúplné hodiny, dražba začínala na ceně 10 000…",
     "year": 1650,
@@ -310,7 +343,7 @@
   {
     "slug": "svarcvaldky_18stol",
     "title": "Doba dřevěná - švarcvaldky v 18. století",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/svarcvald/18stol1.jpg",
     "excerpt": "Opět nádherné hodiny z aukce na www.aukro.cz, údajně z roku 1771. Prodejce sice začínal cenou 1.- Kč, ale očekává pěticifernou částku. Bohužel jsme hodiny viděli jen na fotografiích, tak vyjdeme z popisu prodejce a př…",
     "year": 1771,
@@ -321,7 +354,7 @@
   {
     "slug": "download",
     "title": "DOWNLOAD",
-    "category": "ostatni",
+    "category": "zajimavosti",
     "thumbnail": null,
     "excerpt": "Virtuální muzeum má tu výhodu, že může některé své exponáty přímo virtuálně šířit. V této části najdete jednak programy našich \"klubáků\" a různé převzaté programy (pokud autoři takovéto šíření dovolují) a jednak rozli…",
     "year": 1925,
@@ -332,7 +365,7 @@
   {
     "slug": "elektricke1",
     "title": "Elektrické hodiny 1 mechanické hodiny elektricky natahované",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/elektrika/brevet.jpg",
     "excerpt": "Klasické mechanické hodiny poháněné závažím nebo pérem mohou být natahovány pomocí elektřiny. Je to nejméně násilné zapojení elektrického proudu do konstrukce hodin. Poprvé se asi objevilo jako natahování věžních hodi…",
     "year": 1930,
@@ -343,7 +376,7 @@
   {
     "slug": "ATO",
     "title": "Elektrické hodiny ATO",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": null,
     "excerpt": "Elektrické hodiny ATO jsou nádhernou etapou vývoje elektrických hodin. Jsou nejen technicky zajímavé, ale lahodí i oku. Nejčastěji jsou hodiny ATO spojovány s firmou Junghans. Je to možná trochu jinak. Za zakladatele …",
     "year": 1923,
@@ -365,7 +398,7 @@
   {
     "slug": "ferramo",
     "title": "Elektricky natahované hodiny Ferramo",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": "/img/elektrika/motore_cmr_1.gif",
     "excerpt": "V elektricky natahovaných hodinách se silnějším motorem bývá problém ve spínání motoru spínačem odvozeným od stavu pružiny. U hodin Ferramo je pro natahování použit slabý indukční motor Ferraris, který je zapnut stále…",
     "year": null,
@@ -376,7 +409,7 @@
   {
     "slug": "decin_elektrifikace",
     "title": "Elektrifikace věžních strojů",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/decin/elektrika/foto2.jpg",
     "excerpt": "Elektrická energie se nejprve používala k vytahování závaží či k osvětlení hodin. Pravá elektrická revoluce v hodinářství začala v první čtvrtině 19. století, kdy se pomocí elektrické energie začal řídit hodinový stro…",
     "year": 1839,
@@ -409,7 +442,7 @@
   {
     "slug": "edgecombe",
     "title": "EVERETT EDGECOMBE ELECTRIC SYNCLOCK",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": "/img/elektrika/edgecombe/celek.jpg",
     "excerpt": "V expozici Hodinária jsou vystaveny funkční krbové hodiny, označené na ciferníku Everest Edgecombe elektric synchroclock London. Jádrem hodinového stroje je válcové pouzdro, v němž je ukryt motorek 220V/50 Hz, mající …",
     "year": 1931,
@@ -431,7 +464,7 @@
   {
     "slug": "vezni_muzejicko_evropa",
     "title": "Fenomén věžních \"muzeí\"",
-    "category": "vezni-hodiny",
+    "category": "muzea",
     "thumbnail": "/img/vezni/sestava_howard.jpg",
     "excerpt": "Je něco velmi uspokojivého, když se nevzhledný a zrezivělý kus stroje vrací zpět do života jako krásná kinetická socha. Mark Frank",
     "year": null,
@@ -442,7 +475,7 @@
   {
     "slug": "decin_flatbed",
     "title": "Flatbed - Věžní hodinový stroj Paul Zieux",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/decin/francie1770/f/foto_0001.jpg",
     "excerpt": "Půlový hodinový stroj s rámem typu flatbed. Strojů s tímto rámem je u nás jako šafránu. Stroj byl zakoupen od věžního hodináře Markuse Burmeistera. Na přání majitele bude částečně restaurován a umístěn do Hodinária. P…",
     "year": 1770,
@@ -453,7 +486,7 @@
   {
     "slug": "flying_pendulum",
     "title": "FLYING PENDULUM CLOCK",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": null,
     "excerpt": "Flying Pendulum Clock, také nazývané \"Ignatz clock\" byly poprvé vynalezené v roce 1883. Znovu se vyráběly v 50. letech minulého století. Malá kulička zavěšená na ramenu zde hraje roli kyvadla. !Při vodorovné půlotáčce…",
     "year": 1883,
@@ -464,7 +497,7 @@
   {
     "slug": "line_kyvadlo",
     "title": "Fyzikální \"líné\" kyvadlo",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": "/img/line_kyvadlo/differentialni_kyvadlo.jpg",
     "excerpt": "Tato stránka se zaměřuje na to, jak jednoduše reálné kyvadlo zpomalit pro nenáročné aplikace a to jinak než prodloužením jeho délky.",
     "year": 1901,
@@ -475,7 +508,7 @@
   {
     "slug": "decin_galerie",
     "title": "Galerie uměleckých děl v Hodináriu Děčín",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/Achrer/2strany2.jpg",
     "excerpt": "Hodinárium není jen expozice věžních strojů, ale také galerie různých uměleckých děl souvisejících s hodinami. Na rozdíl od technické části je tato sekce více dočasná — většina děl je zapůjčena na krátkou dobu. Někter…",
     "year": 1907,
@@ -486,7 +519,7 @@
   {
     "slug": "hinspirace",
     "title": "Historické inspirace",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/fucik/prstencove.jpg",
     "excerpt": "Některé hodiny prostě neseženete. Jsou třeba jen v jednom exempláři někde v muzeu či za devaterou mříží v soukromé sbírce. Pokud nehodláte muzeum vyloupit, a přesto podobné hodiny chcete vlastnit, nezbývá, než si je v…",
     "year": 2003,
@@ -530,7 +563,7 @@
   {
     "slug": "index",
     "title": "Hodinárium Děčín",
-    "category": "ostatni",
+    "category": "zajimavosti",
     "thumbnail": "/img/decin0/foto_0020b.jpg",
     "excerpt": "Český spolek horologický, Věžní muzejíčko Soběslav a Hodinárium v Děčíně vznikly z obdivu k hodinám. Tento obdiv s námi sdílí více lidí. Volné seskupení hodinářských fandů postupně přerostlo do občanského sdružení Vir…",
     "year": 2015,
@@ -541,7 +574,7 @@
   {
     "slug": "decin_jednotny_cas",
     "title": "Hodinárium Děčín - expozice časoměrných strojů",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/elektrika/jednotny_cas/artdeco/celek_artdeco.jpg",
     "excerpt": "Stolní podružné hodiny jsou samy o sobě výjimečné. První ukázkou budou nesignované hodiny ve stylu art deco se strojkem Siemens. Druhé podružné hodiny s nápisem \"Jednotný čas\" jsou zachované jen částečně, ale jsou tak…",
     "year": 1913,
@@ -563,7 +596,7 @@
   {
     "slug": "muzea_cr",
     "title": "Hodinářská muzea, sbírky a weby v ČR",
-    "category": "sbirka",
+    "category": "muzea",
     "thumbnail": null,
     "excerpt": "Sbírky hodin vede mnoho subjektů. Některé podléhají evidenční povinnosti. Pro představu lze nahlédnout na stránky centrální evidence sbírek muzejní povahy (CES) Ministerstva kultury České republiky. CES je veřejnosti …",
     "year": 2000,
@@ -607,7 +640,7 @@
   {
     "slug": "datumatik",
     "title": "Hodiny Datumatic",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": "/img/datumatic/foto_0001.jpg",
     "excerpt": "Na našem serveru dělíme časoměrné přístroje na hodiny, hodinky, minutky, sekundovky a dňovky - tedy hodiny s kalendářem. U hodinek nepřekvapí zobrazení data, někdy i dalších kalendářních údajů, avšak u větších hodin j…",
     "year": 1906,
@@ -629,7 +662,7 @@
   {
     "slug": "kavalir",
     "title": "Hodiny Kavalír",
-    "category": "projekty",
+    "category": "virtualni-muzeum",
     "thumbnail": null,
     "excerpt": "Více na www.kavalir.cz/hodiny",
     "year": null,
@@ -651,7 +684,7 @@
   {
     "slug": "elektricke2",
     "title": "Hodiny s impulzem do oscilátoru",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/elektrika/elchron1.jpg",
     "excerpt": "Druhou skupinou mechanických elektrifikovaných hodin jsou hodiny s impulzem dodávaným do oscilátoru. Může se jednat o kyvadlové hodiny, například hodiny ATO nebo hodiny Bulle. Elektromagnetický popud může být dodáván …",
     "year": 1925,
@@ -673,7 +706,7 @@
   {
     "slug": "merkur",
     "title": "Hodiny skoro z MERKURU",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": "/img/ujete/Clock_Cover_Dec_2003.JPG",
     "excerpt": "Hodiny z MERKURU ? No merkur to není, ale skoro. Hodiny ze stavebnice Meccano.",
     "year": 2003,
@@ -706,7 +739,7 @@
   {
     "slug": "vlachynsky",
     "title": "Hodiny v Holiday Inn Brno",
-    "category": "projekty",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/vlachynsky1b.jpg",
     "excerpt": "Velmi zajímavé \"vodní hodiny\" se nacházejí ve foyer kongresové haly pětihvězdičkového hotelu Holiday Inn Brno. Hodiny vyrobilo pasířství Matys v roce 2001 podle návrhu ing. arch. Vlachynského a ing. arch. Foretníka\\- …",
     "year": 2001,
@@ -717,7 +750,7 @@
   {
     "slug": "janovice",
     "title": "Hodiny v kostele sv. Josefa v Janovicích",
-    "category": "vezni-hodiny",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/vezni/janovice/janovice.jpg",
     "excerpt": "Převzato z webu anatomie-varhan.cz Za souhlas děkujeme.",
     "year": 1899,
@@ -739,7 +772,7 @@
   {
     "slug": "TimHunkin",
     "title": "Hodně ujeté a asi šokující hodiny pana Tima Hunkina",
-    "category": "projekty",
+    "category": "virtualni-muzeum",
     "thumbnail": null,
     "excerpt": "Pozoruhodné jsou tytovodní hodiny na molu Southwold. Označeny jsou Hunkin and Jackson horological urologists 1998. Hodiny mají bohatou figurální výzdobu a jejich chod je doprovázen mnoha efekty. Figury koupající se ve…",
     "year": 1998,
@@ -750,7 +783,7 @@
   {
     "slug": "decin_vypousteny",
     "title": "Chodový podružný věžní stroj Elektročas vypouštěný minutovými impulzy",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/decin/elektricky_spousteny_stroj/strana_spousteni.jpg",
     "excerpt": "Chodový podružný věžní stroj Elektročas vypouštěný minutovými impulzy představuje můstek k nově budované expozici elektrických hodin v Hodináriu v Děčíně. Stroj v expozici pochází z roku 1959.",
     "year": 1959,
@@ -761,7 +794,7 @@
   {
     "slug": "decin_chronulator",
     "title": "Chronulátor",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/decin/chronulator/ret1.jpg",
     "excerpt": "Slovem chronulátor se označují hodiny, které čas ukazují pomocí systémů ručkových voltmetrů. Nejjednodušší chronulátor má dva voltmetry. Jeden ukazuje hodiny, druhý minuty. Možností je ovšem více. Do Hodinária bude za…",
     "year": 1353,
@@ -772,7 +805,7 @@
   {
     "slug": "decin_NTP",
     "title": "Instalované NTP servery",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/elektrika/Bodet/Profil930NTP.png",
     "excerpt": "Synchronizace hodin jednotného času se dělala nejčastěji vysíláním polarizovaných minutových impulzů po dvoudrátovém rozvodu od matečních hodin k hodinám podružným. Méně často se používaly impulzy půlminutové (Brillie…",
     "year": null,
@@ -794,7 +827,7 @@
   {
     "slug": "synchronizace_hodin",
     "title": "Jednotně řízené hodiny a synchronizace času",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": "/img/elektrika/junhhans/elektronom_patent.gif",
     "excerpt": "Potřebujeme, nebo si jen přejeme, hodiny, které jdou přesně a správně. K tomu vede několik cest. Buď je musíme stále přesnější vyrábět nebo je můžeme neustále dálkově řídit, či pravidelně automaticky seřizovat podle j…",
     "year": null,
@@ -805,7 +838,7 @@
   {
     "slug": "jednotnycas",
     "title": "Jednotný čas - touha po přesnosti",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": null,
     "excerpt": "Potřebujeme, nebo si jen přejeme, mít hodiny, které jdou co nejpřesněji a hlavně správně, tedy v souladu s ostatními hodinami. K tomu vedou prakticky dvě cesty. Buď je musíme vyrábět přesnější, nebo je co nejčastěji o…",
     "year": 1839,
@@ -816,7 +849,7 @@
   {
     "slug": "kardasova_recice",
     "title": "Jsou v Kardašově Řečici hodiny mistra Hanuše ??",
-    "category": "vezni-hodiny",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/vez/KR_stroj.jpg",
     "excerpt": "V letech roce 1493-4 udělal pro město Jindřichův Hradec hodiny Jan Růže - mistr Hanuš, se kterým se dlouho spojoval vznik Staroměstského orloje. Stará radnice v Jindřichově Hradci se poprvé připomíná r. 1493, kdy na n…",
     "year": 1493,
@@ -860,7 +893,7 @@
   {
     "slug": "hainz_natahovani",
     "title": "KLÍČOVÁ OTÁZKA - natahovátko L. Hainz",
-    "category": "ostatni",
+    "category": "zajimavosti",
     "thumbnail": "/img/hainz/predni_n.jpg",
     "excerpt": "Klíčové otázky dneška jsou aktuální a oblíbená témata různých oborů a lidských činností. Proč by se tedy klíčovou otázkou nemohli zabývat i milovníci hodin, tím spíš, ![LOUIS HAINZ přední pohled](/img/hainz/predni.jpg…",
     "year": null,
@@ -871,7 +904,7 @@
   {
     "slug": "pneumatika",
     "title": "Kompresní žárovka aneb natahování a řízení pneumatikou.",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": "/img/elektrika/junhhans/kompresslampe.jpg",
     "excerpt": "Ve třicátých letech postavil Junghans hodiny s elektro-pneumatickým nátahem (patent 1926 Max Fischer). Měly by to být přesné dílenské hodiny, které bez magnetických komponent byly schopny ovládat několik podružných ho…",
     "year": 1926,
@@ -882,7 +915,7 @@
   {
     "slug": "decin_koncepce",
     "title": "Koncepce Hodinária",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/decin/zamek_decin.jpg",
     "excerpt": "Vznik Hodinária umožnily dvě myšlenky. Jednak to byl záměr Zámku Děčín zpřístupnit zámecké půdní prostory se zajímavými trámovými konstrukcemi a jednak bylo potřeba někam přestěhovat exponáty Věžního muzejíčka, provoz…",
     "year": 1868,
@@ -904,7 +937,7 @@
   {
     "slug": "kralovstvi-casu",
     "title": "Království času — Protivín",
-    "category": "ostatni",
+    "category": "muzea",
     "thumbnail": "/img/expozice/kralovstvi-casu/01-vstup.jpg",
     "excerpt": "Království času v Protivíně je soukromá hodinářská expozice v nádherných prostorách secesní vily z roku 1907. Ve sbírce je více než 1200 exponátů ze světa hodin a hodinek.",
     "year": 1907,
@@ -915,7 +948,7 @@
   {
     "slug": "razitka",
     "title": "Kvalifikované časové razítko - Time Stamp",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": "/img/razitko2.jpg",
     "excerpt": "Časové razítko je doplňkový soubor, který pro daný elektronický dokument osvědčuje jeho existenci v určitém čase. Nejčastěji se používá v elektronických podatelnách a při datování smluv a podobných dokumentů. Kvalifik…",
     "year": null,
@@ -926,7 +959,7 @@
   {
     "slug": "podebrady",
     "title": "Květinové hodiny Poděbrady",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/ujete/podebrady2.jpg",
     "excerpt": "Květinové hodiny v parku lázní v Poděbradech jistě patřily mezi hodiny, které by měl znát každý. Náležely ke koloritu města. Od roku 1932 byly námětem mnoha pohlednic. Za dobu své existence se až do roku 2006 příliš n…",
     "year": 1932,
@@ -937,7 +970,7 @@
   {
     "slug": "kvetinovehodiny_NMnM",
     "title": "Květinové hodiny v Novém Městě nad Metují",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/NMnM/f/foto_0001.jpg",
     "excerpt": "V Novém Městě nad Metují je řada pamětihodností, které bereme za samozřejmou součást města. Denně okolo nich chodíme a ani nás nenapadne si položit otázku, kdo stál u zrodu tohoto díla, případně kdy a proč vzniklo. Kv…",
     "year": 1926,
@@ -948,7 +981,7 @@
   {
     "slug": "podebrady1",
     "title": "Květinové hodiny v Poděbradech",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/podebrady/malovec1.jpg",
     "excerpt": "Mohutný gejzír minerální vody, který vytryskl 1. srpna 1905 z vrtu na druhém nádvoří poděbradského zámku, byl předzvěstí zásadní změny v životě malého zemědělského městečka v Polabí. Vznik lázní na sebe nenechal dlouh…",
     "year": 1905,
@@ -959,7 +992,7 @@
   {
     "slug": "podebrady4",
     "title": "Květinové hodiny v Poděbradech",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/podebrady/pohledy1/podebrady031.jpg",
     "excerpt": "",
     "year": null,
@@ -970,7 +1003,7 @@
   {
     "slug": "podebrady1b",
     "title": "Květinové hodiny v Poděbradech - Ohlasy v tisku",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": null,
     "excerpt": "Nejnovější atrakcí poděbradských lázní je květinový orloj. Ale tou atrakcí není snad jenom orloj sám, nýbrž také hloučky, které k sobě přitahuje. Zprvu to byly toliko květinové hodiny s datem, každý den se měnícím - n…",
     "year": 1937,
@@ -981,7 +1014,7 @@
   {
     "slug": "kvetinove",
     "title": "Květinové hodiny ve světě",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/kvetinove/Klagenfurt2.jpg",
     "excerpt": "Jak můžeme chápat toto označení? Významů je hned několik. Můžeme tím např. rozumět \"chování\" rostlin během dne. Také otázka \"vnitřních hodin\" rostlin a živočichů, tedy to, jak vnímají a určují čas, je dost zajímavá.",
     "year": 1903,
@@ -1003,7 +1036,7 @@
   {
     "slug": "laplace",
     "title": "LAPLACE",
-    "category": "ostatni",
+    "category": "zajimavosti",
     "thumbnail": "/img/laplace/patent_fig1.jpg",
     "excerpt": "Síťové synchronní hodiny jak z Verneových románů. Stroj přímo svádí k přestavbě na steampunkové skeletové hodiny.",
     "year": 1869,
@@ -1014,7 +1047,7 @@
   {
     "slug": "eureka",
     "title": "Legendární elektrické hodiny Eureka",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": "/img/elektrika/eureka/eureka1.jpg",
     "excerpt": "Tento zajímavý typ hodin sestrojil Timothy Bernard Powers v New Yorku na počátku 20. století. Hodiny poté vyráběla firma Eureka Clock Company v Londýně.",
     "year": null,
@@ -1047,7 +1080,7 @@
   {
     "slug": "maregraf",
     "title": "Maregrag - mořské hodiny v Rouenu - 1893",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": "/img/vezni/maregraf1.jpg",
     "excerpt": "Astronomické jevy a hodiny patří neoddělitelně k sobě. Zobrazováním polohy Slunce a Měsíce disponují nejedny orloje. V přímořských oblastech je velmi důležitý vztah mezi Měsícem a měnící se denní dobou přílivu či odli…",
     "year": 1893,
@@ -1069,7 +1102,7 @@
   {
     "slug": "schaffhausen",
     "title": "Mechanické digi IWC Schaffhausen z roku 1885",
-    "category": "vezni-hodiny",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/hodinky/schaffhausen/digi1.jpg",
     "excerpt": "Digitalizace se u hodinek (tehdy kapesních) projevila již v roce 1885, kdy byly vyrobeny tyto úžasné IWC Schaffhausen. Ponechme teď stranou spory o to, zda otáčené ciferníky pozorované průhledem, jsou digitální nebo a…",
     "year": 1885,
@@ -1091,7 +1124,7 @@
   {
     "slug": "mereni_casu",
     "title": "MĚŘENÍ ČASU",
-    "category": "projekty",
+    "category": "zajimavosti",
     "thumbnail": null,
     "excerpt": "Díky laskavosti původních autorů doslovně převzato ze serveru",
     "year": 1900,
@@ -1102,7 +1135,7 @@
   {
     "slug": "mluvici1895",
     "title": "Mluvící hodinky",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": null,
     "excerpt": "článek je z časopisu \"Z říše vědy a práce\" z roku 1895",
     "year": 1895,
@@ -1120,6 +1153,17 @@
     "lastModified": "2017-04-26T14:00:00.000Z",
     "imageCount": 7,
     "wordCount": 62
+  },
+  {
+    "slug": "muzeum_mih_chaux_de_fonds",
+    "title": "Musée International d’Horlogerie",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Mezinárodní muzeum hodinařství v La Chaux-de-Fonds (Švýcarsko) — vrcholná světová sbírka, restaurátorské pracoviště a referenční institut hodinářské vědy. MIH provozuje Institut L'homme et le temps a vydává odborné pu…",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 39
   },
   {
     "slug": "mystery",
@@ -1157,7 +1201,7 @@
   {
     "slug": "decin_bici_stroje",
     "title": "Neobvyklý bicí elektrický stroj BRILLIE",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/decin_surrerwerk/s3.jpg",
     "excerpt": "Do expozice časoměrných strojů na zámku Děčín dorazil poněkud komplikovanou cestou další exponát: elektricky ovládaný bicí stroj využívající podobný způsob odbíjení celých hodin jako tzv. surrerwerk hodin ze Schwarzwa…",
     "year": 1868,
@@ -1190,7 +1234,7 @@
   {
     "slug": "vezni_zikmund1",
     "title": "O věžních hodinách na ZŠ Šumava v Jablonci nad Nisou",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vezni/Jablonec/ZSSumVezP.gif",
     "excerpt": "!věž JablonecNerad pokračuji v seriálu o zmizelých hodinách. Život to tak ale chce. Narazil jsem na web hodináře z Jablonce nad Nisou, pana Miloše Zikmunda, a přečetl si kauzu opravy hodin na ZŠ Šumava. S jeho dovolen…",
     "year": 2004,
@@ -1212,7 +1256,7 @@
   {
     "slug": "kuriozity1",
     "title": "Odkazy na další podivuhodné hodiny",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": null,
     "excerpt": "Reálné hodiny převážně elektronické",
     "year": null,
@@ -1234,7 +1278,7 @@
   {
     "slug": "paichl_knihy_hodiny_hodiny_slovnik_slovnik",
     "title": "paichl_knihy_hodiny_hodiny_slovnik_slovnik",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": null,
     "excerpt": "\"; with (frames\\['frScroll'\\].document) { open(\"text/html\",\"replace\"); write(szHTML); close(); } szHTML = \"\"+ \"A:link,A:visited,A:active {text-decoration:none;\"+\"color:\"+c\\rgszClr\\[3\\]+\";}\"+ \".clTab {cursor:hand;backg…",
     "year": null,
@@ -1245,7 +1289,7 @@
   {
     "slug": "betrisey",
     "title": "Pan Marce Betrisey - hodiny kuličkové, pneumatické a jiné",
-    "category": "projekty",
+    "category": "virtualni-muzeum",
     "thumbnail": null,
     "excerpt": "Kuriózní hodiny mají být nejen technicky zajímavé a tajemné, ale i krásné. A právě takové jsou hodiny které tvoří Marcel Betrisey ze Sion ve Švýcarsku.",
     "year": null,
@@ -1278,7 +1322,7 @@
   {
     "slug": "casova_pasma",
     "title": "Pásmovky",
-    "category": "projekty",
+    "category": "zajimavosti",
     "thumbnail": "/img/elektrika/svetovy_cas1.jpg",
     "excerpt": "Mezi kuriózní hodiny můžeme zařadit i hodiny ukazující více časů. Na úvodním obrázku jsou hodiny „SVĚTOVÝ ČAS“ od firmy Spel. Jedná se o analogové hodiny v kombinaci s digitálním datumem. Hodiny ukazují místní čas a č…",
     "year": null,
@@ -1300,7 +1344,7 @@
   {
     "slug": "pichacky",
     "title": "Píchačky - kontrolní hodiny - časová razítka",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": "/img/pichacky/fronta2.jpg",
     "excerpt": "Ještě nedávno většina zaměstnanců začínala svou pracovní směnu \"odpíchnutím\" příchodu. Na snímku fronty zaměstnanců před píchačkami IBM v USA. Elektronické kontrolní hodiny či různé čipy se používají dodnes. Obvykle m…",
     "year": 1888,
@@ -1311,7 +1355,7 @@
   {
     "slug": "pilovky",
     "title": "Pilovky se samonivelačním fyzikálním kyvadlem",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/pilovky/f/foto_0001.jpg",
     "excerpt": "V roce 2014 se na Aukru prodaly pilové hodiny se samonivelačním fyzikálním kyvadlem. Prodejce uváděl, že se jedná o velmi zajímavé, staré, postříbřené, pilové hodiny, vyrobené kolem roku 1880 - 1900 v Anglii podle ang…",
     "year": 1880,
@@ -1322,7 +1366,7 @@
   {
     "slug": "pneumatika2",
     "title": "PNEUMATICKÉ VEŘEJNÉ HODINY V PAŘÍŽI",
-    "category": "projekty",
+    "category": "konstrukce",
     "thumbnail": "/img/Paris_pneumatika/poulicni.jpg",
     "excerpt": "Podle článku Orologi\\pubblici\\pneumatici\\a\\Parigi, který napsala MARISA ADDOMINE, zkrácenou verzi zpracoval Petr Král.",
     "year": 1877,
@@ -1344,7 +1388,7 @@
   {
     "slug": "podebrady3",
     "title": "Poděbradský trpaslík",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/podebrady/trpaslik_puvodni_b.jpg",
     "excerpt": "Co by to bylo za veřejné hodiny bez odbíjení času. Věžní hodiny odbíjejí na zvony, protože zvony k věžím patří. Odbíjení někdy dokonce provádějí figurky, například vojáci ve zbroji, nazývané jacquemarty.",
     "year": 2007,
@@ -1388,7 +1432,7 @@
   {
     "slug": "literatura",
     "title": "Použitá i nepoužitá literatura",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": "/img/ujete/sikma_plocha_1.jpg",
     "excerpt": "O hodinách jsme četli spoustu knížek. Ještě víc jsme jich nečetli. Víte-li o nějaké pěkné, napište.",
     "year": 1410,
@@ -1399,7 +1443,7 @@
   {
     "slug": "podebrady2",
     "title": "Poznámky ke stroji květinových hodin v Poděbradech",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/podebrady/stroj1.jpg",
     "excerpt": "O historii vzniku hodinového stroje se nám nepodařilo najít žádné dokumenty. Pokud vyjdeme ze vzpomínek paní Vrátné z roku 1997, získáme alespoň základní představu o vzniku hodin.",
     "year": 1930,
@@ -1443,7 +1487,7 @@
   {
     "slug": "prestavby",
     "title": "Přestavby a dostavby",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": "/img/fucik/mini/prstencove.jpg",
     "excerpt": "Je kolem nás mnoho hodin, které v průběhu času změnily podobu. Došlo u nich k přestavbě z důvodů rozličných. Nejčastěji je přestavba motivována snahou zachovat schránu hodin, ale původní stroj nahradit jiným, chodivěj…",
     "year": 2000,
@@ -1454,7 +1498,7 @@
   {
     "slug": "decin_dalsi_stroje",
     "title": "Přírůstky expozice v letech 2015 - 2018",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/decin/dalsi_stroje/Krecmer/f/foto_0004.jpg",
     "excerpt": "Malý hodinový stroj, mající jen chodové soukolí pouze se dvěma koly: hnacím bubnem a krokovým kolem. Je uložen v litinovém rámu. Hodiny jsou výrobkem hodináře Václava Krečmera, který působil na přelomu 19. a 20. stole…",
     "year": 2002,
@@ -1465,7 +1509,7 @@
   {
     "slug": "decin_stroje2019",
     "title": "Přírůstky expozice v letech 2019",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/decin/dalsi_stroje/bassler1864/f/foto_0006.jpg",
     "excerpt": "Hodiny pochází z města Bad Düben. Získány na Ebay v březnu 2019. Autorem hodin je pravděpodobně Friedrich Moritz Bassler (Baßler) (\\1835) - zámečník, hodinář, výrobce věžních hodin. Aktivně působil asi do roku 1920 a …",
     "year": 1835,
@@ -1476,7 +1520,7 @@
   {
     "slug": "decin_stroje2020",
     "title": "Přírůstky expozice v letech 2020",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/decin/rok2020/Jilove/f/foto_0002.jpg",
     "excerpt": "Hodiny pocházejí z kostela Nejsvětější Trojice. Kostel má pohnutou historii : v roce 1859 vyhořel po zásahu moždíře při oslavách na zámku. Majitel panství hrabě Thun zafinancoval stavbu nového kostela, takže již za ro…",
     "year": 1715,
@@ -1487,7 +1531,7 @@
   {
     "slug": "pulsynetic",
     "title": "Pulsynetic - neobvyklá řešení",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/elektrika/pulsynetic/p1959_3_m.jpg",
     "excerpt": "Expozice Hodinária bude rozšířená o mateční hodiny z produkce firmy Gent & Co ze série označované jako PUL-SYN-ETIC. Konkrétně jde o \"Gents C7 Pulsynetic master clock\". Informace na této stránce se opírají jednak o vl…",
     "year": 1872,
@@ -1507,6 +1551,17 @@
     "wordCount": 425
   },
   {
+    "slug": "muzeum_royal_observatory",
+    "title": "Royal Observatory Greenwich",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Královská observatoř Greenwich u Londýna — Harrisonovy mořské chronometry H1—H4, nultý poledník, GMT. Klíčová instituce pro historii navigace a měření času. Součástí komplexu je Národní námořní muzeum (NMM) s největší…",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 35
+  },
+  {
     "slug": "PRS10",
     "title": "Rubidiový oscilátor PRS10 firmy SRS výtah ze stránek výrobce (přeloženo strojově, trochu problematicky)",
     "category": "projekty",
@@ -1520,7 +1575,7 @@
   {
     "slug": "ruzne",
     "title": "Různé o čase, hodinách a hodinkách",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": null,
     "excerpt": "Tato stránka odkazů byla aktualizována 12.2.2025. Bohužel velká většina dříve zde uvedených odkazů již nefungovala. Ze stránky zbylo jen torzo.",
     "year": 2004,
@@ -1553,7 +1608,7 @@
   {
     "slug": "kalendar_rimsky",
     "title": "Římský kalendář",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": null,
     "excerpt": "Díky laskavosti autora uvádíme celý článek ze serveru ANTIKA.avonet.cz Případný zájemce na něm najde přes třista článků o antice. Doporučujeme.",
     "year": 1465,
@@ -1604,6 +1659,17 @@
     "lastModified": "2017-04-26T20:53:00.000Z",
     "imageCount": 9,
     "wordCount": 627
+  },
+  {
+    "slug": "muzeum_stara_bystrica",
+    "title": "Slovenský orloj — Stará Bystrica",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Slovenský orloj otevřený v roce 2009 ve Staré Bystrici — největší dřevěná socha Sedembolestnej Panny Marie. Současné dílo navazující na středoevropskou orlojovou tradici, dílo sochaře Viliama Loviška a hodinářů ze záv…",
+    "year": 2009,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 32
   },
   {
     "slug": "slunecni_digi",
@@ -1674,7 +1740,7 @@
   {
     "slug": "tabor",
     "title": "Stěhovavý orloj v Táboře",
-    "category": "vezni-hodiny",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/vezni/tabor/foto0189x.jpg",
     "excerpt": "Každé staré hodiny s 24 hodinovým ciferníkem se někdy nazývaly orloje.",
     "year": 1512,
@@ -1685,7 +1751,7 @@
   {
     "slug": "svetlonos",
     "title": "Strážce času v Sezimově Ústí",
-    "category": "projekty",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/slunecni/svetlonos.jpg",
     "excerpt": "Sluneční hodiny symbolizují sepětí člověka s přírodou. Proto jsem rád, že například i v Sezimově Ústí byla postavena nová čtyřmetrová socha Strážce času - artefakt s funkcí slunečních hodin. (Web autora zde). Podrobně…",
     "year": 2007,
@@ -1696,7 +1762,7 @@
   {
     "slug": "vez_elektrocas1959",
     "title": "Stroj Elektročas 1959",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vez/f/elektrocas1959.jpg",
     "excerpt": "V současné době řídí ručičky ciferníků hodin soběslavské věže stroj Elektročas, který v roce 1959 nahradil starý stroj. Možná po 475 letech. Tento stroj je tedy ve službě více než padesát let. Přejeme mu, aby ještě dl…",
     "year": 1959,
@@ -1707,7 +1773,7 @@
   {
     "slug": "svarcvaldky_stroje2",
     "title": "Stroj štolových hodin (cca pol. 19.stol.)",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/svarcvald/stolove1.jpg",
     "excerpt": "Tento typ stroje švarcvaldek je dnes poměrně vzácný. Kyvadlo je umístěno za zadní deskou stroje- mezi deskou a stěnou. Stroj tedy nemůže přiléhat přímo na stěnu a musí být odsazen pomocí tří sloupků (německy sloupek =…",
     "year": 1800,
@@ -1718,7 +1784,7 @@
   {
     "slug": "vez_Budislav",
     "title": "Stroj věžních hodin - Budislav",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vez/Budislav/f/kostel.jpg",
     "excerpt": "Do expozice Věžního muzejíčka v Soběslavi byl v roce 2012 zapůjčen vřetenový stroj věžních hodin z kostela Nanebevzetí Panny Marie z nedaleké obce Budislav. Stroj byl před mnoha lety demontován a nahrazen mechanickým …",
     "year": 1357,
@@ -1729,7 +1795,7 @@
   {
     "slug": "vez_Prysk",
     "title": "Stroj věžních hodin - Horní Prysk",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vez/prysk/f/foto2_000.jpg",
     "excerpt": "Do expozice Věžního muzejíčka v Soběslavi byly v roce 2012 zapůjčeny laskavostí Biskupství litoměřického věžní hodiny, které byly před instalací moderních, elektronicky řízených hodin, umístěny ve zvonici kostela Petr…",
     "year": 2012,
@@ -1740,7 +1806,7 @@
   {
     "slug": "vez_decin",
     "title": "Stroj věžních hodin 1884 - Podmokly",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vez/decin/decin1.jpg",
     "excerpt": "Další velký exponát Hodinária pochází z evangelického kostela v Podmoklech. V německých pramenech je kostel uváděn jako evangelische Christuskirche.!decin 1 Kostel byl vybudován zásluhou podnikatele Franze Jordana, kt…",
     "year": 1884,
@@ -1751,7 +1817,7 @@
   {
     "slug": "svarcvaldky_surrerwerk",
     "title": "Surrerwerk",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/svarcvald/surrerwerk1.jpg",
     "excerpt": "U většiny strojů švarcvaldích je vidět celkem jednotná koncepce. Většinou to jsou dřevěné závažové jednodenní hodiny s černoleským krokem a bicím strojem se závěrkovým kolem. Byly však i výjimky. Stroj s jiným typem b…",
     "year": 1800,
@@ -1773,7 +1839,7 @@
   {
     "slug": "svarcvaldky",
     "title": "Švarcvaldky",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/svarcvald/vraky.jpg",
     "excerpt": "Švarcvaldky - Schwarzwald Uhren - Hodiny z Černého lesa - Black Forest Clock - Polodřeváky - Selské hodiny - Selky - Německé hodiny - Šotské hodiny - Škoťáky - Sorg - Jockele - Lidové hodiny - Kukačky . . . . .",
     "year": 1790,
@@ -1784,7 +1850,7 @@
   {
     "slug": "svarcvaldky_stroje",
     "title": "Švarcvaldky - stroje v 19. a 20 století",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/svarcvald/technologie.jpg",
     "excerpt": "Švarcvaldek se vyrobilo neuvěřitelně mnoho,odhaduje se, že více než milión kusů. Typické bylo použití nejdostupnějšího materiálu - dřeva. Přestože se jednalo mnohdy o lidovou výrobu v malých dílnách, základní součásti…",
     "year": null,
@@ -1828,7 +1894,7 @@
   {
     "slug": "decin_velika_ves",
     "title": "Torzo gotického stroje z Veliké Vsi",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/decin/gotika/Kostel_sv._Vavrince.jpg",
     "excerpt": "V kostele sv. Vavřince ve Veliké Vsi se zachovalo torzo hodin s gotickými prvky. Wikipedie uvádí, že první zmínky o obci i o kostele pochází už ze třetí čtvrtiny 13. století. Ve starší literatuře se uvádí, že kostel n…",
     "year": 1340,
@@ -1839,7 +1905,7 @@
   {
     "slug": "decin_patek",
     "title": "Torzo hodinového stroje z roku 1694 a stroj z roku 1728",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/decin/Patek/f/foto_0001.jpg",
     "excerpt": "Torzo starého hodinového stroje v nálezovém stavu dokládá, jak vypadá stroj před restaurováním. Není to však nějaký anonymní vrak. Je to stroj, který má svůj původ a svou historii. Původně byl umístěn na věži zámku v …",
     "year": 1694,
@@ -1861,7 +1927,7 @@
   {
     "slug": "decin_regulaceIBM",
     "title": "Třídrátový rozvod IBM",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/decin/IBM/stroj.jpg",
     "excerpt": "Hodinárium v Děčíně se v roce 2017 rozrostlo o podružné hodiny INTERNACIONAL určené pro třídrátový rozvod nepolarizovaných řídících impulzů. Tento rozvod je určen pro hodiny IBM se samočinnou regulací jednotlivých pod…",
     "year": 2017,
@@ -1872,7 +1938,7 @@
   {
     "slug": "ukazatele",
     "title": "Ukazatele času u \"normálních\" hodin",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/rucicky1.gif",
     "excerpt": "!Hodinky opravdu s ručičkamaJe otázkou, jak nejlépe mají normální hodiny a hodinky ukazovat čas. Oznámení přesného času může vypadat následovně: \"Je osmnáct hodin nula nula\". nebo \"Je šest hodin odpoledne\" případně\"Je…",
     "year": null,
@@ -1883,7 +1949,7 @@
   {
     "slug": "svarcvaldky_stroje_polodrev",
     "title": "Ukázka 2 strojů polodřevěných - 1. polovina 19. století",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/svarcvald/stroj_polodrev1.jpg",
     "excerpt": "(polodřevěný stroj = náboje kol dřevěné s železným středem , ozubení mosaz )",
     "year": 1820,
@@ -1905,7 +1971,7 @@
   {
     "slug": "bychory_zvonici_stroj",
     "title": "Věžní \"budík\" ze zámku Býchory",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vez/bychory/nalezovy_stav/f/nalez_zvonici001.jpg",
     "excerpt": "Do Hodinária byl zapůjčen společně se čtvrťovým věžním strojem Prokeš z roku 1868 i mimořádný zvonící stroj ze zámku Býchory. Zvonicí stroj bylo možno nařídit zřejmě na zvonění ranní, polední a odpolední, možná pro po…",
     "year": 1868,
@@ -1927,7 +1993,7 @@
   {
     "slug": "bychory_restaurovani_napis",
     "title": "Věžní komplet Prokeš 1868 - restaurování nátěru a nápisu",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": null,
     "excerpt": "V poněkud polních podmínkách probíhalo \"vlastními silami\" členů občanského sdružení restaurování stroje do podoby \"k vystavení\". Vzhledem k nevytápěnému prostoru jsme začali až na jaře 2011. Hlavním úkolem bylo komple…",
     "year": 1868,
@@ -1938,7 +2004,7 @@
   {
     "slug": "bychory_prokes1",
     "title": "Věžní komplet Prokeš 1868 ze zámku Býchory",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vez/bychory/nalezovy_stav.jpg",
     "excerpt": "Do Hodinária byl zapůjčen věžní komplet Prokeš 1868 s unikátním věžním zvonícím strojem a cimbály. Kromě již zmíněného zvonícího stroje má i neobvyklý kyvadlový krok.",
     "year": 1865,
@@ -1982,7 +2048,7 @@
   {
     "slug": "vezni2021",
     "title": "Věžní pérové hodiny se setrvačkou",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vezni/setrvackove/f/foto_0001.jpg",
     "excerpt": "Do Hodinária byly zakoupeny věžní hodiny zajímavé konstrukce, se kterou jsme se dosud nesetkali. Hlavní soukolí je poháněno pérem, uloženým ve velkém pérovníku. Péro je natahováno elektromotorem. Chod stroje řídí zaří…",
     "year": 1945,
@@ -2015,13 +2081,24 @@
   {
     "slug": "mindelheim",
     "title": "Virtuální prohlídka muzea v Mindelheimu",
-    "category": "vezni-hodiny",
+    "category": "muzea",
     "thumbnail": "/img/Mindelheim/f/foto_0001.jpg",
     "excerpt": "Muzeum věžních hodin Mindelheim Kurátor a majitel sbírá věžní hodiny už 33 let. Pokud na ně má, tak si je koupí sám a pokud jsou drahé zaplatí to město. Město také hradí i provoz. Prakticky každý z 50 strojů je v chod…",
     "year": null,
     "lastModified": "2017-04-23T14:14:00.000Z",
     "imageCount": 35,
     "wordCount": 83
+  },
+  {
+    "slug": "muzeum_olomouc_vmo",
+    "title": "Vlastivědné muzeum v Olomouci — orlojní sbírka",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Olomoucké Vlastivědné muzeum eviduje téměř dva miliony sbírkových předmětů, mezi nimi unikátně dochovaný soubor originálních součástek olomouckého orloje. V roce 2019 hostilo výstavu k 500. výročí první zmínky o orloj…",
+    "year": 2019,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 42
   },
   {
     "slug": "vodni_budik",
@@ -2070,7 +2147,7 @@
   {
     "slug": "zvony_vyroba",
     "title": "Výroba zvonů",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vez/zvony/pruzez_zvonem.gif",
     "excerpt": "Zvonařství, řemeslo které si svou technologii uchovalo více jak 1000 let. Princip výroby je stále stejný jako ve středověku. Moderní technologie napomáhají pouze při manipulací s těžkými břemeny a během tavby zvonovéh…",
     "year": null,
@@ -2081,7 +2158,7 @@
   {
     "slug": "gobelin",
     "title": "Vyšívané květinové hodiny - hodiny jedna báseň ??",
-    "category": "projekty",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/ujete/gobelin.jpg",
     "excerpt": "Trpaslík a jeho rýč- prý že je to leda kýč, jak ale odpovědět na otázku - co jsou hodiny vyšívané na zakázku ?",
     "year": null,
@@ -2091,19 +2168,8 @@
   },
   {
     "slug": "kostky",
-    "title": "Výtvarné miniatury ve tvaru kostky Dr. Jaroslav Adam",
-    "category": "decin",
-    "thumbnail": null,
-    "excerpt": "Sbírka je zejména díky množství zúčastněných výtvarníků jedinečná a tak trochu souvisí jak s tématikou hodinářskou, tak také v některých exponátech koresponduje i s výstavkou Nonsens 2015. Ať již je to kostka v láhvi …",
-    "year": 1980,
-    "lastModified": "2025-02-03T08:42:00.000Z",
-    "imageCount": 0,
-    "wordCount": 191
-  },
-  {
-    "slug": "kostky",
     "title": "Výtvarné miniatury ve tvaru kostky Dr. Jaroslava Adama",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": null,
     "excerpt": "Sbírka je zejména díky množství zúčastněných výtvarníků jedinečná a tak trochu souvisí jak s tématikou hodinářskou, tak také v některých exponátech koresponduje i s výstavkou Nonsens 2015. Ať již je to kostka v láhvi …",
     "year": 1980,
@@ -2112,9 +2178,20 @@
     "wordCount": 182
   },
   {
+    "slug": "muzeum_wien",
+    "title": "Wien Museum Uhrenmuseum",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Vídeňské muzeum hodin v paláci Obizzi — sbírka přes 700 hodin od gotiky po 20. století. Zvláštní význam má kolekce barokních pendlovek a vídeňských stolních hodin. V roce 2024 muzeum prošlo rekonstrukcí; expozice je r…",
+    "year": 2024,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 39
+  },
+  {
     "slug": "youtube",
     "title": "YOUTUBE",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": null,
     "excerpt": "Fenomén amatérsky pořizovaných videozáznamů a jejich ukládání na YouTube nemůže zůstat nepovšimnut ani při pátrání po kuriózních hodinách. Není rychlejší prostředek, jak informace o podivuhodných hodinách šířit po cel…",
     "year": null,
@@ -2147,7 +2224,7 @@
   {
     "slug": "decin_zamek",
     "title": "Zámek Děčín",
-    "category": "decin",
+    "category": "sbirka",
     "thumbnail": "/img/decin/zamek_decin.jpg",
     "excerpt": "Expozice časoměrných strojů sídlí na zámku Děčín. Zde uvádíme jen krátkou informaci o zámku. Ostatní najdete na stránkách zamekdecin.cz.",
     "year": 1711,
@@ -2158,7 +2235,7 @@
   {
     "slug": "kvetinovehodiny_Chomutov",
     "title": "Zaniklé květinové hodiny v Chomutově",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/Chomutov/f/foto_0001.jpg",
     "excerpt": "Chomutovské květinové hodiny stály u vchodu do tehdejšího městského parku, který dnes nese název sady Čs. armády. Byly umístěny nalevo od evangelického kostela, který byl v roce 1972 zbořen a na jehož místě nyní stojí…",
     "year": 1920,
@@ -2180,7 +2257,7 @@
   {
     "slug": "zmizele",
     "title": "Zmizelé hodiny",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": null,
     "excerpt": "Jsou hodiny, které kdysi budily pozornost, a pak se po nich zem slehla. O některých nevíme vlastně nic. A to pod slovo my zahrnuji i odbornou veřejnost. To je případ Votického orloje, o kterém existuje snad jen článek…",
     "year": 1926,
@@ -2213,7 +2290,7 @@
   {
     "slug": "zvon_petr_vok",
     "title": "Zvon Petr Vok - nový soběslavský zvon",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vez/zvony/petrvok/f/foto_001.jpg",
     "excerpt": "Je říjen LP 2011 a odlévá se nový zvon pro soběslavskou věž. Neodlévá se samozřejmě sám. Odlévá ho zvonař Michal Votruba s pomocníky za účasti VIP návštěvníků, fotografů a čumilů. To je událost vpravdě historická. Nap…",
     "year": 1925,
@@ -2224,7 +2301,7 @@
   {
     "slug": "zvon_petr_pavel",
     "title": "zvon Velký později zvaný Petr Pavel",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vez/zvony/f/petrpavel1.jpg",
     "excerpt": "Hlavní zvon soběslavské věže. Vysvěcený v roce 1492, přelit v roce 1663.  SPODNÍ PRŮMĚR 144 CM HMOTNOST cca 1800 KG (původní uváděná hmotnost 1440 kg) HMOTNOST SRDCE cca 100 KG",
     "year": 1440,
@@ -2235,7 +2312,7 @@
   {
     "slug": "zvony_uvod",
     "title": "Zvonařská expozice",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vez/cimbaly/cimbaly_vez_zdola.jpg",
     "excerpt": "Zvonařská expozice Věžního muzejíčka je logickým důsledkem existence muzejíčka ve věži. Jednak proto, že zvony k naší věži patří jižnejméně 800 let a jednak proto, že zvony zřetelně nesou stopy po minulém vývoji. Ve v…",
     "year": 1650,
@@ -2257,7 +2334,7 @@
   {
     "slug": "prehled_zvonu",
     "title": "Zvony na soběslavské věži",
-    "category": "vezni-hodiny",
+    "category": "sbirka",
     "thumbnail": "/img/vez/zvony/rekvirovani.jpg",
     "excerpt": "Soběslavská věž v první podobě vznikla někdy na přelomu 12. a 13.století. Zdá se, že již tehdy na ní zvony byly. První zmínka odkazuje na rok 1210. Ve druhé polovině 15. stol. se již uvádějí zvony čtyři:",
     "year": 1440,

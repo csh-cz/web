@@ -10,8 +10,9 @@ export interface Spolek {
   popis: string;
   web?: string;
   email?: string;
-  /** Kategorie pro grouping */
-  typ: 'spolek' | 'akademie' | 'muzeum' | 'cech';
+  /** Kategorie pro grouping. Muzea byla v 04/2026 přesunuta do
+   *  hodinarium-eu/muzea — viz content/hodinarium-eu/muzeum_*.md. */
+  typ: 'spolek' | 'akademie' | 'cech';
   /** Máme s nimi navázanou aktivní spolupráci? */
   spoluprace?: boolean;
 }
@@ -54,72 +55,8 @@ export const spolky: Spolek[] = [
     typ: 'spolek',
     spoluprace: true,
   },
-  {
-    slug: 'deutsches-uhrenmuseum',
-    jmeno: 'Deutsches Uhrenmuseum Furtwangen',
-    zeme: 'DE',
-    popis:
-      'Schwarzwaldské muzeum hodin — kolébka kukačkových hodin, jedna '
-      + 'z nejvýznamnějších evropských sbírek mechanického hodinářství.',
-    web: 'https://www.deutsches-uhrenmuseum.de/',
-    typ: 'muzeum',
-  },
-  {
-    slug: 'mindelheim',
-    jmeno: 'Mindelheimer Turmuhrenmuseum',
-    zeme: 'DE',
-    popis:
-      'Bavorské muzeum věžních hodin v Mindelheimu — specializovaná sbírka '
-      + 'středověkých a barokních věžních strojů.',
-    web: 'https://www.mindelheim.de/leben-erleben/freizeit-und-sport/sehenswuerdigkeiten/turmuhrenmuseum',
-    typ: 'muzeum',
-  },
-  {
-    slug: 'glashutte',
-    jmeno: 'Deutsches Uhrenmuseum Glashütte',
-    zeme: 'DE',
-    popis:
-      'Saské hodinářské muzeum v centru německé hodinářské tradice (Glashütte). '
-      + 'Sbírka mechanických hodin a hodinek od 19. století po současnost.',
-    web: 'https://www.uhrenmuseum-glashuette.com/',
-    typ: 'muzeum',
-  },
-
-  // ─── Švýcarsko ───
-  {
-    slug: 'mih',
-    jmeno: 'Musée International d\'Horlogerie (MIH)',
-    zeme: 'CH',
-    popis:
-      'Mezinárodní muzeum hodinařství v La Chaux-de-Fonds — vrcholná světová '
-      + 'sbírka, restaurátorské pracoviště a referenční institut hodinářské vědy.',
-    web: 'https://www.chaux-de-fonds.ch/musees/mih',
-    typ: 'muzeum',
-  },
-
-  // ─── Rakousko ───
-  {
-    slug: 'wien-uhrenmuseum',
-    jmeno: 'Wien Museum Uhrenmuseum',
-    zeme: 'AT',
-    popis:
-      'Vídeňské muzeum hodin v paláci Obizzi — sbírka přes 700 hodin '
-      + 'od gotiky po 20. století.',
-    web: 'https://www.wienmuseum.at/de/standorte/uhrenmuseum',
-    typ: 'muzeum',
-  },
 
   // ─── Velká Británie ───
-  {
-    slug: 'royal-observatory',
-    jmeno: 'Royal Observatory Greenwich',
-    zeme: 'GB',
-    popis:
-      'Královská observatoř — Harrisonovy mořské chronometry H1—H4, nultý '
-      + 'poledník, GMT. Klíčová instituce pro historii navigace a měření času.',
-    web: 'https://www.rmg.co.uk/royal-observatory',
-    typ: 'muzeum',
-  },
   {
     slug: 'bhi',
     jmeno: 'British Horological Institute',
@@ -165,42 +102,6 @@ export const spolky: Spolek[] = [
     typ: 'spolek',
   },
 
-  // ─── Polsko ───
-  {
-    slug: 'gdansk-marien',
-    jmeno: 'Astronomický orloj v Mariackém kostele v Gdaňsku',
-    zeme: 'PL',
-    popis:
-      'Středověký orloj v gdaňské Bazilice Nanebevzetí Panny Marie. '
-      + 'V kontextu rostockého symposia 2022 představil prof. A. Januszajtis.',
-    typ: 'muzeum',
-  },
-
-  {
-    slug: 'vmo',
-    jmeno: 'Vlastivědné muzeum v Olomouci',
-    zeme: 'CZ',
-    popis:
-      'Olomoucké muzeum eviduje téměř dva miliony sbírkových předmětů, '
-      + 'mezi nimi unikátně dochovaný soubor originálních součástek olomouckého '
-      + 'orloje. V roce 2019 hostilo výstavu k 500. výročí první zmínky o orloji '
-      + '(kurátor Radim Himmler).',
-    web: 'https://www.vmo.cz/',
-    typ: 'muzeum',
-    spoluprace: true,
-  },
-
-  // ─── Slovensko ───
-  {
-    slug: 'slovenske-orloje',
-    jmeno: 'Stará Bystrica — orloj',
-    zeme: 'SK',
-    popis:
-      'Slovenský orloj ve Staré Bystrici (otevřen 2009) — největší dřevěná '
-      + 'socha Sedembolestnej Panny Marie. Současné dílo navazující '
-      + 'na orlojovou tradici.',
-    typ: 'muzeum',
-  },
 ];
 
 export const zemeLabel: Record<Spolek['zeme'], string> = {
@@ -221,7 +122,6 @@ export const zemeLabel: Record<Spolek['zeme'], string> = {
 export const typLabel: Record<Spolek['typ'], string> = {
   spolek: 'Spolek',
   akademie: 'Akademie',
-  muzeum: 'Muzeum',
   cech: 'Cech',
 };
 
