@@ -1,7 +1,10 @@
 ---
 title: "Mechanické digi IWC Schaffhausen z roku 1885"
 slug: "schaffhausen"
-category: "vezni-hodiny"
+category: "virtualni-muzeum"
+tags:
+  - kapesni
+  - schaffhausen
 originalUrl: "https://hodinarium.eu/schaffhausen.htm"
 lastModified: "Wed, 26 Apr 2017 14:11:00 GMT"
 sourceCharset: "windows-1250"

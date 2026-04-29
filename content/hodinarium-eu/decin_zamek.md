@@ -1,7 +1,7 @@
 ---
 title: "Zámek Děčín"
 slug: "decin_zamek"
-category: "decin"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/decin_zamek.htm"
 lastModified: "Sat, 22 Apr 2017 22:36:00 GMT"
 sourceCharset: "windows-1250"

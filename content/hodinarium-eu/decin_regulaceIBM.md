@@ -1,7 +1,7 @@
 ---
 title: "Třídrátový rozvod IBM"
 slug: "decin_regulaceIBM"
-category: "decin"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/decin_regulaceIBM.htm"
 lastModified: "Fri, 10 Jun 2022 22:30:00 GMT"
 sourceCharset: "windows-1250"

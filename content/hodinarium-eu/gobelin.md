@@ -1,7 +1,10 @@
 ---
 title: "Vyšívané květinové hodiny - hodiny jedna báseň ??"
 slug: "gobelin"
-category: "projekty"
+category: "virtualni-muzeum"
+tags:
+  - kvetinove
+  - kuriozita
 originalUrl: "https://hodinarium.eu/gobelin.htm"
 lastModified: "Wed, 26 Apr 2017 14:07:00 GMT"
 sourceCharset: "windows-1250"

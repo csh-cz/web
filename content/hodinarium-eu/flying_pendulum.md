@@ -1,7 +1,9 @@
 ---
 title: "FLYING PENDULUM CLOCK"
 slug: "flying_pendulum"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - kyvadlo
 originalUrl: "https://hodinarium.eu/flying_pendulum.htm"
 lastModified: "Wed, 26 Apr 2017 15:59:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,7 @@
 ---
 title: "Použitá i nepoužitá literatura"
 slug: "literatura"
-category: "sbirka"
+category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/literatura.htm"
 lastModified: "Mon, 15 Jan 2024 14:23:00 GMT"
 sourceCharset: "windows-1250"

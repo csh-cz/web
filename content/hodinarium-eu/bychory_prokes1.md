@@ -1,7 +1,7 @@
 ---
 title: "Věžní komplet Prokeš 1868 ze zámku Býchory"
 slug: "bychory_prokes1"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/bychory_prokes1.htm"
 lastModified: "Wed, 02 Nov 2022 10:11:00 GMT"
 sourceCharset: "windows-1250"

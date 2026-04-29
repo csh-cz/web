@@ -1,7 +1,9 @@
 ---
 title: "Jednotný čas - touha po přesnosti"
 slug: "jednotnycas"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - synchronni
 originalUrl: "https://hodinarium.eu/jednotnycas.htm"
 lastModified: "Thu, 12 May 2022 22:56:00 GMT"
 sourceCharset: "windows-1250"

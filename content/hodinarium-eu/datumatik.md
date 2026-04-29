@@ -1,7 +1,10 @@
 ---
 title: "Hodiny Datumatic"
 slug: "datumatik"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - mechanicke
+  - 1900s
 originalUrl: "https://hodinarium.eu/datumatik.htm"
 lastModified: "Wed, 26 Apr 2017 16:00:00 GMT"
 sourceCharset: "windows-1250"

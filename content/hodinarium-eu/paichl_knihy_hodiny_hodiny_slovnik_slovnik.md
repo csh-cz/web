@@ -1,7 +1,7 @@
 ---
 title: "paichl_knihy_hodiny_hodiny_slovnik_slovnik"
 slug: "paichl_knihy_hodiny_hodiny_slovnik_slovnik"
-category: "sbirka"
+category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/paichl/knihy/hodiny/hodiny_slovnik/slovnik.htm"
 lastModified: "Wed, 05 Mar 2025 20:05:23 GMT"
 sourceCharset: "windows-1250"

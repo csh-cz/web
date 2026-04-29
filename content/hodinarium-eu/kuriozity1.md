@@ -1,7 +1,9 @@
 ---
 title: "Odkazy na další podivuhodné hodiny"
 slug: "kuriozity1"
-category: "sbirka"
+category: "zajimavosti"
+tags:
+  - kuriozita
 originalUrl: "https://hodinarium.eu/kuriozity1.htm"
 lastModified: "Wed, 26 Apr 2017 13:41:00 GMT"
 sourceCharset: "windows-1250"

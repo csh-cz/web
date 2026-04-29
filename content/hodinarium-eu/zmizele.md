@@ -1,7 +1,7 @@
 ---
 title: "Zmizelé hodiny"
 slug: "zmizele"
-category: "sbirka"
+category: "virtualni-muzeum"
 originalUrl: "https://hodinarium.eu/zmizele.htm"
 lastModified: "Wed, 26 Apr 2017 16:14:00 GMT"
 sourceCharset: "windows-1250"

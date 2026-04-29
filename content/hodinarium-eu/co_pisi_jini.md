@@ -1,7 +1,7 @@
 ---
 title: ""
 slug: "co_pisi_jini"
-category: "sbirka"
+category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/co_pisi_jini.htm"
 lastModified: "Sat, 02 Jul 2016 20:07:00 GMT"
 sourceCharset: "windows-1250"

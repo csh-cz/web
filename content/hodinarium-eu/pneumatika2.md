@@ -1,7 +1,10 @@
 ---
 title: "PNEUMATICKÉ VEŘEJNÉ HODINY V PAŘÍŽI"
 slug: "pneumatika2"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - pneumaticke
+  - 1800s
 originalUrl: "https://hodinarium.eu/pneumatika2.htm"
 lastModified: "Mon, 04 Mar 2024 10:56:00 GMT"
 sourceCharset: "windows-1250"

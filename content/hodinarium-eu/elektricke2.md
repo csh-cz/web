@@ -1,7 +1,9 @@
 ---
 title: "Hodiny s impulzem do oscilátoru"
 slug: "elektricke2"
-category: "sbirka"
+category: "konstrukce"
+tags:
+  - elektricke
 originalUrl: "https://hodinarium.eu/elektricke2.htm"
 lastModified: "Wed, 24 May 2017 08:25:00 GMT"
 sourceCharset: "windows-1250"

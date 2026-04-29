@@ -1,7 +1,9 @@
 ---
 title: "Kompresní žárovka aneb natahování a řízení pneumatikou."
 slug: "pneumatika"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - pneumaticke
 originalUrl: "https://hodinarium.eu/pneumatika.htm"
 lastModified: "Wed, 11 May 2022 09:48:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,9 @@
 ---
 title: "Fenomén věžních \"muzeí\""
 slug: "vezni_muzejicko_evropa"
-category: "vezni-hodiny"
+category: "muzea"
+tags:
+  - evropa
 originalUrl: "https://hodinarium.eu/vezni_muzejicko_evropa.htm"
 lastModified: "Fri, 22 Nov 2019 23:29:00 GMT"
 sourceCharset: "windows-1250"

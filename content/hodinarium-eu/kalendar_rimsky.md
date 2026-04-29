@@ -1,7 +1,10 @@
 ---
 title: "Římský kalendář"
 slug: "kalendar_rimsky"
-category: "sbirka"
+category: "zajimavosti"
+tags:
+  - 1700s
+  - popularizace
 originalUrl: "https://hodinarium.eu/kalendar_rimsky.htm"
 lastModified: "Mon, 11 Jun 2018 08:48:00 GMT"
 sourceCharset: "windows-1250"

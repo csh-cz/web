@@ -1,7 +1,10 @@
 ---
 title: "Poznámky ke stroji květinových hodin v Poděbradech"
 slug: "podebrady2"
-category: "sbirka"
+category: "virtualni-muzeum"
+tags:
+  - kvetinove
+  - cesko
 originalUrl: "https://hodinarium.eu/podebrady2.htm"
 lastModified: "Mon, 05 Apr 2021 11:29:00 GMT"
 sourceCharset: "windows-1250"

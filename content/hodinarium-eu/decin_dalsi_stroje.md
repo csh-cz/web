@@ -1,7 +1,7 @@
 ---
 title: "Přírůstky expozice v letech 2015 - 2018"
 slug: "decin_dalsi_stroje"
-category: "decin"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/decin_dalsi_stroje.htm"
 lastModified: "Wed, 13 Nov 2024 14:19:00 GMT"
 sourceCharset: "windows-1250"

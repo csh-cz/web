@@ -1,7 +1,7 @@
 ---
 title: "Hodinárium Děčín - expozice časoměrných strojů"
 slug: "decin_jednotny_cas"
-category: "decin"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/decin_jednotny_cas.htm"
 lastModified: "Sat, 14 Jan 2023 10:40:00 GMT"
 sourceCharset: "windows-1250"

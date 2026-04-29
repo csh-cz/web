@@ -1,7 +1,7 @@
 ---
 title: "Hodinárium Děčín"
 slug: "index"
-category: "ostatni"
+category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/"
 lastModified: "Fri, 11 Jul 2025 15:01:00 GMT"
 sourceCharset: "utf-8"

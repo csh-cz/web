@@ -1,7 +1,7 @@
 ---
 title: "LAPLACE"
 slug: "laplace"
-category: "ostatni"
+category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/laplace.htm"
 lastModified: "Sun, 24 Mar 2024 22:15:00 GMT"
 sourceCharset: "windows-1250"

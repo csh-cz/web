@@ -1,7 +1,7 @@
 ---
 title: "Výroba zvonů"
 slug: "zvony_vyroba"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/zvony_vyroba.htm"
 lastModified: "Sun, 23 Apr 2017 20:06:00 GMT"
 sourceCharset: "windows-1250"

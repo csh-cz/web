@@ -1,7 +1,9 @@
 ---
 title: "Elektricky natahované hodiny Ferramo"
 slug: "ferramo"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - elektricke
 originalUrl: "https://hodinarium.eu/ferramo.htm"
 lastModified: "Tue, 03 Oct 2023 08:25:00 GMT"
 sourceCharset: "windows-1250"

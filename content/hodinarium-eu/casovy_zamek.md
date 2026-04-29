@@ -1,7 +1,9 @@
 ---
 title: "Časový zámek - Time Lock"
 slug: "casovy_zamek"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - mechanicke
 originalUrl: "https://hodinarium.eu/casovy_zamek.htm"
 lastModified: "Sun, 23 Apr 2017 09:11:00 GMT"
 sourceCharset: "windows-1250"

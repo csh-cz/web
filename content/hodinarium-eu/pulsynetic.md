@@ -1,7 +1,11 @@
 ---
 title: "Pulsynetic - neobvyklá řešení"
 slug: "pulsynetic"
-category: "sbirka"
+category: "konstrukce"
+tags:
+  - pulsynetic
+  - synchronni
+  - elektromagneticke
 originalUrl: "https://hodinarium.eu/pulsynetic.htm"
 lastModified: "Sat, 11 Jun 2022 09:27:00 GMT"
 sourceCharset: "windows-1250"

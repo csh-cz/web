@@ -1,7 +1,9 @@
 ---
 title: "Elektrické hodiny 1 mechanické hodiny elektricky natahované"
 slug: "elektricke1"
-category: "sbirka"
+category: "konstrukce"
+tags:
+  - elektricke
 originalUrl: "https://hodinarium.eu/elektricke1.htm"
 lastModified: "Wed, 20 Mar 2019 09:52:00 GMT"
 sourceCharset: "windows-1250"

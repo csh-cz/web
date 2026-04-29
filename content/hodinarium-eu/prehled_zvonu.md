@@ -1,7 +1,7 @@
 ---
 title: "Zvony na soběslavské věži"
 slug: "prehled_zvonu"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/prehled_zvonu.htm"
 lastModified: "Sun, 23 Apr 2017 15:56:00 GMT"
 sourceCharset: "windows-1250"

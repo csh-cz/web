@@ -1,7 +1,9 @@
 ---
 title: "Hodiny v Holiday Inn Brno"
 slug: "vlachynsky"
-category: "projekty"
+category: "virtualni-muzeum"
+tags:
+  - cesko
 originalUrl: "https://hodinarium.eu/vlachynsky.htm"
 lastModified: "Wed, 26 Apr 2017 16:24:00 GMT"
 sourceCharset: "windows-1250"

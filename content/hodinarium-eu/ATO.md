@@ -1,7 +1,10 @@
 ---
 title: "Elektrické hodiny ATO"
 slug: "ATO"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - elektromagneticke
+  - 1900s
 originalUrl: "https://hodinarium.eu/ATO.htm"
 lastModified: "Wed, 26 Apr 2017 13:33:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,9 @@
 ---
 title: "Švarcvaldky - stroje v 19. a 20 století"
 slug: "svarcvaldky_stroje"
-category: "sbirka"
+category: "konstrukce"
+tags:
+  - mechanicke
 originalUrl: "https://hodinarium.eu/svarcvaldky_stroje.htm"
 lastModified: "Wed, 26 Apr 2017 16:31:00 GMT"
 sourceCharset: "windows-1250"

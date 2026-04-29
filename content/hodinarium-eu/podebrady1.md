@@ -1,7 +1,10 @@
 ---
 title: "Květinové hodiny v Poděbradech"
 slug: "podebrady1"
-category: "sbirka"
+category: "virtualni-muzeum"
+tags:
+  - kvetinove
+  - cesko
 originalUrl: "https://hodinarium.eu/podebrady1.htm"
 lastModified: "Sat, 01 Feb 2025 16:25:00 GMT"
 sourceCharset: "windows-1250"

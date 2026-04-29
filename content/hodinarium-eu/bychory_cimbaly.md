@@ -1,7 +1,7 @@
 ---
 title: "Cimbály ze zámku Býchory"
 slug: "bychory_cimbaly"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/bychory_cimbaly.htm"
 lastModified: "Thu, 27 Apr 2017 09:52:00 GMT"
 sourceCharset: "windows-1250"

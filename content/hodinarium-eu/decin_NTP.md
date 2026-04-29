@@ -1,7 +1,7 @@
 ---
 title: "Instalované NTP servery"
 slug: "decin_NTP"
-category: "decin"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/decin_NTP.htm"
 lastModified: "Mon, 20 Mar 2023 10:16:00 GMT"
 sourceCharset: "windows-1250"

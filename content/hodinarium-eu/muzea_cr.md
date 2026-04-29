@@ -1,7 +1,9 @@
 ---
 title: "Hodinářská muzea, sbírky a weby v ČR"
 slug: "muzea_cr"
-category: "sbirka"
+category: "muzea"
+tags:
+  - cesko
 originalUrl: "https://hodinarium.eu/muzea_cr.htm"
 lastModified: "Fri, 01 Jan 2021 23:44:00 GMT"
 sourceCharset: "windows-1250"

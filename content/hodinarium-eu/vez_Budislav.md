@@ -1,7 +1,7 @@
 ---
 title: "Stroj věžních hodin - Budislav"
 slug: "vez_Budislav"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/vez_Budislav.htm"
 lastModified: "Thu, 27 Apr 2017 09:14:00 GMT"
 sourceCharset: "windows-1250"

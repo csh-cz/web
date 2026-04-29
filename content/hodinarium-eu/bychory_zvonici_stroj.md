@@ -1,7 +1,7 @@
 ---
 title: "Věžní \"budík\" ze zámku Býchory"
 slug: "bychory_zvonici_stroj"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/bychory_zvonici_stroj.htm"
 lastModified: "Thu, 27 Apr 2017 21:40:00 GMT"
 sourceCharset: "windows-1250"

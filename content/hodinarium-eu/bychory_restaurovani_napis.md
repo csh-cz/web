@@ -1,7 +1,7 @@
 ---
 title: "Věžní komplet Prokeš 1868 - restaurování nátěru a nápisu"
 slug: "bychory_restaurovani_napis"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/bychory_restaurovani_napis.htm"
 lastModified: "Thu, 27 Apr 2017 21:23:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,9 @@
 ---
 title: "Mluvící hodinky"
 slug: "mluvici1895"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - 1800s
 originalUrl: "https://hodinarium.eu/mluvici1895.htm"
 lastModified: "Wed, 26 Apr 2017 15:58:00 GMT"
 sourceCharset: "windows-1250"

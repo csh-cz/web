@@ -1,7 +1,9 @@
 ---
 title: "Hodiny Kavalír"
 slug: "kavalir"
-category: "projekty"
+category: "virtualni-muzeum"
+tags:
+  - kuriozita
 originalUrl: "https://hodinarium.eu/kavalir.htm"
 lastModified: "Wed, 26 Apr 2017 14:10:00 GMT"
 sourceCharset: "windows-1250"

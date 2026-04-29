@@ -1,7 +1,10 @@
 ---
 title: "Ukázka 2 strojů polodřevěných - 1. polovina 19. století"
 slug: "svarcvaldky_stroje_polodrev"
-category: "sbirka"
+category: "konstrukce"
+tags:
+  - mechanicke
+  - 1800s
 originalUrl: "https://hodinarium.eu/svarcvaldky_stroje_polodrev.htm"
 lastModified: "Wed, 26 Apr 2017 13:43:00 GMT"
 sourceCharset: "windows-1250"

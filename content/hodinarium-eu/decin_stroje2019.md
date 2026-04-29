@@ -1,7 +1,7 @@
 ---
 title: "Přírůstky expozice v letech 2019"
 slug: "decin_stroje2019"
-category: "decin"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/decin_stroje2019.htm"
 lastModified: "Mon, 29 Jul 2019 16:35:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,7 @@
 ---
 title: "Torzo hodinového stroje z roku 1694 a stroj z roku 1728"
 slug: "decin_patek"
-category: "decin"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/decin_patek.htm"
 lastModified: "Wed, 26 Apr 2017 13:50:00 GMT"
 sourceCharset: "windows-1250"

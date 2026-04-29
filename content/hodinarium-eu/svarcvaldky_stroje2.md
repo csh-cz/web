@@ -1,7 +1,10 @@
 ---
 title: "Stroj štolových hodin (cca pol. 19.stol.)"
 slug: "svarcvaldky_stroje2"
-category: "sbirka"
+category: "konstrukce"
+tags:
+  - mechanicke
+  - 1800s
 originalUrl: "https://hodinarium.eu/svarcvaldky_stroje2.htm"
 lastModified: "Wed, 26 Apr 2017 13:44:00 GMT"
 sourceCharset: "windows-1250"

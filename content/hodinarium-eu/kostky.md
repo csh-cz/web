@@ -1,5 +1,5 @@
 ---
-title: "Výtvarné miniatury ve tvaru kostky Dr. Jaroslava Adama"
+title: "Výtvarné miniatury ve tvaru kostky Dr. Jaroslav Adam"
 slug: "kostky"
 category: "sbirka"
 originalUrl: "https://hodinarium.eu/kostky.htm"
@@ -7,7 +7,7 @@ lastModified: "Mon, 03 Feb 2025 08:42:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:09.798Z"
 ---
-import PdfPager from '../../apps/hodinarium-eu/src/components/PdfPager.astro';
+Dr. Jaroslav Adam
 
 ### Pozoruhodná sbírka pana Dr. Adama byla vystavena v roce 2015.
 
@@ -21,4 +21,6 @@ Jsme rádi, že i náš spolek přispěl k obohacení sbírky vlastním exponát
 
 ## Brožura k výstavě
 
-<PdfPager src="/download/brozura_miniatury.pdf" title="Brožura — Výtvarné miniatury ve tvaru kostky" pages={76} />
+[**Stáhnout PDF brožury — Výtvarné miniatury ve tvaru kostky**](/download/brozura_miniatury.pdf)
+
+<iframe src="/download/brozura_miniatury.pdf" width="100%" height="700" title="Brožura — Výtvarné miniatury ve tvaru kostky" loading="lazy"></iframe>

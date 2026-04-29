@@ -1,7 +1,10 @@
 ---
 title: "Poděbradský trpaslík"
 slug: "podebrady3"
-category: "sbirka"
+category: "virtualni-muzeum"
+tags:
+  - kvetinove
+  - cesko
 originalUrl: "https://hodinarium.eu/podebrady3.htm"
 lastModified: "Wed, 26 Apr 2017 16:17:00 GMT"
 sourceCharset: "windows-1250"

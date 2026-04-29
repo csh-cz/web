@@ -1,7 +1,10 @@
 ---
 title: "Hodiny skoro z MERKURU"
 slug: "merkur"
-category: "sbirka"
+category: "zajimavosti"
+tags:
+  - kuriozita
+  - diy
 originalUrl: "https://hodinarium.eu/merkur.htm"
 lastModified: "Sun, 03 Nov 2019 11:30:00 GMT"
 sourceCharset: "windows-1250"

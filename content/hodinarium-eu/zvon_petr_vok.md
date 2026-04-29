@@ -1,7 +1,7 @@
 ---
 title: "Zvon Petr Vok - nový soběslavský zvon"
 slug: "zvon_petr_vok"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/zvon_petr_vok.htm"
 lastModified: "Sun, 23 Apr 2017 20:05:00 GMT"
 sourceCharset: "windows-1250"

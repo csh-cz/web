@@ -228,9 +228,36 @@ function decideMigration(fm: ArticleFrontmatter): MigrationDecision {
   };
 }
 
+function applyMigration(file: string, decision: MigrationDecision) {
+  const fullPath = join(CONTENT, file);
+  let text = readFileSync(fullPath, 'utf-8');
+
+  // Kronika je vlastní collection — články zatím necháváme tam, kde jsou,
+  // přesun do content/kronika/ proběhne v M4 (vlastní migration script).
+  // Pro teď jim necháváme original category, ale přidáme komentář, že patří do kroniky.
+
+  // Přepiš category: line ve frontmatteru
+  text = text.replace(
+    /^(category:\s*)["']?[\w-]+["']?(\s*)$/m,
+    `$1"${decision.newCategory}"$2`,
+  );
+
+  // Pokud má suggestedTags a článek ještě nemá tags: blok, přidej za category:
+  if (decision.suggestedTags.length > 0 && !/^tags:\s*\n/m.test(text) && !/^tags:\s*\[/m.test(text)) {
+    const tagsBlock = `tags:\n${decision.suggestedTags.map((t) => `  - ${t}`).join('\n')}`;
+    text = text.replace(
+      /^(category:\s*"[\w-]+"\s*\n)/m,
+      `$1${tagsBlock}\n`,
+    );
+  }
+
+  writeFileSync(fullPath, text);
+}
+
 function main() {
+  const apply = process.argv.includes('--apply');
   const files = readdirSync(CONTENT).filter((f) => f.endsWith('.md') || f.endsWith('.mdx'));
-  const decisions: MigrationDecision[] = [];
+  const decisions: { file: string; d: MigrationDecision }[] = [];
 
   for (const file of files) {
     const text = readFileSync(join(CONTENT, file), 'utf-8');
@@ -239,10 +266,21 @@ function main() {
       console.warn(`Skip (no frontmatter): ${file}`);
       continue;
     }
-    decisions.push(decideMigration(parsed.fm));
+    const decision = decideMigration(parsed.fm);
+    decisions.push({ file, d: decision });
+    if (apply && decision.oldCategory !== decision.newCategory && decision.newCategory !== 'kronika') {
+      applyMigration(file, decision);
+    }
   }
+  if (apply) {
+    const changed = decisions.filter(({ d }) => d.oldCategory !== d.newCategory && d.newCategory !== 'kronika').length;
+    console.log(`✓ APPLY: ${changed} článků přepsaných (kronika ${decisions.filter(d => d.d.newCategory === 'kronika').length} ponecháno pro M4)`);
+  }
+  // Re-extract pro report (po případném přepisu pracujeme s dec):
+  const decReport = decisions.map((x) => x.d);
 
   // Group by new category
+  const decisions2 = decReport;
   const groups: Record<NewCategory, MigrationDecision[]> = {
     sbirka: [],
     konstrukce: [],
@@ -252,14 +290,14 @@ function main() {
     zajimavosti: [],
     kronika: [],
   };
-  for (const d of decisions) {
+  for (const d of decisions2) {
     groups[d.newCategory].push(d);
   }
 
   // CSV
   const csv = [
     'slug,oldCategory,newCategory,suggestedTags,reason',
-    ...decisions.map((d) =>
+    ...decisions2.map((d) =>
       [d.slug, d.oldCategory, d.newCategory, d.suggestedTags.join(';'), d.reason]
         .map((c) => `"${c.replace(/"/g, '""')}"`)
         .join(','),
@@ -269,7 +307,7 @@ function main() {
 
   // Markdown report
   const md: string[] = ['# Migration plán kategorií', ''];
-  md.push(`Celkem článků: **${decisions.length}**`, '');
+  md.push(`Celkem článků: **${decisions2.length}**`, '');
   md.push('## Přehled per nová kategorie', '');
   md.push('| Kategorie | Počet |', '|---|---:|');
   for (const cat of Object.keys(groups) as NewCategory[]) {
@@ -286,7 +324,7 @@ function main() {
   }
   writeFileSync(join(ROOT, 'migration-plan.md'), md.join('\n'));
 
-  console.log(`✓ ${decisions.length} článků analyzováno`);
+  console.log(`✓ ${decisions2.length} článků analyzováno`);
   for (const cat of Object.keys(groups) as NewCategory[]) {
     console.log(`  ${cat}: ${groups[cat].length}`);
   }

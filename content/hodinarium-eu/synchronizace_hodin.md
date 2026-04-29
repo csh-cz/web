@@ -1,7 +1,9 @@
 ---
 title: "Jednotně řízené hodiny a synchronizace času"
 slug: "synchronizace_hodin"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - synchronni
 originalUrl: "https://hodinarium.eu/synchronizace_hodin.htm"
 lastModified: "Sun, 26 Sep 2021 09:14:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,7 @@
 ---
 title: "Různé o čase, hodinách a hodinkách"
 slug: "ruzne"
-category: "sbirka"
+category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/ruzne.htm"
 lastModified: "Wed, 12 Feb 2025 10:53:00 GMT"
 sourceCharset: "windows-1250"

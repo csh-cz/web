@@ -1,7 +1,11 @@
 ---
 title: "BULLE hodiny - elektromagnet se dvěma magnetickými poli"
 slug: "bulle"
-category: "sbirka"
+category: "konstrukce"
+tags:
+  - bulle
+  - elektromagneticke
+  - 1900s
 originalUrl: "https://hodinarium.eu/bulle.htm"
 lastModified: "Sun, 09 Feb 2020 16:02:00 GMT"
 sourceCharset: "windows-1250"

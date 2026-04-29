@@ -1,7 +1,7 @@
 ---
 title: "Koncepce Hodinária"
 slug: "decin_koncepce"
-category: "decin"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/decin_koncepce.htm"
 lastModified: "Sun, 15 Nov 2020 19:20:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,9 @@
 ---
 title: "Strážce času v Sezimově Ústí"
 slug: "svetlonos"
-category: "projekty"
+category: "virtualni-muzeum"
+tags:
+  - cesko
 originalUrl: "https://hodinarium.eu/svetlonos.htm"
 lastModified: "Wed, 26 Apr 2017 16:22:00 GMT"
 sourceCharset: "windows-1250"

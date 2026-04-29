@@ -1,7 +1,7 @@
 ---
 title: "zvon Velký později zvaný Petr Pavel"
 slug: "zvon_petr_pavel"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/zvon_petr_pavel.htm"
 lastModified: "Sun, 23 Apr 2017 20:02:00 GMT"
 sourceCharset: "windows-1250"

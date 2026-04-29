@@ -1,7 +1,9 @@
 ---
 title: "Pan Marce Betrisey - hodiny kuličkové, pneumatické a jiné"
 slug: "betrisey"
-category: "projekty"
+category: "virtualni-muzeum"
+tags:
+  - kuriozita
 originalUrl: "https://hodinarium.eu/betrisey.htm"
 lastModified: "Wed, 26 Apr 2017 13:59:00 GMT"
 sourceCharset: "windows-1250"

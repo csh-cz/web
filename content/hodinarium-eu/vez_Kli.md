@@ -1,7 +1,7 @@
 ---
 title: "Barokní \"špindlový\" stroj věžních hodin"
 slug: "vez_Kli"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/vez_Kli.htm"
 lastModified: "Thu, 27 Apr 2017 09:03:00 GMT"
 sourceCharset: "windows-1250"

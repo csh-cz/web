@@ -1,7 +1,7 @@
 ---
 title: "KLÍČOVÁ OTÁZKA - natahovátko L. Hainz"
 slug: "hainz_natahovani"
-category: "ostatni"
+category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/hainz_natahovani.htm"
 lastModified: "Wed, 26 Apr 2017 16:29:00 GMT"
 sourceCharset: "windows-1250"

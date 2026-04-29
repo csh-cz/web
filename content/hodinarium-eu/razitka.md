@@ -1,7 +1,7 @@
 ---
 title: "Kvalifikované časové razítko - Time Stamp"
 slug: "razitka"
-category: "sbirka"
+category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/razitka.htm"
 lastModified: "Wed, 26 Apr 2017 16:13:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,7 @@
 ---
 title: "Další kola made in Prokeš cca 1868"
 slug: "bychory_dalsi_kola"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/bychory_dalsi_kola.htm"
 lastModified: "Sun, 23 Apr 2017 09:09:00 GMT"
 sourceCharset: "windows-1250"

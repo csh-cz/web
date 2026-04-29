@@ -1,7 +1,11 @@
 ---
 title: "Květinové hodiny v Novém Městě nad Metují"
 slug: "kvetinovehodiny_NMnM"
-category: "sbirka"
+category: "virtualni-muzeum"
+tags:
+  - kvetinove
+  - cesko
+  - 1900s
 originalUrl: "https://hodinarium.eu/kvetinovehodiny_NMnM.htm"
 lastModified: "Sat, 14 Mar 2020 11:19:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,7 @@
 ---
 title: "Stroj věžních hodin - Horní Prysk"
 slug: "vez_Prysk"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/vez_Prysk.htm"
 lastModified: "Sun, 23 Apr 2017 09:01:00 GMT"
 sourceCharset: "windows-1250"

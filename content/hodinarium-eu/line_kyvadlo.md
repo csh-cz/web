@@ -1,7 +1,9 @@
 ---
 title: "Fyzikální \"líné\" kyvadlo"
 slug: "line_kyvadlo"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - kyvadlo
 originalUrl: "https://hodinarium.eu/line_kyvadlo.htm"
 lastModified: "Fri, 30 Jun 2023 11:40:00 GMT"
 sourceCharset: "windows-1250"

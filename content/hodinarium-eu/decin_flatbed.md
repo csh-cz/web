@@ -1,7 +1,7 @@
 ---
 title: "Flatbed - Věžní hodinový stroj Paul Zieux"
 slug: "decin_flatbed"
-category: "decin"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/decin_flatbed.htm"
 lastModified: "Fri, 28 Apr 2017 16:23:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,7 @@
 ---
 title: "Historické inspirace"
 slug: "hinspirace"
-category: "sbirka"
+category: "virtualni-muzeum"
 originalUrl: "https://hodinarium.eu/hinspirace.htm"
 lastModified: "Wed, 26 Apr 2017 14:07:00 GMT"
 sourceCharset: "windows-1250"

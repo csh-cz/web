@@ -1,7 +1,9 @@
 ---
 title: "Píchačky - kontrolní hodiny - časová razítka"
 slug: "pichacky"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - mechanicke
 originalUrl: "https://hodinarium.eu/pichacky.htm"
 lastModified: "Wed, 18 Jul 2018 09:10:00 GMT"
 sourceCharset: "windows-1250"

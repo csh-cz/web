@@ -1,7 +1,9 @@
 ---
 title: "Hodně ujeté a asi šokující hodiny pana Tima Hunkina"
 slug: "TimHunkin"
-category: "projekty"
+category: "virtualni-muzeum"
+tags:
+  - kuriozita
 originalUrl: "https://hodinarium.eu/TimHunkin.htm"
 lastModified: "Sun, 14 May 2017 09:44:00 GMT"
 sourceCharset: "windows-1250"

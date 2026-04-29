@@ -1,7 +1,7 @@
 ---
 title: "Přírůstky expozice v letech 2020"
 slug: "decin_stroje2020"
-category: "decin"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/decin_stroje2020.htm"
 lastModified: "Thu, 11 Jun 2020 21:22:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,9 @@
 ---
 title: "Království času — Protivín"
 slug: "kralovstvi-casu"
-category: "ostatni"
+category: "muzea"
+tags:
+  - cesko
 originalUrl: "https://kralovstvicasu.cz/"
 lastModified: "Mon, 28 Apr 2026 09:00:00 GMT"
 sourceCharset: "utf-8"

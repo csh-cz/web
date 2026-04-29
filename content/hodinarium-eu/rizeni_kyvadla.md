@@ -2,7 +2,10 @@
 manualEdit: true
 title: "Digitálně řízené kyvadlo s automatickou regulací"
 slug: "rizeni_kyvadla"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - kyvadlo
+  - elektricke
 originalUrl: "https://hodinarium.eu/rizeni_kyvadla.htm"
 lastModified: "Mon, 26 May 2025 10:10:00 GMT"
 sourceCharset: "windows-1250"

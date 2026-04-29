@@ -1,7 +1,9 @@
 ---
 title: "Pilovky se samonivelačním fyzikálním kyvadlem"
 slug: "pilovky"
-category: "sbirka"
+category: "konstrukce"
+tags:
+  - kyvadlo
 originalUrl: "https://hodinarium.eu/pilovky.htm"
 lastModified: "Wed, 26 Apr 2017 14:12:00 GMT"
 sourceCharset: "windows-1250"

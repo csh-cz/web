@@ -1,7 +1,10 @@
 ---
 title: "EVERETT EDGECOMBE ELECTRIC SYNCLOCK"
 slug: "edgecombe"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - synchronni
+  - 1900s
 originalUrl: "https://hodinarium.eu/edgecombe.htm"
 lastModified: "Sun, 10 Mar 2019 12:44:00 GMT"
 sourceCharset: "windows-1250"

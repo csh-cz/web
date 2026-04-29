@@ -1,7 +1,7 @@
 ---
 title: "Elektrifikace věžních strojů"
 slug: "decin_elektrifikace"
-category: "decin"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/decin_elektrifikace.htm"
 lastModified: "Mon, 01 May 2017 08:49:00 GMT"
 sourceCharset: "windows-1250"

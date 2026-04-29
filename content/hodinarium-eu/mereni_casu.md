@@ -1,7 +1,9 @@
 ---
 title: "MĚŘENÍ ČASU"
 slug: "mereni_casu"
-category: "projekty"
+category: "zajimavosti"
+tags:
+  - popularizace
 originalUrl: "https://hodinarium.eu/mereni_casu.htm"
 lastModified: "Wed, 26 Apr 2017 16:02:00 GMT"
 sourceCharset: "windows-1250"

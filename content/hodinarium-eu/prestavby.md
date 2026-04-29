@@ -1,7 +1,7 @@
 ---
 title: "Přestavby a dostavby"
 slug: "prestavby"
-category: "sbirka"
+category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/prestavby.htm"
 lastModified: "Wed, 26 Apr 2017 14:05:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,10 @@
 ---
 title: "Doba dřevěná - švarcvaldky v 18. století"
 slug: "svarcvaldky_18stol"
-category: "sbirka"
+category: "konstrukce"
+tags:
+  - mechanicke
+  - 1700s
 originalUrl: "https://hodinarium.eu/svarcvaldky_18stol.htm"
 lastModified: "Wed, 26 Apr 2017 21:09:00 GMT"
 sourceCharset: "windows-1250"

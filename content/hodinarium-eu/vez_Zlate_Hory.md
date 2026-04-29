@@ -1,7 +1,7 @@
 ---
 title: "Barokní věžní ministroj"
 slug: "vez_Zlate_Hory"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/vez_Zlate_Hory.htm"
 lastModified: "Thu, 27 Apr 2017 23:23:00 GMT"
 sourceCharset: "windows-1250"

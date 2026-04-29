@@ -1,7 +1,7 @@
 ---
 title: "Chronulátor"
 slug: "decin_chronulator"
-category: "decin"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/decin_chronulator.htm"
 lastModified: "Thu, 26 Aug 2021 12:05:00 GMT"
 sourceCharset: "windows-1250"

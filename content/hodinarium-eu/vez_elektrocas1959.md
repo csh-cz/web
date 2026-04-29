@@ -1,7 +1,7 @@
 ---
 title: "Stroj Elektročas 1959"
 slug: "vez_elektrocas1959"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/vez_elektrocas1959.htm"
 lastModified: "Sun, 23 Apr 2017 15:54:00 GMT"
 sourceCharset: "windows-1250"

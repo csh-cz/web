@@ -1,7 +1,10 @@
 ---
 title: "Astronomické spínací hodiny — Syst. Fr. Sauter"
 slug: "astronomicke_Sauter"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - mechanicke
+  - baroko
 originalUrl: "https://hodinarium.eu/astronomicke_Sauter.htm"
 lastModified: "Tue, 08 Sep 2020 00:00:00 GMT"
 sourceCharset: "windows-1250"

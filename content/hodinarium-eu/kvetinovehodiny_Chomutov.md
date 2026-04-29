@@ -1,7 +1,10 @@
 ---
 title: "Zaniklé květinové hodiny v Chomutově"
 slug: "kvetinovehodiny_Chomutov"
-category: "sbirka"
+category: "virtualni-muzeum"
+tags:
+  - kvetinove
+  - cesko
 originalUrl: "https://hodinarium.eu/kvetinovehodiny_Chomutov.htm"
 lastModified: "Sat, 14 Mar 2020 12:03:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,10 @@
 ---
 title: "Hodiny v kostele sv. Josefa v Janovicích"
 slug: "janovice"
-category: "vezni-hodiny"
+category: "virtualni-muzeum"
+tags:
+  - vezni
+  - cesko
 originalUrl: "https://hodinarium.eu/janovice.htm"
 lastModified: "Wed, 26 Apr 2017 16:20:00 GMT"
 sourceCharset: "windows-1250"

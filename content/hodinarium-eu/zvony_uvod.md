@@ -1,7 +1,7 @@
 ---
 title: "Zvonařská expozice"
 slug: "zvony_uvod"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/zvony_uvod.htm"
 lastModified: "Sun, 23 Apr 2017 16:06:00 GMT"
 sourceCharset: "windows-1250"

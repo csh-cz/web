@@ -1,7 +1,7 @@
 ---
 title: "Věžní pérové hodiny se setrvačkou"
 slug: "vezni2021"
-category: "vezni-hodiny"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/vezni2021.htm"
 lastModified: "Thu, 20 Jan 2022 12:46:00 GMT"
 sourceCharset: "windows-1250"

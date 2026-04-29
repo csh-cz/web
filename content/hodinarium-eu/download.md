@@ -1,7 +1,7 @@
 ---
 title: "DOWNLOAD"
 slug: "download"
-category: "ostatni"
+category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/download.htm"
 lastModified: "Tue, 25 Apr 2017 18:02:00 GMT"
 sourceCharset: "windows-1250"

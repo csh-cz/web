@@ -1,7 +1,10 @@
 ---
 title: "Jsou v Kardašově Řečici hodiny mistra Hanuše ??"
 slug: "kardasova_recice"
-category: "vezni-hodiny"
+category: "virtualni-muzeum"
+tags:
+  - vezni
+  - cesko
 originalUrl: "https://hodinarium.eu/kardasova_recice.htm"
 lastModified: "Tue, 23 Jul 2019 14:50:00 GMT"
 sourceCharset: "windows-1250"

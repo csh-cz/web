@@ -1,7 +1,7 @@
 ---
 title: "Barokní stroj značený Wenzel Mellner"
 slug: "decin_Wenzel_Mellner"
-category: "decin"
+category: "sbirka"
 originalUrl: "https://hodinarium.eu/decin_Wenzel_Mellner.htm"
 lastModified: "Sun, 23 Apr 2017 07:58:00 GMT"
 sourceCharset: "windows-1250"

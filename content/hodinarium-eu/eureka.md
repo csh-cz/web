@@ -1,7 +1,9 @@
 ---
 title: "Legendární elektrické hodiny Eureka"
 slug: "eureka"
-category: "projekty"
+category: "konstrukce"
+tags:
+  - elektromagneticke
 originalUrl: "https://hodinarium.eu/eureka.htm"
 lastModified: "Sat, 17 Mar 2018 18:41:00 GMT"
 sourceCharset: "windows-1250"

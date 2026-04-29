@@ -1,7 +1,7 @@
 ---
 title: "YOUTUBE"
 slug: "youtube"
-category: "sbirka"
+category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/youtube.htm"
 lastModified: "Wed, 26 Apr 2017 14:13:00 GMT"
 sourceCharset: "windows-1250"
