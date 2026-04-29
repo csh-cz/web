@@ -79,7 +79,9 @@ const { Content } = await render(entry);
   }
 
   /* Small + Medium + Tall: float v textu, časopisecký dojem.
-     Small ~200 px, Medium ~320 px, Tall (úzký vysoký) ~240 px se zoomem. */
+     Small ~220 px, Medium ~320 px, Tall (úzký vysoký) ~240 px se zoomem.
+     Default float right; JS counter rotuje na .img-float-left pro lichá
+     pořadí (rytmus pravo-levo). nth-of-type fallback pro případ vypnutého JS. */
   .prose-content img.img-small,
   .prose-content img.img-medium,
   .prose-content img.img-tall {
@@ -99,6 +101,18 @@ const { Content } = await render(entry);
   }
   .prose-content img.img-tall:hover { filter: brightness(1.05); }
 
+  /* JS counter — deterministic střídání pravo-levo. Přebíjí default float
+     a nth-of-type fallback. */
+  .prose-content img.img-float-right {
+    float: right !important;
+    margin: 0.4rem 0 0.75rem 1.5rem !important;
+  }
+  .prose-content img.img-float-left {
+    float: left !important;
+    margin: 0.4rem 1.5rem 0.75rem 0 !important;
+  }
+
+  /* Fallback bez JS — sekvenční nth-of-type rotace. */
   .prose-content img.img-small:nth-of-type(even),
   .prose-content img.img-medium:nth-of-type(even),
   .prose-content img.img-tall:nth-of-type(even) {
@@ -109,11 +123,13 @@ const { Content } = await render(entry);
   /* Na úzkých displejích (~mobile) se medium/tall chová jako standalone. */
   @media (max-width: 600px) {
     .prose-content img.img-medium,
-    .prose-content img.img-tall {
-      float: none;
+    .prose-content img.img-tall,
+    .prose-content img.img-float-left,
+    .prose-content img.img-float-right {
+      float: none !important;
       display: block;
       max-width: 100%;
-      margin: 1.25rem auto;
+      margin: 1.25rem auto !important;
     }
     .prose-content img.img-tall { max-height: 70vh; }
   }
@@ -337,6 +353,57 @@ const { Content } = await render(entry);
         img.dataset.noLightbox = '1';
       }
     }
+
+    // 1.5. Post-hero guard — za hero MUSÍ následovat text (paragraf), ne další
+    //      velký obrázek. Pokud je hned po hero blok obsahující jen img
+    //      (img-large / img-full / img-standalone / img-hero), přesun ho
+    //      za první následující paragraf s textem (>50 znaků).
+    const heroEl = article.querySelector('img.img-hero');
+    if (heroEl) {
+      const heroBlock = heroEl.closest('figure, p') || heroEl;
+      let blocking = heroBlock.nextElementSibling;
+      while (blocking && blocking.tagName === 'BR') blocking = blocking.nextElementSibling;
+      const isImgOnly = (el) => {
+        if (!el) return false;
+        const bigImg = el.querySelector(
+          'img.img-large, img.img-full, img.img-standalone, img.img-hero'
+        );
+        if (!bigImg) return false;
+        // p / figure obsahující jen img + a + br + text-only-uvnitř-figcaption
+        if (el.tagName === 'FIGURE') return true;
+        if (el.tagName === 'P') {
+          return Array.from(el.childNodes).every((n) =>
+            n.nodeType !== 1 ||
+            n.tagName === 'IMG' ||
+            n.tagName === 'A' ||
+            n.tagName === 'BR'
+          );
+        }
+        return false;
+      };
+      if (isImgOnly(blocking)) {
+        let cursor = blocking.nextElementSibling;
+        while (cursor) {
+          if (cursor.tagName === 'P' && cursor.textContent.trim().length > 50) {
+            cursor.after(blocking);
+            break;
+          }
+          cursor = cursor.nextElementSibling;
+        }
+        // Pokud nenajdu paragraf, nech to být — krátký článek bez textu.
+      }
+    }
+
+    // 1.7. Rytmický float — sekvenční counter střídá pravo/levo.
+    //      Photo komponenta (figure.photo) je vyloučena, zůstává standalone
+    //      i pokud má img-small/medium/tall class (credit caption pod
+    //      obrázkem se s float špatně snáší).
+    const floatable = Array.from(
+      article.querySelectorAll('img.img-small, img.img-medium, img.img-tall')
+    ).filter((img) => !img.closest('figure.photo'));
+    floatable.forEach((img, idx) => {
+      img.classList.add(idx % 2 === 0 ? 'img-float-right' : 'img-float-left');
+    });
 
     // 2. Skupinování konsekutivních LARGE obrázků do galerie
     //    (small/medium float v textu, ne sloučit)
