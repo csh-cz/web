@@ -15,17 +15,37 @@ Aktuální schema (z `apps/hodinarium-eu/src/content.config.ts`):
 ---
 title: "..."                    # POVINNÝ; bez **markdown** — frontmatter neparsuje markdown
 slug: "..."
-category: "decin" | "vezni-hodiny" | "sbirka" | "projekty" | "ostatni"
+
+# Kategorie podle taxonomie 2026-04 (5 hlavních + kronika jako separátní collection):
+category: "sbirka"           # Exponáty spolku (vystavené i depozit)
+       | "konstrukce"        # Mechanismy a principy hodin obecně
+       | "projekty"          # DIY autorské konstrukce spolku
+       | "virtualni-muzeum"  # Zajímavé hodiny mimo sbírku spolku
+       | "zajimavosti"       # Eseje o čase, kalendáře, časoměrné systémy
+
+# Deprecated (postupná migrace; schema je dočasně akceptuje):
+       | "decin" | "vezni-hodiny" | "ostatni"
+
+# Pro Kronika (události, fotoreporty) NE category, ale samostatná
+# collection v content/kronika/ s vlastním schema (date, typ, …).
+
 originalUrl: "https://hodinarium.eu/...htm"   # legacy zdroj (POVINNÝ)
 lastModified: "RFC date | null"
 sourceCharset: "windows-1250"
 scrapedAt: "ISO timestamp"
 
-tldr: "Stručné shrnutí pro perex"  # OPT — pokud chybí a článek má ≥300 slov,
-                                     # auto z catalog.excerpt jako kurzívní úvod
+tldr: "Stručné shrnutí pro perex"  # OPT — vyrenderuje rámeček "Stručně:"
+                                     # Auto-perex byl zrušen (duplikoval 1. paragraf)
 
 author: "Petr Král"             # OPT — byline ho zobrazí jako "P. Král"
                                   # (helper formatAuthor strip "Ing./Dr./Mgr./…")
+
+tags:                           # OPT — řízený whitelist v data/tags.json
+  - vezni
+  - elektricke
+  - 1900s
+  - restaurovane
+  # Validace: každý tag MUSÍ být ve whitelist, jinak build failne
 
 references:                     # OPT — sekce "Literatura a odkazy" pod článkem
   - title: "Název"
@@ -35,6 +55,8 @@ references:                     # OPT — sekce "Literatura a odkazy" pod člán
     type: kniha | clanek | pdf | odkaz | wiki | mapa   # OPT — default odkaz
     note: "doplňující text"     # OPT
 
+referenceStyle: bullet | numbered  # OPT — default bullet (type-icon)
+
 ogImage: "/img/..."             # OPT — přepíše default OG template
 thumbnail: "/img/..."           # OPT — přepíše první-image v atlas/katalog
 
@@ -43,6 +65,19 @@ manualEdit: true                # OPT — flag že článek byl ručně editová
 ```
 
 **Schéma je shared mezi všemi články.** Měnit ho znamená update `content.config.ts` plus migrovat existující články. Před přidáním nového field zkontroluj, jestli ho opravdu chceš mít versioned across všechny stávající.
+
+### Tagy — řízeně rozšiřovatelný whitelist
+
+Whitelist je v `apps/hodinarium-eu/src/data/tags.json`, organizovaný do dimenzí: `typ` (vezni/kapesni/…), `pohon` (mechanicke/elektricke/…), `regulator` (kyvadlo/setrvacka/…), `obdobi` (gotika/…/2000s), `stav` (funkcni/restaurovane/…), `lokace` (sobeslav/decin/cesko/svet/…), `kontext` (kuriozita/akvizice/…), `vyrobce` (prokes/brillie/lenzkirch/…).
+
+**Přidání nového tagu:**
+1. Edituj `data/tags.json` — přidej do správné dimenze
+2. Update `_meta.updated` na dnešní datum
+3. Commit + použij v článku
+
+**Validace:** Zod refine v `content.config.ts` načítá whitelist a ověřuje každý tag. Typo (`atomove` vs `atomicke`) failne build.
+
+**Kdy přidat nový tag:** pokud opakovaně používáš plain text ve více článcích k popisu téhož konceptu. Tagy nejsou pro one-off štítky — jsou pro **systematickou klasifikaci**, která má v budoucnu umožnit `/tagy/<tag>` filter stránku.
 
 ## 2. Hero obrázek
 

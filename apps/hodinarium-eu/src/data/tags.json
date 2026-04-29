@@ -1,0 +1,92 @@
+{
+  "_meta": {
+    "comment": "Řízeně rozšiřovatelný whitelist tagů pro články. Sloučení všech polí (kromě _meta) se používá v Zod refine validaci v content.config.ts. Nový tag = PR commit s update tohoto souboru. Bez whitelistu by se tagy množily nekonzistentně (atomovky / atomické / atomic).",
+    "version": 1,
+    "updated": "2026-04-29"
+  },
+  "typ": [
+    "vezni",
+    "kapesni",
+    "naramkove",
+    "nastenne",
+    "stolni",
+    "slunecni",
+    "vodni",
+    "pisecne",
+    "kvetinove",
+    "decimalka",
+    "atomove",
+    "budik"
+  ],
+  "pohon": [
+    "mechanicke",
+    "pero",
+    "zavazi",
+    "elektricke",
+    "elektromagneticke",
+    "pneumaticke",
+    "radio-rizeno",
+    "gps-rizeno",
+    "ntp-rizeno",
+    "synchronni"
+  ],
+  "regulator": [
+    "kyvadlo",
+    "setrvacka",
+    "krystal",
+    "rubidium",
+    "ladici-vidlice"
+  ],
+  "obdobi": [
+    "gotika",
+    "renesance",
+    "baroko",
+    "klasicismus",
+    "secese",
+    "moderna",
+    "1700s",
+    "1800s",
+    "1900s",
+    "2000s"
+  ],
+  "stav": [
+    "funkcni",
+    "nefunkcni",
+    "restaurovane",
+    "torzo",
+    "replika",
+    "polofunkcni"
+  ],
+  "lokace": [
+    "sobeslav",
+    "decin",
+    "praha",
+    "cesko",
+    "slovensko",
+    "evropa",
+    "svet"
+  ],
+  "kontext": [
+    "kuriozita",
+    "tematicka-vystava",
+    "akvizice",
+    "historie-spolku",
+    "popularizace",
+    "diy"
+  ],
+  "vyrobce": [
+    "prokes",
+    "elektrocas",
+    "brillie",
+    "lenzkirch",
+    "wenzel-mellner",
+    "schaffhausen",
+    "bodet",
+    "pragotron",
+    "pulsynetic",
+    "bulle",
+    "iwc",
+    "mobatime",
+    "meinberg"
+  ]
+}
