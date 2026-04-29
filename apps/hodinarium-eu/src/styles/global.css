@@ -872,6 +872,28 @@ summary::-webkit-details-marker { display: none; }
   }
 }
 
+/* Wikipedia & Wikimedia odkazy — drobná měděná ⓦ ikonka po textu,
+   konsistentní styling napříč celým webem. Aplikuje se v prose-content
+   (články) i v references-list (literatura pod článkem). */
+.prose-content a[href*="wikipedia.org/wiki/"]::after,
+.prose-content a[href*="wikimedia.org/wiki/"]::after,
+.references-list a[href*="wikipedia.org/wiki/"]::after,
+.references-list a[href*="wikimedia.org/wiki/"]::after {
+  content: '\00A0ⓦ';
+  font-size: 0.85em;
+  color: var(--color-copper);
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+.prose-content a[href*="wikipedia.org/wiki/"]:hover::after,
+.prose-content a[href*="wikimedia.org/wiki/"]:hover::after,
+.references-list a[href*="wikipedia.org/wiki/"]:hover::after,
+.references-list a[href*="wikimedia.org/wiki/"]:hover::after {
+  color: var(--color-brass-bright);
+}
+
 /* Print */
 @media print {
   html, body {
