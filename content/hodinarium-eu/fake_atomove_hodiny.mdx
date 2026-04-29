@@ -9,7 +9,7 @@ scrapedAt: "2026-04-27T17:37:22.027Z"
 ---
 import PRS10Live from '../../apps/hodinarium-eu/src/components/PRS10Live.astro';
 
-![PRS10 atomová část](/img/PRS10/PRS10stage3LG.jpg)
+<img class="img-standalone" src="/img/PRS10/PRS10stage3LG.jpg" alt="PRS10 atomová část" />
 
 Pro Hodinárium v Děčíně stavíme jako exponát polofunkční model atomových hodin. Základem exponátu bude starší [rubidiový oscilátor PRS10](/clanky/PRS10), který poskytuje výstupní frekvenci 10MHz s teoretickou přesností 10\-11. Této přesnosti pro stáří oscilátoru nebude dosaženo. I další použité levné technologie budou spíše jen simulovat skutečné funkce atomových hodin.
 
@@ -17,9 +17,11 @@ K oscilátoru bude připojen vlastní monitor chodu na bázi vývojové platform
 
 Přestože v oscilátoru je použit radioaktivní izotop Rubidia, je jeho použití bezpečné. Radioaktivní záření není principem atomových hodin. Základem je přechodová frekvence 6,834,682,612,8 GHz přeskoku elektronu na nižší oběžnou hladinu. Výrobce uvádí, že radioaktivita jednotky PRS10 je nižší než radioaktivita banánu.
 
-Přesný oscilátor Rubidiem disciplinovaný je základem každých rubidiových atomových hodin. Oscilátor je ovšem jen zdroj přesné frekvence. Čas musí být získán z jiného zdroje, nejlépe od jiných atomových hodin na palubě družic GPS. Abychom přesto demonstrovali zobrazení času, budou součástí exponátu poměrně přesné hodiny postavené na platformě Arduino UNO, kde čas bude získáván z GPS s využitím signálu PPS. ![osciloskop DSO510](/img/PRS10/DSO510.jpg)
+Přesný oscilátor Rubidiem disciplinovaný je základem každých rubidiových atomových hodin. Oscilátor je ovšem jen zdroj přesné frekvence. Čas musí být získán z jiného zdroje, nejlépe od jiných atomových hodin na palubě družic GPS. Abychom přesto demonstrovali zobrazení času, budou součástí exponátu poměrně přesné hodiny postavené na platformě Arduino UNO, kde čas bude získáván z GPS s využitím signálu PPS.
 
 ### Osciloskop a měření frekvence
+
+![osciloskop DSO510](/img/PRS10/DSO510.jpg)
 
 K PRS10 je připojen poměrně levný digitální mini osciloskop DSO-510, který orientačně zobrazuje výstup sinusové frekvence z rubidiového oscilátoru 10 MHz Výhodou tohoto osciloskopu je i to, že digitálně zobrazuje okamžitou frekvenci. Nelze asi předpokládat vysokou přesnost tohoto osciloskopu, tak nepřekvapuje, že měřená frekvence na displeji kolísá mezi 9.98 MHz a 10.00 MHz.
 
@@ -29,7 +31,7 @@ Jako další je připojena jednotka Hodiny1000, která by měla fungovat s přes
 
 Jaká je přesnost těchto hodin je však při používání levných modulů poněkud diskutabilní. Základem je příjem signálu PPS GPS modulem NEO-6M. Ten poskytuje PPS signál s přesností kolem 30–100 µs vůči UTC. Další zpracování v Arduino UNO přesnost ještě sníží. Mohli bychom snad předpokládat, že přesnost času je na úrovni milisekund.
 
-![Hodiny1000 HH:MM:SS.ms](/img/PRS10/hodiny1000.jpg)
+<img class="img-standalone" src="/img/PRS10/hodiny1000.jpg" alt="Hodiny1000 HH:MM:SS.ms" />
 
 Při nekvalitním GPS signálu je modulem nejprve poskytován odhad času získaný z vnitřního RTC modulu. Tento odhad času se může i několik sekund lišit. V našem případě se předcházel o 3 sekundy. Teprve po dosažení příjmu z více družic modul přejde na synchronizovaný čas. Kdy se tak stane nelze předpovědět ani tuto zprávu nelze z modulu přímo získat. Předpokládalo by se, že to nastane po zafixování polohy minimálně ze tří družic. To však neplatí. Ani podle kvalitu příjmu podle velikosti HDOP (Horizontal Dilution of Precision in GPS) nedostaneme okamžik, kdy čas je zafixován. Odhadovaný čas je obvykle (v našich podmínkách) vyšší než čas synchronizovaný. O zjištění okamžiku synchronizace času se můžeme pokusit speciálním algoritmem, který bude zjišťovat okamžik snížení času. Dále budeme předpokládat, že synchronizace vydrží i po krátkodobém zhoršení signálu. V konkrétním zkoumaném přílpadě došlo k synchronizaci času při 7 družicích a dosažení HDOP = 1.98.
 
