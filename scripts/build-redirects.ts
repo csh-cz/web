@@ -53,6 +53,8 @@ const SPECIAL: Record<string, string> = {
   '/spolek.htm': 'https://horologie-cz.pages.dev/',
   '/kontakt.htm': 'https://horologie-cz.pages.dev/kontakt',
   '/spolek': 'https://horologie-cz.pages.dev/',
+  // /clanky/ overview byl smazán (M5.6) — /atlas pokrývá overview funkci
+  '/clanky': '/atlas',
   '/hledej.htm': '/atlas',
   '/novinky.htm': '/',
   '/decin_zamek.htm': '/expozice',
