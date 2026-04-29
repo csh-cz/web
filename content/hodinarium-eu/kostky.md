@@ -21,6 +21,8 @@ Jsme rádi, že i náš spolek přispěl k obohacení sbírky vlastním exponát
 
 ## Brožura k výstavě
 
-[**Stáhnout PDF brožury — Výtvarné miniatury ve tvaru kostky**](/download/brozura_miniatury.pdf)
+<div class="pdf-frame">
+  <iframe src="/download/brozura_miniatury.pdf#toolbar=1&navpanes=0&scrollbar=1&zoom=page-fit&view=Fit" title="Brožura — Výtvarné miniatury ve tvaru kostky (76 stran, A5)" loading="lazy" allow="fullscreen"></iframe>
+</div>
 
-<iframe src="/download/brozura_miniatury.pdf" width="100%" height="700" title="Brožura — Výtvarné miniatury ve tvaru kostky" loading="lazy"></iframe>
+<p class="pdf-frame-fallback">PDF se nezobrazuje? <a href="/download/brozura_miniatury.pdf" rel="noopener" target="_blank">Otevřít brožuru v novém okně</a> nebo ji <a href="/download/brozura_miniatury.pdf" download>stáhnout</a> (76 stran, A5, 2,0 MB).</p>

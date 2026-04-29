@@ -798,6 +798,45 @@ summary::-webkit-details-marker { display: none; }
   background: var(--color-bg-deep);
 }
 
+/* PDF inline prohlížeč — kontejner s aspect-ratio blízkým A5 portrait
+   (148/210) plus ~25 pt navíc na toolbar vestavěného PDF vieweru. Tím
+   #zoom=page-fit vyplní vnitřek bez šedých okrajů kolem stránky.
+   Toolbar dává stránkování + zoom + fullscreen. Fallback link pod
+   rámečkem pro browsery, kde inline PDF nejede (typicky iOS Safari). */
+.prose-content .pdf-frame {
+  width: 100%;
+  max-width: 640px;
+  aspect-ratio: 148 / 235;
+  margin: 1.5rem auto 0.5rem;
+  border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+  border-radius: 2px;
+  background: var(--color-bg-deep);
+  overflow: hidden;
+}
+.prose-content .pdf-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+.prose-content .pdf-frame-fallback {
+  max-width: 640px;
+  margin: 0.25rem auto 1.5rem;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  text-align: center;
+}
+.prose-content .pdf-frame-fallback a {
+  color: var(--color-brass-bright);
+}
+@media (max-width: 540px) {
+  .prose-content .pdf-frame {
+    max-width: 100%;
+    aspect-ratio: 148 / 245;
+  }
+}
+
 /* TL;DR aside na článku */
 .tldr {
   background: var(--color-bg-deep);
