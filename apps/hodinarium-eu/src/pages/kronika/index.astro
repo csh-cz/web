@@ -1,0 +1,182 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const all = await getCollection('kronika');
+// Sort descending by date
+all.sort((a, b) => b.data.date.localeCompare(a.data.date));
+
+// Group by year
+const byYear: Record<number, typeof all> = {};
+for (const e of all) {
+  (byYear[e.data.rok] ??= []).push(e);
+}
+const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
+
+const typLabels: Record<string, string> = {
+  'vernisaz': 'Vernisáž',
+  'fotoreport': 'Fotoreport',
+  'sezona': 'Sezóna',
+  'akvizice': 'Akvizice',
+  'tisk': 'Tisk',
+  'tv': 'TV',
+  'restaurace': 'Restaurace',
+  'historie-spolku': 'Historie spolku',
+  'tematicka-vystava': 'Tematická výstava',
+  'jine': 'Událost',
+};
+---
+<Base
+  title="Kronika"
+  description="Chronologický feed událostí spolku ČSH — vernisáže, fotoreporty, sezóny, výstavky, akvizice. Od založení Virtuálního muzea hodin (2009) přes Věžní muzejíčko v Soběslavi (2011–2015) po Hodinárium Děčín (od 2015)."
+>
+  <header class="kronika-header">
+    <p class="eyebrow mb-3">Kronika spolku</p>
+    <h1 class="kronika-title">Co se dělo v expozici a kolem ní</h1>
+    <p class="kronika-lede">
+      Záznam {all.length} událostí — vernisáží, výstavek, restaurátorských reportáží,
+      sezónních ohlédnutí, fotoreportů a klíčových milníků spolku. Od založení
+      Virtuálního muzea hodin (2009) přes Věžní muzejíčko v Soběslavi (2011–2015)
+      po stálou expozici v <strong>Hodináriu Děčín</strong> (od září 2015).
+    </p>
+  </header>
+
+  {years.map((y) => (
+    <section class="kronika-year" id={`rok-${y}`}>
+      <header class="kronika-year-header">
+        <h2>{y}</h2>
+        <p class="kronika-year-count">{byYear[y].length} {byYear[y].length === 1 ? 'událost' : byYear[y].length < 5 ? 'události' : 'událostí'}</p>
+      </header>
+      <ol class="kronika-events">
+        {byYear[y].map((e) => (
+          <li class="kronika-event">
+            <a href={`/kronika/${e.id}`} class="kronika-event-link">
+              <div class="kronika-event-date">
+                <time datetime={e.data.date.split(' — ')[0]}>{e.data.date}</time>
+                {e.data.typ && <span class="kronika-event-typ">{typLabels[e.data.typ] ?? e.data.typ}</span>}
+              </div>
+              <div class="kronika-event-body">
+                <h3>{e.data.title}</h3>
+                {e.data.misto && <p class="kronika-event-misto">{e.data.misto}</p>}
+              </div>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </section>
+  ))}
+</Base>
+
+<style>
+  .kronika-header {
+    max-width: 72ch;
+    margin-bottom: 4rem;
+  }
+  .kronika-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    line-height: 1.05;
+  }
+  .kronika-lede {
+    font-size: 1.1rem;
+    color: var(--color-text);
+    line-height: 1.6;
+  }
+
+  .kronika-year {
+    margin: 4rem 0;
+  }
+  .kronika-year-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .kronika-year-header h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    color: var(--color-brass-bright);
+    margin: 0;
+    font-feature-settings: "lnum";
+    font-style: italic;
+    border: none;
+    padding: 0;
+  }
+  .kronika-year-header h2::before { content: none; }
+  .kronika-year-header h2::after { content: none; }
+  .kronika-year-count {
+    color: var(--color-text-muted);
+    font-style: italic;
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  .kronika-events {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.5rem;
+  }
+  .kronika-event-link {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 1.5rem;
+    padding: 1rem 1.25rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: border-color 150ms ease;
+    border-bottom-width: 1px !important;
+  }
+  .kronika-event-link:hover {
+    border-color: var(--color-brass);
+  }
+  @media (max-width: 600px) {
+    .kronika-event-link {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+  }
+  .kronika-event-date {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  .kronika-event-date time {
+    color: var(--color-brass);
+    font-feature-settings: "lnum";
+    font-size: 0.95rem;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  .kronika-event-typ {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--color-copper);
+    align-self: flex-start;
+  }
+  .kronika-event-body h3 {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.3rem;
+    font-weight: 500;
+    border: none;
+    padding: 0;
+  }
+  .kronika-event-body h3::before { content: none; }
+  .kronika-event-misto {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin: 0;
+    font-style: italic;
+  }
+</style>

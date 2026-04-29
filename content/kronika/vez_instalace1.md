@@ -1,7 +1,10 @@
 ---
 title: "Začínáme v roce 2011 1. července - o prázdninách"
 slug: "vez_instalace1"
-category: "vezni-hodiny"
+date: "2011-07-01"
+rok: 2011
+typ: historie-spolku
+misto: "Věžní muzejíčko Soběslav"
 originalUrl: "https://hodinarium.eu/vez_instalace1.htm"
 lastModified: "Sun, 23 Apr 2017 15:42:00 GMT"
 sourceCharset: "windows-1250"

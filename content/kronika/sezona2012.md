@@ -1,7 +1,10 @@
 ---
 title: "Sezóna 2012"
 slug: "sezona2012"
-category: "decin"
+date: "2012-12-31"
+rok: 2012
+typ: sezona
+misto: "Věžní muzejíčko Soběslav"
 originalUrl: "https://hodinarium.eu/sezona2012.htm"
 lastModified: "Sun, 23 Apr 2017 15:25:00 GMT"
 sourceCharset: "windows-1250"

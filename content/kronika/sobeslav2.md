@@ -1,7 +1,10 @@
 ---
 title: "Soběslavské hodiny z 15. století ??"
 slug: "sobeslav2"
-category: "vezni-hodiny"
+date: "2010-01-01"
+rok: 2010
+typ: historie-spolku
+misto: "Soběslav"
 originalUrl: "https://hodinarium.eu/sobeslav2.htm"
 lastModified: "Sun, 23 Apr 2017 15:48:00 GMT"
 sourceCharset: "windows-1250"

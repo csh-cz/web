@@ -1,7 +1,10 @@
 ---
 title: "Věžní muzejíčko Soběslav"
 slug: "sezona2012_foto_marusak"
-category: "decin"
+date: "2012-08-01"
+rok: 2012
+typ: fotoreport
+misto: "Věžní muzejíčko Soběslav"
 originalUrl: "https://hodinarium.eu/sezona2012_foto_marusak.htm"
 lastModified: "Sun, 23 Apr 2017 15:28:00 GMT"
 sourceCharset: "windows-1250"

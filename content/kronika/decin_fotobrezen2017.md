@@ -1,7 +1,10 @@
 ---
 title: "Návštěva fotografa 10.3. 2017"
 slug: "decin_fotobrezen2017"
-category: "decin"
+date: "2017-03-10"
+rok: 2017
+typ: fotoreport
+misto: "Hodinárium Děčín"
 originalUrl: "https://hodinarium.eu/decin_fotobrezen2017.htm"
 lastModified: "Sat, 22 Apr 2017 22:35:00 GMT"
 sourceCharset: "windows-1250"

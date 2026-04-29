@@ -1,7 +1,10 @@
 ---
 title: "Nonsens 2015 a víc"
 slug: "nonsens2015"
-category: "decin"
+date: "2015-06-01"
+rok: 2015
+typ: tematicka-vystava
+misto: "Hodinárium Děčín"
 originalUrl: "https://hodinarium.eu/nonsens2015.htm"
 lastModified: "Wed, 09 Jun 2021 18:29:00 GMT"
 sourceCharset: "windows-1250"

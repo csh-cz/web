@@ -1,7 +1,10 @@
 ---
 title: "Věžní muzejíčko Soběslav bylo v roce 2015 zrušeno . Pokračuje jako HODIÁRIUM Děčín."
 slug: "vezni_muzejicko"
-category: "vezni-hodiny"
+date: "2015-12-31"
+rok: 2015
+typ: historie-spolku
+misto: "Soběslav"
 originalUrl: "https://hodinarium.eu/vezni_muzejicko.htm"
 lastModified: "Sat, 18 Jul 2020 10:44:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,10 @@
 ---
 title: "TikŤakJinak - steampunkové šperky - hlavní mini výstava sezóny 2012"
 slug: "steampunk"
-category: "sbirka"
+date: "2012-06-01"
+rok: 2012
+typ: tematicka-vystava
+misto: "Věžní muzejíčko Soběslav"
 originalUrl: "https://hodinarium.eu/steampunk.htm"
 lastModified: "Sun, 23 Apr 2017 15:32:00 GMT"
 sourceCharset: "windows-1250"

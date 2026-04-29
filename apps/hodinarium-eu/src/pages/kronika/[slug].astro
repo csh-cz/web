@@ -1,0 +1,144 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const all = await getCollection('kronika');
+  return all.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const typLabels: Record<string, string> = {
+  'vernisaz': 'Vernisáž',
+  'fotoreport': 'Fotoreport',
+  'sezona': 'Sezóna',
+  'akvizice': 'Akvizice',
+  'tisk': 'Tisk',
+  'tv': 'TV',
+  'restaurace': 'Restaurace',
+  'historie-spolku': 'Historie spolku',
+  'tematicka-vystava': 'Tematická výstava',
+  'jine': 'Událost',
+};
+---
+<Base title={entry.data.title} description={entry.data.title}>
+  <nav class="breadcrumbs" aria-label="Drobečková navigace">
+    <a href="/">Hodinárium</a>
+    <span aria-hidden="true">›</span>
+    <a href="/kronika">Kronika</a>
+    <span aria-hidden="true">›</span>
+    <span class="current" aria-current="page">{entry.data.title}</span>
+  </nav>
+
+  <article class="kronika-detail">
+    <header class="kronika-detail-header">
+      <p class="eyebrow mb-3">Kronika · {entry.data.rok}</p>
+      <h1>{entry.data.title}</h1>
+      <dl class="kronika-detail-meta">
+        <div>
+          <dt>Datum</dt>
+          <dd>{entry.data.date}</dd>
+        </div>
+        {entry.data.typ && (
+          <div>
+            <dt>Typ události</dt>
+            <dd>{typLabels[entry.data.typ] ?? entry.data.typ}</dd>
+          </div>
+        )}
+        {entry.data.misto && (
+          <div>
+            <dt>Místo</dt>
+            <dd>{entry.data.misto}</dd>
+          </div>
+        )}
+      </dl>
+    </header>
+
+    <div class="prose-content drop-cap">
+      <Content />
+    </div>
+
+    <footer class="article-byline">
+      <span class="byline-author">{entry.data.author ?? 'Český spolek horologický'}</span>
+      <span class="byline-sep" aria-hidden="true">·</span>
+      <span class="byline-date">{entry.data.date}</span>
+    </footer>
+  </article>
+</Base>
+
+<style>
+  .breadcrumbs {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .breadcrumbs a { color: var(--color-text-soft); border-bottom: none; }
+  .breadcrumbs a:hover { color: var(--color-brass-bright); }
+  .breadcrumbs .current { color: var(--color-text-soft); font-style: italic; }
+  .breadcrumbs span[aria-hidden] { color: var(--color-brass); opacity: 0.5; }
+
+  .kronika-detail {
+    max-width: 72ch;
+    margin: 0 auto;
+  }
+  .kronika-detail-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .kronika-detail-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1.25rem;
+    line-height: 1.1;
+  }
+  .kronika-detail-meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    margin: 0;
+  }
+  .kronika-detail-meta div {
+    border-left: 2px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    padding-left: 0.85rem;
+  }
+  .kronika-detail-meta dt {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--color-copper);
+    font-weight: 500;
+    margin: 0 0 0.2rem;
+  }
+  .kronika-detail-meta dd {
+    font-size: 1rem;
+    color: var(--color-text);
+    margin: 0;
+    font-feature-settings: "lnum";
+  }
+
+  .article-byline {
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .byline-author { color: var(--color-text-soft); font-style: italic; }
+  .byline-sep { color: var(--color-brass); opacity: 0.5; }
+</style>

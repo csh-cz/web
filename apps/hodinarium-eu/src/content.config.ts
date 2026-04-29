@@ -120,4 +120,45 @@ const hodinariMedailony = defineCollection({
   }),
 });
 
-export const collections = { clanky, hodinari: hodinariMedailony };
+/**
+ * Kronika — chronologický feed událostí spolku.
+ *
+ * Vernisáže, fotoreporty, sezóny, akvizice, TV pořady, výstavky,
+ * historie spolku v Soběslavi (2009–2015). Každý záznam má `date:`
+ * ISO datum a `typ:` klasifikaci. Renderuje se chronologicky descending
+ * v /kronika/ feedu plus na hlavní stránce posledních N položek.
+ */
+const kronika = defineCollection({
+  loader: glob({
+    base: '../../content/kronika',
+    pattern: '**/*.{md,mdx}',
+  }),
+  schema: z.object({
+    title: z.string(),
+    slug: z.string(),
+    /** ISO datum YYYY-MM-DD (případně rozsah "YYYY-MM-DD — YYYY-MM-DD"). */
+    date: z.string(),
+    /** Rok pro chronologii (může se lišit od date u rozsahů). */
+    rok: z.number(),
+    typ: z.enum([
+      'vernisaz', 'fotoreport', 'sezona', 'akvizice', 'tisk', 'tv',
+      'restaurace', 'historie-spolku', 'tematicka-vystava', 'jine',
+    ]).optional(),
+    misto: z.string().optional(),
+    /** Cross-link na exponáty / projekty / hodináře. */
+    related: z.array(z.object({
+      slug: z.string(),
+      kategorie: z.enum([
+        'sbirka', 'konstrukce', 'projekty', 'virtualni-muzeum',
+        'muzea', 'zajimavosti', 'hodinari',
+      ]).optional(),
+    })).optional(),
+    photos: z.array(z.string()).optional(),
+    author: z.string().optional(),
+    references: z.array(reference).optional(),
+    /** Pro legacy import z hodinarium.eu (zachováme původní URL). */
+    originalUrl: z.string().url().optional(),
+  }),
+});
+
+export const collections = { clanky, hodinari: hodinariMedailony, kronika };

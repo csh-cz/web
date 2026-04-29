@@ -1,7 +1,10 @@
 ---
 title: "Ohlédnutí za rokem 2011"
 slug: "ohlednuti2011"
-category: "sbirka"
+date: "2011-12-31"
+rok: 2011
+typ: sezona
+misto: "Věžní muzejíčko Soběslav"
 originalUrl: "https://hodinarium.eu/ohlednuti2011.htm"
 lastModified: "Sun, 23 Apr 2017 15:40:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,10 @@
 ---
 title: "Faust děkuje"
 slug: "faust"
-category: "sbirka"
+date: "2013-06-01"
+rok: 2013
+typ: tematicka-vystava
+misto: "Věžní muzejíčko Soběslav"
 originalUrl: "https://hodinarium.eu/faust.htm"
 lastModified: "Sun, 23 Apr 2017 15:21:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,10 @@
 ---
 title: "Věžní muzejíčko v Soběslavi v roce 2011"
 slug: "vez_provoz2011"
-category: "vezni-hodiny"
+date: "2011-07-01"
+rok: 2011
+typ: sezona
+misto: "Věžní muzejíčko Soběslav"
 originalUrl: "https://hodinarium.eu/vez_provoz2011.htm"
 lastModified: "Sun, 23 Apr 2017 14:24:00 GMT"
 sourceCharset: "windows-1250"

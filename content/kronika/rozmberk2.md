@@ -1,7 +1,9 @@
 ---
 title: "PETR VOK Z ROŽMBERKA – MECENÁŠ A SBĚRATEL"
 slug: "rozmberk2"
-category: "vezni-hodiny"
+date: "2014-06-15"
+rok: 2014
+typ: historie-spolku
 originalUrl: "https://hodinarium.eu/rozmberk2.htm"
 lastModified: "Sun, 23 Apr 2017 15:46:00 GMT"
 sourceCharset: "windows-1250"

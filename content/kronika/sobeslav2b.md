@@ -1,7 +1,10 @@
 ---
 title: "Historie věžních hodin v Soběslavi chronologický výpis z archivních dokumentů a hypotézy vzniku"
 slug: "sobeslav2b"
-category: "vezni-hodiny"
+date: "2010-06-01"
+rok: 2010
+typ: historie-spolku
+misto: "Soběslav"
 originalUrl: "https://hodinarium.eu/sobeslav2b.htm"
 lastModified: "Sun, 23 Apr 2017 15:49:00 GMT"
 sourceCharset: "windows-1250"

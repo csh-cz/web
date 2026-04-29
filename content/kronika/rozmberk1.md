@@ -1,7 +1,9 @@
 ---
 title: "POZVÁNKA PRO PETRA VOKA Z ROŽMBERKA (a ne jen pro něj)"
 slug: "rozmberk1"
-category: "vezni-hodiny"
+date: "2014-06-01"
+rok: 2014
+typ: jine
 originalUrl: "https://hodinarium.eu/rozmberk1.htm"
 lastModified: "Sun, 23 Apr 2017 15:45:00 GMT"
 sourceCharset: "windows-1250"

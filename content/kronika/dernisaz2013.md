@@ -1,7 +1,10 @@
 ---
 title: "Dernisáž Věžního muzejíčka 2013"
 slug: "dernisaz2013"
-category: "decin"
+date: "2013-10-31"
+rok: 2013
+typ: vernisaz
+misto: "Věžní muzejíčko Soběslav"
 originalUrl: "https://hodinarium.eu/dernisaz2013.htm"
 lastModified: "Sun, 23 Apr 2017 15:22:00 GMT"
 sourceCharset: "windows-1250"

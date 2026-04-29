@@ -1,7 +1,10 @@
 ---
 title: "Návštěva fotografa listopad 2018"
 slug: "decin_fotolistopad2018"
-category: "decin"
+date: "2018-11-15"
+rok: 2018
+typ: fotoreport
+misto: "Hodinárium Děčín"
 originalUrl: "https://hodinarium.eu/decin_fotolistopad2018.htm"
 lastModified: "Thu, 22 Nov 2018 13:43:00 GMT"
 sourceCharset: "windows-1250"

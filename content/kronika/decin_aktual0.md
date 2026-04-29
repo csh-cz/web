@@ -1,7 +1,10 @@
 ---
 title: "Z Věžního muzejíčka Soběslav do Hodinária v Děčíně"
 slug: "decin_aktual0"
-category: "decin"
+date: "2015-09-04"
+rok: 2015
+typ: historie-spolku
+misto: "Hodinárium Děčín"
 originalUrl: "https://hodinarium.eu/decin_aktual0.htm"
 lastModified: "Sun, 23 Apr 2017 09:50:00 GMT"
 sourceCharset: "windows-1250"

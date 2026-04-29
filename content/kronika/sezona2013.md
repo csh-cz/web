@@ -1,7 +1,10 @@
 ---
 title: "Věžního muzejíčko Soběslav - sezóna 2013"
 slug: "sezona2013"
-category: "decin"
+date: "2013-12-31"
+rok: 2013
+typ: sezona
+misto: "Věžní muzejíčko Soběslav"
 originalUrl: "https://hodinarium.eu/sezona2013.htm"
 lastModified: "Sun, 23 Apr 2017 14:18:00 GMT"
 sourceCharset: "windows-1250"
