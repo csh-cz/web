@@ -128,7 +128,7 @@ Photo komponenta (`<figure class="photo">`) je z float vyloučena — credit cap
 Cesta: `apps/hodinarium-eu/src/components/Photo.astro`.
 
 **Pravidlo:** **Pro nové obrázky** používat `<Photo />` místo markdown `![alt](src)`. Důvody:
-- Konzistentní místo pro credit/copyright caption (`.img-credit` styl)
+- Konzistentní místo pro credit/copyright caption (overlay v pravém dolním rohu obrázku)
 - Bez credit polí se chová jako prostý `<img>` — caption se nerenderuje
 - `class` prop se propaguje na `<img>` (img-hero, img-large, atd.)
 - Snadno se v budoucnu doplní credit u obrázku, který ho zatím nemá
@@ -150,6 +150,31 @@ import Photo from '../../apps/hodinarium-eu/src/components/Photo.astro';
 ```
 
 Pokud `class="img-hero"` nedáš a Photo je první v článku, JS auto-promote ho udělá hero stejně. Manuální `class="img-hero"` je explicit a ani slug.astro skript ho nepřepíše.
+
+### Credit caption — overlay s auto-tone
+
+Caption (autor + licence + zdroj) se renderuje **jako overlay v pravém dolním rohu obrázku** (ne pod ním jako dřív). Barva textu je vybrána automaticky podle jasu pravého dolního rohu obrázku:
+
+- **Světlé pozadí** → tmavý text (`#1a1a1a`) + jemné světlé halo (text-shadow)
+- **Tmavé pozadí** → světlý text (`#f5f3ee`) + jemné tmavé halo
+
+Tone se počítá build-time pomocí `sharp` v `scripts/build-image-index.ts` — vyřízne ~30 % × 30 % BR rohu, spočítá průměrný grayscale jas, threshold 140 z 255 oddělí `dark` (světlé pozadí, tmavý text) od `light` (tmavé pozadí, světlý text). Výsledek se uloží jako pole `tone` do `image-sizes.json`. Photo komponenta tone načte a aplikuje class `.credit-tone-dark` / `.credit-tone-light`.
+
+**Kdy přepočítat tone:** vždy po přidání nových obrázků do `public/img/` — `pnpm imgindex:build` regeneruje celý index včetně tone (rebuild ~5 s pro 2700+ obrázků).
+
+**Default fallback:** pokud src není v `image-sizes.json` (např. nový obrázek bez rebuild), default je `light` — světlý text + tmavé halo. Bezpečnější pro neznámá pozadí, většina foto-pozadí má střední/tmavé tóny.
+
+**Mobile (≤600 px):** overlay se vrátí pod obrázek (overlay nad ~320 px wide fotkou je nečitelný). Pak používá výchozí muted barvu textu, žádné halo.
+
+### Co psát do `author`, když původ neznáš
+
+ČSH archiv má často staré fotky bez známého autora. Bezpečné formule:
+- **`author="autor neznámý"`** — nejjednodušší, čestné. Vyrenderuje „Foto: autor neznámý".
+- **`author="Z archivu ČSH"`** — pokud fotka přišla z vlastního archivu spolku a autor je nedohledatelný.
+- **`author="autor neznámý"` + `year={1925}`** — odhadovaný rok přidává historický kontext.
+- Plus volitelně `note` v references s textem „Pokud jste autorem této fotografie, kontaktujte nás pro doplnění atribuce." (DMCA-style invitace na nápravu, standard u kulturních archivů).
+
+**Právně:** v ČR autorské právo vzniká automaticky vznikem díla, takže technicky i osiřelé dílo (orphan work) je chráněno. Industry standard pro muzejní/archivní weby je formule výše — neinfrige se tím méně, ale přiznává gap a vytváří kanál pro nápravu. Plně compliant je jen registrace v EUIPO orphan works databázi (Směrnice 2012/28/EU), což je over-engineered pro spolkový web.
 
 ## 5. Wikipedia / Wikimedia Commons odkazy
 

@@ -15,6 +15,7 @@ import { existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
+import sharp from 'sharp';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -38,6 +39,14 @@ interface ImageSize {
   h: number;
   /** kategorie: small / medium / large / tall (úzký vysoký = portrétní velký obrázek, který by jako "large" zabral nepříjemně mnoho místa) */
   size: 'small' | 'medium' | 'large' | 'tall';
+  /**
+   * Tone pravého dolního rohu (~30 % × 30 %), pro výběr barvy overlay credit
+   * captionu v Photo komponentě:
+   *   - 'dark'  = světlé pozadí → tmavý text + light halo
+   *   - 'light' = tmavé pozadí → světlý text + dark halo
+   * Spočítáno z průměrného grayscale jasu BR výřezu (threshold 140 z 255).
+   */
+  tone?: 'light' | 'dark';
 }
 
 async function walk(dir: string, base = dir): Promise<string[]> {
@@ -60,6 +69,31 @@ function classify(w: number, h: number): ImageSize['size'] {
   // Úzký vysoký (portrét) by jako "large" zabral celou stránku na výšku — float jako medium.
   if (h >= 600 && w < 400 && h / w > 1.8) return 'tall';
   return 'large';
+}
+
+/**
+ * Spočítá průměrný grayscale jas pravého dolního rohu obrázku (~30 % × 30 %).
+ * Výsledek 0–255. Threshold 140 oddělí tmavé pozadí (text bude světlý) od
+ * světlého (text bude tmavý). Hraniční hodnota je posunutá nad střed (128),
+ * protože většina foto-pozadí v BR rohu má sytější střední tóny — chceme být
+ * spíše konzervativní k tmavému textu (lépe čitelný nad mid-tones).
+ */
+async function brCornerTone(absPath: string, w: number, h: number): Promise<'light' | 'dark' | null> {
+  try {
+    const cropW = Math.max(1, Math.floor(w * 0.3));
+    const cropH = Math.max(1, Math.floor(h * 0.3));
+    const left = w - cropW;
+    const top = h - cropH;
+    const stats = await sharp(absPath)
+      .extract({ left, top, width: cropW, height: cropH })
+      .grayscale()
+      .stats();
+    const mean = stats.channels[0]?.mean ?? null;
+    if (mean === null) return null;
+    return mean >= 140 ? 'dark' : 'light';
+  } catch {
+    return null;
+  }
 }
 
 function sipsDimensions(absPath: string): { w: number; h: number } | null {
@@ -92,6 +126,7 @@ async function buildOne(app: { name: string; publicImg: string; out: string }) {
 
   const index: Record<string, ImageSize> = {};
   let small = 0, medium = 0, large = 0, tall = 0, skipped = 0;
+  let toneLight = 0, toneDark = 0, toneSkipped = 0;
 
   for (const rel of files) {
     const abs = join(app.publicImg, '..', rel);
@@ -101,11 +136,15 @@ async function buildOne(app: { name: string; publicImg: string; out: string }) {
       continue;
     }
     const size = classify(dim.w, dim.h);
-    index[rel] = { ...dim, size };
+    const tone = await brCornerTone(abs, dim.w, dim.h);
+    index[rel] = tone ? { ...dim, size, tone } : { ...dim, size };
     if (size === 'small') small++;
     else if (size === 'medium') medium++;
     else if (size === 'tall') tall++;
     else large++;
+    if (tone === 'light') toneLight++;
+    else if (tone === 'dark') toneDark++;
+    else toneSkipped++;
   }
 
   await writeFile(app.out, JSON.stringify(index, null, 0), 'utf-8');
@@ -113,6 +152,7 @@ async function buildOne(app: { name: string; publicImg: string; out: string }) {
   console.log(`Index obrázků: ${app.out}`);
   console.log(`Velikost JSON: ${(JSON.stringify(index).length / 1024).toFixed(1)} KB`);
   console.log(`Klasifikace:  small ${small} · medium ${medium} · large ${large} · tall ${tall} · přeskočeno ${skipped}`);
+  console.log(`Tone (BR roh): light ${toneLight} · dark ${toneDark} · neurčen ${toneSkipped}`);
 }
 
 async function main() {

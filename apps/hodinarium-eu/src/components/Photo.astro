@@ -2,10 +2,17 @@
 /**
  * Obrázek s volitelným credit captionem (autor, licence, zdroj).
  *
- * Drobný kurzívní text vpravo pod obrázkem — stejný styl napříč
- * celým webem. Caption se vůbec nerenderuje, pokud není uveden
- * žádný atribut credit (author / license / sourceUrl) — komponenta
- * pak chová jako obyčejný <img>.
+ * Caption se renderuje jako overlay v pravém dolním rohu obrázku.
+ * Barva textu je vybrána podle tone pravého dolního rohu (z image-sizes.json
+ * pole `tone`, vyrobeno scripts/build-image-index.ts):
+ *   - 'dark'  pozadí světlé → tmavý text + jemné světlé halo
+ *   - 'light' pozadí tmavé  → světlý text + jemné tmavé halo
+ *
+ * Caption se vůbec nerenderuje, pokud není uveden žádný atribut credit
+ * (author / license / sourceUrl) — komponenta pak chová jako obyčejný <img>.
+ *
+ * Mobile (≤600 px): overlay se vrátí pod obrázek (overlay nad ~320 px wide
+ * fotkou je nečitelný).
  *
  * Použití:
  *   <Photo src="/img/foo.jpg" alt="…"
@@ -20,6 +27,15 @@
  * aby šly výchozí styly článku použít. Pokud není class, [slug].astro
  * skript přidá auto-classifikaci.
  */
+import imageSizes from '../data/image-sizes.json';
+
+interface ImageSizeEntry {
+  w: number;
+  h: number;
+  size: string;
+  tone?: 'light' | 'dark';
+}
+
 interface Props {
   src: string;
   alt: string;
@@ -43,11 +59,15 @@ const {
   year,
 } = Astro.props;
 const showCredit = Boolean(author || license || sourceUrl);
+const sizeInfo = (imageSizes as Record<string, ImageSizeEntry>)[src];
+// Default 'light' (světlý text + tmavé halo) — bezpečnější pro neznámé pozadí,
+// většina foto-pozadí má střední/tmavé tóny.
+const tone: 'light' | 'dark' = sizeInfo?.tone ?? 'light';
 ---
 <figure class="photo">
   <img src={src} alt={alt} class={imgClass} loading="lazy" decoding="async" />
   {showCredit && (
-    <figcaption class="img-credit">
+    <figcaption class={`img-credit-overlay credit-tone-${tone}`}>
       {author && (
         <>
           Foto:&nbsp;
@@ -69,25 +89,75 @@ const showCredit = Boolean(author || license || sourceUrl);
 
 <style is:global>
   .photo {
+    position: relative;
     margin: 0 0 1.5rem;
     /* obrázek dědí třídy img-hero / img-large / atd. — žádný layout zde */
   }
-  .img-credit {
-    margin: 0.35rem 0 0;
-    font-size: 0.75rem;
+
+  /* Overlay caption — pravý dolní roh nad obrázkem */
+  .img-credit-overlay {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    margin: 0;
+    padding: 0.15rem 0.5rem;
+    max-width: 65%;
+    font-size: 0.7rem;
     font-style: italic;
-    color: var(--color-text-muted);
-    text-align: right;
     letter-spacing: 0.01em;
-    line-height: 1.5;
+    line-height: 1.4;
+    text-align: right;
+    pointer-events: none;
+    border-radius: 2px;
   }
-  .img-credit a {
-    color: var(--color-text-soft);
-    border-bottom: 1px dotted color-mix(in srgb, var(--color-text-soft) 40%, transparent);
+  .img-credit-overlay a,
+  .img-credit-overlay span {
+    pointer-events: auto;
+  }
+  .img-credit-overlay a {
+    color: inherit;
     text-decoration: none;
+    border-bottom: 1px dotted color-mix(in srgb, currentColor 50%, transparent);
   }
-  .img-credit a:hover {
-    color: var(--color-brass-bright);
-    border-bottom-color: var(--color-brass);
+
+  /* Tmavý text na světlém pozadí + jemné světlé halo */
+  .img-credit-overlay.credit-tone-dark {
+    color: #1a1a1a;
+    text-shadow:
+      0 0 2px rgba(255, 255, 255, 0.85),
+      0 0 5px rgba(255, 255, 255, 0.55),
+      0 1px 0 rgba(255, 255, 255, 0.7);
+  }
+  /* Světlý text na tmavém pozadí + jemné tmavé halo */
+  .img-credit-overlay.credit-tone-light {
+    color: #f5f3ee;
+    text-shadow:
+      0 0 2px rgba(0, 0, 0, 0.85),
+      0 0 5px rgba(0, 0, 0, 0.55),
+      0 1px 0 rgba(0, 0, 0, 0.7);
+  }
+
+  .img-credit-overlay.credit-tone-dark a:hover {
+    color: #5a3818;
+    border-bottom-color: #5a3818;
+  }
+  .img-credit-overlay.credit-tone-light a:hover {
+    color: var(--color-brass-bright, #d4a85a);
+    border-bottom-color: var(--color-brass, #b8923e);
+  }
+
+  /* Mobile fallback — overlay zpět pod obrázek (nad ~320 px je nečitelný) */
+  @media (max-width: 600px) {
+    .img-credit-overlay {
+      position: static;
+      max-width: none;
+      margin-top: 0.35rem;
+      padding: 0;
+      color: var(--color-text-muted) !important;
+      text-shadow: none !important;
+    }
+    .img-credit-overlay a {
+      color: var(--color-text-soft);
+    }
   }
 </style>
