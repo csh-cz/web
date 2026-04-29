@@ -225,9 +225,14 @@ const orgJsonLd = isHome ? {
     display: flex;
     align-items: center;
     gap: 0.6rem;
-    color: var(--color-text);
+    /* Logo + text spolku v zlaté brass barvě — vizuálně odlišené od těla
+       textu, ale ne tak ostré jako --color-brass-bright. */
+    color: var(--color-brass);
     font-size: 1rem;
     flex-shrink: 0;
+  }
+  .brand:hover {
+    color: var(--color-brass-bright);
   }
   .nav-sister {
     color: var(--color-copper) !important;
