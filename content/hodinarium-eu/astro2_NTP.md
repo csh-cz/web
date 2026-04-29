@@ -3,6 +3,7 @@ manualEdit: true
 title: "Astronomické hodiny z čínské stavebnice meteostanice"
 slug: "astro2_NTP"
 category: "projekty"
+author: "Petr Král"
 originalUrl: "https://hodinarium.eu/astro2_NTP.htm"
 lastModified: "Sun, 05 Oct 2025 18:07:00 GMT"
 sourceCharset: "windows-1250"
@@ -12,28 +13,25 @@ scrapedAt: "2026-04-27T17:37:20.757Z"
 
 Základem těchto astronomicko-astrologických hodin je čínská stavebnice meteostanice podobná té na obrázku. Řídí jí modul ESP01S. který výsledky výpočtů zobrazuje na OLED displeji. Bohužel stavebnice nebyla softwarově snadno lokalizovatelná, takže ukazovala jen čas v Číně a pro zobrazení počasí bylo potřeba se zaregistrovat na Čínském serveru počasí, což jsem neudělal. Koupil jsem si proto programovací adaptér na modul ESP10S a s částečnou pomocí AI jsem nově naprogramoval astronomicko-astrologické hodiny, které nyní zobrazující kromě **aktuálního času a data** i další údaje na šesti pravidelně se střídajících stránkách.
 
--   O Slunci
-    -   dobu východu a západu Slunce
-    -   odchylku pravého slunečního času pro zadanou lokalitu
-    -   staročeský čas
-    -   planetní hodinu (denní i noční)
-    -   ekliptikální znamení
-    -   obzorníkové souřadnice (azimut a výšku)
-
--   O Měsíci
-    -   dobu východu a západu Měsíce
-    -   slovní vyjádření fáze s rozlišením na osm poloh
-    -   stáří měsíce ve dnech
-    -   osvětlení v %
-    -   ekliptikální znamení
-    -   obzorníkové souřadnice
-
--   A dále výpočty dle Computu
-
--   platné nedělní písmeno
--   zlatý počet
--   epakta
--   datum Velikonoční neděle v tomto roce
+- **O Slunci**
+  - dobu východu a západu Slunce
+  - odchylku pravého slunečního času pro zadanou lokalitu
+  - staročeský čas
+  - planetní hodinu (denní i noční)
+  - ekliptikální znamení
+  - obzorníkové souřadnice (azimut a výšku)
+- **O Měsíci**
+  - dobu východu a západu Měsíce
+  - slovní vyjádření fáze s rozlišením na osm poloh
+  - stáří měsíce ve dnech
+  - osvětlení v %
+  - ekliptikální znamení
+  - obzorníkové souřadnice
+- **Výpočty dle Computu**
+  - platné nedělní písmeno
+  - zlatý počet
+  - epakta
+  - datum Velikonoční neděle v tomto roce
 
 ## O přesnosti
 
@@ -53,4 +51,6 @@ Nastavovací web spustíte metodou dvojitého zapnutí. Pokud během prvních 5 
 
 Pozor, napájecí konektor není C.
 
-Text a program: Ing. Petr Král s pomocí AI
+* * *
+
+*Text i program vznikly s pomocí AI.*
