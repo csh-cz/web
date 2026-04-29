@@ -6,14 +6,12 @@ import { NEW_CATEGORIES } from '../../data/url-helpers';
 
 export async function getStaticPaths() {
   const all = await getCollection('clanky');
-  // Jen články v DEPRECATED kategoriích (decin / vezni-hodiny / ostatni —
-  // čekají na migraci do Kroniky v M4). Nové kategorie mají URL
-  /* /<kategorie>/<slug> přes [kategorie]/[slug].astro. Po dokončení M4
-   * tato route úplně zmizí, nahrazena 301 redirecty z _redirects. */
+  // Jen články v NOVÝCH kategoriích — deprecated (decin/vezni-hodiny/ostatni)
+  // mají dál fallback na /clanky/<slug>, dokud se nepřesunou do Kroniky M4.
   return all
-    .filter((entry) => !NEW_CATEGORIES.has(entry.data.category))
+    .filter((entry) => NEW_CATEGORIES.has(entry.data.category))
     .map((entry) => ({
-      params: { slug: entry.id },
+      params: { kategorie: entry.data.category, slug: entry.id },
       props: { entry },
     }));
 }

@@ -1,5 +1,16 @@
 /**
  * Kurátorská metadata pro každou kategorii — intro, featured slugy, doplňkové odkazy.
+ *
+ * Taxonomie 2026-04 (6 hlavních + Kronika jako vlastní collection):
+ *   sbirka            — exponáty spolku
+ *   konstrukce        — mechanismy a principy hodin obecně
+ *   projekty          — DIY autorské konstrukce
+ *   virtualni-muzeum  — zajímavé hodiny mimo sbírku
+ *   muzea             — sister muzea, přehledy sbírek
+ *   zajimavosti       — eseje o čase, kalendáře, časoměrné systémy
+ *
+ * Kronika má vlastní landing /kronika/index.astro (chronologický feed).
+ * Hodináři jsou cross-cut na /hodinari/.
  */
 
 export interface KategorieMeta {
@@ -15,44 +26,62 @@ export const kategorie: Record<string, KategorieMeta> = {
   sbirka: {
     slug: 'sbirka',
     jmeno: 'Sbírka',
-    podnadpis: 'Hodiny napříč staletími a typy',
+    podnadpis: 'Exponáty Hodinária — vystavené i depozit',
     intro:
-      'Tematické sbírky — od švarcvaldek z Černého lesa přes francouzské comtoázky a vodní hodiny ' +
-      'po naprosto netradiční konstrukce: hodiny v lahvi, jezdecké, židovské či květinové.',
-    featuredSlugs: ['svarcvaldky', 'vodni', 'kvetinove', 'rimskedigi'],
+      'Konkrétní hodiny ve sbírce spolku — vystavené v Hodináriu na zámku Děčín nebo v depozitáři. ' +
+      'Věžní stroje, mateční hodiny, restaurované, švarcvaldky, sběratelské kuriozity. Každý článek = jeden exponát.',
+    featuredSlugs: ['zidovske', 'bychory_prokes1', 'brillie', 'svarcvaldky'],
+    doplnky: [
+      { jmeno: 'Mapa expozice', href: '/mapa', ikona: 'mapa' },
+      { jmeno: 'Zámek Děčín', href: 'https://www.zamekdecin.cz/program/vystava-decinske-hodinarium', ikona: 'sluzba' },
+    ],
+  },
+  konstrukce: {
+    slug: 'konstrukce',
+    jmeno: 'Konstrukce',
+    podnadpis: 'Mechanismy, principy a fungování hodin',
+    intro:
+      'Jak hodiny fungují. Kroky, kyvadla, soukolí, pohony (závaží, péro, elektřina, pneumatika), regulátory, ' +
+      'synchronizace, časoměrné systémy. Obecná pojednání napříč více hodinami, ne o konkrétním exempláři.',
+    featuredSlugs: ['synchronizace_hodin', 'pulsynetic', 'flying_pendulum', 'svarcvaldky_stroje'],
   },
   projekty: {
     slug: 'projekty',
     jmeno: 'Projekty',
-    podnadpis: 'DIY hodiny a experimentální konstrukce',
+    podnadpis: 'DIY autorské konstrukce spolku',
     intro:
-      'Vlastní konstrukce — Arduino, ESP8266, NTP synchronizace, sluneční hodiny v digitální podobě, ' +
-      'propeller clock i astronomické hodiny řízené mikroprocesorem. Pro maker komunitu.',
-    featuredSlugs: ['astro2_NTP', 'Arduino', 'GPS_Sakul', 'propeller_clock'],
+      'Vlastní konstrukce — NTP servery na ESP8266, atomovky pro Hodinárium, GPS synchronizace, ' +
+      'JS simulátory historických hodin. Pro maker komunitu i pro výklad expozice.',
+    featuredSlugs: ['astro2_NTP', 'Arduino', 'GPS_Sakul', 'PRS10'],
   },
-  decin: {
-    slug: 'decin',
-    jmeno: 'Hodinárium Děčín',
-    podnadpis: 'Fyzická expozice na zámku Děčín',
+  'virtualni-muzeum': {
+    slug: 'virtualni-muzeum',
+    jmeno: 'Virtuální muzeum',
+    podnadpis: 'Zajímavé hodiny mimo sbírku spolku',
     intro:
-      'Stálá expozice Českého spolku horologického na zámku Děčín. Otevřeno od roku 2015. ' +
-      'Mechanické, elektrické i digitální hodiny, věžní stroje, restaurátorské reportáže.',
-    featuredSlugs: ['decin_koncepce', 'decin_zamek', 'decin_aktual0', 'decin_dalsi_stroje'],
+      'Hodiny, které nemáme ve sbírce, ale stojí za ukázku — světově významné, kuriózní, historicky důležité. ' +
+      'Janovický kostel, květinové hodiny ve Světě, Tim Hunkin, Marc Betrisey, hodiny zmizelé.',
+    featuredSlugs: ['janovice', 'kvetinove', 'tabor', 'TimHunkin'],
+  },
+  muzea: {
+    slug: 'muzea',
+    jmeno: 'Muzea',
+    podnadpis: 'Sister muzea a přehledy sbírek',
+    intro:
+      'Hodinářská muzea v Česku i ve světě. Mindelheim, Greenwich Maritime, Království času Protivín, ' +
+      'a přehled českých sbírek a webů.',
+    featuredSlugs: ['mindelheim', 'kralovstvi-casu', 'muzea_cr', 'vezni_muzejicko_evropa'],
     doplnky: [
-      { jmeno: 'Mapa expozice', href: '/mapa', ikona: 'mapa' },
-      { jmeno: 'Web zámku Děčín', href: 'https://www.zamekdecin.cz/program/vystava-decinske-hodinarium', ikona: 'sluzba' },
+      { jmeno: 'Mapa míst', href: '/mapa', ikona: 'mapa' },
     ],
   },
-  'vezni-hodiny': {
-    slug: 'vezni-hodiny',
-    jmeno: 'Věžní hodiny',
-    podnadpis: 'Stroje z kostelních a městských věží',
+  zajimavosti: {
+    slug: 'zajimavosti',
+    jmeno: 'Zajímavosti',
+    podnadpis: 'Eseje o čase, kalendáře, časoměrné systémy',
     intro:
-      'Věžní hodiny napříč Českem — od možná nejstaršího dochovaného stroje v Soběslavi (1484?) ' +
-      'přes Bychory, Janovice, Rožmberk a věže Krušnohoří. Dokumentované nálezy, restaurování, instalace.',
-    featuredSlugs: ['sobeslav3', 'bychory_zvonici_stroj', 'rozmberk1', 'janovice'],
-    doplnky: [
-      { jmeno: 'Mapa věží', href: '/mapa', ikona: 'mapa' },
-    ],
+      'Téma času. Římský kalendář, časová pásma, 12 vs 24 hodinové dělení dne, kvalifikované časové razítko, ' +
+      'literatura. Co je čas a jak ho měříme.',
+    featuredSlugs: ['mereni_casu', 'kalendar_rimsky', 'casova_pasma', '12_24'],
   },
 };

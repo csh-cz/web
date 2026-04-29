@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Card from '../components/Card.astro';
 import catalog from '../data/catalog.json';
+import { clanekHref } from '../data/url-helpers';
 
 interface Entry {
   slug: string;
@@ -61,7 +62,7 @@ const categoryLabels: Record<string, string> = {
     {withImage.map((entry) => (
       <div class="atlas-cell" data-category={entry.category}>
         <Card
-          href={`/clanky/${entry.slug}`}
+          href={clanekHref(entry)}
           title={entry.title}
           excerpt={entry.excerpt}
           thumbnail={entry.thumbnail}
@@ -74,7 +75,7 @@ const categoryLabels: Record<string, string> = {
     {withoutImage.map((entry) => (
       <div class="atlas-cell" data-category={entry.category}>
         <Card
-          href={`/clanky/${entry.slug}`}
+          href={clanekHref(entry)}
           title={entry.title}
           excerpt={entry.excerpt}
           thumbnail={null}

@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import Card from "../components/Card.astro";
 import catalog from '../data/catalog.json';
 import { lokace } from '../data/lokace';
+import { clanekHref } from '../data/url-helpers';
 
 interface Entry {
   slug: string;
@@ -88,7 +89,7 @@ const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).ma
     <div class="featured-grid">
       {featured.map((e) => (
         <Card
-          href={`/clanky/${e.slug}`}
+          href={clanekHref(e)}
           title={e.title}
           excerpt={e.excerpt}
           thumbnail={e.thumbnail}
@@ -144,7 +145,7 @@ const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).ma
     <div class="featured-grid">
       {browsable.map((e) => (
         <Card
-          href={`/clanky/${e.slug}`}
+          href={clanekHref(e)}
           title={e.title}
           excerpt={e.excerpt}
           thumbnail={e.thumbnail}

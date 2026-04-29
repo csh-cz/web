@@ -116,16 +116,15 @@ const orgJsonLd = isHome ? {
           Hodinárium
         </a>
 
-        <ul class="hidden md:flex gap-6 text-sm items-center" style="letter-spacing: 0.05em;">
-          <li><a href="/atlas" style="border-bottom: none;">Atlas</a></li>
-          <li><a href="/mapa" style="border-bottom: none;">Mapa</a></li>
-          <li><a href="/expozice" style="border-bottom: none;">Expozice</a></li>
+        <ul class="hidden md:flex gap-5 text-sm items-center" style="letter-spacing: 0.05em;">
           <li><a href="/sbirka" style="border-bottom: none;">Sbírka</a></li>
+          <li><a href="/konstrukce" style="border-bottom: none;">Konstrukce</a></li>
           <li><a href="/projekty" style="border-bottom: none;">Projekty</a></li>
+          <li><a href="/virtualni-muzeum" style="border-bottom: none;">Virtuální muzeum</a></li>
+          <li><a href="/muzea" style="border-bottom: none;">Muzea</a></li>
+          <li><a href="/zajimavosti" style="border-bottom: none;">Zajímavosti</a></li>
           <li><a href="/hodinari" style="border-bottom: none;">Hodináři</a></li>
-          <li><a href="/kroky" style="border-bottom: none;">Kroky</a></li>
-          <li><a href="/decin" style="border-bottom: none;">Děčín</a></li>
-          <li><a href="/podpora" style="border-bottom: none;">Podpora</a></li>
+          <li><a href="/atlas" style="border-bottom: none;">Atlas</a></li>
           <li><a href={SISTER_SPOLEK} target="_blank" rel="noopener" class="nav-sister" style="border-bottom: none;" aria-label={`Spolek na ${SISTER_SPOLEK_LABEL} (otevře se v novém okně)`}>Spolek&nbsp;↗</a></li>
           <li><a href="https://orloj.eu" target="_blank" rel="noopener" class="nav-sister" style="border-bottom: none;" aria-label="Orloj.eu — encyklopedie Pražského orloje (otevře se v novém okně)">Orloj.eu&nbsp;↗</a></li>
           <li><a href="/en" class="nav-en" style="border-bottom: none;" aria-label="English summary" hreflang="en" lang="en">EN</a></li>
@@ -147,18 +146,20 @@ const orgJsonLd = isHome ? {
             </svg>
           </summary>
           <ul class="mobile-menu absolute right-0 top-full mt-2 w-60 py-1">
-            <li class="mobile-section-label">Webová expozice</li>
-            <li><a href="/atlas" style="border-bottom: none;">Atlas</a></li>
-            <li><a href="/mapa" style="border-bottom: none;">Mapa</a></li>
-            <li><a href="/expozice" style="border-bottom: none;">Hodinářské expozice</a></li>
+            <li class="mobile-section-label">Hodinárium</li>
             <li><a href="/sbirka" style="border-bottom: none;">Sbírka</a></li>
+            <li><a href="/konstrukce" style="border-bottom: none;">Konstrukce</a></li>
             <li><a href="/projekty" style="border-bottom: none;">Projekty</a></li>
+            <li><a href="/virtualni-muzeum" style="border-bottom: none;">Virtuální muzeum</a></li>
+            <li><a href="/muzea" style="border-bottom: none;">Muzea</a></li>
+            <li><a href="/zajimavosti" style="border-bottom: none;">Zajímavosti</a></li>
+            <li class="mobile-section-label">Lidé a místa</li>
             <li><a href="/hodinari" style="border-bottom: none;">Hodináři</a></li>
-            <li><a href="/kroky" style="border-bottom: none;">Hodinové kroky</a></li>
-            <li><a href="/decin" style="border-bottom: none;">Děčín</a></li>
-            <li><a href="/vezni-hodiny" style="border-bottom: none;">Věžní hodiny</a></li>
+            <li><a href="/expozice" style="border-bottom: none;">Hodinářské expozice</a></li>
+            <li><a href="/mapa" style="border-bottom: none;">Mapa</a></li>
+            <li class="mobile-section-label">Vyhledat</li>
+            <li><a href="/atlas" style="border-bottom: none;">Atlas (vše)</a></li>
             <li><a href="/podpora" style="border-bottom: none;">Podpora</a></li>
-            <li><a href="/clanky" style="border-bottom: none;">Všechny články</a></li>
             <li class="mobile-section-label">Sesterské weby</li>
             <li><a href={SISTER_SPOLEK} target="_blank" rel="noopener" style="border-bottom: none;">Spolek&nbsp;↗</a></li>
             <li><a href="https://orloj.eu" target="_blank" rel="noopener" style="border-bottom: none;">Orloj.eu&nbsp;↗</a></li>
@@ -180,12 +181,16 @@ const orgJsonLd = isHome ? {
           <div>
             <h3 class="footer-h">Muzeum</h3>
             <ul>
+              <li><a href="/sbirka">Sbírka</a></li>
+              <li><a href="/konstrukce">Konstrukce</a></li>
+              <li><a href="/projekty">Projekty</a></li>
+              <li><a href="/virtualni-muzeum">Virtuální muzeum</a></li>
+              <li><a href="/muzea">Muzea</a></li>
+              <li><a href="/zajimavosti">Zajímavosti</a></li>
+              <li><a href="/hodinari">Hodináři</a></li>
               <li><a href="/atlas">Atlas</a></li>
               <li><a href="/mapa">Mapa</a></li>
-              <li><a href="/sbirka">Sbírka</a></li>
-              <li><a href="/projekty">Projekty</a></li>
-              <li><a href="/decin">Děčín</a></li>
-              <li><a href="/vezni-hodiny">Věžní hodiny</a></li>
+              <li><a href="/expozice">Expozice</a></li>
             </ul>
           </div>
           <div>

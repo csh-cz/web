@@ -1,8 +1,9 @@
 ---
-import Base from '../layouts/Base.astro';
-import Card from '../components/Card.astro';
-import catalog from '../data/catalog.json';
-import { kategorie as catMeta } from '../data/kategorie';
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import catalog from '../../data/catalog.json';
+import { kategorie as catMeta } from '../../data/kategorie';
+import { clanekHref } from '../../data/url-helpers';
 
 interface Entry {
   slug: string;
@@ -17,12 +18,15 @@ interface Entry {
 }
 
 export async function getStaticPaths() {
-  // Spolek má vlastní /spolek/index.astro — tady ho neuvádíme
+  // 6 hlavních kategorií taxonomie 2026-04. Kronika a hodinari mají
+  // vlastní pages mimo [kategorie] dynamic.
   return [
     { params: { kategorie: 'sbirka' } },
+    { params: { kategorie: 'konstrukce' } },
     { params: { kategorie: 'projekty' } },
-    { params: { kategorie: 'decin' } },
-    { params: { kategorie: 'vezni-hodiny' } },
+    { params: { kategorie: 'virtualni-muzeum' } },
+    { params: { kategorie: 'muzea' } },
+    { params: { kategorie: 'zajimavosti' } },
   ];
 }
 
@@ -101,7 +105,7 @@ const ikonaSvg: Record<string, string> = {
       <div class="featured-grid-cat">
         {featured.map((e) => (
           <Card
-            href={`/clanky/${e.slug}`}
+            href={clanekHref(e)}
             title={e.title}
             excerpt={e.excerpt}
             thumbnail={e.thumbnail}
@@ -125,7 +129,7 @@ const ikonaSvg: Record<string, string> = {
     <div class="featured-grid-cat">
       {ostatni.map((e) => (
         <Card
-          href={`/clanky/${e.slug}`}
+          href={clanekHref(e)}
           title={e.title}
           excerpt={e.excerpt}
           thumbnail={e.thumbnail}

@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import { lokace } from '../data/lokace';
 import catalog from '../data/catalog.json';
+import { clanekHrefFromSlug } from '../data/url-helpers';
 
 const expozice = lokace.filter((l) => l.typ === 'expozice' || l.typ === 'zajimavost');
 
@@ -71,7 +72,7 @@ const zahraniciByZeme = groupByCountry(expoZahranici);
           {l.popis && <p class="expo-popis">{l.popis}</p>}
           <footer class="expo-links">
             {articleSlugs.has(l.slug) && (
-              <a href={`/clanky/${l.slug}`}>Detail v Hodináriu →</a>
+              <a href={clanekHrefFromSlug(l.slug, catalog)}>Detail v Hodináriu →</a>
             )}
             {l.web && (
               <a href={l.web} target="_blank" rel="noopener">Oficiální web&nbsp;↗</a>
@@ -102,7 +103,7 @@ const zahraniciByZeme = groupByCountry(expoZahranici);
               {l.popis && <p class="expo-popis">{l.popis}</p>}
               <footer class="expo-links">
                 {articleSlugs.has(l.slug) && (
-                  <a href={`/clanky/${l.slug}`}>Detail v Hodináriu →</a>
+                  <a href={clanekHrefFromSlug(l.slug, catalog)}>Detail v Hodináriu →</a>
                 )}
                 {l.web && (
                   <a href={l.web} target="_blank" rel="noopener">Oficiální web&nbsp;↗</a>
