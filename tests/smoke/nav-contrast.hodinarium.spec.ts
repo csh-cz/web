@@ -8,7 +8,13 @@
  */
 import { test, expect } from 'playwright/test';
 
-const NAV_LINKS = ['Atlas', 'Mapa', 'Expozice', 'Sbírka', 'Hodináři', 'Podpora'];
+// Top nav po taxonomii M2 (2026-04-29): 6 hlavních kategorií + Kronika,
+// Hodináři, Atlas. Mapa / Expozice / Podpora přesunuty do mobile menu
+// a footeru — netestujeme na desktopu.
+const NAV_LINKS = [
+  'Sbírka', 'Konstrukce', 'Projekty', 'Virtuální muzeum',
+  'Muzea', 'Zajímavosti', 'Kronika', 'Hodináři', 'Atlas',
+];
 
 for (const label of NAV_LINKS) {
   test(`nav: '${label}' — defaultní text je světlý (--color-text)`, async ({ page }) => {
