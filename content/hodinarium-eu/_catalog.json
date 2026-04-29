@@ -836,6 +836,17 @@
     "wordCount": 982
   },
   {
+    "slug": "muzeum_kadan_orloj",
+    "title": "Kadaňský orloj — pocta Mikulášovi z Kadaně",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Moderní astronomický orloj na náměstí v Kadani, instalovaný jako pocta Mikulášovi z Kadaně — středověkému hodináři, který je společně s Janem Šindelem uváděn jako spolutvůrce Pražského orloje (kolem 1410).",
+    "year": 1410,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 66
+  },
+  {
     "slug": "kapesni_orloj",
     "title": "Kapesní \"orloj\" BREVETE",
     "category": "sbirka",
@@ -867,6 +878,17 @@
     "lastModified": "2017-04-26T13:56:00.000Z",
     "imageCount": 3,
     "wordCount": 251
+  },
+  {
+    "slug": "muzeum_klementinum",
+    "title": "Klementinum — Praha",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Komplex barokních budov bývalé jezuitské koleje v centru Prahy, dnes hlavní sídlo Národní knihovny. Pro horologa zajímavé hned ze dvou důvodů:",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 84
   },
   {
     "slug": "hainz_natahovani",
@@ -1155,6 +1177,17 @@
     "wordCount": 93
   },
   {
+    "slug": "muzeum_mnichovo_hradiste",
+    "title": "Muzeum města Mnichovo Hradiště",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Městské muzeum v Mnichově Hradišti (severní Čechy, okres Mladá Boleslav). Ve sbírkách najdete unikátní kapucínský kabinetní orloj — barokní cabinet clock s pohyblivými figurami a astronomickým ciferníkem.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 53
+  },
+  {
     "slug": "muzeum_gdansk_zegarow_wiezowych",
     "title": "Muzeum Zegarów Wieżowych — Gdaňsk",
     "category": "muzea",
@@ -1232,6 +1265,17 @@
     "wordCount": 48
   },
   {
+    "slug": "muzeum_ostravske",
+    "title": "Ostravské muzeum",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Vlastivědné muzeum v centru Ostravy se sídlem v historické radnici. Pro horologa zajímavý hlavně Maškův orloj — astronomické hodiny vyrobené ostravským hodinářem Antonínem Maškem (počátek 20. století).",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 57
+  },
+  {
     "slug": "paichl_knihy_hodiny_hodiny_slovnik_slovnik",
     "title": "paichl_knihy_hodiny_hodiny_slovnik_slovnik",
     "category": "zajimavosti",
@@ -1285,6 +1329,17 @@
     "lastModified": "2017-04-26T16:02:00.000Z",
     "imageCount": 10,
     "wordCount": 669
+  },
+  {
+    "slug": "muzeum_patek_philippe",
+    "title": "Patek Philippe Museum — Ženeva",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Privátní muzeum slavné ženevské manufaktury Patek Philippe (založena 1839). Jedna z nejvýznamnějších sbírek kapesních a náramkových hodinek ve světě.",
+    "year": 1839,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 74
   },
   {
     "slug": "pichacky",
@@ -1824,6 +1879,17 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 97
+  },
+  {
+    "slug": "muzeum_beyer_zurich",
+    "title": "Uhrenmuseum Beyer — Curych",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Privátní hodinářské muzeum patřící luxusnímu hodinářství Beyer v centru Curychu (Bahnhofstrasse). Jedna z nejstarších rodinných hodinářských firem ve Švýcarsku — působí nepřetržitě od roku 1760.",
+    "year": 1364,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 87
   },
   {
     "slug": "muzeum_aschau_burgenland",

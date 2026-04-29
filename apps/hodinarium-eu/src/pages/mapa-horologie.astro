@@ -1,0 +1,385 @@
+---
+import Base from '../layouts/Base.astro';
+import gmapsData from '../data/gmaps-horologie.json';
+import catalog from '../data/catalog.json';
+
+interface Placemark {
+  name: string;
+  description: string;
+  descriptionHtml: string;
+  coords: { lng: number; lat: number };
+  folder: string;
+}
+interface CatalogEntry {
+  slug: string;
+  title: string;
+  category: string;
+}
+
+const items = gmapsData as Placemark[];
+
+// Group per folder for filter UI + per-folder lists
+const folderOrder = [
+  'Orloje a astronomické hodiny',
+  'Muzea',
+  'Výrobci hodin a hodinek',
+  'Hodinky',
+  'Další zajímavé hodiny',
+  'Konference a výlet Rostock',
+  'Výlet Kassel',
+];
+const folderColors: Record<string, string> = {
+  'Orloje a astronomické hodiny': 'brass',
+  'Muzea': 'copper',
+  'Výrobci hodin a hodinek': 'teal',
+  'Hodinky': 'brass-light',
+  'Další zajímavé hodiny': 'soft',
+  'Konference a výlet Rostock': 'purple',
+  'Výlet Kassel': 'purple',
+};
+const byFolder = new Map<string, Placemark[]>();
+for (const f of folderOrder) byFolder.set(f, []);
+for (const p of items) {
+  if (!byFolder.has(p.folder)) byFolder.set(p.folder, []);
+  byFolder.get(p.folder)!.push(p);
+}
+for (const list of byFolder.values()) list.sort((a, b) => a.name.localeCompare(b.name, 'cs'));
+
+// Cross-link best-effort — pro každý placemark zkus najít odpovídající
+// muzeum kartu v catalog.json (case-insensitive substring match v obou směrech).
+const muzeaArticles = (catalog as CatalogEntry[]).filter((c) => c.category === 'muzea');
+function findMatchingArticle(name: string): { slug: string; title: string } | null {
+  const lc = name.toLowerCase();
+  for (const a of muzeaArticles) {
+    const at = a.title.toLowerCase();
+    if (at === lc) return a;
+    // Substring match v obou směrech (e.g. "Mindelheim" matches "Virtuální prohlídka muzea v Mindelheimu")
+    if (at.includes(lc) || lc.includes(at)) return a;
+    // Klíčová slova — extrakce městských názvů (Glashütte, Mindelheim, Wien, Furtwangen, Aschau, …)
+    const cityWords = at.match(/[A-ZÁ-Ž][a-zá-ž]{4,}/g);
+    if (cityWords) {
+      for (const word of cityWords) {
+        if (lc.includes(word.toLowerCase())) return a;
+      }
+    }
+  }
+  return null;
+}
+const linkMap: Record<string, string> = {};
+for (const p of items) {
+  const match = findMatchingArticle(p.name);
+  if (match) linkMap[p.name] = `/muzea/${match.slug}`;
+}
+
+const matchedCount = Object.keys(linkMap).length;
+---
+<Base
+  title="Horologická mapa Davida Knespla"
+  description={`${items.length} hodinářských zajímavostí Evropy v jedné mapě — orloje, muzea, výrobci. Sdílená Google My Maps Davida Knespla.`}
+>
+  <header class="max-w-3xl mb-10">
+    <p class="eyebrow mb-4">Horologická mapa</p>
+    <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Horologická mapa Evropy</h1>
+    <p class="text-[var(--color-text)] leading-relaxed">
+      <strong class="text-[var(--color-brass-bright)]">{items.length}</strong> hodinářských
+      zajímavostí — orlojů, muzeí, výroben a slavných hodin —
+      v jedné mapě. Vychází ze sdílené
+      <a href="https://www.google.com/maps/d/viewer?mid=1Wga_RKn7FmqptR4d2P1AqfXRMDg" target="_blank" rel="noopener">Google My Maps</a>
+      Davida Knespla. {matchedCount > 0 && (
+        <> <span class="text-[var(--color-text-muted)]">({matchedCount} pinů má detail v sekci Muzea — klik v popupu otevře článek.)</span></>
+      )}
+    </p>
+  </header>
+
+  <div class="map-filter" role="group" aria-label="Filtr podle kategorie">
+    {[...byFolder.entries()].filter(([, list]) => list.length > 0).map(([f, list]) => (
+      <label class={`filter-chip filter-${folderColors[f] ?? 'soft'}`}>
+        <input type="checkbox" checked data-folder={f} />
+        <span class="chip-dot" aria-hidden="true"></span>
+        <span class="chip-label">{f}</span>
+        <span class="chip-count">{list.length}</span>
+      </label>
+    ))}
+  </div>
+
+  <div id="mapa-horologie" class="mapa-canvas" role="application" aria-label="Horologická mapa Evropy"></div>
+
+  <section class="mt-12">
+    <h2 class="text-2xl mb-4" style="margin-top: 0;">Seznam položek</h2>
+    {[...byFolder.entries()].filter(([, list]) => list.length > 0).map(([f, list]) => (
+      <details class={`folder-block folder-${folderColors[f] ?? 'soft'}`} open>
+        <summary>
+          <span class="chip-dot" aria-hidden="true"></span>
+          <strong>{f}</strong>
+          <span class="folder-count">{list.length}</span>
+        </summary>
+        <ul class="placemarks-list">
+          {list.map((p) => (
+            <li>
+              {linkMap[p.name]
+                ? <a href={linkMap[p.name]} style="border-bottom: none;"><strong>{p.name}</strong></a>
+                : <strong>{p.name}</strong>}
+              {p.description && <span class="placemark-desc"> — {p.description.length > 120 ? p.description.slice(0, 120) + '…' : p.description}</span>}
+            </li>
+          ))}
+        </ul>
+      </details>
+    ))}
+  </section>
+</Base>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<style>
+  .mapa-canvas {
+    width: 100%;
+    height: 70vh;
+    min-height: 520px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    box-shadow:
+      inset 0 1px 0 color-mix(in srgb, var(--color-brass) 12%, transparent),
+      0 4px 16px rgba(0, 0, 0, 0.4);
+    background: var(--color-bg-deep);
+  }
+
+  .map-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.6rem;
+    margin-bottom: 1.25rem;
+    padding: 0.85rem 1rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+  }
+  .filter-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.3rem 0.7rem 0.3rem 0.5rem;
+    background: var(--color-bg);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    user-select: none;
+    transition: border-color 150ms ease;
+  }
+  .filter-chip:hover { border-color: var(--color-brass); }
+  .filter-chip input { margin: 0; }
+  .chip-dot {
+    display: inline-block;
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+    background: var(--color-text-soft);
+  }
+  .filter-brass .chip-dot, .folder-brass .chip-dot { background: var(--color-brass-bright); }
+  .filter-copper .chip-dot, .folder-copper .chip-dot { background: var(--color-copper); }
+  .filter-teal .chip-dot, .folder-teal .chip-dot { background: #4a8a8e; }
+  .filter-purple .chip-dot, .folder-purple .chip-dot { background: #8a6a9c; }
+  .filter-brass-light .chip-dot, .folder-brass-light .chip-dot { background: #c9a96a; }
+  .chip-label { color: var(--color-text); }
+  .chip-count {
+    color: var(--color-text-muted);
+    font-feature-settings: "lnum";
+    font-size: 0.78rem;
+  }
+
+  .folder-block {
+    margin: 1.25rem 0;
+    padding: 0.75rem 1rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-left: 3px solid var(--color-text-soft);
+    border-radius: 2px;
+  }
+  .folder-block.folder-brass { border-left-color: var(--color-brass-bright); }
+  .folder-block.folder-copper { border-left-color: var(--color-copper); }
+  .folder-block.folder-teal { border-left-color: #4a8a8e; }
+  .folder-block.folder-purple { border-left-color: #8a6a9c; }
+  .folder-block.folder-brass-light { border-left-color: #c9a96a; }
+  .folder-block summary {
+    cursor: pointer;
+    font-size: 1.05rem;
+    color: var(--color-brass-bright);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.25rem 0;
+    list-style: none;
+  }
+  .folder-block summary::-webkit-details-marker { display: none; }
+  .folder-count {
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+    font-feature-settings: "lnum";
+    margin-left: auto;
+  }
+  .placemarks-list {
+    list-style: none;
+    padding: 0.5rem 0 0;
+    margin: 0.5rem 0 0;
+    border-top: 1px dashed color-mix(in srgb, var(--color-brass) 12%, transparent);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+    column-gap: 1.5rem;
+  }
+  @media (min-width: 720px) {
+    .placemarks-list { grid-template-columns: repeat(2, 1fr); }
+  }
+  .placemarks-list li {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: var(--color-text);
+  }
+  .placemarks-list strong {
+    color: var(--color-brass-bright);
+    font-family: var(--font-serif);
+    font-weight: 500;
+  }
+  .placemarks-list a strong { color: var(--color-brass-bright); }
+  .placemarks-list a:hover strong { color: var(--color-brass); }
+  .placemark-desc {
+    color: var(--color-text-muted);
+    font-size: 0.82rem;
+    font-style: italic;
+  }
+
+  /* Sépiový sklon Leaflet tile vrstvy */
+  :global(.leaflet-container) {
+    background: var(--color-bg-deep) !important;
+    font-family: var(--font-serif) !important;
+  }
+  :global(.leaflet-tile) {
+    filter: sepia(0.5) saturate(0.7) brightness(0.85) contrast(1.05);
+  }
+  :global(.leaflet-popup-content-wrapper) {
+    background: var(--color-bg-elevated);
+    color: var(--color-text);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    font-family: var(--font-serif);
+    max-width: 320px;
+  }
+  :global(.leaflet-popup-tip) {
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+  }
+  :global(.leaflet-popup-content a) {
+    color: var(--color-brass-bright);
+  }
+  :global(.leaflet-popup-content h4) {
+    font-family: var(--font-serif);
+    color: var(--color-brass-bright);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0 0.4em;
+  }
+  :global(.leaflet-popup-content .popup-folder) {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-copper);
+    margin: 0 0 0.5em;
+  }
+  :global(.leaflet-popup-content .popup-desc) {
+    margin: 0.5em 0;
+    color: var(--color-text-soft);
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+  :global(.leaflet-popup-content .popup-desc img) {
+    max-width: 100%;
+    height: auto;
+    margin: 0.5em 0;
+    border-radius: 2px;
+  }
+  :global(.leaflet-popup-content .popup-link) {
+    display: inline-block;
+    margin-top: 0.5em;
+    font-size: 0.85rem;
+    border-bottom: 1px dotted color-mix(in srgb, var(--color-brass) 50%, transparent);
+  }
+  :global(.leaflet-control-attribution) {
+    background: rgba(20, 16, 12, 0.7) !important;
+    color: var(--color-text-muted) !important;
+    font-size: 0.7rem !important;
+  }
+  :global(.leaflet-control-attribution a) {
+    color: var(--color-brass) !important;
+  }
+  :global(.leaflet-control-zoom a) {
+    background: var(--color-bg-elevated) !important;
+    color: var(--color-brass-bright) !important;
+    border-color: color-mix(in srgb, var(--color-brass) 30%, transparent) !important;
+  }
+  :global(.gmaps-pin) {
+    border-radius: 50%;
+    border: 2px solid var(--color-bg);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+  }
+  :global(.gmaps-pin-brass) { background: #d4a85a; }
+  :global(.gmaps-pin-copper) { background: #b87333; }
+  :global(.gmaps-pin-teal) { background: #4a8a8e; }
+  :global(.gmaps-pin-purple) { background: #8a6a9c; }
+  :global(.gmaps-pin-brass-light) { background: #c9a96a; }
+  :global(.gmaps-pin-soft) { background: #888; }
+</style>
+
+<script define:vars={{ items, folderColors, linkMap }}>
+  const map = L.map('mapa-horologie', { zoomControl: true, scrollWheelZoom: false })
+    .setView([49.5, 12.0], 5);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap přispěvatelé',
+    maxZoom: 18,
+  }).addTo(map);
+
+  // Map of folder → array of leaflet markers (pro filter toggle)
+  const markersByFolder = new Map();
+
+  for (const p of items) {
+    const color = folderColors[p.folder] || 'soft';
+    const icon = L.divIcon({
+      className: `gmaps-pin gmaps-pin-${color}`,
+      html: '',
+      iconSize: [12, 12],
+    });
+    const link = linkMap[p.name];
+    let html = `<p class="popup-folder">${p.folder}</p><h4>${p.name}</h4>`;
+    if (p.descriptionHtml && p.descriptionHtml.trim().length > 0) {
+      // Sanitize basic — povolíme jen img, br, a, p, strong, em
+      const safe = p.descriptionHtml
+        .replace(/<script[\s\S]*?<\/script>/gi, '')
+        .replace(/<style[\s\S]*?<\/style>/gi, '')
+        .replace(/on\w+="[^"]*"/gi, '');
+      html += `<div class="popup-desc">${safe}</div>`;
+    }
+    if (link) {
+      html += `<a class="popup-link" href="${link}">Otevřít detail v Hodináriu →</a>`;
+    }
+
+    const marker = L.marker([p.coords.lat, p.coords.lng], { icon, title: p.name })
+      .bindPopup(html, { maxWidth: 320 });
+    marker.addTo(map);
+
+    if (!markersByFolder.has(p.folder)) markersByFolder.set(p.folder, []);
+    markersByFolder.get(p.folder).push(marker);
+  }
+
+  // Filter chip toggles — show/hide markers per folder
+  document.querySelectorAll('.filter-chip input[type="checkbox"]').forEach((cb) => {
+    cb.addEventListener('change', () => {
+      const folder = cb.dataset.folder;
+      const markers = markersByFolder.get(folder) || [];
+      for (const m of markers) {
+        if (cb.checked) m.addTo(map);
+        else map.removeLayer(m);
+      }
+    });
+  });
+</script>
