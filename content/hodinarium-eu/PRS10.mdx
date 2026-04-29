@@ -7,6 +7,8 @@ lastModified: "Thu, 03 Apr 2025 16:47:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:22.360Z"
 ---
+import PRS10Live from '../../apps/hodinarium-eu/src/components/PRS10Live.astro';
+
 ![celkový pohled PRS10](/img/PRS10/PRS10stage2LG.jpg)
 výtah ze [stránek výrobce](https://www.thinksrs.com/products/prs10.html) (přeloženo strojově, trochu problematicky)
 
@@ -73,7 +75,10 @@ Konkrétně černá hodnota sd2 = 255 znamená, že jednotka nastavila vybíjec�
 
 ## Monitorovací program WiFiPRS10
 
-Na podporu vystavení rubidiového oscilátoru v Hodináriu jsem vytvořil na platformě WEDOS doplněk, který obdobnou statistiku vytvoří a pošle na internetový server. Data získaná z rozhraní RS-232 a následně poslaná na server bude možné zobrazit na této [stránce](PRS2.php) nebo v následujícím okně. Bližší informace o jednotlivých povelech a hodnotách v [manuálu](https://www.thinksrs.com/downloads/pdfs/manuals/PRS10m.pdf). Signál PPS bude přiveden z přijímače NEO-6M GPS.
+Na podporu vystavení rubidiového oscilátoru v Hodináriu jsem vytvořil na platformě WEDOS doplněk, který obdobnou statistiku vytvoří a pošle na internetový server. Data získaná z rozhraní RS-232 jsou dostupná i jako [klasická stránka PRS2.php](https://www.orloj.eu/PRS2.php); níže je živý výpis přímo z čtecího endpointu. Bližší informace o jednotlivých povelech a hodnotách v [manuálu](https://www.thinksrs.com/downloads/pdfs/manuals/PRS10m.pdf). Signál PPS bude přiveden z přijímače NEO-6M GPS.
+
+<PRS10Live />
+
 
 ## Informativní zobrazení času na desítky ms
 
