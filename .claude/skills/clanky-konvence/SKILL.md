@@ -173,11 +173,18 @@ Skript `scripts/build-favicon.ts` je příklad; pro hromadný cleanup HRs např�
 
 ## 11. Perex / abstract
 
-- `tldr: "..."` v frontmatter → vyrenderuje s prefixem **„Stručně: ..."**
-- Pokud `tldr` chybí a článek má ≥300 slov (z `catalog.json` `wordCount`), auto-perex z `excerpt` (~200 znaků z prvního paragrafu) jako kurzívní úvod **bez prefixu**
-- Krátké články (<300 slov) zůstávají bez perexu
+**Pravidlo:** perex se zobrazí **jen když je explicit napsán ve frontmatteru** přes `tldr: "..."`. Renderuje se s prefixem **„Stručně: …"** v rámečku pod nadpisem, před hero.
 
-Pro vlastnoručně psaný perex preferuj `tldr` ve frontmatter — auto-extract není vždy informativní.
+- **Manuální `tldr`** = vlastní 1–2 věty shrnutí. Mělo by být **odlišné** od prvního paragrafu článku (jinak duplicitní obsah).
+- **Bez `tldr`** = článek začne rovnou textem (po hero). Pro krátké článečky a popisy exponátů typicky netřeba.
+
+**Historicky** v jednom kroku byl auto-perex z `catalog.excerpt` pro dlouhé články, ale **byl zrušen** (commit po e760a7e) — duplikoval první paragraf článku. Pokud autor chce perex, musí ho explicit napsat.
+
+**Doporučení pro tldr:**
+- Max 2 věty, ideálně 1
+- Ne kopírovat začátek prvního paragrafu — naopak abstrakt v jiném stylu (vědečtější, hutnější)
+- U článků s historickými fakty: hlavní událost + datum + místo
+- U exponátů: typ + původ + zvláštnost
 
 ## 12. Title nesmí obsahovat markdown
 

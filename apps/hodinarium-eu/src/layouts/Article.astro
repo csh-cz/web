@@ -71,18 +71,12 @@ const all = catalog as CatalogEntry[];
 const me = slug ? all.find((e) => e.slug === slug) : undefined;
 
 /**
- * Perex / abstract:
- * - Pokud frontmatter má tldr → použij ho s prefixem "Stručně:"
- * - Jinak pokud je článek dostatečně dlouhý (>300 slov), použij excerpt
- *   z katalogu (auto-extrakce ze začátku — bez prefixu, jen italický
- *   úvod). Krátké články zůstávají bez perexu — nemělo by smysl.
+ * Perex / abstract — zobrazí se JEN pokud frontmatter explicit `tldr`.
+ * Auto-extract z catalog.excerpt byl zrušen, protože duplikoval první
+ * paragraf článku ("Stručně: …" v rámečku + tatáž věta pod hero).
+ * Pokud autor chce perex, napíše svůj originální abstract do frontmatteru.
  */
-const PEREX_MIN_WORDS = 300;
-const hasManualTldr = Boolean(tldr);
-const autoPerex = !hasManualTldr && me && me.wordCount >= PEREX_MIN_WORDS && me.excerpt
-  ? me.excerpt
-  : null;
-const perexText = tldr ?? autoPerex;
+const perexText = tldr;
 
 // Related: 4 ze stejné kategorie, ne já, preferovat ty s thumbnailem
 const related = me
@@ -128,9 +122,8 @@ const krokyZmineni = slug ? krokyProClanek(slug) : [];
       )}
       <h1 class="article-title" itemprop="headline">{title}</h1>
       {perexText && (
-        <p class={`tldr${hasManualTldr ? '' : ' tldr-auto'}`} itemprop="description" aria-label="Perex">
-          {hasManualTldr && <span class="tldr-label">Stručně:</span>}
-          {perexText}
+        <p class="tldr" itemprop="description" aria-label="Stručné shrnutí">
+          <span class="tldr-label">Stručně:</span>{perexText}
         </p>
       )}
     </header>
@@ -358,12 +351,6 @@ const krokyZmineni = slug ? krokyProClanek(slug) : [];
   }
   .byline-date time {
     font-feature-settings: "lnum";
-  }
-
-  /* Auto-perex (extracted excerpt) — italický kurzívní úvod, bez "Stručně:" labelu. */
-  .tldr.tldr-auto {
-    font-style: italic;
-    color: var(--color-text-soft);
   }
 
   /* Literatura a internetové odkazy pod článkem */
