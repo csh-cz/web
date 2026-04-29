@@ -7,12 +7,16 @@
  */
 import { test, expect } from 'playwright/test';
 
+// Po taxonomii M2 (2026-04-29) se články přesunuly z /clanky/<slug> na
+// /<kategorie>/<slug>. Cloudflare _redirects přesměruje staré URL,
+// ale page.goto + waitForLoad může na 301 redirect někdy timeout.
+// Test používá rovnou nové URL.
 const SAMPLES = [
-  '/clanky/Kappa',
-  '/clanky/zidovske',
-  '/clanky/slunecni_filler',
-  '/clanky/brillie',
-  '/clanky/podebrady',
+  '/projekty/Kappa',
+  '/sbirka/zidovske',
+  '/sbirka/slunecni_filler',
+  '/sbirka/brillie',
+  '/virtualni-muzeum/podebrady',
 ];
 
 for (const url of SAMPLES) {
