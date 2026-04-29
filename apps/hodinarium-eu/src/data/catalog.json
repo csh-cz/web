@@ -399,7 +399,7 @@
     "slug": "elektromagneticke_segmenty",
     "title": "Elektromagnetický sedmi segmentový displej H715 M - BODET",
     "category": "projekty",
-    "thumbnail": null,
+    "thumbnail": "/img/H715_BODET/schema1.jpg",
     "excerpt": "Sedmi segmentový displej je nejúspornější způsob vyjádření číslic a několika znaků. Většinou se s nimi setkáváme v provedení LED nebo LCD. Mechanické provedení sedmi segmentového displeje ovládané elektromagnety má ně…",
     "year": 1998,
     "lastModified": "2021-10-10T11:33:00.000Z",
@@ -674,7 +674,7 @@
     "slug": "sestka",
     "title": "Hodiny sestka — hodiny z čehokoliv",
     "category": "sbirka",
-    "thumbnail": null,
+    "thumbnail": "/img/ujete/sestka1.jpg",
     "excerpt": "Brouzdajíce webovinou, narazili jsme na stránky www.sestka.com. Tvrdí se tam, že na světě neexistuje žádná hmota nebo věc, ze které by se nedaly udělat hodiny. A namouduši — jde to. To si určitě nenechte ujít. Pěkně v…",
     "year": null,
     "lastModified": "2017-04-26T14:00:00.000Z",
@@ -2269,11 +2269,11 @@
     "slug": "zidovske",
     "title": "Židovské hodiny z roku 1764",
     "category": "sbirka",
-    "thumbnail": "/img/zidovske/zidovske_stroj1.jpg",
+    "thumbnail": "/img/zidovske/holmstad_2014_cifernik.jpg",
     "excerpt": "Na půdě Židovské radnice, proti Staronové synagoze v Praze, se nacházejí patrně nejstarší známé hebrejské hodiny na veřejném místě, možná dokonce nejstarší hebrejské hodiny vůbec. Není dokonce vyloučeno, že na stejném…",
     "year": 1764,
     "lastModified": "2020-11-24T02:06:00.000Z",
-    "imageCount": 2,
-    "wordCount": 1261
+    "imageCount": 0,
+    "wordCount": 1289
   }
 ]

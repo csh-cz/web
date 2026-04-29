@@ -59,9 +59,30 @@ function parseFrontmatter(content: string): { fm: Record<string, unknown>; body:
  *   - První takový kandidát se vrací.
  */
 function extractFirstImage(body: string): string | null {
-  const re = /!\[[^\]]*\]\((\/img\/[^)\s]+\.(?:jpe?g|png|gif|webp|avif))\)/gi;
-  const m = re.exec(body);
-  return m ? m[1] : null;
+  // Hledej v pořadí ve kterém v body figurují (markdown i Photo komponenta).
+  // Pattern A: ![alt](/img/...)
+  // Pattern B: <Photo src="/img/..." …> (multi-line, atributy v jakémkoli pořadí)
+  // Pattern C: <img src="/img/..." …> (raw HTML)
+  const candidates: { idx: number; url: string }[] = [];
+  const rasterRe = /\.(?:jpe?g|png|gif|webp|avif)$/i;
+
+  const reMd = /!\[[^\]]*\]\((\/img\/[^)\s]+)\)/g;
+  for (const m of body.matchAll(reMd)) {
+    if (rasterRe.test(m[1])) candidates.push({ idx: m.index!, url: m[1] });
+  }
+
+  const rePhoto = /<Photo\b[\s\S]*?\bsrc=["'](\/img\/[^"']+)["'][\s\S]*?\/?>/g;
+  for (const m of body.matchAll(rePhoto)) {
+    if (rasterRe.test(m[1])) candidates.push({ idx: m.index!, url: m[1] });
+  }
+
+  const reImg = /<img\b[\s\S]*?\bsrc=["'](\/img\/[^"']+)["']/g;
+  for (const m of body.matchAll(reImg)) {
+    if (rasterRe.test(m[1])) candidates.push({ idx: m.index!, url: m[1] });
+  }
+
+  candidates.sort((a, b) => a.idx - b.idx);
+  return candidates[0]?.url ?? null;
 }
 
 function countImages(body: string): number {
