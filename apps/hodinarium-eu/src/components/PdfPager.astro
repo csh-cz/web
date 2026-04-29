@@ -49,45 +49,55 @@ const PDFJS_VERSION = '4.0.379';
   </div>
 </div>
 
-<script>
-  // Astro processed module script — async IIFE umožní await na CDN import.
-  (async function setupPdfPager() {
-    const root = document.querySelector('.pdf-pager');
-    if (!root) return;
-    const src = (root as HTMLElement).dataset.pdfSrc!;
-    const ver = (root as HTMLElement).dataset.pdfjsVersion!;
-    const canvas = root.querySelector('[data-pdf-canvas]') as HTMLCanvasElement;
-    const ctx = canvas.getContext('2d')!;
-    const wrap = root.querySelector('.pdf-pager-canvas-wrap') as HTMLElement;
-    const loading = root.querySelector('[data-pdf-loading]') as HTMLElement;
-    const errorEl = root.querySelector('[data-pdf-error]') as HTMLElement;
-    const pageEl = root.querySelector('[data-pdf-page]') as HTMLElement;
-    const totalEl = root.querySelector('[data-pdf-total]') as HTMLElement;
-    const prevBtn = root.querySelector('[data-pdf-prev]') as HTMLButtonElement;
-    const nextBtn = root.querySelector('[data-pdf-next]') as HTMLButtonElement;
+<script type="module" is:inline define:vars={{ PDFJS_VERSION }}>
+  // Raw browser ES module — žádné Astro/Vite processing.
+  // Dynamic import z CDN funguje přímo, worker se nastaví přes
+  // GlobalWorkerOptions.workerSrc na minified ESM worker buildu.
+  (async () => {
+    const roots = document.querySelectorAll('.pdf-pager');
+    if (roots.length === 0) return;
 
-    let pdf: any;
-    let pageNum = 1;
-    let zoom = 1.0;
-    let fitMode = true;
-
+    let pdfjs;
     try {
-      // pdfjs-dist ESM s public worker
-      const pdfjs: any = await import(
-        /* @vite-ignore */ `https://cdn.jsdelivr.net/npm/pdfjs-dist@${ver}/+esm`
-      );
+      pdfjs = await import(`https://cdn.jsdelivr.net/npm/pdfjs-dist@${PDFJS_VERSION}/+esm`);
       pdfjs.GlobalWorkerOptions.workerSrc =
-        `https://cdn.jsdelivr.net/npm/pdfjs-dist@${ver}/build/pdf.worker.min.mjs`;
-      pdf = await pdfjs.getDocument(src).promise;
+        `https://cdn.jsdelivr.net/npm/pdfjs-dist@${PDFJS_VERSION}/build/pdf.worker.min.mjs`;
     } catch (err) {
-      console.error('[PdfPager] failed to load PDF.js:', err);
-      loading.hidden = true;
-      errorEl.hidden = false;
+      console.error('[PdfPager] failed to load PDF.js library:', err);
+      for (const root of roots) {
+        root.querySelector('[data-pdf-loading]').hidden = true;
+        root.querySelector('[data-pdf-error]').hidden = false;
+      }
       return;
     }
 
+    for (const root of roots) {
+      setupOne(root, pdfjs).catch(err => {
+        console.error('[PdfPager] failed to render PDF:', err);
+        root.querySelector('[data-pdf-loading]').hidden = true;
+        root.querySelector('[data-pdf-error]').hidden = false;
+      });
+    }
+  })();
+
+  async function setupOne(root, pdfjs) {
+    const src = root.dataset.pdfSrc;
+    const canvas = root.querySelector('[data-pdf-canvas]');
+    const ctx = canvas.getContext('2d');
+    const wrap = root.querySelector('.pdf-pager-canvas-wrap');
+    const loading = root.querySelector('[data-pdf-loading]');
+    const pageEl = root.querySelector('[data-pdf-page]');
+    const totalEl = root.querySelector('[data-pdf-total]');
+    const prevBtn = root.querySelector('[data-pdf-prev]');
+    const nextBtn = root.querySelector('[data-pdf-next]');
+
+    const pdf = await pdfjs.getDocument(src).promise;
     totalEl.textContent = String(pdf.numPages);
     loading.hidden = true;
+
+    let pageNum = 1;
+    let zoom = 1.0;
+    let fitMode = true;
 
     async function render() {
       const page = await pdf.getPage(pageNum);
@@ -96,7 +106,6 @@ const PDFJS_VERSION = '4.0.379';
       const fitScale = wrapW / baseViewport.width;
       const scale = fitMode ? fitScale : fitScale * zoom;
       const viewport = page.getViewport({ scale });
-      // Hi-DPI: render at devicePixelRatio, scale CSS down.
       const dpr = window.devicePixelRatio || 1;
       canvas.width = Math.floor(viewport.width * dpr);
       canvas.height = Math.floor(viewport.height * dpr);
@@ -115,13 +124,13 @@ const PDFJS_VERSION = '4.0.379';
     nextBtn.addEventListener('click', () => {
       if (pageNum < pdf.numPages) { pageNum++; render(); }
     });
-    (root.querySelector('[data-pdf-zoom-in]') as HTMLButtonElement).addEventListener('click', () => {
+    root.querySelector('[data-pdf-zoom-in]').addEventListener('click', () => {
       fitMode = false; zoom = Math.min(4, zoom * 1.25); render();
     });
-    (root.querySelector('[data-pdf-zoom-out]') as HTMLButtonElement).addEventListener('click', () => {
+    root.querySelector('[data-pdf-zoom-out]').addEventListener('click', () => {
       fitMode = false; zoom = Math.max(0.3, zoom / 1.25); render();
     });
-    (root.querySelector('[data-pdf-zoom-reset]') as HTMLButtonElement).addEventListener('click', () => {
+    root.querySelector('[data-pdf-zoom-reset]').addEventListener('click', () => {
       fitMode = true; zoom = 1; render();
     });
 
@@ -133,15 +142,14 @@ const PDFJS_VERSION = '4.0.379';
       }
     });
 
-    // Re-fit on resize (debounced)
-    let resizeTimer: number | undefined;
+    let resizeTimer;
     window.addEventListener('resize', () => {
       if (resizeTimer) clearTimeout(resizeTimer);
       resizeTimer = window.setTimeout(() => { if (fitMode) render(); }, 200);
     });
 
     await render();
-  })();
+  }
 </script>
 
 <style>
