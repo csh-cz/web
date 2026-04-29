@@ -74,6 +74,23 @@
     "popularizace",
     "diy"
   ],
+  "umisteni": [
+    "hlavni-sal",
+    "panel-1",
+    "panel-2",
+    "panel-3",
+    "panel-4",
+    "panel-5",
+    "vitrina-1-hlavni",
+    "vitrina-2-hlavni",
+    "vitrina-3-hlavni",
+    "vitrina-1-vedlejsi",
+    "vitrina-2-vedlejsi",
+    "vitrina-3-vedlejsi",
+    "vitrina-4-vedlejsi",
+    "vitrina-5-vedlejsi",
+    "rohova-vitrina-vedlejsi"
+  ],
   "vyrobce": [
     "prokes",
     "elektrocas",

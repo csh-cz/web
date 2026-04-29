@@ -25,36 +25,7 @@ Zvláštností tohoto věžního hodinového stroje je spojení se zvonicím str
 
 [![Komplet Prokeš 1868 Býchory](/img/vez/bychory/f/komplet.jpg)](/img/vez/bychory/f/komplet.jpg)
 
-Pan Prokeš se ucházel v roce 1865 i o opravu Pražského orloje. Vyrobil pro tuto příležitost také několik modelů orloje. Zakázku však nezískal. Právě pro tento vztah k Pražskému orloji jsme velmi rádi, že jsme tento komplet získali. O autorovi naleznete více informací na našem druhém webu - [www.orloj.eu](http://www.orloj.eu/cs/prokes_model.htm)
-
-[
-](/img/vez/bychory/f/komplet.jpg)
-
-**Technické parametry:**
-
-**Výrobce:**
-
-**Jan Prokeš v Sobotce** **v roce 1868**
-
-**Rám stroje:**
-
-**klecový z ocelových pásnic**
-
-**Krok jicího stroje:**
-
-**Bicí stroje:**
-
-**Čtvrťový a hodinový**
-
-**Rám stroje:**
-
-**celková šířka 80 cm,** **výška 68 cm,** **hloubka 38 cm**
-
-**Kyvadlo:**
-
-**délka cca 235 cm**
-
-* * *
+Pan Prokeš se v roce 1864 ucházel i o opravu Pražského orloje a vyrobil pro tuto příležitost několik modelů. Zakázku nezískal. Právě pro tento vztah k Pražskému orloji jsme velmi rádi, že jsme tento komplet získali. Životopis a kompletní přehled jeho dochovaného díla najdete v [medailonu Jana Prokeše](/hodinari/jan-prokes).
 
 ## Stroj v původním umístění
 

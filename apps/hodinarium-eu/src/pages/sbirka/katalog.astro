@@ -1,0 +1,216 @@
+---
+import Base from '../../layouts/Base.astro';
+import soupis from '../../data/soupis-exponatu.json';
+
+interface Exponat {
+  invCislo: number;
+  popis: string;
+  typ: string;
+  rok: string;
+  majitel: string;
+  stav: string;
+  vztah: string;
+  poznamka: string;
+  lokace: string;
+  lokaceHuman: string;
+  sekceCislo: number | null;
+  mistnost: string;
+}
+
+const items = soupis as Exponat[];
+
+// Group by lokace, preserve order
+const lokaceOrder = [
+  'hlavni-sal',
+  'panel-1', 'panel-2', 'panel-3', 'panel-4', 'panel-5',
+  'vitrina-1-hlavni', 'vitrina-2-hlavni', 'vitrina-3-hlavni',
+  'vitrina-1-vedlejsi', 'vitrina-2-vedlejsi', 'vitrina-3-vedlejsi',
+  'vitrina-4-vedlejsi', 'vitrina-5-vedlejsi',
+  'rohova-vitrina-vedlejsi',
+];
+const byLokace = new Map<string, Exponat[]>();
+for (const code of lokaceOrder) byLokace.set(code, []);
+for (const it of items) {
+  if (!byLokace.has(it.lokace)) byLokace.set(it.lokace, []);
+  byLokace.get(it.lokace)!.push(it);
+}
+for (const list of byLokace.values()) list.sort((a, b) => a.invCislo - b.invCislo);
+
+const lokaceLabels: Record<string, string> = {
+  'hlavni-sal': 'Hlavní sál',
+  'panel-1': 'Panel 1',
+  'panel-2': 'Panel 2',
+  'panel-3': 'Panel 3',
+  'panel-4': 'Panel 4',
+  'panel-5': 'Panel 5',
+  'vitrina-1-hlavni': 'Vitrína 1 — hlavní místnost',
+  'vitrina-2-hlavni': 'Vitrína 2 — hlavní místnost',
+  'vitrina-3-hlavni': 'Vitrína 3 — hlavní místnost',
+  'vitrina-1-vedlejsi': 'Vitrína 1 — vedlejší místnost',
+  'vitrina-2-vedlejsi': 'Vitrína 2 — vedlejší místnost',
+  'vitrina-3-vedlejsi': 'Vitrína 3 — vedlejší místnost',
+  'vitrina-4-vedlejsi': 'Vitrína 4 — vedlejší místnost',
+  'vitrina-5-vedlejsi': 'Vitrína 5 — vedlejší místnost',
+  'rohova-vitrina-vedlejsi': 'Rohová vitrína — vedlejší místnost',
+};
+
+const total = items.length;
+const maxInv = Math.max(...items.map((i) => i.invCislo));
+---
+<Base
+  title="Katalog sbírkových předmětů"
+  description={`Soupis ${total} exponátů Hodinária Děčín — věžní hodiny, kapesní hodinky, podružné systémy, sluneční a astronomické hodiny. Členěno podle umístění v expozici.`}
+>
+  <header class="katalog-header">
+    <p class="eyebrow mb-3">Sbírka</p>
+    <h1 class="katalog-title">Katalog sbírkových předmětů</h1>
+    <p class="katalog-lede">
+      Soupis <strong class="text-[var(--color-brass-bright)]">{total} exponátů</strong>
+      Hodinária Děčín, členěno podle umístění v expozici.
+      Maximální inventární číslo: <strong>{maxInv}</strong>.
+    </p>
+  </header>
+
+  {[...byLokace.entries()].filter(([, list]) => list.length > 0).map(([code, list]) => (
+    <section class="katalog-section" id={`l-${code}`}>
+      <h2 class="katalog-section-h">
+        {lokaceLabels[code] ?? code}
+        <span class="katalog-section-count">{list.length}</span>
+      </h2>
+      <div class="katalog-table" role="table">
+        <div class="katalog-row katalog-head" role="row">
+          <span role="columnheader">Inv. č.</span>
+          <span role="columnheader">Popis</span>
+          <span role="columnheader">Typ</span>
+          <span role="columnheader">Stav</span>
+          <span role="columnheader">Vztah</span>
+          <span role="columnheader">Majitel</span>
+        </div>
+        {list.map((e) => (
+          <div class="katalog-row" role="row">
+            <span class="katalog-inv" role="cell">{e.invCislo}</span>
+            <span class="katalog-popis" role="cell">
+              <strong>{e.popis}</strong>
+              {e.poznamka && <span class="katalog-pozn"> — {e.poznamka}</span>}
+            </span>
+            <span class="katalog-typ" role="cell">{e.typ || '—'}</span>
+            <span class="katalog-stav" role="cell">{e.stav || '—'}</span>
+            <span class="katalog-vztah" role="cell">{e.vztah || '—'}</span>
+            <span class="katalog-majitel" role="cell">{e.majitel || '—'}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+  ))}
+</Base>
+
+<style>
+  .katalog-header {
+    max-width: 72ch;
+    margin-bottom: 2.5rem;
+  }
+  .katalog-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    line-height: 1.1;
+  }
+  .katalog-lede {
+    font-size: 1.05rem;
+    color: var(--color-text);
+    line-height: 1.6;
+  }
+
+  .katalog-section {
+    margin: 2.5rem 0;
+  }
+  .katalog-section-h {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .katalog-section-h::before { content: none; }
+  .katalog-section-count {
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+    font-feature-settings: "lnum";
+    margin-left: auto;
+  }
+
+  .katalog-table {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .katalog-row {
+    display: grid;
+    grid-template-columns: 60px 2fr 1fr 1fr 1fr 1.2fr;
+    gap: 0.75rem;
+    padding: 0.5rem 0.85rem;
+    align-items: baseline;
+    font-size: 0.88rem;
+    border-bottom: 1px dashed color-mix(in srgb, var(--color-brass) 12%, transparent);
+  }
+  .katalog-row:last-child { border-bottom: none; }
+  .katalog-row:nth-child(odd) {
+    background: color-mix(in srgb, var(--color-bg-elevated) 50%, transparent);
+  }
+  .katalog-head {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-copper);
+    background: var(--color-bg-elevated) !important;
+    padding-block: 0.7rem;
+  }
+  .katalog-inv {
+    font-feature-settings: "lnum";
+    color: var(--color-brass-bright);
+    font-weight: 500;
+    text-align: right;
+  }
+  .katalog-popis strong {
+    color: var(--color-text);
+    font-weight: 500;
+  }
+  .katalog-pozn {
+    color: var(--color-text-muted);
+    font-style: italic;
+    font-size: 0.85em;
+  }
+  .katalog-typ, .katalog-stav, .katalog-vztah, .katalog-majitel {
+    color: var(--color-text-soft);
+  }
+
+  @media (max-width: 800px) {
+    .katalog-row {
+      grid-template-columns: 50px 1fr;
+      gap: 0.4rem 0.85rem;
+      padding: 0.65rem 0.75rem;
+    }
+    .katalog-head { display: none; }
+    .katalog-typ, .katalog-stav, .katalog-vztah, .katalog-majitel {
+      grid-column: 2;
+      font-size: 0.78rem;
+    }
+    .katalog-typ::before { content: 'Typ: '; color: var(--color-text-muted); }
+    .katalog-stav::before { content: 'Stav: '; color: var(--color-text-muted); }
+    .katalog-vztah::before { content: 'Vztah: '; color: var(--color-text-muted); }
+    .katalog-majitel::before { content: 'Majitel: '; color: var(--color-text-muted); }
+  }
+</style>
