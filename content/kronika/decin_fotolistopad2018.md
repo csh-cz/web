@@ -10,7 +10,7 @@ lastModified: "Thu, 22 Nov 2018 13:43:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:23.584Z"
 ---
-Hodinárium opět navštívil fotograf pan Marušák a opět bylo co fotit. Nejen mnoho přírůstků z roku 2018, ale i některé starší exponáty v novém pohledu. Proto neváhejte a brzo nás navštivte. Aktuální dění můžete sledovat na [facebooku](https://www.facebook.com/Hodin%C3%A1rium-%C4%8Cesk%C3%BD-spolek-horologick%C3%BD-169939123371944).
+Hodinárium opět navštívil fotograf pan Marušák a opět bylo co fotit. Nejen mnoho přírůstků z roku 2018, ale i některé starší exponáty v novém pohledu. Proto neváhejte a brzo nás navštivte.
 
 ![Fotografie 1](/img/decin/foto201811/f/foto_0001.jpg)
 

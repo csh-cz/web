@@ -39,6 +39,11 @@ const typLabels: Record<string, string> = {
       Virtuálního muzea hodin (2009) přes Věžní muzejíčko v Soběslavi (2011–2015)
       po stálou expozici v <strong>Hodináriu Děčín</strong> (od září 2015).
     </p>
+    <p class="kronika-fb-pointer">
+      Aktuální dění sledujte na našem
+      <a href="https://www.facebook.com/Hodin%C3%A1rium-%C4%8Cesk%C3%BD-spolek-horologick%C3%BD-169939123371944"
+         target="_blank" rel="noopener">Facebooku&nbsp;↗</a>.
+    </p>
   </header>
 
   {years.map((y) => (
@@ -84,6 +89,20 @@ const typLabels: Record<string, string> = {
     font-size: 1.1rem;
     color: var(--color-text);
     line-height: 1.6;
+  }
+  .kronika-fb-pointer {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+  .kronika-fb-pointer a {
+    color: var(--color-brass-bright);
+    border-bottom: 1px dotted color-mix(in srgb, var(--color-brass) 50%, transparent);
+    text-decoration: none;
+  }
+  .kronika-fb-pointer a:hover {
+    border-bottom-color: var(--color-brass);
   }
 
   .kronika-year {
