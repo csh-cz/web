@@ -17,6 +17,15 @@ interface CatalogEntry {
   wordCount: number;
 }
 
+interface Reference {
+  title: string;
+  url?: string;
+  author?: string;
+  year?: number | string;
+  type?: 'kniha' | 'clanek' | 'pdf' | 'odkaz' | 'wiki';
+  note?: string;
+}
+
 interface Props {
   title: string;
   description?: string;
@@ -26,8 +35,28 @@ interface Props {
   category?: string;
   slug?: string;
   ogImageOverride?: string;
+  author?: string;
+  references?: Reference[];
 }
-const { title, description, lastModified, tldr, category, slug, ogImageOverride } = Astro.props;
+const { title, description, lastModified, tldr, category, slug, ogImageOverride, author, references } = Astro.props;
+
+/**
+ * Formát autora pro byline: "Petr Král" → "P. Král",
+ * "Ing. Petr Král" → "P. Král" (titly se zahodí),
+ * "P. Král" zůstává.
+ */
+function formatAuthor(name: string): string {
+  const titleRe = /^(Ing\.|Dr\.|Mgr\.|MUDr\.|RNDr\.|JUDr\.|PaedDr\.|MgA\.|prof\.|doc\.|Prof\.|Doc\.)\s+/g;
+  const stripped = name.replace(titleRe, '').trim();
+  const parts = stripped.split(/\s+/);
+  if (parts.length < 2) return stripped;
+  const first = parts[0];
+  const surname = parts.slice(1).join(' ');
+  // Pokud je první už iniciál (jedno písmeno + tečka volitelně), normalizuj.
+  if (/^[A-ZÁ-Ž]\.?$/u.test(first)) return `${first.replace(/\.$/, '')}. ${surname}`;
+  return `${first.charAt(0)}. ${surname}`;
+}
+const authorFormatted = author ? formatAuthor(author) : null;
 
 const categoryLabels: Record<string, string> = {
   decin: 'Hodinárium Děčín',
@@ -39,6 +68,20 @@ const categoryLabels: Record<string, string> = {
 
 const all = catalog as CatalogEntry[];
 const me = slug ? all.find((e) => e.slug === slug) : undefined;
+
+/**
+ * Perex / abstract:
+ * - Pokud frontmatter má tldr → použij ho s prefixem "Stručně:"
+ * - Jinak pokud je článek dostatečně dlouhý (>300 slov), použij excerpt
+ *   z katalogu (auto-extrakce ze začátku — bez prefixu, jen italický
+ *   úvod). Krátké články zůstávají bez perexu — nemělo by smysl.
+ */
+const PEREX_MIN_WORDS = 300;
+const hasManualTldr = Boolean(tldr);
+const autoPerex = !hasManualTldr && me && me.wordCount >= PEREX_MIN_WORDS && me.excerpt
+  ? me.excerpt
+  : null;
+const perexText = tldr ?? autoPerex;
 
 // Related: 4 ze stejné kategorie, ne já, preferovat ty s thumbnailem
 const related = me
@@ -83,9 +126,10 @@ const krokyZmineni = slug ? krokyProClanek(slug) : [];
         <p class="eyebrow mb-3">{categoryLabels[category] ?? category}</p>
       )}
       <h1 class="article-title" itemprop="headline">{title}</h1>
-      {tldr && (
-        <p class="tldr" itemprop="description" aria-label="Stručné shrnutí">
-          <span class="tldr-label">Stručně:</span>{tldr}
+      {perexText && (
+        <p class={`tldr${hasManualTldr ? '' : ' tldr-auto'}`} itemprop="description" aria-label="Perex">
+          {hasManualTldr && <span class="tldr-label">Stručně:</span>}
+          {perexText}
         </p>
       )}
     </header>
@@ -134,8 +178,32 @@ const krokyZmineni = slug ? krokyProClanek(slug) : [];
       </aside>
     )}
 
+    {references && references.length > 0 && (
+      <section class="references" aria-labelledby="references-heading">
+        <h2 id="references-heading" class="references-title">Literatura a odkazy</h2>
+        <ul class="references-list">
+          {references.map((r) => (
+            <li class={`reference reference-${r.type ?? 'odkaz'}`}>
+              {r.author && <span class="ref-author">{r.author}:</span>}
+              {r.url
+                ? <a href={r.url} rel="noopener" target="_blank">{r.title}</a>
+                : <span class="ref-title">{r.title}</span>}
+              {r.year !== undefined && <span class="ref-year">({r.year})</span>}
+              {r.note && <span class="ref-note"> — {r.note}</span>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
     <footer class="article-byline">
-      <span class="byline-author">Český spolek horologický</span>
+      {authorFormatted && (
+        <>
+          <span class="byline-author">{authorFormatted}</span>
+          <span class="byline-sep" aria-hidden="true">·</span>
+        </>
+      )}
+      <span class="byline-publisher">Český spolek horologický</span>
       <span class="byline-sep" aria-hidden="true">·</span>
       {lastModifiedReadable
         ? <span class="byline-date">Aktualizováno <time datetime={lastModifiedISO ?? undefined}>{lastModifiedReadable}</time></span>
@@ -275,6 +343,11 @@ const krokyZmineni = slug ? krokyProClanek(slug) : [];
     align-items: baseline;
   }
   .byline-author {
+    color: var(--color-brass-bright);
+    font-weight: 500;
+    font-feature-settings: "lnum";
+  }
+  .byline-publisher {
     color: var(--color-text-soft);
     font-style: italic;
   }
@@ -284,6 +357,73 @@ const krokyZmineni = slug ? krokyProClanek(slug) : [];
   }
   .byline-date time {
     font-feature-settings: "lnum";
+  }
+
+  /* Auto-perex (extracted excerpt) — italický kurzívní úvod, bez "Stručně:" labelu. */
+  .tldr.tldr-auto {
+    font-style: italic;
+    color: var(--color-text-soft);
+  }
+
+  /* Literatura a internetové odkazy pod článkem */
+  .references {
+    margin: 3rem 0 1rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  }
+  .references-title {
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    letter-spacing: 0.02em;
+    border: none;
+    padding: 0;
+  }
+  .references-title::before { content: none; }
+  .references-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .references-list li {
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: var(--color-text-soft);
+    padding-left: 1.25rem;
+    position: relative;
+  }
+  .references-list li::before {
+    content: '·';
+    position: absolute;
+    left: 0.4rem;
+    color: var(--color-copper);
+    font-weight: 700;
+  }
+  .references-list li.reference-kniha::before { content: '📖'; left: 0; font-size: 0.85em; }
+  .references-list li.reference-pdf::before { content: '⤓'; left: 0.3rem; color: var(--color-brass-bright); }
+  .references-list li.reference-wiki::before { content: 'W'; left: 0.4rem; color: var(--color-copper); font-style: italic; font-family: var(--font-serif); }
+  .references-list li.reference-clanek::before { content: '§'; left: 0.4rem; color: var(--color-copper); font-style: italic; font-family: var(--font-serif); }
+  .references-list a {
+    color: var(--color-brass-bright);
+  }
+  .ref-author {
+    font-style: italic;
+    color: var(--color-text);
+    margin-right: 0.4em;
+  }
+  .ref-year {
+    color: var(--color-text-muted);
+    margin-left: 0.3em;
+    font-feature-settings: "lnum";
+  }
+  .ref-note {
+    color: var(--color-text-muted);
+    font-style: italic;
   }
 
   .related {

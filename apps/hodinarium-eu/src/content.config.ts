@@ -1,6 +1,20 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
+/**
+ * Schéma jednoho odkazu / literatury pod článkem.
+ * - title povinný; ostatní volitelné
+ * - type ovlivní ikonku/řazení (kniha, článek, PDF, web odkaz, wiki)
+ */
+const reference = z.object({
+  title: z.string(),
+  url: z.string().url().optional(),
+  author: z.string().optional(),
+  year: z.union([z.number(), z.string()]).optional(),
+  type: z.enum(['kniha', 'clanek', 'pdf', 'odkaz', 'wiki']).optional(),
+  note: z.string().optional(),
+});
+
 const clanky = defineCollection({
   loader: glob({
     base: '../../content/hodinarium-eu',
@@ -20,6 +34,10 @@ const clanky = defineCollection({
     ogImage: z.string().optional(),
     /** Custom thumbnail for atlas / katalog karet — přebíjí prvni-image z těla. */
     thumbnail: z.string().optional(),
+    /** Autor článku (např. "Petr Král"). Footer ho zobrazí jako "P. Král". */
+    author: z.string().optional(),
+    /** Literatura a odkazy renderované v sekci pod článkem. */
+    references: z.array(reference).optional(),
   }),
 });
 
