@@ -2,11 +2,12 @@
 /**
  * Inline SVG logo ČSH s currentColor.
  *
- * Mask trick (CSS) na některých prohlížečích nedotahoval barvu —
- * inline SVG s build-time replace #ffffff → currentColor je
- * deterministické: SVG se vykreslí v barvě rodiče (color: var(--color-text)).
- *
- * SVG se načítá ze /public/img/logo-csh.svg během buildu (Node fs).
+ * Originální SVG má hardcoded fill: #ffffff v <style> blocích uvnitř
+ * (.C1, .C2 stroke-only; .C3 fill-only). Build-time strip <style>
+ * z SVG a ekvivalent pravidla aplikujeme z document scope (mimo SVG)
+ * — tím currentColor správně dědí color z parent .brand elementu
+ * napříč všemi browsery (uvnitř SVG se currentColor v <style> bloku
+ * občas neresolvoval správně).
  */
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -15,13 +16,13 @@ import { dirname, resolve } from 'node:path';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const logoPath = resolve(__dirname, '../../public/img/logo-csh.svg');
 const logoSvg = readFileSync(logoPath, 'utf-8')
-  .replace(/#ffffff/gi, 'currentColor')
-  // odstraní xml declaration (uvnitř HTML způsobuje problém v některých parserech)
-  .replace(/^<\?xml[^>]*\?>\s*/i, '');
+  .replace(/^<\?xml[^>]*\?>\s*/i, '')
+  // Strip vnitřní <style> blocky — barvy řešíme zvenku přes is:global CSS.
+  .replace(/<style>[^<]*<\/style>/g, '');
 ---
 <span class="brand-logo" aria-hidden="true" set:html={logoSvg}></span>
 
-<style>
+<style is:global>
   .brand-logo {
     width: 36px;
     height: 36px;
@@ -29,9 +30,22 @@ const logoSvg = readFileSync(logoPath, 'utf-8')
     flex-shrink: 0;
     line-height: 0;
   }
-  .brand-logo :global(svg) {
+  .brand-logo svg {
     width: 100%;
     height: 100%;
     display: block;
+  }
+  /* C1, C2 — stroke-only paths (linie). currentColor zde dědí z .brand. */
+  .brand-logo svg .C1,
+  .brand-logo svg .C2 {
+    fill: none;
+    stroke: currentColor;
+  }
+  .brand-logo svg .C1 { stroke-width: 164; }
+  .brand-logo svg .C2 { stroke-width: 273; }
+  /* C3 — fill-only paths (vyplněné tvary). */
+  .brand-logo svg .C3 {
+    fill: currentColor;
+    stroke: none;
   }
 </style>
