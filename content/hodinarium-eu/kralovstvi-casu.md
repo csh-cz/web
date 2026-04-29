@@ -11,7 +11,7 @@ scrapedAt: "2026-04-28T09:00:00.000Z"
 manualEdit: true
 tldr: "Soukromá hodinářská expozice v secesní vile z roku 1907 v jihočeském Protivíně — přes 1200 exponátů, dětský prostor s prolézačkou ve tvaru kukačkových hodin a kavárna."
 ---
-![Vstup do Království času — secesní vila v Protivíně](/img/expozice/kralovstvi-casu/01-vstup.jpg)
+![Detail části expozice — věžní a stojací hodiny](/img/expozice/kralovstvi-casu/02-expozice.jpg)
 
 **Království času** v Protivíně je **soukromá hodinářská expozice** v nádherných
 prostorách **secesní vily z roku 1907**. Ve sbírce je více než **1200 exponátů**
@@ -23,8 +23,6 @@ Sbírka se rozprostírá v prvním patře vily a je tématicky rozdělena do **p
 místností**. Najdete zde věžní stroje, holubářské hodiny, mechanické a kvarcové
 budíky, kapesní i náramkové hodinky a celou řadu dalších kuriozit.
 
-![Detail části expozice — věžní a stojací hodiny](/img/expozice/kralovstvi-casu/02-expozice.jpg)
-
 ![Detail vystavovaných hodin](/img/expozice/kralovstvi-casu/03-detail-hodin.jpg)
 
 ## Pro děti
@@ -35,6 +33,8 @@ maketu budíku, náramkových hodinek nebo vlastní hodinový stroj. V přízem�
 kavárna.
 
 ## Návštěva spolku 19.—20. srpna 2022
+
+![Spolková výprava do Protivína 2022 — členové ČSH před Královstvím času](/img/expozice/kralovstvi-casu/05-vyprava-spolku.jpg)
 
 Členové Českého spolku horologického navštívili Království času během
 [spolkové výpravy do Protivína](https://horologie-cz.pages.dev/akce/protivin-2022/).

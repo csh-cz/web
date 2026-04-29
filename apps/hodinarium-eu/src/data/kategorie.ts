@@ -66,7 +66,7 @@ export const kategorie: Record<string, KategorieMeta> = {
   muzea: {
     slug: 'muzea',
     jmeno: 'Muzea',
-    podnadpis: 'Sister muzea a přehledy sbírek',
+    podnadpis: 'Muzea hodin a přehledy sbírek',
     intro:
       'Hodinářská muzea v Česku i ve světě. Mindelheim, Greenwich Maritime, Království času Protivín, ' +
       'a přehled českých sbírek a webů.',
