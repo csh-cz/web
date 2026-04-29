@@ -352,7 +352,7 @@ const matchedCount = Object.keys(linkMap).length;
 
   // Regex pro extrakci URL z plain textu (filtr na ne-image hosts — googleusercontent
   // jsou Mapsy thumbnaily inside <img>, ty ignoruj jako "external link")
-  const urlExtractRe = /https?:\/\/[^\s<>"]+/i;
+  const urlExtractReG = /https?:\/\/[^\s<>"]+/gi;
   const isExternalUrl = (u) => u && !u.includes('googleusercontent.com');
 
   for (const p of items) {
@@ -371,13 +371,14 @@ const matchedCount = Object.keys(linkMap).length;
         .replace(/<script[\s\S]*?<\/script>/gi, '')
         .replace(/<style[\s\S]*?<\/style>/gi, '')
         .replace(/on\w+="[^"]*"/gi, '');
-      // Odstraň plain-text URL z popisu (extract pro h4 hyperlink), ale jen
-      // ne-image hosts (googleusercontent zůstává v <img src=…>)
-      const m = cleaned.match(urlExtractRe);
-      if (m && isExternalUrl(m[0])) {
-        externalUrl = m[0];
-        // Strip URL ze HTML; trailing <br><br> taky pryč
-        cleaned = cleaned.replace(urlExtractRe, '').replace(/(<br\s*\/?>\s*){1,}\s*$/i, '').trim();
+      // Najdi VŠECHNY URLs a vyber první NE-image host (googleusercontent
+      // je legitimní jen v <img src=...>; první URL v HTML je typicky obrázek,
+      // takže nesmíme `match(re)` — vrátil by image; musíme matchAll a filter)
+      const allUrls = cleaned.match(urlExtractReG) || [];
+      externalUrl = allUrls.find(isExternalUrl) || null;
+      if (externalUrl) {
+        // Literal string replace (URL obsahuje . a další regex specials)
+        cleaned = cleaned.split(externalUrl).join('').replace(/(<br\s*\/?>\s*){1,}\s*$/i, '').trim();
       }
       safeHtml = cleaned;
     }
