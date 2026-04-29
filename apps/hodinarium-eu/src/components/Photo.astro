@@ -1,0 +1,93 @@
+---
+/**
+ * Obrázek s volitelným credit captionem (autor, licence, zdroj).
+ *
+ * Drobný kurzívní text vpravo pod obrázkem — stejný styl napříč
+ * celým webem. Caption se vůbec nerenderuje, pokud není uveden
+ * žádný atribut credit (author / license / sourceUrl) — komponenta
+ * pak chová jako obyčejný <img>.
+ *
+ * Použití:
+ *   <Photo src="/img/foo.jpg" alt="…"
+ *          author="Øyvind Holmstad" authorUrl="https://commons.wikimedia.org/wiki/User:Øyvind_Holmstad"
+ *          license="CC BY-SA 3.0" licenseUrl="https://creativecommons.org/licenses/by-sa/3.0/"
+ *          sourceUrl="https://commons.wikimedia.org/wiki/File:..."
+ *          year={2014} />
+ *
+ *   <Photo src="/img/own.jpg" alt="…" /> — stejné jako obyčejný obr.
+ *
+ * Třída `class` propaguje na <img> (např. img-hero, img-standalone),
+ * aby šly výchozí styly článku použít. Pokud není class, [slug].astro
+ * skript přidá auto-classifikaci.
+ */
+interface Props {
+  src: string;
+  alt: string;
+  class?: string;
+  author?: string;
+  authorUrl?: string;
+  license?: string;
+  licenseUrl?: string;
+  sourceUrl?: string;
+  year?: number;
+}
+const {
+  src,
+  alt,
+  class: imgClass,
+  author,
+  authorUrl,
+  license,
+  licenseUrl,
+  sourceUrl,
+  year,
+} = Astro.props;
+const showCredit = Boolean(author || license || sourceUrl);
+---
+<figure class="photo">
+  <img src={src} alt={alt} class={imgClass} loading="lazy" decoding="async" />
+  {showCredit && (
+    <figcaption class="img-credit">
+      {author && (
+        <>
+          Foto:&nbsp;
+          {authorUrl ? <a href={authorUrl} rel="noopener" target="_blank">{author}</a> : author}
+          {year && <> ({year})</>}
+        </>
+      )}
+      {(author && license) && ' · '}
+      {license && (
+        licenseUrl
+          ? <a href={licenseUrl} rel="noopener nofollow" target="_blank">{license}</a>
+          : <span>{license}</span>
+      )}
+      {((author || license) && sourceUrl) && ' · '}
+      {sourceUrl && <a href={sourceUrl} rel="noopener" target="_blank">zdroj</a>}
+    </figcaption>
+  )}
+</figure>
+
+<style is:global>
+  .photo {
+    margin: 0 0 1.5rem;
+    /* obrázek dědí třídy img-hero / img-large / atd. — žádný layout zde */
+  }
+  .img-credit {
+    margin: 0.35rem 0 0;
+    font-size: 0.75rem;
+    font-style: italic;
+    color: var(--color-text-muted);
+    text-align: right;
+    letter-spacing: 0.01em;
+    line-height: 1.5;
+  }
+  .img-credit a {
+    color: var(--color-text-soft);
+    border-bottom: 1px dotted color-mix(in srgb, var(--color-text-soft) 40%, transparent);
+    text-decoration: none;
+  }
+  .img-credit a:hover {
+    color: var(--color-brass-bright);
+    border-bottom-color: var(--color-brass);
+  }
+</style>
