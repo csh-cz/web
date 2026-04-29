@@ -106,10 +106,7 @@ const orgJsonLd = isHome ? {
     <header class="site-header sticky top-0 z-20" role="banner">
       <nav class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between gap-4" aria-label="Hlavní navigace">
         <a href="/" class="brand" style="border-bottom: none;" aria-label="Český spolek horologický — domů">
-          <picture>
-            <source srcset="/img/logo-csh.svg" type="image/svg+xml" />
-            <img src="/img/logo-csh.png" alt="" width="36" height="36" />
-          </picture>
+          <span class="brand-logo" aria-hidden="true"></span>
           <span class="hidden sm:inline">Český spolek horologický</span>
           <span class="sm:hidden">ČSH</span>
         </a>
@@ -220,14 +217,20 @@ const orgJsonLd = isHome ? {
     display: flex;
     align-items: center;
     gap: 0.6rem;
-    color: var(--color-brass-bright);
+    color: var(--color-text);
     font-size: 1rem;
     flex-shrink: 0;
   }
-  .brand img {
+  /* Logo skrz CSS mask, aby barva = currentColor (textová barva).
+     SVG má hardcoded fill: #ffffff; mask trick to obarví na barvu textu. */
+  .brand-logo {
     width: 36px;
     height: 36px;
-    object-fit: contain;
+    display: inline-block;
+    flex-shrink: 0;
+    background-color: currentColor;
+    mask: url('/img/logo-csh.svg') no-repeat center / contain;
+    -webkit-mask: url('/img/logo-csh.svg') no-repeat center / contain;
   }
   .nav-sister {
     color: var(--color-copper) !important;
