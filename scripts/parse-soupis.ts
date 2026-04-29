@@ -24,7 +24,8 @@ const TMP_CSV = '/tmp/soupis-parsed.csv';
 const OUT_PATH = join(ROOT, 'apps', 'hodinarium-eu', 'src', 'data', 'soupis-exponatu.json');
 
 interface Exponat {
-  invCislo: number;
+  invCislo: string;     // "1", "2", … nebo "x1", "x2" pro položky bez inv. v xls
+  invCisloNumeric: number | null;  // pro řazení (null pro x-prefix)
   popis: string;
   typ: string;
   vyrobce: string;
@@ -100,6 +101,7 @@ async function main() {
   let currentMistnost = 'hlavni';
   let seenFirstVitrina = false;
   let lastSectionRow = 0;
+  let xCounter = 0;  // průběžné číslování pro položky bez inv. č. v XLS
 
   for (let i = 0; i < rows.length; i++) {
     const r = rows[i];
@@ -145,12 +147,25 @@ async function main() {
     const vztah = (r[8] ?? '').trim();
     const poznamka = (r[11] ?? '').trim();
     const invStr = (r[12] ?? '').trim();
-    const invCislo = parseInt(invStr, 10);
+    const invCisloN = parseInt(invStr, 10);
 
-    if (!isFinite(invCislo) || !popis) continue;
+    if (!popis) continue;
+
+    let invCislo: string;
+    let invCisloNumeric: number | null;
+    if (isFinite(invCisloN)) {
+      invCislo = String(invCisloN);
+      invCisloNumeric = invCisloN;
+    } else {
+      // Položka bez inv. č. v XLS — průběžné x-číslování
+      xCounter++;
+      invCislo = `x${xCounter}`;
+      invCisloNumeric = null;
+    }
 
     exponaty.push({
       invCislo,
+      invCisloNumeric,
       popis,
       typ,
       vyrobce: '',  // XLS nemá explicit "výrobce" — z popisu lze někdy parsnout, prozatím prázdné
@@ -166,17 +181,25 @@ async function main() {
     });
   }
 
-  // Sort by inv. č.
-  exponaty.sort((a, b) => a.invCislo - b.invCislo);
+  // Sort: nejdřív numerické inv. č. vzestupně, pak x-prefix items
+  exponaty.sort((a, b) => {
+    if (a.invCisloNumeric !== null && b.invCisloNumeric !== null) return a.invCisloNumeric - b.invCisloNumeric;
+    if (a.invCisloNumeric !== null) return -1;
+    if (b.invCisloNumeric !== null) return 1;
+    return a.invCislo.localeCompare(b.invCislo);
+  });
 
   await writeFile(OUT_PATH, JSON.stringify(exponaty, null, 2), 'utf-8');
 
   // Report
   const byLokace: Record<string, number> = {};
   for (const e of exponaty) byLokace[e.lokaceHuman] = (byLokace[e.lokaceHuman] ?? 0) + 1;
+  const xItems = exponaty.filter((e) => e.invCisloNumeric === null);
+  const numItems = exponaty.filter((e) => e.invCisloNumeric !== null);
   console.log('=== Parser Soupisu exponátů ===');
-  console.log(`Celkem exponátů: ${exponaty.length}`);
-  console.log(`Max inv. č.:     ${exponaty[exponaty.length - 1]?.invCislo}`);
+  console.log(`Celkem exponátů:        ${exponaty.length}`);
+  console.log(`S inv. č. v XLS:        ${numItems.length} (max ${numItems[numItems.length - 1]?.invCislo})`);
+  console.log(`Bez inv. č. (x-prefix): ${xItems.length}`);
   console.log('Per lokace:');
   for (const [l, n] of Object.entries(byLokace).sort((a, b) => b[1] - a[1])) {
     console.log(`  ${l.padEnd(40)} ${n}`);
