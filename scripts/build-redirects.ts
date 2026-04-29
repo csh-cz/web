@@ -55,6 +55,18 @@ const SPECIAL: Record<string, string> = {
   '/decin_zamek.htm': '/expozice',
 };
 
+/**
+ * Cross-category přesuny článků (po M2 už mají články URL `/<kategorie>/<slug>`,
+ * ale občas se jeden přeřadí — typicky když se článek zařadil do `sbirka` a
+ * pak se zjistilo, že patří spíš do `virtualni-muzeum`).
+ *
+ * Format: `/<stara-kategorie>/<slug>` → `/<nova-kategorie>/<slug>`. Aktuální
+ * kategorie v catalog.json je zdroj pravdy; tady je jen historie přesunů.
+ */
+const CATEGORY_MOVES: Record<string, string> = {
+  '/sbirka/zidovske': '/virtualni-muzeum/zidovske',
+};
+
 /** Načti slugy z content/kronika/ — tyto články byly přesunuty z /clanky/. */
 async function loadKronikaSlugs(): Promise<Set<string>> {
   const { readdirSync } = await import('node:fs');
@@ -115,7 +127,13 @@ async function main() {
     kronikaCount += 1;
   }
 
-  // 3. Fallback
+  // 4. Cross-category přesuny (článek byl přeřazen mezi kategoriemi)
+  lines.push('', '# Cross-category přesuny článků');
+  for (const [src, dst] of Object.entries(CATEGORY_MOVES)) {
+    lines.push(`${src} ${dst} 301`);
+  }
+
+  // 5. Fallback
   lines.push('', '# Fallback — neznámé .htm cesty', '/*.htm /404 404');
 
   const out = lines.join('\n') + '\n';
@@ -125,6 +143,7 @@ async function main() {
   console.log(`Legacy htm pravidel:       ${seen.size}`);
   console.log(`Migrace clanky→kateg.:     ${migratedCount}`);
   console.log(`Migrace clanky→kronika:    ${kronikaCount}`);
+  console.log(`Cross-category přesuny:    ${Object.keys(CATEGORY_MOVES).length}`);
   console.log(`Výstup:                    ${OUT_PATH}`);
   console.log(`Velikost:                  ${out.length} bytů`);
 }

@@ -275,17 +275,6 @@
     "wordCount": 1003
   },
   {
-    "slug": "dernisaz2013",
-    "title": "Dernisáž Věžního muzejíčka 2013",
-    "category": "decin",
-    "thumbnail": "/img/dernisaz2013/clovek_v_zizni.jpg",
-    "excerpt": "Sezóna ve Věžním muzejíčku byla slavnostně ukončena dernisáží pořádanou dne 13. 9. 2013 v restauraci U ČERNÉ KOČKY v Soběslavi. Diskusní podvečer byl současně výjezdním seminářem sdružení. Atmosféru dokreslilo živé vy…",
-    "year": 2013,
-    "lastModified": "2017-04-23T15:22:00.000Z",
-    "imageCount": 18,
-    "wordCount": 253
-  },
-  {
     "slug": "muzeum_furtwangen",
     "title": "Deutsches Uhrenmuseum Furtwangen",
     "category": "muzea",
@@ -451,17 +440,6 @@
     "wordCount": 155
   },
   {
-    "slug": "faust",
-    "title": "Faust děkuje",
-    "category": "sbirka",
-    "thumbnail": "/img/faust/f/foto_0001.jpg",
-    "excerpt": "Sezóna 2013 byla ve Věžním muzejíčku zahájena trochu předčasně. Nestačili jsme ani nainstalovat letošní přírůstky, což jsou zejména dva barokní věžní hodinové sroje a vtrhnul k nám \"Faust\". V sobotu 17. 2. 2013 byl to…",
-    "year": 2013,
-    "lastModified": "2017-04-23T15:21:00.000Z",
-    "imageCount": 15,
-    "wordCount": 1015
-  },
-  {
     "slug": "vezni_muzejicko_evropa",
     "title": "Fenomén věžních \"muzeí\"",
     "category": "muzea",
@@ -526,17 +504,6 @@
     "lastModified": "2017-04-26T14:07:00.000Z",
     "imageCount": 11,
     "wordCount": 1001
-  },
-  {
-    "slug": "sobeslav2b",
-    "title": "Historie věžních hodin v Soběslavi chronologický výpis z archivních dokumentů a hypotézy vzniku",
-    "category": "vezni-hodiny",
-    "thumbnail": null,
-    "excerpt": "chronologický výpis z archivních dokumentů a hypotézy vzniku",
-    "year": 1484,
-    "lastModified": "2017-04-23T15:49:00.000Z",
-    "imageCount": 0,
-    "wordCount": 1943
   },
   {
     "slug": "Arduino",
@@ -1177,28 +1144,6 @@
     "wordCount": 144
   },
   {
-    "slug": "decin_fotobrezen2017",
-    "title": "Návštěva fotografa 10.3. 2017",
-    "category": "decin",
-    "thumbnail": "/img/decin/foto201703/f/foto_0001.jpg",
-    "excerpt": "Hodinárium navštívil fotograf a zachytil nové přírůstky věžních strojů, vznikající expozici elektrických hodin i drobné kolekce hodin slunečních a mechanických digitálek. Z fotografií také bude vytvořena nová propagač…",
-    "year": 2017,
-    "lastModified": "2017-04-22T22:35:00.000Z",
-    "imageCount": 45,
-    "wordCount": 89
-  },
-  {
-    "slug": "decin_fotolistopad2018",
-    "title": "Návštěva fotografa listopad 2018",
-    "category": "decin",
-    "thumbnail": "/img/decin/foto201811/f/foto_0001.jpg",
-    "excerpt": "Hodinárium opět navštívil fotograf pan Marušák a opět bylo co fotit. Nejen mnoho přírůstků z roku 2018, ale i některé starší exponáty v novém pohledu. Proto neváhejte a brzo nás navštivte. Aktuální dění můžete sledova…",
-    "year": 2018,
-    "lastModified": "2018-11-22T13:43:00.000Z",
-    "imageCount": 130,
-    "wordCount": 43
-  },
-  {
     "slug": "decin_bici_stroje",
     "title": "Neobvyklý bicí elektrický stroj BRILLIE",
     "category": "sbirka",
@@ -1219,17 +1164,6 @@
     "lastModified": "2020-05-17T08:27:00.000Z",
     "imageCount": 2,
     "wordCount": 663
-  },
-  {
-    "slug": "nonsens2015",
-    "title": "Nonsens 2015 a víc",
-    "category": "decin",
-    "thumbnail": "/img/nonsens2015/f/foto_0001.jpg",
-    "excerpt": "První sezónu na zámku Děčín otvíráme vedle stálé expozice věžních hodinových strojů Od baroka po současnost také poněkud zvláštní výstavkou Nonsens 2015 a víc. Hlásíme se tak k odkazu mistra Járy da Cimrmana, který se…",
-    "year": 2015,
-    "lastModified": "2021-06-09T18:29:00.000Z",
-    "imageCount": 22,
-    "wordCount": 768
   },
   {
     "slug": "vezni_zikmund1",
@@ -1263,17 +1197,6 @@
     "lastModified": "2017-04-26T13:41:00.000Z",
     "imageCount": 0,
     "wordCount": 48
-  },
-  {
-    "slug": "ohlednuti2011",
-    "title": "Ohlédnutí za rokem 2011",
-    "category": "sbirka",
-    "thumbnail": "/img/aktual/knobloch_kresba.jpg",
-    "excerpt": "V závěru roku bývá zvykem, bilancovat minulé úspěchy a případní prohry. Čas údajně plyne rovnoměrně, ale často i nedávné události jsou již pokryty tlustou vrstvou času. Proto se raději již v prosinci ohlédneme za roke…",
-    "year": 2011,
-    "lastModified": "2017-04-23T15:40:00.000Z",
-    "imageCount": 1,
-    "wordCount": 872
   },
   {
     "slug": "paichl_knihy_hodiny_hodiny_slovnik_slovnik",
@@ -1331,17 +1254,6 @@
     "wordCount": 669
   },
   {
-    "slug": "rozmberk2",
-    "title": "PETR VOK Z ROŽMBERKA – MECENÁŠ A SBĚRATEL",
-    "category": "vezni-hodiny",
-    "thumbnail": null,
-    "excerpt": "Petr Vok z Rožmberka byl opravdu renesančním člověkem, který dokázal ocenit požitky těla i ducha. Zároveň žil na přelomu epoch (renesance a baroka), v době náboženských rozporů a s vědomím, že je posledním představite…",
-    "year": 1585,
-    "lastModified": "2017-04-23T15:46:00.000Z",
-    "imageCount": 0,
-    "wordCount": 622
-  },
-  {
     "slug": "pichacky",
     "title": "Píchačky - kontrolní hodiny - časová razítka",
     "category": "konstrukce",
@@ -1373,17 +1285,6 @@
     "lastModified": "2024-03-04T10:56:00.000Z",
     "imageCount": 3,
     "wordCount": 1401
-  },
-  {
-    "slug": "sobeslav3",
-    "title": "Počátek restaurování soběslavských hodin - inventura nálezu",
-    "category": "vezni-hodiny",
-    "thumbnail": "/img/vezni/sobeslav/torzo1677_m.jpg",
-    "excerpt": "S potěšením mohu konstatovat, že 9.7.2009 proběhla \"inventura\" zachovaných částí hodinového věžního stroje. Inventura dopadla neočekávaně příznivě. Ukázalo se, že \"ta hromada koleček\" vpravo obsahuje téměř kompletní r…",
-    "year": 1677,
-    "lastModified": "2017-04-23T15:51:00.000Z",
-    "imageCount": 13,
-    "wordCount": 341
   },
   {
     "slug": "podebrady3",
@@ -1450,17 +1351,6 @@
     "lastModified": "2021-04-05T11:29:00.000Z",
     "imageCount": 3,
     "wordCount": 784
-  },
-  {
-    "slug": "rozmberk1",
-    "title": "POZVÁNKA PRO PETRA VOKA Z ROŽMBERKA (a ne jen pro něj)",
-    "category": "vezni-hodiny",
-    "thumbnail": null,
-    "excerpt": "V souvislosti s letošním „Rožmberským rokem“, který v roce 2011 probíhá v celých jižních Čechách, nás zajímalo, zda by exponáty Věžního muzejíčka v Soběslavi mohly vzbudit pozornost Petra Voka z Rožmberka.",
-    "year": 1584,
-    "lastModified": "2017-04-23T15:45:00.000Z",
-    "imageCount": 0,
-    "wordCount": 257
   },
   {
     "slug": "pragotron1",
@@ -1639,17 +1529,6 @@
     "wordCount": 112
   },
   {
-    "slug": "sezona2012",
-    "title": "Sezóna 2012",
-    "category": "decin",
-    "thumbnail": "/img/vez/prysk/foto_0001.jpg",
-    "excerpt": "Sezóna 2012 ve Věžním muzejíčku byla ve znamení mnoha novinek. Vedle hlavního exponátu, soběslavského stroje s gotickým základem, jste si mohli prohlédnout rozšířenou hodinářskou i zvonařskou expozici. Restaurovány js…",
-    "year": 2012,
-    "lastModified": "2017-04-23T15:25:00.000Z",
-    "imageCount": 18,
-    "wordCount": 590
-  },
-  {
     "slug": "sitovky",
     "title": "Síťovky",
     "category": "sbirka",
@@ -1703,39 +1582,6 @@
     "lastModified": "2023-03-06T12:18:00.000Z",
     "imageCount": 0,
     "wordCount": 86
-  },
-  {
-    "slug": "sobeslav2",
-    "title": "Soběslavské hodiny z 15. století ??",
-    "category": "vezni-hodiny",
-    "thumbnail": "/img/vezni/sobeslav/torzo1677_m.jpg",
-    "excerpt": "Kapitola z již zmíněné knihy POHLEDY SOBĚSLAVSKÉ Petra Lintnera (vydalo Město Soběslav v roce 2009) Převzato beze změn se souhlasem autora.",
-    "year": 1484,
-    "lastModified": "2017-04-23T15:48:00.000Z",
-    "imageCount": 2,
-    "wordCount": 591
-  },
-  {
-    "slug": "vez1",
-    "title": "Soběslavský věžní hodinový stroj",
-    "category": "vezni-hodiny",
-    "thumbnail": "/img/vez/f/sostroj1.jpg",
-    "excerpt": "Na první pohled na kovaném hodinovém stroji ze soběslavské věže zaujme jeho štíhlá a vysoká stavba rámu zakončeného kovanými hlavicemi ve stylu gotických hřebů. To by mohlo naznačovat gotický původ rámu. Stáří restaur…",
-    "year": null,
-    "lastModified": "2017-04-23T15:48:00.000Z",
-    "imageCount": 11,
-    "wordCount": 822
-  },
-  {
-    "slug": "vez_signatury",
-    "title": "Starý věžní stroj - nalezené signatury",
-    "category": "vezni-hodiny",
-    "thumbnail": null,
-    "excerpt": "Když se jednotlivé součástky hodin ze soběslavské věže začaly vynořovat z čistících lázní, objevily se na nich staré signatury a datace a s nimi vznikly i nové otázky.",
-    "year": 1484,
-    "lastModified": "2017-04-23T15:50:00.000Z",
-    "imageCount": 0,
-    "wordCount": 429
   },
   {
     "slug": "tabor",
@@ -1859,17 +1705,6 @@
     "wordCount": 1007
   },
   {
-    "slug": "steampunk",
-    "title": "TikŤakJinak - steampunkové šperky - hlavní mini výstava sezóny 2012",
-    "category": "sbirka",
-    "thumbnail": "/img/aktual/nyergesova.jpg",
-    "excerpt": "Zajímají nás hodiny v jakékoli podobě, a proto nás zaujalo i využití hodinářsky \"nepotřebných\" součástek, které se stávají základem pro vznik šperků a jiných výtvarných artefaktů. Trochu jsme zapátrali a zjistili jsme…",
-    "year": 2012,
-    "lastModified": "2017-04-23T15:32:00.000Z",
-    "imageCount": 20,
-    "wordCount": 232
-  },
-  {
     "slug": "vodni_B_Gitton",
     "title": "TIME FLOW CLOCK - hodiny protékajícího času",
     "category": "sbirka",
@@ -1912,17 +1747,6 @@
     "lastModified": "2017-04-26T13:50:00.000Z",
     "imageCount": 4,
     "wordCount": 267
-  },
-  {
-    "slug": "decin_toulava_kamera2016",
-    "title": "Toulavá kamera 3.1.2016",
-    "category": "decin",
-    "thumbnail": "/img/decin/toulava_kamera.jpg",
-    "excerpt": "V závěru roku 2015 v Hodináriu natáčela Toulavá kamera. Reportáž byla poprvé odvysílána 3.1. 2016. Prohlédnout si jí můžete v archivu ČT. Klikněta na obrázek.",
-    "year": 2015,
-    "lastModified": "2017-04-22T22:32:00.000Z",
-    "imageCount": 2,
-    "wordCount": 238
   },
   {
     "slug": "decin_regulaceIBM",
@@ -1980,17 +1804,6 @@
     "wordCount": 462
   },
   {
-    "slug": "sobeslav2c",
-    "title": "Věžní hodiny v Soběslavi - od historie k hypotézám",
-    "category": "vezni-hodiny",
-    "thumbnail": null,
-    "excerpt": "V roce 1490 dovezeny nové struny k cimbálům, 1544 pořízen (nový?) cimbál",
-    "year": 1484,
-    "lastModified": "2017-04-23T15:51:00.000Z",
-    "imageCount": 0,
-    "wordCount": 835
-  },
-  {
     "slug": "bychory_restaurovani_napis",
     "title": "Věžní komplet Prokeš 1868 - restaurování nátěru a nápisu",
     "category": "sbirka",
@@ -2013,39 +1826,6 @@
     "wordCount": 498
   },
   {
-    "slug": "sezona2012_foto_marusak",
-    "title": "Věžní muzejíčko Soběslav",
-    "category": "decin",
-    "thumbnail": "/img/aktual/zvony2012.jpg",
-    "excerpt": "Na zadní stěně již visí funkční orloj, vlevo fotografie Pražského orloje od pana Marušáka.",
-    "year": null,
-    "lastModified": "2017-04-23T15:28:00.000Z",
-    "imageCount": 10,
-    "wordCount": 113
-  },
-  {
-    "slug": "vezni_muzejicko",
-    "title": "Věžní muzejíčko Soběslav bylo v roce 2015 zrušeno . Pokračuje jako HODIÁRIUM Děčín.",
-    "category": "vezni-hodiny",
-    "thumbnail": "/img/vez/28_11_2010/foto_010.jpg",
-    "excerpt": "Český spolek horologický nyní buduje Hodinárium na zámku Děčín. Přesun hodinářské expozice byl vyvolán postojem soběslavské radnice. Nová expozice tak sice přišla o nejstarší exponát, získala však mnohem větší prostor…",
-    "year": 1484,
-    "lastModified": "2020-07-18T10:44:00.000Z",
-    "imageCount": 6,
-    "wordCount": 911
-  },
-  {
-    "slug": "vez_provoz2011",
-    "title": "Věžní muzejíčko v Soběslavi v roce 2011",
-    "category": "vezni-hodiny",
-    "thumbnail": null,
-    "excerpt": "Od 2.7. začala první sezóna Věžního muzejíčka. Expozice je tvořena stálými exponáty, kterými jsou především několikery věžních hodiny. Variabilní částí expozice jsou další hodiny všech možných druhů a tematické výstav…",
-    "year": 1484,
-    "lastModified": "2017-04-23T14:24:00.000Z",
-    "imageCount": 0,
-    "wordCount": 614
-  },
-  {
     "slug": "vezni2021",
     "title": "Věžní pérové hodiny se setrvačkou",
     "category": "sbirka",
@@ -2055,17 +1835,6 @@
     "lastModified": "2022-01-20T12:46:00.000Z",
     "imageCount": 33,
     "wordCount": 494
-  },
-  {
-    "slug": "sezona2013",
-    "title": "Věžního muzejíčko Soběslav - sezóna 2013",
-    "category": "decin",
-    "thumbnail": "/img/ujete/cyklo1.jpg",
-    "excerpt": "Sezóna 2013 ve Věžním muzejíčku je opět ve znamení mnoha novinek. Vedle hlavního exponátu, soběslavského stroje s gotickým základem, si můžete prohlédnout rozšířenou hodinářskou i zvonařskou expozici. Restaurovány bud…",
-    "year": 1868,
-    "lastModified": "2017-04-23T14:18:00.000Z",
-    "imageCount": 4,
-    "wordCount": 553
   },
   {
     "slug": "orient",
@@ -2200,28 +1969,6 @@
     "wordCount": 163
   },
   {
-    "slug": "decin_aktual0",
-    "title": "Z Věžního muzejíčka Soběslav do Hodinária v Děčíně",
-    "category": "decin",
-    "thumbnail": "/img/decin0/f/foto_0002.jpg",
-    "excerpt": "Hodinárium vzniklo začátkem roku 2015 přesunem části hodinářské expozice Českého spolku horologického z Věžního muzejíčka Soběslav na Zámek Děčín a postupným doplňováním dalších zapůjčených exponátů. Přesun byl vyvolá…",
-    "year": 2015,
-    "lastModified": "2017-04-23T09:50:00.000Z",
-    "imageCount": 29,
-    "wordCount": 908
-  },
-  {
-    "slug": "vez_instalace1",
-    "title": "Začínáme v roce 2011 1. července - o prázdninách",
-    "category": "vezni-hodiny",
-    "thumbnail": "/img/instalace1/f/foto_001.jpg",
-    "excerpt": "První zkušební otevření bylo 28.10.2010. Od té doby jsme trochu pokročili. Viz sezóna 2011.",
-    "year": 2010,
-    "lastModified": "2017-04-23T15:42:00.000Z",
-    "imageCount": 44,
-    "wordCount": 133
-  },
-  {
     "slug": "decin_zamek",
     "title": "Zámek Děčín",
     "category": "sbirka",
@@ -2345,7 +2092,7 @@
   {
     "slug": "zidovske",
     "title": "Židovské hodiny z roku 1764",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/zidovske/holmstad_2014_cifernik.jpg",
     "excerpt": "Na půdě Židovské radnice, proti Staronové synagoze v Praze, se nacházejí patrně nejstarší známé hebrejské hodiny na veřejném místě, možná dokonce nejstarší hebrejské hodiny vůbec. Není dokonce vyloučeno, že na stejném…",
     "year": 1764,

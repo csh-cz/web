@@ -182,7 +182,7 @@
 /kvetinove.htm /virtualni-muzeum/kvetinove 301
 /kvetinovehodiny_NMnM.htm /virtualni-muzeum/kvetinovehodiny_NMnM 301
 /kvetinovehodiny_Chomutov.htm /virtualni-muzeum/kvetinovehodiny_Chomutov 301
-/zidovske.htm /sbirka/zidovske 301
+/zidovske.htm /virtualni-muzeum/zidovske 301
 /kardasova_recice.htm /virtualni-muzeum/kardasova_recice 301
 /tabor.htm /virtualni-muzeum/tabor 301
 /janovice.htm /virtualni-muzeum/janovice 301
@@ -265,7 +265,6 @@
 /clanky/elektromagneticke_segmenty /projekty/elektromagneticke_segmenty 301
 /clanky/ESV3 /projekty/ESV3 301
 /clanky/edgecombe /konstrukce/edgecombe 301
-/clanky/faust /sbirka/faust 301
 /clanky/vezni_muzejicko_evropa /muzea/vezni_muzejicko_evropa 301
 /clanky/decin_flatbed /sbirka/decin_flatbed 301
 /clanky/flying_pendulum /konstrukce/flying_pendulum 301
@@ -335,7 +334,6 @@
 /clanky/vezni_zikmund1 /sbirka/vezni_zikmund1 301
 /clanky/vodni_odkazy /sbirka/vodni_odkazy 301
 /clanky/kuriozity1 /zajimavosti/kuriozity1 301
-/clanky/ohlednuti2011 /sbirka/ohlednuti2011 301
 /clanky/paichl_knihy_hodiny_hodiny_slovnik_slovnik /zajimavosti/paichl_knihy_hodiny_hodiny_slovnik_slovnik 301
 /clanky/betrisey /virtualni-muzeum/betrisey 301
 /clanky/RickStanley /projekty/RickStanley 301
@@ -382,7 +380,6 @@
 /clanky/svitici /sbirka/svitici 301
 /clanky/svarcvaldky /konstrukce/svarcvaldky 301
 /clanky/svarcvaldky_stroje /konstrukce/svarcvaldky_stroje 301
-/clanky/steampunk /sbirka/steampunk 301
 /clanky/vodni_B_Gitton /sbirka/vodni_B_Gitton 301
 /clanky/Timometer /projekty/Timometer 301
 /clanky/decin_velika_ves /sbirka/decin_velika_ves 301
@@ -418,7 +415,7 @@
 /clanky/zvony_uvod /sbirka/zvony_uvod 301
 /clanky/svarcvaldky_hraci /sbirka/svarcvaldky_hraci 301
 /clanky/prehled_zvonu /sbirka/prehled_zvonu 301
-/clanky/zidovske /sbirka/zidovske 301
+/clanky/zidovske /virtualni-muzeum/zidovske 301
 
 # M4 Kronika: /clanky/<slug> → /kronika/<slug>
 /clanky/decin_aktual0 /kronika/decin_aktual0 301
@@ -444,6 +441,9 @@
 /clanky/vez_provoz2011 /kronika/vez_provoz2011 301
 /clanky/vez_signatury /kronika/vez_signatury 301
 /clanky/vezni_muzejicko /kronika/vezni_muzejicko 301
+
+# Cross-category přesuny článků
+/sbirka/zidovske /virtualni-muzeum/zidovske 301
 
 # Fallback — neznámé .htm cesty
 /*.htm /404 404
