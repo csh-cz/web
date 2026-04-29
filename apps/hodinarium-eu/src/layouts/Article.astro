@@ -22,7 +22,7 @@ interface Reference {
   url?: string;
   author?: string;
   year?: number | string;
-  type?: 'kniha' | 'clanek' | 'pdf' | 'odkaz' | 'wiki';
+  type?: 'kniha' | 'clanek' | 'pdf' | 'odkaz' | 'wiki' | 'mapa';
   note?: string;
 }
 
@@ -408,6 +408,16 @@ const krokyZmineni = slug ? krokyProClanek(slug) : [];
   .references-list li.reference-pdf::before { content: '⤓'; left: 0.3rem; color: var(--color-brass-bright); }
   .references-list li.reference-wiki::before { content: 'W'; left: 0.4rem; color: var(--color-copper); font-style: italic; font-family: var(--font-serif); }
   .references-list li.reference-clanek::before { content: '§'; left: 0.4rem; color: var(--color-copper); font-style: italic; font-family: var(--font-serif); }
+  .references-list li.reference-mapa::before {
+    content: '';
+    left: 0.2rem;
+    top: 0.25em;
+    width: 0.85em;
+    height: 0.85em;
+    background-color: var(--color-copper);
+    mask: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z'/%3E%3C/svg%3E") no-repeat center / contain;
+    -webkit-mask: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z'/%3E%3C/svg%3E") no-repeat center / contain;
+  }
   .references-list a {
     color: var(--color-brass-bright);
   }

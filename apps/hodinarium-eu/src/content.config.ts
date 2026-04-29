@@ -11,7 +11,7 @@ const reference = z.object({
   url: z.string().url().optional(),
   author: z.string().optional(),
   year: z.union([z.number(), z.string()]).optional(),
-  type: z.enum(['kniha', 'clanek', 'pdf', 'odkaz', 'wiki']).optional(),
+  type: z.enum(['kniha', 'clanek', 'pdf', 'odkaz', 'wiki', 'mapa']).optional(),
   note: z.string().optional(),
 });
 
