@@ -7,6 +7,28 @@ const akceProOsu = [...akce].sort((a, b) => a.rok - b.rok);
 
 // Akce s lokací pro mapu
 const akceProMapu = akce.filter((a) => a.lat && a.lon);
+
+// Spočítej unique lokality pro popisek mapy.
+// Klíč 3 desetinnými místy zaokrouhluje různé adresy v rámci jednoho města
+// na jednu lokalitu (~100 m přesnost — pro statistiku na úrovni měst stačí).
+const lokalityMap = new Map<string, { misto: string; pocet: number }>();
+for (const a of akceProMapu) {
+  const klic = `${a.lat!.toFixed(3)},${a.lon!.toFixed(3)}`;
+  const cele = a.misto ?? 'Neznámé místo';
+  // Zkrácený název pro statistiku (před první čárkou / pomlčkou nebo dvojtečkou).
+  const kratke = cele.split(/[,·:(]/)[0].trim();
+  const existing = lokalityMap.get(klic);
+  if (existing) {
+    existing.pocet += 1;
+  } else {
+    lokalityMap.set(klic, { misto: kratke, pocet: 1 });
+  }
+}
+const lokality = Array.from(lokalityMap.values()).sort((a, b) => b.pocet - a.pocet);
+const pocetLokalit = lokality.length;
+// Top 3 lokality podle počtu akcí + "a další" pokud zbytek
+const topMista = lokality.slice(0, 3).map((l) => l.misto).join(', ');
+const dalsiMista = lokality.length > 3 ? `, a&nbsp;další ${lokality.length - 3}` : '';
 ---
 <Base title="Akce a události" description="Akce, výstavy, vernisáže a setkání Českého spolku horologického — minulé i plánované.">
   <header class="akce-header">
@@ -50,7 +72,10 @@ const akceProMapu = akce.filter((a) => a.lat && a.lon);
   <!-- MAPA -->
   <section class="akce-section">
     <h2>Mapa míst konání</h2>
-    <p class="osa-lede">{akceProMapu.length} akcí na 2 lokalitách — Soběslav a Děčín.</p>
+    <p class="osa-lede">
+      {akceProMapu.length} akcí na {pocetLokalit} lokalitách — <Fragment set:html={topMista + dalsiMista} />.
+      Sídlo spolku je v <strong>Soběslavi</strong>, expozice <a href="https://hodinarium-eu.pages.dev/decin">Hodinárium</a> na <strong>Zámku Děčín</strong>.
+    </p>
     <div id="akce-mapa" class="akce-mapa-canvas" role="application" aria-label="Mapa míst konání akcí spolku"></div>
   </section>
 
@@ -122,7 +147,7 @@ const akceProMapu = akce.filter((a) => a.lat && a.lon);
 
 <script define:vars={{ akce: akceProMapu }}>
   // @ts-expect-error Leaflet from CDN
-  const map = L.map('akce-mapa', { zoomControl: true, scrollWheelZoom: false }).setView([50.0, 14.5], 7);
+  const map = L.map('akce-mapa', { zoomControl: true, scrollWheelZoom: false });
 
   // @ts-expect-error
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -138,6 +163,7 @@ const akceProMapu = akce.filter((a) => a.lat && a.lon);
     skupiny[klic].akce.push(a);
   }
 
+  const markery = [];
   for (const sk of Object.values(skupiny)) {
     // @ts-expect-error
     const icon = L.divIcon({
@@ -155,6 +181,17 @@ const akceProMapu = akce.filter((a) => a.lat && a.lon);
       </ul>
     `;
     m.bindPopup(html);
+    markery.push(m);
+  }
+
+  // Auto-fit bounds — pokud máme aspoň 1 marker, ukaž bbox všech akcí
+  // (Rostock na severu, Vídeň/Burgenland na jihu, Karlštejn/Brno uprostřed).
+  if (markery.length > 0) {
+    // @ts-expect-error
+    const group = L.featureGroup(markery);
+    map.fitBounds(group.getBounds(), { padding: [40, 40], maxZoom: 8 });
+  } else {
+    map.setView([50.0, 14.5], 7);
   }
 </script>
 
