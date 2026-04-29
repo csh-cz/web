@@ -1,7 +1,9 @@
 ---
+import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { hodinari } from '../../data/hodinari';
+import { hodinari, hodinariBySlug } from '../../data/hodinari';
 import catalog from '../../data/catalog.json';
+import { clanekHref } from '../../data/url-helpers';
 
 interface CatalogEntry {
   slug: string;
@@ -12,18 +14,38 @@ interface CatalogEntry {
   imageCount: number;
 }
 
+/**
+ * Stránka hodináře kombinuje:
+ *   1. data/hodinari.ts — whitelist s krátkým shrnutím (stub)
+ *   2. content/hodinari/<slug>.mdx — plnohodnotný medailon (volitelný)
+ *
+ * Pokud existuje content collection entry, render dlouhý text.
+ * Jinak fallback stub note.
+ */
 export async function getStaticPaths() {
-  return hodinari.map((h) => ({
-    params: { slug: h.slug },
-    props: { hodinar: h },
-  }));
+  const medailony = await getCollection('hodinari');
+  const medailonySlugs = new Set(medailony.map((m) => m.id));
+
+  return hodinari.map((h) => {
+    const medailon = medailony.find((m) => m.id === h.slug);
+    return {
+      params: { slug: h.slug },
+      props: {
+        hodinar: h,
+        medailon: medailon ?? null,
+        hasFull: medailonySlugs.has(h.slug),
+      },
+    };
+  });
 }
 
-const { hodinar } = Astro.props;
+const { hodinar, medailon, hasFull } = Astro.props;
 const all = catalog as CatalogEntry[];
 const related = hodinar.relatedSlugs
   .map((s) => all.find((e) => e.slug === s))
   .filter((e): e is CatalogEntry => Boolean(e));
+
+const Content = medailon ? (await render(medailon)).Content : null;
 ---
 <Base
   title={`${hodinar.jmeno} — hodinář`}
@@ -61,14 +83,38 @@ const related = hodinar.relatedSlugs
     <div class="prose-content">
       <p class="lead">{hodinar.shrnuti}</p>
 
-      <aside class="hodinar-stub-note">
-        <p>
-          <strong>Životopisný profil je zatím stub.</strong> Připravujeme rozšířený text
-          s archivními prameny, podrobnostmi o dílně a typologii zachovaných strojů.
-          Pokud disponujete dochovanými dokumenty, fotografiemi nebo svědectvími,
-          ozvěte&nbsp;se nám — uvítáme každý další střípek.
-        </p>
-      </aside>
+      {hasFull && Content && (
+        <Content />
+      )}
+
+      {!hasFull && (
+        <aside class="hodinar-stub-note">
+          <p>
+            <strong>Životopisný profil je zatím stub.</strong> Připravujeme rozšířený text
+            s archivními prameny, podrobnostmi o dílně a typologii zachovaných strojů.
+            Pokud disponujete dochovanými dokumenty, fotografiemi nebo svědectvími,
+            ozvěte&nbsp;se nám — uvítáme každý další střípek.
+          </p>
+        </aside>
+      )}
+
+      {medailon?.data.references && medailon.data.references.length > 0 && (
+        <section class="references" aria-labelledby="references-heading">
+          <h2 id="references-heading" class="references-title">Literatura a odkazy</h2>
+          <ul class="references-list">
+            {medailon.data.references.map((r) => (
+              <li class={`reference reference-${r.type ?? 'odkaz'}`}>
+                {r.author && <span class="ref-author">{r.author}:</span>}
+                {r.url
+                  ? <a href={r.url} rel="noopener" target="_blank">{r.title}</a>
+                  : <span class="ref-title">{r.title}</span>}
+                {r.year !== undefined && <span class="ref-year">({r.year})</span>}
+                {r.note && <span class="ref-note"> — {r.note}</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {related.length > 0 && (
         <section>
@@ -76,7 +122,7 @@ const related = hodinar.relatedSlugs
           <ul class="hodinar-related-list">
             {related.map((c) => (
               <li>
-                <a href={`/clanky/${c.slug}`}>
+                <a href={clanekHref(c)}>
                   {c.thumbnail && (
                     <img src={c.thumbnail} alt="" loading="lazy" decoding="async" />
                   )}
@@ -95,7 +141,9 @@ const related = hodinar.relatedSlugs
     <footer class="article-byline">
       <span class="byline-author">Český spolek horologický</span>
       <span class="byline-sep" aria-hidden="true">·</span>
-      <span class="byline-date">Stub profil — připravujeme rozšířený životopis</span>
+      <span class="byline-date">
+        {hasFull ? 'Plnohodnotný profil' : 'Stub profil — připravujeme rozšířený životopis'}
+      </span>
     </footer>
   </article>
 </Base>
@@ -178,6 +226,7 @@ const related = hodinar.relatedSlugs
     line-height: 1.55;
     color: var(--color-text);
     margin-top: 0;
+    font-style: italic;
   }
 
   .hodinar-stub-note {

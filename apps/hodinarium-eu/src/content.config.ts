@@ -90,4 +90,34 @@ const clanky = defineCollection({
   }),
 });
 
-export const collections = { clanky };
+/**
+ * Plnohodnotné medailony hodinářů (delší životopisy s archivními prameny,
+ * fotkami, odkazy). Pro každého hodináře, který má v data/hodinari.ts
+ * stub, lze vytvořit content/hodinari/<slug>.mdx — page potom rendruje
+ * dlouhý text místo stubu.
+ *
+ * Auto-detect zmínek hodináře v článcích zatím přes manuální relatedSlugs
+ * v data/hodinari.ts; v M3.b doplníme regex skenování těla článků.
+ */
+const hodinariMedailony = defineCollection({
+  loader: glob({
+    base: '../../content/hodinari',
+    pattern: '**/*.{md,mdx}',
+  }),
+  schema: z.object({
+    title: z.string(),
+    slug: z.string(),
+    typ: z.enum(['osoba', 'firma']),
+    obdobi: z.string().optional(),
+    mesto: z.string().optional(),
+    zeme: z.string().default('CZ'),
+    aliasy: z.array(z.string()).optional(),
+    shrnuti: z.string(),
+    portret: z.string().optional(),
+    portretCredit: z.string().optional(),
+    portretSource: z.string().url().optional(),
+    references: z.array(reference).optional(),
+  }),
+});
+
+export const collections = { clanky, hodinari: hodinariMedailony };
