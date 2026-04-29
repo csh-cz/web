@@ -1210,36 +1210,6 @@
     "folder": "Další zajímavé hodiny"
   },
   {
-    "name": "Výlet Kassel",
-    "description": "",
-    "descriptionHtml": "",
-    "coords": {
-      "lng": 14.43497,
-      "lat": 50.08331
-    },
-    "folder": "Výlet Kassel"
-  },
-  {
-    "name": "Praha hl.n., Wilsonova, Vinohrady",
-    "description": "",
-    "descriptionHtml": "",
-    "coords": {
-      "lng": 14.4349666,
-      "lat": 50.0833082
-    },
-    "folder": "Výlet Kassel"
-  },
-  {
-    "name": "Uhrenmuseum, Zwickauer Str. 164",
-    "description": "",
-    "descriptionHtml": "",
-    "coords": {
-      "lng": 12.8881667,
-      "lat": 50.8217366
-    },
-    "folder": "Výlet Kassel"
-  },
-  {
     "name": "Astronomisch-physikalisches Kabinett",
     "description": "",
     "descriptionHtml": "",
@@ -1247,37 +1217,7 @@
       "lng": 9.4771242,
       "lat": 51.3182573
     },
-    "folder": "Výlet Kassel"
-  },
-  {
-    "name": "St.-Paulus-Dom, Münster",
-    "description": "",
-    "descriptionHtml": "",
-    "coords": {
-      "lng": 7.6267588,
-      "lat": 51.963219
-    },
-    "folder": "Výlet Kassel"
-  },
-  {
-    "name": "Pfarrkirche Sankt Marien, Stendal",
-    "description": "",
-    "descriptionHtml": "",
-    "coords": {
-      "lng": 11.8599804,
-      "lat": 52.605625
-    },
-    "folder": "Výlet Kassel"
-  },
-  {
-    "name": "Praha hl.n., Wilsonova, Vinohrady",
-    "description": "",
-    "descriptionHtml": "",
-    "coords": {
-      "lng": 14.4349666,
-      "lat": 50.0833082
-    },
-    "folder": "Výlet Kassel"
+    "folder": "Muzea"
   },
   {
     "name": "Konference a výlet Rostock",

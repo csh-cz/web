@@ -47,6 +47,22 @@ function htmlToText(html: string): string {
     .trim();
 }
 
+/**
+ * Filtr / remap pravidla per folder. Aplikuje se při parsování — nech raw
+ * KML beze změny, ale výsledný JSON už obsahuje jen relevantní data.
+ *
+ * keep:     pokud existuje, zachová JEN položky, jejichž name je v listu
+ * remapTo:  zachované položky se přesunou do jiného folderu
+ * skip:     true → celý folder vyhodit
+ */
+const FOLDER_FILTERS: Record<string, { keep?: string[]; remapTo?: string; skip?: boolean }> = {
+  'Výlet Kassel': {
+    // Zrušený výlet — z položek zachovat jen muzeum
+    keep: ['Astronomisch-physikalisches Kabinett'],
+    remapTo: 'Muzea',
+  },
+};
+
 async function main() {
   const xml = await readFile(KML_PATH, 'utf-8');
 
@@ -68,12 +84,17 @@ async function main() {
       const coordsStr = (pmBlock.match(/<coordinates>([\s\S]*?)<\/coordinates>/)?.[1] ?? '').trim();
       const [lng, lat] = coordsStr.split(',').map((n) => parseFloat(n));
       if (!isFinite(lng) || !isFinite(lat)) continue;
+      // Aplikuj per-folder filter
+      const filter = FOLDER_FILTERS[folderName];
+      if (filter?.skip) continue;
+      if (filter?.keep && !filter.keep.includes(name)) continue;
+      const finalFolder = filter?.remapTo ?? folderName;
       placemarks.push({
         name,
         description,
         descriptionHtml: descHtml,
         coords: { lng, lat },
-        folder: folderName,
+        folder: finalFolder,
       });
     }
   }
