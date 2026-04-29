@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import gmapsData from '../data/gmaps-horologie.json';
+import gmapsExtra from '../data/gmaps-horologie-extra.json';
 import catalog from '../data/catalog.json';
 
 interface Placemark {
@@ -16,7 +17,9 @@ interface CatalogEntry {
   category: string;
 }
 
-const items = gmapsData as Placemark[];
+// Merge KML import + ručně doplněné položky (extra). Extra soubor přežije
+// re-import KML přes pnpm gmaps:parse.
+const items = [...(gmapsData as Placemark[]), ...(gmapsExtra as Placemark[])];
 
 // Group per folder for filter UI + per-folder lists
 const folderOrder = [

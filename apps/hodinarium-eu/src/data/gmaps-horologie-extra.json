@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Astronomický orloj Porta Oscura — Trapani",
+    "description": "Astronomické hodiny ze 16. století umístěné nad středověkou městskou bránou Porta Oscura v centru Trapani na Sicílii. Jeden z nejstarších dochovaných astronomických orlojů v jižní Itálii; součást historické městské fortifikace.",
+    "descriptionHtml": "<p>Astronomické hodiny ze <strong>16. století</strong> umístěné nad středověkou městskou bránou <em>Porta Oscura</em> v centru Trapani na Sicílii.</p><p>Jeden z nejstarších dochovaných astronomických orlojů v jižní Itálii; součást historické městské fortifikace.</p>",
+    "coords": { "lng": 12.5119, "lat": 38.0163 },
+    "folder": "Orloje a astronomické hodiny"
+  },
+  {
+    "name": "Astronomický orloj Duomo di Messina",
+    "description": "Astronomický orloj na zvonici Messinské katedrály na Sicílii. Objednán 1933 arcibiskupem Angelo Painem od strasbourgské firmy Ungerer; uvádí se jako největší a nejsložitější mechanicko-astronomické hodiny na světě. Věž vysoká přes 65 m. Denně v poledne probíhá pohyblivá show s figurami (lev, kohout, náboženské scény).",
+    "descriptionHtml": "<p>Astronomický orloj na zvonici <strong>Messinské katedrály</strong> na Sicílii.</p><p>Objednán <strong>1933</strong> arcibiskupem Angelo Painem od strasbourgské firmy <em>Ungerer</em>; uvádí se jako <em>největší a nejsložitější mechanicko-astronomické hodiny na světě</em>. Věž vysoká přes 65 m.</p><p>Denně v poledne probíhá pohyblivá show s figurami (lev, kohout, náboženské scény).</p>",
+    "coords": { "lng": 15.55528, "lat": 38.19222 },
+    "folder": "Orloje a astronomické hodiny"
+  }
+]
