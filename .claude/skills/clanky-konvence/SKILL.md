@@ -73,6 +73,20 @@ manualEdit: true                # OPT — flag že článek byl ručně editová
 
 **Mobile (≤600px):** vše standalone — float vypnutý vždy.
 
+### Sofistikovanější float — multi-paragraph + line-height snap
+
+`[slug].astro` skript (krok 1.6) dělá dvě věci pro lepší typografický pocit:
+
+1. **Multi-paragraph float**: `.prose-content p` nemá `overflow: hidden`, takže float pokračuje přes několik odstavců, dokud nenarazí na `clear: both` (h2/h3/hr/.fleuron). Vysoký obrázek tak může obtékat 2–3 paragrafy místo zaseknutí v jednom.
+
+2. **Line-height snap**: po načtení obrázku JS změří jeho rendered výšku, vypočte nejbližší celočíselný násobek `line-height` paragrafu, a mírně resize (max ±20%, jinak skip). Tím obrázek **lícuje s textovým gridem** — žádný poloviční řádek nad/pod. Snap funguje jen na float images (small/medium/tall), nikoli na hero/standalone/Photo.
+
+**Pokud autor chce explicitně ukončit float**, vloží `<div class="clearfix"></div>` před paragraf, který má začínat na novém řádku (přes celou šířku).
+
+### Photo komponenta a float
+
+Photo komponenta (`<figure class="photo">`) je z float vyloučena — credit caption pod obrázkem se s obtékaným textem špatně snáší (caption by „plula" neviditelně). Pokud chceš obrázek **s creditem v textu floatovaný**, použij místo Photo prostý markdown `![alt](src)` plus credit doplň ručně do paragrafu nebo do references s `type: odkaz`.
+
 ## 4. Photo komponenta — preferovaný způsob
 
 Cesta: `apps/hodinarium-eu/src/components/Photo.astro`.
@@ -198,9 +212,10 @@ Hromadná migrace 200+ legacy `.md` → MDX a strukturní pravidla = velký job.
 
 ## 16. Odkazy užitečné pro práci s repem
 
-- Skript `scripts/build-image-index.ts` — regeneruje `image-sizes.json` po přidání obrázku do public/img/
-- Skript `scripts/build-favicon.ts` (`pnpm favicon:build`) — favicon a homescreen ikony z logo-csh.svg
-- `scripts/build-catalog.ts` — generuje `catalog.json` (excerpt, wordCount, year, …)
+- `pnpm imgindex:build` (`scripts/build-image-index.ts`) — regeneruje `image-sizes.json` po přidání obrázku do public/img/
+- `pnpm catalog:hodinarium` (`scripts/build-catalog.ts`) — generuje `catalog.json` (excerpt, wordCount, year, …); excerpt strip-uje MDX importy + JSX bloky (Photo, ZidovskeHodiny, …) → tldr-auto v Article.astro nedostane import statement jako perex
+- `pnpm favicon:build` (`scripts/build-favicon.ts`) — favicon + homescreen ikony z logo-csh.svg
+- `python3 scripts/devignette.py file1 file2 …` — inverse-vignette correction pro legacy fotky s ztemnělými rohy. Args: `--strength N` (default 0.4 = +40% jas v rozích), `--in-place` (přepíše vstup; jinak `*_devign.jpg`). Algoritmus: pro každý pixel norm. distance od středu × strength → multiply jas
 - Skript pro hromadný cleanup HRs — viz Python inline v conversation history (frontmatter-aware HR collapse)
 
 ## 17. Reference style (bullet vs numbered)
