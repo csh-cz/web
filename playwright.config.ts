@@ -28,6 +28,10 @@ export default defineConfig({
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
+    /* Default theme tmavá — odpovídá CSS :root (default = dark, light je
+       pod @media prefers-color-scheme: light). Bez tohoto Chromium v CI
+       dostane light theme a barevné testy nav-contrast padnou. */
+    colorScheme: 'dark',
   },
   projects: [
     {
