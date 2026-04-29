@@ -73,8 +73,8 @@
     "excerpt": "Hodiny Staiger (vyrobené přibližně po roce 1970) jsou řízeny čtyřmi Quartz strojky a mají tři samostatné ciferníky. Ciferník pásmových hodin, ciferník Slunce a ciferník Měsíce ovládaný dvěma strojky.",
     "year": 1970,
     "lastModified": "2020-05-10T07:23:00.000Z",
-    "imageCount": 1,
-    "wordCount": 616
+    "imageCount": 3,
+    "wordCount": 607
   },
   {
     "slug": "astro2_NTP",
@@ -85,7 +85,7 @@
     "year": 2018,
     "lastModified": "2025-10-05T18:07:00.000Z",
     "imageCount": 2,
-    "wordCount": 524
+    "wordCount": 523
   },
   {
     "slug": "astronomicke_Sauter",
@@ -719,11 +719,11 @@
     "title": "Hodiny v kostele sv. Josefa v Janovicích",
     "category": "virtualni-muzeum",
     "thumbnail": "/img/vezni/janovice/janovice.jpg",
-    "excerpt": "Převzato z webu anatomie-varhan.cz Za souhlas děkujeme.",
+    "excerpt": "Kostel sv. Josefa v Janovicích u Frýdku - Místku (od roku 2000 národní kulturní památka) v sobě skrývá mnoho pozoruhodností. Zajímavý je i jeho \"technický\" inventář. S varhanami se můžete velmi podrobně seznámit v sek…",
     "year": 1899,
     "lastModified": "2017-04-26T16:20:00.000Z",
     "imageCount": 15,
-    "wordCount": 1577
+    "wordCount": 1582
   },
   {
     "slug": "kulicky",
@@ -812,6 +812,17 @@
     "lastModified": "2022-05-12T22:56:00.000Z",
     "imageCount": 0,
     "wordCount": 697
+  },
+  {
+    "slug": "muzeum_jindrisska_vez",
+    "title": "Jindřišská věž — Praha",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Patrně nejnákladnější přestavba věže v České republice. Do 400 let staré gotické zvonice byla vestavěna nová ocelová konstrukce s výtahem — „věž ve věži\". V deseti patrech najdete recepci, whisky bar a kavárnu, 3 patr…",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 64
   },
   {
     "slug": "kardasova_recice",
@@ -905,7 +916,7 @@
     "slug": "kralovstvi-casu",
     "title": "Království času — Protivín",
     "category": "muzea",
-    "thumbnail": "/img/expozice/kralovstvi-casu/01-vstup.jpg",
+    "thumbnail": "/img/expozice/kralovstvi-casu/02-expozice.jpg",
     "excerpt": "Království času v Protivíně je soukromá hodinářská expozice v nádherných prostorách secesní vily z roku 1907. Ve sbírce je více než 1200 exponátů ze světa hodin a hodinek.",
     "year": 1907,
     "lastModified": "2026-04-28T09:00:00.000Z",
@@ -932,7 +943,7 @@
     "year": 1932,
     "lastModified": "2017-04-26T16:14:00.000Z",
     "imageCount": 2,
-    "wordCount": 320
+    "wordCount": 311
   },
   {
     "slug": "kvetinovehodiny_NMnM",
@@ -1131,6 +1142,28 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 39
+  },
+  {
+    "slug": "muzeum_waldmunchen",
+    "title": "Muzeum hodin ve věži kostela sv. Štěpána — Waldmünchen",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Malé věžní muzeum v gotické (později baroknì přestavěné) věži kostela sv. Štěpána ve Waldmünchenu (Bavorsko, ~7000 obyvatel). Vzdáleno pouze 16 km od Klenčí pod Čerchovem; od hraničního přechodu Lísková cca 6 km pěšky.",
+    "year": 1600,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 93
+  },
+  {
+    "slug": "muzeum_gdansk_zegarow_wiezowych",
+    "title": "Muzeum Zegarów Wieżowych — Gdaňsk",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Specializované muzeum věžních hodin sídlící ve věži kostela sv. Kateřiny v Gdaňsku. Pobočka Historického muzea v Gdaňsku — uvádí se jako jediné specializované muzeum věžních hodin v Polsku. Založeno 1996.",
+    "year": 1996,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 131
   },
   {
     "slug": "mystery",
@@ -1441,6 +1474,17 @@
     "wordCount": 425
   },
   {
+    "slug": "muzeum_radnicni_vez_prostejov",
+    "title": "Radniční věž s orlojem — Prostějov",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Secesní věž radnice v Prostějově prošla v letech 2011 razantní přestavbou financovanou z Regionálního operačního programu Střední Morava (cca 6 mil. Kč). Cílem bylo zpřístupnit věž, posílit cestovní ruch a prezentovat…",
+    "year": 2011,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 80
+  },
+  {
     "slug": "muzeum_royal_observatory",
     "title": "Royal Observatory Greenwich",
     "category": "muzea",
@@ -1705,6 +1749,17 @@
     "wordCount": 1007
   },
   {
+    "slug": "muzeum_chemnitz",
+    "title": "Technisches Uhrenmuseum Chemnitz",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Privátní muzeum se zaměřením podobným našemu Hodináriu. Spolek byl založen v roce 2010, sídlí na adrese Zwickauer Straße 164a, Chemnitz. Otevřeno po telefonické dohodě.",
+    "year": 2010,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 69
+  },
+  {
     "slug": "vodni_B_Gitton",
     "title": "TIME FLOW CLOCK - hodiny protékajícího času",
     "category": "sbirka",
@@ -1758,6 +1813,28 @@
     "lastModified": "2022-06-10T22:30:00.000Z",
     "imageCount": 6,
     "wordCount": 1081
+  },
+  {
+    "slug": "muzeum_pillichsdorf",
+    "title": "Turmmuseum Pillichsdorf",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Malé věžní muzeum v 500 let staré věži farního kostela sv. Martina v Pillichsdorfu (Dolní Rakousko, region Weinviertel). Založeno v roce 1984, od roku 1987 rozšířeno o druhé podlaží věže.",
+    "year": 1762,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 97
+  },
+  {
+    "slug": "muzeum_aschau_burgenland",
+    "title": "Uhrenstube Aschau — Aschau im Burgenland",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Privátní sbírka převážně věžních hodin v rakouském Burgenlandu (adresa Aschau 49, Oberschützen, PSČ 7432). Shromáždil a muzeum provozuje Ing. Wolfgang Komzak.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 73
   },
   {
     "slug": "ukazatele",
@@ -1852,7 +1929,7 @@
     "title": "Virtuální prohlídka muzea v Mindelheimu",
     "category": "muzea",
     "thumbnail": "/img/Mindelheim/f/foto_0001.jpg",
-    "excerpt": "Muzeum věžních hodin Mindelheim Kurátor a majitel sbírá věžní hodiny už 33 let. Pokud na ně má, tak si je koupí sám a pokud jsou drahé zaplatí to město. Město také hradí i provoz. Prakticky každý z 50 strojů je v chod…",
+    "excerpt": "Muzeum věžních hodin Mindelheim — kurátor a majitel sbírá věžní hodiny už 33 let. Pokud na ně má, tak si je koupí sám, a pokud jsou drahé, zaplatí to město. Město také hradí i provoz. Prakticky každý z 50 strojů je v …",
     "year": null,
     "lastModified": "2017-04-23T14:14:00.000Z",
     "imageCount": 35,
@@ -1868,6 +1945,17 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 42
+  },
+  {
+    "slug": "muzeum_tyniste_n_orlici",
+    "title": "Vodárenská věž — Týniště nad Orlicí",
+    "category": "muzea",
+    "thumbnail": null,
+    "excerpt": "Skromnější, ale charakterní projekt Spolku přátel města Týniště nad Orlicí. Spolek od roku 2010 dlouhodobě užívá místní vodárenskou věž (památka místního významu). První expozice věnovaná vodárenské věži a zásobování …",
+    "year": 2010,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 77
   },
   {
     "slug": "vodni_budik",
@@ -1983,12 +2071,12 @@
     "slug": "kvetinovehodiny_Chomutov",
     "title": "Zaniklé květinové hodiny v Chomutově",
     "category": "virtualni-muzeum",
-    "thumbnail": "/img/Chomutov/f/foto_0001.jpg",
+    "thumbnail": "/img/Chomutov/f/foto_0002.jpg",
     "excerpt": "Chomutovské květinové hodiny stály u vchodu do tehdejšího městského parku, který dnes nese název sady Čs. armády. Byly umístěny nalevo od evangelického kostela, který byl v roce 1972 zbořen a na jehož místě nyní stojí…",
     "year": 1920,
     "lastModified": "2020-03-14T12:03:00.000Z",
     "imageCount": 5,
-    "wordCount": 404
+    "wordCount": 387
   },
   {
     "slug": "zapekane",
@@ -2098,6 +2186,6 @@
     "year": 1764,
     "lastModified": "2020-11-24T02:06:00.000Z",
     "imageCount": 0,
-    "wordCount": 1289
+    "wordCount": 1285
   }
 ]
