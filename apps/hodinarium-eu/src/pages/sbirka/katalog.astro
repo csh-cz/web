@@ -3,7 +3,8 @@ import Base from '../../layouts/Base.astro';
 import soupis from '../../data/soupis-exponatu.json';
 
 interface Exponat {
-  invCislo: number;
+  invCislo: string;
+  invCisloNumeric: number | null;
   popis: string;
   typ: string;
   rok: string;
@@ -17,7 +18,7 @@ interface Exponat {
   mistnost: string;
 }
 
-const items = soupis as Exponat[];
+const items = soupis as unknown as Exponat[];
 
 // Group by lokace, preserve order
 const lokaceOrder = [
@@ -34,7 +35,14 @@ for (const it of items) {
   if (!byLokace.has(it.lokace)) byLokace.set(it.lokace, []);
   byLokace.get(it.lokace)!.push(it);
 }
-for (const list of byLokace.values()) list.sort((a, b) => a.invCislo - b.invCislo);
+for (const list of byLokace.values()) {
+  list.sort((a, b) => {
+    if (a.invCisloNumeric !== null && b.invCisloNumeric !== null) return a.invCisloNumeric - b.invCisloNumeric;
+    if (a.invCisloNumeric !== null) return -1;
+    if (b.invCisloNumeric !== null) return 1;
+    return a.invCislo.localeCompare(b.invCislo);
+  });
+}
 
 const lokaceLabels: Record<string, string> = {
   'hlavni-sal': 'Hlavní sál',
@@ -55,7 +63,7 @@ const lokaceLabels: Record<string, string> = {
 };
 
 const total = items.length;
-const maxInv = Math.max(...items.map((i) => i.invCislo));
+const maxInv = Math.max(...items.map((i) => i.invCisloNumeric ?? 0));
 ---
 <Base
   title="Katalog sbírkových předmětů"

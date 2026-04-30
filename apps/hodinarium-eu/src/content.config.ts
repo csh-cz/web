@@ -86,7 +86,24 @@ const clanky = defineCollection({
      */
     karta: z
       .object({
+        // Identifikace exponátu
+        inventarniCislo: z.string().optional(),
+        datace: z.string().optional(),
         vyrobce: z.string().optional(),
+        signatura: z.string().optional(),
+        provenience: z.string().optional(),
+        // Původní umístění před zařazením do sbírky (např. kostelní věž
+        // odkud byl stroj vyzdvižen). Strukturované: objekt + typ + obec
+        // + detail. Všechna pole optional — vyplní se co je k dispozici.
+        puvodniUmisteni: z
+          .object({
+            objekt: z.string().optional(),     // "kostel sv. Jakuba"
+            typObjektu: z.string().optional(), // "kostel" / "radnice" / "továrna"
+            obec: z.string().optional(),       // "Kutná Hora"
+            detail: z.string().optional(),     // "věž – jižní strana"
+          })
+          .optional(),
+        // Konstrukce
         ram: z.string().optional(),
         krokJicihoStroje: z.string().optional(),
         biciStroje: z.string().optional(),
@@ -94,9 +111,12 @@ const clanky = defineCollection({
         kyvadlo: z.string().optional(),
         ciselnik: z.string().optional(),
         pohon: z.string().optional(),
-        signatura: z.string().optional(),
+        // Spolková evidence
+        umisteni: z.string().optional(),
+        majitel: z.string().optional(),
+        vztahKeSbirce: z.string().optional(),
         stav: z.string().optional(),
-        provenience: z.string().optional(),
+        // Cokoli ostatní
         extra: z
           .array(z.object({ label: z.string(), value: z.string() }))
           .optional(),

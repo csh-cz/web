@@ -32,8 +32,21 @@ interface KartaExtra {
   label: string;
   value: string;
 }
+interface PuvodniUmisteni {
+  objekt?: string;
+  typObjektu?: string;
+  obec?: string;
+  detail?: string;
+}
 interface Karta {
+  // Identifikace
+  inventarniCislo?: string;
+  datace?: string;
   vyrobce?: string;
+  signatura?: string;
+  provenience?: string;
+  puvodniUmisteni?: PuvodniUmisteni;
+  // Konstrukce
   ram?: string;
   krokJicihoStroje?: string;
   biciStroje?: string;
@@ -41,9 +54,12 @@ interface Karta {
   kyvadlo?: string;
   ciselnik?: string;
   pohon?: string;
-  signatura?: string;
+  // Spolková evidence
+  umisteni?: string;
+  majitel?: string;
+  vztahKeSbirce?: string;
   stav?: string;
-  provenience?: string;
+  // Ostatní
   extra?: KartaExtra[];
 }
 interface Props {
@@ -52,8 +68,16 @@ interface Props {
 const { karta } = Astro.props;
 
 // Pevné pořadí standardních polí. Label vlevo, hodnota vpravo.
+// Logické skupiny: identifikace → konstrukce → spolková evidence.
+// puvodniUmisteni (nested) se renderuje na svém místě jako spojený text.
 const standardFields: Array<{ key: keyof Karta; label: string }> = [
+  // Identifikace
+  { key: 'inventarniCislo', label: 'Inventární číslo' },
+  { key: 'datace', label: 'Datace' },
   { key: 'vyrobce', label: 'Výrobce' },
+  { key: 'signatura', label: 'Signatura' },
+  { key: 'provenience', label: 'Provenience' },
+  // Konstrukce
   { key: 'ram', label: 'Rám stroje' },
   { key: 'krokJicihoStroje', label: 'Krok jdoucího stroje' },
   { key: 'biciStroje', label: 'Bicí stroje' },
@@ -61,10 +85,36 @@ const standardFields: Array<{ key: keyof Karta; label: string }> = [
   { key: 'kyvadlo', label: 'Kyvadlo' },
   { key: 'ciselnik', label: 'Ciferník' },
   { key: 'pohon', label: 'Pohon' },
-  { key: 'signatura', label: 'Signatura' },
+  // Spolková evidence
+  { key: 'umisteni', label: 'Umístění' },
+  { key: 'majitel', label: 'Majitel' },
+  { key: 'vztahKeSbirce', label: 'Vztah ke sbírce' },
   { key: 'stav', label: 'Stav' },
-  { key: 'provenience', label: 'Provenience' },
 ];
+
+/**
+ * Sestaví human-readable text z puvodniUmisteni nested objektu.
+ * Příklad: { objekt: "kostel sv. Jakuba", typObjektu: "kostel",
+ *           obec: "Kutná Hora", detail: "věž – jižní strana" }
+ *   → "kostel sv. Jakuba, Kutná Hora — věž – jižní strana"
+ *
+ * Strategie: objekt + obec čárkou, detail po pomlčce. typObjektu se
+ * běžně nezobrazuje (je redundantní k objektu), ale použije se jako
+ * fallback když objekt chybí.
+ */
+function formatPuvodniUmisteni(p: PuvodniUmisteni): string {
+  const main = p.objekt || p.typObjektu;
+  const parts: string[] = [];
+  if (main) parts.push(main);
+  if (p.obec) parts.push(p.obec);
+  let result = parts.join(', ');
+  if (p.detail) result = result ? `${result} — ${p.detail}` : p.detail;
+  return result;
+}
+
+const puvodniUmisteniText = karta.puvodniUmisteni
+  ? formatPuvodniUmisteni(karta.puvodniUmisteni)
+  : '';
 
 const items: Array<{ label: string; value: string }> = [
   ...standardFields
@@ -73,6 +123,7 @@ const items: Array<{ label: string; value: string }> = [
       return typeof v === 'string' && v.trim().length > 0;
     })
     .map(({ key, label }) => ({ label, value: karta[key] as string })),
+  ...(puvodniUmisteniText ? [{ label: 'Původní umístění', value: puvodniUmisteniText }] : []),
   ...(karta.extra ?? []).filter((e) => e.value && e.value.trim().length > 0),
 ];
 ---

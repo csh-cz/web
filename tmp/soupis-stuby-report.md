@@ -9,33 +9,6 @@ Položek bez konfliktů (ke generaci): **255** (přibližně)
 
 Tyhle musí editor přidat do `apps/hodinarium-eu/src/data/tags.json` před `--apply`:
 
-- `achrer`
-- `bassler`
-- `beitel`
-- `datumatic`
-- `hainz`
-- `hiemann`
-- `hipp`
-- `jednotny-cas`
-- `junghans`
-- `kienzle`
-- `kohlert`
-- `krecmer`
-- `krok-amant`
-- `krok-benoit-robert`
-- `krok-clement`
-- `krok-graham`
-- `krok-hipp`
-- `krok-kotva`
-- `krok-lihyr`
-- `krok-vreteno`
-- `krok-winnerl`
-- `liebing`
-- `michael-christ`
-- `paul-zieux`
-- `rochlitz`
-- `thondel`
-- `wagner`
 
 ## Položky s pravděpodobnými konflikty (existující karty)
 
@@ -88,22 +61,24 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.697Z"
+scrapedAt: "2026-04-30T03:03:17.098Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - funkcni
+  - krok-graham
+  - hiemann
 karta:
+  inventarniCislo: "1"
+  umisteni: "Hlavní sál"
   datace: "2010"
-  poznamka: "kostel Podmokly"
+  majitel: "Baudisch"
+  vztahKeSbirce: "zápůjčka"
+  stav: "funkční"
   extra:
-    - {"label":"Inventární číslo","value":"1"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Baudisch"}
-    - {"label":"Vztah ke sbírce","value":"zápůjčka"}
-    - {"label":"Stav","value":"funkční"}
+    - {"label":"Poznámka","value":"kostel Podmokly"}
 ---
 ```
 
@@ -119,23 +94,24 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.698Z"
+scrapedAt: "2026-04-30T03:03:17.099Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - funkcni
+  - krok-benoit-robert
   - prokes
 karta:
+  inventarniCislo: "2"
+  umisteni: "Hlavní sál"
   datace: "2010"
-  poznamka: "Býchory"
+  majitel: "Knespl + Král"
+  vztahKeSbirce: "zápůjčka"
+  stav: "funkční"
   extra:
-    - {"label":"Inventární číslo","value":"2"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Knespl + Král"}
-    - {"label":"Vztah ke sbírce","value":"zápůjčka"}
-    - {"label":"Stav","value":"funkční"}
+    - {"label":"Poznámka","value":"Býchory"}
 ---
 ```
 
@@ -151,20 +127,19 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.698Z"
+scrapedAt: "2026-04-30T03:03:17.099Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - funkcni
 karta:
+  inventarniCislo: "3"
+  umisteni: "Hlavní sál"
   datace: "2011"
-  extra:
-    - {"label":"Inventární číslo","value":"3"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Král"}
-    - {"label":"Vztah ke sbírce","value":"zápůjčka"}
-    - {"label":"Stav","value":"funkční"}
+  majitel: "Král"
+  vztahKeSbirce: "zápůjčka"
+  stav: "funkční"
 ---
 ```
 
@@ -181,21 +156,21 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.698Z"
+scrapedAt: "2026-04-30T03:03:17.100Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - nefunkcni
+  - krok-vreteno
 karta:
+  inventarniCislo: "4"
+  umisteni: "Hlavní sál"
   datace: "2011"
-  extra:
-    - {"label":"Inventární číslo","value":"4"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Klikar"}
-    - {"label":"Vztah ke sbírce","value":"zápůjčka"}
-    - {"label":"Stav","value":"nefunkční"}
+  majitel: "Klikar"
+  vztahKeSbirce: "zápůjčka"
+  stav: "nefunkční"
 ---
 ```
 
@@ -211,21 +186,21 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.698Z"
+scrapedAt: "2026-04-30T03:03:17.100Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - nefunkcni
+  - krok-vreteno
 karta:
+  inventarniCislo: "5"
+  umisteni: "Hlavní sál"
   datace: "2011"
-  extra:
-    - {"label":"Inventární číslo","value":"5"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Budislav"}
-    - {"label":"Vztah ke sbírce","value":"zápůjčka"}
-    - {"label":"Stav","value":"nefunkční"}
+  majitel: "Budislav"
+  vztahKeSbirce: "zápůjčka"
+  stav: "nefunkční"
 ---
 ```
 
@@ -241,22 +216,24 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.698Z"
+scrapedAt: "2026-04-30T03:03:17.100Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - funkcni
+  - krok-clement
+  - michael-christ
 karta:
+  inventarniCislo: "6"
+  umisteni: "Hlavní sál"
   datace: "2012"
-  poznamka: "kostel Horní Prysk"
+  majitel: "Biskupství litoměřické"
+  vztahKeSbirce: "zápůjčka"
+  stav: "funkční"
   extra:
-    - {"label":"Inventární číslo","value":"6"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Biskupství litoměřické"}
-    - {"label":"Vztah ke sbírce","value":"zápůjčka"}
-    - {"label":"Stav","value":"funkční"}
+    - {"label":"Poznámka","value":"kostel Horní Prysk"}
 ---
 ```
 
@@ -272,22 +249,24 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.699Z"
+scrapedAt: "2026-04-30T03:03:17.100Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - funkcni
+  - krok-graham
+  - beitel
 karta:
+  inventarniCislo: "7"
+  umisteni: "Hlavní sál"
   datace: "2015"
-  poznamka: "Chřibská"
+  majitel: "Muzeum Děčín"
+  vztahKeSbirce: "zápůjčka"
+  stav: "funkční"
   extra:
-    - {"label":"Inventární číslo","value":"7"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Muzeum Děčín"}
-    - {"label":"Vztah ke sbírce","value":"zápůjčka"}
-    - {"label":"Stav","value":"funkční"}
+    - {"label":"Poznámka","value":"Chřibská"}
 ---
 ```
 
@@ -303,22 +282,24 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.699Z"
+scrapedAt: "2026-04-30T03:03:17.100Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - nefunkcni
+  - krok-graham
+  - liebing
 karta:
+  inventarniCislo: "8"
+  umisteni: "Hlavní sál"
   datace: "2015"
-  poznamka: "bývalá radnice Děčín"
+  majitel: "Muzeum Děčín"
+  vztahKeSbirce: "zápůjčka"
+  stav: "nefunkční"
   extra:
-    - {"label":"Inventární číslo","value":"8"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Muzeum Děčín"}
-    - {"label":"Vztah ke sbírce","value":"zápůjčka"}
-    - {"label":"Stav","value":"nefunkční"}
+    - {"label":"Poznámka","value":"bývalá radnice Děčín"}
 ---
 ```
 
@@ -334,22 +315,24 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.699Z"
+scrapedAt: "2026-04-30T03:03:17.100Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - nefunkcni
+  - krok-graham
+  - thondel
 karta:
+  inventarniCislo: "9"
+  umisteni: "Hlavní sál"
   datace: "2015"
-  poznamka: "torzo"
+  majitel: "Spolek"
+  vztahKeSbirce: "dar"
+  stav: "nefunkční"
   extra:
-    - {"label":"Inventární číslo","value":"9"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Spolek"}
-    - {"label":"Vztah ke sbírce","value":"dar"}
-    - {"label":"Stav","value":"nefunkční"}
+    - {"label":"Poznámka","value":"torzo"}
 ---
 ```
 
@@ -366,22 +349,23 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.699Z"
+scrapedAt: "2026-04-30T03:03:17.100Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - funkcni
+  - krok-amant
 karta:
+  inventarniCislo: "10"
+  umisteni: "Hlavní sál"
   datace: "2016"
-  poznamka: "Staré Město na Moravě"
+  majitel: "Baudisch"
+  vztahKeSbirce: "zápůjčka"
+  stav: "funkční"
   extra:
-    - {"label":"Inventární číslo","value":"10"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Baudisch"}
-    - {"label":"Vztah ke sbírce","value":"zápůjčka"}
-    - {"label":"Stav","value":"funkční"}
+    - {"label":"Poznámka","value":"Staré Město na Moravě"}
 ---
 ```
 
@@ -397,7 +381,7 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.699Z"
+scrapedAt: "2026-04-30T03:03:17.100Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -405,14 +389,14 @@ tags:
   - vezni
   - nefunkcni
   - torzo
+  - krok-graham
 karta:
+  inventarniCislo: "11"
+  umisteni: "Hlavní sál"
   datace: "2016"
-  extra:
-    - {"label":"Inventární číslo","value":"11"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Kořínek"}
-    - {"label":"Vztah ke sbírce","value":"zápůjčka"}
-    - {"label":"Stav","value":"nefunkční"}
+  majitel: "Kořínek"
+  vztahKeSbirce: "zápůjčka"
+  stav: "nefunkční"
 ---
 ```
 
@@ -428,21 +412,22 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.699Z"
+scrapedAt: "2026-04-30T03:03:17.100Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - funkcni
+  - krok-graham
+  - rochlitz
 karta:
+  inventarniCislo: "12"
+  umisteni: "Hlavní sál"
   datace: "2016"
-  extra:
-    - {"label":"Inventární číslo","value":"12"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Král + Baudisch"}
-    - {"label":"Vztah ke sbírce","value":"zápůjčka"}
-    - {"label":"Stav","value":"funkční"}
+  majitel: "Král + Baudisch"
+  vztahKeSbirce: "zápůjčka"
+  stav: "funkční"
 ---
 ```
 
@@ -459,22 +444,22 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.699Z"
+scrapedAt: "2026-04-30T03:03:17.100Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - funkcni
+  - krok-vreteno
   - wenzel-mellner
 karta:
+  inventarniCislo: "13"
+  umisteni: "Hlavní sál"
   datace: "2016"
-  extra:
-    - {"label":"Inventární číslo","value":"13"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Kouba"}
-    - {"label":"Vztah ke sbírce","value":"zápůjčka"}
-    - {"label":"Stav","value":"funkční"}
+  majitel: "Kouba"
+  vztahKeSbirce: "zápůjčka"
+  stav: "funkční"
 ---
 ```
 
@@ -490,21 +475,22 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.699Z"
+scrapedAt: "2026-04-30T03:03:17.100Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - funkcni
+  - krok-amant
+  - paul-zieux
 karta:
+  inventarniCislo: "14"
+  umisteni: "Hlavní sál"
   datace: "2016"
-  extra:
-    - {"label":"Inventární číslo","value":"14"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Král"}
-    - {"label":"Vztah ke sbírce","value":"zápůjčka"}
-    - {"label":"Stav","value":"funkční"}
+  majitel: "Král"
+  vztahKeSbirce: "zápůjčka"
+  stav: "funkční"
 ---
 ```
 
@@ -520,21 +506,22 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.699Z"
+scrapedAt: "2026-04-30T03:03:17.101Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - funkcni
+  - krok-graham
+  - kohlert
 karta:
+  inventarniCislo: "15"
+  umisteni: "Hlavní sál"
   datace: "2016"
-  extra:
-    - {"label":"Inventární číslo","value":"15"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Gross"}
-    - {"label":"Vztah ke sbírce","value":"zápůjčka"}
-    - {"label":"Stav","value":"funkční"}
+  majitel: "Gross"
+  vztahKeSbirce: "zápůjčka"
+  stav: "funkční"
 ---
 ```
 
@@ -550,21 +537,21 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.699Z"
+scrapedAt: "2026-04-30T03:03:17.101Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - funkcni
+  - krok-graham
 karta:
+  inventarniCislo: "16"
+  umisteni: "Hlavní sál"
   datace: "2017"
-  extra:
-    - {"label":"Inventární číslo","value":"16"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Spolek"}
-    - {"label":"Vztah ke sbírce","value":"koupě"}
-    - {"label":"Stav","value":"funkční"}
+  majitel: "Spolek"
+  vztahKeSbirce: "koupě"
+  stav: "funkční"
 ---
 ```
 
@@ -580,21 +567,22 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.700Z"
+scrapedAt: "2026-04-30T03:03:17.101Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - funkcni
+  - krok-graham
+  - hainz
 karta:
+  inventarniCislo: "17"
+  umisteni: "Hlavní sál"
   datace: "2018"
-  extra:
-    - {"label":"Inventární číslo","value":"17"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Spolek"}
-    - {"label":"Vztah ke sbírce","value":"koupě"}
-    - {"label":"Stav","value":"funkční"}
+  majitel: "Spolek"
+  vztahKeSbirce: "koupě"
+  stav: "funkční"
 ---
 ```
 
@@ -610,22 +598,23 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.700Z"
+scrapedAt: "2026-04-30T03:03:17.101Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - nefunkcni
+  - krok-vreteno
 karta:
+  inventarniCislo: "18"
+  umisteni: "Hlavní sál"
   datace: "2018"
-  poznamka: "torzo"
+  majitel: "Spolek"
+  vztahKeSbirce: "koupě"
+  stav: "nefunkční"
   extra:
-    - {"label":"Inventární číslo","value":"18"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Spolek"}
-    - {"label":"Vztah ke sbírce","value":"koupě"}
-    - {"label":"Stav","value":"nefunkční"}
+    - {"label":"Poznámka","value":"torzo"}
 ---
 ```
 
@@ -641,21 +630,21 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.700Z"
+scrapedAt: "2026-04-30T03:03:17.101Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - funkcni
+  - krok-amant
 karta:
+  inventarniCislo: "19"
+  umisteni: "Hlavní sál"
   datace: "2018"
-  extra:
-    - {"label":"Inventární číslo","value":"19"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Spolek"}
-    - {"label":"Vztah ke sbírce","value":"koupě"}
-    - {"label":"Stav","value":"funkční"}
+  majitel: "Spolek"
+  vztahKeSbirce: "koupě"
+  stav: "funkční"
 ---
 ```
 
@@ -671,20 +660,21 @@ category: "sbirka"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-29T23:42:27.700Z"
+scrapedAt: "2026-04-30T03:03:17.101Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - funkcni
+  - krok-amant
+  - krecmer
 karta:
+  inventarniCislo: "20"
+  umisteni: "Hlavní sál"
   datace: "2018"
-  extra:
-    - {"label":"Inventární číslo","value":"20"}
-    - {"label":"Lokace","value":"Hlavní sál"}
-    - {"label":"Majitel","value":"Spolek"}
-    - {"label":"Vztah ke sbírce","value":"koupě"}
-    - {"label":"Stav","value":"funkční"}
+  majitel: "Spolek"
+  vztahKeSbirce: "koupě"
+  stav: "funkční"
 ---
 ```

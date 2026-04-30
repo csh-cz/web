@@ -1,8 +1,8 @@
 {
   "_meta": {
     "comment": "Řízeně rozšiřovatelný whitelist tagů pro články. Sloučení všech polí (kromě _meta) se používá v Zod refine validaci v content.config.ts. Nový tag = PR commit s update tohoto souboru. Bez whitelistu by se tagy množily nekonzistentně (atomovky / atomické / atomic).",
-    "version": 1,
-    "updated": "2026-04-29"
+    "version": 2,
+    "updated": "2026-04-30"
   },
   "typ": [
     "vezni",
@@ -55,7 +55,21 @@
     "restaurovane",
     "torzo",
     "replika",
-    "polofunkcni"
+    "polofunkcni",
+    "nalezovy",
+    "pred-restaurovanim"
+  ],
+  "krok": [
+    "krok-graham",
+    "krok-amant",
+    "krok-vreteno",
+    "krok-kotva",
+    "krok-kolicek",
+    "krok-clement",
+    "krok-hipp",
+    "krok-winnerl",
+    "krok-benoit-robert",
+    "krok-lihyr"
   ],
   "lokace": [
     "sobeslav",
@@ -104,6 +118,26 @@
     "bulle",
     "iwc",
     "mobatime",
-    "meinberg"
+    "meinberg",
+    "hainz",
+    "hiemann",
+    "michael-christ",
+    "beitel",
+    "liebing",
+    "thondel",
+    "rochlitz",
+    "paul-zieux",
+    "kohlert",
+    "krecmer",
+    "achrer",
+    "bassler",
+    "junghans",
+    "hipp",
+    "wagner",
+    "kienzle",
+    "jednotny-cas",
+    "datumatic",
+    "manesova",
+    "solari-udine"
   ]
 }

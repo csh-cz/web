@@ -222,17 +222,20 @@ async function main() {
     const newTags = uniqueTags.filter((t) => !allWhitelist.has(t));
     for (const t of newTags) allNewTags.add(t);
 
-    // Karta sbirky — co dáme do frontmatteru
-    const karta: Record<string, unknown> = {};
+    // Karta sbirky — direct named fields (přímé atributy místo extra[])
+    const karta: Record<string, unknown> = {
+      inventarniCislo: e.invCislo,
+      umisteni: e.lokaceHuman,
+    };
     if (e.rok) karta.datace = e.rok;
-    if (e.poznamka) karta.poznamka = e.poznamka;
-    karta.extra = [
-      { label: 'Inventární číslo', value: e.invCislo },
-      { label: 'Lokace', value: e.lokaceHuman },
-      ...(e.majitel ? [{ label: 'Majitel', value: e.majitel }] : []),
-      ...(e.vztah ? [{ label: 'Vztah ke sbírce', value: e.vztah }] : []),
-      ...(e.stav ? [{ label: 'Stav', value: e.stav }] : []),
-    ];
+    if (e.majitel) karta.majitel = e.majitel;
+    if (e.vztah) karta.vztahKeSbirce = e.vztah;
+    if (e.stav) karta.stav = e.stav;
+    // Poznámku z XLS (typ. lokalita exponátu před koupí, vrácení atd.)
+    // dáme do extra[] — není to standardní karta atribut.
+    if (e.poznamka) {
+      karta.extra = [{ label: 'Poznámka', value: e.poznamka }];
+    }
 
     const fm: Record<string, unknown> = {
       title: e.popis,
