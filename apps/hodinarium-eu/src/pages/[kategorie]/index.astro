@@ -18,10 +18,10 @@ interface Entry {
 }
 
 export async function getStaticPaths() {
-  // 6 hlavních kategorií taxonomie 2026-04. Kronika a hodinari mají
-  // vlastní pages mimo [kategorie] dynamic.
+  // 5 zbývajících hlavních kategorií taxonomie 2026-04. Sbírka má vlastní
+  // override v pages/sbirka/index.astro (2 sekce: karty + vázané články).
+  // Kronika a hodinari mají vlastní pages mimo [kategorie] dynamic.
   return [
-    { params: { kategorie: 'sbirka' } },
     { params: { kategorie: 'konstrukce' } },
     { params: { kategorie: 'projekty' } },
     { params: { kategorie: 'virtualni-muzeum' } },
