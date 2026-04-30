@@ -14,7 +14,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.253Z",
+      "scrapedAt": "2026-04-30T03:25:53.199Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -27,7 +27,9 @@
       "karta": {
         "inventarniCislo": "1",
         "umisteni": "Hlavní sál",
-        "datace": "2010",
+        "rokVyroby": "1884",
+        "vyrobce": "Hiemann",
+        "pridanoDoSbirky": "2010",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční",
@@ -63,7 +65,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.254Z",
+      "scrapedAt": "2026-04-30T03:25:53.200Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -76,7 +78,9 @@
       "karta": {
         "inventarniCislo": "2",
         "umisteni": "Hlavní sál",
-        "datace": "2010",
+        "rokVyroby": "1868",
+        "vyrobce": "Jan Prokeš",
+        "pridanoDoSbirky": "2010",
         "majitel": "Knespl + Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční",
@@ -112,7 +116,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.255Z",
+      "scrapedAt": "2026-04-30T03:25:53.201Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -122,7 +126,7 @@
       "karta": {
         "inventarniCislo": "3",
         "umisteni": "Hlavní sál",
-        "datace": "2011",
+        "pridanoDoSbirky": "2011",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -153,7 +157,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.255Z",
+      "scrapedAt": "2026-04-30T03:25:53.201Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -165,7 +169,7 @@
       "karta": {
         "inventarniCislo": "4",
         "umisteni": "Hlavní sál",
-        "datace": "2011",
+        "pridanoDoSbirky": "2011",
         "majitel": "Klikar",
         "vztahKeSbirce": "zápůjčka",
         "stav": "nefunkční"
@@ -194,7 +198,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.255Z",
+      "scrapedAt": "2026-04-30T03:25:53.201Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -206,7 +210,7 @@
       "karta": {
         "inventarniCislo": "5",
         "umisteni": "Hlavní sál",
-        "datace": "2011",
+        "pridanoDoSbirky": "2011",
         "majitel": "Budislav",
         "vztahKeSbirce": "zápůjčka",
         "stav": "nefunkční"
@@ -235,7 +239,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.255Z",
+      "scrapedAt": "2026-04-30T03:25:53.201Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -248,7 +252,8 @@
       "karta": {
         "inventarniCislo": "6",
         "umisteni": "Hlavní sál",
-        "datace": "2012",
+        "vyrobce": "Michael Christ",
+        "pridanoDoSbirky": "2012",
         "majitel": "Biskupství litoměřické",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční",
@@ -284,7 +289,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.255Z",
+      "scrapedAt": "2026-04-30T03:25:53.201Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -297,7 +302,8 @@
       "karta": {
         "inventarniCislo": "7",
         "umisteni": "Hlavní sál",
-        "datace": "2015",
+        "vyrobce": "F. X. Beitel",
+        "pridanoDoSbirky": "2015",
         "majitel": "Muzeum Děčín",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční",
@@ -333,7 +339,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.255Z",
+      "scrapedAt": "2026-04-30T03:25:53.201Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -346,7 +352,8 @@
       "karta": {
         "inventarniCislo": "8",
         "umisteni": "Hlavní sál",
-        "datace": "2015",
+        "vyrobce": "Richard Liebing",
+        "pridanoDoSbirky": "2015",
         "majitel": "Muzeum Děčín",
         "vztahKeSbirce": "zápůjčka",
         "stav": "nefunkční",
@@ -382,7 +389,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.255Z",
+      "scrapedAt": "2026-04-30T03:25:53.201Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -395,7 +402,8 @@
       "karta": {
         "inventarniCislo": "9",
         "umisteni": "Hlavní sál",
-        "datace": "2015",
+        "vyrobce": "Thöndel",
+        "pridanoDoSbirky": "2015",
         "majitel": "Spolek",
         "vztahKeSbirce": "dar",
         "stav": "nefunkční",
@@ -435,7 +443,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.255Z",
+      "scrapedAt": "2026-04-30T03:25:53.201Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -447,7 +455,7 @@
       "karta": {
         "inventarniCislo": "10",
         "umisteni": "Hlavní sál",
-        "datace": "2016",
+        "pridanoDoSbirky": "2016",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční",
@@ -482,7 +490,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.255Z",
+      "scrapedAt": "2026-04-30T03:25:53.202Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -495,7 +503,7 @@
       "karta": {
         "inventarniCislo": "11",
         "umisteni": "Hlavní sál",
-        "datace": "2016",
+        "pridanoDoSbirky": "2016",
         "majitel": "Kořínek",
         "vztahKeSbirce": "zápůjčka",
         "stav": "nefunkční"
@@ -525,7 +533,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.255Z",
+      "scrapedAt": "2026-04-30T03:25:53.202Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -538,7 +546,8 @@
       "karta": {
         "inventarniCislo": "12",
         "umisteni": "Hlavní sál",
-        "datace": "2016",
+        "vyrobce": "Rochlitz",
+        "pridanoDoSbirky": "2016",
         "majitel": "Král + Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -570,7 +579,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.256Z",
+      "scrapedAt": "2026-04-30T03:25:53.202Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -583,7 +592,8 @@
       "karta": {
         "inventarniCislo": "13",
         "umisteni": "Hlavní sál",
-        "datace": "2016",
+        "vyrobce": "Wenzel Mellner",
+        "pridanoDoSbirky": "2016",
         "majitel": "Kouba",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -613,7 +623,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.256Z",
+      "scrapedAt": "2026-04-30T03:25:53.202Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -626,7 +636,8 @@
       "karta": {
         "inventarniCislo": "14",
         "umisteni": "Hlavní sál",
-        "datace": "2016",
+        "vyrobce": "Paul Zieux",
+        "pridanoDoSbirky": "2016",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -656,7 +667,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.256Z",
+      "scrapedAt": "2026-04-30T03:25:53.202Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -669,7 +680,8 @@
       "karta": {
         "inventarniCislo": "15",
         "umisteni": "Hlavní sál",
-        "datace": "2016",
+        "vyrobce": "Kohlert",
+        "pridanoDoSbirky": "2016",
         "majitel": "Gross",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -699,7 +711,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.256Z",
+      "scrapedAt": "2026-04-30T03:25:53.202Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -711,7 +723,7 @@
       "karta": {
         "inventarniCislo": "16",
         "umisteni": "Hlavní sál",
-        "datace": "2017",
+        "pridanoDoSbirky": "2017",
         "majitel": "Spolek",
         "vztahKeSbirce": "koupě",
         "stav": "funkční"
@@ -740,7 +752,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.256Z",
+      "scrapedAt": "2026-04-30T03:25:53.202Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -753,7 +765,8 @@
       "karta": {
         "inventarniCislo": "17",
         "umisteni": "Hlavní sál",
-        "datace": "2018",
+        "vyrobce": "Hainz",
+        "pridanoDoSbirky": "2018",
         "majitel": "Spolek",
         "vztahKeSbirce": "koupě",
         "stav": "funkční"
@@ -783,7 +796,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.256Z",
+      "scrapedAt": "2026-04-30T03:25:53.202Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -795,7 +808,7 @@
       "karta": {
         "inventarniCislo": "18",
         "umisteni": "Hlavní sál",
-        "datace": "2018",
+        "pridanoDoSbirky": "2018",
         "majitel": "Spolek",
         "vztahKeSbirce": "koupě",
         "stav": "nefunkční",
@@ -830,7 +843,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.256Z",
+      "scrapedAt": "2026-04-30T03:25:53.202Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -842,7 +855,8 @@
       "karta": {
         "inventarniCislo": "19",
         "umisteni": "Hlavní sál",
-        "datace": "2018",
+        "rokVyroby": "1898",
+        "pridanoDoSbirky": "2018",
         "majitel": "Spolek",
         "vztahKeSbirce": "koupě",
         "stav": "funkční"
@@ -871,7 +885,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.256Z",
+      "scrapedAt": "2026-04-30T03:25:53.203Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -884,7 +898,8 @@
       "karta": {
         "inventarniCislo": "20",
         "umisteni": "Hlavní sál",
-        "datace": "2018",
+        "vyrobce": "Krečmer",
+        "pridanoDoSbirky": "2018",
         "majitel": "Spolek",
         "vztahKeSbirce": "koupě",
         "stav": "funkční"
@@ -914,7 +929,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.256Z",
+      "scrapedAt": "2026-04-30T03:25:53.203Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -926,7 +941,7 @@
       "karta": {
         "inventarniCislo": "21",
         "umisteni": "Hlavní sál",
-        "datace": "2018",
+        "pridanoDoSbirky": "2018",
         "majitel": "Spolek",
         "vztahKeSbirce": "dar",
         "stav": "funkční",
@@ -961,7 +976,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.256Z",
+      "scrapedAt": "2026-04-30T03:25:53.203Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -973,7 +988,7 @@
       "karta": {
         "inventarniCislo": "22",
         "umisteni": "Hlavní sál",
-        "datace": "2018",
+        "pridanoDoSbirky": "2018",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -1002,7 +1017,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.256Z",
+      "scrapedAt": "2026-04-30T03:25:53.203Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1014,7 +1029,7 @@
       "karta": {
         "inventarniCislo": "23",
         "umisteni": "Hlavní sál",
-        "datace": "2019",
+        "pridanoDoSbirky": "2019",
         "majitel": "Biskupství litoměřické",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční",
@@ -1049,7 +1064,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.256Z",
+      "scrapedAt": "2026-04-30T03:25:53.203Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1062,7 +1077,8 @@
       "karta": {
         "inventarniCislo": "24",
         "umisteni": "Hlavní sál",
-        "datace": "2020",
+        "vyrobce": "Friedrich Moritz Bassler",
+        "pridanoDoSbirky": "2020",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -1092,7 +1108,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.256Z",
+      "scrapedAt": "2026-04-30T03:25:53.203Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1104,7 +1120,7 @@
       "karta": {
         "inventarniCislo": "25",
         "umisteni": "Hlavní sál",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "Muzeum Děčín",
         "vztahKeSbirce": "zápůjčka",
         "stav": "nefunkční",
@@ -1139,7 +1155,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.257Z",
+      "scrapedAt": "2026-04-30T03:25:53.203Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1151,7 +1167,7 @@
       "karta": {
         "inventarniCislo": "26",
         "umisteni": "Hlavní sál",
-        "datace": "2021",
+        "pridanoDoSbirky": "2021",
         "majitel": "Baudisch + Kořínek",
         "vztahKeSbirce": "montáž",
         "stav": "funkční"
@@ -1180,7 +1196,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.257Z",
+      "scrapedAt": "2026-04-30T03:25:53.203Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1191,7 +1207,7 @@
       "karta": {
         "inventarniCislo": "27",
         "umisteni": "Hlavní sál",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "Arcibiskupství pražské",
         "vztahKeSbirce": "zápůjčka",
         "stav": "nefunkční",
@@ -1225,7 +1241,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.257Z",
+      "scrapedAt": "2026-04-30T03:25:53.203Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1236,7 +1252,7 @@
       "karta": {
         "inventarniCislo": "28",
         "umisteni": "Hlavní sál",
-        "datace": "2021",
+        "pridanoDoSbirky": "2021",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční",
@@ -1270,7 +1286,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.257Z",
+      "scrapedAt": "2026-04-30T03:25:53.203Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1282,7 +1298,7 @@
       "karta": {
         "inventarniCislo": "29",
         "umisteni": "Hlavní sál",
-        "datace": "2021",
+        "pridanoDoSbirky": "2021",
         "majitel": "Beránek",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční",
@@ -1317,7 +1333,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.257Z",
+      "scrapedAt": "2026-04-30T03:25:53.203Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1330,7 +1346,8 @@
       "karta": {
         "inventarniCislo": "30",
         "umisteni": "Hlavní sál",
-        "datace": "2022",
+        "vyrobce": "Hainz",
+        "pridanoDoSbirky": "2022",
         "majitel": "Biskupství litoměřické",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční",
@@ -1366,7 +1383,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.257Z",
+      "scrapedAt": "2026-04-30T03:25:53.203Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1378,7 +1395,7 @@
       "karta": {
         "inventarniCislo": "31",
         "umisteni": "Hlavní sál",
-        "datace": "2022",
+        "pridanoDoSbirky": "2022",
         "majitel": "Knespl",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -1407,7 +1424,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.257Z",
+      "scrapedAt": "2026-04-30T03:25:53.204Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1419,7 +1436,7 @@
       "karta": {
         "inventarniCislo": "32",
         "umisteni": "Hlavní sál",
-        "datace": "2022",
+        "pridanoDoSbirky": "2022",
         "majitel": "Biskupství litoměřické",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční",
@@ -1458,7 +1475,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.257Z",
+      "scrapedAt": "2026-04-30T03:25:53.204Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1470,7 +1487,7 @@
       "karta": {
         "inventarniCislo": "33",
         "umisteni": "Hlavní sál",
-        "datace": "2023",
+        "pridanoDoSbirky": "2023",
         "majitel": "Baudisch, Kořínek",
         "vztahKeSbirce": "dar",
         "stav": "funkční",
@@ -1505,7 +1522,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.257Z",
+      "scrapedAt": "2026-04-30T03:25:53.204Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1517,7 +1534,7 @@
       "karta": {
         "inventarniCislo": "34",
         "umisteni": "Hlavní sál",
-        "datace": "2025",
+        "pridanoDoSbirky": "2025",
         "majitel": "MÚ Benešov",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -1546,7 +1563,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.257Z",
+      "scrapedAt": "2026-04-30T03:25:53.204Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1557,7 +1574,7 @@
       "karta": {
         "inventarniCislo": "35",
         "umisteni": "Hlavní sál",
-        "datace": "2024",
+        "pridanoDoSbirky": "2024",
         "majitel": "Farnost Mikulášovice",
         "vztahKeSbirce": "zápůjčka",
         "extra": [
@@ -1590,7 +1607,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.257Z",
+      "scrapedAt": "2026-04-30T03:25:53.204Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1603,7 +1620,8 @@
       "karta": {
         "inventarniCislo": "36",
         "umisteni": "Hlavní sál",
-        "datace": "2025",
+        "vyrobce": "Thöndel",
+        "pridanoDoSbirky": "2025",
         "majitel": "Jan Urban",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -1633,7 +1651,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.257Z",
+      "scrapedAt": "2026-04-30T03:25:53.204Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1644,6 +1662,7 @@
       "karta": {
         "inventarniCislo": "37",
         "umisteni": "Hlavní sál",
+        "vyrobce": "Brillié",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -1671,7 +1690,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.258Z",
+      "scrapedAt": "2026-04-30T03:25:53.204Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1682,7 +1701,7 @@
       "karta": {
         "inventarniCislo": "38",
         "umisteni": "Hlavní sál",
-        "datace": "2017",
+        "pridanoDoSbirky": "2017",
         "majitel": "Muzeum Děčín",
         "vztahKeSbirce": "zápůjčka",
         "stav": "nefunkční"
@@ -1710,7 +1729,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.258Z",
+      "scrapedAt": "2026-04-30T03:25:53.204Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1749,7 +1768,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.258Z",
+      "scrapedAt": "2026-04-30T03:25:53.204Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1791,7 +1810,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.258Z",
+      "scrapedAt": "2026-04-30T03:25:53.204Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1802,7 +1821,8 @@
       "karta": {
         "inventarniCislo": "41",
         "umisteni": "Hlavní sál",
-        "datace": "2015",
+        "vyrobce": "Josef Achrer",
+        "pridanoDoSbirky": "2015",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční",
@@ -1836,7 +1856,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.258Z",
+      "scrapedAt": "2026-04-30T03:25:53.205Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1846,7 +1866,7 @@
       "karta": {
         "inventarniCislo": "42",
         "umisteni": "Hlavní sál",
-        "datace": "2016",
+        "pridanoDoSbirky": "2016",
         "majitel": "Kalista Kredum",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční",
@@ -1879,7 +1899,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.258Z",
+      "scrapedAt": "2026-04-30T03:25:53.205Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1915,7 +1935,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.258Z",
+      "scrapedAt": "2026-04-30T03:25:53.205Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1953,7 +1973,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.258Z",
+      "scrapedAt": "2026-04-30T03:25:53.205Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1989,7 +2009,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.258Z",
+      "scrapedAt": "2026-04-30T03:25:53.205Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2031,7 +2051,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.258Z",
+      "scrapedAt": "2026-04-30T03:25:53.205Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2041,7 +2061,7 @@
       "karta": {
         "inventarniCislo": "47",
         "umisteni": "Hlavní sál",
-        "datace": "2015",
+        "pridanoDoSbirky": "2015",
         "majitel": "Kotrba",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční",
@@ -2074,7 +2094,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.258Z",
+      "scrapedAt": "2026-04-30T03:25:53.205Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2116,7 +2136,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.258Z",
+      "scrapedAt": "2026-04-30T03:25:53.205Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2154,7 +2174,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.258Z",
+      "scrapedAt": "2026-04-30T03:25:53.205Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2166,6 +2186,7 @@
       "karta": {
         "inventarniCislo": "50",
         "umisteni": "Hlavní sál",
+        "vyrobce": "Elektročas",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -2194,7 +2215,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.258Z",
+      "scrapedAt": "2026-04-30T03:25:53.205Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2206,6 +2227,7 @@
       "karta": {
         "inventarniCislo": "51",
         "umisteni": "Hlavní sál",
+        "vyrobce": "Elektročas",
         "majitel": "Baudisch",
         "vztahKeSbirce": "dar",
         "stav": "funkční"
@@ -2234,7 +2256,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.259Z",
+      "scrapedAt": "2026-04-30T03:25:53.205Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2265,7 +2287,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.259Z",
+      "scrapedAt": "2026-04-30T03:25:53.205Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2275,7 +2297,7 @@
       "karta": {
         "inventarniCislo": "53",
         "umisteni": "Hlavní sál",
-        "datace": "2025",
+        "pridanoDoSbirky": "2025",
         "majitel": "Hvězdárna Petřín",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -2302,7 +2324,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.259Z",
+      "scrapedAt": "2026-04-30T03:25:53.205Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2338,7 +2360,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.259Z",
+      "scrapedAt": "2026-04-30T03:25:53.206Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2349,7 +2371,7 @@
       "karta": {
         "inventarniCislo": "55",
         "umisteni": "Hlavní sál",
-        "datace": "2018",
+        "pridanoDoSbirky": "2018",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -2377,7 +2399,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.259Z",
+      "scrapedAt": "2026-04-30T03:25:53.206Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2388,7 +2410,7 @@
       "karta": {
         "inventarniCislo": "56",
         "umisteni": "Hlavní sál",
-        "datace": "2021",
+        "pridanoDoSbirky": "2021",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -2416,7 +2438,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.259Z",
+      "scrapedAt": "2026-04-30T03:25:53.206Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2458,7 +2480,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.259Z",
+      "scrapedAt": "2026-04-30T03:25:53.206Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2500,7 +2522,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.259Z",
+      "scrapedAt": "2026-04-30T03:25:53.206Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2511,7 +2533,7 @@
       "karta": {
         "inventarniCislo": "59",
         "umisteni": "Hlavní sál",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční",
@@ -2545,7 +2567,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.259Z",
+      "scrapedAt": "2026-04-30T03:25:53.206Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2587,7 +2609,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.259Z",
+      "scrapedAt": "2026-04-30T03:25:53.206Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2597,7 +2619,7 @@
       "karta": {
         "inventarniCislo": "61",
         "umisteni": "Hlavní sál",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "spolek",
         "vztahKeSbirce": "koupě",
         "stav": "nefunkční"
@@ -2624,7 +2646,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.259Z",
+      "scrapedAt": "2026-04-30T03:25:53.206Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2635,7 +2657,7 @@
       "karta": {
         "inventarniCislo": "62",
         "umisteni": "Hlavní sál",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "spolek",
         "vztahKeSbirce": "koupě",
         "stav": "nefunkční"
@@ -2663,7 +2685,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.259Z",
+      "scrapedAt": "2026-04-30T03:25:53.206Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2673,7 +2695,7 @@
       "karta": {
         "inventarniCislo": "63",
         "umisteni": "Hlavní sál",
-        "datace": "2021",
+        "pridanoDoSbirky": "2021",
         "majitel": "spolek",
         "vztahKeSbirce": "dar",
         "stav": "funkční",
@@ -2706,7 +2728,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.260Z",
+      "scrapedAt": "2026-04-30T03:25:53.206Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2716,7 +2738,7 @@
       "karta": {
         "inventarniCislo": "64",
         "umisteni": "Hlavní sál",
-        "datace": "2022",
+        "pridanoDoSbirky": "2022",
         "majitel": "spolek",
         "vztahKeSbirce": "dar",
         "stav": "funkční"
@@ -2743,7 +2765,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.260Z",
+      "scrapedAt": "2026-04-30T03:25:53.206Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2753,7 +2775,7 @@
       "karta": {
         "inventarniCislo": "65",
         "umisteni": "Hlavní sál",
-        "datace": "2024",
+        "pridanoDoSbirky": "2024",
         "majitel": "Kavalír",
         "stav": "funkční"
       }
@@ -2779,7 +2801,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.260Z",
+      "scrapedAt": "2026-04-30T03:25:53.206Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2789,7 +2811,7 @@
       "karta": {
         "inventarniCislo": "66",
         "umisteni": "Hlavní sál",
-        "datace": "2024",
+        "pridanoDoSbirky": "2024",
         "majitel": "spolek",
         "stav": "funkční",
         "extra": [
@@ -2821,7 +2843,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.260Z",
+      "scrapedAt": "2026-04-30T03:25:53.207Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2831,7 +2853,7 @@
       "karta": {
         "inventarniCislo": "67",
         "umisteni": "Hlavní sál",
-        "datace": "2025",
+        "pridanoDoSbirky": "2025",
         "majitel": "spolek",
         "stav": "funkční"
       }
@@ -2857,7 +2879,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.260Z",
+      "scrapedAt": "2026-04-30T03:25:53.207Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2895,7 +2917,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.260Z",
+      "scrapedAt": "2026-04-30T03:25:53.207Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2933,7 +2955,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.260Z",
+      "scrapedAt": "2026-04-30T03:25:53.207Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2971,7 +2993,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.260Z",
+      "scrapedAt": "2026-04-30T03:25:53.207Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3015,7 +3037,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.260Z",
+      "scrapedAt": "2026-04-30T03:25:53.207Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3051,7 +3073,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.260Z",
+      "scrapedAt": "2026-04-30T03:25:53.207Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3087,7 +3109,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.260Z",
+      "scrapedAt": "2026-04-30T03:25:53.207Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3125,7 +3147,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.260Z",
+      "scrapedAt": "2026-04-30T03:25:53.207Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3163,7 +3185,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.261Z",
+      "scrapedAt": "2026-04-30T03:25:53.207Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3173,7 +3195,7 @@
       "karta": {
         "inventarniCislo": "76",
         "umisteni": "Vitrína 1 (hlavní místnost)",
-        "datace": "2022",
+        "pridanoDoSbirky": "2022",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -3200,7 +3222,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.261Z",
+      "scrapedAt": "2026-04-30T03:25:53.208Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3211,7 +3233,7 @@
       "karta": {
         "inventarniCislo": "77",
         "umisteni": "Vitrína 1 (hlavní místnost)",
-        "datace": "2025",
+        "pridanoDoSbirky": "2025",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -3241,7 +3263,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.261Z",
+      "scrapedAt": "2026-04-30T03:25:53.208Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3251,7 +3273,7 @@
       "karta": {
         "inventarniCislo": "78",
         "umisteni": "Vitrína 1 (hlavní místnost)",
-        "datace": "2025",
+        "pridanoDoSbirky": "2025",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -3278,7 +3300,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.261Z",
+      "scrapedAt": "2026-04-30T03:25:53.208Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3314,7 +3336,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.261Z",
+      "scrapedAt": "2026-04-30T03:25:53.208Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3345,7 +3367,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.261Z",
+      "scrapedAt": "2026-04-30T03:25:53.208Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3381,7 +3403,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.261Z",
+      "scrapedAt": "2026-04-30T03:25:53.208Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3413,7 +3435,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.261Z",
+      "scrapedAt": "2026-04-30T03:25:53.208Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3445,7 +3467,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.261Z",
+      "scrapedAt": "2026-04-30T03:25:53.208Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3477,7 +3499,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.261Z",
+      "scrapedAt": "2026-04-30T03:25:53.208Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3489,6 +3511,7 @@
       "karta": {
         "inventarniCislo": "85",
         "umisteni": "Panel 1",
+        "vyrobce": "Hipp",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -3517,7 +3540,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.261Z",
+      "scrapedAt": "2026-04-30T03:25:53.208Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3529,6 +3552,8 @@
       "karta": {
         "inventarniCislo": "86",
         "umisteni": "Panel 1",
+        "rokVyroby": "1860",
+        "vyrobce": "Hipp",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -3557,7 +3582,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.261Z",
+      "scrapedAt": "2026-04-30T03:25:53.208Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3568,6 +3593,7 @@
       "karta": {
         "inventarniCislo": "87",
         "umisteni": "Panel 1",
+        "vyrobce": "Wagner",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -3597,7 +3623,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.261Z",
+      "scrapedAt": "2026-04-30T03:25:53.208Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3608,6 +3634,7 @@
       "karta": {
         "inventarniCislo": "88",
         "umisteni": "Panel 1",
+        "vyrobce": "Brillié",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -3635,7 +3662,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.208Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3677,7 +3704,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.208Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3719,7 +3746,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.208Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3730,7 +3757,8 @@
       "karta": {
         "inventarniCislo": "91",
         "umisteni": "Panel 1",
-        "datace": "2025",
+        "vyrobce": "Kienzle",
+        "pridanoDoSbirky": "2025",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -3758,7 +3786,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.209Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3769,6 +3797,7 @@
       "karta": {
         "inventarniCislo": "94",
         "umisteni": "Panel 2",
+        "vyrobce": "Elektročas",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -3796,7 +3825,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.209Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3832,7 +3861,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.209Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3868,7 +3897,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.209Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3878,7 +3907,7 @@
       "karta": {
         "inventarniCislo": "97",
         "umisteni": "Panel 2",
-        "datace": "2023",
+        "pridanoDoSbirky": "2023",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -3905,7 +3934,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.209Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3941,7 +3970,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.209Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3977,7 +4006,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.209Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3988,6 +4017,7 @@
       "karta": {
         "inventarniCislo": "100",
         "umisteni": "Panel 2",
+        "vyrobce": "Hainz",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -4018,7 +4048,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.209Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4029,7 +4059,8 @@
       "karta": {
         "inventarniCislo": "101",
         "umisteni": "Panel 2",
-        "datace": "2020",
+        "vyrobce": "Jednotný čas",
+        "pridanoDoSbirky": "2020",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -4057,7 +4088,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.209Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4095,7 +4126,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.209Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4131,7 +4162,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.209Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4167,7 +4198,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.209Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4205,7 +4236,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.209Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4243,7 +4274,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4279,7 +4310,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.262Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4315,7 +4346,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4325,7 +4356,7 @@
       "karta": {
         "inventarniCislo": "110",
         "umisteni": "Panel 3",
-        "datace": "2023",
+        "pridanoDoSbirky": "2023",
         "majitel": "Spolek",
         "vztahKeSbirce": "dar",
         "stav": "funkční",
@@ -4560,7 +4591,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4798,7 +4829,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -5036,7 +5067,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -5274,7 +5305,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -5512,7 +5543,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -5750,7 +5781,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -5988,7 +6019,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6024,7 +6055,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6060,7 +6091,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6098,7 +6129,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6109,6 +6140,7 @@
       "karta": {
         "inventarniCislo": "121",
         "umisteni": "Panel 4",
+        "vyrobce": "Pragotron",
         "majitel": "Spolek",
         "vztahKeSbirce": "dar",
         "stav": "funkční"
@@ -6338,7 +6370,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6374,7 +6406,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6410,7 +6442,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6420,7 +6452,7 @@
       "karta": {
         "inventarniCislo": "124",
         "umisteni": "Panel 5",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "Elekon",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -6447,7 +6479,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6458,7 +6490,8 @@
       "karta": {
         "inventarniCislo": "125",
         "umisteni": "Panel 5",
-        "datace": "2020",
+        "vyrobce": "Mobatime",
+        "pridanoDoSbirky": "2020",
         "majitel": "Elekon",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -6486,7 +6519,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.210Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6497,7 +6530,8 @@
       "karta": {
         "inventarniCislo": "126",
         "umisteni": "Panel 5",
-        "datace": "2020",
+        "vyrobce": "Bodet",
+        "pridanoDoSbirky": "2020",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -6525,7 +6559,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.263Z",
+      "scrapedAt": "2026-04-30T03:25:53.211Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6536,7 +6570,8 @@
       "karta": {
         "inventarniCislo": "127",
         "umisteni": "Panel 5",
-        "datace": "2020",
+        "vyrobce": "Pragotron",
+        "pridanoDoSbirky": "2020",
         "majitel": "Spolek",
         "vztahKeSbirce": "spolek",
         "stav": "funkční"
@@ -6569,7 +6604,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.211Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6579,7 +6614,7 @@
       "karta": {
         "inventarniCislo": "128",
         "umisteni": "Panel 5",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -6606,7 +6641,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.211Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6616,7 +6651,7 @@
       "karta": {
         "inventarniCislo": "129",
         "umisteni": "Panel 5",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -6643,7 +6678,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.211Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6653,7 +6688,7 @@
       "karta": {
         "inventarniCislo": "130",
         "umisteni": "Panel 5",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -6680,7 +6715,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.211Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6690,7 +6725,7 @@
       "karta": {
         "inventarniCislo": "131",
         "umisteni": "Panel 5",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -6717,7 +6752,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.211Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6727,7 +6762,7 @@
       "karta": {
         "inventarniCislo": "132",
         "umisteni": "Panel 5",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "Anděl",
         "vztahKeSbirce": "zápůjčka",
         "stav": "nefunkční"
@@ -6754,7 +6789,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.211Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6764,7 +6799,7 @@
       "karta": {
         "inventarniCislo": "133",
         "umisteni": "Panel 5",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -6791,7 +6826,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.211Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6801,7 +6836,7 @@
       "karta": {
         "inventarniCislo": "134",
         "umisteni": "Panel 5",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "Knespl",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -6828,7 +6863,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.211Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6838,7 +6873,7 @@
       "karta": {
         "inventarniCislo": "135",
         "umisteni": "Panel 5",
-        "datace": "2021",
+        "pridanoDoSbirky": "2021",
         "majitel": "Spolek",
         "vztahKeSbirce": "spolek",
         "stav": "funkční"
@@ -6865,7 +6900,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.211Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6875,7 +6910,7 @@
       "karta": {
         "inventarniCislo": "136",
         "umisteni": "Panel 5",
-        "datace": "2021",
+        "pridanoDoSbirky": "2021",
         "majitel": "Spolek",
         "vztahKeSbirce": "spolek",
         "stav": "funkční"
@@ -6902,7 +6937,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.211Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6912,7 +6947,7 @@
       "karta": {
         "inventarniCislo": "137",
         "umisteni": "Panel 5",
-        "datace": "2022",
+        "pridanoDoSbirky": "2022",
         "majitel": "Spolek",
         "vztahKeSbirce": "spolek",
         "stav": "funkční"
@@ -6939,7 +6974,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6949,7 +6984,7 @@
       "karta": {
         "inventarniCislo": "138",
         "umisteni": "Panel 5",
-        "datace": "2021",
+        "pridanoDoSbirky": "2021",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -6976,7 +7011,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6986,7 +7021,7 @@
       "karta": {
         "inventarniCislo": "139",
         "umisteni": "Panel 5",
-        "datace": "2025",
+        "pridanoDoSbirky": "2025",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -7013,7 +7048,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7049,7 +7084,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7085,7 +7120,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7121,7 +7156,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.264Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7157,7 +7192,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.265Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7168,6 +7203,7 @@
       "karta": {
         "inventarniCislo": "144",
         "umisteni": "Vitrína 1 (vedlejší místnost)",
+        "vyrobce": "Datumatic",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -7195,7 +7231,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.265Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7231,7 +7267,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.265Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7269,7 +7305,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.265Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7305,7 +7341,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.265Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7316,6 +7352,7 @@
       "karta": {
         "inventarniCislo": "148",
         "umisteni": "Vitrína 1 (vedlejší místnost)",
+        "vyrobce": "Kienzle",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -7343,7 +7380,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.265Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7379,7 +7416,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.265Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7415,7 +7452,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.265Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7426,6 +7463,7 @@
       "karta": {
         "inventarniCislo": "151",
         "umisteni": "Vitrína 1 (vedlejší místnost)",
+        "vyrobce": "Junghans",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -7453,7 +7491,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.265Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7489,7 +7527,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.265Z",
+      "scrapedAt": "2026-04-30T03:25:53.212Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7500,6 +7538,7 @@
       "karta": {
         "inventarniCislo": "153",
         "umisteni": "Vitrína 1 (vedlejší místnost)",
+        "vyrobce": "Pragotron",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -7527,7 +7566,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.265Z",
+      "scrapedAt": "2026-04-30T03:25:53.213Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7563,7 +7602,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.265Z",
+      "scrapedAt": "2026-04-30T03:25:53.213Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7601,7 +7640,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.265Z",
+      "scrapedAt": "2026-04-30T03:25:53.213Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7637,7 +7676,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.265Z",
+      "scrapedAt": "2026-04-30T03:25:53.213Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7675,7 +7714,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.266Z",
+      "scrapedAt": "2026-04-30T03:25:53.213Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7713,7 +7752,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.266Z",
+      "scrapedAt": "2026-04-30T03:25:53.213Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7751,7 +7790,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.266Z",
+      "scrapedAt": "2026-04-30T03:25:53.213Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7789,7 +7828,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.266Z",
+      "scrapedAt": "2026-04-30T03:25:53.213Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7800,6 +7839,7 @@
       "karta": {
         "inventarniCislo": "161",
         "umisteni": "Vitrína 1 (vedlejší místnost)",
+        "vyrobce": "Bulle",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -7827,7 +7867,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.266Z",
+      "scrapedAt": "2026-04-30T03:25:53.213Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7860,7 +7900,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.266Z",
+      "scrapedAt": "2026-04-30T03:25:53.213Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7896,7 +7936,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.266Z",
+      "scrapedAt": "2026-04-30T03:25:53.213Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7932,7 +7972,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.266Z",
+      "scrapedAt": "2026-04-30T03:25:53.213Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7968,7 +8008,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.266Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8006,7 +8046,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.266Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8042,7 +8082,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.266Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8077,7 +8117,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.266Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8113,7 +8153,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.266Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8149,7 +8189,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.266Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8185,7 +8225,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.266Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8221,7 +8261,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.267Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8258,7 +8298,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.267Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8295,7 +8335,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.267Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8330,7 +8370,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.267Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8367,7 +8407,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.267Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8404,7 +8444,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.267Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8441,7 +8481,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.267Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8477,7 +8517,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.267Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8512,7 +8552,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.267Z",
+      "scrapedAt": "2026-04-30T03:25:53.214Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8547,7 +8587,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.267Z",
+      "scrapedAt": "2026-04-30T03:25:53.215Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8582,7 +8622,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.267Z",
+      "scrapedAt": "2026-04-30T03:25:53.215Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8617,7 +8657,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.267Z",
+      "scrapedAt": "2026-04-30T03:25:53.215Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8654,7 +8694,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.267Z",
+      "scrapedAt": "2026-04-30T03:25:53.215Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8892,7 +8932,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.267Z",
+      "scrapedAt": "2026-04-30T03:25:53.215Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8928,7 +8968,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.268Z",
+      "scrapedAt": "2026-04-30T03:25:53.215Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8966,7 +9006,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.268Z",
+      "scrapedAt": "2026-04-30T03:25:53.215Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9004,7 +9044,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.268Z",
+      "scrapedAt": "2026-04-30T03:25:53.215Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9042,7 +9082,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.268Z",
+      "scrapedAt": "2026-04-30T03:25:53.215Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9080,7 +9120,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.268Z",
+      "scrapedAt": "2026-04-30T03:25:53.215Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9117,7 +9157,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.268Z",
+      "scrapedAt": "2026-04-30T03:25:53.215Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9153,7 +9193,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.268Z",
+      "scrapedAt": "2026-04-30T03:25:53.215Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9164,6 +9204,7 @@
       "karta": {
         "inventarniCislo": "194",
         "umisteni": "Vitrína 2 (vedlejší místnost)",
+        "vyrobce": "Elektročas",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -9191,7 +9232,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.268Z",
+      "scrapedAt": "2026-04-30T03:25:53.215Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9232,7 +9273,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.268Z",
+      "scrapedAt": "2026-04-30T03:25:53.215Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9268,7 +9309,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.268Z",
+      "scrapedAt": "2026-04-30T03:25:53.216Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9304,7 +9345,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.268Z",
+      "scrapedAt": "2026-04-30T03:25:53.216Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9315,6 +9356,7 @@
       "karta": {
         "inventarniCislo": "198",
         "umisteni": "Vitrína 2 (vedlejší místnost)",
+        "vyrobce": "Pragotron",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -9342,7 +9384,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.268Z",
+      "scrapedAt": "2026-04-30T03:25:53.216Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9353,6 +9395,7 @@
       "karta": {
         "inventarniCislo": "199",
         "umisteni": "Vitrína 2 (vedlejší místnost)",
+        "vyrobce": "Pragotron",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -9380,7 +9423,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.269Z",
+      "scrapedAt": "2026-04-30T03:25:53.216Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9421,7 +9464,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.269Z",
+      "scrapedAt": "2026-04-30T03:25:53.216Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9457,7 +9500,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.269Z",
+      "scrapedAt": "2026-04-30T03:25:53.216Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9492,7 +9535,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.269Z",
+      "scrapedAt": "2026-04-30T03:25:53.216Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9528,7 +9571,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.269Z",
+      "scrapedAt": "2026-04-30T03:25:53.216Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9564,7 +9607,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.269Z",
+      "scrapedAt": "2026-04-30T03:25:53.216Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9600,7 +9643,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.269Z",
+      "scrapedAt": "2026-04-30T03:25:53.216Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9636,7 +9679,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.269Z",
+      "scrapedAt": "2026-04-30T03:25:53.216Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9673,7 +9716,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.269Z",
+      "scrapedAt": "2026-04-30T03:25:53.216Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9710,7 +9753,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.269Z",
+      "scrapedAt": "2026-04-30T03:25:53.216Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9745,7 +9788,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.269Z",
+      "scrapedAt": "2026-04-30T03:25:53.217Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9782,7 +9825,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.269Z",
+      "scrapedAt": "2026-04-30T03:25:53.217Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9819,7 +9862,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.269Z",
+      "scrapedAt": "2026-04-30T03:25:53.217Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9856,7 +9899,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.269Z",
+      "scrapedAt": "2026-04-30T03:25:53.217Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9892,7 +9935,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.269Z",
+      "scrapedAt": "2026-04-30T03:25:53.217Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9927,7 +9970,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.217Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9963,7 +10006,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.217Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9998,7 +10041,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.217Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10033,7 +10076,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.217Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10070,7 +10113,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.217Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10308,7 +10351,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.217Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10344,7 +10387,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.217Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10382,7 +10425,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.217Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10420,7 +10463,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.217Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10458,7 +10501,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.218Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10496,7 +10539,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.218Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10533,7 +10576,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.218Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10569,7 +10612,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.218Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10580,6 +10623,7 @@
       "karta": {
         "inventarniCislo": "227",
         "umisteni": "Vitrína 3 (vedlejší místnost)",
+        "vyrobce": "Elektročas",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -10607,7 +10651,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.218Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10648,7 +10692,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.218Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10684,7 +10728,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.270Z",
+      "scrapedAt": "2026-04-30T03:25:53.218Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10720,7 +10764,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.271Z",
+      "scrapedAt": "2026-04-30T03:25:53.218Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10731,6 +10775,7 @@
       "karta": {
         "inventarniCislo": "231",
         "umisteni": "Vitrína 3 (vedlejší místnost)",
+        "vyrobce": "Pragotron",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -10758,7 +10803,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.271Z",
+      "scrapedAt": "2026-04-30T03:25:53.218Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10769,6 +10814,7 @@
       "karta": {
         "inventarniCislo": "232",
         "umisteni": "Vitrína 3 (vedlejší místnost)",
+        "vyrobce": "Pragotron",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -10796,7 +10842,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.271Z",
+      "scrapedAt": "2026-04-30T03:25:53.218Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10837,7 +10883,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.271Z",
+      "scrapedAt": "2026-04-30T03:25:53.218Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10873,7 +10919,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.271Z",
+      "scrapedAt": "2026-04-30T03:25:53.218Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10883,7 +10929,7 @@
       "karta": {
         "inventarniCislo": "235",
         "umisteni": "Vitrína 3 (vedlejší místnost)",
-        "datace": "2022",
+        "pridanoDoSbirky": "2022",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -10910,7 +10956,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.271Z",
+      "scrapedAt": "2026-04-30T03:25:53.218Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10920,7 +10966,7 @@
       "karta": {
         "inventarniCislo": "236",
         "umisteni": "Vitrína 3 (vedlejší místnost)",
-        "datace": "2022",
+        "pridanoDoSbirky": "2022",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -10947,7 +10993,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.271Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10957,7 +11003,7 @@
       "karta": {
         "inventarniCislo": "237",
         "umisteni": "Vitrína 3 (vedlejší místnost)",
-        "datace": "2025",
+        "pridanoDoSbirky": "2025",
         "majitel": "Šubrt",
         "vztahKeSbirce": "dar",
         "stav": "funkční"
@@ -10984,7 +11030,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.271Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11022,7 +11068,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.271Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11058,7 +11104,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.271Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11094,7 +11140,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.271Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11104,7 +11150,7 @@
       "karta": {
         "inventarniCislo": "241",
         "umisteni": "Vitrína 4 (vedlejší místnost)",
-        "datace": "2022",
+        "pridanoDoSbirky": "2022",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -11131,7 +11177,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.271Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11141,7 +11187,7 @@
       "karta": {
         "inventarniCislo": "242",
         "umisteni": "Vitrína 4 (vedlejší místnost)",
-        "datace": "2022",
+        "pridanoDoSbirky": "2022",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -11168,7 +11214,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.271Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11178,7 +11224,7 @@
       "karta": {
         "inventarniCislo": "243",
         "umisteni": "Vitrína 4 (vedlejší místnost)",
-        "datace": "2022",
+        "pridanoDoSbirky": "2022",
         "majitel": "Kavalír",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -11210,7 +11256,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.271Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11220,7 +11266,7 @@
       "karta": {
         "inventarniCislo": "244",
         "umisteni": "Vitrína 4 (vedlejší místnost)",
-        "datace": "2022",
+        "pridanoDoSbirky": "2022",
         "majitel": "Havlíček",
         "vztahKeSbirce": "dar",
         "stav": "funkční"
@@ -11247,7 +11293,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11257,7 +11303,7 @@
       "karta": {
         "inventarniCislo": "245",
         "umisteni": "Vitrína 4 (vedlejší místnost)",
-        "datace": "2023",
+        "pridanoDoSbirky": "2023",
         "majitel": "Havlíček",
         "vztahKeSbirce": "dar",
         "stav": "funkční"
@@ -11284,7 +11330,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11294,7 +11340,7 @@
       "karta": {
         "inventarniCislo": "246",
         "umisteni": "Vitrína 4 (vedlejší místnost)",
-        "datace": "2023",
+        "pridanoDoSbirky": "2023",
         "majitel": "Havlíček",
         "vztahKeSbirce": "dar",
         "stav": "funkční"
@@ -11321,7 +11367,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11363,7 +11409,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11395,7 +11441,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11427,7 +11473,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11459,7 +11505,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11491,7 +11537,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.219Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11523,7 +11569,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.220Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11534,6 +11580,7 @@
       "karta": {
         "inventarniCislo": "253",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
+        "vyrobce": "Elektročas",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -11563,7 +11610,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.220Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11601,7 +11648,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.220Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11639,7 +11686,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.220Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11675,7 +11722,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.220Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11687,7 +11734,8 @@
       "karta": {
         "inventarniCislo": "257",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2019",
+        "vyrobce": "Hainz",
+        "pridanoDoSbirky": "2019",
         "majitel": "Spolek",
         "vztahKeSbirce": "dar",
         "stav": "funkční"
@@ -11716,7 +11764,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.220Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11752,7 +11800,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.220Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11762,7 +11810,7 @@
       "karta": {
         "inventarniCislo": "259",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2019",
+        "pridanoDoSbirky": "2019",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -11791,7 +11839,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.220Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11801,7 +11849,7 @@
       "karta": {
         "inventarniCislo": "260",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2019",
+        "pridanoDoSbirky": "2019",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -11828,7 +11876,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.272Z",
+      "scrapedAt": "2026-04-30T03:25:53.220Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11839,7 +11887,7 @@
       "karta": {
         "inventarniCislo": "261",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2019",
+        "pridanoDoSbirky": "2019",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -11867,7 +11915,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.273Z",
+      "scrapedAt": "2026-04-30T03:25:53.220Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11878,6 +11926,7 @@
       "karta": {
         "inventarniCislo": "262",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
+        "vyrobce": "Elektročas",
         "majitel": "Hingar",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -11905,7 +11954,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.273Z",
+      "scrapedAt": "2026-04-30T03:25:53.220Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11916,6 +11965,7 @@
       "karta": {
         "inventarniCislo": "263",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
+        "vyrobce": "Elektročas",
         "majitel": "Hingar",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -11943,7 +11993,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.273Z",
+      "scrapedAt": "2026-04-30T03:25:53.220Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11979,7 +12029,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.273Z",
+      "scrapedAt": "2026-04-30T03:25:53.220Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11989,7 +12039,7 @@
       "karta": {
         "inventarniCislo": "265",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "Hingar",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -12016,7 +12066,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.273Z",
+      "scrapedAt": "2026-04-30T03:25:53.220Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12026,7 +12076,7 @@
       "karta": {
         "inventarniCislo": "266",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "Hingar",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -12053,7 +12103,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.273Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12064,7 +12114,8 @@
       "karta": {
         "inventarniCislo": "267",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2020",
+        "vyrobce": "Jednotný čas",
+        "pridanoDoSbirky": "2020",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -12092,7 +12143,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.273Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12103,7 +12154,8 @@
       "karta": {
         "inventarniCislo": "268",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2020",
+        "vyrobce": "Brillié",
+        "pridanoDoSbirky": "2020",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -12131,7 +12183,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.273Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12169,7 +12221,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.273Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12180,7 +12232,8 @@
       "karta": {
         "inventarniCislo": "270",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2020",
+        "vyrobce": "Pragotron",
+        "pridanoDoSbirky": "2020",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -12208,7 +12261,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.273Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12219,7 +12272,7 @@
       "karta": {
         "inventarniCislo": "271",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "Spolek",
         "vztahKeSbirce": "dar",
         "stav": "funkční"
@@ -12247,7 +12300,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.273Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12257,7 +12310,7 @@
       "karta": {
         "inventarniCislo": "272",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2021",
+        "pridanoDoSbirky": "2021",
         "majitel": "Baudisch",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -12284,7 +12337,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.273Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12294,7 +12347,7 @@
       "karta": {
         "inventarniCislo": "273",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2021",
+        "pridanoDoSbirky": "2021",
         "majitel": "Spolek",
         "vztahKeSbirce": "dar",
         "stav": "funkční"
@@ -12321,7 +12374,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.273Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12332,7 +12385,8 @@
       "karta": {
         "inventarniCislo": "274",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2021",
+        "vyrobce": "Elektročas",
+        "pridanoDoSbirky": "2021",
         "majitel": "Spolek",
         "vztahKeSbirce": "dar",
         "stav": "funkční"
@@ -12360,7 +12414,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.273Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12370,7 +12424,7 @@
       "karta": {
         "inventarniCislo": "275",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2021",
+        "pridanoDoSbirky": "2021",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -12397,7 +12451,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.273Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12407,7 +12461,7 @@
       "karta": {
         "inventarniCislo": "276",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2020",
+        "pridanoDoSbirky": "2020",
         "majitel": "Spolek",
         "vztahKeSbirce": "dar",
         "stav": "funkční"
@@ -12636,7 +12690,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12646,7 +12700,7 @@
       "karta": {
         "inventarniCislo": "277",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2022",
+        "pridanoDoSbirky": "2022",
         "majitel": "Spolek",
         "vztahKeSbirce": "koupě",
         "stav": "funkční"
@@ -12673,7 +12727,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12683,7 +12737,7 @@
       "karta": {
         "inventarniCislo": "278",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2022",
+        "pridanoDoSbirky": "2022",
         "majitel": "Hingar",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -12710,7 +12764,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12721,7 +12775,7 @@
       "karta": {
         "inventarniCislo": "279",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2023",
+        "pridanoDoSbirky": "2023",
         "majitel": "Spolek",
         "stav": "funkční"
       }
@@ -12748,7 +12802,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12760,7 +12814,8 @@
       "karta": {
         "inventarniCislo": "280",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2023",
+        "vyrobce": "Hainz",
+        "pridanoDoSbirky": "2023",
         "majitel": "Spolek",
         "vztahKeSbirce": "dar",
         "stav": "funkční",
@@ -12795,7 +12850,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12805,7 +12860,7 @@
       "karta": {
         "inventarniCislo": "281",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2017",
+        "pridanoDoSbirky": "2017",
         "majitel": "Kouba",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -12832,7 +12887,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12842,7 +12897,7 @@
       "karta": {
         "inventarniCislo": "282",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2024",
+        "pridanoDoSbirky": "2024",
         "majitel": "Spolek",
         "vztahKeSbirce": "dar",
         "stav": "funkční",
@@ -12875,7 +12930,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12885,7 +12940,7 @@
       "karta": {
         "inventarniCislo": "x1",
         "umisteni": "Vitrína 4 (vedlejší místnost)",
-        "datace": "2025",
+        "pridanoDoSbirky": "2025",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -12912,7 +12967,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12922,7 +12977,7 @@
       "karta": {
         "inventarniCislo": "x10",
         "umisteni": "Vitrína 5 (vedlejší místnost)",
-        "datace": "2024",
+        "pridanoDoSbirky": "2024",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -12949,7 +13004,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.221Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12959,7 +13014,7 @@
       "karta": {
         "inventarniCislo": "x2",
         "umisteni": "Vitrína 4 (vedlejší místnost)",
-        "datace": "2025",
+        "pridanoDoSbirky": "2025",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -12986,7 +13041,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.222Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12996,7 +13051,7 @@
       "karta": {
         "inventarniCislo": "x3",
         "umisteni": "Vitrína 4 (vedlejší místnost)",
-        "datace": "2025",
+        "pridanoDoSbirky": "2025",
         "majitel": "Král",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -13023,7 +13078,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.222Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -13057,7 +13112,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.222Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -13091,7 +13146,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.222Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -13125,7 +13180,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.222Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -13156,7 +13211,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.222Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -13166,7 +13221,7 @@
       "karta": {
         "inventarniCislo": "x8",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2025",
+        "pridanoDoSbirky": "2025",
         "majitel": "Kouba",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"
@@ -13193,7 +13248,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:15:37.274Z",
+      "scrapedAt": "2026-04-30T03:25:53.222Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -13203,7 +13258,7 @@
       "karta": {
         "inventarniCislo": "x9",
         "umisteni": "Rohová vitrína (vedlejší místnost)",
-        "datace": "2026",
+        "pridanoDoSbirky": "2026",
         "majitel": "Kavalír",
         "vztahKeSbirce": "zápůjčka",
         "stav": "funkční"

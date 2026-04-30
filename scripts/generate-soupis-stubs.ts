@@ -125,47 +125,54 @@ function detectKrok(typCol: string): string[] {
   return tags;
 }
 
+/** Mapa detekce výrobce — regex → [tag, displayName] pro karta.vyrobce field */
+const VYROBCE_MAP: Array<[RegExp, string, string]> = [
+  [/prokeš/i, 'prokes', 'Jan Prokeš'],
+  [/elektroča?s/i, 'elektrocas', 'Elektročas'],
+  [/brillié|brillie/i, 'brillie', 'Brillié'],
+  [/lenzkirch/i, 'lenzkirch', 'Lenzkirch'],
+  [/wenzel mellner|w\. mellner/i, 'wenzel-mellner', 'Wenzel Mellner'],
+  [/schaffhausen/i, 'schaffhausen', 'Schaffhausen'],
+  [/bodet/i, 'bodet', 'Bodet'],
+  [/pragotron/i, 'pragotron', 'Pragotron'],
+  [/pulsynetic/i, 'pulsynetic', 'Pulsynetic'],
+  [/bulle/i, 'bulle', 'Bulle'],
+  [/iwc\b/i, 'iwc', 'IWC'],
+  [/mobatime/i, 'mobatime', 'Mobatime'],
+  [/meinberg/i, 'meinberg', 'Meinberg'],
+  [/hainz/i, 'hainz', 'Hainz'],
+  [/hiemann/i, 'hiemann', 'Hiemann'],
+  [/michael christ/i, 'michael-christ', 'Michael Christ'],
+  [/beitel/i, 'beitel', 'F. X. Beitel'],
+  [/r\. liebing|liebing/i, 'liebing', 'Richard Liebing'],
+  [/thöndel|thondel/i, 'thondel', 'Thöndel'],
+  [/rochlitz/i, 'rochlitz', 'Rochlitz'],
+  [/paul zieux|zieux/i, 'paul-zieux', 'Paul Zieux'],
+  [/kohlert/i, 'kohlert', 'Kohlert'],
+  [/krečmer|krecmer/i, 'krecmer', 'Krečmer'],
+  [/achrer/i, 'achrer', 'Josef Achrer'],
+  [/bassler/i, 'bassler', 'Friedrich Moritz Bassler'],
+  [/junghans/i, 'junghans', 'Junghans'],
+  [/hipp\b/i, 'hipp', 'Hipp'],
+  [/wagner/i, 'wagner', 'Wagner'],
+  [/kienzle/i, 'kienzle', 'Kienzle'],
+  [/jednotn[íý] čas|jednotn[íý] cas/i, 'jednotny-cas', 'Jednotný čas'],
+  [/manesov|maneš/i, 'manesova', 'Hodinářská rodina Manesova'],
+  [/datumatic/i, 'datumatic', 'Datumatic'],
+  [/solari/i, 'solari-udine', 'Solari Udine'],
+];
+
 /** Detekce vyrobce-tagu z popisu (extrahuje známá jména) */
 function detectVyrobce(popis: string): string[] {
   const tags: string[] = [];
-  const lc = popis.toLowerCase();
-  const map: Array<[RegExp, string]> = [
-    [/prokeš/, 'prokes'],
-    [/elektroča?s/, 'elektrocas'],
-    [/brillié|brillie/, 'brillie'],
-    [/lenzkirch/, 'lenzkirch'],
-    [/wenzel mellner|w\. mellner/, 'wenzel-mellner'],
-    [/schaffhausen/, 'schaffhausen'],
-    [/bodet/, 'bodet'],
-    [/pragotron/, 'pragotron'],
-    [/pulsynetic/, 'pulsynetic'],
-    [/bulle/, 'bulle'],
-    [/iwc\b/, 'iwc'],
-    [/mobatime/, 'mobatime'],
-    [/meinberg/, 'meinberg'],
-    [/hainz/, 'hainz'],
-    [/hiemann/, 'hiemann'],
-    [/michael christ/, 'michael-christ'],
-    [/beitel/, 'beitel'],
-    [/r\. liebing|liebing/, 'liebing'],
-    [/thöndel|thondel/, 'thondel'],
-    [/rochlitz/, 'rochlitz'],
-    [/paul zieux|zieux/, 'paul-zieux'],
-    [/kohlert/, 'kohlert'],
-    [/krečmer|krecmer/, 'krecmer'],
-    [/achrer/, 'achrer'],
-    [/bassler/, 'bassler'],
-    [/junghans/, 'junghans'],
-    [/hipp\b/, 'hipp'],
-    [/wagner/, 'wagner'],
-    [/kienzle/, 'kienzle'],
-    [/jednotn[íý] čas|jednotn[íý] cas/, 'jednotny-cas'],
-    [/manesov|maneš/, 'manesova'],
-    [/datumatic/, 'datumatic'],
-    [/solari/, 'solari-udine'],
-  ];
-  for (const [re, tag] of map) if (re.test(lc)) tags.push(tag);
+  for (const [re, tag] of VYROBCE_MAP) if (re.test(popis)) tags.push(tag);
   return tags;
+}
+
+/** Detekce display name výrobce (první match z VYROBCE_MAP) */
+function detectVyrobceDisplay(popis: string): string | null {
+  for (const [re, , display] of VYROBCE_MAP) if (re.test(popis)) return display;
+  return null;
 }
 
 async function listExistingSlugs(): Promise<Set<string>> {
@@ -227,10 +234,26 @@ async function main() {
       inventarniCislo: e.invCislo,
       umisteni: e.lokaceHuman,
     };
-    if (e.rok) karta.datace = e.rok;
+    // Rok výroby — extract z popisu, hledá 4-digit year v plausibilním rozsahu
+    // 1500–2029 (krajní rok 2029 = nejbližší dohledná akvizice). Bere první match.
+    const rokMatch = e.popis.match(/\b(1[5-9]\d{2}|20[0-2]\d)\b/);
+    if (rokMatch) karta.rokVyroby = rokMatch[1];
+    // Výrobce — display name z VYROBCE_MAP
+    const vyrobceDisplay = detectVyrobceDisplay(e.popis);
+    if (vyrobceDisplay) karta.vyrobce = vyrobceDisplay;
+    // Rok přírůstku do spolku (z XLS sloupce Rok)
+    if (e.rok) karta.pridanoDoSbirky = e.rok;
     if (e.majitel) karta.majitel = e.majitel;
     if (e.vztah) karta.vztahKeSbirce = e.vztah;
     if (e.stav) karta.stav = e.stav;
+    // Pole, která vyplní user ručně z Popisů strojů.doc:
+    //   - datace (širší období, např. "polovina 18. století")
+    //   - vyrobce (z popisu — ale popis je často "věžní Hiemann 1884" tj. název+rok)
+    //   - signatura, provenience, puvodniUmisteni
+    //   - konstrukční detaily (ram, krok, biciStroje, rozmery, kyvadlo, …)
+    //   - darceZapujcitel (ne vždy = majitel)
+    //   - restaurovani, adaptaceProVystavu
+    //
     // Poznámku z XLS (typ. lokalita exponátu před koupí, vrácení atd.)
     // dáme do extra[] — není to standardní karta atribut.
     if (e.poznamka) {

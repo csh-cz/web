@@ -41,6 +41,7 @@ interface PuvodniUmisteni {
 interface Karta {
   // Identifikace
   inventarniCislo?: string;
+  rokVyroby?: string;
   datace?: string;
   vyrobce?: string;
   signatura?: string;
@@ -57,8 +58,12 @@ interface Karta {
   // Spolková evidence
   umisteni?: string;
   majitel?: string;
+  darceZapujcitel?: string;
   vztahKeSbirce?: string;
+  pridanoDoSbirky?: string;
   stav?: string;
+  restaurovani?: string;
+  adaptaceProVystavu?: string;
   // Ostatní
   extra?: KartaExtra[];
 }
@@ -73,6 +78,7 @@ const { karta } = Astro.props;
 const standardFields: Array<{ key: keyof Karta; label: string }> = [
   // Identifikace
   { key: 'inventarniCislo', label: 'Inventární číslo' },
+  { key: 'rokVyroby', label: 'Rok výroby' },
   { key: 'datace', label: 'Datace' },
   { key: 'vyrobce', label: 'Výrobce' },
   { key: 'signatura', label: 'Signatura' },
@@ -88,8 +94,12 @@ const standardFields: Array<{ key: keyof Karta; label: string }> = [
   // Spolková evidence
   { key: 'umisteni', label: 'Umístění' },
   { key: 'majitel', label: 'Majitel' },
+  { key: 'darceZapujcitel', label: 'Dárce / zapůjčitel' },
   { key: 'vztahKeSbirce', label: 'Vztah ke sbírce' },
+  { key: 'pridanoDoSbirky', label: 'Přidáno do sbírky' },
   { key: 'stav', label: 'Stav' },
+  { key: 'restaurovani', label: 'Restaurování' },
+  { key: 'adaptaceProVystavu', label: 'Adaptace pro vystavení' },
 ];
 
 /**

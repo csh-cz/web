@@ -103,9 +103,10 @@ const clanky = defineCollection({
      */
     karta: z
       .object({
-        // Identifikace exponátu
+        // === Identifikace exponátu ===
         inventarniCislo: z.string().optional(),
-        datace: z.string().optional(),
+        rokVyroby: z.string().optional(),       // specifický rok ("1884", "1868")
+        datace: z.string().optional(),          // širší období ("polovina 18. století", "1868–1872")
         vyrobce: z.string().optional(),
         signatura: z.string().optional(),
         provenience: z.string().optional(),
@@ -120,7 +121,7 @@ const clanky = defineCollection({
             detail: z.string().optional(),     // "věž – jižní strana"
           })
           .optional(),
-        // Konstrukce
+        // === Konstrukce ===
         ram: z.string().optional(),
         krokJicihoStroje: z.string().optional(),
         biciStroje: z.string().optional(),
@@ -128,12 +129,16 @@ const clanky = defineCollection({
         kyvadlo: z.string().optional(),
         ciselnik: z.string().optional(),
         pohon: z.string().optional(),
-        // Spolková evidence
-        umisteni: z.string().optional(),
-        majitel: z.string().optional(),
-        vztahKeSbirce: z.string().optional(),
+        // === Spolková evidence ===
+        umisteni: z.string().optional(),                    // současné umístění v Hodináriu
+        majitel: z.string().optional(),                     // kdo exponát vlastní
+        darceZapujcitel: z.string().optional(),             // od koho jsme dostali (často ≠ majitel)
+        vztahKeSbirce: z.string().optional(),               // zápůjčka / dar / koupě / montáž
+        pridanoDoSbirky: z.string().optional(),             // rok přírůstku do spolku
         stav: z.string().optional(),
-        // Cokoli ostatní
+        restaurovani: z.string().optional(),                // kdy + kdo + co
+        adaptaceProVystavu: z.string().optional(),          // co bylo upraveno pro expozici
+        // === Cokoli ostatní (rare/specific) ===
         extra: z
           .array(z.object({ label: z.string(), value: z.string() }))
           .optional(),

@@ -62,7 +62,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.253Z"
+scrapedAt: "2026-04-30T03:25:53.199Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -74,7 +74,9 @@ tags:
 karta:
   inventarniCislo: "1"
   umisteni: "Hlavní sál"
-  datace: "2010"
+  rokVyroby: "1884"
+  vyrobce: "Hiemann"
+  pridanoDoSbirky: "2010"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
@@ -96,7 +98,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.254Z"
+scrapedAt: "2026-04-30T03:25:53.200Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -108,7 +110,9 @@ tags:
 karta:
   inventarniCislo: "2"
   umisteni: "Hlavní sál"
-  datace: "2010"
+  rokVyroby: "1868"
+  vyrobce: "Jan Prokeš"
+  pridanoDoSbirky: "2010"
   majitel: "Knespl + Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
@@ -130,7 +134,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.255Z"
+scrapedAt: "2026-04-30T03:25:53.201Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -139,7 +143,7 @@ tags:
 karta:
   inventarniCislo: "3"
   umisteni: "Hlavní sál"
-  datace: "2011"
+  pridanoDoSbirky: "2011"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
@@ -160,7 +164,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.255Z"
+scrapedAt: "2026-04-30T03:25:53.201Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -171,7 +175,7 @@ tags:
 karta:
   inventarniCislo: "4"
   umisteni: "Hlavní sál"
-  datace: "2011"
+  pridanoDoSbirky: "2011"
   majitel: "Klikar"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
@@ -191,7 +195,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.255Z"
+scrapedAt: "2026-04-30T03:25:53.201Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -202,7 +206,7 @@ tags:
 karta:
   inventarniCislo: "5"
   umisteni: "Hlavní sál"
-  datace: "2011"
+  pridanoDoSbirky: "2011"
   majitel: "Budislav"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
@@ -222,7 +226,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.255Z"
+scrapedAt: "2026-04-30T03:25:53.201Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -234,7 +238,8 @@ tags:
 karta:
   inventarniCislo: "6"
   umisteni: "Hlavní sál"
-  datace: "2012"
+  vyrobce: "Michael Christ"
+  pridanoDoSbirky: "2012"
   majitel: "Biskupství litoměřické"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
@@ -256,7 +261,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.255Z"
+scrapedAt: "2026-04-30T03:25:53.201Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -268,7 +273,8 @@ tags:
 karta:
   inventarniCislo: "7"
   umisteni: "Hlavní sál"
-  datace: "2015"
+  vyrobce: "F. X. Beitel"
+  pridanoDoSbirky: "2015"
   majitel: "Muzeum Děčín"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
@@ -290,7 +296,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.255Z"
+scrapedAt: "2026-04-30T03:25:53.201Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -302,7 +308,8 @@ tags:
 karta:
   inventarniCislo: "8"
   umisteni: "Hlavní sál"
-  datace: "2015"
+  vyrobce: "Richard Liebing"
+  pridanoDoSbirky: "2015"
   majitel: "Muzeum Děčín"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
@@ -324,7 +331,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.255Z"
+scrapedAt: "2026-04-30T03:25:53.201Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -336,7 +343,8 @@ tags:
 karta:
   inventarniCislo: "9"
   umisteni: "Hlavní sál"
-  datace: "2015"
+  vyrobce: "Thöndel"
+  pridanoDoSbirky: "2015"
   majitel: "Spolek"
   vztahKeSbirce: "dar"
   stav: "nefunkční"
@@ -359,7 +367,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.255Z"
+scrapedAt: "2026-04-30T03:25:53.201Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -370,7 +378,7 @@ tags:
 karta:
   inventarniCislo: "10"
   umisteni: "Hlavní sál"
-  datace: "2016"
+  pridanoDoSbirky: "2016"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
@@ -392,7 +400,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.255Z"
+scrapedAt: "2026-04-30T03:25:53.202Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -404,7 +412,7 @@ tags:
 karta:
   inventarniCislo: "11"
   umisteni: "Hlavní sál"
-  datace: "2016"
+  pridanoDoSbirky: "2016"
   majitel: "Kořínek"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
@@ -424,7 +432,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.255Z"
+scrapedAt: "2026-04-30T03:25:53.202Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -436,7 +444,8 @@ tags:
 karta:
   inventarniCislo: "12"
   umisteni: "Hlavní sál"
-  datace: "2016"
+  vyrobce: "Rochlitz"
+  pridanoDoSbirky: "2016"
   majitel: "Král + Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
@@ -457,7 +466,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.256Z"
+scrapedAt: "2026-04-30T03:25:53.202Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -469,7 +478,8 @@ tags:
 karta:
   inventarniCislo: "13"
   umisteni: "Hlavní sál"
-  datace: "2016"
+  vyrobce: "Wenzel Mellner"
+  pridanoDoSbirky: "2016"
   majitel: "Kouba"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
@@ -489,7 +499,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.256Z"
+scrapedAt: "2026-04-30T03:25:53.202Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -501,7 +511,8 @@ tags:
 karta:
   inventarniCislo: "14"
   umisteni: "Hlavní sál"
-  datace: "2016"
+  vyrobce: "Paul Zieux"
+  pridanoDoSbirky: "2016"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
@@ -521,7 +532,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.256Z"
+scrapedAt: "2026-04-30T03:25:53.202Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -533,7 +544,8 @@ tags:
 karta:
   inventarniCislo: "15"
   umisteni: "Hlavní sál"
-  datace: "2016"
+  vyrobce: "Kohlert"
+  pridanoDoSbirky: "2016"
   majitel: "Gross"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
@@ -553,7 +565,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.256Z"
+scrapedAt: "2026-04-30T03:25:53.202Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -564,7 +576,7 @@ tags:
 karta:
   inventarniCislo: "16"
   umisteni: "Hlavní sál"
-  datace: "2017"
+  pridanoDoSbirky: "2017"
   majitel: "Spolek"
   vztahKeSbirce: "koupě"
   stav: "funkční"
@@ -584,7 +596,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.256Z"
+scrapedAt: "2026-04-30T03:25:53.202Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -596,7 +608,8 @@ tags:
 karta:
   inventarniCislo: "17"
   umisteni: "Hlavní sál"
-  datace: "2018"
+  vyrobce: "Hainz"
+  pridanoDoSbirky: "2018"
   majitel: "Spolek"
   vztahKeSbirce: "koupě"
   stav: "funkční"
@@ -616,7 +629,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.256Z"
+scrapedAt: "2026-04-30T03:25:53.202Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -627,7 +640,7 @@ tags:
 karta:
   inventarniCislo: "18"
   umisteni: "Hlavní sál"
-  datace: "2018"
+  pridanoDoSbirky: "2018"
   majitel: "Spolek"
   vztahKeSbirce: "koupě"
   stav: "nefunkční"
@@ -649,7 +662,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.256Z"
+scrapedAt: "2026-04-30T03:25:53.202Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -660,7 +673,8 @@ tags:
 karta:
   inventarniCislo: "19"
   umisteni: "Hlavní sál"
-  datace: "2018"
+  rokVyroby: "1898"
+  pridanoDoSbirky: "2018"
   majitel: "Spolek"
   vztahKeSbirce: "koupě"
   stav: "funkční"
@@ -680,7 +694,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:15:37.256Z"
+scrapedAt: "2026-04-30T03:25:53.203Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -692,7 +706,8 @@ tags:
 karta:
   inventarniCislo: "20"
   umisteni: "Hlavní sál"
-  datace: "2018"
+  vyrobce: "Krečmer"
+  pridanoDoSbirky: "2018"
   majitel: "Spolek"
   vztahKeSbirce: "koupě"
   stav: "funkční"
