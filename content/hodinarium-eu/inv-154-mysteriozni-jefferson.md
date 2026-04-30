@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "154"
-  umisteni: "Vitrína 1 (vedlejší místnost)"
+  umisteni: "Vitrína 1 (Sál elektro)"
   majitel: "spolek"
   vztahKeSbirce: "spolek"
   stav: "funkční"

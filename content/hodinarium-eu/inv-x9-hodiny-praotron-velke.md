@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "x9"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2026"
   majitel: "Kavalír"
   vztahKeSbirce: "zápůjčka"

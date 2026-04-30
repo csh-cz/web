@@ -15,7 +15,7 @@ tags:
   - elektrocas
 karta:
   inventarniCislo: "263"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   vyrobce: "Elektročas"
   majitel: "Hingar"
   vztahKeSbirce: "zápůjčka"

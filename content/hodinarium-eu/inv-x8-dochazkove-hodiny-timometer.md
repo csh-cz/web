@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "x8"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2025"
   majitel: "Kouba"
   vztahKeSbirce: "zápůjčka"

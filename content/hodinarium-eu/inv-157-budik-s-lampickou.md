@@ -15,7 +15,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "157"
-  umisteni: "Vitrína 1 (vedlejší místnost)"
+  umisteni: "Vitrína 1 (Sál elektro)"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

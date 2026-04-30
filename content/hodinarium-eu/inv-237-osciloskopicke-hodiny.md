@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "237"
-  umisteni: "Vitrína 3 (vedlejší místnost)"
+  umisteni: "Vitrína 3 (Sál elektro)"
   pridanoDoSbirky: "2025"
   majitel: "Šubrt"
   vztahKeSbirce: "dar"

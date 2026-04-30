@@ -15,7 +15,7 @@ tags:
   - bulle
 karta:
   inventarniCislo: "161"
-  umisteni: "Vitrína 1 (vedlejší místnost)"
+  umisteni: "Vitrína 1 (Sál elektro)"
   vyrobce: "Bulle"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"

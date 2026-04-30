@@ -13,7 +13,7 @@ tags:
   - rohova-vitrina-vedlejsi
 karta:
   inventarniCislo: "x7"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
 ---
 
 ## Stub karty

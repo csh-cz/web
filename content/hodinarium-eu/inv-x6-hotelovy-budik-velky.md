@@ -14,7 +14,7 @@ tags:
   - budik
 karta:
   inventarniCislo: "x6"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   majitel: "Baudisch"
 ---
 

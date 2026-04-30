@@ -13,7 +13,7 @@ tags:
   - vitrina-2-hlavni
 karta:
   inventarniCislo: "80"
-  umisteni: "Vitrína 2 (hlavní místnost)"
+  umisteni: "Vitrína 2 (Sál věžních hodin)"
 ---
 
 ## Stub karty

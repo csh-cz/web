@@ -15,7 +15,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "71"
-  umisteni: "Vitrína 1 (hlavní místnost)"
+  umisteni: "Vitrína 1 (Sál věžních hodin)"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

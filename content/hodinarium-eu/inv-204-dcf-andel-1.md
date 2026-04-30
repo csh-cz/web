@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "204"
-  umisteni: "Vitrína 3 (vedlejší místnost)"
+  umisteni: "Vitrína 3 (Sál elektro)"
   majitel: "Anděl"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

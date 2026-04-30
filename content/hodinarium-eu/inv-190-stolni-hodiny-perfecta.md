@@ -15,7 +15,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "190"
-  umisteni: "Vitrína 2 (vedlejší místnost)"
+  umisteni: "Vitrína 2 (Sál elektro)"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

@@ -15,7 +15,7 @@ tags:
   - elektrocas
 karta:
   inventarniCislo: "253"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   vyrobce: "Elektročas"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"

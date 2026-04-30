@@ -15,7 +15,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "155"
-  umisteni: "Vitrína 1 (vedlejší místnost)"
+  umisteni: "Vitrína 1 (Sál elektro)"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

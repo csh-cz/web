@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "239"
-  umisteni: "Vitrína 4 (vedlejší místnost)"
+  umisteni: "Vitrína 4 (Sál elektro)"
   majitel: "Spolek"
   vztahKeSbirce: "dar"
   stav: "funkční"

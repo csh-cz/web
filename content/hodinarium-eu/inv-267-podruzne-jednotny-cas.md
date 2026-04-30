@@ -15,7 +15,7 @@ tags:
   - jednotny-cas
 karta:
   inventarniCislo: "267"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   vyrobce: "Jednotný čas"
   pridanoDoSbirky: "2020"
   majitel: "Baudisch"

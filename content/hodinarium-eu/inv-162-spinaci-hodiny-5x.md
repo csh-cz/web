@@ -13,7 +13,7 @@ tags:
   - vitrina-1-vedlejsi
 karta:
   inventarniCislo: "162"
-  umisteni: "Vitrína 1 (vedlejší místnost)"
+  umisteni: "Vitrína 1 (Sál elektro)"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
 ---

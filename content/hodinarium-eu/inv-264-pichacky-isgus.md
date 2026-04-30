@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "264"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   majitel: "Hingar"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

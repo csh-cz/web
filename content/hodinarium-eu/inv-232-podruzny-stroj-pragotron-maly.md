@@ -15,7 +15,7 @@ tags:
   - pragotron
 karta:
   inventarniCislo: "232"
-  umisteni: "Vitrína 3 (vedlejší místnost)"
+  umisteni: "Vitrína 3 (Sál elektro)"
   vyrobce: "Pragotron"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"

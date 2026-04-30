@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "242"
-  umisteni: "Vitrína 4 (vedlejší místnost)"
+  umisteni: "Vitrína 4 (Sál elektro)"
   pridanoDoSbirky: "2022"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"

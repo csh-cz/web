@@ -15,7 +15,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "238"
-  umisteni: "Vitrína 4 (vedlejší místnost)"
+  umisteni: "Vitrína 4 (Sál elektro)"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

@@ -15,7 +15,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "77"
-  umisteni: "Vitrína 1 (hlavní místnost)"
+  umisteni: "Vitrína 1 (Sál věžních hodin)"
   pridanoDoSbirky: "2025"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"

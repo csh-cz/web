@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "266"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2020"
   majitel: "Hingar"
   vztahKeSbirce: "zápůjčka"

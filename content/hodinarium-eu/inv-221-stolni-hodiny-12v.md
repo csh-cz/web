@@ -15,7 +15,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "221"
-  umisteni: "Vitrína 3 (vedlejší místnost)"
+  umisteni: "Vitrína 3 (Sál elektro)"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

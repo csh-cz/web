@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "278"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2022"
   majitel: "Hingar"
   vztahKeSbirce: "zápůjčka"

@@ -15,7 +15,7 @@ tags:
   - brillie
 karta:
   inventarniCislo: "268"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   vyrobce: "Brillié"
   pridanoDoSbirky: "2020"
   majitel: "Baudisch"

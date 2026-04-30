@@ -15,7 +15,7 @@ tags:
   - datumatic
 karta:
   inventarniCislo: "144"
-  umisteni: "Vitrína 1 (vedlejší místnost)"
+  umisteni: "Vitrína 1 (Sál elektro)"
   vyrobce: "Datumatic"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"

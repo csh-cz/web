@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "258"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

@@ -14,7 +14,7 @@ tags:
   - nefunkcni
 karta:
   inventarniCislo: "195"
-  umisteni: "Vitrína 2 (vedlejší místnost)"
+  umisteni: "Vitrína 2 (Sál elektro)"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"

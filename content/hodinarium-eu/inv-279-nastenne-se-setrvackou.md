@@ -15,7 +15,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "279"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2023"
   majitel: "Spolek"
   stav: "funkční"

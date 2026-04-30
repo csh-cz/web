@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "x10"
-  umisteni: "Vitrína 5 (vedlejší místnost)"
+  umisteni: "Vitrína 5 (Sál elektro)"
   pridanoDoSbirky: "2024"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"

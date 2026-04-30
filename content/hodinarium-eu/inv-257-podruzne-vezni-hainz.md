@@ -16,7 +16,7 @@ tags:
   - hainz
 karta:
   inventarniCislo: "257"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   vyrobce: "Hainz"
   pridanoDoSbirky: "2019"
   majitel: "Spolek"

@@ -15,7 +15,7 @@ tags:
   - elektrocas
 karta:
   inventarniCislo: "274"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   vyrobce: "Elektročas"
   pridanoDoSbirky: "2021"
   majitel: "Spolek"

@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "235"
-  umisteni: "Vitrína 3 (vedlejší místnost)"
+  umisteni: "Vitrína 3 (Sál elektro)"
   pridanoDoSbirky: "2022"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"

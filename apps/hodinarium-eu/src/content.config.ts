@@ -119,6 +119,12 @@ const clanky = defineCollection({
             detail: z.string().optional(),     // "věž – jižní strana"
           })
           .optional(),
+        // Komplety — pokud karta reprezentuje soubor (např. "věžní Prokeš
+        // 1868 soubor" obsahuje hodinový + bicí + zvonící stroj + cimbály),
+        // zde slugy souvisejících článků nebo sub-karet, které popisují
+        // jednotlivé komponenty. Vyrenderuje se jako "Komplet obsahuje:"
+        // navigation grid v karta detail page.
+        komponenty: z.array(z.string()).optional(),
         // === Konstrukce ===
         ram: z.string().optional(),
         krokJicihoStroje: z.string().optional(),

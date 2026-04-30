@@ -14,7 +14,7 @@ tags:
   - vodni
 karta:
   inventarniCislo: "x5"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   majitel: "Král"
 ---
 

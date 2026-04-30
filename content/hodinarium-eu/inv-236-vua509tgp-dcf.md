@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "236"
-  umisteni: "Vitrína 3 (vedlejší místnost)"
+  umisteni: "Vitrína 3 (Sál elektro)"
   pridanoDoSbirky: "2022"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"

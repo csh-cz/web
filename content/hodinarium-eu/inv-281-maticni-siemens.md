@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "281"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2017"
   majitel: "Kouba"
   vztahKeSbirce: "zápůjčka"

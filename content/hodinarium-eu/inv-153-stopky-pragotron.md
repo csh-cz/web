@@ -15,7 +15,7 @@ tags:
   - pragotron
 karta:
   inventarniCislo: "153"
-  umisteni: "Vitrína 1 (vedlejší místnost)"
+  umisteni: "Vitrína 1 (Sál elektro)"
   vyrobce: "Pragotron"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"

@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "79"
-  umisteni: "Vitrína 2 (hlavní místnost)"
+  umisteni: "Vitrína 2 (Sál věžních hodin)"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

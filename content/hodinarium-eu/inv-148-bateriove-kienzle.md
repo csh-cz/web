@@ -15,7 +15,7 @@ tags:
   - kienzle
 karta:
   inventarniCislo: "148"
-  umisteni: "Vitrína 1 (vedlejší místnost)"
+  umisteni: "Vitrína 1 (Sál elektro)"
   vyrobce: "Kienzle"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"

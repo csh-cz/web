@@ -15,7 +15,7 @@ tags:
   - pragotron
 karta:
   inventarniCislo: "231"
-  umisteni: "Vitrína 3 (vedlejší místnost)"
+  umisteni: "Vitrína 3 (Sál elektro)"
   vyrobce: "Pragotron"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"

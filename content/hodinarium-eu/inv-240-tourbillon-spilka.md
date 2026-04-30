@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "240"
-  umisteni: "Vitrína 4 (vedlejší místnost)"
+  umisteni: "Vitrína 4 (Sál elektro)"
   majitel: "Spolek"
   vztahKeSbirce: "dar"
   stav: "funkční"

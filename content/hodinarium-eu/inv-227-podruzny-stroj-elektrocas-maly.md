@@ -15,7 +15,7 @@ tags:
   - elektrocas
 karta:
   inventarniCislo: "227"
-  umisteni: "Vitrína 3 (vedlejší místnost)"
+  umisteni: "Vitrína 3 (Sál elektro)"
   vyrobce: "Elektročas"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"

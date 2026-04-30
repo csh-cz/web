@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "202"
-  umisteni: "Vitrína 3 (vedlejší místnost)"
+  umisteni: "Vitrína 3 (Sál elektro)"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

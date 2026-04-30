@@ -14,7 +14,7 @@ tags:
   - nefunkcni
 karta:
   inventarniCislo: "183"
-  umisteni: "Vitrína 2 (vedlejší místnost)"
+  umisteni: "Vitrína 2 (Sál elektro)"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
 ---

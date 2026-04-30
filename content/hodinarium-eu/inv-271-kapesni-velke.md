@@ -15,7 +15,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "271"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2020"
   majitel: "Spolek"
   vztahKeSbirce: "dar"

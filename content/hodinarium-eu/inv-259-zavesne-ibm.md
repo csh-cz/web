@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "259"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2019"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"

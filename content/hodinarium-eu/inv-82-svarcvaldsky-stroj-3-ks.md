@@ -13,7 +13,7 @@ tags:
   - vitrina-3-hlavni
 karta:
   inventarniCislo: "82"
-  umisteni: "Vitrína 3 (hlavní místnost)"
+  umisteni: "Vitrína 3 (Sál věžních hodin)"
   majitel: "Baudisch"
 ---
 

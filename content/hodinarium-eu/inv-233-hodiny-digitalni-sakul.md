@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "233"
-  umisteni: "Vitrína 3 (vedlejší místnost)"
+  umisteni: "Vitrína 3 (Sál elektro)"
   majitel: "Sakul"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

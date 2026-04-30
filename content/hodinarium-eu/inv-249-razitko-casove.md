@@ -13,7 +13,7 @@ tags:
   - rohova-vitrina-vedlejsi
 karta:
   inventarniCislo: "249"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   majitel: "Král"
 ---
 

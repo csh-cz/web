@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "269"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

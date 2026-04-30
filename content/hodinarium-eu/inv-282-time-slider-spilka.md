@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "282"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2024"
   majitel: "Spolek"
   vztahKeSbirce: "dar"

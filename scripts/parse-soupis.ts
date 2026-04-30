@@ -69,22 +69,33 @@ function parseCSV(text: string): string[][] {
   return rows;
 }
 
+/**
+ * Pojmenování místností v Hodináriu Děčín:
+ *   - mistnost = 'hlavni'   → Sál věžních hodin
+ *   - mistnost = 'vedlejsi' → Sál elektro
+ */
+const ROOM_NAMES: Record<string, string> = {
+  hlavni: 'Sál věžních hodin',
+  vedlejsi: 'Sál elektro',
+};
+
 function classifySection(label: string, mistnost: string): { tag: string; jmeno: string } {
   const l = label.toLowerCase();
+  const roomName = ROOM_NAMES[mistnost] ?? mistnost;
   if (l.startsWith('hlavní')) return { tag: 'hlavni-sal', jmeno: 'Hlavní sál' };
   if (l.startsWith('panel')) {
     const m = label.match(/panel\s*(\d+)/i);
     return { tag: m ? `panel-${m[1]}` : 'panel', jmeno: label };
   }
   if (l.includes('rohová')) {
-    return { tag: `rohova-vitrina-${mistnost}`, jmeno: `Rohová vitrína (${mistnost === 'hlavni' ? 'hlavní' : 'vedlejší'} místnost)` };
+    return { tag: `rohova-vitrina-${mistnost}`, jmeno: `Rohová vitrína (${roomName})` };
   }
   if (l.startsWith('vitrína')) {
     const m = label.match(/vitrína\s*(\d+)/i);
     const n = m?.[1] ?? '';
     return {
       tag: `vitrina-${n}-${mistnost}`,
-      jmeno: `Vitrína ${n} (${mistnost === 'hlavni' ? 'hlavní' : 'vedlejší'} místnost)`,
+      jmeno: `Vitrína ${n} (${roomName})`,
     };
   }
   return { tag: `lokace-${l.replace(/\s+/g, '-')}`, jmeno: label };

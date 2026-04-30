@@ -15,7 +15,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "68"
-  umisteni: "Vitrína 1 (hlavní místnost)"
+  umisteni: "Vitrína 1 (Sál věžních hodin)"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

@@ -19,6 +19,8 @@
     "soupis:parse": "tsx scripts/parse-soupis.ts",
     "soupis:stuby": "tsx scripts/generate-soupis-stubs.ts",
     "sbirka:relate": "tsx scripts/backfill-related-karty.ts",
+    "popisy:parse": "tsx scripts/parse-popisy-stroju.ts",
+    "popisy:apply": "tsx scripts/apply-popisy-to-karty.ts",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:headed": "playwright test --headed",

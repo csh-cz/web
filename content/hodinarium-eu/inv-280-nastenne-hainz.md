@@ -16,7 +16,7 @@ tags:
   - hainz
 karta:
   inventarniCislo: "280"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   vyrobce: "Hainz"
   pridanoDoSbirky: "2023"
   majitel: "Spolek"

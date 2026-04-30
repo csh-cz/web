@@ -15,7 +15,7 @@ tags:
   - pragotron
 karta:
   inventarniCislo: "198"
-  umisteni: "Vitrína 2 (vedlejší místnost)"
+  umisteni: "Vitrína 2 (Sál elektro)"
   vyrobce: "Pragotron"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"

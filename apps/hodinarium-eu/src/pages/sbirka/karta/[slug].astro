@@ -24,6 +24,19 @@ const vazaneClanky = all.filter((a) =>
   a.data.podsekce !== 'karta' &&
   (a.data.relatedKarty ?? []).includes(entry.data.slug)
 );
+
+// Komponenty kompletu — pokud karta má karta.komponenty: [...], lookup
+// titles a kategorie pro link generování
+const komponentySlugs = entry.data.karta?.komponenty ?? [];
+const komponenty = komponentySlugs
+  .map((slug) => all.find((a) => a.id === slug))
+  .filter((a): a is NonNullable<typeof a> => Boolean(a))
+  .map((a) => ({
+    slug: a.data.slug,
+    title: a.data.title,
+    category: a.data.category,
+    isKarta: a.data.podsekce === 'karta',
+  }));
 ---
 <Base
   title={entry.data.title}
@@ -49,6 +62,22 @@ const vazaneClanky = all.filter((a) =>
     </header>
 
     {entry.data.karta && <KartaSbirky karta={entry.data.karta} />}
+
+    {komponenty.length > 0 && (
+      <aside class="komplet" aria-labelledby="komplet-h">
+        <p class="eyebrow komplet-label" id="komplet-h">Komplet obsahuje</p>
+        <ul class="komplet-list">
+          {komponenty.map((k) => (
+            <li>
+              <a href={k.isKarta ? `/sbirka/karta/${k.slug}/` : clanekHref({ slug: k.slug, category: k.category })}>
+                <strong>{k.title}</strong>
+                {k.isKarta && <span class="komplet-badge">karta</span>}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </aside>
+    )}
 
     <div class="prose-content drop-cap" itemprop="description">
       <Content />
@@ -117,6 +146,53 @@ const vazaneClanky = all.filter((a) =>
     border-radius: 2px;
     padding: 1rem 1.25rem;
     margin: 2.5rem 0 1rem;
+  }
+
+  /* Komplet — list komponent (sub-karty / vázané články), když karta
+     reprezentuje soubor (např. Bychory komplet) */
+  .komplet {
+    background: color-mix(in srgb, var(--color-bg-deep) 85%, var(--color-brass));
+    border: 1px solid color-mix(in srgb, var(--color-brass) 28%, transparent);
+    border-left: 3px solid var(--color-brass);
+    border-radius: 2px;
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0;
+  }
+  .komplet-label { margin: 0 0 0.6rem; }
+  .komplet-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.5rem;
+  }
+  .komplet-list a {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--color-brass-bright);
+    transition: border-color 150ms ease;
+  }
+  .komplet-list a:hover { border-color: var(--color-brass); }
+  .komplet-list strong {
+    font-family: var(--font-serif);
+    font-weight: 500;
+  }
+  .komplet-badge {
+    margin-left: auto;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-copper);
+    padding: 0.1rem 0.4rem;
+    border: 1px solid color-mix(in srgb, var(--color-copper) 30%, transparent);
+    border-radius: 2px;
   }
   .vazane-clanky-label { margin: 0 0 0.6rem; }
   .vazane-clanky-list {

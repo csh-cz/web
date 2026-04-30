@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "72"
-  umisteni: "Vitrína 1 (hlavní místnost)"
+  umisteni: "Vitrína 1 (Sál věžních hodin)"
   majitel: "Spolek"
   vztahKeSbirce: "dar"
   stav: "funkční"

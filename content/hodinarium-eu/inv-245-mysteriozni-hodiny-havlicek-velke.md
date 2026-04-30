@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "245"
-  umisteni: "Vitrína 4 (vedlejší místnost)"
+  umisteni: "Vitrína 4 (Sál elektro)"
   pridanoDoSbirky: "2023"
   majitel: "Havlíček"
   vztahKeSbirce: "dar"

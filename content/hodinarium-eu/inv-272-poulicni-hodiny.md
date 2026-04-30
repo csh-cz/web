@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "272"
-  umisteni: "Rohová vitrína (vedlejší místnost)"
+  umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2021"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
