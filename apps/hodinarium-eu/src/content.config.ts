@@ -105,8 +105,7 @@ const clanky = defineCollection({
       .object({
         // === Identifikace exponátu ===
         inventarniCislo: z.string().optional(),
-        rokVyroby: z.string().optional(),       // specifický rok ("1884", "1868")
-        datace: z.string().optional(),          // širší období ("polovina 18. století", "1868–1872")
+        datace: z.string().optional(),          // rok výroby nebo širší období ("1884", "polovina 18. století", "1868–1872")
         vyrobce: z.string().optional(),
         signatura: z.string().optional(),
         provenience: z.string().optional(),

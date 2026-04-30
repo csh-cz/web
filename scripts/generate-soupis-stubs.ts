@@ -234,10 +234,11 @@ async function main() {
       inventarniCislo: e.invCislo,
       umisteni: e.lokaceHuman,
     };
-    // Rok výroby — extract z popisu, hledá 4-digit year v plausibilním rozsahu
-    // 1500–2029 (krajní rok 2029 = nejbližší dohledná akvizice). Bere první match.
+    // Datace — extract z popisu, hledá 4-digit year v plausibilním rozsahu
+    // 1500–2029. Pokud nalezen, použijeme jako prostou string ("1884").
+    // User může později upřesnit na širší období ("polovina 18. století").
     const rokMatch = e.popis.match(/\b(1[5-9]\d{2}|20[0-2]\d)\b/);
-    if (rokMatch) karta.rokVyroby = rokMatch[1];
+    if (rokMatch) karta.datace = rokMatch[1];
     // Výrobce — display name z VYROBCE_MAP
     const vyrobceDisplay = detectVyrobceDisplay(e.popis);
     if (vyrobceDisplay) karta.vyrobce = vyrobceDisplay;

@@ -62,7 +62,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.199Z"
+scrapedAt: "2026-04-30T03:29:49.056Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -74,7 +74,7 @@ tags:
 karta:
   inventarniCislo: "1"
   umisteni: "Hlavní sál"
-  rokVyroby: "1884"
+  datace: "1884"
   vyrobce: "Hiemann"
   pridanoDoSbirky: "2010"
   majitel: "Baudisch"
@@ -98,7 +98,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.200Z"
+scrapedAt: "2026-04-30T03:29:49.057Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -110,7 +110,7 @@ tags:
 karta:
   inventarniCislo: "2"
   umisteni: "Hlavní sál"
-  rokVyroby: "1868"
+  datace: "1868"
   vyrobce: "Jan Prokeš"
   pridanoDoSbirky: "2010"
   majitel: "Knespl + Král"
@@ -134,7 +134,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.201Z"
+scrapedAt: "2026-04-30T03:29:49.058Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -164,7 +164,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.201Z"
+scrapedAt: "2026-04-30T03:29:49.058Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -195,7 +195,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.201Z"
+scrapedAt: "2026-04-30T03:29:49.058Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -226,7 +226,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.201Z"
+scrapedAt: "2026-04-30T03:29:49.058Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -261,7 +261,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.201Z"
+scrapedAt: "2026-04-30T03:29:49.058Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -296,7 +296,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.201Z"
+scrapedAt: "2026-04-30T03:29:49.059Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -331,7 +331,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.201Z"
+scrapedAt: "2026-04-30T03:29:49.059Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -367,7 +367,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.201Z"
+scrapedAt: "2026-04-30T03:29:49.059Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -400,7 +400,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.202Z"
+scrapedAt: "2026-04-30T03:29:49.059Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -432,7 +432,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.202Z"
+scrapedAt: "2026-04-30T03:29:49.059Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -466,7 +466,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.202Z"
+scrapedAt: "2026-04-30T03:29:49.059Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -499,7 +499,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.202Z"
+scrapedAt: "2026-04-30T03:29:49.059Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -532,7 +532,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.202Z"
+scrapedAt: "2026-04-30T03:29:49.059Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -565,7 +565,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.202Z"
+scrapedAt: "2026-04-30T03:29:49.060Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -596,7 +596,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.202Z"
+scrapedAt: "2026-04-30T03:29:49.060Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -629,7 +629,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.202Z"
+scrapedAt: "2026-04-30T03:29:49.060Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -662,7 +662,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.202Z"
+scrapedAt: "2026-04-30T03:29:49.060Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -673,7 +673,7 @@ tags:
 karta:
   inventarniCislo: "19"
   umisteni: "Hlavní sál"
-  rokVyroby: "1898"
+  datace: "1898"
   pridanoDoSbirky: "2018"
   majitel: "Spolek"
   vztahKeSbirce: "koupě"
@@ -694,7 +694,7 @@ podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:25:53.203Z"
+scrapedAt: "2026-04-30T03:29:49.060Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:

@@ -41,7 +41,6 @@ interface PuvodniUmisteni {
 interface Karta {
   // Identifikace
   inventarniCislo?: string;
-  rokVyroby?: string;
   datace?: string;
   vyrobce?: string;
   signatura?: string;
@@ -78,7 +77,6 @@ const { karta } = Astro.props;
 const standardFields: Array<{ key: keyof Karta; label: string }> = [
   // Identifikace
   { key: 'inventarniCislo', label: 'Inventární číslo' },
-  { key: 'rokVyroby', label: 'Rok výroby' },
   { key: 'datace', label: 'Datace' },
   { key: 'vyrobce', label: 'Výrobce' },
   { key: 'signatura', label: 'Signatura' },
