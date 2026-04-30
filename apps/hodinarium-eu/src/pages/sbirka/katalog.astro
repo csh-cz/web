@@ -1,6 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
 import soupis from '../../data/soupis-exponatu.json';
+import { readdirSync } from 'node:fs';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 interface Exponat {
   invCislo: string;
@@ -19,6 +22,30 @@ interface Exponat {
 }
 
 const items = soupis as unknown as Exponat[];
+
+// Slugify shodný s scripts/generate-soupis-stubs.ts
+function slugify(s: string): string {
+  return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60);
+}
+function kartaSlug(e: Exponat): string {
+  return `inv-${e.invCislo}-${slugify(e.popis)}`;
+}
+
+// Detekce existujících inv-* karet ve content/hodinarium-eu/
+// (32 fuzzy konfliktů z generátoru NEbylo zapsáno — ty zůstávají plain text)
+const __filename = fileURLToPath(import.meta.url);
+const CONTENT_DIR = join(dirname(__filename), '..', '..', '..', '..', '..', 'content', 'hodinarium-eu');
+let existingKarty: Set<string>;
+try {
+  existingKarty = new Set(
+    readdirSync(CONTENT_DIR)
+      .filter((f) => f.startsWith('inv-') && (f.endsWith('.md') || f.endsWith('.mdx')))
+      .map((f) => f.replace(/\.(md|mdx)$/, ''))
+  );
+} catch {
+  existingKarty = new Set();
+}
 
 // Group by lokace, preserve order
 const lokaceOrder = [
@@ -64,6 +91,15 @@ const lokaceLabels: Record<string, string> = {
 
 const total = items.length;
 const maxInv = Math.max(...items.map((i) => i.invCisloNumeric ?? 0));
+const withKarta = items.filter((i) => existingKarty.has(kartaSlug(i))).length;
+
+// Counter per stav
+const stavCounts: Record<string, number> = {};
+for (const i of items) {
+  const k = i.stav || '—';
+  stavCounts[k] = (stavCounts[k] ?? 0) + 1;
+}
+const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
 ---
 <Base
   title="Katalog sbírkových předmětů"
@@ -75,12 +111,40 @@ const maxInv = Math.max(...items.map((i) => i.invCisloNumeric ?? 0));
     <p class="katalog-lede">
       Soupis <strong class="text-[var(--color-brass-bright)]">{total} exponátů</strong>
       Hodinária Děčín, členěno podle umístění v expozici.
-      Maximální inventární číslo: <strong>{maxInv}</strong>.
+      <strong>{withKarta}</strong> má vlastní evidenční kartu (klikni na řádku).
     </p>
+    <div class="stav-counters" aria-label="Stav exponátů">
+      {stavOrder.filter((s) => stavCounts[s]).map((s) => (
+        <span class={`stav-pill stav-${s}`}>
+          {s === '—' ? 'bez stavu' : s}
+          <span class="stav-pill-count">{stavCounts[s]}</span>
+        </span>
+      ))}
+    </div>
   </header>
 
+  <div class="katalog-controls">
+    <input
+      type="search"
+      class="katalog-search"
+      placeholder="Hledat v popisu, výrobci…"
+      aria-label="Hledat v katalogu"
+      data-katalog-search
+    />
+    <div class="katalog-filter" role="group" aria-label="Filtr podle umístění">
+      {[...byLokace.entries()].filter(([, list]) => list.length > 0).map(([code, list]) => (
+        <label class="filter-chip">
+          <input type="checkbox" checked data-filter-lokace={code} />
+          <span class="chip-dot" aria-hidden="true"></span>
+          <span class="chip-label">{lokaceLabels[code] ?? code}</span>
+          <span class="chip-count">{list.length}</span>
+        </label>
+      ))}
+    </div>
+  </div>
+
   {[...byLokace.entries()].filter(([, list]) => list.length > 0).map(([code, list]) => (
-    <section class="katalog-section" id={`l-${code}`}>
+    <section class="katalog-section" id={`l-${code}`} data-lokace-section={code}>
       <h2 class="katalog-section-h">
         {lokaceLabels[code] ?? code}
         <span class="katalog-section-count">{list.length}</span>
@@ -94,19 +158,33 @@ const maxInv = Math.max(...items.map((i) => i.invCisloNumeric ?? 0));
           <span role="columnheader">Vztah</span>
           <span role="columnheader">Majitel</span>
         </div>
-        {list.map((e) => (
-          <div class="katalog-row" role="row">
-            <span class="katalog-inv" role="cell">{e.invCislo}</span>
-            <span class="katalog-popis" role="cell">
-              <strong>{e.popis}</strong>
-              {e.poznamka && <span class="katalog-pozn"> — {e.poznamka}</span>}
-            </span>
-            <span class="katalog-typ" role="cell">{e.typ || '—'}</span>
-            <span class="katalog-stav" role="cell">{e.stav || '—'}</span>
-            <span class="katalog-vztah" role="cell">{e.vztah || '—'}</span>
-            <span class="katalog-majitel" role="cell">{e.majitel || '—'}</span>
-          </div>
-        ))}
+        {list.map((e) => {
+          const slug = kartaSlug(e);
+          const hasKarta = existingKarty.has(slug);
+          const dataSearch = `${e.popis} ${e.typ} ${e.majitel} ${e.invCislo}`.toLowerCase();
+          const inner = (
+            <>
+              <span class="katalog-inv" role="cell">{e.invCislo}</span>
+              <span class="katalog-popis" role="cell">
+                <strong>{e.popis}</strong>
+                {e.poznamka && <span class="katalog-pozn"> — {e.poznamka}</span>}
+              </span>
+              <span class="katalog-typ" role="cell">{e.typ || '—'}</span>
+              <span class="katalog-stav" role="cell">{e.stav || '—'}</span>
+              <span class="katalog-vztah" role="cell">{e.vztah || '—'}</span>
+              <span class="katalog-majitel" role="cell">{e.majitel || '—'}</span>
+            </>
+          );
+          return hasKarta ? (
+            <a href={`/sbirka/karta/${slug}/`} class="katalog-row katalog-row-link" role="row" data-search={dataSearch}>
+              {inner}
+            </a>
+          ) : (
+            <div class="katalog-row" role="row" data-search={dataSearch}>
+              {inner}
+            </div>
+          );
+        })}
       </div>
     </section>
   ))}
@@ -115,7 +193,7 @@ const maxInv = Math.max(...items.map((i) => i.invCisloNumeric ?? 0));
 <style>
   .katalog-header {
     max-width: 72ch;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
   }
   .katalog-title {
     font-family: var(--font-serif);
@@ -129,6 +207,92 @@ const maxInv = Math.max(...items.map((i) => i.invCisloNumeric ?? 0));
     font-size: 1.05rem;
     color: var(--color-text);
     line-height: 1.6;
+  }
+
+  .stav-counters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.5rem;
+    margin-top: 0.75rem;
+  }
+  .stav-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.2rem 0.55rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+    font-size: 0.78rem;
+    color: var(--color-text-soft);
+  }
+  .stav-pill-count {
+    font-feature-settings: "lnum";
+    color: var(--color-brass-bright);
+    font-weight: 500;
+  }
+  .stav-pill.stav-funkční { border-left: 3px solid #6a8a4a; }
+  .stav-pill.stav-nefunkční { border-left: 3px solid #8a4a4a; }
+  .stav-pill.stav-torzo { border-left: 3px solid #6a4a8a; }
+  .stav-pill.stav-polofunkční { border-left: 3px solid #b8923e; }
+
+  .katalog-controls {
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .katalog-search {
+    width: 100%;
+    max-width: 32rem;
+    padding: 0.55rem 0.85rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    color: var(--color-text);
+    font-family: var(--font-serif);
+    font-size: 0.95rem;
+  }
+  .katalog-search:focus {
+    outline: none;
+    border-color: var(--color-brass);
+  }
+  .katalog-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.5rem;
+    padding: 0.85rem 1rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+  }
+  .filter-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.25rem 0.6rem 0.25rem 0.45rem;
+    background: var(--color-bg);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    user-select: none;
+    transition: border-color 150ms ease;
+  }
+  .filter-chip:hover { border-color: var(--color-brass); }
+  .filter-chip input { margin: 0; }
+  .chip-dot {
+    display: inline-block;
+    width: 0.6em;
+    height: 0.6em;
+    border-radius: 50%;
+    background: var(--color-copper);
+  }
+  .chip-label { color: var(--color-text); }
+  .chip-count {
+    color: var(--color-text-muted);
+    font-feature-settings: "lnum";
+    font-size: 0.78rem;
   }
 
   .katalog-section {
@@ -173,11 +337,24 @@ const maxInv = Math.max(...items.map((i) => i.invCisloNumeric ?? 0));
     align-items: baseline;
     font-size: 0.88rem;
     border-bottom: 1px dashed color-mix(in srgb, var(--color-brass) 12%, transparent);
+    color: inherit;
+    text-decoration: none;
   }
   .katalog-row:last-child { border-bottom: none; }
   .katalog-row:nth-child(odd) {
     background: color-mix(in srgb, var(--color-bg-elevated) 50%, transparent);
   }
+  .katalog-row-link {
+    cursor: pointer;
+    transition: background 120ms ease;
+  }
+  .katalog-row-link:hover {
+    background: color-mix(in srgb, var(--color-brass) 8%, var(--color-bg-elevated));
+  }
+  .katalog-row-link .katalog-popis strong {
+    color: var(--color-brass-bright);
+  }
+  .katalog-row.katalog-hidden { display: none; }
   .katalog-head {
     font-size: 0.7rem;
     text-transform: uppercase;
@@ -222,3 +399,33 @@ const maxInv = Math.max(...items.map((i) => i.invCisloNumeric ?? 0));
     .katalog-majitel::before { content: 'Majitel: '; color: var(--color-text-muted); }
   }
 </style>
+
+<script is:inline>
+  // Filter chips per lokace + search input — client-side row visibility
+  const search = document.querySelector('[data-katalog-search]');
+  const chips = document.querySelectorAll('[data-filter-lokace]');
+  const sections = document.querySelectorAll('[data-lokace-section]');
+
+  function refresh() {
+    const q = (search?.value || '').toLowerCase().trim();
+    const enabled = new Set();
+    for (const cb of chips) if (cb.checked) enabled.add(cb.dataset.filterLokace);
+    for (const sec of sections) {
+      const lokace = sec.dataset.lokaceSection;
+      const sectionVisible = enabled.has(lokace);
+      let anyMatch = false;
+      const rows = sec.querySelectorAll('.katalog-row:not(.katalog-head)');
+      for (const r of rows) {
+        const txt = r.dataset.search || '';
+        const match = !q || txt.includes(q);
+        const visible = sectionVisible && match;
+        r.classList.toggle('katalog-hidden', !visible);
+        if (visible) anyMatch = true;
+      }
+      // Hide whole section if no rows match
+      sec.style.display = anyMatch ? '' : 'none';
+    }
+  }
+  search?.addEventListener('input', refresh);
+  for (const cb of chips) cb.addEventListener('change', refresh);
+</script>
