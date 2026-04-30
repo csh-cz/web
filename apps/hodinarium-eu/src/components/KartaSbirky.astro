@@ -44,7 +44,6 @@ interface Karta {
   datace?: string;
   vyrobce?: string;
   signatura?: string;
-  provenience?: string;
   puvodniUmisteni?: PuvodniUmisteni;
   // Konstrukce
   ram?: string;
@@ -80,7 +79,6 @@ const standardFields: Array<{ key: keyof Karta; label: string }> = [
   { key: 'datace', label: 'Datace' },
   { key: 'vyrobce', label: 'Výrobce' },
   { key: 'signatura', label: 'Signatura' },
-  { key: 'provenience', label: 'Provenience' },
   // Konstrukce
   { key: 'ram', label: 'Rám stroje' },
   { key: 'krokJicihoStroje', label: 'Krok jdoucího stroje' },

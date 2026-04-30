@@ -57,6 +57,9 @@ interface ProposedAction {
   frontmatter: Record<string, unknown>;
   suggestedTagsWhitelisted: string[];
   suggestedTagsNew: string[];    // need whitelist add
+  photoFolder: string | null;    // /img/<path>/ if auto-detected
+  photoFiles: string[];          // jpg/png filenames in folder
+  isXPrefix: boolean;
 }
 
 function slugify(s: string): string {
@@ -181,6 +184,63 @@ async function listExistingSlugs(): Promise<Set<string>> {
   return new Set(files.map((f) => f.replace(/\.(md|mdx)$/, '')));
 }
 
+const PUBLIC_IMG = join(ROOT, 'apps', 'hodinarium-eu', 'public', 'img');
+
+/** Pre-walk public/img/ rekurzivně, vrátí mapu folderPath → list image souborů. */
+async function buildImageFolderIndex(): Promise<Map<string, string[]>> {
+  const { readdirSync, statSync } = await import('node:fs');
+  const index = new Map<string, string[]>();
+  function walk(dir: string, relPath: string) {
+    let entries: string[];
+    try { entries = readdirSync(dir); } catch { return; }
+    const images: string[] = [];
+    for (const e of entries) {
+      const full = join(dir, e);
+      let stat;
+      try { stat = statSync(full); } catch { continue; }
+      if (stat.isDirectory()) walk(full, relPath ? `${relPath}/${e}` : e);
+      else if (/\.(jpe?g|png|webp)$/i.test(e)) images.push(e);
+    }
+    if (images.length > 0) index.set(relPath, images);
+  }
+  walk(PUBLIC_IMG, '');
+  return index;
+}
+
+/**
+ * Heuristika: pokus o nalezení folderu s fotkami exponátu na základě
+ * klíčových slov z popisu/výrobce. Vrátí nejlépe matchující folder
+ * (s nejvíce slovy v cestě) nebo null.
+ *
+ * Stop-words: vezni, hodiny, stroj, ks (generické, nematch).
+ */
+const STOP_WORDS = new Set(['vezni', 'hodiny', 'hodinovy', 'stroj', 'ks',
+  'malé', 'male', 'velké', 'velke', 'véžní', 'vezni', 'malou', 'a', 'i', 's', 'z']);
+function detectPhotoFolder(
+  popisSlug: string,
+  vyrobceTag: string | null,
+  index: Map<string, string[]>,
+): { path: string; files: string[] } | null {
+  const words = popisSlug.split('-').filter((w) => w.length >= 4 && !STOP_WORDS.has(w));
+  if (vyrobceTag) words.unshift(vyrobceTag.split('-')[0]); // priorita pro výrobce
+  if (words.length === 0) return null;
+
+  let bestPath: string | null = null;
+  let bestScore = 0;
+  for (const [path, files] of index) {
+    const lc = path.toLowerCase();
+    let score = 0;
+    for (const w of words) if (lc.includes(w)) score++;
+    if (score >= 2 && score > bestScore) {
+      bestScore = score;
+      bestPath = path;
+    }
+  }
+  if (!bestPath) return null;
+  const files = (index.get(bestPath) ?? []).slice(0, 6);
+  return { path: bestPath, files };
+}
+
 async function main() {
   const items = JSON.parse(await readFile(SOUPIS_PATH, 'utf-8')) as Exponat[];
   const tagsWl = JSON.parse(await readFile(TAGS_PATH, 'utf-8')) as Record<string, string[] | unknown>;
@@ -190,6 +250,8 @@ async function main() {
     if (Array.isArray(v)) for (const t of v) allWhitelist.add(t);
   }
   const existingSlugs = await listExistingSlugs();
+  const imageIndex = await buildImageFolderIndex();
+  let withPhotos = 0;
 
   const proposed: ProposedAction[] = [];
   const allNewTags = new Set<string>();
@@ -199,6 +261,13 @@ async function main() {
   for (const e of items) {
     const popisSlug = slugify(e.popis);
     const proposedSlug = `inv-${e.invCislo}-${popisSlug}`;
+    // X-prefix items (bez inv. č. v XLS) — title dostane prefix indikující
+    // že je dočasná karta a vyžaduje doplnění. Pro standardní items zůstává
+    // popis čistý.
+    const isXPrefix = e.invCislo.startsWith('x');
+    const titleForFm = isXPrefix
+      ? `[K doplnění] ${e.popis} (inv. ${e.invCislo})`
+      : e.popis;
 
     // Detekce existujícího článku — exact slug match v content/
     const existsExact = existingSlugs.has(proposedSlug);
@@ -261,8 +330,13 @@ async function main() {
       karta.extra = [{ label: 'Poznámka', value: e.poznamka }];
     }
 
+    // Photo auto-detect — heuristika přes inverzní index public/img/
+    const vyrobceTag = detectVyrobce(e.popis)[0] ?? null;
+    const photoMatch = detectPhotoFolder(popisSlug, vyrobceTag, imageIndex);
+    if (photoMatch) withPhotos++;
+
     const fm: Record<string, unknown> = {
-      title: e.popis,
+      title: titleForFm,
       slug: proposedSlug,
       category: 'sbirka',
       podsekce: 'karta',  // discriminator → routes na /sbirka/karta/<slug>/
@@ -289,6 +363,9 @@ async function main() {
       frontmatter: fm,
       suggestedTagsWhitelisted: inWhitelist,
       suggestedTagsNew: newTags,
+      photoFolder: photoMatch ? photoMatch.path : null,
+      photoFiles: photoMatch ? photoMatch.files : [],
+      isXPrefix,
     });
   }
 
@@ -362,6 +439,7 @@ async function main() {
   console.log(`Exact slug match (skip):   ${exists}`);
   console.log(`Fuzzy konflikt:            ${conflicts}`);
   console.log(`Nové tagy potřebné:        ${allNewTags.size}`);
+  console.log(`S auto-detekovanou fotkou: ${withPhotos}`);
   console.log(`\nReport: ${OUT_REPORT}`);
   console.log(`Preview JSON: ${OUT_PREVIEW}`);
 
@@ -377,7 +455,7 @@ async function main() {
       if (p.suggestedTagsNew.length > 0) { blocked++; continue; }
 
       const fmYaml = serializeFrontmatter(p.frontmatter);
-      const body = `\n*Stub vyrobený ze Soupisu exponátů (${new Date().toISOString().slice(0, 10)}). Doplňte popis ručně z původních článků nebo z dokumentu \`zdroje/katalog exponátů/Popisy strojů.doc\`.*\n`;
+      const body = buildStubBody(p);
       const content = `---\n${fmYaml}---\n${body}`;
       await writeFile(join(CONTENT_DIR, p.proposedFilename), content, 'utf-8');
       written++;
@@ -386,6 +464,47 @@ async function main() {
     console.log(`Přeskočeno (exists):  ${skipped}`);
     console.log(`Blokováno (konflikt nebo mimo-whitelist tagy): ${blocked}`);
   }
+}
+
+/**
+ * Sestaví body stub karty:
+ *   - hero photo + galerie (pokud nalezeny ve photo folderu) + warning
+ *     o autodetekci
+ *   - stub status text + TODO list polí k doplnění z Popisu strojů.doc
+ */
+function buildStubBody(p: ProposedAction): string {
+  const lines: string[] = [];
+  lines.push('');
+  if (p.photoFiles.length > 0) {
+    // První obrázek hero (auto-promote v JS), zbytek do galerie
+    for (const f of p.photoFiles) {
+      lines.push(`![](/img/${p.photoFolder}/${f})`);
+      lines.push('');
+    }
+    lines.push(`*Fotky byly auto-detekovány z \`/img/${p.photoFolder}/\` na základě názvu exponátu. **Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.***`);
+    lines.push('');
+    lines.push('* * *');
+    lines.push('');
+  }
+  lines.push('## Stub karty');
+  lines.push('');
+  if (p.isXPrefix) {
+    lines.push(`Tato karta byla vyrobena ze Soupisu exponátů, ale chybí jí inventární číslo (XLS sloupec prázdný). Přiřaďte řádné inv. č. v Soupisu a re-generujte.`);
+  } else {
+    lines.push(`Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu \`zdroje/katalog exponátů/Popisy strojů.doc\`:`);
+    lines.push('');
+    lines.push('- `karta.datace` — širší období, pokud rok výroby není přesně doložen');
+    lines.push('- `karta.signatura` — text signatury výrobce');
+    lines.push('- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně');
+    lines.push('- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily');
+    lines.push('- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele');
+    lines.push('- `karta.restaurovani` — kdy a kdo restauroval');
+    lines.push('- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici');
+    lines.push('');
+    lines.push('Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.');
+  }
+  lines.push('');
+  return lines.join('\n');
 }
 
 function serializeFrontmatter(fm: Record<string, unknown>): string {

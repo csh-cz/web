@@ -14,7 +14,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.056Z",
+      "scrapedAt": "2026-04-30T03:45:13.007Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -48,7 +48,10 @@
       "krok-graham",
       "hiemann"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "2",
@@ -65,7 +68,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.057Z",
+      "scrapedAt": "2026-04-30T03:45:13.008Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -99,7 +102,13 @@
       "krok-benoit-robert",
       "prokes"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "Prokes_surrerwerk",
+    "photoFiles": [
+      "Prokes_surrerwerk1.jpg",
+      "Prokes_surrerwerk2.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "3",
@@ -116,7 +125,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.058Z",
+      "scrapedAt": "2026-04-30T03:45:13.008Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -136,7 +145,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "4",
@@ -157,7 +169,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.058Z",
+      "scrapedAt": "2026-04-30T03:45:13.009Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -181,7 +193,10 @@
       "nefunkcni",
       "krok-vreteno"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "5",
@@ -198,7 +213,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.058Z",
+      "scrapedAt": "2026-04-30T03:45:13.009Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -222,7 +237,10 @@
       "nefunkcni",
       "krok-vreteno"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "6",
@@ -239,7 +257,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.058Z",
+      "scrapedAt": "2026-04-30T03:45:13.009Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -272,7 +290,10 @@
       "krok-clement",
       "michael-christ"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "7",
@@ -289,7 +310,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.058Z",
+      "scrapedAt": "2026-04-30T03:45:13.009Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -322,7 +343,10 @@
       "krok-graham",
       "beitel"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "8",
@@ -339,7 +363,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.059Z",
+      "scrapedAt": "2026-04-30T03:45:13.009Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -372,7 +396,10 @@
       "krok-graham",
       "liebing"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "9",
@@ -389,7 +416,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.059Z",
+      "scrapedAt": "2026-04-30T03:45:13.009Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -422,7 +449,10 @@
       "krok-graham",
       "thondel"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "10",
@@ -443,7 +473,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.059Z",
+      "scrapedAt": "2026-04-30T03:45:13.009Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -473,7 +503,10 @@
       "funkcni",
       "krok-amant"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "11",
@@ -490,7 +523,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.059Z",
+      "scrapedAt": "2026-04-30T03:45:13.009Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -516,7 +549,10 @@
       "torzo",
       "krok-graham"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "12",
@@ -533,7 +569,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.059Z",
+      "scrapedAt": "2026-04-30T03:45:13.010Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -560,7 +596,10 @@
       "krok-graham",
       "rochlitz"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "13",
@@ -579,7 +618,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.059Z",
+      "scrapedAt": "2026-04-30T03:45:13.010Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -606,7 +645,10 @@
       "krok-vreteno",
       "wenzel-mellner"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "14",
@@ -623,7 +665,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.059Z",
+      "scrapedAt": "2026-04-30T03:45:13.010Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -650,7 +692,10 @@
       "krok-amant",
       "paul-zieux"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "15",
@@ -667,7 +712,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.059Z",
+      "scrapedAt": "2026-04-30T03:45:13.010Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -694,7 +739,17 @@
       "krok-graham",
       "kohlert"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/Kohlert_Kraslice/f",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg",
+      "foto_0003.jpg",
+      "foto_0004.jpg",
+      "foto_0005.jpg",
+      "foto_0006.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "16",
@@ -711,7 +766,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.060Z",
+      "scrapedAt": "2026-04-30T03:45:13.010Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -735,7 +790,10 @@
       "funkcni",
       "krok-graham"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "17",
@@ -752,7 +810,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.060Z",
+      "scrapedAt": "2026-04-30T03:45:13.010Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -779,7 +837,13 @@
       "krok-graham",
       "hainz"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/dalsi_stroje/Hainz/f",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "18",
@@ -796,7 +860,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.060Z",
+      "scrapedAt": "2026-04-30T03:45:13.010Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -826,7 +890,10 @@
       "nefunkcni",
       "krok-vreteno"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "19",
@@ -843,7 +910,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.060Z",
+      "scrapedAt": "2026-04-30T03:45:13.011Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -868,7 +935,10 @@
       "funkcni",
       "krok-amant"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "20",
@@ -885,7 +955,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.060Z",
+      "scrapedAt": "2026-04-30T03:45:13.011Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -912,7 +982,16 @@
       "krok-amant",
       "krecmer"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/dalsi_stroje/Krecmer/f",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg",
+      "foto_0003.jpg",
+      "foto_0004.jpg",
+      "foto_0005.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "21",
@@ -929,7 +1008,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.060Z",
+      "scrapedAt": "2026-04-30T03:45:13.011Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -959,7 +1038,10 @@
       "funkcni",
       "krok-vreteno"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "22",
@@ -976,7 +1058,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.060Z",
+      "scrapedAt": "2026-04-30T03:45:13.011Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1000,7 +1082,10 @@
       "funkcni",
       "krok-clement"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "23",
@@ -1017,7 +1102,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.060Z",
+      "scrapedAt": "2026-04-30T03:45:13.011Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1047,7 +1132,10 @@
       "funkcni",
       "krok-clement"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "24",
@@ -1064,7 +1152,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.060Z",
+      "scrapedAt": "2026-04-30T03:45:13.011Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1091,7 +1179,17 @@
       "krok-amant",
       "bassler"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/dalsi_stroje/bassler1864/f",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg",
+      "foto_0003.jpg",
+      "foto_0004.jpg",
+      "foto_0005.jpg",
+      "foto_0006.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "25",
@@ -1108,7 +1206,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.060Z",
+      "scrapedAt": "2026-04-30T03:45:13.011Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1138,7 +1236,10 @@
       "nefunkcni",
       "krok-clement"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "26",
@@ -1155,7 +1256,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.060Z",
+      "scrapedAt": "2026-04-30T03:45:13.011Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1179,7 +1280,10 @@
       "funkcni",
       "krok-graham"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "27",
@@ -1196,7 +1300,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.060Z",
+      "scrapedAt": "2026-04-30T03:45:13.011Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1224,7 +1328,10 @@
       "vezni",
       "nefunkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "28",
@@ -1241,7 +1348,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.060Z",
+      "scrapedAt": "2026-04-30T03:45:13.011Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1269,7 +1376,10 @@
       "vezni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "29",
@@ -1286,7 +1396,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.061Z",
+      "scrapedAt": "2026-04-30T03:45:13.012Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1316,7 +1426,10 @@
       "funkcni",
       "krok-amant"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "30",
@@ -1333,7 +1446,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.061Z",
+      "scrapedAt": "2026-04-30T03:45:13.012Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1366,7 +1479,13 @@
       "krok-graham",
       "hainz"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/dalsi_stroje/Hainz/f",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "31",
@@ -1383,7 +1502,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.061Z",
+      "scrapedAt": "2026-04-30T03:45:13.012Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1407,7 +1526,10 @@
       "funkcni",
       "krok-amant"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "32",
@@ -1424,7 +1546,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.061Z",
+      "scrapedAt": "2026-04-30T03:45:13.012Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1454,7 +1576,10 @@
       "funkcni",
       "krok-benoit-robert"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "33",
@@ -1475,7 +1600,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.061Z",
+      "scrapedAt": "2026-04-30T03:45:13.012Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1505,7 +1630,10 @@
       "funkcni",
       "krok-graham"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "34",
@@ -1522,7 +1650,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.061Z",
+      "scrapedAt": "2026-04-30T03:45:13.012Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1546,7 +1674,10 @@
       "funkcni",
       "krok-graham"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "35",
@@ -1563,7 +1694,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.061Z",
+      "scrapedAt": "2026-04-30T03:45:13.012Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1590,7 +1721,10 @@
       "vezni",
       "krok-winnerl"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "36",
@@ -1607,7 +1741,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.061Z",
+      "scrapedAt": "2026-04-30T03:45:13.012Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1634,7 +1768,10 @@
       "krok-amant",
       "thondel"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "37",
@@ -1651,7 +1788,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.061Z",
+      "scrapedAt": "2026-04-30T03:45:13.013Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1673,7 +1810,16 @@
       "funkcni",
       "brillie"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "elektrika/brillie",
+    "photoFiles": [
+      "Brillie4.jpg",
+      "Brillie5.jpg",
+      "Brillie6.jpg",
+      "Brillie_x2_m.jpg",
+      "brillie_hodinarium_bez_ciferniku.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "38",
@@ -1690,7 +1836,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.061Z",
+      "scrapedAt": "2026-04-30T03:45:13.013Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1712,7 +1858,10 @@
       "vezni",
       "nefunkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "39",
@@ -1729,7 +1878,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.061Z",
+      "scrapedAt": "2026-04-30T03:45:13.013Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1751,7 +1900,10 @@
     "suggestedTagsWhitelisted": [
       "hlavni-sal"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "40",
@@ -1768,7 +1920,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.062Z",
+      "scrapedAt": "2026-04-30T03:45:13.013Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1793,7 +1945,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "41",
@@ -1810,7 +1965,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.062Z",
+      "scrapedAt": "2026-04-30T03:45:13.013Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1839,7 +1994,12 @@
       "funkcni",
       "achrer"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "Achrer",
+    "photoFiles": [
+      "2strany2.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "42",
@@ -1856,7 +2016,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.062Z",
+      "scrapedAt": "2026-04-30T03:45:13.013Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1882,7 +2042,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "43",
@@ -1899,7 +2062,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.062Z",
+      "scrapedAt": "2026-04-30T03:45:13.013Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1918,7 +2081,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "44",
@@ -1935,7 +2101,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.062Z",
+      "scrapedAt": "2026-04-30T03:45:13.013Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1956,7 +2122,10 @@
       "funkcni",
       "krok-lihyr"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "45",
@@ -1973,7 +2142,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.062Z",
+      "scrapedAt": "2026-04-30T03:45:13.013Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -1992,7 +2161,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "46",
@@ -2009,7 +2181,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.062Z",
+      "scrapedAt": "2026-04-30T03:45:13.014Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2034,7 +2206,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "47",
@@ -2051,7 +2226,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.062Z",
+      "scrapedAt": "2026-04-30T03:45:13.014Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2077,7 +2252,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "48",
@@ -2094,7 +2272,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.062Z",
+      "scrapedAt": "2026-04-30T03:45:13.014Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2119,7 +2297,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "49",
@@ -2136,7 +2317,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.062Z",
+      "scrapedAt": "2026-04-30T03:45:13.014Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2157,7 +2338,10 @@
       "funkcni",
       "krok-graham"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "50",
@@ -2174,7 +2358,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.062Z",
+      "scrapedAt": "2026-04-30T03:45:13.014Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2198,7 +2382,14 @@
       "funkcni",
       "elektrocas"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/ElektrocasVK1",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg",
+      "foto_0003.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "51",
@@ -2215,7 +2406,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.063Z",
+      "scrapedAt": "2026-04-30T03:45:13.014Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2239,7 +2430,14 @@
       "funkcni",
       "elektrocas"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/ElektrocasVK1",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg",
+      "foto_0003.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "52",
@@ -2256,7 +2454,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.063Z",
+      "scrapedAt": "2026-04-30T03:45:13.014Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2270,7 +2468,10 @@
     "suggestedTagsWhitelisted": [
       "hlavni-sal"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "53",
@@ -2287,7 +2488,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.063Z",
+      "scrapedAt": "2026-04-30T03:45:13.014Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2307,7 +2508,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "54",
@@ -2324,7 +2528,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.063Z",
+      "scrapedAt": "2026-04-30T03:45:13.015Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2343,7 +2547,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "55",
@@ -2360,7 +2567,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.063Z",
+      "scrapedAt": "2026-04-30T03:45:13.015Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2382,7 +2589,10 @@
       "funkcni",
       "krok-vreteno"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "56",
@@ -2399,7 +2609,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.063Z",
+      "scrapedAt": "2026-04-30T03:45:13.015Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2421,7 +2631,10 @@
       "funkcni",
       "krok-kotva"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "57",
@@ -2438,7 +2651,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.063Z",
+      "scrapedAt": "2026-04-30T03:45:13.015Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2463,7 +2676,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "58",
@@ -2480,7 +2696,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.063Z",
+      "scrapedAt": "2026-04-30T03:45:13.015Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2505,7 +2721,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "59",
@@ -2522,7 +2741,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.063Z",
+      "scrapedAt": "2026-04-30T03:45:13.015Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2550,7 +2769,10 @@
       "funkcni",
       "krok-graham"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "60",
@@ -2567,7 +2789,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.063Z",
+      "scrapedAt": "2026-04-30T03:45:13.015Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2592,7 +2814,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "61",
@@ -2609,7 +2834,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.063Z",
+      "scrapedAt": "2026-04-30T03:45:13.015Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2629,7 +2854,10 @@
       "hlavni-sal",
       "nefunkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "62",
@@ -2646,7 +2874,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.063Z",
+      "scrapedAt": "2026-04-30T03:45:13.015Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2668,7 +2896,10 @@
       "nefunkcni",
       "torzo"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "63",
@@ -2685,7 +2916,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.063Z",
+      "scrapedAt": "2026-04-30T03:45:13.015Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2711,7 +2942,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "64",
@@ -2728,7 +2962,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.064Z",
+      "scrapedAt": "2026-04-30T03:45:13.016Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2748,7 +2982,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "65",
@@ -2765,7 +3002,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.064Z",
+      "scrapedAt": "2026-04-30T03:45:13.016Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2784,7 +3021,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "66",
@@ -2801,7 +3041,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.064Z",
+      "scrapedAt": "2026-04-30T03:45:13.016Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2826,7 +3066,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "67",
@@ -2843,7 +3086,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.064Z",
+      "scrapedAt": "2026-04-30T03:45:13.016Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2862,7 +3105,10 @@
       "hlavni-sal",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "68",
@@ -2879,7 +3125,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.064Z",
+      "scrapedAt": "2026-04-30T03:45:13.016Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2900,7 +3146,10 @@
       "slunecni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "69",
@@ -2917,7 +3166,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.064Z",
+      "scrapedAt": "2026-04-30T03:45:13.016Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2938,7 +3187,10 @@
       "slunecni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "70",
@@ -2955,7 +3207,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.064Z",
+      "scrapedAt": "2026-04-30T03:45:13.016Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -2976,7 +3228,10 @@
       "slunecni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "71",
@@ -2993,7 +3248,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.064Z",
+      "scrapedAt": "2026-04-30T03:45:13.017Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3020,7 +3275,10 @@
       "slunecni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "72",
@@ -3037,7 +3295,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.064Z",
+      "scrapedAt": "2026-04-30T03:45:13.017Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3056,7 +3314,10 @@
       "vitrina-1-hlavni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "73",
@@ -3073,7 +3334,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.064Z",
+      "scrapedAt": "2026-04-30T03:45:13.017Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3092,7 +3353,10 @@
       "vitrina-1-hlavni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "74",
@@ -3109,7 +3373,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.064Z",
+      "scrapedAt": "2026-04-30T03:45:13.017Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3130,7 +3394,10 @@
       "slunecni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "75",
@@ -3147,7 +3414,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.065Z",
+      "scrapedAt": "2026-04-30T03:45:13.017Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3168,7 +3435,10 @@
       "slunecni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "76",
@@ -3185,7 +3455,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.065Z",
+      "scrapedAt": "2026-04-30T03:45:13.017Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3205,7 +3475,10 @@
       "vitrina-1-hlavni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "77",
@@ -3222,7 +3495,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.065Z",
+      "scrapedAt": "2026-04-30T03:45:13.017Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3244,7 +3517,10 @@
       "slunecni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "78",
@@ -3263,7 +3539,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.065Z",
+      "scrapedAt": "2026-04-30T03:45:13.017Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3283,7 +3559,10 @@
       "vitrina-1-hlavni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "79",
@@ -3300,7 +3579,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.065Z",
+      "scrapedAt": "2026-04-30T03:45:13.017Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3319,7 +3598,10 @@
       "vitrina-2-hlavni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "80",
@@ -3336,7 +3618,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.065Z",
+      "scrapedAt": "2026-04-30T03:45:13.018Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3350,7 +3632,10 @@
     "suggestedTagsWhitelisted": [
       "vitrina-2-hlavni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "81",
@@ -3367,7 +3652,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.065Z",
+      "scrapedAt": "2026-04-30T03:45:13.018Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3386,7 +3671,10 @@
       "vitrina-2-hlavni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "82",
@@ -3403,7 +3691,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.065Z",
+      "scrapedAt": "2026-04-30T03:45:13.018Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3418,7 +3706,10 @@
     "suggestedTagsWhitelisted": [
       "vitrina-3-hlavni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "83",
@@ -3435,7 +3726,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.065Z",
+      "scrapedAt": "2026-04-30T03:45:13.018Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3450,7 +3741,10 @@
     "suggestedTagsWhitelisted": [
       "vitrina-3-hlavni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "84",
@@ -3467,7 +3761,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.065Z",
+      "scrapedAt": "2026-04-30T03:45:13.018Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3482,7 +3776,10 @@
     "suggestedTagsWhitelisted": [
       "vitrina-3-hlavni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "85",
@@ -3499,7 +3796,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.065Z",
+      "scrapedAt": "2026-04-30T03:45:13.018Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3523,7 +3820,10 @@
       "krok-hipp",
       "hipp"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "86",
@@ -3540,7 +3840,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.065Z",
+      "scrapedAt": "2026-04-30T03:45:13.018Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3565,7 +3865,10 @@
       "krok-hipp",
       "hipp"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "87",
@@ -3582,7 +3885,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.066Z",
+      "scrapedAt": "2026-04-30T03:45:13.018Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3604,7 +3907,10 @@
       "funkcni",
       "wagner"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "88",
@@ -3623,7 +3929,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.066Z",
+      "scrapedAt": "2026-04-30T03:45:13.019Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3645,7 +3951,16 @@
       "funkcni",
       "brillie"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "elektrika/brillie",
+    "photoFiles": [
+      "Brillie4.jpg",
+      "Brillie5.jpg",
+      "Brillie6.jpg",
+      "Brillie_x2_m.jpg",
+      "brillie_hodinarium_bez_ciferniku.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "89",
@@ -3662,7 +3977,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.066Z",
+      "scrapedAt": "2026-04-30T03:45:13.019Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3687,7 +4002,10 @@
       "panel-1",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "90",
@@ -3704,7 +4022,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.066Z",
+      "scrapedAt": "2026-04-30T03:45:13.019Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3729,7 +4047,10 @@
       "panel-1",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "91",
@@ -3746,7 +4067,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.066Z",
+      "scrapedAt": "2026-04-30T03:45:13.019Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3769,7 +4090,10 @@
       "funkcni",
       "kienzle"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "94",
@@ -3786,7 +4110,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.066Z",
+      "scrapedAt": "2026-04-30T03:45:13.019Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3808,7 +4132,14 @@
       "funkcni",
       "elektrocas"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/ElektrocasVK1",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg",
+      "foto_0003.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "95",
@@ -3825,7 +4156,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.066Z",
+      "scrapedAt": "2026-04-30T03:45:13.019Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3844,7 +4175,10 @@
       "panel-2",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "96",
@@ -3861,7 +4195,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.066Z",
+      "scrapedAt": "2026-04-30T03:45:13.019Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3880,7 +4214,10 @@
       "panel-2",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "97",
@@ -3897,7 +4234,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.066Z",
+      "scrapedAt": "2026-04-30T03:45:13.019Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3917,7 +4254,10 @@
       "panel-2",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "98",
@@ -3934,7 +4274,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.066Z",
+      "scrapedAt": "2026-04-30T03:45:13.019Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3953,7 +4293,10 @@
       "panel-2",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "99",
@@ -3970,7 +4313,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.066Z",
+      "scrapedAt": "2026-04-30T03:45:13.019Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -3989,7 +4332,10 @@
       "panel-2",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "100",
@@ -4006,7 +4352,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.066Z",
+      "scrapedAt": "2026-04-30T03:45:13.019Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4028,7 +4374,13 @@
       "funkcni",
       "hainz"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/dalsi_stroje/Hainz/f",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "101",
@@ -4048,7 +4400,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.066Z",
+      "scrapedAt": "2026-04-30T03:45:13.019Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4071,7 +4423,16 @@
       "funkcni",
       "jednotny-cas"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "elektrika/jednotny_cas/artdeco/f",
+    "photoFiles": [
+      "celek_artdeco.jpg",
+      "celek_jednotny_cas.jpg",
+      "detail_a.jpg",
+      "detail_b.jpg",
+      "schema.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "103",
@@ -4088,7 +4449,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.067Z",
+      "scrapedAt": "2026-04-30T03:45:13.020Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4107,7 +4468,10 @@
       "panel-3",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "104",
@@ -4126,7 +4490,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.067Z",
+      "scrapedAt": "2026-04-30T03:45:13.020Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4145,7 +4509,10 @@
       "panel-3",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "105",
@@ -4162,7 +4529,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.067Z",
+      "scrapedAt": "2026-04-30T03:45:13.020Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4181,7 +4548,10 @@
       "panel-3",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "106",
@@ -4198,7 +4568,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.067Z",
+      "scrapedAt": "2026-04-30T03:45:13.020Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4219,7 +4589,10 @@
       "nastenne",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "107",
@@ -4236,7 +4609,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.067Z",
+      "scrapedAt": "2026-04-30T03:45:13.020Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4257,7 +4630,10 @@
       "nastenne",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "108",
@@ -4274,7 +4650,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.067Z",
+      "scrapedAt": "2026-04-30T03:45:13.020Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4293,7 +4669,10 @@
       "panel-3",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "109",
@@ -4310,7 +4689,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.067Z",
+      "scrapedAt": "2026-04-30T03:45:13.020Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4329,7 +4708,10 @@
       "panel-3",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "110",
@@ -4346,7 +4728,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.067Z",
+      "scrapedAt": "2026-04-30T03:45:13.020Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4372,7 +4754,10 @@
       "panel-3",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "112",
@@ -4591,7 +4976,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.067Z",
+      "scrapedAt": "2026-04-30T03:45:13.020Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4610,7 +4995,10 @@
       "panel-4",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "113",
@@ -4829,7 +5217,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.067Z",
+      "scrapedAt": "2026-04-30T03:45:13.020Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -4848,7 +5236,10 @@
       "panel-4",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "114",
@@ -5067,7 +5458,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.067Z",
+      "scrapedAt": "2026-04-30T03:45:13.020Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -5086,7 +5477,10 @@
       "panel-4",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "115",
@@ -5305,7 +5699,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.067Z",
+      "scrapedAt": "2026-04-30T03:45:13.020Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -5324,7 +5718,10 @@
       "panel-4",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "116",
@@ -5543,7 +5940,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.067Z",
+      "scrapedAt": "2026-04-30T03:45:13.020Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -5562,7 +5959,10 @@
       "panel-4",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "117",
@@ -5781,7 +6181,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.067Z",
+      "scrapedAt": "2026-04-30T03:45:13.020Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -5800,7 +6200,10 @@
       "panel-4",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "118",
@@ -6019,7 +6422,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.067Z",
+      "scrapedAt": "2026-04-30T03:45:13.020Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6038,7 +6441,10 @@
       "panel-4",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "119",
@@ -6055,7 +6461,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.068Z",
+      "scrapedAt": "2026-04-30T03:45:13.021Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6074,7 +6480,10 @@
       "panel-4",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "120",
@@ -6091,7 +6500,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.068Z",
+      "scrapedAt": "2026-04-30T03:45:13.021Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6112,7 +6521,10 @@
       "nastenne",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "121",
@@ -6129,7 +6541,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.068Z",
+      "scrapedAt": "2026-04-30T03:45:13.021Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6151,7 +6563,17 @@
       "funkcni",
       "pragotron"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "pragotron",
+    "photoFiles": [
+      "C%2030%20ZEZADU+PS%204.jpg",
+      "C%2030%20zezadu%20+%20PS%20100.jpg",
+      "C%2030.jpg",
+      "C%20301%20ZEZADU.jpg",
+      "C%20301.jpg",
+      "CPJ061_1.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "122",
@@ -6370,7 +6792,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.068Z",
+      "scrapedAt": "2026-04-30T03:45:13.021Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6389,7 +6811,10 @@
       "panel-4",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "123",
@@ -6406,7 +6831,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.068Z",
+      "scrapedAt": "2026-04-30T03:45:13.021Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6425,7 +6850,10 @@
       "panel-4",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "124",
@@ -6442,7 +6870,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.068Z",
+      "scrapedAt": "2026-04-30T03:45:13.021Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6462,7 +6890,10 @@
       "panel-5",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "125",
@@ -6479,7 +6910,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.068Z",
+      "scrapedAt": "2026-04-30T03:45:13.021Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6502,7 +6933,17 @@
       "funkcni",
       "mobatime"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "Mobatime",
+    "photoFiles": [
+      "3218C1.jpg",
+      "HN60IP20.jpg",
+      "NTP_LAN.jpg",
+      "OMA50.jpg",
+      "OMA50_v.jpg",
+      "PIK_dcf1.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "126",
@@ -6519,7 +6960,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.068Z",
+      "scrapedAt": "2026-04-30T03:45:13.021Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6542,7 +6983,16 @@
       "funkcni",
       "bodet"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "H715_BODET",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg",
+      "foto_0003.jpg",
+      "foto_0004.jpg",
+      "schema1.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "127",
@@ -6559,7 +7009,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.068Z",
+      "scrapedAt": "2026-04-30T03:45:13.021Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6582,7 +7032,17 @@
       "funkcni",
       "pragotron"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "pragotron",
+    "photoFiles": [
+      "C%2030%20ZEZADU+PS%204.jpg",
+      "C%2030%20zezadu%20+%20PS%20100.jpg",
+      "C%2030.jpg",
+      "C%20301%20ZEZADU.jpg",
+      "C%20301.jpg",
+      "CPJ061_1.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "128",
@@ -6604,7 +7064,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.068Z",
+      "scrapedAt": "2026-04-30T03:45:13.021Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6624,7 +7084,10 @@
       "panel-5",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "129",
@@ -6641,7 +7104,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.068Z",
+      "scrapedAt": "2026-04-30T03:45:13.021Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6661,7 +7124,10 @@
       "panel-5",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "130",
@@ -6678,7 +7144,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.068Z",
+      "scrapedAt": "2026-04-30T03:45:13.021Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6698,7 +7164,10 @@
       "panel-5",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "131",
@@ -6715,7 +7184,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.068Z",
+      "scrapedAt": "2026-04-30T03:45:13.021Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6735,7 +7204,10 @@
       "panel-5",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "132",
@@ -6752,7 +7224,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.068Z",
+      "scrapedAt": "2026-04-30T03:45:13.021Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6772,7 +7244,10 @@
       "panel-5",
       "nefunkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "133",
@@ -6789,7 +7264,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.068Z",
+      "scrapedAt": "2026-04-30T03:45:13.022Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6809,7 +7284,10 @@
       "panel-5",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "134",
@@ -6826,7 +7304,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.069Z",
+      "scrapedAt": "2026-04-30T03:45:13.022Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6846,7 +7324,10 @@
       "panel-5",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "135",
@@ -6863,7 +7344,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.069Z",
+      "scrapedAt": "2026-04-30T03:45:13.022Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6883,7 +7364,10 @@
       "panel-5",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "136",
@@ -6900,7 +7384,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.069Z",
+      "scrapedAt": "2026-04-30T03:45:13.022Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6920,7 +7404,10 @@
       "panel-5",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "137",
@@ -6937,7 +7424,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.069Z",
+      "scrapedAt": "2026-04-30T03:45:13.022Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6957,7 +7444,10 @@
       "panel-5",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "138",
@@ -6974,7 +7464,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.069Z",
+      "scrapedAt": "2026-04-30T03:45:13.022Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -6994,7 +7484,10 @@
       "panel-5",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "139",
@@ -7011,7 +7504,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.069Z",
+      "scrapedAt": "2026-04-30T03:45:13.022Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7031,7 +7524,10 @@
       "panel-5",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "140",
@@ -7048,7 +7544,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.069Z",
+      "scrapedAt": "2026-04-30T03:45:13.022Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7067,7 +7563,10 @@
       "vitrina-1-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "141",
@@ -7084,7 +7583,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.069Z",
+      "scrapedAt": "2026-04-30T03:45:13.022Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7103,7 +7602,10 @@
       "vitrina-1-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "142",
@@ -7120,7 +7622,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.069Z",
+      "scrapedAt": "2026-04-30T03:45:13.022Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7139,7 +7641,10 @@
       "vitrina-1-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "143",
@@ -7156,7 +7661,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.069Z",
+      "scrapedAt": "2026-04-30T03:45:13.022Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7175,7 +7680,10 @@
       "vitrina-1-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "144",
@@ -7192,7 +7700,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.070Z",
+      "scrapedAt": "2026-04-30T03:45:13.023Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7214,7 +7722,14 @@
       "funkcni",
       "datumatic"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "datumatic/f",
+    "photoFiles": [
+      "foto_0003.jpg",
+      "foto_0004.jpg",
+      "foto_0005.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "145",
@@ -7231,7 +7746,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.070Z",
+      "scrapedAt": "2026-04-30T03:45:13.023Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7250,7 +7765,10 @@
       "vitrina-1-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "146",
@@ -7267,7 +7785,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.070Z",
+      "scrapedAt": "2026-04-30T03:45:13.023Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7288,7 +7806,10 @@
       "stolni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "147",
@@ -7305,7 +7826,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.070Z",
+      "scrapedAt": "2026-04-30T03:45:13.023Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7324,7 +7845,10 @@
       "vitrina-1-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "148",
@@ -7341,7 +7865,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.070Z",
+      "scrapedAt": "2026-04-30T03:45:13.023Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7363,7 +7887,10 @@
       "funkcni",
       "kienzle"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "149",
@@ -7380,7 +7907,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.070Z",
+      "scrapedAt": "2026-04-30T03:45:13.023Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7399,7 +7926,10 @@
       "vitrina-1-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "150",
@@ -7416,7 +7946,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.070Z",
+      "scrapedAt": "2026-04-30T03:45:13.023Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7435,7 +7965,10 @@
       "vitrina-1-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "151",
@@ -7452,7 +7985,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.070Z",
+      "scrapedAt": "2026-04-30T03:45:13.023Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7474,7 +8007,10 @@
       "funkcni",
       "junghans"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "152",
@@ -7491,7 +8027,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.070Z",
+      "scrapedAt": "2026-04-30T03:45:13.023Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7510,7 +8046,10 @@
       "vitrina-1-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "153",
@@ -7527,7 +8066,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.070Z",
+      "scrapedAt": "2026-04-30T03:45:13.023Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7549,7 +8088,17 @@
       "funkcni",
       "pragotron"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "pragotron",
+    "photoFiles": [
+      "C%2030%20ZEZADU+PS%204.jpg",
+      "C%2030%20zezadu%20+%20PS%20100.jpg",
+      "C%2030.jpg",
+      "C%20301%20ZEZADU.jpg",
+      "C%20301.jpg",
+      "CPJ061_1.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "154",
@@ -7566,7 +8115,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.070Z",
+      "scrapedAt": "2026-04-30T03:45:13.023Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7585,7 +8134,10 @@
       "vitrina-1-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "155",
@@ -7602,7 +8154,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.070Z",
+      "scrapedAt": "2026-04-30T03:45:13.023Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7623,7 +8175,10 @@
       "stolni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "156",
@@ -7640,7 +8195,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.070Z",
+      "scrapedAt": "2026-04-30T03:45:13.023Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7659,7 +8214,10 @@
       "vitrina-1-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "157",
@@ -7676,7 +8234,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.071Z",
+      "scrapedAt": "2026-04-30T03:45:13.024Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7697,7 +8255,10 @@
       "budik",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "158",
@@ -7714,7 +8275,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.071Z",
+      "scrapedAt": "2026-04-30T03:45:13.024Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7735,7 +8296,10 @@
       "stolni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "159",
@@ -7752,7 +8316,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.071Z",
+      "scrapedAt": "2026-04-30T03:45:13.024Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7773,7 +8337,10 @@
       "budik",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "160",
@@ -7790,7 +8357,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.071Z",
+      "scrapedAt": "2026-04-30T03:45:13.024Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7811,7 +8378,10 @@
       "budik",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "161",
@@ -7828,7 +8398,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.071Z",
+      "scrapedAt": "2026-04-30T03:45:13.024Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7850,7 +8420,14 @@
       "funkcni",
       "bulle"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "elektrika/bulle",
+    "photoFiles": [
+      "magnet.jpg",
+      "patent.jpg",
+      "patent6.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "162",
@@ -7867,7 +8444,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.071Z",
+      "scrapedAt": "2026-04-30T03:45:13.024Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7883,7 +8460,10 @@
     "suggestedTagsWhitelisted": [
       "vitrina-1-vedlejsi"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "163",
@@ -7900,7 +8480,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.071Z",
+      "scrapedAt": "2026-04-30T03:45:13.024Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7919,7 +8499,10 @@
       "vitrina-1-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "164",
@@ -7936,7 +8519,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.071Z",
+      "scrapedAt": "2026-04-30T03:45:13.024Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7955,7 +8538,10 @@
       "vitrina-1-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "165",
@@ -7972,7 +8558,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.071Z",
+      "scrapedAt": "2026-04-30T03:45:13.024Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -7991,7 +8577,10 @@
       "vitrina-1-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "166",
@@ -8008,7 +8597,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.071Z",
+      "scrapedAt": "2026-04-30T03:45:13.024Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8029,7 +8618,10 @@
       "nastenne",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "168",
@@ -8046,7 +8638,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.071Z",
+      "scrapedAt": "2026-04-30T03:45:13.024Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8065,7 +8657,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "169",
@@ -8082,7 +8677,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.072Z",
+      "scrapedAt": "2026-04-30T03:45:13.025Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8100,7 +8695,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "170",
@@ -8117,7 +8715,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.072Z",
+      "scrapedAt": "2026-04-30T03:45:13.025Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8136,7 +8734,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "171",
@@ -8153,7 +8754,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.072Z",
+      "scrapedAt": "2026-04-30T03:45:13.025Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8172,7 +8773,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "172",
@@ -8189,7 +8793,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.072Z",
+      "scrapedAt": "2026-04-30T03:45:13.025Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8208,7 +8812,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "173",
@@ -8225,7 +8832,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.072Z",
+      "scrapedAt": "2026-04-30T03:45:13.025Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8244,7 +8851,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "174",
@@ -8261,7 +8871,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.072Z",
+      "scrapedAt": "2026-04-30T03:45:13.025Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8281,7 +8891,10 @@
       "budik",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "175",
@@ -8298,7 +8911,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.072Z",
+      "scrapedAt": "2026-04-30T03:45:13.025Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8318,7 +8931,10 @@
       "budik",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "176",
@@ -8335,7 +8951,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.072Z",
+      "scrapedAt": "2026-04-30T03:45:13.025Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8353,7 +8969,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "177",
@@ -8370,7 +8989,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.072Z",
+      "scrapedAt": "2026-04-30T03:45:13.025Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8390,7 +9009,10 @@
       "budik",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "178",
@@ -8407,7 +9029,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.072Z",
+      "scrapedAt": "2026-04-30T03:45:13.025Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8427,7 +9049,10 @@
       "budik",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "179",
@@ -8444,7 +9069,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.072Z",
+      "scrapedAt": "2026-04-30T03:45:13.025Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8464,7 +9089,10 @@
       "budik",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "180",
@@ -8481,7 +9109,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.072Z",
+      "scrapedAt": "2026-04-30T03:45:13.025Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8500,7 +9128,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "181",
@@ -8517,7 +9148,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.072Z",
+      "scrapedAt": "2026-04-30T03:45:13.025Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8535,7 +9166,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "182",
@@ -8552,7 +9186,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.072Z",
+      "scrapedAt": "2026-04-30T03:45:13.025Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8570,7 +9204,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "183",
@@ -8587,7 +9224,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.072Z",
+      "scrapedAt": "2026-04-30T03:45:13.025Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8605,7 +9242,10 @@
       "vitrina-2-vedlejsi",
       "nefunkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "184",
@@ -8622,7 +9262,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.073Z",
+      "scrapedAt": "2026-04-30T03:45:13.026Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8640,7 +9280,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "185",
@@ -8657,7 +9300,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.073Z",
+      "scrapedAt": "2026-04-30T03:45:13.026Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8675,7 +9318,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "186",
@@ -8694,7 +9340,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.073Z",
+      "scrapedAt": "2026-04-30T03:45:13.026Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8713,7 +9359,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "187",
@@ -8932,7 +9581,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.073Z",
+      "scrapedAt": "2026-04-30T03:45:13.026Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8951,7 +9600,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "188",
@@ -8968,7 +9620,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.073Z",
+      "scrapedAt": "2026-04-30T03:45:13.026Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -8989,7 +9641,10 @@
       "stolni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "189",
@@ -9006,7 +9661,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.073Z",
+      "scrapedAt": "2026-04-30T03:45:13.026Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9027,7 +9682,10 @@
       "stolni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "190",
@@ -9044,7 +9702,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.073Z",
+      "scrapedAt": "2026-04-30T03:45:13.026Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9065,7 +9723,10 @@
       "stolni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "191",
@@ -9082,7 +9743,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.073Z",
+      "scrapedAt": "2026-04-30T03:45:13.026Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9103,7 +9764,10 @@
       "budik",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "192",
@@ -9120,7 +9784,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.073Z",
+      "scrapedAt": "2026-04-30T03:45:13.026Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9140,7 +9804,10 @@
       "vezni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "193",
@@ -9157,7 +9824,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.073Z",
+      "scrapedAt": "2026-04-30T03:45:13.026Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9176,7 +9843,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "194",
@@ -9193,7 +9863,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.073Z",
+      "scrapedAt": "2026-04-30T03:45:13.026Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9215,7 +9885,14 @@
       "funkcni",
       "elektrocas"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/ElektrocasVK1",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg",
+      "foto_0003.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "195",
@@ -9232,7 +9909,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.073Z",
+      "scrapedAt": "2026-04-30T03:45:13.026Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9251,7 +9928,10 @@
       "vitrina-2-vedlejsi",
       "nefunkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "196",
@@ -9273,7 +9953,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.073Z",
+      "scrapedAt": "2026-04-30T03:45:13.026Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9292,7 +9972,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "197",
@@ -9309,7 +9992,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.074Z",
+      "scrapedAt": "2026-04-30T03:45:13.027Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9328,7 +10011,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "198",
@@ -9345,7 +10031,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.074Z",
+      "scrapedAt": "2026-04-30T03:45:13.027Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9367,7 +10053,17 @@
       "funkcni",
       "pragotron"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "pragotron",
+    "photoFiles": [
+      "C%2030%20ZEZADU+PS%204.jpg",
+      "C%2030%20zezadu%20+%20PS%20100.jpg",
+      "C%2030.jpg",
+      "C%20301%20ZEZADU.jpg",
+      "C%20301.jpg",
+      "CPJ061_1.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "199",
@@ -9384,7 +10080,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.074Z",
+      "scrapedAt": "2026-04-30T03:45:13.027Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9406,7 +10102,17 @@
       "funkcni",
       "pragotron"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "pragotron",
+    "photoFiles": [
+      "C%2030%20ZEZADU+PS%204.jpg",
+      "C%2030%20zezadu%20+%20PS%20100.jpg",
+      "C%2030.jpg",
+      "C%20301%20ZEZADU.jpg",
+      "C%20301.jpg",
+      "CPJ061_1.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "200",
@@ -9423,7 +10129,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.074Z",
+      "scrapedAt": "2026-04-30T03:45:13.027Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9442,7 +10148,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "201",
@@ -9464,7 +10173,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.074Z",
+      "scrapedAt": "2026-04-30T03:45:13.027Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9483,7 +10192,10 @@
       "vitrina-2-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "202",
@@ -9500,7 +10212,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.074Z",
+      "scrapedAt": "2026-04-30T03:45:13.027Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9518,7 +10230,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "203",
@@ -9535,7 +10250,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.074Z",
+      "scrapedAt": "2026-04-30T03:45:13.027Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9554,7 +10269,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "204",
@@ -9571,7 +10289,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.074Z",
+      "scrapedAt": "2026-04-30T03:45:13.027Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9590,7 +10308,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "205",
@@ -9607,7 +10328,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.074Z",
+      "scrapedAt": "2026-04-30T03:45:13.027Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9626,7 +10347,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "206",
@@ -9643,7 +10367,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.074Z",
+      "scrapedAt": "2026-04-30T03:45:13.027Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9662,7 +10386,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "207",
@@ -9679,7 +10406,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.074Z",
+      "scrapedAt": "2026-04-30T03:45:13.027Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9699,7 +10426,10 @@
       "budik",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "208",
@@ -9716,7 +10446,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.074Z",
+      "scrapedAt": "2026-04-30T03:45:13.027Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9736,7 +10466,10 @@
       "budik",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "209",
@@ -9753,7 +10486,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.074Z",
+      "scrapedAt": "2026-04-30T03:45:13.027Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9771,7 +10504,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "210",
@@ -9788,7 +10524,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.074Z",
+      "scrapedAt": "2026-04-30T03:45:13.028Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9808,7 +10544,10 @@
       "budik",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "211",
@@ -9825,7 +10564,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.028Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9845,7 +10584,10 @@
       "budik",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "212",
@@ -9862,7 +10604,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.028Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9882,7 +10624,10 @@
       "budik",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "213",
@@ -9899,7 +10644,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.028Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9918,7 +10663,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "214",
@@ -9935,7 +10683,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.028Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9953,7 +10701,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "215",
@@ -9970,7 +10721,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.028Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -9989,7 +10740,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "216",
@@ -10006,7 +10760,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.028Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10024,7 +10778,10 @@
       "vitrina-3-vedlejsi",
       "nefunkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "217",
@@ -10041,7 +10798,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.028Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10059,7 +10816,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "218",
@@ -10076,7 +10836,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.028Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10094,7 +10854,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "219",
@@ -10113,7 +10876,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.028Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10132,7 +10895,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "220",
@@ -10351,7 +11117,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.028Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10370,7 +11136,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "221",
@@ -10387,7 +11156,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.028Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10408,7 +11177,10 @@
       "stolni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "222",
@@ -10425,7 +11197,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.028Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10446,7 +11218,10 @@
       "stolni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "223",
@@ -10463,7 +11238,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.029Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10484,7 +11259,10 @@
       "stolni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "224",
@@ -10501,7 +11279,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.029Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10522,7 +11300,10 @@
       "budik",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "225",
@@ -10539,7 +11320,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.029Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10559,7 +11340,10 @@
       "vezni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "226",
@@ -10576,7 +11360,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.075Z",
+      "scrapedAt": "2026-04-30T03:45:13.029Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10595,7 +11379,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "227",
@@ -10612,7 +11399,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.076Z",
+      "scrapedAt": "2026-04-30T03:45:13.029Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10634,7 +11421,14 @@
       "funkcni",
       "elektrocas"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/ElektrocasVK1",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg",
+      "foto_0003.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "228",
@@ -10651,7 +11445,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.076Z",
+      "scrapedAt": "2026-04-30T03:45:13.029Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10670,7 +11464,10 @@
       "vitrina-3-vedlejsi",
       "nefunkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "229",
@@ -10692,7 +11489,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.076Z",
+      "scrapedAt": "2026-04-30T03:45:13.029Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10711,7 +11508,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "230",
@@ -10728,7 +11528,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.076Z",
+      "scrapedAt": "2026-04-30T03:45:13.029Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10747,7 +11547,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "231",
@@ -10764,7 +11567,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.076Z",
+      "scrapedAt": "2026-04-30T03:45:13.029Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10786,7 +11589,17 @@
       "funkcni",
       "pragotron"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "pragotron",
+    "photoFiles": [
+      "C%2030%20ZEZADU+PS%204.jpg",
+      "C%2030%20zezadu%20+%20PS%20100.jpg",
+      "C%2030.jpg",
+      "C%20301%20ZEZADU.jpg",
+      "C%20301.jpg",
+      "CPJ061_1.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "232",
@@ -10803,7 +11616,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.076Z",
+      "scrapedAt": "2026-04-30T03:45:13.029Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10825,7 +11638,17 @@
       "funkcni",
       "pragotron"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "pragotron",
+    "photoFiles": [
+      "C%2030%20ZEZADU+PS%204.jpg",
+      "C%2030%20zezadu%20+%20PS%20100.jpg",
+      "C%2030.jpg",
+      "C%20301%20ZEZADU.jpg",
+      "C%20301.jpg",
+      "CPJ061_1.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "233",
@@ -10842,7 +11665,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.076Z",
+      "scrapedAt": "2026-04-30T03:45:13.029Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10861,7 +11684,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "234",
@@ -10883,7 +11709,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.076Z",
+      "scrapedAt": "2026-04-30T03:45:13.029Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10902,7 +11728,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "235",
@@ -10919,7 +11748,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.076Z",
+      "scrapedAt": "2026-04-30T03:45:13.029Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10939,7 +11768,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "236",
@@ -10956,7 +11788,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.076Z",
+      "scrapedAt": "2026-04-30T03:45:13.030Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -10976,7 +11808,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "237",
@@ -10993,7 +11828,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.076Z",
+      "scrapedAt": "2026-04-30T03:45:13.030Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11013,7 +11848,10 @@
       "vitrina-3-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "238",
@@ -11030,7 +11868,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.077Z",
+      "scrapedAt": "2026-04-30T03:45:13.030Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11051,7 +11889,10 @@
       "slunecni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "239",
@@ -11068,7 +11909,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.077Z",
+      "scrapedAt": "2026-04-30T03:45:13.030Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11087,7 +11928,10 @@
       "vitrina-4-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "240",
@@ -11104,7 +11948,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.077Z",
+      "scrapedAt": "2026-04-30T03:45:13.030Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11123,7 +11967,10 @@
       "vitrina-4-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "241",
@@ -11140,7 +11987,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.077Z",
+      "scrapedAt": "2026-04-30T03:45:13.030Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11160,7 +12007,10 @@
       "vitrina-4-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "242",
@@ -11177,7 +12027,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.077Z",
+      "scrapedAt": "2026-04-30T03:45:13.030Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11197,7 +12047,10 @@
       "vitrina-4-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "243",
@@ -11214,7 +12067,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.077Z",
+      "scrapedAt": "2026-04-30T03:45:13.030Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11234,7 +12087,10 @@
       "vitrina-4-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "244",
@@ -11256,7 +12112,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.077Z",
+      "scrapedAt": "2026-04-30T03:45:13.030Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11276,7 +12132,10 @@
       "vitrina-4-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "245",
@@ -11293,7 +12152,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.077Z",
+      "scrapedAt": "2026-04-30T03:45:13.030Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11313,7 +12172,10 @@
       "vitrina-4-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "246",
@@ -11330,7 +12192,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.077Z",
+      "scrapedAt": "2026-04-30T03:45:13.030Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11350,7 +12212,10 @@
       "vitrina-4-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "247",
@@ -11367,7 +12232,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.077Z",
+      "scrapedAt": "2026-04-30T03:45:13.030Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11392,7 +12257,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "248",
@@ -11409,7 +12277,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.077Z",
+      "scrapedAt": "2026-04-30T03:45:13.031Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11424,7 +12292,10 @@
     "suggestedTagsWhitelisted": [
       "rohova-vitrina-vedlejsi"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "249",
@@ -11441,7 +12312,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.077Z",
+      "scrapedAt": "2026-04-30T03:45:13.031Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11456,7 +12327,10 @@
     "suggestedTagsWhitelisted": [
       "rohova-vitrina-vedlejsi"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "250",
@@ -11473,7 +12347,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.077Z",
+      "scrapedAt": "2026-04-30T03:45:13.031Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11488,7 +12362,10 @@
     "suggestedTagsWhitelisted": [
       "rohova-vitrina-vedlejsi"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "251",
@@ -11505,7 +12382,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.077Z",
+      "scrapedAt": "2026-04-30T03:45:13.031Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11520,7 +12397,10 @@
     "suggestedTagsWhitelisted": [
       "rohova-vitrina-vedlejsi"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "252",
@@ -11537,7 +12417,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.078Z",
+      "scrapedAt": "2026-04-30T03:45:13.031Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11552,7 +12432,10 @@
     "suggestedTagsWhitelisted": [
       "rohova-vitrina-vedlejsi"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "253",
@@ -11569,7 +12452,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.078Z",
+      "scrapedAt": "2026-04-30T03:45:13.031Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11591,7 +12474,14 @@
       "funkcni",
       "elektrocas"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/ElektrocasVK1",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg",
+      "foto_0003.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "254",
@@ -11610,7 +12500,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.078Z",
+      "scrapedAt": "2026-04-30T03:45:13.031Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11629,7 +12519,10 @@
       "rohova-vitrina-vedlejsi",
       "nefunkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "255",
@@ -11648,7 +12541,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.078Z",
+      "scrapedAt": "2026-04-30T03:45:13.031Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11667,7 +12560,10 @@
       "rohova-vitrina-vedlejsi",
       "nefunkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "256",
@@ -11686,7 +12582,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.078Z",
+      "scrapedAt": "2026-04-30T03:45:13.031Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11705,7 +12601,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "257",
@@ -11722,7 +12621,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.078Z",
+      "scrapedAt": "2026-04-30T03:45:13.031Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11747,7 +12646,13 @@
       "funkcni",
       "hainz"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/dalsi_stroje/Hainz/f",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "258",
@@ -11764,7 +12669,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.078Z",
+      "scrapedAt": "2026-04-30T03:45:13.031Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11783,7 +12688,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "259",
@@ -11800,7 +12708,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.078Z",
+      "scrapedAt": "2026-04-30T03:45:13.031Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11820,7 +12728,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "260",
@@ -11839,7 +12750,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.078Z",
+      "scrapedAt": "2026-04-30T03:45:13.031Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11859,7 +12770,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "261",
@@ -11876,7 +12790,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.078Z",
+      "scrapedAt": "2026-04-30T03:45:13.031Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11898,7 +12812,10 @@
       "nastenne",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "262",
@@ -11915,7 +12832,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.078Z",
+      "scrapedAt": "2026-04-30T03:45:13.032Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11937,7 +12854,14 @@
       "funkcni",
       "elektrocas"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/ElektrocasVK1",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg",
+      "foto_0003.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "263",
@@ -11954,7 +12878,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.032Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -11976,7 +12900,14 @@
       "funkcni",
       "elektrocas"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/ElektrocasVK1",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg",
+      "foto_0003.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "264",
@@ -11993,7 +12924,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.032Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12012,7 +12943,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "265",
@@ -12029,7 +12963,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.032Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12049,7 +12983,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "266",
@@ -12066,7 +13003,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.032Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12086,7 +13023,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "267",
@@ -12103,7 +13043,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.032Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12126,7 +13066,16 @@
       "funkcni",
       "jednotny-cas"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "elektrika/jednotny_cas/artdeco/f",
+    "photoFiles": [
+      "celek_artdeco.jpg",
+      "celek_jednotny_cas.jpg",
+      "detail_a.jpg",
+      "detail_b.jpg",
+      "schema.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "268",
@@ -12143,7 +13092,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.032Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12166,7 +13115,16 @@
       "funkcni",
       "brillie"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "elektrika/brillie",
+    "photoFiles": [
+      "Brillie4.jpg",
+      "Brillie5.jpg",
+      "Brillie6.jpg",
+      "Brillie_x2_m.jpg",
+      "brillie_hodinarium_bez_ciferniku.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "269",
@@ -12183,7 +13141,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.032Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12202,7 +13160,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "270",
@@ -12221,7 +13182,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.032Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12244,7 +13205,17 @@
       "funkcni",
       "pragotron"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "pragotron",
+    "photoFiles": [
+      "C%2030%20ZEZADU+PS%204.jpg",
+      "C%2030%20zezadu%20+%20PS%20100.jpg",
+      "C%2030.jpg",
+      "C%20301%20ZEZADU.jpg",
+      "C%20301.jpg",
+      "CPJ061_1.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "271",
@@ -12261,7 +13232,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.032Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12283,7 +13254,10 @@
       "kapesni",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "272",
@@ -12300,7 +13274,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.032Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12320,7 +13294,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "273",
@@ -12337,7 +13314,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.032Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12357,7 +13334,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "274",
@@ -12374,7 +13354,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.033Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12397,7 +13377,14 @@
       "funkcni",
       "elektrocas"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/ElektrocasVK1",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg",
+      "foto_0003.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "275",
@@ -12414,7 +13401,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.033Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12434,7 +13421,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "276",
@@ -12451,7 +13441,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.033Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12471,7 +13461,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "277",
@@ -12690,7 +13683,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.033Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12710,7 +13703,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "278",
@@ -12727,7 +13723,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.079Z",
+      "scrapedAt": "2026-04-30T03:45:13.033Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12747,7 +13743,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "279",
@@ -12764,7 +13763,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.080Z",
+      "scrapedAt": "2026-04-30T03:45:13.033Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12785,7 +13784,10 @@
       "nastenne",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "280",
@@ -12802,7 +13804,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.080Z",
+      "scrapedAt": "2026-04-30T03:45:13.033Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12833,7 +13835,13 @@
       "funkcni",
       "hainz"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": "decin/dalsi_stroje/Hainz/f",
+    "photoFiles": [
+      "foto_0001.jpg",
+      "foto_0002.jpg"
+    ],
+    "isXPrefix": false
   },
   {
     "inv": "281",
@@ -12850,7 +13858,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.080Z",
+      "scrapedAt": "2026-04-30T03:45:13.033Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12870,7 +13878,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "282",
@@ -12887,7 +13898,7 @@
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.080Z",
+      "scrapedAt": "2026-04-30T03:45:13.033Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12913,7 +13924,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": false
   },
   {
     "inv": "x1",
@@ -12923,14 +13937,14 @@
     "conflicts": [],
     "exists": false,
     "frontmatter": {
-      "title": "Hodiny kruhové LED",
+      "title": "[K doplnění] Hodiny kruhové LED (inv. x1)",
       "slug": "inv-x1-hodiny-kruhove-led",
       "category": "sbirka",
       "podsekce": "karta",
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.080Z",
+      "scrapedAt": "2026-04-30T03:45:13.033Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12950,7 +13964,10 @@
       "vitrina-4-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": true
   },
   {
     "inv": "x10",
@@ -12960,14 +13977,14 @@
     "conflicts": [],
     "exists": false,
     "frontmatter": {
-      "title": "Diferenciální relé VUS",
+      "title": "[K doplnění] Diferenciální relé VUS (inv. x10)",
       "slug": "inv-x10-diferencialni-rele-vus",
       "category": "sbirka",
       "podsekce": "karta",
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.080Z",
+      "scrapedAt": "2026-04-30T03:45:13.033Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -12987,7 +14004,10 @@
       "vitrina-5-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": true
   },
   {
     "inv": "x2",
@@ -12997,14 +14017,14 @@
     "conflicts": [],
     "exists": false,
     "frontmatter": {
-      "title": "Hodiny digitron",
+      "title": "[K doplnění] Hodiny digitron (inv. x2)",
       "slug": "inv-x2-hodiny-digitron",
       "category": "sbirka",
       "podsekce": "karta",
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.080Z",
+      "scrapedAt": "2026-04-30T03:45:13.033Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -13024,7 +14044,10 @@
       "vitrina-4-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": true
   },
   {
     "inv": "x3",
@@ -13034,14 +14057,14 @@
     "conflicts": [],
     "exists": false,
     "frontmatter": {
-      "title": "Astronomicé hodiny",
+      "title": "[K doplnění] Astronomicé hodiny (inv. x3)",
       "slug": "inv-x3-astronomice-hodiny",
       "category": "sbirka",
       "podsekce": "karta",
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.080Z",
+      "scrapedAt": "2026-04-30T03:45:13.033Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -13061,7 +14084,10 @@
       "vitrina-4-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": true
   },
   {
     "inv": "x4",
@@ -13071,14 +14097,14 @@
     "conflicts": [],
     "exists": false,
     "frontmatter": {
-      "title": "Hotelový budík modrý",
+      "title": "[K doplnění] Hotelový budík modrý (inv. x4)",
       "slug": "inv-x4-hotelovy-budik-modry",
       "category": "sbirka",
       "podsekce": "karta",
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.080Z",
+      "scrapedAt": "2026-04-30T03:45:13.033Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -13095,7 +14121,10 @@
       "rohova-vitrina-vedlejsi",
       "budik"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": true
   },
   {
     "inv": "x5",
@@ -13105,14 +14134,14 @@
     "conflicts": [],
     "exists": false,
     "frontmatter": {
-      "title": "Vodní hodiny čínské",
+      "title": "[K doplnění] Vodní hodiny čínské (inv. x5)",
       "slug": "inv-x5-vodni-hodiny-cinske",
       "category": "sbirka",
       "podsekce": "karta",
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.080Z",
+      "scrapedAt": "2026-04-30T03:45:13.034Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -13129,7 +14158,10 @@
       "rohova-vitrina-vedlejsi",
       "vodni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": true
   },
   {
     "inv": "x6",
@@ -13139,14 +14171,14 @@
     "conflicts": [],
     "exists": false,
     "frontmatter": {
-      "title": "Hotelový budík velký",
+      "title": "[K doplnění] Hotelový budík velký (inv. x6)",
       "slug": "inv-x6-hotelovy-budik-velky",
       "category": "sbirka",
       "podsekce": "karta",
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.080Z",
+      "scrapedAt": "2026-04-30T03:45:13.034Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -13163,7 +14195,10 @@
       "rohova-vitrina-vedlejsi",
       "budik"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": true
   },
   {
     "inv": "x7",
@@ -13173,14 +14208,14 @@
     "conflicts": [],
     "exists": false,
     "frontmatter": {
-      "title": "Volně",
+      "title": "[K doplnění] Volně (inv. x7)",
       "slug": "inv-x7-volne",
       "category": "sbirka",
       "podsekce": "karta",
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.080Z",
+      "scrapedAt": "2026-04-30T03:45:13.034Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -13194,7 +14229,10 @@
     "suggestedTagsWhitelisted": [
       "rohova-vitrina-vedlejsi"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": true
   },
   {
     "inv": "x8",
@@ -13204,14 +14242,14 @@
     "conflicts": [],
     "exists": false,
     "frontmatter": {
-      "title": "Docházkové hodiny Timometer",
+      "title": "[K doplnění] Docházkové hodiny Timometer (inv. x8)",
       "slug": "inv-x8-dochazkove-hodiny-timometer",
       "category": "sbirka",
       "podsekce": "karta",
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.080Z",
+      "scrapedAt": "2026-04-30T03:45:13.034Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -13231,7 +14269,10 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": true
   },
   {
     "inv": "x9",
@@ -13241,14 +14282,14 @@
     "conflicts": [],
     "exists": false,
     "frontmatter": {
-      "title": "Hodiny Praotron velké",
+      "title": "[K doplnění] Hodiny Praotron velké (inv. x9)",
       "slug": "inv-x9-hodiny-praotron-velke",
       "category": "sbirka",
       "podsekce": "karta",
       "originalUrl": "https://hodinarium-eu.pages.dev/sbirka/katalog",
       "lastModified": null,
       "sourceCharset": "utf-8",
-      "scrapedAt": "2026-04-30T03:29:49.081Z",
+      "scrapedAt": "2026-04-30T03:45:13.034Z",
       "manualEdit": false,
       "author": "Český spolek horologický",
       "tags": [
@@ -13268,6 +14309,9 @@
       "rohova-vitrina-vedlejsi",
       "funkcni"
     ],
-    "suggestedTagsNew": []
+    "suggestedTagsNew": [],
+    "photoFolder": null,
+    "photoFiles": [],
+    "isXPrefix": true
   }
 ]

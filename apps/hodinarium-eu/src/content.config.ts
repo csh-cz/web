@@ -108,10 +108,9 @@ const clanky = defineCollection({
         datace: z.string().optional(),          // rok výroby nebo širší období ("1884", "polovina 18. století", "1868–1872")
         vyrobce: z.string().optional(),
         signatura: z.string().optional(),
-        provenience: z.string().optional(),
-        // Původní umístění před zařazením do sbírky (např. kostelní věž
-        // odkud byl stroj vyzdvižen). Strukturované: objekt + typ + obec
-        // + detail. Všechna pole optional — vyplní se co je k dispozici.
+        // Původní umístění před zařazením do sbírky — strukturovaně.
+        // Pokrývá historii vlastnictví (puvodní `provenience` field zrušen
+        // jako duplicitní s tímto strukturovaným záznamem).
         puvodniUmisteni: z
           .object({
             objekt: z.string().optional(),     // "kostel sv. Jakuba"
