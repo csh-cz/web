@@ -23,6 +23,8 @@ karta:
   stav: "nefunkční"
   extra:
     - { label: "Poznámka", value: "torzo" }
+  biciStroje: "hodinové"
+  kyvadlo: "~90 cm"
 ---
 
 ## Stub karty

@@ -23,6 +23,7 @@ karta:
   majitel: "Spolek"
   vztahKeSbirce: "koupě"
   stav: "funkční"
+  biciStroje: "půlové"
 ---
 
 ![](/img/decin/dalsi_stroje/Hainz/f/foto_0001.jpg)

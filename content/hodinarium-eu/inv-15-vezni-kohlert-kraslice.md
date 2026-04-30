@@ -23,6 +23,9 @@ karta:
   majitel: "Gross"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+  ram: "litinový"
+  krokJicihoStroje: "Grahamův krok"
+  biciStroje: "čtvrťové"
 ---
 
 ![](/img/decin/Kohlert_Kraslice/f/foto_0001.jpg)

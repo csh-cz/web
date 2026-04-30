@@ -20,6 +20,9 @@ karta:
   majitel: "Muzeum Děčín"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
+  ram: "kovaný"
+  krokJicihoStroje: "lihýřový krok"
+  biciStroje: "půlové"
 ---
 
 ## Stub karty

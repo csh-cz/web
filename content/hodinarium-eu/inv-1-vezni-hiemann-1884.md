@@ -26,6 +26,7 @@ karta:
   stav: "funkční"
   extra:
     - { label: "Poznámka", value: "kostel Podmokly" }
+  krokJicihoStroje: "vřetenový krok"
 ---
 
 ## Stub karty
