@@ -18,6 +18,7 @@
     "gmaps:parse": "tsx scripts/parse-gmaps-kml.ts",
     "soupis:parse": "tsx scripts/parse-soupis.ts",
     "soupis:stuby": "tsx scripts/generate-soupis-stubs.ts",
+    "sbirka:relate": "tsx scripts/backfill-related-karty.ts",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:headed": "playwright test --headed",

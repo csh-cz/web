@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/vez_elektrocas1959.htm"
 lastModified: "Sun, 23 Apr 2017 15:54:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:38.205Z"
+relatedKarty:
+  - inv-17-vezni-hainz
 ---
 ![současný stroj Elektročas 1959](/img/vez/f/elektrocas1959.jpg)
 

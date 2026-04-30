@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/vez_Zlate_Hory.htm"
 lastModified: "Thu, 27 Apr 2017 23:23:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:27.878Z"
+relatedKarty:
+  - inv-18-vezni-barokni-kovane
 ---
 [![Kostel Zlaté Hory](/img/vez/ZlateHory/kostel_Zlate_Hory.jpg)](/img/vez/ZlateHory/f/kostel_Zlate_Hory.jpg)
 

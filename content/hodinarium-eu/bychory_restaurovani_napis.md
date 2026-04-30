@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/bychory_restaurovani_napis.htm"
 lastModified: "Thu, 27 Apr 2017 21:23:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:26.612Z"
+relatedKarty:
+  - inv-2-vezni-prokes-1868-soubor
 ---
 V poněkud polních podmínkách probíhalo "vlastními silami" členů občanského sdružení restaurování stroje do podoby "k vystavení". Vzhledem k nevytápěnému prostoru jsme začali až na jaře 2011. Hlavním úkolem bylo kompletní odrezení, obnovení nátěrů, postavení stojanu, odstranění stoletých nánosů špíny na cimbálech, konstrukce alespoň provizorní zvonice.
 

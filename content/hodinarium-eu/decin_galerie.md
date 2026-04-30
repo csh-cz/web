@@ -8,6 +8,8 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:24.180Z"
 manualEdit: true
 tldr: "Hodinárium není jen technická expozice — součástí je i galerie uměleckých děl s hodinářskou tématikou. Většina je zapůjčena krátkodobě, několik exponátů je tu trvale."
+relatedKarty:
+  - inv-194-podruzny-stroj-elektrocas-maly
 ---
 Hodinárium není jen expozice věžních strojů, ale také galerie různých uměleckých
 děl souvisejících s hodinami. Na rozdíl od technické části je tato sekce více

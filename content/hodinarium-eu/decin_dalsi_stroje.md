@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/decin_dalsi_stroje.htm"
 lastModified: "Wed, 13 Nov 2024 14:19:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:30.882Z"
+relatedKarty:
+  - inv-15-vezni-kohlert-kraslice
 ---
 ## 2018
 * * *

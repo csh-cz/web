@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/lenzkirch.htm"
 lastModified: "Wed, 26 Apr 2017 13:54:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:51.819Z"
+relatedKarty:
+  - inv-151-bateriove-junghans-ato-mat
 ---
 Hodiny ze Schawrzwaldu, to nejsou jen lidové hodiny s řetízky a závažími. Již v předminulém století se zde továrně vyráběly hodiny pérové i závažové, hodiny závěsné, volně stojící i stolní či krbové.
 

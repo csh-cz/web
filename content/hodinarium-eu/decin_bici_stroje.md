@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/decin_bici_stroje.htm"
 lastModified: "Sun, 30 Apr 2017 15:09:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:29.054Z"
+relatedKarty:
+  - inv-2-vezni-prokes-1868-soubor
 ---
 Do expozice časoměrných strojů na zámku Děčín dorazil poněkud komplikovanou cestou další exponát: elektricky ovládaný bicí stroj využívající podobný způsob odbíjení celých hodin jako tzv. surrerwerk hodin ze Schwarzwaldu. Tento typ každou čtvrthodinu odbíjel úplnou informaci o čase, tedy příslušnou čtvrthodinu, doplněnou údajem o uplynulé hodině. Vystavený exponát se liší tím, že odbíjí čtvrtě a pouze v celou hodinu přidá údaj o aktuální hodině. U věžních hodin by asi odbíjení úplné informace o čase poněkud rušilo.
 

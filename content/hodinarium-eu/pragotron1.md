@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/pragotron1.htm"
 lastModified: "Wed, 26 Apr 2017 13:37:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:44.695Z"
+relatedKarty:
+  - inv-198-podruzny-stroj-pragotron-maly
 ---
 ukázka ze soukromé sbírky
 

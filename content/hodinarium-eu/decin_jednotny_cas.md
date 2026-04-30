@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/decin_jednotny_cas.htm"
 lastModified: "Sat, 14 Jan 2023 10:40:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:29.942Z"
+relatedKarty:
+  - inv-100-strojek-hainz
 ---
 [![podružné hodiny art deco](/img/elektrika/jednotny_cas/artdeco/celek_artdeco.jpg)Dvoje stolní podružné hodiny s otočnou kotvou](/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg)
 

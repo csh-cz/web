@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/decin_regulaceIBM.htm"
 lastModified: "Fri, 10 Jun 2022 22:30:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:44.996Z"
+relatedKarty:
+  - inv-194-podruzny-stroj-elektrocas-maly
 ---
 Hodinárium v Děčíně se v roce 2017 rozrostlo o podružné hodiny INTERNACIONAL určené pro třídrátový rozvod nepolarizovaných řídících impulzů. Tento rozvod je určen pro hodiny IBM se samočinnou regulací jednotlivých podružných hodin. Systém umožňuje podružným hodinám s malou odchylkou upravit nastavení na stav matečních hodin. V současné době je v provozu sestava hlavních hodin IBM, několika podružných hodiny včetně píchaček. ![Stroj podružných hodin Internacional](/img/decin/IBM/stroj.jpg)
 

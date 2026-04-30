@@ -8,6 +8,8 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:28.730Z"
 manualEdit: true
 tldr: "Věžní stroj Elektročas z roku 1959 bez vlastního kroku — soukolí uvolní jednou za minutu řídící polarizovaný impulz. Vzácné řešení v českém prostředí, můstek k nově budované expozici elektrických hodin v Hodináriu."
+relatedKarty:
+  - inv-50-podruzne-vezni-vh1-elektrocas
 ---
 Chodový podružný věžní stroj Elektročas vypouštěný minutovými impulzy
 představuje můstek k nově budované expozici elektrických hodin v Hodináriu

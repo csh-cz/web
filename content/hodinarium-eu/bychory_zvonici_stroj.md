@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/bychory_zvonici_stroj.htm"
 lastModified: "Thu, 27 Apr 2017 21:40:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:27.277Z"
+relatedKarty:
+  - inv-2-vezni-prokes-1868-soubor
 ---
 Do Hodinária byl zapůjčen společně se čtvrťovým věžním [strojem Prokeš](/clanky/bychory_prokes1) z roku 1868 i mimořádný zvonící stroj ze zámku Býchory. Zvonicí stroj bylo možno nařídit zřejmě na zvonění ranní, polední a odpolední, možná pro potřeby směn v nedaleké pile. Stroj byl získán v nálezovém stavu a byl restaurován členy sdružení za vydatné pomoci pražského orlojníka Petra Skály.;
 

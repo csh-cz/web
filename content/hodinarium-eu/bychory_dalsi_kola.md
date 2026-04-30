@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/bychory_dalsi_kola.htm"
 lastModified: "Sun, 23 Apr 2017 09:09:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:30.255Z"
+relatedKarty:
+  - inv-2-vezni-prokes-1868-soubor
 ---
 Pokud někdo vystavuje starý věžní hodinový stroj, soustředí se většinou na vlastní rám, ve kterém může být podle okolností samostatný jicí stroj, někdy spolu s bicím strojem celých hodin případně bicím strojem čtvrťovým. To je nejzajímavější část. Věžní hodiny ovšem tvoří další soustavy převodů, které otáčení minutové hřídele jicího stroje převedou až na ciferníky. Teprve zde se k minutové hřídeli přidává hřídel hodinová a dají se tak pohánět obě rafie.
 

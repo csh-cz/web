@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/uspirku.htm"
 lastModified: "Wed, 26 Apr 2017 14:05:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:57.842Z"
+relatedKarty:
+  - inv-75-soubor-malych-slunecnich-hodin
 ---
 V historických částech měst jsou oblíbené hospůdky, které uspořádáním svého interiéru navozují starobylou, někdy až středověkou atmosféru. Atmosféru klidu. Atmosféru, ve které jako bychom vnímali ubíhající čas. Napomáhá tomu i materiál - dřevěný "starobylý" nábytek, ozdobně kovaná zábradlí a lustry. A hodiny.
 

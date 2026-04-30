@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/svitici.htm"
 lastModified: "Wed, 26 Apr 2017 14:10:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:00.055Z"
+relatedKarty:
+  - inv-146-synchronni-stolni-sklenene
 ---
 ![massive](/img/elektrika/svitici/svitici2.jpg)
 

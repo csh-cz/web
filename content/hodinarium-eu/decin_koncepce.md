@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/decin_koncepce.htm"
 lastModified: "Sun, 15 Nov 2020 19:20:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:23.898Z"
+relatedKarty:
+  - inv-1-vezni-hiemann-1884
 ---
 ![Zámek Děčín](/img/decin/zamek_decin.jpg)
 

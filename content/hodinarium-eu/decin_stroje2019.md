@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/decin_stroje2019.htm"
 lastModified: "Mon, 29 Jul 2019 16:35:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:31.197Z"
+relatedKarty:
+  - inv-24-vezni-bassler
 ---
 ## Březen 2019 - stroj s označením Bassler 1864
 

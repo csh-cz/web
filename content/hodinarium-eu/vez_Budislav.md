@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/vez_Budislav.htm"
 lastModified: "Thu, 27 Apr 2017 09:14:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:25.371Z"
+relatedKarty:
+  - inv-17-vezni-hainz
 ---
 ![kostel](/img/vez/Budislav/f/kostel.jpg)
 

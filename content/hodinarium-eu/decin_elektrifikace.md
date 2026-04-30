@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/decin_elektrifikace.htm"
 lastModified: "Mon, 01 May 2017 08:49:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:28.436Z"
+relatedKarty:
+  - inv-1-vezni-hiemann-1884
 ---
 ![?](/img/decin/elektrika/foto2.jpg)
 

@@ -6,6 +6,8 @@ originalUrl: "https://hodinarium.eu/mapa.htm"
 lastModified: "Tue, 03 Jun 2025 10:07:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:07.532Z"
+relatedKarty:
+  - inv-1-vezni-hiemann-1884
 ---
 Server používá rozbalovací menu generované pomocí JAVA script. Musí tedy být povoleny prvky ActiveX. Přesto se v Internet Exploreru 9 menu tohoto webu někdy nezobrazuje. Pro částečnou nápravu zvolte KOMPATIBILNÍ ZOBRAZENÍ (tlačítko v poli adresa) nebo použjte tuto mapu serveru. Rovněž je menu nefunkční při použití na telefonu.
 

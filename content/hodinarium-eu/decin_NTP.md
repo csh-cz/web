@@ -7,6 +7,8 @@ lastModified: "Mon, 20 Mar 2023 10:16:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:29.360Z"
 ogImage: "/img/elektrika/Bodet/Profil930NTP.png"
+relatedKarty:
+  - inv-125-podruzne-hodiny-mobatime
 ---
 ![Bodet Profil 930 NTP — analogové podružné hodiny](/img/elektrika/Bodet/Profil930NTP.png)
 

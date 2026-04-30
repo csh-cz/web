@@ -12,6 +12,8 @@ karta:
   biciStroje: "čtvrťový a hodinový"
   rozmery: "š 80 × v 68 × h 38 cm"
   kyvadlo: "délka cca 235 cm"
+relatedKarty:
+  - inv-2-vezni-prokes-1868-soubor
 ---
 Do Hodinária byl zapůjčen věžní komplet Prokeš 1868 s unikátním věžním [zvonícím strojem](/clanky/bychory_zvonici_stroj) a [cimbály](/clanky/bychory_cimbaly). Kromě již zmíněného zvonícího stroje má i neobvyklý kyvadlový krok.
 
