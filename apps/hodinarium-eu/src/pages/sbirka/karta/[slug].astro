@@ -1,0 +1,159 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import KartaSbirky from '../../../components/KartaSbirky.astro';
+import ArticleImageBehavior from '../../../components/ArticleImageBehavior.astro';
+import { clanekHref } from '../../../data/url-helpers';
+
+export async function getStaticPaths() {
+  const all = await getCollection('clanky');
+  // Pouze evidenční karty (podsekce: 'karta')
+  return all
+    .filter((entry) => entry.data.category === 'sbirka' && entry.data.podsekce === 'karta')
+    .map((entry) => ({
+      params: { slug: entry.id },
+      props: { entry, all },
+    }));
+}
+
+const { entry, all } = Astro.props;
+const { Content } = await render(entry);
+
+// Reverse lookup — články, které referují tuto kartu přes relatedKarty
+const vazaneClanky = all.filter((a) =>
+  a.data.podsekce !== 'karta' &&
+  (a.data.relatedKarty ?? []).includes(entry.data.slug)
+);
+---
+<Base
+  title={entry.data.title}
+  description={`Evidenční karta sbírkového předmětu — inv. č. ${entry.data.karta?.inventarniCislo ?? '?'}`}
+>
+  <nav class="breadcrumbs" aria-label="Drobečková navigace">
+    <a href="/">Hodinárium</a>
+    <span aria-hidden="true">›</span>
+    <a href="/sbirka">Sbírka</a>
+    <span aria-hidden="true">·</span>
+    <a href="/sbirka/katalog">Katalog</a>
+    <span aria-hidden="true">›</span>
+    <span class="current" aria-current="page">{entry.data.title}</span>
+  </nav>
+
+  <article class="karta-detail" itemscope itemtype="https://schema.org/CreativeWork">
+    <header class="karta-detail-header">
+      <p class="eyebrow mb-3">
+        Evidenční karta
+        {entry.data.karta?.inventarniCislo && <> · inv. č. <strong>{entry.data.karta.inventarniCislo}</strong></>}
+      </p>
+      <h1 class="karta-detail-title" itemprop="name">{entry.data.title}</h1>
+    </header>
+
+    {entry.data.karta && <KartaSbirky karta={entry.data.karta} />}
+
+    <div class="prose-content drop-cap" itemprop="description">
+      <Content />
+    </div>
+
+    {vazaneClanky.length > 0 && (
+      <aside class="vazane-clanky" aria-labelledby="vazane-h">
+        <p class="eyebrow vazane-clanky-label" id="vazane-h">Vážící se články</p>
+        <ul class="vazane-clanky-list">
+          {vazaneClanky.map((a) => (
+            <li>
+              <a href={clanekHref({ slug: a.data.slug, category: a.data.category })}>
+                <strong>{a.data.title}</strong>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </aside>
+    )}
+
+    <footer class="karta-byline">
+      <span class="byline-publisher">{entry.data.author ?? 'Český spolek horologický'}</span>
+      <span class="byline-sep" aria-hidden="true">·</span>
+      <a href="/sbirka/katalog" class="byline-back">← Zpět do katalogu</a>
+    </footer>
+  </article>
+
+  <ArticleImageBehavior />
+</Base>
+
+<style>
+  .breadcrumbs {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .breadcrumbs a { color: var(--color-text-soft); border-bottom: none; }
+  .breadcrumbs a:hover { color: var(--color-brass-bright); }
+  .breadcrumbs .current { color: var(--color-text-soft); font-style: italic; }
+  .breadcrumbs span[aria-hidden] { color: var(--color-brass); opacity: 0.5; }
+
+  .karta-detail {
+    max-width: 72ch;
+    margin: 0 auto;
+  }
+  .karta-detail-header {
+    margin-bottom: 1.5rem;
+  }
+  .karta-detail-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    line-height: 1.15;
+    margin: 0;
+    color: var(--color-brass-bright);
+  }
+
+  .vazane-clanky {
+    background: color-mix(in srgb, var(--color-bg-deep) 85%, var(--color-copper));
+    border: 1px solid color-mix(in srgb, var(--color-copper) 25%, transparent);
+    border-left: 3px solid var(--color-copper);
+    border-radius: 2px;
+    padding: 1rem 1.25rem;
+    margin: 2.5rem 0 1rem;
+  }
+  .vazane-clanky-label { margin: 0 0 0.6rem; }
+  .vazane-clanky-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .vazane-clanky-list a {
+    display: inline-block;
+    padding: 0.35rem 0.75rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--color-brass-bright);
+    transition: border-color 150ms ease;
+  }
+  .vazane-clanky-list a:hover {
+    border-color: var(--color-brass);
+  }
+
+  .karta-byline {
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .byline-publisher { color: var(--color-text-soft); font-style: italic; }
+  .byline-sep { color: var(--color-brass); opacity: 0.5; }
+  .byline-back { color: var(--color-brass); border-bottom: 1px dotted color-mix(in srgb, var(--color-brass) 40%, transparent); text-decoration: none; }
+  .byline-back:hover { color: var(--color-brass-bright); }
+</style>

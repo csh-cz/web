@@ -77,6 +77,23 @@ const clanky = defineCollection({
      * (typo / neznámý tag se neproklouzne).
      */
     /**
+     * Diskriminátor podsekce v rámci kategorie `sbirka`:
+     *   - 'karta'  = evidenční karta sbírkového předmětu (1:1 z XLS soupisu),
+     *                URL /sbirka/karta/<slug>, generated stub
+     *   - 'clanek' = vázaný článek o jednom nebo více předmětech
+     *                (restaurování, příběh, historie), URL /sbirka/<slug>
+     *
+     * Pro ostatní kategorie (konstrukce, projekty, …) se nepoužívá —
+     * default 'clanek' když chybí.
+     */
+    podsekce: z.enum(['karta', 'clanek']).optional(),
+    /**
+     * FK na evidenční karty, ke kterým se článek vztahuje. Slugy karet
+     * (inv-NNN-*). Reverse lookup probíhá v /sbirka/karta/<slug>/ pro
+     * vykreslení sekce "Vážící se články".
+     */
+    relatedKarty: z.array(z.string()).optional(),
+    /**
      * Popisná karta exponátu (typicky pro `category: sbirka` články
      * o konkrétním sbírkovém předmětu). Renderuje se jako definition
      * list pod hero obrázkem na začátku článku.

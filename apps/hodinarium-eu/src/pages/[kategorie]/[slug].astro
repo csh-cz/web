@@ -6,10 +6,12 @@ import { NEW_CATEGORIES } from '../../data/url-helpers';
 
 export async function getStaticPaths() {
   const all = await getCollection('clanky');
-  // Jen články v NOVÝCH kategoriích — deprecated (decin/vezni-hodiny/ostatni)
-  // mají dál fallback na /clanky/<slug>, dokud se nepřesunou do Kroniky M4.
+  // Jen články v NOVÝCH kategoriích.
+  // Z `sbirka` vyloučit evidenční karty (`podsekce: 'karta'`) — ty mají
+  // vlastní router /sbirka/karta/<slug>/ (viz pages/sbirka/karta/[slug].astro).
   return all
     .filter((entry) => NEW_CATEGORIES.has(entry.data.category))
+    .filter((entry) => entry.data.podsekce !== 'karta')
     .map((entry) => ({
       params: { kategorie: entry.data.category, slug: entry.id },
       props: { entry },

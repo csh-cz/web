@@ -58,10 +58,11 @@ Soubor: `content/hodinarium-eu/inv-1-vezni-hiemann-1884.md`
 title: "věžní Hiemann 1884"
 slug: "inv-1-vezni-hiemann-1884"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.098Z"
+scrapedAt: "2026-04-30T03:15:37.253Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -91,10 +92,11 @@ Soubor: `content/hodinarium-eu/inv-2-vezni-prokes-1868-soubor.md`
 title: "věžní Prokeš 1868 soubor"
 slug: "inv-2-vezni-prokes-1868-soubor"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.099Z"
+scrapedAt: "2026-04-30T03:15:37.254Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -124,10 +126,11 @@ Soubor: `content/hodinarium-eu/inv-3-barokni-ministroj-18-stol.md`
 title: "barokní ministroj  18. stol."
 slug: "inv-3-barokni-ministroj-18-stol"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.099Z"
+scrapedAt: "2026-04-30T03:15:37.255Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -153,10 +156,11 @@ Soubor: `content/hodinarium-eu/inv-4-vezni-18-stol.md`
 title: "věžní 18. stol."
 slug: "inv-4-vezni-18-stol"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.100Z"
+scrapedAt: "2026-04-30T03:15:37.255Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -183,10 +187,11 @@ Soubor: `content/hodinarium-eu/inv-5-vezni-18-stol-spindl.md`
 title: "věžní 18. stol. špindl"
 slug: "inv-5-vezni-18-stol-spindl"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.100Z"
+scrapedAt: "2026-04-30T03:15:37.255Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -213,10 +218,11 @@ Soubor: `content/hodinarium-eu/inv-6-vezni-michael-christ.md`
 title: "věžní Michael Christ"
 slug: "inv-6-vezni-michael-christ"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.100Z"
+scrapedAt: "2026-04-30T03:15:37.255Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -246,10 +252,11 @@ Soubor: `content/hodinarium-eu/inv-7-vezni-f-x-beitel.md`
 title: "věžní F. X. Beitel"
 slug: "inv-7-vezni-f-x-beitel"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.100Z"
+scrapedAt: "2026-04-30T03:15:37.255Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -279,10 +286,11 @@ Soubor: `content/hodinarium-eu/inv-8-vezni-r-liebing.md`
 title: "věžní R. Liebing"
 slug: "inv-8-vezni-r-liebing"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.100Z"
+scrapedAt: "2026-04-30T03:15:37.255Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -312,10 +320,11 @@ Soubor: `content/hodinarium-eu/inv-9-vezni-thondel.md`
 title: "věžní Thöndel"
 slug: "inv-9-vezni-thondel"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.100Z"
+scrapedAt: "2026-04-30T03:15:37.255Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -346,10 +355,11 @@ Soubor: `content/hodinarium-eu/inv-10-vezni.md`
 title: "věžní"
 slug: "inv-10-vezni"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.100Z"
+scrapedAt: "2026-04-30T03:15:37.255Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -378,10 +388,11 @@ Soubor: `content/hodinarium-eu/inv-11-vezni-torzo.md`
 title: "věžní torzo"
 slug: "inv-11-vezni-torzo"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.100Z"
+scrapedAt: "2026-04-30T03:15:37.255Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -409,10 +420,11 @@ Soubor: `content/hodinarium-eu/inv-12-vezni-rochlitz.md`
 title: "věžní Rochlitz"
 slug: "inv-12-vezni-rochlitz"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.100Z"
+scrapedAt: "2026-04-30T03:15:37.255Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -441,10 +453,11 @@ Soubor: `content/hodinarium-eu/inv-13-vezni-wenzel-mellner.md`
 title: "věžní Wenzel Mellner"
 slug: "inv-13-vezni-wenzel-mellner"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.100Z"
+scrapedAt: "2026-04-30T03:15:37.256Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -472,10 +485,11 @@ Soubor: `content/hodinarium-eu/inv-14-vezni-hodiny-paul-zieux.md`
 title: "věžní hodiny Paul Zieux"
 slug: "inv-14-vezni-hodiny-paul-zieux"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.100Z"
+scrapedAt: "2026-04-30T03:15:37.256Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -503,10 +517,11 @@ Soubor: `content/hodinarium-eu/inv-15-vezni-kohlert-kraslice.md`
 title: "věžní Kohlert Kraslice"
 slug: "inv-15-vezni-kohlert-kraslice"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.101Z"
+scrapedAt: "2026-04-30T03:15:37.256Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -534,10 +549,11 @@ Soubor: `content/hodinarium-eu/inv-16-vezni-kladno.md`
 title: "věžní Kladno"
 slug: "inv-16-vezni-kladno"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.101Z"
+scrapedAt: "2026-04-30T03:15:37.256Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -564,10 +580,11 @@ Soubor: `content/hodinarium-eu/inv-17-vezni-hainz.md`
 title: "věžní Hainz"
 slug: "inv-17-vezni-hainz"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.101Z"
+scrapedAt: "2026-04-30T03:15:37.256Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -595,10 +612,11 @@ Soubor: `content/hodinarium-eu/inv-18-vezni-barokni-kovane.md`
 title: "věžní barokní kované"
 slug: "inv-18-vezni-barokni-kovane"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.101Z"
+scrapedAt: "2026-04-30T03:15:37.256Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -627,10 +645,11 @@ Soubor: `content/hodinarium-eu/inv-19-vezni-hodiny-amant-1898.md`
 title: "věžní hodiny Amant 1898"
 slug: "inv-19-vezni-hodiny-amant-1898"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.101Z"
+scrapedAt: "2026-04-30T03:15:37.256Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
@@ -657,10 +676,11 @@ Soubor: `content/hodinarium-eu/inv-20-vezni-hodiny-krecmer.md`
 title: "věžní hodiny Krečmer"
 slug: "inv-20-vezni-hodiny-krecmer"
 category: "sbirka"
+podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T03:03:17.101Z"
+scrapedAt: "2026-04-30T03:15:37.256Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:

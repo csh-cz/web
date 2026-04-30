@@ -241,6 +241,7 @@ async function main() {
       title: e.popis,
       slug: proposedSlug,
       category: 'sbirka',
+      podsekce: 'karta',  // discriminator → routes na /sbirka/karta/<slug>/
       originalUrl: 'https://hodinarium-eu.pages.dev/sbirka/katalog',
       lastModified: null,
       sourceCharset: 'utf-8',
