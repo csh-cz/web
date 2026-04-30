@@ -1,0 +1,26 @@
+---
+title: "[K doplnění] Hodiny Praotron velké (inv. x9)"
+slug: "inv-x9-hodiny-praotron-velke"
+category: "sbirka"
+podsekce: "karta"
+originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
+lastModified: null
+sourceCharset: "utf-8"
+scrapedAt: "2026-04-30T04:12:37.544Z"
+manualEdit: false
+author: "Český spolek horologický"
+tags:
+  - rohova-vitrina-vedlejsi
+  - funkcni
+karta:
+  inventarniCislo: "x9"
+  umisteni: "Rohová vitrína (vedlejší místnost)"
+  pridanoDoSbirky: "2026"
+  majitel: "Kavalír"
+  vztahKeSbirce: "zápůjčka"
+  stav: "funkční"
+---
+
+## Stub karty
+
+Tato karta byla vyrobena ze Soupisu exponátů, ale chybí jí inventární číslo (XLS sloupec prázdný). Přiřaďte řádné inv. č. v Soupisu a re-generujte.
