@@ -123,6 +123,18 @@ po doménovém přesunu (kvůli velikosti indexu chce ostré HTTP/2 + Brotli).
 
 DNS přesun, TLS certifikát Let's Encrypt zdarma. ~30 minut každá doména.
 
+#### Po DNS switch — odblokovat indexaci
+
+Aktuálně blokovaná, ať Google neposílá lidi na `*.pages.dev` (commit 42eb32c, 2026-05-02). Po DNS switch vrátit:
+
+- [ ] `apps/hodinarium-eu/src/layouts/Base.astro` → smazat oba `<meta name="robots/googlebot">` bloky (DEV STATE komentáře v souboru fungují jako waypointy)
+- [ ] `apps/horologie-cz/src/layouts/Base.astro` → totéž
+- [ ] `apps/hodinarium-eu/public/robots.txt` → vrátit `Allow: /` + `Disallow: /og-preview /og/ /podklady/`
+- [ ] `apps/horologie-cz/public/robots.txt` → vrátit `Allow: /` + `Disallow: /og/`
+- [ ] Po pushi a deployi submitnout sitemapy do Google Search Console
+
+**Pro vlastní testování stačí HTTP fetch (Lighthouse, Pagefind, link audit, scrapery) — `meta noindex` neblokuje fetch, jen Google indexaci.** Pokud chceš testovat Google Rich Results, dočasně zakomentuj 2 řádky meta tagů v Base.astro (popsáno v skill `clanky-konvence` sekce 13).
+
 ### 📊 Analytics
 
 - [ ] **Cloudflare Web Analytics** (free, GDPR-friendly, žádné cookies, žádný banner)

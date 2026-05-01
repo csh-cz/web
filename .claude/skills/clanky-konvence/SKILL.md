@@ -434,7 +434,7 @@ Důvod: konzistence s byline, vizuální čistota, web čte i internationally �
 
 Frontmatter neparsuje markdown. `title: "**X**"` se vyrenderuje literálně s hvězdičkami v `<h1>`. Strip vždy.
 
-## 13. Hodinarium-eu deployment URL
+## 13. Hodinarium-eu deployment URL + dev-state indexace
 
 Ke dnešku **2026-04-29** nový Astro web žije na `https://hodinarium-eu.pages.dev`. Doména `hodinarium.eu` je **stále legacy PHP** (Petrovy programy `PRS2.php`, `PRS10_text.php`, `arduino2_polarizace.php`, /download/...).
 
@@ -443,6 +443,36 @@ Ke dnešku **2026-04-29** nový Astro web žije na `https://hodinarium-eu.pages.
 - Petrovy legacy PHP endpointy → `hodinarium.eu` nebo `www.orloj.eu`
 
 Po DNS přepnutí tento bod aktualizovat.
+
+### Indexace zablokovaná na pages.dev (dev state, od 2026-05-02)
+
+Dokud běžíme na `*.pages.dev`, **blokujeme indexaci** — nechceme aby Google posílal lidi na dev URL místo ostré domény. Dvě vrstvy:
+
+1. **`<meta name="robots" content="noindex, nofollow">`** + `googlebot` ekvivalent v `Base.astro` obou webů (nejsilnější — Google to respektuje, i když URL objeví z linků).
+2. **`Disallow: /`** v `public/robots.txt` obou webů (brání crawl od slušných botů).
+
+Komentáře `<!-- DEV STATE: … -->` v Base.astro a `# DEV STATE` v robots.txt fungují jako waypointy — po DNS switch je vrátit:
+- `Base.astro` → smazat oba `<meta name="robots/googlebot">` bloky
+- `robots.txt` → vrátit `Allow: /` + `Disallow: /og/` (utility pages)
+
+### Jak to NEbrání vlastnímu testování
+
+Toto blokuje **jen Google indexaci**, ne HTTP fetch:
+
+| Co testuju | Funguje? |
+|---|---|
+| Vlastní crawler / link audit (lychee, broken-link-checker) | ✅ ignorují robots.txt + neřeší meta noindex |
+| Lighthouse / PageSpeed Insights | ✅ fetchne HTML, hodnotí performance |
+| Pagefind build, scripts/build-image-index, atd. | ✅ čtou souborový systém / dist |
+| Vizuální kontrola v prohlížeči | ✅ |
+| **Google Rich Results Test / Search Console** | ❌ — čte `meta robots` a respektuje noindex |
+| **Google Search „site:hodinarium-eu.pages.dev"** | ❌ — Google to neindexuje |
+
+**Když opravdu potřebuju otestovat Google rich results:**
+
+1. **Lokálně** přes `pnpm --filter hodinarium-eu dev` — test pomocí veřejného Rich Results URL nepůjde (stejný meta tag), ale lokální dev server můžeš zkoumat přes prohlížeč/devtools.
+2. **Dočasně vypnout** — v `Base.astro` zakomentovat 2 řádky `<meta name="robots">` + `<meta name="googlebot">`, deploy, otestovat na `https://search.google.com/test/rich-results`, vrátit. Trvá 1–3 min na CF rebuild.
+3. **Toggle přes env var** (zatím není nasazené, kdyby se to dělalo často) — `PUBLIC_ALLOW_INDEXING=true` v CF Pages Preview environment by skipla render meta tagů. Implementuj jen kdyby se test rich results dělal opakovaně.
 
 ## 14. Build a deploy
 
