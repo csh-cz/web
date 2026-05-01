@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.530Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - panel-1
@@ -15,6 +15,7 @@ tags:
 karta:
   inventarniCislo: "90"
   umisteni: "Panel 1"
+  vyrobce: "Ericsson"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
@@ -22,16 +23,12 @@ karta:
     - { label: "Poznámka", value: "pákové impulzy kyvadlu" }
 ---
 
-## Stub karty
+Stroj je řízen volně kývajícím kyvadlem. V horní části kyvadla je vahadlo, na jehož krajních bodech jsou kontakty.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
+V okamžiku vykývnutí kyvadla na jednu krajní pozici se otevře kontakt elektrického obvodu na jedné krajní pozici a uvolní cívku elektrického proudu. Přitažením s větší vůlí vlastní hmotnosti přes tento kontakt předá impulz kyvadlu. Obdobný proces se opakuje při vykývnutí kyvadla do druhé krajní pozice. Tím je řízen krokový motorek.
 
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
+Na něj je napojena vačka, která vždy po minutě sepne kontakt rtuťový, vysílající nepolarizované impulzy do podružných hodin.
 
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+* * *
+
+*Text převzat z informačního panelu expozice (Panel 1, Hodinárium Děčín, 2017). Vedle Ericssona stávaly do nedávna na Panelu 1 také Signální hodiny Bauer & Co. Chemnitz; v aktuálním uspořádání je nahradily Hodiny Kienzle (inv. 91).*

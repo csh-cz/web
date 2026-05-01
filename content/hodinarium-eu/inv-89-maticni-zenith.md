@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.530Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - panel-1
@@ -15,23 +15,20 @@ tags:
 karta:
   inventarniCislo: "89"
   umisteni: "Panel 1"
+  vyrobce: "Zenith"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+  krokJicihoStroje: "Grahamův krok"
+  pohon: "péro, dotahované Ferrarisovým motorkem (trafo 70 V)"
   extra:
     - { label: "Poznámka", value: "natahování Ferraris" }
 ---
 
-## Stub karty
+Hodiny jsou poháněny perem; pérovník je přes převod napojen na Ferrarisův motorek, napájený přes trafo s výstupem 70 V. Hodinový stroj je kyvadlový s Grahamovým krokem.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
+Ve stroji je namontován další systém, který přijímá impulzy z vnějšího zdroje. Vzájemným nastavením kontaktu tohoto stroje a matičního stroje je dosaženo požadovaných intervalů.
 
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
+* * *
 
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+*Text převzat z informačního panelu expozice (Panel 1, Hodinárium Děčín, 2017).*
