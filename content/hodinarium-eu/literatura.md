@@ -42,7 +42,7 @@ scrapedAt: "2026-04-27T17:37:05.801Z"
 -   Rosický, Václav PH. DR. - profesor v.v. - **STAROMĚSTSKÝ ORLOJ V PRAZE** - OTTO, Praha 1923
 -   Schneider, Rudolf - **Přesný čas, Hodiny a hodinky** - Orbis, Praha 1949
 -   Sedláček, Vojtěch - **Orloj v Praze** - Agentura ProVás, s.r.o., Praha 2006
--   Sladkovský, Josef - **Učebnice odborné nauky hodinářské** - Nákladem Jednoty společenstev hodinářů v Čechách a na Morravě-Slezku - Praha
+-   Sladkovský, Josef - **Učebnice odborné nauky hodinářské** - Nákladem Jednoty společenstev hodinářů v Čechách a na Moravě-Slezsku - Praha 1947 (2. vydání; 1. vydání 1933)
 -   Sojka, Jaroslav - **Hodiny ze sbírek Pražského hradu**, katalog k výstavě - Správa Pražského hradu, Praha 2008
 -   Urešová, Libuše - **Hodiny ze sbírek UPM v Praze** - Katalog k výstavě hodin v UPM v Praze 1977
 
