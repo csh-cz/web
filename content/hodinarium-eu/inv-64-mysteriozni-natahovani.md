@@ -27,17 +27,3 @@ Vystavený exponát je prototypem zařízení, které natahuje závaží Pražsk
 Při sepnutí vnitřního čidla začne LED blikat rychle zelená/červená, po menší prodlevě se spustí natahování a LED svítí červeně. Natahování je asi v 37 vteřinových intervalech. Po dotažení LED bliká zeleně.
 
 Zařízení navrhl a sestrojil Ing. Jaroslav Kavalír. Do Pražského orloje bylo zabudováno v rámci generální opravy stroje v roce 2018.
-
-Digitální docházkové hodiny
-
-Digitální docházkové hodiny čínské výroby slouží pro registraci
-
-příchodu a odchodu zaměstnanců na pracoviště. Záznam
-
-se provádí přiložením registrovaného prstu do okénka snímače.
-
-Elektronicky řízené odbíjení
-
-Odbíjecí systém, využívající prvky stavebnice Arduino přijímá časovou informaci z místní WiFi sítě a zpracovává ji na signál pro dvojici zvonků, gongů a jiných zvukových mechanických zařízení. Napojením na AP adresu zařízení je možno přes počítač, tablet, či mobilní telefon, např. přes QR kód, nastavovat charakteristiku odbíjení : např. způsob odbíjení - čtvrt, půl, třičtvrtě, celou hodinu, nebo jen půl, celá hodina. Dále je možno předvolit délku impulzu, prodlevu mezi impulzy.
-
-Model a jeho řízení navrhl a zhotovil Ing. Jaroslav Kavalír, software navrhl Ing. Ladislav Kavalír.

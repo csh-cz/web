@@ -30,27 +30,3 @@ Věžní hodinový stroj je velmi starý, může pocházet z konce 15. století.
 V hodinách zcela chybí jicí stroj. Stroj bicí je nekompletní, chybí závěrkové kolo. Ostatní součásti hodin se nedochovaly.
 
 Torzo hodinového stroje pochází z kostela sv. Vavřince ve Velké Vsi a do expozice bylo zapůjčeno Římskokatolickou farností Odolena Voda.
-
-Zapůjčeno z majetku
-
-Římskokatolické  farnosti Odolena Voda
-
-Strojky na výrobu řetízků							Sluneční hodiny ekvatoreální
-
-Dva strojky na výrobu řetízků k hodinám se svým         					       Heliochronometr
-
-otcem vyrobil a do  Hodinária věnoval pan Sýs
-
-Římské digitálky									Sluneční hodiny ekvatoreální
-
-Římské digitálky z prvků stavebnice Arduino 							s analémou
-
-sestavil a naprogramoval pan Ing. Petr Král
-
-------------------------------------------------------------------------------------------------------------------------------------------------------
-
-SLC  - M    žlutá - zem
-
-SDA -  Z     červená - +5V
-
-Sluneční hodiny polární

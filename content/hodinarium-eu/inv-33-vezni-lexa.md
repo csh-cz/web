@@ -35,4 +35,4 @@ Gestiftet v. F H Richter Kaufman in Frankfurt a. Main. Bestellt durch Viltler Ob
 
 Severní (dříve Hilgersdorf) je nejseverněji položená ves v České republice, dnes součástí obce Lobendava. Byla založena ve 13. století jako typicky kolonizační vesnice. Název Hilgersdorf je snad odvozen od starogermánského jména Hildegard. Za Rakouska zde stávalo nejsevernější stavení monarchie. Samostatnou obcí byla do roku 1960.
 
-Nixdorf  - Mikulášovice  jsou město v okrese Děčín v západní části Šluknovského výběžku táhnoucí se podél Mikulášovického potoka v délce téměř sedmi kilometrů. Své největší slávy dosáhly Mikulášovice před první světovou válkou, kdy byly s necelými osmi tisíci obyvateli největší vesnicí Rakousko-Uherska.
+Nixdorf  - Mikulášovice  jsou město v okrese Děčín v západní části Šluknovského výběžku táhnoucí se podél Mikulášovického potoka v délce téměř sedmi kilometrů. Své největší slávy dosáhly Mikulášovice před první světovou válkou, kdy byly s necelými osmi tisíci obyvateli největší vesnicí Rakousko-Uherska

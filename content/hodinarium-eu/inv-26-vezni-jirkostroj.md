@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.523Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -21,18 +21,16 @@ karta:
   majitel: "Baudisch + Kořínek"
   vztahKeSbirce: "montáž"
   stav: "funkční"
+  rokVyroby: "1881"
+  krokJicihoStroje: "Grahamův krok"
 ---
 
-## Stub karty
+Hodinový stroj byl sestaven ze zachráněných kol stroje věžních hodin. Původní rám se nezachoval, soukolí jicího stroje bylo namontováno do nově zhotovené konstrukce. Stroj má Grahamův krok, pohon závažím.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
+Na rámu je štítek s německým nápisem :
 
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
+Gestiftet v. F H Richter Kaufman in Frankfurt a. Main. Bestellt durch Viltler Oberlehler in Hilgersdorf. Gearbeitet v. Joh. Lissner Uhrmacher in Nixdorf 1881.
 
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Severní (dříve Hilgersdorf) je nejseverněji položená ves v České republice, dnes součástí obce Lobendava. Byla založena ve 13. století jako typicky kolonizační vesnice. Název Hilgersdorf je snad odvozen od starogermánského jména Hildegard. Za Rakouska zde stávalo nejsevernější stavení monarchie. Samostatnou obcí byla do roku 1960.
+
+Nixdorf  - Mikulášovice  jsou město v okrese Děčín v západní části Šluknovského výběžku táhnoucí se podél Mikulášovického potoka v délce téměř sedmi kilometrů. Své největší slávy dosáhly Mikulášovice před první světovou válkou, kdy byly s necelými osmi tisíci obyvateli největší vesnicí Rakousko-Uherska.

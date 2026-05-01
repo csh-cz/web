@@ -22,8 +22,8 @@ import { execSync } from 'node:child_process';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const ROOT = join(__dirname, '..');
-const DOC_PATH = join(ROOT, 'zdroje', 'katalog exponátů', 'Popisy strojů 2.docx');
-const TMP_TXT = '/tmp/Popisy strojů 2.txt';
+const DOC_PATH = join(ROOT, 'zdroje', 'katalog exponátů', 'Popisy strojů 3.docx');
+const TMP_TXT = '/tmp/Popisy strojů 3.txt';
 const OUT_PATH = join(ROOT, 'tmp', 'popisy-stroju-parsed.json');
 
 interface Stroj {
@@ -48,13 +48,19 @@ async function main() {
   const stroje: Stroj[] = [];
   let i = 0;
   let docOrder = 0;
+  // Section marker:
+  //   "NN"          — single inv. č.
+  //   "NN, NN"      — paired entry (např. "55, 56" = popis platí pro oba)
+  const SECTION_RE = /^(\d{1,3})(?:\s*,\s*(\d{1,3}))?$/;
+  // Stop marker pro body: jakákoliv následující sekce — single, paired, nebo NN/B
+  const STOP_RE = /^(\d{1,3}(?:\s*,\s*\d{1,3})?|\d{1,3}\s*\/[0-9]?[A-Z])$/;
   while (i < lines.length) {
     const line = lines[i];
-    // Section marker: jen číslo na samostatné řádce
-    const numMatch = line.match(/^(\d{1,3})$/);
+    const numMatch = line.match(SECTION_RE);
     if (!numMatch) { i++; continue; }
 
     const invCislo = parseInt(numMatch[1], 10);
+    const invCisloPaired = numMatch[2] ? parseInt(numMatch[2], 10) : null;
     // Next non-empty line = title
     let j = i + 1;
     while (j < lines.length && !lines[j]) j++;
@@ -63,26 +69,29 @@ async function main() {
     j++;
 
     // Body lines until další section marker:
-    //   - "NN" (čistě inv. č. — další stroj)
+    //   - "NN" / "NN, NN" (čistě inv. č. — další stroj)
     //   - "NN/B", "NN/3B" apod. (sekce panelu/místnosti) — body končí, ale
     //     nezačíná nový stroj; následuje samostatný popis komponenty bez inv. č.
     const bodyParagraphs: string[] = [];
     while (j < lines.length) {
       const l = lines[j];
-      if (/^\d{1,3}$/.test(l)) break;  // další stroj
-      if (/^\d{1,3}\s*\/[0-9]?[A-Z]$/.test(l)) break;  // sekční marker (4/B, 25/B, 35/3B)
+      if (STOP_RE.test(l)) break;
       if (l) bodyParagraphs.push(l);
       j++;
     }
 
     docOrder++;
-    stroje.push({
-      invCislo,
-      docOrder,
-      title,
-      body: bodyParagraphs.join('\n\n'),
-      bodyParagraphs,
-    });
+    // Paired entry → push the same body za oba inv. čísla, ať apply zapíše do obou karet.
+    const invs = invCisloPaired !== null ? [invCislo, invCisloPaired] : [invCislo];
+    for (const inv of invs) {
+      stroje.push({
+        invCislo: inv,
+        docOrder,
+        title,
+        body: bodyParagraphs.join('\n\n'),
+        bodyParagraphs,
+      });
+    }
 
     i = j;
   }

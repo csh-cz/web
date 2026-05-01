@@ -44,7 +44,3 @@ Hodinový stroj je vyroben velmi precizně technologiemi, které ukazují na vel
 O historii firmy Franz X. Beitel není mnoho známo. V roce 1936 podává (neúspěšně) firma nabídku na osazení hodin na věž kostela sv. Augustina v Brně, osazuje hodiny v bývalé Dívčí škole Řádu německých rytířů v Bruntále, v kostele Sv. Mikuláše v Odrách nebo na Slovensku v kostele Nanebovzatia Panny Márie ve Starém Tekove.
 
 Není jisté, jestli firma hodiny sama celé vyráběla nebo konstruovala a stavěla z dílů dodávaných subdodavateli. Nelze však ani vyloučit, že také osazovala hodinové stroje vyráběné jinými výrobci, jak to bylo tehdy běžné.
-
-Zapůjčeno ze sbírek
-
-Oblastního muzea v Děčíně, příspěvková organizace

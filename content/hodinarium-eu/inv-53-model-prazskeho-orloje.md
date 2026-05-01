@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.526Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -21,16 +21,8 @@ karta:
   stav: "funkční"
 ---
 
-## Stub karty
+Zjednodušený model Pražského orloje (chybí rafije pro pohyb Měsíce) byl sestrojen pro předvedení souvislosti staročeského času a času středoevropského. V minulosti se užíval staročeský čas, u něhož počítání hodin dne začínalo západem Slunce. To znamená, že počátek dne se v průběhu roku měnil. Na orloji se to projevuje tím, že čtyřiadvacátník se v průběhu roku natáčí tak, aby jeho číslice 24 byla proti římské číslici, odpovídající okamžiku západu Slunce pro daný den.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
+Po zapnutí stroje se ekliptika, čtyřiadvacátník a rafije Slunce postaví do výchozích pozic. Přiložením ruky k symbolu dlaně se tyto ukazatele přestaví do náhodné polohy a předvedou vazbu mezi postavením Slunce ve zvěrokruhu, staročeským časem (na čtyřiadvacetníku) a časem středoevropským. Ukazatelem je ruka na rameni Slunce.
 
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
-
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Do Hodinária věnovala Hvězdárna Petřín.

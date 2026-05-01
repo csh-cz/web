@@ -37,7 +37,3 @@ Do expozice byl zapůjčen věžní komplet Prokeš 1868, původně osazený na 
 Hodinový stroj je čtvrťový, s cévkovými ( lucernovými ) pastorky. Vypouštění bicích strojů je jednopákové. Kyvadlová litinová čočka je zavěšena na kyvadlové tyči, která byla pro účely vystavení zkrácena. Původní litinová závaží jsou zavěšena přes kladky na lanech. Na horní vodorovné pásnici kyvadlové strany je čitelná signatura výrobce hodinového stroje s uvedeným letopočtem: Jan Prokeš v Sobotce 1868.
 
 Zvláštností tohoto věžního hodinového stroje je spojení se zvonicím strojem, který bylo možno nařídit zřejmě na zvonění ranní, polední a odpolední. Zvonicí stroj byl poháněn jedním závažím zavěšeným přímo na řetízku. Stroj zvonil zvláštní paličkou na hodinový cimbál. Vypouštění bylo prováděno zvláštním kolem obsahujícím jeden pevný a dva stavitelné výpustné kolíčky. Toto kolo je osazeno na hodinovém bicím stroji a je spojeno převodem 1:2 se závěrkovým kolem hodinového bicího stoje. Otočí se tedy 1x za 24 hodin.
-
-Do kompletu ještě patří vzácné cimbály. Je na nich nápis, uvádějící, že byly odlity v Praze
-
-r. 1868 ve slévárně dcery Karla Bellmanna – Anny.
