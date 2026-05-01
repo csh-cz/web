@@ -74,6 +74,10 @@ const orgJsonLd = isHome ? {
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#14100c" />
     <meta name="description" content={desc} />
+    <!-- DEV STATE: dokud běžíme na pages.dev, blokujeme indexaci. -->
+    <!-- Po DNS switch na hodinarium.eu odstranit oba následující meta tagy. -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="googlebot" content="noindex, nofollow" />
     <link rel="canonical" href={canonical} />
     <link rel="alternate" type="application/rss+xml" title="Hodinárium — Kronika" href="/rss.xml" />
     <link rel="alternate" type="application/rss+xml" title="Hodinárium — Články" href="/clanky/rss.xml" />

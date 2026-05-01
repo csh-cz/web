@@ -67,6 +67,10 @@ const orgJsonLd = isHome ? {
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#14110c" />
     <meta name="description" content={desc} />
+    <!-- DEV STATE: dokud běžíme na pages.dev, blokujeme indexaci. -->
+    <!-- Po DNS switch na horologie.cz odstranit oba následující meta tagy. -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="googlebot" content="noindex, nofollow" />
 
     <!-- Favicon a homescreen ikony (vygenerované scripts/build-favicon.ts) -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />

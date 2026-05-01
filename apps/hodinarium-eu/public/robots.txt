@@ -1,9 +1,6 @@
+# DEV STATE — site na *.pages.dev URL, zatím nechceme indexaci.
+# Po DNS switch na hodinarium.eu odblokovat (vrátit Allow: / + Disallow utility pages).
 User-agent: *
-Allow: /
-
-# Utility pages — keep out of search results
-Disallow: /og-preview
-Disallow: /og/
-Disallow: /podklady/
+Disallow: /
 
 Sitemap: https://hodinarium-eu.pages.dev/sitemap-index.xml
