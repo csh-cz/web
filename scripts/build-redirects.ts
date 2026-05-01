@@ -95,6 +95,15 @@ const MERGED_INTO: Record<string, string> = {
   vezni2021: '/sbirka/akvizice-2015-2025#2021',
 };
 
+/**
+ * Přejmenování slugů (M5.3+) — pro stabilní URL po renamu medailonu.
+ * Format: starý slug v /hodinari/ → nový slug v /hodinari/.
+ */
+const HODINARI_SLUG_RENAMES: Record<string, string> = {
+  // 2026-05: oprava akademického jména na základě Knespla 2025
+  'sebastian-londensperger': 'sebastian-landesberger',
+};
+
 /** Načti slugy z content/kronika/ — tyto články byly přesunuty z /clanky/. */
 async function loadKronikaSlugs(): Promise<Set<string>> {
   const { readdirSync } = await import('node:fs');
@@ -165,6 +174,12 @@ async function main() {
   lines.push('', '# Konsolidace článků (M5.1+) — staré slugy → anchor v evergreen');
   for (const [slug, dst] of Object.entries(MERGED_INTO)) {
     lines.push(`/clanky/${slug} ${dst} 301`);
+  }
+
+  // 4c. Přejmenování slugů v /hodinari/ — stabilní URL po renamu medailonu
+  lines.push('', '# Přejmenování medailonů hodinářů (M5.3+)');
+  for (const [oldSlug, newSlug] of Object.entries(HODINARI_SLUG_RENAMES)) {
+    lines.push(`/hodinari/${oldSlug} /hodinari/${newSlug} 301`);
   }
 
   // 5. Fallback

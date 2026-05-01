@@ -759,5 +759,8 @@
 /clanky/decin_stroje2020 /sbirka/akvizice-2015-2025#2020 301
 /clanky/vezni2021 /sbirka/akvizice-2015-2025#2021 301
 
+# Přejmenování medailonů hodinářů (M5.3+)
+/hodinari/sebastian-londensperger /hodinari/sebastian-landesberger 301
+
 # Fallback — neznámé .htm cesty
 /*.htm /404 404
