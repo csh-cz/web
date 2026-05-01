@@ -648,6 +648,71 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: ['bychory_prokes1', 'inv-2-vezni-prokes-1868-soubor', 'prehled_zvonu'],
     era: '19stol',
   },
+  {
+    slug: 'miroslav-kotrba',
+    jmeno: 'Miroslav Kotrba',
+    aliasy: ['Miroslav Kotrba', 'M. Kotrba', 'ak. soch. Kotrba'],
+    typ: 'osoba',
+    obdobi: 'akt. 2000–dosud',
+    mesto: 'Praha',
+    zeme: 'CZ',
+    shrnuti:
+      'Akademický sochař (ak. soch.), spoluautor [orloje Skála (inv. 47)](/sbirka/karta/inv-47-orloj-skala/) v Hodináriu Děčín. V roce 2009 omaloval plochu orlojní desky uměleckým výtvarným ztvárněním. Orloj byl dokončen v červenci 2015. Společné dílo s Miroslavem Skálou zachycuje moderní výtvarný přístup k orlojní ikonografii.',
+    relatedSlugs: ['inv-47-orloj-skala', 'decin_galerie', 'decin_koncepce'],
+    era: 'soucasnost',
+  },
+  {
+    slug: 'zdenek-legner',
+    jmeno: 'Zdeněk Legner',
+    aliasy: ['Zdeněk Legner', 'Z. Legner'],
+    typ: 'osoba',
+    obdobi: 'akt. 2. polovina 20. století',
+    mesto: 'Praha (Mánes)',
+    zeme: 'CZ',
+    shrnuti:
+      'Český sochař, kovář a restaurátor. Vystudoval uměleckoprůmyslovou školu v Turnově, později absolvoval restaurátorskou školu při brněnském muzeu. Člen Českého svazu výtvarných umělců v Mánesu a státní restaurátor. Pracoval na obnově významných českých objektů (palác Kinských, dům Viola, brána Legiobanky) i mnoha mezinárodních zakázek (NYC, Florida, Casablanca, Disneyland Paříž). Autor [kované plastiky-hodin (inv. 43)](/sbirka/karta/inv-43-kovane-hodiny-legner/) v Hodináriu Děčín.',
+    relatedSlugs: ['inv-43-kovane-hodiny-legner', 'decin_galerie'],
+    era: '20stol',
+  },
+  {
+    slug: 'kappa-orologi',
+    jmeno: 'Kappa Orologi Industriali',
+    aliasy: ['Kappa', 'Kappa Orologi', 'Kappa Orologi Industriali', 'Kappa Time Systems'],
+    typ: 'firma',
+    obdobi: 'akt. 2. polovina 20. století',
+    mesto: 'Itálie',
+    zeme: 'IT',
+    shrnuti:
+      'Italská firma specializovaná na výrobu **přesných hodinových systémů jednotného času**, zejména pro **námořní a průmyslové použití**. Vyráběla master-slave hodiny — hlavní hodiny synchronizovaly desítky až stovky podružných hodin po celé lodi nebo továrně. Výrobky byly robustní, odolné vůči vlhkosti, vibracím a teplotním změnám. V Hodináriu Děčín jsou exempláře námořních hodin firmy Kappa.',
+    relatedSlugs: ['Kappa', 'synchronizace_hodin'],
+    era: '20stol',
+  },
+  {
+    slug: 'vlasta-filler',
+    jmeno: 'Vlasta Filler',
+    aliasy: ['Vlasta Filler', 'V. Filler'],
+    typ: 'osoba',
+    obdobi: 'akt. 2000–dosud',
+    mesto: 'Česko',
+    zeme: 'CZ',
+    shrnuti:
+      'Český programátor a popularizátor slunečních hodin, autor webu [vlastafiller.wz.cz](http://vlastafiller.wz.cz/). Vyvinul kalkulační program pro digitální simulaci slunečních hodin (zejména hodin na jižní stěně Hospodářského dvora pražského Klementina). Program byl s jeho souhlasem přepsán do moderního JavaScriptu pro [zobrazení v Hodináriu](/zajimavosti/slunecni_filler).',
+    relatedSlugs: ['slunecni_filler', 'slunecni'],
+    era: 'soucasnost',
+  },
+  {
+    slug: 'miroslav-baudisch',
+    jmeno: 'Miroslav Baudisch',
+    aliasy: ['Miroslav Baudisch', 'M. Baudisch'],
+    typ: 'osoba',
+    obdobi: 'akt. 2000–dosud',
+    mesto: 'Děčín',
+    zeme: 'CZ',
+    shrnuti:
+      'Současný český restaurátor věžních hodin a člen Českého spolku horologického. Autor řady restaurátorských zpráv a fotografií ze sbírky Hodinária Děčín; provedl restaurování několika exponátů včetně pérového stroje Spáčil ([inv. 28](/sbirka/karta/inv-28-vezni-se-setrvackou/)) a dalších kusů z akvizic 2015–2025.',
+    relatedSlugs: ['akvizice-2015-2025', 'inv-28-vezni-se-setrvackou'],
+    era: 'soucasnost',
+  },
 ];
 
 export const hodinariBySlug = new Map(hodinari.map((h) => [h.slug, h]));
