@@ -1,0 +1,281 @@
+# Sveltia CMS — konfigurace editoru pro Hodinárium.
+#
+# Auth gating: Cloudflare Access (Google OAuth) chrání /admin/* PŘED touto stránkou.
+# Commit identity: csh-cz-bot (přes csh-cms-proxy Worker s GitHub PAT).
+# Frontmatter `author:` field drží reálnou identitu editora (vyplňuje sám).
+#
+# Schema mirror obsahových polí z apps/hodinarium-eu/src/content.config.ts.
+# Drift mezi config.yml a content.config.ts = build failne (Zod refine) —
+# tj. config.yml MUSÍ jít aktualizovat při změně Zod schématu.
+
+backend:
+  name: github
+  repo: csh-cz/web
+  branch: main
+  # Worker proxy URL — nahradí api.github.com, vyřízne PAT bota.
+  # Po deployi nahradit: api_root: 'https://csh-cms-proxy.<account>.workers.dev'
+  api_root: 'https://csh-cms-proxy.example.workers.dev'
+
+# Editorial workflow: direct push (Save = commit do main = za 90s live).
+# PR-based workflow by editory zatahoval do GitHub UI, čemuž se vyhýbáme.
+publish_mode: simple
+
+# Foto cesty — drag-drop fotky se ukládají do public/img/<collection>/<slug>/
+media_folder: 'apps/hodinarium-eu/public/img'
+public_folder: '/img'
+
+site_url: 'https://hodinarium-eu.pages.dev'
+display_url: 'https://hodinarium-eu.pages.dev'
+logo_url: '/img/logo-csh.png'
+
+locale: 'cs'
+
+# === Společné typy referencí (žijí v references[] napříč collections) ===
+# YAML anchor pro znovupoužití
+_reference_fields: &reference_fields
+  - { name: title, label: 'Název', widget: string, required: true }
+  - { name: url, label: 'URL', widget: string, required: false, hint: 'Volitelný odkaz' }
+  - { name: author, label: 'Autor', widget: string, required: false }
+  - { name: year, label: 'Rok', widget: string, required: false, hint: 'Číslo nebo text' }
+  - name: type
+    label: 'Typ'
+    widget: select
+    required: false
+    default: odkaz
+    options: [kniha, clanek, pdf, odkaz, wiki, mapa]
+  - { name: note, label: 'Poznámka', widget: text, required: false }
+
+collections:
+  # ── 1) Články (sbirka/konstrukce/projekty/virtualni-muzeum/muzea/zajimavosti) ──
+  - name: clanky
+    label: 'Články'
+    label_singular: 'Článek'
+    folder: 'content/hodinarium-eu'
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    delete: true
+    slug: '{{slug}}'
+    identifier_field: title
+    summary: '{{title}} ({{category}})'
+    # Filter — vyloučit evidenční karty (mají vlastní collection níže).
+    # Sveltia podporuje filter na poli; karta má podsekce: 'karta'.
+    filter: { field: podsekce, value: karta, equals: false }
+    fields:
+      - { name: title, label: 'Nadpis', widget: string, required: true }
+      - { name: slug, label: 'Slug (URL část)', widget: string, required: true, hint: 'lowercase, bez diakritiky, oddělovač pomlčka' }
+      - name: category
+        label: 'Kategorie'
+        widget: select
+        required: true
+        options:
+          - { label: 'Sbírka', value: sbirka }
+          - { label: 'Konstrukce', value: konstrukce }
+          - { label: 'Projekty', value: projekty }
+          - { label: 'Virtuální muzeum', value: virtualni-muzeum }
+          - { label: 'Muzea', value: muzea }
+          - { label: 'Zajímavosti', value: zajimavosti }
+      - { name: tldr, label: 'Stručně (perex)', widget: text, required: false, hint: '1–2 věty pro rámeček nad článkem. Ne kopie 1. odstavce.' }
+      - { name: author, label: 'Autor článku', widget: string, required: false, hint: 'Tvoje jméno (např. „Petr Král"). Zobrazí se v patičce jako „P. Král".' }
+      - name: tags
+        label: 'Tagy'
+        widget: list
+        required: false
+        hint: 'Whitelist v src/data/tags.json — typo failne build.'
+        field: { name: tag, label: 'Tag', widget: string }
+      - name: references
+        label: 'Reference / odkazy'
+        widget: list
+        required: false
+        fields: *reference_fields
+      - name: referenceStyle
+        label: 'Styl seznamu referencí'
+        widget: select
+        required: false
+        default: bullet
+        options: [bullet, numbered]
+      - { name: ogImage, label: 'OG obrázek (override)', widget: image, required: false, hint: 'Default = /og/<slug>.png; vlastní cesta /img/...' }
+      - { name: thumbnail, label: 'Thumbnail (atlas/katalog)', widget: image, required: false }
+      - name: relatedKarty
+        label: 'Související evidenční karty'
+        widget: list
+        required: false
+        hint: 'Slugy karet (inv-NNN-*) — proklik na /sbirka/karta/<slug>.'
+        field: { name: slug, label: 'Slug karty', widget: string }
+      - { name: manualEdit, label: 'Manual edit flag', widget: boolean, required: false, default: true }
+      # Hidden / auto fields (CMS je needituje, ale uchovává)
+      - { name: originalUrl, label: 'Original URL', widget: hidden }
+      - { name: lastModified, label: 'Last modified', widget: hidden }
+      - { name: sourceCharset, label: 'Source charset', widget: hidden, default: 'utf-8' }
+      - { name: scrapedAt, label: 'Scraped at', widget: hidden }
+      - { name: body, label: 'Tělo článku', widget: markdown }
+
+  # ── 2) Evidenční karty sbírky (podsekce: karta) ──
+  - name: karty
+    label: 'Sbírka — evidenční karty'
+    label_singular: 'Karta'
+    folder: 'content/hodinarium-eu'
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    delete: false  # mazání karet jen ručně přes git
+    slug: 'inv-{{fields.karta.inventarniCislo}}-{{slug}}'
+    identifier_field: title
+    summary: '{{title}} (inv. č. {{karta.inventarniCislo}})'
+    filter: { field: podsekce, value: karta }
+    fields:
+      - { name: title, label: 'Nadpis karty', widget: string, required: true }
+      - { name: slug, label: 'Slug part', widget: string, required: true, hint: 'Část za inv-NNN- (např. „vezni-prokes-1868")' }
+      - { name: category, label: 'Kategorie', widget: hidden, default: sbirka }
+      - { name: podsekce, label: 'Podsekce', widget: hidden, default: karta }
+      # Nested karta object — všechny strukturované atributy exponátu
+      - name: karta
+        label: 'Strukturovaná data karty'
+        widget: object
+        required: true
+        fields:
+          - { name: inventarniCislo, label: 'Inv. č.', widget: string, required: true }
+          - { name: datace, label: 'Datace', widget: string, required: false, hint: 'rok nebo období: „1868", „polovina 18. století", „1868–1872"' }
+          - { name: vyrobce, label: 'Výrobce', widget: string, required: false }
+          - { name: signatura, label: 'Signatura', widget: string, required: false }
+          - name: puvodniUmisteni
+            label: 'Původní umístění'
+            widget: object
+            required: false
+            collapsed: true
+            fields:
+              - { name: objekt, label: 'Objekt (např. „kostel sv. Jakuba")', widget: string, required: false }
+              - { name: typObjektu, label: 'Typ objektu', widget: string, required: false, hint: 'kostel / radnice / továrna / zámek' }
+              - { name: obec, label: 'Obec', widget: string, required: false }
+              - { name: detail, label: 'Detail', widget: string, required: false }
+          - { name: ram, label: 'Rám', widget: string, required: false }
+          - { name: krokJicihoStroje, label: 'Krok jicího stroje', widget: string, required: false }
+          - { name: biciStroje, label: 'Bicí stroje', widget: string, required: false }
+          - { name: rozmery, label: 'Rozměry', widget: string, required: false }
+          - { name: kyvadlo, label: 'Kyvadlo', widget: string, required: false }
+          - { name: ciselnik, label: 'Ciferník', widget: string, required: false }
+          - { name: pohon, label: 'Pohon', widget: string, required: false }
+          - { name: umisteni, label: 'Současné umístění (Hodinárium)', widget: string, required: false }
+          - { name: majitel, label: 'Majitel', widget: string, required: false }
+          - { name: darceZapujcitel, label: 'Dárce / zapůjčitel', widget: string, required: false }
+          - name: vztahKeSbirce
+            label: 'Vztah ke sbírce'
+            widget: select
+            required: false
+            options: [zápůjčka, dar, koupě, montáž]
+          - { name: pridanoDoSbirky, label: 'Přidáno do sbírky (rok)', widget: string, required: false }
+          - { name: stav, label: 'Stav', widget: string, required: false }
+          - { name: restaurovani, label: 'Restaurování', widget: string, required: false }
+          - { name: adaptaceProVystavu, label: 'Adaptace pro vystavení', widget: text, required: false }
+          - name: komponenty
+            label: 'Komponenty kompletu'
+            widget: list
+            required: false
+            hint: 'Slugy souvisejících článků/sub-karet'
+            field: { name: slug, label: 'Slug', widget: string }
+          - name: extra
+            label: 'Extra atributy'
+            widget: list
+            required: false
+            fields:
+              - { name: label, label: 'Label', widget: string }
+              - { name: value, label: 'Hodnota', widget: string }
+      - name: tags
+        label: 'Tagy'
+        widget: list
+        required: false
+        field: { name: tag, label: 'Tag', widget: string }
+      - { name: author, label: 'Autor karty', widget: string, required: false }
+      - { name: manualEdit, label: 'Manual edit', widget: boolean, required: false, default: true }
+      - { name: originalUrl, label: 'Original URL', widget: hidden }
+      - { name: lastModified, label: 'Last modified', widget: hidden }
+      - { name: sourceCharset, label: 'Source charset', widget: hidden, default: 'utf-8' }
+      - { name: scrapedAt, label: 'Scraped at', widget: hidden }
+      - { name: body, label: 'Volitelný popisný text', widget: markdown, required: false }
+
+  # ── 3) Kronika (chronologický feed) ──
+  - name: kronika
+    label: 'Kronika'
+    label_singular: 'Kronikový záznam'
+    folder: 'content/kronika'
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    delete: true
+    slug: '{{slug}}'
+    identifier_field: title
+    summary: '{{date}} · {{title}}'
+    fields:
+      - { name: title, label: 'Nadpis', widget: string, required: true }
+      - { name: slug, label: 'Slug', widget: string, required: true }
+      - { name: date, label: 'Datum (ISO YYYY-MM-DD)', widget: string, required: true, hint: 'Plné datum nebo rozsah „2015-09-04 — 2015-09-06"' }
+      - { name: rok, label: 'Rok (pro chronologii)', widget: number, required: true, value_type: int, min: 2009, max: 2030 }
+      - name: typ
+        label: 'Typ záznamu'
+        widget: select
+        required: false
+        options: [vernisaz, fotoreport, sezona, akvizice, tisk, tv, restaurace, historie-spolku, tematicka-vystava, jine]
+      - { name: misto, label: 'Místo', widget: string, required: false }
+      - { name: author, label: 'Autor záznamu', widget: string, required: false }
+      - name: related
+        label: 'Související exponáty / hodináři'
+        widget: list
+        required: false
+        fields:
+          - { name: slug, label: 'Slug', widget: string }
+          - name: kategorie
+            label: 'Kategorie'
+            widget: select
+            required: false
+            options: [sbirka, konstrukce, projekty, virtualni-muzeum, muzea, zajimavosti, hodinari]
+      - name: photos
+        label: 'Fotky (cesty)'
+        widget: list
+        required: false
+        field: { name: path, label: 'Cesta', widget: string }
+      - name: references
+        label: 'Reference'
+        widget: list
+        required: false
+        fields: *reference_fields
+      - { name: originalUrl, label: 'Original URL', widget: hidden }
+      - { name: body, label: 'Tělo záznamu', widget: markdown }
+
+  # ── 4) Hodináři (medailony osob a firem) ──
+  - name: hodinari
+    label: 'Hodináři (medailony)'
+    label_singular: 'Medailon'
+    folder: 'content/hodinari'
+    extension: mdx
+    format: yaml-frontmatter
+    create: true
+    delete: false
+    slug: '{{slug}}'
+    identifier_field: title
+    summary: '{{title}} ({{typ}}, {{mesto}})'
+    fields:
+      - { name: title, label: 'Jméno / firma', widget: string, required: true }
+      - { name: slug, label: 'Slug', widget: string, required: true, hint: 'lowercase-s-pomlckami' }
+      - name: typ
+        label: 'Typ'
+        widget: select
+        required: true
+        options: [osoba, firma]
+      - { name: obdobi, label: 'Životní data / působení', widget: string, required: false, hint: '„1869–1955" / „akt. ~1880–1920"' }
+      - { name: mesto, label: 'Město', widget: string, required: false }
+      - { name: zeme, label: 'Země (ISO 3166)', widget: string, required: false, default: 'CZ' }
+      - name: aliasy
+        label: 'Aliasy / varianty jména'
+        widget: list
+        required: false
+        field: { name: alias, label: 'Alias', widget: string }
+      - { name: shrnuti, label: 'Shrnutí (1–3 věty)', widget: text, required: true, hint: 'Plain text — markdown linky se nerenderují, jen text.' }
+      - { name: portret, label: 'Portrét (cesta)', widget: image, required: false }
+      - { name: portretCredit, label: 'Atribuce portrétu', widget: string, required: false, hint: 'Autor + licence (např. „Wikimedia, CC BY-SA 3.0")' }
+      - { name: portretSource, label: 'Zdroj portrétu (URL)', widget: string, required: false }
+      - name: references
+        label: 'Reference'
+        widget: list
+        required: false
+        fields: *reference_fields
+      - { name: body, label: 'Plný text medailonu', widget: markdown, required: false, hint: 'MDX — můžeš použít komponenty jako <Photo>.' }

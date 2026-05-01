@@ -21,3 +21,9 @@
   Cache-Control: public, max-age=86400
 /robots.txt
   Cache-Control: public, max-age=86400
+
+# Admin (Sveltia CMS) — noindex, no-cache (config se mění bez hash invalidace).
+# Auth gating řeší Cloudflare Access (Google OAuth) — tahle hlavička je belt-and-suspenders.
+/admin/*
+  X-Robots-Tag: noindex, nofollow, noarchive
+  Cache-Control: no-store, must-revalidate
