@@ -35,7 +35,7 @@ karta:
 
 ![](/img/pragotron/CPJ061_1.jpg)
 
-*Fotky byly auto-detekovány z `/img/pragotron/` na základě názvu exponátu. **Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.***
+*Fotky byly auto-detekovány z `/img/pragotron/` na základě názvu exponátu. **Foto: archiv Českého spolku horologického**, není-li u konkrétního snímku uvedeno jinak. **Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte; pokud znáte konkrétního autora fotografie, prosíme o doplnění atribuce.***
 
 * * *
 

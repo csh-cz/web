@@ -482,7 +482,7 @@ function buildStubBody(p: ProposedAction): string {
       lines.push(`![](/img/${p.photoFolder}/${f})`);
       lines.push('');
     }
-    lines.push(`*Fotky byly auto-detekovány z \`/img/${p.photoFolder}/\` na základě názvu exponátu. **Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.***`);
+    lines.push(`*Fotky byly auto-detekovány z \`/img/${p.photoFolder}/\` na základě názvu exponátu. **Foto: archiv Českého spolku horologického**, není-li u konkrétního snímku uvedeno jinak. **Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte; pokud znáte konkrétního autora fotografie, prosíme o doplnění atribuce.***`);
     lines.push('');
     lines.push('* * *');
     lines.push('');

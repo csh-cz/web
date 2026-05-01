@@ -529,6 +529,19 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: [],
     era: '19stol',
   },
+  {
+    slug: 'edmund-kinsner',
+    jmeno: 'Edmund Kinšner',
+    aliasy: ['Edmund Kinšner', 'E. Kinšner', 'Edmund Kinschner'],
+    typ: 'osoba',
+    obdobi: '1846–1913',
+    mesto: 'Chlumec nad Cidlinou',
+    zeme: 'CZ',
+    shrnuti:
+      'Český hodinář a vynálezce z Chlumce nad Cidlinou, žák [Jana Prokeše](/hodinari/jan-prokes). Specializoval se na patentované astronomické orloje. Uspěl na Národopisné výstavě 1895 a na vídeňské průmyslové výstavě 1897. Jeden z jeho salónních orlojů byl umístěn ve studovně prezídia rakouské říšské rady ve Vídni.',
+    relatedSlugs: [],
+    era: '19stol',
+  },
 ];
 
 export const hodinariBySlug = new Map(hodinari.map((h) => [h.slug, h]));
