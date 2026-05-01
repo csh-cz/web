@@ -1,6 +1,7 @@
 ---
 import Base from "./Base.astro";
 import Card from "../components/Card.astro";
+import JsonLd from "../components/JsonLd.astro";
 import KartaSbirky from "../components/KartaSbirky.astro";
 import catalog from "../data/catalog.json";
 import { hodinariProClanek } from "../data/hodinari";
@@ -106,8 +107,47 @@ const lastModifiedISO = lastModifiedValid ? lastModifiedParsed!.toISOString() : 
 
 const hodinariZmineni = slug ? hodinariProClanek(slug) : [];
 const krokyZmineni = slug ? krokyProClanek(slug) : [];
+
+// Schema.org Article — pro [kategorie]/[slug] pages.
+// Sbírkové karty (podsekce: 'karta') mají vlastní CreativeWork schema v page.
+const site = Astro.site ?? new URL('https://hodinarium-eu.pages.dev');
+const articleUrl = new URL(Astro.url.pathname, site).toString();
+const articleImage = ogImageOverride
+  ? new URL(ogImageOverride, site).toString()
+  : me?.thumbnail
+    ? new URL(me.thumbnail, site).toString()
+    : new URL(`/og/${slug}.png`, site).toString();
+const articleJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  '@id': articleUrl,
+  headline: title,
+  description: description ?? tldr ?? me?.excerpt?.slice(0, 200),
+  url: articleUrl,
+  image: articleImage,
+  inLanguage: 'cs',
+  ...(lastModifiedISO && { dateModified: lastModifiedISO }),
+  ...(author && {
+    author: { '@type': 'Person', name: author },
+  }),
+  publisher: {
+    '@type': 'Organization',
+    name: 'Český spolek horologický',
+    logo: {
+      '@type': 'ImageObject',
+      url: new URL('/img/logo-csh.png', site).toString(),
+    },
+  },
+  ...(category && { articleSection: categoryLabels[category] ?? category }),
+  isPartOf: {
+    '@type': 'WebSite',
+    name: 'Hodinárium',
+    url: site.origin + '/',
+  },
+};
 ---
 <Base title={title} description={description} ogImageOverride={ogImageOverride}>
+  <JsonLd data={articleJsonLd} />
   <!-- Breadcrumbs -->
   <nav class="breadcrumbs" aria-label="Drobečková navigace">
     <a href="/">Hodinárium</a>

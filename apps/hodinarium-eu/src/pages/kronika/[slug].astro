@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import JsonLd from '../../components/JsonLd.astro';
 import ArticleImageBehavior from '../../components/ArticleImageBehavior.astro';
 
 export async function getStaticPaths() {
@@ -13,6 +14,27 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
+
+const site = Astro.site ?? new URL('https://hodinarium-eu.pages.dev');
+const kronikaUrl = new URL(`/kronika/${entry.id}`, site).toString();
+const dateMatch = entry.data.date.match(/^\d{4}-\d{2}-\d{2}/);
+const isoDate = dateMatch ? dateMatch[0] : `${entry.data.rok}-01-01`;
+const kronikaJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  '@id': kronikaUrl,
+  headline: entry.data.title,
+  url: kronikaUrl,
+  datePublished: isoDate,
+  inLanguage: 'cs',
+  ...(entry.data.author && { author: { '@type': 'Person', name: entry.data.author } }),
+  publisher: {
+    '@type': 'Organization',
+    name: 'Český spolek horologický',
+    logo: { '@type': 'ImageObject', url: new URL('/img/logo-csh.png', site).toString() },
+  },
+  articleSection: 'Kronika',
+};
 
 const typLabels: Record<string, string> = {
   'vernisaz': 'Vernisáž',
@@ -28,6 +50,7 @@ const typLabels: Record<string, string> = {
 };
 ---
 <Base title={entry.data.title} description={entry.data.title}>
+  <JsonLd data={kronikaJsonLd} />
   <nav class="breadcrumbs" aria-label="Drobečková navigace">
     <a href="/">Hodinárium</a>
     <span aria-hidden="true">›</span>

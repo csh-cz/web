@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import JsonLd from '../../components/JsonLd.astro';
 import { akce, getAkce } from '../../data/akce';
 
 export async function getStaticPaths() {
@@ -22,8 +23,42 @@ const heroFoto = fotky[0];
 const idx = akce.findIndex((x) => x.slug === a.slug);
 const prev = idx > 0 ? akce[idx - 1] : null;
 const next = idx < akce.length - 1 ? akce[idx + 1] : null;
+
+// Schema.org Event — try parse rok jako fallback startDate
+const site = Astro.site ?? new URL('https://horologie-cz.pages.dev');
+const eventUrl = new URL(`/akce/${a.slug}`, site).toString();
+const eventStatus = a.status === 'planovana'
+  ? 'https://schema.org/EventScheduled'
+  : 'https://schema.org/EventScheduled';
+const eventJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Event',
+  '@id': eventUrl,
+  name: a.nazev,
+  description: a.popis,
+  url: eventUrl,
+  startDate: String(a.rok),
+  eventStatus,
+  eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+  ...(heroFoto && { image: new URL(fotkaUrl(heroFoto), site).toString() }),
+  ...(a.misto && {
+    location: {
+      '@type': 'Place',
+      name: a.misto,
+      ...(a.lat !== undefined && a.lon !== undefined && {
+        geo: { '@type': 'GeoCoordinates', latitude: a.lat, longitude: a.lon },
+      }),
+    },
+  }),
+  organizer: {
+    '@type': 'Organization',
+    name: 'Český spolek horologický',
+    url: site.origin + '/',
+  },
+};
 ---
 <Base title={a.nazev} description={a.popis}>
+  <JsonLd data={eventJsonLd} />
   <nav class="breadcrumbs" aria-label="Drobečková navigace">
     <a href="/">Spolek</a>
     <span aria-hidden="true">›</span>

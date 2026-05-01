@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
+import JsonLd from '../../../components/JsonLd.astro';
 import KartaSbirky from '../../../components/KartaSbirky.astro';
 import ArticleImageBehavior from '../../../components/ArticleImageBehavior.astro';
 import { clanekHref } from '../../../data/url-helpers';
@@ -37,11 +38,44 @@ const komponenty = komponentySlugs
     category: a.data.category,
     isKarta: a.data.podsekce === 'karta',
   }));
+
+const site = Astro.site ?? new URL('https://hodinarium-eu.pages.dev');
+const kartaUrl = new URL(`/sbirka/karta/${entry.data.slug}`, site).toString();
+const k = entry.data.karta;
+const kartaJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CreativeWork',
+  '@id': kartaUrl,
+  name: entry.data.title,
+  url: kartaUrl,
+  inLanguage: 'cs',
+  description: `Evidenční karta sbírkového předmětu — inv. č. ${k?.inventarniCislo ?? '?'}`,
+  ...(k?.inventarniCislo && { identifier: k.inventarniCislo }),
+  ...(k?.datace && { dateCreated: k.datace }),
+  ...(k?.vyrobce && {
+    creator: { '@type': 'Person', name: k.vyrobce },
+  }),
+  ...(k?.puvodniUmisteni?.obec && {
+    locationCreated: {
+      '@type': 'Place',
+      name: [k.puvodniUmisteni.objekt, k.puvodniUmisteni.obec].filter(Boolean).join(', '),
+      address: { '@type': 'PostalAddress', addressLocality: k.puvodniUmisteni.obec, addressCountry: 'CZ' },
+    },
+  }),
+  ...(k?.rozmery && { size: k.rozmery }),
+  ...(k?.signatura && { alternateName: k.signatura }),
+  isPartOf: {
+    '@type': 'Museum',
+    name: 'Hodinárium',
+    url: site.origin + '/',
+  },
+};
 ---
 <Base
   title={entry.data.title}
   description={`Evidenční karta sbírkového předmětu — inv. č. ${entry.data.karta?.inventarniCislo ?? '?'}`}
 >
+  <JsonLd data={kartaJsonLd} />
   <nav class="breadcrumbs" aria-label="Drobečková navigace">
     <a href="/">Hodinárium</a>
     <span aria-hidden="true">›</span>

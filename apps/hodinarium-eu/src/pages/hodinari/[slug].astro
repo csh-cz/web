@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import JsonLd from '../../components/JsonLd.astro';
 import { hodinari, hodinariBySlug } from '../../data/hodinari';
 import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
@@ -46,11 +47,63 @@ const related = hodinar.relatedSlugs
   .filter((e): e is CatalogEntry => Boolean(e));
 
 const Content = medailon ? (await render(medailon)).Content : null;
+
+// Schema.org — Person nebo Organization podle typu
+const site = Astro.site ?? new URL('https://hodinarium-eu.pages.dev');
+const pageUrl = new URL(`/hodinari/${hodinar.slug}`, site).toString();
+const periodMatch = hodinar.obdobi?.match(/(\d{4})\D+(\d{4})/);
+const birthYear = periodMatch?.[1];
+const deathYear = periodMatch?.[2];
+const portretUrl = medailon?.data.portret
+  ? new URL(medailon.data.portret, site).toString()
+  : undefined;
+
+const personJsonLd = hodinar.typ === 'osoba'
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'Person',
+      '@id': pageUrl,
+      name: hodinar.jmeno,
+      alternateName: hodinar.aliasy,
+      description: hodinar.shrnuti,
+      url: pageUrl,
+      ...(hodinar.mesto && {
+        homeLocation: {
+          '@type': 'Place',
+          name: hodinar.mesto,
+          ...(hodinar.zeme && { address: { '@type': 'PostalAddress', addressLocality: hodinar.mesto, addressCountry: hodinar.zeme } }),
+        },
+      }),
+      ...(birthYear && { birthDate: birthYear }),
+      ...(deathYear && { deathDate: deathYear }),
+      ...(portretUrl && { image: portretUrl }),
+      jobTitle: 'Hodinář',
+    }
+  : {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      '@id': pageUrl,
+      name: hodinar.jmeno,
+      alternateName: hodinar.aliasy,
+      description: hodinar.shrnuti,
+      url: pageUrl,
+      ...(hodinar.mesto && {
+        location: {
+          '@type': 'Place',
+          name: hodinar.mesto,
+          address: { '@type': 'PostalAddress', addressLocality: hodinar.mesto, addressCountry: hodinar.zeme },
+        },
+      }),
+      ...(birthYear && { foundingDate: birthYear }),
+      ...(deathYear && { dissolutionDate: deathYear }),
+      ...(portretUrl && { logo: portretUrl }),
+    };
 ---
 <Base
   title={`${hodinar.jmeno} — hodinář`}
   description={hodinar.shrnuti}
 >
+  <JsonLd data={personJsonLd} />
   <nav class="breadcrumbs" aria-label="Drobečková navigace">
     <a href="/">Hodinárium</a>
     <span aria-hidden="true">›</span>
