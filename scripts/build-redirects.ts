@@ -37,6 +37,7 @@ const NEW_CATEGORIES = new Set([
 
 /** Pro slug vrátí novou URL podle kategorie nebo kronika collection. */
 function newHref(slug: string, catalog: CatalogEntry[], kronikaSlugs: Set<string>): string {
+  if (slug in MERGED_INTO) return MERGED_INTO[slug];
   if (kronikaSlugs.has(slug)) return `/kronika/${slug}`;
   const e = catalog.find((c) => c.slug === slug);
   if (e && NEW_CATEGORIES.has(e.category)) {
@@ -73,6 +74,20 @@ const SPECIAL: Record<string, string> = {
  */
 const CATEGORY_MOVES: Record<string, string> = {
   '/sbirka/zidovske': '/virtualni-muzeum/zidovske',
+};
+
+/**
+ * Konsolidace článků (M5.1+) — když se více článků sloučí do jednoho evergreen,
+ * staré slugy přesměrovat na anchor v novém článku.
+ *
+ * Format: starý slug → cílová URL (s anchor).
+ * Vyrobí redirect pro `/clanky/<slug>` i pro legacy `<slug>.htm` cestu.
+ */
+const MERGED_INTO: Record<string, string> = {
+  // M5.1 Bychory konsolidace (2026-05): 3 článků sloučeno do bychory_prokes1
+  bychory_zvonici_stroj: '/sbirka/bychory_prokes1#zvonici-stroj-kuriozita-kompletu',
+  bychory_cimbaly: '/sbirka/bychory_prokes1#cimbaly-bellmannova-slevarna-1868',
+  bychory_restaurovani_napis: '/sbirka/bychory_prokes1#restaurovani-od-nalezu-k-expozici',
 };
 
 /** Načti slugy z content/kronika/ — tyto články byly přesunuty z /clanky/. */
@@ -139,6 +154,12 @@ async function main() {
   lines.push('', '# Cross-category přesuny článků');
   for (const [src, dst] of Object.entries(CATEGORY_MOVES)) {
     lines.push(`${src} ${dst} 301`);
+  }
+
+  // 4b. Konsolidace článků — staré /clanky/<slug> přesměrovat na anchor evergreen
+  lines.push('', '# Konsolidace článků (M5.1+) — staré slugy → anchor v evergreen');
+  for (const [slug, dst] of Object.entries(MERGED_INTO)) {
+    lines.push(`/clanky/${slug} ${dst} 301`);
   }
 
   // 5. Fallback
