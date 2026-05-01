@@ -151,3 +151,157 @@ DNS přesun, TLS certifikát Let's Encrypt zdarma. ~30 minut každá doména.
 - [ ] **`Article.astro` byline `<time>`** — vykresluje `Invalid Date`
       pro většinu článků (chyba v parsování `lastModified` z frontmatteru,
       nesouvisí s last-modified opravou commitu fa298a7).
+
+---
+
+# Tech & funkcionalita — revize 2026-05-02
+
+Revize napříč oběma weby (hodinarium-eu + horologie-cz) z hlediska technologie,
+funkcionality, kvality a integrace. Doplňuje obsahový backlog výše.
+
+## Stav stacku k 2026-05-02
+
+| Vrstva | Hodinarium | Horologie |
+|---|---|---|
+| Astro 5 + MDX | ✓ | ✓ |
+| Tailwind 4 (beta) | ✓ | ✓ |
+| Sitemap | ✓ | ✓ |
+| OG images (astro-og-canvas) | ✓ | ✓ |
+| Search (Fuse.js) | jen modal | — |
+| PWA / manifest | — | ✓ |
+| Playwright (smoke + regression) | 1 + 4 | 1 + 0 |
+| GitHub Actions CI | ✓ (deploy test) | ✓ |
+| Cloudflare Pages | ✓ | ✓ |
+| Image variants (sharp) | ✓ | ✓ |
+| _redirects | 766 řádků | — |
+
+## 🔴 Vysoká priorita (UX gap / SEO blokátor)
+
+- [ ] **T1 Sémantické / fulltext vyhledávání** — Fuse index dnes obsahuje jen
+      catalog.json (~360 sbírkových karet). Chybí: 38 medailonů hodinařů,
+      65 článků v zajimavosti/konstrukce/projekty/muzea, 23 záznamů kroniky.
+      Quick win = rozšířit Fuse na všechny 3 collection (~30 min).
+      Větší krok = Pagefind / Transformers.js (návrh existuje výše).
+- [ ] **T2 Schema.org JSON-LD** — žádná strukturovaná data, Google neindexuje
+      karty/medailony/články jako entity. Kandidáti: `Person` na medailonech,
+      `Museum` / `CollectionPage` na sbírce, `Article`, `Place` na lokacích,
+      `Event` na akcích. `<script type="application/ld+json">` v base layoutu (~3 h).
+- [ ] **T3 RSS feed** — žádný RSS pro články / kroniku. Členové nemají jak
+      sledovat aktualizace bez návštěvy webu. `@astrojs/rss` na `/rss.xml`
+      pro `kronika` collection + `clanky` (~1 h).
+- [ ] **T4 Lighthouse CI / Web Vitals** — žádné performance budgety. Není
+      jasné, jaké je skóre Core Web Vitals. `lhci/cli` v GitHub Actions
+      s baseline + threshold (~2 h). Alternativa = Cloudflare Web Analytics
+      pro RUM monitoring (5 min nasazení, viz I1).
+
+## 🟡 Střední priorita (UX / discovery)
+
+- [ ] **T5 Mapa exponátů (interaktivní)** — `mapa.astro` je dnes textový
+      tree-list. Sbírka má 287 karet po Sálech a Vitrínách. SVG floor-plan
+      Hodinária Děčín (Sál věžních + Sál elektro), klikatelné lokace → karty (~6 h).
+- [ ] **T6 Filter & sort UI pro `/sbirka/katalog`** — máme filter chips
+      per lokace, ale chybí filter podle krok/pohon/regulátor, podle období
+      (1700–2025 timeline slider), sort podle inv. č. / data přírůstku /
+      abecedy. Rozšíření `katalog.astro` (~3 h).
+- [ ] **T7 Network graph hodinařů** — mezi 81 hodináři jsou bohaté vazby
+      (učitel-žák, otec-syn, dílny, převzaté firmy). Vizualizovat v
+      `/hodinari/index.astro` jako force-directed graph (Vis.js / D3, ~6 h).
+- [ ] **T8 Časová osa hodinářství** — TBD, dříve B1 v TODO smazáno.
+      Užitečné kontextové vodítko pro 14.–21. století
+      (Henlein 1511 → Huygens 1657 → Graham 1720 → Harrison 1761 → Hipp 1850
+      → ATO → quartz → atom → GPS).
+- [ ] **T9 Print stylesheet** — karty sbírky a medailony hodinařů jako
+      tisknutelný fact-sheet pro publikace muzea. `@media print` (~2 h).
+- [ ] **T10 Dark / light mode** — hodinarium-eu používá brass dark téma
+      (default), není přepínač. CSS custom properties + toggle (~3 h).
+
+## 🟢 Nízká priorita (nice-to-have)
+
+- [ ] **T11 3D modely klíčových exponátů** — orloj-modely (inv. 47 Skála,
+      inv. 53 Praha, inv. 65 Kavalír, inv. 68 Sklep). Vyžaduje
+      fotogrammetrii nebo manuální modeling.
+- [ ] **T12 Comments / Disqus** — žádné komentáře ke článkům. Spolek je
+      malý → přínos nízký, ale e-mail kontakt by stačil.
+- [ ] **T13 AI features** — návrhy už existují výše (TL;DR generator,
+      sémantické vyhledávání, RAG chatbot, AI překlad CS → EN).
+- [ ] **T14 Decap CMS / web admin** — viz výše, odložen.
+- [ ] **T15 Migrace orloj.eu** — ~200 stránek, stejný pipeline. Petr
+      explicitně řekl „zatím nedělat".
+
+## ⚙️ Tech debt / kvalita
+
+- [ ] **D1 Test coverage** — smoke testy: 1× hodinarium (`nav-contrast`),
+      1× horologie (`akce-mapa`). Regression: 4× hodinarium. Chybí unit
+      testy pro skripty (`parse-soupis`, `build-redirects`, `apply-popisy`,
+      `migrate-renumbering`), snapshot testy pro layouty. Vitest setup pro
+      `scripts/*.ts` (~3 h).
+- [ ] **D2 BUGS.md aktualizace** — crawl z 2026-04-28 (54 no-h1, 21 JS
+      error, 20 HTTP error, 13 failed request, 6 broken image). Většina
+      no-h1 jsou /img/ stránky — možná už ok po /img/ refactoru. Rerun
+      `pnpm test:e2e` → fix nebo doc (~2 h).
+- [ ] **D3 124 nezařazených článků** (B7 výše) — ~30 sporných potřebuje
+      ruční review kategorie.
+- [ ] **D4 Datace článků** (B5 výše) — 14 článků má rok < 1500 (nesmysl).
+- [ ] **D5 Konsolidace _redirects** — 766 řádků v
+      `apps/hodinarium-eu/public/_redirects`. CF má limit 2 000 řádků na
+      free tier; zatím ok, ale narůstá (M5.1 + M5.2 + slug rename přidaly
+      cca 30). Zvážit regroup pomocí glob patterns.
+- [ ] **D6 Verzování dat (CHANGELOG)** — `soupis-exponatu.json`, `tags.json`,
+      `hodinari.ts` se mění organicky. `data/CHANGELOG.md` s ručními
+      poznámkami při velkých změnách. Inv. č. byla naposledy renumberovaná
+      2026-05-01 — to by se hodilo log někam zachytit (~5 min).
+- [ ] **D7 Doplnění chybějících OG images** — ~493 článků/karet, OG images
+      jen pro některé. Build-time check, který vypíše chybějící (~30 min).
+- [ ] **D8 Backup strategie pro `zdroje/`** — kritická data (Soupis 3.xls,
+      Popisy 2.docx, panely OCR JPG) jsou jen na 1 disku. Git LFS nebo
+      Cloudflare R2 sync (~2 h). Repo na GitHub je primary, ale `zdroje/`
+      jsou v `.gitignore`.
+
+## 🔌 Integrace
+
+- [ ] **I1 Cloudflare Web Analytics** — bezplatný, GDPR-friendly, žádné
+      cookie. ~5 min nasazení (skript v base layout).
+- [ ] **I2 Sentry / error tracking** — pro klientské JS errory
+      (Photo.astro lazy loading, SearchModal). Free tier 5k events/měsíc.
+- [ ] **I3 Plausible / Posthog** — pro behavior návštěvníků. Plausible
+      self-hosted v Cloudflare Workers ~zdarma. Posthog free tier 1M events.
+- [ ] **I4 Newsletter (Buttondown / EmailOctopus)** — pro spolek
+      horologie-cz, sezónní newsletter o akcích. Buttondown free do 100
+      odběratelů.
+
+## 📐 Standardy
+
+- [ ] **S1 a11y audit** — žádný axe-core test. Cíl: WCAG 2.1 AA.
+      `@axe-core/playwright` v existujících e2e (~2 h).
+- [ ] **S2 Hreflang / i18n** — `en.astro` placeholder, bez
+      `<link rel="alternate" hreflang>`. Rozhodnout: buď reálná EN
+      lokalizace (velká práce), nebo `en.astro` smazat (~10 min).
+- [ ] **S3 `docs/CONTRIBUTING.md`** — pokud někdo z spolku přijde a chce
+      přispět, není runbook „jak edituji článek". Skill `clanky-konvence`
+      existuje, ale jen pro Claudovu session (~1 h).
+
+---
+
+## Doporučená 30-day roadmap
+
+**Týden 1 — quick wins (½ dne celkem):**
+- T3 RSS feed (1 h)
+- T2 Schema.org JSON-LD (3 h)
+- I1 Cloudflare Web Analytics (5 min)
+- D6 `data/CHANGELOG.md` (10 min)
+- S2 hreflang nebo smazat en.astro (10 min)
+
+**Týden 2 — UX upgrade (½–1 den):**
+- T1 rozšíření Fuse vyhledávání o medailony + články + kroniku (1 h)
+- T6 filter & sort katalog (3 h)
+- T9 print stylesheet (2 h)
+
+**Týden 3 — robustnost (½ dne):**
+- T4 Lighthouse CI (2 h)
+- D2 rerun crawl + fix BUGS.md (2 h)
+- S1 a11y axe-core (2 h)
+
+**Týden 4 — long-tail:**
+- T5 interaktivní mapa Hodinária (6 h)
+- D8 backup strategie (2 h)
+- T7 hodinaři network graph (6 h, optional)
