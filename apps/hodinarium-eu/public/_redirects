@@ -46,10 +46,10 @@
 /decin_jednotny_cas.htm /sbirka/decin_jednotny_cas 301
 /bychory_dalsi_kola.htm /sbirka/bychory_dalsi_kola 301
 /casovy_zamek.htm /konstrukce/casovy_zamek 301
-/decin_dalsi_stroje.htm /sbirka/decin_dalsi_stroje 301
-/decin_stroje2019.htm /sbirka/decin_stroje2019 301
-/decin_stroje2020.htm /sbirka/decin_stroje2020 301
-/vezni2021.htm /sbirka/vezni2021 301
+/decin_dalsi_stroje.htm /sbirka/akvizice-2015-2025#2015-2018 301
+/decin_stroje2019.htm /sbirka/akvizice-2015-2025#2019 301
+/decin_stroje2020.htm /sbirka/akvizice-2015-2025#2020 301
+/vezni2021.htm /sbirka/akvizice-2015-2025#2021 301
 /vezni_muzejicko.htm /kronika/vezni_muzejicko 301
 /vezni_muzejicko_evropa.htm /muzea/vezni_muzejicko_evropa 301
 /mindelheim.htm /muzea/mindelheim 301
@@ -244,6 +244,7 @@
 /clanky/inv-x1-vezni-lissner /sbirka/inv-x1-vezni-lissner 301
 /clanky/inv-x6-vodni-hodiny-cinske /sbirka/inv-x6-vodni-hodiny-cinske 301
 /clanky/inv-x8-volne /sbirka/inv-x8-volne 301
+/clanky/akvizice-2015-2025 /sbirka/akvizice-2015-2025 301
 /clanky/alzbeta /projekty/alzbeta 301
 /clanky/inv-183-amaterske-hodiny-oma /sbirka/inv-183-amaterske-hodiny-oma 301
 /clanky/inv-216-amaterske-hodiny-oma /sbirka/inv-216-amaterske-hodiny-oma 301
@@ -555,9 +556,6 @@
 /clanky/listkove_kohler /sbirka/listkove_kohler 301
 /clanky/prestavby /zajimavosti/prestavby 301
 /clanky/inv-247-presypaci-hodiny /sbirka/inv-247-presypaci-hodiny 301
-/clanky/decin_dalsi_stroje /sbirka/decin_dalsi_stroje 301
-/clanky/decin_stroje2019 /sbirka/decin_stroje2019 301
-/clanky/decin_stroje2020 /sbirka/decin_stroje2020 301
 /clanky/pulsynetic /konstrukce/pulsynetic 301
 /clanky/radiotelegraficke_signaly /projekty/radiotelegraficke_signaly 301
 /clanky/muzeum_radnicni_vez_prostejov /muzea/muzeum_radnicni_vez_prostejov 301
@@ -680,7 +678,6 @@
 /clanky/inv-33-vezni-lexa /sbirka/inv-33-vezni-lexa 301
 /clanky/inv-6-vezni-michael-christ /sbirka/inv-6-vezni-michael-christ 301
 /clanky/inv-35-vezni-mikulasovice /sbirka/inv-35-vezni-mikulasovice 301
-/clanky/vezni2021 /sbirka/vezni2021 301
 /clanky/inv-30-vezni-polevsko-hainz /sbirka/inv-30-vezni-polevsko-hainz 301
 /clanky/inv-2-vezni-prokes-1868-soubor /sbirka/inv-2-vezni-prokes-1868-soubor 301
 /clanky/inv-8-vezni-r-liebing /sbirka/inv-8-vezni-r-liebing 301
@@ -757,6 +754,10 @@
 /clanky/bychory_zvonici_stroj /sbirka/bychory_prokes1#zvonici-stroj-kuriozita-kompletu 301
 /clanky/bychory_cimbaly /sbirka/bychory_prokes1#cimbaly-bellmannova-slevarna-1868 301
 /clanky/bychory_restaurovani_napis /sbirka/bychory_prokes1#restaurovani-od-nalezu-k-expozici 301
+/clanky/decin_dalsi_stroje /sbirka/akvizice-2015-2025#2015-2018 301
+/clanky/decin_stroje2019 /sbirka/akvizice-2015-2025#2019 301
+/clanky/decin_stroje2020 /sbirka/akvizice-2015-2025#2020 301
+/clanky/vezni2021 /sbirka/akvizice-2015-2025#2021 301
 
 # Fallback — neznámé .htm cesty
 /*.htm /404 404

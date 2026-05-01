@@ -88,6 +88,11 @@ const MERGED_INTO: Record<string, string> = {
   bychory_zvonici_stroj: '/sbirka/bychory_prokes1#zvonici-stroj-kuriozita-kompletu',
   bychory_cimbaly: '/sbirka/bychory_prokes1#cimbaly-bellmannova-slevarna-1868',
   bychory_restaurovani_napis: '/sbirka/bychory_prokes1#restaurovani-od-nalezu-k-expozici',
+  // M5.2 Akvizice konsolidace (2026-05): 4 chronologické články sloučeny do akvizice-2015-2025
+  decin_dalsi_stroje: '/sbirka/akvizice-2015-2025#2015-2018',
+  decin_stroje2019: '/sbirka/akvizice-2015-2025#2019',
+  decin_stroje2020: '/sbirka/akvizice-2015-2025#2020',
+  vezni2021: '/sbirka/akvizice-2015-2025#2021',
 };
 
 /** Načti slugy z content/kronika/ — tyto články byly přesunuty z /clanky/. */

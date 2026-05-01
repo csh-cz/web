@@ -33,8 +33,7 @@ export const kroky: Krok[] = [
     relatedSlugs: [
       'budiky1',
       'decin_koncepce',
-      'decin_stroje2020',
-      'decin_dalsi_stroje',
+      'akvizice-2015-2025',
       'kardasova_recice',
       'ohlednuti2011',
       'muzea_cr',
@@ -60,9 +59,8 @@ export const kroky: Krok[] = [
     charakteristika:
       'Při klidu kotvy dochází k mírnému zpětnému pohybu krokového kola — odtud anglický název "recoil". Pro běžné věžní stroje 18.–20. století zcela dominantní řešení.',
     relatedSlugs: [
-      'decin_dalsi_stroje',
+      'akvizice-2015-2025',
       'decin_koncepce',
-      'decin_stroje2020',
       'hinspirace',
       'sobeslav3',
       'sobeslav2c',
@@ -81,7 +79,7 @@ export const kroky: Krok[] = [
       'Vylepšený kotvový krok bez zpětného pohybu krokového kola — odtud anglický název "deadbeat" (mrtvý úder). Ramena kotvy mají speciálně tvarované klidové plochy soustředné s osou rotace, takže během klidu kyvadla se kolo nepohybuje.',
     charakteristika:
       'Vyšší přesnost než klasický kotvový krok. Standardní řešení pro pendlovky a regulátory 18.–19. století, dnes typické pro kvalitní věžní stroje.',
-    relatedSlugs: ['decin_dalsi_stroje', 'vez_decin'],
+    relatedSlugs: ['akvizice-2015-2025', 'vez_decin'],
     skupina: 'presne',
   },
   {
@@ -94,7 +92,7 @@ export const kroky: Krok[] = [
       'Francouzský volný kotvový krok s palácovými výřezy v krokovém kole. Klidové plochy jsou tvořeny přímo zuby krokového kola, palety jsou jen úzké pruhy. Charakteristický pro francouzskou školu věžního hodinářství.',
     charakteristika:
       'Nižší tření než Graham díky menšímu kontaktu mezi paletou a kolem. Časté u pražských a francouzských věžních strojů, mj. u stroje Václava Krečmera.',
-    relatedSlugs: ['decin_dalsi_stroje', 'decin_flatbed', 'decin_stroje2020', 'vezni2021'],
+    relatedSlugs: ['akvizice-2015-2025', 'decin_flatbed'],
     skupina: 'presne',
   },
   {

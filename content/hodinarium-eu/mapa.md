@@ -69,10 +69,11 @@ Proto při úzké obrazovce horní měnu není rozbalovací a vede na tuto mapu 
             -   [Věžní rozvody](/sbirka/bychory_dalsi_kola)
             -   [Časové zámky](/clanky/casovy_zamek)
         -   Přírůstky
-            -   [Přírůstky 2015-18](/clanky/decin_dalsi_stroje)
-            -   [Přírůstky 2019](/clanky/decin_stroje2019)
-            -   [Přírůstky 2020](/clanky/decin_stroje2020)
-            -   [Přírůstky 2021](/clanky/vezni2021)
+            -   [Akvizice 2015–2025](/sbirka/akvizice-2015-2025)
+                -   [Přírůstky 2015–2018](/sbirka/akvizice-2015-2025#2015-2018)
+                -   [Přírůstky 2019](/sbirka/akvizice-2015-2025#2019)
+                -   [Přírůstky 2020](/sbirka/akvizice-2015-2025#2020)
+                -   [Přírůstky 2021](/sbirka/akvizice-2015-2025#2021)
 
 -   Bylo do 2015: Věžní muzejíčko
     -   [Projekt Věžního muzejíčka](/clanky/vezni_muzejicko)

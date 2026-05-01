@@ -70,7 +70,7 @@ export const hodinari: Hodinar[] = [
       'vez_elektrocas1959',
       'vez_Budislav',
       'zidovske',
-      'decin_dalsi_stroje',
+      'akvizice-2015-2025',
       'decin_jednotny_cas',
     ],
     era: 'prelom',
@@ -85,7 +85,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'AT',
     shrnuti:
       'Vídeňský hodinář působící v XIII. okresu (Speising). Jeho stroje se vyznačují úsporným převodem na brzdící větrníky — bicí stroj má jen jedno kolo zabírající do šneku větrníku.',
-    relatedSlugs: ['decin_dalsi_stroje', 'janovice'],
+    relatedSlugs: ['akvizice-2015-2025', 'janovice'],
     era: 'prelom',
   },
   {
@@ -98,7 +98,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Moravský výrobce věžních hodin z meziválečného období. Mezi nejstaršími na Moravě, kdo doplňoval své stroje elektrickým nátahem. Jeho hodiny najdeme v kostelech v Brně, Bruntálu i na Slovensku.',
-    relatedSlugs: ['decin_dalsi_stroje'],
+    relatedSlugs: ['akvizice-2015-2025'],
     era: '20stol',
   },
   {
@@ -111,7 +111,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Vinohradský hodinář přelomu 19. a 20. století. Stroje se vyznačují pečlivým provedením, typickým způsobem zavěšení kyvadla s paletami Amantova kroku.',
-    relatedSlugs: ['decin_dalsi_stroje'],
+    relatedSlugs: ['akvizice-2015-2025'],
     era: 'prelom',
   },
   {
@@ -150,7 +150,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Pražský hodinář s titulem Königlicher Hofuhrmacher (Královský dvorní hodinář). Jeho věžní stroj z roku 1764 patří mezi cenné doklady české hodinářské produkce barokní doby.',
-    relatedSlugs: ['decin_stroje2020', 'zidovske'],
+    relatedSlugs: ['akvizice-2015-2025', 'zidovske'],
     era: 'baroko',
   },
   {
@@ -163,7 +163,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'DE',
     shrnuti:
       'Saský zámečník a výrobce věžních hodin. Vyrobil pouze přibližně 17 strojů, což z dochovaných exemplářů činí poměrně vzácné objekty.',
-    relatedSlugs: ['decin_stroje2019'],
+    relatedSlugs: ['akvizice-2015-2025'],
     era: '19stol',
   },
   {
@@ -189,7 +189,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'SK',
     shrnuti:
       'Současný slovenský hodinář a řezbář. V roce 2015 vyrobil repliku dřevěných věžních hodin — kola, hřídele i části kroku jsou ze dřeva, ozubení tvoří ocelové věnce.',
-    relatedSlugs: ['decin_dalsi_stroje'],
+    relatedSlugs: ['akvizice-2015-2025'],
     era: 'soucasnost',
   },
   {
@@ -282,7 +282,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Tradiční výrobce věžních hodin z Uničova (něm. Mährisch Neustadt). V Hodináriu Děčín je torzo hořelo padlého stroje, doplněné o stejný typ ze sbírek Vlastivědného muzea v Olomouci.',
-    relatedSlugs: ['decin_dalsi_stroje'],
+    relatedSlugs: ['akvizice-2015-2025'],
     era: 'prelom',
   },
   {
@@ -295,7 +295,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Hodinářská firma z Kraslic, jejíž věžní hodinový stroj byl 29. 8. 2016 zapůjčen do Hodinária v Děčíně.',
-    relatedSlugs: ['decin_dalsi_stroje'],
+    relatedSlugs: ['akvizice-2015-2025'],
     era: 'prelom',
   },
   {

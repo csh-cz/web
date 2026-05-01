@@ -176,6 +176,17 @@
     "wordCount": 26
   },
   {
+    "slug": "akvizice-2015-2025",
+    "title": "Akvizice 2015–2025 — kronika přírůstků sbírky",
+    "category": "sbirka",
+    "thumbnail": "/img/decin/dalsi_stroje/Beitel2.jpg",
+    "excerpt": "Od založení expozice v roce 2015 se sbírka Hodinária postupně rozrůstá. Tento článek shrnuje, co kdy přibylo. Jednotlivé položky odkazují na karty v katalogu sbírky, kde je k dispozici více technických detailů.",
+    "year": 1931,
+    "lastModified": null,
+    "imageCount": 52,
+    "wordCount": 2089
+  },
+  {
     "slug": "alzbeta",
     "title": "Alžběta - 14112 - hlášení přesného času",
     "category": "projekty",
@@ -2318,7 +2329,7 @@
     "year": 2015,
     "lastModified": "2025-06-03T10:07:00.000Z",
     "imageCount": 0,
-    "wordCount": 1108
+    "wordCount": 1111
   },
   {
     "slug": "maregraf",
@@ -3595,39 +3606,6 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 102
-  },
-  {
-    "slug": "decin_dalsi_stroje",
-    "title": "Přírůstky expozice v letech 2015 - 2018",
-    "category": "sbirka",
-    "thumbnail": "/img/decin/dalsi_stroje/Krecmer/f/foto_0004.jpg",
-    "excerpt": "Malý hodinový stroj, mající jen chodové soukolí pouze se dvěma koly: hnacím bubnem a krokovým kolem. Je uložen v litinovém rámu. Hodiny jsou výrobkem hodináře Václava Krečmera, který působil na přelomu 19. a 20. stole…",
-    "year": 2002,
-    "lastModified": "2024-11-13T14:19:00.000Z",
-    "imageCount": 52,
-    "wordCount": 1397
-  },
-  {
-    "slug": "decin_stroje2019",
-    "title": "Přírůstky expozice v letech 2019",
-    "category": "sbirka",
-    "thumbnail": "/img/decin/dalsi_stroje/bassler1864/f/foto_0006.jpg",
-    "excerpt": "Hodiny pochází z města Bad Düben. Získány na Ebay v březnu 2019. Autorem hodin je pravděpodobně Friedrich Moritz Bassler (Baßler) (\\1835) - zámečník, hodinář, výrobce věžních hodin. Aktivně působil asi do roku 1920 a …",
-    "year": 1835,
-    "lastModified": "2019-07-29T16:35:00.000Z",
-    "imageCount": 27,
-    "wordCount": 608
-  },
-  {
-    "slug": "decin_stroje2020",
-    "title": "Přírůstky expozice v letech 2020",
-    "category": "sbirka",
-    "thumbnail": "/img/decin/rok2020/Jilove/f/foto_0002.jpg",
-    "excerpt": "Hodiny pocházejí z kostela Nejsvětější Trojice. Kostel má pohnutou historii : v roce 1859 vyhořel po zásahu moždíře při oslavách na zámku. Majitel panství hrabě Thun zafinancoval stavbu nového kostela, takže již za ro…",
-    "year": 1715,
-    "lastModified": "2020-06-11T21:22:00.000Z",
-    "imageCount": 8,
-    "wordCount": 269
   },
   {
     "slug": "pulsynetic",
@@ -4970,17 +4948,6 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 304
-  },
-  {
-    "slug": "vezni2021",
-    "title": "Věžní pérové hodiny se setrvačkou",
-    "category": "sbirka",
-    "thumbnail": "/img/vezni/setrvackove/f/foto_0001.jpg",
-    "excerpt": "Do Hodinária byly zakoupeny věžní hodiny zajímavé konstrukce, se kterou jsme se dosud nesetkali. Hlavní soukolí je poháněno pérem, uloženým ve velkém pérovníku. Péro je natahováno elektromotorem. Chod stroje řídí zaří…",
-    "year": 1945,
-    "lastModified": "2022-01-20T12:46:00.000Z",
-    "imageCount": 33,
-    "wordCount": 494
   },
   {
     "slug": "inv-30-vezni-polevsko-hainz",
