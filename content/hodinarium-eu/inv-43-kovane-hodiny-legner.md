@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.525Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -20,16 +20,6 @@ karta:
   stav: "funkční"
 ---
 
-## Stub karty
+Drobná kovaná plastika – hodiny od Zdeňka Legnera
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
-
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
-
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Zdeněk Legner po vystudování uměleckoprůmyslové školy v Turnově absolvoval při brněnském muzeu restaurátorskou školu a stal se členem Českého svazu výtvarných umělců v Mánesu a státním restaurátorem. Pracoval na obnově divadla v Mladé Boleslavi, paláce Kinských, domě Viola, bráně Legiobanky, v zámku Častolovicích, hotelu Ambasador. Jako restaurátor pracoval v Nice, v Mnichově... . Realizoval mnoho kovářských prací nejen v Čechách, ale také v Evropě, v USA, Japonsku ( brány a balkony Staten Island New York, brány a mříže Jupiter Florida, osvětlovací tělesa Disneyland Paříž, brány a mříže vily J. Walese San Marino, dělící mříže hotelu Sheraton v Casablance ... ).

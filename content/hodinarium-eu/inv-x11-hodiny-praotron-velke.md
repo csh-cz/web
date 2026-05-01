@@ -1,6 +1,6 @@
 ---
-title: "[K doplnění] Diferenciální relé VUS (inv. x10)"
-slug: "inv-x10-diferencialni-rele-vus"
+title: "[K doplnění] Hodiny Praotron velké (inv. x9)"
+slug: "inv-x11-hodiny-praotron-velke"
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
@@ -10,13 +10,13 @@ scrapedAt: "2026-04-30T04:12:37.544Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
-  - vitrina-5-vedlejsi
+  - rohova-vitrina-vedlejsi
   - funkcni
 karta:
-  inventarniCislo: "x10"
-  umisteni: "Vitrína 5 (Sál elektro)"
-  pridanoDoSbirky: "2024"
-  majitel: "Král"
+  inventarniCislo: "x11"
+  umisteni: "Rohová vitrína (Sál elektro)"
+  pridanoDoSbirky: "2026"
+  majitel: "Kavalír"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

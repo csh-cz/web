@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.523Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -23,18 +23,10 @@ karta:
   stav: "nefunkční"
   extra:
     - { label: "Poznámka", value: "kostel sv. Jiří Chřibská" }
+  krokJicihoStroje: "vřetenový krok"
+  adaptaceProVystavu: "Jeden ze sloupků chyběl a byl doplněn novodobou kopií."
 ---
 
-## Stub karty
+Hodiny jsou původem z kostela sv. Jiří ve Chřibské. Podle typu konstrukce lze předpokládat, že byly vyrobeny na počátku 18. století. Stroj, sestávající se ze tří částí : hodinového stroje, odbíjení čtvrtí a odbíjení celých hodin, je uložen v  rámu z kovaných pásnic, zachycených v rohových sloupcích, které jsou ozdobeny volutami. Jeden ze sloupků chyběl a byl doplněn novodobou kopií. Spojení částí je provedeno klínky. Jicí stroj byl zásadně upraven snad koncem 19. nebo počátkem 20. století, kdy byl odstraněn vřetenový krok a nahrazen krokovým mechanismem s plochým krokovým kolem s celými kolíčky. Také byl upraven převod točivého momentu z jicího stroje k ciferníkům - byla osazena velká mosazná kola a spojka pro nařizování času na cifernících. Byly zhotoveny také nové, větší větrníky.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
-
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
-
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+U jicího stroje byla ulomena vidlice od kotvy, chyběl závěs a kyvadlo. Tyto součásti byly náznakově doplněny.

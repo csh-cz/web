@@ -1,6 +1,6 @@
 ---
-title: "[K doplnění] Vodní hodiny čínské (inv. x5)"
-slug: "inv-x5-vodni-hodiny-cinske"
+title: "[K doplnění] Hotelový budík velký (inv. x6)"
+slug: "inv-x7-hotelovy-budik-velky"
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
@@ -11,11 +11,11 @@ manualEdit: false
 author: "Český spolek horologický"
 tags:
   - rohova-vitrina-vedlejsi
-  - vodni
+  - budik
 karta:
-  inventarniCislo: "x5"
+  inventarniCislo: "x7"
   umisteni: "Rohová vitrína (Sál elektro)"
-  majitel: "Král"
+  majitel: "Baudisch"
 ---
 
 ## Stub karty

@@ -1,22 +1,21 @@
 ---
-title: "[K doplnění] Astronomicé hodiny (inv. x3)"
-slug: "inv-x3-astronomice-hodiny"
+title: "[K doplnění] Tellurium (inv. x9)"
+slug: "inv-x9-tellurium"
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T04:12:37.544Z"
+scrapedAt: "2026-05-01T15:16:06.962Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
-  - vitrina-4-vedlejsi
+  - rohova-vitrina-vedlejsi
   - funkcni
 karta:
-  inventarniCislo: "x3"
-  umisteni: "Vitrína 4 (Sál elektro)"
-  pridanoDoSbirky: "2025"
-  majitel: "Král"
+  inventarniCislo: "x9"
+  umisteni: "Rohová vitrína (Sál elektro)"
+  majitel: "Klikar"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

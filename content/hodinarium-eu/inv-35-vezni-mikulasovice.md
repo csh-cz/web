@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.524Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -21,18 +21,19 @@ karta:
   vztahKeSbirce: "zápůjčka"
   extra:
     - { label: "Poznámka", value: "Sv. Mikuláš Mikulášovice" }
+  rokVyroby: "1864"
 ---
 
-## Stub karty
+Hodinový stroj věžních hodin byl vyroben známou firmou Mannhardt v Mnichově roku 1864.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
+Je vybaven raritním krokem podle J. Winnerla.
 
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
+Joseph Thaddeus Winnerl (1799 - 1886), výjimečný hodinář, původem z rakouského Murecku, který zhotovoval v Paříži od roku 1832 věhlasné námořní chronometry. Konstrukce tohoto kroku je z roku 1836, byl používán při stavbě přesných astronomických hodin.
 
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Krokový mechanismus je velmi půvabný a atraktivní, ale především velmi přesný. Malá závažíčka udělují kyvadlu neustále přesně stejné popudy, jejichž velikost je dána gravitací. Při pohybu kyvadla do strany a s ním i ramen s plochými talířky nahoru a dolů vzniká popud na kyvadlo takto:
+
+Když se kyvadlo pohybuje např. doprava a rameno s pravým talířkem nahoru, talířek dosedne zespodu na závažíčko zavěšené na niti a začne jej nadzdvihovat. Talířek se závažíčkem se pohybuje dál nahoru, nit už ale závažíčko, teď položené na talířku, nenese a celé horní rameno se dvěma závažíčky se tak ocitne v nerovnováze. Opačné levé závažíčko zavěšené na horním rameni táhne levou stranu ramene dolů, s ramenem se pootáčí i mosazná kotva a ta uvolní hrot trojramenného krokového kola, které se pak pootočí o třetinu otáčky. Při tomto pootáčení krokové kolo nadzdvihne do horní polohy levou stranu ramene se závažíčkem, které klesalo dolů - a pravá strana ramene, na jejímž konci je upevněna niť závažíčka právě zdvihaného talířkem poklesne níž. Když pak kyvadlo dosáhne úvrati vpravo a začne se vracet, závažíčko na pravé misce, poté, co se nit napne, misku opustí.  Opustí ale misku níže, než na ni předtím dosedlo. Tím si kyvadlo přebere polohovou energii závažíčka a přemění ji na energii kinetickou - pohyb kyvadla
+
+Rafije a číslice hodin Staroměstské radnice
+
+Při opravě věže Staroměstské radnice v Praze v roce 2017 byly obnoveny původní barokní ciferníky, u kterých velká rafije ukazovala hodiny a malá minuty. Sejmuté rafije a číslice byly věnovány do Hodinária.

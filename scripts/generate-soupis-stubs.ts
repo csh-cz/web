@@ -31,6 +31,7 @@ const OUT_REPORT = join(ROOT, 'tmp', 'soupis-stuby-report.md');
 
 const args = process.argv.slice(2);
 const APPLY = args.includes('--apply');
+const IGNORE_FUZZY = args.includes('--ignore-fuzzy');
 
 interface Exponat {
   invCislo: string;
@@ -450,7 +451,7 @@ async function main() {
     let blocked = 0;
     for (const p of proposed) {
       if (p.exists) { skipped++; continue; }
-      if (p.conflicts.length > 0) { blocked++; continue; }
+      if (!IGNORE_FUZZY && p.conflicts.length > 0) { blocked++; continue; }
       // Reject pokud má nové tagy mimo whitelist (build by pak failnul)
       if (p.suggestedTagsNew.length > 0) { blocked++; continue; }
 

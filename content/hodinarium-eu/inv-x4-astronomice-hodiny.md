@@ -1,6 +1,6 @@
 ---
-title: "[K doplnění] Hodiny kruhové LED (inv. x1)"
-slug: "inv-x1-hodiny-kruhove-led"
+title: "[K doplnění] Astronomicé hodiny (inv. x3)"
+slug: "inv-x4-astronomice-hodiny"
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
@@ -13,7 +13,7 @@ tags:
   - vitrina-4-vedlejsi
   - funkcni
 karta:
-  inventarniCislo: "x1"
+  inventarniCislo: "x4"
   umisteni: "Vitrína 4 (Sál elektro)"
   pridanoDoSbirky: "2025"
   majitel: "Král"

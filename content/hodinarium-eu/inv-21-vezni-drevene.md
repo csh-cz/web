@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.522Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -23,18 +23,7 @@ karta:
   stav: "funkční"
   extra:
     - { label: "Poznámka", value: "dar pana Fridricha" }
+  rokVyroby: "2015"
 ---
 
-## Stub karty
-
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
-
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
-
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Repliku dřevěných věžních hodin vyrobil v roce 2015 pan Peter Fridrich z Hodruše. Hodinový mechanizmus je uložen v dřevěném rámu, má jicí stroj a stroj odbíjení celých hodin. Chod vřetenového kroku je řízen lehkým kyvadlem. Kola jsou spolu s hřídeli vytočena ze dřeva, ozubení tvoří ocelové věnce s vypilovanými zuby. Čepy hřídelí jsou uloženy mosazných ložiscích. Hodiny jsou vybaveny ručně malovaným ciferníkem. Natahování se provádí klikou přes vkládaný pastorek.

@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.527Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -19,18 +19,25 @@ karta:
   majitel: "spolek"
   vztahKeSbirce: "dar"
   stav: "funkční"
+  rokVyroby: "2018"
 ---
 
-## Stub karty
+Vystavený exponát je prototypem zařízení, které natahuje závaží Pražského orloje. Uvnitř bubnu je ukryto natahování, sestávající z motorku, řídicího systému a čidla, kontrolujícího navíjení lana. Napájení o napětí 36V je do bubnu přivedeno vodiči, vpletenými do lana, nesoucího závaží.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
+Při sepnutí vnitřního čidla začne LED blikat rychle zelená/červená, po menší prodlevě se spustí natahování a LED svítí červeně. Natahování je asi v 37 vteřinových intervalech. Po dotažení LED bliká zeleně.
 
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
+Zařízení navrhl a sestrojil Ing. Jaroslav Kavalír. Do Pražského orloje bylo zabudováno v rámci generální opravy stroje v roce 2018.
 
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Digitální docházkové hodiny
+
+Digitální docházkové hodiny čínské výroby slouží pro registraci
+
+příchodu a odchodu zaměstnanců na pracoviště. Záznam
+
+se provádí přiložením registrovaného prstu do okénka snímače.
+
+Elektronicky řízené odbíjení
+
+Odbíjecí systém, využívající prvky stavebnice Arduino přijímá časovou informaci z místní WiFi sítě a zpracovává ji na signál pro dvojici zvonků, gongů a jiných zvukových mechanických zařízení. Napojením na AP adresu zařízení je možno přes počítač, tablet, či mobilní telefon, např. přes QR kód, nastavovat charakteristiku odbíjení : např. způsob odbíjení - čtvrt, půl, třičtvrtě, celou hodinu, nebo jen půl, celá hodina. Dále je možno předvolit délku impulzu, prodlevu mezi impulzy.
+
+Model a jeho řízení navrhl a zhotovil Ing. Jaroslav Kavalír, software navrhl Ing. Ladislav Kavalír.

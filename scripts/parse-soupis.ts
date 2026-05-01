@@ -19,7 +19,7 @@ import { execSync } from 'node:child_process';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const ROOT = join(__dirname, '..');
-const XLS_PATH = join(ROOT, 'zdroje', 'katalog exponátů', 'Soupis exponátů můj .xls');
+const XLS_PATH = join(ROOT, 'zdroje', 'katalog exponátů', 'Soupis exponátů můj 3.xls');
 const TMP_CSV = '/tmp/soupis-parsed.csv';
 const OUT_PATH = join(ROOT, 'apps', 'hodinarium-eu', 'src', 'data', 'soupis-exponatu.json');
 
@@ -103,7 +103,7 @@ function classifySection(label: string, mistnost: string): { tag: string; jmeno:
 
 async function main() {
   // Convert XLS → CSV
-  execSync(`soffice --headless --convert-to csv --outdir /tmp "${XLS_PATH}" && mv "/tmp/Soupis exponátů můj .csv" ${TMP_CSV}`, { stdio: 'pipe' });
+  execSync(`soffice --headless --convert-to csv --outdir /tmp "${XLS_PATH}" && mv "/tmp/Soupis exponátů můj 3.csv" ${TMP_CSV}`, { stdio: 'pipe' });
   const text = await readFile(TMP_CSV, 'utf-8');
   const rows = parseCSV(text);
 

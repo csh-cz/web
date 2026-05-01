@@ -34,7 +34,8 @@ const CONTENT_DIR = join(ROOT, 'content', 'hodinarium-eu');
 const APPLY = process.argv.includes('--apply');
 
 interface PopisStroj {
-  docPosition: number;
+  invCislo: number;
+  docOrder: number;
   title: string;
   body: string;
   bodyParagraphs: string[];
@@ -106,10 +107,18 @@ function extractFields(body: string): Record<string, string> {
     out.pohon = 'elektromotorový nátah';
   }
 
-  // Signatura — typicky text v uvozovkách nebo CAPSLOCK
-  const sigM = body.match(/(?:signatur[au]|signov[áa]n[oa]?\s+(?:jmé[nm][eo]m)?|nápis[em]?\s+výrobce|štítku\s+(?:upevněn[éma]?\s+)?na\s+rámu)[^.,]*?[":„]([^"„""]+)[":""]/i);
-  if (sigM) out.signatura = sigM[1].trim();
-  else {
+  // Signatura — text v uvozovkách, dvojtečka + věta, nebo CAPSLOCK
+  // Strategie: hledej za "letopočtem:" / "signov" / "nápis" / "signatura"
+  // jednu větu (konec po první tečce/CR), max 80 znaků.
+  const sigPatterns = [
+    /(?:letopočtem|signatura|signov[áa]n[oa]?(?:\s+jmé[nm][eo]m)?|nápis[em]?\s+výrobce|štítku\s+(?:upevněn[éma]?\s+)?na\s+rámu)\s*[:„"]\s*([^.\n]{3,80}?)\s*[."\n]/i,
+    /(?:Signatur[au]|Nápis)[\s:]*[„"]([^"„"\n]{3,80})["]/i,
+  ];
+  for (const re of sigPatterns) {
+    const m = body.match(re);
+    if (m) { out.signatura = m[1].trim(); break; }
+  }
+  if (!out.signatura) {
     const capsM = body.match(/\b([A-Z][A-Z\s.]{5,40}[A-Z])\b/);
     if (capsM) out.signatura = capsM[1].trim();
   }
@@ -162,14 +171,13 @@ function buildBodySummary(p: PopisStroj): string {
   return p.bodyParagraphs.map((para) => para.trim()).filter(Boolean).join('\n\n');
 }
 
-async function loadKartaBySlug(slugBase: string): Promise<{ slug: string; path: string; content: string } | null> {
-  // Hledá soubor začínající inv-NNN-<slugBase> (regardless of inv. č.)
-  // Nebo přesně inv-NNN-* kde slug obsahuje slugBase
+async function findKartaByInv(invCislo: string): Promise<{ slug: string; path: string; content: string } | null> {
+  // Najdi inv-NNN-*.md / *.mdx
   const { readdirSync } = await import('node:fs');
   const files = readdirSync(CONTENT_DIR);
-  const candidates = files.filter((f) => f.startsWith('inv-') && f.includes(slugBase) && (f.endsWith('.md') || f.endsWith('.mdx')));
+  const prefix = `inv-${invCislo}-`;
+  const candidates = files.filter((f) => f.startsWith(prefix) && (f.endsWith('.md') || f.endsWith('.mdx')));
   if (candidates.length === 0) return null;
-  // Vyber první
   const file = candidates[0];
   const content = await readFile(join(CONTENT_DIR, file), 'utf-8');
   return { slug: file.replace(/\.(md|mdx)$/, ''), path: join(CONTENT_DIR, file), content };
@@ -180,7 +188,6 @@ interface MatchResult {
   matchedKartaSlug: string | null;
   matchedKartaPath: string | null;
   matchedSoupis: SoupisExp | null;
-  fuzzyScore: number;
   extractedFields: Record<string, string>;
   extractedPuvodniUmisteni: { objekt?: string; typObjektu?: string; obec?: string; detail?: string } | null;
 }
@@ -188,57 +195,93 @@ interface MatchResult {
 async function main() {
   const popisy = JSON.parse(await readFile(POPISY_PATH, 'utf-8')) as PopisStroj[];
   const soupis = JSON.parse(await readFile(SOUPIS_PATH, 'utf-8')) as SoupisExp[];
+  const soupisByInv = new Map(soupis.map((s) => [s.invCislo, s]));
 
   const matches: MatchResult[] = [];
-
+  // Deduplicate popisy by inv. č. — pokud více blocků se stejným inv. (chyba v docx), vezmi nejdelší
+  const popisyByInv = new Map<number, PopisStroj>();
   for (const p of popisy) {
-    // Match na soupis popis přes fuzzy score
-    let bestSoupis: SoupisExp | null = null;
-    let bestScore = 0;
-    for (const s of soupis) {
-      const score = fuzzyScore(p.title, s.popis);
-      if (score > bestScore) { bestScore = score; bestSoupis = s; }
-    }
+    const prev = popisyByInv.get(p.invCislo);
+    if (!prev || p.body.length > prev.body.length) popisyByInv.set(p.invCislo, p);
+  }
 
-    let kartaSlug: string | null = null;
-    let kartaPath: string | null = null;
-    if (bestSoupis && bestScore >= 1) {
-      const expectedSlug = `inv-${bestSoupis.invCislo}-${slugify(bestSoupis.popis)}`;
-      const path = join(CONTENT_DIR, `${expectedSlug}.md`);
-      if (existsSync(path)) {
-        kartaSlug = expectedSlug;
-        kartaPath = path;
-      }
-    }
+  for (const p of popisyByInv.values()) {
+    const invStr = String(p.invCislo);
+    const soupisExp = soupisByInv.get(invStr) ?? null;
+    const karta = await findKartaByInv(invStr);
 
     matches.push({
       popis: p,
-      matchedKartaSlug: kartaSlug,
-      matchedKartaPath: kartaPath,
-      matchedSoupis: bestSoupis,
-      fuzzyScore: bestScore,
+      matchedKartaSlug: karta?.slug ?? null,
+      matchedKartaPath: karta?.path ?? null,
+      matchedSoupis: soupisExp,
       extractedFields: extractFields(p.body),
       extractedPuvodniUmisteni: extractPuvodniUmisteni(p.body),
     });
   }
 
-  console.log('=== Popisy → karty: dry-run ===');
-  console.log(`Popisy total:        ${popisy.length}`);
-  console.log(`S match na kartu:    ${matches.filter((m) => m.matchedKartaSlug).length}`);
-  console.log(`Bez match (skip):    ${matches.filter((m) => !m.matchedKartaSlug).length}`);
+  // Sanity check: detekuj DISCREPANCY mezi popis title (docx) a soupis popis (XLS)
+  // Pokud jsou úplně jiné identity (žádné společné slovo), skipni apply pro tu položku.
+  function shareWords(a: string, b: string): boolean {
+    const stop = new Set(['věžní','vezni','vezne','vezna','hodinový','hodinovy','hodiny','hodin','stroj','strojek','strojku','soubor','roku','model','komplet','kostela','kostele','kostel','typu']);
+    const norm = (s: string) =>
+      s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
+        .split(/[^a-z0-9]+/i).filter((w) => w.length >= 4 && !stop.has(w))
+        .map((w) => w.slice(0, 4));  // prefix-4 — řeší českou flexi (velké/velká)
+    const wa = new Set(norm(a));
+    for (const w of norm(b)) if (wa.has(w)) return true;
+    return false;
+  }
+  // Známé discrepancies mezi Popisy 2.docx a Soupis 3.xls (zatím nesouhlasí —
+  // user musí buď opravit inv. č. v jednom ze souborů, nebo dát explicitní override).
+  // Tady NEAPLYUJEME — body by se zapsal do nesprávné karty.
+  const KNOWN_HARD_MISMATCH = new Set<number>([
+    65,   // popis: Model Pražského orloje, XLS inv. 65: Orloj Kavalír (taky model orloje, ale jiný)
+    67,   // popis: Věžní hodiny Lissner, XLS inv. 67: Orloj Hvězdárna Petřín
+    68,   // popis: Model orloje, XLS inv. 68: Sluneční hodiny horizontální
+  ]);
+
+  // Označ "soft warnings" pokud popis title nesdílí žádné slovo s XLS popis,
+  // ale apply přesto provedeme — inv. č. je deterministická identita.
+  for (const m of matches) {
+    if (!m.matchedKartaSlug || !m.matchedSoupis) continue;
+    if (KNOWN_HARD_MISMATCH.has(m.popis.invCislo)) {
+      m.matchedKartaSlug = null;
+      m.matchedKartaPath = null;
+      (m as MatchResult & { discrepancy?: string }).discrepancy =
+        `HARD: popis "${m.popis.title}" ≠ XLS "${m.matchedSoupis.popis}" — vyžaduje manuální review`;
+      continue;
+    }
+    const haystack = `${m.popis.title} ${m.popis.body}`;
+    if (!shareWords(haystack, m.matchedSoupis.popis)) {
+      (m as MatchResult & { warning?: string }).warning =
+        `popis title "${m.popis.title}" se neshoduje s XLS popisem "${m.matchedSoupis.popis}" — zkontroluj manuálně`;
+    }
+  }
+
+  console.log('=== Popisy → karty: dry-run (inv. č. direct match) ===');
+  console.log(`Popisy total (unique inv): ${popisyByInv.size}`);
+  console.log(`S match na kartu:          ${matches.filter((m) => m.matchedKartaSlug).length}`);
+  console.log(`Bez match (chybí karta):   ${matches.filter((m) => !m.matchedKartaSlug).length}`);
   console.log();
 
   console.log('--- Match preview ---');
-  for (const m of matches) {
+  const sorted = [...matches].sort((a, b) => a.popis.invCislo - b.popis.invCislo);
+  for (const m of sorted) {
     const status = m.matchedKartaSlug ? '✓' : '✗';
-    console.log(`${status} doc#${m.popis.docPosition} "${m.popis.title}"`);
+    console.log(`${status} inv. ${String(m.popis.invCislo).padStart(3)} "${m.popis.title}"`);
     if (m.matchedKartaSlug) {
-      console.log(`   → karta: ${m.matchedKartaSlug} (score ${m.fuzzyScore})`);
+      console.log(`   → karta: ${m.matchedKartaSlug}`);
+      const w = (m as MatchResult & { warning?: string }).warning;
+      if (w) console.log(`   ⚠ WARNING: ${w}`);
       const fields = Object.entries(m.extractedFields).map(([k, v]) => `${k}="${v.slice(0, 40)}"`).join(', ');
       if (fields) console.log(`   fields: ${fields}`);
       if (m.extractedPuvodniUmisteni) console.log(`   puvodniUmisteni: ${JSON.stringify(m.extractedPuvodniUmisteni)}`);
-    } else if (m.matchedSoupis) {
-      console.log(`   ? blízko k inv. ${m.matchedSoupis.invCislo} "${m.matchedSoupis.popis}" (score ${m.fuzzyScore}) — ale karta soubor neexistuje`);
+    } else {
+      const disc = (m as MatchResult & { discrepancy?: string }).discrepancy;
+      if (disc) console.log(`   ✋ ${disc}`);
+      else console.log(`   ! karta inv-${m.popis.invCislo}-* neexistuje`);
+      if (m.matchedSoupis) console.log(`     (soupis: "${m.matchedSoupis.popis}")`);
     }
   }
 
@@ -268,7 +311,10 @@ async function main() {
         const inserts: string[] = [];
         for (const [k, v] of Object.entries(m.extractedFields)) {
           if (fm.includes(`\n  ${k}:`)) continue;  // už existuje
-          const escaped = v.replace(/"/g, '\\"');
+          // Sanitize: trim, sloučit whitespace na single space, oříznout na 300 znaků
+          const sanitized = v.replace(/\s+/g, ' ').trim().slice(0, 300);
+          if (!sanitized) continue;
+          const escaped = sanitized.replace(/"/g, '\\"');
           inserts.push(`  ${k}: "${escaped}"`);
         }
         if (m.extractedPuvodniUmisteni && !fm.includes('puvodniUmisteni:')) {

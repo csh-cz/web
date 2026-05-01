@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.521Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -25,18 +25,12 @@ karta:
   stav: "nefunkční"
   extra:
     - { label: "Poznámka", value: "bývalá radnice Děčín" }
+  krokJicihoStroje: "Grahamův krok"
+  puvodniUmisteni:
+    objekt: "bývalé děčínské radnice"
+    typObjektu: "radnice"
 ---
 
-## Stub karty
+Hodinový stroj byl původně osazen v budově bývalé děčínské radnice (nyní Okresní soud). Má dva bicí stroje – čtvrťový a hodinový. Konstrukce obou těchto strojů je zajímavá, používá šnekový převod na větrníky, čímž se převodové soukolí zjednoduší.  Stroj jicí má krokový mechanismus s klidovým krokem (krok Grahamův s kotvou krátkoramennou). Rám hodin je masivní, litinový – dva základní díly jsou spojeny rozpěrnými sloupky. Hodiny přes tyč s Kardanovým kloubem ovládaly zvláštní bicí mechanizmus, který zvonil čtyřikrát během 24 hodin.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
-
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
-
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Věžní hodiny jsou signovány Richard Liebing, Wien. Firma působila ve Vídni na konci 19. století.

@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.522Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -21,18 +21,11 @@ karta:
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+  krokJicihoStroje: "kotvový krok"
 ---
 
-## Stub karty
+Hodinový stroj je uložen ve zdobném litinovém rámu. Sestává ze dvou soukolí: jicího a bicího. Jicí stroj má vratný kotvový krok ( Clementův).
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
+Bicí stroj je zajímavý málo užívaným umístěním větrníku kolmo na stroj. Na obou stranách kola lanového bubnu jsou osazeny zdvihací kolíky. Jedna strana je určená pro odbíjení celých hodin, druhá pro odbíjení půlí. Je to řízeno vačkou na lanovém bubnu hodinového stroje. Vačka pohybuje táhlem, které přesouvá tyč se zdvihacími palci tak, aby v půl byly v záběru kolíky na jedné straně, a v celou kolíky na druhé straně lanového bubnu. V soukolí chybí početník s pastorkem.
 
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
-
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Zajímavé je též natahování přes pastorky, usazené na otočné tyči.

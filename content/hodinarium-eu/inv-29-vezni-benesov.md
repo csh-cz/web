@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.523Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -23,18 +23,21 @@ karta:
   stav: "funkční"
   extra:
     - { label: "Poznámka", value: "dům Benešov n. Pl." }
+  rokVyroby: "1640"
 ---
 
-## Stub karty
+Věžní hodinový stroj od neznámého výrobce původně řídil ručky hodin na fasádě městského domu (Benešov n. Pl.), čemuž odpovídají jeho poměrně malé rozměry. Stroj má jen chodové soukolí, které je oproti běžně používané konstrukce rozšířeno o další kolo, což výrazně prodlužuje dobu chodu na jedno natažení. Chod je řízen Amantovým krokem, potřebnou energii dodává těžké litinové závaží s vestavěnou kladkou.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
+Římské odbíjení
 
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
+Tento způsob odbíjení vymyslel anglický hodinář Joseph Knibb (1640–1711).
 
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Odbíjí se na dva zvony (dva tóny) hlubší znamená římská „V“, vyšší znamení římská „I“. Celé hodiny se odbíjejí, jako by to byly římské číslice. Místo X jsou dvě V.
+
+Tj, I, II, III, IV, V, VI, VII, VIII, IVV, VV, VVI, VVII.
+
+Smysl byl, kromě toho, že to bylo zajímavé, menší spotřeba energie, déle vydrželo natažení, bylo třeba méně úderů.
+
+Instalovaný model odbíjí také čtvrtě hodin : čtvrt bim bam, půl bim bam, bim bam, třičtvrtě bim bam, bim bam, bim bam,  atd.
+
+Model a jeho řízení navrhl a zhotovil pan Ing. Petr Král.

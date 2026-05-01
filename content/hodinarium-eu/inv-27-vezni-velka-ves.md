@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.523Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -22,18 +22,35 @@ karta:
   stav: "nefunkční"
   extra:
     - { label: "Poznámka", value: "kostel sv. Vavřince" }
+  darceZapujcitel: "Římskokatolickou farností Odolena Voda"
 ---
 
-## Stub karty
+Věžní hodinový stroj je velmi starý, může pocházet z konce 15. století. Svislé rohové sloupky jsou čtyřhranné a jsou zakončeny dekorativním prvkem přetrvávajícím tehdy ještě z gotiky - kovanými hřebovými hlavicemi. Na jednom dochovaném lanovém bubnu jsou osazena rumpálová ramena, za která se navíjelo lano se závažím na lanový buben. Tento systém natahování lze dnes vidět jen na nemnoha muzejních hodinových strojích. Je pravděpodobné, že hodinový stroj byl původně vybaven lihýřem. Teprve později byl přestavěn na stroj kyvadlový s vřetenovým krokem, po němž se dochovaly některé detaily na rámu stroje - konzole s axiálněradiálním ložiskem hřídele krokového kola a otvor pro průchod vřetene v horní části svislé střední pásnice rámu. Kyvadlo zde bylo umístěno uprostřed delší strany rámu hodinového stroje.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
+V hodinách zcela chybí jicí stroj. Stroj bicí je nekompletní, chybí závěrkové kolo. Ostatní součásti hodin se nedochovaly.
 
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
+Torzo hodinového stroje pochází z kostela sv. Vavřince ve Velké Vsi a do expozice bylo zapůjčeno Římskokatolickou farností Odolena Voda.
 
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Zapůjčeno z majetku
+
+Římskokatolické  farnosti Odolena Voda
+
+Strojky na výrobu řetízků							Sluneční hodiny ekvatoreální
+
+Dva strojky na výrobu řetízků k hodinám se svým         					       Heliochronometr
+
+otcem vyrobil a do  Hodinária věnoval pan Sýs
+
+Římské digitálky									Sluneční hodiny ekvatoreální
+
+Římské digitálky z prvků stavebnice Arduino 							s analémou
+
+sestavil a naprogramoval pan Ing. Petr Král
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SLC  - M    žlutá - zem
+
+SDA -  Z     červená - +5V
+
+Sluneční hodiny polární

@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.523Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -23,34 +23,8 @@ karta:
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+  rokVyroby: "1864"
+  adaptaceProVystavu: "Kyvadlo je nepůvodní, umožňuje náznakovou ukázku chodu stroje."
 ---
 
-![](/img/decin/dalsi_stroje/bassler1864/f/foto_0001.jpg)
-
-![](/img/decin/dalsi_stroje/bassler1864/f/foto_0002.jpg)
-
-![](/img/decin/dalsi_stroje/bassler1864/f/foto_0003.jpg)
-
-![](/img/decin/dalsi_stroje/bassler1864/f/foto_0004.jpg)
-
-![](/img/decin/dalsi_stroje/bassler1864/f/foto_0005.jpg)
-
-![](/img/decin/dalsi_stroje/bassler1864/f/foto_0006.jpg)
-
-*Fotky byly auto-detekovány z `/img/decin/dalsi_stroje/bassler1864/f/` na základě názvu exponátu. **Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.***
-
-* * *
-
-## Stub karty
-
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
-
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
-
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Hodinový stroj poměrně jednoduché konstrukce je uložen v kovaných pásnicích, které jsou uchyceny v hlavním vodorovném pásu. Pásnice pro hlavní soukolí je k tomuto pásu přichycena jedním šroubem, druhý uchycovací bod je tvořen šroubem, fixujícím pásnici do podložného rámu. Chod jicího stroje je řízen Amantovým krokem ve tvaru nůžek, jejichž rozevření se dá seřizovat. Kyvadlo je nepůvodní, umožňuje náznakovou ukázku chodu stroje. Obě bicí soukolí mají méně používanou konstrukci se šnekem. Toto řešení je úsporné, potřebuje pouze hnací buben, vložené kolo a šnek s větrníkem, v provozu je obtížněji seříditelné a je náročnější na údržbu. Na vodorovném pásu je vyryto jméno hodináře : Bassler, a letopočet 1864.

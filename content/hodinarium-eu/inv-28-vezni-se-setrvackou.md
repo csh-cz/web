@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.523Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -24,16 +24,8 @@ karta:
     - { label: "Poznámka", value: "Praha Kunratice" }
 ---
 
-## Stub karty
+Věžní hodinový stroj je zajímavé konstrukce. Hlavní soukolí je poháněno pérem, uloženým ve velkém pérovníku. Chod stroje je řízen setrvačkou, která dostává popudnou sílu od pomocného perka. Každou minutu kolečko, řízené setrvačkou, zvedne západku, která uvolní kolo se čtyřmi zářezy, tím se rozeběhne hlavní soukolí a rafije se posunou o jednu minutu. Rychlost chodu je regulována větrníkem, poháněným šnekovým převodem. Pomocné kolečko se natočí o čtvrtinu obvodu, západka zapadne a stroj se na další minutu zastaví. Během otáčení kolečka se dotáhne perko pro pohon setrvačky.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
+Pérovník je natahován elektromotorem, jehož zapínání a vypínání je řízeno vačkou. Na ose vačky jsou dvě osmicípé hvězdice, ovládané palci. Jeden palec je na ozubeném kole nátahu a jím natáčená hvězdice ovládá vypínání motoru, druhý palec je na pérovníku a ovládá hvězdici zapínání motoru.
 
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
-
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Na rámu je štítek se jménem výrobce : J. Spáčil Samotišky.

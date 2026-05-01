@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.527Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -20,18 +20,12 @@ karta:
   stav: "funkční"
   extra:
     - { label: "Poznámka", value: "kostel sv. Filipa a Jakuba ve Viničnom" }
+  rokVyroby: "2009"
+  adaptaceProVystavu: "K cimbálu bylo doplněno odbíjecí zařízení Elektročas s ovládáním, které přes WiFi získává informaci o přesném čase."
 ---
 
-## Stub karty
+Z  kostela sv. Filipa a Jakuba ve Viničnom na Slovensku byl zakoupen cimbál. Jedná o cimbál z roku 2009 od Albína Iváka, má asi 35 kg a tón e2. Na jedné straně je reliéf tváře Krista, z druhé strany pak signatura firmy s letopočtem.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
+K cimbálu bylo doplněno odbíjecí zařízení Elektročas s ovládáním, které přes WiFi získává informaci o přesném čase.
 
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
-
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Alternativně je cimbál připojen na odbíjecí zařízení od firmy Kavalír, u kterého je možné programově nastavit dobu odbíjení i intervaly mezi jednotlivými údery.

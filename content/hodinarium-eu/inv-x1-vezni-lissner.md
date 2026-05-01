@@ -1,21 +1,23 @@
 ---
-title: "[K doplnění] Hotelový budík modrý (inv. x4)"
-slug: "inv-x4-hotelovy-budik-modry"
+title: "[K doplnění] Věžní Lissner (inv. x1)"
+slug: "inv-x1-vezni-lissner"
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T04:12:37.544Z"
+scrapedAt: "2026-05-01T15:16:06.961Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
-  - rohova-vitrina-vedlejsi
-  - budik
+  - hlavni-sal
+  - vezni
+  - funkcni
 karta:
-  inventarniCislo: "x4"
-  umisteni: "Rohová vitrína (Sál elektro)"
+  inventarniCislo: "x1"
+  umisteni: "Hlavní sál"
   majitel: "Baudisch"
+  stav: "funkční"
 ---
 
 ## Stub karty

@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.520Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -19,18 +19,18 @@ karta:
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+  biciStroje: "hodinové"
+  kyvadlo: "~90 cm"
+  adaptaceProVystavu: "Kola jsou železná, s výjimkou nepůvodního mosazného krokového kola a mezikola čtvrťového bití."
+  darceZapujcitel: "Litoměřické diecéze"
 ---
 
-## Stub karty
+Tento barokní kovaný čtvrťový stroj pochází snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách. Malé rozměry stroje postačovaly pro pohon jednoho ciferníku.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
+Stroj byl stavěn nejméně ve dvou etapách a následně opravován. První etapa vzniku stroje může být z první půlky 18. století, nelze vyloučit ani přelom 17. a 18. století. V rámu byl původně pouze jicí stroj a stroj odbíjení celých hodin. Svislé pásnice jsou kovářsky zdobeny v horní části dvojicí záseků. Později byl rám viditelně nastaven a mezi stávající stroje byl vložen nový čtvrťový stroj. Časově rozdílné etapy se projevují i odlišným  provedením hřídelí. Starší hřídele jsou zdobnější, kované do zápustky. Na páce závěrky celého bití je vidět její prodloužení. O přestavbě svědčí i svislá pásnice bicího stroje s původními ozdobnými záseky, která je sice nově obroušena (???) a nasazena z vnější strany nastaveného rámu záseky dovnitř místo vnitřního původního uložení. Rovněž na pásnici jicího stroje najdeme původní otvory pro hřídele stroje bicího. Na celém rámu jsou další otvory a zářezy od zatím neznámých mechanismů.  Starší spoje jsou klínové, novější spoje jsou šroubové. Ty však patří asi až ke 3. etapě přestavby.
 
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
+Kola jsou železná, s výjimkou nepůvodního mosazného krokového kola a mezikola čtvrťového bití. Na obou bicích strojích jsou dodatečně namontovány novodobé mosazné větrníky. Pastorek bití celých hodin je vyměněn. Zuby zejména pastorků jsou značně opotřebovány. Bicí páky chybějí, nezachovalo se ani kyvadlo. Podle počtu zubů jicího stroje lze odhadovat, že kyvadlo bylo cca 90 cm dlouhé.
 
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Zapůjčeno z majetku
+
+Litoměřické diecéze

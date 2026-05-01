@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.522Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -21,18 +21,16 @@ karta:
   majitel: "Spolek"
   vztahKeSbirce: "koupě"
   stav: "funkční"
+  ram: "kovaný"
+  krokJicihoStroje: "Grahamův krok"
+  adaptaceProVystavu: "Stroj má Grahamův krok, řízený nepůvodním kyvadlem, které bylo zhotoveno pro účely předvedení funkce."
+  puvodniUmisteni:
+    typObjektu: "zámek"
+    obec: "Kladně"
 ---
 
-## Stub karty
+Hodiny jsou prací hodináře, zřejmě seznámeného s výrobky pražského hodináře Londenspergera. Podle způsobu zpracování lze odhadovat dobu vzniku na první polovinu 19. století. Kovaný rám je spojován klínky, rovněž i spoje pák a hřídelí. Některé detaily jsou podobné, jako na hodinách Michaela Christa.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
+Stroj se skládá ze tří  částí, jednu tvoří jicí stroj v prostředku rámu, po stranách je stroj čtvrťového bití a odbíjení celých hodin. Stroj má Grahamův krok, řízený nepůvodním kyvadlem, které bylo zhotoveno pro účely předvedení funkce. Původní kyvadlo měří 2,7m. K hodinám se též zachovala původní závaží, která nejsou osazena.
 
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
-
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Hodiny údajně pocházejí ze zámku v Kladně.

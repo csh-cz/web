@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.523Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -23,18 +23,12 @@ karta:
   stav: "funkční"
   extra:
     - { label: "Poznámka", value: "kostel Jílové" }
+  rokVyroby: "1859"
+  krokJicihoStroje: "kotvový krok"
 ---
 
-## Stub karty
+Hodiny pocházejí z kostela Nejsvětější Trojice. Kostel má pohnutou historii : v roce 1859 vyhořel po zásahu moždíře při oslavách na zámku. Majitel panství hrabě Thun zafinancoval stavbu nového kostela, takže již za rok se v něm mohly konat bohoslužby.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
+Způsob stavby stroje a především tvar kotvy hodně připomíná hodiny z dílny Ferdinanda Londenspergera. Hodiny obdobného typu jsou i v kostele v Horní Polici.
 
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
-
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Stroj věžních hodin má rám složený ze železných kovaných pásů, spojených železnými maticemi. Je složen ze tří funkčních celků : soukolí hodinového, bití čtvrtí a celých hodin. Má vratný kotvový krok, původně řízený 2,8 m dlouhým kyvadlem s plechovou čočkou. Stroj byl poháněn těžkými závažími, vyrobenými z upravených pískovcových sloupců. Závěsná lana se navíjela na bubny, vyrobené ze dřeva. Na stroji nebyla nalezena žádná signatura výrobce, pouze na jednom kovaném dílu byla vyražena značka H. Hodiny zaujmou svou velikostí : jejich šířka je 160 cm.

@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.522Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -26,34 +26,9 @@ karta:
   ram: "litinový"
   krokJicihoStroje: "Grahamův krok"
   biciStroje: "čtvrťové"
+  rokVyroby: "1839"
 ---
 
-![](/img/decin/Kohlert_Kraslice/f/foto_0001.jpg)
+Hodinář Josef Kohlert se narodil v Kraslicích roku 1839. Navázal na hodinářskou tradici v obci, vyučil se hodinářem (roku 1865 je uváděn v matrice s tímto povoláním) a roku 1873 založil hodinářskou firmu. Vyráběl kvalitní stroje, na kterých je patrna pečlivost zpracování i snaha o vylepšení konstrukce. Zemřel v Hranicích na Moravě roku 1890 a je pohřben v Kraslicích, kde ho připomíná opuštěný a povalený náhrobní kámen. Vystavený stroj pochází z dílny nástupců ve firmě.
 
-![](/img/decin/Kohlert_Kraslice/f/foto_0002.jpg)
-
-![](/img/decin/Kohlert_Kraslice/f/foto_0003.jpg)
-
-![](/img/decin/Kohlert_Kraslice/f/foto_0004.jpg)
-
-![](/img/decin/Kohlert_Kraslice/f/foto_0005.jpg)
-
-![](/img/decin/Kohlert_Kraslice/f/foto_0006.jpg)
-
-*Fotky byly auto-detekovány z `/img/decin/Kohlert_Kraslice/f/` na základě názvu exponátu. **Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.***
-
-* * *
-
-## Stub karty
-
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
-
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
-
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Hodinový stroj je uložen v litinovém rámu. Grahamův krok je řízen kyvadlem, zavěšeným na ocelové planžetě. Téměř dvoumetrová kyvadlová tyč je dřevěná, na konci osazená těžkou litinovou čočkou. Bití je čtvrťové, stroj odbíjí jednotlivé čtvrtě, v celou hodinu se spustí odbíjení příslušného počtu úderů pro danou hodinu. Plynulost bití regulují dva plechové větrníky. Energii dodávají tři těžká závaží. Ke stroji náležejí i rozvody a původní rafije. Rám stroje nese štítek Jos. Kohlert´s Nachfolger Graslitz i/B.

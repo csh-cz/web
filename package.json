@@ -21,6 +21,7 @@
     "sbirka:relate": "tsx scripts/backfill-related-karty.ts",
     "popisy:parse": "tsx scripts/parse-popisy-stroju.ts",
     "popisy:apply": "tsx scripts/apply-popisy-to-karty.ts",
+    "renumber": "tsx scripts/migrate-renumbering.ts",
     "clanky:extract": "tsx scripts/extract-from-articles.ts",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",

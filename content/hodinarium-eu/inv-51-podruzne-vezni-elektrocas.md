@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.526Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -23,26 +23,4 @@ karta:
   stav: "funkční"
 ---
 
-![](/img/decin/ElektrocasVK1/foto_0001.jpg)
-
-![](/img/decin/ElektrocasVK1/foto_0002.jpg)
-
-![](/img/decin/ElektrocasVK1/foto_0003.jpg)
-
-*Fotky byly auto-detekovány z `/img/decin/ElektrocasVK1/` na základě názvu exponátu. **Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.***
-
-* * *
-
-## Stub karty
-
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
-
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
-
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Miniaturní stroj věžních hodin (hmotnost pouhých 18 kg) je výrobkem firmy Elektročas. Je řízen polarizovanými impulzy 24V od matičních hodin. Tyto impulzy přijímá běžný podružný strojek, který pootáčí diferenciálním soukolím, a tím je vyslán impulz pro elektromotor, ovládající rafije. Na každé straně soukolí je kolo s výřezem, takže pokud přicházejí jen řídící impulzy, kola se proti sobě pootočí a palec, který do výřezů zapadal, se nadzvedne. Tím se sepne kontakt pro motor, který po obnovení přívodu el. proudu natočí rafije do správné polohy. Po natočení rafijí na správný čas se kola postaví proti sobě výřezy, do nichž palec zapadne a obvod se přeruší. Tento mechanismus dovede eliminovat až dvanáctihodinový výpadek napájení motorku.

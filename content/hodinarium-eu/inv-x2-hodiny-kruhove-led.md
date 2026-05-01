@@ -1,6 +1,6 @@
 ---
-title: "[K doplnění] Hotelový budík velký (inv. x6)"
-slug: "inv-x6-hotelovy-budik-velky"
+title: "[K doplnění] Hodiny kruhové LED (inv. x1)"
+slug: "inv-x2-hodiny-kruhove-led"
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
@@ -10,12 +10,15 @@ scrapedAt: "2026-04-30T04:12:37.544Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
-  - rohova-vitrina-vedlejsi
-  - budik
+  - vitrina-4-vedlejsi
+  - funkcni
 karta:
-  inventarniCislo: "x6"
-  umisteni: "Rohová vitrína (Sál elektro)"
-  majitel: "Baudisch"
+  inventarniCislo: "x2"
+  umisteni: "Vitrína 4 (Sál elektro)"
+  pridanoDoSbirky: "2025"
+  majitel: "Král"
+  vztahKeSbirce: "zápůjčka"
+  stav: "funkční"
 ---
 
 ## Stub karty

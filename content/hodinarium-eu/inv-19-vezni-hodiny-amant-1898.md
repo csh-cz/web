@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.522Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -22,18 +22,10 @@ karta:
   majitel: "Spolek"
   vztahKeSbirce: "koupě"
   stav: "funkční"
+  rokVyroby: "1898"
+  adaptaceProVystavu: "Ve stroji chybělo krokové kolo a kyvadlo s paletami, což bylo doplněno při opravě."
 ---
 
-## Stub karty
+Hodinový stroj je uložen v kovaných pásnicích, které jsou uchyceny v rohových odlévaných sloupcích. Svislé pásnice s ložisky pro kola jsou zdobeny prořezáváním. Chod jicího stroje je řízen Amantovým krokem. Ve stroji chybělo krokové kolo a kyvadlo s paletami, což bylo doplněno při opravě. Přesnost chodu je možno sledovat na kontrolním ciferníku. Obě bicí soukolí mají méně používanou konstrukci se šnekem. Toto řešení je úsporné, potřebuje pouze hnací buben a šnek s větrníkem, v provozu je obtížněji seříditelné a je náročnější na údržbu. Odbíjení čtvrtí je řešeno různě dlouhými kolíky na hnacím bubnu. Buben čtvrťového bicího stroje je osazen krátkými a dlouhými kolíčky v pořadí: K-K-D-K-D-D-K-D-D-D (celkem deset), ovládajícími  páku bití, zároveň nahrazujícími závěrkové kolo. Po kolíčcích pojíždějí dvě lyžiny vedle sebe různé délky. Souhrou kolíčků a lyžin je určen počet úderů v dané čtvrthodině.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
-
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
-
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Stroj je uložen na původním rámu, na kterém se zachoval letopočet 1898.

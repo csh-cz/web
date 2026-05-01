@@ -1,6 +1,6 @@
 ---
-title: "[K doplnění] Docházkové hodiny Timometer (inv. x8)"
-slug: "inv-x8-dochazkove-hodiny-timometer"
+title: "[K doplnění] Vodní hodiny čínské (inv. x5)"
+slug: "inv-x6-vodni-hodiny-cinske"
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
@@ -11,14 +11,11 @@ manualEdit: false
 author: "Český spolek horologický"
 tags:
   - rohova-vitrina-vedlejsi
-  - funkcni
+  - vodni
 karta:
-  inventarniCislo: "x8"
+  inventarniCislo: "x6"
   umisteni: "Rohová vitrína (Sál elektro)"
-  pridanoDoSbirky: "2025"
-  majitel: "Kouba"
-  vztahKeSbirce: "zápůjčka"
-  stav: "funkční"
+  majitel: "Král"
 ---
 
 ## Stub karty

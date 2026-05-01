@@ -1,6 +1,6 @@
 ---
-title: "[K doplnění] Volně (inv. x7)"
-slug: "inv-x7-volne"
+title: "[K doplnění] Hotelový budík modrý (inv. x4)"
+slug: "inv-x5-hotelovy-budik-modry"
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
@@ -11,9 +11,11 @@ manualEdit: false
 author: "Český spolek horologický"
 tags:
   - rohova-vitrina-vedlejsi
+  - budik
 karta:
-  inventarniCislo: "x7"
+  inventarniCislo: "x5"
   umisteni: "Rohová vitrína (Sál elektro)"
+  majitel: "Baudisch"
 ---
 
 ## Stub karty

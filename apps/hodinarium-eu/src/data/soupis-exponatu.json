@@ -1068,7 +1068,7 @@
     "poznamka": "",
     "lokace": "hlavni-sal",
     "lokaceHuman": "Hlavní sál",
-    "sekceCislo": 67,
+    "sekceCislo": 68,
     "mistnost": "hlavni"
   },
   {
@@ -2108,7 +2108,7 @@
     "poznamka": "",
     "lokace": "panel-5",
     "lokaceHuman": "Panel 5",
-    "sekceCislo": null,
+    "sekceCislo": 13,
     "mistnost": "hlavni"
   },
   {
@@ -2124,7 +2124,7 @@
     "poznamka": "",
     "lokace": "panel-5",
     "lokaceHuman": "Panel 5",
-    "sekceCislo": 13,
+    "sekceCislo": 14,
     "mistnost": "hlavni"
   },
   {
@@ -2140,7 +2140,7 @@
     "poznamka": "",
     "lokace": "panel-5",
     "lokaceHuman": "Panel 5",
-    "sekceCislo": 14,
+    "sekceCislo": 15,
     "mistnost": "hlavni"
   },
   {
@@ -2156,7 +2156,7 @@
     "poznamka": "",
     "lokace": "panel-5",
     "lokaceHuman": "Panel 5",
-    "sekceCislo": 15,
+    "sekceCislo": 16,
     "mistnost": "hlavni"
   },
   {
@@ -3820,7 +3820,7 @@
     "poznamka": "",
     "lokace": "vitrina-4-vedlejsi",
     "lokaceHuman": "Vitrína 4 (Sál elektro)",
-    "sekceCislo": null,
+    "sekceCislo": 7,
     "mistnost": "vedlejsi"
   },
   {
@@ -3836,7 +3836,7 @@
     "poznamka": "",
     "lokace": "vitrina-4-vedlejsi",
     "lokaceHuman": "Vitrína 4 (Sál elektro)",
-    "sekceCislo": null,
+    "sekceCislo": 8,
     "mistnost": "vedlejsi"
   },
   {
@@ -3852,7 +3852,7 @@
     "poznamka": "",
     "lokace": "vitrina-4-vedlejsi",
     "lokaceHuman": "Vitrína 4 (Sál elektro)",
-    "sekceCislo": null,
+    "sekceCislo": 9,
     "mistnost": "vedlejsi"
   },
   {
@@ -3922,7 +3922,7 @@
   {
     "invCislo": "251",
     "invCisloNumeric": 251,
-    "popis": "Staroměstská věž",
+    "popis": "Čínský budík",
     "typ": "",
     "vyrobce": "",
     "rok": "",
@@ -4412,7 +4412,7 @@
     "poznamka": "",
     "lokace": "rohova-vitrina-vedlejsi",
     "lokaceHuman": "Rohová vitrína (Sál elektro)",
-    "sekceCislo": 29,
+    "sekceCislo": 30,
     "mistnost": "vedlejsi"
   },
   {
@@ -4428,27 +4428,59 @@
     "poznamka": "Spilka",
     "lokace": "rohova-vitrina-vedlejsi",
     "lokaceHuman": "Rohová vitrína (Sál elektro)",
-    "sekceCislo": null,
+    "sekceCislo": 31,
     "mistnost": "vedlejsi"
   },
   {
     "invCislo": "x1",
     "invCisloNumeric": null,
-    "popis": "Hodiny kruhové LED",
+    "popis": "Věžní Lissner",
     "typ": "",
     "vyrobce": "",
-    "rok": "2025",
-    "majitel": "Král",
+    "rok": "",
+    "majitel": "Baudisch",
     "stav": "funkční",
-    "vztah": "zápůjčka",
+    "vztah": "",
     "poznamka": "",
-    "lokace": "vitrina-4-vedlejsi",
-    "lokaceHuman": "Vitrína 4 (Sál elektro)",
-    "sekceCislo": 7,
-    "mistnost": "vedlejsi"
+    "lokace": "hlavni-sal",
+    "lokaceHuman": "Hlavní sál",
+    "sekceCislo": 67,
+    "mistnost": "hlavni"
   },
   {
     "invCislo": "x10",
+    "invCisloNumeric": null,
+    "popis": "Docházkové hodiny Timometer",
+    "typ": "",
+    "vyrobce": "",
+    "rok": "2025",
+    "majitel": "Kouba",
+    "stav": "funkční",
+    "vztah": "zápůjčka",
+    "poznamka": "",
+    "lokace": "rohova-vitrina-vedlejsi",
+    "lokaceHuman": "Rohová vitrína (Sál elektro)",
+    "sekceCislo": 32,
+    "mistnost": "vedlejsi"
+  },
+  {
+    "invCislo": "x11",
+    "invCisloNumeric": null,
+    "popis": "Hodiny Praotron velké",
+    "typ": "",
+    "vyrobce": "",
+    "rok": "2026",
+    "majitel": "Kavalír",
+    "stav": "funkční",
+    "vztah": "zápůjčka",
+    "poznamka": "",
+    "lokace": "rohova-vitrina-vedlejsi",
+    "lokaceHuman": "Rohová vitrína (Sál elektro)",
+    "sekceCislo": 33,
+    "mistnost": "vedlejsi"
+  },
+  {
+    "invCislo": "x12",
     "invCisloNumeric": null,
     "popis": "Diferenciální relé VUS",
     "typ": "",
@@ -4466,6 +4498,22 @@
   {
     "invCislo": "x2",
     "invCisloNumeric": null,
+    "popis": "Hodiny kruhové LED",
+    "typ": "",
+    "vyrobce": "",
+    "rok": "2025",
+    "majitel": "Král",
+    "stav": "funkční",
+    "vztah": "zápůjčka",
+    "poznamka": "",
+    "lokace": "vitrina-4-vedlejsi",
+    "lokaceHuman": "Vitrína 4 (Sál elektro)",
+    "sekceCislo": 10,
+    "mistnost": "vedlejsi"
+  },
+  {
+    "invCislo": "x3",
+    "invCisloNumeric": null,
     "popis": "Hodiny digitron",
     "typ": "",
     "vyrobce": "",
@@ -4476,11 +4524,11 @@
     "poznamka": "",
     "lokace": "vitrina-4-vedlejsi",
     "lokaceHuman": "Vitrína 4 (Sál elektro)",
-    "sekceCislo": 8,
+    "sekceCislo": 11,
     "mistnost": "vedlejsi"
   },
   {
-    "invCislo": "x3",
+    "invCislo": "x4",
     "invCisloNumeric": null,
     "popis": "Astronomicé hodiny",
     "typ": "",
@@ -4492,11 +4540,11 @@
     "poznamka": "",
     "lokace": "vitrina-4-vedlejsi",
     "lokaceHuman": "Vitrína 4 (Sál elektro)",
-    "sekceCislo": 9,
+    "sekceCislo": 12,
     "mistnost": "vedlejsi"
   },
   {
-    "invCislo": "x4",
+    "invCislo": "x5",
     "invCisloNumeric": null,
     "popis": "Hotelový budík modrý",
     "typ": "",
@@ -4512,7 +4560,7 @@
     "mistnost": "vedlejsi"
   },
   {
-    "invCislo": "x5",
+    "invCislo": "x6",
     "invCisloNumeric": null,
     "popis": "Vodní hodiny čínské",
     "typ": "",
@@ -4528,7 +4576,7 @@
     "mistnost": "vedlejsi"
   },
   {
-    "invCislo": "x6",
+    "invCislo": "x7",
     "invCisloNumeric": null,
     "popis": "Hotelový budík velký",
     "typ": "",
@@ -4544,7 +4592,7 @@
     "mistnost": "vedlejsi"
   },
   {
-    "invCislo": "x7",
+    "invCislo": "x8",
     "invCisloNumeric": null,
     "popis": "Volně",
     "typ": "",
@@ -4560,35 +4608,19 @@
     "mistnost": "vedlejsi"
   },
   {
-    "invCislo": "x8",
-    "invCisloNumeric": null,
-    "popis": "Docházkové hodiny Timometer",
-    "typ": "",
-    "vyrobce": "",
-    "rok": "2025",
-    "majitel": "Kouba",
-    "stav": "funkční",
-    "vztah": "zápůjčka",
-    "poznamka": "",
-    "lokace": "rohova-vitrina-vedlejsi",
-    "lokaceHuman": "Rohová vitrína (Sál elektro)",
-    "sekceCislo": 30,
-    "mistnost": "vedlejsi"
-  },
-  {
     "invCislo": "x9",
     "invCisloNumeric": null,
-    "popis": "Hodiny Praotron velké",
+    "popis": "Tellurium",
     "typ": "",
     "vyrobce": "",
-    "rok": "2026",
-    "majitel": "Kavalír",
+    "rok": "",
+    "majitel": "Klikar",
     "stav": "funkční",
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "rohova-vitrina-vedlejsi",
     "lokaceHuman": "Rohová vitrína (Sál elektro)",
-    "sekceCislo": 31,
+    "sekceCislo": 29,
     "mistnost": "vedlejsi"
   }
 ]

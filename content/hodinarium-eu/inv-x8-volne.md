@@ -1,6 +1,6 @@
 ---
-title: "[K doplnění] Hodiny digitron (inv. x2)"
-slug: "inv-x2-hodiny-digitron"
+title: "[K doplnění] Volně (inv. x7)"
+slug: "inv-x8-volne"
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
@@ -10,15 +10,10 @@ scrapedAt: "2026-04-30T04:12:37.544Z"
 manualEdit: false
 author: "Český spolek horologický"
 tags:
-  - vitrina-4-vedlejsi
-  - funkcni
+  - rohova-vitrina-vedlejsi
 karta:
-  inventarniCislo: "x2"
-  umisteni: "Vitrína 4 (Sál elektro)"
-  pridanoDoSbirky: "2025"
-  majitel: "Král"
-  vztahKeSbirce: "zápůjčka"
-  stav: "funkční"
+  inventarniCislo: "x8"
+  umisteni: "Rohová vitrína (Sál elektro)"
 ---
 
 ## Stub karty

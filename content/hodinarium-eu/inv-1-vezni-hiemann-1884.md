@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.518Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -27,18 +27,14 @@ karta:
   extra:
     - { label: "Poznámka", value: "kostel Podmokly" }
   krokJicihoStroje: "vřetenový krok"
+  rokVyroby: "1884"
+  adaptaceProVystavu: "Stroj sloužil až do osmdesátých let minulého století, kdy byl pro časté poruchy odstaven a nahrazen strojem moderním, elektronicky řízeným."
 ---
 
-## Stub karty
+Hodiny zakoupeny v roce 1884 od firmy Julius Hiemann v Lipsku pro evangelický kostel v Děčíně – Podmoklech. Stroj sloužil až do osmdesátých let minulého století, kdy byl pro časté poruchy odstaven a nahrazen strojem moderním, elektronicky řízeným.
 
-Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:
+K hodinám se dochovaly dvě zajímavé zprávy, jedna pochází od studentů Jiřího Payna a Miroslava Čaška, kteří v létě roku 1977 stroj opravovali. Druhou sepsal tehdejší pražský orlojník pan Zámečník, který posuzoval stav hodin a doporučil jejich výměnu.
 
-- `karta.datace` — širší období, pokud rok výroby není přesně doložen
-- `karta.signatura` — text signatury výrobce
-- `karta.puvodniUmisteni` — kostel / radnice / továrna kde byl stroj původně
-- `karta.ram`, `karta.krokJicihoStroje`, `karta.biciStroje`, `karta.rozmery`, `karta.kyvadlo`, `karta.ciselnik`, `karta.pohon` — konstrukční detaily
-- `karta.darceZapujcitel` — pokud nás stroj dosáhl přes jinou osobu/instituci než majitele
-- `karta.restaurovani` — kdy a kdo restauroval
-- `karta.adaptaceProVystavu` — co bylo upraveno pro expozici
+Nepotřebný stroj byl zakoupen soukromým sběratelem, opraven a restaurován. Pro ukázkový chod v expozici byl doplněn nepůvodními cimbály a závažími.
 
-Po vyplnění odstraňte tuto poznámku a změňte `manualEdit: true` v frontmatteru.
+Hodinový stroj je uložen v litinovém rámu. Grahamův krok je řízen kyvadlem, zavěšeným na ocelové planžetě. Téměř dvoumetrová kyvadlová tyč je dřevěná, na konci osazená těžkou litinovou čočkou. Bití je čtvrťové, stroj odbíjí jednotlivé čtvrtě, v celou hodinu se spustí odbíjení příslušného počtu úderů pro danou hodinu. Plynulost bití regulují dva plechové větrníky. Energii dodávají tři těžká závaží.
