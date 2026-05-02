@@ -15,5 +15,32 @@
       drží GitHub PAT bota cshbot.
     -->
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+    <script>
+      // Po načtení Sveltia auto-klik „Sign In with GitHub" — aby editor
+      // (Petr / Baudisch) neviděl login screen vůbec. Worker /auth endpoint
+      // se zachová jako OAuth proxy, ale tichý (CF Access JWT → token).
+      (function autoLogin() {
+        var attempts = 0;
+        var maxAttempts = 40;  // ~10 s
+        var timer = setInterval(function () {
+          attempts++;
+          if (attempts > maxAttempts) {
+            clearInterval(timer);
+            return;
+          }
+          // Hledej tlačítko „Sign In with GitHub" — Sveltia render
+          var buttons = document.querySelectorAll('button');
+          for (var i = 0; i < buttons.length; i++) {
+            var b = buttons[i];
+            var text = (b.textContent || '').toLowerCase();
+            if (text.indexOf('sign in with github') >= 0 || text.indexOf('sign in') >= 0 && text.indexOf('github') >= 0) {
+              b.click();
+              clearInterval(timer);
+              return;
+            }
+          }
+        }, 250);
+      })();
+    </script>
   </body>
 </html>
