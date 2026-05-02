@@ -27,8 +27,6 @@ site_url: 'https://hodinarium-eu.pages.dev'
 display_url: 'https://hodinarium-eu.pages.dev'
 logo_url: '/img/logo-csh.png'
 
-locale: 'cs'
-
 # === Společné typy referencí (žijí v references[] napříč collections) ===
 # YAML anchor pro znovupoužití
 _reference_fields: &reference_fields
