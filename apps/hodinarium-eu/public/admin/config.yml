@@ -13,8 +13,7 @@ backend:
   repo: csh-cz/web
   branch: main
   # Worker proxy URL — nahradí api.github.com, vyřízne PAT bota.
-  # Po deployi nahradit: api_root: 'https://csh-cms-proxy.<account>.workers.dev'
-  api_root: 'https://csh-cms-proxy.example.workers.dev'
+  api_root: 'https://csh-cms-proxy.david-knespl.workers.dev'
 
 # Editorial workflow: direct push (Save = commit do main = za 90s live).
 # PR-based workflow by editory zatahoval do GitHub UI, čemuž se vyhýbáme.
