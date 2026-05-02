@@ -1,14 +1,17 @@
 ---
-title: "POZVÁNKA PRO PETRA VOKA Z ROŽMBERKA (a ne jen pro něj)"
-slug: "rozmberk1"
-date: "2014-06-01"
+title: Pozvánka pro Petra Voka z Rožmberka (a ne jen pro něj)
+slug: rozmberk1
+date: 2014-06-01
 rok: 2014
 typ: jine
-originalUrl: "https://hodinarium.eu/rozmberk1.htm"
-lastModified: "Sun, 23 Apr 2017 15:45:00 GMT"
-sourceCharset: "windows-1250"
-scrapedAt: "2026-04-27T17:36:35.941Z"
+misto: ''
+author: ''
+originalUrl: https://hodinarium.eu/rozmberk1.htm
+lastModified: Sun, 23 Apr 2017 15:45:00 GMT
+sourceCharset: windows-1250
+scrapedAt: 2026-04-27T17:36:35.941Z
 ---
+
 (a ne jen pro něj)
 
 **V** souvislosti s letošním „Rožmberským rokem“, který v roce 2011 probíhá v celých jižních Čechách, nás zajímalo, zda by exponáty Věžního muzejíčka v Soběslavi mohly vzbudit pozornost **Petra Voka z Rožmberka**.
@@ -19,4 +22,4 @@ scrapedAt: "2026-04-27T17:36:35.941Z"
 
 **Z**dá se tedy, že by Věžní muzejíčko mělo co nabídnout i Petru Vokovi, pokud by je navštíviti ráčil. I vy budete mít možnost přesvědčit se, co pro Vás Věžní muzejíčko v nadcházející sezóně připravilo. Kromě již známé expozice, jejímž základem je restaurovaný stroj věžních hodin se základem z 15. století uvidíte ...... Ale to se přijďte podívat sami. Věžní muzejíčko bude otevřeno v červenci a v srpnu.
 
-Podrobnější článek **[PETR VOK Z ROŽMBERKA – MECENÁŠ A SBĚRATEL](/clanky/rozmberk2)**
+Podrobnější článek [**PETR VOK Z ROŽMBERKA – MECENÁŠ A SBĚRATEL**](/clanky/rozmberk2)
