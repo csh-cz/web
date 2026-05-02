@@ -65,21 +65,18 @@ function getEditorEmail(req: Request): string | null {
  *   committer: bot
  *   author:    bot
  */
-async function rewriteRestCommitBody(
-  req: Request,
+function rewriteRestCommitBody(
+  method: string,
+  pathname: string,
+  bodyText: string,
   editorEmail: string | null,
   env: Env,
-): Promise<BodyInit | null> {
-  if (req.method !== 'PUT') return null;
-  const url = new URL(req.url);
-  if (!/^(?:\/api\/v3)?\/repos\/[^/]+\/[^/]+\/contents\//.test(url.pathname)) return null;
+): string | null {
+  if (method !== 'PUT') return null;
+  if (!/^(?:\/api\/v3)?\/repos\/[^/]+\/[^/]+\/contents\//.test(pathname)) return null;
 
   let payload: Record<string, unknown>;
-  try {
-    payload = await req.clone().json() as Record<string, unknown>;
-  } catch {
-    return null;
-  }
+  try { payload = JSON.parse(bodyText); } catch { return null; }
 
   const original = (payload.message as string) ?? 'Edit';
   const tag = editorEmail ? ` [editor: ${editorEmail}]` : ' [editor: anonymous]';
@@ -94,23 +91,18 @@ async function rewriteRestCommitBody(
  * Pro GraphQL `createCommitOnBranch` mutation přepíše ve `variables.input.message.headline`
  * editor suffix. GitHub GraphQL committer/author jsou auto-derivované z PAT tokena
  * (= cshbot), takže nemusíme přepisovat. Audit trail editora jde do message.
- *
- * Sveltia commits přes tento mechanismus (ne přes REST /contents/).
  */
-async function rewriteGraphqlCommitBody(
-  req: Request,
+function rewriteGraphqlCommitBody(
+  method: string,
+  pathname: string,
+  bodyText: string,
   editorEmail: string | null,
-): Promise<BodyInit | null> {
-  if (req.method !== 'POST') return null;
-  const url = new URL(req.url);
-  if (!/^(?:\/api)?\/graphql$/.test(url.pathname)) return null;
+): string | null {
+  if (method !== 'POST') return null;
+  if (!/^(?:\/api)?\/graphql$/.test(pathname)) return null;
 
   let payload: Record<string, unknown>;
-  try {
-    payload = await req.clone().json() as Record<string, unknown>;
-  } catch {
-    return null;
-  }
+  try { payload = JSON.parse(bodyText); } catch { return null; }
   const query = (payload.query as string) ?? '';
   if (!query.includes('createCommitOnBranch')) return null;
 
@@ -178,20 +170,25 @@ export default {
     headers.set('Accept', headers.get('Accept') ?? 'application/vnd.github+json');
     headers.delete('Host');
 
-    // Optionally rewrite commit body — REST nebo GraphQL.
-    let body: BodyInit | null | undefined = req.body;
-    const rest = await rewriteRestCommitBody(req, editorEmail, env);
-    if (rest !== null) {
-      body = rest;
-    } else {
-      const gql = await rewriteGraphqlCommitBody(req, editorEmail);
-      if (gql !== null) body = gql;
+    // Read body once (pokud má request body), rewrite REST nebo GraphQL commit.
+    // Drop Content-Length aby fetch ho znovu vypočítal (rewrite mění délku).
+    let body: BodyInit | null | undefined = undefined;
+    if (req.method !== 'GET' && req.method !== 'HEAD') {
+      const bodyText = await req.text();
+      body = bodyText;
+      const rest = rewriteRestCommitBody(req.method, url.pathname, bodyText, editorEmail, env);
+      if (rest !== null) body = rest;
+      else {
+        const gql = rewriteGraphqlCommitBody(req.method, url.pathname, bodyText, editorEmail);
+        if (gql !== null) body = gql;
+      }
+      headers.delete('Content-Length');
     }
 
     const upstream = await fetch(target.toString(), {
       method: req.method,
       headers,
-      body: req.method === 'GET' || req.method === 'HEAD' ? undefined : body,
+      body,
       redirect: 'follow',
     });
 
