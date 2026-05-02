@@ -128,11 +128,15 @@ export default {
     }
 
     // Build target GitHub URL.
-    // Sveltia (a Decap CMS) s custom api_root prefixuje /api/v3/...
-    // jako kdyby šlo o GitHub Enterprise. Reálný api.github.com tenhle
-    // prefix nemá → ořízneme.
+    // Sveltia (a Decap CMS) s custom api_root prefixuje:
+    //   /api/v3/...    pro REST API (GitHub Enterprise konvence)
+    //   /api/graphql   pro GraphQL API
+    // Reálný api.github.com REST nemá /api/v3 a GraphQL je na /graphql.
+    // Strip "/api/v3" i "/api" prefix → mapping na api.github.com paths.
     const target = new URL(GITHUB_API);
-    target.pathname = url.pathname.replace(/^\/api\/v3/, '');
+    target.pathname = url.pathname
+      .replace(/^\/api\/v3/, '')        // REST: /api/v3/repos/... → /repos/...
+      .replace(/^\/api\/graphql/, '/graphql');  // GraphQL: /api/graphql → /graphql
     target.search = url.search;
 
     // Rewrite headers
