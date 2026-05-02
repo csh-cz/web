@@ -280,3 +280,30 @@ collections:
         required: false
         fields: *reference_fields
       - { name: body, label: 'Plný text medailonu', widget: markdown, required: false, hint: 'MDX — můžeš použít komponenty jako <Photo>.' }
+
+  # ── 5) Spolkové stránky (horologie-cz) ──
+  # Statické stránky webu Českého spolku horologického — kontakt, novinky,
+  # spolek, stanovy, zápisy, usnesení. Nikoli Akce (žijí v src/data/akce.ts
+  # — vyžaduje migraci na content collection v separátní session).
+  - name: horologie-clanky
+    label: 'Spolek (horologie-cz)'
+    label_singular: 'Spolková stránka'
+    folder: 'content/horologie-cz'
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    delete: false
+    slug: '{{slug}}'
+    identifier_field: title
+    summary: '{{title}}'
+    fields:
+      - { name: title, label: 'Nadpis', widget: string, required: true }
+      - { name: slug, label: 'Slug (URL část)', widget: string, required: true }
+      - { name: category, label: 'Kategorie (volitelná)', widget: string, required: false }
+      - { name: manualEdit, label: 'Manual edit flag', widget: boolean, required: false, default: true }
+      # Hidden — pro legacy import compatibility
+      - { name: originalUrl, label: 'Original URL', widget: hidden }
+      - { name: lastModified, label: 'Last modified', widget: hidden }
+      - { name: sourceCharset, label: 'Source charset', widget: hidden, default: 'utf-8' }
+      - { name: scrapedAt, label: 'Scraped at', widget: hidden }
+      - { name: body, label: 'Tělo stránky', widget: markdown }
