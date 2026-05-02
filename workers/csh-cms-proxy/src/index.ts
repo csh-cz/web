@@ -73,7 +73,8 @@ async function rewriteCommitBody(
 ): Promise<BodyInit | null> {
   if (req.method !== 'PUT') return null;
   const url = new URL(req.url);
-  if (!/\/repos\/[^/]+\/[^/]+\/contents\//.test(url.pathname)) return null;
+  // Path může být buď /repos/... (přímé) nebo /api/v3/repos/... (Enterprise-style)
+  if (!/^(?:\/api\/v3)?\/repos\/[^/]+\/[^/]+\/contents\//.test(url.pathname)) return null;
 
   let payload: Record<string, unknown>;
   try {
@@ -126,9 +127,12 @@ export default {
       // return new Response('Unauthorized — CF Access required', { status: 401, headers: cors });
     }
 
-    // Build target GitHub URL
+    // Build target GitHub URL.
+    // Sveltia (a Decap CMS) s custom api_root prefixuje /api/v3/...
+    // jako kdyby šlo o GitHub Enterprise. Reálný api.github.com tenhle
+    // prefix nemá → ořízneme.
     const target = new URL(GITHUB_API);
-    target.pathname = url.pathname;
+    target.pathname = url.pathname.replace(/^\/api\/v3/, '');
     target.search = url.search;
 
     // Rewrite headers
