@@ -1,7 +1,7 @@
 # csh-cms-proxy — Cloudflare Worker pro Sveltia CMS
 
 Proxy mezi `/admin/` editorem (Sveltia CMS) a GitHub API. Drží PAT bota
-`csh-cz-bot`, takže editoři (Petr a kolegové) commitují, aniž by měli
+`cshbot`, takže editoři (Petr a kolegové) commitují, aniž by měli
 GitHub účet — vidí jen Google login do Cloudflare Access.
 
 ## Jak to funguje
@@ -31,9 +31,9 @@ editora se **navíc** objeví v commit message v gitu (audit trail).
 
 ## Setup — manuální kroky
 
-### 1. Vytvořit bot account `csh-cz-bot`
+### 1. Vytvořit bot account `cshbot`
 
-1. Vytvoř nový GitHub účet (čistý, jen pro bot operace) — `csh-cz-bot@orloj.eu`
+1. Vytvoř nový GitHub účet (čistý, jen pro bot operace) — `cshbot@orloj.eu`
    nebo podobně. Doporučení: **použít alias** na existujícím spolkovém mailu,
    ne nový account na osobní mail.
 2. Pozvat ho do `csh-cz` org jako collaborator s `Write` access na `csh-cz/web`.
@@ -99,7 +99,7 @@ Commit, push, CF Pages deploy.
 3. Po přesměru se objeví Sveltia CMS UI s 4 collections.
 4. Otevři libovolný článek, změň drobnost (např. tldr), Save.
 5. Ověř commit v `csh-cz/web` na `main`:
-   - Author: `csh-cz-bot`
+   - Author: `cshbot`
    - Message: `Update content/... [editor: tvůj@email]`
 6. Po ~90 s ověř, že CF Pages deployla a článek je live.
 

@@ -1,7 +1,7 @@
 # Sveltia CMS — konfigurace editoru pro Hodinárium.
 #
 # Auth gating: Cloudflare Access (Google OAuth) chrání /admin/* PŘED touto stránkou.
-# Commit identity: csh-cz-bot (přes csh-cms-proxy Worker s GitHub PAT).
+# Commit identity: cshbot (přes csh-cms-proxy Worker s GitHub PAT).
 # Frontmatter `author:` field drží reálnou identitu editora (vyplňuje sám).
 #
 # Schema mirror obsahových polí z apps/hodinarium-eu/src/content.config.ts.

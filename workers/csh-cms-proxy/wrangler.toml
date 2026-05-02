@@ -3,7 +3,7 @@ main = "src/index.ts"
 compatibility_date = "2026-01-01"
 
 # Secrets (nastavit přes `wrangler secret put`):
-#   GITHUB_BOT_PAT       — fine-grained PAT csh-cz-bot s contents:write na csh-cz/web
+#   GITHUB_BOT_PAT       — fine-grained PAT cshbot s contents:write na csh-cz/web
 #   ALLOWED_ORIGINS      — JSON array povolených origins (CMS UI), např.
 #                          ["https://hodinarium-eu.pages.dev","https://hodinarium.eu"]
 #
@@ -11,5 +11,5 @@ compatibility_date = "2026-01-01"
 [vars]
 GITHUB_REPO = "csh-cz/web"
 GITHUB_DEFAULT_BRANCH = "main"
-BOT_AUTHOR_NAME = "csh-cz-bot"
-BOT_AUTHOR_EMAIL = "csh-cz-bot@users.noreply.github.com"
+BOT_AUTHOR_NAME = "cshbot"
+BOT_AUTHOR_EMAIL = "cshbot@users.noreply.github.com"

@@ -29,7 +29,7 @@ Pole **„Autor článku"** vyplň svým jménem (např. „Petr Král"). Web ho
 zobrazí v patičce článku jako „P. Král". **Není to GitHub login** — píšeš
 sem prostě své jméno tak, jak ho chceš mít publikované.
 
-Commit do gitu se vždy odešle pod identitou `csh-cz-bot` — v gitu pak
+Commit do gitu se vždy odešle pod identitou `cshbot` — v gitu pak
 v commit message vidíme i tvůj email pro audit. Editoři git vůbec
 nemusí znát.
 
