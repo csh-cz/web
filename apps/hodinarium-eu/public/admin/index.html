@@ -14,26 +14,52 @@
       Skutečné committy do GitHubu jdou přes csh-cms-proxy Worker, který
       drží GitHub PAT bota cshbot.
     -->
-    <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
     <script>
-      // Po načtení Sveltia auto-klik „Sign In with GitHub" — aby editor
-      // (Petr / Baudisch) neviděl login screen vůbec. Worker /auth endpoint
-      // se zachová jako OAuth proxy, ale tichý (CF Access JWT → token).
-      (function autoLogin() {
-        var attempts = 0;
-        var maxAttempts = 40;  // ~10 s
-        var timer = setInterval(function () {
-          attempts++;
-          if (attempts > maxAttempts) {
-            clearInterval(timer);
-            return;
+      // Pre-populate Sveltia auth state z CF Access identity → editor neuvidí
+      // Sveltia login screen vůbec, jen CF Access (Google/FB/OTP).
+      // Worker /api/auth/user vrací editora podle Cf-Access-Authenticated-User-Email.
+      // Token v storage je placeholder; Worker ho v API requestech přepíše na bot PAT.
+      (async function () {
+        const WORKER = 'https://csh-cms-proxy.david-knespl.workers.dev';
+        try {
+          const r = await fetch(WORKER + '/api/auth/user', { credentials: 'include' });
+          if (!r.ok) throw new Error('auth/user ' + r.status);
+          const u = await r.json();
+          if (!u.authenticated || !u.email) throw new Error('not authenticated');
+          // Sveltia/Decap kompatibilní user objekt
+          const user = {
+            backendName: 'github',
+            token: 'cf-access:' + u.email,  // placeholder, Worker ho přepíše
+            login: u.login || u.email.split('@')[0],
+            name: u.email.split('@')[0],
+            email: u.email,
+            avatar_url: '',
+          };
+          // Zkus všechny známé klíče (Sveltia + Decap fallback)
+          for (const key of ['sveltia-cms.user', 'decap-cms.user', 'netlify-cms-user']) {
+            localStorage.setItem(key, JSON.stringify(user));
           }
-          // Hledej tlačítko „Sign In with GitHub" — Sveltia render
-          var buttons = document.querySelectorAll('button');
-          for (var i = 0; i < buttons.length; i++) {
-            var b = buttons[i];
-            var text = (b.textContent || '').toLowerCase();
-            if (text.indexOf('sign in with github') >= 0 || text.indexOf('sign in') >= 0 && text.indexOf('github') >= 0) {
+          // IndexedDB Sveltia má vlastní session storage — nelze pre-populate
+          // bez deeper integrace. Fallback: pokud Sveltia stejně ukáže login,
+          // auto-klikne na první GitHub button (níž v poll).
+        } catch (e) {
+          console.warn('CMS auto-login: fetch user failed:', e);
+        }
+
+        // Načti Sveltia až po pre-populate
+        const s = document.createElement('script');
+        s.src = 'https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js';
+        document.head.appendChild(s);
+
+        // Pojistka: pokud i s pre-populate Sveltia ukáže login screen
+        // (např. session v IndexedDB chybí), auto-klikni "Sign In with GitHub".
+        let attempts = 0;
+        const timer = setInterval(() => {
+          if (++attempts > 40) return clearInterval(timer);
+          const btns = document.querySelectorAll('button');
+          for (const b of btns) {
+            const t = (b.textContent || '').toLowerCase();
+            if (t.includes('github') && t.includes('sign in')) {
               b.click();
               clearInterval(timer);
               return;
