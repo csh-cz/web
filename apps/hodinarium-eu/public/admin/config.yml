@@ -14,10 +14,11 @@ backend:
   branch: main
   # Worker proxy URL — nahradí api.github.com, vyřízne PAT bota.
   api_root: 'https://csh-cms-proxy.david-knespl.workers.dev'
-  # Auth endpoint — Sveltia popup hit Worker /auth, který ověří CF Access
-  # a postMessage zpět token. Žádný GitHub OAuth, žádný PAT prompt pro editora.
+  # Auth backend — Sveltia popup hit Worker /auth (default Sveltia path),
+  # který ověří CF Access JWT a postMessage zpět placeholder token.
+  # Worker ho na všech API requestech přepíše na bot PAT.
+  # Žádný GitHub OAuth, žádný PAT prompt pro editora.
   base_url: 'https://csh-cms-proxy.david-knespl.workers.dev'
-  auth_endpoint: 'auth'
 
 # Editorial workflow: direct push (Save = commit do main = za 90s live).
 # PR-based workflow by editory zatahoval do GitHub UI, čemuž se vyhýbáme.
