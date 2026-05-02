@@ -60,20 +60,18 @@ function getEditorEmail(req: Request): string | null {
 }
 
 /**
- * Pro `PUT /repos/.../contents/<path>` (= commit) přepíše v body fieldy
- *   message: připojí editorovo `[editor: foo@bar]`
+ * Pro REST `PUT /repos/.../contents/<path>` přepíše:
+ *   message:   připojí `[editor: foo@bar]`
  *   committer: bot
- *   author: bot
- * Tím commitne bot, ale audit trail vidí editora.
+ *   author:    bot
  */
-async function rewriteCommitBody(
+async function rewriteRestCommitBody(
   req: Request,
   editorEmail: string | null,
   env: Env,
 ): Promise<BodyInit | null> {
   if (req.method !== 'PUT') return null;
   const url = new URL(req.url);
-  // Path může být buď /repos/... (přímé) nebo /api/v3/repos/... (Enterprise-style)
   if (!/^(?:\/api\/v3)?\/repos\/[^/]+\/[^/]+\/contents\//.test(url.pathname)) return null;
 
   let payload: Record<string, unknown>;
@@ -89,6 +87,39 @@ async function rewriteCommitBody(
   payload.committer = { name: env.BOT_AUTHOR_NAME, email: env.BOT_AUTHOR_EMAIL };
   payload.author = { name: env.BOT_AUTHOR_NAME, email: env.BOT_AUTHOR_EMAIL };
 
+  return JSON.stringify(payload);
+}
+
+/**
+ * Pro GraphQL `createCommitOnBranch` mutation přepíše ve `variables.input.message.headline`
+ * editor suffix. GitHub GraphQL committer/author jsou auto-derivované z PAT tokena
+ * (= cshbot), takže nemusíme přepisovat. Audit trail editora jde do message.
+ *
+ * Sveltia commits přes tento mechanismus (ne přes REST /contents/).
+ */
+async function rewriteGraphqlCommitBody(
+  req: Request,
+  editorEmail: string | null,
+): Promise<BodyInit | null> {
+  if (req.method !== 'POST') return null;
+  const url = new URL(req.url);
+  if (!/^(?:\/api)?\/graphql$/.test(url.pathname)) return null;
+
+  let payload: Record<string, unknown>;
+  try {
+    payload = await req.clone().json() as Record<string, unknown>;
+  } catch {
+    return null;
+  }
+  const query = (payload.query as string) ?? '';
+  if (!query.includes('createCommitOnBranch')) return null;
+
+  const tag = editorEmail ? ` [editor: ${editorEmail}]` : ' [editor: anonymous]';
+  const variables = payload.variables as { input?: { message?: { headline?: string; body?: string } } } | undefined;
+  const headline = variables?.input?.message?.headline;
+  if (typeof headline === 'string' && !headline.endsWith(tag)) {
+    variables!.input!.message!.headline = `${headline}${tag}`;
+  }
   return JSON.stringify(payload);
 }
 
@@ -147,10 +178,15 @@ export default {
     headers.set('Accept', headers.get('Accept') ?? 'application/vnd.github+json');
     headers.delete('Host');
 
-    // Optionally rewrite commit body
+    // Optionally rewrite commit body — REST nebo GraphQL.
     let body: BodyInit | null | undefined = req.body;
-    const rewritten = await rewriteCommitBody(req, editorEmail, env);
-    if (rewritten !== null) body = rewritten;
+    const rest = await rewriteRestCommitBody(req, editorEmail, env);
+    if (rest !== null) {
+      body = rest;
+    } else {
+      const gql = await rewriteGraphqlCommitBody(req, editorEmail);
+      if (gql !== null) body = gql;
+    }
 
     const upstream = await fetch(target.toString(), {
       method: req.method,
