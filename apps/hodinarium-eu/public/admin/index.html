@@ -52,20 +52,52 @@
         document.head.appendChild(s);
 
         // Pojistka: pokud i s pre-populate Sveltia ukáže login screen
-        // (např. session v IndexedDB chybí), auto-klikni "Sign In with GitHub".
+        // (Sveltia ukládá session v IndexedDB, ne localStorage → pre-populate
+        // localStorage Sveltia ignoruje a vždy ukáže "Sign in with GitHub" /
+        // "Sign in with Token" buttony). Auto-klikni GitHub button.
         let attempts = 0;
+        let clicked = false;
         const timer = setInterval(() => {
-          if (++attempts > 40) return clearInterval(timer);
-          const btns = document.querySelectorAll('button');
-          for (const b of btns) {
-            const t = (b.textContent || '').toLowerCase();
-            if (t.includes('github') && t.includes('sign in')) {
+          if (++attempts > 80) {  // 80 × 250ms = 20s
+            clearInterval(timer);
+            if (!clicked) console.warn('CMS auto-login: GitHub button nenalezen za 20s');
+            return;
+          }
+          // Match širší pattern — Sveltia button může být <button>Sign in with GitHub</button>,
+          // <button><svg/>GitHub</button>, "Continue with GitHub", apod.
+          // Hledáme button (nebo element role=button) co obsahuje "github" v textu.
+          const candidates = document.querySelectorAll('button, [role=button], a');
+          for (const b of candidates) {
+            const t = (b.textContent || '').toLowerCase().trim();
+            if (!t) continue;
+            // Vyloučit "Sign in with Token" / "Personal access token" / "PAT".
+            if (t.includes('token') || t.includes('pat')) continue;
+            if (t.includes('github')) {
+              console.log('CMS auto-login: klikám na', JSON.stringify(t.slice(0, 60)));
               b.click();
+              clicked = true;
               clearInterval(timer);
               return;
             }
           }
         }, 250);
+
+        // Po 6s pokud Sveltia stále ukazuje login screen (clicked=false),
+        // zobraz user-visible nápovědu nad UI s ručním tlačítkem.
+        setTimeout(() => {
+          if (clicked) return;
+          const buttons = Array.from(document.querySelectorAll('button')).filter(
+            (b) => /github|sign in/i.test(b.textContent || ''),
+          );
+          if (buttons.length === 0) return;
+          const banner = document.createElement('div');
+          banner.style.cssText =
+            'position:fixed;top:0;left:0;right:0;background:#fff3cd;border-bottom:1px solid #ffeaa7;padding:.75rem 1rem;font:14px system-ui;z-index:99999;text-align:center';
+          banner.innerHTML =
+            '<strong>CMS přihlášení:</strong> klikni dole <em>"Sign in with GitHub"</em>. ' +
+            'CF Access OTP už máš platný, popup projde bez druhého kódu.';
+          document.body.appendChild(banner);
+        }, 6000);
       })();
     </script>
   </body>

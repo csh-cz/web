@@ -141,66 +141,92 @@ export default {
       }), { headers: { ...cors, 'Content-Type': 'application/json' } });
     }
 
-    // Auth endpoint pro Sveltia/Decap auth_endpoint flow.
-    // Sveltia otevře popup na <api_root>/auth?provider=github&site_id=...
-    // Worker tady ověří CF Access (přes Cf-Access-Authenticated-User-Email
-    // header — vyžaduje CF Access policy na Worker URL!) a vrátí HTML
-    // s postMessage zpátky do opener okna s tokenem. Sveltia ho přijme a
-    // uloží jako session — žádný GitHub OAuth dance, žádný PAT prompt.
+    // Auth flow pro Sveltia CMS (a Decap kompatibilně).
     //
-    // Token je placeholder — Worker ho na všech API requestech přepíše na
-    // bot PAT. Editor token nikdy neuvidí.
-    if (url.pathname === '/auth' || url.pathname === '/auth/') {
+    // Sveltia client volá popup na <base_url>/auth (nebo /oauth/authorize).
+    // Standardní flow by redirectoval na github.com/login/oauth/authorize,
+    // pak callback exchange-uje code za token. NÁŠ flow tohle obchází —
+    // identitu už máme z CF Access JWT, takže rovnou vrátíme HTML
+    // s postMessage handshake co Sveltia očekává (Sveltia listener v
+    // sveltia-cms-auth source: poslouchá `authorizing:github` z popup,
+    // odpoví echo, popup pak posílá `authorization:github:success:<json>`
+    // s konkrétním origin — ne wildcard).
+    //
+    // Token v message je placeholder `cf-access:<email>` — Worker ho na
+    // všech API requestech přepíše na bot PAT. Editor token nikdy nevidí
+    // a Sveltia ho jen relays do Authorization headeru.
+    //
+    // Aliasy: /auth, /oauth/authorize (Sveltia variants — viz
+    // sveltia-cms-auth/src/index.js handleAuth path matching).
+    // Také /callback a /oauth/redirect — no-op alias, vrátí stejný
+    // postMessage flow (kdyby Sveltia z nějakého důvodu volala callback).
+    const isAuthPath =
+      url.pathname === '/auth' ||
+      url.pathname === '/auth/' ||
+      url.pathname === '/oauth/authorize' ||
+      url.pathname === '/oauth/authorize/';
+    const isCallbackPath =
+      url.pathname === '/callback' ||
+      url.pathname === '/callback/' ||
+      url.pathname === '/oauth/redirect' ||
+      url.pathname === '/oauth/redirect/';
+
+    if (isAuthPath || isCallbackPath) {
       const editorEmail = getEditorEmail(req);
       if (!editorEmail) {
-        // Bez CF Access JWT odmítnout — buď CF Access není zapnutý na Workeru,
-        // nebo session vypršela. Editor uvidí chybu, ne tichou anonymizaci.
         return new Response(
           '<!doctype html><meta charset="utf-8"><title>Auth chyba</title>' +
           '<body style="font-family:sans-serif;padding:2rem">' +
           '<h1>Přihlášení selhalo</h1>' +
-          '<p>Worker nedostal CF Access JWT. Zkontroluj že je nasazena ' +
-          'Cloudflare Access Application na <code>csh-cms-proxy.<i>account</i>.workers.dev</code> ' +
-          'se stejnou allow-list policy jako pro <code>/admin/*</code>.</p>' +
-          '<p>Po nastavení zavři toto okno a zkus přihlášení znovu.</p>' +
-          '</body>',
+          '<p>Worker nedostal <code>Cf-Access-Authenticated-User-Email</code> header. ' +
+          'Cloudflare Access Application <strong>Hodinárium CMS API</strong> možná ' +
+          'nepokrývá tuto cestu, nebo session vypršela.</p>' +
+          '<p>Zavři toto okno a zkus přihlášení znovu.</p></body>',
           { status: 401, headers: { ...cors, 'Content-Type': 'text/html; charset=utf-8' } },
         );
       }
 
-      // Editor je authenticated. Pošli token zpět do Sveltia popup.opener.
-      // Format: 'authorization:<provider>:success:<json>' — kompatibilita
-      // s Decap CMS / Netlify Identity widgetem.
       const provider = url.searchParams.get('provider') ?? 'github';
-      const tokenPayload = {
-        token: `cf-access:${editorEmail}`,  // placeholder; Worker ho v API requestech přepíše na bot PAT
+      // Sveltia očekává JSON.stringify(content) jednou — kontent je objekt,
+      // viz outputHTML() v sveltia-cms-auth.
+      const content = {
         provider,
+        token: `cf-access:${editorEmail}`,
       };
-      const html = `<!doctype html><meta charset="utf-8"><title>Přihlašuji…</title>
+      // JSON.stringify s replace " za \" pro safe embed do JS string literalu
+      // uvnitř single-quoted výrazu.
+      const contentJson = JSON.stringify(content).replace(/"/g, '\\"');
+      const html = `<!doctype html><html><head><meta charset="utf-8"><title>Přihlašuji…</title></head>
 <body style="font-family:sans-serif;padding:2rem">
   <p>Přihlašuji <strong>${editorEmail}</strong> do CMS…</p>
   <script>
     (function () {
-      function send() {
+      var provider = ${JSON.stringify(provider)};
+      var content = ${JSON.stringify(content)};
+      var msg = 'authorization:' + provider + ':success:' + JSON.stringify(content);
+      function sendTo(targetOrigin) {
         if (!window.opener) {
-          document.body.innerHTML = '<p>Přihlášení proběhlo, ale chybí opener okno. Zavři tohle a zkus znovu.</p>';
+          document.body.innerHTML = '<p>Opener okno chybí. Zavři tohle a zkus znovu.</p>';
           return;
         }
-        window.opener.postMessage(
-          'authorization:${provider}:success:' + ${JSON.stringify(JSON.stringify(tokenPayload))},
-          '*'
-        );
-        setTimeout(function () { window.close(); }, 200);
+        try { window.opener.postMessage(msg, targetOrigin); } catch (e) {}
       }
-      // Decap waits for "authorizing:<provider>" handshake from opener first.
+      // Sveltia handshake: čekej až opener pošle 'authorizing:<provider>',
+      // odpověz se zachyceným origin (per sveltia-cms-auth pattern).
       window.addEventListener('message', function (e) {
-        if (typeof e.data === 'string' && e.data === 'authorizing:${provider}') send();
+        if (typeof e.data === 'string' && e.data === 'authorizing:' + provider) {
+          sendTo(e.origin);
+          setTimeout(function () { window.close(); }, 300);
+        }
       });
-      // Také poslat hned (Sveltia / novější Decap rovnou poslouchá).
-      send();
+      // Iniciuj handshake — popup pošle 'authorizing:<provider>' do opener,
+      // pak Sveltia odpoví echo, my zachytíme origin a odpovíme tokenem.
+      try { window.opener && window.opener.postMessage('authorizing:' + provider, '*'); } catch (e) {}
+      // Fallback po 2s pokud handshake neprošel — pošli rovnou s '*'.
+      setTimeout(function () { sendTo('*'); setTimeout(function () { window.close(); }, 300); }, 2000);
     })();
   </script>
-</body>`;
+</body></html>`;
       return new Response(html, {
         status: 200,
         headers: { ...cors, 'Content-Type': 'text/html; charset=utf-8' },
