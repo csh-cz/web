@@ -1,14 +1,17 @@
 ---
-title: "PETR VOK Z ROŽMBERKA – MECENÁŠ A SBĚRATEL"
-slug: "rozmberk2"
-date: "2014-06-15"
+title: Petr  Vok z Rožmberka – Mecenáš a sběratel
+slug: rozmberk2
+date: 2014-06-15
 rok: 2014
 typ: historie-spolku
-originalUrl: "https://hodinarium.eu/rozmberk2.htm"
-lastModified: "Sun, 23 Apr 2017 15:46:00 GMT"
-sourceCharset: "windows-1250"
-scrapedAt: "2026-04-27T17:36:36.236Z"
+misto: ''
+author: ''
+originalUrl: https://hodinarium.eu/rozmberk2.htm
+lastModified: Sun, 23 Apr 2017 15:46:00 GMT
+sourceCharset: windows-1250
+scrapedAt: 2026-04-27T17:36:36.236Z
 ---
+
 – MECENÁŠ A SBĚRATEL
 
 **Petr Vok z Rožmberka** byl opravdu renesančním člověkem, který dokázal ocenit požitky těla i ducha. Zároveň žil na přelomu epoch (renesance a baroka), v době náboženských rozporů a s vědomím, že je posledním představitelem mocného rodu. Snad proto kladl takový důraz na zachování svědectví o historii vlastního rodu. Na jeho popud začal roku 1602 Václav Březan pracovat na pětidílné Historii rožmberské (z ní se však zachovaly pouze poslední dva díly věnované Vilémovi a Petru Vokovi). Snad proto toužil proniknout do tajemství podstaty světa a shromažďoval výsledky lidského poznání vědeckého i doklady uměleckého zachycení různých stránek života.
@@ -19,7 +22,7 @@ scrapedAt: "2026-04-27T17:36:36.236Z"
 
 ## **Určování směru větrů**
 
-17\. julii v těch časů pan Petr Vok z Rožmberka s paní manželku svou ráčil býti v Markrabství moravským v městě svým Lipníku. Navrátiv se na Bechyni, dal připraviti nástroje, skrze kteréž mohl v pokoji svým poznati, kdy který vítr vál. K tomu potřebován Pavel, hodinář z města Litomyšle, a Matouš Ornys, maléř z Prahy.(str.479) Z této poznámky vidíme, že znalosti a dovednosti hodinářů byly skutečně různorodé.
+17. julii v těch časů pan Petr Vok z Rožmberka s paní manželku svou ráčil býti v Markrabství moravským v městě svým Lipníku. Navrátiv se na Bechyni, dal připraviti nástroje, skrze kteréž mohl v pokoji svým poznati, kdy který vítr vál. K tomu potřebován Pavel, hodinář z města Litomyšle, a Matouš Ornys, maléř z Prahy.(str.479) Z této poznámky vidíme, že znalosti a dovednosti hodinářů byly skutečně různorodé.
 
 V Bechyni Petr Vok věnoval pozornost i věžním hodinám. Václav Březan zaznamenal tuto událost z roku 1584:
 
@@ -38,9 +41,7 @@ V Bechyni Petr Vok věnoval pozornost i věžním hodinám. Václav Březan zazn
 ## Použitá literatura.
 
 -   Pánek, Jaroslav: Poslední Rožmberkové, velmoži české renesance,
-    1\. vydání Panorama, Praha 1989
-
+    1. vydání Panorama, Praha 1989
 -   Svobodová, Anežka: Petr Vok, 1. Vydání, Melantrich, Praha 1985
-
 -   Václav Březan: Životy posledních Rožmberků II., nakl. Svoboda, Praha 1985,
     k vydání připravil J.Pánek
