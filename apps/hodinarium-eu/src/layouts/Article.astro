@@ -59,6 +59,13 @@ interface Props {
 }
 const { title, description, lastModified, tldr, category, slug, ogImageOverride, author, references, referenceStyle = 'bullet', karta } = Astro.props;
 
+// CMS edit URL — Sveltia routy: /admin/#/collections/<col>/entries/<file_id>.
+// Karty (podsekce: 'karta') jdou do collection 'karty', zbytek do 'clanky'.
+// File ID = slug (bez .md extension). Pro karty je to 'inv-NNN-<slug>'.
+const cmsEditUrl = slug
+  ? `/admin/#/collections/${karta ? 'karty' : 'clanky'}/entries/${slug}`
+  : undefined;
+
 /**
  * Formát autora pro byline: "Petr Král" → "P. Král",
  * "Ing. Petr Král" → "P. Král" (titly se zahodí),
@@ -152,7 +159,7 @@ const articleJsonLd = {
   },
 };
 ---
-<Base title={title} description={description} ogImageOverride={ogImageOverride}>
+<Base title={title} description={description} ogImageOverride={ogImageOverride} cmsEditUrl={cmsEditUrl}>
   <JsonLd data={articleJsonLd} />
   <!-- Breadcrumbs -->
   <nav class="breadcrumbs" aria-label="Drobečková navigace">

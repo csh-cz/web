@@ -102,6 +102,7 @@ const personJsonLd = hodinar.typ === 'osoba'
 <Base
   title={`${hodinar.jmeno} — hodinář`}
   description={hodinar.shrnuti}
+  cmsEditUrl={`/admin/#/collections/hodinari/entries/${hodinar.slug}`}
 >
   <JsonLd data={personJsonLd} />
   <nav class="breadcrumbs" aria-label="Drobečková navigace">

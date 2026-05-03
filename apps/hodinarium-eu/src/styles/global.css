@@ -607,6 +607,69 @@ summary::-webkit-details-marker { display: none; }
   color: var(--color-text-muted);
 }
 
+/* CMS admin avatar v navu — kruhová iniciála editora.
+   Skryté server-side (li.hidden), JS hydrace odkryje pokud je editor přihlášen
+   přes CF Access. */
+.admin-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.95rem;
+  height: 1.95rem;
+  border-radius: 50%;
+  background: var(--color-brass);
+  color: var(--color-bg);
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  border: 1px solid color-mix(in srgb, var(--color-brass-bright) 50%, transparent);
+  transition: all 150ms ease;
+  cursor: pointer;
+  border-bottom: none !important;  /* override globální `a` styling */
+}
+.admin-avatar:hover {
+  background: var(--color-brass-bright);
+  transform: scale(1.05);
+}
+
+/* Floating "Upravit v CMS" tlačítko na detail stránkách (článek/karta/medailon).
+   Fixní pravý dolní roh, mírné odhlučnění aby nerušilo čtení. */
+.cms-edit-fab {
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  z-index: 50;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  background: var(--color-brass);
+  color: var(--color-bg);
+  text-decoration: none !important;
+  border: 1px solid var(--color-brass-bright);
+  border-radius: 2rem;
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  opacity: 0.85;
+  transition: all 200ms ease;
+  border-bottom: none !important;
+}
+.cms-edit-fab:hover {
+  background: var(--color-brass-bright);
+  opacity: 1;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+.cms-edit-fab svg {
+  flex-shrink: 0;
+}
+@media print {
+  .cms-edit-fab, #admin-badge-slot { display: none !important; }
+}
+
 /* Hamburger menu rozbalovací box */
 .mobile-menu {
   background: var(--color-bg-elevated);
