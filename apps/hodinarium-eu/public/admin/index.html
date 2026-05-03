@@ -26,31 +26,43 @@
     -->
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
     <script>
-      // Banner s nápovědou — informuje editora že má kliknout ručně.
-      // CF Access auth_domain sdílí session, takže popup neptá na druhý OTP.
+      // Banner s nápovědou — zobrazí se POUZE na úvodní Sveltia login obrazovce
+      // (= když je v DOM viditelné tlačítko "Sign in with GitHub"). Po kliku
+      // na něj nebo po načtení editoru (tlačítko zmizí) se banner skryje,
+      // aby nezakrýval UI editoru.
       (function () {
         const banner = document.createElement('div');
         banner.id = 'cms-helper-banner';
         banner.style.cssText =
-          'position:fixed;top:0;left:0;right:0;background:#fff3cd;border-bottom:1px solid #ffeaa7;padding:.6rem 1rem;font:14px/1.4 system-ui;z-index:99999;text-align:center;color:#664d03';
+          'position:fixed;top:0;left:0;right:0;background:#fff3cd;border-bottom:1px solid #ffeaa7;padding:.6rem 1rem;font:14px/1.4 system-ui;z-index:99999;text-align:center;color:#664d03;display:none';
         banner.innerHTML =
           '<strong>Přihlášení do CMS:</strong> klikni dole <em>"Sign in with GitHub"</em>. ' +
-          'Otevře se okno přihlášení Cloudflare Access — tvoje OTP session už platí, ' +
-          'takže se to přihlásí samo a okno se zavře.';
+          'Otevře se okno Cloudflare Access — pokud máš platnou session, projde tichém.';
         document.body.appendChild(banner);
 
-        // Po kliknutí na GitHub button skryj banner — popup se otevírá.
-        document.addEventListener('click', function (e) {
-          const t = e.target;
-          if (!t || !t.closest) return;
-          const btn = t.closest('button, [role=button], a');
-          if (!btn) return;
-          const text = (btn.textContent || '').toLowerCase();
-          if (text.includes('github') && !text.includes('token') && !text.includes('pat')) {
-            const b = document.getElementById('cms-helper-banner');
-            if (b) b.remove();
+        function hasGitHubLoginButton() {
+          const candidates = document.querySelectorAll('button, [role=button], a');
+          for (const b of candidates) {
+            const t = (b.textContent || '').toLowerCase().trim();
+            if (!t) continue;
+            if (t.includes('token') || t.includes('pat')) continue;
+            if (t.includes('sign in') && t.includes('github')) return true;
           }
-        }, true);
+          return false;
+        }
+
+        function update() {
+          banner.style.display = hasGitHubLoginButton() ? 'block' : 'none';
+        }
+
+        // Initial check + polluj DOM změny (Sveltia mountuje async).
+        update();
+        const obs = new MutationObserver(update);
+        obs.observe(document.body, { childList: true, subtree: true });
+
+        // Bezpečnostní timeout: po 60 s observer odpojit (úspora CPU
+        // — editor je už dávno mountnutý, login button se nevrátí).
+        setTimeout(() => obs.disconnect(), 60000);
       })();
     </script>
   </body>
