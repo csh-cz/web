@@ -1,0 +1,430 @@
+---
+import Base from '../layouts/Base.astro';
+
+/**
+ * Pro návštěvníky — praktický průvodce pro lidi, kteří se chystají do
+ * Hodinária v Děčíně. Není to spolková agenda (= horologie-cz/kontakt),
+ * ale "fyzická" stránka: kde jsme, kdy je otevřeno, jak se dostat,
+ * co stojí za to vidět.
+ *
+ * Otvírací hodiny + vstupné držíme synchronizované s programem zámku
+ * Děčín — Hodinárium je součástí jejich programu.
+ *
+ * TODO (doplnit od Petra/Davida):
+ *   - Konkrétní otvírací doba (sezóna, dny v týdnu, hodiny)
+ *   - Vstupné (zdarma / součást vstupenky / vlastní)
+ *   - Rezervace skupinových prohlídek (kontakt, lead time)
+ *   - Konkrétní místnost na zámku (číslo trasy, název)
+ */
+
+const ADRESA = {
+  jmeno: 'Hodinárium Děčín',
+  ulice: 'Dlouhá jízda 1254',  // TODO ověřit přesnou adresu zámku
+  obec: 'Děčín I-Děčín',
+  psc: '405 02',
+  zeme: 'Česko',
+  lat: 50.7807,
+  lon: 14.2155,
+};
+
+const KONTAKT = {
+  // Spolková kontaktní fronta — koordinaci skupinových prohlídek
+  // řeší Petr Král (předseda spolku) přes obecný email.
+  email: 'info@orloj.eu',
+  telefon: '+420 603 502 735',
+  webZamku: 'https://www.zamekdecin.cz/program/vystava-decinske-hodinarium',
+};
+
+// Plán prohlídky — návštěvník typicky stráví 60–120 min podle hloubky zájmu.
+const SALY = [
+  {
+    nazev: 'Sál Věžní',
+    popis:
+      'Velké věžní stroje od 17. do 20. století — od dřevěných (Kli, Budislav) po litinové. Soustrojí Prokeš 1868 ze Soběslavi, stroj z Děčína (Mellner), vypouštěny stroj. Pro fascinováné technikou.',
+    ikona: '🗼',
+    odhadovanyCas: '30–60 min',
+  },
+  {
+    nazev: 'Sál Elektro',
+    popis:
+      'Elektrické a elektronické hodiny od 1900 dál — síťovky, jednotný čas, NTP server, Lantime. Včetně vlastních DIY konstrukcí spolku (ESP32, Arduino projekty).',
+    ikona: '⚡',
+    odhadovanyCas: '20–40 min',
+  },
+];
+
+// JSON-LD pro lokální SEO (Place + OpeningHoursSpecification, až je doplníme).
+const placeJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Museum',
+  name: ADRESA.jmeno,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: ADRESA.ulice,
+    addressLocality: ADRESA.obec,
+    postalCode: ADRESA.psc,
+    addressCountry: 'CZ',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: ADRESA.lat,
+    longitude: ADRESA.lon,
+  },
+  email: KONTAKT.email,
+  telephone: KONTAKT.telefon,
+  url: KONTAKT.webZamku,
+  description:
+    'Fyzická expozice Českého spolku horologického na zámku Děčín — věžní hodiny, švarcvaldky, elektrické a mechanické hodiny, DIY projekty.',
+};
+---
+<Base
+  title="Pro návštěvníky — Hodinárium Děčín"
+  description="Praktický průvodce pro návštěvu Hodinária na zámku Děčín. Adresa, doprava, plán prohlídky, vstupné. Otevřeno v rámci programu zámku."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(placeJsonLd)} />
+
+  <!-- HERO -->
+  <header class="navsteva-hero">
+    <p class="eyebrow mb-4">Pro návštěvníky</p>
+    <h1 class="navsteva-title">Návštěva Hodinária</h1>
+    <p class="navsteva-lede">
+      Hodinárium najdete na <strong>zámku Děčín</strong> — fyzická expozice
+      Českého spolku horologického otevřená v rámci programu zámku.
+      Dva sály plné věžních strojů, švarcvaldek, elektrických hodin
+      a vlastních DIY konstrukcí spolku.
+    </p>
+  </header>
+
+  <!-- ADRESA + MAPA -->
+  <section class="navsteva-section">
+    <h2>Adresa</h2>
+    <address class="navsteva-adresa">
+      <strong>{ADRESA.jmeno}</strong><br />
+      {ADRESA.ulice}<br />
+      {ADRESA.psc} {ADRESA.obec}<br />
+      {ADRESA.zeme}
+    </address>
+    <p class="navsteva-mapa-link">
+      <a
+        href={`https://mapy.cz/turisticka?source=coor&id=${ADRESA.lon}%2C${ADRESA.lat}`}
+        target="_blank"
+        rel="noopener"
+      >Otevřít v Mapy.cz ↗</a>
+      <span class="navsteva-sep">·</span>
+      <a
+        href={`https://www.google.com/maps?q=${ADRESA.lat},${ADRESA.lon}`}
+        target="_blank"
+        rel="noopener"
+      >Otevřít v Google Maps ↗</a>
+      <span class="navsteva-sep">·</span>
+      <a href="/mapa-horologie">Mapa horologických zajímavostí v ČR</a>
+    </p>
+  </section>
+
+  <!-- OTVÍRACÍ HODINY -->
+  <section class="navsteva-section">
+    <h2>Otvírací hodiny a vstupné</h2>
+    <p>
+      Hodinárium je <strong>součástí programu zámku Děčín</strong>.
+      Aktuální termíny prohlídek a ceny vstupného jsou na stránce zámku:
+    </p>
+    <p>
+      <a class="navsteva-cta" href={KONTAKT.webZamku} target="_blank" rel="noopener">
+        Program a vstupné — zámek Děčín ↗
+      </a>
+    </p>
+    <p class="navsteva-note">
+      Sezóna typicky od jara do podzimu, mimo sezónu po dohodě. Pro skupinové
+      prohlídky (školy, kluby, rodiny) doporučujeme rezervaci předem —
+      kontaktujte nás na <a href={`mailto:${KONTAKT.email}`}>{KONTAKT.email}</a>.
+    </p>
+  </section>
+
+  <!-- PLÁN PROHLÍDKY -->
+  <section class="navsteva-section">
+    <h2>Plán prohlídky</h2>
+    <p>
+      Prohlídka Hodinária zabere <strong>60–120 minut</strong> podle toho,
+      kolik času chcete věnovat detailům. Expozice je rozdělena do dvou sálů:
+    </p>
+    <div class="navsteva-saly">
+      {SALY.map((s) => (
+        <article class="navsteva-sal">
+          <header>
+            <span class="navsteva-sal-ikona" aria-hidden="true">{s.ikona}</span>
+            <h3>{s.nazev}</h3>
+            <p class="navsteva-sal-cas">{s.odhadovanyCas}</p>
+          </header>
+          <p>{s.popis}</p>
+        </article>
+      ))}
+    </div>
+    <p class="navsteva-tip">
+      <strong>Tip:</strong> pokud máte rádi historickou techniku, projděte
+      Sál Věžní pomalu — strojům na sebe často "promluví", bicí systémy
+      odbíjí. Pro zájem o moderní digi a DIY zaměřte více času na Sál Elektro.
+    </p>
+    <p>
+      <a href="/sbirka">Prohlédněte si online katalog sbírky →</a>
+      &nbsp;·&nbsp;
+      <a href="/sbirka/katalog">Atlas evidenčních karet</a>
+    </p>
+  </section>
+
+  <!-- DOPRAVA -->
+  <section class="navsteva-section">
+    <h2>Jak se k nám dostat</h2>
+
+    <article class="navsteva-doprava">
+      <h3>Vlakem</h3>
+      <p>
+        Z Prahy přímý spoj <strong>Praha hl.&nbsp;n. → Děčín hl.&nbsp;n.</strong>
+        (cca 1 h 40 min). Z nádraží k zámku <strong>15 min pěšky</strong>
+        přes náměstí, nebo MHD bus 1 stanice ("Zámek").
+      </p>
+    </article>
+
+    <article class="navsteva-doprava">
+      <h3>Autem</h3>
+      <p>
+        D8 z Prahy směr Drážďany, sjezd Děčín (cca 1 h). U zámku placené
+        parkoviště (zámecká návštěvnická parkovací plocha) nebo v centru města.
+      </p>
+    </article>
+
+    <article class="navsteva-doprava">
+      <h3>MHD a pěšky</h3>
+      <p>
+        Z autobusového nádraží Děčín pěšky 10 min. Bezbariérový přístup
+        do hlavních prostor zámku zajištěn — Hodinárium se nachází
+        v patře, výtah po dohodě.
+      </p>
+    </article>
+  </section>
+
+  <!-- TIPY V OKOLÍ -->
+  <section class="navsteva-section">
+    <h2>V okolí</h2>
+    <p>
+      Pokud jste v Děčíně už, stojí za to navštívit i další horologické
+      zajímavosti regionu:
+    </p>
+    <ul class="navsteva-okoli">
+      <li>
+        <strong>Pražský orloj</strong> — světoznámý orloj, sister projekt spolku,
+        encyklopedie na <a href="https://orloj.eu" target="_blank" rel="noopener">orloj.eu&nbsp;↗</a>
+      </li>
+      <li>
+        <strong>Mindelheim (Bavorsko)</strong> — partnerské muzeum hodin,
+        viz <a href="/muzea">přehled muzeí</a>
+      </li>
+      <li>
+        <strong>Geografická mapa</strong> — orloje, expozice a historické
+        věžní stroje v Česku i ve světě:
+        <a href="/mapa-horologie">interaktivní mapa →</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- KONTAKT CTA -->
+  <section class="navsteva-section navsteva-cta-section">
+    <h2 style="border:none;padding:0;">Otázky před návštěvou?</h2>
+    <p>
+      Pro praktické otázky k návštěvě (otvírací hodiny mimo sezónu,
+      skupinové prohlídky, fotografování) napište nebo zavolejte:
+    </p>
+    <p class="navsteva-contact-list">
+      <a href={`mailto:${KONTAKT.email}`}>{KONTAKT.email}</a>
+      <span class="navsteva-sep">·</span>
+      <a href={`tel:${KONTAKT.telefon.replace(/\s/g, '')}`}>{KONTAKT.telefon}</a>
+    </p>
+    <p class="navsteva-note">
+      Pro spolkové dotazy (členství, sponzoring, partnerství) navštivte
+      přímo web spolku <a href="https://horologie-cz.pages.dev/kontakt" target="_blank" rel="noopener">Český spolek horologický&nbsp;↗</a>.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .navsteva-hero {
+    margin-bottom: 4rem;
+    max-width: 720px;
+  }
+  .navsteva-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1.5rem;
+    line-height: 1.05;
+  }
+  .navsteva-lede {
+    font-size: 1.15rem;
+    color: var(--color-text);
+    line-height: 1.6;
+  }
+
+  .navsteva-section {
+    margin-bottom: 3.5rem;
+    max-width: 760px;
+  }
+  .navsteva-section h2 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(1.5rem, 3.5vw, 2rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+
+  .navsteva-adresa {
+    font-style: normal;
+    background: var(--color-bg-elevated);
+    border-left: 3px solid var(--color-copper);
+    padding: 1rem 1.25rem;
+    line-height: 1.7;
+    margin: 0 0 1rem;
+  }
+  .navsteva-adresa strong {
+    color: var(--color-brass-bright);
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+  }
+  .navsteva-mapa-link {
+    font-size: 0.95rem;
+  }
+  .navsteva-sep {
+    color: var(--color-text-muted);
+    margin: 0 0.4rem;
+  }
+
+  .navsteva-cta {
+    display: inline-block;
+    padding: 0.65rem 1.25rem;
+    background: var(--color-brass);
+    color: var(--color-bg);
+    border: 1px solid var(--color-brass-bright);
+    border-radius: 2px;
+    font-family: var(--font-serif);
+    font-weight: 500;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    transition: all 150ms ease;
+  }
+  .navsteva-cta:hover {
+    background: var(--color-brass-bright);
+    color: var(--color-bg-deep);
+  }
+
+  .navsteva-note {
+    font-size: 0.95rem;
+    color: var(--color-text-soft);
+    line-height: 1.55;
+    padding: 0.85rem 1rem;
+    background: color-mix(in srgb, var(--color-bg-deep) 85%, var(--color-copper));
+    border-left: 3px solid var(--color-copper);
+    border-radius: 2px;
+    margin-top: 1rem;
+  }
+
+  .navsteva-saly {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin: 1.5rem 0 1.5rem;
+  }
+  .navsteva-sal {
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-left: 3px solid var(--color-copper);
+    padding: 1.25rem 1.4rem;
+    border-radius: 2px;
+  }
+  .navsteva-sal header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.6rem;
+  }
+  .navsteva-sal-ikona {
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+  .navsteva-sal h3 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--color-brass-bright);
+    margin: 0;
+    border: none;
+    padding: 0;
+  }
+  .navsteva-sal h3::before { content: none; }
+  .navsteva-sal-cas {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--color-copper);
+    font-style: italic;
+  }
+
+  .navsteva-tip {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--color-text);
+    background: color-mix(in srgb, var(--color-bg-deep) 90%, var(--color-brass));
+    padding: 0.85rem 1rem;
+    border-left: 3px solid var(--color-brass);
+    border-radius: 2px;
+  }
+
+  .navsteva-doprava {
+    margin-bottom: 1.25rem;
+  }
+  .navsteva-doprava h3 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--color-brass);
+    margin: 0 0 0.4rem;
+    border: none;
+    padding: 0;
+  }
+  .navsteva-doprava h3::before { content: none; }
+  .navsteva-doprava p {
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  .navsteva-okoli {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .navsteva-okoli li {
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed color-mix(in srgb, var(--color-brass) 15%, transparent);
+  }
+  .navsteva-okoli li:last-child {
+    border-bottom: none;
+  }
+  .navsteva-okoli strong {
+    color: var(--color-brass-bright);
+  }
+
+  .navsteva-cta-section {
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    padding: 1.75rem 2rem;
+  }
+  .navsteva-contact-list {
+    font-size: 1.05rem;
+    margin: 1rem 0;
+  }
+  .navsteva-contact-list a {
+    color: var(--color-brass-bright);
+    border-bottom: none;
+  }
+</style>
