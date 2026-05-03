@@ -1,34 +1,45 @@
 ---
-title: "věžní Hiemann 1884"
-slug: "inv-1-vezni-hiemann-1884"
-category: "sbirka"
-podsekce: "karta"
-originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
-lastModified: null
-sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T04:12:37.518Z"
-manualEdit: true
-author: "Český spolek horologický"
+title: věžní Hiemann 1884
+slug: inv-1-vezni-hiemann-1884
+category: sbirka
+podsekce: karta
+karta:
+  inventarniCislo: '1'
+  datace: '1884'
+  vyrobce: Hiemann
+  signatura: ''
+  krokJicihoStroje: vřetenový krok
+  kyvadlo: ''
+  ciselnik: ''
+  pohonDetail: ''
+  rozmery: ''
+  umisteni: Sál Věžní
+  majitel: Miroslav Baudisch
+  darceZapujcitel: Miroslav Baudisch
+  vztahKeSbirce: zápůjčka
+  pridanoDoSbirky: 2010
+  stav: funkční
+  puvodniUmisteni:
+    objekt: Evangelický kostel v Děčíně – Podmoklech
+    typObjektu: kostel
+    obec: Děčín, Podmokly
+    detail: ''
+  restaurovani: ''
+  adaptaceProVystavu: ''
+  extra: []
+  rokVyroby: '1884'
 tags:
   - hlavni-sal
   - vezni
   - funkcni
   - krok-graham
   - hiemann
-karta:
-  inventarniCislo: "1"
-  umisteni: "Hlavní sál"
-  datace: "1884"
-  vyrobce: "Hiemann"
-  pridanoDoSbirky: "2010"
-  majitel: "Baudisch"
-  vztahKeSbirce: "zápůjčka"
-  stav: "funkční"
-  extra:
-    - { label: "Poznámka", value: "kostel Podmokly" }
-  krokJicihoStroje: "vřetenový krok"
-  rokVyroby: "1884"
-  adaptaceProVystavu: "Stroj sloužil až do osmdesátých let minulého století, kdy byl pro časté poruchy odstaven a nahrazen strojem moderním, elektronicky řízeným."
+author: Český spolek horologický
+manualEdit: true
+originalUrl: https://hodinarium-eu.pages.dev/sbirka/katalog
+lastModified: null
+sourceCharset: utf-8
+scrapedAt: 2026-04-30T04:12:37.518Z
 ---
 
 Hodiny zakoupeny v roce 1884 od firmy Julius Hiemann v Lipsku pro evangelický kostel v Děčíně – Podmoklech. Stroj sloužil až do osmdesátých let minulého století, kdy byl pro časté poruchy odstaven a nahrazen strojem moderním, elektronicky řízeným.
