@@ -1,0 +1,171 @@
+---
+import Base from '../layouts/Base.astro';
+
+/**
+ * /vice — rozcestník sekundárních sekcí.
+ *
+ * Top nav drží jen hlavní 7 sekcí (Návštěva, Sbírka, Projekty, Konstrukce,
+ * Osobnosti, Mapa, Více). Vše ostatní (Virtuální muzeum, Muzea, Zajímavosti,
+ * Kronika, Časová osa, Tagy, Podpora) je dostupné odsud přes dlaždice.
+ *
+ * Princip hub-and-spoke: žádný dropdown menu, jen landing s velkými
+ * dlaždicemi. Mobile-first — responsive grid.
+ */
+
+interface Tile {
+  href: string;
+  title: string;
+  description: string;
+  icon: string;
+  external?: boolean;
+}
+
+const tiles: Tile[] = [
+  {
+    href: '/virtualni-muzeum',
+    title: 'Virtuální muzeum',
+    description:
+      'Cizí hodiny mimo naši fyzickou sbírku — zajímavé exponáty z celého světa, dokumentované jen online.',
+    icon: '🌐',
+  },
+  {
+    href: '/muzea',
+    title: 'Hodinářská muzea',
+    description:
+      'Sister muzea a expozice po celém světě — Mindelheim, Aschau, Vídeň, Anglie, ...',
+    icon: '🏛',
+  },
+  {
+    href: '/zajimavosti',
+    title: 'Zajímavosti',
+    description:
+      'Eseje o čase, časoměrných systémech, historii hodin a hodinařiny.',
+    icon: '📖',
+  },
+  {
+    href: '/kronika',
+    title: 'Kronika Hodinária',
+    description:
+      'Vernisáže, přírůstky, restaurování, návštěvy v expozici. Chronologický feed událostí.',
+    icon: '📅',
+  },
+  {
+    href: '/casova-osa',
+    title: 'Časová osa',
+    description:
+      'Chronologické zobrazení exponátů sbírky podle datace.',
+    icon: '⏳',
+  },
+  {
+    href: '/tagy',
+    title: 'Tagy',
+    description:
+      'Křížové filtry — období, výrobci, pohon, regulátor, krok jicího stroje, lokace.',
+    icon: '🏷',
+  },
+  {
+    href: '/podpora',
+    title: 'Podpora',
+    description:
+      'Jak podpořit činnost spolku — členství, finanční dary, zápůjčky exponátů, sponzoring.',
+    icon: '🤝',
+  },
+];
+---
+<Base
+  title="Více — rozcestník"
+  description="Rozcestník sekundárních sekcí Hodinária — Virtuální muzeum, hodinářská muzea, zajímavosti, kronika, časová osa, tagy a podpora spolku."
+>
+  <header class="vice-header">
+    <p class="eyebrow mb-4">Rozcestník</p>
+    <h1>Další sekce</h1>
+    <p class="lede">
+      Mimo hlavní sekce (Sbírka, Projekty, Konstrukce, Osobnosti, Mapa)
+      najdete v Hodináriu i další obsah — kroniku, eseje o čase, virtuální
+      sbírku cizích hodin, sister muzea a další.
+    </p>
+  </header>
+
+  <section class="vice-tiles">
+    {tiles.map((t) => (
+      <a href={t.href} class="vice-tile" rel={t.external ? 'noopener' : undefined} target={t.external ? '_blank' : undefined}>
+        <div class="vice-tile-icon" aria-hidden="true">{t.icon}</div>
+        <h2 class="vice-tile-title">
+          {t.title}{t.external && <span aria-hidden="true">&nbsp;↗</span>}
+        </h2>
+        <p class="vice-tile-desc">{t.description}</p>
+      </a>
+    ))}
+  </section>
+</Base>
+
+<style>
+  .vice-header {
+    margin-bottom: 3rem;
+    max-width: 720px;
+  }
+  .vice-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    line-height: 1.05;
+  }
+  .lede {
+    font-size: 1.1rem;
+    color: var(--color-text-soft);
+    line-height: 1.6;
+  }
+
+  .vice-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .vice-tile {
+    display: flex;
+    flex-direction: column;
+    padding: 1.75rem 1.75rem 1.5rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    border-left: 3px solid var(--color-copper);
+    text-decoration: none !important;
+    border-bottom: none !important;
+    transition: all 200ms ease;
+    color: inherit;
+  }
+  .vice-tile:hover {
+    border-color: var(--color-brass-bright);
+    border-left-color: var(--color-brass-bright);
+    background: color-mix(in srgb, var(--color-bg-elevated) 92%, var(--color-brass));
+    transform: translateY(-2px);
+  }
+
+  .vice-tile-icon {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 0.85rem;
+  }
+
+  .vice-tile-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.65rem;
+    line-height: 1.25;
+    border: none;
+    padding: 0;
+  }
+  .vice-tile-title::before { content: none; }
+
+  .vice-tile-desc {
+    color: var(--color-text-soft);
+    line-height: 1.55;
+    margin: 0;
+    font-size: 0.95rem;
+  }
+</style>
