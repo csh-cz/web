@@ -49,22 +49,30 @@ interface Karta {
   // Konstrukce
   ram?: string;
   krokJicihoStroje?: string;
-  biciStroje?: string;
+  biciStroje?: string | string[];   // CMS multi-select vrací array
   rozmery?: string;
   kyvadlo?: string;
   ciselnik?: string;
   pohon?: string;
+  pohonDetail?: string;             // volitelné upřesnění pohon
   // Spolková evidence
   umisteni?: string;
   majitel?: string;
   darceZapujcitel?: string;
   vztahKeSbirce?: string;
-  pridanoDoSbirky?: string;
+  pridanoDoSbirky?: string | number; // CMS number widget vrací int
   stav?: string;
   restaurovani?: string;
   adaptaceProVystavu?: string;
   // Ostatní
   extra?: KartaExtra[];
+}
+
+/** Normalizuje hodnotu z YAML/CMS na renderovatelný string. */
+function normalize(v: string | string[] | number | undefined): string {
+  if (v === undefined || v === null) return '';
+  if (Array.isArray(v)) return v.filter(Boolean).join(' + ');
+  return String(v).trim();
 }
 interface Props {
   karta: Karta;
@@ -88,6 +96,7 @@ const standardFields: Array<{ key: keyof Karta; label: string }> = [
   { key: 'kyvadlo', label: 'Kyvadlo' },
   { key: 'ciselnik', label: 'Ciferník' },
   { key: 'pohon', label: 'Pohon' },
+  { key: 'pohonDetail', label: 'Detail pohonu' },
   // Spolková evidence
   { key: 'umisteni', label: 'Umístění' },
   { key: 'majitel', label: 'Majitel' },
@@ -125,11 +134,8 @@ const puvodniUmisteniText = karta.puvodniUmisteni
 
 const items: Array<{ label: string; value: string }> = [
   ...standardFields
-    .filter(({ key }) => {
-      const v = karta[key];
-      return typeof v === 'string' && v.trim().length > 0;
-    })
-    .map(({ key, label }) => ({ label, value: karta[key] as string })),
+    .map(({ key, label }) => ({ label, value: normalize(karta[key] as any) }))
+    .filter(({ value }) => value.length > 0),
   ...(puvodniUmisteniText ? [{ label: 'Původní umístění', value: puvodniUmisteniText }] : []),
   ...(karta.extra ?? []).filter((e) => e.value && e.value.trim().length > 0),
 ];

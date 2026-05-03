@@ -124,74 +124,202 @@ collections:
     summary: '{{title}} (inv. č. {{karta.inventarniCislo}})'
     filter: { field: podsekce, value: karta }
     fields:
-      - { name: title, label: 'Nadpis karty', widget: string, required: true }
-      - { name: slug, label: 'Slug part', widget: string, required: true, hint: 'Část za inv-NNN- (např. „vezni-prokes-1868")' }
+      - { name: title, label: 'Nadpis karty', widget: string, required: true,
+          hint: 'Krátký název exponátu, např. „Věžní hodiny od Prokeše, Veselí n. Lužnicí, 1868". Zobrazí se v záhlaví detailu karty.' }
+      - { name: slug, label: 'URL část (slug)', widget: string, required: true,
+          hint: 'Krátký identifikátor pro web — jen malá písmena bez háčků, oddělovač pomlčka. Např. „vezni-prokes-1868". Pokud nevíš, zeptej se.' }
       - { name: category, label: 'Kategorie', widget: hidden, default: sbirka }
       - { name: podsekce, label: 'Podsekce', widget: hidden, default: karta }
-      # Nested karta object — všechny strukturované atributy exponátu
+      # Strukturovaná data karty exponátu.
+      # Pořadí polí logicky odpovídá: identifikace → konstrukce → spolková
+      # evidence → historie. Nested objekty zůstávají flat (žádná migrace
+      # 290 .md souborů zatím), pole jen přeskupena pro lepší UX v editoru.
       - name: karta
-        label: 'Strukturovaná data karty'
+        label: 'Údaje o exponátu'
         widget: object
         required: true
         fields:
-          - { name: inventarniCislo, label: 'Inv. č.', widget: string, required: true }
-          - { name: datace, label: 'Datace', widget: string, required: false, hint: 'rok nebo období: „1868", „polovina 18. století", „1868–1872"' }
-          - { name: vyrobce, label: 'Výrobce', widget: string, required: false }
-          - { name: signatura, label: 'Signatura', widget: string, required: false }
-          - name: puvodniUmisteni
-            label: 'Původní umístění'
-            widget: object
+          # ─── 1. Identifikace exponátu ───
+          - { name: inventarniCislo, label: 'Inventární číslo', widget: string, required: true,
+              hint: 'Pořadové číslo v evidenci spolku (1–999, nebo „x1"–„x99" pro rozšířenou evidenci). Nesmí být prázdné.' }
+          - { name: datace, label: 'Datace (rok výroby)', widget: string, required: false,
+              hint: 'Rok výroby nebo období. Klidně přibližně: „1868" / „polovina 18. století" / „1868–1872". Pokud nevíš, nech prázdné.' }
+          - name: vyrobce
+            label: 'Výrobce / hodinář'
+            widget: relation
+            collection: hodinari
+            search_fields: [title, slug]
+            value_field: title
+            display_fields: [title, mesto]
             required: false
-            collapsed: true
-            fields:
-              - { name: objekt, label: 'Objekt (např. „kostel sv. Jakuba")', widget: string, required: false }
-              - { name: typObjektu, label: 'Typ objektu', widget: string, required: false, hint: 'kostel / radnice / továrna / zámek' }
-              - { name: obec, label: 'Obec', widget: string, required: false }
-              - { name: detail, label: 'Detail', widget: string, required: false }
-          - { name: ram, label: 'Rám', widget: string, required: false }
-          - { name: krokJicihoStroje, label: 'Krok jicího stroje', widget: string, required: false }
-          - { name: biciStroje, label: 'Bicí stroje', widget: string, required: false }
-          - { name: rozmery, label: 'Rozměry', widget: string, required: false }
-          - { name: kyvadlo, label: 'Kyvadlo', widget: string, required: false }
-          - { name: ciselnik, label: 'Ciferník', widget: string, required: false }
-          - { name: pohon, label: 'Pohon', widget: string, required: false }
-          - { name: umisteni, label: 'Současné umístění (Hodinárium)', widget: string, required: false }
-          - { name: majitel, label: 'Majitel', widget: string, required: false }
-          - { name: darceZapujcitel, label: 'Dárce / zapůjčitel', widget: string, required: false }
+            multiple: false
+            hint: 'Vyber ze seznamu hodinářů. Pokud výrobce v seznamu chybí, dej vědět Davidovi a doplníme medailon (stub) — pak ho můžeš přiřadit. Můžeš nechat prázdné.'
+          - { name: signatura, label: 'Signatura výrobce', widget: string, required: false,
+              hint: 'Štítek nebo podpis výrobce na hodinách. Opiš přesně tak, jak je tam napsáno (i s diakritikou nebo zkratkami).' }
+
+          # ─── 2. Jak je to vyrobené (konstrukce) ───
+          - name: ram
+            label: 'Materiál rámu'
+            widget: select
+            required: false
+            options: [kovaný, litinový, ocelový, dřevěný, mosazný, jiné]
+            hint: 'Z čeho je rám stroje. Pokud kombinace, vyber převažující materiál a popiš v poli „Adaptace" níže.'
+          - name: krokJicihoStroje
+            label: 'Krok jicího stroje (escapement)'
+            widget: select
+            required: false
+            options:
+              - vřetenový krok
+              - kotvový krok
+              - lihýřový krok
+              - Grahamův krok
+              - Amantův kolíčkový krok
+              - 'kolíčkový krok Benoita a Roberta de Sancerre'
+              - Hippův přerušovač
+              - jiné
+            hint: 'Mechanismus, který odměřuje čas. Pokud znáš, vyber. Pokud ne nebo to není v seznamu, nech prázdné nebo vyber „jiné".'
+          - name: biciStroje
+            label: 'Bicí stroje (co odbíjí)'
+            widget: select
+            required: false
+            multiple: true
+            options: [hodinové, půlové, čtvrťové, repetiční, žádné]
+            hint: 'Co exponát odbíjí. Můžeš vybrat víc najednou (např. „čtvrťové" + „hodinové" = oboje).'
+          - { name: kyvadlo, label: 'Kyvadlo (typ a délka)', widget: string, required: false,
+              hint: 'Např. „~90 cm" nebo „rtuťové kompenzační". Pokud bez kyvadla, nech prázdné.' }
+          - { name: ciselnik, label: 'Ciferník', widget: string, required: false,
+              hint: 'Popis ciferníku — průměr, materiál, číslice, autor. Např. „smaltovaný 35 cm, římské číslice".' }
+          - name: pohon
+            label: 'Typ pohonu'
+            widget: select
+            required: false
+            options:
+              - závaží
+              - péro
+              - 'elektrický (motor)'
+              - elektromagnetický
+              - ruční natahování
+              - jiné
+            hint: 'Hlavní princip pohonu. Pokud detail nesedí, vyber „jiné" a popiš v poli „Detail pohonu" níže.'
+          - { name: pohonDetail, label: 'Detail pohonu (volitelně)', widget: string, required: false,
+              hint: 'Volitelné upřesnění, pokud „jiné" nebo si chceš poznamenat detail. Např. „elektromagnetické natahování závaží (uzavřený Huyghensův řetězec)".' }
+          - { name: rozmery, label: 'Rozměry exponátu', widget: string, required: false,
+              hint: 'Rozměry hodin/stroje, formát „šířka × výška × hloubka v cm". Např. „45×60×30 cm". Pokud nevíš, nech prázdné.' }
+
+          # ─── 3. Kde je teď a komu patří ───
+          - name: umisteni
+            label: 'Současné umístění v Hodináriu'
+            widget: select
+            required: false
+            options:
+              - 'Sál Věžní — Vitrína 1'
+              - 'Sál Věžní — Vitrína 2'
+              - 'Sál Věžní — Vitrína 3'
+              - 'Sál Elektro — Panel 1'
+              - 'Sál Elektro — Panel 2'
+              - 'Sál Elektro — Panel 3'
+              - 'Sál Elektro — Panel 4'
+              - 'Sál Elektro — Panel 5'
+              - 'Sál Elektro — Vitrína 1'
+              - 'Sál Elektro — Vitrína 2'
+              - 'Sál Elektro — Vitrína 3'
+              - 'Sál Elektro — Vitrína 4'
+              - 'Sál Elektro — Vitrína rohová'
+              - 'Sklad / depozitář'
+              - 'Mimo Hodinárium (zápůjčka, restaurování, …)'
+            hint: 'Vyber kde teď exponát fyzicky stojí. Pokud na novém místě, řekni Davidovi a doplníme možnost.'
+          - { name: majitel, label: 'Majitel', widget: string, required: false,
+              hint: 'Kdo exponát vlastní. Většinou „Spolek" (Český spolek horologický), občas konkrétní osoba (např. „Baudisch") nebo instituce (např. „Arcibiskupství pražské"). Pokud nevíš, nech prázdné.' }
+          - { name: darceZapujcitel, label: 'Dárce / zapůjčitel', widget: string, required: false,
+              hint: 'Od koho jsme exponát dostali (často ≠ majitel). Pokud darem nebo dlouhodobou zápůjčkou, doplň. Jinak nech prázdné.' }
           - name: vztahKeSbirce
             label: 'Vztah ke sbírce'
             widget: select
             required: false
-            options: [zápůjčka, dar, koupě, montáž]
-          - { name: pridanoDoSbirky, label: 'Přidáno do sbírky (rok)', widget: string, required: false }
-          - { name: stav, label: 'Stav', widget: string, required: false }
-          - { name: restaurovani, label: 'Restaurování', widget: string, required: false }
-          - { name: adaptaceProVystavu, label: 'Adaptace pro vystavení', widget: text, required: false }
+            default: spolek
+            options:
+              - { label: 'Vlastní (spolkový)',                   value: spolek }
+              - { label: 'Dar',                                  value: dar }
+              - { label: 'Koupě',                                value: koupě }
+              - { label: 'Zápůjčka',                             value: zápůjčka }
+              - { label: 'Montáž (cizí, jen instalujeme)',       value: montáž }
+            hint: 'Jak exponát přišel do sbírky. „Spolek" = patří přímo nám.'
+          - name: pridanoDoSbirky
+            label: 'Rok přírůstku do sbírky'
+            widget: number
+            required: false
+            value_type: int
+            min: 2009
+            max: 2030
+            hint: 'Rok kdy spolek exponát získal (mezi 2009 a aktuálním rokem). Pokud nevíš, nech prázdné.'
+          - name: stav
+            label: 'Stav exponátu'
+            widget: select
+            required: false
+            default: funkční
+            options:
+              - { label: 'Funkční (chodí)',                      value: funkční }
+              - { label: 'Nefunkční (nechodí)',                  value: nefunkční }
+              - { label: 'Částečně funkční',                     value: 'částečně funkční' }
+              - { label: 'Restauruje se',                        value: 'restauruje se' }
+
+          # ─── 4. Historie exponátu (volitelné) ───
+          - name: puvodniUmisteni
+            label: 'Původní umístění (před zařazením do sbírky)'
+            widget: object
+            required: false
+            collapsed: true
+            hint: 'Kde hodiny stávaly dřív, před tím než přišly do Hodinária. Volitelné.'
+            fields:
+              - { name: objekt, label: 'Objekt', widget: string, required: false,
+                  hint: 'Název budovy/místa, např. „kostel sv. Jakuba", „radnice", „továrna Škoda".' }
+              - name: typObjektu
+                label: 'Typ objektu'
+                widget: select
+                required: false
+                options: [kostel, radnice, zámek, továrna, klášter, škola, 'soukromý dům', vlakové nádraží, jiné]
+                hint: 'Pokud typ není v seznamu, vyber „jiné".'
+              - { name: obec, label: 'Obec', widget: string, required: false,
+                  hint: 'Město nebo vesnice, kde objekt stojí/stál. Např. „Kutná Hora".' }
+              - { name: detail, label: 'Detail umístění', widget: string, required: false,
+                  hint: 'Volitelný detail — např. „věž — jižní strana", „hlavní vchod".' }
+          - { name: restaurovani, label: 'Restaurování', widget: text, required: false,
+              hint: 'Kdo, kdy a co opravoval. Stačí věta — např. „V roce 2015 Pepa Novák vyměnil pero a vyčistil mechanismus."' }
+          - { name: adaptaceProVystavu, label: 'Adaptace pro vystavení', widget: text, required: false,
+              hint: 'Co bylo upraveno aby se exponát dal vystavit (úprava pohonu, snížení rychlosti, výměna ciferníku za repliku, …).' }
+
+          # ─── 5. Pokročilé (komplety, vlastní atributy) ───
           - name: komponenty
             label: 'Komponenty kompletu'
             widget: list
             required: false
-            hint: 'Slugy souvisejících článků/sub-karet'
-            field: { name: slug, label: 'Slug', widget: string }
+            collapsed: true
+            hint: 'Pokud karta reprezentuje soubor (např. hodinový + bicí + zvonící stroj), zde slugy souvisejících článků/sub-karet (např. „inv-142-bici-stroj"). Pokud samostatný exponát, nech prázdné.'
+            field: { name: slug, label: 'Slug podkarty / článku', widget: string }
           - name: extra
-            label: 'Extra atributy'
+            label: 'Vlastní atributy (label + hodnota)'
             widget: list
             required: false
+            collapsed: true
+            hint: 'Pro speciální atributy co nejsou v formuláři. Vlevo název pole, vpravo hodnota. Např. „Hmotnost" / „120 kg". Většinou nepotřebné.'
             fields:
-              - { name: label, label: 'Label', widget: string }
+              - { name: label, label: 'Název pole', widget: string }
               - { name: value, label: 'Hodnota', widget: string }
       - name: tags
         label: 'Tagy'
         widget: list
         required: false
+        hint: 'Klíčová slova pro vyhledávání. Whitelist v src/data/tags.json — typo failne build. Pokud nevíš, nech prázdné nebo se zeptej.'
         field: { name: tag, label: 'Tag', widget: string }
-      - { name: author, label: 'Autor karty', widget: string, required: false }
-      - { name: manualEdit, label: 'Manual edit', widget: boolean, required: false, default: true }
+      - { name: author, label: 'Autor karty', widget: string, required: false,
+          hint: 'Tvoje jméno (např. „Petr Král"). Zobrazí se v patičce karty jako „P. Král".' }
+      - { name: manualEdit, label: 'Ručně editováno (do diff zachovat změny)', widget: boolean, required: false, default: true }
       - { name: originalUrl, label: 'Original URL', widget: hidden }
       - { name: lastModified, label: 'Last modified', widget: hidden }
       - { name: sourceCharset, label: 'Source charset', widget: hidden, default: 'utf-8' }
       - { name: scrapedAt, label: 'Scraped at', widget: hidden }
-      - { name: body, label: 'Volitelný popisný text', widget: markdown, required: false }
+      - { name: body, label: 'Volitelný popisný text', widget: markdown, required: false,
+          hint: 'Volný text pod strukturovanými údaji. Můžeš sem napsat příběh exponátu, fotografie, kontext. Markdown formátování.' }
 
   # ── 3) Kronika (chronologický feed) ──
   - name: kronika

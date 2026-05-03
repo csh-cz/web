@@ -32,9 +32,15 @@ interface Reference {
 interface KartaExtra { label: string; value: string; }
 interface Karta {
   vyrobce?: string; ram?: string; krokJicihoStroje?: string;
-  biciStroje?: string; rozmery?: string; kyvadlo?: string;
-  ciselnik?: string; pohon?: string; signatura?: string;
-  stav?: string; provenience?: string; extra?: KartaExtra[];
+  // biciStroje je v CMS multi-select widget → CMS vrací string[],
+  // ale historické karty mají string ("čtvrťové + hodinové"). Schema toleruje obojí.
+  biciStroje?: string | string[];
+  rozmery?: string; kyvadlo?: string;
+  ciselnik?: string; pohon?: string; pohonDetail?: string; signatura?: string;
+  stav?: string; provenience?: string;
+  // pridanoDoSbirky: CMS number widget vrací int, historicky string.
+  pridanoDoSbirky?: string | number;
+  extra?: KartaExtra[];
 }
 
 interface Props {
