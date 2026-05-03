@@ -9,8 +9,13 @@ interface Props {
   ogSlug?: string;
   /** Override path (e.g. /img/foo.jpg) — kdy chceš místo template-based OG použít vlastní obrázek. */
   ogImageOverride?: string;
+  /** Pokud je editor přihlášen do CF Access, JS hydrace odhalí floating
+   *  "Upravit v CMS" tlačítko s odkazem na tuto cestu (např.
+   *  `/admin/#/collections/clanky/entries/<slug>`). Anonymous návštěvníci
+   *  tlačítko nikdy neuvidí — fetch /api/cms/auth/user vrátí authenticated:false. */
+  cmsEditUrl?: string;
 }
-const { title, description, ogSlug, ogImageOverride } = Astro.props;
+const { title, description, ogSlug, ogImageOverride, cmsEditUrl } = Astro.props;
 const fullTitle = title === "Hodinárium" ? title : `${title} — Hodinárium`;
 const desc = description ?? "Český spolek horologický — sbírka, expozice, projekty.";
 // Cloudflare Web Analytics token — set in CF Pages env as PUBLIC_CF_ANALYTICS_TOKEN.
@@ -119,7 +124,7 @@ const orgJsonLd = isHome ? {
       <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={`{"token": "${cfAnalyticsToken}"}`}></script>
     )}
   </head>
-  <body class="min-h-screen flex flex-col antialiased">
+  <body class="min-h-screen flex flex-col antialiased" data-cms-edit-url={cmsEditUrl ?? null}>
     <a href="#hlavni-obsah" class="skip-link">Přeskočit na obsah</a>
 
     <header class="site-header sticky top-0 z-20" role="banner">
@@ -150,6 +155,15 @@ const orgJsonLd = isHome ? {
               </svg>
               <kbd class="hidden lg:inline">⌘K</kbd>
             </button>
+          </li>
+          <li id="admin-badge-slot" class="hidden">
+            <!-- Admin badge — JS níž ji odhalí, pokud je editor přihlášen do CF Access. -->
+            <a href="/admin/" id="admin-badge-link"
+               class="admin-avatar"
+               aria-label="Otevřít CMS administraci"
+               title="Otevřít CMS">
+              <span id="admin-badge-initial" aria-hidden="true">·</span>
+            </a>
           </li>
         </ul>
 
@@ -246,5 +260,56 @@ const orgJsonLd = isHome ? {
         </div>
       </div>
     </footer>
+
+    <!--
+      CMS admin hydration — fetch /api/cms/auth/user (= Pages Function endpoint).
+      Pokud projde se 200 + authenticated:true, editor má platnou CF Access
+      session → odhalíme avatar v navu + případně floating "Editovat" tlačítko
+      pokud stránka má `data-cms-edit-url` atribut na <body>.
+
+      Pages Function vrací 200 i pro neautentikované (s authenticated:false),
+      ale fetch ze same-origin posílá CF Access cookie → pro editora vrátí
+      authenticated:true s emailem.
+    -->
+    <script is:inline>
+      (async function () {
+        try {
+          const r = await fetch('/api/cms/auth/user', { credentials: 'include' });
+          if (!r.ok) return;
+          const ct = r.headers.get('content-type') || '';
+          if (!ct.includes('json')) return;
+          const u = await r.json();
+          if (!u.authenticated || !u.email) return;
+
+          // Avatar v navu — initial z prvního písmene emailu, fallback "·".
+          const slot = document.getElementById('admin-badge-slot');
+          const link = document.getElementById('admin-badge-link');
+          const initial = document.getElementById('admin-badge-initial');
+          if (slot && link && initial) {
+            const ch = (u.email[0] || '·').toUpperCase();
+            initial.textContent = ch;
+            link.title = 'Přihlášen jako ' + u.email + ' — kliknutím otevřeš CMS';
+            link.setAttribute('aria-label', 'Otevřít CMS (přihlášen jako ' + u.email + ')');
+            slot.classList.remove('hidden');
+          }
+
+          // Floating edit button — jen pokud stránka má edit URL (článek/karta/...).
+          const editUrl = document.body.getAttribute('data-cms-edit-url');
+          if (editUrl) {
+            const btn = document.createElement('a');
+            btn.href = editUrl;
+            btn.className = 'cms-edit-fab';
+            btn.setAttribute('aria-label', 'Upravit tuto stránku v CMS');
+            btn.innerHTML =
+              '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" width="18" height="18">' +
+              '<path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 1 1 3 3L7 19l-4 1 1-4 12.5-12.5z"/>' +
+              '</svg><span>Upravit</span>';
+            document.body.appendChild(btn);
+          }
+        } catch (e) {
+          // Tichá chyba — anonymous návštěvníci nemají session, je to OK.
+        }
+      })();
+    </script>
   </body>
 </html>

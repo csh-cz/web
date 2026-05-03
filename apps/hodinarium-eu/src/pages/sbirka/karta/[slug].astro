@@ -74,6 +74,7 @@ const kartaJsonLd = {
 <Base
   title={entry.data.title}
   description={`Evidenční karta sbírkového předmětu — inv. č. ${entry.data.karta?.inventarniCislo ?? '?'}`}
+  cmsEditUrl={`/admin/#/collections/karty/entries/${entry.data.slug}`}
 >
   <JsonLd data={kartaJsonLd} />
   <nav class="breadcrumbs" aria-label="Drobečková navigace">
