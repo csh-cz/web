@@ -20,7 +20,7 @@ interface Entry {
 
 const meta = catMeta.sbirka;
 
-// Načti collection pro discriminator podsekce (catalog.json ho zatím nemá)
+// Načti collection — potřebujeme tags + podsekce diskriminátor
 const all = await getCollection('clanky');
 const sbirkaEntries = all.filter((e) => e.data.category === 'sbirka');
 const kartySlugs = new Set(
@@ -45,19 +45,64 @@ kartyWithPhoto.sort((a, b) => {
 });
 const featuredKarty = kartyWithPhoto.slice(0, 6);
 
-// Featured články — z meta.featuredSlugs (jako u jiných kategorií)
+// Featured články — z meta.featuredSlugs
 const featuredArticleSlugs = (meta.featuredSlugs ?? []).filter((s) => !kartySlugs.has(s));
 const featuredArticles = featuredArticleSlugs
   .map((s) => clanky.find((c) => c.slug === s))
   .filter((c): c is Entry => Boolean(c));
-const ostatniArticles = featuredArticles.length
-  ? clanky.filter((c) => !featuredArticleSlugs.includes(c.slug))
-  : clanky;
 
 const totalImages = catalogAll.reduce((s, e) => s + e.imageCount, 0);
+
+// ─── ROZCESTNÍK TYPŮ ───────────────────────────────────────────
+// Spočítáme počet entries v každém typu z `tags` field collection.
+// Dlaždice s count > 0 jsou klikatelné, s 0 jsou tlumené (placeholder).
+//
+// URL zatím vede na /tagy/<typ> (existující tag filter). Ve fázi 2
+// nahradíme za dedikovaný /sbirka/<typ>/ atlas s faceted filtry.
+interface TypTile {
+  tag: string;
+  label: string;
+  icon: string;
+  popis: string;
+  group: 'mech' | 'el' | 'spec';
+}
+const typTiles: TypTile[] = [
+  // Mechanické hodiny
+  { tag: 'vezni',     label: 'Věžní a fasádní',  icon: '🗼', popis: 'Velké stroje z věží kostelů, radnic, zámků a továren.', group: 'mech' },
+  { tag: 'nastenne',  label: 'Nástěnné',          icon: '🕰', popis: 'Švarcvaldky, comtoázky, regulátory a další nástěnky.', group: 'mech' },
+  { tag: 'stolni',    label: 'Stolní',            icon: '⏰', popis: 'Stolní a krbové hodiny pro domácí prostředí.',          group: 'mech' },
+  { tag: 'kapesni',   label: 'Kapesní',           icon: '⌚', popis: 'Kapesní hodinky a chronometry.',                       group: 'mech' },
+  { tag: 'naramkove', label: 'Náramkové',         icon: '⌚', popis: 'Mechanické a kvarcové náramkovky.',                    group: 'mech' },
+  { tag: 'budik',     label: 'Budíky',            icon: '🔔', popis: 'Mechanické a elektromechanické budíky.',               group: 'mech' },
+  { tag: 'decimalka', label: 'Decimálky',         icon: '🔢', popis: 'Decimální (dělení dne na 10 hodin) — vzácné.',         group: 'mech' },
+  // Elektrické hodiny
+  { tag: 'atomove',   label: 'Atomové',           icon: '⚛',  popis: 'Cesiové standardy, GPS-disciplinovaný čas, NTP.',      group: 'el' },
+  // Speciální
+  { tag: 'slunecni',  label: 'Sluneční',          icon: '☀',  popis: 'Sluneční hodiny — stěnové, vodorovné, polární.',       group: 'spec' },
+  { tag: 'vodni',     label: 'Vodní',             icon: '💧', popis: 'Vodní hodiny (klepsydry).',                            group: 'spec' },
+  { tag: 'pisecne',   label: 'Písečné',           icon: '⏳', popis: 'Přesýpací hodiny.',                                    group: 'spec' },
+  { tag: 'kvetinove', label: 'Květinové',         icon: '🌷', popis: 'Květinové hodiny v parcích — Karlovy Vary, Poděbrady.', group: 'spec' },
+];
+
+// Spočítej výskyty každého typu napříč sbírkovými entries
+function countTag(tag: string): number {
+  return sbirkaEntries.filter((e) => (e.data.tags ?? []).includes(tag)).length;
+}
+const typTilesWithCount = typTiles.map((t) => ({ ...t, count: countTag(t.tag) }));
+
+const groupLabels: Record<TypTile['group'], string> = {
+  mech: 'Mechanické hodiny',
+  el: 'Elektrické hodiny',
+  spec: 'Speciální časoměrné systémy',
+};
+const groupedTiles: Record<TypTile['group'], typeof typTilesWithCount> = {
+  mech: typTilesWithCount.filter((t) => t.group === 'mech'),
+  el: typTilesWithCount.filter((t) => t.group === 'el'),
+  spec: typTilesWithCount.filter((t) => t.group === 'spec'),
+};
 ---
 <Base title={meta.jmeno} description={meta.intro}>
-  <section class="kategorie-hero mb-16">
+  <section class="kategorie-hero mb-12">
     <p class="eyebrow mb-5">Sekce</p>
     <h1 class="hero-title mb-3" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">{meta.jmeno}</h1>
     <p class="kategorie-podnadpis">{meta.podnadpis}</p>
@@ -79,177 +124,190 @@ const totalImages = catalogAll.reduce((s, e) => s + e.imageCount, 0);
         </div>
       )}
     </div>
+
+    <!-- Přepínač zobrazení -->
+    <nav class="view-toggle mt-8" aria-label="Zobrazení sbírky">
+      <span class="view-toggle-label">Zobrazit jako:</span>
+      <a href="/sbirka" class="view-toggle-btn view-toggle-btn-active" aria-current="page">Rozcestník</a>
+      <a href="/sbirka/katalog" class="view-toggle-btn">Katalog ({karty.length})</a>
+    </nav>
   </section>
 
-  <!-- ═══ SEKCE 1: EVIDENČNÍ KARTY ═══ -->
-  <section class="mb-16" aria-labelledby="karty-heading">
+  <!-- ═══ SEKCE 1: ROZCESTNÍK TYPŮ HODIN ═══ -->
+  <section class="mb-16" aria-labelledby="typy-heading">
     <header class="section-divider mb-6">
-      <p class="eyebrow mb-2">1. Evidenční karty</p>
-      <h2 id="karty-heading" class="section-h">
-        Sbírkové předměty
-        <span class="section-h-count">{karty.length}</span>
-      </h2>
+      <p class="eyebrow mb-2">Procházet podle typu</p>
+      <h2 id="typy-heading" class="section-h">Typy hodin ve sbírce</h2>
       <p class="section-intro mt-3">
-        Základní popis každého sbírkového předmětu (1:1 ze Soupisu exponátů Hodinária).
-        Každá karta obsahuje technické parametry, lokaci v expozici a vztah ke sbírce.
+        Sbírka rozčleněná podle hlavního typu časoměrného principu.
+        Klik na dlaždici otevře tagovaný atlas — všechny exponáty
+        a články daného typu pohromadě.
       </p>
     </header>
 
-    <div class="featured-grid-cat">
-      {featuredKarty.map((e) => (
-        <Card
-          href={`/sbirka/karta/${e.slug}/`}
-          title={e.title}
-          excerpt={e.excerpt || 'Stub karty — k doplnění z Popisů strojů.'}
-          thumbnail={e.thumbnail}
-          category="sbirka"
-          lastModified={e.lastModified}
-          imageCount={e.imageCount}
-        />
-      ))}
-    </div>
-
-    <div class="katalog-link mt-6">
-      <a href="/sbirka/katalog/" class="btn-primary">Otevřít celý katalog ({karty.length}) →</a>
-    </div>
-  </section>
-
-  <!-- ═══ SEKCE 2: VÁZANÉ ČLÁNKY ═══ -->
-  <section aria-labelledby="clanky-heading">
-    <header class="section-divider mb-6">
-      <p class="eyebrow mb-2">2. Vázané články</p>
-      <h2 id="clanky-heading" class="section-h">
-        Příběhy ke sbírkovým předmětům
-        <span class="section-h-count">{clanky.length}</span>
-      </h2>
-      <p class="section-intro mt-3">
-        Delší články popisující jednotlivé exponáty hlouběji — způsob nabytí, restaurování,
-        historie předmětu nebo jeho výroby. Vážou se na jednu nebo více evidenčních karet.
-      </p>
-    </header>
-
-    {featuredArticles.length > 0 && (
-      <>
-        <header class="mb-6">
-          <p class="eyebrow mb-2">Vybrané</p>
-          <h3 class="text-xl">Stojí za prohlídku</h3>
-        </header>
-        <div class="featured-grid-cat mb-12">
-          {featuredArticles.map((e) => (
-            <Card
-              href={clanekHref(e)}
-              title={e.title}
-              excerpt={e.excerpt}
-              thumbnail={e.thumbnail}
-              category={e.category}
-              lastModified={e.lastModified}
-              imageCount={e.imageCount}
-            />
+    {(['mech', 'el', 'spec'] as const).map((g) => (
+      <div class="typ-group">
+        <h3 class="typ-group-h">{groupLabels[g]}</h3>
+        <div class="typ-grid">
+          {groupedTiles[g].map((t) => (
+            t.count > 0 ? (
+              <a href={`/tagy/${t.tag}`} class="typ-tile">
+                <div class="typ-tile-icon" aria-hidden="true">{t.icon}</div>
+                <h4 class="typ-tile-label">{t.label}</h4>
+                <p class="typ-tile-popis">{t.popis}</p>
+                <p class="typ-tile-count"><strong>{t.count}</strong> exponátů</p>
+              </a>
+            ) : (
+              <div class="typ-tile typ-tile-empty" aria-disabled="true">
+                <div class="typ-tile-icon" aria-hidden="true">{t.icon}</div>
+                <h4 class="typ-tile-label">{t.label}</h4>
+                <p class="typ-tile-popis">{t.popis}</p>
+                <p class="typ-tile-count typ-tile-count-empty">zatím žádný exponát</p>
+              </div>
+            )
           ))}
         </div>
-      </>
-    )}
-
-    <header class="mb-6">
-      <p class="eyebrow mb-2">Kompletní seznam</p>
-      <h3 class="text-xl">
-        {featuredArticles.length > 0 ? 'Další články' : 'Všechny články'}
-      </h3>
-    </header>
-    <div class="featured-grid-cat">
-      {ostatniArticles.map((e) => (
-        <Card
-          href={clanekHref(e)}
-          title={e.title}
-          excerpt={e.excerpt}
-          thumbnail={e.thumbnail}
-          category={e.category}
-          lastModified={e.lastModified}
-          imageCount={e.imageCount}
-        />
-      ))}
-    </div>
+      </div>
+    ))}
   </section>
+
+  <!-- ═══ SEKCE 2: VYBRANÉ KARTY ═══ -->
+  {featuredKarty.length > 0 && (
+    <section class="mb-16" aria-labelledby="karty-heading">
+      <header class="section-divider mb-6">
+        <p class="eyebrow mb-2">Vybrané exponáty</p>
+        <h2 id="karty-heading" class="section-h">Stojí za prohlídku</h2>
+      </header>
+
+      <div class="featured-grid-cat">
+        {featuredKarty.map((e) => (
+          <Card
+            href={`/sbirka/karta/${e.slug}/`}
+            title={e.title}
+            excerpt={e.excerpt || 'Stub karty — k doplnění z Popisů strojů.'}
+            thumbnail={e.thumbnail}
+            category="sbirka"
+            lastModified={e.lastModified}
+            imageCount={e.imageCount}
+          />
+        ))}
+      </div>
+
+      <div class="katalog-link mt-6">
+        <a href="/sbirka/katalog/" class="btn-primary">Otevřít celý katalog ({karty.length}) →</a>
+      </div>
+    </section>
+  )}
+
+  <!-- ═══ SEKCE 3: VYBRANÉ ČLÁNKY ═══ -->
+  {featuredArticles.length > 0 && (
+    <section aria-labelledby="clanky-heading">
+      <header class="section-divider mb-6">
+        <p class="eyebrow mb-2">Vázané články</p>
+        <h2 id="clanky-heading" class="section-h">Příběhy ke sbírkovým předmětům</h2>
+        <p class="section-intro mt-3">
+          Delší články popisující jednotlivé exponáty hlouběji — způsob nabytí,
+          restaurování, historie předmětu nebo jeho výroby.
+        </p>
+      </header>
+      <div class="featured-grid-cat">
+        {featuredArticles.map((e) => (
+          <Card
+            href={clanekHref(e)}
+            title={e.title}
+            excerpt={e.excerpt}
+            thumbnail={e.thumbnail}
+            category={e.category}
+            lastModified={e.lastModified}
+            imageCount={e.imageCount}
+          />
+        ))}
+      </div>
+    </section>
+  )}
 </Base>
 
 <style>
-  .kategorie-hero { max-width: 880px; }
-  .kategorie-podnadpis {
+  /* (Přepínač .view-toggle je v global.css — používá ho i /sbirka/katalog) */
+
+  /* Skupiny typů (mech/el/spec) */
+  .typ-group {
+    margin-bottom: 2.5rem;
+  }
+  .typ-group-h {
     font-family: var(--font-serif);
-    font-style: italic;
-    font-size: 1.4rem;
-    color: var(--color-copper);
-    margin: 0;
-  }
-  .kategorie-intro {
-    font-size: 1.15rem;
-    line-height: 1.6;
-    color: var(--color-text);
-    max-width: 64ch;
-  }
-  .kategorie-stats {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    padding-top: 1rem;
-    border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
-  }
-  .stat-inline {
-    display: flex;
-    flex-direction: column;
-    gap: 0.15rem;
-  }
-  .stat-inline strong {
-    font-family: var(--font-serif);
-    font-size: 1.6rem;
     font-weight: 500;
-    color: var(--color-brass-bright);
-    font-feature-settings: "lnum";
-  }
-  .stat-inline span {
-    font-size: 0.85rem;
-    color: var(--color-text-muted);
-    font-style: italic;
+    font-size: 1.3rem;
+    color: var(--color-brass);
+    margin: 0 0 1rem;
+    border-bottom: 1px dashed color-mix(in srgb, var(--color-brass) 20%, transparent);
+    padding-bottom: 0.4rem;
   }
 
-  .section-divider {
-    padding-bottom: 1rem;
-    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  /* Dlaždice typů — responsive grid */
+  .typ-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
   }
-  .section-h {
+  .typ-tile {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem 1.4rem 1.1rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-left: 3px solid var(--color-copper);
+    border-radius: 2px;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    transition: all 200ms ease;
+    color: inherit;
+  }
+  .typ-tile:hover:not(.typ-tile-empty) {
+    border-color: var(--color-brass-bright);
+    border-left-color: var(--color-brass-bright);
+    background: color-mix(in srgb, var(--color-bg-elevated) 92%, var(--color-brass));
+    transform: translateY(-2px);
+  }
+  .typ-tile-empty {
+    opacity: 0.45;
+    border-left-style: dashed;
+    border-left-color: var(--color-text-muted);
+  }
+  .typ-tile-icon {
+    font-size: 1.6rem;
+    line-height: 1;
+    margin-bottom: 0.55rem;
+  }
+  .typ-tile-label {
     font-family: var(--font-serif);
     font-weight: 500;
-    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    font-size: 1.1rem;
     color: var(--color-brass-bright);
-    margin: 0;
-    display: flex;
-    align-items: baseline;
-    gap: 0.75rem;
+    margin: 0 0 0.35rem;
+    line-height: 1.25;
     border: none;
     padding: 0;
   }
-  .section-h::before { content: none; }
-  .section-h-count {
-    color: var(--color-text-muted);
-    font-size: 0.85rem;
-    font-feature-settings: "lnum";
-    font-weight: 400;
-  }
-  .section-intro {
-    font-size: 0.98rem;
-    line-height: 1.55;
+  .typ-tile-label::before { content: none; }
+  .typ-tile-popis {
     color: var(--color-text-soft);
-    max-width: 72ch;
+    line-height: 1.45;
+    margin: 0 0 0.7rem;
+    font-size: 0.85rem;
+    flex: 1;
+  }
+  .typ-tile-count {
     margin: 0;
+    font-size: 0.85rem;
+    color: var(--color-copper);
   }
-
-  .katalog-link {
-    text-align: center;
+  .typ-tile-count strong {
+    color: var(--color-brass-bright);
+    font-feature-settings: "lnum";
   }
-
-  .featured-grid-cat {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 1.5rem;
+  .typ-tile-count-empty {
+    color: var(--color-text-muted);
+    font-style: italic;
   }
 </style>
