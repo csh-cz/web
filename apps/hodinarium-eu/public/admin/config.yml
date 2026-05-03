@@ -212,9 +212,11 @@ collections:
             widget: select
             required: false
             options:
+              - 'Sál Věžní'
               - 'Sál Věžní — Vitrína 1'
               - 'Sál Věžní — Vitrína 2'
               - 'Sál Věžní — Vitrína 3'
+              - 'Sál Elektro'
               - 'Sál Elektro — Panel 1'
               - 'Sál Elektro — Panel 2'
               - 'Sál Elektro — Panel 3'
@@ -227,7 +229,7 @@ collections:
               - 'Sál Elektro — Vitrína rohová'
               - 'Sklad / depozitář'
               - 'Mimo Hodinárium (zápůjčka, restaurování, …)'
-            hint: 'Vyber kde teď exponát fyzicky stojí. Pokud na novém místě, řekni Davidovi a doplníme možnost.'
+            hint: 'Vyber kde teď exponát fyzicky stojí. „Sál Věžní" / „Sál Elektro" samostatně = na podlaze sálu (mimo vitríny/panely). Pokud na novém místě, řekni Davidovi a doplníme možnost.'
           - { name: majitel, label: 'Majitel', widget: string, required: false,
               hint: 'Kdo exponát vlastní. Většinou „Spolek" (Český spolek horologický), občas konkrétní osoba (např. „Baudisch") nebo instituce (např. „Arcibiskupství pražské"). Pokud nevíš, nech prázdné.' }
           - { name: darceZapujcitel, label: 'Dárce / zapůjčitel', widget: string, required: false,
