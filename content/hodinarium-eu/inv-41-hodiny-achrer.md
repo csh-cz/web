@@ -27,9 +27,7 @@ karta:
     detail: Nádražní restaurace
   restaurovani: ''
   adaptaceProVystavu: ''
-  extra:
-    - label: Poznámka
-      value: nádraží Holešovice
+  extra: []
   rokVyroby: '1927'
 tags:
   - hlavni-sal
