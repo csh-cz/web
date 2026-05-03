@@ -93,6 +93,11 @@ const placeJsonLd = {
       Dva sály plné věžních strojů, švarcvaldek, elektrických hodin
       a vlastních DIY konstrukcí spolku.
     </p>
+    <p class="navsteva-hero-cta">
+      <a class="navsteva-cta navsteva-cta-primary" href={KONTAKT.webZamku} target="_blank" rel="noopener">
+        Otvírací hodiny a vstupné — zámek Děčín ↗
+      </a>
+    </p>
   </header>
 
   <!-- ADRESA + MAPA -->
@@ -125,18 +130,20 @@ const placeJsonLd = {
   <section class="navsteva-section">
     <h2>Otvírací hodiny a vstupné</h2>
     <p>
-      Hodinárium je <strong>součástí programu zámku Děčín</strong>.
-      Aktuální termíny prohlídek a ceny vstupného jsou na stránce zámku:
+      Hodinárium je <strong>součástí programu zámku Děčín</strong> —
+      otvírací doba i ceny vstupného jsou společné se zámkem a aktuální
+      termíny najdeš přímo u nich:
     </p>
     <p>
-      <a class="navsteva-cta" href={KONTAKT.webZamku} target="_blank" rel="noopener">
+      <a class="navsteva-cta navsteva-cta-primary" href={KONTAKT.webZamku} target="_blank" rel="noopener">
         Program a vstupné — zámek Děčín ↗
       </a>
     </p>
     <p class="navsteva-note">
-      Sezóna typicky od jara do podzimu, mimo sezónu po dohodě. Pro skupinové
-      prohlídky (školy, kluby, rodiny) doporučujeme rezervaci předem —
-      kontaktujte nás na <a href={`mailto:${KONTAKT.email}`}>{KONTAKT.email}</a>.
+      Pro skupinové prohlídky (školy, kluby, rodiny) doporučujeme rezervaci
+      předem — kromě zámku můžeš oslovit i nás přímo na
+      <a href={`mailto:${KONTAKT.email}`}>{KONTAKT.email}</a>, domluvíme
+      individuální termín i s odborným výkladem.
     </p>
   </section>
 
@@ -315,6 +322,13 @@ const placeJsonLd = {
   .navsteva-cta:hover {
     background: var(--color-brass-bright);
     color: var(--color-bg-deep);
+  }
+  .navsteva-cta-primary {
+    font-size: 1.05rem;
+    padding: 0.85rem 1.5rem;
+  }
+  .navsteva-hero-cta {
+    margin-top: 1.5rem;
   }
 
   .navsteva-note {
