@@ -26,6 +26,36 @@
     -->
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
     <script>
+      // Návrat na původní stránku po Save / Cancel.
+      //
+      // Pokud editor byl otevřen kliknutím na floating "Upravit" na detail
+      // stránce, Base.astro uložil return URL do sessionStorage před
+      // navigací. Sveltia routuje přes hash — když user uloží článek,
+      // vrátí se z `#/collections/<col>/entries/<slug>` zpět na
+      // `#/collections/<col>`. To detekujeme a redirect na return URL.
+      //
+      // Pokud user otevřel /admin/ přímo (přes admin avatar v navu),
+      // sessionStorage nemá nic → žádný redirect, zůstane v CMS.
+      (function () {
+        let prevHash = window.location.hash;
+        window.addEventListener('hashchange', () => {
+          const newHash = window.location.hash;
+          const wasInEntry = /^#\/collections\/[^/]+\/entries\//.test(prevHash);
+          const isInList = /^#\/collections\/[^/]+\/?$/.test(newHash) || newHash === '' || newHash === '#/';
+          prevHash = newHash;
+          if (!wasInEntry || !isInList) return;
+
+          let url = null;
+          try { url = sessionStorage.getItem('cms-return-url'); } catch {}
+          if (!url) return;
+          try { sessionStorage.removeItem('cms-return-url'); } catch {}
+
+          // Krátké zpoždění aby Sveltia stihla zobrazit "Saved" toast.
+          setTimeout(() => { window.location.href = url; }, 600);
+        });
+      })();
+    </script>
+    <script>
       // Banner s nápovědou — zobrazí se POUZE na úvodní Sveltia login obrazovce
       // (= když je v DOM viditelné tlačítko "Sign in with GitHub"). Po kliku
       // na něj nebo po načtení editoru (tlačítko zmizí) se banner skryje,
