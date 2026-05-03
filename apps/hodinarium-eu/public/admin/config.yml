@@ -12,13 +12,11 @@ backend:
   name: github
   repo: csh-cz/web
   branch: main
-  # Worker proxy URL — nahradí api.github.com, vyřízne PAT bota.
-  api_root: 'https://csh-cms-proxy.david-knespl.workers.dev'
-  # Auth backend — Sveltia popup hit Worker /auth (default Sveltia path),
-  # který ověří CF Access JWT a postMessage zpět placeholder token.
-  # Worker ho na všech API requestech přepíše na bot PAT.
-  # Žádný GitHub OAuth, žádný PAT prompt pro editora.
-  base_url: 'https://csh-cms-proxy.david-knespl.workers.dev'
+  # Pages Function proxy URL — same-origin s /admin/, eliminuje cross-origin
+  # CORS+CF Access cookie problém co měl samostatný Worker.
+  # Pages Function za stejnou Access app jako /admin/ → cookie auto, žádný CORS.
+  api_root: 'https://hodinarium-eu.pages.dev/api/cms'
+  base_url: 'https://hodinarium-eu.pages.dev/api/cms'
 
 # Editorial workflow: direct push (Save = commit do main = za 90s live).
 # PR-based workflow by editory zatahoval do GitHub UI, čemuž se vyhýbáme.
