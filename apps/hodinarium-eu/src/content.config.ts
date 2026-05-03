@@ -3,6 +3,24 @@ import { glob } from 'astro/loaders';
 import tagsWhitelist from './data/tags.json';
 
 /**
+ * String schema co toleruje YAML Date object.
+ *
+ * Sveltia CMS při edit přepíše YAML frontmatter a strip-uje uvozovky
+ * kolem hodnot vypadajících jako datum (`date: 2014-06-01` místo
+ * `date: "2014-06-01"`). YAML 1.1 parser pak vrací Date objekt místo
+ * stringu → z.string() validation fail → Pages CI build fail.
+ *
+ * Tenhle helper přijímá obojí: Date object transformuje na YYYY-MM-DD
+ * ISO string, string nechá projít. Konzumenti (RSS, sort, render) tak
+ * dostanou konzistentní string type bez ohledu na to, zda CMS uvozovky
+ * stripnul.
+ */
+const dateString = z.preprocess(
+  (v) => (v instanceof Date ? v.toISOString().slice(0, 10) : v),
+  z.string(),
+);
+
+/**
  * Schéma jednoho odkazu / literatury pod článkem.
  * - title povinný; ostatní volitelné
  * - type ovlivní ikonku/řazení (kniha, článek, PDF, web odkaz, wiki, mapa)
@@ -55,9 +73,9 @@ const clanky = defineCollection({
       'decin', 'vezni-hodiny', 'ostatni',
     ]),
     originalUrl: z.string().url(),
-    lastModified: z.string().nullable(),
+    lastModified: dateString.nullable(),
     sourceCharset: z.string(),
-    scrapedAt: z.string(),
+    scrapedAt: dateString,
     tldr: z.string().optional(),
     manualEdit: z.boolean().optional(),
     /** Custom path (e.g. /img/...) to override the default template-based OG image. */
@@ -209,7 +227,7 @@ const kronika = defineCollection({
     title: z.string(),
     slug: z.string(),
     /** ISO datum YYYY-MM-DD (případně rozsah "YYYY-MM-DD — YYYY-MM-DD"). */
-    date: z.string(),
+    date: dateString,
     /** Rok pro chronologii (může se lišit od date u rozsahů). */
     rok: z.number(),
     typ: z.enum([
