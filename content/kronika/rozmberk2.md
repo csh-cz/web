@@ -1,7 +1,7 @@
 ---
 title: Petr  Vok z Rožmberka – Mecenáš a sběratel
 slug: rozmberk2
-date: 2014-06-15
+date: "2014-06-15"
 rok: 2014
 typ: historie-spolku
 misto: ''

@@ -1,7 +1,7 @@
 ---
 title: Pozvánka pro Petra Voka z Rožmberka (a ne jen pro něj)
 slug: rozmberk1
-date: 2014-06-01
+date: "2014-06-01"
 rok: 2014
 typ: jine
 misto: ''
