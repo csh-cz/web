@@ -23,6 +23,10 @@ Na členské schůzi 5.6.2015 byla mimo jiné schválena změna názvu, stanovy 
 
 Spolek navenek zastupují členové výboru, každý samostatně nebo další členové spolku pověření výborem pro konkrétní záležitost.
 
+## Členské schůze
+
+Spolek se schází **jednou měsíčně, mimo letní prázdniny** (červenec a srpen). Členové na schůzích představují své projekty, restaurátorské nálezy, výzkum a diskutují o aktuálních otázkách spolku. Příspěvky a prezentace se archivují na stránce [Příspěvky na schůzích](/prispevky).
+
 ## Ze [stanov](/clanky/stanovy) vyjímáme:
 
 Účelem spolku je prezentovat a popularizovat technickou i uměleckou stránku vývoje hodin od prvních konstrukcí po současnost. Pro propagaci zájmu o tuto oblast kulturního dědictví využít zejména možnosti Internetu. Propagovat a popularizovat tvůrčí činnost v této oblasti včetně malých či amatérských výrobců hodin na jedné straně a uměleckých tvůrců na straně druhé. Spolek bude dosahovat tohoto účelu vyvíjením činnosti v těchto oblastech:
