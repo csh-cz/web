@@ -121,6 +121,13 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
         </span>
       ))}
     </div>
+
+    <!-- Přepínač zobrazení -->
+    <nav class="view-toggle mt-6" aria-label="Zobrazení sbírky">
+      <span class="view-toggle-label">Zobrazit jako:</span>
+      <a href="/sbirka" class="view-toggle-btn">Rozcestník</a>
+      <a href="/sbirka/katalog" class="view-toggle-btn view-toggle-btn-active" aria-current="page">Katalog ({total})</a>
+    </nav>
   </header>
 
   <div class="katalog-controls">

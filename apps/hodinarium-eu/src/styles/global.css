@@ -607,6 +607,46 @@ summary::-webkit-details-marker { display: none; }
   color: var(--color-text-muted);
 }
 
+/* Přepínač zobrazení (Rozcestník / Katalog v sekci /sbirka/) */
+.view-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 0.5rem 0.75rem;
+  background: var(--color-bg-elevated);
+  border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+  border-radius: 4px;
+}
+.view-toggle-label {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  margin-right: 0.25rem;
+}
+.view-toggle-btn {
+  padding: 0.4rem 0.85rem;
+  border-radius: 2px;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  color: var(--color-text);
+  background: transparent;
+  border: 1px solid transparent;
+  font-size: 0.9rem;
+  transition: all 150ms ease;
+}
+.view-toggle-btn:hover {
+  background: color-mix(in srgb, var(--color-bg-deep) 80%, var(--color-brass));
+  color: var(--color-brass-bright);
+}
+.view-toggle-btn-active {
+  background: var(--color-brass);
+  color: var(--color-bg-deep) !important;
+  border-color: var(--color-brass-bright);
+  font-weight: 500;
+  cursor: default;
+  pointer-events: none;
+}
+
 /* CMS admin avatar v navu — kruhová iniciála editora.
    Skryté server-side (li.hidden), JS hydrace odkryje pokud je editor přihlášen
    přes CF Access. */
