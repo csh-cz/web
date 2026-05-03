@@ -146,17 +146,22 @@ const clanky = defineCollection({
         // === Konstrukce ===
         ram: z.string().optional(),
         krokJicihoStroje: z.string().optional(),
-        biciStroje: z.string().optional(),
+        // Bicí stroje může být string ("hodinové") nebo array (multi-select
+        // z CMS: ["čtvrťové", "hodinové"]). Renderer normalizuje na array.
+        biciStroje: z.union([z.string(), z.array(z.string())]).optional(),
         rozmery: z.string().optional(),
         kyvadlo: z.string().optional(),
         ciselnik: z.string().optional(),
         pohon: z.string().optional(),
+        pohonDetail: z.string().optional(),  // volitelné upřesnění pohon
         // === Spolková evidence ===
         umisteni: z.string().optional(),                    // současné umístění v Hodináriu
         majitel: z.string().optional(),                     // kdo exponát vlastní
         darceZapujcitel: z.string().optional(),             // od koho jsme dostali (často ≠ majitel)
-        vztahKeSbirce: z.string().optional(),               // zápůjčka / dar / koupě / montáž
-        pridanoDoSbirky: z.string().optional(),             // rok přírůstku do spolku
+        vztahKeSbirce: z.string().optional(),               // zápůjčka / dar / koupě / montáž / spolek
+        // Rok přírůstku — CMS nabízí number widget, ale historicky string.
+        // Tolerujeme oboje a normalizujeme na string v rendereru.
+        pridanoDoSbirky: z.union([z.string(), z.number()]).optional(),
         stav: z.string().optional(),
         restaurovani: z.string().optional(),                // kdy + kdo + co
         adaptaceProVystavu: z.string().optional(),          // co bylo upraveno pro expozici
