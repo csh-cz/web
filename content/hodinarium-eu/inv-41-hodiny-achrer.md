@@ -14,7 +14,7 @@ karta:
   pohon: elektrický (motor)
   pohonDetail: ''
   rozmery: ''
-  umisteni: Hlavní sál
+  umisteni: Sál Věžní
   majitel: Petr Král
   darceZapujcitel: ''
   vztahKeSbirce: zápůjčka
