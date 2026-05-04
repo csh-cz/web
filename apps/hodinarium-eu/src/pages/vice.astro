@@ -5,8 +5,9 @@ import Base from '../layouts/Base.astro';
  * /vice — rozcestník sekundárních sekcí.
  *
  * Top nav drží jen hlavní 7 sekcí (Návštěva, Sbírka, Projekty, Konstrukce,
- * Osobnosti, Mapa, Více). Vše ostatní (Virtuální muzeum, Muzea, Zajímavosti,
- * Kronika, Časová osa, Tagy, Podpora) je dostupné odsud přes dlaždice.
+ * Hodináři, Mapa horologie, Více). Vše ostatní (Virtuální muzeum, Muzea,
+ * Zajímavosti, Kronika, Časová osa, Tagy, Expozice, Kroky, Podpora) je
+ * dostupné odsud přes dlaždice.
  *
  * Princip hub-and-spoke: žádný dropdown menu, jen landing s velkými
  * dlaždicemi. Mobile-first — responsive grid.
@@ -53,8 +54,22 @@ const tiles: Tile[] = [
     href: '/casova-osa',
     title: 'Časová osa',
     description:
-      'Chronologické zobrazení exponátů sbírky podle datace.',
+      'Klíčové milníky historie hodin a hodinařiny — od gnómonu po atomový čas.',
     icon: '⏳',
+  },
+  {
+    href: '/expozice',
+    title: 'Expozice (seznam)',
+    description:
+      'Hodinářské expozice a slavné orloje — Pražský orloj, Hodinárium Děčín, Mindelheim, Greenwich a další. Bez mapy, jako přehledný seznam.',
+    icon: '📍',
+  },
+  {
+    href: '/kroky',
+    title: 'Hodinové kroky',
+    description:
+      'Technický rejstřík typů kroku jicího stroje (escapement) — Graham, Amant, vřetenový, lihýřový, Hippův přerušovač.',
+    icon: '⚙',
   },
   {
     href: '/tagy',

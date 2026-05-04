@@ -27,12 +27,17 @@ const site = Astro.site ?? new URL("https://hodinarium-eu.pages.dev");
 const canonical = new URL(Astro.url.pathname, site).toString();
 
 // Mapa URL → OG slug. Když volající nepředá ogSlug, odvodíme z pathname.
+// Pozn.: /clanky/* a legacy slugy jako /atlas, /decin jsou redirected
+// v public/_redirects, sem se nedostanou — tahle větev je jen pro
+// case kdy SSR projde na neznámou cestu.
 function ogSlugFromPath(path: string): string {
   const p = path.replace(/\/$/, '').replace(/^\//, '');
   if (p === '' || p === 'index') return 'home';
   if (p.startsWith('clanky/')) return p.slice('clanky/'.length);
   if (p === 'clanky') return 'clanky';
-  // /atlas, /mapa, /sbirka, /projekty, /decin, /vezni-hodiny
+  // /sbirka, /projekty, /konstrukce, /muzea, /zajimavosti, /virtualni-muzeum,
+  // /hodinari, /kronika, /tagy, /mapa, /mapa-horologie, /expozice, /kroky,
+  // /casova-osa, /pro-navstevniky, /vice, /podpora, /licence, /en
   return p.split('/')[0];
 }
 const slug = ogSlug ?? ogSlugFromPath(Astro.url.pathname);
@@ -187,6 +192,8 @@ const orgJsonLd = isHome ? {
             <li><a href="/zajimavosti" style="border-bottom: none;">Zajímavosti</a></li>
             <li><a href="/kronika" style="border-bottom: none;">Kronika</a></li>
             <li><a href="/casova-osa" style="border-bottom: none;">Časová osa</a></li>
+            <li><a href="/expozice" style="border-bottom: none;">Expozice (seznam)</a></li>
+            <li><a href="/kroky" style="border-bottom: none;">Hodinové kroky</a></li>
             <li><a href="/tagy" style="border-bottom: none;">Tagy</a></li>
             <li><a href="/podpora" style="border-bottom: none;">Podpora</a></li>
 
