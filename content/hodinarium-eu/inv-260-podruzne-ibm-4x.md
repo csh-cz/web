@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - rohova-vitrina-vedlejsi
   - funkcni
+  - jednotny-cas
 karta:
   inventarniCislo: "260"
   umisteni: "Rohová vitrína (Sál elektro)"

@@ -8,6 +8,9 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:51.122Z"
 relatedKarty:
   - inv-148-bateriove-kienzle
+tags:
+  - budik
+
 ---
 ![Obrázek z dobového katalogu](/img/budiky1/budik_schw1.jpg)
 

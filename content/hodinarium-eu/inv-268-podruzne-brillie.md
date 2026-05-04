@@ -13,6 +13,7 @@ tags:
   - rohova-vitrina-vedlejsi
   - funkcni
   - brillie
+  - jednotny-cas
 karta:
   inventarniCislo: "268"
   umisteni: "Rohová vitrína (Sál elektro)"

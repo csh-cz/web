@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - panel-5
   - funkcni
+  - jednotny-cas
 karta:
   inventarniCislo: "137"
   umisteni: "Panel 5"

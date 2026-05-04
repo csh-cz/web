@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - vitrina-3-vedlejsi
   - nefunkcni
+  - nastenne
 karta:
   inventarniCislo: "228"
   umisteni: "Vitrína 3 (Sál elektro)"

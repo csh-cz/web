@@ -6,6 +6,9 @@ originalUrl: "https://hodinarium.eu/slunecni_polarizacni.htm"
 lastModified: "Wed, 26 Apr 2017 16:22:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:16.762Z"
+tags:
+  - slunecni
+
 ---
 Co byste řekli slunečním hodinám, které nemají žádný ukazatel vrhající stín? Hodinám, které správně ukazují čas, i když je Slunce zakryto mrakem, a které po nějakou dobu fungují dokonce i po západu Slunce či před jeho východem? Jediné, co takové hodiny ke své funkci potřebují, je čisté nebe nad severním obzorem.
 

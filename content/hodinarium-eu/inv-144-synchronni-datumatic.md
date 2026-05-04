@@ -13,6 +13,7 @@ tags:
   - vitrina-1-vedlejsi
   - funkcni
   - datumatic
+  - sitovky
 karta:
   inventarniCislo: "144"
   umisteni: "Vitrína 1 (Sál elektro)"

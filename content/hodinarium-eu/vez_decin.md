@@ -8,6 +8,9 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:27.570Z"
 relatedKarty:
   - inv-1-vezni-hiemann-1884
+tags:
+  - vezni
+
 ---
 Další velký exponát Hodinária pochází z evangelického kostela v Podmoklech. V německých pramenech je kostel uváděn jako evangelische Christuskirche.![decin 1](/img/vez/decin/decin1.jpg) Kostel byl vybudován zásluhou podnikatele Franze Jordana, který také založil v Podmoklech čokoládovnu (na jejíž tradici později navázala známá Diana), podle plánů drážďanského architekta G. L. Moeckela. Kostel se pyšní tím, že na zdejší varhany v roce 1923 hrál Albert Schweitzer.
 

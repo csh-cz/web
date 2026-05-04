@@ -13,6 +13,7 @@ tags:
   - rohova-vitrina-vedlejsi
   - funkcni
   - elektrocas
+  - pichacky
 karta:
   inventarniCislo: "263"
   umisteni: "Rohová vitrína (Sál elektro)"

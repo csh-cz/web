@@ -6,6 +6,9 @@ originalUrl: "https://hodinarium.eu/vodni.htm"
 lastModified: "Wed, 26 Apr 2017 16:25:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:52.721Z"
+tags:
+  - vodni
+
 ---
 Vodní hodiny se objevily na scéně již v počátcích měření času v Egyptě a na Dálném východě. K velké dokonalosti je pak dovedli Řekové. Vodní hodiny poskytly možnost určení času i době či místě, kde Slunce nesvítí a není tak možné použít mnohem přesnějších hodin slunečních. Nejstarší hodiny pracovaly podobně jako později hodiny přesýpací. Čas se poměřoval dobou, za kterou nateče nebo vyteče voda do nebo z vhodné nádoby.!
 

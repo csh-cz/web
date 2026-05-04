@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - rohova-vitrina-vedlejsi
   - funkcni
+  - pichacky
 karta:
   inventarniCislo: "273"
   umisteni: "Rohová vitrína (Sál elektro)"

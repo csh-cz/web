@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - rohova-vitrina-vedlejsi
   - nefunkcni
+  - pichacky
 karta:
   inventarniCislo: "255"
   umisteni: "Rohová vitrína (Sál elektro)"

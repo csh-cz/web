@@ -12,6 +12,8 @@ author: "Český spolek horologický"
 tags:
   - vitrina-1-vedlejsi
   - funkcni
+  - sitovky
+  - digi
 karta:
   inventarniCislo: "145"
   umisteni: "Vitrína 1 (Sál elektro)"

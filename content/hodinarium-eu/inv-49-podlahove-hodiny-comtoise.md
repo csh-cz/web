@@ -13,6 +13,8 @@ tags:
   - hlavni-sal
   - funkcni
   - krok-graham
+  - stolni
+  - nastenne
 karta:
   inventarniCislo: "49"
   umisteni: "Hlavní sál"

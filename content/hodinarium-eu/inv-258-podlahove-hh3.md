@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - rohova-vitrina-vedlejsi
   - funkcni
+  - stolni
 karta:
   inventarniCislo: "258"
   umisteni: "Rohová vitrína (Sál elektro)"

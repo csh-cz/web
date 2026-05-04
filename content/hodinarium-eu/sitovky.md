@@ -6,6 +6,9 @@ originalUrl: "https://hodinarium.eu/sitovky.htm"
 lastModified: "Wed, 26 Apr 2017 20:53:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:42.366Z"
+tags:
+  - sitovky
+
 ---
 **Hodiny, které jdou, ale netikají.**
 

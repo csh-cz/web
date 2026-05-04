@@ -6,6 +6,9 @@ originalUrl: "https://hodinarium.eu/vodni_minutky.htm"
 lastModified: "Wed, 26 Apr 2017 16:27:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:54.545Z"
+tags:
+  - vodni
+
 ---
 !
 

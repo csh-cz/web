@@ -8,6 +8,9 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:27.878Z"
 relatedKarty:
   - inv-18-vezni-barokni-kovane
+tags:
+  - vezni
+
 ---
 [![Kostel Zlaté Hory](/img/vez/ZlateHory/kostel_Zlate_Hory.jpg)](/img/vez/ZlateHory/f/kostel_Zlate_Hory.jpg)
 

@@ -11,6 +11,7 @@ manualEdit: false
 author: "Český spolek horologický"
 tags:
   - rohova-vitrina-vedlejsi
+  - vezni
 karta:
   inventarniCislo: "250"
   umisteni: "Rohová vitrína (Sál elektro)"

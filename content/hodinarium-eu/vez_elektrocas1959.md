@@ -8,6 +8,9 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:38.205Z"
 relatedKarty:
   - inv-17-vezni-hainz
+tags:
+  - vezni
+
 ---
 ![současný stroj Elektročas 1959](/img/vez/f/elektrocas1959.jpg)
 

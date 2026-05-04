@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - panel-5
   - nefunkcni
+  - atomove
 karta:
   inventarniCislo: "132"
   umisteni: "Panel 5"

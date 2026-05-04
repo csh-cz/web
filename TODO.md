@@ -254,6 +254,16 @@ funkcionality, kvality a integrace. Doplňuje obsahový backlog výše.
 - [ ] **D3 124 nezařazených článků** (B7 výše) — ~30 sporných potřebuje
       ruční review kategorie.
 - [ ] **D4 Datace článků** (B5 výše) — 14 článků má rok < 1500 (nesmysl).
+- [ ] **D6 Slug standardizace na kebab-case** — 114 souborů v
+      `content/hodinarium-eu/` má non-kebab slugy: `Arduino`, `astro2_NTP`,
+      `decin_jednotny_cas`, `bychory_prokes1`, `Lantime_M100`, atd.
+      Mix snake_case + camelCase + underscore vyčnívá vedle kebab-case
+      `inv-99-podruzne-hodiny-male-4x` v jedné URL prostoru. Plus
+      v `content/kronika/` (sezona2012, sobeslav2c) podobně.
+      Zásah: 114 file renames + 114 redirectů v _redirects + grep všech
+      inline odkazů `/clanky/<slug>` a `/<kategorie>/<slug>` v body MDX +
+      SEO reindex (Google bude muset projet znovu). Je to čistá kosmetická
+      operace ale citlivá — odložené po dokončení obsahu (cesta B+).
 - [ ] **D5 Konsolidace _redirects** — 766 řádků v
       `apps/hodinarium-eu/public/_redirects`. CF má limit 2 000 řádků na
       free tier; zatím ok, ale narůstá (M5.1 + M5.2 + slug rename přidaly

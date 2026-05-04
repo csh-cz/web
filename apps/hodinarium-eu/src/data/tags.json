@@ -1,8 +1,8 @@
 {
   "_meta": {
     "comment": "Řízeně rozšiřovatelný whitelist tagů pro články. Sloučení všech polí (kromě _meta) se používá v Zod refine validaci v content.config.ts. Nový tag = PR commit s update tohoto souboru. Bez whitelistu by se tagy množily nekonzistentně (atomovky / atomické / atomic).",
-    "version": 2,
-    "updated": "2026-04-30"
+    "version": 3,
+    "updated": "2026-05-04"
   },
   "typ": [
     "vezni",
@@ -16,7 +16,11 @@
     "kvetinove",
     "decimalka",
     "atomove",
-    "budik"
+    "budik",
+    "sitovky",
+    "jednotny-cas",
+    "pichacky",
+    "digi"
   ],
   "pohon": [
     "mechanicke",

@@ -13,6 +13,7 @@ tags:
   - vitrina-3-vedlejsi
   - funkcni
   - elektrocas
+  - jednotny-cas
 karta:
   inventarniCislo: "227"
   umisteni: "Vitrína 3 (Sál elektro)"

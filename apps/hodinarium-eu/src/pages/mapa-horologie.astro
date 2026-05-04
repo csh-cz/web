@@ -97,16 +97,21 @@ for (const p of items) {
 const matchedCount = Object.keys(linkMap).length;
 ---
 <Base
-  title="Horologická mapa Davida Knespla"
-  description={`${items.length} hodinářských zajímavostí Evropy v jedné mapě — orloje, muzea, výrobci. Sdílená Google My Maps Davida Knespla.`}
+  title="Mapa horologie"
+  description={`${items.length} hodinářských zajímavostí v jedné mapě — orloje, muzea, výrobci. Sdílená Google My Maps Davida Knespla.`}
 >
   <header class="max-w-3xl mb-10">
     <p class="eyebrow mb-4">Horologická mapa</p>
-    <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Horologická mapa Evropy</h1>
+    <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Mapa horologie</h1>
     <p class="text-[var(--color-text)] leading-relaxed">
       <strong class="text-[var(--color-brass-bright)]">{items.length}</strong> hodinářských
       zajímavostí — orlojů, muzeí, výroben a slavných hodin —
       v jedné mapě.
+    </p>
+    <p class="text-[var(--color-text-soft)] leading-relaxed mt-3" style="font-size: 0.95rem;">
+      Hledáš mapu konkrétně exponátů Hodinária? Otevři
+      <a href="/mapa"><strong>Mapu exponátů a expozic</strong></a> —
+      odkud pocházejí stroje ve sbírce + slavné orloje a expozice.
     </p>
   </header>
 

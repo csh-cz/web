@@ -8,6 +8,9 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:28.149Z"
 relatedKarty:
   - inv-38-soucast-veznich-hodin
+tags:
+  - vezni
+
 ---
 ![foto2 0](/img/vez/prysk/f/foto2_000.jpg)
 

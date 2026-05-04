@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - vitrina-2-vedlejsi
   - funkcni
+  - digi
 karta:
   inventarniCislo: "173"
   umisteni: "Vitrína 2 (Sál elektro)"

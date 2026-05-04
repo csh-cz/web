@@ -6,6 +6,10 @@ originalUrl: "https://hodinarium.eu/vodni_budik.htm"
 lastModified: "Wed, 26 Apr 2017 16:28:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:54.868Z"
+tags:
+  - budik
+  - vodni
+
 ---
 <div class="article-gallery">
 
