@@ -27,6 +27,7 @@ karta:
   krokJicihoStroje: "Amantův kolíčkový krok"
   biciStroje: "hodinové"
   adaptaceProVystavu: "Stroj byl opraven a nakonzervován, doplněny chybějící části, např."
+thumbnail: '/img/decin/francie1770/f/foto_0001.jpg'
 ---
 
 Půlový hodinový stroj s rámem typu flat bed. Tento způsob uložení kol se u nás vyskytuje vzácně. Stroj má horizontální uspořádání, Amantův kolíčkový krok. Na rámu jsou patrny stopy dodatečných úprav. Bití je půlové, na minutovém kole jsou dva spouštěcí kolíky, závěrkové kolo má širší mezery pro závěrkovou páku. Po odbití celých hodin při následujícím uvolnění v půli závěrková páka zapadne hned po odbití jednoho úderu.

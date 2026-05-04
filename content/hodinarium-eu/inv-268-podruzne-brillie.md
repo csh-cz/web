@@ -22,6 +22,7 @@ karta:
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg'
 ---
 
 ![](/img/elektrika/brillie/Brillie4.jpg)

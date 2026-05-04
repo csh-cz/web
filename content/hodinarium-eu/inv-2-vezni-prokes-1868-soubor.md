@@ -30,6 +30,7 @@ karta:
   krokJicihoStroje: "kolíčkový krok Benoita a Roberta de Sancerre"
   signatura: "Jan Prokeš v Sobotce 1868"
   adaptaceProVystavu: "Kyvadlová litinová čočka je zavěšena na kyvadlové tyči, která byla pro účely vystavení zkrácena."
+thumbnail: '/img/vez/bychory/f/komplet.jpg'
 ---
 
 Do expozice byl zapůjčen věžní komplet Prokeš 1868, původně osazený na zámku Býchory, s unikátním  zvonícím strojem a cimbály. Stroj má několik zajímavostí. Kromě již zmíněného zvonicího stroje je to i neobvyklý kolíčkový krok  Benoita a Roberta  de Sancerre (1852).
