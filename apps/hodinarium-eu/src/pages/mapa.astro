@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import { lokace } from '../data/lokace';
 import catalog from '../data/catalog.json';
 import { clanekHrefFromSlug } from '../data/url-helpers';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 
 const puvod = lokace.filter((l) => l.typ === 'puvod' || l.slug === 'decin_zamek');
 const expozice = lokace.filter((l) => l.typ === 'expozice' || l.typ === 'zajimavost');
@@ -25,6 +26,10 @@ for (const c of (catalog as Array<{ slug: string; category: string }>)) {
 }
 ---
 <Base title="Mapa exponátů a expozic" description="Geografické mapy: původ exponátů Hodinária a další hodinářské expozice u nás i ve světě.">
+  <Breadcrumbs trail={[
+    { href: "/", label: "Hodinárium" },
+    { label: "Mapa exponátů" },
+  ]} />
   <header class="max-w-3xl mb-10">
     <p class="eyebrow mb-4">Geografický rejstřík</p>
     <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Mapa exponátů a expozic</h1>

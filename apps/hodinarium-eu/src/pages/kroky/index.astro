@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { kroky, skupinaLabel, type Krok } from '../../data/kroky';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 const skupinaOrder: Krok['skupina'][] = ['rane', 'klasicke', 'presne', 'volne', 'elektricke'];
 
@@ -21,6 +22,11 @@ const krokyByGroup = groupBySkupina(kroky);
   title="Hodinové kroky"
   description="Rejstřík hodinových kroků (escapements) zmíněných v článcích Hodinária. Stuby pro budoucí podrobné technické články."
 >
+  <Breadcrumbs trail={[
+    { href: "/", label: "Hodinárium" },
+    { href: "/vice", label: "Více" },
+    { label: "Hodinové kroky" },
+  ]} />
   <header class="max-w-3xl mb-10">
     <p class="eyebrow mb-4">Technický rejstřík</p>
     <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Hodinové kroky</h1>

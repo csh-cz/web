@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 
 /**
  * /vice — rozcestník sekundárních sekcí.
@@ -91,6 +92,10 @@ const tiles: Tile[] = [
   title="Více — rozcestník"
   description="Rozcestník sekundárních sekcí Hodinária — Virtuální muzeum, hodinářská muzea, zajímavosti, kronika, časová osa, tagy a podpora spolku."
 >
+  <Breadcrumbs trail={[
+    { href: "/", label: "Hodinárium" },
+    { label: "Více" },
+  ]} />
   <header class="vice-header">
     <p class="eyebrow mb-4">Rozcestník</p>
     <h1>Další sekce</h1>

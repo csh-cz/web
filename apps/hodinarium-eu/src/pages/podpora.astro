@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { SISTER_SPOLEK } from '../data/sites';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 
 const sponzoringUrl = `${SISTER_SPOLEK}/sponzoring`;
 const sponzoringQrUrl = `${SISTER_SPOLEK}/sponzoring#qr`;
@@ -9,6 +10,11 @@ const sponzoringQrUrl = `${SISTER_SPOLEK}/sponzoring#qr`;
   title="Podpora"
   description="Hodinárium Děčín, restaurování věžních strojů a tento web — to vše stojí lidskou práci, čas a peníze. Jak nám můžete pomoci."
 >
+  <Breadcrumbs trail={[
+    { href: "/", label: "Hodinárium" },
+    { href: "/vice", label: "Více" },
+    { label: "Podpora" },
+  ]} />
   <article class="podpora-doc">
     <header class="podpora-header">
       <p class="eyebrow mb-4">Pomozte nám</p>

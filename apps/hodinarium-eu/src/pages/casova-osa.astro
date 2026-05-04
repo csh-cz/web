@@ -4,10 +4,16 @@ import { milniky } from '../data/milniky';
 import catalog from '../data/catalog.json';
 import { clanekHrefFromSlug } from '../data/url-helpers';
 import { milnikLabel } from '../data/labels';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 
 const sorted = [...milniky].sort((a, b) => a.rok - b.rok);
 ---
 <Base title="Časová osa" description="Šest set let hodinařiny — od Mikuláše z Kadaně po DIY hodiny s mikroprocesorem.">
+  <Breadcrumbs trail={[
+    { href: "/", label: "Hodinárium" },
+    { href: "/vice", label: "Více" },
+    { label: "Časová osa" },
+  ]} />
   <header class="max-w-3xl mb-12">
     <p class="eyebrow mb-4">600 let hodinařiny</p>
     <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Časová osa</h1>

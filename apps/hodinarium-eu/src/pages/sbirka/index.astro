@@ -7,6 +7,7 @@ import { kategorie as catMeta } from '../../data/kategorie';
 import { clanekHref } from '../../data/url-helpers';
 
 import type { CatalogEntry as Entry } from '../../data/catalog-types';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 const meta = catMeta.sbirka;
 
@@ -96,6 +97,10 @@ const groupedTiles: Record<TypTile['group'], typeof typTilesWithCount> = {
 };
 ---
 <Base title={meta.jmeno} description={meta.intro}>
+  <Breadcrumbs trail={[
+    { href: "/", label: "Hodinárium" },
+    { label: "Sbírka" },
+  ]} />
   <section class="kategorie-hero mb-12">
     <p class="eyebrow mb-5">Sekce</p>
     <h1 class="hero-title mb-3" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">{meta.jmeno}</h1>
