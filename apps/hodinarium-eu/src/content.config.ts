@@ -30,7 +30,7 @@ const reference = z.object({
   url: z.string().url().optional(),
   author: z.string().optional(),
   year: z.union([z.number(), z.string()]).optional(),
-  type: z.enum(['kniha', 'clanek', 'pdf', 'odkaz', 'wiki', 'mapa', 'patent', 'archiv']).optional(),
+  type: z.enum(['kniha', 'clanek', 'pdf', 'odkaz', 'wiki', 'mapa', 'patent', 'archiv', 'zprava']).optional(),
   note: z.string().optional(),
 });
 

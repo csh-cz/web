@@ -60,3 +60,6 @@ fo:Users:*
 .claude/*
 # Skills jsou sdílená pravidla pro celý tým, tracked v repu
 !.claude/skills/
+tmp/osm-cz-pois.json
+tmp/osm-cz-pois-PARTIAL.json
+tmp/osm-pull.log

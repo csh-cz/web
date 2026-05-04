@@ -28,15 +28,54 @@ export interface Hodinar {
 export const hodinari: Hodinar[] = [
   // === Osobnosti ===
   {
-    slug: 'jan-prokes',
-    jmeno: 'Jan Prokeš',
-    aliasy: ['Prokeš', 'Prokes', 'Jan Prokeš'],
+    slug: 'jan-prokes-jr',
+    jmeno: 'Jan Prokeš ml.',
+    aliasy: ['Jan Prokeš jr.', 'Jan Prokeš ml.', 'Johann Prokesch aus Kopidlno', 'Prokeš Kopidlno'],
     typ: 'osoba',
-    obdobi: 'akt. 1860–1900',
+    obdobi: 'akt. 1890–1900',
+    mesto: 'Kopidlno',
+    zeme: 'CZ',
+    shrnuti:
+      'Syn [Jana Prokeše](/hodinari/jan-prokes), pokračovatel věžních hodin v rodinné tradici. Po otci přesídlil do Kopidlna, signoval „Jan Prokeš Kopidlno" (1894 Jablonec nad Jizerou, 1893 Žďár u Tanvaldu, 1891 Chroustov). Podle Hartmana 1987 nedosáhl kvalit otce.',
+    relatedSlugs: [],
+    era: '19stol',
+  },
+  {
+    slug: 'leopold-prokes',
+    jmeno: 'Leopold Prokeš',
+    aliasy: ['L. Prokeš', 'L. Prokeš v Jičíně'],
+    typ: 'osoba',
+    obdobi: 'akt. ~1900–1910',
+    mesto: 'Jičín',
+    zeme: 'CZ',
+    shrnuti:
+      'Příbuzný [Jana Prokeše](/hodinari/jan-prokes) (pravděpodobně syn nebo synovec), provozoval hodinářskou živnost v Jičíně. Doložené dílo: zámek Milíčeves 1903 (Robertův krok, signováno „L. Prokeš v Jičíně 1903"), v současnosti funkční.',
+    relatedSlugs: [],
+    era: 'prelom',
+  },
+  {
+    slug: 'josef-prokes',
+    jmeno: 'Josef Prokeš',
+    aliasy: ['Josef Prokeš', 'Josef Prokeš ze Sobotky', 'Stavitel Josef Prokeš'],
+    typ: 'osoba',
+    obdobi: 'akt. ~1880–1890',
     mesto: 'Sobotka',
     zeme: 'CZ',
     shrnuti:
-      'Sobotský hodinářský mistr 19. století. Tvůrce velkého věžního strojového kompletu z roku 1868 ze zámku Býchory s unikátním zvonícím strojem. V roce 1865 dodal modelové návrhy pro Pražský orloj.',
+      'Příbuzný [Jana Prokeše](/hodinari/jan-prokes) v Sobotce, doložený jako „mistr Josef Prokeš ze Sobotky" a „stavitel Josef Prokeš ze Sobotky". Pracoval v 80. letech 19. století — Janov 1881 (Kostel sv. Filipa a Jakuba, 640 fl., 4 ciferníky), oprava Zdětín 1883.',
+    relatedSlugs: [],
+    era: '19stol',
+  },
+  {
+    slug: 'jan-prokes',
+    jmeno: 'Jan Prokeš',
+    aliasy: ['Prokeš', 'Prokes', 'Jan Prokeš', 'Johann Prokesch'],
+    typ: 'osoba',
+    obdobi: '1818–1890',
+    mesto: 'Sobotka',
+    zeme: 'CZ',
+    shrnuti:
+      'Sobotský hodinářský mistr 19. století. Tvůrce velkého věžního strojového kompletu z roku 1868 ze zámku Býchory s unikátním zvonícím strojem. V roce 1865 dodal modelové návrhy pro Pražský orloj. Z asi 400+ atribuovaných věžních hodin se dochovaly desítky exemplářů. V rodinné tradici pokračovali synové [Jan Prokeš ml.](/hodinari/jan-prokes-jr) (Kopidlno), [Leopold Prokeš](/hodinari/leopold-prokes) (Jičín) a [Josef Prokeš](/hodinari/josef-prokes) (Sobotka).',
     relatedSlugs: [
       'bychory_cimbaly',
       'bychory_dalsi_kola',
@@ -54,6 +93,32 @@ export const hodinari: Hodinar[] = [
       'vez_provoz2011',
     ],
     era: '19stol',
+  },
+  {
+    slug: 'heinrich-alexander-luz',
+    jmeno: 'Heinrich Alexander Luz',
+    aliasy: ['H. A. Luz', 'Luz', 'Mechanikus Luz', 'Luz in Schlappanitz'],
+    typ: 'osoba',
+    obdobi: '1787–1852',
+    mesto: 'Brno',
+    zeme: 'CZ',
+    shrnuti:
+      'Německý podnikatel a mechanik z Württemberska, vyučený hodinář. Od roku 1821 ředitel strojírny ve Šlapanicích u Brna, později přemístěné do Brna — předchůdce První brněnské strojírny. Od roku 1834 vyráběl celolitinové věžní hodiny ve dvou variantách (osmidenní a denní) za 100 zl. — méně než polovina ceny běžných vesnických hodin. Dochovaný exemplář ve Vanovicích u Blanska (evangelický kostel).',
+    relatedSlugs: [],
+    era: '19stol',
+  },
+  {
+    slug: 'franz-joseph-gerstner',
+    jmeno: 'František Josef Gerstner',
+    aliasy: ['F. J. Gerstner', 'Franz Joseph Gerstner', 'Gerstner'],
+    typ: 'osoba',
+    obdobi: '1756–1832',
+    mesto: 'Praha',
+    zeme: 'CZ',
+    shrnuti:
+      'Český matematik, fyzik a inženýr, jeden ze zakladatelů a první ředitel **Pražské polytechniky** (předchůdce ČVUT). Spolupracoval s hrabětem [Rudolfem von Wrbnou](/) na rozvoji metalurgie v Komárovských železárnách a v roce 1809 spolu s mechanikem [Josefem Božkem](/hodinari/josef-bozek) navrhl celolitinové věžní hodiny pro sériovou výrobu. Dochovaný exemplář na hradu Křivoklát (1817).',
+    relatedSlugs: [],
+    era: 'baroko',
   },
   {
     slug: 'ludvik-hainz',
