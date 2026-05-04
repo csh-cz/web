@@ -23,14 +23,14 @@ const dateString = z.preprocess(
 /**
  * Schéma jednoho odkazu / literatury pod článkem.
  * - title povinný; ostatní volitelné
- * - type ovlivní ikonku/řazení (kniha, článek, PDF, web odkaz, wiki, mapa)
+ * - type ovlivní ikonku/řazení (kniha, článek, PDF, web odkaz, wiki, mapa, patent, archiv)
  */
 const reference = z.object({
   title: z.string(),
   url: z.string().url().optional(),
   author: z.string().optional(),
   year: z.union([z.number(), z.string()]).optional(),
-  type: z.enum(['kniha', 'clanek', 'pdf', 'odkaz', 'wiki', 'mapa']).optional(),
+  type: z.enum(['kniha', 'clanek', 'pdf', 'odkaz', 'wiki', 'mapa', 'patent', 'archiv']).optional(),
   note: z.string().optional(),
 });
 
