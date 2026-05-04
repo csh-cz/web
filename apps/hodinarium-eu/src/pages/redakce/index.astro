@@ -156,9 +156,7 @@ const hodinariTotal = (r.summary.hodinariTotal as number) ?? 40;
     <h1 class="redakce-title">Redakční přehled</h1>
     <p class="redakce-lede">
       Seznam karet, článků a medailonů co potřebují <strong>review</strong>,
-      <strong>doplnění</strong> nebo <strong>opravu</strong>. Klik na položku
-      tě přesměruje do CMS na editaci. Po editaci a uložení se entry odstraní
-      z příštího reportu (rebuild Pages CI).
+      <strong>doplnění</strong> nebo <strong>opravu</strong>.
     </p>
     <p class="redakce-meta">
       Vygenerováno: <time datetime={r.generatedAt}>{generatedDate}</time>
@@ -166,6 +164,120 @@ const hodinariTotal = (r.summary.hodinariTotal as number) ?? 40;
       &nbsp;·&nbsp; Issues: {totalIssues}
     </p>
   </header>
+
+  <!-- Nápověda — jak stránku používat. Pro non-IT editory. -->
+  <aside class="redakce-help" id="redakce-help-aside">
+    <details>
+      <summary>
+        <strong>📖 Jak tuto stránku používat</strong>
+        <span class="redakce-help-toggle-hint">(klikni pro otevření)</span>
+      </summary>
+      <div class="redakce-help-body">
+        <h3>Co tady najdeš</h3>
+        <p>
+          Stránka ti ukazuje <strong>seznam položek na webu, které ještě nejsou
+          úplné</strong> — chybí jim foto, popis výrobce, kategorie, nebo jiné
+          detaily. Tobě jako redaktorovi pomáhá vědět, kde je co potřeba doplnit.
+        </p>
+
+        <h3>Jak je seznam organizovaný</h3>
+        <ul>
+          <li>
+            <strong>Sekce</strong> jsou rozděleny podle typu chybějící informace
+            (např. „Karty bez náhledové fotky").
+          </li>
+          <li>
+            Každá sekce má barevný proužek vlevo:
+            <span class="redakce-help-pill redakce-help-pill-high">červený = vysoká priorita</span>
+            <span class="redakce-help-pill redakce-help-pill-medium">žlutý = střední</span>
+            <span class="redakce-help-pill redakce-help-pill-low">šedý = nízká</span>
+          </li>
+          <li>
+            U každé sekce vidíš <strong>počet</strong> (např. „93") — kolik
+            položek je k doplnění.
+          </li>
+          <li>
+            Klikni na <em>„Zobrazit seznam"</em> a rozbalí se ti seznam
+            konkrétních karet/článků.
+          </li>
+        </ul>
+
+        <h3>Jak něco opravit</h3>
+        <ol>
+          <li>
+            Najdi v seznamu kartu nebo článek, který chceš opravit.
+          </li>
+          <li>
+            <strong>Klikni na jeho jméno</strong> — automaticky se otevře
+            redakční systém (CMS) přímo na editaci té položky.
+          </li>
+          <li>
+            Doplň, co potřebuje — chybějící foto, výrobce, kategorii…
+          </li>
+          <li>
+            Klikni v CMS dole vlevo <strong>„Save"</strong> (uložit).
+            Změna se uloží a po několika minutách zmizí z tohoto seznamu.
+          </li>
+          <li>
+            Po uložení tě CMS automaticky vrátí zpět na stránku co jsi
+            upravoval — můžeš zkontrolovat, jak vypadá.
+          </li>
+        </ol>
+
+        <h3>Co znamenají odborné termíny</h3>
+        <dl class="redakce-help-glossary">
+          <dt>Karta exponátu</dt>
+          <dd>
+            Strukturovaný popis jednoho předmětu ve sbírce (= „evidenční karta").
+            Obsahuje inv. číslo, výrobce, datum, umístění v expozici atd.
+          </dd>
+          <dt>Článek</dt>
+          <dd>
+            Volný text — esej, návod, popis projektu, popis cizího muzea…
+            Není to evidenční karta, ale narrativní obsah.
+          </dd>
+          <dt>Typ-tag</dt>
+          <dd>
+            Klíčové slovo, které říká „toto jsou věžní hodiny" /
+            „toto je budík" / „toto jsou síťovky". Bez něj se karta
+            nezobrazí v dlaždicích na stránce <em>Sbírka</em>.
+          </dd>
+          <dt>Thumbnail</dt>
+          <dd>
+            Náhledová fotka — to malé obrázkové dlaždice co návštěvník vidí
+            v atlasu/katalogu. Bez něj je tam jen prázdný rámeček.
+          </dd>
+          <dt>Slug</dt>
+          <dd>
+            Krátký „technický" název v adrese stránky (např.
+            <code>inv-100-strojek-hainz</code>). Vidíš ho jen jako
+            poznámku — neměň ho, je to identifikátor.
+          </dd>
+          <dt>Tldr / perex</dt>
+          <dd>
+            Krátký souhrn článku (1–2 věty). Zobrazí se jako „upoutávka"
+            v seznamech a na sociálních sítích.
+          </dd>
+        </dl>
+
+        <h3>Co když si nevím rady?</h3>
+        <p>
+          Napiš na <a href="mailto:info@orloj.eu">info@orloj.eu</a> nebo zavolej
+          Davidovi (+420&nbsp;603&nbsp;502&nbsp;735). Některé položky vyžadují
+          fotky které nemáme nebo informace co není veřejně dostupná —
+          v takovém případě je v pořádku je <strong>nechat na seznamu</strong>,
+          nemusíš všechno vyřešit hned.
+        </p>
+
+        <h3>Tip pro starší editory</h3>
+        <p>
+          Stránka je <strong>jen pro tebe</strong> — když jsi přihlášen jako
+          editor, vidíš ji. Běžný návštěvník Hodinária ji neuvidí, takže nemusíš
+          mít obavu, že někdo uvidí „nedodělaný" stav. Je to pracovní seznam.
+        </p>
+      </div>
+    </details>
+  </aside>
 
   <!-- Auth gate — zobrazí se anonymous návštěvníkům -->
   <div id="redakce-auth-gate" class="redakce-auth-gate hidden">
@@ -500,4 +612,112 @@ const hodinariTotal = (r.summary.hodinariTotal as number) ?? 40;
   }
 
   .hidden { display: none !important; }
+
+  /* Nápověda pro editory — collapsible aside.
+     Pro starší non-IT editory: jasné termíny, krok-za-krokem, vysvětlené pojmy. */
+  .redakce-help {
+    margin-bottom: 2rem;
+    background: color-mix(in srgb, var(--color-bg-elevated) 85%, var(--color-brass));
+    border-left: 3px solid var(--color-brass);
+    border-radius: 2px;
+  }
+  .redakce-help summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    color: var(--color-brass-bright);
+    user-select: none;
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .redakce-help summary::-webkit-details-marker { display: none; }
+  .redakce-help summary::before {
+    content: '▶';
+    display: inline-block;
+    transition: transform 150ms ease;
+    font-size: 0.7rem;
+  }
+  .redakce-help[open] summary::before {
+    transform: rotate(90deg);
+  }
+  details[open] > summary::before {
+    transform: rotate(90deg);
+  }
+  .redakce-help-toggle-hint {
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+    font-style: italic;
+  }
+  .redakce-help-body {
+    padding: 0 1.5rem 1.5rem;
+    color: var(--color-text);
+    line-height: 1.65;
+    max-width: 720px;
+  }
+  .redakce-help-body h3 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--color-brass-bright);
+    margin: 1.25rem 0 0.5rem;
+    border: none; padding: 0;
+  }
+  .redakce-help-body h3::before { content: none; }
+  .redakce-help-body h3:first-child { margin-top: 0; }
+  .redakce-help-body p {
+    margin: 0 0 0.85rem;
+  }
+  .redakce-help-body ul,
+  .redakce-help-body ol {
+    padding-left: 1.5rem;
+    margin: 0 0 0.85rem;
+  }
+  .redakce-help-body li {
+    margin-bottom: 0.4rem;
+  }
+  .redakce-help-pill {
+    display: inline-block;
+    padding: 0.05rem 0.45rem;
+    border-radius: 2px;
+    font-size: 0.85rem;
+    margin-right: 0.4rem;
+  }
+  .redakce-help-pill-high {
+    background: color-mix(in srgb, #c44 15%, transparent);
+    color: #c44;
+    border: 1px solid #c44;
+  }
+  .redakce-help-pill-medium {
+    background: color-mix(in srgb, var(--color-copper) 15%, transparent);
+    color: var(--color-copper);
+    border: 1px solid var(--color-copper);
+  }
+  .redakce-help-pill-low {
+    background: color-mix(in srgb, var(--color-text-muted) 12%, transparent);
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-text-muted);
+  }
+  .redakce-help-glossary {
+    margin: 0 0 0.85rem;
+  }
+  .redakce-help-glossary dt {
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin-top: 0.65rem;
+    margin-bottom: 0.15rem;
+  }
+  .redakce-help-glossary dd {
+    margin: 0 0 0 1rem;
+    color: var(--color-text-soft);
+    font-size: 0.95rem;
+  }
+  .redakce-help-glossary code {
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 0.85rem;
+    background: var(--color-bg);
+    padding: 0.1rem 0.3rem;
+    border-radius: 2px;
+  }
 </style>

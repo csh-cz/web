@@ -2,15 +2,9 @@
 import Base from '../../layouts/Base.astro';
 import { kroky } from '../../data/kroky';
 import catalog from '../../data/catalog.json';
+import { clanekHref } from '../../data/url-helpers';
 
-interface CatalogEntry {
-  slug: string;
-  title: string;
-  category: string;
-  thumbnail: string | null;
-  excerpt: string;
-  imageCount: number;
-}
+import type { CatalogEntry } from '../../data/catalog-types';
 
 export async function getStaticPaths() {
   return kroky.map((k) => ({
@@ -79,7 +73,7 @@ const related = krok.relatedSlugs
           <ul class="krok-related-list">
             {related.map((c) => (
               <li>
-                <a href={`/clanky/${c.slug}`}>
+                <a href={clanekHref(c)}>
                   {c.thumbnail && (
                     <img src={c.thumbnail} alt="" loading="lazy" decoding="async" />
                   )}

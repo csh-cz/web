@@ -11,11 +11,7 @@ interface Placemark {
   coords: { lng: number; lat: number };
   folder: string;
 }
-interface CatalogEntry {
-  slug: string;
-  title: string;
-  category: string;
-}
+import type { CatalogEntry } from '../data/catalog-types';
 
 // Merge KML import + ručně doplněné položky (extra). Extra soubor přežije
 // re-import KML přes pnpm gmaps:parse.

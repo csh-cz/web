@@ -12,14 +12,7 @@ interface Props {
 
 const { href, title, excerpt, thumbnail, category, lastModified, imageCount, external } = Astro.props;
 
-const categoryLabels: Record<string, string> = {
-  decin: 'Děčín',
-  'vezni-hodiny': 'Věžní',
-  sbirka: 'Sbírka',
-  projekty: 'Projekt',
-  spolek: 'Spolek',
-  ostatni: '',
-};
+import { categoryLabel } from '../data/labels';
 
 const lastModifiedShort = lastModified
   ? (() => {
@@ -50,8 +43,8 @@ const lastModifiedShort = lastModified
   </div>
   <div class="atlas-card-body">
     <div class="atlas-card-meta">
-      {category && categoryLabels[category] && (
-        <span class="eyebrow">{categoryLabels[category]}</span>
+      {category && categoryLabel(category) && (
+        <span class="eyebrow">{categoryLabel(category)}</span>
       )}
       {lastModifiedShort && (
         <span class="atlas-card-updated" title={`Aktualizováno ${lastModifiedShort}`}>

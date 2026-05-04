@@ -1,16 +1,7 @@
 ---
 import catalog from "../data/catalog.json";
 
-interface Entry {
-  slug: string;
-  title: string;
-  category: string;
-  thumbnail: string | null;
-  excerpt: string;
-  year: number | null;
-  imageCount: number;
-  wordCount: number;
-}
+import type { CatalogEntry as Entry } from '../data/catalog-types';
 
 const entries: Entry[] = catalog as Entry[];
 
@@ -23,6 +14,14 @@ const searchData = entries.map((e) => ({
   y: e.year,
   th: e.thumbnail,
 }));
+
+// Krátké labely kategorií — jediný zdroj pravdy (data/labels.ts).
+// Předává se browser-side scriptu přes define:vars (řádek dole).
+import { categoryLabel } from '../data/labels';
+const CATEGORIES_USED = ['sbirka','konstrukce','projekty','virtualni-muzeum','muzea','zajimavosti','decin','vezni-hodiny','spolek','ostatni'] as const;
+const categoryLabelsForClient = Object.fromEntries(
+  CATEGORIES_USED.map((c) => [c, categoryLabel(c, 'short')])
+);
 ---
 <dialog id="search-modal" aria-label="Vyhledávání">
   <div class="search-modal-inner">
@@ -201,7 +200,7 @@ const searchData = entries.map((e) => ({
   }
 </style>
 
-<script define:vars={{ searchData }}>
+<script define:vars={{ searchData, categoryLabels: categoryLabelsForClient }}>
   let fuse = null;
   let activeIdx = -1;
   let lastResults = [];
@@ -210,14 +209,7 @@ const searchData = entries.map((e) => ({
   const input = document.getElementById('search-input');
   const resultsEl = document.getElementById('search-results');
 
-  const categoryLabels = {
-    decin: 'Děčín',
-    'vezni-hodiny': 'Věž',
-    sbirka: 'Sbírka',
-    projekty: 'Projekt',
-    spolek: 'Spolek',
-    ostatni: '',
-  };
+  // categoryLabels předány z frontmatter přes define:vars — jediný zdroj pravdy.
 
   async function ensureFuse() {
     if (fuse) return fuse;
@@ -274,7 +266,11 @@ const searchData = entries.map((e) => ({
       const thumb = item.th
         ? `<div class="search-result-thumb"><img src="${item.th}" alt="" loading="lazy" /></div>`
         : `<div class="search-result-thumb"><div class="search-result-thumb-placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" width="24" height="24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round"/></svg></div></div>`;
-      return `<a class="search-result${idx === activeIdx ? ' is-active' : ''}" href="/clanky/${item.s}" data-idx="${idx}">${thumb}<div class="search-result-body"><div class="search-result-meta">${cat}${year}</div><div class="search-result-title">${titleHtml}</div><div class="search-result-excerpt">${excerptHtml}</div></div></a>`;
+      // URL routing: nové kategorie vedou na /<kategorie>/<slug>, legacy fallback /clanky/<slug>.
+      const href = ['sbirka','konstrukce','projekty','virtualni-muzeum','muzea','zajimavosti'].includes(item.c)
+        ? `/${item.c}/${item.s}`
+        : `/clanky/${item.s}`;
+      return `<a class="search-result${idx === activeIdx ? ' is-active' : ''}" href="${href}" data-idx="${idx}">${thumb}<div class="search-result-body"><div class="search-result-meta">${cat}${year}</div><div class="search-result-title">${titleHtml}</div><div class="search-result-excerpt">${excerptHtml}</div></div></a>`;
     }).join('');
   }
 

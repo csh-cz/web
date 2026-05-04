@@ -8,17 +8,7 @@ import { hodinariProClanek } from "../data/hodinari";
 import { krokyProClanek } from "../data/kroky";
 import { clanekHref } from "../data/url-helpers";
 
-interface CatalogEntry {
-  slug: string;
-  title: string;
-  category: string;
-  thumbnail: string | null;
-  excerpt: string;
-  year: number | null;
-  lastModified: string | null;
-  imageCount: number;
-  wordCount: number;
-}
+import type { CatalogEntry } from '../data/catalog-types';
 
 interface Reference {
   title: string;
@@ -84,13 +74,7 @@ function formatAuthor(name: string): string {
 }
 const authorFormatted = author ? formatAuthor(author) : null;
 
-const categoryLabels: Record<string, string> = {
-  decin: 'Hodinárium Děčín',
-  'vezni-hodiny': 'Věžní hodiny',
-  sbirka: 'Sbírka',
-  projekty: 'Projekty',
-  ostatni: 'Hodinárium',
-};
+import { categoryLabel } from '../data/labels';
 
 const all = catalog as CatalogEntry[];
 const me = slug ? all.find((e) => e.slug === slug) : undefined;
@@ -151,7 +135,7 @@ const articleJsonLd = {
       url: new URL('/img/logo-csh.png', site).toString(),
     },
   },
-  ...(category && { articleSection: categoryLabels[category] ?? category }),
+  ...(category && { articleSection: categoryLabel(category, 'long') ?? category }),
   isPartOf: {
     '@type': 'WebSite',
     name: 'Hodinárium',
@@ -167,7 +151,7 @@ const articleJsonLd = {
     <span aria-hidden="true">›</span>
     {category && (
       <>
-        <a href={`/${category}`}>{categoryLabels[category]}</a>
+        <a href={`/${category}`}>{categoryLabel(category, 'long')}</a>
         <span aria-hidden="true">›</span>
       </>
     )}
@@ -182,7 +166,7 @@ const articleJsonLd = {
 
     <header class="article-header">
       {category && (
-        <p class="eyebrow mb-3">{categoryLabels[category] ?? category}</p>
+        <p class="eyebrow mb-3">{categoryLabel(category, 'long') ?? category}</p>
       )}
       <h1 class="article-title" itemprop="headline">{title}</h1>
       {perexText && (

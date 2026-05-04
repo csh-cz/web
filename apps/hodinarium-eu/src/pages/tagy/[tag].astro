@@ -6,17 +6,7 @@ import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
 import tagsWhitelist from '../../data/tags.json';
 
-interface CatalogEntry {
-  slug: string;
-  title: string;
-  category: string;
-  thumbnail: string | null;
-  excerpt: string;
-  year: number | null;
-  lastModified: string | null;
-  imageCount: number;
-  wordCount: number;
-}
+import type { CatalogEntry } from '../../data/catalog-types';
 interface TagsWhitelist {
   _meta?: unknown;
   [dimenze: string]: string[] | unknown;

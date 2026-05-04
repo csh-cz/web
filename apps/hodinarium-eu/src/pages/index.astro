@@ -5,17 +5,7 @@ import catalog from '../data/catalog.json';
 import { lokace } from '../data/lokace';
 import { clanekHref } from '../data/url-helpers';
 
-interface Entry {
-  slug: string;
-  title: string;
-  category: string;
-  thumbnail: string | null;
-  excerpt: string;
-  year: number | null;
-  lastModified: string | null;
-  imageCount: number;
-  wordCount: number;
-}
+import type { CatalogEntry as Entry } from '../data/catalog-types';
 const entries: Entry[] = catalog as Entry[];
 
 // Featured: ručně vybrané 4 nejcennější/nejvizuálnější

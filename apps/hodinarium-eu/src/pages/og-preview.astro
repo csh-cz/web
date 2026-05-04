@@ -2,12 +2,7 @@
 import Base from '../layouts/Base.astro';
 import catalog from '../data/catalog.json';
 
-interface Entry {
-  slug: string;
-  title: string;
-  thumbnail: string | null;
-  excerpt: string;
-}
+import type { CatalogEntry as Entry } from '../data/catalog-types';
 
 const ukazky = ['astro2_NTP', 'sobeslav3', 'svarcvaldky', 'decin_koncepce']
   .map((s) => (catalog as Entry[]).find((e) => e.slug === s))

@@ -1,17 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
 import { milniky } from '../data/milniky';
+import catalog from '../data/catalog.json';
+import { clanekHrefFromSlug } from '../data/url-helpers';
+import { milnikLabel } from '../data/labels';
 
 const sorted = [...milniky].sort((a, b) => a.rok - b.rok);
-
-const kategorieLabels: Record<string, string> = {
-  orloj: 'Pražský orloj',
-  vez: 'Věžní hodiny',
-  objev: 'Bádání',
-  sbirka: 'Sbírka',
-  projekty: 'Projekty',
-  spolek: 'Spolek',
-};
 ---
 <Base title="Časová osa" description="Šest set let hodinařiny — od Mikuláše z Kadaně po DIY hodiny s mikroprocesorem.">
   <header class="max-w-3xl mb-12">
@@ -30,13 +24,13 @@ const kategorieLabels: Record<string, string> = {
           <span>{m.rokText ?? m.rok}</span>
         </div>
         <div class="timeline-obsah">
-          <p class="eyebrow timeline-kat">{kategorieLabels[m.kategorie]}</p>
+          <p class="eyebrow timeline-kat">{milnikLabel(m.kategorie)}</p>
           <h3 class="timeline-titulek">{m.titulek}</h3>
           <p class="timeline-popis" set:html={m.popis} />
           {(m.slug || m.externalUrl) && (
             <p class="timeline-odkaz">
               {m.slug && (
-                <a href={`/clanky/${m.slug}`}>Otevřít článek →</a>
+                <a href={clanekHrefFromSlug(m.slug, catalog)}>Otevřít článek →</a>
               )}
               {m.externalUrl && (
                 <a href={m.externalUrl} rel="noopener" target="_blank">
