@@ -19,6 +19,7 @@ karta:
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/laplace/laplace_prestavba2b.jpg'
 ---
 
 ## Stub karty

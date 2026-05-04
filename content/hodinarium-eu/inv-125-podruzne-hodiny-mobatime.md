@@ -22,6 +22,7 @@ karta:
   majitel: "Elekon"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/Mobatime/struktura2020.jpg'
 ---
 
 ![](/img/Mobatime/3218C1.jpg)

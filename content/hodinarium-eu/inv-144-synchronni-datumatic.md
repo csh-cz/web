@@ -21,6 +21,7 @@ karta:
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/datumatic/foto_0003.jpg'
 ---
 
 ![](/img/datumatic/f/foto_0003.jpg)

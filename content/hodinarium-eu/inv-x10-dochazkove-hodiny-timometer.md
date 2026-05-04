@@ -20,6 +20,7 @@ karta:
   majitel: "Kouba"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/Timometer/foto_0009.jpg'
 ---
 
 ## Stub karty

@@ -21,6 +21,7 @@ karta:
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/pragotron/CPJ061_1.jpg'
 ---
 
 ![](/img/pragotron/C%2030%20ZEZADU+PS%204.jpg)
