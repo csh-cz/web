@@ -22,6 +22,7 @@ karta:
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/elektrika/Bodet/Profil930NTP.png'
 ---
 
 ![](/img/H715_BODET/foto_0001.jpg)

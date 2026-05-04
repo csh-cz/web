@@ -21,6 +21,7 @@ karta:
   stav: "funkční"
   extra:
     - { label: "Poznámka", value: "Vráceno 28.4.2020" }
+thumbnail: '/img/decin/gibbus/gibbus1.jpg'
 ---
 
 ## Stub karty

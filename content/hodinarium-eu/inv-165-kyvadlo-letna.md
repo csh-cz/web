@@ -18,6 +18,7 @@ karta:
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/elektrika/kyvadlo/pripravek.jpg'
 ---
 
 ## Stub karty
