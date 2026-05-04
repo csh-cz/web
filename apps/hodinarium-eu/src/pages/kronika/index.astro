@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 const all = await getCollection('kronika');
 // Sort descending by date
@@ -30,6 +31,11 @@ const typLabels: Record<string, string> = {
   title="Kronika"
   description="Chronologický feed událostí spolku ČSH — vernisáže, fotoreporty, sezóny, výstavky, akvizice. Od založení Virtuálního muzea hodin (2009) přes Věžní muzejíčko v Soběslavi (2011–2015) po Hodinárium Děčín (od 2015)."
 >
+  <Breadcrumbs trail={[
+    { href: "/", label: "Hodinárium" },
+    { href: "/vice", label: "Více" },
+    { label: "Kronika Hodinária" },
+  ]} />
   <header class="kronika-header">
     <p class="eyebrow mb-3">Kronika</p>
     <h1 class="kronika-title">Co se dělo v expozici a kolem ní</h1>

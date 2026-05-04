@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 
 /**
  * Pro návštěvníky — praktický průvodce pro lidi, kteří se chystají do
@@ -81,6 +82,10 @@ const placeJsonLd = {
   title="Pro návštěvníky — Hodinárium Děčín"
   description="Praktický průvodce pro návštěvu Hodinária na zámku Děčín. Adresa, doprava, plán prohlídky, vstupné. Otevřeno v rámci programu zámku."
 >
+  <Breadcrumbs trail={[
+    { href: "/", label: "Hodinárium" },
+    { label: "Návštěva" },
+  ]} />
   <script type="application/ld+json" set:html={JSON.stringify(placeJsonLd)} />
 
   <!-- HERO -->

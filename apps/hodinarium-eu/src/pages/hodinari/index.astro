@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { hodinari, eraLabel, type Hodinar } from '../../data/hodinari';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 const osoby = hodinari.filter((h) => h.typ === 'osoba');
 const firmy = hodinari.filter((h) => h.typ === 'firma');
@@ -25,6 +26,10 @@ const firmyByEra = groupByEra(firmy);
   title="Hodináři"
   description="Rejstřík hodinářů, hodinářských firem a atelliérů zmíněných v článcích Hodinária. Životopisné stuby k postupnému doplňování."
 >
+  <Breadcrumbs trail={[
+    { href: "/", label: "Hodinárium" },
+    { label: "Hodináři" },
+  ]} />
   <header class="max-w-3xl mb-10">
     <p class="eyebrow mb-4">Biografický rejstřík</p>
     <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Hodináři</h1>

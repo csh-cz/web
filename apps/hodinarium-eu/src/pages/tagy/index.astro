@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import tagsWhitelist from '../../data/tags.json';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 interface TagsWhitelist {
   _meta?: unknown;
@@ -55,6 +56,11 @@ const taggedArticles = all.filter((e) => (e.data.tags ?? []).length > 0).length;
   title="Tagy"
   description={`Filtr článků podle ${totalUsed} tagů v 8 dimenzích — typ hodin, pohon, regulátor, období, stav, lokace, kontext, výrobce.`}
 >
+  <Breadcrumbs trail={[
+    { href: "/", label: "Hodinárium" },
+    { href: "/vice", label: "Více" },
+    { label: "Tagy" },
+  ]} />
   <header class="tagy-header">
     <p class="eyebrow mb-3">Tagy</p>
     <h1 class="tagy-title">Filtr podle vlastností</h1>

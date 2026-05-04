@@ -12,6 +12,7 @@ interface Placemark {
   folder: string;
 }
 import type { CatalogEntry } from '../data/catalog-types';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 
 // Merge KML import + ručně doplněné položky (extra). Extra soubor přežije
 // re-import KML přes pnpm gmaps:parse.
@@ -96,6 +97,10 @@ const matchedCount = Object.keys(linkMap).length;
   title="Mapa horologie"
   description={`${items.length} hodinářských zajímavostí v jedné mapě — orloje, muzea, výrobci. Sdílená Google My Maps Davida Knespla.`}
 >
+  <Breadcrumbs trail={[
+    { href: "/", label: "Hodinárium" },
+    { label: "Mapa horologie" },
+  ]} />
   <header class="max-w-3xl mb-10">
     <p class="eyebrow mb-4">Horologická mapa</p>
     <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Mapa horologie</h1>
