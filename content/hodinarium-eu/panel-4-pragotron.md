@@ -26,6 +26,7 @@ relatedKarty:
   - inv-120-nastenne-schauer
   - inv-121-podruzne-pragotron-perla
   - inv-122-ipj-0612-3x
+tldr: 'V horní části panelu jsou podružné hodiny CPJ061, které kromě časové informace ukazují den v týdnu, datum a měsíc.'
 ---
 
 ## Sestava Pragotron — mechanická matice

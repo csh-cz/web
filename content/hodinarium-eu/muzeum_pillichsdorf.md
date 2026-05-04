@@ -15,6 +15,7 @@ references:
   - title: "weinviertel.at — Pfarrkirche St. Martin & Turmmuseum Pillichsdorf"
     url: "https://www.weinviertel.at/ausflug-und-freizeit/a-pfarrkirche-st-martin-u-turmmuseum-pillichsdorf"
     type: odkaz
+tldr: 'Malé věžní muzeum v 500 let staré věži farního kostela sv. Martina v Pillichsdorfu (Dolní Rakousko, region Weinviertel). Založeno v roce 1984, od roku 1987 rozšířeno o druhé podlaží věže.'
 ---
 
 Malé věžní muzeum v **500 let staré věži farního kostela sv. Martina** v Pillichsdorfu (Dolní Rakousko, region Weinviertel). Založeno v roce 1984, od roku 1987 rozšířeno o druhé podlaží věže.

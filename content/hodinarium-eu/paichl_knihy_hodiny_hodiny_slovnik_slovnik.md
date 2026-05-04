@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/paichl/knihy/hodiny/hodiny_slovnik/slovnik.h
 lastModified: "Wed, 05 Mar 2025 20:05:23 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:27.991Z"
+tldr: "\"; with (frames\\['frScroll'\\].document) { open(\"text/html\",\"replace\"); write(szHTML); close(); } szHTML = \"\"+ \"A:link,A:visited,A:active {text-decoration:none;\"+\"color:\"+c\\_rgszClr\\[3\\]+\";}\"+ \".clTab…"
 ---
 "+ ""+ ""+ ""+ ""+ ""+ "
 

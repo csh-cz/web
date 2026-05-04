@@ -14,6 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "105"
+  vyrobce: "Perconta"
   umisteni: "Panel 3"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"

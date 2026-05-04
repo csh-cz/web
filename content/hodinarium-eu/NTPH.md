@@ -7,6 +7,7 @@ lastModified: "Wed, 01 Oct 2025 11:22:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:23.264Z"
 manualEdit: true
+tldr: 'Hodiny jsou vyrobeny 3D tiskem ve dvou variantách a jsou ovládané elektronikou sestávající z modulu ESP8266 ESP-12F a motoru s řadičem 28BYJ48.…'
 ---
 ![NTPH magnetické](/img/3D/magneticke.jpg)
 

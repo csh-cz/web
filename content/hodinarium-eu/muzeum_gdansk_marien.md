@@ -10,6 +10,7 @@ manualEdit: true
 author: "Český spolek horologický"
 tags:
   - evropa
+tldr: 'Středověký orloj v gdaňské Bazilice Nanebevzetí Panny Marie. Patří mezi nejstarší dochované astronomické věžní hodiny v Polsku. V roce 2022 byl detailně prezentován prof. A.…'
 ---
 
 Středověký orloj v gdaňské Bazilice Nanebevzetí Panny Marie. Patří mezi nejstarší dochované astronomické věžní hodiny v Polsku. V roce 2022 byl detailně prezentován prof. A. Januszajtisem na rostockém symposiu Mittelalterliche astronomische Großuhren.

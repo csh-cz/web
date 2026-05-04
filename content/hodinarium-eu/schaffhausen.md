@@ -9,6 +9,7 @@ originalUrl: "https://hodinarium.eu/schaffhausen.htm"
 lastModified: "Wed, 26 Apr 2017 14:11:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:00.680Z"
+tldr: 'Digitalizace se u hodinek (tehdy kapesních) projevila již v roce 1885, kdy byly vyrobeny tyto úžasné IWC Schaffhausen.…'
 ---
 Digitalizace se u hodinek (tehdy kapesních) projevila již v roce 1885, kdy byly vyrobeny tyto úžasné IWC Schaffhausen. Ponechme teď stranou spory o to, zda otáčené ciferníky pozorované průhledem, jsou digitální nebo analogové hodiny. Jsou totiž lidé, co tvrdí, že mechanické digitálky neexistují. Za pravé digitálky považují pouze hodiny, kdy celé zpraco*vání časového údaje je čistě číslicové. Přidržíme se volnějšího výkladu a za digitálky budeme považovat hodiny či hodinky, se zobrazením času ve formě čísel. To nám umožní kochat se následujícím výtvorem.*
 

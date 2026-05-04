@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/razitka.htm"
 lastModified: "Wed, 26 Apr 2017 16:13:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:09.302Z"
+tldr: 'Časové razítko je doplňkový soubor, který pro daný elektronický dokument osvědčuje jeho existenci v určitém čase. Nejčastěji se používá v elektronických podatelnách a při datování smluv a podobných dokumentů.…'
 ---
 **Č**asové razítko je doplňkový soubor, který pro daný elektronický dokument osvědčuje jeho existenci v určitém čase. Nejčastěji se používá v elektronických podatelnách a při datování smluv a podobných dokumentů. **Kvalifikované časové razítko** poskytují **certifikační autority** (zpravidla po Internetu). Způsob jeho poskytování a obsah je v ČR určen **zákonem o elektronickém podpisu** a je také nejčastěji používán společně s elektronickým podpisem.
 

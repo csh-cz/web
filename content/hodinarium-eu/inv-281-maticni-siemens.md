@@ -12,8 +12,10 @@ author: "Český spolek horologický"
 tags:
   - rohova-vitrina-vedlejsi
   - funkcni
+  - sitovky
 karta:
   inventarniCislo: "281"
+  vyrobce: "Siemens"
   umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2017"
   majitel: "Kouba"

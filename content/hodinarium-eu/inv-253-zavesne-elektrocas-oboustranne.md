@@ -20,6 +20,7 @@ karta:
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/elektrika/elchron2.jpg'
 ---
 
 ![](/img/decin/ElektrocasVK1/foto_0001.jpg)

@@ -10,7 +10,7 @@ relatedKarty:
   - inv-148-bateriove-kienzle
 tags:
   - budik
-
+tldr: '![svarcvald budík](/img/budiky1/budik_schw2.jpg)![svarcvald budík](/img/budiky1/budik_schw2b.jpg)'
 ---
 ![Obrázek z dobového katalogu](/img/budiky1/budik_schw1.jpg)
 

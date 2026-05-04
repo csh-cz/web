@@ -9,7 +9,7 @@ scrapedAt: "2026-04-27T17:37:04.335Z"
 tags:
   - vezni
   - kapesni
-
+tldr: '![Brevete](/img/hodinky/kapesni_orloj/627893335_6.jpg)'
 ---
 [![Brevete](/img/hodinky/kapesni_orloj/627893335_6_n.jpg)](/img/hodinky/kapesni_orloj/627893335_6.jpg)
 

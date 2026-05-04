@@ -7,6 +7,7 @@ lastModified: "Wed, 26 Apr 2017 14:00:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:56.023Z"
 manualEdit: true
+tldr: 'Brouzdajíce webovinou, narazili jsme na stránky www.sestka.com. Tvrdí se tam, že na světě neexistuje žádná hmota nebo věc, ze které by se nedaly udělat hodiny. A namouduši — jde to. To si určitě nenechte ujít.…'
 ---
 Brouzdajíce webovinou, narazili jsme na stránky **[www.sestka.com](http://www.sestka.com/)**. Tvrdí se tam, že na světě neexistuje žádná hmota nebo věc, ze které by se nedaly udělat hodiny. A namouduši — jde to. To si určitě nenechte ujít. Pěkně v klidu si hodiny vychutnejte. Máte snad málo času? Tak ho přece zastavte…
 

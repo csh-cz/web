@@ -12,8 +12,10 @@ author: "Český spolek horologický"
 tags:
   - panel-5
   - funkcni
+  - sitovky
 karta:
   inventarniCislo: "139"
+  vyrobce: "Kappa"
   umisteni: "Panel 5"
   pridanoDoSbirky: "2025"
   majitel: "Král"

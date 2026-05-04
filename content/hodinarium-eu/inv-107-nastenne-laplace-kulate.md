@@ -15,6 +15,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "107"
+  vyrobce: "Laplace"
   umisteni: "Panel 3"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"

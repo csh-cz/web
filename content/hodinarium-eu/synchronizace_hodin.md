@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/synchronizace_hodin.htm"
 lastModified: "Sun, 26 Sep 2021 09:14:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:09.010Z"
+tldr: 'Potřebujeme, nebo si jen přejeme, hodiny, které jdou přesně a správně. K tomu vede několik cest. Buď je musíme stále přesnější vyrábět nebo je můžeme neustále dálkově řídit, či pravidelně automaticky…'
 ---
 ## aneb od žárovkového kompresoru po NTP servery
 

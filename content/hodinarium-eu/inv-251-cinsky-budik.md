@@ -16,6 +16,7 @@ karta:
   inventarniCislo: "251"
   umisteni: "Rohová vitrína (Sál elektro)"
   majitel: "Baudisch"
+thumbnail: '/img/budiky1/budik_sch_m003.jpg'
 ---
 
 ## Stub karty

@@ -9,7 +9,7 @@ scrapedAt: "2026-04-27T17:36:54.868Z"
 tags:
   - budik
   - vodni
-
+tldr: 'Na stránkách pana James McAdama je publikován jednoduchý vodní budík. Zařazujeme ho jako kuriozitu k vodním hodinám, protože všechny vodní hodin mají tak trochu i tento rozměr.'
 ---
 <div class="article-gallery">
 

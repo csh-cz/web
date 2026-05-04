@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - vitrina-2-vedlejsi
   - funkcni
+  - sitovky
 karta:
   inventarniCislo: "196"
   umisteni: "Vitrína 2 (Sál elektro)"

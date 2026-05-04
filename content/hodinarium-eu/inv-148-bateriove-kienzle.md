@@ -13,6 +13,7 @@ tags:
   - vitrina-1-vedlejsi
   - funkcni
   - kienzle
+  - nastenne
 karta:
   inventarniCislo: "148"
   umisteni: "Vitrína 1 (Sál elektro)"

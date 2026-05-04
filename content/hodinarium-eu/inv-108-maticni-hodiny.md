@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - panel-3
   - funkcni
+  - sitovky
 karta:
   inventarniCislo: "108"
   umisteni: "Panel 3"

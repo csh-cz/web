@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/settopbox.htm"
 lastModified: "Wed, 28 May 2025 11:54:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:21.057Z"
+tldr: 'Původní představa byla, udělat pro Hodinárium exponát, který by zobrazoval čas přenášený v televizním signálu. Myšlenka narazila na legislativní překážku. V ČR jsou rozhlasové a televizní poplatky upraveny zákonem č.…'
 ---
 ## Jak přesný je čas v televizi?
 

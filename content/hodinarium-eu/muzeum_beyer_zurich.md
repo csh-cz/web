@@ -16,6 +16,7 @@ references:
   - title: "beyer-ch.com — Museum"
     url: "https://www.beyer-ch.com/en/museum/"
     type: odkaz
+tldr: 'Privátní hodinářské muzeum patřící luxusnímu hodinářství Beyer v centru Curychu (Bahnhofstrasse). Jedna z nejstarších rodinných hodinářských firem ve Švýcarsku — působí nepřetržitě od roku 1760.'
 ---
 
 Privátní hodinářské muzeum patřící luxusnímu hodinářství **Beyer** v centru Curychu (Bahnhofstrasse). Jedna z nejstarších rodinných hodinářských firem ve Švýcarsku — působí nepřetržitě od roku 1760.

@@ -9,6 +9,7 @@ originalUrl: "https://hodinarium.eu/pneumatika2.htm"
 lastModified: "Mon, 04 Mar 2024 10:56:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:23.538Z"
+tldr: 'Podle článku Orologi\_pubblici\_pneumatici\_a\_Parigi, který napsala MARISA ADDOMINE, zkrácenou verzi zpracoval Petr Král.'
 ---
 Podle článku Orologi\_pubblici\_pneumatici\_a\_Parigi, který napsala **MARISA ADDOMINE, zkrácenou verzi zpracoval Petr Král.**
 

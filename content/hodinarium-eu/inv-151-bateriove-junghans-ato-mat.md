@@ -13,6 +13,7 @@ tags:
   - vitrina-1-vedlejsi
   - funkcni
   - junghans
+  - nastenne
 karta:
   inventarniCislo: "151"
   umisteni: "Vitrína 1 (Sál elektro)"

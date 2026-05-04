@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/matematicke.htm"
 lastModified: "Wed, 26 Apr 2017 16:10:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:08.015Z"
+tldr: 'Na cifernících hodin se již objevila čísla ve všech možných vyjádřeních. Známe římské digitálky, čárokódky, digitálky s překladem, hodiny bez ručiček, snad i hodiny s nožičkami a kdo ví co ještě.'
 ---
 Na cifernících hodin se již objevila čísla ve všech možných vyjádřeních. Známe [římské digitálky](/clanky/rimskedigi), [čárokódky](/clanky/carokodky), [digitálky s překladem](/clanky/segmentovky_s_prekladem), hodiny bez ručiček, snad i hodiny s nožičkami a kdo ví co ještě.
 

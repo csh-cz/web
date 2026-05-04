@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/youtube.htm"
 lastModified: "Wed, 26 Apr 2017 14:13:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:01.550Z"
+tldr: 'Fenomén amatérsky pořizovaných videozáznamů a jejich ukládání na YouTube nemůže zůstat nepovšimnut ani při pátrání po kuriózních hodinách.…'
 ---
 Fenomén amatérsky pořizovaných videozáznamů a jejich ukládání na **[YouTube](http://www.youtube.com/)** nemůže zůstat nepovšimnut ani při pátrání po kuriózních hodinách. Není rychlejší prostředek, jak informace o podivuhodných hodinách šířit po celém světě. Zkuste vyhledání třeba dřevěných hodin a uvidíte, jaké množtví nápadů naleznete.
 

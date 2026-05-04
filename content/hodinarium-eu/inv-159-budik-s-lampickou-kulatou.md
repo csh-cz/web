@@ -19,6 +19,7 @@ karta:
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/budiky1/budik_schwarz1.jpg'
 ---
 
 ## Stub karty

@@ -11,6 +11,7 @@ author: "Český spolek horologický"
 tags:
   - vezni
   - evropa
+tldr: 'Malé věžní muzeum v gotické (později baroknì přestavěné) věži kostela sv. Štěpána ve Waldmünchenu (Bavorsko, ~7000 obyvatel).…'
 ---
 
 Malé věžní muzeum v gotické (později baroknì přestavěné) **věži kostela sv. Štěpána** ve Waldmünchenu (Bavorsko, ~7000 obyvatel). Vzdáleno pouze 16 km od Klenčí pod Čerchovem; od hraničního přechodu Lísková cca 6 km pěšky.

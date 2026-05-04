@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/co_pisi_jini.htm"
 lastModified: "Sat, 02 Jul 2016 20:07:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:40.353Z"
+tldr: "O hodinách lze psát různě. Parafrázujeme-li známou větu ze hry \"Jak se chodí za holkama\", můžeme tvrdit, že o hodinách se píše dobře (když je čas) i špatně (když je nečas).…"
 ---
 !
 

@@ -14,6 +14,7 @@ references:
   - title: "Webové stránky muzea"
     url: "https://www.vmo.cz/"
     type: odkaz
+tldr: 'Olomoucké Vlastivědné muzeum eviduje téměř dva miliony sbírkových předmětů, mezi nimi unikátně dochovaný soubor originálních součástek olomouckého orloje. V roce 2019 hostilo výstavu k 500.…'
 ---
 
 Olomoucké Vlastivědné muzeum eviduje téměř dva miliony sbírkových předmětů, mezi nimi unikátně dochovaný soubor originálních součástek olomouckého orloje. V roce 2019 hostilo výstavu k 500. výročí první zmínky o orloji (kurátor Radim Himmler), kde byly poprvé prezentovány repliky a emulátory zaniklých částí.

@@ -9,6 +9,7 @@ originalUrl: "https://hodinarium.eu/svarcvaldky_stroje2.htm"
 lastModified: "Wed, 26 Apr 2017 13:44:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:50.491Z"
+tldr: 'Tento typ stroje švarcvaldek je dnes poměrně vzácný. Kyvadlo je umístěno za zadní deskou stroje- mezi deskou a stěnou.…'
 ---
 Tento typ stroje švarcvaldek je dnes poměrně vzácný. Kyvadlo je umístěno za zadní deskou stroje- mezi deskou a stěnou. Stroj tedy nemůže přiléhat přímo na stěnu a musí být odsazen pomocí tří sloupků (německy sloupek = e Stolle, r Stollen), umístěných na zadní desce, proto jsou hodiny označovány jako "štolové".
 

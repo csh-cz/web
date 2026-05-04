@@ -8,6 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:00.949Z"
 relatedKarty:
   - inv-198-podruzny-stroj-pragotron-maly
+tldr: 'Představujeme velmi zajímavé mechanické lístkové hodiny ve stavu těsně po získání sběratelem. Stránka je sestavena se sérií fotografií a komentáře nového majitele. Za příspěvek děkujeme.'
 ---
 Představu*jeme velmi zajímavé mechanické lístkové hodiny ve stavu těsně po získání sběratelem. Stránka je sestavena se sérií fotografií a komentáře nového majitele. Za příspěvek děkujeme.*
 

@@ -21,6 +21,7 @@ relatedKarty:
   - inv-107-nastenne-laplace-kulate
   - inv-108-maticni-hodiny
   - inv-109-retezove
+tldr: 'Levá strana panelu je osazena hodinami Laplace. Nahoře jsou hodiny synchronní, pod nimi matiční. Vedle panelu jsou píchačky, řízené rovněž systémem Laplace.'
 ---
 
 ## Laplace

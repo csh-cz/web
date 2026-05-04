@@ -15,6 +15,7 @@ tags:
   - sitovky
 karta:
   inventarniCislo: "156"
+  vyrobce: "Laplace"
   umisteni: "Vitrína 1 (Sál elektro)"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"

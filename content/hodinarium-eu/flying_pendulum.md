@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/flying_pendulum.htm"
 lastModified: "Wed, 26 Apr 2017 15:59:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:02.874Z"
+tldr: "Flying Pendulum Clock, také nazývané \"Ignatz clock\" byly poprvé vynalezené v roce 1883. Znovu se vyráběly v 50. letech minulého století. Malá kulička zavěšená na ramenu zde hraje roli kyvadla.…"
 ---
 **Flying Pendulum Clock**, také nazývané "**Ignatz clock**" byly poprvé vynalezené v roce 1883. Znovu se vyráběly v 50. letech minulého století. Malá kulička zavěšená na ramenu zde hraje roli kyvadla. !Při vodorovné půlotáčce ramene se na závěsu zhoupne a obtočí se kolem svislých tyček umístěných na každé straně kodin. Mají-li hodiny dvě tyčky na každé straně, jako na obrázku, obtáčí se kulička střídavě vlevo i v pravo na obou stranách. Po tuto dobu hodinový stroj stojí.
 

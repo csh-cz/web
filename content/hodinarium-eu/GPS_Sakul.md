@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/GPS_Sakul.htm"
 lastModified: "Tue, 23 Jun 2020 10:27:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:46.678Z"
+tldr: 'V roce 2020 jsme do Hodinária dostali prototyp hodin řízených signálem z družice. Jde o hodiny popsané na webu sakul.cz včetně podrobné dokumentace pro vlastní stavbu.…'
 ---
 V roce 2020 jsme do Hodinária dostali prototyp hodin řízených signálem z družice. Jde o hodiny popsané na [webu sakul.cz](https://www.sakul.cz/gps-hodiny-v2-pe2-2015/n/) včetně podrobné dokumentace pro vlastní stavbu. Rozšířila se tak část expozice věnovaná systémům [synchronizace hodin](/clanky/synchronizace_hodin).
 

@@ -20,6 +20,7 @@ karta:
   majitel: "Hingar"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/pichacky/19141443794.jpg'
 ---
 
 ## Stub karty

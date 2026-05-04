@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/muzea_cr.htm"
 lastModified: "Fri, 01 Jan 2021 23:44:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:06.093Z"
+tldr: 'Sbírky hodin vede mnoho subjektů. Některé podléhají evidenční povinnosti. Pro představu lze nahlédnout na stránky centrální evidence sbírek muzejní povahy (CES) Ministerstva kultury České republiky.…'
 ---
 ***S**bírky hodin vede mnoho subjektů. Některé podléhají evidenční povinnosti. Pro představu lze nahlédnout na stránky **centrální evidence sbírek muzejní povahy (CES) Ministerstva kultury České republiky**. **CES je veřejnosti přístupným informačním systémem** - seznamem sbírek, které jsou spravovány podle zákona č. 122/2000 Sb., o ochraně sbírek muzejní povahy a o změně některých dalších zákonů.*
 

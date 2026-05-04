@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/svarcvaldky_stroje.htm"
 lastModified: "Wed, 26 Apr 2017 16:31:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:49.846Z"
+tldr: 'Švarcvaldek se vyrobilo neuvěřitelně mnoho,odhaduje se, že více než milión kusů. Typické bylo použití nejdostupnějšího materiálu - dřeva.…'
 ---
 ## Doba dřevěná, polodřevěná, mosazná a trochu i železná
 

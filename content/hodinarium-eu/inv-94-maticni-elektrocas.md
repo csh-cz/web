@@ -13,6 +13,7 @@ tags:
   - panel-2
   - funkcni
   - elektrocas
+  - sitovky
 karta:
   inventarniCislo: "94"
   umisteni: "Panel 2"
@@ -20,6 +21,7 @@ karta:
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/elektrika/rufa1.jpg'
 ---
 
 ![](/img/decin/ElektrocasVK1/foto_0001.jpg)

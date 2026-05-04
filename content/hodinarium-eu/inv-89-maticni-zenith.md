@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - panel-1
   - funkcni
+  - sitovky
 karta:
   inventarniCislo: "89"
   umisteni: "Panel 1"

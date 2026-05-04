@@ -14,6 +14,7 @@ references:
   - title: "Webové stránky muzea"
     url: "https://www.chaux-de-fonds.ch/musees/mih"
     type: odkaz
+tldr: 'Mezinárodní muzeum hodinařství v La Chaux-de-Fonds (Švýcarsko) — vrcholná světová sbírka, restaurátorské pracoviště a referenční institut hodinářské vědy.…'
 ---
 
 Mezinárodní muzeum hodinařství v La Chaux-de-Fonds (Švýcarsko) — vrcholná světová sbírka, restaurátorské pracoviště a referenční institut hodinářské vědy. MIH provozuje Institut L'homme et le temps a vydává odborné publikace; sbírka pokrývá historii měření času od slunečních hodin po atomové.

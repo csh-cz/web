@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/Arduino_Solari.htm"
 lastModified: "Sun, 24 Apr 2022 09:31:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:11.133Z"
+tldr: 'Italská firma Solari Udine má bohatou historií. Společnost Fratelli Solari byla založena v Pesariis již v roce 1725 v malém městě v regionu Carnia ve Friuli. Specializovala se na výrobu věžních a nástěnných hodin.…'
 ---
 ![čelní panel](/img/arduino/Solari/Solari1.jpg)
 FLIP CLOCK SOLARI UDINE SPECIAL EDITION Arduinem

@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/elektromagneticke_segmenty.htm"
 lastModified: "Sun, 10 Oct 2021 11:33:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:23.812Z"
+tldr: 'Sedmi segmentový displej je nejúspornější způsob vyjádření číslic a několika znaků. Většinou se s nimi setkáváme v provedení LED nebo LCD.…'
 ---
 Sedmi segmentový displej je nejúspornější způsob vyjádření číslic a několika znaků. Většinou se s nimi setkáváme v provedení LED nebo LCD. Mechanické provedení sedmi segmentového displeje ovládané elektromagnety má některé výhody. Na obrázcích vidíme čelní pohled na zobrazenou číslice 6. Na tmavém otočném segmentu je vidět magnet, který pomocí elektromagnetů na posledním obrázku převrátí segment do polohy ON nebo OFF podle polarity impulzu přivedeného do cívky. V klidovém stavu nepotřebuje displej žádné napájení, protože magnet se přitahuje k jádru cívky. To znamená, že napájení je potřebné jen pro změnu stavu. Nožový konektor vpravo dole zajišťuje adresový výběr jednotky.
 

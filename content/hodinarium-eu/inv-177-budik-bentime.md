@@ -15,9 +15,11 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "177"
+  vyrobce: "Bentime"
   umisteni: "Vitrína 2 (Sál elektro)"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/budiky1/budik_schw5_n.jpg'
 ---
 
 ## Stub karty

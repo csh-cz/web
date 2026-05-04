@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/jezdecke.htm"
 lastModified: "Wed, 26 Apr 2017 14:06:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:58.501Z"
+tldr: 'Naše muzeum získalo hodiny postavené k oslavě jezdeckých závodů v Praze v roce 1934. A nejsou to hodiny ledajaké. ![](/img/jezdeke/trmen1934_1.jpg) Dokazují tvrzení, že hodiny jdou udělat z čehokoliv.…'
 ---
 **N**aše muzeum získalo hodiny postavené k oslavě jezdeckých závodů v Praze v roce 1934. A nejsou to hodiny ledajaké. ![](/img/jezdeke/trmen1934_1.jpg) Dokazují tvrzení, že hodiny jdou udělat z čehokoliv. V tomto případě se autor inspiroval jezdeckým třmenem, který po pochromování slouží jako podstavec i slavobrána pro hodiny. Nápis **"ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934"** pomáhá přesněji určit datum i důvod vzniku. Méně již odhaluje autora, který nám zůstává utajen.
 

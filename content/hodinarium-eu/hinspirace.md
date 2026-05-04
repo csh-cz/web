@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/hinspirace.htm"
 lastModified: "Wed, 26 Apr 2017 14:07:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:58.791Z"
+tldr: 'Některé hodiny prostě neseženete. Jsou třeba jen v jednom exempláři někde v muzeu či za devaterou mříží v soukromé sbírce.…'
 ---
 Některé hodiny prostě neseženete. Jsou třeba jen v jednom exempláři někde v muzeu či za devaterou mříží v soukromé sbírce. Pokud nehodláte muzeum vyloupit, a přesto podobné hodiny chcete vlastnit, nezbývá, než si je vyrobit sám. Ani ne tak pro uspokojení z vlastnictví, ale pro uspokojení z tvorby.
 

@@ -14,6 +14,7 @@ references:
   - title: "Webové stránky muzea"
     url: "https://www.deutsches-uhrenmuseum.de/"
     type: odkaz
+tldr: 'Schwarzwaldské muzeum hodin v jihoněmeckém Furtwangenu — kolébka kukačkových hodin a jedna z nejvýznamnějších evropských sbírek mechanického hodinářství. Stálá expozice mapuje hodinářskou tradici Černého lesa od 17.…'
 ---
 
 Schwarzwaldské muzeum hodin v jihoněmeckém Furtwangenu — kolébka kukačkových hodin a jedna z nejvýznamnějších evropských sbírek mechanického hodinářství. Stálá expozice mapuje hodinářskou tradici Černého lesa od 17. století po současnost; součástí je i sekce o astronomických hodinách a moderních elektronických oscilátorech.

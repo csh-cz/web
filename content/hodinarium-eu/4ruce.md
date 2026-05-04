@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/4ruce.htm"
 lastModified: "Wed, 26 Apr 2017 13:36:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:42.685Z"
+tldr: 'S ciferníkem na více stranách hodinové schrány se občas setkáme. U věžních hodin ho přímo očekáváme. Málokdo si však v první chvíli uvědomí, že ciferník na zadní straně hodin je určitá komplikace.…'
 ---
 **S** ciferníkem na více stranách hodinové schrány se občas setkáme. U věžních hodin ho přímo očekáváme. Málokdo si však v první chvíli uvědomí, že ciferník na zadní straně hodin je určitá komplikace. Ručičky se totiž z pohledu stroje otáčejí "proti směru hodinových ručiček". Stroj proto musí být doplněn převodem obracejícím směr otáčení.
 

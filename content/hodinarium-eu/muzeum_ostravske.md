@@ -14,6 +14,7 @@ references:
   - title: "Ostravské muzeum"
     url: "https://www.ostrmuz.cz/"
     type: odkaz
+tldr: 'Vlastivědné muzeum v centru Ostravy se sídlem v historické radnici. Pro horologa zajímavý hlavně Maškův orloj — astronomické hodiny vyrobené ostravským hodinářem Antonínem Maškem (počátek 20.…'
 ---
 
 Vlastivědné muzeum v centru Ostravy se sídlem v historické radnici. Pro horologa zajímavý hlavně **Maškův orloj** — astronomické hodiny vyrobené ostravským hodinářem **Antonínem Maškem** (počátek 20. století).

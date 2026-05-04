@@ -9,6 +9,7 @@ originalUrl: "https://hodinarium.eu/svarcvaldky_stroje_polodrev.htm"
 lastModified: "Wed, 26 Apr 2017 13:43:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:50.136Z"
+tldr: '(polodřevěný stroj = náboje kol dřevěné s železným středem , ozubení mosaz )'
 ---
 (polodřevěný stroj = náboje kol dřevěné s železným středem , ozubení mosaz )
 

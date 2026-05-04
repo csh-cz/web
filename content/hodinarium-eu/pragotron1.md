@@ -8,6 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:44.695Z"
 relatedKarty:
   - inv-198-podruzny-stroj-pragotron-maly
+tldr: 'Popis některých historických podružných hodin firmy PRAGOTRON od jednoho ze sběratelských nadšenců. Následující část sepsal pan Michal Klíč . Dokazuje tak, že i podružné hodiny se dají sbírat.'
 ---
 ukázka ze soukromé sbírky
 

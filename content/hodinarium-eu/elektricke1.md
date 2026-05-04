@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/elektricke1.htm"
 lastModified: "Wed, 20 Mar 2019 09:52:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:40.000Z"
+tldr: 'mechanické hodiny elektricky natahované'
 ---
 mechanické hodiny elektricky natahované
 

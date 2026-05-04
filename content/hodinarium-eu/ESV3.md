@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/ESV3.htm"
 lastModified: "Sat, 10 Oct 2020 12:24:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:43.251Z"
+tldr: 'Nejsou hodiny jako hodiny. Slangově se různé měřící přístroje nazývají budíky, případně hodinky. Provozní hodiny jsou také hodiny, které ovšem jdou, jen když je dané zařízení v provozu.…'
 ---
 Nejsou hodiny jako hodiny. Slangově se různé měřící přístroje nazývají budíky, případně hodinky. Provozní hodiny jsou také hodiny, které ovšem jdou, jen když je dané zařízení v provozu. Někdy je třeba přesně sledovat dobu činnosti, aby zařízení bylo včas servisováno nebo vyměněno. To zajišťují počitadla provozní doby. Dnes většinou elektronická, dříve i hodinářsky zajímavá. Připomeneme poměrně zajímavé počítadlo provozních hodin ESV3 používané v letectví. Má malé rozměry, je zapouzdřeno v plastu a používá synchronní motor na napětí 115 V / 400 Hz s asi jedenáctistupňovou čtyřpatrovou převodovku opravdu miniaturních rozměrů. Kolečka jak v dámských hodinkách takže zlomená osička není překvapivá.
 

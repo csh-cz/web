@@ -9,6 +9,7 @@ originalUrl: "https://hodinarium.eu/podebrady1.htm"
 lastModified: "Sat, 01 Feb 2025 16:25:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:12.063Z"
+tldr: '![Panská stodola](/img/podebrady/malovec1.jpg)'
 ---
 ## Z historie poděbradských květinových hodin
 

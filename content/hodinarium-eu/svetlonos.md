@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/svetlonos.htm"
 lastModified: "Wed, 26 Apr 2017 16:22:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:16.426Z"
+tldr: 'Sluneční hodiny symbolizují sepětí člověka s přírodou. Proto jsem rád, že například i v Sezimově Ústí byla postavena nová čtyřmetrová socha Strážce času - artefakt s funkcí slunečních hodin. (Web autora zde).…'
 ---
 ![Fotografie Strážce času byla pořízena 12.3.2007 v 11:03. Stín ukazuje přibliž 10:50 a nachází se před čárou rovníku. Údaj odpovídá místnímu slunečnímu času. ](/img/slunecni/svetlonos.jpg)
 

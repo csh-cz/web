@@ -10,6 +10,7 @@ manualEdit: true
 author: "Český spolek horologický"
 tags:
   - cesko
+tldr: 'Městské muzeum v Mnichově Hradišti (severní Čechy, okres Mladá Boleslav). Ve sbírkách najdete unikátní kapucínský kabinetní orloj — barokní cabinet clock s pohyblivými figurami a astronomickým ciferní…'
 ---
 
 Městské muzeum v Mnichově Hradišti (severní Čechy, okres Mladá Boleslav). Ve sbírkách najdete unikátní **kapucínský kabinetní orloj** — barokní cabinet clock s pohyblivými figurami a astronomickým ciferníkem.

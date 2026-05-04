@@ -10,6 +10,7 @@ originalUrl: "https://hodinarium.eu/kvetinovehodiny_NMnM.htm"
 lastModified: "Sat, 14 Mar 2020 11:19:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:13.915Z"
+tldr: 'V Novém Městě nad Metují je řada pamětihodností, které bereme za samozřejmou součást města. Denně okolo nich chodíme a ani nás nenapadne si položit otázku, kdo stál u zrodu tohoto díla, případně kdy a proč vzniklo.…'
 ---
 V Novém Městě nad Metují je řada pamětihodností, které bereme za samozřejmou součást města. Denně okolo nich chodíme a ani nás nenapadne si položit otázku, kdo stál u zrodu tohoto díla, případně kdy a proč vzniklo. Květinové hodiny na náměstí Republiky patří mezi tyto neprávem opomíjené objekty. Pro většinu obyvatel Nového Města nad Metují jsou zde odjakživa a nic zajímavého v nich nespatřují. Opak je však pravdou! V Čechách se jedná o ojedinělý městský dekorační objekt. Existují pouze dvoje. Tyto a v Poděbradech. Ty třetí, které byly v Chomutově se do dnešních dní nedochovaly. Ve zbytku Evropy je ještě najdete například v Bánské Bystrici na Slovensku, ve švýcarské Ženevě, v německé Žitavě a v maďarském Székesfehérváru. Rozhodně existují ještě nějaké další, ale jejich počet nebude vysoký.
 

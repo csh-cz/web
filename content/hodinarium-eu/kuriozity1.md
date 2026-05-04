@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/kuriozity1.htm"
 lastModified: "Wed, 26 Apr 2017 13:41:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:48.329Z"
+tldr: 'Reálné hodiny převážně elektronické'
 ---
 **Reálné hodiny převážně elektronické**
 

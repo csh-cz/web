@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/zvony_vyroba.htm"
 lastModified: "Sun, 23 Apr 2017 20:06:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:39.733Z"
+tldr: 'Zvonařství, řemeslo které si svou technologii uchovalo více jak 1000 let. Princip výroby je stále stejný jako ve středověku.…'
 ---
 Zvonařství, řemeslo které si svou technologii uchovalo více jak 1000 let. Princip výroby je stále stejný jako ve středověku. Moderní technologie napomáhají pouze při manipulací s těžkými břemeny a během tavby zvonového bronzu. Ve zvonařském umění stále platí, že zkušenosti a intuice jsou stále více než teorie.
 

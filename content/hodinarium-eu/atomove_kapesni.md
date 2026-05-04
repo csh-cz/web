@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/atomove_kapesni.htm"
 lastModified: "Sun, 09 Feb 2025 10:19:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:22.630Z"
+tldr: "Asi každý slyšel slovní spojení \"atomové hodiny. Málokdo už ví, jak vlastně fungují. Často se tak nesprávně označují hodiny které jsou jen dálkově atomovými hodinami řízené nebo synchronizované (vysíl…"
 ---
 Asi každý slyšel slovní spojení "atomové hodiny. Málokdo už ví, jak vlastně fungují. Často se tak nesprávně označují hodiny které jsou jen dálkově atomovými hodinami řízené nebo synchronizované (vysílač DCF 77, GPS signál, NTP server, ..). V některých lidech název evokuje dokonce představu jaderného reaktoru či "atomové bomby". Princip atomových hodin však nemá nic společného s jadernou reakcí. Hodiny téměř nejsou radioaktivní, používají se izotopy například Rubidium-87 ( jen zanedbatelně radioaktivní) či stabilní izotopy Cesium-133 , Vodík, Stroncium, Yterbium a Hliník.
 

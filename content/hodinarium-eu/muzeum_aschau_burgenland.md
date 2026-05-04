@@ -15,6 +15,7 @@ references:
   - title: "uhrenstube-aschau.at"
     url: "http://www.uhrenstube-aschau.at/"
     type: odkaz
+tldr: 'Privátní sbírka převážně věžních hodin v rakouském Burgenlandu (adresa Aschau 49, Oberschützen, PSČ 7432). Shromáždil a muzeum provozuje Ing. Wolfgang Komzak.'
 ---
 
 Privátní sbírka **převážně věžních hodin** v rakouském Burgenlandu (adresa Aschau 49, Oberschützen, PSČ 7432). Shromáždil a muzeum provozuje **Ing. Wolfgang Komzak**.

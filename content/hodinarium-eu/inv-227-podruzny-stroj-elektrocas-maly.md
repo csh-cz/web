@@ -21,6 +21,7 @@ karta:
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/elektrika/slava.jpg'
 ---
 
 ![](/img/decin/ElektrocasVK1/foto_0001.jpg)

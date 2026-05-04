@@ -19,6 +19,7 @@ karta:
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/pichacky/PragotronDK8.jpg'
 ---
 
 ## Stub karty

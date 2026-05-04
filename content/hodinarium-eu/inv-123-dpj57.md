@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - panel-4
   - funkcni
+  - sitovky
 karta:
   inventarniCislo: "123"
   umisteni: "Panel 4"

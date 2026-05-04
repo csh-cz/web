@@ -15,9 +15,11 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "175"
+  vyrobce: "Ruhla"
   umisteni: "Vitrína 2 (Sál elektro)"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/budiky1/budik_schw17.jpg'
 ---
 
 ## Stub karty

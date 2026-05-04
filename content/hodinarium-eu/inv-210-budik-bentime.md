@@ -15,9 +15,11 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "210"
+  vyrobce: "Bentime"
   umisteni: "Vitrína 3 (Sál elektro)"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/budiky1/budik_schwarz3.jpg'
 ---
 
 ## Stub karty

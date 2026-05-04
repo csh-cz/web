@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:54.545Z"
 tags:
   - vodni
-
+tldr: "Vodní hodiny nejsou dnes příliš rozšířené. \"Vodní kalendáře\" jsou už častější. Na mnoha domech v našem městě visí cedulky dosvědčující, kam dosahovala voda v roce 2002. I jiné datumy se najdou.…"
 ---
 !
 

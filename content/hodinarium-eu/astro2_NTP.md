@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/astro2_NTP.htm"
 lastModified: "Sun, 05 Oct 2025 18:07:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:20.757Z"
+tldr: 'Základem těchto astronomicko-astrologických hodin je čínská stavebnice meteostanice podobná té na obrázku. Řídí jí modul ESP01S. který výsledky výpočtů zobrazuje na OLED displeji.…'
 ---
 ![Čínská stavebnice meteostanice](/img/astro2/meteo.jpg)
 

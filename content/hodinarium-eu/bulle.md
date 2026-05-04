@@ -10,6 +10,7 @@ originalUrl: "https://hodinarium.eu/bulle.htm"
 lastModified: "Sun, 09 Feb 2020 16:02:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:41.432Z"
+tldr: 'Jde o hodiny s elektromagnetickým impulzem do kyvadla, které následně posunuje stroj. Proti nákresům z patentních spisů je osa páčky která posunuje rohatku nastavitelná, takže lze nastavit, aby při po…'
 ---
 ![magnet](/img/elektrika/bulle/magnet.jpg)
 

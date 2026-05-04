@@ -12,8 +12,10 @@ author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - funkcni
+  - sitovky
 karta:
   inventarniCislo: "45"
+  vyrobce: "T&N"
   umisteni: "Hlavní sál"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"

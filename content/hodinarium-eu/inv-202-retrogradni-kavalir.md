@@ -14,6 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "202"
+  vyrobce: "Kavalír"
   umisteni: "Vitrína 3 (Sál elektro)"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

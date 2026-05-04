@@ -15,6 +15,7 @@ originalUrl: "https://hodinarium.eu/kvetinovehodiny_Chomutov.htm"
 lastModified: "Sat, 14 Mar 2020 12:03:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:14.224Z"
+tldr: 'Chomutovské květinové hodiny stály u vchodu do tehdejšího městského parku, který dnes nese název sady Čs. armády.…'
 ---
 ![Chomutovské květinové hodiny v období protektorátu — pohled k pomníku 460 obětí první světové války](/img/Chomutov/f/foto_0002.jpg)
 

@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:52.120Z"
 tags:
   - budik
-
+tldr: 'Budíky (Alarm Clock) jistě nejsou považovány za kuriózní hodiny. Když ovšem jde o budicí stroj podlahových či velkých závěsných hodin, je situace trochu jiná.…'
 ---
 Budíky (Alarm Clock) jistě nejsou považovány za kuriózní hodiny. Když ovšem jde o budicí stroj podlahových či velkých závěsných hodin, je situace trochu jiná. Budík se většinou nemontoval do hodin stojících někde v salónu.
 

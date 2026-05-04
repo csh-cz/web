@@ -15,6 +15,7 @@ tags:
   - vezni
 karta:
   inventarniCislo: "65"
+  vyrobce: "Kavalír"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2024"
   majitel: "Kavalír"

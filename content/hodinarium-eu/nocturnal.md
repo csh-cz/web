@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/nocturnal.htm"
 lastModified: "Sun, 17 May 2020 08:27:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:17.951Z"
+tldr: 'Ve dne k určení času slouží sluneční hodiny. V noci bylo možné k určení času využít postavení hvězd. Noční hodiny ovšem neukazují sami. Bylo třeba nějakým přístrojem postavení hvězd změřit.…'
 ---
 ![princip měření](/img/nocturnal/princip_mereni.jpg)
 

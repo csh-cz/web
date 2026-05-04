@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - vitrina-2-vedlejsi
   - funkcni
+  - nastenne
 karta:
   inventarniCislo: "185"
   umisteni: "Vitrína 2 (Sál elektro)"

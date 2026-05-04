@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/rimskedigi2.htm"
 lastModified: "Mon, 04 Apr 2022 09:25:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:10.809Z"
+tldr: 'Prosakují zprávy, že se uvažuje o vyřazení římských číslic ze školních osnov. Protože s tímto trendem nesouhlasíme, navrhli jsme římské digitálky nejprve jako script pro tento web (viz níže), následně…'
 ---
 Prosakují zprávy, že se uvažuje o vyřazení římských číslic ze školních osnov. Protože s tímto trendem nesouhlasíme, navrhli jsme římské digitálky nejprve jako script pro tento web (viz níže), následně pak jako exponát pro Hodinárium v Děčíně do části Nonsens. Není to míněno příliš vážně, spíše pro seznámení s možnostmi Arduina a procvičení římských číslic.
 

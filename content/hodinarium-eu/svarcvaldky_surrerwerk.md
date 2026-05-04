@@ -9,6 +9,7 @@ originalUrl: "https://hodinarium.eu/svarcvaldky_surrerwerk.htm"
 lastModified: "Wed, 09 Oct 2024 10:47:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:50.796Z"
+tldr: 'U většiny strojů švarcvaldích je vidět celkem jednotná koncepce. Většinou to jsou dřevěné závažové jednodenní hodiny s černoleským krokem a bicím strojem se závěrkovým kolem. Byly však i výjimky.…'
 ---
 **!**
 

@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - panel-5
   - funkcni
+  - sitovky
 karta:
   inventarniCislo: "138"
   umisteni: "Panel 5"

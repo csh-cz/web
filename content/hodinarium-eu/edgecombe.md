@@ -9,6 +9,7 @@ originalUrl: "https://hodinarium.eu/edgecombe.htm"
 lastModified: "Sun, 10 Mar 2019 12:44:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:43.694Z"
+tldr: 'V expozici Hodinária jsou vystaveny funkční krbové hodiny, označené na ciferníku Everest Edgecombe elektric synchroclock London.…'
 ---
 ![celkový pohled EVERETEDGECOMBE](/img/elektrika/edgecombe/celek.jpg)
 

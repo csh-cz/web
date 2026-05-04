@@ -7,6 +7,7 @@ originalUrl: "https://hodinarium.eu/Staiger.htm"
 lastModified: "Sun, 10 May 2020 07:23:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:03.765Z"
+tldr: 'Hodiny Staiger (vyrobené přibližně po roce 1970) jsou řízeny čtyřmi Quartz strojky a mají tři samostatné ciferníky. Ciferník pásmových hodin, ciferník Slunce a ciferník Měsíce ovládaný dvěma strojky.'
 ---
 ![Celek astronomických hodin Staiger](/img/Astronomische/celek.jpg)
 

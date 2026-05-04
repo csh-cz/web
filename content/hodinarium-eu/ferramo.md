@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/ferramo.htm"
 lastModified: "Tue, 03 Oct 2023 08:25:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:40.293Z"
+tldr: '![replika 1. motoru Ferraris](/img/elektrika/motore_cmr_1.gif)'
 ---
 [![replika 1. motoru Ferraris](/img/elektrika/motore_cmr_1.gif)](/img/elektrika/motore_cmr_1.gif)
 

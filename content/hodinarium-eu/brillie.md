@@ -10,6 +10,7 @@ manualEdit: true
 thumbnail: "/img/elektrika/brillie/Brillie_x2_m.jpg"
 relatedKarty:
   - inv-268-podruzne-brillie
+tldr: 'Elektromagnetické impulsní mateční hodiny Brilié byly navržené a vyrobené ve Francii. Základní typ s půlsekundovým kyvadlem byl navržen tak, aby každých třicet sekund poskytoval střídavé impulzy pro podřízené hodiny.…'
 ---
 ![Mateční hodiny Brillie v Hodináriu bez ciferníku pro lepší pohled na stroj.](/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg)
 

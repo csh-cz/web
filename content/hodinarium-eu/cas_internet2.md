@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/cas_internet2.htm"
 lastModified: "Wed, 26 Apr 2017 16:12:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:08.659Z"
+tldr: 'Nejjednodušší je zobrazovat čas vždy správně. Nejlépe touto tautologií: Je právě tolik hodin, kolik právě je. S tím ovšem daleko nedojdeme. Se statickým zobrazením máme potíž.…'
 ---
 Nejjednodušší je zobrazovat čas vždy správně. Nejlépe touto tautologií: *Je právě tolik hodin, kolik právě je.* S tím ovšem daleko nedojdeme. Se statickým zobrazením máme potíž. Většinou nám nestačí **vyjádření času, které jednorázově vydal www server**. Nápis aukce končí za 2 minuty, nám moc neřekne, když nevíme, před jakou dobou tuto informaci server vyrobil. Pomoci musí aktivní technologie na straně prohlížeče. Bylo by možné informaci periodicky opakovat třeba pomocí tagu Refresh a pravidelně žádat server o zaslání času znovu. Ovšem to by vyvolávalo zbytečnou potřebu přenosu ostatních dat stránky.
 

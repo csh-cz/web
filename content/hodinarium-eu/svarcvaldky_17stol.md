@@ -9,6 +9,7 @@ originalUrl: "https://hodinarium.eu/svarcvaldky_17stol.htm"
 lastModified: "Wed, 26 Apr 2017 21:04:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:49.223Z"
+tldr: "Asi nejstarší švarcvaldky, co se objevily v poslední době na portálu www.allegro.pl, jsou tyto nádherné \"klášterní\" hodiny údajně z roku cca 1650.…"
 ---
 Asi nejstarší švarcvaldky, co se objevily v poslední době na portálu www.allegro.pl, jsou tyto nádherné **"klášterní" hodiny údajně z roku cca 1650**. I když se jedná pouze o **neúplné hodiny**, dražba začínala na ceně 10 000.-zl a byla doplněna možností "kup teď" za 12 000.- zl (což je asi 85 tisíc Kč). V aukci nebylo přihazováno. Možná máte příště šanci.
 

@@ -15,6 +15,7 @@ references:
   - title: "muzeum-tyniste.cz"
     url: "http://www.muzeum-tyniste.cz/"
     type: odkaz
+tldr: 'Skromnější, ale charakterní projekt Spolku přátel města Týniště nad Orlicí. Spolek od roku 2010 dlouhodobě užívá místní vodárenskou věž (památka místního významu).…'
 ---
 
 Skromnější, ale charakterní projekt **Spolku přátel města Týniště nad Orlicí**. Spolek od roku 2010 dlouhodobě užívá místní vodárenskou věž (památka místního významu). První expozice věnovaná vodárenské věži a zásobování města pitnou vodou byla otevřena v roce 2010, druhá vlna úprav přišla v roce 2011 z dotace SZIF.

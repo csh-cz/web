@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/kvetinove.htm"
 lastModified: "Wed, 26 Apr 2017 16:18:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:13.635Z"
+tldr: "Jak můžeme chápat toto označení? Významů je hned několik. Můžeme tím např. rozumět \"chování\" rostlin během dne.…"
 ---
 ![Květinové hodiny před zámkem Klagenfurt / Rakousko](/img/kvetinove/Klagenfurt2.jpg)
 

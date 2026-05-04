@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/cas_internet1.htm"
 lastModified: "Sat, 28 Nov 2020 21:07:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:06.398Z"
+tldr: 'Zobrazení času na www pomocí aktivních technologií můžeme řešit i pouze textově. Textové řešení v nejjednodušší formě vidíte v hlavičce stránky.…'
 ---
 **Z**obrazení času na www pomocí aktivních technologií můžeme řešit i pouze textově. Textové **řešení v nejjednodušší formě** vidíte v hlavičce stránky. JAVA script vkládá v sekundových intervalech textový řetězec představující aktuální čas. Vzhledem k rozdílné interpretaci programu JAVA v různých prohlížečích musí program obsahovat test druhu prohlížeče a samostatná řešení minimálně pro IE a NS. Také bývá dobrým zvykem uvádět u jednociferných hodnot minut a hodin vedoucí nulu.
 
