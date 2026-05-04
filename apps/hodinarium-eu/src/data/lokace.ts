@@ -39,7 +39,7 @@ export const lokace: Lokace[] = [
     popis: 'Fyzická expozice Českého spolku horologického na zámku Děčín — věžní stroje, švarcvaldky, elektrické a mechanické hodiny',
     expozice: true,
     typ: 'expozice',
-    web: 'https://www.zamekdecin.cz/program/vystava-decinske-hodinarium',
+    web: 'https://www.zamekdecin.cz/vystavy/vystava-decinske-hodinarium',
   },
 
   // ─── Původ věžních strojů v Hodináriu ───

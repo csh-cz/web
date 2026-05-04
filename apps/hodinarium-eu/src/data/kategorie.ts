@@ -33,7 +33,7 @@ export const kategorie: Record<string, KategorieMeta> = {
     featuredSlugs: ['akvizice-2015-2025', 'bychory_prokes1', 'brillie', 'svarcvaldky'],
     doplnky: [
       { jmeno: 'Mapa expozice', href: '/mapa', ikona: 'mapa' },
-      { jmeno: 'Zámek Děčín', href: 'https://www.zamekdecin.cz/program/vystava-decinske-hodinarium', ikona: 'sluzba' },
+      { jmeno: 'Zámek Děčín', href: 'https://www.zamekdecin.cz/vystavy/vystava-decinske-hodinarium', ikona: 'sluzba' },
     ],
   },
   konstrukce: {
