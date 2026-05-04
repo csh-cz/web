@@ -8,6 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:23.898Z"
 relatedKarty:
   - inv-1-vezni-hiemann-1884
+tldr: 'Vznik Hodinária umožnily dvě myšlenky. Jednak to byl záměr Zámku Děčín zpřístupnit zámecké půdní prostory se zajímavými trámovými konstrukcemi a jednak bylo potřeba někam přestěhovat exponáty Věžního…'
 ---
 ![Zámek Děčín](/img/decin/zamek_decin.jpg)
 

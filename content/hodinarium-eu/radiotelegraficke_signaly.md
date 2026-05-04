@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/radiotelegraficke_signaly.htm"
 lastModified: "Mon, 04 Mar 2024 13:06:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:48.635Z"
+tldr: 'Ještě ve dvacátých letech minulého století musel každý, kdo potřeboval přesný čas a neměl spojení s některou hvězdárnou, měřit si jej sám. Na hvězdárnách pak bylo měření času jedním ze základních úkolů.…'
 ---
 Ještě ve dvacátých letech minulého století musel každý, kdo potřeboval přesný čas a neměl spojení s některou hvězdárnou, měřit si jej sám. Na hvězdárnách pak bylo měření času jedním ze základních úkolů. To se s příchodem radiotelegrafie změnilo. Bezdrátové signály začaly vysílat USA a Kanada již v roce 1905 a 1907. V březnu 1910 začalo signály vysílat Německo, Francie následovala brzy po něm. Dělo se tak v první řadě pro lodi na širém moři, aby mohly kontrolovat své chronometry a tím zeměpisnou délku, jejíž určení závisí na přesné znalosti času poledníku greenwichského .... Tak to přibližně popisuje PROF. DR. R. SCHNEIDER ve své knize Přesný čas. hodiny a hodinky.
 

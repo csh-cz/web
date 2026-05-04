@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/eureka.htm"
 lastModified: "Sat, 17 Mar 2018 18:41:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:41.714Z"
+tldr: 'Tento zajímavý typ hodin sestrojil Timothy Bernard Powers v New Yorku na počátku 20. století. Hodiny poté vyráběla firma Eureka Clock Company v Londýně.'
 ---
 ![Eureka celkový pohled](/img/elektrika/eureka/eureka1.jpg)
 

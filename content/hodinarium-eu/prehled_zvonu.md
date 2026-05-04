@@ -8,6 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:38.852Z"
 relatedKarty:
   - inv-192-podruzny-stroj-veznich-hodin-velky
+tldr: 'Soběslavská věž v první podobě vznikla někdy na přelomu 12. a 13.století. Zdá se, že již tehdy na ní zvony byly. První zmínka odkazuje na rok 1210. Ve druhé polovině 15. stol.…'
 ---
 **S**oběslavská věž v první podobě vznikla někdy na přelomu 12. a 13.století. Zdá se, že již tehdy na ní zvony byly. První zmínka odkazuje na rok 1210. Ve druhé polovině 15. stol. se již uvádějí zvony čtyři:
 

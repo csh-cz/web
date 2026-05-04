@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:55.171Z"
 tags:
   - vodni
-
+tldr: 'Bohužel odkazy rychle stárnou. Najdete-li lepší napište.'
 ---
 Bohužel odkazy rychle stárnou. Najdete-li lepší napište.
 

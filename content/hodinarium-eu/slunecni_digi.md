@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:17.056Z"
 tags:
   - slunecni
-
+tldr: 'Za sluneční hodiny lze považovat různé konstrukce. Například elektronické digitální hodiny napájené fotovoltaickým článkem. I ty jde také považovat za hraniční typ slunečních hodin.…'
 ---
 Za sluneční hodiny lze považovat různé konstrukce. Například elektronické digitální hodiny napájené fotovoltaickým článkem. I ty jde také považovat za hraniční typ slunečních hodin. Ze stejné oblasti pochází "sledovač Slunce", který fotovoltaické panely natáčí automaticky ke Slunci. Stačí doplnit ukazatel a máme kuriózní elektromechanické sluneční hodiny.
 

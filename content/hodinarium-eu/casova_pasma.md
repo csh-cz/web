@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/casova_pasma.htm"
 lastModified: "Wed, 26 Apr 2017 16:02:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:05.222Z"
+tldr: '![Hodiny „SVĚTOVÝ ČAS“, analogové v kombinaci s datumem, broušený a leštěný nerez](http://www.hodiny-spel.cz/atypicka_vyroba.php)'
 ---
 [![Hodiny „SVĚTOVÝ ČAS“, analogové v kombinaci s datumem, broušený a leštěný nerez](/img/elektrika/svetovy_cas1.jpg)](http://www.hodiny-spel.cz/atypicka_vyroba.php)
 

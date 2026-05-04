@@ -8,6 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:00.055Z"
 relatedKarty:
   - inv-146-synchronni-stolni-sklenene
+tldr: 'Na začátku tohoto povídání je nový přírůstek mé sbírky - svítící hodiny či snad osvětlovací těleso s hodinami Watch the light od firmy Massive (katalogové číslo 80999/22/47).…'
 ---
 ![massive](/img/elektrika/svitici/svitici2.jpg)
 

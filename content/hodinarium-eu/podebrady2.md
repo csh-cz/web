@@ -9,6 +9,7 @@ originalUrl: "https://hodinarium.eu/podebrady2.htm"
 lastModified: "Mon, 05 Apr 2021 11:29:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:12.630Z"
+tldr: 'O historii vzniku hodinového stroje se nám nepodařilo najít žádné dokumenty. Pokud vyjdeme ze vzpomínek paní Vrátné z roku 1997, získáme alespoň základní představu o vzniku hodin.'
 ---
 O historii vzniku hodinového stroje se nám nepodařilo najít žádné dokumenty. Pokud vyjdeme ze vzpomínek paní Vrátné z roku 1997, získáme alespoň základní představu o vzniku hodin.
 

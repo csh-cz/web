@@ -12,6 +12,7 @@ scrapedAt: "2026-05-01T00:00:00.000Z"
 manualEdit: true
 author: "Český spolek horologický"
 perex: "Náznakový průchod historií elektrického měření času — od prvních pokusů Alexandra Baina, přes Hippův kontakt a matiční systémy, ladičkový Accutron a křemenné oscilátory až po atomové hodiny, vysílač DCF77, GPS a NTP servery. Text byl původně zpracován jako úvodní informační panel expozice elektromechanických hodin v Hodináriu Děčín."
+tldr: 'Smyslem projektu Hodinária Děčín bylo vybudovat expozici elektromechanických hodin (exponáty doplněné informačními panely), která ukazuje hlavní etapy použití elektřiny ke zlepšení přesnosti měření času.…'
 ---
 
 Smyslem projektu Hodinária Děčín bylo vybudovat expozici elektromechanických hodin (exponáty doplněné informačními panely), která ukazuje hlavní etapy použití elektřiny ke zlepšení přesnosti měření času. V instalaci jsou předváděny exponáty od prvních elektrických hodin až po nejmodernější zařízení, využívající GPS či soustavu NTP serverů. Expozici budují členové Českého spolku horologického z předmětů z vlastních sbírek a zápůjček.

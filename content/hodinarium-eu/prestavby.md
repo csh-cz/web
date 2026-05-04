@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/prestavby.htm"
 lastModified: "Wed, 26 Apr 2017 14:05:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:58.139Z"
+tldr: 'Je kolem nás mnoho hodin, které v průběhu času změnily podobu. Došlo u nich k přestavbě z důvodů rozličných.…'
 ---
 Je kolem nás mnoho hodin, které v průběhu času změnily podobu. Došlo u nich k přestavbě z důvodů rozličných. Nejčastěji je přestavba motivována snahou zachovat schránu hodin, ale původní stroj nahradit jiným, chodivějším, přesnějším, modernějším.... Tento osud potkal mnohé historické hodiny. U málokterých věžních hodin se uchoval původní stroj. Podobné je to i u hodin v domácnosti, kde původní strojek byl nahrazen elektronikou.
 

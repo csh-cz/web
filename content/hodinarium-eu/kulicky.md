@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/kulicky.htm"
 lastModified: "Wed, 26 Apr 2017 15:59:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:02.221Z"
+tldr: 'Valící se kuličky se kupodovu používají v hodinářství poměrně hojně a to dokonce v několika funkcích.'
 ---
 ![Congrevovy hodiny s kuličkou místo oscilátoru](/img/congrevovy1.jpg)
 

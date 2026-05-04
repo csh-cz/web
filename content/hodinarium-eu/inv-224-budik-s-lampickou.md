@@ -19,6 +19,7 @@ karta:
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/budiky1/budik_sch_m004.jpg'
 ---
 
 ## Stub karty

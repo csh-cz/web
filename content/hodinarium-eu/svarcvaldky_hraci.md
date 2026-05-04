@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:51.467Z"
 tags:
   - nastenne
-
+tldr: 'Švarcvaldky pro zámožnější klientelu byly někdy doplněny i hracím strojem. (UHREN MIT MUSIKWERKEN) U nejstarších hodin se používala zvonkohra se skleněnými zvonky.…'
 ---
 Švarcvaldky pro zámožnější klientelu byly někdy doplněny i hracím strojem. (UHREN MIT MUSIKWERKEN) U nejstarších hodin se používala zvonkohra se skleněnými zvonky. Torzo takových hodin ukázáno například [zde](/clanky/svarcvaldky_17stol).
 

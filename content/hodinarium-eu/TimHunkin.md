@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/TimHunkin.htm"
 lastModified: "Sun, 14 May 2017 09:44:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:54.223Z"
+tldr: 'Pozoruhodné jsou tyto*vodní hodiny na molu Southwold. Označeny jsou Hunkin and Jackson horological urologists 1998*. Hodiny mají bohatou figurální výzdobu a jejich chod je doprovázen mnoha efekty.…'
 ---
 Pozoruhodné jsou tyto****[vodní hodiny na molu Southwold](http://www.timhunkin.com/63_southwold_water_clock.htm)****. Označeny jsou **Hunkin and Jackson horological urologists 1998**. Hodiny mají bohatou figurální výzdobu a jejich chod je doprovázen mnoha efekty. Figury koupající se ve vaně plivají vodu, chlapcům spadnou spodky a oni čůrající a to mimo toaletu. Celá sekvence je dostupná jako dvouminutové video. Můžete se podívat. Já budu přemýšlet, do které kategorie je zařadit. Vodní hodiny to asi nejsou... Prostě horological urologists :-)
 

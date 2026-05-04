@@ -22,6 +22,7 @@ relatedKarty:
   - inv-99-podruzne-hodiny-male-4x
   - inv-100-strojek-hainz
   - inv-101-jednotny-cas
+tldr: 'Matiční hodiny Elektročas řídí pět podružných strojů, které ukazují čas v různých částech světa. Prostřední velké jsou nařízeny na SEČ — bez korekce na letní čas.'
 ---
 
 Matiční hodiny [Elektročas](/sbirka/karta/inv-94-maticni-elektrocas/) řídí pět podružných strojů, které ukazují čas v různých částech světa. Prostřední velké jsou nařízeny na SEČ — bez korekce na letní čas.

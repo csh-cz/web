@@ -14,6 +14,7 @@ references:
   - title: "Webové stránky muzea"
     url: "https://www.uhrenmuseum-glashuette.com/"
     type: odkaz
+tldr: 'Saské hodinářské muzeum v centru německé hodinářské tradice (Glashütte). Sbírka mechanických hodin a hodinek od poloviny 19.…'
 ---
 
 Saské hodinářské muzeum v centru německé hodinářské tradice (Glashütte). Sbírka mechanických hodin a hodinek od poloviny 19. století po současnost; významný důraz na vývoj přesných pražcových strojů a saskou školu jemné mechaniky.

@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/alzbeta.htm"
 lastModified: "Wed, 10 Nov 2021 10:08:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:47.237Z"
+tldr: 'V dnešní době má skoro každý mobilní telefon možnost automatického nastavené času. Informaci bere buď od operátora nebo ze systému GPS, takže čas zjistíme pohledem na displej. Mnoho lidí proto ani nenosí hodinky.…'
 ---
 ![Alžběta fy Erikson](/img/alzbeta/Alzbeta_Ericsson.jpg.jpg)
 

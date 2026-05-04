@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/Arduino_IBM.htm"
 lastModified: "Sun, 05 Oct 2025 10:30:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:10.187Z"
+tldr: 'Elektronika je stále výkonnější a levnější. I elektronické hodiny jsou stále přesnější, případně synchronizované dle DCF 77, GPS, sítě mobilních operátorů nebo z Internetu.…'
 ---
 ![Stroj podružných hodin IBM Internacional](/img/decin/IBM/stroj.jpg)
 

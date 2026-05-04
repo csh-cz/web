@@ -14,6 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "57"
+  vyrobce: "Gibbus"
   umisteni: "Hlavní sál"
   majitel: "Gibbus"
   vztahKeSbirce: "zápůjčka"

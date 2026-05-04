@@ -14,6 +14,7 @@ references:
   - title: "Webové stránky muzea"
     url: "https://www.wienmuseum.at/de/standorte/uhrenmuseum"
     type: odkaz
+tldr: 'Vídeňské muzeum hodin v paláci Obizzi — sbírka přes 700 hodin od gotiky po 20. století. Zvláštní význam má kolekce barokních pendlovek a vídeňských stolních hodin.…'
 ---
 
 Vídeňské muzeum hodin v paláci Obizzi — sbírka přes 700 hodin od gotiky po 20. století. Zvláštní význam má kolekce barokních pendlovek a vídeňských stolních hodin. V roce 2024 muzeum prošlo rekonstrukcí; expozice je rozšířena o moderní interaktivní výklad.

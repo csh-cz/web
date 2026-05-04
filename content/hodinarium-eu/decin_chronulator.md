@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/decin_chronulator.htm"
 lastModified: "Thu, 26 Aug 2021 12:05:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:11.443Z"
+tldr: 'Slovem chronulátor se označují hodiny, které čas ukazují pomocí systémů ručkových voltmetrů. Nejjednodušší chronulátor má dva voltmetry. Jeden ukazuje hodiny, druhý minuty. Možností je ovšem více.…'
 ---
 Slovem chronulátor se označují hodiny, které čas ukazují pomocí systémů ručkových voltmetrů. Nejjednodušší chronulátor má dva voltmetry. Jeden ukazuje hodiny, druhý minuty. Možností je ovšem více. Do Hodinária bude zařazen v průběhu prázdnin 2016.
 

@@ -19,6 +19,7 @@ karta:
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
+thumbnail: '/img/pichacky/fronta2.jpg'
 ---
 
 ## Stub karty

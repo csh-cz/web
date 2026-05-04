@@ -16,6 +16,7 @@ references:
   - title: "patekmuseum.com"
     url: "https://www.patek.com/en/company/patek-philippe-museum"
     type: odkaz
+tldr: 'Privátní muzeum slavné ženevské manufaktury Patek Philippe (založena 1839). Jedna z nejvýznamnějších sbírek kapesních a náramkových hodinek ve světě.'
 ---
 
 Privátní muzeum slavné ženevské manufaktury Patek Philippe (založena 1839). Jedna z nejvýznamnějších sbírek **kapesních a náramkových hodinek** ve světě.

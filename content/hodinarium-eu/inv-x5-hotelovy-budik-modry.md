@@ -16,6 +16,7 @@ karta:
   inventarniCislo: "x5"
   umisteni: "Rohová vitrína (Sál elektro)"
   majitel: "Baudisch"
+thumbnail: '/img/budiky1/budik_sch_m001.jpg'
 ---
 
 ## Stub karty

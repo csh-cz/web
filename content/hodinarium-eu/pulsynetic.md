@@ -10,6 +10,7 @@ originalUrl: "https://hodinarium.eu/pulsynetic.htm"
 lastModified: "Sat, 11 Jun 2022 09:27:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:42.058Z"
+tldr: '![Pulsynetic 1935](/img/elektrika/pulsynetic/p1959_3.jpg)'
 ---
 [![Pulsynetic 1935](/img/elektrika/pulsynetic/p1959_3_m.jpg)](/img/elektrika/pulsynetic/p1959_3.jpg)
 

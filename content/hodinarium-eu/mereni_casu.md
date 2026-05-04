@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/mereni_casu.htm"
 lastModified: "Wed, 26 Apr 2017 16:02:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:04.915Z"
+tldr: 'Díky laskavosti původních autorů doslovně převzato ze serveru'
 ---
 Díky laskavosti původních autorů doslovně převzato ze serveru
 

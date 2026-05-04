@@ -21,6 +21,7 @@ karta:
   majitel: "Hingar"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/elektrika/prepinaci VME.jpg'
 ---
 
 ![](/img/decin/ElektrocasVK1/foto_0001.jpg)

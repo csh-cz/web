@@ -15,9 +15,11 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "208"
+  vyrobce: "Ruhla"
   umisteni: "Vitrína 3 (Sál elektro)"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/budiky1/budik_sch_m002.jpg'
 ---
 
 ## Stub karty

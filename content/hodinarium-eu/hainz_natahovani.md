@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/hainz_natahovani.htm"
 lastModified: "Wed, 26 Apr 2017 16:29:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:17.690Z"
+tldr: 'Klíčové otázky dneška jsou aktuální a oblíbená témata různých oborů a lidských činností. Proč by se tedy klíčovou otázkou nemohli zabývat i milovníci hodin, tím spíš, ![LOUIS HAINZ přední pohled](/img…'
 ---
 Klíčové otázky dneška jsou aktuální a oblíbená témata různých oborů a lidských činností. Proč by se tedy klíčovou otázkou nemohli zabývat i milovníci hodin, tím spíš, [![LOUIS HAINZ přední pohled](/img/hainz/predni_n.jpg)](/img/hainz/predni.jpg) že je k tomu okolnosti přímo nutí. Sběratel totiž klíč skutečně potřebuje, protože je to takový Golemův šém, který dává stroji život. To celkem jasné je. Ovšem už není jasné to, KDO dává život klíči, poněvadž zásadní vlastností klíčů (všech, ale těch od hodin obzvlášť) je jejich zmizivost.
 

@@ -14,6 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "169"
+  vyrobce: "Kavalír"
   umisteni: "Vitrína 2 (Sál elektro)"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

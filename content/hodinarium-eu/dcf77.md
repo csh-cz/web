@@ -8,6 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:46.354Z"
 manualEdit: true
 ogImage: "/img/dcf_analog.jpg"
+tldr: 'Hodiny se synchronizovaly již v dávné minulosti. Zvukem (výstřel z děla), světlem (mávnutí praporem), později vysíláním časového signálu v rádiu či v televizi.…'
 ---
 ![Analogový DCF budík — kombinace klasického ciferníku a atomové přesnosti](/img/dcf_analog.jpg)
 

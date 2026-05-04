@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - panel-5
   - funkcni
+  - digi
 karta:
   inventarniCislo: "135"
   umisteni: "Panel 5"

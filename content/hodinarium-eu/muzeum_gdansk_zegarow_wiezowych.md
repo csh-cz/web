@@ -18,6 +18,7 @@ references:
   - title: "trojmiasto.tv — Muzeum Zegarów Wieżowych"
     url: "https://trojmiasto.tv/Muzeum-Zegarow-Wiezowych-5893.html"
     type: odkaz
+tldr: 'Specializované muzeum věžních hodin sídlící ve věži kostela sv. Kateřiny v Gdaňsku. Pobočka Historického muzea v Gdaňsku — uvádí se jako jediné specializované muzeum věžních hodin v Polsku.…'
 ---
 
 Specializované muzeum věžních hodin sídlící ve **věži kostela sv. Kateřiny** v Gdaňsku. Pobočka **Historického muzea v Gdaňsku** — uvádí se jako jediné specializované muzeum věžních hodin v Polsku. Založeno 1996.

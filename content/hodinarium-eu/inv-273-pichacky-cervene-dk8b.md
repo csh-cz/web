@@ -20,6 +20,7 @@ karta:
   majitel: "Spolek"
   vztahKeSbirce: "dar"
   stav: "funkční"
+thumbnail: '/img/pichacky/razitko.jpg'
 ---
 
 ## Stub karty

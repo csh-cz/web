@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:42.366Z"
 tags:
   - sitovky
-
+tldr: 'Hodiny, které jdou, ale netikají.'
 ---
 **Hodiny, které jdou, ale netikají.**
 

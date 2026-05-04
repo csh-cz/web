@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/pilovky.htm"
 lastModified: "Wed, 26 Apr 2017 14:12:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:01.254Z"
+tldr: 'V roce 2014 se na Aukru prodaly pilové hodiny se samonivelačním fyzikálním kyvadlem. Prodejce uváděl, že se jedná o velmi zajímavé, staré, postříbřené, pilové hodiny, vyrobené kolem roku 1880 - 1900 v…'
 ---
 ![Fotografie 1](/img/pilovky/f/foto_0001.jpg)
 

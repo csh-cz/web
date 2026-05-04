@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:53.309Z"
 tags:
   - vodni
-
+tldr: 'TIME FLOW CLOCK — hodiny protékajícího času.'
 ---
 **TIME FLOW CLOCK** — hodiny protékajícího času.
 

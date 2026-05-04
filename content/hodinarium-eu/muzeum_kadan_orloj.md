@@ -14,6 +14,7 @@ references:
   - title: "Město Kadaň — orloj"
     url: "https://www.mesto-kadan.cz/"
     type: odkaz
+tldr: 'Moderní astronomický orloj na náměstí v Kadani, instalovaný jako pocta Mikulášovi z Kadaně — středověkému hodináři, který je společně s Janem Šindelem uváděn jako spolutvůrce Pražského orloje (kolem 1…'
 ---
 
 Moderní astronomický orloj na náměstí v Kadani, instalovaný jako **pocta Mikulášovi z Kadaně** — středověkému hodináři, který je společně s Janem Šindelem uváděn jako spolutvůrce **Pražského orloje** (kolem 1410).

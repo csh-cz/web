@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - vitrina-1-vedlejsi
   - funkcni
+  - nastenne
 karta:
   inventarniCislo: "147"
   umisteni: "Vitrína 1 (Sál elektro)"

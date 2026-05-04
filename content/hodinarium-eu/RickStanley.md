@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/RickStanley.htm"
 lastModified: "Wed, 26 Apr 2017 13:59:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:55.472Z"
+tldr: 'Na této stránce vyjadřujeme obdiv k nápadům pana Rick Stanley.'
 ---
 Na této stránce vyjadřujeme obdiv k nápadům pana Rick Stanley.
 

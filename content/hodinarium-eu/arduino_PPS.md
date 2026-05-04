@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/arduino_PPS.htm"
 lastModified: "Sun, 29 Dec 2024 22:31:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:10.502Z"
+tldr: 'Při zamyšlením nad tím, jak mohou být přesné hodiny na bázi Arduina jsem narazil na stránku, kde pan Paul Leskinen představuje svou konstrukci atomových hodin s Arduinem.…'
 ---
 Při zamyšlením nad tím, jak mohou být přesné hodiny na bázi Arduina jsem narazil [na stránku](https://hackaday.io/project/5012-gpsatomic-clock-build), kde pan Paul Leskinen představuje svou konstrukci atomových hodin s Arduinem. To mě přivedlo k úvahám, jak to vlastně s přesností a s rozlišovací schopností Arduina je. Pro vlastní pokus budu předpokládat, že mé vlastní hodiny budou zobrazovat čas na osmiznakovém displej na setiny sekundy, tedy s rozlišením hh:mm:ss.ms Vnitřně bude Arduino zpracovávat i desítky mikrosekund. Sice to není moc užitečné, ale vede to k zamyšlení, jak to s přesností vlastně je.
 

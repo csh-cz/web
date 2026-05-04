@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/download.htm"
 lastModified: "Tue, 25 Apr 2017 18:02:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:40.635Z"
+tldr: "Virtuální muzeum má tu výhodu, že může některé své exponáty přímo virtuálně šířit. V této části najdete jednak programy našich \"klubáků\" a různé převzaté programy (pokud autoři takovéto šíření dovoluj…"
 ---
 **V**irtuální muzeum má tu výhodu, že může některé své exponáty přímo virtuálně šířit. V této části najdete jednak programy našich "klubáků" a různé převzaté programy (pokud autoři takovéto šíření dovolují) a jednak rozličné katalogy.
 

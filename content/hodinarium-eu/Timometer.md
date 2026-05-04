@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/Timometer.htm"
 lastModified: "Mon, 03 Nov 2025 17:07:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:20.481Z"
+tldr: "V roce 2015 se na Aukru objevil Timometr a byl zakoupen soukromou osobou a umístěn v Hodináriu. Timometr se tak stane jedním ze dvou nejstarších \"píchaček\" v Hodináriu.…"
 ---
 ![Pohled na ciferník](/img/Timometer/f/foto_0008.jpg)
 

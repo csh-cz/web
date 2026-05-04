@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/casovy_zamek.htm"
 lastModified: "Sun, 23 Apr 2017 09:11:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:30.563Z"
+tldr: '![Časový zámek T.FOX and CO](/img/decin/casove_zamky/f/T_FOX_a_CO_LTD.jpg)'
 ---
 [![Časový zámek T.FOX and CO](/img/decin/casove_zamky/f/T_FOX_a_CO_LTD.jpg)](/img/decin/casove_zamky/f/T_FOX_a_CO_LTD.jpg)
 

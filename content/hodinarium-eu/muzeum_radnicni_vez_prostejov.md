@@ -15,6 +15,7 @@ references:
   - title: "Prostějovský orloj — orloj.eu"
     url: "http://www.orloj.eu/cs/prostejov.htm"
     type: odkaz
+tldr: 'Secesní věž radnice v Prostějově prošla v letech 2011 razantní přestavbou financovanou z Regionálního operačního programu Střední Morava (cca 6 mil. Kč).…'
 ---
 
 Secesní věž radnice v Prostějově prošla v letech 2011 razantní přestavbou financovanou z **Regionálního operačního programu Střední Morava** (cca 6 mil. Kč). Cílem bylo zpřístupnit věž, posílit cestovní ruch a prezentovat **místní restaurovaný orloj**.

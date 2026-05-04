@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/jednotnycas.htm"
 lastModified: "Thu, 12 May 2022 22:56:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:44.349Z"
+tldr: 'Potřebujeme, nebo si jen přejeme, mít hodiny, které jdou co nejpřesněji a hlavně správně, tedy v souladu s ostatními hodinami. K tomu vedou prakticky dvě cesty.…'
 ---
 Potřebujeme, nebo si jen přejeme, mít hodiny, které jdou co nejpřesněji a hlavně správně, tedy v souladu s ostatními hodinami. K tomu vedou prakticky dvě cesty. Buď je musíme vyrábět přesnější, nebo je co nejčastěji opakovaně seřizovat podle jiných přesnějších hodin či je těmito hodinami přímo řídit. Synchronizované, tedy jdoucí stejně jako normálové hodiny, musí být hodiny zejména v globalizovaných počítačových sítích.
 

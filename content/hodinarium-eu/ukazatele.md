@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/ukazatele.htm"
 lastModified: "Wed, 26 Apr 2017 16:00:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:03.447Z"
+tldr: "!Hodinky opravdu s ručičkamaJe otázkou, jak nejlépe mají normální hodiny a hodinky ukazovat čas. Oznámení přesného času může vypadat následovně: \"Je osmnáct hodin nula nula\".…"
 ---
 *![Hodinky opravdu s ručičkama](/img/rucicky1.gif)***J**e otázkou, jak nejlépe mají normální hodiny a hodinky ukazovat čas. Oznámení přesného času může vypadat následovně: ***"Je osmnáct hodin nula nula"***. nebo ***"Je šest hodin odpoledne"*** případně***"Je tolik hodin, že malá ručička ukazuje dolů, velká nahoru."*** Musíme však doufat, že *oznamovanec - příjemce této zprávy -* nemá některé z těchto kuriózních hodinek. Ručičky zde totiž ukazují zcela jinak. *(Pozn. " Hodiny vlevo možná reagují i na povel "připažit".)* Musíme doufat, že oznamovanec také nepatří ke skupině oznamující přesný čas slovy: pendrek, pendrek, židlička, sněhulák. (I takové hodiny v muzeu máme. Hodiny [**segmentovky**](/clanky/segmentovky_s_prekladem).)
 

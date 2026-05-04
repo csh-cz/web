@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/skymaster_ghost.htm"
 lastModified: "Tue, 02 Apr 2019 22:40:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:24.983Z"
+tldr: 'Konstatovací hodiny slouží při závodech poštovních holubů k zaznamenání přesného času příletu holuba do domovského holubníku.…'
 ---
 Konstatovací hodiny slouží při závodech poštovních holubů k zaznamenání přesného času příletu holuba do domovského holubníku. Při závodě se hodiny holubáři zaplombují aby nemohlo dojít k neoprávněné manipulaci, holuby jsou odvezeni na místo startu sběrným kamionem, kde jsou v určitou hodinu závodníci hromadně vypuštěni. Při doletu do domovského holubníku sejme holubář holubovi závodní kroužek a vloží ho do konstatovacích hodin, kde se číslo kroužku spolu s přesným časem příletu vytiskne v hodinách na papírovou pásku. Podle času příletu holuba se vypočítá jeho průměrná rychlost a z toho je obodován pro výsledné pořadí v závodu. (Dnes se používají holubářské hodiny, které samostatně zaznamenají přílet holuba s čipem.
 

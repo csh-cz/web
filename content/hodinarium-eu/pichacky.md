@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/pichacky.htm"
 lastModified: "Wed, 18 Jul 2018 09:10:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:24.674Z"
+tldr: "Ještě nedávno většina zaměstnanců začínala svou pracovní směnu \"odpíchnutím\" příchodu. Na snímku fronty zaměstnanců před píchačkami IBM v USA. Elektronické kontrolní hodiny či různé čipy se používají dodnes.…"
 ---
 ![Fronta před píchačkama - USA](/img/pichacky/fronta2.jpg)
 

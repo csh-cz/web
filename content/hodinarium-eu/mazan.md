@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/mazan.htm"
 lastModified: "Fri, 29 Apr 2022 16:43:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:09.600Z"
+tldr: '\- vizualizace celodenního AM/PM času s astronomickými prvky- úsporné zobrazení nejen pro děje v časové kompresi'
 ---
 \- vizualizace celodenního AM/PM času s astronomickými prvky- úsporné zobrazení nejen pro děje v časové kompresi
 

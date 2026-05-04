@@ -8,6 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:28.436Z"
 relatedKarty:
   - inv-1-vezni-hiemann-1884
+tldr: 'Elektrická energie se nejprve používala k vytahování závaží či k osvětlení hodin. Pravá elektrická revoluce v hodinářství začala v první čtvrtině 19. století, kdy se pomocí elektrické energie začal řídit hodinový stroj.…'
 ---
 ![?](/img/decin/elektrika/foto2.jpg)
 

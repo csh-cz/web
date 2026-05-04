@@ -17,6 +17,7 @@ karta:
 relatedKarty:
   - inv-2-vezni-prokes-1868-soubor
 perex: "Komplet věžních hodin ze zámku Býchory — čtvrťový stroj Jana Prokeše ze Sobotky z roku 1868, doplněný unikátním přídavným zvonicím strojem (vlastní pohon, paličkou rychle po sobě jdoucí údery na hodinový cimbál) a dvojicí cimbálů z Bellmannovy slévárny v Praze, rovněž z roku 1868. Komplet je vystavený v Hodináriu Děčín a je [evidován jako inv. 2](/sbirka/karta/inv-2-vezni-prokes-1868-soubor/)."
+tldr: 'Do Hodinária byl zapůjčen věžní komplet Prokeš 1868 — kompletní soustava hodinového stroje, přídavného zvonicího stroje a dvou cimbálů, původně osazená na zámku Býchory.…'
 ---
 
 Do Hodinária byl zapůjčen věžní komplet Prokeš 1868 — kompletní soustava hodinového stroje, přídavného zvonicího stroje a dvou cimbálů, původně osazená na zámku Býchory. Hlavními kuriozitami kompletu jsou neobvyklý kolíčkový krok Benoita a Roberta de Sancerre (1852) a nezvyklé spojení mezi hodinovým a zvonicím strojem.

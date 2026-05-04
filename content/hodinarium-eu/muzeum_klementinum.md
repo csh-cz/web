@@ -15,6 +15,7 @@ references:
   - title: "Klementinum — Národní knihovna ČR"
     url: "https://www.klementinum.cz/"
     type: odkaz
+tldr: 'Komplex barokních budov bývalé jezuitské koleje v centru Prahy, dnes hlavní sídlo Národní knihovny. Pro horologa zajímavé hned ze dvou důvodů:'
 ---
 
 Komplex barokních budov bývalé jezuitské koleje v centru Prahy, dnes hlavní sídlo Národní knihovny. Pro horologa zajímavé hned ze dvou důvodů:

@@ -10,7 +10,7 @@ relatedKarty:
   - inv-38-soucast-veznich-hodin
 tags:
   - vezni
-
+tldr: 'Do expozice Věžního muzejíčka v Soběslavi byly v roce 2012 zapůjčeny laskavostí Biskupství litoměřického věžní hodiny, které byly před instalací moderních, elektronicky řízených hodin, umístěny ve zvo…'
 ---
 ![foto2 0](/img/vez/prysk/f/foto2_000.jpg)
 

@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/mluvici1895.htm"
 lastModified: "Wed, 26 Apr 2017 15:58:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:01.834Z"
+tldr: "článek je z časopisu \"Z říše vědy a práce\" z roku 1895"
 ---
 č**lánek je z časopisu "Z říše vědy a práce" z roku 1895**
 

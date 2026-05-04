@@ -15,6 +15,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "120"
+  vyrobce: "Schauer"
   umisteni: "Panel 4"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"

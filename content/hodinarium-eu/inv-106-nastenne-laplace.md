@@ -15,6 +15,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "106"
+  vyrobce: "Laplace"
   umisteni: "Panel 3"
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"

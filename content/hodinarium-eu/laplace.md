@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/laplace.htm"
 lastModified: "Sun, 24 Mar 2024 22:15:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:42.969Z"
+tldr: 'Síťové synchronní hodiny jak z Verneových románů. Stroj přímo svádí k přestavbě na steampunkové skeletové hodiny.'
 ---
 Síťové synchronní hodiny jak z Verneových románů. Stroj přímo svádí k přestavbě na steampunkové skeletové hodiny.
 

@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/ctwagner.htm"
 lastModified: "Wed, 26 Apr 2017 13:39:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:45.712Z"
+tldr: 'Vážení sběratelé, znáte ten pocit, že o nějakých hodinách jen čtete, studujete jejich internetovou podobu, v tomto případě dokonce výbornou animaci, a pak najednou přijde krabice a jsou tam. Skoro celé. C.T.…'
 ---
 *Vážení sběratelé, znáte ten pocit, že o nějakých hodinách jen čtete, studujete jejich internetovou podobu, v tomto případě dokonce výbornou **animaci**, a pak najednou přijde krabice a jsou tam. Skoro celé. C.T. Wagner jako živý. Mě tato událost potkala. Je to trochu výjimka z tradice našeho virtuálního muzea. Tyto jsou reálné.*
 

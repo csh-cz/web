@@ -10,7 +10,7 @@ relatedKarty:
   - inv-17-vezni-hainz
 tags:
   - vezni
-
+tldr: 'V současné době řídí ručičky ciferníků hodin soběslavské věže stroj Elektročas, který v roce 1959 nahradil starý stroj. Možná po 475 letech. Tento stroj je tedy ve službě více než padesát let.…'
 ---
 ![současný stroj Elektročas 1959](/img/vez/f/elektrocas1959.jpg)
 

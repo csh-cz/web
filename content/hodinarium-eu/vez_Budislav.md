@@ -10,7 +10,7 @@ relatedKarty:
   - inv-17-vezni-hainz
 tags:
   - vezni
-
+tldr: 'Do expozice Věžního muzejíčka v Soběslavi byl v roce 2012 zapůjčen vřetenový stroj věžních hodin z kostela Nanebevzetí Panny Marie z nedaleké obce Budislav.…'
 ---
 ![kostel](/img/vez/Budislav/f/kostel.jpg)
 

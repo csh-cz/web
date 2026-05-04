@@ -12,6 +12,8 @@ author: "Český spolek horologický"
 tags:
   - vitrina-1-vedlejsi
   - funkcni
+  - nastenne
+  - jednotny-cas
 karta:
   inventarniCislo: "150"
   umisteni: "Vitrína 1 (Sál elektro)"

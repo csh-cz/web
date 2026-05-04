@@ -12,8 +12,10 @@ author: "Český spolek horologický"
 tags:
   - panel-3
   - funkcni
+  - sitovky
 karta:
   inventarniCislo: "103"
+  vyrobce: "T&N"
   umisteni: "Panel 3"
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"

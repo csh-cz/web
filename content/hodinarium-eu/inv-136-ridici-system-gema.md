@@ -12,8 +12,10 @@ author: "Český spolek horologický"
 tags:
   - panel-5
   - funkcni
+  - sitovky
 karta:
   inventarniCislo: "136"
+  vyrobce: "Gema"
   umisteni: "Panel 5"
   pridanoDoSbirky: "2021"
   majitel: "Spolek"

@@ -9,6 +9,7 @@ originalUrl: "https://hodinarium.eu/datumatik.htm"
 lastModified: "Wed, 26 Apr 2017 16:00:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:04.066Z"
+tldr: 'Na našem serveru dělíme časoměrné přístroje na hodiny, hodinky, minutky, sekundovky a dňovky - tedy hodiny s kalendářem.…'
 ---
 ![Datumatic 1](/img/datumatic/foto_0001.jpg)
 

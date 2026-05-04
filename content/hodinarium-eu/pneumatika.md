@@ -8,6 +8,7 @@ originalUrl: "https://hodinarium.eu/pneumatika.htm"
 lastModified: "Wed, 11 May 2022 09:48:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:26.041Z"
+tldr: 'Ve třicátých letech postavil Junghans hodiny s elektro-pneumatickým nátahem (patent 1926 Max Fischer).…'
 ---
 Ve třicátých letech postavil Junghans hodiny s elektro-pneumatickým nátahem (patent 1926 Max Fischer). Měly by to být přesné dílenské hodiny, které bez magnetických komponent byly schopny ovládat několik podružných hodin.
 

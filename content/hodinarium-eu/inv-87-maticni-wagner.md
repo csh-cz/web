@@ -13,6 +13,7 @@ tags:
   - panel-1
   - funkcni
   - wagner
+  - sitovky
 karta:
   inventarniCislo: "87"
   umisteni: "Panel 1"

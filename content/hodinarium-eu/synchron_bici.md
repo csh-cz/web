@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/synchron_bici.htm"
 lastModified: "Wed, 26 Apr 2017 13:36:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:43.967Z"
+tldr: 'Hodiny, využívající pro pohon a zároveň časový normál kmitočet sítě, jsou poměrně časté. Od roku 1918, kdy se poprvé objevily hodiny se synchronním motorkem, byly vytvořeny různé systémy, které při po…'
 ---
 Hodiny, využívající pro pohon a zároveň časový normál kmitočet sítě, jsou poměrně časté. Od roku 1918, kdy se poprvé objevily hodiny se synchronním motorkem, byly vytvořeny různé systémy, které při poměrně jednoduché konstrukci poskytovaly časový údaj s přijatelnou přesností. Ta je u tohoto typu hodin závislá na spolehlivosti elektrické rozvodné sítě a jejího přesného kmitočtu.
 

@@ -14,6 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "243"
+  vyrobce: "Kavalír"
   umisteni: "Vitrína 4 (Sál elektro)"
   pridanoDoSbirky: "2022"
   majitel: "Kavalír"

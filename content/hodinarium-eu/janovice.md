@@ -14,6 +14,7 @@ originalUrl: "https://hodinarium.eu/janovice.htm"
 lastModified: "Wed, 26 Apr 2017 16:20:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:15.610Z"
+tldr: "Kostel sv. Josefa v Janovicích u Frýdku - Místku (od roku 2000 národní kulturní památka) v sobě skrývá mnoho pozoruhodností. Zajímavý je i jeho \"technický\" inventář.…"
 ---
 ![Pohled na kostel sv. Josefa v Janovicích u Frýdku-Místku](/img/vezni/janovice/janovice.jpg)
 

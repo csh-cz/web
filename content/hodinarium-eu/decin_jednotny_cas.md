@@ -8,6 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:29.942Z"
 relatedKarty:
   - inv-100-strojek-hainz
+tldr: '![podružné hodiny art decoDvoje stolní podružné hodiny s otočnou kotvou](/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg)'
 ---
 [![podružné hodiny art deco](/img/elektrika/jednotny_cas/artdeco/celek_artdeco.jpg)Dvoje stolní podružné hodiny s otočnou kotvou](/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg)
 

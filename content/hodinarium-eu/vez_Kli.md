@@ -10,7 +10,7 @@ relatedKarty:
   - inv-38-soucast-veznich-hodin
 tags:
   - vezni
-
+tldr: 'Do Hodinária byl od soukromého sběratele zapůjčen stroj věžních hodin se zajímavým kyvadlem a vřetenovým krokem. Od sezóny 2013 bude dlouhodobou součástí expozice.'
 ---
 Do Hodinária byl od soukromého sběratele zapůjčen stroj věžních hodin se zajímavým kyvadlem a vřetenovým krokem. Od sezóny 2013 bude dlouhodobou součástí expozice.
 

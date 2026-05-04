@@ -14,6 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "x11"
+  vyrobce: "Praotron"
   umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2026"
   majitel: "Kavalír"

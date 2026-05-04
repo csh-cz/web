@@ -15,6 +15,7 @@ tags:
   - stolni
 karta:
   inventarniCislo: "54"
+  vyrobce: "Kavalír"
   umisteni: "Hlavní sál"
   majitel: "Kavalír"
   vztahKeSbirce: "zápůjčka"

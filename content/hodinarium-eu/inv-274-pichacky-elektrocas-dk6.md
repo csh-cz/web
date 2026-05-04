@@ -22,6 +22,7 @@ karta:
   majitel: "Spolek"
   vztahKeSbirce: "dar"
   stav: "funkční"
+thumbnail: '/img/elektrika/elchron1.jpg'
 ---
 
 ![](/img/decin/ElektrocasVK1/foto_0001.jpg)

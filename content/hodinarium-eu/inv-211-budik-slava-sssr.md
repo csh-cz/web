@@ -18,6 +18,7 @@ karta:
   umisteni: "Vitrína 3 (Sál elektro)"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/budiky1/budik_schwarz2.jpg'
 ---
 
 ## Stub karty

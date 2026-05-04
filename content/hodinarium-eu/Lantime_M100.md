@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/Lantime_M100.htm"
 lastModified: "Mon, 01 Feb 2021 01:21:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:29.659Z"
+tldr: 'Společnost Meinberg Funkuhren GmbH & Co. KG byla založena v roce 1979 Wernerem a Günterem Meinbergem a nyní je moderní průmyslovou společností.…'
 ---
 ![Panel Lantime M100](/img/decin/NTP_Meinberg/panelM100.jpg)
 
