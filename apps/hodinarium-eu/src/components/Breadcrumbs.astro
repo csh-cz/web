@@ -1,0 +1,41 @@
+---
+/**
+ * Breadcrumbs — drobečková navigace.
+ *
+ * Sjednocuje 5 dříve duplikovaných implementací (Article.astro,
+ * sbirka/karta/[slug].astro, kronika/[slug].astro, hodinari/[slug].astro,
+ * tagy/[tag].astro). CSS bylo identické ~13 řádků na každé page.
+ *
+ * Použití:
+ *   <Breadcrumbs trail={[
+ *     { href: '/', label: 'Hodinárium' },
+ *     { href: '/sbirka', label: 'Sbírka' },
+ *     { label: 'Soustrojí Prokeš 1868' },  // current — bez href
+ *   ]} />
+ *
+ * Poslední položka v trail (bez href) je current page (aria-current).
+ */
+
+interface Crumb {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  trail: Crumb[];
+}
+
+const { trail } = Astro.props;
+---
+<nav class="breadcrumbs" aria-label="Drobečková navigace">
+  {trail.map((crumb, i) => (
+    <>
+      {i > 0 && <span aria-hidden="true">›</span>}
+      {crumb.href ? (
+        <a href={crumb.href}>{crumb.label}</a>
+      ) : (
+        <span class="current" aria-current="page">{crumb.label}</span>
+      )}
+    </>
+  ))}
+</nav>

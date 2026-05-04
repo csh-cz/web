@@ -68,8 +68,10 @@ interface Karta {
   extra?: KartaExtra[];
 }
 
-/** Normalizuje hodnotu z YAML/CMS na renderovatelný string. */
-function normalize(v: string | string[] | number | undefined): string {
+/** Normalizuje hodnotu z YAML/CMS na renderovatelný string.
+ *  Přijímá `unknown` — pokrývá všechny typy karta fieldů (string, string[],
+ *  number, undefined, null) bez nutnosti `as any` cast u volajícího. */
+function normalize(v: unknown): string {
   if (v === undefined || v === null) return '';
   if (Array.isArray(v)) return v.filter(Boolean).join(' + ');
   return String(v).trim();
@@ -134,7 +136,7 @@ const puvodniUmisteniText = karta.puvodniUmisteni
 
 const items: Array<{ label: string; value: string }> = [
   ...standardFields
-    .map(({ key, label }) => ({ label, value: normalize(karta[key] as any) }))
+    .map(({ key, label }) => ({ label, value: normalize(karta[key]) }))
     .filter(({ value }) => value.length > 0),
   ...(puvodniUmisteniText ? [{ label: 'Původní umístění', value: puvodniUmisteniText }] : []),
   ...(karta.extra ?? []).filter((e) => e.value && e.value.trim().length > 0),

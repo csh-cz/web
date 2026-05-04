@@ -134,21 +134,21 @@ const orgJsonLd = isHome ? {
 
     <header class="site-header sticky top-0 z-20" role="banner">
       <nav class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between gap-4" aria-label="Hlavní navigace">
-        <a href="/" class="text-xl text-[var(--color-brass-bright)] flex-shrink-0 italic" style="border-bottom: none;" aria-label="Hodinárium — domů">
+        <a href="/" class="text-xl text-[var(--color-brass-bright)] flex-shrink-0 italic nav-link" aria-label="Hodinárium — domů">
           Hodinárium
         </a>
 
         <ul class="hidden md:flex gap-5 text-sm items-center" style="letter-spacing: 0.05em;">
-          <li><a href="/pro-navstevniky" style="border-bottom: none;">Návštěva</a></li>
-          <li><a href="/sbirka" style="border-bottom: none;">Sbírka</a></li>
-          <li><a href="/projekty" style="border-bottom: none;">Projekty</a></li>
-          <li><a href="/konstrukce" style="border-bottom: none;">Konstrukce</a></li>
-          <li><a href="/hodinari" style="border-bottom: none;">Hodináři</a></li>
-          <li><a href="/mapa-horologie" style="border-bottom: none;">Mapa horologie</a></li>
-          <li><a href="/vice" style="border-bottom: none;">Více</a></li>
-          <li><a href={SISTER_SPOLEK} target="_blank" rel="noopener" class="nav-sister" style="border-bottom: none;" aria-label={`Spolek na ${SISTER_SPOLEK_LABEL} (otevře se v novém okně)`}>Spolek&nbsp;↗</a></li>
-          <li><a href="https://orloj.eu" target="_blank" rel="noopener" class="nav-sister" style="border-bottom: none;" aria-label="Orloj.eu — encyklopedie Pražského orloje (otevře se v novém okně)">Orloj.eu&nbsp;↗</a></li>
-          <li><a href="/en" class="nav-en" style="border-bottom: none;" aria-label="English summary" hreflang="en" lang="en">EN</a></li>
+          <li><a href="/pro-navstevniky" class="nav-link">Návštěva</a></li>
+          <li><a href="/sbirka" class="nav-link">Sbírka</a></li>
+          <li><a href="/projekty" class="nav-link">Projekty</a></li>
+          <li><a href="/konstrukce" class="nav-link">Konstrukce</a></li>
+          <li><a href="/hodinari" class="nav-link">Hodináři</a></li>
+          <li><a href="/mapa-horologie" class="nav-link">Mapa horologie</a></li>
+          <li><a href="/vice" class="nav-link">Více</a></li>
+          <li><a href={SISTER_SPOLEK} target="_blank" rel="noopener" class="nav-sister nav-link" aria-label={`Spolek na ${SISTER_SPOLEK_LABEL} (otevře se v novém okně)`}>Spolek&nbsp;↗</a></li>
+          <li><a href="https://orloj.eu" target="_blank" rel="noopener" class="nav-sister nav-link" aria-label="Orloj.eu — encyklopedie Pražského orloje (otevře se v novém okně)">Orloj.eu&nbsp;↗</a></li>
+          <li><a href="/en" class="nav-en nav-link" aria-label="English summary" hreflang="en" lang="en">EN</a></li>
           <li>
             <button data-search-trigger class="nav-search-btn" aria-label="Vyhledávat (Cmd+K)">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" width="18" height="18">
@@ -184,29 +184,29 @@ const orgJsonLd = isHome ? {
           <ul class="mobile-menu absolute right-0 top-full mt-2 w-72 py-1">
             <!-- Hlavní (drží se synchronizované s desktop top nav) -->
             <li class="mobile-section-label">Hodinárium</li>
-            <li><a href="/pro-navstevniky" style="border-bottom: none;">Návštěva</a></li>
-            <li><a href="/sbirka" style="border-bottom: none;">Sbírka</a></li>
-            <li><a href="/projekty" style="border-bottom: none;">Projekty</a></li>
-            <li><a href="/konstrukce" style="border-bottom: none;">Konstrukce</a></li>
-            <li><a href="/hodinari" style="border-bottom: none;">Hodináři</a></li>
-            <li><a href="/mapa-horologie" style="border-bottom: none;">Mapa horologie</a></li>
+            <li><a href="/pro-navstevniky" class="nav-link">Návštěva</a></li>
+            <li><a href="/sbirka" class="nav-link">Sbírka</a></li>
+            <li><a href="/projekty" class="nav-link">Projekty</a></li>
+            <li><a href="/konstrukce" class="nav-link">Konstrukce</a></li>
+            <li><a href="/hodinari" class="nav-link">Hodináři</a></li>
+            <li><a href="/mapa-horologie" class="nav-link">Mapa horologie</a></li>
 
             <!-- Mimo hlavní nav, ale dostupné z hamburgeru přímo (zkratky pro mobil) -->
             <li class="mobile-section-label">Více</li>
-            <li><a href="/virtualni-muzeum" style="border-bottom: none;">Virtuální muzeum</a></li>
-            <li><a href="/muzea" style="border-bottom: none;">Muzea</a></li>
-            <li><a href="/zajimavosti" style="border-bottom: none;">Zajímavosti</a></li>
-            <li><a href="/kronika" style="border-bottom: none;">Kronika</a></li>
-            <li><a href="/casova-osa" style="border-bottom: none;">Časová osa</a></li>
-            <li><a href="/expozice" style="border-bottom: none;">Expozice (seznam)</a></li>
-            <li><a href="/kroky" style="border-bottom: none;">Hodinové kroky</a></li>
-            <li><a href="/tagy" style="border-bottom: none;">Tagy</a></li>
-            <li><a href="/podpora" style="border-bottom: none;">Podpora</a></li>
+            <li><a href="/virtualni-muzeum" class="nav-link">Virtuální muzeum</a></li>
+            <li><a href="/muzea" class="nav-link">Muzea</a></li>
+            <li><a href="/zajimavosti" class="nav-link">Zajímavosti</a></li>
+            <li><a href="/kronika" class="nav-link">Kronika</a></li>
+            <li><a href="/casova-osa" class="nav-link">Časová osa</a></li>
+            <li><a href="/expozice" class="nav-link">Expozice (seznam)</a></li>
+            <li><a href="/kroky" class="nav-link">Hodinové kroky</a></li>
+            <li><a href="/tagy" class="nav-link">Tagy</a></li>
+            <li><a href="/podpora" class="nav-link">Podpora</a></li>
 
             <li class="mobile-section-label">Sesterské weby</li>
-            <li><a href={SISTER_SPOLEK} target="_blank" rel="noopener" style="border-bottom: none;">Spolek&nbsp;↗</a></li>
-            <li><a href="https://orloj.eu" target="_blank" rel="noopener" style="border-bottom: none;">Orloj.eu&nbsp;↗</a></li>
-            <li><a href="/en" style="border-bottom: none;" hreflang="en" lang="en">English summary</a></li>
+            <li><a href={SISTER_SPOLEK} target="_blank" rel="noopener" class="nav-link">Spolek&nbsp;↗</a></li>
+            <li><a href="https://orloj.eu" target="_blank" rel="noopener" class="nav-link">Orloj.eu&nbsp;↗</a></li>
+            <li><a href="/en" class="nav-link" hreflang="en" lang="en">English summary</a></li>
           </ul>
         </details>
       </nav>

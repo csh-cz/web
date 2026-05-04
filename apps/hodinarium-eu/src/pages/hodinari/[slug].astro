@@ -6,14 +6,7 @@ import { hodinari, hodinariBySlug } from '../../data/hodinari';
 import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
 
-interface CatalogEntry {
-  slug: string;
-  title: string;
-  category: string;
-  thumbnail: string | null;
-  excerpt: string;
-  imageCount: number;
-}
+import type { CatalogEntry } from '../../data/catalog-types';
 
 /**
  * Stránka hodináře kombinuje:

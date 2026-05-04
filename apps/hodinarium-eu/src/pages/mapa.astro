@@ -12,6 +12,17 @@ const expoZahranici = expozice.filter((l) => l.zeme !== 'CZ');
 
 const articleSlugs = new Set((catalog as Array<{ slug: string }>).map((c) => c.slug));
 const hasArticle = (slug?: string) => slug ? articleSlugs.has(slug) : false;
+
+// Build slug → href mapping pro popup linky (browser script jinak nemá
+// přístup k clanekHref helperu). Reflektuje NEW_CATEGORIES routing.
+const slugToHref: Record<string, string> = {};
+for (const c of (catalog as Array<{ slug: string; category: string }>)) {
+  if (['sbirka','konstrukce','projekty','virtualni-muzeum','muzea','zajimavosti'].includes(c.category)) {
+    slugToHref[c.slug] = `/${c.category}/${c.slug}`;
+  } else {
+    slugToHref[c.slug] = `/clanky/${c.slug}`;
+  }
+}
 ---
 <Base title="Mapa exponátů a expozic" description="Geografické mapy: původ exponátů Hodinária a další hodinářské expozice u nás i ve světě.">
   <header class="max-w-3xl mb-10">
@@ -216,12 +227,12 @@ const hasArticle = (slug?: string) => slug ? articleSlugs.has(slug) : false;
   }
 </style>
 
-<script define:vars={{ puvod, expozice, articleSlugs: [...articleSlugs] }}>
+<script define:vars={{ puvod, expozice, articleSlugs: [...articleSlugs], slugToHref }}>
   const slugSet = new Set(articleSlugs);
 
   function buildPopupHtml(l) {
     const link = l.slug && slugSet.has(l.slug)
-      ? `<a href="/clanky/${l.slug}">Otevřít článek →</a>`
+      ? `<a href="${slugToHref[l.slug] || `/clanky/${l.slug}`}">Otevřít článek →</a>`
       : '';
     const popis = l.popis ? `<p>${l.popis}</p>` : '';
     const rok = l.rok ? `<p><em>${l.rok}</em></p>` : '';

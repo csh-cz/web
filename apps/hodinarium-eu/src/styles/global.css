@@ -607,6 +607,40 @@ summary::-webkit-details-marker { display: none; }
   color: var(--color-text-muted);
 }
 
+/* Breadcrumbs — drobečková navigace, použito na všech detail page přes <Breadcrumbs />.
+   Sjednoceno ze 5 duplikovaných CSS bloků (Article.astro, karta, kronika, hodinari, tagy). */
+.breadcrumbs {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+.breadcrumbs a {
+  color: var(--color-text-soft);
+  border-bottom: none;
+}
+.breadcrumbs a:hover {
+  color: var(--color-brass-bright);
+}
+.breadcrumbs .current {
+  color: var(--color-text-soft);
+  font-style: italic;
+}
+.breadcrumbs span[aria-hidden] {
+  color: var(--color-brass);
+  opacity: 0.5;
+}
+
+/* Top nav links — vypnutý border-bottom co všechny <a> mají v global a typography styles.
+   Předtím duplikováno 30+ místech jako inline `style="border-bottom: none;"`.
+   Aplikuje se na všechny anchor v navu (desktop top nav + mobile menu). */
+.nav-link {
+  border-bottom: none !important;
+}
+
 /* Přepínač zobrazení (Rozcestník / Katalog v sekci /sbirka/) */
 .view-toggle {
   display: inline-flex;
