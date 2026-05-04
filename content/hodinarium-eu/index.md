@@ -6,6 +6,7 @@ originalUrl: "https://hodinarium.eu/"
 lastModified: "Fri, 11 Jul 2025 15:01:00 GMT"
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-27T17:37:19.849Z"
+tldr: 'Český spolek horologický, Věžní muzejíčko Soběslav a Hodinárium v Děčíně vznikly z obdivu k hodinám. Tento obdiv s námi sdílí více lidí.…'
 ---
 **Český spolek horologický**, Věžní muzejíčko Soběslav a **Hodinárium v Děčíně** vznikly z obdivu k hodinám. Tento obdiv s námi sdílí více lidí. Volné seskupení hodinářských fandů postupně přerostlo do občanského sdružení Virtuální muzeum hodin o.s., které se v roce 2015 přetvořilo na Český spolek horologický. To se stalo východiskem pro cestu, která má nyní tři směry.
 
@@ -21,4 +22,4 @@ V roce 2025 byl web muzeumhodin.info přejmenován na [hodinarium.eu](https://ho
 
 **P**okud se nám podařilo vzbudit váš zájem, můžete se vydat na některou z nabízených cest a získat podrobnější informace. Nebo ještě lépe, pomozte nám tyto cesty vytvářet.
 
-[Mapa serveru](/clanky/mapa).
+Stručný rozcestník: [Sbírka](/sbirka), [Projekty](/projekty), [Konstrukce](/konstrukce), [Hodináři](/hodinari), [Mapa horologie](/mapa-horologie), [Více…](/vice).

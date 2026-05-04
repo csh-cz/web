@@ -209,6 +209,26 @@ export const onRequest: PagesFunction<Env> = async ({ request, env }) => {
   //   /api/cms/api/v3/repos/...      → strip /api/cms → /api/v3/repos/... → /repos/...
   //   /api/cms/api/graphql           → strip /api/cms → /api/graphql → /graphql
   const editorEmail = getEditorEmail(request);
+
+  // Hard-fail guard: pokud by se Cloudflare Access policy z této cesty
+  // (nedopatřením) odstranila, header `Cf-Access-Authenticated-User-Email`
+  // by chyběl a commit by prošel jako [editor: anonymous] přes bot PAT.
+  // Tichá privilege escalation — proxy by za nepřihlášeného umožnila
+  // libovolný GitHub call. Mutating metody bez identity = 401.
+  const isMutating =
+    request.method !== 'GET' && request.method !== 'HEAD' && request.method !== 'OPTIONS';
+  if (isMutating && !editorEmail) {
+    return new Response(
+      JSON.stringify({
+        error: 'Unauthenticated request',
+        message:
+          'Cf-Access-Authenticated-User-Email header missing on a mutating request. ' +
+          'Cloudflare Access policy must protect /api/cms/* — refusing to forward to GitHub.',
+      }),
+      { status: 401, headers: { 'Content-Type': 'application/json' } },
+    );
+  }
+
   const target = new URL(GITHUB_API);
   target.pathname = internalPath
     .replace(/^\/api\/v3/, '')
@@ -236,12 +256,34 @@ export const onRequest: PagesFunction<Env> = async ({ request, env }) => {
     headers.delete('Content-Length');
   }
 
-  const upstream = await fetch(target.toString(), {
-    method: request.method,
-    headers,
-    body,
-    redirect: 'follow',
-  });
+  // Timeout + try/catch — pokud GitHub API zatuhne nebo network selže,
+  // vrátit smysluplnou JSON chybu místo Pages Function 500 / hangup.
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 25_000);  // CF Pages function má cap ~30s
+  let upstream: Response;
+  try {
+    upstream = await fetch(target.toString(), {
+      method: request.method,
+      headers,
+      body,
+      redirect: 'follow',
+      signal: controller.signal,
+    });
+  } catch (err) {
+    clearTimeout(timeoutId);
+    const isAbort = (err as Error)?.name === 'AbortError';
+    return new Response(
+      JSON.stringify({
+        error: isAbort ? 'Upstream timeout' : 'Upstream fetch failed',
+        message: isAbort
+          ? 'GitHub API did not respond within 25s. Try again.'
+          : 'Network error while forwarding to GitHub API.',
+        target: target.pathname,
+      }),
+      { status: 502, headers: { 'Content-Type': 'application/json' } },
+    );
+  }
+  clearTimeout(timeoutId);
 
   return new Response(upstream.body, {
     status: upstream.status,
