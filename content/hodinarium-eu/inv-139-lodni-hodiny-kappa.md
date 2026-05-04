@@ -21,6 +21,7 @@ karta:
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/elektrika/Kappa/strojek.jpg'
 ---
 
 ## Stub karty

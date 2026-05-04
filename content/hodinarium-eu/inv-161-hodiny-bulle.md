@@ -20,6 +20,7 @@ karta:
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/elektrika/bulle/patent.jpg'
 ---
 
 ![](/img/elektrika/bulle/magnet.jpg)

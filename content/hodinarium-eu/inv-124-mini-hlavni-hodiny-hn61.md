@@ -20,6 +20,7 @@ karta:
   majitel: "Elekon"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/fucik/mini/prstencove.jpg'
 ---
 
 ## Stub karty
