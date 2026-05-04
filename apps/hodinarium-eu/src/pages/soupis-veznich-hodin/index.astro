@@ -1,0 +1,207 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const hodiny = await getCollection('soupis-veznich-hodin');
+
+// Sort: by year asc, then by obec
+hodiny.sort((a, b) => {
+  const ya = typeof a.data.rok === 'number' ? a.data.rok : parseInt(String(a.data.rok), 10) || 0;
+  const yb = typeof b.data.rok === 'number' ? b.data.rok : parseInt(String(b.data.rok), 10) || 0;
+  if (ya !== yb) return ya - yb;
+  return a.data.puvodniMisto.obec.localeCompare(b.data.puvodniMisto.obec, 'cs');
+});
+
+// Stats
+const stavCount = {
+  in_situ: 0,
+  preneseno: 0,
+  ztracene: 0,
+  znicene: 0,
+  neznamy: 0,
+};
+for (const h of hodiny) stavCount[h.data.stav]++;
+
+const stavLabel: Record<string, string> = {
+  in_situ: 'in situ',
+  preneseno: 'přeneseno',
+  ztracene: 'ztracené',
+  znicene: 'zničené',
+  neznamy: 'stav neznámý',
+};
+
+const stavTone: Record<string, string> = {
+  in_situ: 'tone-ok',
+  preneseno: 'tone-info',
+  ztracene: 'tone-warn',
+  znicene: 'tone-bad',
+  neznamy: 'tone-mute',
+};
+---
+<Base
+  title="Soupis věžních hodin"
+  description="Soupis dochovaných i ztracených věžních hodin v českých zemích — identifikovaných in situ i z pramenů. Strojovaná podle hodináře, lokace a stavu, doplněná o interaktivní mapu."
+>
+  <Breadcrumbs trail={[
+    { href: "/", label: "Hodinárium" },
+    { label: "Soupis věžních hodin" },
+  ]} />
+
+  <header class="soupis-header">
+    <p class="eyebrow mb-4">Datafikovaný rejstřík</p>
+    <h1>Soupis věžních hodin</h1>
+    <p class="lede">
+      Dochované i ztracené věžní hodiny v českých zemích — sestavené z dobových pramenů,
+      hodinářských tabulek (Krečmer, Landesbergerové, Prokeš), evidence Hodinária, NPÚ
+      pamatkového katalogu a OSM. Záznamy doplňujeme postupně.
+    </p>
+    <p class="lede">
+      <a href="/soupis-veznich-hodin/mapa/" class="cta-link">→ zobrazit jako interaktivní mapu</a>
+    </p>
+  </header>
+
+  <section class="stats">
+    <div class="stat-card">
+      <div class="stat-num">{hodiny.length}</div>
+      <div class="stat-label">záznamů celkem</div>
+    </div>
+    {Object.entries(stavCount).filter(([_, n]) => n > 0).map(([k, n]) => (
+      <div class={`stat-card ${stavTone[k]}`}>
+        <div class="stat-num">{n}</div>
+        <div class="stat-label">{stavLabel[k]}</div>
+      </div>
+    ))}
+  </section>
+
+  {hodiny.length === 0 && (
+    <p class="empty-state">
+      Soupis se právě sestavuje. Zatím nejsou k dispozici žádné záznamy.
+    </p>
+  )}
+
+  {hodiny.length > 0 && (
+    <table class="soupis-table">
+      <thead>
+        <tr>
+          <th>Rok</th>
+          <th>Hodinář</th>
+          <th>Místo</th>
+          <th>Budova</th>
+          <th>Stav</th>
+          <th>Krok</th>
+        </tr>
+      </thead>
+      <tbody>
+        {hodiny.map((h) => (
+          <tr>
+            <td><strong>{h.data.rok}</strong></td>
+            <td>
+              {h.data.hodinar ? (
+                <a href={`/hodinari/${h.data.hodinar}`}>{h.data.hodinar}</a>
+              ) : (
+                <span class="muted">{h.data.hodinarText || '—'}</span>
+              )}
+            </td>
+            <td>
+              <a href={`/soupis-veznich-hodin/${h.data.slug}/`}>
+                {h.data.puvodniMisto.obec}
+              </a>
+              {h.data.puvodniMisto.cast && <span class="muted"> ({h.data.puvodniMisto.cast})</span>}
+            </td>
+            <td>{h.data.puvodniMisto.budova || <span class="muted">—</span>}</td>
+            <td><span class={`stav-badge ${stavTone[h.data.stav]}`}>{stavLabel[h.data.stav]}</span></td>
+            <td><span class="muted">{h.data.krok || '—'}</span></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  )}
+</Base>
+
+<style>
+  .soupis-header { max-width: 720px; margin-bottom: 2.5rem; }
+  .soupis-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    line-height: 1.05;
+  }
+  .lede { font-size: 1.05rem; color: var(--color-text-soft); line-height: 1.6; }
+  .cta-link {
+    color: var(--color-brass-bright);
+    text-decoration: none;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 60%, transparent);
+    padding-bottom: 1px;
+  }
+  .cta-link:hover { color: var(--color-text); border-bottom-color: var(--color-brass-bright); }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  .stat-card {
+    padding: 1rem 1.25rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    border-left: 3px solid var(--color-copper);
+  }
+  .stat-num { font-family: var(--font-serif); font-size: 1.6rem; color: var(--color-brass-bright); line-height: 1; }
+  .stat-label { font-size: 0.85rem; color: var(--color-text-soft); margin-top: 0.4rem; }
+  .stat-card.tone-ok { border-left-color: #4caf50; }
+  .stat-card.tone-info { border-left-color: #5b9dd9; }
+  .stat-card.tone-warn { border-left-color: #d9a05b; }
+  .stat-card.tone-bad { border-left-color: #b04848; }
+  .stat-card.tone-mute { border-left-color: #777; }
+
+  .empty-state {
+    padding: 2rem;
+    background: var(--color-bg-elevated);
+    border: 1px dashed color-mix(in srgb, var(--color-brass) 22%, transparent);
+    text-align: center;
+    color: var(--color-text-soft);
+  }
+
+  .soupis-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 3rem;
+  }
+  .soupis-table th, .soupis-table td {
+    padding: 0.65rem 0.85rem;
+    text-align: left;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+    vertical-align: top;
+  }
+  .soupis-table th {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: var(--color-brass-bright);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-bottom: 2px solid var(--color-brass);
+  }
+  .soupis-table tr:hover { background: color-mix(in srgb, var(--color-bg-elevated) 50%, transparent); }
+  .soupis-table a { color: var(--color-brass-bright); text-decoration: none; }
+  .soupis-table a:hover { text-decoration: underline; }
+  .muted { color: var(--color-text-soft); opacity: 0.7; }
+
+  .stav-badge {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    border-radius: 2px;
+    font-size: 0.8rem;
+    background: color-mix(in srgb, var(--color-bg-elevated) 80%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .stav-badge.tone-ok { border-color: #4caf50; color: #4caf50; }
+  .stav-badge.tone-info { border-color: #5b9dd9; color: #5b9dd9; }
+  .stav-badge.tone-warn { border-color: #d9a05b; color: #d9a05b; }
+  .stav-badge.tone-bad { border-color: #b04848; color: #b04848; }
+</style>

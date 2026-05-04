@@ -1,0 +1,178 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const all = await getCollection('soupis-veznich-hodin');
+
+// Only items with coordinates make it onto the map
+interface MapPoint {
+  slug: string;
+  rok: string | number;
+  hodinar: string | null;
+  obec: string;
+  budova: string | null;
+  stav: string;
+  chod: string | null;
+  lat: number;
+  lon: number;
+  pribl: boolean;
+}
+
+const points: MapPoint[] = all
+  .filter((h) => Array.isArray(h.data.souradnice))
+  .map((h) => ({
+    slug: h.data.slug,
+    rok: h.data.rok,
+    hodinar: h.data.hodinar || h.data.hodinarText || null,
+    obec: h.data.puvodniMisto.obec,
+    budova: h.data.puvodniMisto.budova || null,
+    stav: h.data.stav,
+    chod: h.data.chod || null,
+    lat: h.data.souradnice![0],
+    lon: h.data.souradnice![1],
+    pribl: !!h.data.souradnicePribl,
+  }));
+
+const totalCount = all.length;
+const withCoords = points.length;
+---
+<Base
+  title="Mapa věžních hodin"
+  description="Interaktivní mapa dochovaných i ztracených věžních hodin v českých zemích — geocodováno z hodinářských tabulek a OSM POI."
+>
+  <Breadcrumbs trail={[
+    { href: "/", label: "Hodinárium" },
+    { href: "/soupis-veznich-hodin/", label: "Soupis věžních hodin" },
+    { label: "Mapa" },
+  ]} />
+
+  <header class="map-header">
+    <p class="eyebrow mb-3">Interaktivní mapa</p>
+    <h1>Věžní hodiny v Česku</h1>
+    <p class="lede">
+      <strong>{withCoords}</strong> z <strong>{totalCount}</strong> záznamů má dohledané souřadnice.
+      Geocoding probíhá inkrementálně — kombinuje OSM POI lookup s Nominatim fallbackem.
+      Záznamy bez souřadnic najdete v <a href="/soupis-veznich-hodin/">tabulkovém soupisu</a>.
+    </p>
+    <p class="legenda">
+      <span class="legend-dot dot-in_situ"></span> in situ &nbsp;
+      <span class="legend-dot dot-preneseno"></span> přemístěno &nbsp;
+      <span class="legend-dot dot-ztracene"></span> ztracené &nbsp;
+      <span class="legend-dot dot-znicene"></span> zničené &nbsp;
+      <span class="legend-dot dot-neznamy"></span> neznámý stav
+    </p>
+  </header>
+
+  <div id="vezni-mapa" class="map-canvas"></div>
+
+  <script type="application/json" id="vezni-data" set:html={JSON.stringify(points)}></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" is:inline></script>
+
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', () => {
+      const dataEl = document.getElementById('vezni-data');
+      if (!dataEl) return;
+      const points = JSON.parse(dataEl.textContent || '[]');
+
+      const map = L.map('vezni-mapa', {
+        center: [49.8175, 15.473],   // střed ČR
+        zoom: 7,
+        scrollWheelZoom: true,
+      });
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      }).addTo(map);
+
+      const stavColors = {
+        in_situ: '#4caf50',
+        preneseno: '#5b9dd9',
+        ztracene: '#d9a05b',
+        znicene: '#b04848',
+        neznamy: '#999',
+      };
+
+      const markers = [];
+      for (const p of points) {
+        const color = stavColors[p.stav] || '#999';
+        const m = L.circleMarker([p.lat, p.lon], {
+          radius: 7,
+          color: color,
+          fillColor: color,
+          fillOpacity: p.pribl ? 0.35 : 0.8,
+          weight: p.pribl ? 1 : 2,
+          dashArray: p.pribl ? '3,3' : null,
+        });
+        const title = `${p.obec}${p.budova ? ' — ' + p.budova : ''}`;
+        const html = `
+          <strong>${title}</strong><br>
+          <em>${p.rok}</em>
+          ${p.hodinar ? '· ' + p.hodinar : ''}<br>
+          <span style="color:${color}">● ${p.stav}</span>
+          ${p.chod ? ' · ' + p.chod : ''}
+          <br><a href="/soupis-veznich-hodin/${p.slug}/">→ detail</a>
+        `;
+        m.bindPopup(html);
+        m.addTo(map);
+        markers.push(m);
+      }
+
+      // Fit map to markers (if any)
+      if (markers.length) {
+        const group = L.featureGroup(markers);
+        map.fitBounds(group.getBounds().pad(0.15));
+      }
+    });
+  </script>
+</Base>
+
+<style>
+  .map-header { max-width: 720px; margin-bottom: 1.5rem; }
+  .map-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    line-height: 1.05;
+  }
+  .lede { font-size: 1rem; color: var(--color-text-soft); line-height: 1.6; margin-bottom: 0.75rem; }
+  .lede a { color: var(--color-brass-bright); }
+  .legenda { font-size: 0.9rem; color: var(--color-text-soft); display: flex; flex-wrap: wrap; gap: 1rem; }
+  .legend-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 0.3rem;
+  }
+  .dot-in_situ { background: #4caf50; }
+  .dot-preneseno { background: #5b9dd9; }
+  .dot-ztracene { background: #d9a05b; }
+  .dot-znicene { background: #b04848; }
+  .dot-neznamy { background: #999; }
+
+  .map-canvas {
+    width: 100%;
+    height: 70vh;
+    min-height: 500px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    margin-bottom: 2rem;
+    background: #1a1a1a;
+  }
+
+  /* Leaflet popup styling for dark theme */
+  :global(.leaflet-popup-content-wrapper) {
+    background: var(--color-bg-elevated);
+    color: var(--color-text);
+    border-radius: 2px;
+  }
+  :global(.leaflet-popup-tip) { background: var(--color-bg-elevated); }
+  :global(.leaflet-popup-content a) { color: var(--color-brass-bright); }
+</style>
