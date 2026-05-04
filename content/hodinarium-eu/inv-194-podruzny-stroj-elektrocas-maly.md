@@ -13,6 +13,7 @@ tags:
   - vitrina-2-vedlejsi
   - funkcni
   - elektrocas
+  - jednotny-cas
 karta:
   inventarniCislo: "194"
   umisteni: "Vitrína 2 (Sál elektro)"

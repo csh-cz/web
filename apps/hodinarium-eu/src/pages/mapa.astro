@@ -13,14 +13,18 @@ const expoZahranici = expozice.filter((l) => l.zeme !== 'CZ');
 const articleSlugs = new Set((catalog as Array<{ slug: string }>).map((c) => c.slug));
 const hasArticle = (slug?: string) => slug ? articleSlugs.has(slug) : false;
 ---
-<Base title="Mapa" description="Geografické mapy: původ exponátů Hodinária a další hodinářské expozice u nás i ve světě.">
+<Base title="Mapa exponátů a expozic" description="Geografické mapy: původ exponátů Hodinária a další hodinářské expozice u nás i ve světě.">
   <header class="max-w-3xl mb-10">
     <p class="eyebrow mb-4">Geografický rejstřík</p>
-    <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Mapa</h1>
+    <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Mapa exponátů a expozic</h1>
     <p class="text-[var(--color-text)] leading-relaxed">
       Dvě tématické mapy. <strong>Nahoře</strong>: odkud pochází stroje a exponáty
-      v <a href="/decin">Hodináriu Děčín</a>. <strong>Dole</strong>: další hodinářské
+      v <a href="/sbirka">Hodináriu Děčín</a>. <strong>Dole</strong>: další hodinářské
       expozice, slavné orloje a horologické zajímavosti u nás i ve světě.
+    </p>
+    <p class="text-[var(--color-text-soft)] leading-relaxed mt-3" style="font-size: 0.95rem;">
+      Hledáš širší pohled? Otevři <a href="/mapa-horologie"><strong>Mapu horologie</strong></a> —
+      Davidovy osobní GMaps s orloji, muzei a výrobci po Evropě i ve světě.
     </p>
   </header>
 

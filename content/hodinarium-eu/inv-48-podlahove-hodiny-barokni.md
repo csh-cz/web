@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - funkcni
+  - stolni
 karta:
   inventarniCislo: "48"
   umisteni: "Hlavní sál"

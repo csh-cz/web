@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - rohova-vitrina-vedlejsi
   - funkcni
+  - pisecne
 karta:
   inventarniCislo: "247"
   umisteni: "Rohová vitrína (Sál elektro)"

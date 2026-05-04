@@ -13,6 +13,7 @@ tags:
   - hlavni-sal
   - funkcni
   - krok-vreteno
+  - nastenne
 karta:
   inventarniCislo: "55"
   umisteni: "Hlavní sál"

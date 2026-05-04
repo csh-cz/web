@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - panel-3
   - funkcni
+  - jednotny-cas
 karta:
   inventarniCislo: "104"
   umisteni: "Panel 3"

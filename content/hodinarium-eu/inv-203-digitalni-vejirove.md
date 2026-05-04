@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - vitrina-3-vedlejsi
   - funkcni
+  - digi
 karta:
   inventarniCislo: "203"
   umisteni: "Vitrína 3 (Sál elektro)"

@@ -13,6 +13,7 @@ tags:
   - panel-5
   - funkcni
   - pragotron
+  - jednotny-cas
 karta:
   inventarniCislo: "127"
   umisteni: "Panel 5"

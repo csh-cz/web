@@ -13,6 +13,7 @@ tags:
   - vitrina-2-vedlejsi
   - funkcni
   - pragotron
+  - jednotny-cas
 karta:
   inventarniCislo: "199"
   umisteni: "Vitrína 2 (Sál elektro)"

@@ -13,6 +13,7 @@ tags:
   - panel-4
   - funkcni
   - pragotron
+  - jednotny-cas
 karta:
   inventarniCislo: "121"
   umisteni: "Panel 4"

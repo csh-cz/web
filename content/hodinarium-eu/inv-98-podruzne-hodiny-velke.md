@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - panel-2
   - funkcni
+  - jednotny-cas
 karta:
   inventarniCislo: "98"
   umisteni: "Panel 2"

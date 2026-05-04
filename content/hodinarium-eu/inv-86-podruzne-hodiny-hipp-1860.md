@@ -14,6 +14,7 @@ tags:
   - funkcni
   - krok-hipp
   - hipp
+  - jednotny-cas
 karta:
   inventarniCislo: "86"
   umisteni: "Panel 1"

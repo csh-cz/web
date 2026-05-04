@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - vitrina-2-vedlejsi
   - nefunkcni
+  - nastenne
 karta:
   inventarniCislo: "195"
   umisteni: "Vitrína 2 (Sál elektro)"

@@ -13,6 +13,7 @@ tags:
   - vitrina-3-vedlejsi
   - funkcni
   - pragotron
+  - jednotny-cas
 karta:
   inventarniCislo: "232"
   umisteni: "Vitrína 3 (Sál elektro)"

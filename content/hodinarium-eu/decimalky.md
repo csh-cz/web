@@ -6,6 +6,9 @@ originalUrl: "https://hodinarium.eu/decimalky.htm"
 lastModified: "Wed, 13 Jan 2021 10:56:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:59.736Z"
+tags:
+  - decimalka
+
 ---
 Od malička se učíme hodiny v soustavě 24-60-60 a připadá nám to normální, ačkoliv kopy či mandele dnes nepoužíváme a všude jinde počítáme většinou v soustavě desítkové. Tradice je holt tradice. Francouzi se v roce 1793, v době Francouzské revoluce, vzepřeli a zavedli společně s novým kalendářem i **hodiny decimální, hodiny v soustavě 10-100-100**. Den byl rozdělen na **deset hodin**, každá **hodina na 100 minut** a každá **minuta na sto vteřin**. Půlnoc byla v 10 hodin. Polednice chodila v pět. Poledne je obvykle na hodinách dole i když existují i opačně situované ciferníky.
 

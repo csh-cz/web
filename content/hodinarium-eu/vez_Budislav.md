@@ -8,6 +8,9 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:25.371Z"
 relatedKarty:
   - inv-17-vezni-hainz
+tags:
+  - vezni
+
 ---
 ![kostel](/img/vez/Budislav/f/kostel.jpg)
 

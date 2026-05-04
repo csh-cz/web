@@ -68,20 +68,24 @@ interface TypTile {
 }
 const typTiles: TypTile[] = [
   // Mechanické hodiny
-  { tag: 'vezni',     label: 'Věžní a fasádní',  icon: '🗼', popis: 'Velké stroje z věží kostelů, radnic, zámků a továren.', group: 'mech' },
-  { tag: 'nastenne',  label: 'Nástěnné',          icon: '🕰', popis: 'Švarcvaldky, comtoázky, regulátory a další nástěnky.', group: 'mech' },
-  { tag: 'stolni',    label: 'Stolní',            icon: '⏰', popis: 'Stolní a krbové hodiny pro domácí prostředí.',          group: 'mech' },
-  { tag: 'kapesni',   label: 'Kapesní',           icon: '⌚', popis: 'Kapesní hodinky a chronometry.',                       group: 'mech' },
-  { tag: 'naramkove', label: 'Náramkové',         icon: '⌚', popis: 'Mechanické a kvarcové náramkovky.',                    group: 'mech' },
-  { tag: 'budik',     label: 'Budíky',            icon: '🔔', popis: 'Mechanické a elektromechanické budíky.',               group: 'mech' },
-  { tag: 'decimalka', label: 'Decimálky',         icon: '🔢', popis: 'Decimální (dělení dne na 10 hodin) — vzácné.',         group: 'mech' },
+  { tag: 'vezni',        label: 'Věžní a fasádní',   icon: '🗼', popis: 'Velké stroje z věží kostelů, radnic, zámků a továren.',  group: 'mech' },
+  { tag: 'nastenne',     label: 'Nástěnné',           icon: '🕰', popis: 'Švarcvaldky, comtoázky, regulátory a další nástěnky.',  group: 'mech' },
+  { tag: 'stolni',       label: 'Stolní',             icon: '⏰', popis: 'Stolní, krbové a podlahové hodiny pro domácí prostředí.', group: 'mech' },
+  { tag: 'kapesni',      label: 'Kapesní',            icon: '⌚', popis: 'Kapesní hodinky a chronometry.',                       group: 'mech' },
+  { tag: 'naramkove',    label: 'Náramkové',          icon: '⌚', popis: 'Mechanické a kvarcové náramkovky.',                    group: 'mech' },
+  { tag: 'budik',        label: 'Budíky',             icon: '🔔', popis: 'Mechanické a elektromechanické budíky.',               group: 'mech' },
+  { tag: 'decimalka',    label: 'Decimálky',          icon: '🔢', popis: 'Decimální (dělení dne na 10 hodin) — vzácné.',         group: 'mech' },
   // Elektrické hodiny
-  { tag: 'atomove',   label: 'Atomové',           icon: '⚛',  popis: 'Cesiové standardy, GPS-disciplinovaný čas, NTP.',      group: 'el' },
+  { tag: 'sitovky',      label: 'Síťovky',            icon: '🔌', popis: 'Synchronní motorové hodiny řízené 50 Hz síťovou frekvencí.', group: 'el' },
+  { tag: 'jednotny-cas', label: 'Jednotný čas',       icon: '🏛', popis: 'Mateřní + podružné systémy — kostelní, nádražní, tovární.', group: 'el' },
+  { tag: 'pichacky',     label: 'Píchací (docházkové)', icon: '⏲', popis: 'Docházkové hodiny pro evidenci pracovní doby.',         group: 'el' },
+  { tag: 'digi',         label: 'Digitálky',          icon: '🔢', popis: 'Mechanické i elektronické digitální (LCD, LED, flip-clock).', group: 'el' },
+  { tag: 'atomove',      label: 'Atomové',            icon: '⚛',  popis: 'Cesiové standardy, GPS-disciplinovaný čas, NTP.',       group: 'el' },
   // Speciální
-  { tag: 'slunecni',  label: 'Sluneční',          icon: '☀',  popis: 'Sluneční hodiny — stěnové, vodorovné, polární.',       group: 'spec' },
-  { tag: 'vodni',     label: 'Vodní',             icon: '💧', popis: 'Vodní hodiny (klepsydry).',                            group: 'spec' },
-  { tag: 'pisecne',   label: 'Písečné',           icon: '⏳', popis: 'Přesýpací hodiny.',                                    group: 'spec' },
-  { tag: 'kvetinove', label: 'Květinové',         icon: '🌷', popis: 'Květinové hodiny v parcích — Karlovy Vary, Poděbrady.', group: 'spec' },
+  { tag: 'slunecni',     label: 'Sluneční',           icon: '☀',  popis: 'Sluneční hodiny — stěnové, vodorovné, polární.',       group: 'spec' },
+  { tag: 'vodni',        label: 'Vodní',              icon: '💧', popis: 'Vodní hodiny (klepsydry).',                            group: 'spec' },
+  { tag: 'pisecne',      label: 'Písečné',            icon: '⏳', popis: 'Přesýpací hodiny.',                                    group: 'spec' },
+  { tag: 'kvetinove',    label: 'Květinové',          icon: '🌷', popis: 'Květinové hodiny v parcích — Karlovy Vary, Poděbrady.', group: 'spec' },
 ];
 
 // Spočítej výskyty každého typu napříč sbírkovými entries

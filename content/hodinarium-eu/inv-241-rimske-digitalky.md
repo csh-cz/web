@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - vitrina-4-vedlejsi
   - funkcni
+  - digi
 karta:
   inventarniCislo: "241"
   umisteni: "Vitrína 4 (Sál elektro)"

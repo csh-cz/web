@@ -6,6 +6,10 @@ originalUrl: "https://hodinarium.eu/kapesni_orloj.htm"
 lastModified: "Wed, 26 Apr 2017 16:01:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:04.335Z"
+tags:
+  - vezni
+  - kapesni
+
 ---
 [![Brevete](/img/hodinky/kapesni_orloj/627893335_6_n.jpg)](/img/hodinky/kapesni_orloj/627893335_6.jpg)
 

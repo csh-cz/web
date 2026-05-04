@@ -13,6 +13,7 @@ tags:
   - panel-5
   - funkcni
   - mobatime
+  - jednotny-cas
 karta:
   inventarniCislo: "125"
   umisteni: "Panel 5"

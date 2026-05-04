@@ -11,6 +11,7 @@ manualEdit: false
 author: "Český spolek horologický"
 tags:
   - vitrina-3-hlavni
+  - nastenne
 karta:
   inventarniCislo: "82"
   umisteni: "Vitrína 3 (Sál věžních hodin)"

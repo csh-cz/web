@@ -13,6 +13,7 @@ tags:
   - hlavni-sal
   - funkcni
   - krok-kotva
+  - nastenne
 karta:
   inventarniCislo: "56"
   umisteni: "Hlavní sál"

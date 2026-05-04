@@ -13,6 +13,7 @@ tags:
   - panel-5
   - funkcni
   - bodet
+  - jednotny-cas
 karta:
   inventarniCislo: "126"
   umisteni: "Panel 5"

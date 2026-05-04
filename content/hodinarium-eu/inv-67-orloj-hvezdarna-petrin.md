@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - funkcni
+  - vezni
 karta:
   inventarniCislo: "67"
   umisteni: "Hlavní sál"

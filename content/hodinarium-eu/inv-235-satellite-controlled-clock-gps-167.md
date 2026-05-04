@@ -12,6 +12,7 @@ author: "Český spolek horologický"
 tags:
   - vitrina-3-vedlejsi
   - funkcni
+  - atomove
 karta:
   inventarniCislo: "235"
   umisteni: "Vitrína 3 (Sál elektro)"
