@@ -481,7 +481,7 @@
     "year": 1908,
     "lastModified": null,
     "imageCount": 5,
-    "wordCount": 92
+    "wordCount": 111
   },
   {
     "slug": "inv-177-budik-bentime",
@@ -1390,11 +1390,11 @@
     "title": "hodiny Achrer",
     "category": "sbirka",
     "thumbnail": "/img/Achrer/2strany2.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/Achrer/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/Achrer/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nah…",
     "year": null,
     "lastModified": null,
     "imageCount": 1,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "budiky1",
@@ -1423,11 +1423,11 @@
     "title": "Hodiny Bulle",
     "category": "sbirka",
     "thumbnail": "/img/elektrika/bulle/magnet.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/elektrika/bulle/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/elektrika/bulle/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu, ne…",
     "year": null,
     "lastModified": null,
     "imageCount": 3,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-55-hodiny-comtoise",
@@ -1918,11 +1918,11 @@
     "title": "Jednotný čas",
     "category": "sbirka",
     "thumbnail": "/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/elektrika/jednotnycas/artdeco/f/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/elektrika/jednotnycas/artdeco/f/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky toh…",
     "year": null,
     "lastModified": null,
     "imageCount": 5,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "jednotnycas",
@@ -2358,11 +2358,11 @@
     "title": "Matiční Elektročas",
     "category": "sbirka",
     "thumbnail": "/img/decin/ElektrocasVK1/foto_0001.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/decin/ElektrocasVK1/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/decin/ElektrocasVK1/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu…",
     "year": null,
     "lastModified": null,
     "imageCount": 3,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-90-maticni-ericsson",
@@ -2655,11 +2655,11 @@
     "title": "Nástěnné Hainz",
     "category": "sbirka",
     "thumbnail": "/img/decin/dalsi_stroje/Hainz/f/foto_0001.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/decin/dalsistroje/Hainz/f/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/decin/dalsistroje/Hainz/f/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto ex…",
     "year": null,
     "lastModified": null,
     "imageCount": 2,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-106-nastenne-laplace",
@@ -3084,33 +3084,33 @@
     "title": "Píchačky Elektročas Dk1",
     "category": "sbirka",
     "thumbnail": "/img/decin/ElektrocasVK1/foto_0001.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/decin/ElektrocasVK1/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/decin/ElektrocasVK1/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu…",
     "year": null,
     "lastModified": null,
     "imageCount": 3,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-274-pichacky-elektrocas-dk6",
     "title": "Píchačky Elektročas Dk6",
     "category": "sbirka",
     "thumbnail": "/img/decin/ElektrocasVK1/foto_0001.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/decin/ElektrocasVK1/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/decin/ElektrocasVK1/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu…",
     "year": null,
     "lastModified": null,
     "imageCount": 3,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-262-pichacky-elektrocas-dk6",
     "title": "Píchačky Elektročas DK6",
     "category": "sbirka",
     "thumbnail": "/img/decin/ElektrocasVK1/foto_0001.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/decin/ElektrocasVK1/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/decin/ElektrocasVK1/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu…",
     "year": null,
     "lastModified": null,
     "imageCount": 3,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-264-pichacky-isgus",
@@ -3216,11 +3216,11 @@
     "title": "Podružné Brillié",
     "category": "sbirka",
     "thumbnail": "/img/elektrika/brillie/Brillie4.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/elektrika/brillie/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/elektrika/brillie/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu, …",
     "year": null,
     "lastModified": null,
     "imageCount": 5,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-104-podruzne-burk",
@@ -3238,11 +3238,11 @@
     "title": "Podružné hodiny Bodet",
     "category": "sbirka",
     "thumbnail": "/img/H715_BODET/foto_0001.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/H715BODET/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/H715BODET/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je …",
     "year": null,
     "lastModified": null,
     "imageCount": 5,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-86-podruzne-hodiny-hipp-1860",
@@ -3282,22 +3282,22 @@
     "title": "Podružné hodiny Mobatime",
     "category": "sbirka",
     "thumbnail": "/img/Mobatime/3218C1.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/Mobatime/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/Mobatime/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je n…",
     "year": null,
     "lastModified": null,
     "imageCount": 6,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-127-podruzne-hodiny-pragotron",
     "title": "Podružné hodiny Pragotron",
     "category": "sbirka",
     "thumbnail": "/img/pragotron/C%2030%20ZEZADU+PS%204.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je …",
     "year": 2030,
     "lastModified": null,
     "imageCount": 6,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "podruzne_sekundove",
@@ -3337,22 +3337,22 @@
     "title": "Podružné Jednotný čas",
     "category": "sbirka",
     "thumbnail": "/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/elektrika/jednotnycas/artdeco/f/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/elektrika/jednotnycas/artdeco/f/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky toh…",
     "year": null,
     "lastModified": null,
     "imageCount": 5,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-121-podruzne-pragotron-perla",
     "title": "Podružné Pragotron Perla",
     "category": "sbirka",
     "thumbnail": "/img/pragotron/C%2030%20ZEZADU+PS%204.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je …",
     "year": 2030,
     "lastModified": null,
     "imageCount": 6,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-51-podruzne-vezni-elektrocas",
@@ -3370,11 +3370,11 @@
     "title": "Podružné věžní Hainz",
     "category": "sbirka",
     "thumbnail": "/img/decin/dalsi_stroje/Hainz/f/foto_0001.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/decin/dalsistroje/Hainz/f/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/decin/dalsistroje/Hainz/f/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto ex…",
     "year": null,
     "lastModified": null,
     "imageCount": 2,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-50-podruzne-vezni-vh1-elektrocas",
@@ -3392,66 +3392,66 @@
     "title": "Podružný stroj Elektročas malý",
     "category": "sbirka",
     "thumbnail": "/img/decin/ElektrocasVK1/foto_0001.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/decin/ElektrocasVK1/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/decin/ElektrocasVK1/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu…",
     "year": null,
     "lastModified": null,
     "imageCount": 3,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-227-podruzny-stroj-elektrocas-maly",
     "title": "Podružný stroj Elektročas malý",
     "category": "sbirka",
     "thumbnail": "/img/decin/ElektrocasVK1/foto_0001.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/decin/ElektrocasVK1/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/decin/ElektrocasVK1/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu…",
     "year": null,
     "lastModified": null,
     "imageCount": 3,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-198-podruzny-stroj-pragotron-maly",
     "title": "Podružný stroj Pragotron malý",
     "category": "sbirka",
     "thumbnail": "/img/pragotron/C%2030%20ZEZADU+PS%204.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je …",
     "year": 2030,
     "lastModified": null,
     "imageCount": 6,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-199-podruzny-stroj-pragotron-maly",
     "title": "Podružný stroj Pragotron malý",
     "category": "sbirka",
     "thumbnail": "/img/pragotron/C%2030%20ZEZADU+PS%204.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je …",
     "year": 2030,
     "lastModified": null,
     "imageCount": 6,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-231-podruzny-stroj-pragotron-maly",
     "title": "Podružný stroj Pragotron malý",
     "category": "sbirka",
     "thumbnail": "/img/pragotron/C%2030%20ZEZADU+PS%204.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je …",
     "year": 2030,
     "lastModified": null,
     "imageCount": 6,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-232-podruzny-stroj-pragotron-maly",
     "title": "Podružný stroj Pragotron malý",
     "category": "sbirka",
     "thumbnail": "/img/pragotron/C%2030%20ZEZADU+PS%204.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je …",
     "year": 2030,
     "lastModified": null,
     "imageCount": 6,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-192-podruzny-stroj-veznich-hodin-velky",
@@ -3535,11 +3535,11 @@
     "title": "Pragotron C301",
     "category": "sbirka",
     "thumbnail": "/img/pragotron/C%2030%20ZEZADU+PS%204.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je …",
     "year": 2030,
     "lastModified": null,
     "imageCount": 6,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "pragotron1",
@@ -4206,11 +4206,11 @@
     "title": "Stopky Pragotron",
     "category": "sbirka",
     "thumbnail": "/img/pragotron/C%2030%20ZEZADU+PS%204.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/pragotron/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je …",
     "year": 2030,
     "lastModified": null,
     "imageCount": 6,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "svetlonos",
@@ -4305,11 +4305,11 @@
     "title": "Strojek Hainz",
     "category": "sbirka",
     "thumbnail": "/img/decin/dalsi_stroje/Hainz/f/foto_0001.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/decin/dalsistroje/Hainz/f/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/decin/dalsistroje/Hainz/f/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto ex…",
     "year": null,
     "lastModified": null,
     "imageCount": 2,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-84-strojek-na-retizky-2ks",
@@ -4393,11 +4393,11 @@
     "title": "Synchronní Datumatic",
     "category": "sbirka",
     "thumbnail": "/img/datumatic/f/foto_0003.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/datumatic/f/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/datumatic/f/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu, nebo j…",
     "year": null,
     "lastModified": null,
     "imageCount": 3,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-156-synchronni-laplace-stroj",
@@ -5262,11 +5262,11 @@
     "title": "Závěsné Elektročas oboustranné",
     "category": "sbirka",
     "thumbnail": "/img/decin/ElektrocasVK1/foto_0001.jpg",
-    "excerpt": "Fotky byly auto-detekovány z /img/decin/ElektrocasVK1/ na základě názvu exponátu. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte.",
+    "excerpt": "Fotky byly auto-detekovány z /img/decin/ElektrocasVK1/ na základě názvu exponátu. Foto: archiv Českého spolku horologického, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu…",
     "year": null,
     "lastModified": null,
     "imageCount": 3,
-    "wordCount": 125
+    "wordCount": 145
   },
   {
     "slug": "inv-259-zavesne-ibm",
