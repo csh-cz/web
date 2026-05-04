@@ -2,8 +2,18 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
+import { hodinari } from '../../data/hodinari';
 
 const hodiny = await getCollection('soupis-veznich-hodin');
+
+// slug → display name lookup
+const hodinarName = new Map<string, string>();
+for (const h of hodinari) hodinarName.set(h.slug, h.jmeno);
+function displayHodinar(slug?: string, fallback?: string): string {
+  if (slug && hodinarName.has(slug)) return hodinarName.get(slug)!;
+  if (slug) return slug; // unknown slug — return as-is
+  return fallback || '—';
+}
 
 // Sort: by year asc, then by obec
 hodiny.sort((a, b) => {
@@ -98,7 +108,7 @@ const stavTone: Record<string, string> = {
             <td><strong>{h.data.rok}</strong></td>
             <td>
               {h.data.hodinar ? (
-                <a href={`/hodinari/${h.data.hodinar}`}>{h.data.hodinar}</a>
+                <a href={`/hodinari/${h.data.hodinar}`}>{displayHodinar(h.data.hodinar)}</a>
               ) : (
                 <span class="muted">{h.data.hodinarText || '—'}</span>
               )}

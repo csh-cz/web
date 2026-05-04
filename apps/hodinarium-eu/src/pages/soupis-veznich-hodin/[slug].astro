@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection, render } from 'astro:content';
+import { hodinari } from '../../data/hodinari';
 
 export async function getStaticPaths() {
   const items = await getCollection('soupis-veznich-hodin');
@@ -14,6 +15,11 @@ export async function getStaticPaths() {
 const { item } = Astro.props;
 const { Content } = await render(item);
 const d = item.data;
+
+// slug → display name
+const hodinarName = new Map<string, string>();
+for (const h of hodinari) hodinarName.set(h.slug, h.jmeno);
+const hodinarDisplay = d.hodinar ? (hodinarName.get(d.hodinar) || d.hodinar) : null;
 
 const stavLabel: Record<string, string> = {
   in_situ: 'in situ',
@@ -31,9 +37,7 @@ const chodLabel: Record<string, string> = {
   neznamy: 'neznámý',
 };
 
-const titleParts = [String(d.rok), d.puvodniMisto.obec];
-if (d.hodinar) titleParts.push(d.hodinar);
-const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${d.hodinar || d.hodinarText || 'neznámý hodinář'}`;
+const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hodinarText || 'neznámý hodinář'}`;
 ---
 <Base
   title={pageTitle}
@@ -50,7 +54,7 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${d.hodinar || d.hodinarT
     <h1>{d.puvodniMisto.obec}{d.puvodniMisto.budova ? ` — ${d.puvodniMisto.budova}` : ''}</h1>
     {d.hodinar && (
       <p class="meta">
-        Hodinář: <a href={`/hodinari/${d.hodinar}`}>{d.hodinar}</a>
+        Hodinář: <a href={`/hodinari/${d.hodinar}`}>{hodinarDisplay}</a>
       </p>
     )}
     {!d.hodinar && d.hodinarText && (

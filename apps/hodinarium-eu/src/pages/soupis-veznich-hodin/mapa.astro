@@ -2,14 +2,18 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
+import { hodinari } from '../../data/hodinari';
 
 const all = await getCollection('soupis-veznich-hodin');
+
+const hodinarName = new Map<string, string>();
+for (const h of hodinari) hodinarName.set(h.slug, h.jmeno);
 
 // Only items with coordinates make it onto the map
 interface MapPoint {
   slug: string;
   rok: string | number;
-  hodinar: string | null;
+  hodinar: string | null;       // display name (Václav Krečmer)
   obec: string;
   budova: string | null;
   stav: string;
@@ -24,7 +28,9 @@ const points: MapPoint[] = all
   .map((h) => ({
     slug: h.data.slug,
     rok: h.data.rok,
-    hodinar: h.data.hodinar || h.data.hodinarText || null,
+    hodinar: h.data.hodinar
+      ? (hodinarName.get(h.data.hodinar) || h.data.hodinar)
+      : (h.data.hodinarText || null),
     obec: h.data.puvodniMisto.obec,
     budova: h.data.puvodniMisto.budova || null,
     stav: h.data.stav,
