@@ -256,4 +256,126 @@ const kronika = defineCollection({
   }),
 });
 
-export const collections = { clanky, hodinari: hodinariMedailony, kronika };
+/**
+ * ─── Soupis věžních hodin ─────────────────────────────────────────
+ *
+ * Komplexní dataset existujících i ztracených věžních hodin v ČR
+ * (a okolí), identifikovaných in situ i z pramenů. Zdroje:
+ *  - Tabulky hodinářů (Krečmer, Landesbergerové, Prokeš, …)
+ *  - Hodinárium evidence (sbírkové karty)
+ *  - NPÚ pamatkový katalog, kramerius, regionální archivy
+ *  - OSM POI (cross-validace názvů + koordinátů)
+ *
+ * Hybridní storage: 1 MDX soubor = 1 hodiny. Frontmatter nese plnou
+ * strukturu (často jen pár polí vyplněných); volitelné body MDX pro
+ * narativ (typicky u Hodinárium kusů a slavných případů).
+ *
+ * URL:
+ *   /soupis-veznich-hodin/             — list s filtry
+ *   /soupis-veznich-hodin/mapa/        — interaktivní Leaflet mapa
+ *   /soupis-veznich-hodin/<slug>/      — detail
+ *
+ * Schema je záměrně permissivní — kromě slug/rok/puvodni_misto.obec
+ * jsou všechna pole optional. Cílem je inkrementální datafikace:
+ * začíná se „máme jen rok+obec" a postupně se doplňuje krok, signatura,
+ * fotky, prameny.
+ */
+const veznihodinaFoto = z.object({
+  src: z.string(),                                  // /img/...
+  alt: z.string().optional(),
+  credit: z.string().optional(),
+  typ: z.enum(['stroj', 'budova', 'cifernik', 'detail', 'historicke', 'plan', 'jine']).optional(),
+});
+
+const veznihodinaPramen = z.object({
+  title: z.string().optional(),
+  url: z.string().url().optional(),
+  citace: z.string().optional(),                    // ISO 690 plain text
+  autor: z.string().optional(),
+  rok: z.union([z.number(), z.string()]).optional(),
+});
+
+const soupisVeznichHodin = defineCollection({
+  loader: glob({
+    base: '../../content/soupis-veznich-hodin',
+    pattern: '**/*.{md,mdx}',
+  }),
+  schema: z.object({
+    /** Stabilní slug — typicky <rok>-<misto>-<hodinar>, např. 1868-bychory-prokes. */
+    slug: z.string(),
+
+    /** Rok výroby. Číslo (1868), string pro rozsahy ("1850–1855") nebo neznámý ("?", "po 1880"). */
+    rok: z.union([z.number(), z.string()]),
+
+    /** Hodinář — slug medailionu v content/hodinari/, nebo free text pokud bez medailionu. */
+    hodinar: z.string().optional(),
+    hodinarText: z.string().optional(),             // např. "připisováno Prokešovi" / "anonymní"
+
+    /** Původní místo a budova — jediné polopovinné pole. Obec povinná (kvůli vyhledávání). */
+    puvodniMisto: z.object({
+      obec: z.string(),
+      cast: z.string().optional(),                  // městská část / čtvrť
+      budova: z.string().optional(),                // kostel sv. X / radnice / zámek / továrna ...
+      okres: z.string().optional(),
+      kraj: z.string().optional(),
+      zeme: z.string().default('CZ'),
+    }),
+
+    /** Souřadnice [lat, lon] WGS84. Vyplněno geocoding skriptem. */
+    souradnice: z.tuple([z.number(), z.number()]).optional(),
+    souradnicePribl: z.boolean().optional(),        // true = jen úroveň obce, ne přesně budovy
+
+    /** Stav hodin. */
+    stav: z.enum(['in_situ', 'preneseno', 'ztracene', 'znicene', 'neznamy']).default('neznamy'),
+
+    /** Při preneseno: kam a kdy. */
+    prenos: z.object({
+      do: z.string(),                               // "Hodinárium Děčín" / "soukr. sbírka, Švýcarsko" / "NTM Praha"
+      rok: z.union([z.number(), z.string()]).optional(),
+      poznamka: z.string().optional(),
+    }).optional(),
+
+    /** Aktuální chod (rozhodující pro mapové zobrazení). */
+    chod: z.enum(['v_chodu', 'nefunkcni', 'restaurovano', 'pred_restaurovanim', 'znicene', 'neznamy']).optional(),
+
+    /** Technická charakteristika — všechno optional. */
+    krok: z.string().optional(),                    // 'graham', 'denison', '4-leg-denison', 'mannhardt-lepaut', 'amant-lepaut', 'kotvovy', ... (free text, nikoli enum, kvůli historickým variantám)
+    pohon: z.string().optional(),                   // 'zavazi', 'pero', 'elektricky', ...
+    pocetCifernik: z.number().optional(),
+    rozmery: z.string().optional(),                 // "ráfek 1200 mm" / "stroj 800 × 600 × 400 mm"
+    signatura: z.string().optional(),
+    cenaDobova: z.string().optional(),              // "900 zl." / "1125 K"
+
+    /** Restaurování. */
+    restaurator: z.string().optional(),
+    rokRestaurovani: z.union([z.number(), z.string()]).optional(),
+
+    /** Fotografie (pole — stroj, budova, ciferník, ...). */
+    foto: z.array(veznihodinaFoto).optional(),
+
+    /** Prameny (literatura, archivy, URL). */
+    prameny: z.array(veznihodinaPramen).optional(),
+
+    /** Cross-ref na evidenční karty Hodinária a vázaní články. */
+    relatedKarty: z.array(z.string()).optional(),
+    relatedClanky: z.array(z.string()).optional(),
+
+    /** OSM cross-ref po validaci. */
+    osmId: z.string().optional(),                   // např. "way/123456789"
+    wikidataId: z.string().optional(),              // např. "Q12345"
+
+    /** Volný text (pro krátké poznámky; delší narativ jde do MDX body). */
+    poznamka: z.string().optional(),
+
+    /** Meta. */
+    posledniOvereni: dateString.optional(),
+    zdrojDat: z.string().optional(),                // 'tabulka_krecmer' / 'tabulka_landesbergerove' / 'manual' / 'osm-import' / ...
+  }),
+});
+
+export const collections = {
+  clanky,
+  hodinari: hodinariMedailony,
+  kronika,
+  'soupis-veznich-hodin': soupisVeznichHodin,
+};

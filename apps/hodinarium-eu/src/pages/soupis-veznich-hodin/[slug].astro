@@ -1,0 +1,255 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const items = await getCollection('soupis-veznich-hodin');
+  return items.map((item) => ({
+    params: { slug: item.data.slug },
+    props: { item },
+  }));
+}
+
+const { item } = Astro.props;
+const { Content } = await render(item);
+const d = item.data;
+
+const stavLabel: Record<string, string> = {
+  in_situ: 'in situ',
+  preneseno: 'přeneseno',
+  ztracene: 'ztracené',
+  znicene: 'zničené',
+  neznamy: 'stav neznámý',
+};
+const chodLabel: Record<string, string> = {
+  v_chodu: 'v chodu',
+  nefunkcni: 'nefunkční',
+  restaurovano: 'restaurováno',
+  pred_restaurovanim: 'před restaurováním',
+  znicene: 'zničené',
+  neznamy: 'neznámý',
+};
+
+const titleParts = [String(d.rok), d.puvodniMisto.obec];
+if (d.hodinar) titleParts.push(d.hodinar);
+const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${d.hodinar || d.hodinarText || 'neznámý hodinář'}`;
+---
+<Base
+  title={pageTitle}
+  description={`Věžní hodiny ${d.rok} v lokalitě ${d.puvodniMisto.obec}${d.puvodniMisto.budova ? ` (${d.puvodniMisto.budova})` : ''} — záznam v Soupisu věžních hodin Hodinária.`}
+>
+  <Breadcrumbs trail={[
+    { href: "/", label: "Hodinárium" },
+    { href: "/soupis-veznich-hodin/", label: "Soupis věžních hodin" },
+    { label: pageTitle },
+  ]} />
+
+  <header class="detail-header">
+    <p class="eyebrow mb-3">Věžní hodiny · {d.rok}</p>
+    <h1>{d.puvodniMisto.obec}{d.puvodniMisto.budova ? ` — ${d.puvodniMisto.budova}` : ''}</h1>
+    {d.hodinar && (
+      <p class="meta">
+        Hodinář: <a href={`/hodinari/${d.hodinar}`}>{d.hodinar}</a>
+      </p>
+    )}
+    {!d.hodinar && d.hodinarText && (
+      <p class="meta">Hodinář: {d.hodinarText}</p>
+    )}
+  </header>
+
+  <section class="karta">
+    <dl>
+      {d.signatura && (<><dt>Signatura</dt><dd><code>{d.signatura}</code></dd></>)}
+      {d.krok && (<><dt>Krok</dt><dd>{d.krok}</dd></>)}
+      {d.pohon && (<><dt>Pohon</dt><dd>{d.pohon}</dd></>)}
+      {d.pocetCifernik && (<><dt>Počet ciferníků</dt><dd>{d.pocetCifernik}</dd></>)}
+      {d.rozmery && (<><dt>Rozměry</dt><dd>{d.rozmery}</dd></>)}
+      {d.cenaDobova && (<><dt>Dobová cena</dt><dd>{d.cenaDobova}</dd></>)}
+      <dt>Stav</dt>
+      <dd><span class={`stav-badge stav-${d.stav}`}>{stavLabel[d.stav]}</span></dd>
+      {d.chod && (<><dt>Chod</dt><dd>{chodLabel[d.chod]}</dd></>)}
+      {d.prenos && (
+        <>
+          <dt>Přemístění</dt>
+          <dd>
+            do <strong>{d.prenos.do}</strong>
+            {d.prenos.rok && <span> ({d.prenos.rok})</span>}
+            {d.prenos.poznamka && <p class="poznamka">{d.prenos.poznamka}</p>}
+          </dd>
+        </>
+      )}
+      {d.restaurator && (
+        <>
+          <dt>Restaurátor</dt>
+          <dd>{d.restaurator}{d.rokRestaurovani && <span> ({d.rokRestaurovani})</span>}</dd>
+        </>
+      )}
+      <dt>Lokace</dt>
+      <dd>
+        {d.puvodniMisto.budova && <>{d.puvodniMisto.budova}, </>}
+        {d.puvodniMisto.obec}
+        {d.puvodniMisto.cast && <span> – {d.puvodniMisto.cast}</span>}
+        {d.puvodniMisto.okres && <span class="muted"> · {d.puvodniMisto.okres}</span>}
+        {d.puvodniMisto.kraj && <span class="muted"> · {d.puvodniMisto.kraj}</span>}
+        {d.souradnice && (
+          <p class="souradnice">
+            <a href={`https://www.openstreetmap.org/?mlat=${d.souradnice[0]}&mlon=${d.souradnice[1]}&zoom=17`} target="_blank" rel="noopener">
+              {d.souradnice[0].toFixed(5)}, {d.souradnice[1].toFixed(5)} ↗
+            </a>
+            {d.souradnicePribl && <span class="muted"> (přibližné)</span>}
+          </p>
+        )}
+      </dd>
+    </dl>
+  </section>
+
+  {d.foto && d.foto.length > 0 && (
+    <section class="foto-grid">
+      {d.foto.map((f) => (
+        <figure>
+          <img src={f.src} alt={f.alt || ''} loading="lazy" />
+          {(f.alt || f.credit) && (
+            <figcaption>
+              {f.alt}
+              {f.credit && <small class="credit"> — {f.credit}</small>}
+            </figcaption>
+          )}
+        </figure>
+      ))}
+    </section>
+  )}
+
+  {d.poznamka && (
+    <section class="poznamka-block">
+      <p>{d.poznamka}</p>
+    </section>
+  )}
+
+  <section class="prose">
+    <Content />
+  </section>
+
+  {d.prameny && d.prameny.length > 0 && (
+    <section class="prameny">
+      <h2>Prameny</h2>
+      <ul>
+        {d.prameny.map((p) => (
+          <li>
+            {p.autor && <strong>{p.autor}. </strong>}
+            {p.title && <em>{p.title}</em>}
+            {p.rok && <span>. {p.rok}</span>}
+            {p.url && (
+              <span> — <a href={p.url} target="_blank" rel="noopener">{p.url}</a></span>
+            )}
+            {p.citace && <p class="citace">{p.citace}</p>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {(d.relatedKarty?.length || d.relatedClanky?.length) && (
+    <section class="related">
+      <h2>Související</h2>
+      <ul>
+        {d.relatedKarty?.map((k) => <li>Karta exponátu: <a href={`/sbirka/karta/${k}/`}><code>{k}</code></a></li>)}
+        {d.relatedClanky?.map((c) => <li>Článek: <a href={c}>{c}</a></li>)}
+      </ul>
+    </section>
+  )}
+
+  {d.zdrojDat && (
+    <p class="zdroj">
+      <small>Zdroj záznamu: {d.zdrojDat}{d.posledniOvereni && <span> · poslední ověření {d.posledniOvereni}</span>}</small>
+    </p>
+  )}
+</Base>
+
+<style>
+  .detail-header { margin-bottom: 2rem; max-width: 720px; }
+  .detail-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 0.75rem;
+    line-height: 1.1;
+  }
+  .meta { color: var(--color-text-soft); }
+  .karta {
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-left: 3px solid var(--color-copper);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .karta dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.5rem 1.25rem;
+    margin: 0;
+  }
+  .karta dt {
+    font-family: var(--font-serif);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-brass-bright);
+  }
+  .karta dd { margin: 0; }
+  .karta code { background: rgba(0,0,0,0.2); padding: 0 0.3em; border-radius: 2px; }
+  .stav-badge {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    border-radius: 2px;
+    font-size: 0.85rem;
+    border: 1px solid;
+  }
+  .stav-in_situ { color: #4caf50; border-color: #4caf50; }
+  .stav-preneseno { color: #5b9dd9; border-color: #5b9dd9; }
+  .stav-ztracene { color: #d9a05b; border-color: #d9a05b; }
+  .stav-znicene { color: #b04848; border-color: #b04848; }
+  .stav-neznamy { color: #999; border-color: #999; }
+
+  .souradnice { margin-top: 0.4rem; font-size: 0.9rem; }
+  .muted { color: var(--color-text-soft); opacity: 0.7; }
+  .poznamka { font-size: 0.9rem; color: var(--color-text-soft); margin-top: 0.3rem; }
+
+  .foto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .foto-grid img { width: 100%; height: auto; display: block; }
+  .foto-grid figcaption { font-size: 0.85rem; color: var(--color-text-soft); padding-top: 0.4rem; }
+  .foto-grid .credit { font-size: 0.75rem; opacity: 0.75; }
+
+  .poznamka-block {
+    background: color-mix(in srgb, var(--color-bg-elevated) 50%, transparent);
+    border-left: 3px solid color-mix(in srgb, var(--color-brass) 40%, transparent);
+    padding: 0.85rem 1.25rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    color: var(--color-text-soft);
+  }
+
+  .prose { margin-bottom: 2.5rem; }
+
+  .prameny, .related {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 20%, transparent);
+  }
+  .prameny h2, .related h2 {
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    color: var(--color-brass-bright);
+  }
+  .prameny ul, .related ul { padding-left: 1.2rem; }
+  .prameny li, .related li { margin-bottom: 0.5rem; }
+  .citace { font-size: 0.85rem; color: var(--color-text-soft); margin: 0.3rem 0 0; }
+
+  .zdroj { margin-top: 2rem; color: var(--color-text-soft); }
+</style>
