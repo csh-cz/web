@@ -1,0 +1,503 @@
+---
+import Base from '../../layouts/Base.astro';
+import review from '../../data/_review.json';
+
+/**
+ * /redakce/ — Redakční přehled.
+ *
+ * Stránka pro přihlášené editory s přehledem dokumentů co potřebují
+ * pozornost: chybí typ-tag, fotka, výrobce, umístění; krátké medailony
+ * hodinářů; články bez perex; legacy /clanky/ odkazy; návrhy na smazání.
+ *
+ * Stránka je technicky public (= staticky vyrenderovaná v dist/), ale
+ * data nejsou citlivá — jen seznam slugů a poznámek "k doplnění". Pro
+ * běžného návštěvníka se nezobrazí, protože:
+ *   1. JS hydration kontroluje /api/cms/auth/user — pokud není
+ *      authenticated:true, ukáže "musíš se přihlásit jako editor"
+ *      message a nezobrazí seznamy.
+ *   2. Stránka není v top nav ani v /vice — dosažitelná jen ze /redakce
+ *      přímou URL.
+ *   3. (Volitelně) CF Access policy lze rozšířit aby pokrývala
+ *      i /redakce/* — explicit guard. Zatím přes JS gating.
+ *
+ * Data se generují build-time skriptem /tmp/generate_review.py
+ * (zachycen jako součást commitu C3) z aktuálního stavu content/.
+ * Tj. po každém Pages CI buildu je report aktuální.
+ *
+ * Editor klikne na kartu/článek → odkaz vede do Sveltia CMS na editaci.
+ */
+
+const r = review as {
+  generatedAt: string;
+  summary: Record<string, number | number[]>;
+  sections: {
+    [key: string]: Array<{
+      slug: string;
+      title: string;
+      category?: string;
+      editUrl: string;
+      wordCount?: number;
+      legacyCount?: number;
+      path?: string;
+      note?: string;
+    }>;
+  };
+};
+
+interface SectionDef {
+  key: keyof typeof r.sections;
+  title: string;
+  icon: string;
+  description: string;
+  priority: 'high' | 'medium' | 'low';
+}
+
+const sections: SectionDef[] = [
+  {
+    key: 'kartyPlaceholderTitle',
+    title: 'Karty s placeholder titulkem',
+    icon: '⚠',
+    description: 'Karty s "[K doplnění]" nebo "K doplnění" v nadpisu — auto-generované stuby co potřebují skutečný titulek.',
+    priority: 'high',
+  },
+  {
+    key: 'kartyNoTyp',
+    title: 'Karty bez typového tagu',
+    icon: '🏷',
+    description: 'Karty co nemají žádný typový tag (vezni/budik/sitovky/jednotny-cas/...). Bez něj se nezobrazí v dlaždicích na /sbirka/.',
+    priority: 'high',
+  },
+  {
+    key: 'hodinariShort',
+    title: 'Krátké medailony hodinářů',
+    icon: '👤',
+    description: 'Hodináři/firmy s méně než 200 slovy v těle medailonu. Stuby vyžadují rozšíření obsahu.',
+    priority: 'high',
+  },
+  {
+    key: 'kartyNoThumb',
+    title: 'Karty bez náhledové fotky',
+    icon: '🖼',
+    description: 'Karty bez `thumbnail` field. Atlas / katalog je zobrazí bez ilustrace. Foto pipeline auto-detekce vyčerpána, zbytek vyžaduje fotodokumentaci ručně.',
+    priority: 'medium',
+  },
+  {
+    key: 'kartyNoVyrobce',
+    title: 'Karty bez výrobce',
+    icon: '🏭',
+    description: 'Karty kde `karta.vyrobce` field chybí. Detekce z titulu je vyčerpána. Často jde o exponáty bez identifikované značky.',
+    priority: 'medium',
+  },
+  {
+    key: 'clankyShort',
+    title: 'Krátké články',
+    icon: '📄',
+    description: 'Články pod 200 slov. Mohou být legitimně krátké (medailon muzea), nebo to jsou stuby co potřebují obsah.',
+    priority: 'medium',
+  },
+  {
+    key: 'clankyLegacyLinks',
+    title: 'Články s legacy /clanky/ odkazy',
+    icon: '🔗',
+    description: 'Inline odkazy `/clanky/<slug>` v textu. CF Pages 301 redirect je v pořádku, ale vnitřní linky procházejí přes redirect — UX/SEO mírně horší. Postupně přepsat na čisté cesty.',
+    priority: 'low',
+  },
+  {
+    key: 'hodinariNoPortret',
+    title: 'Hodináři bez portrétu',
+    icon: '🖼',
+    description: 'Medailony bez `portret` field. Pro známé osobnosti často existuje volný portrét na Wikipedii (CC BY-SA), pro firmy logo z webu výrobce.',
+    priority: 'low',
+  },
+  {
+    key: 'clankyNoTldr',
+    title: 'Články bez perex (tldr)',
+    icon: '📝',
+    description: 'Články bez `tldr` field. Většinu auto-generoval skript v C2, zbylé vyžadují manuální napsání.',
+    priority: 'low',
+  },
+  {
+    key: 'kartyNoUmisteni',
+    title: 'Karty bez umístění',
+    icon: '📍',
+    description: 'Karty kde `karta.umisteni` field chybí. Návštěvník nepozná, kde exponát fyzicky stojí.',
+    priority: 'low',
+  },
+  {
+    key: 'duplicates',
+    title: 'Duplicitní soubory (Finder pattern)',
+    icon: '🗑',
+    description: 'macOS Finder/iCloud duplicates (`* 2.mdx`, `* 3.md`). Návrh na smazání — zachovat originál.',
+    priority: 'high',
+  },
+];
+
+const PRIORITY_COLORS = {
+  high: 'red',
+  medium: 'amber',
+  low: 'gray',
+};
+
+// Sumary stats
+const totalIssues = Object.entries(r.sections)
+  .reduce((sum, [, arr]) => sum + (Array.isArray(arr) ? arr.length : 0), 0);
+const generatedDate = new Date(r.generatedAt).toLocaleString('cs-CZ');
+
+// Karta total — z summary
+const kartyTotal = (r.summary.kartyTotal as number) ?? 290;
+const hodinariTotal = (r.summary.hodinariTotal as number) ?? 40;
+---
+<Base
+  title="Redakční přehled"
+  description="Stránka pro přihlášené editory — přehled dokumentů co potřebují pozornost."
+>
+  <header class="redakce-header">
+    <p class="eyebrow mb-3">Pro editory</p>
+    <h1 class="redakce-title">Redakční přehled</h1>
+    <p class="redakce-lede">
+      Seznam karet, článků a medailonů co potřebují <strong>review</strong>,
+      <strong>doplnění</strong> nebo <strong>opravu</strong>. Klik na položku
+      tě přesměruje do CMS na editaci. Po editaci a uložení se entry odstraní
+      z příštího reportu (rebuild Pages CI).
+    </p>
+    <p class="redakce-meta">
+      Vygenerováno: <time datetime={r.generatedAt}>{generatedDate}</time>
+      &nbsp;·&nbsp; Karet: {kartyTotal} &nbsp;·&nbsp; Hodinářů: {hodinariTotal}
+      &nbsp;·&nbsp; Issues: {totalIssues}
+    </p>
+  </header>
+
+  <!-- Auth gate — zobrazí se anonymous návštěvníkům -->
+  <div id="redakce-auth-gate" class="redakce-auth-gate hidden">
+    <h2>Přístup omezen</h2>
+    <p>
+      Tato stránka je dostupná jen pro přihlášené editory CSH. Přihlas se
+      přes <a href="/admin/">CMS administraci</a> a vrať se na tuto stránku
+      (cookies se sdílí mezi /admin/ a /redakce/, takže tě to po přihlášení
+      pustí dál).
+    </p>
+  </div>
+
+  <!-- Hlavní obsah — zobrazí se po JS auth check -->
+  <div id="redakce-content" class="hidden">
+    {sections.map((s) => {
+      const items = r.sections[s.key];
+      if (!items || items.length === 0) return null;
+      return (
+        <section class={`redakce-section redakce-priority-${s.priority}`} id={`section-${s.key}`}>
+          <header class="redakce-section-header">
+            <span class="redakce-section-icon" aria-hidden="true">{s.icon}</span>
+            <h2 class="redakce-section-title">{s.title}</h2>
+            <span class={`redakce-priority-badge redakce-priority-${s.priority}`}>{
+              s.priority === 'high' ? 'Vysoká' : s.priority === 'medium' ? 'Střední' : 'Nízká'
+            }</span>
+            <span class="redakce-section-count">{items.length}</span>
+          </header>
+          <p class="redakce-section-desc">{s.description}</p>
+          <details class="redakce-list-wrapper">
+            <summary class="redakce-list-summary">Zobrazit seznam ({items.length})</summary>
+            <ul class="redakce-list">
+              {items.slice(0, 100).map((item) => (
+                <li class="redakce-item">
+                  {item.editUrl ? (
+                    <a href={item.editUrl} class="redakce-item-link">
+                      <strong>{item.title || item.slug}</strong>
+                      {item.category && <span class="redakce-item-cat">[{item.category}]</span>}
+                      {item.wordCount !== undefined && <span class="redakce-item-meta">{item.wordCount} slov</span>}
+                      {item.legacyCount !== undefined && <span class="redakce-item-meta">{item.legacyCount}× legacy odkaz</span>}
+                      <code class="redakce-item-slug">{item.slug}</code>
+                    </a>
+                  ) : (
+                    <span class="redakce-item-static">
+                      <strong>{item.path}</strong>
+                      {item.note && <span class="redakce-item-meta">{item.note}</span>}
+                    </span>
+                  )}
+                </li>
+              ))}
+              {items.length > 100 && (
+                <li class="redakce-item-more">
+                  … a dalších <strong>{items.length - 100}</strong>. Pro plný seznam dotaž se Davida (data jsou v <code>src/data/_review.json</code>).
+                </li>
+              )}
+            </ul>
+          </details>
+        </section>
+      );
+    })}
+
+    <!-- Kronika gap notice -->
+    {(r.summary.kronikaGapYears as number[]).length > 0 && (
+      <section class="redakce-section redakce-priority-medium">
+        <header class="redakce-section-header">
+          <span class="redakce-section-icon" aria-hidden="true">📅</span>
+          <h2 class="redakce-section-title">Kronika — chybějící roky</h2>
+          <span class="redakce-priority-badge redakce-priority-medium">Střední</span>
+          <span class="redakce-section-count">{(r.summary.kronikaGapYears as number[]).length} let</span>
+        </header>
+        <p class="redakce-section-desc">
+          Kronika nemá záznamy pro tyto roky. Lze je vytvořit z článku
+          <a href="/admin/#/collections/clanky/entries/akvizice-2015-2025">akvizice-2015-2025</a>
+          (split na sezónní záznamy) nebo z fotodokumentace expozice.
+        </p>
+        <p class="redakce-kronika-years">
+          {(r.summary.kronikaGapYears as number[]).map((y) => (
+            <a href={`/admin/#/collections/kronika/new?rok=${y}`} class="redakce-year-tag">{y}</a>
+          ))}
+        </p>
+      </section>
+    )}
+  </div>
+
+  <script is:inline>
+    (async function () {
+      // Auth gate — zkontroluj jestli editor má platnou CF Access session.
+      let authenticated = false;
+      try {
+        const r = await fetch('/api/cms/auth/user', { credentials: 'include' });
+        if (r.ok) {
+          const ct = r.headers.get('content-type') || '';
+          if (ct.includes('json')) {
+            const u = await r.json();
+            authenticated = !!u.authenticated;
+          }
+        }
+      } catch (e) { /* anonymous */ }
+
+      const gate = document.getElementById('redakce-auth-gate');
+      const content = document.getElementById('redakce-content');
+      if (authenticated) {
+        content?.classList.remove('hidden');
+        gate?.classList.add('hidden');
+      } else {
+        content?.classList.add('hidden');
+        gate?.classList.remove('hidden');
+      }
+    })();
+  </script>
+</Base>
+
+<style>
+  .redakce-header {
+    margin-bottom: 3rem;
+    max-width: 800px;
+  }
+  .redakce-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    line-height: 1.05;
+  }
+  .redakce-lede {
+    font-size: 1.05rem;
+    color: var(--color-text);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  .redakce-meta {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    font-feature-settings: "lnum";
+  }
+
+  .redakce-auth-gate {
+    background: var(--color-bg-elevated);
+    border-left: 3px solid var(--color-copper);
+    padding: 1.75rem 2rem;
+    border-radius: 2px;
+    max-width: 600px;
+  }
+  .redakce-auth-gate h2 {
+    color: var(--color-brass-bright);
+    margin: 0 0 0.75rem;
+    border: none; padding: 0;
+  }
+  .redakce-auth-gate h2::before { content: none; }
+
+  .redakce-section {
+    margin-bottom: 2.5rem;
+    background: var(--color-bg-elevated);
+    border-left: 3px solid var(--color-text-muted);
+    border-radius: 2px;
+    padding: 1.5rem 1.75rem;
+  }
+  .redakce-priority-high {
+    border-left-color: #c44;
+  }
+  .redakce-priority-medium {
+    border-left-color: var(--color-copper);
+  }
+  .redakce-priority-low {
+    border-left-color: var(--color-text-muted);
+  }
+
+  .redakce-section-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.85rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+  }
+  .redakce-section-icon {
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+  .redakce-section-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--color-brass-bright);
+    margin: 0;
+    border: none; padding: 0;
+    flex: 1;
+  }
+  .redakce-section-title::before { content: none; }
+
+  .redakce-priority-badge {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    padding: 0.15rem 0.55rem;
+    border-radius: 2px;
+    border: 1px solid currentColor;
+  }
+  .redakce-priority-badge.redakce-priority-high {
+    color: #c44;
+    background: color-mix(in srgb, #c44 10%, transparent);
+  }
+  .redakce-priority-badge.redakce-priority-medium {
+    color: var(--color-copper);
+    background: color-mix(in srgb, var(--color-copper) 10%, transparent);
+  }
+  .redakce-priority-badge.redakce-priority-low {
+    color: var(--color-text-muted);
+  }
+
+  .redakce-section-count {
+    font-feature-settings: "lnum";
+    font-size: 1.1rem;
+    color: var(--color-brass);
+    font-weight: 500;
+    background: var(--color-bg);
+    padding: 0.15rem 0.6rem;
+    border-radius: 4px;
+  }
+
+  .redakce-section-desc {
+    color: var(--color-text-soft);
+    line-height: 1.55;
+    margin: 0 0 1rem;
+    font-size: 0.95rem;
+  }
+
+  .redakce-list-wrapper {
+    margin-top: 0.5rem;
+  }
+  .redakce-list-summary {
+    cursor: pointer;
+    color: var(--color-brass-bright);
+    font-size: 0.9rem;
+    padding: 0.4rem 0;
+    list-style: none;
+    user-select: none;
+  }
+  .redakce-list-summary::before {
+    content: '▶';
+    display: inline-block;
+    margin-right: 0.4rem;
+    transition: transform 150ms ease;
+    font-size: 0.7rem;
+  }
+  details[open] .redakce-list-summary::before {
+    transform: rotate(90deg);
+  }
+  .redakce-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0;
+    max-height: 600px;
+    overflow-y: auto;
+    background: var(--color-bg);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+    border-radius: 2px;
+  }
+  .redakce-item {
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 10%, transparent);
+    padding: 0;
+  }
+  .redakce-item:last-child { border-bottom: none; }
+  .redakce-item-link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0.65rem 1rem;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    color: inherit;
+    transition: background 100ms ease;
+  }
+  .redakce-item-link:hover {
+    background: color-mix(in srgb, var(--color-bg-elevated) 80%, var(--color-brass));
+  }
+  .redakce-item-link strong {
+    color: var(--color-brass-bright);
+    font-weight: 500;
+  }
+  .redakce-item-cat {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    background: var(--color-bg-elevated);
+    padding: 0.05rem 0.35rem;
+    border-radius: 2px;
+  }
+  .redakce-item-meta {
+    font-size: 0.8rem;
+    color: var(--color-text-soft);
+  }
+  .redakce-item-slug {
+    margin-left: auto;
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+  .redakce-item-static {
+    display: block;
+    padding: 0.65rem 1rem;
+    color: var(--color-text);
+  }
+  .redakce-item-more {
+    padding: 0.85rem 1rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+
+  .redakce-kronika-years {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.75rem 0 0;
+  }
+  .redakce-year-tag {
+    display: inline-block;
+    padding: 0.35rem 0.75rem;
+    background: var(--color-bg);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    color: var(--color-brass-bright) !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    font-feature-settings: "lnum";
+    transition: all 150ms ease;
+  }
+  .redakce-year-tag:hover {
+    background: var(--color-brass);
+    color: var(--color-bg) !important;
+    border-color: var(--color-brass-bright);
+  }
+
+  .hidden { display: none !important; }
+</style>

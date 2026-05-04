@@ -673,6 +673,30 @@ summary::-webkit-details-marker { display: none; }
   transform: scale(1.05);
 }
 
+/* Sekundární admin link vedle avataru — redakční přehled.
+   Menší, než avatar; jen ikona ↻. */
+.admin-mini-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-brass);
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+  border-bottom: none !important;
+  transition: all 150ms ease;
+  cursor: pointer;
+}
+.admin-mini-link:hover {
+  background: var(--color-brass);
+  color: var(--color-bg);
+  border-color: var(--color-brass-bright);
+}
+
 /* Floating "Upravit v CMS" tlačítko na detail stránkách (článek/karta/medailon).
    Fixní pravý dolní roh, mírné odhlučnění aby nerušilo čtení. */
 .cms-edit-fab {

@@ -158,6 +158,12 @@ const orgJsonLd = isHome ? {
               <kbd class="hidden lg:inline">⌘K</kbd>
             </button>
           </li>
+          <li id="admin-redakce-slot" class="hidden">
+            <!-- Admin: rychlý odkaz na redakční přehled (jen pro přihlášené editory) -->
+            <a href="/redakce/" class="admin-mini-link"
+               aria-label="Redakční přehled — co potřebuje review"
+               title="Redakční přehled — co potřebuje review">↻</a>
+          </li>
           <li id="admin-badge-slot" class="hidden">
             <!-- Admin badge — JS níž ji odhalí, pokud je editor přihlášen do CF Access. -->
             <a href="/admin/" id="admin-badge-link"
@@ -300,6 +306,9 @@ const orgJsonLd = isHome ? {
             link.setAttribute('aria-label', 'Otevřít CMS (přihlášen jako ' + u.email + ')');
             slot.classList.remove('hidden');
           }
+          // Redakční přehled link — vedle avataru, šipka ↻ jako "co je k doplnění".
+          const redakceSlot = document.getElementById('admin-redakce-slot');
+          if (redakceSlot) redakceSlot.classList.remove('hidden');
 
           // Floating edit button — jen pokud stránka má edit URL (článek/karta/...).
           const editUrl = document.body.getAttribute('data-cms-edit-url');
