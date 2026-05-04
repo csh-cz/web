@@ -219,6 +219,50 @@ function patchFile(
 
 // ─── Main ───────────────────────────────────────────────────────────────
 
+/**
+ * Some Krečmer/Landesberger records have unknown original location
+ * (puvodniMisto.obec = "Neznámé") but a known current location encoded
+ * in `prenos.do` ("Hodinárium, Děčín", "v soukr. sbírce, Švýcarsko",
+ * "NTM" = Praha-Letná, "Atmos Teplice"). For those, we extract a
+ * geographic hint and use it as the map coordinate (souradnicePribl=true).
+ *
+ * Mapping:
+ *   "Hodinárium, Děčín"          → Děčín
+ *   "v soukr. sbírce, Švýcarsko" → Švýcarsko (CH centroid)
+ *   "v soukr. sbírce, VB"        → Velká Británie (GB centroid)
+ *   "v soukr. sbírce, ČR"        → no usable hint → skip
+ *   "NTM"                        → Praha
+ *   "Muzeu českého granátu"      → Třebenice
+ *   "Atmos, Teplice"             → Teplice
+ *   "Josef Schröer, Bocholt"     → Bocholt (Germany)
+ */
+function extractCurrentLocation(prenosDo: string): string | null {
+  const s = prenosDo.toLowerCase();
+  // Specific institutions
+  if (s.includes('hodinárium') && s.includes('děčín')) return 'Děčín';
+  if (s.startsWith('ntm') || s.includes('národní technické muzeum')) return 'Praha';
+  if (s.includes('muzeum českého granátu')) return 'Třebenice';
+  if (s.includes('atmos') && s.includes('teplice')) return 'Teplice';
+  if (s.includes('regionální muzeum') && s.includes('žatec')) return 'Žatec';
+  if (s.includes('paichl')) return null; // sběratel — bez konkrétní obce
+  if (s.includes('aukro')) return null;   // online aukce, bez fyzické lokace
+  if (s.includes('schröer') && s.includes('bocholt')) return 'Bocholt, Germany';
+
+  // Generic patterns: "v soukr. sbírce, X" / "soukromá sbírka X"
+  const m = prenosDo.match(/v?\s*soukr\.?\s*sb[íi]rc[eí]?[,\s]+(.+?)$/i);
+  if (m) {
+    const place = m[1].trim();
+    // Country hints
+    if (/^(čr|česk[áé])\b/i.test(place)) return null; // unspecified ČR
+    if (/^(vb|velká británie|uk|britain|england)\b/i.test(place)) return 'United Kingdom';
+    if (/^(švýcar|schweiz|switzerland)\b/i.test(place)) return 'Switzerland';
+    if (/^(německ|deutschland|germany)\b/i.test(place)) return 'Germany';
+    if (/^(rakous|austria|österreich)\b/i.test(place)) return 'Austria';
+    return place; // assume city name
+  }
+  return null;
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const WRITE = args.includes('--write');
@@ -275,9 +319,34 @@ async function main() {
       continue;
     }
 
-    const obec = fm.puvodniMisto.obec;
-    const budova = fm.puvodniMisto.budova;
-    const okres = (fm.puvodniMisto as { okres?: string }).okres;
+    let obec = fm.puvodniMisto.obec;
+    let budova = fm.puvodniMisto.budova;
+    let okres = (fm.puvodniMisto as { okres?: string }).okres;
+    let usingCurrentLocation = false;
+
+    // Typo fix: Žďár u Svijan vs Ždár u Svijan
+    if (/^Ždár /i.test(obec)) obec = obec.replace(/^Ždár /i, 'Žďár ');
+
+    // If puvodniMisto is unknown/sběratel, try current location from prenos.do
+    if (/^(neznám|v soukr|paichl|aukro)/i.test(obec)) {
+      const prenos = (fm as { prenos?: { do: string } }).prenos;
+      if (prenos?.do) {
+        const fallback = extractCurrentLocation(prenos.do);
+        if (fallback) {
+          obec = fallback;
+          budova = undefined; // building info from original location is irrelevant
+          okres = undefined;
+          usingCurrentLocation = true;
+        }
+      }
+    }
+
+    if (/^(neznám|v soukr|paichl|aukro)/i.test(obec)) {
+      // Still no usable obec
+      missed++;
+      log.push(`✗ ${fm.slug}: pův. místo neznámé a aktuální nelze určit`);
+      continue;
+    }
 
     const obecCoords = await resolveObec(obec, okres);
     if (!obecCoords) {
@@ -301,15 +370,16 @@ async function main() {
       }
     }
 
+    const noteSuffix = usingCurrentLocation ? ' [aktuální umístění]' : '';
     if (bestMatch) {
       exact++;
-      log.push(`✓ ${fm.slug.padEnd(35)} → ${bestMatch.poi.name.slice(0, 30).padEnd(30)} (${bestMatch.poi.type}, score=${bestMatch.score}, ${bestMatch.distKm.toFixed(1)}km)`);
+      log.push(`✓ ${fm.slug.padEnd(35)} → ${bestMatch.poi.name.slice(0, 30).padEnd(30)} (${bestMatch.poi.type}, score=${bestMatch.score}, ${bestMatch.distKm.toFixed(1)}km)${noteSuffix}`);
       if (WRITE) {
-        patchFile(path, bestMatch.poi.lat, bestMatch.poi.lon, false, bestMatch.poi.osmId, bestMatch.poi.wikidata);
+        patchFile(path, bestMatch.poi.lat, bestMatch.poi.lon, usingCurrentLocation, bestMatch.poi.osmId, bestMatch.poi.wikidata);
       }
     } else {
       approx++;
-      log.push(`~ ${fm.slug.padEnd(35)} → obec center "${obec}" (no POI match)`);
+      log.push(`~ ${fm.slug.padEnd(35)} → obec center "${obec}" (no POI match)${noteSuffix}`);
       if (WRITE) {
         patchFile(path, obecCoords.lat, obecCoords.lon, true);
       }
