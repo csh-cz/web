@@ -22,6 +22,7 @@ karta:
   majitel: "Spolek"
   vztahKeSbirce: "spolek"
   stav: "funkční"
+thumbnail: '/img/pragotron/C 30 ZEZADU+PS 4.jpg'
 ---
 
 ![](/img/pragotron/C%2030%20ZEZADU+PS%204.jpg)

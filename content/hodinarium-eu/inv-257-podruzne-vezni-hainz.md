@@ -22,6 +22,7 @@ karta:
   majitel: "Spolek"
   vztahKeSbirce: "dar"
   stav: "funkční"
+thumbnail: '/img/hainz/zadni.jpg'
 ---
 
 ![](/img/decin/dalsi_stroje/Hainz/f/foto_0001.jpg)

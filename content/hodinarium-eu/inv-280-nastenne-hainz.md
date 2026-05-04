@@ -24,6 +24,7 @@ karta:
   stav: "funkční"
   extra:
     - { label: "Poznámka", value: "Pařízek" }
+thumbnail: '/img/hainz/deska_stroj.jpg'
 ---
 
 ![](/img/decin/dalsi_stroje/Hainz/f/foto_0001.jpg)

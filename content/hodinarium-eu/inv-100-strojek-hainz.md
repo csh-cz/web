@@ -20,6 +20,7 @@ karta:
   majitel: "Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/hainz/predni_n.jpg'
 ---
 
 ![](/img/decin/dalsi_stroje/Hainz/f/foto_0001.jpg)

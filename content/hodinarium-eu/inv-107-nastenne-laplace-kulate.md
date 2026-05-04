@@ -19,6 +19,7 @@ karta:
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/laplace/patent_fig8.jpg'
 ---
 
 ## Stub karty

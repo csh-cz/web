@@ -19,6 +19,7 @@ karta:
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/nocturnal/aukro_nocturnal.jpg'
 ---
 
 ## Stub karty

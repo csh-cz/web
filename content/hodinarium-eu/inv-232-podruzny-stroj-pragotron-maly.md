@@ -21,6 +21,7 @@ karta:
   majitel: "Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/pragotron/C 301 ZEZADU.jpg'
 ---
 
 ![](/img/pragotron/C%2030%20ZEZADU+PS%204.jpg)
