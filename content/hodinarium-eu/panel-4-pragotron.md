@@ -29,6 +29,9 @@ relatedKarty:
 tldr: 'V horní části panelu jsou podružné hodiny CPJ061, které kromě časové informace ukazují den v týdnu, datum a měsíc.'
 ---
 
+![Panel 4 v Sálu elektro — Pragotron / Elektročas](/img/panely/panel-4.jpg)
+*Panel 4 v Sálu elektro: výrobky firmy Elektročas/Pragotron — CPJ061, EH41, RL40, signální SH40, zdroj ZZ42 + elektronické a rádiové (DCF) varianty. Foto: M. Baudisch / ČSH 2026.*
+
 ## Sestava Pragotron — mechanická matice
 
 V horní části panelu jsou podružné hodiny [CPJ061](/sbirka/karta/inv-112-cpj-061/), které kromě časové informace ukazují den v týdnu, datum a měsíc.

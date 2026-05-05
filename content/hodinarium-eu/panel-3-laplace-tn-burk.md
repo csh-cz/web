@@ -21,12 +21,16 @@ relatedKarty:
   - inv-107-nastenne-laplace-kulate
   - inv-108-maticni-hodiny
   - inv-109-retezove
+  - inv-110-synchronni-spar
 tldr: 'Levá strana panelu je osazena hodinami Laplace. Nahoře jsou hodiny synchronní, pod nimi matiční. Vedle panelu jsou píchačky, řízené rovněž systémem Laplace.'
 ---
 
+![Panel 3 v Sálu elektro — Laplace, T&N, Bürk, Perconta DCF77](/img/panely/panel-3.jpg)
+*Panel 3 v Sálu elektro: Laplace synchronní + matiční vlevo, T&N s Bürk uprostřed, DCF77 Perconta. Foto: M. Baudisch / ČSH 2026.*
+
 ## Laplace
 
-Levá strana panelu je osazena hodinami Laplace. Nahoře jsou hodiny synchronní, pod nimi matiční. Vedle panelu jsou píchačky, řízené rovněž systémem Laplace.
+Levá strana panelu je osazena hodinami Laplace — nahoře jsou [hodiny synchronní](/sbirka/karta/inv-106-nastenne-laplace/) (Českomoravská), pod nimi matiční. Vedle panelu jsou píchačky, řízené rovněž systémem Laplace. Druhá nástěnná varianta s dřevěným krytem viz [karta inv. 107](/sbirka/karta/inv-107-nastenne-laplace-kulate/).
 
 ## T&N a Bürk
 
@@ -34,12 +38,12 @@ Dalšími hodinami jsou [matiční hodiny T&N](/sbirka/karta/inv-103-maticni-t-n
 
 ## Perconta — DCF77
 
-Signálem DCF77 jsou řízeny [hodiny Perconta](/sbirka/karta/inv-105-perconta/), vybavené řídícím počítačem, který umožňuje naprogramovat odbíjení zvonů v určený den a hodinu po zvolenou dobu. Pro ukázku hodiny ovládají každou čtvrthodinu demonstrační zvonky a v celou hodinu i odbíjení počtu hodin, doprovázené světelnou signalizací.
+Signálem DCF77 jsou řízeny [hodiny Perconta](/sbirka/karta/inv-105-perconta/), vybavené řídicím počítačem, který umožňuje naprogramovat odbíjení zvonů v určený den a hodinu po zvolenou dobu. Pro ukázku hodiny ovládají každou čtvrthodinu demonstrační zvonky a v celou hodinu i odbíjení počtu hodin, doprovázené světelnou signalizací.
 
 ## Doplňky panelu
 
-Panel je ještě osazen [synchronními hodinami Siemens](/sbirka/karta/inv-108-maticni-hodiny/) a [podružnými hodinami řetězovými](/sbirka/karta/inv-109-retezove/), které ukazují čas v systému 4× šest hodin.
+Panel je ještě osazen [synchronními hodinami Siemens](/sbirka/karta/inv-108-maticni-hodiny/), [podružnými hodinami řetězovými](/sbirka/karta/inv-109-retezove/), které ukazují čas v systému 4× šest hodin, a **reklamními synchronními hodinami Spar** ([inv. 110](/sbirka/karta/inv-110-synchronni-spar/) — *dar od p. Pařízka, akvizice 2023*).
 
 * * *
 
-*Text převzat z informačního panelu expozice (Panel 3, Hodinárium Děčín, 2017).*
+*Text panelu je oficiální popis kurátora expozice (M. Baudisch, ČSH 2017, aktualizováno 2026-05).*
