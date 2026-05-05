@@ -28,7 +28,10 @@ public_folder: '/img'
 
 site_url: 'https://hodinarium-eu.pages.dev'
 display_url: 'https://hodinarium-eu.pages.dev'
-logo_url: '/img/logo-csh.png'
+# logo_url: záměrně NEnastaveno — Sveltia by jinak ukazovala CSH logo v
+# horní liště editoru jako "go to site" element, což editorův odchod
+# matlalo s běžnou navigací. Místo loga používáme explicitní floating
+# button "← Zpět na web" v admin/index.html (vlevo nahoře).
 
 # === Společné typy referencí (žijí v references[] napříč collections) ===
 # YAML anchor pro znovupoužití
