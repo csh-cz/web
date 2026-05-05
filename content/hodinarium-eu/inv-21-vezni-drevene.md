@@ -22,7 +22,7 @@ karta:
   vztahKeSbirce: "dar"
   stav: "funkční"
   extra:
-    - { label: "Poznámka", value: "dar pana Fridricha" }
+    - { label: "Poznámka", value: "dar" }
   rokVyroby: "2015"
 ---
 
