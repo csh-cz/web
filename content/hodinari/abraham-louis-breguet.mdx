@@ -10,9 +10,13 @@ aliasy:
   - 'Abraham-Louis Bréguet'
   - 'A. L. Bréguet'
 shrnuti: 'Švýcarsko-francouzský hodinář, jeden z největších inovátorů ve výrobě kapesních hodinek 18./19. století. Vynálezce **válečkového kroku s ocelovým stupníkem**, zdokonalitel **tourbillonu** a opakovaček se zvučným perem. **„Bréguetův" vlásek** se zakončením křivkou se používá dodnes. Firma Bréguet zavedla **první praktické natahování hodin korunkou v roce 1840**.'
+isStub: true
 ---
 
-{/* Životopisný medailon zatím není doplněn — tato karta je stub. 
-   Editor v CMS může postupně přidat: životopis, dílnu, přínos,
-   primární prameny, references, portrétní fotku.
-   Veřejný shrnutí (pole `shrnuti`) zobrazuje úvodní lead odstavec. */}
+import EditorNote from '../../apps/hodinarium-eu/src/components/EditorNote.astro';
+
+<EditorNote level="todo" title="Medailon je stub">
+  Doplň: životopis (vyučení, dílna, geografický rozsah práce), primární prameny,
+  references, portrétní fotku. Frontmatter `isStub` po doplnění odeber, ať se
+  veřejná „profil je stub" hláška skryje.
+</EditorNote>

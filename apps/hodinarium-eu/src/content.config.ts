@@ -208,9 +208,14 @@ const hodinariMedailony = defineCollection({
     zeme: z.string().default('CZ'),
     aliasy: z.array(z.string()).optional(),
     shrnuti: z.string(),
+    /** True = MDX existuje jen kvůli CMS (frontmatter dat z whitelist),
+        ale rozšířený medailon zatím není napsán. Stránka pak zobrazí
+        veřejnou „profil je stub" hlášku stejně jako kdyby MDX neexistoval. */
+    isStub: z.boolean().optional(),
     portret: z.string().optional(),
     portretCredit: z.string().optional(),
-    portretSource: z.string().url().optional(),
+    // CMS posílá prázdný string `''` když editor pole nevyplní → coerce na undefined.
+    portretSource: z.preprocess((v) => (v === '' ? undefined : v), z.string().url().optional()),
     references: z.array(reference).optional(),
   }),
 });
