@@ -2,7 +2,6 @@
 import Base from "../layouts/Base.astro";
 import Card from "../components/Card.astro";
 import catalog from '../data/catalog.json';
-import { lokace } from '../data/lokace';
 import { clanekHref } from '../data/url-helpers';
 
 import type { CatalogEntry as Entry } from '../data/catalog-types';
@@ -20,11 +19,9 @@ const browsable = entries
   .sort(() => Math.random() - 0.5)
   .slice(0, 4);
 
-// Statistiky
-const total = entries.length;
+// Statistiky — oldestYear/newestYear se používají v hero lede;
+// ostatní (total, totalImages, lokaceCount) odstraněny s hero-stats blokem.
 const withImages = entries.filter((e) => e.thumbnail).length;
-const totalImages = entries.reduce((s, e) => s + e.imageCount, 0);
-const lokaceCount = lokace.length;
 const oldestYear = Math.min(...entries.filter((e) => e.year && e.year > 1300).map((e) => e.year as number));
 const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).map((e) => e.year as number));
 ---
@@ -46,20 +43,6 @@ const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).ma
         <div class="hero-cta">
           <a href="/sbirka" class="btn-primary">Procházet sbírku</a>
           <a href="/mapa-horologie" class="btn-secondary">Mapa horologie →</a>
-        </div>
-      </div>
-      <div class="hero-stats" aria-label="Souhrn obsahu">
-        <div class="stat">
-          <span class="stat-num">{total}</span>
-          <span class="stat-label">článků</span>
-        </div>
-        <div class="stat">
-          <span class="stat-num">{totalImages}</span>
-          <span class="stat-label">fotografií</span>
-        </div>
-        <div class="stat">
-          <span class="stat-num">{lokaceCount}</span>
-          <span class="stat-label">lokací</span>
         </div>
       </div>
     </div>

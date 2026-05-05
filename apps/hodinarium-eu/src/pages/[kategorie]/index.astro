@@ -35,7 +35,7 @@ const ostatni = featured.length
   ? entries.filter((e) => !featured.some((f) => f.slug === e.slug))
   : entries;
 
-const totalImages = entries.reduce((s, e) => s + e.imageCount, 0);
+// const totalImages = entries.reduce((s, e) => s + e.imageCount, 0);  // (unused, stats removed)
 // const totalWords = entries.reduce((s, e) => s + e.wordCount, 0);  // (unused)
 const oldestYear = Math.min(...entries.filter((e) => e.year && e.year > 1300).map((e) => e.year as number));
 const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).map((e) => e.year as number));
@@ -54,24 +54,14 @@ const ikonaSvg: Record<string, string> = {
     <p class="kategorie-podnadpis">{meta.podnadpis}</p>
     <p class="kategorie-intro mt-6">{meta.intro}</p>
 
-    <div class="kategorie-stats mt-8">
-      <div class="stat-inline">
-        <strong>{entries.length}</strong>
-        <span>{entries.length === 1 ? 'článek' : entries.length < 5 ? 'články' : 'článků'}</span>
-      </div>
-      {totalImages > 0 && (
-        <div class="stat-inline">
-          <strong>{totalImages}</strong>
-          <span>fotografií</span>
-        </div>
-      )}
-      {Number.isFinite(oldestYear) && Number.isFinite(newestYear) && oldestYear !== newestYear && (
+    {Number.isFinite(oldestYear) && Number.isFinite(newestYear) && oldestYear !== newestYear && (
+      <div class="kategorie-stats mt-8">
         <div class="stat-inline">
           <strong>{oldestYear} → {newestYear}</strong>
           <span>časový rozsah</span>
         </div>
-      )}
-    </div>
+      </div>
+    )}
 
     {meta.doplnky && meta.doplnky.length > 0 && (
       <div class="kategorie-doplnky mt-8">
