@@ -35,10 +35,7 @@ const ostatni = featured.length
   ? entries.filter((e) => !featured.some((f) => f.slug === e.slug))
   : entries;
 
-// const totalImages = entries.reduce((s, e) => s + e.imageCount, 0);  // (unused, stats removed)
-// const totalWords = entries.reduce((s, e) => s + e.wordCount, 0);  // (unused)
-const oldestYear = Math.min(...entries.filter((e) => e.year && e.year > 1300).map((e) => e.year as number));
-const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).map((e) => e.year as number));
+// totalImages, totalWords, oldestYear, newestYear odstraněny — stats blok pryč
 
 const ikonaSvg: Record<string, string> = {
   mapa: '<path d="M12 2C7.5 2 4 5.5 4 10c0 5.5 8 12 8 12s8-6.5 8-12c0-4.5-3.5-8-8-8z"/><circle cx="12" cy="10" r="3"/>',
@@ -54,14 +51,6 @@ const ikonaSvg: Record<string, string> = {
     <p class="kategorie-podnadpis">{meta.podnadpis}</p>
     <p class="kategorie-intro mt-6">{meta.intro}</p>
 
-    {Number.isFinite(oldestYear) && Number.isFinite(newestYear) && oldestYear !== newestYear && (
-      <div class="kategorie-stats mt-8">
-        <div class="stat-inline">
-          <strong>{oldestYear} → {newestYear}</strong>
-          <span>časový rozsah</span>
-        </div>
-      </div>
-    )}
 
     {meta.doplnky && meta.doplnky.length > 0 && (
       <div class="kategorie-doplnky mt-8">
