@@ -167,10 +167,16 @@ const orgJsonLd = isHome ? {
           </li>
           <li id="admin-badge-slot">
             <!-- Admin badge — vždy viditelný.
-                 V anonymním stavu (data-state="anon") je ztlumený, klik vede na /admin/
-                 který nasměruje přes Cloudflare Access na login. Po úspěšném loginu
-                 JS hydrace přepne na data-state="authed" a doplní iniciálu editora. -->
-            <a href="/admin/" id="admin-badge-link"
+                 Anon stav (data-state="anon"):
+                   href směřuje na /api/cms/login (CF-Access protected) s query
+                   parametrem `return_to` = aktuální URL, který JS doplní per-page.
+                   Po úspěšném loginu Pages Function 302 zpět na původní stránku,
+                   nikoli do /admin/ — editor zůstane na obsahové stránce a uvidí
+                   "Upravit" FAB (pokud je page editovatelná).
+                 Authed stav (data-state="authed"):
+                   JS přepíná href na /admin/ (CMS dashboard) — explicitní open-CMS
+                   akce pro správu kolekcí. -->
+            <a href="/api/cms/login" id="admin-badge-link"
                class="admin-avatar"
                data-state="anon"
                aria-label="Přihlášení editora — vyžaduje oprávnění redaktora ČSH"
@@ -293,6 +299,16 @@ const orgJsonLd = isHome ? {
     -->
     <script is:inline>
       (async function () {
+        // Anon avatar: doplň ?return_to=<aktuální URL> aby se po CF Access loginu
+        // editor vrátil sem, místo aby skočil do /admin/.
+        try {
+          const anonLink = document.getElementById('admin-badge-link');
+          if (anonLink && anonLink.getAttribute('data-state') === 'anon') {
+            const here = window.location.pathname + window.location.search + window.location.hash;
+            anonLink.href = '/api/cms/login?return_to=' + encodeURIComponent(here);
+          }
+        } catch (e) { /* ignore */ }
+
         try {
           const r = await fetch('/api/cms/auth/user', { credentials: 'include' });
           if (!r.ok) return;
@@ -309,6 +325,7 @@ const orgJsonLd = isHome ? {
             const ch = (u.email[0] || '·').toUpperCase();
             initial.textContent = ch;
             link.setAttribute('data-state', 'authed');
+            link.href = '/admin/';
             link.title = 'Přihlášen jako ' + u.email + ' — klikni pro otevření CMS administrace';
             link.setAttribute('aria-label', 'Otevřít CMS administraci (přihlášen jako ' + u.email + ')');
           }
