@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection, render } from 'astro:content';
 import { hodinari } from '../../data/hodinari';
+import { tinyMarkdown } from '../../utils/tinyMarkdown';
 
 export async function getStaticPaths() {
   const items = await getCollection('soupis-veznich-hodin');
@@ -125,8 +126,7 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
   )}
 
   {d.poznamka && (
-    <section class="poznamka-block">
-      <p>{d.poznamka}</p>
+    <section class="poznamka-block" set:html={tinyMarkdown(d.poznamka)}>
     </section>
   )}
 

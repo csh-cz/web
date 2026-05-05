@@ -5,6 +5,7 @@ import JsonLd from '../../components/JsonLd.astro';
 import { hodinari } from '../../data/hodinari';
 import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
+import { tinyMarkdown } from '../../utils/tinyMarkdown';
 
 import type { CatalogEntry } from '../../data/catalog-types';
 
@@ -128,7 +129,7 @@ const personJsonLd = hodinar.typ === 'osoba'
     </header>
 
     <div class="prose-content">
-      <p class="lead">{hodinar.shrnuti}</p>
+      <p class="lead" set:html={tinyMarkdown(hodinar.shrnuti)}></p>
 
       {hasFull && Content && (
         <Content />
