@@ -42,17 +42,28 @@ interface Props {
   level?: 'info' | 'warn' | 'todo';
   /** Volitelný titulek (jinak se použije label podle level). */
   title?: string;
+  /** Klíč pro JS resolve mechanismus — identifikuje typ note v rámci souboru
+      (např. 'hodinar-stub', 'hellich-stub'). Default odvozeno z titulku. */
+  noteKey?: string;
+  /** Cesta k MDX souboru (pro JS resolve commit). Pokud není, button se neukáže. */
+  sourceFile?: string;
 }
 
-const { level = 'info', title } = Astro.props;
+const { level = 'info', title, noteKey, sourceFile } = Astro.props;
 const defaultTitle: Record<string, string> = {
   info: 'Editorská poznámka',
   warn: 'Pozor — nejistota',
   todo: 'TODO',
 };
 const heading = title ?? defaultTitle[level];
+const key = noteKey ?? heading.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
 ---
-<aside class={`editor-note editor-note-${level}`} data-editor-only role="note" aria-label={heading}>
+<aside class={`editor-note editor-note-${level}`}
+       data-source-file={sourceFile}
+       data-note-key={key}
+       data-editor-only
+       role="note"
+       aria-label={heading}>
   <header class="editor-note-head">
     <span class="editor-note-icon" aria-hidden="true">
       {level === 'info' && '✎'}
@@ -64,5 +75,10 @@ const heading = title ?? defaultTitle[level];
   </header>
   <div class="editor-note-body">
     <slot />
+    {sourceFile && (
+      <button type="button" class="editor-note-resolve" data-action="resolve-editor-note">
+        ✓ Vyřízeno (smazat tuto poznámku z MDX)
+      </button>
+    )}
   </div>
 </aside>
