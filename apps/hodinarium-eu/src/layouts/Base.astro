@@ -173,8 +173,8 @@ const orgJsonLd = isHome ? {
             <a href="/admin/" id="admin-badge-link"
                class="admin-avatar"
                data-state="anon"
-               aria-label="Přihlásit se do CMS administrace"
-               title="Přihlásit se do CMS administrace">
+               aria-label="Přihlášení editora — vyžaduje oprávnění redaktora ČSH"
+               title="Přihlášení editora obsahu — vyžaduje oprávnění redaktora ČSH (Cloudflare Access)">
               <span id="admin-badge-initial" aria-hidden="true">·</span>
             </a>
           </li>
@@ -309,8 +309,8 @@ const orgJsonLd = isHome ? {
             const ch = (u.email[0] || '·').toUpperCase();
             initial.textContent = ch;
             link.setAttribute('data-state', 'authed');
-            link.title = 'Přihlášen jako ' + u.email + ' — kliknutím otevřeš CMS';
-            link.setAttribute('aria-label', 'Otevřít CMS (přihlášen jako ' + u.email + ')');
+            link.title = 'Přihlášen jako ' + u.email + ' — klikni pro otevření CMS administrace';
+            link.setAttribute('aria-label', 'Otevřít CMS administraci (přihlášen jako ' + u.email + ')');
           }
           // Redakční přehled link — vedle avataru, šipka ↻ jako "co je k doplnění".
           const redakceSlot = document.getElementById('admin-redakce-slot');
