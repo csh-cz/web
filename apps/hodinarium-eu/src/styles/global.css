@@ -1043,11 +1043,11 @@ summary::-webkit-details-marker { display: none; }
   }
 }
 
-/* Wikipedia & Wikimedia odkazy v textu — drobná měděná ⓦ ikonka po textu.
-   V references-list NE — tam má každá položka type-bullet (W) vlevo,
-   duplikát ⓦ vpravo by byl redundantní. */
-.prose-content a[href*="wikipedia.org/wiki/"]::after,
-.prose-content a[href*="wikimedia.org/wiki/"]::after {
+/* Wikipedia & Wikimedia odkazy — drobná měděná ⓦ ikonka po textu.
+   Platí GLOBÁLNĚ (článek, karta, soupis…), výjimka v references-list,
+   kde je W/ⓦ už jako type-bullet vlevo — duplikát vpravo by byl redundantní. */
+a[href*="wikipedia.org/wiki/"]::after,
+a[href*="wikimedia.org/wiki/"]::after {
   content: '\00A0ⓦ';
   font-size: 0.85em;
   color: var(--color-copper);
@@ -1056,20 +1056,23 @@ summary::-webkit-details-marker { display: none; }
   font-weight: 400;
   vertical-align: baseline;
 }
-.prose-content a[href*="wikipedia.org/wiki/"]:hover::after,
-.prose-content a[href*="wikimedia.org/wiki/"]:hover::after {
+a[href*="wikipedia.org/wiki/"]:hover::after,
+a[href*="wikimedia.org/wiki/"]:hover::after {
   color: var(--color-brass-bright);
 }
+.references-list a[href*="wikipedia.org/wiki/"]::after,
+.references-list a[href*="wikimedia.org/wiki/"]::after {
+  content: none;
+}
 
-/* Odkazy na mapové služby v textu — drobná měděná pin ikonka po textu.
-   Stejně jako wiki, v references-list neaplikujeme — tam je pin bullet
-   vlevo (.reference-mapa::before). */
-.prose-content a[href*="mapy.cz"]::after,
-.prose-content a[href*="mapy.com"]::after,
-.prose-content a[href*="google.com/maps"]::after,
-.prose-content a[href*="maps.google"]::after,
-.prose-content a[href*="goo.gl/maps"]::after,
-.prose-content a[href*="openstreetmap.org"]::after {
+/* Odkazy na mapové služby — drobná měděná pin ikonka po textu.
+   Také globálně, výjimka jen v references-list (tam je pin bullet vlevo). */
+a[href*="mapy.cz"]::after,
+a[href*="mapy.com"]::after,
+a[href*="google.com/maps"]::after,
+a[href*="maps.google"]::after,
+a[href*="goo.gl/maps"]::after,
+a[href*="openstreetmap.org"]::after {
   content: '';
   display: inline-block;
   width: 0.85em;
@@ -1081,13 +1084,21 @@ summary::-webkit-details-marker { display: none; }
   -webkit-mask: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z'/%3E%3C/svg%3E") no-repeat center / contain;
   transition: background-color 120ms ease;
 }
-.prose-content a[href*="mapy.cz"]:hover::after,
-.prose-content a[href*="mapy.com"]:hover::after,
-.prose-content a[href*="google.com/maps"]:hover::after,
-.prose-content a[href*="maps.google"]:hover::after,
-.prose-content a[href*="goo.gl/maps"]:hover::after,
-.prose-content a[href*="openstreetmap.org"]:hover::after {
+a[href*="mapy.cz"]:hover::after,
+a[href*="mapy.com"]:hover::after,
+a[href*="google.com/maps"]:hover::after,
+a[href*="maps.google"]:hover::after,
+a[href*="goo.gl/maps"]:hover::after,
+a[href*="openstreetmap.org"]:hover::after {
   background-color: var(--color-brass-bright);
+}
+.references-list a[href*="mapy.cz"]::after,
+.references-list a[href*="mapy.com"]::after,
+.references-list a[href*="google.com/maps"]::after,
+.references-list a[href*="maps.google"]::after,
+.references-list a[href*="goo.gl/maps"]::after,
+.references-list a[href*="openstreetmap.org"]::after {
+  content: none;
 }
 
 /* Print */
