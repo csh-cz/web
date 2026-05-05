@@ -692,8 +692,12 @@ summary::-webkit-details-marker { display: none; }
 }
 
 /* CMS admin avatar v navu — kruhová iniciála editora.
-   Skryté server-side (li.hidden), JS hydrace odkryje pokud je editor přihlášen
-   přes CF Access. */
+   Vždy viditelný; ve dvou stavech:
+   - data-state="anon": ztlumený, transparentní, "·" placeholder; kliknutí
+     vede na /admin/ → CF Access login.
+   - data-state="authed": plná barva mosazi, iniciála emailu; kliknutí
+     otevře CMS dashboard (případně edit FAB níž otevře přímo entry).
+   JS hydrace v Base.astro přepíná data-state po fetch /api/cms/auth/user. */
 .admin-avatar {
   display: inline-flex;
   align-items: center;
@@ -701,18 +705,36 @@ summary::-webkit-details-marker { display: none; }
   width: 1.95rem;
   height: 1.95rem;
   border-radius: 50%;
-  background: var(--color-brass);
-  color: var(--color-bg);
   font-family: var(--font-serif);
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none !important;
-  border: 1px solid color-mix(in srgb, var(--color-brass-bright) 50%, transparent);
   transition: all 150ms ease;
   cursor: pointer;
   border-bottom: none !important;  /* override globální `a` styling */
 }
-.admin-avatar:hover {
+
+/* Anon stav — ztlumený, decentní, dává najevo "klikni a přihlaš se" */
+.admin-avatar[data-state="anon"] {
+  background: transparent;
+  color: color-mix(in srgb, var(--color-text-muted) 70%, transparent);
+  border: 1px dashed color-mix(in srgb, var(--color-text-muted) 50%, transparent);
+}
+.admin-avatar[data-state="anon"]:hover {
+  background: color-mix(in srgb, var(--color-brass) 15%, transparent);
+  color: var(--color-brass);
+  border-color: var(--color-brass);
+  border-style: solid;
+  transform: scale(1.05);
+}
+
+/* Authed stav — plná barva, iniciála viditelná */
+.admin-avatar[data-state="authed"] {
+  background: var(--color-brass);
+  color: var(--color-bg);
+  border: 1px solid color-mix(in srgb, var(--color-brass-bright) 50%, transparent);
+}
+.admin-avatar[data-state="authed"]:hover {
   background: var(--color-brass-bright);
   transform: scale(1.05);
 }
@@ -775,7 +797,7 @@ summary::-webkit-details-marker { display: none; }
   flex-shrink: 0;
 }
 @media print {
-  .cms-edit-fab, #admin-badge-slot { display: none !important; }
+  .cms-edit-fab, #admin-badge-slot, #admin-redakce-slot { display: none !important; }
 }
 
 /* Hamburger menu rozbalovací box */

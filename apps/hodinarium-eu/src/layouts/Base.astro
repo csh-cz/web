@@ -165,12 +165,16 @@ const orgJsonLd = isHome ? {
                aria-label="Redakční přehled — co potřebuje review"
                title="Redakční přehled — co potřebuje review">↻</a>
           </li>
-          <li id="admin-badge-slot" class="hidden">
-            <!-- Admin badge — JS níž ji odhalí, pokud je editor přihlášen do CF Access. -->
+          <li id="admin-badge-slot">
+            <!-- Admin badge — vždy viditelný.
+                 V anonymním stavu (data-state="anon") je ztlumený, klik vede na /admin/
+                 který nasměruje přes Cloudflare Access na login. Po úspěšném loginu
+                 JS hydrace přepne na data-state="authed" a doplní iniciálu editora. -->
             <a href="/admin/" id="admin-badge-link"
                class="admin-avatar"
-               aria-label="Otevřít CMS administraci"
-               title="Otevřít CMS">
+               data-state="anon"
+               aria-label="Přihlásit se do CMS administrace"
+               title="Přihlásit se do CMS administrace">
               <span id="admin-badge-initial" aria-hidden="true">·</span>
             </a>
           </li>
@@ -297,16 +301,16 @@ const orgJsonLd = isHome ? {
           const u = await r.json();
           if (!u.authenticated || !u.email) return;
 
-          // Avatar v navu — initial z prvního písmene emailu, fallback "·".
-          const slot = document.getElementById('admin-badge-slot');
+          // Avatar v navu — slot je viditelný vždy; po autentizaci přepneme
+          // z anon stavu (ztlumený, "·") na authed (zvýrazněný, iniciála editora).
           const link = document.getElementById('admin-badge-link');
           const initial = document.getElementById('admin-badge-initial');
-          if (slot && link && initial) {
+          if (link && initial) {
             const ch = (u.email[0] || '·').toUpperCase();
             initial.textContent = ch;
+            link.setAttribute('data-state', 'authed');
             link.title = 'Přihlášen jako ' + u.email + ' — kliknutím otevřeš CMS';
             link.setAttribute('aria-label', 'Otevřít CMS (přihlášen jako ' + u.email + ')');
-            slot.classList.remove('hidden');
           }
           // Redakční přehled link — vedle avataru, šipka ↻ jako "co je k doplnění".
           const redakceSlot = document.getElementById('admin-redakce-slot');
