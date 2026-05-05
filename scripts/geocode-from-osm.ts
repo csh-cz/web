@@ -266,6 +266,7 @@ function extractCurrentLocation(prenosDo: string): string | null {
 async function main() {
   const args = process.argv.slice(2);
   const WRITE = args.includes('--write');
+  const REFINE = args.includes('--refine'); // re-run on records with souradnicePribl: true
 
   console.log('Loading OSM POIs...');
   const pois: POI[] = JSON.parse(readFileSync(POIS_PATH, 'utf-8'));
@@ -314,7 +315,7 @@ async function main() {
     if (!parsed) continue;
     const { fm } = parsed;
 
-    if (fm.souradnice) {
+    if (fm.souradnice && !(REFINE && fm.souradnicePribl)) {
       skipped++;
       continue;
     }
@@ -380,7 +381,8 @@ async function main() {
     } else {
       approx++;
       log.push(`~ ${fm.slug.padEnd(35)} → obec center "${obec}" (no POI match)${noteSuffix}`);
-      if (WRITE) {
+      // In refine mode skip obec-center fallback — would be a regression vs. existing manual coords
+      if (WRITE && !REFINE) {
         patchFile(path, obecCoords.lat, obecCoords.lon, true);
       }
     }
