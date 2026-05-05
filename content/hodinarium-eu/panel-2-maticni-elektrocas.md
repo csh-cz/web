@@ -22,15 +22,18 @@ relatedKarty:
   - inv-99-podruzne-hodiny-male-4x
   - inv-100-strojek-hainz
   - inv-101-jednotny-cas
-tldr: 'Matiční hodiny Elektročas řídí pět podružných strojů, které ukazují čas v různých částech světa. Prostřední velké jsou nařízeny na SEČ — bez korekce na letní čas.'
+tldr: 'Matiční hodiny Elektročas řídí pět podružných strojů, které ukazují čas v různých částech světa. Prostřední velké jsou nařízeny na SEČ.'
 ---
 
-Matiční hodiny [Elektročas](/sbirka/karta/inv-94-maticni-elektrocas/) řídí pět podružných strojů, které ukazují čas v různých částech světa. Prostřední velké jsou nařízeny na SEČ — bez korekce na letní čas.
+![Panel 2 v Sálu elektro — matiční hodiny Elektročas a okolí](/img/panely/panel-2.jpg)
+*Panel 2 v Sálu elektro: matiční hodiny Elektročas a podružné hodiny pěti časových pásem. Foto: M. Baudisch / ČSH 2026.*
 
-Panel je dále osazen napájecím zdrojem staršího provedení se [selenovým usměrňovačem](/sbirka/karta/inv-95-selenovy-usmernovac/) a [linkovým rozváděčem](/sbirka/karta/inv-96-linkovy-zesilovac/) pro napájení podružných hodin (k vidění je i jeho [reléová varianta](/sbirka/karta/inv-97-linkovy-zesilovac-releovy/)).
+[Matiční hodiny Elektročas](/sbirka/karta/inv-94-maticni-elektrocas/) řídí pět podružných strojů, které ukazují čas v různých částech světa. Prostřední velké jsou nařízeny na SEČ.
 
-Ukázku podružných hodin zastupuje [strojek firmy Hainz](/sbirka/karta/inv-100-strojek-hainz/), velké nástěnné a malé bakelitové (4 ks).
+Panel je dále osazen napájecím zdrojem staršího provedení se [selenovým usměrňovačem Kj214](/sbirka/karta/inv-95-selenovy-usmernovac/) a linkovými rozváděči **RM7** a **RM24** pro napájení podružných hodin (k vidění je [linkový zesilovač Pragotron](/sbirka/karta/inv-96-linkovy-zesilovac/) i jeho [reléová varianta](/sbirka/karta/inv-97-linkovy-zesilovac-releovy/) — *novější akvizice 2023, dárce M. Baudisch*).
+
+Ukázku podružných hodin zastupuje [strojek firmy Hainz](/sbirka/karta/inv-100-strojek-hainz/), [velké nástěnné](/sbirka/karta/inv-98-podruzne-hodiny-velke/) a [malé bakelitové (4 ks)](/sbirka/karta/inv-99-podruzne-hodiny-male-4x/). Nově (akvizice 2020) i stolní strojek [Jednotný čas](/sbirka/karta/inv-101-jednotny-cas/).
 
 * * *
 
-*Text převzat z informačního panelu expozice (Panel 2, Hodinárium Děčín, 2017).*
+*Text panelu je oficiální popis kurátora expozice (M. Baudisch, ČSH 2017, aktualizováno 2026-05).*
