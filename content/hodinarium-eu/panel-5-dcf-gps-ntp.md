@@ -65,7 +65,7 @@ Na vestavěném [notebooku](/sbirka/karta/inv-134-notebook/) lze sledovat průb�
 
 ## Akvizice 2025
 
-V xlsx 2025 evidovaný přírůstek [hodin HN350](/sbirka/karta/inv-XXX-hn350/) (M. Baudisch) — karta zatím neexistuje.
+V xlsx 2025 evidovaný přírůstek **hodin HN350** (M. Baudisch) — karta zatím neexistuje, inv. č. zatím nepřiřazeno.
 
 * * *
 
