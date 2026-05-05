@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "244"
   umisteni: "Vitrína 4 (Sál elektro)"
   pridanoDoSbirky: "2022"
-  majitel: "Havlíček"
+  majitel: "zápůjčka"
   vztahKeSbirce: "dar"
   stav: "funkční"
 ---

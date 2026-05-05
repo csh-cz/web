@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "23"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2019"
-  majitel: "Biskupství litoměřické"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   extra:

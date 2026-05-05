@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "138"
   umisteni: "Panel 5"
   pridanoDoSbirky: "2021"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/arduino/web_IBM2.jpg'

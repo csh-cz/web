@@ -14,7 +14,7 @@ tags:
 karta:
   inventarniCislo: "83"
   umisteni: "Vitrína 3 (Sál věžních hodin)"
-  majitel: "Kořínek"
+  majitel: "zápůjčka"
 ---
 
 ## Stub karty

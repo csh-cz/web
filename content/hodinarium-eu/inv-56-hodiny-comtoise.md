@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "56"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2021"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   biciStroje: "hodinové"

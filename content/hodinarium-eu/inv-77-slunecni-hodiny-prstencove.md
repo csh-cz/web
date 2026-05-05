@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "77"
   umisteni: "Vitrína 1 (Sál věžních hodin)"
   pridanoDoSbirky: "2025"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

@@ -18,7 +18,7 @@ karta:
   vyrobce: "Kavalír"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2024"
-  majitel: "Kavalír"
+  majitel: "zápůjčka"
   stav: "funkční"
 ---
 

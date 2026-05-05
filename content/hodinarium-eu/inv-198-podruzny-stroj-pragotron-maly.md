@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "198"
   umisteni: "Vitrína 2 (Sál elektro)"
   vyrobce: "Pragotron"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/pragotron/PPH 413 ZEZADU.jpg'

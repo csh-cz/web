@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "x3"
   umisteni: "Vitrína 4 (Sál elektro)"
   pridanoDoSbirky: "2025"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

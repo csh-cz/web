@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "109"
   umisteni: "Panel 3"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

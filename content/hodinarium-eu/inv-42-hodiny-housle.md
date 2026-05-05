@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "42"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2016"
-  majitel: "Kalista Kredum"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   extra:

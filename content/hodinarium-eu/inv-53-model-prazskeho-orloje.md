@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "53"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2025"
-  majitel: "Hvězdárna Petřín"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

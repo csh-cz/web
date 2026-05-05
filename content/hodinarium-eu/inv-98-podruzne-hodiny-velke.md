@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "98"
   umisteni: "Panel 2"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

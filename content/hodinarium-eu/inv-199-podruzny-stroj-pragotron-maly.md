@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "199"
   umisteni: "Vitrína 2 (Sál elektro)"
   vyrobce: "Pragotron"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/pragotron/C 301.jpg'

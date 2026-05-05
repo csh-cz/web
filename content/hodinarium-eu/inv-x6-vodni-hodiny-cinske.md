@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "x6"
   umisteni: "Rohová vitrína (Sál elektro)"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
 ---
 
 ## Stub karty

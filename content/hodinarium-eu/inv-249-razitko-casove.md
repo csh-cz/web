@@ -14,7 +14,7 @@ tags:
 karta:
   inventarniCislo: "249"
   umisteni: "Rohová vitrína (Sál elektro)"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
 ---
 
 ## Stub karty

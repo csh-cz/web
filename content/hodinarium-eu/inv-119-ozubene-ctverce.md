@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "119"
   umisteni: "Panel 4"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

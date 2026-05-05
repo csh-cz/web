@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "55"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2018"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   biciStroje: "hodinové"

@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "105"
   vyrobce: "Perconta"
   umisteni: "Panel 3"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

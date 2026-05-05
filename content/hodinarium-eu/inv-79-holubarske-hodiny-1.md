@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "79"
   umisteni: "Vitrína 2 (Sál věžních hodin)"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

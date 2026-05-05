@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "263"
   umisteni: "Rohová vitrína (Sál elektro)"
   vyrobce: "Elektročas"
-  majitel: "Hingar"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/elektrika/prepinaci VME.jpg'

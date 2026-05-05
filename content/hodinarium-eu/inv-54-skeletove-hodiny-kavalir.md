@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "54"
   vyrobce: "Kavalír"
   umisteni: "Hlavní sál"
-  majitel: "Kavalír"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

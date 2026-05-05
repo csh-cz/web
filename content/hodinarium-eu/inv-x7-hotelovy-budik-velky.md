@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "x7"
   umisteni: "Rohová vitrína (Sál elektro)"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
 thumbnail: '/img/budiky1/budik_schw12.jpg'
 ---
 

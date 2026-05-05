@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "186"
   umisteni: "Vitrína 2 (Sál elektro)"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

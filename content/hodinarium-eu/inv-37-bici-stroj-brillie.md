@@ -17,14 +17,14 @@ karta:
   inventarniCislo: "37"
   umisteni: "Hlavní sál"
   vyrobce: "Brillié"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   pridanoDoSbirky: "2025"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   rokVyroby: "1694"
   biciStroje: "půlové"
   adaptaceProVystavu: "Soubor je doplněn o podružný stroj věžních hodin firmy Elektročas."
-  darceZapujcitel: "Jan Čejka"
+  darceZapujcitel: ""
 thumbnail: '/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg'
 ---
 

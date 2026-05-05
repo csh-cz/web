@@ -20,7 +20,7 @@ karta:
   umisteni: "Hlavní sál"
   vyrobce: "Paul Zieux"
   pridanoDoSbirky: "2016"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   rokVyroby: "1770"

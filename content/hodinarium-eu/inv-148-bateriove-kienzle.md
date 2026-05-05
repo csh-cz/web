@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "148"
   umisteni: "Vitrína 1 (Sál elektro)"
   vyrobce: "Kienzle"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

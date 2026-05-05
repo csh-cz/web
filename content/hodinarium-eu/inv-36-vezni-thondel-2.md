@@ -20,7 +20,7 @@ karta:
   umisteni: "Hlavní sál"
   vyrobce: "Thöndel"
   pridanoDoSbirky: "2025"
-  majitel: "Jan Urban"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   rokVyroby: "1911"

@@ -20,7 +20,7 @@ karta:
   umisteni: "Hlavní sál"
   vyrobce: "Friedrich Moritz Bassler"
   pridanoDoSbirky: "2020"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   rokVyroby: "1864"

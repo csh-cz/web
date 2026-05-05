@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "5"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2011"
-  majitel: "Budislav"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
   rokVyroby: "1754"

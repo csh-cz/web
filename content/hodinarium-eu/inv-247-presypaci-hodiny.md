@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "247"
   umisteni: "Rohová vitrína (Sál elektro)"
-  majitel: "Adam"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   extra:

@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "107"
   vyrobce: "Laplace"
   umisteni: "Panel 3"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/laplace/patent_fig8.jpg'

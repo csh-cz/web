@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "35"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2024"
-  majitel: "Farnost Mikulášovice"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   extra:
     - { label: "Poznámka", value: "Sv. Mikuláš Mikulášovice" }

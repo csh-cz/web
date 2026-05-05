@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "269"
   umisteni: "Rohová vitrína (Sál elektro)"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/pichacky/PragotronDK8.jpg'

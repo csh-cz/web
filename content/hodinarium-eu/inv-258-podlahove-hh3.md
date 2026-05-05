@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "258"
   umisteni: "Rohová vitrína (Sál elektro)"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

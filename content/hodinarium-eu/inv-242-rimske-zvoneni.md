@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "242"
   umisteni: "Vitrína 4 (Sál elektro)"
   pridanoDoSbirky: "2022"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

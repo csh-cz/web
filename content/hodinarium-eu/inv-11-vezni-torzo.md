@@ -19,7 +19,7 @@ karta:
   inventarniCislo: "11"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2016"
-  majitel: "Kořínek"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
   puvodniUmisteni:

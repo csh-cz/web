@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "231"
   umisteni: "Vitrína 3 (Sál elektro)"
   vyrobce: "Pragotron"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/pragotron/CPJ061_1.jpg'

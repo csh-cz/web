@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "34"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2025"
-  majitel: "MÚ Benešov"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   krokJicihoStroje: "kotvový krok"

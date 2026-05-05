@@ -20,7 +20,7 @@ karta:
   umisteni: "Hlavní sál"
   vyrobce: "Kohlert"
   pridanoDoSbirky: "2016"
-  majitel: "Gross"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   ram: "litinový"

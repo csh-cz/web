@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "106"
   vyrobce: "Laplace"
   umisteni: "Panel 3"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/laplace/laplace_prestavba2b.jpg'

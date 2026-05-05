@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "x10"
   umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2025"
-  majitel: "Kouba"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/Timometer/foto_0009.jpg'

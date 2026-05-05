@@ -17,7 +17,7 @@ karta:
   vyrobce: "Kavalír"
   umisteni: "Vitrína 4 (Sál elektro)"
   pridanoDoSbirky: "2022"
-  majitel: "Kavalír"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

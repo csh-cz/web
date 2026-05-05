@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "4"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2011"
-  majitel: "Klikar"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
   ram: "kovaný"

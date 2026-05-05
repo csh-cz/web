@@ -20,7 +20,7 @@ karta:
   umisteni: "Hlavní sál"
   vyrobce: "F. X. Beitel"
   pridanoDoSbirky: "2015"
-  majitel: "Muzeum Děčín"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   extra:

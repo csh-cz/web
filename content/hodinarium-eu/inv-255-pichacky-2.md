@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "255"
   umisteni: "Rohová vitrína (Sál elektro)"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
 thumbnail: '/img/pichacky/PragotronDK3Njpg.jpg'

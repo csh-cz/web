@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "68"
   umisteni: "Vitrína 1 (Sál věžních hodin)"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   pridanoDoSbirky: "2025"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

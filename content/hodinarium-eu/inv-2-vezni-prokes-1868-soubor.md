@@ -21,7 +21,7 @@ karta:
   datace: "1868"
   vyrobce: "Jan Prokeš"
   pridanoDoSbirky: "2010"
-  majitel: "Knespl + Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   extra:

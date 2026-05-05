@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "100"
   umisteni: "Panel 2"
   vyrobce: "Hainz"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/hainz/predni_n.jpg'

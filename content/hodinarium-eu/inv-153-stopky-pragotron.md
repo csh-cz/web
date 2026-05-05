@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "153"
   umisteni: "Vitrína 1 (Sál elektro)"
   vyrobce: "Pragotron"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/pragotron/IPJ 0612 zezadu.jpg'

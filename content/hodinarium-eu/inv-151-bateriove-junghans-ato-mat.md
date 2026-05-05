@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "151"
   umisteni: "Vitrína 1 (Sál elektro)"
   vyrobce: "Junghans"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

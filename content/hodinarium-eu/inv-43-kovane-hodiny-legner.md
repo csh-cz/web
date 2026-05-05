@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "43"
   umisteni: "Hlavní sál"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "200"
   umisteni: "Vitrína 2 (Sál elektro)"
-  majitel: "Sakul"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

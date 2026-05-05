@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "165"
   umisteni: "Vitrína 1 (Sál elektro)"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/elektrika/kyvadlo/pripravek.jpg'

@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "26"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2021"
-  majitel: "Baudisch + Kořínek"
+  majitel: "zápůjčka"
   vztahKeSbirce: "montáž"
   stav: "funkční"
   rokVyroby: "1881"

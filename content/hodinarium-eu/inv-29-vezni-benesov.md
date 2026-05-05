@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "29"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2021"
-  majitel: "Beránek"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   extra:

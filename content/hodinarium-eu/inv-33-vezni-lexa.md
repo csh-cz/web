@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "33"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2023"
-  majitel: "Baudisch, Kořínek"
+  majitel: "zápůjčka"
   vztahKeSbirce: "dar"
   stav: "funkční"
   extra:
