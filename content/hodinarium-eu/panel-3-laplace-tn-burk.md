@@ -42,7 +42,7 @@ Signálem DCF77 jsou řízeny [hodiny Perconta](/sbirka/karta/inv-105-perconta/)
 
 ## Doplňky panelu
 
-Panel je ještě osazen [synchronními hodinami Siemens](/sbirka/karta/inv-108-maticni-hodiny/), [podružnými hodinami řetězovými](/sbirka/karta/inv-109-retezove/), které ukazují čas v systému 4× šest hodin, a **reklamními synchronními hodinami Spar** ([inv. 110](/sbirka/karta/inv-110-synchronni-spar/) — *dar od p. Pařízka, akvizice 2023*).
+Panel je ještě osazen [synchronními hodinami Siemens](/sbirka/karta/inv-108-maticni-hodiny/), [podružnými hodinami řetězovými](/sbirka/karta/inv-109-retezove/), které ukazují čas v systému 4× šest hodin, a **reklamními synchronními hodinami Spar** ([inv. 110](/sbirka/karta/inv-110-synchronni-spar/) — *akvizice 2023*).
 
 * * *
 

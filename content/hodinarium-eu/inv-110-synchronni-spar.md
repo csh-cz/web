@@ -21,7 +21,7 @@ karta:
   vztahKeSbirce: "dar"
   stav: "funkční"
   extra:
-    - { label: "Poznámka", value: "Pařízek" }
+    - { label: "Poznámka", value: "dar" }
 ---
 
 ## Stub karty
