@@ -5,6 +5,16 @@ import { getCollection, render } from 'astro:content';
 import { hodinari } from '../../data/hodinari';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
 
+/** Auto-detekce typu pramene z URL (když není explicitně uveden v frontmatteru). */
+function detectPramenType(url: string | undefined, explicit?: string): string {
+  if (explicit) return explicit;
+  if (!url) return 'odkaz';
+  if (/wikipedia\.org|wikimedia\.org|wikidata\.org/i.test(url)) return 'wiki';
+  if (/mapy\.cz|mapy\.com|google\.com\/maps|maps\.google|goo\.gl\/maps|openstreetmap\.org/i.test(url)) return 'mapa';
+  if (/\.pdf(\?|$)/i.test(url)) return 'pdf';
+  return 'odkaz';
+}
+
 export async function getStaticPaths() {
   const items = await getCollection('soupis-veznich-hodin');
   return items.map((item) => ({
@@ -137,18 +147,27 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
   {d.prameny && d.prameny.length > 0 && (
     <section class="prameny">
       <h2>Prameny</h2>
-      <ul>
-        {d.prameny.map((p) => (
-          <li>
-            {p.autor && <strong>{p.autor}. </strong>}
-            {p.title && <em>{p.title}</em>}
-            {p.rok && <span>. {p.rok}</span>}
-            {p.url && (
-              <span> — <a href={p.url} target="_blank" rel="noopener">{p.url}</a></span>
-            )}
-            {p.citace && <p class="citace">{p.citace}</p>}
-          </li>
-        ))}
+      <ul class="references-list">
+        {d.prameny.map((p) => {
+          const type = detectPramenType(p.url, p.type);
+          // Text odkazu: prefer title, pak (zkrácená) citace, pak doménu URL.
+          const linkText = p.title
+            || (p.citace ? p.citace.replace(/\s+/g, ' ').trim() : null)
+            || (p.url ? p.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/.*$/, '') : 'odkaz');
+          // tinyMarkdown vrací <p>...</p>; pro inline použití strip <p> tagy.
+          const linkHtml = tinyMarkdown(linkText).replace(/^<p>|<\/p>$/g, '').replace(/<\/p><p>/g, ' ');
+          return (
+            <li class={`reference reference-${type}`}>
+              {p.autor && <span class="ref-author">{p.autor}:</span>}{' '}
+              {p.url
+                ? <a href={p.url} target="_blank" rel="noopener" set:html={linkHtml}></a>
+                : <span class="ref-title" set:html={linkHtml}></span>}
+              {p.rok !== undefined && <span class="ref-year"> ({p.rok})</span>}
+              {/* citace zobrazujeme jen pokud není už použita jako text odkazu */}
+              {p.citace && p.title && <p class="citace" set:html={tinyMarkdown(p.citace)}></p>}
+            </li>
+          );
+        })}
       </ul>
     </section>
   )}
@@ -251,9 +270,86 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
     font-size: 1.3rem;
     color: var(--color-brass-bright);
   }
-  .prameny ul, .related ul { padding-left: 1.2rem; }
-  .prameny li, .related li { margin-bottom: 0.5rem; }
+  .prameny ul:not(.references-list), .related ul { padding-left: 1.2rem; }
+  .prameny li:not(.reference), .related li { margin-bottom: 0.5rem; }
   .citace { font-size: 0.85rem; color: var(--color-text-soft); margin: 0.3rem 0 0; }
+
+  /* Sjednocený references-list styl (sdílený s Article.astro) */
+  .prameny .references-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .prameny .references-list li {
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: var(--color-text-soft);
+    padding-left: 1.4rem;
+    position: relative;
+  }
+  .prameny .references-list li::before {
+    content: '·';
+    position: absolute;
+    left: 0.4rem;
+    color: var(--color-copper);
+    font-weight: 700;
+  }
+  .prameny .references-list li.reference-kniha::before { content: '📖'; left: 0; font-size: 0.85em; }
+  .prameny .references-list li.reference-pdf::before { content: '⤓'; left: 0.3rem; color: var(--color-brass-bright); }
+  .prameny .references-list li.reference-wiki::before {
+    content: 'ⓦ';
+    left: 0.2rem;
+    color: var(--color-copper);
+    font-style: normal;
+    font-size: 1em;
+  }
+  .prameny .references-list li.reference-clanek::before {
+    content: '§';
+    left: 0.4rem;
+    color: var(--color-copper);
+    font-style: italic;
+    font-family: var(--font-serif);
+  }
+  .prameny .references-list li.reference-archiv::before {
+    content: '⛁';
+    left: 0.3rem;
+    color: var(--color-copper);
+  }
+  .prameny .references-list li.reference-patent::before {
+    content: '⚙';
+    left: 0.3rem;
+    color: var(--color-copper);
+  }
+  .prameny .references-list li.reference-zprava::before {
+    content: '✎';
+    left: 0.3rem;
+    color: var(--color-copper);
+  }
+  .prameny .references-list li.reference-mapa::before {
+    content: '';
+    left: 0.2rem;
+    top: 0.35em;
+    width: 0.85em;
+    height: 0.85em;
+    background-color: var(--color-copper);
+    mask: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z'/%3E%3C/svg%3E") no-repeat center / contain;
+    -webkit-mask: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z'/%3E%3C/svg%3E") no-repeat center / contain;
+  }
+  .prameny .references-list .ref-author { font-weight: 500; color: var(--color-text); }
+  .prameny .references-list .ref-year { color: var(--color-text-soft); opacity: 0.85; }
+  .prameny .references-list a {
+    color: var(--color-brass-bright);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--color-brass) 40%, transparent);
+    text-underline-offset: 0.18em;
+  }
+  .prameny .references-list a:hover {
+    color: var(--color-brass);
+    text-decoration-color: var(--color-brass-bright);
+  }
 
   .zdroj { margin-top: 2rem; color: var(--color-text-soft); }
 </style>
