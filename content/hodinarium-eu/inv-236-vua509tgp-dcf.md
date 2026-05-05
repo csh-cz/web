@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "236"
   umisteni: "Vitrína 3 (Sál elektro)"
   pridanoDoSbirky: "2022"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

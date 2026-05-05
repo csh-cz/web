@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "38"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2017"
-  majitel: "Muzeum Děčín"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
   ram: "kovaný"

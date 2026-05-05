@@ -17,7 +17,7 @@ tags:
 karta:
   inventarniCislo: "150"
   umisteni: "Vitrína 1 (Sál elektro)"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

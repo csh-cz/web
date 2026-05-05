@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "50"
   umisteni: "Hlavní sál"
   vyrobce: "Elektročas"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   rokVyroby: "1959"

@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "124"
   umisteni: "Panel 5"
   pridanoDoSbirky: "2020"
-  majitel: "Elekon"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/fucik/mini/prstencove.jpg'

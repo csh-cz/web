@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "47"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2015"
-  majitel: "Kotrba"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   extra:

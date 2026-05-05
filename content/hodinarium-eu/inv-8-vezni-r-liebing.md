@@ -20,7 +20,7 @@ karta:
   umisteni: "Hlavní sál"
   vyrobce: "Richard Liebing"
   pridanoDoSbirky: "2015"
-  majitel: "Muzeum Děčín"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
   extra:

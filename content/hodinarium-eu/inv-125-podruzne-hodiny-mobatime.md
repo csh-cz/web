@@ -19,7 +19,7 @@ karta:
   umisteni: "Panel 5"
   vyrobce: "Mobatime"
   pridanoDoSbirky: "2020"
-  majitel: "Elekon"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/Mobatime/struktura2020.jpg'

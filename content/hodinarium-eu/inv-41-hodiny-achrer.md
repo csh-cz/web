@@ -15,8 +15,8 @@ karta:
   pohonDetail: ''
   rozmery: ''
   umisteni: Sál Věžní
-  majitel: Petr Král
-  darceZapujcitel: ''
+  majitel: "zápůjčka"
+  darceZapujcitel: ""
   vztahKeSbirce: zápůjčka
   pridanoDoSbirky: 2015
   stav: funkční

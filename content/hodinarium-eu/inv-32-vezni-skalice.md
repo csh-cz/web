@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "32"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2022"
-  majitel: "Biskupství litoměřické"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   extra:

@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "90"
   umisteni: "Panel 1"
   vyrobce: "Ericsson"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   extra:

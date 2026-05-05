@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "262"
   umisteni: "Rohová vitrína (Sál elektro)"
   vyrobce: "Elektročas"
-  majitel: "Hingar"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/elektrika/svetovy_cas1.jpg'

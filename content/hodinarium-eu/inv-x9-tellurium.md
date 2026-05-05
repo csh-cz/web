@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "x9"
   umisteni: "Rohová vitrína (Sál elektro)"
-  majitel: "Klikar"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

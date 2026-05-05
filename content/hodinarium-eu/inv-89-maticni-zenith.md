@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "89"
   umisteni: "Panel 1"
   vyrobce: "Zenith"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   krokJicihoStroje: "Grahamův krok"

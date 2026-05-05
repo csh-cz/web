@@ -18,7 +18,7 @@ karta:
   vyrobce: "Siemens"
   umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2017"
-  majitel: "Kouba"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

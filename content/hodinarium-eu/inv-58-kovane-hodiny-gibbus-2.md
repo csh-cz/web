@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "58"
   vyrobce: "Gibbus"
   umisteni: "Hlavní sál"
-  majitel: "Gibbus"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   extra:

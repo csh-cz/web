@@ -17,7 +17,7 @@ tags:
 karta:
   inventarniCislo: "67"
   umisteni: "Hlavní sál"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   pridanoDoSbirky: "2025"
   stav: "funkční"
   puvodniUmisteni:

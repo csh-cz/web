@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "25"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2020"
-  majitel: "Muzeum Děčín"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
   extra:

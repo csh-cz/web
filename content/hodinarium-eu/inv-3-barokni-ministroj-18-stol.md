@@ -16,13 +16,13 @@ karta:
   inventarniCislo: "3"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2011"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   biciStroje: "hodinové"
   kyvadlo: "~90 cm"
   adaptaceProVystavu: "Kola jsou železná, s výjimkou nepůvodního mosazného krokového kola a mezikola čtvrťového bití."
-  darceZapujcitel: "Litoměřické diecéze"
+  darceZapujcitel: ""
 ---
 
 Tento barokní kovaný čtvrťový stroj pochází snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách. Malé rozměry stroje postačovaly pro pohon jednoho ciferníku.

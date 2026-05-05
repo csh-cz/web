@@ -18,7 +18,7 @@ karta:
   umisteni: "Rohová vitrína (Sál elektro)"
   vyrobce: "Pragotron"
   pridanoDoSbirky: "2020"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/pragotron/C 30.jpg'

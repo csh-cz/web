@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "278"
   umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2022"
-  majitel: "Hingar"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/pichacky/19141443794.jpg'

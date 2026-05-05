@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "82"
   umisteni: "Vitrína 3 (Sál věžních hodin)"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
 thumbnail: '/img/svarcvald/18stol1.jpg'
 ---
 

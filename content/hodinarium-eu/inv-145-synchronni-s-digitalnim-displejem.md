@@ -17,7 +17,7 @@ tags:
 karta:
   inventarniCislo: "145"
   umisteni: "Vitrína 1 (Sál elektro)"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

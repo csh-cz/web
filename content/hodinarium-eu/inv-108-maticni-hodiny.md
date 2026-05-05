@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "108"
   umisteni: "Panel 3"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

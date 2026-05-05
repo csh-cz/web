@@ -20,7 +20,7 @@ karta:
   umisteni: "Hlavní sál"
   vyrobce: "Rochlitz"
   pridanoDoSbirky: "2016"
-  majitel: "Král + Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   rokVyroby: "1824"

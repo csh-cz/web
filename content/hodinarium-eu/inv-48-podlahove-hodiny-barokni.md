@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "48"
   umisteni: "Hlavní sál"
-  majitel: "Klikar"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   extra:

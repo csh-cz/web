@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "10"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2016"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   extra:

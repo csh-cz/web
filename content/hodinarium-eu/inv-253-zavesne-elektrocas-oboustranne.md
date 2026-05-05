@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "253"
   umisteni: "Rohová vitrína (Sál elektro)"
   vyrobce: "Elektročas"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/elektrika/elchron2.jpg'

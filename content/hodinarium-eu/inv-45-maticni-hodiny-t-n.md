@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "45"
   vyrobce: "T&N"
   umisteni: "Hlavní sál"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

@@ -63,3 +63,6 @@ fo:Users:*
 tmp/osm-cz-pois.json
 tmp/osm-cz-pois-PARTIAL.json
 tmp/osm-pull.log
+
+# Lokální (gitignored) soukromá data — vlastníci sbírkových karet apod.
+local/

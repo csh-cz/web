@@ -18,7 +18,7 @@ karta:
   umisteni: "Panel 1"
   vyrobce: "Kienzle"
   pridanoDoSbirky: "2025"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

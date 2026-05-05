@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "213"
   umisteni: "Vitrína 3 (Sál elektro)"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

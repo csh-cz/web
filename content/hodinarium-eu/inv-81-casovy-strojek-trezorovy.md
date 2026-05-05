@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "81"
   umisteni: "Vitrína 2 (Sál věžních hodin)"
   vyrobce: "Thomas Fox / Safe and Vault Company Ltd."
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   signatura: "Thomas Fox Mechanical Time Over Lock"

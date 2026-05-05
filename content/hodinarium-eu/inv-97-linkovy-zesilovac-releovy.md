@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "97"
   umisteni: "Panel 2"
   pridanoDoSbirky: "2023"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

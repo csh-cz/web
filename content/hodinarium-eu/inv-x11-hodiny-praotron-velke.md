@@ -17,7 +17,7 @@ karta:
   vyrobce: "Praotron"
   umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2026"
-  majitel: "Kavalír"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

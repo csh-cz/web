@@ -18,7 +18,7 @@ karta:
   umisteni: "Panel 2"
   vyrobce: "Jednotný čas"
   pridanoDoSbirky: "2020"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

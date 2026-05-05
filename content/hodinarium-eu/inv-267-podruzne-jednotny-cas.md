@@ -18,7 +18,7 @@ karta:
   umisteni: "Rohová vitrína (Sál elektro)"
   vyrobce: "Jednotný čas"
   pridanoDoSbirky: "2020"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

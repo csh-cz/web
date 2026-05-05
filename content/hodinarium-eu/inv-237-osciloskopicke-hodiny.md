@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "237"
   umisteni: "Vitrína 3 (Sál elektro)"
   pridanoDoSbirky: "2025"
-  majitel: "Šubrt"
+  majitel: "zápůjčka"
   vztahKeSbirce: "dar"
   stav: "funkční"
 ---

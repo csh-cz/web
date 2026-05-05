@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "51"
   umisteni: "Hlavní sál"
   vyrobce: "Elektročas"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "dar"
   stav: "funkční"
 thumbnail: '/img/elektrika/brevet.jpg'

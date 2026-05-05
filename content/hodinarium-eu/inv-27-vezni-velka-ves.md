@@ -17,12 +17,12 @@ karta:
   inventarniCislo: "27"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2020"
-  majitel: "Arcibiskupství pražské"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
   extra:
     - { label: "Poznámka", value: "kostel sv. Vavřince" }
-  darceZapujcitel: "Římskokatolickou farností Odolena Voda"
+  darceZapujcitel: ""
 ---
 
 Věžní hodinový stroj je velmi starý, může pocházet z konce 15. století. Svislé rohové sloupky jsou čtyřhranné a jsou zakončeny dekorativním prvkem přetrvávajícím tehdy ještě z gotiky - kovanými hřebovými hlavicemi. Na jednom dochovaném lanovém bubnu jsou osazena rumpálová ramena, za která se navíjelo lano se závažím na lanový buben. Tento systém natahování lze dnes vidět jen na nemnoha muzejních hodinových strojích. Je pravděpodobné, že hodinový stroj byl původně vybaven lihýřem. Teprve později byl přestavěn na stroj kyvadlový s vřetenovým krokem, po němž se dochovaly některé detaily na rámu stroje - konzole s axiálněradiálním ložiskem hřídele krokového kola a otvor pro průchod vřetene v horní části svislé střední pásnice rámu. Kyvadlo zde bylo umístěno uprostřed delší strany rámu hodinového stroje.

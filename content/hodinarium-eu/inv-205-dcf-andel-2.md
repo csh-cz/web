@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "205"
   vyrobce: "Anděl"
   umisteni: "Vitrína 3 (Sál elektro)"
-  majitel: "Anděl"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

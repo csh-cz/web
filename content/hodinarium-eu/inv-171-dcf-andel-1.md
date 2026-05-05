@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "171"
   vyrobce: "Anděl"
   umisteni: "Vitrína 2 (Sál elektro)"
-  majitel: "Anděl"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

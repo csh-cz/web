@@ -20,7 +20,7 @@ karta:
   umisteni: "Hlavní sál"
   vyrobce: "Wenzel Mellner"
   pridanoDoSbirky: "2016"
-  majitel: "Kouba"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   krokJicihoStroje: "vřetenový krok"

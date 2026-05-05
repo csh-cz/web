@@ -14,8 +14,8 @@ karta:
   pohonDetail: ''
   rozmery: ''
   umisteni: Sál Věžní
-  majitel: Miroslav Baudisch
-  darceZapujcitel: Miroslav Baudisch
+  majitel: "zápůjčka"
+  darceZapujcitel: ""
   vztahKeSbirce: zápůjčka
   pridanoDoSbirky: 2010
   stav: funkční

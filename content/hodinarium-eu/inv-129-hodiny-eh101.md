@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "129"
   umisteni: "Panel 5"
   pridanoDoSbirky: "2020"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "264"
   umisteni: "Rohová vitrína (Sál elektro)"
-  majitel: "Hingar"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/pichacky/listek.jpg'

@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "272"
   umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2021"
-  majitel: "Miroslav Baudisch"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "120"
   vyrobce: "Schauer"
   umisteni: "Panel 4"
-  majitel: "Petr Král"
+  majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---
