@@ -255,6 +255,34 @@ export const onRequest: PagesFunction<Env> = async ({ request, env }) => {
     );
   }
 
+  // CSRF defense in depth: na mutace zkontroluj Origin / Referer header
+  // proti same-origin allowlist. Browser cross-site fetch posílá Origin na
+  // POST/PUT/DELETE → pokud nesouhlasí s naším host, zamítáme. SameSite=Lax
+  // cookie chrání CSRF v běžných scenářích, tohle je defense in depth pro
+  // případ preview-deploy sourozenců na *.pages.dev nebo Production-Domain
+  // sdílení.
+  if (isMutating) {
+    const origin = request.headers.get('Origin');
+    const referer = request.headers.get('Referer');
+    const ourHost = url.host;
+    const allowed = (h: string | null) => {
+      if (!h) return false;
+      try { return new URL(h).host === ourHost; } catch { return false; }
+    };
+    const sameOrigin = allowed(origin) || allowed(referer);
+    if (!sameOrigin) {
+      return new Response(
+        JSON.stringify({
+          error: 'Cross-origin mutation blocked',
+          message:
+            'Mutating /api/cms/* requests musí mít Origin/Referer == ' + ourHost + '. ' +
+            'Browser cross-site fetch posílá Origin → CSRF defense in depth.',
+        }),
+        { status: 403, headers: { 'Content-Type': 'application/json' } },
+      );
+    }
+  }
+
   const target = new URL(GITHUB_API);
   target.pathname = internalPath
     .replace(/^\/api\/v3/, '')

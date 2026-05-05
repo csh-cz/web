@@ -341,6 +341,19 @@ const orgJsonLd = isHome ? {
         let file = aside.dataset.sourceFile || inferSourceFileFromUrl();
         const noteKey = aside.dataset.noteKey;
         if (!file || !noteKey) { alert('Nelze určit zdrojový soubor pro tuto poznámku.'); return; }
+        // Path allowlist — útočník s commit přístupem by jinak mohl přes
+        // <aside data-source-file="../../.github/workflows/x.yml"> přimět
+        // editora k smazání workflow. Povolíme jen content/<col>/<slug>.md(x).
+        if (!/^content\/[a-zA-Z0-9_\-]+\/[a-zA-Z0-9_\-]+\.mdx?$/.test(file)) {
+          alert('Source file mimo content/ allowlist: ' + file + ' — odmítnuto.');
+          return;
+        }
+        // noteKey allowlist — jen tam, kam by hostile MDX autor potřeboval
+        // dostat regex special chars k lookbehinds atd. Striktní whitelist.
+        if (!/^[a-zA-Z0-9_-]+$/.test(noteKey)) {
+          alert('noteKey nevalidní: ' + noteKey + ' — odmítnuto.');
+          return;
+        }
         if (!confirm('Smazat tuto editorskou poznámku ze souboru ' + file + '?\n\nBude commitnuto okamžitě, deploy ~1–2 min.')) return;
 
         button.disabled = true;
@@ -361,7 +374,12 @@ const orgJsonLd = isHome ? {
           let bin = ''; for (const b of encBytes) bin += String.fromCharCode(b);
           const put = await fetch(repoApi, {
             method: 'PUT', credentials: 'include',
-            headers: { 'Content-Type': 'application/json' },
+            headers: {
+              'Content-Type': 'application/json',
+              // Defense in depth — Pages Function má Origin/Referer guard,
+              // tenhle header je redundantní marker v telemetry.
+              'X-CSH-Editor-Action': 'resolve-editor-note',
+            },
             body: JSON.stringify({
               message: 'Resolve editor note (' + noteKey + ') in ' + file,
               content: btoa(bin), sha: data.sha,

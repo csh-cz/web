@@ -698,12 +698,14 @@ summary::-webkit-details-marker { display: none; }
 /* Editor-only obsah — poznámky <EditorNote> a podobné viditelné jen
    přihlášenému editorovi. Default schované, JS hydrace v Base.astro
    nastaví `body[data-editor-mode]` po authed CF Access response.
-   Bez JS = anonym = neuvidí. */
-.editor-note,
+   Bez JS = anonym = neuvidí.
+   Selektory scopnuté na aside.editor-note + [data-editor-only], aby se
+   nestřetávaly s jinou potenciální `editor-note` classou v budoucnu. */
+aside.editor-note,
 [data-editor-only] {
   display: none !important;
 }
-body[data-editor-mode] .editor-note,
+body[data-editor-mode] aside.editor-note,
 body[data-editor-mode] [data-editor-only] {
   display: block !important;
 }
