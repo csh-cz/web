@@ -91,7 +91,7 @@ for (const p of items) {
   itemMeta[p.name] = { externalUrl: ext, cleanDesc };
 }
 
-const matchedCount = Object.keys(linkMap).length;
+// const matchedCount = Object.keys(linkMap).length;  // (unused)
 ---
 <Base
   title="Mapa horologie"
@@ -378,7 +378,7 @@ const matchedCount = Object.keys(linkMap).length;
   :global(.gmaps-pin-soft) { background: #888; }
 </style>
 
-<script define:vars={{ items, folderColors, linkMap }}>
+<script is:inline define:vars={{ items, folderColors, linkMap }}>
   const map = L.map('mapa-horologie', { zoomControl: true, scrollWheelZoom: false })
     .setView([49.5, 12.0], 5);
 

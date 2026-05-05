@@ -123,10 +123,10 @@ const orgJsonLd = isHome ? {
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" />
     <title>{fullTitle}</title>
     {orgJsonLd && (
-      <script type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />
+      <script is:inline type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />
     )}
     {cfAnalyticsToken && (
-      <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={`{"token": "${cfAnalyticsToken}"}`}></script>
+      <script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={`{"token": "${cfAnalyticsToken}"}`}></script>
     )}
   </head>
   <body class="min-h-screen flex flex-col antialiased" data-cms-edit-url={cmsEditUrl ?? null}>

@@ -200,7 +200,7 @@ const categoryLabelsForClient = Object.fromEntries(
   }
 </style>
 
-<script define:vars={{ searchData, categoryLabels: categoryLabelsForClient }}>
+<script is:inline define:vars={{ searchData, categoryLabels: categoryLabelsForClient }}>
   let fuse = null;
   let activeIdx = -1;
   let lastResults = [];

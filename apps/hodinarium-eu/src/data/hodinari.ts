@@ -77,11 +77,8 @@ export const hodinari: Hodinar[] = [
     shrnuti:
       'Sobotský hodinářský mistr 19. století. Tvůrce velkého věžního strojového kompletu z roku 1868 ze zámku Býchory s unikátním zvonícím strojem. V roce 1865 dodal modelové návrhy pro Pražský orloj. Z asi 400+ atribuovaných věžních hodin se dochovaly desítky exemplářů. V rodinné tradici pokračovali synové [Jan Prokeš ml.](/hodinari/jan-prokes-jr) (Kopidlno), [Leopold Prokeš](/hodinari/leopold-prokes) (Jičín) a [Josef Prokeš](/hodinari/josef-prokes) (Sobotka).',
     relatedSlugs: [
-      'bychory_cimbaly',
       'bychory_dalsi_kola',
       'bychory_prokes1',
-      'bychory_restaurovani_napis',
-      'bychory_zvonici_stroj',
       'decin_bici_stroje',
       'decin_koncepce',
       'inv-2-vezni-prokes-1868-soubor',
@@ -413,8 +410,6 @@ export const hodinari: Hodinar[] = [
       'inv-232-podruzny-stroj-pragotron-maly',
       'inv-270-pragotron-c301',
       'jednotnycas',
-      'kontrolni_jicin',
-      'kontrolni_zlin',
       'mapa',
       'panel-4-pragotron',
       'pichacky',
@@ -494,6 +489,84 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: ['datumatik', 'inv-144-synchronni-datumatic', 'mapa'],
     era: '20stol',
   },
+  {
+    slug: 'bernhard-zacharia',
+    jmeno: 'Bernhard Zacharia',
+    aliasy: ['Bernhard Zacharia', 'Zacharia Leipzig', 'Zacharia Thurmuhren Fabrik', 'B. Zacharia'],
+    typ: 'firma',
+    obdobi: 'akt. konec 19. — 1. polovina 20. stol.',
+    mesto: 'Leipzig',
+    zeme: 'DE',
+    shrnuti:
+      'Lipská tovární výrobna věžních hodin („Thurmuhren Fabrik"), v Čechách doložená alespoň jedním dochovaným strojem na evangelickém kostele Vzkříšení v Hrobu (1902). Signatura na stroji: *„Bernhard Zacharia, Thurmuhren Fabrik, LEPZIK"*.',
+    relatedSlugs: [],
+    era: 'prelom',
+  },
+  {
+    slug: 'jan-marek',
+    jmeno: 'Jan Marek',
+    aliasy: ['Jan Marek', 'Marek', 'Honza Marek'],
+    typ: 'osoba',
+    obdobi: 'akt. cca 2010–dosud',
+    mesto: null,
+    zeme: 'CZ',
+    shrnuti:
+      'Současný restaurátor věžních hodin. Doložené práce: Jeníšovice u Turnova (Prokeš 1882, restaurováno 2017), Křivoklát (Fürstenbergské železárny 1817, restaurováno 2018), Bošín — evangelický kostel (Prokeš 1887, restaurováno 2020). Pokoušel se také o sestavení rozebraného stroje v kapli zámku Karlova Koruna v Chlumci nad Cidlinou (pokus nedokončen, dle osobní komunikace P. Skály 2026).',
+    relatedSlugs: [],
+    era: 'soucasnost',
+  },
+  {
+    slug: 'petr-neumann',
+    jmeno: 'Petr Neumann',
+    aliasy: ['Petr Neumann', 'Peter Neumann', 'P. Neumann'],
+    typ: 'osoba',
+    obdobi: '?–†1720',
+    mesto: 'Praha',
+    zeme: 'CZ',
+    shrnuti:
+      'Pražský dvorský hodinář (Hofuhrmacher) v letech 1688–†1720, klíčový restaurátor a přestavovatel hodinového stroje katedrály sv. Víta na Pražském hradě. Brzy po nástupu provedl velkou přestavbu jicího stroje — nahradil původní lihýř kyvadlem a osadil korunové krokové kolo (1688/89), čímž zvýšil přesnost stroje řádově ze stovek minut/den na desítky sekund/den. Pro stroj sv. Víta zhotovil rovněž kontrolní ciferník s habsburským dvouhlavým orlem. Mezi další jeho dílo patří hodinový stroj zámku Brandýs nad Labem (1702/1705), pražské Lorety a kláštera premonstrátek v Doksanech. Pro jeho stroje jsou charakteristické kované akantové voluty na rámu (barokní zdobení).',
+    relatedSlugs: [],
+    era: 'baroko',
+  },
+  {
+    slug: 'martin-hruska',
+    jmeno: 'Martin Hruška',
+    aliasy: ['Martin Hruška', 'M. Hruška'],
+    typ: 'osoba',
+    obdobi: 'akt. ~1860–1875',
+    mesto: 'Praha',
+    zeme: 'CZ',
+    shrnuti:
+      'Pražský mistr hodinářský činný v 60.–70. letech 19. století. V roce 1866 přestavěl hodinový stroj katedrály sv. Víta na Pražském hradě — vyměnil starší vratný krok Clementův (Sebastian Londensperger 1733) za nový **Grahamův klidový krok s dlouhoramennou kotvou**. Změnu trvale dokumentoval nápisem vrytým do konzole stroje: *„TENTO STROJ ZŘÍDIL A NOWÝ GRAHAMSKÝ CHOD STAWĚL MARTIN HRUŠKA MISTR HODINÁŘSKÝ V PRAZE 1866"*. Po jeho smrti pokračoval v péči o svatovítský stroj jeho bratr Dominik (†1877); Dominikův syn Julius Otakar Hruška v roce 1895 stroj demontoval a uložil v Štencově závodu při stavebních úpravách katedrály.',
+    relatedSlugs: [],
+    era: '19stol',
+  },
+  {
+    slug: 'jan-hejnal',
+    jmeno: 'Jan Hejnal',
+    aliasy: ['Jan Hejnal', 'J. Hejnal', 'Hejnal mělnický hodinář'],
+    typ: 'osoba',
+    obdobi: 'akt. počátek 20. století',
+    mesto: 'Mělník',
+    zeme: 'CZ',
+    shrnuti:
+      'Mělnický hodinář první poloviny 20. století. V roce 1930 zpětně osadil hodinový stroj katedrály sv. Víta na Pražském hradě (po 35 letech demontáže J. O. Hruškou) — finanční náklady navrácení (100 000 korun) hradil Tomáš Baťa. Kromě reinstalace zhotovil nově některé chybějící nebo poškozené díly (krokové kolo, čočka kyvadla) a kompletní úhlový převod točivého momentu hodinového stroje dolů na podlahu. Originál nápisu na hodinové místnosti svatovítské věže (kamenná deska) ho připomíná: *„Orloj zhotovený za Rudolfa II. v r. 1597, obnovil mělnický hodinář Jan Hejnal 1930."*',
+    relatedSlugs: [],
+    era: '20stol',
+  },
+  {
+    slug: 'dondi',
+    jmeno: 'Giovanni de Dondi',
+    aliasy: ['Giovanni de Dondi', 'Dondi', 'Iohannes de Dondis', 'Giovanni de\' Dondi dell\'Orologio'],
+    typ: 'osoba',
+    obdobi: '1318–1389',
+    mesto: 'Padova / Pavia',
+    zeme: 'IT',
+    shrnuti:
+      'Italský fyzik, astronom a hodinář padovsko-paviánský. V letech 1348–1364 sestrojil **Astrarium** — sofistikovaný astronomický stroj s 7 ciferníky znázorňujícími pohyb Slunce, Měsíce a 5 tehdy známých planet po Ptolemaiově modelu, plus kalendář s pohyblivými svátky. Astrarium je doloženo Dondiho vlastním rukopisem *Tractatus astrarii* (cca 1364), nejstarším podrobným popisem mechanického astronomického stroje vůbec. Originál se nedochoval; několik historických rekonstrukcí (Smithsonian, IBM, Beverwijk).',
+    relatedSlugs: [],
+    era: 'baroko',
+  },
 
   // === Doplnění (2026-05) podle článků a Knespla 2024/2025 ===
   {
@@ -509,7 +582,6 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: [
       'bychory_prokes1',
       'decin_velika_ves',
-      'orloj-eu',
       'podebrady2',
       'podebrady3',
       'synchronizace_hodin',
