@@ -22,10 +22,10 @@ V příkladu je použito z cenových důvodů Arduino UNO na 16 MHz. To vede k j
 
 Arduino nedisponuje hodinami reálného času, nemá tedy možnost udržovat čas ve vypnutém stavu. Má pouze interní časovač závislý na taktu mikroprocesoru. Interní oscilátor například v klonu Arduino UNO má frekvenci 16 MHz. Realizovaný je většinou keramickým rezonátorem. Pro měření delších časových úseků sepřímo nehodí. Pokud uvažujeme o přesných hodinách s údajem v řádu alespoň desítek mikrosekund, musíme vyřešit tři problémy.
 
-1.  nastavení času v sekundách,
+1. nastavení času v sekundách,
 
-2.  určení okamžiku, kdy je právě tento čas platný a
-3.  vlastní počítání zlomků sekund.
+2. určení okamžiku, kdy je právě tento čas platný a
+3. vlastní počítání zlomků sekund.
 
 K tomu účelu musíme přidat další modul. Modul příjmu časové informace ze sítě GPS s výstupem PPS. Externí GPS přijímač pracuje nezávisle na Arduinu, nezatěžuje tedy jeho procesor, pokud s ním nechceme komunikovat. Nejprve tedy získáme komunikací po sériové lince aktuální čas v sekundách a potom budeme zpracovávat signál PPS (pulz za sekundu) a to tak, že budeme čas od od tohoto pulzu počítat desítky mikrosekund.
 
@@ -59,13 +59,13 @@ Celý tento projekt má spíše význam školníhou příkladu.
 
 ## Odkazy
 
--   [Stránky Rubidiového ościkátoru PRS10](https://www.thinksrs.com/products/prs10.html) — thinksrs.com. [cit. 2026-04-28]
--   [GPS disciplined oscillator](https://en.wikipedia.org/wiki/GPS_disciplined_oscillator) — en.wikipedia.org. [cit. 2026-04-28]
--   [Rubidium Frequency Oscillators firmy AccuBeat](https://www.accubeat.com/rubidium-frequency-oscillators) — accubeat.com. [cit. 2026-04-28]
--   Zpracování dat z GPS
--   Přesnost hodin Arduino - diskuze
--   [GPS synchronizace u náramkových hodinek](https://www.hodinky-365.cz/blog/gps-synchronizace-casu) — hodinky-365.cz. [cit. 2026-04-28]
--   [Amater radio statiom W8BH](http://w8bh.net/) — w8bh.net. [cit. 2026-04-28]
--   [Přesnost časování pomocí Arduina](https://www.mylms.cz/presnost-casovani-pomoci-arduina/) — mylms.cz. [cit. 2026-04-28]
+- [Stránky Rubidiového ościkátoru PRS10](https://www.thinksrs.com/products/prs10.html) — thinksrs.com. [cit. 2026-04-28]
+- [GPS disciplined oscillator](https://en.wikipedia.org/wiki/GPS_disciplined_oscillator) — en.wikipedia.org. [cit. 2026-04-28]
+- [Rubidium Frequency Oscillators firmy AccuBeat](https://www.accubeat.com/rubidium-frequency-oscillators) — accubeat.com. [cit. 2026-04-28]
+- Zpracování dat z GPS
+- Přesnost hodin Arduino - diskuze
+- [GPS synchronizace u náramkových hodinek](https://www.hodinky-365.cz/blog/gps-synchronizace-casu) — hodinky-365.cz. [cit. 2026-04-28]
+- [Amater radio statiom W8BH](http://w8bh.net/) — w8bh.net. [cit. 2026-04-28]
+- [Přesnost časování pomocí Arduina](https://www.mylms.cz/presnost-casovani-pomoci-arduina/) — mylms.cz. [cit. 2026-04-28]
 
 Text: Petr Král

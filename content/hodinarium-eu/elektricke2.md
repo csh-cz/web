@@ -29,7 +29,7 @@ tldr: 'Druhou skupinou mechanických elektrifikovaných hodin jsou hodiny s impu
 
 **Ruský budík SLAVA**
 
-**![](/img/elektrika/slava.jpg)****Hodiny s impulzem do setrvačky, spínaní elektronicky, popud obousměrný.**
+**![](/img/elektrika/slava.jpg)** **Hodiny s impulzem do setrvačky, spínaní elektronicky, popud obousměrný.**
 
 **D**etail tohoto "kroku" je zde uveden jako ukázka novějšího řešení. Nad i pod cívkou elekromagnenu kmitají vahadla setrvačky s permanentním magnetem a nemagnetickou protiváhou. Krokové kolo je střídavě postrkováno z obou stran. Elektronika je realizována obvodem s jedním tranzistorem.
 

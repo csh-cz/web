@@ -24,15 +24,15 @@ V našem projektu kyvadlo s motoricky řízeným trimovacím závažíčkem na k
 
 Webové rozhraní zpřístupněné přes WiFi umožňuje:
 
--   **Zobrazení posledních 10 naměřených period** kyvu (pro posouzení funkce)
--   **Barevné zvýraznění odlehlých hodnot** – modře příliš pomalé, červeně příliš rychlé
--   **Zobrazení průměrné periody a odchylky od požadovaného stavu**
--   **Možnost manuálního posunu motoru** v obou směrech
--   **Změnu nastavení ideální periody** (výchozí 2000 ms)
--   **Nastavení tzv. mrtvého pásma** – odchylky, které ještě nespouští korekci (např. ±0.6 ms)
--   **Reset pozice motoru**
--   **Zobrazení korekčního faktoru času z RTC DS3231**
--   **Zobrazení přesného počtu kroků motoru**
+- **Zobrazení posledních 10 naměřených period** kyvu (pro posouzení funkce)
+- **Barevné zvýraznění odlehlých hodnot** – modře příliš pomalé, červeně příliš rychlé
+- **Zobrazení průměrné periody a odchylky od požadovaného stavu**
+- **Možnost manuálního posunu motoru** v obou směrech
+- **Změnu nastavení ideální periody** (výchozí 2000 ms)
+- **Nastavení tzv. mrtvého pásma** – odchylky, které ještě nespouští korekci (např. ±0.6 ms)
+- **Reset pozice motoru**
+- **Zobrazení korekčního faktoru času z RTC DS3231**
+- **Zobrazení přesného počtu kroků motoru**
 
 ### **Princip měření a kalibrace**
 
@@ -42,7 +42,7 @@ Proto je připojen **RTC modul DS3231**, jehož vnitřní teplotně stabilizovan
 
 ### **Řízení motoru a kompenzace vůle v převodech**
 
-Posuv trimovacího závažíčka zajišťuje **krokový motor 28BYJ-48** řízený pomocí čtyř výstupních pinů ESP8266. Každý „krok“ na webu odpovídá jedné kompletní sekvenci motoru.
+Posuv trimovacího závažíčka zajišťuje **krokový motor 28BYJ-48** řízený pomocí čtyř výstupních pinů ESP8266. Každý „krok” na webu odpovídá jedné kompletní sekvenci motoru.
 
 Při změně směru otáčení se automaticky přidá několik kompenzačních kroků (např. 5) pro překonání mechanické vůle převodového systému, tzv. **backlash**.
 
@@ -52,13 +52,13 @@ Při změně směru otáčení se automaticky přidá několik kompenzačních k
 
 Pro zachování dlouhodobé přesnosti bylo třeba vyřešit dvě klíčové věci:
 
-1.  **Kalibrace vnitřního časovače ESP8266**
+1. **Kalibrace vnitřního časovače ESP8266**
     Hodnota vrácená funkcí `micros()` není zcela přesná, protože závisí na oscilátoru uvnitř ESP8266. Proto se jednou za 4 hodiny provádí kalibrace pomocí externího reálného času z čipu DS3231 (RTC). Ten má vlastní oscilátor s teplotní kompenzací a přesností ±2 ppm. Porovnáním délky známého intervalu (např. 20 sekund) podle RTC a naměřeného počtu mikrosekund se vypočítá korekční faktor, kterým se v programu dále násobí rozdíly časů.
     **Přesnost RTC**: ±2 ppm = ±0.002 s za 1000 s → při 20 s je chyba menší než ±40 µs.
     **Chyba za den bez kalibrace** (typická pro ESP8266): ±30–100 ppm = až ±8 s denně
     **Chyba po kalibraci**: přibližně ±0.2 s za den (záleží i na šumu měření)
 
-2.  **Stabilní I²C komunikace**
+2. **Stabilní I²C komunikace**
     RTC DS3231 komunikuje po sběrnici I²C. ESP8266 neumožňuje na všech pinech aktivovat interní pull-up rezistory, které navíc mají příliš vysokou hodnotu. Proto musely být přidány externí pull-up odpory 4k7 na SDA i SCL. Zároveň bylo nutné zvolit nekolizní piny – například GPIO0 (SDA) a GPIO5 (SCL). V programovacím přípravku tyto piny způsobovaly chyby. Program mohl být zkoušen až po vložení ESP8266 do celého systému.
 
 * * *
@@ -106,9 +106,9 @@ GPIO12, 13, 14, 16
 
 Každý průchod kyvadla je měřen s přesností na mikrosekundy. Lze asi očekávat, že na senzor působí rušivé vlivy jak mechanické ( například vibrace ) nebo změna světelných podmínek. Používá se **klouzavý průměr z posledních 20 hodnot**, aby se omezil vliv náhodného šumu nebo chybného snímání. Hodnoty +- 20 procent od očekávané hodnoty jsou vyřazeny. Provedení senzoru je asi nejdůležitější oblastí omezení rušení.
 
-### Vliv „kulhání hodin“
+### Vliv „kulhání hodin”
 
-Kyvadlo často nemá přesně symetrický chod – tzv. „kulhá“. To znamená, že doba průchodu zleva doprava se liší od doby zprava doleva. Protože se v tomto systému měří doba mezi každými dvěma průchody čidlem (bez ohledu na směr), projeví se kulhání jako **střídání kratší a delší periody**. Pokud je rozdíl např. ±5 ms, naměřené periody budou kolísat mezi 495 ms a 505 ms. Tento rozptyl sice není chyba systému, ale odpovídá fyzice pohybu kyvadla a může být užitečným diagnostickým údajem. Průměrování ze sudého počtu měření, ze tento problém skoro kompenzuje.
+Kyvadlo často nemá přesně symetrický chod – tzv. „kulhá”. To znamená, že doba průchodu zleva doprava se liší od doby zprava doleva. Protože se v tomto systému měří doba mezi každými dvěma průchody čidlem (bez ohledu na směr), projeví se kulhání jako **střídání kratší a delší periody**. Pokud je rozdíl např. ±5 ms, naměřené periody budou kolísat mezi 495 ms a 505 ms. Tento rozptyl sice není chyba systému, ale odpovídá fyzice pohybu kyvadla a může být užitečným diagnostickým údajem. Průměrování ze sudého počtu měření, ze tento problém skoro kompenzuje.
 
 Pokud je ale rozdíl výrazný (např. 5 ms mezi směry), dochází k mírnému rozptylu v měření, protože infra čidlo nemusí reagovat zcela přesně v každém směru (např. kvůli různé odrazivosti odrazivé plochy při různém osvětlení).
 
@@ -120,11 +120,11 @@ Pokud je ale rozdíl výrazný (např. 5 ms mezi směry), dochází k mírnému 
 
 Systém může být snadno rozšířen například o:
 
--   Zlepšení čidla pohybu
--   **Záznam dat na server**
--   **Dlouhodobé grafy z hodnot uložených na server**
--   **Automatickou detekci poruch (např. nehybné kyvadlo)**
--   **Přesnější GPS kalibraci pomocí PPS**
+- Zlepšení čidla pohybu
+- **Záznam dat na server**
+- **Dlouhodobé grafy z hodnot uložených na server**
+- **Automatickou detekci poruch (např. nehybné kyvadlo)**
+- **Přesnější GPS kalibraci pomocí PPS**
 
 ### **Závěr**
 

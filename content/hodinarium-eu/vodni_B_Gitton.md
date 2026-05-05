@@ -26,11 +26,11 @@ Zde jen krátký popis. Model ukazuje, jak je konečně na našem serveru zvykem
 
 **N**a závěr si dovolím v úctě smeknout dva klobouky. Jeden na počest pana **Bernarda Gittona** a druhý na počest pana **Ronalda Bartha.**
 
-## ****[Animace zde](/img/vodni/time_flow_clock/wuhrmsierelativ.html)****
+## **[Animace zde](/img/vodni/time_flow_clock/wuhrmsierelativ.html)**
 
 ## Další odkazy na stránky o těchto hodinách:
 
--   Stránky autora Bernarda Gittona
--   www.marcdatabase.com/~lemur/dm-gitton.html Asi informačně nejhodnotnější stránka o autorovi včetně podrobného popisu hodin a vysvětlení principů, na kterých jsou založeny. Obsahuje i nákres kyvadla, zde neuvedeného. (An)
--   perso.orange.fr/cadrans.solaires/cadrans/Cadran-clepsydre.html Také technický nákres (FR)
--   [en.wikipedia.org/wiki/Water\_clock](http://en.wikipedia.org/wiki/Water_clock) Obecněji o vodních hodinách ve Wikipedii.
+- Stránky autora Bernarda Gittona
+- www.marcdatabase.com/~lemur/dm-gitton.html Asi informačně nejhodnotnější stránka o autorovi včetně podrobného popisu hodin a vysvětlení principů, na kterých jsou založeny. Obsahuje i nákres kyvadla, zde neuvedeného. (An)
+- perso.orange.fr/cadrans.solaires/cadrans/Cadran-clepsydre.html Také technický nákres (FR)
+- [en.wikipedia.org/wiki/Water\_clock](http://en.wikipedia.org/wiki/Water_clock) Obecněji o vodních hodinách ve Wikipedii.

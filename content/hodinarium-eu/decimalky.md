@@ -10,14 +10,14 @@ tags:
   - decimalka
 tldr: 'Od malička se učíme hodiny v soustavě 24-60-60 a připadá nám to normální, ačkoliv kopy či mandele dnes nepoužíváme a všude jinde počítáme většinou v soustavě desítkové. Tradice je holt tradice.…'
 ---
-Od malička se učíme hodiny v soustavě 24-60-60 a připadá nám to normální, ačkoliv kopy či mandele dnes nepoužíváme a všude jinde počítáme většinou v soustavě desítkové. Tradice je holt tradice. Francouzi se v roce 1793, v době Francouzské revoluce, vzepřeli a zavedli společně s novým kalendářem i **hodiny decimální, hodiny v soustavě 10-100-100**. Den byl rozdělen na **deset hodin**, každá **hodina na 100 minut** a každá **minuta na sto vteřin**. Půlnoc byla v 10 hodin. Polednice chodila v pět. Poledne je obvykle na hodinách dole i když existují i opačně situované ciferníky.
+Od malička se učíme hodiny v soustavě 24-60-60 a připadá nám to normální, ačkoliv kopy či mandele dnes nepoužíváme a všude jinde počítáme většinou v soustavě desítkové. Tradice je holt tradice. Francouzi se v roce 1793, v době Francouzské revoluce, vzepřeli a zavedli společně s novým kalendářem i **hodiny decimální, hodiny v soustavě 10-100–100**. Den byl rozdělen na **deset hodin**, každá **hodina na 100 minut** a každá **minuta na sto vteřin**. Půlnoc byla v 10 hodin. Polednice chodila v pět. Poledne je obvykle na hodinách dole i když existují i opačně situované ciferníky.
 
 **S**oučasný čas SEČ na decimálkách by mohl být: **?DECIMÁLKY?** .
 Francouzský revoluční čas pro Paříž byl proti GMT trochu posunut (+9 minut 21 sekund). Více **[zde](http://decimaltime.hynes.net/times.html)**.
 
 **Z**mínky o decimálním dělení času najdeme i jinde (Egypt, Babylón, Čína, ..), ale "pokus" ve Francii, přestože trval jen dva roky, byl asi nejvýznamější pro "běžného občana". Moc se neprosadil, ačkoliv vláda ve Francii nařídila umístit hodiny s novým ciferníkem na všech možných místech. Vznikl prý tak neuvěřitelný zmatek, že se v roce 1795 Francie radějii vrátila k 24 denním hodinám.
 
-**N**adále proto musíme "bojovat" s převody údajů v soustavě poněkud složitější. V mnoha oborech by desetinné dělení bylo jistě lepší a opravdu se v různých podobách používá zejména v počítačových sítích, ale třeba i v programu EXEL , v astronomii a jinde. Převody dají trochu práce. Pro představu zkuste formulář.
+**N**adále proto musíme "bojovat" s převody údajů v soustavě poněkud složitější. V mnoha oborech by desetinné dělení bylo jistě lepší a opravdu se v různých podobách používá zejména v počítačových sítích, ale třeba i v programu EXEL, v astronomii a jinde. Převody dají trochu práce. Pro představu zkuste formulář.
 
 Tradiční vyjádření času
 
@@ -64,19 +64,19 @@ Převod internetového času na místní pásmový čas můžete zkusit pomocí 
 
 **Pásmový čas +-43 sec**
 
-******@******
+*** ***@** ****
 
 GMT Londýn LisabonGMT+1 Praha, Paříž, ŘímGMT+2 Atény Istambul KáhiraGMT+3 Moskva KuvajtGMT+4 Baku Kábul KaráčíGMT+5 TaškentGMT+6 Alma-Ata NovosibirskGMT+7 Bangkok HanojGMT+8 Peking SingapurGMT+9 Tokio SoulGMT+10 Vladivostot SydnyGMT+11 Šalamounovy ostrovyGMT+12 WellingtonGMT-11 SamolaGMT-10 Havajské ostrovyGMT-9 AljaškaGMT-8 Los AngelesGMT-7 DenverGMT-6 ChicagoGMT-5 New YorkGMT-4 CaracasGMT-3 Rio de JaneiroGMT-2 Střední AtlantikGMT-1 Azory Kapverdy
 \--letni čas
 
 **Odkazy**
 
--   [**Wikipedie**](http://en.wikipedia.org/wiki/Decimal_time)
--   [**French Revolutionary calendar**](http://www.answers.com/topic/french-republican-calendar)
--   [**Ciferníky a další informace o "Decimal time".
+- [**Wikipedie**](http://en.wikipedia.org/wiki/Decimal_time)
+- [**French Revolutionary calendar**](http://www.answers.com/topic/french-republican-calendar)
+- [**Ciferníky a další informace o "Decimal time".
     **](http://en.wikipedia.org/wiki/Decimal_time)
 
     * * *
 
--   [**www.swatch.com**](http://www.swatch.com/) Domovské stránky zakladatele internetového času
--   [**www.fodor.sk/Spectrum/itimec.htm**](http://www.fodor.sk/Spectrum/itimec.htm) - konvertor internetového času pro různá místa na světě
+- [**www.swatch.com**](http://www.swatch.com/) Domovské stránky zakladatele internetového času
+- [**www.fodor.sk/Spectrum/itimec.htm**](http://www.fodor.sk/Spectrum/itimec.htm) - konvertor internetového času pro různá místa na světě

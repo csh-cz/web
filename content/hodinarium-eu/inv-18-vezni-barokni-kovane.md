@@ -28,6 +28,6 @@ karta:
   adaptaceProVystavu: "Citlivě provedenou přestavbou byly hodiny doplněny o odbíjení čtvrtí."
 ---
 
-Kovaný rám ozdobený několika zachovalými  volutami obsahuje tři stroje : jicí, čtvrťového bití a odbíjení celých hodin. Ve stroji jicím, který měl vřetenový krok, chybí mezilehlé kolo a kolo krokové. Také v bití chybí některé části.
+Kovaný rám ozdobený několika zachovalými volutami obsahuje tři stroje: jicí, čtvrťového bití a odbíjení celých hodin. Ve stroji jicím, který měl vřetenový krok, chybí mezilehlé kolo a kolo krokové. Také v bití chybí některé části.
 
 Konstrukce stroje je zajímavá : hřídele nejsou uloženy v ložiskách, ale v čele čepů jsou důlky, do kterých zapadají kuličky, a v rámu jsou šrouby s důlky pro kuličku. Zřejmě se jedná o pozdější úpravu. Hodiny měly původně jen odbíjení celých hodin. Citlivě provedenou přestavbou byly hodiny doplněny o odbíjení čtvrtí.

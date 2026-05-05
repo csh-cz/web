@@ -76,19 +76,19 @@ Svítily a již opět svítí i ciferníky Staroměstské radnice
 
 **Další způsoby osvětlení**
 
--   **Svítící ručičky a číslice - neonové hodiny a pod.
+- **Svítící ručičky a číslice - neonové hodiny a pod.
     **Povívejte se třeba na do digitálního archívu ateliéru Šechtl Voseček. Vybrali jsme například snímky
-    -   **[Spořitelna Tábor](http://sechtl-vosecek.ucw.cz/cml/desky/deska1031.html)**
-    -   **[Grand hotel Tábor](http://sechtl-vosecek.ucw.cz/cml/desky/deska1023.html)**
--   Ostatní - pasivně světélkující budíky a hodinky, ...
--   Kombinace i různě osvětlené ciferníky na jedné věži.
--   Světelná projekce času na stěnu
+    - **[Spořitelna Tábor](http://sechtl-vosecek.ucw.cz/cml/desky/deska1031.html)**
+    - **[Grand hotel Tábor](http://sechtl-vosecek.ucw.cz/cml/desky/deska1023.html)**
+- Ostatní - pasivně světélkující budíky a hodinky, ...
+- Kombinace i různě osvětlené ciferníky na jedné věži.
+- Světelná projekce času na stěnu
 
 **Osvětlení hodin můžeme dělit i podle způsobu, jak se osvětlení ovládá:**
 
--   se soumrakovým spínačem pro napájení ze stálé sítě 230 V ~
--   bez soumrakového spínače pro napájení ze sítě veřejného osvětlení
--   **spínání "astronomickými hodinami" podle času východu a západu slunce**
+- se soumrakovým spínačem pro napájení ze stálé sítě 230 V ~
+- bez soumrakového spínače pro napájení ze sítě veřejného osvětlení
+- **spínání "astronomickými hodinami" podle času východu a západu slunce**
 
 **O** tom, že svítící hodiny nalezneme na každém kroku, svědčí i následující ukázka. **Hodiny v zapalovači**. Možná slouží ke kontrole, jak často si člověk zapálí cigaretu. Možná je to nutná pomůcka žháře. Vhodné jsou zajisté i pro běžné použití například pro obsluhu benzinových pump nebo v muničních skladech. Zlí jazykové tvrdí, že podobné osvětlení se používalo i u "Zlaté kapličky" .
 
@@ -96,12 +96,12 @@ Svítily a již opět svítí i ciferníky Staroměstské radnice
 
 ![](/img/elektrika/svitici/zapalovac_hodiny.jpg)**S**e svítícími hodinami se setkáme i na dalších místech značně netradičních. Citujme z "Ilustrovaného přehledu hodinového" firmy Max Böhnel z roku 1911:
 
--   *Nejnovější **hodiny s krucifixem**, as 75 cm vysoké, **s věčným světlem (červenou lampičkou)**. S nádherným pozlaceným dřevěným křížem a dvěma svatými figurami, s dobře jdoucím hodinovým strojem aneb se strojkem hrajícím svaté písně....K18.*
--   *Se strojkem hodinovým a hracím...K 18.-"*
--   *Podobné jsou i "Nejnovější **kapličkové hodiny** as 80 cm vysoké, **s červenou lampičkou**, v nádherně provedené dřevěné schráně, s Kristem na kříži, dobře jdoucím hodinovým strojem aneb se strojkem hrajícím svaté písně ...K12.*
--   *Se strojem hodinovým a hracím ...K 15."*
+- *Nejnovější **hodiny s krucifixem**, as 75 cm vysoké, **s věčným světlem (červenou lampičkou)**. S nádherným pozlaceným dřevěným křížem a dvěma svatými figurami, s dobře jdoucím hodinovým strojem aneb se strojkem hrajícím svaté písně....K18.*
+- *Se strojkem hodinovým a hracím...K 18.-"*
+- *Podobné jsou i "Nejnovější **kapličkové hodiny** as 80 cm vysoké, **s červenou lampičkou**, v nádherně provedené dřevěné schráně, s Kristem na kříži, dobře jdoucím hodinovým strojem aneb se strojkem hrajícím svaté písně ...K12.*
+- *Se strojem hodinovým a hracím ...K 15."*
 
--   ***Noční hodiny*** *s dvojzvonkovým budíčkem a **patentovanou nepáchnoucí petrolejovou lampu**, 32 cm vysoké....K 12.- Lampa se naplní petrolejem a kvůli bezpečí uzavře se kovovým kloboučkem. Rozžehne-li s lampa, je tím číselník z mléčného skla osvětlen tou měrou, že lze pohodlně viděti, kolik je hodin. Zároveň je okolí slabě osvětleno. Výdaj za svítivo činí týdně 8 haléřů."**![](/img/elektrika/svitici/detske1.jpg)*
+- ***Noční hodiny*** *s dvojzvonkovým budíčkem a **patentovanou nepáchnoucí petrolejovou lampu**, 32 cm vysoké....K 12.- Lampa se naplní petrolejem a kvůli bezpečí uzavře se kovovým kloboučkem. Rozžehne-li s lampa, je tím číselník z mléčného skla osvětlen tou měrou, že lze pohodlně viděti, kolik je hodin. Zároveň je okolí slabě osvětleno. Výdaj za svítivo činí týdně 8 haléřů."**![](/img/elektrika/svitici/detske1.jpg)*
 
 **Noční hodiny**
 

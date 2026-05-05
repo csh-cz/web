@@ -26,6 +26,6 @@ V neposlední řadě se kuličky používají pro **kuriózní způsob zobrazen�
 
 **Vybrané odkazy:**
 
--   [Ball Clocks](http://www.chilton.com/%7Ejimw/ballclks.html) a ještě
--   [Bob Kojima's rolling ball clock](http://www.philohome.com/kojima_clock/ball_clock.htm)
--   [animace funkce](http://abowman.com/google-modules/ball-clock/) od **aBowman.com** vytvořena pro web/desktop gadgets serveru google. Výřez stránky zobrazen níže. Jak již bývá zvykem, model ukazuje čas vašeho PC.
+- [Ball Clocks](http://www.chilton.com/%7Ejimw/ballclks.html) a ještě
+- [Bob Kojima's rolling ball clock](http://www.philohome.com/kojima_clock/ball_clock.htm)
+- [animace funkce](http://abowman.com/google-modules/ball-clock/) od **aBowman.com** vytvořena pro web/desktop gadgets serveru google. Výřez stránky zobrazen níže. Jak již bývá zvykem, model ukazuje čas vašeho PC.

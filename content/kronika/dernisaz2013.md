@@ -16,7 +16,7 @@ Sezóna ve Věžním muzejíčku byla slavnostně ukončena dernisáží pořád
 
 Končit sezónu uspořádáním dernisáže není zcela běžné. Dokonce není běžné ani toto slovo. Označuje se jím slavnostní zakončení výstavy, když například nebyla pořádána vernisáž. Absenci vernisáže si vynutil hektičtější začátek sezóny. Nebylo zcela jasné, kdy se podaří expozici otevřít. I tak některé exponáty byly doplňovány během prázdnin. Byla to však dobrá příležitost k zhodnocení sezóny a k poděkování všem zúčastněným, ať jsou to byli tvůrci expozice, zapůjčitelé exponátů, sponzoři, nositelé myšlenek i nositelé exponátů po točitých schodech věže.
 
-Zhodnocení třetí sezóny Věžního muzejíčka jen krátce. Každý rok je v expozice o nové exponáty bohatší, stále více se blíží představě expozice věžních strojů. Stále návštěvníky zajímá. Z návštěvní knihy uveďme jen jeden krátký citát: „úžasné stroje, úžasný kustód“. To mimo jiné ukazuje, jak je u takto specializované expozice důležitá komentovaná prohlídka.
+Zhodnocení třetí sezóny Věžního muzejíčka jen krátce. Každý rok je v expozice o nové exponáty bohatší, stále více se blíží představě expozice věžních strojů. Stále návštěvníky zajímá. Z návštěvní knihy uveďme jen jeden krátký citát: „úžasné stroje, úžasný kustód”. To mimo jiné ukazuje, jak je u takto specializované expozice důležitá komentovaná prohlídka.
 
 Atmosféru můžete vidět na fotografiích pana Marušáka.
 

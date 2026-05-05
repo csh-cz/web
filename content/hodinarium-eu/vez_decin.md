@@ -24,7 +24,7 @@ Hodiny sloužily na věži až do osmdesátých let minulého století, kdy byly
 
 K hodinám se dochovaly dvě zajímavé zprávy, jedna pochází od studentů Jiřího Payna a Miroslava Čaška, kteří v létě roku 1977 stroj opravovali. Druhou sepsal tehdejší pražský orlojník pan Zámečník, který posuzoval stav hodin a doporučil jejich výměnu.
 
-Nepotřebný stroj, o který nejevilo zájem ani místní muzeum, byl zakoupen členy občanského sdružení "Virtuální muzeum hodin o.s.". Po vyčištění a nezbytných opravách byl stroj zapůjčen pro potřeby nově vznikajícího „Věžního muzejíčka“ ve věži v Soběslavi a později opět převezen do Hodinária v Děčíně. To se ovšem "sdružení" jmenovalo již Český spolek horologický.
+Nepotřebný stroj, o který nejevilo zájem ani místní muzeum, byl zakoupen členy občanského sdružení "Virtuální muzeum hodin o.s.". Po vyčištění a nezbytných opravách byl stroj zapůjčen pro potřeby nově vznikajícího „Věžního muzejíčka” ve věži v Soběslavi a později opět převezen do Hodinária v Děčíně. To se ovšem ”sdružení” jmenovalo již Český spolek horologický.
 
 Stroj je vystaven na kovovém podstavci, který omožňuje předvést stroj v několikahodinovém provozu. Rovněž pro předvedení funkce je stroj doplněn neautentickými cimbály. Kdo v jejich odbíjení uslyší přijíždějící vlak, nebude daleko od pravdy.
 

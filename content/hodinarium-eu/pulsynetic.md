@@ -20,7 +20,7 @@ Expozice Hodinária bude rozšířená o mateční hodiny z produkce firmy Gent 
 
 ### Jak to všechno začalo
 
-John Thomas Gent začal podnikat v roce 1872. Říká se, že firma GTGent & Co. byla jedna z prvních, která začala s výrobou elektrických zvonů ve Velké Británii. V prvních letech se Gent zajímal o rozvoj elektrických zařízení, včetně telefonů, požárních hlásičů a další zařízení. V roce 1903 byla zaregistrována akciová společnost Gent & Co. Gent společně s pány Parsons a Stavely krátce nato začal vyrábět hodinové výrobky, známé nakonec jako řada „PUL-SYN-ETIC“. V roce 1907 završená slavným věžním strojem Waiting Train. Dalo by se říci, že Parsons, Stavely a Ball byli důmyslní vynálezci, kteří společně vytvořili obrovské množství vynikajících hodinářských výrobků. (Převzato z webu [pulsynetic.eu](http://pulsynetic.eu/) )
+John Thomas Gent začal podnikat v roce 1872. Říká se, že firma GTGent & Co. byla jedna z prvních, která začala s výrobou elektrických zvonů ve Velké Británii. V prvních letech se Gent zajímal o rozvoj elektrických zařízení, včetně telefonů, požárních hlásičů a další zařízení. V roce 1903 byla zaregistrována akciová společnost Gent & Co. Gent společně s pány Parsons a Stavely krátce nato začal vyrábět hodinové výrobky, známé nakonec jako řada „PUL-SYN-ETIC”. V roce 1907 završená slavným věžním strojem Waiting Train. Dalo by se říci, že Parsons, Stavely a Ball byli důmyslní vynálezci, kteří společně vytvořili obrovské množství vynikajících hodinářských výrobků. (Převzato z webu [pulsynetic.eu](http://pulsynetic.eu/) )
 
 * * *
 
@@ -82,10 +82,10 @@ O tomto neobvyklém stroji existuje od roku 2008 [blog](http://waitingtrain.blog
 
 ### Odkazy
 
--   Nejpodrobnější stránka co jsme o řadě Pulsynetic našli - [pulsynetic.eu](http://pulsynetic.eu/) uvádí mnohem širší záběr výrobků Gents.
--   Electric masters - stránka pojednávající o mnoha systémech matečních hodin (Synchronome, Gents PUL-SYN-ETIC, Gensing , Post Office 36, Carl Bohmeier, Burk Master Clock, General Tele's Ltd a různé podružné hodiny a programátory impulsů)
--   Videa na Youtube. Například [zde](https://www.youtube.com/watch?v=OhAOsCUvkfo), [zde](https://www.youtube.com/watch?v=kAEyjUT0vL4) a [zde](https://www.youtube.com/watch?v=6Rba4Il6gcg). [Video WT](https://www.youtube.com/watch?v=VwSTKJxhaa4&feature=youtu.be)
--   [Video sekundového podružného stroje Gents](https://www.youtube.com/watch?v=kJ6h7yOsQT4&t=19s)
--   [Blog obdivovatelů Pulsynetic](http://waitingtrain.blogspot.cz/)
+- Nejpodrobnější stránka co jsme o řadě Pulsynetic našli - [pulsynetic.eu](http://pulsynetic.eu/) uvádí mnohem širší záběr výrobků Gents.
+- Electric masters - stránka pojednávající o mnoha systémech matečních hodin (Synchronome, Gents PUL-SYN-ETIC, Gensing, Post Office 36, Carl Bohmeier, Burk Master Clock, General Tele's Ltd a různé podružné hodiny a programátory impulsů)
+- Videa na Youtube. Například [zde](https://www.youtube.com/watch?v=OhAOsCUvkfo), [zde](https://www.youtube.com/watch?v=kAEyjUT0vL4) a [zde](https://www.youtube.com/watch?v=6Rba4Il6gcg). [Video WT](https://www.youtube.com/watch?v=VwSTKJxhaa4&feature=youtu.be)
+- [Video sekundového podružného stroje Gents](https://www.youtube.com/watch?v=kJ6h7yOsQT4&t=19s)
+- [Blog obdivovatelů Pulsynetic](http://waitingtrain.blogspot.cz/)
 
 Text: Petr Král s využitím internetových zdrojů.

@@ -93,19 +93,19 @@ Na tento vynález narazil autor webu workclocks, když procházel stovky patent�
 
 ## Odkazy
 
--   [Časové razítko na našem serveru](/clanky/razitka)
--   Velmi zajímavý specializovaný web "píchaček" http://www.workclocks.co.uk/index.html Z obsahu vyjímáne:
+- [Časové razítko na našem serveru](/clanky/razitka)
+- Velmi zajímavý specializovaný web "píchaček" http://www.workclocks.co.uk/index.html Z obsahu vyjímáne:
 
--   Day
--   Bundy
+- Day
+- Bundy
 
--   [Firma Bürk](https://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk)
--   [Strážní hodiny Bürk](http://www.watchclocks.org/Types/19th_Century/52_Burk/52_burk.html) — watchclocks.org. [cit. 2026-04-28]
+- [Firma Bürk](https://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk)
+- [Strážní hodiny Bürk](http://www.watchclocks.org/Types/19th_Century/52_Burk/52_burk.html) — watchclocks.org. [cit. 2026-04-28]
 
 ## Poděkování
 
 Autoři expozice děkují spolupracujícím jednotlivcům i firmám
 
--   [KMP](https://www.kmp.cz/) výrobce tonerů, inkoustových náplní a barvicích pásek
+- [KMP](https://www.kmp.cz/) výrobce tonerů, inkoustových náplní a barvicích pásek
 
 Podle podkladů ze jmenovaných stránek sestavil: Petr Král

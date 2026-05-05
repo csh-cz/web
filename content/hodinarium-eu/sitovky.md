@@ -45,7 +45,7 @@ Rozmanitost hodin firmy METAMEC inspiruje k tvorbě specializovaných sbírek. I
 
 **Ji**ž jsme uvedli [mluvící hodinky](/clanky/mluvici1895) z roku 1895. Tentokrát to budou
 
-**Tlampačohodiny Rufa Sprechanlagen****z roku 1956** (Uhr - Lautsprecher)
+**Tlampačohodiny Rufa Sprechanlagen** **z roku 1956** (Uhr - Lautsprecher)
 
 **H**odiny mohou mluvit z reproduktoru třeba i hlasem vašeho "oblíbeného politika". Jedná se totiž o hodiny vestavěné do "reprobedny". Termín Uhr-Lautsprecher lze možná přeložit i jako hodinotlampač nebo tlampačohodiny. Stačí připojit třeba k rozhlasu po drátě a můžete sledovat plynutí času během jeho projevu. Naštěstí i legendární "dráťák" vysílal hudbu. Za doprovodu linoucích se tónů by snad i hodinový stroj lépe snášel působení magnetického pole reproduktoru.
 

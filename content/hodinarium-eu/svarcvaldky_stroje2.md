@@ -21,7 +21,7 @@ Domníváme se, že stroj pochází cca z poloviny 19.století.
 
 Bicí stroj má také určitou zvláštnost. Spouštěcí kolík bicího stroje je na střídném kole, ačkoliv daleko obvyklejší je umístnění na kole minutovém. Protože převod mezi střídným a minutovým kolem je 1:1 a kolík je jen jeden, stroj bije jen v celé hodiny. Tímto uspořádáním vznikl určitý problém při řešení spojky. Nemohla být použita, později běžná, pružina pod střídným kolem. Třecí spojka je zde řešena koženou podložkou.
 
-A nyní se již spolu s námi pokochejte několika obrázky . (klikněte pro zvětšení)
+A nyní se již spolu s námi pokochejte několika obrázky. (klikněte pro zvětšení)
 
 ![](/img/svarcvald/stolove1.jpg)![](/img/svarcvald/stolove2.jpg)![](/img/svarcvald/stolove3.jpg)![](/img/svarcvald/stolove4.jpg)![](/img/svarcvald/stolove5.jpg)
 

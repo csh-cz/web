@@ -8,15 +8,15 @@ originalUrl: "https://hodinarium.eu/svarcvaldky.htm"
 lastModified: "Wed, 26 Apr 2017 13:42:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:48.951Z"
-tldr: 'Švarcvaldky - Schwarzwald Uhren - Hodiny z Černého lesa - Black Forest Clock - Polodřeváky - Selské hodiny - Selky - Německé hodiny - Šotské hodiny - Škoťáky - Sorg - Jockele - Lidové hodiny - Kukačky . . . .…'
+tldr: 'Švarcvaldky - Schwarzwald Uhren - Hodiny z Černého lesa - Black Forest Clock - Polodřeváky - Selské hodiny - Selky - Německé hodiny - Šotské hodiny - Škoťáky - Sorg - Jockele - Lidové hodiny - Kukačky. . . .…'
 ---
 ![šrot](/img/svarcvald/vraky.jpg)
 
-**Švarcvaldky - Schwarzwald Uhren - Hodiny z Černého lesa - Black Forest Clock - Polodřeváky - Selské hodiny - Selky - Německé hodiny - Šotské hodiny - Škoťáky - Sorg - Jockele - Lidové hodiny - Kukačky . . . . .**
+**Švarcvaldky - Schwarzwald Uhren - Hodiny z Černého lesa - Black Forest Clock - Polodřeváky - Selské hodiny - Selky - Německé hodiny - Šotské hodiny - Škoťáky - Sorg - Jockele - Lidové hodiny - Kukačky. . . . .**
 
 To všechno jsou názvy pro hodiny, které se začaly vyrábět v půli 17. století na jihozápadě Německa v oblasti Černého lesa. Jejich výroba se později dále šířila, třeba i do Čech. Dokonce se i uvádí, že "zdejší průmysl vznikl poté, co sem hodiny s dřevěným krokovým ústrojím přinesli cestovatelé z Čech" (John Hunter, str.70) V 19.století se stal Schwarzwald vedoucím světovým hodinářským centrem. Výroba (zejména tradičních kukaček) pokračuje dodnes.
 
-V Čechách švarcvaldky vyráběla v letech 1887-1940 firma J. Kienzle, továrna na hodiny, Chomutov. V roce 1946 byl název továrny změněn na Chronotechna, výrobní zařízení přestěhováno do Šternberka. Dnes již výroba nepokračuje.Přesto lze říci, že švarcvaldky významnou měrou ovlivnily hodinářskou výrobu v Čechách.
+V Čechách švarcvaldky vyráběla v letech 1887–1940 firma J. Kienzle, továrna na hodiny, Chomutov. V roce 1946 byl název továrny změněn na Chronotechna, výrobní zařízení přestěhováno do Šternberka. Dnes již výroba nepokračuje.Přesto lze říci, že švarcvaldky významnou měrou ovlivnily hodinářskou výrobu v Čechách.
 
 **NA STRÁNKÁCH O ŠVARCVALDKÁCH SE TAKÉ JEŠTĚ PRACUJE. A jak vidíte, je tu práce dost.**
 
@@ -105,15 +105,15 @@ V {} závorkách uvedena hloubka včetně bicího stroje, pokud byl vestavěn.
 
 **Další stránky:**
 
--   jedny z [17\. století](/clanky/svarcvaldky_17stol) ??
--   [stroje Švarcvaldek](/clanky/svarcvaldky_stroje)
-    -   [stroj polodřevěný](/clanky/svarcvaldky_stroje_polodrev)
-    -   [stroj štolových hodin](/clanky/svarcvaldky_stroje2)
--   [Čtvrťový bicí stroj "Das Surrerwerk"](/clanky/svarcvaldky_surrerwerk)
--   [HODINY BUDÍČKOVÉ](/clanky/budiky2) klinkající na zvonek
--   [Lenzkirch - Rolls-Royce ze Schwarzwaldu](/clanky/lenzkirch)
+- jedny z [17\. století](/clanky/svarcvaldky_17stol) ??
+- [stroje Švarcvaldek](/clanky/svarcvaldky_stroje)
+    - [stroj polodřevěný](/clanky/svarcvaldky_stroje_polodrev)
+    - [stroj štolových hodin](/clanky/svarcvaldky_stroje2)
+- [Čtvrťový bicí stroj "Das Surrerwerk"](/clanky/svarcvaldky_surrerwerk)
+- [HODINY BUDÍČKOVÉ](/clanky/budiky2) klinkající na zvonek
+- [Lenzkirch - Rolls-Royce ze Schwarzwaldu](/clanky/lenzkirch)
 
-**Několik odkazů na další informace:** (klikněta na ! Internet se však rychle mění, některé odkazy již nemusí fungovat. )
+**Několik odkazů na další informace:** (klikněta na! Internet se však rychle mění, některé odkazy již nemusí fungovat. )
 
 ![](http://de.wikipedia.org/wiki/Schwarzwalduhr)Dělení švarcvaldek podle encyklopedie Wikipedia[
 !](http://www.jockele.de/)Jockele !!!!!!!!!![

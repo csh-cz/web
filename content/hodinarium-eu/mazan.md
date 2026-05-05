@@ -62,4 +62,4 @@ Poslední ukázka uvádí návrh z roku 2017 pro zobrazené meteorologické info
 
 Odkazy:
 
--   Celá Diplomová práce ke stažení
+- Celá Diplomová práce ke stažení

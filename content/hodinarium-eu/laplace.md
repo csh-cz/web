@@ -10,7 +10,7 @@ tldr: 'Síťové synchronní hodiny jak z Verneových románů. Stroj přímo sv
 ---
 Síťové synchronní hodiny jak z Verneových románů. Stroj přímo svádí k přestavbě na steampunkové skeletové hodiny.
 
-Konstruoval je ing. Robert Michl ( \*1869, +1952) v Košicích. Na konstrukci s ním v letech 1919-1920 spolupracoval německý mechanik Július LANGHANS. Vynález byl později patentován ve všech průmyslově vyspělých státech Evropy a v USA. Unikátní a typické je použití odstředivého regulátoru otáček u synchronního motoru.
+Konstruoval je ing. Robert Michl ( \*1869, +1952) v Košicích. Na konstrukci s ním v letech 1919–1920 spolupracoval německý mechanik Július LANGHANS. Vynález byl později patentován ve všech průmyslově vyspělých státech Evropy a v USA. Unikátní a typické je použití odstředivého regulátoru otáček u synchronního motoru.
 
 Hodiny nejprve malosériově vyráběl ing. Michl ve své továrně Laplace, s. s r. o., Košice, později prodal licence na výrobu. Většinu hodin Laplace v českých sbírkách vyrobila Továrna na elektrická počitadla, s. s r. o. Praha, která byla afilovaným podnikem akciové společnosti Českomoravská-Kolben. Na základě licence byly hodiny vyráběny také v Mauthe, Schwenningen nad Neckerm a v hodinářské továrně Hammond Clock Co., Chicago.;
 
@@ -55,6 +55,6 @@ Podle vzájemného úhlu obou minutových ručiček bylo možné zjistit kumulov
 
 ## Odkazy
 
--   [Laplace – synchrónne hodiny z Košíc, Marián Majerník, SLOVENSK0 TECHNICKÉ MUZEUM KOŠICE](/download/Laplace.pdf)
--   [Evropě se zpozdil čas. Proč vaše trouba spoléhá na spolupráci 25 zemí?](https://www.idnes.cz/technet/technika/zpozdene-budiky-srbsko-kosovo.A180308_192054_tec_technika_pka) — iDNES.cz. [cit. 2026-04-28]
--   [Continuing frequency deviation in the Continental European Power System originating in Serbia/Kosovo: Political solution urgently needed in addition to technical.](https://www.entsoe.eu/news/2018/03/06/press-release-continuing-frequency-deviation-in-the-continental-european-power-system-originating-in-serbia-kosovo-political-solution-urgently-needed-in-addition-to-technical/) — entsoe.eu. [cit. 2026-04-28]
+- [Laplace – synchrónne hodiny z Košíc, Marián Majerník, SLOVENSK0 TECHNICKÉ MUZEUM KOŠICE](/download/Laplace.pdf)
+- [Evropě se zpozdil čas. Proč vaše trouba spoléhá na spolupráci 25 zemí?](https://www.idnes.cz/technet/technika/zpozdene-budiky-srbsko-kosovo.A180308_192054_tec_technika_pka) — iDNES.cz. [cit. 2026-04-28]
+- [Continuing frequency deviation in the Continental European Power System originating in Serbia/Kosovo: Political solution urgently needed in addition to technical.](https://www.entsoe.eu/news/2018/03/06/press-release-continuing-frequency-deviation-in-the-continental-european-power-system-originating-in-serbia-kosovo-political-solution-urgently-needed-in-addition-to-technical/) — entsoe.eu. [cit. 2026-04-28]

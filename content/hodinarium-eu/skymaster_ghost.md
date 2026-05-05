@@ -16,11 +16,11 @@ Holubářské hodiny Skymyster obsahují základnu se 7 kamenovými ložisky a p
 
 V závodech rozhodují sekundy. Hodiny jsou zapečetěny, takže možnost podvodů je minimalizována. Nicméně podvodníci se pokoušeli ovlivnit samotnou rychlost chodu hodin, tak že jimi otáčeli tam a zpět, aby ovlivnili chod setrvačky a hodiny zpomalily před příletem holuba a následně se je zase naopak snažili přinutit k rychlejšímu chodu, před tím, než je zkontroloval komisař.
 
-Účinnost těchto pokusů o podvod byla sporná, nicméně Moss a Alexander z firmy Smith přišli za účelem jejich zamezení s řešením zvaným „Dolometr“. Bylo založeno na principu elektro-mechanických automobilových hodin, které používaly převrácený Sullyho krok, který otáčel soukolím. Setrvačkal Dolometru načítala pohyb ve dvou rovinách. Tj. místo toho, aby sloužila jako oscilátor, složila jako detektor pohybu. Dolometr byl kalibrován, aby zohlednil případný přirozený pohyb způsobený běžnou manipulací. Alexandr sebou nosil Dolometr několik dní, dokonce jej vozil i na bicyklu, aby experimentálně ověřil, jaká je hodnota způsobená běžným provozem.
+Účinnost těchto pokusů o podvod byla sporná, nicméně Moss a Alexander z firmy Smith přišli za účelem jejich zamezení s řešením zvaným „Dolometr”. Bylo založeno na principu elektro-mechanických automobilových hodin, které používaly převrácený Sullyho krok, který otáčel soukolím. Setrvačkal Dolometru načítala pohyb ve dvou rovinách. Tj. místo toho, aby sloužila jako oscilátor, složila jako detektor pohybu. Dolometr byl kalibrován, aby zohlednil případný přirozený pohyb způsobený běžnou manipulací. Alexandr sebou nosil Dolometr několik dní, dokonce jej vozil i na bicyklu, aby experimentálně ověřil, jaká je hodnota způsobená běžným provozem.
 
 Dolometr tak zaznamenával pohyb způsobený otáčením hodin a pokud naměřená hodnota přesáhla stanovenou mez, účastník byl diskvalifikován.
 
 ## Odkazy
 
--   [Různé typy konstatovacích hodin](https://commons.wikimedia.org/wiki/Category:Racingpigeons_clocks) — commons.wikimedia.org. [cit. 2026-04-28]
--   [automatický překlad](http://translationportal.epo.org/emtp/translate/?ACTION=abstract-retrieval&COUNTRY=GB&ENGINE=google&FORMAT=docdb&KIND=A&LOCALE=en_EP&NUMBER=673831&SRCLANG=EN&OPS=ops.epo.org/3.2&TRGLANG=cs) — translationportal.epo.org. [cit. 2026-04-28]
+- [Různé typy konstatovacích hodin](https://commons.wikimedia.org/wiki/Category:Racingpigeons_clocks) — commons.wikimedia.org. [cit. 2026-04-28]
+- [automatický překlad](http://translationportal.epo.org/emtp/translate/?ACTION=abstract-retrieval&COUNTRY=GB&ENGINE=google&FORMAT=docdb&KIND=A&LOCALE=en_EP&NUMBER=673831&SRCLANG=EN&OPS=ops.epo.org/3.2&TRGLANG=cs) — translationportal.epo.org. [cit. 2026-04-28]

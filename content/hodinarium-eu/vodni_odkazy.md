@@ -12,10 +12,10 @@ tldr: 'Bohužel odkazy rychle stárnou. Najdete-li lepší napište.'
 ---
 Bohužel odkazy rychle stárnou. Najdete-li lepší napište.
 
--   Obecněji o vodních hodinách ve **[wikipedii.](http://en.wikipedia.org/wiki/Water_clock)**
--   Ktesibiovy vodní hodiny
--   Informačně dobrá **stránka o B. Gittonovi** včetně podrobného popisu hodin a vysvětlení principů na kterých jsou založeny. (An)
--   **Další** technický nákres těchto hodin (FR)
--   Návod na výrobu nových vodních hodin
--   Jiná konstrukce
--   [Zejména mnoho hodin na Youtube například na výběr: "water clock"](https://www.youtube.com/results?search_query=water+clock)
+- Obecněji o vodních hodinách ve **[wikipedii.](http://en.wikipedia.org/wiki/Water_clock)**
+- Ktesibiovy vodní hodiny
+- Informačně dobrá **stránka o B. Gittonovi** včetně podrobného popisu hodin a vysvětlení principů na kterých jsou založeny. (An)
+- **Další** technický nákres těchto hodin (FR)
+- Návod na výrobu nových vodních hodin
+- Jiná konstrukce
+- [Zejména mnoho hodin na Youtube například na výběr: "water clock"](https://www.youtube.com/results?search_query=water+clock)

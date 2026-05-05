@@ -46,7 +46,7 @@ Co se týče druhů pohonu - najdete na výstavě: pilové hodiny pohybující s
 !
 
 Telefon: **603 502 735
-**email: **kurator** (kyselá ryba) **muzeumhodin . info**
+**email: **kurator** (kyselá ryba) **muzeumhodin. info**
 
 !
 

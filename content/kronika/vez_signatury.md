@@ -55,7 +55,7 @@ Rozsáhlá rekonstrukce
 
 **Wasmon**
 
-**1****806**
+**1** **806**
 
 **S1**
 

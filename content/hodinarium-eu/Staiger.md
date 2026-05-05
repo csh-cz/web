@@ -17,7 +17,7 @@ Hodiny Staiger (vyrobené přibližně po roce 1970) jsou řízeny čtyřmi Quar
 
 Střední horní ciferník je totožný se strojkem světových časů, který se prodával i samostatně. Píšeme o něm například na stránce o [pásmových hodinách](/zajimavosti/casova_pasma). (Jsou to ty ve skleněné schránce.)
 
-Klasický bateriový Quartz stroj je doplněn převodem na střední 24hodinový otočný ciferník (s modrým označením nočních hodin). Na nastavitelném mezikruží je 24 měst, která představují jednotlivá časová pásma. Reprezentují také hodinové ručičky hodin určitého pásma. Po výběru města můžete odečíst odpovídající čas. Patrně vás nepřekvapí, že hodiny „West Germany" pro označení východoevropského času použily raději Kuvajt než Moskvu. Na tomto exempláři však alespoň na velkém ciferníku je pásmo označeno jako Kuwait, Bagdad, Moskva. Zaujme také, že jsou uvedena i města, kde posun není o celou hodinu, například Teheran-30 nebo Kabul+30. Jde o velice vtipnou konstrukci. Zajímavější jsou však další astronomické funkce.
+Klasický bateriový Quartz stroj je doplněn převodem na střední 24hodinový otočný ciferník (s modrým označením nočních hodin). Na nastavitelném mezikruží je 24 měst, která představují jednotlivá časová pásma. Reprezentují také hodinové ručičky hodin určitého pásma. Po výběru města můžete odečíst odpovídající čas. Patrně vás nepřekvapí, že hodiny „West Germany” pro označení východoevropského času použily raději Kuvajt než Moskvu. Na tomto exempláři však alespoň na velkém ciferníku je pásmo označeno jako Kuwait, Bagdad, Moskva. Zaujme také, že jsou uvedena i města, kde posun není o celou hodinu, například Teheran-30 nebo Kabul+30. Jde o velice vtipnou konstrukci. Zajímavější jsou však další astronomické funkce.
 
 ## Levý dolní ciferník je věnován Slunci
 
@@ -27,7 +27,7 @@ Tropickou polohu Slunce odečítáme na trojité stupnici (kalendář, znamení 
 
 Nejdůležitější údaje tohoto ciferníku jsou doby východů a západů. Bohužel ty jsou závislé na lokalitě, kterou asi nelze nastavit. Platí pro město Kassel, tedy pro polohu 51.32 N a 9.49 E. Alespoň pro přibližně stejnou severní šířku lze východní délku přepočítávat konstantou 4 minuty na stupeň.
 
-Na fotografii je zachycen stav přibližně 3. dubna. Slunce je ve znamení Berana a v souhvězdí Ryb. Dobu východu Slunce čteme proti šipce „v pozici 12". Udávaná hodnota je cca 5:50, což odpovídá skutečnému východu Slunce v dané lokalitě a v tento den bez uvažování letního času. Západ Slunce čteme pod šipkou „v pozici 6 normálního poloorlojního ciferníku". Západ Slunce v dané lokalitě a v daný den je v 18:59.
+Na fotografii je zachycen stav přibližně 3. dubna. Slunce je ve znamení Berana a v souhvězdí Ryb. Dobu východu Slunce čteme proti šipce „v pozici 12”. Udávaná hodnota je cca 5:50, což odpovídá skutečnému východu Slunce v dané lokalitě a v tento den bez uvažování letního času. Západ Slunce čteme pod šipkou „v pozici 6 normálního poloorlojního ciferníku”. Západ Slunce v dané lokalitě a v daný den je v 18:59.
 
 Technicky je tento ciferník poměrně jednoduchý a vtipný. Strojek otočí rafii Slunce jednou za tropický rok. Společně s rafií se otáčejí dva nelineární ciferníky východů a západů Slunce. Ciferníky se otáčejí rovnoměrně, avšak na nich vynesené hodnoty reprezentují doby odvozené od reálného pohybu Slunce. Je to jednoduché řešení toho, jak zobrazovat nelineární závislost rovnoměrným pohybem stroje.
 

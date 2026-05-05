@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:22.630Z"
 tldr: "Asi každý slyšel slovní spojení \"atomové hodiny. Málokdo už ví, jak vlastně fungují. Často se tak nesprávně označují hodiny které jsou jen dálkově atomovými hodinami řízené nebo synchronizované (vysíl…"
 ---
-Asi každý slyšel slovní spojení "atomové hodiny. Málokdo už ví, jak vlastně fungují. Často se tak nesprávně označují hodiny které jsou jen dálkově atomovými hodinami řízené nebo synchronizované (vysílač DCF 77, GPS signál, NTP server, ..). V některých lidech název evokuje dokonce představu jaderného reaktoru či "atomové bomby". Princip atomových hodin však nemá nic společného s jadernou reakcí. Hodiny téměř nejsou radioaktivní, používají se izotopy například Rubidium-87 ( jen zanedbatelně radioaktivní) či stabilní izotopy Cesium-133 , Vodík, Stroncium, Yterbium a Hliník.
+Asi každý slyšel slovní spojení "atomové hodiny. Málokdo už ví, jak vlastně fungují. Často se tak nesprávně označují hodiny které jsou jen dálkově atomovými hodinami řízené nebo synchronizované (vysílač DCF 77, GPS signál, NTP server, ..). V některých lidech název evokuje dokonce představu jaderného reaktoru či "atomové bomby". Princip atomových hodin však nemá nic společného s jadernou reakcí. Hodiny téměř nejsou radioaktivní, používají se izotopy například Rubidium-87 ( jen zanedbatelně radioaktivní) či stabilní izotopy Cesium-133, Vodík, Stroncium, Yterbium a Hliník.
 
 Atomové hodiny jsou v současné době nejpřesnějším přístrojem, který měří čas. Jsou přesnější než normál odvozený z otáčení Země. Proto také byla změněna definice sekundy. Atomové hodiny, které dříve zabraly celou místnost se dnes vejdou do hodinek. Existuje více typů těchto hodin, ale všechny pracují na stejném principu: využívají přechod elektronů mezi jednotlivými energetickými hladinami v elektronovém obalu atomu nebo iontových hladinách. Vzhledem k kvantovému charakteru je k excitaci potřeba přesné množství energie, reprezentované konkrétní vlnovou délkou "budícího" záření. Excitace je fyzikální proces, při kterém dochází k přechodu energetického stavu atomu, molekuly či iontu na vyšší energetickou hladinu. Základní atomové hodiny byly založeny na atomech cesia. Dnes se používají se i jiné prvky. Na družicích Galileo je čtveřice atomových hodin. Dvoje používají atomy rubidia, dvoje atomy vodíku.
 
@@ -22,16 +22,16 @@ Dalším možným principem atomových hodin je tzv. atomová fontána, která v
 
 ## Odkazy
 
--   [Atomové hodiny](https://www.3pol.cz/cz/rubriky/fyzika-a-klasicka-energetika/671-atomove-hodiny) — 3pol.cz. [cit. 2026-04-28]
--   [Atomová sekunda](http://home.zcu.cz/~poupa/ptb.html) — home.zcu.cz. [cit. 2026-04-28]
--   [Rubidium standard](https://en.wikipedia.org/wiki/Rubidium_standard) — en.wikipedia.org. [cit. 2026-04-28]
--   [Rubidiový oscilátor PRS10](/clanky/PRS10)
--   [Popis činnosti atomové fontány](http://fyzika.jreichl.com/main.article/view/1636-princip-atomove-fontany) — fyzika.jreichl.com. [cit. 2026-04-28]
--   [NASA spustila svůj nový prototyp vesmírných atomových hodin DSAC](https://www.svethardware.cz/nasa-spustila-svuj-novy-prototyp-vesmirnych-atomovych-hodin-dsac/50043) — Svět hardware. [cit. 2026-04-28]
--   Deep Space Atomic Clock (DSAC) - atomové hodiny založené na jodových iontech.
--   [O přesnosti atomových hodin](http://fyzika.jreichl.com/main.article/view/1633-atomove-hodiny) — fyzika.jreichl.com. [cit. 2026-04-28]
--   [A History of the Rubidium Frequency Standard](<download/A History of the Rubidium Frequency Standard.pdf>)
--   [Jaderné hodiny s vyšší frekvencí](https://theconversation.com/why-timekeeping-is-now-on-the-verge-of-a-giant-leap-forward-in-accuracy-238744) — The Conversation. [cit. 2026-04-28]
+- [Atomové hodiny](https://www.3pol.cz/cz/rubriky/fyzika-a-klasicka-energetika/671-atomove-hodiny) — 3pol.cz. [cit. 2026-04-28]
+- [Atomová sekunda](http://home.zcu.cz/~poupa/ptb.html) — home.zcu.cz. [cit. 2026-04-28]
+- [Rubidium standard](https://en.wikipedia.org/wiki/Rubidium_standard) — en.wikipedia.org. [cit. 2026-04-28]
+- [Rubidiový oscilátor PRS10](/clanky/PRS10)
+- [Popis činnosti atomové fontány](http://fyzika.jreichl.com/main.article/view/1636-princip-atomove-fontany) — fyzika.jreichl.com. [cit. 2026-04-28]
+- [NASA spustila svůj nový prototyp vesmírných atomových hodin DSAC](https://www.svethardware.cz/nasa-spustila-svuj-novy-prototyp-vesmirnych-atomovych-hodin-dsac/50043) — Svět hardware. [cit. 2026-04-28]
+- Deep Space Atomic Clock (DSAC) - atomové hodiny založené na jodových iontech.
+- [O přesnosti atomových hodin](http://fyzika.jreichl.com/main.article/view/1633-atomove-hodiny) — fyzika.jreichl.com. [cit. 2026-04-28]
+- [A History of the Rubidium Frequency Standard](<download/A History of the Rubidium Frequency Standard.pdf>)
+- [Jaderné hodiny s vyšší frekvencí](https://theconversation.com/why-timekeeping-is-now-on-the-verge-of-a-giant-leap-forward-in-accuracy-238744) — The Conversation. [cit. 2026-04-28]
 
 * * *
 

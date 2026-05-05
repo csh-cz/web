@@ -23,7 +23,7 @@ Ani ti, kdo sledují čas jen na mobilním telefonu, si možná neuvědomují, j
 
 Elektřina se začala v hodinách používat mnoha způsoby — pro osvětlení, pro natahování (elektrickým motorkem či elektromagnetem), pro přímé dodávání energie do oscilátoru, pro odvozování časového normálu od frekvence sítě, anebo pro budování soustav jednotného času. Vznikla nepřeberná řada konstrukcí, které by neměly upadnout v zapomnění.
 
-Nejjednodušší elektrické hodiny vznikly doplněním elektrického natahování ke klasickým mechanickým hodinám. Nejprve se elektromotor objevil u věžních hodin, kde podstatně ulehčil práci obsluhy, později u hodin, které s elektřinou nějak souvisely (různé sazbové spínače či časovače). Teprve okolo 50. let minulého století se motorky objevily i u natahování domácích hodin (například PRIM s modelářským motorkem). Takovým hodinám říkáme familiárně „nakopávací" — podle anglického *kick rewind*. Mechanický stroj zajišťuje určitou dobu chodu i bez dodávky elektrické energie.
+Nejjednodušší elektrické hodiny vznikly doplněním elektrického natahování ke klasickým mechanickým hodinám. Nejprve se elektromotor objevil u věžních hodin, kde podstatně ulehčil práci obsluhy, později u hodin, které s elektřinou nějak souvisely (různé sazbové spínače či časovače). Teprve okolo 50. let minulého století se motorky objevily i u natahování domácích hodin (například PRIM s modelářským motorkem). Takovým hodinám říkáme familiárně „nakopávací” — podle anglického *kick rewind*. Mechanický stroj zajišťuje určitou dobu chodu i bez dodávky elektrické energie.
 
 ## Alexander Bain a kontaktní problémy
 
@@ -45,7 +45,7 @@ Složitou kombinací elektroniky a jemné mechaniky, jíž bylo v dané době (k
 
 ## Síťovky — frekvence elektrické sítě jako časový normál
 
-Další skupina elektrických hodin využívá frekvence elektrické sítě jako časového normálu. „Síťovky" v mechanickém provedení pohání trvale synchronní elektromotor. Převodová soukolí se otáčejí plynule — máme-li sekundovou ručičku, můžeme její pohyb sledovat snadno. Dnes jsou poměrně přesné, protože evropská elektrická síť je centrálně korigovaná.
+Další skupina elektrických hodin využívá frekvence elektrické sítě jako časového normálu. „Síťovky” v mechanickém provedení pohání trvale synchronní elektromotor. Převodová soukolí se otáčejí plynule — máme-li sekundovou ručičku, můžeme její pohyb sledovat snadno. Dnes jsou poměrně přesné, protože evropská elektrická síť je centrálně korigovaná.
 
 ## Bulova Accutron — ladičkové hodinky
 

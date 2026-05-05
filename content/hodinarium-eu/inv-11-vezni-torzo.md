@@ -41,11 +41,11 @@ Hodinový stroj byl sestaven ze **zachráněných kol** stroje věžních hodin.
 
 Na rámu je dochovaný štítek s německým nápisem:
 
-> *„Gestiftet v. F H Richter Kaufman in Frankfurt a. Main. Bestellt durch Viltler Oberlehler in Hilgersdorf. **Gearbeitet v. Joh. Lissner Uhrmacher in Nixdorf 1881.**"*
+> *„Gestiftet v. F H Richter Kaufman in Frankfurt a. Main. Bestellt durch Viltler Oberlehler in Hilgersdorf. **Gearbeitet v. Joh. Lissner Uhrmacher in Nixdorf 1881.**”*
 
 Český překlad:
 
-> *„Darováno F. H. Richterem, kupcem ve Frankfurtu nad Mohanem. Objednáno prostřednictvím Viltlera, vrchního učitele v Hilgersdorfu. Vyrobeno [Johanem] Lissnerem, hodinářem v Nixdorfu, [roku] 1881."*
+> *„Darováno F. H. Richterem, kupcem ve Frankfurtu nad Mohanem. Objednáno prostřednictvím Viltlera, vrchního učitele v Hilgersdorfu. Vyrobeno [Johanem] Lissnerem, hodinářem v Nixdorfu, [roku] 1881.”*
 
 ## Lokality
 

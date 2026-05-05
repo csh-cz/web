@@ -63,6 +63,6 @@ Součásti stroje byly zbaveny silné vrstvy povrchové koroze. Koroze naštěst
 
 ## Materiály
 
--   [Restaurátorský záměr](/download/RestauratorskyZamerVelikaVes.pdf)
+- [Restaurátorský záměr](/download/RestauratorskyZamerVelikaVes.pdf)
 
 Text: Wikipedie a Petr Král, fotografie: Petr Skála, Petr Král, Miroslav Baudisch

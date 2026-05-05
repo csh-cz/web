@@ -19,6 +19,6 @@ references:
 tldr: "Patrně nejnákladnější přestavba věže v České republice. Do 400 let staré gotické zvonice byla vestavěna nová ocelová konstrukce s výtahem — „věž ve věži\".…"
 ---
 
-Patrně nejnákladnější přestavba věže v České republice. Do **400 let staré gotické zvonice** byla vestavěna nová ocelová konstrukce s výtahem — „věž ve věži". V deseti patrech najdete recepci, whisky bar a kavárnu, **3 patra galerie**, muzeum, restaurace a v posledním patře **zvonohru s 20 zvony od Manouška** s vyhlídkou na Prahu.
+Patrně nejnákladnější přestavba věže v České republice. Do **400 let staré gotické zvonice** byla vestavěna nová ocelová konstrukce s výtahem — „věž ve věži”. V deseti patrech najdete recepci, whisky bar a kavárnu, **3 patra galerie**, muzeum, restaurace a v posledním patře **zvonohru s 20 zvony od Manouška** s vyhlídkou na Prahu.
 
 Multifunkční koncept kombinuje památkovou ochranu s komerčním využitím. Web nabízí virtuální prohlídku.

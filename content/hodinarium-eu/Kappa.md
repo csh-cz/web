@@ -18,14 +18,14 @@ Informace o firmě shromáždila AI.
 
 Kappa Orologi Industriali byla založena v Itálii pravděpodobně v druhé polovině 20. století, v době, kdy narůstala potřeba synchronizace času ve velkých průmyslových a námořních komplexech. Jejich výrobní program zahrnoval zejména:
 
--   **Master hodiny** (hlavní hodiny) schopné synchronizovat desítky až stovky podružných (slave) hodin.
--   **Podružné hodiny** s elektrickým pohonem minutovou či půlminutovou synchronizací.
--   **Specializované námořní hodiny**, které splňovaly požadavky na odolnost vůči vlhkosti, vibracím a změnám teploty.
--   **Systémy pro synchronizaci času** na palubách lodí, v přístavních provozech nebo v průmyslových areálech.
+- **Master hodiny** (hlavní hodiny) schopné synchronizovat desítky až stovky podružných (slave) hodin.
+- **Podružné hodiny** s elektrickým pohonem minutovou či půlminutovou synchronizací.
+- **Specializované námořní hodiny**, které splňovaly požadavky na odolnost vůči vlhkosti, vibracím a změnám teploty.
+- **Systémy pro synchronizaci času** na palubách lodí, v přístavních provozech nebo v průmyslových areálech.
 
 Výrobky byly typicky robustní, určené pro dlouhou životnost i v náročných podmínkách.
 
-## Přesun výroby do Jižní Koreje ?
+## Přesun výroby do Jižní Koreje?
 
 Je možné, že původní italská firma Kappa Orologi Industriali přesunula svou výrobu do Jižní Koreje, aby snížila náklady, což bylo běžné u mnoha evropských výrobců v 80. a 90. letech.Tato praxe umožňovala firmám zachovat si značku a design, zatímco výroba probíhala v zemích s nižšími výrobními náklady.​
 
@@ -58,9 +58,9 @@ SAMSUNG WATCH COM., LMT SEOUL KOREA
 
 Tyto hlavní hodiny SSC-MQI mají dva hodinové ciferníky. Jeden ukazuje čas hlavních hodin, druhý ukazuje čas linky na slave hodinách. Hodiny mají poměrně jednoduché ovládání. V pravém dolním uzamykatelném panelu jsou tyto prvky:
 
--   Pro master hodiny červené kulaté tlačítko RESET a bílé hranaté tlačítko označení SEC STOP
--   Pro slave hodiny jsou určené přepínače. První s pozicemi ADJ, NOR, STOP a druhý s pozicemi ADV a REV. Význam zatím není zcela jasný. Přepínače patrně slouží k nastavení linky.
--   Třetí přepínač je označený DIMMER a polohami LIGHT, OFF, DARK slouží k ovládání **podsvícení ciferníku hodin**. Takové nastavení je běžné u **lodních hodin** nebo **panelových zařízení**, kde musí být displej nebo ručičky čitelné jak ve dne, tak v noci, aniž by oslňovaly.
+- Pro master hodiny červené kulaté tlačítko RESET a bílé hranaté tlačítko označení SEC STOP
+- Pro slave hodiny jsou určené přepínače. První s pozicemi ADJ, NOR, STOP a druhý s pozicemi ADV a REV. Význam zatím není zcela jasný. Přepínače patrně slouží k nastavení linky.
+- Třetí přepínač je označený DIMMER a polohami LIGHT, OFF, DARK slouží k ovládání **podsvícení ciferníku hodin**. Takové nastavení je běžné u **lodních hodin** nebo **panelových zařízení**, kde musí být displej nebo ručičky čitelné jak ve dne, tak v noci, aniž by oslňovaly.
 
 Uvnitř jednotky je přepínač napětí sítě, dále samostatné vypínače pro AC a DC a jejich pojistky a také pojistky pro 0.5 sec a 30 sec linky.
 

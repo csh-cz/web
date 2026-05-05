@@ -26,12 +26,12 @@ Model LANTIME M100 PS (ELX) je nejmenším ze NTP serverů firmy a je v možnost
 
 ## Odkazy
 
--   [Oficiální web Meinberg](https://www.meinberg.de/) — meinberg.de. [cit. 2026-04-28]
--   [Manuál](https://www.meinbergglobal.com/english/products/rail-mount-ntp-server.htm) — meinbergglobal.com. [cit. 2026-04-28]
--   [Produkty Meinberg](http://support.fccps.cz/download/Meinberg/prehled/meinberg-prehled.htm) — support.fccps.cz. [cit. 2026-04-28]
--   [O přesnosti](http://support.fccps.cz/download/Meinberg/prehled/meinberg-presnosti.htm) — support.fccps.cz. [cit. 2026-04-28]
--   [Různé výstupní možnosti NTP serverů](http://support.fccps.cz/download/Meinberg/prehled/mbg-vystupy.htm) — support.fccps.cz. [cit. 2026-04-28]
--   [o oscilátorech](https://www.meinbergglobal.com/english/specs/gpsopt.htm) — meinbergglobal.com. [cit. 2026-04-28]
--   [Podrobnosti o DCF](http://support.fccps.cz/download/Meinberg/prehled/DCF77.htm) — support.fccps.cz. [cit. 2026-04-28]
--   [Vybraná témata technické podpory FCC PS](http://support.fccps.cz/) — support.fccps.cz. [cit. 2026-04-28]
--   [Zajímavá úvaha o redundatních zdrojích času](http://support.fccps.cz/download/Meinberg/prehled/mbg-redundance.htm) — support.fccps.cz. [cit. 2026-04-28]
+- [Oficiální web Meinberg](https://www.meinberg.de/) — meinberg.de. [cit. 2026-04-28]
+- [Manuál](https://www.meinbergglobal.com/english/products/rail-mount-ntp-server.htm) — meinbergglobal.com. [cit. 2026-04-28]
+- [Produkty Meinberg](http://support.fccps.cz/download/Meinberg/prehled/meinberg-prehled.htm) — support.fccps.cz. [cit. 2026-04-28]
+- [O přesnosti](http://support.fccps.cz/download/Meinberg/prehled/meinberg-presnosti.htm) — support.fccps.cz. [cit. 2026-04-28]
+- [Různé výstupní možnosti NTP serverů](http://support.fccps.cz/download/Meinberg/prehled/mbg-vystupy.htm) — support.fccps.cz. [cit. 2026-04-28]
+- [o oscilátorech](https://www.meinbergglobal.com/english/specs/gpsopt.htm) — meinbergglobal.com. [cit. 2026-04-28]
+- [Podrobnosti o DCF](http://support.fccps.cz/download/Meinberg/prehled/DCF77.htm) — support.fccps.cz. [cit. 2026-04-28]
+- [Vybraná témata technické podpory FCC PS](http://support.fccps.cz/) — support.fccps.cz. [cit. 2026-04-28]
+- [Zajímavá úvaha o redundatních zdrojích času](http://support.fccps.cz/download/Meinberg/prehled/mbg-redundance.htm) — support.fccps.cz. [cit. 2026-04-28]

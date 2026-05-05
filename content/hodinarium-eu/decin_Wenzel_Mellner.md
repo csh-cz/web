@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:25.681Z"
 tldr: 'V závěru roku 2015 byl Hodináriu pronajat od firmy POTRUBÍ Praha, spol. s r.o. špindlový čtvrťový věžní hodinový stroj v nálezovém stavu. O historii stroje zatím mnoho nevíme. Stroj je těžko identifikovatelný.…'
 ---
-V závěru roku 2015 byl Hodináriu pronajat od firmy POTRUBÍ Praha, spol. s r.o. špindlový čtvrťový věžní hodinový stroj v nálezovém stavu. O historii stroje zatím mnoho nevíme. Stroj je těžko identifikovatelný. Podle rámu, který má rohové sloupky čtvercové bez volut, mohl spatřit světlo světa už někdy o třicetileté válce (1618-1648). Ale taky homohl postavit nějaký vesnický kovář později. Takto stavěné hodiny se vymykají dobovým zvyklostem, mohly být udělány pode nějakého starého vzoru. Ani přestavba není asi práce běžného hodináře věžních hodin.
+V závěru roku 2015 byl Hodináriu pronajat od firmy POTRUBÍ Praha, spol. s r.o. špindlový čtvrťový věžní hodinový stroj v nálezovém stavu. O historii stroje zatím mnoho nevíme. Stroj je těžko identifikovatelný. Podle rámu, který má rohové sloupky čtvercové bez volut, mohl spatřit světlo světa už někdy o třicetileté válce (1618–1648). Ale taky homohl postavit nějaký vesnický kovář později. Takto stavěné hodiny se vymykají dobovým zvyklostem, mohly být udělány pode nějakého starého vzoru. Ani přestavba není asi práce běžného hodináře věžních hodin.
 
 ## Fotografie nálezového stavu
 

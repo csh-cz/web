@@ -49,10 +49,10 @@ Jsou technicky prakticky stejné. Pouze jiný program mikroprocesoru vytváří 
 
 **Některé další zajímavé linky:**
 
-1.  www.bobblick.com/techref/projects/propclock/propclock.html
-2.  www.graffagnino.net/frankie/projects/propeller\_clock/
-3.  www.graffagnino.net/frankie/projects/propeller\_clock/index.php
-4.  www.luberth.com/analog.htm
-5.  hackedgadgets.com/2006/06/29/nixie-propeller-clock/
+1. www.bobblick.com/techref/projects/propclock/propclock.html
+2. www.graffagnino.net/frankie/projects/propeller\_clock/
+3. www.graffagnino.net/frankie/projects/propeller\_clock/index.php
+4. www.luberth.com/analog.htm
+5. hackedgadgets.com/2006/06/29/nixie-propeller-clock/
 
 !

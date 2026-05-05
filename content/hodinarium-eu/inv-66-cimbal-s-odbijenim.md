@@ -24,7 +24,7 @@ karta:
   adaptaceProVystavu: "K cimbálu bylo doplněno odbíjecí zařízení Elektročas s ovládáním, které přes WiFi získává informaci o přesném čase."
 ---
 
-Z  kostela sv. Filipa a Jakuba ve Viničnom na Slovensku byl zakoupen cimbál. Jedná o cimbál z roku 2009 od Albína Iváka, má asi 35 kg a tón e2. Na jedné straně je reliéf tváře Krista, z druhé strany pak signatura firmy s letopočtem.
+Z kostela sv. Filipa a Jakuba ve Viničnom na Slovensku byl zakoupen cimbál. Jedná o cimbál z roku 2009 od Albína Iváka, má asi 35 kg a tón e2. Na jedné straně je reliéf tváře Krista, z druhé strany pak signatura firmy s letopočtem.
 
 K cimbálu bylo doplněno odbíjecí zařízení Elektročas s ovládáním, které přes WiFi získává informaci o přesném čase.
 
