@@ -42,8 +42,6 @@ const featuredArticles = featuredArticleSlugs
   .map((s) => clanky.find((c) => c.slug === s))
   .filter((c): c is Entry => Boolean(c));
 
-const totalImages = catalogAll.reduce((s, e) => s + e.imageCount, 0);
-
 // ─── ROZCESTNÍK TYPŮ ───────────────────────────────────────────
 // Spočítáme počet entries v každém typu z `tags` field collection.
 // Dlaždice s count > 0 jsou klikatelné, s 0 jsou tlumené (placeholder).
@@ -106,23 +104,6 @@ const groupedTiles: Record<TypTile['group'], typeof typTilesWithCount> = {
     <h1 class="hero-title mb-3" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">{meta.jmeno}</h1>
     <p class="kategorie-podnadpis">{meta.podnadpis}</p>
     <p class="kategorie-intro mt-6">{meta.intro}</p>
-
-    <div class="kategorie-stats mt-8">
-      <div class="stat-inline">
-        <strong>{karty.length}</strong>
-        <span>evidenčních karet</span>
-      </div>
-      <div class="stat-inline">
-        <strong>{clanky.length}</strong>
-        <span>vázaných článků</span>
-      </div>
-      {totalImages > 0 && (
-        <div class="stat-inline">
-          <strong>{totalImages}</strong>
-          <span>fotografií</span>
-        </div>
-      )}
-    </div>
 
     <!-- Přepínač zobrazení -->
     <nav class="view-toggle mt-8" aria-label="Zobrazení sbírky">
