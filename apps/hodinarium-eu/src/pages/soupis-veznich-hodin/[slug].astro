@@ -5,10 +5,11 @@ import { getCollection, render } from 'astro:content';
 import { hodinari } from '../../data/hodinari';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
 
-/** Auto-detekce typu pramene z URL (když není explicitně uveden v frontmatteru). */
+/** Auto-detekce typu pramene z URL (když není explicitně uveden v frontmatteru).
+ *  Bez URL → typicky bibliografická citace tištěného pramene → 'kniha' (📖). */
 function detectPramenType(url: string | undefined, explicit?: string): string {
   if (explicit) return explicit;
-  if (!url) return 'odkaz';
+  if (!url) return 'kniha';
   if (/wikipedia\.org|wikimedia\.org|wikidata\.org/i.test(url)) return 'wiki';
   if (/mapy\.cz|mapy\.com|google\.com\/maps|maps\.google|goo\.gl\/maps|openstreetmap\.org/i.test(url)) return 'mapa';
   if (/\.pdf(\?|$)/i.test(url)) return 'pdf';
@@ -110,7 +111,7 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
         {d.souradnice && (
           <p class="souradnice">
             <a href={`https://www.openstreetmap.org/?mlat=${d.souradnice[0]}&mlon=${d.souradnice[1]}&zoom=17`} target="_blank" rel="noopener">
-              {d.souradnice[0].toFixed(5)}, {d.souradnice[1].toFixed(5)} ↗
+              {d.souradnice[0].toFixed(5)}, {d.souradnice[1].toFixed(5)}
             </a>
             {d.souradnicePribl && <span class="muted"> (přibližné)</span>}
           </p>
