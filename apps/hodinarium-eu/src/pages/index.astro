@@ -19,11 +19,7 @@ const browsable = entries
   .sort(() => Math.random() - 0.5)
   .slice(0, 4);
 
-// Statistiky — oldestYear/newestYear se používají v hero lede;
-// ostatní (total, totalImages, lokaceCount) odstraněny s hero-stats blokem.
 const withImages = entries.filter((e) => e.thumbnail).length;
-const oldestYear = Math.min(...entries.filter((e) => e.year && e.year > 1300).map((e) => e.year as number));
-const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).map((e) => e.year as number));
 ---
 <Base title="Hodinárium" description="Webová expozice Českého spolku horologického — sbírka hodin, projekty, expozice v Děčíně.">
   <!-- HERO -->
@@ -35,7 +31,6 @@ const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).ma
           Hodinárium
         </h1>
         <p class="hero-lede mb-8">
-          {oldestYear ?? 1410} → {newestYear ?? 2025}.
           Sbírka, expozice a projekty obdivovatelů hodinařiny —
           od&nbsp;věžních strojů 15.&nbsp;století přes&nbsp;švarcvaldky
           až po&nbsp;astroláby řízené&nbsp;mikroprocesorem.
