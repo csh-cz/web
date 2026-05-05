@@ -232,7 +232,7 @@ for (const c of (catalog as Array<{ slug: string; category: string }>)) {
   }
 </style>
 
-<script define:vars={{ puvod, expozice, articleSlugs: [...articleSlugs], slugToHref }}>
+<script is:inline define:vars={{ puvod, expozice, articleSlugs: [...articleSlugs], slugToHref }}>
   const slugSet = new Set(articleSlugs);
 
   function buildPopupHtml(l) {

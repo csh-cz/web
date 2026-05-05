@@ -36,7 +36,7 @@ const ostatni = featured.length
   : entries;
 
 const totalImages = entries.reduce((s, e) => s + e.imageCount, 0);
-const totalWords = entries.reduce((s, e) => s + e.wordCount, 0);
+// const totalWords = entries.reduce((s, e) => s + e.wordCount, 0);  // (unused)
 const oldestYear = Math.min(...entries.filter((e) => e.year && e.year > 1300).map((e) => e.year as number));
 const newestYear = Math.max(...entries.filter((e) => e.year && e.year < 2030).map((e) => e.year as number));
 

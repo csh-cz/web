@@ -207,7 +207,6 @@ const watchUrl = start
       // Klik mimo poster nebo na klávesu — odpálíme aktivaci
       // a zabráníme přechodu na watchUrl (target="_blank").
       const target = e.target as HTMLElement;
-      const isAnchorClick = target.closest('.yt-poster a') !== null;
       if (e.target instanceof HTMLAnchorElement || target.closest('a')) {
         // Nech anchor click (otevření v nové záložce) jen když uživatel
         // zmáčkl modifikátor — jinak místo toho aktivujeme přehrání.

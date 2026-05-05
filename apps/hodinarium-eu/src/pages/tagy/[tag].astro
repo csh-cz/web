@@ -26,8 +26,7 @@ export async function getStaticPaths() {
   }));
 }
 
-interface Props { tag: string; }
-const { tag } = Astro.props;
+const { tag } = Astro.props as { tag: string };
 
 const all = await getCollection('clanky');
 const matching = all.filter((e) => (e.data.tags ?? []).includes(tag));

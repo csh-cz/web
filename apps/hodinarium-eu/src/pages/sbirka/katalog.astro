@@ -90,7 +90,7 @@ const lokaceLabels: Record<string, string> = {
 };
 
 const total = items.length;
-const maxInv = Math.max(...items.map((i) => i.invCisloNumeric ?? 0));
+// const maxInv = Math.max(...items.map((i) => i.invCisloNumeric ?? 0));  // (unused)
 const withKarta = items.filter((i) => existingKarty.has(kartaSlug(i))).length;
 
 // Counter per stav

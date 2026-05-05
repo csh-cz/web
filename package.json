@@ -23,6 +23,7 @@
     "popisy:apply": "tsx scripts/apply-popisy-to-karty.ts",
     "renumber": "tsx scripts/migrate-renumbering.ts",
     "clanky:extract": "tsx scripts/extract-from-articles.ts",
+    "validate:content": "node scripts/validate-content.mjs",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:headed": "playwright test --headed",
