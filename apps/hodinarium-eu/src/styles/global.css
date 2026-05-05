@@ -767,6 +767,17 @@ summary::-webkit-details-marker { display: none; }
   border-color: var(--color-brass-bright);
 }
 
+/* Logout varianta admin-mini-link — na hover signalizuje destrukční tón
+   (warm red), aby si editor uvědomil, že to ukončí session. */
+.admin-logout-link:hover {
+  background: color-mix(in srgb, #b04848 80%, transparent);
+  color: #fff;
+  border-color: #b04848;
+}
+.admin-logout-link svg {
+  display: block;
+}
+
 /* Floating "Upravit v CMS" tlačítko na detail stránkách (článek/karta/medailon).
    Fixní pravý dolní roh, mírné odhlučnění aby nerušilo čtení. */
 .cms-edit-fab {
@@ -801,7 +812,7 @@ summary::-webkit-details-marker { display: none; }
   flex-shrink: 0;
 }
 @media print {
-  .cms-edit-fab, #admin-badge-slot, #admin-redakce-slot { display: none !important; }
+  .cms-edit-fab, #admin-badge-slot, #admin-redakce-slot, #admin-logout-slot { display: none !important; }
 }
 
 /* Hamburger menu rozbalovací box */

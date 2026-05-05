@@ -65,6 +65,31 @@
           try { sessionStorage.removeItem('cms-return-url'); } catch {}
         });
         document.body.appendChild(btn);
+
+        // "Odhlásit" tlačítko vedle "← Zpět na web" — zahodí Cloudflare
+        // Access session pro celou Apps Team. Editor se po dalším pokusu
+        // o /admin/ znovu authuje (OTP nebo SSO).
+        const logout = document.createElement('a');
+        logout.id = 'cms-logout';
+        logout.href = '/cdn-cgi/access/logout';
+        logout.textContent = '⎋ Odhlásit';
+        logout.title = 'Odhlásit z editor režimu — zahodí Cloudflare Access session';
+        logout.style.cssText =
+          'position:fixed;top:.6rem;left:10.5rem;z-index:99998;' +
+          'background:#1a1a1a;color:#e8a8a8;text-decoration:none;' +
+          'padding:.45rem .85rem;border-radius:2rem;' +
+          'border:1px solid #b04848;box-shadow:0 2px 8px rgba(0,0,0,.4);' +
+          'font:500 13px/1.2 ui-serif,Georgia,serif;letter-spacing:.02em;' +
+          'transition:all 150ms ease;cursor:pointer';
+        logout.addEventListener('mouseenter', () => {
+          logout.style.background = '#b04848';
+          logout.style.color = '#fff';
+        });
+        logout.addEventListener('mouseleave', () => {
+          logout.style.background = '#1a1a1a';
+          logout.style.color = '#e8a8a8';
+        });
+        document.body.appendChild(logout);
       })();
     </script>
     <script>

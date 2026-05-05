@@ -165,6 +165,22 @@ const orgJsonLd = isHome ? {
                aria-label="Redakční přehled — co potřebuje review"
                title="Redakční přehled — co potřebuje review">↻</a>
           </li>
+          <li id="admin-logout-slot" class="hidden">
+            <!-- Odhlášení z CF Access. Endpoint /cdn-cgi/access/logout je
+                 univerzální pro celou Cloudflare Access apps Team — po kliku
+                 se zahodí session cookie a uživatel se vrátí jako anonymní.
+                 Sveltia si pak při dalším pokusu o save uvědomí 401 a zobrazí
+                 login screen znovu. -->
+            <a href="/cdn-cgi/access/logout" class="admin-mini-link admin-logout-link"
+               aria-label="Odhlásit z editor režimu (Cloudflare Access)"
+               title="Odhlásit z editor režimu — zahodí Cloudflare Access session">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true">
+                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+                <polyline points="16 17 21 12 16 7"/>
+                <line x1="21" y1="12" x2="9" y2="12"/>
+              </svg>
+            </a>
+          </li>
           <li id="admin-badge-slot">
             <!-- Admin badge — vždy viditelný.
                  Anon stav (data-state="anon"):
@@ -339,6 +355,10 @@ const orgJsonLd = isHome ? {
           // Redakční přehled link — vedle avataru, šipka ↻ jako "co je k doplnění".
           const redakceSlot = document.getElementById('admin-redakce-slot');
           if (redakceSlot) redakceSlot.classList.remove('hidden');
+
+          // Odhlásit link — viditelný jen pro přihlášené editory.
+          const logoutSlot = document.getElementById('admin-logout-slot');
+          if (logoutSlot) logoutSlot.classList.remove('hidden');
 
           // Floating edit button — jen pokud stránka má edit URL (článek/karta/...).
           const editUrl = document.body.getAttribute('data-cms-edit-url');
