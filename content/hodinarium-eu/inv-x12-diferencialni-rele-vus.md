@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "x12"
   umisteni: "Vitrína 5 (Sál elektro)"
   pridanoDoSbirky: "2024"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

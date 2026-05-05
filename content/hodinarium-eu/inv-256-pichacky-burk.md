@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "256"
   umisteni: "Rohová vitrína (Sál elektro)"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/pichacky/Benzing.jpg'

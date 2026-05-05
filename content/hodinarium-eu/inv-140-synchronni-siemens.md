@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "140"
   vyrobce: "Siemens"
   umisteni: "Vitrína 1 (Sál elektro)"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

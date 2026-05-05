@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "31"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2022"
-  majitel: "Knespl"
+  majitel: "David Knespl"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   krokJicihoStroje: "kotvový krok"

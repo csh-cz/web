@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "67"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2025"
-  majitel: "spolek"
+  majitel: "ČSH"
   stav: "funkční"
 ---
 

@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "240"
   umisteni: "Vitrína 4 (Sál elektro)"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"
 ---

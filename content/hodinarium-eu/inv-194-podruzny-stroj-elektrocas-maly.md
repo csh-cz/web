@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "194"
   umisteni: "Vitrína 2 (Sál elektro)"
   vyrobce: "Elektročas"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/elektrika/rufa5.jpg'

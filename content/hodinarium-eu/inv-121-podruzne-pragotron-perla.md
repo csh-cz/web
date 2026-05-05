@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "121"
   umisteni: "Panel 4"
   vyrobce: "Pragotron"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"
 thumbnail: '/img/pragotron/C 30 zezadu + PS 100.jpg'

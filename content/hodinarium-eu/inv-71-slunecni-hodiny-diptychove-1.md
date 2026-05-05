@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "71"
   umisteni: "Vitrína 1 (Sál věžních hodin)"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   extra:

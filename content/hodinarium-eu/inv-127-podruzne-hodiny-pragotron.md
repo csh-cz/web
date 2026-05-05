@@ -19,7 +19,7 @@ karta:
   umisteni: "Panel 5"
   vyrobce: "Pragotron"
   pridanoDoSbirky: "2020"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "spolek"
   stav: "funkční"
 thumbnail: '/img/pragotron/C 30 ZEZADU+PS 4.jpg'

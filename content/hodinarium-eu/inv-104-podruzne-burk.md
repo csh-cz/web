@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "104"
   umisteni: "Panel 3"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

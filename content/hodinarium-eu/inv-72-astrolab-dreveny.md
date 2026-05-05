@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "72"
   umisteni: "Vitrína 1 (Sál věžních hodin)"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"
 ---

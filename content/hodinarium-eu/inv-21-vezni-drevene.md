@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "21"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2018"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"
   extra:

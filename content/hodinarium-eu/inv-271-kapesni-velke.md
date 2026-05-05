@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "271"
   umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2020"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"
 ---

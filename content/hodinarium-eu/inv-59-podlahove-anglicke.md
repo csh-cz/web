@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "59"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2020"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   extra:

@@ -18,7 +18,7 @@ karta:
   vyrobce: "Kappa"
   umisteni: "Panel 5"
   pridanoDoSbirky: "2025"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/elektrika/Kappa/strojek.jpg'

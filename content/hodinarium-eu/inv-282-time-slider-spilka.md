@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "282"
   umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2024"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"
   extra:

@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "156"
   vyrobce: "Laplace"
   umisteni: "Vitrína 1 (Sál elektro)"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/laplace/patent_fig9.jpg'

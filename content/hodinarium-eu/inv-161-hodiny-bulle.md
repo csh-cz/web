@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "161"
   umisteni: "Vitrína 1 (Sál elektro)"
   vyrobce: "Bulle"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/elektrika/bulle/patent.jpg'

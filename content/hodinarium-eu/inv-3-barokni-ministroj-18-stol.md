@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "3"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2011"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   biciStroje: "hodinové"

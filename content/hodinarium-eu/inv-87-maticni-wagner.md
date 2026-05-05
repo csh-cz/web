@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "87"
   umisteni: "Panel 1"
   vyrobce: "Wagner"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   krokJicihoStroje: "Grahamův krok"

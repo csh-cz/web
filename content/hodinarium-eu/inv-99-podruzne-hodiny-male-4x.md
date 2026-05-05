@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "99"
   umisteni: "Panel 2"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

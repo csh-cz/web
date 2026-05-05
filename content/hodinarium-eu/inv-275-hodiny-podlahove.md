@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "275"
   umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2021"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

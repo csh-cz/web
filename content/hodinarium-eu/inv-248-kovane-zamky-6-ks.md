@@ -14,7 +14,7 @@ tags:
 karta:
   inventarniCislo: "248"
   umisteni: "Rohová vitrína (Sál elektro)"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
 ---
 
 ## Stub karty

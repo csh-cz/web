@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "46"
   umisteni: "Hlavní sál"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"
   extra:

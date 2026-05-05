@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "239"
   umisteni: "Vitrína 4 (Sál elektro)"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"
 ---

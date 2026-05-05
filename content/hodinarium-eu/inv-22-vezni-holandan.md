@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "22"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2018"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   krokJicihoStroje: "kotvový krok"

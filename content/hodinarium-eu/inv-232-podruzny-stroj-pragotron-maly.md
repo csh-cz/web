@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "232"
   umisteni: "Vitrína 3 (Sál elektro)"
   vyrobce: "Pragotron"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/pragotron/C 301 ZEZADU.jpg'

@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "224"
   umisteni: "Vitrína 3 (Sál elektro)"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/budiky1/budik_sch_m004.jpg'

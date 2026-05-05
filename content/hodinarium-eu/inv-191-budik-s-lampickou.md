@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "191"
   umisteni: "Vitrína 2 (Sál elektro)"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/budiky1/budik_schw11.jpg'

@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "144"
   umisteni: "Vitrína 1 (Sál elektro)"
   vyrobce: "Datumatic"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/datumatic/foto_0003.jpg'

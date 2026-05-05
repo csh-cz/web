@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "227"
   umisteni: "Vitrína 3 (Sál elektro)"
   vyrobce: "Elektročas"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/elektrika/slava.jpg'

@@ -19,7 +19,7 @@ karta:
   umisteni: "Hlavní sál"
   datace: "1898"
   pridanoDoSbirky: "2018"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "koupě"
   stav: "funkční"
   rokVyroby: "1898"

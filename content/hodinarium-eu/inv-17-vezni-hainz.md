@@ -20,7 +20,7 @@ karta:
   umisteni: "Hlavní sál"
   vyrobce: "Hainz"
   pridanoDoSbirky: "2018"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "koupě"
   stav: "funkční"
   biciStroje: "půlové"

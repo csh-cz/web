@@ -20,7 +20,7 @@ karta:
   umisteni: "Hlavní sál"
   vyrobce: "Krečmer"
   pridanoDoSbirky: "2018"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "koupě"
   stav: "funkční"
   rokVyroby: "2002"
