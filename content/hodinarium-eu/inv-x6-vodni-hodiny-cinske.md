@@ -17,7 +17,3 @@ karta:
   umisteni: "Rohová vitrína (Sál elektro)"
   majitel: "zápůjčka"
 ---
-
-## Stub karty
-
-Tato karta byla vyrobena ze Soupisu exponátů, ale chybí jí inventární číslo (XLS sloupec prázdný). Přiřaďte řádné inv. č. v Soupisu a re-generujte.

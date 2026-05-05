@@ -20,7 +20,3 @@ karta:
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---
-
-## Stub karty
-
-Tato karta byla vyrobena ze Soupisu exponátů, ale chybí jí inventární číslo (XLS sloupec prázdný). Přiřaďte řádné inv. č. v Soupisu a re-generujte.

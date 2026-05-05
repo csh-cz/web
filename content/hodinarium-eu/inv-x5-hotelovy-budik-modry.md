@@ -18,7 +18,3 @@ karta:
   majitel: "zápůjčka"
 thumbnail: '/img/budiky1/budik_sch_m001.jpg'
 ---
-
-## Stub karty
-
-Tato karta byla vyrobena ze Soupisu exponátů, ale chybí jí inventární číslo (XLS sloupec prázdný). Přiřaďte řádné inv. č. v Soupisu a re-generujte.
