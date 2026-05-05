@@ -31,8 +31,6 @@ Nebyl to jeden z mnoha bizarních návrhů určených k odsunutí do říše kur
 
 V Paříži na nábřeží Quai de la Gare se dodnes dochovala továrna na stlačený vzduch, kterou v roce 1891 postavila společnost Compagnie. Byla v provozu až do roku 1983 a stala se součástí francouzského národního dědictví průmyslové archeologie. Síť naposled sloužila Potrubní poště. Část potrubní pošty v ČR si můžete prohlédnout na výstavce ve firmě [CETIN.](https://www.cetin.cz/)
 
-* * *
-
 ![podružné pneumatické hodiny](/img/Paris_pneumatika/hlavni.jpg)
 
 ### Princip pneumatického systému
@@ -64,8 +62,6 @@ Systém byl nejprve vyzkoušen v I. a II. obvodu, později měla být Paříž r
 Ceny předplatného pro soukromé osoby činily pět centů denně za jedny podružné hodiny, čtyři centy denně za druhé a tři centy denně pro třetí nebo další. U instalací v hotelech s více než 100 hodinami se cena předplatného vypočítává individuálně náklady na instalaci: předplatitel začne platit až poté, co jeho hodiny začnou fungovat. Pokud nás dosud udivovala modernost marketingu této iniciativy, pak nás může vyděsit jen další aspekt smlouvy: přijímací hodiny dodávala a instalovala společnost zdarma, ale pokud předplatitel odevzdal své vlastní hodiny, byly mu vráceny s výměnou strojku, aby byl vhodný pro příjem vzdušného impulsu. stlačené! A to vše bez poplatků! Není těžké si představit masakr hodin, obětí moderní doby.
 
 Čas byl přejímán z Centrální astronomické observatoře a referenční čas byl střední čas pařížského poledníku. Každý den v poledne chodil na observatoř kontrolor (zpravodaj ho označil za "zvláštního"), aby "odměřil hodiny". Na dotaz členů výboru, kteří se nad tím podivovali tento postup a navrhl, že možná že příjem elektrického signálu přímo z observatoře by byl výhodnější, zástupce společnosti oponoval, že jeho společnost by elektrický signál nevyužila, protože je známo, že je silně ovlivněn atmosférickými vlivy. Pneumatický systém byl také popsán jako prakticky necitlivý na sezónní klimatické výkyvy, protože teplota a vlhkost v odpadní jímce nejsou citlivé na sezónní výkyvy a zůstávají po celý rok téměř konstantní a nebyly zaznamenány žádné sekundární problémy, jako je kondenzace.
-
-* * *
 
 ## Jiné pneumatické systémy a zajímavé odkazy
 

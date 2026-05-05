@@ -70,8 +70,6 @@ Na závěr obdivuhodné dílo hodináře ze Schwarzwaldu.
 
 Po kliknutí na fotografii se otevře okno se zvětšeninou a objeví se i vysvětlující text. Ne, že by takový text byl potřeba, neboť třeba nárameníkové hodinky pro nadporučíky jistě každý pochopí. Nejsme si však jisti, zda to nevyžaduje Evropská unie. Proto je uveden i text v nářečí kmene Bžu Kva z Dolního Kvabžu. Tento text je napsán neviditelným inkoustem, jehož vyvolání nezvládl ani Jára da Cimrman.
 
-* * *
-
 ## Fotokoláže a jiné úlety
 
 Nejen chlebem je živ člověk. I duševní stravu potřebuje. Při prohlížení webu [ateo.cz](http://ateo.cz/pg/home/) nás zaujalo veliké množství úžasných fotokoláží. S laskavým dovolením autora jich několik souvisejících s hodinářskou tématikou uvádíme s původním komentářem. Sympatické je i motto uvedené na serveru:

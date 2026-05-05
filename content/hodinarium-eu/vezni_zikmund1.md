@@ -18,8 +18,6 @@ Pan Zikmund píše:
 
 *To byla akce roku, i když osobně jsem se na tomto záslužném počinu podílel pouze minimálně. Hodinový stroj má nyní zcela nové unikátní elektrické natahování. Hodiny zatím nebijí, ale podrobnosti si teprve musím zjistit, takže se můžete těšit, určitě brzy vám zde tuto akci přiblížím podrobněji.*
 
-* * *
-
 *Tak z akce roku se nakonec stalo rozčarování
 roku. Ale pěkně od začátku.*
 

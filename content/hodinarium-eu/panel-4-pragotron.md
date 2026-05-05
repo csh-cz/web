@@ -52,6 +52,4 @@ Panel je oživen modelem [ozubených čtvercových kol](/sbirka/karta/inv-119-oz
 
 Původní text panelu z roku 2017 zmiňoval ještě **hodiny IBM** (konstruované pro třídrátový rozvod), **digitální hodiny SH94** (mimo produkci Pragotronu) a **přijímač GPS řídící hodiny Bodet**. Tyto exponáty jsou v aktuálním uspořádání expozice přesunuty na **Panel 5** (Pragotron a moderní distribuce času), kde je k vidění mj. [GPS/NTP/PPS server](/sbirka/karta/inv-130-ntp-gps-pps-server/), [hodiny Bodet](/sbirka/karta/inv-126-podruzne-hodiny-bodet/) a [Podružné IBM 4×](/sbirka/karta/inv-137-podruzne-hodiny-ibm/).
 
-* * *
-
 *Text převzat z informačního panelu expozice (Panel 4, Hodinárium Děčín, 2017). Označení modelů (EH40/41, ZZ41/42, RL40/83) odpovídá aktuálnímu Soupisu exponátů; v původním panelu byly použity drobně odlišné modely.*

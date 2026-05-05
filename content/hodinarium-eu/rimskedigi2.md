@@ -48,8 +48,6 @@ Existuje i jiné přenesené pojetí, kdy za digitální techniku považujeme v�
 
 Na obrázku vpravo je ukazatel minut na orloji v Benátkách. Ukazatel se změní jednou za pět minut. Můžeme ukazatel považovat za digitální
 
-* * *
-
 ## Římské odbíjení hodin
 
 Aby kuriozita byla ještě kurióznější doplníme Římské digitálky ještě o "římské odbíjení". Toto odbíjení nemá s Římem nic společného. Je jen pojmenované podle principu římských číslic. Odbíjí se na dva zvony (dva tóny) hlubší znamená římská „V”, vyšší znamení římská „I”. Celé hodiny se odbíjí jako by to byly římské číslice. Místo X jsou dvě V. Tedy posloupnost bití je: I, II, III, IV, V, VI, VII, VIII, IVV, VV, VVI, VVII.

@@ -24,8 +24,6 @@ Joj, to byly krásné časy. Měl jsem, jako mladičký spojař, na starost "Al�
 
 Když se podíváme v archivu ČT na film " [Pražská telefonní časová služba (z roku 1949)](https://www.ceskatelevize.cz/porady/10116288585-archiv-ct24/218411058210010/video/609195) " vidíme, že ve verzi od firmy Eriksson časový normál tvořily kyvadlové hodiny. Časový údaj zpracovával reléový řadič (dnes bychom řekli počítač), který řídil nastavení šesti fotobuněk na aktuální zvukovou stopu a jejich postupné přehrávání. Skleněné disky se současně otáčely. Zdá se, že je použita metoda hustotního záznamu zvuku jako u zvukových filmů pře přechodem na magnetický záznam. Mechanika motorových posunů jednotlivých snímačů na posledních dvou snímcích si vyžádá podrobnější popis dle skutečného exponátu.
 
-* * *
-
 ![Alzbeta 2](/img/alzbeta/f/Alzbeta2.jpg)
 
 Řídící kyvadlové hodiny Alžběty a část řídícího systému.
@@ -39,8 +37,6 @@ Reléový řadič Alžběty
 Mechanismus ovládání polohy čtecí fotobuňky.
 
 ![Alzbeta 5](/img/alzbeta/f/Alzbeta5.jpg)
-
-* * *
 
 Na kotouči šest zvukových stop, tedy stopy pro desítky sekund, konkrétně pro 10,20,30,40,50 a slovo "přesně".
 

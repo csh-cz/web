@@ -76,8 +76,6 @@ minutového kola
 17 - postrkovací páka
 18, 19 - podružné hodiny
 
-* * *
-
 ## **Elektrické systémy v současné době**
 
 Základní otázkou synchronizace je, jak přesný požadujeme výsledek. Stačí nám několik sekund, několik milisekund, mikrosekund či nanosekund? Podle toho volíme přesnost zdroje času, zvažujeme (kompenzujeme) dobu šíření signálu a dobu zpracování. Pokud například byl rozhodující okamžik oznamován výstřelem z děla, nějakou dobu trvalo, než na povel dělo vystřelilo, doba přijetí signálu závisela na vzdálenosti a rychlosti zvuku a asi hlavní roli hrála pozornost posluchače. Dnes po zavedení digitálního zpracování radiového či televizního signálu, se projevují výrazná zpoždění vlivem délky přenosové terasy (například přes družici) či doba zpracování digitálního systému v různých částech přenosové trasy. U družic je nutné počítat i s vlivy popsanými speciální a opecnou teorií relativity. Problém je, že tato zpoždění jsou proměnlivá zejména pro různé příjemce signálu.Přesnost časového signálu vysílaného ze studia je proto problematická. Vezměmě to napřed historocky.
@@ -92,11 +90,7 @@ Elektrické hodiny mohou využívat frekvenci rozvodné sítě jako časový nor
 
 Nevýhodou jednoduše řízených skupin hodin je závislost na nepřetržitém chodu časového normálu a závislost na kvalitě vedení. Dojde-li například k výpadku sítě, některé hodiny se synchronním motorem se již sami nerozejdou, některé nastartují, ale ukazují čas zpožděný o dobu výpadku. Novější systémy jednotného času s polarizovaným impulzem v době výpadku impulzy nevysílají, ale pamatují si buď počet nevyslaných impulzů nebo čas nastavený na podružných hodinách. Po obnovení dodávky elektrické energie, centrální hodiny zrychleně impulzy odvysílají. Ani tento systém není bezobslužný, neboť nekvalitou vedení či jiným problémem se může stát, že některé hodiny v soustavě ukazují odlišný čas.
 
-* * *
-
 V současnosti se proto častěji používají hodin, které jsou schopny samostatného chodu a jsou nadřízenou autoritou pouze v různých intervalech synchronizovány, nebo jsou neustále opravovány podle neustále přenášené úplné časové informace.
-
-* * *
 
 ## Distribuce časové informace radiovými vysílači OMA 50
 
@@ -183,8 +177,6 @@ Informace z NTP serverů může být předávána nejen počítačům, ale do mn
 V Vpravo nahoře je přijímač časového signálu GPS. Časovou informaci zpracovává NTP server, který ji bude následně předávat mnoha zařízením. GPS signál je zde kromě vnitřních profesionálních hodin serveru jediným zdrojem časové informace. Nejběžnější využití časové informace z NTP serveru je synchronizace jednotlivých počítačů v síti. Může jít i o průmyslové počítače využité k řízení technologií. Aplikaci by prospělo ještě záložní řešení.
 
 K síti mohou být připojeny i speciální strojky podružných hodin, které časovou informaci přímo zpracují. Dále mohou být s určitým omezením připojeny přes převodníky síťových interfaců i hodiny řízené signálem MOBALine či s DCF synchronizací.
-
-* * *
 
 Odkazy:
 

@@ -20,13 +20,9 @@ V klenotnici Věžního muzejíčka se připravuje prodejní výstava několika 
 
 Více informací o Janě Nyergesové najdete [na facebooku](http://www.facebook.com/TikTakJinak), na [www.flear.cz](http://www.fler.cz/chochojana) či jejím [blogu](http://www.fler.cz/blog/37556). Šperky Veroniky Bouškové můžete vidět také na jejím webu.
 
-* * *
-
 ## Steampunková ochutnávka
 
 Uvedené exponáty bohužel v muzejíčku neuvidíte. Pro rozšíření vaší představy o steampunku jsme vybrali fotografie několika extra kousků...
-
-* * *
 
 ![Fotografie 1](/img/steampunk/f/foto_0001.jpg)
 

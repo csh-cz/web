@@ -14,8 +14,6 @@ Nevím, jak vy, ale já klíče NIKDY nenacházím tam, kam je položím. Hledá
 
 Řešením u zvlášť divokých klíčů (např. u cestovních budíků) je, připoutat je řetězem ke stroji, aby jim přešla chuť na toulání. Je tedy patrné, že zatímco jinde je klíčová otázka pojem spíše abstraktní, u hodin je vskutku zásadní - klíčová, protože bez klíče to opravdu nejde. Konečné řešení této otázky však mizí v nedohlednu- jako klíče samotné.[![LOUIS HAINZ - přední pohled bez ciferníku](/img/hainz/deska_stroj_n.jpg)](/img/hainz/deska_stroj.jpg)
 
-* * *
-
 **Proto asi jsou
 hodiny LOUIS HAINZ
 vybaveny pozoruhodným** **natahovací mechanismem**.
@@ -33,7 +31,5 @@ vybaveny pozoruhodným** **natahovací mechanismem**.
 FARCOT B \_S.O.D.GA. PARIS
 
 **N**a zadní straně najdeme papírový štítek s instrukcemi pro instalaci a dvě ručně psaná čísla g 1160 a 13097
-
-* * *
 
 Zajímavé a celkem jednoduché bezklíčové řešní. Nic ale není bez problémů. Takto místo ztráty klíče hrozí utržení hodin ze zdi. ;-)

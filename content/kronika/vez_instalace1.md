@@ -18,8 +18,6 @@ scrapedAt: "2026-04-27T17:36:35.629Z"
 
 Petr Král
 
-* * *
-
 ## Perná příprava
 
 ![Fotografie 1](/img/instalace1/f/foto_001.jpg)
@@ -45,8 +43,6 @@ Petr Král
 ![Fotografie 20](/img/instalace1/f/foto_020.jpg)![Fotografie 21](/img/instalace1/f/foto_021.jpg)
 
 ![Fotografie 22](/img/instalace1/f/foto_022.jpg)![Fotografie 23](/img/instalace1/f/foto_023.jpg)
-
-* * *
 
 ## a takhle to dopadlo
 

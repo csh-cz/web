@@ -20,8 +20,6 @@ Těší nás*, že náš Český spolek horologický má i zahraniční členy-k
 
 ***Ondrej M a z a n
 
-***
-
 Pan Ondrej Mazan navrhl časovou symboliku, která kombinuje analogové a digitální zobrazení času s dalšímu údaji. "Oko" pana Mazana ukazuje dobu východu a západu Slunce a tedy podíl noci a dne v různé zeměpisné poloze a v různé části roku. V konkrétní prezentaci se zobrazuje ještě datum, den v týdnu, čas východu a západu Slunce a celosvětově jednotný [internetový čas](smeti/decimalky.htm#internet).
 
 Je sice trochu otázka, co vlastně sluneční (respektive "noční" sluneční) symbol má ukazovat. Místní pásmový čas, nebo pravý sluneční čas? Přikláním se k názoru, že má být zobrazen místní pásmový čas i přesto, že Slunce je vlivem zeměpisné polohy, polohy Země vůči Slunci či nedejbože letnímu času, někde jinde. Při vnímání času jsme "všudypřítomným" pásmovým časem ovlivněni.

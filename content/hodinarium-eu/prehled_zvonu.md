@@ -32,8 +32,6 @@ Po téměř půl tisíciletí vyzváněly chudým i bohatým zvony Soběslavské
 Na fotografii, která byla pořízena při rekvizici zvonů je prostřední zvon Marie. Menší zvony nedokážeme určit.
 Zajímavé je, že polovina vojáků si dává za odměnu cigárko.
 
-* * *
-
 [![Zvon Sv. Václav](/img/vez/zvony/f/sv_vaclav.jpg)](/img/vez/zvony/f/sv_vaclav.jpg)
 
 Zvon Petr Pavel však dlouho osamocen nezůstal. Po válce byly vyrobeny a **v roce 1925** slavnostně vysvěceny zvony zasvěcené:
@@ -53,13 +51,9 @@ Zvon Petr Pavel však dlouho osamocen nezůstal. Po válce byly vyrobeny a **v r
 
 (údaje podle knihy P. Lintnera Pohledy soběslavské 1)
 
-* * *
-
 ## Nové zvony 2011 ...
 
 Zdá se, že ani ve století dvacátém nekončí historie soběslavských zvonů. Zvonař Michal Votruba na rožmberských slavnostech věnoval městu menší zvon a v říjnu 2011 ulil stokilový [zvon Petr Vok](/clanky/zvon_petr_vok). Zavěšení a svěcení se očekává v roce 2012. Nezbývá než se těšit.
-
-* * *
 
 ## Cimbály věžních hodin
 

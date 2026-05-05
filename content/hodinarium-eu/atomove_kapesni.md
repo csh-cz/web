@@ -33,8 +33,6 @@ Dalším možným principem atomových hodin je tzv. atomová fontána, která v
 - [A History of the Rubidium Frequency Standard](<download/A History of the Rubidium Frequency Standard.pdf>)
 - [Jaderné hodiny s vyšší frekvencí](https://theconversation.com/why-timekeeping-is-now-on-the-verge-of-a-giant-leap-forward-in-accuracy-238744) — The Conversation. [cit. 2026-04-28]
 
-* * *
-
 ## Atomové hodinky
 
 Londýnská hodinářská firma Hoptroff vyrobila v roce 2013 první hodinky, které fungují na stejném principu jako atomové hodiny. Mezi prestižními výrobci se již hodinky, které jsou řízeny rádiovým signálem z atomových hodin, staly standardem. [Model ‚No. 10‘ je jiný. O obsahuje miniaturní hodinový stroj fungující na principu atomových hodin](https://www.europastar.com/magazine/features/1004086535-lab-hoptroff-the-world-s-most-accurate-watch.html). Jak vysvětlil ředitel společnosti Europa Hoptroff: „Jsme výrobci používající vysokofrekvenční oscilátor, který používá GPS signál. Může však být obtížné získat signál GPS v centru Londýna. Když jsem jednoho dne navštívil Greenwichskou observatoř, všiml jsem si atomových hodin Hewlett Packard a přemýšlel, jestli bych si mohl koupit něco podobného. Nemohl jsem. Ale místo toho jsem objevil čip Symmetricon a po třech dnech jsem si uvědomil, že bych ho měl opravdu dát do kapesních hodinek....

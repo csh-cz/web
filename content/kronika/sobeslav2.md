@@ -14,8 +14,6 @@ Kapitola z již zmíněné knihy **POHLEDY SOBĚSLAVSKÉ Petra Lintnera** (vydal
 
 Trochu jiný pohled najdete na stránce **[Historie věžních hodin v Soběslavi, chronologický výpis z archivních dokumentů a dvě hypotézy](/clanky/sobeslav2b)**.
 
-* * *
-
 ## Po stopách času
 
 **Č**as se na soběslavské věži měřil již za válek husitských. O podobě tehdejších hodin však nejsou žádné zprávy. První písemnou zmínku lze nalézt v městských účtech z roku 1484. Tehdy zjednali páni na službu natahování, mazání a oprav hodinového stroje zámečníka Štandla. Za to mu bylo předem vyplaceno 70 grošů a zadarmo pronajat jakýsi obchod ve městě. V roce 1489 byly na věž vytaženy hodiny jiné. Tehdy nebyly umístěny v nynější výši, ale níže nad kaplí. Nevíme, zda to byly obyčejné hodiny nebo nákladnější orloj, ale určitě byly bicí, protože roku 1490 k nim přivezl Ondráček z Budějovic struny, které spojovaly cimbály (zvonky) s vlastním hodinovým strojem.[![Torzo hodinového stroje z roku 1677. Foto Jan Lintner 2008.](/img/vezni/sobeslav/torzo1677_m.jpg)](/img/vezni/sobeslav/torzo1677.jpg)
@@ -30,12 +28,8 @@ Trochu jiný pohled najdete na stránce **[Historie věžních hodin v Soběslav
 
 [![Hodinová stroj Elektročas z r. 1959. Foto Jan Lintner 2008.](/img/vezni/sobeslav/elektrocas1959b.jpg)](/img/vezni/sobeslav/elektrocas1959.jpg)
 
-* * *
-
 **N**a jejich místo byly instalovány kyvadlové elektrické hodiny vyrobené firmou Elektročas n.p. Praha společně s ciferníkem ve tvaru čtverce a hodinovými ručičkami délek 180 a 155 cm. Pomocí strun jsou spojeny se zvonky pod horní bání.
 
 **V**íce jak 25 let se pan Václav Líkař stará o to, aby hodinový stroj správně odměřoval čas a aby cimbál po úderu kladívka pravidelně do světa hlásil každou čtvrthodinu a tónem jiné frekvence každou celou hodinu.
-
-* * *
 
 **S**oběslavské věžní hodiny pamatují úsměvnou příhodu z roku 1932. Dne 22. února byly uvedeny v soulad se středoevropským časem. Stalo se tak na základě rozhodnutí okresního soudu. Již od dob úřadování starosty Josefa Mrázka šly totiž o sedm minut napřed, aby lidé nepřišli pozdě na vlak. Pan starosta ho jednou zmeškal, když jel na c. k. místodržitelství. Byla z toho nepříjemnost. Aby se podobná věc neopakovala, nechal rafiky na hodinách posunout. Jak místní obyvatelé stíhali odjezdy vlaků po zrušení speciálního soběslavského času, už kroniky neuvádějí.

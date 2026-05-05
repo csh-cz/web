@@ -45,8 +45,6 @@ Nebudeme si všímat bouřlivé politické atmosféry a raději si ukážeme, ja
 
 I u nás se docházelo k přemalování ciferníků, jak svědčí [nalezená tabulka.](/img/decimalky/cedule2.jpg)
 
-* * *
-
 ## Internetový zavináčový čas - ?zavinac? aneb "Jeden svět - jeden čas"
 
 *(Uvedený internetový čas v titulku článku se odvozuje od hodin vačeho PC. Zatím se předpokl*á*dá , že PC je nastaven na časové pásmo GMT+1 bez letního času.

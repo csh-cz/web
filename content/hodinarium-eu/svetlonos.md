@@ -32,8 +32,6 @@ Sluneční hodiny symbolizují sepětí člověka s přírodou. Proto jsem rád,
 
 **Z** úcty k tradici si myslím, že sluneční hodiny mají ukazovat pravý sluneční čas příslušný k stanovišti. Korekci podle časové rovnice by měla usnadňovat vhodná [**tabulka**](/img/slunecni/tab_rovnice.gif). Kdyby taková byla i u Strážce času, nebylo by možné remcat na to, že socha ukazuje špatně. (Ačkoliv. Remcat je možné vždy.)
 
-* * *
-
 **Dodatek srpen 2009.** Nevím, zda remcání pomohlo, ale nyní již u Strážce času dvě vysvětlující tabulky jsou.
 
 [![Vysvětlující tTabulka u Strážce času](/img/slunecni/tabulka_svetlonos1.jpg)](/img/slunecni/f/tabulka_svetlonos1.jpg)

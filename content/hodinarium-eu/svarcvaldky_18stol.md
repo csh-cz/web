@@ -21,8 +21,6 @@ Krásně zachovalé hodiny velikost 27 x 17 x 15 cm, nepoškozený malovaný č�
 
 Jako obvykle se obrázky na kliknutí zvětší
 
-* * *
-
 ![18stol 1](/img/svarcvald/18stol1.jpg)
 
 ![18stol 6](/img/svarcvald/18stol6.jpg)![18stol 4](/img/svarcvald/18stol4.jpg)

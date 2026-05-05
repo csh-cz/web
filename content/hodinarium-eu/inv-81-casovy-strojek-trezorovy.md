@@ -36,6 +36,4 @@ V návodu na použití se důrazně připomíná, že dveře se nesmí zamknout,
 
 V Hodináriu je vystaven funkční časový zámek **Thomas Fox Mechanical Time Over Lock**, zakoupený od anglické firmy Safe and Vault Company Ltd. Maximální doba blokace je 144 hodin (6 dní).
 
-* * *
-
 *Text převzat z informačního panelu expozice „Časový zámek” (Hodinárium Děčín, 2017).*

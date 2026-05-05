@@ -22,8 +22,6 @@ Prokeš šel jinou cestou a použil jednoduchou **převodovku s pouze dvěma kol
 
 Na obrázku je ilustrační fotografie části rozvodů restaurovaného stroje Prokeš 1873. V popředí dvě rozvodovky, které pomocí tyčí s dilatačními spojkami převádějí pohyb minutové hřídele k ručkovým převodovkám ciferníků v téže rovině.
 
-* * *
-
 [![ručkový převod 4/48](/img/vez/bychory/ruckova_prevodovka.jpg)](/img/vez/bychory/f/ruckova_prevodovka.jpg)
 
 ## Ručkové soukolí
@@ -31,8 +29,6 @@ Na obrázku je ilustrační fotografie části rozvodů restaurovaného stroje P
 Úkolem ručkového soukolí je zajistit otáčení hodinové ručičky v závislosti na minutové hřídeli, tedy zajistit převodový poměr 1:12. Nebyl by to Prokeš, aby v převodech nepoužil neobvyklý počtů zubů. Na minutové hřídeli je nasazeno kolo s 24 zuby. Do něj zabírá mezilehlé kolo rovněž s 24 zuby. Tedy převod 1:1. To je ovšem nezanedbatelná výhoda, protože tyč z rozvodovky může být připojena buď na minutovou hřídel, nebo přímo na mezilehlé kolo. Snadno se tak vyřeší problém opačného otáčení některých hřídelí bez potřeby dodatečných kol.
 
 Pastorek mezilehlého kola s pouze 4 cévkami pak zabírá do 48 zubů hodinového kola. Převodový poměr 1:12 je realizován jedním soukolím. Pastorek je vyroben přímo z hmoty osy tak, že cévky vzniknou z hran původního čtyřhranu. Řešení je to zajímavé, ale tento pastorek je asi nejporuchovější místo v soustrojí.
-
-* * *
 
 ![rozvody Svinky](/img/vez/bychory/rozvod_Svinky.jpg)
 
@@ -43,8 +39,6 @@ Pro ukázku kompletních rozvodů jsme sestavili dvoukolovou rozvodovku Prokeš 
 Zvonička ve Svinkách přiléhá ke kovárně a mé proto jen 3 ciferníky. Minutová hřídel od hodinového stroje by byla přivedena vpravo dole. Hřídele vycházející na obrázku vlevo a nahoru se otáčí po směru hodinových ručiček (z pohledu od ciferníku). Jsou proto připojeny pouze dilatačními spojkami na minutovou hřídel. Levá převodovka z důvodů úspory místa v exponátu je připojena hybridní spojkou částečně plnící i funkci kardanu. Převodové strojky jsou osazeny původními, značně zkorodovanými rafiemi.
 
 Pravý strojek se musí vypořádat s opačně točící minutovou hřídelí. Tato rozvodová hřídel je proto připojena na střídné kolo. Vzhledem ke krátké vzdálenosti je vypuštěna dilatační spojka.
-
-* * *
 
 [![rozvodovka s dvouchodým šroubem](/img/vez/bychory/rozvod_prevod.jpg)](/img/vez/bychory/f/rozvod_prevod.jpg)
 

@@ -29,6 +29,4 @@ Kyvadlo kývá volně. Poklesne-li jeho amplituda pod určitou mez, jazýček se
 
 Kyvadlo vysílá minutové polarizované impulzy, jimiž je řízen podružný strojek (viz [karta inv. 86](/sbirka/karta/inv-86-podruzne-hodiny-hipp-1860/)).
 
-* * *
-
 *Text převzat z informačního panelu expozice (Panel 1, Hodinárium Děčín, 2017).*

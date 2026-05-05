@@ -29,6 +29,4 @@ Mechanické matiční hodiny s Grahamovým krokem a elektromagnetickým natahov�
 
 Hodiny se skládají z jicího stroje a stroje signálového, který vysílá polarizované impulzy do podružných hodin. Oba stroje jsou současně natahovány při vysílání minutového impulzu.
 
-* * *
-
 *Text převzat z informačního panelu expozice (Panel 1, Hodinárium Děčín, 2017).*

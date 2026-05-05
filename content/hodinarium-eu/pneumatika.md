@@ -60,6 +60,4 @@ minutového kola
 
 Více najdete na již zmiňované stránce (v němčině)**[www.hwynen.de](http://www.hwynen.de/jgh-elektronom.html) ,** odkud je obrázek převzat. Rovněž nam najdete fotografie hodin ve sbírce autora.
 
-* * *
-
 **P**oznámka: Termín *kompresní žárovka* je sice historický, ale poněkud matoucí. Jde především o kompresor využívající žhavicího vlákna. Vhodnější by tedy byl termín *žárovkový kompresor*.

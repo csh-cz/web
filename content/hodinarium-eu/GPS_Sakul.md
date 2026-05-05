@@ -16,8 +16,6 @@ Globální družicový polohový systém (GNSS z anglického Global Navigation S
 
 Hodiny satelitů jsou velmi přesné a synchronizované. Přijímač uživatele není tak přesný ani dokonale synchronizovaný. Pro přesné určení času musí hodiny co nejpřesněji znát svou polohu a odchylku dopočítat. K tomu potřebují vyhodnotit signál nejméně ze čtyř družic. Dnešní přesné časové servery mohou využít většinu navigačních systémů, jako je americký Novastar Global Positioning System (GPS), ruský GLONASS, evropský Galileo, čínský BeiDou, japonský QZSS, indický IRNSS a případně další připravované. Viz také [zde](decin_NTP.htm#satelity).
 
-* * *
-
 ## Synchronizace běžných hodin pomocí signálů GPS
 
 Jsme však v jiné situaci. Pro občanské využití s rozlišením maximálně na sekundy není nutné "kosmické" korekce započítávat a stačí přímo použít údaj vysílaný jednou družicí. V základním GPRMC paketu je čas z použitého GPS přijímače uveden s rozlišením na milisekundy ve formátu hhmmss.sss, což i tak je pro běžné zobrazení příliš. Není tedy nutné hledat polohu hodin, postačí alespoň občasný příjem jedné družice. Protože není určena poloha hodin, musíme na hodinách nastavit platné časové pásmo a případný letní čas.

@@ -33,8 +33,6 @@ V současnosti je značka Kappa známá především jako italská módní znač
 
 V posledních letech již firma **Kappa Orologi Industriali** není aktivní. Její původní webové stránky byly zrušeny a nedaří se dohledat žádné nové oficiální informace o výrobě či podpoře produktů. Lze tedy předpokládat, že firma buďto zanikla, nebo byla pohlcena jinou společností, což je v tomto segmentu trhu poměrně běžné.
 
-* * *
-
 ![strojek - krokový motor](/img/elektrika/Kappa/strojek.jpg)
 
 ## Podružné **reverzibilní** námořní hodiny SSC-321
@@ -48,8 +46,6 @@ Tyto hodiny byly vyrobeny Koreji. Možná si zachovaly svou základní kvalitu, 
 Výrobky značky KAPPA, zejména **slave** hodiny (podružné hodiny) i některé řídicí jednotky, se dnes stále objevují na **aukčních a prodejních platformách**, jako jsou: **eBay** v mezinárodních verzích, zejména USA, Itálie a Německo a další a Weby zaměřené na prodej přebytečných dílů z lodí a demontovaných zařízení (například firmy jako **Aeliya Marine Tech Private Limited**). Tyto hodiny jsou mezi sběrateli i techniky stále oblíbené díky své mechanické jednoduchosti, robustní konstrukci a spolehlivému provozu.
 
 Hodiny KAPPA dnes představují svědectví robustní italské techniky druhé poloviny 20. století. Přestože firma pravděpodobně zanikla a její původní výroba byla přesunuta do Koreje, její produkty dodnes slouží na lodích, v přístavech i v soukromých sbírkách.
-
-* * *
 
 ## KAPPA MARINE CLOCK SSC-MQI
 
@@ -69,8 +65,6 @@ Uvnitř jednotky je přepínač napětí sítě, dále samostatné vypínače pr
 ![Svorkovnice SSC-MQI](/img/elektrika/Kappa/svorkovnice_SSC-MQI.jpg)
 
 Zajímavé je, že téměř stejné hlavní hodiny nesou štítek Seiko QC-6M3 Maritime Master Clock. Novější hlavní hodiny mají někdy označení též TXS-10F CITIZEN Marine Master Uhr.
-
-* * *
 
 ## Hlavní hodiny na bázi ESP8266
 

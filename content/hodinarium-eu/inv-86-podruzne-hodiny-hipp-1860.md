@@ -29,6 +29,4 @@ Strojek je řízen polarizovanými impulzy, vysílanými matičními hodinami v 
 
 Tento typ podružného strojku byl vyráběn firmou Hipp-Favarger ještě kolem roku 1930.
 
-* * *
-
 *Text převzat z informačního panelu expozice (Panel 1, Hodinárium Děčín, 2017).*

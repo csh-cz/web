@@ -53,6 +53,4 @@ Stroj je umístěn v **původní pěkně provedené skříni**, která hodiny ch
 V Hodináriu je vystaven také druhý Lissnerův stroj, signovaný 1881 —
 [věžní torzo z Hilgersdorfu (Severní)](/sbirka/karta/inv-11-vezni-torzo/), inv. č. 11.
 
-* * *
-
 *Text karty vychází z popisu v dokumentu [Popisy strojů 3.docx](/zdroje/katalog%20exponátů/) (položka 67), Český spolek horologický, květen 2026. Pro biografii hodináře viz [medailon Johanna Lissnera](/hodinari/johann-lissner).*

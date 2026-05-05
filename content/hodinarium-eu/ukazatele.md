@@ -24,8 +24,6 @@ tldr: "!Hodinky opravdu s ručičkamaJe otázkou, jak nejlépe mají normální 
 
 **Další inspirace:**
 
-* * *
-
 ![Kuličkové](/img/ujete/bezrucicek14b.jpg)
 
 ![Slovní hodiny](/img/ujete/bezrucicek4b.jpg)![Nepřesýpací](/img/ujete/bezrucicek12b.jpg)

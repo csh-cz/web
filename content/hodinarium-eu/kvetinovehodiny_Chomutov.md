@@ -41,6 +41,4 @@ Obrázek z Německa.
 
 Květinové hodiny ve městě Erlangen.
 
-* * *
-
 *Za obrázky a informace ke květinovým hodinám v Chomutově a Erlangenu děkujeme paní H. Gemmrigové.*

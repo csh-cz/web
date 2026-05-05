@@ -62,9 +62,7 @@ Zpodkladů v odkazech přebíráme tabulku výrobních čísel, která by měla 
 810,000
 1,000,000
 1,600,000
----
 
----
 93,024
 206,304
 325,585

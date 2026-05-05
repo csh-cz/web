@@ -52,6 +52,4 @@ Nastavovací web spustíte metodou dvojitého zapnutí. Pokud během prvních 5 
 
 Pozor, napájecí konektor není C.
 
-* * *
-
 *Text i program vznikly s pomocí AI.*

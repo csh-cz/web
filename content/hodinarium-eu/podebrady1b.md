@@ -17,15 +17,11 @@ Nejnovější atrakcí poděbradských lázní je květinový orloj. Ale tou atr
 
 Benj. J., Lázně Poděbrady 1937, č. 21
 
-* * *
-
 ## Jsem rodilá Poděbraďačka
 
 Jsem rodilá Poděbradačka, otec byl správcem městské elektrárny více než 20 let, většina veřejného osvětlení je ještě památka na něho. Po jednom našem rodinném výletu jsme v Žitavě objevili květinové hodiny. Jsou tam ještě, ale nejsou tak pěkné, jako ty naše. Otce tak zaujaly, že začal o nich přemýšlet a se svými pracovníky z elektrárny plánovali sestrojení také takových hodin v Poděbradech. Nevím už dnes přesně, který rok to byl, tak nějak kolem roku 1930–1935. Všechno vyrobili v elektrárně sami, i hodinový stroj. Po jejich osázení květinami jsme přišli na nápad doplnit je trpaslíkem, který by oznamoval hostům přesný čas. Byl to můj trpaslík, který stál u nás v elektrárně na zahrádce. Byl to můj miláček, ale u hodin jsem ho viděla ještě raději, zvláště když se podařilo zřídit i tu jeho "klepací" ručičku…
 
 Ze vzpomínek paní Vrátné 1997
-
-* * *
 
 ## Trpaslíček
 
@@ -37,8 +33,6 @@ Trpaslíčka však dobrá duše zachránila a případný návrat po drobné opr
 
 Miroslav Malovec, Poděbradské noviny 1996
 
-* * *
-
 ## Zajímavost okresu - Trpaslíček opět odbíjí správný čas
 
 **M**alý litinový trpaslíček odbíjející každou celou hodinu kladívkem na velkou červenou muchomůrku, už zase patří Poděbradům a jejich květinovým hodinám v lázeňském parku… Prohlížíme-li si staré pohlednice s květinovými hodinami, zjistíme, že se od dob svého vzniku příliš nezměnily, zato velkých změn doznal okolní park. K nim patřila i ta, že na počátku 60. let nenápadně a neznámo kam zmizel i malý trpaslíček, jako oběť nesmiřitelného boje proti kýči, jehož symbolem se stal. Nahradilo ho tehdy rudé srdce na žulovém hranolu a okolní park zaplnily umělecky hodnotné plastiky.
@@ -47,15 +41,11 @@ Miroslav Malovec, Poděbradské noviny 1996
 
 Jana Hrabětová, Nymbursko 1997
 
-* * *
-
 **K**větinové hodiny odměřují náš čas dodnes. Jejich podoba byla však rok od roku nová, daná fantazií zahradníků. Budovatelské období však vyžadovalo budovatelské činy, a tak asi nezbyl čas na každodenní vysazování aktuálního data. Nicméně hodiny přežily v tradiční podobě až do roku 2006.
 
 **T**rpaslík to měl těžší. Neublížila mu válka ani řádění Hitlerovy mládeže. Přišla však nová doba. Bylo třeba zatočit se vším starým a nastolit nové pokrokové. Kupodivu trpaslík nebyl hned na první ráně. Ještě v neblahých padesátých letech tloukl odvážně do červené hlavy muchomůrky před nadšenými davy dětí s maminkami, pro něž to byl někdy s nanukem v čokoládě z Jitřenky na Valech a vyfotografováním před hodinami, vrcholný nedělní zážitek (musím podotknout, že děti z tohoto zážitku nevyšly pro svůj další vývoj, co se týká vnímání umění, nikterak poznamenané). Se svým kladívkem a odhodlaností však jakoby se vysmíval vlažnému budovatelskému úsilí. Nepřežil. Nějaký čas byl uschován v technických službách než ho za složenou kauci vysvobodila paní Anna Vodičková a poskytla mu politický azyl na své horské chalupě. Díky její "disidentské" akci nabyl trpaslíček nových sil, aby mohl po šedesáti letech 9. května 1997 o jedenácté hodině začít znovu kladívkem měřit čas vedle květinových hodin.
 
 **T**ak činil až do nástupu nových budovatelů, nositelů nových estetických hodnot pokládaných snad pouze jimi samými za ty nejsprávnější. A historie se opakuje. Trpaslíček opět nesmí odvádět pozornost od UMĚNÍ, a tak musí zase ustoupit, tentokrát srdcím třem. Právní řád zná termín vydržení, za starých dob se říkalo vysezené právo. Trpaslík si právo na své místo u hodin vystál. Bojovat za ně však ve svém věku už neměl sil. A co jeho zastánci? Ti se o jeho novém nedůstojném umístění dozvěděli ve chvíli, kdy bylo hotovo. Tříštivé síle nápadů budovatelů nového parku nakonec neodolaly ani hodiny. A opět jako bychom slyšeli, že nová doba si žádá nové činy. Jak by ne, na zažitá hesla se nezapomíná.
-
-* * *
 
 ## Vlk se nenažral a koza nezůstala celá
 
@@ -72,7 +62,5 @@ Jana Hrabětová, Nymbursko 1997
 PS: Zdá se, že se vlk v blízké době dosyta nažere, neboť díky místu kde trpaslík stojí a díky pověstné bdělosti městské policie dojde brzy úhony ze strany vandalů.
 
 Miroslav Malovec, Občas na rynku, před komunálními volbami 2006
-
-* * *
 
 [Další informace](/clanky/podebrady2)

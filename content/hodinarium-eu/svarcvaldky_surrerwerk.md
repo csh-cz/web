@@ -33,11 +33,7 @@ Na levém snímku vlevo dole je za řetězovým kolem vidět kolíkové kolo. Za
 
 Na prostředním snímku je vidět střídné kolo se spouštěcími palci. Je jich 8, neboť střídné kolo se otočí jedenkrát za dvě hodiny. Dále jsou vidět vačky na minutovém kole a na pomocném kole, na které doléhají páky posouvající hřídele palců.
 
-* * *
-
 Také jicí stroj má nějaké zvláštnosti. Na prvním místě zaujme různý druh pohonu u jicího a bicího stroje. Zatímco bicí stroj je poháněn klasicky řetízkem, jicí stroj má bubínek, patrně k navinutí závěsného lanka závaží. Toto uspořádání se používalo u hodin s osmidenním chodem. *Protože máme k dispozici jen fotografie, nedokážeme jicí stroj blížeji určit. Nepodařilo se odhalit ani způsob natahování, respektive navíjení závěsu jicího závaží.* Nicméně rozdílnost pohonů je velmi neobvyklá a viděl jsem ji jen u tohoto stroje.
-
-* * *
 
 Použití surrerwerku nebylo omezeno jen na "švarcwaldky". Je použit i na elektrickém bicím stroji Brilie ( [decin\_bici\_stroje.htm](/clanky/decin_bici_stroje) ), použil ho třeba i hodinář Prošek ze Sobotky u pedlovek. Tyto pendlovky jsou na posledních snímcích.
 

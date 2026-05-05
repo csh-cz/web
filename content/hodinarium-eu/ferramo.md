@@ -18,8 +18,6 @@ V elektricky natahovaných hodinách se silnějším motorem bývá problém ve 
 
 Funkce motoru je založena na točivém magnetickém poli v jeho vzduchové mezeře. Použitý motor patří k těm konstrukčně nejjednodušším asynchronním motorům. V podobném provedení známe indukční motor z elektroměrů. Objev rotujícího magnetického, které bylo podmínkou pro vznik indukčního motoru byl doprovázen sporem o autorství. Galileo Ferraris i Nikola Tesla se oba touto problematikou zabývali a možná došli k objevu nezávisle. Je možné, že Ferraris svůj objev odložil, protože ho považoval za nevhodný k využití. První pokusný motor Ferrarise se nezachoval. Na obrázku vidíte repliku.
 
-* * *
-
 Několik fotografií motoru Ferraris použitého pro natahování hodin. Všimněte si jemné regulace setrvačky pomocí vačky. Regulaci lze provádět i ze strany ciferníku.
 
 [![Zenith - ferraris](/img/elektrika/ferraris1.jpg)](/img/elektrika/ferraris1.jpg)

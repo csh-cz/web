@@ -92,8 +92,6 @@ Svítily a již opět svítí i ciferníky Staroměstské radnice
 
 **O** tom, že svítící hodiny nalezneme na každém kroku, svědčí i následující ukázka. **Hodiny v zapalovači**. Možná slouží ke kontrole, jak často si člověk zapálí cigaretu. Možná je to nutná pomůcka žháře. Vhodné jsou zajisté i pro běžné použití například pro obsluhu benzinových pump nebo v muničních skladech. Zlí jazykové tvrdí, že podobné osvětlení se používalo i u "Zlaté kapličky" .
 
-* * *
-
 ![](/img/elektrika/svitici/zapalovac_hodiny.jpg)**S**e svítícími hodinami se setkáme i na dalších místech značně netradičních. Citujme z "Ilustrovaného přehledu hodinového" firmy Max Böhnel z roku 1911:
 
 - *Nejnovější **hodiny s krucifixem**, as 75 cm vysoké, **s věčným světlem (červenou lampičkou)**. S nádherným pozlaceným dřevěným křížem a dvěma svatými figurami, s dobře jdoucím hodinovým strojem aneb se strojkem hrajícím svaté písně....K18.*

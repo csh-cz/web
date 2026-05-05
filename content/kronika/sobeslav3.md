@@ -24,11 +24,7 @@ Nalezené součásti byly nejprve rozneseny po místnosti. Vybrány byly části
 
 **N**ávrh byl schválen a díky restaurátorskému ateliéru manželů Skálových můžete i vy vidět sestavený stroj ve Věžním muzejíčku.
 
-* * *
-
 [Fotografie z výstavy](/clanky/vez1) v roce 2010 také najdete na našich stránkách.
-
-* * *
 
 ## Zatím ještě špinavý pták Fénix vstává z popela
 
@@ -78,8 +74,6 @@ ručkové stroje a kladky
 Tak a teď to zase pěkně rozebrat a může se začít s restaurováním. Vlastně ne, ještě změřit.
 
 a poslední foto
-
-* * *
 
 Hlavní stoj má základnu přibližně: 90 x 75 cm, výšku 142 cm
 Čtvrťový bicí: 70 x 37 cm, výška 90 cm

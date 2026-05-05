@@ -10,8 +10,6 @@ tldr: "Virtuální muzeum má tu výhodu, že může některé své exponáty p�
 ---
 **V**irtuální muzeum má tu výhodu, že může některé své exponáty přímo virtuálně šířit. V této části najdete jednak programy našich "klubáků" a různé převzaté programy (pokud autoři takovéto šíření dovolují) a jednak rozličné katalogy.
 
-* * *
-
 **PROGRAMY**
 
 **V**lajkovou lodí jsou **počítačové kukačky 1.0 Beta** pana Michala Špačka (Giovanni) Program vytvoří v počítači virtuální bicí hodiny, které stejně jako hodiny věžní, dokáží "odbíjet čas". Na výběr je pět různých gongů, cimbálů či zvonů včetně klasického zvuku "kukaček". Nastavit lze odbíjení v celou hodinu jednou nebo tolikrát, kolik je hodin. Lze nastavit odbíjení na konkrétní minuty. Dostupný je i **"Big Ben mód"**, který napodobuje chování zvonů Big Ben v Londýně. Viz [www.giovannisoft.cz](http://web.archive.org/web/20170627153127/http://www.giovannisoft.cz/)
@@ -21,8 +19,6 @@ tldr: "Virtuální muzeum má tu výhodu, že může některé své exponáty p�
 **Z** jiného soudku je freeware program **METRONOM v1.0 (25.7.2002)** od *©[Carrot](mailto:carrot@iol.cz) 2002*. Jak již název napovídá, na vašem počítači se vytváří virtuální metronom. Program umožňuje nastavit tempo, hlasitost, počet úderů s / bez zdůraznění 1. doby. V pokročilém nastavení lze navíc vybrat, případně doplnit zvukové soubory pro první a ostatní doby.
 
 [Stáhnout](download/metronom_v1_0.exe) v1 0.4 MB
-
-* * *
 
 **KATALOGY**
 
@@ -38,8 +34,6 @@ tldr: "Virtuální muzeum má tu výhodu, že může některé své exponáty p�
 
 - 7art Cheerful Clock ScreenSaver ke stažní ztřeba [zde
     ](http://www.download3k.com/DownloadLink1-7art-Cheerful-Clock-ScreenSaver.html)Výtvarně zajímavý "šetřič", který zobrazuje mnoho různých hodinových kreací.
-
-* * *
 
 **Různé**
 

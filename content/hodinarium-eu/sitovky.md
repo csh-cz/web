@@ -41,8 +41,6 @@ Rozmanitost hodin firmy METAMEC inspiruje k tvorbě specializovaných sbírek. I
 
 ![Metamec Model 856](/img/elektrika/metamec/metamec_model856b.jpg)
 
-* * *
-
 **Ji**ž jsme uvedli [mluvící hodinky](/clanky/mluvici1895) z roku 1895. Tentokrát to budou
 
 **Tlampačohodiny Rufa Sprechanlagen** **z roku 1956** (Uhr - Lautsprecher)

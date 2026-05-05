@@ -63,6 +63,4 @@ Stále se hledaly cesty, jak synchronizovaný systém pokrýt co největší úz
 
 Synchronizaci času dnes nabízí i **internet** (NTP servery) a navigační družicové systémy. I počet věžních hodin synchronizovaných GPS signálem stále roste — pohyb mechanického přesného stroje Elektročas z roku 1959, řízeného rukama orlojníka v děčínském zámku, je možné synchronizovat GPS signálem z kosmu pomocí korekčního zařízení.
 
-* * *
-
 *Text byl původně zpracován jako úvodní informační panel expozice elektromechanických hodin v Hodináriu Děčín (2017). Pro publikaci na webu lehce upraveno; OCR transkripce panelů je k dispozici v `zdroje/panely/transkripce.md`.*

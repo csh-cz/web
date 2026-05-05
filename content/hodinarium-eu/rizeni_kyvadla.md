@@ -46,8 +46,6 @@ Posuv trimovacího závažíčka zajišťuje **krokový motor 28BYJ-48** řízen
 
 Při změně směru otáčení se automaticky přidá několik kompenzačních kroků (např. 5) pro překonání mechanické vůle převodového systému, tzv. **backlash**.
 
-* * *
-
 ### Řešení hardwarových úskalí
 
 Pro zachování dlouhodobé přesnosti bylo třeba vyřešit dvě klíčové věci:
@@ -60,8 +58,6 @@ Pro zachování dlouhodobé přesnosti bylo třeba vyřešit dvě klíčové vě
 
 2. **Stabilní I²C komunikace**
     RTC DS3231 komunikuje po sběrnici I²C. ESP8266 neumožňuje na všech pinech aktivovat interní pull-up rezistory, které navíc mají příliš vysokou hodnotu. Proto musely být přidány externí pull-up odpory 4k7 na SDA i SCL. Zároveň bylo nutné zvolit nekolizní piny – například GPIO0 (SDA) a GPIO5 (SCL). V programovacím přípravku tyto piny způsobovaly chyby. Program mohl být zkoušen až po vložení ESP8266 do celého systému.
-
-* * *
 
 ### **Technické detaily**
 
@@ -98,8 +94,6 @@ Posun závaží
 
 GPIO12, 13, 14, 16
 
-* * *
-
 ## Úvaha o dalších vlivech na přesnost systému
 
 ### Měření periody
@@ -113,8 +107,6 @@ Kyvadlo často nemá přesně symetrický chod – tzv. „kulhá”. To znamen�
 Pokud je ale rozdíl výrazný (např. 5 ms mezi směry), dochází k mírnému rozptylu v měření, protože infra čidlo nemusí reagovat zcela přesně v každém směru (např. kvůli různé odrazivosti odrazivé plochy při různém osvětlení).
 
 (Na obrázku je záznam měření na značně kulhajícím metronomu..)
-
-* * *
 
 ### **Budoucí možné rozšíření**
 

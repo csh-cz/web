@@ -12,8 +12,6 @@ Zvonařská expozice Věžního muzejíčka je logickým důsledkem existence mu
 
 V[![cimbýly zdola](/img/vez/cimbaly/cimbaly_vez_zdola.jpg)](/img/vez/cimbaly/f/cimbaly_vez_zdola.jpg) činnosti jsou pouze cimbály věžních hodin v prostoru pod druhou bání. Tam však prohlídková trasa nevede a není mnoho lidí, kteří vůbec vědí, kde cimbály jsou. Při vhodném osvětlení nízkým Sluncem je můžeme v lucerně spatřit. Fotografie vlevo je pořízená již z prostoru báně.
 
-* * *
-
 Nalezli a vystavili jsme mnoho zbytků kování, závěsů a starých ložisek ze zvonů původně zavěšených ve zdejší věž. Některá kování jsem vystavili na maketu závěsu zvonů. Nalezli jsme i pozůstatky závěsu zvonu pořízeného pro sousední kostel sv. Víta. Na obrázku vpravo je deska s věnováním. Po kliknutí se zobrazí v restaurovaném stavu.![deska zvon 2](/img/vez/zvony/f/deska_zvon2.jpg)
 
 *( Nápis na závěsu hlásá:
@@ -22,19 +20,13 @@ Nalezli a vystavili jsme mnoho zbytků kování, závěsů a starých ložisek z
 1912 věnován kostelu sv. Víta v Soběslavi na paměť Karla a Marie
 svob. pánů Spens z Boodenů. + 1869 a + 1878. )*
 
-* * *
-
 ![litinovy zaves](/img/vez/zvony/f/litinovy_zaves.jpg)
 
 Díky zapůjčování dalších exponátů zvonařské techniky se daří expozici nadále rozšiřovat. Příkladem může být litinový závěs se zalomenou osou otáčení a překlápěcími ložisky pocházející z kostela sv. Imricha v obci Báb (okres Nitra) zobrazený na snímku vlevo.
 
 ![kozipatro](/img/vez/zvony/f/kozipatro.jpg)
 
-* * *
-
 V další části se představuje zvonařská technologie. Přesto, že v roce 2011 je část práce zvonařské dílny vystavena v Knihkupectví U sv. Víta v Soběslavi (Výstava "I zvony mají duši"), zůstává dost exponátů i ve věži. Jedná se zejména o licí formy v různém stádiu vzniku. Expozice je doplněna počítačovou prezentací fotografií z vlastního odlévání zvonů.
-
-* * *
 
 ## Nové zvony ve věži
 
