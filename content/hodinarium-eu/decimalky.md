@@ -67,7 +67,7 @@ Převod internetového času na místní pásmový čas můžete zkusit pomocí 
 *** ***@** ****
 
 GMT Londýn LisabonGMT+1 Praha, Paříž, ŘímGMT+2 Atény Istambul KáhiraGMT+3 Moskva KuvajtGMT+4 Baku Kábul KaráčíGMT+5 TaškentGMT+6 Alma-Ata NovosibirskGMT+7 Bangkok HanojGMT+8 Peking SingapurGMT+9 Tokio SoulGMT+10 Vladivostot SydnyGMT+11 Šalamounovy ostrovyGMT+12 WellingtonGMT-11 SamolaGMT-10 Havajské ostrovyGMT-9 AljaškaGMT-8 Los AngelesGMT-7 DenverGMT-6 ChicagoGMT-5 New YorkGMT-4 CaracasGMT-3 Rio de JaneiroGMT-2 Střední AtlantikGMT-1 Azory Kapverdy
-\--letni čas
+— letní čas
 
 **Odkazy**
 

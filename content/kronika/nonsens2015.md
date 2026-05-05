@@ -76,8 +76,8 @@ Po kliknutí na fotografii se otevře okno se zvětšeninou a objeví se i vysv�
 
 Nejen chlebem je živ člověk. I duševní stravu potřebuje. Při prohlížení webu [ateo.cz](http://ateo.cz/pg/home/) nás zaujalo veliké množství úžasných fotokoláží. S laskavým dovolením autora jich několik souvisejících s hodinářskou tématikou uvádíme s původním komentářem. Sympatické je i motto uvedené na serveru:
 
-[Nelze-li něco vysvětlit pomocí­ Murphyho zákonů, pak TO neexistuje.
-Pokud TO navzdory výše uvedenému tvrzení­ existuje, ignorujte TO. (aTeo)](http://ateo.cz/t/14-ad-absurdum/)
+[Nelze-li něco vysvětlit pomocí Murphyho zákonů, pak TO neexistuje.
+Pokud TO navzdory výše uvedenému tvrzení existuje, ignorujte TO. (aTeo)](http://ateo.cz/t/14-ad-absurdum/)
 
 ![Fotografie 1](/img/nonsens2015/aTeo/f/foto_0001.jpg)
 
