@@ -1,38 +1,78 @@
 ---
 /**
- * Breadcrumbs — drobečková navigace.
+ * Breadcrumbs — drobečková navigace + JSON-LD BreadcrumbList.
  *
  * Sjednocuje 5 dříve duplikovaných implementací (Article.astro,
  * sbirka/karta/[slug].astro, kronika/[slug].astro, hodinari/[slug].astro,
- * tagy/[tag].astro). CSS bylo identické ~13 řádků na každé page.
+ * kroky/[slug].astro, tagy/[tag].astro). CSS žije v `global.css`
+ * (`.breadcrumbs`), takže vyhmatané duplikáty v scoped <style> bloky pryč.
+ *
+ * Crumb props:
+ *   - label   : zobrazený text (povinný)
+ *   - href    : když je nastavený, vykreslí <a>; bez něj <span class="current">
+ *   - soft    : separátor PŘED touto položkou je "·" místo "›" (sub-view, ne další úroveň)
+ *   - dim     : ztlumený intermediate label (např. dimenze "Lokality" v /tagy)
+ *               — bez href, bez current — vypadne i z JSON-LD BreadcrumbList
  *
  * Použití:
  *   <Breadcrumbs trail={[
  *     { href: '/', label: 'Hodinárium' },
  *     { href: '/sbirka', label: 'Sbírka' },
- *     { label: 'Soustrojí Prokeš 1868' },  // current — bez href
+ *     { href: '/sbirka/katalog', label: 'Katalog', soft: true },
+ *     { label: 'Soustrojí Prokeš 1868' },  // current
  *   ]} />
  *
- * Poslední položka v trail (bez href) je current page (aria-current).
+ * JSON-LD: zahrnuje jen položky bez `dim`. Soft položky (sub-view) tam
+ * jsou taky — pro Google jsou to validní úrovně. Vypneš přes noJsonLd.
  */
 
 interface Crumb {
   label: string;
   href?: string;
+  soft?: boolean;
+  dim?: boolean;
 }
 
 interface Props {
   trail: Crumb[];
+  /** Vynechat JSON-LD BreadcrumbList (homepage / kosmetické breadcrumbs). */
+  noJsonLd?: boolean;
 }
 
-const { trail } = Astro.props;
+const { trail, noJsonLd = false } = Astro.props;
+
+// JSON-LD BreadcrumbList — Google rich snippets.
+// Filtrujeme dim crumbs (nejsou to skutečné úrovně), ostatní vč. soft zachováváme.
+const site = Astro.site ?? new URL('https://hodinarium-eu.pages.dev');
+const ldItems = trail
+  .filter((c) => !c.dim)
+  .map((c, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: c.label,
+    ...(c.href && { item: new URL(c.href, site).toString() }),
+  }));
+
+const jsonLd =
+  !noJsonLd && ldItems.length >= 2
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: ldItems,
+      }
+    : null;
 ---
+{jsonLd && (
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+)}
 <nav class="breadcrumbs" aria-label="Drobečková navigace">
   {trail.map((crumb, i) => (
     <>
-      {i > 0 && <span aria-hidden="true">›</span>}
+      {i > 0 && <span aria-hidden="true">{crumb.soft ? '·' : '›'}</span>}
       {crumb.href ? (
         <a href={crumb.href}>{crumb.label}</a>
+      ) : crumb.dim ? (
+        <span class="bc-dim">{crumb.label}</span>
       ) : (
         <span class="current" aria-current="page">{crumb.label}</span>
       )}

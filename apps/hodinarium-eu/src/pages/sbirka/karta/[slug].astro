@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import JsonLd from '../../../components/JsonLd.astro';
 import KartaSbirky from '../../../components/KartaSbirky.astro';
 import ArticleImageBehavior from '../../../components/ArticleImageBehavior.astro';
@@ -77,15 +78,12 @@ const kartaJsonLd = {
   cmsEditUrl={`/admin/#/collections/karty/entries/${entry.data.slug}`}
 >
   <JsonLd data={kartaJsonLd} />
-  <nav class="breadcrumbs" aria-label="Drobečková navigace">
-    <a href="/">Hodinárium</a>
-    <span aria-hidden="true">›</span>
-    <a href="/sbirka">Sbírka</a>
-    <span aria-hidden="true">·</span>
-    <a href="/sbirka/katalog">Katalog</a>
-    <span aria-hidden="true">›</span>
-    <span class="current" aria-current="page">{entry.data.title}</span>
-  </nav>
+  <Breadcrumbs trail={[
+    { href: '/', label: 'Hodinárium' },
+    { href: '/sbirka', label: 'Sbírka' },
+    { href: '/sbirka/katalog', label: 'Katalog', soft: true },
+    { label: entry.data.title },
+  ]} />
 
   <article class="karta-detail" itemscope itemtype="https://schema.org/CreativeWork">
     <header class="karta-detail-header">
@@ -144,19 +142,7 @@ const kartaJsonLd = {
 </Base>
 
 <style>
-  .breadcrumbs {
-    font-size: 0.9rem;
-    color: var(--color-text-muted);
-    margin-bottom: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    align-items: baseline;
-  }
-  .breadcrumbs a { color: var(--color-text-soft); border-bottom: none; }
-  .breadcrumbs a:hover { color: var(--color-brass-bright); }
-  .breadcrumbs .current { color: var(--color-text-soft); font-style: italic; }
-  .breadcrumbs span[aria-hidden] { color: var(--color-brass); opacity: 0.5; }
+  /* .breadcrumbs CSS žije v global.css — sjednoceno přes <Breadcrumbs> component */
 
   .karta-detail {
     max-width: 72ch;

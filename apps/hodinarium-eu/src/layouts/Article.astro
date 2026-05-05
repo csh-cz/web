@@ -1,8 +1,10 @@
 ---
 import Base from "./Base.astro";
+import Breadcrumbs from "../components/Breadcrumbs.astro";
 import Card from "../components/Card.astro";
 import JsonLd from "../components/JsonLd.astro";
 import KartaSbirky from "../components/KartaSbirky.astro";
+import { pramenTooltip } from "../utils/referenceTypes";
 import catalog from "../data/catalog.json";
 import { hodinariProClanek } from "../data/hodinari";
 import { krokyProClanek } from "../data/kroky";
@@ -145,18 +147,11 @@ const articleJsonLd = {
 ---
 <Base title={title} description={description} ogImageOverride={ogImageOverride} cmsEditUrl={cmsEditUrl}>
   <JsonLd data={articleJsonLd} />
-  <!-- Breadcrumbs -->
-  <nav class="breadcrumbs" aria-label="Drobečková navigace">
-    <a href="/">Hodinárium</a>
-    <span aria-hidden="true">›</span>
-    {category && (
-      <>
-        <a href={`/${category}`}>{categoryLabel(category, 'long')}</a>
-        <span aria-hidden="true">›</span>
-      </>
-    )}
-    <span class="current" aria-current="page">{title}</span>
-  </nav>
+  <Breadcrumbs trail={[
+    { href: '/', label: 'Hodinárium' },
+    ...(category ? [{ href: `/${category}`, label: categoryLabel(category, 'long') ?? category }] : []),
+    { label: title },
+  ]} />
 
   <article class="article-single" itemscope itemtype="https://schema.org/Article">
     <meta itemprop="inLanguage" content="cs" />
@@ -226,7 +221,7 @@ const articleJsonLd = {
         <h2 id="references-heading" class="references-title">Literatura a odkazy</h2>
         <ul class="references-list" data-style={referenceStyle}>
           {references.map((r, i) => (
-            <li id={`ref-${i + 1}`} class={`reference reference-${r.type ?? 'odkaz'}`}>
+            <li id={`ref-${i + 1}`} class={`reference reference-${r.type ?? 'odkaz'}`} title={pramenTooltip(r.type)}>
               {r.author && <span class="ref-author">{r.author}:</span>}
               {r.url
                 ? <a href={r.url} rel="noopener" target="_blank">{r.title}</a>
@@ -277,30 +272,7 @@ const articleJsonLd = {
 </Base>
 
 <style>
-  .breadcrumbs {
-    font-size: 0.9rem;
-    color: var(--color-text-muted);
-    margin-bottom: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    align-items: baseline;
-  }
-  .breadcrumbs a {
-    color: var(--color-text-soft);
-    border-bottom: none;
-  }
-  .breadcrumbs a:hover {
-    color: var(--color-brass-bright);
-  }
-  .breadcrumbs .current {
-    color: var(--color-text-soft);
-    font-style: italic;
-  }
-  .breadcrumbs span[aria-hidden] {
-    color: var(--color-brass);
-    opacity: 0.5;
-  }
+  /* .breadcrumbs CSS žije v global.css — sjednoceno přes <Breadcrumbs> component */
 
   .article-single {
     max-width: 72ch;
