@@ -26,6 +26,48 @@
     -->
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
     <script>
+      // "← Zpět na web" trvalý overlay v rohu CMS.
+      //
+      // Editor často chce odejít z CMS bez uložení (jen se podíval, omylem
+      // klikl, atd.). Sveltia samo nemá viditelné "exit to site" tlačítko —
+      // navigace zpět vyžaduje buď uložit článek, nebo manuálně přepsat URL.
+      //
+      // Tenhle overlay je floating button vlevo nahoře (mimo Sveltia chrome),
+      // klik = okamžitý přechod na původní stránku (sessionStorage
+      // `cms-return-url` co Base.astro uloží před navigací do CMS), nebo na
+      // homepage, pokud editor přišel přímo přes /admin/.
+      (function () {
+        const btn = document.createElement('a');
+        btn.id = 'cms-back-to-site';
+        let returnUrl = '/';
+        try { returnUrl = sessionStorage.getItem('cms-return-url') || '/'; } catch {}
+        btn.href = returnUrl;
+        btn.textContent = '← Zpět na web';
+        btn.title = 'Opustit CMS bez uložení a vrátit se na ' + returnUrl;
+        btn.style.cssText =
+          'position:fixed;top:.6rem;left:.6rem;z-index:99998;' +
+          'background:#1a1a1a;color:#e8d8a8;text-decoration:none;' +
+          'padding:.45rem .85rem;border-radius:2rem;' +
+          'border:1px solid #c9a85d;box-shadow:0 2px 8px rgba(0,0,0,.4);' +
+          'font:500 13px/1.2 ui-serif,Georgia,serif;letter-spacing:.02em;' +
+          'transition:all 150ms ease;cursor:pointer';
+        btn.addEventListener('mouseenter', () => {
+          btn.style.background = '#c9a85d';
+          btn.style.color = '#1a1a1a';
+        });
+        btn.addEventListener('mouseleave', () => {
+          btn.style.background = '#1a1a1a';
+          btn.style.color = '#e8d8a8';
+        });
+        // Při kliku zahodit case sessionStorage hodnotu, aby se po další
+        // návštěvě CMS nebrala stará URL.
+        btn.addEventListener('click', () => {
+          try { sessionStorage.removeItem('cms-return-url'); } catch {}
+        });
+        document.body.appendChild(btn);
+      })();
+    </script>
+    <script>
       // Návrat na původní stránku po Save / Cancel.
       //
       // Pokud editor byl otevřen kliknutím na floating "Upravit" na detail
