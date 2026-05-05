@@ -293,6 +293,7 @@ const veznihodinaPramen = z.object({
   citace: z.string().optional(),                    // ISO 690 plain text
   autor: z.string().optional(),
   rok: z.union([z.number(), z.string()]).optional(),
+  type: z.enum(['kniha', 'clanek', 'pdf', 'odkaz', 'wiki', 'mapa', 'patent', 'archiv', 'zprava']).optional(),
 });
 
 const soupisVeznichHodin = defineCollection({
