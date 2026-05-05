@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:38.565Z"
 tldr: 'Zvonařská expozice Věžního muzejíčka je logickým důsledkem existence muzejíčka ve věži. Jednak proto, že zvony k naší věži patří jižnejméně 800 let a jednak proto, že zvony zřetelně nesou stopy po minulém vývoji.…'
 ---
-Zvonařská expozice Věžního muzejíčka je logickým důsledkem existence muzejíčka ve věži. Jednak proto, že [**zvony k naší věži patří**](/clanky/zvon_petr_pavel) **již****nejméně 800 let** a jednak proto, že zvony zřetelně nesou stopy po minulém vývoji. Ve věži existuje zvonicí stolice pro nejméně 5 zvonů. Po rekvírování zvonů roku 1941 je zavěšen jen zvon jeden, zvon Petr Pavel. Prakticky se však na něj dnes stejně nezvoní. [Více o zvonech a cimbálech ve věži](/clanky/zvon_petr_pavel) v samostatné stránce.
+Zvonařská expozice Věžního muzejíčka je logickým důsledkem existence muzejíčka ve věži. Jednak proto, že [**zvony k naší věži patří**](/clanky/zvon_petr_pavel) **již** **nejméně 800 let** a jednak proto, že zvony zřetelně nesou stopy po minulém vývoji. Ve věži existuje zvonicí stolice pro nejméně 5 zvonů. Po rekvírování zvonů roku 1941 je zavěšen jen zvon jeden, zvon Petr Pavel. Prakticky se však na něj dnes stejně nezvoní. [Více o zvonech a cimbálech ve věži](/clanky/zvon_petr_pavel) v samostatné stránce.
 
 V[![cimbýly zdola](/img/vez/cimbaly/cimbaly_vez_zdola.jpg)](/img/vez/cimbaly/f/cimbaly_vez_zdola.jpg) činnosti jsou pouze cimbály věžních hodin v prostoru pod druhou bání. Tam však prohlídková trasa nevede a není mnoho lidí, kteří vůbec vědí, kde cimbály jsou. Při vhodném osvětlení nízkým Sluncem je můžeme v lucerně spatřit. Fotografie vlevo je pořízená již z prostoru báně.
 

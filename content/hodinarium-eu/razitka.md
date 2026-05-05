@@ -14,7 +14,7 @@ Zdálo by ce, že okamžik vzniku či změně nějakého dokumentu dostatečně 
 
 **P**rincip celého procesu vydání časové značky je relativně jednoduchý. Je založen na výpočtu "otisku dat" speciálním klientským softwarem. "Otisk dat" lze vzdáleně přirovnat k výpočtu kontrolního součtu, jen způsob výpočtu je poněkud sofistikovanější. Používá se některý hash algoritmus, proto i výsledek se často označuje jako HASH.
 
-HASH příslušenící k dokumentu je doplněn dalšími údaji do formy žádosti o vydání časové značky, která je následně odeslána autoritě časové značky. Tam je žádost zpracována tak, že k dodanému HASHi je přidán přesný časový údaj a celý tento „balíček“ je elektronicky podepsán privátním klíčem autority časové značky. Tím je zajištěna důvěryhodnost časového údaje. Takto vytvořené časové razítko je doručeno žadateli. Pokud bude do souboru, který je časovým razítkem označen, následně proveden jakýkoliv zásah, změní se také jeho HASH, který již nebude odpovídat původnímu, a časové razítko bude neplatné.
+HASH příslušenící k dokumentu je doplněn dalšími údaji do formy žádosti o vydání časové značky, která je následně odeslána autoritě časové značky. Tam je žádost zpracována tak, že k dodanému HASHi je přidán přesný časový údaj a celý tento „balíček” je elektronicky podepsán privátním klíčem autority časové značky. Tím je zajištěna důvěryhodnost časového údaje. Takto vytvořené časové razítko je doručeno žadateli. Pokud bude do souboru, který je časovým razítkem označen, následně proveden jakýkoliv zásah, změní se také jeho HASH, který již nebude odpovídat původnímu, a časové razítko bude neplatné.
 
 !
 
@@ -48,12 +48,12 @@ policy
 
 **Několik zajímavých odkazů:**
 
--   business.center.cz/business/pravo/zakony/epodpis/cast1.aspx
+- business.center.cz/business/pravo/zakony/epodpis/cast1.aspx
     **Zákon o elektronickém podpisu**
--   crypto-world.info/pravo/podpis/pravo/496\_04.htm
+- crypto-world.info/pravo/podpis/pravo/496\_04.htm
     **Vyhláška o elektronických podatelnách**
--   [interval.cz/clanky/elektronicke-casove-razitko-doplnek-elektronickeho-podpisu](http://interval.cz/clanky/elektronicke-casove-razitko-doplnek-elektronickeho-podpisu) Elektronické časové razítko, doplněk elektronického podpisu - obsáhlý článek na Interval.cz
--   [vsol.obce.cz/clanek.asp?id=2006111](http://vsol.obce.cz/clanek.asp?id=2006111)Časové razítko - krátký článek na obce.cz
+- [interval.cz/clanky/elektronicke-casove-razitko-doplnek-elektronickeho-podpisu](http://interval.cz/clanky/elektronicke-casove-razitko-doplnek-elektronickeho-podpisu) Elektronické časové razítko, doplněk elektronického podpisu - obsáhlý článek na Interval.cz
+- [vsol.obce.cz/clanek.asp?id=2006111](http://vsol.obce.cz/clanek.asp?id=2006111)Časové razítko - krátký článek na obce.cz
 
 * * *
 

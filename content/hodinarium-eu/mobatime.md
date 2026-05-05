@@ -20,15 +20,15 @@ Základní dodávka HN 61 obsahuje:
 
 Hlavní hodiny vhodné pro řízení malých systémů jednotného času.
 
--   včetně externí GPS antény (kabel 5m) pro synchronizaci
+- včetně externí GPS antény (kabel 5m) pro synchronizaci
     ( přesnost bez synchonizace ± 0,1 s / den, se synchronizací ± 10 ms)
--   jedna podružná linka 24 V / 150 mA
--   1x programovatelný reléový kontakt (např. spínání osvětlení v závislosti na astronomickém kalendáři pro zadané zeměpisné souřadnice)
--   výstup pro nabíjení akumulátoru 14 VDC, max. 200 mA
--   výstup 24 VDC, max. 200 mA
--   výstup DCF pro synchronizaci dalších hodin
--   provedení k montáži na lištu DIN (6MD), IP 20
--   napájení 230 V~, 12 nebo 24 VDC
+- jedna podružná linka 24 V / 150 mA
+- 1x programovatelný reléový kontakt (např. spínání osvětlení v závislosti na astronomickém kalendáři pro zadané zeměpisné souřadnice)
+- výstup pro nabíjení akumulátoru 14 VDC, max. 200 mA
+- výstup 24 VDC, max. 200 mA
+- výstup DCF pro synchronizaci dalších hodin
+- provedení k montáži na lištu DIN (6MD), IP 20
+- napájení 230 V~, 12 nebo 24 VDC
 
 Výstupní podružná linka je dosti univerzální. Je volně nastavitelné pro různé způsoby přenosu. Může používat klasické minutové nebo půlminutové polarizované impulzy i sekundové pulzy. V Hodináriu je instalovaná hlavně proto, že může také vysílat kód MOBATIME nebo MOBALine.
 
@@ -60,16 +60,16 @@ Jedná se o univerzální analogové hodiny s průměrem číselníku 28 nebo 40
 
 Varianty provedení (tučně vyznačená zapůjčená varianta)
 
--   číselník o průměru 28 nebo 40 cm
--   nárazuvzdorný termoplast odolný proti UV záření
--   jednostranné hodiny, volba nástěnné montáže nebo montáž stropním závěsem / boční konzolou se zaslepenou zadní stranou
--   dvoustranné hodiny se skládají ze dvou jednostranných a stropního závěsu / boční konzoly z důvodu rušení nelze složit dvoustranné hodiny ze dvou jednostranných s typem strojku R (autonomní hodinový strojek řízený radiosignálem DCF77,5 kHz)
--   konzola lakována ve shodném odstínu se standardní délkou 10, 30 nebo 50 cm
--   automatická změna zimní/letní čas (kromě Quartz strojku)
--   minutové nebo sekundové impulsy
--   autonomní Quartz / DCF strojek
--   synchronizace DCF / MOBALine / samostavitelné pro LAN / WTD
--   napájení bateriové / MOBALine / PoE / 230 VAC
+- číselník o průměru 28 nebo 40 cm
+- nárazuvzdorný termoplast odolný proti UV záření
+- jednostranné hodiny, volba nástěnné montáže nebo montáž stropním závěsem / boční konzolou se zaslepenou zadní stranou
+- dvoustranné hodiny se skládají ze dvou jednostranných a stropního závěsu / boční konzoly z důvodu rušení nelze složit dvoustranné hodiny ze dvou jednostranných s typem strojku R (autonomní hodinový strojek řízený radiosignálem DCF77,5 kHz)
+- konzola lakována ve shodném odstínu se standardní délkou 10, 30 nebo 50 cm
+- automatická změna zimní/letní čas (kromě Quartz strojku)
+- minutové nebo sekundové impulsy
+- autonomní Quartz / DCF strojek
+- synchronizace DCF / MOBALine / samostavitelné pro LAN / WTD
+- napájení bateriové / MOBALine / PoE / 230 VAC
 
 Hodiny bude tedy pohánět strojek SAM – samostavitelný hodinový strojek pro připojení k MOBALine. [Podrobnější technické parametry](https://mobatime.cz/obchod/analogove-hodiny-3218/). Ciferník bude typu C2, tedy se zakreslenými číslicemi.
 

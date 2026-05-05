@@ -20,9 +20,9 @@ FLYING PENDULUM CLOCK bych raději nazýval "**hodiny s přelétavým kyvadlem**
 
 **Další zajímavé odkazy:**
 
--   již zmíněná videa na **[YouTube](http://www.youtube.com/results?search_query=Flying+Pendulum+Clock&search_type=)**
--   Dr. Hugh Grant Rowell Collection
--   Clock Gallery prodejní galerie (může být prodáno)
--   ARDAVÍN (záložka Inatz) Nové výrobky jako z 15. století i s přelétavým kyvadlem. Sice mimo čas, ale pěkné.
--   flash animace stroje
--   The Internet Craftsmanship Museum Presents: [Jerry Kieffer](http://www.craftsmanshipmuseum.com/Kieffer5.htm)
+- již zmíněná videa na **[YouTube](http://www.youtube.com/results?search_query=Flying+Pendulum+Clock&search_type=)**
+- Dr. Hugh Grant Rowell Collection
+- Clock Gallery prodejní galerie (může být prodáno)
+- ARDAVÍN (záložka Inatz) Nové výrobky jako z 15. století i s přelétavým kyvadlem. Sice mimo čas, ale pěkné.
+- flash animace stroje
+- The Internet Craftsmanship Museum Presents: [Jerry Kieffer](http://www.craftsmanshipmuseum.com/Kieffer5.htm)

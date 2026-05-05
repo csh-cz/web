@@ -10,7 +10,7 @@ lastModified: "Sun, 23 Apr 2017 09:50:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:09.529Z"
 ---
-****Hodinárium**** vzniklo začátkem roku 2015 přesunem části hodinářské expozice Českého spolku horologického z [Věžního muzejíčka Soběslav](/clanky/vezni_muzejicko) na Zámek Děčín a postupným doplňováním dalších zapůjčených exponátů. Přesun byl vyvolán postojem současné soběslavské radnice. Expozice tak sice přišla o [nejstarší exponát,](/clanky/vez1) získala však mnohem větší prostory a podporu vedení zámku. Doufáme, že se celý záměr v nových prostorech rychle rozšíří.
+**Hodinárium** vzniklo začátkem roku 2015 přesunem části hodinářské expozice Českého spolku horologického z [Věžního muzejíčka Soběslav](/clanky/vezni_muzejicko) na Zámek Děčín a postupným doplňováním dalších zapůjčených exponátů. Přesun byl vyvolán postojem současné soběslavské radnice. Expozice tak sice přišla o [nejstarší exponát,](/clanky/vez1) získala však mnohem větší prostory a podporu vedení zámku. Doufáme, že se celý záměr v nových prostorech rychle rozšíří.
 
 Při přesunu bylo dost práce, takže nikdo nestačil častěji fotografovat. Drobná série fotografií začíná odjezdem hlavních organizátorů ze Soběslavi. Pomocí několika skupin sympatizantů byly exponáty a materiál postupně sneseny do meziskladu. Podle účastníků lze srovnat snášením rámů strojů po točitém schodišti s vyndaváním ježka z klece. Málokdo věřil tomu, že se vše podaří převézt bez větších ztrát. V Děčíně na zámku za ukázalo, že se to celkem podařilo. Opět zapracovali nadšenci všech věkových kategorií a náklad vynosili až na půdu zámku. Jak vidíte, montáž probíhala i za pomoci zámeckých duchů. Když nám svitlo, byla první část expozice rychle smontována. Přibylo i několik nových exponátů. Do otevření začátkem září 2015 však ještě dost práce zůstává.
 
@@ -151,8 +151,8 @@ Za organizátory ing. Petr Král a ing. Miroslav Baudisch
 
 ## Odkazy
 
--   [Hodiny a hvězdy na zámku](http://www.zamekdecin.cz/web_cz/?p=clanky/hodiny-a-hvezdy-na-zamku&obr=1) — zamekdecin.cz. [cit. 2026-04-28]
--   [Děčínská expozice ukáže, jak naši předkové měřili čas](http://www.novinky.cz/cestovani/tipy-na-vylety/380344-decinska-expozice-ukaze-jak-nasi-predkove-merili-cas.html) — novinky.cz. [cit. 2026-04-28]
--   [Děčínsko-podmokelská vlastivědná společnost](https://www.facebook.com/dpvsdecin/posts/743961309048510) — facebook.com. [cit. 2026-04-28]
--   [Metodický portál - inspirace a zkušenosti učitelů](http://digifolio.rvp.cz/user/view.php?id=1411) — digifolio.rvp.cz. [cit. 2026-04-28]
--   [Novinky od ČTK](http://www.novinky.cz/cestovani/tipy-na-vylety/385676-decinsky-zamek-vystavuje-mechanicke-hodiny-nechybi-ani-bizarni-kousky.html) — novinky.cz. [cit. 2026-04-28]
+- [Hodiny a hvězdy na zámku](http://www.zamekdecin.cz/web_cz/?p=clanky/hodiny-a-hvezdy-na-zamku&obr=1) — zamekdecin.cz. [cit. 2026-04-28]
+- [Děčínská expozice ukáže, jak naši předkové měřili čas](http://www.novinky.cz/cestovani/tipy-na-vylety/380344-decinska-expozice-ukaze-jak-nasi-predkove-merili-cas.html) — novinky.cz. [cit. 2026-04-28]
+- [Děčínsko-podmokelská vlastivědná společnost](https://www.facebook.com/dpvsdecin/posts/743961309048510) — facebook.com. [cit. 2026-04-28]
+- [Metodický portál - inspirace a zkušenosti učitelů](http://digifolio.rvp.cz/user/view.php?id=1411) — digifolio.rvp.cz. [cit. 2026-04-28]
+- [Novinky od ČTK](http://www.novinky.cz/cestovani/tipy-na-vylety/385676-decinsky-zamek-vystavuje-mechanicke-hodiny-nechybi-ani-bizarni-kousky.html) — novinky.cz. [cit. 2026-04-28]

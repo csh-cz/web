@@ -16,14 +16,14 @@ import YouTube from '../../apps/hodinarium-eu/src/components/YouTube.astro';
 
 ## Základní parametry navrhovaných hlavních hodin pro polarizované pulzy do 24V
 
--   Časová synchronizace zajištěna NTP klientem na WiFi. Pro získání času musí být prvotně modul připojený do internetu. Do vypnutí může modul udávat čas s nižší přesností autonomně. Modul provede Scan okolí a umožní vybrat síť a zadat heslo.
--   Pracovní napětí linek 6 - 24 V podle použitého napájecího zdroje. Maximální příkon jedné linky je 25 W. Obvykle je možné připojit minimálně 20 podružných hodin na každou linku.
--   Automatické přepnutí na letní čas (Možnost trvale zvolit GMT.)
--   Ukládání nastaveného času linky do (simulované nebo reálné) EEPROM paměti pro restart po výpadku.
--   Nouzové ruční nastavení času podružných hodin tlačítkem rychlého chodu FAST.
--   Komunikace s modulem prostřednictvím vnitřního webu. K webu se připojíte pomocí WiFi modulu nebo z místní sítě LAN. WiFi modul se hlásí jako síť se jménem obvykle NTPgenMI- plus 4 poslední znaky MAC adresy vysílače, aby bylo možné odlišit různé exempláře.
+- Časová synchronizace zajištěna NTP klientem na WiFi. Pro získání času musí být prvotně modul připojený do internetu. Do vypnutí může modul udávat čas s nižší přesností autonomně. Modul provede Scan okolí a umožní vybrat síť a zadat heslo.
+- Pracovní napětí linek 6 - 24 V podle použitého napájecího zdroje. Maximální příkon jedné linky je 25 W. Obvykle je možné připojit minimálně 20 podružných hodin na každou linku.
+- Automatické přepnutí na letní čas (Možnost trvale zvolit GMT.)
+- Ukládání nastaveného času linky do (simulované nebo reálné) EEPROM paměti pro restart po výpadku.
+- Nouzové ruční nastavení času podružných hodin tlačítkem rychlého chodu FAST.
+- Komunikace s modulem prostřednictvím vnitřního webu. K webu se připojíte pomocí WiFi modulu nebo z místní sítě LAN. WiFi modul se hlásí jako síť se jménem obvykle NTPgenMI- plus 4 poslední znaky MAC adresy vysílače, aby bylo možné odlišit různé exempláře.
     Vybrat lze jméno a zadat heslo sítě, ke které se modul připojuje a základní parametry. Lze nastavit čas zobrazený na podružných hodinách linky pro automatické seřízení linky. Web také zobrazuje posledních 25 řádek protokolu chodu. Parametry, které lze zvolit jsou tyto: SE(L)Č/GMT, 12:00/24:00, STOP chodu, délka pulzu a minimální mezery při rychlém chodu \[v rozsahu 75 - 4000 ms\]. Nastavovací web je chráněn heslem.
--   Pro možnost dálkového sledování je připraven externí monitor.
+- Pro možnost dálkového sledování je připraven externí monitor.
 
 Naše řešení je minimalistické, bez zbytných zobrazovacích a nastavovacích prvků. Používá pouze moduly - řídící jednotku ESP8266 ESP-12F připojenou na WiFi síť pro prvotní získání času a vlastní řízení a výkonový modul s dvojitým H můstkem. Od verze 2 doplněné o EEPROM a step down zdroj. Výhodou je, že H můstek je původně určen pro řízení krokových motorů a proto obsahuje ochranné prvky pro připojení indukční zátěže cívek podružných hodin. ( Modul zároveň napětím 5V může napájet řídící jednotku. ) Pořizovací cena potřebných modulů jen několik málo stokorun.
 
@@ -57,16 +57,16 @@ Na stránce je v hlavičce uvedena MAC adresa bez oddělovacích dvojteček. V b
 
 Kódy stavu jsou následující:
 
--   GO+1, GO-1 = Normální chod; kladný nebo záporný impulz.
+- GO+1, GO-1 = Normální chod; kladný nebo záporný impulz.
     (Signalizují střídavě zelená a modrá LEDka.)
 
--   FAST+1, FAST-1 = Rychlý krok celé linky pro dosažení aktuálního času po výpadku.
+- FAST+1, FAST-1 = Rychlý krok celé linky pro dosažení aktuálního času po výpadku.
 
--   WAIT = Čekání, až aktuální čas dosáhne stavu linky. Používá se maximálně pro odchylku do 60 minut.
+- WAIT = Čekání, až aktuální čas dosáhne stavu linky. Používá se maximálně pro odchylku do 60 minut.
     (Při konci letního času se čeká.)
--   STOP = Linka je zastavena povelem. Slouží například ke změně topologie linky.
+- STOP = Linka je zastavena povelem. Slouží například ke změně topologie linky.
     (V tomto stavu červená LEDka každou minutu krátce blikne.)
--   Všechny stavy - fialová barva značí poruchu EEPROM paměti. Po novém nastavení může impulzer do vypnutí fungovat.
+- Všechny stavy - fialová barva značí poruchu EEPROM paměti. Po novém nastavení může impulzer do vypnutí fungovat.
 
 Další webové tlačítko umožňuje Zastavit nebo Spustit linku. Zastavení se doporučuje například při zadávání opravného stavu linky.
 
@@ -96,16 +96,16 @@ Dobu čekání lze zkrátit vyvoláním režimu PANIKA bez připojování k WiFi
 
 ## Nastavení parametrů
 
--   SE(L)C - nastavení časového pásma; implicitně čas GMT.
--   Cyklus 12:00 Při aktivace hodiny ukazují čas pouze v intervalu 00:00 až 12:00, jinak je cyklus 24 hodin.
--   Opakovat poslední pulz (Tento parametr byl doplněn 5.9.2024 není na obrázku) Způsobí, že při startu zařízení se nejprve opakuje poslední vysílaný polarizovaný impulz. Na opakovaný polarizovaný impulz hodiny podružné hodiny typu Elektročas nereagují. Dojde však ke sjednocení hodin, pokud byly hlavní hodiny vypnuty právě během pulzu. Pokud v síti jsou hodiny reagující na nepolarizované pulzy, je potřeba volbu vypnout.
--   Externí monitor Zapnutí nebo vypnutí vysílání dat pro externí monitor.
--   Délka impulzu v rozmezí 75 až 4000 \[ms\].
--   Délka mezery v rozmezí 75 až 4000 \[ms\]. (Uplatní se pouze při rychlém chodu.)
--   Zadat Tlačítko pro provedení změn.
--   RESTART Tlačítko pro vynucení restartu jednotky.
--   Následují informace o místu a době připojení.
--   Zpět \- návrat na úvodní stránku.
+- SE(L)C - nastavení časového pásma; implicitně čas GMT.
+- Cyklus 12:00 Při aktivace hodiny ukazují čas pouze v intervalu 00:00 až 12:00, jinak je cyklus 24 hodin.
+- Opakovat poslední pulz (Tento parametr byl doplněn 5.9.2024 není na obrázku) Způsobí, že při startu zařízení se nejprve opakuje poslední vysílaný polarizovaný impulz. Na opakovaný polarizovaný impulz hodiny podružné hodiny typu Elektročas nereagují. Dojde však ke sjednocení hodin, pokud byly hlavní hodiny vypnuty právě během pulzu. Pokud v síti jsou hodiny reagující na nepolarizované pulzy, je potřeba volbu vypnout.
+- Externí monitor Zapnutí nebo vypnutí vysílání dat pro externí monitor.
+- Délka impulzu v rozmezí 75 až 4000 \[ms\].
+- Délka mezery v rozmezí 75 až 4000 \[ms\]. (Uplatní se pouze při rychlém chodu.)
+- Zadat Tlačítko pro provedení změn.
+- RESTART Tlačítko pro vynucení restartu jednotky.
+- Následují informace o místu a době připojení.
+- Zpět \- návrat na úvodní stránku.
 
 Pozn. Ke změně voleb dojde až po zpracování v modulu ESP8266. Platné aktivní zatržení je signalizované podbarvením olivovou barvou.
 
@@ -132,14 +132,14 @@ Na videu v režimu nastavení na čas (FAST).
 
 ## Odkazy
 
--   [Witty Cload Module Adapter Board](https://www.instructables.com/Witty-Cloud-Module-Adapter-Board/) — Instructables. [cit. 2026-04-28]
--   Vývojový modul ESP8266 ... eshop
--   [O ESP32 a ESP8266](https://www.root.cz/clanky/esp32-je-tu-co-prinese-nastupce-esp8266/) — Root.cz. [cit. 2026-04-28]
--   [H můstek ... eshop](https://dratek.cz/arduino/877-arduino-h-mustek-pro-krokovy-motor-l298n-dual-h-most-dc.html) — dratek.cz. [cit. 2026-04-28]
--   [Zařízení pro zobrazování času, průmyslové hodiny, docházkové systémy a řešení časoměrných zařízení na míru MOBATIME](http://mobatime.cz) — MOBATIME. [cit. 2026-04-28]
--   [Varianta NTP impulzeru pro IBM](/clanky/Arduino_IBM)
--   [Arduino - nastavení pro časové zóny](https://sites.google.com/a/usapiens.com/opnode/time-zones) — sites.google.com. [cit. 2026-04-28]
--   [Generátor minutových impulsů](http://zajic.cz/podruzsmd/podruzsmd.html) — zajic.cz. [cit. 2026-04-28]
+- [Witty Cload Module Adapter Board](https://www.instructables.com/Witty-Cloud-Module-Adapter-Board/) — Instructables. [cit. 2026-04-28]
+- Vývojový modul ESP8266 ... eshop
+- [O ESP32 a ESP8266](https://www.root.cz/clanky/esp32-je-tu-co-prinese-nastupce-esp8266/) — Root.cz. [cit. 2026-04-28]
+- [H můstek ... eshop](https://dratek.cz/arduino/877-arduino-h-mustek-pro-krokovy-motor-l298n-dual-h-most-dc.html) — dratek.cz. [cit. 2026-04-28]
+- [Zařízení pro zobrazování času, průmyslové hodiny, docházkové systémy a řešení časoměrných zařízení na míru MOBATIME](http://mobatime.cz) — MOBATIME. [cit. 2026-04-28]
+- [Varianta NTP impulzeru pro IBM](/clanky/Arduino_IBM)
+- [Arduino - nastavení pro časové zóny](https://sites.google.com/a/usapiens.com/opnode/time-zones) — sites.google.com. [cit. 2026-04-28]
+- [Generátor minutových impulsů](http://zajic.cz/podruzsmd/podruzsmd.html) — zajic.cz. [cit. 2026-04-28]
 
 * * *
 
@@ -147,7 +147,7 @@ Na videu v režimu nastavení na čas (FAST).
 
 ## Verze 2 od 2.8.2023
 
-Po asi ročním provozu jsem přikročil k vývoji druhé varianty. Tato varianta má vypuštěné volby Generování kódu P1, Generování kódu P2 a kódu Mobatime, protože se nepodařilo je vyvinout . Nicméně bych se někdy rád vrátil k jejich vývoji.
+Po asi ročním provozu jsem přikročil k vývoji druhé varianty. Tato varianta má vypuštěné volby Generování kódu P1, Generování kódu P2 a kódu Mobatime, protože se nepodařilo je vyvinout. Nicméně bych se někdy rád vrátil k jejich vývoji.
 
 Doplněno hlášení chyby EEPROM fialovou barvou ve všech režimech. Chyba vznikne v okamžiku, kdy se nepodaří zápis do EEPROM reálné či simulované. Podstatné je odstranění občasné chyby, kdy patrně při zakmitání napájecího napětí došlo k vymazání paměti nastavení. Patrně to bylo proto, že použité Arduino nemá reálnou paměť EEPROM. Tato paměť je u první varianty pouze softwarově simulovaná. Použitý HW druhé varianty je rozšířen o modul I2C EEPROM AT24C256. Tím je do impulzeru přidána reálná EEPROM paměť. Konstrukce se o několik desetikorun prodražila.
 

@@ -28,12 +28,12 @@ Spínač na levém obrázku podle patentu z roku 1920. Polarita proudu v cívce 
 
 **Několik odkazů.**
 
--   [Katalog BULLE hodin z r. 1925](/download/elektrika/bulle_catalogue_1925.pdf) 6.6 MB
--   Virtuální galerie **Dave West Clock** - Antique Battery Clocks - Bulle and Eureka plus Tiffany Never Wind plus Brillie and ATO clocks
--   [Praktický návod na opravu](http://www.nawcc-index.net/Articles/Smith-restore_bulle_section_01.pdf)
--   [Restaurování Bulle clock seriového čísla 174475](http://www.horologix.com/restore_bulle_174475.pdf)
--   [Oprava hodin z roku 1927](http://www.csprojects.eu/bulle_clock.htm)
--   ![bulle 1925](/img/pohlednice/bulle1925.jpg)
+- [Katalog BULLE hodin z r. 1925](/download/elektrika/bulle_catalogue_1925.pdf) 6.6 MB
+- Virtuální galerie **Dave West Clock** - Antique Battery Clocks - Bulle and Eureka plus Tiffany Never Wind plus Brillie and ATO clocks
+- [Praktický návod na opravu](http://www.nawcc-index.net/Articles/Smith-restore_bulle_section_01.pdf)
+- [Restaurování Bulle clock seriového čísla 174475](http://www.horologix.com/restore_bulle_174475.pdf)
+- [Oprava hodin z roku 1927](http://www.csprojects.eu/bulle_clock.htm)
+- ![bulle 1925](/img/pohlednice/bulle1925.jpg)
 
 ![bulle1925b](/img/pohlednice/bulle1925b.jpg)**a také naše první pohlednice**
 

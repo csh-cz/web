@@ -26,12 +26,12 @@ SPODNÍ PRŮMĚR 144 CM**
 
 Tento zvon byl znovu ulit na soběslavském hradě zvonařskými mistry Štěpánem Pricqueyem - klatovským občanem a jeho bratrem zvonařem Janem - občanem boleslavským s pomocí soběslavského kováře Jířího Křivana.
 
-Zvon je velmi bohatě zdoben reliéfy světců, jako jsou apoštolové Petr a Pavel , sv. Bartoloměj a Panna Marie Nanebevzatá a čtyřmi hlavami andělů. Zvon je dělen čtyřmi reliéfními pásy s rostlinou tématikou. Šesti ramenná koruna je zdobena ženskými tvářemi.
+Zvon je velmi bohatě zdoben reliéfy světců, jako jsou apoštolové Petr a Pavel, sv. Bartoloměj a Panna Marie Nanebevzatá a čtyřmi hlavami andělů. Zvon je dělen čtyřmi reliéfními pásy s rostlinou tématikou. Šesti ramenná koruna je zdobena ženskými tvářemi.
 
 Nedílnou součástí výzdoby jsou latinské nápisy:
 
-„HOSTIUM NOSTRORUM, DOMINE, ELIDE SUPERBIAM, ET EORUM CONTUMATIAM DEXTERAE TUAE VIRTUTE PROSTERNE“. Nepřátel našich, Pane, znič pýchu a jejich vzdor mocí pravice své potři.
+„HOSTIUM NOSTRORUM, DOMINE, ELIDE SUPERBIAM, ET EORUM CONTUMATIAM DEXTERAE TUAE VIRTUTE PROSTERNE”. Nepřátel našich, Pane, znič pýchu a jejich vzdor mocí pravice své potři.
 
-„AB OPERE HOC SPIRAL NEQTIAE REPEL LANTVR ET AEREARVM DISCEDAT MALIGNI TAS TEMPESTATVM“ Tímto dílem zaháněny buďtěž nepravosti duchovní a nechť ustupuje zloba povětrných bouří.
+„AB OPERE HOC SPIRAL NEQTIAE REPEL LANTVR ET AEREARVM DISCEDAT MALIGNI TAS TEMPESTATVM” Tímto dílem zaháněny buďtěž nepravosti duchovní a nechť ustupuje zloba povětrných bouří.
 
 Zvon byl již 3x pootočen vůči svému závěsu z důvodu vytlučení stěny zvonu od srdce. Pootočením zvonu byl získán nepoškozený prostor pro úder srdce a zamezilo se tak puknutí zvonu.

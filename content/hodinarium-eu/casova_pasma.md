@@ -8,9 +8,9 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:05.222Z"
 tldr: '![Hodiny „SVĚTOVÝ ČAS“, analogové v kombinaci s datumem, broušený a leštěný nerez](http://www.hodiny-spel.cz/atypicka_vyroba.php)'
 ---
-[![Hodiny „SVĚTOVÝ ČAS“, analogové v kombinaci s datumem, broušený a leštěný nerez](/img/elektrika/svetovy_cas1.jpg)](http://www.hodiny-spel.cz/atypicka_vyroba.php)
+[![Hodiny „SVĚTOVÝ ČAS”, analogové v kombinaci s datumem, broušený a leštěný nerez](/img/elektrika/svetovy_cas1.jpg)](http://www.hodiny-spel.cz/atypicka_vyroba.php)
 
-Mezi kuriózní hodiny můžeme zařadit i hodiny ukazující více časů. Na úvodním obrázku jsou hodiny „SVĚTOVÝ ČAS“ od firmy Spel. Jedná se o analogové hodiny v kombinaci s digitálním datumem. Hodiny ukazují místní čas a čas v městech ***New York, London, Sofia a Moskva***.
+Mezi kuriózní hodiny můžeme zařadit i hodiny ukazující více časů. Na úvodním obrázku jsou hodiny „SVĚTOVÝ ČAS” od firmy Spel. Jedná se o analogové hodiny v kombinaci s digitálním datumem. Hodiny ukazují místní čas a čas v městech ***New York, London, Sofia a Moskva***.
 
 Možnost zobrazovat čas alespoň ve dvou pásmech dnes patří k dobrému tónu u lepších náramkových hodinek. [![hodinyky s mnoha časy](/img/ujete/pasmovky_hodinky_i.jpg)](/img/ujete/pasmovky_hodinky.jpg)I pomocí mobilu lze zjistit čas v různých částech světa. Pásmové hodiny jsou i v našem virtuálním muzeu na stránce [**papíráků**](/clanky/papir) (hodiny Praha - Denver).
 
@@ -28,13 +28,13 @@ Do kategorie opravdových pásmovek patří hodiny **Digi-tech - Hodiny se svět
 
 ))
 
--   CET, GMT +1, Central European Time, Středoevropský čas
--   CEST, GMT +2, Central European Summer Time, Středoevropský letní čas
--   CEDT, GMT +2, Central European Daylight Time, Středoevropský letní čas
--   UTC, GMT, Coordinated Universal Time, Mezinárodní čas = Greenwichský čas
--   ....
--   NFT, GMT + **11:30**, Norfolk Time, Čas ostrova Norfolk
--   ......
+- CET, GMT +1, Central European Time, Středoevropský čas
+- CEST, GMT +2, Central European Summer Time, Středoevropský letní čas
+- CEDT, GMT +2, Central European Daylight Time, Středoevropský letní čas
+- UTC, GMT, Coordinated Universal Time, Mezinárodní čas = Greenwichský čas
+- ....
+- NFT, GMT + **11:30**, Norfolk Time, Čas ostrova Norfolk
+- ......
 
 **V**íce o značení najdete např. zde. Doporučuji vaší pozornosti zejména pásmo GMT - 10, které je označováno **W** neboli **Whiskey Time Zone.** Tady je možné tušit souvislost s hodinami, kterým na tomto serveru říkáme [lahváče](/clanky/lahvace) ;-). Jako mají Britové čaje o páté, mají Američané Whisky Time Zone. ;-)
 

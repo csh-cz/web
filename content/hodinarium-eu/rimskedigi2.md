@@ -34,9 +34,9 @@ Tato teorie je zkráceně převzata z internetové jazykové příručky [https:
 
 ## Použitý HW a SW
 
--   [ESP8266 ESP-12E OTA WeMos D1 CH340 WiFi](https://dratek.cz/arduino/1457-esp8266-esp-12e-ota-wemos-d1-ch340-wifi.html) Vývojová platforma Espressif založená na ESP-8266EX
--   [IIC I2C Display LCD 1602 16X2 Znaků LCD](https://dratek.cz/arduino/1570-iic-i2c-display-lcd-1602-16x2-znaku-lcd-modul-modry.html)
--   Program (Kdyby si to někdo chtěl snad také vyzkoušet.)
+- [ESP8266 ESP-12E OTA WeMos D1 CH340 WiFi](https://dratek.cz/arduino/1457-esp8266-esp-12e-ota-wemos-d1-ch340-wifi.html) Vývojová platforma Espressif založená na ESP-8266EX
+- [IIC I2C Display LCD 1602 16X2 Znaků LCD](https://dratek.cz/arduino/1570-iic-i2c-display-lcd-1602-16x2-znaku-lcd-modul-modry.html)
+- Program (Kdyby si to někdo chtěl snad také vyzkoušet.)
 
 Digitální ukazatel minut na orloji v Benátkách. Číslice se mění v pětiminutovém intervalu.
 
@@ -52,17 +52,17 @@ Na obrázku vpravo je ukazatel minut na orloji v Benátkách. Ukazatel se změn�
 
 ## Římské odbíjení hodin
 
-Aby kuriozita byla ještě kurióznější doplníme Římské digitálky ještě o "římské odbíjení". Toto odbíjení nemá s Římem nic společného. Je jen pojmenované podle principu římských číslic. Odbíjí se na dva zvony (dva tóny) hlubší znamená římská „V“, vyšší znamení římská „I“. Celé hodiny se odbíjí jako by to byly římské číslice. Místo X jsou dvě V. Tedy posloupnost bití je: I, II, III, IV, V, VI, VII, VIII, IVV, VV, VVI, VVII.
+Aby kuriozita byla ještě kurióznější doplníme Římské digitálky ještě o "římské odbíjení". Toto odbíjení nemá s Římem nic společného. Je jen pojmenované podle principu římských číslic. Odbíjí se na dva zvony (dva tóny) hlubší znamená římská „V”, vyšší znamení římská „I”. Celé hodiny se odbíjí jako by to byly římské číslice. Místo X jsou dvě V. Tedy posloupnost bití je: I, II, III, IV, V, VI, VII, VIII, IVV, VV, VVI, VVII.
 
 Smysl byl, kromě toho že to bylo zajímavé, menší spotřeba energií, déle vydrželo natažení, bylo třeba méně úderů. Toto odbíjení navrhl anglický hodinář Josepha Knibba ([https://en.wikipedia.org/wiki/Joseph\_Knibb](https://en.wikipedia.org/wiki/Joseph_Knibb)). Následuje několik odkazů na aukční síně:
 
--   [www.sothebys.com/en/buy/auction/2021/treasures-2/joseph-knibb-a-charles-ii-ebony-roman-striking](https://www.sothebys.com/en/buy/auction/2021/treasures-2/joseph-knibb-a-charles-ii-ebony-roman-striking)
--   [www.sothebys.com/en/auctions/ecatalogue/2012/george-daniels-so-l12313/lot.130.html](https://www.sothebys.com/en/auctions/ecatalogue/2012/george-daniels-so-l12313/lot.130.html)
--   [www.sothebys.com/en/auctions/ecatalogue/2012/george-daniels-so-l12313/lot.131.html](https://www.sothebys.com/en/auctions/ecatalogue/2012/george-daniels-so-l12313/lot.131.html)
--   [www.sothebys.com/en/auctions/ecatalogue/2013/treasures-princely-taste-l13303/lot.12.html](https://www.sothebys.com/en/auctions/ecatalogue/2013/treasures-princely-taste-l13303/lot.12.html)
--   [www.christies.com/en/lot/lot-4973414](https://www.christies.com/en/lot/lot-4973414)
--   Moderní replika
--   [www.horologiumprecision.co.uk/joseph-knibb-reconstruction](https://www.horologiumprecision.co.uk/joseph-knibb-reconstruction)
--   [www.youtube.com/watch?v=Bxg6hyv889s](https://www.youtube.com/watch?v=Bxg6hyv889s)
+- [www.sothebys.com/en/buy/auction/2021/treasures-2/joseph-knibb-a-charles-ii-ebony-roman-striking](https://www.sothebys.com/en/buy/auction/2021/treasures-2/joseph-knibb-a-charles-ii-ebony-roman-striking)
+- [www.sothebys.com/en/auctions/ecatalogue/2012/george-daniels-so-l12313/lot.130.html](https://www.sothebys.com/en/auctions/ecatalogue/2012/george-daniels-so-l12313/lot.130.html)
+- [www.sothebys.com/en/auctions/ecatalogue/2012/george-daniels-so-l12313/lot.131.html](https://www.sothebys.com/en/auctions/ecatalogue/2012/george-daniels-so-l12313/lot.131.html)
+- [www.sothebys.com/en/auctions/ecatalogue/2013/treasures-princely-taste-l13303/lot.12.html](https://www.sothebys.com/en/auctions/ecatalogue/2013/treasures-princely-taste-l13303/lot.12.html)
+- [www.christies.com/en/lot/lot-4973414](https://www.christies.com/en/lot/lot-4973414)
+- Moderní replika
+- [www.horologiumprecision.co.uk/joseph-knibb-reconstruction](https://www.horologiumprecision.co.uk/joseph-knibb-reconstruction)
+- [www.youtube.com/watch?v=Bxg6hyv889s](https://www.youtube.com/watch?v=Bxg6hyv889s)
 
 Na dalším snímku bude realizace se dvěma gongy odvozenými od domovních zvonku bim-bam. Jsou upraveny tak, že každá zvonek vydává jen jeden tón, tedy reprezentuje buď číslici V nebo I. ... připravuje se.....

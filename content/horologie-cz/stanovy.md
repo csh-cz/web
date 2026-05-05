@@ -19,7 +19,7 @@ scrapedAt: "2026-04-27T17:37:18.662Z"
 
 ## Článek I — Název spolku
 
-„Český spolek horologický" (dále jen spolek).
+„Český spolek horologický” (dále jen spolek).
 
 ## Článek II — Sídlo spolku
 

@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:52.440Z"
 tldr: 'Dříve, tak někdy v renezanci, byly každé hodiny osobité umělecké dílo. Průmyslová revoluce umožnila masovou tovární výrobu a umění se trochu vytratilo. Nástupem asijských výrobců to platí dvojnásobně.…'
 ---
-Dříve, tak někdy v renezanci, byly každé hodiny osobité umělecké dílo. Průmyslová revoluce umožnila masovou tovární výrobu a umění se trochu vytratilo. Nástupem asijských výrobců to platí dvojnásobně. Je třeba trochu ***zastavit čas.******Čas, který teče jako voda*** a doufat, že ***zlaté časy*** umění se vrátí.
+Dříve, tak někdy v renezanci, byly každé hodiny osobité umělecké dílo. Průmyslová revoluce umožnila masovou tovární výrobu a umění se trochu vytratilo. Nástupem asijských výrobců to platí dvojnásobně. Je třeba trochu ***zastavit čas.** **Čas, který teče jako voda*** a doufat, že ***zlaté časy*** umění se vrátí.
 
 Tak jako v **kinetických dřevořezbách** pana **Jiřího Špinky**. ( Více jich najdete na jeho stránce **[spinka.webz.cz](http://spinka.webz.cz/)** a to včetně veršů Vlasty Špinkové. )
 
@@ -32,10 +32,10 @@ Symbióza technického a výtvarného pohledu na hodiny je sice zde vychýlena n
 
 Nehodláme hledat dělící čáru mezi kinetickým artefaktem a designovými hodinami. Jsme rádi, že oba jsou.
 
-Některé "hodiny" jsme ukázali, jiné pro inspiraci na dalších odkazech..****
+Některé "hodiny" jsme ukázali, jiné pro inspiraci na dalších odkazech..**
 
--   **[Clayton Boyer Clock Designs](http://www.lisaboyer.com/Claytonsite/Claytonsite1.htm)**
+- **[Clayton Boyer Clock Designs](http://www.lisaboyer.com/Claytonsite/Claytonsite1.htm)**
 
--   **[Marc Tovar's Wooden ClockWorks](http://www.wooden-clockworks.com/)**
+- **[Marc Tovar's Wooden ClockWorks](http://www.wooden-clockworks.com/)**
 
 !

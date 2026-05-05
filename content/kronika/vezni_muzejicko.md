@@ -1,5 +1,5 @@
 ---
-title: "Věžní muzejíčko Soběslav bylo v roce 2015 zrušeno . Pokračuje jako HODIÁRIUM Děčín."
+title: "Věžní muzejíčko Soběslav bylo v roce 2015 zrušeno. Pokračuje jako HODIÁRIUM Děčín."
 slug: "vezni_muzejicko"
 date: "2015-12-31"
 rok: 2015
@@ -67,10 +67,10 @@ Virtuální audio procházku se Světlanou Lavičkovou v pořadu Odysea si můž
 
 *(Odkazy rychle zastarávají, zkuste případně dohledat.)*
 
--   Muzeum věžních hodin Mindelheim. (Brožura)
--   Městská věž Waldmünchen. Velmi zajímavé muzem věžních hodin blízko našich hranic přímo v městské ve věži. Historie věže.
--   Gdaňsk - Muzeum Zegarów Wieżowych. Muzeum je po požáru znovu otevřeno.
--   [Turmuhrenmuseum Bockenem](http://www.bockenem.de/tourismus/museum-der-zeit.html) — bockenem.de. [cit. 2026-04-28]
--   [Museo dell'orologio da torre | Uscio, Genova](http://www.trebino.it/Objects/Pagina.asp?ID=5&T=Museo%20orologi) — Trebino | Orologi da torre e campane. [cit. 2026-04-28]
--   [Litovelská radniční věž](http://olomouc.idnes.cz/litovelska-radnicni-vez-nabizi-krome-vyhledu-i-komurku-hlasneho-pxr-/olomouc-zpravy.aspx?c=A120514_1777773_olomouc-zpravy_sot) — iDNES.cz. [cit. 2026-04-28]
--   [The Clockworks &#8211; Museum | Workshop](http://theclockworks.org/) — theclockworks.org. [cit. 2026-04-28]
+- Muzeum věžních hodin Mindelheim. (Brožura)
+- Městská věž Waldmünchen. Velmi zajímavé muzem věžních hodin blízko našich hranic přímo v městské ve věži. Historie věže.
+- Gdaňsk - Muzeum Zegarów Wieżowych. Muzeum je po požáru znovu otevřeno.
+- [Turmuhrenmuseum Bockenem](http://www.bockenem.de/tourismus/museum-der-zeit.html) — bockenem.de. [cit. 2026-04-28]
+- [Museo dell'orologio da torre | Uscio, Genova](http://www.trebino.it/Objects/Pagina.asp?ID=5&T=Museo%20orologi) — Trebino | Orologi da torre e campane. [cit. 2026-04-28]
+- [Litovelská radniční věž](http://olomouc.idnes.cz/litovelska-radnicni-vez-nabizi-krome-vyhledu-i-komurku-hlasneho-pxr-/olomouc-zpravy.aspx?c=A120514_1777773_olomouc-zpravy_sot) — iDNES.cz. [cit. 2026-04-28]
+- [The Clockworks &#8211; Museum | Workshop](http://theclockworks.org/) — theclockworks.org. [cit. 2026-04-28]

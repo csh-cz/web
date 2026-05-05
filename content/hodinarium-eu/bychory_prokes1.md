@@ -96,9 +96,9 @@ Restaurování převzalo Zvonařství Votruba. Při čištění se ukázalo, že
 
 ## Restaurování — od nálezu k expozici
 
-V poněkud polních podmínkách probíhalo „vlastními silami" členů občanského sdružení restaurování stroje do podoby „k vystavení". Vzhledem k nevytápěnému prostoru jsme začali až na jaře 2011. Hlavním úkolem bylo kompletní odrezení, obnovení nátěrů, postavení stojanu, odstranění stoletých nánosů špíny na cimbálech a konstrukce alespoň provizorní zvonice.
+V poněkud polních podmínkách probíhalo „vlastními silami” členů občanského sdružení restaurování stroje do podoby „k vystavení”. Vzhledem k nevytápěnému prostoru jsme začali až na jaře 2011. Hlavním úkolem bylo kompletní odrezení, obnovení nátěrů, postavení stojanu, odstranění stoletých nánosů špíny na cimbálech a konstrukce alespoň provizorní zvonice.
 
-Odrezení probíhalo běžným způsobem. Složitější byla obnova nátěru — barva rámu byla ve stavu, že „nebylo co zachraňovat", takže nátěr byl obnoven od základu, s výjimkou horní pásnice s nápisem.
+Odrezení probíhalo běžným způsobem. Složitější byla obnova nátěru — barva rámu byla ve stavu, že „nebylo co zachraňovat”, takže nátěr byl obnoven od základu, s výjimkou horní pásnice s nápisem.
 
 ### Obnova nápisu
 
@@ -135,7 +135,7 @@ Zakoupený stav je vidět na úvodní fotografii. Jak se restaurování povedlo,
 
 Na prvním obrázku je vidět zkrácené kyvadlo. Záměr byl vystavit stroj ve výšce očí, proto je dřevěná tyč kyvadla asi o metr kratší. Stroj se v expozici používá pouze k demonstračnímu chodu — nemá napojení na ciferník ani na cimbály, takže snad rychlejší chod není tolik na závadu.
 
-Na třetím obrázku je vidět Prokešova specialita — „kardanové kolečko" místo kardanova kříže. Kolečko zakončuje minutovou hřídel procházející kyvadlem a slouží pro připojení tyče k rozvodovce.
+Na třetím obrázku je vidět Prokešova specialita — „kardanové kolečko” místo kardanova kříže. Kolečko zakončuje minutovou hřídel procházející kyvadlem a slouží pro připojení tyče k rozvodovce.
 
 Na pravé straně téhož obrázku je vidět převod 1:2 ze závěrkového kola na pomocné kolo, které pomocí stavitelných kolíků spouští dodatečný zvonicí stroj.
 

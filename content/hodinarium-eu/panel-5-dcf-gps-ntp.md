@@ -51,9 +51,9 @@ Zajímavostí jsou [podružné hodiny firmy IBM](/sbirka/karta/inv-137-podruzne-
 
 K vidění je také [internetová brána MKT](/sbirka/karta/inv-131-internetova-brana/) a [síťový switch](/sbirka/karta/inv-133-switch/) infrastruktury.
 
-## Swatch „zavináčový" čas
+## Swatch „zavináčový” čas
 
-Sedmisegmentový displej ukazuje tzv. „zavináčový" čas: firma **Swatch** přišla s nápadem rozdělit 24 hodin na **1000 dílků**. Tento čas platí celosvětově a nemění se s ročním obdobím — viz [překlápěcí hodiny zavináč](/sbirka/karta/inv-135-preklapeci-hodiny-zavinac/) (akvizice 2021, dar Spolku).
+Sedmisegmentový displej ukazuje tzv. „zavináčový” čas: firma **Swatch** přišla s nápadem rozdělit 24 hodin na **1000 dílků**. Tento čas platí celosvětově a nemění se s ročním obdobím — viz [překlápěcí hodiny zavináč](/sbirka/karta/inv-135-preklapeci-hodiny-zavinac/) (akvizice 2021, dar Spolku).
 
 ## Podružné hodiny
 

@@ -26,21 +26,21 @@ tldr: "Virtuální muzeum má tu výhodu, že může některé své exponáty p�
 
 **KATALOGY**
 
--   [Katalog BULLE hodin z r 1925](/download/elektrika/bulle_catalogue_1925.pdf) 6.6 MB
--   Katalog hodin Trenkle Uhren GmbH 11 MB
+- [Katalog BULLE hodin z r 1925](/download/elektrika/bulle_catalogue_1925.pdf) 6.6 MB
+- Katalog hodin Trenkle Uhren GmbH 11 MB
     zobrazuje široký sortiment "nových hodin z Černého lesa"
 
 **Zvuky**
 
--   [Polský mix několika zvuků hodin](https://hodinarium.eu/zvuky/zegary.mp3) v mp3 480 kB
+- [Polský mix několika zvuků hodin](https://hodinarium.eu/zvuky/zegary.mp3) v mp3 480 kB
 
 **Šetřiče obrazovky**
 
--   7art Cheerful Clock ScreenSaver ke stažní ztřeba [zde
+- 7art Cheerful Clock ScreenSaver ke stažní ztřeba [zde
     ](http://www.download3k.com/DownloadLink1-7art-Cheerful-Clock-ScreenSaver.html)Výtvarně zajímavý "šetřič", který zobrazuje mnoho různých hodinových kreací.
 
 * * *
 
 **Různé**
 
--   **Co je čas**. PDF dokument ze serveru [vt-2004.astro.cz](http://vt-2004.astro.cz/)
+- **Co je čas**. PDF dokument ze serveru [vt-2004.astro.cz](http://vt-2004.astro.cz/)

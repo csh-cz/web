@@ -22,7 +22,7 @@ tldr: 'Privátní muzeum slavné ženevské manufaktury Patek Philippe (založen
 Privátní muzeum slavné ženevské manufaktury Patek Philippe (založena 1839). Jedna z nejvýznamnějších sbírek **kapesních a náramkových hodinek** ve světě.
 
 Sbírka má dvě části:
-- **„Antique Collection"** — historické hodinky a hodiny ze 16.–19. století od různých výrobců, včetně exemplářů od slavných ženevských mistrů.
-- **„Patek Philippe Collection"** — kompletní výrobní katalog manufaktury od jejího založení po současnost, včetně proslulých grand complications.
+- **„Antique Collection”** — historické hodinky a hodiny ze 16.–19. století od různých výrobců, včetně exemplářů od slavných ženevských mistrů.
+- **„Patek Philippe Collection”** — kompletní výrobní katalog manufaktury od jejího založení po současnost, včetně proslulých grand complications.
 
 Muzeum sídlí v secesní budově v ženevské čtvrti Plainpalais. Návštěva po předchozí rezervaci.

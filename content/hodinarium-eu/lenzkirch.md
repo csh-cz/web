@@ -98,8 +98,8 @@ Rok výroby kolem roku 1895, rozměry 52 x 25 x 15
 
 **Odkazy:**
 
--   [**Lenzkirch clock**](http://www.lenzkirchclocks.com/)Rozsáhlé stránky **Lenzkirch Clock Community** s galerií, historií, výrobními značkami a mnoha dalšími informacemi.
--   **[Na Lenzkirch Story](http://www.clockguy.com/SiteRelated/SiteReferencePages/LenzkirchHistory.html)**
--   **showroom**na stránkách Beacham´s Clock Company
+- [**Lenzkirch clock**](http://www.lenzkirchclocks.com/)Rozsáhlé stránky **Lenzkirch Clock Community** s galerií, historií, výrobními značkami a mnoha dalšími informacemi.
+- **[Na Lenzkirch Story](http://www.clockguy.com/SiteRelated/SiteReferencePages/LenzkirchHistory.html)**
+- **showroom**na stránkách Beacham´s Clock Company
     \- Lenzkirch - The Rolls-Royce of the Black Forest Clockmakers
--   **wikipedia**
+- **wikipedia**

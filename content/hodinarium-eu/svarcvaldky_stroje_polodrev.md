@@ -9,9 +9,9 @@ originalUrl: "https://hodinarium.eu/svarcvaldky_stroje_polodrev.htm"
 lastModified: "Wed, 26 Apr 2017 13:43:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:50.136Z"
-tldr: '(polodřevěný stroj = náboje kol dřevěné s železným středem , ozubení mosaz )'
+tldr: '(polodřevěný stroj = náboje kol dřevěné s železným středem, ozubení mosaz )'
 ---
-(polodřevěný stroj = náboje kol dřevěné s železným středem , ozubení mosaz )
+(polodřevěný stroj = náboje kol dřevěné s železným středem, ozubení mosaz )
 
 **J**icí a bicí stroj uloženy za sebou. Vyráběly se tak od roku 1820. Zobrazené stroje pravděpodobně budou cca o 20 let mladší. Povšimněte si, že oba stroje mají totožný hřídel řetězového a minutového kola. Později bylo obvyklejší ztotožnění hřídele řetězového a střídného kola. Převod na minutové kolo byl 1:1. 2:1 i 3:2. Tím se osa minutového a hodinového kola přemístila do středu stroje. Lze také poukázat na celomosazné závěrkové kolo. To trochu vybočuje z polodřevěné koncepce.
 

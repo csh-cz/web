@@ -33,7 +33,7 @@ karta:
 thumbnail: '/img/vez/bychory/f/komplet.jpg'
 ---
 
-Do expozice byl zapůjčen věžní komplet Prokeš 1868, původně osazený na zámku Býchory, s unikátním  zvonícím strojem a cimbály. Stroj má několik zajímavostí. Kromě již zmíněného zvonicího stroje je to i neobvyklý kolíčkový krok  Benoita a Roberta  de Sancerre (1852).
+Do expozice byl zapůjčen věžní komplet Prokeš 1868, původně osazený na zámku Býchory, s unikátním zvonícím strojem a cimbály. Stroj má několik zajímavostí. Kromě již zmíněného zvonicího stroje je to i neobvyklý kolíčkový krok Benoita a Roberta de Sancerre (1852).
 
 Hodinový stroj je čtvrťový, s cévkovými ( lucernovými ) pastorky. Vypouštění bicích strojů je jednopákové. Kyvadlová litinová čočka je zavěšena na kyvadlové tyči, která byla pro účely vystavení zkrácena. Původní litinová závaží jsou zavěšena přes kladky na lanech. Na horní vodorovné pásnici kyvadlové strany je čitelná signatura výrobce hodinového stroje s uvedeným letopočtem: Jan Prokeš v Sobotce 1868.
 

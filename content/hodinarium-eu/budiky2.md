@@ -37,7 +37,7 @@ D**oba buzení se zde nastavuje mosaznou ručkou, kterou se otáčí ve směru �
 
 ![](/img/budiky1/budik_schw8.jpg)![](/img/budiky1/budik_schw9.jpg)[![Na zadní straně tohoto stroje je uveden datum prodeje a následných oprav](/img/budiky1/budik_schw10_n.jpg)](/img/budiky1/budik_schw10.jpg)
 
-Na zadní straně tohoto stroje je uveden datum prodeje a následných oprav .
+Na zadní straně tohoto stroje je uveden datum prodeje a následných oprav.
 
 ## Stroj doplněn o půlový bicí mechanismus
 

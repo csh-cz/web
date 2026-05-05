@@ -22,7 +22,7 @@ Výkonová škála elektromotorů je poměrně široká. Od výkonných motorů 
 
 Uveďme několik dalších trochu kuriózních příkladů motorového natahování. První příklad pochází z **[ateliéru restaurování věžních hodin](http://www.veznihodiny.cz/ukaz19.htm)** ak. soch. Melánie a Petra Skálových. Ateliér provádí většinou restaurovaných věžních hodinových strojů a **připojení na automatické natahovacího zařízení** a zařízení korekční, které synchronizuje věžní hodiny s přesným časem podle radiového signálu DCF. Za kuriózní považujeme zejména to, že natahovací mechanizmus je přidán s minimálním zásahem do historického stroje a lze ho kdykoliv demontovat. O unikátním korekčním zařízení více v části o dalším využití elektřiny a samozřejmě na [**vlastním webu ateliéru**](http://www.veznihodiny.cz/)!
 
-Druhým příkladem je **řešení hodin PRIM ELECTRIC.** Klasický setrvačkový strojek je poháněn tažnou vinutou pružinou. Natahována je motorkem DMP 3, který je spirálovou pružinou zatočenou o 180 stupňů spojen se šroubovicí. Tato pružina umožňuje umístit motor paralelně s natahovací hřídelí a uspořit tak prostor. Při nátahu se hřídel "vyšroubuje" po hnacím kole a přes páku natáhne hnací vinutou pružinu. Ta zpětně tlačí do šroubovice, která jako hřeben zabírá do hnacího kola a pohání jicí stroj. Nejde tedy o šnekový převod, ačkoliv ! to tak na první pohled vypadá. "Šnek" se postupně vrátí do původní polohy a způsobí krátkodobé zapnutí elektrického obvodu nátahu. Použití motorku na 2,4 V a napájení baterií 1,5 V je snad poslední kuriozitou řešení těchto hodin.
+Druhým příkladem je **řešení hodin PRIM ELECTRIC.** Klasický setrvačkový strojek je poháněn tažnou vinutou pružinou. Natahována je motorkem DMP 3, který je spirálovou pružinou zatočenou o 180 stupňů spojen se šroubovicí. Tato pružina umožňuje umístit motor paralelně s natahovací hřídelí a uspořit tak prostor. Při nátahu se hřídel "vyšroubuje" po hnacím kole a přes páku natáhne hnací vinutou pružinu. Ta zpětně tlačí do šroubovice, která jako hřeben zabírá do hnacího kola a pohání jicí stroj. Nejde tedy o šnekový převod, ačkoliv! to tak na první pohled vypadá. "Šnek" se postupně vrátí do původní polohy a způsobí krátkodobé zapnutí elektrického obvodu nátahu. Použití motorku na 2,4 V a napájení baterií 1,5 V je snad poslední kuriozitou řešení těchto hodin.
 
 Třetí případ je z oblasti domácí energetiky. Přepínání "denního a nočního proudu" kdysi řídily i mechanické hodiny. Přepínací hodiny VME mají setrvačkový pérový strojek plynule natahovaný jednofázovým motorkem. Hodiny tak mají rezervu chodu pro případ výpadku sítě. Pro zajímavost uveďme, že přepínací hodiny se vyráběly i kyvadlové.
 
@@ -40,9 +40,9 @@ Pro natažení se přeci jen používají větší proudy a je spínán obvod s 
 
 ## Neobvyklé systémy:
 
--   ## Kompresní žárovka aneb natahování pneumatikou [více na samostatné stránce](/clanky/pneumatika)
+- ## Kompresní žárovka aneb natahování pneumatikou [více na samostatné stránce](/clanky/pneumatika)
 
--   ## Odpařovací, případně elektro-termo-pneumatický pohon
+- ## Odpařovací, případně elektro-termo-pneumatický pohon
 
 Na dalším obrázku je schéma neobvyklého elektrického **termo-pneumatického** pohonu, respektive natahovacího zařízení. Jde o jakýsi **odpařovací motor !!!** Kapalina (alkohol) v dolní části skleněného rotoru se zahřívá elektrickým topným tělesem a odpařuje se. Kondenzuje v horní části označené číslem 3. Časem kapalina převáží a rotor se pootočí, tím se opět dostane kapalina nad ohřívací těleso a děj se opakuje. Pozoruhodné. Německý patent 714893 z roku 1940 (bez záruky).
 !

@@ -20,6 +20,6 @@ tldr: 'Privátní sbírka převážně věžních hodin v rakouském Burgenlandu
 
 Privátní sbírka **převážně věžních hodin** v rakouském Burgenlandu (adresa Aschau 49, Oberschützen, PSČ 7432). Shromáždil a muzeum provozuje **Ing. Wolfgang Komzak**.
 
-Sbírka pokrývá věžní hodiny napříč epochami — gotika, renesance, barok, průmyslová éra — plus **„Bratenwender"** (mechanické pečeňovače) a hodinářské nástroje a příslušenství. Je to jedno z mála míst, kde lze vidět rakouskou tradici výroby věžních hodin v koncentrované soukromé sbírce.
+Sbírka pokrývá věžní hodiny napříč epochami — gotika, renesance, barok, průmyslová éra — plus **„Bratenwender”** (mechanické pečeňovače) a hodinářské nástroje a příslušenství. Je to jedno z mála míst, kde lze vidět rakouskou tradici výroby věžních hodin v koncentrované soukromé sbírce.
 
 Pozn.: Aschau im **Burgenland** (východní Rakousko), nezaměňovat s Aschau im Chiemgau (Bavorsko).

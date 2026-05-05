@@ -18,30 +18,30 @@ Bohužel některé loňské exponáty již v expozici nebudou. To se týká repl
 
 [![barokní stroj - před dokončením restaurování](/img/vez/Kli/foto_0001.jpg)](/img/vez/Kli/f/foto_0001.jpg) Hlavní hodinářské exponáty - deset věžních strojů
 
--   [starý soběslavský stroj](/clanky/vez1), "čtvrtek" (bicí stroj jednotlivých čtvrtí), ručkové převody
--   současný věžní stroj [Elektročas 1959](/clanky/vez_elektrocas1959)
--   [barokní věžní ministroj snad z 18 století](/clanky/vez_Zlate_Hory)
--   [barokní špindlový stroj](vez_kli.htm) věžních hodin
--   barokní špindlový [stroj věžních hodin z obce Budislav](vez_budislav.htm)
--   [stroj věžních hodin 1884 - Podmokly](/clanky/vez_decin)
--   soustrojí [Prokeš 1868](/clanky/bychory_prokes1) za zámku Býchory včetně cimbálů a zvonícího stroje
--   stroj věžních hodin - [Horní Prysk](/clanky/vez_Prysk)
--   [věžní rozvody](/clanky/bychory_dalsi_kola) z obce Svinky, samostatné ručkové převody, rozvodové tyče a pod.
+- [starý soběslavský stroj](/clanky/vez1), "čtvrtek" (bicí stroj jednotlivých čtvrtí), ručkové převody
+- současný věžní stroj [Elektročas 1959](/clanky/vez_elektrocas1959)
+- [barokní věžní ministroj snad z 18 století](/clanky/vez_Zlate_Hory)
+- [barokní špindlový stroj](vez_kli.htm) věžních hodin
+- barokní špindlový [stroj věžních hodin z obce Budislav](vez_budislav.htm)
+- [stroj věžních hodin 1884 - Podmokly](/clanky/vez_decin)
+- soustrojí [Prokeš 1868](/clanky/bychory_prokes1) za zámku Býchory včetně cimbálů a zvonícího stroje
+- stroj věžních hodin - [Horní Prysk](/clanky/vez_Prysk)
+- [věžní rozvody](/clanky/bychory_dalsi_kola) z obce Svinky, samostatné ručkové převody, rozvodové tyče a pod.
 
--   Nová produkce je zastoupena skeletovými hodinymi Kavalír (více na [samostatné stránce](http://www.kavalir.cz/hodiny/)) a také poněkud bláznivými hodinami s indikací času cyklistickým řetězem v čtvrtorlojním dělení (2. obrázek vpravo).
+- Nová produkce je zastoupena skeletovými hodinymi Kavalír (více na [samostatné stránce](http://www.kavalir.cz/hodiny/)) a také poněkud bláznivými hodinami s indikací času cyklistickým řetězem v čtvrtorlojním dělení (2. obrázek vpravo).
 
 ### Hlavní zvonařské exponáty:
 
--   [zvon Petr Pavel](/clanky/zvon_petr_pavel)
--   [zvon Petr Vok](/clanky/zvon_petr_vok)
--   [zvonařská expozic](/clanky/zvony_uvod)e, postup výroby, ukázka forem, kování zvonů, ...
+- [zvon Petr Pavel](/clanky/zvon_petr_pavel)
+- [zvon Petr Vok](/clanky/zvon_petr_vok)
+- [zvonařská expozic](/clanky/zvony_uvod)e, postup výroby, ukázka forem, kování zvonů, ...
 
 ### Minivýstavy:
 
--   zajímavé stroje ze Schwarcwaldu, železný stroj ukazující pouze hodiny s budíkem (cca 1760), různé další vyjímečné stroje, .....
--   steampunk - šperky a hodiny
--   fotovýstavy Pražský orloj a České a Moravské zvony
--   .....
+- zajímavé stroje ze Schwarcwaldu, železný stroj ukazující pouze hodiny s budíkem (cca 1760), různé další vyjímečné stroje, .....
+- steampunk - šperky a hodiny
+- fotovýstavy Pražský orloj a České a Moravské zvony
+- .....
 
 * * *
 
@@ -65,7 +65,7 @@ Chceme se o svou radost s vámi podělit, proto jsme několik textů z návště
 
 > Nikdy neutichající tikot přeje Věžnímu muzejíčku…
 
-> „Náhodou jsme zabloudily!" Ale při parkování jsme cosi zahlédly. Vešly jsme dovnitř a zůstaly stát! „Tikotot" nás vedl. Najednou se před námi zjevila místnost „KDE ČAS MÁ SVŮJ DŮM."
+> „Náhodou jsme zabloudily!” Ale při parkování jsme cosi zahlédly. Vešly jsme dovnitř a zůstaly stát! „Tikotot” nás vedl. Najednou se před námi zjevila místnost „KDE ČAS MÁ SVŮJ DŮM.”
 
 > Velmi dobře vybrané exponáty by obstály v konkurenci se specializovanými muzei. K tomu nadšení amatérského sdružení — velmi pěkný zážitek.
 
@@ -79,6 +79,6 @@ Chceme se o svou radost s vámi podělit, proto jsme několik textů z návště
 
 > Úžasná výstava věžních strojů, podivuhodná důmyslná práce, pro laika magické.
 
-> Krásné město, krásné památky, krásné „věžní muzejíčko".
+> Krásné město, krásné památky, krásné „věžní muzejíčko”.
 
 Petr Král

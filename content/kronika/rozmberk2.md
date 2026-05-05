@@ -40,8 +40,8 @@ V Bechyni Petr Vok věnoval pozornost i věžním hodinám. Václav Březan zazn
 
 ## Použitá literatura.
 
--   Pánek, Jaroslav: Poslední Rožmberkové, velmoži české renesance,
+- Pánek, Jaroslav: Poslední Rožmberkové, velmoži české renesance,
     1. vydání Panorama, Praha 1989
--   Svobodová, Anežka: Petr Vok, 1. Vydání, Melantrich, Praha 1985
--   Václav Březan: Životy posledních Rožmberků II., nakl. Svoboda, Praha 1985,
+- Svobodová, Anežka: Petr Vok, 1. Vydání, Melantrich, Praha 1985
+- Václav Březan: Životy posledních Rožmberků II., nakl. Svoboda, Praha 1985,
     k vydání připravil J.Pánek

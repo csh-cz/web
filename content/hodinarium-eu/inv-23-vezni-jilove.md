@@ -28,7 +28,7 @@ karta:
 thumbnail: '/img/decin/rok2020/Jilove/foto_0006.jpg'
 ---
 
-Hodiny pocházejí z kostela Nejsvětější Trojice. Kostel má pohnutou historii : v roce 1859 vyhořel po zásahu moždíře při oslavách na zámku. Majitel panství hrabě Thun zafinancoval stavbu nového kostela, takže již za rok se v něm mohly konat bohoslužby.
+Hodiny pocházejí z kostela Nejsvětější Trojice. Kostel má pohnutou historii: v roce 1859 vyhořel po zásahu moždíře při oslavách na zámku. Majitel panství hrabě Thun zafinancoval stavbu nového kostela, takže již za rok se v něm mohly konat bohoslužby.
 
 Způsob stavby stroje a především tvar kotvy hodně připomíná hodiny z dílny Ferdinanda Londenspergera. Hodiny obdobného typu jsou i v kostele v Horní Polici.
 

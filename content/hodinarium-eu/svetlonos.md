@@ -16,7 +16,7 @@ Sluneční hodiny symbolizují sepětí člověka s přírodou. Proto jsem rád,
 
 **K**upodivu polemika o vhodnosti této sochy probírá také otázku, jaký čas vlastně sluneční hodiny mají ukazovat. Fotografie Strážce času byla pořízena 12.3.2007 v 11:03. Stín ukazuje přibliž 10:50 a nachází se před čárou rovníku. Údaj odpovídá místnímu slunečnímu času.
 
-**V**ytrženo z diskuse na www.sezimovousti.cz : *"Hodiny které ukazují špatný čas jsou prostě špatné."* .... *" Pokud Vám přesně jdoucí hodiny připadají jako porušování přírodních zákonů, doporučuji Vám odborné vyšetření Vašeho duševního stavu od MUDr. Cimického."* .....
+**V**ytrženo z diskuse na www.sezimovousti.cz: *"Hodiny které ukazují špatný čas jsou prostě špatné."* .... *" Pokud Vám přesně jdoucí hodiny připadají jako porušování přírodních zákonů, doporučuji Vám odborné vyšetření Vašeho duševního stavu od MUDr. Cimického."* .....
 
 **H**istorické hodiny ukazují obvykle **místní pravý sluneční čas**. Tento čas ovšem plyne poněkud nerovnoměrně. Je otázka, zda se máme pokoušet "běh Slunce" vtěsnat do rovnoměrnosti času středoevropského. Udělat to patrně lze. Lze zkonstruovat číselníky, či speciálně tvarovat ukazatel času a přímo odečítat SEČ s ohledem na den v roce a letní posun. Složitost odečítání tohoto času ovšem způsobí větší problémy než přepočet podle časové rovnice.
 
@@ -40,7 +40,7 @@ Sluneční hodiny symbolizují sepětí člověka s přírodou. Proto jsem rád,
 
 [![Vysvětlující tTabulka u Strážce času](/img/slunecni/tabulka_svetlonos2.jpg)](/img/slunecni/f/tabulka_svetlonos2.jpg)
 
-Tabulky jednak uvádějí základní informace o "největších slunečních horizontálních hodinách v České republice s ciferníkem 20 x 21 m vybudovaných v Sezimově Ústí v roce 2005. Hodiny se nacházejí ve výšce 412 , n.m. a ukazují pravý sluneční čas odpovídající poloze 14° 41' východní zeměpisné délky a 49° 24' severní šířky.
+Tabulky jednak uvádějí základní informace o "největších slunečních horizontálních hodinách v České republice s ciferníkem 20 x 21 m vybudovaných v Sezimově Ústí v roce 2005. Hodiny se nacházejí ve výšce 412, n.m. a ukazují pravý sluneční čas odpovídající poloze 14° 41' východní zeměpisné délky a 49° 24' severní šířky.
 
 Dále jsou na tabulkách vyčísleny časové odchylky po 15 dnech a zároveň je tato zázislost zobrazena jako graf.
 

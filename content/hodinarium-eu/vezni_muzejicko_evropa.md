@@ -95,9 +95,9 @@ V oblasti hlavních a signálních kyvadlových hodin jsou vystaveny kromě něm
 
 [![Waldmunchen](/img/veze/waldmunchen.jpg)](/img/veze/f/waldmunchen.jpg)
 
-Malé věžní muzeum je také ve Waldmünchenu. První zmínky městě jsou z roce 1240. Dnes má 7 097 obyvatel. Je vzdálené pouze 16 km od Klenčí pod Čerchovem (od hraničního přechodu Lísková je to cca 6 km pěšky). Ve městě se nachází kostel sv. Štěpána s věží. První zmínka o věži je kolem roku 1492. Věž byla nejprve gotická, v 17. stol. byla přestavěna v barokním stylu. Význam věže byl „klasický“, hlásný dohlížel na okolí a ohlašoval blížící se nebezpečí – oheň, nebo nepřítele. Proto také věž patřívala městu nikoli farnosti. Hlásný byl ve věži do roku 1923. Jeho funkci mu pomáhaly plnit i zvony, které sice byly v době válek rekvírovány, ale v roce 1949 byly instalovány 4 nové zvony – všechny zasvěcené sv. Štěpánu. Původně byla zvonice v 5. patře věže, ale nyní je z důvodu lepší slyšitelnosti zvonů v 7. patře místo původního byt hlásného. [![Turmuhr Nickelsdorf Bgld., Anfang 18.Jh.;Sammlung Dr. Julius Brachetka](/img/veze/Komzak.jpg)](/img/veze/f/Komzak.jpg)
+Malé věžní muzeum je také ve Waldmünchenu. První zmínky městě jsou z roce 1240. Dnes má 7 097 obyvatel. Je vzdálené pouze 16 km od Klenčí pod Čerchovem (od hraničního přechodu Lísková je to cca 6 km pěšky). Ve městě se nachází kostel sv. Štěpána s věží. První zmínka o věži je kolem roku 1492. Věž byla nejprve gotická, v 17. stol. byla přestavěna v barokním stylu. Význam věže byl „klasický”, hlásný dohlížel na okolí a ohlašoval blížící se nebezpečí – oheň, nebo nepřítele. Proto také věž patřívala městu nikoli farnosti. Hlásný byl ve věži do roku 1923. Jeho funkci mu pomáhaly plnit i zvony, které sice byly v době válek rekvírovány, ale v roce 1949 byly instalovány 4 nové zvony – všechny zasvěcené sv. Štěpánu. Původně byla zvonice v 5. patře věže, ale nyní je z důvodu lepší slyšitelnosti zvonů v 7. patře místo původního byt hlásného. [![Turmuhr Nickelsdorf Bgld., Anfang 18.Jh.;Sammlung Dr. Julius Brachetka](/img/veze/Komzak.jpg)](/img/veze/f/Komzak.jpg)
 
-První doložitelná zpráva o hodinách na věži je Merianova rytina z roku 1644. Ve 20. století se hodiny na věži „modernizovaly“. Mechanické hodiny byly ve věži do roku 1983. V současné době je ve věži muzeum hodin. Na jednotlivých poschodích je umístěno 16 strojů věžních hodin pocházejících z rozmezí let 1600 – 1920. Vlastní mechanický stroj již se ve věži nepoužívá, nahradila ho elektronika s dálkovým řízením.
+První doložitelná zpráva o hodinách na věži je Merianova rytina z roku 1644. Ve 20. století se hodiny na věži „modernizovaly”. Mechanické hodiny byly ve věži do roku 1983. V současné době je ve věži muzeum hodin. Na jednotlivých poschodích je umístěno 16 strojů věžních hodin pocházejících z rozmezí let 1600 – 1920. Vlastní mechanický stroj již se ve věži nepoužívá, nahradila ho elektronika s dálkovým řízením.
 
 ### [Uhrenstube Aschau im Burgenland](http://www.uhrenstube-aschau.at/)
 
@@ -111,7 +111,7 @@ Muzejíčko mělo za sebou pouhé tři roky existence. Následně byla expozice 
 
 * * *
 
-****Na stránkách** [https://f-k-turmuhren.de/museen](https://f-k-turmuhren.de/museen)
+**Na stránkách** [https://f-k-turmuhren.de/museen](https://f-k-turmuhren.de/museen)
 najdete mnohem širší přehled muzeí zabývajících se věžními hodinami.**
 
 * * *

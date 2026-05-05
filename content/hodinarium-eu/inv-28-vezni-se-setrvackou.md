@@ -28,4 +28,4 @@ Věžní hodinový stroj je zajímavé konstrukce. Hlavní soukolí je poháněn
 
 Pérovník je natahován elektromotorem, jehož zapínání a vypínání je řízeno vačkou. Na ose vačky jsou dvě osmicípé hvězdice, ovládané palci. Jeden palec je na ozubeném kole nátahu a jím natáčená hvězdice ovládá vypínání motoru, druhý palec je na pérovníku a ovládá hvězdici zapínání motoru.
 
-Na rámu je štítek se jménem výrobce : J. Spáčil Samotišky.
+Na rámu je štítek se jménem výrobce: J. Spáčil Samotišky.

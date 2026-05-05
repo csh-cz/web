@@ -28,7 +28,7 @@ Trochu jiný pohled najdete na stránce **[Historie věžních hodin v Soběslav
 
 **P**o rozebrání byly starobylé věžní hodiny uloženy do bývalé klenotnice, kde leží vedle staré gotické skříně společně s rafikami dodnes. *(Pozn: Od roku 2010 restaurovány a vystaveny.)*
 
-[![Hodinová stroj Elektročas z r. 1959 . Foto Jan Lintner 2008.](/img/vezni/sobeslav/elektrocas1959b.jpg)](/img/vezni/sobeslav/elektrocas1959.jpg)
+[![Hodinová stroj Elektročas z r. 1959. Foto Jan Lintner 2008.](/img/vezni/sobeslav/elektrocas1959b.jpg)](/img/vezni/sobeslav/elektrocas1959.jpg)
 
 * * *
 

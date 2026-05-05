@@ -91,9 +91,9 @@ Slunce se zdánlivě po ekliptice nepohybuje rovnoměrně, což je následek dru
 
 **Místní pravý sluneční čas** lze měřit pouze pomocí **slunečních hodin.** Jejich základní částí je **polos,** stínová tyč rovnoběžná se zemskou osou. Na severní polokouli směřuje polos k severnímu světovému pólu a s vodorovnou rovinou svírá úhel rovný místní zeměpisné šírce j. Polos vrhá svůj stín na číselník a ukazuje tím čas. Podle polohy číselníku rozdělujeme sluneční hodiny na
 
--   **rovníkové** - rovina číselníku je rovnoběžná s rovníkem, číselník je kolmý na polos, jež je rovnoběžný se zemskou osou, číselník má dělení po 15°;
--   **vertikální** - rovina číselníku je svislá a měla by být orientována na jih, polos s ní svírá úhel 90 – j, úhly b mezi poledníkovým směrem a čarami číselníku se vypočtou pomocí vzorce tg b = tg a \* cos j , kde se za a postupně dosazují násobky 15°;
--   **horizontální** - rovina číselníku je vodorovná a polos s ní svírá úhel zeměpisné šírky, úhly b se vypočtou vzorcem – tg b = tg a \* sin j .
+- **rovníkové** - rovina číselníku je rovnoběžná s rovníkem, číselník je kolmý na polos, jež je rovnoběžný se zemskou osou, číselník má dělení po 15°;
+- **vertikální** - rovina číselníku je svislá a měla by být orientována na jih, polos s ní svírá úhel 90 – j, úhly b mezi poledníkovým směrem a čarami číselníku se vypočtou pomocí vzorce tg b = tg a \* cos j, kde se za a postupně dosazují násobky 15°;
+- **horizontální** - rovina číselníku je vodorovná a polos s ní svírá úhel zeměpisné šírky, úhly b se vypočtou vzorcem – tg b = tg a \* sin j.
 
 Protože je pravý sluneční čas k měření nevhodný, byl zaveden **střední sluneční čas,** který se řídí fiktivním **středním Sluncem.**
 
@@ -131,7 +131,7 @@ Místní čas je rozdíl zeměpisné délky od základního (pásmového) poledn
 
 ***Příklad:***
 
--   Nechť je 12 h greenwichského času a buďme dne 26. července 2005 na 22° v. d. v Michalovcích na východním Slovensku. Jak se liší čas na našich hodinkách od času na slunečních hodinách na michalovecké radnici?
+- Nechť je 12 h greenwichského času a buďme dne 26. července 2005 na 22° v. d. v Michalovcích na východním Slovensku. Jak se liší čas na našich hodinkách od času na slunečních hodinách na michalovecké radnici?
 
 Řešení:
 
@@ -174,39 +174,39 @@ Pro určení zeměpisné délky z rozdílu místních časů je třeba mít hodi
 
 Čeká se na horní kulminaci Slunce, která je v pravé poledne místního času. V tento okamžik se zároveň přečte, kolik hodin ukazuje chronometr nařízený na střední sluneční čas greenwichského poledníku. Rozdíl časů místního a greenwichského poledníku se zjistí tak, že se místo pravého poledne vezme příslušný střední čas pro daný den z Hvězdářské ročenky a od něj se odečte greenwichský čas přečtený na chronometru.
 
-l = *T*sl – *T*sG nebo l = *T*pl – *T*pG ,
+l = *T*sl – *T*sG nebo l = *T*pl – *T*pG,
 
 kde *T*sl je střední čas poledníku l a *T*sG střední čas greenwichského poledníku. Index *p* značí pravý čas.
 
 ***Příklady:***
 
--   Na poledníku l dne 28. listopadu v pravé poledne ukazoval chronometr 4 h 20 min středního greenwichského času. Podle Hvězdářské ročenky nastává tento den pravé poledne v 11 h 48 min středního slunečního času.
+- Na poledníku l dne 28. listopadu v pravé poledne ukazoval chronometr 4 h 20 min středního greenwichského času. Podle Hvězdářské ročenky nastává tento den pravé poledne v 11 h 48 min středního slunečního času.
 
 Řešení: l = 11h 48min – 4h 20min = 7h 28min \* 15° = + 112°, tj. 112° v. d.
 
--   Na poledníku l dne 22. srpna v pravé poledne ukazoval chronometr nařízený na střední sluneční čas Greenwiche 19 h 40 min. Bylo zjištěno, že pravé poledne nastává tento den ve 12 h 03 min středního slunečního času.
+- Na poledníku l dne 22. srpna v pravé poledne ukazoval chronometr nařízený na střední sluneční čas Greenwiche 19 h 40 min. Bylo zjištěno, že pravé poledne nastává tento den ve 12 h 03 min středního slunečního času.
 
 Řešení:
 
 l = 12h 03min – 19h 40min = – 7h 37min \* 15° = – 114° 15’, tj. 114° 15’ z. d.
 
--   Oba dva příklady lze řešit i takovýmto způsobem. Když je na greenw. poledníku 11 h 48 min středního času, je tam vlastně 12 h pravého času. Odečtením 12 h od 11 h 48 min dostaneme rozdíl – 12 min. Když je tedy na greenw. poledníku 4 h 20 min středního času, je tam vlastně 4 h 32 min pravého času. V tuto dobu je na poledníku l 12 h pravého času. Odečtením pravého času Greenwiche od pravého času poledníku  dostaneme 7 h 28 min. A 7 h 28 min \* 15° = + 112°.
+- Oba dva příklady lze řešit i takovýmto způsobem. Když je na greenw. poledníku 11 h 48 min středního času, je tam vlastně 12 h pravého času. Odečtením 12 h od 11 h 48 min dostaneme rozdíl – 12 min. Když je tedy na greenw. poledníku 4 h 20 min středního času, je tam vlastně 4 h 32 min pravého času. V tuto dobu je na poledníku l 12 h pravého času. Odečtením pravého času Greenwiche od pravého času poledníku  dostaneme 7 h 28 min. A 7 h 28 min \* 15° = + 112°.
 
 **Určování zeměpisné délky pomocí hvězd**
 
 Čeká se na horní kulminaci hvězdy a na astronomických hodinách se přečte hvězdný čas na srovnávacím (greenwichském) poledníku o. V Hvězdářské ročence se vyhledá rektascenze  hvězdy, která je rovna v okamžiku kulminace místnímu hvězdnému času . Pro zeměpisnou délku platí vztah
 
-l = Q – Qo .
+l = Q – Qo.
 
 ***Příklad:***
 
--   V okamžiku horní kulminace hvězdy Vega ukazovaly na poledníku  hodiny 11 h 57 min hvězdného času greenw. poledníku. Rektascenze Vegy  = 18 h 37 min.
+- V okamžiku horní kulminace hvězdy Vega ukazovaly na poledníku  hodiny 11 h 57 min hvězdného času greenw. poledníku. Rektascenze Vegy  = 18 h 37 min.
 
 Řešení: 18h 37min – 11h 57min = 6h 40min \* 15° = + 100°, tj. 100° v. d.
 
 ***Souhrnný příklad:***
 
--   Dne 20. prosince nasedáme do letadla na pravidelné lince Tokio - Buenos Aires. Těsně před odletem jsme si řídili hodinky podle časového znamení z rozhlasu na letišti. Letadlo se zřítí, nacházíme se na neznámém místě a musíme určit svoji polohu. Jediné co máme s sebou jsou hodinky, kalkulačka a klíče s přívěskem - metrem.
+- Dne 20. prosince nasedáme do letadla na pravidelné lince Tokio - Buenos Aires. Těsně před odletem jsme si řídili hodinky podle časového znamení z rozhlasu na letišti. Letadlo se zřítí, nacházíme se na neznámém místě a musíme určit svoji polohu. Jediné co máme s sebou jsou hodinky, kalkulačka a klíče s přívěskem - metrem.
 
 Řešení:
 
@@ -240,9 +240,9 @@ Patří mezi nejstarší vynálezy lidstva a první stimuly astronomie. Počátk
 
 **Volba kalendářního systému** je závislá na
 
-**a.****vystihnutí přírodních cyklů,** tj. kalendář musí informovat o době, kdy lze očekávat určité přírodní jevy;
+**a.** **vystihnutí přírodních cyklů,** tj. kalendář musí informovat o době, kdy lze očekávat určité přírodní jevy;
 
-**b.****chronologii,** která určuje událost od určitého počátku.
+**b.** **chronologii,** která určuje událost od určitého počátku.
 
 **Egyptský kalendář**
 

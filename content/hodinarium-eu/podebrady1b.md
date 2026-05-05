@@ -21,7 +21,7 @@ Benj. J., Lázně Poděbrady 1937, č. 21
 
 ## Jsem rodilá Poděbraďačka
 
-Jsem rodilá Poděbradačka, otec byl správcem městské elektrárny více než 20 let, většina veřejného osvětlení je ještě památka na něho. Po jednom našem rodinném výletu jsme v Žitavě objevili květinové hodiny. Jsou tam ještě, ale nejsou tak pěkné, jako ty naše. Otce tak zaujaly, že začal o nich přemýšlet a se svými pracovníky z elektrárny plánovali sestrojení také takových hodin v Poděbradech. Nevím už dnes přesně, který rok to byl, tak nějak kolem roku 1930-1935. Všechno vyrobili v elektrárně sami, i hodinový stroj. Po jejich osázení květinami jsme přišli na nápad doplnit je trpaslíkem, který by oznamoval hostům přesný čas. Byl to můj trpaslík, který stál u nás v elektrárně na zahrádce. Byl to můj miláček, ale u hodin jsem ho viděla ještě raději, zvláště když se podařilo zřídit i tu jeho "klepací" ručičku…
+Jsem rodilá Poděbradačka, otec byl správcem městské elektrárny více než 20 let, většina veřejného osvětlení je ještě památka na něho. Po jednom našem rodinném výletu jsme v Žitavě objevili květinové hodiny. Jsou tam ještě, ale nejsou tak pěkné, jako ty naše. Otce tak zaujaly, že začal o nich přemýšlet a se svými pracovníky z elektrárny plánovali sestrojení také takových hodin v Poděbradech. Nevím už dnes přesně, který rok to byl, tak nějak kolem roku 1930–1935. Všechno vyrobili v elektrárně sami, i hodinový stroj. Po jejich osázení květinami jsme přišli na nápad doplnit je trpaslíkem, který by oznamoval hostům přesný čas. Byl to můj trpaslík, který stál u nás v elektrárně na zahrádce. Byl to můj miláček, ale u hodin jsem ho viděla ještě raději, zvláště když se podařilo zřídit i tu jeho "klepací" ručičku…
 
 Ze vzpomínek paní Vrátné 1997
 

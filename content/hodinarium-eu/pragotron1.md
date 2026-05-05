@@ -43,7 +43,7 @@ Hodiny C 301/ C 401 se též vyráběly jako dvoustranné se stropním závěsem
 !
 
 **CPJ 061 - 1** jsou digitální listové kalendářní hodiny, zobrazují datum, měsíc, den v týdnu a čas. Rozeznávají kdy má měsíc 28 / 29 / 30 a 31 dní, rozeznávají též přestupný rok. Ovládání se provádí minutovými polarizovanými impulzy( 12 / 24V ), napájení je 220 V 50Hz.
-Materiál: Skříňka ve, které jsou hodiny uloženy je z plechových dílů, jako kryt čísel je použito plexisklo (lisované), rám, ve kterém je uloženo soustrojí hodin je ze slitiny hliníku. Listy čísel: kalendář - plastové plátky, dny v týdnu a měsíce - hliníkový plech, hodiny a minuty - plastové plátky, držení listů: datum : mosazná pacička ( též slouží pro okrasu ), měsíce a dny v týdnu - plechové háčky, hodiny a minuty - mosazné pacičky ( též slouží pro okrasu ) mechanické díly - mosaz, strojek - mosaz / ocelový plech.
+Materiál: Skříňka ve, které jsou hodiny uloženy je z plechových dílů, jako kryt čísel je použito plexisklo (lisované), rám, ve kterém je uloženo soustrojí hodin je ze slitiny hliníku. Listy čísel: kalendář - plastové plátky, dny v týdnu a měsíce - hliníkový plech, hodiny a minuty - plastové plátky, držení listů: datum: mosazná pacička ( též slouží pro okrasu ), měsíce a dny v týdnu - plechové háčky, hodiny a minuty - mosazné pacičky ( též slouží pro okrasu ) mechanické díly - mosaz, strojek - mosaz / ocelový plech.
 
 **Princip funkce:** čas se ovládá minutovými polarizovanými impulzy, v okamžiku kdy se z 23:59 překlapne na 0:00 tak je mechanicky zařízeno ( přes vačku ), že se přetočí den. ( to ovládá strojek hodin - den, hodiny a minuty ) v ten okamžik ( při přetočení dne ) šťouchne do páčky mosazná packa, která je na hřídelce a ta vede k vačce, ta páčka je na hřídelce na druhém konci hřídelky je plastový váleček na kterém je ocelový drátek, který zatlačí na mikrospínač, v tu chvíli jak drátek zatlačil na mikrospínač tak zároveň se uvolnilo kolečko v, kterém byl drátek zapadlý a na tomto kolečku se momentálně drátek "veze". V tento okamžik je v pohybu motorek, ten přetočí datum a případně i měsíc, jakmile je tento děj u konce tak drátek, který se vezl na kolečku zapadl do otvoru v kolečku a tím pádem se rozpojil mikrospínač a motorek se vypnul ( tento děj trvá asi 0.9 sekundy ) Napájení motorku je síťovým napětím 220V 50Hz.
 
@@ -90,4 +90,4 @@ Historie: tyto hodiny byly vyvinuty v sedmdesátých letech, vyráběly se ješt
 
 Zajímavé odkazy:
 
--   [Sběratelé Pragotronu na Slovensku](http://pragotron.sk/)
+- [Sběratelé Pragotronu na Slovensku](http://pragotron.sk/)

@@ -12,20 +12,20 @@ scrapedAt: "2026-04-27T17:36:37.648Z"
 ---
 ## Shrnutí hlavních událostí
 
--   **1484 – první historická zmínka o věžních hodinách v Soběslavi.** Šlo o hodiny bicí ukazující český čas. (Čas počítaný na 24 hodin od západu Slunce.)
+- **1484 – první historická zmínka o věžních hodinách v Soběslavi.** Šlo o hodiny bicí ukazující český čas. (Čas počítaný na 24 hodin od západu Slunce.)
     V roce 1490 dovezeny nové struny k cimbálům, 1544 pořízen (nový?) cimbál
 
--   **1545 – smlouva s hodinářským mistrem Michalem z Českých Budějovic na postavení nových hodin a udělání sféry** *(jednoho ciferníku??)***.** **Na nový stroj koupeno 96 liber železa****Později přikoupeno od soběslavského kováře Kocourka ještě železo za 1 kopu 4 gr 2 d.** (Celkem tedy nakoupeno cca 80 kg železa, tedy přibližně polovina současné váhy stroje.)
+- **1545 – smlouva s hodinářským mistrem Michalem z Českých Budějovic na postavení nových hodin a udělání sféry** *(jednoho ciferníku??)***.** **Na nový stroj koupeno 96 liber železa** **Později přikoupeno od soběslavského kováře Kocourka ještě železo za 1 kopu 4 gr 2 d.** (Celkem tedy nakoupeno cca 80 kg železa, tedy přibližně polovina současné váhy stroje.)
 
--   **1675 - 1677 Předělávány hodiny z českého na německý čas a značně přestavěny nejprve hodinářem Václavem Partlem a později Němcem Janem Möltzerem, hodinářem z Jindřichova Hradce.** Stroj čtvrťového bití možná doplněn v tomto roce nebo až v roce 1707 ??.
+- **1675 - 1677 Předělávány hodiny z českého na německý čas a značně přestavěny nejprve hodinářem Václavem Partlem a později Němcem Janem Möltzerem, hodinářem z Jindřichova Hradce.** Stroj čtvrťového bití možná doplněn v tomto roce nebo až v roce 1707 ??.
 
--   **1707 - Další zásadní přestavba. Hodiny již měly kyvadlo místo lihýře.** Není známo jaký byl použit krok. Není nalezen záznam o práci hodináře Johana Hönerem z Kraslic. **Hřídel krokového kola je však tímto hodinářem signována v roce 1743.**Je tedy pravděpodobné, že k přestavbě na kotvový krok došlo až v tomto roce.
+- **1707 - Další zásadní přestavba. Hodiny již měly kyvadlo místo lihýře.** Není známo jaký byl použit krok. Není nalezen záznam o práci hodináře Johana Hönerem z Kraslic. **Hřídel krokového kola je však tímto hodinářem signována v roce 1743.**Je tedy pravděpodobné, že k přestavbě na kotvový krok došlo až v tomto roce.
 
--   Během své existence byly hodiny mnohokrát opravovány. Naposled roku 1957.
+- Během své existence byly hodiny mnohokrát opravovány. Naposled roku 1957.
 
--   **Demontovány byly v roce 1959 a kompletně uloženy** (nahrazeny strojem Elektročas, který je ve funkci věžních hodin dodnes).
+- **Demontovány byly v roce 1959 a kompletně uloženy** (nahrazeny strojem Elektročas, který je ve funkci věžních hodin dodnes).
 
--   **2010 restaurovány** restaurátorským ateliérem věžních hodin akademických sochařů Petra a Melánie Skálových a v roce 2011 vystaveny ve věžní klenotnici.
+- **2010 restaurovány** restaurátorským ateliérem věžních hodin akademických sochařů Petra a Melánie Skálových a v roce 2011 vystaveny ve věžní klenotnici.
 
 **U**vedené archivní zápisy a nalezené signatury nedávají jednoznačnou odpověď na stáří hodin, ani jednoznačně neurčují jejich tvůrce. Rovněž není jasné jejich umístění ve věži, počet ciferníků a ani umístění a počet odbíjecích cimbálů. Stáří stroje bohužel nepotvrzují nalezené signatury. Rám signován není. Nejstarší nalezená signatura je z roku 1743.
 
@@ -35,7 +35,7 @@ scrapedAt: "2026-04-27T17:36:37.648Z"
 
 **R**ám byl několikrát přestavován, takže záseky, které měly usnadňovat jeho montáž, již neodpovídají dnešnímu stavu. O novějších přestavbách svědčí i to, že na hřídeli lanového bubnu jicího stroje se nachází jedno ozubené kolo bez zjevné funkce. Nejpravděpodobnější se jeví hypotéza o přestavbách do původního rámu.
 
-**Z**e zachovaných 4 ručkových převodů je jeden výrazně starší. Je kován z ručně vyrobené pásnice. Na ostatní je již použito železo kované hamrem. To potvrzuje domněnku, že hodiny měly původně jen jeden ciferník a byly patrně v jiném místě než nyní. Kdy byly hodiny rozšířeny o rozvodovku a další ciferníky nevíme. Žádný ze zápisů neuvádí 4 ciferníky. Vždy se píše jen o jednom ciferníku (sféře). Z vyobrazení věže je zřejmé, že nejpozději na přelomu 19. a 20. století bylo na věži ciferníků více .
+**Z**e zachovaných 4 ručkových převodů je jeden výrazně starší. Je kován z ručně vyrobené pásnice. Na ostatní je již použito železo kované hamrem. To potvrzuje domněnku, že hodiny měly původně jen jeden ciferník a byly patrně v jiném místě než nyní. Kdy byly hodiny rozšířeny o rozvodovku a další ciferníky nevíme. Žádný ze zápisů neuvádí 4 ciferníky. Vždy se píše jen o jednom ciferníku (sféře). Z vyobrazení věže je zřejmé, že nejpozději na přelomu 19. a 20. století bylo na věži ciferníků více.
 
 **D**alší nejasnosti v datování, existenci a umístění se týkají cimbálů. První zmínka o cimbálech je již z roku 1490. Neuvádí, kde se cimbály nalézali. Barokní střecha věže, kde jsou nyní pod druhou bání umístěné, je až z roku 1750. Lze se domnívat, že dříve se cimbály nacházely ve zvonici s ostatními zvony.
 

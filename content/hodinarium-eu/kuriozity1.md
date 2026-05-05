@@ -12,13 +12,13 @@ tldr: 'Reálné hodiny převážně elektronické'
 ---
 **Reálné hodiny převážně elektronické**
 
--   [hodiny z osciloskopu](http://www.webx.dk/oz2cpu/clock-scope/scope.htm)
--   * * *
+- [hodiny z osciloskopu](http://www.webx.dk/oz2cpu/clock-scope/scope.htm)
+- * * *
 
--   [digitronky](http://www.cathodecorner.com/)
--   [hezké galerie digitronek](http://www.nixieclocks.de/english/gallery/index.php)
--   [české stránky o digitronkách](http://www.digitron.cz/)
--   [a ještě](http://www.electricstuff.co.uk/nixclock.html)
--   [Nixie Clock Galery](http://www.electricstuff.co.uk/nixclock.html) ( i z telefonních krokových voličů lze udělat hodiny )
--   seznam dalších zde
--   * * *
+- [digitronky](http://www.cathodecorner.com/)
+- [hezké galerie digitronek](http://www.nixieclocks.de/english/gallery/index.php)
+- [české stránky o digitronkách](http://www.digitron.cz/)
+- [a ještě](http://www.electricstuff.co.uk/nixclock.html)
+- [Nixie Clock Galery](http://www.electricstuff.co.uk/nixclock.html) ( i z telefonních krokových voličů lze udělat hodiny )
+- seznam dalších zde
+- * * *

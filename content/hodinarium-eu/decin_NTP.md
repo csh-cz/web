@@ -45,10 +45,10 @@ Jako první NTP server jsme zvolili zařízení na platformě Routerboardu Mikro
 
 Základní vlastnosti:
 
--   Jakýkoliv typ napájení PoE 10 - 60V a 802.3at nebo mikroUSB;
--   Integrovaná bezdrátová karta 802.1b/g/n včetně antény;
--   L4 licence SW RouterOS vhodná pro AP nebo WiFi klienta i pro zprovoznění NTP serveru v režimu Broadcast
--   10/100Mbps LAN
+- Jakýkoliv typ napájení PoE 10 - 60V a 802.3at nebo mikroUSB;
+- Integrovaná bezdrátová karta 802.1b/g/n včetně antény;
+- L4 licence SW RouterOS vhodná pro AP nebo WiFi klienta i pro zprovoznění NTP serveru v režimu Broadcast
+- 10/100Mbps LAN
 
 V předinstalované konfiguraci slouží zařízení jako malý WiFi přístupový bod do Internetu (AP). Bylo nutné ho nastavit "opačně", aby WiFi bylo jako WiFi klient a LAN konektor jako výstup pro hodiny. Do zařízení byl doinstalován balíček NTP verze 6.30.4, která již umožňuje nastavit Broadcast IP adresu. Zařízení nyní pracuje tak, že se pomocí vestavěné WiFi připojí do internetu nebo se LAN sítí připojí k místnímu GPS PPS serveru a získá časovou informaci. Interní NTP server začne jako "Broadcast" vysílat každou minutu NTP pakety k hodinám. Výhodou celého řešení je jeho kompaktnost a spolehlivost. Po výpadku napájení dojde spolehlivě k restartu.
 
@@ -64,11 +64,11 @@ V roce 2020 jsme sekci NTP serverů rozšířili o průmyslově vyráběný, av�
 
 [![družice 8.6.2020](/img/elektrika/NTP/druzice.png)](http://gnssmissionplanning.com/App/Skyplot)
 
--   Time synchronization accuracy: 100 ns
--   NTP v2, v3, v4 (RFC 1119, RFC 1305,RFC5905), SNTP v3 a v4 (RFC 1769, RFC 2030)
--   NTP LAN timing accuracy: 0.5-2 ms
--   Support constellation: GPS L1, Beidou B1, GLONASSL1, Galileo E1, SBAS (WAAS, EGNOS, MSAS)
--   Implicitní IP 192.168.0.100
+- Time synchronization accuracy: 100 ns
+- NTP v2, v3, v4 (RFC 1119, RFC 1305,RFC5905), SNTP v3 a v4 (RFC 1769, RFC 2030)
+- NTP LAN timing accuracy: 0.5-2 ms
+- Support constellation: GPS L1, Beidou B1, GLONASSL1, Galileo E1, SBAS (WAAS, EGNOS, MSAS)
+- Implicitní IP 192.168.0.100
 
 Zkratkou GPS, tedy Global Positioning System, je míněn obecný družicový systém pro určování polohy na zeměkouli. Informace o poloze má značný vojenský význam, proto je vyvíjeno více národních systémů. Označení GPS přešlo do obecné mluvy jako označení nejen pro americký systém NOVASTAR GPS, ale pro jakýkoliv elektronický systém zjišťování polohy. Zde uváděn čínský BeiDou, ruský GLONASS, evropský systém Galileo, nebo družice systému QZSS doplňkově používané pro Japonsko. O vlastním nezávislém systému se mluví také v Británii. Kromě Galilea jde zejména o vojenské systémy, které pro civilní použití mají obvykle sníženou přesnost, protože přesnější údaje jsou šifrovány. Dne 8.6.2020 bylo na oběžné dráze již 134 takových družic. Podívejte se sami. Nastavte si polohu a spusťte animaci na stránce [gnssplanning.com](https://www.gnssplanning.com/#/skyplot).
 
@@ -76,7 +76,7 @@ Podstatné je, že nové NTP servery umí časovou informaci získat z většiny
 
 První a nejznámější je americký systém NOVASTAR GPS. Tvoří ho 30 družic kroužících na přesně specifikovaných oběžných drahách asi 20 tisíc km nad zemí. Družice jsou vybaveny přijímačem, vysílačem, atomovými hodinami a dalšími přístroji pro navigaci a speciální účely. Každá družice vysílá kódované informace o přesném čase,signál PPS (přesné pulzy jednou za sekundu), informaci o své poloze ve vesmíru a přibližné poloze ostatních družic systému. Pro příjem a zpracování vysílaných signálů byly vyvinuty speciální přijímače. K určení polohy potřebuje přijímač zachytil alespoň 3 až 4 družice. Součástí vysílaného signálu je časová informace ve formátu UTC (Universal Time Coordinated), ke kterému jsou vztaženy časové základny hlavních hodin a časových center. Lokální čas lze zadat přidělením časové zóny s informací o změně letního času. Výhodou tohoto systému je celosvětový dosah a vysoká přesnost časové informace.
 
-Doplňme ještě, že družice Galileo nesou dva druhy hodin: Rubidiové atomové hodiny (Rubidium Atomic clocks) a vodíkové „maserové“ atomové hodiny (Hydrogen Maser /Microwave Amplification by Stimulated Emission of Radiation).
+Doplňme ještě, že družice Galileo nesou dva druhy hodin: Rubidiové atomové hodiny (Rubidium Atomic clocks) a vodíkové „maserové” atomové hodiny (Hydrogen Maser /Microwave Amplification by Stimulated Emission of Radiation).
 
 * * *
 
@@ -92,12 +92,12 @@ Je otázka, jak (ne)přesný NTP server na starším 32 bitové notebooku s Lubu
 
 ## Odkazy
 
--   [Wikipedii](https://cs.wikipedia.org/wiki/GPS) — cs.wikipedia.org. [cit. 2026-04-28]
--   [Přesnost atomových hodin, GPS a teorie relativity](https://www.osel.cz/3225-presnost-atomovych-hodin-gps-a-teorie-relativity.html) — osel.cz. [cit. 2026-04-28]
--   [www.gpsntp.com](http://www.gpsntp.com/) — gpsntp.com. [cit. 2026-04-28]
--   [Konfigurace NTP serveru](https://martinuvzivot.cz/konfigurace-ntp-serveru/) — MartinuvZivot. [cit. 2026-04-28]
--   [Synchronizace času (obsáhlá informace od MEINBERG )](https://kb.meinbergglobal.com/kb/time_sync/start) — kb.meinbergglobal.com. [cit. 2026-04-28]
--   [NTP server na bázi Arduina](https://forum.arduino.cc/t/ntp-time-server/192816) — Arduino Forum. [cit. 2026-04-28]
--   [Digitální hodiny řízené protokolem NTP](https://dspace.vutbr.cz/bitstream/handle/11012/39582/final-thesis.pdf?sequence=-1) — dspace.vutbr.cz. [cit. 2026-04-28]
+- [Wikipedii](https://cs.wikipedia.org/wiki/GPS) — cs.wikipedia.org. [cit. 2026-04-28]
+- [Přesnost atomových hodin, GPS a teorie relativity](https://www.osel.cz/3225-presnost-atomovych-hodin-gps-a-teorie-relativity.html) — osel.cz. [cit. 2026-04-28]
+- [www.gpsntp.com](http://www.gpsntp.com/) — gpsntp.com. [cit. 2026-04-28]
+- [Konfigurace NTP serveru](https://martinuvzivot.cz/konfigurace-ntp-serveru/) — MartinuvZivot. [cit. 2026-04-28]
+- [Synchronizace času (obsáhlá informace od MEINBERG )](https://kb.meinbergglobal.com/kb/time_sync/start) — kb.meinbergglobal.com. [cit. 2026-04-28]
+- [NTP server na bázi Arduina](https://forum.arduino.cc/t/ntp-time-server/192816) — Arduino Forum. [cit. 2026-04-28]
+- [Digitální hodiny řízené protokolem NTP](https://dspace.vutbr.cz/bitstream/handle/11012/39582/final-thesis.pdf?sequence=-1) — dspace.vutbr.cz. [cit. 2026-04-28]
 
 Text a řešení expozice: Ing. Petr Král

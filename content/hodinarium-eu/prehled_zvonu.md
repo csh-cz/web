@@ -12,11 +12,11 @@ tldr: 'Soběslavská věž v první podobě vznikla někdy na přelomu 12. a 13.
 ---
 **S**oběslavská věž v první podobě vznikla někdy na přelomu 12. a 13.století. Zdá se, že již tehdy na ní zvony byly. První zmínka odkazuje na rok 1210. Ve druhé polovině 15. stol. se již uvádějí zvony čtyři:
 
--   **Starý** – pocházející snad ještě z doby předhusitské, 959 kg
--   **Cerazský** (později zvaný **Poledník**, případně Jan Evangelista) – vysvěcený v roce 1490, 486 kg
--   **Marie** - vysvěcený v roce 1492, 252 kg
-    (zvon prask r. 1811 a byl přelit pražským zvonařem Karlem Bellmannem v roce 1852. Nesl ornamentální výzdobu a nápis (volně přeloženo) !PŘELITÝ ZA ČASŮ PRVNÍHO CONSTITUČNÍHO PURKMISTRA JOSEFA PALETY A RADNÍCH AUGUSTINA BUZKA , MUDr. BRAULIKA A ANTONÍNA BÍLKA". )
--   **Velký (později zvaný [Petr Pavel](/clanky/zvon_petr_pavel)) – vysvěcený v roce 1492, 1440 kg
+- **Starý** – pocházející snad ještě z doby předhusitské, 959 kg
+- **Cerazský** (později zvaný **Poledník**, případně Jan Evangelista) – vysvěcený v roce 1490, 486 kg
+- **Marie** - vysvěcený v roce 1492, 252 kg
+    (zvon prask r. 1811 a byl přelit pražským zvonařem Karlem Bellmannem v roce 1852. Nesl ornamentální výzdobu a nápis (volně přeloženo) !PŘELITÝ ZA ČASŮ PRVNÍHO CONSTITUČNÍHO PURKMISTRA JOSEFA PALETY A RADNÍCH AUGUSTINA BUZKA, MUDr. BRAULIKA A ANTONÍNA BÍLKA". )
+- **Velký (později zvaný [Petr Pavel](/clanky/zvon_petr_pavel)) – vysvěcený v roce 1492, 1440 kg
     **(v roce 1663 po poškození bleskem nově přelit)
 
 V roce 1716 byl nově vyroben zvon Umíráček.
@@ -25,7 +25,7 @@ V roce 1716 byl nově vyroben zvon Umíráček.
 
 Citujme z listu, který je uložen u zachovaného úlomku Cerazkého zvonu:
 
-"Upomínka na soběslav. Jana evangelistu, zvonu tzv. „cerazském“
+"Upomínka na soběslav. Jana evangelistu, zvonu tzv. „cerazském”
 
 Po téměř půl tisíciletí vyzváněly chudým i bohatým zvony Soběslavské. Ve chvílích slavnostních, veselých i ponurých! Až dozněly! Naposled se rozhlaholily v harmonickém souladu a loučily se s městem i širým krajem večer v pondělí 16/X 1916 a hlaholem teskným, slzavým. Vzdorovaly po staletí ničivému zubu času i zlobě lidské. Přečkaly nájezdy nepřátelské za častých válek a vzdorovaly, až v osvíceném století dvacátém, věku zázračných vynálezů, pokroku a –humanity- hrůza a děs bezpříkladné války světové rázem roztříštily a zničily velebný onen hlahol zvonů - a navždy!"
 
@@ -38,9 +38,9 @@ Zajímavé je, že polovina vojáků si dává za odměnu cigárko.
 
 Zvon Petr Pavel však dlouho osamocen nezůstal. Po válce byly vyrobeny a **v roce 1925** slavnostně vysvěceny zvony zasvěcené:
 
--   **Sv. Václavu** 878 kg (na dobové fotografii vpravo)
--   **Janu Nepomuckému** 599 kg
--   **Panně Marii** 408 kg
+- **Sv. Václavu** 878 kg (na dobové fotografii vpravo)
+- **Janu Nepomuckému** 599 kg
+- **Panně Marii** 408 kg
 
 *![sundavani zvonu 1942](/img/vez/zvony/f/sundavani_zvonu1942.jpg)*
 

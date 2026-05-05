@@ -16,15 +16,15 @@ tldr: 'Potřebujeme, nebo si jen přejeme, hodiny, které jdou přesně a správ
 
 ## Hlavní způsoby řízení hodin a synchronizace času
 
--   mechanické řízení
--   pneumatické řízení
--   řízení polarizovanými elektrickými impulzy po speciálním vedení
--   řízení frekvencí rozvodné sítě
+- mechanické řízení
+- pneumatické řízení
+- řízení polarizovanými elektrickými impulzy po speciálním vedení
+- řízení frekvencí rozvodné sítě
 
--   synchronizace časovou informací po speciálním vedení (sériové kódování, MOBAline, ...)
--   synchronizace pomocí radiové vysílání OMA 50, radiové vysílání DCF 77, televizní vysílání, ...
--   synchronizace pomocí satelitní signál GPS, Beidou, GLONASS, Galileo, QZSS
--   řízení času NTP servery v místních sítích i v internetu
+- synchronizace časovou informací po speciálním vedení (sériové kódování, MOBAline, ...)
+- synchronizace pomocí radiové vysílání OMA 50, radiové vysílání DCF 77, televizní vysílání, ...
+- synchronizace pomocí satelitní signál GPS, Beidou, GLONASS, Galileo, QZSS
+- řízení času NTP servery v místních sítích i v internetu
 
 ## Mechanické řízení a řízení vůbec
 
@@ -161,16 +161,16 @@ V okně monitoru vidíme situaci, kdy pokusný NTP server je nainstalován na po
 
 ### Legenda:
 
--   **\***Aktuální a preferovaný zdroj.
--   \+ Další kandidát pokud aktuální vypadne (považovaný za dobrý zdroj).
--   remote – IP nebo hostname vzdáleného NTP serveru.
--   refid – Reference zdroje. GPS znamená, že čas je synchronizovaný pomocí družic, nebo může se objevit i PPS (pulse per second). ATOM jsou atomové hodiny či velmi přesný krystal
--   st – Stratum, který udává vrstvu časového zdroje v [hierarchii](https://www.ntp-zeit.de/images/stratum-levels.jpg). Čím menší číslo, tím přesnější čas.t – Typ zasílané zprávy (u=unicast, m=multicast, b=broadcast, l=local,..).
--   when – Počet sekund, které uplynuly od NTP odpovědi (synchronizace).
--   pool – Při naplnění časovače when, vyšle NTP klient žádost o další synchronizaci
--   reach – Stav synchronizace v hodnotě hexa, každá logická 1 níže reprezentuje nový přijatý paket (z prava).delay – Odezva (round trip time) v ms (od vyslání NTP žádosti po NTP odpověď).
--   offset – Časový rozdíl v ms mezi NTP klientem a zdrojem.
--   jitter – Rozdíl mezi NTP odpověďmi ( v překladu "chvění")
+- **\***Aktuální a preferovaný zdroj.
+- \+ Další kandidát pokud aktuální vypadne (považovaný za dobrý zdroj).
+- remote – IP nebo hostname vzdáleného NTP serveru.
+- refid – Reference zdroje. GPS znamená, že čas je synchronizovaný pomocí družic, nebo může se objevit i PPS (pulse per second). ATOM jsou atomové hodiny či velmi přesný krystal
+- st – Stratum, který udává vrstvu časového zdroje v [hierarchii](https://www.ntp-zeit.de/images/stratum-levels.jpg). Čím menší číslo, tím přesnější čas.t – Typ zasílané zprávy (u=unicast, m=multicast, b=broadcast, l=local,..).
+- when – Počet sekund, které uplynuly od NTP odpovědi (synchronizace).
+- pool – Při naplnění časovače when, vyšle NTP klient žádost o další synchronizaci
+- reach – Stav synchronizace v hodnotě hexa, každá logická 1 níže reprezentuje nový přijatý paket (z prava).delay – Odezva (round trip time) v ms (od vyslání NTP žádosti po NTP odpověď).
+- offset – Časový rozdíl v ms mezi NTP klientem a zdrojem.
+- jitter – Rozdíl mezi NTP odpověďmi ( v překladu "chvění")
 
 Aby nedocházelo k přetěžování konkrétních NTP serverů, zadává se místo konkrétního počítače, jméno poolu NTP serverů. Pool obsahuje dynamický seznam počítačů dobrovolně přidaných do projektu. Dotazy jsou tak posílány cca každou hodinu jiným serverům. Popis problematiky synchronizace času v Internetu přesahuje rámec této stránky. Podrobnější informace najdete na [www.ntp.org](http://www.ntp.org/) nebo česky třeba [zde](http://www.hw.cz/Teorie-a-praxe/Dokumentace/ART1027-Presny-cas-na-PC-prostrednictvim-Internetu.html) nebo [zde](http://www.eecis.udel.edu/%7Emills/ntp/html/index.html). Popis nastavení třeba [zde](https://martinuvzivot.cz/konfigurace-ntp-serveru/).
 
@@ -188,12 +188,12 @@ K síti mohou být připojeny i speciální strojky podružných hodin, které �
 
 Odkazy:
 
--   [Časová znamení v rozhlase](https://radiozurnal.rozhlas.cz/casova-znameni-10-dil-ceska-republika-6303408)
--   [NTP servery v Hodináriu](/clanky/decin_NTP)
--   [Synchronizace času pomocí NTP](http://is.muni.cz/th/143076/fi_m/thesis.pdf) - diplomová práce
--   [Čas a kmitočet](https://dml.cz/bitstream/handle/10338.dmlcz/138777/PokrokyMFA_25-1980-3_4.pdf) - PMFA 1980 - O. Buzek, J. Čermák
--   [Osel.cz](http://osel.cz/index.php?clanek=1458)
--   [NTP: Filozofie synchronizace času po Internetu](http://www.lupa.cz/clanky/ntp-filozofie-synchronizace-casu-po-internetu/)
--   [Česká firma Vaelektronik](http://www.vaelektronik.cz/) vyrábějící široký sortiment přijímačů časového kódu DCF77 a další výrobky
+- [Časová znamení v rozhlase](https://radiozurnal.rozhlas.cz/casova-znameni-10-dil-ceska-republika-6303408)
+- [NTP servery v Hodináriu](/clanky/decin_NTP)
+- [Synchronizace času pomocí NTP](http://is.muni.cz/th/143076/fi_m/thesis.pdf) - diplomová práce
+- [Čas a kmitočet](https://dml.cz/bitstream/handle/10338.dmlcz/138777/PokrokyMFA_25-1980-3_4.pdf) - PMFA 1980 - O. Buzek, J. Čermák
+- [Osel.cz](http://osel.cz/index.php?clanek=1458)
+- [NTP: Filozofie synchronizace času po Internetu](http://www.lupa.cz/clanky/ntp-filozofie-synchronizace-casu-po-internetu/)
+- [Česká firma Vaelektronik](http://www.vaelektronik.cz/) vyrábějící široký sortiment přijímačů časového kódu DCF77 a další výrobky
 
 !

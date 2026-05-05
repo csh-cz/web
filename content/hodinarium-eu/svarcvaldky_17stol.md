@@ -34,4 +34,4 @@ Pozornosti nemůže uniknout ani ciferníková deska velmi netradičních propor
 Pro ty, kteří vládnou polštinou, uvádím původní text popisu aukce:**
 klasztorny szwardzwald 1650r**
 
-*sprzedaje jednnego z pierwszych szwardzwaldow oceniam go na ,,okolo 1650 rok praktycznie caly jest z drewna KWADRANSOWY KURANT NA DZWONKI naciag rzedowy nie stety zachowal sie tylko jeden dzwonek ale jest wzor , jest trzy wagowy na jelita baranie niestety kamieni nie mam bo z tego co slyszalem za wagi sluzyly kamienie , wszystkie kola drewniane kompletny poza drobiazgami tak jak jelita wskazowki,,, posiada wychwyt kolebnikowy wys.50 szer, 22cm*
+*sprzedaje jednnego z pierwszych szwardzwaldow oceniam go na ,,okolo 1650 rok praktycznie caly jest z drewna KWADRANSOWY KURANT NA DZWONKI naciag rzedowy nie stety zachowal sie tylko jeden dzwonek ale jest wzor, jest trzy wagowy na jelita baranie niestety kamieni nie mam bo z tego co slyszalem za wagi sluzyly kamienie, wszystkie kola drewniane kompletny poza drobiazgami tak jak jelita wskazowki,,, posiada wychwyt kolebnikowy wys.50 szer, 22cm*

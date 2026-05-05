@@ -62,7 +62,7 @@ Chceme se o svou radost s vámi podělit, proto jsme několik textů z návště
 
 > Krásné staré stroje. Krásný pohled do minulosti.
 
-> „Náhodou jsme zabloudily!" Ale při parkování jsme cosi zahlédly. „Oj!" Vešly jsme dovnitř a zůstaly stát! „Tikotot" nás vedl. Najednou se před námi zjevila místnost „KDE ČAS MÁ SVŮJ DŮM." Děkuji.
+> „Náhodou jsme zabloudily!” Ale při parkování jsme cosi zahlédly. „Oj!” Vešly jsme dovnitř a zůstaly stát! „Tikotot” nás vedl. Najednou se před námi zjevila místnost „KDE ČAS MÁ SVŮJ DŮM.” Děkuji.
 
 > Moc se nám to líbilo a pán krásně viprávěl. *Anička.*
 
@@ -90,7 +90,7 @@ Chceme se o svou radost s vámi podělit, proto jsme několik textů z návště
 
 > Přemohla jsem ty strašné schody a byla odměněna pohledem na úžasné časostoje.
 
-> Krásné město, krásné památky, krásné „věžní muzejíčko".
+> Krásné město, krásné památky, krásné „věžní muzejíčko”.
 
 > Děkujeme za poutavý výklad, který byl navíc mile nečekaný. Přejeme mnoho úspěchů v další činnosti.
 

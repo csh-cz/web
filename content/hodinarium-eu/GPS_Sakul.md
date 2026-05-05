@@ -36,14 +36,14 @@ U první verze autorových GPS hodin byl použit Bluetooth(BT) GPS modul. To mě
 
 ### Odkazy
 
--   podrobný popis [gps-hodiny-v2-pe2-2015/n/](https://www.sakul.cz/gps-hodiny-v2-pe2-2015/n/)
--   Komponenty [forum.sakul.cz/viewtopic.php?p=1512#p1512](https://forum.sakul.cz/viewtopic.php?p=1512#p1512)
--   Jiné konstrukce autora - například [stopky nejen pro hasiče](https://www.sakul.cz/stopky-pro-hasice-smd/n)
+- podrobný popis [gps-hodiny-v2-pe2-2015/n/](https://www.sakul.cz/gps-hodiny-v2-pe2-2015/n/)
+- Komponenty [forum.sakul.cz/viewtopic.php?p=1512#p1512](https://forum.sakul.cz/viewtopic.php?p=1512#p1512)
+- Jiné konstrukce autora - například [stopky nejen pro hasiče](https://www.sakul.cz/stopky-pro-hasice-smd/n)
 
--   [GNSS - funkce](https://cs.wikipedia.org/wiki/Glob%C3%A1ln%C3%AD_dru%C5%BEicov%C3%BD_polohov%C3%BD_syst%C3%A9m)
--   [L80\_GPS\_Protocol\_Specification\_V1.1.pdf](/download/GPS_Sakul/L80_GPS_Protocol_Specification_V1.1.pdf)
--   [Jak pracuje GPS - video](https://www.youtube.com/watch?v=_vfzAL5L29Y&feature=youtu.be)
--   [Přesnost atomových hodin, GPS a teorie relativity](https://www.osel.cz/3225-presnost-atomovych-hodin-gps-a-teorie-relativity.html)
--   EGNOS
+- [GNSS - funkce](https://cs.wikipedia.org/wiki/Glob%C3%A1ln%C3%AD_dru%C5%BEicov%C3%BD_polohov%C3%BD_syst%C3%A9m)
+- [L80\_GPS\_Protocol\_Specification\_V1.1.pdf](/download/GPS_Sakul/L80_GPS_Protocol_Specification_V1.1.pdf)
+- [Jak pracuje GPS - video](https://www.youtube.com/watch?v=_vfzAL5L29Y&feature=youtu.be)
+- [Přesnost atomových hodin, GPS a teorie relativity](https://www.osel.cz/3225-presnost-atomovych-hodin-gps-a-teorie-relativity.html)
+- EGNOS
 
 Petr Král s využitím uvedených zdrojů

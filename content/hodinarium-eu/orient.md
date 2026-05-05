@@ -10,7 +10,7 @@ tldr: 'Orient Watch Co., Ltd., japonský výrobce hodinek (o firmě), vyrábí v
 ---
 ![Ciferník Orient CEU07005WX](/img/Orient/orientceu07005wx_dial.jpg)
 
-**Orient Watch Co., Ltd**., japonský výrobce hodinek ([o firmě](https://cs.wikipedia.org/wiki/Orient_Watch)), vyrábí víceleté kalendářní hodinky již mnoho let. Dávají vám okamžité odpovědi na otázky například „jaký je datum příštího pátku?“. [Kalendář](/img/Orient/kalendar.jpg) je založen na dávno známém principu nazývaném sluneční kruh či solární cyklus (lat. circulus solaris, cyclus solaris). To je kalendářní cyklus 28 let, ve kterém se v juliánském kalendáři opakují roky, ve kterých připadají dny v týdnu na stejná data. Na základě slunečního kruhu byla jednotlivým rokům přiřazována tzv. nedělní písmena. Na tomto principu byl i "stoletý kalendář" na kalendářních deskách různých orlojů. I přes nyní používaný Gregoriánský kalendář se tento princip v hodinkách Orient uplatňuje dodnes.
+**Orient Watch Co., Ltd**., japonský výrobce hodinek ([o firmě](https://cs.wikipedia.org/wiki/Orient_Watch)), vyrábí víceleté kalendářní hodinky již mnoho let. Dávají vám okamžité odpovědi na otázky například „jaký je datum příštího pátku?”. [Kalendář](/img/Orient/kalendar.jpg) je založen na dávno známém principu nazývaném sluneční kruh či solární cyklus (lat. circulus solaris, cyclus solaris). To je kalendářní cyklus 28 let, ve kterém se v juliánském kalendáři opakují roky, ve kterých připadají dny v týdnu na stejná data. Na základě slunečního kruhu byla jednotlivým rokům přiřazována tzv. nedělní písmena. Na tomto principu byl i "stoletý kalendář" na kalendářních deskách různých orlojů. I přes nyní používaný Gregoriánský kalendář se tento princip v hodinkách Orient uplatňuje dodnes.
 
 Celý cyklus je založen na tom, že v roce je 52 týdnů po sedmi dnech plus jeden nebo v přestupném roce dva dny. 52 x 7 +1 = 365 dní. Každého roku se tak posune den v týdnu o jeden až dva dny. V Juliánském kalendáři, kde se pravidelně každé čtyři roky vkládá jeden přestupný den je tedy délka cyklu 7 x 4 = 28 let. Právě tolik let je vepsaných do stupnice na hodinkách Orient. Pravděpodobně každoročně se u nových kusů stupnice inovuje tak, aby nejstarší datum byl rok výroby.
 
@@ -22,8 +22,8 @@ Otázkou také je, zda je možné použít kalendářní systém i pro jiné rok
 
 Gregoriánský kalendář, aby vyrovnal rozdíl v tom, že tropický rok není přesně 365,25 dní, zavádí určité výjimky z určení každého čtvrtého roku jako přestupného.
 
--   Výjimka č. 1 : Rok není přestupný, pokud je dělitelný číslem 100 (1700, 1800, 1900, 2100)
--   Výjimka č. 2 z výjimky č.1: Rok, na který se vztahuje výjimka č. 1, je přestupný, pokud je dělitelný číslem 400 (1600, 2000, 2400).
+- Výjimka č. 1: Rok není přestupný, pokud je dělitelný číslem 100 (1700, 1800, 1900, 2100)
+- Výjimka č. 2 z výjimky č.1: Rok, na který se vztahuje výjimka č. 1, je přestupný, pokud je dělitelný číslem 400 (1600, 2000, 2400).
 
 Celý cyklus se tak prodloužil ze 4 na 400 let. To je ovšem příliš dlouhá doba pro jakýkoliv mechanismus. Proto se pro výpočet dní v týdnu i nadále používá cyklus 28 let doplněný o korekci podle toho, do kterého století rok náleží a k jakému pořadí v 28 cyklu náleží počáteční rok na stupnici. Výpočet je značně komplikovaný. Kromě toho, ve kterém místě cyklu se nachází rok, který chceme nastavit, musíme znát ještě místo cyklu pro první rok na stupnici. Jak určit hledanou hodnotu slunečního kruhu se nejlépe dozvíme na stránkách [kalendar.beda.cz](https://kalendar.beda.cz/slunecni-kruh).
 

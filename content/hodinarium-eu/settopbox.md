@@ -14,9 +14,9 @@ Původní představa byla, udělat pro Hodinárium exponát, který by zobrazova
 
 ## Vysílání času ze studia a doba analogová
 
-Kdysi se v analogové televizi vysílal přesný čas přímo z vysílacího studia. Mělo to své praktické i synchronizační důvody. Dnes je situace jiná, zejména kvůli digitalizaci a zpoždění způsobeným zpracováním digitálního signálu. Studia (např. ČST, ČT) měla vlastní hlavní hodiny, synchronizované obvykle z ČSAV nebo přes DCF77 / GPS (v pozdější době). Čas byl někdy zobrazován přímo na obrazovce např. před začátkem vysílání, nebo na testovacích obrazcích. Přesnost byla velmi dobrá – v řádu desetin sekundy, často lepší než ±0.1s. Analogové vysílání bylo v reálném čase, se zanedbatelným zpožděním (do 50–100 ms). Zpoždění bylo předvídatelné, takže čas z obrazovky bylo možné brát jako „oficiální“ čas.
+Kdysi se v analogové televizi vysílal přesný čas přímo z vysílacího studia. Mělo to své praktické i synchronizační důvody. Dnes je situace jiná, zejména kvůli digitalizaci a zpoždění způsobeným zpracováním digitálního signálu. Studia (např. ČST, ČT) měla vlastní hlavní hodiny, synchronizované obvykle z ČSAV nebo přes DCF77 / GPS (v pozdější době). Čas byl někdy zobrazován přímo na obrazovce např. před začátkem vysílání, nebo na testovacích obrazcích. Přesnost byla velmi dobrá – v řádu desetin sekundy, často lepší než ±0.1s. Analogové vysílání bylo v reálném čase, se zanedbatelným zpožděním (do 50–100 ms). Zpoždění bylo předvídatelné, takže čas z obrazovky bylo možné brát jako „oficiální” čas.
 
-ČT ještě v 90. letech vysílala čas s pípáním před zprávami (včetně 5 pípnutí – poslední = přesná sekunda). Tento čas byl synchronizován s „hlavními hodinami“ a považoval se za oficiální etalon. Dnes už tento přesný čas zmizel z obrazu, ale zůstal v datové vrstvě DVB-T2. Na výstupu studia byla přesnost typicky lepší než ±0.1 s. Ale kvůli zpoždění v přenosu (analogové cesty, mikrovlnné spoje, analogové distribuční cesty) se mohla lišit: V analogové TV běžně ±0.2 až ±0.5 s. V rozhlasu bývalo lepší, často ±0.1 s, protože šlo o přímý audio přenos bez konverze.
+ČT ještě v 90. letech vysílala čas s pípáním před zprávami (včetně 5 pípnutí – poslední = přesná sekunda). Tento čas byl synchronizován s „hlavními hodinami” a považoval se za oficiální etalon. Dnes už tento přesný čas zmizel z obrazu, ale zůstal v datové vrstvě DVB-T2. Na výstupu studia byla přesnost typicky lepší než ±0.1 s. Ale kvůli zpoždění v přenosu (analogové cesty, mikrovlnné spoje, analogové distribuční cesty) se mohla lišit: V analogové TV běžně ±0.2 až ±0.5 s. V rozhlasu bývalo lepší, často ±0.1 s, protože šlo o přímý audio přenos bez konverze.
 
 **Časová informace se nepřenášena standardizovaně jako digitální data**, ale **přesto nějaká forma synchronizace a časových signálů existovala.** Časová a jiná data byla přenášena během tzv. "zpětného řádku", přesněji ve vertikálním zatemnění (VBI – Vertical Blanking Interval). V analogové televizi se po každém snímku musel elektronový paprsek ve starých CRT televizorech vrátit zespodu obrazovky zpět nahoru (tzv. vertikální retrace). Během této doby (cca řádky 6–22 v PAL systému) nebyl obraz vysílán, což se využilo k přenosu různých skrytých dat.
 
@@ -28,7 +28,7 @@ Analogové vysílání je v ČR **zcela ukončeno** od roku 2012 (a DVB-T2 od 20
 
 ## Doba digitální - digitální televize a set-top box
 
-V digitálním vysílání se vše se zpracovává **v blocích**: komprese, multiplexace, enkódování atd. Často se přidává **buffer**, **zpoždění z vysílačů**, a **síťová latence**. To způsobuje, že studiový **čas na obrazovce může být opožděn o 1–5 sekund i více**. Čas tedy **už není přímo „živý“**, a proto se dnes **na TV obraz nelze spolehnout pro přesné určení času**.
+V digitálním vysílání se vše se zpracovává **v blocích**: komprese, multiplexace, enkódování atd. Často se přidává **buffer**, **zpoždění z vysílačů**, a **síťová latence**. To způsobuje, že studiový **čas na obrazovce může být opožděn o 1–5 sekund i více**. Čas tedy **už není přímo „živý”**, a proto se dnes **na TV obraz nelze spolehnout pro přesné určení času**.
 
 Typ vysílání
 
@@ -96,7 +96,7 @@ Bez synchronizace rychle driftují
 
 ## Odkazy
 
--   [DIGITÁLNÍ TELEVIZE A DIGITÁLNÍ ROZHLAS SOUČASNOST A PERSPEKTIVY](http://old.roznovskastredni.cz/dwnl/pel2009/06/zalud.pdf) — old.roznovskastredni.cz. [cit. 2026-04-28]
--   [Digitální vysílání: Je uváděný čas skutečně přesný?](www.parabola.cz/clanky/1899/digitalni-vysilani-je-uvadeny-cas-skutecne-presny/) Obsahuje vyjádření různých televizí v ČR na tuto otázku.
+- [DIGITÁLNÍ TELEVIZE A DIGITÁLNÍ ROZHLAS SOUČASNOST A PERSPEKTIVY](http://old.roznovskastredni.cz/dwnl/pel2009/06/zalud.pdf) — old.roznovskastredni.cz. [cit. 2026-04-28]
+- [Digitální vysílání: Je uváděný čas skutečně přesný?](www.parabola.cz/clanky/1899/digitalni-vysilani-je-uvadeny-cas-skutecne-presny/) Obsahuje vyjádření různých televizí v ČR na tuto otázku.
 
 S pomocí AI sestavil Petr Král

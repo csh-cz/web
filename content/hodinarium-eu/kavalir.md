@@ -12,8 +12,8 @@ tldr: 'CHRONO - SKELETOVÉ KYVADLOVÉ HODINY'
 ---
 **CHRONO - SKELETOVÉ KYVADLOVÉ HODINY**
 
--   **VÝROBCE / AUTOR - Ing. JAROSLAV KAVALÍR**
--   **design - Pavel Hrubý**
+- **VÝROBCE / AUTOR - Ing. JAROSLAV KAVALÍR**
+- **design - Pavel Hrubý**
 
 **Více na [www.kavalir.cz/hodiny](http://www.kavalir.cz/hodiny/)**
 

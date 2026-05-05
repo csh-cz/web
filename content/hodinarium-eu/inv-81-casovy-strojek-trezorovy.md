@@ -38,4 +38,4 @@ V Hodináriu je vystaven funkční časový zámek **Thomas Fox Mechanical Time 
 
 * * *
 
-*Text převzat z informačního panelu expozice „Časový zámek" (Hodinárium Děčín, 2017).*
+*Text převzat z informačního panelu expozice „Časový zámek” (Hodinárium Děčín, 2017).*

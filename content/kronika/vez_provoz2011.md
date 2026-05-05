@@ -16,7 +16,7 @@ scrapedAt: "2026-04-27T17:36:33.395Z"
 
 > Provozní doba věže je denně od 9 do 17 hodin v červenci a srpnu. Většinu času lze do hlavní místnosti muzejíčka pouze nahlížet. **Komentovaná prohlídka hodinářské expozice** bude vždy v poslední hodině nebo po dohodě.
 >
-> ### Mimo prázdniny je možné si návštěvu dohodnout na info @ orloj . eu nebo na tel 603 50 27 35.
+> ### Mimo prázdniny je možné si návštěvu dohodnout na info @ orloj. eu nebo na tel 603 50 27 35.
 >
 > ### Poslední otevření v roce 2011 je v sobotu 17.9. od 9 do 12 hodin.
 
@@ -26,21 +26,21 @@ scrapedAt: "2026-04-27T17:36:33.395Z"
 
 ## V sezóně 2011 je ve věži vystaveno:
 
--   **[Starý kovaný věžní stroj](/clanky/vez1) se základem patrně z r. 1484**, pozdější samostatný stroj pro čtvrťové bití, ručičkové převody, bicí kladiva a kamenná závaží.
+- **[Starý kovaný věžní stroj](/clanky/vez1) se základem patrně z r. 1484**, pozdější samostatný stroj pro čtvrťové bití, ručičkové převody, bicí kladiva a kamenná závaží.
 
 > Hlavní a nejzajímavější exponát, který pochází z doby legendárního "[mistra Hanuše](http://www.orloj.eu/cs/mistr_hanus.htm)", dříve považovaného za autora Pražského orloje.
 
--   **[Věžní hodiny Julius Hiemann](/clanky/vez_decin)** ze saského Lipska z roku **1884** nabízí srovnání technologií po 400 letech.
--   **[Věžní komplet ze zámku Býchory](/clanky/bychory_prokes1)**, který obsahuje čtvrťový **stroj zhotovený soboteckým hodinářem Prokešem v roce 1868.** Komplet doplňují cimbály ulité v slévárně Anny,dcery Karla Bellmanna, a unikátní **zvonicí stroj,** který svým zvoněním na hlavní cimbál ohlašoval začátek a konec pracovní doby a přestávky na oběd na pile nedaleko zámku Býchory.
--   Ve věži je v normálním provozu [**stroj Elektročas z rolu 1959**](/clanky/vez_elektrocas1959).
--   **[Sestava rozvodů](/clanky/bychory_dalsi_kola)** pro 3 ciferníky ze zvoničky Svinky. Datováno před rok 1902.
--   **Několik výstavek** - švarcvaldky, elektromechanické hodiny, hodiny z bakelitu, práce klientů soběslavské Rolničky, různé typy sluneční hodin, například [**polarizační sluneční hodiny**](/clanky/slunecni_polarizacni) atd.
--   Opakovaná **foto výstava** pana Marušáka - **600 let Pražského orloje**.
--   Showslide fotografií věže a okolí a fotografií z přípravných prací muzejíčka od více fotografů.
--   **Potřeby pro výroby zvonů, postup výroby forem**, ...
--   **Hlavní zvon věže cca 1800 kg**
--   **Gotická skříň** z roku 1482 používaná jako městská klenotnice. Klenotnice je dosud osazena párem původních zámků na záskočku. Pro příští rok připravujeme miniexpozici věnovanou středověkým zámkům. Hledáme spolupracovníka pro tuto oblast.
--   Další věžní zajímavosti: dveře pobité ručně kovaným plechem, **rumpál se svislým válcem**, kachlová kamna hlásného, ...
+- **[Věžní hodiny Julius Hiemann](/clanky/vez_decin)** ze saského Lipska z roku **1884** nabízí srovnání technologií po 400 letech.
+- **[Věžní komplet ze zámku Býchory](/clanky/bychory_prokes1)**, který obsahuje čtvrťový **stroj zhotovený soboteckým hodinářem Prokešem v roce 1868.** Komplet doplňují cimbály ulité v slévárně Anny,dcery Karla Bellmanna, a unikátní **zvonicí stroj,** který svým zvoněním na hlavní cimbál ohlašoval začátek a konec pracovní doby a přestávky na oběd na pile nedaleko zámku Býchory.
+- Ve věži je v normálním provozu [**stroj Elektročas z rolu 1959**](/clanky/vez_elektrocas1959).
+- **[Sestava rozvodů](/clanky/bychory_dalsi_kola)** pro 3 ciferníky ze zvoničky Svinky. Datováno před rok 1902.
+- **Několik výstavek** - švarcvaldky, elektromechanické hodiny, hodiny z bakelitu, práce klientů soběslavské Rolničky, různé typy sluneční hodin, například [**polarizační sluneční hodiny**](/clanky/slunecni_polarizacni) atd.
+- Opakovaná **foto výstava** pana Marušáka - **600 let Pražského orloje**.
+- Showslide fotografií věže a okolí a fotografií z přípravných prací muzejíčka od více fotografů.
+- **Potřeby pro výroby zvonů, postup výroby forem**, ...
+- **Hlavní zvon věže cca 1800 kg**
+- **Gotická skříň** z roku 1482 používaná jako městská klenotnice. Klenotnice je dosud osazena párem původních zámků na záskočku. Pro příští rok připravujeme miniexpozici věnovanou středověkým zámkům. Hledáme spolupracovníka pro tuto oblast.
+- Další věžní zajímavosti: dveře pobité ručně kovaným plechem, **rumpál se svislým válcem**, kachlová kamna hlásného, ...
 
 ## Prohlídková trasa
 
