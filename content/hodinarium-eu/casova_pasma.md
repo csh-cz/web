@@ -42,8 +42,6 @@ Do kategorie opravdových pásmovek patří hodiny **Digi-tech - Hodiny se svět
 
 *(Trochu kacířská myšlenka. Nešlo by to bez pásmového času??? I tento systém existuje. [**Jeden svět - jeden čas** aneb **zavináčový internetový čas.**](decimalky.htm#internet))*
 
-* * *
-
 ![pásmové hodiny](/img/ujete/scaleclock.jpg)
 
 ## Pásmovky mohou ale vypadat i jinak.

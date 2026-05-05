@@ -12,8 +12,6 @@ scrapedAt: "2026-04-27T17:36:32.117Z"
 ---
 **Český spolek horologický nyní buduje [Hodinárium na zámku Děčín](/clanky/decin_koncepce). Přesun hodinářské expozice byl vyvolán postojem soběslavské radnice. Nová expozice tak sice přišla o [nejstarší exponát,](/clanky/vez1) získala však mnohem větší prostory a podporu vedení zámku. Následující text a ilustrující fotografie berte jako vzpomínku na několikaleté působení spolku na věži. I po odsunu hodinářské technologie na věži zůstává [starý soběslavský stroj](/clanky/vez1) a zvonařská část. Stojí za to věž navštívit.**
 
-* * *
-
 ![Fotografie 10](/img/vez/28_11_2010/foto_010.jpg)
 
 *Bývá zvykem, že muzeum je tvořeno několika místnostmi, rozmístěnými na ploše. Ve věži je tomu trochu jinak. Zde musíte k jednotlivým částem expozice vystupovat po poněkud krkolomném schodišti.* *Ve většině věží je cílem návštěvníků dostat se až nahoru a obdivovat pohled do okolí.* *Soběslavská věž nabízí zajímavé pohledy už během cesty.*
@@ -60,8 +58,6 @@ Ve věži najdeme ozubená kola i u rumpálu, který usnadňoval život hlásné
 Ke klenotnici patří i pancéřové dveře a staré zámky. Bohužel se zámky na původních gotických dveřích pobitých ručně kovaným plechem nedochovaly.
 
 Virtuální audio procházku se Světlanou Lavičkovou v pořadu Odysea si můžete poslechnout na stránkách **archivu ČRo2 - Praha - iRadio**, kde si můžete pořad vyhledat nebo použít **přímý odkaz na mp3 pořadu**.
-
-* * *
 
 ## Odkazy
 

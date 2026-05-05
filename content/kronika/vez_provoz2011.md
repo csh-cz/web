@@ -55,5 +55,3 @@ scrapedAt: "2026-04-27T17:36:33.395Z"
 Všechny vás v průběhu prázdnin zveme na návštěvu a doporučujeme současně
 navštívit v Rožmberském domě výstavu **Soběslav - město pětilisté růže**
 a také **expozici hodin** na nedalekém [**zámku Brandlín**](http://www.zamekbrandlin.cz/)
-
-* * *

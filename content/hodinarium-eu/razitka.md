@@ -55,8 +55,6 @@ policy
 - [interval.cz/clanky/elektronicke-casove-razitko-doplnek-elektronickeho-podpisu](http://interval.cz/clanky/elektronicke-casove-razitko-doplnek-elektronickeho-podpisu) Elektronické časové razítko, doplněk elektronického podpisu - obsáhlý článek na Interval.cz
 - [vsol.obce.cz/clanek.asp?id=2006111](http://vsol.obce.cz/clanek.asp?id=2006111)Časové razítko - krátký článek na obce.cz
 
-* * *
-
 Časová![](/img/razitko2.jpg)![](/img/razitko1.jpg)razítka u elektronických souborů je věc poměrně nová. Jsou to jakási razítka virtuální. Přesto se Virtuální muzeum zajímá spíše o historická reálná razítka. I v minulosti bylo nutné osvědčit nějaký čas.
 
 **N**ejznámější značkovací hodiny byly **hodiny docházkové - píchačky**.

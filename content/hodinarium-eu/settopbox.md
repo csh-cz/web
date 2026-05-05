@@ -24,8 +24,6 @@ V těchto řádcích se přenášel zejména Teletext. Byl přenášen digitáln
 
 Analogové vysílání je v ČR **zcela ukončeno** od roku 2012 (a DVB-T2 od 2020). Možnost získání času z analogového signálu už **prakticky neexistuje**.
 
-* * *
-
 ## Doba digitální - digitální televize a set-top box
 
 V digitálním vysílání se vše se zpracovává **v blocích**: komprese, multiplexace, enkódování atd. Často se přidává **buffer**, **zpoždění z vysílačů**, a **síťová latence**. To způsobuje, že studiový **čas na obrazovce může být opožděn o 1–5 sekund i více**. Čas tedy **už není přímo „živý”**, a proto se dnes **na TV obraz nelze spolehnout pro přesné určení času**.
@@ -49,8 +47,6 @@ IPTV (O2TV, apod.)
 HbbTV, streamy
 
 5–30 s
-
-* * *
 
 **Digitální televize a set-top boxy** získávají čas několika možnými způsoby, v závislosti na technologii příjmu (DVB-T, DVB-C, DVB-S, IPTV) a výrobci zařízení. Přesnost se pohybuje typicky v řádu **sekund**, ale u některých typů může být i lepší. Přehled podle typu:
 
@@ -91,8 +87,6 @@ Interní hodiny
 ±minuty až hodiny
 
 Bez synchronizace rychle driftují
-
-* * *
 
 ## Odkazy
 

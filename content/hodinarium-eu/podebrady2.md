@@ -27,8 +27,6 @@ V roce 1966 květinové hodiny byly opraveny panem Milošem Flossmannem z Ostrov
 
 I nyní se stroj opravuje a bude uložen v muzeu. Pod hodiny se už nevrátí. :-(
 
-* * *
-
 ![květinové hodiny bez květin](/img/podebrady/primky2.jpg)**V** roce 2006 dochází k razantnímu řešení. V rámci projektu "Rehabilitace centrálního lázeňského parku v Poděbradech" byl namontován nový stroj PRIM. Dodavatelem hodinářské technologie byla ELTON hodinářská, a.s. Výsledkem jsou celoročně fungující zahradní hodiny se systémem odbíjení bronzovými zvony. Pozoruhodné je použití třetí vteřinové ručičky. U exteriérových hodin je to věc nevídaná.
 
 Na obrázku zimní úprava hodin.

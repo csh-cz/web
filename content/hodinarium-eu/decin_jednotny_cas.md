@@ -30,8 +30,6 @@ Odkazy: Götsch, Taschenbuch für Fernmeldetechniker 1950, Teil 2Ww 285: Die ele
 
 ![detail a](/img/elektrika/jednotny_cas/artdeco/f/detail_a.jpg)
 
-* * *
-
 ## Hodiny značené firmou Jednotný čas
 
 [![podružné hodiny art deco](/img/elektrika/jednotny_cas/artdeco/celek_jednotny_cas.jpg)](/img/elektrika/jednotny_cas/artdeco/f/celek_jednotny_cas.jpg)
@@ -53,8 +51,6 @@ Strojek je navržen pro napětí 6V s cívkou cca 300 ohm. Jeho konstrukce je po
 Protože je celý strojek zapuštěn do schrány a seřirovaví kolečko je normálně nepřístupné, muselo se seřizování provádt přímo za ručičky. Tím odpadl problém s polaritou impulzů.
 
 \* \* \*
-
-* * *
 
 ### Odkazy
 

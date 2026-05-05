@@ -19,8 +19,6 @@ Aby mohl být u synchronních hodin zajištěn přesný časový údaj, bylo nut
 Stránka byla vytvořená na základě knihy pana Zdeňka Martínka - DĚJINY ČESKOSLOVENSKÉHO HODINÁŘSKÉHO PRŮMYSLU
 a informací poskytnutých Ing. Mariánem Majerníkem z Slovenského technického múzea Košice.
 
-* * *
-
 Zatím bez podrobnějšího popisu uvádíme několik náčrtků patrně z roku 1924, použitých u patentu 17,779 z roku 1930 USA. Na obrázcích je zejména rozkresleno několik způsobů startů synchronních motorů (ručních i elektromagnetických).
 
 ![Laplace patent USA 1930](/img/laplace/patent_fig1.jpg)
@@ -36,8 +34,6 @@ Zatím bez podrobnějšího popisu uvádíme několik náčrtků patrně z roku 
 ![Laplace patent USA 1930](/img/laplace/patent_fig9.jpg)
 
 ![Laplace patent USA 1930](/img/laplace/patent_fig10.jpg)
-
-* * *
 
 ## Novodobá skeletová přestavba
 

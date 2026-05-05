@@ -21,8 +21,6 @@ V Hodináriu je tato technologie zastoupena podružnými hodinami Bodet (Profil 
 
 Po připojení napětí hodiny zaujmou klidovou polohu (12:00, 4:00 nebo 8:00 hodin) a vyčkávají na příchod několika NTP paketů s časovou informací. Poté se nastaví na požadovaný čas. To může trvat několik minut. Hodiny mají dva motory. Samostatně se nastavuje sekundová ručička, je tedy obvykle nastavena jako první a současně se nastavují minuty a hodiny. Podrobný popis vystavovaného exempláře můžete najít v [manuálu](/download/NTP/Analogue_clocks_Profil930-940NTPSlaveClockInstructions.pdf). Bez NTP signálu jdou hodiny autonomně 24 hodin, pak se nastaví do polohy 12:00.
 
-* * *
-
 ![schema použití NTP v Hodináriu](/img/elektrika/NTP/NTPschema2.jpg)
 
 K hodinám samozřejmě firma Bodet a mnoho jiných nabízí profesionální síťové hlavní hodiny či NTP časové servery. Pro použití v sítích nepřipojených do Internetu jsou tyto servery synchronizovány signálem DCF 77 nebo nyní spíše GPS. Jako obvyklá přesnost nastavení času se uvádí hodnota lepší než +- 0,5 ms. Tato přesnost je vyvážena relativně vyšší cenou. Servery jsou v ceně již od 15.000.- Kč, avšak obvykle je cena mnoho desítek tisíc Kč.
@@ -31,11 +29,7 @@ Pro instalaci v Hodináriu jsme naopak hledali řešení co nejlevnější a nej
 
 Použité hodiny Bodet potřebují "trvale" vysílaný časový signál NTP serveru (Broadcast). V expozici zatím pouze NTP server na bázi MikroTiku takovou informaci vysílá, proto jsou hodiny synchronizovány z něho. Pro vlastní synchronizaci může Mikrotik použít internet i místní GPS NTP server. Má tedy dvě nezávislé cesty k získání přesného času a je tak odolný vůči případným výpadkům. Bez NTP signálu jdou hodiny Bodet většinou nějakou dobu autonomně.
 
-* * *
-
 Do sestavy je také připojen i [NTP to DCF simulátor](https://papouch.com/dcf-simulator-generator-signalu-dcf77-p2685/) firmy Papouch store s.r.o. pro řízení [elektromagnetických sedmisegmentových displejů](/clanky/elektromagneticke_segmenty) zobrazujících internet Swatch time. DCF simulátor umí v úrovních TTL generovat stejný sled pulzů, jako vysílá DCF 77. Hlavní výhodou je podstatně vyšší spolehlivost díky nezávislosti na kvalitě bezdrátového signálu. Alternativně místo přijímače DCF můžeme použít i [konvertorem GPS-DCF dle GR projektu](http://www.grother.de/gps-to-dcf77-module.html). Výhodou je, že v půdním prostoru se snáze přijímá GPS signál a také, že tento konvertor má poměrně dobré vnitřní hodiny a drží dlouho čas i bez signálu.
-
-* * *
 
 ## MikroTik jako NTP server v režimu Broadcast
 
@@ -51,8 +45,6 @@ Základní vlastnosti:
 - 10/100Mbps LAN
 
 V předinstalované konfiguraci slouží zařízení jako malý WiFi přístupový bod do Internetu (AP). Bylo nutné ho nastavit "opačně", aby WiFi bylo jako WiFi klient a LAN konektor jako výstup pro hodiny. Do zařízení byl doinstalován balíček NTP verze 6.30.4, která již umožňuje nastavit Broadcast IP adresu. Zařízení nyní pracuje tak, že se pomocí vestavěné WiFi připojí do internetu nebo se LAN sítí připojí k místnímu GPS PPS serveru a získá časovou informaci. Interní NTP server začne jako "Broadcast" vysílat každou minutu NTP pakety k hodinám. Výhodou celého řešení je jeho kompaktnost a spolehlivost. Po výpadku napájení dojde spolehlivě k restartu.
-
-* * *
 
 ## NTP Server pro sítě GPS, BeiDou, GLONASS, Galileo, QZSS, ... s využitím PPS
 
@@ -77,8 +69,6 @@ Podstatné je, že nové NTP servery umí časovou informaci získat z většiny
 První a nejznámější je americký systém NOVASTAR GPS. Tvoří ho 30 družic kroužících na přesně specifikovaných oběžných drahách asi 20 tisíc km nad zemí. Družice jsou vybaveny přijímačem, vysílačem, atomovými hodinami a dalšími přístroji pro navigaci a speciální účely. Každá družice vysílá kódované informace o přesném čase,signál PPS (přesné pulzy jednou za sekundu), informaci o své poloze ve vesmíru a přibližné poloze ostatních družic systému. Pro příjem a zpracování vysílaných signálů byly vyvinuty speciální přijímače. K určení polohy potřebuje přijímač zachytil alespoň 3 až 4 družice. Součástí vysílaného signálu je časová informace ve formátu UTC (Universal Time Coordinated), ke kterému jsou vztaženy časové základny hlavních hodin a časových center. Lokální čas lze zadat přidělením časové zóny s informací o změně letního času. Výhodou tohoto systému je celosvětový dosah a vysoká přesnost časové informace.
 
 Doplňme ještě, že družice Galileo nesou dva druhy hodin: Rubidiové atomové hodiny (Rubidium Atomic clocks) a vodíkové „maserové” atomové hodiny (Hydrogen Maser /Microwave Amplification by Stimulated Emission of Radiation).
-
-* * *
 
 ![Monitor LUBUNTU](/img/elektrika/NTP/monitor_decin.jpg)
 

@@ -60,6 +60,4 @@ Panel 1 je v aktuálním uspořádání doplněn ještě o:
 - [matiční hodiny Ericsson](/sbirka/karta/inv-90-maticni-ericsson/) — kyvadlové, s pákovými impulzy do kyvadla;
 - [hodiny Kienzle](/sbirka/karta/inv-91-hodiny-kienzle/) — kyvadlové, *akvizice 2025*.
 
-* * *
-
 *Text panelu je oficiální popis kurátora expozice (M. Baudisch, ČSH 2017, aktualizováno 2026-05).*

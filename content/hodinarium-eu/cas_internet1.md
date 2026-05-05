@@ -14,8 +14,6 @@ tldr: 'Zobrazení času na www pomocí aktivních technologií můžeme řešit 
 
 I následující kuriózní hodiny pocházejí z tohoto archivu.
 
-* * *
-
 **V**lastní řešení textového použití JAVA scriptu jsou rozeseta na tomto serveru ([římské digitálky](/clanky/rimskedigi), [normální hodiny](/clanky/normalni) a pod.)
 
 Mnoho zajímavých hodin bylo vytvořeno technologií FLASH. Ta již teď není podporována.

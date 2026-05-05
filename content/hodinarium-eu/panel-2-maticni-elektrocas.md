@@ -34,6 +34,4 @@ Panel je dále osazen napájecím zdrojem staršího provedení se [selenovým u
 
 Ukázku podružných hodin zastupuje [strojek firmy Hainz](/sbirka/karta/inv-100-strojek-hainz/), [velké nástěnné](/sbirka/karta/inv-98-podruzne-hodiny-velke/) a [malé bakelitové (4 ks)](/sbirka/karta/inv-99-podruzne-hodiny-male-4x/). Nově (akvizice 2020) i stolní strojek [Jednotný čas](/sbirka/karta/inv-101-jednotny-cas/).
 
-* * *
-
 *Text panelu je oficiální popis kurátora expozice (M. Baudisch, ČSH 2017, aktualizováno 2026-05).*

@@ -93,8 +93,6 @@ Hodiny demontovány a nahrazeny novým strojem
 
 **[*Mistra Hanuše*](http://www.orloj.eu/cs/mistr_hanus.htm)***, tedy Jana Růže, zdokonalitele Pražského orloje nepřipomínáme náhodou. Hodiny v Soběslavské věži souvisejí s Jindřichovým Hradcem a v Jindřichově Hradci poněkud [**nejasně zmizely**](/clanky/kardasova_recice) jiné vzácné hodiny mistra Hanuše. Nabízí se otázka, zda rám soběslavského stroje nepochází z těchto ztracených hodin. Prostor pro badatele je tedy otevřen .*
 
-* * *
-
 ### Nalezené signatury a datace - velký stroj:
 
 !
@@ -105,13 +103,9 @@ Hodiny demontovány a nahrazeny novým strojem
 
 **Johan Höner Kraslice 1743**
 
-* * *
-
 !
 
 **Wasmon 1791**
-
-* * *
 
 !
 
@@ -123,12 +117,8 @@ Hodiny demontovány a nahrazeny novým strojem
 
 **Karl Kraszl 1806**
 
-* * *
-
 !**
 Joseph Kotrbeletz**
-
-* * *
 
 ### Malý stroj (čtvrtek)
 

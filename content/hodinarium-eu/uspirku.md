@@ -24,8 +24,6 @@ Občas se také za skřípotu roztočí některá kola a převíjí se řetěz s
 
 Obecně se na tomto serveru vyjadřuji kritiky k přestavbám historických strojů pomocí elektroniky. Zde je situace jiná. Zde vzniklo zdařilé samostatné dílo dobře sladěné s celým interiérem.
 
-* * *
-
 Po čase jsem restauraci znovu navštívil a ukázalo se, že ve stejném styly byly výzdoba doplněna o lustry a další hodiny. Hodiny vlevo jsou obzvláště vypečené. Pohyblivé rameno nese zdroj světla. Stínem svislé tyčky hodiny ukazují čas podobně jako je tomu u hodin slunečních. Hodiny vpravo je další "mechanická" fantazie. Docela by se hodily do našeho Hodinária. Škoda, že autora se nám stále nepodařilo vypátrat.
 
 ![mechanické slunecni](/img/vezni/praha/uspirku3.jpg)

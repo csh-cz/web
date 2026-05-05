@@ -31,8 +31,6 @@ Naštěstí v běžném životě pro nastavení na rok mimo rozsah nemusíme ten
 
 [![Ciferník Orient CEU07005WX](/img/Orient/raketa.jpg)](/img/Orient/raketa.jpg)
 
-* * *
-
 ## Kalendářní systém hodinek Raketa
 
 Na stejném principu je založen víceletý kalendářní systém hodinek Raketa. Číselníky jsou sice uspořádány jinak, ale jde o stejné údaje. Nastavený rok proti měsíci je v dolní části hodinek. V horní části je sedm sloupců s daty, nad kterými se nastaví stupnice dnů v týdnu.

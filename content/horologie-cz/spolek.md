@@ -41,12 +41,6 @@ Spolek se schází **jednou měsíčně, mimo letní prázdniny** (červenec a s
 
 ## Transparentní účet [2801617704 / 2010](https://ib.fio.cz/ib/transparent?a=2801617704)
 
-* * *
-
-* * *
-
-* * *
-
 ## **Stručně z činnosti spolku:**
 
 - **2006** **Vznik webu muzeumhodin.info** a postupný vznik komunity kolem webu nazývané "Shluk přátel kuriózních hodin".
@@ -114,26 +108,8 @@ Spolek se schází **jednou měsíčně, mimo letní prázdniny** (červenec a s
 
 !**
 
-* * *
-
-* * *
-
-* * *
-
-* * *
-
-* * *
-
-* * *
-
 **![Prototyp nového služebního vozidla shluku. (Bohužel předčasně objeveno serverem www.plesk.zde.cz)](/img/ujete/vozidlo4.jpg)**
 
 **Poznámka na okraj:** **Připomeňme jen, že Český spolek horologický vznikl zásadní proměnou ze **Shluku přátel kuriózních hodin**, který nebral svou existenci až tak vážně. Konečně tedy nastala doba, kdy můžeme " i psát zápisy z valných hromad a výborových sezení". Již na první valné hromadě jsme konstatovali, že účastníci jsou řádně sešlí a snášení schopní (ze schodů).;**
 
 **Připomeňme si, že Shluk přátel kuriózních hodin byla neoficiální organizace, která jako tři sudičky stála ve dvou zástupech u zrodu tohoto serveru. Shluk byl jakýmsi tahounem naší činnosti. (Viz obrázek). Za jeho čelního postavení bylo učiněno několik epochálních vynálezů. Jmenujme alespoň [římské digitálky](/clanky/rimskedigi). Sdružení bylo založeno také proto aby se k nám oficiální místa již neobracela svými oficiálními zády. To bylo tenkrát.....**
-
-* * *
-
-* * *
-
-* * *

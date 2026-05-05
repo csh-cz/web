@@ -44,8 +44,6 @@ Wilsonův vynález byl jedním z prvních, který kombinoval: klasické mechanic
 
 Tyto přístroje představují počátky průmyslové evidence pracovní doby a zároveň vývojový krok mezi k moderním docházkovým systémů. Každý dochovaný exemplář je dnes vzácným muzeálním předmětem, který dokumentuje přechod od řemeslné mechaniky k automatizaci – a zároveň vznik pozdějšího impéria IBM.
 
-* * *
-
 ![Fotografie 1](/img/Timometer/f/foto_0001.jpg)
 
 ![Fotografie 10](/img/Timometer/f/foto_0010.jpg)
@@ -64,7 +62,5 @@ Tyto přístroje představují počátky průmyslové evidence pracovní doby a 
 ![Fotografie 5](/img/Timometer/f/foto_0005.jpg)
 
 ![Fotografie 6](/img/Timometer/f/foto_0006.jpg)
-
-* * *
 
 Ing. Petr Král

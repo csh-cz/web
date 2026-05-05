@@ -14,8 +14,6 @@ tldr: "Ještě nedávno většina zaměstnanců začínala svou pracovní směnu
 
 Ještě nedávno většina zaměstnanců začínala svou pracovní směnu "odpíchnutím" příchodu. Na snímku fronty zaměstnanců před píchačkami IBM v USA. Elektronické kontrolní hodiny či různé čipy se používají dodnes. Obvykle mechanické hodiny "píchačky" natiskly čas příchodu či odchodu na příslušné místo kontrolního lístku. Hodiny IBM na obrázku, zaznamenávaly čas na papírový pás podle klikou zvoleného čísla zaměstnance. Protože mnozí se s kontrolními hodinami nikdy nesetkali, začínáme v sezóně 2018 budovat novou expozici "píchaček". Expozice bude obsahovat desítky známých i neznámých kontrolních hodin pro zaměstnance, strážné nebo třeba i pro holuby, protože i zde se používají hodiny se záznamem času. Zastoupeny budou značky tuzemské i zahraniční.
 
-* * *
-
 ![Stroj Bürk - Bundy](/img/pichacky/DSCN0109.JPG)
 
 ![Kontrolní hodiny Bürk - Bundy - ilustrační obrázek](/img/pichacky/19141443794.jpg)Vlajkovou lodí je neobvyklý stroj**
@@ -39,8 +37,6 @@ U našeho exponátu se bohužel nezachoval odlitek předního kola s otvory pro 
 
 Tyto píchačky jsou druhým hlavním exponátem. Elektrický stroj se synchronním motorem je dílem konstruktéra ing. Roberta Michla. Více o hodinovém stroji najdete na stránce [Laplace](/clanky/laplace). Píchačky vznikly patrně ve firmě ČKD.
 
-* * *
-
 V expozici dále mimo jiné najdete značky Pragotron či Benzing. Zastoupen bude i výrobek z USA. Pokud třeba máte nějaké zajímavé píchačky, časová razítka, ponocenské či holubářské hodiny a jste ochotni je zapůjčit, rádi expozici rozšíříme.
 
 ![Pragotron DK3N](/img/pichacky/PragotronDK3Njpg.jpg)
@@ -48,8 +44,6 @@ V expozici dále mimo jiné najdete značky Pragotron či Benzing. Zastoupen bud
 ![Pragotron DK8](/img/pichacky/PragotronDK8.jpg)![Benzing](/img/pichacky/Benzing.jpg)
 
 ![razítko IBM?](/img/pichacky/razitko.jpg) .....
-
-* * *
 
 ## Druhy kontrolních hodin podle workclocks
 
@@ -88,8 +82,6 @@ Tento příklad byl časným vynálezem Edwarda G Watkinsa, který vyústil v za
 ### Fotografický záznamník
 
 Na tento vynález narazil autor webu workclocks, když procházel stovky patentů o píchačkách. Předpoklá, že fotografický záznamník nikdy nedosáhl výrobní etapy, ale musí to být zde uveden pro inovativní design na tu dobu (Londýn 1898).Koncept byl kombinací hodin, tiskařského mechanismu a kamery a časového razítka. Fotografie obličeje zaměstnance při zahájení a opuštění práce.
-
-* * *
 
 ## Odkazy
 

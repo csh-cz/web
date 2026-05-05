@@ -29,6 +29,4 @@ Hodiny **HN350** (Elekon) — pokračovatelská řada k [HN61](/sbirka/karta/inv
 
 V Soupisu exponátů můj 3.xls (zdroje/baudisch2/Seznam.xlsx) je položka uvedena bez přiděleného inv. č., proto pracovní označení **inv. x13**. Po dohodě s kurátorem (Baudisch) se přidělí řádné inv. č. v navazujícím Soupisu.
 
-* * *
-
 *Stub karty. Po obdržení technického popisu od kurátora a doplnění inv. č. v Soupisu odstraňte tuto poznámku.*

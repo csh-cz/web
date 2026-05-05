@@ -42,8 +42,6 @@ Nejlevnější nové DCF hodiny lze patrně získat zakoupením vestavného modu
 
 **Signál DCF 77** je možné použít **i k synchronizaci systémových hodin počítače**. Potřebujeme k tomu speciální radiový modul. Abychom vyloučili možnou nedostupnost signálu nebo rušení v bezprostřední vzdálenosti od počítače, vestavuje se přijímač signálu do externího zařízení často připojeného na sériový port počítače ( RS 232 ). Vlastní synchronizaci řídí speciální ovladač.
 
-* * *
-
 ## Jiné vysílače:USA WWVB, Japonsko JJY, Čína BPC, Velká Británie MSF
 
 ![Hodinky EH-23GA](/img/WWVB/EH-23GA.jpg)
@@ -57,8 +55,6 @@ Alespoň nouzovým řešením by mohl být simulátor či emulátor vysílače. 
 Lze jít i jinou cestou. Na internetu jsou návody, jak si vyrobit vlastní synchronizační vysílač například na [jednočipovém zařízené](https://hackaday.com/2014/03/22/build-your-own-radio-clock-transmitter/). Více o tom třeba na [WWVB transmitter](https://sites.google.com/site/cisc071jc/public/experiments/wwvb-transmitter). Samozřejmě, že výkon musí být natolik omezený, aby se tato časová informace nešířila dál než do nastavovaných hodinek. Za jakých podmínek je to povoleno uvádí závěr článku v předchozím odkazu. Asi nejvíc mě oslovil návod na [μWWVB: Malá stanice WWVB](https://www.anishathalye.com/2016/12/26/micro-wwvb/). μWWVB je stojan na hodinky, který automaticky nastavuje čas na položených náramkových hodinkách. Systém získává správný čas pomocí GPS (případněě zinternetu) a nastavuje rádiem řízené hodiny emulováním amplitudově modulovaného časového signálu.
 
 Jako pamětník si vzpomínám na klasické rádio schopné mimo jiné přijímat i tyto vysílače na dlouhých vlnách a předat časovou informaci do hodinek vloženách do komůrky v rádiu. Citlivost přijímače v hodinkách nemusela být velká. Kdyby někdo tušil, jaká začka to byla, osvěžte prosím mou paměť.
-
-* * *
 
 ## DCF vysílač v současnosti
 

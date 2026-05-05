@@ -155,8 +155,6 @@ chronologický výpis z archivních dokumentů a hypotézy vzniku
 
 - **2010 byly restaurovány restaurátorským ateliérem věžních hodin akademických sochařů Petra a Melánie Skálových.**
 
-* * *
-
 Podle archivních výpisů sestavil Petr Lintner
 
 Pokračujte **[Od historie k hypotézám](/clanky/sobeslav2c)**

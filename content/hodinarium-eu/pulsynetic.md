@@ -16,13 +16,9 @@ tldr: '![Pulsynetic 1935](/img/elektrika/pulsynetic/p1959_3.jpg)'
 
 Expozice Hodinária bude rozšířená o mateční hodiny z produkce firmy Gent & Co ze série označované jako PUL-SYN-ETIC. Konkrétně jde o "Gents C7 Pulsynetic master clock". Informace na této stránce se opírají jednak o vlastní zkušenosti s rekonstrukcí torza tohoto stroje a jednak o zdroje uvedené v části odkazy. Najdete tam mnoho netradičních řešení jako je řízení doby kyvu kyvadla elektromagnetickým vkládáním závažíčka na misku kyvadla, zvonek signalizující slabou baterii a zejména legendární věžní stroj Waiting Train.
 
-* * *
-
 ### Jak to všechno začalo
 
 John Thomas Gent začal podnikat v roce 1872. Říká se, že firma GTGent & Co. byla jedna z prvních, která začala s výrobou elektrických zvonů ve Velké Británii. V prvních letech se Gent zajímal o rozvoj elektrických zařízení, včetně telefonů, požárních hlásičů a další zařízení. V roce 1903 byla zaregistrována akciová společnost Gent & Co. Gent společně s pány Parsons a Stavely krátce nato začal vyrábět hodinové výrobky, známé nakonec jako řada „PUL-SYN-ETIC”. V roce 1907 završená slavným věžním strojem Waiting Train. Dalo by se říci, že Parsons, Stavely a Ball byli důmyslní vynálezci, kteří společně vytvořili obrovské množství vynikajících hodinářských výrobků. (Převzato z webu [pulsynetic.eu](http://pulsynetic.eu/) )
-
-* * *
 
 ![zapojení podružných hodin](/img/elektrika/pulsynetic/schema1.jpg)
 
@@ -77,8 +73,6 @@ Na fotografiích vpravo jsou dva základní detaily: "vyčkávací" soukolí a H
 Systém se vyráběl od roku 1907 ve společnosti Gent & Co. v Halifaxu. Na obrázku je patrně model z roku 1930. Uvádí se, že stroj mohl pohánět 4 ciferníky průměru 1,8 metru nebo jeden ciferník cca 2,3 metry.
 
 O tomto neobvyklém stroji existuje od roku 2008 [blog](http://waitingtrain.blogspot.cz/) obdivovatelů a restaurátorů výrobků Genst. Velmi podrobně popisuje funkce a restaurování jednotlivých strojů. Je tam uveřejněn i [schematický výkres](/img/pulsynetic/f/wt_named_parts_big.jpg). Najdete tam informace o mnoha provedeních stroje WT i dalších výrobků firmy. Můžete si tam přečíst, jaké zkušenosti s ním mají sběratelé, například jak se snaží odstranit hluk, aby bylo možné si stroj v chodu dát do obýváku. Potěší i [video](https://youtu.be/VwSTKJxhaa4).
-
-* * *
 
 ### Odkazy
 

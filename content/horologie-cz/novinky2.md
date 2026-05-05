@@ -11,25 +11,17 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 
 - V dubnu 2017 probíhá přestavba pro snažší prohlížení z mobilních telefonů. Web je značně rozsáhlý a je udržován jen dobrovolnicky. Přestavba se poněkud protáhne
 
-* * *
-
 - 3.1.2016 [Toulavá kamera navštívila Hodinárium](/clanky/decin_toulava_kamera2016)
-
-* * *
 
 - 29.12.2015 [Kovaný stroj Wenzel Mellner](/clanky/decin_Wenzel_Mellner) zakoupený naším sponzorem se začíná restaurovat.
 - 4\. 9. 2015 První otevření Hodinária Děčín
 - 20\. 8. 2015 Instalován [elektrický bicí stroj Brillie](/clanky/decin_bici_stroje)
 - 6\. 8. 2015 Výstavka 2015 v Hodináriu Děčín. [Výtvarné miniatury ve tvaru kostky - Dr. Jaroslav Adam](/clanky/kostky)
 
-* * *
-
 - **V období srpen 2015 proběhla velká inovaci stránek v souvislosti s opuštěním Věžního muzejíčka Soběslav a budování [Hodinária Děčín](/clanky/decin_koncepce). Byly dle možností zkontrolovány odkazy na stránkách a nefunkční odkazy byly zručeny. Programové komponenty byly upravovány tak, aby vyhovovaliy prohlížečúm v tomto období. Některé méně důležité stránky byly odstraněny. Protože za v jistém smyslu nové byly všechny stránky nejsou některé opravdové novinky zaznamenány.**
 
-- 6\. 3. 2015 Nový [slovník hodinařiny](/clanky/paichl_knihy_hodiny_hodiny_slovnik_slovnik) pana Paichla
+- 6\. 3. 2015 Nový slovník hodinařiny pana Paichla *(původní zdroj zanikl)*
 - 29\. 9. 2014 [Pilové hodiny se samonivelačním fyzikálním kyvadlem](/clanky/pilovky)
-
-* * *
 
 - 12\. 4. 2013 Synchronní hodiny [LAPLACE](/clanky/laplace)
 - 8\. 4. 2013 Fotogalerie [Mindelheim](/clanky/mindelheim)
@@ -37,14 +29,10 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 20\. 2. 2013 [Osvobozování Fausta](/clanky/faust)
 - 11\. 2. 2013 [Přírůstek Věžního muzejíčka - špindlový věžní stroj](/clanky/vez_Kli)
 
-* * *
-
 - 21\. 7. 2012 Kalendářní hodiny [Datumatic](/clanky/datumatik)
 - 16\. 5. 2012 Věžní muzejíčko - [restaurování stroje](/clanky/vez_Prysk) z kostela Horní Prysk
 - 29\. 4. 2012 Věžní muzejíčko - [restaurování barokního "ministroje" stroje](/clanky/vez_Zlate_Hory) z kostela ve Zlatých horách
 - 29\. 4. 2012 Věžní muzejíčko - Příprava sezóna 2012 - [výstava fotografií známých zvonů](/clanky/sezona2012_foto_marusak). Plánovaná výstava [steapunkových šperků](/clanky/steampunk).
-
-* * *
 
 - 30.10.2011 [Odlévání zvonu Petr Vok](/clanky/zvon_petr_vok)
 - 9\. 8. 2011 Soběslavské hodiny - [co se píše v archivech](/clanky/sobeslav2b) a [od historie k hypotézám](/clanky/sobeslav2c)

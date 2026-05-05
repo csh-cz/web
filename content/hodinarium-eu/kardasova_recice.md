@@ -25,8 +25,6 @@ V třídílném Mistopisu Řečice Kardašovy vydaném cca před 80 lety se pí�
 
     Článek: Karl Fischer Die Uhrmacher in Böhmen und Möhren informaci přejímá: Koncem 16. století již tyto hodiny nešly. Roku 1604 byl požádán taufar (pozn. překl. taufar - novokřtěnec, často cestující hodinář), zda by bylo možné staré hodiny opravit, či zda vyrobit hodiny nové. Hodinář po prohlídce hodin vysvětlil, že "hodiny předchozí mistr vyrobil s tak nedobrými a nesprávnými proporcemi, že by jejich oprava byla příliš nákladná”. Městská rada Nového města tedy nechala hodiny Mistra Hanuše, na základě názoru tohoto novokřtěnce o “nedobrých proporcích”, dáti do starého železa a objednala si hodiny nové. (Městský archiv Nového města pražského, Manuale d. Rathauses f. 1604, fol. 131.)
 
-* * *
-
 Zdá se, že Rosický ani Loriš o stavbě nových hodin v roce 1604 nevěděli a na stáří hodin usuzovali jen na základě jim známým písemným pramenů. ![stroj v Kardašově Řečici](/img/vez/KR_stroj.jpg)
 
 ![stroj v Kardašově Řečici](/img/vez/KR_krok.jpg)Je častou chybou čistých historiků, že více spoléhají na písemné prameny, než na dochovaný hmotný stav. Pokud existující hodiny vznikly přestavbou z hodin mistra Hanuše, či z hodin neznámého "taufara", tak jde o přestavbu totální, při níž z původního stroje mnoho nezbylo. Zatím se nepodařilo na stroji zjistit nic, co by potvrzovalo datování k roku 1493. Navzdory autoritám.
@@ -35,11 +33,7 @@ Lze se tedy domnívat, že mistr Hanuš pro Jindřichův Hradec hodiny zhotovil,
 
 V roce 1822 byla v Jindřichově Hradci zbořena městská brána, zvaná Pražská nebo Novoměstská. Společně s Rybniční branou ustoupila moderní městské výstavbě. Hodiny do ní někdy přemístěné tak byly opět volné pro další použití. To se našlo v Kardašově Řečici. Byly umístěny do věže kostela Narození sv. Jana Křtitele. Tam vydržely cca do roku 2012 i když již mimo funkci. Přibližně v před 25 lety byly zastaveny a nahrazeny moderním strojem. Zůstaly uloženy na původním místě na věži farního kostela Narození sv. Jana Křtitele ve stavu na obrázcích.
 
-* * *
-
 ***H**odiny v Kardašově Řečici nemají gotické prvky. Naopak [hodiny v Soběslavi](/clanky/vez1) na gotiku vypadají. Také nějak souvisí s Jindřichovým Hradcem. Poněkud smělá hypotéza naznačuje, že mohlo dojít k využití rámu hodin jinde a že alespoň rám soběslavských hodin může pocházet od mistra Hanuše. Je to zatím otevřený badatelský problém.*
-
-* * *
 
 [![radnice s hodinami v Kardašově Řečici](/img/KardasovaRecice/f/0001.jpg)](/img/KardasovaRecice/f/foto_0002.jpg)
 

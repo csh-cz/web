@@ -44,6 +44,4 @@ Signálem DCF77 jsou řízeny [hodiny Perconta](/sbirka/karta/inv-105-perconta/)
 
 Panel je ještě osazen [synchronními hodinami Siemens](/sbirka/karta/inv-108-maticni-hodiny/), [podružnými hodinami řetězovými](/sbirka/karta/inv-109-retezove/), které ukazují čas v systému 4× šest hodin, a **reklamními synchronními hodinami Spar** ([inv. 110](/sbirka/karta/inv-110-synchronni-spar/) — *akvizice 2023*).
 
-* * *
-
 *Text panelu je oficiální popis kurátora expozice (M. Baudisch, ČSH 2017, aktualizováno 2026-05).*

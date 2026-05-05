@@ -20,8 +20,6 @@ Fotovýstava: Stan. Marušák
 
 Průvodní text výstavy ZVONY ČECH A MORAVY [ke stažení](/download/zvony2012.pdf).
 
-* * *
-
 ![Fotografie 1](/img/vez/foto2012/f/foto_0001.jpg)
 
 ![Fotografie 2](/img/vez/foto2012/f/foto_0002.jpg)![Fotografie 3](/img/vez/foto2012/f/foto_0003.jpg)

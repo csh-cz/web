@@ -15,8 +15,6 @@ scrapedAt: "2026-04-27T17:37:18.662Z"
 
 [**Stáhnout PDF originálu**](/dokumenty/stanovy.pdf) · [Detail v rejstříku](https://or.justice.cz/ias/ui/vypis-sl-detail?dokument=42887580&subjektId=794447&spis=439453)
 
----
-
 ## Článek I — Název spolku
 
 „Český spolek horologický” (dále jen spolek).
@@ -149,7 +147,5 @@ Nábřeží Otakara Ostrčila 273/III, 392 01 Soběslav.
    tyto stanovy účinnosti. Jakákoliv změna stanov nabývá platnosti dnem jejího
    přijetí členskou schůzí a účinnosti dnem, kdy budou vloženy rejstříkovým
    soudem do sbírky listin spolkového rejstříku.
-
----
 
 V Praze dne **5. 6. 2015**.

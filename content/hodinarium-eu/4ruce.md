@@ -12,8 +12,6 @@ tldr: 'S ciferníkem na více stranách hodinové schrány se občas setkáme. U
 
 **N**ejjednodušší je problému se vyhnout a pro každý ciferník použít samostatný stroj. Dnes, v éře elektricky řízených strojů, je to nejčastější a současně nejlevnější řešení. Může se však stát, že na každém ciferníku bude trochu jiný čas. Mechanická řešení přesto zůstávají i u některých rekonstruovaných hodin.
 
-* * *
-
 ***K** napsání této stránky nás inspiroval nález torza mosazného hodinového stroje se synchronním motorem.
 (Pro zvětšení klikněte na obrázek, listujte pomocí kláves nebo zapněte zobrazení galerie.)*
 

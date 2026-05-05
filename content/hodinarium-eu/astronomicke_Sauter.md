@@ -38,8 +38,6 @@ Na snímku zdola jsou od leva páky pro vypnují po východu Slunce, Pevně nast
 
 Výklopná páčka na třetím rameni umožňuje vynechat noční vypnutí. V této poloze vypnutí způsobí kolíkem na vnitřní poloze. Pokud se vyklopí, Je vypínací kolík v poloze, kdy by měl způsobit zapnutí, ale k tomu nedojde, protože zapnuto je. Nedojde ani k vypnutí. Spínač vypně až další páka. Polohu páčky lze sledovat v čelním pohledu podle malé červené šipky na rameni se šroubem označeným číslicí 2.
 
-* * *
-
 ## Příklad ve věžních hodinách
 
 I ve věžních hodinách mohly být vačky východu a západu Slunce. Jedno takové zařízení se dražilo na ebay.de v září 2020. Uvádíme několik fotografií z aukce pro představu.

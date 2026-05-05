@@ -39,8 +39,6 @@ scrapedAt: "2026-04-27T17:36:37.648Z"
 
 **D**alší nejasnosti v datování, existenci a umístění se týkají cimbálů. První zmínka o cimbálech je již z roku 1490. Neuvádí, kde se cimbály nalézali. Barokní střecha věže, kde jsou nyní pod druhou bání umístěné, je až z roku 1750. Lze se domnívat, že dříve se cimbály nacházely ve zvonici s ostatními zvony.
 
-* * *
-
 **V**šechny tyto skutečnosti svědčí o tom, že hodiny byly několikrát přestavovány. Nejstarší částí je patrně jejich rám. Rám, který vypadá na přelom 15. a 16. století. Podobného mínění byl pan David v roce 1939. Po obhlídce stroje vyslovil názor, že podle stavby a předělávek byly hodiny prvně sestavené ještě před vynalezením kyvadla a že jsou starší než z roku 1676. Rám by mohl pocházet z nejstarších soběslavských hodin, z hodin z roku 1484.
 
 ## Jiná možnost
@@ -48,7 +46,5 @@ scrapedAt: "2026-04-27T17:36:37.648Z"
 **J**eště odvážnější hypotéza rovněž předpokládá, že rám hodin pochází z konce 15. století. Nikoliv však z prvních soběslavských hodin, ale z legendárních hodin, které postavil mistr Hanuš, tedy Jan Růže, v roce 1493 pro Jindřichův Hradec. Tyto hodiny se podle mínění některých autorů mají nalézat ve věži v Kardašově Řečici. Podle našeho názoru tam nejsou. Ve věži jsou hodiny podstatně mladší cca z roku 1800, rozhodně nemají gotické prvky. **[Více](/clanky/kardasova_recice)** v samostatné stránce.
 
 **E**xistuje tedy teoretická možnost, že hodiny legendárního mistra Hanuše byly v Jindřichově Hradci někdy v 17. století demontovány. Rám z těch hodin kovaný podobně jako Pražský orloj pak byl roku 1677 Němcem Janem Möltzerem, hodinářem z Jindřichova Hradce použit pro postavení nových soběslavských hodin. Žádné přímé důkazy to však nepotvrzují. Je to zatím otevřený badatelský problém.
-
-* * *
 
 Na základě archivních výpisů sestavených Petrem Lintnerem spekuloval Petr Král

@@ -14,8 +14,6 @@ tldr: 'Druhou skupinou mechanických elektrifikovaných hodin jsou hodiny s impu
 
 **V** konstrukci elektromagnetických hodin můžeme zavést ještě jedno dělení, a to dělení podle způsobu spínání elektrického proudu. Hodiny postupně přecházely od poněkud nespolehlivého **mechanického spínání** (opalování kontaktů, nestejná doba sepnutí, ...) ke spínání elektronickému. Mechanické strojky s **elektronickým spínáním** jsou uvedeny v závěrečné galerii. Samostatnou kapitolou je snaha technickým fíglem zvětšit sílu na spínací kontakty, a tak odstranit jejich nevýhody. Nejpovedenějším řešením je **Hippův kontakt**. V animaci ho vidíte **[zde](animace.htm)**.
 
-* * *
-
 **K**yvadlovým elektricky postrkovaným hodinám se budeme věnovat na samostatné stránce, zatím si můžete stáhnout [**katalog BULLE hodin z r 1925**](/download/elektrika/bulle_catalogue_1925.pdf) (6.6 MB)
 
 **Hodiny ELCHRON Polná

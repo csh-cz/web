@@ -37,8 +37,6 @@ thumbnail: '/img/elektrika/Bodet/Profil930NTP.png'
 
 *Fotky byly auto-detekovány z `/img/H715_BODET/` na základě názvu exponátu. **Foto: archiv Českého spolku horologického**, není-li u konkrétního snímku uvedeno jinak. **Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte; pokud znáte konkrétního autora fotografie, prosíme o doplnění atribuce.***
 
-* * *
-
 ## Stub karty
 
 Tato karta byla **automaticky vygenerována ze Soupisu exponátů**. Obsahuje jen základní strojová data — vyplňte ručně z dokumentu `zdroje/katalog exponátů/Popisy strojů.doc`:

@@ -51,11 +51,7 @@ Uprostřed schodů ve výklenku hned vedle dveří stál černý rytíř. To neb
 
 A Faust jim v dopise slíbil, že dodávka zbylých částí bude až do domu. Tedy do školy. Ale až v pondělí. No, uvidíme, jestli se trefí právě do jejich třídy. Jestli jo, asi dětem budu muset s těmi hodinami zítra pomoct. Ony by je totiž asi bez Fausta, totiž beze mne těžko skládaly.
 
-* * *
-
 Závěrečné dějiství ve škole
-
-* * *
 
 "Tatínku, prosímtě, my tu máme Fausta. Přišel bys nám s ním pomoct?"
 "Fausta, Matýsku?"
@@ -76,8 +72,6 @@ Hurá!!! Tikají. Krásně, dřevěně - Tak - Tok.
 Propukly nadšené ovace a druhá Faustova proklatá obruč byla zlomena.
 
 Děti si to náramně užily a teď už nezbývá než doufat, že nějaký čert ty hodiny se zdi nesrazí. Například houbou. To se tak ve škole někdy stává.
-
-* * *
 
 ![Fotografie 1](/img/faust/f/foto_0001.jpg)
 

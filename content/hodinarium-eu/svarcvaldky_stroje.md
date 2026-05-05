@@ -30,41 +30,27 @@ Povšimněte si prosím,že celodřevěné ozubené kolo (1. zleva) má jeden zu
 
 Celodřevěné, trochu nepřesně datované, hodiny jsou [**zde**](/clanky/svarcvaldky_17stol) na samostatné stránce.
 
-* * *
-
 ![](/img/svarcvald/sw_d1.jpg)
-
-* * *
 
 Polodřevěné hodiny (možná kolem roku 1825), stroje uspořádány za sebou.
 Bicí palička udeří zdola na rozdíl od druhého stroje, kde dopadá shora.
 
 <<<<<<<<
 
-* * *
-
 ![](/img/svarcvald/sw_d2.jpg)
-
-* * *
 
 Polodřevěné hodiny, stroje uspořádány vedle sebe.
 Tento stroj je doplněn kukačkou, ze které zde ovšem téměř nic není vidět.
 \>>>>>>>>
 
-* * *
-
 [!
 
 ](/img/svarcvald/sw_d3.jpg)
-
-* * *
 
 Rám s výškou 135 mm
 Jiná délka kyvadla znamená jiné převodové poměry ozubených kol.
 Přesto stroj vypadá velmi podobně.
 \>>>>>>>>
-
-* * *
 
 <<<<<<<<
 
@@ -72,13 +58,9 @@ Asi dnes nejběžnější **"škoťáky**, neboli **šotské hodiny".** Stroje u
 Výška 92 mm. (měřena mezi základnami)
 Půlové bití.
 
-* * *
-
 ![](/img/svarcvald/sw_d4.jpg)
 
 !
-
-* * *
 
 Hodiny se stroji uspořádanými za sebou, **s kyvadlem umístěným za zadní deskou** oddělenou od stěny distančními sloupky. Uspořádání se používalo spíše u polodřevěných hodin a označovalo se jako **hodiny "štolové"**.
 
@@ -92,27 +74,17 @@ Více fotografií tohoto typu hodin po restaurování si můžete prohlédnout [
 
 \>>>>>>>>
 
-* * *
-
 ![](/img/svarcvald/s-lak2det7.jpg)
-
-* * *
 
 Pérové švarcvaldky s "normálním" uspořádáním strojů.
 Bicí palička však dopadá shora.
 Možná KIENZLE, 30. léta 20. století ?
 <<<<<<<<
 
-* * *
-
 ![](/img/svarcvald/sw_d6.jpg)
-
-* * *
 
 **P**oměrně vzácné **pérové švarcvaldky se stroji stranově obrácenými.**Při pohledu od ciferníku je jicí stroj vpravo, bicí vlevo.
 \>>>>>>>>
-
-* * *
 
 **P**érové stroje nejsou příliš časté. O to víc překvapí drobné variace v provedení. První padne do oka například potřeba různých natahovacích klíčků. Některé natahovací trny jsou 3 mm, jiné 4,5 mm. Všimněte si, že jicí stroj je uložen na pravé straně a má jedno vložené kolo navíc. Prohození strojů není příliš používané. U jiných pérových strojů je uspořádání, řekněme klasické. Pozoruhodné je i to, že osa pérovníku musela být zúžena, aby se vložené kolo vešlo. !
 

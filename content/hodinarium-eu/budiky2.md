@@ -27,8 +27,6 @@ D**oba buzení se zde nastavuje mosaznou ručkou, kterou se otáčí ve směru �
 
 **Hnací soukolí pomocí vačky přetváří točivý pohyb na pohyb kmitavý a ten pomocí kladívka rozezní zvonek.** To je dost podstatný rozdíl proti běžným budicím strojům, které používají krokové ústrojí, respektive kotvu a krokové kolo. Systém s krokovým kolem najdeme i u švarcvaldek například [zde.](budiky1.htm#budik2)
 
-* * *
-
 ## Hodiny menšího průměru s ozdobným závěsem zvonku
 
 ![](/img/budiky1/budik_schw5.jpg)![](/img/budiky1/budik_schw6.jpg)![](/img/budiky1/budik_schw7.jpg)

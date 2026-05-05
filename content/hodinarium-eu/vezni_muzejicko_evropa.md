@@ -20,8 +20,6 @@ V současné době se stále více projevuje snaha probudit a oživit historick�
 
 Snaha o vystavování ve věžích věcí spíše technického charakteru vychází z toho, že technické památky patří k méně využívaným aktivitám cestovního ruchu. V době, kdy klesá zájem o technické vzdělání, by vystavování technických památek s nespornou estetickou hodnotu mohlo zájem o techniku zvýšit. Mnoho dalších lidí stroje věžních hodin nezná. Jsou to pro ně neznámé mechanismy pracují někde mezi nebem zemí skryté ve věžích či za velkými ciferníky různých budov. Možná tato neznalost urychlila jejich překotné nahrazování elekonickými systémy a odsouzení starých strojů do šrotu. Naštěstí se v poslední době stále častěji vyskytují akce při kterých se staré stroje nejen restaurují a vystavují, ale dokonce vracejí zpět do veřejného prostoru. Starému dílu se tak vrací jeho atmosféru, jeho poetiku a posiluje se mnohostranná výpovědní schpnost starého díla. Což vytváří významný, ne-li klíčový předpoklad jeho uchování budoucím generacím".
 
-* * *
-
 ## Klasické hodinářské a zvonařské výstavní expozice.
 
 Mechanický věžní stroj či zvon bývá součástí obvyklých muzejních expozic. Většinou však jako vedlejší a často jediný exponát tohoto druhu. Mezi muzea s rozsáhlejší sbírkou patří NTM Praha, které má ve svých fondech patrně nejvíce věžních hodinových strojů v České republice. V nově otevřené expozici "Měření času" je jich však vystaveno jen několik. Několik věžních strojů vystavuje i [Technické muzeum v Brně](http://www.technicalmuseum.cz/). Nejvíce zvonů v České republice najdeme v expozici [České zvonařství](http://www.nm.cz/Historicke-muzeum/Expozice-HM/Ceske-zvonarstvi.html) (cca 150 exponátů) Národního muzea na zámku ve Vrchotových Janovicích.
@@ -103,15 +101,9 @@ První doložitelná zpráva o hodinách na věži je Merianova rytina z roku 16
 
 Sbírka převážně věžních hodin, kterou shromáždil a muzeum provozuje Ing. Wolfgang Komzak.
 
-* * *
-
 ### Zbytek věžní muzejíčka Soběslav --> Hodinárium Děčín
 
 Muzejíčko mělo za sebou pouhé tři roky existence. Následně byla expozice přesunuta na zámek v Děčíně, zejména pro vstřícnější přístup oficiálních míst a zásadně byla rozšířena. Z věžního muzejíčka Soběslav se stalo půdní "muzeum" s názvem Hodinárium Děčín. V Soběslavi zůstal starý soběslavský stroj. Takových v republice mnoho není. Věž stále stojí za návštěvu.
 
-* * *
-
 **Na stránkách** [https://f-k-turmuhren.de/museen](https://f-k-turmuhren.de/museen)
 najdete mnohem širší přehled muzeí zabývajících se věžními hodinami.**
-
-* * *

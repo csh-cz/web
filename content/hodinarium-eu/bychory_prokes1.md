@@ -143,6 +143,4 @@ Na čtvrtém obrázku je dobře vidět kyvadlový krok.
 
 Na posledním obrázku bicího stroje celých hodin je vlevo nahoře vidět páka pomocného pohonu v době natahování jicího stroje. Páka se zapřela o zuby kola a pomocí (neautentického) závažíčka poháněla jicí stroj.
 
-* * *
-
 *Text vychází z restaurátorské zprávy P. Skály a poznámek členů Českého spolku horologického. Publikováno v rámci konsolidace 5 původních článků o Bychorách (2026-05). Související konstrukční výklad o věžních rozvodech najdete v článku [Další kola made in Prokeš](/sbirka/bychory_dalsi_kola).*

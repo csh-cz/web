@@ -26,8 +26,6 @@ Hodiny jsou vyrobeny 3D tiskem ve dvou variantách a jsou ovládané elektroniko
 - Další nastavení hodin je dostupné na vnitřním webu.
 - Nouzově mohou hodiny jít i bez nastavení vnitřního času, případně lze do hodin přenést čas třeba z telefonu. (Nastavení nouzového času platí do vypnutí hodin.)
 
-* * *
-
 ##
 
 ## Návod k obsluze
@@ -58,11 +56,7 @@ Hodiny jsou vyrobeny 3D tiskem ve dvou variantách a jsou ovládané elektroniko
 - Stisknete na modulu hodin tlačítko. Krátce blikne červená a začnou se vpřed pohybovat rafičky nejvyšší možnou rychlostí. V okamžiku, kdy tlačítko pustíte, považuje řídící jednotka rafičky za seřízené.
 - Nejjednodušší je, na interním webu nastavit čas, který rafičky právě ukazují. Připojíte se na web dle bodů 6. a 7. Pro jistotu hodiny stopnete, zadáte čas na hodinách a hodiny spustíte. Polohu můžete jemně doladit volbou "+", která posouváte rafičky o 1/10 minuty.
 
-* * *
-
 Modul ESP8266 prvotně obsluhuje WiFi komunikaci. Zde ještě obtížněji, protože hodiny fungují jako stanice i jako AP a webserver. Ve volném čase může probíhat vlastní program hodin. Ten je dále přerušován časovačem, tlačítkem nebo požadavky z webu.
-
-* * *
 
 ## Podrobnější popis
 
@@ -123,8 +117,6 @@ Tyto informace jsou závislé na verzi hodin a na způsobu získání času. Jak
 - Pozor na routery, které mají společné tlačítko WPS/RST, aby nedošlo k resetování konfigurace.
 - Od 9.2.2024 není již na hlavní stránce webu volba protokol. Můžete ho však vyvolat zadáním vaše IP/log
 
-* * *
-
 ### Úvaha o přesnosti
 
 V původních plánech pro tisk 3D hodin byl předpokládán jednoduchý řídící program, který rychlost otáčení ručiček odvozoval od vnitřního keramického rezonátoru. Ručičky nemají zpětnou vazbu o své poloze. Pro běžné účely byla tato přesnost dostatečná. Přistupuje však další zdroj nepřesnosti a tím je vynechání kroku krokového motoru, případně jeho přeběh. Použitý krokový motor nemá tolik přebytku energie, aby to bylo vyloučeno. Hodiny se proto mohou různě zpožďovat i zrychlovat podle toho při jakém směru pohybu ke ztrátě dojde. Tedy po synchronizaci z NTP má řídící jednotka čas s přesností v desítkách ms, ale jeho přenesení na ručičky není až tak jisté. Platí, že v celou minutu se ručičky začnou pohybovat. Pohyb je dokončen trochu později. Celá minuta je buď správně odvozena od NTP serveru nebo s menší přesností od interního času.
@@ -133,8 +125,6 @@ Při nastavování se ručičky pohybují kratší cestou po i proti směru. Př
 
 Pro určitou možnost kompenzace případných chyb je možné zavést korekční konstantu, která představuje přidání cyklů každou hodinu. Pro představu uvádím, že jedna minuta u hodin a magnetickým převodem má 64 cyklů, u reálných převodů 102,4 cyklů. Korekce se zadává přímo do URL, tedy například 192.168.4.1/korekce?k=2 znamená přidat každou minutu dva cykly. Za normálních okolností by měla být korekce nulová.
 
-* * *
-
 ## Obvyklý význam kontrolních LED
 
 Malá modrá LED trvale svítí, pokud jsou hodiny připojeny k internetu včetně získání informace o čase z NTP serveru. LED bliká různou rychlostí při navazování spojení.
@@ -142,8 +132,6 @@ Malá modrá LED trvale svítí, pokud jsou hodiny připojeny k internetu včetn
 Červená RGB LED svítí při čekání na připojení WPS nebo při zastavení povelem "STOP".
 
 Zelená a modrá LED blikají při aktivitě krokového motoru,
-
-* * *
 
 ## Odstranění některých problémů
 

@@ -43,8 +43,6 @@ Bohužel některé loňské exponáty již v expozici nebudou. To se týká repl
 - fotovýstavy Pražský orloj a České a Moravské zvony
 - .....
 
-* * *
-
 ## Leták 2012
 
 [![Leták 2012 1. strana](/img/vez/letak2012a_m.jpg)](/img/vez/letak2012a.jpg)

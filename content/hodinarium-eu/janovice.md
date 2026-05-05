@@ -96,8 +96,6 @@ Hodiny po opravě jsou poměrně přesné, nesplnila se naše obava z možného 
 
 ![Fotografie 10](/img/vezni/janovice/f/foto_0010.jpg)
 
-* * *
-
 A na závěr ještě alespoň seznam těch, kdo se na opravě hodin podíleli:
 
 **Komponenty nátahu, rozváděč s řídící elektronikou a mechanické díly vyrobil Zdeněk Kubala. Renovaci převodovek, opravu rozvodu a většinu montážních prací provedl Jan Kozel, ručičky natřela Petra Kozlová, skříň hodin renovoval Stanislav Kaděra, pomáhali Marek Václavík, Ing. Pavel Bernat, Marta Bernatová, a další. Organizaci opravy, projekt úprav, zkonstruování nátahu, elektroinstalaci a montáže zajistil Ing. Petr Bernat.**

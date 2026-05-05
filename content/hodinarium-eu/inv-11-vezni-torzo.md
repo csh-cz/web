@@ -58,6 +58,4 @@ Na rámu je dochovaný štítek s německým nápisem:
 Vedle tohoto torza spravujeme i druhé Lissnerovy hodiny —
 [Věžní hodiny Lissner ze školy v Mikulášovicích](/sbirka/karta/inv-67-vezni-lissner/), inv. č. 67. Pro biografii hodináře viz [medailon Johanna Lissnera](/hodinari/johann-lissner).
 
-* * *
-
 *Text karty vychází z popisu v dokumentu [Popisy strojů 3.docx](/zdroje/katalog%20exponátů/) (položka 26 / duplicate 33), Český spolek horologický, květen 2026.*

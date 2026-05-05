@@ -14,8 +14,6 @@ scrapedAt: "2026-04-27T17:36:09.529Z"
 
 Při přesunu bylo dost práce, takže nikdo nestačil častěji fotografovat. Drobná série fotografií začíná odjezdem hlavních organizátorů ze Soběslavi. Pomocí několika skupin sympatizantů byly exponáty a materiál postupně sneseny do meziskladu. Podle účastníků lze srovnat snášením rámů strojů po točitém schodišti s vyndaváním ježka z klece. Málokdo věřil tomu, že se vše podaří převézt bez větších ztrát. V Děčíně na zámku za ukázalo, že se to celkem podařilo. Opět zapracovali nadšenci všech věkových kategorií a náklad vynosili až na půdu zámku. Jak vidíte, montáž probíhala i za pomoci zámeckých duchů. Když nám svitlo, byla první část expozice rychle smontována. Přibylo i několik nových exponátů. Do otevření začátkem září 2015 však ještě dost práce zůstává.
 
-* * *
-
 Po kliknutí na náhled fotografie se fotografie zvětší a objeví se někdy trochu jízlivý komentář. Kliknutím na zvětšenou fotografii se okno zavře.
 
 ![Fotografie 2](/img/decin0/f/foto_0002.jpg)
@@ -58,8 +56,6 @@ Instalování nového orloje. Jeden z autorů - Petr Skála na obrázku vpravo.
 ![Fotografie 13](/img/decin0/f/foto_0013.jpg)
 
 Zasloužíme si odpočinek v zámecké kavárně.
-
-* * *
 
 ## 18.8.2015 se to už klube
 

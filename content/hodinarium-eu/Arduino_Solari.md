@@ -11,11 +11,7 @@ tldr: 'Italská firma Solari Udine má bohatou historií. Společnost Fratelli S
 ![čelní panel](/img/arduino/Solari/Solari1.jpg)
 FLIP CLOCK SOLARI UDINE SPECIAL EDITION Arduinem
 
-* * *
-
 Italská firma Solari Udine má bohatou historií. Společnost Fratelli Solari byla založena v Pesariis již v roce 1725 v malém městě v regionu Carnia ve Friuli. Specializovala se na výrobu věžních a nástěnných hodin. Kolem roku 1948 rozpory v rodině přiměly bratry Remigia a Ferma Solariho k přesídlení do Udine a k založení nové společnosti, která se etablovala na trhu výroby hodinek, hodinových terminálů a veřejných informačních displejů pro vlaková nádraží a letiště. Hodiny Cifra 5, první z mnoha projektů, které navrhl Gino Valle, získaly ocenění Compasso d'Oro. V roce 1956 byl na vlakovém nádraží Liegi vytvořen první železniční informační systém na světě. V roce 1962 Solari získal ocenění Compasso d'Oro podruhé, a to díky alfanumerickým teleindikátorům pro letiště a železniční stanice včetně návrhu terminálu TWA na letišti JF Kennedyho v New Yorku. V roce 1998 společnost Solari získala historickou společnost Fratelli Solari, čímž bylo dokončeno znovusjednocení obou společností. Na trhu působí dodnes i v oblasti IT řešení. Více se dozvíte na webu společnosti: [www.solari.it](https://www.solari.it/)
-
-* * *
 
 [![Původní provedení](/img/arduino/Solari/Solari_original.jpg)](/img/arduino/Solari/f/Solari_original.jpg)
 
@@ -32,8 +28,6 @@ Potřeba otáčet hřídelí za minutu o jednu pětinu otáčky byl u zvoleného
 Program pro Arduino může vycházet z [návrhu pro hlavní hodiny s Arduinem](/clanky/Arduino), kde pouze místo vyslání polarizovaného impulzu provede motor část otáčky. Hodiny budou používány v domácím prostředí, tak program bude zjednodušený. Vynechán bude monitor chodu a podobně. Prvotní nastavení hodin je možné udělat i nastavovací webové stránky, lze najet na správnou hodnotu pomocí tlačítka FAST, nebo je možné hodiny vůbec nenastavovat a využít toho, že se o půlnoci sami nastaví. (Řídící ESP8266 nastavuje pouze čas; den v týdnu se musí nastavit ručně, stejně jako den v měsíci a měsíc.) Pokud je během startu drženo tlačítko na modulu, přepne se modul do režimu AP a na IP 192.168.4.1 lze prohlížečem zobrazit nastavovací obrazovku. Nastavuje se jméno sítě, její heslo a čas zobrazený na ukazatelích. Po restartu hodiny najedou na správný čas. Stisk tlačítka během normálního chodu způsobí pohyb ukazatelů vpřed. Lze tak ručně dohnat zpoždění hodin a zejména jemné nastavení překlápěcích lístků minut těsně před spadnutím.
 
 Řídící jednotka si ukládá čas, který nastavila. Po výpadku napájení automaticky najede na správný čas. Pokud je nastavený čas maximálně o hodinu napřed, řídící jednotka čeká. Jedna hodina je zvolena proto, aby nedocházelo ke zbytečnému přetáčení třeba v okamžiku konce letního času. Při přetočení o den dojde ke změne ostatních ukazatelů, což při změně času z 3. hodiny na 2. není žádoucí.
-
-* * *
 
 V hodinách Solari jsou dva motory. Arduinem je nahrazen pouze motor otáčející hřídelí jednotek minut. Nastavení pořadového čísla dne a jména měsíce nastavuje druhý motor. Mechanicky je také ovládáno násobné přetáčení dnů u měsíců kratších než 31 dní a dokonce se ve čtyřletém cyklu správně nastaví přechod na 1. březen v přestupném roce. Mechanismus řídící počet dní v měsících stojí za to více popsat. Hlavní řídící částí je kalendářní kolo obsahující 4x12 poloh pro měsíce. Výška výstupku nad číslem měsíce určuje, kolik dní na začátku měsíce se má "protočit". V segmentu přestupného roku jsou zapsány přestupné roky 1980, 1984,... až 2000. Z toho jde usoudit, že hodiny byly vyrobeny mezi roky 1977 až 1980. Systém samozřejmě funguje i po roce 2000.
 

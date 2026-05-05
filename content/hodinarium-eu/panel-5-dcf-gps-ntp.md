@@ -67,6 +67,4 @@ Na vestavěném [notebooku](/sbirka/karta/inv-134-notebook/) lze sledovat průb�
 
 V xlsx 2025 evidovaný přírůstek **hodin HN350** (M. Baudisch) — karta zatím neexistuje, inv. č. zatím nepřiřazeno.
 
-* * *
-
 *Text panelu je oficiální popis kurátora expozice (M. Baudisch, ČSH 2017, aktualizováno 2026-05).*

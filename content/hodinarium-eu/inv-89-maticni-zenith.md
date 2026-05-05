@@ -30,6 +30,4 @@ Hodiny jsou poháněny perem; pérovník je přes převod napojen na Ferrarisův
 
 Ve stroji je namontován další systém, který přijímá impulzy z vnějšího zdroje. Vzájemným nastavením kontaktu tohoto stroje a matičního stroje je dosaženo požadovaných intervalů.
 
-* * *
-
 *Text převzat z informačního panelu expozice (Panel 1, Hodinárium Děčín, 2017).*
