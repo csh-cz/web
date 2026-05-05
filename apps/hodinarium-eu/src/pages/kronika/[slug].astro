@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import JsonLd from '../../components/JsonLd.astro';
 import ArticleImageBehavior from '../../components/ArticleImageBehavior.astro';
 
@@ -55,13 +56,11 @@ const typLabels: Record<string, string> = {
   cmsEditUrl={`/admin/#/collections/kronika/entries/${entry.data.slug}`}
 >
   <JsonLd data={kronikaJsonLd} />
-  <nav class="breadcrumbs" aria-label="Drobečková navigace">
-    <a href="/">Hodinárium</a>
-    <span aria-hidden="true">›</span>
-    <a href="/kronika">Kronika</a>
-    <span aria-hidden="true">›</span>
-    <span class="current" aria-current="page">{entry.data.title}</span>
-  </nav>
+  <Breadcrumbs trail={[
+    { href: '/', label: 'Hodinárium' },
+    { href: '/kronika', label: 'Kronika' },
+    { label: entry.data.title },
+  ]} />
 
   <article class="kronika-detail">
     <header class="kronika-detail-header">
@@ -102,19 +101,7 @@ const typLabels: Record<string, string> = {
 </Base>
 
 <style>
-  .breadcrumbs {
-    font-size: 0.9rem;
-    color: var(--color-text-muted);
-    margin-bottom: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    align-items: baseline;
-  }
-  .breadcrumbs a { color: var(--color-text-soft); border-bottom: none; }
-  .breadcrumbs a:hover { color: var(--color-brass-bright); }
-  .breadcrumbs .current { color: var(--color-text-soft); font-style: italic; }
-  .breadcrumbs span[aria-hidden] { color: var(--color-brass); opacity: 0.5; }
+  /* .breadcrumbs CSS žije v global.css — sjednoceno přes <Breadcrumbs> component */
 
   .kronika-detail {
     max-width: 72ch;

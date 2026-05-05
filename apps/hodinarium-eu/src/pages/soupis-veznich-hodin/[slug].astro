@@ -4,6 +4,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection, render } from 'astro:content';
 import { hodinari } from '../../data/hodinari';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
+import { pramenTooltip } from '../../utils/referenceTypes';
 
 /** Auto-detekce typu pramene z URL (když není explicitně uveden v frontmatteru).
  *  Bez URL → typicky bibliografická citace tištěného pramene → 'kniha' (📖). */
@@ -40,6 +41,13 @@ const stavLabel: Record<string, string> = {
   znicene: 'zničené',
   neznamy: 'stav neznámý',
 };
+const stavTooltip: Record<string, string> = {
+  in_situ: 'Stroj je stále na původním místě, kde byl instalován.',
+  preneseno: 'Stroj byl přemístěn z původní lokality (typicky do muzejní expozice).',
+  ztracene: 'Stroj se ztratil — jeho současný osud není znám.',
+  znicene: 'Stroj byl prokazatelně zničen (rozebrán, sešrotován, požár, válka).',
+  neznamy: 'Současný stav stroje není dohledán — vyžaduje terénní výzkum.',
+};
 const chodLabel: Record<string, string> = {
   v_chodu: 'v chodu',
   nefunkcni: 'nefunkční',
@@ -47,6 +55,14 @@ const chodLabel: Record<string, string> = {
   pred_restaurovanim: 'před restaurováním',
   znicene: 'zničené',
   neznamy: 'neznámý',
+};
+const chodTooltip: Record<string, string> = {
+  v_chodu: 'Stroj funguje a měří čas.',
+  nefunkcni: 'Stroj nefunguje — vyžaduje opravu.',
+  restaurovano: 'Stroj prošel restaurátorským zásahem.',
+  pred_restaurovanim: 'Stroj čeká na restaurování.',
+  znicene: 'Stroj nelze uvést do chodu (nedochovaný / zničený).',
+  neznamy: 'Funkční stav stroje není doložen.',
 };
 
 const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hodinarText || 'neznámý hodinář'}`;
@@ -83,8 +99,8 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
       {d.rozmery && (<><dt>Rozměry</dt><dd>{d.rozmery}</dd></>)}
       {d.cenaDobova && (<><dt>Dobová cena</dt><dd>{d.cenaDobova}</dd></>)}
       <dt>Stav</dt>
-      <dd><span class={`stav-badge stav-${d.stav}`}>{stavLabel[d.stav]}</span></dd>
-      {d.chod && (<><dt>Chod</dt><dd>{chodLabel[d.chod]}</dd></>)}
+      <dd><span class={`stav-badge stav-${d.stav}`} title={stavTooltip[d.stav]}>{stavLabel[d.stav]}</span></dd>
+      {d.chod && (<><dt>Chod</dt><dd><span title={chodTooltip[d.chod]}>{chodLabel[d.chod]}</span></dd></>)}
       {d.prenos && (
         <>
           <dt>Přemístění</dt>
@@ -110,7 +126,8 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
         {d.puvodniMisto.kraj && <span class="muted"> · {d.puvodniMisto.kraj}</span>}
         {d.souradnice && (
           <p class="souradnice">
-            <a href={`https://www.openstreetmap.org/?mlat=${d.souradnice[0]}&mlon=${d.souradnice[1]}&zoom=17`} target="_blank" rel="noopener">
+            <a href={`https://www.openstreetmap.org/?mlat=${d.souradnice[0]}&mlon=${d.souradnice[1]}&zoom=17`} target="_blank" rel="noopener"
+               title="Otevřít polohu v OpenStreetMap (nové okno)">
               {d.souradnice[0].toFixed(5)}, {d.souradnice[1].toFixed(5)}
             </a>
             {d.souradnicePribl && <span class="muted"> (přibližné)</span>}
@@ -158,7 +175,7 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
           // tinyMarkdown vrací <p>...</p>; pro inline použití strip <p> tagy.
           const linkHtml = tinyMarkdown(linkText).replace(/^<p>|<\/p>$/g, '').replace(/<\/p><p>/g, ' ');
           return (
-            <li class={`reference reference-${type}`}>
+            <li class={`reference reference-${type}`} title={pramenTooltip(type)}>
               {p.autor && <span class="ref-author">{p.autor}:</span>}{' '}
               {p.url
                 ? <a href={p.url} target="_blank" rel="noopener" set:html={linkHtml}></a>

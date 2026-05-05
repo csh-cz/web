@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { kroky } from '../../data/kroky';
 import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
@@ -23,13 +24,11 @@ const related = krok.relatedSlugs
   title={`${krok.jmeno} — hodinový krok`}
   description={krok.shrnuti}
 >
-  <nav class="breadcrumbs" aria-label="Drobečková navigace">
-    <a href="/">Hodinárium</a>
-    <span aria-hidden="true">›</span>
-    <a href="/kroky">Hodinové kroky</a>
-    <span aria-hidden="true">›</span>
-    <span class="current" aria-current="page">{krok.jmeno}</span>
-  </nav>
+  <Breadcrumbs trail={[
+    { href: '/', label: 'Hodinárium' },
+    { href: '/kroky', label: 'Hodinové kroky' },
+    { label: krok.jmeno },
+  ]} />
 
   <article class="krok-detail">
     <header class="krok-detail-header">
@@ -98,19 +97,7 @@ const related = krok.relatedSlugs
 </Base>
 
 <style>
-  .breadcrumbs {
-    font-size: 0.9rem;
-    color: var(--color-text-muted);
-    margin-bottom: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    align-items: baseline;
-  }
-  .breadcrumbs a { color: var(--color-text-soft); border-bottom: none; }
-  .breadcrumbs a:hover { color: var(--color-brass-bright); }
-  .breadcrumbs .current { color: var(--color-text-soft); font-style: italic; }
-  .breadcrumbs span[aria-hidden] { color: var(--color-brass); opacity: 0.5; }
+  /* .breadcrumbs CSS žije v global.css — sjednoceno přes <Breadcrumbs> component */
 
   .krok-detail { max-width: 72ch; margin: 0 auto; }
   .krok-detail-header {

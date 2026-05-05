@@ -643,6 +643,10 @@ summary::-webkit-details-marker { display: none; }
   color: var(--color-brass);
   opacity: 0.5;
 }
+.breadcrumbs .bc-dim {
+  color: var(--color-copper);
+  font-style: italic;
+}
 
 /* Top nav links — vypnutý border-bottom co všechny <a> mají v global a typography styles.
    Předtím duplikováno 30+ místech jako inline `style="border-bottom: none;"`.

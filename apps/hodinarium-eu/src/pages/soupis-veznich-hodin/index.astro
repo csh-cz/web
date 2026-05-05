@@ -41,6 +41,14 @@ const stavLabel: Record<string, string> = {
   neznamy: 'stav neznámý',
 };
 
+const stavTooltip: Record<string, string> = {
+  in_situ: 'Stroj je stále na původním místě, kde byl instalován.',
+  preneseno: 'Stroj byl přemístěn z původní lokality (typicky do muzejní expozice).',
+  ztracene: 'Stroj se ztratil — jeho současný osud není znám.',
+  znicene: 'Stroj byl prokazatelně zničen (rozebrán, sešrotován, požár, válka).',
+  neznamy: 'Současný stav stroje není dohledán — vyžaduje terénní výzkum.',
+};
+
 const stavTone: Record<string, string> = {
   in_situ: 'tone-ok',
   preneseno: 'tone-info',
@@ -120,7 +128,7 @@ const stavTone: Record<string, string> = {
               {h.data.puvodniMisto.cast && <span class="muted"> ({h.data.puvodniMisto.cast})</span>}
             </td>
             <td>{h.data.puvodniMisto.budova || <span class="muted">—</span>}</td>
-            <td><span class={`stav-badge ${stavTone[h.data.stav]}`}>{stavLabel[h.data.stav]}</span></td>
+            <td><span class={`stav-badge ${stavTone[h.data.stav]}`} title={stavTooltip[h.data.stav]}>{stavLabel[h.data.stav]}</span></td>
             <td><span class="muted">{h.data.krok || '—'}</span></td>
           </tr>
         ))}

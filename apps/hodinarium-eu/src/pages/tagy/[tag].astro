@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Card from '../../components/Card.astro';
 import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
@@ -48,19 +49,12 @@ const dimLabels: Record<string, string> = {
   title={`Tag: ${tag}`}
   description={`${catEntries.length} článků s tagem "${tag}" v hodinárium-eu.`}
 >
-  <nav class="breadcrumbs" aria-label="Drobečková navigace">
-    <a href="/">Hodinárium</a>
-    <span aria-hidden="true">›</span>
-    <a href="/tagy">Tagy</a>
-    {dim && (
-      <>
-        <span aria-hidden="true">·</span>
-        <span class="bc-dim">{dimLabels[dim] ?? dim}</span>
-      </>
-    )}
-    <span aria-hidden="true">›</span>
-    <span class="current" aria-current="page">{tag}</span>
-  </nav>
+  <Breadcrumbs trail={[
+    { href: '/', label: 'Hodinárium' },
+    { href: '/tagy', label: 'Tagy' },
+    ...(dim ? [{ label: dimLabels[dim] ?? dim, soft: true, dim: true }] : []),
+    { label: tag },
+  ]} />
 
   <header class="tag-header">
     <p class="eyebrow mb-3">Tag</p>
@@ -94,20 +88,7 @@ const dimLabels: Record<string, string> = {
 </Base>
 
 <style>
-  .breadcrumbs {
-    font-size: 0.9rem;
-    color: var(--color-text-muted);
-    margin-bottom: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    align-items: baseline;
-  }
-  .breadcrumbs a { color: var(--color-text-soft); border-bottom: none; }
-  .breadcrumbs a:hover { color: var(--color-brass-bright); }
-  .breadcrumbs .current { color: var(--color-text-soft); font-style: italic; }
-  .breadcrumbs .bc-dim { color: var(--color-copper); font-style: italic; }
-  .breadcrumbs span[aria-hidden] { color: var(--color-brass); opacity: 0.5; }
+  /* .breadcrumbs CSS žije v global.css — sjednoceno přes <Breadcrumbs> component */
 
   .tag-header {
     margin-bottom: 2.5rem;
