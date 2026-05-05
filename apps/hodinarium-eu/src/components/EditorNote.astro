@@ -56,7 +56,22 @@ const defaultTitle: Record<string, string> = {
   todo: 'TODO',
 };
 const heading = title ?? defaultTitle[level];
-const key = noteKey ?? heading.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+
+// Default noteKey: slugify s transliterací diakritiky.
+// Bez transliterace by „Pozor — nejistota" → „pozor--nejistota" a každý
+// dvě default-info notes na téže stránce by sdílely stejný klíč
+// (kolize v JS resolve regex). Lepší volat noteKey explicitně, ale
+// fallback musí být injektivní v běžných případech.
+function slugifyHeading(s: string): string {
+  return s
+    .normalize('NFD')                         // diakritika → kombinační znaky
+    .replace(/[̀-ͯ]/g, '')           // odstranit kombinační znaky
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')               // ne-alfanumerické → '-'
+    .replace(/^-+|-+$/g, '')                   // trim pomlček
+    .replace(/-+/g, '-');                      // collapse multi -
+}
+const key = noteKey ?? (slugifyHeading(heading) || 'editor-note');
 ---
 <aside class={`editor-note editor-note-${level}`}
        data-source-file={sourceFile}
