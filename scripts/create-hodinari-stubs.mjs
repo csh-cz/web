@@ -147,12 +147,16 @@ for (const e of missing) {
     lines.push(yamlArray(e.aliasy));
   }
   lines.push(`shrnuti: ${yamlString(e.shrnuti)}`);
+  lines.push('isStub: true');
   lines.push('---');
   lines.push('');
-  lines.push('{/* Životopisný medailon zatím není doplněn — tato karta je stub. ');
-  lines.push('   Editor v CMS může postupně přidat: životopis, dílnu, přínos,');
-  lines.push('   primární prameny, references, portrétní fotku.');
-  lines.push('   Veřejný shrnutí (pole `shrnuti`) zobrazuje úvodní lead odstavec. */}');
+  lines.push("import EditorNote from '../../apps/hodinarium-eu/src/components/EditorNote.astro';");
+  lines.push('');
+  lines.push('<EditorNote level="todo" title="Medailon je stub">');
+  lines.push('  Doplň: životopis (vyučení, dílna, geografický rozsah práce), primární prameny,');
+  lines.push('  references, portrétní fotku. Frontmatter `isStub` po doplnění odeber, ať se');
+  lines.push('  veřejná „profil je stub" hláška skryje.');
+  lines.push('</EditorNote>');
   lines.push('');
 
   const out = lines.join('\n');

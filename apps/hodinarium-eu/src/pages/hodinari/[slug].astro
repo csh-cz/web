@@ -130,11 +130,16 @@ const personJsonLd = hodinar.typ === 'osoba'
     <div class="prose-content">
       <p class="lead" set:html={tinyMarkdown(hodinar.shrnuti)}></p>
 
+      {/* Body MDX se rendrove vždy. Pro stub karty obsahuje pouze
+          <EditorNote>, který je default skrytý CSS-em pro anonymy
+          a viditelný pro authed editory. */}
       {hasFull && Content && (
         <Content />
       )}
 
-      {!hasFull && (
+      {/* Veřejná „profil je stub" hláška: pokud MDX neexistuje,
+          NEBO pokud existuje jen kvůli CMS s frontmatter `isStub: true`. */}
+      {(!hasFull || medailon?.data.isStub) && (
         <aside class="hodinar-stub-note">
           <p>
             <strong>Životopisný profil je zatím stub.</strong> Připravujeme rozšířený text

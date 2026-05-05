@@ -352,6 +352,10 @@ const orgJsonLd = isHome ? {
             link.title = 'Přihlášen jako ' + u.email + ' — klikni pro otevření CMS administrace';
             link.setAttribute('aria-label', 'Otevřít CMS administraci (přihlášen jako ' + u.email + ')');
           }
+
+          // Editor-mode body flag — odhalí <EditorNote> komponenty a další
+          // [data-editor-only] obsah, který je default v CSS schovaný.
+          document.body.setAttribute('data-editor-mode', 'true');
           // Redakční přehled link — vedle avataru, šipka ↻ jako "co je k doplnění".
           const redakceSlot = document.getElementById('admin-redakce-slot');
           if (redakceSlot) redakceSlot.classList.remove('hidden');

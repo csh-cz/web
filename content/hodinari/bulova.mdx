@@ -9,9 +9,13 @@ aliasy:
   - 'Bulova'
   - 'Accutron'
 shrnuti: 'Americká hodinářská firma se švýcarskými výrobními kořeny, založena **Josephem Bulovou** v New Yorku v roce 1875. Nejznámější je její model **Accutron** (1960) s ladičkovým oscilátorem 360 Hz — průlomová elektromechanická konstrukce mezi mechanickými a křemennými hodinkami. Accutron je popsán v článku [„Elektřina ve službách času"](/zajimavosti/elektrina-ve-sluzbach-casu).'
+isStub: true
 ---
 
-{/* Životopisný medailon zatím není doplněn — tato karta je stub. 
-   Editor v CMS může postupně přidat: životopis, dílnu, přínos,
-   primární prameny, references, portrétní fotku.
-   Veřejný shrnutí (pole `shrnuti`) zobrazuje úvodní lead odstavec. */}
+import EditorNote from '../../apps/hodinarium-eu/src/components/EditorNote.astro';
+
+<EditorNote level="todo" title="Medailon je stub">
+  Doplň: životopis (vyučení, dílna, geografický rozsah práce), primární prameny,
+  references, portrétní fotku. Frontmatter `isStub` po doplnění odeber, ať se
+  veřejná „profil je stub" hláška skryje.
+</EditorNote>

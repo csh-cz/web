@@ -1,0 +1,68 @@
+---
+/**
+ * EditorNote — redakční / správní poznámka viditelná POUZE přihlášenému editorovi.
+ *
+ * Použití v MDX:
+ *   import EditorNote from '~/components/EditorNote.astro';
+ *
+ *   <EditorNote>
+ *     Tato karta je stub. Doplnit: životopis, references, portrét.
+ *   </EditorNote>
+ *
+ *   <EditorNote level="warn">
+ *     Lokalita "Karlsthal" zatím nepotvrzena primárním pramenem.
+ *   </EditorNote>
+ *
+ *   <EditorNote level="todo">
+ *     TODO: dohledat rok výroby v kronice obce.
+ *   </EditorNote>
+ *
+ * Mechanismus:
+ *   - Server: render do <aside class="editor-note">.
+ *   - CSS (`global.css`): default `display: none` → anonymní návštěvník nic
+ *     nevidí.
+ *   - JS hydrace v Base.astro při autentizaci přes Cloudflare Access:
+ *     `document.body.setAttribute('data-editor-mode', 'true')`. CSS pak
+ *     `body[data-editor-mode] .editor-note { display: block }`.
+ *   - Žádný server-side conditional rendering (Pages je static SSG) —
+ *     visibility řeší pouze CSS + JS.
+ *
+ * Bezpečnost: poznámka je v HTML i pro anonymního uživatele (jen schovaná
+ * CSS-em). NEVKLÁDEJ sem citlivá data (osobní údaje, neveřejné URL,
+ * tokeny). Je to UI affordance pro pohodlí editora, ne security boundary.
+ *
+ * Levels:
+ *   - 'info'  (default): mosazný okraj, neutrální tón
+ *   - 'warn'  : copper okraj, varuje na nejistotu / chybu
+ *   - 'todo'  : warm red, vyžaduje akci
+ */
+
+interface Props {
+  /** Vizuální tón poznámky. */
+  level?: 'info' | 'warn' | 'todo';
+  /** Volitelný titulek (jinak se použije label podle level). */
+  title?: string;
+}
+
+const { level = 'info', title } = Astro.props;
+const defaultTitle: Record<string, string> = {
+  info: 'Editorská poznámka',
+  warn: 'Pozor — nejistota',
+  todo: 'TODO',
+};
+const heading = title ?? defaultTitle[level];
+---
+<aside class={`editor-note editor-note-${level}`} data-editor-only role="note" aria-label={heading}>
+  <header class="editor-note-head">
+    <span class="editor-note-icon" aria-hidden="true">
+      {level === 'info' && '✎'}
+      {level === 'warn' && '⚠'}
+      {level === 'todo' && '☐'}
+    </span>
+    <span class="editor-note-title">{heading}</span>
+    <span class="editor-note-meta" aria-hidden="true">viditelné jen přihlášenému editorovi</span>
+  </header>
+  <div class="editor-note-body">
+    <slot />
+  </div>
+</aside>

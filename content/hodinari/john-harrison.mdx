@@ -9,9 +9,13 @@ aliasy:
   - 'John Harrison'
   - 'Harrison'
 shrnuti: 'Anglický hodinář, autor čtyř lodních chronometrů (H1–H4). **H4 z roku 1761** s pérovým krokem byl natolik přesný, že na plavbě na Jamaiku diferoval za 161 dnů pouze 5 vteřin (Sladkovský 1947). Za vyřešení **problému určování zeměpisné délky na moři** dostal odměnu 20 000 liber šterlinků, kterou britský parlament vypsal v roce 1714.'
+isStub: true
 ---
 
-{/* Životopisný medailon zatím není doplněn — tato karta je stub. 
-   Editor v CMS může postupně přidat: životopis, dílnu, přínos,
-   primární prameny, references, portrétní fotku.
-   Veřejný shrnutí (pole `shrnuti`) zobrazuje úvodní lead odstavec. */}
+import EditorNote from '../../apps/hodinarium-eu/src/components/EditorNote.astro';
+
+<EditorNote level="todo" title="Medailon je stub">
+  Doplň: životopis (vyučení, dílna, geografický rozsah práce), primární prameny,
+  references, portrétní fotku. Frontmatter `isStub` po doplnění odeber, ať se
+  veřejná „profil je stub" hláška skryje.
+</EditorNote>

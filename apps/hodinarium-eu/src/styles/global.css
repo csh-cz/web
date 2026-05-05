@@ -695,6 +695,66 @@ summary::-webkit-details-marker { display: none; }
   pointer-events: none;
 }
 
+/* Editor-only obsah — poznámky <EditorNote> a podobné viditelné jen
+   přihlášenému editorovi. Default schované, JS hydrace v Base.astro
+   nastaví `body[data-editor-mode]` po authed CF Access response.
+   Bez JS = anonym = neuvidí. */
+.editor-note,
+[data-editor-only] {
+  display: none !important;
+}
+body[data-editor-mode] .editor-note,
+body[data-editor-mode] [data-editor-only] {
+  display: block !important;
+}
+
+/* Stylizace EditorNote komponenty */
+.editor-note {
+  margin: 1.5rem 0;
+  padding: 0.85rem 1.1rem 0.95rem;
+  background: color-mix(in srgb, var(--color-bg-elevated) 85%, transparent);
+  border-left: 3px solid var(--color-brass);
+  border-radius: 2px;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+.editor-note-warn { border-left-color: var(--color-copper); }
+.editor-note-todo { border-left-color: #b04848; }
+
+.editor-note-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  font-family: var(--font-serif);
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-brass-bright);
+  margin-bottom: 0.4rem;
+}
+.editor-note-warn .editor-note-head { color: var(--color-copper); }
+.editor-note-todo .editor-note-head { color: #d97070; }
+.editor-note-icon {
+  font-size: 1rem;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.editor-note-meta {
+  margin-left: auto;
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  text-transform: none;
+  letter-spacing: 0;
+  font-style: italic;
+  font-family: inherit;
+}
+.editor-note-body {
+  color: var(--color-text);
+}
+.editor-note-body :first-child { margin-top: 0; }
+.editor-note-body :last-child { margin-bottom: 0; }
+
 /* CMS admin avatar v navu — kruhová iniciála editora.
    Vždy viditelný; ve dvou stavech:
    - data-state="anon": ztlumený, transparentní, "·" placeholder; kliknutí
