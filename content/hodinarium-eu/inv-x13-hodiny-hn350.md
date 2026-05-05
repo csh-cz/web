@@ -25,7 +25,7 @@ karta:
 
 ## Akvizice 2025 — bez přiděleného inv. č.
 
-Hodiny **HN350** (Elekon) — pokračovatelská řada k [HN61](/sbirka/karta/inv-124-mini-hlavni-hodiny-hn61/), umístěné na **[Panelu 5](/clanky/panel-5-dcf-gps-ntp/)** v Sále elektro. Akvizice **2025**, zápůjčka od Miroslava Baudische. Cena ze sezna­mu: 8 000 Kč.
+Hodiny **HN350** (Elekon) — pokračovatelská řada k [HN61](/sbirka/karta/inv-124-mini-hlavni-hodiny-hn61/), umístěné na **[Panelu 5](/clanky/panel-5-dcf-gps-ntp/)** v Sále elektro. Akvizice **2025**, zápůjčka od Miroslava Baudische. Cena ze seznamu: 8 000 Kč.
 
 V Soupisu exponátů můj 3.xls (zdroje/baudisch2/Seznam.xlsx) je položka uvedena bez přiděleného inv. č., proto pracovní označení **inv. x13**. Po dohodě s kurátorem (Baudisch) se přidělí řádné inv. č. v navazujícím Soupisu.
 

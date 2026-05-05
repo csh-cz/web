@@ -1,5 +1,5 @@
 ---
-title: "Překlápěčky Köhler &amp; Co, Laufamholz"
+title: "Překlápěčky Köhler & Co, Laufamholz"
 slug: "listkove_kohler"
 category: "sbirka"
 originalUrl: "https://hodinarium.eu/listkove_kohler.htm"
