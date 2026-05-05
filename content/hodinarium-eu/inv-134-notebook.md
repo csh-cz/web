@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "134"
   umisteni: "Panel 5"
   pridanoDoSbirky: "2020"
-  majitel: "Knespl"
+  majitel: "David Knespl"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

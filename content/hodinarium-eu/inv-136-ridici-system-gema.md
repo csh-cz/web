@@ -18,7 +18,7 @@ karta:
   vyrobce: "Gema"
   umisteni: "Panel 5"
   pridanoDoSbirky: "2021"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "spolek"
   stav: "funkční"
 ---

@@ -14,7 +14,7 @@ tags:
 karta:
   inventarniCislo: "84"
   umisteni: "Vitrína 3 (Sál věžních hodin)"
-  majitel: "Spolek"
+  majitel: "ČSH"
 ---
 
 ## Stub karty

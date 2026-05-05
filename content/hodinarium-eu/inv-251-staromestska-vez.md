@@ -14,7 +14,7 @@ tags:
 karta:
   inventarniCislo: "251"
   umisteni: "Rohová vitrína (Sál elektro)"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
 ---
 
 ## Stub karty

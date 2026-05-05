@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "137"
   umisteni: "Panel 5"
   pridanoDoSbirky: "2022"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "spolek"
   stav: "funkční"
 ---

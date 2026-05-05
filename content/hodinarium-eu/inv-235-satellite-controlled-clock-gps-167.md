@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "235"
   umisteni: "Vitrína 3 (Sál elektro)"
   pridanoDoSbirky: "2022"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

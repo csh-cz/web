@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "163"
   umisteni: "Vitrína 1 (Sál elektro)"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "273"
   umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2021"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"
 thumbnail: '/img/pichacky/razitko.jpg'

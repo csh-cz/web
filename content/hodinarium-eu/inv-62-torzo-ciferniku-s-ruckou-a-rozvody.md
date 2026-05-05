@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "62"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2020"
-  majitel: "spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "koupě"
   stav: "nefunkční"
 ---

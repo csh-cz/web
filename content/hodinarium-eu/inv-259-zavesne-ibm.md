@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "259"
   umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2019"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

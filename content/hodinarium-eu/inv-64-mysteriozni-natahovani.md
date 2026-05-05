@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "64"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2022"
-  majitel: "spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"
   rokVyroby: "2018"

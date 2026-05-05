@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "160"
   umisteni: "Vitrína 1 (Sál elektro)"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/budiky1/budik_schw10.jpg'

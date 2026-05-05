@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "44"
   umisteni: "Hlavní sál"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   krokJicihoStroje: "lihýřový krok"

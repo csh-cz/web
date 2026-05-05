@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "203"
   umisteni: "Vitrína 3 (Sál elektro)"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

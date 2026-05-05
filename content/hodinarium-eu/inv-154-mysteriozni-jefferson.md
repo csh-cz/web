@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "154"
   umisteni: "Vitrína 1 (Sál elektro)"
-  majitel: "spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "spolek"
   stav: "funkční"
 ---

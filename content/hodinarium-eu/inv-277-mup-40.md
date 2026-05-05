@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "277"
   umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2022"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "koupě"
   stav: "funkční"
 ---

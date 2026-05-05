@@ -19,7 +19,7 @@ karta:
   umisteni: "Panel 1"
   datace: "kolem 1850"
   vyrobce: "Hipp"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   krokJicihoStroje: "Hippův přerušovač"

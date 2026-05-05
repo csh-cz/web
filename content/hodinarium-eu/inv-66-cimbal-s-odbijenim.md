@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "66"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2024"
-  majitel: "spolek"
+  majitel: "ČSH"
   stav: "funkční"
   extra:
     - { label: "Poznámka", value: "kostel sv. Filipa a Jakuba ve Viničnom" }

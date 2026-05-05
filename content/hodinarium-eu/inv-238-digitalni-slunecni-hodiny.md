@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "238"
   umisteni: "Vitrína 4 (Sál elektro)"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "170"
   umisteni: "Vitrína 2 (Sál elektro)"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

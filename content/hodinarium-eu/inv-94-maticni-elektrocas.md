@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "94"
   umisteni: "Panel 2"
   vyrobce: "Elektročas"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/elektrika/rufa1.jpg'

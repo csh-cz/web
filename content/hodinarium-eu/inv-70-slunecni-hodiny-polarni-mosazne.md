@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "70"
   umisteni: "Vitrína 1 (Sál věžních hodin)"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

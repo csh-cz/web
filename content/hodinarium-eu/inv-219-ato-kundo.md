@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "219"
   umisteni: "Vitrína 3 (Sál elektro)"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

@@ -19,7 +19,7 @@ karta:
   umisteni: "Rohová vitrína (Sál elektro)"
   vyrobce: "Hainz"
   pridanoDoSbirky: "2019"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"
 thumbnail: '/img/hainz/zadni.jpg'

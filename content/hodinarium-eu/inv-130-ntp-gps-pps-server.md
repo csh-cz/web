@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "130"
   umisteni: "Panel 5"
   pridanoDoSbirky: "2020"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

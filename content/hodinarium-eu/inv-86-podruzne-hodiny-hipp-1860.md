@@ -20,7 +20,7 @@ karta:
   umisteni: "Panel 1"
   datace: "polovina 19. století — kolem 1930"
   vyrobce: "Hipp-Favarger"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

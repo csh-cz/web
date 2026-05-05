@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "279"
   umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2023"
-  majitel: "Spolek"
+  majitel: "ČSH"
   stav: "funkční"
 ---
 

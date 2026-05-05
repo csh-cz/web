@@ -19,7 +19,7 @@ karta:
   umisteni: "Rohová vitrína (Sál elektro)"
   vyrobce: "Elektročas"
   pridanoDoSbirky: "2021"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"
 thumbnail: '/img/elektrika/elchron1.jpg'

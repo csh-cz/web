@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "254"
   umisteni: "Rohová vitrína (Sál elektro)"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
 thumbnail: '/img/pichacky/fronta2.jpg'

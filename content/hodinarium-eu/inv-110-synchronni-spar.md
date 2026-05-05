@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "110"
   umisteni: "Panel 3"
   pridanoDoSbirky: "2023"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"
   extra:

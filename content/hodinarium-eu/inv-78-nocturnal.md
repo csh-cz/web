@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "78"
   umisteni: "Vitrína 1 (Sál věžních hodin)"
   pridanoDoSbirky: "2025"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/nocturnal/aukro_nocturnal.jpg'

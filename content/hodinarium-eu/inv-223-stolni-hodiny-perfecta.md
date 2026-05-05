@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "223"
   umisteni: "Vitrína 3 (Sál elektro)"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

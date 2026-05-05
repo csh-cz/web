@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "276"
   umisteni: "Rohová vitrína (Sál elektro)"
   pridanoDoSbirky: "2020"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"
 ---

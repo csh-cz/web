@@ -16,7 +16,7 @@ karta:
   inventarniCislo: "63"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2021"
-  majitel: "spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"
   extra:

@@ -17,7 +17,7 @@ karta:
   inventarniCislo: "103"
   vyrobce: "T&N"
   umisteni: "Panel 3"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

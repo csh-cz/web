@@ -14,7 +14,7 @@ tags:
 karta:
   inventarniCislo: "39"
   umisteni: "Hlavní sál"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "koupě"
   extra:
     - { label: "Poznámka", value: "Gurt Dietzschold 1894" }

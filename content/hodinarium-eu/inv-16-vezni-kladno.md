@@ -18,7 +18,7 @@ karta:
   inventarniCislo: "16"
   umisteni: "Hlavní sál"
   pridanoDoSbirky: "2017"
-  majitel: "Spolek"
+  majitel: "ČSH"
   vztahKeSbirce: "koupě"
   stav: "funkční"
   ram: "kovaný"

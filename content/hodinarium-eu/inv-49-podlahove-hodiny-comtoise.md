@@ -18,7 +18,7 @@ tags:
 karta:
   inventarniCislo: "49"
   umisteni: "Hlavní sál"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

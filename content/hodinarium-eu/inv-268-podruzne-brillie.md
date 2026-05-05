@@ -19,7 +19,7 @@ karta:
   umisteni: "Rohová vitrína (Sál elektro)"
   vyrobce: "Brillié"
   pridanoDoSbirky: "2020"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg'

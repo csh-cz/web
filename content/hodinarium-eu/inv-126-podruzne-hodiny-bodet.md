@@ -19,7 +19,7 @@ karta:
   umisteni: "Panel 5"
   vyrobce: "Bodet"
   pridanoDoSbirky: "2020"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/elektrika/Bodet/Profil930NTP.png'

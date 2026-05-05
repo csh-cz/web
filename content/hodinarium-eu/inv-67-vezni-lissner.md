@@ -17,7 +17,8 @@ tags:
 karta:
   inventarniCislo: "67"
   umisteni: "Hlavní sál"
-  majitel: "Baudisch"
+  majitel: "Miroslav Baudisch"
+  pridanoDoSbirky: "2025"
   stav: "funkční"
   puvodniUmisteni:
     objekt: "Škola"

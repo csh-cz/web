@@ -18,7 +18,7 @@ karta:
   umisteni: "Panel 1"
   datace: "1908 (systém)"
   vyrobce: "bratři Brillié"
-  majitel: "Král"
+  majitel: "Petr Král"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 thumbnail: '/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg'
