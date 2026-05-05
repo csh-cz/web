@@ -163,12 +163,11 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
           <span role="columnheader">Typ</span>
           <span role="columnheader">Stav</span>
           <span role="columnheader">Vztah</span>
-          <span role="columnheader">Majitel</span>
         </div>
         {list.map((e) => {
           const slug = kartaSlug(e);
           const hasKarta = existingKarty.has(slug);
-          const dataSearch = `${e.popis} ${e.typ} ${e.majitel} ${e.invCislo}`.toLowerCase();
+          const dataSearch = `${e.popis} ${e.typ} ${e.invCislo}`.toLowerCase();
           const inner = (
             <>
               <span class="katalog-inv" role="cell">{e.invCislo}</span>
@@ -179,7 +178,6 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
               <span class="katalog-typ" role="cell">{e.typ || '—'}</span>
               <span class="katalog-stav" role="cell">{e.stav || '—'}</span>
               <span class="katalog-vztah" role="cell">{e.vztah || '—'}</span>
-              <span class="katalog-majitel" role="cell">{e.majitel || '—'}</span>
             </>
           );
           return hasKarta ? (
@@ -338,7 +336,7 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
   }
   .katalog-row {
     display: grid;
-    grid-template-columns: 60px 2fr 1fr 1fr 1fr 1.2fr;
+    grid-template-columns: 60px 2fr 1fr 1fr 1fr;
     gap: 0.75rem;
     padding: 0.5rem 0.85rem;
     align-items: baseline;
@@ -385,7 +383,7 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
     font-style: italic;
     font-size: 0.85em;
   }
-  .katalog-typ, .katalog-stav, .katalog-vztah, .katalog-majitel {
+  .katalog-typ, .katalog-stav, .katalog-vztah {
     color: var(--color-text-soft);
   }
 
@@ -396,14 +394,13 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
       padding: 0.65rem 0.75rem;
     }
     .katalog-head { display: none; }
-    .katalog-typ, .katalog-stav, .katalog-vztah, .katalog-majitel {
+    .katalog-typ, .katalog-stav, .katalog-vztah {
       grid-column: 2;
       font-size: 0.78rem;
     }
     .katalog-typ::before { content: 'Typ: '; color: var(--color-text-muted); }
     .katalog-stav::before { content: 'Stav: '; color: var(--color-text-muted); }
     .katalog-vztah::before { content: 'Vztah: '; color: var(--color-text-muted); }
-    .katalog-majitel::before { content: 'Majitel: '; color: var(--color-text-muted); }
   }
 </style>
 
