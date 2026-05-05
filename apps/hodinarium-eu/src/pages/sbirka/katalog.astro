@@ -139,6 +139,12 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
       data-katalog-search
     />
     <div class="katalog-filter" role="group" aria-label="Filtr podle umístění">
+      <label class="filter-chip filter-chip-all">
+        <input type="checkbox" checked data-filter-all />
+        <span class="chip-dot" aria-hidden="true"></span>
+        <span class="chip-label">Vše</span>
+        <span class="chip-count">{items.length}</span>
+      </label>
       {[...byLokace.entries()].filter(([, list]) => list.length > 0).map(([code, list]) => (
         <label class="filter-chip">
           <input type="checkbox" checked data-filter-lokace={code} />
@@ -286,6 +292,8 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
   }
   .filter-chip:hover { border-color: var(--color-brass); }
   .filter-chip input { margin: 0; }
+  .filter-chip-all .chip-label { font-weight: 600; }
+  .filter-chip-all { border-color: color-mix(in srgb, var(--color-brass) 50%, transparent); }
   .chip-dot {
     display: inline-block;
     width: 0.6em;
@@ -408,7 +416,17 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
   // Filter chips per lokace + search input — client-side row visibility
   const search = document.querySelector('[data-katalog-search]');
   const chips = document.querySelectorAll('[data-filter-lokace]');
+  const allChip = document.querySelector('[data-filter-all]');
   const sections = document.querySelectorAll('[data-lokace-section]');
+
+  function syncAllState() {
+    if (!allChip) return;
+    const total = chips.length;
+    let on = 0;
+    for (const cb of chips) if (cb.checked) on++;
+    allChip.checked = on === total;
+    allChip.indeterminate = on > 0 && on < total;
+  }
 
   function refresh() {
     const q = (search?.value || '').toLowerCase().trim();
@@ -429,7 +447,14 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
       // Hide whole section if no rows match
       sec.style.display = anyMatch ? '' : 'none';
     }
+    syncAllState();
   }
   search?.addEventListener('input', refresh);
   for (const cb of chips) cb.addEventListener('change', refresh);
+  allChip?.addEventListener('change', () => {
+    const target = allChip.checked;
+    for (const cb of chips) cb.checked = target;
+    refresh();
+  });
+  syncAllState();
 </script>
