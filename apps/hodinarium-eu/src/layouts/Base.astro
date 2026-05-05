@@ -321,9 +321,66 @@ const orgJsonLd = isHome ? {
       authenticated:true s emailem.
     -->
     <script is:inline>
+      // ---- Helper: odvodit zdrojový MDX soubor z URL routy ----
+      function inferSourceFileFromUrl() {
+        const path = window.location.pathname.replace(/\/$/, '');
+        const slug = path.split('/').pop();
+        if (!slug) return null;
+        if (path.startsWith('/hodinari/')) return 'content/hodinari/' + slug + '.mdx';
+        if (path.startsWith('/soupis-veznich-hodin/')) return 'content/soupis-veznich-hodin/' + slug + '.mdx';
+        if (path.startsWith('/sbirka/karta/')) return 'content/hodinarium-eu/' + slug + '.md';
+        if (path.startsWith('/kronika/')) return 'content/kronika/' + slug + '.mdx';
+        return null;
+      }
+
+      // ---- Resolve editor-note: smaže aside blok ze zdroje přes /api/cms ----
+      async function resolveEditorNote(ev) {
+        const button = ev.currentTarget;
+        const aside = button.closest('aside.editor-note');
+        if (!aside) return;
+        let file = aside.dataset.sourceFile || inferSourceFileFromUrl();
+        const noteKey = aside.dataset.noteKey;
+        if (!file || !noteKey) { alert('Nelze určit zdrojový soubor pro tuto poznámku.'); return; }
+        if (!confirm('Smazat tuto editorskou poznámku ze souboru ' + file + '?\n\nBude commitnuto okamžitě, deploy ~1–2 min.')) return;
+
+        button.disabled = true;
+        const origText = button.textContent;
+        button.textContent = '⏳ Odesílám commit…';
+        try {
+          const repoApi = '/api/cms/api/v3/repos/csh-cz/web/contents/' + file;
+          const r = await fetch(repoApi, { credentials: 'include' });
+          if (!r.ok) throw new Error('Fetch ' + r.status);
+          const data = await r.json();
+          const bytes = Uint8Array.from(atob(data.content.replace(/\n/g, '')), (c) => c.charCodeAt(0));
+          const text = new TextDecoder('utf-8').decode(bytes);
+          const escapedKey = noteKey.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
+          const re = new RegExp('<aside[^>]*data-note-key="' + escapedKey + '"[^>]*>[\\s\\S]*?</aside>\\s*', 'g');
+          const updated = text.replace(re, '');
+          if (updated === text) throw new Error('Blok data-note-key="' + noteKey + '" v souboru nenalezen.');
+          const encBytes = new TextEncoder().encode(updated);
+          let bin = ''; for (const b of encBytes) bin += String.fromCharCode(b);
+          const put = await fetch(repoApi, {
+            method: 'PUT', credentials: 'include',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              message: 'Resolve editor note (' + noteKey + ') in ' + file,
+              content: btoa(bin), sha: data.sha,
+            }),
+          });
+          if (!put.ok) throw new Error('Commit ' + put.status);
+          aside.style.transition = 'opacity 250ms';
+          aside.style.opacity = '0';
+          setTimeout(() => aside.remove(), 280);
+        } catch (err) {
+          button.disabled = false;
+          button.textContent = origText;
+          alert('Resolve selhalo: ' + (err.message || err));
+        }
+      }
+
+      // ---- Hlavní hydrace: anon avatar return_to + auth check + odhalení editor UI ----
       (async function () {
-        // Anon avatar: doplň ?return_to=<aktuální URL> aby se po CF Access loginu
-        // editor vrátil sem, místo aby skočil do /admin/.
+        // Anon avatar return_to (před případným klikem)
         try {
           const anonLink = document.getElementById('admin-badge-link');
           if (anonLink && anonLink.getAttribute('data-state') === 'anon') {
@@ -340,8 +397,7 @@ const orgJsonLd = isHome ? {
           const u = await r.json();
           if (!u.authenticated || !u.email) return;
 
-          // Avatar v navu — slot je viditelný vždy; po autentizaci přepneme
-          // z anon stavu (ztlumený, "·") na authed (zvýrazněný, iniciála editora).
+          // Avatar — anon → authed
           const link = document.getElementById('admin-badge-link');
           const initial = document.getElementById('admin-badge-initial');
           if (link && initial) {
@@ -353,18 +409,23 @@ const orgJsonLd = isHome ? {
             link.setAttribute('aria-label', 'Otevřít CMS administraci (přihlášen jako ' + u.email + ')');
           }
 
-          // Editor-mode body flag — odhalí <EditorNote> komponenty a další
-          // [data-editor-only] obsah, který je default v CSS schovaný.
+          // Editor-mode flag — CSS odhalí .editor-note a [data-editor-only]
           document.body.setAttribute('data-editor-mode', 'true');
-          // Redakční přehled link — vedle avataru, šipka ↻ jako "co je k doplnění".
+
+          // Připoj resolve handler na "✓ Vyřízeno" buttony
+          document.querySelectorAll('[data-action="resolve-editor-note"]').forEach((btn) => {
+            btn.addEventListener('click', resolveEditorNote);
+          });
+
+          // Redakční přehled link — vedle avataru, šipka ↻
           const redakceSlot = document.getElementById('admin-redakce-slot');
           if (redakceSlot) redakceSlot.classList.remove('hidden');
 
-          // Odhlásit link — viditelný jen pro přihlášené editory.
+          // Odhlásit link
           const logoutSlot = document.getElementById('admin-logout-slot');
           if (logoutSlot) logoutSlot.classList.remove('hidden');
 
-          // Floating edit button — jen pokud stránka má edit URL (článek/karta/...).
+          // Floating edit button (jen na editovatelných stránkách)
           const editUrl = document.body.getAttribute('data-cms-edit-url');
           if (editUrl) {
             const btn = document.createElement('a');
@@ -375,9 +436,6 @@ const orgJsonLd = isHome ? {
               '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" width="18" height="18">' +
               '<path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 1 1 3 3L7 19l-4 1 1-4 12.5-12.5z"/>' +
               '</svg><span>Upravit</span>';
-            // Před navigací do CMS uložíme aktuální URL, aby se editor po
-            // Save (= přechod z entry na collection list) vrátil na detail.
-            // /admin/ skript tu hodnotu přečte z sessionStorage.
             btn.addEventListener('click', () => {
               try { sessionStorage.setItem('cms-return-url', window.location.href); } catch {}
             });

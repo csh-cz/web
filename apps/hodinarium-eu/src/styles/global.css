@@ -755,6 +755,29 @@ body[data-editor-mode] [data-editor-only] {
 .editor-note-body :first-child { margin-top: 0; }
 .editor-note-body :last-child { margin-bottom: 0; }
 
+.editor-note-resolve {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.35rem 0.85rem;
+  background: transparent;
+  color: var(--color-brass);
+  border: 1px solid color-mix(in srgb, var(--color-brass) 50%, transparent);
+  border-radius: 2rem;
+  font: 500 0.82rem / 1.2 var(--font-serif);
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+.editor-note-resolve:hover:not(:disabled) {
+  background: var(--color-brass);
+  color: var(--color-bg);
+  border-color: var(--color-brass-bright);
+}
+.editor-note-resolve:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+
 /* CMS admin avatar v navu — kruhová iniciála editora.
    Vždy viditelný; ve dvou stavech:
    - data-state="anon": ztlumený, transparentní, "·" placeholder; kliknutí

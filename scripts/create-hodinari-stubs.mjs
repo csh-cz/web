@@ -152,7 +152,7 @@ for (const e of missing) {
   lines.push('');
   lines.push("import EditorNote from '../../apps/hodinarium-eu/src/components/EditorNote.astro';");
   lines.push('');
-  lines.push('<EditorNote level="todo" title="Medailon je stub">');
+  lines.push(`<EditorNote level="todo" title="Medailon je stub" sourceFile="content/hodinari/${e.slug}.mdx">`);
   lines.push('  Doplň: životopis (vyučení, dílna, geografický rozsah práce), primární prameny,');
   lines.push('  references, portrétní fotku. Frontmatter `isStub` po doplnění odeber, ať se');
   lines.push('  veřejná „profil je stub" hláška skryje.');
