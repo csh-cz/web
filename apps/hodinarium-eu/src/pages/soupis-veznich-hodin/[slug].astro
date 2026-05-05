@@ -183,9 +183,11 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
     </section>
   )}
 
-  {d.zdrojDat && (
+  {/* zdrojDat (machine slug) se nezobrazuje — citace pramenů patří do <Prameny>.
+      V patičce ponecháváme jen datum posledního ověření, pokud existuje. */}
+  {d.posledniOvereni && (
     <p class="zdroj">
-      <small>Zdroj záznamu: {d.zdrojDat}{d.posledniOvereni && <span> · poslední ověření {d.posledniOvereni}</span>}</small>
+      <small>Poslední ověření {d.posledniOvereni}</small>
     </p>
   )}
 </Base>
