@@ -181,6 +181,32 @@ export const onRequest: PagesFunction<Env> = async ({ request, env }) => {
     });
   }
 
+  // ── Login redirect endpoint ──
+  // Účel: pověsit avatar v navu na CF Access auth flow, aniž by se editor
+  // dostal do /admin/ (Sveltia dashboard). Klik na anon avatar →
+  // `/api/cms/login?return_to=/aktualni/stranka` → CF Access intercept →
+  // OTP → tady jsme s editorEmailem → 302 na `return_to` (validováno na
+  // same-origin, default '/').
+  // Tím se po loginu vrátíme přesně tam, kde editor byl, kde se mu
+  // následně zhydratuje "Upravit" FAB. Bez `redirect_url=` query gymnastiky.
+  if (internalPath === '/login' || internalPath === '/login/') {
+    const editorEmail = getEditorEmail(request);
+    if (!editorEmail) {
+      // CF Access by nás sem nepustila bez Cf-Access hlavičky. Pojistka
+      // pro případ že policy z /api/cms/login chybí.
+      return new Response('CF Access policy nepokrývá /api/cms/login', { status: 401 });
+    }
+    const raw = url.searchParams.get('return_to') ?? '/';
+    // Same-origin guard: povolíme jen relativní path (`/...`), nikoli
+    // absolutní URL (open-redirect prevence).
+    const safeReturn =
+      raw.startsWith('/') && !raw.startsWith('//') && !raw.startsWith('/\\') ? raw : '/';
+    return new Response(null, {
+      status: 302,
+      headers: { Location: safeReturn },
+    });
+  }
+
   // ── User identity endpoint ──
   if (internalPath === '/api/auth/user' || internalPath === '/auth/user') {
     const editorEmail = getEditorEmail(request);
