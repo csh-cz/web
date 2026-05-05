@@ -441,7 +441,8 @@ summary::-webkit-details-marker { display: none; }
   border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
 }
 
-.prose-content blockquote {
+.prose-content blockquote,
+.prose blockquote {
   border-left: 2px solid var(--color-copper);
   padding: 0.5em 0 0.5em 1.5rem;
   font-style: italic;
@@ -449,6 +450,15 @@ summary::-webkit-details-marker { display: none; }
   line-height: 1.6;
   color: var(--color-text-soft);
   margin-block: 1.75em;
+}
+
+/* Vypnout Tailwind typography auto-uvozovky (CSS ::before / ::after open/close-quote)
+   — autor cituje s vlastními uvozovkami v textu, automatické double-quoting láme citáty. */
+.prose-content blockquote p::before,
+.prose-content blockquote p::after,
+.prose blockquote p::before,
+.prose blockquote p::after {
+  content: none !important;
 }
 
 .prose-content blockquote p:first-of-type {
