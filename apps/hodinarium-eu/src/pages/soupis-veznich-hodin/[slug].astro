@@ -5,6 +5,7 @@ import { getCollection, render } from 'astro:content';
 import { hodinari } from '../../data/hodinari';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
 import { pramenTooltip } from '../../utils/referenceTypes';
+import { formatCite, getRef } from '../../utils/cite';
 
 /** Auto-detekce typu pramene z URL (když není explicitně uveden v frontmatteru).
  *  Bez URL → typicky bibliografická citace tištěného pramene → 'kniha' (📖). */
@@ -167,8 +168,33 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
       <h2>Prameny</h2>
       <ul class="references-list">
         {d.prameny.map((p) => {
-          const type = detectPramenType(p.url, p.type);
-          // Text odkazu: prefer title, pak (zkrácená) citace, pak doménu URL.
+          // bibKey path: render přes citeproc + ISO 690 CSL
+          const cslItem = p.bibKey ? getRef(p.bibKey) : null;
+          const cslType = (cslItem?.type as string) || '';
+          const inferredType =
+            cslType === 'book' || cslType === 'chapter' ? 'kniha'
+            : cslType === 'article-journal' || cslType === 'paper-conference' || cslType === 'article-newspaper' || cslType === 'article-magazine' ? 'clanek'
+            : cslType === 'webpage' || cslType === 'post-weblog' || cslType === 'document' ? 'odkaz'
+            : cslType === 'patent' ? 'patent'
+            : cslType === 'manuscript' || cslType === 'archive' ? 'archiv'
+            : cslType === 'report' ? 'zprava'
+            : cslType === 'thesis' ? 'kniha'
+            : null;
+          const type = p.bibKey
+            ? (p.type ?? inferredType ?? 'odkaz')
+            : detectPramenType(p.url, p.type);
+          const formatted = p.bibKey ? formatCite(p.bibKey, { pages: p.pages }) : null;
+
+          if (formatted) {
+            return (
+              <li class={`reference reference-${type}`} title={pramenTooltip(type)}>
+                <span class="ref-cite" set:html={formatted} />
+                {p.poznamka && <span class="ref-note"> — {p.poznamka}</span>}
+              </li>
+            );
+          }
+
+          // Legacy path (bez bibKey): prefer title, pak (zkrácená) citace, pak doménu URL.
           const linkText = p.title
             || (p.citace ? p.citace.replace(/\s+/g, ' ').trim() : null)
             || (p.url ? p.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/.*$/, '') : 'odkaz');
@@ -327,10 +353,11 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
     font-size: 1em;
   }
   .prameny .references-list li.reference-clanek::before {
-    content: '§';
-    left: 0.4rem;
+    content: '📰';
+    left: 0;
+    font-size: 0.85em;
     color: var(--color-copper);
-    font-style: italic;
+    font-style: normal;
     font-family: var(--font-serif);
   }
   .prameny .references-list li.reference-archiv::before {

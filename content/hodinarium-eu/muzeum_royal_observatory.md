@@ -11,8 +11,7 @@ author: "Český spolek horologický"
 tags:
   - svet
 references:
-  - title: "Webové stránky muzea"
-    url: "https://www.rmg.co.uk/royal-observatory"
+  - bibKey: 'WeboveStrankyMuzea'
     type: odkaz
 tldr: 'Královská observatoř Greenwich u Londýna — Harrisonovy mořské chronometry H1—H4, nultý poledník, GMT. Klíčová instituce pro historii navigace a měření času.…'
 ---

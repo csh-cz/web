@@ -11,8 +11,7 @@ author: "Český spolek horologický"
 tags:
   - evropa
 references:
-  - title: "Webové stránky muzea"
-    url: "https://www.uhrenmuseum-glashuette.com/"
+  - bibKey: 'WeboveStrankyMuzea'
     type: odkaz
 tldr: 'Saské hodinářské muzeum v centru německé hodinářské tradice (Glashütte). Sbírka mechanických hodin a hodinek od poloviny 19.…'
 ---

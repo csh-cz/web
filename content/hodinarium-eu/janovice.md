@@ -6,8 +6,7 @@ tags:
   - vezni
   - cesko
 references:
-  - title: "anatomie-varhan.cz"
-    url: "http://anatomie-varhan.cz/"
+  - bibKey: 'Anatomievarhancz'
     type: odkaz
     note: "Zdrojový web — text k článku převzat se souhlasem"
 originalUrl: "https://hodinarium.eu/janovice.htm"

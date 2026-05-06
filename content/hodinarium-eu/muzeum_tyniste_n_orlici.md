@@ -12,8 +12,7 @@ tags:
   - vezni
   - cesko
 references:
-  - title: "muzeum-tyniste.cz"
-    url: "http://www.muzeum-tyniste.cz/"
+  - bibKey: 'Muzeumtynistecz'
     type: odkaz
 tldr: 'Skromnější, ale charakterní projekt Spolku přátel města Týniště nad Orlicí. Spolek od roku 2010 dlouhodobě užívá místní vodárenskou věž (památka místního významu).…'
 ---

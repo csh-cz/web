@@ -12,8 +12,7 @@ tags:
   - vezni
   - evropa
 references:
-  - title: "uhrenmuseum-chemnitz.de"
-    url: "http://www.uhrenmuseum-chemnitz.de/"
+  - bibKey: 'Uhrenmuseumchemnitzde'
     type: odkaz
 tldr: 'Privátní muzeum se zaměřením podobným našemu Hodináriu. Spolek byl založen v roce 2010, sídlí na adrese Zwickauer Straße 164a, Chemnitz. Otevřeno po telefonické dohodě.'
 ---

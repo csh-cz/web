@@ -12,8 +12,7 @@ tags:
   - vezni
   - cesko
 references:
-  - title: "Prostějovský orloj — orloj.eu"
-    url: "http://www.orloj.eu/cs/prostejov.htm"
+  - bibKey: 'ProstejovskyOrlojOrlojeu'
     type: odkaz
 tldr: 'Secesní věž radnice v Prostějově prošla v letech 2011 razantní přestavbou financovanou z Regionálního operačního programu Střední Morava (cca 6 mil. Kč).…'
 ---
