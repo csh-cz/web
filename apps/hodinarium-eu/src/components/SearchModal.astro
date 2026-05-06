@@ -40,10 +40,23 @@ const categoryLabelsForClient = Object.fromEntries(
       />
       <kbd class="search-kbd">esc</kbd>
     </div>
+    <div class="search-mode-tabs" role="tablist" aria-label="Režim vyhledávání">
+      <button data-mode="keyword" class="search-mode-tab is-active" role="tab" aria-selected="true">
+        <span class="mode-icon" aria-hidden="true">⌖</span>
+        <span class="mode-label">Klíčová slova</span>
+        <span class="mode-hint">přesná shoda</span>
+      </button>
+      <button data-mode="semantic" class="search-mode-tab" role="tab" aria-selected="false">
+        <span class="mode-icon" aria-hidden="true">∼</span>
+        <span class="mode-label">Sémanticky</span>
+        <span class="mode-hint">významem</span>
+      </button>
+    </div>
     <div id="search-results" class="search-results" aria-live="polite">
       <p class="search-hint">
-        Začni psát. Hledá v 218 článcích podle názvu i obsahu.
-        Stiskni <kbd>↵</kbd> pro otevření prvního výsledku, <kbd>esc</kbd> pro zavření.
+        Začni psát. <strong>Klíčová slova</strong> hledá fuzzy shodu v názvech a perexech 218 článků.
+        <strong>Sémanticky</strong> najde věcně související obsah napříč 1008 stránkami webu — i když nemáš přesné slovo.
+        <kbd>↵</kbd> otevře první výsledek, <kbd>esc</kbd> zavře.
       </p>
     </div>
   </div>
@@ -198,16 +211,103 @@ const categoryLabelsForClient = Object.fromEntries(
     text-align: center;
     font-style: italic;
   }
+
+  /* Tab switcher mezi Keyword (Fuse, instant) a Semantic (server, latency).
+     Tab je sticky pod input boxem, takže scroll výsledků nezakryje volbu. */
+  .search-mode-tabs {
+    display: flex;
+    gap: 0;
+    background: var(--color-bg-deep);
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 20%, transparent);
+    padding: 0 0.5rem;
+  }
+  .search-mode-tab {
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 0.55rem 0.75rem;
+    color: var(--color-text-muted);
+    font-family: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.05rem;
+    border-bottom: 2px solid transparent;
+    transition: color 120ms ease, border-color 120ms ease;
+  }
+  .search-mode-tab:hover {
+    color: var(--color-text);
+  }
+  .search-mode-tab.is-active {
+    color: var(--color-brass-bright);
+    border-bottom-color: var(--color-brass);
+  }
+  .search-mode-tab .mode-icon {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .search-mode-tab .mode-label {
+    font-weight: 500;
+    letter-spacing: 0.04em;
+  }
+  .search-mode-tab .mode-hint {
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+  .search-mode-tab.is-active .mode-hint {
+    color: var(--color-copper);
+  }
+
+  /* Sémantické skóre badge — informuje uživatele jak silné je sémantické
+     spojení mezi query a výsledkem (cosine similarity). */
+  .search-result-score {
+    margin-left: auto;
+    flex-shrink: 0;
+    font-family: ui-monospace, monospace;
+    font-size: 0.7rem;
+    color: var(--color-copper);
+    padding: 0.1rem 0.4rem;
+    border: 1px solid color-mix(in srgb, var(--color-copper) 25%, transparent);
+    border-radius: 2px;
+    align-self: center;
+  }
+  .search-result-loading {
+    padding: 2rem 1.5rem;
+    color: var(--color-text-muted);
+    text-align: center;
+    font-style: italic;
+  }
+  .search-result-loading::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid color-mix(in srgb, var(--color-brass) 40%, transparent);
+    border-top-color: var(--color-brass);
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+    animation: spin 700ms linear infinite;
+  }
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
 </style>
 
 <script is:inline define:vars={{ searchData, categoryLabels: categoryLabelsForClient }}>
   let fuse = null;
   let activeIdx = -1;
   let lastResults = [];
+  let mode = 'keyword';   // 'keyword' (Fuse, instant) | 'semantic' (server)
+  let semanticAbort = null; // AbortController pro in-flight requesty
 
   const dialog = document.getElementById('search-modal');
   const input = document.getElementById('search-input');
   const resultsEl = document.getElementById('search-results');
+  const tabs = document.querySelectorAll('.search-mode-tab');
 
   // categoryLabels předány z frontmatter přes define:vars — jediný zdroj pravdy.
 
@@ -244,34 +344,100 @@ const categoryLabelsForClient = Object.fromEntries(
     return out;
   }
 
-  function render(query, results) {
+  // Sjednocený render — bere normalizovaná data (`title`, `excerpt`,
+  // `href`, `meta`, `score`, `thumb`, `matches`). Fuse i semantic
+  // results se napřed normalizují do tohoto tvaru a teprve pak render.
+  function render(query, items) {
     if (!query) {
-      resultsEl.innerHTML = '<p class="search-hint">Začni psát. Hledá v 218 článcích podle názvu i obsahu. Stiskni <kbd>↵</kbd> pro otevření prvního výsledku.</p>';
+      const hint = mode === 'semantic'
+        ? 'Sémantické vyhledávání hledá <em>významem</em> napříč 1008 stránkami webu — i bez přesného slova. Začni psát celou frázi nebo otázku.'
+        : 'Začni psát. Klíčová slova hledá fuzzy shodu v názvech a perexech 218 článků. Pro hledání napříč všemi 1008 stránkami přepni na <strong>Sémanticky</strong>.';
+      resultsEl.innerHTML = '<p class="search-hint">' + hint + ' <kbd>↵</kbd> otevře první výsledek.</p>';
       return;
     }
-    if (results.length === 0) {
+    if (items.length === 0) {
       resultsEl.innerHTML = '<p class="search-empty">Žádný výsledek pro <em>' + query.replace(/[<>&]/g, '') + '</em></p>';
       return;
     }
-    const top = results.slice(0, 12);
+    const top = items.slice(0, 12);
     lastResults = top;
-    resultsEl.innerHTML = top.map((r, idx) => {
-      const item = r.item;
-      const titleMatch = r.matches?.find((m) => m.key === 't');
-      const excerptMatch = r.matches?.find((m) => m.key === 'e');
-      const titleHtml = highlight(item.t, titleMatch ? [titleMatch] : []);
-      const excerptHtml = highlight(item.e, excerptMatch ? [excerptMatch] : []);
-      const cat = categoryLabels[item.c] ?? '';
-      const year = item.y ? ' · ' + item.y : '';
-      const thumb = item.th
-        ? `<div class="search-result-thumb"><img src="${item.th}" alt="" loading="lazy" /></div>`
+    resultsEl.innerHTML = top.map((it, idx) => {
+      const titleHtml = it.titleHtml ?? it.title;
+      const excerptHtml = it.excerptHtml ?? it.excerpt;
+      const meta = it.meta ?? '';
+      const thumb = it.thumb
+        ? `<div class="search-result-thumb"><img src="${it.thumb}" alt="" loading="lazy" /></div>`
         : `<div class="search-result-thumb"><div class="search-result-thumb-placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" width="24" height="24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round"/></svg></div></div>`;
-      // URL routing: nové kategorie vedou na /<kategorie>/<slug>, legacy fallback /clanky/<slug>.
-      const href = ['sbirka','konstrukce','projekty','virtualni-muzeum','muzea','zajimavosti'].includes(item.c)
-        ? `/${item.c}/${item.s}`
-        : `/clanky/${item.s}`;
-      return `<a class="search-result${idx === activeIdx ? ' is-active' : ''}" href="${href}" data-idx="${idx}">${thumb}<div class="search-result-body"><div class="search-result-meta">${cat}${year}</div><div class="search-result-title">${titleHtml}</div><div class="search-result-excerpt">${excerptHtml}</div></div></a>`;
+      const scoreBadge = typeof it.score === 'number'
+        ? `<span class="search-result-score" title="Sémantická podobnost (0–1)">${it.score.toFixed(2)}</span>`
+        : '';
+      return `<a class="search-result${idx === activeIdx ? ' is-active' : ''}" href="${it.href}" data-idx="${idx}">${thumb}<div class="search-result-body"><div class="search-result-meta">${meta}</div><div class="search-result-title">${titleHtml}</div><div class="search-result-excerpt">${excerptHtml}</div></div>${scoreBadge}</a>`;
     }).join('');
+  }
+
+  // Mapovač Fuse výsledku → unified shape.
+  function mapFuseResult(r) {
+    const item = r.item;
+    const titleMatch = r.matches?.find((m) => m.key === 't');
+    const excerptMatch = r.matches?.find((m) => m.key === 'e');
+    const titleHtml = highlight(item.t, titleMatch ? [titleMatch] : []);
+    const excerptHtml = highlight(item.e, excerptMatch ? [excerptMatch] : []);
+    const cat = categoryLabels[item.c] ?? '';
+    const year = item.y ? ' · ' + item.y : '';
+    const newCats = ['sbirka','konstrukce','projekty','virtualni-muzeum','muzea','zajimavosti'];
+    const href = newCats.includes(item.c) ? `/${item.c}/${item.s}` : `/clanky/${item.s}`;
+    return {
+      title: item.t,
+      titleHtml,
+      excerpt: item.e,
+      excerptHtml,
+      meta: cat + year,
+      href,
+      thumb: item.th,
+    };
+  }
+
+  // Mapovač Semantic API odpovědi → unified shape.
+  // Backend vrací { url, title, summary, collection, category, year, thumbnail, score, tags }.
+  function mapSemanticResult(r) {
+    const collLabels = {
+      clanek: 'Článek',
+      karta: 'Sbírková karta',
+      hodinar: 'Medailon',
+      soupis: 'Soupis věží',
+      kronika: 'Kronika',
+    };
+    const collLabel = collLabels[r.collection] ?? r.collection;
+    const catLabel = r.category ? (categoryLabels[r.category] ?? '') : '';
+    const metaParts = [collLabel, catLabel, r.year].filter(Boolean);
+    return {
+      title: r.title,
+      excerpt: r.summary || (r.tags?.length ? r.tags.slice(0, 5).join(' · ') : ''),
+      meta: metaParts.join(' · '),
+      href: r.url,
+      thumb: r.thumbnail,
+      score: r.score,
+    };
+  }
+
+  async function runSemantic(q) {
+    if (semanticAbort) semanticAbort.abort();
+    semanticAbort = new AbortController();
+    resultsEl.innerHTML = '<p class="search-result-loading">Sémanticky prohledávám 1008 stránek…</p>';
+    try {
+      const r = await fetch(`/api/search/semantic?q=${encodeURIComponent(q)}&limit=15`, {
+        signal: semanticAbort.signal,
+      });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      const data = await r.json();
+      const items = (data.results ?? []).map(mapSemanticResult);
+      activeIdx = items.length > 0 ? 0 : -1;
+      render(q, items);
+    } catch (err) {
+      if (err.name === 'AbortError') return; // Newer query si přepíše
+      console.error('Semantic search error', err);
+      resultsEl.innerHTML = '<p class="search-empty">Sémantické vyhledávání selhalo: ' + (err.message ?? 'Neznámá chyba') + '. Zkus přepnout na <strong>Klíčová slova</strong>.</p>';
+    }
   }
 
   let timer;
@@ -284,26 +450,65 @@ const categoryLabelsForClient = Object.fromEntries(
       render('', []);
       return;
     }
-    timer = setTimeout(async () => {
-      const f = await ensureFuse();
-      const results = f.search(q);
-      activeIdx = results.length > 0 ? 0 : -1;
-      render(q, results);
-    }, 80);
+    if (mode === 'keyword') {
+      timer = setTimeout(async () => {
+        const f = await ensureFuse();
+        const items = f.search(q).map(mapFuseResult);
+        activeIdx = items.length > 0 ? 0 : -1;
+        render(q, items);
+      }, 80);
+    } else {
+      // Semantic: delší debounce (500ms) — server roundtrip + AI inference
+      // má smysl jen pro stable query, ne každý keystroke.
+      timer = setTimeout(() => runSemantic(q), 500);
+    }
+  });
+
+  // Tab switching
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      const newMode = tab.getAttribute('data-mode');
+      if (newMode === mode) return;
+      mode = newMode;
+      tabs.forEach((t) => {
+        const active = t.getAttribute('data-mode') === mode;
+        t.classList.toggle('is-active', active);
+        t.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+      // Refresh: pokud má input query, znovu spusť v novém režimu.
+      const q = input.value.trim();
+      activeIdx = -1;
+      lastResults = [];
+      if (q.length >= 2) {
+        if (mode === 'semantic') {
+          runSemantic(q);
+        } else {
+          ensureFuse().then((f) => {
+            const items = f.search(q).map(mapFuseResult);
+            activeIdx = items.length > 0 ? 0 : -1;
+            render(q, items);
+          });
+        }
+      } else {
+        render('', []);
+      }
+      input.focus();
+    });
   });
 
   input.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' && lastResults[activeIdx]) {
       e.preventDefault();
-      window.location.href = '/clanky/' + lastResults[activeIdx].item.s;
+      // Unified shape — vždy `.href` na položce.
+      window.location.href = lastResults[activeIdx].href;
     } else if (e.key === 'ArrowDown') {
       e.preventDefault();
       activeIdx = Math.min(activeIdx + 1, lastResults.length - 1);
-      render(input.value.trim(), lastResults.map((item) => item));
+      render(input.value.trim(), lastResults);
     } else if (e.key === 'ArrowUp') {
       e.preventDefault();
       activeIdx = Math.max(activeIdx - 1, 0);
-      render(input.value.trim(), lastResults.map((item) => item));
+      render(input.value.trim(), lastResults);
     }
   });
 
