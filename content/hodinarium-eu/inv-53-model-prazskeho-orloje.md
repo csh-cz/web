@@ -1,25 +1,34 @@
 ---
-title: "Model Pražského orloje"
-slug: "inv-53-model-prazskeho-orloje"
-category: "sbirka"
-podsekce: "karta"
-originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
-lastModified: null
-sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T04:12:37.526Z"
-manualEdit: true
-author: "Český spolek horologický"
+title: Orloj Hvězdárna Petřín
+slug: inv-53-model-prazskeho-orloje
+category: sbirka
+podsekce: karta
+karta:
+  inventarniCislo: '53'
+  datace: ''
+  signatura: ''
+  kyvadlo: ''
+  ciselnik: ''
+  pohonDetail: ''
+  rozmery: ''
+  umisteni: Hlavní sál
+  majitel: zápůjčka
+  darceZapujcitel: ''
+  vztahKeSbirce: zápůjčka
+  pridanoDoSbirky: 2025
+  stav: funkční
+  restaurovani: ''
+  adaptaceProVystavu: ''
 tags:
   - hlavni-sal
   - funkcni
   - vezni
-karta:
-  inventarniCislo: "53"
-  umisteni: "Hlavní sál"
-  pridanoDoSbirky: "2025"
-  majitel: "zápůjčka"
-  vztahKeSbirce: "zápůjčka"
-  stav: "funkční"
+author: Český spolek horologický
+manualEdit: true
+originalUrl: https://hodinarium-eu.pages.dev/sbirka/katalog
+lastModified: null
+sourceCharset: utf-8
+scrapedAt: 2026-04-30T04:12:37.526Z
 ---
 
 Zjednodušený model Pražského orloje (chybí rafije pro pohyb Měsíce) byl sestrojen pro předvedení souvislosti staročeského času a času středoevropského. V minulosti se užíval staročeský čas, u něhož počítání hodin dne začínalo západem Slunce. To znamená, že počátek dne se v průběhu roku měnil. Na orloji se to projevuje tím, že čtyřiadvacátník se v průběhu roku natáčí tak, aby jeho číslice 24 byla proti římské číslici, odpovídající okamžiku západu Slunce pro daný den.
