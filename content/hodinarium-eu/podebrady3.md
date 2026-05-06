@@ -31,6 +31,6 @@ Chtěl jsem napsat pár slov na obhajobu chudáka trpase. Nemám rád zploštěl
 
 Asi by to stálo za vážnější úvahu doloženou fakty a příklady. Zatím jsem klesnul do polohy experimentální - na podzim jsem si sehnal kámen na trpaslíka a až se vyrovnám s neodkladnou prací, pustím se do něho."
 
-Píše akademický sochař Petr Skála
+Píše akademický sochař [Petr Skála](/hodinari/petr-skala)
 
 *![Trpaslík v roce 2007](/img/podebrady/trpaslik2007.jpg)*

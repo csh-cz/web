@@ -55,4 +55,4 @@ Vnitřní hodinová stupnice je jen od páté hodiny přes půlnoc k sedmé hodi
 
 Rameno (Alhidáda) po nastavení do směru referenční hvězdy umožní odečíst čas. Srovnal jsem nastavení na fotografii s otáčivou mapou hvězdné oblohy. Rameno je nastaveno tak, jakoby zadní kolo Velkého vozu bylo skoro přesně na severu. To na začátku května nastává přibližně v 8:15. V tomto čase však nocturnal nejde použít, protože Slunce vyšlo již kolem 5:30. Proto je rameno již mimo noční stupnici.
 
-Text: Petr Král
+Text: [Petr Král](/hodinari/petr-kral)

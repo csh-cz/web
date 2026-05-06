@@ -51,4 +51,4 @@ Pro současný stav panelu zatím zvolíme variantu číslo 3., tedy konvertor i
 - [Prodej](https://www.soselectronic.cz/articles/no-name/displej-citelny-za-kazdych-svetelnych-podminek-916) — soselectronic.cz. [cit. 2026-04-28]
 - [Prospekt jednotky GEMA ADHT](download/ADHT/Doc/ADHTpopis_zapojeni.doc)
 
-Text a řešení panelu: Petr Král
+Text a řešení panelu: [Petr Král](/hodinari/petr-kral)

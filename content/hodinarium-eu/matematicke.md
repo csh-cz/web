@@ -42,4 +42,4 @@ S
 !
 S
 
-Petr Král
+[Petr Král](/hodinari/petr-kral)

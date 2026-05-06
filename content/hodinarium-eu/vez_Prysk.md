@@ -34,7 +34,7 @@ Před konečnou montáží byly doplněny chybějící díly. Podle částečně
 
 Po sestavení celého stroje byl doplněn závěs kyvadla. Pro demonstraci chodu hodin v muzeu byla zhotovena kratší závěsná kyvadlová tyč, na kterou byla zavěšena původní litinová čočka. Funkce stroje byla ověřena po zavěšení provizorních závaží. Původní čedičová závaží byla značně těžká, ověřili jsme, že pro chod stroje byla nezbytná, neboť pro rozběh bicích soukolí i bez připojených táhel na cimbály je třeba závaží o hmotnosti nejméně 25 kg. Konečný vzhled stroje po opravě je na obrázcích 10 a 11.
 
-Opravu provedli: Ing. Miroslav Baudisch, Jiří Kořínek
+Opravu provedli: Ing. [Miroslav Baudisch](/hodinari/miroslav-baudisch), Jiří Kořínek
 
 ![foto2 1](/img/vez/prysk/f/foto2_001.jpg) 1 ![foto2 2](/img/vez/prysk/f/foto2_002.jpg) 2
 ![foto2 3](/img/vez/prysk/f/foto2_003.jpg) 3 ![foto2 4](/img/vez/prysk/f/foto2_004.jpg) 4 ![foto2 5](/img/vez/prysk/f/foto2_005.jpg) 5 ![foto2 7](/img/vez/prysk/f/foto2_007.jpg) 6 ![foto2 6](/img/vez/prysk/f/foto2_006.jpg) 7 ![foto2 8](/img/vez/prysk/f/foto2_008.jpg) 8 ![foto2 9](/img/vez/prysk/f/foto2_009.jpg) 9![foto2 10](/img/vez/prysk/f/foto2_010.jpg) 10 ![foto2 11](/img/vez/prysk/f/foto2_011.jpg) 11

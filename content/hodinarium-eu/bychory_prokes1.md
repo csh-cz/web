@@ -32,7 +32,7 @@ Pan Prokeš se v roce 1864 ucházel i o opravu Pražského orloje a vyrobil pro 
 
 Věžní hodinový stroj střední velikosti. Lucernové (cévkové) pastorky — v době nálezu už nebyly otočné, místy byly nahrazeny hřebíkem. Vypouštění bicích strojů jednopákové. Kyvadlová čočka litinová, kyvadlová tyč ocelová. Litinová závaží jsou zavěšena přes volné kladky na ocelových lanech.
 
-Na horní vodorovné pásnici kyvadlové strany hodinového stroje je čitelná signatura výrobce s uvedeným letopočtem: **Jan Prokeš v Sobotce 1868.**
+Na horní vodorovné pásnici kyvadlové strany hodinového stroje je čitelná signatura výrobce s uvedeným letopočtem: **[Jan Prokeš](/hodinari/jan-prokes) v Sobotce 1868.**
 
 *Výňatek z restaurátorské zprávy P. Skály.*
 

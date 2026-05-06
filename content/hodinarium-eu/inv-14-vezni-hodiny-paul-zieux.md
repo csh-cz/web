@@ -34,4 +34,4 @@ Půlový hodinový stroj s rámem typu flat bed. Tento způsob uložení kol se 
 
 Stroj byl opraven a nakonzervován, doplněny chybějící části, např. závěs kyvadla s kompletním kyvadlem a natahovací klika k původnímu pastorku.
 
-Stroj byl zakoupen od hodináře věžních hodin Markuse Burmeistera. Podle jeho vyjádření se jedná o francouzský stroj, vyrobený kolem roku 1770. Při čištění byla na uchycení kotvy nalezena signatura Paul Zieux.
+Stroj byl zakoupen od hodináře věžních hodin Markuse Burmeistera. Podle jeho vyjádření se jedná o francouzský stroj, vyrobený kolem roku 1770. Při čištění byla na uchycení kotvy nalezena signatura [Paul Zieux](/hodinari/paul-zieux).

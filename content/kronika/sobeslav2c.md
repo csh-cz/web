@@ -47,4 +47,4 @@ scrapedAt: "2026-04-27T17:36:37.648Z"
 
 **E**xistuje tedy teoretická možnost, že hodiny legendárního mistra Hanuše byly v Jindřichově Hradci někdy v 17. století demontovány. Rám z těch hodin kovaný podobně jako Pražský orloj pak byl roku 1677 Němcem Janem Möltzerem, hodinářem z Jindřichova Hradce použit pro postavení nových soběslavských hodin. Žádné přímé důkazy to však nepotvrzují. Je to zatím otevřený badatelský problém.
 
-Na základě archivních výpisů sestavených Petrem Lintnerem spekuloval Petr Král
+Na základě archivních výpisů sestavených Petrem Lintnerem spekuloval [Petr Král](/hodinari/petr-kral)

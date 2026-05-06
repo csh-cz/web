@@ -53,4 +53,4 @@ Modul měří pouze 2 palce na 2 palce při výšce méně než palec - je pětk
 
 [Obrázek vývojového kitu](https://www.microsemi.com/images/gallery/new_products/EvalKit%20Cartoon.png) , [Datasheed](/download/microchip-mac-sa5x.pdf)
 
-Petr Král podle uvedených zdrojů
+[Petr Král](/hodinari/petr-kral) podle uvedených zdrojů

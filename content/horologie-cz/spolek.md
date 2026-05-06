@@ -17,8 +17,8 @@ Na členské schůzi 5.6.2015 byla mimo jiné schválena změna názvu, stanovy 
 
 ## Výbor spolku od 5.6.2016:
 
-- předseda: Ing. Petr Král
-- pokladník: Ing. Miroslav Baudisch
+- předseda: Ing. [Petr Král](/hodinari/petr-kral)
+- pokladník: Ing. [Miroslav Baudisch](/hodinari/miroslav-baudisch)
 - člen: Ing David Knespl
 
 Spolek navenek zastupují členové výboru, každý samostatně nebo další členové spolku pověření výborem pro konkrétní záležitost.

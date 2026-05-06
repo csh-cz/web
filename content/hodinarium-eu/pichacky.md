@@ -100,4 +100,4 @@ Autoři expozice děkují spolupracujícím jednotlivcům i firmám
 
 - [KMP](https://www.kmp.cz/) výrobce tonerů, inkoustových náplní a barvicích pásek
 
-Podle podkladů ze jmenovaných stránek sestavil: Petr Král
+Podle podkladů ze jmenovaných stránek sestavil: [Petr Král](/hodinari/petr-kral)

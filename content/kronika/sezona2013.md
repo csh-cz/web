@@ -79,4 +79,4 @@ Chceme se o svou radost s vámi podělit, proto jsme několik textů z návště
 
 > Krásné město, krásné památky, krásné „věžní muzejíčko”.
 
-Petr Král
+[Petr Král](/hodinari/petr-kral)

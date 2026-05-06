@@ -272,4 +272,4 @@ Hodinárium opět navštívil fotograf pan Marušák a opět bylo co fotit. Neje
 
 ![Fotografie 130](/img/decin/foto201811/f/foto_0130.jpg)
 
-Text: Petr Král, foto: Stan Marušák
+Text: [Petr Král](/hodinari/petr-kral), foto: Stan Marušák

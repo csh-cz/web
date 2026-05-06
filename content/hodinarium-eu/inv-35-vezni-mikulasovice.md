@@ -28,7 +28,7 @@ Hodinový stroj věžních hodin byl vyroben známou firmou Mannhardt v Mnichov�
 
 Je vybaven raritním krokem podle J. Winnerla.
 
-Joseph Thaddeus Winnerl (1799 - 1886), výjimečný hodinář, původem z rakouského Murecku, který zhotovoval v Paříži od roku 1832 věhlasné námořní chronometry. Konstrukce tohoto kroku je z roku 1836, byl používán při stavbě přesných astronomických hodin.
+[Joseph Thaddeus Winnerl](/hodinari/joseph-winnerl) (1799 - 1886), výjimečný hodinář, původem z rakouského Murecku, který zhotovoval v Paříži od roku 1832 věhlasné námořní chronometry. Konstrukce tohoto kroku je z roku 1836, byl používán při stavbě přesných astronomických hodin.
 
 Krokový mechanismus je velmi půvabný a atraktivní, ale především velmi přesný. Malá závažíčka udělují kyvadlu neustále přesně stejné popudy, jejichž velikost je dána gravitací. Při pohybu kyvadla do strany a s ním i ramen s plochými talířky nahoru a dolů vzniká popud na kyvadlo takto:
 

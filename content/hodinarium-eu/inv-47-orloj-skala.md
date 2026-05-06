@@ -29,4 +29,4 @@ Funkční orloj sochařů Petra Skály a Miroslava Kotrby je vybaven mechanikou,
 
 Orloj je poháněn malým elektromotorkem, který obdrží každých 12 minut impulz od řídicích hodin, a rafije Slunce spolu s Měsícem a ekliptikou se natočí o jednu pětinu hodiny.
 
-V roce 2009 omaloval plochu orlojní desky akad. sochař Miroslav Kotrba. Orloj byl zcela dokončen v červenci roku 2015 pro účely expozice v Děčíně.
+V roce 2009 omaloval plochu orlojní desky akad. sochař [Miroslav Kotrba](/hodinari/miroslav-kotrba). Orloj byl zcela dokončen v červenci roku 2015 pro účely expozice v Děčíně.

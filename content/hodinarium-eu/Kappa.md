@@ -10,7 +10,7 @@ tldr: 'Kappa Orologi Industriali (případně Kappa Time Systems) byla italská 
 ---
 ![SSC-321 celkový pohled](/img/elektrika/Kappa/Kappa1.jpg)
 
-**Kappa Orologi Industriali** (případně **Kappa Time Systems**) byla italská firma specializovaná na výrobu přesných hodinových systémů jednotného času, zejména určených pro námořní a průmyslové použití. Po mnoho let byla známá kvalitou svých **master-slave** hodin a dalších časoměrných zařízení, často určených pro náročné provozy na lodích, v přístavech či v továrnách. Potřeba jednotného času měla zvláštní význam zejména na námořních lodích často překračujících časová pásma.
+**[Kappa Orologi Industriali](/hodinari/kappa-orologi)** (případně **Kappa Time Systems**) byla italská firma specializovaná na výrobu přesných hodinových systémů jednotného času, zejména určených pro námořní a průmyslové použití. Po mnoho let byla známá kvalitou svých **master-slave** hodin a dalších časoměrných zařízení, často určených pro náročné provozy na lodích, v přístavech či v továrnách. Potřeba jednotného času měla zvláštní význam zejména na námořních lodích často překračujících časová pásma.
 
 ## Počátky a výrobní program **Kappa Orologi Industriali**
 
@@ -74,4 +74,4 @@ Přestože je možné na eBay.de originální hlavní hodiny koupit, přikročil
 
 V levém okně je monitor chodu NTP jednotky instalované v Hodináriu.
 
-Petr Král
+[Petr Král](/hodinari/petr-kral)

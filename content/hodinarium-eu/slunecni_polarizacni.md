@@ -51,4 +51,4 @@ Polarizační rovinu můžeme zjišťovat natáčením polarizačního filtru. U
 
 Při pokusech jsem zaznamenal i jakési podivné chování filtru. Teprve po chvíli jsem si uvědomil, že i mé sluneční brýle jsou částečně polarizační a docházá ke křížení polarizátorů. Přiložený proužek celofánu na brýle měl podobný efekt. Celý efekt pootočení roviny polarizace můžete doma dobře pozorovat v polarizovaném světle vašeho LCD monitoru.
 
-Text a závěrečná realizace: Petr Král
+Text a závěrečná realizace: [Petr Král](/hodinari/petr-kral)

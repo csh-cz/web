@@ -54,4 +54,4 @@ O mluvících hodinkách popisovaných v časopisu **"Z říše vědy a práce" 
 - [Mluvící hodinky](/clanky/mluvici1895)
 - [Když hodiny promluvily](/download/Quando_gli_orologi_parlavano.pdf) - Marisa Addomine, italský text QUANDO GLI OROLOGI PARLAVANO [¬](/download/Kdyz_hodiny_zacaly-mluvit.pdf)
 
-Text: Petr Král, foto NTM, archiv ČT
+Text: [Petr Král](/hodinari/petr-kral), foto NTM, archiv ČT

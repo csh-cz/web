@@ -61,6 +61,6 @@ Dodejme ještě, že web je dostupný i z jiného zařízení připojeného na s
 
 Pozn. Může se stát, že se ESP8266 připojí k AP, ale ten nepošle IP adresu stanice. V takovém případě nedojde k získání časové informace. Je to stejný stav, jako když se jednotka k AP nepřipojí.
 
-Petr Král
+[Petr Král](/hodinari/petr-kral)
 
 8 Přepínač DIL.

@@ -68,4 +68,4 @@ Celý tento projekt má spíše význam školníhou příkladu.
 - [Amater radio statiom W8BH](http://w8bh.net/) — w8bh.net. [cit. 2026-04-28]
 - [Přesnost časování pomocí Arduina](https://www.mylms.cz/presnost-casovani-pomoci-arduina/) — mylms.cz. [cit. 2026-04-28]
 
-Text: Petr Král
+Text: [Petr Král](/hodinari/petr-kral)

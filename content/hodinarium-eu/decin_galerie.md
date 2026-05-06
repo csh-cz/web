@@ -33,12 +33,12 @@ rafii přesnější. Pohon zajišťuje malý elektromotorek řízený podružný
 hodinami: každých dvanáct minut se rafije Slunce spolu s Měsícem a ekliptikou
 otočí o jednu pětinu hodiny.
 
-V roce 2009 plochu orlojní desky omaloval ak. soch. **Miroslav Kotrba**.
+V roce 2009 plochu orlojní desky omaloval ak. soch. **[Miroslav Kotrba](/hodinari/miroslav-kotrba)**.
 Zcela dokončen byl orloj v červenci 2015 pro účely děčínské expozice.
 
 ### Hodiny Josefa Achrera
 
-Hodinář a řezbář **Josef Achrer** (\*1927 — †1988) zhotovil tyto hodiny
+Hodinář a řezbář **[Josef Achrer](/hodinari/josef-achrer)** (\*1927 — †1988) zhotovil tyto hodiny
 v roce 1985 pro restauraci Českých drah v rámci rekonstrukce nádraží
 v pražských Holešovicích. V roce 2015 je zakoupil soukromý sběratel
 a zapůjčil je do Hodinária.
@@ -54,7 +54,7 @@ SH71, které umožňují samostatný chod i automatické nastavení po výpadku 
 
 ### Drobná kovaná plastika Zdeňka Legnera
 
-**Zdeněk Legner** vystudoval uměleckoprůmyslovou školu v Turnově a dále
+**[Zdeněk Legner](/hodinari/zdenek-legner)** vystudoval uměleckoprůmyslovou školu v Turnově a dále
 restaurátorskou školu při brněnském muzeu. Stal se členem Českého svazu
 výtvarných umělců v Mánesu a státním restaurátorem.
 
@@ -82,7 +82,7 @@ Pro sezónu **2017** byly zapůjčeny plastiky z [kovářství Gibbus](http://gi
 ## Humor v expozici
 
 Humor zastupuje několik autorů. Pan Čejka ([sestka.com](http://www.sestka.com))
-vytvořil *Nouzové zastavení času*, **Petr Král** je autorem *Vážených hodin*
+vytvořil *Nouzové zastavení času*, **[Petr Král](/hodinari/petr-kral)** je autorem *Vážených hodin*
 a fotokoláže s pseudonymem **aTeo** ([ateo.cz](http://www.ateo.cz)).
 
 ![Nouzové zastavení času — instalace pana Čejky](/img/decin/galerie/nouzove_zastaveni_casu.jpg)

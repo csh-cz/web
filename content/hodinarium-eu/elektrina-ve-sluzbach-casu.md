@@ -29,9 +29,9 @@ Nejjednodušší elektrické hodiny vznikly doplněním elektrického natahován
 
 Skutečně elektrické hodiny používaly magnetický impulz dodávaný přímo do kyvadla, případně setrvačky. Tady se mění význam převodového soukolí: slouží už jen k počítání kyvů, ne k vydávání elektrických impulzů. Prvním konstruktérem, který se pokusil postavit hodiny s aplikací elektřiny, byl skotský hodinář Alexander Bain. Jeho první konstrukce hodin v polovině 19. století udržovala pohyb kyvadla impulzy z elektromagnetu, spínaného mechanickým kontaktem. Ten byl nespolehlivý a nepříjemně se opaloval.
 
-Nespolehlivý kontakt vyřešil Matthäus Hipp, který zkonstruoval jednoduchý a spolehlivý spínač: kyvadlo kývá volně; poklesne-li jeho amplituda pod určitou mez, jazýček se vzpříčí v zářezu a kontakt sepne — kyvadlo dostane impulz a kývá dál. Konstrukce z roku ~1850 fungovala v matičních hodinách, které rozváděly přesný čas do podružných hodin v rámci budovy.
+Nespolehlivý kontakt vyřešil [Matthäus Hipp](/hodinari/matthaus-hipp), který zkonstruoval jednoduchý a spolehlivý spínač: kyvadlo kývá volně; poklesne-li jeho amplituda pod určitou mez, jazýček se vzpříčí v zářezu a kontakt sepne — kyvadlo dostane impulz a kývá dál. Konstrukce z roku ~1850 fungovala v matičních hodinách, které rozváděly přesný čas do podružných hodin v rámci budovy.
 
-Matiční hodiny jsou přesné hodiny opatřené kontaktním systémem, který v určitých intervalech vysílá časové impulzy do podružných hodin po elektrickém vedení. Tento koncept ovládl 19. a první polovinu 20. století — najdeme ho ve školách, na nádražích, v továrnách i v poštovních budovách.
+[Matiční hodiny](/sbirka/karta/inv-108-maticni-hodiny/) jsou přesné hodiny opatřené kontaktním systémem, který v určitých intervalech vysílá časové impulzy do podružných hodin po elektrickém vedení. Tento koncept ovládl 19. a první polovinu 20. století — najdeme ho ve školách, na nádražích, v továrnách i v poštovních budovách.
 
 ## ATO, Bulle a další systémy s magnetickým impulzem do kyvadla
 

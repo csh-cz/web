@@ -63,4 +63,4 @@ Tyto přístroje představují počátky průmyslové evidence pracovní doby a 
 
 ![Fotografie 6](/img/Timometer/f/foto_0006.jpg)
 
-Ing. Petr Král
+Ing. [Petr Král](/hodinari/petr-kral)

@@ -73,4 +73,4 @@ Varianty provedení (tučně vyznačená zapůjčená varianta)
 
 Hodiny bude tedy pohánět strojek SAM – samostavitelný hodinový strojek pro připojení k MOBALine. [Podrobnější technické parametry](https://mobatime.cz/obchod/analogove-hodiny-3218/). Ciferník bude typu C2, tedy se zakreslenými číslicemi.
 
-Podle stránek výrobce napsal Petr Král
+Podle stránek výrobce napsal [Petr Král](/hodinari/petr-kral)

@@ -44,4 +44,4 @@ U první verze autorových GPS hodin byl použit Bluetooth(BT) GPS modul. To mě
 - [Přesnost atomových hodin, GPS a teorie relativity](https://www.osel.cz/3225-presnost-atomovych-hodin-gps-a-teorie-relativity.html)
 - EGNOS
 
-Petr Král s využitím uvedených zdrojů
+[Petr Král](/hodinari/petr-kral) s využitím uvedených zdrojů

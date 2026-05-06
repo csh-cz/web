@@ -91,6 +91,6 @@ V rámečku vlevo je externí monitor reálného provozu NTP impulzeru v Hodiná
 **Panel č. 5, kde je NTP impulzer zapojen, je v provozu maximálně
 v intervalu cca 9:00 až 18:00.**
 
-Petr Král
+[Petr Král](/hodinari/petr-kral)
 
 8 Přepínač DIL.

@@ -1,6 +1,6 @@
 ---
 title: Orloj Hvězdárna Petřín
-slug: inv-53-model-prazskeho-orloje
+slug: inv-53-orloj-hvezdarna-petrin
 category: sbirka
 podsekce: karta
 karta:

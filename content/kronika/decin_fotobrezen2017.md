@@ -102,4 +102,4 @@ Hodinárium navštívil fotograf a zachytil nové přírůstky věžních stroj�
 
 ![Fotografie 46](/img/decin/foto201703/f/foto_0046.jpg)
 
-Text: Petr Král, foto: Stan Marušák
+Text: [Petr Král](/hodinari/petr-kral), foto: Stan Marušák

@@ -51,7 +51,7 @@ Všechno co kývá je kývadlo. Proč tedy nepřipojit i kuchyňské váhy k hod
 
 ![Fotografie 20](/img/decin0/f/foto_0020.jpg)
 
-Instalování nového orloje. Jeden z autorů - Petr Skála na obrázku vpravo.
+Instalování nového orloje. Jeden z autorů - [Petr Skála](/hodinari/petr-skala) na obrázku vpravo.
 
 ![Fotografie 13](/img/decin0/f/foto_0013.jpg)
 
@@ -101,7 +101,7 @@ Barokní kovaný špindlový stroj. Zatím nejstarší stroj v expozici. Jen ví
 
 ![Fotografie 11](/img/decin0/18_8_2015/f/foto_0011.jpg)
 
-Autorem hodin je hodinář a řezbář Josef Achrer (\*1927 - +1988). Hodiny byly zhotoveny v roce 1985 pro restauraci ČD v rámci rekonstrukce nádraží v Holešovicích. V roce 2015 byly zakoupeny soukromým sběratelem a zapůjčeny na tuto výstavu.
+Autorem hodin je hodinář a řezbář [Josef Achrer](/hodinari/josef-achrer) (\*1927 - +1988). Hodiny byly zhotoveny v roce 1985 pro restauraci ČD v rámci rekonstrukce nádraží v Holešovicích. V roce 2015 byly zakoupeny soukromým sběratelem a zapůjčeny na tuto výstavu.
 
 ![Fotografie 12](/img/decin0/18_8_2015/f/foto_0012.jpg)
 
@@ -117,7 +117,7 @@ Hodiny z roku 1985 od řezbáře a hodináře Josefa Achrera. Detail ciferníků
 
 ![Fotografie 15](/img/decin0/18_8_2015/f/foto_0015.jpg)
 
-Funkční orloj sochařů Petra Skály a Miroslava Kotrby je nástěnný malovaný orloj s mechanikou zajišťující pohyb podobných ukazatelů jako jsou na Pražském orloji. Orloj vznikal pomalu a postupně ve volných chvílích od roku 2002. Koncepce pohybu soukolí rohatkami je převzata z orloje litomyšlského (Karel Adamec, Čáslav, 1907), jen rozměry kol jsou jiné a převody na měsíční rafiji jsou udělány přesnější. Orloj je poháněn malým elektromotorkem podle řídících hodin, každých dvanáct minut se přetočí rafije Slunce spolu s Měsícem a ekliptikou o jednu pětinu hodiny. V roce 2009 plochu orlojní desky omaloval ak. soch. Miroslav Kotrba. Zcela dokončen byl orloj v červenci roku 2015 pro účely expozice v Děčíně.
+Funkční orloj sochařů Petra Skály a Miroslava Kotrby je nástěnný malovaný orloj s mechanikou zajišťující pohyb podobných ukazatelů jako jsou na Pražském orloji. Orloj vznikal pomalu a postupně ve volných chvílích od roku 2002. Koncepce pohybu soukolí rohatkami je převzata z orloje litomyšlského (Karel Adamec, Čáslav, 1907), jen rozměry kol jsou jiné a převody na měsíční rafiji jsou udělány přesnější. Orloj je poháněn malým elektromotorkem podle řídících hodin, každých dvanáct minut se přetočí rafije Slunce spolu s Měsícem a ekliptikou o jednu pětinu hodiny. V roce 2009 plochu orlojní desky omaloval ak. soch. [Miroslav Kotrba](/hodinari/miroslav-kotrba). Zcela dokončen byl orloj v červenci roku 2015 pro účely expozice v Děčíně.
 
 ![Fotografie 16](/img/decin0/18_8_2015/f/foto_0016.jpg)
 
@@ -143,7 +143,7 @@ Výjezdní zasedání Českého spolku horologického v Hodináriu
 
 ## Ještě je třeba poděkovat Zámku Děčín, který vznik Hodinária umožnil, a všem, kteří se stěhování Muzejíčka ze Soběslavi a budování nové expozice účastnili.
 
-Za organizátory ing. Petr Král a ing. Miroslav Baudisch
+Za organizátory ing. [Petr Král](/hodinari/petr-kral) a ing. [Miroslav Baudisch](/hodinari/miroslav-baudisch)
 
 ## Odkazy
 
