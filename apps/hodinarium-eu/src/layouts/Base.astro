@@ -21,6 +21,10 @@ const desc = description ?? "Český spolek horologický — sbírka, expozice, 
 // Cloudflare Web Analytics token — set in CF Pages env as PUBLIC_CF_ANALYTICS_TOKEN.
 // Bez tokenu beacon tag se nevyrenderuje (no-op v dev/preview).
 const cfAnalyticsToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN as string | undefined;
+
+// GitHub repo pro CMS commit pipeline. Override přes PUBLIC_GITHUB_REPO env
+// var (např. když fork/staging používá jiný repo). Default `csh-cz/web`.
+const githubRepo = (import.meta.env.PUBLIC_GITHUB_REPO as string | undefined) ?? 'csh-cz/web';
 // Dočasně canonical na pages.dev — ostrá doména hodinarium.eu zatím neběží
 // (po DNS switch změnit zpět na "https://hodinarium.eu" a aktualizovat astro.config).
 const site = Astro.site ?? new URL("https://hodinarium-eu.pages.dev");
@@ -320,9 +324,14 @@ const orgJsonLd = isHome ? {
       ale fetch ze same-origin posílá CF Access cookie → pro editora vrátí
       authenticated:true s emailem.
     -->
-    <script is:inline>
+    <script is:inline define:vars={{ githubRepo }}>
+      // Namespace pro CMS-related JS helpery v Base.astro inline scriptu.
+      // Scope: window.__csh — vyhneme se kolizím s globálními symboly
+      // (resolveEditorNote, inferSourceFileFromUrl byly předtím v global scope).
+      window.__csh = window.__csh || {};
+
       // ---- Helper: odvodit zdrojový MDX soubor z URL routy ----
-      function inferSourceFileFromUrl() {
+      window.__csh.inferSourceFileFromUrl = function () {
         const path = window.location.pathname.replace(/\/$/, '');
         const slug = path.split('/').pop();
         if (!slug) return null;
@@ -331,14 +340,14 @@ const orgJsonLd = isHome ? {
         if (path.startsWith('/sbirka/karta/')) return 'content/hodinarium-eu/' + slug + '.md';
         if (path.startsWith('/kronika/')) return 'content/kronika/' + slug + '.mdx';
         return null;
-      }
+      };
 
       // ---- Resolve editor-note: smaže aside blok ze zdroje přes /api/cms ----
-      async function resolveEditorNote(ev) {
+      window.__csh.resolveEditorNote = async function (ev) {
         const button = ev.currentTarget;
         const aside = button.closest('aside.editor-note');
         if (!aside) return;
-        let file = aside.dataset.sourceFile || inferSourceFileFromUrl();
+        let file = aside.dataset.sourceFile || window.__csh.inferSourceFileFromUrl();
         const noteKey = aside.dataset.noteKey;
         if (!file || !noteKey) { alert('Nelze určit zdrojový soubor pro tuto poznámku.'); return; }
         // Path allowlist — útočník s commit přístupem by jinak mohl přes
@@ -360,7 +369,7 @@ const orgJsonLd = isHome ? {
         const origText = button.textContent;
         button.textContent = '⏳ Odesílám commit…';
         try {
-          const repoApi = '/api/cms/api/v3/repos/csh-cz/web/contents/' + file;
+          const repoApi = '/api/cms/api/v3/repos/' + githubRepo + '/contents/' + file;
           const r = await fetch(repoApi, { credentials: 'include' });
           if (!r.ok) throw new Error('Fetch ' + r.status);
           const data = await r.json();
@@ -394,7 +403,7 @@ const orgJsonLd = isHome ? {
           button.textContent = origText;
           alert('Resolve selhalo: ' + (err.message || err));
         }
-      }
+      };
 
       // ---- Hlavní hydrace: anon avatar return_to + auth check + odhalení editor UI ----
       (async function () {
@@ -432,7 +441,7 @@ const orgJsonLd = isHome ? {
 
           // Připoj resolve handler na "✓ Vyřízeno" buttony
           document.querySelectorAll('[data-action="resolve-editor-note"]').forEach((btn) => {
-            btn.addEventListener('click', resolveEditorNote);
+            btn.addEventListener('click', window.__csh.resolveEditorNote);
           });
 
           // Redakční přehled link — vedle avataru, šipka ↻

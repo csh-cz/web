@@ -11,31 +11,24 @@
  * Idempotentní: pokud aside už má data-source-file, přeskočí.
  *
  * Pro znalost note-key migrace dedukuje z aria-label / třídy:
- *   - editor-note-todo + "Hellichova seznamu"  → hellich-stub
- *   - editor-note-warn + "legacy PHP"          → manual-edit-false
- *   - editor-note-todo + "Medailon je stub"    → hodinar-stub  (40× hodinari)
+ *   - editor-note-todo + "Hellichova seznamu"  → hellich-stub  (71×)
+ *   - editor-note-warn + "legacy PHP"          → manual-edit-false  (233×)
+ *
+ * Pozn.: 40 hodinařských stubů používá Astro `<EditorNote>` JSX komponentu,
+ * ne plain `<aside>` HTML — tento skript je nezasáhne. Sourcefile prop tam
+ * řeší create-hodinari-stubs.mjs při generování.
  *
  * Použití:
  *   node scripts/upgrade-editor-notes.mjs        # dry-run
  *   node scripts/upgrade-editor-notes.mjs --apply
  */
 
-import { readdirSync, readFileSync, writeFileSync, statSync } from 'fs';
+import { readFileSync, writeFileSync } from 'fs';
 import { join, relative } from 'path';
+import { walk } from './_lib.mjs';
 
 const apply = process.argv.includes('--apply');
 const root = process.cwd();
-
-function walk(dir) {
-  const out = [];
-  for (const e of readdirSync(dir)) {
-    const p = join(dir, e);
-    const s = statSync(p);
-    if (s.isDirectory()) out.push(...walk(p));
-    else if (p.endsWith('.md') || p.endsWith('.mdx')) out.push(p);
-  }
-  return out;
-}
 
 const files = walk(join(root, 'content'));
 

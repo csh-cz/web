@@ -19,7 +19,6 @@
 
 import { readFileSync, existsSync, writeFileSync, readdirSync } from 'fs';
 import { join } from 'path';
-import { pickStr, pickStrAny } from './_lib.mjs';
 
 const apply = process.argv.includes('--apply');
 const root = process.cwd();
@@ -32,6 +31,23 @@ const mdxDir = join(root, 'content/hodinari');
 // hodinari.ts změní zásadně, tento skript je třeba upravit.
 
 const src = readFileSync(tsPath, 'utf8');
+
+/** Vyčte hodnotu jednoduchého stringového klíče z bloku objektu. */
+function pickStr(block, key) {
+  const re = new RegExp(`${key}:\\s*'((?:[^'\\\\]|\\\\.)*)'`, 's');
+  const m = block.match(re);
+  if (!m) return null;
+  return m[1].replace(/\\'/g, "'").replace(/\\\\/g, '\\');
+}
+
+/** Vyčte multiline string s běžnými JS unicode escapy. */
+function pickStrAny(block, key) {
+  // Match either single or double quoted, multi-line
+  const re = new RegExp(`${key}:\\s*(?:'((?:[^'\\\\]|\\\\.)*)'|"((?:[^"\\\\]|\\\\.)*)")`, 's');
+  const m = block.match(re);
+  if (!m) return null;
+  return (m[1] ?? m[2]).replace(/\\'/g, "'").replace(/\\"/g, '"').replace(/\\\\/g, '\\');
+}
 
 /** Vyčte array of strings (např. aliasy). */
 function pickStrArray(block, key) {
@@ -131,16 +147,12 @@ for (const e of missing) {
     lines.push(yamlArray(e.aliasy));
   }
   lines.push(`shrnuti: ${yamlString(e.shrnuti)}`);
-  lines.push('isStub: true');
   lines.push('---');
   lines.push('');
-  lines.push("import EditorNote from '../../apps/hodinarium-eu/src/components/EditorNote.astro';");
-  lines.push('');
-  lines.push(`<EditorNote level="todo" title="Medailon je stub" sourceFile="content/hodinari/${e.slug}.mdx">`);
-  lines.push('  Doplň: životopis (vyučení, dílna, geografický rozsah práce), primární prameny,');
-  lines.push('  references, portrétní fotku. Frontmatter `isStub` po doplnění odeber, ať se');
-  lines.push('  veřejná „profil je stub" hláška skryje.');
-  lines.push('</EditorNote>');
+  lines.push('{/* Životopisný medailon zatím není doplněn — tato karta je stub. ');
+  lines.push('   Editor v CMS může postupně přidat: životopis, dílnu, přínos,');
+  lines.push('   primární prameny, references, portrétní fotku.');
+  lines.push('   Veřejný shrnutí (pole `shrnuti`) zobrazuje úvodní lead odstavec. */}');
   lines.push('');
 
   const out = lines.join('\n');
