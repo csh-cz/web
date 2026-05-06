@@ -19,30 +19,14 @@
  *   node scripts/add-editor-notes.mjs --apply
  */
 
-import { readdirSync, readFileSync, writeFileSync, statSync } from 'fs';
+import { readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
+import { walk, splitFrontmatter } from './_lib.mjs';
 
 const apply = process.argv.includes('--apply');
 const root = process.cwd();
 
-function walk(dir) {
-  const out = [];
-  for (const e of readdirSync(dir)) {
-    const p = join(dir, e);
-    const s = statSync(p);
-    if (s.isDirectory()) out.push(...walk(p));
-    else if (p.endsWith('.md') || p.endsWith('.mdx')) out.push(p);
-  }
-  return out;
-}
-
 const files = walk(join(root, 'content'));
-
-function splitFrontmatter(txt) {
-  const m = txt.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
-  if (!m) return null;
-  return { fm: m[1], body: m[2] };
-}
 
 const NOTE_HELLICH = `<aside class="editor-note editor-note-todo" data-editor-only role="note" aria-label="Stub z Hellichova seznamu">
   <header class="editor-note-head">

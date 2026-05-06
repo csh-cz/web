@@ -27,7 +27,12 @@ import review from '../../data/_review.json';
  * Editor klikne na kartu/článek → odkaz vede do Sveltia CMS na editaci.
  */
 
-const r = review as {
+// `unknown` cast preventuje strict type-narrowing — _review.json je
+// generován build-time skriptem (build-review-report.ts) a tvar polí se
+// vyvíjí (kniha → kniha+article+...). Runtime guards níž ošetřují missing
+// fields; TS by tu jinak nutil přesně-shaped typ, který by se po každém
+// rozšíření build skriptu rozbil.
+const r = review as unknown as {
   generatedAt: string;
   summary: Record<string, number | number[]>;
   sections: {

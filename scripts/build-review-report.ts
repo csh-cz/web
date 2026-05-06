@@ -22,9 +22,13 @@
  */
 
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
-import { join, basename, extname } from 'node:path';
+import { join, basename, extname, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const ROOT = join(import.meta.dirname, '..');
+// tsx@4 transpiluje na CJS → `import.meta.dirname` je undefined; fileURLToPath
+// na `import.meta.url` funguje v ESM i CJS-via-tsx.
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = join(__dirname, '..');
 const CONTENT_HE = join(ROOT, 'content', 'hodinarium-eu');
 const CONTENT_HOD = join(ROOT, 'content', 'hodinari');
 const CONTENT_KRO = join(ROOT, 'content', 'kronika');
