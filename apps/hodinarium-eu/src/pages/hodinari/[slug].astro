@@ -143,6 +143,16 @@ const personJsonLd = hodinar.typ === 'osoba'
   title={`${hodinar.jmeno} — hodinář`}
   description={hodinar.shrnuti}
   cmsEditUrl={`/admin/#/collections/hodinari/entries/${hodinar.slug}`}
+  citation={{
+    title: `${hodinar.jmeno} — ${hodinar.typ === 'osoba' ? 'biografie hodináře' : 'medailon hodinářské firmy'}`,
+    journalTitle: 'Hodinárium — Hodináři',
+    keywords: [
+      ...(hodinar.aliasy ?? []),
+      ...(hodinar.mesto ? [hodinar.mesto] : []),
+      ...(hodinar.obdobi ? [hodinar.obdobi] : []),
+      hodinar.typ === 'osoba' ? 'hodinář' : 'hodinářská firma',
+    ],
+  }}
 >
   <JsonLd data={personJsonLd} />
   <Breadcrumbs trail={[

@@ -23,6 +23,16 @@ const related = krok.relatedSlugs
 <Base
   title={`${krok.jmeno} — hodinový krok`}
   description={krok.shrnuti}
+  citation={{
+    title: `${krok.jmeno} — hodinový krok`,
+    journalTitle: 'Hodinárium — Hodinové kroky',
+    keywords: [
+      ...(krok.aliasy ?? []),
+      ...(krok.vynalezce ? [krok.vynalezce] : []),
+      ...(krok.rok ? [krok.rok] : []),
+      'hodinový krok',
+    ],
+  }}
 >
   <Breadcrumbs trail={[
     { href: '/', label: 'Hodinárium' },
