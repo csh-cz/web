@@ -8,3 +8,12 @@ pages_build_output_dir = "dist"
 # Build se spouští v CI (GitHub Actions / Cloudflare Pages CI),
 # tady jsou jen runtime nastavení. Pro lokální preview použij:
 #   pnpm build && pnpm wrangler pages dev dist
+
+# Workers AI binding pro semantic search (functions/api/search/semantic.ts).
+# Model @cf/baai/bge-m3 multilingual embedding — query čas <100ms,
+# free tier 10k neuron-actions/day (cca 100k embeddings — pro nás dost).
+# Konfigurace v Cloudflare dashboardu: Pages → hodinarium-eu → Settings →
+# Functions → Bindings → Add → AI. Lokální `wrangler pages dev` vyžaduje
+# `--ai` flag nebo binding zde (pro produkci stačí dashboard).
+[ai]
+binding = "AI"
