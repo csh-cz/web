@@ -1,0 +1,52 @@
+---
+/**
+ * Renderer pro frontmatter `editorNotes[]` field.
+ *
+ * Použití:
+ *   <EditorNotesBlock notes={entry.data.editorNotes} sourceFile={`content/.../${slug}.mdx`} />
+ *
+ * - Notes jsou skryté CSS-em pro anonymní návštěvníky.
+ * - Po loginu editora (Base.astro JS přidá `body[data-editor-mode]`)
+ *   se odhalí.
+ * - Resolve tlačítko: smaže konkrétní položku v editorNotes[] přes
+ *   /api/cms commit. (TODO: JS handler resolveEditorNote v Base.astro
+ *   musí umět aktualizovat YAML frontmatter pole, ne `<aside>` v body.
+ *   Pro teď: editor smaže poznámku ručně v Sveltia formuláři.)
+ */
+
+interface Note {
+  level: 'info' | 'warn' | 'todo';
+  title?: string;
+  text: string;
+  noteKey?: string;
+}
+
+interface Props {
+  notes?: Note[];
+  sourceFile?: string;
+}
+
+const { notes, sourceFile } = Astro.props;
+const titleByLevel = { info: 'Editorská poznámka', warn: 'Pozor — nejistota', todo: 'TODO' };
+const iconByLevel = { info: '✎', warn: '⚠', todo: '☐' };
+---
+{notes && notes.length > 0 && notes.map((n) => (
+  <aside class={`editor-note editor-note-${n.level || 'info'}`}
+         data-source-file={sourceFile}
+         data-note-key={n.noteKey}
+         data-editor-only
+         role="note"
+         aria-label={n.title || titleByLevel[n.level || 'info']}>
+    <header class="editor-note-head">
+      <span class="editor-note-icon" aria-hidden="true">{iconByLevel[n.level || 'info']}</span>
+      <span class="editor-note-title">{n.title || titleByLevel[n.level || 'info']}</span>
+      <span class="editor-note-meta" aria-hidden="true">viditelné jen přihlášenému editorovi</span>
+    </header>
+    <div class="editor-note-body">
+      <p>{n.text}</p>
+      <button type="button" class="editor-note-resolve" data-action="resolve-editor-note">
+        ✓ Vyřízeno (smazat tuto poznámku z MDX)
+      </button>
+    </div>
+  </aside>
+))}

@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-05-04T01:23:17.069Z",
+  "generatedAt": "2026-05-06T09:31:12.846Z",
   "summary": {
-    "kartyTotal": 290,
+    "kartyTotal": 291,
     "kartyNoTyp": 93,
-    "kartyNoThumb": 233,
-    "kartyNoVyrobce": 257,
-    "kartyNoUmisteni": 232,
+    "kartyNoThumb": 219,
+    "kartyNoVyrobce": 224,
+    "kartyNoUmisteni": 41,
     "kartyPlaceholderTitle": 12,
     "clankyNoTldr": 1,
-    "clankyShort": 59,
+    "clankyShort": 58,
     "clankyLegacyLinks": 57,
-    "hodinariTotal": 40,
-    "hodinariShort": 25,
-    "hodinariNoPortret": 39,
+    "hodinariTotal": 99,
+    "hodinariShort": 71,
+    "hodinariNoPortret": 85,
     "kronikaYears": [
       2009,
       2010,
@@ -306,7 +306,7 @@
       },
       {
         "slug": "inv-3-barokni-ministroj-18-stol",
-        "title": "barokní ministroj  18. stol.",
+        "title": "Barokní ministroj  18. stol.",
         "editUrl": "/admin/#/collections/karty/entries/inv-3-barokni-ministroj-18-stol"
       },
       {
@@ -548,7 +548,7 @@
       },
       {
         "slug": "inv-11-vezni-torzo",
-        "title": "věžní torzo",
+        "title": "Věžní torzo Lissner (Hilgersdorf / Severní, 1881)",
         "editUrl": "/admin/#/collections/karty/entries/inv-11-vezni-torzo"
       },
       {
@@ -617,16 +617,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-123-dpj57"
       },
       {
-        "slug": "inv-124-mini-hlavni-hodiny-hn61",
-        "title": "Mini hlavní hodiny HN61",
-        "editUrl": "/admin/#/collections/karty/entries/inv-124-mini-hlavni-hodiny-hn61"
-      },
-      {
-        "slug": "inv-126-podruzne-hodiny-bodet",
-        "title": "Podružné hodiny Bodet",
-        "editUrl": "/admin/#/collections/karty/entries/inv-126-podruzne-hodiny-bodet"
-      },
-      {
         "slug": "inv-128-hodiny-dcf",
         "title": "Hodiny DCF",
         "editUrl": "/admin/#/collections/karty/entries/inv-128-hodiny-dcf"
@@ -635,11 +625,6 @@
         "slug": "inv-129-hodiny-eh101",
         "title": "Hodiny EH101",
         "editUrl": "/admin/#/collections/karty/entries/inv-129-hodiny-eh101"
-      },
-      {
-        "slug": "inv-13-vezni-wenzel-mellner",
-        "title": "věžní Wenzel Mellner",
-        "editUrl": "/admin/#/collections/karty/entries/inv-13-vezni-wenzel-mellner"
       },
       {
         "slug": "inv-130-ntp-gps-pps-server",
@@ -680,16 +665,6 @@
         "slug": "inv-137-podruzne-hodiny-ibm",
         "title": "Podružné hodiny IBM",
         "editUrl": "/admin/#/collections/karty/entries/inv-137-podruzne-hodiny-ibm"
-      },
-      {
-        "slug": "inv-139-lodni-hodiny-kappa",
-        "title": "Lodní hodiny Kappa",
-        "editUrl": "/admin/#/collections/karty/entries/inv-139-lodni-hodiny-kappa"
-      },
-      {
-        "slug": "inv-14-vezni-hodiny-paul-zieux",
-        "title": "věžní hodiny Paul Zieux",
-        "editUrl": "/admin/#/collections/karty/entries/inv-14-vezni-hodiny-paul-zieux"
       },
       {
         "slug": "inv-140-synchronni-siemens",
@@ -777,11 +752,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-16-vezni-kladno"
       },
       {
-        "slug": "inv-161-hodiny-bulle",
-        "title": "Hodiny Bulle",
-        "editUrl": "/admin/#/collections/karty/entries/inv-161-hodiny-bulle"
-      },
-      {
         "slug": "inv-162-spinaci-hodiny-5x",
         "title": "Spínací hodiny 5x",
         "editUrl": "/admin/#/collections/karty/entries/inv-162-spinaci-hodiny-5x"
@@ -795,11 +765,6 @@
         "slug": "inv-164-schodistovy-spinac-ovladani",
         "title": "Schodišťový spínač + ovládání",
         "editUrl": "/admin/#/collections/karty/entries/inv-164-schodistovy-spinac-ovladani"
-      },
-      {
-        "slug": "inv-165-kyvadlo-letna",
-        "title": "Kyvadlo Letná",
-        "editUrl": "/admin/#/collections/karty/entries/inv-165-kyvadlo-letna"
       },
       {
         "slug": "inv-166-hodiny-nastenne-rumburg",
@@ -932,16 +897,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-197-hodiny-sh350"
       },
       {
-        "slug": "inv-2-vezni-prokes-1868-soubor",
-        "title": "věžní Prokeš 1868 soubor",
-        "editUrl": "/admin/#/collections/karty/entries/inv-2-vezni-prokes-1868-soubor"
-      },
-      {
-        "slug": "inv-20-vezni-hodiny-krecmer",
-        "title": "věžní hodiny Krečmer",
-        "editUrl": "/admin/#/collections/karty/entries/inv-20-vezni-hodiny-krecmer"
-      },
-      {
         "slug": "inv-200-hodiny-digitalni-sakul",
         "title": "Hodiny digitální Sakul",
         "editUrl": "/admin/#/collections/karty/entries/inv-200-hodiny-digitalni-sakul"
@@ -1065,11 +1020,6 @@
         "slug": "inv-229-hodiny-eh81",
         "title": "Hodiny EH81",
         "editUrl": "/admin/#/collections/karty/entries/inv-229-hodiny-eh81"
-      },
-      {
-        "slug": "inv-23-vezni-jilove",
-        "title": "věžní Jílové",
-        "editUrl": "/admin/#/collections/karty/entries/inv-23-vezni-jilove"
       },
       {
         "slug": "inv-230-hodiny-sh350",
@@ -1227,11 +1177,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-267-podruzne-jednotny-cas"
       },
       {
-        "slug": "inv-268-podruzne-brillie",
-        "title": "Podružné Brillié",
-        "editUrl": "/admin/#/collections/karty/entries/inv-268-podruzne-brillie"
-      },
-      {
         "slug": "inv-27-vezni-velka-ves",
         "title": "věžní Velká Ves",
         "editUrl": "/admin/#/collections/karty/entries/inv-27-vezni-velka-ves"
@@ -1288,7 +1233,7 @@
       },
       {
         "slug": "inv-3-barokni-ministroj-18-stol",
-        "title": "barokní ministroj  18. stol.",
+        "title": "Barokní ministroj  18. stol.",
         "editUrl": "/admin/#/collections/karty/entries/inv-3-barokni-ministroj-18-stol"
       },
       {
@@ -1320,11 +1265,6 @@
         "slug": "inv-36-vezni-thondel-2",
         "title": "věžní Thöndel 2",
         "editUrl": "/admin/#/collections/karty/entries/inv-36-vezni-thondel-2"
-      },
-      {
-        "slug": "inv-37-bici-stroj-brillie",
-        "title": "bicí stroj Brillié",
-        "editUrl": "/admin/#/collections/karty/entries/inv-37-bici-stroj-brillie"
       },
       {
         "slug": "inv-38-soucast-veznich-hodin",
@@ -1398,7 +1338,7 @@
       },
       {
         "slug": "inv-53-model-prazskeho-orloje",
-        "title": "Model Pražského orloje",
+        "title": "Orloj Hvězdárna Petřín",
         "editUrl": "/admin/#/collections/karty/entries/inv-53-model-prazskeho-orloje"
       },
       {
@@ -1415,16 +1355,6 @@
         "slug": "inv-56-hodiny-comtoise",
         "title": "Hodiny Comtoise",
         "editUrl": "/admin/#/collections/karty/entries/inv-56-hodiny-comtoise"
-      },
-      {
-        "slug": "inv-57-kovane-hodiny-gibbus-1",
-        "title": "kované hodiny Gibbus 1",
-        "editUrl": "/admin/#/collections/karty/entries/inv-57-kovane-hodiny-gibbus-1"
-      },
-      {
-        "slug": "inv-58-kovane-hodiny-gibbus-2",
-        "title": "kované hodiny Gibbus 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-58-kovane-hodiny-gibbus-2"
       },
       {
         "slug": "inv-59-podlahove-anglicke",
@@ -1475,6 +1405,11 @@
         "slug": "inv-67-orloj-hvezdarna-petrin",
         "title": "Orloj Hvězdárna Petřín",
         "editUrl": "/admin/#/collections/karty/entries/inv-67-orloj-hvezdarna-petrin"
+      },
+      {
+        "slug": "inv-67-vezni-lissner",
+        "title": "Věžní hodiny Lissner (Mikulášovice — škola)",
+        "editUrl": "/admin/#/collections/karty/entries/inv-67-vezni-lissner"
       },
       {
         "slug": "inv-68-slunecni-hodiny-horizontalni",
@@ -1577,11 +1512,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-87-maticni-wagner"
       },
       {
-        "slug": "inv-88-brillie",
-        "title": "Brillié",
-        "editUrl": "/admin/#/collections/karty/entries/inv-88-brillie"
-      },
-      {
         "slug": "inv-89-maticni-zenith",
         "title": "Matiční Zenith",
         "editUrl": "/admin/#/collections/karty/entries/inv-89-maticni-zenith"
@@ -1627,11 +1557,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-99-podruzne-hodiny-male-4x"
       },
       {
-        "slug": "inv-x1-vezni-lissner",
-        "title": "[K doplnění] Věžní Lissner (inv. x1)",
-        "editUrl": "/admin/#/collections/karty/entries/inv-x1-vezni-lissner"
-      },
-      {
         "slug": "inv-x11-hodiny-praotron-velke",
         "title": "[K doplnění] Hodiny Praotron velké (inv. x9)",
         "editUrl": "/admin/#/collections/karty/entries/inv-x11-hodiny-praotron-velke"
@@ -1640,6 +1565,11 @@
         "slug": "inv-x12-diferencialni-rele-vus",
         "title": "[K doplnění] Diferenciální relé VUS (inv. x10)",
         "editUrl": "/admin/#/collections/karty/entries/inv-x12-diferencialni-rele-vus"
+      },
+      {
+        "slug": "inv-x13-hodiny-hn350",
+        "title": "[K doplnění] Hodiny HN350 (inv. x13)",
+        "editUrl": "/admin/#/collections/karty/entries/inv-x13-hodiny-hn350"
       },
       {
         "slug": "inv-x2-hodiny-kruhove-led",
@@ -1679,24 +1609,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-10-vezni"
       },
       {
-        "slug": "inv-101-jednotny-cas",
-        "title": "Jednotný čas",
-        "editUrl": "/admin/#/collections/karty/entries/inv-101-jednotny-cas"
-      },
-      {
-        "slug": "inv-103-maticni-t-n",
-        "title": "Matiční T&N",
-        "editUrl": "/admin/#/collections/karty/entries/inv-103-maticni-t-n"
-      },
-      {
         "slug": "inv-104-podruzne-burk",
         "title": "Podružné Bürk",
         "editUrl": "/admin/#/collections/karty/entries/inv-104-podruzne-burk"
-      },
-      {
-        "slug": "inv-105-perconta",
-        "title": "Perconta",
-        "editUrl": "/admin/#/collections/karty/entries/inv-105-perconta"
       },
       {
         "slug": "inv-108-maticni-hodiny",
@@ -1710,7 +1625,7 @@
       },
       {
         "slug": "inv-11-vezni-torzo",
-        "title": "věžní torzo",
+        "title": "Věžní torzo Lissner (Hilgersdorf / Severní, 1881)",
         "editUrl": "/admin/#/collections/karty/entries/inv-11-vezni-torzo"
       },
       {
@@ -1764,11 +1679,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-12-vezni-rochlitz"
       },
       {
-        "slug": "inv-120-nastenne-schauer",
-        "title": "Nástěnné Schauer",
-        "editUrl": "/admin/#/collections/karty/entries/inv-120-nastenne-schauer"
-      },
-      {
         "slug": "inv-122-ipj-0612-3x",
         "title": "IPJ 0612 3x",
         "editUrl": "/admin/#/collections/karty/entries/inv-122-ipj-0612-3x"
@@ -1784,11 +1694,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-124-mini-hlavni-hodiny-hn61"
       },
       {
-        "slug": "inv-126-podruzne-hodiny-bodet",
-        "title": "Podružné hodiny Bodet",
-        "editUrl": "/admin/#/collections/karty/entries/inv-126-podruzne-hodiny-bodet"
-      },
-      {
         "slug": "inv-128-hodiny-dcf",
         "title": "Hodiny DCF",
         "editUrl": "/admin/#/collections/karty/entries/inv-128-hodiny-dcf"
@@ -1797,11 +1702,6 @@
         "slug": "inv-129-hodiny-eh101",
         "title": "Hodiny EH101",
         "editUrl": "/admin/#/collections/karty/entries/inv-129-hodiny-eh101"
-      },
-      {
-        "slug": "inv-13-vezni-wenzel-mellner",
-        "title": "věžní Wenzel Mellner",
-        "editUrl": "/admin/#/collections/karty/entries/inv-13-vezni-wenzel-mellner"
       },
       {
         "slug": "inv-130-ntp-gps-pps-server",
@@ -1834,11 +1734,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-135-preklapeci-hodiny-zavinac"
       },
       {
-        "slug": "inv-136-ridici-system-gema",
-        "title": "Řídicí systém Gema",
-        "editUrl": "/admin/#/collections/karty/entries/inv-136-ridici-system-gema"
-      },
-      {
         "slug": "inv-137-podruzne-hodiny-ibm",
         "title": "Podružné hodiny IBM",
         "editUrl": "/admin/#/collections/karty/entries/inv-137-podruzne-hodiny-ibm"
@@ -1847,21 +1742,6 @@
         "slug": "inv-138-rizeni-ibm-arduino",
         "title": "Řízení IBM Arduino",
         "editUrl": "/admin/#/collections/karty/entries/inv-138-rizeni-ibm-arduino"
-      },
-      {
-        "slug": "inv-139-lodni-hodiny-kappa",
-        "title": "Lodní hodiny Kappa",
-        "editUrl": "/admin/#/collections/karty/entries/inv-139-lodni-hodiny-kappa"
-      },
-      {
-        "slug": "inv-14-vezni-hodiny-paul-zieux",
-        "title": "věžní hodiny Paul Zieux",
-        "editUrl": "/admin/#/collections/karty/entries/inv-14-vezni-hodiny-paul-zieux"
-      },
-      {
-        "slug": "inv-140-synchronni-siemens",
-        "title": "Synchronní Siemens",
-        "editUrl": "/admin/#/collections/karty/entries/inv-140-synchronni-siemens"
       },
       {
         "slug": "inv-141-synchronni-west-clock",
@@ -1894,11 +1774,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-147-elektrokapalinove-puja"
       },
       {
-        "slug": "inv-148-bateriove-kienzle",
-        "title": "Bateriové Kienzle",
-        "editUrl": "/admin/#/collections/karty/entries/inv-148-bateriove-kienzle"
-      },
-      {
         "slug": "inv-149-bateriove-rocky",
         "title": "Bateriové ročky",
         "editUrl": "/admin/#/collections/karty/entries/inv-149-bateriove-rocky"
@@ -1912,11 +1787,6 @@
         "slug": "inv-150-bateriove-pasmovy-cas",
         "title": "Bateriové pásmový čas",
         "editUrl": "/admin/#/collections/karty/entries/inv-150-bateriove-pasmovy-cas"
-      },
-      {
-        "slug": "inv-151-bateriove-junghans-ato-mat",
-        "title": "Bateriové Junghans Ato-mat",
-        "editUrl": "/admin/#/collections/karty/entries/inv-151-bateriove-junghans-ato-mat"
       },
       {
         "slug": "inv-152-synchronni-bici-stroj",
@@ -1959,11 +1829,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-160-budik-s-lampickou-podlouhlou"
       },
       {
-        "slug": "inv-161-hodiny-bulle",
-        "title": "Hodiny Bulle",
-        "editUrl": "/admin/#/collections/karty/entries/inv-161-hodiny-bulle"
-      },
-      {
         "slug": "inv-162-spinaci-hodiny-5x",
         "title": "Spínací hodiny 5x",
         "editUrl": "/admin/#/collections/karty/entries/inv-162-spinaci-hodiny-5x"
@@ -1994,24 +1859,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-168-amaterske-synchronni-syntax"
       },
       {
-        "slug": "inv-169-retrogradni-kavalir",
-        "title": "Retrográdní Kavalír",
-        "editUrl": "/admin/#/collections/karty/entries/inv-169-retrogradni-kavalir"
-      },
-      {
         "slug": "inv-170-digitalni-vejirove",
         "title": "Digitální vějířové",
         "editUrl": "/admin/#/collections/karty/entries/inv-170-digitalni-vejirove"
-      },
-      {
-        "slug": "inv-171-dcf-andel-1",
-        "title": "DCF Anděl 1",
-        "editUrl": "/admin/#/collections/karty/entries/inv-171-dcf-andel-1"
-      },
-      {
-        "slug": "inv-172-dcf-andel-2",
-        "title": "DCF Anděl 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-172-dcf-andel-2"
       },
       {
         "slug": "inv-173-sovetske-digitalni-elektronika",
@@ -2134,16 +1984,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-197-hodiny-sh350"
       },
       {
-        "slug": "inv-2-vezni-prokes-1868-soubor",
-        "title": "věžní Prokeš 1868 soubor",
-        "editUrl": "/admin/#/collections/karty/entries/inv-2-vezni-prokes-1868-soubor"
-      },
-      {
-        "slug": "inv-20-vezni-hodiny-krecmer",
-        "title": "věžní hodiny Krečmer",
-        "editUrl": "/admin/#/collections/karty/entries/inv-20-vezni-hodiny-krecmer"
-      },
-      {
         "slug": "inv-200-hodiny-digitalni-sakul",
         "title": "Hodiny digitální Sakul",
         "editUrl": "/admin/#/collections/karty/entries/inv-200-hodiny-digitalni-sakul"
@@ -2154,24 +1994,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-201-hodiny-eh81"
       },
       {
-        "slug": "inv-202-retrogradni-kavalir",
-        "title": "Retrográdní Kavalír",
-        "editUrl": "/admin/#/collections/karty/entries/inv-202-retrogradni-kavalir"
-      },
-      {
         "slug": "inv-203-digitalni-vejirove",
         "title": "Digitální vějířové",
         "editUrl": "/admin/#/collections/karty/entries/inv-203-digitalni-vejirove"
-      },
-      {
-        "slug": "inv-204-dcf-andel-1",
-        "title": "DCF Anděl 1",
-        "editUrl": "/admin/#/collections/karty/entries/inv-204-dcf-andel-1"
-      },
-      {
-        "slug": "inv-205-dcf-andel-2",
-        "title": "DCF Anděl 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-205-dcf-andel-2"
       },
       {
         "slug": "inv-206-sovetske-digitalni-elektronika",
@@ -2354,11 +2179,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-242-rimske-zvoneni"
       },
       {
-        "slug": "inv-243-zvoneni-kavalir",
-        "title": "Zvonění Kavalír",
-        "editUrl": "/admin/#/collections/karty/entries/inv-243-zvoneni-kavalir"
-      },
-      {
         "slug": "inv-244-hodiny-3d",
         "title": "Hodiny 3D",
         "editUrl": "/admin/#/collections/karty/entries/inv-244-hodiny-3d"
@@ -2469,16 +2289,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-266-linkovy-rozvadec-ehu-260"
       },
       {
-        "slug": "inv-267-podruzne-jednotny-cas",
-        "title": "Podružné Jednotný čas",
-        "editUrl": "/admin/#/collections/karty/entries/inv-267-podruzne-jednotny-cas"
-      },
-      {
-        "slug": "inv-268-podruzne-brillie",
-        "title": "Podružné Brillié",
-        "editUrl": "/admin/#/collections/karty/entries/inv-268-podruzne-brillie"
-      },
-      {
         "slug": "inv-269-pichacky-cervene-dk8b",
         "title": "Píchačky červené DK8B",
         "editUrl": "/admin/#/collections/karty/entries/inv-269-pichacky-cervene-dk8b"
@@ -2534,11 +2344,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-28-vezni-se-setrvackou"
       },
       {
-        "slug": "inv-281-maticni-siemens",
-        "title": "Matiční Siemens",
-        "editUrl": "/admin/#/collections/karty/entries/inv-281-maticni-siemens"
-      },
-      {
         "slug": "inv-282-time-slider-spilka",
         "title": "Time slider Spilka",
         "editUrl": "/admin/#/collections/karty/entries/inv-282-time-slider-spilka"
@@ -2550,7 +2355,7 @@
       },
       {
         "slug": "inv-3-barokni-ministroj-18-stol",
-        "title": "barokní ministroj  18. stol.",
+        "title": "Barokní ministroj  18. stol.",
         "editUrl": "/admin/#/collections/karty/entries/inv-3-barokni-ministroj-18-stol"
       },
       {
@@ -2582,11 +2387,6 @@
         "slug": "inv-36-vezni-thondel-2",
         "title": "věžní Thöndel 2",
         "editUrl": "/admin/#/collections/karty/entries/inv-36-vezni-thondel-2"
-      },
-      {
-        "slug": "inv-37-bici-stroj-brillie",
-        "title": "bicí stroj Brillié",
-        "editUrl": "/admin/#/collections/karty/entries/inv-37-bici-stroj-brillie"
       },
       {
         "slug": "inv-38-soucast-veznich-hodin",
@@ -2624,11 +2424,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-44-lihyrove-hodiny"
       },
       {
-        "slug": "inv-45-maticni-hodiny-t-n",
-        "title": "matiční hodiny T&N",
-        "editUrl": "/admin/#/collections/karty/entries/inv-45-maticni-hodiny-t-n"
-      },
-      {
         "slug": "inv-46-nouzove-zastaveni-casu",
         "title": "nouzové zastavení času",
         "editUrl": "/admin/#/collections/karty/entries/inv-46-nouzove-zastaveni-casu"
@@ -2660,13 +2455,8 @@
       },
       {
         "slug": "inv-53-model-prazskeho-orloje",
-        "title": "Model Pražského orloje",
+        "title": "Orloj Hvězdárna Petřín",
         "editUrl": "/admin/#/collections/karty/entries/inv-53-model-prazskeho-orloje"
-      },
-      {
-        "slug": "inv-54-skeletove-hodiny-kavalir",
-        "title": "skeletové hodiny Kavalír",
-        "editUrl": "/admin/#/collections/karty/entries/inv-54-skeletove-hodiny-kavalir"
       },
       {
         "slug": "inv-55-hodiny-comtoise",
@@ -2677,16 +2467,6 @@
         "slug": "inv-56-hodiny-comtoise",
         "title": "Hodiny Comtoise",
         "editUrl": "/admin/#/collections/karty/entries/inv-56-hodiny-comtoise"
-      },
-      {
-        "slug": "inv-57-kovane-hodiny-gibbus-1",
-        "title": "kované hodiny Gibbus 1",
-        "editUrl": "/admin/#/collections/karty/entries/inv-57-kovane-hodiny-gibbus-1"
-      },
-      {
-        "slug": "inv-58-kovane-hodiny-gibbus-2",
-        "title": "kované hodiny Gibbus 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-58-kovane-hodiny-gibbus-2"
       },
       {
         "slug": "inv-59-podlahove-anglicke",
@@ -2724,11 +2504,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-64-mysteriozni-natahovani"
       },
       {
-        "slug": "inv-65-orloj-kavalir",
-        "title": "Orloj Kavalír",
-        "editUrl": "/admin/#/collections/karty/entries/inv-65-orloj-kavalir"
-      },
-      {
         "slug": "inv-66-cimbal-s-odbijenim",
         "title": "Cimbál s odbíjením",
         "editUrl": "/admin/#/collections/karty/entries/inv-66-cimbal-s-odbijenim"
@@ -2737,6 +2512,11 @@
         "slug": "inv-67-orloj-hvezdarna-petrin",
         "title": "Orloj Hvězdárna Petřín",
         "editUrl": "/admin/#/collections/karty/entries/inv-67-orloj-hvezdarna-petrin"
+      },
+      {
+        "slug": "inv-67-vezni-lissner",
+        "title": "Věžní hodiny Lissner (Mikulášovice — škola)",
+        "editUrl": "/admin/#/collections/karty/entries/inv-67-vezni-lissner"
       },
       {
         "slug": "inv-68-slunecni-hodiny-horizontalni",
@@ -2849,11 +2629,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-87-maticni-wagner"
       },
       {
-        "slug": "inv-88-brillie",
-        "title": "Brillié",
-        "editUrl": "/admin/#/collections/karty/entries/inv-88-brillie"
-      },
-      {
         "slug": "inv-89-maticni-zenith",
         "title": "Matiční Zenith",
         "editUrl": "/admin/#/collections/karty/entries/inv-89-maticni-zenith"
@@ -2867,11 +2642,6 @@
         "slug": "inv-90-maticni-ericsson",
         "title": "Matiční Ericsson",
         "editUrl": "/admin/#/collections/karty/entries/inv-90-maticni-ericsson"
-      },
-      {
-        "slug": "inv-91-hodiny-kienzle",
-        "title": "Hodiny Kienzle",
-        "editUrl": "/admin/#/collections/karty/entries/inv-91-hodiny-kienzle"
       },
       {
         "slug": "inv-95-selenovy-usmernovac",
@@ -2899,24 +2669,19 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-99-podruzne-hodiny-male-4x"
       },
       {
-        "slug": "inv-x1-vezni-lissner",
-        "title": "[K doplnění] Věžní Lissner (inv. x1)",
-        "editUrl": "/admin/#/collections/karty/entries/inv-x1-vezni-lissner"
-      },
-      {
         "slug": "inv-x10-dochazkove-hodiny-timometer",
         "title": "[K doplnění] Docházkové hodiny Timometer (inv. x8)",
         "editUrl": "/admin/#/collections/karty/entries/inv-x10-dochazkove-hodiny-timometer"
       },
       {
-        "slug": "inv-x11-hodiny-praotron-velke",
-        "title": "[K doplnění] Hodiny Praotron velké (inv. x9)",
-        "editUrl": "/admin/#/collections/karty/entries/inv-x11-hodiny-praotron-velke"
-      },
-      {
         "slug": "inv-x12-diferencialni-rele-vus",
         "title": "[K doplnění] Diferenciální relé VUS (inv. x10)",
         "editUrl": "/admin/#/collections/karty/entries/inv-x12-diferencialni-rele-vus"
+      },
+      {
+        "slug": "inv-x13-hodiny-hn350",
+        "title": "[K doplnění] Hodiny HN350 (inv. x13)",
+        "editUrl": "/admin/#/collections/karty/entries/inv-x13-hodiny-hn350"
       },
       {
         "slug": "inv-x2-hodiny-kruhove-led",
@@ -2961,11 +2726,6 @@
     ],
     "kartyPlaceholderTitle": [
       {
-        "slug": "inv-x1-vezni-lissner",
-        "title": "[K doplnění] Věžní Lissner (inv. x1)",
-        "editUrl": "/admin/#/collections/karty/entries/inv-x1-vezni-lissner"
-      },
-      {
         "slug": "inv-x10-dochazkove-hodiny-timometer",
         "title": "[K doplnění] Docházkové hodiny Timometer (inv. x8)",
         "editUrl": "/admin/#/collections/karty/entries/inv-x10-dochazkove-hodiny-timometer"
@@ -2979,6 +2739,11 @@
         "slug": "inv-x12-diferencialni-rele-vus",
         "title": "[K doplnění] Diferenciální relé VUS (inv. x10)",
         "editUrl": "/admin/#/collections/karty/entries/inv-x12-diferencialni-rele-vus"
+      },
+      {
+        "slug": "inv-x13-hodiny-hn350",
+        "title": "[K doplnění] Hodiny HN350 (inv. x13)",
+        "editUrl": "/admin/#/collections/karty/entries/inv-x13-hodiny-hn350"
       },
       {
         "slug": "inv-x2-hodiny-kruhove-led",
@@ -3028,224 +2793,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-10-vezni"
       },
       {
-        "slug": "inv-101-jednotny-cas",
-        "title": "Jednotný čas",
-        "editUrl": "/admin/#/collections/karty/entries/inv-101-jednotny-cas"
-      },
-      {
-        "slug": "inv-103-maticni-t-n",
-        "title": "Matiční T&N",
-        "editUrl": "/admin/#/collections/karty/entries/inv-103-maticni-t-n"
-      },
-      {
-        "slug": "inv-104-podruzne-burk",
-        "title": "Podružné Bürk",
-        "editUrl": "/admin/#/collections/karty/entries/inv-104-podruzne-burk"
-      },
-      {
-        "slug": "inv-105-perconta",
-        "title": "Perconta",
-        "editUrl": "/admin/#/collections/karty/entries/inv-105-perconta"
-      },
-      {
-        "slug": "inv-108-maticni-hodiny",
-        "title": "Matiční hodiny",
-        "editUrl": "/admin/#/collections/karty/entries/inv-108-maticni-hodiny"
-      },
-      {
-        "slug": "inv-109-retezove",
-        "title": "Řetězové",
-        "editUrl": "/admin/#/collections/karty/entries/inv-109-retezove"
-      },
-      {
-        "slug": "inv-11-vezni-torzo",
-        "title": "věžní torzo",
-        "editUrl": "/admin/#/collections/karty/entries/inv-11-vezni-torzo"
-      },
-      {
-        "slug": "inv-110-synchronni-spar",
-        "title": "Synchronní Spar",
-        "editUrl": "/admin/#/collections/karty/entries/inv-110-synchronni-spar"
-      },
-      {
-        "slug": "inv-112-cpj-061",
-        "title": "CPJ 061",
-        "editUrl": "/admin/#/collections/karty/entries/inv-112-cpj-061"
-      },
-      {
-        "slug": "inv-113-eh40",
-        "title": "EH40",
-        "editUrl": "/admin/#/collections/karty/entries/inv-113-eh40"
-      },
-      {
-        "slug": "inv-114-sh40",
-        "title": "SH40",
-        "editUrl": "/admin/#/collections/karty/entries/inv-114-sh40"
-      },
-      {
-        "slug": "inv-115-zz42",
-        "title": "ZZ42",
-        "editUrl": "/admin/#/collections/karty/entries/inv-115-zz42"
-      },
-      {
-        "slug": "inv-116-esh-3",
-        "title": "ESH 3",
-        "editUrl": "/admin/#/collections/karty/entries/inv-116-esh-3"
-      },
-      {
-        "slug": "inv-117-eh81",
-        "title": "EH81",
-        "editUrl": "/admin/#/collections/karty/entries/inv-117-eh81"
-      },
-      {
-        "slug": "inv-118-rl-83",
-        "title": "RL 83",
-        "editUrl": "/admin/#/collections/karty/entries/inv-118-rl-83"
-      },
-      {
-        "slug": "inv-119-ozubene-ctverce",
-        "title": "Ozubené čtverce",
-        "editUrl": "/admin/#/collections/karty/entries/inv-119-ozubene-ctverce"
-      },
-      {
         "slug": "inv-12-vezni-rochlitz",
         "title": "věžní Rochlitz",
         "editUrl": "/admin/#/collections/karty/entries/inv-12-vezni-rochlitz"
-      },
-      {
-        "slug": "inv-120-nastenne-schauer",
-        "title": "Nástěnné Schauer",
-        "editUrl": "/admin/#/collections/karty/entries/inv-120-nastenne-schauer"
-      },
-      {
-        "slug": "inv-122-ipj-0612-3x",
-        "title": "IPJ 0612 3x",
-        "editUrl": "/admin/#/collections/karty/entries/inv-122-ipj-0612-3x"
-      },
-      {
-        "slug": "inv-123-dpj57",
-        "title": "DPJ57",
-        "editUrl": "/admin/#/collections/karty/entries/inv-123-dpj57"
-      },
-      {
-        "slug": "inv-124-mini-hlavni-hodiny-hn61",
-        "title": "Mini hlavní hodiny HN61",
-        "editUrl": "/admin/#/collections/karty/entries/inv-124-mini-hlavni-hodiny-hn61"
-      },
-      {
-        "slug": "inv-126-podruzne-hodiny-bodet",
-        "title": "Podružné hodiny Bodet",
-        "editUrl": "/admin/#/collections/karty/entries/inv-126-podruzne-hodiny-bodet"
-      },
-      {
-        "slug": "inv-128-hodiny-dcf",
-        "title": "Hodiny DCF",
-        "editUrl": "/admin/#/collections/karty/entries/inv-128-hodiny-dcf"
-      },
-      {
-        "slug": "inv-129-hodiny-eh101",
-        "title": "Hodiny EH101",
-        "editUrl": "/admin/#/collections/karty/entries/inv-129-hodiny-eh101"
-      },
-      {
-        "slug": "inv-13-vezni-wenzel-mellner",
-        "title": "věžní Wenzel Mellner",
-        "editUrl": "/admin/#/collections/karty/entries/inv-13-vezni-wenzel-mellner"
-      },
-      {
-        "slug": "inv-130-ntp-gps-pps-server",
-        "title": "NTP,GPS, PPS server",
-        "editUrl": "/admin/#/collections/karty/entries/inv-130-ntp-gps-pps-server"
-      },
-      {
-        "slug": "inv-131-internetova-brana",
-        "title": "Internetová brána",
-        "editUrl": "/admin/#/collections/karty/entries/inv-131-internetova-brana"
-      },
-      {
-        "slug": "inv-132-ntp-a-gps-server",
-        "title": "NTP a GPS server",
-        "editUrl": "/admin/#/collections/karty/entries/inv-132-ntp-a-gps-server"
-      },
-      {
-        "slug": "inv-133-switch",
-        "title": "Switch",
-        "editUrl": "/admin/#/collections/karty/entries/inv-133-switch"
-      },
-      {
-        "slug": "inv-134-notebook",
-        "title": "Notebook",
-        "editUrl": "/admin/#/collections/karty/entries/inv-134-notebook"
-      },
-      {
-        "slug": "inv-135-preklapeci-hodiny-zavinac",
-        "title": "Překlápěcí hodiny zavináč",
-        "editUrl": "/admin/#/collections/karty/entries/inv-135-preklapeci-hodiny-zavinac"
-      },
-      {
-        "slug": "inv-136-ridici-system-gema",
-        "title": "Řídicí systém Gema",
-        "editUrl": "/admin/#/collections/karty/entries/inv-136-ridici-system-gema"
-      },
-      {
-        "slug": "inv-137-podruzne-hodiny-ibm",
-        "title": "Podružné hodiny IBM",
-        "editUrl": "/admin/#/collections/karty/entries/inv-137-podruzne-hodiny-ibm"
-      },
-      {
-        "slug": "inv-139-lodni-hodiny-kappa",
-        "title": "Lodní hodiny Kappa",
-        "editUrl": "/admin/#/collections/karty/entries/inv-139-lodni-hodiny-kappa"
-      },
-      {
-        "slug": "inv-14-vezni-hodiny-paul-zieux",
-        "title": "věžní hodiny Paul Zieux",
-        "editUrl": "/admin/#/collections/karty/entries/inv-14-vezni-hodiny-paul-zieux"
-      },
-      {
-        "slug": "inv-140-synchronni-siemens",
-        "title": "Synchronní Siemens",
-        "editUrl": "/admin/#/collections/karty/entries/inv-140-synchronni-siemens"
-      },
-      {
-        "slug": "inv-141-synchronni-west-clock",
-        "title": "Synchronní West clock",
-        "editUrl": "/admin/#/collections/karty/entries/inv-141-synchronni-west-clock"
-      },
-      {
-        "slug": "inv-142-synchronni-big-ben-electric",
-        "title": "Synchronní Big Ben electric",
-        "editUrl": "/admin/#/collections/karty/entries/inv-142-synchronni-big-ben-electric"
-      },
-      {
-        "slug": "inv-143-synchronni-art-deco",
-        "title": "Synchronní Art deco",
-        "editUrl": "/admin/#/collections/karty/entries/inv-143-synchronni-art-deco"
-      },
-      {
-        "slug": "inv-145-synchronni-s-digitalnim-displejem",
-        "title": "Synchronní s digitálním displejem",
-        "editUrl": "/admin/#/collections/karty/entries/inv-145-synchronni-s-digitalnim-displejem"
-      },
-      {
-        "slug": "inv-146-synchronni-stolni-sklenene",
-        "title": "Synchronní stolní skleněné",
-        "editUrl": "/admin/#/collections/karty/entries/inv-146-synchronni-stolni-sklenene"
-      },
-      {
-        "slug": "inv-147-elektrokapalinove-puja",
-        "title": "Elektrokapalinové Puja",
-        "editUrl": "/admin/#/collections/karty/entries/inv-147-elektrokapalinove-puja"
-      },
-      {
-        "slug": "inv-148-bateriove-kienzle",
-        "title": "Bateriové Kienzle",
-        "editUrl": "/admin/#/collections/karty/entries/inv-148-bateriove-kienzle"
-      },
-      {
-        "slug": "inv-149-bateriove-rocky",
-        "title": "Bateriové ročky",
-        "editUrl": "/admin/#/collections/karty/entries/inv-149-bateriove-rocky"
       },
       {
         "slug": "inv-15-vezni-kohlert-kraslice",
@@ -3253,104 +2803,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-15-vezni-kohlert-kraslice"
       },
       {
-        "slug": "inv-150-bateriove-pasmovy-cas",
-        "title": "Bateriové pásmový čas",
-        "editUrl": "/admin/#/collections/karty/entries/inv-150-bateriove-pasmovy-cas"
-      },
-      {
-        "slug": "inv-151-bateriove-junghans-ato-mat",
-        "title": "Bateriové Junghans Ato-mat",
-        "editUrl": "/admin/#/collections/karty/entries/inv-151-bateriove-junghans-ato-mat"
-      },
-      {
-        "slug": "inv-152-synchronni-bici-stroj",
-        "title": "Synchronní bicí - stroj",
-        "editUrl": "/admin/#/collections/karty/entries/inv-152-synchronni-bici-stroj"
-      },
-      {
-        "slug": "inv-154-mysteriozni-jefferson",
-        "title": "Mysteriózní Jefferson",
-        "editUrl": "/admin/#/collections/karty/entries/inv-154-mysteriozni-jefferson"
-      },
-      {
-        "slug": "inv-155-stolni-kyvadlove-art-deco",
-        "title": "Stolní kyvadlové Art-deco",
-        "editUrl": "/admin/#/collections/karty/entries/inv-155-stolni-kyvadlove-art-deco"
-      },
-      {
-        "slug": "inv-158-stolni-everett-edgecome",
-        "title": "Stolní Everett Edgecome",
-        "editUrl": "/admin/#/collections/karty/entries/inv-158-stolni-everett-edgecome"
-      },
-      {
         "slug": "inv-16-vezni-kladno",
         "title": "věžní Kladno",
         "editUrl": "/admin/#/collections/karty/entries/inv-16-vezni-kladno"
-      },
-      {
-        "slug": "inv-161-hodiny-bulle",
-        "title": "Hodiny Bulle",
-        "editUrl": "/admin/#/collections/karty/entries/inv-161-hodiny-bulle"
-      },
-      {
-        "slug": "inv-162-spinaci-hodiny-5x",
-        "title": "Spínací hodiny 5x",
-        "editUrl": "/admin/#/collections/karty/entries/inv-162-spinaci-hodiny-5x"
-      },
-      {
-        "slug": "inv-163-stopky-krizik",
-        "title": "Stopky Křižík",
-        "editUrl": "/admin/#/collections/karty/entries/inv-163-stopky-krizik"
-      },
-      {
-        "slug": "inv-164-schodistovy-spinac-ovladani",
-        "title": "Schodišťový spínač + ovládání",
-        "editUrl": "/admin/#/collections/karty/entries/inv-164-schodistovy-spinac-ovladani"
-      },
-      {
-        "slug": "inv-165-kyvadlo-letna",
-        "title": "Kyvadlo Letná",
-        "editUrl": "/admin/#/collections/karty/entries/inv-165-kyvadlo-letna"
-      },
-      {
-        "slug": "inv-166-hodiny-nastenne-rumburg",
-        "title": "Hodiny nástěnné Rumburg",
-        "editUrl": "/admin/#/collections/karty/entries/inv-166-hodiny-nastenne-rumburg"
-      },
-      {
-        "slug": "inv-168-amaterske-synchronni-syntax",
-        "title": "Amatérské synchronní Syntax",
-        "editUrl": "/admin/#/collections/karty/entries/inv-168-amaterske-synchronni-syntax"
-      },
-      {
-        "slug": "inv-169-retrogradni-kavalir",
-        "title": "Retrográdní Kavalír",
-        "editUrl": "/admin/#/collections/karty/entries/inv-169-retrogradni-kavalir"
-      },
-      {
-        "slug": "inv-170-digitalni-vejirove",
-        "title": "Digitální vějířové",
-        "editUrl": "/admin/#/collections/karty/entries/inv-170-digitalni-vejirove"
-      },
-      {
-        "slug": "inv-171-dcf-andel-1",
-        "title": "DCF Anděl 1",
-        "editUrl": "/admin/#/collections/karty/entries/inv-171-dcf-andel-1"
-      },
-      {
-        "slug": "inv-172-dcf-andel-2",
-        "title": "DCF Anděl 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-172-dcf-andel-2"
-      },
-      {
-        "slug": "inv-173-sovetske-digitalni-elektronika",
-        "title": "Sovětské digitální Elektronika",
-        "editUrl": "/admin/#/collections/karty/entries/inv-173-sovetske-digitalni-elektronika"
-      },
-      {
-        "slug": "inv-176-digitalni-amaterske",
-        "title": "Digitální amatérské",
-        "editUrl": "/admin/#/collections/karty/entries/inv-176-digitalni-amaterske"
       },
       {
         "slug": "inv-18-vezni-barokni-kovane",
@@ -3358,139 +2813,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-18-vezni-barokni-kovane"
       },
       {
-        "slug": "inv-180-hodiny-elchron-1",
-        "title": "Hodiny Elchron 1",
-        "editUrl": "/admin/#/collections/karty/entries/inv-180-hodiny-elchron-1"
-      },
-      {
-        "slug": "inv-181-hodiny-elchron-2",
-        "title": "Hodiny Elchron 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-181-hodiny-elchron-2"
-      },
-      {
-        "slug": "inv-182-zdroj-zz41",
-        "title": "Zdroj ZZ41",
-        "editUrl": "/admin/#/collections/karty/entries/inv-182-zdroj-zz41"
-      },
-      {
-        "slug": "inv-183-amaterske-hodiny-oma",
-        "title": "Amatérské hodiny OMA",
-        "editUrl": "/admin/#/collections/karty/entries/inv-183-amaterske-hodiny-oma"
-      },
-      {
-        "slug": "inv-184-digitalni-hodiny-farny",
-        "title": "Digitální hodiny Farny",
-        "editUrl": "/admin/#/collections/karty/entries/inv-184-digitalni-hodiny-farny"
-      },
-      {
-        "slug": "inv-185-bateriove-rocky",
-        "title": "Bateriové ročky",
-        "editUrl": "/admin/#/collections/karty/entries/inv-185-bateriove-rocky"
-      },
-      {
-        "slug": "inv-186-ato-kundo",
-        "title": "ATO Kundo",
-        "editUrl": "/admin/#/collections/karty/entries/inv-186-ato-kundo"
-      },
-      {
-        "slug": "inv-187-ato-art-deco",
-        "title": "ATO Art deco",
-        "editUrl": "/admin/#/collections/karty/entries/inv-187-ato-art-deco"
-      },
-      {
-        "slug": "inv-188-stolni-hodiny-12v",
-        "title": "Stolní hodiny 12V",
-        "editUrl": "/admin/#/collections/karty/entries/inv-188-stolni-hodiny-12v"
-      },
-      {
-        "slug": "inv-189-stolni-hodiny-orel",
-        "title": "Stolní hodiny Orel",
-        "editUrl": "/admin/#/collections/karty/entries/inv-189-stolni-hodiny-orel"
-      },
-      {
         "slug": "inv-19-vezni-hodiny-amant-1898",
         "title": "věžní hodiny Amant 1898",
         "editUrl": "/admin/#/collections/karty/entries/inv-19-vezni-hodiny-amant-1898"
-      },
-      {
-        "slug": "inv-190-stolni-hodiny-perfecta",
-        "title": "Stolní hodiny Perfecta",
-        "editUrl": "/admin/#/collections/karty/entries/inv-190-stolni-hodiny-perfecta"
-      },
-      {
-        "slug": "inv-192-podruzny-stroj-veznich-hodin-velky",
-        "title": "Podružný stroj věžních hodin velký",
-        "editUrl": "/admin/#/collections/karty/entries/inv-192-podruzny-stroj-veznich-hodin-velky"
-      },
-      {
-        "slug": "inv-193-stroj-synchronnich-hodin",
-        "title": "Stroj synchronních hodin",
-        "editUrl": "/admin/#/collections/karty/entries/inv-193-stroj-synchronnich-hodin"
-      },
-      {
-        "slug": "inv-195-ekvitermni-regulator-term-2",
-        "title": "Ekvitermní regulátor Term 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-195-ekvitermni-regulator-term-2"
-      },
-      {
-        "slug": "inv-196-hodiny-eh81",
-        "title": "Hodiny EH81",
-        "editUrl": "/admin/#/collections/karty/entries/inv-196-hodiny-eh81"
-      },
-      {
-        "slug": "inv-197-hodiny-sh350",
-        "title": "Hodiny SH350",
-        "editUrl": "/admin/#/collections/karty/entries/inv-197-hodiny-sh350"
-      },
-      {
-        "slug": "inv-2-vezni-prokes-1868-soubor",
-        "title": "věžní Prokeš 1868 soubor",
-        "editUrl": "/admin/#/collections/karty/entries/inv-2-vezni-prokes-1868-soubor"
-      },
-      {
-        "slug": "inv-20-vezni-hodiny-krecmer",
-        "title": "věžní hodiny Krečmer",
-        "editUrl": "/admin/#/collections/karty/entries/inv-20-vezni-hodiny-krecmer"
-      },
-      {
-        "slug": "inv-200-hodiny-digitalni-sakul",
-        "title": "Hodiny digitální Sakul",
-        "editUrl": "/admin/#/collections/karty/entries/inv-200-hodiny-digitalni-sakul"
-      },
-      {
-        "slug": "inv-201-hodiny-eh81",
-        "title": "Hodiny EH81",
-        "editUrl": "/admin/#/collections/karty/entries/inv-201-hodiny-eh81"
-      },
-      {
-        "slug": "inv-202-retrogradni-kavalir",
-        "title": "Retrográdní Kavalír",
-        "editUrl": "/admin/#/collections/karty/entries/inv-202-retrogradni-kavalir"
-      },
-      {
-        "slug": "inv-203-digitalni-vejirove",
-        "title": "Digitální vějířové",
-        "editUrl": "/admin/#/collections/karty/entries/inv-203-digitalni-vejirove"
-      },
-      {
-        "slug": "inv-204-dcf-andel-1",
-        "title": "DCF Anděl 1",
-        "editUrl": "/admin/#/collections/karty/entries/inv-204-dcf-andel-1"
-      },
-      {
-        "slug": "inv-205-dcf-andel-2",
-        "title": "DCF Anděl 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-205-dcf-andel-2"
-      },
-      {
-        "slug": "inv-206-sovetske-digitalni-elektronika",
-        "title": "Sovětské digitální Elektronika",
-        "editUrl": "/admin/#/collections/karty/entries/inv-206-sovetske-digitalni-elektronika"
-      },
-      {
-        "slug": "inv-209-digitalni-amaterske",
-        "title": "Digitální amatérské",
-        "editUrl": "/admin/#/collections/karty/entries/inv-209-digitalni-amaterske"
       },
       {
         "slug": "inv-21-vezni-drevene",
@@ -3498,129 +2823,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-21-vezni-drevene"
       },
       {
-        "slug": "inv-213-hodiny-elchron-1",
-        "title": "Hodiny Elchron 1",
-        "editUrl": "/admin/#/collections/karty/entries/inv-213-hodiny-elchron-1"
-      },
-      {
-        "slug": "inv-214-hodiny-elchron-2",
-        "title": "Hodiny Elchron 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-214-hodiny-elchron-2"
-      },
-      {
-        "slug": "inv-215-zdroj-zz41",
-        "title": "Zdroj ZZ41",
-        "editUrl": "/admin/#/collections/karty/entries/inv-215-zdroj-zz41"
-      },
-      {
-        "slug": "inv-216-amaterske-hodiny-oma",
-        "title": "Amatérské hodiny OMA",
-        "editUrl": "/admin/#/collections/karty/entries/inv-216-amaterske-hodiny-oma"
-      },
-      {
-        "slug": "inv-217-digitalni-hodiny-farny",
-        "title": "Digitální hodiny Farny",
-        "editUrl": "/admin/#/collections/karty/entries/inv-217-digitalni-hodiny-farny"
-      },
-      {
-        "slug": "inv-218-bateriove-rocky",
-        "title": "Bateriové ročky",
-        "editUrl": "/admin/#/collections/karty/entries/inv-218-bateriove-rocky"
-      },
-      {
-        "slug": "inv-219-ato-kundo",
-        "title": "ATO Kundo",
-        "editUrl": "/admin/#/collections/karty/entries/inv-219-ato-kundo"
-      },
-      {
         "slug": "inv-22-vezni-holandan",
         "title": "věžní Holanďan",
         "editUrl": "/admin/#/collections/karty/entries/inv-22-vezni-holandan"
-      },
-      {
-        "slug": "inv-220-ato-art-deco",
-        "title": "ATO Art deco",
-        "editUrl": "/admin/#/collections/karty/entries/inv-220-ato-art-deco"
-      },
-      {
-        "slug": "inv-221-stolni-hodiny-12v",
-        "title": "Stolní hodiny 12V",
-        "editUrl": "/admin/#/collections/karty/entries/inv-221-stolni-hodiny-12v"
-      },
-      {
-        "slug": "inv-222-stolni-hodiny-orel",
-        "title": "Stolní hodiny Orel",
-        "editUrl": "/admin/#/collections/karty/entries/inv-222-stolni-hodiny-orel"
-      },
-      {
-        "slug": "inv-223-stolni-hodiny-perfecta",
-        "title": "Stolní hodiny Perfecta",
-        "editUrl": "/admin/#/collections/karty/entries/inv-223-stolni-hodiny-perfecta"
-      },
-      {
-        "slug": "inv-225-podruzny-stroj-veznich-hodin-velky",
-        "title": "Podružný stroj věžních hodin velký",
-        "editUrl": "/admin/#/collections/karty/entries/inv-225-podruzny-stroj-veznich-hodin-velky"
-      },
-      {
-        "slug": "inv-226-stroj-synchronnich-hodin",
-        "title": "Stroj synchronních hodin",
-        "editUrl": "/admin/#/collections/karty/entries/inv-226-stroj-synchronnich-hodin"
-      },
-      {
-        "slug": "inv-228-ekvitermni-regulator-term-2",
-        "title": "Ekvitermní regulátor Term 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-228-ekvitermni-regulator-term-2"
-      },
-      {
-        "slug": "inv-229-hodiny-eh81",
-        "title": "Hodiny EH81",
-        "editUrl": "/admin/#/collections/karty/entries/inv-229-hodiny-eh81"
-      },
-      {
-        "slug": "inv-23-vezni-jilove",
-        "title": "věžní Jílové",
-        "editUrl": "/admin/#/collections/karty/entries/inv-23-vezni-jilove"
-      },
-      {
-        "slug": "inv-230-hodiny-sh350",
-        "title": "Hodiny SH350",
-        "editUrl": "/admin/#/collections/karty/entries/inv-230-hodiny-sh350"
-      },
-      {
-        "slug": "inv-233-hodiny-digitalni-sakul",
-        "title": "Hodiny digitální Sakul",
-        "editUrl": "/admin/#/collections/karty/entries/inv-233-hodiny-digitalni-sakul"
-      },
-      {
-        "slug": "inv-234-hodiny-eh81",
-        "title": "Hodiny EH81",
-        "editUrl": "/admin/#/collections/karty/entries/inv-234-hodiny-eh81"
-      },
-      {
-        "slug": "inv-235-satellite-controlled-clock-gps-167",
-        "title": "Satellite controlled clock GPS 167",
-        "editUrl": "/admin/#/collections/karty/entries/inv-235-satellite-controlled-clock-gps-167"
-      },
-      {
-        "slug": "inv-236-vua509tgp-dcf",
-        "title": "VUA509TGP  DCF",
-        "editUrl": "/admin/#/collections/karty/entries/inv-236-vua509tgp-dcf"
-      },
-      {
-        "slug": "inv-237-osciloskopicke-hodiny",
-        "title": "Osciloskopické hodiny",
-        "editUrl": "/admin/#/collections/karty/entries/inv-237-osciloskopicke-hodiny"
-      },
-      {
-        "slug": "inv-238-digitalni-slunecni-hodiny",
-        "title": "Digitální sluneční hodiny",
-        "editUrl": "/admin/#/collections/karty/entries/inv-238-digitalni-slunecni-hodiny"
-      },
-      {
-        "slug": "inv-239-hodiny-s-planetovym-soukolim",
-        "title": "Hodiny s planetovým soukolím",
-        "editUrl": "/admin/#/collections/karty/entries/inv-239-hodiny-s-planetovym-soukolim"
       },
       {
         "slug": "inv-24-vezni-bassler",
@@ -3628,84 +2833,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-24-vezni-bassler"
       },
       {
-        "slug": "inv-240-tourbillon-spilka",
-        "title": "Tourbillon Spilka",
-        "editUrl": "/admin/#/collections/karty/entries/inv-240-tourbillon-spilka"
-      },
-      {
-        "slug": "inv-241-rimske-digitalky",
-        "title": "Římské digitálky",
-        "editUrl": "/admin/#/collections/karty/entries/inv-241-rimske-digitalky"
-      },
-      {
-        "slug": "inv-242-rimske-zvoneni",
-        "title": "Římské zvonění",
-        "editUrl": "/admin/#/collections/karty/entries/inv-242-rimske-zvoneni"
-      },
-      {
-        "slug": "inv-243-zvoneni-kavalir",
-        "title": "Zvonění Kavalír",
-        "editUrl": "/admin/#/collections/karty/entries/inv-243-zvoneni-kavalir"
-      },
-      {
-        "slug": "inv-244-hodiny-3d",
-        "title": "Hodiny 3D",
-        "editUrl": "/admin/#/collections/karty/entries/inv-244-hodiny-3d"
-      },
-      {
-        "slug": "inv-245-mysteriozni-hodiny-havlicek-velke",
-        "title": "Mysteriózní hodiny Havlíček velké",
-        "editUrl": "/admin/#/collections/karty/entries/inv-245-mysteriozni-hodiny-havlicek-velke"
-      },
-      {
-        "slug": "inv-246-mysteriozni-hodiny-havlicek-male",
-        "title": "Mysteriózní hodiny Havlíček malé",
-        "editUrl": "/admin/#/collections/karty/entries/inv-246-mysteriozni-hodiny-havlicek-male"
-      },
-      {
-        "slug": "inv-247-presypaci-hodiny",
-        "title": "Přesýpací hodiny",
-        "editUrl": "/admin/#/collections/karty/entries/inv-247-presypaci-hodiny"
-      },
-      {
-        "slug": "inv-248-kovane-zamky-6-ks",
-        "title": "Kované zámky 6 ks",
-        "editUrl": "/admin/#/collections/karty/entries/inv-248-kovane-zamky-6-ks"
-      },
-      {
-        "slug": "inv-249-razitko-casove",
-        "title": "Razítko časové",
-        "editUrl": "/admin/#/collections/karty/entries/inv-249-razitko-casove"
-      },
-      {
         "slug": "inv-25-vezni-chribska",
         "title": "věžní Chřibská",
         "editUrl": "/admin/#/collections/karty/entries/inv-25-vezni-chribska"
-      },
-      {
-        "slug": "inv-250-staromestska-vez-3-klauni",
-        "title": "Staroměstská věž 3 klauni",
-        "editUrl": "/admin/#/collections/karty/entries/inv-250-staromestska-vez-3-klauni"
-      },
-      {
-        "slug": "inv-251-staromestska-vez",
-        "title": "Staroměstská věž",
-        "editUrl": "/admin/#/collections/karty/entries/inv-251-staromestska-vez"
-      },
-      {
-        "slug": "inv-252-propagandawecker",
-        "title": "Propagandawecker",
-        "editUrl": "/admin/#/collections/karty/entries/inv-252-propagandawecker"
-      },
-      {
-        "slug": "inv-258-podlahove-hh3",
-        "title": "Podlahové HH3",
-        "editUrl": "/admin/#/collections/karty/entries/inv-258-podlahove-hh3"
-      },
-      {
-        "slug": "inv-259-zavesne-ibm",
-        "title": "Závěsné IBM",
-        "editUrl": "/admin/#/collections/karty/entries/inv-259-zavesne-ibm"
       },
       {
         "slug": "inv-26-vezni-jirkostroj",
@@ -3713,69 +2843,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-26-vezni-jirkostroj"
       },
       {
-        "slug": "inv-260-podruzne-ibm-4x",
-        "title": "Podružné IBM 4x",
-        "editUrl": "/admin/#/collections/karty/entries/inv-260-podruzne-ibm-4x"
-      },
-      {
-        "slug": "inv-261-nastenne-ato",
-        "title": "Nástěnné ATO",
-        "editUrl": "/admin/#/collections/karty/entries/inv-261-nastenne-ato"
-      },
-      {
-        "slug": "inv-265-ustredna-ehu-0660",
-        "title": "Ústředna EHU 0660",
-        "editUrl": "/admin/#/collections/karty/entries/inv-265-ustredna-ehu-0660"
-      },
-      {
-        "slug": "inv-266-linkovy-rozvadec-ehu-260",
-        "title": "Linkový rozváděč EHU 260",
-        "editUrl": "/admin/#/collections/karty/entries/inv-266-linkovy-rozvadec-ehu-260"
-      },
-      {
-        "slug": "inv-267-podruzne-jednotny-cas",
-        "title": "Podružné Jednotný čas",
-        "editUrl": "/admin/#/collections/karty/entries/inv-267-podruzne-jednotny-cas"
-      },
-      {
-        "slug": "inv-268-podruzne-brillie",
-        "title": "Podružné Brillié",
-        "editUrl": "/admin/#/collections/karty/entries/inv-268-podruzne-brillie"
-      },
-      {
         "slug": "inv-27-vezni-velka-ves",
         "title": "věžní Velká Ves",
         "editUrl": "/admin/#/collections/karty/entries/inv-27-vezni-velka-ves"
-      },
-      {
-        "slug": "inv-271-kapesni-velke",
-        "title": "Kapesní velké",
-        "editUrl": "/admin/#/collections/karty/entries/inv-271-kapesni-velke"
-      },
-      {
-        "slug": "inv-272-poulicni-hodiny",
-        "title": "Pouliční hodiny",
-        "editUrl": "/admin/#/collections/karty/entries/inv-272-poulicni-hodiny"
-      },
-      {
-        "slug": "inv-275-hodiny-podlahove",
-        "title": "Hodiny podlahové",
-        "editUrl": "/admin/#/collections/karty/entries/inv-275-hodiny-podlahove"
-      },
-      {
-        "slug": "inv-276-parkovaci-automat",
-        "title": "Parkovací automat",
-        "editUrl": "/admin/#/collections/karty/entries/inv-276-parkovaci-automat"
-      },
-      {
-        "slug": "inv-277-mup-40",
-        "title": "MUP 40",
-        "editUrl": "/admin/#/collections/karty/entries/inv-277-mup-40"
-      },
-      {
-        "slug": "inv-279-nastenne-se-setrvackou",
-        "title": "Nástěnné se setrvačkou",
-        "editUrl": "/admin/#/collections/karty/entries/inv-279-nastenne-se-setrvackou"
       },
       {
         "slug": "inv-28-vezni-se-setrvackou",
@@ -3783,24 +2853,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-28-vezni-se-setrvackou"
       },
       {
-        "slug": "inv-281-maticni-siemens",
-        "title": "Matiční Siemens",
-        "editUrl": "/admin/#/collections/karty/entries/inv-281-maticni-siemens"
-      },
-      {
-        "slug": "inv-282-time-slider-spilka",
-        "title": "Time slider Spilka",
-        "editUrl": "/admin/#/collections/karty/entries/inv-282-time-slider-spilka"
-      },
-      {
         "slug": "inv-29-vezni-benesov",
         "title": "věžní Benešov",
         "editUrl": "/admin/#/collections/karty/entries/inv-29-vezni-benesov"
-      },
-      {
-        "slug": "inv-3-barokni-ministroj-18-stol",
-        "title": "barokní ministroj  18. stol.",
-        "editUrl": "/admin/#/collections/karty/entries/inv-3-barokni-ministroj-18-stol"
       },
       {
         "slug": "inv-31-vezni-francie",
@@ -3833,34 +2888,14 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-36-vezni-thondel-2"
       },
       {
-        "slug": "inv-37-bici-stroj-brillie",
-        "title": "bicí stroj Brillié",
-        "editUrl": "/admin/#/collections/karty/entries/inv-37-bici-stroj-brillie"
-      },
-      {
         "slug": "inv-38-soucast-veznich-hodin",
         "title": "součást věžních hodin",
         "editUrl": "/admin/#/collections/karty/entries/inv-38-soucast-veznich-hodin"
       },
       {
-        "slug": "inv-39-die-turmuhren",
-        "title": "Die Turmuhren",
-        "editUrl": "/admin/#/collections/karty/entries/inv-39-die-turmuhren"
-      },
-      {
         "slug": "inv-4-vezni-18-stol",
         "title": "věžní 18. stol.",
         "editUrl": "/admin/#/collections/karty/entries/inv-4-vezni-18-stol"
-      },
-      {
-        "slug": "inv-40-drevene-hodiny",
-        "title": "dřevěné hodiny",
-        "editUrl": "/admin/#/collections/karty/entries/inv-40-drevene-hodiny"
-      },
-      {
-        "slug": "inv-42-hodiny-housle",
-        "title": "hodiny housle",
-        "editUrl": "/admin/#/collections/karty/entries/inv-42-hodiny-housle"
       },
       {
         "slug": "inv-43-kovane-hodiny-legner",
@@ -3873,49 +2908,14 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-44-lihyrove-hodiny"
       },
       {
-        "slug": "inv-45-maticni-hodiny-t-n",
-        "title": "matiční hodiny T&N",
-        "editUrl": "/admin/#/collections/karty/entries/inv-45-maticni-hodiny-t-n"
-      },
-      {
-        "slug": "inv-46-nouzove-zastaveni-casu",
-        "title": "nouzové zastavení času",
-        "editUrl": "/admin/#/collections/karty/entries/inv-46-nouzove-zastaveni-casu"
-      },
-      {
         "slug": "inv-47-orloj-skala",
         "title": "orloj Skála",
         "editUrl": "/admin/#/collections/karty/entries/inv-47-orloj-skala"
       },
       {
-        "slug": "inv-48-podlahove-hodiny-barokni",
-        "title": "podlahové hodiny barokní",
-        "editUrl": "/admin/#/collections/karty/entries/inv-48-podlahove-hodiny-barokni"
-      },
-      {
-        "slug": "inv-49-podlahove-hodiny-comtoise",
-        "title": "podlahové hodiny Comtoise",
-        "editUrl": "/admin/#/collections/karty/entries/inv-49-podlahove-hodiny-comtoise"
-      },
-      {
         "slug": "inv-5-vezni-18-stol-spindl",
         "title": "věžní 18. stol. špindl",
         "editUrl": "/admin/#/collections/karty/entries/inv-5-vezni-18-stol-spindl"
-      },
-      {
-        "slug": "inv-52-soustava-rozvodu-s-rafijemi",
-        "title": "Soustava rozvodů s rafijemi",
-        "editUrl": "/admin/#/collections/karty/entries/inv-52-soustava-rozvodu-s-rafijemi"
-      },
-      {
-        "slug": "inv-53-model-prazskeho-orloje",
-        "title": "Model Pražského orloje",
-        "editUrl": "/admin/#/collections/karty/entries/inv-53-model-prazskeho-orloje"
-      },
-      {
-        "slug": "inv-54-skeletove-hodiny-kavalir",
-        "title": "skeletové hodiny Kavalír",
-        "editUrl": "/admin/#/collections/karty/entries/inv-54-skeletove-hodiny-kavalir"
       },
       {
         "slug": "inv-55-hodiny-comtoise",
@@ -3928,44 +2928,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-56-hodiny-comtoise"
       },
       {
-        "slug": "inv-57-kovane-hodiny-gibbus-1",
-        "title": "kované hodiny Gibbus 1",
-        "editUrl": "/admin/#/collections/karty/entries/inv-57-kovane-hodiny-gibbus-1"
-      },
-      {
-        "slug": "inv-58-kovane-hodiny-gibbus-2",
-        "title": "kované hodiny Gibbus 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-58-kovane-hodiny-gibbus-2"
-      },
-      {
-        "slug": "inv-59-podlahove-anglicke",
-        "title": "podlahové anglické",
-        "editUrl": "/admin/#/collections/karty/entries/inv-59-podlahove-anglicke"
-      },
-      {
         "slug": "inv-6-vezni-michael-christ",
         "title": "věžní Michael Christ",
         "editUrl": "/admin/#/collections/karty/entries/inv-6-vezni-michael-christ"
-      },
-      {
-        "slug": "inv-60-hodinovy-hotel",
-        "title": "Hodinový hotel",
-        "editUrl": "/admin/#/collections/karty/entries/inv-60-hodinovy-hotel"
-      },
-      {
-        "slug": "inv-61-cimbal-s-kladivem",
-        "title": "Cimbál s kladivem",
-        "editUrl": "/admin/#/collections/karty/entries/inv-61-cimbal-s-kladivem"
-      },
-      {
-        "slug": "inv-62-torzo-ciferniku-s-ruckou-a-rozvody",
-        "title": "torzo ciferníku s ručkou a rozvody",
-        "editUrl": "/admin/#/collections/karty/entries/inv-62-torzo-ciferniku-s-ruckou-a-rozvody"
-      },
-      {
-        "slug": "inv-63-pendlovky",
-        "title": "Pendlovky",
-        "editUrl": "/admin/#/collections/karty/entries/inv-63-pendlovky"
       },
       {
         "slug": "inv-64-mysteriozni-natahovani",
@@ -3973,29 +2938,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-64-mysteriozni-natahovani"
       },
       {
-        "slug": "inv-65-orloj-kavalir",
-        "title": "Orloj Kavalír",
-        "editUrl": "/admin/#/collections/karty/entries/inv-65-orloj-kavalir"
-      },
-      {
         "slug": "inv-66-cimbal-s-odbijenim",
         "title": "Cimbál s odbíjením",
         "editUrl": "/admin/#/collections/karty/entries/inv-66-cimbal-s-odbijenim"
-      },
-      {
-        "slug": "inv-67-orloj-hvezdarna-petrin",
-        "title": "Orloj Hvězdárna Petřín",
-        "editUrl": "/admin/#/collections/karty/entries/inv-67-orloj-hvezdarna-petrin"
-      },
-      {
-        "slug": "inv-68-slunecni-hodiny-horizontalni",
-        "title": "Sluneční hodiny horizontální",
-        "editUrl": "/admin/#/collections/karty/entries/inv-68-slunecni-hodiny-horizontalni"
-      },
-      {
-        "slug": "inv-69-slunecni-hodiny-polarni",
-        "title": "Sluneční hodiny polární",
-        "editUrl": "/admin/#/collections/karty/entries/inv-69-slunecni-hodiny-polarni"
       },
       {
         "slug": "inv-7-vezni-f-x-beitel",
@@ -4003,74 +2948,14 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-7-vezni-f-x-beitel"
       },
       {
-        "slug": "inv-70-slunecni-hodiny-polarni-mosazne",
-        "title": "Sluneční hodiny polární mosazné",
-        "editUrl": "/admin/#/collections/karty/entries/inv-70-slunecni-hodiny-polarni-mosazne"
-      },
-      {
-        "slug": "inv-71-slunecni-hodiny-diptychove-1",
-        "title": "Sluneční hodiny diptychové 1",
-        "editUrl": "/admin/#/collections/karty/entries/inv-71-slunecni-hodiny-diptychove-1"
-      },
-      {
-        "slug": "inv-72-astrolab-dreveny",
-        "title": "Astroláb dřevěný",
-        "editUrl": "/admin/#/collections/karty/entries/inv-72-astrolab-dreveny"
-      },
-      {
-        "slug": "inv-73-heliochronometr",
-        "title": "Heliochronometr",
-        "editUrl": "/admin/#/collections/karty/entries/inv-73-heliochronometr"
-      },
-      {
-        "slug": "inv-74-slunecni-hodiny-diptychove-2",
-        "title": "Sluneční hodiny diptychové 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-74-slunecni-hodiny-diptychove-2"
-      },
-      {
-        "slug": "inv-75-soubor-malych-slunecnich-hodin",
-        "title": "Soubor malých slunečních hodin",
-        "editUrl": "/admin/#/collections/karty/entries/inv-75-soubor-malych-slunecnich-hodin"
-      },
-      {
-        "slug": "inv-76-heliochronometr-s-analemou",
-        "title": "Heliochronometr s analémou",
-        "editUrl": "/admin/#/collections/karty/entries/inv-76-heliochronometr-s-analemou"
-      },
-      {
-        "slug": "inv-77-slunecni-hodiny-prstencove",
-        "title": "Sluneční hodiny prstencové",
-        "editUrl": "/admin/#/collections/karty/entries/inv-77-slunecni-hodiny-prstencove"
-      },
-      {
-        "slug": "inv-79-holubarske-hodiny-1",
-        "title": "Holubářské hodiny 1",
-        "editUrl": "/admin/#/collections/karty/entries/inv-79-holubarske-hodiny-1"
-      },
-      {
         "slug": "inv-8-vezni-r-liebing",
         "title": "věžní R. Liebing",
         "editUrl": "/admin/#/collections/karty/entries/inv-8-vezni-r-liebing"
       },
       {
-        "slug": "inv-80-holubarske-hodiny-2",
-        "title": "Holubářské hodiny 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-80-holubarske-hodiny-2"
-      },
-      {
         "slug": "inv-81-casovy-strojek-trezorovy",
         "title": "Časový strojek trezorový — Thomas Fox",
         "editUrl": "/admin/#/collections/karty/entries/inv-81-casovy-strojek-trezorovy"
-      },
-      {
-        "slug": "inv-83-kukacky",
-        "title": "Kukačky",
-        "editUrl": "/admin/#/collections/karty/entries/inv-83-kukacky"
-      },
-      {
-        "slug": "inv-84-strojek-na-retizky-2ks",
-        "title": "Strojek na řetízky 2ks",
-        "editUrl": "/admin/#/collections/karty/entries/inv-84-strojek-na-retizky-2ks"
       },
       {
         "slug": "inv-85-model-hipp",
@@ -4088,11 +2973,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-87-maticni-wagner"
       },
       {
-        "slug": "inv-88-brillie",
-        "title": "Brillié",
-        "editUrl": "/admin/#/collections/karty/entries/inv-88-brillie"
-      },
-      {
         "slug": "inv-89-maticni-zenith",
         "title": "Matiční Zenith",
         "editUrl": "/admin/#/collections/karty/entries/inv-89-maticni-zenith"
@@ -4108,79 +2988,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-90-maticni-ericsson"
       },
       {
-        "slug": "inv-91-hodiny-kienzle",
-        "title": "Hodiny Kienzle",
-        "editUrl": "/admin/#/collections/karty/entries/inv-91-hodiny-kienzle"
-      },
-      {
-        "slug": "inv-95-selenovy-usmernovac",
-        "title": "Selénový usměrňovač",
-        "editUrl": "/admin/#/collections/karty/entries/inv-95-selenovy-usmernovac"
-      },
-      {
-        "slug": "inv-96-linkovy-zesilovac",
-        "title": "Linkový zesilovač",
-        "editUrl": "/admin/#/collections/karty/entries/inv-96-linkovy-zesilovac"
-      },
-      {
-        "slug": "inv-97-linkovy-zesilovac-releovy",
-        "title": "Linkový zesilovač reléový",
-        "editUrl": "/admin/#/collections/karty/entries/inv-97-linkovy-zesilovac-releovy"
-      },
-      {
-        "slug": "inv-98-podruzne-hodiny-velke",
-        "title": "Podružné hodiny velké",
-        "editUrl": "/admin/#/collections/karty/entries/inv-98-podruzne-hodiny-velke"
-      },
-      {
-        "slug": "inv-99-podruzne-hodiny-male-4x",
-        "title": "Podružné hodiny malé 4x",
-        "editUrl": "/admin/#/collections/karty/entries/inv-99-podruzne-hodiny-male-4x"
-      },
-      {
-        "slug": "inv-x1-vezni-lissner",
-        "title": "[K doplnění] Věžní Lissner (inv. x1)",
-        "editUrl": "/admin/#/collections/karty/entries/inv-x1-vezni-lissner"
-      },
-      {
-        "slug": "inv-x11-hodiny-praotron-velke",
-        "title": "[K doplnění] Hodiny Praotron velké (inv. x9)",
-        "editUrl": "/admin/#/collections/karty/entries/inv-x11-hodiny-praotron-velke"
-      },
-      {
-        "slug": "inv-x12-diferencialni-rele-vus",
-        "title": "[K doplnění] Diferenciální relé VUS (inv. x10)",
-        "editUrl": "/admin/#/collections/karty/entries/inv-x12-diferencialni-rele-vus"
-      },
-      {
-        "slug": "inv-x2-hodiny-kruhove-led",
-        "title": "[K doplnění] Hodiny kruhové LED (inv. x1)",
-        "editUrl": "/admin/#/collections/karty/entries/inv-x2-hodiny-kruhove-led"
-      },
-      {
-        "slug": "inv-x3-hodiny-digitron",
-        "title": "[K doplnění] Hodiny digitron (inv. x2)",
-        "editUrl": "/admin/#/collections/karty/entries/inv-x3-hodiny-digitron"
-      },
-      {
-        "slug": "inv-x4-astronomice-hodiny",
-        "title": "[K doplnění] Astronomicé hodiny (inv. x3)",
-        "editUrl": "/admin/#/collections/karty/entries/inv-x4-astronomice-hodiny"
-      },
-      {
-        "slug": "inv-x6-vodni-hodiny-cinske",
-        "title": "[K doplnění] Vodní hodiny čínské (inv. x5)",
-        "editUrl": "/admin/#/collections/karty/entries/inv-x6-vodni-hodiny-cinske"
-      },
-      {
-        "slug": "inv-x8-volne",
-        "title": "[K doplnění] Volně (inv. x7)",
-        "editUrl": "/admin/#/collections/karty/entries/inv-x8-volne"
-      },
-      {
-        "slug": "inv-x9-tellurium",
-        "title": "[K doplnění] Tellurium (inv. x9)",
-        "editUrl": "/admin/#/collections/karty/entries/inv-x9-tellurium"
+        "slug": "inv-x13-hodiny-hn350",
+        "title": "[K doplnění] Hodiny HN350 (inv. x13)",
+        "editUrl": "/admin/#/collections/karty/entries/inv-x13-hodiny-hn350"
       }
     ],
     "clankyNoTldr": [
@@ -4204,7 +3014,7 @@
         "title": "Hodně ujeté a asi šokující hodiny pana Tima Hunkina",
         "category": "virtualni-muzeum",
         "editUrl": "/admin/#/collections/clanky/entries/TimHunkin",
-        "wordCount": 112
+        "wordCount": 114
       },
       {
         "slug": "betrisey",
@@ -4225,7 +3035,7 @@
         "title": "Zobrazení času na www 1",
         "category": "projekty",
         "editUrl": "/admin/#/collections/clanky/entries/cas_internet1",
-        "wordCount": 133
+        "wordCount": 130
       },
       {
         "slug": "decin_zamek",
@@ -4316,7 +3126,7 @@
         "title": "Hodiny skoro z MERKURU",
         "category": "zajimavosti",
         "editUrl": "/admin/#/collections/clanky/entries/merkur",
-        "wordCount": 127
+        "wordCount": 126
       },
       {
         "slug": "mindelheim",
@@ -4505,14 +3315,7 @@
         "title": "Panel 2 — Matiční hodiny Elektročas",
         "category": "sbirka",
         "editUrl": "/admin/#/collections/clanky/entries/panel-2-maticni-elektrocas",
-        "wordCount": 79
-      },
-      {
-        "slug": "panel-3-laplace-tn-burk",
-        "title": "Panel 3 — Laplace, T&N, Bürk a Perconta",
-        "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/panel-3-laplace-tn-burk",
-        "wordCount": 147
+        "wordCount": 122
       },
       {
         "slug": "papir",
@@ -4540,7 +3343,7 @@
         "title": "Různé o čase, hodinách a hodinkách",
         "category": "zajimavosti",
         "editUrl": "/admin/#/collections/clanky/entries/ruzne",
-        "wordCount": 69
+        "wordCount": 70
       },
       {
         "slug": "segmentovky_s_prekladem",
@@ -4603,7 +3406,7 @@
         "title": "zvon Velký později zvaný Petr Pavel",
         "category": "sbirka",
         "editUrl": "/admin/#/collections/clanky/entries/zvon_petr_pavel",
-        "wordCount": 189
+        "wordCount": 188
       }
     ],
     "clankyLegacyLinks": [
@@ -5009,161 +3812,472 @@
     ],
     "hodinariShort": [
       {
+        "slug": "abraham-louis-breguet",
+        "title": "Abraham-Louis Bréguet",
+        "editUrl": "/admin/#/collections/hodinari/entries/abraham-louis-breguet",
+        "wordCount": 1
+      },
+      {
+        "slug": "adolf-lange",
+        "title": "Ferdinand Adolf Lange",
+        "editUrl": "/admin/#/collections/hodinari/entries/adolf-lange",
+        "wordCount": 1
+      },
+      {
+        "slug": "bernhard-zacharia",
+        "title": "Bernhard Zacharia (Thurmuhren Fabrik, Leipzig)",
+        "editUrl": "/admin/#/collections/hodinari/entries/bernhard-zacharia",
+        "wordCount": 193
+      },
+      {
+        "slug": "bodet",
+        "title": "Bodet (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/bodet",
+        "wordCount": 1
+      },
+      {
+        "slug": "bratri-brillie",
+        "title": "Bratři Brillié",
+        "editUrl": "/admin/#/collections/hodinari/entries/bratri-brillie",
+        "wordCount": 1
+      },
+      {
+        "slug": "bulle-clock",
+        "title": "Bulle Clock Co. (Marcel Moulin / Maurice Favre-Bulle)",
+        "editUrl": "/admin/#/collections/hodinari/entries/bulle-clock",
+        "wordCount": 1
+      },
+      {
+        "slug": "bulova",
+        "title": "Bulova",
+        "editUrl": "/admin/#/collections/hodinari/entries/bulova",
+        "wordCount": 1
+      },
+      {
         "slug": "cenek-danek",
         "title": "Čeněk Daněk",
         "editUrl": "/admin/#/collections/hodinari/entries/cenek-danek",
-        "wordCount": 108
+        "wordCount": 102
+      },
+      {
+        "slug": "christiaan-huygens",
+        "title": "Christiaan Huygens",
+        "editUrl": "/admin/#/collections/hodinari/entries/christiaan-huygens",
+        "wordCount": 1
       },
       {
         "slug": "datumatic",
         "title": "Datumatic",
         "editUrl": "/admin/#/collections/hodinari/entries/datumatic",
-        "wordCount": 61
+        "wordCount": 55
+      },
+      {
+        "slug": "elekon",
+        "title": "Elekon (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/elekon",
+        "wordCount": 1
       },
       {
         "slug": "elektrocas",
         "title": "Elektročas",
         "editUrl": "/admin/#/collections/hodinari/entries/elektrocas",
-        "wordCount": 103
+        "wordCount": 97
+      },
+      {
+        "slug": "ericsson",
+        "title": "Ericsson",
+        "editUrl": "/admin/#/collections/hodinari/entries/ericsson",
+        "wordCount": 1
+      },
+      {
+        "slug": "eureka",
+        "title": "Eureka Clock Co. (Sir John Bennett)",
+        "editUrl": "/admin/#/collections/hodinari/entries/eureka",
+        "wordCount": 1
+      },
+      {
+        "slug": "frantisek-rebicek",
+        "title": "František Rebíček",
+        "editUrl": "/admin/#/collections/hodinari/entries/frantisek-rebicek",
+        "wordCount": 1
       },
       {
         "slug": "frantisek-spatny",
         "title": "František Špatný",
         "editUrl": "/admin/#/collections/hodinari/entries/frantisek-spatny",
-        "wordCount": 101
-      },
-      {
-        "slug": "frantisek-summerecker",
-        "title": "František Summerecker",
-        "editUrl": "/admin/#/collections/hodinari/entries/frantisek-summerecker",
-        "wordCount": 150
+        "wordCount": 95
       },
       {
         "slug": "frantisek-x-beitel",
         "title": "František X. Beitel",
         "editUrl": "/admin/#/collections/hodinari/entries/frantisek-x-beitel",
-        "wordCount": 176
+        "wordCount": 149
       },
       {
         "slug": "friedrich-moritz-bassler",
         "title": "Friedrich Moritz Bassler",
         "editUrl": "/admin/#/collections/hodinari/entries/friedrich-moritz-bassler",
-        "wordCount": 108
+        "wordCount": 80
+      },
+      {
+        "slug": "george-graham",
+        "title": "George Graham (Jiří Graham)",
+        "editUrl": "/admin/#/collections/hodinari/entries/george-graham",
+        "wordCount": 1
       },
       {
         "slug": "hans-bechler",
         "title": "Hans Bechler z Magdeburku",
         "editUrl": "/admin/#/collections/hodinari/entries/hans-bechler",
-        "wordCount": 198
+        "wordCount": 159
+      },
+      {
+        "slug": "hipp-favarger",
+        "title": "Hipp-Favarger (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/hipp-favarger",
+        "wordCount": 1
       },
       {
         "slug": "hodinarska-rodina-manesova",
         "title": "Mánesovi (rod hodinářů)",
         "editUrl": "/admin/#/collections/hodinari/entries/hodinarska-rodina-manesova",
-        "wordCount": 81
+        "wordCount": 64
+      },
+      {
+        "slug": "jan-marek",
+        "title": "Jan Marek",
+        "editUrl": "/admin/#/collections/hodinari/entries/jan-marek",
+        "wordCount": 108
+      },
+      {
+        "slug": "jan-prokes-jr",
+        "title": "Jan Prokeš ml.",
+        "editUrl": "/admin/#/collections/hodinari/entries/jan-prokes-jr",
+        "wordCount": 107
       },
       {
         "slug": "jednotny-cas",
         "title": "Jednotný čas",
         "editUrl": "/admin/#/collections/hodinari/entries/jednotny-cas",
-        "wordCount": 65
+        "wordCount": 59
       },
       {
-        "slug": "johann-lissner",
-        "title": "Johann Lissner",
-        "editUrl": "/admin/#/collections/hodinari/entries/johann-lissner",
-        "wordCount": 137
+        "slug": "johann-burk",
+        "title": "Johann Bürk",
+        "editUrl": "/admin/#/collections/hodinari/entries/johann-burk",
+        "wordCount": 1
+      },
+      {
+        "slug": "john-harrison",
+        "title": "John Harrison",
+        "editUrl": "/admin/#/collections/hodinari/entries/john-harrison",
+        "wordCount": 1
       },
       {
         "slug": "josef-achrer",
         "title": "Josef Achrer",
         "editUrl": "/admin/#/collections/hodinari/entries/josef-achrer",
-        "wordCount": 51
+        "wordCount": 34
+      },
+      {
+        "slug": "josef-prokes",
+        "title": "Josef Prokeš",
+        "editUrl": "/admin/#/collections/hodinari/entries/josef-prokes",
+        "wordCount": 158
       },
       {
         "slug": "joseph-winnerl",
         "title": "Joseph Thaddeus Winnerl",
         "editUrl": "/admin/#/collections/hodinari/entries/joseph-winnerl",
-        "wordCount": 154
+        "wordCount": 148
+      },
+      {
+        "slug": "julius-hiemann",
+        "title": "Julius Hiemann",
+        "editUrl": "/admin/#/collections/hodinari/entries/julius-hiemann",
+        "wordCount": 1
       },
       {
         "slug": "junghans",
         "title": "Junghans",
         "editUrl": "/admin/#/collections/hodinari/entries/junghans",
-        "wordCount": 84
+        "wordCount": 65
+      },
+      {
+        "slug": "kappa-orologi",
+        "title": "Kappa Orologi Industriali",
+        "editUrl": "/admin/#/collections/hodinari/entries/kappa-orologi",
+        "wordCount": 1
+      },
+      {
+        "slug": "kavalir",
+        "title": "Kavalír (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/kavalir",
+        "wordCount": 1
       },
       {
         "slug": "kohlert",
         "title": "Kohlert",
         "editUrl": "/admin/#/collections/hodinari/entries/kohlert",
-        "wordCount": 46
+        "wordCount": 40
+      },
+      {
+        "slug": "lenzkirch",
+        "title": "Lenzkirch (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/lenzkirch",
+        "wordCount": 1
+      },
+      {
+        "slug": "leopold-prokes",
+        "title": "Leopold Prokeš",
+        "editUrl": "/admin/#/collections/hodinari/entries/leopold-prokes",
+        "wordCount": 84
       },
       {
         "slug": "mannhardt",
         "title": "Mannhardt (firma)",
         "editUrl": "/admin/#/collections/hodinari/entries/mannhardt",
-        "wordCount": 95
+        "wordCount": 78
+      },
+      {
+        "slug": "martin-hruska",
+        "title": "Martin Hruška",
+        "editUrl": "/admin/#/collections/hodinari/entries/martin-hruska",
+        "wordCount": 171
+      },
+      {
+        "slug": "matthaus-hipp",
+        "title": "Matthäus Hipp",
+        "editUrl": "/admin/#/collections/hodinari/entries/matthaus-hipp",
+        "wordCount": 1
       },
       {
         "slug": "mauthe",
         "title": "Friedrich Mauthe",
         "editUrl": "/admin/#/collections/hodinari/entries/mauthe",
-        "wordCount": 179
+        "wordCount": 149
+      },
+      {
+        "slug": "meinberg",
+        "title": "Meinberg (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/meinberg",
+        "wordCount": 1
       },
       {
         "slug": "michael-christ",
         "title": "Michael Christ",
         "editUrl": "/admin/#/collections/hodinari/entries/michael-christ",
-        "wordCount": 121
+        "wordCount": 101
+      },
+      {
+        "slug": "miroslav-baudisch",
+        "title": "Miroslav Baudisch",
+        "editUrl": "/admin/#/collections/hodinari/entries/miroslav-baudisch",
+        "wordCount": 1
+      },
+      {
+        "slug": "miroslav-kotrba",
+        "title": "Miroslav Kotrba",
+        "editUrl": "/admin/#/collections/hodinari/entries/miroslav-kotrba",
+        "wordCount": 1
+      },
+      {
+        "slug": "mobatime",
+        "title": "Mobatime (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/mobatime",
+        "wordCount": 1
+      },
+      {
+        "slug": "papouch",
+        "title": "Papouch (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/papouch",
+        "wordCount": 1
       },
       {
         "slug": "paul-zieux",
         "title": "Paul Zieux",
         "editUrl": "/admin/#/collections/hodinari/entries/paul-zieux",
-        "wordCount": 55
+        "wordCount": 33
       },
       {
         "slug": "peter-fridrich",
         "title": "Peter Fridrich",
         "editUrl": "/admin/#/collections/hodinari/entries/peter-fridrich",
-        "wordCount": 59
+        "wordCount": 53
+      },
+      {
+        "slug": "petr-heinrich",
+        "title": "Petr Heinrich",
+        "editUrl": "/admin/#/collections/hodinari/entries/petr-heinrich",
+        "wordCount": 1
+      },
+      {
+        "slug": "petr-henlein",
+        "title": "Petr Henlein",
+        "editUrl": "/admin/#/collections/hodinari/entries/petr-henlein",
+        "wordCount": 1
+      },
+      {
+        "slug": "petr-kral",
+        "title": "Petr Král",
+        "editUrl": "/admin/#/collections/hodinari/entries/petr-kral",
+        "wordCount": 1
       },
       {
         "slug": "petr-skala",
         "title": "Petr Skála",
         "editUrl": "/admin/#/collections/hodinari/entries/petr-skala",
-        "wordCount": 183
+        "wordCount": 163
       },
       {
         "slug": "pragotron",
         "title": "Pragotron",
         "editUrl": "/admin/#/collections/hodinari/entries/pragotron",
-        "wordCount": 125
+        "wordCount": 119
       },
       {
         "slug": "richard-liebing",
         "title": "Richard Liebing",
         "editUrl": "/admin/#/collections/hodinari/entries/richard-liebing",
-        "wordCount": 81
+        "wordCount": 57
+      },
+      {
+        "slug": "rochlitz-firma",
+        "title": "Rochlitz (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/rochlitz-firma",
+        "wordCount": 1
+      },
+      {
+        "slug": "rod-balke",
+        "title": "Balke (rod pražských hodinářů)",
+        "editUrl": "/admin/#/collections/hodinari/entries/rod-balke",
+        "wordCount": 1
+      },
+      {
+        "slug": "rod-bisswanger",
+        "title": "Bisswangerové (rod pražských hodinářů)",
+        "editUrl": "/admin/#/collections/hodinari/entries/rod-bisswanger",
+        "wordCount": 1
+      },
+      {
+        "slug": "rod-engelschalck",
+        "title": "Engelschalckovi (rod pražských hodinářů)",
+        "editUrl": "/admin/#/collections/hodinari/entries/rod-engelschalck",
+        "wordCount": 1
+      },
+      {
+        "slug": "rod-treffler",
+        "title": "Trefflerovi (rod pražských hodinářů)",
+        "editUrl": "/admin/#/collections/hodinari/entries/rod-treffler",
+        "wordCount": 1
+      },
+      {
+        "slug": "schauer",
+        "title": "Schauer (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/schauer",
+        "wordCount": 1
       },
       {
         "slug": "solari-udine",
         "title": "Solari (Udine)",
         "editUrl": "/admin/#/collections/hodinari/entries/solari-udine",
-        "wordCount": 59
+        "wordCount": 53
       },
       {
-        "slug": "thondel",
-        "title": "Thöndel (firma)",
-        "editUrl": "/admin/#/collections/hodinari/entries/thondel",
-        "wordCount": 126
+        "slug": "spel",
+        "title": "Spel (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/spel",
+        "wordCount": 1
+      },
+      {
+        "slug": "thomas-fox",
+        "title": "Thomas Fox / Safe and Vault Company Ltd.",
+        "editUrl": "/admin/#/collections/hodinari/entries/thomas-fox",
+        "wordCount": 1
+      },
+      {
+        "slug": "thomas-tompion",
+        "title": "Thomas Tompion",
+        "editUrl": "/admin/#/collections/hodinari/entries/thomas-tompion",
+        "wordCount": 1
+      },
+      {
+        "slug": "vavrinec-frejlich",
+        "title": "Vavřinec Frejlich",
+        "editUrl": "/admin/#/collections/hodinari/entries/vavrinec-frejlich",
+        "wordCount": 109
+      },
+      {
+        "slug": "videnska-polytechnika",
+        "title": "Vídeňská polytechnika (dílna věžních hodin)",
+        "editUrl": "/admin/#/collections/hodinari/entries/videnska-polytechnika",
+        "wordCount": 80
+      },
+      {
+        "slug": "vlasta-filler",
+        "title": "Vlasta Filler",
+        "editUrl": "/admin/#/collections/hodinari/entries/vlasta-filler",
+        "wordCount": 1
+      },
+      {
+        "slug": "wagner",
+        "title": "Wagner (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/wagner",
+        "wordCount": 1
+      },
+      {
+        "slug": "zdenek-legner",
+        "title": "Zdeněk Legner",
+        "editUrl": "/admin/#/collections/hodinari/entries/zdenek-legner",
+        "wordCount": 1
+      },
+      {
+        "slug": "zenith",
+        "title": "Zenith",
+        "editUrl": "/admin/#/collections/hodinari/entries/zenith",
+        "wordCount": 1
       }
     ],
     "hodinariNoPortret": [
       {
-        "slug": "cenek-danek",
-        "title": "Čeněk Daněk",
-        "editUrl": "/admin/#/collections/hodinari/entries/cenek-danek"
+        "slug": "abraham-louis-breguet",
+        "title": "Abraham-Louis Bréguet",
+        "editUrl": "/admin/#/collections/hodinari/entries/abraham-louis-breguet"
+      },
+      {
+        "slug": "adolf-lange",
+        "title": "Ferdinand Adolf Lange",
+        "editUrl": "/admin/#/collections/hodinari/entries/adolf-lange"
+      },
+      {
+        "slug": "bernhard-zacharia",
+        "title": "Bernhard Zacharia (Thurmuhren Fabrik, Leipzig)",
+        "editUrl": "/admin/#/collections/hodinari/entries/bernhard-zacharia"
+      },
+      {
+        "slug": "bodet",
+        "title": "Bodet (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/bodet"
+      },
+      {
+        "slug": "bratri-brillie",
+        "title": "Bratři Brillié",
+        "editUrl": "/admin/#/collections/hodinari/entries/bratri-brillie"
+      },
+      {
+        "slug": "bulle-clock",
+        "title": "Bulle Clock Co. (Marcel Moulin / Maurice Favre-Bulle)",
+        "editUrl": "/admin/#/collections/hodinari/entries/bulle-clock"
+      },
+      {
+        "slug": "bulova",
+        "title": "Bulova",
+        "editUrl": "/admin/#/collections/hodinari/entries/bulova"
+      },
+      {
+        "slug": "christiaan-huygens",
+        "title": "Christiaan Huygens",
+        "editUrl": "/admin/#/collections/hodinari/entries/christiaan-huygens"
       },
       {
         "slug": "datumatic",
@@ -5171,9 +4285,29 @@
         "editUrl": "/admin/#/collections/hodinari/entries/datumatic"
       },
       {
+        "slug": "dondi",
+        "title": "Giovanni de Dondi (Astrarium)",
+        "editUrl": "/admin/#/collections/hodinari/entries/dondi"
+      },
+      {
+        "slug": "elekon",
+        "title": "Elekon (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/elekon"
+      },
+      {
         "slug": "elektrocas",
         "title": "Elektročas",
         "editUrl": "/admin/#/collections/hodinari/entries/elektrocas"
+      },
+      {
+        "slug": "ericsson",
+        "title": "Ericsson",
+        "editUrl": "/admin/#/collections/hodinari/entries/ericsson"
+      },
+      {
+        "slug": "eureka",
+        "title": "Eureka Clock Co. (Sir John Bennett)",
+        "editUrl": "/admin/#/collections/hodinari/entries/eureka"
       },
       {
         "slug": "ferdinand-landesberger",
@@ -5181,9 +4315,14 @@
         "editUrl": "/admin/#/collections/hodinari/entries/ferdinand-landesberger"
       },
       {
-        "slug": "frantisek-spatny",
-        "title": "František Špatný",
-        "editUrl": "/admin/#/collections/hodinari/entries/frantisek-spatny"
+        "slug": "frantisek-eisgruber",
+        "title": "František Eisgruber",
+        "editUrl": "/admin/#/collections/hodinari/entries/frantisek-eisgruber"
+      },
+      {
+        "slug": "frantisek-rebicek",
+        "title": "František Rebíček",
+        "editUrl": "/admin/#/collections/hodinari/entries/frantisek-rebicek"
       },
       {
         "slug": "frantisek-summerecker",
@@ -5201,9 +4340,34 @@
         "editUrl": "/admin/#/collections/hodinari/entries/friedrich-moritz-bassler"
       },
       {
+        "slug": "george-graham",
+        "title": "George Graham (Jiří Graham)",
+        "editUrl": "/admin/#/collections/hodinari/entries/george-graham"
+      },
+      {
+        "slug": "gustav-becker",
+        "title": "Gustav Becker",
+        "editUrl": "/admin/#/collections/hodinari/entries/gustav-becker"
+      },
+      {
         "slug": "hans-bechler",
         "title": "Hans Bechler z Magdeburku",
         "editUrl": "/admin/#/collections/hodinari/entries/hans-bechler"
+      },
+      {
+        "slug": "hans-pohl",
+        "title": "Hans Pohl",
+        "editUrl": "/admin/#/collections/hodinari/entries/hans-pohl"
+      },
+      {
+        "slug": "heinrich-alexander-luz",
+        "title": "Heinrich Alexander Luz",
+        "editUrl": "/admin/#/collections/hodinari/entries/heinrich-alexander-luz"
+      },
+      {
+        "slug": "hipp-favarger",
+        "title": "Hipp-Favarger (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/hipp-favarger"
       },
       {
         "slug": "hodinarska-rodina-manesova",
@@ -5211,14 +4375,29 @@
         "editUrl": "/admin/#/collections/hodinari/entries/hodinarska-rodina-manesova"
       },
       {
+        "slug": "jan-hejnal",
+        "title": "Jan Hejnal",
+        "editUrl": "/admin/#/collections/hodinari/entries/jan-hejnal"
+      },
+      {
         "slug": "jan-holub",
         "title": "Jan Holub",
         "editUrl": "/admin/#/collections/hodinari/entries/jan-holub"
       },
       {
-        "slug": "jan-prokes",
-        "title": "Jan Prokeš",
-        "editUrl": "/admin/#/collections/hodinari/entries/jan-prokes"
+        "slug": "jan-janata",
+        "title": "Jan Janata",
+        "editUrl": "/admin/#/collections/hodinari/entries/jan-janata"
+      },
+      {
+        "slug": "jan-marek",
+        "title": "Jan Marek",
+        "editUrl": "/admin/#/collections/hodinari/entries/jan-marek"
+      },
+      {
+        "slug": "jan-prokes-jr",
+        "title": "Jan Prokeš ml.",
+        "editUrl": "/admin/#/collections/hodinari/entries/jan-prokes-jr"
       },
       {
         "slug": "jednotny-cas",
@@ -5226,9 +4405,9 @@
         "editUrl": "/admin/#/collections/hodinari/entries/jednotny-cas"
       },
       {
-        "slug": "jindrich-spacil",
-        "title": "Jindřich Spáčil",
-        "editUrl": "/admin/#/collections/hodinari/entries/jindrich-spacil"
+        "slug": "johann-burk",
+        "title": "Johann Bürk",
+        "editUrl": "/admin/#/collections/hodinari/entries/johann-burk"
       },
       {
         "slug": "johann-lissner",
@@ -5236,14 +4415,14 @@
         "editUrl": "/admin/#/collections/hodinari/entries/johann-lissner"
       },
       {
+        "slug": "john-harrison",
+        "title": "John Harrison",
+        "editUrl": "/admin/#/collections/hodinari/entries/john-harrison"
+      },
+      {
         "slug": "josef-achrer",
         "title": "Josef Achrer",
         "editUrl": "/admin/#/collections/hodinari/entries/josef-achrer"
-      },
-      {
-        "slug": "josef-bozek",
-        "title": "Josef Božek",
-        "editUrl": "/admin/#/collections/hodinari/entries/josef-bozek"
       },
       {
         "slug": "josef-kosek",
@@ -5251,19 +4430,24 @@
         "editUrl": "/admin/#/collections/hodinari/entries/josef-kosek"
       },
       {
-        "slug": "joseph-winnerl",
-        "title": "Joseph Thaddeus Winnerl",
-        "editUrl": "/admin/#/collections/hodinari/entries/joseph-winnerl"
+        "slug": "josef-prokes",
+        "title": "Josef Prokeš",
+        "editUrl": "/admin/#/collections/hodinari/entries/josef-prokes"
       },
       {
-        "slug": "junghans",
-        "title": "Junghans",
-        "editUrl": "/admin/#/collections/hodinari/entries/junghans"
+        "slug": "julius-hiemann",
+        "title": "Julius Hiemann",
+        "editUrl": "/admin/#/collections/hodinari/entries/julius-hiemann"
       },
       {
-        "slug": "kienzle",
-        "title": "Kienzle",
-        "editUrl": "/admin/#/collections/hodinari/entries/kienzle"
+        "slug": "kappa-orologi",
+        "title": "Kappa Orologi Industriali",
+        "editUrl": "/admin/#/collections/hodinari/entries/kappa-orologi"
+      },
+      {
+        "slug": "kavalir",
+        "title": "Kavalír (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/kavalir"
       },
       {
         "slug": "kohlert",
@@ -5276,14 +4460,24 @@
         "editUrl": "/admin/#/collections/hodinari/entries/l-hainz"
       },
       {
-        "slug": "ludvik-hainz",
-        "title": "Ludvík Hainz I. (zakladatel firmy)",
-        "editUrl": "/admin/#/collections/hodinari/entries/ludvik-hainz"
+        "slug": "lenzkirch",
+        "title": "Lenzkirch (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/lenzkirch"
       },
       {
-        "slug": "mannhardt",
-        "title": "Mannhardt (firma)",
-        "editUrl": "/admin/#/collections/hodinari/entries/mannhardt"
+        "slug": "leopold-prokes",
+        "title": "Leopold Prokeš",
+        "editUrl": "/admin/#/collections/hodinari/entries/leopold-prokes"
+      },
+      {
+        "slug": "martin-hruska",
+        "title": "Martin Hruška",
+        "editUrl": "/admin/#/collections/hodinari/entries/martin-hruska"
+      },
+      {
+        "slug": "matthaus-hipp",
+        "title": "Matthäus Hipp",
+        "editUrl": "/admin/#/collections/hodinari/entries/matthaus-hipp"
       },
       {
         "slug": "mauthe",
@@ -5291,9 +4485,34 @@
         "editUrl": "/admin/#/collections/hodinari/entries/mauthe"
       },
       {
+        "slug": "meinberg",
+        "title": "Meinberg (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/meinberg"
+      },
+      {
         "slug": "michael-christ",
         "title": "Michael Christ",
         "editUrl": "/admin/#/collections/hodinari/entries/michael-christ"
+      },
+      {
+        "slug": "miroslav-baudisch",
+        "title": "Miroslav Baudisch",
+        "editUrl": "/admin/#/collections/hodinari/entries/miroslav-baudisch"
+      },
+      {
+        "slug": "miroslav-kotrba",
+        "title": "Miroslav Kotrba",
+        "editUrl": "/admin/#/collections/hodinari/entries/miroslav-kotrba"
+      },
+      {
+        "slug": "mobatime",
+        "title": "Mobatime (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/mobatime"
+      },
+      {
+        "slug": "papouch",
+        "title": "Papouch (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/papouch"
       },
       {
         "slug": "paul-zieux",
@@ -5301,9 +4520,34 @@
         "editUrl": "/admin/#/collections/hodinari/entries/paul-zieux"
       },
       {
+        "slug": "pavel-frejlich",
+        "title": "Pavel Frejlich z Litomyšle",
+        "editUrl": "/admin/#/collections/hodinari/entries/pavel-frejlich"
+      },
+      {
         "slug": "peter-fridrich",
         "title": "Peter Fridrich",
         "editUrl": "/admin/#/collections/hodinari/entries/peter-fridrich"
+      },
+      {
+        "slug": "petr-heinrich",
+        "title": "Petr Heinrich",
+        "editUrl": "/admin/#/collections/hodinari/entries/petr-heinrich"
+      },
+      {
+        "slug": "petr-henlein",
+        "title": "Petr Henlein",
+        "editUrl": "/admin/#/collections/hodinari/entries/petr-henlein"
+      },
+      {
+        "slug": "petr-kral",
+        "title": "Petr Král",
+        "editUrl": "/admin/#/collections/hodinari/entries/petr-kral"
+      },
+      {
+        "slug": "petr-neumann",
+        "title": "Petr Neumann",
+        "editUrl": "/admin/#/collections/hodinari/entries/petr-neumann"
       },
       {
         "slug": "petr-skala",
@@ -5321,14 +4565,39 @@
         "editUrl": "/admin/#/collections/hodinari/entries/richard-liebing"
       },
       {
+        "slug": "rochlitz-firma",
+        "title": "Rochlitz (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/rochlitz-firma"
+      },
+      {
+        "slug": "rod-balke",
+        "title": "Balke (rod pražských hodinářů)",
+        "editUrl": "/admin/#/collections/hodinari/entries/rod-balke"
+      },
+      {
+        "slug": "rod-bisswanger",
+        "title": "Bisswangerové (rod pražských hodinářů)",
+        "editUrl": "/admin/#/collections/hodinari/entries/rod-bisswanger"
+      },
+      {
+        "slug": "rod-engelschalck",
+        "title": "Engelschalckovi (rod pražských hodinářů)",
+        "editUrl": "/admin/#/collections/hodinari/entries/rod-engelschalck"
+      },
+      {
+        "slug": "rod-treffler",
+        "title": "Trefflerovi (rod pražských hodinářů)",
+        "editUrl": "/admin/#/collections/hodinari/entries/rod-treffler"
+      },
+      {
         "slug": "rodina-bellmann",
         "title": "Bellmannovi (rodina pražských zvonařů)",
         "editUrl": "/admin/#/collections/hodinari/entries/rodina-bellmann"
       },
       {
-        "slug": "romuald-bozek",
-        "title": "Romuald Božek",
-        "editUrl": "/admin/#/collections/hodinari/entries/romuald-bozek"
+        "slug": "schauer",
+        "title": "Schauer (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/schauer"
       },
       {
         "slug": "sebastian-landesberger",
@@ -5341,9 +4610,19 @@
         "editUrl": "/admin/#/collections/hodinari/entries/solari-udine"
       },
       {
-        "slug": "thondel",
-        "title": "Thöndel (firma)",
-        "editUrl": "/admin/#/collections/hodinari/entries/thondel"
+        "slug": "spel",
+        "title": "Spel (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/spel"
+      },
+      {
+        "slug": "thomas-fox",
+        "title": "Thomas Fox / Safe and Vault Company Ltd.",
+        "editUrl": "/admin/#/collections/hodinari/entries/thomas-fox"
+      },
+      {
+        "slug": "thomas-tompion",
+        "title": "Thomas Tompion",
+        "editUrl": "/admin/#/collections/hodinari/entries/thomas-tompion"
       },
       {
         "slug": "vaclav-krecmer",
@@ -5351,9 +4630,39 @@
         "editUrl": "/admin/#/collections/hodinari/entries/vaclav-krecmer"
       },
       {
+        "slug": "vavrinec-frejlich",
+        "title": "Vavřinec Frejlich",
+        "editUrl": "/admin/#/collections/hodinari/entries/vavrinec-frejlich"
+      },
+      {
+        "slug": "videnska-polytechnika",
+        "title": "Vídeňská polytechnika (dílna věžních hodin)",
+        "editUrl": "/admin/#/collections/hodinari/entries/videnska-polytechnika"
+      },
+      {
+        "slug": "vlasta-filler",
+        "title": "Vlasta Filler",
+        "editUrl": "/admin/#/collections/hodinari/entries/vlasta-filler"
+      },
+      {
+        "slug": "wagner",
+        "title": "Wagner (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/wagner"
+      },
+      {
         "slug": "wenzel-mellner",
         "title": "Wenzel Mellner",
         "editUrl": "/admin/#/collections/hodinari/entries/wenzel-mellner"
+      },
+      {
+        "slug": "zdenek-legner",
+        "title": "Zdeněk Legner",
+        "editUrl": "/admin/#/collections/hodinari/entries/zdenek-legner"
+      },
+      {
+        "slug": "zenith",
+        "title": "Zenith",
+        "editUrl": "/admin/#/collections/hodinari/entries/zenith"
       }
     ],
     "duplicates": []

@@ -35,6 +35,18 @@ display_url: 'https://hodinarium-eu.pages.dev'
 
 # === Společné typy referencí (žijí v references[] napříč collections) ===
 # YAML anchor pro znovupoužití
+_editor_notes_field: &editor_notes_field
+  name: editorNotes
+  label: 'Editorské poznámky (interní)'
+  widget: list
+  required: false
+  hint: 'Viditelné jen po přihlášení editora. TODO, varování o nejistotě, kontext k článku.'
+  fields:
+    - { name: level, label: 'Úroveň', widget: select, options: [info, warn, todo], default: info }
+    - { name: title, label: 'Titulek (volitelný)', widget: string, required: false }
+    - { name: text, label: 'Text', widget: text, required: true }
+    - { name: noteKey, label: 'Klíč (pro resolve)', widget: string, required: false, hint: 'Volitelný identifikátor: hellich-stub, manual-edit-false, hodinar-stub, …' }
+
 _reference_fields: &reference_fields
   - { name: title, label: 'Název', widget: string, required: true }
   - { name: url, label: 'URL', widget: string, required: false, hint: 'Volitelný odkaz' }
@@ -97,6 +109,7 @@ collections:
         required: false
         default: bullet
         options: [bullet, numbered]
+      - <<: *editor_notes_field
       - { name: ogImage, label: 'OG obrázek (override)', widget: image, required: false, hint: 'Default = /og/<slug>.png; vlastní cesta /img/...' }
       - { name: thumbnail, label: 'Thumbnail (atlas/katalog)', widget: image, required: false }
       - name: relatedKarty
@@ -371,6 +384,7 @@ collections:
         widget: list
         required: false
         fields: *reference_fields
+      - <<: *editor_notes_field
       - { name: originalUrl, label: 'Original URL', widget: hidden }
       - { name: body, label: 'Tělo záznamu', widget: markdown }
 
@@ -411,6 +425,7 @@ collections:
         widget: list
         required: false
         fields: *reference_fields
+      - <<: *editor_notes_field
       - { name: body, label: 'Plný text medailonu', widget: markdown, required: false, hint: 'MDX — můžeš použít komponenty jako <Photo>.' }
 
   # ── 5) Spolkové stránky (horologie-cz) ──

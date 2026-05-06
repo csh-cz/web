@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import EditorNotesBlock from '../../../components/EditorNotesBlock.astro';
 import JsonLd from '../../../components/JsonLd.astro';
 import KartaSbirky from '../../../components/KartaSbirky.astro';
 import ArticleImageBehavior from '../../../components/ArticleImageBehavior.astro';
@@ -95,6 +96,8 @@ const kartaJsonLd = {
     </header>
 
     {entry.data.karta && <KartaSbirky karta={entry.data.karta} />}
+
+    <EditorNotesBlock notes={entry.data.editorNotes} sourceFile={`content/hodinarium-eu/${entry.id}.md`} />
 
     {komponenty.length > 0 && (
       <aside class="komplet" aria-labelledby="komplet-h">
