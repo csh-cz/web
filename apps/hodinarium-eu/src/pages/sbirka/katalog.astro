@@ -1,9 +1,10 @@
 ---
 import Base from '../../layouts/Base.astro';
 import soupis from '../../data/soupis-exponatu.json';
-import { readdirSync } from 'node:fs';
+import { readdirSync, readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { hodinari } from '../../data/hodinari';
 
 interface Exponat {
   invCislo: string;
@@ -33,18 +34,56 @@ function kartaSlug(e: Exponat): string {
 }
 
 // Detekce existujících inv-* karet ve content/hodinarium-eu/
-// (32 fuzzy konfliktů z generátoru NEbylo zapsáno — ty zůstávají plain text)
+// + extract karta.vyrobce z frontmatteru pro Hodinář/Výrobce sloupec
 const __filename = fileURLToPath(import.meta.url);
 const CONTENT_DIR = join(dirname(__filename), '..', '..', '..', '..', '..', 'content', 'hodinarium-eu');
 let existingKarty: Set<string>;
+const vyrobceMap = new Map<string, string>();
 try {
-  existingKarty = new Set(
-    readdirSync(CONTENT_DIR)
-      .filter((f) => f.startsWith('inv-') && (f.endsWith('.md') || f.endsWith('.mdx')))
-      .map((f) => f.replace(/\.(md|mdx)$/, ''))
-  );
+  const files = readdirSync(CONTENT_DIR)
+    .filter((f) => f.startsWith('inv-') && (f.endsWith('.md') || f.endsWith('.mdx')));
+  existingKarty = new Set(files.map((f) => f.replace(/\.(md|mdx)$/, '')));
+  // Naïve YAML extract: hledáme řádek `  vyrobce: ...` v karta: bloku.
+  // Pro 290 souborů to je rychlé i bez full YAML parseru.
+  for (const f of files) {
+    try {
+      const txt = readFileSync(join(CONTENT_DIR, f), 'utf8');
+      const fmM = txt.match(/^---\n([\s\S]*?)\n---\n/);
+      if (!fmM) continue;
+      // Najdi karta: blok a v něm vyrobce: line
+      const kartaM = fmM[1].match(/^karta:\s*\n((?:  \w+:[^\n]*\n)+)/m);
+      if (!kartaM) continue;
+      const vM = kartaM[1].match(/^  vyrobce:\s*["']?([^"'\n]+)["']?\s*$/m);
+      if (vM) {
+        const slug = f.replace(/\.(md|mdx)$/, '');
+        vyrobceMap.set(slug, vM[1].trim());
+      }
+    } catch { /* skip */ }
+  }
 } catch {
   existingKarty = new Set();
+}
+
+// Map vyrobce → hodinář slug pro link na medailon (pokud match je)
+const hodinariCandidates: Array<{ needle: string; slug: string; jmeno: string }> = [];
+for (const h of hodinari) {
+  // jmeno + aliasy, deduplikované
+  const variants = new Set<string>([h.jmeno, ...(h.aliasy ?? [])]);
+  for (const v of variants) {
+    hodinariCandidates.push({ needle: v.toLowerCase().normalize('NFC'), slug: h.slug, jmeno: h.jmeno });
+  }
+}
+hodinariCandidates.sort((a, b) => b.needle.length - a.needle.length);
+
+function findHodinarSlug(vyrobce: string): { slug: string; jmeno: string } | null {
+  if (!vyrobce) return null;
+  const hay = vyrobce.toLowerCase().normalize('NFC');
+  for (const c of hodinariCandidates) {
+    if (c.needle.length >= 3 && hay.includes(c.needle)) {
+      return { slug: c.slug, jmeno: c.jmeno };
+    }
+  }
+  return null;
 }
 
 // Group by lokace, preserve order
@@ -100,6 +139,22 @@ for (const i of items) {
   stavCounts[k] = (stavCounts[k] ?? 0) + 1;
 }
 const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
+
+// Counter per typ + per vyrobce — jen ty, které mají alespoň 2 výskyty,
+// ostatní spadnou pod "ostatní" pro filter chip ekonomii.
+const typCounts: Record<string, number> = {};
+const vyrobceCounts: Record<string, number> = {};
+for (const i of items) {
+  if (i.typ) typCounts[i.typ] = (typCounts[i.typ] ?? 0) + 1;
+  const v = vyrobceMap.get(kartaSlug(i));
+  if (v) vyrobceCounts[v] = (vyrobceCounts[v] ?? 0) + 1;
+}
+const typOpts = Object.entries(typCounts)
+  .filter(([, n]) => n >= 2)
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'cs'))
+  .slice(0, 12);
+const vyrobceOpts = Object.entries(vyrobceCounts)
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'cs'));
 ---
 <Base
   title="Katalog sbírkových předmětů"
@@ -138,22 +193,74 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
       aria-label="Hledat v katalogu"
       data-katalog-search
     />
-    <div class="katalog-filter" role="group" aria-label="Filtr podle umístění">
-      <label class="filter-chip filter-chip-all">
-        <input type="checkbox" checked data-filter-all />
-        <span class="chip-dot" aria-hidden="true"></span>
-        <span class="chip-label">Vše</span>
-        <span class="chip-count">{items.length}</span>
-      </label>
-      {[...byLokace.entries()].filter(([, list]) => list.length > 0).map(([code, list]) => (
-        <label class="filter-chip">
-          <input type="checkbox" checked data-filter-lokace={code} />
+
+    <details class="katalog-filter-group" open>
+      <summary>Umístění <span class="muted">({[...byLokace.entries()].filter(([, l]) => l.length > 0).length})</span></summary>
+      <div class="katalog-filter" role="group" aria-label="Filtr podle umístění">
+        <label class="filter-chip filter-chip-all">
+          <input type="checkbox" checked data-filter-all />
           <span class="chip-dot" aria-hidden="true"></span>
-          <span class="chip-label">{lokaceLabels[code] ?? code}</span>
-          <span class="chip-count">{list.length}</span>
+          <span class="chip-label">Vše</span>
+          <span class="chip-count">{items.length}</span>
         </label>
-      ))}
-    </div>
+        {[...byLokace.entries()].filter(([, list]) => list.length > 0).map(([code, list]) => (
+          <label class="filter-chip">
+            <input type="checkbox" checked data-filter-lokace={code} />
+            <span class="chip-dot" aria-hidden="true"></span>
+            <span class="chip-label">{lokaceLabels[code] ?? code}</span>
+            <span class="chip-count">{list.length}</span>
+          </label>
+        ))}
+      </div>
+    </details>
+
+    {vyrobceOpts.length > 0 && (
+      <details class="katalog-filter-group">
+        <summary>Hodinář / Výrobce <span class="muted">({vyrobceOpts.length})</span></summary>
+        <div class="katalog-filter" role="group" aria-label="Filtr podle výrobce">
+          {vyrobceOpts.map(([v, n]) => (
+            <label class="filter-chip">
+              <input type="checkbox" data-filter-vyrobce={v} />
+              <span class="chip-dot" aria-hidden="true"></span>
+              <span class="chip-label">{v}</span>
+              <span class="chip-count">{n}</span>
+            </label>
+          ))}
+        </div>
+      </details>
+    )}
+
+    {typOpts.length > 0 && (
+      <details class="katalog-filter-group">
+        <summary>Typ <span class="muted">({typOpts.length})</span></summary>
+        <div class="katalog-filter" role="group" aria-label="Filtr podle typu">
+          {typOpts.map(([t, n]) => (
+            <label class="filter-chip">
+              <input type="checkbox" data-filter-typ={t} />
+              <span class="chip-dot" aria-hidden="true"></span>
+              <span class="chip-label">{t}</span>
+              <span class="chip-count">{n}</span>
+            </label>
+          ))}
+        </div>
+      </details>
+    )}
+
+    <details class="katalog-filter-group">
+      <summary>Stav <span class="muted">({stavOrder.filter((s) => stavCounts[s]).length})</span></summary>
+      <div class="katalog-filter" role="group" aria-label="Filtr podle stavu">
+        {stavOrder.filter((s) => stavCounts[s]).map((s) => (
+          <label class="filter-chip">
+            <input type="checkbox" data-filter-stav={s} />
+            <span class="chip-dot" aria-hidden="true"></span>
+            <span class="chip-label">{s === '—' ? 'bez stavu' : s}</span>
+            <span class="chip-count">{stavCounts[s]}</span>
+          </label>
+        ))}
+      </div>
+    </details>
+
+    <p class="filter-summary"><span data-filter-count>{items.length}</span> z {items.length} exponátů <button type="button" id="katalog-reset" class="filter-reset">↺ Reset filtrů</button></p>
   </div>
 
   {[...byLokace.entries()].filter(([, list]) => list.length > 0).map(([code, list]) => (
@@ -166,6 +273,7 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
         <div class="katalog-row katalog-head" role="row">
           <span role="columnheader">Inv. č.</span>
           <span role="columnheader">Popis</span>
+          <span role="columnheader">Hodinář / výrobce</span>
           <span role="columnheader">Typ</span>
           <span role="columnheader">Stav</span>
           <span role="columnheader">Vztah</span>
@@ -173,7 +281,9 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
         {list.map((e) => {
           const slug = kartaSlug(e);
           const hasKarta = existingKarty.has(slug);
-          const dataSearch = `${e.popis} ${e.typ} ${e.invCislo}`.toLowerCase();
+          const vyrobce = vyrobceMap.get(slug) || '';
+          const hodinarLink = vyrobce ? findHodinarSlug(vyrobce) : null;
+          const dataSearch = `${e.popis} ${e.typ} ${e.invCislo} ${vyrobce}`.toLowerCase();
           const inner = (
             <>
               <span class="katalog-inv" role="cell">{e.invCislo}</span>
@@ -181,17 +291,32 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
                 <strong>{e.popis}</strong>
                 {e.poznamka && <span class="katalog-pozn"> — {e.poznamka}</span>}
               </span>
+              <span class="katalog-vyrobce" role="cell">
+                {vyrobce ? (
+                  hodinarLink ? (
+                    <a href={`/hodinari/${hodinarLink.slug}`} class="vyrobce-link" data-stop-row-link>{vyrobce}</a>
+                  ) : (
+                    <span>{vyrobce}</span>
+                  )
+                ) : <span class="muted">—</span>}
+              </span>
               <span class="katalog-typ" role="cell">{e.typ || '—'}</span>
               <span class="katalog-stav" role="cell">{e.stav || '—'}</span>
               <span class="katalog-vztah" role="cell">{e.vztah || '—'}</span>
             </>
           );
+          const dataAttrs = {
+            'data-search': dataSearch,
+            'data-vyrobce': vyrobce,
+            'data-typ': e.typ || '',
+            'data-stav': e.stav || '—',
+          };
           return hasKarta ? (
-            <a href={`/sbirka/karta/${slug}/`} class="katalog-row katalog-row-link" role="row" data-search={dataSearch}>
+            <div class="katalog-row katalog-row-link" role="row" data-href={`/sbirka/karta/${slug}/`} {...dataAttrs}>
               {inner}
-            </a>
+            </div>
           ) : (
-            <div class="katalog-row" role="row" data-search={dataSearch}>
+            <div class="katalog-row" role="row" {...dataAttrs}>
               {inner}
             </div>
           );
@@ -344,7 +469,7 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
   }
   .katalog-row {
     display: grid;
-    grid-template-columns: 60px 2fr 1fr 1fr 1fr;
+    grid-template-columns: 50px 2fr 1.4fr 1fr 0.9fr 0.9fr;
     gap: 0.75rem;
     padding: 0.5rem 0.85rem;
     align-items: baseline;
@@ -391,8 +516,75 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
     font-style: italic;
     font-size: 0.85em;
   }
-  .katalog-typ, .katalog-stav, .katalog-vztah {
+  .katalog-typ, .katalog-stav, .katalog-vztah, .katalog-vyrobce {
     color: var(--color-text-soft);
+  }
+  .katalog-vyrobce {
+    font-style: italic;
+  }
+  .vyrobce-link {
+    color: var(--color-copper);
+    text-decoration: none;
+    border-bottom: 1px dotted color-mix(in srgb, var(--color-copper) 50%, transparent);
+  }
+  .vyrobce-link:hover {
+    color: var(--color-brass-bright);
+    border-bottom-color: var(--color-brass-bright);
+  }
+
+  /* Filter group (collapsible details) */
+  .katalog-filter-group {
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+  }
+  .katalog-filter-group summary {
+    padding: 0.5rem 0.85rem;
+    font-family: var(--font-serif);
+    font-size: 0.88rem;
+    color: var(--color-brass-bright);
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+  }
+  .katalog-filter-group summary::-webkit-details-marker { display: none; }
+  .katalog-filter-group summary::before {
+    content: '▸';
+    display: inline-block;
+    margin-right: 0.4em;
+    transition: transform 150ms ease;
+    color: var(--color-copper);
+  }
+  .katalog-filter-group[open] summary::before { transform: rotate(90deg); }
+  .katalog-filter-group .katalog-filter {
+    border: 0;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 12%, transparent);
+    border-radius: 0;
+    padding: 0.7rem 0.85rem 0.85rem;
+  }
+  .filter-summary {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+    font-style: italic;
+    display: flex;
+    gap: 0.85rem;
+    align-items: center;
+  }
+  .filter-reset {
+    padding: 0.25rem 0.6rem;
+    background: transparent;
+    color: var(--color-text-soft);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    font: inherit;
+    font-style: normal;
+    cursor: pointer;
+    font-size: 0.78rem;
+  }
+  .filter-reset:hover {
+    color: var(--color-brass-bright);
+    border-color: var(--color-brass-bright);
   }
 
   @media (max-width: 800px) {
@@ -402,10 +594,11 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
       padding: 0.65rem 0.75rem;
     }
     .katalog-head { display: none; }
-    .katalog-typ, .katalog-stav, .katalog-vztah {
+    .katalog-typ, .katalog-stav, .katalog-vztah, .katalog-vyrobce {
       grid-column: 2;
       font-size: 0.78rem;
     }
+    .katalog-vyrobce::before { content: 'Hodinář: '; color: var(--color-text-muted); font-style: normal; }
     .katalog-typ::before { content: 'Typ: '; color: var(--color-text-muted); }
     .katalog-stav::before { content: 'Stav: '; color: var(--color-text-muted); }
     .katalog-vztah::before { content: 'Vztah: '; color: var(--color-text-muted); }
@@ -413,48 +606,98 @@ const stavOrder = ['funkční', 'polofunkční', 'nefunkční', 'torzo', '—'];
 </style>
 
 <script is:inline>
-  // Filter chips per lokace + search input — client-side row visibility
+  // Filtry: search + lokace + vyrobce + typ + stav.
+  // Logic: AND across kategorií, OR uvnitř kategorie.
+  // Když ŽÁDNÝ chip není zaškrtnutý v dané kategorii (vyrobce/typ/stav),
+  // kategorie se nepoužije (= všechno projde — equivalent "vše").
+  // U lokace je default "vše checked"; AND nad ostatními zůstává.
   const search = document.querySelector('[data-katalog-search]');
-  const chips = document.querySelectorAll('[data-filter-lokace]');
+  const chipsLokace = document.querySelectorAll('[data-filter-lokace]');
+  const chipsVyrobce = document.querySelectorAll('[data-filter-vyrobce]');
+  const chipsTyp = document.querySelectorAll('[data-filter-typ]');
+  const chipsStav = document.querySelectorAll('[data-filter-stav]');
   const allChip = document.querySelector('[data-filter-all]');
   const sections = document.querySelectorAll('[data-lokace-section]');
+  const $count = document.querySelector('[data-filter-count]');
+  const $reset = document.getElementById('katalog-reset');
 
   function syncAllState() {
     if (!allChip) return;
-    const total = chips.length;
+    const total = chipsLokace.length;
     let on = 0;
-    for (const cb of chips) if (cb.checked) on++;
+    for (const cb of chipsLokace) if (cb.checked) on++;
     allChip.checked = on === total;
     allChip.indeterminate = on > 0 && on < total;
   }
 
+  function activeSet(chips, attr) {
+    const s = new Set();
+    for (const cb of chips) if (cb.checked) s.add(cb.dataset[attr]);
+    return s;
+  }
+
   function refresh() {
     const q = (search?.value || '').toLowerCase().trim();
-    const enabled = new Set();
-    for (const cb of chips) if (cb.checked) enabled.add(cb.dataset.filterLokace);
+    const enabledLokace = activeSet(chipsLokace, 'filterLokace');
+    const enabledVyrobce = activeSet(chipsVyrobce, 'filterVyrobce');
+    const enabledTyp = activeSet(chipsTyp, 'filterTyp');
+    const enabledStav = activeSet(chipsStav, 'filterStav');
+
+    let total = 0;
     for (const sec of sections) {
       const lokace = sec.dataset.lokaceSection;
-      const sectionVisible = enabled.has(lokace);
+      const lokaceOk = enabledLokace.has(lokace);
       let anyMatch = false;
       const rows = sec.querySelectorAll('.katalog-row:not(.katalog-head)');
       for (const r of rows) {
         const txt = r.dataset.search || '';
-        const match = !q || txt.includes(q);
-        const visible = sectionVisible && match;
+        const matchSearch = !q || txt.includes(q);
+        const matchVyrobce = enabledVyrobce.size === 0 || enabledVyrobce.has(r.dataset.vyrobce || '');
+        const matchTyp = enabledTyp.size === 0 || enabledTyp.has(r.dataset.typ || '');
+        const matchStav = enabledStav.size === 0 || enabledStav.has(r.dataset.stav || '—');
+        const visible = lokaceOk && matchSearch && matchVyrobce && matchTyp && matchStav;
         r.classList.toggle('katalog-hidden', !visible);
-        if (visible) anyMatch = true;
+        if (visible) { anyMatch = true; total++; }
       }
-      // Hide whole section if no rows match
       sec.style.display = anyMatch ? '' : 'none';
     }
+    if ($count) $count.textContent = String(total);
     syncAllState();
   }
+
+  function resetAll() {
+    if (search) search.value = '';
+    for (const cb of chipsLokace) cb.checked = true;
+    for (const cb of chipsVyrobce) cb.checked = false;
+    for (const cb of chipsTyp) cb.checked = false;
+    for (const cb of chipsStav) cb.checked = false;
+    refresh();
+  }
+
   search?.addEventListener('input', refresh);
-  for (const cb of chips) cb.addEventListener('change', refresh);
+  for (const cb of [...chipsLokace, ...chipsVyrobce, ...chipsTyp, ...chipsStav]) {
+    cb.addEventListener('change', refresh);
+  }
   allChip?.addEventListener('change', () => {
     const target = allChip.checked;
-    for (const cb of chips) cb.checked = target;
+    for (const cb of chipsLokace) cb.checked = target;
     refresh();
   });
+  $reset?.addEventListener('click', resetAll);
   syncAllState();
+
+  // Row click → navigate to karta. Skip pokud klik byl na <a> uvnitř (vyrobce link).
+  document.querySelectorAll('.katalog-row-link').forEach((row) => {
+    row.addEventListener('click', (e) => {
+      if (e.target instanceof HTMLAnchorElement) return;  // klik na vyrobce <a> — projde sám
+      const href = row.getAttribute('data-href');
+      if (!href) return;
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) {
+        window.open(href, '_blank');
+      } else {
+        window.location.href = href;
+      }
+    });
+    row.style.cursor = 'pointer';
+  });
 </script>
