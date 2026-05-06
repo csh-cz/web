@@ -83,6 +83,7 @@ export const hodinari: Hodinar[] = [
       'decin_koncepce',
       'inv-2-vezni-prokes-1868-soubor',
       'inv-32-vezni-skalice',
+      'kinsner-astronomicke-hodiny',
       'mapa',
       'ohlednuti2011',
       'sezona2013',
@@ -101,7 +102,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Německý podnikatel a mechanik z Württemberska, vyučený hodinář. Od roku 1821 ředitel strojírny ve Šlapanicích u Brna, později přemístěné do Brna — předchůdce První brněnské strojírny. Od roku 1834 vyráběl celolitinové věžní hodiny ve dvou variantách (osmidenní a denní) za 100 zl. — méně než polovina ceny běžných vesnických hodin. Dochovaný exemplář ve Vanovicích u Blanska (evangelický kostel).',
-    relatedSlugs: [],
+    relatedSlugs: ['litinove-vezni-hodiny'],
     era: '19stol',
   },
   {
@@ -114,7 +115,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Český matematik, fyzik a inženýr, jeden ze zakladatelů a první ředitel **Pražské polytechniky** (předchůdce ČVUT). Spolupracoval s hrabětem [Rudolfem von Wrbnou](/) na rozvoji metalurgie v Komárovských železárnách a v roce 1809 spolu s mechanikem [Josefem Božkem](/hodinari/josef-bozek) navrhl celolitinové věžní hodiny pro sériovou výrobu. Dochovaný exemplář na hradu Křivoklát (1817).',
-    relatedSlugs: [],
+    relatedSlugs: ['litinove-vezni-hodiny'],
     era: 'baroko',
   },
   {
@@ -348,7 +349,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Pražská firma zabývající se prodejem, pronájmem a instalací elektrických hodinových sítí. Po roce 1949 byla rozšířena o zestátněnou výrobu L. Hainz a stala se předchůdcem podniku Elektročas.',
-    relatedSlugs: ['decin_jednotny_cas', 'jednotnycas', 'mapa'],
+    relatedSlugs: ['decin_jednotny_cas', 'jednotnycas', 'mapa', 'panel-2-maticni-elektrocas'],
     era: '20stol',
   },
   {
@@ -370,14 +371,24 @@ export const hodinari: Hodinar[] = [
       'decin_regulaceIBM',
       'decin_vypousteny',
       'elektrina-ve-sluzbach-casu',
+      'inv-194-podruzny-stroj-elektrocas-maly',
+      'inv-227-podruzny-stroj-elektrocas-maly',
+      'inv-253-zavesne-elektrocas-oboustranne',
+      'inv-262-pichacky-elektrocas-dk6',
+      'inv-263-pichacky-elektrocas-dk1',
+      'inv-274-pichacky-elektrocas-dk6',
       'inv-37-bici-stroj-brillie',
+      'inv-41-hodiny-achrer',
       'inv-50-podruzne-vezni-vh1-elektrocas',
       'inv-51-podruzne-vezni-elektrocas',
       'inv-66-cimbal-s-odbijenim',
+      'inv-94-maticni-elektrocas',
       'jednotnycas',
       'kvetinovehodiny_NMnM',
       'mapa',
       'panel-2-maticni-elektrocas',
+      'panel-4-pragotron',
+      'panel-5-dcf-gps-ntp',
       'pichacky',
       'synchronizace_hodin',
       'tabor',
@@ -411,6 +422,7 @@ export const hodinari: Hodinar[] = [
       'inv-270-pragotron-c301',
       'jednotnycas',
       'mapa',
+      'panel-2-maticni-elektrocas',
       'panel-4-pragotron',
       'pichacky',
       'pragotron1',
@@ -457,6 +469,7 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: [
       'ATO',
       'elektricke1',
+      'inv-151-bateriove-junghans-ato-mat',
       'lenzkirch',
       'pneumatika',
       'synchronizace_hodin',
@@ -512,7 +525,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Současný restaurátor věžních hodin. Doložené práce: Jeníšovice u Turnova (Prokeš 1882, restaurováno 2017), Křivoklát (Fürstenbergské železárny 1817, restaurováno 2018), Bošín — evangelický kostel (Prokeš 1887, restaurováno 2020). Pokoušel se také o sestavení rozebraného stroje v kapli zámku Karlova Koruna v Chlumci nad Cidlinou (pokus nedokončen, dle osobní komunikace P. Skály 2026).',
-    relatedSlugs: [],
+    relatedSlugs: ['janovice', 'litinove-vezni-hodiny'],
     era: 'soucasnost',
   },
   {
@@ -564,7 +577,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'IT',
     shrnuti:
       'Italský fyzik, astronom a hodinář padovsko-paviánský. V letech 1348–1364 sestrojil **Astrarium** — sofistikovaný astronomický stroj s 7 ciferníky znázorňujícími pohyb Slunce, Měsíce a 5 tehdy známých planet po Ptolemaiově modelu, plus kalendář s pohyblivými svátky. Astrarium je doloženo Dondiho vlastním rukopisem *Tractatus astrarii* (cca 1364), nejstarším podrobným popisem mechanického astronomického stroje vůbec. Originál se nedochoval; několik historických rekonstrukcí (Smithsonian, IBM, Beverwijk).',
-    relatedSlugs: [],
+    relatedSlugs: ['kinsner-astronomicke-hodiny', 'muzeum_beyer_zurich'],
     era: 'baroko',
   },
 
@@ -582,6 +595,7 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: [
       'bychory_prokes1',
       'decin_velika_ves',
+      'litinove-vezni-hodiny',
       'podebrady2',
       'podebrady3',
       'synchronizace_hodin',
@@ -613,7 +627,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Mechanik pražského Polytechnického ústavu pod vedením F. J. Gerstnera. Vyrobil přes 40 různých modelů hodinových kroků a několik vlastních nových konstrukcí. V roce 1810 vedl průkopnický evropský pokus o sériovou výrobu litinových věžních hodin v komárovských železárnách. Otec Romualda Božka.',
-    relatedSlugs: [],
+    relatedSlugs: ['kinsner-astronomicke-hodiny', 'litinove-vezni-hodiny'],
     era: '19stol',
   },
   {
@@ -717,7 +731,12 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Hodinář působící ve druhé polovině 19. století v Mikulášovicích (něm. Nixdorf) na Šluknovsku. Pravděpodobný autor věžních hodin pro mikulášovickou školu (1881) a pro Severní (Hilgersdorf) v okrese Děčín. Jeho stroje se vyznačují masivní konstrukcí s Grahamovým krokem, dřevěnou kyvadlovou tyčí a litinovou čočkou.',
-    relatedSlugs: ['inv-33-vezni-lexa'],
+    relatedSlugs: [
+      'inv-11-vezni-torzo',
+      'inv-26-vezni-jirkostroj',
+      'inv-33-vezni-lexa',
+      'inv-67-vezni-lissner',
+    ],
     era: '19stol',
   },
   {
@@ -743,7 +762,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Český hodinář a vynálezce z Chlumce nad Cidlinou, žák [Jana Prokeše](/hodinari/jan-prokes). Specializoval se na patentované astronomické orloje. Uspěl na Národopisné výstavě 1895 a na vídeňské průmyslové výstavě 1897. Jeden z jeho salónních orlojů byl umístěn ve studovně prezídia rakouské říšské rady ve Vídni.',
-    relatedSlugs: [],
+    relatedSlugs: ['kinsner-astronomicke-hodiny'],
     era: '19stol',
   },
   {
@@ -821,7 +840,12 @@ export const hodinari: Hodinar[] = [
     zeme: 'IT',
     shrnuti:
       'Italská firma specializovaná na výrobu **přesných hodinových systémů jednotného času**, zejména pro **námořní a průmyslové použití**. Vyráběla master-slave hodiny — hlavní hodiny synchronizovaly desítky až stovky podružných hodin po celé lodi nebo továrně. Výrobky byly robustní, odolné vůči vlhkosti, vibracím a teplotním změnám. V Hodináriu Děčín jsou exempláře námořních hodin firmy Kappa.',
-    relatedSlugs: ['Kappa', 'synchronizace_hodin'],
+    relatedSlugs: [
+      'Kappa',
+      'inv-139-lodni-hodiny-kappa',
+      'panel-5-dcf-gps-ntp',
+      'synchronizace_hodin',
+    ],
     era: '20stol',
   },
   {
@@ -847,7 +871,20 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Současný český restaurátor věžních hodin a člen Českého spolku horologického. Autor řady restaurátorských zpráv a fotografií ze sbírky Hodinária Děčín; provedl restaurování několika exponátů včetně pérového stroje Spáčil ([inv. 28](/sbirka/karta/inv-28-vezni-se-setrvackou/)) a dalších kusů z akvizic 2015–2025.',
-    relatedSlugs: ['akvizice-2015-2025', 'inv-28-vezni-se-setrvackou'],
+    relatedSlugs: [
+      'akvizice-2015-2025',
+      'datumatik',
+      'decin_koncepce',
+      'decin_velika_ves',
+      'inv-28-vezni-se-setrvackou',
+      'panel-1-hipp-wagner-brillie',
+      'panel-2-maticni-elektrocas',
+      'panel-3-laplace-tn-burk',
+      'panel-4-pragotron',
+      'panel-5-dcf-gps-ntp',
+      'podruzne_sekundove',
+      'vez_Prysk',
+    ],
     era: 'soucasnost',
   },
 
@@ -862,7 +899,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'DE',
     shrnuti:
       'Saský hodinář z Lipska, výrobce věžních hodin v 2. polovině 19. století. Jeho stroj z roku 1884 je v Hodináriu Děčín ([inv. 1](/sbirka/karta/inv-1-vezni-hiemann-1884/)) — byl zakoupen evangelickým kostelem v Děčíně-Podmoklech a sloužil tam až do osmdesátých let 20. století.',
-    relatedSlugs: ['inv-1-vezni-hiemann-1884'],
+    relatedSlugs: ['decin_koncepce', 'inv-1-vezni-hiemann-1884', 'vez_decin'],
     era: '19stol',
   },
   {
@@ -875,7 +912,13 @@ export const hodinari: Hodinar[] = [
     zeme: 'CH',
     shrnuti:
       'Würtemberský hodinář a elektromechanik (1813–1893), od 1860 v Neuchâtelu (Švýcarsko). Vynálezce **Hippova přerušovače** (kolem 1850) — spolehlivého mechanického kontaktu pro přesné kyvadlové hodiny řízené elektromagnetem. Konstrukce zásadně proměnila technologii matičních hodin a používala se až do meziválečného období. Hippovy hodiny v Hodináriu Děčín: [inv. 85 (Model Hipp)](/sbirka/karta/inv-85-model-hipp/) a [inv. 86 (Podružné Hipp 1860)](/sbirka/karta/inv-86-podruzne-hodiny-hipp-1860/).',
-    relatedSlugs: ['inv-85-model-hipp', 'inv-86-podruzne-hodiny-hipp-1860', 'panel-2-maticni-elektrocas', 'elektrina-ve-sluzbach-casu'],
+    relatedSlugs: [
+      'elektrina-ve-sluzbach-casu',
+      'inv-85-model-hipp',
+      'inv-86-podruzne-hodiny-hipp-1860',
+      'panel-1-hipp-wagner-brillie',
+      'panel-2-maticni-elektrocas',
+    ],
     era: '19stol',
   },
   {
@@ -888,7 +931,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CH',
     shrnuti:
       'Švýcarská firma navazující na výrobu **[Matthäuse Hippa](/hodinari/matthaus-hipp)** v Neuchâtelu. Pod značkou Hipp-Favarger se vyráběly podružné a matiční hodiny založené na Hippově přerušovači, dodávané do celé Evropy ještě kolem roku 1930. V Hodináriu je [Podružný strojek Hipp-Favarger (inv. 86)](/sbirka/karta/inv-86-podruzne-hodiny-hipp-1860/).',
-    relatedSlugs: ['inv-86-podruzne-hodiny-hipp-1860'],
+    relatedSlugs: ['inv-86-podruzne-hodiny-hipp-1860', 'panel-1-hipp-wagner-brillie'],
     era: 'prelom',
   },
   {
@@ -901,7 +944,19 @@ export const hodinari: Hodinar[] = [
     zeme: 'FR',
     shrnuti:
       'Francouzští bratři Brillié (Charles a Marius), v roce **1908** sestrojili matiční hodiny s **půlminutovými polarizovanými impulzy** posílanými do podružných hodin — systém se ve Francii rozšířil po továrnách, nádražích, školách a v nemocnicích. V Hodináriu je [matiční Brillié (inv. 88)](/sbirka/karta/inv-88-brillie/) a [podružný strojek (inv. 268)](/sbirka/karta/inv-268-podruzne-brillie/).',
-    relatedSlugs: ['inv-88-brillie', 'inv-268-podruzne-brillie', 'panel-2-maticni-elektrocas', 'brillie'],
+    relatedSlugs: [
+      'ATO',
+      'brillie',
+      'bulle',
+      'decin_NTP',
+      'decin_koncepce',
+      'inv-268-podruzne-brillie',
+      'inv-37-bici-stroj-brillie',
+      'inv-88-brillie',
+      'jednotnycas',
+      'panel-1-hipp-wagner-brillie',
+      'panel-2-maticni-elektrocas',
+    ],
     era: 'prelom',
   },
   {
@@ -914,7 +969,15 @@ export const hodinari: Hodinar[] = [
     zeme: 'FR',
     shrnuti:
       'Francouzská firma elektrických hodin založená v roce 1920 elektroinženýrem **Marcelem Moulinem** a obchodníkem **Maurice Favre-Bullem** (od jeho jména název firmy). Princip stroje: **cívka zavěšená na kyvadle prochází polem zahnutého tyčového magnetu** s neobvyklým sledem pólů. Hodiny Bulle byly vyráběny do 50. let 20. století. V Hodináriu je [Hodiny Bulle (inv. 161)](/sbirka/karta/inv-161-hodiny-bulle/).',
-    relatedSlugs: ['inv-161-hodiny-bulle', 'bulle', 'elektrina-ve-sluzbach-casu'],
+    relatedSlugs: [
+      'ATO',
+      'bulle',
+      'download',
+      'elektricke2',
+      'elektrina-ve-sluzbach-casu',
+      'eureka',
+      'inv-161-hodiny-bulle',
+    ],
     era: '20stol',
   },
   {
@@ -927,7 +990,12 @@ export const hodinari: Hodinar[] = [
     zeme: 'SE',
     shrnuti:
       'Švédský elektrotechnický koncern, založený **Larsem Magnusem Ericssonem** v roce 1876 — primárně známý pro telekomunikace, ale ve své rané historii vyráběl i **matiční hodiny s vahadlovými kontakty na kyvadle** pro průmyslové synchronizační systémy. V Hodináriu je [matiční Ericsson (inv. 90)](/sbirka/karta/inv-90-maticni-ericsson/).',
-    relatedSlugs: ['inv-90-maticni-ericsson', 'panel-2-maticni-elektrocas'],
+    relatedSlugs: [
+      'alzbeta',
+      'inv-90-maticni-ericsson',
+      'panel-1-hipp-wagner-brillie',
+      'panel-2-maticni-elektrocas',
+    ],
     era: 'prelom',
   },
   {
@@ -940,7 +1008,19 @@ export const hodinari: Hodinar[] = [
     zeme: 'DE',
     shrnuti:
       'Tradiční německá hodinářská firma založená v roce **1822 ve Schwenningenu** (Schwarzwald). V meziválečné době byla jednou z největších evropských výroben hodin se silnou exportní orientací. Vyráběla budíky, nástěnné hodiny, kuchyňské „nakopávací" stroje (kick-rewind) i synchronní hodiny. V Hodináriu jsou [hodiny Kienzle (inv. 91)](/sbirka/karta/inv-91-hodiny-kienzle/) a [bateriové Kienzle (inv. 148)](/sbirka/karta/inv-148-bateriove-kienzle/).',
-    relatedSlugs: ['inv-91-hodiny-kienzle', 'inv-148-bateriove-kienzle', 'elektricke1'],
+    relatedSlugs: [
+      '12_24',
+      'budiky2',
+      'elektricke1',
+      'inv-148-bateriove-kienzle',
+      'inv-90-maticni-ericsson',
+      'inv-91-hodiny-kienzle',
+      'laplace',
+      'panel-1-hipp-wagner-brillie',
+      'perpetum_mobile',
+      'svarcvaldky',
+      'svarcvaldky_stroje',
+    ],
     era: '19stol',
   },
   {
@@ -953,7 +1033,14 @@ export const hodinari: Hodinar[] = [
     zeme: 'DE',
     shrnuti:
       'Německá výrobní dílna matičních hodin 19. století. Stroje firmy Wagner se vyznačovaly **mechanickými matičními hodinami s Grahamovým krokem a elektromagnetickým natahováním závaživého pohonu** s uzavřeným Huyghensovým řetězcem — kombinace přesnosti kyvadlového stroje s automatickým elektrickým dotahováním. V Hodináriu je [matiční Wagner (inv. 87)](/sbirka/karta/inv-87-maticni-wagner/).',
-    relatedSlugs: ['inv-87-maticni-wagner', 'panel-2-maticni-elektrocas', 'ctwagner'],
+    relatedSlugs: [
+      'ctwagner',
+      'elektricke1',
+      'inv-87-maticni-wagner',
+      'jednotnycas',
+      'panel-1-hipp-wagner-brillie',
+      'panel-2-maticni-elektrocas',
+    ],
     era: '19stol',
   },
   {
@@ -966,7 +1053,13 @@ export const hodinari: Hodinar[] = [
     zeme: 'CH',
     shrnuti:
       'Slavná švýcarská hodinářská firma, založená v roce **1865 v Le Locle** (Jura) Georgem Favre-Jacotem. Známá především pro chronografy a mechanická hodinářská řešení; v Hodináriu je [matiční Zenith (inv. 89)](/sbirka/karta/inv-89-maticni-zenith/) — pérovník přes převod napojený na Ferrarisův motorek 70 V, hodinový stroj s Grahamovým krokem.',
-    relatedSlugs: ['inv-89-maticni-zenith', 'panel-2-maticni-elektrocas'],
+    relatedSlugs: [
+      'decin_koncepce',
+      'ferramo',
+      'inv-89-maticni-zenith',
+      'panel-1-hipp-wagner-brillie',
+      'panel-2-maticni-elektrocas',
+    ],
     era: 'prelom',
   },
   {
@@ -992,7 +1085,14 @@ export const hodinari: Hodinar[] = [
     zeme: 'FR',
     shrnuti:
       'Francouzský výrobce **synchronizovaných časoměrných systémů**, founded 1868. Specializuje se na věžní hodiny, podružné hodiny a moderní GPS/NTP synchronizační systémy pro veřejné budovy. V Hodináriu jsou [Podružné hodiny Bodet (inv. 126)](/sbirka/karta/inv-126-podruzne-hodiny-bodet/) — moderní GPS-řízené hodiny.',
-    relatedSlugs: ['inv-126-podruzne-hodiny-bodet', 'panel-4-pragotron'],
+    relatedSlugs: [
+      'Kappa',
+      'decin_NTP',
+      'elektromagneticke_segmenty',
+      'inv-126-podruzne-hodiny-bodet',
+      'panel-4-pragotron',
+      'panel-5-dcf-gps-ntp',
+    ],
     era: 'soucasnost',
   },
   {
@@ -1005,7 +1105,19 @@ export const hodinari: Hodinar[] = [
     zeme: 'CH',
     shrnuti:
       'Švýcarská skupina firem v oboru časoměrných systémů, vznikla v roce **1997**. Jedna z dceřiných společností — **Bürk Mobatime GmbH** (sídlo Villingen-Schwenningen) — převzala v roce 1997 německou tradici značky [Bürk](https://www.f-k-turmuhren.de/) (docházkové hodiny, píchačky), která vstoupila do konkurzu v roce 1996. Tovární muzeum dnes sídlí v bývalé Bürkově továrně. V Hodináriu jsou stroje signované MOBATIME (inv. 18).',
-    relatedSlugs: ['inv-18-vezni-barokni-kovane'],
+    relatedSlugs: [
+      'Arduino',
+      'Kappa',
+      'decin_NTP',
+      'elektromagneticke_segmenty',
+      'inv-125-podruzne-hodiny-mobatime',
+      'inv-18-vezni-barokni-kovane',
+      'jednotnycas',
+      'mobatime',
+      'panel-5-dcf-gps-ntp',
+      'pichacky',
+      'synchronizace_hodin',
+    ],
     era: 'soucasnost',
   },
   {
@@ -1018,7 +1130,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'GB',
     shrnuti:
       'Anglická firma specializovaná na **bankovní časové zámky** (mechanical time over lock). Po **Jamesi Sargentovi** (1874) byli britsko-anglické firmy mezi prvními výrobci, kteří začali masově vyrábět časové zámky pro trezory. V Hodináriu Děčín je vystaven funkční **Thomas Fox Mechanical Time Over Lock** (cca 144 hodin maximální blokace) — viz [karta inv. 81](/sbirka/karta/inv-81-casovy-strojek-trezorovy/).',
-    relatedSlugs: ['inv-81-casovy-strojek-trezorovy'],
+    relatedSlugs: ['casovy_zamek', 'inv-81-casovy-strojek-trezorovy'],
     era: 'prelom',
   },
 
@@ -1034,10 +1146,16 @@ export const hodinari: Hodinar[] = [
     shrnuti:
       'Současná česká sklárna a výrobce uměleckých skleněných objektů, mj. **modelů orlojů a hodin se sklem**. V Hodináriu Děčín jsou exponáty: [skeletové hodiny Kavalír (inv. 54)](/sbirka/karta/inv-54-skeletove-hodiny-kavalir/), [Orloj Kavalír — model (inv. 65)](/sbirka/karta/inv-65-orloj-kavalir/), [Cimbál s odbíjením (inv. 66)](/sbirka/karta/inv-66-cimbal-s-odbijenim/), [Zvonění Kavalír (inv. 243)](/sbirka/karta/inv-243-zvoneni-kavalir/). Firma vyrábí i odbíjecí zařízení s programovatelnou dobou odbíjení.',
     relatedSlugs: [
+      'decin_chronulator',
+      'decin_koncepce',
+      'inv-169-retrogradni-kavalir',
+      'inv-202-retrogradni-kavalir',
+      'inv-243-zvoneni-kavalir',
       'inv-54-skeletove-hodiny-kavalir',
+      'inv-64-mysteriozni-natahovani',
       'inv-65-orloj-kavalir',
       'inv-66-cimbal-s-odbijenim',
-      'inv-243-zvoneni-kavalir',
+      'kavalir',
     ],
     era: 'soucasnost',
   },
@@ -1051,7 +1169,17 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Česká firma vyrábějící **moderní hlavní a podružné hodiny** s digitální/elektronickou technologií. V Hodináriu Děčín je [Mini hlavní hodiny Elekon HN61 (inv. 124)](/sbirka/karta/inv-124-mini-hlavni-hodiny-hn61/) v Panelu 5, plus distribuce hodin Mobatime ([inv. 125](/sbirka/karta/inv-125-podruzne-hodiny-mobatime/)).',
-    relatedSlugs: ['inv-124-mini-hlavni-hodiny-hn61', 'inv-125-podruzne-hodiny-mobatime'],
+    relatedSlugs: [
+      'decin_koncepce',
+      'inv-124-mini-hlavni-hodiny-hn61',
+      'inv-125-podruzne-hodiny-mobatime',
+      'inv-x13-hodiny-hn350',
+      'jednotnycas',
+      'kvetinovehodiny_NMnM',
+      'mobatime',
+      'panel-5-dcf-gps-ntp',
+      'synchronizace_hodin',
+    ],
     era: 'soucasnost',
   },
   {
@@ -1064,7 +1192,13 @@ export const hodinari: Hodinar[] = [
     zeme: 'DE',
     shrnuti:
       'Německá firma specializovaná na **přesné časové synchronizační systémy** — DCF77 přijímače, GPS/GNSS hodiny, NTP servery, PTP grandmaster hodiny. V Hodináriu Děčín jsou Meinbergovy přijímače GPS167 (rádiové hodiny řízené dlouhými vlnami DCF77 z Mainflingenu u Frankfurtu), které ukazují moderní rozsah elektrického měření času.',
-    relatedSlugs: ['Lantime_M100', 'decin_NTP', 'elektrina-ve-sluzbach-casu'],
+    relatedSlugs: [
+      'Lantime_M100',
+      'dcf77',
+      'decin_NTP',
+      'elektrina-ve-sluzbach-casu',
+      'synchronizace_hodin',
+    ],
     era: 'soucasnost',
   },
   {
@@ -1103,7 +1237,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'DE',
     shrnuti:
       'Tradiční německá hodinářská firma ze Schwenningenu, **Friedrich Mauthe Schwenningen** založena v roce 1844. V meziválečné době byla jednou z největších evropských výroben spolu s **[Junghansem](/hodinari/junghans)** a **[Kienzlem](/hodinari/kienzle)**. Vyráběla nástěnné hodiny, budíky, kuchyňské mechanické stroje a synchronní hodiny. Firma vstoupila do konkurzu v roce 1976.',
-    relatedSlugs: [],
+    relatedSlugs: ['datumatik', 'laplace'],
     era: '20stol',
   },
   {
@@ -1129,7 +1263,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Česká firma vyrábějící **měřicí a komunikační moduly** pro průmyslové aplikace. V hodinářském kontextu Papouch dodává **NTP přijímače a Ethernet/RS232 převodníky** používané ve sbírce ČSH pro propojení moderních digitálních hodin s časovými servery.',
-    relatedSlugs: [],
+    relatedSlugs: ['decin_NTP', 'elektromagneticke_segmenty'],
     era: 'soucasnost',
   },
   {
@@ -1142,7 +1276,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'GB',
     shrnuti:
       'Britská firma **Eureka Clock Company Ltd.** založená v Londýně 1908 inženýrem **T. B. Powersem** a financována firmou Sir John Bennett Ltd. Vyráběla **elektromechanické hodiny s velkým kompenzačním kyvadlem** (ladičkový princip) napájeným suchou baterií. Výroba ukončena v roce 1914 vstupem Británie do první světové války.',
-    relatedSlugs: ['elektrina-ve-sluzbach-casu', 'elektricke1'],
+    relatedSlugs: ['ATO', 'bulle', 'elektricke1', 'elektrina-ve-sluzbach-casu', 'eureka'],
     era: 'prelom',
   },
 
@@ -1341,7 +1475,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'DE',
     shrnuti:
       'Schwenningenský **městský písař**, který vynalezl **přenosné kontrolní hodiny pro hlídače**. První exemplář zhotovil **Michael Vosseler v roce 1855**. Po Bürkově smrti (1872) synové rozšířili výrobu na **„Württemberská továrna hodin ve Schwenningen"** — pozdější produkční linku Bürk‑Mobatime (firma vstoupila do konkurzu v roce 1996, naskočila do ní švýcarská **[Mobatime](/hodinari/mobatime)** v roce 1997).',
-    relatedSlugs: ['inv-25-vezni-chribska'],
+    relatedSlugs: ['inv-25-vezni-chribska', 'panel-3-laplace-tn-burk', 'pichacky'],
     era: '19stol',
   },
   {
@@ -1354,7 +1488,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'DE',
     shrnuti:
       'První továrna ve Schwarzwaldu na hodiny. **Eduard Hauser** (* 21. 8. 1825 Rothweil, † 22. 7. 1900) se vyučil u **Jana Jiřího Schöpperle** v Lenzkirchu; se synem Schöpperleho **Ignátem** založili **v roce 1850 továrnu**. **V roce 1851 přeměna v akciovou společnost „Akciová společnost pro tovární výrobu hodin v Lenzkirchu"**. Firma byla zavřena v roce 1932.',
-    relatedSlugs: ['elektricke1'],
+    relatedSlugs: ['elektricke1', 'lenzkirch', 'svarcvaldky'],
     era: '19stol',
   },
   {
