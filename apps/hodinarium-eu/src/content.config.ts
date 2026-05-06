@@ -47,6 +47,28 @@ const reference = z.object({
 });
 
 /**
+ * Editor-only poznámka k článku/kartě/medailonu. Renderuje se jen pro
+ * přihlášené editory (CSS `aside.editor-note { display: none }` s
+ * override `body[data-editor-mode] aside.editor-note { display: block }`).
+ *
+ * Předtím se psala jako `<aside class="editor-note">…</aside>` přímo
+ * do těla MDX/MD textu — to však znamenalo, že editor v CMS musel
+ * v rich-text editoru řešit raw HTML blok. Nyní samostatné frontmatter
+ * pole, CMS formulář bude mít list widget.
+ *
+ * Levels (visual + sémantika):
+ *   - info  ✎  — neutrální poznámka, kontext pro editora
+ *   - warn  ⚠  — varování o nejistotě / potřebě ověření
+ *   - todo  ☐  — úkol k dořešení (stub, doplnit prameny, …)
+ */
+const editorNote = z.object({
+  level: z.enum(['info', 'warn', 'todo']).default('info'),
+  title: z.string().optional(),
+  text: z.string(),
+  noteKey: z.string().optional(),  // pro click-to-resolve mechanismus
+});
+
+/**
  * Tags whitelist — sloučení všech polí (kromě _meta) z data/tags.json.
  * Refine validuje, že každý tag je ve whitelistu — typo failne build.
  * Rozšiřování PR commitem do data/tags.json.
@@ -98,6 +120,9 @@ const clanky = defineCollection({
     author: z.string().optional(),
     /** Literatura a odkazy renderované v sekci pod článkem. */
     references: z.array(reference).optional(),
+    /** Editorské poznámky (TODO, varování o nejistotě, kontext) — viditelné
+        jen po loginu editora, anonymní návštěvník nic nevidí. */
+    editorNotes: z.array(editorNote).optional(),
     /** Styl seznamu referencí: 'bullet' (default — type-icon) nebo 'numbered'
      *  ([1], [2] …, vhodné pro články s přímými citacemi přes <Ref n={N}>). */
     referenceStyle: z.enum(['bullet', 'numbered']).optional(),
@@ -229,6 +254,8 @@ const hodinariMedailony = defineCollection({
     // CMS posílá prázdný string `''` když editor pole nevyplní → coerce na undefined.
     portretSource: z.preprocess((v) => (v === '' ? undefined : v), z.string().url().optional()),
     references: z.array(reference).optional(),
+    /** Editorské poznámky (TODO, varování o nejistotě, kontext). */
+    editorNotes: z.array(editorNote).optional(),
   }),
 });
 
@@ -268,6 +295,8 @@ const kronika = defineCollection({
     photos: z.array(z.string()).optional(),
     author: z.string().optional(),
     references: z.array(reference).optional(),
+    /** Editorské poznámky (TODO, varování o nejistotě, kontext). */
+    editorNotes: z.array(editorNote).optional(),
     /** Pro legacy import z hodinarium.eu (zachováme původní URL). */
     originalUrl: z.string().url().optional(),
   }),
@@ -390,6 +419,9 @@ const soupisVeznichHodin = defineCollection({
 
     /** Volný text (pro krátké poznámky; delší narativ jde do MDX body). */
     poznamka: z.string().optional(),
+
+    /** Editorské poznámky (TODO, varování o nejistotě, kontext). */
+    editorNotes: z.array(editorNote).optional(),
 
     /** Meta. */
     posledniOvereni: dateString.optional(),

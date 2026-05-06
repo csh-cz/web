@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import EditorNotesBlock from '../../components/EditorNotesBlock.astro';
 import { getCollection, render } from 'astro:content';
 import { hodinari } from '../../data/hodinari';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
@@ -158,6 +159,8 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
     <section class="poznamka-block" set:html={tinyMarkdown(d.poznamka)}>
     </section>
   )}
+
+  <EditorNotesBlock notes={d.editorNotes} sourceFile={`content/soupis-veznich-hodin/${item.id}.mdx`} />
 
   <section class="prose">
     <Content />
