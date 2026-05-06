@@ -22,16 +22,28 @@ const dateString = z.preprocess(
 
 /**
  * Schéma jednoho odkazu / literatury pod článkem.
- * - title povinný; ostatní volitelné
- * - type ovlivní ikonku/řazení (kniha, článek, PDF, web odkaz, wiki, mapa, patent, archiv)
+ * - bibKey (preferred) — citation-key ze Zotera (Better BibTeX), např. "knesplProgressVersusTradition2024".
+ *   Když je nastaven, render použije citeproc-js + ISO 690 CSL stylesheet
+ *   nad `apps/hodinarium-eu/src/data/references.json` (SSOT export Zotera).
+ *   Title/author/year/url se ignorují (data tečou ze SSOT).
+ * - title (legacy) — povinný pro reference, které nejsou v Zoteru. Ručně psaná
+ *   citace, autor + year + url volitelně. Postupně migrujeme na bibKey.
+ * - note — vlastní kontext editora (např. „primární pramen tohoto článku"),
+ *   render ho zobrazí za citací. Zachovává se i u bibKey-driven references.
+ * - pages — override pro citaci jen části (kapitola, stránky).
+ * - type ovlivní ikonku/řazení (kniha, článek, PDF, web odkaz, wiki, mapa, patent, archiv).
  */
 const reference = z.object({
-  title: z.string(),
+  bibKey: z.string().optional(),
+  title: z.string().optional(),
   url: z.string().url().optional(),
   author: z.string().optional(),
   year: z.union([z.number(), z.string()]).optional(),
   type: z.enum(['kniha', 'clanek', 'pdf', 'odkaz', 'wiki', 'mapa', 'patent', 'archiv', 'zprava']).optional(),
+  pages: z.string().optional(),
   note: z.string().optional(),
+}).refine((d) => d.bibKey || d.title, {
+  message: 'reference: musí mít bibKey (Zotero) nebo title (ad-hoc).',
 });
 
 /**
@@ -293,12 +305,18 @@ const veznihodinaFoto = z.object({
 });
 
 const veznihodinaPramen = z.object({
+  // Preferred: bibKey ze Zotera (citation-key v Better BibTeX). Když je
+  // nastaven, render použije citeproc + ISO 690 CSL ze SSOT.
+  bibKey: z.string().optional(),
+  // Legacy ad-hoc fields. Postupně migrujeme na bibKey.
   title: z.string().optional(),
   url: z.string().url().optional(),
   citace: z.string().optional(),                    // ISO 690 plain text
   autor: z.string().optional(),
   rok: z.union([z.number(), z.string()]).optional(),
   type: z.enum(['kniha', 'clanek', 'pdf', 'odkaz', 'wiki', 'mapa', 'patent', 'archiv', 'zprava']).optional(),
+  pages: z.string().optional(),
+  poznamka: z.string().optional(),                  // editor's free-form context
 });
 
 const soupisVeznichHodin = defineCollection({

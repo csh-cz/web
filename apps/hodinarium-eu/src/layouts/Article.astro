@@ -5,6 +5,7 @@ import Card from "../components/Card.astro";
 import JsonLd from "../components/JsonLd.astro";
 import KartaSbirky from "../components/KartaSbirky.astro";
 import { pramenTooltip } from "../utils/referenceTypes";
+import { formatCite, getRef } from "../utils/cite";
 import catalog from "../data/catalog.json";
 import { hodinariProClanek } from "../data/hodinari";
 import { krokyProClanek } from "../data/kroky";
@@ -13,11 +14,13 @@ import { clanekHref } from "../data/url-helpers";
 import type { CatalogEntry } from '../data/catalog-types';
 
 interface Reference {
-  title: string;
+  bibKey?: string;
+  title?: string;
   url?: string;
   author?: string;
   year?: number | string;
   type?: 'kniha' | 'clanek' | 'pdf' | 'odkaz' | 'wiki' | 'mapa' | 'patent' | 'archiv' | 'zprava';
+  pages?: string;
   note?: string;
 }
 
@@ -220,16 +223,40 @@ const articleJsonLd = {
       <section class="references" aria-labelledby="references-heading">
         <h2 id="references-heading" class="references-title">Literatura a odkazy</h2>
         <ul class="references-list" data-style={referenceStyle}>
-          {references.map((r, i) => (
-            <li id={`ref-${i + 1}`} class={`reference reference-${r.type ?? 'odkaz'}`} title={pramenTooltip(r.type)}>
-              {r.author && <span class="ref-author">{r.author}:</span>}
-              {r.url
-                ? <a href={r.url} rel="noopener" target="_blank">{r.title}</a>
-                : <span class="ref-title">{r.title}</span>}
-              {r.year !== undefined && <span class="ref-year">({r.year})</span>}
-              {r.note && <span class="ref-note"> — {r.note}</span>}
-            </li>
-          ))}
+          {references.map((r, i) => {
+            // Pokud je nastaven `bibKey`, render přes citeproc + ISO 690 CSL
+            // ze SSOT (apps/hodinarium-eu/src/data/references.json).
+            // Type odvozený ze CSL `type` pole, fallback na 'kniha' u nezařazených.
+            const cslItem = r.bibKey ? getRef(r.bibKey) : null;
+            const cslType = (cslItem?.type as string) || '';
+            const inferredType =
+              cslType === 'book' || cslType === 'chapter' ? 'kniha'
+              : cslType === 'article-journal' || cslType === 'paper-conference' || cslType === 'article-newspaper' || cslType === 'article-magazine' ? 'clanek'
+              : cslType === 'webpage' || cslType === 'post-weblog' || cslType === 'document' ? 'odkaz'
+              : cslType === 'patent' ? 'patent'
+              : cslType === 'manuscript' || cslType === 'archive' ? 'archiv'
+              : cslType === 'report' ? 'zprava'
+              : cslType === 'thesis' ? 'kniha'
+              : null;
+            const refType = r.type ?? inferredType ?? 'odkaz';
+            const formatted = r.bibKey ? formatCite(r.bibKey, { pages: r.pages }) : null;
+            return (
+              <li id={`ref-${i + 1}`} class={`reference reference-${refType}`} title={pramenTooltip(refType)}>
+                {formatted ? (
+                  <span class="ref-cite" set:html={formatted} />
+                ) : (
+                  <>
+                    {r.author && <span class="ref-author">{r.author}:</span>}
+                    {r.url
+                      ? <a href={r.url} rel="noopener" target="_blank">{r.title}</a>
+                      : <span class="ref-title">{r.title}</span>}
+                    {r.year !== undefined && <span class="ref-year">({r.year})</span>}
+                  </>
+                )}
+                {r.note && <span class="ref-note"> — {r.note}</span>}
+              </li>
+            );
+          })}
         </ul>
       </section>
     )}
