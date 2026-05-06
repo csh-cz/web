@@ -280,6 +280,30 @@ const categoryLabelsForClient = Object.fromEntries(
     text-align: center;
     font-style: italic;
   }
+
+  /* AI quota fallback banner — když Workers AI vrátil 429/kvótu,
+     server spadl na fulltext. Subtle warning aby uživatel věděl,
+     že tohle není sémantické vyhledávání (= horší recall na meaning). */
+  .search-fallback-banner {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    padding: 0.6rem 1.25rem;
+    background: color-mix(in srgb, var(--color-bg-deep) 80%, var(--color-copper));
+    border-bottom: 1px solid color-mix(in srgb, var(--color-copper) 35%, transparent);
+    font-size: 0.82rem;
+    color: var(--color-text-soft);
+    line-height: 1.4;
+  }
+  .fallback-icon {
+    color: var(--color-copper);
+    font-size: 0.95rem;
+    line-height: 1.4;
+    flex-shrink: 0;
+  }
+  .fallback-text {
+    flex: 1;
+  }
   .search-result-loading::before {
     content: '';
     display: inline-block;
@@ -347,7 +371,9 @@ const categoryLabelsForClient = Object.fromEntries(
   // Sjednocený render — bere normalizovaná data (`title`, `excerpt`,
   // `href`, `meta`, `score`, `thumb`, `matches`). Fuse i semantic
   // results se napřed normalizují do tohoto tvaru a teprve pak render.
-  function render(query, items) {
+  // `meta.mode` je server-reported režim (semantic|fulltext) — pokud
+  // mode='fulltext', ukáže se info banner o AI fallbacku.
+  function render(query, items, meta = {}) {
     if (!query) {
       const hint = mode === 'semantic'
         ? 'Sémantické vyhledávání hledá <em>významem</em> napříč 1008 stránkami webu — i bez přesného slova. Začni psát celou frázi nebo otázku.'
@@ -361,7 +387,15 @@ const categoryLabelsForClient = Object.fromEntries(
     }
     const top = items.slice(0, 12);
     lastResults = top;
-    resultsEl.innerHTML = top.map((it, idx) => {
+    // Banner pro AI fallback — server odhalil 429/quota a spadl na fulltext.
+    // Uživatel by měl vědět, že výsledky nejsou sémantické (jiné skóre, jiný recall).
+    const fallbackBanner = (meta.mode === 'fulltext')
+      ? `<div class="search-fallback-banner" role="status">
+           <span class="fallback-icon" aria-hidden="true">⚠</span>
+           <span class="fallback-text">${meta.fallbackReason ?? 'AI kvóta vyčerpaná — fallback na fulltext.'}</span>
+         </div>`
+      : '';
+    resultsEl.innerHTML = fallbackBanner + top.map((it, idx) => {
       const titleHtml = it.titleHtml ?? it.title;
       const excerptHtml = it.excerptHtml ?? it.excerpt;
       const meta = it.meta ?? '';
@@ -432,7 +466,7 @@ const categoryLabelsForClient = Object.fromEntries(
       const data = await r.json();
       const items = (data.results ?? []).map(mapSemanticResult);
       activeIdx = items.length > 0 ? 0 : -1;
-      render(q, items);
+      render(q, items, { mode: data.mode, fallbackReason: data.fallback_reason });
     } catch (err) {
       if (err.name === 'AbortError') return; // Newer query si přepíše
       console.error('Semantic search error', err);
