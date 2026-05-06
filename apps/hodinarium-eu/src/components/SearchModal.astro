@@ -450,24 +450,61 @@ const categoryLabelsForClient = Object.fromEntries(
     };
   }
 
+  // Aktivuje keyword (Fuse) tab + spustí Fuse search nad query.
+  // Vrací Promise která resolve-ne až se výsledky vyrenderují, takže
+  // se to dá použít jako fallback chain.
+  async function switchToKeywordMode(q, banner) {
+    mode = 'keyword';
+    tabs.forEach((t) => {
+      const active = t.getAttribute('data-mode') === 'keyword';
+      t.classList.toggle('is-active', active);
+      t.setAttribute('aria-selected', active ? 'true' : 'false');
+    });
+    const f = await ensureFuse();
+    const items = f.search(q).map(mapFuseResult);
+    activeIdx = items.length > 0 ? 0 : -1;
+    render(q, items, banner ? { mode: 'fulltext', fallbackReason: banner } : {});
+  }
+
   async function runSemantic(q) {
     if (semanticAbort) semanticAbort.abort();
     semanticAbort = new AbortController();
     resultsEl.innerHTML = '<p class="search-result-loading">Sémanticky prohledávám 1008 stránek…</p>';
+    let r, data;
     try {
-      const r = await fetch(`/api/search/semantic?q=${encodeURIComponent(q)}&limit=15`, {
+      r = await fetch(`/api/search/semantic?q=${encodeURIComponent(q)}&limit=15`, {
         signal: semanticAbort.signal,
       });
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      const data = await r.json();
-      const items = (data.results ?? []).map(mapSemanticResult);
-      activeIdx = items.length > 0 ? 0 : -1;
-      render(q, items, { mode: data.mode, fallbackReason: data.fallback_reason });
+      data = await r.json().catch(() => ({}));
     } catch (err) {
       if (err.name === 'AbortError') return; // Newer query si přepíše
-      console.error('Semantic search error', err);
-      resultsEl.innerHTML = '<p class="search-empty">Sémantické vyhledávání selhalo: ' + (err.message ?? 'Neznámá chyba') + '. Zkus přepnout na <strong>Klíčová slova</strong>.</p>';
+      console.warn('Semantic search network error, falling back to keyword:', err);
+      await switchToKeywordMode(q,
+        'Sémantické vyhledávání nedostupné — používám klíčová slova.');
+      return;
     }
+
+    // 503 = index ještě nebyl vygenerovaný (admin nezbuildoval). Auto-fallback
+    // na keyword bez user-action — uživatel vidí výsledky + decentní banner.
+    if (r.status === 503) {
+      console.warn('Semantic index not yet built:', data.error);
+      await switchToKeywordMode(q,
+        'Sémantický index zatím není připravený — používám klíčová slova.');
+      return;
+    }
+
+    if (!r.ok) {
+      // Ostatní chyby (5xx, 401, 429) — zkus parse server-side message.
+      const msg = data.error || 'Server odpověděl ' + r.status + '.';
+      resultsEl.innerHTML =
+        '<p class="search-empty">Sémantické vyhledávání selhalo: ' + msg +
+        ' Zkus přepnout na <strong>Klíčová slova</strong>.</p>';
+      return;
+    }
+
+    const items = (data.results ?? []).map(mapSemanticResult);
+    activeIdx = items.length > 0 ? 0 : -1;
+    render(q, items, { mode: data.mode, fallbackReason: data.fallback_reason });
   }
 
   let timer;
