@@ -11,7 +11,7 @@ const hodinarName = new Map<string, string>();
 for (const h of hodinari) hodinarName.set(h.slug, h.jmeno);
 function displayHodinar(slug?: string, fallback?: string): string {
   if (slug && hodinarName.has(slug)) return hodinarName.get(slug)!;
-  if (slug) return slug; // unknown slug — return as-is
+  if (slug) return slug;
   return fallback || '—';
 }
 
@@ -23,14 +23,7 @@ hodiny.sort((a, b) => {
   return a.data.puvodniMisto.obec.localeCompare(b.data.puvodniMisto.obec, 'cs');
 });
 
-// Stats
-const stavCount = {
-  in_situ: 0,
-  preneseno: 0,
-  ztracene: 0,
-  znicene: 0,
-  neznamy: 0,
-};
+const stavCount = { in_situ: 0, preneseno: 0, ztracene: 0, znicene: 0, neznamy: 0 };
 for (const h of hodiny) stavCount[h.data.stav]++;
 
 const stavLabel: Record<string, string> = {
@@ -40,7 +33,6 @@ const stavLabel: Record<string, string> = {
   znicene: 'zničené',
   neznamy: 'stav neznámý',
 };
-
 const stavTooltip: Record<string, string> = {
   in_situ: 'Stroj je stále na původním místě, kde byl instalován.',
   preneseno: 'Stroj byl přemístěn z původní lokality (typicky do muzejní expozice).',
@@ -48,7 +40,6 @@ const stavTooltip: Record<string, string> = {
   znicene: 'Stroj byl prokazatelně zničen (rozebrán, sešrotován, požár, válka).',
   neznamy: 'Současný stav stroje není dohledán — vyžaduje terénní výzkum.',
 };
-
 const stavTone: Record<string, string> = {
   in_situ: 'tone-ok',
   preneseno: 'tone-info',
@@ -56,6 +47,58 @@ const stavTone: Record<string, string> = {
   znicene: 'tone-bad',
   neznamy: 'tone-mute',
 };
+
+// Sběr unique hodnot pro dropdowny
+const hodinariSet = new Map<string, string>();
+const krajeSet = new Set<string>();
+const stateSet = new Set<string>();
+const krokSet = new Set<string>();
+let yearMin = Infinity;
+let yearMax = -Infinity;
+
+for (const h of hodiny) {
+  if (h.data.hodinar) hodinariSet.set(h.data.hodinar, displayHodinar(h.data.hodinar));
+  else if (h.data.hodinarText) hodinariSet.set(`__text:${h.data.hodinarText}`, h.data.hodinarText);
+  const z = h.data.puvodniMisto.zeme;
+  const k = h.data.puvodniMisto.kraj;
+  if (z) stateSet.add(z);
+  if (z === 'CZ' && k) krajeSet.add(k);
+  if (h.data.krok) {
+    // Extract first word/keyword pro filtraci (Graham, Manhardt, Amant, kotvový, vřetenový, …)
+    const krokKey = h.data.krok
+      .replace(/[*]/g, '')
+      .split(/[\s,;()]/)[0]
+      .trim()
+      .toLowerCase();
+    if (krokKey.length >= 3) krokSet.add(krokKey);
+  }
+  const y = typeof h.data.rok === 'number' ? h.data.rok : parseInt(String(h.data.rok), 10);
+  if (!isNaN(y) && y > 1000 && y < 2100) {
+    if (y < yearMin) yearMin = y;
+    if (y > yearMax) yearMax = y;
+  }
+}
+const hodinariOpts = [...hodinariSet.entries()]
+  .sort((a, b) => a[1].localeCompare(b[1], 'cs'));
+const krajeOpts = [...krajeSet].sort((a, b) => a.localeCompare(b, 'cs'));
+const stateOpts = [...stateSet].sort();
+const krokOpts = [...krokSet].sort((a, b) => a.localeCompare(b, 'cs'));
+
+// Helper: krok pro filter (extract keyword)
+function krokKeyword(krok?: string): string {
+  if (!krok) return '';
+  return krok.replace(/[*]/g, '').split(/[\s,;()]/)[0].trim().toLowerCase();
+}
+
+// Helper: location string pro display + filter
+function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: string }): { display: string; filter: string } {
+  const parts = [p.obec];
+  if (p.cast) parts.push(`(${p.cast})`);
+  return {
+    display: parts.join(' '),
+    filter: [p.obec, p.cast, p.kraj, p.zeme].filter(Boolean).join(' ').toLowerCase(),
+  };
+}
 ---
 <Base
   title="Soupis věžních hodin"
@@ -79,18 +122,97 @@ const stavTone: Record<string, string> = {
     </p>
   </header>
 
-  <section class="stats">
+  <section class="stats" data-stats>
     <div class="stat-card">
-      <div class="stat-num">{hodiny.length}</div>
+      <div class="stat-num" data-stat-total>{hodiny.length}</div>
       <div class="stat-label">záznamů celkem</div>
     </div>
     {Object.entries(stavCount).filter(([_, n]) => n > 0).map(([k, n]) => (
-      <div class={`stat-card ${stavTone[k]}`}>
-        <div class="stat-num">{n}</div>
+      <div class={`stat-card ${stavTone[k]}`} data-stat-card={k}>
+        <div class="stat-num" data-stat-count={k}>{n}</div>
         <div class="stat-label">{stavLabel[k]}</div>
       </div>
     ))}
   </section>
+
+  {hodiny.length > 0 && (
+    <section class="filters" aria-label="Filtry tabulky">
+      <div class="filter-row">
+        <label class="filter-cell">
+          <span class="filter-label">Hodinář</span>
+          <select id="f-hodinar">
+            <option value="">— vše —</option>
+            {hodinariOpts.map(([slug, name]) => (
+              <option value={slug}>{name}</option>
+            ))}
+          </select>
+        </label>
+
+        <label class="filter-cell">
+          <span class="filter-label">Stát</span>
+          <select id="f-stat">
+            <option value="">— vše —</option>
+            {stateOpts.map((s) => (
+              <option value={s}>{s}</option>
+            ))}
+          </select>
+        </label>
+
+        <label class="filter-cell">
+          <span class="filter-label">Kraj (jen CZ)</span>
+          <select id="f-kraj">
+            <option value="">— vše —</option>
+            {krajeOpts.map((k) => (
+              <option value={k}>{k}</option>
+            ))}
+          </select>
+        </label>
+
+        <label class="filter-cell">
+          <span class="filter-label">Krok</span>
+          <select id="f-krok">
+            <option value="">— vše —</option>
+            {krokOpts.map((k) => (
+              <option value={k}>{k}</option>
+            ))}
+          </select>
+        </label>
+      </div>
+
+      <div class="filter-row">
+        <label class="filter-cell filter-range">
+          <span class="filter-label">Rok od</span>
+          <input type="number" id="f-rok-od" placeholder={yearMin === Infinity ? '' : String(yearMin)} min={yearMin} max={yearMax} />
+        </label>
+        <label class="filter-cell filter-range">
+          <span class="filter-label">Rok do</span>
+          <input type="number" id="f-rok-do" placeholder={yearMax === -Infinity ? '' : String(yearMax)} min={yearMin} max={yearMax} />
+        </label>
+
+        <label class="filter-cell filter-search">
+          <span class="filter-label">Místo (obec / budova)</span>
+          <input type="search" id="f-misto" placeholder="hledej obec, část, budovu, kraj…" autocomplete="off" />
+        </label>
+
+        <fieldset class="filter-cell filter-stav">
+          <legend class="filter-label">Stav</legend>
+          {Object.keys(stavLabel).map((k) => (
+            <label class="stav-checkbox">
+              <input type="checkbox" name="f-stav" value={k} checked />
+              <span class={`stav-badge stav-mini-${stavTone[k]}`}>{stavLabel[k]}</span>
+            </label>
+          ))}
+        </fieldset>
+
+        <button type="button" id="f-reset" class="filter-reset" aria-label="Reset filtrů">↺ Reset</button>
+      </div>
+
+      <p class="filter-summary">
+        <span data-filter-count>{hodiny.length}</span> z {hodiny.length} záznamů
+        <span data-filter-active class="filter-active hidden">· aktivní filtry</span>
+      </p>
+    </section>
+  )}
 
   {hodiny.length === 0 && (
     <p class="empty-state">
@@ -99,42 +221,174 @@ const stavTone: Record<string, string> = {
   )}
 
   {hodiny.length > 0 && (
-    <table class="soupis-table">
+    <table class="soupis-table" id="soupis-table">
       <thead>
         <tr>
           <th>Rok</th>
           <th>Hodinář</th>
           <th>Místo</th>
           <th>Budova</th>
+          <th>Kraj / Stát</th>
           <th>Stav</th>
           <th>Krok</th>
         </tr>
       </thead>
       <tbody>
-        {hodiny.map((h) => (
-          <tr>
-            <td><strong>{h.data.rok}</strong></td>
-            <td>
-              {h.data.hodinar ? (
-                <a href={`/hodinari/${h.data.hodinar}`}>{displayHodinar(h.data.hodinar)}</a>
-              ) : (
-                <span class="muted">{h.data.hodinarText || '—'}</span>
-              )}
-            </td>
-            <td>
-              <a href={`/soupis-veznich-hodin/${h.data.slug}/`}>
-                {h.data.puvodniMisto.obec}
-              </a>
-              {h.data.puvodniMisto.cast && <span class="muted"> ({h.data.puvodniMisto.cast})</span>}
-            </td>
-            <td>{h.data.puvodniMisto.budova || <span class="muted">—</span>}</td>
-            <td><span class={`stav-badge ${stavTone[h.data.stav]}`} title={stavTooltip[h.data.stav]}>{stavLabel[h.data.stav]}</span></td>
-            <td><span class="muted">{h.data.krok || '—'}</span></td>
-          </tr>
-        ))}
+        {hodiny.map((h) => {
+          const place = placeMeta(h.data.puvodniMisto);
+          const yr = typeof h.data.rok === 'number' ? h.data.rok : parseInt(String(h.data.rok), 10);
+          const yrSafe = !isNaN(yr) && yr > 1000 ? yr : '';
+          const krokKw = krokKeyword(h.data.krok);
+          const hodinarKey = h.data.hodinar || (h.data.hodinarText ? `__text:${h.data.hodinarText}` : '');
+          return (
+            <tr
+              data-hodinar={hodinarKey}
+              data-rok={yrSafe}
+              data-misto={place.filter}
+              data-kraj={h.data.puvodniMisto.kraj || ''}
+              data-stat={h.data.puvodniMisto.zeme || ''}
+              data-krok={krokKw}
+              data-stav={h.data.stav}
+            >
+              <td><strong>{h.data.rok}</strong></td>
+              <td>
+                {h.data.hodinar ? (
+                  <a href={`/hodinari/${h.data.hodinar}`}>{displayHodinar(h.data.hodinar)}</a>
+                ) : (
+                  <span class="muted">{h.data.hodinarText || '—'}</span>
+                )}
+              </td>
+              <td>
+                <a href={`/soupis-veznich-hodin/${h.data.slug}/`}>
+                  {h.data.puvodniMisto.obec}
+                </a>
+                {h.data.puvodniMisto.cast && <span class="muted"> ({h.data.puvodniMisto.cast})</span>}
+              </td>
+              <td>{h.data.puvodniMisto.budova || <span class="muted">—</span>}</td>
+              <td class="cell-region">
+                {h.data.puvodniMisto.zeme === 'CZ' && h.data.puvodniMisto.kraj ? (
+                  <span class="region-kraj">{h.data.puvodniMisto.kraj}</span>
+                ) : h.data.puvodniMisto.zeme && h.data.puvodniMisto.zeme !== 'CZ' ? (
+                  <span class="region-stat">{h.data.puvodniMisto.zeme}</span>
+                ) : (
+                  <span class="muted">—</span>
+                )}
+              </td>
+              <td><span class={`stav-badge ${stavTone[h.data.stav]}`} title={stavTooltip[h.data.stav]}>{stavLabel[h.data.stav]}</span></td>
+              <td><span class="muted">{h.data.krok || '—'}</span></td>
+            </tr>
+          );
+        })}
       </tbody>
     </table>
   )}
+
+  <p id="filter-empty" class="empty-state hidden" role="status" aria-live="polite">
+    Žádné záznamy neodpovídají vybraným filtrům. Zkus filtry uvolnit.
+  </p>
+
+  <script is:inline>
+    (function () {
+      const table = document.getElementById('soupis-table');
+      if (!table) return;
+      const rows = Array.from(table.querySelectorAll('tbody tr'));
+
+      const $hod = document.getElementById('f-hodinar');
+      const $stat = document.getElementById('f-stat');
+      const $kraj = document.getElementById('f-kraj');
+      const $krok = document.getElementById('f-krok');
+      const $rOd = document.getElementById('f-rok-od');
+      const $rDo = document.getElementById('f-rok-do');
+      const $misto = document.getElementById('f-misto');
+      const $stavCBs = Array.from(document.querySelectorAll('input[name="f-stav"]'));
+      const $reset = document.getElementById('f-reset');
+      const $count = document.querySelector('[data-filter-count]');
+      const $active = document.querySelector('[data-filter-active]');
+      const $empty = document.getElementById('filter-empty');
+      const $statTotal = document.querySelector('[data-stat-total]');
+      const stavCountEls = {};
+      document.querySelectorAll('[data-stat-count]').forEach((el) => {
+        stavCountEls[el.getAttribute('data-stat-count')] = el;
+      });
+
+      function applyFilters() {
+        const hod = $hod.value;
+        const stat = $stat.value;
+        const kraj = $kraj.value;
+        const krok = $krok.value;
+        const rOd = parseInt($rOd.value, 10);
+        const rDo = parseInt($rDo.value, 10);
+        const misto = ($misto.value || '').trim().toLowerCase();
+        const stavSet = new Set($stavCBs.filter((c) => c.checked).map((c) => c.value));
+
+        let visible = 0;
+        const stavLocal = { in_situ: 0, preneseno: 0, ztracene: 0, znicene: 0, neznamy: 0 };
+
+        for (const tr of rows) {
+          let show = true;
+          if (hod && tr.dataset.hodinar !== hod) show = false;
+          if (show && stat && tr.dataset.stat !== stat) show = false;
+          if (show && kraj && tr.dataset.kraj !== kraj) show = false;
+          if (show && krok && tr.dataset.krok !== krok) show = false;
+          if (show && !isNaN(rOd)) {
+            const r = parseInt(tr.dataset.rok, 10);
+            if (isNaN(r) || r < rOd) show = false;
+          }
+          if (show && !isNaN(rDo)) {
+            const r = parseInt(tr.dataset.rok, 10);
+            if (isNaN(r) || r > rDo) show = false;
+          }
+          if (show && misto && !tr.dataset.misto.includes(misto)) show = false;
+          if (show && !stavSet.has(tr.dataset.stav)) show = false;
+
+          tr.style.display = show ? '' : 'none';
+          if (show) {
+            visible++;
+            stavLocal[tr.dataset.stav] = (stavLocal[tr.dataset.stav] || 0) + 1;
+          }
+        }
+
+        if ($count) $count.textContent = String(visible);
+        if ($empty) $empty.classList.toggle('hidden', visible > 0);
+        if (table) table.style.display = visible > 0 ? '' : 'none';
+        if ($statTotal) $statTotal.textContent = String(visible);
+        for (const [k, el] of Object.entries(stavCountEls)) {
+          el.textContent = String(stavLocal[k] || 0);
+        }
+
+        const anyActive = !!(hod || stat || kraj || krok || misto ||
+          !isNaN(rOd) || !isNaN(rDo) || stavSet.size !== 5);
+        if ($active) $active.classList.toggle('hidden', !anyActive);
+      }
+
+      function reset() {
+        $hod.value = ''; $stat.value = ''; $kraj.value = ''; $krok.value = '';
+        $rOd.value = ''; $rDo.value = ''; $misto.value = '';
+        $stavCBs.forEach((c) => { c.checked = true; });
+        applyFilters();
+      }
+
+      [$hod, $stat, $kraj, $krok, $rOd, $rDo].forEach((el) => el.addEventListener('change', applyFilters));
+      $misto.addEventListener('input', applyFilters);
+      $stavCBs.forEach((cb) => cb.addEventListener('change', applyFilters));
+      $reset.addEventListener('click', reset);
+
+      // Read URL params (deep-linkable filters)
+      const params = new URLSearchParams(window.location.search);
+      if (params.has('hodinar')) $hod.value = params.get('hodinar') || '';
+      if (params.has('stat')) $stat.value = params.get('stat') || '';
+      if (params.has('kraj')) $kraj.value = params.get('kraj') || '';
+      if (params.has('krok')) $krok.value = params.get('krok') || '';
+      if (params.has('rokOd')) $rOd.value = params.get('rokOd') || '';
+      if (params.has('rokDo')) $rDo.value = params.get('rokDo') || '';
+      if (params.has('misto')) $misto.value = params.get('misto') || '';
+      if (params.has('stav')) {
+        const allowed = new Set(params.get('stav').split(','));
+        $stavCBs.forEach((c) => { c.checked = allowed.has(c.value); });
+      }
+      if (params.toString()) applyFilters();
+    })();
+  </script>
 </Base>
 
 <style>
@@ -160,7 +414,7 @@ const stavTone: Record<string, string> = {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 0.75rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
   .stat-card {
     padding: 1rem 1.25rem;
@@ -176,6 +430,97 @@ const stavTone: Record<string, string> = {
   .stat-card.tone-warn { border-left-color: #d9a05b; }
   .stat-card.tone-bad { border-left-color: #b04848; }
   .stat-card.tone-mute { border-left-color: #777; }
+
+  /* === Filtry === */
+  .filters {
+    background: color-mix(in srgb, var(--color-bg-elevated) 60%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+    padding: 1rem 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .filter-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 0.75rem 1rem;
+    align-items: end;
+    margin-bottom: 0.75rem;
+  }
+  .filter-row:last-of-type { margin-bottom: 0.5rem; }
+  .filter-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  .filter-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-copper);
+    font-weight: 500;
+  }
+  .filter-cell select,
+  .filter-cell input[type="number"],
+  .filter-cell input[type="search"] {
+    font: inherit;
+    padding: 0.4rem 0.55rem;
+    background: var(--color-bg);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    color: var(--color-text);
+    min-height: 2rem;
+  }
+  .filter-cell select:focus,
+  .filter-cell input:focus {
+    outline: none;
+    border-color: var(--color-brass-bright);
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--color-brass-bright) 35%, transparent);
+  }
+  .filter-stav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    align-items: center;
+  }
+  .filter-stav .filter-label { width: 100%; margin-bottom: 0.2rem; }
+  .stav-checkbox {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+  .stav-checkbox input { margin: 0; }
+  .filter-reset {
+    align-self: end;
+    padding: 0.4rem 0.85rem;
+    background: transparent;
+    color: var(--color-text-soft);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    font: inherit;
+    cursor: pointer;
+    height: 2rem;
+  }
+  .filter-reset:hover {
+    color: var(--color-brass-bright);
+    border-color: var(--color-brass-bright);
+  }
+  .filter-summary {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+    font-style: italic;
+  }
+  .filter-active {
+    color: var(--color-brass-bright);
+    font-style: normal;
+  }
+  .hidden { display: none !important; }
 
   .empty-state {
     padding: 2rem;
@@ -209,6 +554,15 @@ const stavTone: Record<string, string> = {
   .soupis-table a { color: var(--color-brass-bright); text-decoration: none; }
   .soupis-table a:hover { text-decoration: underline; }
   .muted { color: var(--color-text-soft); opacity: 0.7; }
+  .cell-region { font-size: 0.88rem; }
+  .region-kraj { color: var(--color-text-soft); }
+  .region-stat {
+    color: var(--color-copper);
+    font-family: var(--font-serif);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.78rem;
+  }
 
   .stav-badge {
     display: inline-block;
@@ -218,8 +572,9 @@ const stavTone: Record<string, string> = {
     background: color-mix(in srgb, var(--color-bg-elevated) 80%, transparent);
     border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
   }
-  .stav-badge.tone-ok { border-color: #4caf50; color: #4caf50; }
-  .stav-badge.tone-info { border-color: #5b9dd9; color: #5b9dd9; }
-  .stav-badge.tone-warn { border-color: #d9a05b; color: #d9a05b; }
-  .stav-badge.tone-bad { border-color: #b04848; color: #b04848; }
+  .stav-badge.tone-ok, .stav-badge.stav-mini-tone-ok { border-color: #4caf50; color: #4caf50; }
+  .stav-badge.tone-info, .stav-badge.stav-mini-tone-info { border-color: #5b9dd9; color: #5b9dd9; }
+  .stav-badge.tone-warn, .stav-badge.stav-mini-tone-warn { border-color: #d9a05b; color: #d9a05b; }
+  .stav-badge.tone-bad, .stav-badge.stav-mini-tone-bad { border-color: #b04848; color: #b04848; }
+  .stav-badge.tone-mute, .stav-badge.stav-mini-tone-mute { border-color: #888; color: #aaa; }
 </style>
