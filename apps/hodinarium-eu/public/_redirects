@@ -762,5 +762,11 @@
 # Přejmenování medailonů hodinářů (M5.3+)
 /hodinari/sebastian-londensperger /hodinari/sebastian-landesberger 301
 
+# Přejmenování sbírkových karet
+/sbirka/karta/inv-53-model-prazskeho-orloje /sbirka/karta/inv-53-orloj-hvezdarna-petrin 301
+/sbirka/karta/inv-53-model-prazskeho-orloje/ /sbirka/karta/inv-53-orloj-hvezdarna-petrin/ 301
+/sbirka/karta/inv-67-orloj-hvezdarna-petrin /sbirka/karta/inv-53-orloj-hvezdarna-petrin 301
+/sbirka/karta/inv-67-orloj-hvezdarna-petrin/ /sbirka/karta/inv-53-orloj-hvezdarna-petrin/ 301
+
 # Fallback — neznámé .htm cesty
 /*.htm /404 404
