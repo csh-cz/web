@@ -42,6 +42,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/RLEJ3FKV",
+    "type": "document",
+    "title": "1860 Ostrov radnice"
+  },
+  {
     "id": "edmundkinsnerAstronomischeUhr1894",
     "type": "patent",
     "citation-key": "edmundkinsnerAstronomischeUhr1894",
@@ -1346,6 +1351,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/JGE7EUXD",
+    "type": "document",
+    "title": "Naceňovač / NCI — bibliografie (2. iterace)"
+  },
+  {
     "id": "khanApplicationsCasebasedReasoning2014",
     "type": "article-journal",
     "abstract": "Systematická mapping study aplikací Case-Based Reasoning v softwarovém inženýrství. Pokrývá cost a effort estimation, requirements management, debugging, design pattern detection. Tabulky z rozňují použitelnost CBR pro early-stage estimation. V NCI v2 referencováno v § 2 (rodina sizing metod) jako alternativa k FPA + COCOMO.",
@@ -1899,6 +1909,11 @@
         "given": "Veronique"
       }
     ]
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/PFIK2NHA",
+    "type": "document",
+    "title": "1597/04/19 Simeon Podolský náhrada"
   },
   {
     "id": "vydraHistoriaMatheseosBohemia1778",
@@ -8244,6 +8259,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/7ITMCYWY",
+    "type": "document",
+    "title": "Krátké popsání české říše z roku 1595. Giovanni Botero Benisius"
+  },
+  {
     "id": "seydlHodinyHodinariCasova1945",
     "type": "article-journal",
     "citation-key": "seydlHodinyHodinariCasova1945",
@@ -8295,6 +8315,21 @@
       "date-parts": [
         [
           "2003"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/HZ846MA7",
+    "type": "document",
+    "title": "05.pdf",
+    "URL": "https://staletapraha.cz/pdfs/pha/1971/01/05.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          8,
+          13
         ]
       ]
     }
@@ -8655,6 +8690,26 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4HYG6ZDM",
+    "type": "document",
+    "title": "Czermak - 1898 - Die astronomische Standuhr des physikal. Insitutes der Universität Innsbruck"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/PT3YTYGA",
+    "type": "document",
+    "title": "Czermak - 1902 - Nachtrag zur astronomischen Standuhr"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/RRJ2GJ7I",
+    "type": "document",
+    "title": "Kopp - Unknown - Astronomische Standuhr - Institute for Quantum Optics and Quantum Information - Austrian Academy of Sciences"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/8NUV8594",
+    "type": "document",
+    "title": "Lunardi - 1994 - Astronomical clocks by Fr . David a San Cajetano"
   },
   {
     "id": "picchiMagPeterKopp",
@@ -9474,6 +9529,21 @@
     ]
   },
   {
+    "id": "http://zotero.org/users/1916830/items/W73SMDXA",
+    "type": "document",
+    "title": "tesi.pdf#:~:text=OntoUML%20constructs%20Neo4j%20constructs%20Classes,Jirˇ´ı%20Zikan’s%20master’s%20´%20thesis",
+    "URL": "https://webthesis.biblio.polito.it/37639/1/tesi.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          12,
+          4
+        ]
+      ]
+    }
+  },
+  {
     "id": "cesare4DSETLSemanticData2016",
     "type": "paper-conference",
     "abstract": "Although successfully employed as the foundation for a number of large-scale government and energy industry projects, foundational ontologies have not been widely adopted within mainstream Enterprise Systems (ES) data integration practice. However, as the closed-worlds of ES are opened to Internet scale data sources, there is an emerging need to better understand the semantics of such data and how they can be integrated. Foundational ontologies can help establish this understanding and therefore, there is a need to investigate how such ontologies can be applied to underpin practical ES integration solutions. This paper describes research undertaken to assess the effectiveness of such an approach through the development and application of the 4D-Semantic Extract Transform Load (4D-SETL) framework. 4D-SETL was employed to integrate a number of large scale datasets and to persist the resultant ontology within a prototype warehouse based on a graph database. The advantages of the approach included the ability to combine foundational, domain and instance level ontological objects within a single coherent system. Furthermore, the approach provided a clear means of establishing and maintaining the identity of domain objects as their constituent spatiotemporal parts unfolded over time, enabling process and static data to be combined within a single model.",
@@ -9804,6 +9874,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/4TKZT4KS",
+    "type": "document",
+    "title": "Bílá věž. Hradec Králové Asi patnáct kroků od hlavního chrámu naproti jeho severnímu bočnímu vchodu zdvihá se bílá věž p"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/TQPNR8W5",
+    "type": "document",
+    "title": " Boleslavan, 1860 Vzácná památka umění hodinářského nalezá se na rádnici Litoměřické a pochází od výtečného hodináře čes"
+  },
+  {
     "id": "dresdenDeutscheUhrmacherZeitung",
     "type": "webpage",
     "abstract": "Deutsche Uhrmacher-Zeitung, Berlin 1877",
@@ -9846,6 +9926,16 @@
       ],
       "season": "1620"
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/IYUJN64X",
+    "type": "document",
+    "title": "1563 Šimek, J. Pověstný hodinář z Litomyšle 1563"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/8G9LVC7K",
+    "type": "document",
+    "title": "1591 Zvon František Sv. JIndřich, v sanktusové věži"
   },
   {
     "id": "gloriaMonumentiUniversitaDi1888",
@@ -10003,6 +10093,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/97KAN6QK",
+    "type": "document",
+    "title": "Martinus z TOMKA "
   },
   {
     "id": "gloriaStudiEditiDalla1888",
@@ -10384,6 +10479,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/MK5HJ7V9",
+    "type": "document",
+    "title": "1565 Zvon, 1568 hodiny"
+  },
+  {
     "id": "kibicNovomestskaRadnicePraze1966",
     "type": "article-journal",
     "citation-key": "kibicNovomestskaRadnicePraze1966",
@@ -10405,6 +10505,16 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/FHK9XY7A",
+    "type": "document",
+    "title": "1654 povolení pláteníkům prodávat zboží od 21 do 22 hodin v předvečer trhů - svědčí o použití staročeského času"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ALQ5IYKD",
+    "type": "document",
+    "title": "Mistr Jiří Kezelius radnici popisuje: “Rathaus v Starém městě v příhodném místě rozkošný a nákladně po létu 1550 vystave"
   },
   {
     "id": "Manuscriptoriuma",
@@ -10571,6 +10681,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/NTC46DCI",
+    "type": "document",
+    "title": "1511 14. října Laurentius canulator měšťanství na st. m. 986,241a"
+  },
+  {
     "id": "OutBoxRAG",
     "type": "webpage",
     "citation-key": "OutBoxRAG",
@@ -10585,6 +10700,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/UC3UEFJG",
+    "type": "document",
+    "title": "rag_system_pro_ceske_dokumenty.md"
   },
   {
     "id": "HowChunkDocuments",
@@ -11334,6 +11454,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/X4BGBC8Q",
+    "type": "document",
+    "title": "F3-BP-2024-Stulc-Radek-NamedEntityRecognition.pdf",
+    "URL": "https://dspace.cvut.cz/bitstream/handle/10467/115618/F3-BP-2024-Stulc-Radek-NamedEntityRecognition.pdf?sequence=-1&isAllowed=y",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          6,
+          14
+        ]
+      ]
+    }
+  },
+  {
     "id": "novotnyPeoplePlacesHistorical2023a",
     "type": "paper-conference",
     "abstract": "Although pre-trained named entity recognition (NER) models are highly accurate on modern corpora, they underperform on historical texts due to differences in language OCR errors. In this work, we develop a new NER corpus of 3.6M sentences from late medieval charters written mainly in Czech, Latin, and German.We show that we can start with a list of known historical figures and locations and an unannotated corpus of historical texts, and use information retrieval techniques to automatically bootstrap a NER-annotated corpus. Using our corpus, we train a NER model that achieves entity-level Precision of 72.81–93.98% with 58.14–81.77% Recall on a manually-annotated test dataset. Furthermore, we show that using a weighted loss function helps to combat class imbalance in token classification tasks. To make it easy for others to reproduce and build upon our work, we publicly release our corpus, models, and experimental code.",
@@ -11869,6 +12004,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/7EA5GKNY",
+    "type": "document",
+    "title": "holub_zbynek_habilitace.pdf",
+    "URL": "https://is.muni.cz/do/rect/habilitace/1421/17415/habilitacni_prace/holub_zbynek_habilitace.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          7,
+          6
+        ]
+      ]
+    }
+  },
+  {
     "id": "muellerCHRONICOCCUPATIONALEXPOSURE1961",
     "type": "article-journal",
     "abstract": "Results are reported from the follow-up of 103 workers in the luminising industry, who, for different periods, used a paint containing up to 1.2 mc of strontium-90 per gram as well as small amounts of radium-226. Out of this group 34 workers were selected tor more detailed inpatient investigations. In most cases only the latter part ot the urinary Sr/sup 90/-excretion curve could be followed. In one case of new contamination the urinary Sr/sup 90/-excretion curve fitted the equition: E = 0.376 exp(-0.693t/1.7) + 0.119 exp (-0.693t/4.4) + 0.004 exp (-0.693t/50) where exp = exponential function, t = time, and E = the total daily excretion t days after ingestion. The body burden of Sr/sup 90/ was estimated to be of the order of tens of microcuries. The body burden of radium- 226 was about 10/sup -8/g or less. Hematological studies revealed signs of irritation of erythropoiesis, such as reticulocytosis and hyperplasia of the erythroblast series in the bone-marrow. (auth)",
@@ -12087,6 +12237,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/L5R5XBM3",
+    "type": "document",
+    "title": "1375 Kutná hora Oprava střechy nad orlojem"
+  },
+  {
     "id": "krinskySeventyEightVitruviusManuscripts1967",
     "type": "article-journal",
     "citation-key": "krinskySeventyEightVitruviusManuscripts1967",
@@ -12120,6 +12275,21 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/J9YCI8TH",
+    "type": "document",
+    "title": "1763 Karlovy Vary"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/W8A2AJNZ",
+    "type": "document",
+    "title": "Matěj Landesperger usadil se v Písku"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LFZA5VXT",
+    "type": "document",
+    "title": "1774 Sebastian hodiny Měšice u Prahy"
   },
   {
     "id": "strnadtBeschreibungBeruhmtenUhr1791",
@@ -12464,6 +12634,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/F9HBPWS4",
+    "type": "document",
+    "title": "Jan Landesberger byl hodinářem klementýnské hvězdárny a podílele se na opravě Staroměsteského orloje (nepravděpodobné, b"
+  },
+  {
     "id": "bukovinskaKunstkomoraRudolfaII",
     "type": "article-journal",
     "citation-key": "bukovinskaKunstkomoraRudolfaII",
@@ -12663,6 +12838,21 @@
       "date-parts": [
         [
           "1992"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/3TQGGPUT",
+    "type": "document",
+    "title": "ri_viii_itinerar.pdf",
+    "URL": "https://www.regesta-imperii.de/fileadmin/user_upload/downloads/ri_viii_itinerar.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          8
         ]
       ]
     }
@@ -12897,6 +13087,11 @@
         "given": "Kamila"
       }
     ]
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/BB8NHT5V",
+    "type": "document",
+    "title": "Zájem o Giovanniho Dondiho dall’Orologio (cca 1330–1388) a jeho dílo byl tradičně omezen na úzký okruh odborníků. Po jeh"
   },
   {
     "id": "rihovaLekariNaDvore2010",
@@ -13340,6 +13535,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/M3GSPNUZ",
+    "type": "document",
+    "title": "ri_viii_itinerar.pdf",
+    "URL": "https://www.regesta-imperii.de/fileadmin/user_upload/downloads/ri_viii_itinerar.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          25
+        ]
+      ]
+    }
+  },
+  {
     "id": "FilozofickyUstavAVa",
     "type": "webpage",
     "citation-key": "FilozofickyUstavAVa",
@@ -13354,6 +13564,36 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/53EXGUDH",
+    "type": "document",
+    "title": "1381 May \"Pro reformacione horologii 18 gr.\" (Richard Jecht, 1910, p. 1)"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/SC8D299S",
+    "type": "document",
+    "title": "1377 Juli Hug kromer 12 mr. pro domo Orleyste"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/DGHA8EH9",
+    "type": "document",
+    "title": "I. Úvod a identifikace městských konšelů"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/TJFIMDUK",
+    "type": "document",
+    "title": "K, 12. — 1414, 31 Dec. —"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/NBBB3L6Q",
+    "type": "document",
+    "title": "1397 Hanuš orloysta"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/SLUCE6N6",
+    "type": "document",
+    "title": "Číslo 926. Stavení č. 723a."
   },
   {
     "id": "novotnyPeoplePlacesHistorical2023",
@@ -13408,6 +13648,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/CGCLGE2L",
+    "type": "document",
+    "title": "1379/03/28 Spor Johannes Tost"
   },
   {
     "id": "tiraboschiStoriaLetteraturaItaliana1789",
@@ -14628,6 +14873,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/ZRPXJTRQ",
+    "type": "document",
+    "title": "Heinz přidělal kouhotek na plynové osvětlení k bicímu stroji"
+  },
+  {
     "id": "PozustatkyDeskZemskych",
     "type": "webpage",
     "citation-key": "PozustatkyDeskZemskych",
@@ -15426,6 +15676,11 @@
       ],
       "season": "März"
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/3LWHMI5D",
+    "type": "document",
+    "title": "1754 hodiny na kostel Nanebevzetí panny Marie Dolní Ročov, 105%mzl"
   },
   {
     "id": "pubickaFrancisciPubitschkaWeltpriesters1798",
@@ -16713,6 +16968,36 @@
           "2025",
           3,
           8
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/QTXWECQ5",
+    "type": "document",
+    "title": "download.pdf",
+    "URL": "https://diglib.tugraz.at/download.php?id=5319be66188d6&location=browse",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/XXSC9MLL",
+    "type": "document",
+    "title": "Swieykowski_Emmanuel-MonografiaDukli.pdf",
+    "URL": "https://digital.fides.org.pl/Content/4016/PDF/Swieykowski_Emmanuel-MonografiaDukli.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          9
         ]
       ]
     }
@@ -36815,6 +37100,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/IIJIKDNU",
+    "type": "document",
+    "title": "The following publications on this subject have already come to my attention some of which have been consulted 1 System "
+  },
+  {
     "id": "terrellResearchGuidesThis",
     "type": "webpage",
     "abstract": "Compiled by specialists in Business Reference Services at the Library of Congress, this guide highlights stories about the people, places, and events that made their mark on business history.",
@@ -36992,6 +37282,26 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/Y8ZE89DM",
+    "type": "document",
+    "title": "1698 Jan Sebastian Landesberger, nar, (pokřtěn) 9.3.1698 v Řezně"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/2B6YV6B6",
+    "type": "document",
+    "title": "1768 Sebastian hodiny Písek radnice"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/S5TYCZ5J",
+    "type": "document",
+    "title": "1768 Žatec Radnice hodiny Ferdinand"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/6NME9RFU",
+    "type": "document",
+    "title": "1756 Sebastian hodiny v Liberci, Kostel sv. Kříže Kostel Nalezení svatého Kříže "
+  },
+  {
     "id": "erbenZpravaStarobylemOrloji2016",
     "type": "book",
     "citation-key": "erbenZpravaStarobylemOrloji2016",
@@ -37028,6 +37338,26 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/M6ARDW6G",
+    "type": "document",
+    "title": "1757 byl hodinár Londensperger zvlášť odměněn za horlivou účast při hašení četných požárů na hradě . Hodiny utrpěly při "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/SXEPFYZ3",
+    "type": "document",
+    "title": "1787 Hodiny na věži Stm. radnice  souhlas s opravou orloje"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/NX38DJD5",
+    "type": "document",
+    "title": "Sbírka hodin Rudolpha II"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/N9TY2HLM",
+    "type": "document",
+    "title": "1589-03-27 Patent pro Wawřince Hodináře u Pražského Hradu, aby mohl nerušeně odlévat zvony a jiné věci potřebné pro své "
   },
   {
     "id": "cipollaDiffusionInnovationsEarly1972",
@@ -37354,6 +37684,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/59IYDAHV",
+    "type": "document",
+    "title": "tr_119476v010201p.pdf",
+    "URL": "https://www.etsi.org/deliver/etsi_tr/119400_119499/119476/01.02.01_60/tr_119476v010201p.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          1,
+          11
+        ]
+      ]
+    }
+  },
+  {
     "id": "wichQualifiedElectronicSignatures2024",
     "type": "article-journal",
     "abstract": "Art. 5a of the amended eIDAS-Regulation (EU) 2024/1183 establishes the European Digital Identity Framework and introduces the European Digitial Identity Wallet (EUDIW), which will meet the requirements of assurance level “high” for identity proofing and authentication (see Art. 5a Nr. 11) and is envisioned to be able to create Qualified Electronic Signatures (QES) free of charge for non-professional purposes (see Art. 5a Nr. 4 (e) and Nr. 5 (g)). As it will not be feasible in practice to certify the secure elements of all smartphones in the market as Qualified Signature Creation Device (QSCD), one needs to look at remote signature solutions along the lines of ETSI TS 119 432 and the specification developed within the Cloud Signature Consortium (CSC) . The Architecture and Reference Framework (ARF) makes it clear that the EUDIW will support Verifiable Credentials (VCs) for the purpose of strong identification and authentication and the only missing step to enable QES in the EUDIW seems to be the integration of Verifiable Credentials and Verifiable Presentations according to W3C with the remote signature protocol of the CSC-API. The present paper shows how to integrate the two worlds to enable QES in the EUDIW using emerging standards, such as Selective Disclosure JSON Web Tokens (SD-JWT) and OpenID for Verifiable Presentations (OID4VP).",
@@ -37396,6 +37741,21 @@
       "date-parts": [
         [
           "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/7HEASZLQ",
+    "type": "document",
+    "title": "ejusticestrategickyramec_01_03_2023_pm.pdf",
+    "URL": "https://www.dataplan.info/img_upload/7bdb1584e3b8a53d337518d988763f8d/ejusticestrategickyramec_01_03_2023_pm.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          1,
+          11
         ]
       ]
     }
@@ -37535,6 +37895,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/GH7P65AK",
+    "type": "document",
+    "title": "Metodicky_navod_pro_overovani_platnosti_uznavanych_podpisu_a_peceti.pdf",
+    "URL": "https://www.dia.gov.cz/wp-content/uploads/2023/04/Metodicky_navod_pro_overovani_platnosti_uznavanych_podpisu_a_peceti.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          1,
+          17
+        ]
+      ]
+    }
+  },
+  {
     "id": "EIDASDashboard",
     "type": "webpage",
     "citation-key": "EIDASDashboard",
@@ -37599,6 +37974,21 @@
     "language": "cs",
     "source": "Zotero",
     "title": "\\376\\377\\0002\\0000\\0000\\0008\\0000\\0003\\0002\\0001\\000_\\000T\\000e\\000c\\000h\\000n\\000o\\000l\\000o\\000g\\000i\\000c\\000k\\000y\\000_\\000p\\000r\\000o\\000j\\000e\\000k\\000t\\000_\\000v\\0001\\000_\\000r\\0000\\0005"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/L8C4X8GZ",
+    "type": "document",
+    "title": "paleografie_08.pdf",
+    "URL": "https://dl1.cuni.cz/pluginfile.php/266578/mod_resource/content/3/paleografie_08.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          1,
+          19
+        ]
+      ]
+    }
   },
   {
     "id": "TS119441",
@@ -38136,6 +38526,21 @@
     ]
   },
   {
+    "id": "http://zotero.org/users/1916830/items/EED4GZG5",
+    "type": "document",
+    "title": "Anthea_Seles_30.08.2021_Archives_and_AI_Faroese_Archival_Conference.pdf",
+    "URL": "https://skjalasavn.fo/fileadmin/PDF/Anthea_Seles_30.08.2021_Archives_and_AI_Faroese_Archival_Conference.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          3
+        ]
+      ]
+    }
+  },
+  {
     "id": "yumpu.comSchyrlepdf",
     "type": "webpage",
     "abstract": "Von Lies mehr über Schyrle, Albert, Maria, Johann, Rheita und Boulay.",
@@ -38279,6 +38684,106 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/SFNEM5GM",
+    "type": "document",
+    "title": "Lehmann Ondřej, hodinář. Zázn. v m. f u sv. Františka v Pr.:"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/K6TSG9AZ",
+    "type": "document",
+    "title": "- Hodináři,  NA 203/2 České gubernium-Commerciale, Praha, ČG-Com, č. pom. 164, inv. č. 510, sign. E 12 2-16"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/WWLDH2WA",
+    "type": "document",
+    "title": "Bývalý jezuita"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LPD4YXTK",
+    "type": "document",
+    "title": "Památky archaeologické. Praha: Archeologická komise při České akademii císaře Františka Josefa pro vědy, slovesnost a um"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/J8VUETSS",
+    "type": "document",
+    "title": "An den Neüstädter"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/6NWEW7F8",
+    "type": "document",
+    "title": "Zpráva"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/R7R7CQHJ",
+    "type": "document",
+    "title": "Zpráva od Jeho Veličenstva"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ED4MYHCQ",
+    "type": "document",
+    "title": "Zpráva o žádosti Johanna Hartwicha o dvorskou výsadu k provozování hodinářského řemesla"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/D5EMP4GR",
+    "type": "document",
+    "title": "Č. 1234"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4YFKMPMT",
+    "type": "document",
+    "title": "Praha, dne 27. června 1777"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/NQSGGTVV",
+    "type": "document",
+    "title": "1777 opis výučního listu"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/HIXIDMZS",
+    "type": "document",
+    "title": "1775 Mistrovský titul"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LDQSEJZ6",
+    "type": "document",
+    "title": "městské občanství v Novém Městě pražském"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/MBQHQXEG",
+    "type": "document",
+    "title": "Pro královského novoměstského pana městského hejtmana"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/K4FCIPDB",
+    "type": "document",
+    "title": "Glaser s Hartwigem (ex-jesuita) pečovali o klementýnské hodiny"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/WMNENZK2",
+    "type": "document",
+    "title": "1738 – 1770 N 21 AM Karlovy Vary"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/F29RG93N",
+    "type": "document",
+    "title": "soap-kv_ap0309_00075_am-karlovy-vary-spisy-dil-2.pdf",
+    "URL": "https://www.inventare.cz/pdf/soap-kv/soap-kv_ap0309_00075_am-karlovy-vary-spisy-dil-2.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/83I3CBL5",
+    "type": "document",
+    "title": "1735 figuruje jako svědek ve dvou zápisech:"
+  },
+  {
     "id": "KarolineLandespergerMatrika",
     "type": "manuscript",
     "abstract": "Státní oblastní archiv v Třeboni; Sbírka matrik Jihočeského kraje; inv. č. 692. Matrika N; České Budějovice. Datace 1786–1794. In: DigiArchiv Státního oblastního archivu v Třeboni [online]. Státní oblastní archiv v Třeboni, © 2007–2025, poslední aktualizace 21. 11. 2022, [cit. 2025-02-08]. Dostupné z: https://digi.ceskearchivy.cz/2725",
@@ -38288,6 +38793,41 @@
     "citation-key": "KarolineLandespergerMatrika",
     "title": "Karoline Landesperger Matrika Narození",
     "URL": "https://digi.ceskearchivy.cz/2725/96/3211/1812/65/0"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/65XR3J5N",
+    "type": "document",
+    "title": "Od roku 1732 měl v péči hradní hodiny Hanse Bechlera z Magdeburgu. Roku 1736 zkonstruoval čtvrťové hodiny pro Klementinu"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/QEWRLR38",
+    "type": "document",
+    "title": "Ferdinand Landesberger Přehled životních událostí"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/NBWG9T5B",
+    "type": "document",
+    "title": "Již 1780 koupil výrobce věžních hodin Eliáš Landesperger († 1809) dům v Biskupské ulici a 1787 v Plachého ulici. Od 1787"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/PLSQIZE6",
+    "type": "document",
+    "title": "1787 Hodiny na radniční věži Praha"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/I7MYK38J",
+    "type": "document",
+    "title": "1805 čištění orloje, účet 30.12.1805, AMP, Sbírka listin 1, sig.: PPL I - 3442/14"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/JSSGZ9QL",
+    "type": "document",
+    "title": "1764  hodiny na židovskou radnici (bylo mu 66 let)"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/APHQPKSQ",
+    "type": "document",
+    "title": "1752 kostel Jezulátka v Lánech , bicí hodiny Sebastian Landesberger"
   },
   {
     "id": "solcovaMistrJanSindel2009",
@@ -38314,6 +38854,16 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/YE8V4K3U",
+    "type": "document",
+    "title": "Hradečtí hodináři: Baltazar Můller, syn starého Balty (1629), r. 1670—71 Jan Ondřej Meltzer, jenž mnoho na českém jihu p"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/875WXGIE",
+    "type": "document",
+    "title": "Muzeum K.A. Polánka v Žatci"
   },
   {
     "id": "skalaZaverecnaZpravaRestaurovani2009",
@@ -38391,6 +38941,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/8U2MDHL3",
+    "type": "document",
+    "title": "1805 Nové hodiny pro Most (Brüx)"
+  },
+  {
     "id": "PDFMethodologicalIssues2024",
     "type": "article-journal",
     "abstract": "PDF | Further development of the history of science and technology requires the solution of a number of methodological problems. The article considers... | Find, read and cite all the research you need on ResearchGate",
@@ -38419,6 +38974,36 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/FZVTWCRX",
+    "type": "document",
+    "title": "Metodicky_pokyn_c_2-2020_pro_evidenci_a_zpristupnovani_map_v_archivech_CR.pdf",
+    "URL": "https://proarchiv.soalitomerice.cz/proarchiv-help/metodika/attachments/Metodicky_pokyn_c_2-2020_pro_evidenci_a_zpristupnovani_map_v_archivech_CR.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          25
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/JCN8MGEB",
+    "type": "document",
+    "title": "1871 Hospodářská výstava v Pardubicích, dvoje hodiny kyvadlové, pochvalný list"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/N2JGLI5J",
+    "type": "document",
+    "title": "1869 Založení firmy, Přes 100 kusů v chodu Inzerát, logo"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/GKRF5LGI",
+    "type": "document",
+    "title": "1880 Hoši do učení"
   },
   {
     "id": "VerhandlungenGeneraldirectionMit1872",
@@ -38514,6 +39099,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/Q2LY7KG2",
+    "type": "document",
+    "title": "1871 Inzerát Ječná"
   },
   {
     "id": "hartmanChlumeckemVynalezciOrloje1987",
@@ -38808,6 +39398,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/WMV69V6Y",
+    "type": "document",
+    "title": "I_Introduction_Pseudo-Mashaallah_Thomson_Ron_B_ver1.6.pdf",
+    "URL": "https://shareok.org/bitstream/handle/11244/14221.2/I_Introduction_Pseudo-Mashaallah_Thomson_Ron_B_ver1.6.pdf?sequence=20&isAllowed=y",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          11,
+          10
+        ]
+      ]
+    }
+  },
+  {
     "id": "MargaritaPhilosophicaNova",
     "type": "webpage",
     "citation-key": "MargaritaPhilosophicaNova",
@@ -38927,6 +39532,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/SMPZGDVM",
+    "type": "document",
+    "title": "1871 Hledá dělníky a učně"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/RIVM8P9K",
+    "type": "document",
+    "title": "Christoph von Gendorf erhält den Auftrag, dem Jacoben Zähen, urmacher hie zu Prag, für fünf ur, so er vershiner zeit der"
+  },
+  {
     "id": "weinekNeueBeitbestimmungsraumSternwarte1888",
     "type": "article-journal",
     "citation-key": "weinekNeueBeitbestimmungsraumSternwarte1888",
@@ -38949,6 +39564,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/9UFPKFK3",
+    "type": "document",
+    "title": "Inzerát Wiener Bauindustrie-Zeitung 1886"
   },
   {
     "id": "vonsuchodoletzEmulationDigitalArtefact2009",
@@ -39087,12 +39707,57 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/8DPN2C9R",
+    "type": "document",
+    "title": "dokumentynarodni_standard_formatu_pro_archivaci.pdf",
+    "URL": "https://archi.gov.cz/_media/dokumenty%3Anarodni_standard_formatu_pro_archivaci.pdf?utm_source=chatgpt.com",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          12,
+          26
+        ]
+      ]
+    }
+  },
+  {
     "id": "NarodniStandardFormatu",
     "type": "article-journal",
     "citation-key": "NarodniStandardFormatu",
     "language": "cs",
     "source": "Zotero",
     "title": "Národní standard formátů pro archivaci"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ZNNV2LGW",
+    "type": "document",
+    "title": "Geodata_DEF.pdf",
+    "URL": "https://www.nacr.cz/wp-content/uploads/2024/02/Geodata_DEF.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          12,
+          26
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/WBHXPE9R",
+    "type": "document",
+    "title": "na_rechtorik.pdf",
+    "URL": "https://archiv.isss.cz/archiv/2021/download/prezentace/na_rechtorik.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          12,
+          26
+        ]
+      ]
+    }
   },
   {
     "id": "mackeyWorkProgressCreation",
@@ -39402,6 +40067,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/IW2EF94J",
+    "type": "document",
+    "title": "Michalcova.pdf",
+    "URL": "https://vokabular.ujc.cas.cz/soubory/Kozojedy2022/Michalcova.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          12,
+          31
+        ]
+      ]
+    }
+  },
+  {
     "id": "AnnaMichalcovaMedieval",
     "type": "webpage",
     "citation-key": "AnnaMichalcovaMedieval",
@@ -39423,6 +40103,21 @@
     "citation-key": "6ARCHIVNIAUTORITNI",
     "title": "6. ARCHIVNÍ AUTORITNÍ ZÁZNAMY — Dokumentace pro Základní pravidla 3.1",
     "URL": "https://stands.nacr.cz/zp/06-autor-zazn.html",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/6FXMDLGH",
+    "type": "document",
+    "title": "2011-F4-analyza.pdf",
+    "URL": "http://www.interpi.cz/download/2011-F4-analyza.pdf",
     "accessed": {
       "date-parts": [
         [
@@ -39691,6 +40386,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/69JJY959",
+    "type": "document",
+    "title": "eArchiving-Reference-Curriculum.pdf",
+    "URL": "https://www.e-ark-foundation.eu/wp-content/uploads/2024/10/eArchiving-Reference-Curriculum.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
     "id": "TS119511",
     "type": "article-journal",
     "citation-key": "TS119511",
@@ -39719,6 +40429,21 @@
         "given": "David"
       }
     ]
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/PVZQ58CV",
+    "type": "document",
+    "title": "eark-csip.pdf",
+    "URL": "https://earkcsip.dilcis.eu/pdf/eark-csip.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          1,
+          2
+        ]
+      ]
+    }
   },
   {
     "id": "EARKGuidelinesGuidelineGuideline_IP_and_more_v1_0_1pdf",
@@ -39822,6 +40547,21 @@
     "language": "cs",
     "source": "Zotero",
     "title": "Případová studie:  Proces tvorby strojového překladače na bázi neuronových sítí"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/6NPFQX2W",
+    "type": "document",
+    "title": "120290428.pdf",
+    "URL": "https://dspace.cuni.cz/bitstream/handle/20.500.11956/95305/120290428.pdf?sequence=1&utm_source=chatgpt.com",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          1,
+          4
+        ]
+      ]
+    }
   },
   {
     "id": "svobodaTechnologyIndispensableThis2022",
@@ -40312,6 +41052,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/7C5U3FDY",
+    "type": "document",
+    "title": "sssvd-zaklad-duvery-michal-pesek-sssvd.pdf",
+    "URL": "https://www.egovernment.cz/soubor/sssvd-zaklad-duvery-michal-pesek-sssvd/",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          1,
+          5
+        ]
+      ]
+    }
+  },
+  {
     "id": "PotentialEuropeanDigital",
     "type": "webpage",
     "citation-key": "PotentialEuropeanDigital",
@@ -40637,6 +41392,31 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/FYCEM8Y8",
+    "type": "document",
+    "title": "1598-04-27 (G) Dopis Václav z Kaliště a Ottersfeldu"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/2ZTNAVJM",
+    "type": "document",
+    "title": "1598 Dopis Ornys přímluva za Adama k dokončení hodin v Litoměřicích"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/6V4ES4BV",
+    "type": "document",
+    "title": "1575-12-15 (J) Smlouva na hodiny do Litoměřic"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/9FLDEK5Y",
+    "type": "document",
+    "title": "1572-03-21 (J) Omluva Václava Holberka za pozdní dodání hodin"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/67UEW9BK",
+    "type": "document",
+    "title": "1578-03-06 (J) Dodání hodin do Litoměřic"
+  },
+  {
     "id": "Band21NF",
     "type": "webpage",
     "citation-key": "Band21NF",
@@ -40651,6 +41431,51 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/2PUH2UND",
+    "type": "document",
+    "title": "1554 F2T Nákup hodin"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/8ZAR8R5R",
+    "type": "document",
+    "title": "1571-10-07 Ondřej Pachel vyslán pro hodiny do Litomyše"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/AQ857HKW",
+    "type": "document",
+    "title": "1571-09-30 Opakovaný dopis Ferdinanda Holberkovi z Křivoklátu, žádost o poslání hodin"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ZXWNCJU5",
+    "type": "document",
+    "title": "1571-09-16 Dopis Ferdinanda Holberkovi z Křivoklátu, žádost o poslání hodin"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/MU5WHJTJ",
+    "type": "document",
+    "title": "1571-10-21 Omluva Pavla za nedodání hodin. Ondřej Pachel dorazil do Litomyšle, ale shledal, že se hodiny nedají převážet"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/HWA4EM8I",
+    "type": "document",
+    "title": "1600 Adam Frelich, hodinář, koupil sobě dědičný dům  v Dlouhé Třídě mezi domy, které patří Mandelce Dlouhé, od Jana Kníž"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/E648TWMG",
+    "type": "document",
+    "title": "1563 Pavel Měšťanské právo"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/DGCTMJ6X",
+    "type": "document",
+    "title": "1606 DOHLEDAT Příjem peněz za zvonění u sv. Mikuláše"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/BXH3EC8X",
+    "type": "document",
+    "title": "1589 Privilegium na lití zvonů"
   },
   {
     "id": "koplUrkundenActenUnd1891",
@@ -40674,6 +41499,16 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/G32AFN34",
+    "type": "document",
+    "title": "1891 Patenty Mayhofer"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4A8BESNZ",
+    "type": "document",
+    "title": "1895/07/04 Manželé Wenzel a Henriette Krecmerovi koupili stavební pozemek v Hostivaři za 2200 fl."
   },
   {
     "id": "ivanmuchkaSmichArchitekturePetrinske1991",
@@ -40701,6 +41536,31 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/7RX8T87I",
+    "type": "document",
+    "title": "1871/01/26 Přednáška o švýcarském a francouzském hodinářství"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/DEBU7QWC",
+    "type": "document",
+    "title": "1871 Návrh na zřízení školy na Průmyslové jednotě"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/WJ8VFVQG",
+    "type": "document",
+    "title": "1593 Vavřinec Zemřel"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/PYQNWF3C",
+    "type": "document",
+    "title": "1593 v pozůstalosti knížka : Rytířská knížka o krajinách od pana Ludwika Hartomana"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/GGHM4HGI",
+    "type": "document",
+    "title": "1591 DOHLEDAT Vavřinec Hodiny na Bílou věž v Hradci Králové"
   },
   {
     "id": "bauerJahrbuchKunsthistorischenSammlungen1976",
@@ -40740,6 +41600,26 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/93EL4VAA",
+    "type": "document",
+    "title": "rudolph_II.pdf",
+    "URL": "https://is.muni.cz/el/cus/jaro2019/CZS51/um/rudolph_II.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          9,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/2JAFQ7WI",
+    "type": "document",
+    "title": "Nejstarší známý inventář Kunstkomory Rudolfa II. dokumentuje jednu z nejvýznamnějších sbírek v raně novověké Evropě, kte"
   },
   {
     "id": "InventoryRudolfsMuesum",
@@ -40814,6 +41694,36 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/JSWE4NSA",
+    "type": "document",
+    "title": "Úmrtní oznámení 1902 - orlojík v Itálii"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/L5ZIH9Y7",
+    "type": "document",
+    "title": "Výstava průmyslová 1894"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/CXWLA2S4",
+    "type": "document",
+    "title": "Úmrtní oznámení 1902"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/H2EGGE3B",
+    "type": "document",
+    "title": "Inzerát 1888"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/SDU8VH35",
+    "type": "document",
+    "title": "Inzerát 1893"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/8WDC8QFZ",
+    "type": "document",
+    "title": "Inzerát 1892"
+  },
+  {
     "id": "VojtechFrantisekHrdy",
     "type": "webpage",
     "citation-key": "VojtechFrantisekHrdy",
@@ -40828,6 +41738,106 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/GS2IXPB6",
+    "type": "document",
+    "title": "rkp.3412_Erben.pdf",
+    "URL": "https://www.orloj.eu/download/rkp.3412_Erben.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          9,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/CVMC8JM6",
+    "type": "document",
+    "title": "Steinmesel měl údajně za ženu dceru Kateřin (1548)"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/NBCFSLDU",
+    "type": "document",
+    "title": "Krádež"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/6XGJBVX7",
+    "type": "document",
+    "title": "Archiválie"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/P38TJWJF",
+    "type": "document",
+    "title": "1566 Adam v učení u otce Hodinky pro biskupa Prusinovského"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/8BZ7JMYI",
+    "type": "document",
+    "title": "Adam měl ženu Kateřinu a nestačil před úmrtím děti"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/YRVGPT35",
+    "type": "document",
+    "title": "1602 Adam úmrtí"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/BPVC9ATL",
+    "type": "document",
+    "title": "1600 Koupě domu"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/7R2R2XD3",
+    "type": "document",
+    "title": "1600 Adam Frelich měšťanství na Starém městě"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/3XKQBXK8",
+    "type": "document",
+    "title": "1544, Orloj v Moravské Třebové\" (Knespl, 2022, p. 9)"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/TCT26T68",
+    "type": "document",
+    "title": "1585 první manželka Anna, získání měšťanství"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/UQKZWJ4P",
+    "type": "document",
+    "title": "1591 Zvon na Bílou Věž HK"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/XEVGINFZ",
+    "type": "document",
+    "title": "1598 se vdova Kateřina provdala, za Valentina Kochana z Prachové"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/TEZHMDVJ",
+    "type": "document",
+    "title": "Anna dcera Vavřince a Kateřiny si vzala Jana Čábu z Chýše a Špicberka, zemského prokurátora."
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/5CZUXMAK",
+    "type": "document",
+    "title": "Domy 1032, 1036C U hybernů"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/GREGHZJA",
+    "type": "document",
+    "title": "BACHÁČEK Z NAUMĚŘIC, Martin a Jiří ČERNÝ Z ČERNÉHO MOSTU. EPITHALAMIA IN HONOREM NVPTIARVM ... Dn. M. Thomae Kochan de P"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/QDTGSQWF",
+    "type": "document",
+    "title": "Winter reference na archiválie"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/97FS5D6C",
+    "type": "document",
+    "title": "Odkazy archiválie Winter"
   },
   {
     "id": "MestskeKnihyCechach",
@@ -40846,6 +41856,31 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/9WF25QVW",
+    "type": "document",
+    "title": "Hodiny Kratochvíle"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/KGNK6L5D",
+    "type": "document",
+    "title": "Anemometr"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/IU9A7AVM",
+    "type": "document",
+    "title": "Požár v roce 1508 zničil téměř celé město Trübau (Moravská Třebová), jehož domy byly převážně dřevěné, což vedlo k rozho"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/93Q9YM9K",
+    "type": "document",
+    "title": "\"Orloj v Moravské Třebové se nacházel na jedné z městských bran, takzvané Dolní. Nejednalo se pravděpodobně o astro"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/7F5FUXMY",
+    "type": "document",
+    "title": "1544 M. Třebová"
+  },
+  {
     "id": "ARchivONline",
     "type": "webpage",
     "citation-key": "ARchivONline",
@@ -40860,6 +41895,51 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/UUQIDLTN",
+    "type": "document",
+    "title": "1700. Pohled na moravskou třebovou, v pravo brána s hodinami 1"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/VWU2NXMI",
+    "type": "document",
+    "title": "1593-02-26 Vavřinec kontrola škod na hodinách"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/G4JK2J5I",
+    "type": "document",
+    "title": "1544 Obejdnávka hodin Kuřim"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/QKWGKG59",
+    "type": "document",
+    "title": "Korespondence Baboráková SOkA Litoměřice 2022"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/6V774SHT",
+    "type": "document",
+    "title": "1883 O plynovém automatu při hodinách na věži staroměstské vodárny a o pneumatickém zařízení hodin v Paříži přednášel v "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/NJVE2TPR",
+    "type": "document",
+    "title": "1871 Návrh na zřízení hodinářské školy"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/WVZ22TI9",
+    "type": "document",
+    "title": "1969 NTM Krečmer Malá strana"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/AAH8EWK9",
+    "type": "document",
+    "title": "1879 Katalog 3. odborné výstavy průmyslové {výrobků kovových} pořádané Jednotou ku povznesení průmyslu v Čechách "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/38UKRMMB",
+    "type": "document",
+    "title": "Welcome to Better Notes"
   },
   {
     "id": "VY_32_INOVACE_C0813",
@@ -41618,6 +42698,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/42KL3P2Z",
+    "type": "document",
+    "title": "(Fischer, 1966)"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/2CYZK5U6",
+    "type": "document",
+    "title": "2179 • 1584-1655 • Kniha svatebních smluv a kšaftovních kvitancí"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4IG3DZJ3",
+    "type": "document",
+    "title": "Malíř za vymalování číselníku podobnému olomouckému orloji"
+  },
+  {
     "id": "BigBenPreVictorian",
     "type": "webpage",
     "citation-key": "BigBenPreVictorian",
@@ -41989,6 +43084,86 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/77DWIDRZ",
+    "type": "document",
+    "title": "1891-01-11 Nabídka na transparentní hodiny pro Brno přijata na zasedání městsské rady"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/HQ3TK6CM",
+    "type": "document",
+    "title": "1885-09-18 Změna místnosti dílny Nuselské schody"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/2CMYVUA7",
+    "type": "document",
+    "title": "1885 Inzerát"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/PRJ4MVMT",
+    "type": "document",
+    "title": "1926 Krečmer (Václav?) zatčen"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/U6JK8EAM",
+    "type": "document",
+    "title": "1908 Jubilejní výstava obvodu obchodní a živnost. komory v Praze "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/YDTEVIX7",
+    "type": "document",
+    "title": "1894 Krečmer Antonín statkář v Hostivař Honitba 299 jiter"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/2B2WDB39",
+    "type": "document",
+    "title": "1898 Doporučení hodiny dodá Václav Krečmer a syn"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/JDH7CUSY",
+    "type": "document",
+    "title": "1879 Spolková medaile stříbrná za stroj hodinový, Okresní výstava hospodářská a hospodářsko-průmyslová v dnech 7. a 8. z"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/VLS9GUJI",
+    "type": "document",
+    "title": "1874 Krajinská výstava Hodiny zvláštní soustavy"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/TLAD2X5H",
+    "type": "document",
+    "title": "1866 Oprava Orloje, plynové osvětlení postranních hodin"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/T8XT5E89",
+    "type": "document",
+    "title": "1836 Bratr Jan Krečmer, soukromník"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/KVMXHRKW",
+    "type": "document",
+    "title": "1893 Bratři Josef (1834) malíř, Jan (1836) soukromník"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/K42EGWIG",
+    "type": "document",
+    "title": "1879-11-22 Vodárna staroměstská. Smlouva s Václavem Krečmarem "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/KRFVTIWB",
+    "type": "document",
+    "title": "1877 nar. syn Erwin, 1898 Bukovina"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/VIS65E3Y",
+    "type": "document",
+    "title": "1883 Německá Přednáška v Průmyslové jednoě o plynovém automatu a pneumatických hodinách."
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/9MMI6D52",
+    "type": "document",
+    "title": "ILLUMINATION OF CHURCH Professor Millington tprposes hat the dials of church clocks in stead of being illuminated by gas"
+  },
+  {
     "id": "brysonNewMethodIlluminating1842",
     "type": "article-journal",
     "citation-key": "brysonNewMethodIlluminating1842",
@@ -42030,6 +43205,36 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/5YSWXBSM",
+    "type": "document",
+    "title": "Robert Bryson invented an apparatus for turning on and shutting off gas which illuminated a translucent dial,"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/FA4IUCJU",
+    "type": "document",
+    "title": "1881  Alb Johann Luftdruckuhren Aarau "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/SFRTWX5J",
+    "type": "document",
+    "title": "1844 Narozen Hostivař 16, K Horkám 23, Dolejší mlýn"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/JUG47A6D",
+    "type": "document",
+    "title": "1874 nar. Václav, synovec, kmotřenec"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/XBTLETAL",
+    "type": "document",
+    "title": "1851 Velká výstava Londýn"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/7EZTFJBS",
+    "type": "document",
+    "title": "2129 37931 Challender J représenté par les St Josse ten Noode 27 sieurs Græchen et Cie Bruxelles "
   },
   {
     "id": "thurgarRegulatingSupplyGas1867",
@@ -42481,6 +43686,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/NLSFZ494",
+    "type": "document",
+    "title": "1878 Morgan improved gas lighter patent"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/IQWNLSDU",
+    "type": "document",
+    "title": "Der Gas Automat auf dem Altstädter Wasserthurme Im Gewerbverein hielt am leßten Sonntag Hr N Kretschmer Thurmuhrerzeuger"
+  },
+  {
     "id": "FotoDolejsiMlyn",
     "type": "webpage",
     "citation-key": "FotoDolejsiMlyn",
@@ -42495,6 +43710,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/398PT27G",
+    "type": "document",
+    "title": "1918/11/03 Úmrtí na zánět mozkových blan, v nemocnici na Vinohradech. Pochován na hřbitově v Hostivaři 5.11.1918"
   },
   {
     "id": "DeutscheBauzeitungBerlin",
@@ -42527,6 +43747,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/BAU4P3ZD",
+    "type": "document",
+    "title": "Victor Popp, jehož portrét zveřejňujeme, se narodil ve Vídni (Rakousko). Do Paříže přijel v roce 1878, v době konání Svě"
   },
   {
     "id": "VictorPopp1891",
@@ -42583,6 +43808,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/UBM2PAR7",
+    "type": "document",
+    "title": "1889 Das Poppsche Patent für komprimierte Luft wird neuerdings derart in den Himmel ge hoben als wenn der Stein der Weis"
+  },
+  {
     "id": "ParisPneumaticClock",
     "type": "webpage",
     "citation-key": "ParisPneumaticClock",
@@ -42629,6 +43859,31 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/RHJRENAR",
+    "type": "document",
+    "title": "1879 3. odborná výstava"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/QQGMZ554",
+    "type": "document",
+    "title": "1874 Pneumatické hodiny v denním tisku"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/INTGXWCN",
+    "type": "document",
+    "title": "1874 devatery číselníky Krečmer"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/BPUIZYVB",
+    "type": "document",
+    "title": "1885 Inzerát"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/73KJJ5EU",
+    "type": "document",
+    "title": "1878 Muybridge patent"
   },
   {
     "id": "weberTelegraphenundSignalwesenEisenbahnen1867",
@@ -42679,6 +43934,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/VQ6Q22MK",
+    "type": "document",
+    "title": "1884 Inzerát"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/QEYQYBRR",
+    "type": "document",
+    "title": "1903 Kalluš zvolen do představenstva Společenstva hodinářů"
+  },
+  {
     "id": "LandesarchivBadenWurttembergAbt",
     "type": "webpage",
     "citation-key": "LandesarchivBadenWurttembergAbt",
@@ -42693,6 +43958,16 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/38BQCHUB",
+    "type": "document",
+    "title": "1880 Pneumatický rozvod Kolomyje"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LPCWCLR5",
+    "type": "document",
+    "title": "1883 Hodinář dráhy cís FJ"
   },
   {
     "id": "souchierScienceTechniquesAu2019a",
@@ -42750,6 +44025,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LPX3BNN9",
+    "type": "document",
+    "title": "V železárnách hraběte von Wrbna v Hořovicích vyráběl hodiny s litými koly a rámy v Čechách již kolem roku 1810 český mec"
   },
   {
     "id": "kreutzbergBerichtBeurtheilungsCommissionUeber1833",
@@ -42948,6 +44228,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/E7PKZIZJ",
+    "type": "document",
+    "title": "1886 An Improved Penumatic Clock, A.M. Clark, London"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/PCZF52N5",
+    "type": "document",
+    "title": "1928 Pneumatic Clock Installatoin, Martin Fischer"
+  },
+  {
     "id": "GuteThurmuhr1889",
     "type": "article-journal",
     "citation-key": "GuteThurmuhr1889",
@@ -42968,6 +44258,26 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/LZEC27YJ",
+    "type": "document",
+    "title": "1876 1. Průmyslová výstava Řemeslnicko-živnostenské besedy v Praze"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/34WPHAEZ",
+    "type": "document",
+    "title": "ph_03_01.pdf",
+    "URL": "http://old.nacr.cz/E-publ/paginae/fulltext/3_1995/ph_03_01.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          6,
+          23
+        ]
+      ]
+    }
+  },
+  {
     "id": "maroszovaJednotaKuPovzbuzeni",
     "type": "book",
     "citation-key": "maroszovaJednotaKuPovzbuzeni",
@@ -42980,6 +44290,26 @@
         "given": "Jana"
       }
     ]
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/TXPAHAPH",
+    "type": "document",
+    "title": "1883 Přednáška v Průmyslové jednotě"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/BR4622QH",
+    "type": "document",
+    "title": "1879 III. odborná výstava jednoty ku povzbuzení průmyslu."
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/B9JAC6XC",
+    "type": "document",
+    "title": "1891 efemeridiální automat stroj na výstavě"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/8S2SR94J",
+    "type": "document",
+    "title": "1913/09/ Umrtí"
   },
   {
     "id": "ArchivniKataloga",
@@ -43014,6 +44344,41 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/49WQY6S8",
+    "type": "document",
+    "title": "1834 Bratr Josef Krečmer, akademický malíř"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/G84BTZUR",
+    "type": "document",
+    "title": "1894 Panorama Časopis turistů"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/L947R5ZH",
+    "type": "document",
+    "title": "1916 Václav Krečmer (synovec) Patent na ventil"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LHQJEC5A",
+    "type": "document",
+    "title": "1898 Krečmer a syn"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/V2U9TCK4",
+    "type": "document",
+    "title": "1871 Pokus na zřízení hodinářské školy"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/V4INFZI7",
+    "type": "document",
+    "title": "1902 Václav Krečmer (synovec) studuje na královské hospodářské akademii v Táboře"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/2QYNHIIE",
+    "type": "document",
+    "title": "1910 Výběr dodávky elektrických hodin. Krečmer prohrál s Heinzem."
+  },
+  {
     "id": "ryskaStaraHostivarHistorie2014",
     "type": "webpage",
     "citation-key": "ryskaStaraHostivarHistorie2014",
@@ -43044,6 +44409,41 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/MI36G3EI",
+    "type": "document",
+    "title": "1901 Karel Krečmer oo Marie Švehlová"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/BV2N5YSI",
+    "type": "document",
+    "title": "1891 Všeobecná zemská výstava Ephemeridální automat"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/V2WUP3HP",
+    "type": "document",
+    "title": "1883 Přednáška v němčině Ephemeridal Gasautomat"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/YVUXQB22",
+    "type": "document",
+    "title": "1882 Opočno 9-10. ledna instalce hodin do pravé věže kostela nesvětější trojice Opočno"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/VX8H64N6",
+    "type": "document",
+    "title": "1869 Založeno Logo"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/NYJ7FTI2",
+    "type": "document",
+    "title": "1885 Hodinář dráhy cís. Františka"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/43XZCJ83",
+    "type": "document",
+    "title": "1891 Panorama Petřínské bludiště"
   },
   {
     "id": "PrumyslovaVystavaRemeslnicke1874",
@@ -43081,6 +44481,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/PH92UDRK",
+    "type": "document",
+    "title": "1888 Dílna pod nuselskými schody"
   },
   {
     "id": "Archvalie1564",
@@ -43714,6 +45119,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/B9KAF5T4",
+    "type": "document",
+    "title": "V kalendáři Martina Horkého z Lochovic z roku 1613 se dny stále počítají na čtyřiadvacet hodin jako dříve a v Českých Bu"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/YNBVEISM",
+    "type": "document",
+    "title": "Im Jahre 1735 hat Andreas Gabriel Teicher von Ossegg eine Beschrei bung des kunstreichen Uhrwerkes auf dem Altstädter Ra"
+  },
+  {
     "id": "andreagabrielteicherBeschreibungKunstreichenUhrWercks1735",
     "type": "book",
     "citation-key": "andreagabrielteicherBeschreibungKunstreichenUhrWercks1735",
@@ -43733,6 +45148,26 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/KIZFB7XW",
+    "type": "document",
+    "title": "Muenster.pdf",
+    "URL": "https://www.aur.uni-rostock.de/storages/uni-rostock/Andere/AUR/Vergleich_mit_anderen_Uhren/Astronomie_und_Raumfahrt/Muenster.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          5,
+          24
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/I4DXBMMG",
+    "type": "document",
+    "title": "131202.pdf"
   },
   {
     "id": "kulhavyPrazskyDennik1881",
@@ -43802,6 +45237,31 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/T85ZMCQT",
+    "type": "document",
+    "title": "Živěna.pdf"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ISXH82BL",
+    "type": "document",
+    "title": "FOTODOKUMENTACEcast2.pdf"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/GN9VMFQY",
+    "type": "document",
+    "title": "FOTODOKUMENTACEcast1.pdf"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/DGNIUW39",
+    "type": "document",
+    "title": "G0536024-2.pdf"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/A5P9PNAR",
+    "type": "document",
+    "title": "FOTODOKUMENTACEcast3.pdf"
+  },
+  {
     "id": "SoumrakoveHodinyGoogle",
     "type": "webpage",
     "citation-key": "SoumrakoveHodinyGoogle",
@@ -43813,6 +45273,21 @@
           "2024",
           5,
           1
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/L88B6BR2",
+    "type": "document",
+    "title": "DP_Patrik_Parizek_Ceske_a_moravske_historicke_hodiny.pdf",
+    "URL": "https://theses.cz/id/i6oavl/DP_Patrik_Parizek_Ceske_a_moravske_historicke_hodiny.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          4,
+          24
         ]
       ]
     }
@@ -43864,6 +45339,36 @@
           "2024",
           5,
           1
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/VBZBUR88",
+    "type": "document",
+    "title": "Astronomicke_funkce_a_umeleckohistoricka_analyza_planetaria_P._Engelberta_Seige_1792_ve_sbirkach_Narodniho_technickeho_muzea_v_Praze.pdf",
+    "URL": "https://indico.fjfi.cvut.cz/event/127/contributions/2868/attachments/966/1332/Astronomicke_funkce_a_umeleckohistoricka_analyza_planetaria_P._Engelberta_Seige_1792_ve_sbirkach_Narodniho_technickeho_muzea_v_Praze.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          4,
+          24
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/UM9R7TJX",
+    "type": "document",
+    "title": "Astronomicke_funkce_a_umeleckohistoricka_analyza_planetaria_P._Engelberta_Seige_1792_ve_sbirkach_Narodniho_technickeho_muzea_v_Praze.pdf",
+    "URL": "https://indico.fjfi.cvut.cz/event/127/contributions/2868/attachments/966/1332/Astronomicke_funkce_a_umeleckohistoricka_analyza_planetaria_P._Engelberta_Seige_1792_ve_sbirkach_Narodniho_technickeho_muzea_v_Praze.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          4,
+          24
         ]
       ]
     }
@@ -44012,6 +45517,21 @@
       "date-parts": [
         [
           "2013"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/F8IYP5NT",
+    "type": "document",
+    "title": "AH_vol.23 No.05.pdf",
+    "URL": "https://contentfiles-media-eu-west-1.s3.dualstack.eu-west-1.amazonaws.com/ahs/private/documents/AH_vol.23%20No.05.pdf?AWSAccessKeyId=AKIARVFGCGTHLPTJ4SXS&Signature=Yun04FDPcq8H1Q6FEQ9p9UjDgL0%3D&Expires=1712303766#page=25",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          4,
+          5
         ]
       ]
     }
@@ -44202,6 +45722,36 @@
       "date-parts": [
         [
           "1880"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/SS8NALCA",
+    "type": "document",
+    "title": "KRAJ_KAMENU_01_13.pdf",
+    "URL": "https://www.cestyvenkova.cz/dokumenty/casopisy/kraj_kamenu/KRAJ_KAMENU_01_13.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          3,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/K64FEKYN",
+    "type": "document",
+    "title": "Turret-Clock-handbook.pdf",
+    "URL": "https://cccbr.org.uk/wp-content/uploads/2018/01/Turret-Clock-handbook.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          3,
+          13
         ]
       ]
     }
@@ -44635,6 +46185,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/N4VKD6CX",
+    "type": "document",
+    "title": "soap-kt_ap0543_02114_cech-zamecniku-susice.pdf",
+    "URL": "https://www.inventare.cz/pdf/soap-kt/soap-kt_ap0543_02114_cech-zamecniku-susice.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          2,
+          15
+        ]
+      ]
+    }
+  },
+  {
     "id": "SmrzJiriCechy",
     "type": "webpage",
     "citation-key": "SmrzJiriCechy",
@@ -44671,6 +46236,36 @@
       "date-parts": [
         [
           "2003"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LCGDK8VF",
+    "type": "document",
+    "title": "Uhrenstube-Manuskript-AFAHA.pdf",
+    "URL": "http://web10165.web4.mynet.at/wp-content/uploads/2017/06/Uhrenstube-Manuskript-AFAHA.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          1,
+          22
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/B7CXJ7QS",
+    "type": "document",
+    "title": "AXdD25q9IQjV7UfXlaKw.pdf",
+    "URL": "https://disk.cpilot.cz/muzeum-komenskeho/2021/01/AXdD25q9IQjV7UfXlaKw.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          1,
+          21
         ]
       ]
     }
@@ -44921,6 +46516,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/TJFA3MP9",
+    "type": "document",
+    "title": "content.pdf",
+    "URL": "https://books.googleusercontent.com/books/content?req=AKW5Qadn8DLTDVyK_wWciX8y-ZPrzlOhG5n8vIUOMNLnrmERc2580fsAienv0e4c-6XiZzDL7l1Lp8Ndzt3eI57uF8pfZAG55oCyDbGsBPm6wlY9z9nZQGEVWxdwdJatvUppbmt_q04V6rLnJdBGkGqqX7fQbb7zVk88SEDbBte5Q_S6-Q8IQSr3hPWD599deJv7CT1x0tUicslyPf-UTdphkF4Kv6f0vxljkAEcqiBnTvQNJoWmjmHjMu9vwL0HS1g2mrZa2cuB9fUo3pYRYNFnKfY9-cnrQKJhtJJlILWfQq5yZvp3Uhg",
+    "accessed": {
+      "date-parts": [
+        [
+          "2023",
+          11,
+          21
+        ]
+      ]
+    }
+  },
+  {
     "id": "mckayBigBenGreat2010",
     "type": "book",
     "call-number": "TS543.5.L6 M35 2010",
@@ -45001,6 +46611,21 @@
       "date-parts": [
         [
           "1907"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/JWE63XTD",
+    "type": "document",
+    "title": "Von Schyrle.pdf",
+    "URL": "http://www.koenig-inter.net/ahnenb/Von%20Schyrle.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2023",
+          11,
+          13
         ]
       ]
     }
@@ -45104,6 +46729,56 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/SB8QAL6Q",
+    "type": "document",
+    "title": "list0606.pdf",
+    "URL": "http://www.farnostujezd.cz/list0606.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2023",
+          8,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/PDDEREGC",
+    "type": "document",
+    "title": "Hodinarstvi.pdf",
+    "URL": "https://is.muni.cz/el/1421/podzim2005/DU1242/um/Hodinarstvi.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2023",
+          7,
+          27
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/C7E66EBN",
+    "type": "document",
+    "title": "2011-F4-analyza.pdf",
+    "URL": "http://www.interpi.cz/download/2011-F4-analyza.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2023",
+          7,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ESWS5PMU",
+    "type": "document",
+    "title": "21708589"
   },
   {
     "id": "SoupisPrazskehoObyvatelstva1877",
@@ -45641,6 +47316,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/U2ZDUR4W",
+    "type": "document",
+    "title": "17576-pdf.pdf",
+    "URL": "https://www.gutenberg.org/files/17576/17576-pdf.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2023",
+          5,
+          2
+        ]
+      ]
+    }
+  },
+  {
     "id": "DeutscheTurmuhrenSammlung",
     "type": "webpage",
     "abstract": "ein paar ausgewählte Exponate in Wort und Bild;. Turmuhren aus Deutschland",
@@ -45677,6 +47367,21 @@
       "date-parts": [
         [
           "1850"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/9XG4KIVE",
+    "type": "document",
+    "title": "met32zvony.pdf",
+    "URL": "https://www.npu.cz/publikace/met32zvony.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2023",
+          4,
+          27
         ]
       ]
     }
@@ -45933,6 +47638,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/I6SAFTUJ",
+    "type": "document",
+    "title": "Statni_okresni_archivy_web.pdf"
+  },
+  {
     "id": "patkovaLiberVetustissimusAntiquae2011",
     "type": "book",
     "citation-key": "patkovaLiberVetustissimusAntiquae2011",
@@ -46085,6 +47795,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/JS42FVKE",
+    "type": "document",
+    "title": "DGC+Domuhr+Frühjahr+2010.pdf"
+  },
+  {
     "id": "hermanndielsAntikeTechnikSechs1914",
     "type": "book",
     "abstract": "Book digitized by Google from the library of the University of Michigan and uploaded to the Internet Archive by user tpb.",
@@ -46214,6 +47929,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/IPKLZZ23",
+    "type": "document",
+    "title": "Preise_und_Lohne_in_Osterreich_Rechnunge.pdf"
+  },
+  {
     "id": "cunynghameTheoryPracticeClockmaking1908",
     "type": "article-journal",
     "citation-key": "cunynghameTheoryPracticeClockmaking1908",
@@ -46248,6 +47968,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/AQH7E375",
+    "type": "document",
+    "title": "323227113.pdf"
   },
   {
     "id": "machulkaStaromestskaVodarnaPraze1898",
@@ -46957,6 +48682,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/RGYQIQB8",
+    "type": "document",
+    "title": "BibliographicResource_2000069366718.pdf",
+    "URL": "https://proxy.europeana.eu/9200143/BibliographicResource_2000069366718?view=http%3A%2F%2Fpurl.ox.ac.uk%2Fuuid%2Fed68eb9a6084463189112ac917a16e15&disposition=inline&api_url=https%3A%2F%2Fapi.europeana.eu%2Fapi",
+    "accessed": {
+      "date-parts": [
+        [
+          "2023",
+          2,
+          17
+        ]
+      ]
+    }
+  },
+  {
     "id": "feldhausTechnikVorzeitGeschichtlichen1914",
     "type": "book",
     "abstract": "Paged by column",
@@ -47038,6 +48778,21 @@
       "date-parts": [
         [
           "1949"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/3R4QSVLS",
+    "type": "document",
+    "title": "poster2023template.pdf",
+    "URL": "https://poster.fel.cvut.cz/poster2023/poster2023template.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2023",
+          2,
+          5
         ]
       ]
     }
@@ -47256,6 +49011,36 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/SMAC5M4J",
+    "type": "document",
+    "title": "Priloha_c.8-Dejiny_Hradce_Kralove__2._dil__1.pdf",
+    "URL": "https://theses.cz/id/t9ygsb/Priloha_c.8-Dejiny_Hradce_Kralove__2._dil__1.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          12,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/WPXIYNQ2",
+    "type": "document",
+    "title": "SubrtovaV_Hodiny_orlojove_MC_2018.pdf",
+    "URL": "https://dk.upce.cz/bitstream/handle/10195/71885/SubrtovaV_Hodiny_orlojove_MC_2018.pdf?sequence=1&isAllowed=y",
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          12,
+          8
+        ]
+      ]
+    }
+  },
+  {
     "id": "solarDejepisHradceKralove1870",
     "type": "book",
     "citation-key": "solarDejepisHradceKralove1870",
@@ -47334,6 +49119,21 @@
       "date-parts": [
         [
           "1878"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/NTEW7BIR",
+    "type": "document",
+    "title": "File.pdf",
+    "URL": "https://www.munovapaka.cz/assets/File.ashx?id_org=10512&id_dokumenty=312500",
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          12,
+          1
         ]
       ]
     }
@@ -47581,6 +49381,26 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/HJRFQSDK",
+    "type": "document",
+    "title": "AH_vol.38_No.03.pdf",
+    "URL": "https://contentfiles-media-eu-west-1.s3.dualstack.eu-west-1.amazonaws.com/ahs/private/documents/AH_vol.38_No.03.pdf?AWSAccessKeyId=AKIARVFGCGTHLPTJ4SXS&Signature=dicOkr2poUxuIVUHEFXpfzkfVh8%3D&Expires=1668727933#page=38",
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ED47PUFP",
+    "type": "document",
+    "title": "AXdD27uwIQjV7UfXlaMm.pdf"
+  },
+  {
     "id": "VezniHodinyAukce",
     "type": "webpage",
     "citation-key": "VezniHodinyAukce",
@@ -47731,6 +49551,26 @@
       "date-parts": [
         [
           "1966"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/NWQYD28I",
+    "type": "document",
+    "title": "Exlibris Karl Fischer.jpg"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/5JK6X94C",
+    "type": "document",
+    "title": "Horloge-de-Besancon.pdf",
+    "URL": "http://astroaspach.fr/astroaspachV2/wp-content/uploads/2021/02/Horloge-de-Besancon.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          11,
+          3
         ]
       ]
     }
@@ -48008,6 +49848,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/SWSXLEIJ",
+    "type": "document",
+    "title": "List Purkmistra Přepis Praha.docx"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/WFKJEIT9",
+    "type": "document",
+    "title": "29_Organizace_digitálního_zpracování_dokumentu_Hruška.pdf"
+  },
+  {
     "id": "PublikaceAlenaSolcova",
     "type": "webpage",
     "citation-key": "PublikaceAlenaSolcova",
@@ -48022,6 +49872,36 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/8HBFK9DA",
+    "type": "document",
+    "title": "User manual OCR.pdf"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/XHTNRTHN",
+    "type": "document",
+    "title": "574.pdf",
+    "URL": "https://www.elsevier.com/wps/find/journaldescription.cws_home/574?generatepdf=true",
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          10,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/S4IDQV5N",
+    "type": "document",
+    "title": "Krajnik_Poznamkyostaromestskemorloji_1957-11-22.pdf"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/7KT4KCCL",
+    "type": "document",
+    "title": "dejiny_remesla_a_obchodu.pdf"
   },
   {
     "id": "henrikrantzauHenriciRanzouiiCatalogus1584",
@@ -48468,6 +50348,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/2JMS7BPI",
+    "type": "document",
+    "title": "HT_July_2019-MembersOnly.pdf",
+    "URL": "https://www.awci.com/wp-content/uploads/2019/06/HT_July_2019-MembersOnly.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          9,
+          16
+        ]
+      ]
+    }
+  },
+  {
     "id": "bozekUberMercurialPendel",
     "type": "manuscript",
     "citation-key": "bozekUberMercurialPendel",
@@ -48543,6 +50438,26 @@
       "date-parts": [
         [
           "1851"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/Y2UY6XD5",
+    "type": "document",
+    "title": "speech_final_web.pdf"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/L49A2FD5",
+    "type": "document",
+    "title": "5182723.pdf",
+    "URL": "https://theses.cz/id/u59vfv/5182723",
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          9,
+          1
         ]
       ]
     }
@@ -48751,6 +50666,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/BF4KQD9E",
+    "type": "document",
+    "title": "Zeměměřič.ocr.pdf"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/U8WVLC2D",
+    "type": "document",
+    "title": "Zeměměřič.ocr.pdf"
+  },
+  {
     "id": "karelb.madl.ZavetJanaOrnyse1893",
     "type": "article-journal",
     "archive_location": "BOA001",
@@ -48840,6 +50765,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/GI26PZHN",
+    "type": "document",
+    "title": "Die_Kunst_in_Prag_zur_Zeit_Rudolf_II._-_Vortrag,_gehalten_im_Kunstgewerblichen_Museum_am_6._und_13._März_1904_(IA_diekunstinpragzu00chyt).pdf"
   },
   {
     "id": "BohemiaJahrbuchCollegium1967",
@@ -49166,6 +51096,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/QZ8U3IQC",
+    "type": "document",
+    "title": "IMG_9921.JPG"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/NFJL8ATN",
+    "type": "document",
+    "title": "orlojík prezentace CSH.pptx"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/QXFJFJA6",
+    "type": "document",
+    "title": "Josef ŠTĚPÁNEK Litomyšlský graduál, in Výroční zpráva c. k. Státní školy střední v Litomyšli, Litomyšl 1887, 1-24..jpg"
+  },
+  {
     "id": "bernasconiMaterialHistoriesTime2020",
     "type": "book",
     "citation-key": "bernasconiMaterialHistoriesTime2020",
@@ -49315,6 +51260,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/RNFEWNDZ",
+    "type": "document",
+    "title": "šírek.txt"
   },
   {
     "id": "bettsQuestPrecisionAstronomy2022",
@@ -49679,6 +51629,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/AXKC5EQL",
+    "type": "document",
+    "title": "OKRUHY PRO PŘÍPRAVU K TESTU HVT.docx"
+  },
+  {
     "id": "belinaCeskeZemeEvropskych2006",
     "type": "book",
     "citation-key": "belinaCeskeZemeEvropskych2006",
@@ -49936,6 +51891,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/8CNI53EM",
+    "type": "document",
+    "title": "SpisyFF_361-2006-1_9.pdf",
+    "URL": "https://digilib.phil.muni.cz/bitstream/handle/11222.digilib/123609/SpisyFF_361-2006-1_9.pdf?sequence=1",
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          5,
+          3
+        ]
+      ]
+    }
+  },
+  {
     "id": "chytraeusVariorumEuropaItinerum1606",
     "type": "book",
     "abstract": "Place of publication suggested by N.Y.P.L; Signatures: ):(⁸ A-2S⁸ (2S8 verso blank); On p. 599-614 are reprinted the Latin legends of Sebastian Cabot's map; JCB Lib. cat., pre-1675; Sabin; John Carter Brown Library copy is bound in contemporary vellum",
@@ -49978,6 +51948,41 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/TSS2UFM8",
+    "type": "document",
+    "title": "Teige Taborský Zpráva o orloji staroměstském.doc"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/JE8H6VEW",
+    "type": "document",
+    "title": "Slavnost říjnová v Praze.docx"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/3Z3UCI7F",
+    "type": "document",
+    "title": "Sitzungsberichte der Königlichen Böhmischen Gesellschaft 1868.pdf"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/XABMMHDU",
+    "type": "document",
+    "title": "Romuald Bozek UAU.doc"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/EVBJDAGM",
+    "type": "document",
+    "title": "posudky Politik.doc"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/DL7TBEQS",
+    "type": "document",
+    "title": "Politik  1866 04 07 Hornstein.pdf"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/FMFT2WTR",
+    "type": "document",
+    "title": "Pruvodce po radnici staromestské 1893.pdf"
   },
   {
     "id": "schulteLexikonUhrmacherkunstHandbuch1902",
@@ -60801,6 +62806,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/TSATSRC2",
+    "type": "document",
+    "title": "1881/05/21 Instalace Liškovy kopie"
+  },
+  {
     "id": "zbyneksvitakMapovaZobrazeni2014",
     "type": "chapter",
     "citation-key": "zbyneksvitakMapovaZobrazeni2014",
@@ -60972,6 +62982,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/Q56GQX7U",
+    "type": "document",
+    "title": "Julius Grohmann Otec, obchodník, narozen 1822 Niedorf"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/2DRB2B88",
+    "type": "document",
+    "title": "Inzerát otevření krámu v Litoměřicích"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/F2H687KF",
+    "type": "document",
+    "title": "Nordwestböhmischer Uhrmacherverband Unser Verband hielt seine Hauptversammlung am 9 Juni in Leitmeritz ab Dieselbe war t"
+  },
+  {
     "id": "frickSectionIIUhren1873",
     "type": "chapter",
     "citation-key": "frickSectionIIUhren1873",
@@ -61034,6 +63059,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/WJDBI5E2",
+    "type": "document",
+    "title": "1872 Snaha o zřízení hodinářské školy"
+  },
+  {
     "id": "PrazskyDennikGoogle",
     "type": "webpage",
     "citation-key": "PrazskyDennikGoogle",
@@ -61064,6 +63094,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/36JHH2K6",
+    "type": "document",
+    "title": "Na radniční věž se vrátil čas"
   },
   {
     "id": "AXdD25q9IQjV7UfXlaKwpdf",
@@ -61138,6 +63173,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/4EUMTQRQ",
+    "type": "document",
+    "title": "Rudolf Thóndel sen. před hodinářstvím, Rudolf Thóndel sen. při výrobě věžních počátek 20. století, hodin, počátek 20. st"
+  },
+  {
     "id": "LHAINZVyrabimeRekonstruujeme",
     "type": "webpage",
     "citation-key": "LHAINZVyrabimeRekonstruujeme",
@@ -61180,6 +63220,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/5RSD74KT",
+    "type": "document",
+    "title": "1378. [Oktober]: Dominica [Okt. 24] ante Symonis et Jude pro honore civibus Budissinensibus 12 gr. Vor hornsalbe und sme"
   },
   {
     "id": "simaAstronomieKlementinumAstronomy2001",
@@ -61538,6 +63583,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/AGMJFS2Z",
+    "type": "document",
+    "title": "Litoměřice "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/N4HC7K6T",
+    "type": "document",
+    "title": "Biskup Vilém Prušinovský z Víckova (1565-1572)"
+  },
+  {
     "id": "n.a.kheilKratkePopsaniCeske1901",
     "type": "article-journal",
     "citation-key": "n.a.kheilKratkePopsaniCeske1901",
@@ -61594,6 +63649,21 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/86S576K2",
+    "type": "document",
+    "title": "1824 Geist Privilegium"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/Z53PLKE3",
+    "type": "document",
+    "title": "30 März 1824 Decret  Geist"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/GKW4RJEB",
+    "type": "document",
+    "title": "Wagner"
+  },
+  {
     "id": "maschinen-fabriks-gesellschaftHundertjaehrigeGeschichteErsten1921",
     "type": "book",
     "citation-key": "maschinen-fabriks-gesellschaftHundertjaehrigeGeschichteErsten1921",
@@ -61616,6 +63686,46 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/EBEEWT2A",
+    "type": "document",
+    "title": "1849 Zap, Zeměpis Čech uvádí u Hořovic, že se zde vyrýbějí ve slévárnách věžní hodiny"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/JP45V2QX",
+    "type": "document",
+    "title": "1836 Luz vystavuje litinové hodiny na průmyslové výstavě v Brně"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/39NU35NQ",
+    "type": "document",
+    "title": "Gegoffene, eiserne Thurm- Uhren zu Horzowitz in Böhmen.."
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4RK9VJDV",
+    "type": "document",
+    "title": "Kossek snaha o založení hodinářské školy"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/FFZIFJAJ",
+    "type": "document",
+    "title": "1883 Plynový automat na Staroměstské vodárenské věži Pan W. Kretschmer, výrobce a konstruktér věžních hodin, měl minulou"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/PPS9EJLX",
+    "type": "document",
+    "title": "1877 Staroměstská vodárna hodiny a automatické plynové osvětlení(“Statistická zpráva hlavního města Prahy, spojených obc"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/KIC4AXNM",
+    "type": "document",
+    "title": "1877 Pobytová přihláška"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/FLG4CPJF",
+    "type": "document",
+    "title": "inzerát "
   },
   {
     "id": "CtvrtoveHodinyVodarenske",
@@ -61698,6 +63808,16 @@
     ]
   },
   {
+    "id": "http://zotero.org/users/1916830/items/94FZH9I6",
+    "type": "document",
+    "title": "1810 Litinové věžní hodiny Neues journal 1810"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LU33C7JB",
+    "type": "document",
+    "title": "Die Uhrenfabrikation in Böhmen Mit der Fabrikation der Uhren in Böhmen beschäftigt sich vorzüglich Herr Karl Suchy k lan"
+  },
+  {
     "id": "HodinarstviENCYKLOPEDIECESKUCH",
     "type": "webpage",
     "citation-key": "HodinarstviENCYKLOPEDIECESKUCH",
@@ -61731,6 +63851,21 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/7Z7T78ZQ",
+    "type": "document",
+    "title": "1896 Dílna v Karlíně"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/9VEVE6AQ",
+    "type": "document",
+    "title": "1896 Hodiny Kralupy"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/P4FKQXNA",
+    "type": "document",
+    "title": "1908 Jubilejní výstava, kandelábrové hodiny"
   },
   {
     "id": "GeschichteKarlsteinerUhrmacherei",
@@ -61782,6 +63917,26 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/L5ZYQRXP",
+    "type": "document",
+    "title": "1863 Hodiny na pražské technice cena v Wachovi"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/K2NLJWH8",
+    "type": "document",
+    "title": "1850 V Berounsku. Hořovice, Komarov a Jince, hr. Vrbny © ; sklad v Praze\" II. 402, má 4 vysoké pece, 13 frišných ohňů, 4"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/AIIZYVQL",
+    "type": "document",
+    "title": "V ústavních dílnách byly také vytvořeny některé prototypy, kterých se ujala sériová výroba, jako např. Božkovy velké lit"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LWBFXWB7",
+    "type": "document",
+    "title": "1831 výstava "
+  },
+  {
     "id": "FAVCPDCVUT",
     "type": "webpage",
     "citation-key": "FAVCPDCVUT",
@@ -61796,6 +63951,21 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LMSERZHA",
+    "type": "document",
+    "title": "Rudolf hrabě z Vrbna (1761 - 1823)"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ZVDMAA6J",
+    "type": "document",
+    "title": "1836/08/18 Luz vystaveny litinové hodiny v Brně"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/8YPGWJ7G",
+    "type": "document",
+    "title": "inzerát"
   },
   {
     "id": "FrantisekMoravusProfil",
@@ -61826,6 +63996,46 @@
         "given": "Wolfgang"
       }
     ]
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/5WRRPUD8",
+    "type": "document",
+    "title": "Denison Cast iron wheels"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/VNB2PZ3U",
+    "type": "document",
+    "title": "Planetárium může být považováno za aplikaci geocentrického modelu, alespoň z hlediska vizualizace. V planetáriích se zob"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/26Q57FVR",
+    "type": "document",
+    "title": "1829 Hodiny na polytechnickém institutu ve Vídni"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4WXTU9UK",
+    "type": "document",
+    "title": "1836 Litinové hodiny Luz na výstavě v Brně"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/WB4NZ5P7",
+    "type": "document",
+    "title": "Luz hodiny brüner zeitung 1834"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/B3D3E8QY",
+    "type": "document",
+    "title": "články o hodinách"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/AKQPAJ5G",
+    "type": "document",
+    "title": "Božek Litinové hodiny ČVUT"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/AYFLYQHH",
+    "type": "document",
+    "title": "1836 První Brněnská strojírna Luz - litionové věžní hodiny"
   },
   {
     "id": "biographieLuzHeinrichAlexander",
@@ -61868,6 +64078,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/9VWP4T3V",
+    "type": "document",
+    "title": "DE JODE, CORNELIS c. 1509-91"
   },
   {
     "id": "Fabricius_paulBiobibliographischesHandbuch",
@@ -61933,6 +64148,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/MAHD7QL3",
+    "type": "document",
+    "title": "Bohemia: ein Unterhaltungsblatt. 1857,2 "
+  },
+  {
     "id": "brittonPtolemysDeterminationObliquity1969",
     "type": "article-journal",
     "citation-key": "brittonPtolemysDeterminationObliquity1969",
@@ -61984,6 +64204,26 @@
     ]
   },
   {
+    "id": "http://zotero.org/users/1916830/items/54ICZ39R",
+    "type": "document",
+    "title": "V SOUPISU PRAŽSKÉHO OBYVATELSTVA"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/QTSAMWLD",
+    "type": "document",
+    "title": "1840 Inzerát Intelligenzblatt zur Prager Zeitung "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/3JMTFNJ6",
+    "type": "document",
+    "title": "1839 Svatba"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/QV9KRMBE",
+    "type": "document",
+    "title": "1876 Zemřel"
+  },
+  {
     "id": "GuenterKleinWer",
     "type": "webpage",
     "abstract": "Der Historiker Günter Klein hat heute in einem Leserbrief an die rumänische Zeitung Mesagerul de Bistrița geschichtliche Hintergrundinformationen zum Kirchturm geliefert, der am Abend des 11. Juni 2008 einem Brand zum Opfer gefallen ist. Der Siebenbürger Sachse fordert Aufklärung über die Urache und Verantwortlichen der Katastrophe, sichert aber auch die Hilfe seiner im Ausland lebenden Landsleute zu. Der Leserbrief wird in deutscher Übersetzung wiedergegeben.",
@@ -62026,6 +64266,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/4LBB6RKF",
+    "type": "document",
+    "title": "1794 Eliáš Landesperger se usadil ve Vodňanech, přišel ze Strakonic"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/H3WU8HW2",
+    "type": "document",
+    "title": "1736 Sebastian věžní hodiny Klementinum"
+  },
+  {
     "id": "OhlasOdNezarky1922",
     "type": "article-journal",
     "citation-key": "OhlasOdNezarky1922",
@@ -62048,6 +64298,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/QGHE2P9G",
+    "type": "document",
+    "title": "Literatura k hodinářství"
+  },
+  {
     "id": "PragerZeitung1844",
     "type": "article-newspaper",
     "citation-key": "PragerZeitung1844",
@@ -62066,6 +64321,26 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ZY6AJLEM",
+    "type": "document",
+    "title": "Hořovické knížecí železárny Vrbnů v Komárově "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/7P86ABDF",
+    "type": "document",
+    "title": "Hodiny na Cibulce"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/CY3UFT7N",
+    "type": "document",
+    "title": "\"Hubert Deser, slavný hodinář, se narodil v Nových Hradech v roce 1713 a absolvoval studium humanitních věd v červnu toh"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/B85ZHPCG",
+    "type": "document",
+    "title": "K vlastnímu jménu používal bych pravopis Landesberger. Uvádí se tak v matrice. Na jiném místě v matrice (též na těch hod"
   },
   {
     "id": "RadnicniHodinyOficialni",
@@ -62136,6 +64411,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/FN32A7TI",
+    "type": "document",
+    "title": "1907 Inzerát"
+  },
+  {
     "id": "JosefJiriBohm",
     "type": "webpage",
     "citation-key": "JosefJiriBohm",
@@ -62174,6 +64454,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/CHI6V7GJ",
+    "type": "document",
+    "title": "Antonín Maria Schyrle z Rheity, známý také jako Pater Rheita, byl český kapucín a vědec, který se narodil na konci 16. s"
   },
   {
     "id": "WDBWolfenbuttelerDigitale",
@@ -62243,6 +64528,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/7W6RQE6J",
+    "type": "document",
+    "title": "Hodinář, Hradec králové, Vystavoval v Paříži 1867"
+  },
+  {
     "id": "s.r.oZvoniceObecHrubcice",
     "type": "webpage",
     "abstract": "Uprostřed vesnice stojí vysoká čtyřhranná zvonice, která byla postavena v roce 1769, za panování císařovny Marie Terezie. Tato zvonice se začala stavět 30. března 1769 a byla dostavěna ještě téhož roku. Za postavení dostali zedníci 100 rýnských hotových peněz. Základní kámen posvětil kralický děkan Ondřej Markytán. Je uložen směrem ke dnešní škole,tehdejšímu panskému domu. Tento kámen váží 30 q /starý cent = 56 kg. Když při opravě byla ze zvonice sundána věž, byla nalezena stará listina, která obsahovala výše již zmíněnou zprávu a dále, že tenkrát pominula stará měřice. Byla nahrazena novou měřicí tříčtvrteční a obilí se platilo za měřici, při ječmenu, jeden rýnský 54 krejcarů. Roku 1827 byl přelit zvon na zvonici nákladem 7 zlatých 32 krejcarů. Nápis na tomto zvonu zněl: Per Leopoldum Franc. Stanke Olomucii 1827. Refusa sumptibus com. Hrubschitz. (Od Leopolda Stanka v Olomouci r. 1827. Znova přelit nákladem obce Hrubčické). Po žních roku 1893 byla při zvonici postavena mostní váha, jejíž náklady si vyžádaly částku 500 zlatých. Váhu dodala firma Vojtěch Pelikán a syn v Praze. Protože břidlicové střecha i vazba na zvonici byly sešlé, pořízeny koncem měsíce prosince roku 1909 nové krovy a střecha pokryta eter- I nitem. Nova byla pořízena také báně. Veškeré náklady na tuto opravu hradila obec ze svých peněz. Roku 1910,v měsících květnu a červnu, byla provedena celková venkovní oprava zvonice. Tato oprava stála 551 korun 60 haléřů. 21. listopadu 1914 byly uvedeny do provozu nové věžní hodiny na zvonici,které byly pořízeny přičiněním starosty obce Františka Hoška. Hodiny dodal hodinář František Moravus v Brně. Obec mu za ně zaplatila 1130 korun. 11. září 1917 byl zvon na zvonici zrekvírován státem pro válečné účely. Ze sbírek a milodarů, které vynesly asi 8 000 korun, byl pořízen nový zvon na zvonici. Tento byl zavěšen 3. března 1921 a poprvé se na něj zvonilo 6. března téhož roku. V roce 1997 byla na náklady zvonice obce znovu zrenovovaná.",
@@ -62310,6 +64600,31 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/XPBLNU6J",
+    "type": "document",
+    "title": "1846. HODINY V KOSTELE SV. MIKULÁŠE V HORNÍ BRUSNICIhttps://www.hornibrusnice.cz/aktuality?id=232820&action=detail&oid=3"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/Z9ZN256C",
+    "type": "document",
+    "title": "1848 Chomutov véž bývalého jezuitského gymnázia."
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/I65AF5CX",
+    "type": "document",
+    "title": "1852 Stroj na pilníky"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/Z62I9H8I",
+    "type": "document",
+    "title": "1851 Toužim hodiny"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/42ABHVJ6",
+    "type": "document",
+    "title": "Záznamy v matrice u panny Marie Sněžné"
+  },
+  {
     "id": "HodinyVIIIJiri",
     "type": "webpage",
     "abstract": "Hodiny od hodináře Franz Summerecker, instalace nejspíše 1911. Vyroben v roce 1881.",
@@ -62354,6 +64669,111 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ERARCCIZ",
+    "type": "document",
+    "title": "1876 Průmyslová výstava, volný krok, oddělené válce"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/F9F94ZC2",
+    "type": "document",
+    "title": "1854 Palárikovo - Totmeděr, Kostel"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/K4PRFGYT",
+    "type": "document",
+    "title": "1876 Na místě dílny nová firma Dvořák a Pštross"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/THXGYBMN",
+    "type": "document",
+    "title": "1847 Hodiny na Klárově ústavu nevidomých, 1870 jejich Oprava "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/UH3MVR5Z",
+    "type": "document",
+    "title": "1848 Mariánské lázně, Kostel Nanebevzetí Panny Marie , graham v kamenech"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/DU8F8X78",
+    "type": "document",
+    "title": "1866 Trutnov kostelní věž instalace hodin během pruské okupace"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/J7DEFQC6",
+    "type": "document",
+    "title": "1850/06/03 Březno u Chomutova hodiny dar Biskupa  Karla Hebla z Hradce Králové"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/EDG9F9WX",
+    "type": "document",
+    "title": "1851 Toužim"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/5A4NC3VJ",
+    "type": "document",
+    "title": "1854 Hodiny na zámek Ploskovice Cavalier Pavillon dnešní škola"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/563DLVDB",
+    "type": "document",
+    "title": "Chotkův palác Novodvorská, Malá strana (dnešní Helichova) bydlel"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/B7TZQL8X",
+    "type": "document",
+    "title": "1830/07/31 Dcera Marie"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/SUS2YQKU",
+    "type": "document",
+    "title": "Otec Franz Summerecker truhlář v Praze"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/XJ7QRL4I",
+    "type": "document",
+    "title": "1828/11/16 Syn Franz"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/6GNJ29NA",
+    "type": "document",
+    "title": "1891/08/21 Zemřel, na Malé Straně 393"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/MFLQ3385",
+    "type": "document",
+    "title": "1832 Syn Ferdinand stavař, architekt"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/QC2CHX88",
+    "type": "document",
+    "title": "1899 Věžní hodiny na prodej. Ústřední Matice  školská obdržela darem od p. cis. rady Summerreckra  z Vidně dvoje věžní h"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/8UG423I6",
+    "type": "document",
+    "title": "1871 Prodej domu"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/29GRPGCI",
+    "type": "document",
+    "title": "1852 stroj na výrobu pilníků"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/3IXXQB9J",
+    "type": "document",
+    "title": "1856 V Haliči"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/M8UYHF83",
+    "type": "document",
+    "title": "1871 Oprava Lorety"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/X2BRUG42",
+    "type": "document",
+    "title": "1802 Narozen - Aufnamsbogen 1836  Summerrëcker, Franz"
   },
   {
     "id": "DreveneKostelyZvonice",
@@ -62419,6 +64839,21 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/YB9LAWLN",
+    "type": "document",
+    "title": "1875 Nasavrcký řezby v kostele sv. Vojtěcha"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/XLNDGN6J",
+    "type": "document",
+    "title": "Horský, Procházka uvádí poprsí Petra a Pavla jako původní, ale v té době je v Muzeu Prahy neidentfikoval"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/PAYEFZJ6",
+    "type": "document",
+    "title": "Teige Kojetice"
   },
   {
     "id": "BOZEKRomuald7218143041899",
@@ -62516,6 +64951,76 @@
     ]
   },
   {
+    "id": "http://zotero.org/users/1916830/items/TMB5N8EE",
+    "type": "document",
+    "title": "1865/06/24 Sochařská výzdoba Wenzel Stadnik"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ALZAK5P8",
+    "type": "document",
+    "title": "In der Politik vom 10 d M Nr 9 ist ein welches wörtlich so lautet Erklärung Der in 6 der Bohemia vom 8 d M am Mondmechan"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4Y4HVPYS",
+    "type": "document",
+    "title": "1866/01/06 Bohemia: K historii radničních hodin."
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/THPAPHMC",
+    "type": "document",
+    "title": "1864/07/17 Tagesbote: Zpráva komise"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/SSRBSSNZ",
+    "type": "document",
+    "title": "1864/06/19 Tagesbote: Aus den Verhandlungen des Prager Stadtrathes - ustanovení komise"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/Z3P4E667",
+    "type": "document",
+    "title": "1864/06/19 Tagesbote:  Shromáždění před  Orlojem, prohlášení o opravitelnosti"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/SKK8XHS5",
+    "type": "document",
+    "title": "Hodinář Vavřinec, byl vlastně hodinář, nadaný od císaře právem slévati (1589) cymbály; měšťan na Nov. m. Jahrb. XII., 82"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/FPYIR79N",
+    "type": "document",
+    "title": "1493 Hodiny mistr Hanuš z Prahy"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/242XSE9Y",
+    "type": "document",
+    "title": "1585 Hodiny na bíle věži, Vavřinec"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/7BXNH47R",
+    "type": "document",
+    "title": "1519 Chrám matky boží nanáměstí v Kutmé hoře, Balzar hodinář"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/MFPL4XBS",
+    "type": "document",
+    "title": "1509 Kostel svatého Vavřince (Kaňk), Balzar Hodinář, mistr Kunrát"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/RCG9MCDC",
+    "type": "document",
+    "title": "1656 vyobrazíní orloje na radnici"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/6Z7P4RRX",
+    "type": "document",
+    "title": "1445 Zámečník Matěj správcem hodin, hodny z Hradce nad Labem (Hanuš?)"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/R5PY7J4A",
+    "type": "document",
+    "title": "1888 Inzerát věžní hodiny v kamenech"
+  },
+  {
     "id": "JablonecanumMeriCas",
     "type": "webpage",
     "abstract": "Westminsterskému paláci v Londýně a České pojišťovně v Jablonci nad Nisou měří čas stejné hodiny.",
@@ -62549,6 +65054,61 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/GN5LM3KA",
+    "type": "document",
+    "title": "Biografie a prosopografie v oblasti historie vědy a techniky. Datbáze hodinářů. Vazba na databázi artefaktů."
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/GM9S4CES",
+    "type": "document",
+    "title": " Děkanský chrám Nanebevzetí P. Marie  v Německém Brodě.  Od kn. Jeronýma Solare. "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/GK8PNIMA",
+    "type": "document",
+    "title": " (Pražské Noviny z 5. března r. 1846. Č. 19. S. 79.)  Staročeské hodiny na naší radnici staroměstské,1)  které již po ně"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/EZ2QT5HZ",
+    "type": "document",
+    "title": "1747 Na věži nalézaly se  také staročeské hodiny orloj, které také  při požáru r. 1747 zničeny byly. "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/MN2WTGNU",
+    "type": "document",
+    "title": "1581 Zvon"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/JSBEQVSK",
+    "type": "document",
+    "title": "1875 Oprava"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/TRDSSNMK",
+    "type": "document",
+    "title": "1589 Požár, zničil orloj na velké věži"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/SRNJ7IKR",
+    "type": "document",
+    "title": ". Městské radnici tehdejší bylo něco prese sto let. Stavěli ji hned po husitské válce, ve kteréž Rakovník i s kostelem v"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/N2SRBU5B",
+    "type": "document",
+    "title": "\" Dle posledního sčítání lidu v Předlítavsku sestavena jsou následující data, co se týče zaměstnání, stavu a výživy obyv"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/YUA932QP",
+    "type": "document",
+    "title": " Až do r. 1791 zdobil Šindelářskou bránu orloj staročeský, jenž ukazoval a bil 24 hodin; oné pak doby sundán a upraveny "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/5M67APY2",
+    "type": "document",
+    "title": "Oprava 1911"
   },
   {
     "id": "VyzdobaPrazskehoOrloje",
@@ -62601,6 +65161,81 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/A59JFQN7",
+    "type": "document",
+    "title": "1948 Staroměstský orloj obnoven"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/H95HGL3C",
+    "type": "document",
+    "title": "1865/06 Kladení a podbíjení podlahy v 1. patře"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LLWLHHE5",
+    "type": "document",
+    "title": "Rosický má Petra a Pavla také za původní"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/IQFSKBZI",
+    "type": "document",
+    "title": "1870 Krečmer přijat do Průmyslové jednoty"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/48XVU977",
+    "type": "document",
+    "title": "Radnice stavěna s Černou věží 1559. Staročeský orloj na západním štítě, přemístěný na černou věž."
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/D4NR74T7",
+    "type": "document",
+    "title": "Orloj na věží připomíná se již roku 1520"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ZT7DERAB",
+    "type": "document",
+    "title": "Ve výši prvého patra nalézal se staročeský čtyřiadvacetihodinový orloj, upomínající na orloj staroměstský v Praze. Že by"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/7SGYHWTJ",
+    "type": "document",
+    "title": "LOUNSKÁ BRÁNA tvořila střed západní části hradeb. Z historických zpráv o ní podáváme: Roku 1565 dán na bránu nový krov c"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/P3TDYZ6J",
+    "type": "document",
+    "title": "1896 Radniční věž, na ní dány hodiny z kostela sv. antonína a přestavěny z celého orloje na poloviční oloj hodimířem Vác"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4HHM3D43",
+    "type": "document",
+    "title": "Verschiedene aussergewöhnliche Auslagen Zimmermanns tag lohn für Herstellung des Gerüstes zur Wiederaufstellung des Kuns"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/G3KK5CRR",
+    "type": "document",
+    "title": "1865/04/13"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/IS3CIRNJ",
+    "type": "document",
+    "title": "Studie o změně vnímání času, Niclas Luhmann, sociolog"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ULAGSLRY",
+    "type": "document",
+    "title": "Braudel strukturace času"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/48QFHFXA",
+    "type": "document",
+    "title": "1864/07/24 Böhm, Subscription"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/5RIVN9BB",
+    "type": "document",
+    "title": "1888 Hodiiny Unhošt"
+  },
+  {
     "id": "ZachranceOrlojeAntonin",
     "type": "webpage",
     "citation-key": "ZachranceOrlojeAntonin",
@@ -62633,6 +65268,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/IZEGUAGV",
+    "type": "document",
+    "title": "1892 Jubilejní výstava cena za hybostroj pro panorama"
+  },
+  {
     "id": "30LeggedGravityEscape2018",
     "type": "webpage",
     "abstract": "Thirty-Legged Gravity Escape Clock.\n\nHere is a video of the clock.\n\n\nSome comments.\nIt will get a stainless bezel.\nThe holes for the swing scale can be seen.  Yet to be made.\nAt 2m43 I say pendulum clock instead of pendulum cock.\nAt 4m23 you can see some solder wire on the escape wheel & also on...",
@@ -62659,6 +65299,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/VVS2PNNE",
+    "type": "document",
+    "title": "1876 Krečmer Kalluš"
   },
   {
     "id": "BonhamsFineMahogany",
@@ -62714,6 +65359,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/VB39NICX",
+    "type": "document",
+    "title": "Německý překlad Britaniky"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/TV5VQFR4",
+    "type": "document",
+    "title": "Schweppenhäuser, Georg Michael - Sohn von Franz Philipp"
+  },
+  {
     "id": "UhrmacherverzeichnisdeUhrmacherDetails",
     "type": "webpage",
     "citation-key": "UhrmacherverzeichnisdeUhrmacherDetails",
@@ -62728,6 +65383,16 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/KQ54QF95",
+    "type": "document",
+    "title": "Heideger Holzwege, dvojí měření času čas sváteční a čas zvonů a hodin."
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/P2F6RBL6",
+    "type": "document",
+    "title": "František Kutnar Strukturální pojetí historického času"
   },
   {
     "id": "ProjectGutenbergEBook",
@@ -62746,6 +65411,31 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/59C26UNH",
+    "type": "document",
+    "title": "Curt DietzscholdCurt Dietzschold"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/G4YLWB9C",
+    "type": "document",
+    "title": " Přehled Denisonových publikací Chris Email"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/8SDJIUBG",
+    "type": "document",
+    "title": "Šlajer, Horologium Pragense"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/F575JPJP",
+    "type": "document",
+    "title": "1866/02/16 Bohemia: Hollub Erklarung"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/RRJ2MQYR",
+    "type": "document",
+    "title": "1866/02/15 Tagesbote: Nepřesnost měsíční fáze, zaseknutý apoštol (na toto reaguje Holub v Tagesbote)"
+  },
+  {
     "id": "DigitalniArchivZA",
     "type": "webpage",
     "citation-key": "DigitalniArchivZA",
@@ -62760,6 +65450,31 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/E2DMZANP",
+    "type": "document",
+    "title": "Verbesserungen in der Chronometrie durch Herrn Joseph Geist in Grätz.  Der steyermärkische Künstler Herr Joseph Geist in"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/YB7IGJ42",
+    "type": "document",
+    "title": "1822 Geist Kulik"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/WRBLQHDU",
+    "type": "document",
+    "title": "1860/07/08 Bohemia Kulik referát Společnost nauk"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/AKXGQBCV",
+    "type": "document",
+    "title": "1865/06/26 Národní listy: Stádník kameník"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/JNXXQWAM",
+    "type": "document",
+    "title": "Grätz dne 16. ledna 1822  Hodinář pan Geist, o jehož vynálezu pro zdokonalení věžních hodin jsme se podobným způsobem zm"
   },
   {
     "id": "GEISTPRAZISIONSPENDELUHRJAHRESLAUFER",
@@ -62779,6 +65494,71 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LHVCVTRA",
+    "type": "document",
+    "title": "J Ph Kulik Ueber eine Vorrichtung um die Thurmuhren von allen athmosphärischen Einflüssen unabhängig zu machen SB v 2 Ju"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/UHNCV6K9",
+    "type": "document",
+    "title": "Die Unterziehenten Kunstler, ständigem müssen am Schluße ihrer Ank noch bemerken, daß der Meister, welcher diese Reparat"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/6WADJMHL",
+    "type": "document",
+    "title": "1865/10/18 Tagesbote:Vystavení orloje na radnici"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LLHZ6BME",
+    "type": "document",
+    "title": "1864/09/01 Tagesbote: Demontáž hodinového stroje"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/TR36RMHQ",
+    "type": "document",
+    "title": "1864/09/17 Tagesbote: Výzva Bělský "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/65HNCSHH",
+    "type": "document",
+    "title": "1864/09/07 Tagesbote: Aukce na podporu opravy orloje"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/YLUZRUX9",
+    "type": "document",
+    "title": "1864/07/24 Tagesbote: Zasedání rady, odsouhlasení zahájení prací na orloji"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/XP72TUI4",
+    "type": "document",
+    "title": "1864/06/19 Tagesbote: Jednání rady, zamítnutí návrhu Prokeše, zasedání komise"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4J2J8ZIJ",
+    "type": "document",
+    "title": "1866/01/08 Bohemia: Měsíc nasazený obráceně"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/A9H3J36J",
+    "type": "document",
+    "title": "1866/01/16 Bohemia dementi"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/XSE6YTBB",
+    "type": "document",
+    "title": "1866/01/11 Bohemia: Korespondence Hollub, Böhm o měsíční kouli"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/JFEUIGWF",
+    "type": "document",
+    "title": "1866/10/26 Tagesbote: Návštěva císaře"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/QHWMA2TW",
+    "type": "document",
+    "title": "1866/09/14 Znovuspuštění orloje"
   },
   {
     "id": "CoMajiKostely",
@@ -62813,6 +65593,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/ZR2HAXXE",
+    "type": "document",
+    "title": "Dobruška radniční věž"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ZHNGSE3K",
+    "type": "document",
+    "title": "Polička, dnes v muzeu"
+  },
+  {
     "id": "VezniHodinyJan",
     "type": "webpage",
     "citation-key": "VezniHodinyJan",
@@ -62829,6 +65619,146 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/58PYHZ4S",
+    "type": "document",
+    "title": "1896 Založení firmy Karlova ul 599, Vinohrady"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LN3IG6E3",
+    "type": "document",
+    "title": "Summerrecker. * Věžní hodiny na prodej. Ústřední Ma  tice školská obdržela darem od pana císařského rady  Summerreckra z"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/IPMVBH58",
+    "type": "document",
+    "title": "Božek, Uhren und Uhrmacher"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/EMNY622H",
+    "type": "document",
+    "title": "1894 Panorama inzerát"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4PI3GUVS",
+    "type": "document",
+    "title": "Manželka Henrieta Žemličková, Heinspach (dnes Lipová) Šluknov"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/26H9GSIG",
+    "type": "document",
+    "title": "1910 Výzva na dodávku el. hodin Magneta"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/XDA2PM3K",
+    "type": "document",
+    "title": "1917 oprava hodinového stroje hvězdárny na Smíchově"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/EA5H7RFY",
+    "type": "document",
+    "title": "1906 Inzerát 220 hodin, 25 v Praze a předměstích"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/9T27YHNH",
+    "type": "document",
+    "title": "1908 Jubilejní výstava - automat plynový"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LVJAJ23N",
+    "type": "document",
+    "title": "1895 Inzerát nejlepší v evropě"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/K5HYJTJQ",
+    "type": "document",
+    "title": "1876 Hodiny na věž děkanského kostela ve Vodňanech"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/5E4XTAH9",
+    "type": "document",
+    "title": "1876 Inzerát vzduchotlačné hodiny"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/Z6HQD9GS",
+    "type": "document",
+    "title": "1876 Průmyslová výstava a hodiny pro Hromádku, Smíchov"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ACG6SNG9",
+    "type": "document",
+    "title": "1936/06/18 Kopie figur od Suchardy jsou z xylolithu? Staroměstské hodiny na pražské radnici se opravují  Nedávno zmizel "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/FT4D3WU9",
+    "type": "document",
+    "title": "Die Alt-Prager Rathausuhr wird repariert  Vor kurzem verschwanden Zifferblatt und Figurinen der Prager Rathausuhr — die "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4Q739VHI",
+    "type": "document",
+    "title": "1866/01/18 Bohemia: Böhm žádost o vyšetřování jeho jednání"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/QL7JYYCU",
+    "type": "document",
+    "title": "1866/01/15 Bohemia: Další problém s měsícem"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/QKDWGEQB",
+    "type": "document",
+    "title": "1864/09/01 Tagesbote: Prokeš prohlášení"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/QTMKSQWF",
+    "type": "document",
+    "title": "1866/01/11 Bohemia: Výměna měsíční koule"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/D4U8IELN",
+    "type": "document",
+    "title": "1866/01/04 Bohemia: Obnova radničních hodin"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4F37MJ3F",
+    "type": "document",
+    "title": "1866/01/10 Bohemia: Böhmovo prohlášení"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4AJSPHVP",
+    "type": "document",
+    "title": "1866/01/03 Inzerát žádost o vysvětlení"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/XZV2W7FC",
+    "type": "document",
+    "title": "1866/01/02 Bohemia: Ke spuštění hodin, rozdílu v časech a průsvitných hodinách"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/WBANDF9I",
+    "type": "document",
+    "title": "1864/10/02 Tagesbote: Ausruf Bělský"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/AP58HE2V",
+    "type": "document",
+    "title": "1864/09/17 Tagesbote: Aukce"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/CR6AHVVX",
+    "type": "document",
+    "title": "1864/09/01 Tagesbote: Demontáž orloje, převoz do Karlína k Holubovi"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/C429Q82H",
+    "type": "document",
+    "title": "1864/07/24 Tagesbote: Rozhodnutí o zahájení opravy orloje"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/5L3IEWAN",
+    "type": "document",
+    "title": "1866/01/01 Bohemia: Popis orloje po restaurování "
+  },
+  {
     "id": "Bohemia411866Vedecka",
     "type": "webpage",
     "citation-key": "Bohemia411866Vedecka",
@@ -62843,6 +65773,46 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/CUM75WAT",
+    "type": "document",
+    "title": "GRUSS, Gustav. Z říše hvězd: astronomie pro širší kruhy. V Praze: Bursík & Kohout, [1896], s. 29. Dostupné také z: https"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/YLXNIDCS",
+    "type": "document",
+    "title": "1585 Dům 1032 (Šporkův palác v Hyberneské)"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/6L8XU8LK",
+    "type": "document",
+    "title": "1591 zvonek na kostel sv. Jindřicha"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/UG7BBHEA",
+    "type": "document",
+    "title": "Syn Pavla z Litomyšle"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/85I9FWHH",
+    "type": "document",
+    "title": "1585 Hodiny na Bílé věži Hradec Králové"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/SL5QXS9Z",
+    "type": "document",
+    "title": "1590 Zvon Bechyně"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4ARIHUCE",
+    "type": "document",
+    "title": "1591 Zvon na Bílou věž, Hrade Králové"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/W2CRARG7",
+    "type": "document",
+    "title": "Šporkův Palác - Dům 1036C před 1474 patřil zámečníku Bartošovi. Na konci 16. století spojil budovy 1036B a C hodinář Vav"
   },
   {
     "id": "DumPrstenuPamatkovy",
@@ -62933,6 +65903,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/QA62BDDU",
+    "type": "document",
+    "title": "\"Pošinování kruhu hodin staročeských v před a zpět děje se malým strojkem se závažím, jenž po straně na zadní desce cifr"
+  },
+  {
     "id": "AthanasiiKircheriFuldensis",
     "type": "webpage",
     "citation-key": "AthanasiiKircheriFuldensis",
@@ -62947,6 +65922,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/E8IUDNDW",
+    "type": "document",
+    "title": "Benjamin Šlajer"
   },
   {
     "id": "DumZeleznehoMostku",
@@ -62994,6 +65974,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/63Q9AXDD",
+    "type": "document",
+    "title": "Fol. 313r-314r - Sbírka sladovníků a nákladníků staroměstských na pohořelé a obnovu orloje v Mostě z roku 1578. "
+  },
+  {
     "id": "RoleMechanicalClock",
     "type": "webpage",
     "citation-key": "RoleMechanicalClock",
@@ -63008,6 +65993,51 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ENI3BA68",
+    "type": "document",
+    "title": "1872 Hodiny v Banátu, Model orloje u statkáře Ungra"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/KXBXA5RZ",
+    "type": "document",
+    "title": "Ještě, jak se tak na ty fotky dívám, tak je jistý, že ten jicí stroj byl při přestavbě otočen o 90 stupňů a tedy původně"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/JIXLM3BM",
+    "type": "document",
+    "title": "1869 hodiny Kašperské hory za 230 fl pro obec"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/FF87LWIB",
+    "type": "document",
+    "title": "1860-09-19"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/N6IWP8LT",
+    "type": "document",
+    "title": "1863 Patent samonatahovací hodinky"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/DIGYBVRB",
+    "type": "document",
+    "title": "1867 Prokeš Paříž"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/H2KZCEW2",
+    "type": "document",
+    "title": " 1868-2-20"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LK22Y4AD",
+    "type": "document",
+    "title": "1864-5-22 Výstava strojků astronomických hodin"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ZHLR9VI9",
+    "type": "document",
+    "title": "okolo 1890"
   },
   {
     "id": "JournalCher1859",
@@ -63055,6 +66085,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/MCRRNXKC",
+    "type": "document",
+    "title": "Horský nekrolog 1990"
+  },
+  {
     "id": "FischerKarlVerzeichnis",
     "type": "webpage",
     "citation-key": "FischerKarlVerzeichnis",
@@ -63069,6 +66104,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/YMDGYKSD",
+    "type": "document",
+    "title": "ŠPATNÝ, František. Deutsch-böhmisches Wörterbuch für Uhr- und Gehäusemacher. Prag: Nákladem společenstva hodinářského, 1"
   },
   {
     "id": "PoprveZaVolantem",
@@ -63137,6 +66177,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/QCJLF94J",
+    "type": "document",
+    "title": "Macháček"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/MY7TMGR2",
+    "type": "document",
+    "title": "Opava orloj 1368, hodinář z Vraclavi"
+  },
+  {
     "id": "kavkovaVezniHodinyAstronomicke2001",
     "type": "webpage",
     "citation-key": "kavkovaVezniHodinyAstronomicke2001",
@@ -63199,6 +66249,46 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/J5966VYQ",
+    "type": "document",
+    "title": "Sigismund malíř, Rukopis budišínský"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/T9PRJFU3",
+    "type": "document",
+    "title": "1578 Dodání"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/92N69QIX",
+    "type": "document",
+    "title": "1575 Smlouva"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/939CM3PV",
+    "type": "document",
+    "title": "  Slánské    počty   panské    z    r.    1469.    —   Lacina,    J.:   Paměti   král.    města    Slaného    [Denkmäler"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/B7J3QRLF",
+    "type": "document",
+    "title": "1598 Dopis Matouše Ornyse z Lindperku "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/X9QSFWZ2",
+    "type": "document",
+    "title": "1593 Kontrola Vavřinec"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/RLQMTK2J",
+    "type": "document",
+    "title": " v ulici Beneše Třebízského stávala až do roku 1835 brána Lounská ( s předmostím ) , někdejší to ... V roce 1609 byla dl"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/G7E6QV9B",
+    "type": "document",
+    "title": "Václav z Kaliště a Ottersfeldu"
+  },
+  {
     "id": "tichtenbaumUstaAdAlbim1614",
     "type": "webpage",
     "citation-key": "tichtenbaumUstaAdAlbim1614",
@@ -63219,6 +66309,101 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/PUS2AD39",
+    "type": "document",
+    "title": "1591 nový zvon od hodináře Vavřince"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/RJ72ZZQD",
+    "type": "document",
+    "title": "Nejstarší radnice v Kutné Hoře stála pravděpodobně na Dolejším rynku, v dnešní Kollárově ulici vedle bývalých masných kr"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/FP6ZXPD2",
+    "type": "document",
+    "title": "V období údajné kulminace epidemie se 18. října 1598 do Loun z Kadaně stěhuje nový děkan a měsíc nato si do města p"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ZHGMC3XJ",
+    "type": "document",
+    "title": "Popis městských archivů v Čechách"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/M4MLZ3AB",
+    "type": "document",
+    "title": "Winter: V Mladé Boleslavi se připomíná r . 1608 hodinář Jan Péče , jenž byl viněn ze slibu manželského . "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/CTNITCM9",
+    "type": "document",
+    "title": " Již roku 1494 pro nedostatečnost krovu byla klenba kostelní poškozena, a smluvili se konselé a starší na opravu její s "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/IZWZELX9",
+    "type": "document",
+    "title": "Příspěvek к stavbě Lounského kostela.*)  Podává Theodor Anťl.  Zlomyslnou rukou zapáleno, vyhořelo 25. března 1517 j  mě"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ZZSB4H7U",
+    "type": "document",
+    "title": "Hronek, zámečník, jenž к r. 1499 se připomíná,®) „uměl  orloj napravovali řemeslem svým, když se co pokazí, ješto  jeho "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/MCHJJ5D4",
+    "type": "document",
+    "title": "1556 Orloj shořel.  Dum medium.  Ten pondělí po Novém léthě (6. ledna r. 1556)  z dopuštění Božího vyhořela věž u Náměti"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/Q6QLUPPK",
+    "type": "document",
+    "title": "stáří Pavla a syna/synů"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/VAM6VQKL",
+    "type": "document",
+    "title": "MARIAN, Alexander. Alt-Aussig auf der Allgemeinen Deutschen Ausstellung für Gewerbe, Industrie und Landwirthschaft 1903."
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/9ICDCNYK",
+    "type": "document",
+    "title": "renesanční radnice z r. 1570, stržená r. 1846"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/WIDNCXGN",
+    "type": "document",
+    "title": "Hodiny ty spravil jest r 1598 mistr Pavel Adam Litomyšlský a předělal r. 1676 Jan Wechsler hodinář Litoměřický"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LZ6C7W4B",
+    "type": "document",
+    "title": "Vavřinec Hodinář provozoval konvařství na Nov M Pražském ku konci století XVI jakož k tomu ukazují zvonec jejž slil r 15"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/NCGSNS53",
+    "type": "document",
+    "title": "\"Roku 1593 pozvali si mistra Vavřince Litoměřičtí, aby jim podal dobré zdání o jejich orloji. I ohledal ho a dal zprávu,"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/PRQZPED3",
+    "type": "document",
+    "title": "Vyobrazení budovy radnice na plánu Litoměřic od Josefa Hallmanna, 1788"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/56AAJSEB",
+    "type": "document",
+    "title": "Mírové náměstí. Na rohu náměstí - na rohu Dlouhé a Jezuitské ulice je bílý kostel Všech svatých s velkou věží. U kostela"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/EF8HIQ6L",
+    "type": "document",
+    "title": "1897 Věžní hodiny  staví od 120 zl. výše; veškeré  opravy co nejlevněji a doko  nale ve vlastní, odborné dílně  provádí."
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/9BGEBH49",
+    "type": "document",
+    "title": "Vladislav Skála časová osa"
+  },
+  {
     "id": "KronikaObceOficialni",
     "type": "webpage",
     "citation-key": "KronikaObceOficialni",
@@ -63233,6 +66418,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/8X32YXCL",
+    "type": "document",
+    "title": "Vojtěch František Hrdý"
   },
   {
     "id": "KatalogVystavyStaromestska",
@@ -63273,6 +66463,26 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/V3M4ST3B",
+    "type": "document",
+    "title": "Hořice"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/G8RMJ3JC",
+    "type": "document",
+    "title": "Nekrolog"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/GZ8UT5HZ",
+    "type": "document",
+    "title": "Vesnícké hodiny"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/7PY7659J",
+    "type": "document",
+    "title": "SOA Jičín podatelna.jc ahapa.cz"
+  },
+  {
     "id": "SOACeskaLipa",
     "type": "webpage",
     "citation-key": "SOACeskaLipa",
@@ -63305,6 +66515,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/KD85ZX7F",
+    "type": "document",
+    "title": "Litoměřická diecéze"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/3L7N7W89",
+    "type": "document",
+    "title": "Státní okresní archiv Česká Lípa"
+  },
+  {
     "id": "SOAJicinFarni",
     "type": "webpage",
     "citation-key": "SOAJicinFarni",
@@ -63319,6 +66539,21 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/5TSL72D7",
+    "type": "document",
+    "title": "K. Fischer, Ein Beitrag zur Tätigkeit der deutschen AmateurAstronomen in der Tschechoslowakischen Republik. VdS Nachr. 1"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/VQ6X6SCN",
+    "type": "document",
+    "title": "Patent na repetici"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/3AP5DT2K",
+    "type": "document",
+    "title": "Léon Émile Adolphe Robert"
   },
   {
     "id": "MuzejniVlastivednaPrace",
@@ -63352,6 +66587,66 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/SE8MANRM",
+    "type": "document",
+    "title": "Ménere Désriptif"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/MD6XAJMU",
+    "type": "document",
+    "title": "Dějiny a současnost: historicko-vlastivědná revue Československé společnosti pro šíření politických a vědeckých znalostí"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/J6M62LDB",
+    "type": "document",
+    "title": "1855 Robert na výstave v Pařži"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/6KVGC7Z7",
+    "type": "document",
+    "title": "Výstava Londýn 1551 hodinky s repeticí"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/GW9652PR",
+    "type": "document",
+    "title": "Zotero Better Notes User Guide: Workflow"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/KCSLWUFM",
+    "type": "document",
+    "title": "1756 Sebastion hodiny do Říčan"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/PTAADIJL",
+    "type": "document",
+    "title": "1739 Sebastian hodiny na věži zámku Zbiroh"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/6H22NX5Z",
+    "type": "document",
+    "title": "Ferdinand hodiny Chlumec nad Cidlinou"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/M9P3QRAP",
+    "type": "document",
+    "title": "1791 Dokončení opravy"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/3755VY96",
+    "type": "document",
+    "title": "Landesberger Ferdinand, hodinář.  Záznamy v matr. f. sv. Mikuláše v Praze III.:  1776 28. Aug. obiit Joannes, filius Di "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/YGLJAWGR",
+    "type": "document",
+    "title": "1397 Hodiny na koleji na hradě Lipnici"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/HLRR8U7J",
+    "type": "document",
+    "title": "Landesberger Johann ein Uhrmacher in Prag der das berühmte astronomische Uhrwerk welches auf dem Rathhause in Prag zu se"
+  },
+  {
     "id": "MaterialieSlovnikuUmelcu",
     "type": "webpage",
     "citation-key": "MaterialieSlovnikuUmelcu",
@@ -63366,6 +66661,86 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/EH8IF2EC",
+    "type": "document",
+    "title": "1787 Oprava Orloje, Malíř Obmauer"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/TAF4E4CK",
+    "type": "document",
+    "title": "1791 Dobříš hodiny Ferdinand"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/GS6WSWAB",
+    "type": "document",
+    "title": "1852 Vyčištění a oprava číselníků orloje, nikolv stroje"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/AXX4TWKJ",
+    "type": "document",
+    "title": "1901/04 Oprava Liškova kalendária Klár"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/TCAISJNH",
+    "type": "document",
+    "title": "1805 Oprava radniční věže"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/H4RUVG4N",
+    "type": "document",
+    "title": "Kraus Jan Martin,hodinář(„Gross-Uhrmacher\"), obdržel městské právo St. M. Pr. 1768 (Kn. měst. 542, 202)."
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/FB8DS95N",
+    "type": "document",
+    "title": "1615 Klíče vdově po Švorcpacovi"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4LYZEVX6",
+    "type": "document",
+    "title": "1613 Kryštof Švorcpach"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/P67T4HMB",
+    "type": "document",
+    "title": "1890/06/07 Oprava kamenných ornamentů u staro méstského orloje. Jak jsme již loňského roku oznámili, usnesla se rada měs"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ST2XNCTM",
+    "type": "document",
+    "title": "1897/03/29. Oprava starobylého orloje na radnici staroměstské. Od předvčírka na staroměstském orloji zeje prázdnota. Veš"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LNWDT3YZ",
+    "type": "document",
+    "title": "1911/12/30 "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/99XKMS9P",
+    "type": "document",
+    "title": "1882/12/31 Oprava, přidán kohout"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/2TGMJR5W",
+    "type": "document",
+    "title": "1877/04/26 Drobná oprava"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/AA4W8R84",
+    "type": "document",
+    "title": "1875/04/ Čisštění, oprava, obnova apoštolů, výměna skleněných ciferníků"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/KD4LKWQX",
+    "type": "document",
+    "title": "1882/12/31 oprava - spuštění orloje"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/UHVVSZFS",
+    "type": "document",
+    "title": "1766 Jan Kraus, hodinář, předělal staročeský orloj na věži kostela kaňkovského na orloj německý, který ukazuje a odbíjí "
   },
   {
     "id": "www.fg.cz2022OsobnostiOrloje",
@@ -63395,6 +66770,111 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/CCQDVM86",
+    "type": "document",
+    "title": "1387  Soudce a rada města Českých Budějovic osvědčují, že měšťan Jakub zajistil na svém domě, který se nachází mezi domy"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/B83MDE9K",
+    "type": "document",
+    "title": "1420. Ondřej Czlewinger notář jihlavsbý odhazuje orloj ku sv. Kříži.  "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/XWEXR4EU",
+    "type": "document",
+    "title": "1414 byl orloj i na Vyšehradě. Orlojník tehdy zaplatil dvě kopy grošů na daních. \"orlogistae ecclesie Wyssegradensis dua"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/LLGPVJHS",
+    "type": "document",
+    "title": "Journal of Astronomical History and Heritage"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ZVV4VF69",
+    "type": "document",
+    "title": "1628 Mikuláš Petr z Havelské čtvrti nezplacená pokuta"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ZFFVAH3F",
+    "type": "document",
+    "title": "r. 1400 u košíku, v 17. stol. u Housenku, s krásnou starou mříží. Dům ten předválkou husitskou měli synové bohatého měšť"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/9CQDAHN7",
+    "type": "document",
+    "title": "186. 1613. — Kniha šestipanská č. 475 f. 29. Hodináři předvoláni jsouce do úřadu a jsouce tázáni, kterak by aspoň jednou"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/J357NZ52",
+    "type": "document",
+    "title": "47. 1555. — Tamtéž f. H 4‘. Pan purgmistr a páni oznámiti ráčili, že ten krám pod orlojem, kterýž někdy od Bartoloměje C"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/WNFVBVGR",
+    "type": "document",
+    "title": "31. 1538. — Kniha šestip. č. 2154 f. 11. Václav Chanický ze Všehrd postoupil krám pod orlojem na rohu jdouc do rathouzu "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/YUYNRPM4",
+    "type": "document",
+    "title": "44. 1553. — Rukop. ě. 2152 f. G. 24. Jakož jest Wolf od kalichuov ujal byl krám pod menší sperú orloje rathouzského na r"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/C7KU9BFB",
+    "type": "document",
+    "title": "*0. 1409. — Rukop. č. 997 f. 51. Henricus Zachsenfeld ductus est ad domum Nicolai ad flaveum hostium pro XV^a censibus r"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/JR52FJQE",
+    "type": "document",
+    "title": "186. 1613. — Kniha šestipanská č. 475 f. 29. Hodináři předvoláni jsouce do úřadu a jsouce tázáni, kterak by aspoň jednou"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/8FA9KW8B",
+    "type": "document",
+    "title": "129. 1597, 19. dubna. — Archiv místodrz. P. 148/3. Věděti vám dáváme, že J. M. C. vedle pana Mikuláše Čer nohorského z H"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/U883J674",
+    "type": "document",
+    "title": "201. 1615. — Kniha šestipanská č. 475 f. 292. Páni radní ráčili jsou orlojníkovi (místo prázdné) v radě odpuHění dáti a "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/4PJEPK5P",
+    "type": "document",
+    "title": "26. 1504, 21. července. Natus est hoc die Georgius Dcssensky, cognomento Gednorozcc, hora 6. minuto 54. supputacione ad "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/MB52PVNT",
+    "type": "document",
+    "title": "Na Veselí. Číslo pop. 926 a. * 1369, 24. března. Rukop. č. 992 f. 189. Wir Bernhard Seidl, Ula Thasner und ander gesworn"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/ZI7RUHLC",
+    "type": "document",
+    "title": "týbl Dübel kolík"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/5NTPZQ5I",
+    "type": "document",
+    "title": "AMP PGL IV - 28 • 1659 - 1825 • Pamětní listiny z vížky nad staroměstským orlojem. a) 1659, prosinec, 5., pa…"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/DK75BZJI",
+    "type": "document",
+    "title": " Hodináři byli v Praze v jednom cechu se zámečníky a to až do roku 1705, kdy si zřizují cech, ve kterém byli hodináři vš"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/VM2SU6YN",
+    "type": "document",
+    "title": "SLUNEČNÍ HODINY"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/B4DGF9DX",
+    "type": "document",
+    "title": "Další opisy"
+  },
+  {
     "id": "SeasonalTimeSystem",
     "type": "webpage",
     "abstract": "This page explains the temporal hour system used before the fixed hour system.",
@@ -63412,6 +66892,16 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/5GABPFQ6",
+    "type": "document",
+    "title": "Nejstarší hodiny a hodináři v českých městech"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/42E6BGM5",
+    "type": "document",
+    "title": "Jan Holub Karlín"
   },
   {
     "id": "Manuscriptorium",
@@ -63483,6 +66973,11 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/F5JLZAVV",
+    "type": "document",
+    "title": "Konrád Celtis - z dopisu Petru de Gedano"
+  },
+  {
     "id": "usdepartmentofcommerceESRLGlobalMonitoring",
     "type": "webpage",
     "abstract": "The Global Monitoring Laboratory conducts research on greenhouse gas and carbon cycle feedbacks, changes in clouds, aerosols, and surface radiation, and recovery of stratospheric ozone.",
@@ -63505,6 +67000,21 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/HSSAF594",
+    "type": "document",
+    "title": "Tak ještě jeden Josef Božek. Toto je jediný mně známý hmatatelný důkaz, že Josef Božek dělal i kapesní hodinky. Našel js"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/DI4U72TE",
+    "type": "document",
+    "title": "Pozůstalost Romualda Božka v Národním technickém muzeu"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/6EJ2IX7E",
+    "type": "document",
+    "title": "“Přestože uvedené dokumenty v minulosti častokrát posloužily při tvorbě odborných pojednání nebo při psaní životopisných"
   },
   {
     "id": "HoehereUhrmacherkunstRegeln1842",
@@ -63533,6 +67043,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/YRTR9YKG",
+    "type": "document",
+    "title": "Pavlíček Jan , hodinář , Žeravice u Buchlova "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/NYPCX7TU",
+    "type": "document",
+    "title": "Poklady moravských hradů a zámků "
+  },
+  {
     "id": "libor@drbna.czHISTORIEPozoruhodneFresky",
     "type": "webpage",
     "abstract": "První písemná zmínka o obci Žerotín pochází z kapitulních listin olomouckého biskupa Jindřicha Zdíka z roku 1131. Do majetku starého rytířského rodu pánů z Žerotína se tvrz s okolními pozemky a rozsáhlými rybníky dostala koncem 13. století, kdy je zmiňován Apard ze Žerotína. Tvrz má velmi zajímavou historii.",
@@ -63558,6 +67078,11 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/5M8XKVYQ",
+    "type": "document",
+    "title": "Čtvrtá oprava (1810) MartinnBriegel."
   },
   {
     "id": "Domazlice27Porta",
@@ -63766,6 +67291,16 @@
     }
   },
   {
+    "id": "http://zotero.org/users/1916830/items/9QKLD9MP",
+    "type": "document",
+    "title": "Na základě zdůvodnění Dr. Böhma, ředitele "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/7U9DD57Y",
+    "type": "document",
+    "title": "1364 stavba ba radniční věže (Teige: Staroměstský rynk v Praze)"
+  },
+  {
     "id": "NonneSchlafendGm576",
     "type": "webpage",
     "citation-key": "NonneSchlafendGm576",
@@ -63780,6 +67315,66 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/5JJHQBNG",
+    "type": "document",
+    "title": "Byl zeměměřičem u Petra Voka"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/VDB5I7F3",
+    "type": "document",
+    "title": "Matyáš Ornys"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/K5UVK7LT",
+    "type": "document",
+    "title": "\"Tvrdé trpělivostí lámu\" "
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/NEB7Q57F",
+    "type": "document",
+    "title": "Lépe už známe činnost zemského měřiče Matouše Orayse z Liadperka (asi 1531-1599). (původním jménem asi Ptáček) byl vlast"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/I7BNIZZH",
+    "type": "document",
+    "title": "Erb"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/I75Q54LQ",
+    "type": "document",
+    "title": "Zemřel ve středu před 21,2,1600"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/MVP7EW8D",
+    "type": "document",
+    "title": "Pročež nelze se také diviti, že nejen arcikníže Ferdinand a jiní velmožové jej sobě oblíbili, anobrž i sám král Ferdinan"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/HJFYFZFU",
+    "type": "document",
+    "title": "Podolský Šimon umění malířského, rodilý z Olomúce. Přijal městské právo fer. II. p. die Petri Gaten. Anno Dom. MDLXXXIX."
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/69MZFF9F",
+    "type": "document",
+    "title": "Ze tří spoluporučníků, o nichž v závěti je řeč, byl Simeon Podolský, jak již Rybička správně byl pověděl, žák Ornysův. D"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/BGWYIIJS",
+    "type": "document",
+    "title": "CHYTIL, Karel. Malířstvo pražské XV. a XVI. věku a jeho cechovní kniha Staroměstská z let 1490-1582. V Praze: Nákladem Č"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/K3QYQMA5",
+    "type": "document",
+    "title": "František Eisgruber  († 3. února 1762)"
+  },
+  {
+    "id": "http://zotero.org/users/1916830/items/99MEXSJ8",
+    "type": "document",
+    "title": "Zotero Better Notes User Guide: Workflow"
   },
   {
     "id": "StaraManipulacePraha",

@@ -73,15 +73,19 @@ function findRefBlock(text, refTitle) {
   const sectionBody = sectionMatch[2];
   const sectionBodyOffset = sectionMatch.index + sectionMatch[0].indexOf(sectionMatch[2]);
 
-  // Split items by leading "  - " (2-space + dash + space).
-  // JS regex nemá \Z; používáme manual scan:
-  // 1. Najdi indexy všech řádků začínajících "  - " (item starts)
-  // 2. Slice section od jednoho start indexu k dalšímu (nebo konec)
+  // Split items by leading "  - ":
+  //   - "  - field: value\n" — dash followed by space + content (běžné)
+  //   - "  -\n    field: value\n" — dash s newline, content na další řádce (alt YAML form)
+  // V druhém případě potřebujeme normalizovat indent na "  - " (4 chars), aby
+  // newBlock měl správný indent pro field rows (4 spaces).
   const itemStarts = [];
-  const lineRegex = /^(\s*-\s)/gm;
+  const lineRegex = /^(\s+-)(?:[ \t]|\n)/gm;
   let lm;
   while ((lm = lineRegex.exec(sectionBody)) !== null) {
-    itemStarts.push({ idx: lm.index, indent: lm[1] });
+    // Normalize indent: chceme "  - " ne "  -\n"
+    const dashPart = lm[1];               // "  -"
+    const indent = dashPart + ' ';        // "  - "
+    itemStarts.push({ idx: lm.index, indent });
   }
   const items = [];
   for (let i = 0; i < itemStarts.length; i++) {

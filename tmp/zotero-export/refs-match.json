@@ -1,71 +1,17 @@
 {
   "matches": [
     {
-      "title": "anatomie-varhan.cz",
-      "author": "",
-      "year": "",
-      "url": "http://anatomie-varhan.cz/",
-      "files": [
-        "content/hodinarium-eu/janovice.md"
-      ],
-      "count": 1,
-      "citationKey": "Anatomievarhancz",
-      "zoteroTitle": "anatomie-varhan.cz",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Hvězdářský orloj",
-      "author": "František Nekut",
-      "year": "1898",
-      "url": "",
-      "files": [
-        "content/hodinarium-eu/kinsner-astronomicke-hodiny.mdx",
-        "content/hodinari/edmund-kinsner.mdx"
-      ],
-      "count": 2,
-      "citationKey": "nekutHvezdarskyOrloj1898",
-      "zoteroTitle": "Hvězdářský orloj",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Astronomische Uhr mit Sonnenzeiger und Thierkreis, Mondkugel und Zeigern für Sonnen-Auf- und Untergang",
+      "title": "Rakousko-uherské privilegium č. 5963/1895 — Astronomische Uhr",
       "author": "Edmund Kinsner",
       "year": "1895",
-      "url": "",
+      "url": "https://privilegien.patentamt.at/image/1895_005963/1/",
       "files": [
         "content/hodinarium-eu/kinsner-astronomicke-hodiny.mdx",
         "content/hodinari/edmund-kinsner.mdx"
       ],
       "count": 2,
-      "citationKey": "edmundkinsnerAstronomischeUhr1894",
-      "zoteroTitle": "Astronomische Uhr mit Sonnenzeiger und Thierkreis, Mondkugel und Zeigern für Sonnen-Auf- und Untergang",
-      "score": 0.92,
-      "reasons": [
-        "strong-title",
-        "partial-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "O chlumeckém vynálezci orloje Edmundu Kinšnerovi",
-      "author": "Josef Hartman",
-      "year": "1987",
-      "url": "https://kramerius.svkhk.cz/uuid/uuid:9a08a1f0-ae6b-11e7-884e-00155d012102",
-      "files": [
-        "content/hodinarium-eu/kinsner-astronomicke-hodiny.mdx",
-        "content/hodinari/edmund-kinsner.mdx"
-      ],
-      "count": 2,
-      "citationKey": "hartmanChlumeckemVynalezciOrloje1987a",
-      "zoteroTitle": "O chlumeckém vynálezci orloje Edmundu Kinšnerovi",
+      "citationKey": "kinsnerRakouskouherskePrivilegium59631895",
+      "zoteroTitle": "Rakousko-uherské privilegium č. 5963/1895 — Astronomische Uhr",
       "score": 1,
       "reasons": [
         "strong-title",
@@ -74,936 +20,21 @@
       ]
     },
     {
-      "title": "Úspěch české práce ve Vídni",
-      "author": "",
-      "year": "1897",
+      "title": "Renovace věžních hodin na evangelickém kostele v Hrobech",
+      "author": "Ladislav Faigl",
+      "year": "1998",
       "url": "",
       "files": [
-        "content/hodinarium-eu/kinsner-astronomicke-hodiny.mdx",
-        "content/hodinari/edmund-kinsner.mdx"
-      ],
-      "count": 2,
-      "citationKey": "UspechCeskePrace1897a",
-      "zoteroTitle": "Úspěch české práce ve Vídni",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "antik-hovorka.cz / primland-clanky",
-      "author": "",
-      "year": "",
-      "url": "https://www.antik-hovorka.cz/primland-clanky/",
-      "files": [
-        "content/hodinarium-eu/kvetinovehodiny_Chomutov.md"
+        "content/hodinari/bernhard-zacharia.mdx"
       ],
       "count": 1,
-      "citationKey": "AntikhovorkaczPrimlandclanky",
-      "zoteroTitle": "antik-hovorka.cz / primland-clanky",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Cast Iron Tower Clockworks Manufacturing and the Role of Prague Polytechnic",
-      "author": "David Knespl",
-      "year": "2024",
-      "url": "",
-      "files": [
-        "content/hodinarium-eu/litinove-vezni-hodiny.mdx",
-        "content/soupis-veznich-hodin/1817-krivoklat-bozek.mdx"
-      ],
-      "count": 2,
-      "citationKey": "knesplCastIronTower2024",
-      "zoteroTitle": "Cast Iron Tower Clockworks Manufacturing and the Role of Prague Polytechnic",
+      "citationKey": "faiglRenovaceVeznichHodin1998",
+      "zoteroTitle": "Renovace věžních hodin na evangelickém kostele v Hrobech",
       "score": 1,
       "reasons": [
         "strong-title",
         "exact-author",
         "exact-year"
-      ]
-    },
-    {
-      "title": "Rudolf hrabě Vrbna – nejšťastnější horník a hutník své doby",
-      "author": "Irena Laboutková",
-      "year": "2003",
-      "url": "",
-      "files": [
-        "content/hodinarium-eu/litinove-vezni-hodiny.mdx"
-      ],
-      "count": 1,
-      "citationKey": "laboutkovaRudolfHrabeVrbna2003",
-      "zoteroTitle": "Rudolf hrabě Vrbna - nejšťastnější horník a hutník své doby",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Gegossene Thurm Uhren. Ein neues Kunstprodukt des Gußwerks in Horzowitz",
-      "author": "",
-      "year": "1810",
-      "url": "",
-      "files": [
-        "content/hodinarium-eu/litinove-vezni-hodiny.mdx"
-      ],
-      "count": 1,
-      "citationKey": "rosenbaumGegosseneThurmUhren1810",
-      "zoteroTitle": "Gegossene Thurm Uhren. Ein neues Kunstprodukt des Gußwerkz in Horzowiz",
-      "score": 0.78,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Dějiny Českého vysokého učení technického",
-      "author": "F. Jílek, V. Lomič",
-      "year": "1973",
-      "url": "",
-      "files": [
-        "content/hodinarium-eu/litinove-vezni-hodiny.mdx"
-      ],
-      "count": 1,
-      "citationKey": "jilekDejinyCeskehoVysokeho1973",
-      "zoteroTitle": "Dějiny Českého vysokého učení technického. 1. díl, svazek 1",
-      "score": 0.81,
-      "reasons": [
-        "fuzzy-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Die Uhrenfabrikation mit besonderer Rücksicht auf ihren Zustand in Oesterreich und namentlich auch in Böhmen",
-      "author": "",
-      "year": "1843",
-      "url": "",
-      "files": [
-        "content/hodinarium-eu/litinove-vezni-hodiny.mdx"
-      ],
-      "count": 1,
-      "citationKey": "UhrenfabrikationMitBesonderer1843",
-      "zoteroTitle": "Die Uhrenfabrikation mit besonderer Rücksicht auf ihren Zustand in Oesterreich und namentlich auch in Böhmen",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Schematismus für das Königreich Böheim auf das Schalt-Jahr 1824",
-      "author": "",
-      "year": "1824",
-      "url": "",
-      "files": [
-        "content/hodinarium-eu/litinove-vezni-hodiny.mdx"
-      ],
-      "count": 1,
-      "citationKey": "SchematismusFuerKoenigreich1824",
-      "zoteroTitle": "Schematismus für das Königreich Böheim auf das Schalt-Jahr 1824",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Bericht der Beurtheilungs-Commission über die Ausstellung der Industrie-Erzeugnisse Böhmens vom Jahre 1831",
-      "author": "",
-      "year": "1833",
-      "url": "",
-      "files": [
-        "content/hodinarium-eu/litinove-vezni-hodiny.mdx"
-      ],
-      "count": 1,
-      "citationKey": "kreutzbergBerichtBeurtheilungsCommissionUeber1833",
-      "zoteroTitle": "Bericht .. die Beurtheilungs-Commission über die Ausstellung der Industrie-Erzeugnisse Böhmens vom Jahre 1831.",
-      "score": 0.79,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Restaurátorská dokumentace hodinový věžní stroj r. 1817 Prachodita věž SH Křivoklát",
-      "author": "Jan Marek",
-      "year": "2018",
-      "url": "",
-      "files": [
-        "content/hodinarium-eu/litinove-vezni-hodiny.mdx"
-      ],
-      "count": 1,
-      "citationKey": "janmarekRestauratorskaDokumentaceHodinovy2018",
-      "zoteroTitle": "Restaurátorská dokumentace hodinový věžní stroj r. 1817 Prochoditá věž sh Křivoklát",
-      "score": 0.91,
-      "reasons": [
-        "strong-title",
-        "partial-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Die Hundertjährige Geschichte der Ersten Brünner Maschinen-Fabriks-Gesellschaft in Brünn von 1821 bis 1921",
-      "author": "",
-      "year": "1921",
-      "url": "",
-      "files": [
-        "content/hodinarium-eu/litinove-vezni-hodiny.mdx"
-      ],
-      "count": 1,
-      "citationKey": "HundertjaehrigeGeschichteErsten1921",
-      "zoteroTitle": "Die hundertjährige Geschichte der Ersten Brünner Maschinen-Fabriks-Gesellschaft in Brünn von 1821 bis 1921",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Gusseiserne Thurmuhren von Mechanikus Luz in Schlappanitz, bei Brünn",
-      "author": "",
-      "year": "1834",
-      "url": "",
-      "files": [
-        "content/hodinarium-eu/litinove-vezni-hodiny.mdx"
-      ],
-      "count": 1,
-      "citationKey": "GusseiserneThurmuhrenMechanikus1834",
-      "zoteroTitle": "Gusseiserne Thurmuhren von Mechanikus Luz in Schlappanitz, bei Brün",
-      "score": 0.79,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Závěrečná zpráva o restaurování věžních hodin evangelického kostela ve Vanovicích",
-      "author": "Petr Skála",
-      "year": "2021",
-      "url": "",
-      "files": [
-        "content/hodinarium-eu/litinove-vezni-hodiny.mdx",
-        "content/soupis-veznich-hodin/1834-vanovice-luz.mdx"
-      ],
-      "count": 2,
-      "citationKey": "petrskalaZaverecnaZpravaRestaurovani2021",
-      "zoteroTitle": "Závěrečná zpráva o restaurování věžních hodin evangelického kostela ve Vanovicích",
-      "score": 0.92,
-      "reasons": [
-        "strong-title",
-        "partial-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "uhrenstube-aschau.at",
-      "author": "",
-      "year": "",
-      "url": "http://www.uhrenstube-aschau.at/",
-      "files": [
-        "content/hodinarium-eu/muzeum_aschau_burgenland.md"
-      ],
-      "count": 1,
-      "citationKey": "Uhrenstubeaschauat",
-      "zoteroTitle": "uhrenstube-aschau.at",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "beyer-ch.com — Museum",
-      "author": "",
-      "year": "",
-      "url": "https://www.beyer-ch.com/en/museum/",
-      "files": [
-        "content/hodinarium-eu/muzeum_beyer_zurich.md"
-      ],
-      "count": 1,
-      "citationKey": "BeyerchcomMuseum",
-      "zoteroTitle": "beyer-ch.com — Museum",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "uhrenmuseum-chemnitz.de",
-      "author": "",
-      "year": "",
-      "url": "http://www.uhrenmuseum-chemnitz.de/",
-      "files": [
-        "content/hodinarium-eu/muzeum_chemnitz.md"
-      ],
-      "count": 1,
-      "citationKey": "Uhrenmuseumchemnitzde",
-      "zoteroTitle": "uhrenmuseum-chemnitz.de",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Webové stránky muzea",
-      "author": "",
-      "year": "",
-      "url": "https://www.deutsches-uhrenmuseum.de/",
-      "files": [
-        "content/hodinarium-eu/muzeum_furtwangen.md",
-        "content/hodinarium-eu/muzeum_glashutte.md",
-        "content/hodinarium-eu/muzeum_mih_chaux_de_fonds.md",
-        "content/hodinarium-eu/muzeum_olomouc_vmo.md",
-        "content/hodinarium-eu/muzeum_royal_observatory.md",
-        "content/hodinarium-eu/muzeum_wien.md"
-      ],
-      "count": 6,
-      "citationKey": "WeboveStrankyMuzea",
-      "zoteroTitle": "Webové stránky muzea",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Wikipedie (PL) — Muzeum Zegarów Wieżowych",
-      "author": "",
-      "year": "",
-      "url": "https://pl.wikipedia.org/wiki/Muzeum_Zegar%C3%B3w_Wie%C5%BCowych",
-      "files": [
-        "content/hodinarium-eu/muzeum_gdansk_zegarow_wiezowych.md"
-      ],
-      "count": 1,
-      "citationKey": "WikipediePLMuzeum",
-      "zoteroTitle": "Wikipedie (PL) — Muzeum Zegarów Wieżowych",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "trojmiasto.tv — Muzeum Zegarów Wieżowych",
-      "author": "",
-      "year": "",
-      "url": "https://trojmiasto.tv/Muzeum-Zegarow-Wiezowych-5893.html",
-      "files": [
-        "content/hodinarium-eu/muzeum_gdansk_zegarow_wiezowych.md"
-      ],
-      "count": 1,
-      "citationKey": "TrojmiastotvMuzeumZegarow",
-      "zoteroTitle": "trojmiasto.tv — Muzeum Zegarów Wieżowych",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "jindrisskavez.cz",
-      "author": "",
-      "year": "",
-      "url": "https://jindrisskavez.cz/index.php/cs/",
-      "files": [
-        "content/hodinarium-eu/muzeum_jindrisska_vez.md"
-      ],
-      "count": 1,
-      "citationKey": "Jindrisskavezcz",
-      "zoteroTitle": "jindrisskavez.cz",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Město Kadaň — orloj",
-      "author": "",
-      "year": "",
-      "url": "https://www.mesto-kadan.cz/",
-      "files": [
-        "content/hodinarium-eu/muzeum_kadan_orloj.md"
-      ],
-      "count": 1,
-      "citationKey": "MestoKadanOrloj",
-      "zoteroTitle": "Město Kadaň — orloj",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Klementinum — Národní knihovna ČR",
-      "author": "",
-      "year": "",
-      "url": "https://www.klementinum.cz/",
-      "files": [
-        "content/hodinarium-eu/muzeum_klementinum.md"
-      ],
-      "count": 1,
-      "citationKey": "KlementinumNarodniKnihovna",
-      "zoteroTitle": "Klementinum — Národní knihovna ČR",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Ostravské muzeum",
-      "author": "",
-      "year": "",
-      "url": "https://www.ostrmuz.cz/",
-      "files": [
-        "content/hodinarium-eu/muzeum_ostravske.md"
-      ],
-      "count": 1,
-      "citationKey": "OstravskeMuzeum",
-      "zoteroTitle": "Ostravské muzeum",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "patekmuseum.com",
-      "author": "",
-      "year": "",
-      "url": "https://www.patek.com/en/company/patek-philippe-museum",
-      "files": [
-        "content/hodinarium-eu/muzeum_patek_philippe.md"
-      ],
-      "count": 1,
-      "citationKey": "Patekmuseumcom",
-      "zoteroTitle": "patekmuseum.com",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "weinviertel.at — Pfarrkirche St. Martin & Turmmuseum Pillichsdorf",
-      "author": "",
-      "year": "",
-      "url": "https://www.weinviertel.at/ausflug-und-freizeit/a-pfarrkirche-st-martin-u-turmmuseum-pillichsdorf",
-      "files": [
-        "content/hodinarium-eu/muzeum_pillichsdorf.md"
-      ],
-      "count": 1,
-      "citationKey": "WeinviertelatPfarrkircheSt",
-      "zoteroTitle": "weinviertel.at — Pfarrkirche St. Martin & Turmmuseum Pillichsdorf",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Prostějovský orloj — orloj.eu",
-      "author": "",
-      "year": "",
-      "url": "http://www.orloj.eu/cs/prostejov.htm",
-      "files": [
-        "content/hodinarium-eu/muzeum_radnicni_vez_prostejov.md"
-      ],
-      "count": 1,
-      "citationKey": "ProstejovskyOrlojOrlojeu",
-      "zoteroTitle": "Prostějovský orloj — orloj.eu",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "muzeum-tyniste.cz",
-      "author": "",
-      "year": "",
-      "url": "http://www.muzeum-tyniste.cz/",
-      "files": [
-        "content/hodinarium-eu/muzeum_tyniste_n_orlici.md"
-      ],
-      "count": 1,
-      "citationKey": "Muzeumtynistecz",
-      "zoteroTitle": "muzeum-tyniste.cz",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Katalog Sluneční hodiny v České republice a na Slovensku",
-      "author": "M. Brož, M. Nosek, J. a V. Trebichavští, D. Pecinová, L. Mucha a kol.",
-      "year": "",
-      "url": "http://astro.mff.cuni.cz/mira/sh/sh.php",
-      "files": [
-        "content/hodinarium-eu/slunecni.mdx"
-      ],
-      "count": 1,
-      "citationKey": "kol.KatalogSlunecniHodiny",
-      "zoteroTitle": "Katalog Sluneční hodiny v České republice a na Slovensku",
-      "score": 0.9,
-      "reasons": [
-        "strong-title",
-        "exact-author"
-      ]
-    },
-    {
-      "title": "Sundial — Wikipedia (anglicky)",
-      "author": "",
-      "year": "",
-      "url": "https://en.wikipedia.org/wiki/Sundial",
-      "files": [
-        "content/hodinarium-eu/slunecni.mdx"
-      ],
-      "count": 1,
-      "citationKey": "SundialWikipediaAnglicky",
-      "zoteroTitle": "Sundial — Wikipedia (anglicky)",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Astronomie moje hobby — Jaromír Ciesla",
-      "author": "",
-      "year": "",
-      "url": "",
-      "files": [
-        "content/hodinarium-eu/slunecni.mdx"
-      ],
-      "count": 1,
-      "citationKey": "AstronomieMojeHobby",
-      "zoteroTitle": "Astronomie moje hobby — Jaromír Ciesla",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Orologi Solari — italský program (download)",
-      "author": "",
-      "year": "",
-      "url": "http://digilander.libero.it/orologi.solari/download/download.html",
-      "files": [
-        "content/hodinarium-eu/slunecni.mdx"
-      ],
-      "count": 1,
-      "citationKey": "OrologiSolariItalsky",
-      "zoteroTitle": "Orologi Solari — italský program (download)",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Cadrans Solaires — historie evropských orlojů a slunečních hodin",
-      "author": "",
-      "year": "",
-      "url": "http://www.ens-lyon.fr/RELIE/Cadrans/",
-      "files": [
-        "content/hodinarium-eu/slunecni.mdx"
-      ],
-      "count": 1,
-      "citationKey": "CadransSolairesHistorie",
-      "zoteroTitle": "Cadrans Solaires — historie evropských orlojů a slunečních hodin",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Sluneční hodinářství",
-      "author": "",
-      "year": "",
-      "url": "http://www.hela.cz/",
-      "files": [
-        "content/hodinarium-eu/slunecni.mdx"
-      ],
-      "count": 1,
-      "citationKey": "SlunecniHodinarstvi",
-      "zoteroTitle": "Sluneční hodinářství",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Sluneční hodiny — Za starou Prahu (1)",
-      "author": "",
-      "year": "",
-      "url": "http://www.zastarouprahu.cz/ruzne/slunecni.htm",
-      "files": [
-        "content/hodinarium-eu/slunecni.mdx"
-      ],
-      "count": 1,
-      "citationKey": "SlunecniHodinyZa",
-      "zoteroTitle": "Sluneční hodiny — Za starou Prahu (1)",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Sluneční hodiny — Za starou Prahu (2)",
-      "author": "",
-      "year": "",
-      "url": "http://www.zastarouprahu.cz/ruzne/slunecni2.htm",
-      "files": [
-        "content/hodinarium-eu/slunecni.mdx"
-      ],
-      "count": 1,
-      "citationKey": "SlunecniHodinyZaa",
-      "zoteroTitle": "Sluneční hodiny — Za starou Prahu (2)",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Sluneční park v Holandsku (Frans Maes — Genk)",
-      "author": "",
-      "year": "",
-      "url": "http://www.fransmaes.nl/genk/welcome-e.htm",
-      "files": [
-        "content/hodinarium-eu/slunecni.mdx"
-      ],
-      "count": 1,
-      "citationKey": "SlunecniParkHolandsku",
-      "zoteroTitle": "Sluneční park v Holandsku (Frans Maes — Genk)",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Sluneční hodiny na Siyul Kibera — Česká námořní expedice",
-      "author": "",
-      "year": "",
-      "url": "http://www.slunecnihodiny.eu/",
-      "files": [
-        "content/hodinarium-eu/slunecni.mdx"
-      ],
-      "count": 1,
-      "citationKey": "SlunecniHodinyNa",
-      "zoteroTitle": "Sluneční hodiny na Siyul Kibera — Česká námořní expedice",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Národní námořní muzeum v Greenwichi — sbírka slunečních hodin",
-      "author": "",
-      "year": "",
-      "url": "https://www.rmg.co.uk/national-maritime-museum",
-      "files": [
-        "content/hodinarium-eu/slunecni.mdx"
-      ],
-      "count": 1,
-      "citationKey": "NarodniNamorniMuzeum",
-      "zoteroTitle": "Národní námořní muzeum v Greenwichi — sbírka slunečních hodin",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Hebrejská abeceda",
-      "author": "",
-      "year": "",
-      "url": "https://sk.wikipedia.org/wiki/Hebrejsk%C3%A1_abeceda",
-      "files": [
-        "content/hodinarium-eu/zidovske.mdx"
-      ],
-      "count": 1,
-      "citationKey": "HebrejskaAbeceda",
-      "zoteroTitle": "Hebrejská abeceda",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Atelier restaurování věžních hodin (Petr a Melanie Skálovi)",
-      "author": "",
-      "year": "",
-      "url": "http://www.veznihodiny.cz/",
-      "files": [
-        "content/hodinarium-eu/zidovske.mdx"
-      ],
-      "count": 1,
-      "citationKey": "AtelierRestaurovaniVeznicha",
-      "zoteroTitle": "Atelier restaurování věžních hodin (Petr a Melanie Skálovi)",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Stroj židovských hodin po restaurování — fotodokumentace",
-      "author": "",
-      "year": "",
-      "url": "http://www.veznihodiny.cz/ukaz4.htm",
-      "files": [
-        "content/hodinarium-eu/zidovske.mdx"
-      ],
-      "count": 1,
-      "citationKey": "StrojZidovskychHodin",
-      "zoteroTitle": "Stroj židovských hodin po restaurování — fotodokumentace",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Židovská radnice — Streetview detail ciferníku",
-      "author": "",
-      "year": "",
-      "url": "https://www.google.com/maps/@50.0900894,14.4183905,3a,33.9y,155.76h,129.84t/data=!3m6!1e1!3m4!1sKmCS8Nq_pn0tjnhLiHW6Uw!2e0!7i13312!8i6656",
-      "files": [
-        "content/hodinarium-eu/zidovske.mdx",
-        "content/hodinari/sebastian-landesberger.mdx"
-      ],
-      "count": 2,
-      "citationKey": "ZidovskaRadniceStreetview",
-      "zoteroTitle": "Židovská radnice — Streetview detail ciferníku",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Židovská radnice na mapě Prahy",
-      "author": "",
-      "year": "",
-      "url": "https://mapy.cz/s/kcyO",
-      "files": [
-        "content/hodinarium-eu/zidovske.mdx"
-      ],
-      "count": 1,
-      "citationKey": "ZidovskaRadniceNa",
-      "zoteroTitle": "Židovská radnice na mapě Prahy",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Progress versus tradition – traditional craftsmanship and attempts at industrial tower clock production in the Czech lands in the 19th century",
-      "author": "David Knespl",
-      "year": "2024",
-      "url": "https://doi.org/10.14311/AP.2024.64.0237",
-      "files": [
-        "content/hodinari/cenek-danek.mdx",
-        "content/hodinari/frantisek-summerecker.mdx",
-        "content/hodinari/franz-joseph-gerstner.mdx",
-        "content/hodinari/jan-holub.mdx",
-        "content/hodinari/jan-prokes.mdx",
-        "content/hodinari/josef-bozek.mdx",
-        "content/hodinari/josef-kosek.mdx",
-        "content/hodinari/l-hainz.mdx",
-        "content/hodinari/ludvik-hainz.mdx",
-        "content/hodinari/vaclav-krecmer.mdx",
-        "content/hodinari/videnska-polytechnika.mdx",
-        "content/soupis-veznich-hodin/1868-bychory-prokes.mdx"
-      ],
-      "count": 12,
-      "citationKey": "knesplProgressTraditionTraditional2024",
-      "zoteroTitle": "Progress versus tradition – traditional craftsmanship and attempts at industrial tower clock production in the Czech lands in the 19th century",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Hvězdářský orloj",
-      "author": "",
-      "year": "1895",
-      "url": "",
-      "files": [
-        "content/hodinari/edmund-kinsner.mdx"
-      ],
-      "count": 1,
-      "citationKey": "nekutHvezdarskyOrloj1898",
-      "zoteroTitle": "Hvězdářský orloj",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "V oddělení moderního průmyslu",
-      "author": "",
-      "year": "1895",
-      "url": "",
-      "files": [
-        "content/hodinari/edmund-kinsner.mdx"
-      ],
-      "count": 1,
-      "citationKey": "OddeleniModernihoPrumyslu1895a",
-      "zoteroTitle": "V oddělení moderního průmyslu",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Patentní orloje",
-      "author": "",
-      "year": "1895",
-      "url": "",
-      "files": [
-        "content/hodinari/edmund-kinsner.mdx"
-      ],
-      "count": 1,
-      "citationKey": "PatentniOrloje1895",
-      "zoteroTitle": "Patentní orloje",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Edmund Kinšner Patentní orloje",
-      "author": "",
-      "year": "1895",
-      "url": "",
-      "files": [
-        "content/hodinari/edmund-kinsner.mdx"
-      ],
-      "count": 1,
-      "citationKey": "EdmundKinsnerPatentni1898a",
-      "zoteroTitle": "Edmund Kinšner Patentní orloje",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Edmund Kinšner Patentní orloje",
-      "author": "",
-      "year": "1898",
-      "url": "",
-      "files": [
-        "content/hodinari/edmund-kinsner.mdx"
-      ],
-      "count": 1,
-      "citationKey": "EdmundKinsnerPatentni1898a",
-      "zoteroTitle": "Edmund Kinšner Patentní orloje",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Patentní orloje Edmund Kinšner",
-      "author": "",
-      "year": "1888",
-      "url": "",
-      "files": [
-        "content/hodinari/edmund-kinsner.mdx"
-      ],
-      "count": 1,
-      "citationKey": "PatentniOrlojeEdmund1888a",
-      "zoteroTitle": "Patentní orloje Edmund Kinšner",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Brožura k okresní výstavě v Chlumci nad Cidlinou",
-      "author": "",
-      "year": "1911",
-      "url": "",
-      "files": [
-        "content/hodinari/edmund-kinsner.mdx"
-      ],
-      "count": 1,
-      "citationKey": "BrozuraOkresniVystave1911",
-      "zoteroTitle": "Brožura k okresní výstavě v Chlumci nad Cidlinou",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "The Landesberger Clockmaker Family and the Reconstruction of the Prague Astronomical Clock, 1784–1791",
-      "author": "David Knespl",
-      "year": "2025",
-      "url": "",
-      "files": [
-        "content/hodinari/ferdinand-landesberger.mdx",
-        "content/hodinari/sebastian-landesberger.mdx"
-      ],
-      "count": 2,
-      "citationKey": "knesplLandesbergerClockmakerFamily2025",
-      "zoteroTitle": "The Landesberger Clockmaker Family and the Reconstruction of the Prague Astronomical Clock, 1784–1791",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Beschreibung der berühmten Uhr- und Kunstwerke am Altstädter Rathhause und auf der Königl. Sternwarte zu Prag",
-      "author": "Anton Strnad",
-      "year": "1791",
-      "url": "https://doi.org/10.3931/e-rara-1313",
-      "files": [
-        "content/hodinari/ferdinand-landesberger.mdx",
-        "content/hodinari/sebastian-landesberger.mdx"
-      ],
-      "count": 2,
-      "citationKey": "strnadBeschreibungBeruhmtenUhr1791",
-      "zoteroTitle": "Beschreibung der berühmten Uhr- und Kunstwerke am Altstädter Rathhause und auf der Königl. Sternwarte zu Prag",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Materialien zur alten und neuen Statistik von Böhmen",
-      "author": "Joseph Anton Stephan von Riegger",
-      "year": "1788",
-      "url": "",
-      "files": [
-        "content/hodinari/ferdinand-landesberger.mdx"
-      ],
-      "count": 1,
-      "citationKey": "rieggerMaterialienZurAlten1788",
-      "zoteroTitle": "Materialien zur alten und neuen Statistik von Böhmen",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Národní archiv: petice Ferdinanda Landesbergera",
-      "author": "",
-      "year": "",
-      "url": "",
-      "files": [
-        "content/hodinari/ferdinand-landesberger.mdx"
-      ],
-      "count": 1,
-      "citationKey": "NarodniArchivPetice",
-      "zoteroTitle": "Národní archiv: petice Ferdinanda Landesbergera",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
       ]
     },
     {
@@ -1024,17 +55,16 @@
       ]
     },
     {
-      "title": "Německo-český slovník pro hodináře a pouzdráře hodinářské",
-      "author": "František Špatný",
-      "year": "1882",
+      "title": "Posvátná místa král. hl. města Prahy",
+      "author": "Antonín Podlaha",
+      "year": "1916",
       "url": "",
       "files": [
-        "content/hodinari/frantisek-spatny.mdx",
-        "content/hodinari/vaclav-krecmer.mdx"
+        "content/hodinari/frantisek-eisgruber.mdx"
       ],
-      "count": 2,
-      "citationKey": "spatnyNemeckoceskySlovnikPro1882a",
-      "zoteroTitle": "Německo-český slovník pro hodináře a pouzdráře hodinářské",
+      "count": 1,
+      "citationKey": "podlahaPosvatnaMistaKral1916",
+      "zoteroTitle": "Posvátná místa král. hl. města Prahy",
       "score": 1,
       "reasons": [
         "strong-title",
@@ -1043,18 +73,16 @@
       ]
     },
     {
-      "title": "Romuald Božek. Die neue Stadtuhr (Nové městské hodiny)",
-      "author": "David Knespl",
-      "year": "2024",
+      "title": "Pražská radnice za 1750–1850",
+      "author": "Václav Vojtíšek",
+      "year": "1919",
       "url": "",
       "files": [
-        "content/hodinari/frantisek-summerecker.mdx",
-        "content/hodinari/franz-joseph-gerstner.mdx",
-        "content/hodinari/romuald-bozek.mdx"
+        "content/hodinari/frantisek-eisgruber.mdx"
       ],
-      "count": 3,
-      "citationKey": "knesplRomualdBozekNeue2024a",
-      "zoteroTitle": "Romuald Božek. Die neue Stadtuhr (Nové městské hodiny)",
+      "count": 1,
+      "citationKey": "vojtisekPrazskaRadniceZa1919",
+      "zoteroTitle": "Pražská radnice za 1750–1850",
       "score": 1,
       "reasons": [
         "strong-title",
@@ -1063,746 +91,16 @@
       ]
     },
     {
-      "title": "Karta inv. 7 — Věžní stroj F. X. Beitel",
-      "author": "",
-      "year": "",
-      "url": "",
-      "files": [
-        "content/hodinari/frantisek-x-beitel.mdx"
-      ],
-      "count": 1,
-      "citationKey": "KartaInv7",
-      "zoteroTitle": "Karta inv. 7 — Věžní stroj F. X. Beitel",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Akvizice 2015–2025",
-      "author": "",
-      "year": "",
-      "url": "",
-      "files": [
-        "content/hodinari/frantisek-x-beitel.mdx"
-      ],
-      "count": 1,
-      "citationKey": "Akvizice20152025",
-      "zoteroTitle": "Akvizice 2015–2025",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Karta inv. 24 — Věžní hodiny Bassler",
-      "author": "",
-      "year": "",
-      "url": "",
-      "files": [
-        "content/hodinari/friedrich-moritz-bassler.mdx"
-      ],
-      "count": 1,
-      "citationKey": "KartaInv24",
-      "zoteroTitle": "Karta inv. 24 — Věžní hodiny Bassler",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Fachkreis Turmuhren — historische Turmuhrenhersteller",
-      "author": "",
-      "year": "",
-      "url": "https://www.f-k-turmuhren.de/turmuhreninformationen/historische-turmuhrenhersteller/",
-      "files": [
-        "content/hodinari/friedrich-moritz-bassler.mdx"
-      ],
-      "count": 1,
-      "citationKey": "FachkreisTurmuhrenHistorische",
-      "zoteroTitle": "Fachkreis Turmuhren — historische Turmuhrenhersteller",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Učebnice odborné nauky hodinářské",
-      "author": "Josef Sladkovský",
-      "year": "1947",
-      "url": "",
-      "files": [
-        "content/hodinari/gustav-becker.mdx",
-        "content/hodinari/josef-bozek.mdx",
-        "content/hodinari/josef-kosek.mdx",
-        "content/hodinari/junghans.mdx",
-        "content/hodinari/kienzle.mdx",
-        "content/hodinari/l-hainz.mdx",
-        "content/hodinari/ludvik-hainz.mdx",
-        "content/hodinari/mauthe.mdx",
-        "content/hodinari/romuald-bozek.mdx"
-      ],
-      "count": 9,
-      "citationKey": "sladkovskyUcebniceOdborneNauky1947a",
-      "zoteroTitle": "Učebnice odborné nauky hodinářské",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Orloj na věži svatovítské",
-      "author": "František Horálek",
-      "year": "1930",
-      "url": "",
-      "files": [
-        "content/hodinari/hans-bechler.mdx",
-        "content/hodinari/sebastian-landesberger.mdx"
-      ],
-      "count": 2,
-      "citationKey": "horalekOrlojNaVezi1930a",
-      "zoteroTitle": "Orloj na věži svatovítské",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Olomoučtí hodináři a jejich výrobky ve sbírkách Vlastivědného muzea v Olomouci",
-      "author": "Radim Himmler",
-      "year": "2006",
-      "url": "",
-      "files": [
-        "content/hodinari/hans-pohl.mdx",
-        "content/hodinari/thondel.mdx"
-      ],
-      "count": 2,
-      "citationKey": "himmlerOlomouctiHodinariJejich2007",
-      "zoteroTitle": "Olomoučtí hodináři a jejich výrobky ve sbírkách Vlastivědného muzea v Olomouci",
-      "score": 0.9,
-      "reasons": [
-        "strong-title",
-        "exact-author"
-      ]
-    },
-    {
-      "title": "Na naší věži hodiny běží…",
-      "author": "Josef Novák",
-      "year": "1967",
-      "url": "",
-      "files": [
-        "content/hodinari/jan-janata.mdx"
-      ],
-      "count": 1,
-      "citationKey": "novakNaNasiVezi1967",
-      "zoteroTitle": "Na naší věži hodiny běží…",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Unikát, který v Lipnici poslouchají celé generace. Přesný čas tam měří cimbál",
-      "author": "Štěpánka Saadouni",
-      "year": "2020",
-      "url": "https://www.denik.cz/regiony/unikat-ktery-v-lipnici-poslouchaji-cele-generace-presny-cas-meri-zvuk-cimbalu-20.html",
-      "files": [
-        "content/hodinari/jan-janata.mdx"
-      ],
-      "count": 1,
-      "citationKey": "saadouniUnikatKteryLipnici2020",
-      "zoteroTitle": "Unikát, který v Lipnici poslouchají celé generace. Přesný čas tam měří cimbál",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Jan Prokeš, hodinář ze Sobotky. 200 let od narození",
-      "author": "David Knespl",
-      "year": "2018",
-      "url": "",
-      "files": [
-        "content/hodinari/jan-prokes.mdx"
-      ],
-      "count": 1,
-      "citationKey": "knesplJanProkesHodinar2018a",
-      "zoteroTitle": "Jan Prokeš, hodinář ze Sobotky. 200 let od narození",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Umělec hodinářský",
-      "author": "",
-      "year": "1882",
-      "url": "",
-      "files": [
-        "content/hodinari/jan-prokes.mdx"
-      ],
-      "count": 1,
-      "citationKey": "UmelecHodinarsky1882a",
-      "zoteroTitle": "Umělec hodinářský",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Jan Prokeš",
-      "author": "",
-      "year": "1891",
-      "url": "",
-      "files": [
-        "content/hodinari/jan-prokes.mdx"
-      ],
-      "count": 1,
-      "citationKey": "JanProkes1891",
-      "zoteroTitle": "Jan Prokeš",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Jan Prokeš, vynikající mistr hodinářský",
-      "author": "J. A. Paukert",
-      "year": "1909–1910",
-      "url": "",
-      "files": [
-        "content/hodinari/jan-prokes.mdx"
-      ],
-      "count": 1,
-      "citationKey": "paukertJanProkesVynikajici1909",
-      "zoteroTitle": "Jan Prokeš, vynikající mistr hodinářský",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "O soboteckém hodinářovi Prokšovi",
-      "author": "Miroslav Vlach",
-      "year": "1941",
-      "url": "",
-      "files": [
-        "content/hodinari/jan-prokes.mdx"
-      ],
-      "count": 1,
-      "citationKey": "vlachSoboteckemHodinaroviProksovi1941",
-      "zoteroTitle": "O soboteckém hodinářovi Prokšovi",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Hodináři v Samotíiškách",
-      "author": "",
-      "year": "1996",
-      "url": "https://www.samotisky.cz/assets/File.ashx?id_org=14603&id_dokumenty=1005",
-      "files": [
-        "content/hodinari/jindrich-spacil.mdx"
-      ],
-      "count": 1,
-      "citationKey": "HodinariSamotiiskach1996",
-      "zoteroTitle": "Hodináři v Samotíiškách",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Karta inv. 28 — Věžní hodiny pérové se setrvačkou",
-      "author": "",
-      "year": "",
-      "url": "",
-      "files": [
-        "content/hodinari/jindrich-spacil.mdx"
-      ],
-      "count": 1,
-      "citationKey": "KartaInv28",
-      "zoteroTitle": "Karta inv. 28 — Věžní hodiny pérové se setrvačkou",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Karta inv. 41 — hodiny Achrer",
-      "author": "",
-      "year": "",
-      "url": "",
-      "files": [
-        "content/hodinari/josef-achrer.mdx"
-      ],
-      "count": 1,
-      "citationKey": "KartaInv41",
-      "zoteroTitle": "Karta inv. 41 — hodiny Achrer",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Hodiny – Od gnómonu k atomovým hodinám",
-      "author": "Stanislav Michal",
-      "year": "1987",
-      "url": "",
-      "files": [
-        "content/hodinari/josef-bozek.mdx",
-        "content/hodinari/josef-kosek.mdx"
-      ],
-      "count": 2,
-      "citationKey": "michalHodinyOdGnomonu1987a",
-      "zoteroTitle": "Hodiny – Od gnómonu k atomovým hodinám",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Biografický slovník českých zemí, vol. 6 (Boh–Bož)",
-      "author": "",
-      "year": "2004",
-      "url": "",
-      "files": [
-        "content/hodinari/josef-bozek.mdx"
-      ],
-      "count": 1,
-      "citationKey": "BiografickySlovnikCeskych2004",
-      "zoteroTitle": "Biografický slovník českých zemí, vol. 6 (Boh–Bož)",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Josef, Romuald & Rosalia Božek",
-      "author": "T. Kučera",
-      "year": "2017",
-      "url": "",
-      "files": [
-        "content/hodinari/josef-bozek.mdx",
-        "content/hodinari/romuald-bozek.mdx"
-      ],
-      "count": 2,
-      "citationKey": "kuceraJosefRomualdRosalia2017a",
-      "zoteroTitle": "Josef, Romuald & Rosalia Božek",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Nekrolog",
-      "author": "",
-      "year": "1858",
-      "url": "https://books.google.cz/books?id=SBZRAQAAMAAJ",
-      "files": [
-        "content/hodinari/josef-kosek.mdx"
-      ],
-      "count": 1,
-      "citationKey": "Nekrolog1858",
-      "zoteroTitle": "Nekrolog",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Ueber das Magnetischwerden einer Taschenuhr und ihre Entmagnetisirung",
-      "author": "",
-      "year": "1837",
-      "url": "https://www.google.cz/books?id=wREPAQAAIAAJ",
-      "files": [
-        "content/hodinari/josef-kosek.mdx"
-      ],
-      "count": 1,
-      "citationKey": "wilhelmgintlUeberMagnetischwerdenTaschenuhr1837",
-      "zoteroTitle": "Ueber das Magnetischwerden einer Taschenuhr und ihre Entmagnetisirung",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Ausstellung der Industrie Erzeugnisse Böhmens",
-      "author": "",
-      "year": "1831",
-      "url": "https://www.google.cz/books?id=GZorWJ11ucUC",
-      "files": [
-        "content/hodinari/josef-kosek.mdx"
-      ],
-      "count": 1,
-      "citationKey": "AusstellungIndustrieErzeugnisse1831",
-      "zoteroTitle": "Ausstellung der Industrie Erzeugnisse Böhmens",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Kalender für alle Stände",
-      "author": "",
-      "year": "1845",
-      "url": "https://www.google.cz/books?id=BfxugeaBeWcC",
-      "files": [
-        "content/hodinari/josef-kosek.mdx"
-      ],
-      "count": 1,
-      "citationKey": "KalenderFuerAlle1845",
-      "zoteroTitle": "Kalender für alle Stände",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Junghans (Wikipedia)",
-      "author": "",
-      "year": "",
-      "url": "https://en.wikipedia.org/wiki/Junghans",
-      "files": [
-        "content/hodinari/junghans.mdx"
-      ],
-      "count": 1,
-      "citationKey": "JunghansWikipedia",
-      "zoteroTitle": "Junghans (Wikipedia)",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Karta inv. 15 — Věžní hodiny Josef Kohlert (Kraslice)",
-      "author": "",
-      "year": "",
-      "url": "",
-      "files": [
-        "content/hodinari/kohlert.mdx"
-      ],
-      "count": 1,
-      "citationKey": "KartaInv15",
-      "zoteroTitle": "Karta inv. 15 — Věžní hodiny Josef Kohlert (Kraslice)",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Progress versus tradition – traditional craftsmanship...",
-      "author": "David Knespl",
-      "year": "2024",
-      "url": "https://doi.org/10.14311/AP.2024.64.0237",
-      "files": [
-        "content/hodinari/kohlert.mdx"
-      ],
-      "count": 1,
-      "citationKey": "knesplProgressTraditionTraditional2024b",
-      "zoteroTitle": "Progress versus tradition – traditional craftsmanship...",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Firma Ludvík Hainz, Praha",
-      "author": "Zdeněk Martínek",
-      "year": "2009",
-      "url": "",
-      "files": [
-        "content/hodinari/l-hainz.mdx",
-        "content/hodinari/ludvik-hainz.mdx"
-      ],
-      "count": 2,
-      "citationKey": "martinekFirmaLudvikHainz2009a",
-      "zoteroTitle": "Firma Ludvík Hainz, Praha",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "104 roků hodinářství v rodě Hainzů v Praze",
-      "author": "",
-      "year": "1940",
-      "url": "",
-      "files": [
-        "content/hodinari/l-hainz.mdx",
-        "content/hodinari/ludvik-hainz.mdx"
-      ],
-      "count": 2,
-      "citationKey": "104RokuHodinarstvi1940",
-      "zoteroTitle": "104 roků hodinářství v rodě Hainzů v Praze",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Karta inv. 35 — Věžní hodiny Mannhardt (Mikulášovice)",
-      "author": "",
-      "year": "",
-      "url": "",
-      "files": [
-        "content/hodinari/mannhardt.mdx"
-      ],
-      "count": 1,
-      "citationKey": "KartaInv35",
-      "zoteroTitle": "Karta inv. 35 — Věžní hodiny Mannhardt (Mikulášovice)",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Karta inv. 6 — Věžní hodinový stroj Michael Christ",
-      "author": "",
-      "year": "",
-      "url": "",
-      "files": [
-        "content/hodinari/michael-christ.mdx"
-      ],
-      "count": 1,
-      "citationKey": "KartaInv6",
-      "zoteroTitle": "Karta inv. 6 — Věžní hodinový stroj Michael Christ",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Karta inv. 14 — Věžní hodiny Paul Zieux",
-      "author": "",
-      "year": "",
-      "url": "",
-      "files": [
-        "content/hodinari/paul-zieux.mdx"
-      ],
-      "count": 1,
-      "citationKey": "KartaInv14",
-      "zoteroTitle": "Karta inv. 14 — Věžní hodiny Paul Zieux",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "The Astronomical Clock of Archduke Ferdinand II of Austria, the work of clockmaker Pavel Frejlich from Litomyšl, and the Prague Astronomical Clock",
-      "author": "David Knespl",
-      "year": "2024",
-      "url": "https://doi.org/10.54759/sr-2024-003",
-      "files": [
-        "content/hodinari/pavel-frejlich.mdx",
-        "content/hodinari/vavrinec-frejlich.mdx"
-      ],
-      "count": 2,
-      "citationKey": "knesplAstronomicalClockArchduke2024",
-      "zoteroTitle": "The Astronomical Clock of Archduke Ferdinand II of Austria, the work of clockmaker Pavel Frejlich from Litomyšl, and the Prague Astronomical Clock",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Hodinář Pavel Frejlich z Litomyšle a autorství interiérového orloje Ferdinanda II. Tyrolského",
-      "author": "David Knespl",
-      "year": "2022",
-      "url": "",
-      "files": [
-        "content/hodinari/pavel-frejlich.mdx",
-        "content/hodinari/vavrinec-frejlich.mdx"
-      ],
-      "count": 2,
-      "citationKey": "knesplHodinarPavelFrejlich2022",
-      "zoteroTitle": "Hodinář Pavel Frejlich z Litomyšle a autorství interiérového orloje Ferdinanda II. Tyrolského",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Karta inv. 21 — Věžní hodiny dřevěné",
-      "author": "",
-      "year": "",
-      "url": "",
-      "files": [
-        "content/hodinari/peter-fridrich.mdx"
-      ],
-      "count": 1,
-      "citationKey": "KartaInv21",
-      "zoteroTitle": "Karta inv. 21 — Věžní hodiny dřevěné",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Atelier restaurování věžních hodin (web)",
-      "author": "",
-      "year": "",
-      "url": "http://www.veznihodiny.cz/",
-      "files": [
-        "content/hodinari/petr-skala.mdx"
-      ],
-      "count": 1,
-      "citationKey": "AtelierRestaurovaniVeznich",
-      "zoteroTitle": "Atelier restaurování věžních hodin (web)",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Pražský orloj — orlojnictví",
-      "author": "",
-      "year": "",
-      "url": "http://www.orloj.eu/",
-      "files": [
-        "content/hodinari/petr-skala.mdx"
-      ],
-      "count": 1,
-      "citationKey": "PrazskyOrlojOrlojnictvi",
-      "zoteroTitle": "Pražský orloj — orlojnictví",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Karta inv. 8 — Věžní stroj Richard Liebing",
-      "author": "",
-      "year": "",
-      "url": "",
-      "files": [
-        "content/hodinari/richard-liebing.mdx"
-      ],
-      "count": 1,
-      "citationKey": "KartaInv8",
-      "zoteroTitle": "Karta inv. 8 — Věžní stroj Richard Liebing",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Die neue Stadtuhr",
-      "author": "Romuald Božek",
-      "year": "1887",
-      "url": "",
-      "files": [
-        "content/hodinari/romuald-bozek.mdx"
-      ],
-      "count": 1,
-      "citationKey": "bozekNeueStadtuhr1887",
-      "zoteroTitle": "Die neue Stadtuhr",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Über Uhren und Uhrmacher",
-      "author": "Romuald Božek",
-      "year": "",
-      "url": "",
-      "files": [
-        "content/hodinari/romuald-bozek.mdx"
-      ],
-      "count": 1,
-      "citationKey": "bozekUberUhrenUnd",
-      "zoteroTitle": "Über Uhren und Uhrmacher",
-      "score": 0.9,
-      "reasons": [
-        "strong-title",
-        "exact-author"
-      ]
-    },
-    {
-      "title": "O hodinách a hodinářích",
-      "author": "Romuald Božek",
-      "year": "1894",
-      "url": "",
-      "files": [
-        "content/hodinari/romuald-bozek.mdx"
-      ],
-      "count": 1,
-      "citationKey": "bozekHodinachHodinarich1894",
-      "zoteroTitle": "O hodinách a hodinářích",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Romuald Božek: Český mechanik, vynálezce a vodárenský odborník",
-      "author": "",
+      "title": "Meister der Uhrmacherkunst",
+      "author": "Jürgen Abeler",
       "year": "2010",
       "url": "",
       "files": [
-        "content/hodinari/romuald-bozek.mdx"
+        "content/hodinari/frantisek-eisgruber.mdx"
       ],
       "count": 1,
-      "citationKey": "RomualdBozekCesky2010a",
-      "zoteroTitle": "Romuald Božek: Český mechanik, vynálezce a vodárenský odborník",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Božkové – Osudy rodiny vynálezce",
-      "author": "J. Streit",
-      "year": "1946",
-      "url": "",
-      "files": [
-        "content/hodinari/romuald-bozek.mdx"
-      ],
-      "count": 1,
-      "citationKey": "streitBozkoveOsudyRodiny1946a",
-      "zoteroTitle": "Božkové – Osudy rodiny vynálezce",
+      "citationKey": "abelerMeisterUhrmacherkunst2010",
+      "zoteroTitle": "Meister der Uhrmacherkunst",
       "score": 1,
       "reasons": [
         "strong-title",
@@ -1811,16 +109,32 @@
       ]
     },
     {
-      "title": "Inventář NTM Josef a Romuald Božek",
-      "author": "Jaroslav Dolenský",
-      "year": "1936",
-      "url": "",
+      "title": "František Josef Gerstner",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Franti%C5%A1ek_Josef_Gerstner",
       "files": [
-        "content/hodinari/romuald-bozek.mdx"
+        "content/hodinari/franz-joseph-gerstner.mdx"
       ],
       "count": 1,
-      "citationKey": "dolenskyInventarNTMJosef1936",
-      "zoteroTitle": "Inventář NTM Josef a Romuald Božek",
+      "citationKey": "FrantisekJosefGerstner",
+      "zoteroTitle": "František Josef Gerstner",
+      "score": 0.7,
+      "reasons": [
+        "strong-title"
+      ]
+    },
+    {
+      "title": "Příspěvek k slovníku umělců a uměleckých řemeslníků z Poděbradska",
+      "author": "Jan Hellich",
+      "year": "1917",
+      "url": "",
+      "files": [
+        "content/hodinari/jan-janata.mdx"
+      ],
+      "count": 1,
+      "citationKey": "hellichPrispevekSlovnikuUmelcu1917",
+      "zoteroTitle": "Příspěvek k slovníku umělců a uměleckých řemeslníků z Poděbradska",
       "score": 1,
       "reasons": [
         "strong-title",
@@ -1829,81 +143,48 @@
       ]
     },
     {
-      "title": "Museo dell'orologeria Pesarina (Udine)",
+      "title": "Hodinové stroje Jana Janaty z Poděbrad — Hodinářství Jan Marek",
       "author": "",
       "year": "",
-      "url": "https://www.museopesarino.it/",
+      "url": "http://www.veznihodiny.cz/mukaz8.htm",
       "files": [
-        "content/hodinari/solari-udine.mdx"
+        "content/hodinari/jan-janata.mdx"
       ],
       "count": 1,
-      "citationKey": "MuseoDellorologeriaPesarina",
-      "zoteroTitle": "Museo dell'orologeria Pesarina (Udine)",
+      "citationKey": "HodinoveStrojeJana",
+      "zoteroTitle": "Hodinové stroje Jana Janaty z Poděbrad — Hodinářství Jan Marek",
       "score": 0.7,
       "reasons": [
         "strong-title"
       ]
     },
     {
-      "title": "Solari di Udine (Wikipedia)",
+      "title": "Životopis hodináře Jana Janaty",
       "author": "",
       "year": "",
-      "url": "https://it.wikipedia.org/wiki/Solari_di_Udine",
+      "url": "http://www.veznihodiny.cz/janata.htm",
       "files": [
-        "content/hodinari/solari-udine.mdx"
+        "content/hodinari/jan-janata.mdx"
       ],
       "count": 1,
-      "citationKey": "SolariDiUdine",
-      "zoteroTitle": "Solari di Udine (Wikipedia)",
+      "citationKey": "ZivotopisHodinareJana",
+      "zoteroTitle": "Životopis hodináře Jana Janaty",
       "score": 0.7,
       "reasons": [
         "strong-title"
       ]
     },
     {
-      "title": "K dochovaným věžním hodinovým strojům uničovské firmy Thöndel",
-      "author": "Radim Himmler",
-      "year": "",
-      "url": "https://disk.cpilot.cz/muzeum-komenskeho/2021/01/AXdD20VzIQjV7UfXlaIv.pdf",
-      "files": [
-        "content/hodinari/thondel.mdx"
-      ],
-      "count": 1,
-      "citationKey": "himmlerDochovanymVeznimHodinovyma",
-      "zoteroTitle": "K dochovaným věžním hodinovým strojům Uničovské firmy Thöndel",
-      "score": 0.9,
-      "reasons": [
-        "strong-title",
-        "exact-author"
-      ]
-    },
-    {
-      "title": "Karta inv. 9 — Věžní stroj Thöndel",
-      "author": "",
-      "year": "",
+      "title": "Hodinářství v českých zemích — soubor článků",
+      "author": "Petr Hartman",
+      "year": "1987",
       "url": "",
       "files": [
-        "content/hodinari/thondel.mdx"
+        "content/hodinari/jan-prokes-jr.mdx"
       ],
       "count": 1,
-      "citationKey": "KartaInv9",
-      "zoteroTitle": "Karta inv. 9 — Věžní stroj Thöndel",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "O hodinářství",
-      "author": "Václav Krečmer",
-      "year": "1878",
-      "url": "",
-      "files": [
-        "content/hodinari/vaclav-krecmer.mdx"
-      ],
-      "count": 1,
-      "citationKey": "krecmerHodinarstvi1878a",
-      "zoteroTitle": "O hodinářství",
+      "citationKey": "hartmanHodinarstviCeskychZemich1987",
+      "zoteroTitle": "Hodinářství v českých zemích — soubor článků",
       "score": 1,
       "reasons": [
         "strong-title",
@@ -1912,54 +193,41 @@
       ]
     },
     {
-      "title": "Inzerát Krečmer",
+      "title": "Bílá věž (Hradec Králové) — Wikipedie.",
       "author": "",
-      "year": "1876",
-      "url": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/B%C3%ADl%C3%A1_v%C4%9B%C5%BE_(Hradec_Kr%C3%A1lov%C3%A9)",
       "files": [
-        "content/hodinari/vaclav-krecmer.mdx"
+        "content/soupis-veznich-hodin/1591-hradec-kralove-bila-vez-frejlich.mdx",
+        "content/soupis-veznich-hodin/1829-hradec-kralove-bila-vez-bozek.mdx"
       ],
-      "count": 1,
-      "citationKey": "InzeratKrecmer1876a",
-      "zoteroTitle": "Inzerát Krečmer",
-      "score": 0.8,
+      "count": 2,
+      "citationKey": "BilaVezHradec",
+      "zoteroTitle": "Bílá věž (Hradec Králové) — Wikipedie.",
+      "score": 0.7,
       "reasons": [
-        "strong-title",
-        "exact-year"
+        "strong-title"
       ]
     },
     {
-      "title": "Dějiny československého hodinářského průmyslu I a II",
-      "author": "Zdeněk Martínek",
-      "year": "2009",
+      "title": "Cast Iron Tower Clockworks",
+      "author": "David Knespl",
+      "year": "2024",
       "url": "",
       "files": [
-        "content/hodinari/vaclav-krecmer.mdx"
+        "content/soupis-veznich-hodin/1810-praha-polytechnika-bozek.mdx",
+        "content/soupis-veznich-hodin/1834-brno-stara-radnice-luz.mdx",
+        "content/soupis-veznich-hodin/1834-brno-tovarna-luz.mdx",
+        "content/soupis-veznich-hodin/1834-vanovice-luz.mdx"
       ],
-      "count": 1,
-      "citationKey": "martinekDejinyCeskoslovenskehoHodinarskeho2009a",
-      "zoteroTitle": "Dějiny československého hodinářského průmyslu I a II",
+      "count": 4,
+      "citationKey": "knesplCastIronTower2024a",
+      "zoteroTitle": "Cast Iron Tower Clockworks",
       "score": 1,
       "reasons": [
         "strong-title",
         "exact-author",
         "exact-year"
-      ]
-    },
-    {
-      "title": "Barokní stroj značený Wenzel Mellner — popis exponátu (sbírka spolku)",
-      "author": "",
-      "year": "",
-      "url": "",
-      "files": [
-        "content/hodinari/wenzel-mellner.mdx"
-      ],
-      "count": 1,
-      "citationKey": "BarokniStrojZnaceny",
-      "zoteroTitle": "Barokní stroj značený Wenzel Mellner — popis exponátu (sbírka spolku)",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
       ]
     },
     {
@@ -1979,143 +247,269 @@
         "partial-author",
         "exact-year"
       ]
+    },
+    {
+      "title": "Львівська ратуша — Wikipedia (UA).",
+      "author": "",
+      "year": "",
+      "url": "https://uk.wikipedia.org/wiki/%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D1%80%D0%B0%D1%82%D1%83%D1%88%D0%B0",
+      "files": [
+        "content/soupis-veznich-hodin/1829-lvov-radnice-videnska-polytechnika.mdx"
+      ],
+      "count": 1,
+      "citationKey": "LvivskaRatushaWikipedia",
+      "zoteroTitle": "Львівська ратуша — Wikipedia (UA).",
+      "score": 0.7,
+      "reasons": [
+        "strong-title"
+      ]
+    },
+    {
+      "title": "Kostel sv. Václava (Veliš) — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_V%C3%A1clava_(Veli%C5%A1)",
+      "files": [
+        "content/soupis-veznich-hodin/1880-velis-ulibice-prokes.mdx"
+      ],
+      "count": 1,
+      "citationKey": "KostelSvVaclava",
+      "zoteroTitle": "Kostel sv. Václava (Veliš) — Wikipedie.",
+      "score": 0.7,
+      "reasons": [
+        "strong-title"
+      ]
+    },
+    {
+      "title": "Kostel svatého Jiří (Jenišovice) — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Ji%C5%99%C3%AD_(Jeni%C5%A1ovice)",
+      "files": [
+        "content/soupis-veznich-hodin/1882-jenisovice-u-turnova-prokes.mdx"
+      ],
+      "count": 1,
+      "citationKey": "KostelSvatehoJiri",
+      "zoteroTitle": "Kostel svatého Jiří (Jenišovice) — Wikipedie.",
+      "score": 0.7,
+      "reasons": [
+        "strong-title"
+      ]
+    },
+    {
+      "title": "Smidary — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Smidary",
+      "files": [
+        "content/soupis-veznich-hodin/1886-smidary-nad-cidlinou-prokes.mdx"
+      ],
+      "count": 1,
+      "citationKey": "SmidaryWikipedie",
+      "zoteroTitle": "Smidary — Wikipedie.",
+      "score": 0.7,
+      "reasons": [
+        "strong-title"
+      ]
+    },
+    {
+      "title": "Unikátní věžní hodiny čeká oprava.",
+      "author": "",
+      "year": "2010",
+      "url": "https://klatovsky.denik.cz/zpravy_region/unikatni-vezni-hodiny-ceka-oprava20100525.html",
+      "files": [
+        "content/soupis-veznich-hodin/1898-hradesice-krecmer.mdx"
+      ],
+      "count": 1,
+      "citationKey": "UnikatniVezniHodiny2010",
+      "zoteroTitle": "Unikátní věžní hodiny čeká oprava.",
+      "score": 0.8,
+      "reasons": [
+        "strong-title",
+        "exact-year"
+      ]
+    },
+    {
+      "title": "Bylany (Malé Březno) — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Bylany_(Mal%C3%A9_B%C5%99ezno)",
+      "files": [
+        "content/soupis-veznich-hodin/hellich-bylany-most-janata.mdx"
+      ],
+      "count": 1,
+      "citationKey": "BylanyMaleBrezno",
+      "zoteroTitle": "Bylany (Malé Březno) — Wikipedie.",
+      "score": 0.7,
+      "reasons": [
+        "strong-title"
+      ]
+    },
+    {
+      "title": "Bylany (zanikleobce.cz).",
+      "author": "",
+      "year": "",
+      "url": "https://www.zanikleobce.cz/index.php?obec=251",
+      "files": [
+        "content/soupis-veznich-hodin/hellich-bylany-most-janata.mdx"
+      ],
+      "count": 1,
+      "citationKey": "BylanyZanikleobcecz",
+      "zoteroTitle": "Bylany (zanikleobce.cz).",
+      "score": 0.7,
+      "reasons": [
+        "strong-title"
+      ]
+    },
+    {
+      "title": "Zaniklé obce — Bylany. Statutární město Most.",
+      "author": "",
+      "year": "",
+      "url": "https://www.mesto-most.cz/zanikle-obce-bylany/d-48731",
+      "files": [
+        "content/soupis-veznich-hodin/hellich-bylany-most-janata.mdx"
+      ],
+      "count": 1,
+      "citationKey": "ZanikleObceBylany",
+      "zoteroTitle": "Zaniklé obce — Bylany. Statutární město Most.",
+      "score": 0.7,
+      "reasons": [
+        "strong-title"
+      ]
+    },
+    {
+      "title": "Hlohovec — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Hlohovec",
+      "files": [
+        "content/soupis-veznich-hodin/hellich-hlohovec-janata.mdx"
+      ],
+      "count": 1,
+      "citationKey": "HlohovecWikipedie",
+      "zoteroTitle": "Hlohovec — Wikipedie.",
+      "score": 0.7,
+      "reasons": [
+        "strong-title"
+      ]
+    },
+    {
+      "title": "Karlovice (okres Bruntál) — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Karlovice_(okres_Brunt%C3%A1l)",
+      "files": [
+        "content/soupis-veznich-hodin/hellich-karlovice-bruntal-janata.mdx"
+      ],
+      "count": 1,
+      "citationKey": "KarloviceOkresBruntal",
+      "zoteroTitle": "Karlovice (okres Bruntál) — Wikipedie.",
+      "score": 0.7,
+      "reasons": [
+        "strong-title"
+      ]
+    },
+    {
+      "title": "Pukanec — sk.wikipedia.org.",
+      "author": "",
+      "year": "",
+      "url": "https://sk.wikipedia.org/wiki/Pukanec",
+      "files": [
+        "content/soupis-veznich-hodin/hellich-pukanec-1-janata.mdx",
+        "content/soupis-veznich-hodin/hellich-pukanec-2-janata.mdx"
+      ],
+      "count": 2,
+      "citationKey": "PukanecSkwikipediaorg",
+      "zoteroTitle": "Pukanec — sk.wikipedia.org.",
+      "score": 0.7,
+      "reasons": [
+        "strong-title"
+      ]
+    },
+    {
+      "title": "Závěrečná zpráva o restaurování věžních hodin zámku Bečváry",
+      "author": "Petr Skála (s Melanií Skálovou)",
+      "year": "2003",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/nedatovano-becvary-landesberger.mdx"
+      ],
+      "count": 1,
+      "citationKey": "skalovouZaverecnaZpravaRestaurovani2003",
+      "zoteroTitle": "Závěrečná zpráva o restaurování věžních hodin zámku Bečváry",
+      "score": 1,
+      "reasons": [
+        "strong-title",
+        "exact-author",
+        "exact-year"
+      ]
+    },
+    {
+      "title": "Bečváry (starý zámek) — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Be%C4%8Dv%C3%A1ry_(star%C3%BD_z%C3%A1mek)",
+      "files": [
+        "content/soupis-veznich-hodin/nedatovano-becvary-landesberger.mdx"
+      ],
+      "count": 1,
+      "citationKey": "BecvaryStaryZamek",
+      "zoteroTitle": "Bečváry (starý zámek) — Wikipedie.",
+      "score": 0.7,
+      "reasons": [
+        "strong-title"
+      ]
+    },
+    {
+      "title": "Bečváry — starý zámek (Cesty a památky).",
+      "author": "",
+      "year": "",
+      "url": "https://www.cestyapamatky.cz/kolinsko/becvary/stary-zamek",
+      "files": [
+        "content/soupis-veznich-hodin/nedatovano-becvary-landesberger.mdx"
+      ],
+      "count": 1,
+      "citationKey": "BecvaryStaryZameka",
+      "zoteroTitle": "Bečváry — starý zámek (Cesty a památky).",
+      "score": 0.7,
+      "reasons": [
+        "strong-title"
+      ]
+    },
+    {
+      "title": "Burg Raabs an der Thaya — Wikipedia (DE).",
+      "author": "",
+      "year": "",
+      "url": "https://de.wikipedia.org/wiki/Burg_Raabs_an_der_Thaya",
+      "files": [
+        "content/soupis-veznich-hodin/nedatovano-raabs-an-der-thaya-prokes.mdx"
+      ],
+      "count": 1,
+      "citationKey": "BurgRaabsThaya",
+      "zoteroTitle": "Burg Raabs an der Thaya — Wikipedia (DE).",
+      "score": 0.7,
+      "reasons": [
+        "strong-title"
+      ]
+    },
+    {
+      "title": "Raabs an der Thaya — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Raabs_an_der_Thaya",
+      "files": [
+        "content/soupis-veznich-hodin/nedatovano-raabs-an-der-thaya-prokes.mdx"
+      ],
+      "count": 1,
+      "citationKey": "RaabsThayaWikipedie",
+      "zoteroTitle": "Raabs an der Thaya — Wikipedie.",
+      "score": 0.7,
+      "reasons": [
+        "strong-title"
+      ]
     }
   ],
   "noMatch": [
-    {
-      "title": "Rakousko-uherské privilegium č. 5963/1895 — Astronomische Uhr",
-      "author": "Edmund Kinsner",
-      "year": "1895",
-      "url": "https://privilegien.patentamt.at/image/1895_005963/1/",
-      "files": [
-        "content/hodinarium-eu/kinsner-astronomicke-hodiny.mdx",
-        "content/hodinari/edmund-kinsner.mdx"
-      ],
-      "count": 2,
-      "bestCand": "Rakousko-uherský patent č. 1895/5963 — privilegium",
-      "bestScore": 0.44
-    },
-    {
-      "title": "Renovace věžních hodin na evangelickém kostele v Hrobech",
-      "author": "Ladislav Faigl",
-      "year": "1998",
-      "url": "",
-      "files": [
-        "content/hodinari/bernhard-zacharia.mdx"
-      ],
-      "count": 1,
-      "bestCand": null,
-      "bestScore": 0
-    },
-    {
-      "title": "Posvátná místa král. hl. města Prahy",
-      "author": "Antonín Podlaha",
-      "year": "1916",
-      "url": "",
-      "files": [
-        "content/hodinari/frantisek-eisgruber.mdx"
-      ],
-      "count": 1,
-      "bestCand": "Posvátná místa král. hl. města Prahy: Dějiny a popsání chrámů, kaplí, posvátných soch, klášterů i jiných pomníků katolické víry a nábožnosti v hlavním městě království Českého",
-      "bestScore": 0.14
-    },
-    {
-      "title": "Pražská radnice za 1750–1850",
-      "author": "Václav Vojtíšek",
-      "year": "1919",
-      "url": "",
-      "files": [
-        "content/hodinari/frantisek-eisgruber.mdx"
-      ],
-      "count": 1,
-      "bestCand": "Pražská staroměstská radnice vzpomíná",
-      "bestScore": 0.35
-    },
-    {
-      "title": "Meister der Uhrmacherkunst",
-      "author": "Jürgen Abeler",
-      "year": "2010",
-      "url": "",
-      "files": [
-        "content/hodinari/frantisek-eisgruber.mdx"
-      ],
-      "count": 1,
-      "bestCand": "Meister der Uhrmacherkunst: über 20000 Uhrmacher aus dem deutschen Sprachgebiet mit Lebens- oder Wirkungsdaten und einem Verzeichnis ihrer dem Autor bekannten Werke",
-      "bestScore": 0.41
-    },
-    {
-      "title": "František Josef Gerstner",
-      "author": "",
-      "year": "",
-      "url": "https://cs.wikipedia.org/wiki/Franti%C5%A1ek_Josef_Gerstner",
-      "files": [
-        "content/hodinari/franz-joseph-gerstner.mdx"
-      ],
-      "count": 1,
-      "bestCand": "František Josef Studnička",
-      "bestScore": 0.45
-    },
-    {
-      "title": "Příspěvek k slovníku umělců a uměleckých řemeslníků z Poděbradska",
-      "author": "Jan Hellich",
-      "year": "1917",
-      "url": "",
-      "files": [
-        "content/hodinari/jan-janata.mdx"
-      ],
-      "count": 1,
-      "bestCand": "Příspěvek k stavbě Lounského kostela",
-      "bestScore": 0.24
-    },
-    {
-      "title": "Hodinové stroje Jana Janaty z Poděbrad — Hodinářství Jan Marek",
-      "author": "",
-      "year": "",
-      "url": "http://www.veznihodiny.cz/mukaz8.htm",
-      "files": [
-        "content/hodinari/jan-janata.mdx"
-      ],
-      "count": 1,
-      "bestCand": "Hodinové stroje III",
-      "bestScore": 0.21
-    },
-    {
-      "title": "Životopis hodináře Jana Janaty",
-      "author": "",
-      "year": "",
-      "url": "http://www.veznihodiny.cz/janata.htm",
-      "files": [
-        "content/hodinari/jan-janata.mdx"
-      ],
-      "count": 1,
-      "bestCand": null,
-      "bestScore": 0
-    },
-    {
-      "title": "Hodinářství v českých zemích — soubor článků",
-      "author": "Petr Hartman",
-      "year": "1987",
-      "url": "",
-      "files": [
-        "content/hodinari/jan-prokes-jr.mdx"
-      ],
-      "count": 1,
-      "bestCand": "Hodinářství a hodináři v českých zemích",
-      "bestScore": 0.28
-    },
-    {
-      "title": "Bílá věž (Hradec Králové) — Wikipedie.",
-      "author": "",
-      "year": "",
-      "url": "https://cs.wikipedia.org/wiki/B%C3%ADl%C3%A1_v%C4%9B%C5%BE_(Hradec_Kr%C3%A1lov%C3%A9)",
-      "files": [
-        "content/soupis-veznich-hodin/1591-hradec-kralove-bila-vez-frejlich.mdx",
-        "content/soupis-veznich-hodin/1829-hradec-kralove-bila-vez-bozek.mdx"
-      ],
-      "count": 2,
-      "bestCand": "Bílá věž. Hradec Králové Asi patnáct kroků od hlavního chrámu naproti jeho severnímu bočnímu vchodu zdvihá se bílá věž p",
-      "bestScore": 0.19
-    },
     {
       "title": "füstenberský archiv Křivoklát",
       "author": "",
@@ -2165,33 +559,6 @@
       "count": 3,
       "bestCand": "Gegossene eiserne Thurmuhren",
       "bestScore": 0.57
-    },
-    {
-      "title": "Cast Iron Tower Clockworks",
-      "author": "David Knespl",
-      "year": "2024",
-      "url": "",
-      "files": [
-        "content/soupis-veznich-hodin/1810-praha-polytechnika-bozek.mdx",
-        "content/soupis-veznich-hodin/1834-brno-stara-radnice-luz.mdx",
-        "content/soupis-veznich-hodin/1834-brno-tovarna-luz.mdx",
-        "content/soupis-veznich-hodin/1834-vanovice-luz.mdx"
-      ],
-      "count": 4,
-      "bestCand": "Cast Iron Tower Clockworks Manufacturing and the Role of Prague Polytechnic",
-      "bestScore": 0.54
-    },
-    {
-      "title": "Львівська ратуша — Wikipedia (UA).",
-      "author": "",
-      "year": "",
-      "url": "https://uk.wikipedia.org/wiki/%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D1%80%D0%B0%D1%82%D1%83%D1%88%D0%B0",
-      "files": [
-        "content/soupis-veznich-hodin/1829-lvov-radnice-videnska-polytechnika.mdx"
-      ],
-      "count": 1,
-      "bestCand": null,
-      "bestScore": 0
     },
     {
       "title": "Gusseiserne Thurmuhren von Mechanikus Luz",
@@ -2518,18 +885,6 @@
       "bestScore": 0
     },
     {
-      "title": "Kostel sv. Václava (Veliš) — Wikipedie.",
-      "author": "",
-      "year": "",
-      "url": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_V%C3%A1clava_(Veli%C5%A1)",
-      "files": [
-        "content/soupis-veznich-hodin/1880-velis-ulibice-prokes.mdx"
-      ],
-      "count": 1,
-      "bestCand": "Kostel Sv. Mikuláše",
-      "bestScore": 0.28
-    },
-    {
       "title": "sdělení Petra Skály e-mailem 9. 2. 2023",
       "author": "",
       "year": "",
@@ -2576,18 +931,6 @@
       "count": 1,
       "bestCand": "Kronika obce - Oficiální stránky obce Ondřejov",
       "bestScore": 0.29
-    },
-    {
-      "title": "Kostel svatého Jiří (Jenišovice) — Wikipedie.",
-      "author": "",
-      "year": "",
-      "url": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Ji%C5%99%C3%AD_(Jeni%C5%A1ovice)",
-      "files": [
-        "content/soupis-veznich-hodin/1882-jenisovice-u-turnova-prokes.mdx"
-      ],
-      "count": 1,
-      "bestCand": "Kostel svatého Šimona a Judy v Ondřejově",
-      "bestScore": 0.32
     },
     {
       "title": "Kronika obce Skalice.",
@@ -2644,18 +987,6 @@
       "url": "",
       "files": [
         "content/soupis-veznich-hodin/1884-studenec-prokes.mdx"
-      ],
-      "count": 1,
-      "bestCand": null,
-      "bestScore": 0
-    },
-    {
-      "title": "Smidary — Wikipedie.",
-      "author": "",
-      "year": "",
-      "url": "https://cs.wikipedia.org/wiki/Smidary",
-      "files": [
-        "content/soupis-veznich-hodin/1886-smidary-nad-cidlinou-prokes.mdx"
       ],
       "count": 1,
       "bestCand": null,
@@ -2722,18 +1053,6 @@
       "bestScore": 0
     },
     {
-      "title": "Unikátní věžní hodiny čeká oprava.",
-      "author": "",
-      "year": "2010",
-      "url": "https://klatovsky.denik.cz/zpravy_region/unikatni-vezni-hodiny-ceka-oprava20100525.html",
-      "files": [
-        "content/soupis-veznich-hodin/1898-hradesice-krecmer.mdx"
-      ],
-      "count": 1,
-      "bestCand": null,
-      "bestScore": 0
-    },
-    {
       "title": "Čech: politický týdenník katolický. Praha: Antonín Schmitt, 09.01.1908, 33(8), s. 4. Dostupné také z:",
       "author": "",
       "year": "",
@@ -2746,143 +1065,10 @@
       "bestScore": 0.18
     },
     {
-      "title": "Bylany (Malé Březno) — Wikipedie.",
-      "author": "",
-      "year": "",
-      "url": "https://cs.wikipedia.org/wiki/Bylany_(Mal%C3%A9_B%C5%99ezno)",
-      "files": [
-        "content/soupis-veznich-hodin/hellich-bylany-most-janata.mdx"
-      ],
-      "count": 1,
-      "bestCand": null,
-      "bestScore": 0
-    },
-    {
-      "title": "Bylany (zanikleobce.cz).",
-      "author": "",
-      "year": "",
-      "url": "https://www.zanikleobce.cz/index.php?obec=251",
-      "files": [
-        "content/soupis-veznich-hodin/hellich-bylany-most-janata.mdx"
-      ],
-      "count": 1,
-      "bestCand": null,
-      "bestScore": 0
-    },
-    {
-      "title": "Zaniklé obce — Bylany. Statutární město Most.",
-      "author": "",
-      "year": "",
-      "url": "https://www.mesto-most.cz/zanikle-obce-bylany/d-48731",
-      "files": [
-        "content/soupis-veznich-hodin/hellich-bylany-most-janata.mdx"
-      ],
-      "count": 1,
-      "bestCand": "Zaniklé orloje v Čechách",
-      "bestScore": 0.22
-    },
-    {
-      "title": "Hlohovec — Wikipedie.",
-      "author": "",
-      "year": "",
-      "url": "https://cs.wikipedia.org/wiki/Hlohovec",
-      "files": [
-        "content/soupis-veznich-hodin/hellich-hlohovec-janata.mdx"
-      ],
-      "count": 1,
-      "bestCand": null,
-      "bestScore": 0
-    },
-    {
-      "title": "Karlovice (okres Bruntál) — Wikipedie.",
-      "author": "",
-      "year": "",
-      "url": "https://cs.wikipedia.org/wiki/Karlovice_(okres_Brunt%C3%A1l)",
-      "files": [
-        "content/soupis-veznich-hodin/hellich-karlovice-bruntal-janata.mdx"
-      ],
-      "count": 1,
-      "bestCand": null,
-      "bestScore": 0
-    },
-    {
-      "title": "Pukanec — sk.wikipedia.org.",
-      "author": "",
-      "year": "",
-      "url": "https://sk.wikipedia.org/wiki/Pukanec",
-      "files": [
-        "content/soupis-veznich-hodin/hellich-pukanec-1-janata.mdx",
-        "content/soupis-veznich-hodin/hellich-pukanec-2-janata.mdx"
-      ],
-      "count": 2,
-      "bestCand": null,
-      "bestScore": 0
-    },
-    {
-      "title": "Závěrečná zpráva o restaurování věžních hodin zámku Bečváry",
-      "author": "Petr Skála (s Melanií Skálovou)",
-      "year": "2003",
-      "url": "",
-      "files": [
-        "content/soupis-veznich-hodin/nedatovano-becvary-landesberger.mdx"
-      ],
-      "count": 1,
-      "bestCand": "Závěrečná zpráva o restaurování věžních hodin zámku Dobříš",
-      "bestScore": 0.62
-    },
-    {
-      "title": "Bečváry (starý zámek) — Wikipedie.",
-      "author": "",
-      "year": "",
-      "url": "https://cs.wikipedia.org/wiki/Be%C4%8Dv%C3%A1ry_(star%C3%BD_z%C3%A1mek)",
-      "files": [
-        "content/soupis-veznich-hodin/nedatovano-becvary-landesberger.mdx"
-      ],
-      "count": 1,
-      "bestCand": null,
-      "bestScore": 0
-    },
-    {
-      "title": "Bečváry — starý zámek (Cesty a památky).",
-      "author": "",
-      "year": "",
-      "url": "https://www.cestyapamatky.cz/kolinsko/becvary/stary-zamek",
-      "files": [
-        "content/soupis-veznich-hodin/nedatovano-becvary-landesberger.mdx"
-      ],
-      "count": 1,
-      "bestCand": null,
-      "bestScore": 0
-    },
-    {
       "title": "HIMMLER, [autor]. [Název]. 2019.",
       "author": "",
       "year": "",
       "url": "",
-      "files": [
-        "content/soupis-veznich-hodin/nedatovano-raabs-an-der-thaya-prokes.mdx"
-      ],
-      "count": 1,
-      "bestCand": null,
-      "bestScore": 0
-    },
-    {
-      "title": "Burg Raabs an der Thaya — Wikipedia (DE).",
-      "author": "",
-      "year": "",
-      "url": "https://de.wikipedia.org/wiki/Burg_Raabs_an_der_Thaya",
-      "files": [
-        "content/soupis-veznich-hodin/nedatovano-raabs-an-der-thaya-prokes.mdx"
-      ],
-      "count": 1,
-      "bestCand": null,
-      "bestScore": 0
-    },
-    {
-      "title": "Raabs an der Thaya — Wikipedie.",
-      "author": "",
-      "year": "",
-      "url": "https://cs.wikipedia.org/wiki/Raabs_an_der_Thaya",
       "files": [
         "content/soupis-veznich-hodin/nedatovano-raabs-an-der-thaya-prokes.mdx"
       ],

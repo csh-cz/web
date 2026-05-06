@@ -1,0 +1,487 @@
+{
+  "added": [
+    {
+      "cls": "wiki",
+      "ref": {
+        "title": "Bílá věž (Hradec Králové) — Wikipedie.",
+        "author": "",
+        "year": "",
+        "url": "https://cs.wikipedia.org/wiki/B%C3%ADl%C3%A1_v%C4%9B%C5%BE_(Hradec_Kr%C3%A1lov%C3%A9)",
+        "files": [
+          "content/soupis-veznich-hodin/1591-hradec-kralove-bila-vez-frejlich.mdx",
+          "content/soupis-veznich-hodin/1829-hradec-kralove-bila-vez-bozek.mdx"
+        ],
+        "count": 2,
+        "bestCand": "Bílá věž. Hradec Králové Asi patnáct kroků od hlavního chrámu naproti jeho severnímu bočnímu vchodu zdvihá se bílá věž p",
+        "bestScore": 0.19
+      },
+      "itemKey": "CHPYFVWC",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"CHPYFVWC\",\n    \"itemType\": \"encyclopediaArticle\",\n    \"title\": \"Bílá věž (Hradec Králové) — Wikipedie.\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:04:57\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:04:57.987Z\",\n    \"message\": \"Item created (key: CHPYFVWC, type: encyclopediaArticle)\"\n  }\n}"
+    },
+    {
+      "cls": "wiki",
+      "ref": {
+        "title": "Львівська ратуша — Wikipedia (UA).",
+        "author": "",
+        "year": "",
+        "url": "https://uk.wikipedia.org/wiki/%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D1%80%D0%B0%D1%82%D1%83%D1%88%D0%B0",
+        "files": [
+          "content/soupis-veznich-hodin/1829-lvov-radnice-videnska-polytechnika.mdx"
+        ],
+        "count": 1,
+        "bestCand": null,
+        "bestScore": 0
+      },
+      "itemKey": "S3WYBAXP",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"S3WYBAXP\",\n    \"itemType\": \"encyclopediaArticle\",\n    \"title\": \"Львівська ратуша — Wikipedia (UA).\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:04:59\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:04:59.502Z\",\n    \"message\": \"Item created (key: S3WYBAXP, type: encyclopediaArticle)\"\n  }\n}"
+    },
+    {
+      "cls": "wiki",
+      "ref": {
+        "title": "Kostel sv. Václava (Veliš) — Wikipedie.",
+        "author": "",
+        "year": "",
+        "url": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_V%C3%A1clava_(Veli%C5%A1)",
+        "files": [
+          "content/soupis-veznich-hodin/1880-velis-ulibice-prokes.mdx"
+        ],
+        "count": 1,
+        "bestCand": "Kostel Sv. Mikuláše",
+        "bestScore": 0.28
+      },
+      "itemKey": "QZ28L786",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"QZ28L786\",\n    \"itemType\": \"encyclopediaArticle\",\n    \"title\": \"Kostel sv. Václava (Veliš) — Wikipedie.\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:01\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:01.627Z\",\n    \"message\": \"Item created (key: QZ28L786, type: encyclopediaArticle)\"\n  }\n}"
+    },
+    {
+      "cls": "wiki",
+      "ref": {
+        "title": "Kostel svatého Jiří (Jenišovice) — Wikipedie.",
+        "author": "",
+        "year": "",
+        "url": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Ji%C5%99%C3%AD_(Jeni%C5%A1ovice)",
+        "files": [
+          "content/soupis-veznich-hodin/1882-jenisovice-u-turnova-prokes.mdx"
+        ],
+        "count": 1,
+        "bestCand": "Kostel svatého Šimona a Judy v Ondřejově",
+        "bestScore": 0.32
+      },
+      "itemKey": "KT4LDQ2K",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"KT4LDQ2K\",\n    \"itemType\": \"encyclopediaArticle\",\n    \"title\": \"Kostel svatého Jiří (Jenišovice) — Wikipedie.\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:02\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:02.592Z\",\n    \"message\": \"Item created (key: KT4LDQ2K, type: encyclopediaArticle)\"\n  }\n}"
+    },
+    {
+      "cls": "wiki",
+      "ref": {
+        "title": "Smidary — Wikipedie.",
+        "author": "",
+        "year": "",
+        "url": "https://cs.wikipedia.org/wiki/Smidary",
+        "files": [
+          "content/soupis-veznich-hodin/1886-smidary-nad-cidlinou-prokes.mdx"
+        ],
+        "count": 1,
+        "bestCand": null,
+        "bestScore": 0
+      },
+      "itemKey": "MD4QEIWD",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"MD4QEIWD\",\n    \"itemType\": \"encyclopediaArticle\",\n    \"title\": \"Smidary — Wikipedie.\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:03\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:03.736Z\",\n    \"message\": \"Item created (key: MD4QEIWD, type: encyclopediaArticle)\"\n  }\n}"
+    },
+    {
+      "cls": "wiki",
+      "ref": {
+        "title": "Bylany (Malé Březno) — Wikipedie.",
+        "author": "",
+        "year": "",
+        "url": "https://cs.wikipedia.org/wiki/Bylany_(Mal%C3%A9_B%C5%99ezno)",
+        "files": [
+          "content/soupis-veznich-hodin/hellich-bylany-most-janata.mdx"
+        ],
+        "count": 1,
+        "bestCand": null,
+        "bestScore": 0
+      },
+      "itemKey": "I53UJVVN",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"I53UJVVN\",\n    \"itemType\": \"encyclopediaArticle\",\n    \"title\": \"Bylany (Malé Březno) — Wikipedie.\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:04\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:05.164Z\",\n    \"message\": \"Item created (key: I53UJVVN, type: encyclopediaArticle)\"\n  }\n}"
+    },
+    {
+      "cls": "wiki",
+      "ref": {
+        "title": "Hlohovec — Wikipedie.",
+        "author": "",
+        "year": "",
+        "url": "https://cs.wikipedia.org/wiki/Hlohovec",
+        "files": [
+          "content/soupis-veznich-hodin/hellich-hlohovec-janata.mdx"
+        ],
+        "count": 1,
+        "bestCand": null,
+        "bestScore": 0
+      },
+      "itemKey": "U4C275TT",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"U4C275TT\",\n    \"itemType\": \"encyclopediaArticle\",\n    \"title\": \"Hlohovec — Wikipedie.\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:06\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:06.432Z\",\n    \"message\": \"Item created (key: U4C275TT, type: encyclopediaArticle)\"\n  }\n}"
+    },
+    {
+      "cls": "wiki",
+      "ref": {
+        "title": "Karlovice (okres Bruntál) — Wikipedie.",
+        "author": "",
+        "year": "",
+        "url": "https://cs.wikipedia.org/wiki/Karlovice_(okres_Brunt%C3%A1l)",
+        "files": [
+          "content/soupis-veznich-hodin/hellich-karlovice-bruntal-janata.mdx"
+        ],
+        "count": 1,
+        "bestCand": null,
+        "bestScore": 0
+      },
+      "itemKey": "ZE6N24I5",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"ZE6N24I5\",\n    \"itemType\": \"encyclopediaArticle\",\n    \"title\": \"Karlovice (okres Bruntál) — Wikipedie.\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:07\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:07.723Z\",\n    \"message\": \"Item created (key: ZE6N24I5, type: encyclopediaArticle)\"\n  }\n}"
+    },
+    {
+      "cls": "wiki",
+      "ref": {
+        "title": "Pukanec — sk.wikipedia.org.",
+        "author": "",
+        "year": "",
+        "url": "https://sk.wikipedia.org/wiki/Pukanec",
+        "files": [
+          "content/soupis-veznich-hodin/hellich-pukanec-1-janata.mdx",
+          "content/soupis-veznich-hodin/hellich-pukanec-2-janata.mdx"
+        ],
+        "count": 2,
+        "bestCand": null,
+        "bestScore": 0
+      },
+      "itemKey": "SY2FYI38",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"SY2FYI38\",\n    \"itemType\": \"encyclopediaArticle\",\n    \"title\": \"Pukanec — sk.wikipedia.org.\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:08\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:08.933Z\",\n    \"message\": \"Item created (key: SY2FYI38, type: encyclopediaArticle)\"\n  }\n}"
+    },
+    {
+      "cls": "wiki",
+      "ref": {
+        "title": "Bečváry (starý zámek) — Wikipedie.",
+        "author": "",
+        "year": "",
+        "url": "https://cs.wikipedia.org/wiki/Be%C4%8Dv%C3%A1ry_(star%C3%BD_z%C3%A1mek)",
+        "files": [
+          "content/soupis-veznich-hodin/nedatovano-becvary-landesberger.mdx"
+        ],
+        "count": 1,
+        "bestCand": null,
+        "bestScore": 0
+      },
+      "itemKey": "8QE8K7RG",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"8QE8K7RG\",\n    \"itemType\": \"encyclopediaArticle\",\n    \"title\": \"Bečváry (starý zámek) — Wikipedie.\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:09\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:10.332Z\",\n    \"message\": \"Item created (key: 8QE8K7RG, type: encyclopediaArticle)\"\n  }\n}"
+    },
+    {
+      "cls": "wiki",
+      "ref": {
+        "title": "Burg Raabs an der Thaya — Wikipedia (DE).",
+        "author": "",
+        "year": "",
+        "url": "https://de.wikipedia.org/wiki/Burg_Raabs_an_der_Thaya",
+        "files": [
+          "content/soupis-veznich-hodin/nedatovano-raabs-an-der-thaya-prokes.mdx"
+        ],
+        "count": 1,
+        "bestCand": null,
+        "bestScore": 0
+      },
+      "itemKey": "ZDR6G9LC",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"ZDR6G9LC\",\n    \"itemType\": \"encyclopediaArticle\",\n    \"title\": \"Burg Raabs an der Thaya — Wikipedia (DE).\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:11\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:11.288Z\",\n    \"message\": \"Item created (key: ZDR6G9LC, type: encyclopediaArticle)\"\n  }\n}"
+    },
+    {
+      "cls": "wiki",
+      "ref": {
+        "title": "Raabs an der Thaya — Wikipedie.",
+        "author": "",
+        "year": "",
+        "url": "https://cs.wikipedia.org/wiki/Raabs_an_der_Thaya",
+        "files": [
+          "content/soupis-veznich-hodin/nedatovano-raabs-an-der-thaya-prokes.mdx"
+        ],
+        "count": 1,
+        "bestCand": null,
+        "bestScore": 0
+      },
+      "itemKey": "WBHETDWS",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"WBHETDWS\",\n    \"itemType\": \"encyclopediaArticle\",\n    \"title\": \"Raabs an der Thaya — Wikipedie.\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:12\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:12.314Z\",\n    \"message\": \"Item created (key: WBHETDWS, type: encyclopediaArticle)\"\n  }\n}"
+    },
+    {
+      "cls": "web_with_url",
+      "ref": {
+        "title": "František Josef Gerstner",
+        "author": "",
+        "year": "",
+        "url": "https://cs.wikipedia.org/wiki/Franti%C5%A1ek_Josef_Gerstner",
+        "files": [
+          "content/hodinari/franz-joseph-gerstner.mdx"
+        ],
+        "count": 1,
+        "bestCand": "František Josef Studnička",
+        "bestScore": 0.45
+      },
+      "itemKey": "IF25KA56",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"IF25KA56\",\n    \"itemType\": \"webpage\",\n    \"title\": \"František Josef Gerstner\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:13\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:13.599Z\",\n    \"message\": \"Item created (key: IF25KA56, type: webpage)\"\n  }\n}"
+    },
+    {
+      "cls": "web_with_url",
+      "ref": {
+        "title": "Hodinové stroje Jana Janaty z Poděbrad — Hodinářství Jan Marek",
+        "author": "",
+        "year": "",
+        "url": "http://www.veznihodiny.cz/mukaz8.htm",
+        "files": [
+          "content/hodinari/jan-janata.mdx"
+        ],
+        "count": 1,
+        "bestCand": "Hodinové stroje III",
+        "bestScore": 0.21
+      },
+      "itemKey": "A7TS4KLV",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"A7TS4KLV\",\n    \"itemType\": \"webpage\",\n    \"title\": \"Hodinové stroje Jana Janaty z Poděbrad — Hodinářství Jan Marek\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:14\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:14.616Z\",\n    \"message\": \"Item created (key: A7TS4KLV, type: webpage)\"\n  }\n}"
+    },
+    {
+      "cls": "web_with_url",
+      "ref": {
+        "title": "Životopis hodináře Jana Janaty",
+        "author": "",
+        "year": "",
+        "url": "http://www.veznihodiny.cz/janata.htm",
+        "files": [
+          "content/hodinari/jan-janata.mdx"
+        ],
+        "count": 1,
+        "bestCand": null,
+        "bestScore": 0
+      },
+      "itemKey": "PW5BHRLY",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"PW5BHRLY\",\n    \"itemType\": \"webpage\",\n    \"title\": \"Životopis hodináře Jana Janaty\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:15\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:15.996Z\",\n    \"message\": \"Item created (key: PW5BHRLY, type: webpage)\"\n  }\n}"
+    },
+    {
+      "cls": "web_with_url",
+      "ref": {
+        "title": "Unikátní věžní hodiny čeká oprava.",
+        "author": "",
+        "year": "2010",
+        "url": "https://klatovsky.denik.cz/zpravy_region/unikatni-vezni-hodiny-ceka-oprava20100525.html",
+        "files": [
+          "content/soupis-veznich-hodin/1898-hradesice-krecmer.mdx"
+        ],
+        "count": 1,
+        "bestCand": null,
+        "bestScore": 0
+      },
+      "itemKey": "ZVZSECYK",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"ZVZSECYK\",\n    \"itemType\": \"webpage\",\n    \"title\": \"Unikátní věžní hodiny čeká oprava.\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:16\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:17.245Z\",\n    \"message\": \"Item created (key: ZVZSECYK, type: webpage)\"\n  }\n}"
+    },
+    {
+      "cls": "web_with_url",
+      "ref": {
+        "title": "Bylany (zanikleobce.cz).",
+        "author": "",
+        "year": "",
+        "url": "https://www.zanikleobce.cz/index.php?obec=251",
+        "files": [
+          "content/soupis-veznich-hodin/hellich-bylany-most-janata.mdx"
+        ],
+        "count": 1,
+        "bestCand": null,
+        "bestScore": 0
+      },
+      "itemKey": "FEFDHFW4",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"FEFDHFW4\",\n    \"itemType\": \"webpage\",\n    \"title\": \"Bylany (zanikleobce.cz).\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:17\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:17.565Z\",\n    \"message\": \"Item created (key: FEFDHFW4, type: webpage)\"\n  }\n}"
+    },
+    {
+      "cls": "web_with_url",
+      "ref": {
+        "title": "Zaniklé obce — Bylany. Statutární město Most.",
+        "author": "",
+        "year": "",
+        "url": "https://www.mesto-most.cz/zanikle-obce-bylany/d-48731",
+        "files": [
+          "content/soupis-veznich-hodin/hellich-bylany-most-janata.mdx"
+        ],
+        "count": 1,
+        "bestCand": "Zaniklé orloje v Čechách",
+        "bestScore": 0.22
+      },
+      "itemKey": "2BXTG6RR",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"2BXTG6RR\",\n    \"itemType\": \"webpage\",\n    \"title\": \"Zaniklé obce — Bylany. Statutární město Most.\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:18\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:19.051Z\",\n    \"message\": \"Item created (key: 2BXTG6RR, type: webpage)\"\n  }\n}"
+    },
+    {
+      "cls": "web_with_url",
+      "ref": {
+        "title": "Bečváry — starý zámek (Cesty a památky).",
+        "author": "",
+        "year": "",
+        "url": "https://www.cestyapamatky.cz/kolinsko/becvary/stary-zamek",
+        "files": [
+          "content/soupis-veznich-hodin/nedatovano-becvary-landesberger.mdx"
+        ],
+        "count": 1,
+        "bestCand": null,
+        "bestScore": 0
+      },
+      "itemKey": "5FQNLUKI",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"5FQNLUKI\",\n    \"itemType\": \"webpage\",\n    \"title\": \"Bečváry — starý zámek (Cesty a památky).\",\n    \"creatorsCount\": 0,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:20\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:20.320Z\",\n    \"message\": \"Item created (key: 5FQNLUKI, type: webpage)\"\n  }\n}"
+    },
+    {
+      "cls": "bibliographic_full",
+      "ref": {
+        "title": "Rakousko-uherské privilegium č. 5963/1895 — Astronomische Uhr",
+        "author": "Edmund Kinsner",
+        "year": "1895",
+        "url": "https://privilegien.patentamt.at/image/1895_005963/1/",
+        "files": [
+          "content/hodinarium-eu/kinsner-astronomicke-hodiny.mdx",
+          "content/hodinari/edmund-kinsner.mdx"
+        ],
+        "count": 2,
+        "bestCand": "Rakousko-uherský patent č. 1895/5963 — privilegium",
+        "bestScore": 0.44
+      },
+      "itemKey": "PJ786G6C",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"PJ786G6C\",\n    \"itemType\": \"book\",\n    \"title\": \"Rakousko-uherské privilegium č. 5963/1895 — Astronomische Uhr\",\n    \"creatorsCount\": 1,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:21\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:21.369Z\",\n    \"message\": \"Item created (key: PJ786G6C, type: book)\"\n  }\n}"
+    },
+    {
+      "cls": "bibliographic_full",
+      "ref": {
+        "title": "Renovace věžních hodin na evangelickém kostele v Hrobech",
+        "author": "Ladislav Faigl",
+        "year": "1998",
+        "url": "",
+        "files": [
+          "content/hodinari/bernhard-zacharia.mdx"
+        ],
+        "count": 1,
+        "bestCand": null,
+        "bestScore": 0
+      },
+      "itemKey": "B2XVPMXJ",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"B2XVPMXJ\",\n    \"itemType\": \"book\",\n    \"title\": \"Renovace věžních hodin na evangelickém kostele v Hrobech\",\n    \"creatorsCount\": 1,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:22\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:22.634Z\",\n    \"message\": \"Item created (key: B2XVPMXJ, type: book)\"\n  }\n}"
+    },
+    {
+      "cls": "bibliographic_full",
+      "ref": {
+        "title": "Posvátná místa král. hl. města Prahy",
+        "author": "Antonín Podlaha",
+        "year": "1916",
+        "url": "",
+        "files": [
+          "content/hodinari/frantisek-eisgruber.mdx"
+        ],
+        "count": 1,
+        "bestCand": "Posvátná místa král. hl. města Prahy: Dějiny a popsání chrámů, kaplí, posvátných soch, klášterů i jiných pomníků katolické víry a nábožnosti v hlavním městě království Českého",
+        "bestScore": 0.14
+      },
+      "itemKey": "4Z34VZ4D",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"4Z34VZ4D\",\n    \"itemType\": \"book\",\n    \"title\": \"Posvátná místa král. hl. města Prahy\",\n    \"creatorsCount\": 1,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:23\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:23.870Z\",\n    \"message\": \"Item created (key: 4Z34VZ4D, type: book)\"\n  }\n}"
+    },
+    {
+      "cls": "bibliographic_full",
+      "ref": {
+        "title": "Pražská radnice za 1750–1850",
+        "author": "Václav Vojtíšek",
+        "year": "1919",
+        "url": "",
+        "files": [
+          "content/hodinari/frantisek-eisgruber.mdx"
+        ],
+        "count": 1,
+        "bestCand": "Pražská staroměstská radnice vzpomíná",
+        "bestScore": 0.35
+      },
+      "itemKey": "8HXY9BX8",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"8HXY9BX8\",\n    \"itemType\": \"book\",\n    \"title\": \"Pražská radnice za 1750–1850\",\n    \"creatorsCount\": 1,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:24\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:25.345Z\",\n    \"message\": \"Item created (key: 8HXY9BX8, type: book)\"\n  }\n}"
+    },
+    {
+      "cls": "bibliographic_full",
+      "ref": {
+        "title": "Meister der Uhrmacherkunst",
+        "author": "Jürgen Abeler",
+        "year": "2010",
+        "url": "",
+        "files": [
+          "content/hodinari/frantisek-eisgruber.mdx"
+        ],
+        "count": 1,
+        "bestCand": "Meister der Uhrmacherkunst: über 20000 Uhrmacher aus dem deutschen Sprachgebiet mit Lebens- oder Wirkungsdaten und einem Verzeichnis ihrer dem Autor bekannten Werke",
+        "bestScore": 0.41
+      },
+      "itemKey": "ZU49ZFYB",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"ZU49ZFYB\",\n    \"itemType\": \"book\",\n    \"title\": \"Meister der Uhrmacherkunst\",\n    \"creatorsCount\": 1,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:26\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:26.490Z\",\n    \"message\": \"Item created (key: ZU49ZFYB, type: book)\"\n  }\n}"
+    },
+    {
+      "cls": "bibliographic_full",
+      "ref": {
+        "title": "Příspěvek k slovníku umělců a uměleckých řemeslníků z Poděbradska",
+        "author": "Jan Hellich",
+        "year": "1917",
+        "url": "",
+        "files": [
+          "content/hodinari/jan-janata.mdx"
+        ],
+        "count": 1,
+        "bestCand": "Příspěvek k stavbě Lounského kostela",
+        "bestScore": 0.24
+      },
+      "itemKey": "WIH9UTZJ",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"WIH9UTZJ\",\n    \"itemType\": \"book\",\n    \"title\": \"Příspěvek k slovníku umělců a uměleckých řemeslníků z Poděbradska\",\n    \"creatorsCount\": 1,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:27\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:27.532Z\",\n    \"message\": \"Item created (key: WIH9UTZJ, type: book)\"\n  }\n}"
+    },
+    {
+      "cls": "bibliographic_full",
+      "ref": {
+        "title": "Hodinářství v českých zemích — soubor článků",
+        "author": "Petr Hartman",
+        "year": "1987",
+        "url": "",
+        "files": [
+          "content/hodinari/jan-prokes-jr.mdx"
+        ],
+        "count": 1,
+        "bestCand": "Hodinářství a hodináři v českých zemích",
+        "bestScore": 0.28
+      },
+      "itemKey": "4PI4Y6HK",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"4PI4Y6HK\",\n    \"itemType\": \"book\",\n    \"title\": \"Hodinářství v českých zemích — soubor článků\",\n    \"creatorsCount\": 1,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:28\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:28.737Z\",\n    \"message\": \"Item created (key: 4PI4Y6HK, type: book)\"\n  }\n}"
+    },
+    {
+      "cls": "bibliographic_full",
+      "ref": {
+        "title": "Cast Iron Tower Clockworks",
+        "author": "David Knespl",
+        "year": "2024",
+        "url": "",
+        "files": [
+          "content/soupis-veznich-hodin/1810-praha-polytechnika-bozek.mdx",
+          "content/soupis-veznich-hodin/1834-brno-stara-radnice-luz.mdx",
+          "content/soupis-veznich-hodin/1834-brno-tovarna-luz.mdx",
+          "content/soupis-veznich-hodin/1834-vanovice-luz.mdx"
+        ],
+        "count": 4,
+        "bestCand": "Cast Iron Tower Clockworks Manufacturing and the Role of Prague Polytechnic",
+        "bestScore": 0.54
+      },
+      "itemKey": "8E57W9G4",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"8E57W9G4\",\n    \"itemType\": \"book\",\n    \"title\": \"Cast Iron Tower Clockworks\",\n    \"creatorsCount\": 1,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:28\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:29.122Z\",\n    \"message\": \"Item created (key: 8E57W9G4, type: book)\"\n  }\n}"
+    },
+    {
+      "cls": "bibliographic_full",
+      "ref": {
+        "title": "Závěrečná zpráva o restaurování věžních hodin zámku Bečváry",
+        "author": "Petr Skála (s Melanií Skálovou)",
+        "year": "2003",
+        "url": "",
+        "files": [
+          "content/soupis-veznich-hodin/nedatovano-becvary-landesberger.mdx"
+        ],
+        "count": 1,
+        "bestCand": "Závěrečná zpráva o restaurování věžních hodin zámku Dobříš",
+        "bestScore": 0.62
+      },
+      "itemKey": "XJV7WLRN",
+      "response": "{\n  \"action\": \"create\",\n  \"success\": true,\n  \"data\": {\n    \"itemKey\": \"XJV7WLRN\",\n    \"itemType\": \"book\",\n    \"title\": \"Závěrečná zpráva o restaurování věžních hodin zámku Bečváry\",\n    \"creatorsCount\": 1,\n    \"tagsCount\": 2,\n    \"reparentedAttachments\": [],\n    \"dateCreated\": \"2026-05-06 09:05:30\"\n  },\n  \"metadata\": {\n    \"extractedAt\": \"2026-05-06T09:05:30.516Z\",\n    \"message\": \"Item created (key: XJV7WLRN, type: book)\"\n  }\n}"
+    }
+  ],
+  "failed": []
+}
