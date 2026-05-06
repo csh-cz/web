@@ -16,7 +16,7 @@ export interface Krok {
   charakteristika: string;
   relatedSlugs: string[];
   /** Skupina pro řazení v indexu */
-  skupina: 'rane' | 'klasicke' | 'presne' | 'volne' | 'elektricke';
+  skupina: 'rane' | 'klasicke' | 'presne' | 'volne' | 'elektricke' | 'elektronicke';
 }
 
 export const kroky: Krok[] = [
@@ -121,6 +121,32 @@ export const kroky: Krok[] = [
     relatedSlugs: ['decin_chronulator'],
     skupina: 'volne',
   },
+  {
+    slug: 'elektronicky-krok',
+    jmeno: 'Elektronický krok',
+    aliasy: ['elektronický krok', 'elektronický', 'quartz krok', 'krystalový krok', 'piezoelektrický oscilátor'],
+    vynalezce: 'více vývojových linií',
+    rok: '~1960–1970',
+    shrnuti:
+      'Bezkontaktní krok řízený polovodičovou elektronikou. Oscilátor je typicky piezoelektrický krystal (quartz) na frekvenci 32 768 Hz, jejíž signál se děliči dělí na sekundový impuls. Ten ovládá krokový motorek (stepper) nebo Lavet motor pohánějící ručky. U hodin tohoto typu zaniká klasický mechanický krok — funkci přerušování energie přebírá tranzistor.',
+    charakteristika:
+      'Mnohem vyšší přesnost než mechanika (typicky ±15 s/měsíc bez kompenzace). Žádné tření paletek, žádný dohled na vyzbrojení. Doména náramkových quartz hodinek 1970+ a věžních strojů Pragotron / Hipp-Favarger 1960+. Bez mikroprocesoru, jen analogová / TTL elektronika.',
+    relatedSlugs: [],
+    skupina: 'elektronicke',
+  },
+  {
+    slug: 'elektronicky-mikroprocesorovy-krok',
+    jmeno: 'Elektronický krok s mikroprocesorem',
+    aliasy: ['mikroprocesorový krok', 'elektronický s mikroprocesorem', 'MCU krok', 'řízený mikroprocesorem'],
+    vynalezce: 'více vývojových linií',
+    rok: '~1985–dosud',
+    shrnuti:
+      'Rozšíření elektronického kroku o mikroprocesor (MCU), který přebírá řízení motorku a může synchronizovat čas s externím etalonem (DCF77 dlouhovlnný signál, GPS, NTP přes síť). Umožňuje automatickou korekci letního/zimního času, kompenzaci teploty, samočinnou diagnostiku a remote management.',
+    charakteristika:
+      'Přesnost řádově ±1 s/rok díky externí synchronizaci. Mobatime, Bodet, Bürk Mobatime moderní řady. U sítí veřejných hodin nezbytné — bez MCU by každý ciferník vyžadoval ruční nastavení po výpadku napájení.',
+    relatedSlugs: [],
+    skupina: 'elektronicke',
+  },
 ];
 
 export const krokyBySlug = new Map(kroky.map((k) => [k.slug, k]));
@@ -136,4 +162,5 @@ export const skupinaLabel: Record<Krok['skupina'], string> = {
   presne: 'Přesné kroky',
   volne: 'Volné a zobrazovací',
   elektricke: 'Elektromechanické',
+  elektronicke: 'Elektronické a digitální',
 };
