@@ -11,8 +11,7 @@ author: "Český spolek horologický"
 tags:
   - cesko
 references:
-  - title: "Ostravské muzeum"
-    url: "https://www.ostrmuz.cz/"
+  - bibKey: 'OstravskeMuzeum'
     type: odkaz
 tldr: 'Vlastivědné muzeum v centru Ostravy se sídlem v historické radnici. Pro horologa zajímavý hlavně Maškův orloj — astronomické hodiny vyrobené ostravským hodinářem Antonínem Maškem (počátek 20.…'
 ---

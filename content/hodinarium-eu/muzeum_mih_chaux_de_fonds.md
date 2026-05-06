@@ -11,8 +11,7 @@ author: "Český spolek horologický"
 tags:
   - evropa
 references:
-  - title: "Webové stránky muzea"
-    url: "https://www.chaux-de-fonds.ch/musees/mih"
+  - bibKey: 'WeboveStrankyMuzea'
     type: odkaz
 tldr: 'Mezinárodní muzeum hodinařství v La Chaux-de-Fonds (Švýcarsko) — vrcholná světová sbírka, restaurátorské pracoviště a referenční institut hodinářské vědy.…'
 ---

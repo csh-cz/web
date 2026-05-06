@@ -12,8 +12,7 @@ tags:
   - cesko
   - praha
 references:
-  - title: "Klementinum — Národní knihovna ČR"
-    url: "https://www.klementinum.cz/"
+  - bibKey: 'KlementinumNarodniKnihovna'
     type: odkaz
 tldr: 'Komplex barokních budov bývalé jezuitské koleje v centru Prahy, dnes hlavní sídlo Národní knihovny. Pro horologa zajímavé hned ze dvou důvodů:'
 ---

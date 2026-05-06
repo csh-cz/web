@@ -12,11 +12,9 @@ tags:
   - vezni
   - evropa
 references:
-  - title: "Wikipedie (PL) — Muzeum Zegarów Wieżowych"
-    url: "https://pl.wikipedia.org/wiki/Muzeum_Zegar%C3%B3w_Wie%C5%BCowych"
+  - bibKey: 'WikipediePLMuzeum'
     type: wiki
-  - title: "trojmiasto.tv — Muzeum Zegarów Wieżowych"
-    url: "https://trojmiasto.tv/Muzeum-Zegarow-Wiezowych-5893.html"
+  - bibKey: 'TrojmiastotvMuzeumZegarow'
     type: odkaz
 tldr: 'Specializované muzeum věžních hodin sídlící ve věži kostela sv. Kateřiny v Gdaňsku. Pobočka Historického muzea v Gdaňsku — uvádí se jako jediné specializované muzeum věžních hodin v Polsku.…'
 ---

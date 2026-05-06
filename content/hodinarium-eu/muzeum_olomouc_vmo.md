@@ -11,8 +11,7 @@ author: "Český spolek horologický"
 tags:
   - cesko
 references:
-  - title: "Webové stránky muzea"
-    url: "https://www.vmo.cz/"
+  - bibKey: 'WeboveStrankyMuzea'
     type: odkaz
 tldr: 'Olomoucké Vlastivědné muzeum eviduje téměř dva miliony sbírkových předmětů, mezi nimi unikátně dochovaný soubor originálních součástek olomouckého orloje. V roce 2019 hostilo výstavu k 500.…'
 ---

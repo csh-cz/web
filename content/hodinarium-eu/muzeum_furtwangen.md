@@ -11,8 +11,7 @@ author: "Český spolek horologický"
 tags:
   - evropa
 references:
-  - title: "Webové stránky muzea"
-    url: "https://www.deutsches-uhrenmuseum.de/"
+  - bibKey: 'WeboveStrankyMuzea'
     type: odkaz
 tldr: 'Schwarzwaldské muzeum hodin v jihoněmeckém Furtwangenu — kolébka kukačkových hodin a jedna z nejvýznamnějších evropských sbírek mechanického hodinářství. Stálá expozice mapuje hodinářskou tradici Černého lesa od 17.…'
 ---

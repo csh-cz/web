@@ -11,8 +11,7 @@ author: "Český spolek horologický"
 tags:
   - evropa
 references:
-  - title: "Webové stránky muzea"
-    url: "https://www.wienmuseum.at/de/standorte/uhrenmuseum"
+  - bibKey: 'WeboveStrankyMuzea'
     type: odkaz
 tldr: 'Vídeňské muzeum hodin v paláci Obizzi — sbírka přes 700 hodin od gotiky po 20. století. Zvláštní význam má kolekce barokních pendlovek a vídeňských stolních hodin.…'
 ---

@@ -13,8 +13,7 @@ tags:
   - cesko
   - praha
 references:
-  - title: "jindrisskavez.cz"
-    url: "https://jindrisskavez.cz/index.php/cs/"
+  - bibKey: 'Jindrisskavezcz'
     type: odkaz
 tldr: "Patrně nejnákladnější přestavba věže v České republice. Do 400 let staré gotické zvonice byla vestavěna nová ocelová konstrukce s výtahem — „věž ve věži\".…"
 ---

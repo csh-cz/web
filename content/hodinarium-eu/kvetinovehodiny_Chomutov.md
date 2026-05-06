@@ -7,8 +7,7 @@ tags:
   - cesko
 author: "Libor Hovorka"
 references:
-  - title: "antik-hovorka.cz / primland-clanky"
-    url: "https://www.antik-hovorka.cz/primland-clanky/"
+  - bibKey: 'AntikhovorkaczPrimlandclanky'
     type: odkaz
     note: "Další články autora"
 originalUrl: "https://hodinarium.eu/kvetinovehodiny_Chomutov.htm"

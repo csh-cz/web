@@ -10,7 +10,7 @@
  */
 export const referenceTooltip: Record<string, string> = {
   kniha: 'Tištěný pramen — kniha, monografie, sborník (📖)',
-  clanek: 'Časopisecký nebo encyklopedický článek (§)',
+  clanek: 'Článek v časopise / sborníku / novinách (📰)',
   pdf: 'Soubor PDF — zpráva, článek, dokumentace ke stažení (⤓)',
   odkaz: 'Webový odkaz',
   wiki: 'Heslo na Wikipedii / Wikimedia Commons (ⓦ)',
