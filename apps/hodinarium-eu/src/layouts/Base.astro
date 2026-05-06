@@ -9,6 +9,18 @@ import { SISTER_SPOLEK, SISTER_SPOLEK_LABEL } from "../data/sites";
  *  Když není předáno, použijí se default Hodinárium / ČSH metadata
  *  (vhodné pro listingy a statické stránky bez specifické struktury). */
 export interface CitationMeta {
+  /** Sémantický typ stránky pro Zotero connector / Highwire detection.
+   *  - 'article' (default): odešle plnou sadu Highwire meta včetně
+   *    `citation_journal_title`, `citation_volume`, `citation_issue` —
+   *    Zotero to detekuje jako Journal Article.
+   *  - 'webpage': pro stránky bez bibliografického ekvivalentu (sbírkové
+   *    karty, medailony hodinářů, soupis věží …). Nepošle journal_title /
+   *    volume / issue / isbn / doi tagy (které by Zotero force-mapovaly
+   *    na journalArticle), takže fallback je correctly Web Page.
+   *    Inv. č. místo `citation_volume` jde do `DC.identifier`.
+   *  - 'document': stránka technické dokumentace / archiválií. Mezityp,
+   *    chová se jako webpage ale přidává `DC.type=Document`. */
+  itemType?: 'article' | 'webpage' | 'document';
   /** Title článku/karty. Default = page title. */
   title?: string;
   /** Autor — string nebo array. Pro nezávisle psané obsahy. Default ČSH. */
@@ -66,6 +78,8 @@ const { title, description, ogSlug, ogImageOverride, cmsEditUrl, citation } = As
 // Citation defaults — pokud per-page neposlala specific data, fall back na
 // universal Hodinárium / ČSH metadata. Zotero connector pak uloží stránku
 // s rozumným title + author + publisher.
+const itemType = citation?.itemType ?? 'article';
+const isWebpage = itemType === 'webpage' || itemType === 'document';
 const citationData = {
   title: citation?.title ?? title,
   author: Array.isArray(citation?.author)
@@ -75,14 +89,20 @@ const citationData = {
       : ['Český spolek horologický'],
   date: citation?.date,
   publisher: citation?.publisher ?? 'Český spolek horologický',
-  journalTitle: citation?.journalTitle ?? 'Hodinárium',
-  isbn: citation?.isbn,
-  doi: citation?.doi,
-  pages: citation?.pages,
-  volume: citation?.volume ?? citation?.inventarniCislo,
-  issue: citation?.issue,
+  // Pro itemType='webpage' nepřidáváme journal_title — Zotero by jinak force-
+  // mapoval na journalArticle (klasifikace dle Highwire scrape rules).
+  journalTitle: isWebpage ? undefined : (citation?.journalTitle ?? 'Hodinárium'),
+  // ISBN / DOI / volume / issue — taky journal/book specific. Pro webpage
+  // nepřidáváme. Inv. č. (sbírka karta) místo toho jde do DC.identifier.
+  isbn: isWebpage ? undefined : citation?.isbn,
+  doi: isWebpage ? undefined : citation?.doi,
+  pages: isWebpage ? undefined : citation?.pages,
+  volume: isWebpage ? undefined : (citation?.volume ?? citation?.inventarniCislo),
+  issue: isWebpage ? undefined : citation?.issue,
   pdfUrl: citation?.pdfUrl,
   keywords: citation?.keywords,
+  // Webpage-specific: inv. č., archive, sub-collection.
+  inventarniCislo: citation?.inventarniCislo,
 };
 const fullTitle = title === "Hodinárium" ? title : `${title} — Hodinárium`;
 const desc = description ?? "Český spolek horologický — sbírka, expozice, projekty.";
@@ -191,9 +211,11 @@ const orgJsonLd = isHome ? {
     <meta name="dcterms.rights" content="© Český spolek horologický z. s. — CC BY 4.0" />
 
     {/* Highwire Press citation_* meta — Zotero connector + Google Scholar.
-        Když per-page neposlala specific data, použijí se default Hodinárium
-        / ČSH hodnoty. Inv. č. (sbírka karta) zachytí přes citation_volume,
-        keywords přes citation_keywords. */}
+        Pro itemType='article' (default) — pošleme citation_journal_title,
+        citation_volume atd. → Zotero detekuje journalArticle.
+        Pro itemType='webpage' / 'document' — vynecháme journal-specific
+        tagy a místo toho použijeme Dublin Core (DC.*) → Zotero spadne
+        do Web Page detekce, což je správně pro sbírkové karty a profily. */}
     <meta name="citation_title" content={citationData.title} />
     {citationData.author.map((a: string) => (
       <meta name="citation_author" content={a} />
@@ -201,7 +223,9 @@ const orgJsonLd = isHome ? {
     {citationData.date && <meta name="citation_publication_date" content={citationData.date} />}
     {citationData.date && <meta name="citation_online_date" content={citationData.date} />}
     <meta name="citation_publisher" content={citationData.publisher} />
-    <meta name="citation_journal_title" content={citationData.journalTitle} />
+    {citationData.journalTitle && (
+      <meta name="citation_journal_title" content={citationData.journalTitle} />
+    )}
     <meta name="citation_language" content="cs" />
     <meta name="citation_public_url" content={canonical} />
     {citationData.isbn && <meta name="citation_isbn" content={citationData.isbn} />}
@@ -215,6 +239,29 @@ const orgJsonLd = isHome ? {
     {citationData.pdfUrl && <meta name="citation_pdf_url" content={citationData.pdfUrl} />}
     {citationData.keywords && citationData.keywords.length > 0 && (
       <meta name="citation_keywords" content={citationData.keywords.join('; ')} />
+    )}
+
+    {/* Dublin Core meta — primárně pro itemType='webpage' / 'document'.
+        Zotero EM (Embedded Metadata) translator čte DC.* jako fallback
+        a klasifikuje jako Web Page (případně Document). */}
+    {isWebpage && (
+      <>
+        <meta name="DC.title" content={citationData.title} />
+        {citationData.author.map((a: string) => (
+          <meta name="DC.creator" content={a} />
+        ))}
+        <meta name="DC.publisher" content={citationData.publisher} />
+        <meta name="DC.language" content="cs" />
+        {citationData.date && <meta name="DC.date" content={citationData.date} />}
+        {citationData.inventarniCislo && (
+          <meta name="DC.identifier" content={`inv. č. ${citationData.inventarniCislo}`} />
+        )}
+        <meta name="DC.identifier" content={canonical} />
+        <meta name="DC.type" content={itemType === 'document' ? 'Document' : 'InteractiveResource'} />
+        {citationData.keywords && citationData.keywords.length > 0 && citationData.keywords.map((kw: string) => (
+          <meta name="DC.subject" content={kw} />
+        ))}
+      </>
     )}
 
     {/* Alternate representations — Zotero translator a custom skripty
