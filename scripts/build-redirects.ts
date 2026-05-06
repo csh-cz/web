@@ -104,6 +104,19 @@ const HODINARI_SLUG_RENAMES: Record<string, string> = {
   'sebastian-londensperger': 'sebastian-landesberger',
 };
 
+/**
+ * Přejmenování slugů sbírkových karet (`/sbirka/karta/<slug>`).
+ * Format: starý slug → nový slug.
+ */
+const KARTY_SLUG_RENAMES: Record<string, string> = {
+  // 2026-05-06: title omylem zaznamenán pod nesprávným slugem (inv-53 byl historicky
+  // 'Model Pražského orloje', editor opravil na 'Orloj Hvězdárna Petřín' — slug
+  // dotažen aby seděl s titulem. Plus odstraněn duplikátní auto-import
+  // 'inv-67-orloj-hvezdarna-petrin' (inv-67 patří Lissnerovým hodinám).
+  'inv-53-model-prazskeho-orloje': 'inv-53-orloj-hvezdarna-petrin',
+  'inv-67-orloj-hvezdarna-petrin': 'inv-53-orloj-hvezdarna-petrin',
+};
+
 /** Načti slugy z content/kronika/ — tyto články byly přesunuty z /clanky/. */
 async function loadKronikaSlugs(): Promise<Set<string>> {
   const { readdirSync } = await import('node:fs');
@@ -180,6 +193,13 @@ async function main() {
   lines.push('', '# Přejmenování medailonů hodinářů (M5.3+)');
   for (const [oldSlug, newSlug] of Object.entries(HODINARI_SLUG_RENAMES)) {
     lines.push(`/hodinari/${oldSlug} /hodinari/${newSlug} 301`);
+  }
+
+  // 4d. Přejmenování slugů sbírkových karet — stabilní URL po opravě názvu/inv. č.
+  lines.push('', '# Přejmenování sbírkových karet');
+  for (const [oldSlug, newSlug] of Object.entries(KARTY_SLUG_RENAMES)) {
+    lines.push(`/sbirka/karta/${oldSlug} /sbirka/karta/${newSlug} 301`);
+    lines.push(`/sbirka/karta/${oldSlug}/ /sbirka/karta/${newSlug}/ 301`);
   }
 
   // 5. Fallback
