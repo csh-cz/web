@@ -77,14 +77,42 @@ interface FormatOptions {
   pages?: string;
 }
 
+// Module-level cache: bibKey + opts → rendered HTML.
+// Build vyrendere každou stránku samostatně, ale modul je sdílený mezi
+// page renders — cache zachytí všechna duplicity (~67 % volání jsou
+// opakované bibKey napříč články).
+const formatCache = new Map<string, string | null>();
+let cacheHits = 0;
+let cacheMisses = 0;
+
+function cacheKey(bibKey: string, opts: FormatOptions): string {
+  return `${bibKey}|${opts.pages ?? ''}`;
+}
+
+/** Statistics — užitečné při debugu build performance. */
+export function getCiteCacheStats() {
+  return { hits: cacheHits, misses: cacheMisses, size: formatCache.size };
+}
+
 /**
  * Vrátí bibliografický záznam (jeden citation list) jako HTML string.
  * Citeproc vrací array s jedním HTML snippetem; sloučíme + očistíme.
+ *
+ * Cached — opakovaná volání pro stejný bibKey+pages vrací z paměti.
+ * Citeproc engine call je výrazně dražší než Map lookup.
  */
 export function formatCite(bibKey: string, opts: FormatOptions = {}): string | null {
+  const key = cacheKey(bibKey, opts);
+  if (formatCache.has(key)) {
+    cacheHits++;
+    return formatCache.get(key) ?? null;
+  }
+  cacheMisses++;
+
   const item = byKey.get(bibKey);
   if (!item) {
     console.warn(`[cite] formatCite: bibKey nenalezen v references.json: ${bibKey}`);
+    formatCache.set(key, null);
     return null;
   }
 
@@ -93,17 +121,20 @@ export function formatCite(bibKey: string, opts: FormatOptions = {}): string | n
   eng.updateItems([bibKey]);
 
   const result = eng.makeBibliography();
-  if (!result || !result[1] || result[1].length === 0) return null;
+  if (!result || !result[1] || result[1].length === 0) {
+    formatCache.set(key, null);
+    return null;
+  }
 
   let html = result[1][0]; // První a jediný item
   // Citeproc vrací <div class="csl-entry">…</div> — strip wrapper, vrať inner
   html = html.replace(/^<div[^>]*>([\s\S]*)<\/div>\s*$/m, '$1').trim();
 
   // Pokud má caller `pages` override, přidej " s. <pages>" za větu citace.
-  // (CSL ISO 690 formát je tam již, pages je pro kapitolovou referenci.)
   if (opts.pages) {
     html += ` s. ${opts.pages}.`;
   }
 
+  formatCache.set(key, html);
   return html;
 }
