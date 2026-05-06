@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import SearchModal from "../components/SearchModal.astro";
+import ReportIssueModal from "../components/ReportIssueModal.astro";
 import { SISTER_SPOLEK, SISTER_SPOLEK_LABEL } from "../data/sites";
 
 /** Highwire Press citation_* metadata pro Zotero connector + Google Scholar.
@@ -409,6 +410,7 @@ const orgJsonLd = isHome ? {
     </main>
 
     <SearchModal />
+    <ReportIssueModal />
 
     <footer class="site-footer mt-20" role="contentinfo">
       <div class="max-w-6xl mx-auto px-6 py-10 text-sm text-[var(--color-text-muted)]">

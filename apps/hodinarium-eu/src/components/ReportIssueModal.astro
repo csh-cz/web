@@ -1,0 +1,478 @@
+---
+/**
+ * Editor-only „Nahlásit problém" — floating button + modal form.
+ *
+ * Visible only when editor is authenticated (CF Access session). Hydrate
+ * logic v Base.astro fetcheuje `/api/cms/auth/user` a pokud authenticated,
+ * nastaví `body[data-editor-mode="true"]`. Tahle komponenta se na to
+ * pověsí přes CSS (`body:not([data-editor-mode]) .report-issue-fab { display:none }`).
+ *
+ * Form posílá JSON na `POST /api/report-issue`. CF Access cookie se posílá
+ * automaticky (same-origin), endpoint čte editora z
+ * `Cf-Access-Authenticated-User-Email` header.
+ *
+ * Field reference:
+ *   - url, pageTitle, userAgent: vyplněné JS z window.location / document.title / navigator
+ *   - problemType <select>: 7 hodnot, validace na serveru proti PROBLEM_TYPES
+ *   - description <textarea>: required, 5–2000 znaků
+ *   - _url honeypot: skrytý input — boti často všechno vyplní; lidé nechají prázdné
+ *
+ * Po success: zelený toast + URL odkaz na vytvořený issue.
+ * Po fail: červená inline hláška ve formuláři.
+ */
+---
+
+<button
+  id="report-issue-trigger"
+  class="report-issue-fab"
+  type="button"
+  aria-label="Nahlásit problém na této stránce"
+  title="Nahlásit problém na této stránce (jen pro editory)"
+>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" width="18" height="18">
+    <circle cx="12" cy="12" r="10" />
+    <line x1="12" y1="8" x2="12" y2="12" stroke-linecap="round" />
+    <circle cx="12" cy="16" r="0.6" fill="currentColor" />
+  </svg>
+  <span>Nahlásit problém</span>
+</button>
+
+<dialog id="report-issue-modal" aria-label="Nahlásit problém">
+  <form id="report-issue-form" class="report-form" novalidate>
+    <header class="report-form-header">
+      <h2>Nahlásit problém</h2>
+      <button type="button" class="report-form-close" aria-label="Zavřít">×</button>
+    </header>
+
+    <p class="report-form-hint">
+      Hlášení se uloží jako GitHub Issue v repu webu. Reporter (tvůj e-mail), URL
+      a stručný User-Agent se přidají automaticky.
+    </p>
+
+    <label class="report-field">
+      <span class="report-label">Stránka</span>
+      <input type="text" id="report-page-info" readonly tabindex="-1" />
+    </label>
+
+    <label class="report-field">
+      <span class="report-label">Typ problému</span>
+      <select id="report-type" required>
+        <option value="">— vyber —</option>
+        <option value="preklep">Překlep / typografická chyba</option>
+        <option value="chybejici-info">Chybějící nebo neúplná informace</option>
+        <option value="spatny-obrazek">Špatný / chybějící obrázek</option>
+        <option value="technicka-chyba">Technická chyba (rozbité odkazy, layout)</option>
+        <option value="metadata">Chybná metadata (datum, autor, kategorie)</option>
+        <option value="duplicita">Duplicita / sloučit s jiným záznamem</option>
+        <option value="jine">Jiné</option>
+      </select>
+    </label>
+
+    <label class="report-field">
+      <span class="report-label">Popis problému <span class="required">*</span></span>
+      <textarea
+        id="report-description"
+        rows="5"
+        required
+        minlength="5"
+        maxlength="2000"
+        placeholder="Co je špatně? Pokud možno cituj nebo popiš lokaci v textu."
+      ></textarea>
+      <span class="report-counter" id="report-counter">0 / 2000</span>
+    </label>
+
+    {/* Honeypot — skrytý anti-bot field. CSS skryje, browser autofill ho
+        normálně nevyplní. Bot scraper, který slepě vyplňuje všechny inputy,
+        sem dá hodnotu → server detekuje a tichý 200 (bez signálu, že
+        zafungovalo). Naming `_url` je úmyslně lákavý pro spambot heuristiky. */}
+    <div class="report-honeypot" aria-hidden="true">
+      <label>Webová adresa (nevyplňuj)
+        <input type="text" id="report-honeypot" name="_url" tabindex="-1" autocomplete="off" />
+      </label>
+    </div>
+
+    <div id="report-status" class="report-status" role="status" aria-live="polite"></div>
+
+    <footer class="report-form-footer">
+      <button type="button" class="report-form-cancel">Zrušit</button>
+      <button type="submit" class="report-form-submit">
+        <span class="submit-label">Odeslat hlášení</span>
+        <span class="submit-spinner" aria-hidden="true"></span>
+      </button>
+    </footer>
+  </form>
+</dialog>
+
+<style>
+  /* Floating "Nahlásit problém" — pravý dolní roh, nad CMS-edit FAB
+     pokud je obojí. Default skrytý; odhalí se přes body[data-editor-mode]. */
+  .report-issue-fab {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    z-index: 30;
+    display: none;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.85rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-copper) 40%, transparent);
+    border-radius: 2px;
+    color: var(--color-copper);
+    font-family: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transition: background 120ms ease, border-color 120ms ease;
+  }
+  body[data-editor-mode] .report-issue-fab { display: inline-flex; }
+  .report-issue-fab:hover {
+    background: color-mix(in srgb, var(--color-bg-elevated) 80%, var(--color-copper));
+    border-color: var(--color-copper);
+    color: var(--color-bg-deep);
+  }
+
+  /* Když je current page editovatelná (Base.astro renderuje vedlejší
+     "Upravit" FAB s class .cms-edit-fab), posuneme report FAB nahoru,
+     aby se nepřekrývaly. */
+  body[data-editor-mode] .report-issue-fab {
+    bottom: 1.25rem;
+    right: 1.25rem;
+  }
+  body[data-editor-mode] .cms-edit-fab + .report-issue-fab,
+  body[data-editor-mode] .report-issue-fab:has(+ .cms-edit-fab) {
+    bottom: 4.25rem;
+  }
+
+  dialog#report-issue-modal {
+    margin: auto;
+    margin-top: 8vh;
+    padding: 0;
+    border: none;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
+    border-radius: 2px;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.7);
+    width: min(560px, 92vw);
+    max-height: 90vh;
+    color: var(--color-text);
+    overflow: hidden;
+  }
+  dialog#report-issue-modal::backdrop {
+    background: rgba(10, 8, 7, 0.7);
+    backdrop-filter: blur(4px);
+  }
+
+  .report-form {
+    display: flex;
+    flex-direction: column;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  .report-form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.25rem;
+    background: var(--color-bg-deep);
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .report-form-header h2 {
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0;
+  }
+  .report-form-close {
+    background: transparent;
+    border: none;
+    color: var(--color-text-muted);
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 0.5rem;
+  }
+  .report-form-close:hover { color: var(--color-text); }
+
+  .report-form-hint {
+    margin: 1rem 1.25rem 0;
+    padding: 0.6rem 0.85rem;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    background: color-mix(in srgb, var(--color-bg-deep) 90%, var(--color-brass));
+    border-left: 2px solid color-mix(in srgb, var(--color-brass) 40%, transparent);
+    line-height: 1.5;
+  }
+
+  .report-field {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1.25rem 0;
+    position: relative;
+  }
+  .report-label {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-copper);
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+  }
+  .report-label .required { color: var(--color-brass); }
+
+  .report-field input[type="text"],
+  .report-field select,
+  .report-field textarea {
+    background: var(--color-bg);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    padding: 0.55rem 0.7rem;
+    color: var(--color-text);
+    font-family: inherit;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  .report-field input[type="text"]:focus,
+  .report-field select:focus,
+  .report-field textarea:focus {
+    outline: none;
+    border-color: var(--color-brass);
+  }
+  .report-field input[readonly] {
+    color: var(--color-text-muted);
+    cursor: default;
+    font-size: 0.85rem;
+  }
+  .report-field textarea {
+    resize: vertical;
+    min-height: 100px;
+    font-family: var(--font-serif);
+  }
+  .report-counter {
+    align-self: flex-end;
+    margin-top: 0.25rem;
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    font-family: ui-monospace, monospace;
+  }
+
+  /* Honeypot — vizuálně + screen-reader skrytý.
+     Speciální technika: position+overflow+aria-hidden, ne `display:none`,
+     aby Chrome autofill ho nepřeskočil pokud bot prochází formuláře. */
+  .report-honeypot {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  .report-status {
+    margin: 1rem 1.25rem 0;
+    min-height: 0;
+  }
+  .report-status:empty { display: none; }
+  .report-status.is-success {
+    padding: 0.7rem 0.9rem;
+    background: color-mix(in srgb, var(--color-bg-deep) 80%, var(--color-brass));
+    border-left: 3px solid var(--color-brass);
+    color: var(--color-brass-bright);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .report-status.is-error {
+    padding: 0.7rem 0.9rem;
+    background: color-mix(in srgb, var(--color-bg-deep) 80%, var(--color-copper));
+    border-left: 3px solid var(--color-copper);
+    color: var(--color-copper);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .report-status a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .report-form-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    padding: 1.25rem;
+    margin-top: 1rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  }
+  .report-form-cancel,
+  .report-form-submit {
+    padding: 0.5rem 0.95rem;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: inherit;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: border-color 120ms ease, background 120ms ease;
+  }
+  .report-form-cancel:hover {
+    border-color: var(--color-brass);
+  }
+  .report-form-submit {
+    background: color-mix(in srgb, var(--color-bg-elevated) 70%, var(--color-brass));
+    border-color: var(--color-brass);
+    color: var(--color-brass-bright);
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .report-form-submit:hover {
+    background: color-mix(in srgb, var(--color-bg-elevated) 50%, var(--color-brass));
+  }
+  .report-form-submit[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  .submit-spinner {
+    display: none;
+    width: 12px;
+    height: 12px;
+    border: 2px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
+    border-top-color: var(--color-brass);
+    border-radius: 50%;
+    animation: spin-report 700ms linear infinite;
+  }
+  .report-form-submit.is-loading .submit-spinner { display: inline-block; }
+  .report-form-submit.is-loading .submit-label { opacity: 0.6; }
+  @keyframes spin-report { to { transform: rotate(360deg); } }
+</style>
+
+<script is:inline>
+  (function () {
+    const trigger = document.getElementById('report-issue-trigger');
+    const dialog = document.getElementById('report-issue-modal');
+    const form = document.getElementById('report-issue-form');
+    if (!trigger || !dialog || !form) return;
+
+    const pageInfoEl = document.getElementById('report-page-info');
+    const typeEl = document.getElementById('report-type');
+    const descEl = document.getElementById('report-description');
+    const counterEl = document.getElementById('report-counter');
+    const honeypotEl = document.getElementById('report-honeypot');
+    const statusEl = document.getElementById('report-status');
+    const submitBtn = form.querySelector('.report-form-submit');
+    const cancelBtn = form.querySelector('.report-form-cancel');
+    const closeBtn = form.querySelector('.report-form-close');
+
+    function updateCounter() {
+      const len = descEl.value.length;
+      counterEl.textContent = len + ' / 2000';
+    }
+    descEl.addEventListener('input', updateCounter);
+
+    function fillCurrentPage() {
+      const url = window.location.href;
+      const title = document.title.replace(/\s—\sHodinárium$/, '');
+      pageInfoEl.value = title + '  ·  ' + url;
+      pageInfoEl.dataset.url = url;
+      pageInfoEl.dataset.title = title;
+    }
+
+    function openModal() {
+      fillCurrentPage();
+      statusEl.textContent = '';
+      statusEl.className = 'report-status';
+      // Reset only popis + type, zachovej page info (aktuální stránka).
+      descEl.value = '';
+      typeEl.value = '';
+      honeypotEl.value = '';
+      updateCounter();
+      submitBtn.classList.remove('is-loading');
+      submitBtn.disabled = false;
+      if (!dialog.open) dialog.showModal();
+      setTimeout(() => typeEl.focus(), 30);
+    }
+    function closeModal() {
+      if (dialog.open) dialog.close();
+    }
+
+    trigger.addEventListener('click', openModal);
+    cancelBtn.addEventListener('click', closeModal);
+    closeBtn.addEventListener('click', closeModal);
+    dialog.addEventListener('click', function (e) {
+      if (e.target === dialog) closeModal();
+    });
+
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      statusEl.textContent = '';
+      statusEl.className = 'report-status';
+
+      const description = descEl.value.trim();
+      const problemType = typeEl.value;
+      if (description.length < 5) {
+        statusEl.className = 'report-status is-error';
+        statusEl.textContent = 'Popis problému musí mít alespoň 5 znaků.';
+        descEl.focus();
+        return;
+      }
+      if (!problemType) {
+        statusEl.className = 'report-status is-error';
+        statusEl.textContent = 'Vyber typ problému.';
+        typeEl.focus();
+        return;
+      }
+
+      submitBtn.classList.add('is-loading');
+      submitBtn.disabled = true;
+
+      try {
+        const r = await fetch('/api/report-issue', {
+          method: 'POST',
+          credentials: 'include', // CF Access cookie
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            url: pageInfoEl.dataset.url || window.location.href,
+            pageTitle: pageInfoEl.dataset.title || document.title,
+            problemType: problemType,
+            description: description,
+            _url: honeypotEl.value, // Honeypot — měl by být prázdný
+          }),
+        });
+        const data = await r.json().catch(function () { return {}; });
+
+        if (r.ok && data.ok) {
+          statusEl.className = 'report-status is-success';
+          if (data.issue && data.issue.url) {
+            statusEl.innerHTML =
+              'Hlášení odesláno. Issue <a href="' + data.issue.url +
+              '" target="_blank" rel="noopener">#' + data.issue.number + '</a> ' +
+              'bylo vytvořeno.';
+          } else {
+            statusEl.textContent = 'Hlášení odesláno. Děkujeme!';
+          }
+          // Zavři po 4 s.
+          setTimeout(function () {
+            closeModal();
+          }, 4000);
+        } else {
+          statusEl.className = 'report-status is-error';
+          statusEl.textContent = data.error || 'Odeslání selhalo. Zkus to znovu později.';
+          submitBtn.classList.remove('is-loading');
+          submitBtn.disabled = false;
+        }
+      } catch (err) {
+        statusEl.className = 'report-status is-error';
+        statusEl.textContent = 'Síťová chyba — zkontroluj připojení a zkus znovu.';
+        submitBtn.classList.remove('is-loading');
+        submitBtn.disabled = false;
+      }
+    });
+
+    // Esc zavře (dialog default), ale pojistka pro klik mimo:
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && dialog.open) closeModal();
+    });
+  })();
+</script>
