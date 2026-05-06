@@ -49,7 +49,100 @@ function getEditorEmail(req: Request): string | null {
 }
 
 /**
+ * UTF-8 safe base64 encode/decode (CF Workers má atob/btoa, ne Buffer).
+ */
+function decodeBase64Utf8(b64: string): string {
+  const bytes = Uint8Array.from(atob(b64.replace(/\n/g, '')), (c) => c.charCodeAt(0));
+  return new TextDecoder('utf-8').decode(bytes);
+}
+function encodeBase64Utf8(s: string): string {
+  const bytes = new TextEncoder().encode(s);
+  let bin = '';
+  for (const b of bytes) bin += String.fromCharCode(b);
+  return btoa(bin);
+}
+
+/**
+ * Auto-flip manualEdit:false → true a smazat odpovídající editorNote item
+ * (noteKey: manual-edit-false) z YAML frontmatteru. Volá se po každém
+ * editor save přes Sveltia/CMS — předpokládáme, že pokud editor něco ručně
+ * upravuje, obsah už by měl být označený jako manuálně reviewed.
+ *
+ * Vstup: kompletní text MDX/MD souboru
+ * Výstup: upravený text, nebo null pokud nebyly potřeba změny
+ */
+/**
+ * Najdi a odeber editorNotes položku s daným noteKey ve frontmatter YAML stringu.
+ * Line-based parsing — robustnější než multiline regex u YAML s lookbehind/ahead.
+ * Vrací { fm: nový frontmatter, removed: bool }.
+ */
+function removeEditorNoteByKey(fm: string, targetKey: string): { fm: string; removed: boolean } {
+  const lines = fm.split('\n');
+  // Najdi řádek "editorNotes:"
+  const enStart = lines.findIndex((l) => /^editorNotes:\s*$/.test(l));
+  if (enStart < 0) return { fm, removed: false };
+  // Najdi konec sekce — první další top-level klíč (řádek nezačínající mezerou ani "  -")
+  let enEnd = lines.length;
+  for (let i = enStart + 1; i < lines.length; i++) {
+    if (/^\S/.test(lines[i])) { enEnd = i; break; }
+  }
+
+  // Sekční rozsah: lines[enStart+1 .. enEnd-1] jsou "  - ..." položky + jejich pole
+  const section = lines.slice(enStart + 1, enEnd);
+  // Rozděl na položky (každá začíná "  - ")
+  const items: string[][] = [];
+  for (const ln of section) {
+    if (/^  - /.test(ln)) items.push([ln]);
+    else if (items.length > 0) items[items.length - 1].push(ln);
+  }
+
+  // Filtruj položky které NEMAJÍ targetKey
+  const escapedKey = targetKey.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
+  const noteKeyRe = new RegExp("noteKey:\\s*['\"]?" + escapedKey + "['\"]?\\s*$");
+  const kept = items.filter((it) => !it.some((ln) => noteKeyRe.test(ln)));
+  if (kept.length === items.length) return { fm, removed: false };
+
+  let newLines: string[];
+  if (kept.length === 0) {
+    // Vyhoď celý editorNotes blok (header + sekce)
+    newLines = [...lines.slice(0, enStart), ...lines.slice(enEnd)];
+  } else {
+    const newSection = kept.flat();
+    newLines = [...lines.slice(0, enStart + 1), ...newSection, ...lines.slice(enEnd)];
+  }
+  return { fm: newLines.join('\n'), removed: true };
+}
+
+function autoFlipManualEdit(text: string): string | null {
+  const fmMatch = text.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  if (!fmMatch) return null;
+  let fm = fmMatch[1];
+  const body = fmMatch[2];
+
+  let changed = false;
+
+  // 1) manualEdit: false → true
+  const meRe = /^manualEdit:\s*false\s*$/m;
+  if (meRe.test(fm)) {
+    fm = fm.replace(meRe, 'manualEdit: true');
+    changed = true;
+  }
+
+  // 2) Smaž editorNotes položku s noteKey: manual-edit-false
+  const result = removeEditorNoteByKey(fm, 'manual-edit-false');
+  if (result.removed) {
+    fm = result.fm;
+    changed = true;
+  }
+
+  if (!changed) return null;
+  return '---\n' + fm.replace(/\n+$/, '') + '\n---\n' + body;
+}
+
+/**
  * Pro REST PUT /repos/.../contents/<path> přepíše commit message + author/committer.
+ * Bonus: auto-flip manualEdit:false → true (viz autoFlipManualEdit) a drop
+ * odpovídající editorNote item z payloadu před commit.
  */
 function rewriteRestCommitBody(
   method: string,
@@ -75,6 +168,24 @@ function rewriteRestCommitBody(
     name: env.BOT_AUTHOR_NAME ?? DEFAULT_BOT_NAME,
     email: env.BOT_AUTHOR_EMAIL ?? DEFAULT_BOT_EMAIL,
   };
+
+  // Auto-flip manualEdit a drop odpovídající editorNote — jen pokud
+  // payload obsahuje content (= je to update, ne pouhý rename / metadata).
+  // Aplikuje se na content/hodinarium-eu/* karty + clanky (manualEdit
+  // je tam relevantní); přeskočíme např. references.json nebo non-MD soubory.
+  if (typeof payload.content === 'string' && pathname.match(/contents\/content\/.*\.mdx?(\?|$)/)) {
+    try {
+      const decoded = decodeBase64Utf8(payload.content);
+      const flipped = autoFlipManualEdit(decoded);
+      if (flipped !== null) {
+        payload.content = encodeBase64Utf8(flipped);
+        // Append marker do commit message — audit trail
+        payload.message += ' [manualEdit:auto-flipped]';
+      }
+    } catch (e) {
+      // Tichá chyba — pokud autoflip selže, neblokujeme commit
+    }
+  }
 
   return JSON.stringify(payload);
 }
