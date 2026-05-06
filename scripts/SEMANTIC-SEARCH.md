@@ -88,6 +88,28 @@ nebo struktury textu se cache invaliduje automaticky.
 **„Workers AI binding not found" v Pages Function**
 → V dashu chybí AI binding. Settings → Functions → Bindings → Add → AI.
 
+## Fulltext fallback (kvóta exhausted)
+
+Pokud Workers AI vrátí 429 (rate limit) nebo neuron-quota error
+(typicky CF AI error code 3036/3040/7003), Pages Function automaticky
+spadne na **server-side fulltext** nad stejným indexem v paměti:
+
+- Tokenize query → NFD strip diakritiky → lowercase
+- Score = title_hits × 3 + tag_hits × 2 + summary_hits × 1
+- Bonus +5 za exact phrase match v titulu
+- Threshold: minimum 1 match
+
+Klient pozná fallback z `mode: 'fulltext'` v JSON odpovědi a
+`X-Search-Mode: fulltext` headeru. SearchModal pak ukáže nenápadný
+banner „AI měsíční kvóta vyčerpaná — používám fulltext vyhledávání".
+
+Cache TTL je u fallback výsledků zkrácená na 60 s (default semantic
+je 300 s) — kvóta se může brzy obnovit, nechceme držet horší výsledky.
+
+**Ostatní AI chyby** (auth fail, network, 500) se nedělají fallback —
+vrací se 500. Fallback pokrývá jen `429 | rate.?limit | quota | exhaust |
+neuron | 3036 | 3040 | 7003` chybové signatury.
+
 ## Future work
 
 - **Cloudflare Vectorize** místo static JSON: rychlejší pro >10k
