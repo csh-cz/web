@@ -54,6 +54,17 @@ const typLabels: Record<string, string> = {
   title={entry.data.title}
   description={entry.data.title}
   cmsEditUrl={`/admin/#/collections/kronika/entries/${entry.data.slug}`}
+  citation={{
+    title: entry.data.title,
+    author: entry.data.author || undefined,
+    date: entry.data.date || (entry.data.rok ? `${entry.data.rok}-01-01` : undefined),
+    journalTitle: 'Hodinárium — Kronika',
+    keywords: [
+      ...(entry.data.misto ? [entry.data.misto] : []),
+      ...(entry.data.typ ? [entry.data.typ] : []),
+      `${entry.data.rok}`,
+    ],
+  }}
 >
   <JsonLd data={kronikaJsonLd} />
   <Breadcrumbs trail={[

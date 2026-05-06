@@ -77,6 +77,18 @@ const kartaJsonLd = {
   title={entry.data.title}
   description={`Evidenční karta sbírkového předmětu — inv. č. ${entry.data.karta?.inventarniCislo ?? '?'}`}
   cmsEditUrl={`/admin/#/collections/karty/entries/${entry.data.slug}`}
+  citation={{
+    title: entry.data.title,
+    author: entry.data.author || undefined,
+    date: typeof entry.data.lastModified === 'string' ? entry.data.lastModified : undefined,
+    journalTitle: 'Hodinárium — Sbírka',
+    inventarniCislo: entry.data.karta?.inventarniCislo,
+    keywords: [
+      ...(entry.data.tags ?? []),
+      ...(entry.data.karta?.vyrobce ? [entry.data.karta.vyrobce] : []),
+      ...(entry.data.karta?.umisteni ? [entry.data.karta.umisteni] : []),
+    ].filter(Boolean),
+  }}
 >
   <JsonLd data={kartaJsonLd} />
   <Breadcrumbs trail={[

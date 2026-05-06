@@ -3,6 +3,40 @@ import "../styles/global.css";
 import SearchModal from "../components/SearchModal.astro";
 import { SISTER_SPOLEK, SISTER_SPOLEK_LABEL } from "../data/sites";
 
+/** Highwire Press citation_* metadata pro Zotero connector + Google Scholar.
+ *  Per-page layouty (Article, sbirka karta, hodinari, soupis) předávají
+ *  toto pole; Base.astro vyrenderuje <meta name="citation_*"> v <head>.
+ *  Když není předáno, použijí se default Hodinárium / ČSH metadata
+ *  (vhodné pro listingy a statické stránky bez specifické struktury). */
+export interface CitationMeta {
+  /** Title článku/karty. Default = page title. */
+  title?: string;
+  /** Autor — string nebo array. Pro nezávisle psané obsahy. Default ČSH. */
+  author?: string | string[];
+  /** Datum publikace ISO YYYY-MM-DD nebo full ISO timestamp. */
+  date?: string;
+  /** Jméno publikátora. Default "Český spolek horologický". */
+  publisher?: string;
+  /** Jméno serveru/časopisu. Default "Hodinárium". */
+  journalTitle?: string;
+  /** Volitelné ISBN (pro karty s katalogem ISBN). */
+  isbn?: string;
+  /** Volitelné DOI. */
+  doi?: string;
+  /** Stránky (např. "59-80"). */
+  pages?: string;
+  /** Volume / číslo ročníku. */
+  volume?: string;
+  /** Issue / číslo časopisu. */
+  issue?: string;
+  /** PDF URL — pokud máme alternativu jako PDF. Většinou nemáme. */
+  pdfUrl?: string;
+  /** Inventární číslo (sbírka karty) — Highwire nemá přesné field, použij `volume`. */
+  inventarniCislo?: string;
+  /** Custom keywords (klíčová slova). */
+  keywords?: string[];
+}
+
 interface Props {
   title: string;
   description?: string;
@@ -14,8 +48,32 @@ interface Props {
    *  `/admin/#/collections/clanky/entries/<slug>`). Anonymous návštěvníci
    *  tlačítko nikdy neuvidí — fetch /api/cms/auth/user vrátí authenticated:false. */
   cmsEditUrl?: string;
+  /** Highwire citation meta pro Zotero connector + Google Scholar. */
+  citation?: CitationMeta;
 }
-const { title, description, ogSlug, ogImageOverride, cmsEditUrl } = Astro.props;
+const { title, description, ogSlug, ogImageOverride, cmsEditUrl, citation } = Astro.props;
+
+// Citation defaults — pokud per-page neposlala specific data, fall back na
+// universal Hodinárium / ČSH metadata. Zotero connector pak uloží stránku
+// s rozumným title + author + publisher.
+const citationData = {
+  title: citation?.title ?? title,
+  author: Array.isArray(citation?.author)
+    ? citation!.author
+    : citation?.author
+      ? [citation.author]
+      : ['Český spolek horologický'],
+  date: citation?.date,
+  publisher: citation?.publisher ?? 'Český spolek horologický',
+  journalTitle: citation?.journalTitle ?? 'Hodinárium',
+  isbn: citation?.isbn,
+  doi: citation?.doi,
+  pages: citation?.pages,
+  volume: citation?.volume ?? citation?.inventarniCislo,
+  issue: citation?.issue,
+  pdfUrl: citation?.pdfUrl,
+  keywords: citation?.keywords,
+};
 const fullTitle = title === "Hodinárium" ? title : `${title} — Hodinárium`;
 const desc = description ?? "Český spolek horologický — sbírka, expozice, projekty.";
 // Cloudflare Web Analytics token — set in CF Pages env as PUBLIC_CF_ANALYTICS_TOKEN.
@@ -121,6 +179,33 @@ const orgJsonLd = isHome ? {
     <!-- Licence: Creative Commons Attribution 4.0 International -->
     <link rel="license" href="https://creativecommons.org/licenses/by/4.0/" />
     <meta name="dcterms.rights" content="© Český spolek horologický z. s. — CC BY 4.0" />
+
+    {/* Highwire Press citation_* meta — Zotero connector + Google Scholar.
+        Když per-page neposlala specific data, použijí se default Hodinárium
+        / ČSH hodnoty. Inv. č. (sbírka karta) zachytí přes citation_volume,
+        keywords přes citation_keywords. */}
+    <meta name="citation_title" content={citationData.title} />
+    {citationData.author.map((a: string) => (
+      <meta name="citation_author" content={a} />
+    ))}
+    {citationData.date && <meta name="citation_publication_date" content={citationData.date} />}
+    {citationData.date && <meta name="citation_online_date" content={citationData.date} />}
+    <meta name="citation_publisher" content={citationData.publisher} />
+    <meta name="citation_journal_title" content={citationData.journalTitle} />
+    <meta name="citation_language" content="cs" />
+    <meta name="citation_public_url" content={canonical} />
+    {citationData.isbn && <meta name="citation_isbn" content={citationData.isbn} />}
+    {citationData.doi && <meta name="citation_doi" content={citationData.doi} />}
+    {citationData.pages && <meta name="citation_firstpage" content={citationData.pages.split(/[-–—]/)[0].trim()} />}
+    {citationData.pages && citationData.pages.includes('-') && (
+      <meta name="citation_lastpage" content={citationData.pages.split(/[-–—]/)[1].trim()} />
+    )}
+    {citationData.volume && <meta name="citation_volume" content={citationData.volume} />}
+    {citationData.issue && <meta name="citation_issue" content={citationData.issue} />}
+    {citationData.pdfUrl && <meta name="citation_pdf_url" content={citationData.pdfUrl} />}
+    {citationData.keywords && citationData.keywords.length > 0 && (
+      <meta name="citation_keywords" content={citationData.keywords.join('; ')} />
+    )}
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

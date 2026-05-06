@@ -72,6 +72,21 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
 <Base
   title={pageTitle}
   description={`Věžní hodiny ${d.rok} v lokalitě ${d.puvodniMisto.obec}${d.puvodniMisto.budova ? ` (${d.puvodniMisto.budova})` : ''} — záznam v Soupisu věžních hodin Hodinária.`}
+  citation={{
+    title: pageTitle,
+    author: hodinarDisplay || d.hodinarText || undefined,
+    date: typeof d.rok === 'number' ? `${d.rok}-01-01` : undefined,
+    journalTitle: 'Hodinárium — Soupis věžních hodin',
+    keywords: [
+      d.puvodniMisto.obec,
+      ...(d.puvodniMisto.budova ? [d.puvodniMisto.budova] : []),
+      ...(d.puvodniMisto.kraj ? [d.puvodniMisto.kraj] : []),
+      ...(d.puvodniMisto.zeme && d.puvodniMisto.zeme !== 'CZ' ? [d.puvodniMisto.zeme] : []),
+      ...(d.krok ? [`krok: ${d.krok.split(/[\s,;()]/)[0]}`] : []),
+      ...(d.pohon ? [`pohon: ${d.pohon}`] : []),
+      'věžní hodiny',
+    ].filter(Boolean),
+  }}
 >
   <Breadcrumbs trail={[
     { href: "/", label: "Hodinárium" },

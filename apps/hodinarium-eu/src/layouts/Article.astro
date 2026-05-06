@@ -150,7 +150,18 @@ const articleJsonLd = {
   },
 };
 ---
-<Base title={title} description={description} ogImageOverride={ogImageOverride} cmsEditUrl={cmsEditUrl}>
+<Base
+  title={title}
+  description={description}
+  ogImageOverride={ogImageOverride}
+  cmsEditUrl={cmsEditUrl}
+  citation={{
+    title,
+    author: author || undefined,
+    date: lastModifiedISO ?? undefined,
+    journalTitle: category ? `Hodinárium — ${categoryLabel(category, 'long') ?? category}` : 'Hodinárium',
+  }}
+>
   <JsonLd data={articleJsonLd} />
   <Breadcrumbs trail={[
     { href: '/', label: 'Hodinárium' },
