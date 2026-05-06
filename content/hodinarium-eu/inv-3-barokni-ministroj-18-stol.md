@@ -5,7 +5,7 @@ category: sbirka
 podsekce: karta
 karta:
   inventarniCislo: '3'
-  datace: ''
+  datace: přelom 17. a 18. století
   signatura: ''
   biciStroje:
     - hodinové
@@ -13,12 +13,18 @@ karta:
   ciselnik: ''
   pohonDetail: ''
   rozmery: ''
-  umisteni: Hlavní sál
-  majitel: zápůjčka
+  umisteni: Sál Věžní
+  majitel: ''
   darceZapujcitel: ''
   vztahKeSbirce: zápůjčka
-  pridanoDoSbirky: '2011'
+  pridanoDoSbirky: 2011
   stav: funkční
+  puvodniUmisteni:
+    objekt: kostela Nanebevzetí Panny Marie
+    typObjektu: ''
+    obec: Zlaté Hory
+    detail: ''
+  restaurovani: ''
   adaptaceProVystavu: Kola jsou železná, s výjimkou nepůvodního mosazného krokového kola a mezikola čtvrťového bití.
 tags:
   - hlavni-sal
