@@ -8,9 +8,12 @@ interface Props {
   lastModified?: string | null;
   imageCount?: number;
   external?: boolean;
+  /** Volné jmeno hodináře / výrobce (z karta.vyrobce). Zobrazí se pod názvem
+      jako kurzíva. Není přidávaný link — to může editor doplnit ručně. */
+  vyrobce?: string;
 }
 
-const { href, title, excerpt, thumbnail, category, lastModified, imageCount, external } = Astro.props;
+const { href, title, excerpt, thumbnail, category, lastModified, imageCount, external, vyrobce } = Astro.props;
 
 import { categoryLabel } from '../data/labels';
 
@@ -53,6 +56,7 @@ const lastModifiedShort = lastModified
       )}
     </div>
     <h3 class="atlas-card-title">{title}{external && <span class="text-sm">&nbsp;↗</span>}</h3>
+    {vyrobce && <p class="atlas-card-vyrobce">{vyrobce}</p>}
     {excerpt && <p class="atlas-card-excerpt">{excerpt}</p>}
   </div>
 </a>
@@ -163,6 +167,20 @@ const lastModifiedShort = lastModified
     -webkit-box-orient: vertical;
     overflow: hidden;
     min-height: 3em;       /* rezervovat 2 řádky i pro krátké tituly */
+  }
+
+  .atlas-card-vyrobce {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 0.92rem;
+    color: var(--color-copper);
+    margin: -0.15rem 0 0;
+    line-height: 1.3;
+    /* Aby se titulek + jméno hodináře vešly do očekávané výšky karty,
+       zalomujeme jméno hodináře na max 1 řádek s ellipsis */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .atlas-card-excerpt {

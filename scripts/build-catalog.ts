@@ -12,6 +12,7 @@
 import { readFile, writeFile, readdir } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { parse as yamlParse } from 'yaml';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -34,18 +35,18 @@ interface CatalogEntry {
 function parseFrontmatter(content: string): { fm: Record<string, unknown>; body: string } {
   const m = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
   if (!m) return { fm: {}, body: content };
-  const fm: Record<string, unknown> = {};
-  for (const line of m[1].split('\n')) {
-    const km = line.match(/^([\w-]+):\s*(.*)$/);
-    if (!km) continue;
-    let v: unknown = km[2].trim();
-    if (typeof v === 'string') {
-      if (v === 'null') v = null;
-      else if (v.startsWith('"') && v.endsWith('"')) {
-        try { v = JSON.parse(v); } catch { /* ignore */ }
-      }
-    }
-    fm[km[1]] = v;
+  // Použij plnotextový YAML parser — naïve line-based parsing nepodporuje
+  // nested struktury (karta: { vyrobce: ... }), block scalars, multi-line
+  // arrays atd. yaml@2 je již v node_modules (dependency Astro).
+  let fm: Record<string, unknown> = {};
+  try {
+    // Lazy ESM import — async ale tady chceme sync. Naštěstí js-yaml má
+    // synchronní API. Ale yaml@2 má stejné. Zkusíme yaml.
+    // Static import top-of-file way:
+    fm = yamlParse(m[1]);
+  } catch {
+    // Tichá chyba — pokud parser failne (corrupted YAML), vrátíme prázdný
+    // frontmatter; build-catalog je advisory, ne strict validátor.
   }
   return { fm, body: m[2] };
 }
@@ -162,6 +163,14 @@ async function main() {
       ? (fm.thumbnail as string)
       : null;
 
+    // Extract karta.vyrobce pokud existuje (typicky u sbírkových karet
+    // s podsekce: 'karta'). Renderuje se jako kurzíva pod titulem v Card.
+    const kartaObj = (fm.karta as { vyrobce?: string } | undefined) ?? undefined;
+    const vyrobce =
+      typeof kartaObj?.vyrobce === 'string' && kartaObj.vyrobce.trim().length > 0
+        ? kartaObj.vyrobce.trim()
+        : undefined;
+
     catalog.push({
       slug: (fm.slug as string) ?? file.replace(/\.(md|mdx)$/, ''),
       title: (fm.title as string) ?? file,
@@ -172,6 +181,7 @@ async function main() {
       lastModified: lastModifiedISO,
       imageCount: countImages(body),
       wordCount: countWords(body),
+      ...(vyrobce ? { vyrobce } : {}),
     });
   }
 

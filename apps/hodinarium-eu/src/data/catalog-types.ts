@@ -32,4 +32,7 @@ export interface CatalogEntry {
   imageCount: number;
   /** Počet slov v body. */
   wordCount: number;
+  /** Jméno hodináře / výrobce (z karta.vyrobce u sbírkových karet).
+      Zobrazí se jako kurzíva pod titulem v Card preview. */
+  vyrobce?: string;
 }
