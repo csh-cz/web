@@ -17,6 +17,8 @@
     "hodinari:detect": "tsx scripts/detect-hodinari-mentions.ts",
     "refs:sync": "node scripts/sync-zotero-refs.mjs",
     "refs:check": "node scripts/sync-zotero-refs.mjs --check",
+    "refs:snapshot": "node scripts/test-iso690-snapshots.mjs",
+    "refs:snapshot:update": "node scripts/test-iso690-snapshots.mjs --update",
     "gmaps:parse": "tsx scripts/parse-gmaps-kml.ts",
     "soupis:parse": "tsx scripts/parse-soupis.ts",
     "soupis:stuby": "tsx scripts/generate-soupis-stubs.ts",
