@@ -135,6 +135,34 @@ const sections: SectionDef[] = [
     description: 'macOS Finder/iCloud duplicates (`* 2.mdx`, `* 3.md`). Návrh na smazání — zachovat originál.',
     priority: 'high',
   },
+  {
+    key: 'stubsKarty',
+    title: 'Karty označené jako stub',
+    icon: '☐',
+    description: 'Karty s frontmatter `isStub: true` — minimální data, čekají na manuální doplnění (typicky bulk import). Po revizi smaž flag.',
+    priority: 'medium',
+  },
+  {
+    key: 'stubsClanky',
+    title: 'Články označené jako stub',
+    icon: '☐',
+    description: 'Články s `isStub: true` v jiných kategoriích než sbírka. Stejný princip — flag se smaže po revizi.',
+    priority: 'medium',
+  },
+  {
+    key: 'stubsHodinari',
+    title: 'Medailony hodinářů — stub',
+    icon: '☐',
+    description: 'Hodinaři/firmy s `isStub: true`. Pro mezinárodně významné hodináře (Breguet, Huygens, …) je to OK referenční záznam — stub se shrnutím stačí. Pro české hodináře doplnit.',
+    priority: 'low',
+  },
+  {
+    key: 'stubsSoupis',
+    title: 'Soupis věžních hodin — stub',
+    icon: '☐',
+    description: 'Záznamy soupisu s `isStub: true` — typicky bulk-import z Hellicha (1917) bez identifikace budovy / roku / stavu. Vyžadují dohledání v místních pramenech.',
+    priority: 'medium',
+  },
 ];
 
 // const PRIORITY_COLORS = { high: 'red', medium: 'amber', low: 'gray' };  // (unused)

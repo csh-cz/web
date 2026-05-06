@@ -123,6 +123,10 @@ const clanky = defineCollection({
     /** Editorské poznámky (TODO, varování o nejistotě, kontext) — viditelné
         jen po loginu editora, anonymní návštěvník nic nevidí. */
     editorNotes: z.array(editorNote).optional(),
+    /** True = článek/karta je stub — frontmatter i body čekají na editorovu
+        práci. Veřejně se zobrazuje jen základní info; editor v /redakce/
+        dashboard vidí seznam stubů napříč collections. */
+    isStub: z.boolean().optional(),
     /** Styl seznamu referencí: 'bullet' (default — type-icon) nebo 'numbered'
      *  ([1], [2] …, vhodné pro články s přímými citacemi přes <Ref n={N}>). */
     referenceStyle: z.enum(['bullet', 'numbered']).optional(),
@@ -422,6 +426,12 @@ const soupisVeznichHodin = defineCollection({
 
     /** Editorské poznámky (TODO, varování o nejistotě, kontext). */
     editorNotes: z.array(editorNote).optional(),
+
+    /** True = záznam je stub — minimální data (typicky bulk import z
+        Hellichova seznamu nebo z OSM-import), čeká na manuální dopnění
+        budovy / roku / krok / restaurátor / fotky. Editor v /redakce/
+        dashboard vidí seznam stubů. */
+    isStub: z.boolean().optional(),
 
     /** Meta. */
     posledniOvereni: dateString.optional(),

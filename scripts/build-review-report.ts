@@ -88,6 +88,11 @@ const karty_no_thumb: Item[] = [];
 const karty_no_vyrobce: Item[] = [];
 const karty_placeholder_title: Item[] = [];
 const karty_no_umisteni: Item[] = [];
+// Stub flagy napříč collections — sjednocený dashboard
+const stubs_karty: Item[] = [];
+const stubs_clanky: Item[] = [];
+const stubs_hodinari: Item[] = [];
+const stubs_soupis: Item[] = [];
 
 let kartyTotal = 0;
 for (const f of listFiles(CONTENT_HE, ['.md', '.mdx'])) {
@@ -112,6 +117,8 @@ for (const f of listFiles(CONTENT_HE, ['.md', '.mdx'])) {
   if (title.startsWith('[K doplnění]') || title.startsWith('K doplnění')) {
     karty_placeholder_title.push(item);
   }
+
+  if (/^isStub:\s*true\s*$/m.test(fm)) stubs_karty.push(item);
 }
 
 const clanky_no_tldr: Item[] = [];
@@ -144,6 +151,8 @@ for (const f of listFiles(CONTENT_HE, ['.md', '.mdx'])) {
 
   const legacyCount = (body.match(/\]\(\/clanky\/[^)]+\)/g) || []).length;
   if (legacyCount > 0) clanky_legacy_links.push({ ...item, legacyCount });
+
+  if (/^isStub:\s*true\s*$/m.test(fm)) stubs_clanky.push(item);
 }
 
 const hodinari_short: Item[] = [];
@@ -162,6 +171,26 @@ for (const f of listFiles(CONTENT_HOD, ['.mdx'])) {
   const wordCount = body.trim().split(/\s+/).length;
   if (wordCount < 200) hodinari_short.push({ ...item, wordCount });
   if (!/^portret:/m.test(fm)) hodinari_no_portret.push(item);
+
+  if (/^isStub:\s*true\s*$/m.test(fm)) stubs_hodinari.push(item);
+}
+
+// Soupis věžních hodin — nový stub scan
+const CONTENT_SVH = join(ROOT, 'content', 'soupis-veznich-hodin');
+let soupisTotal = 0;
+for (const f of listFiles(CONTENT_SVH, ['.md', '.mdx'])) {
+  soupisTotal++;
+  const parsed = readFM(join(CONTENT_SVH, f));
+  if (!parsed) continue;
+  const { fm } = parsed;
+  const slug = basename(f, extname(f));
+  const title = fmField(fm, 'title') || slug;
+  if (/^isStub:\s*true\s*$/m.test(fm)) {
+    stubs_soupis.push({
+      slug, title,
+      editUrl: `/admin/#/collections/soupis-veznich-hodin/entries/${slug}`,
+    });
+  }
 }
 
 // Kronika
@@ -211,6 +240,11 @@ const report = {
     hodinariTotal,
     hodinariShort: hodinari_short.length,
     hodinariNoPortret: hodinari_no_portret.length,
+    soupisTotal,
+    stubsKarty: stubs_karty.length,
+    stubsClanky: stubs_clanky.length,
+    stubsHodinari: stubs_hodinari.length,
+    stubsSoupis: stubs_soupis.length,
     kronikaYears: [...kronikaYears].sort((a, b) => a - b),
     kronikaGapYears,
     duplicates: duplicates.length,
@@ -226,6 +260,10 @@ const report = {
     clankyLegacyLinks: clanky_legacy_links,
     hodinariShort: hodinari_short,
     hodinariNoPortret: hodinari_no_portret,
+    stubsKarty: stubs_karty,
+    stubsClanky: stubs_clanky,
+    stubsHodinari: stubs_hodinari,
+    stubsSoupis: stubs_soupis,
     duplicates,
   },
 };
