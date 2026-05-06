@@ -44,6 +44,29 @@ const komponenty = komponentySlugs
 const site = Astro.site ?? new URL('https://hodinarium-eu.pages.dev');
 const kartaUrl = new URL(`/sbirka/karta/${entry.data.slug}`, site).toString();
 const k = entry.data.karta;
+
+// Materials: normalize string|string[] na array stringů (pro JSON-LD).
+const materialsArray: string[] = (() => {
+  const m = k?.materialy;
+  if (!m) return [];
+  if (Array.isArray(m)) return m.filter(Boolean).map((s) => String(s).trim());
+  return String(m)
+    .split(/[,;]/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+})();
+
+// Hlavní fotka pro JSON-LD `image` — preferuj thumbnail, jinak undefined.
+// (Body článku má svoje vlastní obrázky, ale ty by vyžadovaly parse MDX.)
+const mainImageUrl = entry.data.thumbnail
+  ? new URL(entry.data.thumbnail, site).toString()
+  : undefined;
+
+// Citation export URLs (pro UI tlačítka i pro JSON-LD `encoding`).
+const citeRisUrl = `/sbirka/karta/${entry.id}/citation.ris`;
+const citeBibUrl = `/sbirka/karta/${entry.id}/citation.bib`;
+const citeJsonUrl = `/sbirka/karta/${entry.id}/citation.json`;
+
 const kartaJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'CreativeWork',
@@ -65,7 +88,18 @@ const kartaJsonLd = {
     },
   }),
   ...(k?.rozmery && { size: k.rozmery }),
+  ...(materialsArray.length > 0 && { material: materialsArray }),
+  ...(mainImageUrl && { image: mainImageUrl }),
   ...(k?.signatura && { alternateName: k.signatura }),
+  // Strojově čitelné odkazy na citation export endpointy. Klienti
+  // (Zotero translator, custom skripty) je mohou číst přes JSON-LD.
+  encoding: [
+    { '@type': 'MediaObject', encodingFormat: 'application/x-research-info-systems', contentUrl: new URL(citeRisUrl, site).toString() },
+    { '@type': 'MediaObject', encodingFormat: 'application/x-bibtex', contentUrl: new URL(citeBibUrl, site).toString() },
+    { '@type': 'MediaObject', encodingFormat: 'application/vnd.citationstyles.csl+json', contentUrl: new URL(citeJsonUrl, site).toString() },
+    ...(k?.catalogPdfUrl ? [{ '@type': 'MediaObject', encodingFormat: 'application/pdf', contentUrl: new URL(k.catalogPdfUrl, site).toString() }] : []),
+    ...(k?.iiifManifestUrl ? [{ '@type': 'MediaObject', encodingFormat: 'application/ld+json;profile="http://iiif.io/api/presentation/3/context.json"', contentUrl: k.iiifManifestUrl }] : []),
+  ],
   isPartOf: {
     '@type': 'Museum',
     name: 'Hodinárium',
@@ -79,15 +113,23 @@ const kartaJsonLd = {
   cmsEditUrl={`/admin/#/collections/karty/entries/${entry.data.slug}`}
   citation={{
     title: entry.data.title,
-    author: entry.data.author || undefined,
+    author: entry.data.karta?.vyrobce || entry.data.author || undefined,
     date: typeof entry.data.lastModified === 'string' ? entry.data.lastModified : undefined,
     journalTitle: 'Hodinárium — Sbírka',
     inventarniCislo: entry.data.karta?.inventarniCislo,
+    pdfUrl: entry.data.karta?.catalogPdfUrl ? new URL(entry.data.karta.catalogPdfUrl, site).toString() : undefined,
     keywords: [
       ...(entry.data.tags ?? []),
       ...(entry.data.karta?.vyrobce ? [entry.data.karta.vyrobce] : []),
       ...(entry.data.karta?.umisteni ? [entry.data.karta.umisteni] : []),
+      ...materialsArray,
     ].filter(Boolean),
+    alternateLinks: [
+      { href: citeRisUrl, type: 'application/x-research-info-systems', title: 'Citace RIS' },
+      { href: citeBibUrl, type: 'application/x-bibtex', title: 'Citace BibTeX' },
+      { href: citeJsonUrl, type: 'application/vnd.citationstyles.csl+json', title: 'Citace CSL JSON' },
+      ...(k?.iiifManifestUrl ? [{ href: k.iiifManifestUrl, type: 'application/ld+json;profile="http://iiif.io/api/presentation/3/context.json"', title: 'IIIF manifest' }] : []),
+    ],
   }}
 >
   <JsonLd data={kartaJsonLd} />
@@ -145,6 +187,26 @@ const kartaJsonLd = {
         </ul>
       </aside>
     )}
+
+    <aside class="karta-cite" aria-labelledby="karta-cite-h">
+      <p class="eyebrow karta-cite-label" id="karta-cite-h">Citovat tento předmět</p>
+      <p class="karta-cite-hint">
+        Stáhněte bibliografický záznam pro reference manager (Zotero, EndNote, BibTeX).
+        Sbírkový předmět je exportován jako generický záznam s inventárním číslem
+        a kanonickou URL.
+      </p>
+      <ul class="karta-cite-list">
+        <li><a href={citeRisUrl} download type="application/x-research-info-systems">RIS&nbsp;<span class="cite-ext">.ris</span></a></li>
+        <li><a href={citeBibUrl} download type="application/x-bibtex">BibTeX&nbsp;<span class="cite-ext">.bib</span></a></li>
+        <li><a href={citeJsonUrl} download type="application/vnd.citationstyles.csl+json">CSL&nbsp;JSON&nbsp;<span class="cite-ext">.json</span></a></li>
+        {k?.catalogPdfUrl && (
+          <li><a href={k.catalogPdfUrl} target="_blank" rel="noopener" type="application/pdf">Katalogový list&nbsp;<span class="cite-ext">PDF</span>&nbsp;↗</a></li>
+        )}
+        {k?.iiifManifestUrl && (
+          <li><a href={k.iiifManifestUrl} target="_blank" rel="noopener">IIIF manifest&nbsp;↗</a></li>
+        )}
+      </ul>
+    </aside>
 
     <footer class="karta-byline">
       <span class="byline-publisher">{entry.data.author ?? 'Český spolek horologický'}</span>
@@ -251,6 +313,55 @@ const kartaJsonLd = {
   }
   .vazane-clanky-list a:hover {
     border-color: var(--color-brass);
+  }
+
+  /* Citovat tento předmět — download box pro RIS/BibTeX/CSL JSON
+     + odkaz na PDF katalogového listu / IIIF manifest. */
+  .karta-cite {
+    margin: 2.5rem 0 1.5rem;
+    padding: 1rem 1.25rem;
+    background: color-mix(in srgb, var(--color-bg-deep) 88%, var(--color-brass));
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-left: 3px solid color-mix(in srgb, var(--color-brass) 60%, transparent);
+    border-radius: 2px;
+  }
+  .karta-cite-label { margin: 0 0 0.5rem; }
+  .karta-cite-hint {
+    margin: 0 0 0.85rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--color-text-soft);
+  }
+  .karta-cite-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .karta-cite-list a {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.35rem;
+    padding: 0.4rem 0.8rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 24%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--color-brass-bright);
+    font-size: 0.9rem;
+    transition: border-color 150ms ease, background 150ms ease;
+  }
+  .karta-cite-list a:hover {
+    border-color: var(--color-brass);
+    background: color-mix(in srgb, var(--color-bg-elevated) 80%, var(--color-brass));
+  }
+  .karta-cite-list .cite-ext {
+    font-family: var(--font-mono, ui-monospace, monospace);
+    font-size: 0.78rem;
+    color: var(--color-copper);
+    letter-spacing: 0.05em;
   }
 
   .karta-byline {

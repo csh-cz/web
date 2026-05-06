@@ -35,6 +35,16 @@ export interface CitationMeta {
   inventarniCislo?: string;
   /** Custom keywords (klíčová slova). */
   keywords?: string[];
+  /** Alternate representations stránky (citation exports, IIIF manifest, …).
+   *  Vyrenderuje se jako `<link rel="alternate" type="..." title="..." href="...">`
+   *  v <head>. Klienti (Zotero translator, citation managery) je mohou
+   *  číst a nabídnout uživateli download alternativního formátu. */
+  alternateLinks?: Array<{
+    rel?: string;       // default: 'alternate'
+    href: string;
+    type?: string;      // MIME type
+    title?: string;     // human-readable label
+  }>;
 }
 
 interface Props {
@@ -206,6 +216,17 @@ const orgJsonLd = isHome ? {
     {citationData.keywords && citationData.keywords.length > 0 && (
       <meta name="citation_keywords" content={citationData.keywords.join('; ')} />
     )}
+
+    {/* Alternate representations — Zotero translator a custom skripty
+        mohou nabídnout download RIS/BibTeX/CSL JSON přímo z <head>. */}
+    {citation?.alternateLinks?.map((l) => (
+      <link
+        rel={l.rel ?? 'alternate'}
+        href={l.href}
+        type={l.type}
+        title={l.title}
+      />
+    ))}
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
