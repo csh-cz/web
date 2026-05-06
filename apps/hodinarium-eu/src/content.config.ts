@@ -206,6 +206,21 @@ const clanky = defineCollection({
         stav: z.string().optional(),
         restaurovani: z.string().optional(),                // kdy + kdo + co
         adaptaceProVystavu: z.string().optional(),          // co bylo upraveno pro expozici
+        // === Materiály a multimediální zdroje ===
+        // Materiály z čeho je předmět vyroben — string ("ocelové pásnice")
+        // nebo array (multi-select v CMS: ["ocel", "litina", "mosaz"]).
+        // Renderer normalizuje na array. Použito v JSON-LD `material` a v
+        // citaci jako keywords.
+        materialy: z.union([z.string(), z.array(z.string())]).optional(),
+        // URL na PDF katalogového listu (např. scan archivního formuláře
+        // nebo plné restaurátorské zprávy). Zobrazí se jako ikon-link
+        // v karta detailu a propaguje se do citation_pdf_url meta tagu
+        // i CSL JSON / BibTeX.
+        catalogPdfUrl: z.string().optional(),
+        // IIIF Presentation API manifest URL — datový model je připravený
+        // do budoucna (tilíhle institucionální IIIF servery typu UDU/MZK).
+        // Zatím se jen render link „IIIF manifest" + image v JSON-LD.
+        iiifManifestUrl: z.string().url().optional(),
         // === Cokoli ostatní (rare/specific) ===
         extra: z
           .array(z.object({ label: z.string(), value: z.string() }))
