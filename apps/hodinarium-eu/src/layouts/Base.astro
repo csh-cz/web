@@ -375,10 +375,45 @@ const orgJsonLd = isHome ? {
           const data = await r.json();
           const bytes = Uint8Array.from(atob(data.content.replace(/\n/g, '')), (c) => c.charCodeAt(0));
           const text = new TextDecoder('utf-8').decode(bytes);
+
+          // editorNotes žijí v YAML frontmatter (---...---). Line-based parser:
+          //   1) Split na řádky
+          //   2) Najdi "editorNotes:" header
+          //   3) Sekce = lines až do prvního non-indented (jiný top-level klíč)
+          //   4) Položky = řádky začínající "  - " + jejich indentované continuation
+          //   5) Filtruj položku s daným noteKey, rebuild
+          const fmMatch = text.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+          if (!fmMatch) throw new Error('Žádný YAML frontmatter v souboru.');
+          const lines = fmMatch[1].split('\n');
+          const body = fmMatch[2];
+
+          const enStart = lines.findIndex((l) => /^editorNotes:\s*$/.test(l));
+          if (enStart < 0) throw new Error('Žádné editorNotes v frontmatter.');
+          let enEnd = lines.length;
+          for (let i = enStart + 1; i < lines.length; i++) {
+            if (/^\S/.test(lines[i])) { enEnd = i; break; }
+          }
+          const section = lines.slice(enStart + 1, enEnd);
+          const itemsArr = [];
+          for (const ln of section) {
+            if (/^  - /.test(ln)) itemsArr.push([ln]);
+            else if (itemsArr.length > 0) itemsArr[itemsArr.length - 1].push(ln);
+          }
           const escapedKey = noteKey.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
-          const re = new RegExp('<aside[^>]*data-note-key="' + escapedKey + '"[^>]*>[\\s\\S]*?</aside>\\s*', 'g');
-          const updated = text.replace(re, '');
-          if (updated === text) throw new Error('Blok data-note-key="' + noteKey + '" v souboru nenalezen.');
+          const noteKeyRe = new RegExp("noteKey:\\s*['\"]?" + escapedKey + "['\"]?\\s*$");
+          const kept = itemsArr.filter((it) => !it.some((ln) => noteKeyRe.test(ln)));
+          if (kept.length === itemsArr.length) {
+            throw new Error('noteKey "' + noteKey + '" nenalezen v editorNotes.');
+          }
+          let newLines;
+          if (kept.length === 0) {
+            newLines = [...lines.slice(0, enStart), ...lines.slice(enEnd)];
+          } else {
+            const newSection = kept.flat();
+            newLines = [...lines.slice(0, enStart + 1), ...newSection, ...lines.slice(enEnd)];
+          }
+          const updated = '---\n' + newLines.join('\n') + '\n---\n' + body;
+          if (updated === text) throw new Error('Frontmatter rebuild selhal — žádná změna.');
           const encBytes = new TextEncoder().encode(updated);
           let bin = ''; for (const b of encBytes) bin += String.fromCharCode(b);
           const put = await fetch(repoApi, {
