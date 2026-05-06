@@ -1,0 +1,933 @@
+{
+  "wiki": [
+    {
+      "title": "Bílá věž (Hradec Králové) — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/B%C3%ADl%C3%A1_v%C4%9B%C5%BE_(Hradec_Kr%C3%A1lov%C3%A9)",
+      "files": [
+        "content/soupis-veznich-hodin/1591-hradec-kralove-bila-vez-frejlich.mdx",
+        "content/soupis-veznich-hodin/1829-hradec-kralove-bila-vez-bozek.mdx"
+      ],
+      "count": 2,
+      "bestCand": "Bílá věž. Hradec Králové Asi patnáct kroků od hlavního chrámu naproti jeho severnímu bočnímu vchodu zdvihá se bílá věž p",
+      "bestScore": 0.19
+    },
+    {
+      "title": "Львівська ратуша — Wikipedia (UA).",
+      "author": "",
+      "year": "",
+      "url": "https://uk.wikipedia.org/wiki/%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D1%80%D0%B0%D1%82%D1%83%D1%88%D0%B0",
+      "files": [
+        "content/soupis-veznich-hodin/1829-lvov-radnice-videnska-polytechnika.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Kostel sv. Václava (Veliš) — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_V%C3%A1clava_(Veli%C5%A1)",
+      "files": [
+        "content/soupis-veznich-hodin/1880-velis-ulibice-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Kostel Sv. Mikuláše",
+      "bestScore": 0.28
+    },
+    {
+      "title": "Kostel svatého Jiří (Jenišovice) — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Ji%C5%99%C3%AD_(Jeni%C5%A1ovice)",
+      "files": [
+        "content/soupis-veznich-hodin/1882-jenisovice-u-turnova-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Kostel svatého Šimona a Judy v Ondřejově",
+      "bestScore": 0.32
+    },
+    {
+      "title": "Smidary — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Smidary",
+      "files": [
+        "content/soupis-veznich-hodin/1886-smidary-nad-cidlinou-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Bylany (Malé Březno) — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Bylany_(Mal%C3%A9_B%C5%99ezno)",
+      "files": [
+        "content/soupis-veznich-hodin/hellich-bylany-most-janata.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Hlohovec — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Hlohovec",
+      "files": [
+        "content/soupis-veznich-hodin/hellich-hlohovec-janata.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Karlovice (okres Bruntál) — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Karlovice_(okres_Brunt%C3%A1l)",
+      "files": [
+        "content/soupis-veznich-hodin/hellich-karlovice-bruntal-janata.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Pukanec — sk.wikipedia.org.",
+      "author": "",
+      "year": "",
+      "url": "https://sk.wikipedia.org/wiki/Pukanec",
+      "files": [
+        "content/soupis-veznich-hodin/hellich-pukanec-1-janata.mdx",
+        "content/soupis-veznich-hodin/hellich-pukanec-2-janata.mdx"
+      ],
+      "count": 2,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Bečváry (starý zámek) — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Be%C4%8Dv%C3%A1ry_(star%C3%BD_z%C3%A1mek)",
+      "files": [
+        "content/soupis-veznich-hodin/nedatovano-becvary-landesberger.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Burg Raabs an der Thaya — Wikipedia (DE).",
+      "author": "",
+      "year": "",
+      "url": "https://de.wikipedia.org/wiki/Burg_Raabs_an_der_Thaya",
+      "files": [
+        "content/soupis-veznich-hodin/nedatovano-raabs-an-der-thaya-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Raabs an der Thaya — Wikipedie.",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Raabs_an_der_Thaya",
+      "files": [
+        "content/soupis-veznich-hodin/nedatovano-raabs-an-der-thaya-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    }
+  ],
+  "web_with_url": [
+    {
+      "title": "František Josef Gerstner",
+      "author": "",
+      "year": "",
+      "url": "https://cs.wikipedia.org/wiki/Franti%C5%A1ek_Josef_Gerstner",
+      "files": [
+        "content/hodinari/franz-joseph-gerstner.mdx"
+      ],
+      "count": 1,
+      "bestCand": "František Josef Studnička",
+      "bestScore": 0.45
+    },
+    {
+      "title": "Hodinové stroje Jana Janaty z Poděbrad — Hodinářství Jan Marek",
+      "author": "",
+      "year": "",
+      "url": "http://www.veznihodiny.cz/mukaz8.htm",
+      "files": [
+        "content/hodinari/jan-janata.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Hodinové stroje III",
+      "bestScore": 0.21
+    },
+    {
+      "title": "Životopis hodináře Jana Janaty",
+      "author": "",
+      "year": "",
+      "url": "http://www.veznihodiny.cz/janata.htm",
+      "files": [
+        "content/hodinari/jan-janata.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Unikátní věžní hodiny čeká oprava.",
+      "author": "",
+      "year": "2010",
+      "url": "https://klatovsky.denik.cz/zpravy_region/unikatni-vezni-hodiny-ceka-oprava20100525.html",
+      "files": [
+        "content/soupis-veznich-hodin/1898-hradesice-krecmer.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Bylany (zanikleobce.cz).",
+      "author": "",
+      "year": "",
+      "url": "https://www.zanikleobce.cz/index.php?obec=251",
+      "files": [
+        "content/soupis-veznich-hodin/hellich-bylany-most-janata.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Zaniklé obce — Bylany. Statutární město Most.",
+      "author": "",
+      "year": "",
+      "url": "https://www.mesto-most.cz/zanikle-obce-bylany/d-48731",
+      "files": [
+        "content/soupis-veznich-hodin/hellich-bylany-most-janata.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Zaniklé orloje v Čechách",
+      "bestScore": 0.22
+    },
+    {
+      "title": "Bečváry — starý zámek (Cesty a památky).",
+      "author": "",
+      "year": "",
+      "url": "https://www.cestyapamatky.cz/kolinsko/becvary/stary-zamek",
+      "files": [
+        "content/soupis-veznich-hodin/nedatovano-becvary-landesberger.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    }
+  ],
+  "web_no_url": [],
+  "bibliographic_full": [
+    {
+      "title": "Rakousko-uherské privilegium č. 5963/1895 — Astronomische Uhr",
+      "author": "Edmund Kinsner",
+      "year": "1895",
+      "url": "https://privilegien.patentamt.at/image/1895_005963/1/",
+      "files": [
+        "content/hodinarium-eu/kinsner-astronomicke-hodiny.mdx",
+        "content/hodinari/edmund-kinsner.mdx"
+      ],
+      "count": 2,
+      "bestCand": "Rakousko-uherský patent č. 1895/5963 — privilegium",
+      "bestScore": 0.44
+    },
+    {
+      "title": "Renovace věžních hodin na evangelickém kostele v Hrobech",
+      "author": "Ladislav Faigl",
+      "year": "1998",
+      "url": "",
+      "files": [
+        "content/hodinari/bernhard-zacharia.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Posvátná místa král. hl. města Prahy",
+      "author": "Antonín Podlaha",
+      "year": "1916",
+      "url": "",
+      "files": [
+        "content/hodinari/frantisek-eisgruber.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Posvátná místa král. hl. města Prahy: Dějiny a popsání chrámů, kaplí, posvátných soch, klášterů i jiných pomníků katolické víry a nábožnosti v hlavním městě království Českého",
+      "bestScore": 0.14
+    },
+    {
+      "title": "Pražská radnice za 1750–1850",
+      "author": "Václav Vojtíšek",
+      "year": "1919",
+      "url": "",
+      "files": [
+        "content/hodinari/frantisek-eisgruber.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Pražská staroměstská radnice vzpomíná",
+      "bestScore": 0.35
+    },
+    {
+      "title": "Meister der Uhrmacherkunst",
+      "author": "Jürgen Abeler",
+      "year": "2010",
+      "url": "",
+      "files": [
+        "content/hodinari/frantisek-eisgruber.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Meister der Uhrmacherkunst: über 20000 Uhrmacher aus dem deutschen Sprachgebiet mit Lebens- oder Wirkungsdaten und einem Verzeichnis ihrer dem Autor bekannten Werke",
+      "bestScore": 0.41
+    },
+    {
+      "title": "Příspěvek k slovníku umělců a uměleckých řemeslníků z Poděbradska",
+      "author": "Jan Hellich",
+      "year": "1917",
+      "url": "",
+      "files": [
+        "content/hodinari/jan-janata.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Příspěvek k stavbě Lounského kostela",
+      "bestScore": 0.24
+    },
+    {
+      "title": "Hodinářství v českých zemích — soubor článků",
+      "author": "Petr Hartman",
+      "year": "1987",
+      "url": "",
+      "files": [
+        "content/hodinari/jan-prokes-jr.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Hodinářství a hodináři v českých zemích",
+      "bestScore": 0.28
+    },
+    {
+      "title": "Cast Iron Tower Clockworks",
+      "author": "David Knespl",
+      "year": "2024",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1810-praha-polytechnika-bozek.mdx",
+        "content/soupis-veznich-hodin/1834-brno-stara-radnice-luz.mdx",
+        "content/soupis-veznich-hodin/1834-brno-tovarna-luz.mdx",
+        "content/soupis-veznich-hodin/1834-vanovice-luz.mdx"
+      ],
+      "count": 4,
+      "bestCand": "Cast Iron Tower Clockworks Manufacturing and the Role of Prague Polytechnic",
+      "bestScore": 0.54
+    },
+    {
+      "title": "Závěrečná zpráva o restaurování věžních hodin zámku Bečváry",
+      "author": "Petr Skála (s Melanií Skálovou)",
+      "year": "2003",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/nedatovano-becvary-landesberger.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Závěrečná zpráva o restaurování věžních hodin zámku Dobříš",
+      "bestScore": 0.62
+    }
+  ],
+  "bibliographic_partial": [
+    {
+      "title": "ROHN, J.C. Chronic vormals böhmischer Kron-Lehen, nunmehro ins Allodium gezohener zweyer Städten Friedland, und Reichenberg, ... [online]. Pruschin, 1763. Dostupné z:",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1756-liberec-landesberger-s.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Mittheilungen des Vereins für Geschichte der Deutschen in Böhmen. Prag: Druck der k.k. Hofbuchdruckerei von Gottlieb Haase Söhne, 1917, 55(4), s. 245. Dostupné také z:",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1763-karlovy-vary-landesberger-s.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Mittheilungen des Vereins für Geschichte der Deutschen in Böhmen",
+      "bestScore": 0.29
+    },
+    {
+      "title": "Gegossene Thurm Uhren",
+      "author": "",
+      "year": "1810",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1810-komarov-bozek.mdx",
+        "content/soupis-veznich-hodin/1810-praha-polytechnika-bozek.mdx",
+        "content/soupis-veznich-hodin/1810-vienna-imperial-collection-bozek.mdx"
+      ],
+      "count": 3,
+      "bestCand": "Gegossene eiserne Thurmuhren",
+      "bestScore": 0.57
+    },
+    {
+      "title": "Gusseiserne Thurmuhren von Mechanikus Luz",
+      "author": "",
+      "year": "1834",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1834-brno-tovarna-luz.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Gusseiserne Thurmuhren von Mechanikus Luz in Schlappanitz, bei Brün",
+      "bestScore": 0.53
+    },
+    {
+      "title": "KNESPL, David. Romuald Božek. Die neue Stadtuhr (Nové městské hodiny). Zpravodaj Společnosti přátel starožitných hodin. 2024, č. 39, s. 59–80, biografická medailonka Summereckera s. 26.",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1846-horni-brusnice-summerecker.mdx",
+        "content/soupis-veznich-hodin/1847-praha-klarov-summerecker.mdx",
+        "content/soupis-veznich-hodin/1848-chomutov-summerecker.mdx",
+        "content/soupis-veznich-hodin/1848-marianske-lazne-summerecker.mdx",
+        "content/soupis-veznich-hodin/1859-praha-staromestska-vodarna-summerecker.mdx",
+        "content/soupis-veznich-hodin/1861-bystritz-summerecker.mdx",
+        "content/soupis-veznich-hodin/1866-trutnov-summerecker.mdx",
+        "content/soupis-veznich-hodin/1871-praha-loreta-summerecker-oprava.mdx",
+        "content/soupis-veznich-hodin/berezany-summerecker.mdx",
+        "content/soupis-veznich-hodin/bezno-summerecker.mdx",
+        "content/soupis-veznich-hodin/ostrov-u-jachymova-summerecker.mdx",
+        "content/soupis-veznich-hodin/totmegyer-palarikovo-summerecker.mdx"
+      ],
+      "count": 12,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "KNESPL, David. Progress versus tradition – traditional craftsmanship and attempts at industrial tower clock production in the Czech lands in the 19th century. *Acta Polytechnica*. 2024, roč. 64, č. 3, s. 237–245, pozn. 11.",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1848-chomutov-summerecker.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "PROCHÁZKA, Karel, 1864. Prokšův vzorek starobylých hodin Starého města Pražského. Prumyslnik. 1(10). Kronika obce Loukov",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1848-loukov-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "KNESPL, David. Romuald Božek. Die neue Stadtuhr (Nové městské hodiny). *Zpravodaj Společnosti přátel starožitných hodin*. 2024, č. 39, s. 59–80, biografická medailonka Summereckera s. 26.",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1850-brezno-u-chomutova-summerecker.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "K. Samšiňák, zpravodaj památkové péče",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1853-liban-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Skála, \\\"Hodiny pověžní\\\" 1878, in Památní kniha obce skalské",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1857-skalsko-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Skála - 2014 - Zodiak pražského orloje z roku 1865.pdf",
+      "bestScore": 0.14
+    },
+    {
+      "title": "Boleslavan 1860, Sborník NTM 1976",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1858-sychrov-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Boleslavan: časopis naučný a zábavný pro lid Českoslovanský",
+      "bestScore": 0.19
+    },
+    {
+      "title": "Skála, Pamětní kniha obce Vosecké 1922",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1860-osek-u-sobotky-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Skála - 2014 - Zodiak pražského orloje z roku 1865.pdf",
+      "bestScore": 0.21
+    },
+    {
+      "title": "Dokumenty z báně radniční věžičky",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1864-rozdalovice-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "dokumentynarodni_standard_formatu_pro_archivaci.pdf",
+      "bestScore": 0.22
+    },
+    {
+      "title": "ŠPLÍCHAL 1902, Paměti obce Vršovické",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1866-vrsovice-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Staletá Praha: památky pražského venkova: sborník Pražského ústavu státní památkové péče a ochrany přírody. (1990). Czechia: Panorama.",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1876-praha-krecmer-2.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "SAMŠIŇÁK, K. (in:) STRÁNÍKOVÁ 2010.",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1880-velis-ulibice-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "sdělení Petra Skály e-mailem 9. 2. 2023",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1881-praha-krecmer.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "FECHTNER, Karl. Aus Langenau. Mitteilungen des Nordböhmischen Vereines für Heimatforschung und Wanderpflege. 1900, roč. 23, s. 199. — kontext: dopis faráře J. Rathauského z Langenau, kde Prokeš podle vlastního podání tehdy postavil hodiny **na novém českolipském gymnáziu**, odkud byl pozván do Skalice.",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1882-ceska-lipa-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "MAREK, [autor]: Restaurátorská zpráva, [neuvedeno místo a rok].",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1882-jenisovice-u-turnova-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "RATHAUSKY, Jos. (kněz v Langenau). Die neue Thurmuhr in Langenau und die Lebensgeschichte des Ferdinand Gerner. Dopis publikován in: FECHTNER, Karl. Aus Langenau. Mitteilungen des Nordböhmischen Vereines für Heimatforschung und Wanderpflege. 1900, roč. 23, s. 199.",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1882-skalice-u-ceske-lipy-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Eine gute Thurmuhr. Bohemia: ein Unterhaltungsblatt (Beilage zur Bohemia). 1889, 62(58), 1.",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1884-praha-krecmer-2.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Eine horizontale Tischuhr von Jacob Zech, Prag 1527: eine Neuerwerbung des Staatlichen Mathematisch-physikalischen Salons Dresden",
+      "bestScore": 0.2
+    },
+    {
+      "title": "Acta Musei nationalis technici Pragae. Praha: NTM, 1976, s. 76.",
+      "author": "",
+      "year": "1976",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1892-praha-krecmer.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Acta Musei nationalis technici Pragae",
+      "bestScore": 0.55
+    },
+    {
+      "title": "STUPKA, Josef. Historie kralupského průmyslu, řemesel a živností. Kozomín]: Akvarel, 2008, s. 92. ISBN 978-80-254-3386-7. Dostupné také z:",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1895-kralupy-nad-vltavou-krecmer.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Čech: politický týdenník katolický. Praha: Antonín Schmitt, 09.01.1908, 33(8), s. 4. Dostupné také z:",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1907-rabi-krecmer.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Čechy: Společnou prací spisovatelův a umělcu českých vede Fr. Ad. Šubert",
+      "bestScore": 0.18
+    },
+    {
+      "title": "HIMMLER, [autor]. [Název]. 2019.",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/nedatovano-raabs-an-der-thaya-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    }
+  ],
+  "fragment": [
+    {
+      "title": "füstenberský archiv Křivoklát",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1752-lany-landesberger-s.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Boleslavan 1860",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1860-josefuv-dul-u-kosmonos-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Boleslavan: časopis naučný a zábavný pro lid Českoslovanský",
+      "bestScore": 0.13
+    },
+    {
+      "title": "K. Samšiňák",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1861-sobotka-prokes-2.mdx",
+        "content/soupis-veznich-hodin/1861-sobotka-prokes.mdx"
+      ],
+      "count": 2,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Národní listy 15.5.1866",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1866-mlada-boleslav-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "NÁRODNÍ LISTY 1866.",
+      "bestScore": 0.55
+    },
+    {
+      "title": "Bad Wartenberg 1871",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1867-turnov-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Bad Wartenberg auf Groß-Skal und seine Umgebung: Mit einem Panorama, 9 Abbildungen und einem Reisekärtchen",
+      "bestScore": 0.1
+    },
+    {
+      "title": "Blahověst 15.10.1868",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1868-nova-ves-u-chotebore-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Blahověst",
+      "bestScore": 0.32
+    },
+    {
+      "title": "SKÁLA, Popis věžních hodin",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1872-cerny-dul-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Skála - 2014 - Zodiak pražského orloje z roku 1865.pdf",
+      "bestScore": 0.18
+    },
+    {
+      "title": "Kronika Dolnohbitska, Velas",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1872-dolni-hbity-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "KroniKa a drobné památKy velišsKé farnosti",
+      "bestScore": 0.3
+    },
+    {
+      "title": "Skála, Kronika města Bakov",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1873-bakov-nad-jizerou-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Skála - 2014 - Zodiak pražského orloje z roku 1865.pdf",
+      "bestScore": 0.18
+    },
+    {
+      "title": "JANOUŠEK 1889",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1874-jicin-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "K. Samšiňák, BOREK",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1874-rokycany-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "RESSEL 1878",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1875-polubny-polaun-korenov-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Archiv hl. m. Prahy",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1879-praha-krecmer.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Archiv český",
+      "bestScore": 0.33
+    },
+    {
+      "title": "Ověřit zda 500 nebo 700 zl.",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1880-horice-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Kronika obce Jenišovice.",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1882-jenisovice-u-turnova-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Kronika obce - Oficiální stránky obce Ondřejov",
+      "bestScore": 0.29
+    },
+    {
+      "title": "Kronika obce Skalice.",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1882-skalice-u-ceske-lipy-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Kronika obce - Oficiální stránky obce Ondřejov",
+      "bestScore": 0.29
+    },
+    {
+      "title": "Skála, Šmerda",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1883-zdetin-prokes-josef.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Skála - 2014 - Zodiak pražského orloje z roku 1865.pdf",
+      "bestScore": 0.14
+    },
+    {
+      "title": "BENEŠOVÁ 2000",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1884-studenec-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    },
+    {
+      "title": "Skála, Mazur, Marek",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1887-bosin-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Skála - 2014 - Zodiak pražského orloje z roku 1865.pdf",
+      "bestScore": 0.17
+    },
+    {
+      "title": "Skála, Marek",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1891-chroustov-prokes-jr.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Skála - 2014 - Zodiak pražského orloje z roku 1865.pdf",
+      "bestScore": 0.14
+    },
+    {
+      "title": "Skála, Pamatkovy katalog",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/1894-jablonec-nad-jizerou-prokes-jr.mdx"
+      ],
+      "count": 1,
+      "bestCand": "Skála - 2014 - Zodiak pražského orloje z roku 1865.pdf",
+      "bestScore": 0.17
+    },
+    {
+      "title": "Hlas od Loučné 1883",
+      "author": "",
+      "year": "",
+      "url": "",
+      "files": [
+        "content/soupis-veznich-hodin/nedatovano-vysoke-myto-prokes.mdx"
+      ],
+      "count": 1,
+      "bestCand": null,
+      "bestScore": 0
+    }
+  ]
+}
