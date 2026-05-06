@@ -26,10 +26,7 @@ const categoryLabelsForClient = Object.fromEntries(
 <dialog id="search-modal" aria-label="Vyhledávání">
   <div class="search-modal-inner">
     <div class="search-input-wrap">
-      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
-        <circle cx="11" cy="11" r="7"/>
-        <path d="m20 20-3.5-3.5" stroke-linecap="round"/>
-      </svg>
+      <i class="fa-solid fa-magnifying-glass search-icon" aria-hidden="true"></i>
       <input
         id="search-input"
         type="search"
@@ -42,12 +39,12 @@ const categoryLabelsForClient = Object.fromEntries(
     </div>
     <div class="search-mode-tabs" role="tablist" aria-label="Režim vyhledávání">
       <button data-mode="keyword" class="search-mode-tab is-active" role="tab" aria-selected="true">
-        <span class="mode-icon" aria-hidden="true">⌖</span>
+        <i class="fa-solid fa-bullseye mode-icon" aria-hidden="true"></i>
         <span class="mode-label">Klíčová slova</span>
         <span class="mode-hint">přesná shoda</span>
       </button>
       <button data-mode="semantic" class="search-mode-tab" role="tab" aria-selected="false">
-        <span class="mode-icon" aria-hidden="true">∼</span>
+        <i class="fa-solid fa-wand-magic-sparkles mode-icon" aria-hidden="true"></i>
         <span class="mode-label">Sémanticky</span>
         <span class="mode-hint">významem</span>
       </button>
@@ -95,8 +92,7 @@ const categoryLabelsForClient = Object.fromEntries(
     background: var(--color-bg-deep);
   }
   .search-icon {
-    width: 22px;
-    height: 22px;
+    font-size: 1.2rem;
     color: var(--color-brass);
     flex-shrink: 0;
   }
@@ -401,7 +397,7 @@ const categoryLabelsForClient = Object.fromEntries(
       const meta = it.meta ?? '';
       const thumb = it.thumb
         ? `<div class="search-result-thumb"><img src="${it.thumb}" alt="" loading="lazy" /></div>`
-        : `<div class="search-result-thumb"><div class="search-result-thumb-placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" width="24" height="24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round"/></svg></div></div>`;
+        : `<div class="search-result-thumb"><div class="search-result-thumb-placeholder"><i class="fa-solid fa-clock" aria-hidden="true" style="font-size: 1.5rem;"></i></div></div>`;
       const scoreBadge = typeof it.score === 'number'
         ? `<span class="search-result-score" title="Sémantická podobnost (0–1)">${it.score.toFixed(2)}</span>`
         : '';
