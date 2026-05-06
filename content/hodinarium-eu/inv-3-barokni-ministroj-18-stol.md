@@ -1,28 +1,34 @@
 ---
-title: "barokní ministroj  18. stol."
-slug: "inv-3-barokni-ministroj-18-stol"
-category: "sbirka"
-podsekce: "karta"
-originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
-lastModified: null
-sourceCharset: "utf-8"
-scrapedAt: "2026-04-30T04:12:37.520Z"
-manualEdit: true
-author: "Český spolek horologický"
+title: Barokní ministroj  18. stol.
+slug: inv-3-barokni-ministroj-18-stol
+category: sbirka
+podsekce: karta
+karta:
+  inventarniCislo: '3'
+  datace: ''
+  signatura: ''
+  biciStroje:
+    - hodinové
+  kyvadlo: ~90 cm
+  ciselnik: ''
+  pohonDetail: ''
+  rozmery: ''
+  umisteni: Hlavní sál
+  majitel: zápůjčka
+  darceZapujcitel: ''
+  vztahKeSbirce: zápůjčka
+  pridanoDoSbirky: '2011'
+  stav: funkční
+  adaptaceProVystavu: Kola jsou železná, s výjimkou nepůvodního mosazného krokového kola a mezikola čtvrťového bití.
 tags:
   - hlavni-sal
   - funkcni
-karta:
-  inventarniCislo: "3"
-  umisteni: "Hlavní sál"
-  pridanoDoSbirky: "2011"
-  majitel: "zápůjčka"
-  vztahKeSbirce: "zápůjčka"
-  stav: "funkční"
-  biciStroje: "hodinové"
-  kyvadlo: "~90 cm"
-  adaptaceProVystavu: "Kola jsou železná, s výjimkou nepůvodního mosazného krokového kola a mezikola čtvrťového bití."
-  darceZapujcitel: ""
+author: Český spolek horologický
+manualEdit: true
+originalUrl: https://hodinarium-eu.pages.dev/sbirka/katalog
+lastModified: null
+sourceCharset: utf-8
+scrapedAt: 2026-04-30T04:12:37.520Z
 ---
 
 Tento barokní kovaný čtvrťový stroj pochází snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách. Malé rozměry stroje postačovaly pro pohon jednoho ciferníku.
