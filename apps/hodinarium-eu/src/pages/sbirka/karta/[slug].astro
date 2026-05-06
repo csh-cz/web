@@ -112,6 +112,11 @@ const kartaJsonLd = {
   description={`Evidenční karta sbírkového předmětu — inv. č. ${entry.data.karta?.inventarniCislo ?? '?'}`}
   cmsEditUrl={`/admin/#/collections/karty/entries/${entry.data.slug}`}
   citation={{
+    /* Sbírkový předmět NENÍ článek — Zotero connector to musí uložit
+       jako Web Page (přes DC.* meta), ne jako Journal Article. Bez
+       tohoto override Highwire `citation_journal_title` + `citation_volume`
+       triggerují Zotero journalArticle detection. */
+    itemType: 'webpage',
     title: entry.data.title,
     author: entry.data.karta?.vyrobce || entry.data.author || undefined,
     date: typeof entry.data.lastModified === 'string' ? entry.data.lastModified : undefined,

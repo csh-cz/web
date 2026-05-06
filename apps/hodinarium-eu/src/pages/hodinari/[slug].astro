@@ -144,6 +144,10 @@ const personJsonLd = hodinar.typ === 'osoba'
   description={hodinar.shrnuti}
   cmsEditUrl={`/admin/#/collections/hodinari/entries/${hodinar.slug}`}
   citation={{
+    /* Medailon hodináře = encyklopedická stránka, ne journalArticle.
+       Bez itemType=webpage by Zotero podle citation_journal_title
+       force-mapoval na Journal Article. */
+    itemType: 'webpage',
     title: `${hodinar.jmeno} — ${hodinar.typ === 'osoba' ? 'biografie hodináře' : 'medailon hodinářské firmy'}`,
     journalTitle: 'Hodinárium — Hodináři',
     keywords: [

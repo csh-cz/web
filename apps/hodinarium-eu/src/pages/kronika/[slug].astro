@@ -55,6 +55,9 @@ const typLabels: Record<string, string> = {
   description={entry.data.title}
   cmsEditUrl={`/admin/#/collections/kronika/entries/${entry.data.slug}`}
   citation={{
+    /* Záznam v kronice = blog post / event report, ne journalArticle.
+       Web Page je pro Zotero správný typ — bez nátlaku přes citation_volume. */
+    itemType: 'webpage',
     title: entry.data.title,
     author: entry.data.author || undefined,
     date: entry.data.date || (entry.data.rok ? `${entry.data.rok}-01-01` : undefined),

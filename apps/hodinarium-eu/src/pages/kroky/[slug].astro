@@ -24,6 +24,8 @@ const related = krok.relatedSlugs
   title={`${krok.jmeno} — hodinový krok`}
   description={krok.shrnuti}
   citation={{
+    /* Profil hodinového kroku = referenční stránka, ne journalArticle. */
+    itemType: 'webpage',
     title: `${krok.jmeno} — hodinový krok`,
     journalTitle: 'Hodinárium — Hodinové kroky',
     keywords: [
