@@ -9,11 +9,11 @@ originalUrl: "https://hodinarium.eu/gobelin.htm"
 lastModified: "Wed, 26 Apr 2017 14:07:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:59.134Z"
-tldr: 'Trpaslík a jeho rýč-
-prý že je to leda kýč,
-jak ale odpovědět na otázku -
-co jsou
-hodiny vyšívané na zakázku ?'
+tldr: |
+  Trpaslík a jeho rýč-
+  prý že je to leda kýč,
+  jak ale odpovědět na otázku -
+  co jsou hodiny vyšívané na zakázku ??
 ---
 \- hodiny jedna báseň ??
 
