@@ -863,41 +863,90 @@ body[data-editor-mode] [data-editor-only] {
   display: block;
 }
 
-/* Floating "Upravit v CMS" tlačítko na detail stránkách (článek/karta/medailon).
-   Fixní pravý dolní roh, mírné odhlučnění aby nerušilo čtení. */
-.cms-edit-fab {
+/* ─── Floating Action Buttons ─────────────────────────────────────────
+ * Sjednocený FAB pattern. Stackují se vertikálně v `.fab-stack`
+ * containeru (pravý dolní roh). Každý FAB sám už nemá positioning —
+ * stack drží layout, FABs jsou inline-flex pills.
+ *
+ * Variants:
+ *   .fab--primary    — brass pill (default — Upravit v CMS)
+ *   .fab--secondary  — outlined kontrast (Nahlásit problém)
+ *
+ * Použití (HTML):
+ *   <div class="fab-stack">
+ *     <a class="fab fab--primary"><i class="fa-solid fa-pen"></i><span>Upravit</span></a>
+ *     <button class="fab fab--secondary"><i class="fa-solid fa-bug"></i><span>Nahlásit</span></button>
+ *   </div>
+ *
+ * Stack je hidden default (anon návštěvníci ho nevidí). Hydrate JS
+ * v Base.astro nastaví body[data-editor-mode] → CSS odhalí stack.
+ */
+.fab-stack {
   position: fixed;
   bottom: 1.25rem;
   right: 1.25rem;
   z-index: 50;
+  display: none;
+  flex-direction: column-reverse;  /* primary FAB dole, sekundární nad */
+  gap: 0.6rem;
+  align-items: flex-end;
+}
+body[data-editor-mode] .fab-stack {
+  display: flex;
+}
+.fab {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
   padding: 0.6rem 1rem;
-  background: var(--color-brass);
-  color: var(--color-bg);
-  text-decoration: none !important;
-  border: 1px solid var(--color-brass-bright);
   border-radius: 2rem;
   font-family: var(--font-serif);
   font-size: 0.9rem;
   font-weight: 500;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  cursor: pointer;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   opacity: 0.85;
   transition: all 200ms ease;
-  border-bottom: none !important;
+  white-space: nowrap;
 }
-.cms-edit-fab:hover {
-  background: var(--color-brass-bright);
+.fab:hover {
   opacity: 1;
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
 }
-.cms-edit-fab svg {
+.fab i,
+.fab svg {
   flex-shrink: 0;
+  font-size: 1rem;
 }
+.fab--primary {
+  background: var(--color-brass);
+  color: var(--color-bg);
+  border: 1px solid var(--color-brass-bright);
+}
+.fab--primary:hover {
+  background: var(--color-brass-bright);
+}
+.fab--secondary {
+  background: var(--color-bg-elevated);
+  color: var(--color-brass-bright);
+  border: 1px solid color-mix(in srgb, var(--color-brass) 45%, transparent);
+}
+.fab--secondary:hover {
+  background: color-mix(in srgb, var(--color-bg-elevated) 70%, var(--color-brass));
+  border-color: var(--color-brass);
+}
+
+/* Legacy alias — aby existující JS kód s `cms-edit-fab` class jméno
+   stále fungoval (Base.astro inline script). */
+.cms-edit-fab {
+  /* Visual = .fab.fab--primary; class jen mark-and-style alias. */
+}
+
 @media print {
-  .cms-edit-fab, #admin-badge-slot, #admin-redakce-slot, #admin-logout-slot { display: none !important; }
+  .fab-stack, #admin-badge-slot, #admin-redakce-slot, #admin-logout-slot { display: none !important; }
 }
 
 /* Hamburger menu rozbalovací box */

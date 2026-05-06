@@ -278,7 +278,19 @@ const orgJsonLd = isHome ? {
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" />
+    {/* Font Awesome 6 Free — sjednocený icon set napříč celou aplikací.
+        Cachovaný cdnjs (Cloudflare), takže preconnect + integrity check.
+        Použití: <i class="fa-solid fa-bug" aria-hidden="true"></i>
+        Ikon set: solid (free) + brands. Regular vyžaduje Pro license. */}
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>{fullTitle}</title>
     {orgJsonLd && (
       <script is:inline type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />
@@ -310,10 +322,7 @@ const orgJsonLd = isHome ? {
           <li><a href="/en" class="nav-en nav-link" aria-label="English summary" hreflang="en" lang="en">EN</a></li>
           <li>
             <button data-search-trigger class="nav-search-btn" aria-label="Vyhledávat (Cmd+K)">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" width="18" height="18">
-                <circle cx="11" cy="11" r="7"/>
-                <path d="m20 20-3.5-3.5" stroke-linecap="round"/>
-              </svg>
+              <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
               <kbd class="hidden lg:inline">⌘K</kbd>
             </button>
           </li>
@@ -321,7 +330,9 @@ const orgJsonLd = isHome ? {
             <!-- Admin: rychlý odkaz na redakční přehled (jen pro přihlášené editory) -->
             <a href="/redakce/" class="admin-mini-link"
                aria-label="Redakční přehled — co potřebuje review"
-               title="Redakční přehled — co potřebuje review">↻</a>
+               title="Redakční přehled — co potřebuje review">
+              <i class="fa-solid fa-arrows-rotate" aria-hidden="true"></i>
+            </a>
           </li>
           <li id="admin-logout-slot" class="hidden">
             <!-- Odhlášení z CF Access. Endpoint /cdn-cgi/access/logout je
@@ -332,11 +343,7 @@ const orgJsonLd = isHome ? {
             <a href="/cdn-cgi/access/logout" class="admin-mini-link admin-logout-link"
                aria-label="Odhlásit z editor režimu (Cloudflare Access)"
                title="Odhlásit z editor režimu — zahodí Cloudflare Access session">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true">
-                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
-                <polyline points="16 17 21 12 16 7"/>
-                <line x1="21" y1="12" x2="9" y2="12"/>
-              </svg>
+              <i class="fa-solid fa-right-from-bracket" aria-hidden="true"></i>
             </a>
           </li>
           <li id="admin-badge-slot">
@@ -358,10 +365,7 @@ const orgJsonLd = isHome ? {
               <span id="admin-badge-initial" aria-hidden="true">
                 <!-- Anon stav: tužka (stejná jako na "Upravit" FAB).
                      Authed stav: JS přepíše obsah na první písmeno emailu. -->
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true">
-                  <path d="M12 20h9"/>
-                  <path d="M16.5 3.5a2.121 2.121 0 1 1 3 3L7 19l-4 1 1-4 12.5-12.5z"/>
-                </svg>
+                <i class="fa-solid fa-pen" aria-hidden="true"></i>
               </span>
             </a>
           </li>
@@ -369,9 +373,7 @@ const orgJsonLd = isHome ? {
 
         <details class="md:hidden relative">
           <summary class="list-none cursor-pointer p-2 -m-2 select-none" aria-label="Otevřít menu">
-            <svg class="h-6 w-6 text-[var(--color-brass-bright)]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
+            <i class="fa-solid fa-bars" style="font-size: 1.25rem; color: var(--color-brass-bright);" aria-hidden="true"></i>
           </summary>
           <ul class="mobile-menu absolute right-0 top-full mt-2 w-72 py-1">
             <!-- Hlavní (drží se synchronizované s desktop top nav) -->
@@ -642,21 +644,25 @@ const orgJsonLd = isHome ? {
           const logoutSlot = document.getElementById('admin-logout-slot');
           if (logoutSlot) logoutSlot.classList.remove('hidden');
 
-          // Floating edit button (jen na editovatelných stránkách)
+          // Floating edit button (jen na editovatelných stránkách).
+          // Inject do .fab-stack containeru (renderuje ho ReportIssueModal).
+          // Když není data-cms-edit-url, jen Nahlásit problém zůstane sám.
           const editUrl = document.body.getAttribute('data-cms-edit-url');
           if (editUrl) {
-            const btn = document.createElement('a');
-            btn.href = editUrl;
-            btn.className = 'cms-edit-fab';
-            btn.setAttribute('aria-label', 'Upravit tuto stránku v CMS');
-            btn.innerHTML =
-              '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" width="18" height="18">' +
-              '<path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 1 1 3 3L7 19l-4 1 1-4 12.5-12.5z"/>' +
-              '</svg><span>Upravit</span>';
-            btn.addEventListener('click', () => {
-              try { sessionStorage.setItem('cms-return-url', window.location.href); } catch {}
-            });
-            document.body.appendChild(btn);
+            const stack = document.querySelector('.fab-stack');
+            if (stack) {
+              const btn = document.createElement('a');
+              btn.href = editUrl;
+              btn.className = 'fab fab--primary cms-edit-fab';
+              btn.setAttribute('aria-label', 'Upravit tuto stránku v CMS');
+              btn.innerHTML = '<i class="fa-solid fa-pen" aria-hidden="true"></i><span>Upravit</span>';
+              btn.addEventListener('click', () => {
+                try { sessionStorage.setItem('cms-return-url', window.location.href); } catch {}
+              });
+              // Primary FAB dole — appendChild dá ho na konec, ale stack
+              // má `flex-direction: column-reverse`, takže vizuálně skončí dole.
+              stack.appendChild(btn);
+            }
           }
         } catch (e) {
           // Tichá chyba — anonymous návštěvníci nemají session, je to OK.
