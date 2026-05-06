@@ -23,20 +23,64 @@ export async function getStaticPaths() {
   const medailony = await getCollection('hodinari');
   const medailonySlugs = new Set(medailony.map((m) => m.id));
 
+  // Karta sbírky exponátů — filtrujeme jen evidenční karty (podsekce 'karta')
+  const allClanky = await getCollection('clanky');
+  const kartySbirky = allClanky.filter(
+    (e) => e.data.category === 'sbirka' && e.data.podsekce === 'karta',
+  );
+  // Soupis věžních hodin — full collection
+  const allSoupis = await getCollection('soupis-veznich-hodin');
+
   return hodinari.map((h) => {
     const medailon = medailony.find((m) => m.id === h.slug);
+
+    // Match karta.vyrobce proti jmeno + aliasy (case-insensitive substring).
+    // Aliases jako "Janata", "L. Hainz" pokryjí různé formy v karta.vyrobce.
+    const candidates = [h.jmeno, ...(h.aliasy ?? [])]
+      .map((s) => s.toLowerCase().normalize('NFC'))
+      .filter(Boolean);
+    const matchedKarty = kartySbirky.filter((k) => {
+      const v = (k.data as { karta?: { vyrobce?: string } }).karta?.vyrobce;
+      if (!v) return false;
+      const hay = v.toLowerCase().normalize('NFC');
+      return candidates.some((c) => c.length >= 3 && hay.includes(c));
+    });
+
+    // Soupis: hodinar field je přímo slug
+    const matchedSoupis = allSoupis.filter((s) => s.data.hodinar === h.slug);
+
     return {
       params: { slug: h.slug },
       props: {
         hodinar: h,
         medailon: medailon ?? null,
         hasFull: medailonySlugs.has(h.slug),
+        kartySbirky: matchedKarty.map((k) => ({
+          slug: k.data.slug,
+          title: k.data.title,
+          inv: (k.data as { karta?: { inventarniCislo?: string } }).karta?.inventarniCislo,
+          umisteni: (k.data as { karta?: { umisteni?: string } }).karta?.umisteni,
+          datace: (k.data as { karta?: { datace?: string } }).karta?.datace,
+        })),
+        soupisRecords: matchedSoupis
+          .map((s) => ({
+            slug: s.data.slug,
+            rok: s.data.rok,
+            obec: s.data.puvodniMisto.obec,
+            budova: s.data.puvodniMisto.budova,
+            stav: s.data.stav,
+          }))
+          .sort((a, b) => {
+            const yA = typeof a.rok === 'number' ? a.rok : parseInt(String(a.rok), 10) || 9999;
+            const yB = typeof b.rok === 'number' ? b.rok : parseInt(String(b.rok), 10) || 9999;
+            return yA - yB;
+          }),
       },
     };
   });
 }
 
-const { hodinar, medailon, hasFull } = Astro.props;
+const { hodinar, medailon, hasFull, kartySbirky, soupisRecords } = Astro.props;
 const all = catalog as CatalogEntry[];
 const related = hodinar.relatedSlugs
   .map((s) => all.find((e) => e.slug === s))
@@ -148,6 +192,57 @@ const personJsonLd = hodinar.typ === 'osoba'
             ozvěte&nbsp;se nám — uvítáme každý další střípek.
           </p>
         </aside>
+      )}
+
+      {(kartySbirky.length > 0 || soupisRecords.length > 0) && (
+        <section class="hodinar-stroje" aria-labelledby="stroje-heading">
+          <h2 id="stroje-heading">Stroje od tohoto {hodinar.typ === 'osoba' ? 'hodináře' : 'výrobce'}</h2>
+
+          {kartySbirky.length > 0 && (
+            <>
+              <h3>Ve sbírce Hodinária</h3>
+              <ul class="hodinar-stroje-list">
+                {kartySbirky.map((k) => (
+                  <li>
+                    <a href={`/sbirka/karta/${k.slug}/`}>
+                      <span class="stroje-meta">
+                        {k.inv && <span class="stroje-inv">inv. {k.inv}</span>}
+                        {k.datace && <span class="stroje-rok">{k.datace}</span>}
+                      </span>
+                      <span class="stroje-title">{k.title}</span>
+                      {k.umisteni && <span class="stroje-detail">{k.umisteni}</span>}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
+
+          {soupisRecords.length > 0 && (
+            <>
+              <h3>V soupisu věžních hodin</h3>
+              <p class="stroje-counter">
+                {soupisRecords.length} {soupisRecords.length === 1 ? 'záznam' : soupisRecords.length < 5 ? 'záznamy' : 'záznamů'}
+                {' '}(řazeno chronologicky)
+              </p>
+              <ul class="hodinar-stroje-list hodinar-soupis-list">
+                {soupisRecords.map((s) => (
+                  <li>
+                    <a href={`/soupis-veznich-hodin/${s.slug}/`}>
+                      <span class="stroje-meta">
+                        <span class="stroje-rok">{s.rok}</span>
+                        <span class={`stav-mini stav-${s.stav}`}>{s.stav.replace(/_/g, ' ')}</span>
+                      </span>
+                      <span class="stroje-title">
+                        {s.obec}{s.budova && <span class="stroje-detail"> — {s.budova}</span>}
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
+        </section>
       )}
 
       {medailon?.data.references && medailon.data.references.length > 0 && (
@@ -321,6 +416,112 @@ const personJsonLd = hodinar.typ === 'osoba'
     font-size: 0.85rem;
     color: var(--color-text-soft);
     line-height: 1.4;
+  }
+
+  .hodinar-stroje {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 20%, transparent);
+  }
+  .hodinar-stroje h2 {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+  }
+  .hodinar-stroje h3 {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    color: var(--color-copper);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin: 1.5rem 0 0.6rem;
+    font-weight: 500;
+  }
+  .stroje-counter {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin: 0 0 0.6rem;
+    font-style: italic;
+  }
+  .hodinar-stroje-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+  .hodinar-stroje-list li {
+    margin: 0;
+  }
+  .hodinar-stroje-list a {
+    display: grid;
+    grid-template-columns: minmax(7rem, max-content) 1fr;
+    gap: 0.5rem 1rem;
+    padding: 0.55rem 0.85rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 16%, transparent);
+    border-left: 2px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--color-text);
+    align-items: baseline;
+    transition: border-color 150ms ease, background 150ms ease;
+  }
+  .hodinar-stroje-list a:hover {
+    border-left-color: var(--color-brass-bright);
+    background: color-mix(in srgb, var(--color-bg-elevated) 80%, var(--color-brass) 10%);
+  }
+  .stroje-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    font-size: 0.82rem;
+    color: var(--color-text-muted);
+    font-feature-settings: "lnum";
+  }
+  .stroje-inv {
+    color: var(--color-copper);
+    font-family: var(--font-serif);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.78rem;
+  }
+  .stroje-rok {
+    color: var(--color-brass-bright);
+    font-family: var(--font-serif);
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+  .stroje-title {
+    color: var(--color-text);
+    font-size: 0.95rem;
+  }
+  .stroje-detail {
+    color: var(--color-text-soft);
+    font-size: 0.88rem;
+  }
+  /* Mini stav badge — kompaktnější verze pro list */
+  .stav-mini {
+    display: inline-block;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-style: italic;
+    color: var(--color-text-muted);
+  }
+  .stav-mini.stav-in_situ { color: #4caf50; }
+  .stav-mini.stav-preneseno { color: #5b9dd9; }
+  .stav-mini.stav-ztracene { color: #d9a05b; }
+  .stav-mini.stav-znicene { color: #b04848; }
+  .stav-mini.stav-neznamy { color: var(--color-text-muted); }
+
+  /* Soupis list je často dlouhý — 2 sloupce na desktopu */
+  @media (min-width: 700px) {
+    .hodinar-soupis-list {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
   .article-byline {
