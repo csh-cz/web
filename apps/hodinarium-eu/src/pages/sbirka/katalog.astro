@@ -674,17 +674,60 @@ const vyrobceOpts = Object.entries(vyrobceCounts)
     refresh();
   }
 
-  search?.addEventListener('input', refresh);
+  search?.addEventListener('input', () => { refresh(); writeUrl(); });
   for (const cb of [...chipsLokace, ...chipsVyrobce, ...chipsTyp, ...chipsStav]) {
-    cb.addEventListener('change', refresh);
+    cb.addEventListener('change', () => { refresh(); writeUrl(); });
   }
   allChip?.addEventListener('change', () => {
     const target = allChip.checked;
     for (const cb of chipsLokace) cb.checked = target;
     refresh();
+    writeUrl();
   });
-  $reset?.addEventListener('click', resetAll);
+  $reset?.addEventListener('click', () => { resetAll(); writeUrl(); });
+
+  // === URL ↔ filter state ===
+  function readUrl() {
+    const p = new URLSearchParams(window.location.search);
+    if (p.has('q') && search) search.value = p.get('q') || '';
+    function applyChipState(chips, attr, key) {
+      if (!p.has(key)) return;
+      const allowed = new Set((p.get(key) || '').split(',').filter(Boolean));
+      // Default state pro lokace = checked, pro ostatní = unchecked
+      const defaultChecked = (key === 'lokace');
+      for (const cb of chips) {
+        const v = cb.dataset[attr];
+        cb.checked = allowed.size === 0 ? defaultChecked : allowed.has(v);
+      }
+    }
+    applyChipState(chipsLokace, 'filterLokace', 'lokace');
+    applyChipState(chipsVyrobce, 'filterVyrobce', 'vyrobce');
+    applyChipState(chipsTyp, 'filterTyp', 'typ');
+    applyChipState(chipsStav, 'filterStav', 'stav');
+    if (p.toString()) refresh();
+  }
+  function writeUrl() {
+    const p = new URLSearchParams();
+    if (search?.value) p.set('q', search.value);
+    function dump(chips, attr, key, defaultChecked) {
+      const on = [...chips].filter((c) => c.checked).map((c) => c.dataset[attr]);
+      const off = [...chips].filter((c) => !c.checked).map((c) => c.dataset[attr]);
+      // Only dump if state is non-default
+      if (defaultChecked && off.length === 0) return;
+      if (!defaultChecked && on.length === 0) return;
+      p.set(key, on.join(','));
+    }
+    dump(chipsLokace, 'filterLokace', 'lokace', true);
+    dump(chipsVyrobce, 'filterVyrobce', 'vyrobce', false);
+    dump(chipsTyp, 'filterTyp', 'typ', false);
+    dump(chipsStav, 'filterStav', 'stav', false);
+    const qs = p.toString();
+    const url = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+    window.history.replaceState(null, '', url);
+  }
+
   syncAllState();
+  readUrl();
 
   // Row click → navigate to karta. Skip pokud klik byl na <a> uvnitř (vyrobce link).
   document.querySelectorAll('.katalog-row-link').forEach((row) => {
