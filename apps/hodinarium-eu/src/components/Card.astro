@@ -9,13 +9,16 @@ interface Props {
   imageCount?: number;
   external?: boolean;
   /** Volné jmeno hodináře / výrobce (z karta.vyrobce). Zobrazí se pod názvem
-      jako kurzíva. Není přidávaný link — to může editor doplnit ručně. */
+      jako kurzíva. Pokud match v hodinari.ts, je klikatelné (link na medailon). */
   vyrobce?: string;
 }
 
 const { href, title, excerpt, thumbnail, category, lastModified, imageCount, external, vyrobce } = Astro.props;
 
 import { categoryLabel } from '../data/labels';
+import { findHodinarFromVyrobce } from '../utils/findHodinarFromVyrobce';
+
+const hodinarLink = vyrobce ? findHodinarFromVyrobce(vyrobce) : null;
 
 const lastModifiedShort = lastModified
   ? (() => {
@@ -56,7 +59,19 @@ const lastModifiedShort = lastModified
       )}
     </div>
     <h3 class="atlas-card-title">{title}{external && <span class="text-sm">&nbsp;↗</span>}</h3>
-    {vyrobce && <p class="atlas-card-vyrobce">{vyrobce}</p>}
+    {vyrobce && (
+      <p class="atlas-card-vyrobce">
+        {hodinarLink ? (
+          <span
+            class="atlas-card-vyrobce-link"
+            data-href={`/hodinari/${hodinarLink.slug}`}
+            role="link"
+            tabindex="0"
+            title={`Otevřít medailon: ${hodinarLink.jmeno}`}
+          >{vyrobce}</span>
+        ) : vyrobce}
+      </p>
+    )}
     {excerpt && <p class="atlas-card-excerpt">{excerpt}</p>}
   </div>
 </a>
@@ -182,6 +197,17 @@ const lastModifiedShort = lastModified
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .atlas-card-vyrobce-link {
+    cursor: pointer;
+    border-bottom: 1px dotted color-mix(in srgb, var(--color-copper) 50%, transparent);
+    transition: color 120ms ease, border-color 120ms ease;
+  }
+  .atlas-card-vyrobce-link:hover,
+  .atlas-card-vyrobce-link:focus-visible {
+    color: var(--color-brass-bright);
+    border-bottom-color: var(--color-brass-bright);
+    outline: none;
+  }
 
   .atlas-card-excerpt {
     color: var(--color-text-soft);
@@ -195,3 +221,28 @@ const lastModifiedShort = lastModified
     flex: 1;               /* roztáhnout na zbylou výšku těla */
   }
 </style>
+
+<script is:inline>
+  // Vyrobce-link uvnitř Card: klik = navigace na medailon, NEvystřelí parent
+  // <a class="atlas-card"> link na detail. Stejné pravidlo pro keyboard
+  // (Enter/Space na role="link" span).
+  (function () {
+    function navigate(el, ev) {
+      const href = el.getAttribute('data-href');
+      if (!href) return;
+      ev.preventDefault();
+      ev.stopPropagation();
+      if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.button === 1) {
+        window.open(href, '_blank');
+      } else {
+        window.location.href = href;
+      }
+    }
+    document.querySelectorAll('.atlas-card-vyrobce-link').forEach((el) => {
+      el.addEventListener('click', (ev) => navigate(el, ev));
+      el.addEventListener('keydown', (ev) => {
+        if (ev.key === 'Enter' || ev.key === ' ') navigate(el, ev);
+      });
+    });
+  })();
+</script>
