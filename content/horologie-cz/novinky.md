@@ -76,4 +76,4 @@ Stará stránka je [zde.](/clanky/novinky2)
 
 Web vznikl asi v roce 2006. Prošel několika většími událostmi. Vznik občanského sdružení Virtuální muzeum hodin o.s. 9.1.2009. Vznik expozice Věžního muzejíčka v Soběsvlavi koncem roku 2009. Ukončení Věžního muzejíčka v Soběslavi a stěhování do Děčína v roce 2015. Po změně Občanského Zákona bylo občanské sdružení převedeno na spolek. Na členské schůzi 5.6.2015 byla mimo jiné schválena změna názvu, stanovy a nový výbor spolku. Usnesením Krajského soudu v Č.B. ze dne 12.2.2016 bylo rozhodnuto o zápisu změny do spolkového rejstříku. ( L4908/RD10/KSCB Fj 4845/2016/KSCB ) Zapsáno 5.3.2016.
 
-Celou dobu vás webem provázel Ing. Petr Král
+Celou dobu vás webem provázel Ing. [Petr Král](/hodinari/petr-kral)

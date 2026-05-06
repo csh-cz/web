@@ -93,4 +93,4 @@ Bez synchronizace rychle driftují
 - [DIGITÁLNÍ TELEVIZE A DIGITÁLNÍ ROZHLAS SOUČASNOST A PERSPEKTIVY](http://old.roznovskastredni.cz/dwnl/pel2009/06/zalud.pdf) — old.roznovskastredni.cz. [cit. 2026-04-28]
 - [Digitální vysílání: Je uváděný čas skutečně přesný?](www.parabola.cz/clanky/1899/digitalni-vysilani-je-uvadeny-cas-skutecne-presny/) Obsahuje vyjádření různých televizí v ČR na tuto otázku.
 
-S pomocí AI sestavil Petr Král
+S pomocí AI sestavil [Petr Král](/hodinari/petr-kral)

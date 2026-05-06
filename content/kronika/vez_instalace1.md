@@ -16,7 +16,7 @@ scrapedAt: "2026-04-27T17:36:35.629Z"
 
 **J**ak vidíte, nebyl ani čas psát průvodní text. ..... Všem, co se na přípravě podíleli děkujeme, ať již přispěli svou prací, zapůjčením exponátů či finančním darem.
 
-Petr Král
+[Petr Král](/hodinari/petr-kral)
 
 ## Perná příprava
 

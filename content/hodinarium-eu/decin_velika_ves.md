@@ -65,4 +65,4 @@ Součásti stroje byly zbaveny silné vrstvy povrchové koroze. Koroze naštěst
 
 - [Restaurátorský záměr](/download/RestauratorskyZamerVelikaVes.pdf)
 
-Text: Wikipedie a Petr Král, fotografie: Petr Skála, Petr Král, Miroslav Baudisch
+Text: Wikipedie a [Petr Král](/hodinari/petr-kral), fotografie: [Petr Skála](/hodinari/petr-skala), Petr Král, [Miroslav Baudisch](/hodinari/miroslav-baudisch)

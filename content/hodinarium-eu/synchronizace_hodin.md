@@ -34,7 +34,7 @@ Toto řízení je přímé, bez zpětné vazby. Řídící chronometr nijak nere
 
 ## Synchronizace mechanických věžních hodin
 
-Zdálo by se, že téma synchronizace se týká pouze elektronických hodin a hodinek. Ale i u historického exempláře věžních hodin může být synchronizace provedena. Petr Skála navrhl zařízení (chráněné Úřadem průmyslového vlastnictví v Praze), které umožňuje i mechanickému věžnímu hodinovému stroji jít s několika vteřinovou přesností. Jde o počítačově řízený záchyt kyvadla. Synchronizaci času zajišťuje DCF 77 přijímač. Umožňuje dokonce automatickou změnu letního času.
+Zdálo by se, že téma synchronizace se týká pouze elektronických hodin a hodinek. Ale i u historického exempláře věžních hodin může být synchronizace provedena. [Petr Skála](/hodinari/petr-skala) navrhl zařízení (chráněné Úřadem průmyslového vlastnictví v Praze), které umožňuje i mechanickému věžnímu hodinovému stroji jít s několika vteřinovou přesností. Jde o počítačově řízený záchyt kyvadla. Synchronizaci času zajišťuje DCF 77 přijímač. Umožňuje dokonce automatickou změnu letního času.
 
 Ukázka zde i jinde na webu [www.veznihodiny.cz/ukaz19.htm](http://www.veznihodiny.cz/ukaz19.htm)
 

@@ -39,4 +39,4 @@ Toto provedení hodinek Raketa je dosti neobvyklé. Nepodařilo se nám zjistit 
 
 Pozor na fake. Tyto hodinky [Sharp](/img/kalendarni/hodinky-sharp-calendar-quartz.jpeg) funkce víceletého kalendáře nesplňují ačkoliv se to na ciferníku tvrdí. Šířka označení dnů překračuje dva sloupce v tabulce dnů v týdnu. Ve výřezu je proto vidět jen tři a něco dnů v týdnu místo potřebných sedmi dnů. Podobný problém je i u označení posledního dvojčíslí roku. Ve výřezu jsou pouze čtyři. Hodinky tedy ukazují čas, den v měsíci v okýnku a den v týdnu například ve středu výřezu ciferníku. Funkce víceletého kalendáře nejde nastavit, je to jen pro sporný efekt. Použitelné jsou pouze pro lidi, kteří by stejně víceletý kalendář nastavit neuměli.
 
-Text: Petr Král
+Text: [Petr Král](/hodinari/petr-kral)

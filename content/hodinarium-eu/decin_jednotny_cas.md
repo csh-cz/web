@@ -12,7 +12,7 @@ tldr: '![podružné hodiny art decoDvoje stolní podružné hodiny s otočnou ko
 ---
 [![podružné hodiny art deco](/img/elektrika/jednotny_cas/artdeco/celek_artdeco.jpg)Dvoje stolní podružné hodiny s otočnou kotvou](/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg)
 
-Stolní podružné hodiny jsou samy o sobě výjimečné. První ukázkou budou nesignované hodiny ve stylu art deco se strojkem Siemens. Druhé podružné hodiny s nápisem "Jednotný čas" jsou zachované jen částečně, ale jsou také funkční.
+Stolní podružné hodiny jsou samy o sobě výjimečné. První ukázkou budou nesignované hodiny ve stylu art deco se strojkem Siemens. Druhé podružné hodiny s nápisem "[Jednotný čas](/hodinari/jednotny-cas)" jsou zachované jen částečně, ale jsou také funkční.
 
 ## Stolní podružné hodiny ve stylu art deco
 
@@ -34,7 +34,7 @@ Odkazy: Götsch, Taschenbuch für Fernmeldetechniker 1950, Teil 2Ww 285: Die ele
 
 [![podružné hodiny art deco](/img/elektrika/jednotny_cas/artdeco/celek_jednotny_cas.jpg)](/img/elektrika/jednotny_cas/artdeco/f/celek_jednotny_cas.jpg)
 
-Předmětem podnikání firmy Jednotný čas, s. s r.o., Praha nebyla výroba, ale nákup, prodej, pronajímání a instalování elektrických hodin. Společnost byla ustavena v červenci 1923. V roce 1948 byla začleněna do podniku Chromotechny Šternberk a v následujícím roce se společně se závodem Ludvík Hainz spojila do závodu Elektročas. (Podle knihy Zdeněk Martínek, Dějiny Československého hodinářského průmyslu.)
+Předmětem podnikání firmy [Jednotný čas](/sbirka/karta/inv-101-jednotny-cas/), s. s r.o., Praha nebyla výroba, ale nákup, prodej, pronajímání a instalování elektrických hodin. Společnost byla ustavena v červenci 1923. V roce 1948 byla začleněna do podniku Chromotechny Šternberk a v následujícím roce se společně se závodem [Ludvík Hainz](/hodinari/ludvik-hainz) spojila do závodu Elektročas. (Podle knihy Zdeněk Martínek, Dějiny Československého hodinářského průmyslu.)
 
 Zachovalo se poměrně málo výrobků s označením "Jednotný čas" na ciferníku. Ještě větší raritou jsou tyto vyobrazené podružné stolní hodiny. Možná byly v kanceláři vedení firmy.
 
@@ -56,4 +56,4 @@ Protože je celý strojek zapuštěn do schrány a seřirovaví kolečko je norm
 
 - https://docplayer.org/71200072-Siemens-uhren-historische-sammlung-teil-ii.html
 
-Text a foto: Petr Král
+Text a foto: [Petr Král](/hodinari/petr-kral)

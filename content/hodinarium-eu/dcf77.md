@@ -74,4 +74,4 @@ Generování signálu DCF77 a jeho monitorovací a řídicí funkce jsou od konc
 
 [Martin Pouva: Vše o času](http://home.zcu.cz/~poupa/dcf77.html)
 
-Text: Petr Král
+Text: [Petr Král](/hodinari/petr-kral)

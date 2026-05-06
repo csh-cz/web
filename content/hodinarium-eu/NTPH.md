@@ -150,4 +150,4 @@ Zelená a modrá LED blikají při aktivitě krokového motoru,
 
 - K vlastnímu nahrávání programu použijte [flash\_dowload\_tools](https://www.espressif.com/en/support/download/other-tools).
 
-Autor: Petr Král
+Autor: [Petr Král](/hodinari/petr-kral)

@@ -18,6 +18,6 @@ Celkové rozměry jsou: výška x šířka x hloubka = 33 x 24 x 53 mm (s narovn
 
 Četl jsem názor, že v letectví používaná pracovní frekvence 400 Hz je volena tak, aby zařízená nebyla zneužívána v civilu :-)
 
-Foto ebay, text Petr Král
+Foto ebay, text [Petr Král](/hodinari/petr-kral)
 
 CB-2

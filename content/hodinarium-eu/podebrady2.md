@@ -41,7 +41,7 @@ Otázkou zůstává, jestli připustíme proměnu také mechanické součásti h
 
 ![letná varianta květinových hodin](/img/podebrady/hodiny2007.jpg)Hodiny jako celek by byly mnohem zajímavější, ale tahle varianta je už asi nevratně pryč. :-((
 
-Píše akademický sochař Petr Skála
+Píše akademický sochař [Petr Skála](/hodinari/petr-skala)
 
 **N**a jaře roku 2007 se hodiny ke své květinové podobě opět vrací. Změna hodin je zejména v typu jejich tradiční výsadby. Ručičky jsou replikou původních a jsou jen dvě. Zmizela také nerezová římská čísla 3,6,9,12. Zatím zůstal obrubník a nerezový nápis, který však později také mizí právě tak, jako nerezový nápis "LÁZNĚ PODĚBRADY".
 

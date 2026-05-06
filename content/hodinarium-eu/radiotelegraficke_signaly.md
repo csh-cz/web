@@ -20,4 +20,4 @@ Vraťme se počátků minulého století. Dlouhé signály trvaly dvě až tři 
 
 Jedna věc je, jaké byly vysílány signály a druhá věc je, jak podle nich hodináři seřizovali hodiny, respektive, jak se k nim tvořily tabulky oprav času. Prof. Schneider uvádí, že střední oprava vysílaných časových signálů byla 0,01 sekundy a chyba jednoho konkrétního signálu byla výjimečně vysílána s chybou až 0,1 sekundy. Pro seřízení hodin uvádí poměrně složité postupy, kdy vysílané tečky chápe jako dílky zvukového nonia a rovněž dojde k velikosti opravy v řádu setin sekundy. Podle Dr. Gutha se k tomu používaly otočné kruhy rozdělené na 60 a 61 dílků. Blíže popsáno v jeho knize..
 
-Podle PROF. DR. R. SCHNIDERA vybral ing. Petr Král
+Podle PROF. DR. R. SCHNIDERA vybral ing. [Petr Král](/hodinari/petr-kral)

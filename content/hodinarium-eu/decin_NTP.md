@@ -90,4 +90,4 @@ Je otázka, jak (ne)přesný NTP server na starším 32 bitové notebooku s Lubu
 - [NTP server na bázi Arduina](https://forum.arduino.cc/t/ntp-time-server/192816) — Arduino Forum. [cit. 2026-04-28]
 - [Digitální hodiny řízené protokolem NTP](https://dspace.vutbr.cz/bitstream/handle/11012/39582/final-thesis.pdf?sequence=-1) — dspace.vutbr.cz. [cit. 2026-04-28]
 
-Text a řešení expozice: Ing. Petr Král
+Text a řešení expozice: Ing. [Petr Král](/hodinari/petr-kral)

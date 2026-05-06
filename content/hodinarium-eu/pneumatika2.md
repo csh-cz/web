@@ -11,7 +11,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:23.538Z"
 tldr: 'Podle článku Orologi\_pubblici\_pneumatici\_a\_Parigi, který napsala MARISA ADDOMINE, zkrácenou verzi zpracoval Petr Král.'
 ---
-Podle článku Orologi\_pubblici\_pneumatici\_a\_Parigi, který napsala **MARISA ADDOMINE, zkrácenou verzi zpracoval Petr Král.**
+Podle článku Orologi\_pubblici\_pneumatici\_a\_Parigi, který napsala **MARISA ADDOMINE, zkrácenou verzi zpracoval [Petr Král](/hodinari/petr-kral).**
 
 [Původní nezkrácená verze zde.](https://www.academia.edu/35888544/Orologi_pubblici_pneumatici_a_Parigi)
 
@@ -57,7 +57,7 @@ Každá dílčí síť jednotlivých obvodů měla pneumatické podružné monit
 
 ### Rozsah sítě
 
-Systém byl nejprve vyzkoušen v I. a II. obvodu, později měla být Paříž rozdělena do devíti obvodů, jejichž centrum se mělo nacházet na adrese Rue Sainte-Anne 7, a stlačený vzduch měla dodávat pouze jedna výrobní továrna na adrese Rue Saint-Far-geau v oblasti Belleville. Ve dvou tehdy obsluhovaných segmentech bylo 14 pouličních hodin s celkem 33 ciferníky, které byly umístěny na různých bulvárech a také na Place du Théatre-Français, Rue de Rivoli, Place de la Chaussée-d'Antin, Boulevard Hausmann, Rue Montmartre, Rue des Tuileries a Rue Drouot. Pouliční hodiny, s jedním nebo třemi ciferníky, vyrobené z litiny, opatřené modrým pozadím ciferníků a čitelnými římskými číslicemi, v noci vnitřně osvětlené plynovým hořákem. Co se týče vnitřních hodin, v době zpracování zprávy bylo v provozu přibližně 700 objektů s celkem asi 3 500 hodinami, což odpovídá přibližně 1 650 účastníkům. Potrubní síť v obou okresech měřila 32 kilometrů a přibližně 65 kilometrů potrubí položeného v budovách.
+Systém byl nejprve vyzkoušen v I. a II. obvodu, později měla být Paříž rozdělena do devíti obvodů, jejichž centrum se mělo nacházet na adrese Rue Sainte-Anne 7, a stlačený vzduch měla dodávat pouze jedna výrobní továrna na adrese Rue Saint-Far-geau v oblasti Belleville. Ve dvou tehdy obsluhovaných segmentech bylo 14 pouličních hodin s celkem 33 ciferníky, které byly umístěny na různých bulvárech a také na Place du Théatre-Français, Rue de Rivoli, Place de la Chaussée-d'Antin, Boulevard Hausmann, Rue Montmartre, Rue des Tuileries a Rue Drouot. [Pouliční hodiny](/sbirka/karta/inv-272-poulicni-hodiny/), s jedním nebo třemi ciferníky, vyrobené z litiny, opatřené modrým pozadím ciferníků a čitelnými římskými číslicemi, v noci vnitřně osvětlené plynovým hořákem. Co se týče vnitřních hodin, v době zpracování zprávy bylo v provozu přibližně 700 objektů s celkem asi 3 500 hodinami, což odpovídá přibližně 1 650 účastníkům. Potrubní síť v obou okresech měřila 32 kilometrů a přibližně 65 kilometrů potrubí položeného v budovách.
 
 Ceny předplatného pro soukromé osoby činily pět centů denně za jedny podružné hodiny, čtyři centy denně za druhé a tři centy denně pro třetí nebo další. U instalací v hotelech s více než 100 hodinami se cena předplatného vypočítává individuálně náklady na instalaci: předplatitel začne platit až poté, co jeho hodiny začnou fungovat. Pokud nás dosud udivovala modernost marketingu této iniciativy, pak nás může vyděsit jen další aspekt smlouvy: přijímací hodiny dodávala a instalovala společnost zdarma, ale pokud předplatitel odevzdal své vlastní hodiny, byly mu vráceny s výměnou strojku, aby byl vhodný pro příjem vzdušného impulsu. stlačené! A to vše bez poplatků! Není těžké si představit masakr hodin, obětí moderní doby.
 

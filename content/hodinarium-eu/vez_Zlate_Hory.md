@@ -40,4 +40,4 @@ Restaurátorský záměr vychází z přání majitele, který hodlá stroj zap�
 
 V druhé etapě mohou být nahrazeny mosazné větrníky z poslední přestavby vhodnějšími železnými. Podle možností expozice může být připojen neautentický ručkový převod, doplněny páky bití a doplněny malé cimbály pro simulaci odbíjení.
 
-Petr Král
+[Petr Král](/hodinari/petr-kral)

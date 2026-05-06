@@ -30,4 +30,4 @@ Originální systém hodin Datumatic je založen na soustavě pěti kotoučků, 
 
 Na obrazku vlevo je pohled do vnitřku krytu, patrná je lomená páka s rolničkou pro vačku a odpruženým ramenem, nesoucím na konci posuvný palec (zakrytý). Mosazná kulisa slouží k odblokování posuvu a nastavení seřizovacího prvku proti příslušnému kotoučku při ruční korekci. Celý systém, navzdory subtilně vyhlížejícím kotoučkům, je spolehlivý a plně funkční i po letech používání.
 
-Text, foto: Miroslav Baudisch
+Text, foto: [Miroslav Baudisch](/hodinari/miroslav-baudisch)
