@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-06T09:31:12.846Z",
+  "generatedAt": "2026-05-06T16:15:08.414Z",
   "summary": {
-    "kartyTotal": 291,
+    "kartyTotal": 290,
     "kartyNoTyp": 93,
-    "kartyNoThumb": 219,
-    "kartyNoVyrobce": 224,
+    "kartyNoThumb": 218,
+    "kartyNoVyrobce": 223,
     "kartyNoUmisteni": 41,
     "kartyPlaceholderTitle": 12,
     "clankyNoTldr": 1,
@@ -13,6 +13,11 @@
     "hodinariTotal": 99,
     "hodinariShort": 71,
     "hodinariNoPortret": 85,
+    "soupisTotal": 391,
+    "stubsKarty": 0,
+    "stubsClanky": 0,
+    "stubsHodinari": 41,
+    "stubsSoupis": 0,
     "kronikaYears": [
       2009,
       2010,
@@ -1337,9 +1342,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-52-soustava-rozvodu-s-rafijemi"
       },
       {
-        "slug": "inv-53-model-prazskeho-orloje",
+        "slug": "inv-53-orloj-hvezdarna-petrin",
         "title": "Orloj Hvězdárna Petřín",
-        "editUrl": "/admin/#/collections/karty/entries/inv-53-model-prazskeho-orloje"
+        "editUrl": "/admin/#/collections/karty/entries/inv-53-orloj-hvezdarna-petrin"
       },
       {
         "slug": "inv-54-skeletove-hodiny-kavalir",
@@ -1400,11 +1405,6 @@
         "slug": "inv-66-cimbal-s-odbijenim",
         "title": "Cimbál s odbíjením",
         "editUrl": "/admin/#/collections/karty/entries/inv-66-cimbal-s-odbijenim"
-      },
-      {
-        "slug": "inv-67-orloj-hvezdarna-petrin",
-        "title": "Orloj Hvězdárna Petřín",
-        "editUrl": "/admin/#/collections/karty/entries/inv-67-orloj-hvezdarna-petrin"
       },
       {
         "slug": "inv-67-vezni-lissner",
@@ -2454,9 +2454,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-52-soustava-rozvodu-s-rafijemi"
       },
       {
-        "slug": "inv-53-model-prazskeho-orloje",
+        "slug": "inv-53-orloj-hvezdarna-petrin",
         "title": "Orloj Hvězdárna Petřín",
-        "editUrl": "/admin/#/collections/karty/entries/inv-53-model-prazskeho-orloje"
+        "editUrl": "/admin/#/collections/karty/entries/inv-53-orloj-hvezdarna-petrin"
       },
       {
         "slug": "inv-55-hodiny-comtoise",
@@ -2507,11 +2507,6 @@
         "slug": "inv-66-cimbal-s-odbijenim",
         "title": "Cimbál s odbíjením",
         "editUrl": "/admin/#/collections/karty/entries/inv-66-cimbal-s-odbijenim"
-      },
-      {
-        "slug": "inv-67-orloj-hvezdarna-petrin",
-        "title": "Orloj Hvězdárna Petřín",
-        "editUrl": "/admin/#/collections/karty/entries/inv-67-orloj-hvezdarna-petrin"
       },
       {
         "slug": "inv-67-vezni-lissner",
@@ -4665,6 +4660,216 @@
         "editUrl": "/admin/#/collections/hodinari/entries/zenith"
       }
     ],
+    "stubsKarty": [],
+    "stubsClanky": [],
+    "stubsHodinari": [
+      {
+        "slug": "abraham-louis-breguet",
+        "title": "Abraham-Louis Bréguet",
+        "editUrl": "/admin/#/collections/hodinari/entries/abraham-louis-breguet"
+      },
+      {
+        "slug": "adolf-lange",
+        "title": "Ferdinand Adolf Lange",
+        "editUrl": "/admin/#/collections/hodinari/entries/adolf-lange"
+      },
+      {
+        "slug": "bodet",
+        "title": "Bodet (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/bodet"
+      },
+      {
+        "slug": "bratri-brillie",
+        "title": "Bratři Brillié",
+        "editUrl": "/admin/#/collections/hodinari/entries/bratri-brillie"
+      },
+      {
+        "slug": "bulle-clock",
+        "title": "Bulle Clock Co. (Marcel Moulin / Maurice Favre-Bulle)",
+        "editUrl": "/admin/#/collections/hodinari/entries/bulle-clock"
+      },
+      {
+        "slug": "bulova",
+        "title": "Bulova",
+        "editUrl": "/admin/#/collections/hodinari/entries/bulova"
+      },
+      {
+        "slug": "christiaan-huygens",
+        "title": "Christiaan Huygens",
+        "editUrl": "/admin/#/collections/hodinari/entries/christiaan-huygens"
+      },
+      {
+        "slug": "elekon",
+        "title": "Elekon (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/elekon"
+      },
+      {
+        "slug": "ericsson",
+        "title": "Ericsson",
+        "editUrl": "/admin/#/collections/hodinari/entries/ericsson"
+      },
+      {
+        "slug": "eureka",
+        "title": "Eureka Clock Co. (Sir John Bennett)",
+        "editUrl": "/admin/#/collections/hodinari/entries/eureka"
+      },
+      {
+        "slug": "frantisek-rebicek",
+        "title": "František Rebíček",
+        "editUrl": "/admin/#/collections/hodinari/entries/frantisek-rebicek"
+      },
+      {
+        "slug": "george-graham",
+        "title": "George Graham (Jiří Graham)",
+        "editUrl": "/admin/#/collections/hodinari/entries/george-graham"
+      },
+      {
+        "slug": "hipp-favarger",
+        "title": "Hipp-Favarger (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/hipp-favarger"
+      },
+      {
+        "slug": "johann-burk",
+        "title": "Johann Bürk",
+        "editUrl": "/admin/#/collections/hodinari/entries/johann-burk"
+      },
+      {
+        "slug": "john-harrison",
+        "title": "John Harrison",
+        "editUrl": "/admin/#/collections/hodinari/entries/john-harrison"
+      },
+      {
+        "slug": "julius-hiemann",
+        "title": "Julius Hiemann",
+        "editUrl": "/admin/#/collections/hodinari/entries/julius-hiemann"
+      },
+      {
+        "slug": "kappa-orologi",
+        "title": "Kappa Orologi Industriali",
+        "editUrl": "/admin/#/collections/hodinari/entries/kappa-orologi"
+      },
+      {
+        "slug": "kavalir",
+        "title": "Kavalír (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/kavalir"
+      },
+      {
+        "slug": "lenzkirch",
+        "title": "Lenzkirch (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/lenzkirch"
+      },
+      {
+        "slug": "matthaus-hipp",
+        "title": "Matthäus Hipp",
+        "editUrl": "/admin/#/collections/hodinari/entries/matthaus-hipp"
+      },
+      {
+        "slug": "meinberg",
+        "title": "Meinberg (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/meinberg"
+      },
+      {
+        "slug": "miroslav-baudisch",
+        "title": "Miroslav Baudisch",
+        "editUrl": "/admin/#/collections/hodinari/entries/miroslav-baudisch"
+      },
+      {
+        "slug": "miroslav-kotrba",
+        "title": "Miroslav Kotrba",
+        "editUrl": "/admin/#/collections/hodinari/entries/miroslav-kotrba"
+      },
+      {
+        "slug": "mobatime",
+        "title": "Mobatime (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/mobatime"
+      },
+      {
+        "slug": "papouch",
+        "title": "Papouch (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/papouch"
+      },
+      {
+        "slug": "petr-heinrich",
+        "title": "Petr Heinrich",
+        "editUrl": "/admin/#/collections/hodinari/entries/petr-heinrich"
+      },
+      {
+        "slug": "petr-henlein",
+        "title": "Petr Henlein",
+        "editUrl": "/admin/#/collections/hodinari/entries/petr-henlein"
+      },
+      {
+        "slug": "petr-kral",
+        "title": "Petr Král",
+        "editUrl": "/admin/#/collections/hodinari/entries/petr-kral"
+      },
+      {
+        "slug": "rochlitz-firma",
+        "title": "Rochlitz (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/rochlitz-firma"
+      },
+      {
+        "slug": "rod-balke",
+        "title": "Balke (rod pražských hodinářů)",
+        "editUrl": "/admin/#/collections/hodinari/entries/rod-balke"
+      },
+      {
+        "slug": "rod-bisswanger",
+        "title": "Bisswangerové (rod pražských hodinářů)",
+        "editUrl": "/admin/#/collections/hodinari/entries/rod-bisswanger"
+      },
+      {
+        "slug": "rod-engelschalck",
+        "title": "Engelschalckovi (rod pražských hodinářů)",
+        "editUrl": "/admin/#/collections/hodinari/entries/rod-engelschalck"
+      },
+      {
+        "slug": "rod-treffler",
+        "title": "Trefflerovi (rod pražských hodinářů)",
+        "editUrl": "/admin/#/collections/hodinari/entries/rod-treffler"
+      },
+      {
+        "slug": "schauer",
+        "title": "Schauer (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/schauer"
+      },
+      {
+        "slug": "spel",
+        "title": "Spel (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/spel"
+      },
+      {
+        "slug": "thomas-fox",
+        "title": "Thomas Fox / Safe and Vault Company Ltd.",
+        "editUrl": "/admin/#/collections/hodinari/entries/thomas-fox"
+      },
+      {
+        "slug": "thomas-tompion",
+        "title": "Thomas Tompion",
+        "editUrl": "/admin/#/collections/hodinari/entries/thomas-tompion"
+      },
+      {
+        "slug": "vlasta-filler",
+        "title": "Vlasta Filler",
+        "editUrl": "/admin/#/collections/hodinari/entries/vlasta-filler"
+      },
+      {
+        "slug": "wagner",
+        "title": "Wagner (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/wagner"
+      },
+      {
+        "slug": "zdenek-legner",
+        "title": "Zdeněk Legner",
+        "editUrl": "/admin/#/collections/hodinari/entries/zdenek-legner"
+      },
+      {
+        "slug": "zenith",
+        "title": "Zenith",
+        "editUrl": "/admin/#/collections/hodinari/entries/zenith"
+      }
+    ],
+    "stubsSoupis": [],
     "duplicates": []
   }
 }
