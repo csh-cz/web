@@ -183,6 +183,19 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
           const type = p.bibKey
             ? (p.type ?? inferredType ?? 'odkaz')
             : detectPramenType(p.url, p.type);
+
+          // Wiki: jen title + skrytá URL + ⓦ ikona (přes CSS).
+          if (type === 'wiki') {
+            const wTitle = p.title || (cslItem?.title as string) || p.bibKey || 'Wikipedie';
+            const wUrl = p.url || (cslItem?.URL as string) || (cslItem?.url as string);
+            return (
+              <li class="reference reference-wiki" title={pramenTooltip('wiki')}>
+                {wUrl ? <a href={wUrl} target="_blank" rel="noopener">{wTitle}</a> : <span class="ref-title">{wTitle}</span>}
+                {p.poznamka && <span class="ref-note"> — {p.poznamka}</span>}
+              </li>
+            );
+          }
+
           const formatted = p.bibKey ? formatCite(p.bibKey, { pages: p.pages }) : null;
 
           if (formatted) {
