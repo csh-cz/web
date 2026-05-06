@@ -1,43 +1,6 @@
 {
   "matches": [
     {
-      "title": "Rakousko-uherské privilegium č. 5963/1895 — Astronomische Uhr",
-      "author": "Edmund Kinsner",
-      "year": "1895",
-      "url": "https://privilegien.patentamt.at/image/1895_005963/1/",
-      "files": [
-        "content/hodinarium-eu/kinsner-astronomicke-hodiny.mdx",
-        "content/hodinari/edmund-kinsner.mdx"
-      ],
-      "count": 2,
-      "citationKey": "kinsnerRakouskouherskePrivilegium59631895",
-      "zoteroTitle": "Rakousko-uherské privilegium č. 5963/1895 — Astronomische Uhr",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Renovace věžních hodin na evangelickém kostele v Hrobech",
-      "author": "Ladislav Faigl",
-      "year": "1998",
-      "url": "",
-      "files": [
-        "content/hodinari/bernhard-zacharia.mdx"
-      ],
-      "count": 1,
-      "citationKey": "faiglRenovaceVeznichHodin1998",
-      "zoteroTitle": "Renovace věžních hodin na evangelickém kostele v Hrobech",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
       "title": "Allgemeines historisches Künstler-Lexikon für Böhmen",
       "author": "Gottfried Johann Dlabacž",
       "year": "1813",
@@ -55,179 +18,19 @@
       ]
     },
     {
-      "title": "Posvátná místa král. hl. města Prahy",
-      "author": "Antonín Podlaha",
-      "year": "1916",
-      "url": "",
-      "files": [
-        "content/hodinari/frantisek-eisgruber.mdx"
-      ],
-      "count": 1,
-      "citationKey": "podlahaPosvatnaMistaKral1916",
-      "zoteroTitle": "Posvátná místa král. hl. města Prahy",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Pražská radnice za 1750–1850",
-      "author": "Václav Vojtíšek",
-      "year": "1919",
-      "url": "",
-      "files": [
-        "content/hodinari/frantisek-eisgruber.mdx"
-      ],
-      "count": 1,
-      "citationKey": "vojtisekPrazskaRadniceZa1919",
-      "zoteroTitle": "Pražská radnice za 1750–1850",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Meister der Uhrmacherkunst",
-      "author": "Jürgen Abeler",
-      "year": "2010",
-      "url": "",
-      "files": [
-        "content/hodinari/frantisek-eisgruber.mdx"
-      ],
-      "count": 1,
-      "citationKey": "abelerMeisterUhrmacherkunst2010",
-      "zoteroTitle": "Meister der Uhrmacherkunst",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "František Josef Gerstner",
-      "author": "",
-      "year": "",
-      "url": "https://cs.wikipedia.org/wiki/Franti%C5%A1ek_Josef_Gerstner",
-      "files": [
-        "content/hodinari/franz-joseph-gerstner.mdx"
-      ],
-      "count": 1,
-      "citationKey": "FrantisekJosefGerstner",
-      "zoteroTitle": "František Josef Gerstner",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Příspěvek k slovníku umělců a uměleckých řemeslníků z Poděbradska",
-      "author": "Jan Hellich",
-      "year": "1917",
-      "url": "",
-      "files": [
-        "content/hodinari/jan-janata.mdx"
-      ],
-      "count": 1,
-      "citationKey": "hellichPrispevekSlovnikuUmelcu1917",
-      "zoteroTitle": "Příspěvek k slovníku umělců a uměleckých řemeslníků z Poděbradska",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
-      "title": "Hodinové stroje Jana Janaty z Poděbrad — Hodinářství Jan Marek",
-      "author": "",
-      "year": "",
-      "url": "http://www.veznihodiny.cz/mukaz8.htm",
-      "files": [
-        "content/hodinari/jan-janata.mdx"
-      ],
-      "count": 1,
-      "citationKey": "HodinoveStrojeJana",
-      "zoteroTitle": "Hodinové stroje Jana Janaty z Poděbrad — Hodinářství Jan Marek",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Životopis hodináře Jana Janaty",
-      "author": "",
-      "year": "",
-      "url": "http://www.veznihodiny.cz/janata.htm",
-      "files": [
-        "content/hodinari/jan-janata.mdx"
-      ],
-      "count": 1,
-      "citationKey": "ZivotopisHodinareJana",
-      "zoteroTitle": "Životopis hodináře Jana Janaty",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Hodinářství v českých zemích — soubor článků",
-      "author": "Petr Hartman",
-      "year": "1987",
-      "url": "",
-      "files": [
-        "content/hodinari/jan-prokes-jr.mdx"
-      ],
-      "count": 1,
-      "citationKey": "hartmanHodinarstviCeskychZemich1987",
-      "zoteroTitle": "Hodinářství v českých zemích — soubor článků",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
       "title": "Bílá věž (Hradec Králové) — Wikipedie.",
       "author": "",
       "year": "",
       "url": "https://cs.wikipedia.org/wiki/B%C3%ADl%C3%A1_v%C4%9B%C5%BE_(Hradec_Kr%C3%A1lov%C3%A9)",
       "files": [
-        "content/soupis-veznich-hodin/1591-hradec-kralove-bila-vez-frejlich.mdx",
-        "content/soupis-veznich-hodin/1829-hradec-kralove-bila-vez-bozek.mdx"
+        "content/soupis-veznich-hodin/1591-hradec-kralove-bila-vez-frejlich.mdx"
       ],
-      "count": 2,
+      "count": 1,
       "citationKey": "BilaVezHradec",
       "zoteroTitle": "Bílá věž (Hradec Králové) — Wikipedie.",
       "score": 0.7,
       "reasons": [
         "strong-title"
-      ]
-    },
-    {
-      "title": "Cast Iron Tower Clockworks",
-      "author": "David Knespl",
-      "year": "2024",
-      "url": "",
-      "files": [
-        "content/soupis-veznich-hodin/1810-praha-polytechnika-bozek.mdx",
-        "content/soupis-veznich-hodin/1834-brno-stara-radnice-luz.mdx",
-        "content/soupis-veznich-hodin/1834-brno-tovarna-luz.mdx",
-        "content/soupis-veznich-hodin/1834-vanovice-luz.mdx"
-      ],
-      "count": 4,
-      "citationKey": "knesplCastIronTower2024a",
-      "zoteroTitle": "Cast Iron Tower Clockworks",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
       ]
     },
     {
@@ -265,71 +68,6 @@
       ]
     },
     {
-      "title": "Kostel sv. Václava (Veliš) — Wikipedie.",
-      "author": "",
-      "year": "",
-      "url": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_V%C3%A1clava_(Veli%C5%A1)",
-      "files": [
-        "content/soupis-veznich-hodin/1880-velis-ulibice-prokes.mdx"
-      ],
-      "count": 1,
-      "citationKey": "KostelSvVaclava",
-      "zoteroTitle": "Kostel sv. Václava (Veliš) — Wikipedie.",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Kostel svatého Jiří (Jenišovice) — Wikipedie.",
-      "author": "",
-      "year": "",
-      "url": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Ji%C5%99%C3%AD_(Jeni%C5%A1ovice)",
-      "files": [
-        "content/soupis-veznich-hodin/1882-jenisovice-u-turnova-prokes.mdx"
-      ],
-      "count": 1,
-      "citationKey": "KostelSvatehoJiri",
-      "zoteroTitle": "Kostel svatého Jiří (Jenišovice) — Wikipedie.",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Smidary — Wikipedie.",
-      "author": "",
-      "year": "",
-      "url": "https://cs.wikipedia.org/wiki/Smidary",
-      "files": [
-        "content/soupis-veznich-hodin/1886-smidary-nad-cidlinou-prokes.mdx"
-      ],
-      "count": 1,
-      "citationKey": "SmidaryWikipedie",
-      "zoteroTitle": "Smidary — Wikipedie.",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Unikátní věžní hodiny čeká oprava.",
-      "author": "",
-      "year": "2010",
-      "url": "https://klatovsky.denik.cz/zpravy_region/unikatni-vezni-hodiny-ceka-oprava20100525.html",
-      "files": [
-        "content/soupis-veznich-hodin/1898-hradesice-krecmer.mdx"
-      ],
-      "count": 1,
-      "citationKey": "UnikatniVezniHodiny2010",
-      "zoteroTitle": "Unikátní věžní hodiny čeká oprava.",
-      "score": 0.8,
-      "reasons": [
-        "strong-title",
-        "exact-year"
-      ]
-    },
-    {
       "title": "Bylany (Malé Březno) — Wikipedie.",
       "author": "",
       "year": "",
@@ -340,38 +78,6 @@
       "count": 1,
       "citationKey": "BylanyMaleBrezno",
       "zoteroTitle": "Bylany (Malé Březno) — Wikipedie.",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Bylany (zanikleobce.cz).",
-      "author": "",
-      "year": "",
-      "url": "https://www.zanikleobce.cz/index.php?obec=251",
-      "files": [
-        "content/soupis-veznich-hodin/hellich-bylany-most-janata.mdx"
-      ],
-      "count": 1,
-      "citationKey": "BylanyZanikleobcecz",
-      "zoteroTitle": "Bylany (zanikleobce.cz).",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Zaniklé obce — Bylany. Statutární město Most.",
-      "author": "",
-      "year": "",
-      "url": "https://www.mesto-most.cz/zanikle-obce-bylany/d-48731",
-      "files": [
-        "content/soupis-veznich-hodin/hellich-bylany-most-janata.mdx"
-      ],
-      "count": 1,
-      "citationKey": "ZanikleObceBylany",
-      "zoteroTitle": "Zaniklé obce — Bylany. Statutární město Most.",
       "score": 0.7,
       "reasons": [
         "strong-title"
@@ -427,24 +133,6 @@
       ]
     },
     {
-      "title": "Závěrečná zpráva o restaurování věžních hodin zámku Bečváry",
-      "author": "Petr Skála (s Melanií Skálovou)",
-      "year": "2003",
-      "url": "",
-      "files": [
-        "content/soupis-veznich-hodin/nedatovano-becvary-landesberger.mdx"
-      ],
-      "count": 1,
-      "citationKey": "skalovouZaverecnaZpravaRestaurovani2003",
-      "zoteroTitle": "Závěrečná zpráva o restaurování věžních hodin zámku Bečváry",
-      "score": 1,
-      "reasons": [
-        "strong-title",
-        "exact-author",
-        "exact-year"
-      ]
-    },
-    {
       "title": "Bečváry (starý zámek) — Wikipedie.",
       "author": "",
       "year": "",
@@ -455,54 +143,6 @@
       "count": 1,
       "citationKey": "BecvaryStaryZamek",
       "zoteroTitle": "Bečváry (starý zámek) — Wikipedie.",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Bečváry — starý zámek (Cesty a památky).",
-      "author": "",
-      "year": "",
-      "url": "https://www.cestyapamatky.cz/kolinsko/becvary/stary-zamek",
-      "files": [
-        "content/soupis-veznich-hodin/nedatovano-becvary-landesberger.mdx"
-      ],
-      "count": 1,
-      "citationKey": "BecvaryStaryZameka",
-      "zoteroTitle": "Bečváry — starý zámek (Cesty a památky).",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Burg Raabs an der Thaya — Wikipedia (DE).",
-      "author": "",
-      "year": "",
-      "url": "https://de.wikipedia.org/wiki/Burg_Raabs_an_der_Thaya",
-      "files": [
-        "content/soupis-veznich-hodin/nedatovano-raabs-an-der-thaya-prokes.mdx"
-      ],
-      "count": 1,
-      "citationKey": "BurgRaabsThaya",
-      "zoteroTitle": "Burg Raabs an der Thaya — Wikipedia (DE).",
-      "score": 0.7,
-      "reasons": [
-        "strong-title"
-      ]
-    },
-    {
-      "title": "Raabs an der Thaya — Wikipedie.",
-      "author": "",
-      "year": "",
-      "url": "https://cs.wikipedia.org/wiki/Raabs_an_der_Thaya",
-      "files": [
-        "content/soupis-veznich-hodin/nedatovano-raabs-an-der-thaya-prokes.mdx"
-      ],
-      "count": 1,
-      "citationKey": "RaabsThayaWikipedie",
-      "zoteroTitle": "Raabs an der Thaya — Wikipedie.",
       "score": 0.7,
       "reasons": [
         "strong-title"
