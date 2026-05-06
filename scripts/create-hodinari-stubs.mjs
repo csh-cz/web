@@ -137,9 +137,12 @@ for (const e of missing) {
   lines.push("import EditorNote from '../../apps/hodinarium-eu/src/components/EditorNote.astro';");
   lines.push('');
   lines.push(`<EditorNote level="todo" title="Medailon je stub" sourceFile="content/hodinari/${e.slug}.mdx">`);
-  lines.push('  Doplň: životopis (vyučení, dílna, geografický rozsah práce), primární prameny,');
-  lines.push('  references, portrétní fotku. Frontmatter `isStub` po doplnění odeber, ať se');
-  lines.push('  veřejná „profil je stub" hláška skryje.');
+  lines.push('  Pokud máš prameny, doplň: životopis (vyučení, dílna, geografický rozsah práce),');
+  lines.push('  primární prameny, references, portrétní fotku. Pak frontmatter `isStub` odeber.');
+  lines.push('');
+  lines.push('  **Není povinnost** psát plný medailon — pro mezinárodně známé / historicky');
+  lines.push('  významné hodináře (Breguet, Huygens, Graham, Harrison…), které vedeme jen');
+  lines.push('  referenčně kvůli zařazení do era + cross-linkům, **stub se shrnutím stačí**.');
   lines.push('</EditorNote>');
   lines.push('');
 
