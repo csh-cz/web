@@ -224,13 +224,13 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
     <table class="soupis-table" id="soupis-table">
       <thead>
         <tr>
-          <th>Rok</th>
-          <th>Hodinář</th>
-          <th>Místo</th>
-          <th>Budova</th>
-          <th>Kraj / Stát</th>
-          <th>Stav</th>
-          <th>Krok</th>
+          <th data-sort="rok" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Rok</th>
+          <th data-sort="hodinar" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Hodinář</th>
+          <th data-sort="misto" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Místo</th>
+          <th data-sort="budova" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Budova</th>
+          <th data-sort="kraj" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Kraj / Stát</th>
+          <th data-sort="stav" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Stav</th>
+          <th data-sort="krok" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Krok</th>
         </tr>
       </thead>
       <tbody>
@@ -243,11 +243,15 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
           return (
             <tr
               data-hodinar={hodinarKey}
+              data-hodinar-name={h.data.hodinar ? displayHodinar(h.data.hodinar) : (h.data.hodinarText || '')}
               data-rok={yrSafe}
               data-misto={place.filter}
+              data-obec={h.data.puvodniMisto.obec}
+              data-budova={h.data.puvodniMisto.budova || ''}
               data-kraj={h.data.puvodniMisto.kraj || ''}
               data-stat={h.data.puvodniMisto.zeme || ''}
               data-krok={krokKw}
+              data-krok-full={h.data.krok || ''}
               data-stav={h.data.stav}
             >
               <td><strong>{h.data.rok}</strong></td>
@@ -365,28 +369,131 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
         $hod.value = ''; $stat.value = ''; $kraj.value = ''; $krok.value = '';
         $rOd.value = ''; $rDo.value = ''; $misto.value = '';
         $stavCBs.forEach((c) => { c.checked = true; });
+        sortState = { col: null, dir: null };
+        renderSortIndicators();
+        // Restore original DOM order
+        const tbody = table.querySelector('tbody');
+        for (const r of rows) tbody.appendChild(r);
         applyFilters();
+        writeUrl();
       }
 
-      [$hod, $stat, $kraj, $krok, $rOd, $rDo].forEach((el) => el.addEventListener('change', applyFilters));
-      $misto.addEventListener('input', applyFilters);
-      $stavCBs.forEach((cb) => cb.addEventListener('change', applyFilters));
+      [$hod, $stat, $kraj, $krok, $rOd, $rDo].forEach((el) => el.addEventListener('change', () => { applyFilters(); writeUrl(); }));
+      $misto.addEventListener('input', () => { applyFilters(); writeUrl(); });
+      $stavCBs.forEach((cb) => cb.addEventListener('change', () => { applyFilters(); writeUrl(); }));
       $reset.addEventListener('click', reset);
 
-      // Read URL params (deep-linkable filters)
-      const params = new URLSearchParams(window.location.search);
-      if (params.has('hodinar')) $hod.value = params.get('hodinar') || '';
-      if (params.has('stat')) $stat.value = params.get('stat') || '';
-      if (params.has('kraj')) $kraj.value = params.get('kraj') || '';
-      if (params.has('krok')) $krok.value = params.get('krok') || '';
-      if (params.has('rokOd')) $rOd.value = params.get('rokOd') || '';
-      if (params.has('rokDo')) $rDo.value = params.get('rokDo') || '';
-      if (params.has('misto')) $misto.value = params.get('misto') || '';
-      if (params.has('stav')) {
-        const allowed = new Set(params.get('stav').split(','));
-        $stavCBs.forEach((c) => { c.checked = allowed.has(c.value); });
+      // === URL ↔ filter state ===
+      function readUrl() {
+        const params = new URLSearchParams(window.location.search);
+        if (params.has('hodinar')) $hod.value = params.get('hodinar') || '';
+        if (params.has('stat')) $stat.value = params.get('stat') || '';
+        if (params.has('kraj')) $kraj.value = params.get('kraj') || '';
+        if (params.has('krok')) $krok.value = params.get('krok') || '';
+        if (params.has('rokOd')) $rOd.value = params.get('rokOd') || '';
+        if (params.has('rokDo')) $rDo.value = params.get('rokDo') || '';
+        if (params.has('misto')) $misto.value = params.get('misto') || '';
+        if (params.has('stav')) {
+          const allowed = new Set(params.get('stav').split(','));
+          $stavCBs.forEach((c) => { c.checked = allowed.has(c.value); });
+        }
+        if (params.has('sort')) {
+          const [col, dir] = params.get('sort').split(':');
+          if (col && (dir === 'asc' || dir === 'desc')) {
+            sortState = { col, dir };
+          }
+        }
+        const hasAny = params.toString().length > 0;
+        if (hasAny) {
+          applyFilters();
+          if (sortState.col) applySort();
+          renderSortIndicators();
+        }
       }
-      if (params.toString()) applyFilters();
+      function writeUrl() {
+        const p = new URLSearchParams();
+        if ($hod.value) p.set('hodinar', $hod.value);
+        if ($stat.value) p.set('stat', $stat.value);
+        if ($kraj.value) p.set('kraj', $kraj.value);
+        if ($krok.value) p.set('krok', $krok.value);
+        if ($rOd.value) p.set('rokOd', $rOd.value);
+        if ($rDo.value) p.set('rokDo', $rDo.value);
+        if ($misto.value) p.set('misto', $misto.value);
+        const stavOn = $stavCBs.filter((c) => c.checked).map((c) => c.value);
+        if (stavOn.length !== $stavCBs.length) p.set('stav', stavOn.join(','));
+        if (sortState.col && sortState.dir) p.set('sort', `${sortState.col}:${sortState.dir}`);
+        const qs = p.toString();
+        const url = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+        window.history.replaceState(null, '', url);
+      }
+
+      // === Sortable columns ===
+      let sortState = { col: null, dir: null };
+      const sortableHeaders = Array.from(table.querySelectorAll('th.sortable'));
+
+      function compareValue(tr, col) {
+        switch (col) {
+          case 'rok':     { const v = parseInt(tr.dataset.rok, 10); return isNaN(v) ? Infinity : v; }
+          case 'hodinar': return (tr.dataset.hodinarName || '').toLowerCase();
+          case 'misto':   return (tr.dataset.obec || '').toLowerCase();
+          case 'budova':  return (tr.dataset.budova || '').toLowerCase();
+          case 'kraj':    return ((tr.dataset.kraj || tr.dataset.stat) || '').toLowerCase();
+          case 'stav':    return tr.dataset.stav || '';
+          case 'krok':    return (tr.dataset.krokFull || '').toLowerCase();
+          default: return '';
+        }
+      }
+      function applySort() {
+        if (!sortState.col || !sortState.dir) return;
+        const tbody = table.querySelector('tbody');
+        const visible = rows.filter((r) => r.style.display !== 'none');
+        const hidden = rows.filter((r) => r.style.display === 'none');
+        const sorted = [...visible].sort((a, b) => {
+          const va = compareValue(a, sortState.col);
+          const vb = compareValue(b, sortState.col);
+          let cmp;
+          if (typeof va === 'number' && typeof vb === 'number') cmp = va - vb;
+          else cmp = String(va).localeCompare(String(vb), 'cs');
+          return sortState.dir === 'desc' ? -cmp : cmp;
+        });
+        for (const r of sorted) tbody.appendChild(r);
+        for (const r of hidden) tbody.appendChild(r);
+      }
+      function renderSortIndicators() {
+        for (const th of sortableHeaders) {
+          const col = th.dataset.sort;
+          if (sortState.col === col) {
+            th.setAttribute('aria-sort', sortState.dir === 'asc' ? 'ascending' : 'descending');
+            th.dataset.sortDir = sortState.dir;
+          } else {
+            th.setAttribute('aria-sort', 'none');
+            delete th.dataset.sortDir;
+          }
+        }
+      }
+      function toggleSort(col) {
+        if (sortState.col !== col) {
+          sortState = { col, dir: 'asc' };
+        } else if (sortState.dir === 'asc') {
+          sortState = { col, dir: 'desc' };
+        } else {
+          sortState = { col: null, dir: null };
+        }
+        applySort();
+        renderSortIndicators();
+        writeUrl();
+      }
+      sortableHeaders.forEach((th) => {
+        th.addEventListener('click', () => toggleSort(th.dataset.sort));
+        th.addEventListener('keydown', (ev) => {
+          if (ev.key === 'Enter' || ev.key === ' ') {
+            ev.preventDefault();
+            toggleSort(th.dataset.sort);
+          }
+        });
+      });
+
+      readUrl();
     })();
   </script>
 </Base>
@@ -563,6 +670,31 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
     letter-spacing: 0.05em;
     font-size: 0.78rem;
   }
+
+  /* Sortable column headers */
+  th.sortable {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    padding-right: 1.4rem;
+  }
+  th.sortable:hover { color: var(--color-text); }
+  th.sortable:focus-visible {
+    outline: 2px solid var(--color-brass-bright);
+    outline-offset: -2px;
+  }
+  th.sortable::after {
+    content: '↕';
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-brass);
+    opacity: 0.4;
+    font-size: 0.85em;
+  }
+  th.sortable[data-sort-dir="asc"]::after { content: '↑'; opacity: 1; color: var(--color-brass-bright); }
+  th.sortable[data-sort-dir="desc"]::after { content: '↓'; opacity: 1; color: var(--color-brass-bright); }
 
   .stav-badge {
     display: inline-block;
