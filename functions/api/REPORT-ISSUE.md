@@ -7,6 +7,14 @@ vyplní typ problému + popis, klikne Odeslat. Pages Function vytvoří
 GitHub Issue v repu webu s labely (default `web-bug`, `editor-report`)
 a vrátí číslo + URL issue. Editor vidí potvrzení s odkazem.
 
+**Příjmová strana:** otevřené reporty se v dashboardu `/redakce/`
+zobrazují v topu jako panel **„Hlášení od editorů"** —
+Pages Function `/api/admin/reports` fetchuje issues s labelem `web-bug`
+a komponenta `RedakceReportsPanel.astro` je rendruje s parsovaným
+URL / typem / popisem / reporterem + tlačítky „Otevřít stránku" a
+„Otevřít na GitHubu". Po opravě commit s textem `Closes #N` uzavře
+issue automaticky.
+
 ## Architektura
 
 ```

@@ -35,11 +35,25 @@ fetch s `cf: { cacheEverything: true }` a drží v V8 isolate (cold start
    - Account scope: tvůj Cloudflare account
    - TTL: 1 rok (nebo bez expirace pro dev)
 2. **Account ID** — dash → Workers & Pages → Overview → sidebar.
-3. **Lokálně:**
+3. **Lokálně** — dvě možnosti:
+
+   **A) `.env` soubor** (doporučeno — token zůstává napříč session):
+   ```bash
+   cat > .env << 'EOF'
+   CLOUDFLARE_API_TOKEN=abc123...
+   CLOUDFLARE_ACCOUNT_ID=def456...
+   EOF
+   pnpm search:rebuild
+   ```
+   `.env` je v `.gitignore`. `build-semantic-index.mjs` ho načte
+   automaticky (jednoduchý built-in parser, žádná npm dependence).
+   Manuální `export` v shellu má přednost před `.env`.
+
+   **B) Manuální export pro 1 spuštění:**
    ```bash
    export CLOUDFLARE_API_TOKEN=...
    export CLOUDFLARE_ACCOUNT_ID=...
-   pnpm search:rebuild  # extract + embed
+   pnpm search:rebuild
    ```
 4. **Cloudflare Pages** — dash → Pages → hodinarium-eu → Settings →
    Functions → Bindings → AI → binding name: `AI`. (`wrangler.toml`
