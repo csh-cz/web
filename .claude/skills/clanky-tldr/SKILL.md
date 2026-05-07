@@ -175,7 +175,20 @@ Při generování tldr, kde citujeme nebo zkracujeme body, **držet termíny tak
 
 Plné pravidlo: viz feedback memory `feedback_respektovat_odbornou_terminologii.md`.
 
-## 7. Čeština — vždy přes skill `cestina`
+## 7. Hodinářská terminologie — přes skill `horologicka-terminologie`
+
+Pro tldr o hodinách / věžních strojích / sbírkových exponátech aplikuj user-scope skill `horologicka-terminologie`. Klíčová pravidla (která se s `cestina` doplňují):
+
+- **Krok**, ne „escapement" ani „únik"
+- **Soukolí**, ne „vlak"
+- **Krokové kolo**, ne „uniká kolo"
+- **Bití**, ne „úhozy" jako popis činnosti
+- **Vratný kotvový krok** vs. **klidový krok (Grahamův)** — důsledně rozlišovat
+- Když si nejsem jistý termínem (zejména specifickou variantou jako „věžní třísoukolový stroj"), **ověřit v Zotero** (Knespl, Michal, Dietzschold) místo vymýšlení.
+
+Plný glosář a časté chybné překlady: viz `~/.claude/skills/horologicka-terminologie/reference/`.
+
+## 8. Čeština — vždy přes skill `cestina`
 
 Tldr je krátký, ale **viditelný** český text — jde do meta description, OG/Twitter Card, perex pod titulkem, RSS feedu, search snippetu. Špatná čeština nebo AI tells (šablonovité fráze, anglicismy, nadužívaná slova) sníží důvěru čtenáře. Vždy aplikuj pravidla skillu `cestina`:
 
@@ -198,7 +211,7 @@ Při generování tldr přes batch agent nebo manuálně **vždy přečti hotov�
 | „Komplexní soustava hodinového a zvonicího mechanismu." | „Dvě soukolí — hodinové a zvonicí — propojená převodem 1:2." |
 | „Tento unikátní kus představuje zajímavou ukázku…" | „Vřetenový stroj s lihýřem, jediný dochovaný exemplář v Čechách." |
 
-## 8. Validation
+## 9. Validation
 
 Skript `scripts/audit-tldr.mjs` heuristicky kontroluje:
 
