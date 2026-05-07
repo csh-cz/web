@@ -1,4 +1,5 @@
 ---
+import { getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { kroky } from '../../data/kroky';
@@ -20,6 +21,14 @@ const all = catalog as CatalogEntry[];
 const related = krok.relatedSlugs
   .map((s) => all.find((e) => e.slug === s))
   .filter((e): e is CatalogEntry => Boolean(e));
+
+// Pokud existuje MDX detail (content/kroky/<slug>.mdx), použij ho
+// místo charakteristika+images z kroky.ts. To umožňuje plný technický
+// článek s vlastním layoutem (sekce, tabulky, hero foto, inline figures).
+const detail = await getEntry('kroky', krok.slug);
+const Detail = detail ? (await render(detail)).Content : null;
+const hero = detail?.data.hero;
+const perex = detail?.data.perex;
 ---
 <Base
   title={`${krok.jmeno} — hodinový krok`}
@@ -64,26 +73,44 @@ const related = krok.relatedSlugs
       </dl>
     </header>
 
+    {hero && (
+      <figure class="krok-hero">
+        <img src={hero.src} alt={hero.alt} loading="eager" decoding="async" />
+        {hero.caption && <figcaption>{hero.caption}</figcaption>}
+        <p class="krok-figure-credit"><em>{hero.credit}</em></p>
+      </figure>
+    )}
+
     <div class="prose-content">
-      <p class="lead">{krok.shrnuti}</p>
+      {perex
+        ? <p class="lead">{perex}</p>
+        : <p class="lead">{krok.shrnuti}</p>
+      }
 
-      <h2>Charakteristika</h2>
-      <p>{krok.charakteristika}</p>
+      {Detail
+        ? <Detail />
+        : (
+          <>
+            <h2>Charakteristika</h2>
+            <p>{krok.charakteristika}</p>
 
-      {krok.images && krok.images.length > 0 && (
-        <section class="krok-images" aria-labelledby="krok-images-heading">
-          <h2 id="krok-images-heading">Obrazové prameny</h2>
-          {krok.images.map((img) => (
-            <figure class="krok-figure">
-              <a href={img.src} target="_blank" rel="noopener" aria-label="Otevřít v plné velikosti">
-                <img src={img.src} alt={img.alt} loading="lazy" decoding="async" />
-              </a>
-              {img.caption && <figcaption>{img.caption}</figcaption>}
-              <p class="krok-figure-credit"><em>{img.credit}</em></p>
-            </figure>
-          ))}
-        </section>
-      )}
+            {krok.images && krok.images.length > 0 && (
+              <section class="krok-images" aria-labelledby="krok-images-heading">
+                <h2 id="krok-images-heading">Obrazové prameny</h2>
+                {krok.images.map((img) => (
+                  <figure class="krok-figure">
+                    <a href={img.src} target="_blank" rel="noopener" aria-label="Otevřít v plné velikosti">
+                      <img src={img.src} alt={img.alt} loading="lazy" decoding="async" />
+                    </a>
+                    {img.caption && <figcaption>{img.caption}</figcaption>}
+                    <p class="krok-figure-credit"><em>{img.credit}</em></p>
+                  </figure>
+                ))}
+              </section>
+            )}
+          </>
+        )
+      }
 
       {(!krok.references || krok.references.length === 0) && (
         <aside class="krok-stub-note">
@@ -233,6 +260,57 @@ const related = krok.relatedSlugs
     font-size: 0.95rem;
     line-height: 1.55;
     color: var(--color-text-soft);
+  }
+
+  .krok-hero {
+    margin: 0 0 2rem;
+    padding: 0;
+  }
+  .krok-hero img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  .krok-hero figcaption {
+    margin-top: 0.75rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--color-text);
+    font-style: italic;
+  }
+
+  /* MDX body styling — figury inline v textu článku.
+     Definováno na .prose-content scope, takže neovlivňuje sekci
+     "Obrazové prameny" v fallback režimu (ta má vlastní .krok-figure
+     s vlastním paddingem). */
+  .prose-content :global(.krok-figure) {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+  }
+  .prose-content :global(.krok-figure img) {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .prose-content :global(.krok-figure figcaption) {
+    margin-top: 0.75rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--color-text);
+  }
+  .prose-content :global(.krok-figure-credit) {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    line-height: 1.4;
   }
 
   .krok-images {
