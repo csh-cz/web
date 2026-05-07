@@ -80,7 +80,7 @@ export const hodinari: Hodinar[] = [
       'bychory_dalsi_kola',
       'bychory_prokes1',
       'decin_bici_stroje',
-      'decin_koncepce',
+      'o-hodinariu',
       'inv-2-vezni-prokes-1868-soubor',
       'inv-32-vezni-skalice',
       'kinsner-astronomicke-hodiny',
@@ -199,7 +199,7 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: [
       'decin_aktual0',
       'decin_galerie',
-      'decin_koncepce',
+      'o-hodinariu',
       'inv-41-hodiny-achrer',
     ],
     era: '20stol',
@@ -367,7 +367,7 @@ export const hodinari: Hodinar[] = [
       'Kappa',
       'decin_galerie',
       'decin_jednotny_cas',
-      'decin_koncepce',
+      'o-hodinariu',
       'decin_regulaceIBM',
       'decin_vypousteny',
       'elektrina-ve-sluzbach-casu',
@@ -410,7 +410,7 @@ export const hodinari: Hodinar[] = [
     shrnuti:
       'Národní podnik Pragotron vyráběl docházkové (píchací) hodiny, kontrolní hodiny a později také digitální časové displeje. Spolu s Elektročasem reprezentoval československou poválečnou hodinářskou výrobu.',
     relatedSlugs: [
-      'decin_koncepce',
+      'o-hodinariu',
       'elektricke1',
       'inv-121-podruzne-pragotron-perla',
       'inv-127-podruzne-hodiny-pragotron',
@@ -814,7 +814,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Akademický sochař (ak. soch.), spoluautor [orloje Skála (inv. 47)](/sbirka/karta/inv-47-orloj-skala/) v Hodináriu Děčín. V roce 2009 omaloval plochu orlojní desky uměleckým výtvarným ztvárněním. Orloj byl dokončen v červenci 2015. Společné dílo s Miroslavem Skálou zachycuje moderní výtvarný přístup k orlojní ikonografii.',
-    relatedSlugs: ['inv-47-orloj-skala', 'decin_galerie', 'decin_koncepce'],
+    relatedSlugs: ['inv-47-orloj-skala', 'decin_galerie', 'o-hodinariu'],
     era: 'soucasnost',
   },
   {
@@ -874,7 +874,7 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: [
       'akvizice-2015-2025',
       'datumatik',
-      'decin_koncepce',
+      'o-hodinariu',
       'decin_velika_ves',
       'inv-28-vezni-se-setrvackou',
       'panel-1-hipp-wagner-brillie',
@@ -899,7 +899,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'DE',
     shrnuti:
       'Saský hodinář z Lipska, výrobce věžních hodin v 2. polovině 19. století. Jeho stroj z roku 1884 je v Hodináriu Děčín ([inv. 1](/sbirka/karta/inv-1-vezni-hiemann-1884/)) — byl zakoupen evangelickým kostelem v Děčíně-Podmoklech a sloužil tam až do osmdesátých let 20. století.',
-    relatedSlugs: ['decin_koncepce', 'inv-1-vezni-hiemann-1884', 'vez_decin'],
+    relatedSlugs: ['o-hodinariu', 'inv-1-vezni-hiemann-1884', 'vez_decin'],
     era: '19stol',
   },
   {
@@ -949,7 +949,7 @@ export const hodinari: Hodinar[] = [
       'brillie',
       'bulle',
       'decin_NTP',
-      'decin_koncepce',
+      'o-hodinariu',
       'inv-268-podruzne-brillie',
       'inv-37-bici-stroj-brillie',
       'inv-88-brillie',
@@ -1054,7 +1054,7 @@ export const hodinari: Hodinar[] = [
     shrnuti:
       'Slavná švýcarská hodinářská firma, založená v roce **1865 v Le Locle** (Jura) Georgem Favre-Jacotem. Známá především pro chronografy a mechanická hodinářská řešení; v Hodináriu je [matiční Zenith (inv. 89)](/sbirka/karta/inv-89-maticni-zenith/) — pérovník přes převod napojený na Ferrarisův motorek 70 V, hodinový stroj s Grahamovým krokem.',
     relatedSlugs: [
-      'decin_koncepce',
+      'o-hodinariu',
       'ferramo',
       'inv-89-maticni-zenith',
       'panel-1-hipp-wagner-brillie',
@@ -1147,7 +1147,7 @@ export const hodinari: Hodinar[] = [
       'Současná česká sklárna a výrobce uměleckých skleněných objektů, mj. **modelů orlojů a hodin se sklem**. V Hodináriu Děčín jsou exponáty: [skeletové hodiny Kavalír (inv. 54)](/sbirka/karta/inv-54-skeletove-hodiny-kavalir/), [Orloj Kavalír — model (inv. 65)](/sbirka/karta/inv-65-orloj-kavalir/), [Cimbál s odbíjením (inv. 66)](/sbirka/karta/inv-66-cimbal-s-odbijenim/), [Zvonění Kavalír (inv. 243)](/sbirka/karta/inv-243-zvoneni-kavalir/). Firma vyrábí i odbíjecí zařízení s programovatelnou dobou odbíjení.',
     relatedSlugs: [
       'decin_chronulator',
-      'decin_koncepce',
+      'o-hodinariu',
       'inv-169-retrogradni-kavalir',
       'inv-202-retrogradni-kavalir',
       'inv-243-zvoneni-kavalir',
@@ -1170,7 +1170,7 @@ export const hodinari: Hodinar[] = [
     shrnuti:
       'Česká firma vyrábějící **moderní hlavní a podružné hodiny** s digitální/elektronickou technologií. V Hodináriu Děčín je [Mini hlavní hodiny Elekon HN61 (inv. 124)](/sbirka/karta/inv-124-mini-hlavni-hodiny-hn61/) v Panelu 5, plus distribuce hodin Mobatime ([inv. 125](/sbirka/karta/inv-125-podruzne-hodiny-mobatime/)).',
     relatedSlugs: [
-      'decin_koncepce',
+      'o-hodinariu',
       'inv-124-mini-hlavni-hodiny-hn61',
       'inv-125-podruzne-hodiny-mobatime',
       'inv-x13-hodiny-hn350',
@@ -1598,7 +1598,7 @@ export const hodinari: Hodinar[] = [
       'decin_NTP',
       'decin_galerie',
       'decin_jednotny_cas',
-      'decin_koncepce',
+      'o-hodinariu',
       'decin_regulaceIBM',
       'decin_velika_ves',
       'elektromagneticke_segmenty',
