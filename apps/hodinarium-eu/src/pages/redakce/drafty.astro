@@ -1,0 +1,161 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { clanekHref } from '../../data/url-helpers';
+
+/**
+ * /redakce/drafty — Seznam rozpracovaných článků (draft: true ve frontmatteru).
+ *
+ * Stránka pro přihlášené editory. Anonymní návštěvník vidí gate ("musíš se
+ * přihlásit"), nikoliv seznam. Stejný pattern jako /redakce/index.astro.
+ *
+ * Drafty jsou v dist/ vždy generované (HTML existuje na URL), ale:
+ *   - vyloučené z catalog.json → nezobrazí se v indexech (kategorie, /sbirka, …)
+ *   - vyloučené z RSS feedu
+ *   - vyloučené z search corpus
+ *   - mají <meta name="robots" content="noindex, nofollow">
+ *   - tělo článku je CSS-skryté pro non-editor (.draft-placeholder se zobrazí)
+ *
+ * Z této stránky jdou linky přímo na draft article URL, kde editor v editor mode
+ * uvidí plný obsah.
+ */
+
+const all = await getCollection('clanky');
+const drafts = all
+  .filter((e) => e.data.draft === true)
+  .map((e) => ({
+    slug: e.id,
+    title: e.data.title,
+    category: e.data.category,
+    podsekce: e.data.podsekce,
+    href: e.data.podsekce === 'karta'
+      ? `/sbirka/karta/${e.id}`
+      : clanekHref({ slug: e.data.slug, category: e.data.category }),
+    cmsEditUrl: `/admin/#/collections/${e.data.podsekce === 'karta' ? 'karty' : 'clanky'}/entries/${e.id}`,
+    inv: e.data.karta?.inventarniCislo,
+    lastModified: e.data.lastModified,
+  }))
+  .sort((a, b) => a.title.localeCompare(b.title, 'cs'));
+---
+
+<Base title="Drafty — Redakce" description="Seznam rozpracovaných článků a karet" noindex>
+  <div class="container narrow">
+    <h1>Drafty</h1>
+    <p class="lede">
+      Rozpracované články a karty (frontmatter <code>draft: true</code>). Veřejně skryté.
+    </p>
+
+    {/* Auth gate — zobrazí se anonymovi, schová se po authed fetch /api/cms/auth/user */}
+    <div id="drafty-auth-gate" class="auth-gate">
+      <p>
+        Tato stránka je dostupná jen přihlášeným editorům. Přihlas se v <a href="/admin/">CMS</a>.
+      </p>
+    </div>
+
+    {/* Editor obsah — default hidden, JS odhalí po authed check */}
+    <div id="drafty-content" class="hidden">
+      {drafts.length === 0 ? (
+        <p>Žádný článek nemá <code>draft: true</code> ve frontmatteru.</p>
+      ) : (
+        <>
+          <p><strong>{drafts.length}</strong> rozpracovaných položek:</p>
+          <ul class="drafty-list">
+            {drafts.map((d) => (
+              <li>
+                <a href={d.href}>
+                  {d.inv && <span class="inv">inv. č. {d.inv}</span>}
+                  <strong>{d.title}</strong>
+                  <span class="meta">/{d.category}{d.podsekce === 'karta' ? '/karta' : ''}/{d.slug}</span>
+                </a>
+                <a href={d.cmsEditUrl} class="cms-link" title="Otevřít v CMS">✎</a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+    </div>
+  </div>
+</Base>
+
+<script>
+  // Stejný gating pattern jako /redakce/index.astro.
+  (async () => {
+    let authenticated = false;
+    try {
+      const r = await fetch('/api/cms/auth/user', { credentials: 'include' });
+      if (r.ok) {
+        const ct = r.headers.get('content-type') || '';
+        if (ct.includes('json')) {
+          const u = await r.json();
+          authenticated = !!(u as { authenticated?: boolean }).authenticated;
+        }
+      }
+    } catch { /* anonymous */ }
+
+    const gate = document.getElementById('drafty-auth-gate');
+    const content = document.getElementById('drafty-content');
+    if (authenticated) {
+      content?.classList.remove('hidden');
+      gate?.classList.add('hidden');
+    } else {
+      content?.classList.add('hidden');
+      gate?.classList.remove('hidden');
+    }
+  })();
+</script>
+
+<style>
+  .container.narrow {
+    max-width: 65ch;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  h1 { margin-bottom: 0.5rem; }
+  .lede { color: var(--csh-color-text-muted, #6a5f4a); margin-bottom: 2rem; }
+  .auth-gate {
+    padding: 1.5rem;
+    background: var(--csh-color-surface, #faf6ec);
+    border: 1px dashed var(--csh-color-border, #d4cdb8);
+    border-radius: 6px;
+    text-align: center;
+  }
+  .hidden { display: none; }
+  .drafty-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  .drafty-list li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--csh-color-border, #ece5d2);
+  }
+  .drafty-list a {
+    flex: 1;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .drafty-list a:hover strong { text-decoration: underline; }
+  .drafty-list .inv {
+    font-family: ui-monospace, 'SFMono-Regular', monospace;
+    font-size: 0.85em;
+    color: var(--csh-color-text-muted, #6a5f4a);
+  }
+  .drafty-list .meta {
+    font-size: 0.85em;
+    color: var(--csh-color-text-muted, #6a5f4a);
+    font-family: ui-monospace, 'SFMono-Regular', monospace;
+  }
+  .cms-link {
+    text-decoration: none;
+    font-size: 1.1em;
+    opacity: 0.6;
+  }
+  .cms-link:hover { opacity: 1; }
+</style>

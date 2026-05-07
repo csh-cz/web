@@ -189,6 +189,12 @@ async function main() {
       ? (fm.searchKeywords as unknown[]).filter((t): t is string => typeof t === 'string' && t.length > 0)
       : undefined;
 
+    // Draft articles (`draft: true` ve frontmatteru) jsou viditelné jen v editor mode.
+    // Skip z catalog → automaticky se vyloučí ze všech indexů (kategorie, /sbirka,
+    // /tagy, /kronika, related-karty list, search corpus). Editor přístup k draftům
+    // jde přes /redakce/drafts (server-side listing přes getCollection).
+    if (fm.draft === true) continue;
+
     const podsekce = typeof fm.podsekce === 'string' ? fm.podsekce : undefined;
 
     catalog.push({
