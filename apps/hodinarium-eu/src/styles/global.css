@@ -1,5 +1,11 @@
 @import "tailwindcss";
-@plugin "@tailwindcss/typography";
+/* @plugin "@tailwindcss/typography" odstraněno (2026-05) — plugin
+ * automaticky aplikoval `max-width: 65ch` na všechny elementy s class
+ * `.prose`, což zužovalo body na detail pages. Web používá vlastní
+ * `.prose-content` (definováno níže) bez šířkového omezení; Tailwind
+ * Typography utility (`prose`, `prose-sm`, `prose-invert`, ...) nikde
+ * v src/ nepoužity, takže odstranění je no-op pro vizuál a jen brání
+ * budoucímu nedopatření. */
 
 @theme {
   /* Teplá podlaha staré observatoře: hluboká kávová tma, ne studená modř */
@@ -441,8 +447,7 @@ summary::-webkit-details-marker { display: none; }
   border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
 }
 
-.prose-content blockquote,
-.prose blockquote {
+.prose-content blockquote {
   border-left: 2px solid var(--color-copper);
   padding: 0.5em 0 0.5em 1.5rem;
   font-style: italic;
@@ -452,12 +457,11 @@ summary::-webkit-details-marker { display: none; }
   margin-block: 1.75em;
 }
 
-/* Vypnout Tailwind typography auto-uvozovky (CSS ::before / ::after open/close-quote)
-   — autor cituje s vlastními uvozovkami v textu, automatické double-quoting láme citáty. */
+/* Auto-uvozovky vypnuty (Tailwind Typography plugin už není registrovaný,
+   ale rule zachováme jako defense-in-depth — kdyby někdo do MDX vložil
+   blockquote s ::before/::after content nastaveným z jiného zdroje). */
 .prose-content blockquote p::before,
-.prose-content blockquote p::after,
-.prose blockquote p::before,
-.prose blockquote p::after {
+.prose-content blockquote p::after {
   content: none !important;
 }
 
