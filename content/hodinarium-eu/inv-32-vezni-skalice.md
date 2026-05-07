@@ -8,6 +8,7 @@ lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.524Z"
 manualEdit: true
+tldr: "Inv. č. 32. Tříokruhový stroj, který v roce 1882 zakoupil farář Rathauský pro kostel v České Skalici (Jan Prokeš, Sobotka). Železný kovaný rám, Robertův krok, spouštění bití bez náběhu."
 author: "Český spolek horologický"
 tags:
   - hlavni-sal

@@ -8,6 +8,7 @@ lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.519Z"
 manualEdit: true
+tldr: "Inv. č. 2. Komplet ze zámku Býchory (1868) s Robertovým krokem, jednopákovým vypouštěním bicích strojů a cévkovými pastorky. Signatura Jana Prokeše ze Sobotky."
 author: "Český spolek horologický"
 tags:
   - hlavni-sal

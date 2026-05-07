@@ -8,6 +8,7 @@ lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.524Z"
 manualEdit: true
+tldr: "Inv. č. 31. Nesignovaný stroj získaný v aukci 2022 — pravděpodobně francouzský původ, konstrukčně příbuzný Prokešovi. Subtilnější provedení s ozdobně prořezávanou kotvou a Robertovým krokem."
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
