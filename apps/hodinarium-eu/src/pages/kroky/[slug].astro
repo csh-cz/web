@@ -4,6 +4,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { kroky } from '../../data/kroky';
 import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
+import { formatCite, getRef } from '../../utils/cite';
 
 import type { CatalogEntry } from '../../data/catalog-types';
 
@@ -69,14 +70,38 @@ const related = krok.relatedSlugs
       <h2>Charakteristika</h2>
       <p>{krok.charakteristika}</p>
 
-      <aside class="krok-stub-note">
-        <p>
-          <strong>Podrobný technický článek je zatím stub.</strong>
-          Připravujeme rozšířený text s nákresy mechanizmu, funkčním schématem
-          a srovnáním přesnosti. Pokud disponujete technickou dokumentací,
-          ozvěte&nbsp;se nám.
-        </p>
-      </aside>
+      {(!krok.references || krok.references.length === 0) && (
+        <aside class="krok-stub-note">
+          <p>
+            <strong>Podrobný technický článek je zatím stub.</strong>
+            Připravujeme rozšířený text s nákresy mechanizmu, funkčním schématem
+            a srovnáním přesnosti. Pokud disponujete technickou dokumentací,
+            ozvěte&nbsp;se nám.
+          </p>
+        </aside>
+      )}
+
+      {krok.references && krok.references.length > 0 && (
+        <section class="krok-references" aria-labelledby="krok-references-heading">
+          <h2 id="krok-references-heading">Literatura a odkazy</h2>
+          <ul>
+            {krok.references.map((r) => {
+              const cslItem = getRef(r.bibKey);
+              if (!cslItem) {
+                return <li><code>{r.bibKey}</code> <em>(nenalezeno v references.json — spusť pnpm refs:sync)</em></li>;
+              }
+              const formatted = formatCite(r.bibKey) ?? r.bibKey;
+              return (
+                <li>
+                  <span set:html={formatted} />
+                  {r.pages && <span class="krok-ref-pages">, s. {r.pages}</span>}
+                  {r.note && <span class="krok-ref-note"> — {r.note}</span>}
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
 
       {related.length > 0 && (
         <section>

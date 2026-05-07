@@ -141,14 +141,6 @@
     }
   },
   {
-    "id": "NarodniArchivPetice",
-    "type": "article-journal",
-    "citation-key": "NarodniArchivPetice",
-    "issue": "4249",
-    "note": "Národní archiv ČR, NAD 1054/2 Zemský výbor Praha 1791–1873, kart. 1265, inv. č. 4249, sign. 85/9 — Petice Ferdinanda Landesbergera o doplacení nákladů spojených s opravou orloje (primární archivní pramen Knesplovy rehabilitace 2025).\n\nOriginal-Type: odkaz\nCSH-Sources: content/hodinari/ferdinand-landesberger.mdx",
-    "title": "Národní archiv: petice Ferdinanda Landesbergera"
-  },
-  {
     "id": "spatnyNemeckoceskySlovnikPro1882a",
     "type": "book",
     "citation-key": "spatnyNemeckoceskySlovnikPro1882a",
@@ -1989,6 +1981,26 @@
     }
   },
   {
+    "id": "historickykrouzekSbornikHistorickehoKrouzku1910",
+    "type": "book",
+    "citation-key": "historickykrouzekSbornikHistorickehoKrouzku1910",
+    "publisher": "Vychází nákl. Družstva Vlast.",
+    "title": "Sborník Historického kroužku",
+    "URL": "https://books.google.cz/books?id=tm0OAQAAMAAJ",
+    "author": [
+      {
+        "literal": "Historický kroužek"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1910"
+        ]
+      ]
+    }
+  },
+  {
     "id": "turnerGerardMercatorsThree2005",
     "type": "article-journal",
     "abstract": "No scientific instruments made by Gerard Mercator (1512- 1594), the great cartographer, were known to exist, though it is recorded that he made astrolabes and other brass artefacts. In early 1992, the present author identified an unsigned astrolabe in Florence as being made in Mercstor's Duisburg workshop. By 1994, the 400th anniversary of Mercator's death, two further astrolabes had been identified as being by his hand. They are in museums in Augsburg and Brno. This paper describes the method of identifícation of these unsigned instruments, culminating in the discovery of Mercator's monogram on the rim of the astrolabe in Brno.",
@@ -2253,39 +2265,6 @@
       "date-parts": [
         [
           "1652"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "gerardmercatorMercatorGerard151215941550",
-    "type": "book",
-    "abstract": "Atlas, ou représentation du monde universel et des parties d'icelui, faicte en tables et descriptions très amples et exactes, divisé en deux tomes. Édition nouvelle...Auteur  :  Mercator, Gerard (1512-1594). CartographeAuteur  :  Hondius, Jodocus I (1563-1612). PréfacierAuteur  :  Louis XIII (1601-1643 ; roi de France). DédicataireÉditeur  :  H. Hondius (Amsterdam)Date d'édition :  1633Sujet :  Mercator, Gerard (1512-1594) -- PortraitsSujet :  Hondius, Jodocus I (1563-1612) -- PortraitsSujet :  MondeNotice d'ensemble :  http://catalogue.bnf.fr/ark:/12148/cb438705750Type :  atlasType :  image fixeLangue  :  françaisFormat :  2 vol. ; in fol.Format :  image/jpegFormat :  Nombre total de vues : 357Description :  Échelle(s) : [Échelles diverses]Description :  Référence bibliographique : 1:311Description :  Collection numérique : Commun Patrimoine: bibliothèque numérique du réseau des médiathèques de Plaine communeDescription :  Collection numérique : Histoire du livreDroits  :  Consultable en ligneIdentifiant :  ark:/12148/btv1b53103889wSource  :  Bibliothèque nationale de France, département Cartes et plans, GE DD-4529 (2 RES)Couverture :  MondeConservation numérique :  Bibliothèque nationale de FranceDate de mise en ligne",
-    "citation-key": "gerardmercatorMercatorGerard151215941550",
-    "language": "fre",
-    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "source": "Internet Archive",
-    "title": "Mercator, Gerard (1512-1594) Atlas, ou représentation du monde universel et des parties d'icelui, faicte en tables et descriptions très amples et exactes, divisé en deux tomes. Édition nouvelle... Auteur  :  Mercator, Gerard (1512-1594). Cartographe",
-    "title-short": "Mercator, Gerard (1512-1594) Atlas, ou représentation du monde universel et des parties d'icelui, faicte en tables et descriptions très amples et exactes, divisé en deux tomes. Édition nouvelle... Auteur",
-    "URL": "http://archive.org/details/atlas-ou-representation-du-monde-...-mercator-gerard-btv-1b-53103889w",
-    "author": [
-      {
-        "literal": "Gerard Mercator"
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2025",
-          9,
-          18
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "1550"
         ]
       ]
     }
@@ -2836,6 +2815,14 @@
         ]
       ]
     }
+  },
+  {
+    "id": "NarodniArchivPetice",
+    "type": "article-journal",
+    "citation-key": "NarodniArchivPetice",
+    "issue": "4249",
+    "note": "Národní archiv ČR, NAD 1054/2 Zemský výbor Praha 1791–1873, kart. 1265, inv. č. 4249, sign. 85/9 — Petice Ferdinanda Landesbergera o doplacení nákladů spojených s opravou orloje (primární archivní pramen Knesplovy rehabilitace 2025).\n\nOriginal-Type: odkaz\nCSH-Sources: content/hodinari/ferdinand-landesberger.mdx",
+    "title": "Národní archiv: petice Ferdinanda Landesbergera"
   },
   {
     "id": "KartaInv7",
@@ -3452,48 +3439,6 @@
           "2024",
           7,
           9
-        ]
-      ]
-    }
-  },
-  {
-    "id": "souchierScienceTechniquesAu2019",
-    "type": "article-journal",
-    "abstract": "Cet article fait de l’étude du service de synchronisation des horloges à Paris dans les années 1870-1880 une voie d’entrée pour une socio-histoire de l’action publique municipale. Pour mieux comprendre la genèse de ce service public inédit, l’article revient, dans un premier temps, sur l’accroissement des besoins horaires et la diversité des horloges publiques parisiennes de cette période. Un second temps est consacré au rôle décisif des astronomes de l’Observatoire de Paris dans les questions liées à la standardisation horaire et dans la constitution du service public de l’heure. Un dernier temps se concentre sur les modalités d’exercice d’un gouvernement municipal des horloges publiques, en étudiant les relations entre conseillers municipaux, Direction des travaux et une entreprise privée, La Compagnie générale des horloges pneumatiques, qui commercialise un procédé de synchronisation des horloges concurrent de celui du service public. Les hésitations des conseillers et des services techniques de la ville entre deux techniques de synchronisation, électrique et pneumatique, et entre un dirigisme prononcé ou une simple surveillance des activités de La Compagnie témoignent d’une action publique municipale innovante mais qui peine à définir ses objectifs et ses moyens sur un domaine technique.",
-    "citation-key": "souchierScienceTechniquesAu2019",
-    "container-title": "Politix",
-    "DOI": "10.3917/pox.125.0219",
-    "ISSN": "0295-2319",
-    "issue": "1",
-    "journalAbbreviation": "Politix",
-    "language": "fr",
-    "note": "publisher-place: Louvain-la-Neuve",
-    "page": "219-237",
-    "publisher": "De Boeck Supérieur",
-    "source": "Cairn.info",
-    "title": "Science et techniques au service du public. La synchronisation des horloges parisiennes au XIXe siècle",
-    "title-short": "Science et techniques au service du public",
-    "URL": "https://www.cairn.info/revue-politix-2019-1-page-219.htm",
-    "volume": "125",
-    "author": [
-      {
-        "family": "Souchier",
-        "given": "Côme"
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2024",
-          6,
-          25
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "2019"
         ]
       ]
     }
@@ -6232,6 +6177,39 @@
     }
   },
   {
+    "id": "gerardmercatorMercatorGerard151215941550",
+    "type": "book",
+    "abstract": "Atlas, ou représentation du monde universel et des parties d'icelui, faicte en tables et descriptions très amples et exactes, divisé en deux tomes. Édition nouvelle...Auteur  :  Mercator, Gerard (1512-1594). CartographeAuteur  :  Hondius, Jodocus I (1563-1612). PréfacierAuteur  :  Louis XIII (1601-1643 ; roi de France). DédicataireÉditeur  :  H. Hondius (Amsterdam)Date d'édition :  1633Sujet :  Mercator, Gerard (1512-1594) -- PortraitsSujet :  Hondius, Jodocus I (1563-1612) -- PortraitsSujet :  MondeNotice d'ensemble :  http://catalogue.bnf.fr/ark:/12148/cb438705750Type :  atlasType :  image fixeLangue  :  françaisFormat :  2 vol. ; in fol.Format :  image/jpegFormat :  Nombre total de vues : 357Description :  Échelle(s) : [Échelles diverses]Description :  Référence bibliographique : 1:311Description :  Collection numérique : Commun Patrimoine: bibliothèque numérique du réseau des médiathèques de Plaine communeDescription :  Collection numérique : Histoire du livreDroits  :  Consultable en ligneIdentifiant :  ark:/12148/btv1b53103889wSource  :  Bibliothèque nationale de France, département Cartes et plans, GE DD-4529 (2 RES)Couverture :  MondeConservation numérique :  Bibliothèque nationale de FranceDate de mise en ligne",
+    "citation-key": "gerardmercatorMercatorGerard151215941550",
+    "language": "fre",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "Internet Archive",
+    "title": "Mercator, Gerard (1512-1594) Atlas, ou représentation du monde universel et des parties d'icelui, faicte en tables et descriptions très amples et exactes, divisé en deux tomes. Édition nouvelle... Auteur  :  Mercator, Gerard (1512-1594). Cartographe",
+    "title-short": "Mercator, Gerard (1512-1594) Atlas, ou représentation du monde universel et des parties d'icelui, faicte en tables et descriptions très amples et exactes, divisé en deux tomes. Édition nouvelle... Auteur",
+    "URL": "http://archive.org/details/atlas-ou-representation-du-monde-...-mercator-gerard-btv-1b-53103889w",
+    "author": [
+      {
+        "literal": "Gerard Mercator"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          9,
+          18
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "1550"
+        ]
+      ]
+    }
+  },
+  {
     "id": "mercatorAtlasMinorGerardi1634",
     "type": "book",
     "abstract": "In double columns; Paging irregular; Includes index to maps; Filmed from a copy of the original publication held by the National Library of Canada; 43",
@@ -8251,6 +8229,48 @@
     }
   },
   {
+    "id": "souchierScienceTechniquesAu2019",
+    "type": "article-journal",
+    "abstract": "Cet article fait de l’étude du service de synchronisation des horloges à Paris dans les années 1870-1880 une voie d’entrée pour une socio-histoire de l’action publique municipale. Pour mieux comprendre la genèse de ce service public inédit, l’article revient, dans un premier temps, sur l’accroissement des besoins horaires et la diversité des horloges publiques parisiennes de cette période. Un second temps est consacré au rôle décisif des astronomes de l’Observatoire de Paris dans les questions liées à la standardisation horaire et dans la constitution du service public de l’heure. Un dernier temps se concentre sur les modalités d’exercice d’un gouvernement municipal des horloges publiques, en étudiant les relations entre conseillers municipaux, Direction des travaux et une entreprise privée, La Compagnie générale des horloges pneumatiques, qui commercialise un procédé de synchronisation des horloges concurrent de celui du service public. Les hésitations des conseillers et des services techniques de la ville entre deux techniques de synchronisation, électrique et pneumatique, et entre un dirigisme prononcé ou une simple surveillance des activités de La Compagnie témoignent d’une action publique municipale innovante mais qui peine à définir ses objectifs et ses moyens sur un domaine technique.",
+    "citation-key": "souchierScienceTechniquesAu2019",
+    "container-title": "Politix",
+    "DOI": "10.3917/pox.125.0219",
+    "ISSN": "0295-2319",
+    "issue": "1",
+    "journalAbbreviation": "Politix",
+    "language": "fr",
+    "note": "publisher-place: Louvain-la-Neuve",
+    "page": "219-237",
+    "publisher": "De Boeck Supérieur",
+    "source": "Cairn.info",
+    "title": "Science et techniques au service du public. La synchronisation des horloges parisiennes au XIXe siècle",
+    "title-short": "Science et techniques au service du public",
+    "URL": "https://www.cairn.info/revue-politix-2019-1-page-219.htm",
+    "volume": "125",
+    "author": [
+      {
+        "family": "Souchier",
+        "given": "Côme"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          6,
+          25
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    }
+  },
+  {
     "id": "hajnisPneumatickeHodiny1880",
     "type": "article-journal",
     "citation-key": "hajnisPneumatickeHodiny1880",
@@ -8395,33 +8415,6 @@
         "given": "Georg"
       }
     ]
-  },
-  {
-    "id": "macakMatematikaJezuitskemKlementinu2001",
-    "type": "book",
-    "abstract": "1. vyd. Část. přeloženo z němčiny",
-    "citation-key": "macakMatematikaJezuitskemKlementinu2001",
-    "source": "ResearchGate",
-    "title": "Matematika v jezuitském Klementinu v letech 1600-1740 /",
-    "author": [
-      {
-        "family": "Mačák",
-        "given": "Karel"
-      },
-      {
-        "family": "Schuppener",
-        "given": "Georg"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2001",
-          1,
-          1
-        ]
-      ]
-    }
   },
   {
     "id": "www.prateleceskehistorie.estranky.czSeznamPohrbenychKlatovskych",
@@ -12061,6 +12054,33 @@
     }
   },
   {
+    "id": "macakMatematikaJezuitskemKlementinu2001",
+    "type": "book",
+    "abstract": "1. vyd. Část. přeloženo z němčiny",
+    "citation-key": "macakMatematikaJezuitskemKlementinu2001",
+    "source": "ResearchGate",
+    "title": "Matematika v jezuitském Klementinu v letech 1600-1740 /",
+    "author": [
+      {
+        "family": "Mačák",
+        "given": "Karel"
+      },
+      {
+        "family": "Schuppener",
+        "given": "Georg"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2001",
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
     "id": "Inzerat1880",
     "type": "article-journal",
     "citation-key": "Inzerat1880",
@@ -12339,31 +12359,6 @@
           "2024",
           9,
           7
-        ]
-      ]
-    }
-  },
-  {
-    "id": "mussikMarktSchoenlindeUnd1820",
-    "type": "book",
-    "citation-key": "mussikMarktSchoenlindeUnd1820",
-    "language": "de",
-    "note": "Google-Books-ID: talRAAAAcAAJ",
-    "number-of-pages": "204",
-    "publisher": "bei Gottlieb Haase",
-    "source": "Google Books",
-    "title": "“Der” Markt Schönlinde und dessen eingepfarrte Ortschaften: nebst einem kurzen Abrisse der Herrschaften Böhmisch-Kamnitz, Hainspach, Schluckenau und Rumburg ; ein historisch-topographischer Versuch",
-    "title-short": "“Der” Markt Schönlinde und dessen eingepfarrte Ortschaften",
-    "author": [
-      {
-        "family": "Mussik",
-        "given": "Franz Alois"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1820"
         ]
       ]
     }
@@ -15606,23 +15601,6 @@
     }
   },
   {
-    "id": "Bohemia1849",
-    "type": "book",
-    "citation-key": "Bohemia1849",
-    "language": "de",
-    "note": "Google-Books-ID: 5OYxAQAAMAAJ",
-    "number-of-pages": "660",
-    "source": "Google Books",
-    "title": "Bohemia",
-    "issued": {
-      "date-parts": [
-        [
-          "1849"
-        ]
-      ]
-    }
-  },
-  {
     "id": "pejml200LetMeteorologicke1975",
     "type": "book",
     "citation-key": "pejml200LetMeteorologicke1975",
@@ -16618,6 +16596,31 @@
     }
   },
   {
+    "id": "mussikMarktSchoenlindeUnd1820",
+    "type": "book",
+    "citation-key": "mussikMarktSchoenlindeUnd1820",
+    "language": "de",
+    "note": "Google-Books-ID: talRAAAAcAAJ",
+    "number-of-pages": "204",
+    "publisher": "bei Gottlieb Haase",
+    "source": "Google Books",
+    "title": "“Der” Markt Schönlinde und dessen eingepfarrte Ortschaften: nebst einem kurzen Abrisse der Herrschaften Böhmisch-Kamnitz, Hainspach, Schluckenau und Rumburg ; ein historisch-topographischer Versuch",
+    "title-short": "“Der” Markt Schönlinde und dessen eingepfarrte Ortschaften",
+    "author": [
+      {
+        "family": "Mussik",
+        "given": "Franz Alois"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1820"
+        ]
+      ]
+    }
+  },
+  {
     "id": "schreyerWaarenkabinetOderNiederlage1799",
     "type": "book",
     "citation-key": "schreyerWaarenkabinetOderNiederlage1799",
@@ -16774,46 +16777,6 @@
       "date-parts": [
         [
           "1847"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "hullahJournalSocietyArts1867",
-    "type": "article-journal",
-    "archive": "JSTOR",
-    "citation-key": "hullahJournalSocietyArts1867",
-    "container-title": "The Journal of the Society of Arts",
-    "ISSN": "20497865",
-    "issue": "749",
-    "page": "289-304",
-    "publisher": "Royal Society for the Encouragement of Arts, Manufactures and Commerce",
-    "title": "Journal of the Society for Arts, Vol. 15, no. 749",
-    "URL": "http://www.jstor.org/stable/41334704",
-    "volume": "15",
-    "author": [
-      {
-        "family": "Hullah",
-        "given": "John"
-      },
-      {
-        "family": "Young",
-        "given": "Chas. F. T."
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2024",
-          7,
-          13
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "1867"
         ]
       ]
     }
@@ -19059,6 +19022,23 @@
     }
   },
   {
+    "id": "Bohemia1849",
+    "type": "book",
+    "citation-key": "Bohemia1849",
+    "language": "de",
+    "note": "Google-Books-ID: 5OYxAQAAMAAJ",
+    "number-of-pages": "660",
+    "source": "Google Books",
+    "title": "Bohemia",
+    "issued": {
+      "date-parts": [
+        [
+          "1849"
+        ]
+      ]
+    }
+  },
+  {
     "id": "pochePrahaNaUsvitu1988",
     "type": "book",
     "citation-key": "pochePrahaNaUsvitu1988",
@@ -19333,30 +19313,6 @@
       "date-parts": [
         [
           "1894"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "prechtlJahrbuecherKaiserlKoenigl1839",
-    "type": "book",
-    "citation-key": "prechtlJahrbuecherKaiserlKoenigl1839",
-    "language": "de",
-    "note": "Google-Books-ID: D49fAAAAcAAJ",
-    "number-of-pages": "580",
-    "publisher": "Gerold",
-    "source": "Google Books",
-    "title": "Jahrbücher des kaiserl. königl. polytechnischen Institutes in Wien ... hrsg. von Johann Joseph Prechtl",
-    "author": [
-      {
-        "family": "Prechtl",
-        "given": "Johann Joseph “von”"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1839"
         ]
       ]
     }
@@ -21523,6 +21479,46 @@
     }
   },
   {
+    "id": "hullahJournalSocietyArts1867",
+    "type": "article-journal",
+    "archive": "JSTOR",
+    "citation-key": "hullahJournalSocietyArts1867",
+    "container-title": "The Journal of the Society of Arts",
+    "ISSN": "20497865",
+    "issue": "749",
+    "page": "289-304",
+    "publisher": "Royal Society for the Encouragement of Arts, Manufactures and Commerce",
+    "title": "Journal of the Society for Arts, Vol. 15, no. 749",
+    "URL": "http://www.jstor.org/stable/41334704",
+    "volume": "15",
+    "author": [
+      {
+        "family": "Hullah",
+        "given": "John"
+      },
+      {
+        "family": "Young",
+        "given": "Chas. F. T."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          7,
+          13
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "1867"
+        ]
+      ]
+    }
+  },
+  {
     "id": "bartlettAutomaticGasLighter1877",
     "type": "patent",
     "authority": "Canada",
@@ -22001,12 +21997,6 @@
         ]
       ]
     }
-  },
-  {
-    "id": "Sima_Prazskyorlojajehorekonstrukce_19941017pdf",
-    "type": "document",
-    "citation-key": "Sima_Prazskyorlojajehorekonstrukce_19941017pdf",
-    "title": "Sima_Prazskyorlojajehorekonstrukce_1994-10-17.pdf"
   },
   {
     "id": "woldenbergTRACTATUSNOVUSPHILOLOGICOJURIDICUS1670",
@@ -23902,6 +23892,30 @@
     "title": "Kronika města Bakov nad Jizerou z let 1847 - 1958"
   },
   {
+    "id": "prechtlJahrbuecherKaiserlKoenigl1839",
+    "type": "book",
+    "citation-key": "prechtlJahrbuecherKaiserlKoenigl1839",
+    "language": "de",
+    "note": "Google-Books-ID: D49fAAAAcAAJ",
+    "number-of-pages": "580",
+    "publisher": "Gerold",
+    "source": "Google Books",
+    "title": "Jahrbücher des kaiserl. königl. polytechnischen Institutes in Wien ... hrsg. von Johann Joseph Prechtl",
+    "author": [
+      {
+        "family": "Prechtl",
+        "given": "Johann Joseph “von”"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1839"
+        ]
+      ]
+    }
+  },
+  {
     "id": "institutwienJahrbuecherKaiserlichenKoeniglichen1839",
     "type": "book",
     "citation-key": "institutwienJahrbuecherKaiserlichenKoeniglichen1839",
@@ -24163,28 +24177,6 @@
       "date-parts": [
         [
           "1999"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "schukowskiAstronomischeUhrWismars1998",
-    "type": "article-magazine",
-    "citation-key": "schukowskiAstronomischeUhrWismars1998",
-    "container-title": "Wismarer Beiträge. Schriftenreihe des Archivs der Hansestadt Wismar.",
-    "page": "21",
-    "title": "Die astronomische Uhr in Wismars Marienkirche",
-    "volume": "Heft 13.",
-    "author": [
-      {
-        "family": "Schukowski",
-        "given": "Manfred"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1998"
         ]
       ]
     }
@@ -26510,6 +26502,12 @@
     }
   },
   {
+    "id": "Sima_Prazskyorlojajehorekonstrukce_19941017pdf",
+    "type": "document",
+    "citation-key": "Sima_Prazskyorlojajehorekonstrukce_19941017pdf",
+    "title": "Sima_Prazskyorlojajehorekonstrukce_1994-10-17.pdf"
+  },
+  {
     "id": "winterZlataDobaMest",
     "type": "article-journal",
     "citation-key": "winterZlataDobaMest",
@@ -26935,29 +26933,6 @@
       "date-parts": [
         [
           "2005"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "holderSalzburgerBronzetafelMit1902",
-    "type": "chapter",
-    "citation-key": "holderSalzburgerBronzetafelMit1902",
-    "container-title": "Jahreshefte des Österreichischen Archäologischen Institutes in Wien",
-    "page": "196 - 197",
-    "publisher-place": "Vienna",
-    "title": "Salzburger Bronzetafel mit Sternbilder",
-    "volume": "Band V",
-    "author": [
-      {
-        "family": "Hölder",
-        "given": "Alfred"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1902"
         ]
       ]
     }
@@ -28977,6 +28952,28 @@
     }
   },
   {
+    "id": "schukowskiAstronomischeUhrWismars1998",
+    "type": "article-magazine",
+    "citation-key": "schukowskiAstronomischeUhrWismars1998",
+    "container-title": "Wismarer Beiträge. Schriftenreihe des Archivs der Hansestadt Wismar.",
+    "page": "21",
+    "title": "Die astronomische Uhr in Wismars Marienkirche",
+    "volume": "Heft 13.",
+    "author": [
+      {
+        "family": "Schukowski",
+        "given": "Manfred"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1998"
+        ]
+      ]
+    }
+  },
+  {
     "id": "graafAstrolabe2007",
     "type": "document",
     "citation-key": "graafAstrolabe2007",
@@ -29426,30 +29423,6 @@
       "date-parts": [
         [
           "1901"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "patkaRytinaPrazskehoOrloje2013",
-    "type": "article-journal",
-    "citation-key": "patkaRytinaPrazskehoOrloje2013",
-    "container-title": "Pokroky matematiky, fyziky a astronomie",
-    "issue": "3",
-    "language": "cs",
-    "page": "215–220",
-    "title": "Rytina pražského orloje z roku 1837",
-    "volume": "58",
-    "author": [
-      {
-        "family": "Patka",
-        "given": "Milan"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2013"
         ]
       ]
     }
@@ -31854,6 +31827,29 @@
     }
   },
   {
+    "id": "holderSalzburgerBronzetafelMit1902",
+    "type": "chapter",
+    "citation-key": "holderSalzburgerBronzetafelMit1902",
+    "container-title": "Jahreshefte des Österreichischen Archäologischen Institutes in Wien",
+    "page": "196 - 197",
+    "publisher-place": "Vienna",
+    "title": "Salzburger Bronzetafel mit Sternbilder",
+    "volume": "Band V",
+    "author": [
+      {
+        "family": "Hölder",
+        "given": "Alfred"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1902"
+        ]
+      ]
+    }
+  },
+  {
     "id": "aspreyClockworkHeavens1973",
     "type": "book",
     "citation-key": "aspreyClockworkHeavens1973",
@@ -31905,27 +31901,6 @@
       "date-parts": [
         [
           "1905"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "frankEvolutionTowerClock2013",
-    "type": "article-journal",
-    "citation-key": "frankEvolutionTowerClock2013",
-    "language": "en",
-    "source": "Zotero",
-    "title": "The Evolution Of Tower Clock Movements And Their Design Over The Past 1000 Years",
-    "author": [
-      {
-        "family": "Frank",
-        "given": "Mark"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2013"
         ]
       ]
     }
@@ -34321,6 +34296,30 @@
     }
   },
   {
+    "id": "patkaRytinaPrazskehoOrloje2013",
+    "type": "article-journal",
+    "citation-key": "patkaRytinaPrazskehoOrloje2013",
+    "container-title": "Pokroky matematiky, fyziky a astronomie",
+    "issue": "3",
+    "language": "cs",
+    "page": "215–220",
+    "title": "Rytina pražského orloje z roku 1837",
+    "volume": "58",
+    "author": [
+      {
+        "family": "Patka",
+        "given": "Milan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    }
+  },
+  {
     "id": "marusakAndelskePripominky2011",
     "type": "document",
     "citation-key": "marusakAndelskePripominky2011",
@@ -36686,6 +36685,27 @@
     }
   },
   {
+    "id": "frankEvolutionTowerClock2013",
+    "type": "article-journal",
+    "citation-key": "frankEvolutionTowerClock2013",
+    "language": "en",
+    "source": "Zotero",
+    "title": "The Evolution Of Tower Clock Movements And Their Design Over The Past 1000 Years",
+    "author": [
+      {
+        "family": "Frank",
+        "given": "Mark"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    }
+  },
+  {
     "id": "roeslingThurmUhrenBauAufSeiner1843",
     "type": "book",
     "archive_location": "E01",
@@ -36940,20 +36960,6 @@
     }
   },
   {
-    "id": "cortiTrascrizioneDiFernando",
-    "type": "article-journal",
-    "citation-key": "cortiTrascrizioneDiFernando",
-    "language": "it",
-    "source": "Zotero",
-    "title": "Trascrizione di Fernando Civardi – 2010",
-    "author": [
-      {
-        "family": "Corti",
-        "given": "Elio"
-      }
-    ]
-  },
-  {
     "id": "spickaFrancescoPetrarcaJeho",
     "type": "article-journal",
     "abstract": "An overview of Petrarch's Latin work (in Czech). Stručný přehled Petrarkova latinského díla. Je součástí knihy Francesco Petrarca, Mé tajemství / Secretum meum, Praha 2004.",
@@ -37111,22 +37117,6 @@
     "citation-key": "NarizeniEvropskehoParlamentu",
     "title": "Nařízení Evropského parlamentu a Rady (EU) č. 910/2014 ze dne 23. července 2014 o elektronické identifikaci a službách vytvářejících důvěru pro elektronické transakce na vnitřním trhu a o zrušení směrnice 1999/93/es",
     "URL": "https://eur-lex.europa.eu/legal-content/CS/TXT/PDF/?uri=CELEX:32014R0910&qid=1736552095432",
-    "accessed": {
-      "date-parts": [
-        [
-          "2025",
-          1,
-          11
-        ]
-      ]
-    }
-  },
-  {
-    "id": "REGULATIONEUNo",
-    "type": "legislation",
-    "citation-key": "REGULATIONEUNo",
-    "title": "REGULATION (EU) No 910/2014 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL  of 23 July 2014  on electronic identification and trust services for electronic transactions in the internal market and repealing Directive 1999/93/E",
-    "URL": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0910&qid=1736552095432",
     "accessed": {
       "date-parts": [
         [
@@ -38482,6 +38472,20 @@
     }
   },
   {
+    "id": "cortiTrascrizioneDiFernando",
+    "type": "article-journal",
+    "citation-key": "cortiTrascrizioneDiFernando",
+    "language": "it",
+    "source": "Zotero",
+    "title": "Trascrizione di Fernando Civardi – 2010",
+    "author": [
+      {
+        "family": "Corti",
+        "given": "Elio"
+      }
+    ]
+  },
+  {
     "id": "VerhandlungenGeneraldirectionMit1872",
     "type": "article-journal",
     "citation-key": "VerhandlungenGeneraldirectionMit1872",
@@ -38582,22 +38586,6 @@
       "date-parts": [
         [
           "1896"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "SpeculumSolis1660",
-    "type": "webpage",
-    "citation-key": "SpeculumSolis1660",
-    "title": "SpeculumSolis1660",
-    "URL": "https://rumsey3.s3.amazonaws.com/images/SpeculumSolis1660.pdf",
-    "accessed": {
-      "date-parts": [
-        [
-          "2024",
-          11,
-          9
         ]
       ]
     }
@@ -40576,6 +40564,22 @@
     }
   },
   {
+    "id": "REGULATIONEUNo",
+    "type": "legislation",
+    "citation-key": "REGULATIONEUNo",
+    "title": "REGULATION (EU) No 910/2014 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL  of 23 July 2014  on electronic identification and trust services for electronic transactions in the internal market and repealing Directive 1999/93/E",
+    "URL": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R0910&qid=1736552095432",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          1,
+          11
+        ]
+      ]
+    }
+  },
+  {
     "id": "taborskyzklokotskehoryZpravaOrlojiStaromestkem1570",
     "type": "manuscript",
     "abstract": "Původní rukopis",
@@ -41781,6 +41785,22 @@
     "citation-key": "WebsterSignatureDatabase",
     "title": "Webster Signature Database Search Results",
     "URL": "http://historydb.adlerplanetarium.org/signatures/a.pl?edit=1",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          11,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "SpeculumSolis1660",
+    "type": "webpage",
+    "citation-key": "SpeculumSolis1660",
+    "title": "SpeculumSolis1660",
+    "URL": "https://rumsey3.s3.amazonaws.com/images/SpeculumSolis1660.pdf",
     "accessed": {
       "date-parts": [
         [
@@ -43141,22 +43161,6 @@
     "citation-key": "ArchivniKataloga",
     "title": "Archivní katalog",
     "URL": "https://katalog.ahmp.cz/pragapublica/Zoomify.action?xid=377880322BB011E9B02940618600A675&entityType=10120&entityRef=%28%5En%29%28%28%28localArchiv%2C%5En%2Chot_%29%28unidata%29%29%28345422%29%29&scanIndex=0",
-    "accessed": {
-      "date-parts": [
-        [
-          "2024",
-          6,
-          22
-        ]
-      ]
-    }
-  },
-  {
-    "id": "DolejsiMlynPamatkovy",
-    "type": "webpage",
-    "citation-key": "DolejsiMlynPamatkovy",
-    "title": "Dolejší mlýn - Památkový Katalog",
-    "URL": "https://www.pamatkovykatalog.cz/dolejsi-mlyn-15343270",
     "accessed": {
       "date-parts": [
         [
@@ -44776,21 +44780,17 @@
     }
   },
   {
-    "id": "Hodinarstvi1909",
-    "type": "chapter",
-    "archive_location": "ABA001",
-    "call-number": "030, (031)",
-    "citation-key": "Hodinarstvi1909",
-    "container-title": "Ottův slovník naučný: illustrovaná encyklopaedie obecných vědomostí. 28: Doplňky",
-    "language": "cze",
-    "note": "Accession Number: cpk19970277218\npublisher-place: xr",
-    "publisher": "J. Otto",
-    "source": "ABA001",
-    "title": "Hodinářství",
-    "issued": {
+    "id": "DolejsiMlynPamatkovy",
+    "type": "webpage",
+    "citation-key": "DolejsiMlynPamatkovy",
+    "title": "Dolejší mlýn - Památkový Katalog",
+    "URL": "https://www.pamatkovykatalog.cz/dolejsi-mlyn-15343270",
+    "accessed": {
       "date-parts": [
         [
-          "1909"
+          "2024",
+          6,
+          22
         ]
       ]
     }
@@ -45829,24 +45829,21 @@
     }
   },
   {
-    "id": "hraseDejinyNachoda1895",
-    "type": "book",
-    "citation-key": "hraseDejinyNachoda1895",
-    "note": "page: 722 S.",
-    "publisher": "Mestská rada Náchodská",
-    "publisher-place": "V Náchodě",
-    "title": "Dějiny Náchoda",
-    "URL": "https://www.digitale-sammlungen.de/view/bsb11556334?page=496,497",
-    "author": [
-      {
-        "family": "Hraše",
-        "given": "J. K."
-      }
-    ],
+    "id": "Hodinarstvi1909",
+    "type": "chapter",
+    "archive_location": "ABA001",
+    "call-number": "030, (031)",
+    "citation-key": "Hodinarstvi1909",
+    "container-title": "Ottův slovník naučný: illustrovaná encyklopaedie obecných vědomostí. 28: Doplňky",
+    "language": "cze",
+    "note": "Accession Number: cpk19970277218\npublisher-place: xr",
+    "publisher": "J. Otto",
+    "source": "ABA001",
+    "title": "Hodinářství",
     "issued": {
       "date-parts": [
         [
-          "1895"
+          "1909"
         ]
       ]
     }
@@ -46894,6 +46891,29 @@
       "date-parts": [
         [
           "1873"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "hraseDejinyNachoda1895",
+    "type": "book",
+    "citation-key": "hraseDejinyNachoda1895",
+    "note": "page: 722 S.",
+    "publisher": "Mestská rada Náchodská",
+    "publisher-place": "V Náchodě",
+    "title": "Dějiny Náchoda",
+    "URL": "https://www.digitale-sammlungen.de/view/bsb11556334?page=496,497",
+    "author": [
+      {
+        "family": "Hraše",
+        "given": "J. K."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1895"
         ]
       ]
     }
@@ -51098,29 +51118,6 @@
     }
   },
   {
-    "id": "knesplMaziva2015",
-    "type": "article-magazine",
-    "citation-key": "knesplMaziva2015",
-    "container-title": "WatchIt!",
-    "issue": "21",
-    "license": "All rights reserved",
-    "page": "146-151",
-    "title": "Maziva",
-    "author": [
-      {
-        "family": "Knespl",
-        "given": "David"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2015"
-        ]
-      ]
-    }
-  },
-  {
     "id": "ObjetosArte1989",
     "type": "book",
     "citation-key": "ObjetosArte1989",
@@ -52775,28 +52772,24 @@
     }
   },
   {
-    "id": "pliniusstarsiKapitolyPrirode1974",
-    "type": "book",
-    "citation-key": "pliniusstarsiKapitolyPrirode1974",
-    "ISBN": "25-006-74",
-    "language": "Czech",
-    "publisher": "Svoboda",
-    "publisher-place": "Praha",
-    "title": "Kapitoly o přírodě",
+    "id": "knesplMaziva2015",
+    "type": "article-magazine",
+    "citation-key": "knesplMaziva2015",
+    "container-title": "WatchIt!",
+    "issue": "21",
+    "license": "All rights reserved",
+    "page": "146-151",
+    "title": "Maziva",
     "author": [
       {
-        "family": "Plinius Starší",
-        "given": ""
-      },
-      {
-        "family": "Němeček",
-        "given": "František"
+        "family": "Knespl",
+        "given": "David"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          "1974"
+          "2015"
         ]
       ]
     }
@@ -53594,6 +53587,33 @@
       "date-parts": [
         [
           "1996"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "pliniusstarsiKapitolyPrirode1974",
+    "type": "book",
+    "citation-key": "pliniusstarsiKapitolyPrirode1974",
+    "ISBN": "25-006-74",
+    "language": "Czech",
+    "publisher": "Svoboda",
+    "publisher-place": "Praha",
+    "title": "Kapitoly o přírodě",
+    "author": [
+      {
+        "family": "Plinius Starší",
+        "given": ""
+      },
+      {
+        "family": "Němeček",
+        "given": "František"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1974"
         ]
       ]
     }
@@ -55790,30 +55810,6 @@
     }
   },
   {
-    "id": "steflHistorieAstronomie2008",
-    "type": "article-journal",
-    "citation-key": "steflHistorieAstronomie2008",
-    "page": "143",
-    "title": "Historie Astronomie",
-    "author": [
-      {
-        "family": "Štefl",
-        "given": "Vladimír"
-      },
-      {
-        "family": "Krtička",
-        "given": "Jiří"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2008"
-        ]
-      ]
-    }
-  },
-  {
     "id": "zarjaCasiNarucnijeKvarcevije",
     "type": "book",
     "citation-key": "zarjaCasiNarucnijeKvarcevije",
@@ -57306,21 +57302,25 @@
     }
   },
   {
-    "id": "thomsonJordanusNemoreMathematics1978",
-    "type": "book",
-    "citation-key": "thomsonJordanusNemoreMathematics1978",
-    "ISBN": "0-88844-039-1",
-    "title": "Jordanus de Nemore and the mathematics of astrolabes = De plana spera : an edition with introduction, translation, and commentary",
+    "id": "steflHistorieAstronomie2008",
+    "type": "article-journal",
+    "citation-key": "steflHistorieAstronomie2008",
+    "page": "143",
+    "title": "Historie Astronomie",
     "author": [
       {
-        "family": "Thomson",
-        "given": "Ron B."
+        "family": "Štefl",
+        "given": "Vladimír"
+      },
+      {
+        "family": "Krtička",
+        "given": "Jiří"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          "1978"
+          "2008"
         ]
       ]
     }
@@ -59672,40 +59672,21 @@
     }
   },
   {
-    "id": "bennettHuygenssClocks2002",
-    "type": "article-journal",
-    "abstract": "The 336-year-old synchronization observations of Christiaan Huygens are reexam- ined in modern experiments. A simple model of synchronization is proposed.",
-    "citation-key": "bennettHuygenssClocks2002",
-    "container-title": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",
-    "DOI": "10.1098/rspa.2001.0888",
-    "ISSN": "1364-5021",
-    "issue": "2019",
-    "note": "arXiv: 0802.1024\nISBN: 1364-5021",
-    "page": "563-579",
-    "title": "Huygens's clocks",
-    "volume": "458",
+    "id": "thomsonJordanusNemoreMathematics1978",
+    "type": "book",
+    "citation-key": "thomsonJordanusNemoreMathematics1978",
+    "ISBN": "0-88844-039-1",
+    "title": "Jordanus de Nemore and the mathematics of astrolabes = De plana spera : an edition with introduction, translation, and commentary",
     "author": [
       {
-        "family": "Bennett",
-        "given": "M."
-      },
-      {
-        "family": "Schatz",
-        "given": "M. F."
-      },
-      {
-        "family": "Rockwood",
-        "given": "H."
-      },
-      {
-        "family": "Wiesenfeld",
-        "given": "K."
+        "family": "Thomson",
+        "given": "Ron B."
       }
     ],
     "issued": {
       "date-parts": [
         [
-          "2002"
+          "1978"
         ]
       ]
     }
@@ -60100,6 +60081,45 @@
       "date-parts": [
         [
           "1850"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "bennettHuygenssClocks2002",
+    "type": "article-journal",
+    "abstract": "The 336-year-old synchronization observations of Christiaan Huygens are reexam- ined in modern experiments. A simple model of synchronization is proposed.",
+    "citation-key": "bennettHuygenssClocks2002",
+    "container-title": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+    "DOI": "10.1098/rspa.2001.0888",
+    "ISSN": "1364-5021",
+    "issue": "2019",
+    "note": "arXiv: 0802.1024\nISBN: 1364-5021",
+    "page": "563-579",
+    "title": "Huygens's clocks",
+    "volume": "458",
+    "author": [
+      {
+        "family": "Bennett",
+        "given": "M."
+      },
+      {
+        "family": "Schatz",
+        "given": "M. F."
+      },
+      {
+        "family": "Rockwood",
+        "given": "H."
+      },
+      {
+        "family": "Wiesenfeld",
+        "given": "K."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2002"
         ]
       ]
     }
@@ -61831,22 +61851,6 @@
     }
   },
   {
-    "id": "ArchivniKatalog",
-    "type": "webpage",
-    "citation-key": "ArchivniKatalog",
-    "title": "Archivní katalog",
-    "URL": "https://katalog.ahmp.cz/pragapublica/Zoomify.action?showOne=&_sourcePage=86kcEqNpPgIgp45rb-8Y4KQn-JSGwWwClQO4MFYr4RpdTKAnBhdOF1tsDDnPSN3WYz0cAAoJ0VYK8TrSC9_IIBuv7TVvAk5bHeUlBwTllIM%3D&pagerCompStateId=PAGER_MEDIA&paginatorCompStateId=PAGINATOR_MEDIA&rowPg=2",
-    "accessed": {
-      "date-parts": [
-        [
-          "2024",
-          3,
-          10
-        ]
-      ]
-    }
-  },
-  {
     "id": "GeschichteKarlsteinerUhrmacherei",
     "type": "webpage",
     "abstract": "Die Geschichte der Karlsteiner Uhrmacherei:Da die...",
@@ -62465,6 +62469,22 @@
           "2022",
           8,
           22
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ArchivniKatalog",
+    "type": "webpage",
+    "citation-key": "ArchivniKatalog",
+    "title": "Archivní katalog",
+    "URL": "https://katalog.ahmp.cz/pragapublica/Zoomify.action?showOne=&_sourcePage=86kcEqNpPgIgp45rb-8Y4KQn-JSGwWwClQO4MFYr4RpdTKAnBhdOF1tsDDnPSN3WYz0cAAoJ0VYK8TrSC9_IIBuv7TVvAk5bHeUlBwTllIM%3D&pagerCompStateId=PAGER_MEDIA&paginatorCompStateId=PAGINATOR_MEDIA&rowPg=2",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          3,
+          10
         ]
       ]
     }
