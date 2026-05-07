@@ -524,7 +524,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Turnov (Malý Rohozec)',
     zeme: 'CZ',
     shrnuti:
-      'Restaurátor věžních a starožitných hodin, dílna v Malém Rohozci u Turnova ([hodinarmarek.cz](https://www.hodinarmarek.cz)). Doložené restaurace: Jeníšovice u Turnova (Prokeš 1882, 2017), Křivoklát (Fürstenbergské železárny 1817, 2018), Bošín — evangelický kostel (Prokeš 1887, 2020). Pokoušel se také o sestavení rozebraného stroje v kapli zámku Karlova Koruna v Chlumci nad Cidlinou (pokus dle osobní komunikace P. Skály 2026 nedokončen).',
+      'Restaurátor věžních a starožitných hodin, dílna v Malém Rohozci u Turnova ([hodinarmarek.cz](https://www.hodinarmarek.cz)). Doložené restaurace: Jeníšovice u Turnova (Prokeš 1882, 2017), Křivoklát (Fürstenbergské železárny 1817, 2018), Bošín — evangelický kostel (Prokeš 1887, 2020). Pokoušel se také o sestavení rozebraného stroje v kapli zámku Karlova Koruna v Chlumci nad Cidlinou (nedokončeno).',
     relatedSlugs: ['janovice', 'litinove-vezni-hodiny'],
     era: 'soucasnost',
   },
