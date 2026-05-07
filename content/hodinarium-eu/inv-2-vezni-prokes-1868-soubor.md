@@ -27,13 +27,13 @@ karta:
   extra:
     - { label: "Poznámka", value: "Býchory" }
   rokVyroby: "1868"
-  krokJicihoStroje: "kolíčkový krok Benoita a Roberta de Sancerre"
+  krokJicihoStroje: "Robertův krok (Adolphe Robert ze Sancerre, patent 1852)"
   signatura: "Jan Prokeš v Sobotce 1868"
   adaptaceProVystavu: "Kyvadlová litinová čočka je zavěšena na kyvadlové tyči, která byla pro účely vystavení zkrácena."
 thumbnail: '/img/vez/bychory/f/komplet.jpg'
 ---
 
-Do expozice byl zapůjčen věžní komplet Prokeš 1868, původně osazený na zámku Býchory, s unikátním zvonícím strojem a cimbály. Stroj má několik zajímavostí. Kromě již zmíněného zvonicího stroje je to i neobvyklý kolíčkový krok Benoita a Roberta de Sancerre (1852).
+Do expozice byl zapůjčen věžní komplet Prokeš 1868, původně osazený na zámku Býchory, s unikátním zvonícím strojem a cimbály. Stroj má několik zajímavostí. Kromě již zmíněného zvonicího stroje je to i neobvyklý **[Robertův krok](/kroky/robertuv-krok)** — klidový kotvový krok s kolíčkovým krokovým kolem a středovou kotvou (Adolphe Robert ze Sancerre, patent 1852).
 
 Hodinový stroj je čtvrťový, s cévkovými ( lucernovými ) pastorky. Vypouštění bicích strojů je jednopákové. Kyvadlová litinová čočka je zavěšena na kyvadlové tyči, která byla pro účely vystavení zkrácena. Původní litinová závaží jsou zavěšena přes kladky na lanech. Na horní vodorovné pásnici kyvadlové strany je čitelná signatura výrobce hodinového stroje s uvedeným letopočtem: [Jan Prokeš](/hodinari/jan-prokes) v Sobotce 1868.
 

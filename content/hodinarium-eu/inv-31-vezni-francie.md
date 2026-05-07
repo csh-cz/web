@@ -24,6 +24,6 @@ karta:
   krokJicihoStroje: "kotvový krok"
 ---
 
-Věžní hodiny, podle prodejce údajně z Francie, svou konstrukcí odpovídají podobným strojům z dílny Jana Prokeše ze Sobotky. Liší se od nich poněkud subtilnějším provedením. Hodinový stroj je čtvrťový, s cévkovými ( lucernovými ) pastorky. Vypouštění bicích strojů je jednopákové. Kyvadlová litinová čočka je zavěšena na dřevěné kyvadlové tyči. Stroj má kotvový krok podle patentu pánů Benoita a Roberta.
+Věžní hodiny, podle prodejce údajně z Francie, svou konstrukcí odpovídají podobným strojům z dílny Jana Prokeše ze Sobotky. Liší se od nich poněkud subtilnějším provedením. Hodinový stroj je čtvrťový, s cévkovými ( lucernovými ) pastorky. Vypouštění bicích strojů je jednopákové. Kyvadlová litinová čočka je zavěšena na dřevěné kyvadlové tyči. Stroj má **[Robertův krok](/kroky/robertuv-krok)** — klidový kotvový krok s kolíčkovým krokovým kolem podle francouzského patentu Adolphe Roberta ze Sancerre (1852).
 
 Pásnice mají původní nátěr, jejich okraje jsou zdobené linkou zlaté barvy. Kotva je ozdobena prořezávaným motivem.
