@@ -48,7 +48,12 @@ const OUT_PATH = join(OUT_DIR, 'semantic-index.json');
 
 const MODEL = '@cf/baai/bge-m3';
 const DIM = 1024;
-const BATCH_SIZE = 50; // CF API limit per request
+// CF AI batch limit je 60k tokenů na CELÝ request (ne per item).
+// Naše typické dokumenty mají ~1500 tokenů (6000 chars). Bezpečné batch
+// = 25 × 1500 = ~37k tokenů, s rezervou na delší dokumenty. Pokud
+// batch přesto failne s code 3030 (max context), embedBatchWithSplit
+// rekurzivně rozpůlí.
+const BATCH_SIZE = 25;
 
 const TOKEN = process.env.CLOUDFLARE_API_TOKEN;
 const ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID;
@@ -101,7 +106,12 @@ function loadCache() {
   }
 }
 
-/** Volá CF Workers AI batch — vrací Array<number[]> embeddings. */
+/** Voláním CF AI s typed exception pro 3030 (max context) — volající
+ *  může na ni reagovat retry-with-split. */
+class MaxContextError extends Error {
+  constructor(msg) { super(msg); this.code = 3030; }
+}
+
 async function embedBatch(texts) {
   const r = await fetch(API_URL, {
     method: 'POST',
@@ -113,6 +123,9 @@ async function embedBatch(texts) {
   });
   if (!r.ok) {
     const body = await r.text().catch(() => '');
+    if (/code"\s*:\s*3030|max context/i.test(body)) {
+      throw new MaxContextError(`CF AI 3030: ${body.slice(0, 200)}`);
+    }
     throw new Error(`CF AI ${r.status}: ${body.slice(0, 500)}`);
   }
   const j = await r.json();
@@ -121,6 +134,24 @@ async function embedBatch(texts) {
   }
   // Response shape: { result: { shape: [n, 1024], data: [[...1024], ...] } }
   return j.result.data;
+}
+
+/** Recursive embed — když batch překročí 60k tokenů (3030), rozpůlí
+ *  ho a zkusí znovu. Single item batch (size=1) by měl vždy projít,
+ *  protože náš MAX text per record je ~1500 tokenů. Když ne, hází to dál. */
+async function embedBatchWithSplit(texts) {
+  try {
+    return await embedBatch(texts);
+  } catch (err) {
+    if (err instanceof MaxContextError && texts.length > 1) {
+      const mid = Math.floor(texts.length / 2);
+      console.log(`\n  ⚠ Batch ${texts.length} přes 60k tokenů → split na ${mid} + ${texts.length - mid}`);
+      const left = await embedBatchWithSplit(texts.slice(0, mid));
+      const right = await embedBatchWithSplit(texts.slice(mid));
+      return [...left, ...right];
+    }
+    throw err;
+  }
 }
 
 async function main() {
@@ -150,16 +181,60 @@ async function main() {
   console.log(`Cache hit: ${items.length - todo.length}/${items.length}.`);
   console.log(`Embedding ${todo.length} nových/změněných záznamů…`);
 
-  // Batch embed
+  /** Sestaví aktuální stav indexu — JEN records s úspěšným vector.
+   *  Volaná jak průběžně (partial recovery), tak na konci. Records bez
+   *  embedding se vynechávají — Pages Function by je jinak nemohla
+   *  unpackovat (atob(null)) a crashla. Při crashe v půlce zůstane
+   *  partial index s úspěšnými, příští run cache-hit-uje je z předchozího
+   *  textHash a dokončí zbytek. */
+  function buildIndex() {
+    const records = items
+      .filter(({ cachedV }) => cachedV)
+      .map(({ rec, hash, cachedV }) => ({
+        id: rec.id,
+        u: rec.url,
+        c: rec.collection,
+        cat: rec.category,
+        t: rec.title,
+        s: rec.summary?.slice(0, 200) ?? '',
+        g: rec.tags ?? [],
+        y: rec.year,
+        th: rec.thumbnail,
+        h: hash,
+        v: cachedV,
+      }));
+    return {
+      model: MODEL,
+      dim: DIM,
+      generatedAt: new Date().toISOString(),
+      records,
+    };
+  }
+
+  function saveIndex(label) {
+    mkdirSync(OUT_DIR, { recursive: true });
+    const out = buildIndex();
+    writeFileSync(OUT_PATH, JSON.stringify(out));
+    if (label) {
+      const completed = out.records.filter((r) => r.v).length;
+      const sizeKB = Math.round(JSON.stringify(out).length / 1024);
+      console.log(`  ${label}: ${completed}/${out.records.length} hotovo, ${sizeKB} KB`);
+    }
+  }
+
+  // Batch embed s recursive split + partial save po každém batch.
+  // Když crashnem v půlce, příští run cache hit-uje to, co prošlo.
   let done = 0;
   for (let i = 0; i < todo.length; i += BATCH_SIZE) {
     const batch = todo.slice(i, i + BATCH_SIZE);
     const texts = batch.map((b) => b.text);
     let vectors;
     try {
-      vectors = await embedBatch(texts);
+      vectors = await embedBatchWithSplit(texts);
     } catch (err) {
-      console.error(`Batch ${i / BATCH_SIZE + 1} failed:`, err.message);
+      console.error(`\nBatch ${i / BATCH_SIZE + 1} failed:`, err.message);
+      console.error('Save partial index — příští run pokračuje od cache.');
+      saveIndex('Partial');
       throw err;
     }
     for (let j = 0; j < batch.length; j++) {
@@ -167,36 +242,19 @@ async function main() {
     }
     done += batch.length;
     process.stdout.write(`\r  Progress: ${done}/${todo.length}`);
+
+    // Save partial každých 10 batches (~250 records). Šetří I/O ale
+    // garantuje recovery point i u crashe.
+    if ((i / BATCH_SIZE) % 10 === 9) saveIndex();
   }
   if (todo.length) process.stdout.write('\n');
 
-  // Sestavit final index
-  const records = items.map(({ rec, hash, cachedV }) => ({
-    id: rec.id,
-    u: rec.url,
-    c: rec.collection,
-    cat: rec.category,
-    t: rec.title,
-    s: rec.summary?.slice(0, 200) ?? '',
-    g: rec.tags ?? [],
-    y: rec.year,
-    th: rec.thumbnail,
-    h: hash,
-    v: cachedV,
-  }));
-
-  const out = {
-    model: MODEL,
-    dim: DIM,
-    generatedAt: new Date().toISOString(),
-    records,
-  };
-
-  mkdirSync(OUT_DIR, { recursive: true });
-  writeFileSync(OUT_PATH, JSON.stringify(out));
+  // Final save
+  saveIndex();
+  const out = buildIndex();
   const sizeKB = Math.round(JSON.stringify(out).length / 1024);
   console.log(`\nWritten: ${OUT_PATH}`);
-  console.log(`Size: ${sizeKB} KB (${records.length} records, ${DIM}-dim float32 base64-packed)`);
+  console.log(`Size: ${sizeKB} KB (${out.records.length} records, ${DIM}-dim float32 base64-packed)`);
 }
 
 main().catch((err) => {
