@@ -1155,13 +1155,6 @@ body[data-editor-mode] .fab-stack {
   color: var(--color-text);
 }
 
-.tldr-label {
-  font-style: italic;
-  color: var(--color-brass-bright);
-  font-weight: 600;
-  margin-right: 0.4em;
-}
-
 /* prefers-reduced-motion */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
