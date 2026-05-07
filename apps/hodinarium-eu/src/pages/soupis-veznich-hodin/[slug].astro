@@ -180,7 +180,7 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
 
   <EditorNotesBlock notes={d.editorNotes} sourceFile={`content/soupis-veznich-hodin/${item.id}.mdx`} />
 
-  <section class="prose">
+  <section class="prose-content">
     <Content />
   </section>
 
@@ -338,7 +338,7 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
     color: var(--color-text-soft);
   }
 
-  .prose { margin-bottom: 2.5rem; }
+  .prose-content { margin-bottom: 2.5rem; }
 
   .prameny, .related {
     margin-top: 2.5rem;
