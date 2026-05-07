@@ -17,10 +17,18 @@ export interface Krok {
   relatedSlugs: string[];
   /** Skupina pro řazení v indexu */
   skupina: 'rane' | 'klasicke' | 'presne' | 'volne' | 'elektricke' | 'elektronicke';
-  /** Bibliografické reference (Zotero bibKey) — vykreslí se v
-   *  /kroky/<slug> jako sekce „Literatura a odkazy". Stejný formát
-   *  jako article.references — citeproc-js to vyrenderuje v ISO 690. */
-  references?: Array<{ bibKey: string; pages?: string; note?: string }>;
+  /** Bibliografické reference. Vykreslí se v /kroky/<slug> jako sekce
+   *  „Literatura a odkazy".
+   *  - `bibKey` → CSL položka v Zotero (preferováno) → ISO 690 přes citeproc-js
+   *  - `title` (+ `url`/`note`) fallback pro položky mimo Zotero
+   *    (historické patenty, aukční katalogy, …)  */
+  references?: Array<{
+    bibKey?: string;
+    title?: string;
+    url?: string;
+    pages?: string;
+    note?: string;
+  }>;
 }
 
 export const kroky: Krok[] = [
@@ -124,8 +132,36 @@ export const kroky: Krok[] = [
       'inv-31-vezni-francie',
     ],
     skupina: 'klasicke',
+    /**
+     * Reference z autorské studie Knespl 2023 (Zpravodaj SPSH 38, s. 10–13).
+     * Ten článek je primární zdroj nápravy zavádějícího názvu „krok Roberta
+     * de Sancerre" a jeho poznámkový aparát mapuje historické prameny:
+     * patent 1852, dobové kritiky (Gros 1913, Saunier 1887, Revue chronométrique
+     * 1857), Michalovu kompilaci 1980/1987 která chybu zavedla do české
+     * literatury, plus české kontexty (Klementinum, Frič Paměti, Raabs).
+     */
     references: [
       { bibKey: 'knesplRobertuvKrokOprava2023' },
+      { bibKey: 'knesplJanProkesHodinar2018a', note: 'Pozn. 1 — biografie Jana Prokeše ze Sobotky (1818–1890), hlavního českého uživatele kroku.' },
+      { bibKey: 'michalHodinyOdGnomonu1980', pages: '87', note: 'Pozn. 2 — první vydání, zde poprvé v češtině označení „krok Roberta de Sancerre" (chybné).' },
+      { bibKey: 'michalHodinyOdGnomonu1987a', pages: '78', note: 'Pozn. 3 — druhé vydání, chyba převzata.' },
+      { bibKey: 'grosEchappementsDhorlogesMontres1913', pages: '70–71', note: 'Pozn. 4–5 — primární popis kroku z roku 1913, zdroj francouzského „Robert de Sancerre".' },
+      { bibKey: 'saunierTreatiseModernHorology1887', pages: '564', note: 'Pozn. 6 — anglická kritika kroku, autor neuveden („provincial clockmaker").' },
+      {
+        title: 'BENOIT, François Célestin a Léon Émile Adolphe ROBERT. Échappements de pendules. Patent č. 1BB13653. Paříž, 22. července 1852.',
+        url: 'http://bases-brevets19e.inpi.fr/Thot/FrmFicheDoc.asp?idfiche=71127&refFiche=39321&baseCindoc=THOTDESC',
+        note: 'Pozn. 7 — původní francouzský patent (15letá ochrana). Mimo Zotero.',
+      },
+      { bibKey: 'RevueChronometrique1857', pages: '153', note: 'Pozn. 8 — dobová francouzská kritika kroku (1857).' },
+      { bibKey: 'kavkovaVezniHodinyAstronomicke2001', note: 'Pozn. 9 — Klementinské hodiny s Robertovým krokem (Praha).' },
+      { bibKey: 'fricPametiIII1963', pages: '283', note: 'Pozn. 10 — vzpomínka na hodináře Prokeše ve spolku Česká beseda v Paříži (možná návštěva 1867).' },
+      { bibKey: 'himmlerHradRaabsUhrenmuseum2019', pages: '29–31', note: 'Pozn. 11 — věžní stroj s Robertovým krokem na rakouském hradě Raabs.' },
+      {
+        title: 'Aukce Antikvity Praha, s.r.o., 38. aukce — Historické zbraně, stará technika a užité umění, 2022, položka 9414.',
+        url: 'https://eaukce.antiques-auctions.eu/cz/archivDetail/59/0/9414-vezni-hodiny/',
+        note: 'Pozn. 12 — nesignovaný věžní stroj získaný v aukci 2022 (dnes Hodinárium Děčín, inv. č. 31).',
+      },
+      { bibKey: 'bonninDescriptionVilleSancerre1999', note: 'Pozn. 13 — kronika města Sancerre, údaje o Robertovi (zemřel před 1876).' },
     ],
   },
   {
