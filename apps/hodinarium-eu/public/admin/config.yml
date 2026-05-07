@@ -74,8 +74,12 @@ collections:
     identifier_field: title
     summary: '{{title}} ({{category}})'
     # Filter — vyloučit evidenční karty (mají vlastní collection níže).
-    # Sveltia podporuje filter na poli; karta má podsekce: 'karta'.
-    filter: { field: podsekce, value: karta, equals: false }
+    # Sveltia/Decap filter syntax: `pattern` (regex) je dokumentovaná,
+    # `equals: false` je experimentální → použijeme regex negation.
+    # Match: cokoliv KROMĚ "karta" (incl. missing podsekce field = "").
+    filter:
+      field: podsekce
+      pattern: '^(?!karta$).*$'
     fields:
       - { name: title, label: 'Nadpis', widget: string, required: true }
       - { name: slug, label: 'Slug (URL část)', widget: string, required: true, hint: 'lowercase, bez diakritiky, oddělovač pomlčka' }
@@ -138,7 +142,11 @@ collections:
     slug: 'inv-{{fields.karta.inventarniCislo}}-{{slug}}'
     identifier_field: title
     summary: '{{title}} (inv. č. {{karta.inventarniCislo}})'
-    filter: { field: podsekce, value: karta }
+    # Filter — jen entries s podsekce: karta. Pattern syntax (dokumentovaná)
+    # místo plain value, kvůli konzistenci s clanky filter.
+    filter:
+      field: podsekce
+      pattern: '^karta$'
     fields:
       - { name: title, label: 'Nadpis karty', widget: string, required: true,
           hint: 'Krátký název exponátu, např. „Věžní hodiny od Prokeše, Veselí n. Lužnicí, 1868". Zobrazí se v záhlaví detailu karty.' }
