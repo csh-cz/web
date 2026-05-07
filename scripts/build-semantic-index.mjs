@@ -46,6 +46,30 @@ const CORPUS_PATH = join(ROOT, 'apps/hodinarium-eu/.semantic-corpus.json');
 const OUT_DIR = join(ROOT, 'apps/hodinarium-eu/public/search');
 const OUT_PATH = join(OUT_DIR, 'semantic-index.json');
 
+// Lightweight .env loader (žádná npm dependence). Načte CLOUDFLARE_*
+// proměnné z `.env` v rootu repu, pokud nejsou už set v shellu.
+// `.env` je v .gitignore — token zůstává jen lokálně.
+//
+// Format souboru:
+//   CLOUDFLARE_API_TOKEN=abc123...
+//   CLOUDFLARE_ACCOUNT_ID=def456...
+//   # Komentáře jsou OK
+//
+// Manuální `export VAR=...` v shellu má přednost před .env (klasická
+// dotenv konvence — skript nikdy neupřednostní soubor před existing env).
+const envFile = join(ROOT, '.env');
+if (existsSync(envFile)) {
+  for (const line of readFileSync(envFile, 'utf8').split('\n')) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith('#')) continue;
+    const m = trimmed.match(/^([A-Z_][A-Z0-9_]*)\s*=\s*(.*)$/);
+    if (m && !process.env[m[1]]) {
+      // Strip volitelné okolní uvozovky (single nebo double)
+      process.env[m[1]] = m[2].replace(/^(['"])(.*)\1$/, '$2');
+    }
+  }
+}
+
 const MODEL = '@cf/baai/bge-m3';
 const DIM = 1024;
 // CF AI batch limit je 60k tokenů na CELÝ request (ne per item).
