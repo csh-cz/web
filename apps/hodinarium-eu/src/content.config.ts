@@ -487,9 +487,44 @@ const soupisVeznichHodin = defineCollection({
   }),
 });
 
+/**
+ * Hodinové kroky — rozšířené technické články o jednotlivých krocích.
+ *
+ * Paralelní pattern jako hodinari: kroky.ts drží registry (slug, jméno,
+ * datum, vynálezce, related, …) — primárně pro lookup z článků a sidebar.
+ * MDX entries v content/kroky/<slug>.mdx přidávají plný text pro karty,
+ * které mají dost materiálu (Robertův krok, později Graham, Amant, …).
+ *
+ * Stránka /kroky/<slug> načte MDX entry pokud existuje, jinak renderuje
+ * jen `charakteristika` z kroky.ts (stub mode).
+ */
+const krokyDetaily = defineCollection({
+  loader: glob({
+    base: '../../content/kroky',
+    pattern: '**/*.{md,mdx}',
+  }),
+  schema: z.object({
+    title: z.string(),
+    slug: z.string(),
+    /** Hero obrázek — ilustrativní fotka exempláře nebo historický výkres. */
+    hero: z.object({
+      src: z.string(),
+      alt: z.string(),
+      caption: z.string().optional(),
+      /** Autor / zdroj / licence — povinný (pravidlo „vždy zdroj a copyright"). */
+      credit: z.string(),
+    }).optional(),
+    /** Krátký lead pod nadpisem (1–3 věty). */
+    perex: z.string().optional(),
+    references: z.array(reference).optional(),
+    editorNotes: z.array(editorNote).optional(),
+  }),
+});
+
 export const collections = {
   clanky,
   hodinari: hodinariMedailony,
   kronika,
+  kroky: krokyDetaily,
   'soupis-veznich-hodin': soupisVeznichHodin,
 };
