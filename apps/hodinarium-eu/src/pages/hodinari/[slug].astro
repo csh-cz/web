@@ -55,21 +55,47 @@ export async function getStaticPaths() {
         hodinar: h,
         medailon: medailon ?? null,
         hasFull: medailonySlugs.has(h.slug),
-        kartySbirky: matchedKarty.map((k) => ({
-          slug: k.data.slug,
-          title: k.data.title,
-          inv: (k.data as { karta?: { inventarniCislo?: string } }).karta?.inventarniCislo,
-          umisteni: (k.data as { karta?: { umisteni?: string } }).karta?.umisteni,
-          datace: (k.data as { karta?: { datace?: string } }).karta?.datace,
-        })),
+        kartySbirky: matchedKarty.map((k) => {
+          const slug = k.data.slug;
+          // Thumbnail: explicitní z frontmatter > catalog.json (auto-detect z body).
+          // Catalog.json import nahoře by byl cyclic; používáme `thumbnail` field
+          // přímo z frontmatter (= explicitní override). Auto-detected fotky
+          // z těla jdou přes catalog.json — ale zde fall-back nedělám pro
+          // jednoduchost; pokud chybí, prázdný buňka.
+          const thumb = k.data.thumbnail;
+          return {
+            slug,
+            title: k.data.title,
+            inv: (k.data as { karta?: { inventarniCislo?: string } }).karta?.inventarniCislo,
+            umisteni: (k.data as { karta?: { umisteni?: string } }).karta?.umisteni,
+            datace: (k.data as { karta?: { datace?: string } }).karta?.datace,
+            thumb: thumb ?? null,
+          };
+        }),
         soupisRecords: matchedSoupis
-          .map((s) => ({
-            slug: s.data.slug,
-            rok: s.data.rok,
-            obec: s.data.puvodniMisto.obec,
-            budova: s.data.puvodniMisto.budova,
-            stav: s.data.stav,
-          }))
+          .map((s) => {
+            // Hero photo priority: typ='stroj' > 'budova' > 'cifernik' > 'historicke' > first.
+            // Důvod: stroj je primární obsah karty; budova zajímavá dotace, ciferník
+            // estetický detail, historické skeny pomocné.
+            const fotos = s.data.foto ?? [];
+            const priority = ['stroj', 'budova', 'cifernik', 'historicke', 'detail'];
+            let hero: { src: string; alt?: string } | null = null;
+            for (const p of priority) {
+              const found = fotos.find((f) => f.typ === p);
+              if (found) { hero = { src: found.src, alt: found.alt }; break; }
+            }
+            if (!hero && fotos.length > 0) {
+              hero = { src: fotos[0].src, alt: fotos[0].alt };
+            }
+            return {
+              slug: s.data.slug,
+              rok: s.data.rok,
+              obec: s.data.puvodniMisto.obec,
+              budova: s.data.puvodniMisto.budova,
+              stav: s.data.stav,
+              thumb: hero,
+            };
+          })
           .sort((a, b) => {
             const yA = typeof a.rok === 'number' ? a.rok : parseInt(String(a.rok), 10) || 9999;
             const yB = typeof b.rok === 'number' ? b.rok : parseInt(String(b.rok), 10) || 9999;
@@ -215,20 +241,32 @@ const personJsonLd = hodinar.typ === 'osoba'
           {kartySbirky.length > 0 && (
             <>
               <h3>Ve sbírce Hodinária</h3>
-              <ul class="hodinar-stroje-list">
-                {kartySbirky.map((k) => (
-                  <li>
-                    <a href={`/sbirka/karta/${k.slug}/`}>
-                      <span class="stroje-meta">
-                        {k.inv && <span class="stroje-inv">inv. {k.inv}</span>}
-                        {k.datace && <span class="stroje-rok">{k.datace}</span>}
-                      </span>
-                      <span class="stroje-title">{k.title}</span>
-                      {k.umisteni && <span class="stroje-detail">{k.umisteni}</span>}
-                    </a>
-                  </li>
-                ))}
-              </ul>
+              <table class="stroje-table">
+                <thead>
+                  <tr>
+                    <th class="stroje-col-thumb" aria-label="Náhled" />
+                    <th class="stroje-col-inv">Inv. č.</th>
+                    <th class="stroje-col-datace">Datace</th>
+                    <th class="stroje-col-title">Exponát</th>
+                    <th class="stroje-col-meta">Umístění</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {kartySbirky.map((k) => (
+                    <tr>
+                      <td class="stroje-col-thumb">
+                        {k.thumb && <a href={`/sbirka/karta/${k.slug}/`} class="stroje-thumb-link"><img src={k.thumb} alt="" loading="lazy" decoding="async" /></a>}
+                      </td>
+                      <td class="stroje-col-inv">{k.inv && <span class="stroje-inv">inv. {k.inv}</span>}</td>
+                      <td class="stroje-col-datace">{k.datace}</td>
+                      <td class="stroje-col-title">
+                        <a href={`/sbirka/karta/${k.slug}/`}>{k.title}</a>
+                      </td>
+                      <td class="stroje-col-meta">{k.umisteni}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </>
           )}
 
@@ -239,21 +277,34 @@ const personJsonLd = hodinar.typ === 'osoba'
                 {soupisRecords.length} {soupisRecords.length === 1 ? 'záznam' : soupisRecords.length < 5 ? 'záznamy' : 'záznamů'}
                 {' '}(řazeno chronologicky)
               </p>
-              <ul class="hodinar-stroje-list hodinar-soupis-list">
-                {soupisRecords.map((s) => (
-                  <li>
-                    <a href={`/soupis-veznich-hodin/${s.slug}/`}>
-                      <span class="stroje-meta">
-                        <span class="stroje-rok">{s.rok}</span>
+              <table class="stroje-table">
+                <thead>
+                  <tr>
+                    <th class="stroje-col-thumb" aria-label="Náhled" />
+                    <th class="stroje-col-rok">Rok</th>
+                    <th class="stroje-col-title">Lokalita</th>
+                    <th class="stroje-col-budova">Budova</th>
+                    <th class="stroje-col-meta">Stav</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {soupisRecords.map((s) => (
+                    <tr>
+                      <td class="stroje-col-thumb">
+                        {s.thumb && <a href={`/soupis-veznich-hodin/${s.slug}/`} class="stroje-thumb-link"><img src={s.thumb.src} alt={s.thumb.alt ?? ''} loading="lazy" decoding="async" /></a>}
+                      </td>
+                      <td class="stroje-col-rok">{s.rok}</td>
+                      <td class="stroje-col-title">
+                        <a href={`/soupis-veznich-hodin/${s.slug}/`}>{s.obec}</a>
+                      </td>
+                      <td class="stroje-col-budova">{s.budova}</td>
+                      <td class="stroje-col-meta">
                         <span class={`stav-mini stav-${s.stav}`}>{s.stav.replace(/_/g, ' ')}</span>
-                      </span>
-                      <span class="stroje-title">
-                        {s.obec}{s.budova && <span class="stroje-detail"> — {s.budova}</span>}
-                      </span>
-                    </a>
-                  </li>
-                ))}
-              </ul>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </>
           )}
         </section>
@@ -458,34 +509,103 @@ const personJsonLd = hodinar.typ === 'osoba'
     margin: 0 0 0.6rem;
     font-style: italic;
   }
-  .hodinar-stroje-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.4rem;
-  }
-  .hodinar-stroje-list li {
-    margin: 0;
-  }
-  .hodinar-stroje-list a {
-    display: grid;
-    grid-template-columns: minmax(7rem, max-content) 1fr;
-    gap: 0.5rem 1rem;
-    padding: 0.55rem 0.85rem;
+  /* Tabulka strojů od daného hodináře — kompaktní table-style list
+     se sloupcem hero foto vlevo. Nahrazuje původní card-list pattern. */
+  .stroje-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.5rem 0 1.5rem;
+    font-size: 0.92rem;
     background: var(--color-bg-elevated);
     border: 1px solid color-mix(in srgb, var(--color-brass) 16%, transparent);
-    border-left: 2px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
     border-radius: 2px;
-    text-decoration: none;
-    color: var(--color-text);
-    align-items: baseline;
-    transition: border-color 150ms ease, background 150ms ease;
   }
-  .hodinar-stroje-list a:hover {
-    border-left-color: var(--color-brass-bright);
-    background: color-mix(in srgb, var(--color-bg-elevated) 80%, var(--color-brass) 10%);
+  .stroje-table thead th {
+    text-align: left;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-copper);
+    font-weight: 500;
+    padding: 0.55rem 0.7rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 28%, transparent);
+    background: color-mix(in srgb, var(--color-bg-elevated) 80%, var(--color-bg-deep));
+  }
+  .stroje-table tbody tr {
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 10%, transparent);
+    transition: background 120ms ease;
+  }
+  .stroje-table tbody tr:last-child {
+    border-bottom: none;
+  }
+  .stroje-table tbody tr:hover {
+    background: color-mix(in srgb, var(--color-bg-elevated) 70%, var(--color-brass) 8%);
+  }
+  .stroje-table td {
+    padding: 0.5rem 0.7rem;
+    vertical-align: middle;
+    color: var(--color-text);
+  }
+  .stroje-table a {
+    color: var(--color-brass-bright);
+    text-decoration: none;
+    font-family: var(--font-serif);
+    font-weight: 500;
+  }
+  .stroje-table a:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  /* Sloupec s thumbnail — fixed width, image fills cell */
+  .stroje-col-thumb {
+    width: 64px;
+    padding: 0.3rem 0.5rem !important;
+  }
+  .stroje-thumb-link {
+    display: block;
+    line-height: 0;
+  }
+  .stroje-col-thumb img {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 2px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    filter: sepia(0.12) saturate(0.9);
+  }
+  .stroje-col-thumb:empty::before,
+  .stroje-col-thumb:has(img):not(:has(*)):empty {
+    content: '';
+  }
+  .stroje-col-rok,
+  .stroje-col-inv,
+  .stroje-col-datace {
+    width: max-content;
+    white-space: nowrap;
+    color: var(--color-brass-bright);
+    font-feature-settings: "lnum";
+  }
+  .stroje-col-budova,
+  .stroje-col-meta {
+    color: var(--color-text-soft);
+    font-size: 0.88rem;
+  }
+
+  /* Mobile: hide less important columns */
+  @media (max-width: 640px) {
+    .stroje-col-budova,
+    .stroje-col-datace {
+      display: none;
+    }
+    .stroje-table td,
+    .stroje-table th {
+      padding: 0.4rem 0.4rem;
+      font-size: 0.85rem;
+    }
+    .stroje-col-thumb img {
+      width: 44px;
+      height: 44px;
+    }
   }
   .stroje-meta {
     display: flex;

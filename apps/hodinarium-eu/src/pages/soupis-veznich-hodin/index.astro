@@ -224,6 +224,7 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
     <table class="soupis-table" id="soupis-table">
       <thead>
         <tr>
+          <th class="soupis-col-thumb" aria-label="Náhled" />
           <th data-sort="rok" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Rok</th>
           <th data-sort="hodinar" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Hodinář</th>
           <th data-sort="misto" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Místo</th>
@@ -240,6 +241,17 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
           const yrSafe = !isNaN(yr) && yr > 1000 ? yr : '';
           const krokKw = krokKeyword(h.data.krok);
           const hodinarKey = h.data.hodinar || (h.data.hodinarText ? `__text:${h.data.hodinarText}` : '');
+          // Hero photo priority: stroj > budova > cifernik > historicke > first.
+          // Stejná logika jako v hodinari/[slug].astro, drží se konzistence napříč
+          // tabulkami soupisu věžních hodin.
+          const fotos = h.data.foto ?? [];
+          const heroPriority = ['stroj', 'budova', 'cifernik', 'historicke', 'detail'];
+          let hero: { src: string; alt?: string } | null = null;
+          for (const p of heroPriority) {
+            const found = fotos.find((f) => f.typ === p);
+            if (found) { hero = { src: found.src, alt: found.alt }; break; }
+          }
+          if (!hero && fotos.length > 0) hero = { src: fotos[0].src, alt: fotos[0].alt };
           return (
             <tr
               data-hodinar={hodinarKey}
@@ -254,6 +266,9 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
               data-krok-full={h.data.krok || ''}
               data-stav={h.data.stav}
             >
+              <td class="soupis-col-thumb">
+                {hero && <a href={`/soupis-veznich-hodin/${h.data.slug}/`} class="soupis-thumb-link"><img src={hero.src} alt={hero.alt ?? ''} loading="lazy" decoding="async" /></a>}
+              </td>
               <td><strong>{h.data.rok}</strong></td>
               <td>
                 {h.data.hodinar ? (
@@ -660,6 +675,36 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
   .soupis-table tr:hover { background: color-mix(in srgb, var(--color-bg-elevated) 50%, transparent); }
   .soupis-table a { color: var(--color-brass-bright); text-decoration: none; }
   .soupis-table a:hover { text-decoration: underline; }
+
+  /* Hero photo column — fixed width, miniatura odpovídá karta hodin
+     (foto: priority stroj > budova > cifernik > historicke > first).
+     Pokud karta nemá foto, prázdná buňka. */
+  .soupis-col-thumb {
+    width: 60px;
+    padding: 0.3rem 0.5rem !important;
+  }
+  .soupis-thumb-link {
+    display: block;
+    line-height: 0;
+  }
+  .soupis-col-thumb img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 2px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    filter: sepia(0.12) saturate(0.9);
+  }
+  @media (max-width: 640px) {
+    .soupis-col-thumb {
+      width: 44px;
+    }
+    .soupis-col-thumb img {
+      width: 38px;
+      height: 38px;
+    }
+  }
+
   .muted { color: var(--color-text-soft); opacity: 0.7; }
   .cell-region { font-size: 0.88rem; }
   .region-kraj { color: var(--color-text-soft); }
