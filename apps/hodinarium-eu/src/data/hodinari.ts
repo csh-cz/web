@@ -521,10 +521,10 @@ export const hodinari: Hodinar[] = [
     aliasy: ['Jan Marek', 'Marek', 'Honza Marek', 'Hodinářství Jan Marek'],
     typ: 'osoba',
     obdobi: 'akt. cca 2010–dosud',
-    mesto: 'Turnov (Malý Rohozec)',
+    mesto: 'Turnov',
     zeme: 'CZ',
     shrnuti:
-      'Restaurátor věžních a starožitných hodin, dílna v Malém Rohozci u Turnova ([hodinarmarek.cz](https://www.hodinarmarek.cz)). Doložené restaurace: Jeníšovice u Turnova (Prokeš 1882, 2017), Křivoklát (Fürstenbergské železárny 1817, 2018), Bošín — evangelický kostel (Prokeš 1887, 2020). Pokoušel se také o sestavení rozebraného stroje v kapli zámku Karlova Koruna v Chlumci nad Cidlinou (nedokončeno).',
+      'Restaurátor věžních a starožitných hodin z Turnovska ([hodinarmarek.cz](https://www.hodinarmarek.cz)). Doložené restaurace: Jeníšovice u Turnova (Prokeš 1882, 2017), Křivoklát (Fürstenbergské železárny 1817, 2018), Bošín — evangelický kostel (Prokeš 1887, 2020). Pokoušel se také o sestavení rozebraného stroje v kapli zámku Karlova Koruna v Chlumci nad Cidlinou (nedokončeno).',
     relatedSlugs: ['janovice', 'litinove-vezni-hodiny'],
     era: 'soucasnost',
   },
