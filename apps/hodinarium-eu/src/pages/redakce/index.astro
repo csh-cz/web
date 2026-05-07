@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import RedakceReportsPanel from '../../components/RedakceReportsPanel.astro';
 import review from '../../data/_review.json';
 
 /**
@@ -321,6 +322,10 @@ const hodinariTotal = (r.summary.hodinariTotal as number) ?? 40;
 
   <!-- Hlavní obsah — zobrazí se po JS auth check -->
   <div id="redakce-content" class="hidden">
+    {/* Panel s open editor reports (z /api/admin/reports → GitHub Issues
+        labelu web-bug). Hydratuje se klient-side po editor mode check. */}
+    <RedakceReportsPanel />
+
     {sections.map((s) => {
       const items = r.sections[s.key];
       if (!items || items.length === 0) return null;
