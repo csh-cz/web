@@ -49,6 +49,16 @@ for (const dir of ['hodinarium-eu', 'horologie-cz']) {
   }
 }
 
+// Dynamicky načti slugy hodinových kroků z kroky.ts (single source of truth).
+// Bez tohoto dynamic loadu by validace zlobila pokaždé když se přidá nový krok.
+const krokySlugs = (() => {
+  const krokyPath = path.join(ROOT, 'apps/hodinarium-eu/src/data/kroky.ts');
+  if (!fs.existsSync(krokyPath)) return new Set(['index']);
+  const txt = fs.readFileSync(krokyPath, 'utf8');
+  const matches = [...txt.matchAll(/^\s*slug:\s*['"]([^'"]+)['"]/gm)];
+  return new Set(['index', ...matches.map((m) => m[1])]);
+})();
+
 // Astro routes that aren't files
 const validRoutes = {
   soupis: new Set(['mapa', 'index']),
@@ -56,7 +66,7 @@ const validRoutes = {
   articles: new Set(['katalog', 'index', 'mapa']),
   sbirka: new Set(['katalog', 'index']),
   kategorie: new Set(['index']),
-  kroky: new Set(['index', 'vretenovy-krok', 'kotvovy-krok', 'grahamuv-krok', 'amantuv-krok', 'hippuv-prerusovac', 'retrogradni-zobrazovani']),
+  kroky: krokySlugs,
 };
 
 // ── 1) Duplicate frontmatter keys ──

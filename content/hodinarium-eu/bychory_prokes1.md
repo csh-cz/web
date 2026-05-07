@@ -20,7 +20,7 @@ perex: "Komplet věžních hodin ze zámku Býchory — čtvrťový stroj Jana P
 tldr: 'Do Hodinária byl zapůjčen věžní komplet Prokeš 1868 — kompletní soustava hodinového stroje, přídavného zvonicího stroje a dvou cimbálů, původně osazená na zámku Býchory.…'
 ---
 
-Do Hodinária byl zapůjčen věžní komplet Prokeš 1868 — kompletní soustava hodinového stroje, přídavného zvonicího stroje a dvou cimbálů, původně osazená na zámku Býchory. Hlavními kuriozitami kompletu jsou neobvyklý kolíčkový krok Benoita a Roberta de Sancerre (1852) a nezvyklé spojení mezi hodinovým a zvonicím strojem.
+Do Hodinária byl zapůjčen věžní komplet Prokeš 1868 — kompletní soustava hodinového stroje, přídavného zvonicího stroje a dvou cimbálů, původně osazená na zámku Býchory. Hlavními kuriozitami kompletu jsou neobvyklý **[Robertův krok](/kroky/robertuv-krok)** (Adolphe Robert ze Sancerre, patent 1852) a nezvyklé spojení mezi hodinovým a zvonicím strojem.
 
 [![Komplet Prokeš 1868 Býchory](/img/vez/bychory/f/komplet.jpg)](/img/vez/bychory/f/komplet.jpg)
 
