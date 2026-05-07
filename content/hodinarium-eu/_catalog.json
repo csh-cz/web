@@ -52,7 +52,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-4-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-x12-diferencialni-rele-vus",
@@ -63,7 +67,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-5-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-x10-dochazkove-hodiny-timometer",
@@ -74,7 +82,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "pichacky"
+    ]
   },
   {
     "slug": "inv-x3-hodiny-digitron",
@@ -85,7 +98,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-4-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-x13-hodiny-hn350",
@@ -97,7 +114,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 83,
-    "vyrobce": "Elekon"
+    "vyrobce": "Elekon",
+    "tags": [
+      "panel-5",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-x2-hodiny-kruhove-led",
@@ -108,7 +130,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-4-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-x11-hodiny-praotron-velke",
@@ -120,7 +146,11 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Praotron"
+    "vyrobce": "Praotron",
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-x5-hotelovy-budik-modry",
@@ -131,7 +161,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "budik"
+    ]
   },
   {
     "slug": "inv-x7-hotelovy-budik-velky",
@@ -142,7 +176,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "budik"
+    ]
   },
   {
     "slug": "inv-x9-tellurium",
@@ -153,7 +191,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-x6-vodni-hodiny-cinske",
@@ -164,7 +206,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "vodni"
+    ]
   },
   {
     "slug": "inv-x8-volne",
@@ -175,7 +221,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi"
+    ]
   },
   {
     "slug": "akvizice-2015-2025",
@@ -186,7 +235,10 @@
     "year": 1931,
     "lastModified": null,
     "imageCount": 52,
-    "wordCount": 2086
+    "wordCount": 2086,
+    "tags": [
+      "akvizice"
+    ]
   },
   {
     "slug": "alzbeta",
@@ -208,7 +260,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "nefunkcni"
+    ]
   },
   {
     "slug": "inv-216-amaterske-hodiny-oma",
@@ -219,7 +275,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "nefunkcni"
+    ]
   },
   {
     "slug": "inv-168-amaterske-synchronni-syntax",
@@ -230,7 +290,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "arduino_PPS",
@@ -252,7 +317,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-hlavni",
+      "funkcni"
+    ]
   },
   {
     "slug": "Staiger",
@@ -285,7 +354,11 @@
     "year": null,
     "lastModified": "2020-09-08T00:00:00.000Z",
     "imageCount": 14,
-    "wordCount": 607
+    "wordCount": 607,
+    "tags": [
+      "mechanicke",
+      "baroko"
+    ]
   },
   {
     "slug": "muzeum_gdansk_marien",
@@ -296,7 +369,10 @@
     "year": 2022,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 32
+    "wordCount": 32,
+    "tags": [
+      "evropa"
+    ]
   },
   {
     "slug": "inv-187-ato-art-deco",
@@ -307,7 +383,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-220-ato-art-deco",
@@ -318,7 +398,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-186-ato-kundo",
@@ -329,7 +413,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-219-ato-kundo",
@@ -340,7 +428,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "atomove_kapesni",
@@ -362,7 +454,10 @@
     "year": 2013,
     "lastModified": "2017-04-27T09:03:00.000Z",
     "imageCount": 8,
-    "wordCount": 223
+    "wordCount": 223,
+    "tags": [
+      "vezni"
+    ]
   },
   {
     "slug": "inv-3-barokni-ministroj-18-stol",
@@ -373,7 +468,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 241
+    "wordCount": 241,
+    "tags": [
+      "hlavni-sal",
+      "funkcni"
+    ]
   },
   {
     "slug": "decin_Wenzel_Mellner",
@@ -395,7 +494,10 @@
     "year": 2012,
     "lastModified": "2017-04-27T23:23:00.000Z",
     "imageCount": 6,
-    "wordCount": 516
+    "wordCount": 516,
+    "tags": [
+      "vezni"
+    ]
   },
   {
     "slug": "inv-151-bateriove-junghans-ato-mat",
@@ -407,7 +509,13 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Junghans"
+    "vyrobce": "Junghans",
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni",
+      "junghans",
+      "nastenne"
+    ]
   },
   {
     "slug": "inv-148-bateriove-kienzle",
@@ -419,7 +527,13 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Kienzle"
+    "vyrobce": "Kienzle",
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni",
+      "kienzle",
+      "nastenne"
+    ]
   },
   {
     "slug": "inv-150-bateriove-pasmovy-cas",
@@ -430,7 +544,13 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni",
+      "nastenne",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-149-bateriove-rocky",
@@ -441,7 +561,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni",
+      "nastenne"
+    ]
   },
   {
     "slug": "inv-185-bateriove-rocky",
@@ -452,7 +577,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni",
+      "nastenne"
+    ]
   },
   {
     "slug": "inv-218-bateriove-rocky",
@@ -463,7 +593,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni",
+      "nastenne"
+    ]
   },
   {
     "slug": "inv-37-bici-stroj-brillie",
@@ -475,7 +610,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 249,
-    "vyrobce": "Brillié"
+    "vyrobce": "Brillié",
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "brillie"
+    ]
   },
   {
     "slug": "inv-88-brillie",
@@ -487,7 +627,12 @@
     "lastModified": null,
     "imageCount": 5,
     "wordCount": 105,
-    "vyrobce": "bratři Brillié"
+    "vyrobce": "bratři Brillié",
+    "tags": [
+      "panel-1",
+      "funkcni",
+      "brillie"
+    ]
   },
   {
     "slug": "inv-177-budik-bentime",
@@ -499,7 +644,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Bentime"
+    "vyrobce": "Bentime",
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "budik",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-210-budik-bentime",
@@ -511,7 +661,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Bentime"
+    "vyrobce": "Bentime",
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "budik",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-174-budik-prim-quartz",
@@ -522,7 +677,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "budik",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-207-budik-prim-quartz",
@@ -533,7 +693,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "budik",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-179-budik-quartz",
@@ -544,7 +709,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "budik",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-212-budik-quartz",
@@ -555,7 +725,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "budik",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-175-budik-ruhla-quartz",
@@ -567,7 +742,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Ruhla"
+    "vyrobce": "Ruhla",
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "budik",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-208-budik-ruhla-quartz",
@@ -579,7 +759,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Ruhla"
+    "vyrobce": "Ruhla",
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "budik",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-157-budik-s-lampickou",
@@ -590,7 +775,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "budik",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-191-budik-s-lampickou",
@@ -601,7 +791,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "budik",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-224-budik-s-lampickou",
@@ -612,7 +807,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "budik",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-159-budik-s-lampickou-kulatou",
@@ -623,7 +823,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "budik",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-160-budik-s-lampickou-podlouhlou",
@@ -634,7 +839,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "budik",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-178-budik-slava-sssr",
@@ -645,7 +855,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "budik",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-211-budik-slava-sssr",
@@ -656,7 +871,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "budik",
+      "funkcni"
+    ]
   },
   {
     "slug": "bulle",
@@ -667,7 +887,12 @@
     "year": 1920,
     "lastModified": "2020-02-09T16:02:00.000Z",
     "imageCount": 4,
-    "wordCount": 369
+    "wordCount": 369,
+    "tags": [
+      "bulle",
+      "elektromagneticke",
+      "1900s"
+    ]
   },
   {
     "slug": "ctwagner",
@@ -689,7 +914,10 @@
     "year": 1907,
     "lastModified": "2020-11-28T21:01:00.000Z",
     "imageCount": 5,
-    "wordCount": 1128
+    "wordCount": 1128,
+    "tags": [
+      "popularizace"
+    ]
   },
   {
     "slug": "inv-61-cimbal-s-kladivem",
@@ -700,7 +928,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "hlavni-sal",
+      "nefunkcni"
+    ]
   },
   {
     "slug": "inv-66-cimbal-s-odbijenim",
@@ -711,7 +943,11 @@
     "year": 2009,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 84
+    "wordCount": 84,
+    "tags": [
+      "hlavni-sal",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-112-cpj-061",
@@ -722,7 +958,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-4",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "carokodky",
@@ -744,7 +985,10 @@
     "year": null,
     "lastModified": "2017-04-26T16:25:00.000Z",
     "imageCount": 0,
-    "wordCount": 489
+    "wordCount": 489,
+    "tags": [
+      "vodni"
+    ]
   },
   {
     "slug": "mazan",
@@ -767,7 +1011,11 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 178,
-    "vyrobce": "Thomas Fox / Safe and Vault Company Ltd."
+    "vyrobce": "Thomas Fox / Safe and Vault Company Ltd.",
+    "tags": [
+      "vitrina-2-hlavni",
+      "funkcni"
+    ]
   },
   {
     "slug": "casovy_zamek",
@@ -778,7 +1026,10 @@
     "year": 1874,
     "lastModified": "2017-04-23T09:11:00.000Z",
     "imageCount": 2,
-    "wordCount": 495
+    "wordCount": 495,
+    "tags": [
+      "mechanicke"
+    ]
   },
   {
     "slug": "inv-251-cinsky-budik",
@@ -789,7 +1040,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "budik"
+    ]
   },
   {
     "slug": "bychory_dalsi_kola",
@@ -823,7 +1078,11 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Anděl"
+    "vyrobce": "Anděl",
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-204-dcf-andel-1",
@@ -835,7 +1094,11 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Anděl"
+    "vyrobce": "Anděl",
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-172-dcf-andel-2",
@@ -847,7 +1110,11 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Anděl"
+    "vyrobce": "Anděl",
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-205-dcf-andel-2",
@@ -859,7 +1126,11 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Anděl"
+    "vyrobce": "Anděl",
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "decimalky",
@@ -870,7 +1141,10 @@
     "year": 1793,
     "lastModified": "2021-01-13T10:56:00.000Z",
     "imageCount": 1,
-    "wordCount": 1002
+    "wordCount": 1002,
+    "tags": [
+      "decimalka"
+    ]
   },
   {
     "slug": "muzeum_furtwangen",
@@ -881,7 +1155,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 41
+    "wordCount": 41,
+    "tags": [
+      "evropa"
+    ]
   },
   {
     "slug": "muzeum_glashutte",
@@ -892,7 +1169,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 32
+    "wordCount": 32,
+    "tags": [
+      "evropa"
+    ]
   },
   {
     "slug": "matematicke",
@@ -914,7 +1194,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "hlavni-sal"
+    ]
   },
   {
     "slug": "rizeni_kyvadla",
@@ -925,7 +1208,11 @@
     "year": 2000,
     "lastModified": "2025-05-26T10:10:00.000Z",
     "imageCount": 2,
-    "wordCount": 926
+    "wordCount": 926,
+    "tags": [
+      "kyvadlo",
+      "elektricke"
+    ]
   },
   {
     "slug": "inv-176-digitalni-amaterske",
@@ -936,7 +1223,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni",
+      "digi"
+    ]
   },
   {
     "slug": "inv-209-digitalni-amaterske",
@@ -947,7 +1239,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni",
+      "digi"
+    ]
   },
   {
     "slug": "inv-184-digitalni-hodiny-farny",
@@ -958,7 +1255,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni",
+      "digi"
+    ]
   },
   {
     "slug": "inv-217-digitalni-hodiny-farny",
@@ -969,7 +1271,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni",
+      "digi"
+    ]
   },
   {
     "slug": "inv-238-digitalni-slunecni-hodiny",
@@ -980,7 +1287,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-4-vedlejsi",
+      "slunecni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-170-digitalni-vejirove",
@@ -991,7 +1303,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni",
+      "digi"
+    ]
   },
   {
     "slug": "inv-203-digitalni-vejirove",
@@ -1002,7 +1319,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni",
+      "digi"
+    ]
   },
   {
     "slug": "svarcvaldky_17stol",
@@ -1013,7 +1335,11 @@
     "year": 1650,
     "lastModified": "2017-04-26T21:04:00.000Z",
     "imageCount": 5,
-    "wordCount": 468
+    "wordCount": 468,
+    "tags": [
+      "mechanicke",
+      "1700s"
+    ]
   },
   {
     "slug": "svarcvaldky_18stol",
@@ -1024,7 +1350,11 @@
     "year": 1771,
     "lastModified": "2017-04-26T21:09:00.000Z",
     "imageCount": 5,
-    "wordCount": 260
+    "wordCount": 260,
+    "tags": [
+      "mechanicke",
+      "1700s"
+    ]
   },
   {
     "slug": "download",
@@ -1046,7 +1376,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-4",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-40-drevene-hodiny",
@@ -1057,7 +1392,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "hlavni-sal",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-113-eh40",
@@ -1068,7 +1407,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-4",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-117-eh81",
@@ -1079,7 +1423,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-4",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-195-ekvitermni-regulator-term-2",
@@ -1090,7 +1439,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "nefunkcni",
+      "nastenne"
+    ]
   },
   {
     "slug": "inv-228-ekvitermni-regulator-term-2",
@@ -1101,7 +1455,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "nefunkcni",
+      "nastenne"
+    ]
   },
   {
     "slug": "elektricke1",
@@ -1112,7 +1471,10 @@
     "year": 1930,
     "lastModified": "2019-03-20T09:52:00.000Z",
     "imageCount": 2,
-    "wordCount": 871
+    "wordCount": 871,
+    "tags": [
+      "elektricke"
+    ]
   },
   {
     "slug": "ATO",
@@ -1123,7 +1485,11 @@
     "year": 1923,
     "lastModified": "2017-04-26T13:33:00.000Z",
     "imageCount": 0,
-    "wordCount": 293
+    "wordCount": 293,
+    "tags": [
+      "elektromagneticke",
+      "1900s"
+    ]
   },
   {
     "slug": "synchron_bici",
@@ -1145,7 +1511,10 @@
     "year": null,
     "lastModified": "2023-10-03T08:25:00.000Z",
     "imageCount": 7,
-    "wordCount": 248
+    "wordCount": 248,
+    "tags": [
+      "elektricke"
+    ]
   },
   {
     "slug": "decin_elektrifikace",
@@ -1167,7 +1536,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni",
+      "nastenne"
+    ]
   },
   {
     "slug": "elektromagneticke_segmenty",
@@ -1189,7 +1563,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 912
+    "wordCount": 912,
+    "tags": [
+      "elektricke",
+      "popularizace"
+    ]
   },
   {
     "slug": "inv-116-esh-3",
@@ -1200,7 +1578,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-4",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "ESV3",
@@ -1222,7 +1605,11 @@
     "year": 1931,
     "lastModified": "2019-03-10T12:44:00.000Z",
     "imageCount": 4,
-    "wordCount": 155
+    "wordCount": 155,
+    "tags": [
+      "synchronni",
+      "1900s"
+    ]
   },
   {
     "slug": "vezni_muzejicko_evropa",
@@ -1233,7 +1620,10 @@
     "year": null,
     "lastModified": "2019-11-22T23:29:00.000Z",
     "imageCount": 11,
-    "wordCount": 2171
+    "wordCount": 2171,
+    "tags": [
+      "evropa"
+    ]
   },
   {
     "slug": "decin_flatbed",
@@ -1255,7 +1645,10 @@
     "year": 1883,
     "lastModified": "2017-04-26T15:59:00.000Z",
     "imageCount": 0,
-    "wordCount": 300
+    "wordCount": 300,
+    "tags": [
+      "kyvadlo"
+    ]
   },
   {
     "slug": "line_kyvadlo",
@@ -1266,7 +1659,10 @@
     "year": 1901,
     "lastModified": "2023-06-30T11:40:00.000Z",
     "imageCount": 3,
-    "wordCount": 969
+    "wordCount": 969,
+    "tags": [
+      "kyvadlo"
+    ]
   },
   {
     "slug": "decin_galerie",
@@ -1288,7 +1684,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-hlavni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-76-heliochronometr-s-analemou",
@@ -1299,7 +1699,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-hlavni",
+      "funkcni"
+    ]
   },
   {
     "slug": "hinspirace",
@@ -1376,7 +1780,10 @@
     "year": 2000,
     "lastModified": "2021-01-01T23:44:00.000Z",
     "imageCount": 0,
-    "wordCount": 1327
+    "wordCount": 1327,
+    "tags": [
+      "cesko"
+    ]
   },
   {
     "slug": "inv-60-hodinovy-hotel",
@@ -1387,7 +1794,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "hlavni-sal",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-244-hodiny-3d",
@@ -1398,7 +1809,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-4-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-41-hodiny-achrer",
@@ -1410,7 +1825,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 116,
-    "vyrobce": "Josef Achrer"
+    "vyrobce": "Josef Achrer",
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "achrer"
+    ]
   },
   {
     "slug": "budiky1",
@@ -1421,7 +1841,10 @@
     "year": 1680,
     "lastModified": "2017-04-26T13:56:00.000Z",
     "imageCount": 7,
-    "wordCount": 408
+    "wordCount": 408,
+    "tags": [
+      "budik"
+    ]
   },
   {
     "slug": "budiky2",
@@ -1432,7 +1855,10 @@
     "year": null,
     "lastModified": "2017-04-26T13:46:00.000Z",
     "imageCount": 17,
-    "wordCount": 243
+    "wordCount": 243,
+    "tags": [
+      "budik"
+    ]
   },
   {
     "slug": "inv-161-hodiny-bulle",
@@ -1444,7 +1870,12 @@
     "lastModified": null,
     "imageCount": 3,
     "wordCount": 0,
-    "vyrobce": "Bulle"
+    "vyrobce": "Bulle",
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni",
+      "bulle"
+    ]
   },
   {
     "slug": "inv-55-hodiny-comtoise",
@@ -1455,7 +1886,13 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 165
+    "wordCount": 165,
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "krok-vreteno",
+      "nastenne"
+    ]
   },
   {
     "slug": "inv-56-hodiny-comtoise",
@@ -1466,7 +1903,13 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 165
+    "wordCount": 165,
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "krok-kotva",
+      "nastenne"
+    ]
   },
   {
     "slug": "4ruce",
@@ -1488,7 +1931,11 @@
     "year": 1906,
     "lastModified": "2017-04-26T16:00:00.000Z",
     "imageCount": 4,
-    "wordCount": 545
+    "wordCount": 545,
+    "tags": [
+      "mechanicke",
+      "1900s"
+    ]
   },
   {
     "slug": "inv-128-hodiny-dcf",
@@ -1499,7 +1946,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-5",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-200-hodiny-digitalni-sakul",
@@ -1510,7 +1961,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni",
+      "digi"
+    ]
   },
   {
     "slug": "inv-233-hodiny-digitalni-sakul",
@@ -1521,7 +1977,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni",
+      "digi"
+    ]
   },
   {
     "slug": "inv-129-hodiny-eh101",
@@ -1532,7 +1993,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-5",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-196-hodiny-eh81",
@@ -1543,7 +2009,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-201-hodiny-eh81",
@@ -1554,7 +2025,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-229-hodiny-eh81",
@@ -1565,7 +2041,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-234-hodiny-eh81",
@@ -1576,7 +2057,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-180-hodiny-elchron-1",
@@ -1587,7 +2073,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-213-hodiny-elchron-1",
@@ -1598,7 +2088,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-181-hodiny-elchron-2",
@@ -1609,7 +2103,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-214-hodiny-elchron-2",
@@ -1620,7 +2118,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-42-hodiny-housle",
@@ -1631,7 +2133,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "hlavni-sal",
+      "funkcni"
+    ]
   },
   {
     "slug": "jezdecke",
@@ -1653,7 +2159,10 @@
     "year": null,
     "lastModified": "2017-04-26T14:10:00.000Z",
     "imageCount": 0,
-    "wordCount": 43
+    "wordCount": 43,
+    "tags": [
+      "kuriozita"
+    ]
   },
   {
     "slug": "inv-91-hodiny-kienzle",
@@ -1665,7 +2174,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Kienzle"
+    "vyrobce": "Kienzle",
+    "tags": [
+      "panel-1",
+      "funkcni",
+      "kienzle"
+    ]
   },
   {
     "slug": "inv-166-hodiny-nastenne-rumburg",
@@ -1676,7 +2190,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "nastenne",
+      "funkcni"
+    ]
   },
   {
     "slug": "NTPH",
@@ -1698,7 +2217,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "stolni"
+    ]
   },
   {
     "slug": "elektricke2",
@@ -1709,7 +2233,10 @@
     "year": 1925,
     "lastModified": "2017-05-24T08:25:00.000Z",
     "imageCount": 3,
-    "wordCount": 448
+    "wordCount": 448,
+    "tags": [
+      "elektricke"
+    ]
   },
   {
     "slug": "inv-239-hodiny-s-planetovym-soukolim",
@@ -1720,7 +2247,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-4-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "sestka",
@@ -1742,7 +2273,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-230-hodiny-sh350",
@@ -1753,7 +2289,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "merkur",
@@ -1764,7 +2305,11 @@
     "year": 2003,
     "lastModified": "2019-11-03T11:30:00.000Z",
     "imageCount": 12,
-    "wordCount": 101
+    "wordCount": 101,
+    "tags": [
+      "kuriozita",
+      "diy"
+    ]
   },
   {
     "slug": "GPS_Sakul",
@@ -1797,7 +2342,10 @@
     "year": 2001,
     "lastModified": "2017-04-26T16:24:00.000Z",
     "imageCount": 3,
-    "wordCount": 199
+    "wordCount": 199,
+    "tags": [
+      "cesko"
+    ]
   },
   {
     "slug": "janovice",
@@ -1808,7 +2356,11 @@
     "year": 1899,
     "lastModified": "2017-04-26T16:20:00.000Z",
     "imageCount": 15,
-    "wordCount": 1579
+    "wordCount": 1579,
+    "tags": [
+      "vezni",
+      "cesko"
+    ]
   },
   {
     "slug": "kulicky",
@@ -1830,7 +2382,10 @@
     "year": 1998,
     "lastModified": "2017-05-14T09:44:00.000Z",
     "imageCount": 0,
-    "wordCount": 114
+    "wordCount": 114,
+    "tags": [
+      "kuriozita"
+    ]
   },
   {
     "slug": "inv-79-holubarske-hodiny-1",
@@ -1841,7 +2396,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-hlavni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-80-holubarske-hodiny-2",
@@ -1852,7 +2411,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-hlavni"
+    ]
   },
   {
     "slug": "decin_vypousteny",
@@ -1896,7 +2458,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-5",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-122-ipj-0612-3x",
@@ -1907,7 +2473,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-4",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "perpetum_mobile",
@@ -1929,7 +2500,10 @@
     "year": null,
     "lastModified": "2021-09-26T09:14:00.000Z",
     "imageCount": 7,
-    "wordCount": 3361
+    "wordCount": 3361,
+    "tags": [
+      "synchronni"
+    ]
   },
   {
     "slug": "inv-101-jednotny-cas",
@@ -1941,7 +2515,12 @@
     "lastModified": null,
     "imageCount": 5,
     "wordCount": 0,
-    "vyrobce": "Jednotný čas"
+    "vyrobce": "Jednotný čas",
+    "tags": [
+      "panel-2",
+      "funkcni",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "jednotnycas",
@@ -1952,7 +2531,10 @@
     "year": 1839,
     "lastModified": "2022-05-12T22:56:00.000Z",
     "imageCount": 0,
-    "wordCount": 697
+    "wordCount": 697,
+    "tags": [
+      "synchronni"
+    ]
   },
   {
     "slug": "muzeum_jindrisska_vez",
@@ -1963,7 +2545,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 64
+    "wordCount": 64,
+    "tags": [
+      "vezni",
+      "cesko",
+      "praha"
+    ]
   },
   {
     "slug": "kardasova_recice",
@@ -1974,7 +2561,11 @@
     "year": 1493,
     "lastModified": "2019-07-23T14:50:00.000Z",
     "imageCount": 7,
-    "wordCount": 972
+    "wordCount": 972,
+    "tags": [
+      "vezni",
+      "cesko"
+    ]
   },
   {
     "slug": "muzeum_kadan_orloj",
@@ -1985,7 +2576,10 @@
     "year": 1410,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 66
+    "wordCount": 66,
+    "tags": [
+      "cesko"
+    ]
   },
   {
     "slug": "kapesni_orloj",
@@ -1996,7 +2590,11 @@
     "year": null,
     "lastModified": "2017-04-26T16:01:00.000Z",
     "imageCount": 3,
-    "wordCount": 335
+    "wordCount": 335,
+    "tags": [
+      "vezni",
+      "kapesni"
+    ]
   },
   {
     "slug": "inv-271-kapesni-velke",
@@ -2007,7 +2605,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "kapesni",
+      "funkcni"
+    ]
   },
   {
     "slug": "Kappa",
@@ -2040,7 +2643,11 @@
     "year": 1364,
     "lastModified": "2026-05-04T00:00:00.000Z",
     "imageCount": 3,
-    "wordCount": 2349
+    "wordCount": 2349,
+    "tags": [
+      "popularizace",
+      "1800s"
+    ]
   },
   {
     "slug": "muzeum_klementinum",
@@ -2051,7 +2658,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 84
+    "wordCount": 84,
+    "tags": [
+      "cesko",
+      "praha"
+    ]
   },
   {
     "slug": "hainz_natahovani",
@@ -2073,7 +2684,10 @@
     "year": 1926,
     "lastModified": "2022-05-11T09:48:00.000Z",
     "imageCount": 3,
-    "wordCount": 281
+    "wordCount": 281,
+    "tags": [
+      "pneumaticke"
+    ]
   },
   {
     "slug": "decin_koncepce",
@@ -2107,7 +2721,11 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Gibbus"
+    "vyrobce": "Gibbus",
+    "tags": [
+      "hlavni-sal",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-58-kovane-hodiny-gibbus-2",
@@ -2119,7 +2737,11 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Gibbus"
+    "vyrobce": "Gibbus",
+    "tags": [
+      "hlavni-sal",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-43-kovane-hodiny-legner",
@@ -2130,7 +2752,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 108
+    "wordCount": 108,
+    "tags": [
+      "hlavni-sal",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-248-kovane-zamky-6-ks",
@@ -2141,7 +2767,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi"
+    ]
   },
   {
     "slug": "kralovstvi-casu",
@@ -2152,7 +2781,10 @@
     "year": 1907,
     "lastModified": "2026-04-28T09:00:00.000Z",
     "imageCount": 4,
-    "wordCount": 168
+    "wordCount": 168,
+    "tags": [
+      "cesko"
+    ]
   },
   {
     "slug": "inv-83-kukacky",
@@ -2163,7 +2795,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-hlavni"
+    ]
   },
   {
     "slug": "razitka",
@@ -2185,7 +2820,11 @@
     "year": 1932,
     "lastModified": "2017-04-26T16:14:00.000Z",
     "imageCount": 2,
-    "wordCount": 311
+    "wordCount": 311,
+    "tags": [
+      "kvetinove",
+      "cesko"
+    ]
   },
   {
     "slug": "kvetinovehodiny_NMnM",
@@ -2196,7 +2835,12 @@
     "year": 1926,
     "lastModified": "2020-03-14T11:19:00.000Z",
     "imageCount": 10,
-    "wordCount": 1300
+    "wordCount": 1300,
+    "tags": [
+      "kvetinove",
+      "cesko",
+      "1900s"
+    ]
   },
   {
     "slug": "podebrady1",
@@ -2207,7 +2851,11 @@
     "year": 1905,
     "lastModified": "2025-02-01T16:25:00.000Z",
     "imageCount": 4,
-    "wordCount": 319
+    "wordCount": 319,
+    "tags": [
+      "kvetinove",
+      "cesko"
+    ]
   },
   {
     "slug": "podebrady4",
@@ -2218,7 +2866,11 @@
     "year": null,
     "lastModified": "2017-04-26T16:17:00.000Z",
     "imageCount": 30,
-    "wordCount": 9
+    "wordCount": 9,
+    "tags": [
+      "kvetinove",
+      "cesko"
+    ]
   },
   {
     "slug": "podebrady1b",
@@ -2229,7 +2881,11 @@
     "year": 1937,
     "lastModified": "2017-04-26T16:16:00.000Z",
     "imageCount": 0,
-    "wordCount": 1439
+    "wordCount": 1439,
+    "tags": [
+      "kvetinove",
+      "cesko"
+    ]
   },
   {
     "slug": "kvetinove",
@@ -2240,7 +2896,10 @@
     "year": 1903,
     "lastModified": "2017-04-26T16:18:00.000Z",
     "imageCount": 6,
-    "wordCount": 497
+    "wordCount": 497,
+    "tags": [
+      "kvetinove"
+    ]
   },
   {
     "slug": "inv-165-kyvadlo-letna",
@@ -2251,7 +2910,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "lahvace",
@@ -2284,7 +2947,10 @@
     "year": null,
     "lastModified": "2018-03-17T18:41:00.000Z",
     "imageCount": 1,
-    "wordCount": 105
+    "wordCount": 105,
+    "tags": [
+      "elektromagneticke"
+    ]
   },
   {
     "slug": "lenzkirch",
@@ -2306,7 +2972,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 62
+    "wordCount": 62,
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "krok-lihyr"
+    ]
   },
   {
     "slug": "inv-266-linkovy-rozvadec-ehu-260",
@@ -2317,7 +2988,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-96-linkovy-zesilovac",
@@ -2328,7 +3003,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-2",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-97-linkovy-zesilovac-releovy",
@@ -2339,7 +3018,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-2",
+      "funkcni"
+    ]
   },
   {
     "slug": "litinove-vezni-hodiny",
@@ -2350,7 +3033,11 @@
     "year": 1648,
     "lastModified": "2026-05-04T00:00:00.000Z",
     "imageCount": 1,
-    "wordCount": 1381
+    "wordCount": 1381,
+    "tags": [
+      "popularizace",
+      "1800s"
+    ]
   },
   {
     "slug": "inv-139-lodni-hodiny-kappa",
@@ -2362,7 +3049,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Kappa"
+    "vyrobce": "Kappa",
+    "tags": [
+      "panel-5",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "maregraf",
@@ -2373,7 +3065,11 @@
     "year": 1893,
     "lastModified": "2017-04-26T16:26:00.000Z",
     "imageCount": 3,
-    "wordCount": 90
+    "wordCount": 90,
+    "tags": [
+      "mechanicke",
+      "1800s"
+    ]
   },
   {
     "slug": "brillie",
@@ -2396,7 +3092,13 @@
     "lastModified": null,
     "imageCount": 3,
     "wordCount": 0,
-    "vyrobce": "Elektročas"
+    "vyrobce": "Elektročas",
+    "tags": [
+      "panel-2",
+      "funkcni",
+      "elektrocas",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-90-maticni-ericsson",
@@ -2408,7 +3110,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 121,
-    "vyrobce": "Ericsson"
+    "vyrobce": "Ericsson",
+    "tags": [
+      "panel-1",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-108-maticni-hodiny",
@@ -2419,7 +3126,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-3",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-45-maticni-hodiny-t-n",
@@ -2431,7 +3143,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "T&N"
+    "vyrobce": "T&N",
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-281-maticni-siemens",
@@ -2443,7 +3160,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Siemens"
+    "vyrobce": "Siemens",
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-103-maticni-t-n",
@@ -2455,7 +3177,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "T&N"
+    "vyrobce": "T&N",
+    "tags": [
+      "panel-3",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-87-maticni-wagner",
@@ -2467,7 +3194,13 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 51,
-    "vyrobce": "Wagner"
+    "vyrobce": "Wagner",
+    "tags": [
+      "panel-1",
+      "funkcni",
+      "wagner",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-89-maticni-zenith",
@@ -2479,7 +3212,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 61,
-    "vyrobce": "Zenith"
+    "vyrobce": "Zenith",
+    "tags": [
+      "panel-1",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "schaffhausen",
@@ -2490,7 +3228,11 @@
     "year": 1885,
     "lastModified": "2017-04-26T14:11:00.000Z",
     "imageCount": 2,
-    "wordCount": 272
+    "wordCount": 272,
+    "tags": [
+      "kapesni",
+      "schaffhausen"
+    ]
   },
   {
     "slug": "Lantime_M100",
@@ -2512,7 +3254,10 @@
     "year": 1900,
     "lastModified": "2017-04-26T16:02:00.000Z",
     "imageCount": 0,
-    "wordCount": 3845
+    "wordCount": 3845,
+    "tags": [
+      "popularizace"
+    ]
   },
   {
     "slug": "inv-124-mini-hlavni-hodiny-hn61",
@@ -2523,7 +3268,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-5",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "mluvici1895",
@@ -2534,7 +3284,10 @@
     "year": 1895,
     "lastModified": "2017-04-26T15:58:00.000Z",
     "imageCount": 0,
-    "wordCount": 494
+    "wordCount": 494,
+    "tags": [
+      "1800s"
+    ]
   },
   {
     "slug": "inv-85-model-hipp",
@@ -2546,7 +3299,13 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 62,
-    "vyrobce": "Hipp"
+    "vyrobce": "Hipp",
+    "tags": [
+      "panel-1",
+      "funkcni",
+      "krok-hipp",
+      "hipp"
+    ]
   },
   {
     "slug": "motorky",
@@ -2568,7 +3327,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "muzeum_mih_chaux_de_fonds",
@@ -2579,7 +3342,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 39
+    "wordCount": 39,
+    "tags": [
+      "evropa"
+    ]
   },
   {
     "slug": "muzeum_waldmunchen",
@@ -2590,7 +3356,11 @@
     "year": 1600,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 93
+    "wordCount": 93,
+    "tags": [
+      "vezni",
+      "evropa"
+    ]
   },
   {
     "slug": "muzeum_mnichovo_hradiste",
@@ -2601,7 +3371,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 53
+    "wordCount": 53,
+    "tags": [
+      "cesko"
+    ]
   },
   {
     "slug": "muzeum_gdansk_zegarow_wiezowych",
@@ -2612,7 +3385,11 @@
     "year": 1996,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 131
+    "wordCount": 131,
+    "tags": [
+      "vezni",
+      "evropa"
+    ]
   },
   {
     "slug": "mystery",
@@ -2634,7 +3411,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-4-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-245-mysteriozni-hodiny-havlicek-velke",
@@ -2645,7 +3426,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-4-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-154-mysteriozni-jefferson",
@@ -2656,7 +3441,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-64-mysteriozni-natahovani",
@@ -2667,7 +3456,11 @@
     "year": 2018,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 90
+    "wordCount": 90,
+    "tags": [
+      "hlavni-sal",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-261-nastenne-ato",
@@ -2678,7 +3471,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "nastenne",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-280-nastenne-hainz",
@@ -2690,7 +3488,13 @@
     "lastModified": null,
     "imageCount": 2,
     "wordCount": 0,
-    "vyrobce": "Hainz"
+    "vyrobce": "Hainz",
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "nastenne",
+      "funkcni",
+      "hainz"
+    ]
   },
   {
     "slug": "inv-106-nastenne-laplace",
@@ -2702,7 +3506,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Laplace"
+    "vyrobce": "Laplace",
+    "tags": [
+      "panel-3",
+      "nastenne",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-107-nastenne-laplace-kulate",
@@ -2714,7 +3523,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Laplace"
+    "vyrobce": "Laplace",
+    "tags": [
+      "panel-3",
+      "nastenne",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-279-nastenne-se-setrvackou",
@@ -2725,7 +3539,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "nastenne",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-120-nastenne-schauer",
@@ -2737,7 +3556,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Schauer"
+    "vyrobce": "Schauer",
+    "tags": [
+      "panel-4",
+      "nastenne",
+      "funkcni"
+    ]
   },
   {
     "slug": "decin_bici_stroje",
@@ -2759,7 +3583,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-hlavni",
+      "funkcni"
+    ]
   },
   {
     "slug": "nocturnal",
@@ -2781,7 +3609,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-5",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-46-nouzove-zastaveni-casu",
@@ -2792,7 +3624,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "hlavni-sal",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-132-ntp-a-gps-server",
@@ -2803,7 +3639,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-5",
+      "nefunkcni",
+      "atomove"
+    ]
   },
   {
     "slug": "inv-130-ntp-gps-pps-server",
@@ -2814,7 +3655,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-5",
+      "funkcni",
+      "atomove"
+    ]
   },
   {
     "slug": "vezni_zikmund1",
@@ -2836,7 +3682,10 @@
     "year": null,
     "lastModified": "2017-04-26T16:28:00.000Z",
     "imageCount": 0,
-    "wordCount": 65
+    "wordCount": 65,
+    "tags": [
+      "vodni"
+    ]
   },
   {
     "slug": "kuriozity1",
@@ -2847,7 +3696,10 @@
     "year": null,
     "lastModified": "2017-04-26T13:41:00.000Z",
     "imageCount": 0,
-    "wordCount": 48
+    "wordCount": 48,
+    "tags": [
+      "kuriozita"
+    ]
   },
   {
     "slug": "inv-53-orloj-hvezdarna-petrin",
@@ -2858,7 +3710,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 123
+    "wordCount": 123,
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "vezni"
+    ]
   },
   {
     "slug": "inv-65-orloj-kavalir",
@@ -2870,7 +3727,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Kavalír"
+    "vyrobce": "Kavalír",
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "vezni"
+    ]
   },
   {
     "slug": "inv-47-orloj-skala",
@@ -2881,7 +3743,12 @@
     "year": 1907,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 108
+    "wordCount": 108,
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "vezni"
+    ]
   },
   {
     "slug": "inv-237-osciloskopicke-hodiny",
@@ -2892,7 +3759,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "muzeum_ostravske",
@@ -2903,7 +3774,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 57
+    "wordCount": 57,
+    "tags": [
+      "cesko"
+    ]
   },
   {
     "slug": "inv-119-ozubene-ctverce",
@@ -2914,7 +3788,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-4",
+      "funkcni"
+    ]
   },
   {
     "slug": "betrisey",
@@ -2925,7 +3803,10 @@
     "year": null,
     "lastModified": "2017-04-26T13:59:00.000Z",
     "imageCount": 0,
-    "wordCount": 65
+    "wordCount": 65,
+    "tags": [
+      "kuriozita"
+    ]
   },
   {
     "slug": "RickStanley",
@@ -2947,7 +3828,12 @@
     "year": 1850,
     "lastModified": null,
     "imageCount": 1,
-    "wordCount": 327
+    "wordCount": 327,
+    "tags": [
+      "panel-1",
+      "elektricke",
+      "hipp"
+    ]
   },
   {
     "slug": "panel-2-maticni-elektrocas",
@@ -2958,7 +3844,12 @@
     "year": 2017,
     "lastModified": null,
     "imageCount": 1,
-    "wordCount": 111
+    "wordCount": 111,
+    "tags": [
+      "panel-2",
+      "elektrocas",
+      "elektricke"
+    ]
   },
   {
     "slug": "panel-3-laplace-tn-burk",
@@ -2969,7 +3860,12 @@
     "year": 2017,
     "lastModified": null,
     "imageCount": 1,
-    "wordCount": 189
+    "wordCount": 189,
+    "tags": [
+      "panel-3",
+      "elektricke",
+      "radio-rizeno"
+    ]
   },
   {
     "slug": "panel-4-pragotron",
@@ -2980,7 +3876,13 @@
     "year": 2017,
     "lastModified": null,
     "imageCount": 1,
-    "wordCount": 249
+    "wordCount": 249,
+    "tags": [
+      "panel-4",
+      "pragotron",
+      "elektricke",
+      "radio-rizeno"
+    ]
   },
   {
     "slug": "panel-5-dcf-gps-ntp",
@@ -2991,7 +3893,12 @@
     "year": 2020,
     "lastModified": null,
     "imageCount": 1,
-    "wordCount": 236
+    "wordCount": 236,
+    "tags": [
+      "panel-5",
+      "elektricke",
+      "radio-rizeno"
+    ]
   },
   {
     "slug": "papir",
@@ -3013,7 +3920,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "casova_pasma",
@@ -3035,7 +3946,12 @@
     "year": 1839,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 74
+    "wordCount": 74,
+    "tags": [
+      "kapesni",
+      "naramkove",
+      "evropa"
+    ]
   },
   {
     "slug": "inv-63-pendlovky",
@@ -3046,7 +3962,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "hlavni-sal",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-105-perconta",
@@ -3058,7 +3978,11 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Perconta"
+    "vyrobce": "Perconta",
+    "tags": [
+      "panel-3",
+      "funkcni"
+    ]
   },
   {
     "slug": "pichacky",
@@ -3069,7 +3993,10 @@
     "year": 1888,
     "lastModified": "2018-07-18T09:10:00.000Z",
     "imageCount": 9,
-    "wordCount": 1334
+    "wordCount": 1334,
+    "tags": [
+      "mechanicke"
+    ]
   },
   {
     "slug": "inv-254-pichacky-1",
@@ -3080,7 +4007,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "nefunkcni",
+      "pichacky"
+    ]
   },
   {
     "slug": "inv-255-pichacky-2",
@@ -3091,7 +4023,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "nefunkcni",
+      "pichacky"
+    ]
   },
   {
     "slug": "inv-256-pichacky-burk",
@@ -3102,7 +4039,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "pichacky"
+    ]
   },
   {
     "slug": "inv-269-pichacky-cervene-dk8b",
@@ -3113,7 +4055,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "pichacky"
+    ]
   },
   {
     "slug": "inv-273-pichacky-cervene-dk8b",
@@ -3124,7 +4071,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "pichacky"
+    ]
   },
   {
     "slug": "inv-263-pichacky-elektrocas-dk1",
@@ -3136,7 +4088,13 @@
     "lastModified": null,
     "imageCount": 3,
     "wordCount": 0,
-    "vyrobce": "Elektročas"
+    "vyrobce": "Elektročas",
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "elektrocas",
+      "pichacky"
+    ]
   },
   {
     "slug": "inv-274-pichacky-elektrocas-dk6",
@@ -3148,7 +4106,13 @@
     "lastModified": null,
     "imageCount": 3,
     "wordCount": 0,
-    "vyrobce": "Elektročas"
+    "vyrobce": "Elektročas",
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "elektrocas",
+      "pichacky"
+    ]
   },
   {
     "slug": "inv-262-pichacky-elektrocas-dk6",
@@ -3160,7 +4124,13 @@
     "lastModified": null,
     "imageCount": 3,
     "wordCount": 0,
-    "vyrobce": "Elektročas"
+    "vyrobce": "Elektročas",
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "elektrocas",
+      "pichacky"
+    ]
   },
   {
     "slug": "inv-264-pichacky-isgus",
@@ -3171,7 +4141,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "pichacky"
+    ]
   },
   {
     "slug": "inv-278-pichacky-omikron",
@@ -3182,7 +4157,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "pichacky"
+    ]
   },
   {
     "slug": "pilovky",
@@ -3193,7 +4173,10 @@
     "year": 1880,
     "lastModified": "2017-04-26T14:12:00.000Z",
     "imageCount": 7,
-    "wordCount": 729
+    "wordCount": 729,
+    "tags": [
+      "kyvadlo"
+    ]
   },
   {
     "slug": "pneumatika2",
@@ -3204,7 +4187,11 @@
     "year": 1877,
     "lastModified": "2024-03-04T10:56:00.000Z",
     "imageCount": 3,
-    "wordCount": 1395
+    "wordCount": 1395,
+    "tags": [
+      "pneumaticke",
+      "1800s"
+    ]
   },
   {
     "slug": "podebrady3",
@@ -3215,7 +4202,11 @@
     "year": 2007,
     "lastModified": "2017-04-26T16:17:00.000Z",
     "imageCount": 3,
-    "wordCount": 568
+    "wordCount": 568,
+    "tags": [
+      "kvetinove",
+      "cesko"
+    ]
   },
   {
     "slug": "inv-59-podlahove-anglicke",
@@ -3226,7 +4217,13 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "krok-graham",
+      "stolni"
+    ]
   },
   {
     "slug": "inv-258-podlahove-hh3",
@@ -3237,7 +4234,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "stolni"
+    ]
   },
   {
     "slug": "inv-48-podlahove-hodiny-barokni",
@@ -3248,7 +4250,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "stolni"
+    ]
   },
   {
     "slug": "inv-49-podlahove-hodiny-comtoise",
@@ -3259,7 +4266,14 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "krok-graham",
+      "stolni",
+      "nastenne"
+    ]
   },
   {
     "slug": "inv-268-podruzne-brillie",
@@ -3271,7 +4285,13 @@
     "lastModified": null,
     "imageCount": 5,
     "wordCount": 0,
-    "vyrobce": "Brillié"
+    "vyrobce": "Brillié",
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "brillie",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-104-podruzne-burk",
@@ -3282,7 +4302,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-3",
+      "funkcni",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-126-podruzne-hodiny-bodet",
@@ -3294,7 +4319,13 @@
     "lastModified": null,
     "imageCount": 5,
     "wordCount": 0,
-    "vyrobce": "Bodet"
+    "vyrobce": "Bodet",
+    "tags": [
+      "panel-5",
+      "funkcni",
+      "bodet",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-86-podruzne-hodiny-hipp-1860",
@@ -3306,7 +4337,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 39,
-    "vyrobce": "Hipp-Favarger"
+    "vyrobce": "Hipp-Favarger",
+    "tags": [
+      "panel-1",
+      "funkcni",
+      "krok-hipp",
+      "hipp",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-137-podruzne-hodiny-ibm",
@@ -3317,7 +4355,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-5",
+      "funkcni",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-99-podruzne-hodiny-male-4x",
@@ -3328,7 +4371,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-2",
+      "funkcni",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-125-podruzne-hodiny-mobatime",
@@ -3340,7 +4388,13 @@
     "lastModified": null,
     "imageCount": 6,
     "wordCount": 0,
-    "vyrobce": "Mobatime"
+    "vyrobce": "Mobatime",
+    "tags": [
+      "panel-5",
+      "funkcni",
+      "mobatime",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-127-podruzne-hodiny-pragotron",
@@ -3352,7 +4406,13 @@
     "lastModified": null,
     "imageCount": 6,
     "wordCount": 0,
-    "vyrobce": "Pragotron"
+    "vyrobce": "Pragotron",
+    "tags": [
+      "panel-5",
+      "funkcni",
+      "pragotron",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "podruzne_sekundove",
@@ -3363,7 +4423,10 @@
     "year": null,
     "lastModified": "2020-05-04T18:16:00.000Z",
     "imageCount": 6,
-    "wordCount": 250
+    "wordCount": 250,
+    "tags": [
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-98-podruzne-hodiny-velke",
@@ -3374,7 +4437,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-2",
+      "funkcni",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-260-podruzne-ibm-4x",
@@ -3385,7 +4453,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-267-podruzne-jednotny-cas",
@@ -3397,7 +4470,12 @@
     "lastModified": null,
     "imageCount": 5,
     "wordCount": 0,
-    "vyrobce": "Jednotný čas"
+    "vyrobce": "Jednotný čas",
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-121-podruzne-pragotron-perla",
@@ -3409,7 +4487,13 @@
     "lastModified": null,
     "imageCount": 6,
     "wordCount": 0,
-    "vyrobce": "Pragotron"
+    "vyrobce": "Pragotron",
+    "tags": [
+      "panel-4",
+      "funkcni",
+      "pragotron",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-51-podruzne-vezni-elektrocas",
@@ -3421,7 +4505,13 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 112,
-    "vyrobce": "Elektročas"
+    "vyrobce": "Elektročas",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "elektrocas"
+    ]
   },
   {
     "slug": "inv-257-podruzne-vezni-hainz",
@@ -3433,7 +4523,13 @@
     "lastModified": null,
     "imageCount": 2,
     "wordCount": 0,
-    "vyrobce": "Hainz"
+    "vyrobce": "Hainz",
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "vezni",
+      "funkcni",
+      "hainz"
+    ]
   },
   {
     "slug": "inv-50-podruzne-vezni-vh1-elektrocas",
@@ -3445,7 +4541,13 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 100,
-    "vyrobce": "Elektročas"
+    "vyrobce": "Elektročas",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "elektrocas"
+    ]
   },
   {
     "slug": "inv-194-podruzny-stroj-elektrocas-maly",
@@ -3457,7 +4559,13 @@
     "lastModified": null,
     "imageCount": 3,
     "wordCount": 0,
-    "vyrobce": "Elektročas"
+    "vyrobce": "Elektročas",
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni",
+      "elektrocas",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-227-podruzny-stroj-elektrocas-maly",
@@ -3469,7 +4577,13 @@
     "lastModified": null,
     "imageCount": 3,
     "wordCount": 0,
-    "vyrobce": "Elektročas"
+    "vyrobce": "Elektročas",
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni",
+      "elektrocas",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-198-podruzny-stroj-pragotron-maly",
@@ -3481,7 +4595,13 @@
     "lastModified": null,
     "imageCount": 6,
     "wordCount": 0,
-    "vyrobce": "Pragotron"
+    "vyrobce": "Pragotron",
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni",
+      "pragotron",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-199-podruzny-stroj-pragotron-maly",
@@ -3493,7 +4613,13 @@
     "lastModified": null,
     "imageCount": 6,
     "wordCount": 0,
-    "vyrobce": "Pragotron"
+    "vyrobce": "Pragotron",
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni",
+      "pragotron",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-231-podruzny-stroj-pragotron-maly",
@@ -3505,7 +4631,13 @@
     "lastModified": null,
     "imageCount": 6,
     "wordCount": 0,
-    "vyrobce": "Pragotron"
+    "vyrobce": "Pragotron",
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni",
+      "pragotron",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-232-podruzny-stroj-pragotron-maly",
@@ -3517,7 +4649,13 @@
     "lastModified": null,
     "imageCount": 6,
     "wordCount": 0,
-    "vyrobce": "Pragotron"
+    "vyrobce": "Pragotron",
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni",
+      "pragotron",
+      "jednotny-cas"
+    ]
   },
   {
     "slug": "inv-192-podruzny-stroj-veznich-hodin-velky",
@@ -3528,7 +4666,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "vezni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-225-podruzny-stroj-veznich-hodin-velky",
@@ -3539,7 +4682,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "vezni",
+      "funkcni"
+    ]
   },
   {
     "slug": "slunecni_polarizacni",
@@ -3550,7 +4698,10 @@
     "year": 1997,
     "lastModified": "2017-04-26T16:22:00.000Z",
     "imageCount": 8,
-    "wordCount": 632
+    "wordCount": 632,
+    "tags": [
+      "slunecni"
+    ]
   },
   {
     "slug": "fake_atomove_hodiny",
@@ -3572,7 +4723,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "literatura",
@@ -3594,7 +4749,11 @@
     "year": 1930,
     "lastModified": "2021-04-05T11:29:00.000Z",
     "imageCount": 3,
-    "wordCount": 781
+    "wordCount": 781,
+    "tags": [
+      "kvetinove",
+      "cesko"
+    ]
   },
   {
     "slug": "inv-270-pragotron-c301",
@@ -3606,7 +4765,12 @@
     "lastModified": null,
     "imageCount": 6,
     "wordCount": 0,
-    "vyrobce": "Pragotron"
+    "vyrobce": "Pragotron",
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "pragotron"
+    ]
   },
   {
     "slug": "pragotron1",
@@ -3628,7 +4792,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi"
+    ]
   },
   {
     "slug": "inv-135-preklapeci-hodiny-zavinac",
@@ -3639,7 +4806,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-5",
+      "funkcni",
+      "digi"
+    ]
   },
   {
     "slug": "listkove_kohler",
@@ -3672,7 +4844,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "pisecne"
+    ]
   },
   {
     "slug": "pulsynetic",
@@ -3683,7 +4860,12 @@
     "year": 1872,
     "lastModified": "2022-06-11T09:27:00.000Z",
     "imageCount": 9,
-    "wordCount": 1311
+    "wordCount": 1311,
+    "tags": [
+      "pulsynetic",
+      "synchronni",
+      "elektromagneticke"
+    ]
   },
   {
     "slug": "radiotelegraficke_signaly",
@@ -3705,7 +4887,11 @@
     "year": 2011,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 80
+    "wordCount": 80,
+    "tags": [
+      "vezni",
+      "cesko"
+    ]
   },
   {
     "slug": "inv-249-razitko-casove",
@@ -3716,7 +4902,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi"
+    ]
   },
   {
     "slug": "inv-169-retrogradni-kavalir",
@@ -3728,7 +4917,11 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Kavalír"
+    "vyrobce": "Kavalír",
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-202-retrogradni-kavalir",
@@ -3740,7 +4933,11 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Kavalír"
+    "vyrobce": "Kavalír",
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-118-rl-83",
@@ -3751,7 +4948,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-4",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "muzeum_royal_observatory",
@@ -3762,7 +4964,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 35
+    "wordCount": 35,
+    "tags": [
+      "svet"
+    ]
   },
   {
     "slug": "PRS10",
@@ -3795,7 +5000,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-3",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-136-ridici-system-gema",
@@ -3807,7 +5016,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Gema"
+    "vyrobce": "Gema",
+    "tags": [
+      "panel-5",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-241-rimske-digitalky",
@@ -3818,7 +5032,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-4-vedlejsi",
+      "funkcni",
+      "digi"
+    ]
   },
   {
     "slug": "rimskedigi",
@@ -3851,7 +5070,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-4-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "kalendar_rimsky",
@@ -3862,7 +5085,11 @@
     "year": 1465,
     "lastModified": "2018-06-11T08:48:00.000Z",
     "imageCount": 0,
-    "wordCount": 1200
+    "wordCount": 1200,
+    "tags": [
+      "1700s",
+      "popularizace"
+    ]
   },
   {
     "slug": "inv-138-rizeni-ibm-arduino",
@@ -3873,7 +5100,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-5",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "mobatime",
@@ -3895,7 +5127,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni",
+      "atomove"
+    ]
   },
   {
     "slug": "segmentovky_s_prekladem",
@@ -3917,7 +5154,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-2",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-114-sh40",
@@ -3928,7 +5169,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-4",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-164-schodistovy-spinac-ovladani",
@@ -3939,7 +5185,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "sitovky",
@@ -3950,7 +5200,10 @@
     "year": null,
     "lastModified": "2017-04-26T20:53:00.000Z",
     "imageCount": 9,
-    "wordCount": 625
+    "wordCount": 625,
+    "tags": [
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-54-skeletove-hodiny-kavalir",
@@ -3962,7 +5215,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Kavalír"
+    "vyrobce": "Kavalír",
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "stolni"
+    ]
   },
   {
     "slug": "muzeum_stara_bystrica",
@@ -3973,7 +5231,10 @@
     "year": 2009,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 32
+    "wordCount": 32,
+    "tags": [
+      "evropa"
+    ]
   },
   {
     "slug": "slunecni_digi",
@@ -3984,7 +5245,10 @@
     "year": null,
     "lastModified": "2017-04-26T16:23:00.000Z",
     "imageCount": 2,
-    "wordCount": 323
+    "wordCount": 323,
+    "tags": [
+      "slunecni"
+    ]
   },
   {
     "slug": "slunecni",
@@ -3995,7 +5259,10 @@
     "year": null,
     "lastModified": "2016-07-02T20:07:00.000Z",
     "imageCount": 2,
-    "wordCount": 192
+    "wordCount": 192,
+    "tags": [
+      "slunecni"
+    ]
   },
   {
     "slug": "inv-71-slunecni-hodiny-diptychove-1",
@@ -4006,7 +5273,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-hlavni",
+      "slunecni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-74-slunecni-hodiny-diptychove-2",
@@ -4017,7 +5289,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-hlavni",
+      "slunecni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-68-slunecni-hodiny-horizontalni",
@@ -4028,7 +5305,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-hlavni",
+      "slunecni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-69-slunecni-hodiny-polarni",
@@ -4039,7 +5321,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-hlavni",
+      "slunecni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-70-slunecni-hodiny-polarni-mosazne",
@@ -4050,7 +5337,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-hlavni",
+      "slunecni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-77-slunecni-hodiny-prstencove",
@@ -4061,7 +5353,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-hlavni",
+      "slunecni",
+      "funkcni"
+    ]
   },
   {
     "slug": "slunecni_filler",
@@ -4072,7 +5369,10 @@
     "year": null,
     "lastModified": "2023-03-06T12:18:00.000Z",
     "imageCount": 0,
-    "wordCount": 86
+    "wordCount": 86,
+    "tags": [
+      "slunecni"
+    ]
   },
   {
     "slug": "inv-75-soubor-malych-slunecnich-hodin",
@@ -4083,7 +5383,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-hlavni",
+      "slunecni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-38-soucast-veznich-hodin",
@@ -4094,7 +5399,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11
+    "wordCount": 11,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "nefunkcni"
+    ]
   },
   {
     "slug": "inv-52-soustava-rozvodu-s-rafijemi",
@@ -4105,7 +5415,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "hlavni-sal"
+    ]
   },
   {
     "slug": "inv-173-sovetske-digitalni-elektronika",
@@ -4116,7 +5429,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni",
+      "digi"
+    ]
   },
   {
     "slug": "inv-206-sovetske-digitalni-elektronika",
@@ -4127,7 +5445,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni",
+      "digi"
+    ]
   },
   {
     "slug": "inv-162-spinaci-hodiny-5x",
@@ -4138,7 +5461,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi"
+    ]
   },
   {
     "slug": "inv-251-staromestska-vez",
@@ -4149,7 +5475,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi"
+    ]
   },
   {
     "slug": "inv-250-staromestska-vez-3-klauni",
@@ -4160,7 +5489,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "vezni"
+    ]
   },
   {
     "slug": "tabor",
@@ -4171,7 +5504,11 @@
     "year": 1512,
     "lastModified": "2022-09-24T12:20:00.000Z",
     "imageCount": 3,
-    "wordCount": 732
+    "wordCount": 732,
+    "tags": [
+      "vezni",
+      "cesko"
+    ]
   },
   {
     "slug": "inv-158-stolni-everett-edgecome",
@@ -4182,7 +5519,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "stolni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-188-stolni-hodiny-12v",
@@ -4193,7 +5535,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "stolni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-221-stolni-hodiny-12v",
@@ -4204,7 +5551,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "stolni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-189-stolni-hodiny-orel",
@@ -4215,7 +5567,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "stolni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-222-stolni-hodiny-orel",
@@ -4226,7 +5583,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "stolni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-190-stolni-hodiny-perfecta",
@@ -4237,7 +5599,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "stolni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-223-stolni-hodiny-perfecta",
@@ -4248,7 +5615,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "stolni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-155-stolni-kyvadlove-art-deco",
@@ -4259,7 +5631,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "stolni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-163-stopky-krizik",
@@ -4270,7 +5647,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-153-stopky-pragotron",
@@ -4282,7 +5663,12 @@
     "lastModified": null,
     "imageCount": 6,
     "wordCount": 0,
-    "vyrobce": "Pragotron"
+    "vyrobce": "Pragotron",
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni",
+      "pragotron"
+    ]
   },
   {
     "slug": "svetlonos",
@@ -4293,7 +5679,10 @@
     "year": 2007,
     "lastModified": "2017-04-26T16:22:00.000Z",
     "imageCount": 3,
-    "wordCount": 648
+    "wordCount": 648,
+    "tags": [
+      "cesko"
+    ]
   },
   {
     "slug": "vez_elektrocas1959",
@@ -4304,7 +5693,10 @@
     "year": 1959,
     "lastModified": "2017-04-23T15:54:00.000Z",
     "imageCount": 2,
-    "wordCount": 393
+    "wordCount": 393,
+    "tags": [
+      "vezni"
+    ]
   },
   {
     "slug": "inv-193-stroj-synchronnich-hodin",
@@ -4315,7 +5707,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-226-stroj-synchronnich-hodin",
@@ -4326,7 +5723,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "svarcvaldky_stroje2",
@@ -4337,7 +5739,11 @@
     "year": 1800,
     "lastModified": "2017-04-26T13:44:00.000Z",
     "imageCount": 5,
-    "wordCount": 260
+    "wordCount": 260,
+    "tags": [
+      "mechanicke",
+      "1800s"
+    ]
   },
   {
     "slug": "vez_Budislav",
@@ -4348,7 +5754,10 @@
     "year": 1357,
     "lastModified": "2017-04-27T09:14:00.000Z",
     "imageCount": 11,
-    "wordCount": 477
+    "wordCount": 477,
+    "tags": [
+      "vezni"
+    ]
   },
   {
     "slug": "vez_Prysk",
@@ -4359,7 +5768,10 @@
     "year": 2012,
     "lastModified": "2017-04-23T09:01:00.000Z",
     "imageCount": 12,
-    "wordCount": 598
+    "wordCount": 598,
+    "tags": [
+      "vezni"
+    ]
   },
   {
     "slug": "vez_decin",
@@ -4370,7 +5782,10 @@
     "year": 1884,
     "lastModified": "2017-04-27T21:48:00.000Z",
     "imageCount": 5,
-    "wordCount": 354
+    "wordCount": 354,
+    "tags": [
+      "vezni"
+    ]
   },
   {
     "slug": "inv-100-strojek-hainz",
@@ -4382,7 +5797,12 @@
     "lastModified": null,
     "imageCount": 2,
     "wordCount": 0,
-    "vyrobce": "Hainz"
+    "vyrobce": "Hainz",
+    "tags": [
+      "panel-2",
+      "funkcni",
+      "hainz"
+    ]
   },
   {
     "slug": "inv-84-strojek-na-retizky-2ks",
@@ -4393,7 +5813,10 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-hlavni"
+    ]
   },
   {
     "slug": "svarcvaldky_surrerwerk",
@@ -4404,7 +5827,11 @@
     "year": 1800,
     "lastModified": "2024-10-09T10:47:00.000Z",
     "imageCount": 8,
-    "wordCount": 588
+    "wordCount": 588,
+    "tags": [
+      "mechanicke",
+      "1800s"
+    ]
   },
   {
     "slug": "svitici",
@@ -4426,7 +5853,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-5",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-143-synchronni-art-deco",
@@ -4437,7 +5868,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-152-synchronni-bici-stroj",
@@ -4448,7 +5884,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-142-synchronni-big-ben-electric",
@@ -4459,7 +5900,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-144-synchronni-datumatic",
@@ -4471,7 +5917,13 @@
     "lastModified": null,
     "imageCount": 3,
     "wordCount": 0,
-    "vyrobce": "Datumatic"
+    "vyrobce": "Datumatic",
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni",
+      "datumatic",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-156-synchronni-laplace-stroj",
@@ -4483,7 +5935,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Laplace"
+    "vyrobce": "Laplace",
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-145-synchronni-s-digitalnim-displejem",
@@ -4494,7 +5951,13 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni",
+      "sitovky",
+      "digi"
+    ]
   },
   {
     "slug": "inv-140-synchronni-siemens",
@@ -4506,7 +5969,12 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Siemens"
+    "vyrobce": "Siemens",
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-110-synchronni-spar",
@@ -4517,7 +5985,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-3",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-146-synchronni-stolni-sklenene",
@@ -4528,7 +6001,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "stolni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-141-synchronni-west-clock",
@@ -4539,7 +6017,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "svarcvaldky",
@@ -4550,7 +6033,10 @@
     "year": 1790,
     "lastModified": "2017-04-26T13:42:00.000Z",
     "imageCount": 5,
-    "wordCount": 420
+    "wordCount": 420,
+    "tags": [
+      "mechanicke"
+    ]
   },
   {
     "slug": "svarcvaldky_stroje",
@@ -4561,7 +6047,10 @@
     "year": null,
     "lastModified": "2017-04-26T16:31:00.000Z",
     "imageCount": 9,
-    "wordCount": 965
+    "wordCount": 965,
+    "tags": [
+      "mechanicke"
+    ]
   },
   {
     "slug": "inv-82-svarcvaldsky-stroj-3-ks",
@@ -4572,7 +6061,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-hlavni",
+      "nastenne"
+    ]
   },
   {
     "slug": "muzeum_chemnitz",
@@ -4583,7 +6076,11 @@
     "year": 2010,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 69
+    "wordCount": 69,
+    "tags": [
+      "vezni",
+      "evropa"
+    ]
   },
   {
     "slug": "vodni_B_Gitton",
@@ -4594,7 +6091,10 @@
     "year": 1979,
     "lastModified": "2017-04-26T16:25:00.000Z",
     "imageCount": 2,
-    "wordCount": 372
+    "wordCount": 372,
+    "tags": [
+      "vodni"
+    ]
   },
   {
     "slug": "inv-282-time-slider-spilka",
@@ -4605,7 +6105,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "Timometer",
@@ -4627,7 +6131,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "hlavni-sal",
+      "nefunkcni",
+      "torzo"
+    ]
   },
   {
     "slug": "decin_velika_ves",
@@ -4660,7 +6169,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-4-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "decin_regulaceIBM",
@@ -4682,7 +6195,11 @@
     "year": 1762,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 97
+    "wordCount": 97,
+    "tags": [
+      "vezni",
+      "evropa"
+    ]
   },
   {
     "slug": "muzeum_beyer_zurich",
@@ -4693,7 +6210,12 @@
     "year": 1364,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 87
+    "wordCount": 87,
+    "tags": [
+      "vezni",
+      "kapesni",
+      "evropa"
+    ]
   },
   {
     "slug": "muzeum_aschau_burgenland",
@@ -4704,7 +6226,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 73
+    "wordCount": 73,
+    "tags": [
+      "vezni",
+      "evropa"
+    ]
   },
   {
     "slug": "ukazatele",
@@ -4726,7 +6252,11 @@
     "year": 1820,
     "lastModified": "2017-04-26T13:43:00.000Z",
     "imageCount": 6,
-    "wordCount": 205
+    "wordCount": 205,
+    "tags": [
+      "mechanicke",
+      "1800s"
+    ]
   },
   {
     "slug": "inv-265-ustredna-ehu-0660",
@@ -4737,7 +6267,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "uspirku",
@@ -4759,7 +6293,13 @@
     "year": 1741,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 81
+    "wordCount": 81,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-amant"
+    ]
   },
   {
     "slug": "inv-4-vezni-18-stol",
@@ -4770,7 +6310,13 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 125
+    "wordCount": 125,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "nefunkcni",
+      "krok-vreteno"
+    ]
   },
   {
     "slug": "inv-5-vezni-18-stol-spindl",
@@ -4781,7 +6327,13 @@
     "year": 1754,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 187
+    "wordCount": 187,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "nefunkcni",
+      "krok-vreteno"
+    ]
   },
   {
     "slug": "inv-18-vezni-barokni-kovane",
@@ -4792,7 +6344,13 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 86
+    "wordCount": 86,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "nefunkcni",
+      "krok-vreteno"
+    ]
   },
   {
     "slug": "inv-24-vezni-bassler",
@@ -4804,7 +6362,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 106,
-    "vyrobce": "Friedrich Moritz Bassler"
+    "vyrobce": "Friedrich Moritz Bassler",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-amant",
+      "bassler"
+    ]
   },
   {
     "slug": "inv-29-vezni-benesov",
@@ -4815,7 +6380,13 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 60
+    "wordCount": 60,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-amant"
+    ]
   },
   {
     "slug": "inv-34-vezni-benesov-radnice",
@@ -4826,7 +6397,13 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 80
+    "wordCount": 80,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-graham"
+    ]
   },
   {
     "slug": "inv-21-vezni-drevene",
@@ -4837,7 +6414,13 @@
     "year": 2015,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 69
+    "wordCount": 69,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-vreteno"
+    ]
   },
   {
     "slug": "inv-7-vezni-f-x-beitel",
@@ -4849,7 +6432,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 187,
-    "vyrobce": "F. X. Beitel"
+    "vyrobce": "F. X. Beitel",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-graham",
+      "beitel"
+    ]
   },
   {
     "slug": "inv-31-vezni-francie",
@@ -4860,7 +6450,13 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 75
+    "wordCount": 75,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-amant"
+    ]
   },
   {
     "slug": "inv-17-vezni-hainz",
@@ -4872,7 +6468,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 70,
-    "vyrobce": "Hainz"
+    "vyrobce": "Hainz",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-graham",
+      "hainz"
+    ]
   },
   {
     "slug": "inv-1-vezni-hiemann-1884",
@@ -4884,7 +6487,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 154,
-    "vyrobce": "Hiemann"
+    "vyrobce": "Hiemann",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-graham",
+      "hiemann"
+    ]
   },
   {
     "slug": "inv-19-vezni-hodiny-amant-1898",
@@ -4895,7 +6505,13 @@
     "year": 1898,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 147
+    "wordCount": 147,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-amant"
+    ]
   },
   {
     "slug": "inv-20-vezni-hodiny-krecmer",
@@ -4907,7 +6523,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 73,
-    "vyrobce": "Krečmer"
+    "vyrobce": "Krečmer",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-amant",
+      "krecmer"
+    ]
   },
   {
     "slug": "inv-67-vezni-lissner",
@@ -4918,7 +6541,13 @@
     "year": 1881,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 124
+    "wordCount": 124,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-graham"
+    ]
   },
   {
     "slug": "inv-14-vezni-hodiny-paul-zieux",
@@ -4930,7 +6559,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 117,
-    "vyrobce": "Paul Zieux"
+    "vyrobce": "Paul Zieux",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-amant",
+      "paul-zieux"
+    ]
   },
   {
     "slug": "inv-22-vezni-holandan",
@@ -4941,7 +6577,13 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 110
+    "wordCount": 110,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-clement"
+    ]
   },
   {
     "slug": "inv-25-vezni-chribska",
@@ -4952,7 +6594,13 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 140
+    "wordCount": 140,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "nefunkcni",
+      "krok-clement"
+    ]
   },
   {
     "slug": "inv-23-vezni-jilove",
@@ -4963,7 +6611,13 @@
     "year": 1859,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 148
+    "wordCount": 148,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-clement"
+    ]
   },
   {
     "slug": "inv-26-vezni-jirkostroj",
@@ -4974,7 +6628,13 @@
     "year": 1881,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 147
+    "wordCount": 147,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-graham"
+    ]
   },
   {
     "slug": "inv-16-vezni-kladno",
@@ -4985,7 +6645,13 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 101
+    "wordCount": 101,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-graham"
+    ]
   },
   {
     "slug": "inv-15-vezni-kohlert-kraslice",
@@ -4997,7 +6663,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 150,
-    "vyrobce": "Kohlert"
+    "vyrobce": "Kohlert",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-graham",
+      "kohlert"
+    ]
   },
   {
     "slug": "bychory_prokes1",
@@ -5020,7 +6693,13 @@
     "year": 1881,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 147
+    "wordCount": 147,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-graham"
+    ]
   },
   {
     "slug": "inv-6-vezni-michael-christ",
@@ -5032,7 +6711,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 153,
-    "vyrobce": "Michael Christ"
+    "vyrobce": "Michael Christ",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-clement",
+      "michael-christ"
+    ]
   },
   {
     "slug": "inv-35-vezni-mikulasovice",
@@ -5043,7 +6729,12 @@
     "year": 1799,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 266
+    "wordCount": 266,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "krok-winnerl"
+    ]
   },
   {
     "slug": "inv-30-vezni-polevsko-hainz",
@@ -5055,7 +6746,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 140,
-    "vyrobce": "Hainz"
+    "vyrobce": "Hainz",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-graham",
+      "hainz"
+    ]
   },
   {
     "slug": "inv-2-vezni-prokes-1868-soubor",
@@ -5067,7 +6765,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 175,
-    "vyrobce": "Jan Prokeš"
+    "vyrobce": "Jan Prokeš",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-benoit-robert",
+      "prokes"
+    ]
   },
   {
     "slug": "inv-8-vezni-r-liebing",
@@ -5079,7 +6784,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 94,
-    "vyrobce": "Richard Liebing"
+    "vyrobce": "Richard Liebing",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "nefunkcni",
+      "krok-graham",
+      "liebing"
+    ]
   },
   {
     "slug": "inv-12-vezni-rochlitz",
@@ -5091,7 +6803,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 79,
-    "vyrobce": "Rochlitz"
+    "vyrobce": "Rochlitz",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-graham",
+      "rochlitz"
+    ]
   },
   {
     "slug": "inv-28-vezni-se-setrvackou",
@@ -5102,7 +6821,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 139
+    "wordCount": 139,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-32-vezni-skalice",
@@ -5113,7 +6837,13 @@
     "year": 1852,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 117
+    "wordCount": 117,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-benoit-robert"
+    ]
   },
   {
     "slug": "inv-9-vezni-thondel",
@@ -5125,7 +6855,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 41,
-    "vyrobce": "Thöndel"
+    "vyrobce": "Thöndel",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "nefunkcni",
+      "krok-graham",
+      "thondel"
+    ]
   },
   {
     "slug": "inv-36-vezni-thondel-2",
@@ -5137,7 +6874,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 91,
-    "vyrobce": "Thöndel"
+    "vyrobce": "Thöndel",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-amant",
+      "thondel"
+    ]
   },
   {
     "slug": "inv-11-vezni-torzo",
@@ -5148,7 +6892,14 @@
     "year": 1881,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 235
+    "wordCount": 235,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "nefunkcni",
+      "torzo",
+      "krok-graham"
+    ]
   },
   {
     "slug": "inv-27-vezni-velka-ves",
@@ -5159,7 +6910,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 158
+    "wordCount": 158,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "nefunkcni"
+    ]
   },
   {
     "slug": "inv-13-vezni-wenzel-mellner",
@@ -5171,7 +6927,14 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 218,
-    "vyrobce": "Wenzel Mellner"
+    "vyrobce": "Wenzel Mellner",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-vreteno",
+      "wenzel-mellner"
+    ]
   },
   {
     "slug": "orient",
@@ -5193,7 +6956,10 @@
     "year": null,
     "lastModified": "2017-04-23T14:14:00.000Z",
     "imageCount": 35,
-    "wordCount": 83
+    "wordCount": 83,
+    "tags": [
+      "evropa"
+    ]
   },
   {
     "slug": "muzeum_olomouc_vmo",
@@ -5204,7 +6970,10 @@
     "year": 2019,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 42
+    "wordCount": 42,
+    "tags": [
+      "cesko"
+    ]
   },
   {
     "slug": "muzeum_tyniste_n_orlici",
@@ -5215,7 +6984,11 @@
     "year": 2010,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 77
+    "wordCount": 77,
+    "tags": [
+      "vezni",
+      "cesko"
+    ]
   },
   {
     "slug": "vodni_budik",
@@ -5226,7 +6999,11 @@
     "year": 2002,
     "lastModified": "2017-04-26T16:28:00.000Z",
     "imageCount": 2,
-    "wordCount": 59
+    "wordCount": 59,
+    "tags": [
+      "budik",
+      "vodni"
+    ]
   },
   {
     "slug": "vodni_jegorov",
@@ -5237,7 +7014,10 @@
     "year": null,
     "lastModified": "2017-04-26T16:26:00.000Z",
     "imageCount": 0,
-    "wordCount": 347
+    "wordCount": 347,
+    "tags": [
+      "vodni"
+    ]
   },
   {
     "slug": "vodni_minutky",
@@ -5248,7 +7028,10 @@
     "year": 2002,
     "lastModified": "2017-04-26T16:27:00.000Z",
     "imageCount": 0,
-    "wordCount": 211
+    "wordCount": 211,
+    "tags": [
+      "vodni"
+    ]
   },
   {
     "slug": "propeller_clock",
@@ -5270,7 +7053,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "zvony_vyroba",
@@ -5292,7 +7079,11 @@
     "year": null,
     "lastModified": "2017-04-26T14:07:00.000Z",
     "imageCount": 7,
-    "wordCount": 28
+    "wordCount": 28,
+    "tags": [
+      "kvetinove",
+      "kuriozita"
+    ]
   },
   {
     "slug": "kostky",
@@ -5314,7 +7105,10 @@
     "year": 2024,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 39
+    "wordCount": 39,
+    "tags": [
+      "evropa"
+    ]
   },
   {
     "slug": "youtube",
@@ -5347,7 +7141,11 @@
     "year": 1920,
     "lastModified": "2020-03-14T12:03:00.000Z",
     "imageCount": 5,
-    "wordCount": 384
+    "wordCount": 384,
+    "tags": [
+      "kvetinove",
+      "cesko"
+    ]
   },
   {
     "slug": "zapekane",
@@ -5370,7 +7168,12 @@
     "lastModified": null,
     "imageCount": 3,
     "wordCount": 0,
-    "vyrobce": "Elektročas"
+    "vyrobce": "Elektročas",
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni",
+      "elektrocas"
+    ]
   },
   {
     "slug": "inv-259-zavesne-ibm",
@@ -5381,7 +7184,11 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "rohova-vitrina-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "inv-182-zdroj-zz41",
@@ -5392,7 +7199,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-2-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "inv-215-zdroj-zz41",
@@ -5403,7 +7215,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "vitrina-3-vedlejsi",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "zmizele",
@@ -5481,7 +7298,11 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 0,
-    "vyrobce": "Kavalír"
+    "vyrobce": "Kavalír",
+    "tags": [
+      "vitrina-4-vedlejsi",
+      "funkcni"
+    ]
   },
   {
     "slug": "svarcvaldky_hraci",
@@ -5492,7 +7313,10 @@
     "year": null,
     "lastModified": "2017-04-26T13:46:00.000Z",
     "imageCount": 2,
-    "wordCount": 147
+    "wordCount": 147,
+    "tags": [
+      "nastenne"
+    ]
   },
   {
     "slug": "prehled_zvonu",
@@ -5514,7 +7338,12 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0
+    "wordCount": 0,
+    "tags": [
+      "panel-4",
+      "funkcni",
+      "sitovky"
+    ]
   },
   {
     "slug": "zidovske",

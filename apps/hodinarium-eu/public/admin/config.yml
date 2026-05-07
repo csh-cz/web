@@ -102,6 +102,12 @@ collections:
         required: false
         hint: 'Whitelist v src/data/tags.json — typo failne build.'
         field: { name: tag, label: 'Tag', widget: string }
+      - name: searchKeywords
+        label: 'Klíčová slova (skrytá, jen pro vyhledávání)'
+        widget: list
+        required: false
+        hint: 'Synonyma, alternativní pravopisy a cizí termíny pro full-text search. NEzobrazí se na stránce. Příklady: „lihýř", „foliot", „Maresch", „Bychory".'
+        field: { name: keyword, label: 'Keyword', widget: string }
       - name: references
         label: 'Reference / odkazy'
         widget: list
@@ -337,6 +343,12 @@ collections:
         required: false
         hint: 'Klíčová slova pro vyhledávání. Whitelist v src/data/tags.json — typo failne build. Pokud nevíš, nech prázdné nebo se zeptej.'
         field: { name: tag, label: 'Tag', widget: string }
+      - name: searchKeywords
+        label: 'Klíčová slova (skrytá, jen pro vyhledávání)'
+        widget: list
+        required: false
+        hint: 'Synonyma, alternativní pravopisy a cizí termíny pro full-text search. NEzobrazí se na stránce. Příklady: „lihýř", „foliot", „Maresch", „Bychory".'
+        field: { name: keyword, label: 'Keyword', widget: string }
       - { name: author, label: 'Autor karty', widget: string, required: false,
           hint: 'Tvoje jméno (např. „Petr Král"). Zobrazí se v patičce karty jako „P. Král".' }
       - { name: manualEdit, label: 'Ručně editováno (do diff zachovat změny)', widget: boolean, required: false, default: true }

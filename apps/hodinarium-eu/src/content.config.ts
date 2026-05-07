@@ -238,6 +238,23 @@ const clanky = defineCollection({
           }`,
         }),
       ),
+    /**
+     * Skrytá synonyma a alternativní pravopisy/termíny pro vyhledávání.
+     * NEzobrazuje se na stránce, jen v search indexu (Fuse.js).
+     *
+     * Použití:
+     *   - cizí ekvivalenty českých termínů ("foliot" pro "lihýř",
+     *     "Spindel" pro "vřeteno")
+     *   - alternativní pravopisy obcí/jmen ("Bychory" / "Býchory",
+     *     "Maresch" pro "Mareš")
+     *   - historické termíny, žargon
+     *   - chybové překlepy které lidi často píší
+     *
+     * Free-text array bez whitelistu — synonyma jsou per-article specifická.
+     * Pokud opakovaně přidáváš stejný keyword víc článkům, zvaž zda nemá
+     * patřit do tags whitelistu (data/tags.json).
+     */
+    searchKeywords: z.array(z.string()).optional(),
   }),
 });
 

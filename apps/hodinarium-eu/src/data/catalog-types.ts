@@ -35,4 +35,13 @@ export interface CatalogEntry {
   /** Jméno hodináře / výrobce (z karta.vyrobce u sbírkových karet).
       Zobrazí se jako kurzíva pod titulem v Card preview. */
   vyrobce?: string;
+  /** Tagy z frontmatter `tags: [...]`. Whitelist v `data/tags.json`.
+      Používá Fuse.js pro keyword search — najde článek i když tag není
+      v titulu/perexu (např. "krok-benoit-robert" přes hledání "kolíčkový"). */
+  tags?: string[];
+  /** Editorem vyplněná synonyma a alternativní pravopisy/termíny pro
+      vyhledávání. Free-text array, NEzobrazuje se na stránce, jen v
+      Fuse.js search index. Příklady: ["lihýř", "foliot", "wagonka",
+      "Bychory", "Maresch"]. */
+  searchKeywords?: string[];
 }
