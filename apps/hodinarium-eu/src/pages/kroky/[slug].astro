@@ -84,22 +84,44 @@ const related = krok.relatedSlugs
       {krok.references && krok.references.length > 0 && (
         <section class="krok-references" aria-labelledby="krok-references-heading">
           <h2 id="krok-references-heading">Literatura a odkazy</h2>
-          <ul>
+          <ol>
             {krok.references.map((r) => {
-              const cslItem = getRef(r.bibKey);
-              if (!cslItem) {
-                return <li><code>{r.bibKey}</code> <em>(nenalezeno v references.json — spusť pnpm refs:sync)</em></li>;
+              // Branch 1: bibKey (primárně, ISO 690 přes citeproc-js)
+              if (r.bibKey) {
+                const cslItem = getRef(r.bibKey);
+                if (!cslItem) {
+                  return <li><code>{r.bibKey}</code> <em>(nenalezeno v references.json — spusť pnpm refs:sync)</em></li>;
+                }
+                const formatted = formatCite(r.bibKey) ?? r.bibKey;
+                return (
+                  <li>
+                    <span set:html={formatted} />
+                    {r.pages && <span class="krok-ref-pages">, s. {r.pages}</span>}
+                    {r.note && <span class="krok-ref-note"> — {r.note}</span>}
+                  </li>
+                );
               }
-              const formatted = formatCite(r.bibKey) ?? r.bibKey;
-              return (
-                <li>
-                  <span set:html={formatted} />
-                  {r.pages && <span class="krok-ref-pages">, s. {r.pages}</span>}
-                  {r.note && <span class="krok-ref-note"> — {r.note}</span>}
-                </li>
-              );
+              // Branch 2: title-only fallback (mimo Zotero — historické patenty,
+              // aukční katalogy apod.)
+              if (r.title) {
+                return (
+                  <li>
+                    <span class="krok-ref-title">{r.title}</span>
+                    {r.url && (
+                      <>
+                        {' '}
+                        Dostupné z:{' '}
+                        <a href={r.url} target="_blank" rel="noopener">{r.url}</a>
+                      </>
+                    )}
+                    {r.pages && <span class="krok-ref-pages">, s. {r.pages}</span>}
+                    {r.note && <span class="krok-ref-note"> — {r.note}</span>}
+                  </li>
+                );
+              }
+              return null;
             })}
-          </ul>
+          </ol>
         </section>
       )}
 
