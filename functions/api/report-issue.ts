@@ -87,12 +87,48 @@ const MIN_DESC_LEN = 5;
 const RATE_LIMIT: Map<string, number> = new Map();
 const RATE_LIMIT_MS = 30_000;
 
-function getEditorEmail(req: Request): string | null {
+function getEditorEmailFromHeader(req: Request): string | null {
   return (
     req.headers.get('Cf-Access-Authenticated-User-Email') ??
     req.headers.get('cf-access-authenticated-user-email') ??
     null
   );
+}
+
+/**
+ * Resolve editor email z requestu. Strategie:
+ *
+ *   1. Fast path: `Cf-Access-Authenticated-User-Email` header — funguje
+ *      pokud `/api/report-issue` je v CF Access policy coverage.
+ *   2. Fallback: proxy fetch /api/cms/auth/user s forward-nutými cookies.
+ *      `/api/cms/*` je v Access policy → CMS proxy získá email z headeru
+ *      a vrátí ho jako JSON. Tahle cesta NEvyžaduje, aby admin přidával
+ *      /api/report-issue do Access app paths.
+ *
+ * Limit: jeden extra HTTP roundtrip per report (~50ms) když fast path
+ * nezafunguje. Při běžném dashboard setupu (Access pokrývá oba paths)
+ * fallback se nikdy nevolá.
+ */
+async function resolveEditorEmail(req: Request): Promise<string | null> {
+  const direct = getEditorEmailFromHeader(req);
+  if (direct) return direct;
+
+  const cookie = req.headers.get('Cookie');
+  if (!cookie) return null; // Žádné cookies = žádná CF Access session
+  try {
+    const origin = new URL(req.url).origin;
+    const r = await fetch(`${origin}/api/cms/auth/user`, {
+      headers: { Cookie: cookie, 'User-Agent': 'hodinarium-eu-report-flow' },
+      redirect: 'manual', // CF Access by jinak 302 na login screen
+    });
+    if (r.status !== 200) return null;
+    const ct = r.headers.get('content-type') || '';
+    if (!ct.includes('json')) return null;
+    const data = (await r.json()) as { authenticated?: boolean; email?: string };
+    return data.authenticated && data.email ? data.email : null;
+  } catch {
+    return null;
+  }
 }
 
 function clientIp(req: Request): string {
@@ -170,11 +206,11 @@ function jsonResponse(body: IssueResponse, status: number): Response {
 export const onRequestPost: PagesFunction<Env> = async (context) => {
   const { request, env } = context;
 
-  // 1. Editor identity check
-  const email = getEditorEmail(request);
+  // 1. Editor identity check (header fast-path, /api/cms/auth/user fallback)
+  const email = await resolveEditorEmail(request);
   if (!email) {
     return jsonResponse(
-      { ok: false, error: 'Vyžaduje přihlášení editora (Cloudflare Access).' },
+      { ok: false, error: 'Přihlášení editora vypršelo nebo není aktivní. Obnov stránku a zkus znovu.' },
       401,
     );
   }
