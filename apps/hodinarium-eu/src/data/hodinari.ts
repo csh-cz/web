@@ -1635,6 +1635,32 @@ export const hodinari: Hodinar[] = [
     era: 'prelom',
   },
   {
+    slug: 'jan-hersht',
+    jmeno: 'Jan Heršt',
+    aliasy: ['Jan Heršt', 'Heršt', 'Hertš', 'Heršt Poděbrady'],
+    typ: 'osoba',
+    obdobi: 'akt. 1878–~1890',
+    mesto: 'Poděbrady',
+    zeme: 'CZ',
+    shrnuti:
+      'Hodinář v Poděbradech, syn obuvnického mistra z Kolína, manžel Anny Janatové (jediné dcery [Jana Janaty](/hodinari/jan-janata)). Po Janatově smrti 1878 převzal věžně-hodinářskou dílnu a podle Hellicha 1917 ji „nějaký čas v stejné pověsti udržoval". Po jeho smrti se vdova Anna provdala za [Václava Čepka](/hodinari/vaclav-cepek), který v dílně pokračoval.',
+    relatedSlugs: [],
+    era: 'prelom',
+  },
+  {
+    slug: 'vaclav-cepek',
+    jmeno: 'Václav Čepek',
+    aliasy: ['Václav Čepek', 'V. Čepek', 'Čepek', 'Čepek Poděbrady', 'Cepek'],
+    typ: 'osoba',
+    obdobi: 'akt. ~1890–pol. 20. let 20. st.',
+    mesto: 'Poděbrady',
+    zeme: 'CZ',
+    shrnuti:
+      'Poděbradský hodinář, bývalý dělník v dílně [Jana Janaty](/hodinari/jan-janata), který se po smrti Janatova zetě [Jana Heršta](/hodinari/jan-hersht) oženil s ovdovělou Annou Janatovou a převzal věžně-hodinářskou dílnu. Hellich (1917) ho označuje za „výborného hodináře" a citoval ho jako primární pramen Janatova životopisu i seznamu produkce — Čepek jako majitel dílny disponoval poznámkami zachovanými po tchánu Janatovi.',
+    relatedSlugs: [],
+    era: 'prelom',
+  },
+  {
     slug: 'milos-flossmann',
     jmeno: 'Miloš Flossmann',
     aliasy: ['Miloš Flossmann', 'M. Flossmann', 'Flossmann Ostrov'],

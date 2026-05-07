@@ -1758,14 +1758,16 @@
     "type": "article-journal",
     "citation-key": "hellichPrispevekSlovnikuUmelcu1917",
     "title": "Příspěvek k slovníku umělců a uměleckých řemeslníků z Poděbradska",
-    "container-title": "Památky archaeologické a místopisné",
-    "volume": "XXIX",
-    "page": "289",
-    "publisher": "Archaeologická komise při České akademii císaře Františka Josefa pro vědy, slovesnosť a umění a Archaeologického sboru Musea království Českého",
+    "container-title": "Památky archaeologické",
+    "volume": "29",
+    "issue": "3",
+    "page": "292-293",
+    "publisher": "Archeologická komise při České akademii císaře Františka Josefa pro vědy, slovesnost a umění",
     "publisher-place": "Praha",
+    "ISSN": "0031-0506",
     "language": "cs",
-    "URL": "https://books.google.com/books?id=OV4_AQAAMAAJ&pg=PA289",
-    "note": "Plný digitalizovaný scan: Google Books vol. ID OV4_AQAAMAAJ (kompletní vol. XXIX, U Chicago); MZK Kramerius má scan stránek, ale pages 158–308 sešitu 3 mají prázdné OCR. Online přepis článku (Skála): http://www.veznihodiny.cz/janata.htm. OCLC 191716345.",
+    "URL": "https://www.digitalniknihovna.cz/mzk/uuid/uuid:ec7658f0-7c6c-11e6-8340-5ef3fc9ae867",
+    "note": "Heslo „Janata Jan, hodinař“ v slovníkovém příspěvku Jana Hellicha. Primární pramen životopisu i seznamu Janatovy věžně-hodinářské produkce; Hellich získal data od Václava Čepka (zeť Janaty). Plný text dostupný i v Google Books (vol. ID OV4_AQAAMAAJ, s. 292) a HathiTrust (uc1.$c238001, full view, public domain). Online přepis: http://www.veznihodiny.cz/janata.htm.",
     "author": [
       {
         "family": "Hellich",
@@ -1775,7 +1777,7 @@
     "issued": {
       "date-parts": [
         [
-          "1917"
+          1917
         ]
       ]
     }
