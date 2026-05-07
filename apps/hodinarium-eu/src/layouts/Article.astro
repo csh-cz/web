@@ -53,8 +53,10 @@ interface Props {
   editorNotes?: Array<{ level: 'info' | 'warn' | 'todo'; title?: string; text: string; noteKey?: string }>;
   referenceStyle?: 'bullet' | 'numbered';
   karta?: Karta;
+  /** Article je v draft mode — viditelný jen editorovi (CSS-gated tělem). */
+  draft?: boolean;
 }
-const { title, description, lastModified, tldr, category, slug, ogImageOverride, author, references, referenceStyle = 'bullet', karta, editorNotes } = Astro.props;
+const { title, description, lastModified, tldr, category, slug, ogImageOverride, author, references, referenceStyle = 'bullet', karta, editorNotes, draft } = Astro.props;
 
 // CMS edit URL — Sveltia routy: /admin/#/collections/<col>/entries/<file_id>.
 // Karty (podsekce: 'karta') jdou do collection 'karty', zbytek do 'clanky'.
@@ -155,6 +157,7 @@ const articleJsonLd = {
   description={description}
   ogImageOverride={ogImageOverride}
   cmsEditUrl={cmsEditUrl}
+  noindex={draft}
   citation={{
     title,
     author: author || undefined,
@@ -169,11 +172,26 @@ const articleJsonLd = {
     { label: title },
   ]} />
 
-  <article class="article-single" itemscope itemtype="https://schema.org/Article">
+  <article class="article-single" itemscope itemtype="https://schema.org/Article" data-draft={draft ? 'true' : undefined}>
     <meta itemprop="inLanguage" content="cs" />
     <meta itemprop="author" content="Český spolek horologický" />
     <meta itemprop="publisher" content="Český spolek horologický" />
     {lastModifiedISO && <meta itemprop="dateModified" content={lastModifiedISO} />}
+
+    {draft && (
+      <div class="draft-banner" role="status" aria-label="Rozpracovaný článek">
+        <strong>📝 Rozpracovaný článek</strong>
+        <span>Tento článek je viditelný jen v editor mode. Po finalizaci nastav <code>draft: false</code> ve frontmatteru.</span>
+      </div>
+    )}
+
+    {draft && (
+      <div class="draft-placeholder">
+        <h1 class="article-title">{title}</h1>
+        <p>Tento obsah je rozpracovaný a zatím nebyl zveřejněn.</p>
+        <p><a href="/">← Zpět na hlavní stránku</a></p>
+      </div>
+    )}
 
     <header class="article-header">
       {category && (

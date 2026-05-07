@@ -22,10 +22,12 @@ function parseDate(s: string | null | undefined): Date | undefined {
 
 export async function GET(context: APIContext) {
   const all = await getCollection('clanky');
-  // Articles in new taxonomy, exclude evidenční karty (podsekce: 'karta').
+  // Articles in new taxonomy, exclude evidenční karty (podsekce: 'karta')
+  // a draft (rozpracované — nikdy nepublikovat do RSS / sociálního feedu).
   const items = all
     .filter((e) => NEW_CATEGORIES.has(e.data.category))
     .filter((e) => e.data.podsekce !== 'karta')
+    .filter((e) => e.data.draft !== true)
     .map((e) => {
       const pub = parseDate(e.data.lastModified) ?? parseDate(e.data.scrapedAt) ?? new Date(0);
       return { entry: e, pub };

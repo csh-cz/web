@@ -1299,3 +1299,67 @@ a[href*="openstreetmap.org"]:hover::after {
   a { color: LinkText; }
   .skip-link { background: Canvas; color: CanvasText; border: 2px solid CanvasText; }
 }
+
+/* ─────────────────────────────────────────────────────────────────
+ * Draft articles — viditelné jen v editor mode.
+ *
+ * Pattern stejný jako u editor-only komponent (.editor-note, .fab-stack):
+ * default skrytý, body[data-editor-mode] CSS reveal.
+ *
+ * Bez JS = anonym → vidí jen .draft-placeholder ("není zveřejněno").
+ * S JS + editor mode → vidí .draft-banner + plný obsah článku.
+ *
+ * Tělo článku se schová přes article[data-draft="true"] — header, body,
+ * references, vše. Jen .draft-placeholder zůstává viditelný anonymovi.
+ * ───────────────────────────────────────────────────────────────── */
+
+/* Outside editor: hide ALL article children except .draft-placeholder.
+ * Pattern je layout-agnostický (funguje pro Article.astro, karta-detail,
+ * a budoucí layouty), neváže se na konkrétní třídy. Meta tagy s itemprop
+ * jsou v DOM neaktivní (display:none), což robotům nevadí (pro robots
+ * count meta name="robots" v <head>, ne microdata v <body>). */
+article[data-draft="true"] > *:not(.draft-placeholder) {
+  display: none;
+}
+article[data-draft="true"] > .draft-placeholder {
+  display: block;
+  max-width: 65ch;
+  margin: 4rem auto;
+  padding: 2rem;
+  text-align: center;
+  border: 1px dashed var(--csh-color-border, #d4cdb8);
+  border-radius: 6px;
+  background: var(--csh-color-surface, #faf6ec);
+}
+article[data-draft="true"] > .draft-placeholder .article-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--csh-color-text-muted, #6a5f4a);
+}
+
+/* Inside editor mode: reveal everything, hide placeholder. */
+body[data-editor-mode] article[data-draft="true"] > * {
+  display: revert;
+}
+body[data-editor-mode] article[data-draft="true"] > .draft-placeholder {
+  display: none;
+}
+body[data-editor-mode] article[data-draft="true"] > .draft-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  background: #fff3cd;
+  border-left: 4px solid #f59e0b;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  color: #78350f;
+}
+body[data-editor-mode] article[data-draft="true"] > .draft-banner code {
+  font-family: ui-monospace, 'SFMono-Regular', monospace;
+  font-size: 0.85em;
+  background: rgba(0, 0, 0, 0.06);
+  padding: 0.05rem 0.35rem;
+  border-radius: 3px;
+}

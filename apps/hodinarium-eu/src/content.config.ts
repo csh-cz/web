@@ -112,6 +112,18 @@ const clanky = defineCollection({
     scrapedAt: dateString,
     tldr: z.string().optional(),
     manualEdit: z.boolean().optional(),
+    /**
+     * Draft mode — true = článek je rozpracovaný, viditelný jen pro
+     * editory. Pro běžné návštěvníky se zobrazí placeholder „Tento obsah
+     * ještě není zveřejněn". Sitemap, RSS, search index, kategorie/tag
+     * indexy a related-karty list tyto články vynechají. Robot meta
+     * obsahuje noindex, nofollow.
+     *
+     * Workflow: nový článek nasazený s `draft: true` v PR/commitu.
+     * Editor článek prohlédne na produkci (přihlášený přes Sveltia CMS)
+     * a buď nastaví `draft: false` (publish) nebo upraví obsah.
+     */
+    draft: z.boolean().optional(),
     /** Custom path (e.g. /img/...) to override the default template-based OG image. */
     ogImage: z.string().optional(),
     /** Custom thumbnail for atlas / katalog karet — přebíjí prvni-image z těla. */

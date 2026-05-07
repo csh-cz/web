@@ -111,6 +111,7 @@ const kartaJsonLd = {
   title={entry.data.title}
   description={`Evidenční karta sbírkového předmětu — inv. č. ${entry.data.karta?.inventarniCislo ?? '?'}`}
   cmsEditUrl={`/admin/#/collections/karty/entries/${entry.id}`}
+  noindex={entry.data.draft}
   citation={{
     /* Sbírkový předmět NENÍ článek — Zotero connector to musí uložit
        jako Web Page (přes DC.* meta), ne jako Journal Article. Bez
@@ -145,7 +146,20 @@ const kartaJsonLd = {
     { label: entry.data.title },
   ]} />
 
-  <article class="karta-detail" itemscope itemtype="https://schema.org/CreativeWork">
+  <article class="karta-detail" itemscope itemtype="https://schema.org/CreativeWork" data-draft={entry.data.draft ? 'true' : undefined}>
+    {entry.data.draft && (
+      <div class="draft-banner" role="status" aria-label="Rozpracovaná karta">
+        <strong>📝 Rozpracovaná karta</strong>
+        <span>Tato evidenční karta je viditelná jen v editor mode. Po finalizaci nastav <code>draft: false</code> ve frontmatteru.</span>
+      </div>
+    )}
+    {entry.data.draft && (
+      <div class="draft-placeholder">
+        <h1 class="article-title">{entry.data.title}</h1>
+        <p>Tato evidenční karta je rozpracovaná a zatím nebyla zveřejněna.</p>
+        <p><a href="/sbirka">← Zpět do sbírky</a></p>
+      </div>
+    )}
     <header class="karta-detail-header">
       <p class="eyebrow mb-3">
         Evidenční karta

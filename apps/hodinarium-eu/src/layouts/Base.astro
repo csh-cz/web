@@ -73,8 +73,12 @@ interface Props {
   cmsEditUrl?: string;
   /** Highwire citation meta pro Zotero connector + Google Scholar. */
   citation?: CitationMeta;
+  /** True = vynutit noindex meta tag (např. draft article). Po DNS switch
+   *  zůstane in-place pro tento konkrétní článek, i když DEV-state noindex
+   *  zmizí pro celý web. */
+  noindex?: boolean;
 }
-const { title, description, ogSlug, ogImageOverride, cmsEditUrl, citation } = Astro.props;
+const { title, description, ogSlug, ogImageOverride, cmsEditUrl, citation, noindex } = Astro.props;
 
 // Citation defaults — pokud per-page neposlala specific data, fall back na
 // universal Hodinárium / ČSH metadata. Zotero connector pak uloží stránku
@@ -177,10 +181,17 @@ const orgJsonLd = isHome ? {
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#14100c" />
     <meta name="description" content={desc} />
-    <!-- DEV STATE: dokud běžíme na pages.dev, blokujeme indexaci. -->
-    <!-- Po DNS switch na hodinarium.eu odstranit oba následující meta tagy. -->
+    {/* DEV STATE: dokud běžíme na pages.dev, blokujeme indexaci.
+        Po DNS switch na hodinarium.eu odstranit oba následující meta tagy.
+        Pro `noindex` prop (např. draft articles) emit noindex i po DNS switch — řádek níž. */}
     <meta name="robots" content="noindex, nofollow" />
     <meta name="googlebot" content="noindex, nofollow" />
+    {noindex && (
+      <>
+        {/* Per-page noindex (draft, gated content) — zůstává po DNS switch. */}
+        <meta name="robots" content="noindex, nofollow" data-draft-noindex />
+      </>
+    )}
     <link rel="canonical" href={canonical} />
     <link rel="alternate" type="application/rss+xml" title="Hodinárium — Kronika" href="/rss.xml" />
     <link rel="alternate" type="application/rss+xml" title="Hodinárium — Články" href="/clanky/rss.xml" />
