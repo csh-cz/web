@@ -5,7 +5,9 @@ import type { CatalogEntry as Entry } from '../data/catalog-types';
 
 const entries: Entry[] = catalog as Entry[];
 
-// Lehčí JSON pro client (jen co potřebujeme pro search)
+// Lehčí JSON pro client (jen co potřebujeme pro search).
+// `g` (tagy) a `k` (searchKeywords) se v UI nezobrazují, jen Fuse je
+// indexuje — najde tak článek i podle synonyma / cizího termínu.
 const searchData = entries.map((e) => ({
   s: e.slug,
   t: e.title,
@@ -13,6 +15,8 @@ const searchData = entries.map((e) => ({
   e: e.excerpt.slice(0, 160),
   y: e.year,
   th: e.thumbnail,
+  g: e.tags ?? [],
+  k: e.searchKeywords ?? [],
 }));
 
 // Krátké labely kategorií — jediný zdroj pravdy (data/labels.ts).
@@ -336,9 +340,11 @@ const categoryLabelsForClient = Object.fromEntries(
     const Fuse = (await import('fuse.js')).default;
     fuse = new Fuse(searchData, {
       keys: [
-        { name: 't', weight: 2 },
-        { name: 'e', weight: 1 },
-        { name: 's', weight: 1.5 },
+        { name: 't', weight: 2 },     // title (nejvyšší priorita)
+        { name: 'e', weight: 1 },     // excerpt
+        { name: 's', weight: 1.5 },   // slug
+        { name: 'g', weight: 1.8 },   // tags (waist whitelist)
+        { name: 'k', weight: 1.5 },   // searchKeywords (synonyma, cizí termíny)
       ],
       threshold: 0.35,
       includeMatches: true,

@@ -30,6 +30,9 @@ interface CatalogEntry {
   lastModified: string | null;
   imageCount: number;
   wordCount: number;
+  vyrobce?: string;
+  tags?: string[];
+  searchKeywords?: string[];
 }
 
 function parseFrontmatter(content: string): { fm: Record<string, unknown>; body: string } {
@@ -171,6 +174,18 @@ async function main() {
         ? kartaObj.vyrobce.trim()
         : undefined;
 
+    // Tagy a searchKeywords pro Fuse.js fuzzy search.
+    // Tagy: existující whitelist v `data/tags.json` — articles už jsou
+    // nataggované, jen nebyly v search indexu. SearchKeywords: nový
+    // optional field pro synonyma / alternativní pravopisy (např. cizí
+    // termíny "lihýř/foliot/wagonka", varianty pravopisu "Bychory/Býchory").
+    const tags = Array.isArray(fm.tags)
+      ? (fm.tags as unknown[]).filter((t): t is string => typeof t === 'string' && t.length > 0)
+      : undefined;
+    const searchKeywords = Array.isArray(fm.searchKeywords)
+      ? (fm.searchKeywords as unknown[]).filter((t): t is string => typeof t === 'string' && t.length > 0)
+      : undefined;
+
     catalog.push({
       slug: (fm.slug as string) ?? file.replace(/\.(md|mdx)$/, ''),
       title: (fm.title as string) ?? file,
@@ -182,6 +197,8 @@ async function main() {
       imageCount: countImages(body),
       wordCount: countWords(body),
       ...(vyrobce ? { vyrobce } : {}),
+      ...(tags && tags.length ? { tags } : {}),
+      ...(searchKeywords && searchKeywords.length ? { searchKeywords } : {}),
     });
   }
 
