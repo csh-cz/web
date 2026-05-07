@@ -29,6 +29,16 @@ export interface Krok {
     pages?: string;
     note?: string;
   }>;
+  /** Obrazové prameny — historické výkresy, patenty, fotky exemplářů.
+   *  Zobrazí se v /kroky/<slug> v sekci „Obrazové prameny" pod
+   *  charakteristikou. Každý obrázek MUSÍ mít credit (autor/zdroj/licence). */
+  images?: Array<{
+    src: string;
+    alt: string;
+    caption?: string;
+    /** Autor / zdroj / licence — povinný. Pravidlo „vždy zdroj a copyright". */
+    credit: string;
+  }>;
 }
 
 export const kroky: Krok[] = [
@@ -124,7 +134,7 @@ export const kroky: Krok[] = [
     shrnuti:
       'Klidový kotvový krok s kolíčkovým krokovým kolem a se středově umístěnou kotvou — kombinace Grahamova kroku (kotva) a kolíčkového kroku (kolíčky místo zubů). Patent 1852, představen 1855 na pařížské světové výstavě.',
     charakteristika:
-      'V dobové francouzské literatuře (Gros, Saunier, Revue chronométrique) kritizován jako kompromis, který spojuje slabiny obou výchozích řešení — kotva je stejně náročná na výrobu jako Grahamova, kolíčkové kolo více práce než ploché kolo, kolíky špatně drží olej. Existuje i převrácená varianta od A.-L. Vérité (1806–1887). V Čechách krok výhradně používal Jan Prokeš ze Sobotky od roku 1868 (po vypršení patentu) — pravděpodobně se s ním seznámil na pařížské výstavě 1867. Nejstarší dochovaný exemplář pochází ze zámku Býchory (1868), dnes vystavený v expozici Hodinária. V odborné literatuře dříve označován jako „krok Roberta de Sancerre" — Sancerre je však místo původu, ne příjmení; správně Robertův krok podle Léona Émile Adolphe Roberta ze Sancerre.',
+      'V dobové francouzské literatuře (Gros, Saunier, Revue chronométrique) kritizován jako kompromis, který spojuje slabiny obou výchozích řešení — kotva je stejně náročná na výrobu jako Grahamova, kolíčkové kolo více práce než ploché kolo, kolíky špatně drží olej. Existuje i převrácená varianta od A.-L. Vérité (1806–1887). V Čechách krok výhradně používal Jan Prokeš ze Sobotky od roku 1868 (po vypršení patentu) — pravděpodobně se s ním seznámil na pařížské výstavě 1867. Nejstarší dochovaný exemplář pochází ze zámku Býchory (1868), dnes vystavený v expozici Hodinária. V odborné literatuře dříve označován jako „krok Roberta de Sancerre" — Sancerre je však místo původu, ne příjmení; správně Robertův krok podle Léona Émile Adolphe Roberta ze Sancerre. Otázka původu je nicméně otevřená: Curt Dietzschold ho v knize Die Turmuhren (1894) označuje jako „Älterer Stiftengang" (starší kolíčkový krok) a v práci Simona Stampfera o věžních hodinách na radnici ve Lvově je týž mechanismus zobrazen už roku 1839, tedy 13 let před Robertovým patentem. V principu jde o kombinaci Grahamova kroku (kotva) a Amantova kolíčkového kroku, oba dostupné už v první polovině 18. století — Robertův patent z 1852 možná jen formálně registroval konstrukci, kterou hodináři používali nezávisle už dříve. Hlavní praktický problém: kolíčky musí být v krokovém kole absolutně rovnoměrně osazené, jinak se mění dopad na pravou a levou paletu — typický příklad obtížného ladění je věžní stroj L. Prokeše z Jičína (1905) na zámku Milíčeves, kde výrobce řešil nepřesnost vrtání individuálním zeslabováním palet a opilováním kolíčků.',
     relatedSlugs: [
       'bychory_prokes1',
       'inv-2-vezni-prokes-1868-soubor',
@@ -162,6 +172,33 @@ export const kroky: Krok[] = [
         note: 'Pozn. 12 — nesignovaný věžní stroj získaný v aukci 2022 (dnes Hodinárium Děčín, inv. č. 31).',
       },
       { bibKey: 'bonninDescriptionVilleSancerre1999', note: 'Pozn. 13 — kronika města Sancerre, údaje o Robertovi (zemřel před 1876).' },
+      // Doplňkové prameny k otázce „Älterer Stiftengang" (mimo poznámkový aparát Knespl 2023)
+      { bibKey: 'dietzscholdTurmuhrenMitEinschluss1984', note: 'Tafel 4, Fig. 51 — krok zde popsán jako „Älterer Stiftengang" (starší kolíčkový krok); 1984 reprint německého originálu z Weimaru 1894.' },
+      { bibKey: 'dietzscholdHemmungenUhrenIhre1905', note: 'Standardní práce o hodinových krocích, dostupná na Internet Archive.' },
+      {
+        title: 'STAMPFER, Simon. Pojednání o vylepšení věžních hodin a nových hodinách na radnici ve Lvově. 1839.',
+        note: 'Detailní výkres stroje zobrazuje týž mechanismus jako Robertův krok (kotva nad kolíčkovým kolem se středovou kotvou) — 13 let před patentem 1852. Mimo Zotero.',
+      },
+    ],
+    images: [
+      {
+        src: '/img/kroky/robertuv-krok/dietzschold-1894-fig51.png',
+        alt: 'Dietzschold 1894, Tafel 4, Fig. 51 — výkres označený „Älterer Stiftengang"',
+        caption: 'Curt Dietzschold v knize Die Turmuhren (1894) označuje tento krok jako „Älterer Stiftengang" — starší kolíčkový krok. Tabule IV, obr. 51.',
+        credit: 'Reprodukce: DIETZSCHOLD, Curt. Die Turmuhren. Weimar 1894 (repr. Leipzig 1984), Tafel 4, Fig. 51. Public domain (autor † 1916).',
+      },
+      {
+        src: '/img/kroky/robertuv-krok/stampfer-1839-lvov.png',
+        alt: 'Stampfer 1839 — výkres věžního stroje na radnici ve Lvově s kolíčkovým krokem',
+        caption: 'Simon Stampfer (1839) popisuje věžní hodiny na radnici ve Lvově s týmž mechanismem — kotva (A) nad kolíčkovým krokovým kolem (R), kyvadlo (V), tyč (P). 13 let před Robertovým patentem.',
+        credit: 'Reprodukce: STAMPFER, Simon. O věžních hodinách na radnici ve Lvově. 1839. Public domain (autor † 1864).',
+      },
+      {
+        src: '/img/kroky/robertuv-krok/patent-fr-1852.jpg',
+        alt: 'Originální patentní výkres Benoita & Roberta z 18. května 1852',
+        caption: 'Faksimile francouzského patentu č. 1BB13653 z 18. května 1852. Patent zahrnoval několik různých hodinových kroků; Robertův klidový kotvový krok s kolíčkovým kolem byl jen jedním z nich.',
+        credit: 'Reprodukce: BENOIT, F. C. a L. É. A. ROBERT. Patent FR 1BB13653, Paříž 18. května 1852. Archiv INPI Paris, public domain (státní archiv).',
+      },
     ],
   },
   {
