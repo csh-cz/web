@@ -156,7 +156,26 @@ Léon Émile Adolphe Robert; v Čechách doloženo od 1868 (J. Prokeš).
 
 Tj. čtenář dostane **něco navíc** a klikne s vědomím, co tam najde.
 
-## 6. Čeština — vždy přes skill `cestina`
+## 6. Respektovat existující odbornou terminologii
+
+**Pokud se v body článku (psaného člověkem) vyskytuje odborný termín, který se zdá divný / nestandardní, NEopravovat ho** — autor pravděpodobně věděl, proč ho zvolil.
+
+Při generování tldr, kde citujeme nebo zkracujeme body, **držet termíny tak, jak je autor napsal**:
+
+- ❌ „Tříokruhový stroj" v body článku → tldr s „čtvrťový stroj" (Claudova „oprava" — ale autor mohl rozlišovat)
+- ✓ „Tříokruhový stroj" v body článku → tldr s „tříokruhový stroj" (zachovat)
+
+**Validní úpravy** v textu psaném člověkem: typo, diakritika, jasná gramatická chyba, interpunkce.
+
+**Ne-validní úpravy**: výměna odborného termínu za „známější" alternativu, modernizace archaického obratu, „zaměření" technické formulace.
+
+**Výjimka pro auto-import**: v textech s `manualEdit: false` (zachycené z legacy PHP webu) je Claude oprávněn opravovat — text není lidsky ověřený. Po opravě nastav `manualEdit: true`.
+
+**Vlastní text Claudova generátu** (například nový tldr) je samozřejmě možné upravit bez omezení.
+
+Plné pravidlo: viz feedback memory `feedback_respektovat_odbornou_terminologii.md`.
+
+## 7. Čeština — vždy přes skill `cestina`
 
 Tldr je krátký, ale **viditelný** český text — jde do meta description, OG/Twitter Card, perex pod titulkem, RSS feedu, search snippetu. Špatná čeština nebo AI tells (šablonovité fráze, anglicismy, nadužívaná slova) sníží důvěru čtenáře. Vždy aplikuj pravidla skillu `cestina`:
 
@@ -179,7 +198,7 @@ Při generování tldr přes batch agent nebo manuálně **vždy přečti hotov�
 | „Komplexní soustava hodinového a zvonicího mechanismu." | „Dvě soukolí — hodinové a zvonicí — propojená převodem 1:2." |
 | „Tento unikátní kus představuje zajímavou ukázku…" | „Vřetenový stroj s lihýřem, jediný dochovaný exemplář v Čechách." |
 
-## 7. Validation
+## 8. Validation
 
 Skript `scripts/audit-tldr.mjs` heuristicky kontroluje:
 
