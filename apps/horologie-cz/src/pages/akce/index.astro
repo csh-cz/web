@@ -145,54 +145,55 @@ const dalsiMista = lokality.length > 3 ? `, a&nbsp;další ${lokality.length - 3
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-<script define:vars={{ akce: akceProMapu }}>
-  // @ts-expect-error Leaflet from CDN
-  const map = L.map('akce-mapa', { zoomControl: true, scrollWheelZoom: false });
+<script is:inline define:vars={{ akce: akceProMapu }}>
+  // Počkat na window.load — zaručí že CDN <script src=leaflet.js> už globální L definovalo.
+  // Bez toho Astro bundling může druhý <script> spustit jako module/defer před načtením CDN scriptu → "L is not defined".
+  window.addEventListener('load', () => {
+    // @ts-expect-error Leaflet from CDN
+    const map = L.map('akce-mapa', { zoomControl: true, scrollWheelZoom: false });
 
-  // @ts-expect-error
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap přispěvatelé',
-    maxZoom: 18,
-  }).addTo(map);
-
-  // Skupina pro každou lokaci (více akcí na stejném místě)
-  const skupiny = {};
-  for (const a of akce) {
-    const klic = `${a.lat.toFixed(3)},${a.lon.toFixed(3)}`;
-    if (!skupiny[klic]) skupiny[klic] = { lat: a.lat, lon: a.lon, akce: [] };
-    skupiny[klic].akce.push(a);
-  }
-
-  const markery = [];
-  for (const sk of Object.values(skupiny)) {
     // @ts-expect-error
-    const icon = L.divIcon({
-      className: 'akce-pin' + (sk.akce.length > 1 ? ' many' : ''),
-      html: sk.akce.length > 1 ? `<span>${sk.akce.length}</span>` : '',
-      iconSize: sk.akce.length > 1 ? [28, 28] : [16, 16],
-    });
-    // @ts-expect-error
-    const m = L.marker([sk.lat, sk.lon], { icon, title: sk.akce[0].misto }).addTo(map);
-    const html = `
-      <h4>${sk.akce[0].misto || 'Místo'}</h4>
-      <p><strong>${sk.akce.length}</strong> ${sk.akce.length === 1 ? 'akce' : sk.akce.length < 5 ? 'akce' : 'akcí'}</p>
-      <ul style="list-style:none; padding:0; margin:0; max-height: 200px; overflow-y: auto;">
-        ${sk.akce.sort((a, b) => b.rok - a.rok).map((a) => `<li><strong>${a.rok}</strong> · <a href="/akce/${a.slug}">${a.nazev}</a></li>`).join('')}
-      </ul>
-    `;
-    m.bindPopup(html);
-    markery.push(m);
-  }
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap přispěvatelé',
+      maxZoom: 18,
+    }).addTo(map);
 
-  // Auto-fit bounds — pokud máme aspoň 1 marker, ukaž bbox všech akcí
-  // (Rostock na severu, Vídeň/Burgenland na jihu, Karlštejn/Brno uprostřed).
-  if (markery.length > 0) {
-    // @ts-expect-error
-    const group = L.featureGroup(markery);
-    map.fitBounds(group.getBounds(), { padding: [40, 40], maxZoom: 8 });
-  } else {
-    map.setView([50.0, 14.5], 7);
-  }
+    const skupiny = {};
+    for (const a of akce) {
+      const klic = `${a.lat.toFixed(3)},${a.lon.toFixed(3)}`;
+      if (!skupiny[klic]) skupiny[klic] = { lat: a.lat, lon: a.lon, akce: [] };
+      skupiny[klic].akce.push(a);
+    }
+
+    const markery = [];
+    for (const sk of Object.values(skupiny)) {
+      // @ts-expect-error
+      const icon = L.divIcon({
+        className: 'akce-pin' + (sk.akce.length > 1 ? ' many' : ''),
+        html: sk.akce.length > 1 ? `<span>${sk.akce.length}</span>` : '',
+        iconSize: sk.akce.length > 1 ? [28, 28] : [16, 16],
+      });
+      // @ts-expect-error
+      const m = L.marker([sk.lat, sk.lon], { icon, title: sk.akce[0].misto }).addTo(map);
+      const html = `
+        <h4>${sk.akce[0].misto || 'Místo'}</h4>
+        <p><strong>${sk.akce.length}</strong> ${sk.akce.length === 1 ? 'akce' : sk.akce.length < 5 ? 'akce' : 'akcí'}</p>
+        <ul style="list-style:none; padding:0; margin:0; max-height: 200px; overflow-y: auto;">
+          ${sk.akce.sort((a, b) => b.rok - a.rok).map((a) => `<li><strong>${a.rok}</strong> · <a href="/akce/${a.slug}">${a.nazev}</a></li>`).join('')}
+        </ul>
+      `;
+      m.bindPopup(html);
+      markery.push(m);
+    }
+
+    if (markery.length > 0) {
+      // @ts-expect-error
+      const group = L.featureGroup(markery);
+      map.fitBounds(group.getBounds(), { padding: [40, 40], maxZoom: 8 });
+    } else {
+      map.setView([50.0, 14.5], 7);
+    }
+  });
 </script>
 
 <style is:global>
