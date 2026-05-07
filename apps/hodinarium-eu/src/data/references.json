@@ -141,30 +141,6 @@
     }
   },
   {
-    "id": "strnadBeschreibungBeruhmtenUhr1791",
-    "type": "book",
-    "citation-key": "strnadBeschreibungBeruhmtenUhr1791",
-    "DOI": "10.3931/e-rara-1313",
-    "note": "STRNAD, Anton. Beschreibung der berühmten Uhr- und Kunstwerke am Altstädter Rathhause und auf der Königl. Sternwarte zu Prag [online]. Praha a Drážďany: Walthersche Hofbuchhandlung, 1791 [cit. 2026-05-01]. Dostupné z: https://doi.org/10.3931/e-rara-1313 — dobový pramen, v textu uvádí už jen příjmení Landesberger bez křestního jména\n\nOriginal-Type: kniha\nCSH-Sources: content/hodinari/ferdinand-landesberger.mdx; content/hodinari/sebastian-landesberger.mdx",
-    "publisher": "Walthersche Hofbuchhandlung",
-    "publisher-place": "Praha a Drážďany",
-    "title": "Beschreibung der berühmten Uhr- und Kunstwerke am Altstädter Rathhause und auf der Königl. Sternwarte zu Prag",
-    "URL": "https://doi.org/10.3931/e-rara-1313",
-    "author": [
-      {
-        "family": "Strnad",
-        "given": "Anton"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1791"
-        ]
-      ]
-    }
-  },
-  {
     "id": "NarodniArchivPetice",
     "type": "article-journal",
     "citation-key": "NarodniArchivPetice",
@@ -1990,6 +1966,29 @@
     }
   },
   {
+    "id": "knesplVaclavKrecmerHodinar2026",
+    "type": "manuscript",
+    "abstract": "Komplexní biografická a technická studie o pražském hodináři Václavu Krečmerovi (1844–1918). Pokrývá rodinný původ (hostivařský Dolejší mlýn), počátky u opravy Staroměstského orloje 1865–1866 v dílně V. Daňka pod vedením J. Holuba, studium ve Švýcarsku a Francii, založení vlastní dílny 1869, snahu o hodinářskou školu (1871, 1883), spolupráci se F. Špatným na slovníku (1882), výrobu věžních hodin (220+ kusů, 49 dnes identifikováno) s Denisonovým a Mannhardtovým krokem, achátovými paletami a ložisky. Dále pneumatické (vzduchotlačné) hodiny od 1874 (Kolomyja 1880), efemeridiální plynový automat na Staroměstské vodárenské věži 1879–1880 (jediný v Evropě, předběhl Horstmann z Bathu o 24 let), hybostroj pro panorama na Jubilejní výstavě 1891. Životopis uzavírá smrtí 3. 11. 1918 (zánět mozkových blan, šest dní po vyhlášení samostatnosti). Soupis 49 dochovaných i ztracených věžních hodin v příloze. Verze v3, rukopis ve fázi přípravy k publikaci.",
+    "citation-key": "knesplVaclavKrecmerHodinar2026",
+    "language": "cs",
+    "note": "Verze: v3 (rukopis, in preparation)",
+    "publisher-place": "Praha",
+    "title": "Václav Krečmer — hodinář inovátor",
+    "author": [
+      {
+        "family": "Knespl",
+        "given": "David"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2026"
+        ]
+      ]
+    }
+  },
+  {
     "id": "turnerGerardMercatorsThree2005",
     "type": "article-journal",
     "abstract": "No scientific instruments made by Gerard Mercator (1512- 1594), the great cartographer, were known to exist, though it is recorded that he made astrolabes and other brass artefacts. In early 1992, the present author identified an unsigned astrolabe in Florence as being made in Mercstor's Duisburg workshop. By 1994, the 400th anniversary of Mercator's death, two further astrolabes had been identified as being by his hand. They are in museums in Augsburg and Brno. This paper describes the method of identifícation of these unsigned instruments, culminating in the discovery of Mercator's monogram on the rim of the astrolabe in Brno.",
@@ -2287,48 +2286,6 @@
       "date-parts": [
         [
           "1550"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "mercatorAtlasMinorGerardi1634",
-    "type": "book",
-    "abstract": "In double columns; Paging irregular; Includes index to maps; Filmed from a copy of the original publication held by the National Library of Canada; 43",
-    "call-number": "CIHM 50852",
-    "citation-key": "mercatorAtlasMinorGerardi1634",
-    "ISBN": "978-0-665-50852-3",
-    "language": "lat",
-    "number-of-pages": "675",
-    "publisher": "Amsterodami : Ex officina Ioannis Ianssonii",
-    "source": "Internet Archive",
-    "title": "Atlas minor Gerardi Mercatoris à I. Hondio plurimis æneis tabulis auctus et illustratus [microform] : denuo recognit, additisque novis delineationibus emendatus",
-    "title-short": "Atlas minor Gerardi Mercatoris à I. Hondio plurimis æneis tabulis auctus et illustratus [microform]",
-    "URL": "http://archive.org/details/cihm_50852",
-    "author": [
-      {
-        "family": "Mercator",
-        "given": "Gerardus"
-      }
-    ],
-    "contributor": [
-      {
-        "literal": "Canadiana.org"
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2025",
-          9,
-          18
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "1634"
         ]
       ]
     }
@@ -2831,6 +2788,30 @@
       "date-parts": [
         [
           "2025"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "strnadBeschreibungBeruhmtenUhr1791",
+    "type": "book",
+    "citation-key": "strnadBeschreibungBeruhmtenUhr1791",
+    "DOI": "10.3931/e-rara-1313",
+    "note": "STRNAD, Anton. Beschreibung der berühmten Uhr- und Kunstwerke am Altstädter Rathhause und auf der Königl. Sternwarte zu Prag [online]. Praha a Drážďany: Walthersche Hofbuchhandlung, 1791 [cit. 2026-05-01]. Dostupné z: https://doi.org/10.3931/e-rara-1313 — dobový pramen, v textu uvádí už jen příjmení Landesberger bez křestního jména\n\nOriginal-Type: kniha\nCSH-Sources: content/hodinari/ferdinand-landesberger.mdx; content/hodinari/sebastian-landesberger.mdx",
+    "publisher": "Walthersche Hofbuchhandlung",
+    "publisher-place": "Praha a Drážďany",
+    "title": "Beschreibung der berühmten Uhr- und Kunstwerke am Altstädter Rathhause und auf der Königl. Sternwarte zu Prag",
+    "URL": "https://doi.org/10.3931/e-rara-1313",
+    "author": [
+      {
+        "family": "Strnad",
+        "given": "Anton"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1791"
         ]
       ]
     }
@@ -3513,29 +3494,6 @@
       "date-parts": [
         [
           "2019"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "hajnisPneumatickeHodiny1880",
-    "type": "article-journal",
-    "citation-key": "hajnisPneumatickeHodiny1880",
-    "container-title": "Dennice novověku",
-    "issue": "8, 10",
-    "title": "Pneumatické hodiny",
-    "URL": "https://www.digitalniknihovna.cz/nkp/uuid/uuid:b7b5bc50-59ba-11e8-87e4-5ef3fc9ae867",
-    "volume": "4",
-    "author": [
-      {
-        "family": "Hajniš",
-        "given": "L."
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1880"
         ]
       ]
     }
@@ -6274,6 +6232,48 @@
     }
   },
   {
+    "id": "mercatorAtlasMinorGerardi1634",
+    "type": "book",
+    "abstract": "In double columns; Paging irregular; Includes index to maps; Filmed from a copy of the original publication held by the National Library of Canada; 43",
+    "call-number": "CIHM 50852",
+    "citation-key": "mercatorAtlasMinorGerardi1634",
+    "ISBN": "978-0-665-50852-3",
+    "language": "lat",
+    "number-of-pages": "675",
+    "publisher": "Amsterodami : Ex officina Ioannis Ianssonii",
+    "source": "Internet Archive",
+    "title": "Atlas minor Gerardi Mercatoris à I. Hondio plurimis æneis tabulis auctus et illustratus [microform] : denuo recognit, additisque novis delineationibus emendatus",
+    "title-short": "Atlas minor Gerardi Mercatoris à I. Hondio plurimis æneis tabulis auctus et illustratus [microform]",
+    "URL": "http://archive.org/details/cihm_50852",
+    "author": [
+      {
+        "family": "Mercator",
+        "given": "Gerardus"
+      }
+    ],
+    "contributor": [
+      {
+        "literal": "Canadiana.org"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          9,
+          18
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "1634"
+        ]
+      ]
+    }
+  },
+  {
     "id": "chatc3poWittgensteinsLogicalSpace2024",
     "type": "post-weblog",
     "abstract": "Wittgenstein’s major works include the “Tractatus Logico-Philosophicus” from his early period and “Philosophical Investigations” from his…",
@@ -8251,6 +8251,29 @@
     }
   },
   {
+    "id": "hajnisPneumatickeHodiny1880",
+    "type": "article-journal",
+    "citation-key": "hajnisPneumatickeHodiny1880",
+    "container-title": "Dennice novověku",
+    "issue": "8, 10",
+    "title": "Pneumatické hodiny",
+    "URL": "https://www.digitalniknihovna.cz/nkp/uuid/uuid:b7b5bc50-59ba-11e8-87e4-5ef3fc9ae867",
+    "volume": "4",
+    "author": [
+      {
+        "family": "Hajniš",
+        "given": "L."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1880"
+        ]
+      ]
+    }
+  },
+  {
     "id": "DescriptionDuneHorloge1822",
     "type": "article-journal",
     "abstract": "Popis litinových veřejných hodin, které vyrobil pan Wagner, hodinář ~ mechanik, rue du Cadran n° 39, a Paris.",
@@ -8372,45 +8395,6 @@
         "given": "Georg"
       }
     ]
-  },
-  {
-    "id": "macakSeznamJezuitskychProfesoru2001",
-    "type": "article-journal",
-    "citation-key": "macakSeznamJezuitskychProfesoru2001",
-    "container-title": "Matematika v jezuitském Klementinu v letech 1600–1740",
-    "language": "cze",
-    "note": "ISBN: 9788071962298",
-    "page": "186-193",
-    "publisher": "Prometheus",
-    "source": "www.dml.cz",
-    "title": "Seznam jezuitských profesorů matematiky v pražském Klementinu",
-    "URL": "https://www.dml.cz/handle/10338.dmlcz/401150?show=full&utm_source=chatgpt.com",
-    "author": [
-      {
-        "family": "Mačák",
-        "given": "Karel"
-      },
-      {
-        "family": "Schuppener",
-        "given": "Georg"
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2025",
-          9,
-          16
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "2001"
-        ]
-      ]
-    }
   },
   {
     "id": "macakMatematikaJezuitskemKlementinu2001",
@@ -10124,45 +10108,6 @@
       "date-parts": [
         [
           "2024"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "svenubikPragueAstronomicalClock2025",
-    "type": "article-journal",
-    "abstract": "The Prague astronomical clock is a medieval astronomical clock in the Old Town Square in Prague. It is the oldest original working astronomical clock and the most visited astronomical clock in the world. However, many visitors have limited information about its history and the function of the Astrolabe. The clockwork itself is not commonly accessible. The aim of the project described here was to present a digital replica of all parts of the Prague astronomical clock and to make information about the clock available to researchers, students and the general public. The actual digital model of the clock was created using a variety of information sources, including photogrammetry, optical scanning, procedural generation, hand modeling, drawings and historical documentation. In this paper, we show how the model was presented and we evaluate user feedback on the presentation.",
-    "citation-key": "svenubikPragueAstronomicalClock2025",
-    "container-title": "DIGITAL HERITAGE",
-    "language": "en",
-    "source": "Zotero",
-    "title": "Prague Astronomical Clock – Virtual Presentation",
-    "author": [
-      {
-        "literal": "Sven Ubik"
-      },
-      {
-        "family": "Kubišta",
-        "given": "Jiří"
-      },
-      {
-        "family": "Oldřich Linhart",
-        "given": ""
-      },
-      {
-        "literal": "Petr Král"
-      },
-      {
-        "literal": "David Knespl"
-      },
-      {
-        "literal": "Jiří Mašek"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2025"
         ]
       ]
     }
@@ -12077,6 +12022,45 @@
     }
   },
   {
+    "id": "macakSeznamJezuitskychProfesoru2001",
+    "type": "article-journal",
+    "citation-key": "macakSeznamJezuitskychProfesoru2001",
+    "container-title": "Matematika v jezuitském Klementinu v letech 1600–1740",
+    "language": "cze",
+    "note": "ISBN: 9788071962298",
+    "page": "186-193",
+    "publisher": "Prometheus",
+    "source": "www.dml.cz",
+    "title": "Seznam jezuitských profesorů matematiky v pražském Klementinu",
+    "URL": "https://www.dml.cz/handle/10338.dmlcz/401150?show=full&utm_source=chatgpt.com",
+    "author": [
+      {
+        "family": "Mačák",
+        "given": "Karel"
+      },
+      {
+        "family": "Schuppener",
+        "given": "Georg"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          9,
+          16
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2001"
+        ]
+      ]
+    }
+  },
+  {
     "id": "Inzerat1880",
     "type": "article-journal",
     "citation-key": "Inzerat1880",
@@ -12380,30 +12364,6 @@
       "date-parts": [
         [
           "1820"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "schreyerWaarenkabinetOderNiederlage1799",
-    "type": "book",
-    "citation-key": "schreyerWaarenkabinetOderNiederlage1799",
-    "language": "de",
-    "note": "Google-Books-ID: 3hdkAAAAcAAJ",
-    "number-of-pages": "808",
-    "publisher": "bey Martin Neureutter, Buchhädler",
-    "source": "Google Books",
-    "title": "Waarenkabinet oder Niederlage der in Böhmen erzeugten Waarenartikel, und Naturprodukte, dann der darmit betreibende Handel",
-    "author": [
-      {
-        "family": "Schreyer",
-        "given": "Josef Anton"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1799"
         ]
       ]
     }
@@ -14255,6 +14215,45 @@
     }
   },
   {
+    "id": "svenubikPragueAstronomicalClock2025",
+    "type": "article-journal",
+    "abstract": "The Prague astronomical clock is a medieval astronomical clock in the Old Town Square in Prague. It is the oldest original working astronomical clock and the most visited astronomical clock in the world. However, many visitors have limited information about its history and the function of the Astrolabe. The clockwork itself is not commonly accessible. The aim of the project described here was to present a digital replica of all parts of the Prague astronomical clock and to make information about the clock available to researchers, students and the general public. The actual digital model of the clock was created using a variety of information sources, including photogrammetry, optical scanning, procedural generation, hand modeling, drawings and historical documentation. In this paper, we show how the model was presented and we evaluate user feedback on the presentation.",
+    "citation-key": "svenubikPragueAstronomicalClock2025",
+    "container-title": "DIGITAL HERITAGE",
+    "language": "en",
+    "source": "Zotero",
+    "title": "Prague Astronomical Clock – Virtual Presentation",
+    "author": [
+      {
+        "literal": "Sven Ubik"
+      },
+      {
+        "family": "Kubišta",
+        "given": "Jiří"
+      },
+      {
+        "family": "Oldřich Linhart",
+        "given": ""
+      },
+      {
+        "literal": "Petr Král"
+      },
+      {
+        "literal": "David Knespl"
+      },
+      {
+        "literal": "Jiří Mašek"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025"
+        ]
+      ]
+    }
+  },
+  {
     "id": "schoenherrUrkundenUndRegesten1893",
     "type": "article-journal",
     "citation-key": "schoenherrUrkundenUndRegesten1893",
@@ -15624,29 +15623,6 @@
     }
   },
   {
-    "id": "pochePrahaNaUsvitu1988",
-    "type": "book",
-    "citation-key": "pochePrahaNaUsvitu1988",
-    "number-of-pages": "625",
-    "publisher": "Panorama",
-    "publisher-place": "Praha",
-    "title": "Praha na úsvitu nových dějin: (čtvero knih o Praze) : architektura, sochařství, malířství, umělecké řemeslo",
-    "URL": "https://www.digitalniknihovna.cz/mzk/uuid/uuid:ac996940-acb5-11e3-87a3-001018b5eb5c",
-    "author": [
-      {
-        "family": "Poche",
-        "given": "Emanuel"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1988"
-        ]
-      ]
-    }
-  },
-  {
     "id": "pejml200LetMeteorologicke1975",
     "type": "book",
     "citation-key": "pejml200LetMeteorologicke1975",
@@ -16642,6 +16618,30 @@
     }
   },
   {
+    "id": "schreyerWaarenkabinetOderNiederlage1799",
+    "type": "book",
+    "citation-key": "schreyerWaarenkabinetOderNiederlage1799",
+    "language": "de",
+    "note": "Google-Books-ID: 3hdkAAAAcAAJ",
+    "number-of-pages": "808",
+    "publisher": "bey Martin Neureutter, Buchhädler",
+    "source": "Google Books",
+    "title": "Waarenkabinet oder Niederlage der in Böhmen erzeugten Waarenartikel, und Naturprodukte, dann der darmit betreibende Handel",
+    "author": [
+      {
+        "family": "Schreyer",
+        "given": "Josef Anton"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1799"
+        ]
+      ]
+    }
+  },
+  {
     "id": "KayserlicherUndKoeniglicher1747",
     "type": "book",
     "citation-key": "KayserlicherUndKoeniglicher1747",
@@ -16814,49 +16814,6 @@
       "date-parts": [
         [
           "1867"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "bartlettAutomaticGasLighter1877",
-    "type": "patent",
-    "authority": "Canada",
-    "call-number": "CA000007739A",
-    "citation-key": "bartlettAutomaticGasLighter1877",
-    "language": "en",
-    "number": "CA7739A",
-    "title": "Automatic gas lighter",
-    "URL": "https://patents.google.com/patent/CA7739A/en?q=(VOGEL)&inventor=KAsIMIR&oq=KAsIMIR+VOGEL",
-    "author": [
-      {
-        "family": "Bartlett",
-        "given": "James"
-      },
-      {
-        "family": "Vogel",
-        "given": "Kasimir"
-      },
-      {
-        "family": "Moulton",
-        "given": "Charles C."
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2024",
-          7,
-          11
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "1877",
-          8,
-          9
         ]
       ]
     }
@@ -19102,6 +19059,29 @@
     }
   },
   {
+    "id": "pochePrahaNaUsvitu1988",
+    "type": "book",
+    "citation-key": "pochePrahaNaUsvitu1988",
+    "number-of-pages": "625",
+    "publisher": "Panorama",
+    "publisher-place": "Praha",
+    "title": "Praha na úsvitu nových dějin: (čtvero knih o Praze) : architektura, sochařství, malířství, umělecké řemeslo",
+    "URL": "https://www.digitalniknihovna.cz/mzk/uuid/uuid:ac996940-acb5-11e3-87a3-001018b5eb5c",
+    "author": [
+      {
+        "family": "Poche",
+        "given": "Emanuel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1988"
+        ]
+      ]
+    }
+  },
+  {
     "id": "ruthKronikaKralovskePrahy1996",
     "type": "book",
     "citation-key": "ruthKronikaKralovskePrahy1996",
@@ -19371,29 +19351,6 @@
       {
         "family": "Prechtl",
         "given": "Johann Joseph “von”"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1839"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "institutwienJahrbuecherKaiserlichenKoeniglichen1839",
-    "type": "book",
-    "citation-key": "institutwienJahrbuecherKaiserlichenKoeniglichen1839",
-    "language": "de",
-    "note": "Google-Books-ID: pJM5AAAAcAAJ",
-    "number-of-pages": "586",
-    "source": "Google Books",
-    "title": "Jahrbücher des Kaiserlichen Königlichen Polytechnischen Institutes in Wien",
-    "author": [
-      {
-        "family": "Institut (Wien)",
-        "given": "Kaiserlich-Königliches Polytechnisches"
       }
     ],
     "issued": {
@@ -21566,6 +21523,49 @@
     }
   },
   {
+    "id": "bartlettAutomaticGasLighter1877",
+    "type": "patent",
+    "authority": "Canada",
+    "call-number": "CA000007739A",
+    "citation-key": "bartlettAutomaticGasLighter1877",
+    "language": "en",
+    "number": "CA7739A",
+    "title": "Automatic gas lighter",
+    "URL": "https://patents.google.com/patent/CA7739A/en?q=(VOGEL)&inventor=KAsIMIR&oq=KAsIMIR+VOGEL",
+    "author": [
+      {
+        "family": "Bartlett",
+        "given": "James"
+      },
+      {
+        "family": "Vogel",
+        "given": "Kasimir"
+      },
+      {
+        "family": "Moulton",
+        "given": "Charles C."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          7,
+          11
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "1877",
+          8,
+          9
+        ]
+      ]
+    }
+  },
+  {
     "id": "benoitEchappementsPendules1852",
     "type": "patent",
     "call-number": "13653",
@@ -22007,21 +22007,6 @@
     "type": "document",
     "citation-key": "Sima_Prazskyorlojajehorekonstrukce_19941017pdf",
     "title": "Sima_Prazskyorlojajehorekonstrukce_1994-10-17.pdf"
-  },
-  {
-    "id": "winterZlataDobaMest",
-    "type": "article-journal",
-    "citation-key": "winterZlataDobaMest",
-    "language": "cs",
-    "page": "266",
-    "source": "Zotero",
-    "title": "Zlatá doba měst českých",
-    "author": [
-      {
-        "family": "Winter",
-        "given": "Zikmund"
-      }
-    ]
   },
   {
     "id": "woldenbergTRACTATUSNOVUSPHILOLOGICOJURIDICUS1670",
@@ -23917,6 +23902,29 @@
     "title": "Kronika města Bakov nad Jizerou z let 1847 - 1958"
   },
   {
+    "id": "institutwienJahrbuecherKaiserlichenKoeniglichen1839",
+    "type": "book",
+    "citation-key": "institutwienJahrbuecherKaiserlichenKoeniglichen1839",
+    "language": "de",
+    "note": "Google-Books-ID: pJM5AAAAcAAJ",
+    "number-of-pages": "586",
+    "source": "Google Books",
+    "title": "Jahrbücher des Kaiserlichen Königlichen Polytechnischen Institutes in Wien",
+    "author": [
+      {
+        "family": "Institut (Wien)",
+        "given": "Kaiserlich-Königliches Polytechnisches"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1839"
+        ]
+      ]
+    }
+  },
+  {
     "id": "ruhlmannmoritzAllgemeineMaschinenlehre11875",
     "type": "book",
     "citation-key": "ruhlmannmoritzAllgemeineMaschinenlehre11875",
@@ -24177,26 +24185,6 @@
       "date-parts": [
         [
           "1998"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "graafAstrolabe2007",
-    "type": "document",
-    "citation-key": "graafAstrolabe2007",
-    "title": "The astrolabe",
-    "author": [
-      {
-        "family": "Graaf",
-        "given": "Wilfred",
-        "dropping-particle": "de"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2007"
         ]
       ]
     }
@@ -26522,6 +26510,21 @@
     }
   },
   {
+    "id": "winterZlataDobaMest",
+    "type": "article-journal",
+    "citation-key": "winterZlataDobaMest",
+    "language": "cs",
+    "page": "266",
+    "source": "Zotero",
+    "title": "Zlatá doba měst českých",
+    "author": [
+      {
+        "family": "Winter",
+        "given": "Zikmund"
+      }
+    ]
+  },
+  {
     "id": "durdikStredovekeMechanickeHodiny1991",
     "type": "article-journal",
     "citation-key": "durdikStredovekeMechanickeHodiny1991",
@@ -26955,24 +26958,6 @@
       "date-parts": [
         [
           "1902"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "aspreyClockworkHeavens1973",
-    "type": "book",
-    "citation-key": "aspreyClockworkHeavens1973",
-    "title": "The Clockwork Of The Heavens",
-    "author": [
-      {
-        "literal": "Asprey"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1973"
         ]
       ]
     }
@@ -28992,6 +28977,26 @@
     }
   },
   {
+    "id": "graafAstrolabe2007",
+    "type": "document",
+    "citation-key": "graafAstrolabe2007",
+    "title": "The astrolabe",
+    "author": [
+      {
+        "family": "Graaf",
+        "given": "Wilfred",
+        "dropping-particle": "de"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2007"
+        ]
+      ]
+    }
+  },
+  {
     "id": "VindolandaCalendarFragment2013",
     "type": "article-journal",
     "citation-key": "VindolandaCalendarFragment2013",
@@ -29447,26 +29452,6 @@
           "2013"
         ]
       ]
-    }
-  },
-  {
-    "id": "marusakAndelskePripominky2011",
-    "type": "document",
-    "citation-key": "marusakAndelskePripominky2011",
-    "title": "Andělské připomínky",
-    "author": [
-      {
-        "family": "Marušák",
-        "given": "Stan"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2011"
-        ]
-      ],
-      "season": "7"
     }
   },
   {
@@ -31869,6 +31854,24 @@
     }
   },
   {
+    "id": "aspreyClockworkHeavens1973",
+    "type": "book",
+    "citation-key": "aspreyClockworkHeavens1973",
+    "title": "The Clockwork Of The Heavens",
+    "author": [
+      {
+        "literal": "Asprey"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1973"
+        ]
+      ]
+    }
+  },
+  {
     "id": "dietzscholdHemmungenUhrenIhre1905",
     "type": "book",
     "call-number": "6954403",
@@ -31923,45 +31926,6 @@
       "date-parts": [
         [
           "2013"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "roeslingThurmUhrenBauAufSeiner1843",
-    "type": "book",
-    "archive_location": "E01",
-    "citation-key": "roeslingThurmUhrenBauAufSeiner1843",
-    "DOI": "10.3931/e-rara-20482",
-    "language": "ger",
-    "license": "pdm",
-    "note": "Accession Number: 990019102180205503\nsource: ETH-BIB\nGoogle-Books-ID: xDNWAAAAcAAJ",
-    "number-of-pages": "244",
-    "publisher": "in der J. Ebner'schen Buchhandlung",
-    "publisher-place": "Ulm",
-    "source": "Library Catalog (Visual Library 2021)",
-    "title": "Der Thurm-Uhren-Bau auf seiner jetzigen Stufe der Vollkommenheit: mit Berücksichtigung der neuesten Stoss'schen und Mannhardt'schen Patent-Thurm-Uhren",
-    "title-short": "Der Thurm-Uhren-Bau auf seiner jetzigen Stufe der Vollkommenheit",
-    "URL": "http://dx.doi.org/10.3931/e-rara-20482",
-    "author": [
-      {
-        "family": "Rösling",
-        "given": "Carl Wilhelm"
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2022",
-          9,
-          11
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "1843"
         ]
       ]
     }
@@ -34357,6 +34321,26 @@
     }
   },
   {
+    "id": "marusakAndelskePripominky2011",
+    "type": "document",
+    "citation-key": "marusakAndelskePripominky2011",
+    "title": "Andělské připomínky",
+    "author": [
+      {
+        "family": "Marušák",
+        "given": "Stan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011"
+        ]
+      ],
+      "season": "7"
+    }
+  },
+  {
     "id": "DejepisMestaPrahy",
     "type": "article-journal",
     "citation-key": "DejepisMestaPrahy",
@@ -36702,6 +36686,45 @@
     }
   },
   {
+    "id": "roeslingThurmUhrenBauAufSeiner1843",
+    "type": "book",
+    "archive_location": "E01",
+    "citation-key": "roeslingThurmUhrenBauAufSeiner1843",
+    "DOI": "10.3931/e-rara-20482",
+    "language": "ger",
+    "license": "pdm",
+    "note": "Accession Number: 990019102180205503\nsource: ETH-BIB\nGoogle-Books-ID: xDNWAAAAcAAJ",
+    "number-of-pages": "244",
+    "publisher": "in der J. Ebner'schen Buchhandlung",
+    "publisher-place": "Ulm",
+    "source": "Library Catalog (Visual Library 2021)",
+    "title": "Der Thurm-Uhren-Bau auf seiner jetzigen Stufe der Vollkommenheit: mit Berücksichtigung der neuesten Stoss'schen und Mannhardt'schen Patent-Thurm-Uhren",
+    "title-short": "Der Thurm-Uhren-Bau auf seiner jetzigen Stufe der Vollkommenheit",
+    "URL": "http://dx.doi.org/10.3931/e-rara-20482",
+    "author": [
+      {
+        "family": "Rösling",
+        "given": "Carl Wilhelm"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          9,
+          11
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "1843"
+        ]
+      ]
+    }
+  },
+  {
     "id": "boehmenVerhandlungenVereinsZur1872",
     "type": "book",
     "citation-key": "boehmenVerhandlungenVereinsZur1872",
@@ -36917,19 +36940,6 @@
     }
   },
   {
-    "id": "truffaBibliografiaSuJacopo",
-    "type": "document",
-    "citation-key": "truffaBibliografiaSuJacopo",
-    "title": "Bibliografia su Jacopo e Giovanni Dondi Dall’Orologio",
-    "URL": "https://www.academia.edu/36219509/Bibliography_of_Iacopo_and_Giovanni_Dondi_dallOrologio_with_Updates",
-    "author": [
-      {
-        "family": "Truffa",
-        "given": "Giancarlo"
-      }
-    ]
-  },
-  {
     "id": "cortiTrascrizioneDiFernando",
     "type": "article-journal",
     "citation-key": "cortiTrascrizioneDiFernando",
@@ -37046,6 +37056,19 @@
     }
   },
   {
+    "id": "truffaBibliografiaSuJacopo",
+    "type": "document",
+    "citation-key": "truffaBibliografiaSuJacopo",
+    "title": "Bibliografia su Jacopo e Giovanni Dondi Dall’Orologio",
+    "URL": "https://www.academia.edu/36219509/Bibliography_of_Iacopo_and_Giovanni_Dondi_dallOrologio_with_Updates",
+    "author": [
+      {
+        "family": "Truffa",
+        "given": "Giancarlo"
+      }
+    ]
+  },
+  {
     "id": "cipollaDiffusionInnovationsEarly1972",
     "type": "article-journal",
     "citation-key": "cipollaDiffusionInnovationsEarly1972",
@@ -37078,34 +37101,6 @@
       "date-parts": [
         [
           "1972"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "DigitalIdentityLeveraging2024",
-    "type": "webpage",
-    "abstract": "ENISA: Every day we experience the Information Society. Interconnected networks touch our everyday lives, at home and at work. It is therefore vital that computers, mobile phones, banking, and the Internet  function, to support Europe’s digital economy. That is why ENISA is working with Cybersecurity for the EU and the Member States.",
-    "citation-key": "DigitalIdentityLeveraging2024",
-    "language": "en",
-    "title": "Digital Identity: Leveraging the SSI Concept to Build Trust | ENISA",
-    "title-short": "Digital Identity",
-    "URL": "https://www.enisa.europa.eu/publications/digital-identity-leveraging-the-ssi-concept-to-build-trust",
-    "accessed": {
-      "date-parts": [
-        [
-          "2025",
-          1,
-          10
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "2024",
-          3,
-          12
         ]
       ]
     }
@@ -38587,22 +38582,6 @@
       "date-parts": [
         [
           "1896"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "WebsterSignatureDatabase",
-    "type": "webpage",
-    "citation-key": "WebsterSignatureDatabase",
-    "title": "Webster Signature Database Search Results",
-    "URL": "http://historydb.adlerplanetarium.org/signatures/a.pl?edit=1",
-    "accessed": {
-      "date-parts": [
-        [
-          "2024",
-          11,
-          9
         ]
       ]
     }
@@ -40569,6 +40548,34 @@
     }
   },
   {
+    "id": "DigitalIdentityLeveraging2024",
+    "type": "webpage",
+    "abstract": "ENISA: Every day we experience the Information Society. Interconnected networks touch our everyday lives, at home and at work. It is therefore vital that computers, mobile phones, banking, and the Internet  function, to support Europe’s digital economy. That is why ENISA is working with Cybersecurity for the EU and the Member States.",
+    "citation-key": "DigitalIdentityLeveraging2024",
+    "language": "en",
+    "title": "Digital Identity: Leveraging the SSI Concept to Build Trust | ENISA",
+    "title-short": "Digital Identity",
+    "URL": "https://www.enisa.europa.eu/publications/digital-identity-leveraging-the-ssi-concept-to-build-trust",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          1,
+          10
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          3,
+          12
+        ]
+      ]
+    }
+  },
+  {
     "id": "taborskyzklokotskehoryZpravaOrlojiStaromestkem1570",
     "type": "manuscript",
     "abstract": "Původní rukopis",
@@ -41764,6 +41771,22 @@
       "date-parts": [
         [
           "2003"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "WebsterSignatureDatabase",
+    "type": "webpage",
+    "citation-key": "WebsterSignatureDatabase",
+    "title": "Webster Signature Database Search Results",
+    "URL": "http://historydb.adlerplanetarium.org/signatures/a.pl?edit=1",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          11,
+          9
         ]
       ]
     }
@@ -44773,42 +44796,6 @@
     }
   },
   {
-    "id": "auerhanPotrebyCeskehoPrumysloveho1913",
-    "type": "chapter",
-    "citation-key": "auerhanPotrebyCeskehoPrumysloveho1913",
-    "container-title": "Česká politika, Díl 5: Kulturní, zvláště školské úkoly české politiky",
-    "page": "835-840",
-    "publisher": "Jan Laichter",
-    "publisher-place": "V Praze",
-    "title": "Potřeby českého průmyslového školství v Čechách a na Moravě.",
-    "URL": "https://www.digitalniknihovna.cz/mzk/uuid/uuid:0bf8bf40-f909-11e3-add3-001018b5eb5c",
-    "author": [
-      {
-        "family": "AUERHAN",
-        "given": "Jan"
-      },
-      {
-        "family": "BĚLEHRÁDEK",
-        "given": "František"
-      },
-      {
-        "family": "FOUSTKA",
-        "given": "Břetislav"
-      },
-      {
-        "family": "TOBOLKA",
-        "given": "Zdeněk Václav"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1913"
-        ]
-      ]
-    }
-  },
-  {
     "id": "lessingKunstgewerbeAufWiener1874",
     "type": "book",
     "citation-key": "lessingKunstgewerbeAufWiener1874",
@@ -45865,23 +45852,37 @@
     }
   },
   {
-    "id": "reuterHanneNuteLutte2016",
-    "type": "book",
-    "citation-key": "reuterHanneNuteLutte2016",
-    "ISBN": "978-3-7428-2927-6",
-    "publisher": "hansebooks",
-    "title": "Hanne Nute Un de Lutte Pudel:",
-    "URL": "https://books.google.de/books?id=x7tfvgAACAAJ",
+    "id": "auerhanPotrebyCeskehoPrumysloveho1913",
+    "type": "chapter",
+    "citation-key": "auerhanPotrebyCeskehoPrumysloveho1913",
+    "container-title": "Česká politika, Díl 5: Kulturní, zvláště školské úkoly české politiky",
+    "page": "835-840",
+    "publisher": "Jan Laichter",
+    "publisher-place": "V Praze",
+    "title": "Potřeby českého průmyslového školství v Čechách a na Moravě.",
+    "URL": "https://www.digitalniknihovna.cz/mzk/uuid/uuid:0bf8bf40-f909-11e3-add3-001018b5eb5c",
     "author": [
       {
-        "family": "Reuter",
-        "given": "H.L."
+        "family": "AUERHAN",
+        "given": "Jan"
+      },
+      {
+        "family": "BĚLEHRÁDEK",
+        "given": "František"
+      },
+      {
+        "family": "FOUSTKA",
+        "given": "Břetislav"
+      },
+      {
+        "family": "TOBOLKA",
+        "given": "Zdeněk Václav"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          "2016"
+          "1913"
         ]
       ]
     }
@@ -46893,6 +46894,28 @@
       "date-parts": [
         [
           "1873"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "reuterHanneNuteLutte2016",
+    "type": "book",
+    "citation-key": "reuterHanneNuteLutte2016",
+    "ISBN": "978-3-7428-2927-6",
+    "publisher": "hansebooks",
+    "title": "Hanne Nute Un de Lutte Pudel:",
+    "URL": "https://books.google.de/books?id=x7tfvgAACAAJ",
+    "author": [
+      {
+        "family": "Reuter",
+        "given": "H.L."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2016"
         ]
       ]
     }
@@ -51098,29 +51121,6 @@
     }
   },
   {
-    "id": "knesplMoserCieTechnicky2015",
-    "type": "article-magazine",
-    "citation-key": "knesplMoserCieTechnicky2015",
-    "container-title": "WatchIt!",
-    "issue": "23",
-    "license": "All rights reserved",
-    "page": "68-75",
-    "title": "H. Moser & Cie, Technicky dokonalé, střídmě elegantní",
-    "author": [
-      {
-        "family": "Knespl",
-        "given": "David"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2015"
-        ]
-      ]
-    }
-  },
-  {
     "id": "ObjetosArte1989",
     "type": "book",
     "citation-key": "ObjetosArte1989",
@@ -52802,38 +52802,24 @@
     }
   },
   {
-    "id": "vitruviuspollioDesetKnihArchitekture2009",
-    "type": "book",
-    "citation-key": "vitruviuspollioDesetKnihArchitekture2009",
-    "ISBN": "978-80-86410-58-6",
-    "language": "Czech",
-    "note": "OCLC: 505915107",
-    "publisher": "Arista : Maitrea : TeMi CZ",
-    "publisher-place": "Praha",
-    "source": "Open WorldCat",
-    "title": "Deset knih o architektuře",
+    "id": "knesplMoserCieTechnicky2015",
+    "type": "article-magazine",
+    "citation-key": "knesplMoserCieTechnicky2015",
+    "container-title": "WatchIt!",
+    "issue": "23",
+    "license": "All rights reserved",
+    "page": "68-75",
+    "title": "H. Moser & Cie, Technicky dokonalé, střídmě elegantní",
     "author": [
       {
-        "family": "Vitruvius Pollio",
-        "given": "Marcus"
-      },
-      {
-        "family": "Otoupalík",
-        "given": "Alois"
-      },
-      {
-        "family": "Bouzek",
-        "given": "Jan"
-      },
-      {
-        "family": "Honzík",
-        "given": "Milan"
+        "family": "Knespl",
+        "given": "David"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          "2009"
+          "2015"
         ]
       ]
     }
@@ -53608,6 +53594,43 @@
       "date-parts": [
         [
           "1996"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "vitruviuspollioDesetKnihArchitekture2009",
+    "type": "book",
+    "citation-key": "vitruviuspollioDesetKnihArchitekture2009",
+    "ISBN": "978-80-86410-58-6",
+    "language": "Czech",
+    "note": "OCLC: 505915107",
+    "publisher": "Arista : Maitrea : TeMi CZ",
+    "publisher-place": "Praha",
+    "source": "Open WorldCat",
+    "title": "Deset knih o architektuře",
+    "author": [
+      {
+        "family": "Vitruvius Pollio",
+        "given": "Marcus"
+      },
+      {
+        "family": "Otoupalík",
+        "given": "Alois"
+      },
+      {
+        "family": "Bouzek",
+        "given": "Jan"
+      },
+      {
+        "family": "Honzík",
+        "given": "Milan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2009"
         ]
       ]
     }
@@ -55791,27 +55814,6 @@
     }
   },
   {
-    "id": "conventionHeritageSitesAstronomy2010",
-    "type": "book",
-    "citation-key": "conventionHeritageSitesAstronomy2010",
-    "ISBN": "978-2-918086-01-7",
-    "note": "issue: June",
-    "title": "Heritage Sites of Astronomy",
-    "author": [
-      {
-        "family": "Convention",
-        "given": "World Heritage"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2010"
-        ]
-      ]
-    }
-  },
-  {
     "id": "zarjaCasiNarucnijeKvarcevije",
     "type": "book",
     "citation-key": "zarjaCasiNarucnijeKvarcevije",
@@ -57324,22 +57326,22 @@
     }
   },
   {
-    "id": "aveniEmpiresTimeCalendars1989",
+    "id": "conventionHeritageSitesAstronomy2010",
     "type": "book",
-    "citation-key": "aveniEmpiresTimeCalendars1989",
-    "ISBN": "0-465-01950-1",
-    "publisher": "Basic Books",
-    "title": "Empires of time calendars, clocks, and cultures",
+    "citation-key": "conventionHeritageSitesAstronomy2010",
+    "ISBN": "978-2-918086-01-7",
+    "note": "issue: June",
+    "title": "Heritage Sites of Astronomy",
     "author": [
       {
-        "family": "Aveni",
-        "given": "Anthony F."
+        "family": "Convention",
+        "given": "World Heritage"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          "1989"
+          "2010"
         ]
       ]
     }
@@ -59709,20 +59711,22 @@
     }
   },
   {
-    "id": "gouldMarineChronometerIts1960",
-    "type": "document",
-    "citation-key": "gouldMarineChronometerIts1960",
-    "title": "The Marine Chronometer: Its History and Development",
+    "id": "aveniEmpiresTimeCalendars1989",
+    "type": "book",
+    "citation-key": "aveniEmpiresTimeCalendars1989",
+    "ISBN": "0-465-01950-1",
+    "publisher": "Basic Books",
+    "title": "Empires of time calendars, clocks, and cultures",
     "author": [
       {
-        "family": "Gould",
-        "given": "Rupert T"
+        "family": "Aveni",
+        "given": "Anthony F."
       }
     ],
     "issued": {
       "date-parts": [
         [
-          "1960"
+          "1989"
         ]
       ]
     }
@@ -60096,6 +60100,25 @@
       "date-parts": [
         [
           "1850"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "gouldMarineChronometerIts1960",
+    "type": "document",
+    "citation-key": "gouldMarineChronometerIts1960",
+    "title": "The Marine Chronometer: Its History and Development",
+    "author": [
+      {
+        "family": "Gould",
+        "given": "Rupert T"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1960"
         ]
       ]
     }
@@ -61824,40 +61847,6 @@
     }
   },
   {
-    "id": "schneiderDeepdoctectionOpenSource2023",
-    "type": "webpage",
-    "abstract": "Deepdoctection is a Python library that performs the tasks of document extraction and document layout analysis using...",
-    "citation-key": "schneiderDeepdoctectionOpenSource2023",
-    "container-title": "Konfuzio",
-    "language": "en-US",
-    "title": "deepdoctection - An Open Source Framework for Document AI",
-    "URL": "https://konfuzio.com/en/deepdoctection/",
-    "author": [
-      {
-        "family": "Schneider",
-        "given": "Maximilian"
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2024",
-          3,
-          9
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "2023",
-          4,
-          5
-        ]
-      ]
-    }
-  },
-  {
     "id": "GeschichteKarlsteinerUhrmacherei",
     "type": "webpage",
     "abstract": "Die Geschichte der Karlsteiner Uhrmacherei:Da die...",
@@ -62476,6 +62465,40 @@
           "2022",
           8,
           22
+        ]
+      ]
+    }
+  },
+  {
+    "id": "schneiderDeepdoctectionOpenSource2023",
+    "type": "webpage",
+    "abstract": "Deepdoctection is a Python library that performs the tasks of document extraction and document layout analysis using...",
+    "citation-key": "schneiderDeepdoctectionOpenSource2023",
+    "container-title": "Konfuzio",
+    "language": "en-US",
+    "title": "deepdoctection - An Open Source Framework for Document AI",
+    "URL": "https://konfuzio.com/en/deepdoctection/",
+    "author": [
+      {
+        "family": "Schneider",
+        "given": "Maximilian"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          3,
+          9
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          4,
+          5
         ]
       ]
     }

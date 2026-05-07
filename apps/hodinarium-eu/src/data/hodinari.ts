@@ -182,7 +182,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Praha',
     zeme: 'CZ',
     shrnuti:
-      'Pražský hodinář druhé poloviny 19. století (1844–1918) — nejvýraznější domácí inovátor v oboru věžních hodin své doby. Studoval v Ženevě a Besançonu, jako první v Čechách použil ve věžních hodinách Denisonův gravitační krok a sériově nasazoval lité díly. Pokoušel se založit českou hodinářskou školu (1871), s Františkem Špatným vydal první německo-český hodinářský slovník (1882). Zemřel těsně před vyhlášením samostatnosti.',
+      'Pražský hodinář a inovátor druhé poloviny 19. a počátku 20. století (1844–1918) — nejvýznamnější domácí výrobce věžních hodin své doby (přes 220 strojů). Po práci na opravě Staroměstského orloje (1865–1866) studoval v Ženevě a Besançonu. Jako první v Čechách použil ve věžních hodinách Denisonův gravitační krok (1876), nasadil litinu i u jemných součástí kroku a ve špičkových strojích achátové palety. Stavěl pneumatické (vzduchotlačné) hodiny (1874), efemeridiální plynový automat na Staroměstské vodárenské věži (1879) a hybostroj pro panorama (1891). S Františkem Špatným vydal první německo-český hodinářský slovník (1882). Zemřel 3. listopadu 1918, šest dní po vyhlášení samostatnosti.',
     relatedSlugs: ['akvizice-2015-2025'],
     era: 'prelom',
   },
