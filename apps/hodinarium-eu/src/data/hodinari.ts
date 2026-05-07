@@ -176,13 +176,13 @@ export const hodinari: Hodinar[] = [
   {
     slug: 'vaclav-krecmer',
     jmeno: 'Václav Krečmer',
-    aliasy: ['Krečmer', 'Krecmer', 'V. Krečmer', 'Václav Krečmer'],
+    aliasy: ['Krečmer', 'Krecmer', 'V. Krečmer', 'Václav Krečmer', 'Wenzel Kretschmer'],
     typ: 'osoba',
-    obdobi: 'akt. 1890–1920',
-    mesto: 'Královské Vinohrady (Praha)',
+    obdobi: '1844–1918',
+    mesto: 'Praha',
     zeme: 'CZ',
     shrnuti:
-      'Vinohradský hodinář přelomu 19. a 20. století. Stroje se vyznačují pečlivým provedením, typickým způsobem zavěšení kyvadla s paletami Amantova kroku.',
+      'Pražský hodinář druhé poloviny 19. století (1844–1918) — nejvýraznější domácí inovátor v oboru věžních hodin své doby. Studoval v Ženevě a Besançonu, jako první v Čechách použil ve věžních hodinách Denisonův gravitační krok a sériově nasazoval lité díly. Pokoušel se založit českou hodinářskou školu (1871), s Františkem Špatným vydal první německo-český hodinářský slovník (1882). Zemřel těsně před vyhlášením samostatnosti.',
     relatedSlugs: ['akvizice-2015-2025'],
     era: 'prelom',
   },

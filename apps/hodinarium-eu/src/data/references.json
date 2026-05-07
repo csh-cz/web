@@ -141,23 +141,6 @@
     }
   },
   {
-    "id": "RakouskouherskyPatent18951895",
-    "type": "article-journal",
-    "citation-key": "RakouskouherskyPatent18951895",
-    "container-title": "Privilegium č",
-    "issue": "5963",
-    "note": "Rakouský patentový úřad — Kaiserliches Patent-Privilegien-Archiv. Privilegium č. 5963/1895 [online]. Wien: Österreichisches Patentamt [cit. 2026-05-01]. Dostupné z: https://privilegien.patentamt.at/image/1895_005963/1/ — naskenovaný originál patentového spisu.\n\nOriginal-Type: pdf\nCSH-Sources: content/hodinari/edmund-kinsner.mdx",
-    "title": "Rakousko-uherský patent č. 1895/5963 — privilegium",
-    "URL": "https://privilegien.patentamt.at/image/1895_005963/1/",
-    "issued": {
-      "date-parts": [
-        [
-          "1895"
-        ]
-      ]
-    }
-  },
-  {
     "id": "strnadBeschreibungBeruhmtenUhr1791",
     "type": "book",
     "citation-key": "strnadBeschreibungBeruhmtenUhr1791",
@@ -1980,6 +1963,33 @@
     ]
   },
   {
+    "id": "kovarKapleNavstiveniPanny1913",
+    "type": "article-journal",
+    "abstract": "Kronikářské paměti M. Kováře (rodáka ze Žďáru u Svijan, profesora v Praze a redaktora Sborníku Historického kroužku) o vzniku a stavbě kaple Navštívení Panny Marie ve Žďáře u Svijan v letech 1898-1904. Obsahuje seznam dárců, popis stavby a vnitřního zařízení. Pro hodinářskou historii zásadní zmínka (str. 184) o dodávce věžních hodin V. Krečmera z Vinohrad (1904), zvonů A. Diepolda a zlacení číselníku Janem Czadou — autentický pramen k Krečmerově produkci. Hodiny byly před instalací vystaveny na pražské výstavě, kde Krečmer obdržel stříbrnou medaili.",
+    "citation-key": "kovarKapleNavstiveniPanny1913",
+    "container-title": "Sborník Historického kroužku",
+    "ISSN": "1803-3091",
+    "language": "cs",
+    "page": "181-188",
+    "publisher": "Družstvo Vlasť",
+    "publisher-place": "Praha",
+    "title": "Kaple navštívení Panny Marie ve Žďáře u Svijan: Náčrt historický",
+    "URL": "https://books.google.cz/books?id=tm0OAQAAMAAJ&pg=RA4-PA193",
+    "author": [
+      {
+        "family": "Kovář",
+        "given": "Matěj"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1913"
+        ]
+      ]
+    }
+  },
+  {
     "id": "turnerGerardMercatorsThree2005",
     "type": "article-journal",
     "abstract": "No scientific instruments made by Gerard Mercator (1512- 1594), the great cartographer, were known to exist, though it is recorded that he made astrolabes and other brass artefacts. In early 1992, the present author identified an unsigned astrolabe in Florence as being made in Mercstor's Duisburg workshop. By 1994, the 400th anniversary of Mercator's death, two further astrolabes had been identified as being by his hand. They are in museums in Augsburg and Brno. This paper describes the method of identifícation of these unsigned instruments, culminating in the discovery of Mercator's monogram on the rim of the astrolabe in Brno.",
@@ -2319,39 +2329,6 @@
       "date-parts": [
         [
           "1634"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "chatc3poWittgensteinsLogicalSpace2024",
-    "type": "post-weblog",
-    "abstract": "Wittgenstein’s major works include the “Tractatus Logico-Philosophicus” from his early period and “Philosophical Investigations” from his…",
-    "citation-key": "chatc3poWittgensteinsLogicalSpace2024",
-    "container-title": "Medium",
-    "title": "Wittgenstein’s Logical Space and the Embedding Space of LLMs",
-    "URL": "https://medium.com/@chatc3po/wittgensteins-logical-space-and-the-embedding-space-of-llms-37b6d452e702",
-    "author": [
-      {
-        "family": "ChatC3PO",
-        "given": ""
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2025",
-          10,
-          26
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "2024",
-          5,
-          26
         ]
       ]
     }
@@ -2817,6 +2794,23 @@
       "date-parts": [
         [
           "1911"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "RakouskouherskyPatent18951895",
+    "type": "article-journal",
+    "citation-key": "RakouskouherskyPatent18951895",
+    "container-title": "Privilegium č",
+    "issue": "5963",
+    "note": "Rakouský patentový úřad — Kaiserliches Patent-Privilegien-Archiv. Privilegium č. 5963/1895 [online]. Wien: Österreichisches Patentamt [cit. 2026-05-01]. Dostupné z: https://privilegien.patentamt.at/image/1895_005963/1/ — naskenovaný originál patentového spisu.\n\nOriginal-Type: pdf\nCSH-Sources: content/hodinari/edmund-kinsner.mdx",
+    "title": "Rakousko-uherský patent č. 1895/5963 — privilegium",
+    "URL": "https://privilegien.patentamt.at/image/1895_005963/1/",
+    "issued": {
+      "date-parts": [
+        [
+          "1895"
         ]
       ]
     }
@@ -3542,33 +3536,6 @@
       "date-parts": [
         [
           "1880"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "DescriptionDuneHorloge1822",
-    "type": "article-journal",
-    "abstract": "Popis litinových veřejných hodin, které vyrobil pan Wagner, hodinář ~ mechanik, rue du Cadran n° 39, a Paris.",
-    "citation-key": "DescriptionDuneHorloge1822",
-    "container-title": "Bulletin de la société d’encouragement pour l’industrie nationale.",
-    "page": "46-53",
-    "title": "Description d'une horloge publique en jer fondu , exécutée par m. Wagner , horloger ~ mécanicien , rue du Cadran n° 39, a Paris",
-    "URL": "https://cnum.cnam.fr/pgi/fpage.php?BSPI.21/48/100/449/18/405",
-    "volume": "21",
-    "accessed": {
-      "date-parts": [
-        [
-          "2024",
-          3,
-          16
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "1822"
         ]
       ]
     }
@@ -6307,6 +6274,39 @@
     }
   },
   {
+    "id": "chatc3poWittgensteinsLogicalSpace2024",
+    "type": "post-weblog",
+    "abstract": "Wittgenstein’s major works include the “Tractatus Logico-Philosophicus” from his early period and “Philosophical Investigations” from his…",
+    "citation-key": "chatc3poWittgensteinsLogicalSpace2024",
+    "container-title": "Medium",
+    "title": "Wittgenstein’s Logical Space and the Embedding Space of LLMs",
+    "URL": "https://medium.com/@chatc3po/wittgensteins-logical-space-and-the-embedding-space-of-llms-37b6d452e702",
+    "author": [
+      {
+        "family": "ChatC3PO",
+        "given": ""
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          10,
+          26
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          5,
+          26
+        ]
+      ]
+    }
+  },
+  {
     "id": "meadowsArtificialIntelligencePractice2023",
     "type": "article-journal",
     "abstract": "Forum discussing methodological and epistemological implications of AI on historical practice.",
@@ -8251,6 +8251,33 @@
     }
   },
   {
+    "id": "DescriptionDuneHorloge1822",
+    "type": "article-journal",
+    "abstract": "Popis litinových veřejných hodin, které vyrobil pan Wagner, hodinář ~ mechanik, rue du Cadran n° 39, a Paris.",
+    "citation-key": "DescriptionDuneHorloge1822",
+    "container-title": "Bulletin de la société d’encouragement pour l’industrie nationale.",
+    "page": "46-53",
+    "title": "Description d'une horloge publique en jer fondu , exécutée par m. Wagner , horloger ~ mécanicien , rue du Cadran n° 39, a Paris",
+    "URL": "https://cnum.cnam.fr/pgi/fpage.php?BSPI.21/48/100/449/18/405",
+    "volume": "21",
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          3,
+          16
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "1822"
+        ]
+      ]
+    }
+  },
+  {
     "id": "PneumaticClock1879",
     "type": "article-journal",
     "abstract": "Meyerhoferův dopis, kde si nárokuje plné auorství.",
@@ -8328,38 +8355,6 @@
           "2008",
           11,
           1
-        ]
-      ]
-    }
-  },
-  {
-    "id": "toufarovaJezuiteArchitekturaCeske2020",
-    "type": "thesis",
-    "citation-key": "toufarovaJezuiteArchitekturaCeske2020",
-    "language": "cze",
-    "publisher": "Masarykova univerzita, Filozofická fakulta",
-    "source": "is.muni.cz",
-    "title": "Jezuité a architektura v české provincii v letech 1625 až 1675. Tradice a stavební praxe řádu na příkladu několika jezuitských kolejí.",
-    "URL": "https://is.muni.cz/th/dg9r0/",
-    "author": [
-      {
-        "family": "Toufarová",
-        "given": "Dana"
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2025",
-          9,
-          16
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "2020"
         ]
       ]
     }
@@ -10129,22 +10124,6 @@
       "date-parts": [
         [
           "2024"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "MilanC221Google",
-    "type": "webpage",
-    "citation-key": "MilanC221Google",
-    "title": "Milan C221 - Google Search",
-    "URL": "https://www.google.com/search?client=safari&rls=en&q=Milan+C221&ie=UTF-8&oe=UTF-8",
-    "accessed": {
-      "date-parts": [
-        [
-          "2025",
-          5,
-          5
         ]
       ]
     }
@@ -12066,6 +12045,38 @@
     }
   },
   {
+    "id": "toufarovaJezuiteArchitekturaCeske2020",
+    "type": "thesis",
+    "citation-key": "toufarovaJezuiteArchitekturaCeske2020",
+    "language": "cze",
+    "publisher": "Masarykova univerzita, Filozofická fakulta",
+    "source": "is.muni.cz",
+    "title": "Jezuité a architektura v české provincii v letech 1625 až 1675. Tradice a stavební praxe řádu na příkladu několika jezuitských kolejí.",
+    "URL": "https://is.muni.cz/th/dg9r0/",
+    "author": [
+      {
+        "family": "Toufarová",
+        "given": "Dana"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          9,
+          16
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
+    }
+  },
+  {
     "id": "Inzerat1880",
     "type": "article-journal",
     "citation-key": "Inzerat1880",
@@ -12393,24 +12404,6 @@
       "date-parts": [
         [
           "1799"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "KayserlicherUndKoeniglicher1747",
-    "type": "book",
-    "citation-key": "KayserlicherUndKoeniglicher1747",
-    "language": "de",
-    "note": "Google-Books-ID: mI9kAAAAcAAJ",
-    "number-of-pages": "544",
-    "publisher": "Johann Baptist Schönwetter",
-    "source": "Google Books",
-    "title": "Kayserlicher Und Königlicher Wie auch Ertzhertzoglicher Dann Dero Haupt- und Residentz-Stadt Wien Staats- und Standes-Calender, Auf das Gnaden-reiche Jahr ... Mit einem Schematismo gezieret. Cum privilegio Caesareo speciali",
-    "issued": {
-      "date-parts": [
-        [
-          "1747"
         ]
       ]
     }
@@ -14246,6 +14239,22 @@
     }
   },
   {
+    "id": "MilanC221Google",
+    "type": "webpage",
+    "citation-key": "MilanC221Google",
+    "title": "Milan C221 - Google Search",
+    "URL": "https://www.google.com/search?client=safari&rls=en&q=Milan+C221&ie=UTF-8&oe=UTF-8",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          5,
+          5
+        ]
+      ]
+    }
+  },
+  {
     "id": "schoenherrUrkundenUndRegesten1893",
     "type": "article-journal",
     "citation-key": "schoenherrUrkundenUndRegesten1893",
@@ -15638,34 +15647,6 @@
     }
   },
   {
-    "id": "ruthKronikaKralovskePrahy1996",
-    "type": "book",
-    "citation-key": "ruthKronikaKralovskePrahy1996",
-    "ISBN": "80-7106-130-1",
-    "number-of-pages": "993",
-    "publisher": "NLN, Nakladatelství Lidové noviny",
-    "publisher-place": "Praha",
-    "title": "Kronika královské Prahy a obcí sousedních, Díl 3: Purkyňova ulice - Žofín",
-    "URL": "https://www.digitalniknihovna.cz/mzk/uuid/uuid:698d9af0-b38f-11e3-bb86-005056825209",
-    "author": [
-      {
-        "family": "Ruth",
-        "given": "František"
-      },
-      {
-        "family": "Körber",
-        "given": "Pavel"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1996"
-        ]
-      ]
-    }
-  },
-  {
     "id": "pejml200LetMeteorologicke1975",
     "type": "book",
     "citation-key": "pejml200LetMeteorologicke1975",
@@ -16661,6 +16642,24 @@
     }
   },
   {
+    "id": "KayserlicherUndKoeniglicher1747",
+    "type": "book",
+    "citation-key": "KayserlicherUndKoeniglicher1747",
+    "language": "de",
+    "note": "Google-Books-ID: mI9kAAAAcAAJ",
+    "number-of-pages": "544",
+    "publisher": "Johann Baptist Schönwetter",
+    "source": "Google Books",
+    "title": "Kayserlicher Und Königlicher Wie auch Ertzhertzoglicher Dann Dero Haupt- und Residentz-Stadt Wien Staats- und Standes-Calender, Auf das Gnaden-reiche Jahr ... Mit einem Schematismo gezieret. Cum privilegio Caesareo speciali",
+    "issued": {
+      "date-parts": [
+        [
+          "1747"
+        ]
+      ]
+    }
+  },
+  {
     "id": "MuzeumGliwicach",
     "type": "webpage",
     "abstract": "Prezentacja zegarów",
@@ -16858,35 +16857,6 @@
           "1877",
           8,
           9
-        ]
-      ]
-    }
-  },
-  {
-    "id": "benoitEchappementsPendules1852",
-    "type": "patent",
-    "call-number": "13653",
-    "citation-key": "benoitEchappementsPendules1852",
-    "number": "1BB13653",
-    "publisher-place": "Paříž",
-    "title": "Échappements de pendules",
-    "URL": "https://archives.inpi.fr:443/ark:55749/1ef04195dae2698ab7af0050568c1d46.moteur=arko_default_63f395e1547dd",
-    "author": [
-      {
-        "family": "Benoit",
-        "given": "Francois Célestin"
-      },
-      {
-        "family": "Robert",
-        "given": "Léon Emile Adolphe"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1852",
-          7,
-          22
         ]
       ]
     }
@@ -19132,6 +19102,34 @@
     }
   },
   {
+    "id": "ruthKronikaKralovskePrahy1996",
+    "type": "book",
+    "citation-key": "ruthKronikaKralovskePrahy1996",
+    "ISBN": "80-7106-130-1",
+    "number-of-pages": "993",
+    "publisher": "NLN, Nakladatelství Lidové noviny",
+    "publisher-place": "Praha",
+    "title": "Kronika královské Prahy a obcí sousedních, Díl 3: Purkyňova ulice - Žofín",
+    "URL": "https://www.digitalniknihovna.cz/mzk/uuid/uuid:698d9af0-b38f-11e3-bb86-005056825209",
+    "author": [
+      {
+        "family": "Ruth",
+        "given": "František"
+      },
+      {
+        "family": "Körber",
+        "given": "Pavel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1996"
+        ]
+      ]
+    }
+  },
+  {
     "id": "schusterKrajskeMuseumKralupech1935",
     "type": "article-journal",
     "citation-key": "schusterKrajskeMuseumKralupech1935",
@@ -19402,31 +19400,6 @@
       "date-parts": [
         [
           "1839"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ruhlmannmoritzAllgemeineMaschinenlehre11875",
-    "type": "book",
-    "citation-key": "ruhlmannmoritzAllgemeineMaschinenlehre11875",
-    "language": "de",
-    "note": "Google-Books-ID: SG8S4GWM0QUC",
-    "number-of-pages": "682",
-    "publisher": "C.A. Schwetschke und Sohn",
-    "source": "Google Books",
-    "title": "Allgemeine Maschinenlehre: 1: Maschinen zum Messen und Zählen ...",
-    "title-short": "Allgemeine Maschinenlehre",
-    "author": [
-      {
-        "family": "Ruhlmann (Moritz)",
-        "given": ""
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1875"
         ]
       ]
     }
@@ -21593,6 +21566,35 @@
     }
   },
   {
+    "id": "benoitEchappementsPendules1852",
+    "type": "patent",
+    "call-number": "13653",
+    "citation-key": "benoitEchappementsPendules1852",
+    "number": "1BB13653",
+    "publisher-place": "Paříž",
+    "title": "Échappements de pendules",
+    "URL": "https://archives.inpi.fr:443/ark:55749/1ef04195dae2698ab7af0050568c1d46.moteur=arko_default_63f395e1547dd",
+    "author": [
+      {
+        "family": "Benoit",
+        "given": "Francois Célestin"
+      },
+      {
+        "family": "Robert",
+        "given": "Léon Emile Adolphe"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1852",
+          7,
+          22
+        ]
+      ]
+    }
+  },
+  {
     "id": "bendtNaturoekonomieUndKraftuebertragung1894",
     "type": "article-journal",
     "citation-key": "bendtNaturoekonomieUndKraftuebertragung1894",
@@ -22020,30 +22022,6 @@
         "given": "Zikmund"
       }
     ]
-  },
-  {
-    "id": "durdikStredovekeMechanickeHodiny1991",
-    "type": "article-journal",
-    "citation-key": "durdikStredovekeMechanickeHodiny1991",
-    "container-title": "Archaeologia historica",
-    "issue": "1",
-    "language": "cs",
-    "page": "345-355",
-    "title": "Středověké mechanické hodiny",
-    "volume": "16",
-    "author": [
-      {
-        "family": "Durdík",
-        "given": "Tomas"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1991"
-        ]
-      ]
-    }
   },
   {
     "id": "woldenbergTRACTATUSNOVUSPHILOLOGICOJURIDICUS1670",
@@ -23939,6 +23917,31 @@
     "title": "Kronika města Bakov nad Jizerou z let 1847 - 1958"
   },
   {
+    "id": "ruhlmannmoritzAllgemeineMaschinenlehre11875",
+    "type": "book",
+    "citation-key": "ruhlmannmoritzAllgemeineMaschinenlehre11875",
+    "language": "de",
+    "note": "Google-Books-ID: SG8S4GWM0QUC",
+    "number-of-pages": "682",
+    "publisher": "C.A. Schwetschke und Sohn",
+    "source": "Google Books",
+    "title": "Allgemeine Maschinenlehre: 1: Maschinen zum Messen und Zählen ...",
+    "title-short": "Allgemeine Maschinenlehre",
+    "author": [
+      {
+        "family": "Ruhlmann (Moritz)",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1875"
+        ]
+      ]
+    }
+  },
+  {
     "id": "AllgemeinesOrganFuer1839",
     "type": "book",
     "citation-key": "AllgemeinesOrganFuer1839",
@@ -24194,21 +24197,6 @@
       "date-parts": [
         [
           "2007"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "VindolandaCalendarFragment2013",
-    "type": "article-journal",
-    "citation-key": "VindolandaCalendarFragment2013",
-    "container-title": "CAMWS",
-    "page": "21-23",
-    "title": "Vindolanda “Calendar” Fragment and the Autumnal Equinox",
-    "issued": {
-      "date-parts": [
-        [
-          "2013"
         ]
       ]
     }
@@ -26534,6 +26522,30 @@
     }
   },
   {
+    "id": "durdikStredovekeMechanickeHodiny1991",
+    "type": "article-journal",
+    "citation-key": "durdikStredovekeMechanickeHodiny1991",
+    "container-title": "Archaeologia historica",
+    "issue": "1",
+    "language": "cs",
+    "page": "345-355",
+    "title": "Středověké mechanické hodiny",
+    "volume": "16",
+    "author": [
+      {
+        "family": "Durdík",
+        "given": "Tomas"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1991"
+        ]
+      ]
+    }
+  },
+  {
     "id": "ederer500LetPrazske",
     "type": "article-journal",
     "citation-key": "ederer500LetPrazske",
@@ -26569,45 +26581,6 @@
       "date-parts": [
         [
           "1549"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "jonesHipparchussComputationsSolar1991",
-    "type": "article-journal",
-    "citation-key": "jonesHipparchussComputationsSolar1991",
-    "container-title": "Journal for the History of Astronomy",
-    "DOI": "10.1177/002182869102200201",
-    "ISSN": "0021-8286, 1753-8556",
-    "issue": "2",
-    "journalAbbreviation": "Journal for the History of Astronomy",
-    "language": "en",
-    "page": "101-125",
-    "source": "DOI.org (Crossref)",
-    "title": "Hipparchus's Computations of Solar Longitudes",
-    "URL": "http://journals.sagepub.com/doi/10.1177/002182869102200201",
-    "volume": "22",
-    "author": [
-      {
-        "family": "Jones",
-        "given": "Alexander"
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2020",
-          3,
-          28
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "1991",
-          5
         ]
       ]
     }
@@ -29019,6 +28992,21 @@
     }
   },
   {
+    "id": "VindolandaCalendarFragment2013",
+    "type": "article-journal",
+    "citation-key": "VindolandaCalendarFragment2013",
+    "container-title": "CAMWS",
+    "page": "21-23",
+    "title": "Vindolanda “Calendar” Fragment and the Autumnal Equinox",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    }
+  },
+  {
     "id": "gorlaLorologioAstronomicoastrologicoDi1992",
     "type": "book",
     "citation-key": "gorlaLorologioAstronomicoastrologicoDi1992",
@@ -29480,14 +29468,6 @@
       ],
       "season": "7"
     }
-  },
-  {
-    "id": "DejepisMestaPrahy",
-    "type": "article-journal",
-    "citation-key": "DejepisMestaPrahy",
-    "page": "4",
-    "source": "Zotero",
-    "title": "Dějepis města Prahy."
   },
   {
     "id": "winterRemeslaKovajiciZelezo1909",
@@ -31499,6 +31479,45 @@
     }
   },
   {
+    "id": "jonesHipparchussComputationsSolar1991",
+    "type": "article-journal",
+    "citation-key": "jonesHipparchussComputationsSolar1991",
+    "container-title": "Journal for the History of Astronomy",
+    "DOI": "10.1177/002182869102200201",
+    "ISSN": "0021-8286, 1753-8556",
+    "issue": "2",
+    "journalAbbreviation": "Journal for the History of Astronomy",
+    "language": "en",
+    "page": "101-125",
+    "source": "DOI.org (Crossref)",
+    "title": "Hipparchus's Computations of Solar Longitudes",
+    "URL": "http://journals.sagepub.com/doi/10.1177/002182869102200201",
+    "volume": "22",
+    "author": [
+      {
+        "family": "Jones",
+        "given": "Alexander"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          28
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "1991",
+          5
+        ]
+      ]
+    }
+  },
+  {
     "id": "mozaffariLimitationsMethodsAccuracy2013",
     "type": "article-journal",
     "citation-key": "mozaffariLimitationsMethodsAccuracy2013",
@@ -31943,31 +31962,6 @@
       "date-parts": [
         [
           "1843"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "boehmenVerhandlungenVereinsZur1872",
-    "type": "book",
-    "citation-key": "boehmenVerhandlungenVereinsZur1872",
-    "language": "de",
-    "note": "Google-Books-ID: _CNpAAAAcAAJ",
-    "number-of-pages": "58",
-    "publisher": "Verlag des Vereines",
-    "source": "Google Books",
-    "title": "Verhandlungen des Vereins zur Ermunterung des Gewerbsgeistes in Böhmen im Vereinsjahre ...",
-    "author": [
-      {
-        "family": "Böhmen",
-        "given": "Verein zur Ermunterung des Gewerbsgeistes",
-        "dropping-particle": "in"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1872"
         ]
       ]
     }
@@ -34363,6 +34357,14 @@
     }
   },
   {
+    "id": "DejepisMestaPrahy",
+    "type": "article-journal",
+    "citation-key": "DejepisMestaPrahy",
+    "page": "4",
+    "source": "Zotero",
+    "title": "Dějepis města Prahy."
+  },
+  {
     "id": "ZakladyStarehoMistopisu",
     "type": "article-journal",
     "citation-key": "ZakladyStarehoMistopisu",
@@ -36700,6 +36702,31 @@
     }
   },
   {
+    "id": "boehmenVerhandlungenVereinsZur1872",
+    "type": "book",
+    "citation-key": "boehmenVerhandlungenVereinsZur1872",
+    "language": "de",
+    "note": "Google-Books-ID: _CNpAAAAcAAJ",
+    "number-of-pages": "58",
+    "publisher": "Verlag des Vereines",
+    "source": "Google Books",
+    "title": "Verhandlungen des Vereins zur Ermunterung des Gewerbsgeistes in Böhmen im Vereinsjahre ...",
+    "author": [
+      {
+        "family": "Böhmen",
+        "given": "Verein zur Ermunterung des Gewerbsgeistes",
+        "dropping-particle": "in"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1872"
+        ]
+      ]
+    }
+  },
+  {
     "id": "petrskalaZaverecnaZpravaRestaurovani2021",
     "type": "document",
     "citation-key": "petrskalaZaverecnaZpravaRestaurovani2021",
@@ -36903,30 +36930,6 @@
     ]
   },
   {
-    "id": "valsecchiFamigliaDondiDallorologio1878",
-    "type": "chapter",
-    "citation-key": "valsecchiFamigliaDondiDallorologio1878",
-    "container-title": "Ateneo veneto: Rivista mensile",
-    "language": "it",
-    "note": "Google-Books-ID: XnnNAAAAMAAJ",
-    "page": "21–32",
-    "source": "Google Books",
-    "title": "Della famiglia Dondi dall'orologio e specialmente dei due piu’ illustri suoi membri memoria",
-    "author": [
-      {
-        "family": "Valsecchi",
-        "given": "Antonio"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1878"
-        ]
-      ]
-    }
-  },
-  {
     "id": "cortiTrascrizioneDiFernando",
     "type": "article-journal",
     "citation-key": "cortiTrascrizioneDiFernando",
@@ -37075,41 +37078,6 @@
       "date-parts": [
         [
           "1972"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "schwalmPossibleImpactEIDAS2023",
-    "type": "article-journal",
-    "abstract": "eIDAS 2.0 introduces the EU Digital Wallet as the eID mean including not only the PID (eID Scheme) but also additional attributes like (qualified) attestation of attributes and gives the control over its identity back to the user in regulated approach. This means that eIDAS 2.0 gives the possibility to provide legal trust on decentralized digital identities in self-sovereign manner by combining existing trust model from eIDAS 1.0 with SSI-approach. The paper describes based on the legal proposal possible impacts of eIDAS 2.0 on German and European identity and trust services in order to provide framework for trustworthy digital transactions in EU and EFTA",
-    "citation-key": "schwalmPossibleImpactEIDAS2023",
-    "DOI": "10.18420/OID2023_09",
-    "language": "en",
-    "note": "ISBN: 9783885797296",
-    "publisher": "Gesellschaft für Informatik e.V.",
-    "source": "DOI.org (Datacite)",
-    "title": "The possible impact s of the eIDAS 2.0 digital identity approach in Germany and Europe",
-    "URL": "http://dl.gi.de/handle/20.500.12116/41697",
-    "author": [
-      {
-        "family": "Schwalm",
-        "given": "Steffen"
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2025",
-          1,
-          10
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "2023"
         ]
       ]
     }
@@ -38495,6 +38463,30 @@
     }
   },
   {
+    "id": "valsecchiFamigliaDondiDallorologio1878",
+    "type": "chapter",
+    "citation-key": "valsecchiFamigliaDondiDallorologio1878",
+    "container-title": "Ateneo veneto: Rivista mensile",
+    "language": "it",
+    "note": "Google-Books-ID: XnnNAAAAMAAJ",
+    "page": "21–32",
+    "source": "Google Books",
+    "title": "Della famiglia Dondi dall'orologio e specialmente dei due piu’ illustri suoi membri memoria",
+    "author": [
+      {
+        "family": "Valsecchi",
+        "given": "Antonio"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1878"
+        ]
+      ]
+    }
+  },
+  {
     "id": "VerhandlungenGeneraldirectionMit1872",
     "type": "article-journal",
     "citation-key": "VerhandlungenGeneraldirectionMit1872",
@@ -38595,31 +38587,6 @@
       "date-parts": [
         [
           "1896"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "turnerRenaissanceAstrolabesTheir2003",
-    "type": "book",
-    "abstract": "This book is about the archaeology of science, or what can be learnt from the systematic examination of the artefacts made by precision craftsmen for the study of the natural world. An international authority on historical scientific instruments, Gerard Turner has collected here his essays on European astrolabes and related topics. By 1600 the astrolabe had nearly ceased to be made and used in the West, and before that date there was little of the source material for the study of instruments that exists for more modern times. It is necessary to 'read' the instruments themselves, and astrolabes in particular are rich in all sorts of information, mathematical, astronomical, metallurgical, in addition to what they can reveal about craftsmanship, the existence of workshops, and economic and social conditions. There is a strong forensic element in instrument research, and Gerard Turner's achievements include the identification of three astrolabes made by Gerard Mercator, all of whose instruments were thought to have been destroyed. Other essays deal with the discovery of an important late 16th-century Florentine workshop, and of a group of mid-15th-century German astrolabes linked to Regiomontanus.",
-    "citation-key": "turnerRenaissanceAstrolabesTheir2003",
-    "ISBN": "978-1-003-55601-5",
-    "language": "en",
-    "license": "This edition copyright © 2003 by Gerard L’E. Turner. All rights reserved. No part of this book may be reprinted or reproduced or utilised in any form or by any electronic, mechanical, or other means, now known or hereafter invented, including photocopying and recording, or in any information storage or retrieval system, without permission in writing from the publishers.",
-    "note": "Item ID: _:n1\ncontainer-title: urn:isbn:9780860789031",
-    "publisher": "Routledge",
-    "title": "Renaissance Astrolabes and their Makers",
-    "author": [
-      {
-        "family": "Turner",
-        "given": "Gerard L’E"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2003"
         ]
       ]
     }
@@ -40567,6 +40534,41 @@
     }
   },
   {
+    "id": "schwalmPossibleImpactEIDAS2023",
+    "type": "article-journal",
+    "abstract": "eIDAS 2.0 introduces the EU Digital Wallet as the eID mean including not only the PID (eID Scheme) but also additional attributes like (qualified) attestation of attributes and gives the control over its identity back to the user in regulated approach. This means that eIDAS 2.0 gives the possibility to provide legal trust on decentralized digital identities in self-sovereign manner by combining existing trust model from eIDAS 1.0 with SSI-approach. The paper describes based on the legal proposal possible impacts of eIDAS 2.0 on German and European identity and trust services in order to provide framework for trustworthy digital transactions in EU and EFTA",
+    "citation-key": "schwalmPossibleImpactEIDAS2023",
+    "DOI": "10.18420/OID2023_09",
+    "language": "en",
+    "note": "ISBN: 9783885797296",
+    "publisher": "Gesellschaft für Informatik e.V.",
+    "source": "DOI.org (Datacite)",
+    "title": "The possible impact s of the eIDAS 2.0 digital identity approach in Germany and Europe",
+    "URL": "http://dl.gi.de/handle/20.500.12116/41697",
+    "author": [
+      {
+        "family": "Schwalm",
+        "given": "Steffen"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          1,
+          10
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
+    }
+  },
+  {
     "id": "taborskyzklokotskehoryZpravaOrlojiStaromestkem1570",
     "type": "manuscript",
     "abstract": "Původní rukopis",
@@ -41737,6 +41739,31 @@
           "2024",
           11,
           9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "turnerRenaissanceAstrolabesTheir2003",
+    "type": "book",
+    "abstract": "This book is about the archaeology of science, or what can be learnt from the systematic examination of the artefacts made by precision craftsmen for the study of the natural world. An international authority on historical scientific instruments, Gerard Turner has collected here his essays on European astrolabes and related topics. By 1600 the astrolabe had nearly ceased to be made and used in the West, and before that date there was little of the source material for the study of instruments that exists for more modern times. It is necessary to 'read' the instruments themselves, and astrolabes in particular are rich in all sorts of information, mathematical, astronomical, metallurgical, in addition to what they can reveal about craftsmanship, the existence of workshops, and economic and social conditions. There is a strong forensic element in instrument research, and Gerard Turner's achievements include the identification of three astrolabes made by Gerard Mercator, all of whose instruments were thought to have been destroyed. Other essays deal with the discovery of an important late 16th-century Florentine workshop, and of a group of mid-15th-century German astrolabes linked to Regiomontanus.",
+    "citation-key": "turnerRenaissanceAstrolabesTheir2003",
+    "ISBN": "978-1-003-55601-5",
+    "language": "en",
+    "license": "This edition copyright © 2003 by Gerard L’E. Turner. All rights reserved. No part of this book may be reprinted or reproduced or utilised in any form or by any electronic, mechanical, or other means, now known or hereafter invented, including photocopying and recording, or in any information storage or retrieval system, without permission in writing from the publishers.",
+    "note": "Item ID: _:n1\ncontainer-title: urn:isbn:9780860789031",
+    "publisher": "Routledge",
+    "title": "Renaissance Astrolabes and their Makers",
+    "author": [
+      {
+        "family": "Turner",
+        "given": "Gerard L’E"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2003"
         ]
       ]
     }
@@ -45860,24 +45887,6 @@
     }
   },
   {
-    "id": "Erinerung1881",
-    "type": "manuscript",
-    "archive": "SOkA Olomouc",
-    "archive_location": "AM Olomouc, reg. 1874–1920",
-    "citation-key": "Erinerung1881",
-    "source": "karton č. 705",
-    "title": "Erinerung",
-    "issued": {
-      "date-parts": [
-        [
-          "1881",
-          10,
-          29
-        ]
-      ]
-    }
-  },
-  {
     "id": "SmrzJiriCechy",
     "type": "webpage",
     "citation-key": "SmrzJiriCechy",
@@ -46884,6 +46893,24 @@
       "date-parts": [
         [
           "1873"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "Erinerung1881",
+    "type": "manuscript",
+    "archive": "SOkA Olomouc",
+    "archive_location": "AM Olomouc, reg. 1874–1920",
+    "citation-key": "Erinerung1881",
+    "source": "karton č. 705",
+    "title": "Erinerung",
+    "issued": {
+      "date-parts": [
+        [
+          "1881",
+          10,
+          29
         ]
       ]
     }
@@ -51094,29 +51121,6 @@
     }
   },
   {
-    "id": "knesplFrankJutzi2015",
-    "type": "article-magazine",
-    "citation-key": "knesplFrankJutzi2015",
-    "container-title": "WatchIt!",
-    "issue": "21",
-    "license": "All rights reserved",
-    "page": "86-91",
-    "title": "Frank Jutzi",
-    "author": [
-      {
-        "family": "Knespl",
-        "given": "David"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2015"
-        ]
-      ]
-    }
-  },
-  {
     "id": "ObjetosArte1989",
     "type": "book",
     "citation-key": "ObjetosArte1989",
@@ -52835,24 +52839,24 @@
     }
   },
   {
-    "id": "kubitschekGrundrissAntikenZeitrechnung1928",
-    "type": "book",
-    "citation-key": "kubitschekGrundrissAntikenZeitrechnung1928",
-    "collection-title": "Einleitende und Hilfsdisziplinen",
-    "note": "issue: díl 1,sv. 7",
-    "publisher": "Beck",
-    "title": "Grundriss der antiken Zeitrechnung",
-    "URL": "https://books.google.cz/books?id=wVNJAAAAYAAJ",
+    "id": "knesplFrankJutzi2015",
+    "type": "article-magazine",
+    "citation-key": "knesplFrankJutzi2015",
+    "container-title": "WatchIt!",
+    "issue": "21",
+    "license": "All rights reserved",
+    "page": "86-91",
+    "title": "Frank Jutzi",
     "author": [
       {
-        "family": "Kubitschek",
-        "given": "W."
+        "family": "Knespl",
+        "given": "David"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          "1928"
+          "2015"
         ]
       ]
     }
@@ -53604,6 +53608,29 @@
       "date-parts": [
         [
           "1996"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "kubitschekGrundrissAntikenZeitrechnung1928",
+    "type": "book",
+    "citation-key": "kubitschekGrundrissAntikenZeitrechnung1928",
+    "collection-title": "Einleitende und Hilfsdisziplinen",
+    "note": "issue: díl 1,sv. 7",
+    "publisher": "Beck",
+    "title": "Grundriss der antiken Zeitrechnung",
+    "URL": "https://books.google.cz/books?id=wVNJAAAAYAAJ",
+    "author": [
+      {
+        "family": "Kubitschek",
+        "given": "W."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1928"
         ]
       ]
     }
@@ -55785,26 +55812,6 @@
     }
   },
   {
-    "id": "dentonRevolutionibus2007",
-    "type": "document",
-    "citation-key": "dentonRevolutionibus2007",
-    "title": "De Revolutionibus",
-    "URL": "http://www.frbr.org/2007/02/22/de-revolutionibus",
-    "author": [
-      {
-        "family": "Denton",
-        "given": "William"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2007"
-        ]
-      ]
-    }
-  },
-  {
     "id": "zarjaCasiNarucnijeKvarcevije",
     "type": "book",
     "citation-key": "zarjaCasiNarucnijeKvarcevije",
@@ -57338,17 +57345,24 @@
     }
   },
   {
-    "id": "huijunAstrology",
+    "id": "dentonRevolutionibus2007",
     "type": "document",
-    "citation-key": "huijunAstrology",
-    "note": "page: 1-45",
-    "title": "Astrology in the",
+    "citation-key": "dentonRevolutionibus2007",
+    "title": "De Revolutionibus",
+    "URL": "http://www.frbr.org/2007/02/22/de-revolutionibus",
     "author": [
       {
-        "family": "Huijun",
-        "given": "Chen"
+        "family": "Denton",
+        "given": "William"
       }
-    ]
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2007"
+        ]
+      ]
+    }
   },
   {
     "id": "hvezdrarnavalasskemeziriciAstronomieProVsechny2008",
@@ -59714,24 +59728,17 @@
     }
   },
   {
-    "id": "karneyBasicSolarPositional2014",
-    "type": "report",
-    "citation-key": "karneyBasicSolarPositional2014",
-    "page": "1-25",
-    "title": "Basic Solar Positional Astronomy Part 1: Essential Parameters and the Equation of Time",
+    "id": "huijunAstrology",
+    "type": "document",
+    "citation-key": "huijunAstrology",
+    "note": "page: 1-45",
+    "title": "Astrology in the",
     "author": [
       {
-        "family": "Karney",
-        "given": "Kevin"
+        "family": "Huijun",
+        "given": "Chen"
       }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2014"
-        ]
-      ]
-    }
+    ]
   },
   {
     "id": "boardSourcesStudiesHistory",
@@ -60089,6 +60096,26 @@
       "date-parts": [
         [
           "1850"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "karneyBasicSolarPositional2014",
+    "type": "report",
+    "citation-key": "karneyBasicSolarPositional2014",
+    "page": "1-25",
+    "title": "Basic Solar Positional Astronomy Part 1: Essential Parameters and the Equation of Time",
+    "author": [
+      {
+        "family": "Karney",
+        "given": "Kevin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
         ]
       ]
     }
@@ -61831,20 +61858,6 @@
     }
   },
   {
-    "id": "vuExtractionStructuredData",
-    "type": "article-journal",
-    "citation-key": "vuExtractionStructuredData",
-    "language": "en",
-    "source": "Zotero",
-    "title": "Extraction of Structured Data from Czech Invoices",
-    "author": [
-      {
-        "family": "Vu",
-        "given": "Milan"
-      }
-    ]
-  },
-  {
     "id": "GeschichteKarlsteinerUhrmacherei",
     "type": "webpage",
     "abstract": "Die Geschichte der Karlsteiner Uhrmacherei:Da die...",
@@ -62466,6 +62479,20 @@
         ]
       ]
     }
+  },
+  {
+    "id": "vuExtractionStructuredData",
+    "type": "article-journal",
+    "citation-key": "vuExtractionStructuredData",
+    "language": "en",
+    "source": "Zotero",
+    "title": "Extraction of Structured Data from Czech Invoices",
+    "author": [
+      {
+        "family": "Vu",
+        "given": "Milan"
+      }
+    ]
   },
   {
     "id": "HodinarstviENCYKLOPEDIECESKUCH",
