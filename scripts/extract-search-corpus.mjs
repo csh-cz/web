@@ -105,10 +105,37 @@ function buildUrl(collection, slug, data) {
   return `/clanky/${slug}`;
 }
 
+/** Sestaví human-readable title podle kolekce.
+ *  - clanky/karty/hodinari/kronika: data.title field je v frontmatteru
+ *  - soupis: NEMÁ title field → vyrobíme z puvodniMisto + rok
+ *    např. "Bychory, kostel sv. Václava (1868)" nebo "Loukov (1848)" */
+function buildTitle(collection, data, slug) {
+  if (data.title) return String(data.title);
+
+  if (collection === 'soupis' && data.puvodniMisto) {
+    const obec = data.puvodniMisto.obec;
+    const budova = data.puvodniMisto.budova;
+    const rok = data.rok != null ? ` (${data.rok})` : '';
+    if (obec && budova) return `${obec}, ${budova}${rok}`;
+    if (obec) return `${obec}${rok}`;
+  }
+  return slug;
+}
+
 /** Vytáhne summary podle kolekce — jiná pole pro různé schémata. */
 function extractSummary(collection, data) {
   if (collection === 'hodinari') return data.shrnuti ?? '';
-  if (collection === 'soupis') return data.poznamka ?? '';
+  if (collection === 'soupis') {
+    // Soupis nemá summary field — composujeme z relevantních atributů,
+    // aby search excerpt nebyl prázdný / matoucí.
+    if (data.poznamka) return String(data.poznamka);
+    const parts = [];
+    if (data.hodinar || data.hodinarText) parts.push(`Hodinář: ${data.hodinar || data.hodinarText}`);
+    if (data.krok) parts.push(`krok ${data.krok}`);
+    if (data.stav && data.stav !== 'neznamy') parts.push(`stav: ${data.stav}`);
+    if (data.rok) parts.push(`rok ${data.rok}`);
+    return parts.join(', ') || 'Záznam v Soupisu věžních hodin';
+  }
   if (collection === 'kronika') return data.title ?? '';
   // clanky: tldr fallback na excerpt z body (TODO: build-time excerpt v catalog.json)
   return data.tldr ?? '';
@@ -178,7 +205,7 @@ function processCollection(collection, dirRel) {
     if (!data || !data.slug) continue;
     if (data.draft === true) continue;
     const slug = String(data.slug);
-    const title = String(data.title ?? slug);
+    const title = buildTitle(collection, data, slug);
     const body = stripMarkdown(split.body).slice(0, MAX_BODY_CHARS);
     const url = buildUrl(collection, slug, data);
     const summary = extractSummary(collection, data);
