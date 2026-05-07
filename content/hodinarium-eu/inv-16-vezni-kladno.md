@@ -31,6 +31,6 @@ karta:
 
 Hodiny jsou prací hodináře, zřejmě seznámeného s výrobky pražského hodináře Londenspergera. Podle způsobu zpracování lze odhadovat dobu vzniku na první polovinu 19. století. Kovaný rám je spojován klínky, rovněž i spoje pák a hřídelí. Některé detaily jsou podobné, jako na hodinách Michaela Christa.
 
-Stroj se skládá ze tří částí, jednu tvoří jicí stroj v prostředku rámu, po stranách je stroj čtvrťového bití a odbíjení celých hodin. Stroj má Grahamův krok, řízený nepůvodním kyvadlem, které bylo zhotoveno pro účely předvedení funkce. Původní kyvadlo měří 2,7m. K hodinám se též zachovala původní závaží, která nejsou osazena.
+Stroj se skládá ze tří částí, jednu tvoří jicí stroj v prostředku rámu, po stranách je stroj čtvrťového bití a odbíjení celých hodin. Stroj má **[Grahamův](/kroky/grahamuv-krok)** krok, řízený nepůvodním kyvadlem, které bylo zhotoveno pro účely předvedení funkce. Původní kyvadlo měří 2,7m. K hodinám se též zachovala původní závaží, která nejsou osazena.
 
 Hodiny údajně pocházejí ze zámku v Kladně.

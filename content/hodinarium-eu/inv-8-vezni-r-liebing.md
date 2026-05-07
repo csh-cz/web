@@ -31,6 +31,6 @@ karta:
     typObjektu: "radnice"
 ---
 
-Hodinový stroj byl původně osazen v budově bývalé děčínské radnice (nyní Okresní soud). Má dva bicí stroje – čtvrťový a hodinový. Konstrukce obou těchto strojů je zajímavá, používá šnekový převod na větrníky, čímž se převodové soukolí zjednoduší. Stroj jicí má krokový mechanismus s klidovým krokem (krok Grahamův s kotvou krátkoramennou). Rám hodin je masivní, litinový – dva základní díly jsou spojeny rozpěrnými sloupky. Hodiny přes tyč s Kardanovým kloubem ovládaly zvláštní bicí mechanizmus, který zvonil čtyřikrát během 24 hodin.
+Hodinový stroj byl původně osazen v budově bývalé děčínské radnice (nyní Okresní soud). Má dva bicí stroje – čtvrťový a hodinový. Konstrukce obou těchto strojů je zajímavá, používá šnekový převod na větrníky, čímž se převodové soukolí zjednoduší. Stroj jicí má krokový mechanismus s klidovým krokem (krok **[Grahamův](/kroky/grahamuv-krok)** s kotvou krátkoramennou). Rám hodin je masivní, litinový – dva základní díly jsou spojeny rozpěrnými sloupky. Hodiny přes tyč s Kardanovým kloubem ovládaly zvláštní bicí mechanizmus, který zvonil čtyřikrát během 24 hodin.
 
 Věžní hodiny jsou signovány [Richard Liebing](/hodinari/richard-liebing), Wien. Firma působila ve Vídni na konci 19. století.

@@ -24,7 +24,7 @@ karta:
   krokJicihoStroje: "kotvový krok"
 ---
 
-Hodinový stroj je uložen ve zdobném litinovém rámu. Sestává ze dvou soukolí: jicího a bicího. Jicí stroj má vratný kotvový krok ( Clementův).
+Hodinový stroj je uložen ve zdobném litinovém rámu. Sestává ze dvou soukolí: jicího a bicího. Jicí stroj má vratný **[kotvový krok](/kroky/kotvovy-krok)** ( Clementův).
 
 Bicí stroj je zajímavý málo užívaným umístěním větrníku kolmo na stroj. Na obou stranách kola lanového bubnu jsou osazeny zdvihací kolíky. Jedna strana je určená pro odbíjení celých hodin, druhá pro odbíjení půlí. Je to řízeno vačkou na lanovém bubnu hodinového stroje. Vačka pohybuje táhlem, které přesouvá tyč se zdvihacími palci tak, aby v půl byly v záběru kolíky na jedné straně, a v celou kolíky na druhé straně lanového bubnu. V soukolí chybí početník s pastorkem.
 

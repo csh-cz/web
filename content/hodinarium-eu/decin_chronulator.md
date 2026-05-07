@@ -12,7 +12,7 @@ Slovem chronulátor se označují hodiny, které čas ukazují pomocí systémů
 
 ## Chronulátor konstrukce Kavalír
 
-Pro Hodinárium byly zkonstruovány a vyrobeny retrográdní hodiny z voltmetrů pocházejícím z aukce na Aukru. Díky pěti voltmetrům mohou ukazovat mnohem více údajů. Voltmetry pocházející ze sovětského servisního přístroje asi z padesátých let. Doplněna byla ovládací elektronika s mikroprocesorem a voltmetry byly namontovány do nové skříně.
+Pro Hodinárium byly zkonstruovány a vyrobeny **[retrográdní](/kroky/retrogradni-zobrazovani)** hodiny z voltmetrů pocházejícím z aukce na Aukru. Díky pěti voltmetrům mohou ukazovat mnohem více údajů. Voltmetry pocházející ze sovětského servisního přístroje asi z padesátých let. Doplněna byla ovládací elektronika s mikroprocesorem a voltmetry byly namontovány do nové skříně.
 
 ![chronulátor konstrukce Kavalír](/img/decin/chronulator/ret1.jpg)
 
