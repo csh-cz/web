@@ -28,11 +28,20 @@ const SITES = [
 
 interface Bug {
   url: string;
-  type: 'broken-image' | 'broken-link' | 'js-error' | 'failed-request' | 'no-h1' | 'multiple-h1' | 'missing-title' | 'http-error';
+  type: 'broken-image' | 'broken-link' | 'js-error' | 'failed-request' | 'no-h1' | 'multiple-h1' | 'missing-title' | 'http-error' | 'page-404';
   detail: string;
 }
 
-async function discoverPages(base: string, maxPages = 250): Promise<string[]> {
+// URL koncovky které NIKDY nejsou stránky — crawler je nesmí navštěvovat
+// jako page.goto(), protože pak zaznamená "no-h1" / "missing-title" pro
+// statické assety, což je false positive (viz BUGS.md 2026-04-28).
+const NON_PAGE_EXTS = /\.(jpg|jpeg|png|gif|webp|avif|svg|ico|pdf|zip|mp3|mp4|webm|woff2?|ttf|eot|css|js|json|xml|txt)(\?|$)/i;
+
+function isPageUrl(url: string): boolean {
+  return !NON_PAGE_EXTS.test(url);
+}
+
+async function discoverPages(base: string, maxPages = 500): Promise<string[]> {
   const browser = await chromium.launch();
   const page = await browser.newPage();
   const found = new Set<string>([base + '/']);
@@ -53,6 +62,7 @@ async function discoverPages(base: string, maxPages = 250): Promise<string[]> {
       for (const link of links) {
         if (!link.startsWith(base)) continue;
         const cleanUrl = link.split('#')[0];
+        if (!isPageUrl(cleanUrl)) continue; // skip statické assety
         if (!found.has(cleanUrl) && cleanUrl.length < 200) {
           found.add(cleanUrl);
           queue.push(cleanUrl);
@@ -70,12 +80,15 @@ async function testPage(url: string, base: string): Promise<Bug[]> {
   const browser = await chromium.launch();
   const page = await browser.newPage();
   const bugs: Bug[] = [];
+  const seenFailedReqs = new Set<string>(); // dedup per page
 
   // Console errors
   page.on('console', (msg) => {
     if (msg.type() === 'error') {
       const text = msg.text();
       if (text.includes('favicon')) return;
+      // Suppress „Failed to load resource: 404" — already captured by response handler
+      if (/failed to load resource.*40[34]/i.test(text)) return;
       bugs.push({ url, type: 'js-error', detail: text.slice(0, 200) });
     }
   });
@@ -84,25 +97,37 @@ async function testPage(url: string, base: string): Promise<Bug[]> {
     bugs.push({ url, type: 'js-error', detail: err.message.slice(0, 200) });
   });
 
-  // Network failures
+  // Network failures (sub-resources). Skip 3xx (Playwright follows redirects).
   page.on('response', (res) => {
-    if (res.status() >= 400) {
-      const u = res.url();
-      const isImg = /\.(jpg|jpeg|png|gif|webp|svg)/i.test(u);
-      bugs.push({
-        url,
-        type: isImg ? 'broken-image' : 'failed-request',
-        detail: `${res.status()} ${u.replace(base, '')}`,
-      });
-    }
+    const status = res.status();
+    if (status < 400 || status >= 600) return;
+    if (res.url() === url) return; // top-level handled below
+    const u = res.url().replace(base, '');
+    if (seenFailedReqs.has(u)) return; // dedup
+    seenFailedReqs.add(u);
+    const isImg = /\.(jpg|jpeg|png|gif|webp|avif|svg)/i.test(u);
+    bugs.push({
+      url,
+      type: isImg ? 'broken-image' : 'failed-request',
+      detail: `${status} ${u}`,
+    });
   });
 
   try {
     const res = await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
     if (!res) {
       bugs.push({ url, type: 'http-error', detail: 'no response' });
-    } else if (!res.ok() && res.status() !== 404) {
-      bugs.push({ url, type: 'http-error', detail: `HTTP ${res.status()}` });
+      return bugs;
+    }
+    const finalStatus = res.status();
+    if (finalStatus === 404) {
+      // 404 stránka — žádný smysl kontrolovat title/h1 (404 layout je validní bez h1)
+      bugs.push({ url, type: 'page-404', detail: `${finalStatus} ${res.url().replace(base, '')}` });
+      return bugs;
+    }
+    if (finalStatus >= 400) {
+      bugs.push({ url, type: 'http-error', detail: `HTTP ${finalStatus}` });
+      return bugs;
     }
 
     // Title
