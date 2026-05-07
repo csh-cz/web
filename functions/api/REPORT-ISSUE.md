@@ -25,13 +25,18 @@ a vrátí číslo + URL issue. Editor vidí potvrzení s odkazem.
 
 ### 1. Cloudflare Access policy
 
-`/api/report-issue` musí být v té samé Access app coverage jako `/admin/*`
-a `/api/cms/*`. Bez toho `Cf-Access-Authenticated-User-Email` header
-se nedoručí a endpoint vrátí 401 i pro přihlášené editory.
+**Není povinné**, ale doporučené pro lepší výkon. Endpoint má dvojí auth:
 
-V Cloudflare dash → Zero Trust → Access → Applications → ČSH editor app
-→ Application path: ujisti se že existuje rule pokrývající
-`hodinarium-eu.pages.dev/api/report-issue`.
+1. **Fast path** — pokud `/api/report-issue` je v CF Access policy
+   coverage, CF doručí `Cf-Access-Authenticated-User-Email` header přímo.
+2. **Fallback** — když header chybí, endpoint server-side proxy fetchne
+   `/api/cms/auth/user` (který v Access coverage je) s forward-nutými
+   cookies a získá email z odpovědi. +1 HTTP roundtrip (~50 ms).
+
+Pro fast path: dash → Zero Trust → Access → Applications → ČSH editor
+app → Application path: přidej rule pokrývající
+`hodinarium-eu.pages.dev/api/report-issue`. Bez toho fallback funguje
+bez změny — uživatel pozná jen mírně delší odezvu.
 
 ### 2. GitHub PAT (pokud ještě není)
 
