@@ -1634,6 +1634,19 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: [],
     era: 'prelom',
   },
+  {
+    slug: 'milos-flossmann',
+    jmeno: 'Miloš Flossmann',
+    aliasy: ['Miloš Flossmann', 'M. Flossmann', 'Flossmann Ostrov'],
+    typ: 'osoba',
+    obdobi: 'akt. ~2014–dosud',
+    mesto: 'Ostrov',
+    zeme: 'CZ',
+    shrnuti:
+      'Hodinář a restaurátor věžních hodin z Ostrova (Karlovarský kraj). V letech 2013–2014 zrestauroval ručně kovaný věžní stroj z počátku 17. století z kostela sv. Jakuba Většího v Pomezí nad Ohří — stroj prošel dle dochovaných stop nejméně třemi přestavbami kroku (lihýřový → vřetenový → kotvový s kyvadlem).',
+    relatedSlugs: [],
+    era: 'soucasnost',
+  },
 ];
 
 export const hodinariBySlug = new Map(hodinari.map((h) => [h.slug, h]));
