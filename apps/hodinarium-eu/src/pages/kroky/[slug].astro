@@ -70,6 +70,21 @@ const related = krok.relatedSlugs
       <h2>Charakteristika</h2>
       <p>{krok.charakteristika}</p>
 
+      {krok.images && krok.images.length > 0 && (
+        <section class="krok-images" aria-labelledby="krok-images-heading">
+          <h2 id="krok-images-heading">Obrazové prameny</h2>
+          {krok.images.map((img) => (
+            <figure class="krok-figure">
+              <a href={img.src} target="_blank" rel="noopener" aria-label="Otevřít v plné velikosti">
+                <img src={img.src} alt={img.alt} loading="lazy" decoding="async" />
+              </a>
+              {img.caption && <figcaption>{img.caption}</figcaption>}
+              <p class="krok-figure-credit"><em>{img.credit}</em></p>
+            </figure>
+          ))}
+        </section>
+      )}
+
       {(!krok.references || krok.references.length === 0) && (
         <aside class="krok-stub-note">
           <p>
@@ -218,6 +233,41 @@ const related = krok.relatedSlugs
     font-size: 0.95rem;
     line-height: 1.55;
     color: var(--color-text-soft);
+  }
+
+  .krok-images {
+    margin: 2.5rem 0;
+  }
+  .krok-images h2 {
+    font-family: var(--font-serif);
+    color: var(--color-brass-bright);
+    margin-bottom: 1.25rem;
+  }
+  .krok-figure {
+    margin: 0 0 2rem;
+    padding: 1rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+  }
+  .krok-figure img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .krok-figure figcaption {
+    margin-top: 0.75rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--color-text);
+  }
+  .krok-figure-credit {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    line-height: 1.4;
   }
 
   .krok-related-list {
