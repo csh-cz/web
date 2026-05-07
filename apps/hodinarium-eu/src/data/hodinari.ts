@@ -1621,6 +1621,19 @@ export const hodinari: Hodinar[] = [
     ],
     era: 'soucasnost',
   },
+  {
+    slug: 'jan-mares',
+    jmeno: 'Jan Mareš',
+    aliasy: ['Jan Mareš', 'Mareš', 'Mareš Poděbrady', 'Jan Mareš Poděbrady'],
+    typ: 'osoba',
+    obdobi: 'akt. ~1880–1900',
+    mesto: 'Poděbrady',
+    zeme: 'CZ',
+    shrnuti:
+      'Poděbradský hodinářský mistr přelomu 19. a 20. století. Doložené věžní stroje v Polabí (Slověč 1886, Libice nad Cidlinou 1895, Kostomlátky 1896, Chleby a Činěves nedatované) — konstrukce v tradici poděbradské školy navazující na [Jana Janatu](/hodinari/jan-janata). Jeden Marešův stroj (přelom 19./20. století) zrestauroval Petr Skála v ateliéru veznihodiny.cz.',
+    relatedSlugs: [],
+    era: 'prelom',
+  },
 ];
 
 export const hodinariBySlug = new Map(hodinari.map((h) => [h.slug, h]));
