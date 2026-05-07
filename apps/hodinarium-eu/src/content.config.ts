@@ -292,6 +292,10 @@ const hodinariMedailony = defineCollection({
     references: z.array(reference).optional(),
     /** Editorské poznámky (TODO, varování o nejistotě, kontext). */
     editorNotes: z.array(editorNote).optional(),
+    /** Skrytá synonyma pro vyhledávání — viz dokumentace u clanky.searchKeywords.
+     *  Pro medailony hodinářů typicky alternativní pravopisy jména (Maresch /
+     *  Mareš), zkratky firem, lokality kde hodinář pracoval a které lidé znají. */
+    searchKeywords: z.array(z.string()).optional(),
   }),
 });
 
