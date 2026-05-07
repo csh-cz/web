@@ -17,6 +17,10 @@ export interface Krok {
   relatedSlugs: string[];
   /** Skupina pro řazení v indexu */
   skupina: 'rane' | 'klasicke' | 'presne' | 'volne' | 'elektricke' | 'elektronicke';
+  /** Bibliografické reference (Zotero bibKey) — vykreslí se v
+   *  /kroky/<slug> jako sekce „Literatura a odkazy". Stejný formát
+   *  jako article.references — citeproc-js to vyrenderuje v ISO 690. */
+  references?: Array<{ bibKey: string; pages?: string; note?: string }>;
 }
 
 export const kroky: Krok[] = [
@@ -94,6 +98,35 @@ export const kroky: Krok[] = [
       'Nižší tření než Graham díky menšímu kontaktu mezi paletou a kolem. Časté u pražských a francouzských věžních strojů, mj. u stroje Václava Krečmera.',
     relatedSlugs: ['akvizice-2015-2025', 'decin_flatbed'],
     skupina: 'presne',
+  },
+  {
+    slug: 'robertuv-krok',
+    jmeno: 'Robertův krok',
+    aliasy: [
+      'Robertův krok',
+      'Robertova kroku',
+      'Robertovým krokem',
+      'krok Adolphe Roberta',
+      'krok Roberta de Sancerre',
+      'Roberta de Sancerre',
+      'kolíčkový kotvový krok se středovou kotvou',
+    ],
+    vynalezce: 'Léon Émile Adolphe Robert (Sancerre)',
+    rok: '1852',
+    shrnuti:
+      'Klidový kotvový krok s kolíčkovým krokovým kolem a se středově umístěnou kotvou — kombinace Grahamova kroku (kotva) a kolíčkového kroku (kolíčky místo zubů). Patent 1852, představen 1855 na pařížské světové výstavě.',
+    charakteristika:
+      'V dobové francouzské literatuře (Gros, Saunier, Revue chronométrique) kritizován jako kompromis, který spojuje slabiny obou výchozích řešení — kotva je stejně náročná na výrobu jako Grahamova, kolíčkové kolo více práce než ploché kolo, kolíky špatně drží olej. Existuje i převrácená varianta od A.-L. Vérité (1806–1887). V Čechách krok výhradně používal Jan Prokeš ze Sobotky od roku 1868 (po vypršení patentu) — pravděpodobně se s ním seznámil na pařížské výstavě 1867. Nejstarší dochovaný exemplář pochází ze zámku Býchory (1868), dnes vystavený v expozici Hodinária. V odborné literatuře dříve označován jako „krok Roberta de Sancerre" — Sancerre je však místo původu, ne příjmení; správně Robertův krok podle Léona Émile Adolphe Roberta ze Sancerre.',
+    relatedSlugs: [
+      'bychory_prokes1',
+      'inv-2-vezni-prokes-1868-soubor',
+      'akvizice-2015-2025',
+      'inv-31-vezni-francie',
+    ],
+    skupina: 'klasicke',
+    references: [
+      { bibKey: 'knesplRobertuvKrokOprava2023' },
+    ],
   },
   {
     slug: 'hippuv-prerusovac',

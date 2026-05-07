@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T19:59:54.217Z",
+  "generatedAt": "2026-05-07T20:12:38.065Z",
   "summary": {
     "kartyTotal": 290,
     "kartyNoTyp": 93,
@@ -7,8 +7,8 @@
     "kartyNoVyrobce": 223,
     "kartyNoUmisteni": 41,
     "kartyPlaceholderTitle": 12,
-    "clankyNoTldr": 2,
-    "clankyShort": 59,
+    "clankyNoTldr": 1,
+    "clankyShort": 58,
     "clankyLegacyLinks": 57,
     "hodinariTotal": 103,
     "hodinariShort": 71,
@@ -2990,12 +2990,6 @@
     ],
     "clankyNoTldr": [
       {
-        "slug": "_test-draft-article",
-        "title": "Testovací draft článek",
-        "category": "zajimavosti",
-        "editUrl": "/admin/#/collections/clanky/entries/_test-draft-article"
-      },
-      {
         "slug": "podebrady4",
         "title": "Květinové hodiny v Poděbradech",
         "category": "virtualni-muzeum",
@@ -3016,13 +3010,6 @@
         "category": "virtualni-muzeum",
         "editUrl": "/admin/#/collections/clanky/entries/TimHunkin",
         "wordCount": 114
-      },
-      {
-        "slug": "_test-draft-article",
-        "title": "Testovací draft článek",
-        "category": "zajimavosti",
-        "editUrl": "/admin/#/collections/clanky/entries/_test-draft-article",
-        "wordCount": 9
       },
       {
         "slug": "betrisey",
