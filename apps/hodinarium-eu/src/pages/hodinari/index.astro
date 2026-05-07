@@ -8,19 +8,42 @@ const firmy = hodinari.filter((h) => h.typ === 'firma');
 
 const eraOrder: Hodinar['era'][] = ['baroko', '19stol', 'prelom', '20stol', 'soucasnost'];
 
-function groupByEra(list: Hodinar[]): Map<Hodinar['era'], Hodinar[]> {
+/**
+ * Extrahuje příjmení z full name pro řazení.
+ * Pravidla:
+ *   - Strip parentéz: "Bisswangerové (rod pražských hodinářů)" → "Bisswangerové"
+ *   - Suffixy ml./st./jr./sr./II/III se přeskočí ("Jan Prokeš ml." → "Prokeš")
+ *   - Default: poslední token ("Jan Janata" → "Janata", "L. Prokeš" → "Prokeš")
+ */
+function surname(jmeno: string): string {
+  const cleaned = jmeno.replace(/\s*\([^)]*\)\s*/g, ' ').trim();
+  const tokens = cleaned.split(/\s+/).filter(Boolean);
+  if (tokens.length === 0) return jmeno;
+  const lastIdx = tokens.length - 1;
+  const isSuffix = /^(ml\.|st\.|jr\.|sr\.|I{1,3}V?|VI{0,3})$/i.test(tokens[lastIdx]);
+  return tokens[isSuffix ? lastIdx - 1 : lastIdx] ?? jmeno;
+}
+
+function groupByEra(list: Hodinar[], byJmeno: boolean): Map<Hodinar['era'], Hodinar[]> {
   const m = new Map<Hodinar['era'], Hodinar[]>();
   for (const era of eraOrder) m.set(era, []);
   for (const h of list) m.get(h.era)?.push(h);
   for (const [k, v] of m) {
-    v.sort((a, b) => a.jmeno.localeCompare(b.jmeno, 'cs'));
+    // Osoby: řazení podle příjmení (Janata, Marek, Mareš, Prokeš…),
+    // tie-break podle celého jména (Prokeš → Jan vs Leopold).
+    // Firmy: řazení podle celého názvu (Pragotron, Eduard Liebing…).
+    v.sort((a, b) => {
+      if (byJmeno) return a.jmeno.localeCompare(b.jmeno, 'cs');
+      const cmp = surname(a.jmeno).localeCompare(surname(b.jmeno), 'cs');
+      return cmp !== 0 ? cmp : a.jmeno.localeCompare(b.jmeno, 'cs');
+    });
     if (v.length === 0) m.delete(k);
   }
   return m;
 }
 
-const osobyByEra = groupByEra(osoby);
-const firmyByEra = groupByEra(firmy);
+const osobyByEra = groupByEra(osoby, false);  // sort podle příjmení
+const firmyByEra = groupByEra(firmy, true);   // sort podle celého názvu firmy
 ---
 <Base
   title="Hodináři"
