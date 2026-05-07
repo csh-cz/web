@@ -1,6 +1,6 @@
 ---
 name: clanky-tldr
-description: Pravidla pro pole `tldr` (perex / krátké shrnutí) ve frontmatteru článků hodinarium-eu. Aktivuje se při tvorbě nebo úpravě `tldr:` v content/hodinarium-eu/*.{md,mdx} a content/kroky/*.{md,mdx}, při auto-importu legacy textů, při SEO review (meta description, Twitter Card, Google snippet), při code review článků. Pravidla: (1) tldr doplňuje titulek, neopakuje ho; (2) 1–2 věty, max ~200 znaků; (3) aktivní hlas, konkrétní fakta; (4) nikdy „Stručně:", „V tomto článku", „Tento článek pojednává"; (5) nikdy utnuté výpustkou „…"; (6) bez markdown formátování (renderuje se i jako meta description); (7) nekončí pouhým názvem předmětu/místa, který je už v titulku. Skript `node scripts/audit-tldr.mjs` flagne porušení.
+description: Pravidla pro pole `tldr` (perex / krátké shrnutí) ve frontmatteru článků hodinarium-eu. Aktivuje se při tvorbě nebo úpravě `tldr:` v content/hodinarium-eu/*.{md,mdx} a content/kroky/*.{md,mdx}, při auto-importu legacy textů, při SEO review (meta description, Twitter Card, Google snippet), při code review článků. Pravidla: (1) tldr doplňuje titulek, neopakuje ho; (2) 1–2 věty, max ~200 znaků; (3) aktivní hlas, konkrétní fakta; (4) nikdy „Stručně:", „V tomto článku", „Tento článek pojednává"; (5) nikdy utnuté výpustkou „…"; (6) bez markdown formátování (renderuje se i jako meta description); (7) nekončí pouhým názvem předmětu/místa, který je už v titulku; (8) aplikuj skill `cestina` na výstup (správná čeština, žádné AI tells, česká typografie). Skript `node scripts/audit-tldr.mjs` flagne porušení.
 ---
 
 # Pravidla pro `tldr` pole
@@ -156,7 +156,30 @@ Léon Émile Adolphe Robert; v Čechách doloženo od 1868 (J. Prokeš).
 
 Tj. čtenář dostane **něco navíc** a klikne s vědomím, co tam najde.
 
-## 6. Validation
+## 6. Čeština — vždy přes skill `cestina`
+
+Tldr je krátký, ale **viditelný** český text — jde do meta description, OG/Twitter Card, perex pod titulkem, RSS feedu, search snippetu. Špatná čeština nebo AI tells (šablonovité fráze, anglicismy, nadužívaná slova) sníží důvěru čtenáře. Vždy aplikuj pravidla skillu `cestina`:
+
+- **Aktivum** — „Stroj má…", ne „Strojem je vybaven…"
+- **Žádné AI tells** — vyhýbat se slovům „klíčový", „komplexní", „robustní", „v zásadě", „v podstatě", šablonovitým úvodům typu „Je třeba zmínit, že…"
+- **Žádné anglicismy** — „funguje", ne „je funkční"; „obsahuje", ne „inkluduje"
+- **Česká typografie** — uvozovky „…" (ne `"…"` / `"…"`), pomlčka — (ne dvojitá -- nebo en-dash –), nezlomená mezera u jednotek (`5 mm`, `2 m`, `1850 zl.`) a u čísel s jmény (`Jan Prokeš`).
+- **Žádné slovakismy** — výjimka pro citace.
+- **Žádné šablonovité úvody** — „V dnešní době", „Je třeba si uvědomit, že", „Je nutné poznamenat".
+- **Bez nadužívaných slov** — „klíčový", „zajímavý", „unikátní" jen tehdy, když to text reálně podpoří. Místo „zajímavé hodiny" radši konkrétní pointu (typ kroku, datace, autor).
+- **Diakritika** — kompletní (ž, š, č, ř, …), nepřeskakovat ani v rychlých přepisech.
+
+Při generování tldr přes batch agent nebo manuálně **vždy přečti hotový tldr a zkontroluj proti pravidlům `cestina`**. Pokud najdeš AI tell nebo nadužívané slovo, přepiš.
+
+### Příklad
+
+| Špatně (AI tell) | Lépe |
+|---|---|
+| „V zásadě klíčový exponát z 19. století." | „Věžní stroj signovaný Janem Prokešem, 1868." |
+| „Komplexní soustava hodinového a zvonicího mechanismu." | „Dvě soukolí — hodinové a zvonicí — propojená převodem 1:2." |
+| „Tento unikátní kus představuje zajímavou ukázku…" | „Vřetenový stroj s lihýřem, jediný dochovaný exemplář v Čechách." |
+
+## 7. Validation
 
 Skript `scripts/audit-tldr.mjs` heuristicky kontroluje:
 

@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:23.898Z"
 relatedKarty:
   - inv-1-vezni-hiemann-1884
-tldr: 'Expozice věžních a uměleckých hodinářských strojů na zámku Děčín. Vznikla v roce 2015 přesunem sbírky Věžního muzejíčka ze Soběslavi do podkrovních prostor zámku.'
+tldr: 'Expozice věžních a sbírkových hodin na zámku Děčín. Vznikla v roce 2015 přesunem Věžního muzejíčka ze Soběslavi do podkrovních prostor zámku.'
 ---
 ![Zámek Děčín](/img/decin/zamek_decin.jpg)
 

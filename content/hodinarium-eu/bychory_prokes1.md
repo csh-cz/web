@@ -17,7 +17,7 @@ karta:
 relatedKarty:
   - inv-2-vezni-prokes-1868-soubor
 perex: "Komplet věžních hodin ze zámku Býchory — čtvrťový stroj Jana Prokeše ze Sobotky z roku 1868, doplněný unikátním přídavným zvonicím strojem (vlastní pohon, paličkou rychle po sobě jdoucí údery na hodinový cimbál) a dvojicí cimbálů z Bellmannovy slévárny v Praze, rovněž z roku 1868. Komplet je vystavený v Hodináriu Děčín a je [evidován jako inv. 2](/sbirka/karta/inv-2-vezni-prokes-1868-soubor/)."
-tldr: 'Soustava hodinového stroje, přídavného zvonicího mechanismu a dvou cimbálů z dílny Anny Bellmannové (1868). Stroj vyniká vzácným Robertovým krokem a přímým vztahem Prokeše k opravě Pražského orloje.'
+tldr: 'Hodinový stroj s přídavným zvonicím mechanismem a dvěma cimbály z dílny Anny Bellmannové (1868). Vzácný Robertův krok; Prokeš se v témže roce ucházel o opravu Pražského orloje.'
 ---
 
 Do Hodinária byl zapůjčen věžní komplet Prokeš 1868 — kompletní soustava hodinového stroje, přídavného zvonicího stroje a dvou cimbálů, původně osazená na zámku Býchory. Hlavními kuriozitami kompletu jsou neobvyklý **[Robertův krok](/kroky/robertuv-krok)** (Adolphe Robert ze Sancerre, patent 1852) a nezvyklé spojení mezi hodinovým a zvonicím strojem.
