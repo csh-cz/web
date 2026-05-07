@@ -68,6 +68,28 @@
     }
   },
   {
+    "id": "bozekNeueStadtuhr1897",
+    "type": "manuscript",
+    "archive": "Archiv Národního technického muzea",
+    "archive_location": "fond Božek Josef a Romuald (NAD 45)",
+    "call-number": "inv. č. 6, sign. I., kart. 2.",
+    "citation-key": "bozekNeueStadtuhr1897",
+    "title": "Die neue Stadtuhr",
+    "author": [
+      {
+        "family": "Božek",
+        "given": "Romuald"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1897"
+        ]
+      ]
+    }
+  },
+  {
     "id": "edmundkinsnerAstronomischeUhr1894",
     "type": "patent",
     "citation-key": "edmundkinsnerAstronomischeUhr1894",
@@ -502,14 +524,6 @@
     "note": "Original-Type: odkaz\nCSH-Sources: content/hodinarium-eu/zidovske.mdx",
     "title": "Stroj židovských hodin po restaurování — fotodokumentace",
     "URL": "http://www.veznihodiny.cz/ukaz4.htm"
-  },
-  {
-    "id": "ZidovskaRadniceNa",
-    "type": "map",
-    "citation-key": "ZidovskaRadniceNa",
-    "note": "Original-Type: mapa\nCSH-Sources: content/hodinarium-eu/zidovske.mdx",
-    "title": "Židovská radnice na mapě Prahy",
-    "URL": "https://mapy.cz/s/kcyO"
   },
   {
     "id": "edmundkinsnerAstronomischeUhrMit1895",
@@ -1741,9 +1755,17 @@
   },
   {
     "id": "hellichPrispevekSlovnikuUmelcu1917",
-    "type": "book",
+    "type": "article-journal",
     "citation-key": "hellichPrispevekSlovnikuUmelcu1917",
     "title": "Příspěvek k slovníku umělců a uměleckých řemeslníků z Poděbradska",
+    "container-title": "Památky archaeologické a místopisné",
+    "volume": "XXIX",
+    "page": "289",
+    "publisher": "Archaeologická komise při České akademii císaře Františka Josefa pro vědy, slovesnosť a umění a Archaeologického sboru Musea království Českého",
+    "publisher-place": "Praha",
+    "language": "cs",
+    "URL": "https://books.google.com/books?id=OV4_AQAAMAAJ&pg=PA289",
+    "note": "Plný digitalizovaný scan: Google Books vol. ID OV4_AQAAMAAJ (kompletní vol. XXIX, U Chicago); MZK Kramerius má scan stránek, ale pages 158–308 sešitu 3 mají prázdné OCR. Online přepis článku (Skála): http://www.veznihodiny.cz/janata.htm. OCLC 191716345.",
     "author": [
       {
         "family": "Hellich",
@@ -2413,26 +2435,6 @@
       "date-parts": [
         [
           "1858"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "rendlerNachtragDieserBeschreibung1778",
-    "type": "book",
-    "citation-key": "rendlerNachtragDieserBeschreibung1778",
-    "publisher-place": "Wien",
-    "title": "Nachtrag zu dieser Beschreibung (der astronomischen Uhr von Fr. David a S. Cajetano)",
-    "author": [
-      {
-        "family": "Rendler",
-        "given": "Joseph"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1778"
         ]
       ]
     }
@@ -3483,28 +3485,12 @@
     "URL": "https://sk.wikipedia.org/wiki/Hebrejsk%C3%A1_abeceda"
   },
   {
-    "id": "baresStaraRadniceMlade1902",
-    "type": "article-journal",
-    "citation-key": "baresStaraRadniceMlade1902",
-    "container-title": "Památky archaeologické a místopisné: organ Archaeologického sboru Musea království Českého a Historického spolku v Praze.",
-    "issue": "1",
-    "page": "27,39",
-    "title": "Stará radnice v Mladé Boleslavi.",
-    "URL": "https://digitalniknihovna.cz/mzk/uuid/uuid:4c20a670-d87c-11e4-97af-005056827e51",
-    "volume": "20",
-    "author": [
-      {
-        "family": "Bareš",
-        "given": ""
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1902"
-        ]
-      ]
-    }
+    "id": "ZidovskaRadniceNa",
+    "type": "map",
+    "citation-key": "ZidovskaRadniceNa",
+    "note": "Original-Type: mapa\nCSH-Sources: content/hodinarium-eu/zidovske.mdx",
+    "title": "Židovská radnice na mapě Prahy",
+    "URL": "https://mapy.cz/s/kcyO"
   },
   {
     "id": "GasLighting2024",
@@ -6445,6 +6431,26 @@
     }
   },
   {
+    "id": "rendlerNachtragDieserBeschreibung1778",
+    "type": "book",
+    "citation-key": "rendlerNachtragDieserBeschreibung1778",
+    "publisher-place": "Wien",
+    "title": "Nachtrag zu dieser Beschreibung (der astronomischen Uhr von Fr. David a S. Cajetano)",
+    "author": [
+      {
+        "family": "Rendler",
+        "given": "Joseph"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1778"
+        ]
+      ]
+    }
+  },
+  {
     "id": "cajetanoNeuesRadergebaudeOder1791",
     "type": "book",
     "citation-key": "cajetanoNeuesRadergebaudeOder1791",
@@ -7600,6 +7606,30 @@
     }
   },
   {
+    "id": "baresStaraRadniceMlade1902",
+    "type": "article-journal",
+    "citation-key": "baresStaraRadniceMlade1902",
+    "container-title": "Památky archaeologické a místopisné: organ Archaeologického sboru Musea království Českého a Historického spolku v Praze.",
+    "issue": "1",
+    "page": "27,39",
+    "title": "Stará radnice v Mladé Boleslavi.",
+    "URL": "https://digitalniknihovna.cz/mzk/uuid/uuid:4c20a670-d87c-11e4-97af-005056827e51",
+    "volume": "20",
+    "author": [
+      {
+        "family": "Bareš",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1902"
+        ]
+      ]
+    }
+  },
+  {
     "id": "AstronomickeHodinyDle1881",
     "type": "article-journal",
     "citation-key": "AstronomickeHodinyDle1881",
@@ -8262,40 +8292,6 @@
       "date-parts": [
         [
           "1960"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "lejbowiczGiovanniDondiDallOrologio2008",
-    "type": "article-journal",
-    "citation-key": "lejbowiczGiovanniDondiDallOrologio2008",
-    "container-title": "Cahiers de recherches médiévales et humanistes. Journal of medieval and humanistic studies",
-    "DOI": "10.4000/crm.318",
-    "ISSN": "2273-0893",
-    "journalAbbreviation": "Cahiers de recherches médiévales et humanistes. Journal of medieval and humanistic studies",
-    "language": "en",
-    "title": "Giovanni Dondi dall’Orologio, Tractatus astrarii",
-    "URL": "https://journals.openedition.org/crmh/318",
-    "author": [
-      {
-        "family": "Lejbowicz",
-        "given": "Max"
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2025",
-          6,
-          29
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "2008"
         ]
       ]
     }
@@ -10099,29 +10095,6 @@
     }
   },
   {
-    "id": "azzoliniDukeStarsAstrology2013",
-    "type": "book",
-    "citation-key": "azzoliniDukeStarsAstrology2013",
-    "DOI": "10.4159/harvard.9780674066649",
-    "ISBN": "978-0-674-06664-9",
-    "publisher": "Harvard University Press",
-    "publisher-place": "Cambridge (Mass.)–London",
-    "title": "The Duke and the Stars. Astrology and Politics in Renaissance Milan",
-    "author": [
-      {
-        "family": "Azzolini",
-        "given": "Monica"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2013"
-        ]
-      ]
-    }
-  },
-  {
     "id": "whitrowTimeHistoryEvolution1988",
     "type": "book",
     "call-number": "BOD Nuneham M89.F06160",
@@ -11680,6 +11653,40 @@
     }
   },
   {
+    "id": "lejbowiczGiovanniDondiDallOrologio2008",
+    "type": "article-journal",
+    "citation-key": "lejbowiczGiovanniDondiDallOrologio2008",
+    "container-title": "Cahiers de recherches médiévales et humanistes. Journal of medieval and humanistic studies",
+    "DOI": "10.4000/crm.318",
+    "ISSN": "2273-0893",
+    "journalAbbreviation": "Cahiers de recherches médiévales et humanistes. Journal of medieval and humanistic studies",
+    "language": "en",
+    "title": "Giovanni Dondi dall’Orologio, Tractatus astrarii",
+    "URL": "https://journals.openedition.org/crmh/318",
+    "author": [
+      {
+        "family": "Lejbowicz",
+        "given": "Max"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          6,
+          29
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    }
+  },
+  {
     "id": "severynDiloPhilippaMezieres",
     "type": "thesis",
     "citation-key": "severynDiloPhilippaMezieres",
@@ -12173,26 +12180,6 @@
       "date-parts": [
         [
           "1967"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "fitzpatrickModernAlmagestUpdated2010",
-    "type": "book",
-    "citation-key": "fitzpatrickModernAlmagestUpdated2010",
-    "title": "A Modern Almagest : An updated version of Ptolemy’s model of the Solar System",
-    "URL": "http://farside.ph.utexas.edu/Books/Syntaxis/Almagest.pdf",
-    "author": [
-      {
-        "family": "Fitzpatrick",
-        "given": "Richard"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2010"
         ]
       ]
     }
@@ -13978,6 +13965,29 @@
     }
   },
   {
+    "id": "azzoliniDukeStarsAstrology2013",
+    "type": "book",
+    "citation-key": "azzoliniDukeStarsAstrology2013",
+    "DOI": "10.4159/harvard.9780674066649",
+    "ISBN": "978-0-674-06664-9",
+    "publisher": "Harvard University Press",
+    "publisher-place": "Cambridge (Mass.)–London",
+    "title": "The Duke and the Stars. Astrology and Politics in Renaissance Milan",
+    "author": [
+      {
+        "family": "Azzolini",
+        "given": "Monica"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    }
+  },
+  {
     "id": "cipollaMacchineTempoLorologio1996",
     "type": "book",
     "citation-key": "cipollaMacchineTempoLorologio1996",
@@ -14581,6 +14591,26 @@
       "date-parts": [
         [
           "2007"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "fitzpatrickModernAlmagestUpdated2010",
+    "type": "book",
+    "citation-key": "fitzpatrickModernAlmagestUpdated2010",
+    "title": "A Modern Almagest : An updated version of Ptolemy’s model of the Solar System",
+    "URL": "http://farside.ph.utexas.edu/Books/Syntaxis/Almagest.pdf",
+    "author": [
+      {
+        "family": "Fitzpatrick",
+        "given": "Richard"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2010"
         ]
       ]
     }
@@ -15705,30 +15735,6 @@
       "date-parts": [
         [
           "1956"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "debroisUrkundeUeberVollzogene1818",
-    "type": "book",
-    "citation-key": "debroisUrkundeUeberVollzogene1818",
-    "language": "de",
-    "note": "Google-Books-ID: 30BJAAAAcAAJ",
-    "number-of-pages": "278",
-    "publisher": "Gottlieb Haase",
-    "source": "Google Books",
-    "title": "Urkunde über die vollzogene Krönung Seiner Majestät des Königs von Böhmen Leopold des Zweiten und Ihrer Majestät, der Gemahlin des Königs Maria Louise",
-    "author": [
-      {
-        "family": "Debrois",
-        "given": "Johann"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1818"
         ]
       ]
     }
@@ -16959,29 +16965,6 @@
       "date-parts": [
         [
           "1889"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ZrizovaniElektrHodin1910a",
-    "type": "article-journal",
-    "citation-key": "ZrizovaniElektrHodin1910a",
-    "container-title": "Věstník obecní Královského hlavního města Prahy",
-    "ISSN": "1801-2248",
-    "issue": "11",
-    "journalAbbreviation": "Věstník obecní Královského hlavního města Prahy",
-    "note": "publisher-place: Praha",
-    "page": "206",
-    "title": "Zřizování elektr. hodin. (Kom. praes. 9. VI.)",
-    "URL": "https://www.digitalniknihovna.cz/nkp/uuid/uuid:5e52c112-ab9c-4886-945a-5e2a8662d00b",
-    "volume": "17",
-    "issued": {
-      "date-parts": [
-        [
-          "1910",
-          6,
-          15
         ]
       ]
     }
@@ -19227,6 +19210,30 @@
     }
   },
   {
+    "id": "debroisUrkundeUeberVollzogene1818",
+    "type": "book",
+    "citation-key": "debroisUrkundeUeberVollzogene1818",
+    "language": "de",
+    "note": "Google-Books-ID: 30BJAAAAcAAJ",
+    "number-of-pages": "278",
+    "publisher": "Gottlieb Haase",
+    "source": "Google Books",
+    "title": "Urkunde über die vollzogene Krönung Seiner Majestät des Königs von Böhmen Leopold des Zweiten und Ihrer Majestät, der Gemahlin des Königs Maria Louise",
+    "author": [
+      {
+        "family": "Debrois",
+        "given": "Johann"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1818"
+        ]
+      ]
+    }
+  },
+  {
     "id": "mirandaMirandaBookDivided1860",
     "type": "book",
     "citation-key": "mirandaMirandaBookDivided1860",
@@ -19473,30 +19480,6 @@
       "date-parts": [
         [
           "1840"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "studnickaListyPrumyslove1876",
-    "type": "book",
-    "citation-key": "studnickaListyPrumyslove1876",
-    "language": "cs",
-    "note": "Google-Books-ID: k1Jf8B_P95EC",
-    "number-of-pages": "246",
-    "publisher": "Otto",
-    "source": "Google Books",
-    "title": "Listy prumyslove",
-    "author": [
-      {
-        "family": "Studnicka",
-        "given": "Alois"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1876"
         ]
       ]
     }
@@ -21663,6 +21646,29 @@
     }
   },
   {
+    "id": "ZrizovaniElektrHodin1910a",
+    "type": "article-journal",
+    "citation-key": "ZrizovaniElektrHodin1910a",
+    "container-title": "Věstník obecní Královského hlavního města Prahy",
+    "ISSN": "1801-2248",
+    "issue": "11",
+    "journalAbbreviation": "Věstník obecní Královského hlavního města Prahy",
+    "note": "publisher-place: Praha",
+    "page": "206",
+    "title": "Zřizování elektr. hodin. (Kom. praes. 9. VI.)",
+    "URL": "https://www.digitalniknihovna.cz/nkp/uuid/uuid:5e52c112-ab9c-4886-945a-5e2a8662d00b",
+    "volume": "17",
+    "issued": {
+      "date-parts": [
+        [
+          "1910",
+          6,
+          15
+        ]
+      ]
+    }
+  },
+  {
     "id": "PlynovemAutomatuPri1883",
     "type": "article-journal",
     "citation-key": "PlynovemAutomatuPri1883",
@@ -21820,44 +21826,6 @@
       "date-parts": [
         [
           "1983"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "howgrave-grahamClocksJacksNotes1928",
-    "type": "article-journal",
-    "abstract": "Ancient Horology is a fascinating but most difficult study, hampered by imperfect observation, the repetition of gross errors, and the free acceptance of mere tradition; so wide and deep is the confusion that careful students have now become cautious and sceptical even in accepting fairly admissible evidence. A contributory factor has been the undue separation of mechanical and artistic considerations, for mechanicians have attempted to form judgements based solely upon technical peculiarities, while artistic antiquaries have perhaps shunned the dark and oily wheels and levers hidden away in the dusty clock-chamber or tower. Certain types of clockwork cannot be dated unless there is ornament, but due attention to records, to mechanism, and to ornament, makes it at least possible to correct many erroneous traditions and false theories.",
-    "citation-key": "howgrave-grahamClocksJacksNotes1928",
-    "container-title": "Archaeologia",
-    "DOI": "10/drcfvp",
-    "ISSN": "0261-3409, 2051-3186",
-    "journalAbbreviation": "Archaeologia",
-    "language": "en",
-    "page": "257-312",
-    "source": "DOI.org (Crossref)",
-    "title": "Some Clocks and Jacks, with Notes on the History of Horology",
-    "URL": "https://www.cambridge.org/core/product/identifier/S0261340900013448/type/journal_article",
-    "volume": "77",
-    "author": [
-      {
-        "family": "Howgrave-Graham",
-        "given": "R.P."
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2022",
-          8,
-          12
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "1928"
         ]
       ]
     }
@@ -24046,6 +24014,30 @@
     "title": "Kronika města Bakov nad Jizerou z let 1847 - 1958"
   },
   {
+    "id": "studnickaListyPrumyslove1876",
+    "type": "book",
+    "citation-key": "studnickaListyPrumyslove1876",
+    "language": "cs",
+    "note": "Google-Books-ID: k1Jf8B_P95EC",
+    "number-of-pages": "246",
+    "publisher": "Otto",
+    "source": "Google Books",
+    "title": "Listy prumyslove",
+    "author": [
+      {
+        "family": "Studnicka",
+        "given": "Alois"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1876"
+        ]
+      ]
+    }
+  },
+  {
     "id": "AmtlicherBerichtUeber1865",
     "type": "book",
     "citation-key": "AmtlicherBerichtUeber1865",
@@ -24325,43 +24317,6 @@
       "date-parts": [
         [
           "2014"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "etheridgeEvidenceIslamicScientific2015",
-    "type": "chapter",
-    "abstract": "The genesis of this article lies in a recent visit to the Romanesque cathedral of Lund. While in the cathedral, I walked over to the medieval astronomical clock to await the moving figures and music that accompany the striking of the hour. During my wait, I noticed four carved figures that had been placed in each of the corners of the top part of the clock. The figures were wearing exotic clothing and one even wore a turban, immediately bringing to mind the image of an Arabic astronomer. This challenged my previous assumption that Muslims had generally been portrayed in a negative light in medieval Scandinavia. Indeed, it actually seemed to suggest that there was a sense of pride in having these figures here occupying a prominent place within the walls of one of medieval Scandinavia‟s most important ecclesiastical buildings. This encounter tied in with research that I had been undertaking on the influence and dissemination of Arabic scientific works in Scandinavia, particularly in Iceland. What follows is an analysis of the manuscript evidence for the impact and distribution of scientific works originating from the Islamic world during the Middle Ages, with particular attention on the cultural currency of the image of the Islamic scientist in medieval Iceland. The article begins with the Lund astronomical clock, and then heads to Iceland to analyse the scientific works there, as well as connections with contemporary works in other regions of Scandinavia.",
-    "citation-key": "etheridgeEvidenceIslamicScientific2015",
-    "container-title": "Fear and Loathing in the North",
-    "DOI": "10.1515/9783110346473-007",
-    "ISBN": "978-3-11-034647-3",
-    "page": "49-74",
-    "publisher": "DE GRUYTER",
-    "publisher-place": "Berlin, München, Boston",
-    "title": "The Evidence for Islamic Scientific Works in Medieval Iceland",
-    "URL": "https://www.degruyter.com/viewbooktoc/product/247594",
-    "author": [
-      {
-        "family": "Etheridge",
-        "given": "Christian"
-      }
-    ],
-    "editor": [
-      {
-        "family": "Heß",
-        "given": "Cordelia"
-      },
-      {
-        "family": "Adams",
-        "given": "Jonathan"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2015"
         ]
       ]
     }
@@ -26316,6 +26271,44 @@
     }
   },
   {
+    "id": "howgrave-grahamClocksJacksNotes1928",
+    "type": "article-journal",
+    "abstract": "Ancient Horology is a fascinating but most difficult study, hampered by imperfect observation, the repetition of gross errors, and the free acceptance of mere tradition; so wide and deep is the confusion that careful students have now become cautious and sceptical even in accepting fairly admissible evidence. A contributory factor has been the undue separation of mechanical and artistic considerations, for mechanicians have attempted to form judgements based solely upon technical peculiarities, while artistic antiquaries have perhaps shunned the dark and oily wheels and levers hidden away in the dusty clock-chamber or tower. Certain types of clockwork cannot be dated unless there is ornament, but due attention to records, to mechanism, and to ornament, makes it at least possible to correct many erroneous traditions and false theories.",
+    "citation-key": "howgrave-grahamClocksJacksNotes1928",
+    "container-title": "Archaeologia",
+    "DOI": "10/drcfvp",
+    "ISSN": "0261-3409, 2051-3186",
+    "journalAbbreviation": "Archaeologia",
+    "language": "en",
+    "page": "257-312",
+    "source": "DOI.org (Crossref)",
+    "title": "Some Clocks and Jacks, with Notes on the History of Horology",
+    "URL": "https://www.cambridge.org/core/product/identifier/S0261340900013448/type/journal_article",
+    "volume": "77",
+    "author": [
+      {
+        "family": "Howgrave-Graham",
+        "given": "R.P."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          8,
+          12
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "1928"
+        ]
+      ]
+    }
+  },
+  {
     "id": "prahyMestskeJineUredni1956",
     "type": "book",
     "abstract": "V historickém úvodu je vyložen vývoj městské správy pražské, vývoj a význam městských knih, které tvoří nejvýznamnější fond archivu hlavního města Prahy, jejich rozdělení a typy. Následuje podrobný přehled městských knih, řazený podle jednotlivých historických období, a příslušná vysvětlení o jejich obsahu.",
@@ -26762,27 +26755,6 @@
         [
           "1996",
           1
-        ]
-      ]
-    }
-  },
-  {
-    "id": "neureiterEinzigeErhalteneRomische2016",
-    "type": "article-journal",
-    "citation-key": "neureiterEinzigeErhalteneRomische2016",
-    "container-title": "DGC-Mitteilungen",
-    "issue": "147",
-    "title": "Die einzige erhaltene römische Wasseruhr?",
-    "author": [
-      {
-        "family": "Neureiter",
-        "given": "Michael"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2016"
         ]
       ]
     }
@@ -29194,6 +29166,43 @@
     }
   },
   {
+    "id": "etheridgeEvidenceIslamicScientific2015",
+    "type": "chapter",
+    "abstract": "The genesis of this article lies in a recent visit to the Romanesque cathedral of Lund. While in the cathedral, I walked over to the medieval astronomical clock to await the moving figures and music that accompany the striking of the hour. During my wait, I noticed four carved figures that had been placed in each of the corners of the top part of the clock. The figures were wearing exotic clothing and one even wore a turban, immediately bringing to mind the image of an Arabic astronomer. This challenged my previous assumption that Muslims had generally been portrayed in a negative light in medieval Scandinavia. Indeed, it actually seemed to suggest that there was a sense of pride in having these figures here occupying a prominent place within the walls of one of medieval Scandinavia‟s most important ecclesiastical buildings. This encounter tied in with research that I had been undertaking on the influence and dissemination of Arabic scientific works in Scandinavia, particularly in Iceland. What follows is an analysis of the manuscript evidence for the impact and distribution of scientific works originating from the Islamic world during the Middle Ages, with particular attention on the cultural currency of the image of the Islamic scientist in medieval Iceland. The article begins with the Lund astronomical clock, and then heads to Iceland to analyse the scientific works there, as well as connections with contemporary works in other regions of Scandinavia.",
+    "citation-key": "etheridgeEvidenceIslamicScientific2015",
+    "container-title": "Fear and Loathing in the North",
+    "DOI": "10.1515/9783110346473-007",
+    "ISBN": "978-3-11-034647-3",
+    "page": "49-74",
+    "publisher": "DE GRUYTER",
+    "publisher-place": "Berlin, München, Boston",
+    "title": "The Evidence for Islamic Scientific Works in Medieval Iceland",
+    "URL": "https://www.degruyter.com/viewbooktoc/product/247594",
+    "author": [
+      {
+        "family": "Etheridge",
+        "given": "Christian"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Heß",
+        "given": "Cordelia"
+      },
+      {
+        "family": "Adams",
+        "given": "Jonathan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2015"
+        ]
+      ]
+    }
+  },
+  {
     "id": "pogoEgyptianWaterClocks1936",
     "type": "article-journal",
     "citation-key": "pogoEgyptianWaterClocks1936",
@@ -29328,34 +29337,6 @@
       "date-parts": [
         [
           "2010"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "ungererHorlogesAstronomiquesMonumentales1931",
-    "type": "book",
-    "citation-key": "ungererHorlogesAstronomiquesMonumentales1931",
-    "language": "fr",
-    "publisher": "L'auteur",
-    "publisher-place": "Strasbourg",
-    "title": "Les Horloges astronomiques et monumentales les plus remarquables de l'antiquité jusqu'à nos jours, par Alfred Ungerer, ... avec une préface par E. Esclangon, ... En appendice: table chronologique, table onomastique, table bibliographique",
-    "title-short": "Les horloges astronomiques et monumentales les plus remarquables de l'Antiquité",
-    "URL": "http://gdz.sub.uni-goettingen.de/id/PPN791688607",
-    "author": [
-      {
-        "family": "Ungerer",
-        "given": "A"
-      },
-      {
-        "family": "Esclangon",
-        "given": "E"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1931"
         ]
       ]
     }
@@ -31617,6 +31598,27 @@
     }
   },
   {
+    "id": "neureiterEinzigeErhalteneRomische2016",
+    "type": "article-journal",
+    "citation-key": "neureiterEinzigeErhalteneRomische2016",
+    "container-title": "DGC-Mitteilungen",
+    "issue": "147",
+    "title": "Die einzige erhaltene römische Wasseruhr?",
+    "author": [
+      {
+        "family": "Neureiter",
+        "given": "Michael"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2016"
+        ]
+      ]
+    }
+  },
+  {
     "id": "benndorfZurSalzburgerBronzescheibe1903",
     "type": "article-journal",
     "citation-key": "benndorfZurSalzburgerBronzescheibe1903",
@@ -32014,28 +32016,6 @@
       "date-parts": [
         [
           "1925"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "fischerUhrmacherSlowakei1969",
-    "type": "article-journal",
-    "citation-key": "fischerUhrmacherSlowakei1969",
-    "container-title": "Bohemia",
-    "page": "405-414",
-    "title": "Die Uhrmacher in der Slowakei",
-    "volume": "10",
-    "author": [
-      {
-        "family": "Fischer",
-        "given": "Karl"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1969"
         ]
       ]
     }
@@ -34117,6 +34097,34 @@
           "2015",
           6,
           10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ungererHorlogesAstronomiquesMonumentales1931",
+    "type": "book",
+    "citation-key": "ungererHorlogesAstronomiquesMonumentales1931",
+    "language": "fr",
+    "publisher": "L'auteur",
+    "publisher-place": "Strasbourg",
+    "title": "Les Horloges astronomiques et monumentales les plus remarquables de l'antiquité jusqu'à nos jours, par Alfred Ungerer, ... avec une préface par E. Esclangon, ... En appendice: table chronologique, table onomastique, table bibliographique",
+    "title-short": "Les horloges astronomiques et monumentales les plus remarquables de l'Antiquité",
+    "URL": "http://gdz.sub.uni-goettingen.de/id/PPN791688607",
+    "author": [
+      {
+        "family": "Ungerer",
+        "given": "A"
+      },
+      {
+        "family": "Esclangon",
+        "given": "E"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1931"
         ]
       ]
     }
@@ -36692,6 +36700,28 @@
     }
   },
   {
+    "id": "fischerUhrmacherSlowakei1969",
+    "type": "article-journal",
+    "citation-key": "fischerUhrmacherSlowakei1969",
+    "container-title": "Bohemia",
+    "page": "405-414",
+    "title": "Die Uhrmacher in der Slowakei",
+    "volume": "10",
+    "author": [
+      {
+        "family": "Fischer",
+        "given": "Karl"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1969"
+        ]
+      ]
+    }
+  },
+  {
     "id": "svejdaPristrojePomuckyKlementina2019",
     "type": "article-journal",
     "citation-key": "svejdaPristrojePomuckyKlementina2019",
@@ -37054,14 +37084,6 @@
         ]
       ]
     }
-  },
-  {
-    "id": "CommissionImplementingRegulation",
-    "type": "legislation",
-    "citation-key": "CommissionImplementingRegulation",
-    "language": "en",
-    "number": "2024/2977",
-    "title": "Commission Implementing Regulation (EU) 2024/2977 of 28 November 2024 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards person identification data and electronic attestations of attributes issued to European Digital Identity Wallets"
   },
   {
     "id": "ISO_180135_E_draft",
@@ -38495,28 +38517,6 @@
       "date-parts": [
         [
           "1860"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "bozekNeueStadtuhr1897",
-    "type": "manuscript",
-    "archive": "Archiv Národního technického muzea",
-    "archive_location": "fond Božek Josef a Romuald (NAD 45)",
-    "call-number": "inv. č. 6, sign. I., kart. 2.",
-    "citation-key": "bozekNeueStadtuhr1897",
-    "title": "Die neue Stadtuhr",
-    "author": [
-      {
-        "family": "Božek",
-        "given": "Romuald"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1897"
         ]
       ]
     }
@@ -40536,6 +40536,14 @@
         ]
       ]
     }
+  },
+  {
+    "id": "CommissionImplementingRegulation",
+    "type": "legislation",
+    "citation-key": "CommissionImplementingRegulation",
+    "language": "en",
+    "number": "2024/2977",
+    "title": "Commission Implementing Regulation (EU) 2024/2977 of 28 November 2024 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards person identification data and electronic attestations of attributes issued to European Digital Identity Wallets"
   },
   {
     "id": "taborskyzklokotskehoryZpravaOrlojiStaromestkem1570",
