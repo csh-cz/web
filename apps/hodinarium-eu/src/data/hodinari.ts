@@ -1500,7 +1500,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Poděbrady',
     zeme: 'CZ',
     shrnuti:
-      'Plodný věžně-hodinářský mistr z Poděbrad (1821–1878). Vyučil se u svého otce Václava Janaty v Křinci, vandr 1840–1844 (Nymburk – Liberec – Vratislav – Landshut). Od roku 1844 samostatným řemeslníkem v Poděbradech, výhradně věžní hodiny. Podle Hellichova seznamu (1917, prim. zdrojem byly poznámky V. Cepka, zetě Janaty) dodal v Čechách, na Moravě, v Haliči, Bukovině a Uhrách přes 70 věžních hodin (Lvov, Černovice, Pápa). Zemřel 18. 7. 1878 ve Smržicích na Moravě, na cestách za svým povoláním.',
+      'Plodný věžně-hodinářský mistr z Poděbrad (1821–1878). Od roku 1844 dodal podle Hellicha (1917) přes 70 věžních hodin v Čechách, na Moravě, v Haliči, Bukovině a Uhrách — z toho doložené stroje v Dobrušce (1867), Lipnici nad Sázavou (1871) a Polici nad Metují (1876). Zemřel 18. 7. 1878 ve Smržicích na Moravě.',
     relatedSlugs: [],
     era: '19stol',
   },
