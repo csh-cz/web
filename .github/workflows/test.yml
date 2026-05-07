@@ -1,8 +1,15 @@
 # Volitelný CI gate — Playwright regresní testy proti deployovaným pages.dev.
 #
-# Spouští se ručně (workflow_dispatch) nebo po každém pushi do main.
-# Nevyhazuje deploy — jen reportuje. Cloudflare Pages stejně nasazuje
-# nezávisle na výsledku tohoto workflow.
+# Spouští se ručně (workflow_dispatch) nebo po pushi do main (s paths-ignore
+# pro non-UI změny). Cloudflare Pages deploy jede mimo GitHub Actions přes
+# Pages CI, takže tento workflow je čistě smoke regression — nic neblokuje.
+#
+# Úsporné nastavení:
+#   - Trigger jen `main` (feature větve agenta = 0 minut)
+#   - Concurrency group s cancel-in-progress: rychlý sled commitů na main
+#     zruší staré běhy a nechá doběhnout jen nejnovější
+#   - Široký paths-ignore: data-only edity (content/*.md, semantic-index,
+#     scripts/, tmp/, docs/, README) testy nespouští
 #
 # Pokud nechceš CI mít zapnutý, smaž tenhle soubor — všechny scripty
 # (pnpm test:e2e) fungují i lokálně.
@@ -14,11 +21,34 @@ on:
   push:
     branches: [main]
     paths-ignore:
+      # Markdown / docs — neovlivňují UI build
       - '**.md'
       - '**.mdx'
       - 'BUGS.md'
       - 'TODO.md'
       - 'docs/**'
+      # Content edity (články, karty, medailony, soupis, kronika) — change
+      # data, ne UI logiku. Jejich render testujeme manuálně přes preview.
+      - 'content/**'
+      # Semantic search index — rebuild po každé změně textu, 5 MB blob,
+      # neovlivňuje UI (jen vrácená data v /api/search/semantic response)
+      - 'apps/*/public/search/**'
+      # Build/sync skripty mimo aplikační kód
+      - 'scripts/**'
+      # Pracovní soubory mimo runtime
+      - 'tmp/**'
+      - 'local/**'
+      - 'raw/**'
+      - 'zdroje/**'
+      # GitHub config sám sebe netriggeruje
+      - '.github/**'
+
+# Auto-cancel staré běhy při novém pushi na main. Šetří minuty když
+# agent commitne víckrát za sebou — místo 5 paralelních runů (~50 min)
+# poběží jen nejnovější (~10 min).
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   e2e:
