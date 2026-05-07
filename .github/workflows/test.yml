@@ -1,0 +1,63 @@
+# Volitelný CI gate — Playwright regresní testy proti deployovaným pages.dev.
+#
+# Spouští se ručně (workflow_dispatch) nebo po každém pushi do main.
+# Nevyhazuje deploy — jen reportuje. Cloudflare Pages stejně nasazuje
+# nezávisle na výsledku tohoto workflow.
+#
+# Pokud nechceš CI mít zapnutý, smaž tenhle soubor — všechny scripty
+# (pnpm test:e2e) fungují i lokálně.
+
+name: UI tests (Playwright)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '**.md'
+      - '**.mdx'
+      - 'BUGS.md'
+      - 'TODO.md'
+      - 'docs/**'
+
+jobs:
+  e2e:
+    name: Smoke + regression na pages.dev
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.9.0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install Playwright browsers
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Wait for Cloudflare Pages deploy to settle
+        # Cloudflare Pages dokončí nasazení krátce po pushi.
+        # 30 s buffer minimalizuje race s předchozím commitem.
+        run: sleep 30
+
+      - name: Run Playwright tests
+        run: pnpm test:e2e
+        env:
+          CI: 'true'
+
+      - name: Upload Playwright report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7
