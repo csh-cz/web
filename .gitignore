@@ -79,3 +79,9 @@ local/
 # rebuilduje se z content/. Final index `public/search/semantic-index.json`
 # je commitnutý (deployment artifact pro Pages Function).
 apps/*/.semantic-corpus.json
+
+# AVIF/WebP varianty — generují se v prebuild kroku přes
+# `pnpm imgvariants:build` (sharp); idempotentní (skip pokud existuje).
+# Nedrží se v repu, protože by repo přibrzdily o ~400 MB.
+apps/*/public/img/**/*.avif
+apps/*/public/img/**/*.webp

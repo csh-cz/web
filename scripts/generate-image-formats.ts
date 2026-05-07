@@ -21,7 +21,12 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const ROOT = join(__dirname, '..');
 
-const APPS = ['hodinarium-eu', 'horologie-cz'];
+const ALL_APPS = ['hodinarium-eu', 'horologie-cz'];
+// CLI: --apps hodinarium-eu  (nebo `--apps a,b`); default = obě.
+const appsArgIdx = process.argv.indexOf('--apps');
+const APPS = appsArgIdx >= 0 && process.argv[appsArgIdx + 1]
+  ? process.argv[appsArgIdx + 1].split(',').map((s) => s.trim()).filter(Boolean)
+  : ALL_APPS;
 const RASTER_EXTS = new Set(['.jpg', '.jpeg', '.png']); // GIF skip — animace
 const SKIP_NAMES = new Set(['nadpis_hodinarium1.gif']); // ikony, sprite atd.
 
