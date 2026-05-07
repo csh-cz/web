@@ -110,7 +110,7 @@ const kartaJsonLd = {
 <Base
   title={entry.data.title}
   description={`Evidenční karta sbírkového předmětu — inv. č. ${entry.data.karta?.inventarniCislo ?? '?'}`}
-  cmsEditUrl={`/admin/#/collections/karty/entries/${entry.data.slug}`}
+  cmsEditUrl={`/admin/#/collections/karty/entries/${entry.id}`}
   citation={{
     /* Sbírkový předmět NENÍ článek — Zotero connector to musí uložit
        jako Web Page (přes DC.* meta), ne jako Journal Article. Bez

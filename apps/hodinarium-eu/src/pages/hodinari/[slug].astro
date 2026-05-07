@@ -142,7 +142,7 @@ const personJsonLd = hodinar.typ === 'osoba'
 <Base
   title={`${hodinar.jmeno} — hodinář`}
   description={hodinar.shrnuti}
-  cmsEditUrl={`/admin/#/collections/hodinari/entries/${hodinar.slug}`}
+  cmsEditUrl={medailon ? `/admin/#/collections/hodinari/entries/${medailon.id}` : undefined}
   citation={{
     /* Medailon hodináře = encyklopedická stránka, ne journalArticle.
        Bez itemType=webpage by Zotero podle citation_journal_title
