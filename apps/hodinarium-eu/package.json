@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "prebuild": "tsx ../../scripts/build-review-report.ts || node --experimental-strip-types ../../scripts/build-review-report.ts",
+    "prebuild": "(tsx ../../scripts/build-review-report.ts || node --experimental-strip-types ../../scripts/build-review-report.ts) && tsx ../../scripts/generate-image-formats.ts --apps hodinarium-eu",
     "validate": "node ../../scripts/validate-content.mjs",
     "build": "node ../../scripts/validate-content.mjs && astro check && astro build",
     "preview": "astro preview",

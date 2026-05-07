@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4400",
     "start": "astro dev --port 4400",
+    "prebuild": "tsx ../../scripts/generate-image-formats.ts --apps horologie-cz",
     "build": "astro check && astro build",
     "preview": "astro preview --port 4400",
     "astro": "astro"

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-07T18:21:31.543Z",
+  "generatedAt": "2026-05-07T19:16:19.958Z",
   "summary": {
-    "kartyTotal": 292,
+    "kartyTotal": 290,
     "kartyNoTyp": 93,
-    "kartyNoThumb": 220,
-    "kartyNoVyrobce": 225,
+    "kartyNoThumb": 218,
+    "kartyNoVyrobce": 223,
     "kartyNoUmisteni": 41,
     "kartyPlaceholderTitle": 12,
     "clankyNoTldr": 1,
@@ -1342,11 +1342,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-52-soustava-rozvodu-s-rafijemi"
       },
       {
-        "slug": "inv-53-model-prazskeho-orloje",
-        "title": "Orloj Hvězdárna Petřín",
-        "editUrl": "/admin/#/collections/karty/entries/inv-53-model-prazskeho-orloje"
-      },
-      {
         "slug": "inv-53-orloj-hvezdarna-petrin",
         "title": "Orloj Hvězdárna Petřín",
         "editUrl": "/admin/#/collections/karty/entries/inv-53-orloj-hvezdarna-petrin"
@@ -1410,11 +1405,6 @@
         "slug": "inv-66-cimbal-s-odbijenim",
         "title": "Cimbál s odbíjením",
         "editUrl": "/admin/#/collections/karty/entries/inv-66-cimbal-s-odbijenim"
-      },
-      {
-        "slug": "inv-67-orloj-hvezdarna-petrin",
-        "title": "Orloj Hvězdárna Petřín",
-        "editUrl": "/admin/#/collections/karty/entries/inv-67-orloj-hvezdarna-petrin"
       },
       {
         "slug": "inv-67-vezni-lissner",
@@ -2464,11 +2454,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-52-soustava-rozvodu-s-rafijemi"
       },
       {
-        "slug": "inv-53-model-prazskeho-orloje",
-        "title": "Orloj Hvězdárna Petřín",
-        "editUrl": "/admin/#/collections/karty/entries/inv-53-model-prazskeho-orloje"
-      },
-      {
         "slug": "inv-53-orloj-hvezdarna-petrin",
         "title": "Orloj Hvězdárna Petřín",
         "editUrl": "/admin/#/collections/karty/entries/inv-53-orloj-hvezdarna-petrin"
@@ -2522,11 +2507,6 @@
         "slug": "inv-66-cimbal-s-odbijenim",
         "title": "Cimbál s odbíjením",
         "editUrl": "/admin/#/collections/karty/entries/inv-66-cimbal-s-odbijenim"
-      },
-      {
-        "slug": "inv-67-orloj-hvezdarna-petrin",
-        "title": "Orloj Hvězdárna Petřín",
-        "editUrl": "/admin/#/collections/karty/entries/inv-67-orloj-hvezdarna-petrin"
       },
       {
         "slug": "inv-67-vezni-lissner",
