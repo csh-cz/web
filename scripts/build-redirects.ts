@@ -29,6 +29,23 @@ interface Index {
 interface CatalogEntry {
   slug: string;
   category: string;
+  /** 'karta' = evidenční karta sbírky → /sbirka/karta/<slug>;
+   *  jinak (undefined / 'clanek') → /<category>/<slug> */
+  podsekce?: string;
+}
+
+/**
+ * URL pro článek (NOT pro `/clanky/<slug>` legacy zdroj — pro nový taxonomický cíl).
+ * Sbírka má dva subroutery:
+ *   - /sbirka/karta/<slug>  — evidenční karty (`podsekce: 'karta'`)
+ *   - /sbirka/<slug>        — texty o sbírce (články, ne karty)
+ * Ostatní kategorie (konstrukce, projekty, …) jsou flat: /<kat>/<slug>.
+ */
+function categoryHref(e: CatalogEntry): string {
+  if (e.category === 'sbirka' && e.podsekce === 'karta') {
+    return `/sbirka/karta/${e.slug}`;
+  }
+  return `/${e.category}/${e.slug}`;
 }
 
 const NEW_CATEGORIES = new Set([
@@ -41,7 +58,7 @@ function newHref(slug: string, catalog: CatalogEntry[], kronikaSlugs: Set<string
   if (kronikaSlugs.has(slug)) return `/kronika/${slug}`;
   const e = catalog.find((c) => c.slug === slug);
   if (e && NEW_CATEGORIES.has(e.category)) {
-    return `/${e.category}/${e.slug}`;
+    return categoryHref(e);
   }
   return `/clanky/${slug}`;
 }
@@ -166,11 +183,12 @@ async function main() {
   }
 
   // 2. /clanky/<slug> → /<kategorie>/<slug> pro články v nových kategoriích.
+  // Sbírka má dvě subkategorie — evidenční karty jdou na /sbirka/karta/<slug>.
   lines.push('', '# Taxonomie 2026-04: /clanky/<slug> → /<kategorie>/<slug>');
   let migratedCount = 0;
   for (const e of catalog) {
     if (NEW_CATEGORIES.has(e.category)) {
-      lines.push(`/clanky/${e.slug} /${e.category}/${e.slug} 301`);
+      lines.push(`/clanky/${e.slug} ${categoryHref(e)} 301`);
       migratedCount += 1;
     }
   }

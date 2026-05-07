@@ -24,6 +24,9 @@ interface CatalogEntry {
   slug: string;
   title: string;
   category: string;
+  /** 'karta' = evidenční karta sbírky (router /sbirka/karta/<slug>),
+   *  'clanek' nebo undefined = standardní článek (router /<category>/<slug>) */
+  podsekce?: string;
   thumbnail: string | null;
   excerpt: string;
   year: number | null;
@@ -186,10 +189,13 @@ async function main() {
       ? (fm.searchKeywords as unknown[]).filter((t): t is string => typeof t === 'string' && t.length > 0)
       : undefined;
 
+    const podsekce = typeof fm.podsekce === 'string' ? fm.podsekce : undefined;
+
     catalog.push({
       slug: (fm.slug as string) ?? file.replace(/\.(md|mdx)$/, ''),
       title: (fm.title as string) ?? file,
       category: (fm.category as string) ?? 'ostatni',
+      ...(podsekce ? { podsekce } : {}),
       thumbnail: fmThumb ?? extractFirstImage(body),
       excerpt: extractExcerpt(body),
       year: extractYear((fm.title as string) ?? '', body),
