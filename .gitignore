@@ -49,6 +49,17 @@ playwright/.cache/
 # Tmp soubory
 /tmp_*
 
+# Pracovní výstupy v tmp/ — Zotero crossref, geocode cache, OSM dumps,
+# výzkumné JSONy. Konkrétní soubory (preview soupisu, report stubů)
+# držíme tracked přes `!` exception níže.
+tmp/*
+!tmp/popisy-stroju-parsed.json
+!tmp/soupis-stuby-preview.json
+!tmp/soupis-stuby-report.md
+
+# macOS Finder copy artefakty (s mezerou v názvu — „file 2.json")
+**/* 2.[a-z]*
+
 # zdroje/ — pracovní materiály mimo git (PDF originály, fotky pro zpracování,
 # ZIP archivy z Google Photos atd.). Příliš velké, ne všechny patří publikovat.
 zdroje/
@@ -60,9 +71,6 @@ fo:Users:*
 .claude/*
 # Skills jsou sdílená pravidla pro celý tým, tracked v repu
 !.claude/skills/
-tmp/osm-cz-pois.json
-tmp/osm-cz-pois-PARTIAL.json
-tmp/osm-pull.log
 
 # Lokální (gitignored) soukromá data — vlastníci sbírkových karet apod.
 local/
