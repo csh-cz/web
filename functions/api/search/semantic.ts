@@ -103,33 +103,45 @@ async function loadIndex(env: Env, request: Request): Promise<{ records: ParsedR
   return INDEX_CACHE;
 }
 
-/** Embed query přes Workers AI bge-m3. Vrací 1024-dim Float32Array.
- *  Hází typed error s `code: 'quota'` pro known kvóta-related chyby
- *  (429, neuron exhaustion, Workers AI 7xxx error codes). Volající
- *  podle toho rozhodne, zda fallbacknout na fulltext. */
-class AIQuotaError extends Error {
-  readonly code = 'quota' as const;
-  constructor(msg: string) {
+/** Typed error pro situace, kdy semantic flow nemůže pokračovat,
+ *  ale fulltext fallback dává smysl. Zahrnuje:
+ *   - 'quota'    — Workers AI vrátil 429 / kvóta exhausted (3036/3040/7003)
+ *   - 'binding'  — env.AI binding není v Pages projektu nakonfigurovaný
+ *                  (admin musí přidat AI binding v dashboardu)
+ *   - 'unknown'  — jiná Workers AI chyba (network, internal)
+ *
+ *  Volající (handler) catchne tuto třídu a spadne na fulltext s
+ *  human-friendly bannerem podle .reason.
+ */
+class AIFallbackError extends Error {
+  readonly reason: 'quota' | 'binding' | 'unknown';
+  constructor(reason: 'quota' | 'binding' | 'unknown', msg: string) {
     super(msg);
+    this.reason = reason;
   }
 }
 
 async function embedQuery(env: Env, q: string): Promise<Float32Array> {
+  // Když AI binding není v Pages config (admin nepřidal v dashboardu),
+  // env.AI je undefined → `env.AI.run` by hodil "Cannot read properties
+  // of undefined". Catchni preventivně pro lepší error reporting.
+  if (!env.AI || typeof env.AI.run !== 'function') {
+    throw new AIFallbackError('binding',
+      'env.AI binding chybí — přidej v Pages dashboard: Settings → Functions → Bindings → AI');
+  }
+
   let out;
   try {
     out = await env.AI.run('@cf/baai/bge-m3', { text: q });
   } catch (err) {
-    // Workers AI hází `Error` s message obsahující status / code.
-    // Detekce kvóta vs ostatní chyby — message obsahuje "429", "rate limit",
-    // "quota", nebo CF AI error code 3xxx (neuron exhaustion).
     const msg = err instanceof Error ? err.message : String(err);
     if (/429|rate.?limit|quota|exhaust|neuron|3036|3040|7003/i.test(msg)) {
-      throw new AIQuotaError(`AI quota: ${msg}`);
+      throw new AIFallbackError('quota', `AI quota: ${msg}`);
     }
-    throw err;
+    throw new AIFallbackError('unknown', msg);
   }
   if (!out.data || !out.data[0]) {
-    throw new Error('Embedding response missing data');
+    throw new AIFallbackError('unknown', 'Embedding response missing data');
   }
   return new Float32Array(out.data[0]);
 }
@@ -311,11 +323,20 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     }
     scored.sort((a, b) => b.score - a.score);
   } catch (err) {
-    if (err instanceof AIQuotaError) {
-      // Známý kvóta-related fail → spadni do fulltext bez 5xx.
-      console.warn('AI quota exhausted, falling back to fulltext:', err.message);
+    if (err instanceof AIFallbackError) {
+      // Známý fail → spadni do fulltext bez 5xx, s reason-specific bannerem.
+      console.warn(`AI fallback (${err.reason}):`, err.message);
       mode = 'fulltext';
-      fallbackReason = 'AI měsíční kvóta vyčerpaná — používám fulltext vyhledávání.';
+      switch (err.reason) {
+        case 'binding':
+          fallbackReason = 'Sémantické vyhledávání zatím není zprovozněné — používám fulltext.';
+          break;
+        case 'quota':
+          fallbackReason = 'AI měsíční kvóta vyčerpaná — používám fulltext vyhledávání.';
+          break;
+        default:
+          fallbackReason = 'Sémantické vyhledávání dočasně nedostupné — používám fulltext.';
+      }
       const filtered = allowedCollections
         ? records.filter((r) => allowedCollections.has(r.collection))
         : records;
