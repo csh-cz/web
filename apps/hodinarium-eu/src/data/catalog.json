@@ -2690,17 +2690,6 @@
     ]
   },
   {
-    "slug": "decin_koncepce",
-    "title": "Koncepce Hodinária",
-    "category": "sbirka",
-    "thumbnail": "/img/decin/zamek_decin.jpg",
-    "excerpt": "Vznik Hodinária umožnily dvě myšlenky. Jednak to byl záměr Zámku Děčín zpřístupnit zámecké půdní prostory se zajímavými trámovými konstrukcemi a jednak bylo potřeba někam přestěhovat exponáty Věžního muzejíčka, provoz…",
-    "year": 1868,
-    "lastModified": "2020-11-15T19:20:00.000Z",
-    "imageCount": 4,
-    "wordCount": 1048
-  },
-  {
     "slug": "skymaster_ghost",
     "title": "Konstatovací hodiny Skymaster Ghost HIGH SPEED TIMING CLOCK",
     "category": "projekty",
@@ -3663,6 +3652,17 @@
     ]
   },
   {
+    "slug": "o-hodinariu",
+    "title": "O Hodináriu",
+    "category": "sbirka",
+    "thumbnail": "/img/decin/zamek_decin.jpg",
+    "excerpt": "Vznik Hodinária umožnily dvě myšlenky. Jednak to byl záměr Zámku Děčín zpřístupnit zámecké půdní prostory se zajímavými trámovými konstrukcemi a jednak bylo potřeba někam přestěhovat exponáty Věžního muzejíčka, provoz…",
+    "year": 1868,
+    "lastModified": "2020-11-15T19:20:00.000Z",
+    "imageCount": 4,
+    "wordCount": 1048
+  },
+  {
     "slug": "vezni_zikmund1",
     "title": "O věžních hodinách na ZŠ Šumava v Jablonci nad Nisou",
     "category": "sbirka",
@@ -3702,6 +3702,22 @@
     ]
   },
   {
+    "slug": "inv-53-model-prazskeho-orloje",
+    "title": "Orloj Hvězdárna Petřín",
+    "category": "sbirka",
+    "thumbnail": null,
+    "excerpt": "Zjednodušený model Pražského orloje (chybí rafije pro pohyb Měsíce) byl sestrojen pro předvedení souvislosti staročeského času a času středoevropského. V minulosti se užíval staročeský čas, u něhož počítání hodin dne …",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 123,
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "vezni"
+    ]
+  },
+  {
     "slug": "inv-53-orloj-hvezdarna-petrin",
     "title": "Orloj Hvězdárna Petřín",
     "category": "sbirka",
@@ -3711,6 +3727,22 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 123,
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "vezni"
+    ]
+  },
+  {
+    "slug": "inv-67-orloj-hvezdarna-petrin",
+    "title": "Orloj Hvězdárna Petřín",
+    "category": "sbirka",
+    "thumbnail": null,
+    "excerpt": "",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 0,
     "tags": [
       "hlavni-sal",
       "funkcni",

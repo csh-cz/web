@@ -62,6 +62,12 @@ const SPECIAL: Record<string, string> = {
   '/hledej.htm': '/sbirka',
   '/novinky.htm': '/',
   '/decin_zamek.htm': '/expozice',
+  // M6 (2026-05): „Koncepce Hodinária" promo na top-level about page
+  // (přesunuto ze /sbirka/decin_koncepce na samostatný router /o-hodinariu).
+  // Editor report #19 — článek byl mezi sbírkovými kartami špatně nalezitelný.
+  '/sbirka/decin_koncepce': '/o-hodinariu',
+  '/sbirka/o-hodinariu': '/o-hodinariu',
+  '/decin_koncepce.htm': '/o-hodinariu',
 };
 
 /**

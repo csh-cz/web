@@ -32,7 +32,7 @@ export const kroky: Krok[] = [
       'Velký rejdový moment, hluboký rejd, výrazná závislost chodu na pohonné síle. Pro přesné hodiny nevhodný, ale mechanicky robustní a snadno udržovatelný.',
     relatedSlugs: [
       'budiky1',
-      'decin_koncepce',
+      'o-hodinariu',
       'akvizice-2015-2025',
       'kardasova_recice',
       'ohlednuti2011',
@@ -60,7 +60,7 @@ export const kroky: Krok[] = [
       'Při klidu kotvy dochází k mírnému zpětnému pohybu krokového kola — odtud anglický název "recoil". Pro běžné věžní stroje 18.–20. století zcela dominantní řešení.',
     relatedSlugs: [
       'akvizice-2015-2025',
-      'decin_koncepce',
+      'o-hodinariu',
       'hinspirace',
       'sobeslav3',
       'sobeslav2c',

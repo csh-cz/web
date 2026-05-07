@@ -1,0 +1,44 @@
+---
+/**
+ * /o-hodinariu — about-page Hodinária (vznik 2015, koncepce expozice).
+ *
+ * Obsah pochází z `content/hodinarium-eu/o-hodinariu.md` (původní článek
+ * `decin_koncepce.md` přesunut a přejmenován na samostatnou top-level
+ * stránku, viz redirect v public/_redirects).
+ *
+ * Renderuje přes shared Article layout — stejná typografie + reference
+ * frontmatter + editorské poznámky jako u běžných článků.
+ *
+ * Není to v `[kategorie]/[slug].astro` flow protože to je top-level
+ * about-page, ne článek v některé kategorii. URL je čistá `/o-hodinariu/`.
+ * Z `[kategorie]/[slug]` getStaticPaths je tento entry vyfiltrovaný (slug
+ * 'o-hodinariu' = exclusion list), aby nevznikla duplicitní route
+ * /sbirka/o-hodinariu.
+ */
+import { getCollection, render } from 'astro:content';
+import Article from '../layouts/Article.astro';
+import ArticleImageBehavior from '../components/ArticleImageBehavior.astro';
+
+const entries = await getCollection('clanky');
+const entry = entries.find((e) => e.id === 'o-hodinariu');
+if (!entry) {
+  throw new Error("Content entry 'o-hodinariu' (content/hodinarium-eu/o-hodinariu.md) not found.");
+}
+const { Content } = await render(entry);
+---
+<Article
+  title={entry.data.title}
+  originalUrl={entry.data.originalUrl}
+  lastModified={entry.data.lastModified ?? undefined}
+  tldr={entry.data.tldr}
+  category={entry.data.category}
+  slug={entry.id}
+  ogImageOverride={entry.data.ogImage}
+  author={entry.data.author}
+  references={entry.data.references}
+  editorNotes={entry.data.editorNotes}
+>
+  <Content />
+</Article>
+
+<ArticleImageBehavior />

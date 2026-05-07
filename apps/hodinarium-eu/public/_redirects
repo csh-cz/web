@@ -13,6 +13,9 @@
 /hledej.htm /sbirka 301
 /novinky.htm / 301
 /decin_zamek.htm /expozice 301
+/sbirka/decin_koncepce /o-hodinariu 301
+/sbirka/o-hodinariu /o-hodinariu 301
+/decin_koncepce.htm /o-hodinariu 301
 
 # Legacy *.htm → nová URL podle kategorie článku / kroniky
 /decin_aktual0.htm /kronika/decin_aktual0 301
@@ -23,7 +26,6 @@
 /decin_chronulator.htm /sbirka/decin_chronulator 301
 /decin_fotobrezen2017.htm /kronika/decin_fotobrezen2017 301
 /decin_fotolistopad2018.htm /kronika/decin_fotolistopad2018 301
-/decin_koncepce.htm /sbirka/decin_koncepce 301
 /decin_galerie.htm /sbirka/decin_galerie 301
 /decin_velika_ves.htm /sbirka/decin_velika_ves 301
 /decin_patek.htm /sbirka/decin_patek 301
@@ -221,7 +223,7 @@
 /decin_2015_08_04.htm /clanky/decin_2015_08_04 301
 /pneumatika.htm /konstrukce/pneumatika 301
 /carokodky.htm /sbirka/carokodky 301
-/paichl/knihy/hodiny/hodiny_slovnik/slovnik.htm /zajimavosti/paichl_knihy_hodiny_hodiny_slovnik_slovnik 301
+/paichl/knihy/hodiny/hodiny_slovnik/slovnik.htm /clanky/paichl_knihy_hodiny_hodiny_slovnik_slovnik 301
 /slunecni.htm /sbirka/slunecni 301
 /co_pisi_jini.htm /zajimavosti/co_pisi_jini 301
 /download.htm /zajimavosti/download 301
@@ -236,12 +238,12 @@
 /clanky/inv-x12-diferencialni-rele-vus /sbirka/inv-x12-diferencialni-rele-vus 301
 /clanky/inv-x10-dochazkove-hodiny-timometer /sbirka/inv-x10-dochazkove-hodiny-timometer 301
 /clanky/inv-x3-hodiny-digitron /sbirka/inv-x3-hodiny-digitron 301
+/clanky/inv-x13-hodiny-hn350 /sbirka/inv-x13-hodiny-hn350 301
 /clanky/inv-x2-hodiny-kruhove-led /sbirka/inv-x2-hodiny-kruhove-led 301
 /clanky/inv-x11-hodiny-praotron-velke /sbirka/inv-x11-hodiny-praotron-velke 301
 /clanky/inv-x5-hotelovy-budik-modry /sbirka/inv-x5-hotelovy-budik-modry 301
 /clanky/inv-x7-hotelovy-budik-velky /sbirka/inv-x7-hotelovy-budik-velky 301
 /clanky/inv-x9-tellurium /sbirka/inv-x9-tellurium 301
-/clanky/inv-x1-vezni-lissner /sbirka/inv-x1-vezni-lissner 301
 /clanky/inv-x6-vodni-hodiny-cinske /sbirka/inv-x6-vodni-hodiny-cinske 301
 /clanky/inv-x8-volne /sbirka/inv-x8-volne 301
 /clanky/akvizice-2015-2025 /sbirka/akvizice-2015-2025 301
@@ -411,10 +413,10 @@
 /clanky/inv-271-kapesni-velke /sbirka/inv-271-kapesni-velke 301
 /clanky/Kappa /projekty/Kappa 301
 /clanky/spinka /sbirka/spinka 301
+/clanky/kinsner-astronomicke-hodiny /zajimavosti/kinsner-astronomicke-hodiny 301
 /clanky/muzeum_klementinum /muzea/muzeum_klementinum 301
 /clanky/hainz_natahovani /zajimavosti/hainz_natahovani 301
 /clanky/pneumatika /konstrukce/pneumatika 301
-/clanky/decin_koncepce /sbirka/decin_koncepce 301
 /clanky/skymaster_ghost /projekty/skymaster_ghost 301
 /clanky/inv-57-kovane-hodiny-gibbus-1 /sbirka/inv-57-kovane-hodiny-gibbus-1 301
 /clanky/inv-58-kovane-hodiny-gibbus-2 /sbirka/inv-58-kovane-hodiny-gibbus-2 301
@@ -438,8 +440,8 @@
 /clanky/inv-266-linkovy-rozvadec-ehu-260 /sbirka/inv-266-linkovy-rozvadec-ehu-260 301
 /clanky/inv-96-linkovy-zesilovac /sbirka/inv-96-linkovy-zesilovac 301
 /clanky/inv-97-linkovy-zesilovac-releovy /sbirka/inv-97-linkovy-zesilovac-releovy 301
+/clanky/litinove-vezni-hodiny /zajimavosti/litinove-vezni-hodiny 301
 /clanky/inv-139-lodni-hodiny-kappa /sbirka/inv-139-lodni-hodiny-kappa 301
-/clanky/mapa /sbirka/mapa 301
 /clanky/maregraf /konstrukce/maregraf 301
 /clanky/brillie /sbirka/brillie 301
 /clanky/inv-94-maticni-elektrocas /sbirka/inv-94-maticni-elektrocas 301
@@ -456,7 +458,6 @@
 /clanky/inv-124-mini-hlavni-hodiny-hn61 /sbirka/inv-124-mini-hlavni-hodiny-hn61 301
 /clanky/mluvici1895 /konstrukce/mluvici1895 301
 /clanky/inv-85-model-hipp /sbirka/inv-85-model-hipp 301
-/clanky/inv-53-model-prazskeho-orloje /sbirka/inv-53-model-prazskeho-orloje 301
 /clanky/motorky /sbirka/motorky 301
 /clanky/inv-277-mup-40 /sbirka/inv-277-mup-40 301
 /clanky/muzeum_mih_chaux_de_fonds /muzea/muzeum_mih_chaux_de_fonds 301
@@ -481,21 +482,25 @@
 /clanky/inv-46-nouzove-zastaveni-casu /sbirka/inv-46-nouzove-zastaveni-casu 301
 /clanky/inv-132-ntp-a-gps-server /sbirka/inv-132-ntp-a-gps-server 301
 /clanky/inv-130-ntp-gps-pps-server /sbirka/inv-130-ntp-gps-pps-server 301
+/clanky/o-hodinariu /sbirka/o-hodinariu 301
 /clanky/vezni_zikmund1 /sbirka/vezni_zikmund1 301
 /clanky/vodni_odkazy /sbirka/vodni_odkazy 301
 /clanky/kuriozity1 /zajimavosti/kuriozity1 301
+/clanky/inv-53-model-prazskeho-orloje /sbirka/inv-53-model-prazskeho-orloje 301
+/clanky/inv-53-orloj-hvezdarna-petrin /sbirka/inv-53-orloj-hvezdarna-petrin 301
 /clanky/inv-67-orloj-hvezdarna-petrin /sbirka/inv-67-orloj-hvezdarna-petrin 301
 /clanky/inv-65-orloj-kavalir /sbirka/inv-65-orloj-kavalir 301
 /clanky/inv-47-orloj-skala /sbirka/inv-47-orloj-skala 301
 /clanky/inv-237-osciloskopicke-hodiny /sbirka/inv-237-osciloskopicke-hodiny 301
 /clanky/muzeum_ostravske /muzea/muzeum_ostravske 301
 /clanky/inv-119-ozubene-ctverce /sbirka/inv-119-ozubene-ctverce 301
-/clanky/paichl_knihy_hodiny_hodiny_slovnik_slovnik /zajimavosti/paichl_knihy_hodiny_hodiny_slovnik_slovnik 301
 /clanky/betrisey /virtualni-muzeum/betrisey 301
 /clanky/RickStanley /projekty/RickStanley 301
+/clanky/panel-1-hipp-wagner-brillie /sbirka/panel-1-hipp-wagner-brillie 301
 /clanky/panel-2-maticni-elektrocas /sbirka/panel-2-maticni-elektrocas 301
 /clanky/panel-3-laplace-tn-burk /sbirka/panel-3-laplace-tn-burk 301
 /clanky/panel-4-pragotron /sbirka/panel-4-pragotron 301
+/clanky/panel-5-dcf-gps-ntp /sbirka/panel-5-dcf-gps-ntp 301
 /clanky/papir /sbirka/papir 301
 /clanky/inv-276-parkovaci-automat /sbirka/inv-276-parkovaci-automat 301
 /clanky/casova_pasma /zajimavosti/casova_pasma 301
@@ -667,6 +672,7 @@
 /clanky/inv-1-vezni-hiemann-1884 /sbirka/inv-1-vezni-hiemann-1884 301
 /clanky/inv-19-vezni-hodiny-amant-1898 /sbirka/inv-19-vezni-hodiny-amant-1898 301
 /clanky/inv-20-vezni-hodiny-krecmer /sbirka/inv-20-vezni-hodiny-krecmer 301
+/clanky/inv-67-vezni-lissner /sbirka/inv-67-vezni-lissner 301
 /clanky/inv-14-vezni-hodiny-paul-zieux /sbirka/inv-14-vezni-hodiny-paul-zieux 301
 /clanky/inv-22-vezni-holandan /sbirka/inv-22-vezni-holandan 301
 /clanky/inv-25-vezni-chribska /sbirka/inv-25-vezni-chribska 301

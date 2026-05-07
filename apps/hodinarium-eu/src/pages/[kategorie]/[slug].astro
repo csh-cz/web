@@ -12,6 +12,9 @@ export async function getStaticPaths() {
   return all
     .filter((entry) => NEW_CATEGORIES.has(entry.data.category))
     .filter((entry) => entry.data.podsekce !== 'karta')
+    // Top-level about-pages mají vlastní router (/o-hodinariu, …) —
+    // exclusion-list předchází duplicitní URL /sbirka/o-hodinariu.
+    .filter((entry) => entry.id !== 'o-hodinariu')
     .map((entry) => ({
       params: { kategorie: entry.data.category, slug: entry.id },
       props: { entry },
