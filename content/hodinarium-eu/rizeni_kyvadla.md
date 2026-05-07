@@ -120,4 +120,4 @@ Systém může být snadno rozšířen například o:
 
 ### **Závěr**
 
-Projekt ukazuje, že i s levnými a běžně dostupnými komponenty lze vytvořit **precizní fyzikální experiment řízený mikroprocesorem**, přístupný vzdáleně přes webové rozhraní. Vhodnou kalibrací lze dosáhnout velmi dobré přesnosti i bez drahého hardwaru.
+Projekt ukazuje, že i s levnými a běžně dostupnými komponenty lze vytvořit **precizní fyzikální experiment [řízený mikroprocesorem](/kroky/elektronicky-mikroprocesorovy-krok)**, přístupný vzdáleně přes webové rozhraní. Vhodnou kalibrací lze dosáhnout velmi dobré přesnosti i bez drahého hardwaru.

@@ -66,7 +66,7 @@ Mnohé věžní stroje byly dodatečně upravovány pro řízení elektrickými 
 
 Rafie hodin přes šnekový převod a rohatku postrkuje těžké kyvadlo. Kývá poněkud rychleji, než by bylo potřeba pro chod normálních hodin. Rafie se například za 27 sekund pootočí o půl minuty. Po dosažení této polohy je páka zabírající do rohatky kolíkem nadzvednuta a v této poloze je držena elektromagnetickou západkou. Kolík se stihl posunout ze záběru, takže ručkové soukolí čeká na uvolnění elektrickým impulzem. Odtud název Waiting train, tedy asi vyčkávací soukolí. Po uplynutí 30. sekund elektromagnet vlevo uvolní blokovací páku a kyvadlo začne znovu posunovat rohatku a tím také rafie hodin.
 
-Kyvadlo kývá většinou volně. Když jeho amplituda kyvů poklesne, "Hippův kolíček" na kyvadle se vzepře v zářezu na horním kontaktu a dojde pohybem kyvadla k razantnímu sepnutí proudu do elektromagnetu vpravo. Silový elektromagnet přitáhne a udělí tak kyvadlu další energii.
+Kyvadlo kývá většinou volně. Když jeho amplituda kyvů poklesne, "**[Hippův](/kroky/hippuv-prerusovac)** kolíček" na kyvadle se vzepře v zářezu na horním kontaktu a dojde pohybem kyvadla k razantnímu sepnutí proudu do elektromagnetu vpravo. Silový elektromagnet přitáhne a udělí tak kyvadlu další energii.
 
 Na fotografiích vpravo jsou dva základní detaily: "vyčkávací" soukolí a Hippův kontakt spínání elektromagnetu pohonu.
 

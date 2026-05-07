@@ -31,4 +31,4 @@ karta:
 
 Hodiny jsou výrobkem německé firmy, sídlící na okraji Berlína. Firma byla založena v roce 1824 a hlavním programem je výroba a instalace věžních hodin. Její výrobky lze spatřit na mnoha místech v Berlíně či Brandenburgu.
 
-Vystavený stroj má typickou podobu rámu s horizontálním uspořádáním kol. Skládá se ze dvou částí, jednu tvoří jicí stroj spolu se čtvrťovým, druhá část obsahuje soukolí bití celých hodin, které je spouštěno od čtvrťového bití dlouhou pákou. Stroj má Grahamův krok, řízený nepůvodním kyvadlem.
+Vystavený stroj má typickou podobu rámu s horizontálním uspořádáním kol. Skládá se ze dvou částí, jednu tvoří jicí stroj spolu se čtvrťovým, druhá část obsahuje soukolí bití celých hodin, které je spouštěno od čtvrťového bití dlouhou pákou. Stroj má **[Grahamův](/kroky/grahamuv-krok)** krok, řízený nepůvodním kyvadlem.

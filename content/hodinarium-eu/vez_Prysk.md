@@ -20,7 +20,7 @@ Bylo dohodnuto, že před instalací v muzejíčku budou hodiny opraveny tak, ab
 
 ## Popis stroje a odhad autora
 
-Stroj věžních hodin má rám složený ze železných kovaných pásů, spojených mosaznými maticemi. Je složen ze tří funkčních celků: soukolí hodinového, bití čtvrtí a bití celých hodin. Má vratný kotvový krok, řízený 2,8 m dlouhým kyvadlem s těžkou litinovou čočkou. Stroj byl poháněn těžkými závažími, vyrobenými z upravených čedičových sloupců. Závěsná lana se navíjela na bubny, vyrobené ze dřeva. Dřevěné jádro bylo pobito železným plechem. Na stroji jsme nenalezli žádnou signaturu výrobce, pouze na některých kovaných dílech byla vyražena značka (obr. 3). Podle konstrukce rámu a ozdobných motivů na tyčích se lze domnívat, že se jedná o dílo Michaela Christa ze Šluknova, kde působil v první čtvrtině 19. století.
+Stroj věžních hodin má rám složený ze železných kovaných pásů, spojených mosaznými maticemi. Je složen ze tří funkčních celků: soukolí hodinového, bití čtvrtí a bití celých hodin. Má vratný **[kotvový krok](/kroky/kotvovy-krok)**, řízený 2,8 m dlouhým kyvadlem s těžkou litinovou čočkou. Stroj byl poháněn těžkými závažími, vyrobenými z upravených čedičových sloupců. Závěsná lana se navíjela na bubny, vyrobené ze dřeva. Dřevěné jádro bylo pobito železným plechem. Na stroji jsme nenalezli žádnou signaturu výrobce, pouze na některých kovaných dílech byla vyražena značka (obr. 3). Podle konstrukce rámu a ozdobných motivů na tyčích se lze domnívat, že se jedná o dílo Michaela Christa ze Šluknova, kde působil v první čtvrtině 19. století.
 
 ## Postup opravy stroje
 

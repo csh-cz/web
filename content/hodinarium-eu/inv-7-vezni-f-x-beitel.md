@@ -35,7 +35,7 @@ karta:
     obec: "kostele Nanebovzatia"
 ---
 
-Hodinový stroj má jeden bicí stroj - hodinový. Stroj jicí má krokový mechanismus s klidovým krokem (krok Grahamův s kotvou krátkoramennou). Na hodinovém stroji je osazen kontrolní ciferníček. Rám hodin je litinový – dva základní díly jsou spojeny rozpěrnými sloupky.
+Hodinový stroj má jeden bicí stroj - hodinový. Stroj jicí má krokový mechanismus s klidovým krokem (krok **[Grahamův](/kroky/grahamuv-krok)** s kotvou krátkoramennou). Na hodinovém stroji je osazen kontrolní ciferníček. Rám hodin je litinový – dva základní díly jsou spojeny rozpěrnými sloupky.
 
 Věžní hodiny jsou signovány Franz X. Beitel z Moravského Berouna a datovány 1931. Signatura FRANZ. X. BEITEL BÄRN Mähren se nachází na štítku upevněném na rámu hodin, výrobní číslo 68.
 
