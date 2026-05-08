@@ -326,4 +326,76 @@ funkcionality, kvality a integrace. Doplňuje obsahový backlog výše.
 **Týden 4 — long-tail:**
 - T5 interaktivní mapa Hodinária (6 h)
 - D8 backup strategie (2 h)
+
+---
+
+## 📚 Slovník hodinářských termínů
+
+Sekce `/slovnik/` (commit 9fe2825, 35 hesel) je MVP. Obsah generován ze SSOT
+v user-scope skillu `~/.claude/skills/horologicka-terminologie/reference/slovnik.md`,
+sync přes `pnpm slovnik:build`.
+
+### 🔴 Vysoká priorita
+
+- [ ] **SL1 Obrázky pro hesla** — všech 35 hesel má placeholder „*(zatím chybí)*"
+      v sekci Obrázky. Postupně doplnit z primárních pramenů:
+      - Dietzschold 1894 *Die Turmuhren*, Tafel 4 (krok, kotva, krokové kolo)
+      - Saunier 1887 *Treatise on Modern Horology* (paleta, vlásek, Breguet)
+      - Sladkovský 1947 (schéma bicího stroje, roštové kyvadlo, Phillipsova křivka)
+      - Vlastní foto z Hodinária (kladívko, cymbál, větrník, posůvka, srdcovka)
+      - Konvence v `~/.claude/skills/horologicka-terminologie/reference/slovnik/img/README.md`
+- [ ] **SL2 Verifikace u experta** — 10 termínů v `reference/k-overeni.md` čeká
+      na verifikaci (Knespl / Skála): koláčkový vs kolíčkový krok, krok přezmenový
+      etymologie, cinkař obor 60. let, rejdovka/pisárka OCR, vypouštěč, stupník
+      vs stupní kolečko, kotvička dvojramenná pravopis, remontoirní vs remontoár,
+      Hippův přerušovač atribuce.
+
+### 🟡 Střední priorita — rozšíření obsahu
+
+- [ ] **SL3 Hodinky kapesní/náramkové** — kalibr, werk, korunka, sklíčko,
+      pouzdro, signatura, automatic, chronograf, fly-back, GMT (~10 hesel)
+- [ ] **SL4 Profese a hodinářské školy** — hodinář, pouzdrář, regionální
+      školy (pražská, švarcvaldská, vídeňská, anglická, francouzská, švýcarská)
+- [ ] **SL5 Bicí mechanismy detail** — Westminster chime, čtvrťové bití,
+      repetice, opakovačka, Grande sonnerie 1859 (rozšířit existující hesla)
+- [ ] **SL6 Šumavský 1851 — neuvedené termíny** — ~60 hodinářských termínů
+      vyextrahovaných ale dosud nezpracovaných (kalendář, dialektismy: kolisadlo,
+      závěšadlo, krokvička, kyvák; časoměrné systémy: pršící, komítací)
+- [ ] **SL7 Rozšíření existujících hesel:**
+      - `krok` — Bureš 1965 dělení na soukolí I/II/III
+      - `setrvačka` — moderní Nivarox / Glucydur slitiny
+      - `vlásek` — detail Phillipsovy matematiky (3 podmínky)
+
+### 🟢 Nízká priorita — tech / integrace
+
+- [ ] **SL8 Cross-link kroky → slovnik** — v kroky.ts kartě linkovat heslo
+      `krok` na `/slovnik/krok` (a podobně v textech článků). Případně skript
+      `slovnik:auto-link` paralelně s `kroky:auto-link`.
+- [ ] **SL9 Search index** — zařadit slovnik hesla do Fuse.js corpusu
+      (`scripts/extract-search-corpus.mjs`), aby se hesla našla globálním
+      search modálem.
+- [ ] **SL10 Slovník v hlavní navigaci** — zatím dostupný jen z `/vice`.
+      Po dosažení ~50 hesel zvážit zařazení do hlavního navu (vedle Mapa
+      horologie / Hodináři).
+- [ ] **SL11 CMS widget pro Sveltia** — frontmatter editor pro slovnik
+      collection (překlady, varianty, definice, příbuzné slugy). Až bude
+      Petrova editace přes web UI relevantní (viz odložené Decap CMS výše).
+- [ ] **SL12 /slovnik/ filter/search box** — při 50+ heslech přidat live
+      filter (de/en/fr term, cs heslo, varianta) jako u `/tagy/`.
+- [ ] **SL13 Reference IDs s anchorlinkováním** — `[Zotero `KEY`]` v citacích
+      v body propojit na references.json (CSL render přes citeproc-js stejně
+      jako u kroku detailu).
+
+### Open issues z širší inventury (čekají na external input — neřešit autonomně)
+
+- [ ] **INV1** — `inv-251` duplikát s jiným záznamem (čeká: rozhodnout který smazat)
+- [ ] **INV2** — `inv-65/67/68` discrepancy: Petřín × Lissner × Skála × Kavalír ×
+      Sluneční × Model orloje (čeká: ujasnění od Petra/Skály co kam patří)
+
+### 🔧 Tooling
+
+- [ ] **TL1 Zotero MCP `find_similar` bug** — vrací nesouvisející matche
+      (např. Limax slug pro hodinářský článek). Workaround: používat
+      `semantic_search` s textem místo `find_similar` s ID. Nahlásit
+      upstream issue.
 - T7 hodinaři network graph (6 h, optional)
