@@ -1,0 +1,410 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+
+export async function getStaticPaths() {
+  const all = await getCollection('slovnik');
+  return all.map((entry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const data = entry.data;
+
+// Resolve příbuzné slugs to actual entries (for cross-link cards)
+const allSlovnik = await getCollection('slovnik');
+const slovnikBySlug = new Map(allSlovnik.map((e) => [e.data.slug, e]));
+const pribuzneEntries = (data.pribuzne ?? [])
+  .map((s) => slovnikBySlug.get(s))
+  .filter((e): e is NonNullable<typeof e> => Boolean(e));
+
+const KATEGORIE_LABEL: Record<string, string> = {
+  mechanika: 'Mechanika času',
+  bici: 'Bicí mechanismy',
+  astronomicke: 'Sluneční a astronomické hodiny',
+  materialy: 'Materiály a vlastnosti',
+  profese: 'Profese a hodinářské školy',
+  jine: 'Slovník',
+};
+const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
+---
+<Base
+  title={`${data.title} — hodinářský slovník`}
+  description={data.definice}
+  citation={{
+    itemType: 'webpage',
+    title: `${data.title} — hodinářský slovník`,
+    journalTitle: 'Hodinárium — Hodinářský slovník',
+    keywords: [
+      ...(data.varianty ?? []),
+      ...(data.prekladyDe?.map((p) => p.term) ?? []),
+      ...(data.prekladyEn?.map((p) => p.term) ?? []),
+      'hodinářský slovník',
+      'horologická terminologie',
+    ],
+  }}
+>
+  <Breadcrumbs trail={[
+    { href: '/', label: 'Hodinárium' },
+    { href: '/slovnik', label: 'Hodinářský slovník' },
+    { label: data.title },
+  ]} />
+
+  <article class="slovnik-detail">
+    <header class="slovnik-detail-header">
+      <p class="eyebrow mb-3">{kategorieLabel}</p>
+      <h1 class="slovnik-detail-title">{data.title}</h1>
+
+      {data.varianty && data.varianty.length > 0 && (
+        <p class="slovnik-varianty">
+          <span class="varianty-label">též:</span>
+          {data.varianty.map((v, i) => (
+            <span class="varianta">{v}{i < data.varianty!.length - 1 ? ',' : ''}</span>
+          ))}
+        </p>
+      )}
+
+      {data.definice && (
+        <p class="slovnik-definice-lead">{data.definice}</p>
+      )}
+    </header>
+
+    {(data.prekladyDe || data.prekladyEn || data.prekladyFr) && (
+      <section class="slovnik-preklady" aria-labelledby="preklady-heading">
+        <h2 id="preklady-heading" class="visually-hidden">Překlady</h2>
+        <dl class="preklady-grid">
+          {data.prekladyDe && data.prekladyDe.length > 0 && (
+            <div class="preklad-row">
+              <dt><span class="lang-flag">de</span> němčina</dt>
+              <dd>
+                {data.prekladyDe.map((p, i) => (
+                  <span class="preklad-item">
+                    <strong>{p.term}</strong>
+                    {p.zdroj && <span class="preklad-zdroj"> [{p.zdroj}]</span>}
+                    {i < data.prekladyDe!.length - 1 && <span class="preklad-sep"> · </span>}
+                  </span>
+                ))}
+              </dd>
+            </div>
+          )}
+          {data.prekladyEn && data.prekladyEn.length > 0 && (
+            <div class="preklad-row">
+              <dt><span class="lang-flag">en</span> angličtina</dt>
+              <dd>
+                {data.prekladyEn.map((p, i) => (
+                  <span class="preklad-item">
+                    <strong>{p.term}</strong>
+                    {p.zdroj && <span class="preklad-zdroj"> [{p.zdroj}]</span>}
+                    {i < data.prekladyEn!.length - 1 && <span class="preklad-sep"> · </span>}
+                  </span>
+                ))}
+              </dd>
+            </div>
+          )}
+          {data.prekladyFr && data.prekladyFr.length > 0 && (
+            <div class="preklad-row">
+              <dt><span class="lang-flag">fr</span> francouzština</dt>
+              <dd>
+                {data.prekladyFr.map((p, i) => (
+                  <span class="preklad-item">
+                    <strong>{p.term}</strong>
+                    {p.zdroj && <span class="preklad-zdroj"> [{p.zdroj}]</span>}
+                    {i < data.prekladyFr!.length - 1 && <span class="preklad-sep"> · </span>}
+                  </span>
+                ))}
+              </dd>
+            </div>
+          )}
+        </dl>
+      </section>
+    )}
+
+    {data.obrazek && (
+      <figure class="slovnik-hero">
+        <img src={data.obrazek.src} alt={data.obrazek.alt} loading="eager" decoding="async" />
+        {data.obrazek.caption && <figcaption>{data.obrazek.caption}</figcaption>}
+        <p class="slovnik-figure-credit"><em>{data.obrazek.credit}</em></p>
+      </figure>
+    )}
+
+    <div class="prose-content">
+      <Content />
+    </div>
+
+    {pribuzneEntries.length > 0 && (
+      <section class="slovnik-pribuzne" aria-labelledby="pribuzne-heading">
+        <h2 id="pribuzne-heading">Související hesla</h2>
+        <div class="pribuzne-grid">
+          {pribuzneEntries.map((e) => (
+            <a href={`/slovnik/${e.data.slug}`} class="pribuzne-card">
+              <h3>{e.data.title}</h3>
+              <p>{e.data.definice}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <footer class="article-byline">
+      <span class="byline-author">Český spolek horologický</span>
+      <span class="byline-sep" aria-hidden="true">·</span>
+      <span class="byline-date">Heslo z hodinářského slovníku — primární prameny v citacích</span>
+    </footer>
+  </article>
+</Base>
+
+<style>
+  .slovnik-detail {
+    max-width: 72ch;
+    margin: 0 auto;
+  }
+
+  .slovnik-detail-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .slovnik-detail-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    line-height: 1.1;
+    margin: 0 0 1rem;
+    color: var(--color-brass-bright);
+    letter-spacing: -0.01em;
+    text-transform: lowercase;
+  }
+  .slovnik-detail-title::first-letter {
+    text-transform: uppercase;
+  }
+
+  .slovnik-varianty {
+    font-size: 0.9rem;
+    color: var(--color-text-soft);
+    margin: 0 0 1rem;
+    font-style: italic;
+  }
+  .varianty-label {
+    color: var(--color-copper);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    margin-right: 0.5rem;
+    font-style: normal;
+  }
+  .varianta {
+    margin-right: 0.3rem;
+  }
+
+  .slovnik-definice-lead {
+    font-size: 1.15rem;
+    line-height: 1.55;
+    color: var(--color-text);
+    margin: 0;
+  }
+
+  /* Překlady tabulka */
+  .slovnik-preklady {
+    margin: 0 0 2.5rem;
+    padding: 1.25rem 1.5rem;
+    background: color-mix(in srgb, var(--color-bg-deep) 55%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 3px;
+  }
+  .preklady-grid {
+    display: grid;
+    gap: 0.75rem;
+    margin: 0;
+  }
+  .preklad-row {
+    display: grid;
+    grid-template-columns: minmax(8rem, 10rem) 1fr;
+    gap: 1rem;
+    align-items: baseline;
+  }
+  .preklad-row dt {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--color-copper);
+    font-weight: 500;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .lang-flag {
+    display: inline-block;
+    padding: 0.1rem 0.4rem;
+    background: color-mix(in srgb, var(--color-brass) 18%, transparent);
+    color: var(--color-brass-bright);
+    border-radius: 2px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+  }
+  .preklad-row dd {
+    font-size: 1rem;
+    color: var(--color-text);
+    margin: 0;
+    line-height: 1.5;
+  }
+  .preklad-item strong {
+    color: var(--color-brass-bright);
+    font-family: var(--font-serif);
+    font-weight: 500;
+  }
+  .preklad-zdroj {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+  .preklad-sep {
+    color: var(--color-brass);
+    opacity: 0.6;
+    margin: 0 0.1rem;
+  }
+
+  @media (max-width: 600px) {
+    .preklad-row {
+      grid-template-columns: 1fr;
+      gap: 0.25rem;
+    }
+  }
+
+  /* Hero obrázek */
+  .slovnik-hero {
+    margin: 0 0 2rem;
+    padding: 0;
+  }
+  .slovnik-hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  .slovnik-hero figcaption {
+    margin-top: 0.75rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--color-text);
+    font-style: italic;
+  }
+  .slovnik-figure-credit {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    line-height: 1.4;
+  }
+
+  /* MDX body — citace v blockquote */
+  .prose-content :global(blockquote) {
+    margin: 1.5rem 0;
+    padding: 0.85rem 1.1rem;
+    background: color-mix(in srgb, var(--color-bg-deep) 75%, transparent);
+    border-left: 3px solid color-mix(in srgb, var(--color-copper) 60%, transparent);
+    border-radius: 0 2px 2px 0;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--color-text);
+  }
+  .prose-content :global(blockquote p) {
+    margin: 0 0 0.4rem;
+  }
+  .prose-content :global(blockquote p:last-child) {
+    margin-bottom: 0;
+  }
+  /* Attribution line ("— AUTOR ...") starts new paragraph in markdown
+     blockquote when preceded by blank line. We render the dashed source
+     attribution slightly muted. */
+  .prose-content :global(blockquote em) {
+    font-style: italic;
+  }
+
+  /* Související hesla — cross-link cards */
+  .slovnik-pribuzne {
+    margin: 3rem 0 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  }
+  .slovnik-pribuzne h2 {
+    font-family: var(--font-serif);
+    font-size: 0.78rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: var(--color-copper);
+    font-weight: 500;
+    margin: 0 0 1.25rem !important;
+  }
+  .pribuzne-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.85rem;
+  }
+  .pribuzne-card {
+    display: block;
+    padding: 0.85rem 1rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: border-color 150ms ease;
+  }
+  .pribuzne-card:hover {
+    border-color: var(--color-brass);
+  }
+  .pribuzne-card h3 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 0.95rem !important;
+    color: var(--color-brass-bright) !important;
+    margin: 0 0 0.3rem !important;
+    line-height: 1.2 !important;
+    text-transform: lowercase;
+  }
+  .pribuzne-card h3::first-letter {
+    text-transform: uppercase;
+  }
+  .pribuzne-card p {
+    font-size: 0.78rem;
+    line-height: 1.45;
+    color: var(--color-text-soft);
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Article byline footer */
+  .article-byline {
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .byline-author { color: var(--color-text-soft); font-style: italic; }
+  .byline-sep { color: var(--color-brass); opacity: 0.5; }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>

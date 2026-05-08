@@ -521,10 +521,97 @@ const krokyDetaily = defineCollection({
   }),
 });
 
+/**
+ * ─── Hodinářský výkladový a překladový slovník ─────────────────────
+ *
+ * Hesla z primárních pramenů (Šumavský 1851, Špatný 1882, Sušický 1900,
+ * Sladkovský 1947, Bureš 1965, Saunier 1887, Gros 1913, Dietzschold 1894).
+ * Každé heslo: cs heslo + překlady de/en/fr (+ zdroj překladu) + krátká
+ * definice + výklad (MDX body) + příbuzné termíny (cross-links na další
+ * hesla) + reference s doslovnými citacemi.
+ *
+ * Redakční SSOT pro slovník je v user-scope skillu
+ *   ~/.claude/skills/horologicka-terminologie/reference/slovnik.md
+ *
+ * Migration do content collection probíhá scriptem `scripts/build-slovnik.mjs`
+ * (jednorázový sync; po commitu jsou MDX soubory autoritativní).
+ */
+const slovnikPreklad = z.object({
+  term: z.string(),
+  zdroj: z.string().optional(),                    // Špatný 1882, Šumavský 1851, …
+});
+
+const slovnikReference = z.object({
+  bibKey: z.string().optional(),
+  title: z.string().optional(),
+  citace: z.string().optional(),                   // doslovný citát z pramene
+  pages: z.string().optional(),
+  note: z.string().optional(),
+}).refine((r) => r.bibKey || r.title || r.citace, {
+  message: 'slovnik reference: musí mít bibKey, title nebo citace.',
+});
+
+const slovnik = defineCollection({
+  loader: glob({
+    base: '../../content/slovnik',
+    pattern: '**/*.{md,mdx}',
+  }),
+  schema: z.object({
+    title: z.string(),                              // cs heslo (lowercase typicky: "krok", "kotva")
+    slug: z.string(),                               // slugified ("kolo-zaverkove", "casova-rovnice")
+
+    /** Tematická kategorie pro řazení v indexu. */
+    kategorie: z.enum([
+      'mechanika',          // krok, soukolí, kyvadlo, setrvačka, …
+      'bici',               // bicí stroj, kladívko, cymbál, početník, …
+      'astronomicke',       // sluneční hodiny, gnómon, časová rovnice, kvadrant
+      'materialy',          // invar, rubínový kámen, isochronismus, …
+      'profese',            // hodinář, pouzdrář, hodinářské školy (rezerva pro budoucnost)
+      'jine',
+    ]),
+
+    /** Překlady do dalších jazyků s informací o zdroji terminologie. */
+    prekladyDe: z.array(slovnikPreklad).optional(),
+    prekladyEn: z.array(slovnikPreklad).optional(),
+    prekladyFr: z.array(slovnikPreklad).optional(),
+
+    /** Alternativní české tvary, archaické varianty, dialektismy. */
+    varianty: z.array(z.string()).optional(),
+
+    /** Krátká definice (1–2 věty) — renderuje se v indexu jako náhled
+     *  a v detailu jako lead pod nadpisem. */
+    definice: z.string(),
+
+    /** Slugy příbuzných hesel — vyrenderují se jako cross-link list. */
+    pribuzne: z.array(z.string()).optional(),
+
+    /** Reference s doslovnými citacemi z primárních pramenů. */
+    references: z.array(slovnikReference).optional(),
+
+    /** Volitelný hero obrázek heslá (schéma, fotka exempláře, výkres). */
+    obrazek: z.object({
+      src: z.string(),
+      alt: z.string(),
+      caption: z.string().optional(),
+      credit: z.string(),
+    }).optional(),
+
+    /** True = heslo je stub — výklad v MDX body čeká na doplnění. */
+    isStub: z.boolean().optional(),
+
+    /** Editorské poznámky (TODO, varování o nejistotě). */
+    editorNotes: z.array(editorNote).optional(),
+
+    /** Datum poslední revize hesla (kdy byly citace ověřeny v pramenech). */
+    poslednRevize: dateString.optional(),
+  }),
+});
+
 export const collections = {
   clanky,
   hodinari: hodinariMedailony,
   kronika,
   kroky: krokyDetaily,
   'soupis-veznich-hodin': soupisVeznichHodin,
+  slovnik,
 };
