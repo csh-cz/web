@@ -10,6 +10,24 @@ Rozděleno podle toho, kdo může s úkolem hnout — **Claude autonomně** vs *
 Programování, automatické opravy, generování obsahu z primárních pramenů.
 Lze pustit bez čekání na vstup od Davida/Petra.
 
+## 🎯 Doporučený další krok — Top 5
+
+Curated z níže uvedených sekcí. Výběr podle **value-per-hour** + nepřítomnost
+blokátorů:
+
+| # | Úloha | Sekce | Odhad | Proč |
+|---|---|---|---|---|
+| 1 | **FU1 UX copy audit** | A.10 | ~20 min | Broad impact napříč webem (stub note hodinářů, search hints, stav badges, footer). Žádný blokátor, výsledek hned vidět. |
+| 2 | **FU7 Tech-debt inventář** | A.10 | ~45 min | Před dalším refaktorem mít mapu dluhu (border-bottom inline, dialog handler duplicity, content schemas). Read-only, doporučí další work. |
+| 3 | **SL8 Cross-link kroky → slovnik** | A.6 | ~1–2 h | Nový `/slovnik/` je izolovaný; auto-link skript paralelní s existujícím `kroky:auto-link` propojí kartu kroku → heslo slovníku. |
+| 4 | **FU6 README pro hodinarium-eu** | A.10 | ~30 min | Engineering hygiene, žádný blokátor. Nutné před onboardováním dalších přispěvatelů. |
+| 5 | **D7 OG images chybějící — build check** | A.2 | ~30 min | Social sharing UX, build-time report identifikuje ~493 kandidátů. |
+
+**Většinu lze pustit nezávisle.** Jediný měkký řetěz: FU7 inventář může změnit
+prioritizaci ostatních FU (typicky odhalí redundance).
+
+---
+
 ## A.1 — Tech & funkcionalita (features)
 
 - [ ] **T4 Lighthouse CI / Web Vitals** — `lhci/cli` v GitHub Actions
@@ -63,30 +81,6 @@ Lze pustit bez čekání na vstup od Davida/Petra.
       nové přispěvatele (~1 h).
 - [ ] **README pro nové členy** — jak se zapojit, jak commitnout, koho
       kontaktovat.
-
-## A.9 — A11y audit 2026-05-08 — odložené nálezy
-
-První ruční audit hodinarium-eu (`docs/a11y-audit-hodinarium-2026-05-08.md`)
-identifikoval 17 nálezů. **Quick-wins (C1, C2, M1, M3, M4, M5) vyřešeny**
-v této větvi. Zbývají položky vyžadující větší refaktor nebo bundling:
-
-- [ ] **C3 + C4 + M2: SearchModal aria pattern refaktor** — combobox/listbox
-      pattern s `aria-activedescendant` na výsledcích, status `aria-live`
-      oddělený od listu, ArrowUp/Down přesouvá programatický focus,
-      ArrowLeft/Right pro tabs. Nejnáročnější — ~1–2 h. Ideálně po VoiceOver
-      test. Komponenta: `apps/hodinarium-eu/src/components/SearchModal.astro`.
-- [ ] **M6: Report form `<input readonly tabindex="-1">` → `<output>`**
-      — readonly+tabindex je OK funkčně, ale SR čte „form input"; lepší
-      `<output>` element. `ReportIssueModal.astro:57`.
-- [ ] **M7: Inline `style="border-bottom: none;"` na linkech v mapě** —
-      odstraňuje vizuální indikátor odkazu (WCAG 1.4.1 Use of Color).
-      `mapa.astro:66,96,109,110`.
-- [ ] **M8: Mobile hamburger aria-label toggle** — `<details>` má implicitní
-      aria-expanded, ale label dál říká „Otevřít menu" i když je menu otevřené.
-      Malý JS handler v `Base.astro`.
-- [ ] **N1–N4 hygienické fixy (bundle)** — `aria-modal="true"` na `<dialog>`,
-      `aria-live` na `.report-counter`, `role="alert"` v error stavu
-      `.report-status`, `<h4>` v map popup → `<strong>` (heading hierarchy).
 
 ## A.4 — Obsah (automatizace)
 
@@ -159,6 +153,85 @@ Až se přepne DNS (viz Část B), Claude provede:
 - [ ] `apps/horologie-cz/public/robots.txt` → vrátit `Allow: /`
       + `Disallow: /og/`
 - [ ] Submitnout sitemapy do Google Search Console
+
+## A.9 — A11y audit 2026-05-08 — odložené nálezy
+
+První ruční audit hodinarium-eu (`docs/a11y-audit-hodinarium-2026-05-08.md`)
+identifikoval 17 nálezů. **Quick-wins (C1, C2, M1, M3, M4, M5) vyřešeny**
+v této větvi. Zbývají položky vyžadující větší refaktor nebo bundling:
+
+- [ ] **C3 + C4 + M2: SearchModal aria pattern refaktor** — combobox/listbox
+      pattern s `aria-activedescendant` na výsledcích, status `aria-live`
+      oddělený od listu, ArrowUp/Down přesouvá programatický focus,
+      ArrowLeft/Right pro tabs. Nejnáročnější — ~1–2 h. Ideálně po VoiceOver
+      test. Komponenta: `apps/hodinarium-eu/src/components/SearchModal.astro`.
+- [ ] **M6: Report form `<input readonly tabindex="-1">` → `<output>`**
+      — readonly+tabindex je OK funkčně, ale SR čte „form input"; lepší
+      `<output>` element. `ReportIssueModal.astro:57`.
+- [ ] **M7: Inline `style="border-bottom: none;"` na linkech v mapě** —
+      odstraňuje vizuální indikátor odkazu (WCAG 1.4.1 Use of Color).
+      `mapa.astro:66,96,109,110`.
+- [ ] **M8: Mobile hamburger aria-label toggle** — `<details>` má implicitní
+      aria-expanded, ale label dál říká „Otevřít menu" i když je menu otevřené.
+      Malý JS handler v `Base.astro`.
+- [ ] **N1–N4 hygienické fixy (bundle)** — `aria-modal="true"` na `<dialog>`,
+      `aria-live` na `.report-counter`, `role="alert"` v error stavu
+      `.report-status`, `<h4>` v map popup → `<strong>` (heading hierarchy).
+
+## A.10 — Design / engineering follow-ups z auditu 2026-05-08
+
+Vyplynulo z accessibility auditu — kompletní specs v
+`docs/design-followups-hodinarium-2026-05-08.md` (skill `design:*` /
+`engineering:*`). Každá úloha má trigger string, file:line refy, plánovaný
+výstup. **Nepouštět batch-em** — uživatel chce mezi nimi rozhodovat.
+
+### 🔴 High priority
+
+- [ ] **FU1 UX copy audit** (~20 min, `design:ux-copy`) — microcopy napříč
+      webem: stub note hodinářů, draft placeholder, search hints, AI
+      fallback banner, empty search state, stav badges (in_situ/preneseno
+      přes `replace(/_/g, ' ')` quick hack), 404, ReportIssueModal copy,
+      footer micro-copy, hero CTA. Časopisecký tone-of-voice ČSH, neopravovat
+      odborné termíny zvolené autorem (skill `cestina` má precedenci).
+
+### 🟡 Medium priority
+
+- [ ] **FU2 Design critique — hero/index** (~15 min, `design:design-critique`)
+      — `index.astro` pro 3 audience segmenty (návštěvník muzea Děčín / cs
+      amatér / EN enthusiast). Hero text register, CTA (chybí „Naplánuj
+      návštěvu"?), featured grid × random Atlas, scroll fatigue, mobile
+      320px clamp().
+- [ ] **FU3 Design critique — soupis věžních hodin** (~15 min) —
+      `/soupis-veznich-hodin/` index/detail/mapa. Use case: „Hledám hodiny
+      v severních Čechách / od konkrétního hodináře". Index ↔ mapa
+      duplikace, stav badges scanability, mobile column hide.
+- [ ] **FU4 Design critique — sbírková karta** (~20 min) —
+      `/sbirka/karta/[slug]` + KartaSbirky komponenta. Audience: badatel
+      cituje × laik × kurátor. 12+ field density, citation export linky
+      v `<head>` neviditelné, vztah karta ↔ medailon hodináře přes
+      `vyrobce` matching, print stylesheet check.
+- [ ] **FU7 Tech-debt inventář** (~45 min, `engineering:tech-debt`) —
+      hot spots: inline `border-bottom: none` (souvisí s a11y M7),
+      dialog handler duplicity (SearchModal × ReportIssueModal hydrace),
+      Article × karta × hodinari × kronika quasi-Article layouts, content
+      collections schémata sjednocení (editorNotes, references, tldr),
+      inline scripts v Base.astro ~200 řádků, `src/data/*.ts` indexing.
+      Read-only audit → prioritizovaný seznam s file:line.
+
+### 🟢 Low priority
+
+- [ ] **FU6 Top-level README pro apps/hodinarium-eu** (~30 min,
+      `engineering:documentation`) — architecture (content collections,
+      MDX, draft mode variant A), CMS pipeline (Sveltia + CF Access +
+      Pages Functions + Octokit), deployment (CF Pages, sister
+      horologie-cz), semantic search (Workers AI 768-dim + R2), local
+      dev workflow, content authoring conventions.
+- [ ] **FU5 Design system audit (cross-site)** (~40 min, `design:design-system`)
+      — drift hodinarium-eu × horologie-cz: tokeny, komponenty (Card),
+      footer patterns, button styles. **Pustit až po stabilizaci obou
+      webů** (a11y bundle B + případné slovník expansion), jinak rebuilduje
+      pohyblivý cíl. Migration plan: které tokeny/komponenty do shared
+      `packages/ui`, které jsou legitimně site-specific.
 
 ---
 
