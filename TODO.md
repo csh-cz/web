@@ -6,7 +6,6 @@ Otevřené úkoly a odložená rozhodnutí pro CSH Web (hodinarium.eu, horologie
 
 Plný audit: [`audit-pro-petra.txt`](audit-pro-petra.txt). Petr odpoví, pak doplníme.
 
-- [ ] **A3 Maskovaná emailová adresa** — souhlasí Petr s nahrazením `info (kyselá ryba)` za `mailto:`?
 - [ ] **B2 ASTRO2 ESP01S vs ESP10S** — překlep v textu? Petr ujasní
 - [ ] **B3 Vybrané exponáty per sekce** — můj výběr 4×4, Petr potvrdí/změní
 - [ ] **B4 Otazníky v titulcích** — opravdu musí být 2?
