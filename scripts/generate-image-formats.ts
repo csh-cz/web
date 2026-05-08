@@ -108,6 +108,19 @@ async function processFile(file: string, stats: Stats): Promise<void> {
 }
 
 async function main() {
+  // Cloudflare Pages free tier má 20min build limit. Plný regen pro
+  // ~7000 obrázků trvá 30+ min a build padá na timeout. Generujeme
+  // tedy lokálně (commit varianty do gitu nebo do R2) a v CF Pages
+  // přeskakujeme. Override: SKIP_IMAGE_VARIANTS=0.
+  if (
+    process.env.SKIP_IMAGE_VARIANTS !== '0' &&
+    (process.env.CF_PAGES === '1' || process.env.SKIP_IMAGE_VARIANTS === '1')
+  ) {
+    console.log('CF Pages / SKIP_IMAGE_VARIANTS detected — skipping AVIF/WebP generation.');
+    console.log('(Generuj varianty lokálně přes `pnpm imgvariants:build` a commit do gitu.)');
+    return;
+  }
+
   const stats: Stats = { scanned: 0, generated: 0, skipped: 0, failed: 0 };
   const startedAt = Date.now();
 
