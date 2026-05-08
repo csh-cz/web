@@ -118,3 +118,28 @@ export function kronikaTypLabel(typ: string | undefined): string {
   if (!typ) return '';
   return KRONIKA_TYP_LABELS[typ] ?? typ;
 }
+
+/**
+ * Labely stavu věžních hodin (`soupis-veznich-hodin` schema enum).
+ *
+ * Schema používá technické slugy kvůli stabilitě URL filtrů a JSON
+ * exportu. UI label musí být čitelný — ne `replace(/_/g, ' ')` quick
+ * hack (ten `znicene` zobrazoval doslova jako „znicene", nikoli „zničeno").
+ *
+ * Audit: docs/design-followups-hodinarium-2026-05-08.md FU1.4.
+ *
+ * - `in situ` ponecháno jako terminus technicus (kunsthistorie)
+ * - ostatní stavy mají cs ekvivalent
+ */
+const STAV_LABELS: Record<string, string> = {
+  in_situ: 'in situ',
+  preneseno: 'přeneseno',
+  ztracene: 'ztracené',
+  znicene: 'zničené',
+  neznamy: 'stav neznámý',
+};
+
+export function stavLabel(stav: string | undefined): string {
+  if (!stav) return '';
+  return STAV_LABELS[stav] ?? stav.replace(/_/g, ' ');
+}
