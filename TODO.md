@@ -20,7 +20,7 @@ blokátorů:
 | 1 | ~~**FU1 UX copy audit**~~ ✅ hotovo | A.10 | ~20 min | 6 rewritů: stub note, draft placeholder, search hints, fallback, 404, report hint + `stavLabel()` utility. |
 | 2 | ~~**TD1 + a11y M7 bundle**~~ ✅ hotovo | A.9 + tech-debt | ~30 min | Sjednoceno na `.link-bare` class. WCAG 1.4.1 vyřešeno. |
 | 3 | **SL8 Cross-link kroky → slovnik** | A.6 | ~1–2 h | Nový `/slovnik/` je izolovaný; auto-link skript paralelní s existujícím `kroky:auto-link` propojí kartu kroku → heslo slovníku. |
-| 4 | **FU6 README pro hodinarium-eu** | A.10 | ~30 min | Engineering hygiene, žádný blokátor. Nutné před onboardováním dalších přispěvatelů. |
+| 4 | ~~**FU6 README pro hodinarium-eu**~~ ✅ hotovo | A.10 | ~30 min | apps/hodinarium-eu/README.md přepsán (410 ř.) — architektura, 6 collections, CMS pipeline, semantic search, deployment. |
 | 5 | ~~**TD2 dialog handler extrakce**~~ ✅ částečně | tech-debt | ~30 min | ReportIssueModal refaktorováno na `attachDialogControls()` helper. SearchModal čeká na bundle s C3+C4+M2 (define:vars blokuje ESM import). |
 
 **Většinu lze pustit nezávisle.** Jediný měkký řetěz: FU7 inventář může změnit
@@ -227,12 +227,13 @@ výstup. **Nepouštět batch-em** — uživatel chce mezi nimi rozhodovat.
 
 ### 🟢 Low priority
 
-- [ ] **FU6 Top-level README pro apps/hodinarium-eu** (~30 min,
-      `engineering:documentation`) — architecture (content collections,
-      MDX, draft mode variant A), CMS pipeline (Sveltia + CF Access +
-      Pages Functions + Octokit), deployment (CF Pages, sister
-      horologie-cz), semantic search (Workers AI 768-dim + R2), local
-      dev workflow, content authoring conventions.
+- ~~**FU6 Top-level README pro apps/hodinarium-eu**~~ ✅ Hotovo —
+      `apps/hodinarium-eu/README.md` přepsaný (410 řádků). Pokrývá:
+      stack, build velikost (1174 stran, 1.1 GB), 6 content collections,
+      routing & layouts, draft mode variant A, Pages Functions API surface,
+      Sveltia CMS pipeline, semantic search Workers AI, content authoring
+      konvence (frontmatter, ISO 690, Photo, image variants, tags),
+      skripty, Cloudflare Pages deployment, audit reporty + skill cross-links.
 - [ ] **FU5 Design system audit (cross-site)** (~40 min, `design:design-system`)
       — drift hodinarium-eu × horologie-cz: tokeny, komponenty (Card),
       footer patterns, button styles. **Pustit až po stabilizaci obou
