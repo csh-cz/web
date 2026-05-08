@@ -21,7 +21,7 @@ Pokusíme se to trochu roztřídit jak lze hodiny synchronizovat:
 - Sofistikovanějšá částečně samořiditelné systémy ([IBM - třídrát](/clanky/decin_regulaceIBM))
 - elektronicky - přenosem kódových informací po drátech, rádiovým vysíláním, televizním vysíláním, satelitním vysíláním, speciální sítí, bezdrátovým přenosem, elektrickou silovou sítí, počítačovou sítí, ...
 
-**Mechanické systémy** jednotného času se omezují na sjednocení malého počtu ukazatelů času. Asi typickým případem budou rozvody k číselníkům mechanických věžních hodin. Soustavy hřídelů a křížových spojek, vedoucí někdy i do jiné budovy zaslouží obdiv k umění starých mistrů. Kuriózně působící [pneumatické systémy](/clanky/pneumatika), které měly jistou výhodu například ve výbušném prostředí. Mechanicky řízený externím chronometrem je například i Pražský orloj. Mechanická synchronizace je včak spíše okrajovou záležitostí.
+**Mechanické systémy** jednotného času se omezují na sjednocení malého počtu ukazatelů času. Asi typickým případem budou rozvody k číselníkům mechanických věžních hodin. Soustavy hřídelů a křížových spojek, vedoucí někdy i do jiné budovy zaslouží obdiv k umění starých mistrů. Kuriózně působící [pneumatické systémy](/clanky/pneumatika), které měly jistou výhodu například ve výbušném prostředí. Mechanicky řízený externím [chronometrem](/slovnik/chronometr) je například i Pražský orloj. Mechanická synchronizace je včak spíše okrajovou záležitostí.
 
 ## **Elektrické systémy - elektrická revoluce v hodinářství**
 

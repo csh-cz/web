@@ -24,9 +24,9 @@ Torzo stoje postaveno.
 
 ![Fotografie 3](/img/decin/gotika/f/foto_0003.jpg)
 
-Detail soukolí.
+Detail [soukolí](/slovnik/soukoli).
 
-O vlastních hodinách jsme dosud nenašli žádné další informace. Naše tři nejstarší fotografie pochází přibližně z roku 1995. Zachycují torzo stroje, které se skládá z klecového rámu s rohovými sloupky zakončenými kováním do podoby gotického hřebu a ze zbytků bicího stroje. K naší velké lítosti zcela chybí jicí stroj. Z bicího stroje je zachováno soukolí od lanového bubnu po větrník. Stroj může být z doby výstavby zvonice, nebo i starší. Více bude možné odhadnou až po vyčištění a podrobnějším průzkumu.
+O vlastních hodinách jsme dosud nenašli žádné další informace. Naše tři nejstarší fotografie pochází přibližně z roku 1995. Zachycují torzo stroje, které se skládá z klecového rámu s rohovými sloupky zakončenými kováním do podoby gotického hřebu a ze zbytků [bicího stroje](/slovnik/bici-stroj). K naší velké lítosti zcela chybí jicí stroj. Z bicího stroje je zachováno soukolí od lanového bubnu po [větrník](/slovnik/vetrnik). Stroj může být z doby výstavby zvonice, nebo i starší. Více bude možné odhadnou až po vyčištění a podrobnějším průzkumu.
 
 ![Fotografie 4](/img/decin/gotika/f/foto_0004.jpg)
 

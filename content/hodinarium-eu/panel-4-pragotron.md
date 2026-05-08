@@ -46,7 +46,7 @@ Elektronickou náhradou mechanických matičních hodin jsou hodiny [ESH 3](/sbi
 
 ## Přehlídka konstrukce a Schauerovy hodiny
 
-Panel je oživen modelem [ozubených čtvercových kol](/sbirka/karta/inv-119-ozubene-ctverce/), předvádějících nezvyklé provedení funkčního soukolí. K vidění jsou také [nástěnné hodiny Schauer](/sbirka/karta/inv-120-nastenne-schauer/) a [podružné hodiny Pragotron Perla](/sbirka/karta/inv-121-podruzne-pragotron-perla/).
+Panel je oživen modelem [ozubených čtvercových kol](/sbirka/karta/inv-119-ozubene-ctverce/), předvádějících nezvyklé provedení funkčního [soukolí](/slovnik/soukoli). K vidění jsou také [nástěnné hodiny Schauer](/sbirka/karta/inv-120-nastenne-schauer/) a [podružné hodiny Pragotron Perla](/sbirka/karta/inv-121-podruzne-pragotron-perla/).
 
 ## Poznámka k uspořádání
 

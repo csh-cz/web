@@ -25,7 +25,7 @@ karta:
   stav: "funkční"
 ---
 
-Strojek je řízen polarizovanými impulzy, vysílanými matičními hodinami v minutových intervalech (typicky kyvadlem s [Hippovým kontaktem](/sbirka/karta/inv-85-model-hipp/)).
+Strojek je řízen polarizovanými impulzy, vysílanými matičními hodinami v minutových intervalech (typicky [kyvadlem](/slovnik/kyvadlo) s [Hippovým kontaktem](/sbirka/karta/inv-85-model-hipp/)).
 
 Tento typ podružného strojku byl vyráběn firmou Hipp-Favarger ještě kolem roku 1930.
 

@@ -12,7 +12,7 @@ tldr: 'Do Hodinária jsme získali zajímavý stroj podružných hodin. Jedná s
 ---
 Do Hodinária jsme získali zajímavý stroj podružných hodin. Jedná se o systém s krokovým motorkem, řízeným polarizovanými minutovými impulzy, doplněný vteřinovým ukazatelem, poháněným synchronním motorkem. Na strojku není označení výrobce, ale jedná se o typ, používaný u německých drah – vteřinová ručka se pohybuje ve vteřinových skocích, neboť pastorek zasahující do vteřinového kola, má jen dva zuby. Po dosažení pozice 12 čeká na posun minutové ručky. Synchronizace je provedena mechanicky.
 
-V části pro vteřinový pohon je kolo vteřinové ručky (1) s výřezem. Sestava vteřinového soukolí je na obrázku (2). Do výřezu po jedné otáčce zapadne palec blokovací páky (3) a kolo se zastaví. Motorek se může točit dál, protože mezi něj a vteřinové kolo je vloženo kolo s odpruženým pastorkem (4). Pastorek je dutý a je v něm pružina, která třením zprostředkuje přenos pohybu z motorku na vteřinové kolo.
+V části pro vteřinový pohon je kolo vteřinové ručky (1) s výřezem. Sestava vteřinového [soukolí](/slovnik/soukoli) je na obrázku (2). Do výřezu po jedné otáčce zapadne palec blokovací páky (3) a kolo se zastaví. Motorek se může točit dál, protože mezi něj a vteřinové kolo je vloženo kolo s odpruženým pastorkem (4). Pastorek je dutý a je v něm pružina, která třením zprostředkuje přenos pohybu z motorku na vteřinové kolo.
 
 Při pohybu minutové ručky se pootočí impulzní váleček na rotoru krokového motorku (5). Tím se nadzdvihne blokovací páka a vteřinové kolo se uvolní pro další otáčku. Celá sestava je na úvodním obrázku.
 

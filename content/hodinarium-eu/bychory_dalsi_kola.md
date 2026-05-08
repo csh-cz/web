@@ -10,7 +10,7 @@ relatedKarty:
   - inv-2-vezni-prokes-1868-soubor
 tldr: 'Pokud někdo vystavuje starý věžní hodinový stroj, soustředí se většinou na vlastní rám, ve kterém může být podle okolností samostatný jicí stroj, někdy spolu s bicím strojem celých hodin případně bicí…'
 ---
-Pokud někdo vystavuje starý věžní hodinový stroj, soustředí se většinou na vlastní rám, ve kterém může být podle okolností samostatný jicí stroj, někdy spolu s bicím strojem celých hodin případně bicím strojem čtvrťovým. To je nejzajímavější část. Věžní hodiny ovšem tvoří další soustavy převodů, které otáčení minutové hřídele jicího stroje převedou až na ciferníky. Teprve zde se k minutové hřídeli přidává hřídel hodinová a dají se tak pohánět obě rafie.
+Pokud někdo vystavuje starý věžní hodinový stroj, soustředí se většinou na vlastní rám, ve kterém může být podle okolností samostatný jicí stroj, někdy spolu s [bicím strojem](/slovnik/bici-stroj) celých hodin případně bicím strojem čtvrťovým. To je nejzajímavější část. Věžní hodiny ovšem tvoří další soustavy převodů, které otáčení minutové hřídele jicího stroje převedou až na ciferníky. Teprve zde se k minutové hřídeli přidává hřídel hodinová a dají se tak pohánět obě rafie.
 
 Otáčení minutové hřídele se na různé strany rozvádí soustavou tyčí a převodů rozvodovky. Přímo v místě ciferníku jsou ručková soukolí. Ve Věžním muzejíčku je vystavena jedna rozvodovka a jedno ručkové soukolí z dílny Prokeš, i když patrně nepochází ze zámku Býchory jako ostatní části. [![rozbodobk Prokeš](/img/vez/bychory/prokes1873.jpg)](/img/vez/bychory/f/prokes1873.jpg)
 
@@ -28,7 +28,7 @@ Na obrázku je ilustrační fotografie části rozvodů restaurovaného stroje P
 
 Úkolem ručkového soukolí je zajistit otáčení hodinové ručičky v závislosti na minutové hřídeli, tedy zajistit převodový poměr 1:12. Nebyl by to Prokeš, aby v převodech nepoužil neobvyklý počtů zubů. Na minutové hřídeli je nasazeno kolo s 24 zuby. Do něj zabírá mezilehlé kolo rovněž s 24 zuby. Tedy převod 1:1. To je ovšem nezanedbatelná výhoda, protože tyč z rozvodovky může být připojena buď na minutovou hřídel, nebo přímo na mezilehlé kolo. Snadno se tak vyřeší problém opačného otáčení některých hřídelí bez potřeby dodatečných kol.
 
-Pastorek mezilehlého kola s pouze 4 cévkami pak zabírá do 48 zubů hodinového kola. Převodový poměr 1:12 je realizován jedním soukolím. Pastorek je vyroben přímo z hmoty osy tak, že cévky vzniknou z hran původního čtyřhranu. Řešení je to zajímavé, ale tento pastorek je asi nejporuchovější místo v soustrojí.
+Pastorek mezilehlého kola s pouze 4 cévkami pak zabírá do 48 zubů hodinového kola. Převodový poměr 1:12 je realizován jedním [soukolím](/slovnik/soukoli). Pastorek je vyroben přímo z hmoty osy tak, že cévky vzniknou z hran původního čtyřhranu. Řešení je to zajímavé, ale tento pastorek je asi nejporuchovější místo v soustrojí.
 
 ![rozvody Svinky](/img/vez/bychory/rozvod_Svinky.jpg)
 

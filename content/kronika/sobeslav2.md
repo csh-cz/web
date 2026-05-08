@@ -28,8 +28,8 @@ Trochu jiný pohled najdete na stránce **[Historie věžních hodin v Soběslav
 
 [![Hodinová stroj Elektročas z r. 1959. Foto Jan Lintner 2008.](/img/vezni/sobeslav/elektrocas1959b.jpg)](/img/vezni/sobeslav/elektrocas1959.jpg)
 
-**N**a jejich místo byly instalovány kyvadlové elektrické hodiny vyrobené firmou Elektročas n.p. Praha společně s ciferníkem ve tvaru čtverce a hodinovými ručičkami délek 180 a 155 cm. Pomocí strun jsou spojeny se zvonky pod horní bání.
+**N**a jejich místo byly instalovány [kyvadlové](/slovnik/kyvadlo) elektrické hodiny vyrobené firmou Elektročas n.p. Praha společně s ciferníkem ve tvaru čtverce a hodinovými ručičkami délek 180 a 155 cm. Pomocí strun jsou spojeny se zvonky pod horní bání.
 
-**V**íce jak 25 let se pan Václav Líkař stará o to, aby hodinový stroj správně odměřoval čas a aby cimbál po úderu kladívka pravidelně do světa hlásil každou čtvrthodinu a tónem jiné frekvence každou celou hodinu.
+**V**íce jak 25 let se pan Václav Líkař stará o to, aby hodinový stroj správně odměřoval čas a aby cimbál po úderu [kladívka](/slovnik/kladivko) pravidelně do světa hlásil každou čtvrthodinu a tónem jiné frekvence každou celou hodinu.
 
 **S**oběslavské věžní hodiny pamatují úsměvnou příhodu z roku 1932. Dne 22. února byly uvedeny v soulad se středoevropským časem. Stalo se tak na základě rozhodnutí okresního soudu. Již od dob úřadování starosty Josefa Mrázka šly totiž o sedm minut napřed, aby lidé nepřišli pozdě na vlak. Pan starosta ho jednou zmeškal, když jel na c. k. místodržitelství. Byla z toho nepříjemnost. Aby se podobná věc neopakovala, nechal rafiky na hodinách posunout. Jak místní obyvatelé stíhali odjezdy vlaků po zrušení speciálního soběslavského času, už kroniky neuvádějí.

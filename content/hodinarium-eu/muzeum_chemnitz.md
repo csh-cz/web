@@ -19,4 +19,4 @@ tldr: 'Privátní muzeum se zaměřením podobným našemu Hodináriu. Spolek by
 
 Privátní muzeum se zaměřením podobným našemu Hodináriu. Spolek byl založen v roce 2010, sídlí na adrese **Zwickauer Straße 164a, Chemnitz**. Otevřeno po telefonické dohodě.
 
-Sbírka pokrývá **věžní hodiny** (s důrazem na saské výrobce — Zachariä z Lipska, Han ze Zwickau), **systémy školních a podružných hodin**, **časové ústředny**, **píchačky**, **časová razítka** plus některé elektrické a francouzské/anglické signální kyvadlové hodiny. Programaticky průmyslová, časoměrná i elektrohodinářská tematika — méně klasické nábytkářské hodiny.
+Sbírka pokrývá **věžní hodiny** (s důrazem na saské výrobce — Zachariä z Lipska, Han ze Zwickau), **systémy školních a podružných hodin**, **časové ústředny**, **píchačky**, **časová razítka** plus některé elektrické a francouzské/anglické signální [kyvadlové](/slovnik/kyvadlo) hodiny. Programaticky průmyslová, časoměrná i elektrohodinářská tematika — méně klasické nábytkářské hodiny.

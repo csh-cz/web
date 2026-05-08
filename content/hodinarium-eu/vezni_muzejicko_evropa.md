@@ -81,7 +81,7 @@ Věžní hodinářské museum bylo založeno v roce 1996. Naštěstí požár, k
 
 Rozsáhlé muzeum věžních hodin v bývalém kostele sv. Silvestra bylo založeno v roce 1979 učitelem Wolgangem Vogtem. V současné době vystavuje asi 50 věžních hodin od 30 výrobců z let 1562 - 1933. Kurátor a majitel sbírá věžní hodiny už cca 35 let. Říká, že pokud na ně má, tak si je koupí sám a pokud jsou drahé zakoupí je Město. Město také hradí i provoz muzea.
 
-Prakticky každý z 50 vystavených strojů je v chodu. Vystaveny jsou i některé unikáty, jako je replika orloje z roku 1529, nebo stroj s druhým nejdelším kyvadlem na světě. Kyvadlo dosahuje délky 30 m a jeden kyv udělá zhruba za 5 sekund. Na dokreslení atmosféry jsou vystavovány i menší hodiny od hodin slunečních či ohňových včetně hodin ohlašujících poledne výstřelem z malého děla přes nástěnné a krbové hodiny. Na našem muzejním webu vystavujeme fotogalerii a video z této expozice.
+Prakticky každý z 50 vystavených strojů je v chodu. Vystaveny jsou i některé unikáty, jako je replika orloje z roku 1529, nebo stroj s druhým nejdelším [kyvadlem](/slovnik/kyvadlo) na světě. Kyvadlo dosahuje délky 30 m a jeden kyv udělá zhruba za 5 sekund. Na dokreslení atmosféry jsou vystavovány i menší hodiny od hodin slunečních či ohňových včetně hodin ohlašujících poledne výstřelem z malého děla přes nástěnné a krbové hodiny. Na našem muzejním webu vystavujeme fotogalerii a video z této expozice.
 
 ### [Chemnitz](http://www.uhrenmuseum-chemnitz.de/)
 

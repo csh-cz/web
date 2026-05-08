@@ -23,7 +23,7 @@ Privátní hodinářské muzeum patřící luxusnímu hodinářství **Beyer** v
 Sbírka pokrývá širokou škálu hodinářských exponátů:
 - **Astrarium de Dondi** — replika legendárního astronomického orloje Giovanniho de Dondi z roku 1364
 - **Věžní hodiny** — historické exempláře evropského věžního hodinářství
-- **Breguet** — kapesní hodinky a chronometry slavného francouzského mistra
+- **Breguet** — kapesní hodinky a [chronometry](/slovnik/chronometr) slavného francouzského mistra
 - **Automaty a hudební mechanismy** — kombinace hodinářské a uměleckořemeslné tradice
 
 Muzeum se nachází v podzemí prodejny Beyer; návštěva v omezených hodinách.

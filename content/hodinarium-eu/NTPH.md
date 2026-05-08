@@ -52,7 +52,7 @@ Hodiny jsou vyrobeny 3D tiskem ve dvou variantách a jsou ovládané elektroniko
 
 Řídící jednotka bohužel nemá zpětnou informaci, jak jsou nastaveny ručičky. Natavit je můžete trojím způsobem:
 
-- Ručičky vyjmete ze elektroniky a znovu sestavíte. Asi se to nepovede úplně přesně, protože nebudou správně sedět zuby soukolí.
+- Ručičky vyjmete ze elektroniky a znovu sestavíte. Asi se to nepovede úplně přesně, protože nebudou správně sedět zuby [soukolí](/slovnik/soukoli).
 - Stisknete na modulu hodin tlačítko. Krátce blikne červená a začnou se vpřed pohybovat rafičky nejvyšší možnou rychlostí. V okamžiku, kdy tlačítko pustíte, považuje řídící jednotka rafičky za seřízené.
 - Nejjednodušší je, na interním webu nastavit čas, který rafičky právě ukazují. Připojíte se na web dle bodů 6. a 7. Pro jistotu hodiny stopnete, zadáte čas na hodinách a hodiny spustíte. Polohu můžete jemně doladit volbou "+", která posouváte rafičky o 1/10 minuty.
 

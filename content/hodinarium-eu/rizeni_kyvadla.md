@@ -18,7 +18,7 @@ Přesná mechanická kyvadla jsou obvykle teplotně i barometricky kompenzována
 
 ### Základní princip
 
-V našem projektu kyvadlo s motoricky řízeným trimovacím závažíčkem na kyvadlové tyči volně kývá a jeho průchod nulovou polohou je snímán infračerveným optickým čidlem. Časy průchodů jsou měřeny mikroprocesorem ESP8266 s přesností na mikrosekundy pomocí funkce `micros()`. Výsledné hodnoty (doby jednoho kyvu) jsou zpracovávány a srovnávány s ideální hodnotou, například 1000.00 ms. Při zjištění odchylky program vypočítá potřebný počet kroků motoru pro změnu polohy závažíčka na závitové tyči, čímž se změní moment setrvačnosti kyvadla – a tedy i jeho perioda.![Web kyvadla](/img/elektrika/kyvadlo/kyvadlo1.jpg)
+V našem projektu kyvadlo s motoricky řízeným trimovacím závažíčkem na [kyvadlové](/slovnik/kyvadlo) tyči volně kývá a jeho průchod nulovou polohou je snímán infračerveným optickým čidlem. Časy průchodů jsou měřeny mikroprocesorem ESP8266 s přesností na mikrosekundy pomocí funkce `micros()`. Výsledné hodnoty (doby jednoho kyvu) jsou zpracovávány a srovnávány s ideální hodnotou, například 1000.00 ms. Při zjištění odchylky program vypočítá potřebný počet kroků motoru pro změnu polohy závažíčka na závitové tyči, čímž se změní moment setrvačnosti kyvadla – a tedy i jeho perioda.![Web kyvadla](/img/elektrika/kyvadlo/kyvadlo1.jpg)
 
 ### **Možnosti a funkce systému**
 

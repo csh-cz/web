@@ -10,11 +10,11 @@ tldr: 'Síťové synchronní hodiny jak z Verneových románů. Stroj přímo sv
 ---
 Síťové synchronní hodiny jak z Verneových románů. Stroj přímo svádí k přestavbě na steampunkové skeletové hodiny.
 
-Konstruoval je ing. Robert Michl ( \*1869, +1952) v Košicích. Na konstrukci s ním v letech 1919–1920 spolupracoval německý mechanik Július LANGHANS. Vynález byl později patentován ve všech průmyslově vyspělých státech Evropy a v USA. Unikátní a typické je použití odstředivého regulátoru otáček u synchronního motoru.
+Konstruoval je ing. Robert Michl ( \*1869, +1952) v Košicích. Na konstrukci s ním v letech 1919–1920 spolupracoval německý mechanik Július LANGHANS. Vynález byl později patentován ve všech průmyslově vyspělých státech Evropy a v USA. Unikátní a typické je použití odstředivého [regulátoru](/slovnik/regulator) otáček u synchronního motoru.
 
 Hodiny nejprve malosériově vyráběl ing. Michl ve své továrně Laplace, s. s r. o., Košice, později prodal licence na výrobu. Většinu hodin Laplace v českých sbírkách vyrobila Továrna na elektrická počitadla, s. s r. o. Praha, která byla afilovaným podnikem akciové společnosti Českomoravská-Kolben. Na základě licence byly hodiny vyráběny také v Mauthe, Schwenningen nad Neckerm a v hodinářské továrně Hammond Clock Co., Chicago.;
 
-Aby mohl být u synchronních hodin zajištěn přesný časový údaj, bylo nutné frekvenci sítě regulovat. K tomuto účelu ing. Michl navrhl speciální hodiny, které byly instalované ve velkých elektrárnách v Československu i dalších státech. Byly to přesné kyvadlové hodiny doplněné hodinami synchronními.
+Aby mohl být u synchronních hodin zajištěn přesný časový údaj, bylo nutné frekvenci sítě regulovat. K tomuto účelu ing. Michl navrhl speciální hodiny, které byly instalované ve velkých elektrárnách v Československu i dalších státech. Byly to přesné [kyvadlové](/slovnik/kyvadlo) hodiny doplněné hodinami synchronními.
 
 Stránka byla vytvořená na základě knihy pana Zdeňka Martínka - DĚJINY ČESKOSLOVENSKÉHO HODINÁŘSKÉHO PRŮMYSLU
 a informací poskytnutých Ing. Mariánem Majerníkem z Slovenského technického múzea Košice.

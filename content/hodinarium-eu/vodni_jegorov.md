@@ -10,7 +10,7 @@ tags:
   - vodni
 tldr: "Pan doktor Jegorov má mnoho zajímavých zájmů a jedním z nich je i konstruování různých, řekli bychom \"netradičně tradičních\", hodin.…"
 ---
-Pan doktor Jegorov má mnoho zajímavých zájmů a jedním z nich je i konstruování různých, řekli bychom "netradičně tradičních", hodin. Postavil dvoje sluneční hodiny, nyní pracuje na hodinách lihýřových.
+Pan doktor Jegorov má mnoho zajímavých zájmů a jedním z nich je i konstruování různých, řekli bychom "netradičně tradičních", hodin. Postavil dvoje [sluneční hodiny](/slovnik/slunecni-hodiny), nyní pracuje na hodinách lihýřových.
 
 Při cestě do Rakouska obdivoval vodní hodiny od sochaře Elmsteinera (v **[Reichethalu](/img/vodni/reichental.jpg)** a **[Pieberschlagu](/img/vodni/pieberschlag.jpg)**) a rozhodl se vyrobit si své. Požádali jsme ho o bližší informace.
 

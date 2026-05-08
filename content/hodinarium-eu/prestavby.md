@@ -49,7 +49,7 @@ Nápad například na postavení prstencových hodin prý vznikl při pohledu na
 
 **J**inou, asi 40 let starou, přestavbu vidíte na obrázku vlevo. Náramkové hodinky přestavené na sloupkové vysoké 9 cm.
 
-**Z**e stroje náramkových hodinek bez kamenů odstraněna setrvačka a nahrazena kyvadlem. Závěs kyvadla (patrně z kytarové struny) přilepen přímo na kotvu kroku. Čočka kyvadla původně přidržována připájeným drátkem, dnes fixováno pomocí lepicí gumy. Schrána stroje vznikla pájením připojených částí předválečného nábytkového kování.
+**Z**e stroje náramkových hodinek bez kamenů odstraněna [setrvačka](/slovnik/setrvacka) a nahrazena [kyvadlem](/slovnik/kyvadlo). Závěs kyvadla (patrně z kytarové struny) přilepen přímo na kotvu kroku. Čočka kyvadla původně přidržována připájeným drátkem, dnes fixováno pomocí lepicí gumy. Schrána stroje vznikla pájením připojených částí předválečného nábytkového kování.
 
 **H**odiny vydrží v chodu i několik hodin.
 

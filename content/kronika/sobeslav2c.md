@@ -19,7 +19,7 @@ scrapedAt: "2026-04-27T17:36:37.648Z"
 
 - **1675 - 1677 Předělávány hodiny z českého na německý čas a značně přestavěny nejprve hodinářem Václavem Partlem a později Němcem Janem Möltzerem, hodinářem z Jindřichova Hradce.** Stroj čtvrťového bití možná doplněn v tomto roce nebo až v roce 1707 ??.
 
-- **1707 - Další zásadní přestavba. Hodiny již měly kyvadlo místo lihýře.** Není známo jaký byl použit krok. Není nalezen záznam o práci hodináře Johana Hönerem z Kraslic. **Hřídel krokového kola je však tímto hodinářem signována v roce 1743.**Je tedy pravděpodobné, že k přestavbě na kotvový krok došlo až v tomto roce.
+- **1707 - Další zásadní přestavba. Hodiny již měly [kyvadlo](/slovnik/kyvadlo) místo [lihýře](/slovnik/lihyr).** Není známo jaký byl použit krok. Není nalezen záznam o práci hodináře Johana Hönerem z Kraslic. **Hřídel krokového kola je však tímto hodinářem signována v roce 1743.**Je tedy pravděpodobné, že k přestavbě na kotvový krok došlo až v tomto roce.
 
 - Během své existence byly hodiny mnohokrát opravovány. Naposled roku 1957.
 
@@ -29,7 +29,7 @@ scrapedAt: "2026-04-27T17:36:37.648Z"
 
 **U**vedené archivní zápisy a nalezené signatury nedávají jednoznačnou odpověď na stáří hodin, ani jednoznačně neurčují jejich tvůrce. Rovněž není jasné jejich umístění ve věži, počet ciferníků a ani umístění a počet odbíjecích cimbálů. Stáří stroje bohužel nepotvrzují nalezené signatury. Rám signován není. Nejstarší nalezená signatura je z roku 1743.
 
-**S**oběslavské hodiny mají vysoký štíhlý ručně kovaný rám. Sloupky jsou zakončeny hlavicemi kovanými do podoby gotických hřebů. Základ stroje, zejména rám, může pocházet z roku 1484 z prvních soběslavských hodin. Většinu zápisů o vytvoření nových hodin lze spíše chápat jako přestavbu, nahrazení opotřeběných kol. Svědčí o tom i použitá množství železa nedostačující na celý stroj. Hlavní stroj bez "čtvrtku" (tedy jen jicí a bicí stroj celých hodin) dnes váží 160 kg, tedy cca 300 liber.
+**S**oběslavské hodiny mají vysoký štíhlý ručně kovaný rám. Sloupky jsou zakončeny hlavicemi kovanými do podoby gotických hřebů. Základ stroje, zejména rám, může pocházet z roku 1484 z prvních soběslavských hodin. Většinu zápisů o vytvoření nových hodin lze spíše chápat jako přestavbu, nahrazení opotřeběných kol. Svědčí o tom i použitá množství železa nedostačující na celý stroj. Hlavní stroj bez "čtvrtku" (tedy jen jicí a [bicí stroj](/slovnik/bici-stroj) celých hodin) dnes váží 160 kg, tedy cca 300 liber.
 
 **Z**áměna výměny hodin s výměnou ciferníku je v historických zápisech častá. Formulace "byly na věž taženy hodiny nový" pravděpodobně hovoří o ciferníku, který se musí i pro svou velikost dopravovat vně věže. Naproti tomu hodiny jsou uvnitř věže. Ve věži není vhodné okno, kterým by se hodiny dostaly dovnitř a tažení po točitém schodišti není možné pro značné rozměry sestaveného stroje. Hodiny byly patrně sestaveny až na definitivním místě.
 

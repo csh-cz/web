@@ -17,7 +17,7 @@ v Děčíně. Stroj v expozici pochází z roku **1959**.
 
 Stroj **nemá krokové ústrojí** — sám o sobě nejde. Potřebuje jiné řídící hodiny,
 které jednou za minutu dají pokyn k uvolnění zarážkového mechanismu. Jako
-řídící hodiny mohly být použity kyvadlové mateční hodiny z produkce Elektročas.
+řídící hodiny mohly být použity [kyvadlové](/slovnik/kyvadlo) mateční hodiny z produkce Elektročas.
 Toto řešení je v našich končinách velmi vzácné — více se vyskytovalo například
 v Německu. Dnes jsou k naší lítosti klasické věžní hodinové stroje nahrazovány
 elektrickými pohony přímo u ciferníků a řídící hodiny jsou čistě elektronické.
@@ -30,7 +30,7 @@ elektrickými pohony přímo u ciferníků a řídící hodiny jsou čistě elek
 
 Na první fotografii je přední strana stroje v klidu. V pravé horní části je
 vypouštěcí ústrojí, ve středu náhon na ciferníky, vlevo dole motor elektrického
-natahování. Druhá fotografie ukazuje kontrolní ciferník a brzdící větrník.
+natahování. Druhá fotografie ukazuje kontrolní ciferník a brzdící [větrník](/slovnik/vetrnik).
 
 ## Jak vypouštění funguje
 
@@ -38,7 +38,7 @@ Dvouramenná západka leží na páce s výsečí a znemožňuje otáčení hodi
 Čtyřpólový krokový motorek (vpravo nahoře) se při příchodu minutového
 polarizovaného impulzu pootočí o čtvrtinu kruhu, kolík odsune západku, tím
 poklesne páka s půlkruhovou výsečí. Dvouramenná západka se uvolní a otočením,
-které je brzděné větrníkem, umožní posun soukolí o jednu minutu. Při své
+které je brzděné větrníkem, umožní posun [soukolí](/slovnik/soukoli) o jednu minutu. Při své
 otočce jedním ze dvou kolíků vrátí západka páku s výsečí do výchozí polohy.
 
 Jednoduché a elegantní.

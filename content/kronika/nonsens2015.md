@@ -18,7 +18,7 @@ Vystavujeme raději funkční hodinové stroje neobvykle instalované ve stylu s
 
 ![Fotografie 1](/img/nonsens2015/f/foto_0001.jpg)
 
-Zajímavé spínací hodiny pro spínání 1 x za 24 hodin. Zde instalované se steampunkové schránce. Ryhlost chodu kyvadla kyvadla se řídí vkládáním závažíček do misky naběračky. Školní poučka, že na hmotě kyvadla nezáleží, platí pouze pro kyvadlo matematické. U naběračky na hmotě záleží.
+Zajímavé spínací hodiny pro spínání 1 x za 24 hodin. Zde instalované se steampunkové schránce. Ryhlost chodu kyvadla kyvadla se řídí vkládáním závažíček do misky naběračky. Školní poučka, že na hmotě kyvadla nezáleží, platí pouze pro [kyvadlo](/slovnik/kyvadlo) matematické. U naběračky na hmotě záleží.
 
 ![Fotografie 3](/img/nonsens2015/f/foto_0003.jpg)
 

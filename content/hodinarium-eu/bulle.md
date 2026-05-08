@@ -16,7 +16,7 @@ tldr: 'Jde o hodiny s elektromagnetickým impulzem do kyvadla, které následně
 
 ![Patent - figure 6](/img/elektrika/bulle/patent6.jpg)
 
-Jde o hodiny s elektromagnetickým impulzem do kyvadla, které následně posunuje stroj. Proti nákresům z patentních spisů je osa páčky která posunuje rohatku nastavitelná, takže lze nastavit, aby při poměrně velkém amplitudě kyvadlo posunula stroj právě o jeden zub rohatky. Kyvadlo je navíc pomocnou pružinou udržováno v poměrně stabilní amplitudě. Krokový mechanizmus je neobvykle efektní, takže často bývá viditelný.
+Jde o hodiny s elektromagnetickým impulzem do kyvadla, které následně posunuje stroj. Proti nákresům z patentních spisů je osa páčky která posunuje rohatku nastavitelná, takže lze nastavit, aby při poměrně velkém amplitudě [kyvadlo](/slovnik/kyvadlo) posunula stroj právě o jeden zub rohatky. Kyvadlo je navíc pomocnou pružinou udržováno v poměrně stabilní amplitudě. Krokový mechanizmus je neobvykle efektní, takže často bývá viditelný.
 
 Na rozdíl od jiných hodin s elektromagnetickým impulzem do kyvadla používají hodiny Bulle magnet se zvláštním uspořádáním. Liší se od běžných permanentních magnetů tím, že i když je fyzicky jedním tělesem, magneticky se dělí na dvě samostatná opačně orientovaná magnetická pole. Na fyzických koncích jsou například jižní póly a severní póly jsou fyzicky uprostřed. Pokud by bylo opačné uspořádání, musí se pro zdárný chod obrátit polarita baterie. Obrázek vpravo je převzat z patentu z roku 1920.
 

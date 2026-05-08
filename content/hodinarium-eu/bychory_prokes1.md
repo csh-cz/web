@@ -32,7 +32,7 @@ Pan Prokeš se v roce 1864 ucházel i o opravu Pražského orloje a vyrobil pro 
 
 Věžní hodinový stroj střední velikosti. Lucernové (cévkové) pastorky — v době nálezu už nebyly otočné, místy byly nahrazeny hřebíkem. Vypouštění bicích strojů jednopákové. Kyvadlová čočka litinová, kyvadlová tyč ocelová. Litinová závaží jsou zavěšena přes volné kladky na ocelových lanech.
 
-Na horní vodorovné pásnici kyvadlové strany hodinového stroje je čitelná signatura výrobce s uvedeným letopočtem: **[Jan Prokeš](/hodinari/jan-prokes) v Sobotce 1868.**
+Na horní vodorovné pásnici [kyvadlové](/slovnik/kyvadlo) strany hodinového stroje je čitelná signatura výrobce s uvedeným letopočtem: **[Jan Prokeš](/hodinari/jan-prokes) v Sobotce 1868.**
 
 *Výňatek z restaurátorské zprávy P. Skály.*
 
@@ -44,11 +44,11 @@ Spolu s hodinovým strojem byl získán i mimořádný **přídavný zvonicí st
 
 Jedná se o malý železný stroj — výška základových desek 28 cm, šířka 26 cm, hloubka 12 cm. Zvonicí stroj byl poháněn jedním závažím zavěšeným na řetízku. Za tento řetízek byl také natahován ze spodního patra od hodinového stroje, podobně jako se natahují nástěnné hodiny se závažovým pohonem (např. kukačky). Stroj zvonil zvláštní paličkou rychle po sobě jdoucími údery na hodinový cimbál.
 
-Vypouštění bylo prováděno přídavným kolem na hodinovém stroji. Kolo obsahuje jeden pevný a dva stavitelné výpustné kolíčky a je spojeno převodem 1:2 se závěrkovým kolem hodinového bicího stroje (otočí se 1× za 24 hodin).
+Vypouštění bylo prováděno přídavným kolem na hodinovém stroji. Kolo obsahuje jeden pevný a dva stavitelné výpustné kolíčky a je spojeno převodem 1:2 se závěrkovým kolem hodinového [bicího stroje](/slovnik/bici-stroj) (otočí se 1× za 24 hodin).
 
 ### Nálezový stav
 
-Stroj se zachoval téměř kompletní; chyběla rohatka a matička na větrníku a matička k připevnění spouštěcí páky. Zachovalo se závaží, nikoliv řetízek. Také se nezachovala spouštěcí páka. Větrník byl poškozen (ohnuté a nalomené brzdící plochy), lehce ohnuta hřídel větrníku a naražené závěrkové kolo. Stroj orezlý, matky nepohyblivé, nepohyblivá rohatka řetězového kola. Cca 3 bicí kolíky byly ohnuté a nalomené.
+Stroj se zachoval téměř kompletní; chyběla rohatka a matička na [větrníku](/slovnik/vetrnik) a matička k připevnění spouštěcí páky. Zachovalo se závaží, nikoliv řetízek. Také se nezachovala spouštěcí páka. Větrník byl poškozen (ohnuté a nalomené brzdící plochy), lehce ohnuta hřídel větrníku a naražené závěrkové kolo. Stroj orezlý, matky nepohyblivé, nepohyblivá rohatka řetězového kola. Cca 3 bicí kolíky byly ohnuté a nalomené.
 
 ![nález zvonící stroj 1](/img/vez/bychory/nalezovy_stav/f/nalez_zvonici001.jpg)
 

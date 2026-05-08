@@ -28,13 +28,13 @@ tldr: 'Potřebujeme, nebo si jen přejeme, hodiny, které jdou přesně a správ
 
 ## Mechanické řízení a řízení vůbec
 
-Typickým případem mechanického řízení je Pražský orloj, kde vlastní stroj orloje je v pravidelných minutových intervalech spouštěn mechanickým chronometrem s podstatně vyšší přesností než měl původní vlastní jicí stroj. Za mechanické řízení můžeme považovat i někdy docela složité rozvody k vedlejším číselníkům mechanických věžních hodin. Vedení pomocí soustavy hřídelů, křížových spojek, dilatačních spojek, šikmých odboček a pod. zaslouží obdiv k umění starých mistrů. I boční ciferníky Pražského orloje jsou takto připojeny na hlavní stroj orloje.
+Typickým případem mechanického řízení je Pražský orloj, kde vlastní stroj orloje je v pravidelných minutových intervalech spouštěn mechanickým [chronometrem](/slovnik/chronometr) s podstatně vyšší přesností než měl původní vlastní jicí stroj. Za mechanické řízení můžeme považovat i někdy docela složité rozvody k vedlejším číselníkům mechanických věžních hodin. Vedení pomocí soustavy hřídelů, křížových spojek, dilatačních spojek, šikmých odboček a pod. zaslouží obdiv k umění starých mistrů. I boční ciferníky Pražského orloje jsou takto připojeny na hlavní stroj orloje.
 
 Toto řízení je přímé, bez zpětné vazby. Řídící chronometr nijak nereaguje na hypotetickou situaci, kdy posun o minutu nebyl z nějakých důvodů proveden nebo se některý ciferník uvolnil a neposunul. Tyto nevýhody mají všechny soustavy přímého řízení. Odstraňuje je teprve předávání kompletní časové informace v moderních systémech. Synchronizace času může probíhat s různou periodou.
 
 ## Synchronizace mechanických věžních hodin
 
-Zdálo by se, že téma synchronizace se týká pouze elektronických hodin a hodinek. Ale i u historického exempláře věžních hodin může být synchronizace provedena. [Petr Skála](/hodinari/petr-skala) navrhl zařízení (chráněné Úřadem průmyslového vlastnictví v Praze), které umožňuje i mechanickému věžnímu hodinovému stroji jít s několika vteřinovou přesností. Jde o počítačově řízený záchyt kyvadla. Synchronizaci času zajišťuje DCF 77 přijímač. Umožňuje dokonce automatickou změnu letního času.
+Zdálo by se, že téma synchronizace se týká pouze elektronických hodin a hodinek. Ale i u historického exempláře věžních hodin může být synchronizace provedena. [Petr Skála](/hodinari/petr-skala) navrhl zařízení (chráněné Úřadem průmyslového vlastnictví v Praze), které umožňuje i mechanickému věžnímu hodinovému stroji jít s několika vteřinovou přesností. Jde o počítačově řízený záchyt [kyvadla](/slovnik/kyvadlo). Synchronizaci času zajišťuje DCF 77 přijímač. Umožňuje dokonce automatickou změnu letního času.
 
 Ukázka zde i jinde na webu [www.veznihodiny.cz/ukaz19.htm](http://www.veznihodiny.cz/ukaz19.htm)
 

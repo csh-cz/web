@@ -47,7 +47,7 @@ Netrpělivost však oběd urychlila a děti se nahrnuly k paní šafářce. A je
 
 Uprostřed schodů ve výklenku hned vedle dveří stál černý rytíř. To nebyl on. Druhý byl uvnitř, taky černý a taky to nebyl on. Až Honzík objevil toho třetího. A ten vám měl v rukavici další vzkaz od Fausta. A že prý děti mají podle plánu uhodnout, co je to za stroj a co jim ještě chybí. Paní učitelka jim s tím trochu pomohla a přišly na to.
 
-"Fauste, prosíme, ještě nám nám přines závaží a kyvadlo!" zavolaly děti z okna zámku.
+"Fauste, prosíme, ještě nám nám přines závaží a [kyvadlo](/slovnik/kyvadlo)!" zavolaly děti z okna zámku.
 
 A Faust jim v dopise slíbil, že dodávka zbylých částí bude až do domu. Tedy do školy. Ale až v pondělí. No, uvidíme, jestli se trefí právě do jejich třídy. Jestli jo, asi dětem budu muset s těmi hodinami zítra pomoct. Ony by je totiž asi bez Fausta, totiž beze mne těžko skládaly.
 

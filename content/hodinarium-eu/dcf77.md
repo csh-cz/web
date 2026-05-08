@@ -36,7 +36,7 @@ Přijímač DCF lze dnes vestavět i do náramkových hodinek. Kdybych si pořiz
 
 ![Nejlevnější DCF hodinový modul WT100](/img/dcf_modul.jpg)
 
-Nejlevnější nové DCF hodiny lze patrně získat zakoupením vestavného modulu WT100 (viz obrázek). Panel ukazuje čas s přesností sekund. Synchronizace s vysílačem probíhá 1× za hodinu. Nejlevnější náramkové digitální DCF hodinky lze získat za cenu pod 400 Kč. Zakoupit lze i samostatné strojky ručičkových hodin s kyvadlem.
+Nejlevnější nové DCF hodiny lze patrně získat zakoupením vestavného modulu WT100 (viz obrázek). Panel ukazuje čas s přesností sekund. Synchronizace s vysílačem probíhá 1× za hodinu. Nejlevnější náramkové digitální DCF hodinky lze získat za cenu pod 400 Kč. Zakoupit lze i samostatné strojky ručičkových hodin s [kyvadlem](/slovnik/kyvadlo).
 
 ## Další použití
 

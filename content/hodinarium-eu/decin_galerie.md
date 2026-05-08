@@ -27,7 +27,7 @@ například sochy z kovářství [GIBBUS](http://gibbus.cz) nebo od dalších au
 
 Funkční nástěnný malovaný orloj s mechanikou, která zajišťuje pohyb ukazatelů
 podobných pražskému orloji. Vznikal pomalu od roku 2002 ve volných chvílích.
-Koncepce pohybu soukolí rohatkami je převzata z **litomyšlského orloje**
+Koncepce pohybu [soukolí](/slovnik/soukoli) rohatkami je převzata z **litomyšlského orloje**
 (Karel Adamec, Čáslav, 1907) — jen rozměry kol jsou jiné a převody na měsíční
 rafii přesnější. Pohon zajišťuje malý elektromotorek řízený podružnými
 hodinami: každých dvanáct minut se rafije Slunce spolu s Měsícem a ekliptikou

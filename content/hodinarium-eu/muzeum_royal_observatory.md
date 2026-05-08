@@ -16,4 +16,4 @@ references:
 tldr: 'Královská observatoř Greenwich u Londýna — Harrisonovy mořské chronometry H1—H4, nultý poledník, GMT. Klíčová instituce pro historii navigace a měření času.…'
 ---
 
-Královská observatoř Greenwich u Londýna — Harrisonovy mořské chronometry H1—H4, nultý poledník, GMT. Klíčová instituce pro historii navigace a měření času. Součástí komplexu je Národní námořní muzeum (NMM) s největší sbírkou slunečních hodin na světě.
+Královská observatoř Greenwich u Londýna — Harrisonovy mořské [chronometry](/slovnik/chronometr) H1—H4, nultý poledník, GMT. Klíčová instituce pro historii navigace a měření času. Součástí komplexu je Národní námořní muzeum (NMM) s největší sbírkou [slunečních hodin](/slovnik/slunecni-hodiny) na světě.

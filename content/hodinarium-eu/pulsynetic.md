@@ -60,11 +60,11 @@ Hodiny “Observatory Controlled Transmitter” postavil Gent v roce 1933. V mat
 
 ![Pulsynetic](/img/pulsynetic/wt3-221x400.jpg)
 
-Mnohé věžní stroje byly dodatečně upravovány pro řízení elektrickými impulzy. Stroj "Gents Pulsynetic Waiting Train movement", který je často označován jako WT, byl tak přímo navržen. Konstrukce je opět velmi jednoduchá. Systém je poháněn kyvadlem a ovládán půlminutovými polarizovanými impulzy. Kyvadlo zde tedy není časový normál, ale zdroj energie pohybu. Časový normál dodávají mateční hodiny. ![spínaví kontakt silového elektromagnetu](/img/pulsynetic/wt-centre-199x180.jpg)
+Mnohé věžní stroje byly dodatečně upravovány pro řízení elektrickými impulzy. Stroj "Gents Pulsynetic Waiting Train movement", který je často označován jako WT, byl tak přímo navržen. Konstrukce je opět velmi jednoduchá. Systém je poháněn [kyvadlem](/slovnik/kyvadlo) a ovládán půlminutovými polarizovanými impulzy. Kyvadlo zde tedy není časový normál, ale zdroj energie pohybu. Časový normál dodávají mateční hodiny. ![spínaví kontakt silového elektromagnetu](/img/pulsynetic/wt-centre-199x180.jpg)
 
 ![waiting train](/img/pulsynetic/wt-lifting1-200x252.jpg)
 
-Rafie hodin přes šnekový převod a rohatku postrkuje těžké kyvadlo. Kývá poněkud rychleji, než by bylo potřeba pro chod normálních hodin. Rafie se například za 27 sekund pootočí o půl minuty. Po dosažení této polohy je páka zabírající do rohatky kolíkem nadzvednuta a v této poloze je držena elektromagnetickou západkou. Kolík se stihl posunout ze záběru, takže ručkové soukolí čeká na uvolnění elektrickým impulzem. Odtud název Waiting train, tedy asi vyčkávací soukolí. Po uplynutí 30. sekund elektromagnet vlevo uvolní blokovací páku a kyvadlo začne znovu posunovat rohatku a tím také rafie hodin.
+Rafie hodin přes [šnekový](/slovnik/snek) převod a rohatku postrkuje těžké kyvadlo. Kývá poněkud rychleji, než by bylo potřeba pro chod normálních hodin. Rafie se například za 27 sekund pootočí o půl minuty. Po dosažení této polohy je páka zabírající do rohatky kolíkem nadzvednuta a v této poloze je držena elektromagnetickou západkou. Kolík se stihl posunout ze záběru, takže ručkové [soukolí](/slovnik/soukoli) čeká na uvolnění elektrickým impulzem. Odtud název Waiting train, tedy asi vyčkávací soukolí. Po uplynutí 30. sekund elektromagnet vlevo uvolní blokovací páku a kyvadlo začne znovu posunovat rohatku a tím také rafie hodin.
 
 Kyvadlo kývá většinou volně. Když jeho amplituda kyvů poklesne, "**[Hippův](/kroky/hippuv-prerusovac)** kolíček" na kyvadle se vzepře v zářezu na horním kontaktu a dojde pohybem kyvadla k razantnímu sepnutí proudu do elektromagnetu vpravo. Silový elektromagnet přitáhne a udělí tak kyvadlu další energii.
 

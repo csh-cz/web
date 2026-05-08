@@ -66,7 +66,7 @@ Nové osvětlení fotogalerie v "Kozím patře".
 
 Nové osvětlení fotogalerie v "Kozím patře".
 
-Účastníci dernisáže ještě zhlédli nově vytvářený orloj pana Volfa a rovněž jeho novou variantu loňského exponátu - stroje s kuriózním gravitačním krokem a "líným kyvadlem".
+Účastníci dernisáže ještě zhlédli nově vytvářený orloj pana Volfa a rovněž jeho novou variantu loňského exponátu - stroje s kuriózním gravitačním krokem a "líným [kyvadlem](/slovnik/kyvadlo)".
 
 ![dernisaz2013 16](/img/dernisaz2013/f/dernisaz2013_0016.jpg)
 

@@ -36,6 +36,6 @@ karta:
 
 Hodiny byly původně umístěny ve zvonici kostela sv. Petra a Pavla v Horním Prysku. Po instalaci nového, elektronicky řízeného stroje, byly Biskupstvím litoměřickým zapůjčeny pro expozici muzea.
 
-Stroj byl pro účely vystavení restaurován, doplněny četné chybějící prvky (např. větrníky s rohatkami) a opatřen náhradním kyvadlem.
+Stroj byl pro účely vystavení restaurován, doplněny četné chybějící prvky (např. [větrníky](/slovnik/vetrnik) s rohatkami) a opatřen náhradním [kyvadlem](/slovnik/kyvadlo).
 
 Stroj věžních hodin má rám složený ze železných kovaných pásů, spojených mosaznými maticemi. Je složen ze tří funkčních celků : soukolí hodinového, bití čtvrtí a celých hodin. Má vratný **[kotvový krok](/kroky/kotvovy-krok)**, původně řízený 2,8 m dlouhým kyvadlem s těžkou litinovou čočkou. Stroj byl poháněn těžkými závažími, vyrobenými z upravených čedičových sloupců. Závěsná lana se navíjela na bubny, vyrobené ze dřeva. Dřevěné jádro bylo pobito železným plechem. Na stroji nebyla nalezena žádná signatura výrobce, pouze na některých kovaných dílech byla vyražena značka. Podle konstrukce rámu a ozdobných motivů na tyčích se lze domnívat, že se jedná o dílo Michaela Christa ze Šluknova, kde působil v první čtvrtině 19. století.

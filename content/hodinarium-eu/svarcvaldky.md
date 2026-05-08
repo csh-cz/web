@@ -100,7 +100,7 @@ Pro základní orientaci uveďmě přehled typů švarcvaldek podle rozměrů st
 (100)
 
 Poznámky:
-V {} závorkách uvedena hloubka včetně bicího stroje, pokud byl vestavěn.
+V {} závorkách uvedena hloubka včetně [bicího stroje](/slovnik/bici-stroj), pokud byl vestavěn.
 \* Normalwerk - do roku cca 1800 - bicí stroj za jicím strojem
 
 **Další stránky:**

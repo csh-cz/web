@@ -24,7 +24,7 @@ Skříň je dýhovaná překližka rozměru V x Š x H cca 190 x 240 x 90. Dole 
 
 **N**a dalším obrázku strojek po vytažení ze schrány. Dole je vidět natahovací mezikruží. Hned nad ním je pérovník. Je poměrně masivní, odhaduji na 8-mi denní chod (nezkoušeno – strojek je třeba nejprve vyčistit).![kohler 3](/img/listkove/kohler_003.jpg)
 
-**H**odinový mají kolíčkový krok s monometalickou setrvačkou.
+**H**odinový mají kolíčkový krok s monometalickou [setrvačkou](/slovnik/setrvacka).
 
 **L**ístkový mechanismus… v podstatě klasika, celuloidové lístky uchycené otočně na bubínku. Packa vpravo je zadržuje a otáčení bubínku způsobuje jejich napružení proti oné pacičce. Při dalším pootáčení horní lístek zpod pacičky vyklouzne a díky napružení se přetočí. Pohybu zpátky brání lehounké celuloidové západky (to jsou ty zobáčky pod minutovým a nad hodinovým bubínkem).
 
