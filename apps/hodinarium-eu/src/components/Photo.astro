@@ -120,13 +120,22 @@ const tone: 'light' | 'dark' = sizeInfo?.tone ?? 'light';
     border-bottom: 1px dotted color-mix(in srgb, currentColor 50%, transparent);
   }
 
-  /* Tmavý text na světlém pozadí — čistá černá, bez halo */
+  /* Audit M5 (a11y): tone-detection z BR rohu obrázku není spolehlivá
+     u nehomogenních pozadí (krajka, gradient). Caption v některých
+     fotkách failuje 4.5:1 i když token tvrdí jinak. Vrátit semi-průhledné
+     pozadí + textový stín pro guaranteed contrast bez ohledu na obraz.
+     Předtím byl jen barevný text bez halo. */
+  /* Tmavý text na světlém pozadí — čistá černá + světlý stín */
   .img-credit-overlay.credit-tone-dark {
     color: #000;
+    background: rgba(255, 255, 255, 0.55);
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.6);
   }
-  /* Světlý text na tmavém pozadí — čistá bílá, bez halo */
+  /* Světlý text na tmavém pozadí — čistá bílá + tmavý stín */
   .img-credit-overlay.credit-tone-light {
     color: #fff;
+    background: rgba(0, 0, 0, 0.55);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
   }
 
   .img-credit-overlay.credit-tone-dark a:hover {
