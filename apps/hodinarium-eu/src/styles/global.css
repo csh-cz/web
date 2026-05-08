@@ -173,6 +173,28 @@ summary:focus-visible,
    .report-form-cancel, .report-form-submit, .nav-search-btn, .editor-note-resolve,
    .fab. */
 
+/* `.link-bare` — kompaktní list links bez full border-bottom, ale stále
+   s non-color signal (subtle dotted underline) pro WCAG 1.4.1 Use of Color.
+   Audit M7: předtím přes inline `style="border-bottom: none;"` v 5 místech
+   (mapa.astro × 3, mapa-horologie.astro × 2), což odstranilo VŠECHNY vizuální
+   indikátory linku — barevně se lišilo od neklikatelného textu, ale to
+   color-blind / low-vision uživatelé nepoznají.
+   Audit-doporučená varianta: dotted underline (kniha-style), default
+   subtle → hover/focus solid. Tech-debt TD1 + a11y M7 bundle. */
+.link-bare {
+  border-bottom: none !important;
+  text-decoration: underline dotted color-mix(in srgb, var(--color-brass) 35%, transparent);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-color 150ms ease;
+}
+.link-bare:hover {
+  text-decoration: underline solid var(--color-brass-bright);
+}
+.link-bare:focus-visible {
+  text-decoration: underline solid var(--color-brass-bright);
+}
+
 /* Hlavní navigace — vyšší kontrast textu na tmavém podkladu hlavičky */
 .site-header nav a {
   color: var(--color-text);

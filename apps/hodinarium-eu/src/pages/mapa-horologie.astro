@@ -147,9 +147,9 @@ for (const p of items) {
             return (
               <li>
                 {linkMap[p.name] ? (
-                  <a href={linkMap[p.name]} style="border-bottom: none;"><strong>{p.name}</strong></a>
+                  <a href={linkMap[p.name]} class="link-bare"><strong>{p.name}</strong></a>
                 ) : ext ? (
-                  <a href={ext} target="_blank" rel="noopener" style="border-bottom: none;"><strong>{p.name}</strong> <span class="placemark-ext">↗</span></a>
+                  <a href={ext} target="_blank" rel="noopener" class="link-bare"><strong>{p.name}</strong> <span class="placemark-ext">↗</span></a>
                 ) : (
                   <strong>{p.name}</strong>
                 )}

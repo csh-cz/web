@@ -18,7 +18,7 @@ blokátorů:
 | # | Úloha | Sekce | Odhad | Proč |
 |---|---|---|---|---|
 | 1 | **FU1 UX copy audit** | A.10 | ~20 min | Broad impact napříč webem (stub note hodinářů, search hints, stav badges, footer). Žádný blokátor, výsledek hned vidět. |
-| 2 | **TD1 + a11y M7 bundle** | A.9 + tech-debt | ~30 min | Sjednotit inline `border-bottom: none` v mapách (5×) na CSS class + vyřešit WCAG 1.4.1 Use of Color. Bundling z FU7 reportu. |
+| 2 | ~~**TD1 + a11y M7 bundle**~~ ✅ hotovo | A.9 + tech-debt | ~30 min | Sjednoceno na `.link-bare` class v global.css. WCAG 1.4.1 vyřešeno subtle dotted underline. |
 | 3 | **SL8 Cross-link kroky → slovnik** | A.6 | ~1–2 h | Nový `/slovnik/` je izolovaný; auto-link skript paralelní s existujícím `kroky:auto-link` propojí kartu kroku → heslo slovníku. |
 | 4 | **FU6 README pro hodinarium-eu** | A.10 | ~30 min | Engineering hygiene, žádný blokátor. Nutné před onboardováním dalších přispěvatelů. |
 | 5 | **TD2 dialog handler extrakce** | tech-debt | ~30 min | Před plánovaným SearchModal aria refaktorem (C3+C4+M2). Identical click-outside + Esc duplicity v 2 modalech. |
@@ -168,9 +168,10 @@ v této větvi. Zbývají položky vyžadující větší refaktor nebo bundling
 - [ ] **M6: Report form `<input readonly tabindex="-1">` → `<output>`**
       — readonly+tabindex je OK funkčně, ale SR čte „form input"; lepší
       `<output>` element. `ReportIssueModal.astro:57`.
-- [ ] **M7: Inline `style="border-bottom: none;"` na linkech v mapě** —
-      odstraňuje vizuální indikátor odkazu (WCAG 1.4.1 Use of Color).
-      `mapa.astro:66,96,109,110`.
+- ~~**M7: Inline `style="border-bottom: none;"` na linkech v mapě**~~ ✅
+      Sjednoceno na `.link-bare` class v global.css se subtle dotted underline
+      (non-color signal pro WCAG 1.4.1). 5 výskytů v mapa.astro × 3 +
+      mapa-horologie.astro × 2 nahrazeno. Bundle s tech-debt TD1.
 - [ ] **M8: Mobile hamburger aria-label toggle** — `<details>` má implicitní
       aria-expanded, ale label dál říká „Otevřít menu" i když je menu otevřené.
       Malý JS handler v `Base.astro`.
