@@ -68,7 +68,7 @@ Svítily a již opět svítí i ciferníky Staroměstské radnice
 
 **Z**pět k hodinám. Jedná se o elektrické podružné hodiny **Siemens - Halske**, 30. léta 20. stol., malba a nástřik na skle, prosvětleno systémem Siemens - Schuckert. Na obrázcích je vidět ciferník a ručičky ( hliník, mosaz, litina), detail číslic, podružný hodinový stroj a detail a držáky žárovek.
 
-**I** v domácnostech v nedávné době (cca 1890) sloužily svítící hodiny. Jako zdroj světla se používala svíčka. Na snímcích dole jsou **stolní**, **[kyvadlové](/slovnik/kyvadlo)** hodiny s otáčivým **průsvitným ciferníkem** za pevnou ručičkou. Stroj v dolní části podstavce, hodinová hřídel protažena vzhůru a zakončena držákem kruhového skleněného ciferníku. Výška je 22 cm, průměr skleněné koule asi 9,5 cm. **Z**ajímavé je provedení kyvadla, které kývá kolmo ke stroji. Protože není minutová ručička, není ani střídné kolo.
+**I** v domácnostech v nedávné době (cca 1890) sloužily svítící hodiny. Jako zdroj světla se používala svíčka. Na snímcích dole jsou **stolní**, **[kyvadlové](/slovnik/kyvadlo)** hodiny s otáčivým **průsvitným ciferníkem** za pevnou ručičkou. Stroj v dolní části podstavce, hodinová hřídel protažena vzhůru a zakončena držákem kruhového skleněného ciferníku. Výška je 22 cm, průměr skleněné koule asi 9,5 cm. **Z**ajímavé je provedení [kyvadla](/slovnik/kyvadlo), které kývá kolmo ke stroji. Protože není minutová ručička, není ani střídné kolo.
 
 ![](/img/elektrika/svitici/na_svicku1.jpg)![](/img/elektrika/svitici/na_svicku2.jpg)![](/img/elektrika/svitici/na_svicku3.jpg)
 

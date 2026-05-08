@@ -14,7 +14,7 @@ tldr: 'Tento zajímavý typ hodin sestrojil Timothy Bernard Powers v New Yorku n
 
 Tento zajímavý typ hodin sestrojil Timothy Bernard Powers v New Yorku na počátku 20. století. Hodiny poté vyráběla firma Eureka Clock Company v Londýně.
 
-Hodiny jsou nápadné velkou [setrvačkou](/slovnik/setrvacka) ( průměr až 8cm ), pohybující se v kuličkových ložiscích, což je pohledově značně atraktivní. Na příčce setrvačky je navinut elektromagnet, do něhož je přes pružný kontakt přiváděn elektrický impulz. Napájení je 1,5V.
+Hodiny jsou nápadné velkou [setrvačkou](/slovnik/setrvacka) ( průměr až 8cm ), pohybující se v kuličkových ložiscích, což je pohledově značně atraktivní. Na příčce [setrvačky](/slovnik/setrvacka) je navinut elektromagnet, do něhož je přes pružný kontakt přiváděn elektrický impulz. Napájení je 1,5V.
 
 Přenos časové informace se na ručkové [soukolí](/slovnik/soukoli) přenáší lomenou pákou, mající na jednom konci kladku, která kopíruje povrch excentrického válečku, nalisovaného na ose setrvačky. Druhý konec páky má zobáček, který postrkuje ozubené kolo ručkového soukolí.
 

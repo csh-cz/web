@@ -12,7 +12,7 @@ tldr: 'Co byste řekli slunečním hodinám, které nemají žádný ukazatel vr
 ---
 Co byste řekli slunečním hodinám, které nemají žádný ukazatel vrhající stín? Hodinám, které správně ukazují čas, i když je Slunce zakryto mrakem, a které po nějakou dobu fungují dokonce i po západu Slunce či před jeho východem? Jediné, co takové hodiny ke své funkci potřebují, je čisté nebe nad severním obzorem.
 
-Úvod stránky jsme si vypůjčili z článku "**Neobvyklé sluneční hodiny**" pana **doc. RNDr. Jiřího Boka, CSc.** uveřejněném v Astropisu 4/2003. Zdálo by se, že po mnoha stoletích vývoje [slunečních hodin](/slovnik/slunecni-hodiny) už nejde nic převratně nového objevit. Opak je pravdou. (I když Vikingové o tom možná něco [tušili](http://www.polarization.com/viking/viking.html).)
+Úvod stránky jsme si vypůjčili z článku "**Neobvyklé [sluneční hodiny](/slovnik/slunecni-hodiny)**" pana **doc. RNDr. Jiřího Boka, CSc.** uveřejněném v Astropisu 4/2003. Zdálo by se, že po mnoha stoletích vývoje [slunečních hodin](/slovnik/slunecni-hodiny) už nejde nic převratně nového objevit. Opak je pravdou. (I když Vikingové o tom možná něco [tušili](http://www.polarization.com/viking/viking.html).)
 
 ## Konstrukce slunečních polarizačních hodin
 

@@ -29,7 +29,7 @@ Jako obvykle se obrázky na kliknutí zvětší
 
 Hodiny na první pohled upoutají perfektním vzhledem. I ozubená dřevěná kola a cévky lucernových pastorků vypadají velmi zachovale. Pravděpodobně jsou hodiny restaurované.
 
-Jicí stroj je řízen vřetenovým krokem s krátkým [kyvadlem](/slovnik/kyvadlo) před ciferníkem. (Tomuto kyvadlu se také říká "kravský ocas" neboli "Kuhschwanz".) Krokové kolo nemá "korunové" ozubení, ale je použito železných kolíků. Bicí stroj se závěrkovým kolem odbíjí celé hodiny do skleněného zvonku, zavěšeného na konzoli nad strojem. Dřevěná kola zabírají do lucernových pastorků.
+Jicí stroj je řízen vřetenovým krokem s krátkým [kyvadlem](/slovnik/kyvadlo) před ciferníkem. (Tomuto [kyvadlu](/slovnik/kyvadlo) se také říká "kravský ocas" neboli "Kuhschwanz".) Krokové kolo nemá "korunové" ozubení, ale je použito železných kolíků. Bicí stroj se závěrkovým kolem odbíjí celé hodiny do skleněného zvonku, zavěšeného na konzoli nad strojem. Dřevěná kola zabírají do lucernových pastorků.
 
 Kupodivu jsou oba stroje poháněny pomocí řetízků. Očekával bych spíše, že pohon bude pomocí provazu a závaží s protizávažím. Takto jsou v celodřevěném stroji použita mosazná řetězová kola. V tomto provedení by k hodinám patřila dvě závaží. V aukci jsou uváděna závaží tři.
 

@@ -65,7 +65,7 @@ Nacvičeným způsobem srazit lavice a udělat z nich jeden velký pracovní st�
 
 Do všeobecného chaosu jsem občas vnesl jasnější světlo vysvětlením, jak by asi bylo nejlépe postupovat podle doručeného plánu hodin. Děti měly dost součástek na to, aby mohly všechny přiložit ruku k dílu. Připravily si sestavy jednotlivých kol na pěti osách a už jsme mohli přišroubovat rám ke stěně.
 
-Díry jsem radši přeci jen vyvrtal sám a pak už to šlo rychle. Na sestavování hodin se stála fronta a každý přiložil svojí součástku. Ještě přivázat závaží a paní učitelka mohla hodiny natáhnout a udělit kyvadlu ten nedůležitější první impuls.
+Díry jsem radši přeci jen vyvrtal sám a pak už to šlo rychle. Na sestavování hodin se stála fronta a každý přiložil svojí součástku. Ještě přivázat závaží a paní učitelka mohla hodiny natáhnout a udělit [kyvadlu](/slovnik/kyvadlo) ten nedůležitější první impuls.
 
 Hurá!!! Tikají. Krásně, dřevěně - Tak - Tok.
 

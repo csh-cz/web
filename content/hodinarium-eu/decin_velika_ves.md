@@ -50,7 +50,7 @@ Na dalších fotografiích je stav z roku 2016. Stroj byl nalezen již v rozebra
 
 V květnu roku 2020 náš spolek uzavřel smlouvu na zapůjčení torza stroje do Hodinária. Předpokládali jsme, že v letních měsících částečně restaurovaný stroj [podle restaurátorského záměru](/download/RestauratorskyZamerVelikaVes.pdf) představíme veřejnosti. Pandemie posunula instalaci až do roku 2021.
 
-Součásti stroje byly zbaveny silné vrstvy povrchové koroze. Koroze naštěstí nenarušila strukturu železa. Během čištění nebyla nalezena žádná signatura. Kovářské značení součástí bylo nalezeno pouze na jedné pásnici jako 5 záseků. Lze předpokládat, že ostatní překryla koroze. Díky naší nejstarší fotografii však bylo sestavení poměrně snadné. Muselo se doplnit mnoho chybějících klínků, aby bylo možné torzo vystavit. Jiné díly doplňovány nebyly.
+Součásti stroje byly zbaveny silné vrstvy povrchové koroze. Koroze naštěstí nenarušila strukturu železa. Během čištění nebyla nalezena žádná [signatura](/slovnik/signatura). Kovářské značení součástí bylo nalezeno pouze na jedné pásnici jako 5 záseků. Lze předpokládat, že ostatní překryla koroze. Díky naší nejstarší fotografii však bylo sestavení poměrně snadné. Muselo se doplnit mnoho chybějících klínků, aby bylo možné torzo vystavit. Jiné díly doplňovány nebyly.
 
 ![Fotografie 10](/img/decin/gotika/f/foto_0010.jpg)
 

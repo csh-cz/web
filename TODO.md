@@ -24,9 +24,14 @@ Vysoká content value, bounded scope — pokračování slovník MVP (35 hesel)
 metodou Zotero MCP semantic search + verbatim grep v plaintextech
 (Šumavský 1851, Špatný 1882, Sušický 1900, Sladkovský 1947).
 
-- [ ] **SL3 Hodinky kapesní/náramkové** (~10 hesel) — kalibr, werk,
-      korunka, sklíčko, pouzdro, signatura, automatic, chronograf,
-      fly-back, GMT.
+- ~~**SL3 Hodinky kapesní/náramkové**~~ ✅ Hotovo. 10 hesel
+      (kalibr, werk, korunka, sklíčko, pouzdro, signatura, opakovací
+      hodinky, chronograf, automatic, GMT) přidáno do slovník SSOT
+      z primárních pramenů (Špatný 1882, Sladkovský 1947, Himmler 2006,
+      Knespl 2014/2023). Slovník teď 45 hesel napříč 5 kategoriemi.
+      Pipeline: `slovnik:build` → 45 MDX, `auto-link-slovnik` → 125
+      nových linků v 100 souborech, `search:corpus` → 1058 records
+      (heslo: 45). Build 1184 stran.
 - [ ] **SL4 Profese a hodinářské školy** — hodinář, pouzdrář, regionální
       školy (pražská, švarcvaldská, vídeňská, anglická, francouzská,
       švýcarská).

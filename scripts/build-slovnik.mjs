@@ -61,6 +61,17 @@ const KATEGORIE = {
   'invar': 'materialy',
   'rubínový kámen': 'materialy',
   'vlásková křivka (Breguetova / Phillipsova)': 'materialy',
+  // hodinky kapesní/náramkové (10) — SL3
+  'kalibr': 'hodinky',
+  'werk': 'hodinky',
+  'korunka': 'hodinky',
+  'sklíčko': 'hodinky',
+  'pouzdro': 'hodinky',
+  'signatura': 'hodinky',
+  'opakovací hodinky': 'hodinky',
+  'chronograf': 'hodinky',
+  'automatic (samonatahovací)': 'hodinky',
+  'GMT / druhá časová zóna': 'hodinky',
 };
 
 function slugify(text) {

@@ -16,7 +16,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 const all = await getCollection('slovnik');
 
-type Kategorie = 'mechanika' | 'bici' | 'astronomicke' | 'materialy' | 'profese' | 'jine';
+type Kategorie = 'mechanika' | 'bici' | 'astronomicke' | 'materialy' | 'hodinky' | 'profese' | 'jine';
 
 const KATEGORIE_LABEL: Record<Kategorie, { title: string; lead: string }> = {
   mechanika: {
@@ -35,6 +35,10 @@ const KATEGORIE_LABEL: Record<Kategorie, { title: string; lead: string }> = {
     title: 'Materiály a vlastnosti',
     lead: 'Isochronismus, kompenzace teplotní, invar, rubínový kámen, Breguetova vlásková křivka — materiály a fyzikální principy.',
   },
+  hodinky: {
+    title: 'Hodinky kapesní a náramkové',
+    lead: 'Kalibr, werk, korunka, sklíčko, pouzdro, signatura, opakovací hodinky, chronograf, automatic, GMT — terminologie kapesních a náramkových hodinek.',
+  },
   profese: {
     title: 'Profese a hodinářské školy',
     lead: 'Hodinář, pouzdrář, regionální školy a tradice.',
@@ -45,7 +49,7 @@ const KATEGORIE_LABEL: Record<Kategorie, { title: string; lead: string }> = {
   },
 };
 
-const KAT_ORDER: Kategorie[] = ['mechanika', 'bici', 'astronomicke', 'materialy', 'profese', 'jine'];
+const KAT_ORDER: Kategorie[] = ['mechanika', 'bici', 'astronomicke', 'materialy', 'hodinky', 'profese', 'jine'];
 
 function groupByKategorie(list: typeof all) {
   const m = new Map<Kategorie, typeof all>();

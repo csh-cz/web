@@ -13,7 +13,7 @@ tldr: 'Digitalizace se u hodinek (tehdy kapesních) projevila již v roce 1885, 
 ---
 Digitalizace se u hodinek (tehdy kapesních) projevila již v roce 1885, kdy byly vyrobeny tyto úžasné IWC Schaffhausen. Ponechme teď stranou spory o to, zda otáčené ciferníky pozorované průhledem, jsou digitální nebo analogové hodiny. Jsou totiž lidé, co tvrdí, že mechanické digitálky neexistují. Za pravé digitálky považují pouze hodiny, kdy celé zpraco*vání časového údaje je čistě číslicové. Přidržíme se volnějšího výkladu a za digitálky budeme považovat hodiny či hodinky, se zobrazením času ve formě čísel. To nám umožní kochat se následujícím výtvorem.*
 
-**P**oužitý materiál je 800/1000 stříbro a velikost pouzdra je 53 mm bez oblíku, respektive 78 mm s oblíkem. V hodinkách vesele tiká strojek typu Savonette c. Elgin II 19 lig. Pallweber III. Ciferník je porcelánový – DIGITÁLNÍ, arabské číslice.
+**P**oužitý materiál je 800/1000 stříbro a velikost [pouzdra](/slovnik/pouzdro) je 53 mm bez oblíku, respektive 78 mm s oblíkem. V hodinkách vesele tiká strojek typu Savonette c. Elgin II 19 lig. Pallweber III. Ciferník je porcelánový – DIGITÁLNÍ, arabské číslice.
 
 **Jedná se o první digitální hodinky, které kdy byly vyrobeny**. Značka IWC Schaffhausen se stala díky těmto hodinkám slavnou. Sám zakladatel této značky F.A. Jones vymyslel a navrhnul systém Pallweber. Těchto hodinek bylo **vyrobeno 300 kusů**. Když si vezmete kolik hodinek tohoto typu bylo rozbito a ztraceno za posledních 124 let, můžeme se domnívat že se **zachovalo jen několik desítek** podobných kusů. Odhadní cena těchto hodinek se pohybuje mezi 200 000 – 250 000 kč. Cena na trhu se pohybuje výše, protože se jedná o hluboce nedostatkové zboží ( absolutní unikát ) a to kolem 10 000 – 15 000 euro.
 

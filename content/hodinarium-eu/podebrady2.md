@@ -19,7 +19,7 @@ Podle odhadu hodinářů lze o výrobě celých hodin v elektrárně pochybovat.
 
 Příbuznost s výrobky Jana Mareše se dá předpokládat podle tvaru krokového kola a hlavně horní části [kyvadla](/slovnik/kyvadlo), na které jsou upevněny palety kotvy. Pro květinové hodiny byl postaven nízký stroj. Do roku 2006 byl umístěn v kobce pod květinovými hodinami, kde řídil i pohyb ruky trpaslíka odbíjejícího každou celou hodinu.
 
-V popředí krokový mechanizmus jicího stroje, palety v horní části kyvadla. V pozadí bicí stroj.
+V popředí krokový mechanizmus jicího stroje, palety v horní části kyvadla. V pozadí [bicí stroj](/slovnik/bici-stroj).
 
 Stroj byl původně na ruční nátah, pak byl přestavěn na elektrický pohon, postaven na traverzový sokl. Namísto lanových bubnů byly osazeny rozety a závaží byla zavěšena na řetězy. Bicí stroj pak každou hodinu zdvihal táhlem trpaslíkovu ruku s [kladívkem](/slovnik/kladivko), kterým klepal do cimbálu - klobouku muchomůrky. Táhlo vedlo pod zemí. Jako zajímavost lze uvést, že trpaslík byl před krádeží hlídán alarmem. Kvůli tomu byla na stroji primitivní blokace, která zabraňovala nechtěnému spuštění alarmu v době odbíjení. Vítr od [větrníku](/slovnik/vetrnik) [bicího stroje](/slovnik/bici-stroj) odfoukl plech, který rozpojil kontakt alarmu. Docela důmyslné.
 

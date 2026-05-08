@@ -14,7 +14,7 @@ tldr: 'Sluneční hodiny symbolizují sepětí člověka s přírodou. Proto jse
 
 Sluneční hodiny symbolizují sepětí člověka s přírodou. Proto jsem rád, že například i v Sezimově Ústí byla postavena nová čtyřmetrová **socha Strážce času - artefakt s funkcí [slunečních hodin](/slovnik/slunecni-hodiny)**. (Web autora [**zde**](http://www.gibbus.cz/)). Podrobnější informace hodinářské najdete i v [**katalogu**](http://astro.mff.cuni.cz/mira/sh/sh.php?rec=18315) slunečních hodin**.** Jsem rád že hodiny byly postaveny i přes rozporuplné reakce, které to vyvolalo.
 
-**K**upodivu polemika o vhodnosti této sochy probírá také otázku, jaký čas vlastně sluneční hodiny mají ukazovat. Fotografie Strážce času byla pořízena 12.3.2007 v 11:03. Stín ukazuje přibliž 10:50 a nachází se před čárou rovníku. Údaj odpovídá místnímu slunečnímu času.
+**K**upodivu polemika o vhodnosti této sochy probírá také otázku, jaký čas vlastně [sluneční hodiny](/slovnik/slunecni-hodiny) mají ukazovat. Fotografie Strážce času byla pořízena 12.3.2007 v 11:03. Stín ukazuje přibliž 10:50 a nachází se před čárou rovníku. Údaj odpovídá místnímu slunečnímu času.
 
 **V**ytrženo z diskuse na www.sezimovousti.cz: *"Hodiny které ukazují špatný čas jsou prostě špatné."* .... *" Pokud Vám přesně jdoucí hodiny připadají jako porušování přírodních zákonů, doporučuji Vám odborné vyšetření Vašeho duševního stavu od MUDr. Cimického."* .....
 

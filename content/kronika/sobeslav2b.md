@@ -14,7 +14,7 @@ chronologický výpis z archivních dokumentů a hypotézy vzniku
 
 ***A**rchivní texty jsou uvedeny tak jak se je podařilo přečíst, či jak byly přeloženy bez odborného překladu hodinářského názvosloví. Není je možné brát doslova. Nejasnosti mohly vniknout jak nesprávným zapsáním původním písařem, kdy již při první zapsání nebyl pochopen vlastní smysl, tak při pozdějším překladu některých textů z němčiny. Uvedené shrnutí a hypotézy nemají charakter vědecké práce. Jsou náznakem případného směru výzkumu.*
 
-***(Modřě odlišeny doplněné signatury na stroji.)***
+***(Modřě odlišeny doplněné [signatury](/slovnik/signatura) na stroji.)***
 
 - **1484 – první historická zmínka o věžních hodinách v Soběslavi.** V purkmistrovských účtech se nachází položky na opravy hodin, jejich natahování a mazání. Práce prováděl zámečník Štandl za plat 70 gr. ročně. Zároveň získal zdarma obchůdek (SOka Tábor, I M 2)
 
@@ -64,7 +64,7 @@ chronologický výpis z archivních dokumentů a hypotézy vzniku
     1. zámečnické kolo, které nebylo vzhotoveno kvalitně, nýbrž nějakým břídilem (fušerem), musí být uděláno nově, kolo vedle pohonu také nové
     2. bicí kolo musí být také upraveno, je nutné upevnit ho na jinou stranu díla, stejně jako musí být změněn „Wühlbaum”, v němž musí být zuby kola o polovinu zmenšeny a upilovány, aby získaly pravou proporci a sílu
     3. srdce kola musí být rovnoměrně přesměrováno na jinou stranu, vedle velkého „pohonu” na bicí kolo
-    4. větrník musí být vyroben nový
+    4. [větrník](/slovnik/vetrnik) musí být vyroben nový
     5. zámek a spouštění musí být změněno
     6. tah ke kladivu změnit a nově ukotvit
     7. podstavec, který je zničen, musí být opraven a znovu vyroben se sponami
@@ -146,7 +146,7 @@ chronologický výpis z archivních dokumentů a hypotézy vzniku
 
 - 1939 – oprava hodin. Soběslavští radní žádají Jana Lintnera o zjištění historie hodin.
 
-- **1939 – zlatník a hodinář Josef David po obhlídce stroje konstatuje podle stavby a předělávek hodin, že byly sestavené ještě před vynalezením kyvadla a že jsou starší než z roku 1676.**
+- **1939 – zlatník a hodinář Josef David po obhlídce stroje konstatuje podle stavby a předělávek hodin, že byly sestavené ještě před vynalezením [kyvadla](/slovnik/kyvadlo) a že jsou starší než z roku 1676.**
 
 - **1957 - na čtvrťovém bicím stroji** (hřídel [větrníku](/slovnik/vetrnik)) **signovaná oprava:
     "Opraveno O.P.K. Soběslav Zedník B. Hořický Jar".**

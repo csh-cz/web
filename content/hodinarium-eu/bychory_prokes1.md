@@ -32,7 +32,7 @@ Pan Prokeš se v roce 1864 ucházel i o opravu Pražského orloje a vyrobil pro 
 
 Věžní hodinový stroj střední velikosti. Lucernové (cévkové) pastorky — v době nálezu už nebyly otočné, místy byly nahrazeny hřebíkem. Vypouštění bicích strojů jednopákové. Kyvadlová čočka litinová, kyvadlová tyč ocelová. Litinová závaží jsou zavěšena přes volné kladky na ocelových lanech.
 
-Na horní vodorovné pásnici [kyvadlové](/slovnik/kyvadlo) strany hodinového stroje je čitelná signatura výrobce s uvedeným letopočtem: **[Jan Prokeš](/hodinari/jan-prokes) v Sobotce 1868.**
+Na horní vodorovné pásnici [kyvadlové](/slovnik/kyvadlo) strany hodinového stroje je čitelná [signatura](/slovnik/signatura) výrobce s uvedeným letopočtem: **[Jan Prokeš](/hodinari/jan-prokes) v Sobotce 1868.**
 
 *Výňatek z restaurátorské zprávy P. Skály.*
 
@@ -135,7 +135,7 @@ Zakoupený stav je vidět na úvodní fotografii. Jak se restaurování povedlo,
 
 Na prvním obrázku je vidět zkrácené kyvadlo. Záměr byl vystavit stroj ve výšce očí, proto je dřevěná tyč kyvadla asi o metr kratší. Stroj se v expozici používá pouze k demonstračnímu chodu — nemá napojení na ciferník ani na cimbály, takže snad rychlejší chod není tolik na závadu.
 
-Na třetím obrázku je vidět Prokešova specialita — „kardanové kolečko” místo kardanova kříže. Kolečko zakončuje minutovou hřídel procházející kyvadlem a slouží pro připojení tyče k rozvodovce.
+Na třetím obrázku je vidět Prokešova specialita — „kardanové kolečko” místo kardanova kříže. Kolečko zakončuje minutovou hřídel procházející [kyvadlem](/slovnik/kyvadlo) a slouží pro připojení tyče k rozvodovce.
 
 Na pravé straně téhož obrázku je vidět převod 1:2 ze závěrkového kola na pomocné kolo, které pomocí stavitelných kolíků spouští dodatečný zvonicí stroj.
 

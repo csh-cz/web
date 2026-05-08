@@ -24,5 +24,5 @@ Fenomén amatérsky pořizovaných videozáznamů a jejich ukládání na **[You
 - létající "[kyvadlo](/slovnik/kyvadlo)" - [Flying Pendulum Clock](http://www.youtube.com/results?search_query=Flying+Pendulum+Clock&search_type=) - skoro zapomenutý "skorokrok"
 - vodní hodiny - [wather clock](http://www.youtube.com/results?search_query=water+clock&search_type=) nebo Reloj de Agua
 - což teprve legendy - [Patek Philippe](http://www.youtube.com/results?search_query=Patek+Philippe&search_type=)
-- elektrický impulz do dřevěného kyvadla dřevěných hodin, [proč ne](http://www.youtube.com/watch?v=IO25JYZIKPI)
+- elektrický impulz do dřevěného [kyvadla](/slovnik/kyvadlo) dřevěných hodin, [proč ne](http://www.youtube.com/watch?v=IO25JYZIKPI)
 - božský mechanický dřevěný kalendář a planetárium - [to musíte](http://www.youtube.com/watch?v=QMX1syA6R84&NR=1)

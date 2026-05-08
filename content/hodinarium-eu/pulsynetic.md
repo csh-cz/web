@@ -24,7 +24,7 @@ John Thomas Gent začal podnikat v roce 1872. Říká se, že firma GTGent & Co.
 
 ## Princip hodin C7
 
-Mateční hodiny na fotografii nahoře jsou vlastně velmi prosté. Obsahují jen kyvadlo, elektromagnet, několik pák, spínací kontakt a jedno jediné rohatkové kolo. Mateční hodiny C7 přímo neukazují čas. Ve stejné skříni však obvykle byly i hodiny podružné. Hodiny na prvním obrázku jsou z padesátých let minulého století a příliš se neliší od hodin vyráběných kolem roku 1900.
+Mateční hodiny na fotografii nahoře jsou vlastně velmi prosté. Obsahují jen [kyvadlo](/slovnik/kyvadlo), elektromagnet, několik pák, spínací kontakt a jedno jediné rohatkové kolo. Mateční hodiny C7 přímo neukazují čas. Ve stejné skříni však obvykle byly i hodiny podružné. Hodiny na prvním obrázku jsou z padesátých let minulého století a příliš se neliší od hodin vyráběných kolem roku 1900.
 
 Způsob připojení podružných hodin je v našich končinách velmi neobvyklý. Podružné hodin jsou zapojeny sériově, jak je vidět na dobovém schématu zapojení. Celý obvod včetně matečních hodin pracuje s proudem 0.22 A (s tolerancí 0.17 až 0.27 A). Napájecí napětí se proto volí podle počtu připojených hodin. Pro jemné nastavení proudu se používá reostat (viditelný na prvním snímku vlevo dole). Tento způsob zapojení se používal asi do roku 1960. Později se podružné hodiny připojovaly paralelně. Cívka podružných hodin měla pro sériové připojení od 8,5 do 50 ohmů, pro paralelní připojení pak 3000 ohmů a obvykle byla na 24 V.
 

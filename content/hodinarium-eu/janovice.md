@@ -41,7 +41,7 @@ Stav rozvodu byl špatný. Velmi opotřebované byly především klouby, někte
 
 Výrobek firmy Rich. Liebing z Vídně je nádhernou ukázkou výborného řemeslného zpracování. Pro představu o měřítcích - široký je asi jeden metr. Skládá se ze tří samostatných částí, uprostřed je vlastní hodinový stroj, na krajích pak dva stroje pro čtvrťové a hodinové cimbálové odbíjení (s aerodynamickou brzdou ve formě zelených lopatek). Každá část má svůj buben, na kterém bylo navinuto lanko se zavěšeným závažím (hmotnost závaží se pohybovala mezi 30 až 45kg). Stroj šel na jedno natažení přesně 24 hodin, denně tedy musel někdo ve stejnou hodinu vyšlapat 74 schodů ve věži až k hodinám a tyto natáhnout. V popředí je pak vidět jeden z kardanových kloubů a výstupní tyč vedoucí nahoru k ciferníkům, [kyvadlo](/slovnik/kyvadlo) je zavěšeno vzadu.
 
-Při elektrifikaci zvonění bylo odbíjení zrušeno, z hodin byly demontovány části, které odbíjení spouštěly. Bohužel se nezachovaly. Při opravách hodin byla v minulosti taky nahrazena ložiska kyvadla a krokového kola (jsou vidět na nástavci nad strojem pod orientačním ciferníčkem) a poškozeno jedno kolečko, pohánějící orientační ciferníček. Proto byl asi demontován i jeho náhon, který se rovněž nezachoval. Bylo jej tedy nutné vyrobit nově.
+Při elektrifikaci zvonění bylo odbíjení zrušeno, z hodin byly demontovány části, které odbíjení spouštěly. Bohužel se nezachovaly. Při opravách hodin byla v minulosti taky nahrazena ložiska [kyvadla](/slovnik/kyvadlo) a krokového kola (jsou vidět na nástavci nad strojem pod orientačním ciferníčkem) a poškozeno jedno kolečko, pohánějící orientační ciferníček. Proto byl asi demontován i jeho náhon, který se rovněž nezachoval. Bylo jej tedy nutné vyrobit nově.
 
 Stroj byl doplněn o elektrický nátah, závaží bylo zavěšeno do skříně (dříve viselo na lanku a kladkách v prostoru věže a mělo zdvih asi 5m, nyní se pohybuje na dráze desetkrát menší). Snažili jsme se o to, abychom zachovali co nejvíce z historické hodnoty hodinového stroje (i když ti před námi mu dali dost zabrat) a všechny změny měly vratný charakter. Jediná úprava tedy spočívala ve vsazení ozubeného věnce (řetězového kola) do dřevěného bubnu, na kterém bylo dříve navinuto lanko se závažím. Všechny ostatní součásti jsou na samostatném nosném rámu ve skříni hodin a jsou kdykoliv demontovatelné.
 
@@ -59,7 +59,7 @@ Převodovky zprostředkovávají přenos otáčivého pohybu tyče rozvodu na ru
 
 Obrázky srovnávají stav převodovek před opravou a po ní. Kromě renovace vlastní převodovky bylo změněno i jejich zavěšení na zeď. Hmoždinky dříve nebyly a tak bylo k upevnění použito dvojice lomených hřebů, zatlučených do spár mezi cihly. Toto upevnění se po čase uvolnilo, někde dokonce způsobilo prasknutí zdiva. Převodovky byly různě přidrátovány ke kramlím v trámech nad nimi a částečně se pohybovaly, což způsobovalo další problémy v náhonu (drhnutí v průchodu zdí či v ciferníku). Po opravě byly převodovky fixovány na ocelový rám, ukotvený jednak do zdiva, jednak do trámu stropu.
 
-Na detailu převodovky, jejího uchycení a kloubu náhonu jsou dobře viditelné i nové součásti upevňovacího rámu, středové kruhy kardanového kloubu, čepy i pouzdra. Také je dobře viditelné protizávaží ručičky.
+Na detailu převodovky, jejího uchycení a kloubu náhonu jsou dobře viditelné i nové součásti upevňovacího rámu, středové kruhy kardanového kloubu, čepy i [pouzdra](/slovnik/pouzdro). Také je dobře viditelné protizávaží ručičky.
 
 ## Demontáž
 
