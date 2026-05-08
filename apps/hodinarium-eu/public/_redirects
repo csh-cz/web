@@ -225,7 +225,7 @@
 /slunecni.htm /sbirka/slunecni 301
 /co_pisi_jini.htm /zajimavosti/co_pisi_jini 301
 /download.htm /zajimavosti/download 301
-/NTPH_st.htm /clanky/NTPH_st 301
+/NTPH_st.htm /projekty/NTPH 301
 
 # Taxonomie 2026-04: /clanky/<slug> → /<kategorie>/<slug>
 /clanky/co_pisi_jini /zajimavosti/co_pisi_jini 301
