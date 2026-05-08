@@ -12,7 +12,7 @@ tldr: 'Švarcvaldky - Schwarzwald Uhren - Hodiny z Černého lesa - Black Forest
 ---
 ![šrot](/img/svarcvald/vraky.jpg)
 
-**Švarcvaldky - Schwarzwald Uhren - Hodiny z Černého lesa - Black Forest Clock - Polodřeváky - Selské hodiny - Selky - Německé hodiny - Šotské hodiny - Škoťáky - Sorg - Jockele - Lidové hodiny - Kukačky. . . . .**
+**Švarcvaldky - [Schwarzwald](/slovnik/svarcvaldska-skola) Uhren - Hodiny z Černého lesa - Black Forest Clock - Polodřeváky - Selské hodiny - Selky - Německé hodiny - Šotské hodiny - Škoťáky - Sorg - Jockele - Lidové hodiny - Kukačky. . . . .**
 
 To všechno jsou názvy pro hodiny, které se začaly vyrábět v půli 17. století na jihozápadě Německa v oblasti Černého lesa. Jejich výroba se později dále šířila, třeba i do Čech. Dokonce se i uvádí, že "zdejší průmysl vznikl poté, co sem hodiny s dřevěným krokovým ústrojím přinesli cestovatelé z Čech" (John Hunter, str.70) V 19.století se stal Schwarzwald vedoucím světovým hodinářským centrem. Výroba (zejména tradičních kukaček) pokračuje dodnes.
 

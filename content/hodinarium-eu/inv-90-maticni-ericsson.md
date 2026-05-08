@@ -26,7 +26,7 @@ karta:
 
 Stroj je řízen volně kývajícím [kyvadlem](/slovnik/kyvadlo). V horní části [kyvadla](/slovnik/kyvadlo) je vahadlo, na jehož krajních bodech jsou kontakty.
 
-V okamžiku vykývnutí kyvadla na jednu krajní pozici se otevře kontakt elektrického obvodu na jedné krajní pozici a uvolní cívku elektrického proudu. Přitažením s větší vůlí vlastní hmotnosti přes tento kontakt předá impulz kyvadlu. Obdobný proces se opakuje při vykývnutí kyvadla do druhé krajní pozice. Tím je řízen krokový motorek.
+V okamžiku vykývnutí kyvadla na jednu krajní pozici se otevře kontakt elektrického obvodu na jedné krajní pozici a uvolní cívku elektrického proudu. Přitažením s větší vůlí vlastní hmotnosti přes tento kontakt předá impulz [kyvadlu](/slovnik/kyvadlo). Obdobný proces se opakuje při vykývnutí kyvadla do druhé krajní pozice. Tím je řízen krokový motorek.
 
 Na něj je napojena vačka, která vždy po minutě sepne kontakt rtuťový, vysílající nepolarizované impulzy do podružných hodin.
 

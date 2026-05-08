@@ -27,7 +27,7 @@ scrapedAt: "2026-04-27T17:36:37.648Z"
 
 - **2010 restaurovány** restaurátorským ateliérem věžních hodin akademických sochařů Petra a Melánie Skálových a v roce 2011 vystaveny ve věžní klenotnici.
 
-**U**vedené archivní zápisy a nalezené signatury nedávají jednoznačnou odpověď na stáří hodin, ani jednoznačně neurčují jejich tvůrce. Rovněž není jasné jejich umístění ve věži, počet ciferníků a ani umístění a počet odbíjecích cimbálů. Stáří stroje bohužel nepotvrzují nalezené signatury. Rám signován není. Nejstarší nalezená [signatura](/slovnik/signatura) je z roku 1743.
+**U**vedené archivní zápisy a nalezené [signatury](/slovnik/signatura) nedávají jednoznačnou odpověď na stáří hodin, ani jednoznačně neurčují jejich tvůrce. Rovněž není jasné jejich umístění ve věži, počet ciferníků a ani umístění a počet odbíjecích cimbálů. Stáří stroje bohužel nepotvrzují nalezené signatury. Rám signován není. Nejstarší nalezená [signatura](/slovnik/signatura) je z roku 1743.
 
 **S**oběslavské hodiny mají vysoký štíhlý ručně kovaný rám. Sloupky jsou zakončeny hlavicemi kovanými do podoby gotických hřebů. Základ stroje, zejména rám, může pocházet z roku 1484 z prvních soběslavských hodin. Většinu zápisů o vytvoření nových hodin lze spíše chápat jako přestavbu, nahrazení opotřeběných kol. Svědčí o tom i použitá množství železa nedostačující na celý stroj. Hlavní stroj bez "čtvrtku" (tedy jen jicí a [bicí stroj](/slovnik/bici-stroj) celých hodin) dnes váží 160 kg, tedy cca 300 liber.
 

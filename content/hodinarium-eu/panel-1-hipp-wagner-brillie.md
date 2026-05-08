@@ -43,7 +43,7 @@ Kyvadlo vysílá minutové polarizované impulzy, jimiž je řízen podružný s
 
 ## 4. Matiční hodiny Brillié
 
-[Hodiny Brillié](/sbirka/karta/inv-88-brillie/) dostávají impulz do kyvadla, na kterém je zavěšen zvláštně tvarovaný magnet. Na kyvadlo je připevněna západka, která při každém kyvu pootočí rohatkou. Ta zároveň sepne kontakt pro impulz do cívky a také posune hodinovým strojem.
+[Hodiny Brillié](/sbirka/karta/inv-88-brillie/) dostávají impulz do [kyvadla](/slovnik/kyvadlo), na kterém je zavěšen zvláštně tvarovaný magnet. Na kyvadlo je připevněna západka, která při každém kyvu pootočí rohatkou. Ta zároveň sepne kontakt pro impulz do cívky a také posune hodinovým strojem.
 
 Systém byl rozšířen ve Francii, kde jej z hodin sestrojených v roce **1908 Charlesem Férym** vyvinuli **bratři Brillié**. Hodiny vysílají **půlminutové impulzy**, jak je ve Francii obvyklé.
 

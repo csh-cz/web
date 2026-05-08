@@ -18,7 +18,7 @@ V další části ponecháme slovo zhotoviteli těchto unikátů. Společně mů
 
 ## Stolní bicí hodiny s prstencovými číselníky
 
-**H**odiny jsou 24 cm vysoké a 17,5 cm široké, kyvadlo je 13 cm dlouhé. Bití je půlové a má početníkový opakovací mechanismus. Vyrobeny byly v roce **2003**.
+**H**odiny jsou 24 cm vysoké a 17,5 cm široké, [kyvadlo](/slovnik/kyvadlo) je 13 cm dlouhé. Bití je půlové a má početníkový opakovací mechanismus. Vyrobeny byly v roce **2003**.
 
 **N**a postavení hodin s prstencovými číselníky je použit stroj z hodin, které se vyráběly v padesátých letech dvacátého století. Horizontálně uložený stroj byl původně čtyřhranný, ale zde je upraven na kulatý, který je uložen na dvou dřevěných sloupcích. Hodinový krok je kotvový a krátké kyvadlo je na niťovém závěsu. Pera jicího i bicího mechanismu se natahují od horní strany stroje. Číselníky jsou dva nad sebou souose uložené prstence, horní je minutový s arabskými číslicemi a dolní, hodinový, má číslice římské. Čas ukazuje plastika hada nepohyblivě umístěná na čele stroje.
 
@@ -38,7 +38,7 @@ Nápad postavit tyto hodiny vznikl při pohledu na obrázek z časopisu. V člá
 
 **H**odiny jsou 60 cm vysoké, kyvadlo je dlouhé 23 cm. Pohon je vlastní vahou stroje po ozubené liště, která je 44 cm dlouhá. (odlitek - zlacený)Vyrobeny byly v roce **2002**
 
-**P**ilové hodiny jsou zařazeny do skupiny hodin zvláštních, kde je použito vlastní váhy hodinového stroje namísto hnacího závaží. Takové hodiny jsou nazývány gravitační, kdy [pouzdro](/slovnik/pouzdro) stroje pomalu klesá po kovové tyči s hřebenovým ozubením, do kterého zabírá pastorek na hnací hřídeli hodinového mechanismu, který je umístěn na zadní straně stroje. Aby byla využita délka hřebenu, je použit poměrně těžký převod k tomu, aby natažení stroje (které se provede pouze zvednutím hodin nahoru) vystačilo alespoň na jeden den. Vnitřek pouzdra stroje je proto vyplněn olověným závažím, které musí být před, a hlavně i za ozubeným hřebenem, aby váha byla rovnoměrně rozložena, aby se stroj nekřížil na hřebeny. Toto je důležitý poznatek, protože jinak hodiny nejdou.
+**P**ilové hodiny jsou zařazeny do skupiny hodin zvláštních, kde je použito vlastní váhy hodinového stroje namísto hnacího závaží. Takové hodiny jsou nazývány gravitační, kdy [pouzdro](/slovnik/pouzdro) stroje pomalu klesá po kovové tyči s hřebenovým ozubením, do kterého zabírá pastorek na hnací hřídeli hodinového mechanismu, který je umístěn na zadní straně stroje. Aby byla využita délka hřebenu, je použit poměrně těžký převod k tomu, aby natažení stroje (které se provede pouze zvednutím hodin nahoru) vystačilo alespoň na jeden den. Vnitřek [pouzdra](/slovnik/pouzdro) stroje je proto vyplněn olověným závažím, které musí být před, a hlavně i za ozubeným hřebenem, aby váha byla rovnoměrně rozložena, aby se stroj nekřížil na hřebeny. Toto je důležitý poznatek, protože jinak hodiny nejdou.
 
 **F**rézař, který vyráběl hřebenovou tyč, řekl, že je lepší vyrobit tyče dvě, ptotože se upnou k sobě a tím tolik nepruží a neničí se frézovací nástroj, a proto, když byly dvě tyče, postavil jsem i já hodiny dvoje. Krok je běžný kotvový, ale aby kyvadlo mohlo být umístěno před číselníkem, je použit speciální převod, který toto umožňuje.![klec 1](/img/fucik/klec1.jpg)
 

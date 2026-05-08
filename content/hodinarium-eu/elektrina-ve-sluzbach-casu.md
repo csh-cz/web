@@ -27,7 +27,7 @@ Nejjednodušší elektrické hodiny vznikly doplněním elektrického natahován
 
 ## Alexander Bain a kontaktní problémy
 
-Skutečně elektrické hodiny používaly magnetický impulz dodávaný přímo do kyvadla, případně [setrvačky](/slovnik/setrvacka). Tady se mění význam převodového [soukolí](/slovnik/soukoli): slouží už jen k počítání kyvů, ne k vydávání elektrických impulzů. Prvním konstruktérem, který se pokusil postavit hodiny s aplikací elektřiny, byl skotský hodinář Alexander Bain. Jeho první konstrukce hodin v polovině 19. století udržovala pohyb kyvadla impulzy z elektromagnetu, spínaného mechanickým kontaktem. Ten byl nespolehlivý a nepříjemně se opaloval.
+Skutečně elektrické hodiny používaly magnetický impulz dodávaný přímo do [kyvadla](/slovnik/kyvadlo), případně [setrvačky](/slovnik/setrvacka). Tady se mění význam převodového [soukolí](/slovnik/soukoli): slouží už jen k počítání kyvů, ne k vydávání elektrických impulzů. Prvním konstruktérem, který se pokusil postavit hodiny s aplikací elektřiny, byl skotský hodinář Alexander Bain. Jeho první konstrukce hodin v polovině 19. století udržovala pohyb kyvadla impulzy z elektromagnetu, spínaného mechanickým kontaktem. Ten byl nespolehlivý a nepříjemně se opaloval.
 
 Nespolehlivý kontakt vyřešil [Matthäus Hipp](/hodinari/matthaus-hipp), který zkonstruoval jednoduchý a spolehlivý spínač: [kyvadlo](/slovnik/kyvadlo) kývá volně; poklesne-li jeho amplituda pod určitou mez, jazýček se vzpříčí v zářezu a kontakt sepne — kyvadlo dostane impulz a kývá dál. Konstrukce z roku ~1850 fungovala v matičních hodinách, které rozváděly přesný čas do podružných hodin v rámci budovy.
 
