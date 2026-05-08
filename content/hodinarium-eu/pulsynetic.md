@@ -14,7 +14,7 @@ tldr: '![Pulsynetic 1935](/img/elektrika/pulsynetic/p1959_3.jpg)'
 ---
 [![Pulsynetic 1935](/img/elektrika/pulsynetic/p1959_3_m.jpg)](/img/elektrika/pulsynetic/p1959_3.jpg)
 
-Expozice Hodinária bude rozšířená o mateční hodiny z produkce firmy Gent & Co ze série označované jako PUL-SYN-ETIC. Konkrétně jde o "Gents C7 Pulsynetic master clock". Informace na této stránce se opírají jednak o vlastní zkušenosti s rekonstrukcí torza tohoto stroje a jednak o zdroje uvedené v části odkazy. Najdete tam mnoho netradičních řešení jako je řízení doby kyvu kyvadla elektromagnetickým vkládáním závažíčka na misku kyvadla, zvonek signalizující slabou baterii a zejména legendární věžní stroj Waiting Train.
+Expozice Hodinária bude rozšířená o mateční hodiny z produkce firmy Gent & Co ze série označované jako PUL-SYN-ETIC. Konkrétně jde o "Gents C7 Pulsynetic master clock". Informace na této stránce se opírají jednak o vlastní zkušenosti s rekonstrukcí torza tohoto stroje a jednak o zdroje uvedené v části odkazy. Najdete tam mnoho netradičních řešení jako je řízení doby kyvu [kyvadla](/slovnik/kyvadlo) elektromagnetickým vkládáním závažíčka na misku kyvadla, zvonek signalizující slabou baterii a zejména legendární věžní stroj Waiting Train.
 
 ### Jak to všechno začalo
 

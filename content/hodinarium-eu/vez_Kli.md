@@ -28,7 +28,7 @@ Na rámu stroje jsou viditelné známky přestavby. Několikeré rozebírání a
 
 ![Fotografie 10](/img/vez/Kli/f/foto_0010.jpg)
 
-Společná natahovací klika pro jicí a bicí stroj nebyla nalezena. Čočka kyvadla byla rekonstruována. Fotografie stroje jsou kromě poslední pořízeny ještě v restaurátorském ateliéru před konzervováním. Poslední fotografie ukazuje instalaci v okenním výklenku klenotnice Věžního muzejíčka. Nálezový stav neuvádíme, protože stroj by předán v rozebraném stavu.
+Společná natahovací klika pro jicí a bicí stroj nebyla nalezena. Čočka [kyvadla](/slovnik/kyvadlo) byla rekonstruována. Fotografie stroje jsou kromě poslední pořízeny ještě v restaurátorském ateliéru před konzervováním. Poslední fotografie ukazuje instalaci v okenním výklenku klenotnice Věžního muzejíčka. Nálezový stav neuvádíme, protože stroj by předán v rozebraném stavu.
 
 Stroj je nakonzervován a vystaven v Hodináriu v Děčíně od roku 2015. Není vystaven v chodu, ačkoliv by ho byl schopen.
 

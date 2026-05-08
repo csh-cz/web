@@ -93,6 +93,20 @@ const SLOVNIK_AUTO_LINK = {
   'opakovaci-hodinky': ['opakovací hodinky', 'opakovacích hodinek',
                         'opakovačky', 'opakovaček', 'minute repeater',
                         'minutová repetice', 'Grande sonnerie'],
+
+  // Profese a hodinářské školy (SL4) — pozor, hesla "hodinář",
+  // "pouzdrář" jsou velmi obecné a vyskytují se NA KAŽDÉM ARTICLE.
+  // Auto-link by zahltil prostor — jen multi-word fráze ze škol:
+  'svarcvaldska-skola': ['švarcvaldská škola', 'švarcvaldské hodiny',
+                         'černoleské hodiny', 'Schwarzwald'],
+  'videnska-skola': ['vídeňská škola', 'vídeňský regulátor',
+                     'vídeňské hodiny sloupkové', 'vídeňský sloupkový'],
+  'anglicka-skola': ['anglická škola', 'anglický hák'],
+  'svycarska-skola': ['švýcarská škola', 'švýcarský průmysl hodinářský',
+                      'La Chaux-de-Fonds', 'Vallée de Joux',
+                      'Geneva Seal', 'COSC'],
+  'francouzska-skola': ['francouzská škola', 'Besançon'],
+  'prazska-skola': ['pražská škola', 'pražské hodinářské společenstvo'],
 };
 
 /**

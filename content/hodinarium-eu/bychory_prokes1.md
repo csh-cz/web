@@ -133,7 +133,7 @@ Zakoupený stav je vidět na úvodní fotografii. Jak se restaurování povedlo,
 
 ### Za povšimnutí stojí několik detailů
 
-Na prvním obrázku je vidět zkrácené kyvadlo. Záměr byl vystavit stroj ve výšce očí, proto je dřevěná tyč kyvadla asi o metr kratší. Stroj se v expozici používá pouze k demonstračnímu chodu — nemá napojení na ciferník ani na cimbály, takže snad rychlejší chod není tolik na závadu.
+Na prvním obrázku je vidět zkrácené kyvadlo. Záměr byl vystavit stroj ve výšce očí, proto je dřevěná tyč [kyvadla](/slovnik/kyvadlo) asi o metr kratší. Stroj se v expozici používá pouze k demonstračnímu chodu — nemá napojení na ciferník ani na cimbály, takže snad rychlejší chod není tolik na závadu.
 
 Na třetím obrázku je vidět Prokešova specialita — „kardanové kolečko” místo kardanova kříže. Kolečko zakončuje minutovou hřídel procházející [kyvadlem](/slovnik/kyvadlo) a slouží pro připojení tyče k rozvodovce.
 

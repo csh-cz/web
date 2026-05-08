@@ -10,7 +10,7 @@ lastModified: "Sun, 23 Apr 2017 15:50:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:37.090Z"
 ---
-**K**dyž se jednotlivé součástky hodin ze soběslavské věže začaly vynořovat z čistících lázní, objevily se na nich staré signatury a datace a s nimi vznikly i nové otázky.
+**K**dyž se jednotlivé součástky hodin ze soběslavské věže začaly vynořovat z čistících lázní, objevily se na nich staré [signatury](/slovnik/signatura) a datace a s nimi vznikly i nové otázky.
 
 Nejstarší [signatura](/slovnik/signatura) je **z opravy** z roku 1743. Starší signatury a datace asi zanikly spolu s díly náležejícími lihýřovému [regulátoru](/slovnik/regulator), pokud tam vůbec byly. Možná se dřív na stroje ani hodináři nepodepisovali.
 

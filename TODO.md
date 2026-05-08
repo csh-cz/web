@@ -32,9 +32,14 @@ metodou Zotero MCP semantic search + verbatim grep v plaintextech
       Pipeline: `slovnik:build` → 45 MDX, `auto-link-slovnik` → 125
       nových linků v 100 souborech, `search:corpus` → 1058 records
       (heslo: 45). Build 1184 stran.
-- [ ] **SL4 Profese a hodinářské školy** — hodinář, pouzdrář, regionální
-      školy (pražská, švarcvaldská, vídeňská, anglická, francouzská,
-      švýcarská).
+- ~~**SL4 Profese a hodinářské školy**~~ ✅ Hotovo. 8 hesel
+      (hodinář, pouzdrář, pražská, švarcvaldská, vídeňská, anglická,
+      francouzská, švýcarská škola) z primárních pramenů (Špatný
+      1882 podtitul „pro hodináře a pouzdráře hodinářské", Sladkovský
+      1947 — celá jedna sekce učebnice). Slovník nyní 53 hesel přes
+      6 kategorií (mechanika 15 + bicí 11 + astronomické 4 + materiály
+      5 + hodinky 10 + profese 8). Build 1192 stran, search corpus
+      1066 records.
 - [ ] **SL5 Bicí mechanismy detail** — Westminster chime, čtvrťové bití,
       repetice, opakovačka, Grande sonnerie 1859.
 - [ ] **SL6 Šumavský 1851 — neuvedené termíny** (~60) — kalendář,

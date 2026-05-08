@@ -72,6 +72,15 @@ const KATEGORIE = {
   'chronograf': 'hodinky',
   'automatic (samonatahovací)': 'hodinky',
   'GMT / druhá časová zóna': 'hodinky',
+  // profese a hodinářské školy (8) — SL4
+  'hodinář': 'profese',
+  'pouzdrář': 'profese',
+  'pražská škola': 'profese',
+  'švarcvaldská škola': 'profese',
+  'vídeňská škola': 'profese',
+  'anglická škola': 'profese',
+  'francouzská škola': 'profese',
+  'švýcarská škola': 'profese',
 };
 
 function slugify(text) {

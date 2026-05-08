@@ -16,4 +16,4 @@ references:
 tldr: 'Mezinárodní muzeum hodinařství v La Chaux-de-Fonds (Švýcarsko) — vrcholná světová sbírka, restaurátorské pracoviště a referenční institut hodinářské vědy.…'
 ---
 
-Mezinárodní muzeum hodinařství v La Chaux-de-Fonds (Švýcarsko) — vrcholná světová sbírka, restaurátorské pracoviště a referenční institut hodinářské vědy. MIH provozuje Institut L'homme et le temps a vydává odborné publikace; sbírka pokrývá historii měření času od [slunečních hodin](/slovnik/slunecni-hodiny) po atomové.
+Mezinárodní muzeum hodinařství v [La Chaux-de-Fonds](/slovnik/svycarska-skola) (Švýcarsko) — vrcholná světová sbírka, restaurátorské pracoviště a referenční institut hodinářské vědy. MIH provozuje Institut L'homme et le temps a vydává odborné publikace; sbírka pokrývá historii měření času od [slunečních hodin](/slovnik/slunecni-hodiny) po atomové.
