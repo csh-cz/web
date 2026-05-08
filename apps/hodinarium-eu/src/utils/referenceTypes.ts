@@ -24,3 +24,23 @@ export function pramenTooltip(type: string | undefined | null): string {
   if (!type) return referenceTooltip.odkaz;
   return referenceTooltip[type] ?? referenceTooltip.odkaz;
 }
+
+/**
+ * Z URL na Wikipedii / Wikimedia Commons / Wikidata vytáhne čitelný
+ * název hesla — prostor v podtržítkách dekóduje, %-encoding rozbalí.
+ *   https://cs.wikipedia.org/wiki/Hole%C5%A1ovick%C3%BD_p%C5%99%C3%ADstav
+ *     → "Holešovický přístav"
+ *   https://commons.wikimedia.org/wiki/File:Foo.jpg → "File:Foo.jpg"
+ *   https://www.wikidata.org/wiki/Q12019992 → "Q12019992"
+ * Pokud URL neodpovídá vzoru `/wiki/<slug>`, vrací null.
+ */
+export function extractWikiTitle(url: string | undefined): string | null {
+  if (!url) return null;
+  const m = url.match(/\/wiki\/([^?#]+)/);
+  if (!m) return null;
+  try {
+    return decodeURIComponent(m[1]).replace(/_/g, ' ');
+  } catch {
+    return m[1].replace(/_/g, ' ');
+  }
+}
