@@ -320,22 +320,26 @@
   @keyframes spin-report { to { transform: rotate(360deg); } }
 </style>
 
-<script is:inline>
+<script>
+  // Bundled ES module — má ESM import (na rozdíl od `is:inline` v SearchModal,
+  // které blokuje import kvůli `define:vars` data injection).
+  import { attachDialogControls } from '../utils/dialog-controls';
+
   (function () {
     const trigger = document.getElementById('report-issue-trigger');
-    const dialog = document.getElementById('report-issue-modal');
-    const form = document.getElementById('report-issue-form');
+    const dialog = document.getElementById('report-issue-modal') as HTMLDialogElement | null;
+    const form = document.getElementById('report-issue-form') as HTMLFormElement | null;
     if (!trigger || !dialog || !form) return;
 
-    const pageInfoEl = document.getElementById('report-page-info');
-    const typeEl = document.getElementById('report-type');
-    const descEl = document.getElementById('report-description');
-    const counterEl = document.getElementById('report-counter');
-    const honeypotEl = document.getElementById('report-honeypot');
-    const statusEl = document.getElementById('report-status');
-    const submitBtn = form.querySelector('.report-form-submit');
-    const cancelBtn = form.querySelector('.report-form-cancel');
-    const closeBtn = form.querySelector('.report-form-close');
+    const pageInfoEl = document.getElementById('report-page-info') as HTMLInputElement;
+    const typeEl = document.getElementById('report-type') as HTMLSelectElement;
+    const descEl = document.getElementById('report-description') as HTMLTextAreaElement;
+    const counterEl = document.getElementById('report-counter') as HTMLElement;
+    const honeypotEl = document.getElementById('report-honeypot') as HTMLInputElement;
+    const statusEl = document.getElementById('report-status') as HTMLElement;
+    const submitBtn = form.querySelector('.report-form-submit') as HTMLButtonElement;
+    const cancelBtn = form.querySelector('.report-form-cancel') as HTMLButtonElement;
+    const closeBtn = form.querySelector('.report-form-close') as HTMLButtonElement;
 
     function updateCounter() {
       const len = descEl.value.length;
@@ -351,29 +355,24 @@
       pageInfoEl.dataset.title = title;
     }
 
-    function openModal() {
-      fillCurrentPage();
-      statusEl.textContent = '';
-      statusEl.className = 'report-status';
-      // Reset only popis + type, zachovej page info (aktuální stránka).
-      descEl.value = '';
-      typeEl.value = '';
-      honeypotEl.value = '';
-      updateCounter();
-      submitBtn.classList.remove('is-loading');
-      submitBtn.disabled = false;
-      if (!dialog.open) dialog.showModal();
-      setTimeout(() => typeEl.focus(), 30);
-    }
-    function closeModal() {
-      if (dialog.open) dialog.close();
-    }
-
-    trigger.addEventListener('click', openModal);
-    cancelBtn.addEventListener('click', closeModal);
-    closeBtn.addEventListener('click', closeModal);
-    dialog.addEventListener('click', function (e) {
-      if (e.target === dialog) closeModal();
+    // Sjednocený dialog handler (open/close/Esc/click-outside).
+    // Tech-debt TD2 — předtím duplicitní s SearchModal.
+    const { close: closeModal } = attachDialogControls(dialog, {
+      trigger,
+      closeBtns: [cancelBtn, closeBtn],
+      onOpen: () => {
+        fillCurrentPage();
+        statusEl.textContent = '';
+        statusEl.className = 'report-status';
+        // Reset only popis + type, zachovej page info (aktuální stránka).
+        descEl.value = '';
+        typeEl.value = '';
+        honeypotEl.value = '';
+        updateCounter();
+        submitBtn.classList.remove('is-loading');
+        submitBtn.disabled = false;
+        setTimeout(() => typeEl.focus(), 30);
+      },
     });
 
     form.addEventListener('submit', async function (e) {
@@ -442,9 +441,6 @@
       }
     });
 
-    // Esc zavře (dialog default), ale pojistka pro klik mimo:
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && dialog.open) closeModal();
-    });
+    // Escape + click-outside = řeší attachDialogControls výše.
   })();
 </script>

@@ -48,45 +48,49 @@ viditelný pro color-blind/low-vision uživatele.
 
 ## TD2 — Dialog handler duplicity (SearchModal × ReportIssueModal)
 
+**Stav:** 🟡 **Částečně vyřešeno** (ReportIssueModal hotová, SearchModal čeká).
+
 **Kategorie:** Reálná code duplikace
-**Priorita:** 🟡 Medium
-**Effort:** ~30 min
-**Files:**
+**Priorita:** ~~🟡 Medium~~ → 🟢 Low (zbývající SearchModal část)
+**Effort:** 30 min na ReportIssueModal hotovo, SearchModal čeká na bundling
 
-- `apps/hodinarium-eu/src/components/SearchModal.astro:590-628`
-- `apps/hodinarium-eu/src/components/ReportIssueModal.astro:365-447`
+### Hotovo (commit ?)
 
-**Duplicitní logika:**
-1. **`openModal()` / `closeModal()` wrappery** kolem `dialog.showModal()`
-   / `dialog.close()` — identický pattern
-2. **Click-outside handler** — `dialog.addEventListener('click', e => if (e.target === dialog) closeModal())`
-   — **byte-for-byte identický**
-3. **Escape key handler** — `document.addEventListener('keydown', e =>
-   if (e.key === 'Escape' && dialog.open) closeModal())` — také identický
+- `apps/hodinarium-eu/src/utils/dialog-controls.ts` ✅ **NEW** — pure ESM helper
+  `attachDialogControls(dialog, opts)` s API:
+  ```ts
+  export function attachDialogControls(
+    dialog: HTMLDialogElement,
+    opts: { trigger?, triggers?, closeBtns?, onOpen?, onClose?,
+            noClickOutside?, noEscapeHandler? }
+  ): { open, close };
+  ```
+- `apps/hodinarium-eu/src/components/ReportIssueModal.astro` ✅
+  Drop `is:inline` → bundled ESM script. Nahrazení duplicitního
+  open/close/Esc/click-outside boilerplate jediným `attachDialogControls()`
+  voláním. **Smazáno ~25 řádků duplicitní logiky**, přidáno ~5 řádků
+  TS typed `as` casty.
 
-**Doporučení:** Extrahovat do `apps/hodinarium-eu/src/utils/dialog-controls.ts`:
+### Zbývá
 
-```ts
-export function attachDialogControls(
-  dialog: HTMLDialogElement,
-  opts: { trigger?: HTMLElement; closeBtns?: HTMLElement[]; onOpen?: () => void; onClose?: () => void }
-): { open: () => void; close: () => void };
-```
+- `apps/hodinarium-eu/src/components/SearchModal.astro:324-631` ⏳
+  Blokuje `<script is:inline define:vars>` — compile-time injection
+  `searchData` + `categoryLabels` přes Astro `define:vars` vyžaduje
+  `is:inline`, který blokuje ESM imports.
 
-Vrátit `{ open, close }` pro callers, kteří potřebují ovládat dialog
-mimo standard handlery (SearchModal volá `open()` z keyboard shortcutu).
+### Doporučení pro SearchModal část
 
-**Bonus:** Při refaktoru přidat focus restoration (`dialog.returnValue`
-+ `previouslyFocused`) — řeší to současně část a11y debt.
+**Bundle s plánovaným SearchModal aria refaktorem** (C3+C4+M2 v a11y A.9):
+- Aria refaktor stejně přepisuje JS logiku komponenty (combobox/listbox
+  pattern, aria-activedescendant, focus management)
+- Při tom přesunout data injection z `define:vars` → `<script type="application/json">`
+  data island + `JSON.parse(document.getElementById('search-data').textContent)`
+  v module skriptu
+- Pak může module script ESM importovat `attachDialogControls`
 
-**Bundling s plánovaným SearchModal aria refaktorem (C3+C4+M2):**
-- Pokud se C3+C4+M2 dělá samostatně, **udělat TD2 první**, aby refaktor
-  stavěl na čistém helperu.
-- Alternativně bundle TD2 + C3/C4/M2 do jedné session.
-
-**Dopad pokud nedělat:** Kosmetický (~70 řádků zbytečně duplicitního JS),
-ale každá další úprava (focus restoration, custom Esc behavior, atd.)
-musí být na 2 místech.
+**Dopad pokud nedělat hned:** Kosmetický (~25 řádků zbytečně duplicitního
+JS v SearchModal), ale každá další úprava modal lifecycle (focus restoration,
+custom Esc behavior, atd.) zůstává na 2 místech.
 
 ---
 

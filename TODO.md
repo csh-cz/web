@@ -21,7 +21,7 @@ blokátorů:
 | 2 | ~~**TD1 + a11y M7 bundle**~~ ✅ hotovo | A.9 + tech-debt | ~30 min | Sjednoceno na `.link-bare` class. WCAG 1.4.1 vyřešeno. |
 | 3 | **SL8 Cross-link kroky → slovnik** | A.6 | ~1–2 h | Nový `/slovnik/` je izolovaný; auto-link skript paralelní s existujícím `kroky:auto-link` propojí kartu kroku → heslo slovníku. |
 | 4 | **FU6 README pro hodinarium-eu** | A.10 | ~30 min | Engineering hygiene, žádný blokátor. Nutné před onboardováním dalších přispěvatelů. |
-| 5 | **TD2 dialog handler extrakce** | tech-debt | ~30 min | Před plánovaným SearchModal aria refaktorem (C3+C4+M2). Identical click-outside + Esc duplicity v 2 modalech. |
+| 5 | ~~**TD2 dialog handler extrakce**~~ ✅ částečně | tech-debt | ~30 min | ReportIssueModal refaktorováno na `attachDialogControls()` helper. SearchModal čeká na bundle s C3+C4+M2 (define:vars blokuje ESM import). |
 
 **Většinu lze pustit nezávisle.** Jediný měkký řetěz: FU7 inventář může změnit
 prioritizaci ostatních FU (typicky odhalí redundance).
@@ -160,11 +160,14 @@ První ruční audit hodinarium-eu (`docs/a11y-audit-hodinarium-2026-05-08.md`)
 identifikoval 17 nálezů. **Quick-wins (C1, C2, M1, M3, M4, M5) vyřešeny**
 v této větvi. Zbývají položky vyžadující větší refaktor nebo bundling:
 
-- [ ] **C3 + C4 + M2: SearchModal aria pattern refaktor** — combobox/listbox
-      pattern s `aria-activedescendant` na výsledcích, status `aria-live`
-      oddělený od listu, ArrowUp/Down přesouvá programatický focus,
-      ArrowLeft/Right pro tabs. Nejnáročnější — ~1–2 h. Ideálně po VoiceOver
-      test. Komponenta: `apps/hodinarium-eu/src/components/SearchModal.astro`.
+- [ ] **C3 + C4 + M2 + TD2-část-2: SearchModal aria pattern refaktor** —
+      combobox/listbox pattern s `aria-activedescendant` na výsledcích,
+      status `aria-live` oddělený od listu, ArrowUp/Down přesouvá
+      programatický focus, ArrowLeft/Right pro tabs. Při tom **přesunout
+      data injection** z `define:vars` na `<script type="application/json">`
+      data island, čímž se umožní ESM import a vyřeší se i TD2-část-2
+      (`attachDialogControls()` helper). Nejnáročnější — ~1–2 h. Ideálně
+      po VoiceOver test. Komponenta: `apps/hodinarium-eu/src/components/SearchModal.astro`.
 - [ ] **M6: Report form `<input readonly tabindex="-1">` → `<output>`**
       — readonly+tabindex je OK funkčně, ale SR čte „form input"; lepší
       `<output>` element. `ReportIssueModal.astro:57`.
