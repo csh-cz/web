@@ -37,7 +37,7 @@ Miroslav Malovec, Poděbradské noviny 1996
 
 **M**alý litinový trpaslíček odbíjející každou celou hodinu kladívkem na velkou červenou muchomůrku, už zase patří Poděbradům a jejich květinovým hodinám v lázeňském parku… Prohlížíme-li si staré pohlednice s květinovými hodinami, zjistíme, že se od dob svého vzniku příliš nezměnily, zato velkých změn doznal okolní park. K nim patřila i ta, že na počátku 60. let nenápadně a neznámo kam zmizel i malý trpaslíček, jako oběť nesmiřitelného boje proti kýči, jehož symbolem se stal. Nahradilo ho tehdy rudé srdce na žulovém hranolu a okolní park zaplnily umělecky hodnotné plastiky.
 
-**S**koro čtyřicet let byl trpaslíček nezvěstný. Nakonec se vrátil ze soukromých rukou, které ho zachránily před odložením do sběru. Dostal nový kabátek i kladívko, pečlivě byl opraven celý mechanismus. V květnu 1997, přesně po šedesáti letech, zažily Poděbrady novou slávu, když se objevil u hodin.
+**S**koro čtyřicet let byl trpaslíček nezvěstný. Nakonec se vrátil ze soukromých rukou, které ho zachránily před odložením do sběru. Dostal nový kabátek i [kladívko](/slovnik/kladivko), pečlivě byl opraven celý mechanismus. V květnu 1997, přesně po šedesáti letech, zažily Poděbrady novou slávu, když se objevil u hodin.
 
 Jana Hrabětová, Nymbursko 1997
 

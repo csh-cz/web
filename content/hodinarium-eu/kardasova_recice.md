@@ -29,7 +29,7 @@ Zdá se, že Rosický ani Loriš o stavbě nových hodin v roce 1604 nevěděli 
 
 ![stroj v Kardašově Řečici](/img/vez/KR_krok.jpg)Je častou chybou čistých historiků, že více spoléhají na písemné prameny, než na dochovaný hmotný stav. Pokud existující hodiny vznikly přestavbou z hodin mistra Hanuše, či z hodin neznámého "taufara", tak jde o přestavbu totální, při níž z původního stroje mnoho nezbylo. Zatím se nepodařilo na stroji zjistit nic, co by potvrzovalo datování k roku 1493. Navzdory autoritám.
 
-Lze se tedy domnívat, že mistr Hanuš pro Jindřichův Hradec hodiny zhotovil, ale v roce 1604 byly již nahrazeny novějšími, stále však bez použití kyvadla. Kyvadlo bylo u hodin použito poprvé v roce 1656.
+Lze se tedy domnívat, že mistr Hanuš pro Jindřichův Hradec hodiny zhotovil, ale v roce 1604 byly již nahrazeny novějšími, stále však bez použití [kyvadla](/slovnik/kyvadlo). Kyvadlo bylo u hodin použito poprvé v roce 1656.
 
 V roce 1822 byla v Jindřichově Hradci zbořena městská brána, zvaná Pražská nebo Novoměstská. Společně s Rybniční branou ustoupila moderní městské výstavbě. Hodiny do ní někdy přemístěné tak byly opět volné pro další použití. To se našlo v Kardašově Řečici. Byly umístěny do věže kostela Narození sv. Jana Křtitele. Tam vydržely cca do roku 2012 i když již mimo funkci. Přibližně v před 25 lety byly zastaveny a nahrazeny moderním strojem. Zůstaly uloženy na původním místě na věži farního kostela Narození sv. Jana Křtitele ve stavu na obrázcích.
 

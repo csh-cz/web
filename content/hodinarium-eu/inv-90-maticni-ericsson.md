@@ -24,7 +24,7 @@ karta:
     - { label: "Poznámka", value: "pákové impulzy kyvadlu" }
 ---
 
-Stroj je řízen volně kývajícím [kyvadlem](/slovnik/kyvadlo). V horní části kyvadla je vahadlo, na jehož krajních bodech jsou kontakty.
+Stroj je řízen volně kývajícím [kyvadlem](/slovnik/kyvadlo). V horní části [kyvadla](/slovnik/kyvadlo) je vahadlo, na jehož krajních bodech jsou kontakty.
 
 V okamžiku vykývnutí kyvadla na jednu krajní pozici se otevře kontakt elektrického obvodu na jedné krajní pozici a uvolní cívku elektrického proudu. Přitažením s větší vůlí vlastní hmotnosti přes tento kontakt předá impulz kyvadlu. Obdobný proces se opakuje při vykývnutí kyvadla do druhé krajní pozice. Tím je řízen krokový motorek.
 

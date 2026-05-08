@@ -89,7 +89,7 @@ Slunce se zdánlivě po ekliptice nepohybuje rovnoměrně, což je následek dru
 
 **Pravé Slunce** vykonává zdánlivý roční pohyb po ekliptice, avšak podle druhého Keplerova zákona nerovnoměrně. Proto není **pravý sluneční čas,** který definujeme jako hodinový úhel pravého Slunce, stejně dlouhý. Země se pohybuje v přísluní nejrychleji a naopak v odsluní nejpomaleji. Proto **pravý sluneční den**, doba mezi dvěma po sobě následujícími dolními kulminacemi pravého Slunce, není vždy stejně dlouhý (v létě je kratší než v zimě).
 
-**Místní pravý sluneční čas** lze měřit pouze pomocí **[slunečních hodin](/slovnik/slunecni-hodiny).** Jejich základní částí je **polos,** stínová tyč rovnoběžná se zemskou osou. Na severní polokouli směřuje polos k severnímu světovému pólu a s vodorovnou rovinou svírá úhel rovný místní zeměpisné šírce j. Polos vrhá svůj stín na číselník a ukazuje tím čas. Podle polohy číselníku rozdělujeme sluneční hodiny na
+**Místní pravý sluneční čas** lze měřit pouze pomocí **[slunečních hodin](/slovnik/slunecni-hodiny).** Jejich základní částí je **polos,** stínová tyč rovnoběžná se zemskou osou. Na severní polokouli směřuje polos k severnímu světovému pólu a s vodorovnou rovinou svírá úhel rovný místní zeměpisné šírce j. Polos vrhá svůj stín na číselník a ukazuje tím čas. Podle polohy číselníku rozdělujeme [sluneční hodiny](/slovnik/slunecni-hodiny) na
 
 - **rovníkové** - rovina číselníku je rovnoběžná s rovníkem, číselník je kolmý na polos, jež je rovnoběžný se zemskou osou, číselník má dělení po 15°;
 - **vertikální** - rovina číselníku je svislá a měla by být orientována na jih, polos s ní svírá úhel 90 – j, úhly b mezi poledníkovým směrem a čarami číselníku se vypočtou pomocí vzorce tg b = tg a \* cos j, kde se za a postupně dosazují násobky 15°;
@@ -111,7 +111,7 @@ Protože pravý sluneční čas je vlastně hodinový úhel pravého Slunce *tP*
 
 *E* = *tP*± 12 h – *T**S*
 
-Hodnota časové rovnice je nezávislá na místě pozorování a je pro každý den uváděna ve hvězdářských ročenkách. Z denních hodnot časové rovnice se sestavuje její **graf pro celý rok.** Z grafu vyplývá, že [časová rovnice](/slovnik/casova-rovnice) je čtyřikrát do roka rovna nule. Největší rozdíly jsou 10. až 12. února, kdy se pravé poledne opozdí za středním o 14 min 16 s, a 2. až 4. listopadu, kdy pravé poledne nastává 16 min 25 s před polednem středním. V prvním případě má časová rovnice hodnotu zápornou, ve druhém kladnou.
+Hodnota [časové rovnice](/slovnik/casova-rovnice) je nezávislá na místě pozorování a je pro každý den uváděna ve hvězdářských ročenkách. Z denních hodnot časové rovnice se sestavuje její **graf pro celý rok.** Z grafu vyplývá, že [časová rovnice](/slovnik/casova-rovnice) je čtyřikrát do roka rovna nule. Největší rozdíly jsou 10. až 12. února, kdy se pravé poledne opozdí za středním o 14 min 16 s, a 2. až 4. listopadu, kdy pravé poledne nastává 16 min 25 s před polednem středním. V prvním případě má časová rovnice hodnotu zápornou, ve druhém kladnou.
 
 **Vztah mezi hvězdným a středním slunečním časem**
 
@@ -172,7 +172,7 @@ Pro určení zeměpisné délky z rozdílu místních časů je třeba mít hodi
 
 **Určování zeměpisné délky pomocí Slunce**
 
-Čeká se na horní kulminaci Slunce, která je v pravé poledne místního času. V tento okamžik se zároveň přečte, kolik hodin ukazuje chronometr nařízený na střední sluneční čas greenwichského poledníku. Rozdíl časů místního a greenwichského poledníku se zjistí tak, že se místo pravého poledne vezme příslušný střední čas pro daný den z Hvězdářské ročenky a od něj se odečte greenwichský čas přečtený na [chronometru](/slovnik/chronometr).
+Čeká se na horní kulminaci Slunce, která je v pravé poledne místního času. V tento okamžik se zároveň přečte, kolik hodin ukazuje [chronometr](/slovnik/chronometr) nařízený na střední sluneční čas greenwichského poledníku. Rozdíl časů místního a greenwichského poledníku se zjistí tak, že se místo pravého poledne vezme příslušný střední čas pro daný den z Hvězdářské ročenky a od něj se odečte greenwichský čas přečtený na [chronometru](/slovnik/chronometr).
 
 l = *T*sl – *T*sG nebo l = *T*pl – *T*pG,
 

@@ -17,7 +17,7 @@ tldr: '![Brevete](/img/hodinky/kapesni_orloj/627893335_6.jpg)'
 
 Kolikrát jsem už o větších hodinkách slyšel zvolání: "to je ale orloj". Málokdy ovšem na výroku něco bylo. Trochu jinak je to u hodinek BREVETE S. G. D. G. Jejich konstrukce kalendářní komplikace včetně zobrazení měsíčních fází je podivuhodná, tedy opravdu hodná podivu.
 
-**N**a první pohled se tak ani nezdají. "Normální švýcary" řeknete. Pěkné, zachovalé, stříbrné masivní pouzdro bez poškození o průměru 50 mm. Puncováno na víku i krčku s rytinou na zadní straně. Ciferník téměř nepoškozen, stroj v chodu. Co více si přát.
+**N**a první pohled se tak ani nezdají. "Normální švýcary" řeknete. Pěkné, zachovalé, stříbrné masivní [pouzdro](/slovnik/pouzdro) bez poškození o průměru 50 mm. Puncováno na víku i krčku s rytinou na zadní straně. Ciferník téměř nepoškozen, stroj v chodu. Co více si přát.
 
 **S**tačí ovšem zmáčknout korunku, odklopit zadní víčko a objeví se ....
 

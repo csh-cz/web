@@ -34,7 +34,7 @@ thumbnail: '/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg'
 
 ![](/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg)
 
-Hodiny dostávají impulz do [kyvadla](/slovnik/kyvadlo), na kterém je zavěšen zvláštní tvarovaný magnet. Ke kyvadlu je připevněna západka, která při každém kyvu pootočí pohonem rotorku. Ta zároveň sepne kontakt pro impulz do cívky a posune posunovacím strojkem.
+Hodiny dostávají impulz do [kyvadla](/slovnik/kyvadlo), na kterém je zavěšen zvláštní tvarovaný magnet. Ke [kyvadlu](/slovnik/kyvadlo) je připevněna západka, která při každém kyvu pootočí pohonem rotorku. Ta zároveň sepne kontakt pro impulz do cívky a posune posunovacím strojkem.
 
 Systém byl rozšířen ve Francii, kde jej v roce 1908 sestrojili bratři Brillié. Hodiny vysílají půlminutové impulzy, jak je ve Francii obvyklé.
 

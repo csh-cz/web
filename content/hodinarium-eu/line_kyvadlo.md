@@ -10,7 +10,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:02.515Z"
 tldr: 'Tato stránka se zaměřuje na to, jak jednoduše reálné kyvadlo zpomalit pro nenáročné aplikace a to jinak než prodloužením jeho délky.'
 ---
-![pilovky](/img/line_kyvadlo/differentialni_kyvadlo.jpg)Prakticky každý, kdo se zajímá o hodiny, zná vzoreček na výpočet délky matematického kyvadla. Kupodivu málokdo zná podobný vzoreček na výpočet fyzikálního kyvadla. Každé reálné [kyvadlo](/slovnik/kyvadlo) je však kyvadlo fyzikální. Hmota kyvadla tak působí jednak jako hmota kterou urychluje tíhové zrychlení, jednak jako hmota setrvačná působící proti změně rychlosti pohybu. Tato dvě působené se projevují různě, proto neplatí známá "poučka", že na hmotě nezáleží. Neplatí v celém rozsahu ani pravidlo, že prodlužováním vzdálenosti mezi bodem otáčení a těžištěm se zvyšuje doba kyvu.
+![pilovky](/img/line_kyvadlo/differentialni_kyvadlo.jpg)Prakticky každý, kdo se zajímá o hodiny, zná vzoreček na výpočet délky matematického [kyvadla](/slovnik/kyvadlo). Kupodivu málokdo zná podobný vzoreček na výpočet fyzikálního kyvadla. Každé reálné [kyvadlo](/slovnik/kyvadlo) je však kyvadlo fyzikální. Hmota kyvadla tak působí jednak jako hmota kterou urychluje tíhové zrychlení, jednak jako hmota setrvačná působící proti změně rychlosti pohybu. Tato dvě působené se projevují různě, proto neplatí známá "poučka", že na hmotě nezáleží. Neplatí v celém rozsahu ani pravidlo, že prodlužováním vzdálenosti mezi bodem otáčení a těžištěm se zvyšuje doba kyvu.
 
 Tato stránka se zaměřuje na to, jak jednoduše reálné kyvadlo zpomalit pro nenáročné aplikace a to jinak než prodloužením jeho délky.
 

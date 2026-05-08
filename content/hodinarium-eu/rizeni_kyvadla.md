@@ -14,7 +14,7 @@ tldr: 'Přesná mechanická kyvadla jsou obvykle teplotně i barometricky kompen
 ---
 ![Zkušební přípravek pro digitálně řízené kyvadlo](/img/elektrika/kyvadlo/pripravek.jpg)
 
-Přesná mechanická kyvadla jsou obvykle teplotně i barometricky kompenzována. Jednou z jiných cest může být (zejména u historických či věžních hodin) měření doby kyvu například infračerveným optickým snímačem a další zpracování pomocí mikroprocesoru (ESP8266). Na základě zjištěné odchylky od očekávaného stavu bude upraven moment setrvačnosti kyvadla. Úpravu v tomto příkladu provede krokový motor otáčením závitovou tyčí, která posunuje trimovací závažíčko na tyči kyvadla. Následující text je určitou inspirací k takovému postupu.
+Přesná mechanická [kyvadla](/slovnik/kyvadlo) jsou obvykle teplotně i barometricky kompenzována. Jednou z jiných cest může být (zejména u historických či věžních hodin) měření doby kyvu například infračerveným optickým snímačem a další zpracování pomocí mikroprocesoru (ESP8266). Na základě zjištěné odchylky od očekávaného stavu bude upraven moment setrvačnosti kyvadla. Úpravu v tomto příkladu provede krokový motor otáčením závitovou tyčí, která posunuje trimovací závažíčko na tyči kyvadla. Následující text je určitou inspirací k takovému postupu.
 
 ### Základní princip
 

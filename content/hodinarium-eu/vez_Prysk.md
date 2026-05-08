@@ -28,7 +28,7 @@ Po rozebrání stroje na jednotlivé součásti byly nejprve železné díly pon
 
 Mosazná kola po rozrušení korozní krusty byla očištěna pod vodou smirkovým papírem (400) a mezizubové prostory byly vykartáčovány mosazným kartáčem. Přitom bylo zjištěno, že loukotě kola hodinového soukolí jsou prasklé (obr. 5). Opravu odborně provedla firma pana Nováka ze Semil. Po ošetření byla mosazná kola natřena bezbarvým lakem.
 
-Všechny železné díly byly důkladně opláchnuty vlažnou vodou, řádně vysušeny a natřeny základovou barvou. Konečná úprava byla u rámu provedena matnou červenohnědou barvou Ral 3000, páky ošetřeny barvou šedou, větrníky a bubny černou matnou barvou.
+Všechny železné díly byly důkladně opláchnuty vlažnou vodou, řádně vysušeny a natřeny základovou barvou. Konečná úprava byla u rámu provedena matnou červenohnědou barvou Ral 3000, páky ošetřeny barvou šedou, [větrníky](/slovnik/vetrnik) a bubny černou matnou barvou.
 
 Před konečnou montáží byly doplněny chybějící díly. Podle částečně zachovalého křídla větrníku byla vyrobena kompletně nová (obr. 6 a 7). Dále byla zhotovena chybějící rohatka větrníku bití celých hodin (obr. 8). Vyrobena byla chybějící páka spouštění bití a opravena vidlice kyvadla (obr. 9).
 

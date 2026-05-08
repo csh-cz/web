@@ -32,6 +32,6 @@ thumbnail: '/img/decin/francie1770/f/foto_0001.jpg'
 
 Půlový hodinový stroj s rámem typu flat bed. Tento způsob uložení kol se u nás vyskytuje vzácně. Stroj má horizontální uspořádání, **[Amantův](/kroky/amantuv-krok)** kolíčkový krok. Na rámu jsou patrny stopy dodatečných úprav. Bití je půlové, na minutovém kole jsou dva spouštěcí kolíky, závěrkové kolo má širší mezery pro závěrkovou páku. Po odbití celých hodin při následujícím uvolnění v půli závěrková páka zapadne hned po odbití jednoho úderu.
 
-Stroj byl opraven a nakonzervován, doplněny chybějící části, např. závěs kyvadla s kompletním [kyvadlem](/slovnik/kyvadlo) a natahovací klika k původnímu pastorku.
+Stroj byl opraven a nakonzervován, doplněny chybějící části, např. závěs [kyvadla](/slovnik/kyvadlo) s kompletním [kyvadlem](/slovnik/kyvadlo) a natahovací klika k původnímu pastorku.
 
-Stroj byl zakoupen od hodináře věžních hodin Markuse Burmeistera. Podle jeho vyjádření se jedná o francouzský stroj, vyrobený kolem roku 1770. Při čištění byla na uchycení kotvy nalezena signatura [Paul Zieux](/hodinari/paul-zieux).
+Stroj byl zakoupen od hodináře věžních hodin Markuse Burmeistera. Podle jeho vyjádření se jedná o francouzský stroj, vyrobený kolem roku 1770. Při čištění byla na uchycení kotvy nalezena [signatura](/slovnik/signatura) [Paul Zieux](/hodinari/paul-zieux).

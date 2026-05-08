@@ -16,7 +16,7 @@ V roce 2014 se na Aukru prodaly pilové hodiny se samonivelačním fyzikálním 
 
 ## Pilové hodiny - zvláštní případ hodin s pohonem závažím
 
-Hodiny mají několik zajímavostí, proto přinášíme jejich podrobnější popis. Pilové hodiny používají místo samostatného závaží váhu vlastního stroje, který sjíždí po ozubené tyči. Na rozdíl od jiných pilových hodin je zde ozubená tyč poměrně krátká, měří jen asi 8 cm. Pro zachování alespoň denního chodu s rezervou, musí být chod stroje co nejpomalejší. Toho je dosaženo jednak kvalitním strojem s větším převodem a jednak zpomalením krokového ústrojí použitím fyzikálního kyvadla.
+Hodiny mají několik zajímavostí, proto přinášíme jejich podrobnější popis. Pilové hodiny používají místo samostatného závaží váhu vlastního stroje, který sjíždí po ozubené tyči. Na rozdíl od jiných pilových hodin je zde ozubená tyč poměrně krátká, měří jen asi 8 cm. Pro zachování alespoň denního chodu s rezervou, musí být chod stroje co nejpomalejší. Toho je dosaženo jednak kvalitním strojem s větším převodem a jednak zpomalením krokového ústrojí použitím fyzikálního [kyvadla](/slovnik/kyvadlo).
 
 ## Fyzikální kyvadlo
 

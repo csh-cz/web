@@ -77,6 +77,22 @@ const SLOVNIK_AUTO_LINK = {
                      'rubínovým kamenem'],
   'vlaskova-krivka': ['vlásková křivka', 'Breguetův vlásek', 'Breguetova spirála',
                       'Phillipsova křivka', 'terminální křivka'],
+
+  // Hodinky kapesní/náramkové (SL3):
+  'kalibr': ['kalibr', 'kalibru', 'kalibrem', 'kalibry'],
+  'korunka': ['korunka', 'korunky', 'korunkou', 'korunek',
+              'korunkové natahování', 'korunkového natahování'],
+  'sklicko': ['sklíčko', 'sklíčka', 'sklíčkem',
+              'safírové sklo', 'safírového skla', 'safírovým sklem'],
+  'pouzdro': ['pouzdro', 'pouzdra', 'pouzdrem', 'pouzder',
+              'pouzdru'],
+  'signatura': ['signatura', 'signatury', 'signaturu', 'signaturou',
+                'signatuře'],
+  'chronograf': ['chronograf', 'chronografu', 'chronografy',
+                 'chronografem', 'chronografů'],
+  'opakovaci-hodinky': ['opakovací hodinky', 'opakovacích hodinek',
+                        'opakovačky', 'opakovaček', 'minute repeater',
+                        'minutová repetice', 'Grande sonnerie'],
 };
 
 /**

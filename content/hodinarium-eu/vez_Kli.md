@@ -12,7 +12,7 @@ tags:
   - vezni
 tldr: 'Do Hodinária byl od soukromého sběratele zapůjčen stroj věžních hodin se zajímavým kyvadlem a vřetenovým krokem. Od sezóny 2013 bude dlouhodobou součástí expozice.'
 ---
-Do Hodinária byl od soukromého sběratele zapůjčen stroj věžních hodin se zajímavým kyvadlem a vřetenovým krokem. Od sezóny 2013 bude dlouhodobou součástí expozice.
+Do Hodinária byl od soukromého sběratele zapůjčen stroj věžních hodin se zajímavým [kyvadlem](/slovnik/kyvadlo) a vřetenovým krokem. Od sezóny 2013 bude dlouhodobou součástí expozice.
 
 Kovaný rám obsajuje nyní kyvadlový stroj s vřetenovým krokem v horní nástavbě a půlový [bicí stroj](/slovnik/bici-stroj) se závěrkovým kolem. Škoda, že ozdobné horní voluty rámu se zachovaly jen u středních sloupků. Na krajních sloupcích jsou ulámané. Pohledově je zajímavá zejména nástavba s prodlouženým kyvadlem a korunovým kolem. Protažení [kyvadlové](/slovnik/kyvadlo) tyče směrem vzhůru nad hřídel není obvyklé řešení. Můžeme se pouze domnívat, zda jde o estetický doplněk, nebo zda prodloužení sloužilo k snadnější manipulaci s kyvadlem (vysunutí ze záběru) při seřizování stroje.
 

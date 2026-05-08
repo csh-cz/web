@@ -27,7 +27,7 @@ scrapedAt: "2026-04-27T17:36:37.648Z"
 
 - **2010 restaurovány** restaurátorským ateliérem věžních hodin akademických sochařů Petra a Melánie Skálových a v roce 2011 vystaveny ve věžní klenotnici.
 
-**U**vedené archivní zápisy a nalezené signatury nedávají jednoznačnou odpověď na stáří hodin, ani jednoznačně neurčují jejich tvůrce. Rovněž není jasné jejich umístění ve věži, počet ciferníků a ani umístění a počet odbíjecích cimbálů. Stáří stroje bohužel nepotvrzují nalezené signatury. Rám signován není. Nejstarší nalezená signatura je z roku 1743.
+**U**vedené archivní zápisy a nalezené signatury nedávají jednoznačnou odpověď na stáří hodin, ani jednoznačně neurčují jejich tvůrce. Rovněž není jasné jejich umístění ve věži, počet ciferníků a ani umístění a počet odbíjecích cimbálů. Stáří stroje bohužel nepotvrzují nalezené signatury. Rám signován není. Nejstarší nalezená [signatura](/slovnik/signatura) je z roku 1743.
 
 **S**oběslavské hodiny mají vysoký štíhlý ručně kovaný rám. Sloupky jsou zakončeny hlavicemi kovanými do podoby gotických hřebů. Základ stroje, zejména rám, může pocházet z roku 1484 z prvních soběslavských hodin. Většinu zápisů o vytvoření nových hodin lze spíše chápat jako přestavbu, nahrazení opotřeběných kol. Svědčí o tom i použitá množství železa nedostačující na celý stroj. Hlavní stroj bez "čtvrtku" (tedy jen jicí a [bicí stroj](/slovnik/bici-stroj) celých hodin) dnes váží 160 kg, tedy cca 300 liber.
 
@@ -39,7 +39,7 @@ scrapedAt: "2026-04-27T17:36:37.648Z"
 
 **D**alší nejasnosti v datování, existenci a umístění se týkají cimbálů. První zmínka o cimbálech je již z roku 1490. Neuvádí, kde se cimbály nalézali. Barokní střecha věže, kde jsou nyní pod druhou bání umístěné, je až z roku 1750. Lze se domnívat, že dříve se cimbály nacházely ve zvonici s ostatními zvony.
 
-**V**šechny tyto skutečnosti svědčí o tom, že hodiny byly několikrát přestavovány. Nejstarší částí je patrně jejich rám. Rám, který vypadá na přelom 15. a 16. století. Podobného mínění byl pan David v roce 1939. Po obhlídce stroje vyslovil názor, že podle stavby a předělávek byly hodiny prvně sestavené ještě před vynalezením kyvadla a že jsou starší než z roku 1676. Rám by mohl pocházet z nejstarších soběslavských hodin, z hodin z roku 1484.
+**V**šechny tyto skutečnosti svědčí o tom, že hodiny byly několikrát přestavovány. Nejstarší částí je patrně jejich rám. Rám, který vypadá na přelom 15. a 16. století. Podobného mínění byl pan David v roce 1939. Po obhlídce stroje vyslovil názor, že podle stavby a předělávek byly hodiny prvně sestavené ještě před vynalezením [kyvadla](/slovnik/kyvadlo) a že jsou starší než z roku 1676. Rám by mohl pocházet z nejstarších soběslavských hodin, z hodin z roku 1484.
 
 ## Jiná možnost
 

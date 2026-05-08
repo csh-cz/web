@@ -18,7 +18,7 @@ S potěšením mohu konstatovat, že **9.7.2009** proběhla "inventura" zachovan
 
 Hodiny byly v chodu do roku 1959. Pak byly s úctou demontovány a uloženy včetně drobných součástek jako jsou klínky, matice a pod. Smekáme před pečlivostí tehdejších pracovníků. Při cvičném sestavení strojů jsme postrádali pouze jeden příčný nosník rámu, který se za několik dní ve věži také našel.
 
-Nalezené součásti byly nejprve rozneseny po místnosti. Vybrány byly části rámu a kola jicího a bicího stroje. Po nalezení klínků mohlo již začít sestavení rámu a navěšení jednotlivých kol. Za necelé 2 hodiny byl stroj připraven na první prohlídku představitelů města.
+Nalezené součásti byly nejprve rozneseny po místnosti. Vybrány byly části rámu a kola jicího a [bicího stroje](/slovnik/bici-stroj). Po nalezení klínků mohlo již začít sestavení rámu a navěšení jednotlivých kol. Za necelé 2 hodiny byl stroj připraven na první prohlídku představitelů města.
 
 **P**rohlídka dopadla příznivě a tak do Rady města schválila návrh na **restaurování strojů pro účely vystavení**.
 

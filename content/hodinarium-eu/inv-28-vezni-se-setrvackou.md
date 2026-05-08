@@ -24,7 +24,7 @@ karta:
     - { label: "Poznámka", value: "Praha Kunratice" }
 ---
 
-Věžní hodinový stroj je zajímavé konstrukce. Hlavní [soukolí](/slovnik/soukoli) je poháněno pérem, uloženým ve velkém pérovníku. Chod stroje je řízen [setrvačkou](/slovnik/setrvacka), která dostává popudnou sílu od pomocného perka. Každou minutu kolečko, řízené setrvačkou, zvedne západku, která uvolní kolo se čtyřmi zářezy, tím se rozeběhne hlavní soukolí a rafije se posunou o jednu minutu. Rychlost chodu je regulována [větrníkem](/slovnik/vetrnik), poháněným šnekovým převodem. Pomocné kolečko se natočí o čtvrtinu obvodu, západka zapadne a stroj se na další minutu zastaví. Během otáčení kolečka se dotáhne perko pro pohon setrvačky.
+Věžní hodinový stroj je zajímavé konstrukce. Hlavní [soukolí](/slovnik/soukoli) je poháněno pérem, uloženým ve velkém pérovníku. Chod stroje je řízen [setrvačkou](/slovnik/setrvacka), která dostává popudnou sílu od pomocného perka. Každou minutu kolečko, řízené setrvačkou, zvedne západku, která uvolní kolo se čtyřmi zářezy, tím se rozeběhne hlavní soukolí a rafije se posunou o jednu minutu. Rychlost chodu je regulována [větrníkem](/slovnik/vetrnik), poháněným šnekovým převodem. Pomocné kolečko se natočí o čtvrtinu obvodu, západka zapadne a stroj se na další minutu zastaví. Během otáčení kolečka se dotáhne perko pro pohon [setrvačky](/slovnik/setrvacka).
 
 Pérovník je natahován elektromotorem, jehož zapínání a vypínání je řízeno vačkou. Na ose vačky jsou dvě osmicípé hvězdice, ovládané palci. Jeden palec je na ozubeném kole nátahu a jím natáčená hvězdice ovládá vypínání motoru, druhý palec je na pérovníku a ovládá hvězdici zapínání motoru.
 
