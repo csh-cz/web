@@ -4,8 +4,19 @@ Webové projekty Českého spolku horologického z. s.
 
 | Aplikace | Doména | Stav |
 |---|---|---|
-| [`apps/hodinarium-eu`](apps/hodinarium-eu/) | [hodinarium.eu](https://hodinarium.eu) | webová expozice, 218 článků, atlas, mapa, časová osa |
-| [`apps/horologie-cz`](apps/horologie-cz/) | [horologie.cz](https://horologie.cz) | spolková agenda, stanovy, akce, dokumenty, sponzoring |
+| [`apps/hodinarium-eu`](apps/hodinarium-eu/) | [hodinarium.eu](https://hodinarium.eu) | webová expozice — 6 content collections, 1174 stran, atlas, mapa, časová osa, slovník |
+| [`apps/horologie-cz`](apps/horologie-cz/) | [horologie.cz](https://horologie.cz) | spolková agenda — stanovy, akce, dokumenty, sponzoring |
+
+## Pro koho je co
+
+- **Členové ČSH** (jak nahlásit chybu, poslat fotku, kontakt) →
+  [`docs/PRO-CLENY.md`](docs/PRO-CLENY.md)
+- **Techničtí přispěvatelé** (frontmatter, build, deploy) →
+  [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md)
+- **Vývojáři** (architektura hodinarium-eu, CMS, semantic search) →
+  [`apps/hodinarium-eu/README.md`](apps/hodinarium-eu/README.md)
+- **Otevřené úkoly** → [`TODO.md`](TODO.md)
+- **Audit reporty (a11y, design, tech-debt)** → [`docs/`](docs/)
 
 ## Stack
 

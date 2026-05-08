@@ -12,14 +12,11 @@ Lze pustit bez čekání na vstup od Davida/Petra.
 
 ## A.1 — Quick wins (≤ 1 h, vysoký poměr dopadu k práci)
 
-- [ ] **`Article.astro` byline `<time>` bug** — pro většinu článků
-      vykresluje `Invalid Date`. Chyba v parsování `lastModified` z
-      frontmatteru. Investigation + fix (~15 min).
-- [ ] **README pro nové členy** — krátký runbook (jak se zapojit, jak
-      commitnout, koho kontaktovat) v root monorepa nebo
-      `docs/CONTRIBUTING.md` (~30–60 min, viz též S3).
-- [ ] **S3 `docs/CONTRIBUTING.md`** — runbook „jak edituji článek" pro
-      nové přispěvatele (tento i README pro nové členy lze sloučit).
+*(prázdná po dnešní session — všechny 3 původní položky vyřešeny)*
+
+A.1.1 `<time>` bug v Article.astro byl už dříve opraven v commitu
+db336c1 (TODO entry byla outdate). A.1.2 + A.1.3 (`docs/PRO-CLENY.md`
++ `docs/CONTRIBUTING.md`) vytvořeny + cross-link z root README.
 
 ## A.2 — Slovník: rozšíření obsahu
 
