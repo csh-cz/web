@@ -6,11 +6,13 @@ Otevřené úkoly a odložená rozhodnutí pro CSH Web (hodinarium.eu, horologie
 
 Plný audit: [`audit-pro-petra.txt`](audit-pro-petra.txt). Petr odpoví, pak doplníme.
 
-- [ ] **B2 ASTRO2 ESP01S vs ESP10S** — překlep v textu? Petr ujasní
+- [ ] **B2 Revize obsahu (evergreen)** — průběžná kontrola legacy článků:
+      překlepy, OCR artefakty (`**X**slovo` patterns, `* * *` duplicity),
+      atribuce v body → `author:` frontmatter, wiki/mapa odkazy → `references:`,
+      `<Photo>` místo `![]()` u obrázků s creditem. Pravidla v skill
+      `clanky-konvence` sekce 18. Postupně při dotyku článku.
 - [ ] **B3 Vybrané exponáty per sekce** — můj výběr 4×4, Petr potvrdí/změní
-- [ ] **B4 Otazníky v titulcích** — opravdu musí být 2?
 - [ ] **B5 Datace článků** — opravit ručně 14 podezřelých roků < 1500
-- [ ] **B6 Aktuální info Hodinária Děčín** — sezóna 2026, otevírací doba, vstupné
 - [ ] **B7 Kategorizace 124 nezařazených** — sporných ~30 článků k ručnímu zařazení
 - [ ] **B8 NTPH a NTPH_st** — sloučit / vyhodit duplicity?
 - [ ] **C1 Titulní obrázek** — Petr vybere foto pro hero
