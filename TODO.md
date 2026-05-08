@@ -40,8 +40,15 @@ metodou Zotero MCP semantic search + verbatim grep v plaintextech
       6 kategorií (mechanika 15 + bicí 11 + astronomické 4 + materiály
       5 + hodinky 10 + profese 8). Build 1192 stran, search corpus
       1066 records.
-- [ ] **SL5 Bicí mechanismy detail** — Westminster chime, čtvrťové bití,
-      repetice, opakovačka, Grande sonnerie 1859.
+- ~~**SL5 Bicí mechanismy detail**~~ ✅ Hotovo. 3 hesla:
+      čtvrťové bití (Špatný 1882 12× kompozit Viertel– + Sladkovský
+      1947 detail čtvrťového stroje), Westminster chime (Sladkovský
+      1947 — 4-leg gravitational krok pro Big Ben 1859 + melodická
+      Cambridge 1794 atribuce), petite a grande sonnerie (Sladkovský
+      1947 + provozní rozdíl + energetická náročnost). Slovník nyní
+      56 hesel. Auto-link +15 linků (ctvrtove-biti: 13, vetrnik: 1).
+      Repetice + opakovačka pokryta heslem opakovaci-hodinky (SL3),
+      Grande sonnerie cross-link.
 - [ ] **SL6 Šumavský 1851 — neuvedené termíny** (~60) — kalendář,
       dialektismy: kolisadlo, závěšadlo, krokvička, kyvák; časoměrné
       systémy: pršící, komítací.

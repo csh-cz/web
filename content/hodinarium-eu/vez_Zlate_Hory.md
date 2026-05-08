@@ -14,7 +14,7 @@ tldr: '![Kostel Zlaté Hory](/img/vez/ZlateHory/f/kostel_Zlate_Hory.jpg)'
 ---
 [![Kostel Zlaté Hory](/img/vez/ZlateHory/kostel_Zlate_Hory.jpg)](/img/vez/ZlateHory/f/kostel_Zlate_Hory.jpg)
 
-Hodinářská expozice byly rozšířena o zapůjčený barokní kovaný čtvrťový stroj pocházející snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách. Restaurování započalo 7.5.2012. Miniaturní rozměry stroje ( 30 x 21 x 29 cm) stroje postačovaly pro pohon jednoho ciferníku.
+Hodinářská expozice byly rozšířena o zapůjčený barokní kovaný [čtvrťový stroj](/slovnik/ctvrtove-biti) pocházející snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách. Restaurování započalo 7.5.2012. Miniaturní rozměry stroje ( 30 x 21 x 29 cm) stroje postačovaly pro pohon jednoho ciferníku.
 
 ## Nálezový stav
 

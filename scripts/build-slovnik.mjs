@@ -81,6 +81,10 @@ const KATEGORIE = {
   'anglická škola': 'profese',
   'francouzská škola': 'profese',
   'švýcarská škola': 'profese',
+  // bicí mechanismy detail (3) — SL5
+  'čtvrťové bití': 'bici',
+  'Westminster chime': 'bici',
+  'petite a grande sonnerie': 'bici',
 };
 
 function slugify(text) {
