@@ -107,6 +107,14 @@ const SLOVNIK_AUTO_LINK = {
                       'Geneva Seal', 'COSC'],
   'francouzska-skola': ['francouzská škola', 'Besançon'],
   'prazska-skola': ['pražská škola', 'pražské hodinářské společenstvo'],
+
+  // Bicí detail (SL5) — multi-word fráze, vyhnut konfliktu s bicím-stroj:
+  'ctvrtove-biti': ['čtvrťové bití', 'čtvrťová repetice',
+                    'čtvrťový stroj', 'čtvrťové hodiny'],
+  'westminster-chime': ['Westminster chime', 'westminsterský zvon',
+                        'Cambridge chime', 'westminsterský chime'],
+  'petite-a-grande-sonnerie': ['Grande sonnerie', 'petite sonnerie',
+                               'grande sonnerie'],
 };
 
 /**
