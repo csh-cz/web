@@ -10,6 +10,7 @@
  *   content/hodinari/       — medailony hodinářů      (~99)
  *   content/soupis-veznich-hodin/ — záznamy věží      (~391)
  *   content/kronika/        — kronika                 (~23)
+ *   content/slovnik/        — hodinářský slovník      (~35, 2026-05)
  *
  * Výstup:
  *   apps/hodinarium-eu/.semantic-corpus.json
@@ -17,7 +18,7 @@
  *   Array<{
  *     id: string;          // unique stable identifier (collection:slug)
  *     url: string;         // canonical path on site (např. /sbirka/karta/inv-2-…)
- *     collection: 'clanek' | 'karta' | 'hodinar' | 'soupis' | 'kronika';
+ *     collection: 'clanek' | 'karta' | 'hodinar' | 'soupis' | 'kronika' | 'heslo';
  *     category?: string;   // sub-category u clanky (sbirka, konstrukce, …)
  *     title: string;
  *     summary: string;     // perex / shrnuti / krátký abstract
@@ -95,6 +96,7 @@ function buildUrl(collection, slug, data) {
   if (collection === 'hodinari') return `/hodinari/${slug}`;
   if (collection === 'soupis') return `/soupis-veznich-hodin/${slug}`;
   if (collection === 'kronika') return `/kronika/${slug}`;
+  if (collection === 'slovnik') return `/slovnik/${slug}`;
   // 'clanky' kolekce — záleží na category + podsekce
   if (data.category === 'sbirka' && data.podsekce === 'karta') {
     return `/sbirka/karta/${slug}`;
@@ -137,6 +139,7 @@ function extractSummary(collection, data) {
     return parts.join(', ') || 'Záznam v Soupisu věžních hodin';
   }
   if (collection === 'kronika') return data.title ?? '';
+  if (collection === 'slovnik') return data.definice ?? '';
   // clanky: tldr fallback na excerpt z body (TODO: build-time excerpt v catalog.json)
   return data.tldr ?? '';
 }
@@ -161,6 +164,20 @@ function extractTags(collection, data) {
   if (collection === 'kronika') {
     if (data.misto) tags.push(data.misto);
     if (data.typ) tags.push(data.typ);
+  }
+  if (collection === 'slovnik') {
+    if (data.kategorie) tags.push(data.kategorie);
+    if (data.varianty) tags.push(...data.varianty);
+    // Přidat všechny překladové termíny (term-only, bez zdrojové notace)
+    // do tags — Fuse najde slovník i přes německý / anglický / francouzský
+    // ekvivalent ("Hemmung" → krok).
+    for (const lang of ['prekladyDe', 'prekladyEn', 'prekladyFr']) {
+      if (Array.isArray(data[lang])) {
+        for (const p of data[lang]) {
+          if (p?.term) tags.push(p.term);
+        }
+      }
+    }
   }
   if (data.category === 'sbirka' && data.podsekce === 'karta' && data.karta) {
     if (data.karta.vyrobce) tags.push(data.karta.vyrobce);
@@ -217,7 +234,9 @@ function processCollection(collection, dirRel) {
       url,
       collection: collection === 'clanky'
         ? (data.category === 'sbirka' && data.podsekce === 'karta' ? 'karta' : 'clanek')
-        : (collection === 'hodinari' ? 'hodinar' : (collection === 'soupis' ? 'soupis' : 'kronika')),
+        : (collection === 'hodinari' ? 'hodinar'
+          : (collection === 'soupis' ? 'soupis'
+          : (collection === 'kronika' ? 'kronika' : 'heslo'))),
       category: data.category,
       title,
       summary,
@@ -236,6 +255,7 @@ function main() {
     ...processCollection('hodinari', 'content/hodinari'),
     ...processCollection('soupis', 'content/soupis-veznich-hodin'),
     ...processCollection('kronika', 'content/kronika'),
+    ...processCollection('slovnik', 'content/slovnik'),
   ];
 
   // Stats per collection
