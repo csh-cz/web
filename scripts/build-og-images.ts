@@ -261,16 +261,35 @@ async function main() {
   const catalogPath = join(ROOT, 'content', 'hodinarium-eu', '_catalog.json');
   const catalog: CatalogEntry[] = JSON.parse(await readFile(catalogPath, 'utf-8'));
 
+  // Top-level routes na hodinarium-eu. Po taxonomy refactoru (M2, 2026-04)
+  // jsou kategoriová URL `/sbirka`, `/konstrukce`, `/projekty`,
+  // `/virtualni-muzeum`, `/muzea`, `/zajimavosti`. Stará `/atlas`, `/decin`,
+  // `/vezni-hodiny` byla rebrandovaná / smazaná.
   const hodinariumPages: OgPage[] = [
     { slug: 'home', title: 'Hodinárium', description: 'Webová expozice Českého spolku horologického', siteLabel: 'Hodinárium', category: undefined },
-    { slug: 'atlas', title: 'Atlas', description: 'Vizuální katalog 218 hodin a artefaktů', siteLabel: 'Hodinárium' },
-    { slug: 'mapa', title: 'Mapa', description: '26 věžních hodin, orlojů a expozic v Česku a Evropě', siteLabel: 'Hodinárium' },
-    { slug: 'sbirka', title: 'Sbírka', description: 'Hodiny napříč staletími a typy', siteLabel: 'Hodinárium' },
-    { slug: 'projekty', title: 'Projekty', description: 'DIY hodiny a experimentální konstrukce', siteLabel: 'Hodinárium' },
-    { slug: 'decin', title: 'Hodinárium Děčín', description: 'Fyzická expozice na zámku Děčín', siteLabel: 'Hodinárium' },
-    { slug: 'vezni-hodiny', title: 'Věžní hodiny', description: 'Stroje z kostelních a městských věží', siteLabel: 'Hodinárium' },
-    { slug: 'clanky', title: 'Všechny články', description: '218 článků o hodinařině', siteLabel: 'Hodinárium' },
+    { slug: 'mapa', title: 'Mapa', description: 'Mapa exponátů Hodinária + horologické zajímavosti v Evropě', siteLabel: 'Hodinárium' },
+    { slug: 'mapa-horologie', title: 'Mapa horologie', description: 'Orloje, muzea, výrobci a zajímavosti po Evropě i ve světě', siteLabel: 'Hodinárium' },
+    { slug: 'sbirka', title: 'Sbírka', description: 'Evidenční karty exponátů Hodinária Děčín', siteLabel: 'Hodinárium' },
+    { slug: 'konstrukce', title: 'Konstrukce', description: 'Mechanismy a principy hodin', siteLabel: 'Hodinárium' },
+    { slug: 'projekty', title: 'Projekty', description: 'DIY hodiny a experimentální konstrukce spolku', siteLabel: 'Hodinárium' },
+    { slug: 'virtualni-muzeum', title: 'Virtuální muzeum', description: 'Cizí hodiny mimo fyzickou sbírku — zajímavé exponáty z celého světa', siteLabel: 'Hodinárium' },
+    { slug: 'muzea', title: 'Hodinářská muzea', description: 'Sister muzea a hodinářské expozice po celém světě', siteLabel: 'Hodinárium' },
+    { slug: 'zajimavosti', title: 'Zajímavosti', description: 'Eseje o čase, časoměrných systémech, historii hodin', siteLabel: 'Hodinárium' },
+    { slug: 'hodinari', title: 'Hodináři', description: 'Medailony hodinářů a hodinářských firem', siteLabel: 'Hodinárium' },
+    { slug: 'kronika', title: 'Kronika Hodinária', description: 'Vernisáže, akvizice, restaurování — chronologický feed', siteLabel: 'Hodinárium' },
+    { slug: 'kroky', title: 'Hodinové kroky', description: 'Technický rejstřík typů hodinového kroku', siteLabel: 'Hodinárium' },
+    { slug: 'slovnik', title: 'Hodinářský slovník', description: 'Výkladový a překladový slovník z primárních pramenů', siteLabel: 'Hodinárium' },
+    { slug: 'soupis-veznich-hodin', title: 'Soupis věžních hodin', description: 'Existující i ztracené věžní hodiny v Česku', siteLabel: 'Hodinárium' },
+    { slug: 'casova-osa', title: 'Časová osa', description: '600 let hodinařiny v milnících', siteLabel: 'Hodinárium' },
+    { slug: 'expozice', title: 'Expozice', description: 'Hodinářské expozice a slavné orloje', siteLabel: 'Hodinárium' },
+    { slug: 'tagy', title: 'Tagy', description: 'Křížové filtry — období, výrobci, pohon, regulátor, lokace', siteLabel: 'Hodinárium' },
+    { slug: 'pro-navstevniky', title: 'Pro návštěvníky', description: 'Otevírací doba, doprava, vstupné Hodinária Děčín', siteLabel: 'Hodinárium' },
+    { slug: 'o-hodinariu', title: 'O Hodináriu', description: 'Koncepce a historie webové expozice', siteLabel: 'Hodinárium' },
+    { slug: 'vice', title: 'Více', description: 'Rozcestník sekundárních sekcí Hodinária', siteLabel: 'Hodinárium' },
+    { slug: 'podpora', title: 'Podpora', description: 'Jak podpořit činnost spolku', siteLabel: 'Hodinárium' },
+    { slug: 'clanky', title: 'Všechny články', description: 'Plný archiv článků o hodinařině', siteLabel: 'Hodinárium' },
     { slug: 'licence', title: 'Licence obsahu', description: 'CC BY 4.0 — můžeš sdílet, upravovat, použít komerčně', siteLabel: 'Hodinárium' },
+    { slug: 'en', title: 'About Hodinárium', description: 'English summary — Czech Horological Society webová expozice', siteLabel: 'Hodinárium' },
   ];
 
   // Per článek

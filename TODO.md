@@ -65,11 +65,17 @@ prioritizaci ostatních FU (typicky odhalí redundance).
       (rozšíření `build-og-images.ts` na všechny collections).
 - [ ] **`Article.astro` byline `<time>`** — vykresluje `Invalid Date`
       pro většinu článků (chyba v parsování `lastModified` z frontmatteru).
-- [ ] **OG images do CI** — generuje se ručně přes `pnpm og:build`.
-- [ ] **`build-og-images.ts` cleanup** — stále vyrábí OG pro vyhozené
-      spolkové slugy (`spolek`, `sponsor`, `stanovy`).
-- [ ] **`strip-dead-refs.ts` cleanup** — už ne aktuální, smazat.
-- [ ] **`raw/.DS_Store` gitignore** — měl by být v gitignore.
+- [ ] **OG images do CI** — generuje se ručně přes `pnpm og:build`. Po
+      `pnpm og:build` se hodinarium top-level OG generují podle aktuální
+      taxonomie (24 routes po cleanup commitu). Per-článek OG ale stále
+      jen pro `clanky`; rozšíření na hodinari/soupis/slovnik/kroky je
+      samostatný task (návazné na D7 audit).
+- ~~**`build-og-images.ts` cleanup**~~ ✅ Hotovo: smazáno `atlas`/`decin`/
+      `vezni-hodiny` (zastaralé pre-taxonomy slugy), doplněno 17 nových
+      top-level routes (soupis-veznich-hodin, slovnik, kroky, hodinari,
+      mapa-horologie, kronika, expozice, casova-osa, tagy, …).
+- ~~**`strip-dead-refs.ts` cleanup**~~ ✅ Soubor už neexistuje.
+- ~~**`raw/.DS_Store` gitignore**~~ ✅ Adresář `raw/` neexistuje.
 - ~~**TD7 inline style duplicity → utility classes**~~ ✅ Hotovo.
       28 inline `style=` atributů napříč 13 page souborech nahrazeno
       3 utility classes v `global.css`:
@@ -195,9 +201,10 @@ v této větvi. Zbývají položky vyžadující větší refaktor nebo bundling
       Sjednoceno na `.link-bare` class v global.css se subtle dotted underline
       (non-color signal pro WCAG 1.4.1). 5 výskytů v mapa.astro × 3 +
       mapa-horologie.astro × 2 nahrazeno. Bundle s tech-debt TD1.
-- [ ] **M8: Mobile hamburger aria-label toggle** — `<details>` má implicitní
-      aria-expanded, ale label dál říká „Otevřít menu" i když je menu otevřené.
-      Malý JS handler v `Base.astro`.
+- ~~**M8: Mobile hamburger aria-label toggle**~~ ✅ Hotovo. JS handler
+      v `Base.astro` inline scriptu — `<details>` toggle event přepíná
+      label „Otevřít menu" / „Zavřít menu" + `id="mobile-menu-details"`
+      pro stable selector. Doplnil k native aria-expanded i čitelný label.
 - [ ] **N1–N4 hygienické fixy (bundle)** — `aria-modal="true"` na `<dialog>`,
       `aria-live` na `.report-counter`, `role="alert"` v error stavu
       `.report-status`, `<h4>` v map popup → `<strong>` (heading hierarchy).

@@ -382,7 +382,7 @@ const orgJsonLd = isHome ? {
           </li>
         </ul>
 
-        <details class="md:hidden relative">
+        <details class="md:hidden relative" id="mobile-menu-details">
           <summary class="list-none cursor-pointer p-2 -m-2 select-none" aria-label="Otevřít menu">
             <i class="fa-solid fa-bars" style="font-size: 1.25rem; color: var(--color-brass-bright);" aria-hidden="true"></i>
           </summary>
@@ -498,6 +498,20 @@ const orgJsonLd = isHome ? {
       // Scope: window.__csh — vyhneme se kolizím s globálními symboly
       // (resolveEditorNote, inferSourceFileFromUrl byly předtím v global scope).
       window.__csh = window.__csh || {};
+
+      // ---- A11y M8: mobile hamburger aria-label toggle ----
+      // <details> má implicitní aria-expanded, ale label `aria-label="Otevřít
+      // menu"` zůstává statický. SR uživatel slyší state přes aria-expanded,
+      // ale label je matoucí. Audit: docs/a11y-audit-hodinarium-2026-05-08.md M8.
+      (function () {
+        const details = document.getElementById('mobile-menu-details');
+        if (!details) return;
+        const summary = details.querySelector('summary');
+        if (!summary) return;
+        details.addEventListener('toggle', function () {
+          summary.setAttribute('aria-label', details.open ? 'Zavřít menu' : 'Otevřít menu');
+        });
+      })();
 
       // ---- Helper: odvodit zdrojový MDX soubor z URL routy ----
       window.__csh.inferSourceFileFromUrl = function () {
