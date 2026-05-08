@@ -648,7 +648,9 @@ const personJsonLd = hodinar.typ === 'osoba'
   .stav-mini.stav-in_situ { color: #4caf50; }
   .stav-mini.stav-preneseno { color: #5b9dd9; }
   .stav-mini.stav-ztracene { color: #d9a05b; }
-  .stav-mini.stav-znicene { color: #b04848; }
+  /* Audit C2: #b04848 = 3.27:1 (FAIL AA) na bg-elevated #1f1814.
+     Posunuto na #d97070 (≈ 5.4:1 ✅), shodné s .editor-note-todo. */
+  .stav-mini.stav-znicene { color: #d97070; }
   .stav-mini.stav-neznamy { color: var(--color-text-muted); }
 
   /* Soupis list je často dlouhý — 2 sloupce na desktopu */

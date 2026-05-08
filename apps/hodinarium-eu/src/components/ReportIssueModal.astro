@@ -157,7 +157,13 @@
     font-size: 1.5rem;
     line-height: 1;
     cursor: pointer;
-    padding: 0 0.5rem;
+    /* Audit M4: WCAG 2.5.5 vyžaduje min 44×44 px touch target.
+       Dříve padding 0 0.5rem dával ~24×24. */
+    min-width: 44px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
   .report-form-close:hover { color: var(--color-text); }
 

@@ -16,8 +16,10 @@
 
   /* Brass / patina, ne křiklavé zlato */
   --color-brass: #b8924a;
+  /* Copper — bumped from #a85a3c (3.84:1, FAIL AA) to #c47049 (~4.7:1)
+     k splnění WCAG 2.1 AA pro text. Audit: docs/a11y-audit-hodinarium-2026-05-08.md C1. */
   --color-brass-bright: #d9b274;
-  --color-copper: #a85a3c;
+  --color-copper: #c47049;
   --color-verdigris: #5a8b7a;
 
   /* Tělo textu — sytá pergamenová, vysoký kontrast vůči tmavému pozadí (≥ 12:1) */
@@ -156,11 +158,20 @@ a:hover {
   border-bottom-color: var(--color-brass-bright);
 }
 
-a:focus-visible {
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+[role="button"]:focus-visible {
   outline: 2px solid var(--color-brass-bright);
   outline-offset: 3px;
   border-radius: 1px;
 }
+/* Audit: docs/a11y-audit-hodinarium-2026-05-08.md M3 — předtím se rule
+   aplikoval jen na <a>, takže <button>, <summary> a [role="button"]
+   spoléhaly na browser default outline (v dark theme často neviditelný).
+   Konkrétní komponenty bez focus stylu: .search-mode-tab, .report-form-close,
+   .report-form-cancel, .report-form-submit, .nav-search-btn, .editor-note-resolve,
+   .fab. */
 
 /* Hlavní navigace — vyšší kontrast textu na tmavém podkladu hlavičky */
 .site-header nav a {
@@ -1176,7 +1187,9 @@ body[data-editor-mode] .fab-stack {
 
     --color-brass: #8b6d2e;
     --color-brass-bright: #6e4d1d;
-    --color-copper: #a85a3c;
+    /* Copper — light mode darker varianta pro AA na cream bg #efe3c8.
+       #a85a3c na bg = 3.87:1 FAIL → #8a4221 ≈ 6.5:1. */
+    --color-copper: #8a4221;
     --color-verdigris: #3d6b5a;
 
     --color-text: #2a1f15;

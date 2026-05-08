@@ -55,12 +55,38 @@ Lze pustit bez čekání na vstup od Davida/Petra.
 
 ## A.3 — Standardy
 
-- [ ] **S1 a11y audit** — `@axe-core/playwright` v existujících e2e.
-      Cíl WCAG 2.1 AA (~2 h).
+- [ ] **S1 a11y audit — automatizace** — `@axe-core/playwright` v existujících
+      e2e jako CI gate (~2 h). První ruční audit už proběhl —
+      `docs/a11y-audit-hodinarium-2026-05-08.md` (17 nálezů, 6 quick-wins
+      vyřešeno, viz A.9 zbývající).
 - [ ] **S3 `docs/CONTRIBUTING.md`** — runbook „jak edituji článek" pro
       nové přispěvatele (~1 h).
 - [ ] **README pro nové členy** — jak se zapojit, jak commitnout, koho
       kontaktovat.
+
+## A.9 — A11y audit 2026-05-08 — odložené nálezy
+
+První ruční audit hodinarium-eu (`docs/a11y-audit-hodinarium-2026-05-08.md`)
+identifikoval 17 nálezů. **Quick-wins (C1, C2, M1, M3, M4, M5) vyřešeny**
+v této větvi. Zbývají položky vyžadující větší refaktor nebo bundling:
+
+- [ ] **C3 + C4 + M2: SearchModal aria pattern refaktor** — combobox/listbox
+      pattern s `aria-activedescendant` na výsledcích, status `aria-live`
+      oddělený od listu, ArrowUp/Down přesouvá programatický focus,
+      ArrowLeft/Right pro tabs. Nejnáročnější — ~1–2 h. Ideálně po VoiceOver
+      test. Komponenta: `apps/hodinarium-eu/src/components/SearchModal.astro`.
+- [ ] **M6: Report form `<input readonly tabindex="-1">` → `<output>`**
+      — readonly+tabindex je OK funkčně, ale SR čte „form input"; lepší
+      `<output>` element. `ReportIssueModal.astro:57`.
+- [ ] **M7: Inline `style="border-bottom: none;"` na linkech v mapě** —
+      odstraňuje vizuální indikátor odkazu (WCAG 1.4.1 Use of Color).
+      `mapa.astro:66,96,109,110`.
+- [ ] **M8: Mobile hamburger aria-label toggle** — `<details>` má implicitní
+      aria-expanded, ale label dál říká „Otevřít menu" i když je menu otevřené.
+      Malý JS handler v `Base.astro`.
+- [ ] **N1–N4 hygienické fixy (bundle)** — `aria-modal="true"` na `<dialog>`,
+      `aria-live` na `.report-counter`, `role="alert"` v error stavu
+      `.report-status`, `<h4>` v map popup → `<strong>` (heading hierarchy).
 
 ## A.4 — Obsah (automatizace)
 
