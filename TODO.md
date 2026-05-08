@@ -55,8 +55,14 @@ prioritizaci ostatních FU (typicky odhalí redundance).
       v `content/hodinarium-eu/` má non-kebab slugy (`Arduino`, `astro2_NTP`,
       `decin_jednotny_cas`, …). 114 file renames + 114 redirectů + grep
       všech inline odkazů + SEO reindex. Citlivá ale čistě technická.
-- [ ] **D7 Chybějící OG images** — ~493 článků/karet, OG jen pro některé.
-      Build-time check, který vypíše chybějící (~30 min).
+- ~~**D7 Chybějící OG images — build check**~~ ✅ Hotovo.
+      `pnpm og:check` (`scripts/check-og-coverage.mjs`) — read-only audit
+      všech 6 collections + top-level routes vs `public/og/*.png`.
+      **Aktuální stav:** 18.8 % coverage (213 / 1068), 867 chybí,
+      12 orphan. Per-collection: hodinari 4/103, soupis 0/392,
+      slovnik 0/35, top-level 6/23. Report v
+      `tmp/og-coverage-report.json`. Generování OG je samostatný task
+      (rozšíření `build-og-images.ts` na všechny collections).
 - [ ] **`Article.astro` byline `<time>`** — vykresluje `Invalid Date`
       pro většinu článků (chyba v parsování `lastModified` z frontmatteru).
 - [ ] **OG images do CI** — generuje se ručně přes `pnpm og:build`.
