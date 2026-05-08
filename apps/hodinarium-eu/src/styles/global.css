@@ -439,6 +439,31 @@ summary::-webkit-details-marker { display: none; }
   color: var(--color-copper);
 }
 
+/* Tech-debt TD7 utility classes — odstraňuje 28× duplicitní inline `style=`
+   atribut napříč pages. Před TD7: 17× `style="margin-top: 0;"`, 9× `style=
+   "font-size: clamp(2.5rem, 6vw, 4.5rem);"`, 2× `style="font-size: 0.95rem;"`. */
+
+/* `.hero-title-sm` — střední varianta hero titlu (clamp 2.5/4.5rem) pro
+   sub-section pages: /mapa, /hodinari, /sbirka, /[kategorie], /casova-osa,
+   /expozice, /kroky, /slovnik. Default `.hero-title` (clamp 2.5/5.5rem)
+   zůstává pro homepage. */
+.hero-title-sm {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+/* `.h2-flush` — h2 v section header bez top margin. Globální h2 pravidlo
+   přidává `margin-top: 1.5em` (kvůli odstupu mezi sekcemi v article body),
+   v section header je to nežádoucí (h2 následuje hned po `<header>` open). */
+.h2-flush {
+  margin-top: 0;
+}
+
+/* `.intro-text` — descriptive paragraph pod hero h1 na top-level pages
+   (mapa, mapa-horologie). Lehce menší než body pro vizuální hierarchii. */
+.intro-text {
+  font-size: 0.95rem;
+}
+
 /* === Article body — časopisecký charakter === */
 .prose-content {
   font-size: 1.1rem;

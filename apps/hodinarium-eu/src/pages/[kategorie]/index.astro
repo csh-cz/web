@@ -47,7 +47,7 @@ const ikonaSvg: Record<string, string> = {
 <Base title={meta.jmeno} description={meta.intro}>
   <section class="kategorie-hero mb-16">
     <p class="eyebrow mb-5">Sekce</p>
-    <h1 class="hero-title mb-3" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">{meta.jmeno}</h1>
+    <h1 class="hero-title mb-3 hero-title-sm">{meta.jmeno}</h1>
     <p class="kategorie-podnadpis">{meta.podnadpis}</p>
     <p class="kategorie-intro mt-6">{meta.intro}</p>
 
@@ -69,7 +69,7 @@ const ikonaSvg: Record<string, string> = {
     <section class="mb-16" aria-labelledby="featured-heading">
       <header class="mb-8">
         <p class="eyebrow mb-2">Vybrané</p>
-        <h2 id="featured-heading" class="text-2xl md:text-3xl" style="margin-top: 0;">Stojí za prohlídku</h2>
+        <h2 id="featured-heading" class="text-2xl md:text-3xl h2-flush">Stojí za prohlídku</h2>
       </header>
       <div class="featured-grid-cat">
         {featured.map((e) => (
@@ -91,7 +91,7 @@ const ikonaSvg: Record<string, string> = {
   <section aria-labelledby="all-heading">
     <header class="mb-6 pb-3 border-b border-[color:color-mix(in_srgb,var(--color-brass)_20%,transparent)]">
       <p class="eyebrow mb-2">Kompletní seznam</p>
-      <h2 id="all-heading" class="text-2xl" style="margin-top: 0;">
+      <h2 id="all-heading" class="text-2xl h2-flush">
         {featured.length > 0 ? 'Další články' : 'Všechny články'}
         <span class="text-sm text-[var(--color-text-muted)] not-italic font-normal">{ostatni.length} kusů</span>
       </h2>
