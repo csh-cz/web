@@ -165,11 +165,11 @@ v plaintextech (Šumavský 1851, Špatný 1882, Sušický 1900, Sladkovský 1947
 
 ## A.7 — Tooling
 
-- [ ] **TL1 Zotero MCP `find_similar` bug — issue draft** — Claude může
-      sepsat reproducer + GitHub issue text. Filing samotného issue
-      vyžaduje GitHub identitu Davida. Vrací nesouvisející matche
-      (např. Limax slug pro hodinářský článek). Workaround zatím:
-      `semantic_search` s textem místo `find_similar` s ID.
+- ~~**TL1 Zotero MCP `find_similar` bug — issue draft**~~ ✅ Draft sepsán
+      v `docs/zotero-mcp-find-similar-bug.md` (reproducer + hypotézy +
+      workaround + filing notes). Filing samotného issue čeká na Davida
+      (vyžaduje GitHub identitu pro submit do upstream zotero-mcp repo).
+      Workaround `semantic_search` s textem dál funguje.
 
 ## A.8 — Připraveno k nasazení po DNS switch
 
