@@ -148,8 +148,13 @@ v plaintextech (Šumavský 1851, Špatný 1882, Sušický 1900, Sladkovský 1947
       - Cross-link sekce v `pages/kroky/[slug].astro`: pro každý krok
         zobrazí 4 obecná slovníková hesla (krok, kotva, krokové kolo,
         paleta) jako cards pod „Související slovníková hesla".
-- [ ] **SL9 Search index** — zařadit slovnik hesla do Fuse.js corpusu
-      (`scripts/extract-search-corpus.mjs`).
+- ~~**SL9 Search index**~~ ✅ Hotovo. `extract-search-corpus.mjs` nyní
+      zpracovává `content/slovnik/` (collection: 'heslo') — title z `title`,
+      summary z `definice`, tags z `kategorie` + `varianty` + všech
+      `prekladyDe/En/Fr.term` (Fuse najde heslo i přes německý / anglický
+      / francouzský ekvivalent — „Hemmung" → krok). Total 1048 records
+      (původně 1013, +35 slovník). Spustit `pnpm search:rebuild` po větší
+      slovník expansion.
 - [ ] **SL11 CMS widget pro Sveltia** — frontmatter editor pro slovnik
       collection (překlady, varianty, definice, příbuzné slugy).
 - [ ] **SL12 /slovnik/ filter/search box** — při 50+ heslech přidat
