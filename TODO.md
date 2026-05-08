@@ -17,8 +17,8 @@ blokátorů:
 
 | # | Úloha | Sekce | Odhad | Proč |
 |---|---|---|---|---|
-| 1 | **FU1 UX copy audit** | A.10 | ~20 min | Broad impact napříč webem (stub note hodinářů, search hints, stav badges, footer). Žádný blokátor, výsledek hned vidět. |
-| 2 | ~~**TD1 + a11y M7 bundle**~~ ✅ hotovo | A.9 + tech-debt | ~30 min | Sjednoceno na `.link-bare` class v global.css. WCAG 1.4.1 vyřešeno subtle dotted underline. |
+| 1 | ~~**FU1 UX copy audit**~~ ✅ hotovo | A.10 | ~20 min | 6 rewritů: stub note, draft placeholder, search hints, fallback, 404, report hint + `stavLabel()` utility. |
+| 2 | ~~**TD1 + a11y M7 bundle**~~ ✅ hotovo | A.9 + tech-debt | ~30 min | Sjednoceno na `.link-bare` class. WCAG 1.4.1 vyřešeno. |
 | 3 | **SL8 Cross-link kroky → slovnik** | A.6 | ~1–2 h | Nový `/slovnik/` je izolovaný; auto-link skript paralelní s existujícím `kroky:auto-link` propojí kartu kroku → heslo slovníku. |
 | 4 | **FU6 README pro hodinarium-eu** | A.10 | ~30 min | Engineering hygiene, žádný blokátor. Nutné před onboardováním dalších přispěvatelů. |
 | 5 | **TD2 dialog handler extrakce** | tech-debt | ~30 min | Před plánovaným SearchModal aria refaktorem (C3+C4+M2). Identical click-outside + Esc duplicity v 2 modalech. |
@@ -188,12 +188,17 @@ výstup. **Nepouštět batch-em** — uživatel chce mezi nimi rozhodovat.
 
 ### 🔴 High priority
 
-- [ ] **FU1 UX copy audit** (~20 min, `design:ux-copy`) — microcopy napříč
-      webem: stub note hodinářů, draft placeholder, search hints, AI
-      fallback banner, empty search state, stav badges (in_situ/preneseno
-      přes `replace(/_/g, ' ')` quick hack), 404, ReportIssueModal copy,
-      footer micro-copy, hero CTA. Časopisecký tone-of-voice ČSH, neopravovat
-      odborné termíny zvolené autorem (skill `cestina` má precedenci).
+- ~~**FU1 UX copy audit**~~ ✅ Hotovo. Aplikováno 6 rewritů:
+      - Stub note hodináře — „čeká na svůj příběh" + mailto link
+      - Draft placeholder — „rozepsaný" místo „rozpracovaný"
+      - SearchModal hints (3 místa: default, dynamic per-mode, fallback)
+      - 404 lede — em-dash zlepšuje rytmus
+      - ReportIssueModal hint — strip „User-Agent" / „repu" jargon
+      - Stav badges — `stavLabel()` utility v `data/labels.ts` místo
+        `replace(/_/g, ' ')` quick hack. Adjektivní formy sjednocené
+        se soupisem (`ztracené`, `zničené`, `stav neznámý`).
+      Footer micro-copy a hero CTA ponechány (formálně nutné resp.
+      čeká B3 audit od Petra).
 
 ### 🟡 Medium priority
 

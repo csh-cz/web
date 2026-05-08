@@ -8,6 +8,7 @@ import { hodinari } from '../../data/hodinari';
 import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
+import { stavLabel } from '../../data/labels';
 
 import type { CatalogEntry } from '../../data/catalog-types';
 
@@ -226,10 +227,11 @@ const personJsonLd = hodinar.typ === 'osoba'
       {(!hasFull || medailon?.data.isStub) && (
         <aside class="hodinar-stub-note">
           <p>
-            <strong>Životopisný profil je zatím stub.</strong> Připravujeme rozšířený text
-            s archivními prameny, podrobnostmi o dílně a typologii zachovaných strojů.
-            Pokud disponujete dochovanými dokumenty, fotografiemi nebo svědectvími,
-            ozvěte&nbsp;se nám — uvítáme každý další střípek.
+            <strong>Tento medailon zatím čeká na svůj příběh.</strong>
+            Sbíráme archivní prameny, podrobnosti o dílně a typologii zachovaných
+            strojů. Pokud máte dochované dokumenty, fotografie nebo rodinné svědectví,
+            <a href="mailto:info@orloj.eu?subject=Doplnění medailonu hodináře">ozvěte&nbsp;se nám</a> — každý
+            střípek se počítá.
           </p>
         </aside>
       )}
@@ -299,7 +301,7 @@ const personJsonLd = hodinar.typ === 'osoba'
                       </td>
                       <td class="stroje-col-budova">{s.budova}</td>
                       <td class="stroje-col-meta">
-                        <span class={`stav-mini stav-${s.stav}`}>{s.stav.replace(/_/g, ' ')}</span>
+                        <span class={`stav-mini stav-${s.stav}`}>{stavLabel(s.stav)}</span>
                       </td>
                     </tr>
                   ))}

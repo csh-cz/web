@@ -55,8 +55,8 @@ const categoryLabelsForClient = Object.fromEntries(
     </div>
     <div id="search-results" class="search-results" aria-live="polite">
       <p class="search-hint">
-        Začni psát. <strong>Klíčová slova</strong> hledá fuzzy shodu v názvech a perexech 218 článků.
-        <strong>Sémanticky</strong> najde věcně související obsah napříč 1008 stránkami webu — i když nemáš přesné slovo.
+        Začni psát. <strong>Klíčová slova</strong> hledá v názvech a perexech 218 článků.
+        <strong>Sémanticky</strong> najde i věcně blízké stránky napříč všemi 1008 — když nevíš, jak se to přesně řekne.
         <kbd>↵</kbd> otevře první výsledek, <kbd>esc</kbd> zavře.
       </p>
     </div>
@@ -378,8 +378,8 @@ const categoryLabelsForClient = Object.fromEntries(
   function render(query, items, meta = {}) {
     if (!query) {
       const hint = mode === 'semantic'
-        ? 'Sémantické vyhledávání hledá <em>významem</em> napříč 1008 stránkami webu — i bez přesného slova. Začni psát celou frázi nebo otázku.'
-        : 'Začni psát. Klíčová slova hledá fuzzy shodu v názvech a perexech 218 článků. Pro hledání napříč všemi 1008 stránkami přepni na <strong>Sémanticky</strong>.';
+        ? 'Sémantické hledání projde <em>významem</em> napříč všemi 1008 stránkami — i bez přesného slova. Napiš celou frázi nebo otázku.'
+        : 'Začni psát. Klíčová slova hledají v názvech a perexech 218 článků. Pro průchod všemi 1008 stránkami přepni na <strong>Sémanticky</strong>.';
       resultsEl.innerHTML = '<p class="search-hint">' + hint + ' <kbd>↵</kbd> otevře první výsledek.</p>';
       return;
     }
@@ -394,7 +394,7 @@ const categoryLabelsForClient = Object.fromEntries(
     const fallbackBanner = (meta.mode === 'fulltext')
       ? `<div class="search-fallback-banner" role="status">
            <span class="fallback-icon" aria-hidden="true">⚠</span>
-           <span class="fallback-text">${meta.fallbackReason ?? 'AI kvóta vyčerpaná — fallback na fulltext.'}</span>
+           <span class="fallback-text">${meta.fallbackReason ?? 'Sémantické hledání je momentálně nedostupné — výsledky z fulltextu.'}</span>
          </div>`
       : '';
     resultsEl.innerHTML = fallbackBanner + top.map((it, idx) => {
