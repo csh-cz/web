@@ -30,6 +30,7 @@
     "search:corpus": "node scripts/extract-search-corpus.mjs",
     "search:embed": "node scripts/build-semantic-index.mjs",
     "search:rebuild": "pnpm search:corpus && pnpm search:embed",
+    "slovnik:build": "node scripts/build-slovnik.mjs",
     "validate:content": "node scripts/validate-content.mjs",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
