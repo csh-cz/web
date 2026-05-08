@@ -49,9 +49,14 @@ metodou Zotero MCP semantic search + verbatim grep v plaintextech
       56 hesel. Auto-link +15 linků (ctvrtove-biti: 13, vetrnik: 1).
       Repetice + opakovačka pokryta heslem opakovaci-hodinky (SL3),
       Grande sonnerie cross-link.
-- [ ] **SL6 Šumavský 1851 — neuvedené termíny** (~60) — kalendář,
-      dialektismy: kolisadlo, závěšadlo, krokvička, kyvák; časoměrné
-      systémy: pršící, komítací.
+- ~~**SL6 Šumavský 1851 — neuvedené termíny**~~ ✅ Hotovo. Místo
+      60 mini-hesel **přehledové meta-heslo** „Šumavský 1851 —
+      historické české hodinářské termíny" v kategorii `jine`. Tabulka
+      36 archaismů (cs → moderní cs → de) z `glosar.yaml`, plus 3
+      kuriozity v plné formě (časoměr, kolostroj, pršící hodiny).
+      Cross-link na `glosar.yaml` jako kompletní strukturovaný inventář.
+      Insight: z 36 termínů se v moderní cs udrželo jen 2 (rafika/rafije,
+      hodinařit). Slovník nyní 57 hesel..
 - ~~**SL7 Rozšíření existujících hesel**~~ ✅ Z větší části hotovo:
       - `vlásek` — Phillipsova matematika 3 podmínek + Immichova
         praktická křivka (Sladkovský 1947 obr. 99 a 100)

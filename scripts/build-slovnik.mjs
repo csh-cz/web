@@ -85,6 +85,8 @@ const KATEGORIE = {
   'čtvrťové bití': 'bici',
   'Westminster chime': 'bici',
   'petite a grande sonnerie': 'bici',
+  // historické archaismy (1) — SL6
+  'Šumavský 1851 — historické české hodinářské termíny': 'jine',
 };
 
 function slugify(text) {
