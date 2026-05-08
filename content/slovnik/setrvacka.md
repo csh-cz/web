@@ -46,6 +46,74 @@ Klíčové: **moderní cs úzus je „setrvačka"** (NE „balanc" jako primárn
 > „Kývadl-iště, kývadl-o → ... die Unruhe bei der Uhr, Perpendikel, Metronom, Pendel."
 > — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851. [Zotero `JVVP4JT8`] *(historický kontext: Šumavský NEROZLIŠ kyvadlo od setrvačky)*
 
+### Moderní materiály (po Sladkovském 1947)
+
+Sladkovský 1947 dokumentuje **bimetalickou kompenzaci** (ocel + mosaz)
+jako vrcholnou formu kompenzační setrvačky 19. století. Po roce 1900
+**vývoj materiálů** posunul setrvačku v několika krocích:
+
+**1. Invar / Elinvar setrvačky** (od 1900):
+
+Z [invaru](#invar) (Guillaume 1896) — slitiny niklocele s velmi
+nízkou roztažitelností. **Elinvar** (1912, Guillaume) je odvozená
+slitina s **konstantním modulem pružnosti** v provozním rozsahu
+teplot — primárně pro vlásek, ale i pro setrvačku eliminuje potřebu
+bimetalické kompenzace.
+
+**2. Glucydur** (od 1936):
+
+Slitina **berylia + mědi** (≈ 2 % Be) — **antimagnetická** a **stabilní
+rozměry** v širokém rozsahu teplot. Zhotovuje se **přesné setrvačky**
+pro chronometry, lodní instrumenty, komerční kalibry vyšší řady (ETA
+2892, Lange L901). **Standard luxury hodinek 1950–dnes.** Obtížně se
+opracovává (toxické berylium), proto specializované workshopy.
+
+**3. Nivarox + Nivachoc** (od 1934 / 1948):
+
+**Nivarox** je vlásková slitina (kobalt/nikl/železo s prvkami) odolná
+proti mírným magnetickým polím a teplotním změnám. Vyvinula švýcarská
+**Nivarox-FAR SA** (Le Locle), která **dominuje globální produkci
+vlásků** (~90 % světových mechanických hodinek používá Nivarox vlásky).
+
+**Nivachoc** (1948) je **shock absorber** — ložisko s pružinkou na
+čepu setrvačky, **chrání rubínový kámen před nárazem**.
+
+**4. Silicon vlásky a setrvačky** (od 2001):
+
+**ULYSSE NARDIN Freak** (2001) — první komerční hodinky s **silikonovým
+krokovým kolem**. Po něm:
+- **Silicium vlásek** — Patek Philippe „Spiromax" (2005), Rolex
+  „Syloxi" (2014), Omega „Si14" (2008)
+- **Silikonová setrvačka** — Patek Philippe „Pulsomax" (2008)
+
+**Vlastnosti silikonu (Si):**
+- **Antimagnetický** (důležité pro NSM, MRI)
+- **Tepelně stabilní** (silikon má nízkou teplotní roztažitelnost)
+- **Odolný proti opotřebení** (DRIE — Deep Reactive Ion Etching umožňuje
+  přesné mikrostruktury)
+- **Lze tvarovat** matematicky přesně podle Phillipsovy křivky (DRIE
+  šablona)
+
+Nevýhody: **křehkost** (silikon je tvrdý ale láme se), **drahá** výroba
+(nutný čistý prostor, fotolitografie).
+
+**5. Carbon nanotubes / grafén** (experimentální, 2020+):
+
+Některé luxury manufaktury experimentují s **uhlíkovými setrvačkami**
+(ULYSSE NARDIN „InnoVision" konceptové projekty). Zatím nedostala se
+do běžné výroby — překážkou je **proces výroby** (ne samotný materiál).
+
+**Reference (moderní materiály):**
+
+> „Kompensační setrvačka — z ocele nebo z invaru s proužkem mosazným."
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`] *(stav 1947 — bimetalická vrcholná forma; Glucydur a Nivarox v cs literatuře toho roku ještě neuvedeny)*
+
+(Pro modernější materiály — Glucydur, Nivarox, silikon — primární
+prameny v cs hodinářské literatuře po 1947 nedostupné v této knihovně.
+Doporučená sekundární literatura: Tardy *La Pendule Française*,
+Daniels *Watchmaking*, FH (Fédération de l'industrie horlogère
+suisse) technical bulletins.)
+
 ## Obrázky
 
-*(zatím chybí — návrh: kompenzační bimetalová setrvačka, ilustrace z Sauniera 1887)*
+*(zatím chybí — návrh: kompenzační bimetalová setrvačka, ilustrace z Sauniera 1887; foto Glucydur setrvačka Lange 31 vs silikonová Patek Pulsomax)*

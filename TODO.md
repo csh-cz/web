@@ -52,10 +52,16 @@ metodou Zotero MCP semantic search + verbatim grep v plaintextech
 - [ ] **SL6 Šumavský 1851 — neuvedené termíny** (~60) — kalendář,
       dialektismy: kolisadlo, závěšadlo, krokvička, kyvák; časoměrné
       systémy: pršící, komítací.
-- [ ] **SL7 Rozšíření existujících hesel:**
-      - `krok` — Bureš 1965 dělení na soukolí I/II/III
-      - `setrvačka` — moderní Nivarox / Glucydur slitiny
-      - `vlásek` — detail Phillipsovy matematiky (3 podmínky)
+- ~~**SL7 Rozšíření existujících hesel**~~ ✅ Z větší části hotovo:
+      - `vlásek` — Phillipsova matematika 3 podmínek + Immichova
+        praktická křivka (Sladkovský 1947 obr. 99 a 100)
+      - `setrvačka` — moderní materiály (Invar/Elinvar, Glucydur,
+        Nivarox + Nivachoc, silikon Spiromax/Syloxi/Si14, experimentální
+        carbon)
+      - ~~`krok` — Bureš 1965 dělení~~ ⚠ Bureš 1965 OCR cache
+        poškozený (audit FU7), řádné citace nedostupné. Ponecháno
+        v `k-overeni.md` jako TODO — vyžaduje rescan PDF nebo manuální
+        kontrolu.
 
 Po každé etapě spustit `pnpm slovnik:auto-link` (přibyly hesla → znovu
 prosvítit články) a `pnpm search:rebuild` (corpus + embed).
