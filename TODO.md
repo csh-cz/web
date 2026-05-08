@@ -6,8 +6,6 @@ Otevřené úkoly a odložená rozhodnutí pro CSH Web (hodinarium.eu, horologie
 
 Plný audit: [`audit-pro-petra.txt`](audit-pro-petra.txt). Petr odpoví, pak doplníme.
 
-- [ ] **A1 Licence obsahu** — schválit CC BY 4.0 (zatím nasazeno default)
-- [ ] **A2 Hospodaření 2020–2025** — chce Petr na webu? Pokud ano, dodá PDF
 - [ ] **A3 Maskovaná emailová adresa** — souhlasí Petr s nahrazením `info (kyselá ryba)` za `mailto:`?
 - [ ] **B2 ASTRO2 ESP01S vs ESP10S** — překlep v textu? Petr ujasní
 - [ ] **B3 Vybrané exponáty per sekce** — můj výběr 4×4, Petr potvrdí/změní
@@ -26,7 +24,6 @@ Plný audit: [`audit-pro-petra.txt`](audit-pro-petra.txt). Petr odpoví, pak dop
       pak doplnit `fotky: []` v `src/data/akce.ts`. 5 akcí už má složky, zbytek postupně.
 - [ ] **Skript pro auto-import fotek z ZIP** — rozzipovat → přejmenovat → doplnit data file.
       Až bude první ZIP, naprogramuju.
-- [ ] **Hospodaření 2020–2025** v `/dokumenty` — doplnit `href` v tabulce, jakmile dorazí PDF
 - [ ] **Příspěvky na členských schůzích** — Petr dodá PDF / přepisy / audio
 
 ## Nízká priorita — Až bude reálná potřeba
