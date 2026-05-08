@@ -5,7 +5,7 @@ import Card from "../components/Card.astro";
 import JsonLd from "../components/JsonLd.astro";
 import KartaSbirky from "../components/KartaSbirky.astro";
 import EditorNotesBlock from "../components/EditorNotesBlock.astro";
-import { pramenTooltip } from "../utils/referenceTypes";
+import { pramenTooltip, extractWikiTitle } from "../utils/referenceTypes";
 import { formatCite, getRef } from "../utils/cite";
 import catalog from "../data/catalog.json";
 import { hodinariProClanek } from "../data/hodinari";
@@ -274,8 +274,11 @@ const articleJsonLd = {
             // Plný ISO 690 z citeproc by tu byl over-the-top — Wikipedia má
             // dynamický autorský model, citace nedává moc smysl.
             if (refType === 'wiki') {
-              const wTitle = r.title || (cslItem?.title as string) || r.bibKey;
               const wUrl = r.url || (cslItem?.URL as string) || (cslItem?.url as string);
+              const wTitle = r.title
+                || (cslItem?.title as string)
+                || extractWikiTitle(wUrl)
+                || r.bibKey;
               return (
                 <li id={`ref-${i + 1}`} class="reference reference-wiki" title={pramenTooltip('wiki')}>
                   {wUrl ? <a href={wUrl} rel="noopener" target="_blank">{wTitle}</a> : <span class="ref-title">{wTitle}</span>}

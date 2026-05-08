@@ -5,7 +5,7 @@ import EditorNotesBlock from '../../components/EditorNotesBlock.astro';
 import { getCollection, render } from 'astro:content';
 import { hodinari } from '../../data/hodinari';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
-import { pramenTooltip } from '../../utils/referenceTypes';
+import { pramenTooltip, extractWikiTitle } from '../../utils/referenceTypes';
 import { formatCite, getRef } from '../../utils/cite';
 
 /** Auto-detekce typu pramene z URL (když není explicitně uveden v frontmatteru).
@@ -221,8 +221,12 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
 
           // Wiki: jen title + skrytá URL + ⓦ ikona (přes CSS).
           if (type === 'wiki') {
-            const wTitle = p.title || (cslItem?.title as string) || p.bibKey || 'Wikipedie';
             const wUrl = p.url || (cslItem?.URL as string) || (cslItem?.url as string);
+            const wTitle = p.title
+              || (cslItem?.title as string)
+              || extractWikiTitle(wUrl)
+              || p.bibKey
+              || 'Wikipedie';
             return (
               <li class="reference reference-wiki" title={pramenTooltip('wiki')}>
                 {wUrl ? <a href={wUrl} target="_blank" rel="noopener">{wTitle}</a> : <span class="ref-title">{wTitle}</span>}
