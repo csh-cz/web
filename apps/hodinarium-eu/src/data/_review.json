@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T09:19:18.505Z",
+  "generatedAt": "2026-05-08T11:43:35.389Z",
   "summary": {
     "kartyTotal": 290,
     "kartyNoTyp": 93,
@@ -10,13 +10,13 @@
     "clankyNoTldr": 1,
     "clankyShort": 58,
     "clankyLegacyLinks": 57,
-    "hodinariTotal": 103,
-    "hodinariShort": 71,
-    "hodinariNoPortret": 89,
+    "hodinariTotal": 104,
+    "hodinariShort": 72,
+    "hodinariNoPortret": 90,
     "soupisTotal": 396,
     "stubsKarty": 0,
     "stubsClanky": 0,
-    "stubsHodinari": 45,
+    "stubsHodinari": 46,
     "stubsSoupis": 1,
     "kronikaYears": [
       2009,
@@ -3879,6 +3879,12 @@
         "wordCount": 97
       },
       {
+        "slug": "engelbert-seige",
+        "title": "Engelbert Seige",
+        "editUrl": "/admin/#/collections/hodinari/entries/engelbert-seige",
+        "wordCount": 1
+      },
+      {
         "slug": "ericsson",
         "title": "Ericsson",
         "editUrl": "/admin/#/collections/hodinari/entries/ericsson",
@@ -4293,6 +4299,11 @@
         "slug": "elektrocas",
         "title": "Elektročas",
         "editUrl": "/admin/#/collections/hodinari/entries/elektrocas"
+      },
+      {
+        "slug": "engelbert-seige",
+        "title": "Engelbert Seige",
+        "editUrl": "/admin/#/collections/hodinari/entries/engelbert-seige"
       },
       {
         "slug": "ericsson",
@@ -4722,6 +4733,11 @@
         "slug": "elekon",
         "title": "Elekon (firma)",
         "editUrl": "/admin/#/collections/hodinari/entries/elekon"
+      },
+      {
+        "slug": "engelbert-seige",
+        "title": "Engelbert Seige",
+        "editUrl": "/admin/#/collections/hodinari/entries/engelbert-seige"
       },
       {
         "slug": "ericsson",
