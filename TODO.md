@@ -14,10 +14,7 @@ Plný audit: [`audit-pro-petra.txt`](audit-pro-petra.txt). Petr odpoví, pak dop
 - [ ] **B3 Vybrané exponáty per sekce** — můj výběr 4×4, Petr potvrdí/změní
 - [ ] **B5 Datace článků** — opravit ručně 14 podezřelých roků < 1500
 - [ ] **B7 Kategorizace 124 nezařazených** — sporných ~30 článků k ručnímu zařazení
-- [ ] **B8 NTPH a NTPH_st** — sloučit / vyhodit duplicity?
-- [ ] **C1 Titulní obrázek** — Petr vybere foto pro hero
 - [ ] **C2 Logo** — soutěž v plénu, nebo nechat textové
-- [ ] **C3 Sponzoři** — patří do hodinaria nebo spolku?
 
 ## Střední priorita — naplnit obsah
 
