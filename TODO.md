@@ -18,10 +18,10 @@ blokátorů:
 | # | Úloha | Sekce | Odhad | Proč |
 |---|---|---|---|---|
 | 1 | **FU1 UX copy audit** | A.10 | ~20 min | Broad impact napříč webem (stub note hodinářů, search hints, stav badges, footer). Žádný blokátor, výsledek hned vidět. |
-| 2 | **FU7 Tech-debt inventář** | A.10 | ~45 min | Před dalším refaktorem mít mapu dluhu (border-bottom inline, dialog handler duplicity, content schemas). Read-only, doporučí další work. |
+| 2 | **TD1 + a11y M7 bundle** | A.9 + tech-debt | ~30 min | Sjednotit inline `border-bottom: none` v mapách (5×) na CSS class + vyřešit WCAG 1.4.1 Use of Color. Bundling z FU7 reportu. |
 | 3 | **SL8 Cross-link kroky → slovnik** | A.6 | ~1–2 h | Nový `/slovnik/` je izolovaný; auto-link skript paralelní s existujícím `kroky:auto-link` propojí kartu kroku → heslo slovníku. |
 | 4 | **FU6 README pro hodinarium-eu** | A.10 | ~30 min | Engineering hygiene, žádný blokátor. Nutné před onboardováním dalších přispěvatelů. |
-| 5 | **D7 OG images chybějící — build check** | A.2 | ~30 min | Social sharing UX, build-time report identifikuje ~493 kandidátů. |
+| 5 | **TD2 dialog handler extrakce** | tech-debt | ~30 min | Před plánovaným SearchModal aria refaktorem (C3+C4+M2). Identical click-outside + Esc duplicity v 2 modalech. |
 
 **Většinu lze pustit nezávisle.** Jediný měkký řetěz: FU7 inventář může změnit
 prioritizaci ostatních FU (typicky odhalí redundance).
@@ -210,13 +210,11 @@ výstup. **Nepouštět batch-em** — uživatel chce mezi nimi rozhodovat.
       cituje × laik × kurátor. 12+ field density, citation export linky
       v `<head>` neviditelné, vztah karta ↔ medailon hodináře přes
       `vyrobce` matching, print stylesheet check.
-- [ ] **FU7 Tech-debt inventář** (~45 min, `engineering:tech-debt`) —
-      hot spots: inline `border-bottom: none` (souvisí s a11y M7),
-      dialog handler duplicity (SearchModal × ReportIssueModal hydrace),
-      Article × karta × hodinari × kronika quasi-Article layouts, content
-      collections schémata sjednocení (editorNotes, references, tldr),
-      inline scripts v Base.astro ~200 řádků, `src/data/*.ts` indexing.
-      Read-only audit → prioritizovaný seznam s file:line.
+- ~~**FU7 Tech-debt inventář**~~ ✅ **Hotovo** —
+      report v `docs/tech-debt-hodinarium-2026-05-08.md`. Identifikováno
+      8 položek (TD1–TD8), 2 medium-priority (TD1 inline border-bottom
+      bundle s a11y M7, TD2 dialog handler extrakce před SearchModal
+      aria refaktorem), 5 low + 1 skip (TD6 data/index.ts).
 
 ### 🟢 Low priority
 
