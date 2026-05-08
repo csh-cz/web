@@ -105,7 +105,7 @@ Autorem hodin je hodinář a řezbář [Josef Achrer](/hodinari/josef-achrer) (\
 
 ![Fotografie 12](/img/decin0/18_8_2015/f/foto_0012.jpg)
 
-Hodiny z roku 1985 od řezbáře a hodináře Josefa Achrera. Jsou umístěny ve vyřezávané skříni s ciferníky po obou stranách skříně. Na jedné straně jsou ručičky normálního ciferníku, na druhé straně jsou ciferníky ve tvaru otáčejících se disků. Disky představují hodiny a minuty, dále datum s jemným rozlišením dopoledne a odpoledne a disk sekund. Pohyb zajišťují dva podružné strojky Elektročas PS1000. Sekundový disk je otáčen nezávisle elektrickým motorem společně s hvězdičkou a s rotačním “kyvadlem” kombinující mosaz a dřevo. Při instalaci v Hodináriu Děčín byly do skříně zabudovány elektronické hlavní hodiny, které umožňují samostatný chod i automatické nastavení po výpadku proudu.
+Hodiny z roku 1985 od řezbáře a hodináře Josefa Achrera. Jsou umístěny ve vyřezávané skříni s ciferníky po obou stranách skříně. Na jedné straně jsou ručičky normálního ciferníku, na druhé straně jsou ciferníky ve tvaru otáčejících se disků. Disky představují hodiny a minuty, dále datum s jemným rozlišením dopoledne a odpoledne a disk sekund. Pohyb zajišťují dva podružné strojky Elektročas PS1000. Sekundový disk je otáčen nezávisle elektrickým motorem společně s hvězdičkou a s rotačním “[kyvadlem](/slovnik/kyvadlo)” kombinující mosaz a dřevo. Při instalaci v Hodináriu Děčín byly do skříně zabudovány elektronické hlavní hodiny, které umožňují samostatný chod i automatické nastavení po výpadku proudu.
 
 ![Fotografie 13](/img/decin0/18_8_2015/f/foto_0013.jpg)
 
@@ -117,7 +117,7 @@ Hodiny z roku 1985 od řezbáře a hodináře Josefa Achrera. Detail ciferníků
 
 ![Fotografie 15](/img/decin0/18_8_2015/f/foto_0015.jpg)
 
-Funkční orloj sochařů Petra Skály a Miroslava Kotrby je nástěnný malovaný orloj s mechanikou zajišťující pohyb podobných ukazatelů jako jsou na Pražském orloji. Orloj vznikal pomalu a postupně ve volných chvílích od roku 2002. Koncepce pohybu soukolí rohatkami je převzata z orloje litomyšlského (Karel Adamec, Čáslav, 1907), jen rozměry kol jsou jiné a převody na měsíční rafiji jsou udělány přesnější. Orloj je poháněn malým elektromotorkem podle řídících hodin, každých dvanáct minut se přetočí rafije Slunce spolu s Měsícem a ekliptikou o jednu pětinu hodiny. V roce 2009 plochu orlojní desky omaloval ak. soch. [Miroslav Kotrba](/hodinari/miroslav-kotrba). Zcela dokončen byl orloj v červenci roku 2015 pro účely expozice v Děčíně.
+Funkční orloj sochařů Petra Skály a Miroslava Kotrby je nástěnný malovaný orloj s mechanikou zajišťující pohyb podobných ukazatelů jako jsou na Pražském orloji. Orloj vznikal pomalu a postupně ve volných chvílích od roku 2002. Koncepce pohybu [soukolí](/slovnik/soukoli) rohatkami je převzata z orloje litomyšlského (Karel Adamec, Čáslav, 1907), jen rozměry kol jsou jiné a převody na měsíční rafiji jsou udělány přesnější. Orloj je poháněn malým elektromotorkem podle řídících hodin, každých dvanáct minut se přetočí rafije Slunce spolu s Měsícem a ekliptikou o jednu pětinu hodiny. V roce 2009 plochu orlojní desky omaloval ak. soch. [Miroslav Kotrba](/hodinari/miroslav-kotrba). Zcela dokončen byl orloj v červenci roku 2015 pro účely expozice v Děčíně.
 
 ![Fotografie 16](/img/decin0/18_8_2015/f/foto_0016.jpg)
 

@@ -41,8 +41,8 @@ Věžní hodiny pocházejí původně z **budovy školy v Mikulášovicích**. J
 
 Stroj se sestává ze:
 
-- **soukolí jicího**, jehož chod je řízen **kyvadlem s litinovou čočkou na dřevěné tyči**, spojeným s **Grahamovým krokem**;
-- **soukolí bicího stroje**, který odbíjí celé hodiny.
+- **[soukolí](/slovnik/soukoli) jicího**, jehož chod je řízen **[kyvadlem](/slovnik/kyvadlo) s litinovou čočkou na dřevěné tyči**, spojeným s **Grahamovým krokem**;
+- **soukolí [bicího stroje](/slovnik/bici-stroj)**, který odbíjí celé hodiny.
 
 **Všechna kola jsou vyrobena z mosazi.**
 

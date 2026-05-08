@@ -46,7 +46,7 @@ Hodinový stroj je zapuštěn do masivního dřevěného bloku. Tvar je spíše 
 
 Podružný strojek je značen EZ 110838, což odpovídá značení ve firmě Telefonbau und Normalzeit od které firma Jednotný čas strojky běžně kupovala. Možná byla zřízena jako filiálka této německé firmy.
 
-Strojek je navržen pro napětí 6V s cívkou cca 300 ohm. Jeho konstrukce je poměrně jednoduchá, ale velmi precizně provedená. Stroj má například krycí kameny na rotoru. Impulz z centrálních hodin elektromagneticky pootočí hřídel se šnekem o polovinu otáčky. Šnek zabírá do ozubeného kola s 30 zuby. Na hřídeli je kluzně připojená minutová fafie.
+Strojek je navržen pro napětí 6V s cívkou cca 300 ohm. Jeho konstrukce je poměrně jednoduchá, ale velmi precizně provedená. Stroj má například krycí kameny na rotoru. Impulz z centrálních hodin elektromagneticky pootočí hřídel se [šnekem](/slovnik/snek) o polovinu otáčky. Šnek zabírá do ozubeného kola s 30 zuby. Na hřídeli je kluzně připojená minutová fafie.
 
 Protože je celý strojek zapuštěn do schrány a seřirovaví kolečko je normálně nepřístupné, muselo se seřizování provádt přímo za ručičky. Tím odpadl problém s polaritou impulzů.
 

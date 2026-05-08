@@ -28,4 +28,4 @@ karta:
   ram: "litinový"
 ---
 
-Torzo věžních hodin, které zřejmě přežily požár místa, kde byly instalovány. Svědčí pro to chybějící mosazné sočásti ( kolo krokové, ložiska). Zachovala se část s chodovým soukolím a jedním bitím. Druhé bití chybí, po pádu ve věži se urazil litinový rám.
+Torzo věžních hodin, které zřejmě přežily požár místa, kde byly instalovány. Svědčí pro to chybějící mosazné sočásti ( kolo krokové, ložiska). Zachovala se část s chodovým [soukolím](/slovnik/soukoli) a jedním bitím. Druhé bití chybí, po pádu ve věži se urazil litinový rám.

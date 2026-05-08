@@ -24,7 +24,7 @@ Tak jako v **kinetických dřevořezbách** pana **Jiřího Špinky**. ( Více j
 
 **Zlaté časy**
 
-Pohon hodin kinetického reliéfu zajišťuje jednoduchý celodřevěný hodinový stroj s omezením na jednu ručičku. U některých reliéfů pak jsou i přidaná soukolí, zvířetníkové či jiné disky. V zájmu výtvarného efektu je pohyb zrychlený, protože autor neměl v úmyslu vytvářet klasické hodiny, ale pouze symboliku času.
+Pohon hodin kinetického reliéfu zajišťuje jednoduchý celodřevěný hodinový stroj s omezením na jednu ručičku. U některých reliéfů pak jsou i přidaná [soukolí](/slovnik/soukoli), zvířetníkové či jiné disky. V zájmu výtvarného efektu je pohyb zrychlený, protože autor neměl v úmyslu vytvářet klasické hodiny, ale pouze symboliku času.
 
 Hodinový stroj a zejména krokový mechanizmus inspiroval mnohé výtvarníky. Vznikly zajímavé umělecné předměty s klasickým i s kuriózním hodinovým strojem. Znovu se tak objevují [**vodní hodiny**](/clanky/vodni) či hodiny z netradičních materiálů jako je [**papír**](/clanky/papir), [**sklo**](/clanky/zapekane) nebo **[cokoliv](/clanky/sestka)**, případně je vytvořen nový stylizovaný **[stylizovaný stroj](/clanky/uspirku)**. Artefakty mohou být v interiéru či na veřejném prostranství jako třeba "**[metronom](/img/metronom_letna.jpg)**" na Letenské pláni. Důležité je, vznikají z potřeby tvořit.
 

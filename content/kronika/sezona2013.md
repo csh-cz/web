@@ -10,7 +10,7 @@ lastModified: "Sun, 23 Apr 2017 14:18:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:33.121Z"
 ---
-Sezóna 2013 ve Věžním muzejíčku je opět ve znamení mnoha novinek. Vedle hlavního exponátu, soběslavského stroje s gotickým základem, si můžete prohlédnout rozšířenou hodinářskou i zvonařskou expozici. Restaurovány budou dva další zapůjčené barokní věžní hodinové stroje. Oba jsou s vřetenovým krokem a kyvadlem.
+Sezóna 2013 ve Věžním muzejíčku je opět ve znamení mnoha novinek. Vedle hlavního exponátu, soběslavského stroje s gotickým základem, si můžete prohlédnout rozšířenou hodinářskou i zvonařskou expozici. Restaurovány budou dva další zapůjčené barokní věžní hodinové stroje. Oba jsou s vřetenovým krokem a [kyvadlem](/slovnik/kyvadlo).
 
 Bohužel některé loňské exponáty již v expozici nebudou. To se týká repliky stroje s gravitačním krokem, který byl zapůjčen jen na sezónu 2012 (zde vidíte jak je důležité nás navštěvovat pravidelně) a hlavně gotické skříně, která bude restaurována a umístěna v místním muzeu.
 
@@ -18,7 +18,7 @@ Bohužel některé loňské exponáty již v expozici nebudou. To se týká repl
 
 [![barokní stroj - před dokončením restaurování](/img/vez/Kli/foto_0001.jpg)](/img/vez/Kli/f/foto_0001.jpg) Hlavní hodinářské exponáty - deset věžních strojů
 
-- [starý soběslavský stroj](/clanky/vez1), "čtvrtek" (bicí stroj jednotlivých čtvrtí), ručkové převody
+- [starý soběslavský stroj](/clanky/vez1), "čtvrtek" ([bicí stroj](/slovnik/bici-stroj) jednotlivých čtvrtí), ručkové převody
 - současný věžní stroj [Elektročas 1959](/clanky/vez_elektrocas1959)
 - [barokní věžní ministroj snad z 18 století](/clanky/vez_Zlate_Hory)
 - [barokní špindlový stroj](vez_kli.htm) věžních hodin

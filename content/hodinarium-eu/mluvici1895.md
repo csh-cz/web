@@ -16,7 +16,7 @@ Stvořiti něco nového na poli hodinářství se zdá skoro nemožným, poněva
 
 Francouzský hodinář Sivan, usedlý v Ženevě, připadl na myšlénku, vyráběti hodinky, jež by hodiny neoznamovaly cimbálkem, nýbrž lidským hlasem pomocí fonografu.
 
-Opakovací hodiny obyčejné jsou tak zřízeny, že se stisknutím péra uvedou do pohybu lehká kladívka, tlukoucí na spirálně svinuté dráty, a tak zvoněním se označují hodiny, půle, čtvrti i též minuty. Toto zvonění, jsouc velmi jednotvárné, vyžaduje značné pozornosti, čehož u hodinek Sivanových není třeba.!
+Opakovací hodiny obyčejné jsou tak zřízeny, že se stisknutím péra uvedou do pohybu lehká [kladívka](/slovnik/kladivko), tlukoucí na spirálně svinuté dráty, a tak zvoněním se označují hodiny, půle, čtvrti i též minuty. Toto zvonění, jsouc velmi jednotvárné, vyžaduje značné pozornosti, čehož u hodinek Sivanových není třeba.!
 
 Zvonítka jsou nahrazena kruhovitou deskou z vulkanisovaného kaučuku, na níž jsou spirálně vyryty zvukové rýhy fonografické; do těchto zasahuje jemná špička.
 

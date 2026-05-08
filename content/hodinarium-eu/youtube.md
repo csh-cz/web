@@ -21,7 +21,7 @@ Fenomén amatérsky pořizovaných videozáznamů a jejich ukládání na **[You
 - Ciferníky trochu jinak a dynamicky: [1](http://www.youtube.com/watch?v=y0qdQuJmQa4&feature=related) , [2](http://www.youtube.com/watch?v=pQOossf32OE&feature=related) , [3](http://www.youtube.com/watch?v=KmCxB_LdsBE&feature=related), [4](http://www.youtube.com/watch?v=f4jzrlnUmwM&feature=related)
 - [tourbillon](http://www.youtube.com/results?search_query=tourbillon&search_type=)
 - naprosto podivuhodné kroky - [escapement](http://www.youtube.com/results?search_query=Escapement&search_type=), pro fajnšmekry [lego escapement](http://www.youtube.com/results?search_query=lego+escapement&search_type=)
-- létající "kyvadlo" - [Flying Pendulum Clock](http://www.youtube.com/results?search_query=Flying+Pendulum+Clock&search_type=) - skoro zapomenutý "skorokrok"
+- létající "[kyvadlo](/slovnik/kyvadlo)" - [Flying Pendulum Clock](http://www.youtube.com/results?search_query=Flying+Pendulum+Clock&search_type=) - skoro zapomenutý "skorokrok"
 - vodní hodiny - [wather clock](http://www.youtube.com/results?search_query=water+clock&search_type=) nebo Reloj de Agua
 - což teprve legendy - [Patek Philippe](http://www.youtube.com/results?search_query=Patek+Philippe&search_type=)
 - elektrický impulz do dřevěného kyvadla dřevěných hodin, [proč ne](http://www.youtube.com/watch?v=IO25JYZIKPI)

@@ -10,7 +10,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:40.599Z"
 tldr: 'Druhou skupinou mechanických elektrifikovaných hodin jsou hodiny s impulzem dodávaným do oscilátoru. Může se jednat o kyvadlové hodiny, například hodiny ATO nebo hodiny Bulle.…'
 ---
-**D**ruhou skupinou mechanických elektrifikovaných hodin jsou hodiny s impulzem dodávaným do oscilátoru. Může se jednat o kyvadlové hodiny, například hodiny ATO nebo hodiny Bulle. Elektromagnetický popud může být dodáván i do setrvačky, jako v dále uvedených hodinách Elchron Polná. Výhodou elektromechanického řešení je to, že imulz je dodáván ve stejném ukamžiku, kdy oscilátor postrkuje hodinový stroj. Kompenzuje se tak účinek zrychlení kyvu postrkem a zbrždění kyvu vlivem odporu stroje. U klasických mechanických strojů jsou tyto úhlové výseče rozdílné a dochází tak k střídavému urychlování a zpožďování oscilátoru. Elektromagnetický pohon oscilátoru má tak z principu větší přesnost chodu.
+**D**ruhou skupinou mechanických elektrifikovaných hodin jsou hodiny s impulzem dodávaným do oscilátoru. Může se jednat o [kyvadlové](/slovnik/kyvadlo) hodiny, například hodiny ATO nebo hodiny Bulle. Elektromagnetický popud může být dodáván i do setrvačky, jako v dále uvedených hodinách Elchron Polná. Výhodou elektromechanického řešení je to, že imulz je dodáván ve stejném ukamžiku, kdy oscilátor postrkuje hodinový stroj. Kompenzuje se tak účinek zrychlení kyvu postrkem a zbrždění kyvu vlivem odporu stroje. U klasických mechanických strojů jsou tyto úhlové výseče rozdílné a dochází tak k střídavému urychlování a zpožďování oscilátoru. Elektromagnetický pohon oscilátoru má tak z principu větší přesnost chodu.
 
 **V** konstrukci elektromagnetických hodin můžeme zavést ještě jedno dělení, a to dělení podle způsobu spínání elektrického proudu. Hodiny postupně přecházely od poněkud nespolehlivého **mechanického spínání** (opalování kontaktů, nestejná doba sepnutí, ...) ke spínání elektronickému. Mechanické strojky s **elektronickým spínáním** jsou uvedeny v závěrečné galerii. Samostatnou kapitolou je snaha technickým fíglem zvětšit sílu na spínací kontakty, a tak odstranit jejich nevýhody. Nejpovedenějším řešením je **[Hippův](/kroky/hippuv-prerusovac) kontakt**. V animaci ho vidíte **[zde](animace.htm)**.
 
@@ -23,7 +23,7 @@ tldr: 'Druhou skupinou mechanických elektrifikovaných hodin jsou hodiny s impu
 
 **D**atování hodin je poněkud nepřesné. Vychází ze štítku Elchron Polná, tedy ze jména družstva, které vzniklo jistě po roce 1947 po přesunutí výroby firmy J Kulhavého z Prahy do Polné. Firma J. Kulhavý se dlouho před 2. světovou válkou zabývala hodinářskou výrobou. V 30. letech zakoupila patent od IBM na výrobu elektrických hodin, které v několika typech vyráběla. Výroba byla po válce obnovena, a pak patrně převedena do Polné ??![](/img/elektrika/elchron2.jpg)
 
-**H**odiny jdou na 4,5 voltovou baterii a jsou spínané přímo kontaktem na hřídeli setrvačky. Rovněž postrčení rohatky hodinového stroje provádí pružina na setrvačce v jednom směru. Při návratu setrvačkové pružiny je rohatka zastavena brzdící pružinou. Celý systém působí velmi jednoduše a je i v současné době v chodu.
+**H**odiny jdou na 4,5 voltovou baterii a jsou spínané přímo kontaktem na hřídeli setrvačky. Rovněž postrčení rohatky hodinového stroje provádí pružina na setrvačce v jednom směru. Při návratu [setrvačkové](/slovnik/setrvacka) pružiny je rohatka zastavena brzdící pružinou. Celý systém působí velmi jednoduše a je i v současné době v chodu.
 
 **Ruský budík SLAVA**
 
@@ -31,7 +31,7 @@ tldr: 'Druhou skupinou mechanických elektrifikovaných hodin jsou hodiny s impu
 
 **D**etail tohoto "kroku" je zde uveden jako ukázka novějšího řešení. Nad i pod cívkou elekromagnenu kmitají vahadla setrvačky s permanentním magnetem a nemagnetickou protiváhou. Krokové kolo je střídavě postrkováno z obou stran. Elektronika je realizována obvodem s jedním tranzistorem.
 
-**P**o zvětšení obrázku možná překvapí provedení zvonku s klasickým "Vágnerovým kladívkem".
+**P**o zvětšení obrázku možná překvapí provedení zvonku s klasickým "Vágnerovým [kladívkem](/slovnik/kladivko)".
 
 ## PUL-SYN-ETIC
 

@@ -22,7 +22,7 @@ V obci se nachází kostel Nanebevzetí Panny Marie, postavený ve 14. století.
 
 ## Popis stroje a nálezového stavu
 
-V kovaném rámu se sloupky v horní části s ozdobným zatočením je umístěn jicí kyvadlový stroj s vřetenovým krokem a půlový bicí stroj. Nezachovalo se patrně kyvadlo ani natahovací klika, která se používala pro oba stroje. Nalezen byl pouze volný natahovací pastorek. Nalezeno bylo jedno kompletní pískové závaží a jedno torzo závaží. Samostatně byl nalezen větrník bicího stroje bez rohatky. Nálezový stav stroje nesl stopy mnoha provizorních oprav. Některé díly byly přichyceny jen drátem.
+V kovaném rámu se sloupky v horní části s ozdobným zatočením je umístěn jicí kyvadlový stroj s vřetenovým krokem a půlový bicí stroj. Nezachovalo se patrně [kyvadlo](/slovnik/kyvadlo) ani natahovací klika, která se používala pro oba stroje. Nalezen byl pouze volný natahovací pastorek. Nalezeno bylo jedno kompletní pískové závaží a jedno torzo závaží. Samostatně byl nalezen [větrník](/slovnik/vetrnik) [bicího stroje](/slovnik/bici-stroj) bez rohatky. Nálezový stav stroje nesl stopy mnoha provizorních oprav. Některé díly byly přichyceny jen drátem.
 
 ## Postup opravy stroje
 

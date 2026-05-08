@@ -25,7 +25,7 @@ karta:
   krokJicihoStroje: "Hippův přerušovač"
 ---
 
-Kyvadlo kývá volně. Poklesne-li jeho amplituda pod určitou mez, jazýček se vzpříčí v zářezu, sepne se kontakt a kyvadlo obdrží impulz od elektromagnetu. Kontakt je velmi spolehlivý — vynalezl jej würtemberský hodinář Mathäus Hipp kolem roku 1850.
+Kyvadlo kývá volně. Poklesne-li jeho amplituda pod určitou mez, jazýček se vzpříčí v zářezu, sepne se kontakt a [kyvadlo](/slovnik/kyvadlo) obdrží impulz od elektromagnetu. Kontakt je velmi spolehlivý — vynalezl jej würtemberský hodinář Mathäus Hipp kolem roku 1850.
 
 Kyvadlo vysílá minutové polarizované impulzy, jimiž je řízen podružný strojek (viz [karta inv. 86](/sbirka/karta/inv-86-podruzne-hodiny-hipp-1860/)).
 

@@ -1,5 +1,5 @@
 ---
-import { getEntry, render } from 'astro:content';
+import { getEntry, getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { kroky } from '../../data/kroky';
@@ -21,6 +21,17 @@ const all = catalog as CatalogEntry[];
 const related = krok.relatedSlugs
   .map((s) => all.find((e) => e.slug === s))
   .filter((e): e is CatalogEntry => Boolean(e));
+
+// Cross-link na slovník — pro každou krok detail stránku zobrazujeme
+// 4 obecná konstrukční hesla ze /slovnik/, která se týkají všech kroků
+// (krok obecně, kotva, krokové kolo, paleta). Doplňuje kontext pro
+// čtenáře, který přišel přes auto-link z článku a chce rozšířenou
+// terminologii s primárními prameny.
+const SLOVNIK_GENERIC_TERMS = ['krok', 'kotva', 'krokove-kolo', 'paleta'];
+const slovnikAll = await getCollection('slovnik');
+const slovnikGenericEntries = SLOVNIK_GENERIC_TERMS
+  .map((s) => slovnikAll.find((e) => e.data.slug === s))
+  .filter((e): e is NonNullable<typeof e> => Boolean(e));
 
 // Pokud existuje MDX detail (content/kroky/<slug>.mdx), použij ho
 // místo charakteristika+images z kroky.ts. To umožňuje plný technický
@@ -164,6 +175,25 @@ const perex = detail?.data.perex;
               return null;
             })}
           </ol>
+        </section>
+      )}
+
+      {slovnikGenericEntries.length > 0 && (
+        <section class="krok-slovnik" aria-labelledby="krok-slovnik-heading">
+          <h2 id="krok-slovnik-heading">Související slovníková hesla</h2>
+          <p class="krok-slovnik-intro">
+            Obecné konstrukční termíny související s každým hodinovým krokem.
+            Detailní výklad s překlady do němčiny, angličtiny a francouzštiny
+            a doslovnými citacemi z primárních pramenů.
+          </p>
+          <div class="krok-slovnik-grid">
+            {slovnikGenericEntries.map((e) => (
+              <a href={`/slovnik/${e.data.slug}`} class="krok-slovnik-card">
+                <h3>{e.data.title}</h3>
+                <p>{e.data.definice}</p>
+              </a>
+            ))}
+          </div>
         </section>
       )}
 
@@ -409,4 +439,69 @@ const perex = detail?.data.perex;
   }
   .byline-author { color: var(--color-text-soft); font-style: italic; }
   .byline-sep { color: var(--color-brass); opacity: 0.5; }
+
+  /* Slovníková cross-link sekce — 4 obecná hesla pro každou krok page. */
+  .krok-slovnik {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  }
+  .krok-slovnik h2 {
+    font-family: var(--font-serif);
+    font-size: 0.78rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: var(--color-copper);
+    font-weight: 500;
+    margin: 0 0 0.5rem !important;
+  }
+  .krok-slovnik-intro {
+    font-size: 0.9rem;
+    color: var(--color-text-soft);
+    margin: 0 0 1.25rem;
+    line-height: 1.5;
+    max-width: 65ch;
+  }
+  .krok-slovnik-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.85rem;
+  }
+  .krok-slovnik-card {
+    display: block;
+    padding: 0.85rem 1rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--color-text);
+    border-left: 3px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    transition: border-color 150ms ease;
+  }
+  .krok-slovnik-card:hover {
+    border-color: var(--color-brass);
+    border-left-color: var(--color-brass-bright);
+  }
+  .krok-slovnik-card h3 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 0.95rem !important;
+    color: var(--color-brass-bright) !important;
+    margin: 0 0 0.3rem !important;
+    line-height: 1.2 !important;
+    text-transform: lowercase;
+  }
+  .krok-slovnik-card h3::first-letter {
+    text-transform: uppercase;
+  }
+  .krok-slovnik-card p {
+    font-size: 0.78rem;
+    line-height: 1.45;
+    color: var(--color-text-soft);
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
 </style>

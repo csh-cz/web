@@ -15,7 +15,7 @@ tldr: 'V letech roce 1493-4 udělal pro město Jindřichův Hradec hodiny Jan R�
 
 Citace pramenů:
 
-- *PRO: Mistr Jan z Růže byl jistě dovedný řemeslník i jinak vzdělaný muž, dovedl-li v tehdejší době sestaviti dílo tak pozoruhodné; a jeho pověst výborného hodináře byla známa i mimo Prahu, neboť 3\. února 1494 dodal hodiny pro radnici jindřichohradeckou, za než dostal zaplaceno osmnáct kop a jež byly po přeměně na hodiny kyvadlové r. 1802 přeneseny na Pražskou bránu a r. 1824 vsazeny do kostelní věže v Kardašově Řečici.* (J. Novák, Soupis památek XIV. (1901), 146 a 261.)" - citace Loriš - Mánesův orloj, strana 9., Orbis 1952
+- *PRO: Mistr Jan z Růže byl jistě dovedný řemeslník i jinak vzdělaný muž, dovedl-li v tehdejší době sestaviti dílo tak pozoruhodné; a jeho pověst výborného hodináře byla známa i mimo Prahu, neboť 3\. února 1494 dodal hodiny pro radnici jindřichohradeckou, za než dostal zaplaceno osmnáct kop a jež byly po přeměně na hodiny [kyvadlové](/slovnik/kyvadlo) r. 1802 přeneseny na Pražskou bránu a r. 1824 vsazeny do kostelní věže v Kardašově Řečici.* (J. Novák, Soupis památek XIV. (1901), 146 a 261.)" - citace Loriš - Mánesův orloj, strana 9., Orbis 1952
 
 ... Hanušově pověsti svědčí, že byl požádán od rady města Hradce Jindřichova, aby tam na radnici nový orloj udělal, což on r. 1493 též vykonal. Nachází se o tom zápis v registrech městských: "1494, fer.II. post Purificatioem (3. února) Mistru Hanušowi z Prahy od orloje na rathauz dokonanie dal sem gemu 18 kop na míšensky a spropití thovaržiši 10 grošů. (citace V. Rosický - Staroměstský orloj v Praze, str. 13, OTTO 1925)
 

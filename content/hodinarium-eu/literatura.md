@@ -39,7 +39,7 @@ tldr: 'O hodinách jsme četli spoustu knížek. Ještě víc jsme jich nečetli
 - Nábělek, František - **Nebeské hodiny** - nákladem vlastním, Kroměříž, nedatováno (odhad cca 1930)
 - Poche, Emanuel, Urešová, Libuše - **Hodiny a hodinky** (ze sbírky UMP v Praze)- Panorama, Praha 1987
 - Brat Wawrzyniec Powapiňski, [Zegarmistrzostwo - czešč 5 - Zegary wiežove](https://srebrnykruk.pl/do-pobrania/05-Zegarmistrzostwo-Wawrzyniec-Podwapin%CC%81ski.pdf)
-- Polák, Bedřich - **Přenosné sluneční hodiny**\- Academia, Praha 1990
+- Polák, Bedřich - **Přenosné [sluneční hodiny](/slovnik/slunecni-hodiny)**\- Academia, Praha 1990
 - Rosický, Václav PH. DR. - profesor v.v. - **STAROMĚSTSKÝ ORLOJ V PRAZE** - OTTO, Praha 1923
 - Schneider, Rudolf - **Přesný čas, Hodiny a hodinky** - Orbis, Praha 1949
 - Sedláček, Vojtěch - **Orloj v Praze** - Agentura ProVás, s.r.o., Praha 2006

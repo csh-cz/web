@@ -35,7 +35,7 @@ Jsou technicky prakticky stejné. Pouze jiný program mikroprocesoru vytváří 
 
 !
 
-**Komerčně vyráběné "kyvadlové" STROBO hodiny**
+**Komerčně vyráběné "[kyvadlové](/slovnik/kyvadlo)" STROBO hodiny**
 
 **V** poslední době se na trhu objevily hodiny, kterým se začalo říkat stroboskopické. Koncem roku 2006 byla jejich cena od 749.- až do 1 295.- Kč. Pokud jsem milovníky klasických hodin vyděsil použitím termínu "kyvadlové", tak jsem to udělal jen proto, abych zdůraznil odlišnost pohyblivého displeje, který se neotáčí, ale kývá. Jde o velmi podobnou konstrukci, která využitím kmitajícího kyvadla místo otáčející se vrtule možná zdařile uniká nástrahám patentové ochrany. *!*Technicky se zjednodušují problémy spojení elektroniky se zobrazovací jednotkou, na druhé straně je provedení kyvadla mechanicky poněkud náročnější.
 

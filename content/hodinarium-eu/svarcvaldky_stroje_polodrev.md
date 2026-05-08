@@ -13,7 +13,7 @@ tldr: '(polodřevěný stroj = náboje kol dřevěné s železným středem, ozu
 ---
 (polodřevěný stroj = náboje kol dřevěné s železným středem, ozubení mosaz )
 
-**J**icí a bicí stroj uloženy za sebou. Vyráběly se tak od roku 1820. Zobrazené stroje pravděpodobně budou cca o 20 let mladší. Povšimněte si, že oba stroje mají totožný hřídel řetězového a minutového kola. Později bylo obvyklejší ztotožnění hřídele řetězového a střídného kola. Převod na minutové kolo byl 1:1. 2:1 i 3:2. Tím se osa minutového a hodinového kola přemístila do středu stroje. Lze také poukázat na celomosazné závěrkové kolo. To trochu vybočuje z polodřevěné koncepce.
+**J**icí a [bicí stroj](/slovnik/bici-stroj) uloženy za sebou. Vyráběly se tak od roku 1820. Zobrazené stroje pravděpodobně budou cca o 20 let mladší. Povšimněte si, že oba stroje mají totožný hřídel řetězového a minutového kola. Později bylo obvyklejší ztotožnění hřídele řetězového a střídného kola. Převod na minutové kolo byl 1:1. 2:1 i 3:2. Tím se osa minutového a hodinového kola přemístila do středu stroje. Lze také poukázat na celomosazné závěrkové kolo. To trochu vybočuje z polodřevěné koncepce.
 
 ***S**tav strojů je před restaurací. Možná tak chvíli zůstane, protože i restaurátor v tomto počasí zaujímá raději místo v zahrádce před restaurací :-)*
 

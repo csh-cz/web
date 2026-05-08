@@ -30,7 +30,7 @@ Nápad postavit tyto hodiny vznikl při pohledu na obrázek z časopisu. V člá
 
 **H**odiny jsou 65 cm vysoké. Kyvadlo je dlouhé 12,5 cm. Pohon je vlastní vahou stroje po ocelové ozubené liště, která je 44 cm dlouhá. Vyrobeny byly v roce **2000**.
 
-**R**aritou mezi nástěnnými hodinami jsou "**hodiny pilové**". Název je od toho, že stroj v kovovém bubnu je navlečen na svislou ozubenou tyč, o jejíž zuby opřené soukolí se vlastní vahou roztáčí a uvádí v pohyb. Chod těchto hodin je řízen kyvadlem, které je umístěno před ciferníkem. S jejich výrobou začal po roce 1700 Isaak Ourry v Kasselu a vyráběly se až do první poloviny 19. století, buď zavěšené na konzole nebo namontované na nástěnné prkénko. Bývaly různě ornamentálně a figurálně zdobeny.
+**R**aritou mezi nástěnnými hodinami jsou "**hodiny pilové**". Název je od toho, že stroj v kovovém bubnu je navlečen na svislou ozubenou tyč, o jejíž zuby opřené [soukolí](/slovnik/soukoli) se vlastní vahou roztáčí a uvádí v pohyb. Chod těchto hodin je řízen kyvadlem, které je umístěno před ciferníkem. S jejich výrobou začal po roce 1700 Isaak Ourry v Kasselu a vyráběly se až do první poloviny 19. století, buď zavěšené na konzole nebo namontované na nástěnné prkénko. Bývaly různě ornamentálně a figurálně zdobeny.
 
 **V** současné době je tento druh hodin prakticky nedostupný. Protože je sběratelsky velice atraktivní, tak jsem je vyrobil sám. Celé jsem je umístil na černě mořené prkénko s mosazným rámečkem. Čelní kruhová deska je s volutovým nástavcem, ciferník je bílý, ručky černé ocelové, stroj kotvový s kyvadlem před číselníkem.
 
@@ -46,7 +46,7 @@ Nápad postavit tyto hodiny vznikl při pohledu na obrázek z časopisu. V člá
 
 ## Hodiny s ptáčkem v kleci
 
-**H**odiny jsou 15 cm vysoké, průměr mají 7,8 cm. Pohon je pérový a krok se setrvačkou. Vyrobeny byly v roce **2002**.
+**H**odiny jsou 15 cm vysoké, průměr mají 7,8 cm. Pohon je pérový a krok se [setrvačkou](/slovnik/setrvacka). Vyrobeny byly v roce **2002**.
 
 **P**oprvé jsem podobné hodiny uviděl u jednoho sběratele v Praze. Podruhé jsem získal reklamní kalendář, kde byly celé krásně vyfocené a to už jsem se pustil do výroby. Strojek je ze starších kuchyňských hodin se setrvačkou.
 
@@ -70,7 +70,7 @@ Nápad postavit tyto hodiny vznikl při pohledu na obrázek z časopisu. V člá
 
 **H**odiny jsou 12 cm vysoké a 8 cm široké. Kyvadlo je dlouhé 24 cm.
 
-**M**iniaturní nástěnné kyvadlové hodiny byly vyrobeny ve zmenšené velikosti podle obrázku hodin, které vlastnilo Muzeum hodin ve Šternberku. Stroj běžný s kotvovým krokem poháněný závažím.
+**M**iniaturní nástěnné [kyvadlové](/slovnik/kyvadlo) hodiny byly vyrobeny ve zmenšené velikosti podle obrázku hodin, které vlastnilo Muzeum hodin ve Šternberku. Stroj běžný s kotvovým krokem poháněný závažím.
 
 ## Miniaturní železné
 

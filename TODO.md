@@ -19,7 +19,7 @@ blokátorů:
 |---|---|---|---|---|
 | 1 | ~~**FU1 UX copy audit**~~ ✅ hotovo | A.10 | ~20 min | 6 rewritů: stub note, draft placeholder, search hints, fallback, 404, report hint + `stavLabel()` utility. |
 | 2 | ~~**TD1 + a11y M7 bundle**~~ ✅ hotovo | A.9 + tech-debt | ~30 min | Sjednoceno na `.link-bare` class. WCAG 1.4.1 vyřešeno. |
-| 3 | **SL8 Cross-link kroky → slovnik** | A.6 | ~1–2 h | Nový `/slovnik/` je izolovaný; auto-link skript paralelní s existujícím `kroky:auto-link` propojí kartu kroku → heslo slovníku. |
+| 3 | ~~**SL8 Cross-link kroky → slovnik**~~ ✅ hotovo | A.6 | ~1–2 h | 306 auto-linků v 174 souborech + cross-link sekce na každé krok detail page. |
 | 4 | ~~**FU6 README pro hodinarium-eu**~~ ✅ hotovo | A.10 | ~30 min | apps/hodinarium-eu/README.md přepsán (410 ř.) — architektura, 6 collections, CMS pipeline, semantic search, deployment. |
 | 5 | ~~**TD2 dialog handler extrakce**~~ ✅ částečně | tech-debt | ~30 min | ReportIssueModal refaktorováno na `attachDialogControls()` helper. SearchModal čeká na bundle s C3+C4+M2 (define:vars blokuje ESM import). |
 
@@ -119,9 +119,15 @@ v plaintextech (Šumavský 1851, Špatný 1882, Sušický 1900, Sladkovský 1947
 
 ## A.6 — Slovník: tech / integrace
 
-- [ ] **SL8 Cross-link kroky → slovnik** — v `kroky.ts` linkovat heslo
-      `krok` na `/slovnik/krok`. Skript `slovnik:auto-link` paralelně
-      s `kroky:auto-link`.
+- ~~**SL8 Cross-link kroky → slovnik**~~ ✅ Hotovo. Dvě části:
+      - `scripts/auto-link-slovnik.mjs` (paralelně s `auto-link-kroky.mjs`):
+        24 hesel × 100 aliasů, **306 linků v 174 souborech**. Whitelist
+        obecných termínů (kyvadlo: 106, soukolí: 40, bicí stroj: 36,
+        větrník: 29, …). Kroky priorita: skip pokud line obsahuje
+        `/kroky/` link. `pnpm slovnik:auto-link` + `--dry-run`.
+      - Cross-link sekce v `pages/kroky/[slug].astro`: pro každý krok
+        zobrazí 4 obecná slovníková hesla (krok, kotva, krokové kolo,
+        paleta) jako cards pod „Související slovníková hesla".
 - [ ] **SL9 Search index** — zařadit slovnik hesla do Fuse.js corpusu
       (`scripts/extract-search-corpus.mjs`).
 - [ ] **SL11 CMS widget pro Sveltia** — frontmatter editor pro slovnik

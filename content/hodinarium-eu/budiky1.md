@@ -20,7 +20,7 @@ Hnací kolo a rohatka je na stejné ose jako kolo krokové. Na prvním obrázku 
 
 [![comtoise budík](/img/budiky1/budik_comtoise1m.jpg)](/img/budiky1/budik_comtoise1.jpg)[![comtoise budík](/img/budiky1/budik_comtoise2m.jpg)](/img/budiky1/budik_comtoise2.jpg)
 
-U budícího stroje se obvykle používá černoleský krok. Krok má však jiný úkol než u hodinového stroje. Slouží pouze k přeměňování otáčivého pohybu v kývavý pohyb paličky, která tak přebírá funkci regulátoru rychlosti otáčení krokového kola. ![součásti budíku](/img/budiky1/budik_comtoise_casti.jpg)U hodin Comtoise na obrázku je opět použit krok vřetenový jako u jicího stroje. Na ose vřetena je palička, která bije do zvonku bicího mechanismu, nebo do samostatného zvonku.
+U budícího stroje se obvykle používá černoleský krok. Krok má však jiný úkol než u hodinového stroje. Slouží pouze k přeměňování otáčivého pohybu v kývavý pohyb paličky, která tak přebírá funkci [regulátoru](/slovnik/regulator) rychlosti otáčení krokového kola. ![součásti budíku](/img/budiky1/budik_comtoise_casti.jpg)U hodin Comtoise na obrázku je opět použit krok vřetenový jako u jicího stroje. Na ose vřetena je palička, která bije do zvonku bicího mechanismu, nebo do samostatného zvonku.
 
 Spouštěcí vačka je na hodinovém kole a nastavuje se ovládacím kolečkem uprostřed ciferníku. Spouštěcí páka, která sleduje obvod vačky, působí jako západka přímo na vřeteno.
 

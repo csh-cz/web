@@ -27,7 +27,7 @@ Nejjednodušší elektrické hodiny vznikly doplněním elektrického natahován
 
 ## Alexander Bain a kontaktní problémy
 
-Skutečně elektrické hodiny používaly magnetický impulz dodávaný přímo do kyvadla, případně setrvačky. Tady se mění význam převodového soukolí: slouží už jen k počítání kyvů, ne k vydávání elektrických impulzů. Prvním konstruktérem, který se pokusil postavit hodiny s aplikací elektřiny, byl skotský hodinář Alexander Bain. Jeho první konstrukce hodin v polovině 19. století udržovala pohyb kyvadla impulzy z elektromagnetu, spínaného mechanickým kontaktem. Ten byl nespolehlivý a nepříjemně se opaloval.
+Skutečně elektrické hodiny používaly magnetický impulz dodávaný přímo do kyvadla, případně [setrvačky](/slovnik/setrvacka). Tady se mění význam převodového [soukolí](/slovnik/soukoli): slouží už jen k počítání kyvů, ne k vydávání elektrických impulzů. Prvním konstruktérem, který se pokusil postavit hodiny s aplikací elektřiny, byl skotský hodinář Alexander Bain. Jeho první konstrukce hodin v polovině 19. století udržovala pohyb kyvadla impulzy z elektromagnetu, spínaného mechanickým kontaktem. Ten byl nespolehlivý a nepříjemně se opaloval.
 
 Nespolehlivý kontakt vyřešil [Matthäus Hipp](/hodinari/matthaus-hipp), který zkonstruoval jednoduchý a spolehlivý spínač: kyvadlo kývá volně; poklesne-li jeho amplituda pod určitou mez, jazýček se vzpříčí v zářezu a kontakt sepne — kyvadlo dostane impulz a kývá dál. Konstrukce z roku ~1850 fungovala v matičních hodinách, které rozváděly přesný čas do podružných hodin v rámci budovy.
 
@@ -41,7 +41,7 @@ Stejný princip jako ATO používají i hodiny **Bulle**, jen s prohozenou pozic
 
 ## Shorttovy hodiny — vrchol mechanické přesnosti
 
-Složitou kombinací elektroniky a jemné mechaniky, jíž bylo v dané době (kolem 1920) dosaženo nebývalé přesnosti, je Shorttova konstrukce s **volným kyvadlem a pomocnými hodinami**. Pomocné hodiny regulují chod elektrického podpůrného systému, jehož kyvadlo se kvůli zachování správné funkce pohybuje pomaleji. Pomocné hodiny zase ve vhodný okamžik dají popud, nutný k zachování pohybu volného kyvadla. Denní variace této soustavy se pohybovala kolem 0,003 s.
+Složitou kombinací elektroniky a jemné mechaniky, jíž bylo v dané době (kolem 1920) dosaženo nebývalé přesnosti, je Shorttova konstrukce s **volným [kyvadlem](/slovnik/kyvadlo) a pomocnými hodinami**. Pomocné hodiny regulují chod elektrického podpůrného systému, jehož kyvadlo se kvůli zachování správné funkce pohybuje pomaleji. Pomocné hodiny zase ve vhodný okamžik dají popud, nutný k zachování pohybu volného kyvadla. Denní variace této soustavy se pohybovala kolem 0,003 s.
 
 ## Síťovky — frekvence elektrické sítě jako časový normál
 

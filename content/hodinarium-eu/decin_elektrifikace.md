@@ -30,7 +30,7 @@ V odborném časopisu Die Uhrmacherwoche z roku 1924 je příklad jiného řeše
 
 Na rozdíl od předchozích systémů, kdy jsou hodiny impulzy přímo řízeny, existuje systém, kdy je plně zachována schopnost chodu věžních hodin a polarizované impulzy slouží pouze k upřesnění chodu. Příkladem jsou hodiny vyrobené po roce 1900 Mäderem, Andelfingen.
 
-Na obrázku je vidět výkres záchytu kyvadla a jeho namontování na kompletní věžní stroj. Při nepřítomnosti řídících impulzů je elektromagnetická jednotka bez mechanického záběru a hodiny jdou "normálně".
+Na obrázku je vidět výkres záchytu [kyvadla](/slovnik/kyvadlo) a jeho namontování na kompletní věžní stroj. Při nepřítomnosti řídících impulzů je elektromagnetická jednotka bez mechanického záběru a hodiny jdou "normálně".
 
 Záchyt kyvadla řízený elektronicky používá i dnes restaurátorský ateliér manželů Skálových. Ukázka použití záchytu [zde](http://www.veznihodiny.cz/ukaz19.htm).
 

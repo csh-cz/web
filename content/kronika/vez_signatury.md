@@ -12,7 +12,7 @@ scrapedAt: "2026-04-27T17:36:37.090Z"
 ---
 **K**dyž se jednotlivé součástky hodin ze soběslavské věže začaly vynořovat z čistících lázní, objevily se na nich staré signatury a datace a s nimi vznikly i nové otázky.
 
-Nejstarší signatura je **z opravy** z roku 1743. Starší signatury a datace asi zanikly spolu s díly náležejícími lihýřovému regulátoru, pokud tam vůbec byly. Možná se dřív na stroje ani hodináři nepodepisovali.
+Nejstarší signatura je **z opravy** z roku 1743. Starší signatury a datace asi zanikly spolu s díly náležejícími lihýřovému [regulátoru](/slovnik/regulator), pokud tam vůbec byly. Možná se dřív na stroje ani hodináři nepodepisovali.
 
 Signatury a datace na součástkách stroje nejsou podloženy dosud známými prozkoumanými písemnými prameny. V následující tabulce vidíme srovnání údajů z těchto odlišných zdrojů - Pp - písemné prameny, S1- datace stroje 1, S2 - datace stroje 2.
 

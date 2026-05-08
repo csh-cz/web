@@ -20,7 +20,7 @@ V pražské restauraci **U Špirků** (viz [web](http://www.u-spirku.cz/) restau
 
 Elektricky poháněná kinetická plastika sice hodiny jen simuluje, ale ručičky správný čas v klidovém stavu ukazují. To by však bylo málo akční, tak každou minutu je proveden rituál posunu ručiček. Minutová ručička se nejprve několikrát posune dopředu a dozadu, aby se vrátila do původní polohy a pak již hrdě pokročila na následující minutu.
 
-Občas se také za skřípotu roztočí některá kola a převíjí se řetěz se závažími. K tomu se majestátně houpe opět elektricky poháněné kyvadlo a otáčí se stylizované krokové kolo. Vlastní řídící elektronika a motory jsou ukryty v kovových válcích patrných na pravém obrázku.
+Občas se také za skřípotu roztočí některá kola a převíjí se řetěz se závažími. K tomu se majestátně houpe opět elektricky poháněné [kyvadlo](/slovnik/kyvadlo) a otáčí se stylizované krokové kolo. Vlastní řídící elektronika a motory jsou ukryty v kovových válcích patrných na pravém obrázku.
 
 Obecně se na tomto serveru vyjadřuji kritiky k přestavbám historických strojů pomocí elektroniky. Zde je situace jiná. Zde vzniklo zdařilé samostatné dílo dobře sladěné s celým interiérem.
 

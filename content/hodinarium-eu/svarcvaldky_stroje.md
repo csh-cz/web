@@ -16,7 +16,7 @@ tldr: 'Švarcvaldek se vyrobilo neuvěřitelně mnoho,odhaduje se, že více ne�
 
 Od nejstarších dob do nedaleké minulosti měly švarcvaldky dřevěný rám stroje. Teprve současná výroba kukaček přešla na rám kovový. Pro sběratele má dřevěný rám dvě hlavní nevýhody. Bývá napaden parazity. Restaurování proto vyžaduje použití technologií používaných spíše pro opravy nábytku. Druhou nevýhodou je to, že rám špatně snáší suché prostředí "panelákových" bytů. Dochází k rozesýchání dřeva, ke zkřížení konstrukce a tím k obtížím chodu.
 
-Vyráběné stroje se lišily velikostí rámu, velikostí kyvadla a tím jiným poměrem ozubení, dále bicím zařízením, [budíkem](budiky1.htm#budik2) či kukačkou. Neměnila se však základní koncepce stroje. Jicí stroj s typickým kyvadlovým černoleským krokem má pouze 3 kola hlavního soukolí (hnací kolo, mezilehlé kolo a krokové kolo). Převod na ručičky je odvozen přímo od hnacího kola. Na stejné hřídeli je nasazeno "střídné" kolo s pastorkem zabírající do hodinového i minutového kola. Výjimku tvoří pouze pérový stroj, který pro zmenšení počtu otáček pérovníku, má jedno mezilehlé kolo navíc.
+Vyráběné stroje se lišily velikostí rámu, velikostí kyvadla a tím jiným poměrem ozubení, dále bicím zařízením, [budíkem](budiky1.htm#budik2) či kukačkou. Neměnila se však základní koncepce stroje. Jicí stroj s typickým kyvadlovým černoleským krokem má pouze 3 kola hlavního [soukolí](/slovnik/soukoli) (hnací kolo, mezilehlé kolo a krokové kolo). Převod na ručičky je odvozen přímo od hnacího kola. Na stejné hřídeli je nasazeno "střídné" kolo s pastorkem zabírající do hodinového i minutového kola. Výjimku tvoří pouze pérový stroj, který pro zmenšení počtu otáček pérovníku, má jedno mezilehlé kolo navíc.
 
 V průběhu 18. a 19. století se podstatně měnila technologie výroby ozubených kol.![](/img/svarcvald/technologie.jpg) Nejstarší hodiny měly zcela dřevěná kola. Později zůstal dřevěný pouze náboj (často s železným trnem ložiska). Lucernový pastorek měl nadále dřevěná čela. Ozubená kola byla mosazná. Ještě později byla celá kolečka mosazná nadále s lucernovým pastorkem. Trochu s humorem nazýváme jednotlivé způsoby výroby převodů "**doba dřevěná**", "**doba polodřevěná**" a "**doba mosazná**".
 
@@ -24,7 +24,7 @@ Obrázek ukazuje ve spodní části stejnou součástku - minutové kolo - ve v�
 
 Povšimněte si prosím,že celodřevěné ozubené kolo (1. zleva) má jeden zub plombován železnou plombou.
 
-[![švarcvaldky 1840](/img/svarcvald/kukacky1840.jpg)](/http://www.antique-horology.org/_Editorial/BlackForestClocks/Images/koekoek1.jpg)Je zajímavé, že se měnilo i umístění strojů v rámu. Nejčastěji, z pohledu ze strany ciferníku, je jicí stroj vlevo, bicí vpravo. Existují stroje s opačnym uspořádáním. To je i případ uvedeného pérového stroje. Klasické uspořádání švarcvldek má v rámu stroje za sebou. Samozřejmě vpředu jicí stroj, vzadu bicí stroj. Na níže uvedených obrázcích je tato konstrukce rámu jak pro polodřevěná kola, tak pro mosazná kola. Dělí je tedy od sebe přibližně jedno století.
+[![švarcvaldky 1840](/img/svarcvald/kukacky1840.jpg)](/http://www.antique-horology.org/_Editorial/BlackForestClocks/Images/koekoek1.jpg)Je zajímavé, že se měnilo i umístění strojů v rámu. Nejčastěji, z pohledu ze strany ciferníku, je jicí stroj vlevo, bicí vpravo. Existují stroje s opačnym uspořádáním. To je i případ uvedeného pérového stroje. Klasické uspořádání švarcvldek má v rámu stroje za sebou. Samozřejmě vpředu jicí stroj, vzadu [bicí stroj](/slovnik/bici-stroj). Na níže uvedených obrázcích je tato konstrukce rámu jak pro polodřevěná kola, tak pro mosazná kola. Dělí je tedy od sebe přibližně jedno století.
 
 **D**efilé strojů z 19. a 20. století symbolicky zahájíme fotografií nádherných kukaček z muzea **Museum of the Dutch Clock** Zaanse Schans, Zaandam viz **zaandam.klokkenmuseum.info.** Jedná se o polodřevěné hodiny **z roku 1840**. Muzeum uvádí výrobu kukaček od roku 1730, nejstarší exponáty má z roku 1760.
 
@@ -62,7 +62,7 @@ Půlové bití.
 
 !
 
-Hodiny se stroji uspořádanými za sebou, **s kyvadlem umístěným za zadní deskou** oddělenou od stěny distančními sloupky. Uspořádání se používalo spíše u polodřevěných hodin a označovalo se jako **hodiny "štolové"**.
+Hodiny se stroji uspořádanými za sebou, **s [kyvadlem](/slovnik/kyvadlo) umístěným za zadní deskou** oddělenou od stěny distančními sloupky. Uspořádání se používalo spíše u polodřevěných hodin a označovalo se jako **hodiny "štolové"**.
 
 Bicí stroj odbíjející jen v celou hodinu.
 

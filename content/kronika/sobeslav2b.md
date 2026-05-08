@@ -103,7 +103,7 @@ chronologický výpis z archivních dokumentů a hypotézy vzniku
 
 - 1703 – opravován místními řemeslníky cimbál, nové železné pruty, kříž, kladivo (celkem za 6zl 45 kr.) (18. 10. 1703)
 
-- **1707 – hodináři mirovskému a panu Jiřímu Delaost (Delawos?), který hodiny městské na věži jsouce velmi zruinýrovaný zase v náležitý způsob uvedl šest nových kol, neméně nový perpentikl** *(kyvadlo)***, celou novou hranici k čtvrtkem udělal** a cokoliv při hodinách tak i čtvrtkem scházelo vše důkladně zhotovil 75 zl, i sud piva, kterej při témž díle skrze 3 neděle spotřeboval 9 zl, outraty s ním včesle? 1zl 42x, tovaryšovi jeho 1 zl 30x. Za 23 libry železa štýrského v Hradci koupeného, na velký kola po 6x 2 zl. 18x 251/4 libry (následuje výčet dalších prací a materiálu – barvy, pozlacení, krov, dřevěné rámy atd celkem za 119 zl 5x).
+- **1707 – hodináři mirovskému a panu Jiřímu Delaost (Delawos?), který hodiny městské na věži jsouce velmi zruinýrovaný zase v náležitý způsob uvedl šest nových kol, neméně nový perpentikl** *([kyvadlo](/slovnik/kyvadlo))***, celou novou hranici k čtvrtkem udělal** a cokoliv při hodinách tak i čtvrtkem scházelo vše důkladně zhotovil 75 zl, i sud piva, kterej při témž díle skrze 3 neděle spotřeboval 9 zl, outraty s ním včesle? 1zl 42x, tovaryšovi jeho 1 zl 30x. Za 23 libry železa štýrského v Hradci koupeného, na velký kola po 6x 2 zl. 18x 251/4 libry (následuje výčet dalších prací a materiálu – barvy, pozlacení, krov, dřevěné rámy atd celkem za 119 zl 5x).
 
 - 1708 – Mirovský hodinář dělal nový větrník, který se zlámal (2zl. 41 kr.) a také dělal zlámaný trieb (pastorek) (3zl. 38 kr.) (17. 1. 1708)
 
@@ -148,7 +148,7 @@ chronologický výpis z archivních dokumentů a hypotézy vzniku
 
 - **1939 – zlatník a hodinář Josef David po obhlídce stroje konstatuje podle stavby a předělávek hodin, že byly sestavené ještě před vynalezením kyvadla a že jsou starší než z roku 1676.**
 
-- **1957 - na čtvrťovém bicím stroji** (hřídel větrníku) **signovaná oprava:
+- **1957 - na čtvrťovém bicím stroji** (hřídel [větrníku](/slovnik/vetrnik)) **signovaná oprava:
     "Opraveno O.P.K. Soběslav Zedník B. Hořický Jar".**
 
 - **1959 – hodiny demontovány** a složeny v bývalé klenotnici věže. Při úklidu věže Aeroklubem, dohledány všechny součástky a tak stroj zachován kompletní.
