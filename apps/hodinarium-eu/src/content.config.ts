@@ -469,6 +469,22 @@ const soupisVeznichHodin = defineCollection({
     osmId: z.string().optional(),                   // např. "way/123456789"
     wikidataId: z.string().optional(),              // např. "Q12345"
 
+    /**
+     * Památkový katalog NPÚ (Národní památkový ústav) — strukturovaný
+     * odkaz pro budovy zapsané v Ústředním seznamu kulturních památek.
+     *
+     * `id`     — numerický identifikátor v URL (`https://www.pamatkovykatalog.cz/<slug>-<id>`)
+     * `slug`   — slugovaná část URL (volitelné, pro auto-konstrukci linku)
+     *
+     * URL pattern: `https://www.pamatkovykatalog.cz/<slug>-<id>`
+     * Příklad: id="3122498", slug="budova-celni-expozitury"
+     *          → https://www.pamatkovykatalog.cz/budova-celni-expozitury-3122498
+     */
+    pamatkovyKatalog: z.object({
+      id: z.string(),
+      slug: z.string().optional(),
+    }).optional(),
+
     /** Volný text (pro krátké poznámky; delší narativ jde do MDX body). */
     poznamka: z.string().optional(),
 
