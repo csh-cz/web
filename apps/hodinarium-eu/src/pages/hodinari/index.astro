@@ -55,7 +55,7 @@ const firmyByEra = groupByEra(firmy, true);   // sort podle celého názvu firmy
   ]} />
   <header class="max-w-3xl mb-10">
     <p class="eyebrow mb-4">Biografický rejstřík</p>
-    <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Hodináři</h1>
+    <h1 class="hero-title mb-5 hero-title-sm">Hodináři</h1>
     <p class="text-[var(--color-text)] leading-relaxed">
       Lidé a dílny, jejichž věžní stroje, mechanizmy a signatury najdete v článcích Hodinária.
       Rejstřík je <strong class="text-[var(--color-brass-bright)]">{hodinari.length}</strong> položkami
@@ -66,7 +66,7 @@ const firmyByEra = groupByEra(firmy, true);   // sort podle celého názvu firmy
   <section class="mb-16">
     <header class="mb-6">
       <p class="eyebrow mb-2">Osobnosti</p>
-      <h2 class="text-3xl" style="margin-top: 0;">Hodináři</h2>
+      <h2 class="text-3xl h2-flush">Hodináři</h2>
     </header>
     {[...osobyByEra.entries()].map(([era, list]) => (
       <div class="hodinar-era-group">
@@ -96,7 +96,7 @@ const firmyByEra = groupByEra(firmy, true);   // sort podle celého názvu firmy
   <section>
     <header class="mb-6">
       <p class="eyebrow mb-2">Firmy a dílny</p>
-      <h2 class="text-3xl" style="margin-top: 0;">Hodinářské podniky</h2>
+      <h2 class="text-3xl h2-flush">Hodinářské podniky</h2>
     </header>
     {[...firmyByEra.entries()].map(([era, list]) => (
       <div class="hodinar-era-group">

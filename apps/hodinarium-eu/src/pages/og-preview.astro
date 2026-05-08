@@ -20,7 +20,7 @@ const ukazky = ['astro2_NTP', 'sobeslav3', 'svarcvaldky', 'decin_koncepce']
   </header>
 
   <section class="mb-16">
-    <h2 class="text-2xl mb-6" style="margin-top: 0;">Bez Open Graph (jak vypadá staré <code>hodinarium.eu</code> dnes)</h2>
+    <h2 class="text-2xl mb-6 h2-flush">Bez Open Graph (jak vypadá staré <code>hodinarium.eu</code> dnes)</h2>
     <div class="og-mock og-mock-bare">
       <div class="og-mock-url">https://hodinarium.eu/clanky/astro2_NTP</div>
     </div>
@@ -31,7 +31,7 @@ const ukazky = ['astro2_NTP', 'sobeslav3', 'svarcvaldky', 'decin_koncepce']
 
   {ukazky.map((entry, idx) => (
     <section class="mb-16">
-      <h2 class="text-2xl mb-6" style="margin-top: 0;">Příklad {idx + 1}: <em>{entry.title}</em></h2>
+      <h2 class="text-2xl mb-6 h2-flush">Příklad {idx + 1}: <em>{entry.title}</em></h2>
 
       <div class="og-grid">
         <!-- Facebook / LinkedIn / Mastodon style -->
@@ -100,7 +100,7 @@ const ukazky = ['astro2_NTP', 'sobeslav3', 'svarcvaldky', 'decin_koncepce']
   ))}
 
   <section class="mb-16 bg-section">
-    <h2 class="text-2xl mb-4" style="margin-top: 0;">Jak to bude fungovat</h2>
+    <h2 class="text-2xl mb-4 h2-flush">Jak to bude fungovat</h2>
     <ol class="list-decimal pl-6 space-y-2 text-[var(--color-text)]">
       <li>Při <strong>každém buildu</strong> webu se pro každý článek (218 + sekce) vygeneruje vlastní 1200×630 PNG s titulem v Spectral Italic, brass paletou a obrázkem z článku.</li>
       <li>PNG se uloží do <code>/og/&lt;slug&gt;.png</code> (např. <code>/og/astro2_NTP.png</code>).</li>

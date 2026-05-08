@@ -70,6 +70,14 @@ prioritizaci ostatních FU (typicky odhalí redundance).
       spolkové slugy (`spolek`, `sponsor`, `stanovy`).
 - [ ] **`strip-dead-refs.ts` cleanup** — už ne aktuální, smazat.
 - [ ] **`raw/.DS_Store` gitignore** — měl by být v gitignore.
+- ~~**TD7 inline style duplicity → utility classes**~~ ✅ Hotovo.
+      28 inline `style=` atributů napříč 13 page souborech nahrazeno
+      3 utility classes v `global.css`:
+      - `.h2-flush` (margin-top: 0) — 17 výskytů
+      - `.hero-title-sm` (clamp 2.5/4.5rem) — 9 výskytů
+      - `.intro-text` (font-size: 0.95rem) — 2 výskyty
+      Mění globální typografický rytmus už lze řešit centrálně místo
+      14 odděleně.
 - [ ] **`build-image-index.ts` pro horologie-cz** — zatím jen
       hodinarium-eu; rozšířit na ~63 obrázků horologie-cz.
 - [ ] **`rehype-picture` `wrapInPicture: true`** — zapnout až po

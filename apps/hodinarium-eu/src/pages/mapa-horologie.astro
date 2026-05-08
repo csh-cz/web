@@ -103,13 +103,13 @@ for (const p of items) {
   ]} />
   <header class="max-w-3xl mb-10">
     <p class="eyebrow mb-4">Horologická mapa</p>
-    <h1 class="hero-title mb-5" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">Mapa horologie</h1>
+    <h1 class="hero-title mb-5 hero-title-sm">Mapa horologie</h1>
     <p class="text-[var(--color-text)] leading-relaxed">
       <strong class="text-[var(--color-brass-bright)]">{items.length}</strong> hodinářských
       zajímavostí — orlojů, muzeí, výroben a slavných hodin —
       v jedné mapě.
     </p>
-    <p class="text-[var(--color-text-soft)] leading-relaxed mt-3" style="font-size: 0.95rem;">
+    <p class="text-[var(--color-text-soft)] leading-relaxed mt-3 intro-text">
       Hledáš mapu konkrétně exponátů Hodinária? Otevři
       <a href="/mapa"><strong>Mapu exponátů a expozic</strong></a> —
       odkud pocházejí stroje ve sbírce + slavné orloje a expozice.
@@ -130,7 +130,7 @@ for (const p of items) {
   <div id="mapa-horologie" class="mapa-canvas" role="region" aria-label="Horologická mapa Evropy"></div>
 
   <section class="mt-12">
-    <h2 class="text-2xl mb-4" style="margin-top: 0;">Seznam položek</h2>
+    <h2 class="text-2xl mb-4 h2-flush">Seznam položek</h2>
     {[...byFolder.entries()].filter(([, list]) => list.length > 0).map(([f, list]) => (
       <details class={`folder-block folder-${folderColors[f] ?? 'soft'}`} open>
         <summary>
