@@ -119,6 +119,19 @@ export const hodinari: Hodinar[] = [
     era: 'baroko',
   },
   {
+    slug: 'engelbert-seige',
+    jmeno: 'Engelbert Seige',
+    aliasy: ['Seige', 'E. Seige', 'Engelbert Seyge'],
+    typ: 'osoba',
+    obdobi: '1737–1810',
+    mesto: 'Vídeň',
+    zeme: 'AT',
+    shrnuti:
+      'Vídeňský dvorní hodinář druhé poloviny 18. století. Autor monumentálních **astronomických hodin z roku 1791**, dnes národní kulturní památky v expozici [Národního technického muzea](https://www.ntm.cz/) v Praze-Holešovicích (NPÚ ID 1725889992). Stub medailon — biografická data a další atribuce zatím chybí, vyžadují archivní výzkum (NTM, Vídeňský dvorní archiv).',
+    relatedSlugs: ['1791-praha-ntm-seige-astronomicke-hodiny'],
+    era: 'baroko',
+  },
+  {
     slug: 'ludvik-hainz',
     jmeno: 'Ludvík Hainz',
     aliasy: ['Hainz', 'Heinz', 'L. Hainz', 'L.Hainz', 'Ludwig Hainz', 'LOUIS HAINZ'],
