@@ -483,6 +483,8 @@ const soupisVeznichHodin = defineCollection({
     pamatkovyKatalog: z.object({
       id: z.string(),
       slug: z.string().optional(),
+      /** NPÚ KatCislo (formát „1234567890" nebo „1234567890_0001"); získáno z geoportálu. */
+      npuKatCislo: z.string().optional(),
     }).optional(),
 
     /** Volný text (pro krátké poznámky; delší narativ jde do MDX body). */
