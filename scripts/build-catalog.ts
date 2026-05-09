@@ -171,11 +171,21 @@ async function main() {
 
     // Extract karta.vyrobce pokud existuje (typicky u sbírkových karet
     // s podsekce: 'karta'). Renderuje se jako kurzíva pod titulem v Card.
-    const kartaObj = (fm.karta as { vyrobce?: string } | undefined) ?? undefined;
+    const kartaObj = (fm.karta as { vyrobce?: string; datace?: string } | undefined) ?? undefined;
     const vyrobce =
       typeof kartaObj?.vyrobce === 'string' && kartaObj.vyrobce.trim().length > 0
         ? kartaObj.vyrobce.trim()
         : undefined;
+    /** Extract first 4-digit year (1300–2030) z `karta.datace` field —
+     *  tvar bývá „1868", „kolem 1850", „polovina 19. století — kolem 1930",
+     *  „přelom 17. a 18. století" (poslední vrátí null). Slouží jako
+     *  fallback do `year` heuristiky pro sbírkové karty (FU4 P2 audit). */
+    const datacovyRok: number | null = (() => {
+      const d = kartaObj?.datace;
+      if (typeof d !== 'string') return null;
+      const m = d.match(/\b(1[3-9]\d\d|20[0-3]\d)\b/);
+      return m ? parseInt(m[1], 10) : null;
+    })();
 
     // Tagy a searchKeywords pro Fuse.js fuzzy search.
     // Tagy: existující whitelist v `data/tags.json` — articles už jsou
@@ -204,12 +214,15 @@ async function main() {
       ...(podsekce ? { podsekce } : {}),
       thumbnail: fmThumb ?? extractFirstImage(body),
       excerpt: extractExcerpt(body),
-      // Frontmatter `year:` přepíše heuristiku (ručně opravený false-match
-       // z auditu, viz docs/audit-datace-*.md). `year: null` = explicit
-       // „článek nemá datovaný kontext, nezařazovat na časovou osu".
-       year: 'year' in fm
+      /* Year priorita:
+         1. `fm.year` explicit (přepis heuristiky z auditu, viz
+            docs/audit-datace-*.md). `year: null` = explicit „bez data".
+         2. `karta.datace` 4-digit číslo (sbírkové karty mají strukturovaný
+            field, na čas ose má přednost před extractYear heuristikou).
+         3. extractYear() heuristika z titulku + body (default). */
+      year: 'year' in fm
          ? (typeof fm.year === 'number' ? fm.year : null)
-         : extractYear((fm.title as string) ?? '', body),
+         : datacovyRok ?? extractYear((fm.title as string) ?? '', body),
       lastModified: lastModifiedISO,
       imageCount: countImages(body),
       wordCount: countWords(body),
