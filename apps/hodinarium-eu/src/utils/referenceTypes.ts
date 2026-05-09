@@ -34,7 +34,7 @@ export function pramenTooltip(type: string | undefined | null): string {
  *   https://www.wikidata.org/wiki/Q12019992 → "Q12019992"
  * Pokud URL neodpovídá vzoru `/wiki/<slug>`, vrací null.
  */
-export function extractWikiTitle(url: string | undefined): string | null {
+export function extractWikiTitle(url: string | null | undefined): string | null {
   if (!url) return null;
   const m = url.match(/\/wiki\/([^?#]+)/);
   if (!m) return null;
