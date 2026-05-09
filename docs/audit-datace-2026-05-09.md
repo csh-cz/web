@@ -1,21 +1,22 @@
 # Audit datace článků — podezřelé roky < 1500
 
-Vygenerováno 2026-05-09 skriptem `scripts/audit-datace.ts` (heuristika
-`extractYear` v `scripts/build-catalog.ts` najde **nejdřívější** 4místné
-číslo v rozmezí 1300–2030 v titulku + prvních 2000 znaků body).
+Vygenerováno 2026-05-09.
 
-Funkce předpokládá, že nejdřívější rok je nejpravděpodobněji historický
-kontext článku. U **11** článků extracted year < 1500.
+Heuristika `extractYear` v `scripts/build-catalog.ts` najde **nejdřívější**
+4místné číslo v rozmezí 1300–2030 v titulku + prvních 2000 znaků body. Frontmatter
+`year:` field a `karta.datace` přepisují heuristiku (commit 7098ed7 + návazný
+patch 2026-05-09).
+
+U **10** článků extracted year < 1500.
 Některé jsou skutečně středověké (Mikuláš z Kadaně 1410, Hanuš 1493 atd.),
 jiné mohou být false-match (technické číslo, ID, stránkování).
 
 David/Petr — pro každý článek rozhodněte:
 
 - **OK** = rok je správně, žádná akce
-- **FIX** = rok je false-match, doplnit explicitní `year:` field do
-  frontmatteru (přepíše heuristiku v `build-catalog.ts`) nebo upravit
-  text aby skutečný rok byl první výskyt
-- **REMOVE** = článek nemá rok (nepatří na časovou osu)
+- **FIX** = rok je false-match. Doplnit explicitní `year: 1492` do
+  frontmatteru (přepíše heuristiku).
+- **REMOVE** = článek nemá rok (nepatří na časovou osu) → `year: null`
 
 ## Podezřelé záznamy
 
@@ -26,15 +27,6 @@ David/Petr — pro každý článek rozhodněte:
 - **Soubor:** [content/hodinarium-eu/decin_velika_ves.md](content/hodinarium-eu/decin_velika_ves.md)
 - **Kontext (kde se 1340 objevuje):**
   > …hem husitských válek. Podle Dobroslava Líbala byl kostel vystavěn až kolem roku 1340. Sakristie měla být připojena až na konci 14. století. Kostel prošel renesanční…
-- **Rozhodnutí:** _OK / FIX / REMOVE — doplň_
-
-### `decin_chronulator` — rok **1353**
-
-- **Title:** Chronulátor
-- **Kategorie:** sbirka
-- **Soubor:** [content/hodinarium-eu/decin_chronulator.md](content/hodinarium-eu/decin_chronulator.md)
-- **Kontext (kde se 1353 objevuje):**
-  > …tor&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjfgoWq9ZXOAhUIKsAKHeGbB9cQ_AUICCgB&biw=1353&bih=652&dpr=0.9#imgrc=_)".  Podrobnější popis [https://bastlirna.hwkitchen.cz/r…
 - **Rozhodnutí:** _OK / FIX / REMOVE — doplň_
 
 ### `vez_Budislav` — rok **1357**
@@ -118,40 +110,44 @@ David/Petr — pro každý článek rozhodněte:
   > …**V** letech roce 1493-4 udělal pro město Jindřichův Hradec hodiny Jan Růže - mistr Hanuš, se kterým s…
 - **Rozhodnutí:** _OK / FIX / REMOVE — doplň_
 
+
 ---
 
 ## Předběžná doporučení (Claude, k revizi)
 
-Z kontextu odhaduji:
+Po patchi `karta.datace` fallbackem (build-catalog.ts) `decin_chronulator`
+(false-match 1353 z URL params) se vyřešil sám — heuristika ho našla
+jen kvůli slice(0, 2000) limitu, mimo range. Zbývá **10** záznamů:
 
 | Slug | Rok | Doporučení | Důvod |
 |---|---|---|---|
 | `decin_velika_ves` | 1340 | **OK** | Gotický kostel kolem 1340 — historicky validní |
-| `decin_chronulator` | 1353 | **FIX** | Číslo `1353` z Google search URL params (`biw=1353`), ne rok |
 | `vez_Budislav` | 1357 | **OK?** | První zmínka o vsi 1357 — relevantní k lokaci, ale samotný stroj je novější. Zvážit FIX na rok stroje. |
 | `kinsner-astronomicke-hodiny` | 1364 | **FIX** | Článek je o salonních hodinách 19. století; 1364 je rok Astrarium de Dondi (zmínka v intro) |
 | `muzeum_beyer_zurich` | 1364 | **FIX** | Muzeum hodin v Curychu (otevřené 1976); 1364 je datace exponátu (replika Astrarium) |
 | `muzeum_kadan_orloj` | 1410 | **OK** | Pocta Mikulášovi z Kadaně, spolutvůrci pražského orloje (kolem 1410) |
-| `literatura` | 1410 | **REMOVE** | Index literatury, ne datovaný článek — odstranit z časové osy |
+| `literatura` | 1410 | **REMOVE** | Index literatury, ne datovaný článek — odstranit z časové osy (`year: null`) |
 | `zvon_petr_pavel` | 1440 | **FIX** | `1440 kg` je původní hmotnost, ne rok. Zvon vysvěcen 1492. |
 | `prehled_zvonu` | 1440 | **FIX** | Stejně jako u Petr Pavel — `1440 kg` hmotnost. Přehled je o zvonech 1492+. |
 | `kalendar_rimsky` | 1465 | **FIX** | `1465` je počet dní římského čtyřletého cyklu, ne rok |
 | `kardasova_recice` | 1493 | **OK** | Mistr Hanuš dělal hodiny pro Jindřichův Hradec 1493–4 |
 
-**Souhrn:** 3 OK, 7 FIX, 1 REMOVE.
+**Souhrn:** 3 OK, 6 FIX (4× false-match z hmotnosti/cyklu/zmínky, 2× zmínka
+o Astrariu de Dondi), 1 REMOVE. Plus 1 OK? (Budislav — first mention vs
+stroj rok).
 
-**Jak provést FIX:**
+**Jak provést FIX (přidání explicit roku do MD frontmatteru):**
 
-1. Přidat do frontmatteru explicitní `year:` field se správným rokem
-   (přepíše heuristiku v `build-catalog.ts`).
-2. Nebo upravit `extractYear` aby ignoroval URL-like patterns
-   (`biw=`, `bih=`, `?q=` atd.) — to ošetří `decin_chronulator`.
-3. Pro `1440 kg` / `1465 dnů` — buď doplnit explicit `year:`,
-   nebo přepsat aby skutečný rok (1492 / 0001) byl první match.
+```yaml
+---
+title: "..."
+year: 1492        # přepíše heuristiku
+---
+```
 
 **Jak provést REMOVE:**
 
-Přidat `year: null` (explicit) do frontmatteru. Build-catalog respektuje
-explicit value (extractYear se nepustí) a TimeSlider/timeline článek
-přeskočí.
+```yaml
+year: null        # explicit „bez datace, vyloučit z časové osy"
+```
 
