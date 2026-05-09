@@ -224,14 +224,14 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
     <table class="soupis-table" id="soupis-table">
       <thead>
         <tr>
-          <th class="soupis-col-thumb" aria-label="Náhled" />
-          <th data-sort="rok" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Rok</th>
-          <th data-sort="hodinar" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Hodinář</th>
-          <th data-sort="misto" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Místo</th>
-          <th data-sort="budova" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Budova</th>
-          <th data-sort="kraj" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Kraj / Stát</th>
-          <th data-sort="stav" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Stav</th>
-          <th data-sort="krok" class="sortable" tabindex="0" role="columnheader" aria-sort="none">Krok</th>
+          <th class="soupis-col-thumb col-thumb" aria-label="Náhled" />
+          <th class="col-rok sortable" data-sort="rok" tabindex="0" role="columnheader" aria-sort="none">Rok</th>
+          <th class="col-hodinar sortable" data-sort="hodinar" tabindex="0" role="columnheader" aria-sort="none">Hodinář</th>
+          <th class="col-misto sortable" data-sort="misto" tabindex="0" role="columnheader" aria-sort="none">Místo</th>
+          <th class="col-budova sortable" data-sort="budova" tabindex="0" role="columnheader" aria-sort="none">Budova</th>
+          <th class="col-kraj sortable" data-sort="kraj" tabindex="0" role="columnheader" aria-sort="none">Kraj / Stát</th>
+          <th class="col-stav sortable" data-sort="stav" tabindex="0" role="columnheader" aria-sort="none">Stav</th>
+          <th class="col-krok sortable" data-sort="krok" tabindex="0" role="columnheader" aria-sort="none">Krok</th>
         </tr>
       </thead>
       <tbody>
@@ -266,25 +266,25 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
               data-krok-full={h.data.krok || ''}
               data-stav={h.data.stav}
             >
-              <td class="soupis-col-thumb">
+              <td class="soupis-col-thumb col-thumb">
                 {hero && <a href={`/soupis-veznich-hodin/${h.data.slug}/`} class="soupis-thumb-link"><img src={hero.src} alt={hero.alt ?? ''} loading="lazy" decoding="async" /></a>}
               </td>
-              <td><strong>{h.data.rok}</strong></td>
-              <td>
+              <td class="col-rok"><strong>{h.data.rok}</strong></td>
+              <td class="col-hodinar">
                 {h.data.hodinar ? (
                   <a href={`/hodinari/${h.data.hodinar}`}>{displayHodinar(h.data.hodinar)}</a>
                 ) : (
                   <span class="muted">{h.data.hodinarText || '—'}</span>
                 )}
               </td>
-              <td>
+              <td class="col-misto">
                 <a href={`/soupis-veznich-hodin/${h.data.slug}/`}>
                   {h.data.puvodniMisto.obec}
                 </a>
                 {h.data.puvodniMisto.cast && <span class="muted"> ({h.data.puvodniMisto.cast})</span>}
               </td>
-              <td>{h.data.puvodniMisto.budova || <span class="muted">—</span>}</td>
-              <td class="cell-region">
+              <td class="col-budova">{h.data.puvodniMisto.budova || <span class="muted">—</span>}</td>
+              <td class="col-kraj cell-region">
                 {h.data.puvodniMisto.zeme === 'CZ' && h.data.puvodniMisto.kraj ? (
                   <span class="region-kraj">{h.data.puvodniMisto.kraj}</span>
                 ) : h.data.puvodniMisto.zeme && h.data.puvodniMisto.zeme !== 'CZ' ? (
@@ -293,8 +293,8 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
                   <span class="muted">—</span>
                 )}
               </td>
-              <td><span class={`stav-badge ${stavTone[h.data.stav]}`} title={stavTooltip[h.data.stav]}>{stavLabel[h.data.stav]}</span></td>
-              <td><span class="muted">{h.data.krok || '—'}</span></td>
+              <td class="col-stav"><span class={`stav-badge ${stavTone[h.data.stav]}`} title={stavTooltip[h.data.stav]}>{stavLabel[h.data.stav]}</span></td>
+              <td class="col-krok"><span class="muted">{h.data.krok || '—'}</span></td>
             </tr>
           );
         })}
@@ -703,6 +703,23 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
       width: 38px;
       height: 38px;
     }
+  }
+
+  /* Mobile column hide — tabulka má 8 sloupců, na malých viewportech
+     se nevejde (FU3 P1, 2026-05-09). Postupně schováváme méně důležité
+     sloupce: krok, kraj, budova. Vždy zachovat: rok, hodinář, místo,
+     stav. Thumb skryjeme úplně až na <480 px (na 640+ je úzký a hezký). */
+  @media (max-width: 760px) {
+    .soupis-table .col-krok { display: none; }
+  }
+  @media (max-width: 600px) {
+    .soupis-table .col-kraj { display: none; }
+  }
+  @media (max-width: 480px) {
+    .soupis-table .col-budova,
+    .soupis-table .col-thumb { display: none; }
+    .soupis-table th, .soupis-table td { padding: 0.5rem 0.45rem; }
+    .soupis-table th { font-size: 0.78rem; }
   }
 
   .muted { color: var(--color-text-soft); opacity: 0.7; }
