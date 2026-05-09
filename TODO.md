@@ -174,6 +174,20 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       Plus: Sveltia config — `clanky` collection může zůstat
       `extension: md`, žádný split.
 
+- [ ] **A.12 MCP server pro hodinářskou terminologii a překlady**
+      (~4 working days, blueprint hotový — implementace odložená).
+      Standalone MCP server (`@csh-cz/mcp-horologie`), který vystaví
+      slovník + medailony + soupis + Zotero references jako tools
+      pro libovolného MCP klienta (Claude Desktop, Cursor, Continue).
+      Use cases: cs ↔ de/en/fr překlady s respektem k slovníkové
+      terminologii, generování skeletonu medailonu, terminology
+      lint článků autora-laika, sémantický corpus search, ISO 690
+      citace ze Zotera. **Kompletní design + 11 PBI ticketů** v
+      `docs/design-mcp-horologie-2026-05-09.md`. Implementaci pustit
+      až po stabilizaci hlavních DPR (DNS switch, A.11 MDX migrace,
+      T7 network graph). Read-only V1, write capabilities (PR draft
+      generation) jako V2.
+
 - ~~**T4 Lighthouse CI / Web Vitals**~~ ✅ Hotovo (commit pending).
       `@lhci/cli` v devDeps, `lighthouserc.json` config (8 URL napříč
       content typy), `.github/workflows/lighthouse.yml` post-deploy
