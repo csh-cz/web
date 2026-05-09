@@ -56,6 +56,13 @@ const CATEGORY_LABELS: Record<string, string> = {
   sbirka: 'Sbírka',
   projekty: 'DIY projekty',
   ostatni: 'Hodinárium',
+  // Per-collection eyebrows (z A.7 OG coverage rozšíření 2026-05-09):
+  hodinari: 'Medailon hodináře',
+  hodinari_firma: 'Hodinářská firma',
+  'soupis-veznich-hodin': 'Soupis věžních hodin',
+  slovnik: 'Hodinářský slovník',
+  kroky: 'Hodinový krok',
+  kronika: 'Kronika Hodinária',
 };
 
 function escapeXml(s: string): string {
@@ -234,6 +241,187 @@ interface CatalogEntry {
 }
 
 /**
+ * Velmi jednoduchý YAML frontmatter parser — extrahuje top-level
+ * scalar fields (`key: value`) a multi-line block (`key: |`) ze
+ * začátku MDX/MD souboru. Nedělá nested objekty ani arrays — pro
+ * OG generation potřebujeme jen plochá fields (title, slug, shrnuti,
+ * perex, definice, …).
+ */
+function parseFrontmatter(content: string): Record<string, string> {
+  const m = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+  if (!m) return {};
+  const fm: Record<string, string> = {};
+  const lines = m[1].split(/\r?\n/);
+  let i = 0;
+  while (i < lines.length) {
+    const line = lines[i];
+    // Match `key: value` na začátku (no leading spaces — ignoruje nested)
+    const kv = line.match(/^([a-zA-Z][a-zA-Z0-9_]*):\s*(.*)$/);
+    if (!kv) { i++; continue; }
+    const [, key, rawValue] = kv;
+    if (rawValue === '|' || rawValue === '|-' || rawValue === '>') {
+      // Multi-line block. Sbírej následující odsazené řádky.
+      const blockLines: string[] = [];
+      i++;
+      while (i < lines.length && /^\s+/.test(lines[i])) {
+        blockLines.push(lines[i].replace(/^\s+/, ''));
+        i++;
+      }
+      fm[key] = blockLines.join(' ').trim();
+      continue;
+    }
+    // Single-line scalar — strip quotes
+    let v = rawValue.trim();
+    if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) {
+      v = v.slice(1, -1);
+    }
+    fm[key] = v;
+    i++;
+  }
+  return fm;
+}
+
+/** Strip markdown formatting (bold, links, code) for OG description text. */
+function stripMarkdown(s: string): string {
+  return s
+    .replace(/\*\*([^*]+)\*\*/g, '$1') // bold
+    .replace(/\*([^*]+)\*/g, '$1')      // italic
+    .replace(/`([^`]+)`/g, '$1')        // code
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // links
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+async function loadHodinari(): Promise<OgPage[]> {
+  const dir = join(ROOT, 'content', 'hodinari');
+  const files = (await readdir(dir)).filter((f) => f.endsWith('.md') || f.endsWith('.mdx'));
+  const pages: OgPage[] = [];
+  for (const file of files) {
+    const content = await readFile(join(dir, file), 'utf-8');
+    const fm = parseFrontmatter(content);
+    if (!fm.title || !fm.slug) continue;
+    const obdobi = fm.obdobi ? ` (${fm.obdobi})` : '';
+    const mesto = fm.mesto ? `${fm.mesto}` : '';
+    const description = stripMarkdown(fm.shrnuti || '').slice(0, 220) +
+      (mesto && !fm.shrnuti?.includes(mesto) ? ` · ${mesto}` : '');
+    pages.push({
+      slug: fm.slug,
+      title: fm.title + obdobi,
+      description: description || mesto || undefined,
+      category: fm.typ === 'firma' ? 'hodinari_firma' : 'hodinari',
+      siteLabel: 'Hodinárium',
+    });
+  }
+  return pages;
+}
+
+async function loadSoupis(): Promise<OgPage[]> {
+  const dir = join(ROOT, 'content', 'soupis-veznich-hodin');
+  const files = (await readdir(dir)).filter((f) => f.endsWith('.md') || f.endsWith('.mdx'));
+
+  // Lookup pro slug → jméno hodináře (z hodinari.ts) pro display.
+  // Naivní regex parser hodinari.ts entries (slug + jmeno).
+  const hodinariTs = await readFile(join(ROOT, 'apps', 'hodinarium-eu', 'src', 'data', 'hodinari.ts'), 'utf-8');
+  const hodinariMap = new Map<string, string>();
+  const re = /slug:\s*'([^']+)',\s*\n\s*jmeno:\s*'([^']+)'/g;
+  let mm: RegExpExecArray | null;
+  while ((mm = re.exec(hodinariTs)) !== null) {
+    hodinariMap.set(mm[1], mm[2]);
+  }
+
+  const pages: OgPage[] = [];
+  for (const file of files) {
+    const content = await readFile(join(dir, file), 'utf-8');
+    const fm = parseFrontmatter(content);
+    if (!fm.slug) continue;
+    // Title je v souboru v puvodniMisto (nested) — nemůžeme z naivního parseru
+    // dostat. Použijeme heuristiku z slug: `<rok>-<obec>-<hodinar?>`.
+    // Ale pro krásu zkusíme extrahovat 'budova' řádku ručně.
+    const budovaMatch = content.match(/^\s+budova:\s*"?([^"\n]+?)"?\s*$/m);
+    const obecMatch = content.match(/^\s+obec:\s*"?([^"\n]+?)"?\s*$/m);
+    const castMatch = content.match(/^\s+cast:\s*"?([^"\n]+?)"?\s*$/m);
+    const budova = budovaMatch?.[1]?.trim();
+    const obec = obecMatch?.[1]?.trim() || '';
+    const cast = castMatch?.[1]?.trim() || '';
+    const rok = fm.rok || '?';
+    const lokace = [obec, cast].filter(Boolean).join(' – ');
+    const titleParts = [budova, lokace].filter(Boolean);
+    const title = titleParts.length > 0 ? titleParts.join(', ') : fm.slug;
+    const yearLabel = rok && rok !== '?' ? `Rok ${rok}` : 'Datace neznámá';
+    const hodinarName = fm.hodinar ? hodinariMap.get(fm.hodinar) || fm.hodinar : '';
+    const hodinarLine = hodinarName ? `, ${hodinarName}` : (fm.hodinarText ? `, ${fm.hodinarText}` : '');
+    pages.push({
+      slug: fm.slug,
+      title: title.slice(0, 100),
+      description: `${yearLabel}${hodinarLine}`.slice(0, 200),
+      category: 'soupis-veznich-hodin',
+      siteLabel: 'Hodinárium',
+    });
+  }
+  return pages;
+}
+
+async function loadSlovnik(): Promise<OgPage[]> {
+  const dir = join(ROOT, 'content', 'slovnik');
+  const files = (await readdir(dir)).filter((f) => f.endsWith('.md') || f.endsWith('.mdx'));
+  const pages: OgPage[] = [];
+  for (const file of files) {
+    const content = await readFile(join(dir, file), 'utf-8');
+    const fm = parseFrontmatter(content);
+    if (!fm.title || !fm.slug) continue;
+    pages.push({
+      slug: fm.slug,
+      title: fm.title,
+      description: stripMarkdown(fm.definice || '').slice(0, 220),
+      category: 'slovnik',
+      siteLabel: 'Hodinárium',
+    });
+  }
+  return pages;
+}
+
+async function loadKronika(): Promise<OgPage[]> {
+  const dir = join(ROOT, 'content', 'kronika');
+  const files = (await readdir(dir)).filter((f) => f.endsWith('.md') || f.endsWith('.mdx'));
+  const pages: OgPage[] = [];
+  for (const file of files) {
+    const content = await readFile(join(dir, file), 'utf-8');
+    const fm = parseFrontmatter(content);
+    if (!fm.title || !fm.slug) continue;
+    const datum = fm.date || fm.rok || '';
+    const misto = fm.misto || '';
+    const descParts = [datum, misto, fm.typ].filter(Boolean);
+    pages.push({
+      slug: fm.slug,
+      title: fm.title,
+      description: descParts.join(' · ').slice(0, 220),
+      category: 'kronika',
+      siteLabel: 'Hodinárium',
+    });
+  }
+  return pages;
+}
+
+async function loadKroky(): Promise<OgPage[]> {
+  const dir = join(ROOT, 'content', 'kroky');
+  const files = (await readdir(dir)).filter((f) => f.endsWith('.md') || f.endsWith('.mdx'));
+  const pages: OgPage[] = [];
+  for (const file of files) {
+    const content = await readFile(join(dir, file), 'utf-8');
+    const fm = parseFrontmatter(content);
+    if (!fm.title || !fm.slug) continue;
+    pages.push({
+      slug: fm.slug,
+      title: fm.title,
+      description: stripMarkdown(fm.perex || '').slice(0, 220),
+      category: 'kroky',
+      siteLabel: 'Hodinárium',
+    });
+  }
+  return pages;
+}
+
+/**
  * Smaže OG soubory pro slugy, které už neexistují v aktuální sadě
  * (např. po smazání článku). Idempotentní — nedělá nic, pokud
  * složka neexistuje nebo už je čistá.
@@ -292,7 +480,7 @@ async function main() {
     { slug: 'en', title: 'About Hodinárium', description: 'English summary — Czech Horological Society webová expozice', siteLabel: 'Hodinárium' },
   ];
 
-  // Per článek
+  // Per článek (clanky collection — `content/hodinarium-eu/`)
   for (const entry of catalog) {
     hodinariumPages.push({
       slug: entry.slug,
@@ -301,6 +489,43 @@ async function main() {
       category: entry.category,
       siteLabel: 'Hodinárium',
     });
+  }
+
+  // Per medailon hodináře / firmy (`content/hodinari/`)
+  const hodinariPages = await loadHodinari();
+  hodinariumPages.push(...hodinariPages);
+  console.log(`  + ${hodinariPages.length} medailonů z content/hodinari/`);
+
+  // Per karta soupisu věžních hodin (`content/soupis-veznich-hodin/`)
+  const soupisPages = await loadSoupis();
+  hodinariumPages.push(...soupisPages);
+  console.log(`  + ${soupisPages.length} karet z content/soupis-veznich-hodin/`);
+
+  // Per heslo slovníku (`content/slovnik/`)
+  const slovnikPages = await loadSlovnik();
+  hodinariumPages.push(...slovnikPages);
+  console.log(`  + ${slovnikPages.length} hesel z content/slovnik/`);
+
+  // Per detail hodinového kroku (`content/kroky/`)
+  const krokyPages = await loadKroky();
+  hodinariumPages.push(...krokyPages);
+  console.log(`  + ${krokyPages.length} detailů z content/kroky/`);
+
+  // Per záznam v kronice (`content/kronika/`)
+  const kronikaPages = await loadKronika();
+  hodinariumPages.push(...kronikaPages);
+  console.log(`  + ${kronikaPages.length} záznamů z content/kronika/`);
+
+  // Sanity check — duplicate slug detection (top-level vs catalog vs collections).
+  // Při kolizi by `pruneStaleOg` smazalo "duplikát" v dalším runu.
+  const seen = new Set<string>();
+  const duplicates: string[] = [];
+  for (const p of hodinariumPages) {
+    if (seen.has(p.slug)) duplicates.push(p.slug);
+    seen.add(p.slug);
+  }
+  if (duplicates.length > 0) {
+    console.warn(`  ⚠ Duplicitní slugy (poslední vyhrává): ${duplicates.join(', ')}`);
   }
 
   console.log(`Generuji OG image pro Hodinárium (${hodinariumPages.length} stránek)…`);
