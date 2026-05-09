@@ -2,7 +2,7 @@
 title: '"Vynucená" modernizace hodin FLIP CLOCK SOLARI UDINE SPECIAL EDITION Arduinem'
 slug: Arduino_Solari
 category: projekty
-tldr: Článek popisuje náhradu původní elektroniky hodin,  novou elektronikou na bázi ESP8266. Bonusem je použití času z NTP serveru a synchronizace ukazatelů v 00:00.
+tldr: Článek popisuje náhradu původní elektroniky hodin,  novou elektronikou na bázi ESP8266. Bonusem je použití času z NTP serveru a synchronizace ukazatelů v 0:00.
 author: Petr Král
 searchKeywords:
   - Arduino, ESP8266
