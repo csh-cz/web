@@ -28,6 +28,8 @@
  *     extra:
  *       - { label: "Inventární číslo", value: "ČSH-S-042" }
  */
+import { linkSlovnikTermy } from '../utils/slovnik-link';
+
 interface KartaExtra {
   label: string;
   value: string;
@@ -147,7 +149,10 @@ const items: Array<{ label: string; value: string }> = [
       {items.map((it) => (
         <div class="karta-sbirky-row">
           <dt>{it.label}</dt>
-          <dd>{it.value}</dd>
+          {/* linkSlovnikTermy escapuje HTML a doplní <a> linky pro
+              první výskyt slovníkového termínu (kotva, kyvadlo,
+              čtvrťové bití, …) — laik klikne a dostane výklad. */}
+          <dd set:html={linkSlovnikTermy(it.value)} />
         </div>
       ))}
     </dl>

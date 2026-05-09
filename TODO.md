@@ -100,13 +100,13 @@ Užitečné jako vstup pro další konkrétní fixy.
       souradnicePribl visual signal). Použít jako vstup pro další
       konkrétní fixy.
 - ~~**FU4 Design critique — sbírková karta**~~ ✅ Hotovo
-      (commit pending). Report `docs/design-critique-sbirkova-karta-2026-05-09.md`
-      — 7 prioritizovaných doporučení (P1: slovník auto-link
-      v KartaSbirky pro laika; P2: vyrobce auto-link na medailon,
-      karta.datace → catalog year, restauratorske zasahy timeline,
-      print stylesheet pro `<dl>`; P3: section subheads, conditional
-      drop-cap). Print check OK pro globální layout, ale per-komponenta
-      `<dl>` v print needs work.
+      (commit pending). Report `docs/design-critique-sbirkova-karta-2026-05-09.md`.
+      P1 (slovník auto-link v KartaSbirky pro laika) **rovnou
+      implementováno** — nový `utils/slovnik-link.ts` s 25+ termíny
+      (kyvadlo, setrvačka, čtvrťové bití, invar, …), KartaSbirky
+      `<dd>` hodnoty teď linkují první výskyt → výklad ve slovníku.
+      Ostatní P2/P3 doporučení (vyrobce link, datace, timeline,
+      print stylesheet) zůstávají v auditu jako follow-up tickety.
 - [ ] **FU5 Design system audit (cross-site)** (~40 min) — drift
       hodinarium-eu × horologie-cz: tokeny, komponenty (Card), footer
       patterns, button styles. **Pustit až po stabilizaci obou webů**
