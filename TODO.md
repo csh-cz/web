@@ -121,13 +121,16 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       (`attachDialogControls()` helper). Nejnáročnější — ~1–2 h.
       Ideálně po VoiceOver test. Komponenta:
       `apps/hodinarium-eu/src/components/SearchModal.astro`.
-- [ ] **M6: Report form `<input readonly tabindex="-1">` → `<output>`**
-      — readonly+tabindex je OK funkčně, ale SR čte „form input"; lepší
-      `<output>` element. `ReportIssueModal.astro:57`.
-- [ ] **N1–N4 hygienické fixy (bundle)** — `aria-modal="true"` na
-      `<dialog>`, `aria-live` na `.report-counter`, `role="alert"`
-      v error stavu `.report-status`, `<h4>` v map popup → `<strong>`
-      (heading hierarchy).
+- ~~**M6: Report form `<input readonly tabindex="-1">` → `<output>`**~~
+      ✅ Hotovo (commit e519e7e). `ReportIssueModal.astro` page-info
+      field je nyní `<output>` element s `role="status"` implicit.
+- ~~**N1–N4 hygienické fixy (bundle)**~~ ✅ Hotovo (commit e519e7e).
+      N1: aria-modal="true" na 3 dialog elementech (search + report
+      v hodinarium-eu, lightbox v horologie-cz akce). N2: aria-live
+      polite + aria-atomic na #report-counter. N3: dynamický role
+      mezi status/alert v .report-status (helper setStatus). N4:
+      `<h4>` → `<strong>` v map popups (mapa-horologie + horologie-cz
+      akce cluster), CSS migrace `.popup-name`.
 
 ## A.6 — Tech features (větší práce)
 
@@ -212,10 +215,14 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       → `author:` frontmatter, wiki/mapa odkazy → `references:`,
       `<Photo>` místo `![]()` u obrázků s creditem. Pravidla v skill
       `clanky-konvence` sekce 18. Postupně při dotyku článku.
-- [ ] **D5 datace + B5/D4 audit script** — vygenerovat report
-      14 podezřelých roků < 1500 (heuristika z lastModified vs filename
-      rok), předat Davidovi/Petrovi k ručnímu rozhodnutí. Claude nemůže
-      rozhodnout bez kontextu, ale může připravit analýzu.
+- ~~**D5 datace + B5/D4 audit script**~~ ✅ Hotovo (commit pending).
+      Report `docs/audit-datace-2026-05-09.md` — 11 podezřelých článků
+      s `year < 1500` (catalog.json heuristic). Pro každý: kontext kde
+      se rok objevuje, předběžné Claude doporučení (3 OK, 7 FIX, 1
+      REMOVE) k revizi. Bonus: `build-catalog.ts` respektuje explicit
+      `year:` field z frontmatteru → David/Petr může FIX prostě přidat
+      `year: 1492` (pro zvon) nebo `year: null` (pro literatura) bez
+      úpravy textu. Předáno Davidovi/Petrovi k rozhodnutí (B5).
 - [ ] **Skript pro auto-import fotek z ZIP** — rozzipovat → přejmenovat
       → doplnit data file. Naprogramovat až bude první ZIP od Petra.
 
