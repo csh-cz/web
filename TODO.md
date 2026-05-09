@@ -102,12 +102,13 @@ Užitečné jako vstup pro další konkrétní fixy.
       jako follow-up.
 - ~~**FU4 Design critique — sbírková karta**~~ ✅ Hotovo
       (commit pending). Report `docs/design-critique-sbirkova-karta-2026-05-09.md`.
-      P1 (slovník auto-link v KartaSbirky pro laika) **rovnou
-      implementováno** — nový `utils/slovnik-link.ts` s 25+ termíny
-      (kyvadlo, setrvačka, čtvrťové bití, invar, …), KartaSbirky
-      `<dd>` hodnoty teď linkují první výskyt → výklad ve slovníku.
-      Ostatní P2/P3 doporučení (vyrobce link, datace, timeline,
-      print stylesheet) zůstávají v auditu jako follow-up tickety.
+      **P1 (slovník auto-link)** + **P2 (vyrobce auto-link na medailon
+      hodináře)** rovnou implementovány. Nový `utils/slovnik-link.ts`
+      s 25+ termíny + integrace `findHodinarFromVyrobce` do KartaSbirky
+      pro `vyrobce` a `signatura` fields. Karty teď linkují
+      slovníkové termíny (kyvadlo, čtvrťové bití, invar, …) i jméno
+      hodináře na medailon. Ostatní P2/P3 (datace fallback, timeline,
+      print stylesheet) zůstávají v auditu jako follow-up.
 - [ ] **FU5 Design system audit (cross-site)** (~40 min) — drift
       hodinarium-eu × horologie-cz: tokeny, komponenty (Card), footer
       patterns, button styles. **Pustit až po stabilizaci obou webů**

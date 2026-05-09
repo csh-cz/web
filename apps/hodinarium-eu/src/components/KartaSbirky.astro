@@ -29,6 +29,7 @@
  *       - { label: "Inventární číslo", value: "ČSH-S-042" }
  */
 import { linkSlovnikTermy } from '../utils/slovnik-link';
+import { findHodinarFromVyrobce } from '../utils/findHodinarFromVyrobce';
 
 interface KartaExtra {
   label: string;
@@ -134,13 +135,71 @@ const puvodniUmisteniText = karta.puvodniUmisteni
   ? formatPuvodniUmisteni(karta.puvodniUmisteni)
   : '';
 
-const items: Array<{ label: string; value: string }> = [
+/** Pole, ve kterých je užitečné auto-link na medailon hodináře —
+ *  obvykle obsahují jméno výrobce/signatury. Render obalí matched
+ *  část v `<a href="/hodinari/<slug>">`. */
+const HODINAR_LINK_FIELDS = new Set<keyof Karta>(['vyrobce', 'signatura']);
+
+interface Item {
+  label: string;
+  value: string;
+  /** Jméno hodináře pro auto-link, pokud bylo nalezeno v hodnotě
+   *  v polích vyrobce/signatura. */
+  hodinarLink?: { slug: string; jmeno: string };
+}
+
+const items: Item[] = [
   ...standardFields
-    .map(({ key, label }) => ({ label, value: normalize(karta[key]) }))
+    .map<Item>(({ key, label }) => {
+      const value = normalize(karta[key]);
+      if (!value) return { label, value: '' };
+      const hodinarLink = HODINAR_LINK_FIELDS.has(key)
+        ? findHodinarFromVyrobce(value) ?? undefined
+        : undefined;
+      return { label, value, hodinarLink };
+    })
     .filter(({ value }) => value.length > 0),
   ...(puvodniUmisteniText ? [{ label: 'Původní umístění', value: puvodniUmisteniText }] : []),
   ...(karta.extra ?? []).filter((e) => e.value && e.value.trim().length > 0),
 ];
+
+/** Vyrobí HTML hodnoty `<dd>`. Strategie:
+ *  - Pokud field měl hodinář-match → najde první výskyt jména v textu
+ *    (case-insensitive) a obalí ho v `<a href="/hodinari/<slug>">`.
+ *    Zbytek textu projde slovník auto-linkem.
+ *  - Jinak → jen slovník auto-link.
+ *  Vyhne se nested `<a>` (HTML invalidní): wrap je jen partial, ne celé dd.
+ */
+function renderItemHtml(it: Item): string {
+  if (!it.hodinarLink) return linkSlovnikTermy(it.value);
+  // Najdi první výskyt jména (case-insensitive). Pak escapuj části
+  // okolo a slovník-linkuj.
+  const jmeno = it.hodinarLink.jmeno;
+  const haystack = it.value;
+  const idx = haystack.toLowerCase().indexOf(jmeno.toLowerCase());
+  if (idx < 0) {
+    // Match byl přes alias, ne přes jmeno — fallback: wrap celý value
+    // v `<a>` (escapovaný), bez slovník linků (nesmí být nested <a>).
+    const escaped = haystack
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+    return `<a href="/hodinari/${it.hodinarLink.slug}">${escaped}</a>`;
+  }
+  const before = haystack.slice(0, idx);
+  const matched = haystack.slice(idx, idx + jmeno.length);
+  const after = haystack.slice(idx + jmeno.length);
+  // Slovník-link aplikujeme jen na before/after, ne na anchor text.
+  const escMatched = matched
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+  return (
+    linkSlovnikTermy(before) +
+    `<a href="/hodinari/${it.hodinarLink.slug}">${escMatched}</a>` +
+    linkSlovnikTermy(after)
+  );
+}
 ---
 {items.length > 0 && (
   <aside class="karta-sbirky" aria-label="Popisná karta exponátu">
@@ -149,10 +208,11 @@ const items: Array<{ label: string; value: string }> = [
       {items.map((it) => (
         <div class="karta-sbirky-row">
           <dt>{it.label}</dt>
-          {/* linkSlovnikTermy escapuje HTML a doplní <a> linky pro
-              první výskyt slovníkového termínu (kotva, kyvadlo,
-              čtvrťové bití, …) — laik klikne a dostane výklad. */}
-          <dd set:html={linkSlovnikTermy(it.value)} />
+          {/* renderItemHtml: pro vyrobce/signatura field obalí jméno
+              hodináře v `<a>` na medailon. Ostatní fieldy projdou
+              slovník auto-linkem (kyvadlo, čtvrťové bití, …). HTML
+              je vždy escapováno, žádné nested `<a>`. */}
+          <dd set:html={renderItemHtml(it)} />
         </div>
       ))}
     </dl>
