@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>CSH editor pomocníci — test stránka</title>
+    <style>
+      body {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 0 1rem 8rem;
+        font: 16px/1.5 ui-serif, Georgia, serif;
+        background: #1a1a1a;
+        color: #e8d8a8;
+      }
+      h1 {
+        color: #c9a85d;
+        font-weight: 500;
+      }
+      h2 {
+        color: #c9a85d;
+        font-size: 1.1rem;
+        margin-top: 2rem;
+      }
+      p,
+      li {
+        line-height: 1.6;
+      }
+      code {
+        background: #2a2a2a;
+        padding: 0.1rem 0.4rem;
+        border-radius: 0.2rem;
+        font-size: 0.9em;
+      }
+      kbd {
+        background: #2a2a2a;
+        border: 1px solid #444;
+        border-radius: 0.2rem;
+        padding: 0.05rem 0.4rem;
+        font-size: 0.85em;
+      }
+      textarea {
+        width: 100%;
+        min-height: 240px;
+        padding: 0.8rem 1rem;
+        background: #fafaf5;
+        color: #1a1a1a;
+        border: 1px solid #c9a85d;
+        border-radius: 0.4rem;
+        font: 15px/1.55 ui-serif, Georgia, serif;
+        resize: vertical;
+        margin: 0.5rem 0 1.5rem;
+      }
+      textarea:focus {
+        outline: 2px solid #c9a85d;
+        outline-offset: -1px;
+      }
+      .note {
+        background: #2a2a2a;
+        border-left: 3px solid #c9a85d;
+        padding: 0.6rem 1rem;
+        margin: 1rem 0;
+        font-size: 0.9rem;
+      }
+      .note strong {
+        color: #c9a85d;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSH editor pomocníci — testovací stránka</h1>
+
+    <p>
+      Tato stránka slouží pro lokální vývoj a smoke test
+      <strong>spell-checkeru</strong> a <strong>AI našeptávače</strong>
+      bez nutnosti přihlášení do Sveltia CMS (které volá GitHub OAuth +
+      Cloudflare Access proxy a v lokálním dev běhu obvykle nezadne).
+    </p>
+
+    <div class="note">
+      <strong>Tip:</strong> klikni vlevo dole na <kbd>⚙ Pomocníci</kbd> a
+      zapni co chceš testovat. Default vše OFF — žádný surprise. Po zapnutí
+      stáhne spell-checker ~6 MB cs Hunspell dict (jednorázově, cached
+      browser). AI vyžaduje běžící backend (lokálně Ollama přes wrangler
+      pages dev — viz <code>.dev.vars.example</code>).
+    </div>
+
+    <h2>Test 1 — spell-checker</h2>
+    <p>Napiš text s úmyslnými chybami nebo anglicismy:</p>
+    <textarea
+      id="t1"
+      placeholder="Zkuste napsat: Krokové kolo s kotvou Grahamova kroku spolu s balanc a vlasovou pružinkou."
+    >Krokové kolo s kotvou Grahamova kroku spolu s balanc a vlasovou pružinkou tvoří regulátor. Václav Krečmer dodal hodiny do Praha-Holešovic. Setrvačka je důležitá součástka.</textarea>
+
+    <p>
+      Po zapnutí spell-checkeru by se měly podtrhat: <strong>balanc</strong>
+      (anglicismus → správně „setrvačka", které je v slovníku),
+      <strong>pružinkou</strong> (slovo „vlasová pružinka" je nestandardní
+      forma, ale „pružinkou" by mělo být OK v cs dictu).
+    </p>
+    <p>
+      Slova která <strong>nesmí</strong> být podtržená:
+      <strong>Krečmer</strong> (custom CSH dict), <strong>setrvačka</strong>,
+      <strong>kotvou</strong>, <strong>kyvadlo</strong>, <strong>Holešovic</strong>.
+    </p>
+
+    <h2>Test 2 — AI našeptávač</h2>
+    <p>
+      Začni rozepsanou větu (bez tečky na konci) a zastavte na ~1.2 s.
+      AI by měla nabídnout pokračování jako <em>ghost-text</em>:
+    </p>
+    <textarea
+      id="t2"
+      placeholder="Začněte větu, např: „Mechanismus klidového kotvového kroku byl vynalezen "
+    ></textarea>
+    <p>
+      <kbd>Tab</kbd> přijme návrh, <kbd>Esc</kbd> odmítne. Status v pravém
+      dolním rohu ukáže stav (loading / suggesting / error).
+    </p>
+
+    <h2>Test 3 — long text (perf)</h2>
+    <p>Větší textarea pro test performance při delším textu:</p>
+    <textarea id="t3" rows="20" placeholder="Sem můžeš nahrát celý článek pro stress test"></textarea>
+
+    <h2>Diagnostika</h2>
+    <p>Otevři DevTools console (<kbd>F12</kbd>). Po zapnutí v Pomocnících uvidíš:</p>
+    <ul>
+      <li><code>[csh-spell] Loading nspell + cs_CZ Hunspell dict…</code></li>
+      <li><code>[csh-spell] Ready. Base cs dict + 1242 custom CSH words.</code></li>
+      <li><code>[csh-spell] Activated.</code></li>
+      <li><code>[csh-ai] Activated.</code> (po zapnutí AI)</li>
+    </ul>
+    <p>
+      Settings se ukládají v <code>localStorage['csh-editor-settings']</code>.
+      Reset: <code>localStorage.removeItem('csh-editor-settings')</code> v console.
+    </p>
+
+    <!-- CSH editor helpers — stejné scripty jako v admin/index.html.
+         Settings panel se zobrazí vlevo dole. -->
+    <script src="/admin/csh-editor-helpers.js"></script>
+    <script src="/admin/csh-spellchecker.js"></script>
+    <script src="/admin/csh-ai-naseptavac.js"></script>
+  </body>
+</html>
