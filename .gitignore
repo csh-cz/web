@@ -29,6 +29,8 @@ apps/*/.astro
 .env
 .env.local
 .env.*.local
+# Cloudflare Pages local dev secrets (wrangler pages dev)
+.dev.vars
 
 # Scraped raw HTML — celý adresář je pracovní, regenerable přes pnpm scrape:hodinarium
 raw/

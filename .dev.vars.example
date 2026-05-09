@@ -1,0 +1,17 @@
+# Local dev secrets pro `wrangler pages dev` (Cloudflare Pages Functions
+# runtime). Zkopíruj na `.dev.vars` (gitignored) a nastav skutečné
+# hodnoty. Wrangler je automaticky načte při `pnpm exec wrangler pages dev`.
+
+# ── AI našeptávač (functions/api/ai/suggest.ts) ────────────────────
+# Ollama lokální backend pro AI inline auto-complete. Pokud nastaveno,
+# přepíše Workers AI a volá lokální Ollama OpenAI-compatible API.
+#
+# Setup:
+#   brew install ollama   # mac (linux/win: https://ollama.com)
+#   ollama pull llama3.2:3b      # 2 GB, rychlý, OK cs
+#   ollama pull qwen2.5:7b       # 4.5 GB, lepší cs
+#   ollama pull mistral-nemo:12b # 7 GB, nejlepší multilingual
+#   ollama serve                  # běží na localhost:11434
+
+OLLAMA_URL=http://localhost:11434
+OLLAMA_MODEL=llama3.2:3b
