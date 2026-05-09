@@ -15,6 +15,7 @@
     "og:check:ci": "node scripts/check-og-coverage.mjs --ci",
     "lhci": "lhci autorun --config=lighthouserc.json",
     "imgindex:build": "tsx scripts/build-image-index.ts",
+    "spelldict:build": "node scripts/build-cs-spell-dictionary.mjs",
     "imgvariants:build": "tsx scripts/generate-image-formats.ts",
     "favicon:build": "tsx scripts/build-favicon.ts",
     "hodinari:detect": "tsx scripts/detect-hodinari-mentions.ts",

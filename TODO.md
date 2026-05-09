@@ -188,6 +188,33 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       T7 network graph). Read-only V1, write capabilities (PR draft
       generation) jako V2.
 
+- [ ] **A.13 Browser-side spell-checker pro Sveltia editor**
+      (~1.5–2 dny, **dictionary builder hotový**). Inject
+      hunspell-WASM nebo nspell knihovnu do Sveltia admin/index.html
+      s custom slovníkem (1242 slov ze slovníku + hodinari + soupis
+      obcí). Real-time check v editoru, žádný API call (privacy +
+      0 Kč). Hook do `<textarea>` / contenteditable elementů,
+      visual underline overlay pro non-matching tokeny.
+
+      **Hotovo:** dictionary builder skript
+      `scripts/build-cs-spell-dictionary.mjs` →
+      `apps/hodinarium-eu/public/admin/csh-spell-dict.json` (1242
+      unique slov, deterministic sort, regenerable přes
+      `pnpm spelldict:build`).
+
+      **Zbývá implementovat:**
+      1. Inject script v admin/index.html (lazy-load při otevření
+         editor, ~2 MB hunspell-wasm + cs base dict)
+      2. Hook do Sveltia editor textarea (MutationObserver pattern
+         podobně jako existing helper-banner script)
+      3. Tokenize body + check + visual overlay (CSS underline class)
+      4. CI workflow: rebuild dictionary při každém content commitu
+         (žádný drift mezi repo daty a dictionary)
+
+      Sister projekt: `terminology_lint` tool z A.12 MCP serveru
+      sdílí logiku „canonical form lookup" — postupně migrovat
+      do shared TS modulu po implementaci obou.
+
 - ~~**T4 Lighthouse CI / Web Vitals**~~ ✅ Hotovo (commit pending).
       `@lhci/cli` v devDeps, `lighthouserc.json` config (8 URL napříč
       content typy), `.github/workflows/lighthouse.yml` post-deploy
