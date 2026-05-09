@@ -1,0 +1,57 @@
+# Lighthouse CI (perf / a11y / best-practices / SEO) post-deploy gate.
+#
+# Spouští se po pushi do main, počká na Cloudflare Pages deploy a pustí
+# lhci proti živému pages.dev. Reportuje warning/error podle thresholdů
+# v `lighthouserc.json`. Reporty se uloží do temporary-public-storage
+# (lhci.app), URL v workflow logu.
+#
+# Scoring: performance ≥ 85 (warn), a11y ≥ 95 (error), bp ≥ 90 (warn),
+# seo ≥ 95 (error). A11y a SEO jsou hard gates — perf je informativní
+# (CF Pages cold start může variovat).
+
+name: Lighthouse CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '**.md'
+      - '**.mdx'
+      - 'BUGS.md'
+      - 'TODO.md'
+      - 'docs/**'
+      - 'tests/**'
+      - '.github/workflows/test.yml'
+      - '.github/workflows/og-coverage.yml'
+
+jobs:
+  lhci:
+    name: Lighthouse audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.9.0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # Cloudflare Pages dokončí deploy krátce po pushi. Buffer minimalizuje
+      # race s předchozím commitem.
+      - name: Wait for CF Pages deploy
+        run: sleep 60
+
+      - name: Run Lighthouse CI
+        run: pnpm exec lhci autorun --config=lighthouserc.json
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
