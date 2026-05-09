@@ -188,9 +188,10 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       T7 network graph). Read-only V1, write capabilities (PR draft
       generation) jako V2.
 
-- [ ] **A.13 Browser-side spell-checker pro Sveltia editor**
-      (~1.5–2 dny, **dictionary builder hotový**). Inject
-      hunspell-WASM nebo nspell knihovnu do Sveltia admin/index.html
+- ⚠ **A.13 Browser-side spell-checker pro Sveltia editor**
+      ~~(~1.5–2 dny)~~ **V1 implementováno (commit pending), čeká
+      na uživatelské testování v živé Sveltia.**
+      Inject nspell knihovnu do Sveltia admin/index.html
       s **cs_CZ base dictionary** (Hunspell cs_CZ se skloňováním —
       kyvadlu / kyvadlem / kyvadly atd. pro plnou českou morfologii)
       + custom CSH slovníkem (1242 slov ze slovníku + hodinari +
@@ -228,8 +229,10 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       sdílí logiku „canonical form lookup" — postupně migrovat
       do shared TS modulu po implementaci obou.
 
-- [ ] **A.14 AI našeptávač pro Sveltia editor** (~4 working days,
-      blueprint hotový — implementace odložená). Inline auto-complete
+- ⚠ **A.14 AI našeptávač pro Sveltia editor** ~~(~4 working days)~~
+      **V1 inline auto-complete implementováno (commit pending),
+      čeká na uživatelské testování + Workers AI binding v Pages
+      dashboardu.** Inline auto-complete
       (Copilot-style) + sidebar chat + post-save terminology lint
       + citation suggester. Modely: V1 Workers AI Llama 3.1 8B
       (zdarma, omezená cs kvalita) → V2 Anthropic Sonnet 4.5
