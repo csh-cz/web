@@ -215,13 +215,16 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
 - [ ] **D1 Test coverage** — Vitest setup pro `scripts/*.ts`
       (parse-soupis, build-redirects, apply-popisy, migrate-renumbering),
       snapshot testy pro layouty (~3 h).
-- ~~**OG images per-collection generation**~~ ✅ Hotovo (commit cfe898f).
-      Coverage 18.4 % → **100 %** (1095/1095). Loaders pro hodinari
-      (104), soupis-veznich-hodin (396), slovnik (57), kroky (1),
-      kronika (23). Bonus: pruneStaleOg odstranil 47 stale souborů
-      z M2 taxonomy refactoru 2026-04. Hodinář display name z
-      hodinari.ts lookupu (s diakritikou: „vaclav-krecmer" → „Václav
-      Krečmer" v description).
+- ~~**OG images per-collection generation**~~ ✅ Hotovo (commit cfe898f
+      + dnes Base.astro patch). Coverage 18.4 % → **100 %** (1095/1095).
+      Loaders pro hodinari (104), soupis-veznich-hodin (396), slovnik
+      (57), kroky (1), kronika (23). Bonus 1: pruneStaleOg odstranil
+      47 stale souborů z M2 taxonomy refactoru 2026-04. Bonus 2:
+      hodinář display name z hodinari.ts lookupu (s diakritikou).
+      **Bonus 3 (FU3 follow-up):** Base.astro `ogSlugFromPath` opraveno —
+      detail pages teď používají per-stránka OG (předtím všechny
+      detail v `/hodinari/X` měly default `/og/hodinari.png`,
+      ne per-osobu).
 - ~~**OG images do CI**~~ ✅ Hotovo (commit 0a85ecd). Workflow
       `og-coverage.yml` + `--ci` flag v `check-og-coverage.mjs`.
 - ~~**`build-image-index.ts` pro horologie-cz**~~ ✅ Hotovo (audit
