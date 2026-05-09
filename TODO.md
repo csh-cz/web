@@ -191,24 +191,37 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
 - [ ] **A.13 Browser-side spell-checker pro Sveltia editor**
       (~1.5–2 dny, **dictionary builder hotový**). Inject
       hunspell-WASM nebo nspell knihovnu do Sveltia admin/index.html
-      s custom slovníkem (1242 slov ze slovníku + hodinari + soupis
-      obcí). Real-time check v editoru, žádný API call (privacy +
-      0 Kč). Hook do `<textarea>` / contenteditable elementů,
-      visual underline overlay pro non-matching tokeny.
+      s **cs_CZ base dictionary** (Hunspell cs_CZ se skloňováním —
+      kyvadlu / kyvadlem / kyvadly atd. pro plnou českou morfologii)
+      + custom CSH slovníkem (1242 slov ze slovníku + hodinari +
+      soupis obcí). Real-time check v editoru, žádný API call
+      (privacy + 0 Kč). Hook do `<textarea>` / contenteditable
+      elementů, visual underline overlay pro non-matching tokeny.
+
+      **Primární cílový jazyk: čeština.** Custom dict drží jen cs
+      formy + historicky/citačně validní cizí jména (17 německých
+      jmen jako Schöpperle, Thöndel, München, Glashütte; žádné
+      překlady ze `prekladyEn`/`prekladyDe`/`prekladyFr` — ty patří
+      jen do překladového kontextu, ne do cs textu obecně).
 
       **Hotovo:** dictionary builder skript
       `scripts/build-cs-spell-dictionary.mjs` →
       `apps/hodinarium-eu/public/admin/csh-spell-dict.json` (1242
       unique slov, deterministic sort, regenerable přes
-      `pnpm spelldict:build`).
+      `pnpm spelldict:build`). Sources: 57 slovníkových hesel +
+      104 medailonů hodinářů + 104 entries v hodinari.ts +
+      396 záznamů soupisu (obec + budova + kraj).
 
       **Zbývá implementovat:**
       1. Inject script v admin/index.html (lazy-load při otevření
-         editor, ~2 MB hunspell-wasm + cs base dict)
+         editor, ~5 MB cs_CZ Hunspell .dic+.aff + ~700 KB hunspell-wasm
+         + ~50 KB CSH custom dict)
       2. Hook do Sveltia editor textarea (MutationObserver pattern
          podobně jako existing helper-banner script)
-      3. Tokenize body + check + visual overlay (CSS underline class)
-      4. CI workflow: rebuild dictionary při každém content commitu
+      3. Tokenize cs body + check (hunspell.spell + custom dict
+         fallback) + visual underline overlay (CSS class `csh-misspelled`)
+      4. Right-click suggestion menu (volitelně, V2)
+      5. CI workflow: rebuild dictionary při každém content commitu
          (žádný drift mezi repo daty a dictionary)
 
       Sister projekt: `terminology_lint` tool z A.12 MCP serveru
