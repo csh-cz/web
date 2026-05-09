@@ -9,6 +9,8 @@ import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
 import { stavLabel } from '../../data/labels';
+import { extractWikiTitle } from '../../utils/referenceTypes';
+import { formatCite, getRef } from '../../utils/cite';
 
 import type { CatalogEntry } from '../../data/catalog-types';
 
@@ -316,16 +318,39 @@ const personJsonLd = hodinar.typ === 'osoba'
         <section class="references" aria-labelledby="references-heading">
           <h2 id="references-heading" class="references-title">Literatura a odkazy</h2>
           <ul class="references-list">
-            {medailon.data.references.map((r) => (
-              <li class={`reference reference-${r.type ?? 'odkaz'}`}>
-                {r.author && <span class="ref-author">{r.author}:</span>}
-                {r.url
-                  ? <a href={r.url} rel="noopener" target="_blank">{r.title}</a>
-                  : <span class="ref-title">{r.title}</span>}
-                {r.year !== undefined && <span class="ref-year">({r.year})</span>}
-                {r.note && <span class="ref-note"> — {r.note}</span>}
-              </li>
-            ))}
+            {medailon.data.references.map((r) => {
+              // bibKey path: render přes citeproc + ISO 690 CSL ze SSOT.
+              const cslItem = r.bibKey ? getRef(r.bibKey) : null;
+              const formatted = r.bibKey ? formatCite(r.bibKey) : null;
+              if (formatted) {
+                return (
+                  <li class={`reference reference-${r.type ?? 'odkaz'}`}>
+                    <span class="ref-cite" set:html={formatted} />
+                    {r.note && <span class="ref-note"> — {r.note}</span>}
+                  </li>
+                );
+              }
+              // Title fallback: explicit r.title → cslItem.title → název
+              // článku z wiki URL → bibKey → URL doména.
+              const cslTitle = (cslItem?.title as string) || null;
+              const cslUrl = (cslItem?.URL as string) || (cslItem?.url as string) || null;
+              const url = r.url || cslUrl;
+              const title = r.title
+                || cslTitle
+                || (r.type === 'wiki' ? extractWikiTitle(url) : null)
+                || r.bibKey
+                || (url ? url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/.*$/, '') : 'odkaz');
+              return (
+                <li class={`reference reference-${r.type ?? 'odkaz'}`}>
+                  {r.author && <span class="ref-author">{r.author}:</span>}
+                  {url
+                    ? <a href={url} rel="noopener" target="_blank">{title}</a>
+                    : <span class="ref-title">{title}</span>}
+                  {r.year !== undefined && <span class="ref-year">({r.year})</span>}
+                  {r.note && <span class="ref-note"> — {r.note}</span>}
+                </li>
+              );
+            })}
           </ul>
         </section>
       )}

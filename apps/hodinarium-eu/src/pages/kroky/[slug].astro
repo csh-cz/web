@@ -6,6 +6,7 @@ import { kroky } from '../../data/kroky';
 import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
 import { formatCite, getRef } from '../../utils/cite';
+import { extractWikiTitle } from '../../utils/referenceTypes';
 
 import type { CatalogEntry } from '../../data/catalog-types';
 
@@ -155,11 +156,13 @@ const perex = detail?.data.perex;
                 );
               }
               // Branch 2: title-only fallback (mimo Zotero — historické patenty,
-              // aukční katalogy apod.)
-              if (r.title) {
+              // aukční katalogy apod.). Pokud je URL na wiki/Wikidata bez
+              // explicitního title, odvodíme název hesla z URL.
+              const fallbackTitle = r.title || extractWikiTitle(r.url);
+              if (fallbackTitle) {
                 return (
                   <li>
-                    <span class="krok-ref-title">{r.title}</span>
+                    <span class="krok-ref-title">{fallbackTitle}</span>
                     {r.url && (
                       <>
                         {' '}
