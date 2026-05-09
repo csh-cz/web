@@ -9,20 +9,27 @@
  *   - apps/hodinarium-eu/src/data/hodinari.ts → fallback pokud
  *     content/hodinari/<slug>.mdx neexistuje (stub-only hodináři)
  *
- * Kanonické cs formy + běžné anglické/německé varianty jmen (aliases).
- * Skloněné formy ze slovníku (kyvadlo / kyvadla / kyvadlu / kyvadlem)
- * jsou v `searchKeywords` a aliasech.
+ * **Primární cílový jazyk: čeština.** Slovník drží:
+ *   - cs kanonické formy (z titulu hesla, jmen, obcí)
+ *   - cs aliasy a skloněné formy (z searchKeywords / aliasy)
+ *   - historicky/citačně validní cizí jména (Schöpperle, Thöndel,
+ *     München, Glashütte) — jména osob a míst v cs textu OK
+ *
+ * **NE-zahrnuje:** překlady `prekladyEn` / `prekladyDe` / `prekladyFr`
+ * z slovníku — ty patří jen do překladového kontextu, ne do cs textu
+ * obecně (např. „balanc" z prekladyEn by neměl být akceptován v cs
+ * textu, kde je správně „setrvačka").
+ *
+ * Spell-checker použití:
+ *   - Base dict = cs_CZ Hunspell (s plnou českou morfologií)
+ *   - + tento custom JSON (CSH terminologie + jména) jako extension
  *
  * Output:
  *   apps/hodinarium-eu/public/admin/csh-spell-dict.json
  *     { version, generatedAt, sources, words: string[] }
  *
- * Spell-checker (browser-side) loaduje tento JSON, mergne s base cs_CZ
- * Hunspell dictionary, výsledek = kompletní cs slovník + CSH terminologie
- * + hodinařské aliasy.
- *
- * Idempotentní: pořadí slov je deterministické (sorted), commit diff
- * jen když data v repu skutečně změněna.
+ * Idempotentní: pořadí slov je deterministické (cs locale sort),
+ * commit diff jen když data v repu skutečně změněna.
  */
 import { readFile, readdir, writeFile, mkdir } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
