@@ -40,7 +40,7 @@
   </button>
 </div>
 
-<dialog id="report-issue-modal" aria-label="Nahlásit problém">
+<dialog id="report-issue-modal" aria-label="Nahlásit problém" aria-modal="true">
   <form id="report-issue-form" class="report-form" novalidate>
     <header class="report-form-header">
       <h2>Nahlásit problém</h2>
@@ -52,10 +52,10 @@
       stránky a krátká informace o prohlížeči se přidají automaticky.
     </p>
 
-    <label class="report-field">
+    <div class="report-field">
       <span class="report-label">Stránka</span>
-      <input type="text" id="report-page-info" readonly tabindex="-1" />
-    </label>
+      <output id="report-page-info" class="report-page-info" aria-label="Aktuální stránka"></output>
+    </div>
 
     <label class="report-field">
       <span class="report-label">Typ problému</span>
@@ -81,7 +81,7 @@
         maxlength="2000"
         placeholder="Co je špatně? Pokud možno cituj nebo popiš lokaci v textu."
       ></textarea>
-      <span class="report-counter" id="report-counter">0 / 2000</span>
+      <span class="report-counter" id="report-counter" aria-live="polite" aria-atomic="true">0 / 2000</span>
     </label>
 
     {/* Honeypot — skrytý anti-bot field. CSS skryje, browser autofill ho
@@ -211,10 +211,17 @@
     outline: none;
     border-color: var(--color-brass);
   }
-  .report-field input[readonly] {
+  .report-page-info {
+    background: var(--color-bg);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+    padding: 0.55rem 0.7rem;
     color: var(--color-text-muted);
-    cursor: default;
+    font-family: inherit;
     font-size: 0.85rem;
+    line-height: 1.4;
+    display: block;
+    overflow-wrap: anywhere;
   }
   .report-field textarea {
     resize: vertical;
@@ -331,7 +338,7 @@
     const form = document.getElementById('report-issue-form') as HTMLFormElement | null;
     if (!trigger || !dialog || !form) return;
 
-    const pageInfoEl = document.getElementById('report-page-info') as HTMLInputElement;
+    const pageInfoEl = document.getElementById('report-page-info') as HTMLOutputElement;
     const typeEl = document.getElementById('report-type') as HTMLSelectElement;
     const descEl = document.getElementById('report-description') as HTMLTextAreaElement;
     const counterEl = document.getElementById('report-counter') as HTMLElement;
@@ -347,10 +354,31 @@
     }
     descEl.addEventListener('input', updateCounter);
 
+    /** Nastav text + class statusu a přepne role mezi "alert" (errors,
+     *  okamžité ohlášení screen readerem) a "status" (success / neutrální
+     *  info, polite ohlášení). */
+    function setStatus(text: string, kind: 'success' | 'error' | 'reset', html = false) {
+      if (html) {
+        statusEl.innerHTML = text;
+      } else {
+        statusEl.textContent = text;
+      }
+      if (kind === 'error') {
+        statusEl.className = 'report-status is-error';
+        statusEl.setAttribute('role', 'alert');
+      } else if (kind === 'success') {
+        statusEl.className = 'report-status is-success';
+        statusEl.setAttribute('role', 'status');
+      } else {
+        statusEl.className = 'report-status';
+        statusEl.setAttribute('role', 'status');
+      }
+    }
+
     function fillCurrentPage() {
       const url = window.location.href;
       const title = document.title.replace(/\s—\sHodinárium$/, '');
-      pageInfoEl.value = title + '  ·  ' + url;
+      pageInfoEl.textContent = title + '  ·  ' + url;
       pageInfoEl.dataset.url = url;
       pageInfoEl.dataset.title = title;
     }
@@ -362,8 +390,7 @@
       closeBtns: [cancelBtn, closeBtn],
       onOpen: () => {
         fillCurrentPage();
-        statusEl.textContent = '';
-        statusEl.className = 'report-status';
+        setStatus('', 'reset');
         // Reset only popis + type, zachovej page info (aktuální stránka).
         descEl.value = '';
         typeEl.value = '';
@@ -377,20 +404,17 @@
 
     form.addEventListener('submit', async function (e) {
       e.preventDefault();
-      statusEl.textContent = '';
-      statusEl.className = 'report-status';
+      setStatus('', 'reset');
 
       const description = descEl.value.trim();
       const problemType = typeEl.value;
       if (description.length < 5) {
-        statusEl.className = 'report-status is-error';
-        statusEl.textContent = 'Popis problému musí mít alespoň 5 znaků.';
+        setStatus('Popis problému musí mít alespoň 5 znaků.', 'error');
         descEl.focus();
         return;
       }
       if (!problemType) {
-        statusEl.className = 'report-status is-error';
-        statusEl.textContent = 'Vyber typ problému.';
+        setStatus('Vyber typ problému.', 'error');
         typeEl.focus();
         return;
       }
@@ -414,28 +438,28 @@
         const data = await r.json().catch(function () { return {}; });
 
         if (r.ok && data.ok) {
-          statusEl.className = 'report-status is-success';
           if (data.issue && data.issue.url) {
-            statusEl.innerHTML =
+            setStatus(
               'Hlášení odesláno. Issue <a href="' + data.issue.url +
               '" target="_blank" rel="noopener">#' + data.issue.number + '</a> ' +
-              'bylo vytvořeno.';
+              'bylo vytvořeno.',
+              'success',
+              true,
+            );
           } else {
-            statusEl.textContent = 'Hlášení odesláno. Děkujeme!';
+            setStatus('Hlášení odesláno. Děkujeme!', 'success');
           }
           // Zavři po 4 s.
           setTimeout(function () {
             closeModal();
           }, 4000);
         } else {
-          statusEl.className = 'report-status is-error';
-          statusEl.textContent = data.error || 'Odeslání selhalo. Zkus to znovu později.';
+          setStatus(data.error || 'Odeslání selhalo. Zkus to znovu později.', 'error');
           submitBtn.classList.remove('is-loading');
           submitBtn.disabled = false;
         }
       } catch (err) {
-        statusEl.className = 'report-status is-error';
-        statusEl.textContent = 'Síťová chyba — zkontroluj připojení a zkus znovu.';
+        setStatus('Síťová chyba — zkontroluj připojení a zkus znovu.', 'error');
         submitBtn.classList.remove('is-loading');
         submitBtn.disabled = false;
       }
