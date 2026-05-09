@@ -166,9 +166,14 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       Plus: Sveltia config — `clanky` collection může zůstat
       `extension: md`, žádný split.
 
-- [ ] **T4 Lighthouse CI / Web Vitals** — `lhci/cli` v GitHub Actions
-      s baseline + threshold. Žádné performance budgety, není jasné
-      Core Web Vitals skóre (~2 h).
+- ~~**T4 Lighthouse CI / Web Vitals**~~ ✅ Hotovo (commit pending).
+      `@lhci/cli` v devDeps, `lighthouserc.json` config (8 URL napříč
+      content typy), `.github/workflows/lighthouse.yml` post-deploy
+      gate. Thresholdy: perf ≥ 0.85 (warn), a11y ≥ 0.95 (error),
+      bp ≥ 0.7 (warn — kvůli third-party cookies/scripts mimo naši
+      kontrolu), seo ≥ 0.95 (error). Skip `is-crawlable` (intentional
+      noindex před DNS switch — viz A.9). Baseline: home má perf
+      0.94, a11y 0.96, bp 0.74, seo 0.95+ (po skip).
 - ~~**S1 a11y audit — automatizace**~~ ✅ Hotovo (commit pending).
       `@axe-core/playwright` přidán; nový test
       `tests/smoke/axe-a11y.hodinarium.spec.ts` skenuje 11 reprezentativních

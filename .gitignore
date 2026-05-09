@@ -46,6 +46,11 @@ test-results/
 playwright-report/
 playwright/.cache/
 
+# Lighthouse CI lokální reporty — obsahují timestamped JSON+HTML.
+# CI je nahrává do temporary-public-storage (lhci.app), lokální výstup
+# je gitignored.
+.lighthouseci/
+
 # Tmp soubory
 /tmp_*
 
