@@ -12,6 +12,7 @@
     "redirects:hodinarium": "tsx scripts/build-redirects.ts",
     "og:build": "tsx scripts/build-og-images.ts",
     "og:check": "node scripts/check-og-coverage.mjs",
+    "og:check:ci": "node scripts/check-og-coverage.mjs --ci",
     "imgindex:build": "tsx scripts/build-image-index.ts",
     "imgvariants:build": "tsx scripts/generate-image-formats.ts",
     "favicon:build": "tsx scripts/build-favicon.ts",

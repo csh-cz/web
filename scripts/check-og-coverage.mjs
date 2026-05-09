@@ -24,6 +24,7 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const ROOT = join(dirname(__filename), '..');
 const JSON_ONLY = process.argv.includes('--json');
+const CI_MODE = process.argv.includes('--ci'); // exit !=0 pokud chybí OG
 
 const OG_DIR = join(ROOT, 'apps/hodinarium-eu/public/og');
 
@@ -202,5 +203,10 @@ if (orphans.length > 0) {
 
 console.log(`\nFull JSON report: ${outPath.replace(`${ROOT}/`, '')}`);
 
-// Exit kód: 0 always (read-only audit, ne CI gate)
+// Exit kód: default vždy 0 (read-only audit). S `--ci` flagem fail pokud
+// chybí OG — pro GitHub Actions gate ve workflow `og-coverage.yml`.
+if (CI_MODE && missing.length > 0) {
+  console.error(`\n✗ ${missing.length} chybějících OG image(s). Spusť \`pnpm og:build\` lokálně a commitni výsledek.`);
+  process.exit(1);
+}
 process.exit(0);

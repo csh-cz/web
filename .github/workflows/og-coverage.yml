@@ -1,0 +1,46 @@
+# OG image coverage gate.
+#
+# Verifikuje že všechny published články, karty, medailony, hesla, kroky
+# a kronika záznamy mají odpovídající `apps/hodinarium-eu/public/og/<slug>.png`.
+# Editor musí spustit `pnpm og:build` po přidání nového obsahu a commitnout
+# výsledek. Pokud zapomene, tato workflow PR/push fail.
+#
+# Spouští se na PR a push do main, pokud se mění content/* nebo build-og-images
+# script. Skip pro pure docs/TODO commity (nemají dopad na OG).
+
+name: OG image coverage
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'content/**'
+      - 'scripts/build-og-images.ts'
+      - 'scripts/check-og-coverage.mjs'
+      - 'apps/hodinarium-eu/public/og/**'
+  push:
+    branches: [main]
+    paths:
+      - 'content/**'
+      - 'scripts/build-og-images.ts'
+      - 'scripts/check-og-coverage.mjs'
+      - 'apps/hodinarium-eu/public/og/**'
+
+jobs:
+  check:
+    name: og:check --ci
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # check-og-coverage.mjs nemá runtime deps mimo Node std lib —
+      # žádné `pnpm install` ani pnpm setup, rychlejší CI (~30 s).
+
+      - name: Run OG coverage check
+        run: node scripts/check-og-coverage.mjs --ci
