@@ -388,6 +388,10 @@ const articleJsonLd = {
   }
   .hodinari-box-label {
     margin: 0 0 0.6rem;
+    /* Override .eyebrow color (--color-copper) — na hodinari-box BG mix
+       (#2f1d14) měla copper kontrast 4.4:1, pod WCAG AA 4.5:1 (axe report
+       2026-05-09). Brass je světlejší → ratio ~5:1, jasné. */
+    color: var(--color-brass);
   }
   .hodinari-box-list {
     list-style: none;
