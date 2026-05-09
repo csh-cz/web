@@ -127,15 +127,32 @@ const canonical = new URL(Astro.url.pathname, site).toString();
 // Pozn.: /clanky/* a legacy slugy jako /atlas, /decin jsou redirected
 // v public/_redirects, sem se nedostanou — tahle větev je jen pro
 // case kdy SSR projde na neznámou cestu.
+//
+// Pro kontent collections (sbirka/karta, hodinari, slovnik, kroky,
+// kronika, soupis-veznich-hodin, projekty, sbirka, virtualni-muzeum,
+// muzea, zajimavosti, konstrukce) detail page používá per-stránka OG
+// pokud existuje (build-og-images.ts generuje per-collection od commitu
+// cfe898f). Index page (např. /hodinari) používá kolekci-default.
+const COLLECTIONS_WITH_PER_PAGE_OG = new Set([
+  'sbirka', 'projekty', 'konstrukce', 'virtualni-muzeum', 'muzea', 'zajimavosti',
+  'hodinari', 'soupis-veznich-hodin', 'slovnik', 'kroky', 'kronika',
+]);
+
 function ogSlugFromPath(path: string): string {
   const p = path.replace(/\/$/, '').replace(/^\//, '');
   if (p === '' || p === 'index') return 'home';
   if (p.startsWith('clanky/')) return p.slice('clanky/'.length);
   if (p === 'clanky') return 'clanky';
-  // /sbirka, /projekty, /konstrukce, /muzea, /zajimavosti, /virtualni-muzeum,
-  // /hodinari, /kronika, /tagy, /mapa, /mapa-horologie, /expozice, /kroky,
-  // /casova-osa, /pro-navstevniky, /vice, /podpora, /licence, /en
-  return p.split('/')[0];
+  // /sbirka/karta/<slug> — karta detail (per-karta OG)
+  if (p.startsWith('sbirka/karta/')) return p.slice('sbirka/karta/'.length);
+  const segments = p.split('/');
+  // /<collection>/<slug> — detail page má per-page OG
+  if (segments.length >= 2 && COLLECTIONS_WITH_PER_PAGE_OG.has(segments[0])) {
+    return segments[segments.length - 1];
+  }
+  // Singleton routes (mapa, mapa-horologie, casova-osa, expozice, tagy,
+  // pro-navstevniky, vice, podpora, licence, en) → první segment.
+  return segments[0];
 }
 const slug = ogSlug ?? ogSlugFromPath(Astro.url.pathname);
 const ogImage = ogImageOverride
