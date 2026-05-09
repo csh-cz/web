@@ -25,6 +25,13 @@
       User klikne ručně "Sign in with GitHub" → popup → Worker → token.
     -->
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+
+    <!-- CSH editor helpers (settings panel + spell-checker + AI našeptávač).
+         Vše opt-in v UI panelu „⚙ Pomocníci" (vlevo dole). Default OFF —
+         uživatel zapne, co chce. Settings persistují v localStorage. -->
+    <script src="/admin/csh-editor-helpers.js"></script>
+    <script src="/admin/csh-spellchecker.js"></script>
+    <script src="/admin/csh-ai-naseptavac.js"></script>
     <script>
       // "← Zpět na web" trvalý overlay v rohu CMS.
       //

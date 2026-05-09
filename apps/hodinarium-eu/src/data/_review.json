@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-09T05:57:35.182Z",
+  "generatedAt": "2026-05-09T22:22:54.174Z",
   "summary": {
-    "kartyTotal": 290,
+    "kartyTotal": 292,
     "kartyNoTyp": 93,
-    "kartyNoThumb": 218,
-    "kartyNoVyrobce": 223,
+    "kartyNoThumb": 220,
+    "kartyNoVyrobce": 225,
     "kartyNoUmisteni": 41,
     "kartyPlaceholderTitle": 12,
-    "clankyNoTldr": 1,
-    "clankyShort": 58,
+    "clankyNoTldr": 2,
+    "clankyShort": 59,
     "clankyLegacyLinks": 57,
     "hodinariTotal": 104,
     "hodinariShort": 72,
@@ -1342,6 +1342,11 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-52-soustava-rozvodu-s-rafijemi"
       },
       {
+        "slug": "inv-53-model-prazskeho-orloje",
+        "title": "Orloj Hvězdárna Petřín",
+        "editUrl": "/admin/#/collections/karty/entries/inv-53-model-prazskeho-orloje"
+      },
+      {
         "slug": "inv-53-orloj-hvezdarna-petrin",
         "title": "Orloj Hvězdárna Petřín",
         "editUrl": "/admin/#/collections/karty/entries/inv-53-orloj-hvezdarna-petrin"
@@ -1405,6 +1410,11 @@
         "slug": "inv-66-cimbal-s-odbijenim",
         "title": "Cimbál s odbíjením",
         "editUrl": "/admin/#/collections/karty/entries/inv-66-cimbal-s-odbijenim"
+      },
+      {
+        "slug": "inv-67-orloj-hvezdarna-petrin",
+        "title": "Orloj Hvězdárna Petřín",
+        "editUrl": "/admin/#/collections/karty/entries/inv-67-orloj-hvezdarna-petrin"
       },
       {
         "slug": "inv-67-vezni-lissner",
@@ -2454,6 +2464,11 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-52-soustava-rozvodu-s-rafijemi"
       },
       {
+        "slug": "inv-53-model-prazskeho-orloje",
+        "title": "Orloj Hvězdárna Petřín",
+        "editUrl": "/admin/#/collections/karty/entries/inv-53-model-prazskeho-orloje"
+      },
+      {
         "slug": "inv-53-orloj-hvezdarna-petrin",
         "title": "Orloj Hvězdárna Petřín",
         "editUrl": "/admin/#/collections/karty/entries/inv-53-orloj-hvezdarna-petrin"
@@ -2507,6 +2522,11 @@
         "slug": "inv-66-cimbal-s-odbijenim",
         "title": "Cimbál s odbíjením",
         "editUrl": "/admin/#/collections/karty/entries/inv-66-cimbal-s-odbijenim"
+      },
+      {
+        "slug": "inv-67-orloj-hvezdarna-petrin",
+        "title": "Orloj Hvězdárna Petřín",
+        "editUrl": "/admin/#/collections/karty/entries/inv-67-orloj-hvezdarna-petrin"
       },
       {
         "slug": "inv-67-vezni-lissner",
@@ -2990,6 +3010,12 @@
     ],
     "clankyNoTldr": [
       {
+        "slug": "_test-draft-article",
+        "title": "Testovací draft článek",
+        "category": "zajimavosti",
+        "editUrl": "/admin/#/collections/clanky/entries/_test-draft-article"
+      },
+      {
         "slug": "podebrady4",
         "title": "Květinové hodiny v Poděbradech",
         "category": "virtualni-muzeum",
@@ -3010,6 +3036,13 @@
         "category": "virtualni-muzeum",
         "editUrl": "/admin/#/collections/clanky/entries/TimHunkin",
         "wordCount": 114
+      },
+      {
+        "slug": "_test-draft-article",
+        "title": "Testovací draft článek",
+        "category": "zajimavosti",
+        "editUrl": "/admin/#/collections/clanky/entries/_test-draft-article",
+        "wordCount": 25
       },
       {
         "slug": "betrisey",
