@@ -752,6 +752,10 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
   .stav-badge.tone-ok, .stav-badge.stav-mini-tone-ok { border-color: #4caf50; color: #4caf50; }
   .stav-badge.tone-info, .stav-badge.stav-mini-tone-info { border-color: #5b9dd9; color: #5b9dd9; }
   .stav-badge.tone-warn, .stav-badge.stav-mini-tone-warn { border-color: #d9a05b; color: #d9a05b; }
-  .stav-badge.tone-bad, .stav-badge.stav-mini-tone-bad { border-color: #b04848; color: #b04848; }
+  /* Audit C2 (a11y axe-a11y test 2026-05-09): #b04848 = 3.28:1 (FAIL AA)
+     na bg-elevated. Posunuto na #d97070 (≈ 5.4:1 ✅), shodné se stejným
+     fixem v hodinari/[slug].astro:680. Border-color zůstává sytější
+     #b04848 — okraj nemá WCAG požadavek na text contrast. */
+  .stav-badge.tone-bad, .stav-badge.stav-mini-tone-bad { border-color: #b04848; color: #d97070; }
   .stav-badge.tone-mute, .stav-badge.stav-mini-tone-mute { border-color: #888; color: #aaa; }
 </style>

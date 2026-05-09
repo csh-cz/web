@@ -330,7 +330,9 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
   .stav-in_situ { color: #4caf50; border-color: #4caf50; }
   .stav-preneseno { color: #5b9dd9; border-color: #5b9dd9; }
   .stav-ztracene { color: #d9a05b; border-color: #d9a05b; }
-  .stav-znicene { color: #b04848; border-color: #b04848; }
+  /* Audit C2 a11y: text #b04848 (3.28:1) → #d97070 (~5.4:1 AA pass).
+     Border zůstává sytější — okraj nemá WCAG text-contrast požadavek. */
+  .stav-znicene { color: #d97070; border-color: #b04848; }
   .stav-neznamy { color: #999; border-color: #999; }
 
   .souradnice { margin-top: 0.4rem; font-size: 0.9rem; }

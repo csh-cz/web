@@ -169,9 +169,17 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
 - [ ] **T4 Lighthouse CI / Web Vitals** — `lhci/cli` v GitHub Actions
       s baseline + threshold. Žádné performance budgety, není jasné
       Core Web Vitals skóre (~2 h).
-- [ ] **S1 a11y audit — automatizace** — `@axe-core/playwright` v
-      existujících e2e jako CI gate (~2 h). První ruční audit už
-      proběhl — `docs/a11y-audit-hodinarium-2026-05-08.md`.
+- ~~**S1 a11y audit — automatizace**~~ ✅ Hotovo (commit pending).
+      `@axe-core/playwright` přidán; nový test
+      `tests/smoke/axe-a11y.hodinarium.spec.ts` skenuje 11 reprezentativních
+      URL napříč všemi content typy (home, sbírka karta, hodinář medailon,
+      soupis karta, slovník heslo, kroky detail, …) na critical+serious
+      WCAG 2 AA violations. Auto-spuštění v existing test:e2e workflow.
+      Nalezené violations při baseline scanu opraveny (color-contrast
+      `--color-copper` na `.hodinari-box-label` → `--color-brass`,
+      `.stav-znicene` text `#b04848` → `#d97070` ve dvou souborech).
+      DISABLED rule `aria-required-attr` čeká na C3+C4+M2 SearchModal
+      refactor.
 - [ ] **T10 Dark / light mode** — hodinarium-eu používá brass dark téma
       (default), není přepínač. CSS custom properties + toggle (~3 h).
 - [ ] **T7 Network graph hodinařů** — `/hodinari/index.astro` jako
