@@ -311,12 +311,14 @@ for (const p of items) {
   :global(.leaflet-popup-content a) {
     color: var(--color-brass-bright);
   }
-  :global(.leaflet-popup-content h4) {
+  :global(.leaflet-popup-content .popup-name) {
     font-family: var(--font-serif);
-    color: var(--color-brass-bright);
     font-size: 1rem;
-    font-weight: 500;
     margin: 0 0 0.4em;
+  }
+  :global(.leaflet-popup-content .popup-name strong) {
+    color: var(--color-brass-bright);
+    font-weight: 500;
   }
   :global(.leaflet-popup-content .popup-folder) {
     font-size: 0.7rem;
@@ -343,7 +345,7 @@ for (const p of items) {
     font-size: 0.85rem;
     border-bottom: 1px dotted color-mix(in srgb, var(--color-brass) 50%, transparent);
   }
-  :global(.leaflet-popup-content h4 a) {
+  :global(.leaflet-popup-content .popup-name a) {
     color: var(--color-brass-bright);
     border-bottom: 1px dotted color-mix(in srgb, var(--color-brass) 40%, transparent);
     text-decoration: none;
@@ -434,7 +436,10 @@ for (const p of items) {
       nameHtml = p.name;
     }
 
-    let html = `<p class="popup-folder">${p.folder}</p><h4>${nameHtml}</h4>`;
+    // Popup name → <strong>, ne <h4> — popup není dokumentová hierarchická
+    // úroveň (mimo heading order ostatních elementů na stránce). Vizuál
+    // zachován v CSS na .popup-name.
+    let html = `<p class="popup-folder">${p.folder}</p><p class="popup-name"><strong>${nameHtml}</strong></p>`;
     if (safeHtml.length > 0) {
       html += `<div class="popup-desc">${safeHtml}</div>`;
     }

@@ -176,7 +176,7 @@ const dalsiMista = lokality.length > 3 ? `, a&nbsp;další ${lokality.length - 3
       // @ts-expect-error
       const m = L.marker([sk.lat, sk.lon], { icon, title: sk.akce[0].misto }).addTo(map);
       const html = `
-        <h4>${sk.akce[0].misto || 'Místo'}</h4>
+        <p class="popup-name"><strong>${sk.akce[0].misto || 'Místo'}</strong></p>
         <p><strong>${sk.akce.length}</strong> ${sk.akce.length === 1 ? 'akce' : sk.akce.length < 5 ? 'akce' : 'akcí'}</p>
         <ul style="list-style:none; padding:0; margin:0; max-height: 200px; overflow-y: auto;">
           ${sk.akce.sort((a, b) => b.rok - a.rok).map((a) => `<li><strong>${a.rok}</strong> · <a href="/akce/${a.slug}">${a.nazev}</a></li>`).join('')}
@@ -218,12 +218,14 @@ const dalsiMista = lokality.length > 3 ? `, a&nbsp;další ${lokality.length - 3
   .leaflet-popup-content a {
     color: var(--color-brass-bright);
   }
-  .leaflet-popup-content h4 {
+  .leaflet-popup-content .popup-name {
     font-family: var(--font-serif);
-    color: var(--color-brass-bright);
     font-size: 1rem;
-    font-weight: 500;
     margin: 0 0 0.4em;
+  }
+  .leaflet-popup-content .popup-name strong {
+    color: var(--color-brass-bright);
+    font-weight: 500;
   }
   .leaflet-popup-content p {
     margin: 0 0 0.4em;
