@@ -204,7 +204,12 @@ async function main() {
       ...(podsekce ? { podsekce } : {}),
       thumbnail: fmThumb ?? extractFirstImage(body),
       excerpt: extractExcerpt(body),
-      year: extractYear((fm.title as string) ?? '', body),
+      // Frontmatter `year:` přepíše heuristiku (ručně opravený false-match
+       // z auditu, viz docs/audit-datace-*.md). `year: null` = explicit
+       // „článek nemá datovaný kontext, nezařazovat na časovou osu".
+       year: 'year' in fm
+         ? (typeof fm.year === 'number' ? fm.year : null)
+         : extractYear((fm.title as string) ?? '', body),
       lastModified: lastModifiedISO,
       imageCount: countImages(body),
       wordCount: countWords(body),
