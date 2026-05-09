@@ -92,15 +92,21 @@ Užitečné jako vstup pro další konkrétní fixy.
       EN enthusiast). Hero text register, CTA (chybí „Naplánuj
       návštěvu"?), featured grid × random Atlas, scroll fatigue,
       mobile 320px clamp().
-- [ ] **FU3 Design critique — soupis věžních hodin** (~15 min) —
-      `/soupis-veznich-hodin/` index/detail/mapa. Use case: „Hledám
-      hodiny v severních Čechách / od konkrétního hodináře". Index ↔
-      mapa duplikace, stav badges scanability, mobile column hide.
-- [ ] **FU4 Design critique — sbírková karta** (~20 min) —
-      `/sbirka/karta/[slug]` + KartaSbirky komponenta. Audience: badatel
-      cituje × laik × kurátor. 12+ field density, citation export linky
-      v `<head>` neviditelné, vztah karta ↔ medailon hodináře přes
-      `vyrobce` matching, print stylesheet check.
+- ~~**FU3 Design critique — soupis věžních hodin**~~ ✅ Hotovo
+      (commit pending). Report `docs/design-critique-soupis-veznich-hodin-2026-05-09.md`
+      — 7 prioritizovaných doporučení (P1: mobile column hide,
+      shared filter state index↔mapa; P2: empty state msg, citation
+      meta v detailu, krok column collapse; P3: stav badges tone audit,
+      souradnicePribl visual signal). Použít jako vstup pro další
+      konkrétní fixy.
+- ~~**FU4 Design critique — sbírková karta**~~ ✅ Hotovo
+      (commit pending). Report `docs/design-critique-sbirkova-karta-2026-05-09.md`
+      — 7 prioritizovaných doporučení (P1: slovník auto-link
+      v KartaSbirky pro laika; P2: vyrobce auto-link na medailon,
+      karta.datace → catalog year, restauratorske zasahy timeline,
+      print stylesheet pro `<dl>`; P3: section subheads, conditional
+      drop-cap). Print check OK pro globální layout, ale per-komponenta
+      `<dl>` v print needs work.
 - [ ] **FU5 Design system audit (cross-site)** (~40 min) — drift
       hodinarium-eu × horologie-cz: tokeny, komponenty (Card), footer
       patterns, button styles. **Pustit až po stabilizaci obou webů**
@@ -214,11 +220,12 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       z M2 taxonomy refactoru 2026-04. Hodinář display name z
       hodinari.ts lookupu (s diakritikou: „vaclav-krecmer" → „Václav
       Krečmer" v description).
-- [ ] **OG images do CI** — generuje se ručně přes `pnpm og:build`.
-      Přidat do CI po předchozí položce.
-- [ ] **`build-image-index.ts` pro horologie-cz** — zatím jen
-      hodinarium-eu; rozšířit na ~63 obrázků horologie-cz, aby
-      `rehype-picture` mohl doplnit intrinsic w/h i tam.
+- ~~**OG images do CI**~~ ✅ Hotovo (commit 0a85ecd). Workflow
+      `og-coverage.yml` + `--ci` flag v `check-og-coverage.mjs`.
+- ~~**`build-image-index.ts` pro horologie-cz**~~ ✅ Hotovo (audit
+      2026-05-09). Skript už spouští obě apps — `image-sizes.json`
+      existuje pro hodinarium-eu (240 KB) i horologie-cz (10 KB,
+      112 entries). TODO entry byl outdated.
 - [ ] **`rehype-picture` `wrapInPicture: true`** — zapnout až po
       `pnpm imgvariants:build` a commitu .avif/.webp variant.
 - [ ] **CI cleanup** — staré Cloudflare Pages preview deployments smazat
