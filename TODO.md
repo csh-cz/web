@@ -228,6 +228,30 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       sdílí logiku „canonical form lookup" — postupně migrovat
       do shared TS modulu po implementaci obou.
 
+- [ ] **A.14 AI našeptávač pro Sveltia editor** (~4 working days,
+      blueprint hotový — implementace odložená). Inline auto-complete
+      (Copilot-style) + sidebar chat + post-save terminology lint
+      + citation suggester. Modely: V1 Workers AI Llama 3.1 8B
+      (zdarma, omezená cs kvalita) → V2 Anthropic Sonnet 4.5
+      (~$3–5/měsíc = 75–125 Kč/měsíc) přes Cloudflare AI Gateway
+      (caching + rate limit).
+
+      Use cases: UC-A inline auto-complete, UC-B sidebar chat
+      („napiš perex"), UC-C terminology review po save (vedle A.13
+      hunspell — kontextová grammatika a fakta), UC-D generování
+      skeletonu medailonu, UC-E citation suggestion ze Zotera.
+
+      System prompt cached (~3K tokens): slovník + hodinari aliasy
+      + style guide + soupis index. Cost calculation pro 5 editorů ×
+      50 calls/měsíc = ~$1.50–3/měsíc po AI Gateway cache.
+
+      **Kompletní design + 9 PBI ticketů (AI-1 až AI-9)** v
+      `docs/design-ai-naseptavac-2026-05-10.md`. Implementaci pustit
+      po A.13 (hunspell) — různé layery, doplňky.
+
+      Privacy poznámka: text jde Anthropic API, vyžaduje disclosure
+      v editor handbook + opt-out per-editor preference.
+
 - ~~**T4 Lighthouse CI / Web Vitals**~~ ✅ Hotovo (commit pending).
       `@lhci/cli` v devDeps, `lighthouserc.json` config (8 URL napříč
       content typy), `.github/workflows/lighthouse.yml` post-deploy
