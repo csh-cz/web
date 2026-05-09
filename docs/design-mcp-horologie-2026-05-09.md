@@ -419,6 +419,145 @@ Lint text proti slovníku — najde non-canonical termíny.
 
 **Total estimated effort:** ~31 h ≈ 4 working days
 
+## Deployment scénáře a náklady
+
+MCP servery existují ve dvou módech: **stdio** (klient spustí lokálně
+proces) nebo **remote HTTP/SSE** (klient se připojí na hostovaný
+endpoint). Pro CSH dávají smysl oba — stdio jako default,
+remote jako opt-in pro netechnické editory.
+
+### Scénář A: Local stdio MCP (doporučeno jako default)
+
+```
+Klient (Claude Desktop) ──spawn──▶ node @csh-cz/mcp-horologie
+                                   ↑
+                                   └─ data bundled v npm package
+```
+
+- **Hosting:** žádný (klient spouští lokálně)
+- **Distribuce:** npm registry (zdarma pro public package)
+- **CI:** GitHub Actions free tier (2 000 min/měsíc pro public repo,
+  build + publish je <2 min, takže ~1 % limitu)
+- **Náklady: 0 Kč/měsíc** (open-source NGO repo)
+- **Limity:** žádné, jen klientovo CPU/RAM (server je ~50 MB heap).
+
+**Plus**:
+- Žádný server-side traffic / rate limiting
+- Žádné credentials / secrets management
+- Data privacy out-of-the-box (vše lokálně)
+
+**Mínus**:
+- Editor musí mít Node + npm + technicky znalosti pro registraci
+  v Claude Desktop config
+- Update vyžaduje `pnpm dlx --latest` nebo manual reinstall
+
+### Scénář B: Remote MCP přes Cloudflare Pages Functions
+
+Reuse stávajícího `hodinarium-eu` Cloudflare Pages projektu:
+endpoint `/mcp/sse` jako Pages Function.
+
+```
+Klient (Cursor) ──HTTPS+SSE──▶ hodinarium.eu/mcp ──▶ Pages Function
+                                                     ├─ data bundled
+                                                     └─ Workers AI (sémantika)
+```
+
+- **Hosting:** existing Cloudflare Pages projekt hodinarium-eu
+- **Workers AI** binding (už používáme pro `/api/search/semantic`)
+- **Náklady: 0 Kč/měsíc ve Free tieru**:
+
+| Resource | Free limit | Náš odhad | Náklad |
+|---|---|---|---|
+| Pages Functions invocations | 100 000 / den | <100 / den (interní use) | 0 |
+| CPU time | 10 ms / request | ~2 ms (lookup), ~50 ms (semantic) | 0 |
+| Workers AI neuron-actions | 10 000 / den | <100 / den | 0 |
+| Bundle size | 10 MB | ~5 MB (slovník + hodinari + ~subset references) | OK |
+
+**Plus**:
+- Editor klikne URL v Claude Desktop config — žádný npm install
+- Auto-update při každém Cloudflare Pages deploy (sdílí pipeline
+  s webem)
+- Sémantický search využívá Workers AI bge-m3 (free tier dostatečný)
+
+**Mínus**:
+- Bundle size limit 10 MB → plný `references.json` (~5 MB) +
+  semantic-index (~3 MB) je blízko limit. Workaround: `references.json`
+  hostnout v Pages public/ + lazy fetch při tool invocation.
+- Žádný state mezi requesty (každý request je samostatný), ale to
+  nám pro stateless tools nevadí.
+
+### Scénář C: Remote přes Cloudflare Workers (samostatný)
+
+Pokud bychom chtěli MCP oddělené od web Pages projektu (vlastní
+URL `mcp.csh.cz` po DNS):
+
+| Plan | Cena | Limity |
+|---|---|---|
+| **Workers Free** | 0 Kč | 100 000 req/den, 10 ms CPU/req, 1 MB bundle |
+| **Workers Paid** | ~$5/měsíc (≈ 120 Kč) | 10 M req/měsíc, 50 ms CPU, 10 MB bundle, cron triggers |
+
+- 1 MB bundle ve free je **nedostatečný** (samotný slovník ~50 KB OK,
+  ale references.json a semantic-index ne).
+- Workaround: data v **R2** (Cloudflare object storage):
+  - Free: 10 GB storage, 1 M Class A ops/měsíc, 10 M Class B
+  - Náš odhad: 10 MB data, ~1 000 reads/měsíc → **0 Kč**
+- **Náklady: 0 Kč** s R2 split, případně **120 Kč/měsíc** pro
+  pohodlí (vše v jednom Worker bundle).
+
+### Scénář D: Hybrid (stdio default + opt-in remote)
+
+Distribuce ve 2 modech:
+
+1. **Local stdio** (npm package) pro tech-savvy editory + CI agents
+2. **Remote HTTP/SSE** přes Cloudflare Pages (Scénář B) pro
+   netechnické editory — jeden config URL, žádný install
+
+Tooling (TypeScript) je shared, pouze entry point se liší:
+`bin/stdio.ts` vs `functions/mcp/[[catchall]].ts`. Ne dvojitá
+codebase.
+
+- **Náklady: 0 Kč/měsíc** (oba módy ve free tieru)
+- **Distribuce:** npm + URL v dokumentaci
+
+### Doporučení
+
+**Pustit scénář A (local stdio) jako V1**:
+- 0 Kč, 0 hosting overhead
+- Zachová privacy
+- Realistický pro tech-savvy editory v CSH (David, Petr, …)
+
+**Scénář D (hybrid) jako V2** po validaci use case:
+- Když přibude netechnický editor, který chce MCP
+- Cloudflare Pages už máme — žádný nový vendor
+- Stále 0 Kč/měsíc
+
+**Mimo úvahu:** Scénář C (Workers paid $5/měsíc) — žádný benefit pro
+CSH proti Pages Functions setupu.
+
+### Náklady na data infrastructure
+
+Datové bundles (volitelně, pokud opustíme git snapshot):
+
+| Service | Free tier | Náš odhad | Náklad |
+|---|---|---|---|
+| **R2** (object storage) | 10 GB + 1M ops | <100 MB + <10k ops | 0 |
+| **D1** (SQLite) | 5 GB + 5M reads/den | nepoužíváme | 0 |
+| **KV** (key-value) | 100k reads/den, 1 GB | volitelně pro caching | 0 |
+| **Pages bandwidth** | unlimited (free!) | 50–100 MB/měsíc | 0 |
+
+### Shrnutí
+
+| Scénář | Měsíční cena | Nastavení | Doporučeno |
+|---|---|---|---|
+| A — Local stdio | **0 Kč** | npm publish | **V1 default** |
+| B — Remote přes Pages Functions | **0 Kč** | reuse hodinarium-eu | V2 add-on |
+| C — Workers samostatný | 0–120 Kč | nový projekt | nedoporučeno |
+| D — Hybrid (A+B) | **0 Kč** | obojí naráz | **V2 ideál** |
+
+Migrační cesta: A → D je inkrementální (B endpoint se přidá
+do existujícího Pages projektu, npm package zachová stdio bin).
+Žádný vendor lock-in.
+
 ## Otevřené otázky
 
 1. **Embedding model** — Lokální fastembed (~100 MB, slower init,
