@@ -14,7 +14,7 @@ scrapedAt: 2026-04-27T17:37:11.133Z
 
 ![čelní panel](/img/arduino/Solari/Solari1.jpg)
 
-FLIP CLOCK SOLARI UDINE SPECIAL EDITION Arduinem
+FLIP CLOCK SOLARI UDINE SPECIAL EDITION
 
 Italská firma Solari Udine má bohatou historií. Společnost Fratelli Solari byla založena v Pesariis již v roce 1725 v malém městě v regionu Carnia ve Friuli. Specializovala se na výrobu věžních a nástěnných hodin. Kolem roku 1948 rozpory v rodině přiměly bratry Remigia a Ferma Solariho k přesídlení do Udine a k založení nové společnosti, která se etablovala na trhu výroby hodinek, hodinových terminálů a veřejných informačních displejů pro vlaková nádraží a letiště. Hodiny Cifra 5, první z mnoha projektů, které navrhl Gino Valle, získaly ocenění Compasso d'Oro. V roce 1956 byl na vlakovém nádraží Liegi vytvořen první železniční informační systém na světě. V roce 1962 Solari získal ocenění Compasso d'Oro podruhé, a to díky alfanumerickým teleindikátorům pro letiště a železniční stanice včetně návrhu terminálu TWA na letišti JF Kennedyho v New Yorku. V roce 1998 společnost Solari získala historickou společnost Fratelli Solari, čímž bylo dokončeno znovusjednocení obou společností. Na trhu působí dodnes i v oblasti IT řešení. Více se dozvíte na webu společnosti: [www.solari.it](https://www.solari.it/)
 
