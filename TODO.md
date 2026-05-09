@@ -93,12 +93,13 @@ Užitečné jako vstup pro další konkrétní fixy.
       návštěvu"?), featured grid × random Atlas, scroll fatigue,
       mobile 320px clamp().
 - ~~**FU3 Design critique — soupis věžních hodin**~~ ✅ Hotovo
-      (commit pending). Report `docs/design-critique-soupis-veznich-hodin-2026-05-09.md`
-      — 7 prioritizovaných doporučení (P1: mobile column hide,
-      shared filter state index↔mapa; P2: empty state msg, citation
-      meta v detailu, krok column collapse; P3: stav badges tone audit,
-      souradnicePribl visual signal). Použít jako vstup pro další
-      konkrétní fixy.
+      (commit pending). Report `docs/design-critique-soupis-veznich-hodin-2026-05-09.md`.
+      P1 mobile column hide **rovnou implementováno**: progresivní
+      breakpoint hierarchie (760 px skryje krok, 600 px skryje
+      kraj/stát, 480 px skryje budovu + thumb). Zachované: rok,
+      hodinář, místo, stav. Ostatní P1/P2/P3 doporučení (shared
+      filter state, empty state, citation meta) zůstávají v auditu
+      jako follow-up.
 - ~~**FU4 Design critique — sbírková karta**~~ ✅ Hotovo
       (commit pending). Report `docs/design-critique-sbirkova-karta-2026-05-09.md`.
       P1 (slovník auto-link v KartaSbirky pro laika) **rovnou
