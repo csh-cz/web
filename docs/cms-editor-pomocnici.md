@@ -155,6 +155,35 @@ localStorage.removeItem('csh-editor-settings'); location.reload();
 
 Pak ⚙ Pomocníci budou opět default — vše vypnuté (kromě link picker).
 
+## 📚 Citace ze Zotera (plánováno A.15.1)
+
+**Důležité:** editoři **nepotřebují Zotero account ani přístup** —
+hotový picker (až bude implementován) bude pracovat jen s lokálním
+snapshotem `references.json`, který spravuje David. Editor vidí
+existující reference, klik vloží `<Ref bibKey="..." />` + auto-doplní
+frontmatter.
+
+**Aktuálně (před A.15.1):** vkládání citací je manuální:
+
+1. Pokud znáš `bibKey` (např. `buresKonstrukceMechanickychHodin1965`),
+   napiš v textu `<Ref bibKey="buresKonstrukceMechanickychHodin1965" pages="87" />`
+2. Doplň do frontmatter:
+   ```yaml
+   references:
+     - bibKey: buresKonstrukceMechanickychHodin1965
+       type: kniha
+   ```
+
+**Citace, která chybí v `references.json`:**
+
+Pošli e-mailem na **info@orloj.eu** (nebo přes „Nahlásit problém"):
+- Title, autor(i), rok
+- URL nebo DOI nebo ISBN
+- Krátká nota proč ji potřebuješ
+
+David ji přidá do Zotera, příští sync přinese do `references.json`,
+budeš ji moci použít.
+
 ## 🚧 Známé limity V1
 
 - Spell-checker overlay heuristika je **přibližná** — pokud Sveltia
