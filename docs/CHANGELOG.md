@@ -57,6 +57,22 @@ Plná historie se najde v `git log` — toto je rychlý přehled milníků.
   `/admin/handbook/` jako Astro page, `/admin/tasks/` úkolovník místo
   GitHub Issues, „úkol č. N přijato" místo „Issue #N created".
 
+### Editorial workflow — W-2 visibility logic
+
+- `utils/workflow-visibility.ts` — helpers `isPubliclyBuildable()` (filter
+  v getStaticPaths: non-ready bez publicDuringEdit → 404) a `showsWipBanner()`
+  (WIP banner pro publicDuringEdit:true s status != ready).
+- `WipBanner.astro` — komponenta s 3 status labely (k rozpracování /
+  rozpracováno / k recenzi), volitelnými notes z frontmatter, hint na
+  info@orloj.eu pro feedback. ARIA `role="status"` + `aria-live="polite"`.
+- 6 page renderů integrováno: clanky, sbirka/karta, kronika, slovnik,
+  soupis-veznich-hodin (skip celé page) + kroky, hodinari (skip jen MDX
+  detail — primární data v ts arrays zůstanou viditelné).
+- Test fixture v `content/hodinarium-eu/_test-draft-article.md` (untracked):
+  publicDuringEdit:false → 404 ✓, publicDuringEdit:true → render + banner ✓.
+- Build still 1206 stran (žádný existující článek nemá non-ready workflow,
+  filter je no-op pro obsah).
+
 ### Editorial workflow V1 (A.23)
 
 - Schema rozšíření `content.config.ts`: `workflow` z.object field s 7 props

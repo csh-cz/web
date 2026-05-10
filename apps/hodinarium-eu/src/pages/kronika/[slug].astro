@@ -4,17 +4,22 @@ import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import JsonLd from '../../components/JsonLd.astro';
 import ArticleImageBehavior from '../../components/ArticleImageBehavior.astro';
+import WipBanner from '../../components/WipBanner.astro';
+import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
 
 export async function getStaticPaths() {
   const all = await getCollection('kronika');
-  return all.map((entry) => ({
-    params: { slug: entry.id },
-    props: { entry },
-  }));
+  return all
+    .filter((entry) => isPubliclyBuildable(entry.data.workflow))
+    .map((entry) => ({
+      params: { slug: entry.id },
+      props: { entry },
+    }));
 }
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
+const wipStatus = showsWipBanner(entry.data.workflow) ? entry.data.workflow!.status : null;
 
 const site = Astro.site ?? new URL('https://hodinarium-eu.pages.dev');
 const kronikaUrl = new URL(`/kronika/${entry.id}`, site).toString();
@@ -99,6 +104,10 @@ const typLabels: Record<string, string> = {
         )}
       </dl>
     </header>
+
+    {wipStatus && (
+      <WipBanner status={wipStatus as 'todo' | 'in-progress' | 'review'} notes={entry.data.workflow?.notes} />
+    )}
 
     <div class="prose-content drop-cap">
       <Content />

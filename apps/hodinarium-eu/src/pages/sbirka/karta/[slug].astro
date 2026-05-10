@@ -6,13 +6,17 @@ import EditorNotesBlock from '../../../components/EditorNotesBlock.astro';
 import JsonLd from '../../../components/JsonLd.astro';
 import KartaSbirky from '../../../components/KartaSbirky.astro';
 import ArticleImageBehavior from '../../../components/ArticleImageBehavior.astro';
+import WipBanner from '../../../components/WipBanner.astro';
 import { clanekHref } from '../../../data/url-helpers';
+import { isPubliclyBuildable, showsWipBanner } from '../../../utils/workflow-visibility';
 
 export async function getStaticPaths() {
   const all = await getCollection('clanky');
   // Pouze evidenční karty (podsekce: 'karta')
   return all
     .filter((entry) => entry.data.category === 'sbirka' && entry.data.podsekce === 'karta')
+    // Editorial workflow visibility — non-ready bez publicDuringEdit → 404.
+    .filter((entry) => isPubliclyBuildable(entry.data.workflow))
     .map((entry) => ({
       params: { slug: entry.id },
       props: { entry, all },
@@ -21,6 +25,7 @@ export async function getStaticPaths() {
 
 const { entry, all } = Astro.props;
 const { Content } = await render(entry);
+const wipStatus = showsWipBanner(entry.data.workflow) ? entry.data.workflow!.status : null;
 
 // Reverse lookup — články, které referují tuto kartu přes relatedKarty
 const vazaneClanky = all.filter((a) =>
@@ -167,6 +172,10 @@ const kartaJsonLd = {
       </p>
       <h1 class="karta-detail-title" itemprop="name">{entry.data.title}</h1>
     </header>
+
+    {wipStatus && (
+      <WipBanner status={wipStatus as 'todo' | 'in-progress' | 'review'} notes={entry.data.workflow?.notes} />
+    )}
 
     {entry.data.karta && <KartaSbirky karta={entry.data.karta} />}
 

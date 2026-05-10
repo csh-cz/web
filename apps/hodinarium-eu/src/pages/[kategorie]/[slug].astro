@@ -2,7 +2,9 @@
 import { getCollection, render } from 'astro:content';
 import Article from '../../layouts/Article.astro';
 import ArticleImageBehavior from '../../components/ArticleImageBehavior.astro';
+import WipBanner from '../../components/WipBanner.astro';
 import { NEW_CATEGORIES } from '../../data/url-helpers';
+import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
 
 export async function getStaticPaths() {
   const all = await getCollection('clanky');
@@ -15,6 +17,8 @@ export async function getStaticPaths() {
     // Top-level about-pages mají vlastní router (/o-hodinariu, …) —
     // exclusion-list předchází duplicitní URL /sbirka/o-hodinariu.
     .filter((entry) => entry.id !== 'o-hodinariu')
+    // Editorial workflow visibility — non-ready bez publicDuringEdit → 404.
+    .filter((entry) => isPubliclyBuildable(entry.data.workflow))
     .map((entry) => ({
       params: { kategorie: entry.data.category, slug: entry.id },
       props: { entry },
@@ -23,6 +27,7 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
+const wipStatus = showsWipBanner(entry.data.workflow) ? entry.data.workflow!.status : null;
 ---
 <Article
   title={entry.data.title}
@@ -38,6 +43,9 @@ const { Content } = await render(entry);
   karta={entry.data.karta}
   draft={entry.data.draft}
 >
+  {wipStatus && (
+    <WipBanner status={wipStatus as 'todo' | 'in-progress' | 'review'} notes={entry.data.workflow?.notes} />
+  )}
   <Content />
 </Article>
 

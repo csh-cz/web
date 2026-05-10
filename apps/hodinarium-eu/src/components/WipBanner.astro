@@ -1,0 +1,66 @@
+---
+/**
+ * WIP banner pro články s editorial workflow status != 'ready' a
+ * publicDuringEdit: true. Říká návštěvníkovi: „toto je rozpracováno,
+ * obsah se ještě může změnit".
+ *
+ * Render se kontroluje v parent page přes
+ * showsWipBanner(workflow) z utils/workflow-visibility.
+ */
+interface Props {
+  status: 'todo' | 'in-progress' | 'review';
+  notes?: string;
+}
+const { status, notes } = Astro.props;
+
+const STATUS_LABEL: Record<Props['status'], string> = {
+  todo: 'k rozpracování',
+  'in-progress': 'rozpracováno',
+  review: 'k recenzi',
+};
+---
+<aside class="wip-banner" role="status" aria-live="polite">
+  <strong class="wip-banner-label">Rozpracovaný článek</strong>
+  <span class="wip-banner-status">{STATUS_LABEL[status]}</span>
+  {notes && <p class="wip-banner-notes">{notes}</p>}
+  <p class="wip-banner-hint">
+    Obsah a citace se ještě mohou měnit. Pokud máte k článku zpřesnění
+    nebo opravu, ozvěte se na <a href="mailto:info@orloj.eu">info@orloj.eu</a>.
+  </p>
+</aside>
+
+<style>
+  .wip-banner {
+    border: 1px solid var(--color-brass);
+    background: color-mix(in srgb, var(--color-brass) 8%, transparent);
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    margin: 1.2rem 0 1.6rem;
+    font-size: 0.92rem;
+    line-height: 1.5;
+  }
+  .wip-banner-label {
+    color: var(--color-brass-bright);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin-right: 0.4rem;
+  }
+  .wip-banner-status {
+    color: var(--color-text-soft);
+    font-style: italic;
+  }
+  .wip-banner-notes {
+    margin: 0.5rem 0 0;
+    color: var(--color-text);
+  }
+  .wip-banner-hint {
+    margin: 0.3rem 0 0;
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+  }
+  .wip-banner a {
+    color: var(--color-brass-bright);
+  }
+</style>

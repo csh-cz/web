@@ -7,6 +7,8 @@ import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
 import { formatCite, getRef } from '../../utils/cite';
 import { extractWikiTitle } from '../../utils/referenceTypes';
+import WipBanner from '../../components/WipBanner.astro';
+import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
 
 import type { CatalogEntry } from '../../data/catalog-types';
 
@@ -37,10 +39,16 @@ const slovnikGenericEntries = SLOVNIK_GENERIC_TERMS
 // Pokud existuje MDX detail (content/kroky/<slug>.mdx), použij ho
 // místo charakteristika+images z kroky.ts. To umožňuje plný technický
 // článek s vlastním layoutem (sekce, tabulky, hero foto, inline figures).
+//
+// Editorial workflow: pokud je MDX non-ready bez publicDuringEdit,
+// detail se nezobrazí (page sám zůstane — primární data jsou v data/kroky.ts,
+// jen plný detail je rozpracován). publicDuringEdit:true → render + WIP banner.
 const detail = await getEntry('kroky', krok.slug);
-const Detail = detail ? (await render(detail)).Content : null;
-const hero = detail?.data.hero;
-const perex = detail?.data.perex;
+const detailVisible = detail && isPubliclyBuildable(detail.data.workflow);
+const Detail = detailVisible ? (await render(detail)).Content : null;
+const hero = detailVisible ? detail.data.hero : undefined;
+const perex = detailVisible ? detail.data.perex : undefined;
+const wipStatus = detailVisible && showsWipBanner(detail.data.workflow) ? detail.data.workflow!.status : null;
 ---
 <Base
   title={`${krok.jmeno} — hodinový krok`}
@@ -98,6 +106,10 @@ const perex = detail?.data.perex;
         ? <p class="lead">{perex}</p>
         : <p class="lead">{krok.shrnuti}</p>
       }
+
+      {wipStatus && (
+        <WipBanner status={wipStatus as 'todo' | 'in-progress' | 'review'} notes={detail?.data.workflow?.notes} />
+      )}
 
       {Detail
         ? <Detail />
