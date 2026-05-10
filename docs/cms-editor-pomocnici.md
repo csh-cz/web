@@ -110,14 +110,32 @@ workflow:
 # Nebo prostě smazat workflow field — = ready, default
 ```
 
-## 📖 Český spell-checker (hodinářský)
+## 📖 Spell-check — 3 režimy (vyber jeden)
+
+V Pomocníci jsou tři vzájemně exclusive volby:
+
+| Režim | Co umí | Co neumí | Cena |
+|---|---|---|---|
+| **Browser nativní (cs)** *(výchozí)* | Co umí prohlížeč — běžnou češtinu (potřebuje cs jazyk v OS / browser settings). Žádný extra download. | Hodinářské termíny (Krečmer, setrvačka, Holešovice). | 0 KB stažení. |
+| **CSH hodinářský** | Cs Hunspell s morfologií (kyvadlu / kyvadlem / kyvadly) **+ 1242 hodinářských termínů a jmen** z CSH slovníku, medailonů a soupisu obcí. Vypne browser native (jen jeden naráz). | Cizojazyčné pasáže (vše bude flagged) — pak mode **Vypnuto**. | ~6 MB stažení 1×. |
+| **Vypnuto** | — | — | 0. Užitečné pro psaní cizojazyčných pasáží (citace, něm. v hist. dokumentech). |
+
+Default je **Browser nativní** — žádný surprise download, ale taky
+neflagne `balanc` jako anglicismus. Editoři, kteří chtějí kontrolu
+hodinářské terminologie, přepnou na **CSH hodinářský**.
+
+> **Pozn.:** Browser native a CSH **se nemíchají** — předchozí verze
+> měla bug, kdy obě podtrhávaly paralelně. Teď je to mode picker, jen
+> jedna engine současně.
+
+## 📖 CSH hodinářský — detail
 
 **Co dělá:** podtrhne nepravopisná slova v editačních polích vlnitou
 červenou linkou (CSS gradient mřížka, ne plné podtržení).
 
 ### Aktivace + co se stáhne
 
-Klik **⚙ Pomocníci** → zaškrtni **Český spell-checker (hodinářský)**.
+Klik **⚙ Pomocníci** → vyber radio button **CSH hodinářský**.
 
 Při **prvním zapnutí** se stáhne (po síti, jednorázově):
 

@@ -150,10 +150,16 @@
       .replace(/>/g, '&gt;');
   }
 
-  /** Hook na jednu textarea. Debounce na input pro perf. */
+  /** Hook na jednu textarea. Debounce na input pro perf.
+   *  Vypneme browser native spellcheck na této textarea — nechceme dva
+   *  parallel underline systémy. Původní hodnota se uloží na element pro
+   *  obnovu při deaktivaci. */
   function attachToTextarea(textarea) {
     if (checkedNodes.has(textarea)) return;
     checkedNodes.add(textarea);
+    // Save původní spellcheck attr pro restore
+    textarea.dataset.cshOrigSpellcheck = textarea.spellcheck ? 'true' : 'false';
+    textarea.spellcheck = false;
     let timer = null;
     const onInput = () => {
       clearTimeout(timer);
@@ -226,11 +232,32 @@
     console.info('[csh-spell] Deactivated.');
   }
 
+  /** Set browser native spellcheck attribute na všech editor textareas.
+   *  Mode 'native' = true (browser kontroluje), 'csh' už dělá náš overlay
+   *  (a v attachToTextarea jsme native vypnuli), 'off' = false. */
+  function setNativeSpellcheckAll(enabled) {
+    document.querySelectorAll('textarea').forEach((ta) => {
+      if (ta.offsetHeight < 60) return;
+      ta.spellcheck = enabled;
+    });
+  }
+
   // ── Wiring na settings ──────────────────────────────────────────
 
   function applySettings(s) {
-    if (s.spellcheck && !active) activate();
-    else if (!s.spellcheck && active) deactivate();
+    // Backwards-compat: starý formát měl jen `spellcheck: bool`.
+    const mode = s.spellcheckMode || (s.spellcheck ? 'csh' : 'native');
+    if (mode === 'csh') {
+      // CSH overlay aktivní, browser native vypnutý (overlay sám vypíná
+      // textarea.spellcheck v attachToTextarea — žádné parallel underline)
+      if (!active) activate();
+    } else {
+      // Mode 'native' nebo 'off' — náš overlay zhasnout
+      if (active) deactivate();
+      // Mode 'native' = nech browser dělat svou práci.
+      // Mode 'off' = vypnout i browser.
+      setNativeSpellcheckAll(mode === 'native');
+    }
   }
 
   // Initial state

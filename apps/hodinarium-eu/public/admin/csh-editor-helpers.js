@@ -22,6 +22,16 @@
 
   const SETTINGS_KEY = 'csh-editor-settings';
   const DEFAULT_SETTINGS = {
+    /** Spell-check mode:
+     *  - 'off': vypnuto (textarea.spellcheck=false, žádný overlay)
+     *  - 'native': pouze browser native cs spell-check (textarea.spellcheck=true,
+     *    žádný náš overlay) — výchozí, žádný extra download
+     *  - 'csh': CSH hodinářský s slovníkem 1242 termínů (textarea.spellcheck=false,
+     *    náš overlay aktivní) — vyžaduje 6 MB stažení 1×
+     */
+    spellcheckMode: 'native',
+    /** Backwards-compat field — pokud user měl předchozí spellcheck:bool,
+     *  promigruje se v loadSettings(). */
     spellcheck: false,
     ai: false,
     aiLevel: 'free', // 'free' = Workers AI Mistral, 'paid' = Anthropic Sonnet (později)
@@ -34,7 +44,14 @@
       const raw = localStorage.getItem(SETTINGS_KEY);
       if (!raw) return { ...DEFAULT_SETTINGS };
       const parsed = JSON.parse(raw);
-      return { ...DEFAULT_SETTINGS, ...parsed };
+      const merged = { ...DEFAULT_SETTINGS, ...parsed };
+      // Backwards-compat: pokud user měl `spellcheck: true` z předchozí
+      // verze (před zavedením spellcheckMode), promigruj na 'csh'.
+      // Pokud `spellcheckMode` je už explicit set v parsed, respektuj ho.
+      if (parsed.spellcheckMode === undefined && parsed.spellcheck === true) {
+        merged.spellcheckMode = 'csh';
+      }
+      return merged;
     } catch {
       return { ...DEFAULT_SETTINGS };
     }
@@ -103,17 +120,45 @@
       <p style="margin:0 0 .8rem;font-size:.85rem;opacity:.8">
         Volitelné funkce. Změny se uloží automaticky a aplikují ihned.
       </p>
-      <label style="display:flex;align-items:flex-start;gap:.5rem;margin-bottom:.6rem;cursor:pointer">
-        <input type="checkbox" id="csh-set-spellcheck" ${settings.spellcheck ? 'checked' : ''}
-               style="margin-top:.2rem;cursor:pointer">
-        <span>
-          <strong>Český spell-checker (hodinářský)</strong>
-          <span style="display:block;font-size:.8rem;opacity:.7;margin-top:.15rem">
-            Slovník s českou morfologií + hodinařské termíny + jména hodinářů.
-            Podtrhne nepravopisná slova. Jednorázové stažení ~5 MB při zapnutí.
+      <fieldset style="border:1px solid #444;border-radius:.3rem;padding:.5rem .8rem .3rem;margin-bottom:.6rem">
+        <legend style="padding:0 .3rem;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:#c9a85d">Spell-check</legend>
+        <label style="display:flex;align-items:flex-start;gap:.5rem;margin-bottom:.4rem;cursor:pointer">
+          <input type="radio" name="csh-spellcheck-mode" value="native" id="csh-set-mode-native"
+                 ${settings.spellcheckMode === 'native' ? 'checked' : ''}
+                 style="margin-top:.2rem;cursor:pointer">
+          <span>
+            <strong>Browser nativní (cs)</strong>
+            <span style="display:block;font-size:.78rem;opacity:.7;margin-top:.1rem">
+              Výchozí spell-check prohlížeče. Zná běžnou češtinu, ale ne
+              jména hodinářů ani odbornou terminologii. Žádný download.
+            </span>
           </span>
-        </span>
-      </label>
+        </label>
+        <label style="display:flex;align-items:flex-start;gap:.5rem;margin-bottom:.4rem;cursor:pointer">
+          <input type="radio" name="csh-spellcheck-mode" value="csh" id="csh-set-mode-csh"
+                 ${settings.spellcheckMode === 'csh' ? 'checked' : ''}
+                 style="margin-top:.2rem;cursor:pointer">
+          <span>
+            <strong>CSH hodinářský</strong>
+            <span style="display:block;font-size:.78rem;opacity:.7;margin-top:.1rem">
+              Cs Hunspell s morfologií + 1242 hodinářských termínů a jmen
+              (Krečmer, setrvačka, Holešovice…). Vypne browser native (jen
+              jeden naráz). Jednorázové stažení ~6 MB.
+            </span>
+          </span>
+        </label>
+        <label style="display:flex;align-items:flex-start;gap:.5rem;margin-bottom:.2rem;cursor:pointer">
+          <input type="radio" name="csh-spellcheck-mode" value="off" id="csh-set-mode-off"
+                 ${settings.spellcheckMode === 'off' ? 'checked' : ''}
+                 style="margin-top:.2rem;cursor:pointer">
+          <span>
+            <strong>Vypnuto</strong>
+            <span style="display:block;font-size:.78rem;opacity:.7;margin-top:.1rem">
+              Žádný spell-check (užitečné pro psaní cizojazyčných pasáží).
+            </span>
+          </span>
+        </label>
+      </fieldset>
       <label style="display:flex;align-items:flex-start;gap:.5rem;margin-bottom:.6rem;cursor:pointer">
         <input type="checkbox" id="csh-set-ai" ${settings.ai ? 'checked' : ''}
                style="margin-top:.2rem;cursor:pointer">
@@ -177,8 +222,11 @@
 
     // Save on change + emit event
     function applyAndEmit() {
+      const modeRadio = modal.querySelector('input[name="csh-spellcheck-mode"]:checked');
+      const mode = modeRadio ? modeRadio.value : 'native';
       const next = {
-        spellcheck: modal.querySelector('#csh-set-spellcheck').checked,
+        spellcheckMode: mode,
+        spellcheck: mode === 'csh', // backwards-compat field
         ai: modal.querySelector('#csh-set-ai').checked,
         aiLevel: 'free',
         linkPicker: modal.querySelector('#csh-set-link-picker').checked,
@@ -186,7 +234,9 @@
       saveSettings(next);
       window.dispatchEvent(new CustomEvent('csh-settings-changed', { detail: next }));
     }
-    modal.querySelector('#csh-set-spellcheck').addEventListener('change', applyAndEmit);
+    modal.querySelectorAll('input[name="csh-spellcheck-mode"]').forEach((r) => {
+      r.addEventListener('change', applyAndEmit);
+    });
     modal.querySelector('#csh-set-ai').addEventListener('change', applyAndEmit);
     modal.querySelector('#csh-set-link-picker').addEventListener('change', applyAndEmit);
 
@@ -257,12 +307,28 @@
         — neready článek je 404 pro veřejnost (jen editoři).
       </p>
 
-      <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem">📖 Český spell-checker</h3>
-      <p style="margin:.2rem 0 .5rem">
-        Slovník s českou morfologií (kyvadlu / kyvadlem / kyvadly atd.)
-        + <strong>1242 hodinářských termínů a jmen</strong> (Krečmer, setrvačka,
-        čtvrťové bití, Holešovice, …) z našeho slovníku, medailonů hodinářů
-        a soupisu věžních hodin.
+      <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem">📖 Spell-check — 3 režimy</h3>
+      <table style="margin:.4rem 0 .8rem;border-collapse:collapse;width:100%;font-size:.85rem">
+        <tr style="border-bottom:1px solid #333">
+          <td style="padding:.3rem .5rem;width:8.5rem;vertical-align:top"><strong>Browser nativní (cs)</strong><br>
+            <span style="font-size:.7rem;opacity:.6">výchozí</span></td>
+          <td style="padding:.3rem .5rem">Spell-check, který umí prohlížeč. Zná běžnou
+            češtinu (potřebuje cs jazyk v OS / browser settings). Nezná hodinářské termíny
+            ani jména. Žádný extra stažený asset, žádné CPU.</td></tr>
+        <tr style="border-bottom:1px solid #333">
+          <td style="padding:.3rem .5rem;vertical-align:top"><strong>CSH hodinářský</strong></td>
+          <td style="padding:.3rem .5rem">Cs Hunspell s morfologií (kyvadlu / kyvadlem)
+            + <strong>1242 hodinářských termínů a jmen</strong> (Krečmer, setrvačka,
+            čtvrťové bití, Holešovice). Vypne browser native — overlay je překrýval. Stažení
+            ~6 MB jednorázově.</td></tr>
+        <tr>
+          <td style="padding:.3rem .5rem;vertical-align:top"><strong>Vypnuto</strong></td>
+          <td style="padding:.3rem .5rem">Žádný spell-check. Hodí se na cizojazyčné pasáže
+            (citace, němčina v hist. dokumentech).</td></tr>
+      </table>
+      <p style="margin:.2rem 0 .5rem;font-size:.85rem;opacity:.7">
+        Modes jsou exclusive — vybíráš v Pomocníci radio button. Detail
+        CSH režimu níže:
       </p>
 
       <p style="margin:.6rem 0 .3rem"><strong>Při prvním zapnutí se stáhne:</strong></p>
