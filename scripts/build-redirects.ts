@@ -161,44 +161,79 @@ async function main() {
   const catalog: CatalogEntry[] = JSON.parse(await readFile(CATALOG_PATH, 'utf-8'));
   const kronikaSlugs = await loadKronikaSlugs();
 
+  // CF Pages limit (deploy 2026-05-10 prokázal): po cca 325 valid rules
+  // přestane parsovat zbytek. Proto jsou rules seřazeny **podle priority**
+  // od nejdůležitějších (SEO-kritické) po méně kritické (legacy hodnota).
   const lines: string[] = [
     '# Cloudflare Pages redirects — auto-generated, nereeditovat ručně.',
     '# Generuje scripts/build-redirects.ts z raw/_index.json + catalog.json.',
     '# Format: <source> <destination> <status>',
-    '',
-    '# Specifické přesměrovky (root pages legacy hodinarium.eu)',
+    '#',
+    '# CF Pages parsuje zhora dolů a zastaví u limitu (~325 rules).',
+    '# Proto jsou rules **seřazené podle priority** od kritických (SEO,',
+    '# rename overrides) po legacy (HTM z původního PHP webu).',
   ];
+
+  // ────────────────────────────────────────────────────────────────
+  // PRIORITA 1 — SEO-kritické rename overrides (musí přežít CF limit)
+  // ────────────────────────────────────────────────────────────────
+
+  // Renamed karta slugs — MUSÍ být PŘED glob (first-match-wins).
+  lines.push('', '# === PRIORITA 1: rename overrides (SEO kritické) ===');
+  lines.push('# Renamed karta slugs (override před glob):');
+  for (const [oldSlug, newSlug] of Object.entries(KARTY_SLUG_RENAMES)) {
+    lines.push(`/clanky/${oldSlug} /sbirka/karta/${newSlug} 301`);
+    lines.push(`/sbirka/karta/${oldSlug} /sbirka/karta/${newSlug} 301`);
+    lines.push(`/sbirka/karta/${oldSlug}/ /sbirka/karta/${newSlug}/ 301`);
+  }
+
+  // Konsolidace článků — staré slugy → anchor evergreen
+  lines.push('', '# Konsolidace článků M5.1+ — staré slugy → anchor evergreen');
+  for (const [slug, dst] of Object.entries(MERGED_INTO)) {
+    lines.push(`/clanky/${slug} ${dst} 301`);
+  }
+
+  // Přejmenování hodinářů
+  lines.push('', '# Přejmenování medailonů hodinářů (M5.3+)');
+  for (const [oldSlug, newSlug] of Object.entries(HODINARI_SLUG_RENAMES)) {
+    lines.push(`/hodinari/${oldSlug} /hodinari/${newSlug} 301`);
+  }
+
+  // Cross-category přesuny
+  lines.push('', '# Cross-category přesuny (článek přeřazen mezi kategoriemi)');
+  for (const [src, dst] of Object.entries(CATEGORY_MOVES)) {
+    lines.push(`${src} ${dst} 301`);
+  }
+
+  // ────────────────────────────────────────────────────────────────
+  // PRIORITA 2 — Specifické root pages + glob pro 290 karet
+  // ────────────────────────────────────────────────────────────────
+
+  lines.push('', '# === PRIORITA 2: root pages + glob ===');
+  lines.push('# Specifické přesměrovky (root pages legacy hodinarium.eu)');
   for (const [src, dst] of Object.entries(SPECIAL)) {
     lines.push(`${src} ${dst} 301`);
   }
 
-  // 1. Legacy *.htm → nová URL podle kategorie / kroniky
-  lines.push('', '# Legacy *.htm → nová URL podle kategorie článku / kroniky');
-  const seen = new Set<string>(Object.keys(SPECIAL));
-  for (const [path, meta] of Object.entries(index.pages)) {
-    if (seen.has(path)) continue;
-    if (!path.endsWith('.htm')) continue;
-    seen.add(path);
-    lines.push(`${path} ${newHref(meta.slug, catalog, kronikaSlugs)} 301`);
+  // Glob pro karty: 290 inv-* záznamů jednou linkou
+  lines.push('', '# Karty (290 záznamů jedním glob řádkem):');
+  lines.push('/clanky/inv-* /sbirka/karta/inv-:splat 301');
+
+  // ────────────────────────────────────────────────────────────────
+  // PRIORITA 3 — Taxonomie /clanky/X → /<kat>/X (per-article)
+  // ────────────────────────────────────────────────────────────────
+
+  // /clanky/<slug> → /kronika/<slug> pro přesunuté efemérní články (M4)
+  lines.push('', '# === PRIORITA 3: taxonomie /clanky/X → /<kat>/X ===');
+  lines.push('# M4 Kronika přesun:');
+  let kronikaCount = 0;
+  for (const slug of kronikaSlugs) {
+    lines.push(`/clanky/${slug} /kronika/${slug} 301`);
+    kronikaCount += 1;
   }
 
-  // 2. /clanky/<slug> → /<kategorie>/<slug> pro články v nových kategoriích.
-  // Sbírka má dvě subkategorie — evidenční karty jdou na /sbirka/karta/<slug>.
-  //
-  // Optimalizace 2026-05: evidenční karty (sbirka/karta) mají uniform
-  // prefix `inv-` — místo 290 explicit řádků jeden glob.
-  // Audit: katalog scan potvrzuje, že `inv-*` ⟺ sbirka/karta exkluzivně
-  // (žádný non-karta článek nezačíná `inv-`, žádná karta nezačíná jinak).
-  lines.push('', '# Taxonomie 2026-04: /clanky/<slug> → /<kategorie>/<slug>');
-  // Override pro renamed karty MUSÍ být před glob — first-match-wins,
-  // glob `/clanky/inv-*` by jinak chytl old slug a redirektnul na neexistující URL.
-  lines.push('# Renamed karta slugs (override před glob):');
-  for (const [oldSlug, newSlug] of Object.entries(KARTY_SLUG_RENAMES)) {
-    lines.push(`/clanky/${oldSlug} /sbirka/karta/${newSlug} 301`);
-  }
-  lines.push('# Karty (290 záznamů, glob pattern):');
-  lines.push('/clanky/inv-* /sbirka/karta/inv-:splat 301');
-  // Non-karta články — per-entry, slugy nemají uniform prefix per kategorie
+  // Non-karta články — per-entry
+  lines.push('', '# Non-karta články /clanky/X → /<kat>/X:');
   let migratedCount = 0;
   for (const e of catalog) {
     if (!NEW_CATEGORIES.has(e.category)) continue;
@@ -207,38 +242,19 @@ async function main() {
     migratedCount += 1;
   }
 
-  // 3. /clanky/<slug> → /kronika/<slug> pro přesunuté efemérní články (M4)
-  lines.push('', '# M4 Kronika: /clanky/<slug> → /kronika/<slug>');
-  let kronikaCount = 0;
-  for (const slug of kronikaSlugs) {
-    lines.push(`/clanky/${slug} /kronika/${slug} 301`);
-    kronikaCount += 1;
-  }
+  // ────────────────────────────────────────────────────────────────
+  // PRIORITA 4 — Legacy *.htm (původní PHP web, dnes málo trafficu)
+  // Tyto jsou poslední — pokud CF skipne nějaké, jde o legacy URL
+  // ze starého PHP webu, na které dnes téměř nikdo neklika.
+  // ────────────────────────────────────────────────────────────────
 
-  // 4. Cross-category přesuny (článek byl přeřazen mezi kategoriemi)
-  lines.push('', '# Cross-category přesuny článků');
-  for (const [src, dst] of Object.entries(CATEGORY_MOVES)) {
-    lines.push(`${src} ${dst} 301`);
-  }
-
-  // 4b. Konsolidace článků — staré /clanky/<slug> přesměrovat na anchor evergreen
-  lines.push('', '# Konsolidace článků (M5.1+) — staré slugy → anchor v evergreen');
-  for (const [slug, dst] of Object.entries(MERGED_INTO)) {
-    lines.push(`/clanky/${slug} ${dst} 301`);
-  }
-
-  // 4c. Přejmenování slugů v /hodinari/ — stabilní URL po renamu medailonu
-  lines.push('', '# Přejmenování medailonů hodinářů (M5.3+)');
-  for (const [oldSlug, newSlug] of Object.entries(HODINARI_SLUG_RENAMES)) {
-    lines.push(`/hodinari/${oldSlug} /hodinari/${newSlug} 301`);
-  }
-
-  // 4d. Přejmenování slugů sbírkových karet — stabilní URL po opravě názvu/inv. č.
-  // /clanky/<old> variant je už v sekci 2 (před glob, aby override fungoval).
-  lines.push('', '# Přejmenování sbírkových karet');
-  for (const [oldSlug, newSlug] of Object.entries(KARTY_SLUG_RENAMES)) {
-    lines.push(`/sbirka/karta/${oldSlug} /sbirka/karta/${newSlug} 301`);
-    lines.push(`/sbirka/karta/${oldSlug}/ /sbirka/karta/${newSlug}/ 301`);
+  lines.push('', '# === PRIORITA 4: legacy *.htm (low-traffic) ===');
+  const seen = new Set<string>(Object.keys(SPECIAL));
+  for (const [path, meta] of Object.entries(index.pages)) {
+    if (seen.has(path)) continue;
+    if (!path.endsWith('.htm')) continue;
+    seen.add(path);
+    lines.push(`${path} ${newHref(meta.slug, catalog, kronikaSlugs)} 301`);
   }
 
   // 5. Fallback
