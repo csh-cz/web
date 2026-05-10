@@ -11,10 +11,14 @@
 import { test, expect } from 'playwright/test';
 
 test.describe('YouTube lite-embed', () => {
+  // Přímé nové URLs po taxonomy refactoru M2 (2026-04-29). Předtím
+  // /clanky/<slug>; redirect funguje, ale na mobile profilu (slow CPU)
+  // hit občas 30s timeout — direkt URL je deterministický a rychlejší.
+  // Kategorie z catalog.json: Arduino + TimeSlider → projekty, mindelheim → muzea.
   const cases = [
-    { url: '/clanky/Arduino', id: 'RMyYnnAPIV8' },
-    { url: '/clanky/TimeSlider', id: 'VBpDQtAcoWc' },
-    { url: '/clanky/mindelheim', id: 'slDssMuXSz4' },
+    { url: '/projekty/Arduino', id: 'RMyYnnAPIV8' },
+    { url: '/projekty/TimeSlider', id: 'VBpDQtAcoWc' },
+    { url: '/muzea/mindelheim', id: 'slDssMuXSz4' },
   ];
 
   for (const c of cases) {
@@ -38,8 +42,8 @@ test.describe('YouTube lite-embed', () => {
   }
 });
 
-test('/clanky/normalni — CasSlovem komponent vyplní slovní čas', async ({ page }) => {
-  await page.goto('/clanky/normalni');
+test('/zajimavosti/normalni — CasSlovem komponent vyplní slovní čas', async ({ page }) => {
+  await page.goto('/zajimavosti/normalni');
   const cas = page.locator('[data-cas-slovem]');
   await expect(cas).toBeVisible();
   // JS hook by měl vyplnit text. Ověříme že to není default placeholder.
@@ -49,8 +53,8 @@ test('/clanky/normalni — CasSlovem komponent vyplní slovní čas', async ({ p
   expect(text, `obsah: ${text}`).toMatch(/hodin|čtvrt|půl|sekund/);
 });
 
-test('/clanky/segmentovky_s_prekladem — segmentovky formát + slovní překlad', async ({ page }) => {
-  await page.goto('/clanky/segmentovky_s_prekladem');
+test('/projekty/segmentovky_s_prekladem — segmentovky formát + slovní překlad', async ({ page }) => {
+  await page.goto('/projekty/segmentovky_s_prekladem');
   const cas = page.locator('[data-seg-cas]');
   const pre = page.locator('[data-seg-prelozeno]');
   await expect(cas).toBeVisible();
@@ -63,8 +67,8 @@ test('/clanky/segmentovky_s_prekladem — segmentovky formát + slovní překlad
   expect(preText, `překlad: ${preText}`).toMatch(/placka|pendrek|zatáčka|ňadra|židlička|koule|švestka|motyka|sněhulák|plácačka/);
 });
 
-test('/clanky/sezona2012 — návštěvní kniha inline', async ({ page }) => {
-  await page.goto('/clanky/sezona2012');
+test('/kronika/sezona2012 — návštěvní kniha inline', async ({ page }) => {
+  await page.goto('/kronika/sezona2012');
   // Konkrétní citát z guestbooku
   await expect(page.getByText(/Krásná místnost plná ztraceného/)).toBeVisible();
 });

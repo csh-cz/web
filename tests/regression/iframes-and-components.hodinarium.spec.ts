@@ -10,11 +10,15 @@
  *     proper HTML grid místo "vše v jednom sloupci" (commit a1a2e2c).
  *   - slunecni_polarizacni / vodni_B_Gitton: žádný HOME/Mapa/Kontakt
  *     sidebar boilerplate.
+ *
+ * Po taxonomy refactoru M2 (2026-04-29): direkt URLs `/<kategorie>/<slug>`
+ * místo legacy `/clanky/<slug>` (redirect funguje, ale na mobile profilu
+ * občas hit timeout).
  */
 import { test, expect } from 'playwright/test';
 
 test('Kappa: live monitor iframe je přítomný a směřuje na orloj.eu', async ({ page }) => {
-  await page.goto('/clanky/Kappa');
+  await page.goto('/projekty/Kappa');
   const iframe = page.locator('iframe.live-monitor');
   await expect(iframe).toBeVisible();
   const src = await iframe.getAttribute('src');
@@ -22,7 +26,7 @@ test('Kappa: live monitor iframe je přítomný a směřuje na orloj.eu', async 
 });
 
 test('slunecni_filler: Klementinum komponent místo iframu', async ({ page }) => {
-  await page.goto('/clanky/slunecni_filler');
+  await page.goto('/sbirka/slunecni_filler');
   await expect(page.locator('iframe.filler-clock')).toHaveCount(0);
   await expect(page.locator('figure.klementinum')).toBeVisible();
   // Čas se vyplnil JS hookem
@@ -31,14 +35,14 @@ test('slunecni_filler: Klementinum komponent místo iframu', async ({ page }) =>
 });
 
 test('zidovske: ZidovskeHodiny komponent — čas v 24-h formátu', async ({ page }) => {
-  await page.goto('/clanky/zidovske');
+  await page.goto('/virtualni-muzeum/zidovske');
   await expect(page.locator('figure.zidovske-hodiny')).toBeVisible();
   const time = await page.locator('[data-clock-time]').textContent();
   expect(time).toMatch(/^\d{2}:\d{2}$/);
 });
 
 test('zidovske: 3 ciferníky vedle sebe (CSS grid, ne sloupec)', async ({ page }) => {
-  await page.goto('/clanky/zidovske');
+  await page.goto('/virtualni-muzeum/zidovske');
   const grid = page.locator('.zidovske-ciferniky');
   await expect(grid).toBeVisible();
   // 3 figures uvnitř — Normální / Převrácený / Hebrejský
@@ -48,7 +52,7 @@ test('zidovske: 3 ciferníky vedle sebe (CSS grid, ne sloupec)', async ({ page }
 });
 
 test('zidovske: hebrejská abeceda jako řádná tabulka', async ({ page }) => {
-  await page.goto('/clanky/zidovske');
+  await page.goto('/virtualni-muzeum/zidovske');
   const table = page.locator('table.zidovske-abeceda');
   await expect(table).toBeVisible();
   // 10 řádků (Alef—Jod)
@@ -56,19 +60,19 @@ test('zidovske: hebrejská abeceda jako řádná tabulka', async ({ page }) => {
 });
 
 test('slunecni_polarizacni: žádný HOME/Mapa/Kontakt sidebar', async ({ page }) => {
-  await page.goto('/clanky/slunecni_polarizacni');
+  await page.goto('/sbirka/slunecni_polarizacni');
   await expect(page.locator('main a[href="/clanky/index"]')).toHaveCount(0);
   await expect(page.locator('main a[href="/clanky/novinky"]')).toHaveCount(0);
 });
 
 test('slunecni_polarizacni: filtr1—4 fotky v těle článku', async ({ page }) => {
-  await page.goto('/clanky/slunecni_polarizacni');
+  await page.goto('/sbirka/slunecni_polarizacni');
   for (const n of [1, 2, 3, 4]) {
     await expect(page.locator(`main img[src$="filtr${n}.jpg"]`)).toBeVisible();
   }
 });
 
 test('vodni_B_Gitton: žádný HOME/Mapa/Kontakt sidebar', async ({ page }) => {
-  await page.goto('/clanky/vodni_B_Gitton');
+  await page.goto('/sbirka/vodni_B_Gitton');
   await expect(page.locator('main a[href="/clanky/index"]')).toHaveCount(0);
 });
