@@ -205,10 +205,6 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
 
 ## A.7 — Tech dluh (větší)
 
-- [ ] **D6 Slug standardizace na kebab-case** — 114 souborů v
-      `content/hodinarium-eu/` má non-kebab slugy (`Arduino`, `astro2_NTP`,
-      `decin_jednotny_cas`, …). 114 file renames + 114 redirectů + grep
-      všech inline odkazů + SEO reindex. Citlivá ale čistě technická.
 - [ ] **D1 Test coverage** — Vitest setup pro `scripts/*.ts`
       (parse-soupis, build-redirects, apply-popisy, migrate-renumbering),
       snapshot testy pro layouty (~3 h).
