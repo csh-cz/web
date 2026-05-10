@@ -261,15 +261,42 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       lokálně cached daty:
 
       **A.15.1 Citation picker (~5–7 h):**
-      - Search nad references.json (~1100 Zotero items): `Bureš 1965`,
-        klíčová slova, autor.
+
+      **Důležitá architektonická poznámka:** editor (Petr, ostatní)
+      **nepotřebuje Zotero account ani přístup**. Picker pracuje
+      jen nad **lokálním snapshotem** `apps/hodinarium-eu/src/data/
+      references.json` (~1100 položek), který se pravidelně synchronizuje
+      z Davidova Zotera přes `pnpm refs:sync`. Editor je read-only
+      konzument — vidí existující reference, vybírá z nich.
+
+      Funkce:
+      - Search nad references.json (autor, rok, klíčová slova,
+        title): „Bureš 1965", „věžní hodiny", „Sušický".
       - Klik vloží do textu `<Ref bibKey="..." />` (numbered) nebo
-        `[Bureš 1965]` (author-date podle `referenceStyle` v frontmatteru).
+        `[Bureš 1965, s. 87]` (author-date podle `referenceStyle`
+        v frontmatteru). Volitelné pole `pages` v modalu.
       - Auto-doplní frontmatter `references[]` entry (idempotentní —
         nepřidá pokud bibKey už tam je).
-      - Bonus: tlačítko „🤖 Najdi citaci pro tento odstavec" → semantic
-        search bge-m3 nad references-only subset → AI rerank top 5
-        + ISO 690 preview.
+      - Bonus: tlačítko „🤖 Najdi citaci pro tento odstavec" →
+        embed selection / aktuální odstavec → semantic search bge-m3
+        nad references-only subset (sub-index z bge-m3 corpus) →
+        AI rerank top 5 + ISO 690 preview.
+
+      **Když chybí reference (V2 follow-up, ~2 h):**
+      - Modal má sekci „Citace nenalezena? Pošli návrh do Zotera"
+      - Form: title, autoři, rok, URL/DOI, krátká nota
+      - Submit → vytvoří GitHub Issue přiřazený Davidovi (přes
+        existing /api/report-issue endpoint, jen jiný `problemType`)
+      - David v Zotero přidá → příští `pnpm refs:sync` přinese →
+        editor použije v dalším article.
+
+      **Indexace pro picker:**
+      - V buildu generujeme `references-search-index.json` (subset z
+        existing semantic-index.json) — full-text search per autor +
+        title + year + container-title; embedding query nutí Workers AI.
+      - Bez backend změn: existing `/api/search/semantic` přijímá
+        `?collection=references` parametr (zatím všechno collections,
+        rozšířit na filter).
 
       **A.15.2 Hodinář picker (~3 h):**
       - Type-ahead nad `hodinari.ts` (104 jmen + aliasy + města).
