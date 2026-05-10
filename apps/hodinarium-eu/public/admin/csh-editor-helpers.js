@@ -140,11 +140,17 @@
         </span>
       </label>
       <div style="margin:1rem 0 .6rem;padding-top:.8rem;border-top:1px solid #444;font-size:.8rem;opacity:.7">
-        <strong>Pozn.:</strong> obě funkce jsou nezávislé, lze zapnout libovolnou
-        kombinaci. Spell-check funguje offline (data v prohlížeči), AI vyžaduje
-        síť (data jdou na Cloudflare).
+        <strong>Pozn.:</strong> všechny funkce jsou nezávislé, lze zapnout libovolnou
+        kombinaci. Spell-check + Vkládání odkazů funguje offline (data v prohlížeči),
+        AI vyžaduje síť (data jdou na Cloudflare).
       </div>
-      <div style="text-align:right;margin-top:.8rem">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:.8rem">
+        <button type="button" id="csh-set-help"
+                style="background:none;border:1px solid #888;color:#e8d8a8;
+                       padding:.35rem .8rem;border-radius:.25rem;cursor:pointer;
+                       font:inherit;font-size:.85rem">
+          ? Nápověda a zkratky
+        </button>
         <button type="button" id="csh-set-close"
                 style="background:none;border:1px solid #c9a85d;color:#e8d8a8;
                        padding:.35rem .8rem;border-radius:.25rem;cursor:pointer;
@@ -183,6 +189,148 @@
     modal.querySelector('#csh-set-spellcheck').addEventListener('change', applyAndEmit);
     modal.querySelector('#csh-set-ai').addEventListener('change', applyAndEmit);
     modal.querySelector('#csh-set-link-picker').addEventListener('change', applyAndEmit);
+
+    // Help modal
+    modal.querySelector('#csh-set-help').addEventListener('click', () => {
+      modal.style.display = 'none';
+      buildHelpModal().style.display = 'flex';
+    });
+  }
+
+  // ── Help modal ──────────────────────────────────────────────────
+
+  let helpEl = null;
+  function buildHelpModal() {
+    if (helpEl) return helpEl;
+    const m = document.createElement('div');
+    m.id = 'csh-help-modal';
+    m.setAttribute('role', 'dialog');
+    m.setAttribute('aria-label', 'Nápověda — pomocníci v editoru');
+    m.style.cssText =
+      'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);' +
+      'z-index:99999;background:#1a1a1a;color:#e8d8a8;padding:1.2rem 1.5rem;' +
+      'border-radius:.5rem;border:1px solid #c9a85d;' +
+      'box-shadow:0 8px 32px rgba(0,0,0,.7);' +
+      'font:14px/1.5 ui-serif,Georgia,serif;' +
+      'width:min(640px,calc(100vw - 2rem));max-height:85vh;' +
+      'display:none;flex-direction:column;overflow:hidden';
+    m.innerHTML = `
+      <h2 style="margin:0 0 .8rem;font-size:1.2rem;color:#c9a85d;font-weight:500">
+        Nápověda — pomocníci v editoru
+      </h2>
+      <div style="overflow-y:auto;flex:1;padding-right:.4rem">
+
+      <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem">📖 Český spell-checker</h3>
+      <p style="margin:.2rem 0 .5rem">
+        Slovník s českou morfologií (kyvadlu / kyvadlem / kyvadly atd.)
+        + <strong>1242 hodinářských termínů a jmen</strong> (Krečmer, setrvačka,
+        čtvrťové bití, Holešovice, …) z našeho slovníku, medailonů hodinářů
+        a soupisu věžních hodin.
+      </p>
+      <ul style="margin:.2rem 0 .8rem;padding-left:1.2rem">
+        <li>Anglicismy jako „balanc", „vlasová pružinka" — podtrženy</li>
+        <li>Funguje <strong>offline</strong> (cs dict v prohlížeči, ~6 MB stažení 1×)</li>
+        <li>Při prvním zapnutí cca 3–5 s init</li>
+      </ul>
+
+      <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem">🤖 AI našeptávač</h3>
+      <p style="margin:.2rem 0 .5rem">
+        Po pauze ~1.2 s v psaní AI navrhne pokračování věty — jako
+        <em>ghost-text</em> (lehce průhledný zelený text za kurzorem).
+        Používá Cloudflare Workers AI s Mistral 24B + náš slovníkový kontext.
+      </p>
+      <table style="margin:.4rem 0 .8rem;border-collapse:collapse;width:100%">
+        <tr><td style="padding:.15rem .5rem;width:9rem">
+          <kbd style="background:#2a2a2a;padding:.05rem .3rem;border-radius:.2rem;border:1px solid #444">Tab</kbd></td>
+          <td>přijme návrh (vloží do textu)</td></tr>
+        <tr><td style="padding:.15rem .5rem">
+          <kbd style="background:#2a2a2a;padding:.05rem .3rem;border-radius:.2rem;border:1px solid #444">Esc</kbd></td>
+          <td>odmítne návrh</td></tr>
+        <tr><td style="padding:.15rem .5rem">pokračuj psát</td>
+          <td>návrh zmizí, po další pauze přijde nový</td></tr>
+      </table>
+      <p style="margin:.2rem 0 .8rem;font-size:.85rem;opacity:.7">
+        Trigger: kontext ≥ 30 znaků, věta nekončí tečkou. Status indikátor
+        vpravo dole (žlutý = loading, zelený = navrhuje, červený = error).
+      </p>
+      <p style="margin:.2rem 0 .8rem;font-size:.85rem;opacity:.7">
+        ⚠ Privacy: text odchází na Cloudflare při každém požadavku. Pokud
+        je obsah citlivý, vypni AI v Pomocníci.
+      </p>
+
+      <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem">🔗 Vkládání odkazů</h3>
+      <p style="margin:.2rem 0 .5rem">
+        Modal pro snadné vkládání odkazů z 5 zdrojů:
+      </p>
+      <table style="margin:.4rem 0 .8rem;border-collapse:collapse;width:100%">
+        <tr><td style="padding:.15rem .5rem;width:9rem">
+          <kbd style="background:#2a2a2a;padding:.05rem .3rem;border-radius:.2rem;border:1px solid #444">⌘K</kbd> /
+          <kbd style="background:#2a2a2a;padding:.05rem .3rem;border-radius:.2rem;border:1px solid #444">Ctrl+K</kbd></td>
+          <td>otevře modal (kurzor v textarea)</td></tr>
+        <tr><td style="padding:.15rem .5rem">↑ ↓</td>
+          <td>navigace mezi výsledky</td></tr>
+        <tr><td style="padding:.15rem .5rem">
+          <kbd style="background:#2a2a2a;padding:.05rem .3rem;border-radius:.2rem;border:1px solid #444">Enter</kbd></td>
+          <td>vloží vybraný odkaz</td></tr>
+        <tr><td style="padding:.15rem .5rem">
+          <kbd style="background:#2a2a2a;padding:.05rem .3rem;border-radius:.2rem;border:1px solid #444">Esc</kbd></td>
+          <td>zavře modal</td></tr>
+      </table>
+      <ul style="margin:.2rem 0 .8rem;padding-left:1.2rem">
+        <li><strong>📍 Hodinárium</strong> — medailony, slovník, soupis, články</li>
+        <li><strong>ⓦ Wikipedia (cs)</strong> — heslo z české Wikipedie</li>
+        <li><strong>🏛 Wikidata</strong> — entity Q-id s cs label</li>
+        <li><strong>🏛 Památkový katalog NPÚ</strong> — kulturní památky</li>
+        <li><strong>🔗 Vlastní URL</strong> — manuální vstup (https://…)</li>
+      </ul>
+      <p style="margin:.2rem 0 .8rem;font-size:.85rem;opacity:.7">
+        Tip: označ slovo v textu před stiskem ⌘K → search input bude
+        pre-filled selection, klik na výsledek nahradí selection
+        markdown linkem <code>[text](url)</code>.
+      </p>
+
+      <h3 style="color:#c9a85d;font-size:1rem;margin:1rem 0 .3rem">⚙ Reset / odstranění problémů</h3>
+      <p style="margin:.2rem 0 .5rem;font-size:.85rem">
+        Pokud něco nefunguje, otevři DevTools console (F12 / Cmd+Opt+C) —
+        moduly logují své stavy:
+      </p>
+      <pre style="background:#0f0f0f;padding:.5rem .8rem;border-radius:.3rem;
+                  font-size:.8rem;overflow:auto;margin:.4rem 0;color:#9bd97a">[csh-spell] Activated.
+[csh-ai] Activated.
+[csh-link] Activated. ⌘K v textarea otevře link picker.</pre>
+      <p style="margin:.2rem 0 .5rem;font-size:.85rem">
+        Reset všech nastavení (do Console):
+      </p>
+      <pre style="background:#0f0f0f;padding:.5rem .8rem;border-radius:.3rem;
+                  font-size:.8rem;overflow:auto;margin:.4rem 0">localStorage.removeItem('csh-editor-settings'); location.reload();</pre>
+
+      </div>
+      <div style="margin-top:.8rem;padding-top:.8rem;border-top:1px solid #444;text-align:right">
+        <button type="button" id="csh-help-close"
+                style="background:#c9a85d;color:#1a1a1a;border:none;
+                       padding:.4rem 1rem;border-radius:.3rem;cursor:pointer;
+                       font:inherit;font-weight:500">
+          Zavřít
+        </button>
+      </div>
+    `;
+    document.body.appendChild(m);
+    helpEl = m;
+
+    m.querySelector('#csh-help-close').addEventListener('click', () => {
+      m.style.display = 'none';
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && m.style.display === 'flex') {
+        m.style.display = 'none';
+      }
+    });
+    document.addEventListener('mousedown', (e) => {
+      if (m.style.display !== 'flex') return;
+      if (m.contains(e.target)) return;
+      m.style.display = 'none';
+    });
+    return m;
   }
 
   // ── Public API ──────────────────────────────────────────────────
