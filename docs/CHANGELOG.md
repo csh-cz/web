@@ -57,6 +57,37 @@ Plná historie se najde v `git log` — toto je rychlý přehled milníků.
   `/admin/handbook/` jako Astro page, `/admin/tasks/` úkolovník místo
   GitHub Issues, „úkol č. N přijato" místo „Issue #N created".
 
+### D6 Slug standardizace — 121 souborů na kebab-case
+
+121 souborů přejmenováno z snake_case / CamelCase / ALLCAPS na
+kebab-case + ASCII fold + lowercase. 113 v `content/hodinarium-eu/`,
+9 v `content/kronika/` (hodinari/kroky/slovnik/soupis-veznich-hodin
+už byly kebab).
+
+User-approved overrides: `kvetinovehodiny_NMnM` →
+`kvetinovehodiny-nove-mesto-nad-metuji`, `muzeum_tyniste_n_orlici` →
+`muzeum-tyniste-nad-orlici`, `12_24` → `hodinky-12-24-ciferniku`.
+
+Pipeline:
+- `scripts/d6-slug-rename-preview.mjs` (dry-run mapping table)
+- `scripts/d6-slug-rename-apply.mjs` (ostrý rename)
+- `scripts/d6-grep-replace-links.mjs` (inline linky napříč repo)
+- `scripts/build-redirects.ts` rozšířený o `loadD6Renames()` —
+  generuje 301 redirects pro `/clanky/<old>`, `/<kategorie>/<old>`,
+  `/sbirka/karta/<old>`, `/kronika/<old>`
+
+Mapping JSON: `apps/hodinarium-eu/src/data/d6-slug-renames.json` —
+zachován pro budoucí audit/rollback.
+
+Bilance:
+- 121 frontmatter `slug:` fields updated
+- 161 inline link replacements v 48 souborech
+- 104 `relatedSlugs` replacements v `data/hodinari.ts`
+- ~360 nových 301 redirectů
+- 1 manual fix (vlasta-filler.mdx měla `/zajimavosti/slunecni_filler`,
+  správně `/sbirka/slunecni-filler` — kategorie i slug zároveň)
+- Build: 1208 stran (beze změny), validation passed.
+
 ### Editorial workflow — W-6 Sveltia editor banner
 
 - **`apps/hodinarium-eu/public/admin/csh-workflow-banner.js`** — script
