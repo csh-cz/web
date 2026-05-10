@@ -25,8 +25,14 @@
   let customWords = null;   // Set<string> z csh-spell-dict.json
   let loadPromise = null;   // dedupe simultaneous loads
   let observer = null;      // MutationObserver pro tracking textarea
-  const checkedNodes = new WeakSet(); // textareas s aktivním listenerem
-  const overlayMap = new WeakMap();   // textarea → overlay div
+  // Per-attach state — uchováváme listenery a původní spellcheck atribut,
+  // aby deactivate mohl plně uvolnit textarea pro fresh attach v dalším
+  // activate. WeakSet sice neunwineuje, ale my v deactivate musíme
+  // iterovat → použijeme Set a vyčistíme po deaktivaci.
+  /** @type {Map<HTMLTextAreaElement, {onInput: Function, origSpellcheck: boolean}>} */
+  const attachedState = new Map();
+  /** @type {Map<HTMLTextAreaElement, HTMLDivElement>} */
+  const overlayMap = new Map();
 
   /** Lazy-load nspell + cs dict + custom dict. Idempotentní (vrací
    *  cached promise). Po resolve je spellInstance.spell(word) ready. */
@@ -152,13 +158,11 @@
 
   /** Hook na jednu textarea. Debounce na input pro perf.
    *  Vypneme browser native spellcheck na této textarea — nechceme dva
-   *  parallel underline systémy. Původní hodnota se uloží na element pro
-   *  obnovu při deaktivaci. */
+   *  parallel underline systémy. Původní hodnota se uloží pro restore
+   *  v deactivate. */
   function attachToTextarea(textarea) {
-    if (checkedNodes.has(textarea)) return;
-    checkedNodes.add(textarea);
-    // Save původní spellcheck attr pro restore
-    textarea.dataset.cshOrigSpellcheck = textarea.spellcheck ? 'true' : 'false';
+    if (attachedState.has(textarea)) return;
+    const origSpellcheck = textarea.spellcheck;
     textarea.spellcheck = false;
     let timer = null;
     const onInput = () => {
@@ -167,6 +171,7 @@
     };
     textarea.addEventListener('input', onInput);
     textarea.addEventListener('focus', onInput);
+    attachedState.set(textarea, { onInput, origSpellcheck });
     // Initial render
     renderOverlay(textarea);
   }
@@ -226,8 +231,20 @@
       observer.disconnect();
       observer = null;
     }
-    // Remove overlays
-    document.querySelectorAll('.csh-spell-overlay').forEach((el) => el.remove());
+    // Detach all textareas: remove listenery, restore původní spellcheck,
+    // vyčistit attachedState Map. Nutné pro re-aktivaci ve stejné session
+    // (jinak attach v dalším activate skipne kvůli existujícímu záznamu).
+    for (const [ta, state] of attachedState) {
+      ta.removeEventListener('input', state.onInput);
+      ta.removeEventListener('focus', state.onInput);
+      ta.spellcheck = state.origSpellcheck;
+    }
+    attachedState.clear();
+    // Remove overlays + clear map
+    for (const overlay of overlayMap.values()) {
+      overlay.remove();
+    }
+    overlayMap.clear();
     active = false;
     console.info('[csh-spell] Deactivated.');
   }
