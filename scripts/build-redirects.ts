@@ -184,13 +184,27 @@ async function main() {
 
   // 2. /clanky/<slug> → /<kategorie>/<slug> pro články v nových kategoriích.
   // Sbírka má dvě subkategorie — evidenční karty jdou na /sbirka/karta/<slug>.
+  //
+  // Optimalizace 2026-05: evidenční karty (sbirka/karta) mají uniform
+  // prefix `inv-` — místo 290 explicit řádků jeden glob.
+  // Audit: katalog scan potvrzuje, že `inv-*` ⟺ sbirka/karta exkluzivně
+  // (žádný non-karta článek nezačíná `inv-`, žádná karta nezačíná jinak).
   lines.push('', '# Taxonomie 2026-04: /clanky/<slug> → /<kategorie>/<slug>');
+  // Override pro renamed karty MUSÍ být před glob — first-match-wins,
+  // glob `/clanky/inv-*` by jinak chytl old slug a redirektnul na neexistující URL.
+  lines.push('# Renamed karta slugs (override před glob):');
+  for (const [oldSlug, newSlug] of Object.entries(KARTY_SLUG_RENAMES)) {
+    lines.push(`/clanky/${oldSlug} /sbirka/karta/${newSlug} 301`);
+  }
+  lines.push('# Karty (290 záznamů, glob pattern):');
+  lines.push('/clanky/inv-* /sbirka/karta/inv-:splat 301');
+  // Non-karta články — per-entry, slugy nemají uniform prefix per kategorie
   let migratedCount = 0;
   for (const e of catalog) {
-    if (NEW_CATEGORIES.has(e.category)) {
-      lines.push(`/clanky/${e.slug} ${categoryHref(e)} 301`);
-      migratedCount += 1;
-    }
+    if (!NEW_CATEGORIES.has(e.category)) continue;
+    if (e.category === 'sbirka' && e.podsekce === 'karta') continue; // glob výše
+    lines.push(`/clanky/${e.slug} ${categoryHref(e)} 301`);
+    migratedCount += 1;
   }
 
   // 3. /clanky/<slug> → /kronika/<slug> pro přesunuté efemérní články (M4)
@@ -220,6 +234,7 @@ async function main() {
   }
 
   // 4d. Přejmenování slugů sbírkových karet — stabilní URL po opravě názvu/inv. č.
+  // /clanky/<old> variant je už v sekci 2 (před glob, aby override fungoval).
   lines.push('', '# Přejmenování sbírkových karet');
   for (const [oldSlug, newSlug] of Object.entries(KARTY_SLUG_RENAMES)) {
     lines.push(`/sbirka/karta/${oldSlug} /sbirka/karta/${newSlug} 301`);
