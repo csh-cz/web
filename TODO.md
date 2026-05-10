@@ -310,6 +310,43 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       s neangloruštěným/německy mluvícím čtenářem. Použije slovník-aware
       Mistral nebo Sonnet (V2). Privacy disclosure (text jde do AI).
 
+- [ ] **A.20 Universal link picker — sjednocené vkládání odkazů**
+      (~8–10 h, vysoká hodnota). Jeden modal pro všechny typy odkazů:
+      vnitřní (Hodinárium 1100+ stránek), Wikipedia (cs+en), Wikidata,
+      Památkový katalog NPÚ, vlastní URL. Klávesová zkratka Cmd+K v
+      textarea otevře modal s pre-filled selection.
+
+      4 paralelní search backends:
+      - **Internal:** /api/search/semantic (existing, bge-m3 nad
+        cross-collection corpus 1100+ položek)
+      - **Wikipedia:** wikipedia.org/w/api.php?action=opensearch
+        (cs default + en fallback)
+      - **Wikidata:** wbsearchentities API
+      - **NPÚ Památkový katalog:** ArcGIS REST (helper z Krečmer auditu
+        2026-05-08)
+
+      Frontend `csh-link-picker.js` v admin/, opt-in přes ⚙ Pomocníci.
+      Modal sekce: 📍 Hodinárium / ⓦ Wikipedia / 🏛 Wikidata /
+      🏛 NPÚ Památkový katalog / 🔗 Vlastní URL.
+
+      Klik na výsledek → markdown link s formátem podle zdroje:
+      - Internal: `[Václav Krečmer](/hodinari/vaclav-krecmer)`
+      - Wiki cs: `[heslo](https://cs.wikipedia.org/wiki/...)`
+      - Wiki en: `[heslo](https://en.wikipedia.org/wiki/... "EN")`
+      - NPÚ: `[Budova celní expozitury — NPÚ](.../...)`
+      - URL: prosté označení textu jako odkaz na vložené URL
+
+      V2 (~+5 h): **Auto-detect mode** — AI scanuje text za entity
+      (jména, místa, díla), tečkovaný podtisk pod nelinkovanými.
+      Hover → tooltip „Vložit odkaz?" s návrhy. Klik vloží.
+
+      Tato A.20 zahrnuje a nahrazuje samostatné pickery v A.15
+      (Citation/Hodinář/Slovník) — universal modal s smart filtering.
+      Citation picker zůstává specializovaný (vkládá strukturované
+      `<Ref bibKey/>` + frontmatter `references[]`, ne plain markdown
+      link), ale lze ho integrovat do stejného modal jako
+      „📚 Citace" sekce vedle „📍 Hodinárium".
+
 - ~~**T4 Lighthouse CI / Web Vitals**~~ ✅ Hotovo (commit pending).
       `@lhci/cli` v devDeps, `lighthouserc.json` config (8 URL napříč
       content typy), `.github/workflows/lighthouse.yml` post-deploy
