@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>CSH editor pomocníci — smoke test</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+  body { font:14px/1.5 ui-serif,Georgia,serif; background:#0f0f0f; color:#e8d8a8;
+         padding:1rem 2rem 6rem; max-width:900px; margin:0 auto; }
+  h1 { color:#c9a85d; }
+  h2 { color:#c9a85d; font-size:1rem; border-top:1px solid #333; padding-top:1rem; margin-top:2rem; }
+  textarea { width:100%; min-height:160px; padding:.6rem; background:#1a1a1a;
+             color:#e8d8a8; border:1px solid #444; font:14px/1.5 ui-serif,Georgia,serif; }
+  button { background:#c9a85d; color:#1a1a1a; border:none; padding:.4rem 1rem;
+           border-radius:.3rem; cursor:pointer; font:14px/1 ui-serif,Georgia,serif;
+           font-weight:500; margin-right:.5rem; }
+  button:hover { background:#e8d8a8; }
+  button.secondary { background:transparent; color:#e8d8a8; border:1px solid #888; }
+  pre { background:#000; padding:.6rem 1rem; border-radius:.3rem; overflow:auto;
+        max-height:240px; font-size:.78rem; color:#9bd97a; }
+  .pass { color:#9bd97a; }
+  .fail { color:#d97070; }
+  .info { color:#5b9dd9; }
+  .warn { color:#e8c97a; }
+  ul { padding-left:1.4rem; }
+  li { margin:.2rem 0; }
+  code { background:#2a2a2a; padding:.05rem .3rem; border-radius:.2rem; font-size:.92em; }
+</style>
+</head>
+<body>
+<h1>CSH editor pomocníci — smoke test</h1>
+<p>Interní QA stránka. Po deployi spusť tlačítko <strong>Run all</strong> a ověř, že
+všechny testy projdou. Pokud něco selže, je v testlogu detail.</p>
+<p class="info">Tato stránka je za <code>/admin/</code> — Cloudflare Access stejně jako
+zbytek admin tooling. Spuštění v inkognitu bez přihlášení nepoběží.</p>
+
+<h2>1. Test textarea</h2>
+<textarea id="ta">Hodinář Krečmer pracoval v Holešovicích na věžních hodinách s dlouhým kyvadelm. Mechanismus měl balanc s dlouhou vlasovou pružinkou. Roku 1905 přidal do soukolí setrvačku a vlásek.</textarea>
+
+<h2>2. Smoke test runner</h2>
+<button type="button" id="run">▶ Run all</button>
+<button type="button" id="reset" class="secondary">Reset settings</button>
+
+<h2>3. Testlog</h2>
+<pre id="log">Click "Run all" pro spuštění.</pre>
+
+<script src="/admin/csh-editor-helpers.js"></script>
+<script src="/admin/csh-spellchecker.js"></script>
+<script src="/admin/csh-link-picker.js"></script>
+<script src="/admin/csh-ai-naseptavac.js"></script>
+<script>
+  const log = document.getElementById('log');
+  function out(line, cls) {
+    const span = document.createElement('span');
+    if (cls) span.className = cls;
+    span.textContent = (cls ? (cls === 'pass' ? '✓ ' : cls === 'fail' ? '✗ ' : cls === 'info' ? '· ' : '! ') : '  ') + line;
+    log.appendChild(span);
+    log.appendChild(document.createTextNode('\n'));
+  }
+  function clear() { log.textContent = ''; }
+  function setMode(m) {
+    const settings = window.cshEditor.getSettings();
+    const next = { ...settings, spellcheckMode: m, spellcheck: m === 'csh' };
+    localStorage.setItem('csh-editor-settings', JSON.stringify(next));
+    window.dispatchEvent(new CustomEvent('csh-settings-changed', { detail: next }));
+  }
+  function waitFor(predicate, timeoutMs = 25000) {
+    return new Promise((resolve, reject) => {
+      const start = Date.now();
+      (function poll() {
+        if (predicate()) return resolve(Date.now() - start);
+        if (Date.now() - start > timeoutMs) return reject(new Error('timeout'));
+        setTimeout(poll, 100);
+      })();
+    });
+  }
+  const ta = document.getElementById('ta');
+  function state() {
+    const ov = document.querySelector('.csh-spell-overlay');
+    return {
+      mode: window.cshEditor.getSettings().spellcheckMode,
+      taSpellcheck: ta.spellcheck,
+      overlay: !!ov,
+      misspelled: ov ? Array.from(ov.querySelectorAll('.csh-misspelled')).map(e => e.textContent) : [],
+    };
+  }
+
+  document.getElementById('run').addEventListener('click', async () => {
+    clear();
+    let pass = 0, fail = 0;
+    const assert = (cond, msg) => {
+      if (cond) { out(msg, 'pass'); pass++; }
+      else { out(msg, 'fail'); fail++; }
+    };
+
+    out('Spouštím smoke test…', 'info');
+    out('Začátek: ' + new Date().toLocaleTimeString(), 'info');
+
+    // T1: Initial state (whatever current mode is)
+    out('', null);
+    out('T1: aktuální stav', 'info');
+    const s0 = state();
+    out(`mode=${s0.mode} taSpellcheck=${s0.taSpellcheck} overlay=${s0.overlay}`);
+
+    // T2: native mode
+    out('', null);
+    out('T2: → native (browser cs)', 'info');
+    setMode('native');
+    await new Promise(r => setTimeout(r, 200));
+    const s2 = state();
+    assert(s2.taSpellcheck === true, 'native: textarea.spellcheck === true');
+    assert(!s2.overlay, 'native: žádný náš overlay');
+
+    // T3: csh mode (waiting for ~6 MB load on first run)
+    out('', null);
+    out('T3: → CSH hodinářský (waiting až 25 s pro 1. load)', 'info');
+    setMode('csh');
+    try {
+      const elapsed = await waitFor(() => {
+        const ov = document.querySelector('.csh-spell-overlay');
+        return ov && ov.querySelectorAll('.csh-misspelled').length > 0;
+      });
+      out(`Loaded + flagged za ${elapsed} ms`, 'info');
+    } catch {
+      out('Timeout — CSH spellchecker se nenahrál', 'fail');
+      fail++;
+    }
+    const s3 = state();
+    assert(s3.taSpellcheck === false, 'csh: textarea.spellcheck === false (vypnutý browser native)');
+    assert(s3.overlay, 'csh: overlay vytvořen');
+    assert(s3.misspelled.includes('balanc'), 'csh: "balanc" podtržen (anglicismus)');
+    assert(s3.misspelled.includes('kyvadelm'), 'csh: "kyvadelm" podtržen (překlep)');
+    assert(!s3.misspelled.includes('Krečmer'), 'csh: "Krečmer" neflagged (custom dict)');
+    assert(!s3.misspelled.includes('Holešovicích'), 'csh: "Holešovicích" neflagged (cs Hunspell morfologie)');
+
+    // T4: off mode
+    out('', null);
+    out('T4: → off', 'info');
+    setMode('off');
+    await new Promise(r => setTimeout(r, 200));
+    const s4 = state();
+    assert(s4.taSpellcheck === false, 'off: textarea.spellcheck === false');
+    assert(!s4.overlay, 'off: overlay zhasnut');
+
+    // T5: csh again (cached, should be fast)
+    out('', null);
+    out('T5: → csh znovu (cached, instant)', 'info');
+    setMode('csh');
+    try {
+      const elapsed = await waitFor(() => {
+        const ov = document.querySelector('.csh-spell-overlay');
+        return ov && ov.querySelectorAll('.csh-misspelled').length > 0;
+      }, 5000);
+      out(`Re-aktivace za ${elapsed} ms (cached)`, 'info');
+    } catch {
+      out('Timeout — re-aktivace selhala (bug v deactivate?)', 'fail');
+      fail++;
+    }
+    const s5 = state();
+    assert(s5.overlay, 'csh #2: overlay znovu vytvořen');
+    assert(s5.misspelled.length >= 2, `csh #2: ${s5.misspelled.length} nálezů (≥ 2)`);
+
+    // T6: link picker available
+    out('', null);
+    out('T6: link picker', 'info');
+    assert(typeof window.cshLinkPicker !== 'undefined' || document.querySelector('script[src*="csh-link-picker"]'),
+           'link picker skript naloaded');
+
+    // T7: status badge
+    out('', null);
+    out('T7: status indikátor', 'info');
+    const badge = document.getElementById('csh-status-badge');
+    assert(!!badge, 'status badge mountnut do DOM');
+    if (badge) {
+      out(`badge text: "${badge.textContent}"`);
+    }
+
+    // Summary
+    out('', null);
+    out('────────────────────────', null);
+    if (fail === 0) {
+      out(`Všech ${pass} testů PASS`, 'pass');
+    } else {
+      out(`${pass} pass, ${fail} fail`, 'fail');
+    }
+  });
+
+  document.getElementById('reset').addEventListener('click', () => {
+    localStorage.removeItem('csh-editor-settings');
+    location.reload();
+  });
+</script>
+</body>
+</html>

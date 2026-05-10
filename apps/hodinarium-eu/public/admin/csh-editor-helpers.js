@@ -100,6 +100,49 @@
     });
     document.body.appendChild(btn);
 
+    // Status badge vedle ⚙ tlačítka — krátký indikátor co je aktivní.
+    // Klik otevře panel (stejně jako ⚙ tlačítko).
+    const status = document.createElement('button');
+    status.id = 'csh-status-badge';
+    status.type = 'button';
+    status.setAttribute('aria-label', 'Stav pomocníků v editoru');
+    status.style.cssText =
+      'position:fixed;bottom:.6rem;left:9.6rem;z-index:99998;' +
+      'background:transparent;color:#888;border:none;cursor:pointer;' +
+      'font:500 12px/1.4 ui-serif,Georgia,serif;letter-spacing:.02em;' +
+      'padding:.45rem 0;display:flex;align-items:center;gap:.5rem';
+    document.body.appendChild(status);
+    status.addEventListener('click', () => {
+      modal.style.display = modal.style.display === 'block' ? 'none' : 'block';
+    });
+
+    /** Re-render status badge based on current settings. Pomocníci buď
+     *  ON (jasné), OFF (dim), nebo loading (pro spell-check 1× po
+     *  zapnutí). */
+    function renderStatus(s) {
+      const parts = [];
+      // Spell-check
+      const mode = s.spellcheckMode || (s.spellcheck ? 'csh' : 'native');
+      if (mode === 'csh') {
+        parts.push('<span style="color:#c9a85d">📖 CSH</span>');
+      } else if (mode === 'native') {
+        parts.push('<span style="color:#888">📖 native</span>');
+      } else {
+        parts.push('<span style="color:#666;text-decoration:line-through">📖</span>');
+      }
+      // AI
+      parts.push(s.ai
+        ? '<span style="color:#9bd97a">🤖 AI</span>'
+        : '<span style="color:#666;text-decoration:line-through">🤖</span>');
+      // Link picker
+      parts.push(s.linkPicker
+        ? '<span style="color:#5b9dd9">🔗 ⌘K</span>'
+        : '<span style="color:#666;text-decoration:line-through">🔗</span>');
+      status.innerHTML = parts.join('<span style="opacity:.4">·</span>');
+    }
+    renderStatus(settings);
+    window.addEventListener('csh-settings-changed', (e) => renderStatus(e.detail));
+
     // Popover modal (skrytý)
     const modal = document.createElement('div');
     modal.id = 'csh-settings-modal';
@@ -213,10 +256,11 @@
     modal.querySelector('#csh-set-close').addEventListener('click', () => {
       modal.style.display = 'none';
     });
-    // Click outside to close
+    // Click outside to close — status badge je taky trigger, neuzavírat
+    // při kliku na něj (jinak se okamžitě zavře po otevření)
     document.addEventListener('click', (e) => {
       if (modal.style.display !== 'block') return;
-      if (modal.contains(e.target) || btn.contains(e.target)) return;
+      if (modal.contains(e.target) || btn.contains(e.target) || status.contains(e.target)) return;
       modal.style.display = 'none';
     });
 
