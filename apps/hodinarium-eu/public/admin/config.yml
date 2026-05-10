@@ -47,6 +47,43 @@ _editor_notes_field: &editor_notes_field
     - { name: text, label: 'Text', widget: text, required: true }
     - { name: noteKey, label: 'Klíč (pro resolve)', widget: string, required: false, hint: 'Volitelný identifikátor: hellich-stub, manual-edit-false, hodinar-stub, …' }
 
+# Editorial workflow — viz docs/design-editor-workflow-2026-05-10.md
+# a /admin/handbook/. Status čte úkolovník (/admin/tasks/) — non-ready
+# články se tam zobrazí. Pole je opt-in (default = ready, neviditelné v
+# úkolovníku). Lock je advisory; viz handbook.
+_workflow_field: &workflow_field
+  name: workflow
+  label: 'Workflow status (volitelné, pro úkolovník)'
+  widget: object
+  required: false
+  collapsed: true
+  hint: 'Když je status != ready, článek se objeví v /admin/tasks/. Default ready = mimo úkolovník.'
+  fields:
+    - name: status
+      label: 'Stav'
+      widget: select
+      required: false
+      default: ready
+      options:
+        - { label: 'Hotovo (publikováno)', value: ready }
+        - { label: 'K zabrání (todo)', value: todo }
+        - { label: 'Rozpracováno', value: in-progress }
+        - { label: 'K recenzi', value: review }
+    - { name: lockedBy, label: 'Zabráno editorem (GitHub username)', widget: string, required: false, hint: 'Volitelné. Advisory zámek — domluvte se.' }
+    - { name: lockedAt, label: 'Zabráno kdy (ISO datum)', widget: datetime, required: false, format: 'YYYY-MM-DDTHH:mm:ssZ', date_format: 'YYYY-MM-DD', time_format: 'HH:mm' }
+    - name: reviewers
+      label: 'Reviewers (GitHub usernames)'
+      widget: list
+      required: false
+      field: { name: username, label: 'Username', widget: string }
+    - name: reviewedBy
+      label: 'Schválili (GitHub usernames)'
+      widget: list
+      required: false
+      field: { name: username, label: 'Username', widget: string }
+    - { name: publicDuringEdit, label: 'Veřejnost vidí během editace?', widget: boolean, required: false, default: false, hint: 'Default OFF = non-ready článek je 404 pro veřejnost. Zapni jen u článků, které mají být live i během rozpracovanosti.' }
+    - { name: notes, label: 'Poznámky k workflow', widget: text, required: false }
+
 _reference_fields: &reference_fields
   - { name: title, label: 'Název', widget: string, required: true }
   - { name: url, label: 'URL', widget: string, required: false, hint: 'Volitelný odkaz' }
@@ -120,6 +157,7 @@ collections:
         default: bullet
         options: [bullet, numbered]
       - <<: *editor_notes_field
+      - <<: *workflow_field
       - { name: ogImage, label: 'OG obrázek (override)', widget: image, required: false, hint: 'Default = /og/<slug>.png; vlastní cesta /img/...' }
       - { name: thumbnail, label: 'Thumbnail (atlas/katalog)', widget: image, required: false }
       - name: relatedKarty
@@ -356,6 +394,7 @@ collections:
       - { name: lastModified, label: 'Last modified', widget: hidden }
       - { name: sourceCharset, label: 'Source charset', widget: hidden, default: 'utf-8' }
       - { name: scrapedAt, label: 'Scraped at', widget: hidden }
+      - <<: *workflow_field
       - { name: body, label: 'Volitelný popisný text', widget: markdown, required: false,
           hint: 'Volný text pod strukturovanými údaji. Můžeš sem napsat příběh exponátu, fotografie, kontext. Markdown formátování.' }
 
@@ -405,6 +444,7 @@ collections:
         required: false
         fields: *reference_fields
       - <<: *editor_notes_field
+      - <<: *workflow_field
       - { name: originalUrl, label: 'Original URL', widget: hidden }
       - { name: body, label: 'Tělo záznamu', widget: markdown }
 
@@ -446,6 +486,7 @@ collections:
         required: false
         fields: *reference_fields
       - <<: *editor_notes_field
+      - <<: *workflow_field
       - { name: body, label: 'Plný text medailonu', widget: markdown, required: false, hint: 'MDX — můžeš použít komponenty jako <Photo>.' }
 
   # ── 5) Spolkové stránky (horologie-cz) ──
@@ -473,4 +514,5 @@ collections:
       - { name: lastModified, label: 'Last modified', widget: hidden }
       - { name: sourceCharset, label: 'Source charset', widget: hidden, default: 'utf-8' }
       - { name: scrapedAt, label: 'Scraped at', widget: hidden }
+      - <<: *workflow_field
       - { name: body, label: 'Tělo stránky', widget: markdown }
