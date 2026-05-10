@@ -332,6 +332,35 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       Wikidata Qid (přes existing search), hodinař match (jméno →
       medailon link), datace heuristika.
 
+- ⚠ **A.21 Dead-link auditor** ~~(~3-4 h)~~ **V1 hotovo**
+      (commit pending). Skript `scripts/audit-dead-links.mjs` skenuje
+      content/ (7 collections), extrahuje externí URL z markdown body
+      i frontmatter (vnořené závorky parser, balanced-paren), HTTP
+      check (HEAD + GET fallback, concurrency 10, timeout 10 s),
+      Wayback Machine fallback pro mrtvé.
+
+      **Output:**
+      - `tmp/dead-links-{YYYY-MM-DD}.json` — strukturovaný report
+      - `docs/dead-links-audit-{YYYY-MM-DD}.md` — human-readable
+        per-soubor s návrhy REPLACE/REMOVE
+
+      **Baseline scan 2026-05-10:** 697 unikátních URL ve 7 dirs,
+      661 live, 36 dead (5.2 %). Z toho 1 s Wayback snapshotem.
+      Zbytek typicky 404 / timeout / fetch failed → kandidáti na
+      REMOVE. `pnpm deadlinks:audit`.
+
+      **CI workflow:** `.github/workflows/dead-links-weekly.yml`
+      cron neděle 04:00 UTC. Auto-commit aktualizovaného reportu,
+      drží 30 dní historie.
+
+      **V2 follow-up (~3 h):**
+      - Tlačítko v Sveltia editoru „Zkontroluj odkazy v tomto článku"
+        (per-article on-demand check, ne celý repo)
+      - GitHub Issue auto-creation pro nové dead links od posledního
+        runu (diff vs předchozí JSON report)
+      - Auto-PR návrh: replace dead URL na Wayback snapshot pokud
+        existuje (review by editor)
+
 - [ ] **A.19 Live preview cs ↔ de ↔ en** (~10 h). Editor píše v cs,
       sidebar zobrazuje AI překlad do DE/EN real-time. Pro spolupráci
       s neangloruštěným/německy mluvícím čtenářem. Použije slovník-aware

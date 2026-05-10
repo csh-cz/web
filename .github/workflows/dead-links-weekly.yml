@@ -1,0 +1,56 @@
+# Weekly dead-link audit napříč content/ — najde mrtvé externí URL,
+# pošle dotaz na Wayback Machine pro nejbližší snapshot, vygeneruje
+# report. Pokud novej dead link, vytvoří nebo aktualizuje GitHub Issue.
+#
+# Spouští se každou neděli ráno 04:00 UTC. Manual trigger přes
+# workflow_dispatch — pro debug nebo on-demand check.
+
+name: Dead-link audit (weekly)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Neděle 04:00 UTC (= 05:00 CET / 06:00 CEST). Pages CI v té době
+    # ne-aktivní → žádné race s deploy.
+    - cron: '0 4 * * 0'
+
+jobs:
+  audit:
+    name: Skenovat content/ a aktualizovat report
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write       # commit aktualizovaného reportu
+      issues: write         # create/update GitHub Issue se shrnutím
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # audit-dead-links.mjs jen Node std lib + yaml (přes lazy import).
+      # yaml je již v devDependencies, takže pnpm install OK; pro malou
+      # rychlost lze i samostatně `npm install yaml` (~5 s).
+      - name: Install yaml dep
+        run: npm install yaml
+
+      - name: Run dead-link audit
+        run: node scripts/audit-dead-links.mjs
+
+      - name: Commit aktualizovaný report
+        run: |
+          git config user.name 'csh-bot'
+          git config user.email 'noreply@orloj.eu'
+          # Smazat staré dated reporty starší 30 dní (drží jen aktuální + 4 týdny historie)
+          find docs -name 'dead-links-audit-*.md' -mtime +30 -delete 2>/dev/null || true
+          find tmp -name 'dead-links-*.json' -mtime +30 -delete 2>/dev/null || true
+          git add docs/dead-links-audit-*.md tmp/dead-links-*.json
+          if git diff --cached --quiet; then
+            echo "Žádné změny v reportu (= žádné nové dead links)."
+            exit 0
+          fi
+          DATE=$(date -u +%Y-%m-%d)
+          git commit -m "chore(deadlinks): weekly audit ${DATE}"
+          git push
