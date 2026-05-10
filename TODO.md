@@ -66,8 +66,6 @@ prosvítit články) a `pnpm search:rebuild` (corpus + embed).
 
 V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
 
-- [ ] **W-6 Editor banner v Sveltia** (~2 h) — `csh-workflow-banner.js`
-      upozornění při otevření locked článku.
 - [ ] **A.21 V2 dead-link auditor follow-ups** (~3 h):
       tlačítko v Sveltia editoru „Zkontroluj odkazy v tomto článku" (per-article
       on-demand check), GitHub Issue auto-creation pro nové dead links od
