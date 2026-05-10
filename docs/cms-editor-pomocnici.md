@@ -8,6 +8,108 @@ Default je vše vypnuté (kromě „Vkládání odkazů") — uživatel zapne
 co chce. Settings se uloží v prohlížeči (`localStorage`), takže se
 zachovají mezi návštěvami.
 
+## 📋 Úkolovník (editorial workflow)
+
+Stránka [`/admin/tasks/`](/admin/tasks/) zobrazuje rozpracované články
+napříč všemi content collections (clanky, hodinari, kroky, slovnik,
+soupis-veznich-hodin). V Sveltia toolbaru je tlačítko **📋 Úkoly**
+vlevo nahoře.
+
+**Stavy článku** (workflow.status):
+
+| Stav | Význam | Co s tím |
+|---|---|---|
+| `todo` | k zabrání | Někdo by ho měl začít upravovat |
+| `in-progress` | rozpracováno (zabráno editorem) | Sám nedělej, domluvte se |
+| `review` | k recenzi | Někdo má přečíst a schválit |
+| `ready` | hotovo, publikováno | Zmizí z úkolovníku |
+
+**Default:** žádný `workflow` field = `ready` = backwards-compatible
+(stejné chování jako dnes — všechny existing články fungují bez
+změny).
+
+### Frontmatter struktura
+
+```yaml
+---
+title: "..."
+draft: false               # existing — pokud true, jen editoři vidí
+workflow:                  # NEW — opt-in
+  status: 'in-progress'    # 'todo' | 'in-progress' | 'review' | 'ready'
+  lockedBy: 'petr'         # editor zabírající článek
+  lockedAt: '2026-05-10T08:00:00Z'  # ISO timestamp
+  reviewers: ['david']     # kdo má přečíst před uvolněním
+  reviewedBy: []           # kdo to schválil
+  publicDuringEdit: false  # zda viditelný i v rozpracovaném stavu
+  notes: |
+    Petr: chybí foto stroje, čekám na NPÚ
+---
+```
+
+### Lock model (advisory)
+
+Lock je **advisory** — Sveltia commits přímo na main, technicky
+nelze enforce. Pro CSH (5 editorů, sotva někdy 2 najednou na same
+article) je dohoda dostatečná:
+
+1. Editor klikne **📋 Úkoly** → najde článek → **Editovat**
+2. V Sveltia formuláři pod sekcí *Workflow status* nastaví:
+   - `status: in-progress`
+   - `lockedBy: <jméno>`
+   - `lockedAt: <aktuální timestamp>` (ISO 8601)
+3. Save → commit → ostatní editoři v úkolovníku vidí lock
+4. Když edituje další editor článek se zabraným locked stavem,
+   v Sveltia banner upozorní (V2 — zatím nutno zkontrolovat ručně
+   v úkolovníku)
+
+### Workflow přechody (V1 manuální)
+
+V V1 jsou stavy nastavovány **ručně v Sveltia formuláři**.
+V2 (TODO A.23.4) přidá tlačítka „Zabrat / Pošli k review /
+Schvaluji" v úkolovníku, které volají API endpoint pro automatickou
+změnu.
+
+```
+todo → in-progress    : editor nastaví status + lockedBy + lockedAt
+in-progress → review  : smaže lockedBy, status: review, doplň reviewers
+review → ready        : reviewer přidá své jméno do reviewedBy,
+                        editor smaže workflow field nebo nastaví
+                        status: ready (zmizí z úkolovníku)
+```
+
+### Public visibility logic
+
+| draft | status | publicDuringEdit | Veřejnost | Editor |
+|---|---|---|---|---|
+| true | (any) | (any) | ❌ 404 | ✅ s draft banner |
+| false | ready / null | (any) | ✅ | ✅ |
+| false | in-progress / review / todo | true | ✅ s WIP banner | ✅ |
+| false | in-progress / review / todo | false | ❌ 404 | ✅ s status banner |
+
+**Příklad workflow:**
+
+```yaml
+# Začínám psát článek o nové akvizici, zatím skrytý:
+workflow:
+  status: in-progress
+  lockedBy: petr
+  lockedAt: '2026-05-10T08:00:00Z'
+  publicDuringEdit: false  # default — veřejnost nevidí
+
+# Hotov, posílám Davidovi k recenzi:
+workflow:
+  status: review
+  reviewers: [david]
+
+# David schvaluje a uvolňuje:
+workflow:
+  status: ready
+  reviewedBy: [david]
+  reviewers: [david]
+
+# Nebo prostě smazat workflow field — = ready, default
+```
+
 ## 📖 Český spell-checker (hodinářský)
 
 **Co dělá:** podtrhne nepravopisná slova v editačních polích vlnitou

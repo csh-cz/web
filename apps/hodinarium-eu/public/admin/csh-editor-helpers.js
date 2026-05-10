@@ -220,6 +220,39 @@
       </h2>
       <div style="overflow-y:auto;flex:1;padding-right:.4rem">
 
+      <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem">📋 Úkolovník (editorial workflow)</h3>
+      <p style="margin:.2rem 0 .5rem">
+        Stránka <a href="/admin/tasks/" style="color:#c9a85d">/admin/tasks/</a>
+        ukazuje rozpracované články — kdo na čem pracuje, co čeká recenzi,
+        co je k zabrání. Default je vše „ready" (= žádný workflow field).
+      </p>
+      <p style="margin:.2rem 0 .5rem"><strong>Stavy článku:</strong></p>
+      <table style="margin:.4rem 0 .8rem;border-collapse:collapse;width:100%;font-size:.85rem">
+        <tr><td style="padding:.15rem .5rem;width:7rem">
+          <span style="color:#888">todo</span></td>
+          <td>k zabrání — někdo by ho měl začít upravovat</td></tr>
+        <tr><td style="padding:.15rem .5rem">
+          <span style="color:#d9a05b">in-progress</span></td>
+          <td>rozpracováno (zabráno editorem) — sám nedělej, domluvte se</td></tr>
+        <tr><td style="padding:.15rem .5rem">
+          <span style="color:#5b9dd9">review</span></td>
+          <td>k recenzi — někdo má přečíst a schválit</td></tr>
+        <tr><td style="padding:.15rem .5rem">
+          <span style="color:#4caf50">ready</span></td>
+          <td>hotovo, publikováno (zmizí z úkolovníku)</td></tr>
+      </table>
+      <p style="margin:.2rem 0 .5rem;font-size:.85rem;opacity:.7">
+        Stav a další pole (lockedBy, reviewers, …) editor zatím nastavuje
+        ručně v Sveltia formuláři pod sekcí <strong>Workflow status</strong>.
+        V2 přidá tlačítka „Zabrat / Pošli k review / Schvaluji" v úkolovníku.
+      </p>
+      <p style="margin:.2rem 0 .8rem;font-size:.85rem;opacity:.7">
+        <strong>Veřejnost vidí?</strong> Když status != ready a editor v
+        článku nastaví <code>publicDuringEdit: true</code>, návštěvník
+        vidí článek s WIP banner. Default <code>publicDuringEdit: false</code>
+        — neready článek je 404 pro veřejnost (jen editoři).
+      </p>
+
       <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem">📖 Český spell-checker</h3>
       <p style="margin:.2rem 0 .5rem">
         Slovník s českou morfologií (kyvadlu / kyvadlem / kyvadly atd.)
