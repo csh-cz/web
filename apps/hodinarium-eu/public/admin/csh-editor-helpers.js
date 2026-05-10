@@ -354,6 +354,43 @@
         markdown linkem <code>[text](url)</code>.
       </p>
 
+      <h3 style="color:#c9a85d;font-size:1rem;margin:1rem 0 .3rem">🌐 Kompatibilita prohlížečů</h3>
+      <table style="margin:.4rem 0 .8rem;border-collapse:collapse;width:100%;font-size:.85rem">
+        <thead>
+          <tr style="border-bottom:1px solid #c9a85d">
+            <th style="text-align:left;padding:.25rem .5rem">Prohlížeč</th>
+            <th style="text-align:left;padding:.25rem .5rem">Min. verze</th>
+            <th style="text-align:left;padding:.25rem .5rem">Stav</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style="padding:.2rem .5rem">Chrome / Edge / Brave</td>
+            <td style="padding:.2rem .5rem">79+ (2020)</td>
+            <td style="padding:.2rem .5rem">✅ doporučeno</td></tr>
+          <tr><td style="padding:.2rem .5rem">Firefox</td>
+            <td style="padding:.2rem .5rem">79+ (2020)</td>
+            <td style="padding:.2rem .5rem">✅ plně</td></tr>
+          <tr><td style="padding:.2rem .5rem">Safari (macOS)</td>
+            <td style="padding:.2rem .5rem">16+ (2022)</td>
+            <td style="padding:.2rem .5rem">✅ plně (DevTools v Settings → Advanced)</td></tr>
+          <tr><td style="padding:.2rem .5rem">Mobile Safari / Chrome</td>
+            <td style="padding:.2rem .5rem">—</td>
+            <td style="padding:.2rem .5rem">⚠ Sveltia není mobile-friendly</td></tr>
+        </tbody>
+      </table>
+      <p style="margin:.2rem 0 .5rem;font-size:.85rem;opacity:.85">
+        <strong>Sveltia rich-text mode:</strong> v některých verzích používá
+        <code>contenteditable</code> div — overlay nesedí. Workaround:
+        přepni na <em>Markdown source</em> view (přepínač v editoru).
+      </p>
+      <p style="margin:.2rem 0 .5rem;font-size:.85rem;opacity:.85">
+        <strong>V2 plán — CSH browser extension:</strong> rozšíří pomocníky
+        i mimo Sveltia (GitHub web editor, Notion, …). Cross-Chrome+Firefox,
+        sdílený slovník, distribuce přes Chrome Web Store + Firefox Add-ons.
+        Detail v <a href="https://github.com/csh-cz/web/blob/main/TODO.md"
+        style="color:#c9a85d">TODO.md A.22</a>.
+      </p>
+
       <h3 style="color:#c9a85d;font-size:1rem;margin:1rem 0 .3rem">⚙ Reset / odstranění problémů</h3>
       <p style="margin:.2rem 0 .5rem;font-size:.85rem">
         Pokud něco nefunguje, otevři DevTools console (F12 / Cmd+Opt+C) —

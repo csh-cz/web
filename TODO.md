@@ -361,6 +361,46 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       - Auto-PR návrh: replace dead URL na Wayback snapshot pokud
         existuje (review by editor)
 
+- [ ] **A.22 CSH browser extension** (~2-3 dny). Současné editor
+      pomocníky (spell-check, AI, link picker) fungují jen v
+      `/admin/` Sveltia — když editor píše obsah jinde (GitHub web
+      editor, Notion, Confluence, generic forms), pomocníci nejsou.
+
+      **Návrh:** WebExtension (cross-Chrome+Firefox, single codebase
+      přes WebExtension API). Funguje na **všech webech** kde editor
+      píše do `<textarea>` nebo `[contenteditable]`.
+
+      **Funkce:**
+      - Spell-check: stejný cs Hunspell + custom dict (~6.3 MB)
+        bundlovaný v extension package, žádné runtime stahování
+      - AI našeptávač: volá existing `/api/ai/suggest` na pages.dev
+        (s CORS allow rule pro extension origin)
+      - Link picker: ⌘K na libovolné stránce, search nad našimi
+        4 zdroji + URL
+      - **Right-click „Přidat do CSH slovníku"** — editor manuálně
+        flag-uje neznámé slovo, vytvoří GitHub Issue pro Davida
+
+      **Distribuce:**
+      - Chrome Web Store ($5 one-time publish fee)
+      - Firefox Add-ons (zdarma)
+      - Auto-update přes store API
+
+      **Effort:** ~2-3 dny:
+      - Day 1: extension manifest, content script wrappery
+      - Day 2: settings sync s page-level localStorage, right-click
+        menu, options page
+      - Day 3: store submission, screenshots, dokumentace
+
+      **Co tím získáme:**
+      - ✅ GitHub web editor (emergency fix bez Sveltia)
+      - ✅ Notion / Confluence pro draft texts
+      - ✅ Sdílený slovník napříč editory
+      - ✅ Auto-update přes browser
+
+      **Co ne:**
+      - VS Code / Sublime / lokální editory — to potřebuje LSP server
+        (~A.23 future)
+
 - [ ] **A.19 Live preview cs ↔ de ↔ en** (~10 h). Editor píše v cs,
       sidebar zobrazuje AI překlad do DE/EN real-time. Pro spolupráci
       s neangloruštěným/německy mluvícím čtenářem. Použije slovník-aware
