@@ -19,22 +19,22 @@ Bohužel některé loňské exponáty již v expozici nebudou. To se týká repl
 [![barokní stroj - před dokončením restaurování](/img/vez/Kli/foto_0001.jpg)](/img/vez/Kli/f/foto_0001.jpg) Hlavní hodinářské exponáty - deset věžních strojů
 
 - [starý soběslavský stroj](/clanky/vez1), "čtvrtek" ([bicí stroj](/slovnik/bici-stroj) jednotlivých čtvrtí), ručkové převody
-- současný věžní stroj [Elektročas 1959](/clanky/vez_elektrocas1959)
-- [barokní věžní ministroj snad z 18 století](/clanky/vez_Zlate_Hory)
+- současný věžní stroj [Elektročas 1959](/sbirka/vez-elektrocas1959)
+- [barokní věžní ministroj snad z 18 století](/sbirka/vez-zlate-hory)
 - [barokní špindlový stroj](vez_kli.htm) věžních hodin
 - barokní špindlový [stroj věžních hodin z obce Budislav](vez_budislav.htm)
-- [stroj věžních hodin 1884 - Podmokly](/clanky/vez_decin)
-- soustrojí [Prokeš 1868](/clanky/bychory_prokes1) za zámku Býchory včetně cimbálů a zvonícího stroje
-- stroj věžních hodin - [Horní Prysk](/clanky/vez_Prysk)
-- [věžní rozvody](/clanky/bychory_dalsi_kola) z obce Svinky, samostatné ručkové převody, rozvodové tyče a pod.
+- [stroj věžních hodin 1884 - Podmokly](/sbirka/vez-decin)
+- soustrojí [Prokeš 1868](/sbirka/bychory-prokes1) za zámku Býchory včetně cimbálů a zvonícího stroje
+- stroj věžních hodin - [Horní Prysk](/sbirka/vez-prysk)
+- [věžní rozvody](/sbirka/bychory-dalsi-kola) z obce Svinky, samostatné ručkové převody, rozvodové tyče a pod.
 
 - Nová produkce je zastoupena skeletovými hodinymi Kavalír (více na [samostatné stránce](http://www.kavalir.cz/hodiny/)) a také poněkud bláznivými hodinami s indikací času cyklistickým řetězem v čtvrtorlojním dělení (2. obrázek vpravo).
 
 ### Hlavní zvonařské exponáty:
 
-- [zvon Petr Pavel](/clanky/zvon_petr_pavel)
-- [zvon Petr Vok](/clanky/zvon_petr_vok)
-- [zvonařská expozic](/clanky/zvony_uvod)e, postup výroby, ukázka forem, kování zvonů, ...
+- [zvon Petr Pavel](/sbirka/zvon-petr-pavel)
+- [zvon Petr Vok](/sbirka/zvon-petr-vok)
+- [zvonařská expozic](/sbirka/zvony-uvod)e, postup výroby, ukázka forem, kování zvonů, ...
 
 ### Minivýstavy:
 

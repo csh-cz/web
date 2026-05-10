@@ -105,11 +105,11 @@ V {} závorkách uvedena hloubka včetně [bicího stroje](/slovnik/bici-stroj),
 
 **Další stránky:**
 
-- jedny z [17\. století](/clanky/svarcvaldky_17stol) ??
-- [stroje Švarcvaldek](/clanky/svarcvaldky_stroje)
-    - [stroj polodřevěný](/clanky/svarcvaldky_stroje_polodrev)
-    - [stroj štolových hodin](/clanky/svarcvaldky_stroje2)
-- [Čtvrťový bicí stroj "Das Surrerwerk"](/clanky/svarcvaldky_surrerwerk)
+- jedny z [17\. století](/konstrukce/svarcvaldky-17stol) ??
+- [stroje Švarcvaldek](/konstrukce/svarcvaldky-stroje)
+    - [stroj polodřevěný](/konstrukce/svarcvaldky-stroje-polodrev)
+    - [stroj štolových hodin](/konstrukce/svarcvaldky-stroje2)
+- [Čtvrťový bicí stroj "Das Surrerwerk"](/konstrukce/svarcvaldky-surrerwerk)
 - [HODINY BUDÍČKOVÉ](/clanky/budiky2) klinkající na zvonek
 - [Lenzkirch - Rolls-Royce ze Schwarzwaldu](/clanky/lenzkirch)
 

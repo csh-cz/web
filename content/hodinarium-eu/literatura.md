@@ -72,4 +72,4 @@ tldr: 'O hodinách jsme četli spoustu knížek. Ještě víc jsme jich nečetli
 ## Media
 
 - Střihový pořad z archivu ČT [Jak šel čas](http://www.ceskatelevize.cz/porady/10116288585-archiv-ct24/218411058210010/video/)
-- [Starosti s časem z roku 1977](https://www.youtube.com/watch?v=_64lBU2LJC4) Dobrý film o měření času s důrazem na systém [OMA 50](/clanky/synchronizace_hodin). (Vysílač OMA 50 vypnut v roce 1995.)
+- [Starosti s časem z roku 1977](https://www.youtube.com/watch?v=_64lBU2LJC4) Dobrý film o měření času s důrazem na systém [OMA 50](/konstrukce/synchronizace-hodin). (Vysílač OMA 50 vypnut v roce 1995.)

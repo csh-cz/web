@@ -1,0 +1,611 @@
+{
+  "generatedAt": "2026-05-10T21:04:35.404Z",
+  "count": 121,
+  "renames": [
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "12_24",
+      "newId": "hodinky-12-24-ciferniku"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "Arduino_IBM",
+      "newId": "arduino-ibm"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "Arduino_Solari",
+      "newId": "arduino-solari"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "GPS_Sakul",
+      "newId": "gps-sakul"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "Lantime_M100",
+      "newId": "lantime-m100"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "RickStanley",
+      "newId": "rick-stanley"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "TimHunkin",
+      "newId": "tim-hunkin"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "TimeSlider",
+      "newId": "time-slider"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "arduino_PPS",
+      "newId": "arduino-pps"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "astro2_NTP",
+      "newId": "astro2-ntp"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "astronomicke_Sauter",
+      "newId": "astronomicke-sauter"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "atomove_kapesni",
+      "newId": "atomove-kapesni"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "bychory_dalsi_kola",
+      "newId": "bychory-dalsi-kola"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "bychory_prokes1",
+      "newId": "bychory-prokes1"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "cas_internet1",
+      "newId": "cas-internet1"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "cas_internet2",
+      "newId": "cas-internet2"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "casova_pasma",
+      "newId": "casova-pasma"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "casovy_zamek",
+      "newId": "casovy-zamek"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "co_pisi_jini",
+      "newId": "co-pisi-jini"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "decin_NTP",
+      "newId": "decin-ntp"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "decin_Wenzel_Mellner",
+      "newId": "decin-wenzel-mellner"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "decin_bici_stroje",
+      "newId": "decin-bici-stroje"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "decin_chronulator",
+      "newId": "decin-chronulator"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "decin_elektrifikace",
+      "newId": "decin-elektrifikace"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "decin_flatbed",
+      "newId": "decin-flatbed"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "decin_galerie",
+      "newId": "decin-galerie"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "decin_jednotny_cas",
+      "newId": "decin-jednotny-cas"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "decin_patek",
+      "newId": "decin-patek"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "decin_regulaceIBM",
+      "newId": "decin-regulace-ibm"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "decin_velika_ves",
+      "newId": "decin-velika-ves"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "decin_vypousteny",
+      "newId": "decin-vypousteny"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "decin_zamek",
+      "newId": "decin-zamek"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "elektromagneticke_segmenty",
+      "newId": "elektromagneticke-segmenty"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "fake_atomove_hodiny",
+      "newId": "fake-atomove-hodiny"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "flying_pendulum",
+      "newId": "flying-pendulum"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "hainz_natahovani",
+      "newId": "hainz-natahovani"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "kalendar_rimsky",
+      "newId": "kalendar-rimsky"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "kapesni_orloj",
+      "newId": "kapesni-orloj"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "kardasova_recice",
+      "newId": "kardasova-recice"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "kvetinovehodiny_Chomutov",
+      "newId": "kvetinovehodiny-chomutov"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "kvetinovehodiny_NMnM",
+      "newId": "kvetinovehodiny-nove-mesto-nad-metuji"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "line_kyvadlo",
+      "newId": "line-kyvadlo"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "listkove_kohler",
+      "newId": "listkove-kohler"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "mereni_casu",
+      "newId": "mereni-casu"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzea_cr",
+      "newId": "muzea-cr"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_aschau_burgenland",
+      "newId": "muzeum-aschau-burgenland"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_beyer_zurich",
+      "newId": "muzeum-beyer-zurich"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_chemnitz",
+      "newId": "muzeum-chemnitz"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_furtwangen",
+      "newId": "muzeum-furtwangen"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_gdansk_marien",
+      "newId": "muzeum-gdansk-marien"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_gdansk_zegarow_wiezowych",
+      "newId": "muzeum-gdansk-zegarow-wiezowych"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_glashutte",
+      "newId": "muzeum-glashutte"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_jindrisska_vez",
+      "newId": "muzeum-jindrisska-vez"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_kadan_orloj",
+      "newId": "muzeum-kadan-orloj"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_klementinum",
+      "newId": "muzeum-klementinum"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_mih_chaux_de_fonds",
+      "newId": "muzeum-mih-chaux-de-fonds"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_mnichovo_hradiste",
+      "newId": "muzeum-mnichovo-hradiste"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_olomouc_vmo",
+      "newId": "muzeum-olomouc-vmo"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_ostravske",
+      "newId": "muzeum-ostravske"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_patek_philippe",
+      "newId": "muzeum-patek-philippe"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_pillichsdorf",
+      "newId": "muzeum-pillichsdorf"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_radnicni_vez_prostejov",
+      "newId": "muzeum-radnicni-vez-prostejov"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_royal_observatory",
+      "newId": "muzeum-royal-observatory"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_stara_bystrica",
+      "newId": "muzeum-stara-bystrica"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_tyniste_n_orlici",
+      "newId": "muzeum-tyniste-nad-orlici"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_waldmunchen",
+      "newId": "muzeum-waldmunchen"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "muzeum_wien",
+      "newId": "muzeum-wien"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "perpetum_mobile",
+      "newId": "perpetum-mobile"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "podruzne_sekundove",
+      "newId": "podruzne-sekundove"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "prehled_zvonu",
+      "newId": "prehled-zvonu"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "propeller_clock",
+      "newId": "propeller-clock"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "radiotelegraficke_signaly",
+      "newId": "radiotelegraficke-signaly"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "rizeni_kyvadla",
+      "newId": "rizeni-kyvadla"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "segmentovky_s_prekladem",
+      "newId": "segmentovky-s-prekladem"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "skymaster_ghost",
+      "newId": "skymaster-ghost"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "slunecni_digi",
+      "newId": "slunecni-digi"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "slunecni_filler",
+      "newId": "slunecni-filler"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "slunecni_polarizacni",
+      "newId": "slunecni-polarizacni"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "svarcvaldky_17stol",
+      "newId": "svarcvaldky-17stol"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "svarcvaldky_18stol",
+      "newId": "svarcvaldky-18stol"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "svarcvaldky_hraci",
+      "newId": "svarcvaldky-hraci"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "svarcvaldky_stroje",
+      "newId": "svarcvaldky-stroje"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "svarcvaldky_stroje2",
+      "newId": "svarcvaldky-stroje2"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "svarcvaldky_stroje_polodrev",
+      "newId": "svarcvaldky-stroje-polodrev"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "svarcvaldky_surrerwerk",
+      "newId": "svarcvaldky-surrerwerk"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "synchron_bici",
+      "newId": "synchron-bici"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "synchronizace_hodin",
+      "newId": "synchronizace-hodin"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "vez_Budislav",
+      "newId": "vez-budislav"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "vez_Kli",
+      "newId": "vez-kli"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "vez_Prysk",
+      "newId": "vez-prysk"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "vez_Zlate_Hory",
+      "newId": "vez-zlate-hory"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "vez_decin",
+      "newId": "vez-decin"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "vez_elektrocas1959",
+      "newId": "vez-elektrocas1959"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "vezni_muzejicko_evropa",
+      "newId": "vezni-muzejicko-evropa"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "vezni_zikmund1",
+      "newId": "vezni-zikmund1"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "vodni_B_Gitton",
+      "newId": "vodni-b-gitton"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "vodni_budik",
+      "newId": "vodni-budik"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "vodni_jegorov",
+      "newId": "vodni-jegorov"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "vodni_minutky",
+      "newId": "vodni-minutky"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "vodni_odkazy",
+      "newId": "vodni-odkazy"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "zvon_petr_pavel",
+      "newId": "zvon-petr-pavel"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "zvon_petr_vok",
+      "newId": "zvon-petr-vok"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "zvony_uvod",
+      "newId": "zvony-uvod"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "zvony_vyroba",
+      "newId": "zvony-vyroba"
+    },
+    {
+      "collection": "kronika",
+      "oldId": "decin_aktual0",
+      "newId": "decin-aktual0"
+    },
+    {
+      "collection": "kronika",
+      "oldId": "decin_fotobrezen2017",
+      "newId": "decin-fotobrezen2017"
+    },
+    {
+      "collection": "kronika",
+      "oldId": "decin_fotolistopad2018",
+      "newId": "decin-fotolistopad2018"
+    },
+    {
+      "collection": "kronika",
+      "oldId": "decin_toulava_kamera2016",
+      "newId": "decin-toulava-kamera2016"
+    },
+    {
+      "collection": "kronika",
+      "oldId": "sezona2012_foto_marusak",
+      "newId": "sezona2012-foto-marusak"
+    },
+    {
+      "collection": "kronika",
+      "oldId": "vez_instalace1",
+      "newId": "vez-instalace1"
+    },
+    {
+      "collection": "kronika",
+      "oldId": "vez_provoz2011",
+      "newId": "vez-provoz2011"
+    },
+    {
+      "collection": "kronika",
+      "oldId": "vez_signatury",
+      "newId": "vez-signatury"
+    },
+    {
+      "collection": "kronika",
+      "oldId": "vezni_muzejicko",
+      "newId": "vezni-muzejicko"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "ATO",
+      "newId": "ato"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "Arduino",
+      "newId": "arduino"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "ESV3",
+      "newId": "esv3"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "Kappa",
+      "newId": "kappa"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "NTPH",
+      "newId": "ntph"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "PRS10",
+      "newId": "prs10"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "Staiger",
+      "newId": "staiger"
+    },
+    {
+      "collection": "hodinarium-eu",
+      "oldId": "Timometer",
+      "newId": "timometer"
+    }
+  ]
+}

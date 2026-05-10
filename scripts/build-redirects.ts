@@ -128,6 +128,50 @@ const HODINARI_SLUG_RENAMES: Record<string, string> = {
 };
 
 /**
+ * D6 Slug standardizace 2026-05-10 — 121 souborů přejmenováno z
+ * snake_case / CamelCase na kebab-case. Mapping je v
+ * `apps/hodinarium-eu/src/data/d6-slug-renames.json` (auto-generated
+ * při `pnpm d6:rename`).
+ *
+ * Build-redirects čte mapping a vyrobí 301 redirects:
+ *   /clanky/<oldId> → /<kategorie>/<newId>      (legacy /clanky/* path)
+ *   /<kategorie>/<oldId> → /<kategorie>/<newId> (přímý starý URL)
+ *   /kronika/<oldId> → /kronika/<newId>         (kronika collection)
+ */
+async function loadD6Renames(catalog: CatalogEntry[], kronikaSlugs: Set<string>):
+  Promise<Array<{ oldUrl: string; newUrl: string }>> {
+  const mappingPath = join(ROOT, 'apps/hodinarium-eu/src/data/d6-slug-renames.json');
+  let data: { renames: Array<{ collection: string; oldId: string; newId: string }> };
+  try {
+    data = JSON.parse(await readFile(mappingPath, 'utf-8'));
+  } catch {
+    return [];
+  }
+  const out: Array<{ oldUrl: string; newUrl: string }> = [];
+  for (const r of data.renames) {
+    if (r.collection === 'hodinarium-eu') {
+      const newEntry = catalog.find((c) => c.slug === r.newId);
+      if (!newEntry) continue;
+      const newUrl = newEntry.category === 'sbirka' && newEntry.podsekce === 'karta'
+        ? `/sbirka/karta/${r.newId}`
+        : `/${newEntry.category}/${r.newId}`;
+      // Legacy /clanky/<old>
+      out.push({ oldUrl: `/clanky/${r.oldId}`, newUrl });
+      // Direct /<kategorie>/<old> — zkusit aktuální kategorii articlu
+      out.push({ oldUrl: `/${newEntry.category}/${r.oldId}`, newUrl });
+      // Karta-specific path
+      if (newEntry.category === 'sbirka' && newEntry.podsekce === 'karta') {
+        out.push({ oldUrl: `/sbirka/karta/${r.oldId}`, newUrl });
+      }
+    } else if (r.collection === 'kronika') {
+      out.push({ oldUrl: `/kronika/${r.oldId}`, newUrl: `/kronika/${r.newId}` });
+      out.push({ oldUrl: `/clanky/${r.oldId}`, newUrl: `/kronika/${r.newId}` });
+    }
+  }
+  return out;
+}
+
+/**
  * Přejmenování slugů sbírkových karet (`/sbirka/karta/<slug>`).
  * Format: starý slug → nový slug.
  */
@@ -160,6 +204,7 @@ async function main() {
   const index: Index = JSON.parse(raw);
   const catalog: CatalogEntry[] = JSON.parse(await readFile(CATALOG_PATH, 'utf-8'));
   const kronikaSlugs = await loadKronikaSlugs();
+  const d6Renames = await loadD6Renames(catalog, kronikaSlugs);
 
   // CF Pages limit (deploy 2026-05-10 prokázal): po cca 325 valid rules
   // přestane parsovat zbytek. Proto jsou rules seřazeny **podle priority**
@@ -191,6 +236,12 @@ async function main() {
   lines.push('', '# Konsolidace článků M5.1+ — staré slugy → anchor evergreen');
   for (const [slug, dst] of Object.entries(MERGED_INTO)) {
     lines.push(`/clanky/${slug} ${dst} 301`);
+  }
+
+  // D6 Slug standardizace 2026-05-10 — 121 souborů snake_case → kebab-case
+  lines.push('', `# D6 Slug standardizace (2026-05-10): ${d6Renames.length} redirects`);
+  for (const r of d6Renames) {
+    lines.push(`${r.oldUrl} ${r.newUrl} 301`);
   }
 
   // Přejmenování hodinářů

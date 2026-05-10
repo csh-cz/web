@@ -43,7 +43,7 @@ scrapedAt: "2026-04-27T17:36:37.648Z"
 
 ## Jiná možnost
 
-**J**eště odvážnější hypotéza rovněž předpokládá, že rám hodin pochází z konce 15. století. Nikoliv však z prvních soběslavských hodin, ale z legendárních hodin, které postavil mistr Hanuš, tedy Jan Růže, v roce 1493 pro Jindřichův Hradec. Tyto hodiny se podle mínění některých autorů mají nalézat ve věži v Kardašově Řečici. Podle našeho názoru tam nejsou. Ve věži jsou hodiny podstatně mladší cca z roku 1800, rozhodně nemají gotické prvky. **[Více](/clanky/kardasova_recice)** v samostatné stránce.
+**J**eště odvážnější hypotéza rovněž předpokládá, že rám hodin pochází z konce 15. století. Nikoliv však z prvních soběslavských hodin, ale z legendárních hodin, které postavil mistr Hanuš, tedy Jan Růže, v roce 1493 pro Jindřichův Hradec. Tyto hodiny se podle mínění některých autorů mají nalézat ve věži v Kardašově Řečici. Podle našeho názoru tam nejsou. Ve věži jsou hodiny podstatně mladší cca z roku 1800, rozhodně nemají gotické prvky. **[Více](/virtualni-muzeum/kardasova-recice)** v samostatné stránce.
 
 **E**xistuje tedy teoretická možnost, že hodiny legendárního mistra Hanuše byly v Jindřichově Hradci někdy v 17. století demontovány. Rám z těch hodin kovaný podobně jako Pražský orloj pak byl roku 1677 Němcem Janem Möltzerem, hodinářem z Jindřichova Hradce použit pro postavení nových soběslavských hodin. Žádné přímé důkazy to však nepotvrzují. Je to zatím otevřený badatelský problém.
 

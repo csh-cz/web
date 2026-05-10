@@ -27,10 +27,10 @@ I dnes se můžeme setkat s novými vodními hodinami. Nemají však za úkol pr
 Na této a dalších stránkách uvidíte několik ukázek nádherných děl sochařů či architektů i bláznivých nápadů stavitelů vodních hodin. Na stránce jsou například fotografie hodin z dílny sochaře Elmsteinera z Rakouska.Dále si pak můžete prohlédnout:
 
 - **[Velmi zajímavé "vodní hodiny" ve foyer kongresové haly hotelu Holiday Inn Brno.](/clanky/vlachynsky)** Hodiny vyrobilo pasířství Matys v roce 2001 podle návrhu **ing. arch. Vlachynského a ing. arch. Foretníka** **\- [Atelier 90](http://www.atelier90.cz/)**.
-- **[Hodiny protékajícího času - Bernard Gitton](/clanky/vodni_B_Gitton)**
-- **[Zahradní hodiny](/clanky/vodni_jegorov)**, které postavil pan MUDr. Jegorov.
-- Hodně zvláštní [**vodní hodiny na molu Southwold.**](/clanky/TimHunkin)
+- **[Hodiny protékajícího času - Bernard Gitton](/sbirka/vodni-b-gitton)**
+- **[Zahradní hodiny](/sbirka/vodni-jegorov)**, které postavil pan MUDr. Jegorov.
+- Hodně zvláštní [**vodní hodiny na molu Southwold.**](/virtualni-muzeum/tim-hunkin)
 
-- Další informace o vodních hodinách najdete také na stránce **[odkazů](/clanky/vodni_odkazy)**
+- Další informace o vodních hodinách najdete také na stránce **[odkazů](/sbirka/vodni-odkazy)**
 
-**P**okud budeme pojem vodní hodiny chápat v širším slova smyslu, můžeme sem zařadit ještě [**vodní minutku**](vodn%C3%A1_minutka.htm), či nápad na [**vodní budík**](/clanky/vodni_budik). Těžko sem ale zařadíme hodiny, které se také jako vodní začaly označovat, ačkoliv jde o hodiny elektrické na baterii, kde jako elektrolyt působí voda.
+**P**okud budeme pojem vodní hodiny chápat v širším slova smyslu, můžeme sem zařadit ještě [**vodní minutku**](vodn%C3%A1_minutka.htm), či nápad na [**vodní budík**](/sbirka/vodni-budik). Těžko sem ale zařadíme hodiny, které se také jako vodní začaly označovat, ačkoliv jde o hodiny elektrické na baterii, kde jako elektrolyt působí voda.
