@@ -78,7 +78,10 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
       replace dead URL na Wayback snapshot pokud existuje.
 - [ ] **A.13 V2 spell-check** — right-click suggestion menu, CI workflow
       pro rebuild dictionary při každém content commitu (žádný drift
-      mezi repo daty a dictionary).
+      mezi repo daty a dictionary). Plus: **doplnit „Hodinárium" do
+      custom dict** (live test 2026-05-10 odhalil, že tvar „Hodinária"
+      se podtrhává — cs Hunspell ho nezná, builder skript musí přidat
+      základní tvar + pádové formy).
 - [ ] **A.20 V2 link picker — auto-detect mode** (~5 h) — AI scanuje text
       za entity (jména, místa, díla), tečkovaný podtisk pod nelinkovanými.
       Hover → tooltip „Vložit odkaz?".
