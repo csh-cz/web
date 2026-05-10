@@ -50,6 +50,26 @@ const sources = {
 /** Set kanonických slov, deduplikované case-sensitive (Krečmer ≠ krečmer). */
 const words = new Set();
 
+/** Institucionální / brand-specific termíny, které cs Hunspell nezná
+ *  vůbec (= morfologie nemůže rozšířit) a v repo datech se neobjevují
+ *  jako data record. Live test 2026-05-10 odhalil, že „Hodinária"
+ *  (genitiv „Hodinárium") se podtrhává — Hunspell slovo nezná, takže
+ *  pádové formy musíme přidat ručně.
+ *
+ *  Add: základní tvar + 6 pádů (sg) + 6 pádů (pl) podle vzoru.
+ *  „Hodinárium" = vzor „město": muzeum/muzea/muzeu/muzeum/muzeu/muzeem,
+ *                                muzea/muzeí/muzeím/muzea/muzeích/muzei. */
+const INSTITUTIONAL_TERMS = [
+  // Hodinárium (název muzea ČSH v Děčíně) — vzor „město", neuter
+  'Hodinárium',  // nom sg / akuz sg
+  'Hodinária',   // gen sg
+  'Hodináriu',   // dat sg / lok sg
+  'Hodináriem',  // instr sg
+  // ČSH (zkratka — Hunspell zná velká písmena)
+  'ČSH',
+];
+for (const t of INSTITUTIONAL_TERMS) words.add(t);
+
 /** Krátké/služební cs+en stop words — bez lexikálního obsahu, pro
  *  spell-checker nemají hodnotu (browser native dict je má všechny). */
 const STOPWORDS = new Set([

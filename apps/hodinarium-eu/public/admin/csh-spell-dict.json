@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-09T21:59:22.671Z",
+  "generatedAt": "2026-05-10T16:53:13.420Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 57,
@@ -8,7 +8,7 @@
     "hodinariTs": 104,
     "soupis": 396
   },
-  "count": 1242,
+  "count": 1247,
   "words": [
     "Abraham",
     "Accutron",
@@ -167,6 +167,7 @@
     "Český",
     "Činěves",
     "Čistá",
+    "ČSH",
     "čtvrťové",
     "Danek",
     "Daněk",
@@ -306,6 +307,10 @@
     "Hluboš",
     "Hlušice",
     "hodin",
+    "Hodinária",
+    "Hodináriem",
+    "Hodináriu",
+    "Hodinárium",
     "hodinarmarek",
     "hodinář",
     "hodináře",
