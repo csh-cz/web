@@ -19,7 +19,7 @@ import { test, expect } from 'playwright/test';
 // pro virtualni-muzeum kategorii pokryje jiný článek po doplnění.
 const SAMPLES = [
   '/projekty/Kappa',
-  '/sbirka/zidovske',
+  '/virtualni-muzeum/zidovske',
   '/sbirka/slunecni_filler',
   '/sbirka/brillie',
 ];

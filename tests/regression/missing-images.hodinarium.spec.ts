@@ -7,11 +7,13 @@
  */
 import { test, expect } from 'playwright/test';
 
+// Direkt URLs po taxonomy refactoru M2 (2026-04-29). Předtím /clanky/<slug>
+// — redirect funguje, ale na mobile profilu (slow CPU) občas hit timeout.
 const CASES: Array<{ url: string; img: string }> = [
-  { url: '/clanky/zvony_vyroba',  img: '/img/vez/zvony/pruzez_zvonem.gif' },
-  { url: '/clanky/uspirku',       img: '/img/vezni/praha/uspirku1.JPG' },
-  { url: '/clanky/uspirku',       img: '/img/vezni/praha/uspirku2.JPG' },
-  { url: '/clanky/Kappa',         img: '/img/elektrika/Kappa/svorkovnice_SSC-MQI.jpg' },
+  { url: '/sbirka/zvony_vyroba',  img: '/img/vez/zvony/pruzez_zvonem.gif' },
+  { url: '/sbirka/uspirku',       img: '/img/vezni/praha/uspirku1.JPG' },
+  { url: '/sbirka/uspirku',       img: '/img/vezni/praha/uspirku2.JPG' },
+  { url: '/projekty/Kappa',       img: '/img/elektrika/Kappa/svorkovnice_SSC-MQI.jpg' },
   // marusak_rad_1.jpg už není vázaný v zidovske.mdx (commit a1a2e2c
   // ho nahradil ZidovskeHodiny komponentem s podklad.jpg). Test
   // přesouváme na asset endpoint.
