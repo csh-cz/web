@@ -117,6 +117,76 @@ v editoru, typicky vpravo nahoře). Tam funguje overlay přesně.
 3. **Ignorovat dočasně** (jen v této session): aktuálně nelze
    per-word; reset settings vrátí do default.
 
+### Kompatibilita prohlížečů
+
+| Prohlížeč | Verze | Spell-check | AI | Link picker | Poznámka |
+|---|---|---|---|---|---|
+| **Chrome** / Edge / Brave | 79+ (2020) | ✅ | ✅ | ✅ | Plně funkční, doporučeno |
+| **Firefox** | 79+ (2020) | ✅ | ✅ | ✅ | Plně funkční |
+| **Safari** | 14+ (2020) | ✅ | ✅ | ✅ | Funguje, DevTools je třeba zapnout v Settings → Advanced |
+| **Safari iOS** | 14+ | ⚠ | ⚠ | ⚠ | Sveltia editor není mobile-friendly, overlay positioning může být off |
+| **Chrome mobile** | 79+ | ⚠ | ⚠ | ⚠ | Stejné jako iOS — Sveltia není primárně mobile |
+| Internet Explorer 11 | — | ❌ | ❌ | ❌ | Sveltia ani Astro nepodporují IE |
+
+**Co konkrétně potřebujeme:**
+
+- ESM dynamic `import()` (Chrome 63, Firefox 67, Safari 11.1)
+- `fetch()`, `AbortController`, `AbortSignal.timeout()` (Safari 16+)
+- `TextDecoder`, `MutationObserver`, `ResizeObserver`
+- `WeakMap`, `WeakSet`, `localStorage`
+
+**Známé problémy:**
+
+- **Firefox private mode:** `localStorage` per-tab, settings se nezachovají
+  mezi sessions. Workaround: použít normal mode nebo nastavit po každé.
+- **Safari < 16:** `AbortSignal.timeout()` chybí — link picker NPÚ search
+  může zaseknout request. Workaround: aktualizovat Safari na 16+.
+- **Sveltia rich-text mode:** v některých Sveltia verzích je markdown
+  body v `contenteditable` div místo `<textarea>`. Tam náš overlay
+  nesedí. **Workaround:** přepni na *Markdown source* view.
+- **Žádné CORS issues** identifikovány — všechny 4 search backends
+  (internal, Wikipedia, Wikidata, NPÚ) podporují CORS pro public API.
+
+### Chrome / Firefox extension (V2 plán)
+
+Aktuální V1 funguje **jen v `/admin/` na hodinarium-eu.pages.dev** —
+scripts se loadují z `/admin/csh-*.js`. Pokud editor pracuje s
+markdown jinde (lokální editor, GitHub web edit, Notion, …),
+spell-check + slovník nejsou k dispozici.
+
+**Plánovaná CSH browser extension** (PBI A.22 — viz [TODO.md](../TODO.md))
+to vyřeší:
+
+- **Distribuce:** Chrome Web Store + Firefox Add-ons (~$5 one-time
+  poplatek pro Chrome, free pro Firefox)
+- **Funguje napříč weby:** kdekoli editor píše do `<textarea>` nebo
+  `[contenteditable]` — Sveltia, GitHub editor, Confluence, Notion,
+  generic forms
+- **Sdílený slovník:** stejný `csh-spell-dict.json` v extension
+  bundle, periodicky updateovaný přes auto-update Chrome Web Store
+- **Right-click „Přidat do CSH slovníku"** — editor sám přidává
+  per-word, sync přes GitHub Issue Davidovi pro permanent dict update
+- **AI našeptávač** přes existing `/api/ai/suggest` endpoint
+  (s CORS allow rule)
+- **Cross-browser:** WebExtension API (single codebase Chrome+Firefox)
+
+**Effort:** ~2-3 dny. **Hosting:** $0 (extension běží lokálně,
+Chrome Web Store $5 one-time pro publish).
+
+**Use case rozdíl:**
+
+| Scenario | V1 (current) | V2 (extension) |
+|---|---|---|
+| Sveltia admin/ | ✅ | ✅ |
+| GitHub web editor | ❌ | ✅ |
+| Lokální editor (VS Code, Sublime) | ❌ | ❌ (ne browser-based) |
+| Notion / Confluence | ❌ | ✅ |
+| Discord / Slack | ❌ | ✅ |
+
+V2 zatím čeká na implementaci — když uživatel reálně edituje obsah
+mimo Sveltia (např. GitHub web editor pro emergency fix), V1 je
+limitující.
+
 ## 🤖 AI našeptávač
 
 **Co dělá:** po pauze ~1.2 s v psaní AI navrhne pokračování věty
