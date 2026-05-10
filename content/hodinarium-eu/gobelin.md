@@ -9,7 +9,7 @@ tldr: |-
   co jsou hodiny vyšívané na zakázku ??
 author: JIndřiška Bumerlová
 tags:
-  - vysivane
+  - vyšívané
   - kuriozita
 originalUrl: https://hodinarium.eu/gobelin.htm
 lastModified: Wed, 26 Apr 2017 14:07:00 GMT
