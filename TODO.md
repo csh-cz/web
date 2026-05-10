@@ -255,6 +255,61 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       Privacy poznámka: text jde Anthropic API, vyžaduje disclosure
       v editor handbook + opt-out per-editor preference.
 
+- [ ] **A.15 Picker pomocníci pro Sveltia editor — Citation +
+      Hodinář + Slovník** (~10–14 h, sdílený UI pattern). Klávesová
+      zkratka nebo tlačítko v ⚙ Pomocníci → modal s type-ahead nad
+      lokálně cached daty:
+
+      **A.15.1 Citation picker (~5–7 h):**
+      - Search nad references.json (~1100 Zotero items): `Bureš 1965`,
+        klíčová slova, autor.
+      - Klik vloží do textu `<Ref bibKey="..." />` (numbered) nebo
+        `[Bureš 1965]` (author-date podle `referenceStyle` v frontmatteru).
+      - Auto-doplní frontmatter `references[]` entry (idempotentní —
+        nepřidá pokud bibKey už tam je).
+      - Bonus: tlačítko „🤖 Najdi citaci pro tento odstavec" → semantic
+        search bge-m3 nad references-only subset → AI rerank top 5
+        + ISO 690 preview.
+
+      **A.15.2 Hodinář picker (~3 h):**
+      - Type-ahead nad `hodinari.ts` (104 jmen + aliasy + města).
+      - Klik vloží `[Václav Krečmer](/hodinari/vaclav-krecmer)`.
+      - Reuse `findHodinarFromVyrobce()` utility.
+      - Auto-detect: označit slovo „Krečmer" → tooltip „Vložit medailon?".
+
+      **A.15.3 Slovník picker (~2–3 h):**
+      - Type-ahead nad 57 hesly.
+      - Klik vloží `[setrvačka](/slovnik/setrvacka)`.
+      - Reuse `slovnik-link.ts` utility.
+
+      Sdílený UI pattern: floating modal (vystředěný, escape close, fuzzy
+      search lib např. fuse.js — už máme). Backend endpoint
+      `/api/search/picker?type={refs|hodinari|slovnik}&q=...`. Frontend
+      module `csh-pickers.js` v admin/, opt-in přes ⚙ Pomocníci.
+
+- [ ] **A.16 Foto upload + alt + credit validator** (~6 h). Sveltia
+      drag-drop má, ale nevyžaduje povinný `alt` (a11y) ani `credit`
+      (CSH konvence). Pre-save intercept hook v Sveltia validate
+      callback + AI vision (`@cf/llava-1.5-7b-hf` nebo similar) auto-
+      generuje alt suggestion z obrázku. Editor schválí/upraví. Plus
+      varování pokud `credit` field je prázdný.
+
+- [ ] **A.17 Inv-N karta + soupis picker** (~5 h). Stejný pattern jako
+      A.15.2/3 — type-ahead nad 268 sbírkových karet a 396 záznamů
+      soupisu. Vloží link `[karta-title](/sbirka/karta/inv-N-slug/)`
+      nebo `[soupis-title](/soupis-veznich-hodin/SLUG/)`.
+
+- [ ] **A.18 Frontmatter wizard pro nové karty/medailony** (~8 h). Když
+      Sveltia vytvoří novou entry, AI wizard nabídne auto-fill přes
+      existing helpers: NPÚ Památkový katalog lookup (GPS + KatCislo),
+      Wikidata Qid (přes existing search), hodinař match (jméno →
+      medailon link), datace heuristika.
+
+- [ ] **A.19 Live preview cs ↔ de ↔ en** (~10 h). Editor píše v cs,
+      sidebar zobrazuje AI překlad do DE/EN real-time. Pro spolupráci
+      s neangloruštěným/německy mluvícím čtenářem. Použije slovník-aware
+      Mistral nebo Sonnet (V2). Privacy disclosure (text jde do AI).
+
 - ~~**T4 Lighthouse CI / Web Vitals**~~ ✅ Hotovo (commit pending).
       `@lhci/cli` v devDeps, `lighthouserc.json` config (8 URL napříč
       content typy), `.github/workflows/lighthouse.yml` post-deploy
