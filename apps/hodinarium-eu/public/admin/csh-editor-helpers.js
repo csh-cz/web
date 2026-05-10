@@ -218,6 +218,10 @@
       <h2 style="margin:0 0 .8rem;font-size:1.2rem;color:#c9a85d;font-weight:500">
         Nápověda — pomocníci v editoru
       </h2>
+      <p style="margin:0 0 .6rem;font-size:.85rem;opacity:.85">
+        Krátký přehled. Pro plnou příručku se vším detailem otevři
+        <a href="/admin/handbook/" style="color:#c9a85d;font-weight:500">📘 Příručku pro editory</a>.
+      </p>
       <div style="overflow-y:auto;flex:1;padding-right:.4rem">
 
       <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem">📋 Úkolovník (editorial workflow)</h3>
@@ -417,11 +421,10 @@
         přepni na <em>Markdown source</em> view (přepínač v editoru).
       </p>
       <p style="margin:.2rem 0 .5rem;font-size:.85rem;opacity:.85">
-        <strong>V2 plán — CSH browser extension:</strong> rozšíří pomocníky
-        i mimo Sveltia (GitHub web editor, Notion, …). Cross-Chrome+Firefox,
-        sdílený slovník, distribuce přes Chrome Web Store + Firefox Add-ons.
-        Detail v <a href="https://github.com/csh-cz/web/blob/main/TODO.md"
-        style="color:#c9a85d">TODO.md A.22</a>.
+        <strong>V2 plán — CSH rozšíření prohlížeče:</strong> doplníme
+        pomocníky i mimo CMS editor (např. když píšete v Notionu nebo
+        v generic formuláři). Bude se instalovat jako rozšíření do
+        Chrome / Firefox.
       </p>
 
       <h3 style="color:#c9a85d;font-size:1rem;margin:1rem 0 .3rem">⚙ Reset / odstranění problémů</h3>

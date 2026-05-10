@@ -48,8 +48,8 @@
     </header>
 
     <p class="report-form-hint">
-      Hlášení se uloží jako issue v GitHub repu webu. Tvůj e-mail, adresa
-      stránky a krátká informace o prohlížeči se přidají automaticky.
+      Hlášení uloží do interní fronty pro maintainery webu. Tvůj e-mail,
+      adresa stránky a krátká informace o prohlížeči se přidají automaticky.
     </p>
 
     <div class="report-field">
@@ -438,16 +438,16 @@
         const data = await r.json().catch(function () { return {}; });
 
         if (r.ok && data.ok) {
-          if (data.issue && data.issue.url) {
+          // Schováváme termín "Issue" + GitHub URL pro netechnické editory.
+          // Číslo úkolu zobrazíme jako interní reference (#N), ale bez
+          // odkazu na GitHub — udržení dojmu interního systému.
+          if (data.issue && data.issue.number) {
             setStatus(
-              'Hlášení odesláno. Issue <a href="' + data.issue.url +
-              '" target="_blank" rel="noopener">#' + data.issue.number + '</a> ' +
-              'bylo vytvořeno.',
+              'Hlášení přijato (úkol č. ' + data.issue.number + '). Děkujeme!',
               'success',
-              true,
             );
           } else {
-            setStatus('Hlášení odesláno. Děkujeme!', 'success');
+            setStatus('Hlášení přijato. Děkujeme!', 'success');
           }
           // Zavři po 4 s.
           setTimeout(function () {

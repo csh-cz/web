@@ -1,0 +1,199 @@
+---
+/**
+ * /admin/handbook/ — interní příručka pro editory.
+ *
+ * Renderuje docs/cms-editor-pomocnici.md jako Astro stránku za CF Access.
+ * Editor nikdy nevidí GitHub — handbook je interní stránka v Hodináriu,
+ * stejně jako úkolovník.
+ *
+ * Použitý pattern: read MD na build time, parse přes marked nebo
+ * podobné. Pro CSH small footprint použijeme přímo Astro `import.meta.glob`
+ * a vlastní markdown render přes existing tinyMarkdown utility nebo
+ * remark-html.
+ *
+ * V V1 import raw markdown, basic regex-based render. V2 plný markdown
+ * (codeblocks, tables, etc.) přes remark.
+ */
+import Base from '../../layouts/Base.astro';
+import { readFileSync } from 'node:fs';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+// Read handbook na build time (relative to this Astro file)
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+const handbookPath = join(__dirname, '..', '..', '..', '..', '..', 'docs', 'cms-editor-pomocnici.md');
+const raw = readFileSync(handbookPath, 'utf-8');
+
+// Strip frontmatter (handbook nemá, ale safety)
+const body = raw.replace(/^---\n[\s\S]*?\n---\n/, '');
+
+/**
+ * Mini markdown → HTML render. Stačí na náš handbook (headers,
+ * tables, lists, code, links, bold). Pro full markdown by bylo
+ * lepší remark, ale pro statický doc je tohle dost.
+ */
+function md(text: string): string {
+  let html = text;
+
+  // Code blocks ```...```
+  html = html.replace(/```(\w+)?\n([\s\S]*?)```/g, (_, lang, code) => {
+    return `<pre><code class="lang-${lang || 'text'}">${escape(code)}</code></pre>`;
+  });
+
+  // Inline code `...`
+  html = html.replace(/`([^`\n]+)`/g, '<code>$1</code>');
+
+  // Headers
+  html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
+  html = html.replace(/^## (.+)$/gm, '<h2>$1</h2>');
+  html = html.replace(/^# (.+)$/gm, '<h1>$1</h1>');
+
+  // Bold + italic
+  html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  html = html.replace(/(?<!\*)\*([^*\n]+)\*(?!\*)/g, '<em>$1</em>');
+
+  // Links — only relative + http(s), strip github.com (nechceme expose
+  // editora ke GitHubu z handbook — pokud byl link na github, render
+  // jen text bez href)
+  html = html.replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, (_, text, url) => {
+    if (/github\.com/.test(url)) return text; // strip GitHub links
+    return `<a href="${url}" target="_blank" rel="noopener">${text}</a>`;
+  });
+  html = html.replace(/\[([^\]]+)\]\((\/[^)]+)\)/g, '<a href="$2">$1</a>');
+
+  // Tables (GitHub flavored): | col | col |
+  html = html.replace(/^\|(.+)\|$\n^\|([\s\-:|]+)\|$\n((?:^\|.+\|$\n?)+)/gm, (_match: string, head: string, _sep: string, rows: string) => {
+    const headers = head.split('|').map((s: string) => s.trim()).filter(Boolean);
+    const rowLines: string[][] = rows.trim().split('\n').map((r: string) => r.replace(/^\||\|$/g, '').split('|').map((s: string) => s.trim()));
+    return [
+      '<table class="handbook-table">',
+      '<thead><tr>' + headers.map((h: string) => `<th>${h}</th>`).join('') + '</tr></thead>',
+      '<tbody>' + rowLines.map((cells: string[]) => '<tr>' + cells.map((c: string) => `<td>${c}</td>`).join('') + '</tr>').join('') + '</tbody>',
+      '</table>',
+    ].join('');
+  });
+
+  // Lists (basic, jen single-level)
+  html = html.replace(/^(?:- (.+)\n?)+/gm, (block) => {
+    const items = block.trim().split('\n').map((l) => l.replace(/^- /, ''));
+    return '<ul>' + items.map((i) => `<li>${i}</li>`).join('') + '</ul>';
+  });
+
+  // Paragraphs (zbývající nesplit text)
+  html = html.split(/\n\n+/).map((para) => {
+    const trimmed = para.trim();
+    if (!trimmed) return '';
+    if (/^<(h[1-6]|table|ul|ol|pre|p|div)/.test(trimmed)) return trimmed;
+    return `<p>${trimmed.replace(/\n/g, ' ')}</p>`;
+  }).join('\n');
+
+  return html;
+}
+
+function escape(s: string): string {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+const rendered = md(body);
+---
+<Base title="Příručka pro editory — administrace" description="Interní handbook pro editory CSH" noindex={true}>
+  <main class="handbook">
+    <header style="margin-bottom:2rem;padding-bottom:1rem;border-bottom:1px solid #444">
+      <p style="color:var(--color-copper);text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;margin:0">
+        Interní dokumentace
+      </p>
+      <h1 style="margin:.3rem 0 0">Příručka pro editory</h1>
+      <nav style="margin-top:.8rem;font-size:.9rem">
+        <a href="/admin/" style="color:var(--color-brass-bright);margin-right:1rem">← Zpět do CMS</a>
+        <a href="/admin/tasks/" style="color:var(--color-brass-bright)">📋 Úkolovník</a>
+      </nav>
+    </header>
+    <article class="handbook-body" set:html={rendered} />
+  </main>
+
+  <style>
+    .handbook {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1rem 4rem;
+      font-family: var(--font-serif);
+      line-height: 1.6;
+    }
+    .handbook-body :global(h1) {
+      color: var(--color-brass-bright);
+      font-size: 1.5rem;
+      margin: 1.8rem 0 .6rem;
+    }
+    .handbook-body :global(h2) {
+      color: var(--color-brass-bright);
+      font-size: 1.2rem;
+      margin: 1.6rem 0 .5rem;
+      padding-top: .4rem;
+      border-top: 1px solid #333;
+    }
+    .handbook-body :global(h3) {
+      color: var(--color-copper);
+      font-size: 1.05rem;
+      margin: 1.2rem 0 .4rem;
+    }
+    .handbook-body :global(p) {
+      margin: .6rem 0;
+    }
+    .handbook-body :global(ul) {
+      margin: .6rem 0;
+      padding-left: 1.4rem;
+    }
+    .handbook-body :global(li) {
+      margin: .25rem 0;
+    }
+    .handbook-body :global(code) {
+      background: #2a2a2a;
+      padding: .1rem .3rem;
+      border-radius: .2rem;
+      font-size: .9em;
+      font-family: ui-monospace, monospace;
+    }
+    .handbook-body :global(pre) {
+      background: #0f0f0f;
+      padding: .8rem 1rem;
+      border-radius: .3rem;
+      overflow-x: auto;
+      border: 1px solid #333;
+      margin: 1rem 0;
+    }
+    .handbook-body :global(pre code) {
+      background: none;
+      padding: 0;
+      font-size: .85em;
+    }
+    .handbook-body :global(a) {
+      color: var(--color-brass-bright);
+      text-decoration: underline;
+      text-decoration-color: rgba(232, 213, 168, .4);
+    }
+    .handbook-body :global(strong) {
+      color: var(--color-text);
+      font-weight: 600;
+    }
+    .handbook-body :global(table) {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      font-size: .92rem;
+    }
+    .handbook-body :global(th) {
+      text-align: left;
+      padding: .4rem .7rem;
+      border-bottom: 2px solid var(--color-brass);
+      color: var(--color-brass-bright);
+      font-weight: 500;
+      background: #0f0f0f;
+    }
+    .handbook-body :global(td) {
+      padding: .35rem .7rem;
+      border-bottom: 1px solid #2a2a2a;
+      vertical-align: top;
+    }
+  </style>
+</Base>
