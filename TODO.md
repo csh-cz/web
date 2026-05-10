@@ -361,6 +361,51 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       - Auto-PR návrh: replace dead URL na Wayback snapshot pokud
         existuje (review by editor)
 
+- ⚠ **A.23 Editorial workflow — úkolovník + lock + review**
+      (~2 working days). **V1 hotovo (commit pending) ve scope:
+      schema + úkolovník dashboard + Sveltia config widget + handbook.**
+      Visibility logic + transition API + lock banner v V2.
+
+      **Hotovo (W-1, W-3, W-5, W-7):**
+      - W-1 Schema rozšíření v content.config.ts: nový `workflow`
+        z.object field s 7 props (status, lockedBy, lockedAt,
+        reviewers, reviewedBy, publicDuringEdit, notes). Přidáno
+        do 6 collections (clanky, hodinari, kroky, slovnik,
+        soupis-veznich-hodin, kronika). Backwards-compat (optional,
+        default = ready).
+      - W-3 Tasks dashboard `/admin/tasks/` — Astro page,
+        getCollection napříč 5 collections, filter na !== ready,
+        sort by status priority + lockedAt desc. Counters (todo /
+        in-progress / review / total). Per-row actions: ✎ Editovat
+        (Sveltia) + Náhled. Relative time „před 2 h", reviewer
+        check ✓/◯ progress, public visibility status badge.
+      - Header link „📋 Úkoly" v Sveltia toolbaru (vedle Zpět/Odhlásit)
+      - Help modal sekce 📋 Úkolovník + tabulka stavů
+      - Handbook docs/cms-editor-pomocnici.md plná sekce s frontmatter
+        příkladem, lock model vysvětlení, visibility matrix
+      - Design dokument docs/design-editor-workflow-2026-05-10.md
+        (architektonické rozhodnutí, PBI rozdělení, V2 follow-ups)
+
+      **Zbývá V1 (W-2, W-4, W-5, W-6):**
+      - W-2 Visibility logic v page render (~2 h) — Astro
+        getStaticPaths filter na workflow.status pro veřejnost,
+        WIP banner pro publicDuringEdit articles
+      - W-4 API endpoint /api/workflow/transition (~2-3 h) —
+        Pages Function pro state changes (Zabrat/Review/Schválit)
+        přes csh-cms-proxy commit
+      - W-5 Sveltia config workflow widget (~1 h) — admin/config.yml
+        update všech 6 collections s object widget
+      - W-6 Editor banner v Sveltia (~2 h) — csh-workflow-banner.js
+        upozornění při otevření locked článku
+      - Tlačítka v dashboardu volající W-4 API
+
+      **V2 follow-ups:**
+      - Real-time lock check přes Cloudflare KV (current advisory)
+      - Email notifications reviewerům
+      - History timeline per článek
+      - Bulk actions (mass status change)
+      - Slack/Discord webhook integrace
+
 - [ ] **A.22 CSH browser extension** (~2-3 dny). Současné editor
       pomocníky (spell-check, AI, link picker) fungují jen v
       `/admin/` Sveltia — když editor píše obsah jinde (GitHub web

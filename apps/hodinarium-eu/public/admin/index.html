@@ -74,6 +74,30 @@
         });
         document.body.appendChild(btn);
 
+        // "📋 Úkoly" tlačítko vedle "← Zpět na web" — odkaz na úkolovník
+        // (rozpracované články s editorial workflow, /admin/tasks/).
+        const tasks = document.createElement('a');
+        tasks.id = 'cms-tasks-link';
+        tasks.href = '/admin/tasks/';
+        tasks.textContent = '📋 Úkoly';
+        tasks.title = 'Úkolovník — rozpracované články, kdo na čem dělá, co čeká recenzi';
+        tasks.style.cssText =
+          'position:fixed;top:.6rem;left:10rem;z-index:99998;' +
+          'background:#1a1a1a;color:#e8d8a8;text-decoration:none;' +
+          'padding:.45rem .85rem;border-radius:2rem;' +
+          'border:1px solid #5b9dd9;box-shadow:0 2px 8px rgba(0,0,0,.4);' +
+          'font:500 13px/1.2 ui-serif,Georgia,serif;letter-spacing:.02em;' +
+          'transition:all 150ms ease;cursor:pointer';
+        tasks.addEventListener('mouseenter', () => {
+          tasks.style.background = '#5b9dd9';
+          tasks.style.color = '#1a1a1a';
+        });
+        tasks.addEventListener('mouseleave', () => {
+          tasks.style.background = '#1a1a1a';
+          tasks.style.color = '#e8d8a8';
+        });
+        document.body.appendChild(tasks);
+
         // "Odhlásit" tlačítko vedle "← Zpět na web" — zahodí Cloudflare
         // Access session pro celou Apps Team. Editor se po dalším pokusu
         // o /admin/ znovu authuje (OTP nebo SSO).
@@ -83,7 +107,7 @@
         logout.textContent = '⎋ Odhlásit';
         logout.title = 'Odhlásit z editor režimu — zahodí Cloudflare Access session';
         logout.style.cssText =
-          'position:fixed;top:.6rem;left:10.5rem;z-index:99998;' +
+          'position:fixed;top:.6rem;left:17rem;z-index:99998;' +
           'background:#1a1a1a;color:#e8a8a8;text-decoration:none;' +
           'padding:.45rem .85rem;border-radius:2rem;' +
           'border:1px solid #b04848;box-shadow:0 2px 8px rgba(0,0,0,.4);' +

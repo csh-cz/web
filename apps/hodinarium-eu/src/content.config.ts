@@ -79,6 +79,37 @@ const allTags = new Set(
     .flatMap(([, v]) => v as string[])
 );
 
+/**
+ * Editorial workflow status — opt-in field pro track stav rozpracovaných
+ * článků/karet/medailonů (PBI A.23, viz docs/design-editor-workflow-2026-05-10.md).
+ *
+ * Lock model je advisory — ostatní editoři vidí, kdo článek aktivně
+ * upravuje, ale nelze enforce (je to git, ne database). Pro CSH s 5
+ * editory dostatečné, race condition je okrajový case.
+ *
+ * Visibility logic v page render:
+ *   - draft: true                                    → 404 (existing)
+ *   - workflow.status: 'ready' nebo žádný workflow   → veřejnost
+ *   - workflow.status: !ready + publicDuringEdit:true → veřejnost s WIP banner
+ *   - workflow.status: !ready + publicDuringEdit:false → 404
+ */
+const workflow = z.object({
+  status: z.enum(['todo', 'in-progress', 'review', 'ready']).optional(),
+  /** Email nebo jméno editora, který právě edituje — advisory lock. */
+  lockedBy: z.string().optional(),
+  /** ISO timestamp začátku locku. */
+  lockedAt: z.string().optional(),
+  /** Reviewers — kdo má článek přečíst před uvolněním. */
+  reviewers: z.array(z.string()).optional(),
+  /** Kdo článek schválil (po review). Když length ≥ 1, status → ready. */
+  reviewedBy: z.array(z.string()).optional(),
+  /** Když true a status != ready, článek je veřejný se WIP bannerem.
+   *  Když false (default), neready článek je 404 pro veřejnost. */
+  publicDuringEdit: z.boolean().optional(),
+  /** Volné poznámky editora — co dohledat, co chybí, čekání na zdroje. */
+  notes: z.string().optional(),
+});
+
 const clanky = defineCollection({
   loader: glob({
     base: '../../content/hodinarium-eu',
@@ -135,6 +166,9 @@ const clanky = defineCollection({
     /** Editorské poznámky (TODO, varování o nejistotě, kontext) — viditelné
         jen po loginu editora, anonymní návštěvník nic nevidí. */
     editorNotes: z.array(editorNote).optional(),
+    /** Editorial workflow status (PBI A.23) — opt-in tracking
+        rozpracovaných článků s lock/review/release flow. */
+    workflow: workflow.optional(),
     /** True = článek/karta je stub — frontmatter i body čekají na editorovu
         práci. Veřejně se zobrazuje jen základní info; editor v /redakce/
         dashboard vidí seznam stubů napříč collections. */
@@ -304,6 +338,8 @@ const hodinariMedailony = defineCollection({
     references: z.array(reference).optional(),
     /** Editorské poznámky (TODO, varování o nejistotě, kontext). */
     editorNotes: z.array(editorNote).optional(),
+    /** Editorial workflow status (PBI A.23). */
+    workflow: workflow.optional(),
     /** Skrytá synonyma pro vyhledávání — viz dokumentace u clanky.searchKeywords.
      *  Pro medailony hodinářů typicky alternativní pravopisy jména (Maresch /
      *  Mareš), zkratky firem, lokality kde hodinář pracoval a které lidé znají. */
@@ -349,6 +385,8 @@ const kronika = defineCollection({
     references: z.array(reference).optional(),
     /** Editorské poznámky (TODO, varování o nejistotě, kontext). */
     editorNotes: z.array(editorNote).optional(),
+    /** Editorial workflow status (PBI A.23). */
+    workflow: workflow.optional(),
     /** Pro legacy import z hodinarium.eu (zachováme původní URL). */
     originalUrl: z.string().url().optional(),
   }),
@@ -493,6 +531,9 @@ const soupisVeznichHodin = defineCollection({
     /** Editorské poznámky (TODO, varování o nejistotě, kontext). */
     editorNotes: z.array(editorNote).optional(),
 
+    /** Editorial workflow status (PBI A.23). */
+    workflow: workflow.optional(),
+
     /** True = záznam je stub — minimální data (typicky bulk import z
         Hellichova seznamu nebo z OSM-import), čeká na manuální dopnění
         budovy / roku / krok / restaurátor / fotky. Editor v /redakce/
@@ -536,6 +577,8 @@ const krokyDetaily = defineCollection({
     perex: z.string().optional(),
     references: z.array(reference).optional(),
     editorNotes: z.array(editorNote).optional(),
+    /** Editorial workflow status (PBI A.23). */
+    workflow: workflow.optional(),
   }),
 });
 
@@ -620,6 +663,9 @@ const slovnik = defineCollection({
 
     /** Editorské poznámky (TODO, varování o nejistotě). */
     editorNotes: z.array(editorNote).optional(),
+
+    /** Editorial workflow status (PBI A.23). */
+    workflow: workflow.optional(),
 
     /** Datum poslední revize hesla (kdy byly citace ověřeny v pramenech). */
     poslednRevize: dateString.optional(),

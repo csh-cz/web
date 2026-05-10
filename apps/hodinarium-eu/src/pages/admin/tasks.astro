@@ -1,0 +1,264 @@
+---
+/**
+ * /admin/tasks/ — úkolovník editorského workflow.
+ *
+ * Načítá všechny content collections a zobrazuje články, které mají
+ * `workflow.status` !== 'ready' (= rozpracované, čekající review,
+ * nebo todo). Editor vidí filter podle stavu, kdo zabral, kdo má
+ * recenzovat. Akce per row vedou do Sveltia editoru.
+ *
+ * Authentication: Cloudflare Access — admin/* je už chráněný.
+ *
+ * V1: read-only seznam s odkazy do Sveltia. Akce jako „Zabrat" /
+ * „Pošli k review" / „Schvaluji" jsou zatím manuální (editor v Sveltia
+ * upraví workflow.* fields ručně). V2 přidá tlačítka volající
+ * /api/workflow/transition pro automatickou změnu.
+ */
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+interface Task {
+  collection: string;
+  slug: string;
+  title: string;
+  status: string;
+  lockedBy?: string;
+  lockedAt?: string;
+  reviewers?: string[];
+  reviewedBy?: string[];
+  publicDuringEdit?: boolean;
+  notes?: string;
+  draft?: boolean;
+  editUrl: string;
+  publicUrl?: string;
+}
+
+const tasks: Task[] = [];
+
+const collectionConfigs = [
+  { name: 'clanky', urlPrefix: '/sbirka/karta/' /* fallback handled below */ },
+  { name: 'hodinari', urlPrefix: '/hodinari/' },
+  { name: 'kroky', urlPrefix: '/kroky/' },
+  { name: 'slovnik', urlPrefix: '/slovnik/' },
+  { name: 'soupis-veznich-hodin', urlPrefix: '/soupis-veznich-hodin/' },
+];
+
+for (const cfg of collectionConfigs) {
+  let entries;
+  try {
+    entries = await getCollection(cfg.name as 'clanky');
+  } catch {
+    continue;
+  }
+  for (const entry of entries) {
+    const w = (entry.data as { workflow?: Task }).workflow;
+    if (!w) continue;
+    if (w.status === 'ready') continue;
+    // V1: zahrň jen ty, které mají workflow.status set jiný než ready
+    const slug = (entry.data as { slug?: string }).slug || entry.id;
+    let publicUrl: string | undefined;
+    if (cfg.name === 'clanky') {
+      const cat = (entry.data as { category?: string; podsekce?: string }).category;
+      const isKarta = (entry.data as { podsekce?: string }).podsekce === 'karta';
+      publicUrl = isKarta
+        ? `/sbirka/karta/${entry.id}/`
+        : cat ? `/${cat}/${slug}/` : undefined;
+    } else {
+      publicUrl = `${cfg.urlPrefix}${slug}/`;
+    }
+    tasks.push({
+      collection: cfg.name,
+      slug,
+      title: (entry.data as { title?: string }).title || slug,
+      status: w.status || '(no status)',
+      lockedBy: w.lockedBy,
+      lockedAt: w.lockedAt,
+      reviewers: w.reviewers,
+      reviewedBy: w.reviewedBy,
+      publicDuringEdit: w.publicDuringEdit,
+      notes: w.notes,
+      draft: (entry.data as { draft?: boolean }).draft,
+      editUrl: `/admin/#/collections/${cfg.name === 'clanky' && (entry.data as { podsekce?: string }).podsekce === 'karta' ? 'karty' : cfg.name}/entries/${entry.id}`,
+      publicUrl,
+    });
+  }
+}
+
+// Sort: by status order, then by lockedAt desc (newest first)
+const statusOrder: Record<string, number> = { 'in-progress': 0, 'review': 1, 'todo': 2 };
+tasks.sort((a, b) => {
+  const sa = statusOrder[a.status] ?? 99;
+  const sb = statusOrder[b.status] ?? 99;
+  if (sa !== sb) return sa - sb;
+  return (b.lockedAt || '').localeCompare(a.lockedAt || '');
+});
+
+const counts = {
+  total: tasks.length,
+  todo: tasks.filter((t) => t.status === 'todo').length,
+  inProgress: tasks.filter((t) => t.status === 'in-progress').length,
+  review: tasks.filter((t) => t.status === 'review').length,
+};
+
+function relativeTime(iso?: string): string {
+  if (!iso) return '—';
+  const t = new Date(iso).getTime();
+  const now = Date.now();
+  const diffMin = Math.floor((now - t) / 60_000);
+  if (diffMin < 1) return 'právě teď';
+  if (diffMin < 60) return `před ${diffMin} min`;
+  const diffHr = Math.floor(diffMin / 60);
+  if (diffHr < 24) return `před ${diffHr} h`;
+  const diffDay = Math.floor(diffHr / 24);
+  if (diffDay < 7) return `před ${diffDay} d`;
+  return new Date(iso).toLocaleDateString('cs-CZ');
+}
+
+const statusLabel: Record<string, string> = {
+  'todo': 'k zabrání',
+  'in-progress': 'rozpracováno',
+  'review': 'k recenzi',
+  'ready': 'hotovo',
+};
+const statusColor: Record<string, string> = {
+  'todo': '#888',
+  'in-progress': '#d9a05b',
+  'review': '#5b9dd9',
+  'ready': '#4caf50',
+};
+---
+<Base title="Úkolovník — administrace" description="Editorial workflow přehled rozpracovaných článků" noindex={true}>
+  <main style="max-width:1100px;margin:0 auto;padding:2rem 1rem">
+    <header style="margin-bottom:1.5rem">
+      <p style="color:var(--color-copper);text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;margin:0">
+        Editorial workflow
+      </p>
+      <h1 style="margin:.3rem 0 .8rem">Úkolovník</h1>
+      <p style="color:var(--color-text-soft);max-width:60ch">
+        Rozpracované články s editorial workflow. Default je vše „ready" (= žádný
+        workflow field, = standardní stav). Tato stránka zobrazuje jen články,
+        které mají <code>workflow.status</code> !== ready.
+      </p>
+    </header>
+
+    <section style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1.5rem">
+      <div style="background:var(--color-bg-elevated);padding:.8rem 1.2rem;border:1px solid #444;border-radius:.3rem;min-width:8rem">
+        <div style="font-size:1.8rem;font-weight:500;color:var(--color-brass-bright)">{counts.total}</div>
+        <div style="font-size:.85rem;color:var(--color-text-soft)">celkem</div>
+      </div>
+      <div style="background:var(--color-bg-elevated);padding:.8rem 1.2rem;border:1px solid #444;border-radius:.3rem;border-left:3px solid #888;min-width:8rem">
+        <div style="font-size:1.8rem;font-weight:500;color:#bbb">{counts.todo}</div>
+        <div style="font-size:.85rem;color:var(--color-text-soft)">k zabrání</div>
+      </div>
+      <div style="background:var(--color-bg-elevated);padding:.8rem 1.2rem;border:1px solid #444;border-radius:.3rem;border-left:3px solid #d9a05b;min-width:8rem">
+        <div style="font-size:1.8rem;font-weight:500;color:#d9a05b">{counts.inProgress}</div>
+        <div style="font-size:.85rem;color:var(--color-text-soft)">rozpracováno</div>
+      </div>
+      <div style="background:var(--color-bg-elevated);padding:.8rem 1.2rem;border:1px solid #444;border-radius:.3rem;border-left:3px solid #5b9dd9;min-width:8rem">
+        <div style="font-size:1.8rem;font-weight:500;color:#5b9dd9">{counts.review}</div>
+        <div style="font-size:.85rem;color:var(--color-text-soft)">k recenzi</div>
+      </div>
+    </section>
+
+    {tasks.length === 0 && (
+      <p style="padding:2rem;text-align:center;color:var(--color-text-soft);background:var(--color-bg-elevated);border-radius:.3rem;border:1px dashed #444">
+        🎉 Žádné rozpracované úkoly. Všechny články jsou v <code>ready</code> stavu.
+      </p>
+    )}
+
+    {tasks.length > 0 && (
+      <table style="width:100%;border-collapse:collapse;background:var(--color-bg-elevated);border-radius:.3rem;overflow:hidden;border:1px solid #444">
+        <thead>
+          <tr style="background:#0f0f0f;border-bottom:2px solid var(--color-brass)">
+            <th style="text-align:left;padding:.6rem .8rem;font-size:.85rem;font-weight:500">Stav</th>
+            <th style="text-align:left;padding:.6rem .8rem;font-size:.85rem;font-weight:500">Článek / Karta / Heslo</th>
+            <th style="text-align:left;padding:.6rem .8rem;font-size:.85rem;font-weight:500">Editor</th>
+            <th style="text-align:left;padding:.6rem .8rem;font-size:.85rem;font-weight:500">Recenzenti</th>
+            <th style="text-align:left;padding:.6rem .8rem;font-size:.85rem;font-weight:500">Veřejné?</th>
+            <th style="text-align:left;padding:.6rem .8rem;font-size:.85rem;font-weight:500">Akce</th>
+          </tr>
+        </thead>
+        <tbody>
+          {tasks.map((t) => (
+            <tr style="border-bottom:1px solid #2a2a2a">
+              <td style="padding:.6rem .8rem;vertical-align:top">
+                <span style={`display:inline-block;padding:.15rem .55rem;border-radius:1rem;border:1px solid ${statusColor[t.status]};color:${statusColor[t.status]};font-size:.78rem;text-transform:uppercase;letter-spacing:.04em`}>
+                  {statusLabel[t.status] || t.status}
+                </span>
+              </td>
+              <td style="padding:.6rem .8rem;vertical-align:top">
+                <div style="font-weight:500">{t.title}</div>
+                <div style="font-size:.78rem;color:var(--color-text-soft);margin-top:.15rem;font-family:monospace">
+                  {t.collection} / <code>{t.slug}</code>
+                </div>
+                {t.notes && (
+                  <div style="font-size:.78rem;color:var(--color-text-soft);margin-top:.3rem;font-style:italic;border-left:2px solid #555;padding-left:.5rem">
+                    {t.notes}
+                  </div>
+                )}
+              </td>
+              <td style="padding:.6rem .8rem;vertical-align:top;font-size:.85rem">
+                {t.lockedBy ? (
+                  <>
+                    <strong>{t.lockedBy}</strong>
+                    <div style="font-size:.75rem;color:var(--color-text-soft);margin-top:.1rem">{relativeTime(t.lockedAt)}</div>
+                  </>
+                ) : (
+                  <span style="color:var(--color-text-soft)">—</span>
+                )}
+              </td>
+              <td style="padding:.6rem .8rem;vertical-align:top;font-size:.85rem">
+                {t.reviewers && t.reviewers.length > 0 ? (
+                  <ul style="list-style:none;padding:0;margin:0">
+                    {t.reviewers.map((r) => {
+                      const reviewed = t.reviewedBy?.includes(r);
+                      return (
+                        <li style={`color:${reviewed ? '#4caf50' : 'inherit'}`}>
+                          {reviewed ? '✓ ' : '◯ '}{r}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                ) : (
+                  <span style="color:var(--color-text-soft)">—</span>
+                )}
+              </td>
+              <td style="padding:.6rem .8rem;vertical-align:top;font-size:.85rem">
+                {t.draft ? (
+                  <span style="color:#d97070">🔒 draft (jen editoři)</span>
+                ) : t.publicDuringEdit ? (
+                  <span style="color:#d9a05b">📝 viditelné s WIP banner</span>
+                ) : (
+                  <span style="color:#888">⚠ skryté pro veřejnost</span>
+                )}
+              </td>
+              <td style="padding:.6rem .8rem;vertical-align:top;font-size:.85rem;white-space:nowrap">
+                <a href={t.editUrl} style="display:inline-block;padding:.3rem .7rem;background:var(--color-brass);color:#1a1a1a;text-decoration:none;border-radius:.25rem;font-weight:500">
+                  ✎ Editovat
+                </a>
+                {t.publicUrl && (
+                  <a href={t.publicUrl} target="_blank" rel="noopener" style="display:inline-block;padding:.3rem .7rem;color:var(--color-brass-bright);text-decoration:none;border-radius:.25rem;border:1px solid #444;margin-left:.4rem">
+                    Náhled ↗
+                  </a>
+                )}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    <footer style="margin-top:2rem;padding-top:1rem;border-top:1px solid #444;font-size:.85rem;color:var(--color-text-soft)">
+      <p>
+        <strong>Workflow stavy:</strong> <code>todo</code> → <code>in-progress</code> →
+        <code>review</code> → <code>ready</code> (= odebrat z úkolovníku, publish).
+        Stav přejímání: zatím manuální (editor v Sveltia upraví <code>workflow.*</code>
+        fields ručně). V2 přidá tlačítka „Zabrat / Pošli k review / Schvaluji".
+      </p>
+      <p style="margin-top:.5rem">
+        <a href="/admin/" style="color:var(--color-brass-bright)">← Zpět do CMS</a> ·
+        <a href="https://github.com/csh-cz/web/blob/main/docs/design-editor-workflow-2026-05-10.md" target="_blank" rel="noopener" style="color:var(--color-brass-bright);margin-left:.5rem">Design dokument na GitHubu ↗</a>
+      </p>
+    </footer>
+  </main>
+</Base>
