@@ -13,33 +13,109 @@ zachovají mezi návštěvami.
 **Co dělá:** podtrhne nepravopisná slova v editačních polích vlnitou
 červenou linkou (CSS gradient mřížka, ne plné podtržení).
 
+### Aktivace + co se stáhne
+
+Klik **⚙ Pomocníci** → zaškrtni **Český spell-checker (hodinářský)**.
+
+Při **prvním zapnutí** se stáhne (po síti, jednorázově):
+
+| Soubor | Velikost | Zdroj |
+|---|---:|---|
+| `nspell` knihovna | ~50 KB | esm.sh CDN |
+| `cs_CZ.aff` (gramatická pravidla) | ~1.2 MB | unpkg.com (`dictionary-cs@2.0.0`) |
+| `cs_CZ.dic` (slovník 200k+ slov) | ~5 MB | unpkg.com |
+| `csh-spell-dict.json` (CSH terms 1242) | ~50 KB | tento web (`/admin/`) |
+| **Celkem** | **~6.3 MB** | (cached browser pro další session) |
+
+**Časová náročnost:**
+
+- 1× zapnutí: stažení 3–10 s (podle připojení) + parsování 3–5 s
+- Další zapnutí v session: < 100 ms (soubory v browser cache)
+- Check jednoho slova: < 1 ms (vše v paměti)
+- Heap memory: ~10 MB
+
+**Vše offline:** žádný server-side API call při psaní. Tvůj text
+nikam neodchází (na rozdíl od AI našeptávače).
+
+### Co podtrhne / nepodtrhne
+
 **Slovník obsahuje:**
 
 - Plný **český Hunspell slovník** s morfologií (skloňování:
-  kyvadlu / kyvadlem / kyvadly / o kyvadle…)
+  kyvadlu / kyvadlem / kyvadly / o kyvadle…) — ~200 000 slov
 - **1242 hodinářských termínů a jmen** z CSH:
   - 57 hesel slovníku (setrvačka, kotva, čtvrťové bití, invar, …)
   - 104 medailonů hodinářů (Krečmer, Hainz, Janata, Prokeš, …)
   - 396 obcí ze soupisu věžních hodin (Holešovice, Sušice, Vimperk, …)
-  - + české aliasy a historicky validní cizí jména (Schöpperle, München)
+  - + české aliasy a historicky validní cizí jména
+    (Schöpperle, München, Glashütte, Würtembersko)
 
-**Co se podtrhne (anglicismy):**
+**Co se podtrhne (špatně):**
 
-- „balanc" → správně **„setrvačka"** (klikni na heslo ve slovníku)
-- „vlasová pružinka" → **„vlásek"**
-- „escapement" → **„krok"** / **„úchopový mechanismus"**
+- Anglicismy: `balanc` → správně **„setrvačka"**
+- Nestandardní formy: `vlasová pružinka` → **„vlásek"**
+- `escapement` → **„krok"** / **„úchopový mechanismus"**
+- Překlepy: `kyvadlu` ✓ vs `kyvadelm` ✗ (chybný pád)
 
-**Co se nepodtrhne (s diakritikou + jména):**
+**Co se nepodtrhne (správně):**
 
-- „Krečmer", „Hainz", „Holešovice" (custom CSH dict)
-- „kyvadlové soukolí", „čtvrťový stroj" (cs morfologie + slovník)
+- České slovo s diakritikou: `kyvadlové soukolí`, `čtvrťový stroj`
+- Hodináři (custom dict): `Krečmer`, `Hainz`, `Janata`
+- Místa ze soupisu: `Holešovice`, `Sušice`, `Vimperk`
+- Historická cizí jména: `München`, `Schöpperle`, `Glashütte`
 
-**Vlastnosti:**
+### Kde funguje + kde ne
 
-- Plně **offline** — slovník v prohlížeči, žádný API call při psaní
-- První zapnutí stáhne ~6 MB cs Hunspell dict z CDN (jednorázově,
-  cached browser pro další session)
-- Init ~3-5 s (parsování slovníku), pak check tokenu < 1 ms
+✅ **Funguje:** velké textareas (≥ 60 px výška) — typicky tělo
+článku v Sveltia editoru, případně markdown source view.
+
+❌ **Nefunguje:** malá single-line input pole (slug, title, autor,
+inv. číslo, …) — tam by overlay nesedělo.
+
+⚠ **Sveltia rich-text WYSIWYG mode** (TipTap/ProseMirror) — overlay
+nemusí sedět přesně, protože to není čistý `<textarea>` element.
+**Workaround:** přepni do *Markdown source* view (ikona/přepínač
+v editoru, typicky vpravo nahoře). Tam funguje overlay přesně.
+
+### Limity a workarounds
+
+**Slovo je správně, ale podtrhává se:**
+
+1. Zkontroluj, že je v cs Hunspell slovníku — zkus si ho [na
+   webu Hunspell](https://www.languagetool.org/)
+2. Pokud je hodinařské / vlastní jméno + není v naší custom dict,
+   pošli e-mail **info@orloj.eu** s ukázkou. Při dalším buildu
+   slovník přibude.
+3. Ignorovat lze prostým `localStorage.setItem('csh-ignore-words',
+   JSON.stringify(['slovo1', 'slovo2']))` v Console (V2: UI
+   tlačítko „Přidat do osobního slovníku").
+
+**Spell-checker se zasekl / nezapne:**
+
+1. F12 → tab **Console**: hledat `[csh-spell] …` zprávy. Pokud
+   není `Activated`, ale je `Loading`, čekej 5–10 s (parsování).
+2. Pokud `Failed to activate: …`, jde o stažení / network. Zkus
+   znovu zapnout v Pomocníci, případně reload stránky.
+3. Vyčištění browser cache: **F12 → Application → Storage → Clear
+   site data** (Chrome/Edge), nebo **Storage → Clear All** (Firefox)
+   → reload → zapni znovu (stažení proběhne znovu).
+
+**Performance issue (delší texty):**
+
+- Spell-check má 300 ms debounce — při psaní rychle se overlay
+  nepřekresluje při každém znaku.
+- Pro extrémně dlouhé texty (>10 kB) může re-render trvat ~50 ms.
+  Akceptable pro běžné articles.
+
+### Co dělat když najdeš podtržené slovo
+
+1. **Pravdivá chyba** (typo, anglicismus): oprav v textu — overlay
+   se hned překreslí.
+2. **Slovník to nezná, ale je to správně** (např. nové jméno
+   hodináře, místní název): nech být, hlas redaktorovi přes
+   info@orloj.eu — slovník rozšíříme.
+3. **Ignorovat dočasně** (jen v této session): aktuálně nelze
+   per-word; reset settings vrátí do default.
 
 ## 🤖 AI našeptávač
 
