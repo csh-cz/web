@@ -72,18 +72,24 @@
     <h1>CSH editor pomocníci — testovací stránka</h1>
 
     <p>
-      Tato stránka slouží pro lokální vývoj a smoke test
-      <strong>spell-checkeru</strong> a <strong>AI našeptávače</strong>
-      bez nutnosti přihlášení do Sveltia CMS (které volá GitHub OAuth +
-      Cloudflare Access proxy a v lokálním dev běhu obvykle nezadne).
+      Tato stránka slouží pro lokální vývoj a smoke test 3 pomocníků:
+      <strong>spell-checkeru</strong>, <strong>AI našeptávače</strong> a
+      <strong>vkládání odkazů (⌘K)</strong> bez nutnosti přihlášení do
+      Sveltia CMS (které lokálně neodejde GitHub OAuth + Cloudflare Access).
     </p>
 
     <div class="note">
       <strong>Tip:</strong> klikni vlevo dole na <kbd>⚙ Pomocníci</kbd> a
-      zapni co chceš testovat. Default vše OFF — žádný surprise. Po zapnutí
-      stáhne spell-checker ~6 MB cs Hunspell dict (jednorázově, cached
-      browser). AI vyžaduje běžící backend (lokálně Ollama přes wrangler
-      pages dev — viz <code>.dev.vars.example</code>).
+      zapni co chceš testovat. Default: spell-check OFF, AI OFF, vkládání
+      odkazů ON. V panelu klikni <kbd>? Nápověda a zkratky</kbd> pro
+      plný přehled funkcí, klávesových zkratek, privacy not a diagnostiky.
+    </div>
+
+    <div class="note">
+      <strong>Plný editor handbook:</strong>
+      <a href="https://github.com/csh-cz/web/blob/main/docs/cms-editor-pomocnici.md"
+         style="color:#c9a85d">docs/cms-editor-pomocnici.md</a>
+      v repu (cs, ~5 min čtení).
     </div>
 
     <h2>Test 1 — spell-checker</h2>
@@ -119,7 +125,21 @@
       dolním rohu ukáže stav (loading / suggesting / error).
     </p>
 
-    <h2>Test 3 — long text (perf)</h2>
+    <h2>Test 3 — vkládání odkazů (⌘K / Ctrl+K)</h2>
+    <p>
+      Označ slovo (např. <strong>Krečmer</strong>) v textu níže, pak stiskni
+      <kbd>⌘K</kbd> (Mac) / <kbd>Ctrl+K</kbd> (Win/Lin). Otevře se modal s 4 sekcemi
+      výsledků (Hodinárium / Wikipedia / Wikidata / NPÚ Památkový katalog) plus
+      pole pro vlastní URL.
+    </p>
+    <textarea id="t-link" rows="6">Václav Krečmer dodal v roce 1905 do budovy celní expozitury v Holešovicích hodinový stroj. Mezi další významné hodináře patřili Jan Prokeš a Ludvík Hainz.</textarea>
+    <p>
+      Vyzkoušej dotazy: <code>Krečmer</code>, <code>Hainz</code>,
+      <code>pražský orloj</code>, <code>Holešovice</code>. Pokud nic
+      nepasuje, vlož vlastní URL do pole pod sekcemi.
+    </p>
+
+    <h2>Test 4 — long text (perf)</h2>
     <p>Větší textarea pro test performance při delším textu:</p>
     <textarea id="t3" rows="20" placeholder="Sem můžeš nahrát celý článek pro stress test"></textarea>
 
