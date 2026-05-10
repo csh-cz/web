@@ -127,7 +127,10 @@
     for (const tok of tokenize(text)) {
       // Skip tokens shorter than 3 (jako i v build-cs-spell-dictionary.mjs)
       if (tok.word.length < 3) continue;
-      const ok = spellInstance.spell(tok.word) || customWords.has(tok.word);
+      // nspell.spell() vrací OBJECT { correct, forbidden, warn }, ne boolean.
+      // Object je vždy truthy → bug v 1. iteraci kdy `if (spell())` vždy true.
+      const result = spellInstance.spell(tok.word);
+      const ok = result.correct || customWords.has(tok.word);
       if (ok) continue;
       // Nesprávné slovo — wrap
       parts.push(escapeHtml(text.slice(lastEnd, tok.start)));
