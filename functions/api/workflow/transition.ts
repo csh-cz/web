@@ -29,7 +29,7 @@
  *      includes [editor: email] + [workflow: action]
  *   5. Vrátí new commit sha
  */
-import yaml from 'yaml';
+import { parse as yamlParse, stringify as yamlStringify } from 'yaml';
 
 interface Env {
   GITHUB_BOT_PAT: string;
@@ -155,7 +155,7 @@ function updateFrontmatterWorkflow(content: string, workflow: WorkflowFields): s
   const fmEnd = fmStart + fmMatch[0].length;
 
   // Parse, update, serialize
-  const data = yaml.parse(fmRaw) ?? {};
+  const data = yamlParse(fmRaw) ?? {};
   // Empty workflow → odstranit fieldy bez hodnot, aby YAML nezůstal
   // s "workflow: {}" nebo bezvalue keys
   const cleaned: Record<string, unknown> = {};
@@ -169,7 +169,7 @@ function updateFrontmatterWorkflow(content: string, workflow: WorkflowFields): s
   } else {
     delete data.workflow;
   }
-  const newFm = yaml.stringify(data, { lineWidth: 0 }).trimEnd();
+  const newFm = yamlStringify(data, { lineWidth: 0 }).trimEnd();
   return content.slice(0, fmStart) + `---\n${newFm}\n---` + content.slice(fmEnd);
 }
 
@@ -268,7 +268,7 @@ export const onRequest: PagesFunction<Env> = async ({ request, env }) => {
   }
   let currentWorkflow: WorkflowFields = {};
   try {
-    const fmData = yaml.parse(fmMatch[1]) as { workflow?: WorkflowFields };
+    const fmData = yamlParse(fmMatch[1]) as { workflow?: WorkflowFields };
     currentWorkflow = fmData?.workflow ?? {};
   } catch (e) {
     return new Response(JSON.stringify({ error: 'frontmatter parse error', reason: String(e) }), {
