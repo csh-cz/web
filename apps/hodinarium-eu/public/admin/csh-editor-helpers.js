@@ -25,6 +25,7 @@
     spellcheck: false,
     ai: false,
     aiLevel: 'free', // 'free' = Workers AI Mistral, 'paid' = Anthropic Sonnet (později)
+    linkPicker: true, // Cmd+K modal pro odkazy — default ON (low overhead, žádný stažený asset)
   };
 
   /** Read settings z localStorage, merge s defaults. */
@@ -125,6 +126,19 @@
           </span>
         </span>
       </label>
+      <label style="display:flex;align-items:flex-start;gap:.5rem;margin-bottom:.6rem;cursor:pointer">
+        <input type="checkbox" id="csh-set-link-picker" ${settings.linkPicker ? 'checked' : ''}
+               style="margin-top:.2rem;cursor:pointer">
+        <span>
+          <strong>Vkládání odkazů (⌘K / Ctrl+K)</strong>
+          <span style="display:block;font-size:.8rem;opacity:.7;margin-top:.15rem">
+            Modal pro snadné vkládání odkazů. Označ slovo nebo umísti kurzor,
+            stiskni ⌘K (Mac) nebo Ctrl+K (Win/Lin) — najde Hodinárium stránky
+            (medailony, slovník, soupis), Wikipedii, Wikidata, Památkový
+            katalog NPÚ.
+          </span>
+        </span>
+      </label>
       <div style="margin:1rem 0 .6rem;padding-top:.8rem;border-top:1px solid #444;font-size:.8rem;opacity:.7">
         <strong>Pozn.:</strong> obě funkce jsou nezávislé, lze zapnout libovolnou
         kombinaci. Spell-check funguje offline (data v prohlížeči), AI vyžaduje
@@ -161,12 +175,14 @@
         spellcheck: modal.querySelector('#csh-set-spellcheck').checked,
         ai: modal.querySelector('#csh-set-ai').checked,
         aiLevel: 'free',
+        linkPicker: modal.querySelector('#csh-set-link-picker').checked,
       };
       saveSettings(next);
       window.dispatchEvent(new CustomEvent('csh-settings-changed', { detail: next }));
     }
     modal.querySelector('#csh-set-spellcheck').addEventListener('change', applyAndEmit);
     modal.querySelector('#csh-set-ai').addEventListener('change', applyAndEmit);
+    modal.querySelector('#csh-set-link-picker').addEventListener('change', applyAndEmit);
   }
 
   // ── Public API ──────────────────────────────────────────────────

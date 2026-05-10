@@ -310,8 +310,10 @@ Z 17 nálezů 6 quick-wins + M7 + M8 vyřešeno. Zbývá:
       s neangloruštěným/německy mluvícím čtenářem. Použije slovník-aware
       Mistral nebo Sonnet (V2). Privacy disclosure (text jde do AI).
 
-- [ ] **A.20 Universal link picker — sjednocené vkládání odkazů**
-      (~8–10 h, vysoká hodnota). Jeden modal pro všechny typy odkazů:
+- ⚠ **A.20 Universal link picker — sjednocené vkládání odkazů**
+      ~~(~8–10 h)~~ **V1 implementováno (commit pending), čeká na
+      uživatelské testování.** Cmd+K (Mac) / Ctrl+K (Win/Lin) v
+      textarea otevře modal:
       vnitřní (Hodinárium 1100+ stránek), Wikipedia (cs+en), Wikidata,
       Památkový katalog NPÚ, vlastní URL. Klávesová zkratka Cmd+K v
       textarea otevře modal s pre-filled selection.
