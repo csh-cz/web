@@ -22,4 +22,5 @@ FLYING PENDULUM CLOCK bych raději nazýval "**hodiny s přelétavým** [**kyvad
 **Další zajímavé odkazy:**
 
 - již zmíněná videa na [**YouTube**](http://www.youtube.com/results?search_query=Flying+Pendulum+Clock&search_type=)
+- [Dr. Hugh Grant Rowell Collection](http://www.dartmouth.edu/~library/Library_Bulletin/Nov1992/LB-N92-King.html)
 - The Internet Craftsmanship Museum Presents: [Jerry Kieffer](http://www.craftsmanshipmuseum.com/Kieffer5.htm)
