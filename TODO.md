@@ -66,9 +66,6 @@ prosvítit články) a `pnpm search:rebuild` (corpus + embed).
 
 V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
 
-- [ ] **W-4 API endpoint /api/workflow/transition** (~2-3 h) —
-      Pages Function pro state changes (Zabrat / Review / Schválit)
-      přes csh-cms-proxy commit. Tlačítka v dashboardu volající API.
 - [ ] **W-6 Editor banner v Sveltia** (~2 h) — `csh-workflow-banner.js`
       upozornění při otevření locked článku.
 - [ ] **A.21 V2 dead-link auditor follow-ups** (~3 h):
@@ -78,10 +75,7 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
       replace dead URL na Wayback snapshot pokud existuje.
 - [ ] **A.13 V2 spell-check** — right-click suggestion menu, CI workflow
       pro rebuild dictionary při každém content commitu (žádný drift
-      mezi repo daty a dictionary). Plus: **doplnit „Hodinárium" do
-      custom dict** (live test 2026-05-10 odhalil, že tvar „Hodinária"
-      se podtrhává — cs Hunspell ho nezná, builder skript musí přidat
-      základní tvar + pádové formy).
+      mezi repo daty a dictionary).
 - [ ] **A.20 V2 link picker — auto-detect mode** (~5 h) — AI scanuje text
       za entity (jména, místa, díla), tečkovaný podtisk pod nelinkovanými.
       Hover → tooltip „Vložit odkaz?".

@@ -9,10 +9,11 @@
  *
  * Authentication: Cloudflare Access — admin/* je už chráněný.
  *
- * V1: read-only seznam s odkazy do Sveltia. Akce jako „Zabrat" /
- * „Pošli k review" / „Schvaluji" jsou zatím manuální (editor v Sveltia
- * upraví workflow.* fields ručně). V2 přidá tlačítka volající
- * /api/workflow/transition pro automatickou změnu.
+ * Akce per row: ✎ Editovat (Sveltia), Náhled, plus W-4 transition tlačítka:
+ * Zabrat (todo), Review (in-progress), Schvaluji (review), Uvolnit zámek
+ * (volné). Tlačítka volají POST /api/workflow/transition (Pages Function),
+ * která commitne workflow.* update do GitHubu a CF Pages během ~90 s
+ * rebuildje. Stránka po success reloadne — refresh ukáže updatovaný stav.
  */
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
@@ -232,7 +233,7 @@ const statusColor: Record<string, string> = {
                   <span style="color:#888">⚠ skryté pro veřejnost</span>
                 )}
               </td>
-              <td style="padding:.6rem .8rem;vertical-align:top;font-size:.85rem;white-space:nowrap">
+              <td style="padding:.6rem .8rem;vertical-align:top;font-size:.85rem;white-space:nowrap" data-task-actions data-collection={t.collection} data-entry-id={t.collection === 'clanky' ? t.slug : t.slug /* astro entry id = slug for non-clanky; clanky entry id = filename */}>
                 <a href={t.editUrl} style="display:inline-block;padding:.3rem .7rem;background:var(--color-brass);color:#1a1a1a;text-decoration:none;border-radius:.25rem;font-weight:500">
                   ✎ Editovat
                 </a>
@@ -241,6 +242,28 @@ const statusColor: Record<string, string> = {
                     Náhled ↗
                   </a>
                 )}
+                <div style="margin-top:.4rem;display:flex;flex-wrap:wrap;gap:.3rem">
+                  {t.status === 'todo' && (
+                    <button type="button" data-action="claim" style="padding:.25rem .55rem;background:#1a1a1a;color:#e8d8a8;border:1px solid #c9a85d;border-radius:.2rem;cursor:pointer;font:inherit;font-size:.78rem">
+                      Zabrat
+                    </button>
+                  )}
+                  {t.status === 'in-progress' && (
+                    <button type="button" data-action="submit-review" style="padding:.25rem .55rem;background:#1a1a1a;color:#9bd97a;border:1px solid #5b9d5b;border-radius:.2rem;cursor:pointer;font:inherit;font-size:.78rem">
+                      Pošli k recenzi
+                    </button>
+                  )}
+                  {t.status === 'review' && (
+                    <button type="button" data-action="approve" style="padding:.25rem .55rem;background:#1a1a1a;color:#9bd97a;border:1px solid #5b9d5b;border-radius:.2rem;cursor:pointer;font:inherit;font-size:.78rem">
+                      ✓ Schvaluji
+                    </button>
+                  )}
+                  {(t.lockedBy || t.status === 'in-progress' || t.status === 'review') && (
+                    <button type="button" data-action="release" style="padding:.25rem .55rem;background:transparent;color:#888;border:1px solid #444;border-radius:.2rem;cursor:pointer;font:inherit;font-size:.78rem" title="Smazat zámek (nikdo nepracuje), status zůstane">
+                      Uvolnit zámek
+                    </button>
+                  )}
+                </div>
               </td>
             </tr>
           ))}
@@ -252,8 +275,11 @@ const statusColor: Record<string, string> = {
       <p>
         <strong>Workflow stavy:</strong> <code>todo</code> → <code>in-progress</code> →
         <code>review</code> → <code>ready</code> (= odebrat z úkolovníku, publish).
-        Stav přejímání: zatím manuální (editor v Sveltia upraví <code>workflow.*</code>
-        fields ručně). V2 přidá tlačítka „Zabrat / Pošli k review / Schvaluji".
+        Tlačítka <em>Zabrat / Pošli k recenzi / Schvaluji</em> commitují
+        <code>workflow.*</code> fields přes POST <code>/api/workflow/transition</code>
+        (= GitHub commit jako bot). CF Pages rebuilduje za ~90 s; po
+        commitu úkolovník page sám reloadne, ale changes uvidíte až po
+        deploy. Pro okamžitý feedback otevři článek v Sveltia editoru.
       </p>
       <p style="margin-top:.5rem">
         <a href="/admin/" style="color:var(--color-brass-bright)">← Zpět do CMS</a> ·
@@ -261,4 +287,63 @@ const statusColor: Record<string, string> = {
       </p>
     </footer>
   </main>
+
+  <script>
+    // W-4 — interactive workflow transition tlačítka.
+    // Klik vytvoří POST /api/workflow/transition s editor's CF Access
+    // identity (header injectne CF samo). Po success page reloadne.
+    document.addEventListener('click', async (e) => {
+      const btn = (e.target as HTMLElement).closest('button[data-action]') as HTMLButtonElement | null;
+      if (!btn) return;
+      const cell = btn.closest('[data-task-actions]') as HTMLElement | null;
+      if (!cell) return;
+
+      const collection = cell.dataset.collection;
+      const id = cell.dataset.entryId;
+      const action = btn.dataset.action;
+      if (!collection || !id || !action) return;
+
+      // Confirmation pro destructive actions
+      const labels: Record<string, string> = {
+        'claim': 'Zabrat',
+        'submit-review': 'Pošli k recenzi',
+        'approve': 'Schvaluji (publish)',
+        'release': 'Uvolnit zámek',
+      };
+      if (!confirm(`${labels[action]}: ${id}?`)) return;
+
+      btn.disabled = true;
+      const original = btn.textContent;
+      btn.textContent = '⏳ …';
+
+      try {
+        const res = await fetch('/api/workflow/transition', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ collection, id, action }),
+        });
+        const data = await res.json();
+        if (!res.ok) {
+          alert(`Chyba (${res.status}): ${data.error}\n${data.reason ?? ''}`);
+          btn.disabled = false;
+          btn.textContent = original;
+          return;
+        }
+        // Success — show brief flash, then reload
+        btn.textContent = '✓ ' + labels[action];
+        btn.style.color = '#9bd97a';
+        setTimeout(() => {
+          // CF Pages rebuild trvá ~90s; reload teď ukáže staré stav
+          // (= zmate uživatele). Místo plný reload jen označit task
+          // jako "transitioning" a doporučit počkat.
+          alert(`Hotovo. Commit ${data.commit_sha?.slice(0, 7)} odeslán.\n\nCF Pages rebuilduje (~90 s); pak reload úkolovník pro updatovaný stav.`);
+          location.reload();
+        }, 600);
+      } catch (err) {
+        alert(`Network error: ${err}`);
+        btn.disabled = false;
+        btn.textContent = original;
+      }
+    });
+  </script>
 </Base>
