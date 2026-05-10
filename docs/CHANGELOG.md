@@ -57,6 +57,29 @@ Plná historie se najde v `git log` — toto je rychlý přehled milníků.
   `/admin/handbook/` jako Astro page, `/admin/tasks/` úkolovník místo
   GitHub Issues, „úkol č. N přijato" místo „Issue #N created".
 
+### Editorial workflow — W-6 Sveltia editor banner
+
+- **`apps/hodinarium-eu/public/admin/csh-workflow-banner.js`** — script
+  pro Sveltia admin/index.html. Hook na hashchange (Sveltia entry route),
+  fetchne raw frontmatter z GitHubu přes /api/cms proxy, parse YAML,
+  rozhodne stav podle `workflow.lockedBy` + `lockedAt`:
+  - vy držíte zámek → zelený banner „✓ Vaše rozpracování"
+  - někdo jiný + lockedAt < 24 h → červený „🔒 Někdo na článku pracuje"
+  - někdo jiný + lockedAt > 24 h → žlutý „⚠ Starý zámek" (převzít OK)
+  - free → no banner
+- Editor identity z CF_Authorization JWT cookie.
+- Banner má close button (×) a ARIA role=status + aria-live.
+- Lazy-load yaml parser z esm.sh (~30 KB).
+
+### Tags whitelist + CF Pages unblock
+
+- Petrovy 3 sveltia commits (flying_pendulum, gobelin) zavedly tagy
+  s diakritikou ("kuželové kyvadlo", "vyšívané") mimo kebab-case
+  whitelist v `src/data/tags.json`. Astro check failed → CF Pages
+  prebuild abortoval → production deploy zaseknutý ~30 min.
+- Fix: tagy normalizovány (kuzelove-kyvadlo, preletave-kyvadlo, vysivane)
+  + přidány do whitelist `typ[]`.
+
 ### Editorial workflow — W-4 transition API + interactive úkolovník
 
 - **`functions/api/workflow/transition.ts`** — Pages Function POST endpoint
