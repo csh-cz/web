@@ -66,9 +66,6 @@ prosvítit články) a `pnpm search:rebuild` (corpus + embed).
 
 V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
 
-- [ ] **W-2 Visibility logic v page render** (~2 h) — Astro
-      getStaticPaths filter na workflow.status pro veřejnost,
-      WIP banner pro publicDuringEdit articles.
 - [ ] **W-4 API endpoint /api/workflow/transition** (~2-3 h) —
       Pages Function pro state changes (Zabrat / Review / Schválit)
       přes csh-cms-proxy commit. Tlačítka v dashboardu volající API.

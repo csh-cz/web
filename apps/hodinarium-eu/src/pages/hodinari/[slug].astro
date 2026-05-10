@@ -11,6 +11,8 @@ import { tinyMarkdown } from '../../utils/tinyMarkdown';
 import { stavLabel } from '../../data/labels';
 import { extractWikiTitle } from '../../utils/referenceTypes';
 import { formatCite, getRef } from '../../utils/cite';
+import WipBanner from '../../components/WipBanner.astro';
+import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
 
 import type { CatalogEntry } from '../../data/catalog-types';
 
@@ -110,12 +112,17 @@ export async function getStaticPaths() {
 }
 
 const { hodinar, medailon, hasFull, kartySbirky, soupisRecords } = Astro.props;
+const medailonVisible = medailon && isPubliclyBuildable(medailon.data.workflow);
+const wipStatus = medailonVisible && showsWipBanner(medailon.data.workflow) ? medailon.data.workflow!.status : null;
 const all = catalog as CatalogEntry[];
 const related = hodinar.relatedSlugs
   .map((s) => all.find((e) => e.slug === s))
   .filter((e): e is CatalogEntry => Boolean(e));
 
-const Content = medailon ? (await render(medailon)).Content : null;
+// Editorial workflow: pokud medailon je non-ready bez publicDuringEdit,
+// detail Content se nezobrazí (page sám zůstane — primární data
+// jsou v data/hodinari.ts).
+const Content = medailonVisible ? (await render(medailon!)).Content : null;
 
 // Schema.org — Person nebo Organization podle typu
 const site = Astro.site ?? new URL('https://hodinarium-eu.pages.dev');
@@ -219,6 +226,10 @@ const personJsonLd = hodinar.typ === 'osoba'
       <p class="lead" set:html={tinyMarkdown(hodinar.shrnuti)}></p>
 
       <EditorNotesBlock notes={medailon?.data.editorNotes} sourceFile={`content/hodinari/${hodinar.slug}.mdx`} />
+
+      {wipStatus && (
+        <WipBanner status={wipStatus as 'todo' | 'in-progress' | 'review'} notes={medailon?.data.workflow?.notes} />
+      )}
 
       {hasFull && Content && (
         <Content />

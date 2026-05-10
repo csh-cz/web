@@ -2,11 +2,13 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import EditorNotesBlock from '../../components/EditorNotesBlock.astro';
+import WipBanner from '../../components/WipBanner.astro';
 import { getCollection, render } from 'astro:content';
 import { hodinari } from '../../data/hodinari';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
 import { pramenTooltip, extractWikiTitle } from '../../utils/referenceTypes';
 import { formatCite, getRef } from '../../utils/cite';
+import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
 
 /** Auto-detekce typu pramene z URL (když není explicitně uveden v frontmatteru).
  *  Bez URL → typicky bibliografická citace tištěného pramene → 'kniha' (📖). */
@@ -21,15 +23,18 @@ function detectPramenType(url: string | undefined, explicit?: string): string {
 
 export async function getStaticPaths() {
   const items = await getCollection('soupis-veznich-hodin');
-  return items.map((item) => ({
-    params: { slug: item.data.slug },
-    props: { item },
-  }));
+  return items
+    .filter((item) => isPubliclyBuildable(item.data.workflow))
+    .map((item) => ({
+      params: { slug: item.data.slug },
+      props: { item },
+    }));
 }
 
 const { item } = Astro.props;
 const { Content } = await render(item);
 const d = item.data;
+const wipStatus = showsWipBanner(d.workflow) ? d.workflow!.status : null;
 
 // slug → display name
 const hodinarName = new Map<string, string>();
@@ -193,6 +198,10 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
   )}
 
   <EditorNotesBlock notes={d.editorNotes} sourceFile={`content/soupis-veznich-hodin/${item.id}.mdx`} />
+
+  {wipStatus && (
+    <WipBanner status={wipStatus as 'todo' | 'in-progress' | 'review'} notes={d.workflow?.notes} />
+  )}
 
   <section class="prose-content">
     <Content />
