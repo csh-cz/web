@@ -227,10 +227,75 @@
         čtvrťové bití, Holešovice, …) z našeho slovníku, medailonů hodinářů
         a soupisu věžních hodin.
       </p>
-      <ul style="margin:.2rem 0 .8rem;padding-left:1.2rem">
-        <li>Anglicismy jako „balanc", „vlasová pružinka" — podtrženy</li>
-        <li>Funguje <strong>offline</strong> (cs dict v prohlížeči, ~6 MB stažení 1×)</li>
-        <li>Při prvním zapnutí cca 3–5 s init</li>
+
+      <p style="margin:.6rem 0 .3rem"><strong>Při prvním zapnutí se stáhne:</strong></p>
+      <table style="margin:.2rem 0 .8rem;border-collapse:collapse;width:100%;font-size:.85rem">
+        <tr style="border-bottom:1px solid #333">
+          <td style="padding:.2rem .5rem"><code>nspell</code> knihovna</td>
+          <td style="padding:.2rem .5rem;text-align:right">~50 KB</td>
+          <td style="padding:.2rem .5rem;font-size:.7rem;opacity:.6">esm.sh CDN</td>
+        </tr>
+        <tr style="border-bottom:1px solid #333">
+          <td style="padding:.2rem .5rem"><code>cs_CZ.aff</code> (gramatika)</td>
+          <td style="padding:.2rem .5rem;text-align:right">~1.2 MB</td>
+          <td style="padding:.2rem .5rem;font-size:.7rem;opacity:.6">unpkg.com</td>
+        </tr>
+        <tr style="border-bottom:1px solid #333">
+          <td style="padding:.2rem .5rem"><code>cs_CZ.dic</code> (slovník)</td>
+          <td style="padding:.2rem .5rem;text-align:right">~5 MB</td>
+          <td style="padding:.2rem .5rem;font-size:.7rem;opacity:.6">unpkg.com</td>
+        </tr>
+        <tr>
+          <td style="padding:.2rem .5rem"><code>csh-spell-dict.json</code> (CSH terms)</td>
+          <td style="padding:.2rem .5rem;text-align:right">~50 KB</td>
+          <td style="padding:.2rem .5rem;font-size:.7rem;opacity:.6">tento web</td>
+        </tr>
+        <tr style="border-top:1px solid #c9a85d">
+          <td style="padding:.2rem .5rem"><strong>Celkem</strong></td>
+          <td style="padding:.2rem .5rem;text-align:right"><strong>~6.3 MB</strong></td>
+          <td style="padding:.2rem .5rem;font-size:.7rem;opacity:.6">jednorázově</td>
+        </tr>
+      </table>
+
+      <p style="margin:.4rem 0 .3rem"><strong>Časová náročnost:</strong></p>
+      <ul style="margin:.2rem 0 .8rem;padding-left:1.2rem;font-size:.88rem">
+        <li>1. zapnutí: stažení (~3–10 s podle připojení) + parsování (~3–5 s)</li>
+        <li>2. zapnutí (cached): okamžité (~100 ms) — soubory v browser cache</li>
+        <li>Check tokenu: &lt;1 ms (vše v paměti)</li>
+        <li>Heap memory: ~10 MB</li>
+      </ul>
+
+      <p style="margin:.4rem 0 .3rem"><strong>Co se podtrhne (špatně):</strong></p>
+      <ul style="margin:.2rem 0 .8rem;padding-left:1.2rem;font-size:.88rem">
+        <li><code>balanc</code> → správně „setrvačka" (anglicismus)</li>
+        <li><code>vlasová pružinka</code> → „vlásek"</li>
+        <li><code>escapement</code> → „krok"</li>
+        <li>Překlepy: <code>kyvadlu</code> ✓ vs <code>kyvadelm</code> ✗</li>
+      </ul>
+
+      <p style="margin:.4rem 0 .3rem"><strong>Co se nepodtrhne (správně):</strong></p>
+      <ul style="margin:.2rem 0 .8rem;padding-left:1.2rem;font-size:.88rem">
+        <li>České slovo s diakritikou: <code>kyvadlové soukolí</code>, <code>čtvrťový stroj</code></li>
+        <li>Hodináři (custom dict): <code>Krečmer</code>, <code>Hainz</code>, <code>Janata</code></li>
+        <li>Místa ze soupisu: <code>Holešovice</code>, <code>Sušice</code>, <code>Vimperk</code></li>
+        <li>Historická cizí jména: <code>München</code>, <code>Schöpperle</code>, <code>Glashütte</code></li>
+      </ul>
+
+      <p style="margin:.4rem 0 .3rem"><strong>Kde funguje:</strong></p>
+      <ul style="margin:.2rem 0 .8rem;padding-left:1.2rem;font-size:.88rem">
+        <li>Velké textareas (≥ 60 px výška) — typicky tělo článku v Sveltia</li>
+        <li>NEpracuje na malých single-line input polích (slug, title, …)</li>
+      </ul>
+
+      <p style="margin:.4rem 0 .3rem"><strong>Známé limity:</strong></p>
+      <ul style="margin:.2rem 0 .8rem;padding-left:1.2rem;font-size:.88rem">
+        <li>Sveltia rich-text mode (TipTap/ProseMirror) — overlay nemusí
+            sedět přesně. Přepni do <em>Markdown source</em> view (přepínač
+            vpravo nahoře v editor pole).</li>
+        <li>Slovo je v souboru, ale podtrhuje se? Pošli e-mail na info@orloj.eu
+            s ukázkou — slovo přidáme do CSH custom dict při dalším buildu.</li>
+        <li>Vyčištění cache: F12 → Application → Storage → Clear site data,
+            pak znovu zapnout.</li>
       </ul>
 
       <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem">🤖 AI našeptávač</h3>
