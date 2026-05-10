@@ -212,16 +212,50 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
 - [ ] **D1 Test coverage** — Vitest setup pro `scripts/*.ts`
       (parse-soupis, build-redirects, apply-popisy, migrate-renumbering),
       snapshot testy pro layouty (~3 h).
-- [ ] **`rehype-picture` `wrapInPicture: true`** — **blokátor:** AVIF/WebP
-      jsou gitignored (`apps/*/public/img/**/*.avif|.webp`) a generují se
-      v `prebuild` přes `tsx scripts/generate-image-formats.ts`. Commit
-      `c394a60` ale **přeskakuje** generování na CF Pages buildu kvůli
-      timeoutu → na produkci .avif/.webp neexistují. Zapnout wrap by
-      vedlo na 404 fallback (browser zkusí avif→webp→jpg, navíc 2 zbytečné
-      requesty per image).
-      **Rozhodnutí potřeba:** (a) revert c394a60 + accept pomalejší CF
-      build, (b) commit imgvariants do repo (~5800 souborů), (c) využít
-      Cloudflare Image Resizing (free tier limit), (d) externí CDN.
+- [ ] **R2 image variants pipeline** (~3 h, blokátor: user musí zřídit R2)
+      Cesta C zvolená 2026-05-10: AVIF/WebP varianty na Cloudflare R2,
+      JPEG zdroje zůstávají v gitu (Varianta A v zápisku z 2026-05-10).
+      Důvod: GitHub free tier doporučuje repo < 1 GB (commit ~800 MB
+      variant by zvedl repo na 1.9 GB); R2 free tier 10 GB + neomezený
+      egress přes CF.
+
+      **Krok 1 — User setup (čeká na Davida):**
+      - Zřídit R2 bucket `csh-imgvariants` v CF dashboardu
+      - Public access + custom domain `imgcdn.<doména>.cz`
+      - API token s R2 Edit permission
+      - Podrobný návod: viz chat 2026-05-10
+
+      **Krok 2 — Claude implementace (autonomně po setup):**
+      - [ ] `scripts/upload-imgvariants-to-r2.mjs` — sync skript přes
+        wrangler / R2 S3 API. Diff lokálně vs R2 (ETag), upload jen
+        nové. Idempotentní (skip-existing). Output: stat (uploaded,
+        skipped, errors).
+      - [ ] `package.json` workflow scripts:
+        - `imgvariants:build` — generate lokálně (existuje, jen smazat
+          CF_PAGES guard z `scripts/generate-image-formats.ts`)
+        - `imgvariants:upload` — sync na R2
+        - `imgvariants:sync` — `build && upload` (one-stop)
+      - [ ] `packages/rehype-picture/index.mjs` — extend o `cdnBase`
+        option. Pro raster `<img src="/img/X.jpg">`:
+        ```html
+        <picture>
+          <source type="image/avif" srcset="<cdnBase>/img/X.avif">
+          <source type="image/webp" srcset="<cdnBase>/img/X.webp">
+          <img src="/img/X.jpg" ...>  <!-- fallback z CF Pages -->
+        </picture>
+        ```
+      - [ ] `apps/*/astro.config.mjs` — flip `wrapInPicture: true`
+        + `cdnBase: 'https://imgcdn.<doména>.cz'`
+      - [ ] Build verify + live test přes Chrome DevTools network
+        (ověřit AVIF served pro Chrome, JPEG fallback pro Safari/IE)
+      - [ ] Doc v `docs/CHANGELOG.md` + krátký runbook
+        `docs/imgvariants-r2-pipeline.md`
+
+      **Krok 3 — Volitelné automation (V2):**
+      - [ ] GitHub Action `.github/workflows/imgvariants-r2-sync.yml` —
+        auto-trigger při push na main, kdy se změnilo
+        `apps/*/public/img/**/*.{jpg,png}`. Generuje + uploadne (žádný
+        manual step, ale ~5-10 min build per push).
 - [ ] **CI cleanup** — staré Cloudflare Pages preview deployments smazat
       (kvóta).
 
