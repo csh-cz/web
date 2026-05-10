@@ -20,7 +20,10 @@
     "sitovky",
     "jednotny-cas",
     "pichacky",
-    "digi"
+    "digi",
+    "kuzelove-kyvadlo",
+    "preletave-kyvadlo",
+    "vysivane"
   ],
   "pohon": [
     "mechanicke",
