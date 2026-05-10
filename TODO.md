@@ -213,20 +213,23 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
 
 ## A.7 — Tech dluh (větší)
 
-- [ ] **D2 BUGS.md aktualizace** — rerun `pnpm test:e2e`, fix nebo doc
-      (crawl 2026-04-28: 54 no-h1, 21 JS error, 20 HTTP error). Většina
-      no-h1 už ok po /img/ refactoru (~2 h).
 - [ ] **D6 Slug standardizace na kebab-case** — 114 souborů v
       `content/hodinarium-eu/` má non-kebab slugy (`Arduino`, `astro2_NTP`,
       `decin_jednotny_cas`, …). 114 file renames + 114 redirectů + grep
       všech inline odkazů + SEO reindex. Citlivá ale čistě technická.
-- [ ] **D5 Konsolidace _redirects** — 776 řádků, CF limit 2 000.
-      Regroup pomocí glob patterns.
 - [ ] **D1 Test coverage** — Vitest setup pro `scripts/*.ts`
       (parse-soupis, build-redirects, apply-popisy, migrate-renumbering),
       snapshot testy pro layouty (~3 h).
-- [ ] **`rehype-picture` `wrapInPicture: true`** — zapnout až po
-      `pnpm imgvariants:build` a commitu .avif/.webp variant.
+- [ ] **`rehype-picture` `wrapInPicture: true`** — **blokátor:** AVIF/WebP
+      jsou gitignored (`apps/*/public/img/**/*.avif|.webp`) a generují se
+      v `prebuild` přes `tsx scripts/generate-image-formats.ts`. Commit
+      `c394a60` ale **přeskakuje** generování na CF Pages buildu kvůli
+      timeoutu → na produkci .avif/.webp neexistují. Zapnout wrap by
+      vedlo na 404 fallback (browser zkusí avif→webp→jpg, navíc 2 zbytečné
+      requesty per image).
+      **Rozhodnutí potřeba:** (a) revert c394a60 + accept pomalejší CF
+      build, (b) commit imgvariants do repo (~5800 souborů), (c) využít
+      Cloudflare Image Resizing (free tier limit), (d) externí CDN.
 - [ ] **CI cleanup** — staré Cloudflare Pages preview deployments smazat
       (kvóta).
 

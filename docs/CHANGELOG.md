@@ -5,7 +5,37 @@ Plná historie se najde v `git log` — toto je rychlý přehled milníků.
 
 ---
 
-## 2026-05-10 — editor pomocníci V1 + editorial workflow + audit
+## 2026-05-10 — editor pomocníci V1 + editorial workflow + tech-debt cleanup
+
+### Tech dluh — odstranění stale artefaktů a redirects
+
+- **D5 _redirects konsolidace** — 776 → 491 řádků (-37 %). Sbírkové karty
+  (290 záznamů) sjednoceny do jednoho glob řádku
+  `/clanky/inv-* /sbirka/karta/inv-:splat 301`. CF limit 2000 — rezerva
+  z 38 % na 24 %. Renamed karty (KARTY_SLUG_RENAMES) overrides PŘED glob
+  kvůli first-match-wins.
+- **D2 BUGS.md odstraněn** — 8 dní starý stale report z crawler bugu před
+  `NON_PAGE_EXTS` filtrem (no-h1 / missing-title false positives na
+  binárních /img/* assetech). Bug crawleru opraven, ale report nezaktualizován.
+  Aktuální stav coverage je `pnpm test:e2e` (90 passed, 19 skipped, 0 fail
+  na pages.dev) — Playwright regression + smoke testy.
+- **e2e suite refresh** (5 souborů):
+  - `nav-contrast.hodinarium.spec.ts` — NAV_LINKS aktualizováno po M5/M6
+    cleanup (Návštěva, O Hodináriu, Sbírka, Projekty, Konstrukce, Hodináři,
+    Soupis věžních hodin, Mapa horologie, Více); 200ms wait pro CSS
+    transition; mobile skipnutý (top nav je `hidden md:flex`); regex-based
+    text matching místo loose hasText.
+  - `byline-date.hodinarium.spec.ts` — `domcontentloaded` místo default
+    'load' wait; podebrady odebráno (Playwright Chromium OOM v headless
+    s 9 large jpgs, v real Chrome funguje OK).
+  - `youtube-and-components.hodinarium.spec.ts` — `/clanky/` URLs nahrazeny
+    direkt `/<kategorie>/<slug>` po M2 taxonomy refactoru (mobile profil
+    redirect chain hit 30s timeout).
+  - `iframes-and-components.hodinarium.spec.ts` — totéž (Kappa→projekty,
+    slunecni_filler/slunecni_polarizacni/vodni_B_Gitton→sbirka,
+    zidovske→virtualni-muzeum).
+
+### Sveltia editor — sada pomocníků (A.13, A.14, A.20)
 
 ### Sveltia editor — sada pomocníků (A.13, A.14, A.20)
 
