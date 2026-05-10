@@ -12,13 +12,13 @@ scrapedAt: "2026-04-27T17:36:34.257Z"
 ---
 ![Hodiny z kostela v Prysku - před dokončením restaurování](/img/vez/prysk/foto_0001.jpg)
 
-Sezóna 2012 ve Věžním muzejíčku byla ve znamení mnoha novinek. Vedle hlavního exponátu, soběslavského stroje s gotickým základem, jste si mohli prohlédnout rozšířenou hodinářskou i zvonařskou expozici. Restaurovány jsou dva další věžní hodinové stroje, třetí se připravuje. Na obrázku vlevo je vidět nálezový stav barokního stroje z kostela ve Zlatých Horách.![Fotografie 1](/img/vez/ZlateHory/f/foto_0001.jpg)Ukázka restaurátorské práce na hodinách zapůjčených z majetku Biskupství litoměřického je na fotografiích vpravo. Více na samostatných stránkách hodin z [Horního Prysku](/clanky/vez_Prysk) a ze [Zlatých Hor.](/clanky/vez_Zlate_Hory)
+Sezóna 2012 ve Věžním muzejíčku byla ve znamení mnoha novinek. Vedle hlavního exponátu, soběslavského stroje s gotickým základem, jste si mohli prohlédnout rozšířenou hodinářskou i zvonařskou expozici. Restaurovány jsou dva další věžní hodinové stroje, třetí se připravuje. Na obrázku vlevo je vidět nálezový stav barokního stroje z kostela ve Zlatých Horách.![Fotografie 1](/img/vez/ZlateHory/f/foto_0001.jpg)Ukázka restaurátorské práce na hodinách zapůjčených z majetku Biskupství litoměřického je na fotografiích vpravo. Více na samostatných stránkách hodin z [Horního Prysku](/sbirka/vez-prysk) a ze [Zlatých Hor.](/sbirka/vez-zlate-hory)
 
-Ve zvonařské části je i naznačena podoba nového stokilového soběslavského [zvonu Petr Vok](/clanky/zvon_petr_vok). Zvon čeká slavnostní vysvěcení a tažení na 22.9.2012. [![Hodiny z kostela v Prysku - nálezový stav](/img/vez/prysk/foto_0002.jpg)](/img/vez/prysk/f/foto_0002.jpg)
+Ve zvonařské části je i naznačena podoba nového stokilového soběslavského [zvonu Petr Vok](/sbirka/zvon-petr-vok). Zvon čeká slavnostní vysvěcení a tažení na 22.9.2012. [![Hodiny z kostela v Prysku - nálezový stav](/img/vez/prysk/foto_0002.jpg)](/img/vez/prysk/f/foto_0002.jpg)
 
-Aby se i ženy měly na co dívat, byla pořádána [výstavka šperků](/clanky/steampunk) ve stylu [steampunku](steampunk2.htm). Tradičně doplněna výstavou fotografií pana Marušáka, tentokrát na téma [České a moravské zvony](/clanky/sezona2012_foto_marusak). Průvodní text výstavy [ke stažení](/download/zvony2012.pdf).
+Aby se i ženy měly na co dívat, byla pořádána [výstavka šperků](/clanky/steampunk) ve stylu [steampunku](steampunk2.htm). Tradičně doplněna výstavou fotografií pana Marušáka, tentokrát na téma [České a moravské zvony](/kronika/sezona2012-foto-marusak). Průvodní text výstavy [ke stažení](/download/zvony2012.pdf).
 
-ny měly na co dívat, byla pořádána [výstavka šperků](/clanky/steampunk) ve stylu [steampunku](steampunk2.htm). Tradičně doplněna výstavou fotografií pana Marušáka, tentokrát na téma [České a moravské zvony](/clanky/sezona2012_foto_marusak). Průvodní text výstavy [ke stažení](/download/zvony2012.pdf).
+ny měly na co dívat, byla pořádána [výstavka šperků](/clanky/steampunk) ve stylu [steampunku](steampunk2.htm). Tradičně doplněna výstavou fotografií pana Marušáka, tentokrát na téma [České a moravské zvony](/kronika/sezona2012-foto-marusak). Průvodní text výstavy [ke stažení](/download/zvony2012.pdf).
 
 ## Nový leták 2012
 
