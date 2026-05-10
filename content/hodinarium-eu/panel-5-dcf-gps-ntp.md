@@ -1,18 +1,13 @@
 ---
-title: "Panel 5 — DCF, GPS, NTP a moderní časová synchronizace"
-slug: "panel-5-dcf-gps-ntp"
-category: "sbirka"
+title: Panel 5 — DCF, GPS, NTP a moderní časová synchronizace
+slug: panel-5-dcf-gps-ntp
+category: sbirka
+tldr: Hodiny řízené DCF77, GPS nebo NTP serverem. Lodní hodiny Kappa s mobilní synchronizací; IBM podružné s elektronickým řízením.
+author: Český spolek horologický
 tags:
   - panel-5
   - elektricke
   - radio-rizeno
-originalUrl: "https://hodinarium-eu.pages.dev/sbirka/panel-5-dcf-gps-ntp"
-lastModified: null
-sourceCharset: "utf-8"
-scrapedAt: "2026-05-05T00:00:00.000Z"
-manualEdit: true
-author: "Český spolek horologický"
-perex: "Panel 5 v Sálu elektro představuje různé typy hodin, které pro přesnou časovou informaci využívají signál z vysílače DCF77, GPS nebo od NTP serveru. Na vestavěném počítači lze sledovat průběh získávání časové informace z různých zdrojů."
 relatedKarty:
   - inv-124-mini-hlavni-hodiny-hn61
   - inv-125-podruzne-hodiny-mobatime
@@ -27,11 +22,17 @@ relatedKarty:
   - inv-135-preklapeci-hodiny-zavinac
   - inv-137-podruzne-hodiny-ibm
   - inv-139-lodni-hodiny-kappa
-tldr: 'Hodiny řízené DCF77, GPS nebo NTP serverem. Lodní hodiny Kappa s mobilní synchronizací; IBM podružné s elektronickým řízením.'
+manualEdit: true
+originalUrl: https://hodinarium-eu.pages.dev/sbirka/panel-5-dcf-gps-ntp
+lastModified: null
+sourceCharset: utf-8
+scrapedAt: 2026-05-05T00:00:00.000Z
+perex: Panel 5 v Sálu elektro představuje různé typy hodin, které pro přesnou časovou informaci využívají signál z vysílače DCF77, GPS nebo od NTP serveru. Na vestavěném počítači lze sledovat průběh získávání časové informace z různých zdrojů.
 ---
 
 ![Panel 5 v Sálu elektro — DCF, GPS, NTP synchronizace](/img/panely/panel-5.jpg)
-*Panel 5 v Sálu elektro: hodiny řízené DCF77, GPS a NTP. Foto: M. Baudisch / ČSH 2026.*
+
+_Panel 5 v Sálu elektro: hodiny řízené DCF77, GPS a NTP. Foto: M. Baudisch / ČSH 2026._
 
 Na panelu jsou různé typy hodin, které pro přesnou časovou informaci využívají **signál z vysílače DCF77** (z hlavních hodin H), **GPS** nebo od **NTP serveru**.
 
@@ -45,7 +46,7 @@ DCF signálem jsou řízeny například [hodiny EH 101](/sbirka/karta/inv-129-ho
 
 ## NTP a počítačová síť
 
-Zajímavostí jsou [podružné hodiny firmy IBM](/sbirka/karta/inv-137-podruzne-hodiny-ibm/), u nichž je napájení z matičních hodin nahrazeno elektronickým zařízením, získávajícím časový signál z NTP serveru a zachovávajícím logiku ovládání.
+Zajímavostí jsou [podružné částečně samostavitelné hodiny firmy IBM](/sbirka/karta/inv-137-podruzne-hodiny-ibm/), u nichž  je řízení od mechanických  matičních  hodin nahrazeno elektronickým zařízením, získávajícím časový signál z NTP serveru a zachovávajícím logiku ovládání. 
 
 [Lodní hodiny Kappa](/sbirka/karta/inv-139-lodni-hodiny-kappa/) přebírají časovou informaci z počítačové sítě a jsou dálkově seřiditelné přes mobil.
 
@@ -67,4 +68,4 @@ Na vestavěném [notebooku](/sbirka/karta/inv-134-notebook/) lze sledovat průb�
 
 V xlsx 2025 evidovaný přírůstek **hodin HN350** (M. Baudisch) — karta zatím neexistuje, inv. č. zatím nepřiřazeno.
 
-*Text panelu je oficiální popis kurátora expozice (M. Baudisch, ČSH 2017, aktualizováno 2026-05).*
+_Text panelu je oficiální popis kurátora expozice (M. Baudisch, ČSH 2017, aktualizováno 2026-05)._

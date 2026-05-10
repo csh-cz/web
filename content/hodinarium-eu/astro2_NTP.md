@@ -2,7 +2,7 @@
 title: Astronomické hodiny z čínské stavebnice meteostanice
 slug: astro2_NTP
 category: projekty
-tldr: Základem těchto astronomicko-astrologických hodin je čínská stavebnice meteostanice podobná té na obrázku. Řídí jí modul ESP01S. který výsledky výpočtů zobrazuje na OLED displeji.…
+tldr: Základem těchto astronomicko-astrologických hodin je původně čínská stavebnice meteostanic. Řídí jí modul ESP01S. který výsledky výpočtů zobrazuje na OLED displeji.…
 author: Petr Král
 manualEdit: true
 originalUrl: https://hodinarium.eu/astro2_NTP.htm
