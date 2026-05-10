@@ -57,6 +57,32 @@ Plná historie se najde v `git log` — toto je rychlý přehled milníků.
   `/admin/handbook/` jako Astro page, `/admin/tasks/` úkolovník místo
   GitHub Issues, „úkol č. N přijato" místo „Issue #N created".
 
+### Editorial workflow — W-4 transition API + interactive úkolovník
+
+- **`functions/api/workflow/transition.ts`** — Pages Function POST endpoint
+  pro state changes přes CF Access auth + GITHUB_BOT_PAT commit:
+  - `claim` (todo → in-progress, lockedBy = editor email, lockedAt = now)
+  - `submit-review` (in-progress → review)
+  - `approve` (review → ready, push editor do reviewedBy, smaže lock)
+  - `release` (clear lockedBy + lockedAt, status zůstane)
+  - Validation: pokud action vyžaduje konkrétní status (approve potřebuje
+    review), neaplikuje se mimo platný stav.
+- **`/admin/tasks/`** — interactive tlačítka per row: Zabrat / Pošli k
+  recenzi / Schvaluji / Uvolnit zámek. JS handler volá POST endpoint,
+  potvrzení dialog, page reload po success. CF Pages rebuilduje ~90 s
+  → editor uvidí změnu po deploy (alert info).
+- Editorial workflow V1 je teď **end-to-end funkční**: schema → Sveltia
+  widget → úkolovník → tlačítka → API → GitHub commit → re-deploy →
+  visible v dist.
+
+### Spell-checker — A.13 dict fix
+
+- `scripts/build-cs-spell-dictionary.mjs` — INSTITUTIONAL_TERMS seznam
+  s 4 pádovými tvary „Hodinárium" (vzor „město"): Hodinárium / Hodinária
+  / Hodináriu / Hodináriem + ČSH zkratka. Live test odhalil, že genitiv
+  „Hodinária" se podtrhával — Hunspell slovo nezná, morfologie nemůže.
+- Custom dict regenerován: 1242 → 1247 slov.
+
 ### Editorial workflow — W-2 visibility logic
 
 - `utils/workflow-visibility.ts` — helpers `isPubliclyBuildable()` (filter
