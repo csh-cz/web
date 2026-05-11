@@ -37,9 +37,15 @@ prosvítit články) a `pnpm search:rebuild` (corpus + embed).
       kategorie, ukazuje "žádné výsledky" banner. URL param `?q=…` pro deep link.
       Clear button (×) + ESC keybind. Pre-fold cached při loadu (rychlost
       pro 135 cards).
-- [ ] **SL13 Reference IDs s anchorlinkováním** — `[Zotero \`KEY\`]`
-      v citacích v body propojit na `references.json` (CSL render přes
-      citeproc-js stejně jako u kroku detailu).
+- [partial] **SL13 Reference IDs s anchorlinkováním**:
+      - [x] Část 1 (2026-05-11): render `references` frontmatter sekce na
+        slovnik/[slug] (commit f311126). ISO 690 přes citeproc-js z
+        references.json, citace v blockquote, note + pages podpora.
+        id="ref-N" připravený pro budoucí anchor link z body.
+      - [ ] Část 2: rehype plugin pro `[Zotero \`KEY\`]` v body MDX →
+        auto-convert na `<a href="#ref-N">[Zotero KEY]</a>`. Plugin
+        bude potřebovat lookup bibKey → position in frontmatter.references
+        nebo přejít na id="ref-bibKey-KEY" schema (změna 78+ entries).
 
 ## A.3 — Audit follow-ups (read-only)
 
