@@ -27,11 +27,13 @@ const RASTER_RE = /\.(jpe?g|png)(\?.*)?$/i;
  * @param {{
  *   imageSizes?: Record<string, { w: number, h: number }>,
  *   wrapInPicture?: boolean,
+ *   cdnBase?: string,
  * }} [opts]
  */
 export default function rehypePicture(opts = {}) {
   const sizes = opts.imageSizes ?? {};
   const wrap = opts.wrapInPicture === true;
+  const cdnBase = (opts.cdnBase ?? '').replace(/\/+$/, '');
 
   return (tree) => {
     visit(tree, 'element', (node, index, parent) => {
@@ -71,6 +73,9 @@ export default function rehypePicture(opts = {}) {
       if (!RASTER_RE.test(src)) return;
 
       const base = src.replace(RASTER_RE, '');
+      // <source> ukazuje na R2 CDN (pokud nastaveno), fallback <img> zůstává
+      // na CF Pages path. cdnBase pattern: https://imgcdn.example.cz, bez trailing /.
+      const variantBase = cdnBase ? `${cdnBase}${base}` : base;
       const picture = {
         type: 'element',
         tagName: 'picture',
@@ -79,13 +84,13 @@ export default function rehypePicture(opts = {}) {
           {
             type: 'element',
             tagName: 'source',
-            properties: { type: 'image/avif', srcset: `${base}.avif` },
+            properties: { type: 'image/avif', srcset: `${variantBase}.avif` },
             children: [],
           },
           {
             type: 'element',
             tagName: 'source',
-            properties: { type: 'image/webp', srcset: `${base}.webp` },
+            properties: { type: 'image/webp', srcset: `${variantBase}.webp` },
             children: [],
           },
           node,

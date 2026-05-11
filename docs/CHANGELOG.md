@@ -5,6 +5,26 @@ Plná historie se najde v `git log` — toto je rychlý přehled milníků.
 
 ---
 
+## 2026-05-11 — R2 image variants pipeline
+
+- **R2 bucket `csh-imgvariants`** zřízen (David v CF dashboardu) — 10 GB free
+  tier, dev URL `pub-e96bd8c658664b38af73a48cb8872b60.r2.dev`. Custom domain
+  `imgcdn.<doména>` se nastaví až po DNS switch z pages.dev na produkční hosting.
+- **Nový skript [`scripts/upload-imgvariants-to-r2.mjs`](../scripts/upload-imgvariants-to-r2.mjs)** —
+  S3-compatible PUT přes `@aws-sdk/client-s3`. Idempotentní: list ETagů z R2,
+  MD5 lokálních variantů, upload jen diff. CacheControl `public, max-age=31536000, immutable`.
+  CLI: `pnpm imgvariants:upload`, `pnpm imgvariants:sync` (build + upload),
+  `--apps hodinarium-eu`, `--dry-run`.
+- **Credentials přes `.dev.vars`** (gitignored) — R2_ACCOUNT_ID, R2_ACCESS_KEY_ID,
+  R2_SECRET_ACCESS_KEY, R2_BUCKET, R2_PUBLIC_URL. Account API Token s „Object
+  Read & Write" permission jen na `csh-imgvariants` (least-privilege).
+- **`packages/rehype-picture`** rozšířen o `cdnBase` option — `<source srcset>`
+  ukazuje na R2 dev URL, fallback `<img src>` zůstává na CF Pages path. AVIF
+  pro Chrome (~30-50% menší než JPEG), WebP fallback pro Safari.
+- **Astro configs flipnuty na `wrapInPicture: true`** — oba apps. JPEG zdroj
+  z gitu, AVIF/WebP varianty z R2. Repo zůstává čisté (~1 GB), R2 bucket
+  ~575 MB (= 6% free).
+
 ## 2026-05-10 — editor pomocníci V1 + editorial workflow + tech-debt cleanup
 
 ### Tech dluh — odstranění stale artefaktů a redirects

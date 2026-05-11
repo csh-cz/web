@@ -18,6 +18,8 @@
     "spelldict:build": "node scripts/build-cs-spell-dictionary.mjs",
     "deadlinks:audit": "node scripts/audit-dead-links.mjs",
     "imgvariants:build": "tsx scripts/generate-image-formats.ts",
+    "imgvariants:upload": "node scripts/upload-imgvariants-to-r2.mjs",
+    "imgvariants:sync": "pnpm imgvariants:build && pnpm imgvariants:upload",
     "favicon:build": "tsx scripts/build-favicon.ts",
     "hodinari:detect": "tsx scripts/detect-hodinari-mentions.ts",
     "refs:sync": "node scripts/sync-zotero-refs.mjs",
@@ -47,6 +49,7 @@
     "preview:hodinarium": "pnpm --filter hodinarium-eu preview"
   },
   "devDependencies": {
+    "@aws-sdk/client-s3": "^3.1045.0",
     "@axe-core/playwright": "^4.11.3",
     "@lhci/cli": "^0.15.1",
     "@resvg/resvg-js": "^2.6.2",

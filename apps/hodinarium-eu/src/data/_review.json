@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T11:28:43.589Z",
+  "generatedAt": "2026-05-11T04:00:55.022Z",
   "summary": {
     "kartyTotal": 292,
     "kartyNoTyp": 93,
@@ -9,7 +9,7 @@
     "kartyPlaceholderTitle": 12,
     "clankyNoTldr": 2,
     "clankyShort": 59,
-    "clankyLegacyLinks": 57,
+    "clankyLegacyLinks": 38,
     "hodinariTotal": 104,
     "hodinariShort": 72,
     "hodinariNoPortret": 90,
@@ -3011,7 +3011,7 @@
     "clankyNoTldr": [
       {
         "slug": "_test-draft-article",
-        "title": "Testovací draft článek",
+        "title": "Testovací článek s WIP bannerem",
         "category": "zajimavosti",
         "editUrl": "/admin/#/collections/clanky/entries/_test-draft-article"
       },
@@ -3024,25 +3024,11 @@
     ],
     "clankyShort": [
       {
-        "slug": "RickStanley",
-        "title": "Pan Rick Stanley",
-        "category": "projekty",
-        "editUrl": "/admin/#/collections/clanky/entries/RickStanley",
-        "wordCount": 140
-      },
-      {
-        "slug": "TimHunkin",
-        "title": "Hodně ujeté a asi šokující hodiny pana Tima Hunkina",
-        "category": "virtualni-muzeum",
-        "editUrl": "/admin/#/collections/clanky/entries/TimHunkin",
-        "wordCount": 114
-      },
-      {
         "slug": "_test-draft-article",
-        "title": "Testovací draft článek",
+        "title": "Testovací článek s WIP bannerem",
         "category": "zajimavosti",
         "editUrl": "/admin/#/collections/clanky/entries/_test-draft-article",
-        "wordCount": 25
+        "wordCount": 30
       },
       {
         "slug": "betrisey",
@@ -3059,17 +3045,17 @@
         "wordCount": 66
       },
       {
-        "slug": "cas_internet1",
+        "slug": "cas-internet1",
         "title": "Zobrazení času na www 1",
         "category": "projekty",
-        "editUrl": "/admin/#/collections/clanky/entries/cas_internet1",
+        "editUrl": "/admin/#/collections/clanky/entries/cas-internet1",
         "wordCount": 130
       },
       {
-        "slug": "decin_zamek",
+        "slug": "decin-zamek",
         "title": "Zámek Děčín",
         "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/decin_zamek",
+        "editUrl": "/admin/#/collections/clanky/entries/decin-zamek",
         "wordCount": 191
       },
       {
@@ -3091,7 +3077,7 @@
         "title": "Vyšívané květinové hodiny - hodiny jedna báseň ??",
         "category": "virtualni-muzeum",
         "editUrl": "/admin/#/collections/clanky/entries/gobelin",
-        "wordCount": 34
+        "wordCount": 41
       },
       {
         "slug": "jezdecke",
@@ -3171,157 +3157,157 @@
         "wordCount": 73
       },
       {
-        "slug": "muzeum_aschau_burgenland",
+        "slug": "muzeum-aschau-burgenland",
         "title": "Uhrenstube Aschau — Aschau im Burgenland",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_aschau_burgenland",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-aschau-burgenland",
         "wordCount": 73
       },
       {
-        "slug": "muzeum_beyer_zurich",
+        "slug": "muzeum-beyer-zurich",
         "title": "Uhrenmuseum Beyer — Curych",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_beyer_zurich",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-beyer-zurich",
         "wordCount": 87
       },
       {
-        "slug": "muzeum_chemnitz",
+        "slug": "muzeum-chemnitz",
         "title": "Technisches Uhrenmuseum Chemnitz",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_chemnitz",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-chemnitz",
         "wordCount": 69
       },
       {
-        "slug": "muzeum_furtwangen",
+        "slug": "muzeum-furtwangen",
         "title": "Deutsches Uhrenmuseum Furtwangen",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_furtwangen",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-furtwangen",
         "wordCount": 41
       },
       {
-        "slug": "muzeum_gdansk_marien",
+        "slug": "muzeum-gdansk-marien",
         "title": "Astronomický orloj v Mariackém kostele v Gdaňsku",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_gdansk_marien",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-gdansk-marien",
         "wordCount": 32
       },
       {
-        "slug": "muzeum_gdansk_zegarow_wiezowych",
+        "slug": "muzeum-gdansk-zegarow-wiezowych",
         "title": "Muzeum Zegarów Wieżowych — Gdaňsk",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_gdansk_zegarow_wiezowych",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-gdansk-zegarow-wiezowych",
         "wordCount": 131
       },
       {
-        "slug": "muzeum_glashutte",
+        "slug": "muzeum-glashutte",
         "title": "Deutsches Uhrenmuseum Glashütte",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_glashutte",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-glashutte",
         "wordCount": 32
       },
       {
-        "slug": "muzeum_jindrisska_vez",
+        "slug": "muzeum-jindrisska-vez",
         "title": "Jindřišská věž — Praha",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_jindrisska_vez",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-jindrisska-vez",
         "wordCount": 64
       },
       {
-        "slug": "muzeum_kadan_orloj",
+        "slug": "muzeum-kadan-orloj",
         "title": "Kadaňský orloj — pocta Mikulášovi z Kadaně",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_kadan_orloj",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-kadan-orloj",
         "wordCount": 66
       },
       {
-        "slug": "muzeum_klementinum",
+        "slug": "muzeum-klementinum",
         "title": "Klementinum — Praha",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_klementinum",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-klementinum",
         "wordCount": 84
       },
       {
-        "slug": "muzeum_mih_chaux_de_fonds",
+        "slug": "muzeum-mih-chaux-de-fonds",
         "title": "Musée International d’Horlogerie",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_mih_chaux_de_fonds",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-mih-chaux-de-fonds",
         "wordCount": 39
       },
       {
-        "slug": "muzeum_mnichovo_hradiste",
+        "slug": "muzeum-mnichovo-hradiste",
         "title": "Muzeum města Mnichovo Hradiště",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_mnichovo_hradiste",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-mnichovo-hradiste",
         "wordCount": 53
       },
       {
-        "slug": "muzeum_olomouc_vmo",
+        "slug": "muzeum-olomouc-vmo",
         "title": "Vlastivědné muzeum v Olomouci — orlojní sbírka",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_olomouc_vmo",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-olomouc-vmo",
         "wordCount": 42
       },
       {
-        "slug": "muzeum_ostravske",
+        "slug": "muzeum-ostravske",
         "title": "Ostravské muzeum",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_ostravske",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-ostravske",
         "wordCount": 57
       },
       {
-        "slug": "muzeum_patek_philippe",
+        "slug": "muzeum-patek-philippe",
         "title": "Patek Philippe Museum — Ženeva",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_patek_philippe",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-patek-philippe",
         "wordCount": 74
       },
       {
-        "slug": "muzeum_pillichsdorf",
+        "slug": "muzeum-pillichsdorf",
         "title": "Turmmuseum Pillichsdorf",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_pillichsdorf",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-pillichsdorf",
         "wordCount": 97
       },
       {
-        "slug": "muzeum_radnicni_vez_prostejov",
+        "slug": "muzeum-radnicni-vez-prostejov",
         "title": "Radniční věž s orlojem — Prostějov",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_radnicni_vez_prostejov",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-radnicni-vez-prostejov",
         "wordCount": 80
       },
       {
-        "slug": "muzeum_royal_observatory",
+        "slug": "muzeum-royal-observatory",
         "title": "Royal Observatory Greenwich",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_royal_observatory",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-royal-observatory",
         "wordCount": 35
       },
       {
-        "slug": "muzeum_stara_bystrica",
+        "slug": "muzeum-stara-bystrica",
         "title": "Slovenský orloj — Stará Bystrica",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_stara_bystrica",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-stara-bystrica",
         "wordCount": 32
       },
       {
-        "slug": "muzeum_tyniste_n_orlici",
+        "slug": "muzeum-tyniste-nad-orlici",
         "title": "Vodárenská věž — Týniště nad Orlicí",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_tyniste_n_orlici",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-tyniste-nad-orlici",
         "wordCount": 77
       },
       {
-        "slug": "muzeum_waldmunchen",
+        "slug": "muzeum-waldmunchen",
         "title": "Muzeum hodin ve věži kostela sv. Štěpána — Waldmünchen",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_waldmunchen",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-waldmunchen",
         "wordCount": 93
       },
       {
-        "slug": "muzeum_wien",
+        "slug": "muzeum-wien",
         "title": "Wien Museum Uhrenmuseum",
         "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzeum_wien",
+        "editUrl": "/admin/#/collections/clanky/entries/muzeum-wien",
         "wordCount": 39
       },
       {
@@ -3360,6 +3346,13 @@
         "wordCount": 53
       },
       {
+        "slug": "rick-stanley",
+        "title": "Pan Rick Stanley",
+        "category": "projekty",
+        "editUrl": "/admin/#/collections/clanky/entries/rick-stanley",
+        "wordCount": 140
+      },
+      {
         "slug": "rimskedigi",
         "title": "Římské digitálky",
         "category": "projekty",
@@ -3374,10 +3367,10 @@
         "wordCount": 70
       },
       {
-        "slug": "segmentovky_s_prekladem",
+        "slug": "segmentovky-s-prekladem",
         "title": "segmentovky",
         "category": "projekty",
-        "editUrl": "/admin/#/collections/clanky/entries/segmentovky_s_prekladem",
+        "editUrl": "/admin/#/collections/clanky/entries/segmentovky-s-prekladem",
         "wordCount": 112
       },
       {
@@ -3388,31 +3381,38 @@
         "wordCount": 103
       },
       {
-        "slug": "slunecni_filler",
+        "slug": "slunecni-filler",
         "title": "Sluneční hodiny Vlasty Fillera",
         "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/slunecni_filler",
+        "editUrl": "/admin/#/collections/clanky/entries/slunecni-filler",
         "wordCount": 86
       },
       {
-        "slug": "svarcvaldky_hraci",
+        "slug": "svarcvaldky-hraci",
         "title": "Zvonkohry a jiné hrací stroje",
         "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/svarcvaldky_hraci",
+        "editUrl": "/admin/#/collections/clanky/entries/svarcvaldky-hraci",
         "wordCount": 151
       },
       {
-        "slug": "vodni_budik",
+        "slug": "tim-hunkin",
+        "title": "Hodně ujeté a asi šokující hodiny pana Tima Hunkina",
+        "category": "virtualni-muzeum",
+        "editUrl": "/admin/#/collections/clanky/entries/tim-hunkin",
+        "wordCount": 114
+      },
+      {
+        "slug": "vodni-budik",
         "title": "Vodní budík",
         "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/vodni_budik",
+        "editUrl": "/admin/#/collections/clanky/entries/vodni-budik",
         "wordCount": 69
       },
       {
-        "slug": "vodni_odkazy",
+        "slug": "vodni-odkazy",
         "title": "Odkazy",
         "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/vodni_odkazy",
+        "editUrl": "/admin/#/collections/clanky/entries/vodni-odkazy",
         "wordCount": 65
       },
       {
@@ -3430,63 +3430,14 @@
         "wordCount": 86
       },
       {
-        "slug": "zvon_petr_pavel",
+        "slug": "zvon-petr-pavel",
         "title": "zvon Velký později zvaný Petr Pavel",
         "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/zvon_petr_pavel",
+        "editUrl": "/admin/#/collections/clanky/entries/zvon-petr-pavel",
         "wordCount": 188
       }
     ],
     "clankyLegacyLinks": [
-      {
-        "slug": "12_24",
-        "title": "Celodeňky - 12 verzus 24",
-        "category": "zajimavosti",
-        "editUrl": "/admin/#/collections/clanky/entries/12_24",
-        "legacyCount": 3
-      },
-      {
-        "slug": "ATO",
-        "title": "Elektrické hodiny ATO",
-        "category": "konstrukce",
-        "editUrl": "/admin/#/collections/clanky/entries/ATO",
-        "legacyCount": 1
-      },
-      {
-        "slug": "Arduino",
-        "title": "Hlavní NTP hodiny na bázi ESP8266 - NTPimpulzer + varianty",
-        "category": "projekty",
-        "editUrl": "/admin/#/collections/clanky/entries/Arduino",
-        "legacyCount": 2
-      },
-      {
-        "slug": "Arduino_IBM",
-        "title": "Hlavní NTP hodiny na bázi ESP8266 pro třídrátový rozvod dle IBM",
-        "category": "projekty",
-        "editUrl": "/admin/#/collections/clanky/entries/Arduino_IBM",
-        "legacyCount": 4
-      },
-      {
-        "slug": "Arduino_Solari",
-        "title": "\"Vynucená\" modernizace hodin FLIP CLOCK SOLARI UDINE SPECIAL EDITION Arduinem",
-        "category": "projekty",
-        "editUrl": "/admin/#/collections/clanky/entries/Arduino_Solari",
-        "legacyCount": 1
-      },
-      {
-        "slug": "GPS_Sakul",
-        "title": "Hodiny synchronizované systémem GPS respektive GNSS",
-        "category": "projekty",
-        "editUrl": "/admin/#/collections/clanky/entries/GPS_Sakul",
-        "legacyCount": 1
-      },
-      {
-        "slug": "Kappa",
-        "title": "KAPPA – výrobce námořních hodin master-slave",
-        "category": "projekty",
-        "editUrl": "/admin/#/collections/clanky/entries/Kappa",
-        "legacyCount": 1
-      },
       {
         "slug": "alzbeta",
         "title": "Alžběta - 14112 - hlášení přesného času",
@@ -3495,10 +3446,10 @@
         "legacyCount": 2
       },
       {
-        "slug": "atomove_kapesni",
-        "title": "Atomové hodiny a hodinky",
-        "category": "projekty",
-        "editUrl": "/admin/#/collections/clanky/entries/atomove_kapesni",
+        "slug": "ato",
+        "title": "Elektrické hodiny ATO",
+        "category": "konstrukce",
+        "editUrl": "/admin/#/collections/clanky/entries/ato",
         "legacyCount": 1
       },
       {
@@ -3509,31 +3460,31 @@
         "legacyCount": 1
       },
       {
-        "slug": "bychory_dalsi_kola",
+        "slug": "bychory-dalsi-kola",
         "title": "Další kola made in Prokeš cca 1868",
         "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/bychory_dalsi_kola",
+        "editUrl": "/admin/#/collections/clanky/entries/bychory-dalsi-kola",
         "legacyCount": 1
       },
       {
-        "slug": "cas_internet1",
+        "slug": "cas-internet1",
         "title": "Zobrazení času na www 1",
         "category": "projekty",
-        "editUrl": "/admin/#/collections/clanky/entries/cas_internet1",
+        "editUrl": "/admin/#/collections/clanky/entries/cas-internet1",
         "legacyCount": 2
       },
       {
-        "slug": "casova_pasma",
+        "slug": "casova-pasma",
         "title": "Pásmovky",
         "category": "zajimavosti",
-        "editUrl": "/admin/#/collections/clanky/entries/casova_pasma",
+        "editUrl": "/admin/#/collections/clanky/entries/casova-pasma",
         "legacyCount": 2
       },
       {
-        "slug": "co_pisi_jini",
+        "slug": "co-pisi-jini",
         "title": "",
         "category": "zajimavosti",
-        "editUrl": "/admin/#/collections/clanky/entries/co_pisi_jini",
+        "editUrl": "/admin/#/collections/clanky/entries/co-pisi-jini",
         "legacyCount": 1
       },
       {
@@ -3544,32 +3495,25 @@
         "legacyCount": 1
       },
       {
-        "slug": "decin_NTP",
-        "title": "Instalované NTP servery",
+        "slug": "decin-elektrifikace",
+        "title": "Elektrifikace věžních strojů",
         "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/decin_NTP",
-        "legacyCount": 6
-      },
-      {
-        "slug": "decin_bici_stroje",
-        "title": "Neobvyklý bicí elektrický stroj BRILLIE",
-        "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/decin_bici_stroje",
+        "editUrl": "/admin/#/collections/clanky/entries/decin-elektrifikace",
         "legacyCount": 1
       },
       {
-        "slug": "decin_elektrifikace",
-        "title": "Elektrifikace věžních strojů",
+        "slug": "decin-galerie",
+        "title": "Galerie uměleckých děl v Hodináriu Děčín",
         "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/decin_elektrifikace",
+        "editUrl": "/admin/#/collections/clanky/entries/decin-galerie",
         "legacyCount": 2
       },
       {
-        "slug": "decin_galerie",
-        "title": "Galerie uměleckých děl v Hodináriu Děčín",
+        "slug": "decin-ntp",
+        "title": "Instalované NTP servery",
         "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/decin_galerie",
-        "legacyCount": 2
+        "editUrl": "/admin/#/collections/clanky/entries/decin-ntp",
+        "legacyCount": 3
       },
       {
         "slug": "elektricke1",
@@ -3586,38 +3530,31 @@
         "legacyCount": 1
       },
       {
-        "slug": "elektromagneticke_segmenty",
-        "title": "Elektromagnetický sedmi segmentový displej H715 M - BODET",
-        "category": "projekty",
-        "editUrl": "/admin/#/collections/clanky/entries/elektromagneticke_segmenty",
-        "legacyCount": 1
-      },
-      {
-        "slug": "fake_atomove_hodiny",
-        "title": "Polofunkční model atomových hodin pro Hodinárium",
-        "category": "projekty",
-        "editUrl": "/admin/#/collections/clanky/entries/fake_atomove_hodiny",
-        "legacyCount": 1
+        "slug": "hodinky-12-24-ciferniku",
+        "title": "Celodeňky - 12 verzus 24",
+        "category": "zajimavosti",
+        "editUrl": "/admin/#/collections/clanky/entries/hodinky-12-24-ciferniku",
+        "legacyCount": 2
       },
       {
         "slug": "index",
         "title": "Hodinárium Děčín",
         "category": "zajimavosti",
         "editUrl": "/admin/#/collections/clanky/entries/index",
-        "legacyCount": 6
+        "legacyCount": 4
       },
       {
         "slug": "jednotnycas",
         "title": "Jednotný čas - touha po přesnosti",
         "category": "konstrukce",
         "editUrl": "/admin/#/collections/clanky/entries/jednotnycas",
-        "legacyCount": 9
+        "legacyCount": 7
       },
       {
-        "slug": "kardasova_recice",
+        "slug": "kardasova-recice",
         "title": "Jsou v Kardašově Řečici hodiny mistra Hanuše ??",
         "category": "virtualni-muzeum",
-        "editUrl": "/admin/#/collections/clanky/entries/kardasova_recice",
+        "editUrl": "/admin/#/collections/clanky/entries/kardasova-recice",
         "legacyCount": 1
       },
       {
@@ -3635,18 +3572,11 @@
         "legacyCount": 1
       },
       {
-        "slug": "literatura",
-        "title": "Použitá i nepoužitá literatura",
-        "category": "zajimavosti",
-        "editUrl": "/admin/#/collections/clanky/entries/literatura",
-        "legacyCount": 1
-      },
-      {
         "slug": "matematicke",
         "title": "Devítkové hodiny pro matematiky",
         "category": "projekty",
         "editUrl": "/admin/#/collections/clanky/entries/matematicke",
-        "legacyCount": 3
+        "legacyCount": 2
       },
       {
         "slug": "motorky",
@@ -3656,18 +3586,11 @@
         "legacyCount": 1
       },
       {
-        "slug": "muzea_cr",
-        "title": "Hodinářská muzea, sbírky a weby v ČR",
-        "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/muzea_cr",
-        "legacyCount": 1
-      },
-      {
         "slug": "o-hodinariu",
         "title": "O Hodináriu",
         "category": "sbirka",
         "editUrl": "/admin/#/collections/clanky/entries/o-hodinariu",
-        "legacyCount": 6
+        "legacyCount": 3
       },
       {
         "slug": "pichacky",
@@ -3712,13 +3635,6 @@
         "legacyCount": 1
       },
       {
-        "slug": "prehled_zvonu",
-        "title": "Zvony na soběslavské věži",
-        "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/prehled_zvonu",
-        "legacyCount": 2
-      },
-      {
         "slug": "prestavby",
         "title": "Přestavby a dostavby",
         "category": "zajimavosti",
@@ -3740,17 +3656,10 @@
         "legacyCount": 1
       },
       {
-        "slug": "slunecni",
-        "title": "Sluneční hodiny — odkazy a kuriozity",
-        "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/slunecni",
-        "legacyCount": 2
-      },
-      {
-        "slug": "slunecni_polarizacni",
+        "slug": "slunecni-polarizacni",
         "title": "Polarizační sluneční hodiny",
         "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/slunecni_polarizacni",
+        "editUrl": "/admin/#/collections/clanky/entries/slunecni-polarizacni",
         "legacyCount": 1
       },
       {
@@ -3765,48 +3674,20 @@
         "title": "Švarcvaldky",
         "category": "konstrukce",
         "editUrl": "/admin/#/collections/clanky/entries/svarcvaldky",
-        "legacyCount": 7
-      },
-      {
-        "slug": "svarcvaldky_hraci",
-        "title": "Zvonkohry a jiné hrací stroje",
-        "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/svarcvaldky_hraci",
-        "legacyCount": 1
-      },
-      {
-        "slug": "svarcvaldky_stroje",
-        "title": "Švarcvaldky - stroje v 19. a 20 století",
-        "category": "konstrukce",
-        "editUrl": "/admin/#/collections/clanky/entries/svarcvaldky_stroje",
         "legacyCount": 2
       },
       {
-        "slug": "svarcvaldky_surrerwerk",
-        "title": "Surrerwerk",
-        "category": "konstrukce",
-        "editUrl": "/admin/#/collections/clanky/entries/svarcvaldky_surrerwerk",
-        "legacyCount": 1
-      },
-      {
-        "slug": "synchronizace_hodin",
+        "slug": "synchronizace-hodin",
         "title": "Jednotně řízené hodiny a synchronizace času",
         "category": "konstrukce",
-        "editUrl": "/admin/#/collections/clanky/entries/synchronizace_hodin",
-        "legacyCount": 3
-      },
-      {
-        "slug": "ukazatele",
-        "title": "Ukazatele času u \\\"normálních\\\" hodin",
-        "category": "konstrukce",
-        "editUrl": "/admin/#/collections/clanky/entries/ukazatele",
+        "editUrl": "/admin/#/collections/clanky/entries/synchronizace-hodin",
         "legacyCount": 1
       },
       {
-        "slug": "vez_elektrocas1959",
+        "slug": "vez-elektrocas1959",
         "title": "Stroj Elektročas 1959",
         "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/vez_elektrocas1959",
+        "editUrl": "/admin/#/collections/clanky/entries/vez-elektrocas1959",
         "legacyCount": 1
       },
       {
@@ -3814,28 +3695,14 @@
         "title": "Čas plyne jako voda ... Hodiny vodní",
         "category": "sbirka",
         "editUrl": "/admin/#/collections/clanky/entries/vodni",
-        "legacyCount": 6
+        "legacyCount": 1
       },
       {
         "slug": "zmizele",
         "title": "Zmizelé hodiny",
         "category": "virtualni-muzeum",
         "editUrl": "/admin/#/collections/clanky/entries/zmizele",
-        "legacyCount": 2
-      },
-      {
-        "slug": "zvon_petr_vok",
-        "title": "Zvon Petr Vok - nový soběslavský zvon",
-        "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/zvon_petr_vok",
         "legacyCount": 1
-      },
-      {
-        "slug": "zvony_uvod",
-        "title": "Zvonařská expozice",
-        "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/zvony_uvod",
-        "legacyCount": 2
       }
     ],
     "hodinariShort": [

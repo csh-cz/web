@@ -1,6 +1,6 @@
 [
   {
-    "slug": "co_pisi_jini",
+    "slug": "co-pisi-jini",
     "title": "",
     "category": "zajimavosti",
     "thumbnail": null,
@@ -33,7 +33,7 @@
     "wordCount": 94
   },
   {
-    "slug": "Arduino_Solari",
+    "slug": "arduino-solari",
     "title": "\"Vynucená\" modernizace hodin FLIP CLOCK SOLARI UDINE SPECIAL EDITION Arduinem",
     "category": "projekty",
     "thumbnail": "/img/arduino/Solari/Solari1.jpg",
@@ -41,7 +41,10 @@
     "year": 1725,
     "lastModified": "2022-04-24T09:31:00.000Z",
     "imageCount": 7,
-    "wordCount": 1634
+    "wordCount": 1635,
+    "searchKeywords": [
+      "Arduino, ESP8266"
+    ]
   },
   {
     "slug": "inv-x4-astronomice-hodiny",
@@ -313,7 +316,7 @@
     ]
   },
   {
-    "slug": "arduino_PPS",
+    "slug": "arduino-pps",
     "title": "Arduino s \"přesným\" časem - Signál PPS z GPS",
     "category": "projekty",
     "thumbnail": "/img/arduino/GPS_PPS.jpg",
@@ -340,7 +343,7 @@
     ]
   },
   {
-    "slug": "Staiger",
+    "slug": "staiger",
     "title": "Astronomické hodiny a hodiny pásmového času",
     "category": "projekty",
     "thumbnail": "/img/Astronomische/celek.jpg",
@@ -351,7 +354,7 @@
     "wordCount": 607
   },
   {
-    "slug": "astro2_NTP",
+    "slug": "astro2-ntp",
     "title": "Astronomické hodiny z čínské stavebnice meteostanice",
     "category": "projekty",
     "thumbnail": "/img/astro2/meteo.jpg",
@@ -362,7 +365,7 @@
     "wordCount": 520
   },
   {
-    "slug": "astronomicke_Sauter",
+    "slug": "astronomicke-sauter",
     "title": "Astronomické spínací hodiny — Syst. Fr. Sauter",
     "category": "konstrukce",
     "thumbnail": "/img/astronomicky_Sauter/f/Sauter1.jpg",
@@ -377,7 +380,7 @@
     ]
   },
   {
-    "slug": "muzeum_gdansk_marien",
+    "slug": "muzeum-gdansk-marien",
     "title": "Astronomický orloj v Mariackém kostele v Gdaňsku",
     "category": "muzea",
     "thumbnail": null,
@@ -455,7 +458,7 @@
     ]
   },
   {
-    "slug": "atomove_kapesni",
+    "slug": "atomove-kapesni",
     "title": "Atomové hodiny a hodinky",
     "category": "projekty",
     "thumbnail": "/img/atomove/schema.gif",
@@ -466,7 +469,7 @@
     "wordCount": 942
   },
   {
-    "slug": "vez_Kli",
+    "slug": "vez-kli",
     "title": "Barokní \"špindlový\" stroj věžních hodin",
     "category": "sbirka",
     "thumbnail": "/img/vez/Kli/f/foto_0001.jpg",
@@ -496,7 +499,7 @@
     ]
   },
   {
-    "slug": "decin_Wenzel_Mellner",
+    "slug": "decin-wenzel-mellner",
     "title": "Barokní stroj značený Wenzel Mellner",
     "category": "sbirka",
     "thumbnail": "/img/decin/baroko/barokoMellner/f/foto_0001.jpg",
@@ -507,7 +510,7 @@
     "wordCount": 536
   },
   {
-    "slug": "vez_Zlate_Hory",
+    "slug": "vez-zlate-hory",
     "title": "Barokní věžní ministroj",
     "category": "sbirka",
     "thumbnail": "/img/vez/ZlateHory/kostel_Zlate_Hory.jpg",
@@ -950,7 +953,7 @@
     "wordCount": 341
   },
   {
-    "slug": "12_24",
+    "slug": "hodinky-12-24-ciferniku",
     "title": "Celodeňky - 12 verzus 24",
     "category": "zajimavosti",
     "thumbnail": "/img/vezni/litomysl/litomysl1907.jpg",
@@ -1066,7 +1069,7 @@
     ]
   },
   {
-    "slug": "casovy_zamek",
+    "slug": "casovy-zamek",
     "title": "Časový zámek - Time Lock",
     "category": "konstrukce",
     "thumbnail": "/img/decin/casove_zamky/f/T_FOX_a_CO_LTD.jpg",
@@ -1096,7 +1099,7 @@
     ]
   },
   {
-    "slug": "bychory_dalsi_kola",
+    "slug": "bychory-dalsi-kola",
     "title": "Další kola made in Prokeš cca 1868",
     "category": "sbirka",
     "thumbnail": "/img/vez/bychory/prokes1873.jpg",
@@ -1200,7 +1203,7 @@
     ]
   },
   {
-    "slug": "muzeum_furtwangen",
+    "slug": "muzeum-furtwangen",
     "title": "Deutsches Uhrenmuseum Furtwangen",
     "category": "muzea",
     "thumbnail": null,
@@ -1214,7 +1217,7 @@
     ]
   },
   {
-    "slug": "muzeum_glashutte",
+    "slug": "muzeum-glashutte",
     "title": "Deutsches Uhrenmuseum Glashütte",
     "category": "muzea",
     "thumbnail": null,
@@ -1254,7 +1257,7 @@
     ]
   },
   {
-    "slug": "rizeni_kyvadla",
+    "slug": "rizeni-kyvadla",
     "title": "Digitálně řízené kyvadlo s automatickou regulací",
     "category": "konstrukce",
     "thumbnail": "/img/elektrika/kyvadlo/pripravek.jpg",
@@ -1388,7 +1391,7 @@
     ]
   },
   {
-    "slug": "svarcvaldky_17stol",
+    "slug": "svarcvaldky-17stol",
     "title": "Doba dřevěná - švarcvaldky v 17. století ??",
     "category": "konstrukce",
     "thumbnail": "/img/svarcvald/17stol5.jpg",
@@ -1403,7 +1406,7 @@
     ]
   },
   {
-    "slug": "svarcvaldky_18stol",
+    "slug": "svarcvaldky-18stol",
     "title": "Doba dřevěná - švarcvaldky v 18. století",
     "category": "konstrukce",
     "thumbnail": "/img/svarcvald/18stol1.jpg",
@@ -1544,7 +1547,7 @@
     ]
   },
   {
-    "slug": "ATO",
+    "slug": "ato",
     "title": "Elektrické hodiny ATO",
     "category": "konstrukce",
     "thumbnail": null,
@@ -1559,7 +1562,7 @@
     ]
   },
   {
-    "slug": "synchron_bici",
+    "slug": "synchron-bici",
     "title": "Elektrické synchronní hodiny s odbíjením",
     "category": "projekty",
     "thumbnail": "/img/elektrika/synchron_bici/f/foto_0001.jpg",
@@ -1584,7 +1587,7 @@
     ]
   },
   {
-    "slug": "decin_elektrifikace",
+    "slug": "decin-elektrifikace",
     "title": "Elektrifikace věžních strojů",
     "category": "sbirka",
     "thumbnail": "/img/decin/elektrika/foto2.jpg",
@@ -1612,7 +1615,7 @@
     ]
   },
   {
-    "slug": "elektromagneticke_segmenty",
+    "slug": "elektromagneticke-segmenty",
     "title": "Elektromagnetický sedmi segmentový displej H715 M - BODET",
     "category": "projekty",
     "thumbnail": "/img/H715_BODET/schema1.jpg",
@@ -1655,7 +1658,7 @@
     ]
   },
   {
-    "slug": "ESV3",
+    "slug": "esv3",
     "title": "ESV-3 - mechanické počítadlo provozní doby s motorem na 115V/400Hz",
     "category": "projekty",
     "thumbnail": "/img/ESV3/ESV3.jpg",
@@ -1681,7 +1684,7 @@
     ]
   },
   {
-    "slug": "vezni_muzejicko_evropa",
+    "slug": "vezni-muzejicko-evropa",
     "title": "Fenomén věžních \"muzeí\"",
     "category": "muzea",
     "thumbnail": "/img/vezni/sestava_howard.jpg",
@@ -1695,7 +1698,7 @@
     ]
   },
   {
-    "slug": "decin_flatbed",
+    "slug": "decin-flatbed",
     "title": "Flatbed - Věžní hodinový stroj Paul Zieux",
     "category": "sbirka",
     "thumbnail": "/img/decin/francie1770/f/foto_0001.jpg",
@@ -1706,21 +1709,22 @@
     "wordCount": 326
   },
   {
-    "slug": "flying_pendulum",
+    "slug": "flying-pendulum",
     "title": "FLYING PENDULUM CLOCK",
     "category": "konstrukce",
     "thumbnail": null,
-    "excerpt": "Flying Pendulum Clock, také nazývané \"Ignatz clock\" byly poprvé vynalezené v roce 1883. Znovu se vyráběly v 50. letech minulého století. Malá kulička zavěšená na ramenu zde hraje roli kyvadla. !Při vodorovné půlotáčce…",
+    "excerpt": "Flying Pendulum Clock, také nazývané \"Ignatz clock\" byly poprvé vynalezené v roce 1883. Znovu se vyráběly v 50. letech minulého století. Malá kulička zavěšená na ramenu se při vodorovné půlotáčce ramene se na závěsu z…",
     "year": 1883,
     "lastModified": "2017-04-26T15:59:00.000Z",
     "imageCount": 0,
-    "wordCount": 300,
+    "wordCount": 216,
     "tags": [
-      "kyvadlo"
+      "kuzelove-kyvadlo",
+      "preletave-kyvadlo"
     ]
   },
   {
-    "slug": "line_kyvadlo",
+    "slug": "line-kyvadlo",
     "title": "Fyzikální \"líné\" kyvadlo",
     "category": "konstrukce",
     "thumbnail": "/img/line_kyvadlo/differentialni_kyvadlo.jpg",
@@ -1734,7 +1738,7 @@
     ]
   },
   {
-    "slug": "decin_galerie",
+    "slug": "decin-galerie",
     "title": "Galerie uměleckých děl v Hodináriu Děčín",
     "category": "sbirka",
     "thumbnail": "/img/Achrer/2strany2.jpg",
@@ -1788,7 +1792,7 @@
     "wordCount": 1001
   },
   {
-    "slug": "Arduino",
+    "slug": "arduino",
     "title": "Hlavní NTP hodiny na bázi ESP8266 - NTPimpulzer + varianty",
     "category": "projekty",
     "thumbnail": "/img/arduino/NTP_W_E.jpg",
@@ -1799,7 +1803,7 @@
     "wordCount": 2352
   },
   {
-    "slug": "Arduino_IBM",
+    "slug": "arduino-ibm",
     "title": "Hlavní NTP hodiny na bázi ESP8266 pro třídrátový rozvod dle IBM",
     "category": "projekty",
     "thumbnail": "/img/decin/IBM/stroj.jpg",
@@ -1821,7 +1825,7 @@
     "wordCount": 425
   },
   {
-    "slug": "decin_jednotny_cas",
+    "slug": "decin-jednotny-cas",
     "title": "Hodinárium Děčín - expozice časoměrných strojů",
     "category": "sbirka",
     "thumbnail": "/img/elektrika/jednotny_cas/artdeco/celek_artdeco.jpg",
@@ -1843,7 +1847,7 @@
     "wordCount": 926
   },
   {
-    "slug": "muzea_cr",
+    "slug": "muzea-cr",
     "title": "Hodinářská muzea, sbírky a weby v ČR",
     "category": "muzea",
     "thumbnail": null,
@@ -2290,7 +2294,7 @@
     ]
   },
   {
-    "slug": "NTPH",
+    "slug": "ntph",
     "title": "Hodiny NTPH — mikropočítačem řízené hodiny vyrobené 3D tiskem se synchronizací času z internetu",
     "category": "projekty",
     "thumbnail": "/img/3D/magneticke.jpg",
@@ -2408,7 +2412,7 @@
     ]
   },
   {
-    "slug": "GPS_Sakul",
+    "slug": "gps-sakul",
     "title": "Hodiny synchronizované systémem GPS respektive GNSS",
     "category": "projekty",
     "thumbnail": "/img/decin/GPS_Sakul/f/GPS_Sakul1.jpg",
@@ -2419,7 +2423,7 @@
     "wordCount": 675
   },
   {
-    "slug": "TimeSlider",
+    "slug": "time-slider",
     "title": "Hodiny Time Slider od Hanse Andersona",
     "category": "projekty",
     "thumbnail": "/img/arduino/Wedos_NTP_RTC.jpg",
@@ -2470,7 +2474,7 @@
     "wordCount": 169
   },
   {
-    "slug": "TimHunkin",
+    "slug": "tim-hunkin",
     "title": "Hodně ujeté a asi šokující hodiny pana Tima Hunkina",
     "category": "virtualni-muzeum",
     "thumbnail": null,
@@ -2515,7 +2519,7 @@
     ]
   },
   {
-    "slug": "decin_vypousteny",
+    "slug": "decin-vypousteny",
     "title": "Chodový podružný věžní stroj Elektročas vypouštěný minutovými impulzy",
     "category": "sbirka",
     "thumbnail": "/img/decin/elektricky_spousteny_stroj/strana_spousteni.jpg",
@@ -2526,7 +2530,7 @@
     "wordCount": 374
   },
   {
-    "slug": "decin_chronulator",
+    "slug": "decin-chronulator",
     "title": "Chronulátor",
     "category": "sbirka",
     "thumbnail": "/img/decin/chronulator/ret1.jpg",
@@ -2537,7 +2541,7 @@
     "wordCount": 247
   },
   {
-    "slug": "decin_NTP",
+    "slug": "decin-ntp",
     "title": "Instalované NTP servery",
     "category": "sbirka",
     "thumbnail": "/img/elektrika/Bodet/Profil930NTP.png",
@@ -2581,7 +2585,7 @@
     ]
   },
   {
-    "slug": "perpetum_mobile",
+    "slug": "perpetum-mobile",
     "title": "Jako perpetum mobile - věčné hodiny ?",
     "category": "sbirka",
     "thumbnail": "/img/slunecni/heliomat.jpg",
@@ -2592,7 +2596,7 @@
     "wordCount": 446
   },
   {
-    "slug": "synchronizace_hodin",
+    "slug": "synchronizace-hodin",
     "title": "Jednotně řízené hodiny a synchronizace času",
     "category": "konstrukce",
     "thumbnail": "/img/elektrika/junhhans/elektronom_patent.gif",
@@ -2638,7 +2642,7 @@
     ]
   },
   {
-    "slug": "muzeum_jindrisska_vez",
+    "slug": "muzeum-jindrisska-vez",
     "title": "Jindřišská věž — Praha",
     "category": "muzea",
     "thumbnail": null,
@@ -2654,7 +2658,7 @@
     ]
   },
   {
-    "slug": "kardasova_recice",
+    "slug": "kardasova-recice",
     "title": "Jsou v Kardašově Řečici hodiny mistra Hanuše ??",
     "category": "virtualni-muzeum",
     "thumbnail": "/img/vez/KR_stroj.jpg",
@@ -2669,7 +2673,7 @@
     ]
   },
   {
-    "slug": "muzeum_kadan_orloj",
+    "slug": "muzeum-kadan-orloj",
     "title": "Kadaňský orloj — pocta Mikulášovi z Kadaně",
     "category": "muzea",
     "thumbnail": null,
@@ -2683,7 +2687,7 @@
     ]
   },
   {
-    "slug": "kapesni_orloj",
+    "slug": "kapesni-orloj",
     "title": "Kapesní \"orloj\" BREVETE",
     "category": "sbirka",
     "thumbnail": "/img/hodinky/kapesni_orloj/627893335_6_n.jpg",
@@ -2715,7 +2719,7 @@
     ]
   },
   {
-    "slug": "Kappa",
+    "slug": "kappa",
     "title": "KAPPA – výrobce námořních hodin master-slave",
     "category": "projekty",
     "thumbnail": "/img/elektrika/Kappa/Kappa1.jpg",
@@ -2752,7 +2756,7 @@
     ]
   },
   {
-    "slug": "muzeum_klementinum",
+    "slug": "muzeum-klementinum",
     "title": "Klementinum — Praha",
     "category": "muzea",
     "thumbnail": null,
@@ -2767,7 +2771,7 @@
     ]
   },
   {
-    "slug": "hainz_natahovani",
+    "slug": "hainz-natahovani",
     "title": "KLÍČOVÁ OTÁZKA - natahovátko L. Hainz",
     "category": "zajimavosti",
     "thumbnail": "/img/hainz/predni_n.jpg",
@@ -2792,7 +2796,7 @@
     ]
   },
   {
-    "slug": "skymaster_ghost",
+    "slug": "skymaster-ghost",
     "title": "Konstatovací hodiny Skymaster Ghost HIGH SPEED TIMING CLOCK",
     "category": "projekty",
     "thumbnail": null,
@@ -2923,7 +2927,7 @@
     ]
   },
   {
-    "slug": "kvetinovehodiny_NMnM",
+    "slug": "kvetinovehodiny-nove-mesto-nad-metuji",
     "title": "Květinové hodiny v Novém Městě nad Metují",
     "category": "virtualni-muzeum",
     "thumbnail": "/img/NMnM/f/foto_0001.jpg",
@@ -3345,7 +3349,7 @@
     ]
   },
   {
-    "slug": "Lantime_M100",
+    "slug": "lantime-m100",
     "title": "Meinberg NTP LANTIME M100 GPS (ELX)",
     "category": "projekty",
     "thumbnail": "/img/decin/NTP_Meinberg/panelM100.jpg",
@@ -3356,7 +3360,7 @@
     "wordCount": 437
   },
   {
-    "slug": "mereni_casu",
+    "slug": "mereni-casu",
     "title": "MĚŘENÍ ČASU",
     "category": "zajimavosti",
     "thumbnail": null,
@@ -3447,7 +3451,7 @@
     ]
   },
   {
-    "slug": "muzeum_mih_chaux_de_fonds",
+    "slug": "muzeum-mih-chaux-de-fonds",
     "title": "Musée International d’Horlogerie",
     "category": "muzea",
     "thumbnail": null,
@@ -3461,7 +3465,7 @@
     ]
   },
   {
-    "slug": "muzeum_waldmunchen",
+    "slug": "muzeum-waldmunchen",
     "title": "Muzeum hodin ve věži kostela sv. Štěpána — Waldmünchen",
     "category": "muzea",
     "thumbnail": null,
@@ -3476,7 +3480,7 @@
     ]
   },
   {
-    "slug": "muzeum_mnichovo_hradiste",
+    "slug": "muzeum-mnichovo-hradiste",
     "title": "Muzeum města Mnichovo Hradiště",
     "category": "muzea",
     "thumbnail": null,
@@ -3490,7 +3494,7 @@
     ]
   },
   {
-    "slug": "muzeum_gdansk_zegarow_wiezowych",
+    "slug": "muzeum-gdansk-zegarow-wiezowych",
     "title": "Muzeum Zegarów Wieżowych — Gdaňsk",
     "category": "muzea",
     "thumbnail": null,
@@ -3687,7 +3691,7 @@
     ]
   },
   {
-    "slug": "decin_bici_stroje",
+    "slug": "decin-bici-stroje",
     "title": "Neobvyklý bicí elektrický stroj BRILLIE",
     "category": "sbirka",
     "thumbnail": "/img/decin_surrerwerk/s3.jpg",
@@ -3802,7 +3806,7 @@
     "wordCount": 1052
   },
   {
-    "slug": "vezni_zikmund1",
+    "slug": "vezni-zikmund1",
     "title": "O věžních hodinách na ZŠ Šumava v Jablonci nad Nisou",
     "category": "sbirka",
     "thumbnail": "/img/vezni/Jablonec/ZSSumVezP.gif",
@@ -3813,7 +3817,7 @@
     "wordCount": 512
   },
   {
-    "slug": "vodni_odkazy",
+    "slug": "vodni-odkazy",
     "title": "Odkazy",
     "category": "sbirka",
     "thumbnail": null,
@@ -3841,6 +3845,23 @@
     ]
   },
   {
+    "slug": "inv-53-model-prazskeho-orloje",
+    "title": "Orloj Hvězdárna Petřín",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Zjednodušený model Pražského orloje (chybí rafije pro pohyb Měsíce) byl sestrojen pro předvedení souvislosti staročeského času a času středoevropského. V minulosti se užíval staročeský čas, u něhož počítání hodin dne …",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 123,
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "vezni"
+    ]
+  },
+  {
     "slug": "inv-53-orloj-hvezdarna-petrin",
     "title": "Orloj Hvězdárna Petřín",
     "category": "sbirka",
@@ -3851,6 +3872,23 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 123,
+    "tags": [
+      "hlavni-sal",
+      "funkcni",
+      "vezni"
+    ]
+  },
+  {
+    "slug": "inv-67-orloj-hvezdarna-petrin",
+    "title": "Orloj Hvězdárna Petřín",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 0,
     "tags": [
       "hlavni-sal",
       "funkcni",
@@ -3909,7 +3947,7 @@
     ]
   },
   {
-    "slug": "muzeum_ostravske",
+    "slug": "muzeum-ostravske",
     "title": "Ostravské muzeum",
     "category": "muzea",
     "thumbnail": null,
@@ -3953,7 +3991,7 @@
     ]
   },
   {
-    "slug": "RickStanley",
+    "slug": "rick-stanley",
     "title": "Pan Rick Stanley",
     "category": "projekty",
     "thumbnail": "/img/mystery/clockincline1.jpg",
@@ -4037,7 +4075,7 @@
     "year": 2020,
     "lastModified": null,
     "imageCount": 1,
-    "wordCount": 236,
+    "wordCount": 239,
     "tags": [
       "panel-5",
       "elektricke",
@@ -4072,7 +4110,7 @@
     ]
   },
   {
-    "slug": "casova_pasma",
+    "slug": "casova-pasma",
     "title": "Pásmovky",
     "category": "zajimavosti",
     "thumbnail": "/img/elektrika/svetovy_cas1.jpg",
@@ -4083,7 +4121,7 @@
     "wordCount": 666
   },
   {
-    "slug": "muzeum_patek_philippe",
+    "slug": "muzeum-patek-philippe",
     "title": "Patek Philippe Museum — Ženeva",
     "category": "muzea",
     "thumbnail": null,
@@ -4584,7 +4622,7 @@
     ]
   },
   {
-    "slug": "podruzne_sekundove",
+    "slug": "podruzne-sekundove",
     "title": "Podružné hodiny s vteřinovkou",
     "category": "sbirka",
     "thumbnail": "/img/elektrika/podruzne_sekundove/f/foto_0001.jpg",
@@ -4874,7 +4912,7 @@
     ]
   },
   {
-    "slug": "slunecni_polarizacni",
+    "slug": "slunecni-polarizacni",
     "title": "Polarizační sluneční hodiny",
     "category": "sbirka",
     "thumbnail": "/img/slunecni/polar1.jpg",
@@ -4888,7 +4926,7 @@
     ]
   },
   {
-    "slug": "fake_atomove_hodiny",
+    "slug": "fake-atomove-hodiny",
     "title": "Polofunkční model atomových hodin pro Hodinárium",
     "category": "projekty",
     "thumbnail": "/img/PRS10/PRS10stage3LG.jpg",
@@ -5002,7 +5040,7 @@
     ]
   },
   {
-    "slug": "listkove_kohler",
+    "slug": "listkove-kohler",
     "title": "Překlápěčky Köhler & Co, Laufamholz",
     "category": "sbirka",
     "thumbnail": "/img/listkove/kohler_001.jpg",
@@ -5057,7 +5095,7 @@
     ]
   },
   {
-    "slug": "radiotelegraficke_signaly",
+    "slug": "radiotelegraficke-signaly",
     "title": "Radiotelegrafické časové signály",
     "category": "projekty",
     "thumbnail": "/img/radiosignaly/3min.jpg",
@@ -5068,7 +5106,7 @@
     "wordCount": 425
   },
   {
-    "slug": "muzeum_radnicni_vez_prostejov",
+    "slug": "muzeum-radnicni-vez-prostejov",
     "title": "Radniční věž s orlojem — Prostějov",
     "category": "muzea",
     "thumbnail": null,
@@ -5149,7 +5187,7 @@
     ]
   },
   {
-    "slug": "muzeum_royal_observatory",
+    "slug": "muzeum-royal-observatory",
     "title": "Royal Observatory Greenwich",
     "category": "muzea",
     "thumbnail": null,
@@ -5163,7 +5201,7 @@
     ]
   },
   {
-    "slug": "PRS10",
+    "slug": "prs10",
     "title": "Rubidiový oscilátor PRS10 firmy SRS výtah ze stránek výrobce (přeloženo strojově, trochu problematicky)",
     "category": "projekty",
     "thumbnail": "/img/PRS10/PRS10stage2LG.jpg",
@@ -5274,7 +5312,7 @@
     ]
   },
   {
-    "slug": "kalendar_rimsky",
+    "slug": "kalendar-rimsky",
     "title": "Římský kalendář",
     "category": "zajimavosti",
     "thumbnail": null,
@@ -5334,7 +5372,7 @@
     ]
   },
   {
-    "slug": "segmentovky_s_prekladem",
+    "slug": "segmentovky-s-prekladem",
     "title": "segmentovky",
     "category": "projekty",
     "thumbnail": null,
@@ -5426,7 +5464,7 @@
     ]
   },
   {
-    "slug": "muzeum_stara_bystrica",
+    "slug": "muzeum-stara-bystrica",
     "title": "Slovenský orloj — Stará Bystrica",
     "category": "muzea",
     "thumbnail": null,
@@ -5440,7 +5478,7 @@
     ]
   },
   {
-    "slug": "slunecni_digi",
+    "slug": "slunecni-digi",
     "title": "Sluneční digitálky",
     "category": "sbirka",
     "thumbnail": "/img/slunecni/slunecni_profilas1.jpg",
@@ -5570,7 +5608,7 @@
     ]
   },
   {
-    "slug": "slunecni_filler",
+    "slug": "slunecni-filler",
     "title": "Sluneční hodiny Vlasty Fillera",
     "category": "sbirka",
     "thumbnail": null,
@@ -5912,7 +5950,7 @@
     ]
   },
   {
-    "slug": "vez_elektrocas1959",
+    "slug": "vez-elektrocas1959",
     "title": "Stroj Elektročas 1959",
     "category": "sbirka",
     "thumbnail": "/img/vez/f/elektrocas1959.jpg",
@@ -5960,7 +5998,7 @@
     ]
   },
   {
-    "slug": "svarcvaldky_stroje2",
+    "slug": "svarcvaldky-stroje2",
     "title": "Stroj štolových hodin (cca pol. 19.stol.)",
     "category": "konstrukce",
     "thumbnail": "/img/svarcvald/stolove1.jpg",
@@ -5975,7 +6013,7 @@
     ]
   },
   {
-    "slug": "vez_Budislav",
+    "slug": "vez-budislav",
     "title": "Stroj věžních hodin - Budislav",
     "category": "sbirka",
     "thumbnail": "/img/vez/Budislav/f/kostel.jpg",
@@ -5989,7 +6027,7 @@
     ]
   },
   {
-    "slug": "vez_Prysk",
+    "slug": "vez-prysk",
     "title": "Stroj věžních hodin - Horní Prysk",
     "category": "sbirka",
     "thumbnail": "/img/vez/prysk/f/foto2_000.jpg",
@@ -6003,7 +6041,7 @@
     ]
   },
   {
-    "slug": "vez_decin",
+    "slug": "vez-decin",
     "title": "Stroj věžních hodin 1884 - Podmokly",
     "category": "sbirka",
     "thumbnail": "/img/vez/decin/decin1.jpg",
@@ -6050,7 +6088,7 @@
     ]
   },
   {
-    "slug": "svarcvaldky_surrerwerk",
+    "slug": "svarcvaldky-surrerwerk",
     "title": "Surrerwerk",
     "category": "konstrukce",
     "thumbnail": "/img/svarcvald/surrerwerk1.jpg",
@@ -6281,7 +6319,7 @@
     ]
   },
   {
-    "slug": "svarcvaldky_stroje",
+    "slug": "svarcvaldky-stroje",
     "title": "Švarcvaldky - stroje v 19. a 20 století",
     "category": "konstrukce",
     "thumbnail": "/img/svarcvald/technologie.jpg",
@@ -6311,7 +6349,7 @@
     ]
   },
   {
-    "slug": "muzeum_chemnitz",
+    "slug": "muzeum-chemnitz",
     "title": "Technisches Uhrenmuseum Chemnitz",
     "category": "muzea",
     "thumbnail": null,
@@ -6326,7 +6364,18 @@
     ]
   },
   {
-    "slug": "vodni_B_Gitton",
+    "slug": "_test-draft-article",
+    "title": "Testovací článek s WIP bannerem",
+    "category": "zajimavosti",
+    "thumbnail": null,
+    "excerpt": "Toto je testovací článek se statusem in-progress + publicDuringEdit: false. Veřejnost ho má vidět se WIP bannerem nahoře.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 30
+  },
+  {
+    "slug": "vodni-b-gitton",
     "title": "TIME FLOW CLOCK - hodiny protékajícího času",
     "category": "sbirka",
     "thumbnail": "/img/vodni/time_flow_clock0.jpg",
@@ -6356,7 +6405,7 @@
     ]
   },
   {
-    "slug": "Timometer",
+    "slug": "timometer",
     "title": "Timometer – historické americké časové razítko po roce 1903",
     "category": "projekty",
     "thumbnail": "/img/Timometer/f/foto_0008.jpg",
@@ -6384,7 +6433,7 @@
     ]
   },
   {
-    "slug": "decin_velika_ves",
+    "slug": "decin-velika-ves",
     "title": "Torzo gotického stroje z Veliké Vsi",
     "category": "sbirka",
     "thumbnail": "/img/decin/gotika/Kostel_sv._Vavrince.jpg",
@@ -6395,7 +6444,7 @@
     "wordCount": 477
   },
   {
-    "slug": "decin_patek",
+    "slug": "decin-patek",
     "title": "Torzo hodinového stroje z roku 1694 a stroj z roku 1728",
     "category": "sbirka",
     "thumbnail": "/img/decin/Patek/f/foto_0001.jpg",
@@ -6422,7 +6471,7 @@
     ]
   },
   {
-    "slug": "decin_regulaceIBM",
+    "slug": "decin-regulace-ibm",
     "title": "Třídrátový rozvod IBM",
     "category": "sbirka",
     "thumbnail": "/img/decin/IBM/stroj.jpg",
@@ -6433,7 +6482,7 @@
     "wordCount": 1075
   },
   {
-    "slug": "muzeum_pillichsdorf",
+    "slug": "muzeum-pillichsdorf",
     "title": "Turmmuseum Pillichsdorf",
     "category": "muzea",
     "thumbnail": null,
@@ -6448,7 +6497,7 @@
     ]
   },
   {
-    "slug": "muzeum_beyer_zurich",
+    "slug": "muzeum-beyer-zurich",
     "title": "Uhrenmuseum Beyer — Curych",
     "category": "muzea",
     "thumbnail": null,
@@ -6464,7 +6513,7 @@
     ]
   },
   {
-    "slug": "muzeum_aschau_burgenland",
+    "slug": "muzeum-aschau-burgenland",
     "title": "Uhrenstube Aschau — Aschau im Burgenland",
     "category": "muzea",
     "thumbnail": null,
@@ -6490,7 +6539,7 @@
     "wordCount": 387
   },
   {
-    "slug": "svarcvaldky_stroje_polodrev",
+    "slug": "svarcvaldky-stroje-polodrev",
     "title": "Ukázka 2 strojů polodřevěných - 1. polovina 19. století",
     "category": "konstrukce",
     "thumbnail": "/img/svarcvald/stroj_polodrev1.jpg",
@@ -6942,7 +6991,7 @@
     ]
   },
   {
-    "slug": "bychory_prokes1",
+    "slug": "bychory-prokes1",
     "title": "Věžní komplet Prokeš 1868 ze zámku Býchory",
     "category": "sbirka",
     "thumbnail": "/img/vez/bychory/f/komplet.jpg",
@@ -7245,7 +7294,7 @@
     ]
   },
   {
-    "slug": "muzeum_olomouc_vmo",
+    "slug": "muzeum-olomouc-vmo",
     "title": "Vlastivědné muzeum v Olomouci — orlojní sbírka",
     "category": "muzea",
     "thumbnail": null,
@@ -7259,7 +7308,7 @@
     ]
   },
   {
-    "slug": "muzeum_tyniste_n_orlici",
+    "slug": "muzeum-tyniste-nad-orlici",
     "title": "Vodárenská věž — Týniště nad Orlicí",
     "category": "muzea",
     "thumbnail": null,
@@ -7274,7 +7323,7 @@
     ]
   },
   {
-    "slug": "vodni_budik",
+    "slug": "vodni-budik",
     "title": "Vodní budík",
     "category": "sbirka",
     "thumbnail": "/img/ujete/vodni_budik.jpg",
@@ -7289,7 +7338,7 @@
     ]
   },
   {
-    "slug": "vodni_jegorov",
+    "slug": "vodni-jegorov",
     "title": "Vodní hodiny pana MUDr. Alexandra Jegorova",
     "category": "sbirka",
     "thumbnail": null,
@@ -7303,7 +7352,7 @@
     ]
   },
   {
-    "slug": "vodni_minutky",
+    "slug": "vodni-minutky",
     "title": "Vodní minutky",
     "category": "sbirka",
     "thumbnail": null,
@@ -7317,7 +7366,7 @@
     ]
   },
   {
-    "slug": "propeller_clock",
+    "slug": "propeller-clock",
     "title": "Vrtuálky - Propeller Clock - vrtulové hodiny - strobo hodiny",
     "category": "projekty",
     "thumbnail": "/img/propcloch_anim1.gif",
@@ -7344,7 +7393,7 @@
     ]
   },
   {
-    "slug": "zvony_vyroba",
+    "slug": "zvony-vyroba",
     "title": "Výroba zvonů",
     "category": "sbirka",
     "thumbnail": "/img/vez/zvony/pruzez_zvonem.gif",
@@ -7359,13 +7408,13 @@
     "title": "Vyšívané květinové hodiny - hodiny jedna báseň ??",
     "category": "virtualni-muzeum",
     "thumbnail": "/img/ujete/gobelin.jpg",
-    "excerpt": "Trpaslík a jeho rýč- prý že je to leda kýč, jak ale odpovědět na otázku - co jsou hodiny vyšívané na zakázku ?",
+    "excerpt": "\\\\Trpaslík a jeho rýč- prý že je to leda kýč, jak ale odpovědět na otázku - co jsou hodiny vyšívané na zakázku ?\\\\",
     "year": null,
     "lastModified": "2017-04-26T14:07:00.000Z",
     "imageCount": 7,
-    "wordCount": 28,
+    "wordCount": 29,
     "tags": [
-      "kvetinove",
+      "vysivane",
       "kuriozita"
     ]
   },
@@ -7381,7 +7430,7 @@
     "wordCount": 182
   },
   {
-    "slug": "muzeum_wien",
+    "slug": "muzeum-wien",
     "title": "Wien Museum Uhrenmuseum",
     "category": "muzea",
     "thumbnail": null,
@@ -7406,7 +7455,7 @@
     "wordCount": 163
   },
   {
-    "slug": "decin_zamek",
+    "slug": "decin-zamek",
     "title": "Zámek Děčín",
     "category": "sbirka",
     "thumbnail": "/img/decin/zamek_decin.jpg",
@@ -7417,7 +7466,7 @@
     "wordCount": 151
   },
   {
-    "slug": "kvetinovehodiny_Chomutov",
+    "slug": "kvetinovehodiny-chomutov",
     "title": "Zaniklé květinové hodiny v Chomutově",
     "category": "virtualni-muzeum",
     "thumbnail": "/img/Chomutov/f/foto_0002.jpg",
@@ -7522,7 +7571,7 @@
     "wordCount": 395
   },
   {
-    "slug": "cas_internet1",
+    "slug": "cas-internet1",
     "title": "Zobrazení času na www 1",
     "category": "projekty",
     "thumbnail": null,
@@ -7533,7 +7582,7 @@
     "wordCount": 130
   },
   {
-    "slug": "cas_internet2",
+    "slug": "cas-internet2",
     "title": "Zobrazení času na www 2 - č as generuje server",
     "category": "projekty",
     "thumbnail": null,
@@ -7544,7 +7593,7 @@
     "wordCount": 393
   },
   {
-    "slug": "zvon_petr_vok",
+    "slug": "zvon-petr-vok",
     "title": "Zvon Petr Vok - nový soběslavský zvon",
     "category": "sbirka",
     "thumbnail": "/img/vez/zvony/petrvok/f/foto_001.jpg",
@@ -7555,7 +7604,7 @@
     "wordCount": 453
   },
   {
-    "slug": "zvon_petr_pavel",
+    "slug": "zvon-petr-pavel",
     "title": "zvon Velký později zvaný Petr Pavel",
     "category": "sbirka",
     "thumbnail": "/img/vez/zvony/f/petrpavel1.jpg",
@@ -7566,7 +7615,7 @@
     "wordCount": 184
   },
   {
-    "slug": "zvony_uvod",
+    "slug": "zvony-uvod",
     "title": "Zvonařská expozice",
     "category": "sbirka",
     "thumbnail": "/img/vez/cimbaly/cimbaly_vez_zdola.jpg",
@@ -7594,7 +7643,7 @@
     ]
   },
   {
-    "slug": "svarcvaldky_hraci",
+    "slug": "svarcvaldky-hraci",
     "title": "Zvonkohry a jiné hrací stroje",
     "category": "sbirka",
     "thumbnail": "/img/svarcvald/hraci/462616837.jpg",
@@ -7608,7 +7657,7 @@
     ]
   },
   {
-    "slug": "prehled_zvonu",
+    "slug": "prehled-zvonu",
     "title": "Zvony na soběslavské věži",
     "category": "sbirka",
     "thumbnail": "/img/vez/zvony/rekvirovani.jpg",
