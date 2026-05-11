@@ -185,31 +185,48 @@ V `<source>` srcset rewrite path: `${cdnBase}/img/X.avif` místo `/img/X.avif`. 
 5. Safari nebo `Disable AVIF` flag: ověřit WebP served
 6. Throttling 3G: měřit page load time před/po
 
-### G. Optional V2 — GitHub Action automation
+### G. V2 — GitHub Action automation (hotovo 2026-05-11)
 
-`.github/workflows/imgvariants-r2-sync.yml`:
+Workflow `.github/workflows/imgvariants-r2-sync.yml` automatizuje generate
++ upload po každém pushi, který obsahuje nový/změněný JPG/PNG v `public/img/`.
 
-```yaml
-name: Image variants → R2 sync
-on:
-  push:
-    branches: [main]
-    paths: ['apps/*/public/img/**/*.jpg', 'apps/*/public/img/**/*.png']
-jobs:
-  sync:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-      - run: pnpm install
-      - run: pnpm imgvariants:sync
-        env:
-          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
-          R2_TOKEN_ID: ${{ secrets.R2_TOKEN_ID }}
-          R2_TOKEN_SECRET: ${{ secrets.R2_TOKEN_SECRET }}
-```
+**Jak funguje:**
 
-Plus: GitHub repository secrets pro R2 token. Přidá ~5-10 min latency po push, ale eliminuje manual step.
+1. `actions/checkout@v4` s `fetch-depth: 2` (pro `git diff HEAD^ HEAD`).
+2. Step „Detect changed raster sources" filtruje diff na JPG/JPEG/PNG v
+   `apps/*/public/img/` a sestaví comma-separated seznam.
+3. Step „Generate variants (diff)" volá `pnpm imgvariants:build -- --files <list>`.
+   Skript `scripts/generate-image-formats.ts` v `--files` módu procesuje jen
+   uvedené soubory (skip walk přes 2867 zdrojů).
+4. Step „Upload variants to R2" volá `pnpm imgvariants:upload`. Skript
+   walkuje `apps/*/public/img/**/*.{avif,webp}`, ale na fresh checkout
+   existují jen ty právě vygenerované varianty (=AVIF/WebP jsou v gitignore).
+   Tak se nahraje jen diff.
+5. Workflow_dispatch s `full_regen: true` udělá plný regen (recovery scenár).
+
+**Doba běhu:**
+- Push s 1 novou fotkou: ~2-3 min (install cached, generate <1s, upload <1s).
+- Push s 50 novými fotkami: ~5-7 min.
+- Plný regen: ~35 min (sharp je single-threaded, 2867 zdrojů × 2 formáty).
+
+**Náklady:**
+- Public GitHub repo má free Action minuty unlimited → 0 Kč.
+- CF R2: 1M class A operací (PUT) / měs free → 5756 PUT z plného regenu = 0.6 %.
+  Per push s 1 fotkou = 2 PUT, prakticky zdarma.
+
+**GitHub secrets setup (David, jednorázově):**
+
+1. https://github.com/csh-cz/web/settings/secrets/actions
+2. „New repository secret" — přidat 3 secrets se stejnými hodnotami jako v `.dev.vars`:
+   - `R2_ACCOUNT_ID` = `d5c001b051b45963d51ca37765b774c3`
+   - `R2_ACCESS_KEY_ID` = (Access Key ID z R2 token)
+   - `R2_SECRET_ACCESS_KEY` = (Secret z R2 token)
+3. Hotovo. První push s novou fotkou Action vyzkouší.
+
+**Selhání → fallback:**
+Pokud Action selže (R2 outage, malformed JPG, sharp OOM), browser dostane JPEG
+fallback z CF Pages — žádný viditelný problém pro návštěvníka, jen ztracený
+AVIF benefit pro danou fotku. Retry: re-run Action manuálně přes GH UI.
 
 ## Po dokončení
 

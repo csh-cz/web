@@ -208,17 +208,16 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
 - [ ] **D1 Test coverage** — Vitest setup pro `scripts/*.ts`
       (parse-soupis, build-redirects, apply-popisy, migrate-renumbering),
       snapshot testy pro layouty (~3 h).
-- [ ] **R2 image variants pipeline — V2 GitHub Action** (volitelné, ~1 h)
-      Krok 1+2 hotov 2026-05-11 (viz CHANGELOG). R2 bucket `csh-imgvariants`
-      naplněn (5684 variant, 367 MB = 4% free), `<picture>` wrap aktivní
-      v obou apps s `cdnBase: pub-e96bd8c…r2.dev`. Po DNS switch (A.9)
-      nahradit za `imgcdn.<doména>`.
+- [x] **R2 image variants pipeline** (hotovo 2026-05-11)
+      Krok 1+2+V2 hotov. R2 bucket `csh-imgvariants` naplněn (5684 variant,
+      367 MB = 4% free), `<picture>` wrap aktivní v obou apps s
+      `cdnBase: pub-e96bd8c…r2.dev`. Po DNS switch (A.9) nahradit za
+      `imgcdn.<doména>`. GH Action automatizuje regen + upload po každém
+      pushi s novou fotkou. Runbook: `docs/imgvariants-r2-pipeline.md`.
 
-      Volitelná V2: `.github/workflows/imgvariants-r2-sync.yml` — auto-trigger
-      při push na main, kdy se změnilo `apps/*/public/img/**/*.{jpg,png}`.
-      Generuje + uploadne (žádný manual step po editaci, ale ~5-10 min build
-      per push). Zatím manuálně přes `pnpm imgvariants:sync` před push, je-li
-      potřeba.
+      **Akce pro Davida:** přidat 3 repo secrets v
+      https://github.com/csh-cz/web/settings/secrets/actions
+      (`R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`).
 - [ ] **CI cleanup** — staré Cloudflare Pages preview deployments smazat
       (kvóta).
 

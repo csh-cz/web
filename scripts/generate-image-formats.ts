@@ -27,6 +27,14 @@ const appsArgIdx = process.argv.indexOf('--apps');
 const APPS = appsArgIdx >= 0 && process.argv[appsArgIdx + 1]
   ? process.argv[appsArgIdx + 1].split(',').map((s) => s.trim()).filter(Boolean)
   : ALL_APPS;
+// CLI: --files <path1>,<path2>,...  (paths repo-relativní k root nebo absolutní).
+// Když nastaveno, procesujeme JEN tyto soubory (skip walk). Užitečné v CI,
+// kde chceme regenerovat varianty jen pro soubory změněné v pushi
+// (`git diff --name-only HEAD^ HEAD`), ne plný regen 5756 souborů.
+const filesArgIdx = process.argv.indexOf('--files');
+const FILES_OVERRIDE: string[] | null = filesArgIdx >= 0 && process.argv[filesArgIdx + 1]
+  ? process.argv[filesArgIdx + 1].split(',').map((s) => s.trim()).filter(Boolean)
+  : null;
 const RASTER_EXTS = new Set(['.jpg', '.jpeg', '.png']); // GIF skip — animace
 const SKIP_NAMES = new Set(['nadpis_hodinarium1.gif']); // ikony, sprite atd.
 
@@ -124,18 +132,26 @@ async function main() {
   const stats: Stats = { scanned: 0, generated: 0, skipped: 0, failed: 0 };
   const startedAt = Date.now();
 
-  for (const app of APPS) {
-    const root = join(ROOT, 'apps', app, 'public', 'img');
-    console.log(`\n=== ${app} ===`);
-    let count = 0;
-    for await (const file of walk(root)) {
-      await processFile(file, stats);
-      count++;
-      if (count % 200 === 0) {
-        process.stdout.write(`  [${count}] generated ${stats.generated}, skipped ${stats.skipped}, failed ${stats.failed}\n`);
-      }
+  if (FILES_OVERRIDE) {
+    console.log(`\n=== --files mode: ${FILES_OVERRIDE.length} cílový soubor(ů) ===`);
+    for (const rel of FILES_OVERRIDE) {
+      const abs = rel.startsWith('/') ? rel : join(ROOT, rel);
+      await processFile(abs, stats);
     }
-    console.log(`  scanned ${count} files`);
+  } else {
+    for (const app of APPS) {
+      const root = join(ROOT, 'apps', app, 'public', 'img');
+      console.log(`\n=== ${app} ===`);
+      let count = 0;
+      for await (const file of walk(root)) {
+        await processFile(file, stats);
+        count++;
+        if (count % 200 === 0) {
+          process.stdout.write(`  [${count}] generated ${stats.generated}, skipped ${stats.skipped}, failed ${stats.failed}\n`);
+        }
+      }
+      console.log(`  scanned ${count} files`);
+    }
   }
 
   const elapsed = ((Date.now() - startedAt) / 1000).toFixed(1);
