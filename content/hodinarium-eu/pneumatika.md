@@ -29,7 +29,7 @@ Princip řízení podružných hodin stlačeným vzduchem je poměrně jednoduch
 7 - blokovací západka proti zpětnému pohybu
 8 - rohatka
 
-![Patentový výkres Elektronom ](/img/elektrika/junhhans/elektronom_patent.gif "Princip elektro-pneumatického nátahu a řízení podružných hodin")
+![Patentový výkres Elektronom](/img/elektrika/junhhans/elektronom_patent.gif "Princip elektro-pneumatického nátahu a řízení podružných hodin")
 
 **Zdroj tlakových pulzů**
 
@@ -56,12 +56,9 @@ Princip řízení podružných hodin stlačeným vzduchem je poměrně jednoduch
 17 - postrkovací páka
 18, 19 - podružné hodiny
 
-Více najdete na již zmiňované stránce (v němčině)[**www.hwynen.de**](http://www.hwynen.de/jgh-elektronom.html) **,** odkud je obrázek převzat případně v katalogu firmy. Rovněž tam najdete fotografie hodin ve sbírce autora.
-
 ### Odkazy
 
-- [Článek z Phalos je hlavně o rekonstrukci náhradní žárovkového kompresoru](https://junghansarchiv.de/uploads/1928_01_full_de1508c12e.pdf)
 - [Katalog Junghans](https://junghansarchiv.de/uploads/1928_01_full_de1508c12e.pdf)
-- [Historie a technický rozbor](https://www.hwynen.de/jgh-elektronom.html)
+- [Historie a technický rozbor](https://www.hwynen.de/jgh-elektronom.html)  Více najdete zde  (v němčině) Rovněž zde najdete fotografie hodin ve sbírce autora.
 
 ###
