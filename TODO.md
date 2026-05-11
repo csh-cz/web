@@ -30,8 +30,13 @@ prosvítit články) a `pnpm search:rebuild` (corpus + embed).
 
 - [ ] **SL11 CMS widget pro Sveltia** — frontmatter editor pro slovnik
       collection (překlady, varianty, definice, příbuzné slugy).
-- [ ] **SL12 /slovnik/ filter/search box** — při 50+ heslech přidat
-      live filter (de/en/fr term, cs heslo, varianta).
+- [x] **SL12 /slovnik/ filter/search box** — hotov (2026-05-11). Live filter
+      v `apps/hodinarium-eu/src/pages/slovnik/index.astro`: hledá v cs heslu,
+      variantách i překladech (de/en/fr). Diakritika-insenzitivní fold přes
+      NFD normalizaci. Tokenizovaný (více slov = AND match). Skrývá prázdné
+      kategorie, ukazuje "žádné výsledky" banner. URL param `?q=…` pro deep link.
+      Clear button (×) + ESC keybind. Pre-fold cached při loadu (rychlost
+      pro 135 cards).
 - [ ] **SL13 Reference IDs s anchorlinkováním** — `[Zotero \`KEY\`]`
       v citacích v body propojit na `references.json` (CSL render přes
       citeproc-js stejně jako u kroku detailu).

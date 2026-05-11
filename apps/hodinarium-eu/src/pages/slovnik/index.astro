@@ -87,17 +87,35 @@ const total = all.length;
       Hesla česky s překlady do <strong>němčiny</strong>, <strong>angličtiny</strong>
       a <strong>francouzštiny</strong>. Každý fakt je opřený o doslovnou citaci
       z primárních pramenů — Šumavský 1851, Špatný 1882, Sušický 1900,
-      Sladkovský 1947, Saunier 1887, Gros 1913, Dietzschold 1894.
+      Sladkovský 1947, Saunier 1887, Gros 1913, Dietzschold 1894, Táborský 1570.
     </p>
     <p class="slovnik-stats">
-      <strong class="text-[var(--color-brass-bright)]">{total}</strong>
-      {' '}hesel ve {grouped.size === 1 ? 'jedné' : grouped.size + ' tematických'}
-      {' '}{grouped.size === 1 ? 'kategorii' : 'kategoriích'}
+      <strong class="text-[var(--color-brass-bright)]" id="slovnik-count">{total}</strong>
+      {' '}<span id="slovnik-count-label">hesel ve {grouped.size === 1 ? 'jedné' : grouped.size + ' tematických'} {grouped.size === 1 ? 'kategorii' : 'kategoriích'}</span>
     </p>
   </header>
 
+  <div class="slovnik-filter">
+    <label for="slovnik-search" class="slovnik-filter-label">Hledat heslo</label>
+    <div class="slovnik-filter-input-wrap">
+      <input
+        type="search"
+        id="slovnik-search"
+        class="slovnik-filter-input"
+        placeholder="trýb, escapement, kyvadlo, krok…"
+        autocomplete="off"
+        aria-describedby="slovnik-filter-hint"
+        spellcheck="false"
+      />
+      <button type="button" id="slovnik-search-clear" class="slovnik-filter-clear" aria-label="Vymazat hledání" hidden>×</button>
+    </div>
+    <p id="slovnik-filter-hint" class="slovnik-filter-hint">
+      Hledá v českém hesle, variantách i překladech (de/en/fr). Diakritika nemusí — „tryb" najde „trýb".
+    </p>
+  </div>
+
   {[...grouped.entries()].map(([kat, list]) => (
-    <section class="slovnik-skupina">
+    <section class="slovnik-skupina" data-kategorie={kat}>
       <header class="slovnik-skupina-header">
         <h2 class="slovnik-skupina-label">{KATEGORIE_LABEL[kat].title}</h2>
         <p class="slovnik-skupina-lead">{KATEGORIE_LABEL[kat].lead}</p>
@@ -108,8 +126,17 @@ const total = all.length;
           const en = e.data.prekladyEn?.[0]?.term;
           const fr = e.data.prekladyFr?.[0]?.term;
           const definice = e.data.definice;
+          // Searchable text: title + všechny překlady + varianty.
+          // Lower-case + ASCII fold (diakritika nemusí) provádí JS na klientu.
+          const searchBlob = [
+            e.data.title,
+            ...(e.data.varianty ?? []),
+            ...(e.data.prekladyDe?.map((p) => p.term) ?? []),
+            ...(e.data.prekladyEn?.map((p) => p.term) ?? []),
+            ...(e.data.prekladyFr?.map((p) => p.term) ?? []),
+          ].join(' ');
           return (
-            <a href={`/slovnik/${e.data.slug}`} class="slovnik-card">
+            <a href={`/slovnik/${e.data.slug}`} class="slovnik-card" data-search={searchBlob}>
               <h3 class="slovnik-name">{e.data.title}</h3>
               <p class="slovnik-translations">
                 {de && <span class="lang-tag" title="němčina"><span class="lang-code">de</span> {de}</span>}
@@ -121,9 +148,97 @@ const total = all.length;
           );
         })}
       </div>
+      <p class="slovnik-empty" hidden>Žádné heslo neodpovídá filtru.</p>
     </section>
   ))}
+
+  <p id="slovnik-no-results" class="slovnik-no-results" hidden>
+    Žádné heslo neodpovídá hledání. Zkus jiné slovo nebo část slova (např. „kyv" místo „kyvadlo").
+  </p>
 </Base>
+
+<script>
+  // Diakritika-insenzitivní fold + lowercase pro fuzzy match.
+  function fold(s: string): string {
+    return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  }
+
+  const input = document.getElementById('slovnik-search') as HTMLInputElement | null;
+  const clearBtn = document.getElementById('slovnik-search-clear') as HTMLButtonElement | null;
+  const noResults = document.getElementById('slovnik-no-results') as HTMLElement | null;
+  const count = document.getElementById('slovnik-count') as HTMLElement | null;
+  const countLabel = document.getElementById('slovnik-count-label') as HTMLElement | null;
+  const sections = Array.from(document.querySelectorAll<HTMLElement>('.slovnik-skupina'));
+  const allCards = Array.from(document.querySelectorAll<HTMLElement>('.slovnik-card'));
+  const total = allCards.length;
+
+  // Pre-fold each card's searchable text (jednou při loadu, ne při každém keystroke)
+  const cardData = allCards.map((c) => ({
+    el: c,
+    text: fold(c.dataset.search ?? ''),
+  }));
+
+  function applyFilter() {
+    if (!input) return;
+    const raw = input.value.trim();
+    const tokens = fold(raw).split(/\s+/).filter(Boolean);
+
+    if (clearBtn) clearBtn.hidden = raw.length === 0;
+
+    let visible = 0;
+    for (const { el, text } of cardData) {
+      const match = tokens.length === 0 || tokens.every((t) => text.includes(t));
+      el.classList.toggle('slovnik-card-hidden', !match);
+      if (match) visible++;
+    }
+
+    // Hide/show whole sections based on whether they have any visible card
+    let visibleSections = 0;
+    for (const sec of sections) {
+      const visibleInSec = sec.querySelectorAll('.slovnik-card:not(.slovnik-card-hidden)').length;
+      sec.hidden = visibleInSec === 0;
+      if (visibleInSec > 0) visibleSections++;
+    }
+
+    if (noResults) noResults.hidden = visible > 0;
+
+    // Update header count
+    if (count && countLabel) {
+      count.textContent = String(visible);
+      if (tokens.length === 0) {
+        countLabel.textContent = `hesel${visibleSections > 1 ? ` v ${visibleSections} kategoriích` : visibleSections === 1 ? ' v jedné kategorii' : ''}`;
+      } else {
+        countLabel.textContent = `${visible === 1 ? 'heslo' : visible >= 2 && visible <= 4 ? 'hesla' : 'hesel'} z ${total} odpovídá filtru`;
+      }
+    }
+  }
+
+  input?.addEventListener('input', applyFilter);
+  clearBtn?.addEventListener('click', () => {
+    if (input) {
+      input.value = '';
+      input.focus();
+      applyFilter();
+    }
+  });
+
+  // ESC = clear (when input focused)
+  input?.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && input.value !== '') {
+      e.preventDefault();
+      input.value = '';
+      applyFilter();
+    }
+  });
+
+  // Fokus z URL hashpattern `#hledat=foo` nebo query `?q=foo`
+  const params = new URLSearchParams(window.location.search);
+  const initialQuery = params.get('q');
+  if (initialQuery && input) {
+    input.value = initialQuery;
+    applyFilter();
+  }
+</script>
 
 <style>
   .slovnik-stats {
@@ -132,6 +247,96 @@ const total = all.length;
     color: var(--color-text-soft);
     text-transform: uppercase;
     letter-spacing: 0.12em;
+  }
+
+  /* === Search filter === */
+  .slovnik-filter {
+    margin: 0 0 2.5rem;
+    max-width: 40rem;
+  }
+  .slovnik-filter-label {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--color-copper);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  .slovnik-filter-input-wrap {
+    position: relative;
+  }
+  .slovnik-filter-input {
+    width: 100%;
+    padding: 0.65rem 2.5rem 0.65rem 1rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    color: var(--color-text);
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    line-height: 1.4;
+  }
+  .slovnik-filter-input::placeholder {
+    color: color-mix(in srgb, var(--color-text-soft) 70%, transparent);
+    font-style: italic;
+  }
+  .slovnik-filter-input:focus {
+    outline: none;
+    border-color: var(--color-brass-bright);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .slovnik-filter-clear {
+    position: absolute;
+    top: 50%;
+    right: 0.45rem;
+    transform: translateY(-50%);
+    width: 1.75rem;
+    height: 1.75rem;
+    background: transparent;
+    border: none;
+    border-radius: 2px;
+    color: var(--color-text-soft);
+    font-size: 1.4rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slovnik-filter-clear:hover {
+    background: color-mix(in srgb, var(--color-brass) 12%, transparent);
+    color: var(--color-brass-bright);
+  }
+  .slovnik-filter-hint {
+    margin: 0.5rem 0 0;
+    font-size: 0.78rem;
+    color: var(--color-text-soft);
+    line-height: 1.4;
+  }
+
+  .slovnik-card-hidden {
+    display: none !important;
+  }
+
+  .slovnik-empty {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+    font-style: italic;
+  }
+
+  .slovnik-no-results {
+    margin: 2rem 0;
+    padding: 1.25rem 1.5rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+    color: var(--color-text);
+    font-size: 0.95rem;
+    line-height: 1.5;
   }
 
   .slovnik-skupina {
