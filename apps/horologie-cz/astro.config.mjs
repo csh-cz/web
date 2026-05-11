@@ -15,7 +15,12 @@ export default defineConfig({
   },
   markdown: {
     rehypePlugins: [
-      [rehypePicture, { imageSizes }],
+      [rehypePicture, {
+        imageSizes,
+        wrapInPicture: true,
+        // DEV stage URL — po DNS switch nahradit za imgcdn.<doména>.cz.
+        cdnBase: 'https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev',
+      }],
     ],
   },
   integrations: [mdx(), sitemap()],

@@ -89,7 +89,7 @@ David/Petr — pro každý článek rozhodněte:
 - **Kategorie:** sbirka
 - **Soubor:** [content/hodinarium-eu/prehled_zvonu.md](content/hodinarium-eu/prehled_zvonu.md)
 - **Kontext (kde se 1440 objevuje):**
-  > …(později zvaný [Petr Pavel](/clanky/zvon_petr_pavel)) – vysvěcený v roce 1492, 1440 kg     **(v roce 1663 po poškození bleskem nově přelit)  V roce 1716 byl nově v…
+  > …(později zvaný [Petr Pavel](/sbirka/zvon-petr-pavel)) – vysvěcený v roce 1492, 1440 kg     **(v roce 1663 po poškození bleskem nově přelit)  V roce 1716 byl nově v…
 - **Rozhodnutí:** _OK / FIX / REMOVE — doplň_
 
 ### `kalendar_rimsky` — rok **1465**
