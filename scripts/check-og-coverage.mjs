@@ -62,6 +62,10 @@ function parseEntry(file) {
   // draft check
   if (/^draft:\s*true\s*$/m.test(fm)) return { slug: null, draft: true };
 
+  // stub check — isStub: true znamená neúplný obsah, nepotřebuje OG image
+  // (typicky slovníkové stuby čekající na rozšíření Petrem)
+  if (/^isStub:\s*true\s*$/m.test(fm)) return { slug: null, draft: true };
+
   // explicit slug
   const slugMatch = fm.match(/^slug:\s*['"]?([^'"\n]+?)['"]?\s*$/m);
   if (slugMatch) return { slug: slugMatch[1].trim(), draft: false };
