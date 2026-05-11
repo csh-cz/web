@@ -5,6 +5,24 @@ Plná historie se najde v `git log` — toto je rychlý přehled milníků.
 
 ---
 
+## 2026-05-11 — R2 image variants pipeline + GH Action automation
+
+- **V2 GitHub Action `.github/workflows/imgvariants-r2-sync.yml`** —
+  Trigger: push s JPG/PNG změnou v `apps/*/public/img/**`. Detekuje
+  changed sources přes `git diff HEAD^ HEAD`, předá je do
+  `pnpm imgvariants:build -- --files <list>`, pak upload na R2. Doba
+  per push s 1 fotkou ~2-3 min, plný regen (workflow_dispatch s
+  `full_regen: true`) ~35 min. Public repo má unlimited Action minuty
+  zdarma. **Workflow Petrovi automaticky nahraje AVIF/WebP po každém
+  uploadu fotky přes Sveltia** — bez ručního zásahu.
+- **`scripts/generate-image-formats.ts`** rozšířen o `--files` CLI flag.
+  Když nastaveno, skript procesuje jen daný subset (skip walk přes 2867
+  zdrojů). Bez `--files` zachová původní walk-all chování.
+- **Setup po commitu** — David musí v
+  `https://github.com/csh-cz/web/settings/secrets/actions` přidat 3 repo
+  secrets: `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`
+  (hodnoty stejné jako v lokálním `.dev.vars`).
+
 ## 2026-05-11 — R2 image variants pipeline
 
 - **R2 bucket `csh-imgvariants`** zřízen (David v CF dashboardu) — 10 GB free
