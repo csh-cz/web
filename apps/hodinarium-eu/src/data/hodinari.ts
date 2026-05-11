@@ -639,8 +639,21 @@ export const hodinari: Hodinar[] = [
     mesto: 'Praha',
     zeme: 'CZ',
     shrnuti:
-      'Mechanik pražského Polytechnického ústavu pod vedením F. J. Gerstnera. Vyrobil přes 40 různých modelů hodinových kroků a několik vlastních nových konstrukcí. V roce 1810 vedl průkopnický evropský pokus o sériovou výrobu litinových věžních hodin v komárovských železárnách. Otec Romualda Božka.',
+      'Mechanik pražského Polytechnického ústavu pod vedením F. J. Gerstnera. Vyrobil přes 40 různých modelů hodinových kroků a několik vlastních nových konstrukcí. V roce 1810 vedl průkopnický evropský pokus o sériovou výrobu litinových věžních hodin v komárovských železárnách. Otec Františka a Romualda Božkových.',
     relatedSlugs: ['kinsner-astronomicke-hodiny', 'litinove-vezni-hodiny'],
+    era: '19stol',
+  },
+  {
+    slug: 'frantisek-bozek',
+    jmeno: 'František Božek',
+    aliasy: ['František Božek', 'F. Božek'],
+    typ: 'osoba',
+    obdobi: '1811–1886',
+    mesto: 'Praha',
+    zeme: 'CZ',
+    shrnuti:
+      'Starší syn Josefa Božka, hodinář a jemný mechanik. Po smrti otce v roce 1835 převzal jeho zaměstnání c. a k. mechanika na pražské Polytechnice a pokračoval v rodinné dílně jemné mechaniky.',
+    relatedSlugs: ['josef-bozek', 'romuald-bozek'],
     era: '19stol',
   },
   {
@@ -653,7 +666,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Český vynálezce a konstruktér, mladší syn Josefa Božka. Studoval pražskou polytechniku. Vodárenský odborník a divadelní mechanik. V hodinářství se věnoval spíše teorii než praxi — je mu připisován návrh externího chronometru Pražského orloje s Denisonovým gravitačním krokem (oprava 1865–1866). Autor rukopisných spisů „Über Uhren und Uhrmeister" a „Die neue Stadtuhr" (NTM Praha).',
-    relatedSlugs: [],
+    relatedSlugs: ['josef-bozek', 'frantisek-bozek'],
     era: '19stol',
   },
   {
