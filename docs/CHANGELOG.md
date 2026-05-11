@@ -5,6 +5,30 @@ Plná historie se najde v `git log` — toto je rychlý přehled milníků.
 
 ---
 
+## 2026-05-11 — JPG zdroje off-git (R2 serves originals too)
+
+- **`<img src>` fallback nově ukazuje na R2**, ne na CF Pages —
+  `packages/rehype-picture/index.mjs` v `cdnBase` módu přepíše i src
+  na `${cdnBase}/img/X.jpg`. Předtím src ukazoval na `/img/X.jpg` (CF Pages),
+  což vyžadovalo držet JPG v gitu pro deploy. Nově není potřeba.
+- **`scripts/upload-imgvariants-to-r2.mjs`** rozšířen o JPG/JPEG/PNG —
+  `UPLOAD_EXTS` zahrnuje raster zdroje vedle variant. Idempotentní upload
+  (ETag diff) sleduje, co je už v R2.
+- **Migrace existujících 2867 JPGs/PNGs do R2** (~310 MB). Bucket
+  `csh-imgvariants` má teď: AVIF (var.) + WebP (var.) + originál JPG =
+  ~680 MB (7 % free).
+- **GH Action `imgvariants-r2-sync.yml`** rozšířen o post-upload step:
+  `git rm` zdrojů po úspěšném R2 uploadu + commit "ci: move uploaded
+  images to R2 [skip ci]". Vyžaduje `permissions: contents: write`.
+  Nové fotky od editorů do gitu už dlouhodobě nezůstávají.
+- **Astro content cache invalidate** — důležitá lekce: změny v
+  `packages/rehype-picture/` nemají efekt na cached obsah collection.
+  Při testování změn nutno `rm -rf apps/*/.astro apps/*/node_modules/.astro`.
+  CI build to dělá automaticky (fresh checkout).
+- **Existující 2867 JPGs zatím zůstávají v gitu** (rozhodnutí A) — pro
+  Sveltia media browser. Nové fotky → R2 only. Repo `.git` 496 MB
+  zatím netřeba zmenšovat history rewrite-em (zvažitelný krok C v TODO).
+
 ## 2026-05-11 — R2 image variants pipeline + GH Action automation
 
 - **V2 GitHub Action `.github/workflows/imgvariants-r2-sync.yml`** —
