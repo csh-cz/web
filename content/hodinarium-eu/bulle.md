@@ -1,30 +1,34 @@
 ---
-title: "BULLE hodiny - elektromagnet se dvěma magnetickými poli"
-slug: "bulle"
-category: "konstrukce"
+title: Elektromagnetické hodiny Bulle
+slug: bulle
+category: konstrukce
+tldr: Jde o elektromagnetické hodiny s cívkou na kyvadle pohybující se kolem magnetu se složitě uspořádaným magnetickým polem.  Kyvadlo, které následně posunuje stroj.
+author: ''
 tags:
   - bulle
   - elektromagneticke
   - 1900s
-originalUrl: "https://hodinarium.eu/bulle.htm"
-lastModified: "Sun, 09 Feb 2020 16:02:00 GMT"
-sourceCharset: "windows-1250"
-scrapedAt: "2026-04-27T17:36:41.432Z"
-tldr: 'Jde o hodiny s elektromagnetickým impulzem do kyvadla, které následně posunuje stroj. Proti nákresům z patentních spisů je osa páčky která posunuje rohatku nastavitelná, takže lze nastavit, aby při po…'
+originalUrl: https://hodinarium.eu/bulle.htm
+lastModified: Sun, 09 Feb 2020 16:02:00 GMT
+sourceCharset: windows-1250
+scrapedAt: 2026-04-27T17:36:41.432Z
 ---
+
 ![magnet](/img/elektrika/bulle/magnet.jpg)
 
 ![Patent - figure 6](/img/elektrika/bulle/patent6.jpg)
 
-Jde o hodiny s elektromagnetickým impulzem do [kyvadla](/slovnik/kyvadlo), které následně posunuje stroj. Proti nákresům z patentních spisů je osa páčky která posunuje rohatku nastavitelná, takže lze nastavit, aby při poměrně velkém amplitudě [kyvadlo](/slovnik/kyvadlo) posunula stroj právě o jeden zub rohatky. Kyvadlo je navíc pomocnou pružinou udržováno v poměrně stabilní amplitudě. Krokový mechanizmus je neobvykle efektní, takže často bývá viditelný.
+Jde o elektromagnetické hodiny s cívkou na kyvadle pohybující se kolem magnetu se složitě uspořádaným magnetickým polem. 
 
-Na rozdíl od jiných hodin s elektromagnetickým impulzem do kyvadla používají hodiny Bulle magnet se zvláštním uspořádáním. Liší se od běžných permanentních magnetů tím, že i když je fyzicky jedním tělesem, magneticky se dělí na dvě samostatná opačně orientovaná magnetická pole. Na fyzických koncích jsou například jižní póly a severní póly jsou fyzicky uprostřed. Pokud by bylo opačné uspořádání, musí se pro zdárný chod obrátit polarita baterie. Obrázek vpravo je převzat z patentu z roku 1920.
+U hodin typu Bulle nejde o obyčejný „silný magnet“, ale o velmi promyšlené magnetické pole. Magnet je uspořádán tak, že na obou koncích je stejný pól a  uprostřed je pól opačný. Na fyzických koncích jsou například jižní póly a severní póly jsou fyzicky uprostřed. Schematicky to jde zobrazit třeba takto: N — S — N. Tedy magnetické pole není jednoduché dipólové, ale trojpólové. Trojpólový magnet je hlavní „trik“ celé konstrukce.  Liší se od běžných permanentních magnetů tím, že i když je fyzicky jedním tělesem, magneticky se dělí na dvě samostatná opačně orientovaná magnetická pole. ( Obrázek je převzat z patentu z roku 1920. )
 
-Konstrukce magnetu svádí k myšlence, že hodiny jsou původně uvažované pro oboustranný impulz. Jak ale můžeme vidět na obrázcích z patentních spisů, šlo o jednostranný impulz. Na obrázku vpravo z patentu z roku 1922 je na kontaktu 16 nevodivá plocha č. 18. Impulz je tedy od začátku konstrukce jednosměrný.
+Trojpólové magnetické pole vytváří prudší gradient právě tam, kde je potřeba. Využívá se hlavně změna magnetického toku, gradient magnetického pole. Řešení je blíže indukčnímu systému, tedy magnetickému „kopnutí“ v přesném bodě. U hodin s dvoupólovým magnetem (například ATO) se využívá hlavně přímá síla mezi elektromagnetem a permanentním magnetem.
 
-Vytvoření takového magnetu se může provést navinutím drátu na jedné polovině jedním směrem a na druhé polovině opačným směrem. Po krátkodobém připojení zdroje silného proudu (například autobaterie) dojde k zmagnetování s protilehlými magnetickými poli.
+Spínač na obrázku podle patentu z roku 1920 spíná polaritu proudu v cívce tak, že magnetické pole vrací kyvadlo do středové polohy. Je to přirovnáváno k houpačce, kdy rodič zatlačí do zad dítěte.  Podstatné je, že k sepnutí proudu musí tedy dojít až při určitém vychýlení kyvadla. 
 
-Spínač na levém obrázku podle patentu z roku 1920. Polarita proudu v cívce je spínána tak, že magnetické pole vrací kyvadlo do středové polohy. Je to přirovnáváno k houpačce, kdy rodič zatlačí do zad dítěte. K sepnutí proudu musí tedy dojít až při určitém vychýlení kyvadla.
+Místo jednoduchého a robustního elektromagnetického impulsu kolem dvoupólového magnetu například u hodin ATO,  u kterého je výhoda jednoduchost, spolehlivost a snadná výroba, je důraz položen na maximum využití tvarovaného magnetického pole. Výhodou je možnost použít kratší impulz a tím dosažení menší spotřeby a menší ovlivnění doby kyvu kyvadla. Řešení má i určité nevýhody. Jednou z nich je citlivost na změny magnetu a kontaktů. Další nevýhodou je, že se takto vyrobený magnet samovolně demagnetizuje a hůře se vyrábí. Magnet Bulle hodin je vlastně kompromis. Poskytuje mimořádně vhodné pole pro impuls kyvadla, ale za cenu horší dlouhodobé stability magnetizace. To je jeden z důvodů, proč jsou dnes dobře fungující původní Bulle hodiny poměrně vzácné.
+
+Původní magnety byly většinou z tvrzené uhlíkové oceli, někdy z wolframové nebo kobaltové magnetické oceli. Magnetované byly až po mechanickém opracování. Magnet se obvykle vykoval nebo obrobil, tepelně zpracoval a vložil do speciálního magnetizačního přípravku. Klíčové je právě magnetování. Právě proto je renovace obtížná. Staré magnety ztrácejí magnetizaci, bývají částečně přemagnetované a někdy mají posunuté pólové oblasti. A právě poloha pólů je kritická. Pokud se pólové přechody posunou změní se impuls i amplituda kyvu a někdy hodiny přestanou fungovat. Bez speciálního přípravku si můžeme pomoci navinutím drátu na jedné polovině jedním směrem a na druhé polovině opačným směrem. Po krátkodobém připojení zdroje silného proudu (například autobaterie) dojde k zmagnetování s protilehlými magnetickými póly.
 
 **Několik odkazů.**
 
@@ -35,13 +39,7 @@ Spínač na levém obrázku podle patentu z roku 1920. Polarita proudu v cívce 
 - [Oprava hodin z roku 1927](http://www.csprojects.eu/bulle_clock.htm)
 - ![bulle 1925](/img/pohlednice/bulle1925.jpg)
 
-![bulle1925b](/img/pohlednice/bulle1925b.jpg)**a také naše první pohlednice**
+**a také naše první pohlednice** Hodiny značeny **BULLE-CLOCK, BREVETÈ S.G.D.G. PATENTED**.
 
-**P**odpořit nás můžete také **zakoupením této pohlednice** v e-shopu
-**TB Group**. Výtěžek z prodeje bude věnován na rozvoj tohoto webu.
-
-**N**yní je k dispozici pohlednice s vyobrazením elektromechanických bateriových hodin Bulle (Francie). Impulz do kyvadla, pevný magnet, pohyblivá cívka na kyvadle.
-
-**Z**načeny BULLE-CLOCK, BREVETÈ S.G.D.G. PATENTED.
 
 !
