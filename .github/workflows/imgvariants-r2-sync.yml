@@ -1,12 +1,15 @@
-# AVIF/WebP varianty pro nové fotky → R2.
+# Image sourcing → R2 (off-git storage).
 #
 # Trigger: push na main, který zahrnuje nový/změněný JPG/PNG v apps/*/public/img/.
-# Workflow zjistí změněné zdroje, vygeneruje varianty jen pro ně (sharp)
-# a nahraje je do R2 bucketu `csh-imgvariants` (idempotentně).
+# Workflow:
+#   1) Vygeneruje AVIF/WebP varianty (sharp) jen pro změněné zdroje
+#   2) Uploadne varianty + originál na R2 bucket `csh-imgvariants`
+#   3) Smaže originál z gitu (post-upload commit "ci: move to R2") —
+#      JPG/PNG už dlouhodobě nezůstávají v repo, jen na R2.
 #
-# Petr nahraje fotku přes Sveltia CMS → csh-cms-proxy commit do main →
-# tato Action běží ~2-3 min → CF Pages mezitím dokončí build →
-# browser dostane AVIF z R2.
+# Petr nahraje fotku přes Sveltia → csh-cms-proxy commit do main →
+# tato Action běží ~1 min → druhý commit smaže JPG z repa → CF Pages
+# rebuild → browser dostává AVIF + JPG fallback z R2.
 #
 # Manual trigger (workflow_dispatch): plný regen — projde všech 2867 zdrojů
 # a vygeneruje chybějící varianty. Užitečné pro recovery (např. po R2 wipe)
@@ -38,14 +41,18 @@ on:
 
 jobs:
   sync:
-    name: Generate AVIF/WebP + upload to R2
+    name: Generate AVIF/WebP + upload to R2 + remove sources from git
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    # Pro git rm + push commit zpět na main musíme mít write access.
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2  # potřebujeme HEAD^ pro git diff
+          persist-credentials: true  # umožní git push z workflow
 
       - uses: pnpm/action-setup@v4
         with:
@@ -91,7 +98,7 @@ jobs:
         if: steps.changed.outputs.mode == 'full'
         run: pnpm imgvariants:build
 
-      - name: Upload variants to R2
+      - name: Upload variants + sources to R2
         if: steps.changed.outputs.mode != 'none'
         run: pnpm imgvariants:upload
         env:
@@ -99,6 +106,30 @@ jobs:
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           R2_BUCKET: csh-imgvariants
+
+      - name: Remove source JPG/PNG from git (now on R2)
+        if: steps.changed.outputs.mode == 'diff'
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Rozparsuj comma-separated seznam změněných zdrojů a smaž je
+          IFS=',' read -ra FILES <<< "${{ steps.changed.outputs.files }}"
+          for f in "${FILES[@]}"; do
+            git rm "$f"
+          done
+          git commit -m "ci: move uploaded images to R2 [skip ci]
+
+          Source files uploaded by Sveltia editor have been pushed to the
+          R2 bucket (csh-imgvariants). They no longer need to live in the
+          git repo — fallback <img src> in the rendered <picture> points
+          to R2 directly via rehype-picture cdnBase config.
+
+          Files moved:
+          $(printf '  - %s\n' "${FILES[@]}")"
+          # Pull-rebase před push pro případ, kdyby mezi tím spadl jiný commit
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
 
       - name: Summary
         if: always()

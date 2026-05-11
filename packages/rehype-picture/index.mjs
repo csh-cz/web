@@ -73,9 +73,16 @@ export default function rehypePicture(opts = {}) {
       if (!RASTER_RE.test(src)) return;
 
       const base = src.replace(RASTER_RE, '');
-      // <source> ukazuje na R2 CDN (pokud nastaveno), fallback <img> zůstává
-      // na CF Pages path. cdnBase pattern: https://imgcdn.example.cz, bez trailing /.
+      // <source> i fallback <img> ukazují na R2 CDN (pokud nastaveno).
+      // JPG zdroj v gitu už neukládáme; po Sveltia uploadu Action zdroj
+      // přesune na R2 a smaže z repo. Fallback <img> tedy odkazuje na R2,
+      // ne na CF Pages.
       const variantBase = cdnBase ? `${cdnBase}${base}` : base;
+      if (cdnBase) {
+        // Přepiš <img src> na R2 URL (zachová original ext).
+        const origExt = src.match(RASTER_RE)?.[0] ?? '';
+        node.properties.src = `${cdnBase}${base}${origExt.replace(/\?.*$/, '')}`;
+      }
       const picture = {
         type: 'element',
         tagName: 'picture',

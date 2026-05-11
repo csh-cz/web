@@ -68,8 +68,19 @@ const APPS = appsArgIdx >= 0 && process.argv[appsArgIdx + 1]
   : ALL_APPS;
 const DRY_RUN = process.argv.includes('--dry-run');
 
-const VARIANT_EXTS = new Set(['.avif', '.webp']);
-const MIME = { '.avif': 'image/avif', '.webp': 'image/webp' };
+// Uploaduje:
+//   - varianty .avif / .webp (vždy — tečou z `imgvariants:build` lokálně i z CI)
+//   - zdrojové rastr fotky .jpg / .jpeg / .png — slouží jako fallback v <img>
+//     pro starší prohlížeče bez AVIF/WebP. Tím se zároveň eliminuje potřeba
+//     ukládat originál do gitu (po uploadu může Action git rm).
+const UPLOAD_EXTS = new Set(['.avif', '.webp', '.jpg', '.jpeg', '.png']);
+const MIME = {
+  '.avif': 'image/avif',
+  '.webp': 'image/webp',
+  '.jpg': 'image/jpeg',
+  '.jpeg': 'image/jpeg',
+  '.png': 'image/png',
+};
 
 const r2 = new S3Client({
   region: 'auto',
@@ -134,7 +145,7 @@ const CONCURRENCY = concArgIdx >= 0 && process.argv[concArgIdx + 1]
 
 async function uploadOne(file, app) {
   const ext = extname(file).toLowerCase();
-  if (!VARIANT_EXTS.has(ext)) return;
+  if (!UPLOAD_EXTS.has(ext)) return;
   stats.scanned++;
 
   const relPath = relative(join(ROOT, 'apps', app, 'public'), file).replace(/\\/g, '/');
@@ -201,7 +212,7 @@ for (const app of APPS) {
   }
   const workers = Array.from({ length: CONCURRENCY }, () => worker());
   await Promise.all(workers);
-  console.log(`  scanned ${files.length} souborů (z toho ${VARIANT_EXTS.size} variant typů)`);
+  console.log(`  scanned ${files.length} souborů (z toho ${UPLOAD_EXTS.size} variant typů)`);
 }
 
 clearInterval(progressTimer);
