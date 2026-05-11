@@ -66,12 +66,12 @@ jobs:
             echo "mode=full" >> "$GITHUB_OUTPUT"
             echo "Manual full regen requested."
           else
-            # diff vs předchozí commit; filtruj na JPG/PNG v public/img/
-            CHANGED=$(git diff --name-only --diff-filter=AM HEAD^ HEAD -- \
-              'apps/*/public/img/**/*.jpg' \
-              'apps/*/public/img/**/*.jpeg' \
-              'apps/*/public/img/**/*.png' \
-              | tr '\n' ',' | sed 's/,$//')
+            # diff vs předchozí commit; filtruj na JPG/PNG v public/img/.
+            # Pozor: git pathspec `**` se chová jinak než gitignore globs
+            # (`*` v pathspecu neexpanduje přes /). Proto grep regex.
+            CHANGED=$(git diff --name-only --diff-filter=AM HEAD^ HEAD \
+              | grep -E '^apps/[^/]+/public/img/.*\.(jpg|jpeg|png)$' \
+              | tr '\n' ',' | sed 's/,$//' || true)
             if [ -z "$CHANGED" ]; then
               echo "mode=none" >> "$GITHUB_OUTPUT"
               echo "Žádný JPG/PNG nezměněn v tomto pushi."
