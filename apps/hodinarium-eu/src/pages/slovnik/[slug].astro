@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import WipBanner from '../../components/WipBanner.astro';
 import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
+import { formatCite, getRef } from '../../utils/cite';
 
 export async function getStaticPaths() {
   const all = await getCollection('slovnik');
@@ -145,6 +146,53 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
     <div class="prose-content">
       <Content />
     </div>
+
+    {data.references && data.references.length > 0 && (
+      <section class="slovnik-references" aria-labelledby="slovnik-references-heading">
+        <h2 id="slovnik-references-heading">Prameny a citace</h2>
+        <ol>
+          {data.references.map((r, idx) => {
+            const anchorId = `ref-${idx + 1}`;
+            // bibKey: render ISO 690 přes citeproc-js (stejné jako kroky/[slug].astro)
+            if (r.bibKey) {
+              const cslItem = getRef(r.bibKey);
+              if (!cslItem) {
+                return (
+                  <li id={anchorId}>
+                    <code>{r.bibKey}</code>{' '}
+                    <em>(nenalezeno v references.json — spusť pnpm refs:sync)</em>
+                  </li>
+                );
+              }
+              const formatted = formatCite(r.bibKey, r.pages ? { pages: r.pages } : undefined) ?? r.bibKey;
+              return (
+                <li id={anchorId}>
+                  <span set:html={formatted} />
+                  {r.citace && (
+                    <blockquote class="slovnik-ref-citace">{r.citace}</blockquote>
+                  )}
+                  {r.note && <p class="slovnik-ref-note">{r.note}</p>}
+                </li>
+              );
+            }
+            // Fallback — citace/title only (bez Zotero záznamu)
+            if (r.title || r.citace) {
+              return (
+                <li id={anchorId}>
+                  {r.title && <strong>{r.title}</strong>}
+                  {r.pages && <span class="slovnik-ref-pages">, s. {r.pages}</span>}
+                  {r.citace && (
+                    <blockquote class="slovnik-ref-citace">{r.citace}</blockquote>
+                  )}
+                  {r.note && <p class="slovnik-ref-note">{r.note}</p>}
+                </li>
+              );
+            }
+            return null;
+          })}
+        </ol>
+      </section>
+    )}
 
     {pribuzneEntries.length > 0 && (
       <section class="slovnik-pribuzne" aria-labelledby="pribuzne-heading">
@@ -335,6 +383,61 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
      attribution slightly muted. */
   .prose-content :global(blockquote em) {
     font-style: italic;
+  }
+
+  /* Prameny a citace */
+  .slovnik-references {
+    margin: 3rem 0 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  }
+  .slovnik-references h2 {
+    font-family: var(--font-serif);
+    font-size: 0.78rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: var(--color-copper);
+    font-weight: 500;
+    margin: 0 0 1.25rem !important;
+  }
+  .slovnik-references ol {
+    margin: 0;
+    padding-left: 1.5rem;
+    counter-reset: ref-counter;
+  }
+  .slovnik-references li {
+    margin-bottom: 1rem;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: var(--color-text);
+    /* Anchor target scroll-margin pro vizuální oddech pod header */
+    scroll-margin-top: 4rem;
+  }
+  .slovnik-references li:target {
+    background: color-mix(in srgb, var(--color-brass) 12%, transparent);
+    padding: 0.5rem 0.5rem 0.5rem 0.25rem;
+    border-radius: 2px;
+    /* Highlight aktivní citace pokud klikne na [Zotero KEY] v body */
+  }
+  .slovnik-ref-citace {
+    margin: 0.5rem 0 0;
+    padding: 0.6rem 0.9rem;
+    background: color-mix(in srgb, var(--color-bg-deep) 75%, transparent);
+    border-left: 2px solid color-mix(in srgb, var(--color-copper) 50%, transparent);
+    border-radius: 0 2px 2px 0;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: var(--color-text-soft);
+    font-style: italic;
+  }
+  .slovnik-ref-note {
+    margin: 0.4rem 0 0;
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    line-height: 1.45;
+  }
+  .slovnik-ref-pages {
+    color: var(--color-text-soft);
   }
 
   /* Související hesla — cross-link cards */
