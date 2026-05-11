@@ -208,50 +208,17 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
 - [ ] **D1 Test coverage** — Vitest setup pro `scripts/*.ts`
       (parse-soupis, build-redirects, apply-popisy, migrate-renumbering),
       snapshot testy pro layouty (~3 h).
-- [ ] **R2 image variants pipeline** (~3 h, blokátor: user musí zřídit R2)
-      Cesta C zvolená 2026-05-10: AVIF/WebP varianty na Cloudflare R2,
-      JPEG zdroje zůstávají v gitu (Varianta A v zápisku z 2026-05-10).
-      Důvod: GitHub free tier doporučuje repo < 1 GB (commit ~800 MB
-      variant by zvedl repo na 1.9 GB); R2 free tier 10 GB + neomezený
-      egress přes CF.
+- [ ] **R2 image variants pipeline — V2 GitHub Action** (volitelné, ~1 h)
+      Krok 1+2 hotov 2026-05-11 (viz CHANGELOG). R2 bucket `csh-imgvariants`
+      naplněn (5684 variant, 367 MB = 4% free), `<picture>` wrap aktivní
+      v obou apps s `cdnBase: pub-e96bd8c…r2.dev`. Po DNS switch (A.9)
+      nahradit za `imgcdn.<doména>`.
 
-      **Krok 1 — User setup (čeká na Davida):**
-      - Zřídit R2 bucket `csh-imgvariants` v CF dashboardu
-      - Public access + custom domain `imgcdn.<doména>.cz`
-      - API token s R2 Edit permission
-      - Podrobný návod: viz chat 2026-05-10
-
-      **Krok 2 — Claude implementace (autonomně po setup):**
-      - [ ] `scripts/upload-imgvariants-to-r2.mjs` — sync skript přes
-        wrangler / R2 S3 API. Diff lokálně vs R2 (ETag), upload jen
-        nové. Idempotentní (skip-existing). Output: stat (uploaded,
-        skipped, errors).
-      - [ ] `package.json` workflow scripts:
-        - `imgvariants:build` — generate lokálně (existuje, jen smazat
-          CF_PAGES guard z `scripts/generate-image-formats.ts`)
-        - `imgvariants:upload` — sync na R2
-        - `imgvariants:sync` — `build && upload` (one-stop)
-      - [ ] `packages/rehype-picture/index.mjs` — extend o `cdnBase`
-        option. Pro raster `<img src="/img/X.jpg">`:
-        ```html
-        <picture>
-          <source type="image/avif" srcset="<cdnBase>/img/X.avif">
-          <source type="image/webp" srcset="<cdnBase>/img/X.webp">
-          <img src="/img/X.jpg" ...>  <!-- fallback z CF Pages -->
-        </picture>
-        ```
-      - [ ] `apps/*/astro.config.mjs` — flip `wrapInPicture: true`
-        + `cdnBase: 'https://imgcdn.<doména>.cz'`
-      - [ ] Build verify + live test přes Chrome DevTools network
-        (ověřit AVIF served pro Chrome, JPEG fallback pro Safari/IE)
-      - [ ] Doc v `docs/CHANGELOG.md` + krátký runbook
-        `docs/imgvariants-r2-pipeline.md`
-
-      **Krok 3 — Volitelné automation (V2):**
-      - [ ] GitHub Action `.github/workflows/imgvariants-r2-sync.yml` —
-        auto-trigger při push na main, kdy se změnilo
-        `apps/*/public/img/**/*.{jpg,png}`. Generuje + uploadne (žádný
-        manual step, ale ~5-10 min build per push).
+      Volitelná V2: `.github/workflows/imgvariants-r2-sync.yml` — auto-trigger
+      při push na main, kdy se změnilo `apps/*/public/img/**/*.{jpg,png}`.
+      Generuje + uploadne (žádný manual step po editaci, ale ~5-10 min build
+      per push). Zatím manuálně přes `pnpm imgvariants:sync` před push, je-li
+      potřeba.
 - [ ] **CI cleanup** — staré Cloudflare Pages preview deployments smazat
       (kvóta).
 
@@ -277,7 +244,9 @@ Až se přepne DNS (viz B.3), Claude provede:
       + `Disallow: /og-preview /og/ /podklady/`
 - [ ] `apps/horologie-cz/public/robots.txt` → vrátit `Allow: /`
       + `Disallow: /og/`
-- [ ] `astro.config.mjs` → `site: 'https://hodinarium.eu'`
+- [ ] `astro.config.mjs` → `site: 'https://hodinarium.eu'` (oba apps)
+- [ ] `astro.config.mjs` → `cdnBase` z R2 dev URL na `https://imgcdn.<doména>`
+      (oba apps) + custom domain attach v R2 dashboardu (Settings → Custom Domains)
 - [ ] Submitnout sitemapy do Google Search Console
 
 ---
