@@ -33,8 +33,14 @@ test('zidovske: ZidovskeHodiny clock assets — všechny 200', async ({ request 
 for (const c of CASES) {
   test(`${c.url} — img ${c.img} je v DOMu i 200`, async ({ page, request }) => {
     await page.goto(c.url);
-    await expect(page.locator(`img[src="${c.img}"]`).first()).toBeVisible();
+    // Po R2 pipeline (2026-05-11) je <img src> absolutní R2 URL,
+    // ne local /img/. Matchujeme přes suffix místo přesné rovnosti.
+    await expect(page.locator(`img[src$="${c.img}"]`).first()).toBeVisible();
 
+    // HEAD na local /img/ path — JPG je pořád v dist (gitignored nově až
+    // po Action git rm; existující soubory zůstávají v repo). Toto je
+    // validace, že CF Pages servíruje fallback path. Po případné mass
+    // migraci (varianta B/C v TODO) tento check upravit na R2 URL.
     const res = await request.head(c.img);
     expect(res.status(), `${c.img} musí servírovat 200`).toBe(200);
   });
