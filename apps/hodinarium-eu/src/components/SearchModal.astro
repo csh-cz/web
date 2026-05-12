@@ -27,7 +27,8 @@ const categoryLabelsForClient = Object.fromEntries(
   CATEGORIES_USED.map((c) => [c, categoryLabel(c, 'short')])
 );
 ---
-<dialog id="search-modal" aria-label="Vyhledávání" aria-modal="true">
+<dialog id="search-modal" aria-labelledby="search-modal-heading" aria-modal="true">
+  <h2 id="search-modal-heading" class="visually-hidden">Vyhledávání v Hodináriu</h2>
   <div class="search-modal-inner">
     <div class="search-input-wrap">
       <i class="fa-solid fa-magnifying-glass search-icon" aria-hidden="true"></i>
@@ -46,15 +47,15 @@ const categoryLabelsForClient = Object.fromEntries(
       <kbd class="search-kbd">esc</kbd>
     </div>
     <div class="search-mode-tabs" role="tablist" aria-label="Režim vyhledávání">
-      <button data-mode="keyword" class="search-mode-tab is-active" role="tab" aria-selected="true">
+      <button data-mode="keyword" class="search-mode-tab is-active" role="tab" aria-selected="true" aria-describedby="mode-hint-keyword" aria-controls="search-results">
         <i class="fa-solid fa-bullseye mode-icon" aria-hidden="true"></i>
         <span class="mode-label">Klíčová slova</span>
-        <span class="mode-hint">přesná shoda</span>
+        <span class="mode-hint" id="mode-hint-keyword">přesná shoda</span>
       </button>
-      <button data-mode="semantic" class="search-mode-tab" role="tab" aria-selected="false">
+      <button data-mode="semantic" class="search-mode-tab" role="tab" aria-selected="false" aria-describedby="mode-hint-semantic" aria-controls="search-results">
         <i class="fa-solid fa-wand-magic-sparkles mode-icon" aria-hidden="true"></i>
         <span class="mode-label">Sémanticky</span>
-        <span class="mode-hint">významem</span>
+        <span class="mode-hint" id="mode-hint-semantic">významem</span>
       </button>
     </div>
     <div id="search-results" class="search-results" role="listbox" aria-label="Výsledky vyhledávání" aria-live="polite">
@@ -214,6 +215,16 @@ const categoryLabelsForClient = Object.fromEntries(
     color: var(--color-text-muted);
     text-align: center;
     font-style: italic;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 
   /* Tab switcher mezi Keyword (Fuse, instant) a Semantic (server, latency).
