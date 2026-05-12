@@ -149,6 +149,7 @@ const crossRefs = z.object({
   clanky: z.array(z.string()).optional(),
   soupis: z.array(z.string()).optional(),
   slovnik: z.array(z.string()).optional(),
+  kronika: z.array(z.string()).optional(),
 });
 
 const clanky = defineCollection({
