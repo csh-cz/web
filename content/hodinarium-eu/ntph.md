@@ -1,14 +1,16 @@
 ---
-title: "Hodiny NTPH — mikropočítačem řízené hodiny vyrobené 3D tiskem se synchronizací času z internetu"
+title: Hodiny NTPH — mikropočítačem řízené hodiny vyrobené 3D tiskem se synchronizací času z internetu
 slug: ntph
-category: "projekty"
-originalUrl: "https://hodinarium.eu/NTPH.htm"
-lastModified: "Wed, 01 Oct 2025 11:22:00 GMT"
-sourceCharset: "windows-1250"
-scrapedAt: "2026-04-27T17:37:23.264Z"
+category: projekty
+tldr: Hodiny jsou vyrobeny 3D tiskem ve dvou variantách mysteriózních převodů a jsou ovládané elektronikou sestávající z modulu ESP8266 ESP-12F a motoru s řadičem 28BYJ48.…
+author: Petr Král
 manualEdit: true
-tldr: 'Hodiny jsou vyrobeny 3D tiskem ve dvou variantách a jsou ovládané elektronikou sestávající z modulu ESP8266 ESP-12F a motoru s řadičem 28BYJ48.…'
+originalUrl: https://hodinarium.eu/NTPH.htm
+lastModified: Wed, 01 Oct 2025 11:22:00 GMT
+sourceCharset: windows-1250
+scrapedAt: 2026-04-27T17:37:23.264Z
 ---
+
 ![NTPH magnetické](/img/3D/magneticke.jpg)
 
 Hodiny jsou vyrobeny 3D tiskem ve dvou variantách a jsou ovládané elektronikou sestávající z modulu ESP8266 ESP-12F a motoru s řadičem 28BYJ48. Design hodin je převzat z hodin publikovaných na internetu, SW je vlastní vývoj. Hodiny jsou napájeny 5 V adaptérem s konektorem USB mikro. Hodiny po zapnutí potřebují prvotní nastavení času buď z NTP serveru v internetu nebo nouzově přímo z mobilního telefonu. Jít mohou i bez nastavení času. Synchronizaci zajistí alespoň občasné připojení.
@@ -35,14 +37,11 @@ Hodiny jsou vyrobeny 3D tiskem ve dvou variantách a jsou ovládané elektroniko
 ### Nejprve postup bez podrobností.
 
 1. Sestavíte hodiny s nastavením ručiček na 12:00.
-
 2. Stiskněte na domácím routeru tlačítko WPS (Wi-Fi Protected Setup). Tlačítko obvykle bývá na zadní části routeru. Stav WPS obvykle trvá v intervalu 3 min a může být signalizován blikajícím symbolem dvou protiběžných šipek. WPS nemusí být z různých důvodů funkční, ať je to nastavením routeru, šifrováním, bezpečnosti, či jenom proto, že tlačítko není dostupné. Přesto postupujte podle dalších bodů s tím, že nenastane bod 5.
 3. Zapněte NTP hodiny (krátce blikne červená LED nebo současně bliká červená a malá modrá) a v uvedeném intervalu stiskněte tlačítko, které je uvnitř hodin na modulu ESP8066. Rozsvítí se červená LED a hodiny se budou snažit připojit prostřednictvím WPS protokolu. Při tom různě bliká malá modrá a červená LED.
 4. Připojování může trvat několik minut. Mějte trpělivost.
 5. Po úspěšném připojení zhasne červená a trvale svítí malá modrá. Hodiny se nastaví na čas a pokračují v chodu. Zároveň se spustí vlastní web hodin.
-
 6. Pokud se hodiny takto nepřipojí, nastaví se stav STOP. Pak můžeme zadat zvolené jméno a heslo WiFi sítě na interním webu hodin nebo používat hodiny bez NTP synchronizace. Chod hodin spustíme opětovným stiskem tlačítka na modulu. Tento stav je zapamatován i pro příští zapnutí hodin a lze ho zrušit novým připojením k WiFi.
-
 7. Pro zadání jména a hesla WiFi sítě mobilem nebo jiným zařízením s WiFi se připojte na WiFi síť hodin, která se jmenuje NTPH-xxxx, kde xxxx je rozlišení jednotlivých hodin odvozené od posledních znaků Mac adresy. (Někdy se "telefon" odmítá připojit k síti, která neposkytuje připojení k internetu. Musíte připojení povolit.)
 8. V prohlížeči zadejte http://192.168.4.1 **POZOR nezadávat https://192.168.4.1 šifrovasnou komunikaci hodiny neumí !!!**
 9. Na zobrazené stránce přejdete na volbu "Scan + WiFi" , vyberete z nabídky svůj domácí WiFi router a zadáte heslo. (Nastavený NTP server změňte jen pokud není v síti dostupný.) Po odeslání volbou "Send" hodiny opakují pokus o připojení podle nového zadání. Po připojení hodiny spustíte volbou "CHOD".
@@ -94,7 +93,7 @@ Okno zobrazuje datum a čas získaný z NTP serveru a informaci o tom, jaký je 
 
 V normálním režimu se hodiny automaticky nastavují na správný čas i po výpadku napájení. Ručně je hodiny možné nastavovat dvěma způsoby. Při stlačení tlačítka na modulu ESP8266 v době normálního chodu se začnou ručičky hodin otáčet ve směru "hodinových ručiček". V okamžiku uvolnění tlačítka se předpokládá, že hodiny ukazují aktuální čas.
 
-Pohodlnější metoda je, že do pole "Nastav \[hhmm\]" zapíšete čas, který vidíte na hodinách. Tedy ukazují-li hodiny půl třetí, zadáme 230. Vedoucí nula se nezadá; nezadává se žádný oddělovací znak mezi hodinami a minutami. Řídící jednotka pak hodiny nastaví na aktuální čas. Je vhodné, aby hodiny při zadání času byly ve stavu STOP.
+Pohodlnější metoda je, že do pole "Nastav [hhmm]" zapíšete čas, který vidíte na hodinách. Tedy ukazují-li hodiny půl třetí, zadáme 230. Vedoucí nula se nezadá; nezadává se žádný oddělovací znak mezi hodinami a minutami. Řídící jednotka pak hodiny nastaví na aktuální čas. Je vhodné, aby hodiny při zadání času byly ve stavu STOP.
 
 Při vypnutí si hodiny pamatují čas ve kterém k vypnutí došlo. Po zapnutí a získání NTP času automaticky nastaví správný čas.
 
@@ -135,19 +134,22 @@ Zelená a modrá LED blikají při aktivitě krokového motoru,
 
 ## Odstranění některých problémů
 
-1. Po startu dlouho poblikává samotná malá modrá LED. Hodiny se snaží připojit k zadané WiFi síti a nedaří se to například proto, že síť má chybně zadané heslo nebo není vůbec dostupná. Připojit hodiny na funkční WiFi nebo zadat čas ručně.
-2. Během chodu zhasla malá modrá LED, ale v minutových intervalech svítí modrá + zelená RGB LED. Hodiny po získání času ztratily připojení. Jsou schopné jít autonomně do vypnutí a případně obnovit připojení, pokud je WiFi routeru znovu funkční.
-3. Ručičky jsou mírně posunuty. Ručičky směrem vpřed posunete krátkým stlačením tlačítka nebo na webu volbou "+".
-4. Na hodinách není správný čas, ale hodiny mají aktuální čas. Větší posun je nejlépe řešit zadáním času na hodinách ve tvaru hhmm na vlastním webu hodin. Nouzově jde i znovu nasadit rafičky.
-5. Hodiny lze spustit poprvé i bez použití webového rozhraní. Připojení zajistíte tlačítky WPS. Nastavíte rafičky na přibližně správný čas a po připojení k internetu zmáčknete tlačítko tentokráte ve významu "rychlý chod". Rafičky se začnou pohybovat rychlejším pohybem, dokud držíte tlačítko.
-6. Nahrání nové verze programu. Případná nová verze bude k dispozici v přeložené formě. Pro nahrání musí být na počítači nainstalován ovladač USB CH340, modul s ESP8266 musí být umístěn v dodaném základovém modulu. ( USB konektor na desce slouží jen k napájení. )
+1. **Po startu dlouho poblikává samotná malá modrá LED.** Hodiny se snaží připojit k zadané WiFi síti a nedaří se to například proto, že síť má chybně zadané heslo nebo není vůbec dostupná. Připojit hodiny na funkční WiFi nebo zadat čas ručně.
+
+2. **Během chodu zhasla malá modrá LED, ale v minutových intervalech svítí modrá + zelená RGB LED.** Hodiny po získání času ztratily připojení. Jsou schopné jít autonomně do vypnutí a případně obnovit připojení, pokud je WiFi routeru znovu funkční.
+
+3. **Ručičky jsou mírně posunuty.** Ručičky směrem vpřed posunete krátkým stlačením tlačítka nebo na webu volbou **"+"**.
+
+4. **Na RUČIČKÁCH není správný čas, ale hodiny mají aktuální čas.** Větší posun je nejlépe řešit zadáním času na ve tvaru **hhmm** na vlastním webu hodin. Nouzově jde i znovu nasadit rafičky mechanicky.
+
+5. **Hodiny lze spustit poprvé i bez použití webového rozhraní.** Připojení zajistíte **tlačítemWPS**. Nastavíte rafičky na přibližně správný čas a po připojení k internetu zmáčknete tlačítko tentokráte ve významu **"rychlý chod"**. Rafičky se začnou pohybovat rychlejším pohybem, dokud držíte tlačítko.
+
+6. **Nahrání nové verze programu.** Případná nová verze bude k dispozici v přeložené formě. Pro nahrání musí být na počítači nainstalován ovladač USB CH340, modul s ESP8266 musí být umístěn v dodaném základovém modulu. ( USB konektor na desce slouží jen k napájení. )
 
 - **Ovladače pro převodník USB CH340**
-
 - [Pro Windows](https://dratek.cz/docs/produkty/0/142/driver_ch341ser.ZIP)
 - [Pro Linux](https://dratek.cz/docs/produkty/0/143/driver_ch341ser_linux.ZIP)
 - [Pro MAC](https://dratek.cz/docs/produkty/0/144/driver_ch341ser_mac.ZIP)
-
-- K vlastnímu nahrávání programu použijte [flash\_dowload\_tools](https://www.espressif.com/en/support/download/other-tools).
+- K vlastnímu nahrávání programu použijte [flash_dowload_tools](https://www.espressif.com/en/support/download/other-tools).
 
 Autor: [Petr Král](/hodinari/petr-kral)
