@@ -154,7 +154,10 @@ a:visited {
 }
 
 a:hover {
-  color: var(--color-paper);
+  /* `--color-brass-bright` flipuje mezi themes — v dark `#d9b274` (světlejší),
+     v light `#6e4d1d` (tmavší). Důvod: `--color-paper` (#efe3c8) byl shodný
+     s `--color-bg` v light mode → hover text neviditelný. Issue #22. */
+  color: var(--color-brass-bright);
   border-bottom-color: var(--color-brass-bright);
 }
 
@@ -625,7 +628,10 @@ summary::-webkit-details-marker { display: none; }
   color: var(--color-brass-bright);
 }
 .prose-content h2#odkazy + ul a:hover {
-  color: var(--color-paper);
+  /* Stejný issue jako globální a:hover — light theme `--color-paper` = bg.
+     Použij text-color, který má vysoký kontrast v obou themes. */
+  color: var(--color-text);
+  text-decoration: underline;
 }
 
 /* Nav search button */
