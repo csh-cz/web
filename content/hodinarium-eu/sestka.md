@@ -1,15 +1,17 @@
 ---
-title: "Hodiny sestka — hodiny z čehokoliv"
-slug: "sestka"
-category: "sbirka"
-originalUrl: "https://hodinarium.eu/sestka.htm"
-lastModified: "Wed, 26 Apr 2017 14:00:00 GMT"
-sourceCharset: "windows-1250"
-scrapedAt: "2026-04-27T17:36:56.023Z"
+title: Hodiny sestka — hodiny z čehokoliv
+slug: sestka
+category: sbirka
+tldr: ... neexistuje žádná hmota nebo věc, ze které by se nedaly udělat hodiny. ....
+author: ''
 manualEdit: true
-tldr: 'Brouzdajíce webovinou, narazili jsme na stránky www.sestka.com. Tvrdí se tam, že na světě neexistuje žádná hmota nebo věc, ze které by se nedaly udělat hodiny. A namouduši — jde to. To si určitě nenechte ujít.…'
+originalUrl: https://hodinarium.eu/sestka.htm
+lastModified: Wed, 26 Apr 2017 14:00:00 GMT
+sourceCharset: windows-1250
+scrapedAt: 2026-04-27T17:36:56.023Z
 ---
-Brouzdajíce webovinou, narazili jsme na stránky **[www.sestka.com](http://www.sestka.com/)**. Tvrdí se tam, že na světě neexistuje žádná hmota nebo věc, ze které by se nedaly udělat hodiny. A namouduši — jde to. To si určitě nenechte ujít. Pěkně v klidu si hodiny vychutnejte. Máte snad málo času? Tak ho přece zastavte…
+
+Brouzdajíce webovinou, narazili jsme na stránky [**www.sestka.com**](http://www.sestka.com/). Tvrdí se tam, že na světě neexistuje žádná hmota nebo věc, ze které by se nedaly udělat hodiny. A namouduši — jde to. To si určitě nenechte ujít. Pěkně v klidu si hodiny vychutnejte. Máte snad málo času? Tak ho přece zastavte…
 
 <div class="article-gallery">
   <a href="/img/ujete/sestka1.jpg"><img src="/img/ujete/sestka1.jpg" alt="Hodiny ze sirek" loading="lazy" /></a>
