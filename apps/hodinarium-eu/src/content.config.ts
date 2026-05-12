@@ -110,6 +110,47 @@ const workflow = z.object({
   notes: z.string().optional(),
 });
 
+/**
+ * Křížové odkazy — strukturované refs na entries z dalších collections.
+ *
+ * Sjednocený tvar napříč 6 collections (clanky/karty, hodinari, kroky,
+ * soupis, slovnik, kronika). Editor deklaruje *forward* refs ve frontmatteru;
+ * *reverse* refs (co tento entry zpětně referuje) se počítají build-time
+ * pomocí `pnpm refs:cross` → `data/cross-ref-reverse.json`.
+ *
+ * Rendering pipeline:
+ *   1. Auto-inline první zmínku každého targetu v body textu (rehype plugin,
+ *      respektuje word boundary + title/alias match)
+ *   2. <CrossRefs> komponenta zobrazí kompletní seznam pod body (sekce
+ *      "SOUVISÍ S")
+ *   3. <ReverseRefs> komponenta zobrazí reverse map (sekce "POUŽITO V")
+ *      jen u entries, které jsou typicky cíli (kroky, hodinari, slovnik)
+ *
+ * Slugy jsou vždy z příslušné cílové collection:
+ *   - kroky[]    → content/kroky/<slug>.md{,x}
+ *   - hodinari[] → content/hodinari/<slug>.md{,x} (medailony)
+ *   - karty[]    → content/hodinarium-eu/<slug>.md{,x} s podsekce='karta'
+ *   - clanky[]   → content/hodinarium-eu/<slug>.md{,x} s podsekce='clanek'
+ *   - soupis[]   → content/soupis-veznich-hodin/<slug>.md{,x}
+ *   - slovnik[]  → content/slovnik/<slug>.md{,x}
+ *
+ * Validation strict: PBI X.10 — build fail pokud target slug neexistuje.
+ * Současně optional (per pole i celá `crossRefs`) — žádný hard requirement.
+ *
+ * Vztah k single-value relacím (karta.vyrobce, soupis.hodinar, soupis.krok):
+ * primární semantic relace zůstávají single fields (přímý autor/mechanism).
+ * crossRefs.<typ> je pro *další* (sekundární) vztahy — restaurátoři, učitelé,
+ * souviseji exponáty, sesterské články, slovník-termíny.
+ */
+const crossRefs = z.object({
+  kroky: z.array(z.string()).optional(),
+  hodinari: z.array(z.string()).optional(),
+  karty: z.array(z.string()).optional(),
+  clanky: z.array(z.string()).optional(),
+  soupis: z.array(z.string()).optional(),
+  slovnik: z.array(z.string()).optional(),
+});
+
 const clanky = defineCollection({
   loader: glob({
     base: '../../content/hodinarium-eu',
@@ -169,6 +210,9 @@ const clanky = defineCollection({
     /** Editorial workflow status (PBI A.23) — opt-in tracking
         rozpracovaných článků s lock/review/release flow. */
     workflow: workflow.optional(),
+
+    /** Křížové odkazy na entries z dalších collections (PBI X.1). */
+    crossRefs: crossRefs.optional(),
     /** True = článek/karta je stub — frontmatter i body čekají na editorovu
         práci. Veřejně se zobrazuje jen základní info; editor v /redakce/
         dashboard vidí seznam stubů napříč collections. */
@@ -340,6 +384,9 @@ const hodinariMedailony = defineCollection({
     editorNotes: z.array(editorNote).optional(),
     /** Editorial workflow status (PBI A.23). */
     workflow: workflow.optional(),
+
+    /** Křížové odkazy na entries z dalších collections (PBI X.1). */
+    crossRefs: crossRefs.optional(),
     /** Skrytá synonyma pro vyhledávání — viz dokumentace u clanky.searchKeywords.
      *  Pro medailony hodinářů typicky alternativní pravopisy jména (Maresch /
      *  Mareš), zkratky firem, lokality kde hodinář pracoval a které lidé znají. */
@@ -387,6 +434,9 @@ const kronika = defineCollection({
     editorNotes: z.array(editorNote).optional(),
     /** Editorial workflow status (PBI A.23). */
     workflow: workflow.optional(),
+
+    /** Křížové odkazy na entries z dalších collections (PBI X.1). */
+    crossRefs: crossRefs.optional(),
     /** Pro legacy import z hodinarium.eu (zachováme původní URL). */
     originalUrl: z.string().url().optional(),
   }),
@@ -534,6 +584,9 @@ const soupisVeznichHodin = defineCollection({
     /** Editorial workflow status (PBI A.23). */
     workflow: workflow.optional(),
 
+    /** Křížové odkazy na entries z dalších collections (PBI X.1). */
+    crossRefs: crossRefs.optional(),
+
     /** True = záznam je stub — minimální data (typicky bulk import z
         Hellichova seznamu nebo z OSM-import), čeká na manuální dopnění
         budovy / roku / krok / restaurátor / fotky. Editor v /redakce/
@@ -579,6 +632,9 @@ const krokyDetaily = defineCollection({
     editorNotes: z.array(editorNote).optional(),
     /** Editorial workflow status (PBI A.23). */
     workflow: workflow.optional(),
+
+    /** Křížové odkazy na entries z dalších collections (PBI X.1). */
+    crossRefs: crossRefs.optional(),
   }),
 });
 
@@ -666,6 +722,9 @@ const slovnik = defineCollection({
 
     /** Editorial workflow status (PBI A.23). */
     workflow: workflow.optional(),
+
+    /** Křížové odkazy na entries z dalších collections (PBI X.1). */
+    crossRefs: crossRefs.optional(),
 
     /** Datum poslední revize hesla (kdy byly citace ověřeny v pramenech). */
     poslednRevize: dateString.optional(),
