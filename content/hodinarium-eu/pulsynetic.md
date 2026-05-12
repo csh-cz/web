@@ -1,17 +1,19 @@
 ---
-title: "Pulsynetic - neobvyklá řešení"
-slug: "pulsynetic"
-category: "konstrukce"
+title: Pulsynetic - neobvyklá řešení
+slug: pulsynetic
+category: konstrukce
+tldr: ''
+author: ''
 tags:
   - pulsynetic
   - synchronni
   - elektromagneticke
-originalUrl: "https://hodinarium.eu/pulsynetic.htm"
-lastModified: "Sat, 11 Jun 2022 09:27:00 GMT"
-sourceCharset: "windows-1250"
-scrapedAt: "2026-04-27T17:36:42.058Z"
-tldr: '![Pulsynetic 1935](/img/elektrika/pulsynetic/p1959_3.jpg)'
+originalUrl: https://hodinarium.eu/pulsynetic.htm
+lastModified: Sat, 11 Jun 2022 09:27:00 GMT
+sourceCharset: windows-1250
+scrapedAt: 2026-04-27T17:36:42.058Z
 ---
+
 [![Pulsynetic 1935](/img/elektrika/pulsynetic/p1959_3_m.jpg)](/img/elektrika/pulsynetic/p1959_3.jpg)
 
 Expozice Hodinária bude rozšířená o mateční hodiny z produkce firmy Gent & Co ze série označované jako PUL-SYN-ETIC. Konkrétně jde o "Gents C7 Pulsynetic master clock". Informace na této stránce se opírají jednak o vlastní zkušenosti s rekonstrukcí torza tohoto stroje a jednak o zdroje uvedené v části odkazy. Najdete tam mnoho netradičních řešení jako je řízení doby kyvu [kyvadla](/slovnik/kyvadlo) elektromagnetickým vkládáním závažíčka na misku kyvadla, zvonek signalizující slabou baterii a zejména legendární věžní stroj Waiting Train.
@@ -66,7 +68,7 @@ Mnohé věžní stroje byly dodatečně upravovány pro řízení elektrickými 
 
 Rafie hodin přes [šnekový](/slovnik/snek) převod a rohatku postrkuje těžké kyvadlo. Kývá poněkud rychleji, než by bylo potřeba pro chod normálních hodin. Rafie se například za 27 sekund pootočí o půl minuty. Po dosažení této polohy je páka zabírající do rohatky kolíkem nadzvednuta a v této poloze je držena elektromagnetickou západkou. Kolík se stihl posunout ze záběru, takže ručkové [soukolí](/slovnik/soukoli) čeká na uvolnění elektrickým impulzem. Odtud název Waiting train, tedy asi vyčkávací soukolí. Po uplynutí 30. sekund elektromagnet vlevo uvolní blokovací páku a kyvadlo začne znovu posunovat rohatku a tím také rafie hodin.
 
-Kyvadlo kývá většinou volně. Když jeho amplituda kyvů poklesne, "**[Hippův](/kroky/hippuv-prerusovac)** kolíček" na kyvadle se vzepře v zářezu na horním kontaktu a dojde pohybem kyvadla k razantnímu sepnutí proudu do elektromagnetu vpravo. Silový elektromagnet přitáhne a udělí tak kyvadlu další energii.
+Kyvadlo kývá většinou volně. Když jeho amplituda kyvů poklesne, "[**Hippův**](/kroky/hippuv-prerusovac) kolíček" na kyvadle se vzepře v zářezu na horním kontaktu a dojde pohybem kyvadla k razantnímu sepnutí proudu do elektromagnetu vpravo. Silový elektromagnet přitáhne a udělí tak kyvadlu další energii.
 
 Na fotografiích vpravo jsou dva základní detaily: "vyčkávací" soukolí a Hippův kontakt spínání elektromagnetu pohonu.
 
@@ -77,7 +79,6 @@ O tomto neobvyklém stroji existuje od roku 2008 [blog](http://waitingtrain.blog
 ### Odkazy
 
 - Nejpodrobnější stránka co jsme o řadě Pulsynetic našli - [pulsynetic.eu](http://pulsynetic.eu/) uvádí mnohem širší záběr výrobků Gents.
-- Electric masters - stránka pojednávající o mnoha systémech matečních hodin (Synchronome, Gents PUL-SYN-ETIC, Gensing, Post Office 36, Carl Bohmeier, Burk Master Clock, General Tele's Ltd a různé podružné hodiny a programátory impulsů)
 - Videa na Youtube. Například [zde](https://www.youtube.com/watch?v=OhAOsCUvkfo), [zde](https://www.youtube.com/watch?v=kAEyjUT0vL4) a [zde](https://www.youtube.com/watch?v=6Rba4Il6gcg). [Video WT](https://www.youtube.com/watch?v=VwSTKJxhaa4&feature=youtu.be)
 - [Video sekundového podružného stroje Gents](https://www.youtube.com/watch?v=kJ6h7yOsQT4&t=19s)
 - [Blog obdivovatelů Pulsynetic](http://waitingtrain.blogspot.cz/)
