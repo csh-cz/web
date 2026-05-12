@@ -668,17 +668,24 @@ const categoryLabelsForClient = Object.fromEntries(
     }
   });
 
+  // Element který měl focus při otevření modal — pro restore při close.
+  // (Native dialog.showModal() trap focus uvnitř, ale focus restore závisí
+  //  na tom, jestli openModal byl invoked klávesou — tady defenzivně tracky.)
+  let openTrigger = null;
+
   // Otevřít modal: Cmd/Ctrl+K, /, klik na trigger
   function openModal() {
-    if (!dialog.open) dialog.showModal();
+    if (!dialog.open) {
+      openTrigger = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+      dialog.showModal();
+    }
     setTimeout(() => input.focus(), 30);
   }
   function closeModal() {
     if (dialog.open) dialog.close();
-    input.value = '';
-    activeIdx = -1;
-    lastResults = [];
-    render('', []);
+    // Cleanup (input clear, activeIdx reset, focus restore) probíhá v
+    // dialog 'close' event listeneru — sjednocený code path pro všechny
+    // close paths (esc, klik mimo, klik na výsledek, programatic).
   }
 
   document.addEventListener('keydown', (e) => {
@@ -688,9 +695,35 @@ const categoryLabelsForClient = Object.fromEntries(
     } else if (e.key === '/' && document.activeElement?.tagName !== 'INPUT' && document.activeElement?.tagName !== 'TEXTAREA') {
       e.preventDefault();
       openModal();
-    } else if (e.key === 'Escape' && dialog.open) {
-      closeModal();
     }
+  });
+
+  // Two-stage escape: native dialog `cancel` event firne na Escape.
+  // Pokud má input query, první esc ji vyčistí (cancel preventDefault → dialog
+  // zůstane otevřený); druhý esc už projde k close. Pattern: cmdk / Algolia DocSearch.
+  dialog.addEventListener('cancel', (e) => {
+    if (input.value.length > 0) {
+      e.preventDefault();
+      input.value = '';
+      activeIdx = -1;
+      lastResults = [];
+      render('', []);
+      input.focus();
+    }
+    // Else: nech native close, ale provede customCleanup přes 'close' event below
+  });
+
+  // Native `close` event firne když dialog se zavře (ESC bez preventDefault,
+  // dialog.close(), nebo programatic). Custom cleanup tady → restoreFocus.
+  dialog.addEventListener('close', () => {
+    input.value = '';
+    activeIdx = -1;
+    lastResults = [];
+    render('', []);
+    if (openTrigger && document.contains(openTrigger)) {
+      openTrigger.focus();
+    }
+    openTrigger = null;
   });
 
   // Triggery (data-search-trigger v navu)
