@@ -1,35 +1,37 @@
 ---
-title: "Instalované NTP servery"
-slug: "decin-ntp"
-category: "sbirka"
-originalUrl: "https://hodinarium.eu/decin_NTP.htm"
-lastModified: "Mon, 20 Mar 2023 10:16:00 GMT"
-sourceCharset: "windows-1250"
-scrapedAt: "2026-04-27T17:36:29.360Z"
-ogImage: "/img/elektrika/Bodet/Profil930NTP.png"
+title: Instalované NTP servery
+slug: decin-ntp
+category: sbirka
+tldr: Skoro veškerá výpočetní technika používá k synchronizaci času družicový systému  GPS většinou zprostředkovaný sítí NTP serverů internetu. V Hodináriuriu je na panelu č.5 vlastní GPS-NTP server stratum 1 a několik připojených NTP serverů.
+author: Petr Král
+ogImage: /img/elektrika/Bodet/Profil930NTP.png
 relatedKarty:
   - inv-125-podruzne-hodiny-mobatime
-tldr: 'Synchronizace hodin jednotného času se dělala nejčastěji vysíláním polarizovaných minutových impulzů po dvoudrátovém rozvodu od matečních hodin k hodinám podružným.…'
+originalUrl: https://hodinarium.eu/decin_NTP.htm
+lastModified: Mon, 20 Mar 2023 10:16:00 GMT
+sourceCharset: windows-1250
+scrapedAt: 2026-04-27T17:36:29.360Z
 ---
-![Bodet Profil 930 NTP — analogové podružné hodiny](/img/elektrika/Bodet/Profil930NTP.png)
+
+![Schema použití NTP serveru na panelu č. 5](/img/elektrika/NTP/NTPschema2.jpg)
 
 ![Logo Bodet](/img/elektrika/Bodet/logo_bodet.png)
 
 Synchronizace hodin jednotného času se dělala nejčastěji vysíláním polarizovaných minutových impulzů po dvoudrátovém rozvodu od matečních hodin k hodinám podružným. Méně často se používaly impulzy půlminutové ([Brillie](/clanky/brillie)), stejnosměrné impulzy, impulzy po tří drátu ([IBM](/sbirka/decin-regulace-ibm)) a další systémy. V druhé polovině 19. století se používal i [stlačený vzduch](/clanky/pneumatika2). V současné době se pro řízení hodin používá kompletní časová informace například po lince [MOBAline](/clanky/mobatime). Nejmodernějším způsobem šíření časového signálu po vlastním vedením je síť LAN - Ethernet nebo WiFi. (Více také na stránce [synchronizace](/konstrukce/synchronizace-hodin).)
 
-V Hodináriu je tato technologie zastoupena podružnými hodinami Bodet (Profil 930 NTP), jednoduchým NTP serverem na bázi MikroTiku, GPS NTP serverem a NTP serverem s demonstračním monitorem chodu dle našeho návrhu. Hodiny očekávají, že po LAN síti, do které jsou připojeny, přicházejí NTP pakety (Broadcast) směřující na adresu z rozsahu adres 239.192.54.xx. Kde xx je nastavitelné DIP přepínači na hodinách v rozsahu 1 - 15. DIP přepínači na hodinách je rovněž nastavitelné časové pásmo. Rozsah IP adres od 224.0.0.0 do 239.255.255.255 patří mezi tzv. speciální adresy a je zařazen do třídy D. Tato třída je většinou využívána pro hromadné vysílání videa nebo audia. Podstatné je, že NTP server musí být ve stejném segmentu sítě. Po LAN kabelu jsou hodiny i napájeny napětím 48 V ze switche. [Další informace například zde](https://static.bodet-time.com/images/stories/Pdfs/EN/Manuals/Distribution/606547D%20NTP%20AFNOR%20interface%20instructions.pdf).
+V Hodináriu je tato technologie zastoupena NTP podružnými hodinami Bodet (Profil 930 NTP), jednoduchým NTP serverem na bázi MikroTiku, GPS NTP serverem a NTP serverem s demonstračním monitorem chodu dle našeho návrhu. Hodiny  Bodet očekávají, že po LAN síti, do které jsou připojeny, přicházejí NTP pakety (Broadcast) směřující na adresu z rozsahu adres 239.192.54.xx. Kde xx je nastavitelné DIP přepínači na hodinách v rozsahu 1 - 15. DIP přepínači na hodinách je rovněž nastavitelné časové pásmo. Rozsah IP adres od 224.0.0.0 do 239.255.255.255 patří mezi tzv. speciální adresy a je zařazen do třídy D. Tato třída je většinou využívána pro hromadné vysílání videa nebo audia. Podstatné je, že NTP server musí být ve stejném segmentu sítě. Po LAN kabelu jsou hodiny i napájeny napětím 48 V ze switche. [Další informace například zde](https://static.bodet-time.com/images/stories/Pdfs/EN/Manuals/Distribution/606547D%20NTP%20AFNOR%20interface%20instructions.pdf).
 
 Po připojení napětí hodiny zaujmou klidovou polohu (12:00, 4:00 nebo 8:00 hodin) a vyčkávají na příchod několika NTP paketů s časovou informací. Poté se nastaví na požadovaný čas. To může trvat několik minut. Hodiny mají dva motory. Samostatně se nastavuje sekundová ručička, je tedy obvykle nastavena jako první a současně se nastavují minuty a hodiny. Podrobný popis vystavovaného exempláře můžete najít v [manuálu](/download/NTP/Analogue_clocks_Profil930-940NTPSlaveClockInstructions.pdf). Bez NTP signálu jdou hodiny autonomně 24 hodin, pak se nastaví do polohy 12:00.
 
-![schema použití NTP v Hodináriu](/img/elektrika/NTP/NTPschema2.jpg)
+![](/img/elektrika/Bodet/Profil930NTP.png)
 
 K hodinám samozřejmě firma Bodet a mnoho jiných nabízí profesionální síťové hlavní hodiny či NTP časové servery. Pro použití v sítích nepřipojených do Internetu jsou tyto servery synchronizovány signálem DCF 77 nebo nyní spíše GPS. Jako obvyklá přesnost nastavení času se uvádí hodnota lepší než +- 0,5 ms. Tato přesnost je vyvážena relativně vyšší cenou. Servery jsou v ceně již od 15.000.- Kč, avšak obvykle je cena mnoho desítek tisíc Kč.
 
-Pro instalaci v Hodináriu jsme naopak hledali řešení co nejlevnější a nejsnáze realizovatelné i za cenu případného částečného snížení přesnosti. Výstup NTP serveru bude zobrazován pouze ručkovými hodinami, tak se spokojíme i s přesností +- 1 sec. Instalovaná řešení jsou však i tak přesnější. Jak vidíte na animaci, ani digitálně zobrazovaný čas v milisekundách není přímo pro člověka použitelný. (Aby to počítač stíhal, obnovuje se zde zobrazení přibližně jen jednou za 10 ms.)
+Pro instalaci v Hodináriu jsme naopak hledali řešení co nejlevnější a nejsnáze realizovatelné i za cenu případného částečného snížení přesnosti. Výstup NTP serveru bude zobrazován pouze ručkovými hodinami, tak se spokojíme i s přesností +- 1 sec. Instalovaná řešení jsou však i tak přesnější.
 
 Použité hodiny Bodet potřebují "trvale" vysílaný časový signál NTP serveru (Broadcast). V expozici zatím pouze NTP server na bázi MikroTiku takovou informaci vysílá, proto jsou hodiny synchronizovány z něho. Pro vlastní synchronizaci může Mikrotik použít internet i místní GPS NTP server. Má tedy dvě nezávislé cesty k získání přesného času a je tak odolný vůči případným výpadkům. Bez NTP signálu jdou hodiny Bodet většinou nějakou dobu autonomně.
 
-Do sestavy je také připojen i [NTP to DCF simulátor](https://papouch.com/dcf-simulator-generator-signalu-dcf77-p2685/) firmy Papouch store s.r.o. pro řízení [elektromagnetických sedmisegmentových displejů](/projekty/elektromagneticke-segmenty) zobrazujících internet Swatch time. DCF simulátor umí v úrovních TTL generovat stejný sled pulzů, jako vysílá DCF 77. Hlavní výhodou je podstatně vyšší spolehlivost díky nezávislosti na kvalitě bezdrátového signálu. Alternativně místo přijímače DCF můžeme použít i [konvertorem GPS-DCF dle GR projektu](http://www.grother.de/gps-to-dcf77-module.html). Výhodou je, že v půdním prostoru se snáze přijímá GPS signál a také, že tento konvertor má poměrně dobré vnitřní hodiny a drží dlouho čas i bez signálu.
+Do sestavy je také připojen i [NTP to DCF simulátor](https://papouch.com/dcf-simulator-generator-signalu-dcf77-p2685/) firmy Papouch store s.r.o. zde použit pro řízení [elektromagnetických sedmisegmentových displejů](/projekty/elektromagneticke-segmenty) zobrazujících internet Swatch time. DCF simulátor umí v úrovních TTL generovat stejný sled pulzů, jako vysílá DCF 77. Hlavní výhodou je podstatně vyšší spolehlivost díky nezávislosti na kvalitě bezdrátového signálu. Alternativně místo přijímače DCF můžeme použít i [konvertorem GPS-DCF dle GR projektu](http://www.grother.de/gps-to-dcf77-module.html). Výhodou je, že v půdním prostoru se snáze přijímá GPS signál a také, že tento konvertor má poměrně dobré vnitřní hodiny a drží dlouho čas i bez signálu.
 
 ## MikroTik jako NTP server v režimu Broadcast
 
@@ -80,8 +82,11 @@ Seznam používaných vstupních NTP serverů kromě pps.hodinarium je zadán ja
 
 Je otázka, jak (ne)přesný NTP server na starším 32 bitové notebooku s Lubuntu vznikl. Z fotografie obrazovky lze usoudit, že čas poskytovaný vybraným serverem je stabilní v rozsahu desítek mikrosekund. Použitý GPS NTP server dle firemních údajů poskytuje NTP čas s přesností 0.5 až 2 ms. Pokud by byla k dispozici pouze WiFi síť internetu, bude přesnost horší. Obecně lze říci, že časová přesnost, kterou můžete na straně klienta získat, závisí nejen na přesnosti dostupného zdroje referenčního času, ale také na řadě předpokladů na straně klienta. Na operačním systému (Windows, Linux, ...) a jeho konkrétní verzi, typ CPU (dobrá podpora TSC, nebo ne), čipová sada na základní desce a kvalita oscilátoru na základní desce, která určuje obecnou stabilitu systémového času. Kromě toho existují hardwarová omezení zavedená konceptem sběrnic systému, např. PCI nebo USB, latence přerušení atd. S problematikou se můžete více seznámit na stránkách firmy [MEINBERG](https://kb.meinbergglobal.com/kb/time_sync/start) konkrétně na stránce [o přesnosti synchronizace](https://kb.meinbergglobal.com/kb/time_sync/time_synchronization_accuracy_with_ntp).
 
-## Odkazy
+Nejnovějším NTP serverem Hodinária je Chrony server běžíci na monitorovacím Raspberry za panelem. Za normálního stavu by měl být synchronizován od místního GPS-NTP serveru s názvem Hodinarium. Prohlédnou si můžete údaje o dosažené přesnosti času na tomto [odkazu](https://proxy.hodinarium2.eu/chrony2.php). 
 
+Odkazy
+
+- [Chrony server v Hodinariu](https://proxy.hodinarium2.eu/chrony2.php)
 - [Wikipedii](https://cs.wikipedia.org/wiki/GPS) — cs.wikipedia.org. [cit. 2026-04-28]
 - [Přesnost atomových hodin, GPS a teorie relativity](https://www.osel.cz/3225-presnost-atomovych-hodin-gps-a-teorie-relativity.html) — osel.cz. [cit. 2026-04-28]
 - [www.gpsntp.com](http://www.gpsntp.com/) — gpsntp.com. [cit. 2026-04-28]
