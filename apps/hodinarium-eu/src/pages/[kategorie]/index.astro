@@ -58,7 +58,6 @@ const ikonaSvg: Record<string, string> = {
           <a href={d.href} class="doplnek-link" target={d.href.startsWith('http') ? '_blank' : undefined} rel={d.href.startsWith('http') ? 'noopener' : undefined}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20" set:html={ikonaSvg[d.ikona]} aria-hidden="true" />
             <span>{d.jmeno}</span>
-            {d.href.startsWith('http') && <span class="text-sm" aria-hidden="true">↗</span>}
           </a>
         ))}
       </div>

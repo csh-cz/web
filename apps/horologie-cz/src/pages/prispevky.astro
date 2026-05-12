@@ -98,7 +98,7 @@ const statusLabels: Record<Prispevek['status'], string> = {
             {p.prilohy.map((pr) => (
               <li>
                 <a href={pr.href} target={pr.href.startsWith('http') ? '_blank' : undefined} rel={pr.href.startsWith('http') ? 'noopener' : undefined}>
-                  {pr.jmeno}{pr.href.startsWith('http') ? ' ↗' : ''}
+                  {pr.jmeno}
                 </a>
               </li>
             ))}

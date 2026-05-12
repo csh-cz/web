@@ -149,7 +149,7 @@ for (const p of items) {
                 {linkMap[p.name] ? (
                   <a href={linkMap[p.name]} class="link-bare"><strong>{p.name}</strong></a>
                 ) : ext ? (
-                  <a href={ext} target="_blank" rel="noopener" class="link-bare"><strong>{p.name}</strong> <span class="placemark-ext">↗</span></a>
+                  <a href={ext} target="_blank" rel="noopener" class="link-bare"><strong>{p.name}</strong></a>
                 ) : (
                   <strong>{p.name}</strong>
                 )}
@@ -431,7 +431,7 @@ for (const p of items) {
     if (internalLink) {
       nameHtml = `<a href="${internalLink}">${p.name}</a>`;
     } else if (externalUrl) {
-      nameHtml = `<a href="${externalUrl}" target="_blank" rel="noopener">${p.name} <span class="popup-ext">↗</span></a>`;
+      nameHtml = `<a href="${externalUrl}" target="_blank" rel="noopener">${p.name}</a>`;
     } else {
       nameHtml = p.name;
     }
@@ -445,7 +445,7 @@ for (const p of items) {
     }
     // Pokud máme interní link AND externí URL existuje, ukážeme ji jako sekundární
     if (internalLink && externalUrl) {
-      html += `<a class="popup-link" href="${externalUrl}" target="_blank" rel="noopener">Externí web ↗</a>`;
+      html += `<a class="popup-link" href="${externalUrl}" target="_blank" rel="noopener">Externí web</a>`;
     }
 
     const marker = L.marker([p.coords.lat, p.coords.lng], { icon, title: p.name })
