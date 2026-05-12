@@ -554,35 +554,59 @@ const categoryLabelsForClient = Object.fromEntries(
     }
   });
 
-  // Tab switching
+  function activateTab(targetMode, refocusInput = true) {
+    if (targetMode === mode) return;
+    mode = targetMode;
+    tabs.forEach((t) => {
+      const active = t.getAttribute('data-mode') === mode;
+      t.classList.toggle('is-active', active);
+      t.setAttribute('aria-selected', active ? 'true' : 'false');
+      t.setAttribute('tabindex', active ? '0' : '-1');
+    });
+    // Refresh: pokud má input query, znovu spusť v novém režimu.
+    const q = input.value.trim();
+    activeIdx = -1;
+    lastResults = [];
+    if (q.length >= 2) {
+      if (mode === 'semantic') {
+        runSemantic(q);
+      } else {
+        ensureFuse().then((f) => {
+          const items = f.search(q).map(mapFuseResult);
+          activeIdx = items.length > 0 ? 0 : -1;
+          render(q, items);
+        });
+      }
+    } else {
+      render('', []);
+    }
+    if (refocusInput) input.focus();
+  }
+
+  // Inicialní roving tabindex — aktivní tab má tabindex=0, inactive -1
+  tabs.forEach((t) => {
+    t.setAttribute('tabindex', t.classList.contains('is-active') ? '0' : '-1');
+  });
+
+  // Tab switching (klik)
   tabs.forEach((tab) => {
     tab.addEventListener('click', () => {
-      const newMode = tab.getAttribute('data-mode');
-      if (newMode === mode) return;
-      mode = newMode;
-      tabs.forEach((t) => {
-        const active = t.getAttribute('data-mode') === mode;
-        t.classList.toggle('is-active', active);
-        t.setAttribute('aria-selected', active ? 'true' : 'false');
-      });
-      // Refresh: pokud má input query, znovu spusť v novém režimu.
-      const q = input.value.trim();
-      activeIdx = -1;
-      lastResults = [];
-      if (q.length >= 2) {
-        if (mode === 'semantic') {
-          runSemantic(q);
-        } else {
-          ensureFuse().then((f) => {
-            const items = f.search(q).map(mapFuseResult);
-            activeIdx = items.length > 0 ? 0 : -1;
-            render(q, items);
-          });
-        }
-      } else {
-        render('', []);
-      }
-      input.focus();
+      activateTab(tab.getAttribute('data-mode'));
+    });
+    // ARIA tablist klávesy: Arrow Left/Right cyklí mezi taby + Home/End
+    tab.addEventListener('keydown', (e) => {
+      const list = [...tabs];
+      const idx = list.indexOf(tab);
+      let nextIdx = -1;
+      if (e.key === 'ArrowRight') nextIdx = (idx + 1) % list.length;
+      else if (e.key === 'ArrowLeft') nextIdx = (idx - 1 + list.length) % list.length;
+      else if (e.key === 'Home') nextIdx = 0;
+      else if (e.key === 'End') nextIdx = list.length - 1;
+      else return;
+      e.preventDefault();
+      const nextTab = list[nextIdx];
+      activateTab(nextTab.getAttribute('data-mode'), false);
+      nextTab.focus();
     });
   });
 
