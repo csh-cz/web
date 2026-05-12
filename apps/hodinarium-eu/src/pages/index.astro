@@ -2,16 +2,19 @@
 import Base from "../layouts/Base.astro";
 import Card from "../components/Card.astro";
 import catalog from '../data/catalog.json';
+import featuredSlugs from '../data/featured.json';
 import { clanekHref } from '../data/url-helpers';
 
 import type { CatalogEntry as Entry } from '../data/catalog-types';
 const entries: Entry[] = catalog as Entry[];
 
-// Featured: ručně vybrané 4 nejcennější/nejvizuálnější
-const featuredSlugs = ['astro2_NTP', 'sobeslav3', 'svarcvaldky', 'decin_koncepce'];
 const featured = featuredSlugs
   .map((s) => entries.find((e) => e.slug === s))
   .filter((e): e is Entry => Boolean(e));
+const missingFeatured = featuredSlugs.filter((s) => !entries.some((e) => e.slug === s));
+if (missingFeatured.length) {
+  console.warn(`[index.astro] featured.json slugy bez záznamu v catalog.json: ${missingFeatured.join(', ')}`);
+}
 
 // Náhodné z atlasu (4) — pro inspiraci
 const browsable = entries
@@ -27,9 +30,13 @@ const withImages = entries.filter((e) => e.thumbnail).length;
     <div class="hero-grid">
       <div>
         <p class="eyebrow mb-5">Český spolek horologický</p>
-        <h1 class="hero-title mb-6">
+        <h1 class="hero-title mb-4">
           Hodinárium
         </h1>
+        <p class="hero-subtitle mb-6">
+          Webová expozice Českého spolku horologického — sbírka v&nbsp;Děčíně,
+          sesterský <a href="https://orloj.eu">orloj.eu</a> pro&nbsp;pražský orloj.
+        </p>
         <p class="hero-lede mb-8">
           Sbírka, expozice a projekty obdivovatelů hodinařiny —
           od&nbsp;věžních strojů 15.&nbsp;století přes&nbsp;švarcvaldky
@@ -38,6 +45,7 @@ const withImages = entries.filter((e) => e.thumbnail).length;
         <div class="hero-cta">
           <a href="/sbirka" class="btn-primary">Procházet sbírku</a>
           <a href="/mapa-horologie" class="btn-secondary">Mapa horologie →</a>
+          <a href="/pro-navstevniky" class="btn-text">Naplánuj návštěvu →</a>
         </div>
       </div>
     </div>
@@ -179,6 +187,19 @@ const withImages = entries.filter((e) => e.thumbnail).length;
     }
   }
 
+  .hero-subtitle {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    line-height: 1.5;
+    color: var(--color-text-soft);
+    max-width: 42ch;
+    font-style: italic;
+  }
+
+  .hero-subtitle a {
+    color: var(--color-brass-bright);
+  }
+
   .hero-lede {
     font-size: 1.25rem;
     line-height: 1.55;
@@ -228,6 +249,20 @@ const withImages = entries.filter((e) => e.thumbnail).length;
   .btn-secondary:hover {
     border-color: var(--color-brass);
     background: var(--color-bg-deep);
+  }
+
+  .btn-text {
+    font-family: var(--font-serif);
+    padding: 0.7rem 0.6rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-bottom: none !important;
+    color: var(--color-text-soft);
+    transition: color 150ms ease;
+  }
+
+  .btn-text:hover {
+    color: var(--color-brass-bright);
   }
 
   /* Stats */
