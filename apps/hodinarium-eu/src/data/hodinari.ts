@@ -1699,6 +1699,71 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: [],
     era: 'soucasnost',
   },
+  {
+    slug: 'frantisek-lang',
+    jmeno: 'František Lang',
+    aliasy: ['František Lang', 'F. Lang', 'Frantz Lang', 'Frantz Lans(g?)'],
+    typ: 'osoba',
+    obdobi: 'kolem 1700–po 1734',
+    mesto: 'Uherský Brod',
+    zeme: 'CZ',
+    shrnuti:
+      'Hodinář švýcarského původu (Luzern) působící od počátku 18. století v Uherském Brodě. Autor radničních hodin v Uherském Brodě s pohyblivou postavou Černého Janka (cca 1715). V roce 1734 vytvořil stroj věžních hodin pro radnici v Uherském Hradišti (dnes ve sbírce VMO).',
+    relatedSlugs: [],
+    era: 'baroko',
+  },
+  {
+    slug: 'martin-vogt',
+    jmeno: 'Martin Vogt',
+    aliasy: ['Martin Vogt', 'M. Vogt', 'Martinvs Vogt', 'Marttinus Vogt'],
+    typ: 'osoba',
+    obdobi: 'kolem 1700–28. 4. 1745',
+    mesto: 'Olomouc',
+    zeme: 'CZ',
+    shrnuti:
+      'Olomoucký hodinář, jeden z nejvýznamnějších představitelů moravského hodinářství 1. poloviny 18. století. Pocházel z města Schruns v záp. Tyrolích, vyučil se v Pasově. Mistrem v Olomouci se stal 1729, měšťanem 1730. Dílna v dnešní Pavelčákově ulici 19. Vyráběl věžní, stolní i stojací hodiny; vychoval učně F. X. Bayera a J. G. Gempla. Ve sbírce VMO dochovány dva věžní stroje (1737 a 1740).',
+    relatedSlugs: [],
+    era: 'baroko',
+  },
+  {
+    slug: 'joseph-kubicek',
+    jmeno: 'Joseph Kubíček',
+    aliasy: ['Joseph Kubíček', 'Josef Kubíček', 'J. Kubíček', 'Kubitczek'],
+    typ: 'osoba',
+    obdobi: 'činný kolem 1834',
+    mesto: 'Napajedla',
+    zeme: 'CZ',
+    shrnuti:
+      'Hodinář působící v Napajedlech (Zlínsko) v 1. polovině 19. století. V roce 1834 renovoval starší věžní stroj Martina Vogta (1740) z kostela v Pohořelicích na Zlínsku — pravděpodobně tehdy nahradil původní vřetenový krok Clementovým vratným kotvovým krokem.',
+    relatedSlugs: ['martin-vogt'],
+    era: '19stol',
+  },
+  {
+    slug: 'heinrich-sigmund',
+    jmeno: 'Heinrich Sigmund',
+    aliasy: ['Heinrich Sigmund', 'H. Sigmund', 'Sigmund Neutitschein'],
+    typ: 'osoba',
+    obdobi: 'přelom 19. a 20. století',
+    mesto: 'Nový Jičín',
+    zeme: 'CZ',
+    shrnuti:
+      'Hodinář působící v Novém Jičíně (něm. Neutitschein) na přelomu 19. a 20. století. Z jeho dílny pochází stroj věžních hodin s kolíčkovým kotvovým krokem, dnes ve sbírce VMO Olomouc (inv. č. CH 1172). Bližší životopisná data zatím v literatuře chybí.',
+    relatedSlugs: [],
+    era: 'prelom',
+  },
+  {
+    slug: 'theodor-jankowsky',
+    jmeno: 'Theodor Jankowsky',
+    aliasy: ['Theodor Jankowsky', 'T. Jankowsky', 'Th. Jankowsky'],
+    typ: 'osoba',
+    obdobi: 'činný 1887–1903',
+    mesto: 'Olomouc',
+    zeme: 'CZ',
+    shrnuti:
+      'Olomoucký hodinář, měšťan od 14. 2. 1887. Hodinářství a obchod se zlatnickým zbožím v Ostružnické ulici č. 13. Správce městských věžních hodin v Olomouci. Činný do roku 1903. Dodavatel hodinových strojů vyráběných jinde — známý je stroj věžních hodin z roku 1902 zřejmě pražského výrobce L. Hainze nesoucí Jankowského dodavatelský štítek.',
+    relatedSlugs: ['l-hainz'],
+    era: 'prelom',
+  },
 ];
 
 export const hodinariBySlug = new Map(hodinari.map((h) => [h.slug, h]));
