@@ -214,6 +214,56 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
       <span class="byline-date">Heslo z hodinářského slovníku — primární prameny v citacích</span>
     </footer>
   </article>
+
+  {data.references && data.references.length > 0 && (
+    <script is:inline define:vars={{ refCount: data.references.length }}>
+      // Auto-link [N] tokens v body na #ref-N. Skip uvnitř <a>, <code>, <pre>.
+      // Pattern: [N] nebo [N, M] nebo [N–M] (range), N <= refCount.
+      (() => {
+        const body = document.querySelector('.prose-content');
+        if (!body) return;
+        const skip = new Set(['A', 'CODE', 'PRE', 'SCRIPT', 'STYLE']);
+        const walker = document.createTreeWalker(body, NodeFilter.SHOW_TEXT, {
+          acceptNode(node) {
+            let p = node.parentElement;
+            while (p && p !== body) {
+              if (skip.has(p.tagName)) return NodeFilter.FILTER_REJECT;
+              p = p.parentElement;
+            }
+            return /\[\d+(?:\s*[–—,-]\s*\d+)*\]/.test(node.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+          },
+        });
+        const nodes = [];
+        for (let n = walker.nextNode(); n; n = walker.nextNode()) nodes.push(n);
+        for (const node of nodes) {
+          const frag = document.createDocumentFragment();
+          let last = 0;
+          const re = /\[(\d+(?:\s*[–—,-]\s*\d+)*)\]/g;
+          let m;
+          while ((m = re.exec(node.nodeValue)) !== null) {
+            if (m.index > last) frag.appendChild(document.createTextNode(node.nodeValue.slice(last, m.index)));
+            // First numeric in [N], [N,M], [N–M] = jump target
+            const firstN = parseInt(m[1], 10);
+            if (firstN >= 1 && firstN <= refCount) {
+              const sup = document.createElement('sup');
+              sup.className = 'ref-cite';
+              const a = document.createElement('a');
+              a.href = `#ref-${firstN}`;
+              a.setAttribute('aria-label', `Reference ${m[1]}`);
+              a.textContent = `[${m[1]}]`;
+              sup.appendChild(a);
+              frag.appendChild(sup);
+            } else {
+              frag.appendChild(document.createTextNode(m[0]));
+            }
+            last = m.index + m[0].length;
+          }
+          if (last < node.nodeValue.length) frag.appendChild(document.createTextNode(node.nodeValue.slice(last)));
+          node.parentNode.replaceChild(frag, node);
+        }
+      })();
+    </script>
+  )}
 </Base>
 
 <style>
@@ -383,6 +433,24 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
      attribution slightly muted. */
   .prose-content :global(blockquote em) {
     font-style: italic;
+  }
+
+  /* Inline citace v body (rendered klient-side z [N] tokenů) */
+  .prose-content :global(.ref-cite) {
+    font-size: 0.75em;
+    vertical-align: super;
+    line-height: 0;
+    margin-left: 0.05em;
+    font-feature-settings: "lnum";
+  }
+  .prose-content :global(.ref-cite a) {
+    color: var(--color-copper);
+    text-decoration: none;
+    border-bottom: none !important;
+    padding: 0 0.15em;
+  }
+  .prose-content :global(.ref-cite a:hover) {
+    color: var(--color-brass-bright);
   }
 
   /* Prameny a citace */
