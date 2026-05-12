@@ -32,9 +32,10 @@ references:
   - title: "Heimat- und Uhrenmuseum Schwenningen"
     url: "http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html"
     type: odkaz
-  - title: "Uhrenmuseum — Die Anfänge der Schwarzwalduhr (St. Märgen)"
+  - title: "Klostermuseum St. Märgen — Die Anfänge der Schwarzwalduhr"
+    url: "https://www.kloster-museum.de/"
     type: odkaz
-    note: "Bez webu — popisná položka původního zdroje, případně dohledat URL"
+    note: "Klášterní muzeum, část expozice věnovaná raným švarcvaldským hodinám"
   - title: "Dorfmuseum Gütenbach"
     url: "http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm"
     type: odkaz
@@ -91,9 +92,10 @@ Pro základní orientaci uveďmě přehled typů švarcvaldek podle rozměrů st
      v knize Jüttermann ověřit a případně doplnit label (např. „nejmenší
      provedení" nebo konkrétní rozměrová varianta). -->
 
-Poznámky:
-- V `{}` závorkách uvedena hloubka **včetně [bicího stroje](/slovnik/bici-stroj)**, pokud byl vestavěn.
-- `*` Normalwerk — do roku cca 1800 — [bicí stroj](/slovnik/bici-stroj) za jicím strojem
+**Vysvětlivky k tabulce:**
+
+- `{40}`, `{45}`, `{60}` — hloubka **včetně [bicího stroje](/slovnik/bici-stroj)**, pokud byl vestavěn
+- `*` — *Normalwerk* do roku cca 1800 měl [bicí stroj](/slovnik/bici-stroj) umístěn za jícím strojem
 
 <!-- "Další stránky" odkazy přesunuty do frontmatter `crossRefs.clanky` a
      `crossRefs.karty` — renderují se jako card grid pod článkem (sekce

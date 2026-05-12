@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { hodinari, eraLabel, type Hodinar } from '../../data/hodinari';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { tinyMarkdown } from '../../utils/tinyMarkdown';
 
 const osoby = hodinari.filter((h) => h.typ === 'osoba');
 const firmy = hodinari.filter((h) => h.typ === 'firma');
@@ -80,7 +81,7 @@ const firmyByEra = groupByEra(firmy, true);   // sort podle celého názvu firmy
                 {h.obdobi && h.mesto && <span class="hodinar-sep" aria-hidden="true">·</span>}
                 {h.mesto && <span>{h.mesto}</span>}
               </p>
-              <p class="hodinar-summary">{h.shrnuti}</p>
+              <p class="hodinar-summary" set:html={tinyMarkdown(h.shrnuti).replace(/^<p>|<\/p>$/g, '')}></p>
               <p class="hodinar-count">
                 {h.relatedSlugs.length > 0
                   ? `${h.relatedSlugs.length} ${h.relatedSlugs.length === 1 ? 'článek' : h.relatedSlugs.length < 5 ? 'články' : 'článků'}`
@@ -110,7 +111,7 @@ const firmyByEra = groupByEra(firmy, true);   // sort podle celého názvu firmy
                 {h.obdobi && h.mesto && <span class="hodinar-sep" aria-hidden="true">·</span>}
                 {h.mesto && <span>{h.mesto}</span>}
               </p>
-              <p class="hodinar-summary">{h.shrnuti}</p>
+              <p class="hodinar-summary" set:html={tinyMarkdown(h.shrnuti).replace(/^<p>|<\/p>$/g, '')}></p>
               <p class="hodinar-count">
                 {h.relatedSlugs.length > 0
                   ? `${h.relatedSlugs.length} ${h.relatedSlugs.length === 1 ? 'článek' : h.relatedSlugs.length < 5 ? 'články' : 'článků'}`
