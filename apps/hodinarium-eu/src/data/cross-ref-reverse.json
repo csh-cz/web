@@ -1,9 +1,2016 @@
 {
   "kroky": {},
-  "hodinari": {},
-  "karty": {},
-  "clanky": {},
-  "soupis": {},
-  "slovnik": {},
-  "kronika": {}
+  "hodinari": {
+    "vavrinec-frejlich": {
+      "soupis": [
+        "1591-hradec-kralove-bila-vez-frejlich"
+      ]
+    },
+    "frantisek-lang": {
+      "soupis": [
+        "1734-uherske-hradiste-lang-vmo"
+      ]
+    },
+    "sebastian-landesberger": {
+      "soupis": [
+        "1736-praha-landesberger-s",
+        "1739-zbiroh-landesberger-s",
+        "1752-lany-landesberger-s",
+        "1754-dolni-rocov-landesberger-s",
+        "1756-liberec-landesberger-s",
+        "1756-ricany-landesberger-s",
+        "1763-karlovy-vary-landesberger-s",
+        "1764-praha-landesberger-s",
+        "1765-pisek-landesberger-s",
+        "1774-mesice-u-prahy-landesberger-s"
+      ]
+    },
+    "martin-vogt": {
+      "soupis": [
+        "1737-olomouc-vogt-vmo",
+        "1740-pohorelice-vogt-vmo"
+      ],
+      "hodinari": [
+        "joseph-kubicek"
+      ]
+    },
+    "ferdinand-landesberger": {
+      "soupis": [
+        "1768-zatec-landesberger-f",
+        "1786-krasna-lipa-schonlinde-landesberger-f",
+        "1787-praha-landesberger-f",
+        "1791-dobris-landesberger-f",
+        "nedatovano-becvary-landesberger",
+        "nedatovano-chlumec-nad-cidlinou-landesberger-f"
+      ]
+    },
+    "jan-prokes": {
+      "soupis": [
+        "1788-markvartice-prokes",
+        "1848-loukov-prokes",
+        "1853-liban-prokes",
+        "1855-katusice-prokes",
+        "1857-skalsko-prokes",
+        "1858-sychrov-prokes",
+        "1860-cesky-dub-prokes",
+        "1860-josefuv-dul-u-kosmonos-prokes",
+        "1860-osek-u-sobotky-prokes",
+        "1861-sobotka-prokes",
+        "1861-sobotka-prokes-2",
+        "1864-ceska-skalice-prokes",
+        "1864-rozdalovice-prokes",
+        "1866-mlada-boleslav-prokes",
+        "1866-vrsovice-prokes",
+        "1867-turnov-prokes",
+        "1868-bychory-prokes",
+        "1868-nova-ves-u-chotebore-prokes",
+        "1868-turnov-prokes",
+        "1869-dymokury-prokes",
+        "1869-kasperske-hory-prokes",
+        "1872-cerny-dul-prokes",
+        "1872-dolni-hbity-prokes",
+        "1872-kasejovice-prokes",
+        "1872-vinga-banat-prokes",
+        "1873-bakov-nad-jizerou-prokes",
+        "1874-jicin-prokes",
+        "1874-rokycany-prokes",
+        "1875-polubny-polaun-korenov-prokes",
+        "1876-ondrejov-prokes",
+        "1880-horice-prokes",
+        "1880-velis-ulibice-prokes",
+        "1882-ceska-lipa-prokes",
+        "1882-jenisovice-u-turnova-prokes",
+        "1882-pribyslav-prokes",
+        "1882-skalice-u-ceske-lipy-prokes",
+        "1883-cista-u-horek-prokes",
+        "1884-studenec-prokes",
+        "1886-smidary-nad-cidlinou-prokes",
+        "1887-bosin-prokes",
+        "maly-rohozec-prokes-orloj-model",
+        "nedatovano-chotetov-prokes",
+        "nedatovano-citov-prokes",
+        "nedatovano-hodkovice-nad-mohelkou-prokes",
+        "nedatovano-horni-slivno-prokes",
+        "nedatovano-hradec-kralove-prokes",
+        "nedatovano-klementinum-prokes",
+        "nedatovano-kourim-prokes",
+        "nedatovano-raabs-an-der-thaya-prokes",
+        "nedatovano-vysoke-myto-prokes",
+        "nedatovano-vysoke-nad-jizerou-prokes",
+        "nedatovano-zitovlice-prokes"
+      ]
+    },
+    "engelbert-seige": {
+      "soupis": [
+        "1791-praha-ntm-seige-astronomicke-hodiny"
+      ]
+    },
+    "josef-bozek": {
+      "soupis": [
+        "1810-komarov-bozek",
+        "1810-praha-polytechnika-bozek",
+        "1810-vienna-imperial-collection-bozek",
+        "1817-krivoklat-bozek",
+        "1829-hradec-kralove-bila-vez-bozek"
+      ],
+      "hodinari": [
+        "frantisek-bozek",
+        "romuald-bozek"
+      ]
+    },
+    "videnska-polytechnika": {
+      "soupis": [
+        "1829-lvov-radnice-videnska-polytechnika"
+      ]
+    },
+    "frantisek-summerecker": {
+      "soupis": [
+        "1830-luzec-summerecker",
+        "1846-horni-brusnice-summerecker",
+        "1847-praha-klarov-summerecker",
+        "1848-chomutov-summerecker",
+        "1848-marianske-lazne-summerecker",
+        "1850-brezno-u-chomutova-summerecker",
+        "1852-nimerice-summerecker",
+        "1859-praha-staromestska-vodarna-summerecker",
+        "1861-bystritz-summerecker",
+        "1866-trutnov-summerecker",
+        "1871-praha-loreta-summerecker-oprava",
+        "berezany-summerecker",
+        "bezno-summerecker",
+        "nedatovano-loucen-summerecker",
+        "ostrov-u-jachymova-summerecker",
+        "totmegyer-palarikovo-summerecker"
+      ]
+    },
+    "heinrich-alexander-luz": {
+      "soupis": [
+        "1834-brno-stara-radnice-luz",
+        "1834-brno-tovarna-luz",
+        "1834-vanovice-luz"
+      ]
+    },
+    "jan-janata": {
+      "soupis": [
+        "1865-kolin-skola-janata",
+        "1867-dobruska-radnice-janata",
+        "1871-lipnice-nad-sazavou-radnice-janata",
+        "1876-police-nad-metuji-radnice-janata",
+        "hellich-batovce-janata",
+        "hellich-benatky-nad-jizerou-janata",
+        "hellich-benesov-nad-ploucnici-janata",
+        "hellich-blazim-janata",
+        "hellich-brody-janata",
+        "hellich-bylany-most-janata",
+        "hellich-bystrice-janata",
+        "hellich-chernivtsi-janata",
+        "hellich-cholina-janata",
+        "hellich-chotebor-radnice-janata",
+        "hellich-chotebor-skola-janata",
+        "hellich-divisov-janata",
+        "hellich-doksy-janata",
+        "hellich-domasov-nad-bystrici-janata",
+        "hellich-dubcany-janata",
+        "hellich-dymokury-janata",
+        "hellich-hlohovec-janata",
+        "hellich-hlusice-janata",
+        "hellich-horineves-janata",
+        "hellich-hostomice-janata",
+        "hellich-jablonec-nad-nisou-janata",
+        "hellich-jaromer-janata",
+        "hellich-jicin-janata",
+        "hellich-jindrichov-janata",
+        "hellich-josefuv-dul-janata",
+        "hellich-kadan-janata",
+        "hellich-karlovice-bruntal-janata",
+        "hellich-kartouzy-janata",
+        "hellich-knezice-janata",
+        "hellich-kojetice-janata",
+        "hellich-kostelec-nad-orlici-janata",
+        "hellich-kutna-hora-1-janata",
+        "hellich-kutna-hora-2-janata",
+        "hellich-liberec-janata",
+        "hellich-libice-nad-cidlinou-janata",
+        "hellich-libneves-janata",
+        "hellich-lipany-janata",
+        "hellich-louny-janata",
+        "hellich-lviv-janata",
+        "hellich-lysa-nad-labem-janata",
+        "hellich-maxov-janata",
+        "hellich-mestec-kralove-janata",
+        "hellich-milcice-janata",
+        "hellich-miliceves-janata",
+        "hellich-most-janata",
+        "hellich-nagykoros-janata",
+        "hellich-noua-sulita-janata",
+        "hellich-nova-ves-i-janata",
+        "hellich-nove-mesto-nad-vahom-janata",
+        "hellich-nymburk-janata",
+        "hellich-papa-janata",
+        "hellich-piskova-lhota-janata",
+        "hellich-polna-janata",
+        "hellich-praha-12-modrany-janata",
+        "hellich-prostejov-janata",
+        "hellich-pteni-janata",
+        "hellich-pukanec-1-janata",
+        "hellich-pukanec-2-janata",
+        "hellich-pysely-janata",
+        "hellich-radoun-janata",
+        "hellich-sadhora-janata",
+        "hellich-sadova-janata",
+        "hellich-skrivany-janata",
+        "hellich-sokal-janata",
+        "hellich-struznice-janata",
+        "hellich-svitavy-janata",
+        "hellich-svitnyky-janata",
+        "hellich-svojsice-janata",
+        "hellich-tesetice-janata",
+        "hellich-ujkecske-janata",
+        "hellich-velezice-janata",
+        "hellich-vilemov-janata",
+        "hellich-vyshnivchyk-janata",
+        "hellich-vysoke-veseli-janata",
+        "hellich-zdetin-janata",
+        "nedatovano-chotoun-skala-2004"
+      ]
+    },
+    "vaclav-krecmer": {
+      "soupis": [
+        "1876-praha-krecmer",
+        "1876-praha-krecmer-2",
+        "1876-vodnany-krecmer",
+        "1879-praha-krecmer",
+        "1881-praha-krecmer",
+        "1882-opocno-krecmer",
+        "1882-trhovy-stepanov-krecmer",
+        "1883-praha-staromestska-vodarna-krecmer-plynovy-automat",
+        "1884-nezname-krecmer",
+        "1884-praha-krecmer",
+        "1884-praha-krecmer-2",
+        "1884-prerov-krecmer",
+        "1886-nezname-krecmer",
+        "1886-teplice-krecmer",
+        "1886-unhost-krecmer",
+        "1887-v-soukr-sbirce-krecmer",
+        "1887-vrchotovy-janovice-krecmer",
+        "1888-ostrava-krecmer",
+        "1889-praha-krecmer",
+        "1892-praha-krecmer",
+        "1893-trutnov-krecmer",
+        "1894-votice-krecmer",
+        "1895-kralupy-nad-vltavou-krecmer",
+        "1895-libusin-krecmer",
+        "1896-nezname-krecmer",
+        "1898-hradesice-krecmer",
+        "1898-paichl-krecmer",
+        "1899-netvorice-krecmer",
+        "1899-zdar-u-svijan-krecmer",
+        "1900-praha-krecmer",
+        "1904-prerov-nad-labem-krecmer",
+        "1905-jablonec-krecmer",
+        "1905-praha-krecmer",
+        "1906-budetice-krecmer",
+        "1907-rabi-krecmer",
+        "1908-nezname-krecmer",
+        "1908-radosov-krecmer",
+        "1908-vejprty-krecmer",
+        "1909-nezname-krecmer",
+        "1910-trebenice-krecmer",
+        "1911-uvaly-u-prahy-krecmer",
+        "1912-horni-vidim-krecmer",
+        "1912-ostresany-krecmer",
+        "1915-kolomyja-krecmer",
+        "nedatovano-nezname-krecmer",
+        "nedatovano-okrouhle-hradiste-krecmer",
+        "nedatovano-praha-krecmer",
+        "nedatovano-pruhonice-krecmer",
+        "nedatovano-rudna-krecmer"
+      ]
+    },
+    "l-hainz": {
+      "soupis": [
+        "1880-hlubos-skala-2004",
+        "1891-kostelec-n-labem-skala-2004",
+        "1896-strenice-skala-2004",
+        "1902-olomouc-hainz-jankowsky-vmo",
+        "1918-vojkovice-skala-2004",
+        "1929-knezeves-skala-2004",
+        "nedatovano-hruby-jesenik-skala-2004",
+        "nedatovano-petrovice-skala-2004",
+        "nedatovano-rakovnik-skala-2004",
+        "nedatovano-rozmital-pod-tremsinem-skala-2004",
+        "nedatovano-suchomasty-skala-2004",
+        "nedatovano-tvorsovice-skala-2004",
+        "nedatovano-vrany-skala-2004",
+        "nedatovano-zlonice-skala-2004"
+      ],
+      "hodinari": [
+        "theodor-jankowsky"
+      ]
+    },
+    "josef-prokes": {
+      "soupis": [
+        "1881-janov-prokes-josef",
+        "1883-zdetin-prokes-josef"
+      ]
+    },
+    "jan-mares": {
+      "soupis": [
+        "1886-slovec-skala-2004",
+        "1895-libice-nad-cidlinou-evangelicky-mares",
+        "1896-kostomlatky-skala-2004",
+        "nedatovano-cineves-skala-2004"
+      ]
+    },
+    "jan-prokes-jr": {
+      "soupis": [
+        "1891-chroustov-prokes-jr",
+        "1893-zdar-tanvald-brand-prokes-jr",
+        "1894-jablonec-nad-jizerou-prokes-jr"
+      ]
+    },
+    "bernhard-zacharia": {
+      "soupis": [
+        "1902-hrob-evangelicky-kostel-zacharia"
+      ]
+    },
+    "thondel": {
+      "soupis": [
+        "1902-zabreh-cch-thondel",
+        "1903-medlov-petr-pavel-thondel",
+        "1919-olomouc-gymnazium-thondel-vmo",
+        "1924-babice-sternberk-thondel",
+        "1931-olomouc-hodolany-panna-maria-thondel",
+        "1932-unicov-radnice-thondel-ntm",
+        "1936-sovinec-sv-augustin-thondel"
+      ]
+    },
+    "leopold-prokes": {
+      "soupis": [
+        "1903-miliceves-prokes-leopold"
+      ]
+    },
+    "jan-hersht": {
+      "soupis": [
+        "nedatovano-chleby-skala-2004"
+      ]
+    },
+    "heinrich-sigmund": {
+      "soupis": [
+        "prelom-19-20-stol-novy-jicin-sigmund-vmo"
+      ]
+    },
+    "hans-bechler": {
+      "soupis": [
+        "skala-realizace-svaty-vit"
+      ]
+    },
+    "romuald-bozek": {
+      "hodinari": [
+        "frantisek-bozek"
+      ]
+    },
+    "frantisek-bozek": {
+      "hodinari": [
+        "romuald-bozek"
+      ]
+    }
+  },
+  "karty": {
+    "inv-2-vezni-prokes-1868-soubor": {
+      "soupis": [
+        "1868-bychory-prokes"
+      ],
+      "hodinari": [
+        "jan-prokes",
+        "rodina-bellmann"
+      ]
+    },
+    "inv-32-vezni-skalice": {
+      "soupis": [
+        "1882-skalice-u-ceske-lipy-prokes"
+      ],
+      "hodinari": [
+        "jan-prokes"
+      ]
+    },
+    "inv-100-strojek-hainz": {
+      "hodinari": [
+        "ludvik-hainz"
+      ]
+    },
+    "inv-257-podruzne-vezni-hainz": {
+      "hodinari": [
+        "ludvik-hainz"
+      ]
+    },
+    "inv-280-nastenne-hainz": {
+      "hodinari": [
+        "ludvik-hainz"
+      ]
+    },
+    "inv-30-vezni-polevsko-hainz": {
+      "hodinari": [
+        "l-hainz",
+        "ludvik-hainz"
+      ]
+    },
+    "inv-8-vezni-r-liebing": {
+      "hodinari": [
+        "richard-liebing"
+      ]
+    },
+    "inv-7-vezni-f-x-beitel": {
+      "hodinari": [
+        "frantisek-x-beitel"
+      ]
+    },
+    "inv-41-hodiny-achrer": {
+      "hodinari": [
+        "elektrocas",
+        "josef-achrer"
+      ]
+    },
+    "inv-13-vezni-wenzel-mellner": {
+      "hodinari": [
+        "wenzel-mellner"
+      ]
+    },
+    "inv-24-vezni-bassler": {
+      "hodinari": [
+        "friedrich-moritz-bassler"
+      ]
+    },
+    "inv-14-vezni-hodiny-paul-zieux": {
+      "hodinari": [
+        "paul-zieux"
+      ]
+    },
+    "inv-21-vezni-drevene": {
+      "hodinari": [
+        "peter-fridrich"
+      ]
+    },
+    "inv-194-podruzny-stroj-elektrocas-maly": {
+      "hodinari": [
+        "elektrocas"
+      ]
+    },
+    "inv-227-podruzny-stroj-elektrocas-maly": {
+      "hodinari": [
+        "elektrocas"
+      ]
+    },
+    "inv-253-zavesne-elektrocas-oboustranne": {
+      "hodinari": [
+        "elektrocas"
+      ]
+    },
+    "inv-262-pichacky-elektrocas-dk6": {
+      "hodinari": [
+        "elektrocas"
+      ]
+    },
+    "inv-263-pichacky-elektrocas-dk1": {
+      "hodinari": [
+        "elektrocas"
+      ]
+    },
+    "inv-274-pichacky-elektrocas-dk6": {
+      "hodinari": [
+        "elektrocas"
+      ]
+    },
+    "inv-37-bici-stroj-brillie": {
+      "hodinari": [
+        "bratri-brillie",
+        "elektrocas"
+      ]
+    },
+    "inv-50-podruzne-vezni-vh1-elektrocas": {
+      "hodinari": [
+        "elektrocas"
+      ]
+    },
+    "inv-51-podruzne-vezni-elektrocas": {
+      "hodinari": [
+        "elektrocas"
+      ]
+    },
+    "inv-66-cimbal-s-odbijenim": {
+      "hodinari": [
+        "elektrocas",
+        "kavalir"
+      ]
+    },
+    "inv-94-maticni-elektrocas": {
+      "hodinari": [
+        "elektrocas"
+      ]
+    },
+    "inv-121-podruzne-pragotron-perla": {
+      "hodinari": [
+        "pragotron"
+      ]
+    },
+    "inv-127-podruzne-hodiny-pragotron": {
+      "hodinari": [
+        "pragotron"
+      ]
+    },
+    "inv-153-stopky-pragotron": {
+      "hodinari": [
+        "pragotron"
+      ]
+    },
+    "inv-198-podruzny-stroj-pragotron-maly": {
+      "hodinari": [
+        "pragotron"
+      ]
+    },
+    "inv-199-podruzny-stroj-pragotron-maly": {
+      "hodinari": [
+        "pragotron"
+      ]
+    },
+    "inv-231-podruzny-stroj-pragotron-maly": {
+      "hodinari": [
+        "pragotron"
+      ]
+    },
+    "inv-232-podruzny-stroj-pragotron-maly": {
+      "hodinari": [
+        "pragotron"
+      ]
+    },
+    "inv-270-pragotron-c301": {
+      "hodinari": [
+        "pragotron"
+      ]
+    },
+    "inv-36-vezni-thondel-2": {
+      "hodinari": [
+        "thondel"
+      ]
+    },
+    "inv-15-vezni-kohlert-kraslice": {
+      "hodinari": [
+        "kohlert"
+      ]
+    },
+    "inv-151-bateriove-junghans-ato-mat": {
+      "hodinari": [
+        "junghans"
+      ]
+    },
+    "inv-144-synchronni-datumatic": {
+      "hodinari": [
+        "datumatic"
+      ]
+    },
+    "inv-35-vezni-mikulasovice": {
+      "hodinari": [
+        "joseph-winnerl",
+        "mannhardt"
+      ]
+    },
+    "inv-11-vezni-torzo": {
+      "hodinari": [
+        "johann-lissner"
+      ]
+    },
+    "inv-26-vezni-jirkostroj": {
+      "hodinari": [
+        "johann-lissner"
+      ]
+    },
+    "inv-33-vezni-lexa": {
+      "hodinari": [
+        "johann-lissner"
+      ]
+    },
+    "inv-67-vezni-lissner": {
+      "hodinari": [
+        "johann-lissner"
+      ]
+    },
+    "inv-28-vezni-se-setrvackou": {
+      "hodinari": [
+        "jindrich-spacil",
+        "miroslav-baudisch"
+      ]
+    },
+    "inv-47-orloj-skala": {
+      "hodinari": [
+        "miroslav-kotrba"
+      ]
+    },
+    "inv-43-kovane-hodiny-legner": {
+      "hodinari": [
+        "zdenek-legner"
+      ]
+    },
+    "inv-139-lodni-hodiny-kappa": {
+      "hodinari": [
+        "kappa-orologi"
+      ]
+    },
+    "inv-1-vezni-hiemann-1884": {
+      "hodinari": [
+        "julius-hiemann"
+      ]
+    },
+    "inv-85-model-hipp": {
+      "hodinari": [
+        "matthaus-hipp"
+      ]
+    },
+    "inv-86-podruzne-hodiny-hipp-1860": {
+      "hodinari": [
+        "hipp-favarger",
+        "matthaus-hipp"
+      ]
+    },
+    "inv-268-podruzne-brillie": {
+      "hodinari": [
+        "bratri-brillie"
+      ]
+    },
+    "inv-88-brillie": {
+      "hodinari": [
+        "bratri-brillie"
+      ]
+    },
+    "inv-161-hodiny-bulle": {
+      "hodinari": [
+        "bulle-clock"
+      ]
+    },
+    "inv-90-maticni-ericsson": {
+      "hodinari": [
+        "ericsson",
+        "kienzle"
+      ]
+    },
+    "inv-148-bateriove-kienzle": {
+      "hodinari": [
+        "kienzle"
+      ]
+    },
+    "inv-91-hodiny-kienzle": {
+      "hodinari": [
+        "kienzle"
+      ]
+    },
+    "inv-87-maticni-wagner": {
+      "hodinari": [
+        "wagner"
+      ]
+    },
+    "inv-89-maticni-zenith": {
+      "hodinari": [
+        "zenith"
+      ]
+    },
+    "inv-12-vezni-rochlitz": {
+      "hodinari": [
+        "rochlitz-firma"
+      ]
+    },
+    "inv-126-podruzne-hodiny-bodet": {
+      "hodinari": [
+        "bodet"
+      ]
+    },
+    "inv-125-podruzne-hodiny-mobatime": {
+      "hodinari": [
+        "elekon",
+        "mobatime"
+      ]
+    },
+    "inv-18-vezni-barokni-kovane": {
+      "hodinari": [
+        "mobatime"
+      ]
+    },
+    "inv-81-casovy-strojek-trezorovy": {
+      "hodinari": [
+        "thomas-fox"
+      ]
+    },
+    "inv-169-retrogradni-kavalir": {
+      "hodinari": [
+        "kavalir"
+      ]
+    },
+    "inv-202-retrogradni-kavalir": {
+      "hodinari": [
+        "kavalir"
+      ]
+    },
+    "inv-243-zvoneni-kavalir": {
+      "hodinari": [
+        "kavalir"
+      ]
+    },
+    "inv-54-skeletove-hodiny-kavalir": {
+      "hodinari": [
+        "kavalir"
+      ]
+    },
+    "inv-64-mysteriozni-natahovani": {
+      "hodinari": [
+        "kavalir"
+      ]
+    },
+    "inv-65-orloj-kavalir": {
+      "hodinari": [
+        "kavalir"
+      ]
+    },
+    "inv-124-mini-hlavni-hodiny-hn61": {
+      "hodinari": [
+        "elekon"
+      ]
+    },
+    "inv-x13-hodiny-hn350": {
+      "hodinari": [
+        "elekon"
+      ]
+    },
+    "inv-120-nastenne-schauer": {
+      "hodinari": [
+        "schauer"
+      ]
+    },
+    "inv-25-vezni-chribska": {
+      "hodinari": [
+        "johann-burk"
+      ]
+    }
+  },
+  "clanky": {
+    "bychory-dalsi-kola": {
+      "hodinari": [
+        "jan-prokes"
+      ]
+    },
+    "bychory-prokes1": {
+      "hodinari": [
+        "jan-prokes",
+        "petr-skala",
+        "rodina-bellmann"
+      ]
+    },
+    "decin-bici-stroje": {
+      "hodinari": [
+        "jan-prokes"
+      ]
+    },
+    "o-hodinariu": {
+      "hodinari": [
+        "bratri-brillie",
+        "elekon",
+        "elektrocas",
+        "jan-prokes",
+        "josef-achrer",
+        "julius-hiemann",
+        "kavalir",
+        "miroslav-baudisch",
+        "miroslav-kotrba",
+        "petr-kral",
+        "pragotron",
+        "zenith"
+      ]
+    },
+    "kinsner-astronomicke-hodiny": {
+      "hodinari": [
+        "dondi",
+        "edmund-kinsner",
+        "jan-prokes",
+        "josef-bozek"
+      ]
+    },
+    "svarcvaldky-surrerwerk": {
+      "hodinari": [
+        "jan-prokes"
+      ]
+    },
+    "litinove-vezni-hodiny": {
+      "hodinari": [
+        "franz-joseph-gerstner",
+        "heinrich-alexander-luz",
+        "jan-marek",
+        "josef-bozek",
+        "petr-skala"
+      ]
+    },
+    "akvizice-2015-2025": {
+      "hodinari": [
+        "frantisek-x-beitel",
+        "friedrich-moritz-bassler",
+        "jindrich-spacil",
+        "kohlert",
+        "l-hainz",
+        "ludvik-hainz",
+        "miroslav-baudisch",
+        "peter-fridrich",
+        "richard-liebing",
+        "sebastian-landesberger",
+        "thondel",
+        "vaclav-krecmer"
+      ]
+    },
+    "decin-jednotny-cas": {
+      "hodinari": [
+        "elektrocas",
+        "jednotny-cas",
+        "l-hainz",
+        "ludvik-hainz",
+        "petr-kral"
+      ]
+    },
+    "hainz-natahovani": {
+      "hodinari": [
+        "l-hainz",
+        "ludvik-hainz"
+      ]
+    },
+    "jednotnycas": {
+      "hodinari": [
+        "bratri-brillie",
+        "elekon",
+        "elektrocas",
+        "jednotny-cas",
+        "l-hainz",
+        "ludvik-hainz",
+        "mobatime",
+        "pragotron",
+        "wagner"
+      ]
+    },
+    "panel-2-maticni-elektrocas": {
+      "hodinari": [
+        "bratri-brillie",
+        "elektrocas",
+        "ericsson",
+        "jednotny-cas",
+        "ludvik-hainz",
+        "matthaus-hipp",
+        "miroslav-baudisch",
+        "pragotron",
+        "wagner",
+        "zenith"
+      ]
+    },
+    "tabor": {
+      "hodinari": [
+        "elektrocas",
+        "l-hainz",
+        "ludvik-hainz",
+        "petr-kral"
+      ]
+    },
+    "vez-budislav": {
+      "hodinari": [
+        "elektrocas",
+        "ludvik-hainz",
+        "petr-kral"
+      ]
+    },
+    "vez-elektrocas1959": {
+      "hodinari": [
+        "elektrocas",
+        "l-hainz",
+        "ludvik-hainz"
+      ]
+    },
+    "zidovske": {
+      "hodinari": [
+        "hans-bechler",
+        "ludvik-hainz",
+        "petr-skala",
+        "sebastian-landesberger"
+      ]
+    },
+    "janovice": {
+      "hodinari": [
+        "jan-marek",
+        "richard-liebing"
+      ]
+    },
+    "decin-galerie": {
+      "hodinari": [
+        "elektrocas",
+        "hodinarska-rodina-manesova",
+        "josef-achrer",
+        "miroslav-kotrba",
+        "petr-kral",
+        "zdenek-legner"
+      ]
+    },
+    "decin-wenzel-mellner": {
+      "hodinari": [
+        "wenzel-mellner"
+      ]
+    },
+    "decin-flatbed": {
+      "hodinari": [
+        "paul-zieux"
+      ]
+    },
+    "kardasova-recice": {
+      "hodinari": [
+        "hodinarska-rodina-manesova"
+      ]
+    },
+    "arduino": {
+      "hodinari": [
+        "elektrocas",
+        "mobatime",
+        "petr-kral"
+      ]
+    },
+    "kappa": {
+      "hodinari": [
+        "bodet",
+        "elektrocas",
+        "kappa-orologi",
+        "mobatime",
+        "petr-kral"
+      ]
+    },
+    "decin-regulace-ibm": {
+      "hodinari": [
+        "elektrocas",
+        "petr-kral"
+      ]
+    },
+    "decin-vypousteny": {
+      "hodinari": [
+        "elektrocas"
+      ]
+    },
+    "elektrina-ve-sluzbach-casu": {
+      "hodinari": [
+        "bulle-clock",
+        "bulova",
+        "christiaan-huygens",
+        "elektrocas",
+        "eureka",
+        "john-harrison",
+        "matthaus-hipp",
+        "meinberg",
+        "petr-henlein"
+      ]
+    },
+    "kvetinovehodiny-nove-mesto-nad-metuji": {
+      "hodinari": [
+        "elekon",
+        "elektrocas"
+      ]
+    },
+    "panel-4-pragotron": {
+      "hodinari": [
+        "bodet",
+        "elektrocas",
+        "miroslav-baudisch",
+        "pragotron",
+        "schauer"
+      ]
+    },
+    "panel-5-dcf-gps-ntp": {
+      "hodinari": [
+        "bodet",
+        "elekon",
+        "elektrocas",
+        "kappa-orologi",
+        "miroslav-baudisch",
+        "mobatime"
+      ]
+    },
+    "pichacky": {
+      "hodinari": [
+        "elektrocas",
+        "johann-burk",
+        "mobatime",
+        "petr-kral",
+        "pragotron"
+      ]
+    },
+    "synchronizace-hodin": {
+      "hodinari": [
+        "elekon",
+        "elektrocas",
+        "junghans",
+        "kappa-orologi",
+        "meinberg",
+        "mobatime",
+        "petr-skala",
+        "pragotron"
+      ]
+    },
+    "vezni-muzejicko-evropa": {
+      "hodinari": [
+        "elektrocas"
+      ]
+    },
+    "elektricke1": {
+      "hodinari": [
+        "eureka",
+        "junghans",
+        "kienzle",
+        "lenzkirch",
+        "pragotron",
+        "wagner"
+      ]
+    },
+    "pragotron1": {
+      "hodinari": [
+        "pragotron"
+      ]
+    },
+    "ato": {
+      "hodinari": [
+        "bratri-brillie",
+        "bulle-clock",
+        "eureka",
+        "junghans"
+      ]
+    },
+    "lenzkirch": {
+      "hodinari": [
+        "junghans",
+        "lenzkirch"
+      ]
+    },
+    "pneumatika": {
+      "hodinari": [
+        "junghans"
+      ]
+    },
+    "arduino-solari": {
+      "hodinari": [
+        "petr-kral",
+        "solari-udine"
+      ]
+    },
+    "datumatik": {
+      "hodinari": [
+        "datumatic",
+        "mauthe",
+        "miroslav-baudisch"
+      ]
+    },
+    "muzeum-beyer-zurich": {
+      "hodinari": [
+        "dondi"
+      ]
+    },
+    "decin-velika-ves": {
+      "hodinari": [
+        "miroslav-baudisch",
+        "petr-kral",
+        "petr-skala"
+      ]
+    },
+    "podebrady2": {
+      "hodinari": [
+        "petr-skala"
+      ]
+    },
+    "podebrady3": {
+      "hodinari": [
+        "petr-skala"
+      ]
+    },
+    "vez-kli": {
+      "hodinari": [
+        "petr-kral",
+        "petr-skala"
+      ]
+    },
+    "prehled-zvonu": {
+      "hodinari": [
+        "rodina-bellmann"
+      ]
+    },
+    "slunecni-filler": {
+      "hodinari": [
+        "vlasta-filler"
+      ]
+    },
+    "slunecni": {
+      "hodinari": [
+        "vlasta-filler"
+      ]
+    },
+    "panel-1-hipp-wagner-brillie": {
+      "hodinari": [
+        "bratri-brillie",
+        "ericsson",
+        "hipp-favarger",
+        "kienzle",
+        "matthaus-hipp",
+        "miroslav-baudisch",
+        "wagner",
+        "zenith"
+      ]
+    },
+    "panel-3-laplace-tn-burk": {
+      "hodinari": [
+        "johann-burk",
+        "miroslav-baudisch"
+      ]
+    },
+    "podruzne-sekundove": {
+      "hodinari": [
+        "miroslav-baudisch"
+      ]
+    },
+    "vez-prysk": {
+      "hodinari": [
+        "miroslav-baudisch"
+      ]
+    },
+    "vez-decin": {
+      "hodinari": [
+        "julius-hiemann"
+      ]
+    },
+    "brillie": {
+      "hodinari": [
+        "bratri-brillie"
+      ]
+    },
+    "bulle": {
+      "hodinari": [
+        "bratri-brillie",
+        "bulle-clock",
+        "eureka"
+      ]
+    },
+    "decin-ntp": {
+      "hodinari": [
+        "bodet",
+        "bratri-brillie",
+        "meinberg",
+        "mobatime",
+        "papouch",
+        "petr-kral"
+      ]
+    },
+    "download": {
+      "hodinari": [
+        "bulle-clock"
+      ]
+    },
+    "elektricke2": {
+      "hodinari": [
+        "bulle-clock",
+        "bulova"
+      ]
+    },
+    "eureka": {
+      "hodinari": [
+        "bulle-clock",
+        "eureka"
+      ]
+    },
+    "alzbeta": {
+      "hodinari": [
+        "ericsson",
+        "petr-kral"
+      ]
+    },
+    "hodinky-12-24-ciferniku": {
+      "hodinari": [
+        "kienzle"
+      ]
+    },
+    "budiky2": {
+      "hodinari": [
+        "kienzle"
+      ]
+    },
+    "laplace": {
+      "hodinari": [
+        "kienzle",
+        "mauthe"
+      ]
+    },
+    "perpetum-mobile": {
+      "hodinari": [
+        "kienzle"
+      ]
+    },
+    "svarcvaldky": {
+      "hodinari": [
+        "kienzle",
+        "lenzkirch"
+      ]
+    },
+    "svarcvaldky-stroje": {
+      "hodinari": [
+        "kienzle"
+      ]
+    },
+    "ctwagner": {
+      "hodinari": [
+        "wagner"
+      ]
+    },
+    "ferramo": {
+      "hodinari": [
+        "zenith"
+      ]
+    },
+    "elektromagneticke-segmenty": {
+      "hodinari": [
+        "bodet",
+        "mobatime",
+        "papouch",
+        "petr-kral"
+      ]
+    },
+    "mobatime": {
+      "hodinari": [
+        "elekon",
+        "mobatime",
+        "petr-kral"
+      ]
+    },
+    "casovy-zamek": {
+      "hodinari": [
+        "thomas-fox"
+      ]
+    },
+    "decin-chronulator": {
+      "hodinari": [
+        "kavalir"
+      ]
+    },
+    "kavalir": {
+      "hodinari": [
+        "kavalir"
+      ]
+    },
+    "lantime-m100": {
+      "hodinari": [
+        "meinberg"
+      ]
+    },
+    "dcf77": {
+      "hodinari": [
+        "meinberg",
+        "petr-kral"
+      ]
+    },
+    "casova-pasma": {
+      "hodinari": [
+        "spel"
+      ]
+    },
+    "arduino-ibm": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "esv3": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "gps-sakul": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "ntph": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "prs10": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "time-slider": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "timometer": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "arduino-pps": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "astronomicke-sauter": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "atomove-kapesni": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "fake-atomove-hodiny": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "matematicke": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "nocturnal": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "orient": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "pneumatika2": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "pulsynetic": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "radiotelegraficke-signaly": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "settopbox": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "slunecni-polarizacni": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "vez-zlate-hory": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    },
+    "zvon-petr-vok": {
+      "hodinari": [
+        "petr-kral"
+      ]
+    }
+  },
+  "soupis": {
+    "1791-praha-ntm-seige-astronomicke-hodiny": {
+      "hodinari": [
+        "engelbert-seige"
+      ]
+    }
+  },
+  "slovnik": {
+    "chronometr": {
+      "slovnik": [
+        "anglicka-skola",
+        "chronograf",
+        "invar",
+        "isochronismus",
+        "kompenzace-teplotni",
+        "kvadrant",
+        "rubinovy-kamen",
+        "vlaskova-krivka"
+      ]
+    },
+    "korunka": {
+      "slovnik": [
+        "automatic",
+        "pouzdro"
+      ]
+    },
+    "srdcovka": {
+      "slovnik": [
+        "bici-stroj",
+        "kolo-zaverkove",
+        "pocetnik",
+        "posuvka",
+        "ramenko"
+      ]
+    },
+    "posuvka": {
+      "slovnik": [
+        "bici-stroj",
+        "pocetnik",
+        "srdcovka"
+      ]
+    },
+    "spoust": {
+      "slovnik": [
+        "bici-stroj"
+      ]
+    },
+    "majlit": {
+      "slovnik": [
+        "bludit",
+        "coufati",
+        "zfalsovati"
+      ]
+    },
+    "orlojnik": {
+      "slovnik": [
+        "cech-hodinarsky",
+        "mistr-malych-hodinek",
+        "orlojik",
+        "umeni",
+        "zpravce-orloje"
+      ]
+    },
+    "zpravce-orloje": {
+      "slovnik": [
+        "cech-hodinarsky",
+        "mistr-malych-hodinek",
+        "orlojnik"
+      ]
+    },
+    "mistr-malych-hodinek": {
+      "slovnik": [
+        "cech-hodinarsky",
+        "orlojnik",
+        "zpravce-orloje"
+      ]
+    },
+    "herstuk": {
+      "slovnik": [
+        "cep-orloje",
+        "kstudle",
+        "puska-orloje",
+        "vocel"
+      ]
+    },
+    "kstudle": {
+      "slovnik": [
+        "cep-orloje",
+        "herstuk",
+        "oblouk-orloje",
+        "puska-orloje",
+        "skripec"
+      ]
+    },
+    "vyhloditi": {
+      "slovnik": [
+        "cep-orloje",
+        "v-hertu-kalen",
+        "vyklusati"
+      ]
+    },
+    "kalibr": {
+      "slovnik": [
+        "chronograf",
+        "korunka",
+        "signatura",
+        "werk"
+      ]
+    },
+    "setrvacka": {
+      "slovnik": [
+        "chronometr",
+        "kvadrant",
+        "kyvadlo",
+        "lihyr",
+        "regulator",
+        "vlasek"
+      ]
+    },
+    "vlasek": {
+      "slovnik": [
+        "chronometr",
+        "setrvacka"
+      ]
+    },
+    "hruden": {
+      "slovnik": [
+        "claves-paschae"
+      ]
+    },
+    "hodiny-celeorloje": {
+      "slovnik": [
+        "claves-paschae",
+        "hodiny-planetni",
+        "hodiny-polouorlojni",
+        "hruden",
+        "minuta-hodinarska",
+        "okolek"
+      ]
+    },
+    "linea-aspectus": {
+      "slovnik": [
+        "coniunctio-oppositio"
+      ]
+    },
+    "zodiak": {
+      "slovnik": [
+        "coniunctio-oppositio",
+        "grad-zodiakalni",
+        "linea-aspectus",
+        "motus-naturalis",
+        "pukla",
+        "sphera",
+        "strych-zodiakalni",
+        "znameni-zodiaku"
+      ]
+    },
+    "bludit": {
+      "slovnik": [
+        "coufati",
+        "majlit"
+      ]
+    },
+    "motus-naturalis": {
+      "slovnik": [
+        "cursus-violentus"
+      ]
+    },
+    "linea-poledni": {
+      "slovnik": [
+        "cursus-violentus",
+        "solsticium"
+      ]
+    },
+    "stupnice": {
+      "slovnik": [
+        "cymbal",
+        "pocetnik",
+        "posuvka",
+        "spoust"
+      ]
+    },
+    "solsticium": {
+      "slovnik": [
+        "declinatio-solis",
+        "linea-poledni"
+      ]
+    },
+    "supra-orizontem": {
+      "slovnik": [
+        "declinatio-solis",
+        "spacium-orloje"
+      ]
+    },
+    "strych-zodiakalni": {
+      "slovnik": [
+        "grad-zodiakalni",
+        "zodiak"
+      ]
+    },
+    "puska-orloje": {
+      "slovnik": [
+        "herstuk",
+        "kstudle",
+        "vos"
+      ]
+    },
+    "rumpal": {
+      "slovnik": [
+        "hever-orloje",
+        "struna-orloje",
+        "vaha-orloje",
+        "val"
+      ]
+    },
+    "vaha-orloje": {
+      "slovnik": [
+        "hever-orloje",
+        "strana-orloje"
+      ]
+    },
+    "hodiny-polouorlojni": {
+      "slovnik": [
+        "hodiny-celeorloje",
+        "hodiny-planetni"
+      ]
+    },
+    "hodiny-planetni": {
+      "slovnik": [
+        "hodiny-celeorloje",
+        "hodiny-polouorlojni"
+      ]
+    },
+    "strana-orloje": {
+      "slovnik": [
+        "hranice-stroje",
+        "stroj-podsestava",
+        "vaha-orloje"
+      ]
+    },
+    "stroj-podsestava": {
+      "slovnik": [
+        "hranice-stroje"
+      ]
+    },
+    "vreteno-orloje": {
+      "slovnik": [
+        "hridelik-orloje"
+      ]
+    },
+    "cep-orloje": {
+      "slovnik": [
+        "hridelik-orloje",
+        "vreteno-orloje",
+        "vyhloditi"
+      ]
+    },
+    "vos": {
+      "slovnik": [
+        "hridelik-orloje",
+        "tryb"
+      ]
+    },
+    "pravidlo-orloje": {
+      "slovnik": [
+        "index-orloje",
+        "luozko",
+        "ruka-orloje"
+      ]
+    },
+    "declinatio-solis": {
+      "slovnik": [
+        "index-orloje",
+        "motus-naturalis",
+        "solsticium",
+        "supra-orizontem"
+      ]
+    },
+    "kyvadlo": {
+      "slovnik": [
+        "invar",
+        "isochronismus",
+        "kompenzace-teplotni",
+        "lihyr",
+        "regulator",
+        "setrvacka",
+        "zavazi"
+      ]
+    },
+    "krok": {
+      "slovnik": [
+        "isochronismus",
+        "kotva",
+        "krokove-kolo",
+        "rubinovy-kamen",
+        "stegrad"
+      ]
+    },
+    "werk": {
+      "slovnik": [
+        "kalibr"
+      ]
+    },
+    "pouzdro": {
+      "slovnik": [
+        "kalibr",
+        "korunka",
+        "pouzdrar",
+        "signatura",
+        "sklicko"
+      ]
+    },
+    "palice-orloje": {
+      "slovnik": [
+        "kladivko-orloje",
+        "klapacek",
+        "lermo",
+        "rykl",
+        "worff",
+        "zamek-orloje"
+      ]
+    },
+    "zvon-orloje": {
+      "slovnik": [
+        "kladivko-orloje",
+        "tepati"
+      ]
+    },
+    "sphera": {
+      "slovnik": [
+        "klapacek",
+        "linea-poledni",
+        "okolek",
+        "pravidlo-orloje",
+        "prut-orloje",
+        "pukla",
+        "puska-orloje",
+        "ruka-orloje",
+        "spacium-orloje",
+        "zodiak"
+      ]
+    },
+    "klustice": {
+      "slovnik": [
+        "klinek-orloje"
+      ]
+    },
+    "hridelik-orloje": {
+      "slovnik": [
+        "klinek-orloje",
+        "vos",
+        "vreteno-orloje"
+      ]
+    },
+    "tryb": {
+      "slovnik": [
+        "klustice",
+        "prysek",
+        "stegrad",
+        "vrub-zub"
+      ]
+    },
+    "invar": {
+      "slovnik": [
+        "kompenzace-teplotni",
+        "kyvadlo",
+        "vlasek"
+      ]
+    },
+    "paleta": {
+      "slovnik": [
+        "kotva",
+        "krok",
+        "krokove-kolo",
+        "rubinovy-kamen"
+      ]
+    },
+    "krokove-kolo": {
+      "slovnik": [
+        "kotva",
+        "krok",
+        "paleta"
+      ]
+    },
+    "kotva": {
+      "slovnik": [
+        "krok",
+        "krokove-kolo",
+        "paleta",
+        "vetrnik"
+      ]
+    },
+    "lihyr": {
+      "slovnik": [
+        "kyvadlo",
+        "regulator"
+      ]
+    },
+    "rykl": {
+      "slovnik": [
+        "lermo",
+        "oblouk-orloje",
+        "palice-orloje",
+        "worff",
+        "zamek-orloje"
+      ]
+    },
+    "worff": {
+      "slovnik": [
+        "lermo",
+        "palice-orloje",
+        "rykl"
+      ]
+    },
+    "coniunctio-oppositio": {
+      "slovnik": [
+        "linea-aspectus"
+      ]
+    },
+    "pukla": {
+      "slovnik": [
+        "luozko",
+        "sphera"
+      ]
+    },
+    "grad-zodiakalni": {
+      "slovnik": [
+        "minuta-hodinarska",
+        "strych-zodiakalni",
+        "znameni-zodiaku",
+        "zodiak"
+      ]
+    },
+    "cursus-violentus": {
+      "slovnik": [
+        "motus-naturalis"
+      ]
+    },
+    "prut-orloje": {
+      "slovnik": [
+        "oblouk-orloje"
+      ]
+    },
+    "zamek-orloje": {
+      "slovnik": [
+        "palice-orloje",
+        "rykl",
+        "stroj-podsestava",
+        "struna-orloje"
+      ]
+    },
+    "kladivko": {
+      "slovnik": [
+        "palice-orloje"
+      ]
+    },
+    "perovnik": {
+      "slovnik": [
+        "pero",
+        "snek"
+      ]
+    },
+    "snek": {
+      "slovnik": [
+        "pero",
+        "perovnik"
+      ]
+    },
+    "rynk": {
+      "slovnik": [
+        "ponebi"
+      ]
+    },
+    "signatura": {
+      "slovnik": [
+        "pouzdrar"
+      ]
+    },
+    "ruka-orloje": {
+      "slovnik": [
+        "pravidlo-orloje"
+      ]
+    },
+    "oblouk-orloje": {
+      "slovnik": [
+        "prut-orloje"
+      ]
+    },
+    "vrub-zub": {
+      "slovnik": [
+        "prysek"
+      ]
+    },
+    "val": {
+      "slovnik": [
+        "rumpal",
+        "vaha-orloje"
+      ]
+    },
+    "lermo": {
+      "slovnik": [
+        "rykl",
+        "worff"
+      ]
+    },
+    "ponebi": {
+      "slovnik": [
+        "rynk"
+      ]
+    },
+    "okolek": {
+      "slovnik": [
+        "skripec",
+        "sphera",
+        "volovo"
+      ]
+    },
+    "kvadrant": {
+      "slovnik": [
+        "slunecni-hodiny"
+      ]
+    },
+    "spacium-orloje": {
+      "slovnik": [
+        "supra-orizontem"
+      ]
+    },
+    "umeni": {
+      "slovnik": [
+        "tatrmani-aparat"
+      ]
+    },
+    "kladivko-orloje": {
+      "slovnik": [
+        "tepati",
+        "zvon-orloje"
+      ]
+    },
+    "stegrad": {
+      "slovnik": [
+        "tryb"
+      ]
+    },
+    "cech-hodinarsky": {
+      "slovnik": [
+        "umeni"
+      ]
+    },
+    "vocel": {
+      "slovnik": [
+        "v-hertu-kalen",
+        "volovo"
+      ]
+    },
+    "isochronismus": {
+      "slovnik": [
+        "vlaskova-krivka"
+      ]
+    },
+    "v-hertu-kalen": {
+      "slovnik": [
+        "vocel",
+        "vyhloditi"
+      ]
+    },
+    "prysek": {
+      "slovnik": [
+        "vrub-zub"
+      ]
+    },
+    "volovo": {
+      "slovnik": [
+        "vyklusati"
+      ]
+    },
+    "zmotrchati": {
+      "slovnik": [
+        "zfalsovati"
+      ]
+    },
+    "struna-orloje": {
+      "slovnik": [
+        "zmotrchati"
+      ]
+    },
+    "zfalsovati": {
+      "slovnik": [
+        "zmotrchati"
+      ]
+    },
+    "tepati": {
+      "slovnik": [
+        "zvon-orloje"
+      ]
+    },
+    "cymbal": {
+      "slovnik": [
+        "zvon-orloje"
+      ]
+    }
+  },
+  "kronika": {
+    "ohlednuti2011": {
+      "hodinari": [
+        "jan-prokes"
+      ]
+    },
+    "sezona2013": {
+      "hodinari": [
+        "jan-prokes"
+      ]
+    },
+    "vez-provoz2011": {
+      "hodinari": [
+        "jan-prokes"
+      ]
+    },
+    "vez1": {
+      "hodinari": [
+        "elektrocas",
+        "l-hainz",
+        "ludvik-hainz"
+      ]
+    },
+    "decin-aktual0": {
+      "hodinari": [
+        "josef-achrer"
+      ]
+    },
+    "decin-fotobrezen2017": {
+      "hodinari": [
+        "paul-zieux",
+        "wenzel-mellner"
+      ]
+    }
+  }
 }

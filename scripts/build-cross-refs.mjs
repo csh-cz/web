@@ -122,6 +122,59 @@ async function loadCollection(coll) {
   return out;
 }
 
+/**
+ * Parse `apps/hodinarium-eu/src/data/hodinari.ts` a vyextrahuje
+ * `{ slug, relatedSlugs[] }` pairs přes regex. Primary registry pro
+ * hodináře žije v TS (ne v MDX), takže ho musíme zpracovat odtud.
+ *
+ * relatedSlugs[] obsahují slugy článků (clanky/karty mixed), které
+ * o hodináři pojednávají. Rozliš target type podle existingSlugs.
+ *
+ * Žije venku z main() pro testovatelnost.
+ */
+async function absorbHodinariRelatedSlugs(allEntries, existingSlugs, addRef) {
+  const tsPath = join(ROOT, 'apps/hodinarium-eu/src/data/hodinari.ts');
+  let txt;
+  try {
+    txt = await readFile(tsPath, 'utf-8');
+  } catch {
+    console.warn('[refs:cross] data/hodinari.ts nenalezen, skip relatedSlugs absorpce');
+    return;
+  }
+  // Each entry: { slug: '...', ..., relatedSlugs: [...], ... }
+  // Match block za blockem: hledej `slug:` + nejbližší `relatedSlugs:` před uzávěrem `},`.
+  // Pattern je deterministic díky konsistentnímu formátování souboru.
+  const entryRe = /\{\s*slug:\s*['"`]([^'"`]+)['"`][\s\S]*?relatedSlugs:\s*\[([^\]]*)\][\s\S]*?\}/g;
+  let m;
+  let count = 0;
+  while ((m = entryRe.exec(txt)) !== null) {
+    const hodinarSlug = m[1];
+    const arrayContent = m[2].trim();
+    if (!arrayContent) continue;
+    // Parse array items: ['slug-1', 'slug-2', ...] — split podle quote+comma
+    const items = [...arrayContent.matchAll(/['"`]([^'"`]+)['"`]/g)].map((mm) => mm[1]);
+    if (!items.length) continue;
+    for (const target of items) {
+      // Target může být v libovolné collection (clanky / karty / hodinari /
+      // kroky / soupis / slovnik / kronika). Probeh REF_TYPES priority order
+      // (karty první, protože sbírkový předmět má konkrétnější vazbu).
+      const lookupOrder = ['karty', 'clanky', 'hodinari', 'kroky', 'soupis', 'slovnik', 'kronika'];
+      const targetType = lookupOrder.find((t) => existingSlugs[t]?.has(target));
+      if (!targetType) {
+        // Tichá heuristika — relatedSlugs často obsahují historical slugy,
+        // které byly přejmenovány v D6. Nelámej build, jen logging.
+        console.warn(
+          `[refs:cross] ⚠ hodinari/${hodinarSlug} → ${target} (nenalezen v žádné collection; D6 rename?)`
+        );
+        continue;
+      }
+      addRef('hodinari', hodinarSlug, targetType, target, 'data/hodinari.ts');
+      count++;
+    }
+  }
+  console.log(`[refs:cross] absorbováno ${count} hodinari→clanky/karty refs z data/hodinari.ts`);
+}
+
 async function main() {
   // 1) Load all entries z všech collections
   const allEntries = [];
@@ -143,31 +196,87 @@ async function main() {
   const reverse = {};
   for (const t of REF_TYPES) reverse[t] = {};
 
-  let warnings = 0;
+  let strictWarnings = 0;   // From explicit `crossRefs` — strict mode triggers exit 1
+  let legacyWarnings = 0;   // From legacy fields (data/hodinari.ts, soupis.related*, slovnik.pribuzne) — log only
+
+  /** Bezpečné vložení forward ref → reverse mapy. Validace existence,
+   *  deduplikace, warning při missing.
+   *
+   *  `strictSource` rozlišuje:
+   *    true  — z explicit `crossRefs` frontmatter (editor explicit deklaroval) →
+   *            missing target = strict failure (build break v --strict mode)
+   *    false — z legacy field (existing data, pre-X.1) → log only, žádný
+   *            build break (D6 renames apod. by lámaly produkci) */
+  function addRef(srcType, srcSlug, targetType, targetSlug, label, strictSource = false) {
+    if (!targetSlug || typeof targetSlug !== 'string') return;
+    if (!existingSlugs[targetType]?.has(targetSlug)) {
+      console.warn(
+        `[refs:cross] ⚠ ${srcType}/${srcSlug} → ${targetType}/${targetSlug} (neexistuje, zdroj=${label})`
+      );
+      if (strictSource) strictWarnings++;
+      else legacyWarnings++;
+      return;
+    }
+    const bucket = (reverse[targetType][targetSlug] ??= {});
+    const list = (bucket[srcType] ??= []);
+    if (!list.includes(srcSlug)) list.push(srcSlug);
+  }
 
   for (const src of allEntries) {
+    // 3a) Explicit crossRefs frontmatter pole (PBI X.1)
     const refs = src.fm.crossRefs;
-    if (!refs || typeof refs !== 'object') continue;
-    for (const targetType of REF_TYPES) {
-      const targetSlugs = refs[targetType];
-      if (!Array.isArray(targetSlugs)) continue;
-      for (const targetSlug of targetSlugs) {
-        if (typeof targetSlug !== 'string') continue;
-        // Validation: target slug musí existovat
-        if (!existingSlugs[targetType].has(targetSlug)) {
-          console.warn(
-            `[refs:cross] ⚠ ${src.type}/${src.slug} → ${targetType}/${targetSlug} (neexistuje)`
-          );
-          warnings++;
-          continue; // Ne zařazuj do reverse mapy
+    if (refs && typeof refs === 'object') {
+      for (const targetType of REF_TYPES) {
+        const targetSlugs = refs[targetType];
+        if (!Array.isArray(targetSlugs)) continue;
+        for (const targetSlug of targetSlugs) {
+          addRef(src.type, src.slug, targetType, targetSlug, 'crossRefs', true /* strict */);
         }
-        // Insert: reverse[targetType][targetSlug][src.type] ⊇ src.slug
-        const bucket = (reverse[targetType][targetSlug] ??= {});
-        const list = (bucket[src.type] ??= []);
-        if (!list.includes(src.slug)) list.push(src.slug);
+      }
+    }
+
+    // 3b) Legacy fields → absorbováno do reverse map bez frontmatter migrace.
+    //    Stejné slugy se v reverse seznamu deduplikují (set-like list).
+    //    Zachováno backwards-compat: existing fields zůstávají, jen reverse
+    //    map zahrnuje obě cesty.
+
+    // slovnik.pribuzne[] → slovnik
+    if (src.type === 'slovnik' && Array.isArray(src.fm.pribuzne)) {
+      for (const t of src.fm.pribuzne) {
+        addRef(src.type, src.slug, 'slovnik', t, 'slovnik.pribuzne');
+      }
+    }
+
+    // soupis.relatedKarty[] → karty, soupis.relatedClanky[] → clanky
+    if (src.type === 'soupis') {
+      if (Array.isArray(src.fm.relatedKarty)) {
+        for (const t of src.fm.relatedKarty) {
+          addRef(src.type, src.slug, 'karty', t, 'soupis.relatedKarty');
+        }
+      }
+      if (Array.isArray(src.fm.relatedClanky)) {
+        for (const t of src.fm.relatedClanky) {
+          addRef(src.type, src.slug, 'clanky', t, 'soupis.relatedClanky');
+        }
+      }
+      // soupis.hodinar (string) — primary autor. Pokud je to validní hodinari slug,
+      // přidej i jako reverse ref (medailon hodináře pak uvidí "věže, které vyrobil").
+      // Tichá heuristika: zkontroluj v existingSlugs.hodinari, ne console.warn pokud
+      // mismatch — `hodinar` legitimně může být i free text ("anonymní", "připisováno X").
+      if (typeof src.fm.hodinar === 'string' && existingSlugs.hodinari.has(src.fm.hodinar)) {
+        addRef(src.type, src.slug, 'hodinari', src.fm.hodinar, 'soupis.hodinar');
+      }
+      // soupis.krok (string) — primary mechanism. Free text typicky ('graham', 'kotvový'),
+      // jen pokud match na existing krok slug → ref. Žádný warning na free-text.
+      if (typeof src.fm.krok === 'string' && existingSlugs.kroky.has(src.fm.krok)) {
+        addRef(src.type, src.slug, 'kroky', src.fm.krok, 'soupis.krok');
       }
     }
   }
+
+  // 3c) data/hodinari.ts relatedSlugs — ne v MDX frontmatteru, žije v
+  //    primárním TS registry. Parse via regex (struktura je deterministic).
+  await absorbHodinariRelatedSlugs(allEntries, existingSlugs, addRef);
 
   // 4) Sort slug arrays for deterministic output (smaller diffs)
   for (const t of REF_TYPES) {
@@ -198,10 +307,11 @@ async function main() {
   console.log(`✓ Cross-ref reverse map: ${OUT_PATH.replace(ROOT + '/', '')}`);
   console.log(`  ${totalRefs} forward refs across ${allEntries.length} entries`);
   console.log(`  Targets s aspoň 1 reverse ref: ${Object.entries(perType).map(([t, n]) => `${t}=${n}`).join(', ')}`);
-  if (warnings > 0) {
-    console.warn(`  ⚠ ${warnings} warnings (refs na neexistující slug)`);
-    if (STRICT) {
-      console.error('  --strict → exit 1');
+  if (strictWarnings > 0 || legacyWarnings > 0) {
+    console.warn(`  ⚠ ${strictWarnings} strict warnings (explicit crossRefs missing target)`);
+    console.warn(`  ⚠ ${legacyWarnings} legacy warnings (data/hodinari.ts, soupis.related*, …)`);
+    if (STRICT && strictWarnings > 0) {
+      console.error('  --strict + strictWarnings > 0 → exit 1');
       process.exit(1);
     }
   }
