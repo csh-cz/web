@@ -9,6 +9,50 @@ lastModified: "Wed, 26 Apr 2017 13:42:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:48.951Z"
 tldr: 'Švarcvaldky - Schwarzwald Uhren - Hodiny z Černého lesa - Black Forest Clock - Polodřeváky - Selské hodiny - Selky - Německé hodiny - Šotské hodiny - Škoťáky - Sorg - Jockele - Lidové hodiny - Kukačky. . . .…'
+references:
+  - title: "Dělení švarcvaldek podle encyklopedie Wikipedia"
+    url: "http://de.wikipedia.org/wiki/Schwarzwalduhr"
+    type: wiki
+  - title: "Jockele"
+    url: "http://www.jockele.de/"
+    type: odkaz
+  - title: "Faller Uhren — výroba pokračuje"
+    url: "http://www.faller-uhren.de/"
+    type: odkaz
+  - title: "Super muzeum (antique-horology.org Editorial)"
+    url: "http://www.antique-horology.org/_Editorial/BlackForestClocks/default.htm"
+    type: odkaz
+  - title: "Deutsches Uhrenmuseum (Furtwangen)"
+    url: "https://www.deutsches-uhrenmuseum.de/"
+    type: odkaz
+    note: "Robert-Gerwig-Platz 1, 78120 Furtwangen"
+  - title: "Black-forest-clock.de"
+    url: "http://www.black-forest-clock.de/"
+    type: odkaz
+  - title: "Heimat- und Uhrenmuseum Schwenningen"
+    url: "http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html"
+    type: odkaz
+  - title: "Uhrenmuseum — Die Anfänge der Schwarzwalduhr (St. Märgen)"
+    type: odkaz
+    note: "Bez webu — popisná položka původního zdroje, případně dohledat URL"
+  - title: "Dorfmuseum Gütenbach"
+    url: "http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm"
+    type: odkaz
+  - title: "Black Forest Clock Association"
+    url: "http://www.black-forest.org/"
+    type: odkaz
+  - title: "Josef Noe Schwarzwalduhren — Köln"
+    url: "http://www.schwarzwalduhren.com/"
+    type: odkaz
+  - title: "Adolf Herr — Haus der Schwarzwalduhren"
+    url: "http://www.haus-der-schwarzwalduhren.de/"
+    type: odkaz
+  - title: "Unikátní švarcvaldky — Antik, prodej, Uhrendoktor"
+    url: "http://www.schwarzwalduhr.de/"
+    type: odkaz
+  - title: "Über die Schwarzwalduhr (uhrenhanse.de)"
+    url: "http://www.uhrenhanse.de/sammlerecke/museen/schwarzwald/schwarzwald5.htm#%DCber%20die%20Schwarzwalduhr"
+    type: odkaz
 ---
 ![šrot](/img/svarcvald/vraky.jpg)
 
@@ -52,28 +96,7 @@ Poznámky:
 - [HODINY BUDÍČKOVÉ](/clanky/budiky2) klinkající na zvonek
 - [Lenzkirch - Rolls-Royce ze Schwarzwaldu](/clanky/lenzkirch)
 
-**Několik odkazů na další informace:** (Klikněte na link. Internet se však rychle mění, některé odkazy již nemusí fungovat.)
-
-- [Dělení švarcvaldek podle encyklopedie Wikipedia](http://de.wikipedia.org/wiki/Schwarzwalduhr)
-- [Jockele](http://www.jockele.de/)
-- [Faller Uhren](http://www.faller-uhren.de/) — výroba pokračuje
-- [Super muzeum (antique-horology.org)](http://www.antique-horology.org/_Editorial/BlackForestClocks/default.htm)
-- [Německé muzeum hodin (Deutsches Uhrenmuseum)](https://www.deutsches-uhrenmuseum.de/) — Robert-Gerwig-Platz 1, 78120 Furtwangen
-- [Black-forest-clock.de](http://www.black-forest-clock.de/)
-- [Heimat- und Uhrenmuseum Schwenningen](http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html)
-- Uhrenmuseum — Die Anfänge der Schwarzwalduhr (St. Märgen)
-- [Dorfmuseum Gütenbach](http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm)
-- [Black Forest Clock Association](http://www.black-forest.org/)
-- [Josef Noe Schwarzwalduhren Köln](http://www.schwarzwalduhren.com/)
-- [Adolf Herr — Haus der Schwarzwalduhren](http://www.haus-der-schwarzwalduhren.de/)
-- [Unikátní švarcvaldky — Antik, prodej, Uhrendoktor](http://www.schwarzwalduhr.de/)
-- [Über die Schwarzwalduhr (uhrenhanse.de)](http://www.uhrenhanse.de/sammlerecke/museen/schwarzwald/schwarzwald5.htm#%DCber%20die%20Schwarzwalduhr)
-
-<!-- Editorial: Sekce přepsána z OCR/turndown garble do markdown bullet listu.
-     Původní text měl `![](url)Label` chybné image syntax. Rekonstrukce
-     na základě sémantiky labelů; URL ponechány beze změny. Některé
-     drobné non-URL položky (např. „Uhrenmuseum St. Märgen") nemají
-     vlastní odkaz — Petr ověř, zda jde o samostatnou položku nebo
-     pokračování předchozí. „Antik / prodej / Uhrendoktor" interpretováno
-     jako tří-položkový popisek pro schwarzwalduhr.de (Antik-prodej-
-     Uhrendoktor) — pokud byly tři samostatné odkazy, dohledej URL. -->
+<!-- Externí odkazy přesunuty do frontmatter `references:` — renderují se
+     pod článkem v sekci "Literatura a odkazy" s typed ikonami (W pro
+     Wikipedia, · pro generic odkaz). Konvence: clanky-konvence skill,
+     sekce 14 (Reference style). -->
