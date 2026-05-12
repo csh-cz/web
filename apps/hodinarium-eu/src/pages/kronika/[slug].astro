@@ -6,6 +6,7 @@ import JsonLd from '../../components/JsonLd.astro';
 import ArticleImageBehavior from '../../components/ArticleImageBehavior.astro';
 import WipBanner from '../../components/WipBanner.astro';
 import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
+import CrossRefs from '../../components/CrossRefs.astro';
 
 export async function getStaticPaths() {
   const all = await getCollection('kronika');
@@ -112,6 +113,8 @@ const typLabels: Record<string, string> = {
     <div class="prose-content drop-cap">
       <Content />
     </div>
+
+    <CrossRefs refs={entry.data.crossRefs} selfType="kronika" selfSlug={entry.id} />
 
     <footer class="article-byline">
       <span class="byline-author">{entry.data.author ?? 'Český spolek horologický'}</span>

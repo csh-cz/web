@@ -5,6 +5,7 @@ import Card from "../components/Card.astro";
 import JsonLd from "../components/JsonLd.astro";
 import KartaSbirky from "../components/KartaSbirky.astro";
 import EditorNotesBlock from "../components/EditorNotesBlock.astro";
+import CrossRefs from "../components/CrossRefs.astro";
 import { pramenTooltip, extractWikiTitle } from "../utils/referenceTypes";
 import { formatCite, getRef } from "../utils/cite";
 import catalog from "../data/catalog.json";
@@ -56,8 +57,18 @@ interface Props {
   karta?: Karta;
   /** Article je v draft mode — viditelný jen editorovi (CSS-gated tělem). */
   draft?: boolean;
+  /** Křížové odkazy (PBI X.4) — rendrují se před article-byline. */
+  crossRefs?: {
+    kroky?: string[];
+    hodinari?: string[];
+    karty?: string[];
+    clanky?: string[];
+    soupis?: string[];
+    slovnik?: string[];
+    kronika?: string[];
+  };
 }
-const { title, description, lastModified, tldr, category, slug, ogImageOverride, author, references, referenceStyle = 'bullet', karta, editorNotes, draft } = Astro.props;
+const { title, description, lastModified, tldr, category, slug, ogImageOverride, author, references, referenceStyle = 'bullet', karta, editorNotes, draft, crossRefs } = Astro.props;
 
 // CMS edit URL — Sveltia routy: /admin/#/collections/<col>/entries/<file_id>.
 // Karty (podsekce: 'karta') jdou do collection 'karty', zbytek do 'clanky'.
@@ -314,6 +325,14 @@ const articleJsonLd = {
           })}
         </ul>
       </section>
+    )}
+
+    {crossRefs && slug && (
+      <CrossRefs
+        refs={crossRefs}
+        selfType={karta ? 'karty' : 'clanky'}
+        selfSlug={slug}
+      />
     )}
 
     <footer class="article-byline">
