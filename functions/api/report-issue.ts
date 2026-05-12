@@ -71,6 +71,7 @@ const PROBLEM_TYPES: Record<string, string> = {
   'technicka-chyba': 'technická chyba (rozbité odkazy, layout, …)',
   'metadata': 'chybná metadata (datum, autor, kategorie)',
   'duplicita': 'duplicita / sloučit s jiným záznamem',
+  'dict-word': 'návrh do CSH spell-check slovníku (z context menu editoru)',
   'jine': 'jiné',
 };
 
