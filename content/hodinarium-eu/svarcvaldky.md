@@ -30,13 +30,13 @@ Pro základní orientaci uveďmě přehled typů švarcvaldek podle rozměrů st
 | Schottenwerk                | 1840    | 110 ± 5    | 95 ± 5     | 75 ± 5       |
 | Normalwerk \*               | 1800    | 150 až 175 | 110 až 139 | 100 až 145   |
 | Achttage (malé provedení)   | 1835    | 200 ± 10   | 175 ± 10   | 140 ± 10     |
+|                             |         | (130)      | (110)      | (100)        |
 
-<!-- Editorial: V markdown zdroji po HTML→MD konverzi byly navíc hodnoty
-     (130)/(110)/(100), které v originálním PHP zdroji
-     (hodinarium.eu/svarcvaldky.htm, ověřeno 2026-05-12) v tabulce nejsou —
-     pravděpodobně OCR/turndown artefakt. Pokud se vztahují k jinému
-     provedení Achttage (např. menší rozměrová třída), Petr může dohledat
-     v knize Jüttermann a doplnit jako další řádek. -->
+<!-- Editorial: Druhý řádek Achttage v originálním PHP (hodinarium.eu/svarcvaldky.htm)
+     je bez label v prvním sloupci, jen hodnoty v závorkách (130)/(110)/(100).
+     Pravděpodobně menší/alternativní rozměrová třída Achttage. Petr může
+     v knize Jüttermann ověřit a případně doplnit label (např. „nejmenší
+     provedení" nebo konkrétní rozměrová varianta). -->
 
 Poznámky:
 - V `{}` závorkách uvedena hloubka **včetně [bicího stroje](/slovnik/bici-stroj)**, pokud byl vestavěn.
