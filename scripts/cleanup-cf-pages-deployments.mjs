@@ -1,16 +1,23 @@
 #!/usr/bin/env node
 /**
- * Cleanup starých Cloudflare Pages preview deployments.
+ * Cleanup starých Cloudflare Pages deployments.
  *
  * CF Pages free tier ukládá historii deployů bez explicitního limitu, ale
  * dashboard zpomaluje (a kvóta na storage objektů taky roste). Tento skript
- * smaže preview deployments starší než N dní pro oba projekty, nechá
- * production deployments (na main branch) netknuté.
+ * pracuje ve dvou módech:
+ *   1. PREVIEW cleanup — smaže preview deployments (feature branche, PR)
+ *      starší než N dní (default 30). Bezpečné.
+ *   2. PRODUCTION cleanup — ponechá M nejnovějších production deployů,
+ *      starší smaže. Užitečné u repo s vysokou frekvencí push do main.
+ *      Volitelné přes --keep-prod N. Vždy ponechá AKTUÁLNÍ production
+ *      (deployment.aliases obsahuje canonical doménu).
  *
  * Použití:
- *   node scripts/cleanup-cf-pages-deployments.mjs --days 30           # dry-run
- *   node scripts/cleanup-cf-pages-deployments.mjs --days 30 --apply   # ostrý běh
- *   node scripts/cleanup-cf-pages-deployments.mjs --project hodinarium-eu --days 60
+ *   pnpm cf:cleanup                              # dry-run, jen preview > 30 dní
+ *   pnpm cf:cleanup --days 14                    # preview > 14 dní
+ *   pnpm cf:cleanup --keep-prod 50               # + ponechá 50 nejnovějších prod
+ *   pnpm cf:cleanup --keep-prod 50 --apply       # ostrý běh
+ *   pnpm cf:cleanup --project hodinarium-eu      # jen jeden projekt
  *
  * Credentials z .dev.vars (gitignored) nebo z env:
  *   CF_ACCOUNT_ID         — Cloudflare Account ID (stejný jako R2_ACCOUNT_ID)
@@ -48,6 +55,8 @@ const args = process.argv.slice(2);
 const APPLY = args.includes('--apply');
 const daysIdx = args.indexOf('--days');
 const DAYS = daysIdx >= 0 && args[daysIdx + 1] ? parseInt(args[daysIdx + 1], 10) : 30;
+const keepProdIdx = args.indexOf('--keep-prod');
+const KEEP_PROD = keepProdIdx >= 0 && args[keepProdIdx + 1] ? parseInt(args[keepProdIdx + 1], 10) : null;
 const projectIdx = args.indexOf('--project');
 const PROJECT_FILTER = projectIdx >= 0 ? args[projectIdx + 1] : null;
 
@@ -70,8 +79,12 @@ if (!ACCOUNT_ID || !API_TOKEN) {
 const PROJECTS = PROJECT_FILTER ? [PROJECT_FILTER] : ['hodinarium-eu', 'horologie-cz'];
 const CUTOFF = Date.now() - DAYS * 24 * 60 * 60 * 1000;
 
-console.log(`▸ Cleanup preview deploys starší než ${DAYS} dní`);
-console.log(`▸ Cutoff: ${new Date(CUTOFF).toISOString()}`);
+console.log(`▸ PREVIEW cleanup: starší než ${DAYS} dní (cutoff ${new Date(CUTOFF).toISOString().slice(0, 10)})`);
+if (KEEP_PROD !== null) {
+  console.log(`▸ PRODUCTION cleanup: ponechat ${KEEP_PROD} nejnovějších + aktivní canonical, ostatní smazat`);
+} else {
+  console.log(`▸ PRODUCTION cleanup: vypnuto (přidej --keep-prod N pro aktivaci)`);
+}
 console.log(`▸ Mode: ${APPLY ? 'APPLY (delete)' : 'DRY-RUN (preview only)'}`);
 console.log('');
 
@@ -146,12 +159,38 @@ for (const project of PROJECTS) {
   const previews = deployments.filter((d) => d.environment === 'preview');
   console.log(`  ${production.length} production, ${previews.length} preview`);
 
-  // Find old preview candidates
-  const candidates = previews.filter((d) => {
+  const candidates = [];
+
+  // --- 1. Old preview candidates ---
+  const oldPreviews = previews.filter((d) => {
     const created = new Date(d.created_on).getTime();
     return created < CUTOFF;
   });
-  console.log(`  ${candidates.length} preview deploys starších než ${DAYS} dní → kandidáti na smazání`);
+  console.log(`  PREVIEW: ${oldPreviews.length} starších než ${DAYS} dní → kandidáti`);
+  candidates.push(...oldPreviews);
+
+  // --- 2. Old production candidates (jen pokud --keep-prod) ---
+  if (KEEP_PROD !== null) {
+    // Sort by created DESC, keep first KEEP_PROD, rest = candidates
+    // Pojistka: NEMAZAT aktuální canonical (production deploy s aliases obsahujícími
+    // pages.dev / custom domain). CF Pages garantuje, že nejnovější production
+    // build je canonical, ale defensivně filtrujeme i podle aliases.
+    const prodSorted = [...production].sort((a, b) =>
+      new Date(b.created_on).getTime() - new Date(a.created_on).getTime()
+    );
+    const safeProtected = new Set();
+    for (const d of prodSorted) {
+      // Protect anything with aliases pointing to canonical domains
+      if ((d.aliases ?? []).some((a) => /pages\.dev|hodinarium|horologie/.test(a))) {
+        safeProtected.add(d.id);
+      }
+    }
+    const oldProd = prodSorted.slice(KEEP_PROD).filter((d) => !safeProtected.has(d.id));
+    console.log(`  PRODUCTION: ${oldProd.length} starších než nejnovějších ${KEEP_PROD} → kandidáti (${safeProtected.size} chráněných canonical)`);
+    candidates.push(...oldProd);
+  }
+
+  console.log(`  Celkem kandidátů: ${candidates.length}`);
   totalCandidates += candidates.length;
 
   if (candidates.length === 0) continue;
@@ -159,8 +198,9 @@ for (const project of PROJECTS) {
   // Display top 10
   for (const d of candidates.slice(0, 10)) {
     const date = new Date(d.created_on).toISOString().slice(0, 10);
+    const env = d.environment === 'production' ? 'PROD' : 'prev';
     const branch = d.deployment_trigger?.metadata?.branch ?? '?';
-    console.log(`    ${date}  ${d.id.slice(0, 8)}  branch=${branch}  ${d.url}`);
+    console.log(`    ${date}  [${env}]  ${d.id.slice(0, 8)}  branch=${branch}`);
   }
   if (candidates.length > 10) console.log(`    ... +${candidates.length - 10} dalších`);
 
@@ -177,7 +217,7 @@ for (const project of PROJECTS) {
     try {
       await deleteDeployment(project, d.id);
       deleted++;
-      if (deleted % 10 === 0) {
+      if (deleted % 25 === 0) {
         process.stdout.write(`    deleted ${deleted}/${candidates.length}\n`);
       }
     } catch (e) {
