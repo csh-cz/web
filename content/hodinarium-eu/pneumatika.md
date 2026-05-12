@@ -29,6 +29,8 @@ Princip řízení podružných hodin stlačeným vzduchem je poměrně jednoduch
 7 - blokovací západka proti zpětnému pohybu,
 8 - rohatka
 
+---
+
 ![Patentový výkres Elektronom](/img/elektrika/junhhans/elektronom_patent.gif "Princip elektro-pneumatického nátahu a řízení podružných hodin")
 
 **Zdroj tlakových pulzů:**  1 -  žárovkový kompresor, 2 - žhavicí vlákno, 3 - přívod elektrického proudu, 4 - přívod minutových pulzů, 5 - spínací kontakty, 13 - gumová hadička pro natahování i pro pohon podružných hodin,  
