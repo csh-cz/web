@@ -570,6 +570,58 @@ summary::-webkit-details-marker { display: none; }
   padding: 0;
 }
 
+/* Default table styling — bez okrajů + zebra striping (alternating row bg).
+ * Aplikuje se na všechny tabulky v article body (GFM pipe tables).
+ * Hlavičky mají copper eyebrow styling (font-serif, uppercase, letter-spacing).
+ * tnum font feature = tabular numerals → numerické sloupce zarovnané.
+ */
+.prose-content table {
+  width: 100%;
+  margin: 1.75rem 0;
+  border-collapse: collapse;
+  font-size: 0.95em;
+  font-feature-settings: "tnum", "lnum";
+  line-height: 1.5;
+}
+.prose-content table th,
+.prose-content table td {
+  padding: 0.55rem 0.9rem;
+  text-align: left;
+  border: none;
+  vertical-align: top;
+}
+.prose-content table thead th {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: 0.82em;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-copper);
+  border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+  padding-bottom: 0.65rem;
+}
+.prose-content table tbody tr:nth-child(odd) {
+  background: color-mix(in srgb, var(--color-bg-elevated) 50%, transparent);
+}
+.prose-content table tbody tr:hover {
+  background: color-mix(in srgb, var(--color-brass) 10%, transparent);
+}
+/* Numeric column right-align — useful when values are dimensions, years, prices.
+ * Detect: cell content is mostly digits / arithmetic / ±. Implementováno přes
+ * `:has(...)` selector — pokud má tbody hodně numericKých cells, je to číselná
+ * tabulka. Pro jednoduchost: ponecháno left-align defaultem; editor může
+ * v MDX použít explicit `text-align: right` přes Astro markdown alignment
+ * (`| ---: |` syntax) když chce.
+ */
+.prose-content table caption {
+  caption-side: bottom;
+  text-align: left;
+  font-style: italic;
+  font-size: 0.85em;
+  color: var(--color-text-soft);
+  margin-top: 0.6rem;
+}
+
 .prose-content ul, .prose-content ol {
   padding-left: 1.5rem;
   margin-block: 1em;
