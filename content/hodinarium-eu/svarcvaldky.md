@@ -22,86 +22,24 @@ V Čechách švarcvaldky vyráběla v letech 1887–1940 firma J. Kienzle, tová
 
 Pro základní orientaci uveďmě přehled typů švarcvaldek podle rozměrů stroje (v mm). V názvech strojů ponecháno německé označení protože české patrně není dostatečně stabilizováno. Hodiny Schottenwerk bývají nazývány někdy Šotské hodiny někdy Škoťáky a podobně. (Zpracováno podle knihy Jüttermann, Herbert - **Die Schwarzwalduhr.** Tabulka by si zasloužila rozšířit )
 
-**Typ stroje**
+| Typ stroje                  | od roku | Výška (mm) | Šířka (mm) | Hloubka (mm) |
+|-----------------------------|---------|------------|------------|--------------|
+| Miniatur                    | 1840    | 50 ± 3     | 35 ± 5     | 20 {40}      |
+| Sorg                        | 1830    | 68 ± 5     | 45 ± 5     | 30 {45}      |
+| Jockele                     | 1790    | 80 ± 5     | 57 ± 5     | 47 {60}      |
+| Schottenwerk                | 1840    | 110 ± 5    | 95 ± 5     | 75 ± 5       |
+| Normalwerk \*               | 1800    | 150 až 175 | 110 až 139 | 100 až 145   |
+| Achttage                    | 1835    | 200 ± 10   | 175 ± 10   | 140 ± 10     |
+| Achttage (malé provedení)   | 1835    | (130)      | (110)      | (100)        |
 
-**od roku**
-
-**Výška**
-
-**Šířka**
-
-**Hloubka**
-
-**Miniatur**
-
-1840
-
-50 +- 3
-
-35 +- 5
-
-20 {40}
-
-**Sorg**
-
-1830
-
-68 +-5
-
-45 +-5
-
-30 {45}
-
-**Jockele**
-
-1790
-
-80 +-5
-
-57 +-5
-
-47 {60}
-
-**Schottenwerk**
-
-1840
-
-110 +- 5
-
-95 +-5
-
-75 +- 5
-
-**Normalwerk \***
-
-1800
-
-150 až 175
-
-110 až 139
-
-100 až 145
-
-**Achttage**
-(malé provedení)
-
-1835
-
-200 +- 10
-
-175 +- 10
-
-140 +- 10
-
-(130)
-
-(110)
-
-(100)
+<!-- Editorial: Achttage rozdělen na dva řádky podle původního zdroje
+     (200/175/140 vs. (130)/(110)/(100)). Význam závorek u Achttage zatím
+     ne zcela jasný — Petr ověř, zda menší hodnoty jsou samostatné provedení
+     nebo alternativní rozpětí. -->
 
 Poznámky:
-V {} závorkách uvedena hloubka včetně [bicího stroje](/slovnik/bici-stroj), pokud byl vestavěn.
-\* Normalwerk - do roku cca 1800 - [bicí stroj](/slovnik/bici-stroj) za jicím strojem
+- V `{}` závorkách uvedena hloubka **včetně [bicího stroje](/slovnik/bici-stroj)**, pokud byl vestavěn.
+- `*` Normalwerk — do roku cca 1800 — [bicí stroj](/slovnik/bici-stroj) za jicím strojem
 
 **Další stránky:**
 
@@ -113,21 +51,28 @@ V {} závorkách uvedena hloubka včetně [bicího stroje](/slovnik/bici-stroj),
 - [HODINY BUDÍČKOVÉ](/clanky/budiky2) klinkající na zvonek
 - [Lenzkirch - Rolls-Royce ze Schwarzwaldu](/clanky/lenzkirch)
 
-**Několik odkazů na další informace:** (klikněta na! Internet se však rychle mění, některé odkazy již nemusí fungovat. )
+**Několik odkazů na další informace:** (Klikněte na link. Internet se však rychle mění, některé odkazy již nemusí fungovat.)
 
-![](http://de.wikipedia.org/wiki/Schwarzwalduhr)Dělení švarcvaldek podle encyklopedie Wikipedia[
-!](http://www.jockele.de/)Jockele !!!!!!!!!![
-!](http://www.faller-uhren.de/)a výroba pokračuje[
-!](http://www.antique-horology.org/_Editorial/BlackForestClocks/default.htm)Super muzeum[
-!](https://www.deutsches-uhrenmuseum.de/)Německé muzeum hodin[
-!](http://www.black-forest-clock.de/)Black-forest-clock.de
-!Deutsches Uhrenmuseum Robert-Gerwig-Platz 1 78120 Furtwangen![](http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html)museum - Heimat- und Uhrenmuseum Schwenningen
-!museum - Uhrenmuseum (die Anfänge der Schwarzwalduhr) St. Märgen![](http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm)museum[
-!](http://www.black-forest.org/)Black Forest Clock Association[
-!](http://www.schwarzwalduhren.com/)Josef Noe Schwarzwalduhren Köln[
-!](http://www.haus-der-schwarzwalduhren.de/)Adolf Herr[
-!](http://www.schwarzwalduhr.de/)Unikátní švarcvaldky
-!Antik
-!prodej
-!Uhrendoktor[
-!](http://www.uhrenhanse.de/sammlerecke/museen/schwarzwald/schwarzwald5.htm#%DCber%20die%20Schwarzwalduhr)Über die Schwarzwalduhr
+- [Dělení švarcvaldek podle encyklopedie Wikipedia](http://de.wikipedia.org/wiki/Schwarzwalduhr)
+- [Jockele](http://www.jockele.de/)
+- [Faller Uhren](http://www.faller-uhren.de/) — výroba pokračuje
+- [Super muzeum (antique-horology.org)](http://www.antique-horology.org/_Editorial/BlackForestClocks/default.htm)
+- [Německé muzeum hodin (Deutsches Uhrenmuseum)](https://www.deutsches-uhrenmuseum.de/) — Robert-Gerwig-Platz 1, 78120 Furtwangen
+- [Black-forest-clock.de](http://www.black-forest-clock.de/)
+- [Heimat- und Uhrenmuseum Schwenningen](http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html)
+- Uhrenmuseum — Die Anfänge der Schwarzwalduhr (St. Märgen)
+- [Dorfmuseum Gütenbach](http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm)
+- [Black Forest Clock Association](http://www.black-forest.org/)
+- [Josef Noe Schwarzwalduhren Köln](http://www.schwarzwalduhren.com/)
+- [Adolf Herr — Haus der Schwarzwalduhren](http://www.haus-der-schwarzwalduhren.de/)
+- [Unikátní švarcvaldky — Antik, prodej, Uhrendoktor](http://www.schwarzwalduhr.de/)
+- [Über die Schwarzwalduhr (uhrenhanse.de)](http://www.uhrenhanse.de/sammlerecke/museen/schwarzwald/schwarzwald5.htm#%DCber%20die%20Schwarzwalduhr)
+
+<!-- Editorial: Sekce přepsána z OCR/turndown garble do markdown bullet listu.
+     Původní text měl `![](url)Label` chybné image syntax. Rekonstrukce
+     na základě sémantiky labelů; URL ponechány beze změny. Některé
+     drobné non-URL položky (např. „Uhrenmuseum St. Märgen") nemají
+     vlastní odkaz — Petr ověř, zda jde o samostatnou položku nebo
+     pokračování předchozí. „Antik / prodej / Uhrendoktor" interpretováno
+     jako tří-položkový popisek pro schwarzwalduhr.de (Antik-prodej-
+     Uhrendoktor) — pokud byly tři samostatné odkazy, dohledej URL. -->
