@@ -270,21 +270,35 @@ Tone se počítá build-time pomocí `sharp` v `scripts/build-image-index.ts` �
 
 **Právně:** v ČR autorské právo vzniká automaticky vznikem díla, takže technicky i osiřelé dílo (orphan work) je chráněno. Industry standard pro muzejní/archivní weby je formule výše — neinfrige se tím méně, ale přiznává gap a vytváří kanál pro nápravu. Plně compliant je jen registrace v EUIPO orphan works databázi (Směrnice 2012/28/EU), což je over-engineered pro spolkový web.
 
-## 5. Wikipedia / Wikimedia Commons odkazy
+## 5. Ikony pro odkazy — UNIVERSAL konvence
 
-**Pravidlo:** wiki/commons odkazy primárně do `references:` v frontmatter s `type: wiki`. V textu jen tehdy, když věta organicky odkazuje na pojem (např. „[Hebrejská abeceda](wiki) má specifický číselný systém").
+**Pravidlo:** každý odkaz dostane ikonu podle typu, aby uživatel rozeznal odkaz na první pohled. Platí napříč celým webem bez výjimky.
+
+| Typ | Ikona | Detekce |
+|---|---|---|
+| **Wikipedia / Wikimedia** | **ⓦ** (W v kroužku) | `href*="wikipedia.org/wiki/"`, `href*="wikimedia.org/wiki/"` |
+| **Generic external** | **↗** (šipka) | jakýkoliv `href^="http"` mimo wiki/mapa/own-domain |
+| **Mapa** | pin (SVG, copper) | `href*="mapy.cz"`, `openstreetmap.org`, `google.com/maps`, `goo.gl/maps` |
+| **Kniha** | 📖 | jen v `references:` s `type: kniha` |
+| **PDF** | ⤓ | jen v `references:` s `type: pdf` |
+| **Článek (časopis)** | 📰 | jen v `references:` s `type: clanek` |
+| **Vlastní doména / relative** | bez ikony | hodinarium.eu, orloj.eu, horologie.cz, `/path` |
+
+**Aplikace:**
+- **Inline v body textu** — CSS automaticky `::after` ikonu, NIC nepřidávat ručně
+- **V references-list** — typed bullet `::before` vlevo, `::after` šipka suppressed (žádný duplikát)
+
+CSS rules: `apps/hodinarium-eu/src/styles/global.css` sekce „External odkazy — universal konvence ikon".
+
+### 5.1. Wikipedia / Wikimedia Commons odkazy — kam patří
+
+Wiki/commons odkazy primárně do `references:` v frontmatter s `type: wiki`. V textu jen tehdy, když věta organicky odkazuje na pojem (např. „[Hebrejská abeceda](wiki) má specifický číselný systém").
 
 **„Dovětkový" link** (závorka „více ve wiki", „další info na wiki") **vždy** pryč z textu do references.
 
-CSS automaticky přidá:
-- **V textu (`.prose-content`)** — drobnou měděnou **ⓦ** ikonku za každý wiki/commons link (`wikipedia.org/wiki/`, `wikimedia.org/wiki/`).
-- **V references-list** — `<li class="reference-wiki">` má **W bullet vlevo**, ⓦ za textem se NEpřidává (duplicate by byl rušivý). Stejně to platí pro mapy (pin bullet vlevo, žádný ::after pin).
+### 5.2. Odkazy na mapy — kam patří
 
-## 6. Odkazy na mapy
-
-**Pravidlo:** odkazy na mapové služby (mapy.cz, google.com/maps, openstreetmap.org, goo.gl/maps) dostávají automatic pin ikonku za textem (CSS mask trick, copper barva). Aplikuje se v textu i v references.
-
-V `references` použij `type: mapa` — v references-list dostane pin ikonu místo default tečky.
+Odkazy na mapové služby (mapy.cz, google.com/maps, openstreetmap.org, goo.gl/maps) dostávají automatic pin ikonku za textem. Pro hlavní reference patří do `references:` s `type: mapa`.
 
 ## 7. PDF embed — PdfPager komponenta
 

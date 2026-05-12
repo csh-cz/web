@@ -5,6 +5,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import WipBanner from '../../components/WipBanner.astro';
 import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
 import { formatCite, getRef } from '../../utils/cite';
+import { tinyMarkdown } from '../../utils/tinyMarkdown';
 import CrossRefs from '../../components/CrossRefs.astro';
 
 export async function getStaticPaths() {
@@ -78,7 +79,7 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
       )}
 
       {data.definice && (
-        <p class="slovnik-definice-lead">{data.definice}</p>
+        <p class="slovnik-definice-lead" set:html={tinyMarkdown(data.definice).replace(/^<p>|<\/p>$/g, '')}></p>
       )}
     </header>
 
@@ -202,7 +203,7 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
           {pribuzneEntries.map((e) => (
             <a href={`/slovnik/${e.data.slug}`} class="pribuzne-card">
               <h3>{e.data.title}</h3>
-              <p>{e.data.definice}</p>
+              <p set:html={tinyMarkdown(e.data.definice).replace(/^<p>|<\/p>$/g, '')}></p>
             </a>
           ))}
         </div>

@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { tinyMarkdown } from '../../utils/tinyMarkdown';
 
 /**
  * /slovnik — hodinářský výkladový a překladový slovník.
@@ -143,7 +144,7 @@ const total = all.length;
                 {en && <span class="lang-tag" title="angličtina"><span class="lang-code">en</span> {en}</span>}
                 {fr && <span class="lang-tag" title="francouzština"><span class="lang-code">fr</span> {fr}</span>}
               </p>
-              <p class="slovnik-definice">{definice}</p>
+              <p class="slovnik-definice" set:html={tinyMarkdown(definice).replace(/^<p>|<\/p>$/g, '')}></p>
             </a>
           );
         })}
