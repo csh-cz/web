@@ -250,6 +250,74 @@ summary::-webkit-details-marker { display: none; }
   letter-spacing: -0.05em;
 }
 
+/* External odkazy — universal konvence ikon (CSH design — viz feedback
+ * memory `feedback_link_ikony_konvence`):
+ *   - wiki                          → ⓦ ::after (W v kroužku)
+ *   - mapa (mapy.cz, OSM, Google)   → pin ::after (SVG)
+ *   - generic external              → ↗ ::after (šipka)
+ *   - vlastní domény (sister sites) → BEZ ikony
+ *   - references-list override: typed bullet vlevo, ::after suppressed
+ *
+ * Sjednoceno s hodinarium-eu — stejná pravidla napříč CSH webem.
+ */
+a[href^="http"]:not([href*="wikipedia.org/wiki/"]):not([href*="wikimedia.org/wiki/"]):not([href*="mapy.cz"]):not([href*="mapy.com"]):not([href*="google.com/maps"]):not([href*="maps.google"]):not([href*="goo.gl/maps"]):not([href*="openstreetmap.org"]):not([href*="hodinarium.eu"]):not([href*="hodinarium-eu.pages.dev"]):not([href*="orloj.eu"]):not([href*="horologie.cz"]):not([href*="horologie-cz.pages.dev"])::after {
+  content: '\00A0↗';
+  font-size: 0.8em;
+  color: var(--color-copper);
+  opacity: 0.7;
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+a[href^="http"]:not([href*="wikipedia.org/wiki/"]):not([href*="wikimedia.org/wiki/"]):not([href*="mapy.cz"]):not([href*="mapy.com"]):not([href*="google.com/maps"]):not([href*="maps.google"]):not([href*="goo.gl/maps"]):not([href*="openstreetmap.org"]):not([href*="hodinarium.eu"]):not([href*="hodinarium-eu.pages.dev"]):not([href*="orloj.eu"]):not([href*="horologie.cz"]):not([href*="horologie-cz.pages.dev"]):hover::after {
+  color: var(--color-brass-bright);
+  opacity: 1;
+}
+
+/* Wikipedia & Wikimedia odkazy — ⓦ ikonka. */
+a[href*="wikipedia.org/wiki/"]::after,
+a[href*="wikimedia.org/wiki/"]::after {
+  content: '\00A0ⓦ';
+  font-size: 0.85em;
+  color: var(--color-copper);
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+a[href*="wikipedia.org/wiki/"]:hover::after,
+a[href*="wikimedia.org/wiki/"]:hover::after {
+  color: var(--color-brass-bright);
+}
+
+/* Odkazy na mapové služby — pin ikonka (SVG mask, copper barva). */
+a[href*="mapy.cz"]::after,
+a[href*="mapy.com"]::after,
+a[href*="google.com/maps"]::after,
+a[href*="maps.google"]::after,
+a[href*="goo.gl/maps"]::after,
+a[href*="openstreetmap.org"]::after {
+  content: '';
+  display: inline-block;
+  width: 0.85em;
+  height: 0.85em;
+  margin-left: 0.2em;
+  vertical-align: -0.05em;
+  background-color: var(--color-copper);
+  mask: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z'/%3E%3C/svg%3E") no-repeat center / contain;
+  -webkit-mask: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z'/%3E%3C/svg%3E") no-repeat center / contain;
+  transition: background-color 120ms ease;
+}
+a[href*="mapy.cz"]:hover::after,
+a[href*="mapy.com"]:hover::after,
+a[href*="google.com/maps"]:hover::after,
+a[href*="maps.google"]:hover::after,
+a[href*="goo.gl/maps"]:hover::after,
+a[href*="openstreetmap.org"]:hover::after {
+  background-color: var(--color-brass-bright);
+}
+
 /* Volitelný dark mode pro uživatele s prefers-color-scheme: dark.
    Inverze defaultu. */
 @media (prefers-color-scheme: dark) {
