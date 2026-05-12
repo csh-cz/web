@@ -153,6 +153,14 @@ const categoryLabelsForClient = Object.fromEntries(
   .search-result:hover, .search-result.is-active {
     background: var(--color-bg-deep);
   }
+  .search-result.is-active {
+    /* Active option (aria-selected, aktualizováno klávesami) má i barevný indikátor */
+    box-shadow: inset 3px 0 0 var(--color-brass);
+  }
+  .search-result:focus-visible {
+    outline: 2px solid var(--color-brass-bright);
+    outline-offset: -2px;
+  }
   .search-result-thumb {
     width: 56px;
     height: 56px;
@@ -253,6 +261,11 @@ const categoryLabelsForClient = Object.fromEntries(
     transition: color 120ms ease, border-color 120ms ease;
   }
   .search-mode-tab:hover {
+    color: var(--color-text);
+  }
+  .search-mode-tab:focus-visible {
+    outline: 2px solid var(--color-brass-bright);
+    outline-offset: -2px;
     color: var(--color-text);
   }
   .search-mode-tab.is-active {
@@ -621,6 +634,12 @@ const categoryLabelsForClient = Object.fromEntries(
     });
   });
 
+  function scrollActiveIntoView() {
+    if (activeIdx < 0) return;
+    const el = document.getElementById(`search-opt-${activeIdx}`);
+    if (el) el.scrollIntoView({ block: 'nearest', behavior: 'instant' });
+  }
+
   input.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' && lastResults[activeIdx]) {
       e.preventDefault();
@@ -630,10 +649,22 @@ const categoryLabelsForClient = Object.fromEntries(
       e.preventDefault();
       activeIdx = Math.min(activeIdx + 1, lastResults.length - 1);
       render(input.value.trim(), lastResults);
+      scrollActiveIntoView();
     } else if (e.key === 'ArrowUp') {
       e.preventDefault();
       activeIdx = Math.max(activeIdx - 1, 0);
       render(input.value.trim(), lastResults);
+      scrollActiveIntoView();
+    } else if (e.key === 'Home' && lastResults.length > 0) {
+      e.preventDefault();
+      activeIdx = 0;
+      render(input.value.trim(), lastResults);
+      scrollActiveIntoView();
+    } else if (e.key === 'End' && lastResults.length > 0) {
+      e.preventDefault();
+      activeIdx = lastResults.length - 1;
+      render(input.value.trim(), lastResults);
+      scrollActiveIntoView();
     }
   });
 
