@@ -21,6 +21,7 @@
     "imgvariants:upload": "node scripts/upload-imgvariants-to-r2.mjs",
     "imgvariants:sync": "pnpm imgvariants:build && pnpm imgvariants:upload",
     "cf:cleanup": "node scripts/cleanup-cf-pages-deployments.mjs",
+    "refs:cross": "node scripts/build-cross-refs.mjs",
     "content:audit": "node scripts/audit-content-evergreen.mjs",
     "favicon:build": "tsx scripts/build-favicon.ts",
     "hodinari:detect": "tsx scripts/detect-hodinari-mentions.ts",
