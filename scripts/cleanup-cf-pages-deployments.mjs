@@ -93,21 +93,24 @@ async function cfFetch(path, init = {}) {
 }
 
 async function listDeployments(project) {
+  // CF Pages Deployments API limit per_page max = 25 (zjištěno empiricky;
+  // pages=100 vrací 8000024 "Invalid list options").
+  const PER_PAGE = 25;
   const all = [];
   let page = 1;
   while (true) {
     const data = await cfFetch(
-      `/accounts/${ACCOUNT_ID}/pages/projects/${project}/deployments?page=${page}&per_page=100`
+      `/accounts/${ACCOUNT_ID}/pages/projects/${project}/deployments?page=${page}&per_page=${PER_PAGE}`
     );
     if (!data.success) {
       console.error(`✗ ${project}: ${JSON.stringify(data.errors)}`);
       return [];
     }
     all.push(...data.result);
-    if (data.result.length < 100) break;
+    if (data.result.length < PER_PAGE) break;
     page++;
-    if (page > 50) {
-      console.warn(`  ⚠ list page limit (50) — některé starší deploys nelze prozkoumat`);
+    if (page > 200) {
+      console.warn(`  ⚠ list page limit (200×${PER_PAGE}=5000) — starší deploys nelze prozkoumat`);
       break;
     }
   }
