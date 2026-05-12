@@ -27,7 +27,14 @@
  * Pokud cílový entry nemá title v catalog/data, fallback je sám slug.
  */
 import reverseMap from '../data/cross-ref-reverse.json';
+import catalog from '../data/catalog.json';
 import { getCollection } from 'astro:content';
+import Card from './Card.astro';
+import { clanekHref } from '../data/url-helpers';
+import type { CatalogEntry } from '../data/catalog-types';
+
+const catalogEntries = catalog as CatalogEntry[];
+const catalogBySlug = new Map(catalogEntries.map((e) => [e.slug, e]));
 
 interface CrossRefsObj {
   kroky?: string[];
@@ -156,25 +163,74 @@ const hasReverse = reverseGroups.length > 0;
     {hasForward && (
       <section class="cross-refs-section" aria-labelledby="cross-refs-forward">
         <h3 id="cross-refs-forward" class="cross-refs-section-heading">Souvisí s</h3>
-        <dl class="cross-refs-groups">
-          {forwardGroups.map((g) => (
-            <div class="cross-refs-group">
-              <dt class="cross-refs-group-label">
-                <span class="cross-refs-icon" aria-hidden="true">{g.meta.icon}</span>
-                {g.meta.label}{g.items.length > 1 ? ` (${g.items.length})` : ''}
-              </dt>
-              <dd>
-                <ul class="cross-refs-list">
-                  {g.items.map((it) => (
-                    <li>
-                      <a href={g.meta.href(it.slug)}>{it.title}</a>
-                    </li>
+
+        {/* Content groups (clanky + karty) renderujeme jako card grid —
+            tyto jsou plnohodnotný obsahový kontext, prominent UI.
+            Ostatní groups (kroky, hodinari, slovnik, soupis, kronika) =
+            metadata-like text list s typed ikonami. */}
+        {(() => {
+          const cardGroups = forwardGroups.filter((g) => g.type === 'clanky' || g.type === 'karty');
+          const listGroups = forwardGroups.filter((g) => g.type !== 'clanky' && g.type !== 'karty');
+          return (
+            <>
+              {cardGroups.map((g) => (
+                <div class="cross-refs-cards-wrap">
+                  <p class="cross-refs-cards-eyebrow">
+                    <span class="cross-refs-icon" aria-hidden="true">{g.meta.icon}</span>
+                    {g.type === 'karty' ? 'Sbírkové předměty' : 'Související články'}
+                    {g.items.length > 1 ? ` (${g.items.length})` : ''}
+                  </p>
+                  <div class="cross-refs-cards-grid">
+                    {g.items.map((it) => {
+                      const e = catalogBySlug.get(it.slug);
+                      if (!e) {
+                        return (
+                          <a class="cross-refs-card-fallback" href={g.meta.href(it.slug)}>
+                            <span class="cross-refs-card-fallback-title">{it.title}</span>
+                          </a>
+                        );
+                      }
+                      return (
+                        <Card
+                          href={clanekHref(e)}
+                          title={e.title}
+                          excerpt={e.excerpt}
+                          thumbnail={e.thumbnail}
+                          category={e.category}
+                          lastModified={e.lastModified}
+                          imageCount={e.imageCount}
+                          vyrobce={e.vyrobce}
+                        />
+                      );
+                    })}
+                  </div>
+                </div>
+              ))}
+
+              {listGroups.length > 0 && (
+                <dl class="cross-refs-groups">
+                  {listGroups.map((g) => (
+                    <div class="cross-refs-group">
+                      <dt class="cross-refs-group-label">
+                        <span class="cross-refs-icon" aria-hidden="true">{g.meta.icon}</span>
+                        {g.meta.label}{g.items.length > 1 ? ` (${g.items.length})` : ''}
+                      </dt>
+                      <dd>
+                        <ul class="cross-refs-list">
+                          {g.items.map((it) => (
+                            <li>
+                              <a href={g.meta.href(it.slug)}>{it.title}</a>
+                            </li>
+                          ))}
+                        </ul>
+                      </dd>
+                    </div>
                   ))}
-                </ul>
-              </dd>
-            </div>
-          ))}
-        </dl>
+                </dl>
+              )}
+            </>
+          );
+        })()}
       </section>
     )}
 
@@ -283,6 +339,44 @@ const hasReverse = reverseGroups.length > 0;
   .cross-refs-overflow {
     color: var(--color-text-muted);
     font-style: italic;
+  }
+
+  /* Card grid pro clanky/karty groups — visually prominent než text list. */
+  .cross-refs-cards-wrap {
+    margin: 0 0 1.5rem;
+  }
+  .cross-refs-cards-eyebrow {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--color-copper);
+    font-weight: 500;
+    margin: 0 0 0.75rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+  }
+  .cross-refs-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1rem;
+  }
+  .cross-refs-card-fallback {
+    display: block;
+    padding: 0.85rem 1rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--color-brass-bright);
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+  }
+  .cross-refs-card-fallback:hover {
+    border-color: var(--color-brass);
+  }
+  .cross-refs-card-fallback-title {
+    font-family: var(--font-serif);
+    font-size: 0.95rem;
   }
 
   @media (max-width: 600px) {

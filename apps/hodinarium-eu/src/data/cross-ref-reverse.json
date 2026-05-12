@@ -750,6 +750,54 @@
     }
   },
   "clanky": {
+    "svarcvaldky-17stol": {
+      "clanky": [
+        "svarcvaldky"
+      ]
+    },
+    "svarcvaldky-stroje": {
+      "clanky": [
+        "svarcvaldky"
+      ],
+      "hodinari": [
+        "kienzle"
+      ]
+    },
+    "svarcvaldky-stroje-polodrev": {
+      "clanky": [
+        "svarcvaldky"
+      ]
+    },
+    "svarcvaldky-stroje2": {
+      "clanky": [
+        "svarcvaldky"
+      ]
+    },
+    "svarcvaldky-surrerwerk": {
+      "clanky": [
+        "svarcvaldky"
+      ],
+      "hodinari": [
+        "jan-prokes"
+      ]
+    },
+    "budiky2": {
+      "clanky": [
+        "svarcvaldky"
+      ],
+      "hodinari": [
+        "kienzle"
+      ]
+    },
+    "lenzkirch": {
+      "clanky": [
+        "svarcvaldky"
+      ],
+      "hodinari": [
+        "junghans",
+        "lenzkirch"
+      ]
+    },
     "bychory-dalsi-kola": {
       "hodinari": [
         "jan-prokes"
@@ -789,11 +837,6 @@
         "edmund-kinsner",
         "jan-prokes",
         "josef-bozek"
-      ]
-    },
-    "svarcvaldky-surrerwerk": {
-      "hodinari": [
-        "jan-prokes"
       ]
     },
     "litinove-vezni-hodiny": {
@@ -1038,12 +1081,6 @@
         "junghans"
       ]
     },
-    "lenzkirch": {
-      "hodinari": [
-        "junghans",
-        "lenzkirch"
-      ]
-    },
     "pneumatika": {
       "hodinari": [
         "junghans"
@@ -1188,11 +1225,6 @@
         "kienzle"
       ]
     },
-    "budiky2": {
-      "hodinari": [
-        "kienzle"
-      ]
-    },
     "laplace": {
       "hodinari": [
         "kienzle",
@@ -1208,11 +1240,6 @@
       "hodinari": [
         "kienzle",
         "lenzkirch"
-      ]
-    },
-    "svarcvaldky-stroje": {
-      "hodinari": [
-        "kienzle"
       ]
     },
     "ctwagner": {

@@ -53,6 +53,15 @@ references:
   - title: "Über die Schwarzwalduhr (uhrenhanse.de)"
     url: "http://www.uhrenhanse.de/sammlerecke/museen/schwarzwald/schwarzwald5.htm#%DCber%20die%20Schwarzwalduhr"
     type: odkaz
+crossRefs:
+  clanky:
+    - svarcvaldky-17stol
+    - svarcvaldky-stroje
+    - svarcvaldky-stroje-polodrev
+    - svarcvaldky-stroje2
+    - svarcvaldky-surrerwerk
+    - budiky2
+    - lenzkirch
 ---
 ![šrot](/img/svarcvald/vraky.jpg)
 
@@ -86,17 +95,9 @@ Poznámky:
 - V `{}` závorkách uvedena hloubka **včetně [bicího stroje](/slovnik/bici-stroj)**, pokud byl vestavěn.
 - `*` Normalwerk — do roku cca 1800 — [bicí stroj](/slovnik/bici-stroj) za jicím strojem
 
-**Další stránky:**
-
-- jedny z [17\. století](/konstrukce/svarcvaldky-17stol) ??
-- [stroje Švarcvaldek](/konstrukce/svarcvaldky-stroje)
-    - [stroj polodřevěný](/konstrukce/svarcvaldky-stroje-polodrev)
-    - [stroj štolových hodin](/konstrukce/svarcvaldky-stroje2)
-- [Čtvrťový bicí stroj "Das Surrerwerk"](/konstrukce/svarcvaldky-surrerwerk)
-- [HODINY BUDÍČKOVÉ](/clanky/budiky2) klinkající na zvonek
-- [Lenzkirch - Rolls-Royce ze Schwarzwaldu](/clanky/lenzkirch)
-
-<!-- Externí odkazy přesunuty do frontmatter `references:` — renderují se
-     pod článkem v sekci "Literatura a odkazy" s typed ikonami (W pro
-     Wikipedia, · pro generic odkaz). Konvence: clanky-konvence skill,
+<!-- "Další stránky" odkazy přesunuty do frontmatter `crossRefs.clanky` a
+     `crossRefs.karty` — renderují se jako card grid pod článkem (sekce
+     "Souvisí s" / "Související články" + "Sbírkové předměty"). Externí
+     odkazy přesunuty do `references:` (typed ikony W/·). Konvence:
+     clanky-konvence skill,
      sekce 14 (Reference style). -->
