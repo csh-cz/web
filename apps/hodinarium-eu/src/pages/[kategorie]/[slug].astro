@@ -42,6 +42,7 @@ const wipStatus = showsWipBanner(entry.data.workflow) ? entry.data.workflow!.sta
   editorNotes={entry.data.editorNotes}
   karta={entry.data.karta}
   draft={entry.data.draft}
+  crossRefs={entry.data.crossRefs}
 >
   {wipStatus && (
     <WipBanner status={wipStatus as 'todo' | 'in-progress' | 'review'} notes={entry.data.workflow?.notes} />

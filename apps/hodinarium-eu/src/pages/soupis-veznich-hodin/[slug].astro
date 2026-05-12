@@ -9,6 +9,7 @@ import { tinyMarkdown } from '../../utils/tinyMarkdown';
 import { pramenTooltip, extractWikiTitle } from '../../utils/referenceTypes';
 import { formatCite, getRef } from '../../utils/cite';
 import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
+import CrossRefs from '../../components/CrossRefs.astro';
 
 /** Auto-detekce typu pramene z URL (když není explicitně uveden v frontmatteru).
  *  Bez URL → typicky bibliografická citace tištěného pramene → 'kniha' (📖). */
@@ -286,6 +287,8 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
       </ul>
     </section>
   )}
+
+  <CrossRefs refs={d.crossRefs} selfType="soupis" selfSlug={d.slug} />
 
   {/* zdrojDat (machine slug) se nezobrazuje — citace pramenů patří do <Prameny>.
       V patičce ponecháváme jen datum posledního ověření, pokud existuje. */}

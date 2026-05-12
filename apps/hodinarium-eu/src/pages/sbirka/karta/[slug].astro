@@ -9,6 +9,7 @@ import ArticleImageBehavior from '../../../components/ArticleImageBehavior.astro
 import WipBanner from '../../../components/WipBanner.astro';
 import { clanekHref } from '../../../data/url-helpers';
 import { isPubliclyBuildable, showsWipBanner } from '../../../utils/workflow-visibility';
+import CrossRefs from '../../../components/CrossRefs.astro';
 
 export async function getStaticPaths() {
   const all = await getCollection('clanky');
@@ -235,6 +236,8 @@ const kartaJsonLd = {
         )}
       </ul>
     </aside>
+
+    <CrossRefs refs={entry.data.crossRefs} selfType="karty" selfSlug={entry.data.slug} />
 
     <footer class="karta-byline">
       <span class="byline-publisher">{entry.data.author ?? 'Český spolek horologický'}</span>

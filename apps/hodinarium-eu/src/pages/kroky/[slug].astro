@@ -2,6 +2,7 @@
 import { getEntry, getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CrossRefs from '../../components/CrossRefs.astro';
 import { kroky } from '../../data/kroky';
 import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
@@ -233,6 +234,8 @@ const wipStatus = detailVisible && showsWipBanner(detail.data.workflow) ? detail
         </section>
       )}
     </div>
+
+    <CrossRefs refs={detail?.data.crossRefs} selfType="kroky" selfSlug={krok.slug} />
 
     <footer class="article-byline">
       <span class="byline-author">Český spolek horologický</span>

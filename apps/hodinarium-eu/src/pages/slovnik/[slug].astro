@@ -5,6 +5,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import WipBanner from '../../components/WipBanner.astro';
 import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
 import { formatCite, getRef } from '../../utils/cite';
+import CrossRefs from '../../components/CrossRefs.astro';
 
 export async function getStaticPaths() {
   const all = await getCollection('slovnik');
@@ -207,6 +208,8 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
         </div>
       </section>
     )}
+
+    <CrossRefs refs={data.crossRefs} selfType="slovnik" selfSlug={data.slug} />
 
     <footer class="article-byline">
       <span class="byline-author">Český spolek horologický</span>

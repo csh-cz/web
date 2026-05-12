@@ -13,6 +13,7 @@ import { extractWikiTitle } from '../../utils/referenceTypes';
 import { formatCite, getRef } from '../../utils/cite';
 import WipBanner from '../../components/WipBanner.astro';
 import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
+import CrossRefs from '../../components/CrossRefs.astro';
 
 import type { CatalogEntry } from '../../data/catalog-types';
 
@@ -387,6 +388,8 @@ const personJsonLd = hodinar.typ === 'osoba'
         </section>
       )}
     </div>
+
+    <CrossRefs refs={medailon?.data.crossRefs} selfType="hodinari" selfSlug={hodinar.slug} />
 
     <footer class="article-byline">
       <span class="byline-author">Český spolek horologický</span>
