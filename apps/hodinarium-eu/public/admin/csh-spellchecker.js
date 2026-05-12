@@ -25,6 +25,10 @@
   let customWords = null;   // Set<string> z csh-spell-dict.json
   let loadPromise = null;   // dedupe simultaneous loads
   let observer = null;      // MutationObserver pro tracking textarea
+  /** In-memory Set slov, která editor manuálně označil „Ignorovat zde"
+   *  v context menu. Per-session, resetuje na refresh. Případně později
+   *  promovat do localStorage / GH Issue pro permanent dict add. */
+  const ignoredWords = new Set();
   // Per-attach state — uchováváme listenery a původní spellcheck atribut,
   // aby deactivate mohl plně uvolnit textarea pro fresh attach v dalším
   // activate. WeakSet sice neunwineuje, ale my v deactivate musíme
@@ -71,6 +75,29 @@
     while ((m = re.exec(text)) !== null) {
       yield { word: m[0], start: m.index, end: m.index + m[0].length };
     }
+  }
+
+  /** Stejná logika jako uvnitř renderOverlay — sjednocený check pro
+   *  context menu (najít slovo, rozhodnout zda misspelled). */
+  function isMisspelled(word) {
+    if (!spellInstance) return false;
+    if (word.length < 3) return false;
+    if (customWords.has(word) || ignoredWords.has(word)) return false;
+    return !spellInstance.spell(word).correct;
+  }
+
+  /** Najde slovo (a jeho rozsah) na dané pozici v textu. Walká
+   *  back/forward dokud znaky matchují /[A-Za-zÀ-ž]/. Vrací null pokud
+   *  pozice neukazuje na slovo (mezera, interpunkce, prázdná řádka). */
+  function findWordAt(text, pos) {
+    const reChar = /[A-Za-zÀ-ž]/;
+    let start = pos;
+    let end = pos;
+    // Walk backward (i když je kurzor přesně na konci slova, takhle ho najdeme)
+    while (start > 0 && reChar.test(text[start - 1])) start--;
+    while (end < text.length && reChar.test(text[end])) end++;
+    if (start === end) return null;
+    return { word: text.slice(start, end), start, end };
   }
 
   /** Přidá overlay div absolutně pozicovaný nad textareou s podtržením
@@ -136,7 +163,7 @@
       // nspell.spell() vrací OBJECT { correct, forbidden, warn }, ne boolean.
       // Object je vždy truthy → bug v 1. iteraci kdy `if (spell())` vždy true.
       const result = spellInstance.spell(tok.word);
-      const ok = result.correct || customWords.has(tok.word);
+      const ok = result.correct || customWords.has(tok.word) || ignoredWords.has(tok.word);
       if (ok) continue;
       // Nesprávné slovo — wrap
       parts.push(escapeHtml(text.slice(lastEnd, tok.start)));
@@ -156,6 +183,158 @@
       .replace(/>/g, '&gt;');
   }
 
+  // ── Suggestion menu (right-click na podtržené slovo) ────────────
+
+  /** Aktivně zobrazený menu element. Drží se globálně, takže
+   *  closeSuggestionMenu může dismissnout i menu otevřené z předchozího
+   *  contextmenu na jiné textarea. */
+  let activeMenu = null;
+  let activeMenuOutsideHandler = null;
+  let activeMenuEscHandler = null;
+
+  function closeSuggestionMenu() {
+    if (!activeMenu) return;
+    activeMenu.remove();
+    activeMenu = null;
+    if (activeMenuOutsideHandler) {
+      document.removeEventListener('mousedown', activeMenuOutsideHandler, true);
+      activeMenuOutsideHandler = null;
+    }
+    if (activeMenuEscHandler) {
+      document.removeEventListener('keydown', activeMenuEscHandler, true);
+      activeMenuEscHandler = null;
+    }
+  }
+
+  /** Nahrazení slova v textarea na (start, end) za new. Trigger 'input'
+   *  event ručně, aby Sveltia detekovala změnu pro dirty tracking +
+   *  re-render overlay. */
+  function replaceWord(textarea, start, end, replacement) {
+    const before = textarea.value.slice(0, start);
+    const after = textarea.value.slice(end);
+    textarea.value = before + replacement + after;
+    // Cursor na konec replacementu
+    const newCursor = start + replacement.length;
+    textarea.setSelectionRange(newCursor, newCursor);
+    textarea.dispatchEvent(new Event('input', { bubbles: true }));
+    textarea.focus();
+  }
+
+  async function reportWordToDict(word) {
+    // POST do existujícího /api/report-issue endpointu — Cloudflare Access
+    // identifies editora, GH Issue se vytvoří s problemType='dict-word'.
+    try {
+      const r = await fetch('/api/report-issue', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          problemType: 'dict-word',
+          description: `Slovo „${word}" — navrhuji doplnit do CSH spell-check slovníku. (Z context menu spell-checkeru v editoru.)`,
+          url: location.href,
+          pageTitle: 'Sveltia editor — návrh do slovníku',
+        }),
+      });
+      const data = await r.json().catch(() => ({}));
+      if (r.ok) {
+        alert(`Návrh poslán — úkol č. ${data.issue?.number ?? '?'}`);
+      } else {
+        alert(`Návrh neodeslán: ${data.error || r.status}`);
+      }
+    } catch (e) {
+      alert(`Chyba sítě: ${e.message}`);
+    }
+  }
+
+  function openSuggestionMenu(textarea, hit, clientX, clientY) {
+    closeSuggestionMenu(); // remove předchozí menu pokud bylo
+
+    const suggestions = (spellInstance.suggest(hit.word) || []).slice(0, 5);
+
+    const menu = document.createElement('div');
+    menu.className = 'csh-spell-menu';
+    menu.setAttribute('role', 'menu');
+    menu.setAttribute('aria-label', `Návrhy oprav pro slovo ${hit.word}`);
+    menu.style.cssText =
+      'position:fixed;z-index:99999;min-width:220px;max-width:340px;' +
+      'background:#1a1a1a;color:#e8d8a8;border:1px solid #c9a85d;' +
+      'border-radius:3px;box-shadow:0 4px 16px rgba(0,0,0,.6);' +
+      'font:14px/1.4 ui-serif,Georgia,serif;padding:.25rem 0;' +
+      'left:' + clientX + 'px;top:' + clientY + 'px';
+
+    function addItem(label, fn, opts = {}) {
+      const item = document.createElement('button');
+      item.type = 'button';
+      item.setAttribute('role', 'menuitem');
+      item.style.cssText =
+        'display:block;width:100%;text-align:left;padding:.4rem .85rem;' +
+        'background:transparent;color:inherit;border:none;cursor:pointer;' +
+        'font:inherit;' + (opts.muted ? 'opacity:.7;font-style:italic;' : '');
+      item.textContent = label;
+      item.addEventListener('mouseenter', () => { item.style.background = '#2a2a2a'; });
+      item.addEventListener('mouseleave', () => { item.style.background = 'transparent'; });
+      item.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        closeSuggestionMenu();
+        fn();
+      });
+      menu.appendChild(item);
+    }
+
+    if (suggestions.length === 0) {
+      addItem('(žádné návrhy)', () => {}, { muted: true });
+    } else {
+      for (const s of suggestions) {
+        addItem(s, () => replaceWord(textarea, hit.start, hit.end, s));
+      }
+    }
+
+    // Separator
+    const sep = document.createElement('div');
+    sep.style.cssText = 'border-top:1px solid #3a3a3a;margin:.25rem 0';
+    menu.appendChild(sep);
+
+    addItem('— Přidat do CSH slovníku', () => reportWordToDict(hit.word), { muted: true });
+    addItem('— Ignorovat zde (do refreshe)', () => {
+      ignoredWords.add(hit.word);
+      renderOverlay(textarea);
+    }, { muted: true });
+
+    document.body.appendChild(menu);
+
+    // Repozice — pokud menu přetekne pravý/dolní okraj viewport, posuň
+    const rect = menu.getBoundingClientRect();
+    if (rect.right > window.innerWidth - 8) {
+      menu.style.left = (window.innerWidth - rect.width - 8) + 'px';
+    }
+    if (rect.bottom > window.innerHeight - 8) {
+      menu.style.top = (window.innerHeight - rect.height - 8) + 'px';
+    }
+
+    // Dismiss handlers — capture phase, aby zachytily klik dřív než
+    // contextmenu na jiné slovo otevře nové menu (které by se hned zavřelo).
+    activeMenuOutsideHandler = (e) => {
+      if (!menu.contains(e.target)) closeSuggestionMenu();
+    };
+    activeMenuEscHandler = (e) => {
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        closeSuggestionMenu();
+        textarea.focus();
+      }
+    };
+    // Defer outside handler attach o 1 tick, aby contextmenu, který menu
+    // otevřel, sám sebe nezavřel přes outsideHandler.
+    setTimeout(() => {
+      if (activeMenu === menu) {
+        document.addEventListener('mousedown', activeMenuOutsideHandler, true);
+        document.addEventListener('keydown', activeMenuEscHandler, true);
+      }
+    }, 0);
+
+    activeMenu = menu;
+  }
+
   /** Hook na jednu textarea. Debounce na input pro perf.
    *  Vypneme browser native spellcheck na této textarea — nechceme dva
    *  parallel underline systémy. Původní hodnota se uloží pro restore
@@ -169,9 +348,19 @@
       clearTimeout(timer);
       timer = setTimeout(() => renderOverlay(textarea), 300);
     };
+    const onContextmenu = (e) => {
+      // Browser positionuje cursor na klik před contextmenu eventem,
+      // takže selectionStart ukazuje na klikané místo.
+      const pos = textarea.selectionStart;
+      const hit = findWordAt(textarea.value, pos);
+      if (!hit || !isMisspelled(hit.word)) return; // Nech native menu
+      e.preventDefault();
+      openSuggestionMenu(textarea, hit, e.clientX, e.clientY);
+    };
     textarea.addEventListener('input', onInput);
     textarea.addEventListener('focus', onInput);
-    attachedState.set(textarea, { onInput, origSpellcheck });
+    textarea.addEventListener('contextmenu', onContextmenu);
+    attachedState.set(textarea, { onInput, onContextmenu, origSpellcheck });
     // Initial render
     renderOverlay(textarea);
   }
@@ -237,9 +426,11 @@
     for (const [ta, state] of attachedState) {
       ta.removeEventListener('input', state.onInput);
       ta.removeEventListener('focus', state.onInput);
+      if (state.onContextmenu) ta.removeEventListener('contextmenu', state.onContextmenu);
       ta.spellcheck = state.origSpellcheck;
     }
     attachedState.clear();
+    closeSuggestionMenu();
     // Remove overlays + clear map
     for (const overlay of overlayMap.values()) {
       overlay.remove();
