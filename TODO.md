@@ -49,17 +49,19 @@ prosvítit články) a `pnpm search:rebuild` (corpus + embed).
 
 ## A.3 — Audit follow-ups (read-only)
 
-- [ ] **FU2 Design critique — hero/index** (~15 min) — `index.astro`
-      pro 3 audience segmenty (návštěvník muzea Děčín / cs amatér /
-      EN enthusiast). Hero text register, CTA (chybí „Naplánuj
-      návštěvu"?), featured grid × random Atlas, scroll fatigue,
-      mobile 320px clamp().
-- [ ] **FU5 Design system audit (cross-site)** (~40 min) — drift
-      hodinarium-eu × horologie-cz: tokeny, komponenty (Card), footer
-      patterns, button styles. **Pustit až po stabilizaci obou webů**
-      (po a11y bundle A.4, případné slovník expansion). Migration plan:
-      které tokeny/komponenty do shared `packages/ui`, které jsou
-      legitimně site-specific.
+- [x] **FU2 Design critique — hero/index** — hotov 2026-05-12, výstup
+      `docs/audit-hero-index-2026-05-12.md`. Klíčový nález: featured grid
+      ukazuje jen 1 ze 4 karet (3 hardcoded slugs neexistují v catalog
+      po D6 rename). Quick fix: opravit `featuredSlugs` v index.astro.
+      Plus doporučení pro CTA „Naplánuj návštěvu", subtitle pod hero title.
+- [x] **FU5 Design system audit (cross-site)** — hotov 2026-05-12, výstup
+      `docs/audit-design-system-2026-05-12.md`. Klíčové závěry:
+      - Strategicky NEsjednocovat: defaultní téma (museum-dark × paper-light),
+        počet komponent (21 × 2)
+      - Sjednotit do `packages/ui` (~4 h): font tokens, utility classes,
+        button styles, JsonLd, Breadcrumbs
+      - Drift k opravě: `--color-copper` mezi dark variantami, chybějící
+        `--font-mono` v Horologii, `.btn-*` inline v `index.astro`.
 
 ## A.4 — A11y odložené nálezy z auditu 2026-05-08
 
@@ -229,16 +231,25 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
       **Akce pro Davida:** přidat 3 repo secrets v
       https://github.com/csh-cz/web/settings/secrets/actions
       (`R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`).
-- [ ] **CI cleanup** — staré Cloudflare Pages preview deployments smazat
-      (kvóta).
+- [partial] **CI cleanup** — staré Cloudflare Pages preview deployments smazat:
+      - [x] 2026-05-12 — `scripts/cleanup-cf-pages-deployments.mjs` + `pnpm cf:cleanup`.
+        Dry-run defaultně, `--apply` pro reálné mazání. `--days N` cutoff (default 30).
+        Vyžaduje `CF_API_TOKEN` v `.dev.vars` (Pages Edit permission).
+      - [ ] User: jednorázově vytvořit token v CF dashboard a spustit
+        `pnpm cf:cleanup --apply` pro skutečné vyčištění.
 
 ## A.8 — Obsah (automatizace)
 
-- [ ] **B2 Revize obsahu (evergreen)** — průběžná kontrola legacy
-      článků: OCR artefakty (`**X**slovo`, duplicity `* * *`), atribuce
-      → `author:` frontmatter, wiki/mapa odkazy → `references:`,
-      `<Photo>` místo `![]()` u obrázků s creditem. Pravidla v skill
-      `clanky-konvence` sekce 18. Postupně při dotyku článku.
+- [partial] **B2 Revize obsahu (evergreen)** — průběžná kontrola legacy
+      článků. Hotovo 2026-05-12:
+      - [x] Audit skript `scripts/audit-content-evergreen.mjs` + `pnpm content:audit`
+        — detekuje OCR artefakty (`**X**y`, `* * *`, vícenásobné mezery),
+        chybějící `author:` frontmatter, wiki/mapa odkazy v body, plain
+        `![]()` v MDX s credit-like textem. Skóre podle závažnosti.
+      - Současný stav: 307 OCR slepeného boldu na 85 souborech,
+        162 souborů bez author:, 16 souborů s wiki/mapa link v body.
+      - [ ] Petr/David: postupně při dotyku článku v Sveltia opravit
+        podle prioritního seznamu (`pnpm content:audit --top 20`).
 - [ ] **Skript pro auto-import fotek z ZIP** — rozzipovat → přejmenovat
       → doplnit data file. Naprogramovat až bude první ZIP od Petra.
 

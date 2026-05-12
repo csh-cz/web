@@ -20,6 +20,8 @@
     "imgvariants:build": "tsx scripts/generate-image-formats.ts",
     "imgvariants:upload": "node scripts/upload-imgvariants-to-r2.mjs",
     "imgvariants:sync": "pnpm imgvariants:build && pnpm imgvariants:upload",
+    "cf:cleanup": "node scripts/cleanup-cf-pages-deployments.mjs",
+    "content:audit": "node scripts/audit-content-evergreen.mjs",
     "favicon:build": "tsx scripts/build-favicon.ts",
     "hodinari:detect": "tsx scripts/detect-hodinari-mentions.ts",
     "refs:sync": "node scripts/sync-zotero-refs.mjs",
