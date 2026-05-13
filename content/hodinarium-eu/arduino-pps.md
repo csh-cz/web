@@ -2,6 +2,7 @@
 title: "Arduino s \"přesným\" časem - Signál PPS z GPS"
 slug: "arduino-pps"
 category: "projekty"
+author: "Petr Král"
 originalUrl: "https://hodinarium.eu/arduino_PPS.htm"
 lastModified: "Sun, 29 Dec 2024 22:31:00 GMT"
 sourceCharset: "windows-1250"
@@ -67,5 +68,3 @@ Celý tento projekt má spíše význam školníhou příkladu.
 - [GPS synchronizace u náramkových hodinek](https://www.hodinky-365.cz/blog/gps-synchronizace-casu) — hodinky-365.cz. [cit. 2026-04-28]
 - [Amater radio statiom W8BH](http://w8bh.net/) — w8bh.net. [cit. 2026-04-28]
 - [Přesnost časování pomocí Arduina](https://www.mylms.cz/presnost-casovani-pomoci-arduina/) — mylms.cz. [cit. 2026-04-28]
-
-Text: [Petr Král](/hodinari/petr-kral)

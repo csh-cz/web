@@ -151,5 +151,3 @@ Zelená a modrá LED blikají při aktivitě krokového motoru,
 - [Pro Linux](https://dratek.cz/docs/produkty/0/143/driver_ch341ser_linux.ZIP)
 - [Pro MAC](https://dratek.cz/docs/produkty/0/144/driver_ch341ser_mac.ZIP)
 - K vlastnímu nahrávání programu použijte [flash_dowload_tools](https://www.espressif.com/en/support/download/other-tools).
-
-Autor: [Petr Král](/hodinari/petr-kral)

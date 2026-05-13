@@ -2,6 +2,7 @@
 title: "Podružné hodiny s vteřinovkou"
 slug: "podruzne-sekundove"
 category: "sbirka"
+author: "Miroslav Baudisch"
 originalUrl: "https://hodinarium.eu/podruzne_sekundove.htm"
 lastModified: "Mon, 04 May 2020 18:16:00 GMT"
 sourceCharset: "windows-1250"
@@ -41,7 +42,5 @@ Na úvodním obrázku je také napájecí přívod 230 V pro synchronní motorek
 5 Krokový mechanizmus.
 
 ![Fotografie 8](/img/elektrika/podruzne_sekundove/f/foto_0008.jpg)
-
-Text a foto: M. Baudisch
 
 6 Přepínač DIL.

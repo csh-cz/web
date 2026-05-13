@@ -2,6 +2,7 @@
 title: "DCF 77 — rádiem řízené hodiny"
 slug: "dcf77"
 category: "projekty"
+author: "Petr Král"
 originalUrl: "https://hodinarium.eu/dcf77.htm"
 lastModified: "Sat, 16 Aug 2025 15:13:00 GMT"
 sourceCharset: "windows-1250"
@@ -73,5 +74,3 @@ Generování signálu DCF77 a jeho monitorovací a řídicí funkce jsou od konc
 [Zasazení do kontextu od firmy Meinberg](http://support.fccps.cz/download/Meinberg/prehled/DCF77.htm)
 
 [Martin Pouva: Vše o času](http://home.zcu.cz/~poupa/dcf77.html)
-
-Text: [Petr Král](/hodinari/petr-kral)

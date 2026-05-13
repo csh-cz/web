@@ -5,6 +5,7 @@ category: "konstrukce"
 tags:
   - mechanicke
   - baroko
+author: "Petr Král"
 originalUrl: "https://hodinarium.eu/astronomicke_Sauter.htm"
 lastModified: "Tue, 08 Sep 2020 00:00:00 GMT"
 sourceCharset: "windows-1250"
@@ -59,4 +60,4 @@ I ve věžních hodinách mohly být vačky východu a západu Slunce. Jedno tak
 
 </div>
 
-Text a foto: P. Král a ebay.de
+*Foto: P. Král, ebay.de*

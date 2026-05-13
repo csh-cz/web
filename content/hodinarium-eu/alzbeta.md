@@ -2,6 +2,7 @@
 title: "Alžběta - 14112 - hlášení přesného času"
 slug: "alzbeta"
 category: "projekty"
+author: "Petr Král"
 originalUrl: "https://hodinarium.eu/alzbeta.htm"
 lastModified: "Wed, 10 Nov 2021 10:08:00 GMT"
 sourceCharset: "windows-1250"
@@ -54,4 +55,4 @@ O mluvících hodinkách popisovaných v časopisu **"Z říše vědy a práce" 
 - [Mluvící hodinky](/clanky/mluvici1895)
 - [Když hodiny promluvily](/download/Quando_gli_orologi_parlavano.pdf) - Marisa Addomine, italský text QUANDO GLI OROLOGI PARLAVANO [¬](/download/Kdyz_hodiny_zacaly-mluvit.pdf)
 
-Text: [Petr Král](/hodinari/petr-kral), foto NTM, archiv ČT
+*Foto: NTM, archiv ČT*
