@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-13T07:29:38.373Z",
+  "generatedAt": "2026-05-13T07:35:09.001Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 135,
@@ -8,7 +8,7 @@
     "hodinariTs": 129,
     "soupis": 420
   },
-  "count": 1529,
+  "count": 1530,
   "words": [
     "Abraham",
     "Accutron",
@@ -925,6 +925,7 @@
     "Osek",
     "osmiboká",
     "Ostrava",
+    "Ostravě",
     "Ostrov",
     "Ostřešany",
     "ověřit",
@@ -1055,6 +1056,7 @@
     "přídavné",
     "přímo",
     "přímý",
+    "připojen",
     "přirozený",
     "Pšovka",
     "Ptení",
@@ -1180,7 +1182,6 @@
     "Skřivany",
     "Slapy",
     "Slezsko",
-    "Slezsku",
     "Slivno",
     "slohu",
     "Sloupno",
