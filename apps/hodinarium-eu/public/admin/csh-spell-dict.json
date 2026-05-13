@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-12T23:15:03.687Z",
+  "generatedAt": "2026-05-13T06:08:29.298Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 135,
     "hodinari": 129,
     "hodinariTs": 129,
-    "soupis": 411
+    "soupis": 412
   },
-  "count": 1509,
+  "count": 1505,
   "words": [
     "Abraham",
     "Accutron",
@@ -154,7 +154,6 @@
     "Cepek",
     "Cidlinou",
     "cimbály",
-    "církve",
     "Církve",
     "Cítoliby",
     "Cítov",
@@ -194,7 +193,6 @@
     "českého",
     "Českého",
     "Česko",
-    "Českobratrské",
     "československé",
     "Český",
     "Činěves",
@@ -269,7 +267,6 @@
     "Ericsson",
     "Erste",
     "Eureka",
-    "evangelické",
     "evangelický",
     "Evangelický",
     "existuje",
@@ -1123,7 +1120,6 @@
     "Sběř",
     "sbírce",
     "sbor",
-    "sboru",
     "Sebastian",
     "secesní",
     "Sedlčan",
