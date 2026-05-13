@@ -28,7 +28,11 @@ interface Props {
 
 const { notes, sourceFile } = Astro.props;
 const titleByLevel = { info: 'Editorská poznámka', warn: 'Pozor — nejistota', todo: 'TODO' };
-const iconByLevel = { info: '✎', warn: '⚠', todo: '☐' };
+const iconByLevel = {
+  info: 'fa-pen-to-square',
+  warn: 'fa-triangle-exclamation',
+  todo: 'fa-square',
+} as const;
 ---
 {notes && notes.length > 0 && notes.map((n) => (
   <aside class={`editor-note editor-note-${n.level || 'info'}`}
@@ -38,14 +42,16 @@ const iconByLevel = { info: '✎', warn: '⚠', todo: '☐' };
          role="note"
          aria-label={n.title || titleByLevel[n.level || 'info']}>
     <header class="editor-note-head">
-      <span class="editor-note-icon" aria-hidden="true">{iconByLevel[n.level || 'info']}</span>
+      <span class="editor-note-icon" aria-hidden="true">
+        <i class={`fa-solid ${iconByLevel[n.level || 'info']}`} aria-hidden="true"></i>
+      </span>
       <span class="editor-note-title">{n.title || titleByLevel[n.level || 'info']}</span>
       <span class="editor-note-meta" aria-hidden="true">viditelné jen přihlášenému editorovi</span>
     </header>
     <div class="editor-note-body">
       <p>{n.text}</p>
       <button type="button" class="editor-note-resolve" data-action="resolve-editor-note">
-        ✓ Vyřízeno (smazat tuto poznámku z MDX)
+        <i class="fa-solid fa-check" aria-hidden="true"></i> Vyřízeno (smazat tuto poznámku z MDX)
       </button>
     </div>
   </aside>
