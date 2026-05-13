@@ -5,6 +5,121 @@ Plná historie se najde v `git log` — toto je rychlý přehled milníků.
 
 ---
 
+## 2026-05-13 — Prokeš dokumentace + Zotero + repo public + UX cleanup
+
+### Repo visibility → public
+
+- **csh-cz/web** přepnut z private na public přes `gh repo edit --visibility public`.
+  Důvod: free tier 2000 min/měs Actions přečerpán, repo neobsahuje secrets
+  (.env, .dev.vars v gitignore, tracked je jen .dev.vars.example). Po switch:
+  unlimited Actions minutes + Codespaces 60 h/měs free + GitHub Pages enabled.
+
+### Prokeš věžní hodiny — foto + dokumentace
+
+- **65 fotek S. Marušák, Petr Skála, Jan Marek** doplněno do 14 obcí
+  (commit c4b20a2e + 718fcc11 credit oprav). Source: Dropbox/Prokeš/Věžní/.
+- **Nová stub karta Pouchov** (Hradec Králové, 13 photos) — vytvořeno
+  jako placeholder `nedatovano-pouchov-prokes.mdx`.
+- **Markvartice 1788** karta opravena — okres Děčín → Jičín, kraj Ústecký
+  → Královéhradecký, GPS [49.20, 15.77] → [50.4266, 15.1838]. Doplněno
+  rozhodnutí MK 30684/2017 OPP o prohlášení za KP. Text „krok Roberta
+  de Sancerre" → `[Robertův krok](/kroky/robertuv-krok)` link.
+- **Bošín 1887, Jenišovice 1882, Bakov 1873** — zpracování restaurátorských
+  zpráv Jana Marka (DiS., Turnov) z DOCX/PDF. Plné fakta: krok kombinace
+  Graham+Amant (Bošín, Jenišovice), pohon pískovcová závaží (Jenišovice),
+  litinová závaží (Bošín), 4 ciferníky Bošín × 3 Jenišovice. Bakov:
+  rukopisná kronika 1847-1958 str. 217-219 → datum osazení 12. 5. 1873,
+  náklad 543.04 zl., předchozí hodiny z r. 1560 (Zvířetice).
+
+### Zotero 4 nové entries + bibKey-driven citations
+
+- **marekHodinovyVezniStroj2020** (Bošín restaurátorská dokumentace)
+- **marekHodinovyVezniStroj2017** (Jenišovice restaurátorská dokumentace)
+- **KronikaObceJenisovice1882** (manuscript, primární pramen)
+- **KronikaMestaBakov1847** (manuscript, str. 217-219)
+- `pnpm refs:sync` regen → references.json (3298 items, 2697 s citation-key).
+  Karty 3 obcí updateované na bibKey-driven prameny (citeproc-js renders
+  ISO 690 plain text automaticky).
+
+### DOCX → PDF pipeline
+
+- **Gotenberg 8 container** spuštěn pro DOCX → PDF konverze. 10 DOCX
+  souborů Marka 2017/2020 + 1 DOCX Bošín 2020 převedeny přes
+  `POST /forms/libreoffice/convert`.
+
+### UX polish
+
+- **Default table style** — markdown pipe tables dostávají zebra striping
+  bez okrajů. Tabulární numerals, copper eyebrow headers. Sjednoceno
+  napříč všemi články.
+- **Universal link ikony konvence** — wiki = ⓦ, generic external = ↗
+  (oboje globální CSS ::after), vlastní domény bez ikony. References-list
+  typed bullet ::before. Odstraněno 20+ ručně psaných `↗` z navigačních
+  linků v hodinarium-eu + horologie-cz (commit bb48eb3a + 4b6d516c).
+- **Markdown render bug fix** — slovník `definice` field + hodinari
+  `shrnuti` v indexech renderovaly `**bold**` jako literal asterisky.
+  Wrap přes `tinyMarkdown()` + `set:html` (commit 4b6d516c).
+
+## 2026-05-12/13 — Cross-references systém MVP
+
+Strukturované křížové odkazy napříč 6 collections (clanky/karty/hodinari/
+kroky/soupis/slovnik/kronika). Sjednocený frontmatter pattern, reverse
+map computed build-time, rendering komponenta s typed ikonami.
+
+- **X.1 Schema** (commit 50e70e35) — `crossRefs` z.object field v 6 collections
+  s polem per type. Zachovává primární single-value relace (karta.vyrobce,
+  soupis.hodinar, soupis.krok) — crossRefs slouží pro *další* (sekundární)
+  vztahy.
+- **X.2 Reverse map builder** (commit 298fb3bf) — `scripts/build-cross-refs.mjs`
+  + `pnpm refs:cross` generuje `data/cross-ref-reverse.json`.
+- **X.3 `<CrossRefs>` komponenta** (commit c1dbf814) — `clanky`/`karty`
+  groups jako card grid, ostatní jako text list s typed ikonami.
+- **X.4 Integrace do 7 detail layoutů** (commit 40622ba4) — slovnik,
+  soupis, kroky, hodinari, kronika, sbirka/karta, [kategorie]/[slug].
+- **X.5 Legacy absorpce** (commit 05caad73) — build skript absorbuje
+  legacy fields (slovnik.pribuzne, soupis.related*, data/hodinari.ts
+  relatedSlugs). **839 forward refs** absorbováno z 1197 entries.
+- **X.10 Strict validation** (commit bda05bc4) — prebuild fail při
+  neexistujícím target slug.
+
+**Zbývá:** X.6/X.7 Sveltia picker widget (~6 h), X.8/X.9 AI auto-suggest
+z body (~6 h).
+
+## 2026-05-12 — A11y SearchModal + spell-check V2 + FU2/SL13
+
+### A.4 SearchModal aria refactor (5 commitů)
+
+- `5d6cb30c` combobox role + aria-activedescendant + listbox/option
+- `bae4916d` tab keyboard nav Arrow/Home/End + roving tabindex
+- `42264179` dialog labelledby + tab describedby + aria-controls
+- `f36994a0` Home/End klávesy + scrollIntoView + focus-visible
+- `6ade90b9` two-stage escape + focus restoration
+
+### A.13 V2 spell-check (2 commity)
+
+- `45fbc0da` right-click suggestion menu v `csh-spellchecker.js`
+- `e166f752` `.github/workflows/spell-dict-rebuild.yml` — auto-rebuild
+  dict při push do content/slovnik|hodinari|soupis
+
+### FU2 hero + SL13 anchor links
+
+- `f687865e` featured slugs fix (3/4 broken po D6 rename), `data/featured.json`,
+  subtitle pod hero, 3. CTA „Naplánuj návštěvu". SL13: klient-side `[N]`
+  → `#ref-N` anchor linking ve slovníku.
+
+### CI cleanup
+
+- `pnpm cf:cleanup --keep-prod 50 --apply` — 1026 → 140 deployů.
+- Audit `scripts/audit-content-evergreen.mjs` + `pnpm content:audit`
+  identifikuje OCR artefakty / chybějící author: / wiki linky v body.
+
+### Issues
+
+- #22 hover invisible v light theme — fixed `f5599dfd`
+- #20 svarcvaldky rozpadlá tabulka + odkazy — fixed `ae4b1a23` + `d1c65c0d`
+
+---
+
 ## 2026-05-11 — JPG zdroje off-git (R2 serves originals too)
 
 - **`<img src>` fallback nově ukazuje na R2**, ne na CF Pages —

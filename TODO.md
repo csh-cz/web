@@ -65,15 +65,14 @@ prosvítit články) a `pnpm search:rebuild` (corpus + embed).
 
 ## A.4 — A11y odložené nálezy z auditu 2026-05-08
 
-- [ ] **C3 + C4 + M2 + TD2-část-2: SearchModal aria pattern refaktor** —
-      combobox/listbox pattern s `aria-activedescendant` na výsledcích,
-      status `aria-live` oddělený od listu, ArrowUp/Down přesouvá
-      programatický focus, ArrowLeft/Right pro tabs. Při tom **přesunout
-      data injection** z `define:vars` na `<script type="application/json">`
-      data island, čímž se umožní ESM import a vyřeší se i TD2-část-2
-      (`attachDialogControls()` helper). Nejnáročnější — ~1–2 h.
-      Ideálně po VoiceOver test. Komponenta:
-      `apps/hodinarium-eu/src/components/SearchModal.astro`.
+- [x] **C3 + C4 + M2: SearchModal aria pattern refaktor** — hotov 2026-05-12
+      (5 commitů: 5d6cb30c combobox role + aria-activedescendant + listbox/option,
+      bae4916d tab keyboard nav Arrow/Home/End + roving tabindex, 42264179
+      dialog labelledby + tab describedby + aria-controls, f36994a0 Home/End
+      klávesy + scrollIntoView + focus-visible, 6ade90b9 two-stage escape
+      + focus restoration). Komponenta `apps/hodinarium-eu/src/components/SearchModal.astro`.
+      TD2-část-2 (`attachDialogControls()` helper, ESM data island) ne refaktorováno,
+      ale a11y pattern kompletní bez něj.
 
 ## A.5 — Editor pomocníci — V2 follow-ups
 
@@ -84,9 +83,13 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
       on-demand check), GitHub Issue auto-creation pro nové dead links od
       posledního runu (diff vs předchozí JSON), auto-PR návrh:
       replace dead URL na Wayback snapshot pokud existuje.
-- [ ] **A.13 V2 spell-check** — right-click suggestion menu, CI workflow
-      pro rebuild dictionary při každém content commitu (žádný drift
-      mezi repo daty a dictionary).
+- [x] **A.13 V2 spell-check** — hotov 2026-05-12 (commit 45fbc0da right-click
+      suggestion menu v `csh-spellchecker.js` s top-5 nspell suggestions +
+      „Přidat do CSH slovníku" → GH Issue přes problemType `dict-word` +
+      „Ignorovat zde" per-session; commit e166f752 CI workflow
+      `.github/workflows/spell-dict-rebuild.yml` auto-rebuild při push na
+      content/slovnik|hodinari|soupis a data/hodinari.ts). A.13.3 mode
+      persistence už hotová ve V1 (localStorage `csh-editor-settings`).
 - [ ] **A.20 V2 link picker — auto-detect mode** (~5 h) — AI scanuje text
       za entity (jména, místa, díla), tečkovaný podtisk pod nelinkovanými.
       Hover → tooltip „Vložit odkaz?".
@@ -231,12 +234,11 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
       **Akce pro Davida:** přidat 3 repo secrets v
       https://github.com/csh-cz/web/settings/secrets/actions
       (`R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`).
-- [partial] **CI cleanup** — staré Cloudflare Pages preview deployments smazat:
-      - [x] 2026-05-12 — `scripts/cleanup-cf-pages-deployments.mjs` + `pnpm cf:cleanup`.
-        Dry-run defaultně, `--apply` pro reálné mazání. `--days N` cutoff (default 30).
-        Vyžaduje `CF_API_TOKEN` v `.dev.vars` (Pages Edit permission).
-      - [ ] User: jednorázově vytvořit token v CF dashboard a spustit
-        `pnpm cf:cleanup --apply` pro skutečné vyčištění.
+- [x] **CI cleanup** — hotov 2026-05-12. `scripts/cleanup-cf-pages-deployments.mjs`
+      + `pnpm cf:cleanup` s `--days N` (preview cutoff) a `--keep-prod N`
+      (production retention). User vytvořil CF API token + spustil `--apply`:
+      **1026 → 140 deployů** (450 hodinarium-eu prod + 436 horologie-cz prod
+      smazáno, top 50 prod + 20 preview na app zachováno).
 
 ## A.8 — Obsah (automatizace)
 
