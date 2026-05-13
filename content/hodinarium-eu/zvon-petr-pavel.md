@@ -6,13 +6,9 @@ originalUrl: "https://hodinarium.eu/zvon_petr_pavel.htm"
 lastModified: "Sun, 23 Apr 2017 20:02:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:39.148Z"
-tldr: |
-  Hlavní zvon soběslavské věže.
-  Vysvěcený v roce 1492, přelit v roce 1663.
-
-  SPODNÍ PRŮMĚR 144 CM
-  HMOTNOST cca 1800 KG (původní uváděná hmotnost 1440 kg)
-  HMOTNOST SRDCE cca 100 KG
+tags:
+  - sobeslav
+tldr: 'Hlavní zvon soběslavské věže o průměru 144 cm a hmotnosti přibližně 1800 kg, přelitý roku 1663 mistry Štěpánem Pricqueyem a jeho bratrem Janem — bohatě zdobený reliéfy světců a latinskými nápisy.'
 ---
 ![petrpavel 1](/img/vez/zvony/f/petrpavel1.jpg)
 

@@ -8,13 +8,18 @@ lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.524Z"
 manualEdit: true
-tldr: "Inv. č. 32. Čtvrťový stroj z roku 1882, zakoupený farářem Rathauským pro kostel v České Skalici (Jan Prokeš, Sobotka). Robertův krok, železný kovaný rám, spouštění bití bez náběhu."
+tldr: 'Inv. č. 32. Čtvrťový stroj Jana Prokeše ze Sobotky (1882), zakoupený farářem Rathauským pro kostel sv. Anny v České Skalici. Železný kovaný rám, Robertův krok, spouštění bití bez náběhu — pro Prokeše typické.'
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - funkcni
   - krok-benoit-robert
+  - prokes
+  - 1800s
+  - zavazi
+  - kyvadlo
+  - cesko
 karta:
   inventarniCislo: "32"
   umisteni: "Hlavní sál"

@@ -9,7 +9,7 @@ originalUrl: "https://hodinarium.eu/podebrady1b.htm"
 lastModified: "Wed, 26 Apr 2017 16:16:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:12.346Z"
-tldr: 'Nejnovější atrakcí poděbradských lázní je květinový orloj. Ale tou atrakcí není snad jenom orloj sám, nýbrž také hloučky, které k sobě přitahuje.…'
+tldr: 'Sebrané dobové reflexe od první zprávy Lázně Poděbrady 1937 po komentáře M. Malovce — od fascinace odbíjejícím trpaslíkem až po polemiku s přestavbou parku roku 2006.'
 ---
 ## Poděbradský orloj
 

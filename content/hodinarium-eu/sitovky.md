@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:42.366Z"
 tags:
   - sitovky
-tldr: 'Hodiny, které jdou, ale netikají.'
+tldr: 'Princip synchronního motoru odvozujícího frekvenci od kmitočtu sítě 50 Hz; mnohopólové provedení rotorů a typické kombinace s lampou, budíkem nebo reproduktorem (Metamec, Rufa).'
 ---
 **Hodiny, které jdou, ale netikají.**
 

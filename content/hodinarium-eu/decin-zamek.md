@@ -2,11 +2,14 @@
 title: "Zámek Děčín"
 slug: "decin-zamek"
 category: "sbirka"
+tags:
+  - decin
+  - historie-spolku
 originalUrl: "https://hodinarium.eu/decin_zamek.htm"
 lastModified: "Sat, 22 Apr 2017 22:36:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:09.253Z"
-tldr: 'Expozice časoměrných strojů sídlí na zámku Děčín. Zde uvádíme jen krátkou informaci o zámku. Ostatní najdete na stránkách zamekdecin.cz.'
+tldr: 'Stručná historie sídla expozice — přemyslovský hrad nad soutokem Ploučnice a Labe, klasicistně sjednocený koncem 18. století, s Růžovou zahradou, jižními terasami a Dlouhou jízdou do města.'
 ---
 ![Zámek Děčín](/img/decin/zamek_decin.jpg)
 

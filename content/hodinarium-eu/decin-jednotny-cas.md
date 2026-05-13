@@ -9,7 +9,13 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:29.942Z"
 relatedKarty:
   - inv-100-strojek-hainz
-tldr: '![podružné hodiny art decoDvoje stolní podružné hodiny s otočnou kotvou](/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg)'
+tags:
+  - stolni
+  - jednotny-cas
+  - elektromagneticke
+  - decin
+  - 1900s
+tldr: 'Dvojice stolních podružných hodin v děčínské expozici — anonymní art-deco se strojkem Siemens 1913 (otočná Z-armatura, šnekový převod) a vzácný kus se značením pražské firmy Jednotný čas.'
 ---
 [![podružné hodiny art deco](/img/elektrika/jednotny_cas/artdeco/celek_artdeco.jpg)Dvoje stolní podružné hodiny s otočnou kotvou](/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg)
 

@@ -9,7 +9,7 @@ originalUrl: "https://hodinarium.eu/svarcvaldky_stroje2.htm"
 lastModified: "Wed, 26 Apr 2017 13:44:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:50.491Z"
-tldr: 'Tento typ stroje švarcvaldek je dnes poměrně vzácný. Kyvadlo je umístěno za zadní deskou stroje- mezi deskou a stěnou.…'
+tldr: 'Vzácný typ černoleských hodin s kyvadlem za zadní deskou stroje, odsazenou třemi sloupky (Stollen) — typicky polodřevěné z první poloviny 19. století, zde s celokovovými koly a bitím v celou hodinu.'
 ---
 Tento typ stroje švarcvaldek je dnes poměrně vzácný. Kyvadlo je umístěno za zadní deskou stroje- mezi deskou a stěnou. Stroj tedy nemůže přiléhat přímo na stěnu a musí být odsazen pomocí tří sloupků (německy sloupek = e Stolle, r Stollen), umístěných na zadní desce, proto jsou hodiny označovány jako "štolové".
 

@@ -4,12 +4,14 @@ slug: "datumatik"
 category: "konstrukce"
 tags:
   - mechanicke
+  - stolni
+  - datumatic
   - 1900s
 originalUrl: "https://hodinarium.eu/datumatik.htm"
 lastModified: "Wed, 26 Apr 2017 16:00:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:04.066Z"
-tldr: 'Na našem serveru dělíme časoměrné přístroje na hodiny, hodinky, minutky, sekundovky a dňovky - tedy hodiny s kalendářem.…'
+tldr: 'Pražská konstrukce věčného kalendáře Ing. Zdeňka Jiskry (patent 1937) — soustava pěti zubatých kotoučků a vačkové páky, vyráběno firmou Metalco a Hodinářským družstvem Praha do roku 1952.'
 ---
 ![Datumatic 1](/img/datumatic/foto_0001.jpg)
 

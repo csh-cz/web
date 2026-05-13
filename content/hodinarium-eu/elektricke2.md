@@ -8,7 +8,7 @@ originalUrl: "https://hodinarium.eu/elektricke2.htm"
 lastModified: "Wed, 24 May 2017 08:25:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:40.599Z"
-tldr: 'Druhou skupinou mechanických elektrifikovaných hodin jsou hodiny s impulzem dodávaným do oscilátoru. Může se jednat o kyvadlové hodiny, například hodiny ATO nebo hodiny Bulle.…'
+tldr: 'Mechanické stroje, kde elektromagnetický impulz dodává energii přímo do oscilátoru (kyvadla či setrvačky). Vyšší přesnost než klasický kotvový krok, ilustrovaná na hodinách ATO, Bulle, Elchron Polná a Pulsynetic.'
 ---
 **D**ruhou skupinou mechanických elektrifikovaných hodin jsou hodiny s impulzem dodávaným do oscilátoru. Může se jednat o [kyvadlové](/slovnik/kyvadlo) hodiny, například hodiny ATO nebo hodiny Bulle. Elektromagnetický popud může být dodáván i do [setrvačky](/slovnik/setrvacka), jako v dále uvedených hodinách Elchron Polná. Výhodou elektromechanického řešení je to, že imulz je dodáván ve stejném ukamžiku, kdy oscilátor postrkuje hodinový stroj. Kompenzuje se tak účinek zrychlení kyvu postrkem a zbrždění kyvu vlivem odporu stroje. U klasických mechanických strojů jsou tyto úhlové výseče rozdílné a dochází tak k střídavému urychlování a zpožďování oscilátoru. Elektromagnetický pohon oscilátoru má tak z principu větší přesnost chodu.
 

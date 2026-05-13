@@ -7,7 +7,10 @@ originalUrl: "https://hodinarium.eu/nocturnal.htm"
 lastModified: "Sun, 17 May 2020 08:27:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:17.951Z"
-tldr: 'Ve dne k určení času slouží sluneční hodiny. V noci bylo možné k určení času využít postavení hvězd. Noční hodiny ovšem neukazují sami. Bylo třeba nějakým přístrojem postavení hvězd změřit.…'
+tags:
+  - kuriozita
+  - 1700s
+tldr: 'Středověký přístroj na určení nočního času z natočení Velkého vozu vůči Polárce. V Hodináriu je torzo s ulomeným držadlem, latinskými zkratkami měsíců a zvěrokruhem; rameno alhidády čte hvězdný čas přepočtený na místní.'
 ---
 ![princip měření](/img/nocturnal/princip_mereni.jpg)
 

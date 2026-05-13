@@ -9,8 +9,12 @@ scrapedAt: "2026-04-29T00:00:00.000Z"
 manualEdit: true
 author: "Český spolek horologický"
 tags:
-  - evropa
-tldr: 'Slovenský orloj otevřený v roce 2009 ve Staré Bystrici — největší dřevěná socha Sedembolestnej Panny Marie.…'
+  - vezni
+  - mechanicke
+  - 2000s
+  - slovensko
+  - popularizace
+tldr: 'Moderní astronomický stroj v Staré Bystrici (2009) navazuje na středoevropskou orlojovou tradici; sochařský doprovod (V. Lovišek) tvoří největší dřevěná socha Sedembolestné Panny Marie, mechaniku dodal závod Vyhne.'
 ---
 
 Slovenský orloj otevřený v roce 2009 ve Staré Bystrici — největší dřevěná socha Sedembolestnej Panny Marie. Současné dílo navazující na středoevropskou orlojovou tradici, dílo sochaře Viliama Loviška a hodinářů ze závodu Vyhne.

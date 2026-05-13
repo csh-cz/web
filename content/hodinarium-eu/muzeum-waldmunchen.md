@@ -10,8 +10,12 @@ manualEdit: true
 author: "Český spolek horologický"
 tags:
   - vezni
+  - mechanicke
+  - 1700s
+  - 1800s
+  - 1900s
   - evropa
-tldr: 'Malé věžní muzeum v gotické (později baroknì přestavěné) věži kostela sv. Štěpána ve Waldmünchenu (Bavorsko, ~7000 obyvatel).…'
+tldr: 'Šestnáct hodinových strojů z let 1600–1920 v gotické věži poblíž česko-bavorské hranice (16 km od Klenčí). Originální mechanika je dnes nahrazena elektronikou, ale historický soubor zůstává vystaven.'
 ---
 
 Malé věžní muzeum v gotické (později baroknì přestavěné) **věži kostela sv. Štěpána** ve Waldmünchenu (Bavorsko, ~7000 obyvatel). Vzdáleno pouze 16 km od Klenčí pod Čerchovem; od hraničního přechodu Lísková cca 6 km pěšky.

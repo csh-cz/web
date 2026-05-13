@@ -4,8 +4,14 @@ slug: "panel-1-hipp-wagner-brillie"
 category: "sbirka"
 tags:
   - panel-1
+  - jednotny-cas
   - elektricke
+  - elektromagneticke
+  - kyvadlo
+  - 1800s
   - hipp
+  - wagner
+  - brillie
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/panel-1-hipp-wagner-brillie"
 lastModified: null
 sourceCharset: "utf-8"
@@ -21,7 +27,7 @@ relatedKarty:
   - inv-89-maticni-zenith
   - inv-90-maticni-ericsson
   - inv-91-hodiny-kienzle
-tldr: 'Kyvadlo s Hippovým kontaktem, podružné hodiny Hipp 1860, matiční hodiny Wagner s Grahamovým krokem a elektromagnetickým natahováním, francouzské Brillié a kyvadlový Zenith s Ferrarisovým motorem.'
+tldr: 'Pět zástupců rané elektrické časomíry 19. století — Hippův kontakt s automatickým spouštěním, mechanicky natahovaný stroj s Huyghensovým řetězem, francouzský půlminutový systém a Ferrarisův pohonný motor 70 V.'
 ---
 
 ![Panel 1 v Sálu elektro — Hipp, Wagner, Brillié, Zenith](/img/panely/panel-1.jpg)

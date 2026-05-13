@@ -9,7 +9,7 @@ originalUrl: "https://hodinarium.eu/podebrady.htm"
 lastModified: "Wed, 26 Apr 2017 16:14:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:11.773Z"
-tldr: 'Květinové hodiny v parku lázní v Poděbradech jistě patřily mezi hodiny, které by měl znát každý. Náležely ke koloritu města. Od roku 1932 byly námětem mnoha pohlednic.…'
+tldr: 'Lázeňská dominanta od roku 1932 prošla v roce 2006 zásadní přestavbou — výměna stroje i grafické úpravy vyvolala kritickou diskusi o hranici mezi rekonstrukcí a náhradou památky.'
 ---
 !
 

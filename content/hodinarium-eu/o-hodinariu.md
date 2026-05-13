@@ -2,13 +2,20 @@
 title: "O Hodináriu"
 slug: "o-hodinariu"
 category: "sbirka"
+tags:
+  - vezni
+  - mechanicke
+  - elektricke
+  - cesko
+  - decin
+  - historie-spolku
 originalUrl: "https://hodinarium.eu/decin_koncepce.htm"
 lastModified: "Sun, 15 Nov 2020 19:20:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:23.898Z"
 relatedKarty:
   - inv-1-vezni-hiemann-1884
-tldr: 'Expozice věžních a sbírkových hodin na zámku Děčín. Vznikla v roce 2015 přesunem Věžního muzejíčka ze Soběslavi do podkrovních prostor zámku.'
+tldr: 'Koncepce děčínské podkrovní expozice (od 2015): prolínání funkčních věžních strojů, fotodokumentace pražského orloje S. Marušáka a výtvarné galerie. Stěžejními akvizicemi jsou Prokešův komplet z Býchor a Hiemann z Podmokel.'
 ---
 ![Zámek Děčín](/img/decin/zamek_decin.jpg)
 

@@ -2,11 +2,16 @@
 title: "Hodiny synchronizované systémem GPS respektive GNSS"
 slug: "gps-sakul"
 category: "projekty"
+tags:
+  - digi
+  - gps-rizeno
+  - elektricke
+  - diy
 originalUrl: "https://hodinarium.eu/GPS_Sakul.htm"
 lastModified: "Tue, 23 Jun 2020 10:27:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:46.678Z"
-tldr: 'V roce 2020 jsme do Hodinária dostali prototyp hodin řízených signálem z družice. Jde o hodiny popsané na webu sakul.cz včetně podrobné dokumentace pro vlastní stavbu.…'
+tldr: 'Prototyp digitálních hodin s GPS modulem Quectel L80 a procesorem ATMEGA328P. Vestavěné RTC družicového modulu zajišťuje chod i při občasném výpadku signálu a synchronizaci do 3 sekund po zapnutí.'
 ---
 V roce 2020 jsme do Hodinária dostali prototyp hodin řízených signálem z družice. Jde o hodiny popsané na [webu sakul.cz](https://www.sakul.cz/gps-hodiny-v2-pe2-2015/n/) včetně podrobné dokumentace pro vlastní stavbu. Rozšířila se tak část expozice věnovaná systémům [synchronizace hodin](/konstrukce/synchronizace-hodin).
 

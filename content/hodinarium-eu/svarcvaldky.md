@@ -8,7 +8,7 @@ originalUrl: "https://hodinarium.eu/svarcvaldky.htm"
 lastModified: "Wed, 26 Apr 2017 13:42:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:48.951Z"
-tldr: 'Švarcvaldky - Schwarzwald Uhren - Hodiny z Černého lesa - Black Forest Clock - Polodřeváky - Selské hodiny - Selky - Německé hodiny - Šotské hodiny - Škoťáky - Sorg - Jockele - Lidové hodiny - Kukačky. . . .…'
+tldr: 'Lidové hodiny z německého Schwarzwaldu vyráběné od poloviny 17. století — typologie podle rozměrů stroje (Sorg, Jockele, Schottenwerk, Normalwerk, Achttage) a vliv na českou produkci včetně chomutovské firmy Kienzle.'
 references:
   - title: "Dělení švarcvaldek podle encyklopedie Wikipedia"
     url: "http://de.wikipedia.org/wiki/Schwarzwalduhr"

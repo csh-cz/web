@@ -3,12 +3,14 @@ title: "Fenomén věžních \"muzeí\""
 slug: "vezni-muzejicko-evropa"
 category: "muzea"
 tags:
+  - vezni
   - evropa
+  - cesko
 originalUrl: "https://hodinarium.eu/vezni_muzejicko_evropa.htm"
 lastModified: "Fri, 22 Nov 2019 23:29:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:32.434Z"
-tldr: 'Je něco velmi uspokojivého, když se nevzhledný a zrezivělý kus stroje vrací zpět do života jako krásná kinetická socha. Mark Frank'
+tldr: 'Přehled českých i evropských muzeí instalovaných do středověkých věží a kostelních prostor — od Jindřišské věže a prostějovské radnice po Gdaňsk, Mindelheim, Chemnitz a Aschau im Burgenland.'
 ---
 Je něco velmi uspokojivého, když se nevzhledný a zrezivělý kus stroje vrací zpět do života jako krásná kinetická socha. Mark Frank
 

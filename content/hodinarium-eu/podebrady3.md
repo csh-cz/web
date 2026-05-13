@@ -9,7 +9,7 @@ originalUrl: "https://hodinarium.eu/podebrady3.htm"
 lastModified: "Wed, 26 Apr 2017 16:17:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:13.017Z"
-tldr: 'Co by to bylo za veřejné hodiny bez odbíjení času. Věžní hodiny odbíjejí na zvony, protože zvony k věžím patří.…'
+tldr: 'Esej sochaře Petra Skály nad osudem litinové figurky odbíjející na muchomůrku — od umístění u hodin přes opakovaná vyhnání ve jménu boje proti kýči až po úvahu o povaze kýče.'
 ---
 ## O památkách, kýči, umění, trpaslíkovi a humoru
 

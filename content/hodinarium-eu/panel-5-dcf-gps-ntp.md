@@ -2,7 +2,7 @@
 title: Panel 5 — DCF, GPS, NTP a moderní časová synchronizace
 slug: panel-5-dcf-gps-ntp
 category: sbirka
-tldr: Hodiny řízené DCF77, GPS nebo NTP serverem. Lodní hodiny Kappa s mobilní synchronizací; IBM podružné s elektronickým řízením.
+tldr: 'Přehlídka různých zdrojů přesné časové informace — DCF vysílač, GPS přijímač, NTP server přes počítačovou síť, Swatch internetový čas — a hodin, které tyto signály využívají.'
 author: Český spolek horologický
 tags:
   - panel-5

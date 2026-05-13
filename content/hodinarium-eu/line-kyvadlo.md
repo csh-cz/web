@@ -2,10 +2,11 @@
 title: Fyzikální "líné" kyvadlo
 slug: line-kyvadlo
 category: konstrukce
-tldr: Tato stránka se zaměřuje na to, jak jednoduše reálné kyvadlo zpomalit pro nenáročné aplikace a to jinak než prodloužením jeho délky.
+tldr: 'Metody zpomalení reálného závěsu bez prodlužování jeho délky. Strouhalovo diferenciální matematické pojetí, T-konfigurace s rozloženou hmotou a praktická demonstrace na složené soustavě dvouramenných vah.'
 author: Petr Král
 tags:
   - kyvadlo
+  - popularizace
 originalUrl: https://hodinarium.eu/line_kyvadlo.htm
 lastModified: Fri, 30 Jun 2023 11:40:00 GMT
 sourceCharset: windows-1250

@@ -2,7 +2,14 @@
 title: Instalované NTP servery
 slug: decin-ntp
 category: sbirka
-tldr: Skoro veškerá výpočetní technika používá k synchronizaci času družicový systému  GPS většinou zprostředkovaný sítí NTP serverů internetu. V Hodináriuriu je na panelu č.5 vlastní GPS-NTP server stratum 1 a několik připojených NTP serverů.
+tags:
+  - jednotny-cas
+  - ntp-rizeno
+  - gps-rizeno
+  - bodet
+  - decin
+  - 2000s
+tldr: 'Praktická implementace sítě jednotného času přes NTP — podružné hodiny Bodet Profil 930 napájené přes PoE, MikroTik v režimu Broadcast a vlastní GPS-NTP server stratum 1 s monitorem chronyd na Lubuntu.'
 author: Petr Král
 ogImage: /img/elektrika/Bodet/Profil930NTP.png
 relatedKarty:

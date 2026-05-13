@@ -6,7 +6,10 @@ originalUrl: "https://hodinarium.eu/zmizele.htm"
 lastModified: "Wed, 26 Apr 2017 16:14:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:11.445Z"
-tldr: 'Jsou hodiny, které kdysi budily pozornost, a pak se po nich zem slehla. O některých nevíme vlastně nic. A to pod slovo my zahrnuji i odbornou veřejnost.…'
+tags:
+  - vezni
+  - cesko
+tldr: 'Příběhy zmizelých českých hodin a orlojů — votický a novoměstský orloj, motorest Rohlenka, dobříšské muzeum i totální přestavby věžních strojů coby varovné kapitoly památkové péče.'
 ---
 Jsou hodiny, které kdysi budily pozornost, a pak se po nich zem slehla. O některých nevíme vlastně nic. A to pod slovo my zahrnuji i odbornou veřejnost. To je případ **Votického orloje**, o kterém existuje snad jen článek v *Ohníčky mládí, r. IV. (1926-27), str. 145–146* a webová stránka [Česká Sibiř, Čeněk Habart: Votický orloj](http://www.ceskasibir.cz/dok/d328.php). I jiné orloje, například Novoměstský orloj v Praze, zmizely téměř beze stop. U tohoto orloje se to pokusíme napravit alespoň virtuálně a připravujeme jeho stránky. Také nevíme, kde jsou [legendární hodiny mistra Hanuše](/virtualni-muzeum/kardasova-recice) vyrobené pro Jindřichův Hradec? .... Je až překvapivé, jak mnoho nevíme
 

@@ -2,6 +2,12 @@
 title: "Mateční hodiny Brillie"
 slug: "brillie"
 category: "sbirka"
+tags:
+  - jednotny-cas
+  - elektromagneticke
+  - kyvadlo
+  - brillie
+  - 1900s
 originalUrl: "https://hodinarium.eu/brillie.htm"
 lastModified: "Sun, 18 Feb 2018 14:35:00 GMT"
 sourceCharset: "windows-1250"
@@ -10,7 +16,7 @@ manualEdit: true
 thumbnail: "/img/elektrika/brillie/Brillie_x2_m.jpg"
 relatedKarty:
   - inv-268-podruzne-brillie
-tldr: 'Elektromagnetické impulsní mateční hodiny Brilié byly navržené a vyrobené ve Francii. Základní typ s půlsekundovým kyvadlem byl navržen tak, aby každých třicet sekund poskytoval střídavé impulzy pro podřízené hodiny.…'
+tldr: 'Francouzský systém centrálního času s půlsekundovým kyvadlem a třicetisekundovými střídavými impulzy, dochovaný funkční exemplář v Hodináriu i kontext synchronizace přes signál z Eiffelovy věže.'
 ---
 ![Mateční hodiny Brillie v Hodináriu bez ciferníku pro lepší pohled na stroj.](/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg)
 

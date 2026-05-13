@@ -2,11 +2,16 @@
 title: "KAPPA – výrobce námořních hodin master-slave"
 slug: kappa
 category: "projekty"
+tags:
+  - synchronni
+  - jednotny-cas
+  - elektricke
+  - ntp-rizeno
 originalUrl: "https://hodinarium.eu/Kappa.htm"
 lastModified: "Mon, 08 Dec 2025 20:44:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:21.730Z"
-tldr: 'Kappa Orologi Industriali (případně Kappa Time Systems) byla italská firma specializovaná na výrobu přesných hodinových systémů jednotného času, zejména určených pro námořní a průmyslové použití.…'
+tldr: 'Italský výrobce master-slave systémů pro lodní a průmyslové použití, později přesunutý do Jižní Koreje. Typickým exponátem je reverzibilní podružný stroj SSC-321 ovládaný polarizovanými impulzy 24 V.'
 ---
 ![SSC-321 celkový pohled](/img/elektrika/Kappa/Kappa1.jpg)
 

@@ -2,7 +2,7 @@
 title: Pulsynetic - neobvyklá řešení
 slug: pulsynetic
 category: konstrukce
-tldr: Expozice Hodinária byla rozšířená o mateční hodiny z produkce firmy Gent & Co ze série označované jako PUL-SYN-ETIC. Konkrétně jde o "Gents C7 Pulsynetic master clock".
+tldr: 'Konstrukce Gent & Co — mateční stroj C7 s gravitačním impulzem a sériově řazenými podružnými hodinami, See-Saw řízení telegrafem od observatoře, věžní Waiting Train s Hippovým spínáním.'
 author: Petr Král
 tags:
   - pulsynetic

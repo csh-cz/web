@@ -6,9 +6,12 @@ originalUrl: "https://hodinarium.eu/vezni_zikmund1.htm"
 lastModified: "Wed, 26 Apr 2017 16:21:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:15.998Z"
+tags:
+  - vezni
+  - cesko
 relatedKarty:
   - inv-38-soucast-veznich-hodin
-tldr: '!věž JablonecNerad pokračuji v seriálu o zmizelých hodinách. Život to tak ale chce. Narazil jsem na web hodináře z Jablonce nad Nisou, pana Miloše Zikmunda, a přečetl si kauzu opravy hodin na ZŠ Šumava.…'
+tldr: 'Případ neúspěšné rekonstrukce historického stroje na jablonecké škole, kde se nepovedl elektrický nátah a původní stroj nakonec nahradila krokovou motorkem otáčená krabička — svědectví Miloše Zikmunda.'
 ---
 **![věž Jablonec](/img/vezni/Jablonec/ZSSumVezP.gif)N**erad pokračuji v seriálu o zmizelých hodinách. Život to tak ale chce. Narazil jsem na web hodináře z Jablonce nad Nisou, pana **Miloše Zikmunda**, a přečetl si kauzu opravy hodin na ZŠ Šumava. S jeho dovolením ji zde přetiskuji. Samozřejmě doporučuji všem celý web **www.hodinyjbc.eu** si přečíst. Jsou tam nemalé hodinářské i nehodinářské zajímavosti.
 

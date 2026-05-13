@@ -3,11 +3,15 @@ title: "Víceletý kalendář Orient"
 slug: "orient"
 category: "projekty"
 author: "Petr Král"
+tags:
+  - naramkove
+  - mechanicke
+  - svet
 originalUrl: "https://hodinarium.eu/orient.htm"
 lastModified: "Wed, 24 Feb 2021 13:07:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:24.375Z"
-tldr: 'Orient Watch Co., Ltd., japonský výrobce hodinek (o firmě), vyrábí víceleté kalendářní hodinky již mnoho let. Dávají vám okamžité odpovědi na otázky například „jaký je datum příštího pátku?“.…'
+tldr: 'Analýza ciferníku víceletých kalendářních hodinek na principu 28letého slunečního cyklu — týž princip stoletých kalendářů na orlojích. Doplněno o stejnou indikaci v sovětských hodinkách Raketa a varování před padělky.'
 ---
 ![Ciferník Orient CEU07005WX](/img/Orient/orientceu07005wx_dial.jpg)
 
