@@ -4,12 +4,14 @@ slug: videnska-skola
 kategorie: profese
 prekladyDe:
   - term: Wiener Schule
+    genus: f
   - term: Wiener Uhren
 prekladyEn:
   - term: Vienna school
   - term: Viennese style
 prekladyFr:
   - term: école viennoise
+    genus: f
 definice: "Hodinářská tradice **Vídně** (a habsburské monarchie), zaměřená na **kvalitní stojací a nástěnné hodiny** — sloupkové, rámové, kyvadlovky závažové (vídeňské regulátory). Vrchol cca 1820–1880, výroba zanikla na konci 19. století s nástupem švýcarské sériové výroby. Vzor pro **švarcvaldskou** (Lorenz Bob 1840) a **českou** sériovou výrobu mosazných strojů."
 pribuzne:
   - hodinář

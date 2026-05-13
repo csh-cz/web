@@ -261,7 +261,8 @@ summary::-webkit-details-marker { display: none; }
  * Sjednoceno s hodinarium-eu — stejná pravidla napříč CSH webem.
  */
 a[href^="http"]:not([href*="wikipedia.org/wiki/"]):not([href*="wikimedia.org/wiki/"]):not([href*="mapy.cz"]):not([href*="mapy.com"]):not([href*="google.com/maps"]):not([href*="maps.google"]):not([href*="goo.gl/maps"]):not([href*="openstreetmap.org"]):not([href*="hodinarium.eu"]):not([href*="hodinarium-eu.pages.dev"]):not([href*="orloj.eu"]):not([href*="horologie.cz"]):not([href*="horologie-cz.pages.dev"])::after {
-  /* `\FE0E` = VS15 selector, force text presentation pro ↗ (U+2197). */
+  /* U+2197 ↗ + U+FE0E text variation selector — vynutí monochromatický
+     text glyph na Safari/iOS kde Apple Color Emoji jinak přebírá. */
   content: '\00A0↗\FE0E';
   font-size: 0.8em;
   color: var(--color-copper);

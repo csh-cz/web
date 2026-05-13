@@ -4,11 +4,13 @@ slug: kompenzace-teplotni
 kategorie: materialy
 prekladyDe:
   - term: Temperaturkompensation
+    genus: f
     zdroj: "Špatný 1882: Compensation → kompensace, vyrovnání"
 prekladyEn:
   - term: temperature compensation
 prekladyFr:
   - term: compensation thermique
+    genus: f
 varianty:
   - kompenzace teplotní
   - "kompensace** (starší pravopis Sušický/Sladkovský)"

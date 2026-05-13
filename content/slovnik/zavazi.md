@@ -11,6 +11,7 @@ prekladyEn:
     zdroj: Saunier 1887
 prekladyFr:
   - term: poids
+    genus: m
     zdroj: Gros 1913
 definice: "Hmotné těleso, které svou tíží přes lano nebo řetízek navíjené na bubnu pohání soukolí; primární zdroj energie u věžních a stojacích hodin."
 pribuzne:

@@ -4,13 +4,17 @@ slug: automatic
 kategorie: hodinky
 prekladyDe:
   - term: Automatik
+    genus: f
   - term: Selbstaufzug
+    genus: m
 prekladyEn:
   - term: automatic
   - term: self-winding
 prekladyFr:
   - term: automatique
+    genus: m
   - term: remontage automatique
+    genus: m
 varianty:
   - automatic
   - "samonatahovací** (preferovaný cs ekvivalent)"

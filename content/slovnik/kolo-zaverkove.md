@@ -4,7 +4,9 @@ slug: kolo-zaverkove
 kategorie: bici
 prekladyDe:
   - term: Schlossscheibe
+    genus: f
   - term: Schloßscheibe
+    genus: f
 prekladyEn:
   - term: count wheel
   - term: locking plate

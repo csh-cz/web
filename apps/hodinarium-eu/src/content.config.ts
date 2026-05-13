@@ -656,6 +656,27 @@ const krokyDetaily = defineCollection({
  */
 const slovnikPreklad = z.object({
   term: z.string(),
+  /**
+   * Gramatický rod substantiva (Špatný 1882 konvence: abbreviace
+   * suffix). Renderuje se kurzívou za termínem:
+   *   - 'm' → m. (maskulinum: der Anker, le cadran)
+   *   - 'f' → f. (femininum: die Krone, la cage)
+   *   - 'n' → n. (neutrum: das Schlagwerk, NE užívá se ve FR)
+   *   - 'mf' → m./f. (společný rod, např. EN „balance" ve cs jako m. nebo f. dle kontextu)
+   *   - 'pl' → pl. (pluralia tantum, ne v hodinářské terminologii časté)
+   *
+   * Užít zejména pro DE/FR substantiva (kde rod není odvoditelný z tvaru).
+   * Pro EN se neuvádí (EN nemá gramatický rod substantiv).
+   * Pro slovesa/přídavná jména/adverbia nech prázdné.
+   */
+  genus: z.enum(['m', 'f', 'n', 'mf', 'pl']).optional(),
+  /**
+   * Volitelná deklinace pro DE substantiva (genitiv sg. + nominativ pl.).
+   * Příklad: 'des Schlagwerks, die Schlagwerke' nebo zkrácená forma
+   * '-(e)s, -e'. Pro FR plurálová forma pokud se liší od pravidelné
+   * (-s default). Renderuje se v menším fontu za termínem.
+   */
+  deklinace: z.string().optional(),
   zdroj: z.string().optional(),                    // Špatný 1882, Šumavský 1851, …
 });
 

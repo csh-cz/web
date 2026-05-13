@@ -4,6 +4,7 @@ slug: perovnik
 kategorie: mechanika
 prekladyDe:
   - term: Federhaus
+    genus: n
   - term: Uhrtrommel
 prekladyEn:
   - term: mainspring barrel

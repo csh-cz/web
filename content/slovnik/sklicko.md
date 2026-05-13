@@ -4,11 +4,13 @@ slug: sklicko
 kategorie: hodinky
 prekladyDe:
   - term: Glas
+    genus: n
   - term: Uhrglas
 prekladyEn:
   - term: crystal
 prekladyFr:
   - term: verre
+    genus: m
   - term: glace
 definice: "Průhledná desková součást krytu hodinek — kryje ciferník a chrání ručky před prachem, vlhkostí a poškozením. Historicky **plné sklo**, později **plexisklo / akryl** (1940–1980), dnes výhradně **safírové sklo** (umělý korund Al₂O₃, Mohs 9) u kvalitních hodinek."
 pribuzne:

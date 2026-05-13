@@ -4,10 +4,12 @@ slug: francouzska-skola
 kategorie: profese
 prekladyDe:
   - term: Französische Schule
+    genus: f
 prekladyEn:
   - term: French school
 prekladyFr:
   - term: école française
+    genus: f
 definice: "Hodinářská tradice **Francie** (Paříž, Besançon, Beaucourt) — **estetické vrcholy 18. století** (pendules, bronzové, Le Roy, Lépine), **chronometrie** (Pierre Le Roy 1748) a **moderní průmysl Besançonu** od 1830. Tradičně specializovaná na **luxury casework** a **astronomické komplikace**."
 pribuzne:
   - hodinář

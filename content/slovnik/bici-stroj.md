@@ -4,12 +4,14 @@ slug: bici-stroj
 kategorie: bici
 prekladyDe:
   - term: Schlagwerk
+    genus: n
     zdroj: "Špatný 1882: Schlagwerk → bicí stroj"
 prekladyEn:
   - term: striking train
   - term: striking work
 prekladyFr:
   - term: sonnerie
+    genus: f
 definice: "Soukolí samostatné od jicího stroje, jehož úkolem je v pravidelných intervalech (celé hodiny, půle, čtvrtě) udeřit kladívkem na cymbál a tím zvukem oznámit čas."
 pribuzne:
   - kladívko

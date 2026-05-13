@@ -4,10 +4,12 @@ slug: werk
 kategorie: hodinky
 prekladyDe:
   - term: Werk
+    genus: n
 prekladyEn:
   - term: movement
 prekladyFr:
   - term: mouvement
+    genus: m
 varianty:
   - werk (germanism v žargonu)
   - "stroj** (Špatný 1882"
