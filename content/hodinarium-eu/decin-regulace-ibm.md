@@ -22,29 +22,12 @@ Systém IBM je však vybaven funkcí samostatného vyrovnání několikaminutov�
 
 Konkrétně je to takto:
 
-1\. až 50. minuta
-
-minutové impulzy po vodičích A i B
-
-normální chod
-
-51\. až 59. minuta
-
-minutové impulzy pouze vodiči A
-
-zastavení předbíhajících se hodin
-
-59.min 10.sec až 59.min 40.sec
-
-impulzy po dvou sekundách po vodiči A
-
-dokrokování zpožděných hodin
-
-60\. minuta a dál
-
-minutové impulzy po vodičích A i B
-
-normální chod
+| Časový interval | Impulzy | Důsledek |
+|---|---|---|
+| 1. až 50. minuta | minutové impulzy po vodičích A i B | normální chod |
+| 51. až 59. minuta | minutové impulzy pouze vodiči A | zastavení předbíhajících se hodin |
+| 59.min 10.sec až 59.min 40.sec | impulzy po dvou sekundách po vodiči A | dokrokování zpožděných hodin |
+| 60. minuta a dál | minutové impulzy po vodičích A i B | normální chod |
 
 Princip nastavení hodin spočívá ve způsobu, jak jsou po vodičích A a B (proti vodiči C) centrální jednotkou vysílány impulzy. Impulzy jsou buď posílány každou minutu na obou nebo jen na jednom z vodičů nebo jsou vysílány zrychlené impulzy každé 2 sekundy. Správně jdoucí podružné hodiny se přepojí samočinně při dosažení své 59. minuty souhlasně s časem hlavních hodin na drát B a tím zamezí příchodu zrychlených impulzů. Další minutové impulzy přijímají drátem B a pak se opět přepojí na drát A.
 

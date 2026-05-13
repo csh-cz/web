@@ -63,36 +63,12 @@ Pro zachování dlouhodobé přesnosti bylo třeba vyřešit dvě klíčové vě
 
 Na obrázku vlevo je zkušební přípravek pro řízení pohybu trimovacího závaží. V RTC modulu není vložena baterie, protože se vyučívá jen frekvence oscilátoru.
 
-Prvek
-
-Funkce
-
-Pin ESP8266
-
-RTC DS3231 (SDA)
-
-Kalibrace času
-
-GPIO0 +Pull-Up 4k7
-
-RTC DS3231 (SCL)
-
-Kalibrace času
-
-GPIO5 +Pull-Up 4k7
-
-IR snímač
-
-Detekce průchodu
-
-GPIO3 (Rx)
-Nelze používat sériovou linku.
-
-Krokový motor
-
-Posun závaží
-
-GPIO12, 13, 14, 16
+| Prvek | Funkce | Pin ESP8266 |
+|---|---|---|
+| RTC DS3231 (SDA) | Kalibrace času | GPIO0 + Pull-Up 4k7 |
+| RTC DS3231 (SCL) | Kalibrace času | GPIO5 + Pull-Up 4k7 |
+| IR snímač | Detekce průchodu | GPIO3 (Rx) — nelze používat sériovou linku |
+| Krokový motor | Posun závaží | GPIO12, 13, 14, 16 |
 
 ## Úvaha o dalších vlivech na přesnost systému
 

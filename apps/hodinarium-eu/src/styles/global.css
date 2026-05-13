@@ -622,14 +622,69 @@ summary::-webkit-details-marker { display: none; }
   margin-top: 0.6rem;
 }
 
-.prose-content ul, .prose-content ol {
-  padding-left: 1.5rem;
+/* === Bullet a číslované listy ===
+   Sjednocený styl napříč články — `::before` namísto `::marker`
+   kvůli přesné kontrole positioning, font-size a serif/tabular num
+   pro `<ol>`. Vizuální paritě s table headers (copper, serif, tnum).
+   Override pro `## Odkazy` sekci (`↗` marker) níže má vyšší specifity. */
+.prose-content ul,
+.prose-content ol {
+  padding-left: 1.75rem;
   margin-block: 1em;
+  list-style: none;
 }
 
-.prose-content ul li::marker {
-  content: '◆ ';
+.prose-content li {
+  position: relative;
+  margin-block: 0.3rem;
+}
+
+/* Outer <ul> = plný kosočtverec */
+.prose-content ul > li::before {
+  content: '◆';
+  position: absolute;
+  left: -1.25rem;
+  top: 0.05em;
   color: var(--color-copper);
+  font-size: 0.85em;
+}
+
+/* Nested <ul> v <ul> = outline kosočtverec (jemnější — vizuální hierarchie) */
+.prose-content ul ul > li::before {
+  content: '◇';
+  opacity: 0.8;
+}
+
+/* <ol> = copper číslo s tečkou, serif + tabular-nums (konzistence s table thead) */
+.prose-content ol {
+  counter-reset: ol-counter;
+}
+.prose-content ol > li {
+  counter-increment: ol-counter;
+}
+.prose-content ol > li::before {
+  content: counter(ol-counter) '.';
+  position: absolute;
+  left: -1.75rem;
+  top: 0;
+  color: var(--color-copper);
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  min-width: 1.5rem;
+  text-align: right;
+  padding-right: 0.25rem;
+}
+
+/* Nested <ol> v <ol> = a) b) c) lowercase alpha (vizuální hierarchie) */
+.prose-content ol ol {
+  counter-reset: ol-counter-nested;
+}
+.prose-content ol ol > li {
+  counter-increment: ol-counter-nested;
+}
+.prose-content ol ol > li::before {
+  content: counter(ol-counter-nested, lower-alpha) ')';
 }
 
 /* === Sekce "## Odkazy" — externí zdroje a literatura ===

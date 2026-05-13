@@ -27,29 +27,12 @@ Přistoupili jsme k vývoji co nejlevnější varianty elektronických hlavních
 - Komunikace s modulem prostřednictvím vnitřního webu. K webu se připojíte pomocí vlastního WiFi modulu nebo z místní sítě LAN. Wifi modul se hlásí jako síť se jménem obvykle NTP...něco a MACadresa vysílače. Web je na IP 192.168.4.1 nebo po připojení do sítě na IP, které poskytl AP. Nastavovací web je chráněn heslem.Vybrat lze wifi, zadat heslo sítě, ke které se modul připojuje a nastavit základní parametry jako jsou čas zobrazený na podružných hodinách linky pro automatické seřízení linky. Web také zobrazuje posledních 25 řádek protokolu chodu. Parametry, které lze zvolit jsou tyto: SE(L)Č/GMT, 12:00/24:00, STOP chodu, délka pulzu a minimální mezery při rychlém chodu \[v rozsahu 75 - 4000 ms\].
 - Pro možnost dálkového sledování je připraven externí monitor.
 
-1\. až 50. minuta
-
-minutové impulsy po vodičíchAiB
-
-normální chod
-
-51\. až 59. minuta
-
-minutové impulsy pouze po vodičiA
-
-zastavení předbíhajících se hodin
-
-59.minuta
-
-15 impulsů po vodičiA
-
-dokrokování zpožděných hodin
-
-60\. minuta a dál
-
-minutové impulsy po vodičíchAiB
-
-normální chod
+| Časový interval | Impulzy | Důsledek |
+|---|---|---|
+| 1. až 50. minuta | minutové impulzy po vodičích A i B | normální chod |
+| 51. až 59. minuta | minutové impulzy pouze po vodiči A | zastavení předbíhajících se hodin |
+| 59. minuta | 15 impulzů po vodiči A | dokrokování zpožděných hodin |
+| 60. minuta a dál | minutové impulzy po vodičích A i B | normální chod |
 
 ## Webové rozhraní [popsáno na stráne hlavních hodit pro polarizované impulzy](/projekty/arduino)
 
