@@ -10,7 +10,7 @@ originalUrl: "https://hodinarium.eu/rizeni_kyvadla.htm"
 lastModified: "Mon, 26 May 2025 10:10:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:21.432Z"
-tldr: 'Přesná mechanická kyvadla jsou obvykle teplotně i barometricky kompenzována. Jednou z jiných cest může být (zejména u historických či věžních hodin) měření doby kyvu například infračerveným optickým s…'
+tldr: 'Experimentální regulátor s ESP8266 — IR čidlo měří periodu, RTC DS3231 kalibruje časovač, krokový motor 28BYJ-48 posunuje trimovací závaží podle odchylky. Web rozhraní přes WiFi.'
 ---
 ![Zkušební přípravek pro digitálně řízené kyvadlo](/img/elektrika/kyvadlo/pripravek.jpg)
 

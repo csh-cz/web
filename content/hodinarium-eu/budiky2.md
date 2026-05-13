@@ -10,7 +10,10 @@ relatedKarty:
   - inv-148-bateriove-kienzle
 tags:
   - budik
-tldr: '![svarcvald budík](/img/budiky1/budik_schw2.jpg)![svarcvald budík](/img/budiky1/budik_schw2b.jpg)'
+  - nastenne
+  - kienzle
+  - 1800s
+tldr: 'Alternativní konstrukce buzení u švarcvaldek bez kroku — hnací soukolí přes vačku a kladívko rozeznívá velký věžový zvonek; doba buzení se nastavuje mosaznou ručkou na skleněném ciferníku.'
 ---
 ![Obrázek z dobového katalogu](/img/budiky1/budik_schw1.jpg)
 

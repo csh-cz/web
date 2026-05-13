@@ -10,11 +10,16 @@ manualEdit: true
 author: "Český spolek horologický"
 tags:
   - vezni
+  - mechanicke
+  - kyvadlo
+  - krok-vreteno
+  - secese
+  - restaurovane
   - cesko
 references:
   - bibKey: 'ProstejovskyOrlojOrlojeu'
     type: odkaz
-tldr: 'Secesní věž radnice v Prostějově prošla v letech 2011 razantní přestavbou financovanou z Regionálního operačního programu Střední Morava (cca 6 mil. Kč).…'
+tldr: 'Z 46 m vysoké secesní věže turisté pozorují panorama přes čtyři dalekohledy; vystaveno je restaurované kyvadlové soustrojí s vřetenovým krokem a expozice k historii města a orloje (rekonstrukce 2011 za 6 mil. Kč).'
 ---
 
 Secesní věž radnice v Prostějově prošla v letech 2011 razantní přestavbou financovanou z **Regionálního operačního programu Střední Morava** (cca 6 mil. Kč). Cílem bylo zpřístupnit věž, posílit cestovní ruch a prezentovat **místní restaurovaný orloj**.

@@ -3,11 +3,18 @@ title: "Torzo gotického stroje z Veliké Vsi"
 slug: "decin-velika-ves"
 category: "sbirka"
 author: "Petr Král"
+tags:
+  - vezni
+  - gotika
+  - torzo
+  - nalezovy
+  - decin
+  - zavazi
 originalUrl: "https://hodinarium.eu/decin_velika_ves.htm"
 lastModified: "Tue, 27 Apr 2021 15:43:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:24.479Z"
-tldr: 'V kostele sv. Vavřince ve Veliké Vsi se zachovalo torzo hodin s gotickými prvky. Wikipedie uvádí, že první zmínky o obci i o kostele pochází už ze třetí čtvrtiny 13. století.…'
+tldr: 'Torzo bicího mechanismu s klecovým rámem, kovanými gotickými hřeby na rozích sloupků a vratidly na lanovém bubnu — pravděpodobně nejstarší stroj v děčínské expozici, restaurováno bez doplňování.'
 ---
 ![Kostel sv. Vavřince, Veliká Ves](/img/decin/gotika/Kostel_sv._Vavrince.jpg)
 

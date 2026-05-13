@@ -9,12 +9,16 @@ scrapedAt: "2026-04-29T17:00:00.000Z"
 manualEdit: true
 author: "Český spolek horologický"
 tags:
+  - nastenne
+  - mechanicke
+  - baroko
+  - 1700s
   - cesko
   - praha
 references:
   - bibKey: 'KlementinumNarodniKnihovna'
     type: odkaz
-tldr: 'Komplex barokních budov bývalé jezuitské koleje v centru Prahy, dnes hlavní sídlo Národní knihovny. Pro horologa zajímavé hned ze dvou důvodů:'
+tldr: 'V bývalé jezuitské koleji jsou pro hodinářskou historii zásadní Kleinovy barokní astronomické hodiny, Trautmannsdorfské nástěnné stroje a astronomická věž, z níž se od 18. století odvozovala přesná časomíra pro celé město.'
 ---
 
 Komplex barokních budov bývalé jezuitské koleje v centru Prahy, dnes hlavní sídlo Národní knihovny. Pro horologa zajímavé hned ze dvou důvodů:

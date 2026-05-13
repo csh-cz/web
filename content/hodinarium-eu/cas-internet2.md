@@ -2,11 +2,15 @@
 title: "Zobrazení času na www 2 - č as generuje server"
 slug: "cas-internet2"
 category: "projekty"
+tags:
+  - digi
+  - ntp-rizeno
+  - kuriozita
 originalUrl: "https://hodinarium.eu/cas_internet2.htm"
 lastModified: "Wed, 26 Apr 2017 16:12:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:08.659Z"
-tldr: 'Nejjednodušší je zobrazovat čas vždy správně. Nejlépe touto tautologií: Je právě tolik hodin, kolik právě je. S tím ovšem daleko nedojdeme. Se statickým zobrazením máme potíž.…'
+tldr: 'Kompromisní architektura — server jednorázově odešle přesný NTP čas, prohlížeč pak animuje plynutí sekund vlastními zdroji; ukázky služeb thetimenow.com, presnycas.cz a time.gov.'
 ---
 Nejjednodušší je zobrazovat čas vždy správně. Nejlépe touto tautologií: *Je právě tolik hodin, kolik právě je.* S tím ovšem daleko nedojdeme. Se statickým zobrazením máme potíž. Většinou nám nestačí **vyjádření času, které jednorázově vydal www server**. Nápis aukce končí za 2 minuty, nám moc neřekne, když nevíme, před jakou dobou tuto informaci server vyrobil. Pomoci musí aktivní technologie na straně prohlížeče. Bylo by možné informaci periodicky opakovat třeba pomocí tagu Refresh a pravidelně žádat server o zaslání času znovu. Ovšem to by vyvolávalo zbytečnou potřebu přenosu ostatních dat stránky.
 

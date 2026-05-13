@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:53.309Z"
 tags:
   - vodni
-tldr: 'TIME FLOW CLOCK — hodiny protékajícího času.'
+tldr: 'Skleněné vodní hodiny Bernarda Gittona (1979) s pětistupňovou kaskádou sifonů a hladinou ve dvou trubicích zobrazující hodiny i minuty — světově známé instalace včetně dětského muzea v Indianapolis.'
 ---
 **TIME FLOW CLOCK** — hodiny protékajícího času.
 

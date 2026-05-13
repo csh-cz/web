@@ -2,11 +2,7 @@
 title: Vyšívané květinové hodiny - hodiny jedna báseň ??
 slug: gobelin
 category: virtualni-muzeum
-tldr: |-
-  Trpaslík a jeho rýč-
-  prý že je to leda kýč,
-  jak ale odpovědět na otázku -
-  co jsou hodiny vyšívané na zakázku ??
+tldr: 'Sbírka vyšívaných nástěnných hodin coby kuriózních dekorativních předmětů, doprovázená čtyřverším o tom, kam zařadit hodiny šité na zakázku.'
 author: JIndřiška Bumerlová
 tags:
   - vysivane

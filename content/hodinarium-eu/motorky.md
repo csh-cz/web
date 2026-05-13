@@ -2,11 +2,14 @@
 title: "Motorky z hodinek"
 slug: "motorky"
 category: "sbirka"
+tags:
+  - kuriozita
+  - diy
 originalUrl: "https://hodinarium.eu/motorky.htm"
 lastModified: "Wed, 26 Apr 2017 14:00:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:56.306Z"
-tldr: 'Na jiném místě tohoto webu se tvrdí, že na světě neexistuje žádná hmota nebo věc, ze které by se nedaly udělat hodiny. Tato stránka je tak trochu protipól. Ukazuje, že není nic, co by se nadalo udělat z hodinek.…'
+tldr: 'Galerie modelů motocyklů sestavených ze součástek z rozebraných hodinek — protipól tezi „cokoli se může stát hodinami“. Ukázka recyklační a kreativní stránky hodinářského hobby.'
 ---
 Na [jiném místě](/clanky/sestka) tohoto webu se tvrdí, že na světě neexistuje žádná hmota nebo věc, ze které by se nedaly udělat hodiny. Tato stránka je tak trochu protipól. Ukazuje, že není nic, co by se nadalo udělat z hodinek. Zde je to přehlídka motorek.
 

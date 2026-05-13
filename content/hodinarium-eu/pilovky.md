@@ -2,7 +2,7 @@
 title: Pilovky se samonivelačním fyzikálním kyvadlem
 slug: pilovky
 category: konstrukce
-tldr: V roce 2014 se na Aukru prodaly pilové hodiny se samonivelačním fyzikálním kyvadlem. Prodejce uváděl, že se jedná o velmi zajímavé, staré, postříbřené, pilové hodiny, vyrobené kolem roku 1880 - 1900. O použití fyzikálního "líného kyvadla" se nezmínil.
+tldr: 'Vzácný typ stroje s váhou stroje sjíždějícího po ozubené tyči, zpomalený fyzikálním („líným") kyvadlem s protizávažím nahoře, doplněný samonivelací kotvy proti naklonění podstavy.'
 author: ''
 tags:
   - kyvadlo

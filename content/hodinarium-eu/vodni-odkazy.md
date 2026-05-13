@@ -8,7 +8,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:55.171Z"
 tags:
   - vodni
-tldr: 'Bohužel odkazy rychle stárnou. Najdete-li lepší napište.'
+tldr: 'Soubor externích odkazů na tematiku vodních hodin — od Wikipedie přes stránky o Bernardu Gittonovi a Ktesibiovi až po praktické návody k výrobě a YouTube zdroje.'
 ---
 Bohužel odkazy rychle stárnou. Najdete-li lepší napište.
 

@@ -5,6 +5,11 @@ category: "virtualni-muzeum"
 tags:
   - vezni
   - cesko
+  - restaurovane
+  - kyvadlo
+  - zavazi
+  - liebing
+  - 1800s
 references:
   - bibKey: 'Anatomievarhancz'
     type: odkaz
@@ -13,7 +18,7 @@ originalUrl: "https://hodinarium.eu/janovice.htm"
 lastModified: "Wed, 26 Apr 2017 16:20:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:15.610Z"
-tldr: "Kostel sv. Josefa v Janovicích u Frýdku - Místku (od roku 2000 národní kulturní památka) v sobě skrývá mnoho pozoruhodností. Zajímavý je i jeho \"technický\" inventář.…"
+tldr: 'Generální oprava věžních hodin Rich. Liebing z Vídně (1899) v kostele sv. Josefa po sto letech provozu — renovace rozvodu, kardanových kloubů a převodovek 1:12, doplnění elektrického nátahu se zachováním původního stroje.'
 ---
 ![Pohled na kostel sv. Josefa v Janovicích u Frýdku-Místku](/img/vezni/janovice/janovice.jpg)
 

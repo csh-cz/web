@@ -4,12 +4,14 @@ slug: ato
 category: "konstrukce"
 tags:
   - elektromagneticke
+  - kyvadlo
   - 1900s
+  - junghans
 originalUrl: "https://hodinarium.eu/ATO.htm"
 lastModified: "Wed, 26 Apr 2017 13:33:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:40.873Z"
-tldr: 'Elektrické hodiny ATO jsou nádhernou etapou vývoje elektrických hodin. Jsou nejen technicky zajímavé, ale lahodí i oku. Nejčastěji jsou hodiny ATO spojovány s firmou Junghans. Je to možná trochu jinak.…'
+tldr: 'Princip elektromagnetického popudu kyvadla s pohyblivým magnetem a nehybnou cívkou — vynález Leona Hatota z roku 1923, masivně vyráběný i firmami Junghans, Hau či Haller & Benzing.'
 ---
 Elektrické hodiny **ATO** jsou nádhernou etapou vývoje elektrických hodin. Jsou nejen technicky zajímavé, ale lahodí i oku. Nejčastěji jsou hodiny **ATO** spojovány s firmou Junghans. Je to možná trochu jinak. Za zakladatele systému lze považovat francouzského vynálezce jménem **Leon Hatot**, který pojmenoval společnost i uspořádání kroku podle výslovnosti svého jména ***"Ah-toe"***, tedy **ATO**
 

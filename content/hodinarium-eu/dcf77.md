@@ -2,6 +2,11 @@
 title: "DCF 77 — rádiem řízené hodiny"
 slug: "dcf77"
 category: "projekty"
+tags:
+  - radio-rizeno
+  - atomove
+  - 1900s
+  - 2000s
 author: "Petr Král"
 originalUrl: "https://hodinarium.eu/dcf77.htm"
 lastModified: "Sat, 16 Aug 2025 15:13:00 GMT"
@@ -9,7 +14,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:46.354Z"
 manualEdit: true
 ogImage: "/img/dcf_analog.jpg"
-tldr: 'Hodiny se synchronizovaly již v dávné minulosti. Zvukem (výstřel z děla), světlem (mávnutí praporem), později vysíláním časového signálu v rádiu či v televizi.…'
+tldr: 'Princip a parametry dlouhovlnného časového signálu 77,5 kHz z vysílače Mainflingen — od pulzně šířkové modulace pod vedením PTB Braunschweig až po analogové, digitální i náramkové aplikace.'
 ---
 ![Analogový DCF budík — kombinace klasického ciferníku a atomové přesnosti](/img/dcf_analog.jpg)
 

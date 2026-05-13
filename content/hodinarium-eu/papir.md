@@ -6,7 +6,7 @@ originalUrl: "https://hodinarium.eu/papir.htm"
 lastModified: "Wed, 26 Apr 2017 14:05:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:56.636Z"
-tldr: 'Hodinové schránky jsou ze železa, z mosazi, ze dřeva, z mramoru, ... ale z papíru?'
+tldr: 'Unikátní zakázkové schránky z papíru od českého výtvarníka Petra Lukáše Racka (Papírový svět) — některé kusy vznikly v jediném exempláři k osobní příležitosti.'
 ---
 ![kolekce papírových hodin](/img/papiraky/papiraky1.jpg)
 

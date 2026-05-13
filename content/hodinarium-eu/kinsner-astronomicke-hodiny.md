@@ -5,11 +5,17 @@ category: "zajimavosti"
 tags:
   - popularizace
   - 1800s
+  - stolni
+  - nastenne
+  - kyvadlo
+  - zavazi
+  - pero
+  - cesko
 originalUrl: "https://www.digitalniknihovna.cz/nkp/uuid/uuid:b4e9a040-435d-11dd-b505-00145e5790ea"
 lastModified: "2026-05-04T00:00:00Z"
 sourceCharset: "utf-8"
 scrapedAt: "2026-05-04T00:00:00Z"
-tldr: "Astronomické hodiny pro privátní obytné prostory, které [Edmund Kinšner](/hodinari/edmund-kinsner) (1846–1913) vyráběl v Chlumci nad Cidlinou v 90. letech 19. století. Ukazovaly polohu Slunce ve zvěrokruhu, fáze Měsíce, okamžiky východu a západu Slunce nastavitelné podle zeměpisné šířky a v provedení s běžnými hodinami i čas v hodinách a minutách. Astronomické výpočty pro Kinšnera prováděl Karel Steinich, ředitel měšťanské školy v Praze. Kinšner si na konstrukci nechal udělit rakousko-uherské privilegium č. 5963/1895 a německý říšský patent č. 82 689. Jeden exemplář dodal v roce 1897 do prezidia rakouské Říšské rady ve Vídni. Cena se v roce 1898 pohybovala od 80 do 500 zlatých — částka srovnatelná s ročním platem dělníka až vyššího úředníka."
+tldr: 'Salonní mechanismus Edmunda Kinšnera z Chlumce nad Cidlinou (patent DRP 82 689, privilegium 5963/1895). Ukazuje polohu Slunce ve zvěrokruhu, fáze Měsíce a okamžiky východu/západu kalibrované pro zeměpisnou šířku.'
 author: "David Knespl"
 referenceStyle: "numbered"
 references:

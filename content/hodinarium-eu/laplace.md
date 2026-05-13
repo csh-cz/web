@@ -2,11 +2,15 @@
 title: "LAPLACE"
 slug: "laplace"
 category: "zajimavosti"
+tags:
+  - synchronni
+  - elektricke
+  - 1900s
 originalUrl: "https://hodinarium.eu/laplace.htm"
 lastModified: "Sun, 24 Mar 2024 22:15:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:42.969Z"
-tldr: 'Síťové synchronní hodiny jak z Verneových románů. Stroj přímo svádí k přestavbě na steampunkové skeletové hodiny.'
+tldr: 'Síťové synchronní hodiny ing. Roberta Michla z Košic (1919–1920) s odstředivým regulátorem otáček synchronního motoru. Vyráběla Továrna na elektrická počitadla v Praze a po licenci též Mauthe v Schwenningenu a Hammond Clock Co. v Chicagu.'
 ---
 Síťové synchronní hodiny jak z Verneových románů. Stroj přímo svádí k přestavbě na steampunkové skeletové hodiny.
 

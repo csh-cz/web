@@ -11,7 +11,12 @@ relatedKarty:
   - inv-38-soucast-veznich-hodin
 tags:
   - vezni
-tldr: 'Do Hodinária byl od soukromého sběratele zapůjčen stroj věžních hodin se zajímavým kyvadlem a vřetenovým krokem. Od sezóny 2013 bude dlouhodobou součástí expozice.'
+  - mechanicke
+  - zavazi
+  - kyvadlo
+  - krok-vreteno
+  - 1700s
+tldr: 'Stroj s vřetenovým krokem a netradičně prodlouženou kyvadlovou tyčí nad hřídel — známky přestavby naznačují původně lihýřovou regulaci a vznik před 18. stoletím.'
 ---
 Do Hodinária byl od soukromého sběratele zapůjčen stroj věžních hodin se zajímavým [kyvadlem](/slovnik/kyvadlo) a vřetenovým krokem. Od sezóny 2013 bude dlouhodobou součástí expozice.
 

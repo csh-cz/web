@@ -14,7 +14,7 @@ tags:
 references:
   - bibKey: 'Uhrenstubeaschauat'
     type: odkaz
-tldr: 'Privátní sbírka převážně věžních hodin v rakouském Burgenlandu (adresa Aschau 49, Oberschützen, PSČ 7432). Shromáždil a muzeum provozuje Ing. Wolfgang Komzak.'
+tldr: 'Soukromá kolekce Ing. Wolfganga Komzaka v Oberschützenu — věžní hodiny napříč epochami (gotika–průmysl), Bratenwender a hodinářské nářadí. Jedno z mála míst, kde lze studovat rakouskou věžní tradici v koncentrované formě.'
 ---
 
 Privátní sbírka **převážně věžních hodin** v rakouském Burgenlandu (adresa Aschau 49, Oberschützen, PSČ 7432). Shromáždil a muzeum provozuje **Ing. Wolfgang Komzak**.

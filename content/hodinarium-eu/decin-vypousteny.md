@@ -7,7 +7,13 @@ lastModified: "Sat, 02 Mar 2019 19:58:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:28.730Z"
 manualEdit: true
-tldr: "Věžní stroj Elektročas z roku 1959 bez vlastního kroku — soukolí uvolní jednou za minutu řídící polarizovaný impulz. Vzácné řešení v českém prostředí, můstek k nově budované expozici elektrických hodin v Hodináriu."
+tags:
+  - vezni
+  - elektricke
+  - elektrocas
+  - decin
+  - 1900s
+tldr: 'Polovičatá konstrukce mezi mechanickým a elektrickým strojem — chodové soukolí, brzdící větrník a zarážka uvolňovaná čtyřpólovým krokovým motorkem; varianty VH1 s diferenciálem i exemplář bez signatury.'
 relatedKarty:
   - inv-50-podruzne-vezni-vh1-elektrocas
 ---

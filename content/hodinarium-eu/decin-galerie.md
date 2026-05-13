@@ -7,7 +7,11 @@ lastModified: "Tue, 13 Aug 2024 09:20:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:24.180Z"
 manualEdit: true
-tldr: "Hodinárium není jen technická expozice — součástí je i galerie uměleckých děl s hodinářskou tématikou. Většina je zapůjčena krátkodobě, několik exponátů je tu trvale."
+tags:
+  - decin
+  - tematicka-vystava
+  - achrer
+tldr: 'Přehled výtvarné části expozice — malovaný orloj Petra Skály a Miroslava Kotrby, hodiny Josefa Achrera z holešovického nádraží, kovaná plastika Zdeňka Legnera a humorná díla Čejky či Krále.'
 relatedKarty:
   - inv-194-podruzny-stroj-elektrocas-maly
 ---

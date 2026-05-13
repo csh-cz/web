@@ -8,7 +8,14 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:26.007Z"
 relatedKarty:
   - inv-14-vezni-hodiny-paul-zieux
-tldr: 'Půlový hodinový stroj s rámem typu flatbed. Strojů s tímto rámem je u nás jako šafránu. Stroj byl zakoupen od věžního hodináře Markuse Burmeistera. Na přání majitele bude částečně restaurován a umístěn do Hodinária.…'
+tags:
+  - vezni
+  - krok-amant
+  - paul-zieux
+  - decin
+  - restaurovane
+  - 1700s
+tldr: 'Restaurování francouzského půlového stroje Paula Zieuxe (kolem 1770) s neobvyklým horizontálním rámem flatbed a dodatečně osazeným Amantovým kolíčkovým krokem — od krabice součástek po funkční expozici.'
 ---
 Půlový hodinový stroj s rámem typu flatbed. Strojů s tímto rámem je u nás jako šafránu. Stroj byl zakoupen od věžního hodináře [Markuse Burmeistera](http://turmuhren-burmeister.de/). Na přání majitele bude částečně restaurován a umístěn do Hodinária. Prodejce uváděl, ze jde o velké francouzské věžní hodiny vyrobené kolem roku 1770. Horizontální montáž stroje, kolíčkový (**[Amantův](/kroky/amantuv-krok)**) krok dodatečně opravovaný nebo doplněný. Stroj je téměř kompletní. Po následném restaurování vynikne, že jde neobvyklý typ!
 

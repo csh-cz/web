@@ -6,7 +6,7 @@ originalUrl: "https://hodinarium.eu/"
 lastModified: "Fri, 11 Jul 2025 15:01:00 GMT"
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-27T17:37:19.849Z"
-tldr: 'Český spolek horologický, Věžní muzejíčko Soběslav a Hodinárium v Děčíně vznikly z obdivu k hodinám. Tento obdiv s námi sdílí více lidí.…'
+tldr: 'Rozcestník Hodinária Děčín — webu Českého spolku horologického a virtuálního muzea s expozicí v podkroví děčínského zámku. Tři směry činnosti: tvorba webu, výzkum pražského orloje a budování fyzické expozice.'
 ---
 **Český spolek horologický**, Věžní muzejíčko Soběslav a **Hodinárium v Děčíně** vznikly z obdivu k hodinám. Tento obdiv s námi sdílí více lidí. Volné seskupení hodinářských fandů postupně přerostlo do občanského sdružení Virtuální muzeum hodin o.s., které se v roce 2015 přetvořilo na Český spolek horologický. To se stalo východiskem pro cestu, která má nyní tři směry.
 

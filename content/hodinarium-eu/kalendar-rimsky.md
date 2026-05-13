@@ -3,13 +3,14 @@ title: "Římský kalendář"
 slug: "kalendar-rimsky"
 category: "zajimavosti"
 tags:
-  - 1700s
+  - slunecni
+  - vodni
   - popularizace
 originalUrl: "https://hodinarium.eu/kalendar_rimsky.htm"
 lastModified: "Mon, 11 Jun 2018 08:48:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:05.516Z"
-tldr: 'Díky laskavosti autora uvádíme celý článek ze serveru ANTIKA.avonet.cz Případný zájemce na něm najde přes třista článků o antice. Doporučujeme.'
+tldr: 'Stručná historie římského kalendáře od Romulova desetiměsíčního pořádku přes Numovy lunární vsuvky a juliánskou reformu (46 př. n. l.) až po pojetí kalend, nón a id. Včetně dělení dne na nestejně dlouhé hodiny.'
 ---
 *Díky laskavosti autora uvádíme celý článek ze serveru [**ANTIKA.avonet.cz**](http://antika.avonet.cz/) Případný zájemce na něm najde přes třista článků o antice. Doporučujeme.*
 

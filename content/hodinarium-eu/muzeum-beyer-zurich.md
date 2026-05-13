@@ -15,7 +15,7 @@ tags:
 references:
   - bibKey: 'BeyerchcomMuseum'
     type: odkaz
-tldr: 'Privátní hodinářské muzeum patřící luxusnímu hodinářství Beyer v centru Curychu (Bahnhofstrasse). Jedna z nejstarších rodinných hodinářských firem ve Švýcarsku — působí nepřetržitě od roku 1760.'
+tldr: 'Sbírka pod prodejnou nejstaršího švýcarského rodinného hodinářství (od 1760) na Bahnhofstrasse — replika de Dondiho astraria z 1364, věžní stroje, Breguet, automaty a hudební mechanismy.'
 ---
 
 Privátní hodinářské muzeum patřící luxusnímu hodinářství **Beyer** v centru Curychu (Bahnhofstrasse). Jedna z nejstarších rodinných hodinářských firem ve Švýcarsku — působí nepřetržitě od roku 1760.

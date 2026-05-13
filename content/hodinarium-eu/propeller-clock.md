@@ -6,7 +6,7 @@ originalUrl: "https://hodinarium.eu/propeller_clock.htm"
 lastModified: "Fri, 13 Apr 2018 15:44:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:46.948Z"
-tldr: 'Občas si myslím, že všechno tady již bylo. Pak se náhle objeví nová myšlenka. A je to tu. Jsou tu magické virtuální vrtulové hodiny. Tato myšlenka se poprvé objevila +- v roce 1996.…'
+tldr: 'Konstrukce s rotujícím LED ukazatelem, kde mikroprocesor synchronizuje záblesky polohou pohybu — od Blickova projektu z roku 1997 přes komerční stroboskopické varianty po patent US 6856303.'
 ---
 **O**bčas si myslím, že všechno tady již bylo. Pak se náhle objeví nová myšlenka. A je to tu. Jsou tu magické virtuální vrtulové hodiny. Tato myšlenka se poprvé objevila +- v roce 1996. Jsme velmi rádi, že na stránkách tohoto našeho virtuálního muzea kuriózních hodin můžeme představit hodiny s rotačním displejem, **reálné hodiny s virtuálním ukazatelem času.
 ***V tomto případě by bylo na místě místo o virtuálním hovořit o vrtuálním ukazateli času (od slova vrtule). Hodinám takto vytvořeným budeme proto říkat **vrtuálky.***

@@ -16,8 +16,16 @@ karta:
   kyvadlo: "délka cca 235 cm"
 relatedKarty:
   - inv-2-vezni-prokes-1868-soubor
+tags:
+  - vezni
+  - prokes
+  - krok-benoit-robert
+  - kyvadlo
+  - zavazi
+  - restaurovane
+  - 1800s
 perex: "Komplet věžních hodin ze zámku Býchory — čtvrťový stroj Jana Prokeše ze Sobotky z roku 1868, doplněný unikátním přídavným zvonicím strojem (vlastní pohon, paličkou rychle po sobě jdoucí údery na hodinový cimbál) a dvojicí cimbálů z Bellmannovy slévárny v Praze, rovněž z roku 1868. Komplet je vystavený v Hodináriu Děčín a je [evidován jako inv. 2](/sbirka/karta/inv-2-vezni-prokes-1868-soubor/)."
-tldr: 'Hodinový stroj s přídavným zvonicím mechanismem a dvěma cimbály z dílny Anny Bellmannové (1868). Vzácný Robertův krok; Prokeš se v témže roce ucházel o opravu Pražského orloje.'
+tldr: 'Komplet stroje, přídavné zvonice a dvou cimbálů Anny Bellmannové ze zámku v Polabí — unikát s patentovaným Robertovým krokem (1852) a kuriozní závěrkou se třemi sériemi úderů.'
 ---
 
 Do Hodinária byl zapůjčen věžní komplet Prokeš 1868 — kompletní soustava hodinového stroje, přídavného zvonicího stroje a dvou cimbálů, původně osazená na zámku Býchory. Hlavními kuriozitami kompletu jsou neobvyklý **[Robertův krok](/kroky/robertuv-krok)** (Adolphe Robert ze Sancerre, patent 1852) a nezvyklé spojení mezi hodinovým a zvonicím strojem.

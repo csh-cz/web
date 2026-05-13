@@ -6,7 +6,7 @@ originalUrl: "https://hodinarium.eu/RickStanley.htm"
 lastModified: "Wed, 26 Apr 2017 13:59:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:55.472Z"
-tldr: 'Na této stránce vyjadřujeme obdiv k nápadům pana Rick Stanley.'
+tldr: 'Americké kuriózní konstrukce — válcové hodiny kutálející se po nakloněné rovině brzděné viskózní kapalinou, doménové, golfové či vláčkové; skrytá elektronika řídí mechanickou iluzi.'
 ---
 Na této stránce vyjadřujeme obdiv k nápadům pana Rick Stanley.
 

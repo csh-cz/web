@@ -6,7 +6,7 @@ originalUrl: "https://hodinarium.eu/razitka.htm"
 lastModified: "Wed, 26 Apr 2017 16:13:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:09.302Z"
-tldr: 'Časové razítko je doplňkový soubor, který pro daný elektronický dokument osvědčuje jeho existenci v určitém čase. Nejčastěji se používá v elektronických podatelnách a při datování smluv a podobných dokumentů.…'
+tldr: 'Princip kvalifikovaného elektronického časového razítka podle zákona č. 297/2016 Sb. a nařízení eIDAS — hash dokumentu podepsaný TSA — a historická paralela mechanických razítek z vrátnice.'
 references:
   - title: "Zákon č. 297/2016 Sb., o službách vytvářejících důvěru pro elektronické transakce"
     url: "https://www.e-sbirka.cz/sb/2016/297"
