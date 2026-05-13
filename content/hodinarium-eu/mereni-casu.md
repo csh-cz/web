@@ -57,7 +57,7 @@ Z hlediska newtonovské mechaniky považujeme čas za veličinu, která se měn�
 
 V **efemeridovém času** je základním jevem rotace Země, z níž byla odvozena sekunda. Tento čas má nepřesnosti, které jsou významné i během jednoho roku.
 
-**HVĚZDNÝ ČAS**
+## HVĚZDNÝ ČAS
 
 Hvězdný čas Q je **hlavním časem** a je **rovný hodinovému úhlu jarního bodu** ^, resp. je roven rektascenzi hvězdy v okamžiku její horní kulminace. Je to tedy vlastně úhel mezi rovinou místního poledníku a rovinou koluru rovnodennosti, udávaný zpravidla v časové míře.
 
@@ -75,17 +75,17 @@ Jestliže tedy doba zemské rotace (siderický den) činí 23 h 56 min 4,1 s st�
 
 **Siderický rok** je doba mezi dvěma po sobě následujícími stejnými postaveními Slunce mezi hvězdami (365,2564 středních slunečních dnů). Oproti tropickému roku vztaženému na jarní bod, který postupuje proti směru oběhu Země a zkracuje tak dobu jejího oběhu, je siderický rok delší přibližně o 20 min (tropický rok je 365,2422 středních slunečních dnů).
 
-**“MOST” MEZI SLUNEČNÍM A HVĚZDNÝM ČASEM**
+## „MOST" mezi slunečním a hvězdným časem
 
 Denní život je určován hodinovým úhlem Slunce a nikoli hodinovým úhlem jarního bodu.
 
-**Vztah mezi slunečním a hvězdným bodem**
+### Vztah mezi slunečním a hvězdným bodem
 
 Předpokládejme, že máme o půlnoci Slunce v jarním bodě, tj. máme tedy 12 h hvězdného času. Slunce se však pohybuje po ekliptice proti dennímu pohybu oblohy. Spodní kulminace Slunce nastane o 4 min později než spodní kulminace jarního bodu. Příčinou je to, že Země se otáčí kolem své osy a navíc ještě obíhá kolem Slunce. Při otáčce o 360° stupňů se Země dostane z polohy 1 do polohy 2. Otočit se do stejné polohy ke Slunci zabere další 1°, tj. 4 min. (otáčka tedy zabere 361°, a proto je sluneční den delší o 4 min než hvězdný den). Z toho plyne, že hodiny ukazující sluneční čas se budou pozdit oproti hodinám ukazujícím hvězdný čas za den o cca 4 min, za měsíc již o 2 h a za půl roku tento rozdíl naroste na 12 h.
 
 Slunce se zdánlivě po ekliptice nepohybuje rovnoměrně, což je následek druhého Keplerova zákona. Proto časový interval od jarní do podzimní rovnodennosti trvá 186 dní a druhá polovina oběhu 179 dní. Z toho vyplývá, že v severní části ekliptiky je Slunce o týden déle. V této části se sluneční čas pozdí pouze o něco méně než 4 min.
 
-**SLUNEČNÍ ČAS**
+## SLUNEČNÍ ČAS
 
 **Pravé Slunce** vykonává zdánlivý roční pohyb po ekliptice, avšak podle druhého Keplerova zákona nerovnoměrně. Proto není **pravý sluneční čas,** který definujeme jako hodinový úhel pravého Slunce, stejně dlouhý. Země se pohybuje v přísluní nejrychleji a naopak v odsluní nejpomaleji. Proto **pravý sluneční den**, doba mezi dvěma po sobě následujícími dolními kulminacemi pravého Slunce, není vždy stejně dlouhý (v létě je kratší než v zimě).
 
@@ -113,11 +113,11 @@ Protože pravý sluneční čas je vlastně hodinový úhel pravého Slunce *tP*
 
 Hodnota [časové rovnice](/slovnik/casova-rovnice) je nezávislá na místě pozorování a je pro každý den uváděna ve hvězdářských ročenkách. Z denních hodnot časové rovnice se sestavuje její **graf pro celý rok.** Z grafu vyplývá, že [časová rovnice](/slovnik/casova-rovnice) je čtyřikrát do roka rovna nule. Největší rozdíly jsou 10. až 12. února, kdy se pravé poledne opozdí za středním o 14 min 16 s, a 2. až 4. listopadu, kdy pravé poledne nastává 16 min 25 s před polednem středním. V prvním případě má časová rovnice hodnotu zápornou, ve druhém kladnou.
 
-**Vztah mezi hvězdným a středním slunečním časem**
+### Vztah mezi hvězdným a středním slunečním časem
 
 Tropický rok trvá 365,2422 středních slunečních dnů, ale hvězdný rok 366,2422 středních hvězdných dnů (příčinu viz “Most” mezi slunečním a hvězdným časem). Z toho plyne, že jarní bod vykoná o jeden denní oběh po obloze více než Slunce, tj. Slunce se o den opozdí. **Střední sluneční den je o 3 min 56,6 s delší než den hvězdný.** V den podzimní rovnodennosti souhlasí hvězdný čas se středním slunečním časem.
 
-**PÁSMOVÝ ČAS**
+## PÁSMOVÝ ČAS
 
 Základem určování efemeridního času je místní poledník. Kulminace Slunce, hvězd a jarního bodu je přirozeným počátkem času. Jde tedy o určení poledníku, podle kterého budeme určovat čas pravý sluneční, oba sluneční střední a čas hvězdný.
 
@@ -146,7 +146,7 @@ Místní střední sluneční čas: 22° \* 0 h 4 min = 1 h 28 min
 
 V Michalovcích je 13 h 21 min 30 s pravého slunečního času.
 
-**Datový paradox**
+### Datový paradox
 
 Postupujeme-li na glóbu od greenwichského poledníku např. 1. září v 9 hodin směrem na východ, roste čas v každém pásmu o 1 hodinu a na 180° v. d. je v tentýž okamžik 1. září 21 hodin. Půjdeme-li od greenwichského poledníku směrem západním, času ubývá. Na 135° z. d. bude 0 h a na 180° z. d. je v tutéž
 
@@ -154,23 +154,26 @@ chvíli 21 h, ale 31. srpna. Tato nesrovnalost se odstraňuje tak, že byla mezi
 
 Nový rok nejdříve vítají obyvatelé Čukotky a Nového Zélandu. Za 10 hodin vítají Nový rok v Moskvě, za 17 h v New Yorku, za 20 h v San Franciscu a za 23 h na Aljašce.
 
-**SMLUVENÝ ČAS**
+## SMLUVENÝ ČAS
 
 Smluvený čas je obvykle čas sousedního východního pásma a jeho typickým příkladem je **letní čas** zaváděný v letním půlroce v evropských zemích, ale i v USA, Kanadě či Austrálii.
 
-**VYUŽITÍ ČASU PRO URČENÍ ZEMĚPISNÉ DÉLKY**
+## VYUŽITÍ ČASU PRO URČENÍ ZEMĚPISNÉ DÉLKY
 
 Každému místu na Zemi přísluší určitá zeměpisná délka, která je dána úhlovou vzdáleností l mezi rovinou nultého (greenwichského) poledníku a rovinou místního poledníku příslušného k danému místu pozorování. Úhel l lze převést na rozdíl místních časů. Platí, že **zeměpisné délky dvou míst na Zemi se liší o tolik, o kolik se liší jejich místní časy.** Pro převod úhlové míry na časovou a naopak platí, že:
 
-1 h = 15° 1° = 4 min
-
-1 min = 15’ 1’ = 4 s
-
-1 s = 15” 1” =0,07 s
+| Časový rozdíl | Úhlový rozdíl |
+|---|---|
+| 1 h | 15° |
+| 1 min | 15′ |
+| 1 s | 15″ |
+| 4 min | 1° |
+| 4 s | 1′ |
+| 0,07 s | 1″ |
 
 Pro určení zeměpisné délky z rozdílu místních časů je třeba mít hodiny, které ukazují čas na greenwichském poledníku a přístroj (např. sextant), kterým zjistíme okamžik horní kulminace Slunce nebo některé jasné hvězdy.
 
-**Určování zeměpisné délky pomocí Slunce**
+### Určování zeměpisné délky pomocí Slunce
 
 Čeká se na horní kulminaci Slunce, která je v pravé poledne místního času. V tento okamžik se zároveň přečte, kolik hodin ukazuje [chronometr](/slovnik/chronometr) nařízený na střední sluneční čas greenwichského poledníku. Rozdíl časů místního a greenwichského poledníku se zjistí tak, že se místo pravého poledne vezme příslušný střední čas pro daný den z Hvězdářské ročenky a od něj se odečte greenwichský čas přečtený na [chronometru](/slovnik/chronometr).
 
@@ -192,7 +195,7 @@ l = 12h 03min – 19h 40min = – 7h 37min \* 15° = – 114° 15’, tj. 114° 
 
 - Oba dva příklady lze řešit i takovýmto způsobem. Když je na greenw. poledníku 11 h 48 min středního času, je tam vlastně 12 h pravého času. Odečtením 12 h od 11 h 48 min dostaneme rozdíl – 12 min. Když je tedy na greenw. poledníku 4 h 20 min středního času, je tam vlastně 4 h 32 min pravého času. V tuto dobu je na poledníku l 12 h pravého času. Odečtením pravého času Greenwiche od pravého času poledníku  dostaneme 7 h 28 min. A 7 h 28 min \* 15° = + 112°.
 
-**Určování zeměpisné délky pomocí hvězd**
+### Určování zeměpisné délky pomocí hvězd
 
 Čeká se na horní kulminaci hvězdy a na astronomických hodinách se přečte hvězdný čas na srovnávacím (greenwichském) poledníku o. V Hvězdářské ročence se vyhledá rektascenze  hvězdy, která je rovna v okamžiku kulminace místnímu hvězdnému času . Pro zeměpisnou délku platí vztah
 
@@ -223,18 +226,16 @@ určení zeměpisné délky:
 
 Když je stín klacku nejkratší, podíváme se na hodinky, které v tuto chvíli ukazují 8 h 41 min tokijského času. Tokio je od Londýna - Greenwiche odděleno deseti časovými pásmy. Tj.
 
-Tokijský čas *T**ST*\= 8 h 41 min
-
-Čas našeho místa TSl = 12 h
-
-Greenw. čas *T**SG* = 22 h 41 min (8 h 41 min – 10 h)
+- Tokijský čas *T*<sub>ST</sub> = 8 h 41 min
+- Čas našeho místa *T*<sub>Sl</sub> = 12 h
+- Greenwichský čas *T*<sub>SG</sub> = 22 h 41 min (8 h 41 min – 10 h)
 
 odhad  Tokia 10 pásem \* 15° = 150° v. d.
 
 Víme, že pravý a střední sluneční čas jsou shodné čtyřikrát za rok, přičemž nejdříve budou shodné 25. prosince. Tento den pak vypočtu naši zeměpisnou délku pomocí l = TSl – *T**SG*. Tedy
 l = 12 h – 22 h 41 min = – 10 h 41 min \* 15° = – 160° 15’, tj. 160° 15’ z. d.
 
-**KALENDÁŘ**
+## KALENDÁŘ
 
 Patří mezi nejstarší vynálezy lidstva a první stimuly astronomie. Počátky občanských roků v historii ne vždy připadaly na 1. leden, většinou byly vázány na astronomické jevy. Nejstarší kalendáře byly **lunární,** které byly založeny na střídání dobře viditelných fází Měsíce během synodického měsíce, a **solární,** které byly založeny na zdánlivém oběhu Slunce kolem Země. Kombinací těchto kalendářů byl kalendář **lunisolární.**
 
@@ -244,7 +245,7 @@ Patří mezi nejstarší vynálezy lidstva a první stimuly astronomie. Počátk
 
 **b.** **chronologii,** která určuje událost od určitého počátku.
 
-**Egyptský kalendář**
+### Egyptský kalendář
 
 Vznikl přibližně ve 4. tisíciletí př. Kr. Nebyl číslován průběžně; roky se číslovaly od začátku vlády současného faraona. Rok egyptského kalendáře začínal, když hvězda Sirius (egyptsky Sopdet) měla předjitřní (heliaktický) východ, tj. v ranním svítání před východem Slunce. K tomu docházelo v období letního slunovratu a touto dobou začínaly záplavy Nilu. Protože zemědělské práce byly určovány východem Siria, určovali Egypťané pro tyto úcely hvězdný rok.
 
@@ -254,53 +255,32 @@ Ve starém **Sumeru** se počátek roku vázal k jarní rovnodennosti. V **žido
 
 V **Persii** a některých částech **Indie** byl užíván solární kalendář. Naopak měsíční kalendář užívají **muslimové.** Solární kalendář je vlastně i současný **evropský,** avšak jsou v něm vmíšeny lunární prvky (určování velikonoční neděle, která má být první nedělí po jarním úplnku).
 
-**Římský kalendář**
+### Římský kalendář
 
 Nejstarší římský kalendář začínal březnem (*Martius*) a měl 10 měsíců o celkem 304 dnech. Později byl rok římského kalendáře prodloužen na měsíců 12 a měl celkem 355 dnů. Čtyři roky tvořili cyklus, v němž byl rozdíl oproti tropickému roku vyrovnáván vložením dvou měsíců.
 
 Římský kalendář byl modifikován Gaiem Juliem Caesarem, a to tak, že solární rok má 12 měsíců po 365 dnech, přičemž každý čtvrtý rok se stal přestupný, přičemž muselo jíž o letopočet dělitelný čtyřmi. **Juliánský kalendář** však nevyrovnával rozdíly mezi občanským a tropickým rokem (občanský rok byl o 11 min 14 s delší).
 
-**Gregoriánský (řehořský) kalendář**
+### Gregoriánský (řehořský) kalendář
 
 Po 128 letech od zavedení juliánského kalendáře Římané zjistili, že se jarní rovnodennost se posunula o den zpět. V 16. století byla jarní rovnodennost dokonce již 11. března. Proto církevní astronomové apelovali na papeže na odtržení od tohoto kalendáře. Roku 1582 byla provedena reforma kalendáře tak, že ihned po 4. říjnu následoval 15. říjen. Dále bylo nařízeno, aby roky, jimiž končí století, byly přestupné jen tehdy, jsou-li dělitelné 400 (přestupné byly zatím jen 1600 a 2000). Průměrná délka gregoriánského roku je tak 365,2425 dne, tj. tento rok je pouze o 26 s delší než rok tropický. Tímto krokem se zajistilo, že teprve v roce 4840 vzroste rozdíl mezi dnem skutečné, astronomické, jarní rovnodennosti a 21. březnem na 1 den.
 
 V českých zemích byl gregoriánský kalendář přijat roku 1584 a např. v Anglii roku 1752 a v Rusku až roku 1918 (ruské církevní svátky se však řídí pravoslavným kalendářem).
 
-**Republikánský kalendář**
+### Republikánský kalendář
 
 Zavedený za francouzské revoluce a číslovaný od vyhlášení republiky roku 1792. Byl členěn dekadicky. 12 měsíců, jejichž jména vyjadřovala přírodní jevy, mělo tři dekády po 10 dnech, den měl 10 hodin po 100 minutách a jedna minuta měla 100 sekund. Rok končil pěti (přestupný šesti) doplňovacími dny.
 
-**Kalendářní éry**
+### Kalendářní éry
 
-Počátek
-
-A. U. C. - od založení Říma
-(*ab urbe condita*)
-
-1\. ledna 753 př. Kr.
-
-Řeckých olympiád (4-letý cyklus)
-
-1\. července 776 př. Kr.
-
-Mayská
-
-8\. září 3114 př. Kr.
-
-Křesťanská
-
-1\. ledna 1 př. Kr.
-(tento počátek určen roku 525; narození Ježíše Krista datoval papež do roku 754 A. U. C.)
-
-Hidžra
-
-16\. července 622
-
-(Mohamedův útek z Mekky do Madíny)
-
-Židovská
-
-7\. října 3761 př. Kr. (stvoření světa)
+| Éra | Počátek |
+|---|---|
+| A. U. C. — od založení Říma (*ab urbe condita*) | 1. ledna 753 př. Kr. |
+| Řeckých olympiád (4-letý cyklus) | 1. července 776 př. Kr. |
+| Mayská | 8. září 3114 př. Kr. |
+| Křesťanská | 1. ledna 1 př. Kr. (počátek určen roku 525; narození Ježíše Krista datoval papež do roku 754 A. U. C.) |
+| Hidžra | 16. července 622 (Mohamedův útěk z Mekky do Madíny) |
+| Židovská | 7. října 3761 př. Kr. (stvoření světa) |
 
 Poznámka: V některých státech jsou náboženské kalendáře součástí státního práva.
 
