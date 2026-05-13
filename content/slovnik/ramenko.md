@@ -10,6 +10,7 @@ prekladyEn:
 prekladyFr:
   - term: bras de levée
   - term: détente
+    genus: f
 definice: "Pákové nebo háčkovité součásti bicího stroje, které **zachytávají či pouštějí** klíčová kola. Rozeznávají se 3 hlavní typy: **zapadací** (drží stroj v klidu), **výpustné** (uvolňuje při spouštění), **bicí** (nese kladívko)."
 pribuzne:
   - bicí-stroj

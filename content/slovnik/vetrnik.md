@@ -4,6 +4,7 @@ slug: vetrnik
 kategorie: bici
 prekladyDe:
   - term: Windfang
+    genus: m
     zdroj: "Špatný 1882: Windfang → větrník, větrober"
 prekladyEn:
   - term: fly
@@ -11,7 +12,9 @@ prekladyEn:
   - term: fly governor
 prekladyFr:
   - term: volant
+    genus: m
   - term: volant régulateur
+    genus: m
 varianty:
   - větrník
   - "větrober** (Špatný 1882"

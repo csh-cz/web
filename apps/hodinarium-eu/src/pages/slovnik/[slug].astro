@@ -94,6 +94,8 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
                 {data.prekladyDe.map((p, i) => (
                   <span class="preklad-item">
                     <strong>{p.term}</strong>
+                    {p.genus && <span class="preklad-genus"> {p.genus}.</span>}
+                    {p.deklinace && <span class="preklad-deklinace"> {p.deklinace}</span>}
                     {p.zdroj && <span class="preklad-zdroj"> [{p.zdroj}]</span>}
                     {i < data.prekladyDe!.length - 1 && <span class="preklad-sep"> · </span>}
                   </span>
@@ -108,6 +110,8 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
                 {data.prekladyEn.map((p, i) => (
                   <span class="preklad-item">
                     <strong>{p.term}</strong>
+                    {p.genus && <span class="preklad-genus"> {p.genus}.</span>}
+                    {p.deklinace && <span class="preklad-deklinace"> {p.deklinace}</span>}
                     {p.zdroj && <span class="preklad-zdroj"> [{p.zdroj}]</span>}
                     {i < data.prekladyEn!.length - 1 && <span class="preklad-sep"> · </span>}
                   </span>
@@ -122,6 +126,8 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
                 {data.prekladyFr.map((p, i) => (
                   <span class="preklad-item">
                     <strong>{p.term}</strong>
+                    {p.genus && <span class="preklad-genus"> {p.genus}.</span>}
+                    {p.deklinace && <span class="preklad-deklinace"> {p.deklinace}</span>}
                     {p.zdroj && <span class="preklad-zdroj"> [{p.zdroj}]</span>}
                     {i < data.prekladyFr!.length - 1 && <span class="preklad-sep"> · </span>}
                   </span>
@@ -370,6 +376,17 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
     color: var(--color-brass-bright);
     font-family: var(--font-serif);
     font-weight: 500;
+  }
+  .preklad-genus {
+    font-style: italic;
+    color: var(--color-copper);
+    font-size: 0.9rem;
+    margin-left: 0.15rem;
+  }
+  .preklad-deklinace {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    margin-left: 0.2rem;
   }
   .preklad-zdroj {
     font-size: 0.8rem;

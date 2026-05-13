@@ -10,6 +10,7 @@ prekladyEn:
   - term: ruby jewel
 prekladyFr:
   - term: rubis
+    genus: m
   - term: pierre
 varianty:
   - rubínový kámen

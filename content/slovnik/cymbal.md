@@ -4,11 +4,13 @@ slug: cymbal
 kategorie: bici
 prekladyDe:
   - term: Glocke
+    genus: f
 prekladyEn:
   - term: bell
 prekladyFr:
   - term: timbre
   - term: cloche
+    genus: f
 varianty:
   - cymbál
   - cimbál

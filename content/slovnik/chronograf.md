@@ -4,11 +4,14 @@ slug: chronograf
 kategorie: hodinky
 prekladyDe:
   - term: Chronograph
+    genus: m
   - term: Stoppuhr
+    genus: f
 prekladyEn:
   - term: chronograph
 prekladyFr:
   - term: chronographe
+    genus: m
 definice: "Hodinky s **přídavnou funkcí měření krátkých časových intervalů** — uživatel může spustit / zastavit / nulovat sekundovou ručku nezávisle na hlavním chodu hodin. Jedna **základní hodinka** zobrazuje aktuální čas, druhá **subskupina** (totalizers) měří uplynulou dobu od stisknutí start."
 pribuzne:
   - chronometr

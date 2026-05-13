@@ -4,6 +4,7 @@ slug: kotva
 kategorie: mechanika
 prekladyDe:
   - term: Anker
+    genus: m
     zdroj: "Špatný 1882: Anker → kotva"
 prekladyEn:
   - term: anchor

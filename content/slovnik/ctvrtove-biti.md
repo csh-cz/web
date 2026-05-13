@@ -4,6 +4,7 @@ slug: ctvrtove-biti
 kategorie: bici
 prekladyDe:
   - term: Viertelschlag
+    genus: m
     zdroj: "Špatný 1882: 12× kompozit Viertel–"
 prekladyEn:
   - term: quarter strike

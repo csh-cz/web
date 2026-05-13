@@ -4,6 +4,7 @@ slug: korunka
 kategorie: hodinky
 prekladyDe:
   - term: Krone
+    genus: f
     zdroj: "Špatný 1882: Krone → koruna"
 prekladyEn:
   - term: crown

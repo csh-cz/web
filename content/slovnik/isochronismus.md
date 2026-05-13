@@ -4,10 +4,12 @@ slug: isochronismus
 kategorie: materialy
 prekladyDe:
   - term: Isochronismus
+    genus: m
 prekladyEn:
   - term: isochronism
 prekladyFr:
   - term: isochronisme
+    genus: m
 varianty:
   - isochronismus
   - "isochronický** (adj.)"

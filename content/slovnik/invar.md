@@ -4,6 +4,7 @@ slug: invar
 kategorie: materialy
 prekladyDe:
   - term: Invar
+    genus: n
 prekladyEn:
   - term: invar
 prekladyFr:

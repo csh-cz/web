@@ -4,12 +4,14 @@ slug: hodinar
 kategorie: profese
 prekladyDe:
   - term: Uhrmacher
+    genus: m
     zdroj: "Špatný 1882: 40+ kompozit Uhrmacher–"
 prekladyEn:
   - term: watchmaker
   - term: horologist
 prekladyFr:
   - term: horloger
+    genus: m
 definice: "Řemeslník zhotovující, opravující a udržující hodiny. Cechovní mistr v 16.–19. století; po průmyslové revoluci se profese rozpadla na **výrobní specialisty** (manufaktura) a **opraváře/servisera** (městští hodináři). Dnes v ČR akreditován učební obor „Hodinář\"; v restaurátorství samostatný subobor (zámecké, kostelní hodiny)."
 pribuzne:
   - pouzdrář

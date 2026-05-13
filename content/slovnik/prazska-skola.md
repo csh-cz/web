@@ -4,6 +4,7 @@ slug: prazska-skola
 kategorie: profese
 prekladyDe:
   - term: Prager Schule
+    genus: f
 prekladyEn:
   - term: Prague school
 prekladyFr:
