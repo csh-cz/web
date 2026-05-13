@@ -489,7 +489,183 @@ collections:
       - <<: *workflow_field
       - { name: body, label: 'Plný text medailonu', widget: markdown, required: false, hint: 'MDX — můžeš použít komponenty jako <Photo>.' }
 
-  # ── 5) Spolkové stránky (horologie-cz) ──
+  # ── 5) Soupis věžních hodin ──
+  # 396 záznamů věžních hodin ČR (a okolních zemí) — primárně z primárních
+  # pramenů (tabulky Krečmer, Landesberger; Hellichův seznam 1880; NPÚ
+  # Památkový katalog; Wikidata; OSM). Každý záznam = jedna lokace +
+  # technické údaje + historie. Schema definováno v src/content.config.ts.
+  - name: soupis-veznich-hodin
+    label: 'Soupis věžních hodin'
+    label_singular: 'Záznam soupisu'
+    folder: 'content/soupis-veznich-hodin'
+    extension: mdx
+    format: yaml-frontmatter
+    create: true
+    delete: false
+    identifier_field: slug
+    summary: '{{rok}} — {{puvodniMisto.obec}} ({{puvodniMisto.budova}})'
+    fields:
+      - { name: slug, label: 'Slug (URL část)', widget: string, required: true,
+          hint: 'Stabilní identifikátor, typicky <rok>-<misto>-<hodinar>. Např. „1868-bychory-prokes". Lowercase, bez diakritiky, oddělovač pomlčka.' }
+      - { name: rok, label: 'Rok výroby', widget: string, required: true,
+          hint: 'Číslo („1868") nebo rozsah („1850–1855") nebo odhadované („po 1880"). Neznámý = „?".' }
+      - name: hodinar
+        label: 'Hodinář (slug medailionu)'
+        widget: relation
+        collection: hodinari
+        search_fields: [title, slug]
+        value_field: slug
+        display_fields: [title]
+        required: false
+        multiple: false
+        hint: 'Vyber ze seznamu hodinářů. Pokud chybí, použij volný text níže.'
+      - { name: hodinarText, label: 'Hodinář (volný text)', widget: string, required: false,
+          hint: 'Když hodinář nemá medailon. Např. „připisováno Prokešovi" / „anonymní".' }
+
+      # ─── Lokace ───
+      - name: puvodniMisto
+        label: 'Původní místo'
+        widget: object
+        required: true
+        fields:
+          - { name: obec, label: 'Obec', widget: string, required: true }
+          - { name: cast, label: 'Městská část / čtvrť', widget: string, required: false }
+          - { name: budova, label: 'Budova (kostel, radnice, zámek…)', widget: string, required: false }
+          - { name: okres, label: 'Okres', widget: string, required: false }
+          - { name: kraj, label: 'Kraj', widget: string, required: false }
+          - { name: zeme, label: 'Země (ISO kód)', widget: string, default: 'CZ', required: false }
+
+      - name: souradnice
+        label: 'Souřadnice [lat, lon] WGS84'
+        widget: list
+        required: false
+        field: { name: hodnota, label: 'Číslo', widget: number, value_type: float, step: 0.000001 }
+        min: 2
+        max: 2
+        hint: 'Dvě desetinná čísla — zeměpisná šířka a délka.'
+      - { name: souradnicePribl, label: 'Souřadnice jen přibližné (úroveň obce)', widget: boolean, default: false, required: false }
+
+      # ─── Stav + chod + přenos ───
+      - name: stav
+        label: 'Stav hodin'
+        widget: select
+        default: neznamy
+        options:
+          - { label: 'In situ (na původním místě)', value: in_situ }
+          - { label: 'Přeneseno jinam', value: preneseno }
+          - { label: 'Ztracené', value: ztracene }
+          - { label: 'Zničené', value: znicene }
+          - { label: 'Neznámý', value: neznamy }
+      - name: chod
+        label: 'Aktuální chod'
+        widget: select
+        required: false
+        options:
+          - { label: 'V chodu', value: v_chodu }
+          - { label: 'Nefunkční', value: nefunkcni }
+          - { label: 'Restaurováno', value: restaurovano }
+          - { label: 'Před restaurováním', value: pred_restaurovanim }
+          - { label: 'Zničené', value: znicene }
+          - { label: 'Neznámý', value: neznamy }
+      - name: prenos
+        label: 'Přenos (pokud bylo přeneseno)'
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - { name: do, label: 'Kam', widget: string, required: true, hint: '"Hodinárium Děčín" / "NTM Praha" / "soukr. sbírka, Švýcarsko"' }
+          - { name: rok, label: 'Rok přenosu', widget: string, required: false }
+          - { name: poznamka, label: 'Poznámka', widget: text, required: false }
+
+      # ─── Technické údaje ───
+      - { name: krok, label: 'Krok', widget: string, required: false,
+          hint: '"graham" / "denison" / "4-leg-denison" / "amant-lepaut" / "kotvovy" / „špindlový" / …' }
+      - { name: pohon, label: 'Pohon', widget: string, required: false,
+          hint: '"zavazi" / "pero" / "elektricky" / …' }
+      - { name: pocetCifernik, label: 'Počet ciferníků', widget: number, value_type: int, required: false }
+      - { name: rozmery, label: 'Rozměry', widget: string, required: false, hint: '„ráfek 1200 mm" / „stroj 800 × 600 × 400 mm"' }
+      - { name: signatura, label: 'Signatura výrobce', widget: string, required: false }
+      - { name: cenaDobova, label: 'Dobová cena', widget: string, required: false, hint: '„900 zl." / „1125 K"' }
+
+      # ─── Restaurování ───
+      - { name: restaurator, label: 'Restaurátor', widget: string, required: false }
+      - { name: rokRestaurovani, label: 'Rok restaurování', widget: string, required: false }
+
+      # ─── Foto ───
+      - name: foto
+        label: 'Fotografie'
+        widget: list
+        required: false
+        collapsed: true
+        fields:
+          - { name: src, label: 'Cesta k fotografii', widget: image, required: true }
+          - { name: alt, label: 'Popis (alt)', widget: string, required: false }
+          - { name: credit, label: 'Credit (autor, licence, zdroj)', widget: string, required: false }
+          - name: typ
+            label: 'Typ záběru'
+            widget: select
+            required: false
+            options: [stroj, budova, cifernik, detail, historicke, plan, jine]
+
+      # ─── Prameny / literatura ───
+      - name: prameny
+        label: 'Prameny a literatura'
+        widget: list
+        required: false
+        collapsed: true
+        fields:
+          - { name: bibKey, label: 'Zotero bibKey (preferred)', widget: string, required: false,
+              hint: 'Citation-key ze Zotera. Když vyplníš, ostatní fields ignorovány — citace se generuje přes citeproc.' }
+          - { name: title, label: 'Titul (legacy)', widget: string, required: false }
+          - { name: url, label: 'URL', widget: string, required: false }
+          - { name: citace, label: 'Plná ISO 690 citace', widget: text, required: false }
+          - { name: autor, label: 'Autor', widget: string, required: false }
+          - { name: rok, label: 'Rok', widget: string, required: false }
+          - name: type
+            label: 'Typ'
+            widget: select
+            required: false
+            options: [kniha, clanek, pdf, odkaz, wiki, mapa, patent, archiv, zprava]
+          - { name: pages, label: 'Stránky', widget: string, required: false }
+          - { name: poznamka, label: 'Poznámka', widget: text, required: false }
+
+      # ─── Cross-refs ───
+      - name: relatedKarty
+        label: 'Související karty sbírky'
+        widget: list
+        required: false
+        field: { name: slug, label: 'Slug karty (inv-NNN-…)', widget: string }
+      - name: relatedClanky
+        label: 'Související články'
+        widget: list
+        required: false
+        field: { name: slug, label: 'Slug článku', widget: string }
+
+      # ─── Externí identifikátory ───
+      - { name: osmId, label: 'OSM ID', widget: string, required: false, hint: 'např. „way/123456789"' }
+      - { name: wikidataId, label: 'Wikidata Qid', widget: string, required: false, hint: 'např. „Q12345"' }
+      - name: pamatkovyKatalog
+        label: 'Památkový katalog NPÚ'
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - { name: id, label: 'NPÚ ID (numerický identifikátor v URL)', widget: string, required: true }
+          - { name: slug, label: 'NPÚ slug (slugovaná část URL)', widget: string, required: false }
+          - { name: npuKatCislo, label: 'NPÚ KatCislo', widget: string, required: false }
+
+      # ─── Meta ───
+      - { name: isStub, label: 'Stub (neúplný záznam, čeká na doplnění)', widget: boolean, default: false, required: false }
+      - { name: poznamka, label: 'Volný text (poznámka)', widget: text, required: false }
+      - { name: posledniOvereni, label: 'Poslední ověření (datum)', widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false, required: false }
+      - { name: zdrojDat, label: 'Zdroj dat', widget: string, required: false, hint: '„tabulka_krecmer" / „tabulka_landesbergerove" / „manual" / „osm-import"' }
+
+      - <<: *editor_notes_field
+      - <<: *workflow_field
+      - { name: body, label: 'Volný text záznamu (MDX)', widget: markdown, required: false,
+          hint: 'Volitelný delší narativ. Můžeš použít direktivy (::photo, ::pdf-pager) a markdown formátování.' }
+
+  # ── 6) Spolkové stránky (horologie-cz) ──
   # Statické stránky webu Českého spolku horologického — kontakt, novinky,
   # spolek, stanovy, zápisy, usnesení. Nikoli Akce (žijí v src/data/akce.ts
   # — vyžaduje migraci na content collection v separátní session).

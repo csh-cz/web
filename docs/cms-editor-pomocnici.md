@@ -517,6 +517,71 @@ V některých článcích (např. *Mysteriózní hodiny*, *Kostky*, *Židovské 
 ::photo{src="/img/zidovske/holmstad_2014_cifernik.jpg" alt="Hebrejský ciferník Židovské radnice" class="img-hero" author="Øyvind Holmstad" license="CC BY-SA 3.0" licenseUrl="https://creativecommons.org/licenses/by-sa/3.0/" sourceUrl="https://commons.wikimedia.org/wiki/File:Prague_Praha_2014_Holmstad..."}
 ```
 
+### 🖼 Vkládání obrázku přes modal (⌘⇧P / Ctrl+Shift+P)
+
+Nejjednodušší cesta — nemusíš psát direktivu ručně. V Sveltia editoru:
+
+1. Umísti kurzor v textu kam má obrázek přijít
+2. Stiskni **⌘⇧P** (Mac) nebo **Ctrl+Shift+P** (Win/Linux)
+3. Vyplň formulář:
+   - **Cesta (src)** — `/img/cesta/obrazek.jpg`
+   - **Popis (alt)** — pro screen readery
+   - **Velikost / layout** — radio buttons (Auto, Hero, Plná šířka, Na střed, Malý, Střední, Vysoký)
+   - **Obtékání** — Default / Vlevo / Vpravo
+   - **Credit** (volitelně) — autor, licence, zdroj, rok
+4. Klik „Vložit" → vygeneruje `::photo{...}` direktivu na pozici kurzoru
+
+Modal má **živý náhled** výsledné direktivy pod formulářem.
+
+Toggle přes ⚙ Pomocníci panel.
+
+### Umístění obrázku — `class` atribut
+
+Atribut `class` na `::photo` nebo přímo na `<img>` určuje, kde se obrázek na stránce zobrazí. Můžeš jich uvést víc oddělených mezerou (`class="img-medium img-float-left"`).
+
+| Třída | Layout | Šířka | Kdy použít |
+|---|---|---|---|
+| `img-hero` | Plná šířka, nahoře pod nadpisem | 100 % | Hlavní reprezentativní fotka (první v článku, automaticky) |
+| `img-full` | Plná šířka, kdekoliv | 100 % | Velký obrázek uprostřed textu, žádné obtékání |
+| `img-standalone` | Na střed, žádné obtékání | max 480 px | Screenshot, schéma, ilustrace uprostřed |
+| `img-small` | Plovoucí vpravo (default), drobný | max 220 px | Drobná ilustrace co obtéká text |
+| `img-medium` | Plovoucí vpravo (default), střední | max 320 px | Střední ilustrace v textu |
+| `img-tall` | Plovoucí vpravo, vysoký portrét | max 240 × 480 px | Portrét, vertikální detail |
+| `img-float-left` | Vynutí obtékání **vlevo** | (dědí) | Když chceš explicitně levé obtékání |
+| `img-float-right` | Vynutí obtékání **vpravo** | (dědí) | Když chceš explicitně pravé obtékání |
+
+**Příklady:**
+
+```markdown
+::photo{src="/img/detail.jpg" alt="Detail kotvy" class="img-small"}
+
+Text obtéká drobnou ilustraci kotvy zprava. Pokračuje normálním tokem…
+```
+
+```markdown
+::photo{src="/img/schema.jpg" alt="Schéma" class="img-standalone"}
+```
+
+```markdown
+::photo{src="/img/portret.jpg" alt="Hodinář" class="img-medium img-float-left"}
+
+Text obtéká portrét hodináře zleva…
+```
+
+**Automatika bez class:**
+
+- **První obrázek v článku** dostane automaticky `img-hero` (full width nahoře).
+- **Další obrázky** bez explicit class plovou střídavě vpravo / vlevo (časopisecký rytmus). Když chceš jiné chování, doplň class ručně.
+- **Mobile** (≤ 600 px) — všechny plovoucí obrázky se automaticky srovnají do středu a roztáhnou na plnou šířku.
+
+**Grid 2+ obrázků vedle sebe** — dej víc obrázků na **jeden řádek** (markdown):
+
+```markdown
+![pohled 1](url1) ![pohled 2](url2) ![pohled 3](url3)
+```
+
+CSS automaticky srovná do mřížky (2-3 sloupce podle šířky).
+
 **Bez atributů** (čistě interaktivní widget):
 
 ```markdown

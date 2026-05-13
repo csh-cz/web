@@ -37,6 +37,7 @@
     aiLevel: 'free', // 'free' = Workers AI Mistral, 'paid' = Anthropic Sonnet (později)
     linkPicker: true, // Cmd+K modal pro odkazy — default ON (low overhead, žádný stažený asset)
     citationPicker: true, // Cmd+Shift+R modal pro citace ze Zotera — default ON (lazy-load 2 MB references.json)
+    imagePicker: true, // Cmd+Shift+P modal pro vložení obrázku s class/credit — default ON
   };
 
   /** Read settings z localStorage, merge s defaults. */
@@ -246,6 +247,20 @@
           </span>
         </span>
       </label>
+      <label style="display:flex;align-items:flex-start;gap:.5rem;margin-bottom:.6rem;cursor:pointer">
+        <input type="checkbox" id="csh-set-image-picker" ${settings.imagePicker !== false ? 'checked' : ''}
+               style="margin-top:.2rem;cursor:pointer">
+        <span>
+          <strong>Vkládání obrázku (⌘⇧P / Ctrl+Shift+P)</strong>
+          <span style="display:block;font-size:.8rem;opacity:.7;margin-top:.15rem">
+            Modal pro vložení obrázku s volbou layoutu (hero, plná šířka,
+            na střed, malý/střední/vysoký obtékaný) a obtékání (vlevo/vpravo).
+            Volitelně credit (autor, licence, zdroj). Vyplň formulář, klik
+            „Vložit" → vygeneruje <code>::photo&#123;...&#125;</code> direktivu
+            na pozici kurzoru.
+          </span>
+        </span>
+      </label>
       <div style="margin:1rem 0 .6rem;padding-top:.8rem;border-top:1px solid #444;font-size:.8rem;opacity:.7">
         <strong>Pozn.:</strong> všechny funkce jsou nezávislé, lze zapnout libovolnou
         kombinaci. Spell-check + Vkládání odkazů + Citace funguje offline (data
@@ -294,6 +309,7 @@
         aiLevel: 'free',
         linkPicker: modal.querySelector('#csh-set-link-picker').checked,
         citationPicker: modal.querySelector('#csh-set-citation-picker').checked,
+        imagePicker: modal.querySelector('#csh-set-image-picker').checked,
       };
       saveSettings(next);
       window.dispatchEvent(new CustomEvent('csh-settings-changed', { detail: next }));
@@ -304,6 +320,7 @@
     modal.querySelector('#csh-set-ai').addEventListener('change', applyAndEmit);
     modal.querySelector('#csh-set-link-picker').addEventListener('change', applyAndEmit);
     modal.querySelector('#csh-set-citation-picker').addEventListener('change', applyAndEmit);
+    modal.querySelector('#csh-set-image-picker').addEventListener('change', applyAndEmit);
 
     // Help modal
     modal.querySelector('#csh-set-help').addEventListener('click', () => {
