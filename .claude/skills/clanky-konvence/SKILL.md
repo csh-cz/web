@@ -225,21 +225,15 @@ Cesta: `apps/hodinarium-eu/src/components/Photo.astro`.
 - `class` prop se propaguje na `<img>` (img-hero, img-large, atd.)
 - Snadno se v budoucnu doplní credit u obrázku, který ho zatím nemá
 
-```mdx
-import Photo from '../../apps/hodinarium-eu/src/components/Photo.astro';
+**Direktivový syntax v .md/.mdx** (po A.11 migraci, Sveltia-compatible — žádné `import` statements):
 
-<Photo
-  src="/img/cesta/foo.jpg"
-  alt="Popis pro screen readery"
-  class="img-hero"          // OPT — jakákoliv článková class
-  author="Øyvind Holmstad"  // OPT
-  authorUrl="https://..."   // OPT
-  license="CC BY-SA 3.0"    // OPT
-  licenseUrl="https://..."  // OPT
-  sourceUrl="https://..."   // OPT (Commons file page)
-  year={2014}               // OPT
-/>
+```markdown
+::photo{src="/img/cesta/foo.jpg" alt="Popis pro screen readery" class="img-hero" author="Øyvind Holmstad" authorUrl="https://..." license="CC BY-SA 3.0" licenseUrl="https://..." sourceUrl="https://..." year="2014"}
 ```
+
+Atributy POVINNĚ jednořádkově (multi-line direktiva nefunguje). Hodnoty vždy v uvozovkách `"..."`. Pro číselné hodnoty (`year`) string syntax `"2014"` — komponenta si to coercuje.
+
+Plugin `@csh/remark-csh-directives` (v `packages/remark-csh-directives/index.mjs`) převádí direktivu na `<Photo />` Astro komponentu při buildu. Komponenta je registrovaná v `apps/hodinarium-eu/src/utils/content-components.ts`.
 
 Pokud `class="img-hero"` nedáš a Photo je první v článku, JS auto-promote ho udělá hero stejně. Manuální `class="img-hero"` je explicit a ani slug.astro skript ho nepřepíše.
 
@@ -302,19 +296,38 @@ Odkazy na mapové služby (mapy.cz, google.com/maps, openstreetmap.org, goo.gl/m
 
 ## 7. PDF embed — PdfPager komponenta
 
-Pro PDF brožury / dokumenty v článku **NE iframe** ale `<PdfPager>`:
+Pro PDF brožury / dokumenty v článku **NE iframe** ale direktiva `::pdf-pager`:
 
-```mdx
-import PdfPager from '../../apps/hodinarium-eu/src/components/PdfPager.astro';
-
-<PdfPager
-  src="/download/foo.pdf"
-  title="Název dokumentu"
-  pages={76}                 // OPT — initial label, finální dotahá z PDF.js
-/>
+```markdown
+::pdf-pager{src="/download/foo.pdf" title="Název dokumentu" pages="76"}
 ```
 
-PDF.js z jsDelivr CDN, page-by-page navigace, fit-to-width (žádné šedé okraje). Fallback link na stažení/otevření v novém okně, pokud CDN selže nebo JS nepoběží.
+PDF.js z jsDelivr CDN, page-by-page navigace, fit-to-width (žádné šedé okraje). Fallback link na stažení/otevření v novém okně, pokud CDN selže nebo JS nepoběží. `pages` je OPT — initial label, finální count dotáhne PDF.js z dokumentu.
+
+## 7a. Přehled všech CSH direktiv
+
+V `.md` i `.mdx` souborech v `content/hodinarium-eu/`. Plugin `@csh/remark-csh-directives` mapuje na Astro komponenty bez `import` statement (Sveltia-friendly):
+
+| Direktiva | Komponenta | Atributy |
+|---|---|---|
+| `::prs10-live` | PRS10Live | — |
+| `::cas-slovem` | CasSlovem | — |
+| `::cas-segmentovky` | CasSegmentovky | — |
+| `::slunecni-klementinum` | SlunecniHodinyKlementinum | — |
+| `::tabor-orloj` | TaborOrloj | — |
+| `::zidovske-hodiny` | ZidovskeHodiny | — |
+| `::youtube{...}` | YouTube | `id`, `title`, `align`, `ratio` |
+| `::pdf-pager{...}` | PdfPager | `src`, `title`, `pages` |
+| `::photo{...}` | Photo | `src`, `alt`, `class`, `author`, `authorUrl`, `license`, `licenseUrl`, `sourceUrl`, `year`, `caption` |
+
+**Pravidla direktiv:**
+- Bez argumentů → na vlastním řádku: `::prs10-live` (žádné složené závorky)
+- S argumenty → vše na jeden řádek: `::name{key="value" key2="value2"}`
+- Hodnoty vždy v `"..."` (i čísla jako string — komponenta si coercuje)
+- Single colon `:name` (text directive) se rendruje zpět jako text — proto `12:00` v textu nezpůsobí konflikt
+- Neznámá direktiva se rendruje zpět jako text + warning v build logu (graceful fallback)
+
+**Registrace nové komponenty:** edituj `packages/remark-csh-directives/index.mjs` (DIRECTIVES map) a `apps/hodinarium-eu/src/utils/content-components.ts` (export map).
 
 ## 8. Mezititulky a struktura
 
@@ -508,7 +521,7 @@ Hromadná migrace 200+ legacy `.md` → MDX a strukturní pravidla = velký job.
 ## 16. Odkazy užitečné pro práci s repem
 
 - `pnpm imgindex:build` (`scripts/build-image-index.ts`) — regeneruje `image-sizes.json` po přidání obrázku do public/img/
-- `pnpm catalog:hodinarium` (`scripts/build-catalog.ts`) — generuje `catalog.json` (excerpt, wordCount, year, …); excerpt strip-uje MDX importy + JSX bloky (Photo, ZidovskeHodiny, …) → tldr-auto v Article.astro nedostane import statement jako perex
+- `pnpm catalog:hodinarium` (`scripts/build-catalog.ts`) — generuje `catalog.json` (excerpt, wordCount, year, …); excerpt skipne CSH direktivy (`::photo{...}`, `::prs10-live`, …), JSX bloky a MDX import statements (legacy medailony) → tldr-auto v Article.astro nedostane direktivu jako perex
 - `pnpm favicon:build` (`scripts/build-favicon.ts`) — favicon + homescreen ikony z logo-csh.svg
 - `python3 scripts/devignette.py file1 file2 …` — inverse-vignette correction pro legacy fotky s ztemnělými rohy. Args: `--strength N` (default 0.4 = +40% jas v rozích), `--in-place` (přepíše vstup; jinak `*_devign.jpg`). Algoritmus: pro každý pixel norm. distance od středu × strength → multiply jas
 - Skript pro hromadný cleanup HRs — viz Python inline v conversation history (frontmatter-aware HR collapse)

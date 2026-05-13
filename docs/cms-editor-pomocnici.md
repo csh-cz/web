@@ -465,6 +465,80 @@ budeš ji moci použít.
 - Foto upload validation (povinný credit field) zatím není — viz
   [TODO A.16](../TODO.md).
 
+## 🧩 Vkládání interaktivních prvků — direktivy
+
+V některých článcích (např. *Mysteriózní hodiny*, *Kostky*, *Židovské hodiny*) jsou **interaktivní prvky** — PDF prohlížeč, virtuální ciferník, YouTube video s hezkým náhledem, foto s creditem. Dřív tyhle prvky vyžadovaly „programátorský" zápis (`import` + JSX), na kterém Sveltia padala. **Nově je píšeš jednoduchou direktivou** — Sveltia ji vidí jen jako text, takže nic nepadá.
+
+### Syntax
+
+```markdown
+::name-direktivy
+::name-direktivy{atribut1="hodnota1" atribut2="hodnota2"}
+```
+
+**Pravidla:**
+- Začíná dvojtečkou `::` (dvě dvojtečky)
+- Bez argumentů → samostatný řádek (např. `::tabor-orloj`)
+- S argumenty → vše **na jeden řádek**, hodnoty v uvozovkách
+- Mezi direktivou a okolním textem nech **prázdný řádek**
+- Když direktivu rozbiješ na víc řádků, **nebude fungovat**
+
+### Přehled dostupných direktiv
+
+| Direktiva | Co dělá | Atributy |
+|---|---|---|
+| `::prs10-live` | Tabule živých dat z rubidiového oscilátoru PRS10 | — |
+| `::cas-slovem` | Aktuální čas vypsaný slovy („za pět tři čtvrtě na deset") | — |
+| `::cas-segmentovky` | Segmentovky s rébusovým překladem | — |
+| `::slunecni-klementinum` | Virtuální sluneční hodiny Klementina | — |
+| `::tabor-orloj` | Virtuální táborský orloj | — |
+| `::zidovske-hodiny` | Virtuální ciferník židovské radnice | — |
+| `::youtube` | YouTube video s náhledem (zachová privacy, načte se až po kliknutí) | `id`, `title`, `align`, `ratio` |
+| `::pdf-pager` | PDF prohlížeč přímo v článku (page-by-page navigace) | `src`, `title`, `pages` |
+| `::photo` | Obrázek s creditem (autor, licence, zdroj) v rohu | `src`, `alt`, `class`, `author`, `authorUrl`, `license`, `licenseUrl`, `sourceUrl`, `year`, `caption` |
+
+### Příklady
+
+**YouTube video** s vlastním titulkem, vpravo plovoucí, vertikální poměr:
+
+```markdown
+::youtube{id="RMyYnnAPIV8" title="Podružný strojek — režim nastavení času" align="right" ratio="9/16"}
+```
+
+**PDF brožura** (76 stran):
+
+```markdown
+::pdf-pager{src="/download/brozura_miniatury.pdf" title="Brožura — Výtvarné miniatury" pages="76"}
+```
+
+**Fotografie s creditem** (autor, licence, zdroj na Wikimedia Commons):
+
+```markdown
+::photo{src="/img/zidovske/holmstad_2014_cifernik.jpg" alt="Hebrejský ciferník Židovské radnice" class="img-hero" author="Øyvind Holmstad" license="CC BY-SA 3.0" licenseUrl="https://creativecommons.org/licenses/by-sa/3.0/" sourceUrl="https://commons.wikimedia.org/wiki/File:Prague_Praha_2014_Holmstad..."}
+```
+
+**Bez atributů** (čistě interaktivní widget):
+
+```markdown
+## Mysteriózní hodiny
+
+::cas-slovem
+
+Pod tímhle widgetem pokračuje text…
+```
+
+### Tipy a tricky
+
+- **`::photo` vs. markdown `![alt](src)`** — používej `::photo` jen když potřebuješ credit nebo specific class (`img-hero`, …). Pro běžný obrázek bez creditu stačí markdown.
+- **Číselné atributy v uvozovkách** — `year="2014"`, `pages="76"`. Píšeš to jako text, komponenta si to převede.
+- **Více atributů** — odděluj **mezerou**, ne čárkou.
+- **Když uvozovky uvnitř hodnoty** — momentálně neumíme. Pokud potřebuješ uvozovky uvnitř atributu, napiš to v plain HTML entity `&quot;` nebo to napiš jinak.
+- **Když direktiva nefunguje** — zkontroluj že je celá na jednom řádku a okolo má prázdný řádek. Když text okolo „nalepí" rovnou na direktivu, parser ji nepozná.
+
+### Když chceš novou direktivu
+
+Napiš Davidovi (nebo do GitHub issue) — nová interaktivní komponenta musí být přidaná do dvou míst v kódu (registrace pluginu + Astro komponenta). Není to nic složitého, ale editor to udělat nemůže.
+
 ## 📩 Hlášení problémů
 
 Cokoli rozbité nebo zmatené — buď:
