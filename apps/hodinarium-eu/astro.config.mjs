@@ -6,6 +6,8 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import rehypePicture from '../../packages/rehype-picture/index.mjs';
+import remarkDirective from 'remark-directive';
+import remarkCshDirectives from '../../packages/remark-csh-directives/index.mjs';
 import imageSizes from './src/data/image-sizes.json' with { type: 'json' };
 
 // Build-time discovery draft articles (frontmatter `draft: true`).
@@ -34,6 +36,12 @@ export default defineConfig({
     format: 'directory',
   },
   markdown: {
+    remarkPlugins: [
+      // remark-directive parsuje `::name{attr=value}` syntax do AST.
+      // Musí být PŘED remarkCshDirectives, který tyto direktivy mapuje na komponenty.
+      remarkDirective,
+      remarkCshDirectives,
+    ],
     rehypePlugins: [
       [rehypePicture, {
         imageSizes,
@@ -44,7 +52,14 @@ export default defineConfig({
     ],
   },
   integrations: [
-    mdx(),
+    // mdx() integrace MUSÍ dostat directive plugins explicitně.
+    // Default `extendMarkdownConfig: true` přebírá plugins z markdown
+    // config, ale micromark-extension-directive (registrovaný přes
+    // remark-directive) se musí inicializovat v MDX parseru SPECIFICKY,
+    // aby `::name{...}` syntax fungovala v .mdx souborech.
+    mdx({
+      remarkPlugins: [remarkDirective, remarkCshDirectives],
+    }),
     sitemap({
       filter: (page) => {
         // /redakce/* je gated pro editory — z indexace ven.

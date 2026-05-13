@@ -10,7 +10,6 @@ import { pramenTooltip, extractWikiTitle } from "../utils/referenceTypes";
 import { formatCite, getRef } from "../utils/cite";
 import catalog from "../data/catalog.json";
 import { hodinariProClanek } from "../data/hodinari";
-import { CMS_MDX_BLOCKLIST } from "../data/cms-mdx-blocklist";
 import { krokyProClanek } from "../data/kroky";
 import { clanekHref } from "../data/url-helpers";
 
@@ -73,12 +72,7 @@ const { title, description, lastModified, tldr, category, slug, ogImageOverride,
 // CMS edit URL — Sveltia routy: /admin/#/collections/<col>/entries/<file_id>.
 // Karty (podsekce: 'karta') jdou do collection 'karty', zbytek do 'clanky'.
 // File ID = slug (bez .md extension). Pro karty je to 'inv-NNN-<slug>'.
-//
-// MDX články (15 souborů s `import` + JSX) Sveltia editor neumí — editor
-// padá při Save. Pro ty FAB skryjeme úplně, dokud nezavedeme remark-directive
-// shortcodes (viz cms-mdx-blocklist.ts).
-const isMdxArticle = slug && !karta && CMS_MDX_BLOCKLIST.has(slug);
-const cmsEditUrl = slug && !isMdxArticle
+const cmsEditUrl = slug
   ? `/admin/#/collections/${karta ? 'karty' : 'clanky'}/entries/${slug}`
   : undefined;
 
