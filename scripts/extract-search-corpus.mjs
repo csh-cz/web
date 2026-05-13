@@ -53,11 +53,15 @@ const MAX_BODY_CHARS = 3000;
 function stripMarkdown(s) {
   return (
     s
-      // Strip MDX import statements (top-level)
+      // Strip MDX import statements (top-level) — relict z legacy
+      // medailonů (.mdx s import + JSX). Po A.11 migraci v content/hodinarium-eu/
+      // už nejsou, ale content/hodinari/*.mdx je ještě může mít.
       .replace(/^import\s+[^;]+;?\s*$/gm, '')
       // Strip MDX components <Photo />, <Ref n=N />, <YouTube … />
       .replace(/<[A-Z][a-zA-Z]*[^>]*\/>/g, '')
       .replace(/<[A-Z][a-zA-Z]*[^>]*>[\s\S]*?<\/[A-Z][a-zA-Z]*>/g, '')
+      // Strip CSH direktivy `::name{...}` a `::name` (A.11 migrace)
+      .replace(/^::[a-z-]+(\{[^}]*\})?\s*$/gm, '')
       // HTML komentáře
       .replace(/<!--[\s\S]*?-->/g, '')
       // Code fences

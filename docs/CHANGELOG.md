@@ -5,6 +5,61 @@ Plná historie se najde v `git log` — toto je rychlý přehled milníků.
 
 ---
 
+## 2026-05-13 — A.11 MDX → markdown direktivy migrace
+
+15 .mdx článků s aktivními komponentami (PRS10, Arduino, Kostky, Židovské,
+Mindelheim, …) Sveltia editor neuměl, padal při Save protože soubory
+obsahovaly `import` statement + JSX. Migrace zavedla direktivový syntax
+přes custom remark plugin — Sveltia direktivy vidí jen jako text, nepokouší
+se je interpretovat jako JSX.
+
+### Plugin + infra
+
+- **`@csh/remark-csh-directives`** (`packages/remark-csh-directives/index.mjs`)
+  postavený nad `remark-directive`. Mapuje 9 direktiv na `mdxJsxFlowElement`
+  AST nodes (`::photo{}`, `::pdf-pager{}`, `::youtube{}`, `::prs10-live`,
+  `::cas-slovem`, `::cas-segmentovky`, `::slunecni-klementinum`,
+  `::tabor-orloj`, `::zidovske-hodiny`).
+- **`apps/hodinarium-eu/src/utils/content-components.ts`** — registr 9 Astro
+  komponent předávaných do `<Content components={...}>` v
+  `pages/[kategorie]/[slug].astro`.
+- **`astro.config.mjs`** — plugins passnuté EXPLICITNĚ i do `mdx()`
+  integration (extendMarkdownConfig nepropaguje micromark-extension-directive).
+- **Attribute hodnoty stringy** — `mdxJsxAttributeValueExpression` vyžaduje
+  pre-parsed `data.estree`, bez něj esbuild zhavaruje. Komponenty si
+  string `"76"` interně coercují na číslo.
+
+### Migrované soubory (15)
+
+- **Žádné JSX** (rename .mdx → .md): kinsner-astronomicke-hodiny,
+  litinove-vezni-hodiny
+- **Zero-arg widget**: prs10, fake-atomove-hodiny, mystery, normalni,
+  segmentovky-s-prekladem, slunecni, slunecni-filler, tabor
+- **S parametry**: arduino, mindelheim, time-slider (YouTube), kostky
+  (PdfPager), zidovske (4× Photo + ZidovskeHodiny)
+
+### Side effects
+
+- **`cms-mdx-blocklist.ts` smazán** — `isMdxArticle` flow v Article.astro
+  odstraněn → editorský FAB „Upravit" viditelný i pro 15 dřív blokovaných
+  článků. Petr může editovat všech 268 článků v Sveltii.
+- **Skill clanky-konvence** aktualizován (Photo a PdfPager direktivový
+  syntax, nová sekce 7a „Přehled všech CSH direktiv").
+- **Handbook editora** (`docs/cms-editor-pomocnici.md`, renderovaný na
+  `/admin/handbook/`) má novou sekci „Vkládání interaktivních prvků —
+  direktivy" s tabulkou všech direktiv a příklady.
+- **`scripts/build-catalog.ts` a `scripts/extract-search-corpus.mjs`** —
+  excerpt extraction a corpus stripping rozšířen o `::direktiva{...}`
+  pattern (jinak by se direktiva octla v tldr-auto perexu nebo embeddingu).
+
+### Plugin features
+
+- **Text directives `:name`** (single colon — kolize s `12:00`, `:SS`)
+  vždy převedeny zpět na text → žádný unintended trigger v cs textech.
+- **Unknown direktiva = warning + plain text** render (build neselže).
+
+Commit: `cdd233b8`.
+
 ## 2026-05-13 — Prokeš dokumentace + Zotero + repo public + UX cleanup
 
 ### Repo visibility → public
