@@ -28,12 +28,29 @@
   --color-text-muted: #9a8c75;
   --color-ink: #1a120a;
 
-  /* Jediný typografický rod */
-  --font-serif: "Spectral", "Cardo", Georgia, "Times New Roman", serif;
+  /* Jediný typografický rod. CSHSymbols (definovaný níže s unicode-range)
+     ošetří astrologická znamení jako text glyphy, ne color emoji. */
+  --font-serif: "Spectral", "CSHSymbols", "Cardo", Georgia, "Times New Roman", serif;
+}
+
+/* === Symbol font pro astrologická znamení a další unicode glyphy ===
+   Cíl: glyphy U+2648..U+2653 (zodiac signs) renderovat jako text,
+   ne jako barevné emoji. Browser by default vybírá Apple Color Emoji
+   nebo Segoe UI Emoji pro tyto chars. Přes `unicode-range` přesměrujeme
+   na text-style symbol fonts. Plus `font-variant-emoji: text` jako
+   moderní backup pro browsers které ho podporují (Chrome 119+, FF 124+). */
+@font-face {
+  font-family: 'CSHSymbols';
+  src: local('Apple Symbols'), local('Symbola'), local('Noto Sans Symbols 2'),
+       local('DejaVu Sans'), local('Segoe UI Symbol');
+  /* Zodiac signs U+2648–U+2653 a vybrané astronomické symboly */
+  unicode-range: U+2648-2653, U+263D-2642;
+  font-display: swap;
 }
 
 html {
   font-family: var(--font-serif);
+  font-variant-emoji: text;
   background: var(--color-bg);
   color: var(--color-text);
   color-scheme: dark;
@@ -506,6 +523,28 @@ summary::-webkit-details-marker { display: none; }
   margin-block: 1.5em;
   border-radius: 2px;
   border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+}
+
+/* === Multi-image grid ===
+   Když je v jednom paragrafu více než jeden obrázek (markdown
+   `![](){}![](){}![]()` na jednom řádku), urovnej je do gridu.
+   Pravidlo se aplikuje na `<picture>` sourozence (rehype-picture
+   z markdown `<img>` udělá `<picture>` wrapper), takže zachytí
+   obě varianty: 2 obrázky vedle sebe i 3+ jako grid. */
+.prose-content p:has(picture + picture) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr));
+  gap: 0.75rem;
+  margin-block: 1.5em;
+  align-items: start;
+}
+.prose-content p:has(picture + picture) picture,
+.prose-content p:has(picture + picture) img {
+  margin-block: 0;
+  width: 100%;
+}
+.prose-content p:has(picture + picture) img {
+  object-fit: contain;
 }
 
 .prose-content blockquote {

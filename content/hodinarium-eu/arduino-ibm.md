@@ -36,9 +36,7 @@ Přistoupili jsme k vývoji co nejlevnější varianty elektronických hlavních
 
 ## Webové rozhraní [popsáno na stráne hlavních hodit pro polarizované impulzy](/projekty/arduino)
 
-![Halvní volby](/img/arduino/web_IBM.jpg)
-
-![volba WiFi](/img/arduino/web_IBM2.jpg)![parametry](/img/arduino/web_IBM3.jpg)
+![Hlavní volby](/img/arduino/web_IBM.jpg) ![volba WiFi](/img/arduino/web_IBM2.jpg) ![parametry](/img/arduino/web_IBM3.jpg)
 
 ![Ipulzer IBM_EEPROM verze 2](/img/arduino/E/NTPimpulzerIBM2.jpg)
 
