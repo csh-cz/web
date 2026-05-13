@@ -113,4 +113,59 @@ const lastModifiedReadable = (() => {
     font-style: italic;
     color: var(--color-text-soft);
   }
+
+  /* === Bullet a číslované listy ===
+     Sjednoceno s hodinarium-eu (`apps/hodinarium-eu/src/styles/global.css`):
+     `::before` namísto `::marker` pro přesný positioning, copper accents,
+     serif + tabular-nums pro `<ol>` (vizuální parita s table headers). */
+  .prose-content :global(ul),
+  .prose-content :global(ol) {
+    padding-left: 1.75rem;
+    margin-block: 1em;
+    list-style: none;
+  }
+  .prose-content :global(li) {
+    position: relative;
+    margin-block: 0.3rem;
+  }
+  .prose-content :global(ul > li::before) {
+    content: '◆';
+    position: absolute;
+    left: -1.25rem;
+    top: 0.05em;
+    color: var(--color-copper);
+    font-size: 0.85em;
+  }
+  .prose-content :global(ul ul > li::before) {
+    content: '◇';
+    opacity: 0.8;
+  }
+  .prose-content :global(ol) {
+    counter-reset: ol-counter;
+  }
+  .prose-content :global(ol > li) {
+    counter-increment: ol-counter;
+  }
+  .prose-content :global(ol > li::before) {
+    content: counter(ol-counter) '.';
+    position: absolute;
+    left: -1.75rem;
+    top: 0;
+    color: var(--color-copper);
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    min-width: 1.5rem;
+    text-align: right;
+    padding-right: 0.25rem;
+  }
+  .prose-content :global(ol ol) {
+    counter-reset: ol-counter-nested;
+  }
+  .prose-content :global(ol ol > li) {
+    counter-increment: ol-counter-nested;
+  }
+  .prose-content :global(ol ol > li::before) {
+    content: counter(ol-counter-nested, lower-alpha) ')';
+  }
 </style>
