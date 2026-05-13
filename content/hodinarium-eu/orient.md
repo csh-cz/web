@@ -2,6 +2,7 @@
 title: "Víceletý kalendář Orient"
 slug: "orient"
 category: "projekty"
+author: "Petr Král"
 originalUrl: "https://hodinarium.eu/orient.htm"
 lastModified: "Wed, 24 Feb 2021 13:07:00 GMT"
 sourceCharset: "windows-1250"
@@ -38,5 +39,3 @@ Na stejném principu je založen víceletý kalendářní systém hodinek Raketa
 Toto provedení hodinek Raketa je dosti neobvyklé. Nepodařilo se nám zjistit žádné údaje o jejich výrobě. Víme o tom, že hodinky Raketa se vyráběly i s 24 hodinovým ciferníkem a dalšími komplikacemi, například s otočnou lunetou světových časů. Mate-li nějaké další informace, podělte se.
 
 Pozor na fake. Tyto hodinky [Sharp](/img/kalendarni/hodinky-sharp-calendar-quartz.jpeg) funkce víceletého kalendáře nesplňují ačkoliv se to na ciferníku tvrdí. Šířka označení dnů překračuje dva sloupce v tabulce dnů v týdnu. Ve výřezu je proto vidět jen tři a něco dnů v týdnu místo potřebných sedmi dnů. Podobný problém je i u označení posledního dvojčíslí roku. Ve výřezu jsou pouze čtyři. Hodinky tedy ukazují čas, den v měsíci v okýnku a den v týdnu například ve středu výřezu ciferníku. Funkce víceletého kalendáře nejde nastavit, je to jen pro sporný efekt. Použitelné jsou pouze pro lidi, kteří by stejně víceletý kalendář nastavit neuměli.
-
-Text: [Petr Král](/hodinari/petr-kral)

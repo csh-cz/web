@@ -2,6 +2,7 @@
 title: "Zvon Petr Vok - nový soběslavský zvon"
 slug: "zvon-petr-vok"
 category: "sbirka"
+author: "Petr Král"
 originalUrl: "https://hodinarium.eu/zvon_petr_vok.htm"
 lastModified: "Sun, 23 Apr 2017 20:05:00 GMT"
 sourceCharset: "windows-1250"
@@ -132,4 +133,4 @@ Oba nové zvony byly ozdobeny a vystaveny na nádvoří hradu. Následně byly z
 
 ![Fotografie 12](/img/vez/zvony/petrvok/sveceni/f/foto_0012.jpg)
 
-Foto: L. Zbytovská, M. Votruba, P. Král
+*Foto: L. Zbytovská, M. Votruba, P. Král*

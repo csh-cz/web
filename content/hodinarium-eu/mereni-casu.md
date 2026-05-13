@@ -8,12 +8,13 @@ originalUrl: "https://hodinarium.eu/mereni_casu.htm"
 lastModified: "Wed, 26 Apr 2017 16:02:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:04.915Z"
-tldr: 'Díky laskavosti původních autorů doslovně převzato ze serveru'
+tldr: 'Měření času dělá lidstvu problémy, neboť sluneční soustava je nehomogenní a tělesa se v ní pohybují různými směry. Pro měření času je nutno vytvořit soustavy souřadnic.'
+references:
+  - title: "Měření času — zemepis.eu"
+    url: "https://www.zemepis.eu/stranka/mereni-casu"
+    type: odkaz
+    note: "Primární pramen tohoto článku — doslovně převzato s laskavým svolením autorů."
 ---
-Díky laskavosti původních autorů doslovně převzato ze serveru
-
-www.zemepis.eu/stranka/mereni-casu
-
 Měření času dělá lidstvu problémy, neboť sluneční soustava je nehomogenní a tělesa se v ní pohybují různými směry. Naopak fyzikální procesy se odehrávají tak pomalu, že je můžeme sledovat na vzdálených objektech. Pro měření času je nutno vytvořit soustavy souřadnic.
 
 **Tropický rok** je doba mezi dvěma následnými průchody Slunce jarním bodem. Jarní bod se vůči dané hvězdě během roku posouvá.
@@ -65,9 +66,9 @@ V okamžiku horní kulminace jarního bodu je na místním poledníku 0 h 0 min 
 
 Je-li hvězdný čas vázán na skutečný, okamžitý jarní bod, mluvíme o **pravém hvězdném času.** Jarní bod však následkem nutace osciluje kolem své střední polohy, a proto zavádíme střední jarní bod, které nutaci nepodléhá, a dostaneme **střední hvězdný čas.**
 
-Poněvadž jarní bod není na obloze vyznačen, **užívá se ke stanovení hvězdného času hvězd.** Jestliže hvězda, na niž zaměřujeme, právě kulminuje, je její hvězdný čas rovný rektascenzi, tedy Q = a.
+Poněvadž jarní bod není na obloze vyznačen, **užívá se ke stanovení hvězdného času hvězd.** Jestliže hvězda, na niž zaměřujeme, právě kulminuje, je její hvězdný čas rovný rektascenzi, tedy $\Theta = \alpha$.
 
-Jestliže je sledovaná hvězda mimo kulminaci, pak je hvězdný čas roven součtu jejího hodinového úhlu a rektascenze, tedy Q = *t* + a.
+Jestliže je sledovaná hvězda mimo kulminaci, pak je hvězdný čas roven součtu jejího hodinového úhlu a rektascenze, tedy $\Theta = t + \alpha$.
 
 Jednotkou hvězdného času je **hvězdný den,** což je doba, která uplyne mezi dvěma po sobě následujícími horními kulminacemi jarního bodu. Pokud by jarní bod neměnil s časem svou polohu, byl by hvězdný den totožný s dobou otočení Země o 360°. Následkem pohybu jarního bodu je však hvězdný den kratší než doba této otáčky, a to o hodnotu denního posunu jarního bodu, tj. o 0,009 s středního času. Střední čas je astronomickými pozorováními určený z času hvězdného.
 
@@ -92,8 +93,8 @@ Slunce se zdánlivě po ekliptice nepohybuje rovnoměrně, což je následek dru
 **Místní pravý sluneční čas** lze měřit pouze pomocí **[slunečních hodin](/slovnik/slunecni-hodiny).** Jejich základní částí je **polos,** stínová tyč rovnoběžná se zemskou osou. Na severní polokouli směřuje polos k severnímu světovému pólu a s vodorovnou rovinou svírá úhel rovný místní zeměpisné šírce j. Polos vrhá svůj stín na číselník a ukazuje tím čas. Podle polohy číselníku rozdělujeme [sluneční hodiny](/slovnik/slunecni-hodiny) na
 
 - **rovníkové** - rovina číselníku je rovnoběžná s rovníkem, číselník je kolmý na polos, jež je rovnoběžný se zemskou osou, číselník má dělení po 15°;
-- **vertikální** - rovina číselníku je svislá a měla by být orientována na jih, polos s ní svírá úhel 90 – j, úhly b mezi poledníkovým směrem a čarami číselníku se vypočtou pomocí vzorce tg b = tg a \* cos j, kde se za a postupně dosazují násobky 15°;
-- **horizontální** - rovina číselníku je vodorovná a polos s ní svírá úhel zeměpisné šírky, úhly b se vypočtou vzorcem – tg b = tg a \* sin j.
+- **vertikální** — rovina číselníku je svislá a měla by být orientována na jih, polos s ní svírá úhel $90° - \varphi$, úhly $\beta$ mezi poledníkovým směrem a čarami číselníku se vypočtou pomocí vzorce $\operatorname{tg}\beta = \operatorname{tg}\alpha \cdot \cos\varphi$, kde se za $\alpha$ postupně dosazují násobky 15°;
+- **horizontální** — rovina číselníku je vodorovná a polos s ní svírá úhel zeměpisné šírky, úhly $\beta$ se vypočtou vzorcem $\operatorname{tg}\beta = \operatorname{tg}\alpha \cdot \sin\varphi$.
 
 Protože je pravý sluneční čas k měření nevhodný, byl zaveden **střední sluneční čas,** který se řídí fiktivním **středním Sluncem.**
 
@@ -101,15 +102,21 @@ Protože je pravý sluneční čas k měření nevhodný, byl zaveden **středn�
 
 **Druhé střední Slunce** se pohybuje rovnoměrně po světovém rovníku a s prvním středním Sluncem se setkává v jarním a podzimním bodu. Druhé střední Slunce je základem občanské časomíry - **středního slunečního času** *T.* Jednotkou středního slunečního času je **střední sluneční den,** což je doba mezi dvěma po sobě následujícími dolními kulminacemi druhého středního Slunce. Dolními proto, aby se datum měnilo o půlnoci a nikoli v poledne. To je i důvod, proč se v definici času připočítává 12 h. Mezi středním slunečním časem a hodinovým úhlem druhého středního Slunce *t* platí vztah:
 
-*T* = *t*± 12 h
+$$
+T = t \pm 12\,\mathrm{h}
+$$
 
-**Časová rovnice** je rozdíl mezi časy průchodů pravého Slunce *TP* a druhého středního Slunce *TS* meridiánem.
+**Časová rovnice** je rozdíl mezi časy průchodů pravého Slunce $T_P$ a druhého středního Slunce $T_S$ meridiánem.
 
-*E* = *T**P*– *T**S*
+$$
+E = T_P - T_S
+$$
 
-Protože pravý sluneční čas je vlastně hodinový úhel pravého Slunce *tP* zvětšený nebo zmenšený o 12 h, můžeme psát
+Protože pravý sluneční čas je vlastně hodinový úhel pravého Slunce $t_P$ zvětšený nebo zmenšený o 12 h, můžeme psát
 
-*E* = *tP*± 12 h – *T**S*
+$$
+E = t_P \pm 12\,\mathrm{h} - T_S
+$$
 
 Hodnota [časové rovnice](/slovnik/casova-rovnice) je nezávislá na místě pozorování a je pro každý den uváděna ve hvězdářských ročenkách. Z denních hodnot časové rovnice se sestavuje její **graf pro celý rok.** Z grafu vyplývá, že [časová rovnice](/slovnik/casova-rovnice) je čtyřikrát do roka rovna nule. Největší rozdíly jsou 10. až 12. února, kdy se pravé poledne opozdí za středním o 14 min 16 s, a 2. až 4. listopadu, kdy pravé poledne nastává 16 min 25 s před polednem středním. V prvním případě má časová rovnice hodnotu zápornou, ve druhém kladnou.
 
@@ -177,9 +184,11 @@ Pro určení zeměpisné délky z rozdílu místních časů je třeba mít hodi
 
 Čeká se na horní kulminaci Slunce, která je v pravé poledne místního času. V tento okamžik se zároveň přečte, kolik hodin ukazuje [chronometr](/slovnik/chronometr) nařízený na střední sluneční čas greenwichského poledníku. Rozdíl časů místního a greenwichského poledníku se zjistí tak, že se místo pravého poledne vezme příslušný střední čas pro daný den z Hvězdářské ročenky a od něj se odečte greenwichský čas přečtený na [chronometru](/slovnik/chronometr).
 
-l = *T*sl – *T*sG nebo l = *T*pl – *T*pG,
+$$
+\lambda = T_{sl} - T_{sG} \quad\text{nebo}\quad \lambda = T_{pl} - T_{pG}
+$$
 
-kde *T*sl je střední čas poledníku l a *T*sG střední čas greenwichského poledníku. Index *p* značí pravý čas.
+kde $T_{sl}$ je střední čas poledníku $\lambda$ a $T_{sG}$ střední čas greenwichského poledníku. Index $p$ značí pravý čas.
 
 ***Příklady:***
 
@@ -199,7 +208,9 @@ l = 12h 03min – 19h 40min = – 7h 37min \* 15° = – 114° 15’, tj. 114° 
 
 Čeká se na horní kulminaci hvězdy a na astronomických hodinách se přečte hvězdný čas na srovnávacím (greenwichském) poledníku o. V Hvězdářské ročence se vyhledá rektascenze  hvězdy, která je rovna v okamžiku kulminace místnímu hvězdnému času . Pro zeměpisnou délku platí vztah
 
-l = Q – Qo.
+$$
+\lambda = \Theta - \Theta_0
+$$
 
 ***Příklad:***
 
@@ -213,27 +224,37 @@ l = Q – Qo.
 
 Řešení:
 
-určení zeměpisné šírky:
+**Určení zeměpisné šířky:**
 
-j = 90° + d – *h*, přičemž výšku Slunce *h* určíme pomocí např. 1 metr dlouhého klacku, který zabodneme kolmo do země. Změříme délku stínu (2,4 m), který klacek vrhá a přes tangentu vypočteme *h*, tedy
-tg *h* = 1/2,4
-*h* = 23° 27’
+$\varphi = 90° + \delta - h$, přičemž výšku Slunce $h$ určíme pomocí např. 1 metr dlouhého klacku, který zabodneme kolmo do země. Změříme délku stínu (2,4 m), který klacek vrhá a přes tangentu vypočteme $h$, tedy
 
-Zeměpisná šírka, na které se nacházíme je tedy
-j = 90 + (– 23° 27’) – 23° 27’j = 43° 56’
+$$
+\operatorname{tg} h = \frac{1}{2{,}4} \quad\Rightarrow\quad h = 23°\,27'
+$$
 
-určení zeměpisné délky:
+Zeměpisná šířka, na které se nacházíme je tedy
+
+$$
+\varphi = 90° + (-23°\,27') - 23°\,27' = 43°\,56'
+$$
+
+**Určení zeměpisné délky:**
 
 Když je stín klacku nejkratší, podíváme se na hodinky, které v tuto chvíli ukazují 8 h 41 min tokijského času. Tokio je od Londýna - Greenwiche odděleno deseti časovými pásmy. Tj.
 
-- Tokijský čas *T*<sub>ST</sub> = 8 h 41 min
-- Čas našeho místa *T*<sub>Sl</sub> = 12 h
-- Greenwichský čas *T*<sub>SG</sub> = 22 h 41 min (8 h 41 min – 10 h)
+- Tokijský čas $T_{ST} = 8\,\mathrm{h}\,41\,\mathrm{min}$
+- Čas našeho místa $T_{Sl} = 12\,\mathrm{h}$
+- Greenwichský čas $T_{SG} = 22\,\mathrm{h}\,41\,\mathrm{min}$ (8 h 41 min – 10 h)
 
-odhad  Tokia 10 pásem \* 15° = 150° v. d.
+Odhad Tokia: $10 \text{ pásem} \cdot 15° = 150°$ v. d.
 
-Víme, že pravý a střední sluneční čas jsou shodné čtyřikrát za rok, přičemž nejdříve budou shodné 25. prosince. Tento den pak vypočtu naši zeměpisnou délku pomocí l = TSl – *T**SG*. Tedy
-l = 12 h – 22 h 41 min = – 10 h 41 min \* 15° = – 160° 15’, tj. 160° 15’ z. d.
+Víme, že pravý a střední sluneční čas jsou shodné čtyřikrát za rok, přičemž nejdříve budou shodné 25. prosince. Tento den pak vypočtu naši zeměpisnou délku pomocí $\lambda = T_{Sl} - T_{SG}$. Tedy:
+
+$$
+\lambda = 12\,\mathrm{h} - 22\,\mathrm{h}\,41\,\mathrm{min} = -10\,\mathrm{h}\,41\,\mathrm{min} \cdot 15° = -160°\,15'
+$$
+
+tj. 160° 15′ z. d.
 
 ## KALENDÁŘ
 

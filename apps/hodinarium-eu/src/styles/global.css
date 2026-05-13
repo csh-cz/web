@@ -28,12 +28,29 @@
   --color-text-muted: #9a8c75;
   --color-ink: #1a120a;
 
-  /* Jediný typografický rod */
-  --font-serif: "Spectral", "Cardo", Georgia, "Times New Roman", serif;
+  /* Jediný typografický rod. CSHSymbols (definovaný níže s unicode-range)
+     ošetří astrologická znamení jako text glyphy, ne color emoji. */
+  --font-serif: "Spectral", "CSHSymbols", "Cardo", Georgia, "Times New Roman", serif;
+}
+
+/* === Symbol font pro astrologická znamení a další unicode glyphy ===
+   Cíl: glyphy U+2648..U+2653 (zodiac signs) renderovat jako text,
+   ne jako barevné emoji. Browser by default vybírá Apple Color Emoji
+   nebo Segoe UI Emoji pro tyto chars. Přes `unicode-range` přesměrujeme
+   na text-style symbol fonts. Plus `font-variant-emoji: text` jako
+   moderní backup pro browsers které ho podporují (Chrome 119+, FF 124+). */
+@font-face {
+  font-family: 'CSHSymbols';
+  src: local('Apple Symbols'), local('Symbola'), local('Noto Sans Symbols 2'),
+       local('DejaVu Sans'), local('Segoe UI Symbol');
+  /* Zodiac signs U+2648–U+2653 a vybrané astronomické symboly */
+  unicode-range: U+2648-2653, U+263D-2642;
+  font-display: swap;
 }
 
 html {
   font-family: var(--font-serif);
+  font-variant-emoji: text;
   background: var(--color-bg);
   color: var(--color-text);
   color-scheme: dark;
@@ -506,6 +523,28 @@ summary::-webkit-details-marker { display: none; }
   margin-block: 1.5em;
   border-radius: 2px;
   border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+}
+
+/* === Multi-image grid ===
+   Když je v jednom paragrafu více než jeden obrázek (markdown
+   `![](){}![](){}![]()` na jednom řádku), urovnej je do gridu.
+   Pravidlo se aplikuje na `<picture>` sourozence (rehype-picture
+   z markdown `<img>` udělá `<picture>` wrapper), takže zachytí
+   obě varianty: 2 obrázky vedle sebe i 3+ jako grid. */
+.prose-content p:has(picture + picture) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr));
+  gap: 0.75rem;
+  margin-block: 1.5em;
+  align-items: start;
+}
+.prose-content p:has(picture + picture) picture,
+.prose-content p:has(picture + picture) img {
+  margin-block: 0;
+  width: 100%;
+}
+.prose-content p:has(picture + picture) img {
+  object-fit: contain;
 }
 
 .prose-content blockquote {
@@ -1316,14 +1355,83 @@ body[data-editor-mode] .fab-stack {
 }
 
 
-/* TL;DR aside na článku */
+/* === Poznámky pod čarou (GFM footnotes) ===
+   remark-gfm renderuje `[^id]` a `[^id]: text` jako
+   `<section data-footnotes><h2>Footnotes</h2><ol><li>…</li></ol></section>`.
+   Skryjeme default anglický „Footnotes" heading a nahradíme českým
+   labelem ve stylu identickém s ## Odkazy sekce (copper eyebrow). */
+.prose-content section[data-footnotes] {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--color-text-soft);
+}
+.prose-content section[data-footnotes] > h2 {
+  font-size: 0 !important;
+  line-height: 0;
+  margin: 0 0 1rem;
+  padding: 0;
+  border: none;
+  height: 0;
+  overflow: hidden;
+}
+.prose-content section[data-footnotes] > h2::after {
+  content: "Poznámky pod čarou";
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--color-copper);
+  font-weight: 500;
+  font-style: normal;
+}
+.prose-content section[data-footnotes] ol {
+  padding-left: 1.5rem;
+  margin: 0;
+}
+.prose-content section[data-footnotes] li {
+  margin-block: 0.5rem;
+}
+.prose-content section[data-footnotes] [data-footnote-backref] {
+  color: var(--color-copper);
+  text-decoration: none;
+  font-size: 0.85em;
+  margin-left: 0.35em;
+  border-bottom: none;
+}
+.prose-content section[data-footnotes] [data-footnote-backref]:hover {
+  color: var(--color-brass-bright);
+}
+
+/* Perex / lead paragraf na článku — novinový styl.
+   Krátký abstrakt mezi nadpisem a tělem článku. Visualní distinkce
+   od běžných paragrafů: větší serif kurzíva v tlumené copper barvě,
+   levý copper „tah" jako blockquote (parita s ## headings underscore).
+   Bez dominantního pozadí — perex se má číst „nadlehčeně", ne jako box. */
 .tldr {
-  background: var(--color-bg-deep);
-  border-left: 3px solid var(--color-brass);
-  padding: 1rem 1.25rem;
-  margin-block: 1.5rem;
-  font-size: 1rem;
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.55;
+  color: var(--color-text-soft);
+  margin-block: 1.5rem 2rem;
+  padding: 0.25rem 0 0.4rem 1.5rem;
+  border-left: 2px solid var(--color-copper);
+  background: transparent;
+}
+.tldr::first-line {
+  /* Drobný emphasis na první větu — subtle ale viditelný */
   color: var(--color-text);
+}
+@media (max-width: 600px) {
+  .tldr {
+    font-size: 1.08rem;
+    padding-left: 1rem;
+  }
 }
 
 /* prefers-reduced-motion */

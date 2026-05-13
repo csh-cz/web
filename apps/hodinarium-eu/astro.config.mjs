@@ -8,6 +8,8 @@ import { fileURLToPath } from 'node:url';
 import rehypePicture from '../../packages/rehype-picture/index.mjs';
 import remarkDirective from 'remark-directive';
 import remarkCshDirectives from '../../packages/remark-csh-directives/index.mjs';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 import imageSizes from './src/data/image-sizes.json' with { type: 'json' };
 
 // Build-time discovery draft articles (frontmatter `draft: true`).
@@ -41,6 +43,8 @@ export default defineConfig({
       // Musí být PŘED remarkCshDirectives, který tyto direktivy mapuje na komponenty.
       remarkDirective,
       remarkCshDirectives,
+      // remark-math: `$inline$` a `$$display$$` LaTeX matematické výrazy
+      remarkMath,
     ],
     rehypePlugins: [
       [rehypePicture, {
@@ -49,6 +53,9 @@ export default defineConfig({
         // DEV stage URL — po DNS switch nahradit za imgcdn.<doména>.cz.
         cdnBase: 'https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev',
       }],
+      // rehype-katex: převede math AST nodes (z remark-math) na HTML.
+      // Vyžaduje KaTeX CSS v Base.astro (https://katex.org/docs/font.html).
+      rehypeKatex,
     ],
   },
   integrations: [
@@ -58,7 +65,8 @@ export default defineConfig({
     // remark-directive) se musí inicializovat v MDX parseru SPECIFICKY,
     // aby `::name{...}` syntax fungovala v .mdx souborech.
     mdx({
-      remarkPlugins: [remarkDirective, remarkCshDirectives],
+      remarkPlugins: [remarkDirective, remarkCshDirectives, remarkMath],
+      rehypePlugins: [rehypeKatex],
     }),
     sitemap({
       filter: (page) => {
