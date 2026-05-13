@@ -28,25 +28,12 @@ Analogové vysílání je v ČR **zcela ukončeno** od roku 2012 (a DVB-T2 od 20
 
 V digitálním vysílání se vše se zpracovává **v blocích**: komprese, multiplexace, enkódování atd. Často se přidává **buffer**, **zpoždění z vysílačů**, a **síťová latence**. To způsobuje, že studiový **čas na obrazovce může být opožděn o 1–5 sekund i více**. Čas tedy **už není přímo „živý”**, a proto se dnes **na TV obraz nelze spolehnout pro přesné určení času**.
 
-Typ vysílání
-
-Typické zpoždění
-
-DVB-T / DVB-T2
-
-1–2 a
-
-DVB-S (satelit)
-
-2–4 s
-
-IPTV (O2TV, apod.)
-
-2–10 s
-
-HbbTV, streamy
-
-5–30 s
+| Typ vysílání | Typické zpoždění |
+|---|---|
+| DVB-T / DVB-T2 | 1–2 s |
+| DVB-S (satelit) | 2–4 s |
+| IPTV (O2TV, apod.) | 2–10 s |
+| HbbTV, streamy | 5–30 s |
 
 **Digitální televize a set-top boxy** získávají čas několika možnými způsoby, v závislosti na technologii příjmu (DVB-T, DVB-C, DVB-S, IPTV) a výrobci zařízení. Přesnost se pohybuje typicky v řádu **sekund**, ale u některých typů může být i lepší. Přehled podle typu:
 
@@ -64,29 +51,11 @@ Pokud žádný jiný čas není k dispozici (např. při výpadku signálu), mů
 
 ### Shrnutí přesností:
 
-Zdroj času
-
-Přesnost
-
-Poznámka
-
-DVB-T/DVB-C/DVB-S (TOT)
-
-±1 s
-
-Záleží na multiplexu
-
-IPTV (NTP)
-
-±0.1–1 s
-
-Záleží na síti
-
-Interní hodiny
-
-±minuty až hodiny
-
-Bez synchronizace rychle driftují
+| Zdroj času | Přesnost | Poznámka |
+|---|---|---|
+| DVB-T / DVB-C / DVB-S (TOT) | ±1 s | Záleží na multiplexu |
+| IPTV (NTP) | ±0.1–1 s | Záleží na síti |
+| Interní hodiny | ±minuty až hodiny | Bez synchronizace rychle driftují |
 
 ## Odkazy
 
