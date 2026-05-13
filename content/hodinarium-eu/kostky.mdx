@@ -8,8 +8,6 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:09.798Z"
 tldr: 'Sbírka je zejména díky množství zúčastněných výtvarníků jedinečná a tak trochu souvisí jak s tématikou hodinářskou, tak také v některých exponátech koresponduje i s výstavkou Nonsens 2015.…'
 ---
-import PdfPager from '../../apps/hodinarium-eu/src/components/PdfPager.astro';
-
 ### Pozoruhodná sbírka pana Dr. Adama byla vystavena v roce 2015.
 
 Sbírka je zejména díky množství zúčastněných výtvarníků jedinečná a tak trochu souvisí jak s tématikou hodinářskou, tak také v některých exponátech koresponduje i s výstavkou [Nonsens 2015.](/clanky/nonsens2015) Ať již je to kostka v láhvi pana Emanuela Hody či Neúprosná past času pana Miloše Krumla.
@@ -22,4 +20,4 @@ Jsme rádi, že i náš spolek přispěl k obohacení sbírky vlastním exponát
 
 ## Brožura k výstavě
 
-<PdfPager src="/download/brozura_miniatury.pdf" title="Brožura — Výtvarné miniatury ve tvaru kostky" pages={76} />
+::pdf-pager{src="/download/brozura_miniatury.pdf" title="Brožura — Výtvarné miniatury ve tvaru kostky" pages="76"}
