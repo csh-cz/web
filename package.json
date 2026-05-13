@@ -65,5 +65,8 @@
     "typescript": "^5.7.2",
     "unist-util-visit": "^5.0.0",
     "yaml": "^2.8.4"
+  },
+  "dependencies": {
+    "remark-directive": "^4.0.0"
   }
 }

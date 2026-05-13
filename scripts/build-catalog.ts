@@ -119,8 +119,9 @@ function extractExcerpt(body: string): string {
       !t.startsWith('!') &&            // markdown image
       !t.startsWith('[!') &&           // image link
       !/^[\-\*]\s/.test(t) &&          // list item ("- " or "* ") — bold "**X**" zachytit
-      !t.startsWith('<') &&            // raw HTML / JSX (Photo, ZidovskeHodiny, …)
-      !/^import\s/.test(t) &&          // MDX import statementy
+      !t.startsWith('<') &&            // raw HTML / JSX (legacy hodinari medailony)
+      !t.startsWith('::') &&           // CSH direktivy (`::photo{...}`, `::prs10-live`)
+      !/^import\s/.test(t) &&          // MDX import statementy (legacy medailony)
       !/^export\s/.test(t)             // MDX export
     ) {
       buf.push(t);
