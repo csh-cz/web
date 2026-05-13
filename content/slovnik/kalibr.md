@@ -4,6 +4,7 @@ slug: kalibr
 kategorie: hodinky
 prekladyDe:
   - term: Kaliber
+    genus: n
     zdroj: "Špatný 1882: Kaliber → ráž, kalibr"
 prekladyEn:
   - term: caliber

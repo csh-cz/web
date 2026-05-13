@@ -4,10 +4,12 @@ slug: kladivko
 kategorie: bici
 prekladyDe:
   - term: Hammer
+    genus: m
 prekladyEn:
   - term: hammer
 prekladyFr:
   - term: marteau
+    genus: m
 definice: "Páková součást bicího stroje, která je periodicky zvedána kolíčky zdvihacího kola a po uvolnění udeří na cymbál (zvon, gong nebo cinkavý drát)."
 pribuzne:
   - bicí-stroj

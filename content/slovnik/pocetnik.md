@@ -4,6 +4,7 @@ slug: pocetnik
 kategorie: bici
 prekladyDe:
   - term: Rechen
+    genus: m
     zdroj: "Špatný 1882: Rechen → početník"
 prekladyEn:
   - term: rack

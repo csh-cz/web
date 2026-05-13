@@ -4,6 +4,7 @@ slug: kyvadlo
 kategorie: mechanika
 prekladyDe:
   - term: Pendel
+    genus: n
   - term: "Špatný 1882]"
   - term: Perpendikel
 prekladyEn:
@@ -11,6 +12,7 @@ prekladyEn:
     zdroj: Saunier 1887
 prekladyFr:
   - term: pendule
+    genus: f
 definice: "Oscilátor ve formě tyče s čočkou, zavěšený na pružné planžetě; jeho pravidelné kývání reguluje chod hodin přes krok."
 pribuzne:
   - invar

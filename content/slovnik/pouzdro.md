@@ -4,11 +4,13 @@ slug: pouzdro
 kategorie: hodinky
 prekladyDe:
   - term: Gehäuse
+    genus: n
 prekladyEn:
   - term: case
 prekladyFr:
   - term: boîte
   - term: boîtier
+    genus: m
 varianty:
   - pouzdro
   - "skříně** (archaicky"

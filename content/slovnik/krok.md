@@ -4,14 +4,17 @@ slug: krok
 kategorie: mechanika
 prekladyDe:
   - term: Hemmung
+    genus: f
     zdroj: "Špatný 1882: Hemmung → krok"
   - term: Gang
+    genus: m
     zdroj: "Šumavský 1851: Gang → chod"
 prekladyEn:
   - term: escapement
     zdroj: "Saunier 1887, en, klíč `25YXVRCA`"
 prekladyFr:
   - term: échappement
+    genus: m
     zdroj: "Gros 1913, fr, klíč `AQI736GP`"
 definice: "Mechanismus, který přerušuje pohyb soukolí v pravidelných intervalech a předává tak energii ze závaží nebo péra na oscilátor (kyvadlo nebo setrvačku)."
 pribuzne:

@@ -4,6 +4,7 @@ slug: slunecni-hodiny
 kategorie: astronomicke
 prekladyDe:
   - term: Sonnenuhr
+    genus: f
     zdroj: "Špatný 1882: Sonnenuhr → sluneční hodiny"
 prekladyEn:
   - term: sundial

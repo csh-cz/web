@@ -4,15 +4,20 @@ slug: natahovy-buben
 kategorie: mechanika
 prekladyDe:
   - term: Seiltrommel
+    genus: f
   - term: Aufzugtrommel
+    genus: f
   - term: Trommel
+    genus: f
 prekladyEn:
   - term: barrel
   - term: rope drum
   - term: winding drum
 prekladyFr:
   - term: tambour
+    genus: m
   - term: tambour de corde
+    genus: m
 varianty:
   - nátahový buben
   - nátahový válec

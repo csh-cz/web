@@ -4,13 +4,16 @@ slug: gnomon
 kategorie: astronomicke
 prekladyDe:
   - term: Gnomon
+    genus: m
   - term: Schattenstab
+    genus: m
   - term: Polschatten
 prekladyEn:
   - term: gnomon
   - term: style
 prekladyFr:
   - term: gnomon
+    genus: m
   - term: style
 varianty:
   - gnómon

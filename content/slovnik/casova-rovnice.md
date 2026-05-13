@@ -4,11 +4,13 @@ slug: casova-rovnice
 kategorie: astronomicke
 prekladyDe:
   - term: Zeitgleichung
+    genus: f
     zdroj: obecně rozšířený moderní termín; Špatný 1882 přímý ekvivalent v hodinářském slovníku nemá
 prekladyEn:
   - term: equation of time
 prekladyFr:
   - term: équation du temps
+    genus: f
 varianty:
   - časová rovnice
   - "aequační kotouč** (Sladkovský 1947"

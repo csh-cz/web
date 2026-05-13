@@ -4,11 +4,13 @@ slug: cifernik
 kategorie: mechanika
 prekladyDe:
   - term: Zifferblatt
+    genus: n
 prekladyEn:
   - term: dial
   - term: clock face
 prekladyFr:
   - term: cadran
+    genus: m
 varianty:
   - ciferník
   - číselník (archaicky, Sušický 1900)
