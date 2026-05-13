@@ -36,6 +36,7 @@
     ai: false,
     aiLevel: 'free', // 'free' = Workers AI Mistral, 'paid' = Anthropic Sonnet (později)
     linkPicker: true, // Cmd+K modal pro odkazy — default ON (low overhead, žádný stažený asset)
+    citationPicker: true, // Cmd+Shift+R modal pro citace ze Zotera — default ON (lazy-load 2 MB references.json)
   };
 
   /** Read settings z localStorage, merge s defaults. */
@@ -138,6 +139,10 @@
       parts.push(s.linkPicker
         ? '<span style="color:#5b9dd9">🔗 ⌘K</span>'
         : '<span style="color:#666;text-decoration:line-through">🔗</span>');
+      // Citation picker
+      parts.push(s.citationPicker !== false
+        ? '<span style="color:#c9a85d">📚 ⌘⇧R</span>'
+        : '<span style="color:#666;text-decoration:line-through">📚</span>');
       status.innerHTML = parts.join('<span style="opacity:.4">·</span>');
     }
     renderStatus(settings);
@@ -227,10 +232,24 @@
           </span>
         </span>
       </label>
+      <label style="display:flex;align-items:flex-start;gap:.5rem;margin-bottom:.6rem;cursor:pointer">
+        <input type="checkbox" id="csh-set-citation-picker" ${settings.citationPicker !== false ? 'checked' : ''}
+               style="margin-top:.2rem;cursor:pointer">
+        <span>
+          <strong>Vkládání citací ze Zotera (⌘⇧R / Ctrl+Shift+R)</strong>
+          <span style="display:block;font-size:.8rem;opacity:.7;margin-top:.15rem">
+            Modal pro hledání bibliografických citací nad Davidovým Zotero
+            snapshotem (~2700 položek). Hledej autor + rok + klíčová slova
+            („Bureš 1965"). Klik vloží <code>[Autor Rok, s. X]</code> a do
+            schránky zkopíruje YAML snippet pro frontmatter
+            <code>references[]</code>.
+          </span>
+        </span>
+      </label>
       <div style="margin:1rem 0 .6rem;padding-top:.8rem;border-top:1px solid #444;font-size:.8rem;opacity:.7">
         <strong>Pozn.:</strong> všechny funkce jsou nezávislé, lze zapnout libovolnou
-        kombinaci. Spell-check + Vkládání odkazů funguje offline (data v prohlížeči),
-        AI vyžaduje síť (data jdou na Cloudflare).
+        kombinaci. Spell-check + Vkládání odkazů + Citace funguje offline (data
+        v prohlížeči), AI vyžaduje síť (data jdou na Cloudflare).
       </div>
       <div style="display:flex;justify-content:space-between;align-items:center;margin-top:.8rem">
         <button type="button" id="csh-set-help"
@@ -274,6 +293,7 @@
         ai: modal.querySelector('#csh-set-ai').checked,
         aiLevel: 'free',
         linkPicker: modal.querySelector('#csh-set-link-picker').checked,
+        citationPicker: modal.querySelector('#csh-set-citation-picker').checked,
       };
       saveSettings(next);
       window.dispatchEvent(new CustomEvent('csh-settings-changed', { detail: next }));
@@ -283,6 +303,7 @@
     });
     modal.querySelector('#csh-set-ai').addEventListener('change', applyAndEmit);
     modal.querySelector('#csh-set-link-picker').addEventListener('change', applyAndEmit);
+    modal.querySelector('#csh-set-citation-picker').addEventListener('change', applyAndEmit);
 
     // Help modal
     modal.querySelector('#csh-set-help').addEventListener('click', () => {
