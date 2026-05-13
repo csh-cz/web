@@ -78,6 +78,7 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
 <Base
   title={pageTitle}
   description={`Věžní hodiny ${d.rok} v lokalitě ${d.puvodniMisto.obec}${d.puvodniMisto.budova ? ` (${d.puvodniMisto.budova})` : ''} — záznam v Soupisu věžních hodin Hodinária.`}
+  cmsEditUrl={`/admin/#/collections/soupis-veznich-hodin/entries/${item.id}`}
   citation={{
     /* Záznam o objektu (věžní hodiny) — Web Page, ne journalArticle.
        Datum = rok výroby objektu (~1868), ne datum publikace stránky. */
