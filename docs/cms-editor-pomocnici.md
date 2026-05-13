@@ -517,6 +517,24 @@ V některých článcích (např. *Mysteriózní hodiny*, *Kostky*, *Židovské 
 ::photo{src="/img/zidovske/holmstad_2014_cifernik.jpg" alt="Hebrejský ciferník Židovské radnice" class="img-hero" author="Øyvind Holmstad" license="CC BY-SA 3.0" licenseUrl="https://creativecommons.org/licenses/by-sa/3.0/" sourceUrl="https://commons.wikimedia.org/wiki/File:Prague_Praha_2014_Holmstad..."}
 ```
 
+### 🖼 Vkládání obrázku přes modal (⌘⇧P / Ctrl+Shift+P)
+
+Nejjednodušší cesta — nemusíš psát direktivu ručně. V Sveltia editoru:
+
+1. Umísti kurzor v textu kam má obrázek přijít
+2. Stiskni **⌘⇧P** (Mac) nebo **Ctrl+Shift+P** (Win/Linux)
+3. Vyplň formulář:
+   - **Cesta (src)** — `/img/cesta/obrazek.jpg`
+   - **Popis (alt)** — pro screen readery
+   - **Velikost / layout** — radio buttons (Auto, Hero, Plná šířka, Na střed, Malý, Střední, Vysoký)
+   - **Obtékání** — Default / Vlevo / Vpravo
+   - **Credit** (volitelně) — autor, licence, zdroj, rok
+4. Klik „Vložit" → vygeneruje `::photo{...}` direktivu na pozici kurzoru
+
+Modal má **živý náhled** výsledné direktivy pod formulářem.
+
+Toggle přes ⚙ Pomocníci panel.
+
 ### Umístění obrázku — `class` atribut
 
 Atribut `class` na `::photo` nebo přímo na `<img>` určuje, kde se obrázek na stránce zobrazí. Můžeš jich uvést víc oddělených mezerou (`class="img-medium img-float-left"`).
