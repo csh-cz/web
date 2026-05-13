@@ -8,12 +8,18 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:09.302Z"
 tldr: 'Časové razítko je doplňkový soubor, který pro daný elektronický dokument osvědčuje jeho existenci v určitém čase. Nejčastěji se používá v elektronických podatelnách a při datování smluv a podobných dokumentů.…'
 references:
-  - title: "Zákon o elektronickém podpisu"
-    url: "https://business.center.cz/business/pravo/zakony/epodpis/cast1.aspx"
+  - title: "Zákon č. 297/2016 Sb., o službách vytvářejících důvěru pro elektronické transakce"
+    url: "https://www.e-sbirka.cz/sb/2016/297"
     type: odkaz
-  - title: "Vyhláška o elektronických podatelnách"
-    url: "https://crypto-world.info/pravo/podpis/pravo/496_04.htm"
+    note: "Aktuální česká úprava elektronického podpisu a časových razítek (implementace eIDAS, nař. EU 910/2014). Nahradil zrušený zákon 227/2000 Sb."
+  - title: "Zákon č. 227/2000 Sb., o elektronickém podpisu (zrušen)"
+    url: "https://www.e-sbirka.cz/sb/2000/227"
     type: odkaz
+    note: "Historický pramen — v době vzniku článku platný zákon. Zrušen k 19. 9. 2016."
+  - title: "Vyhláška č. 496/2004 Sb., o elektronických podatelnách (zrušena)"
+    url: "https://www.e-sbirka.cz/sb/2004/496"
+    type: odkaz
+    note: "Historický pramen — zrušena v souvislosti s přijetím zákona 297/2016 Sb."
   - title: "Elektronické časové razítko, doplněk elektronického podpisu"
     url: "https://interval.cz/clanky/elektronicke-casove-razitko-doplnek-elektronickeho-podpisu/"
     type: clanek
@@ -21,7 +27,7 @@ references:
     url: "http://vsol.obce.cz/clanek.asp?id=2006111"
     type: clanek
 ---
-**Č**asové razítko je doplňkový soubor, který pro daný elektronický dokument osvědčuje jeho existenci v určitém čase. Nejčastěji se používá v elektronických podatelnách a při datování smluv a podobných dokumentů. **Kvalifikované časové razítko** poskytují **certifikační autority** (zpravidla po Internetu). Způsob jeho poskytování a obsah je v ČR určen **zákonem o elektronickém podpisu** a je také nejčastěji používán společně s elektronickým podpisem.
+**Č**asové razítko je doplňkový soubor, který pro daný elektronický dokument osvědčuje jeho existenci v určitém čase. Nejčastěji se používá v elektronických podatelnách a při datování smluv a podobných dokumentů. **Kvalifikované časové razítko** poskytují **certifikační autority** (zpravidla po Internetu). Způsob jeho poskytování a obsah je v ČR od roku 2016 určen **zákonem č. 297/2016 Sb., o službách vytvářejících důvěru pro elektronické transakce** (implementace evropského nařízení eIDAS), který nahradil dříve platný zákon č. 227/2000 Sb. o elektronickém podpisu. Razítko je nejčastěji používán společně s elektronickým podpisem.
 
 Zdálo by ce, že okamžik vzniku či změně nějakého dokumentu dostatečně určují údaje o datu a času vedené operečním systémem. Ty však určují, kdy byl soubor pravděpodobně naposledy změněn na daném médiu a odvozují se od informací operačního systému počítače, které lze často uživalelsky změnit. Uváděné údaje lze velmi jednoduše pozměnit, takže valnou vypovídací hodnotu nemají. Proto musí být použita externí autorita.
 
