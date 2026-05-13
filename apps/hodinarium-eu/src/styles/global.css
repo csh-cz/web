@@ -759,7 +759,11 @@ summary::-webkit-details-marker { display: none; }
 }
 .prose-content h2#odkazy + ul li::marker { content: ''; }
 .prose-content h2#odkazy + ul li::before {
-  content: '↗';
+  /* `\FE0E` = Unicode VS15 Variation Selector — force text presentation
+     pro ↗ (U+2197). Bez něj může OS/browser zvolit emoji-color rendering
+     (Apple Color Emoji apod.). VS15 je universal — funguje napříč browsers,
+     na rozdíl od `font-variant-emoji: text` (Chrome 119+, FF 124+). */
+  content: '↗\FE0E';
   position: absolute;
   left: 0.25rem;
   top: 0.6rem;
@@ -1508,7 +1512,9 @@ body[data-editor-mode] .fab-stack {
  * s wiki/mapa rules výše a s OWN_DOMAIN whitelistem.
  */
 a[href^="http"]:not([href*="wikipedia.org/wiki/"]):not([href*="wikimedia.org/wiki/"]):not([href*="mapy.cz"]):not([href*="mapy.com"]):not([href*="google.com/maps"]):not([href*="maps.google"]):not([href*="goo.gl/maps"]):not([href*="openstreetmap.org"]):not([href*="hodinarium.eu"]):not([href*="hodinarium-eu.pages.dev"]):not([href*="orloj.eu"]):not([href*="horologie.cz"]):not([href*="horologie-cz.pages.dev"])::after {
-  content: '\00A0↗';
+  /* `\FE0E` = VS15 selector, force text presentation pro ↗ (U+2197).
+     Universal — funguje napříč browsers, na rozdíl od `font-variant-emoji`. */
+  content: '\00A0↗\FE0E';
   font-size: 0.8em;
   color: var(--color-copper);
   opacity: 0.7;
