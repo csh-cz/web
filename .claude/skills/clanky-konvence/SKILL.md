@@ -264,23 +264,35 @@ Tone se počítá build-time pomocí `sharp` v `scripts/build-image-index.ts` �
 
 **Právně:** v ČR autorské právo vzniká automaticky vznikem díla, takže technicky i osiřelé dílo (orphan work) je chráněno. Industry standard pro muzejní/archivní weby je formule výše — neinfrige se tím méně, ale přiznává gap a vytváří kanál pro nápravu. Plně compliant je jen registrace v EUIPO orphan works databázi (Směrnice 2012/28/EU), což je over-engineered pro spolkový web.
 
-## 5. Ikony pro odkazy — UNIVERSAL konvence
+## 5. Ikony — Font Awesome ONLY, ŽÁDNÉ emoji
 
-**Pravidlo:** každý odkaz dostane ikonu podle typu, aby uživatel rozeznal odkaz na první pohled. Platí napříč celým webem bez výjimky.
+**Generic pravidlo (PLATÍ NAPŘÍČ CELÝM WEBEM):** pro libovolnou UI ikonu **výhradně Font Awesome** (`fa-solid` / `fa-regular` / `fa-brands`). **Emoji glyphy NIKDY** — `📖 📰 🔗 ⚠ ✓ ✗ ⛔ 🟢 …` jsou zakázané (různé renderingy napříč platformami, barevné gradienty, ne-monochromatické, kolize s text typography).
 
-| Typ | Ikona | Detekce |
-|---|---|---|
-| **Wikipedia / Wikimedia** | **ⓦ** (W v kroužku) | `href*="wikipedia.org/wiki/"`, `href*="wikimedia.org/wiki/"` |
-| **Generic external** | **↗** (šipka) | jakýkoliv `href^="http"` mimo wiki/mapa/own-domain |
-| **Mapa** | pin (SVG, copper) | `href*="mapy.cz"`, `openstreetmap.org`, `google.com/maps`, `goo.gl/maps` |
-| **Kniha** | 📖 | jen v `references:` s `type: kniha` |
-| **PDF** | ⤓ | jen v `references:` s `type: pdf` |
-| **Článek (časopis)** | 📰 | jen v `references:` s `type: clanek` |
+```html
+<i class="fa-solid fa-book" aria-hidden="true"></i>
+<i class="fa-solid fa-newspaper" aria-hidden="true"></i> Časopis
+```
+
+Mapping emoji → Font Awesome viz `~/.claude/projects/-Users-dknespl-Documents-orlojWeb/memory/feedback_ikony_font_awesome.md`.
+
+### 5.1. Konvence ikon u odkazů
+
+| Typ | Stav (k 2026-05-13) | Target (Font Awesome) | Detekce |
+|---|---|---|---|
+| **Wikipedia / Wikimedia** | **ⓦ** (Unicode v kroužku, text glyph) | → `fa-brands fa-wikipedia-w` | `href*="wikipedia.org/wiki/"`, `href*="wikimedia.org/wiki/"` |
+| **Generic external** | **↗\FE0E** (Unicode arrow + text variation selector) | → `fa-solid fa-arrow-up-right-from-square` | jakýkoliv `href^="http"` mimo wiki/mapa/own-domain |
+| **Mapa** | pin (SVG, copper) | → `fa-solid fa-location-dot` nebo zachovat SVG | `href*="mapy.cz"`, `openstreetmap.org`, `google.com/maps`, `goo.gl/maps` |
+| **Kniha** | ~~📖~~ → `fa-solid fa-book` | (jen v `references:` s `type: kniha`) |
+| **PDF** | ~~⤓~~ → `fa-solid fa-file-pdf` nebo `fa-solid fa-download` | (jen v `references:` s `type: pdf`) |
+| **Článek (časopis)** | ~~📰~~ → `fa-solid fa-newspaper` | (jen v `references:` s `type: clanek`) |
 | **Vlastní doména / relative** | bez ikony | hodinarium.eu, orloj.eu, horologie.cz, `/path` |
 
+**Migrace v plánu** — současný stav (Unicode glyphy ↗ ⓦ a emoji 📖 📰 ⤓) je legacy z předchozího iteračního pattern. Long-term target = výhradně Font Awesome. Při dotyku konkrétní komponenty / utility migrovat na FA. Pro inline odkazy přes CSS `::after` (kde Font Awesome `<i>` element nelze vložit) **vždy s `\FE0E`** (text variation selector) u Unicode šipky, jinak Safari/iOS rendí jako color emoji.
+
 **Aplikace:**
-- **Inline v body textu** — CSS automaticky `::after` ikonu, NIC nepřidávat ručně
+- **Inline v body textu** — CSS automaticky `::after` ikonu, NIC nepřidávat ručně. Aktuálně Unicode glyph; při příští CSS refactor přejít na Font Awesome přes pseudo `::before` font-family hack
 - **V references-list** — typed bullet `::before` vlevo, `::after` šipka suppressed (žádný duplikát)
+- **V Astro komponentech** — vždy `<i class="fa-solid fa-XXX" aria-hidden="true">`
 
 CSS rules: `apps/hodinarium-eu/src/styles/global.css` sekce „External odkazy — universal konvence ikon".
 
