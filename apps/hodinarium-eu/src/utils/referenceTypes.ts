@@ -9,15 +9,15 @@
  *   kniha | clanek | pdf | odkaz | wiki | mapa | patent | archiv | zprava
  */
 export const referenceTooltip: Record<string, string> = {
-  kniha: 'Tištěný pramen — kniha, monografie, sborník (📖)',
-  clanek: 'Článek v časopise / sborníku / novinách (📰)',
-  pdf: 'Soubor PDF — zpráva, článek, dokumentace ke stažení (⤓)',
+  kniha: 'Tištěný pramen — kniha, monografie, sborník',
+  clanek: 'Článek v časopise / sborníku / novinách',
+  pdf: 'Soubor PDF — zpráva, článek, dokumentace ke stažení',
   odkaz: 'Webový odkaz',
-  wiki: 'Heslo na Wikipedii / Wikimedia Commons (ⓦ)',
-  mapa: 'Mapa nebo poloha v mapové službě (📍)',
-  patent: 'Patentový spis nebo patentová přihláška (⚙)',
-  archiv: 'Archivní fond, kronika, rukopis (⛁)',
-  zprava: 'Restaurátorská / odborná zpráva (✎)',
+  wiki: 'Heslo na Wikipedii / Wikimedia Commons',
+  mapa: 'Mapa nebo poloha v mapové službě',
+  patent: 'Patentový spis nebo patentová přihláška',
+  archiv: 'Archivní fond, kronika, rukopis',
+  zprava: 'Restaurátorská / odborná zpráva',
 };
 
 export function pramenTooltip(type: string | undefined | null): string {

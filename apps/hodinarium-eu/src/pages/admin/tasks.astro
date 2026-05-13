@@ -9,7 +9,7 @@
  *
  * Authentication: Cloudflare Access — admin/* je už chráněný.
  *
- * Akce per row: ✎ Editovat (Sveltia), Náhled, plus W-4 transition tlačítka:
+ * Akce per row: Editovat (Sveltia), Náhled, plus W-4 transition tlačítka:
  * Zabrat (todo), Review (in-progress), Schvaluji (review), Uvolnit zámek
  * (volné). Tlačítka volají POST /api/workflow/transition (Pages Function),
  * která commitne workflow.* update do GitHubu a CF Pages během ~90 s
@@ -215,7 +215,10 @@ const statusColor: Record<string, string> = {
                       const reviewed = t.reviewedBy?.includes(r);
                       return (
                         <li style={`color:${reviewed ? '#4caf50' : 'inherit'}`}>
-                          {reviewed ? '✓ ' : '◯ '}{r}
+                          {reviewed
+                            ? <><i class="fa-solid fa-check" aria-hidden="true"></i>{' '}</>
+                            : <><i class="fa-regular fa-circle" aria-hidden="true"></i>{' '}</>}
+                          {r}
                         </li>
                       );
                     })}
@@ -226,16 +229,16 @@ const statusColor: Record<string, string> = {
               </td>
               <td style="padding:.6rem .8rem;vertical-align:top;font-size:.85rem">
                 {t.draft ? (
-                  <span style="color:#d97070">🔒 draft (jen editoři)</span>
+                  <span style="color:#d97070"><i class="fa-solid fa-lock" aria-hidden="true"></i> draft (jen editoři)</span>
                 ) : t.publicDuringEdit ? (
-                  <span style="color:#d9a05b">📝 viditelné s WIP banner</span>
+                  <span style="color:#d9a05b"><i class="fa-solid fa-file-pen" aria-hidden="true"></i> viditelné s WIP banner</span>
                 ) : (
-                  <span style="color:#888">⚠ skryté pro veřejnost</span>
+                  <span style="color:#888"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> skryté pro veřejnost</span>
                 )}
               </td>
               <td style="padding:.6rem .8rem;vertical-align:top;font-size:.85rem;white-space:nowrap" data-task-actions data-collection={t.collection} data-entry-id={t.collection === 'clanky' ? t.slug : t.slug /* astro entry id = slug for non-clanky; clanky entry id = filename */}>
                 <a href={t.editUrl} style="display:inline-block;padding:.3rem .7rem;background:var(--color-brass);color:#1a1a1a;text-decoration:none;border-radius:.25rem;font-weight:500">
-                  ✎ Editovat
+                  <i class="fa-solid fa-pen" aria-hidden="true"></i> Editovat
                 </a>
                 {t.publicUrl && (
                   <a href={t.publicUrl} target="_blank" rel="noopener" style="display:inline-block;padding:.3rem .7rem;color:var(--color-brass-bright);text-decoration:none;border-radius:.25rem;border:1px solid #444;margin-left:.4rem">
@@ -255,7 +258,7 @@ const statusColor: Record<string, string> = {
                   )}
                   {t.status === 'review' && (
                     <button type="button" data-action="approve" style="padding:.25rem .55rem;background:#1a1a1a;color:#9bd97a;border:1px solid #5b9d5b;border-radius:.2rem;cursor:pointer;font:inherit;font-size:.78rem">
-                      ✓ Schvaluji
+                      <i class="fa-solid fa-check" aria-hidden="true"></i> Schvaluji
                     </button>
                   )}
                   {(t.lockedBy || t.status === 'in-progress' || t.status === 'review') && (
@@ -283,7 +286,7 @@ const statusColor: Record<string, string> = {
       </p>
       <p style="margin-top:.5rem">
         <a href="/admin/" style="color:var(--color-brass-bright)">← Zpět do CMS</a> ·
-        <a href="/admin/handbook/" style="color:var(--color-brass-bright);margin-left:.5rem">📘 Příručka pro editory</a>
+        <a href="/admin/handbook/" style="color:var(--color-brass-bright);margin-left:.5rem"><i class="fa-solid fa-book-open" aria-hidden="true"></i> Příručka pro editory</a>
       </p>
     </footer>
   </main>
@@ -313,8 +316,8 @@ const statusColor: Record<string, string> = {
       if (!confirm(`${labels[action]}: ${id}?`)) return;
 
       btn.disabled = true;
-      const original = btn.textContent;
-      btn.textContent = '⏳ …';
+      const original = btn.innerHTML;
+      btn.innerHTML = '<i class="fa-solid fa-hourglass-half" aria-hidden="true"></i> …';
 
       try {
         const res = await fetch('/api/workflow/transition', {
@@ -326,11 +329,11 @@ const statusColor: Record<string, string> = {
         if (!res.ok) {
           alert(`Chyba (${res.status}): ${data.error}\n${data.reason ?? ''}`);
           btn.disabled = false;
-          btn.textContent = original;
+          btn.innerHTML = original;
           return;
         }
         // Success — show brief flash, then reload
-        btn.textContent = '✓ ' + labels[action];
+        btn.innerHTML = '<i class="fa-solid fa-check" aria-hidden="true"></i> ' + labels[action];
         btn.style.color = '#9bd97a';
         setTimeout(() => {
           // CF Pages rebuild trvá ~90s; reload teď ukáže staré stav
@@ -342,7 +345,7 @@ const statusColor: Record<string, string> = {
       } catch (err) {
         alert(`Network error: ${err}`);
         btn.disabled = false;
-        btn.textContent = original;
+        btn.innerHTML = original;
       }
     });
   </script>

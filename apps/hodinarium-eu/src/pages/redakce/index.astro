@@ -62,105 +62,105 @@ const sections: SectionDef[] = [
   {
     key: 'kartyPlaceholderTitle',
     title: 'Karty s placeholder titulkem',
-    icon: '⚠',
+    icon: 'fa-triangle-exclamation',
     description: 'Karty s "[K doplnění]" nebo "K doplnění" v nadpisu — auto-generované stuby co potřebují skutečný titulek.',
     priority: 'high',
   },
   {
     key: 'kartyNoTyp',
     title: 'Karty bez typového tagu',
-    icon: '🏷',
+    icon: 'fa-tag',
     description: 'Karty co nemají žádný typový tag (vezni/budik/sitovky/jednotny-cas/...). Bez něj se nezobrazí v dlaždicích na /sbirka/.',
     priority: 'high',
   },
   {
     key: 'hodinariShort',
     title: 'Krátké medailony hodinářů',
-    icon: '👤',
+    icon: 'fa-user',
     description: 'Hodináři/firmy s méně než 200 slovy v těle medailonu. Pro českou hodinářskou tradici (Janata, Krečmer, Prokeš…) doplňovat. Pro historicky / mezinárodně významné hodináře (Breguet, Huygens, Harrison…), které vedeme jen referenčně, **stub se shrnutím stačí** — primárním obsahem jsou tam zařazení do era + cross-link do článků, ne biografie.',
     priority: 'medium',
   },
   {
     key: 'kartyNoThumb',
     title: 'Karty bez náhledové fotky',
-    icon: '🖼',
+    icon: 'fa-image',
     description: 'Karty bez `thumbnail` field. Atlas / katalog je zobrazí bez ilustrace. Foto pipeline auto-detekce vyčerpána, zbytek vyžaduje fotodokumentaci ručně.',
     priority: 'medium',
   },
   {
     key: 'kartyNoVyrobce',
     title: 'Karty bez výrobce',
-    icon: '🏭',
+    icon: 'fa-industry',
     description: 'Karty kde `karta.vyrobce` field chybí. Detekce z titulu je vyčerpána. Často jde o exponáty bez identifikované značky.',
     priority: 'medium',
   },
   {
     key: 'clankyShort',
     title: 'Krátké články',
-    icon: '📄',
+    icon: 'fa-file-lines',
     description: 'Články pod 200 slov. Mohou být legitimně krátké (medailon muzea), nebo to jsou stuby co potřebují obsah.',
     priority: 'medium',
   },
   {
     key: 'clankyLegacyLinks',
     title: 'Články s legacy /clanky/ odkazy',
-    icon: '🔗',
+    icon: 'fa-link',
     description: 'Inline odkazy `/clanky/<slug>` v textu. CF Pages 301 redirect je v pořádku, ale vnitřní linky procházejí přes redirect — UX/SEO mírně horší. Postupně přepsat na čisté cesty.',
     priority: 'low',
   },
   {
     key: 'hodinariNoPortret',
     title: 'Hodináři bez portrétu',
-    icon: '🖼',
+    icon: 'fa-image-portrait',
     description: 'Medailony bez `portret` field. Pro známé osobnosti často existuje volný portrét na Wikipedii (CC BY-SA), pro firmy logo z webu výrobce.',
     priority: 'low',
   },
   {
     key: 'clankyNoTldr',
     title: 'Články bez perex (tldr)',
-    icon: '📝',
+    icon: 'fa-pen-to-square',
     description: 'Články bez `tldr` field. Většinu auto-generoval skript v C2, zbylé vyžadují manuální napsání.',
     priority: 'low',
   },
   {
     key: 'kartyNoUmisteni',
     title: 'Karty bez umístění',
-    icon: '📍',
+    icon: 'fa-location-dot',
     description: 'Karty kde `karta.umisteni` field chybí. Návštěvník nepozná, kde exponát fyzicky stojí.',
     priority: 'low',
   },
   {
     key: 'duplicates',
     title: 'Duplicitní soubory (Finder pattern)',
-    icon: '🗑',
+    icon: 'fa-trash',
     description: 'macOS Finder/iCloud duplicates (`* 2.mdx`, `* 3.md`). Návrh na smazání — zachovat originál.',
     priority: 'high',
   },
   {
     key: 'stubsKarty',
     title: 'Karty označené jako stub',
-    icon: '☐',
+    icon: 'fa-square',
     description: 'Karty s frontmatter `isStub: true` — minimální data, čekají na manuální doplnění (typicky bulk import). Po revizi smaž flag.',
     priority: 'medium',
   },
   {
     key: 'stubsClanky',
     title: 'Články označené jako stub',
-    icon: '☐',
+    icon: 'fa-square',
     description: 'Články s `isStub: true` v jiných kategoriích než sbírka. Stejný princip — flag se smaže po revizi.',
     priority: 'medium',
   },
   {
     key: 'stubsHodinari',
     title: 'Medailony hodinářů — stub',
-    icon: '☐',
+    icon: 'fa-square',
     description: 'Hodinaři/firmy s `isStub: true`. Pro mezinárodně významné hodináře (Breguet, Huygens, …) je to OK referenční záznam — stub se shrnutím stačí. Pro české hodináře doplnit.',
     priority: 'low',
   },
   {
     key: 'stubsSoupis',
     title: 'Soupis věžních hodin — stub',
-    icon: '☐',
+    icon: 'fa-square',
     description: 'Záznamy soupisu s `isStub: true` — typicky bulk-import z Hellicha (1917) bez identifikace budovy / roku / stavu. Vyžadují dohledání v místních pramenech.',
     priority: 'medium',
   },
@@ -199,7 +199,7 @@ const hodinariTotal = (r.summary.hodinariTotal as number) ?? 40;
   <aside class="redakce-help" id="redakce-help-aside">
     <details>
       <summary>
-        <strong>📖 Jak tuto stránku používat</strong>
+        <strong><i class="fa-solid fa-book-open" aria-hidden="true"></i> Jak tuto stránku používat</strong>
         <span class="redakce-help-toggle-hint">(klikni pro otevření)</span>
       </summary>
       <div class="redakce-help-body">
@@ -332,7 +332,9 @@ const hodinariTotal = (r.summary.hodinariTotal as number) ?? 40;
       return (
         <section class={`redakce-section redakce-priority-${s.priority}`} id={`section-${s.key}`}>
           <header class="redakce-section-header">
-            <span class="redakce-section-icon" aria-hidden="true">{s.icon}</span>
+            <span class="redakce-section-icon" aria-hidden="true">
+              <i class={`fa-solid ${s.icon}`} aria-hidden="true"></i>
+            </span>
             <h2 class="redakce-section-title">{s.title}</h2>
             <span class={`redakce-priority-badge redakce-priority-${s.priority}`}>{
               s.priority === 'high' ? 'Vysoká' : s.priority === 'medium' ? 'Střední' : 'Nízká'
@@ -376,7 +378,9 @@ const hodinariTotal = (r.summary.hodinariTotal as number) ?? 40;
     {(r.summary.kronikaGapYears as number[]).length > 0 && (
       <section class="redakce-section redakce-priority-medium">
         <header class="redakce-section-header">
-          <span class="redakce-section-icon" aria-hidden="true">📅</span>
+          <span class="redakce-section-icon" aria-hidden="true">
+            <i class="fa-solid fa-calendar-days" aria-hidden="true"></i>
+          </span>
           <h2 class="redakce-section-title">Kronika — chybějící roky</h2>
           <span class="redakce-priority-badge redakce-priority-medium">Střední</span>
           <span class="redakce-section-count">{(r.summary.kronikaGapYears as number[]).length} let</span>

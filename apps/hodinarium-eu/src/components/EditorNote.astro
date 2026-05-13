@@ -81,9 +81,9 @@ const key = noteKey ?? (slugifyHeading(heading) || 'editor-note');
        aria-label={heading}>
   <header class="editor-note-head">
     <span class="editor-note-icon" aria-hidden="true">
-      {level === 'info' && '✎'}
-      {level === 'warn' && '⚠'}
-      {level === 'todo' && '☐'}
+      {level === 'info' && <i class="fa-solid fa-pen-to-square" aria-hidden="true"></i>}
+      {level === 'warn' && <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i>}
+      {level === 'todo' && <i class="fa-solid fa-square" aria-hidden="true"></i>}
     </span>
     <span class="editor-note-title">{heading}</span>
     <span class="editor-note-meta" aria-hidden="true">viditelné jen přihlášenému editorovi</span>
@@ -92,7 +92,7 @@ const key = noteKey ?? (slugifyHeading(heading) || 'editor-note');
     <slot />
     {sourceFile && (
       <button type="button" class="editor-note-resolve" data-action="resolve-editor-note">
-        ✓ Vyřízeno (smazat tuto poznámku z MDX)
+        <i class="fa-solid fa-check" aria-hidden="true"></i> Vyřízeno (smazat tuto poznámku z MDX)
       </button>
     )}
   </div>
