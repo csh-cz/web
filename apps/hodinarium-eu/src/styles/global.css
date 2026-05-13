@@ -1355,6 +1355,57 @@ body[data-editor-mode] .fab-stack {
 }
 
 
+/* === Poznámky pod čarou (GFM footnotes) ===
+   remark-gfm renderuje `[^id]` a `[^id]: text` jako
+   `<section data-footnotes><h2>Footnotes</h2><ol><li>…</li></ol></section>`.
+   Skryjeme default anglický „Footnotes" heading a nahradíme českým
+   labelem ve stylu identickém s ## Odkazy sekce (copper eyebrow). */
+.prose-content section[data-footnotes] {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--color-text-soft);
+}
+.prose-content section[data-footnotes] > h2 {
+  font-size: 0 !important;
+  line-height: 0;
+  margin: 0 0 1rem;
+  padding: 0;
+  border: none;
+  height: 0;
+  overflow: hidden;
+}
+.prose-content section[data-footnotes] > h2::after {
+  content: "Poznámky pod čarou";
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--color-copper);
+  font-weight: 500;
+  font-style: normal;
+}
+.prose-content section[data-footnotes] ol {
+  padding-left: 1.5rem;
+  margin: 0;
+}
+.prose-content section[data-footnotes] li {
+  margin-block: 0.5rem;
+}
+.prose-content section[data-footnotes] [data-footnote-backref] {
+  color: var(--color-copper);
+  text-decoration: none;
+  font-size: 0.85em;
+  margin-left: 0.35em;
+  border-bottom: none;
+}
+.prose-content section[data-footnotes] [data-footnote-backref]:hover {
+  color: var(--color-brass-bright);
+}
+
 /* Perex / lead paragraf na článku — novinový styl.
    Krátký abstrakt mezi nadpisem a tělem článku. Visualní distinkce
    od běžných paragrafů: větší serif kurzíva v tlumené copper barvě,

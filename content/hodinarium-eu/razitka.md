@@ -11,23 +11,16 @@ references:
   - title: "Zákon č. 297/2016 Sb., o službách vytvářejících důvěru pro elektronické transakce"
     url: "https://www.e-sbirka.cz/sb/2016/297"
     type: odkaz
-    note: "Aktuální česká úprava elektronického podpisu a časových razítek (implementace eIDAS, nař. EU 910/2014). Nahradil zrušený zákon 227/2000 Sb."
-  - title: "Zákon č. 227/2000 Sb., o elektronickém podpisu (zrušen)"
-    url: "https://www.e-sbirka.cz/sb/2000/227"
+    note: "Česká úprava elektronického podpisu a kvalifikovaných časových razítek."
+  - title: "Nařízení EU č. 910/2014 (eIDAS)"
+    url: "https://eur-lex.europa.eu/eli/reg/2014/910/oj"
     type: odkaz
-    note: "Historický pramen — v době vzniku článku platný zákon. Zrušen k 19. 9. 2016."
-  - title: "Vyhláška č. 496/2004 Sb., o elektronických podatelnách (zrušena)"
-    url: "https://www.e-sbirka.cz/sb/2004/496"
-    type: odkaz
-    note: "Historický pramen — zrušena v souvislosti s přijetím zákona 297/2016 Sb."
+    note: "Evropské nařízení o elektronické identifikaci a službách vytvářejících důvěru, které zákon 297/2016 Sb. implementuje."
   - title: "Elektronické časové razítko, doplněk elektronického podpisu"
     url: "https://interval.cz/clanky/elektronicke-casove-razitko-doplnek-elektronickeho-podpisu/"
     type: clanek
-  - title: "Časové razítko (obce.cz)"
-    url: "http://vsol.obce.cz/clanek.asp?id=2006111"
-    type: clanek
 ---
-**Č**asové razítko je doplňkový soubor, který pro daný elektronický dokument osvědčuje jeho existenci v určitém čase. Nejčastěji se používá v elektronických podatelnách a při datování smluv a podobných dokumentů. **Kvalifikované časové razítko** poskytují **certifikační autority** (zpravidla po Internetu). Způsob jeho poskytování a obsah je v ČR od roku 2016 určen **zákonem č. 297/2016 Sb., o službách vytvářejících důvěru pro elektronické transakce** (implementace evropského nařízení eIDAS), který nahradil dříve platný zákon č. 227/2000 Sb. o elektronickém podpisu. Razítko je nejčastěji používán společně s elektronickým podpisem.
+**Č**asové razítko je doplňkový soubor, který pro daný elektronický dokument osvědčuje jeho existenci v určitém čase. Používá se v elektronických podatelnách, při datování smluv, elektronických faktur, archivních dokumentů a dalších digitálních písemností. **Kvalifikované elektronické časové razítko** vydávají **kvalifikovaní poskytovatelé služeb vytvářejících důvěru**, jejichž seznam vede a kontroluje Ministerstvo vnitra ČR. Pravidla pro vydávání i pro důvěryhodnost razítek jsou v České republice upravena **zákonem č. 297/2016 Sb. o službách vytvářejících důvěru pro elektronické transakce**, který implementuje evropské nařízení **eIDAS** (nařízení EU č. 910/2014). Razítko se nejčastěji používá společně s elektronickým podpisem.[^historie]
 
 Zdálo by ce, že okamžik vzniku či změně nějakého dokumentu dostatečně určují údaje o datu a času vedené operečním systémem. Ty však určují, kdy byl soubor pravděpodobně naposledy změněn na daném médiu a odvozují se od informací operačního systému počítače, které lze často uživalelsky změnit. Uváděné údaje lze velmi jednoduše pozměnit, takže valnou vypovídací hodnotu nemají. Proto musí být použita externí autorita.
 
@@ -61,3 +54,5 @@ HASH příslušenící k dokumentu je doplněn dalšími údaji do formy žádos
 **N**a obrázcích je ukázáno **časové razítko**, které asi nejlépe odpovídá názvu stránky. Bylo používáno na vrátnici nejmenovaného podniku k označování zboží i písemností vrátnicí procházejících. Později sloužilo jako svérázné těžítko, až se dostalo do soukromé sbírky.
 
 Podobné razítko v Hodináriu Děčín vystavujeme trochu neuctivě na výstavce Nonsens 2015.
+
+[^historie]: Článek byl v roce 2026 aktualizován podle současné legislativy. Původní verze vycházela z [§ 227/2000 Sb. o elektronickém podpisu](https://www.e-sbirka.cz/sb/2000/227) a navazující [vyhlášky č. 496/2004 Sb. o elektronických podatelnách](https://www.e-sbirka.cz/sb/2004/496); obě byly k 19. 9. 2016 zrušeny a nahrazeny zákonem č. 297/2016 Sb. (implementace nařízení eIDAS).
