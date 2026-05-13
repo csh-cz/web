@@ -130,7 +130,7 @@ const rendered = md(body);
       font-size: 1.2rem;
       margin: 1.6rem 0 .5rem;
       padding-top: .4rem;
-      border-top: 1px solid #333;
+      border-top: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
     }
     .handbook-body :global(h3) {
       color: var(--color-copper);
@@ -148,18 +148,19 @@ const rendered = md(body);
       margin: .25rem 0;
     }
     .handbook-body :global(code) {
-      background: #2a2a2a;
-      padding: .1rem .3rem;
+      background: color-mix(in srgb, var(--color-brass) 14%, transparent);
+      color: var(--color-text);
+      padding: .1rem .35rem;
       border-radius: .2rem;
       font-size: .9em;
       font-family: ui-monospace, monospace;
     }
     .handbook-body :global(pre) {
-      background: #0f0f0f;
+      background: var(--color-bg-elevated);
       padding: .8rem 1rem;
       border-radius: .3rem;
       overflow-x: auto;
-      border: 1px solid #333;
+      border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
       margin: 1rem 0;
     }
     .handbook-body :global(pre code) {
@@ -186,14 +187,20 @@ const rendered = md(body);
       text-align: left;
       padding: .4rem .7rem;
       border-bottom: 2px solid var(--color-brass);
-      color: var(--color-brass-bright);
+      color: var(--color-copper);
       font-weight: 500;
-      background: #0f0f0f;
+      background: transparent;
+      text-transform: uppercase;
+      font-size: 0.82em;
+      letter-spacing: 0.12em;
     }
     .handbook-body :global(td) {
       padding: .35rem .7rem;
-      border-bottom: 1px solid #2a2a2a;
+      border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
       vertical-align: top;
+    }
+    .handbook-body :global(tbody tr:nth-child(odd)) {
+      background: color-mix(in srgb, var(--color-bg-elevated) 50%, transparent);
     }
   </style>
 </Base>

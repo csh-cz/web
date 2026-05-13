@@ -759,6 +759,10 @@ summary::-webkit-details-marker { display: none; }
 }
 .prose-content h2#odkazy + ul li::marker { content: ''; }
 .prose-content h2#odkazy + ul li::before {
+  /* `\FE0E` = Unicode VS15 Variation Selector — force text presentation
+     pro ↗ (U+2197). Bez něj může OS/browser zvolit emoji-color rendering
+     (Apple Color Emoji apod.). VS15 je universal — funguje napříč browsers,
+     na rozdíl od `font-variant-emoji: text` (Chrome 119+, FF 124+). */
   content: '↗\FE0E';
   position: absolute;
   left: 0.25rem;
