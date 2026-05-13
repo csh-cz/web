@@ -4,13 +4,17 @@ slug: ukazovaci-stroj
 kategorie: mechanika
 prekladyDe:
   - term: Anzeigewerk
+    genus: n
   - term: Zeigerwerk
+    genus: n
 prekladyEn:
   - term: motion work
   - term: indication train
 prekladyFr:
   - term: rouage de cadrature
+    genus: m
   - term: cadrature
+    genus: f
 varianty:
   - ukazovací stroj
   - ukazovací soukolí

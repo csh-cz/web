@@ -4,13 +4,17 @@ slug: kolickovy-krok
 kategorie: mechanika
 prekladyDe:
   - term: Stiftengang
+    genus: m
   - term: Stiftenanker
+    genus: m
 prekladyEn:
   - term: pin-wheel escapement
   - term: pin pallet escapement
 prekladyFr:
   - term: échappement à chevilles
+    genus: m
   - term: échappement à goupilles
+    genus: m
 varianty:
   - kolíčkový krok
   - kolíčkový kotvový krok (varianta s kotvou)

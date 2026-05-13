@@ -4,15 +4,19 @@ slug: soukoli
 kategorie: mechanika
 prekladyDe:
   - term: Räderwerk
+    genus: n
     zdroj: Špatný 1882
   - term: Uhrwerk
+    genus: n
 prekladyEn:
   - term: gear train
   - term: wheel train
     zdroj: Saunier 1887
 prekladyFr:
   - term: rouage
+    genus: m
   - term: mouvement
+    genus: m
     zdroj: Gros 1913
 definice: "Sestava ozubených kol, která přenáší energii od pohonu (závaží nebo péra) přes řadu převodů ke kroku a k ručkám hodin."
 ---

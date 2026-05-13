@@ -4,14 +4,19 @@ slug: klecovy-ram
 kategorie: mechanika
 prekladyDe:
   - term: Gestell
+    genus: n
   - term: Käfig
+    genus: m
   - term: Bockgestell
+    genus: n
 prekladyEn:
   - term: birdcage frame
   - term: birdcage clock frame
 prekladyFr:
   - term: cage
+    genus: f
   - term: cage à coq
+    genus: f
 varianty:
   - klečový rám
   - klec (zkráceně)

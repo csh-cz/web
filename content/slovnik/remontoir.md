@@ -4,13 +4,17 @@ slug: remontoir
 kategorie: mechanika
 prekladyDe:
   - term: Remontoir
+    genus: n
   - term: Hilfstriebwerk
+    genus: n
 prekladyEn:
   - term: remontoire
   - term: constant force device
 prekladyFr:
   - term: remontoir
+    genus: m
   - term: échappement à force constante
+    genus: m
 varianty:
   - remontoir
   - remontoár (cs adaptace)

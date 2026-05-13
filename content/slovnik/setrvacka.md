@@ -4,13 +4,16 @@ slug: setrvacka
 kategorie: mechanika
 prekladyDe:
   - term: Unruhe
+    genus: f
   - term: Unrast
+    genus: f
     zdroj: "Špatný 1882: Unruhe → nepokoj, váhadlo"
 prekladyEn:
   - term: "**balance"
   - term: "balance wheel**"
 prekladyFr:
   - term: balancier
+    genus: m
     zdroj: Gros 1913
 definice: "Setrvačný oscilátor v kapesních a náramkových hodinkách, regulátor chodu — drobné kolo s rameny rotující kolem své osy, spolu s vláskem tvoří regulační prvek."
 pribuzne:

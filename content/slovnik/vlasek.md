@@ -4,7 +4,9 @@ slug: vlasek
 kategorie: mechanika
 prekladyDe:
   - term: Spirale
+    genus: f
   - term: Unruhspirale
+    genus: f
     zdroj: "Špatný 1882: Spirale → spirála, vlásek"
 prekladyEn:
   - term: hairspring
@@ -12,6 +14,7 @@ prekladyEn:
     zdroj: Saunier 1887
 prekladyFr:
   - term: spiral
+    genus: m
     zdroj: Gros 1913
 definice: Tenká spirálová pružinka navinutá v kotouči nad setrvačkou; vrací setrvačku do středové polohy a tím udržuje její pravidelné rotační kmity.
 pribuzne:
