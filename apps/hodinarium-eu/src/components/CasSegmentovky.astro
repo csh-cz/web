@@ -25,14 +25,20 @@
 
 <style>
   .seg-prekladem {
-    display: inline-block;
-    margin: 1.25rem 0;
+    display: block;
+    /* Fixní šířka — vyzkoušená pro nejdelší kombinaci slov
+       ("plácačka plácačka : ..."). Tabular-nums na seg-cas
+       zajistí stabilní šířku číslic. Vycentrované na šířku textu. */
+    width: 100%;
+    max-width: 32rem;
+    margin: 1.25rem auto;
     padding: 0.9rem 1.2rem;
     background: var(--color-bg-deep);
     border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
     border-radius: 2px;
     font-family: var(--font-serif);
     text-align: center;
+    box-sizing: border-box;
   }
 
   .seg-cas {

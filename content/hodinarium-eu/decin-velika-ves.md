@@ -2,6 +2,7 @@
 title: "Torzo gotického stroje z Veliké Vsi"
 slug: "decin-velika-ves"
 category: "sbirka"
+author: "Petr Král"
 originalUrl: "https://hodinarium.eu/decin_velika_ves.htm"
 lastModified: "Tue, 27 Apr 2021 15:43:00 GMT"
 sourceCharset: "windows-1250"
@@ -65,4 +66,4 @@ Součásti stroje byly zbaveny silné vrstvy povrchové koroze. Koroze naštěst
 
 - [Restaurátorský záměr](/download/RestauratorskyZamerVelikaVes.pdf)
 
-Text: Wikipedie a [Petr Král](/hodinari/petr-kral), fotografie: [Petr Skála](/hodinari/petr-skala), Petr Král, [Miroslav Baudisch](/hodinari/miroslav-baudisch)
+*Foto: [Petr Skála](/hodinari/petr-skala), P. Král, [Miroslav Baudisch](/hodinari/miroslav-baudisch). Text s využitím Wikipedie.*

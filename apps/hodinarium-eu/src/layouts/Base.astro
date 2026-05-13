@@ -319,6 +319,17 @@ const orgJsonLd = isHome ? {
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    {/* KaTeX — matematické výrazy z `$inline$` / `$$display$$` markdownu
+        (remark-math + rehype-katex). CSS musí být loaded aby fonty
+        a layout fungovaly. Verze fixed na cdnjs build odpovídající
+        katex v package.json. */}
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css"
+      integrity="sha512-LQNxIMR5rXv7o+b1l8+N1EZMfhG7iFZ9HhnbJkTp4zjNr5Wvst75AqUeFDxeRUa7l5vEDyUiAip//r+EFLLCyA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>{fullTitle}</title>
     {orgJsonLd && (
       <script is:inline type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />
