@@ -1,15 +1,17 @@
 ---
-title: "Soběslavský věžní hodinový stroj"
-slug: "vez1"
-date: "2009-01-01"
+title: Soběslavský věžní hodinový stroj
+slug: vez1
+date: 2009-01-01
 rok: 2009
 typ: historie-spolku
-misto: "Soběslav"
-originalUrl: "https://hodinarium.eu/vez1.htm"
-lastModified: "Sun, 23 Apr 2017 15:48:00 GMT"
-sourceCharset: "windows-1250"
-scrapedAt: "2026-04-27T17:36:36.535Z"
+misto: Soběslav
+author: Petr Král
+originalUrl: https://hodinarium.eu/vez1.htm
+lastModified: Sun, 23 Apr 2017 15:48:00 GMT
+sourceCharset: windows-1250
+scrapedAt: 2026-04-27T17:36:36.535Z
 ---
+
 **N**a první pohled na kovaném hodinovém stroji ze soběslavské věže zaujme jeho štíhlá a vysoká stavba rámu zakončeného kovanými hlavicemi ve stylu gotických hřebů. To by mohlo naznačovat gotický původ rámu. Stáří restaurovaného stroje není dostatečně přesně určeno. Historické záznamy byly psány kronikáři či účetními, tak není snadné jednotlivým zápisům porozumět. Přestože hodiny byly mnohokrát přestavovány, měnila se většina kol, měnil způsob zobrazení času z českého na německý, měnil se krokový mechanizmus z vřetenového kroku s [lihýřem](/slovnik/lihyr) na kotvový krok s [kyvadlem](/slovnik/kyvadlo), nás vzhled opravňuje k domněnce, že rám hodin pochází z nejstarších soběslavských hodin.
 
 **R**ám soběslavského hodinového stroje nyní obsahuje jicí tříkolový stroj s lanovým bubnem jehož osa je současně minutová hřídel. Všechna kola jsou kovaná s lucernovými pastorky. Krok je vratný kotvový s přibližně čtyřmetrovým kyvadlem. ![sostroj 1](/img/vez/f/sostroj1.jpg) Závěs dřevěné tyče [kyvadla](/slovnik/kyvadlo) obkračuje minutovou hřídel. Na minutové hřídeli je spojka, která umožňovala seřizování ručiček. Na témže hřídeli je další ozubené kolo bez zjevné funkce. Zajímavě a jednoduše (odklopením dorazu) je řešena možnost vysunutí kotvy ze záběru a tím uvolnění stroje pro volné otočení kol.
