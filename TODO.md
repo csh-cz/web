@@ -145,26 +145,26 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
       T7 network graph). Read-only V1, write capabilities (PR draft
       generation) jako V2.
 
-- [ ] **A.15.1 Citation picker** (~5–7 h, V2 +2 h pro „chybějící citace"
-      flow). Důležitá poznámka: editor (Petr, ostatní) **nepotřebuje
-      Zotero account**. Picker pracuje jen nad lokálním snapshotem
-      `apps/hodinarium-eu/src/data/references.json` (~1100 položek),
-      který se sync z Davidova Zotera přes `pnpm refs:sync`. Editor
-      je read-only konzument.
+- [x] **A.15.1 Citation picker V1** — hotov 2026-05-13.
+      `apps/hodinarium-eu/public/admin/csh-citation-picker.js` (16.7 KB) +
+      endpoint `/data/references.json.ts`. Cmd+Shift+R (Ctrl+Shift+R) v
+      textarea otevře modal, search nad 2697 CSL entries (substring AND
+      multi-token na author/year/title/citation-key), klik vloží
+      `[Autor Rok, s. X]` na pozici kurzoru + zkopíruje YAML snippet pro
+      frontmatter `references[]` do schránky. Toggle v ⚙ Pomocníci panelu.
 
-      Funkce:
-      - Search nad references.json (autor, rok, klíčová slova,
-        title): „Bureš 1965", „věžní hodiny", „Sušický".
-      - Klik vloží `<Ref bibKey="..." />` (numbered) nebo
-        `[Bureš 1965, s. 87]` (author-date podle `referenceStyle`).
-      - Auto-doplní frontmatter `references[]` entry (idempotentní).
-      - Bonus: tlačítko „🤖 Najdi citaci pro tento odstavec" →
-        embed selection → semantic search bge-m3 nad references-only
-        subset → AI rerank top 5 + ISO 690 preview.
+      **V1 omezení:** insert je inline markdown text (ne `<Ref bibKey="..."/>`
+      komponenta — vyžaduje frontmatter `referenceStyle: numbered`, detekce
+      v V2). Auto-edit frontmatter `references[]` zatím není — editor musí
+      ručně paste ze schránky pod `references:` block.
 
-      **V2 — když chybí reference:** modal section „Citace nenalezena?
-      Pošli návrh do Zotera". Submit → vytvoří GitHub Issue Davidovi.
-      David v Zotero přidá → příští `pnpm refs:sync` přinese.
+      **Zbývá pro V2 (~3 h):**
+      - Detekce `referenceStyle` z frontmatter → numbered → `<Ref bibKey/>`
+      - Auto-append do frontmatter `references[]` přes Sveltia store
+      - „Citace nenalezena?" modal sekce → POST /api/report-issue
+        problemType `zotero-add`
+      - „🤖 Najdi citaci pro tento odstavec" → embed selection → semantic
+        search bge-m3 nad references-only subset
 
 - [ ] **A.16 Foto upload + alt + credit validator** (~6 h). Sveltia
       drag-drop má, ale nevyžaduje povinný `alt` (a11y) ani `credit`
