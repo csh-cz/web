@@ -32,21 +32,18 @@ V našich sbírkách je fragment nocturnalu nejasné datace. Na první pohled je
 
 Na vnější stupnici rozdělené na 12 měsíců je jednopísmenové označení odpovídající latinským názvům měsíců. Nikomu patrně nevadilo, že zkratky měsíců se často opakují. Na obrázku nocturnal nastaven začátek května. Velkým otvorem je zároveň vidět platné znamení, zde znamení Býka ♉. Konstrukce počítá pouze s jednou referenční hvězdou.
 
-**I**anuarius - Leden
-**F**ebruarius - Únor
-**M**artius - Březen
-
-Aprilis - Duben
-**M**aius - Květen
-Iunius - Červen
-
-Iulius - Červenec
-Augustus - Srpen
-September - Září
-
-October - Říjen
-November - Listopad
-December - Prosinec
+- **I**anuarius — Leden
+- **F**ebruarius — Únor
+- **M**artius — Březen
+- **A**prilis — Duben
+- **M**aius — Květen
+- **I**unius — Červen
+- **I**ulius — Červenec
+- **A**ugustus — Srpen
+- **S**eptember — Září
+- **O**ctober — Říjen
+- **N**ovember — Listopad
+- **D**ecember — Prosinec
 
 Od 21. března: Beran ♈, Býk ♉, Blíženci ♊, Rak ♋, Lev ♌, Panna ♍
 Od 23. září: Váhy ♎, Štír ♏, Střelec ♐, Kozoroh ♑, Vodnář ♒, Ryby ♓

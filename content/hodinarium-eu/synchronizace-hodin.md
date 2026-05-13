@@ -48,33 +48,29 @@ Dnes trochu kuriózně působí pneumatický **[systém Elektronom](elektricke1.
 
 **Zdroj tlakových pulzů**
 
+- 1 — kompresní žárovka
+- 2 — žhavicí vlákno
+- 3 — přívod elektrického proudu
+- 4 — přívod minutových pulzů
+- 5 — spínací kontakty
+- 13 — gumová hadička pro natahování i pro pohon podružných hodin
+
 **Hlavní hodiny**
+
+- 7 — kotva mechanického stroje
+- 8 — pérovník s rohatkou
+- 10 — natahovací páka
+- 11 — válec
+- 12 — píst
+- 20 — palec spínače
+- 14 — gumová hadička pro pohon podružných hodin
 
 **Podružné hodiny**
 
-1 - kompresní žárovka
-2 - žhavicí vlákno
-3 - přívod elektrického proudu
-4 - přívod minutových pulzů
-5 - spínací kontakty
-13 - gumová hadička pro
-natahování i pro
-pohon podružných hodin
-
-7 - kotva mechanického stroje
-8 - pérovník s rohatkou
-10 - natahovací páka
-11 - válec
-12 - píst
-20 - palec spínače
-14 - gumová hadička pro
-pohon podružných hodin
-
-15 - píst
-16 - rohatka
-minutového kola
-17 - postrkovací páka
-18, 19 - podružné hodiny
+- 15 — píst
+- 16 — rohatka minutového kola
+- 17 — postrkovací páka
+- 18, 19 — podružné hodiny
 
 ## **Elektrické systémy v současné době**
 

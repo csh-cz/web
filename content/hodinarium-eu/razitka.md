@@ -20,29 +20,14 @@ HASH příslušenící k dokumentu je doplněn dalšími údaji do formy žádos
 
 **J**ednoduchý příklad razítka pro zvolený dokument *smlouva.doc*. Pro tento dokument byl programem **AEC TS Client** spočítán HASH a po Internetu vyžádáno časové razítko. Přijatá podepsaná časová značka je uložena jako souboru *smlouva.doc.TST* Přípona TST znamená soubor typu **Time Stamp Token Files.** Soubor je binární, po dekódování vypadá přibližně takto:
 
-check signature
-
-passed
-
-GMT
-
-15.1.2007 11:22:23
-
-hash algorithm
-
-SHA-1
-
-HASH
-
-6665638e6bf114d06ebb00a2ccd8026ea514a153
-
-serial number
-
-06a1613137cdc5d07280
-
-policy
-
-1.3.6.1.4.1.4020.1.2.2.1
+| Položka | Hodnota |
+|---|---|
+| check signature | passed |
+| GMT | 15.1.2007 11:22:23 |
+| hash algorithm | SHA-1 |
+| HASH | `6665638e6bf114d06ebb00a2ccd8026ea514a153` |
+| serial number | `06a1613137cdc5d07280` |
+| policy | `1.3.6.1.4.1.4020.1.2.2.1` |
 
 **Z** tabulky je vidět, jaké údaje razítko obsahuje. Programem AEC TS Client lze zpětně ověřit, zda časová značka v souboru *smlouva.doc.TST* stále platí pro soubor *smlouva.doc*..
 
