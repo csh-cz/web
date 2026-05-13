@@ -4,11 +4,15 @@ slug: "synchronizace-hodin"
 category: "konstrukce"
 tags:
   - synchronni
+  - jednotny-cas
+  - radio-rizeno
+  - gps-rizeno
+  - ntp-rizeno
 originalUrl: "https://hodinarium.eu/synchronizace_hodin.htm"
 lastModified: "Sun, 26 Sep 2021 09:14:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:09.010Z"
-tldr: 'Potřebujeme, nebo si jen přejeme, hodiny, které jdou přesně a správně. K tomu vede několik cest. Buď je musíme stále přesnější vyrábět nebo je můžeme neustále dálkově řídit, či pravidelně automaticky…'
+tldr: 'Historický průřez přesné synchronizace — od mechanického řízení Pražského orloje přes pneumatický Elektronom, polarizované impulzy Steinheila a Baina, OMA 50, DCF 77 a GPS až po dnešní NTP infrastrukturu.'
 ---
 ## aneb od žárovkového kompresoru po NTP servery
 

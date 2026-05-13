@@ -5,11 +5,14 @@ category: "virtualni-muzeum"
 tags:
   - vezni
   - cesko
+  - kyvadlo
+  - krok-vreteno
+  - restaurovane
 originalUrl: "https://hodinarium.eu/kardasova_recice.htm"
 lastModified: "Tue, 23 Jul 2019 14:50:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:14.920Z"
-tldr: 'V letech roce 1493-4 udělal pro město Jindřichův Hradec hodiny Jan Růže - mistr Hanuš, se kterým se dlouho spojoval vznik Staroměstského orloje. Stará radnice v Jindřichově Hradci se poprvé připomíná r.…'
+tldr: 'Polemika nad atribucí věžního stroje v Kardašově Řečici mistru Hanušovi z roku 1494. Konfrontace tradičních pramenů (Rosický, Loriš) se zápisem z roku 1604 o tom, že staré hodiny byly nahrazeny novokřtěnským taufarem.'
 ---
 **V** letech roce 1493-4 udělal pro město Jindřichův Hradec hodiny Jan Růže - mistr Hanuš, se kterým se dlouho spojoval vznik Staroměstského orloje. Stará radnice v Jindřichově Hradci se poprvé připomíná r. 1493, kdy na ní byla vybudována věžička, na kterou umístil mistr Hanuš z Prahy nový orloj (orloj asi jen ve smyslu věžní hodiny). Existují dnes tyto hodiny? Názory se trochu liší.
 

@@ -4,8 +4,13 @@ slug: "panel-2-maticni-elektrocas"
 category: "sbirka"
 tags:
   - panel-2
-  - elektrocas
+  - jednotny-cas
   - elektricke
+  - elektromagneticke
+  - 1900s
+  - elektrocas
+  - pragotron
+  - hainz
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/panel-2-maticni-elektrocas"
 lastModified: null
 sourceCharset: "utf-8"
@@ -22,7 +27,7 @@ relatedKarty:
   - inv-99-podruzne-hodiny-male-4x
   - inv-100-strojek-hainz
   - inv-101-jednotny-cas
-tldr: 'Matiční hodiny Elektročas řídí pět podružných strojů, které ukazují čas v různých částech světa. Prostřední velké jsou nařízeny na SEČ.'
+tldr: 'Soustava jednotného času se selenovým usměrňovačem Kj214, linkovými rozváděči RM7/RM24 a podružnými strojky Hainz, Pragotron a Jednotný čas zobrazujícími pět světových pásem se středovým SEČ.'
 ---
 
 ![Panel 2 v Sálu elektro — matiční hodiny Elektročas a okolí](/img/panely/panel-2.jpg)

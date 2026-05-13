@@ -10,13 +10,15 @@ manualEdit: true
 author: "Český spolek horologický"
 tags:
   - vezni
+  - mechanicke
+  - elektricke
   - evropa
 references:
   - bibKey: 'WikipediePLMuzeum'
     type: wiki
   - bibKey: 'TrojmiastotvMuzeumZegarow'
     type: odkaz
-tldr: 'Specializované muzeum věžních hodin sídlící ve věži kostela sv. Kateřiny v Gdaňsku. Pobočka Historického muzea v Gdaňsku — uvádí se jako jediné specializované muzeum věžních hodin v Polsku.…'
+tldr: 'Jediná polská specializovaná sbírka věžních strojů (zal. 1996) ve věži kostela sv. Kateřiny dokumentuje vývoj mechanických i elektrických mechanismů a od 2011 vystavuje pulsarové hodiny. Jeden z inspiračních zdrojů Hodinária.'
 ---
 
 Specializované muzeum věžních hodin sídlící ve **věži kostela sv. Kateřiny** v Gdaňsku. Pobočka **Historického muzea v Gdaňsku** — uvádí se jako jediné specializované muzeum věžních hodin v Polsku. Založeno 1996.

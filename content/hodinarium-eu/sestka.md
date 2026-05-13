@@ -2,7 +2,7 @@
 title: Hodiny sestka — hodiny z čehokoliv
 slug: sestka
 category: sbirka
-tldr: ... neexistuje žádná hmota nebo věc, ze které by se nedaly udělat hodiny. ....
+tldr: 'Galerie odkazující na sestka.com s ciferníky sestavenými ze sirek, disket, hracích karet, víček a dalších předmětů — důkaz, že časoměrnou plochu lze vytvořit z čehokoliv.'
 author: ''
 manualEdit: true
 originalUrl: https://hodinarium.eu/sestka.htm

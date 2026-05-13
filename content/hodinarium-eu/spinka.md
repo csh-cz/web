@@ -6,7 +6,7 @@ originalUrl: "https://hodinarium.eu/spinka.htm"
 lastModified: "Wed, 26 Apr 2017 13:56:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:52.440Z"
-tldr: 'Dříve, tak někdy v renezanci, byly každé hodiny osobité umělecké dílo. Průmyslová revoluce umožnila masovou tovární výrobu a umění se trochu vytratilo. Nástupem asijských výrobců to platí dvojnásobně.…'
+tldr: 'Dřevořezby Jiřího Špinky (Zastavený čas, Čas teče jako voda, Zlaté časy) jako protiváha průmyslové výroby — celodřevěný stroj s jedinou rafií slouží symbolu, ne přesnému měření.'
 ---
 Dříve, tak někdy v renezanci, byly každé hodiny osobité umělecké dílo. Průmyslová revoluce umožnila masovou tovární výrobu a umění se trochu vytratilo. Nástupem asijských výrobců to platí dvojnásobně. Je třeba trochu ***zastavit čas.** **Čas, který teče jako voda*** a doufat, že ***zlaté časy*** umění se vrátí.
 

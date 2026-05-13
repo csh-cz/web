@@ -8,7 +8,9 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:53.927Z"
 tags:
   - vodni
-tldr: "Pan doktor Jegorov má mnoho zajímavých zájmů a jedním z nich je i konstruování různých, řekli bychom \"netradičně tradičních\", hodin.…"
+  - diy
+  - kuriozita
+tldr: 'Domácí konstrukce inspirovaná díly rakouského sochaře Elmsteinera — kývavý hranol na ostří z oceli RADEKO postupně otáčí dvěma číselníky pro minuty a hodiny, doplněný plachetnicovou ozdobou.'
 ---
 Pan doktor Jegorov má mnoho zajímavých zájmů a jedním z nich je i konstruování různých, řekli bychom "netradičně tradičních", hodin. Postavil dvoje [sluneční hodiny](/slovnik/slunecni-hodiny), nyní pracuje na hodinách lihýřových.
 

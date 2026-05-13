@@ -9,7 +9,7 @@ originalUrl: "https://hodinarium.eu/pneumatika2.htm"
 lastModified: "Mon, 04 Mar 2024 10:56:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:23.538Z"
-tldr: 'Podle článku Orologi\_pubblici\_pneumatici\_a\_Parigi, který napsala MARISA ADDOMINE, zkrácenou verzi zpracoval Petr Král.'
+tldr: 'Pařížská distribuovaná síť 7800 hodin podle vídeňského patentu Poppa, Resche a Mayrhofera (1877) — minutové tlakové impulsy v podzemním potrubí, provozována 1878–1927.'
 ---
 Podle článku Orologi\_pubblici\_pneumatici\_a\_Parigi, který napsala **MARISA ADDOMINE, zkrácenou verzi zpracoval [Petr Král](/hodinari/petr-kral).**
 

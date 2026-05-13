@@ -6,7 +6,9 @@ originalUrl: "https://hodinarium.eu/zvony_uvod.htm"
 lastModified: "Sun, 23 Apr 2017 16:06:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:38.565Z"
-tldr: 'Zvonařská expozice Věžního muzejíčka je logickým důsledkem existence muzejíčka ve věži. Jednak proto, že zvony k naší věži patří jižnejméně 800 let a jednak proto, že zvony zřetelně nesou stopy po minulém vývoji.…'
+tags:
+  - sobeslav
+tldr: 'Soběslavská sbírka kování, závěsů a licích forem doplněná zvonem zvonařství Votruba — kurátor expozice je zároveň zvonař a expozici průběžně doplňuje o nové odlitky a technologické exponáty.'
 ---
 Zvonařská expozice Věžního muzejíčka je logickým důsledkem existence muzejíčka ve věži. Jednak proto, že [**zvony k naší věži patří**](/sbirka/zvon-petr-pavel) **již** **nejméně 800 let** a jednak proto, že zvony zřetelně nesou stopy po minulém vývoji. Ve věži existuje zvonicí stolice pro nejméně 5 zvonů. Po rekvírování zvonů roku 1941 je zavěšen jen zvon jeden, zvon Petr Pavel. Prakticky se však na něj dnes stejně nezvoní. [Více o zvonech a cimbálech ve věži](/sbirka/zvon-petr-pavel) v samostatné stránce.
 

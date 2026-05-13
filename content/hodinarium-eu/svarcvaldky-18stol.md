@@ -9,7 +9,7 @@ originalUrl: "https://hodinarium.eu/svarcvaldky_18stol.htm"
 lastModified: "Wed, 26 Apr 2017 21:09:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:49.523Z"
-tldr: 'Opět nádherné hodiny z aukce na www.aukro.cz, údajně z roku 1771. Prodejce sice začínal cenou 1.- Kč, ale očekává pěticifernou částku.…'
+tldr: 'Aukční selské malované hodiny s vřetenovým krokem, krátkým Kuhschwanz-kyvadlem a celodřevěným strojem s mosaznými řetězovými koly — pochybnosti o autenticitě data 1771 na ciferníku.'
 ---
 **O**pět nádherné hodiny z aukce na [www.aukro.cz](http://www.aukro.cz/), údajně z roku 1771. Prodejce sice začínal cenou 1.- Kč, ale očekává pěticifernou částku. Bohužel jsme hodiny viděli jen na fotografiích, tak vyjdeme z popisu prodejce a připojíme několik poznámek.
 

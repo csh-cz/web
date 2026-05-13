@@ -9,7 +9,7 @@ lastModified: "Mon, 28 Apr 2026 09:00:00 GMT"
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-28T09:00:00.000Z"
 manualEdit: true
-tldr: "Soukromá hodinářská expozice v secesní vile z roku 1907 v jihočeském Protivíně — přes 1200 exponátů, dětský prostor s prolézačkou ve tvaru kukačkových hodin a kavárna."
+tldr: 'Soukromá hodinářská sbírka pana Kubelky v secesní vile z roku 1907 obsahuje přes 1200 exponátů — věžní stroje, holubářky, kapesní i náramkové hodinky. Součástí je dětská herna s dílničkou pro malé hodináře a kavárna.'
 ---
 ![Detail části expozice — věžní a stojací hodiny](/img/expozice/kralovstvi-casu/02-expozice.jpg)
 

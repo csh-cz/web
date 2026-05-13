@@ -2,7 +2,14 @@
 title: Hodiny NTPH — mikropočítačem řízené hodiny vyrobené 3D tiskem se synchronizací času z internetu
 slug: ntph
 category: projekty
-tldr: Hodiny jsou vyrobeny 3D tiskem ve dvou variantách mysteriózních převodů a jsou ovládané elektronikou sestávající z modulu ESP8266 ESP-12F a motoru s řadičem 28BYJ48.…
+tags:
+  - nastenne
+  - elektricke
+  - ntp-rizeno
+  - krystal
+  - 2000s
+  - diy
+tldr: 'Autorský projekt s mechanismem z 3D tisku a řídicím modulem ESP8266: synchronizace přes WiFi a NTP, autonomní záložní chod, nastavení a monitoring přes interní webový server. Návod včetně řešení WPS a chybových stavů.'
 author: Petr Král
 manualEdit: true
 originalUrl: https://hodinarium.eu/NTPH.htm

@@ -3,12 +3,15 @@ title: "Mluvící hodinky"
 slug: "mluvici1895"
 category: "konstrukce"
 tags:
+  - kapesni
+  - mechanicke
   - 1800s
+  - kuriozita
 originalUrl: "https://hodinarium.eu/mluvici1895.htm"
 lastModified: "Wed, 26 Apr 2017 15:58:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:01.834Z"
-tldr: "článek je z časopisu \"Z říše vědy a práce\" z roku 1895"
+tldr: 'Dobový popis kapesního hodinkářského patentu Ženevana Sivana z roku 1895, jenž místo zvonkové repetice ohlašoval hodiny lidským hlasem z kaučukové fonografické desky se 48 rýhami.'
 ---
 č**lánek je z časopisu "Z říše vědy a práce" z roku 1895**
 

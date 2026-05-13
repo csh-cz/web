@@ -9,11 +9,14 @@ scrapedAt: "2026-04-29T17:00:00.000Z"
 manualEdit: true
 author: "Český spolek horologický"
 tags:
+  - vezni
+  - mechanicke
+  - 1900s
   - cesko
 references:
   - bibKey: 'OstravskeMuzeum'
     type: odkaz
-tldr: 'Vlastivědné muzeum v centru Ostravy se sídlem v historické radnici. Pro horologa zajímavý hlavně Maškův orloj — astronomické hodiny vyrobené ostravským hodinářem Antonínem Maškem (počátek 20.…'
+tldr: 'V historické radnici se nachází Maškův orloj — astronomický stroj severomoravského mistra Antonína Maška z počátku 20. století. Dokládá regionální tradici jemné mechaniky a věžního hodinářství.'
 ---
 
 Vlastivědné muzeum v centru Ostravy se sídlem v historické radnici. Pro horologa zajímavý hlavně **Maškův orloj** — astronomické hodiny vyrobené ostravským hodinářem **Antonínem Maškem** (počátek 20. století).

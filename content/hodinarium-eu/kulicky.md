@@ -2,11 +2,15 @@
 title: "Hodiny valících se kuliček"
 slug: "kulicky"
 category: "sbirka"
+tags:
+  - stolni
+  - kuriozita
+  - mechanicke
 originalUrl: "https://hodinarium.eu/kulicky.htm"
 lastModified: "Wed, 26 Apr 2017 15:59:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:02.221Z"
-tldr: 'Valící se kuličky se kupodovu používají v hodinářství poměrně hojně a to dokonce v několika funkcích.'
+tldr: 'Tři funkční role kuliček v hodinářské konstrukci — časový normál (Congrevova konstrukce z roku 1808 na základě Galileova poznatku), zdroj konstantního popudu do kyvadla i kuriózní indikátor.'
 ---
 ![Congrevovy hodiny s kuličkou místo oscilátoru](/img/congrevovy1.jpg)
 

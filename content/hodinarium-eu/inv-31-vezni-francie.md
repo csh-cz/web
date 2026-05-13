@@ -8,13 +8,17 @@ lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.524Z"
 manualEdit: true
-tldr: "Inv. č. 31. Nesignovaný stroj získaný v aukci 2022, pravděpodobně francouzského původu. Konstrukčně příbuzný Prokešovým strojům, subtilnější provedení s ozdobně prořezávanou kotvou a Robertovým krokem."
+tldr: 'Inv. č. 31. Nesignovaný čtvrťový stroj domnělého francouzského původu, konstrukčně blízký dílně Jana Prokeše. Robertův krok, cévkové pastorky, dřevěná kyvadlová tyč, kotva s prořezávaným zdobným motivem.'
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
   - vezni
   - funkcni
-  - krok-amant
+  - krok-benoit-robert
+  - zavazi
+  - kyvadlo
+  - evropa
+  - 1800s
 karta:
   inventarniCislo: "31"
   umisteni: "Hlavní sál"

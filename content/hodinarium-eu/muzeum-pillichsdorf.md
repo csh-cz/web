@@ -10,11 +10,13 @@ manualEdit: true
 author: "Český spolek horologický"
 tags:
   - vezni
+  - baroko
+  - 1700s
   - evropa
 references:
   - bibKey: 'WeinviertelatPfarrkircheSt'
     type: odkaz
-tldr: 'Malé věžní muzeum v 500 let staré věži farního kostela sv. Martina v Pillichsdorfu (Dolní Rakousko, region Weinviertel). Založeno v roce 1984, od roku 1987 rozšířeno o druhé podlaží věže.'
+tldr: 'Dolnorakouské lokální muzeum (zal. 1984) ve farní věži kombinuje halštatské nálezy, regionální historii a barokní hodinový stroj z roku 1762. Příklad menšího kombinovaného sakrálně-technického projektu.'
 ---
 
 Malé věžní muzeum v **500 let staré věži farního kostela sv. Martina** v Pillichsdorfu (Dolní Rakousko, region Weinviertel). Založeno v roce 1984, od roku 1987 rozšířeno o druhé podlaží věže.

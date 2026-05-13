@@ -2,7 +2,10 @@
 title: Hodiny čtyřruční aneb další ciferník
 slug: 4ruce
 category: projekty
-tldr: S ciferníkem na více stranách hodinové schrány se občas setkáme. U věžních hodin ho přímo očekáváme. Málokdo si však v první chvíli uvědomí, že ciferník na zadní straně hodin je určitá komplikace. Ručičky se totiž z pohledu stroje otáčejí "proti směru hodinových ručiček". Stroj proto musí být doplněn převodem obracejícím směr otáčení.
+tags:
+  - vezni
+  - synchronni
+tldr: 'Mechanické řešení obousměrného pohonu ručiček u dvou- a čtyřciferníkových hodinových strojů — od kuželových převodů u nálezu se synchronním motorem až po rozvodku věžních hodin pro čtyři strany věže.'
 author: ''
 originalUrl: https://hodinarium.eu/4ruce.htm
 lastModified: Wed, 26 Apr 2017 13:36:00 GMT

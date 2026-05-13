@@ -22,7 +22,7 @@ relatedKarty:
   - inv-108-maticni-hodiny
   - inv-109-retezove
   - inv-110-synchronni-spar
-tldr: 'Levá strana panelu je osazena hodinami Laplace. Nahoře jsou hodiny synchronní, pod nimi matiční. Vedle panelu jsou píchačky, řízené rovněž systémem Laplace.'
+tldr: 'Souhrn pěti exponátových sestav synchronních a matičních strojů Laplace, T&N s podružnými píchačkami Bürk, DCF77 Perconty a synchronních Siemens a Spar.'
 ---
 
 ![Panel 3 v Sálu elektro — Laplace, T&N, Bürk, Perconta DCF77](/img/panely/panel-3.jpg)

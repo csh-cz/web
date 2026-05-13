@@ -4,11 +4,12 @@ slug: "ferramo"
 category: "konstrukce"
 tags:
   - elektricke
+  - setrvacka
 originalUrl: "https://hodinarium.eu/ferramo.htm"
 lastModified: "Tue, 03 Oct 2023 08:25:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:40.293Z"
-tldr: '![replika 1. motoru Ferraris](/img/elektrika/motore_cmr_1.gif)'
+tldr: 'Tiše běžící indukční motor Ferraris s příkonem pouze 2 W natahuje setrvačkový stroj v krátkých intervalech bez nutnosti spínání proudu. Stejné řešení používaly přesné kyvadlové hodiny Zenith.'
 ---
 [![replika 1. motoru Ferraris](/img/elektrika/motore_cmr_1.gif)](/img/elektrika/motore_cmr_1.gif)
 
