@@ -2,6 +2,7 @@
 title: "Barokní \"špindlový\" stroj věžních hodin"
 slug: "vez-kli"
 category: "sbirka"
+author: "Petr Král"
 originalUrl: "https://hodinarium.eu/vez_Kli.htm"
 lastModified: "Thu, 27 Apr 2017 09:03:00 GMT"
 sourceCharset: "windows-1250"
@@ -32,4 +33,4 @@ Společná natahovací klika pro jicí a bicí stroj nebyla nalezena. Čočka [k
 
 Stroj je nakonzervován a vystaven v Hodináriu v Děčíně od roku 2015. Není vystaven v chodu, ačkoliv by ho byl schopen.
 
-Text: P. Král foto: P. Skála
+*Foto: [Petr Skála](/hodinari/petr-skala)*

@@ -2,6 +2,7 @@
 title: "Nocturnal"
 slug: "nocturnal"
 category: "sbirka"
+author: "Petr Král"
 originalUrl: "https://hodinarium.eu/nocturnal.htm"
 lastModified: "Sun, 17 May 2020 08:27:00 GMT"
 sourceCharset: "windows-1250"
@@ -51,5 +52,3 @@ Od 23. září: Váhy ♎, Štír ♏, Střelec ♐, Kozoroh ♑, Vodnář ♒, 
 Vnitřní hodinová stupnice je jen od páté hodiny přes půlnoc k sedmé hodině, tedy uvádí jen noční hodiny. Na jedné straně je 5 až 11, na druhé straně je 1 až 7. Dvanáctka je uprostřed. Jiné nocturnaly mají hodinovou stupnici kompletní i když se ve dne měřit nedá. Střední průhled slouží k zaměření nocturnalu na pól oblohy, respektive na hvězdu Polárku.
 
 Rameno (Alhidáda) po nastavení do směru referenční hvězdy umožní odečíst čas. Srovnal jsem nastavení na fotografii s otáčivou mapou hvězdné oblohy. Rameno je nastaveno tak, jakoby zadní kolo Velkého vozu bylo skoro přesně na severu. To na začátku května nastává přibližně v 8:15. V tomto čase však nocturnal nejde použít, protože Slunce vyšlo již kolem 5:30. Proto je rameno již mimo noční stupnici.
-
-Text: [Petr Král](/hodinari/petr-kral)

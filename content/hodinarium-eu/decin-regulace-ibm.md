@@ -2,6 +2,7 @@
 title: "Třídrátový rozvod IBM"
 slug: "decin-regulace-ibm"
 category: "sbirka"
+author: "Petr Král"
 originalUrl: "https://hodinarium.eu/decin_regulaceIBM.htm"
 lastModified: "Fri, 10 Jun 2022 22:30:00 GMT"
 sourceCharset: "windows-1250"
@@ -51,7 +52,7 @@ Vlastní zapojení kontaktů ukazuje zjednodušené schema. Podstatné je impulz
 
 ![Nálezový stav](/img/decin/IBM/RADO_nalezovy_stav.jpg)![zjednodušené schema](/img/decin/IBM/zakladni_schema.jpg)
 
-Foto: Baudisch, Král, Text: Petr Krá
+*Foto: M. Baudisch, P. Král*
 
 ![modul s L286N](/img/arduino/modul_L298N.jpg)
 
@@ -62,5 +63,3 @@ Zvýšení spolehlivosti spínání dosáhneme použitím nižšího napětí a 
 Výhodou je, že modul má i vlastní step-down zdroj 5V. Ten můžete s výhodou použít pro napájení logiky spínacích kontaktů, takže potřebujete pouze zdroj pracovního napětí například 24 V. Prodejce uvádí, že pracovní napětí může dosáhnout až hodnoty 46 V a proud může dosáhnout až 3 A MAX dlouhodoběji 2 A, 25 W. Osobně vych se držel 24V a použití takového množství podružných hodin, aby nebyl významně překračován výkon 25 W.
 
 Výstupy z vačkové logiky A a B vedete na vstupy poloviny každého můstku. Aby nevznikaly při rozpojených kontaktech nejisté stavy, uzemníte tyto vstupy přes odpory 10K. To jsou jedinné doplněné součástky. Pozor, společný bod cívek v hodinách musí být zapojen jen na OUT2 nebo OUT3, aby nedocházelo ke zkratu mezi jednotlivými H můstky. A drát rozvodu linky je na OUT1, B drát na OUT4. Použití tohoto modulu prakticky znemožní jiskření na kontaktech a zvýší tak spolehlivost funkce. Odzkoušeno.
-
-Text a konstrukce: [Petr Král](/hodinari/petr-kral)

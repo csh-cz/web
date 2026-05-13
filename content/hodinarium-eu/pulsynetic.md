@@ -83,4 +83,4 @@ O tomto neobvyklém stroji existuje od roku 2008 [blog](http://waitingtrain.blog
 - [Video sekundového podružného stroje Gents](https://www.youtube.com/watch?v=kJ6h7yOsQT4&t=19s)
 - [Blog obdivovatelů Pulsynetic](http://waitingtrain.blogspot.cz/)
 
-Text: [Petr Král](/hodinari/petr-kral) s využitím internetových zdrojů.
+*Text vznikl s využitím internetových zdrojů.*

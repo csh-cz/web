@@ -2,6 +2,7 @@
 title: "Květinové hodiny v Novém Městě nad Metují"
 slug: "kvetinovehodiny-nove-mesto-nad-metuji"
 category: "virtualni-muzeum"
+author: "Libor Hovorka"
 tags:
   - kvetinove
   - cesko
@@ -70,6 +71,4 @@ Pohon ruček květinových hodin.
 
 Zdroj času pro květinové hodiny. foto Libor Hovorka.
 
-Autor: Libor Hovorka [https://www.antik-hovorka.cz/primland-clanky/](https://www.antik-hovorka.cz/primland-clanky/)
-
-Fotky: Státní Okresní Archiv Náchod, Libor Hovorka, archiv autora
+*Foto: Státní Okresní Archiv Náchod, Libor Hovorka, archiv autora. Více na [antik-hovorka.cz](https://www.antik-hovorka.cz/primland-clanky/).*
