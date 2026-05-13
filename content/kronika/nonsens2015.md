@@ -1,15 +1,17 @@
 ---
-title: "Nonsens 2015 a víc"
-slug: "nonsens2015"
-date: "2015-06-01"
+title: Nonsens 2015 a víc
+slug: nonsens2015
+date: 2015-06-01
 rok: 2015
 typ: tematicka-vystava
-misto: "Hodinárium Děčín"
-originalUrl: "https://hodinarium.eu/nonsens2015.htm"
-lastModified: "Wed, 09 Jun 2021 18:29:00 GMT"
-sourceCharset: "windows-1250"
-scrapedAt: "2026-04-27T17:36:10.133Z"
+misto: Hodinárium Děčín
+author: Petr Král
+originalUrl: https://hodinarium.eu/nonsens2015.htm
+lastModified: Wed, 09 Jun 2021 18:29:00 GMT
+sourceCharset: windows-1250
+scrapedAt: 2026-04-27T17:36:10.133Z
 ---
+
 První sezónu na zámku Děčín otvíráme vedle stálé expozice věžních hodinových strojů Od baroka po současnost také poněkud zvláštní výstavkou Nonsens 2015 a víc. Hlásíme se tak k odkazu mistra Járy da Cimrmana, který se hodinářstvím zabýval a nepostavil Pražský orloj jen z toho malicherného důvodu, že už postaven byl. Neboť jak píše wikipedie: "Mistr jako anarchista vyhoštěný z Německa si nesl v osobních dokladech záznam „strůjce nepokojů”, což vedlo švýcarskou firmu Omega k nabídce, aby zdokonalil setrvačník dámských hodinek Piccolo”. Podle našeho bádání na památku této události nosil mistr na levém oku tik a vynalezl oblíbené hodinářské bonbóny TIC TAC (v expozici). Brzy tu najdete třeba proslulé Járovky. Nenajdete tu však ztvárnění mistrových absolutních veršů jako: "Naše staré hodiny, bijí čtyři hodiny", protože v současné neklidné době nepodporujeme extremistické bicí stroje.
 
 Vystavujeme raději funkční hodinové stroje neobvykle instalované ve stylu steampunk, či věci hodinami jen inspirované. Pokud je k instalaci použit "sbírkový" stroj, není na něm proveden žádný nevratný zásah. Některé exponáty ukazují, že někdy ne zcela pochopená školní poučka jakoby neplatí. U fyzikálního [kyvadla](/slovnik/kyvadlo) jistě na hmotě záleží a někdy se doba kyvu zkracuje s prodlužováním kyvadla. Tikající váhy jsou toho dokladem. Žádný z exponátů by neměl postrádat lehký humor, ať už jsou to hodiny vodní, či hodiny vod něho. Některé exponáty možná svou funkčností překvapí. Sluneční polarizační hodiny opravdu fungují a i vystavené běžné náramkové hodinky mohou vězni ihned nosit. Záběr výstavky je široký. Razidlo času je restaurovaný tovární výrobek, kdežto "úžasné dílo hodináře ze Schwarzwaldu" je úplná pitomost. Na fotografiích ovšem nenajdete všechny exponáty. Třeba exponát hodinový hotel byl již vrácen autorovi, ale [nouzové zastavení času](/sbirka/karta/inv-46-nouzove-zastaveni-casu/) vidět můžete. Již se na Vás těšíme.
@@ -116,9 +118,7 @@ Sluneční hodinky
 ## Odkazy
 
 - [Sbírka Jára](http://www.sbirkajara.cz/) — sbirkajara.cz. [cit. 2026-04-28]
-- Nonseum v Heernbaumgartenu
 - [Muzeum J. A. Komenského](http://www.mjakub.cz/?idc=1308) — mjakub.cz. [cit. 2026-04-28]
-- Muzeum J. A. Komenského 2
-- Technické muzeum v Brně
+- [www.nonseum.at](https://www.nonseum.at/)
 - [aTeo](http://ateo.cz/pg/home/) — ateo.cz. [cit. 2026-04-28]
 - [steampunker.de](http://steampunker.de/galerie/list/category/uhren/#.VcyUn_ntmko) — steampunker.de. [cit. 2026-04-28]
