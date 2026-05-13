@@ -521,7 +521,7 @@ Hromadná migrace 200+ legacy `.md` → MDX a strukturní pravidla = velký job.
 ## 16. Odkazy užitečné pro práci s repem
 
 - `pnpm imgindex:build` (`scripts/build-image-index.ts`) — regeneruje `image-sizes.json` po přidání obrázku do public/img/
-- `pnpm catalog:hodinarium` (`scripts/build-catalog.ts`) — generuje `catalog.json` (excerpt, wordCount, year, …); excerpt strip-uje MDX importy + JSX bloky (Photo, ZidovskeHodiny, …) → tldr-auto v Article.astro nedostane import statement jako perex
+- `pnpm catalog:hodinarium` (`scripts/build-catalog.ts`) — generuje `catalog.json` (excerpt, wordCount, year, …); excerpt skipne CSH direktivy (`::photo{...}`, `::prs10-live`, …), JSX bloky a MDX import statements (legacy medailony) → tldr-auto v Article.astro nedostane direktivu jako perex
 - `pnpm favicon:build` (`scripts/build-favicon.ts`) — favicon + homescreen ikony z logo-csh.svg
 - `python3 scripts/devignette.py file1 file2 …` — inverse-vignette correction pro legacy fotky s ztemnělými rohy. Args: `--strength N` (default 0.4 = +40% jas v rozích), `--in-place` (přepíše vstup; jinak `*_devign.jpg`). Algoritmus: pro každý pixel norm. distance od středu × strength → multiply jas
 - Skript pro hromadný cleanup HRs — viz Python inline v conversation history (frontmatter-aware HR collapse)

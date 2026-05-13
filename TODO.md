@@ -99,37 +99,18 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
 
 ## A.6 — Tech features (větší práce)
 
-- [ ] **A.11 MDX → Markdown s remark-directive shortcodes** (~1 d)
-      Sveltia CMS markdown editor padá při Save na `clanky` článcích
-      uložených jako `.mdx` (Petr Král, 2026-05-09: PRS10 článek,
-      „spadlo v půlce, Enter not found"). Příčina: `import` + JSX
-      uvnitř markdown body, Sveltia parser to neumí. Krátkodobě skryt
-      edit FAB pro 15 MDX souborů (`cms-mdx-blocklist.ts`).
-
-      **Plán:** zavést `remark-directive` shortcode-style syntax
-      v markdown body, místo MDX:
-      ```md
-      ::youtube{id="abc" title="Demo" align="right"}
-
-      ::prs10-live
-      ```
-      Custom remark plugin převede direktivy na Astro komponenty
-      při buildu. Konvertovat 15 souborů (.mdx → .md), smazat
-      `import` + JSX tagy, parametry zachovat v direktivě. Pak
-      smazat `cms-mdx-blocklist.ts`.
-
-      Soubory + komponenty (audit 2026-05-09):
-      - **bez JSX** (jen rename .mdx→.md): kinsner-astronomicke-hodiny,
-        litinove-vezni-hodiny
-      - **zero-arg widget**: PRS10 + fake_atomove_hodiny (PRS10Live),
-        mystery + normalni (CasSlovem), segmentovky_s_prekladem
-        (CasSegmentovky), slunecni + slunecni_filler (Slunecni…),
-        tabor (TaborOrloj), zidovske (ZidovskeHodiny)
-      - **s parametry**: Arduino + mindelheim + TimeSlider (YouTube
-        id+title+align+ratio), kostky (PdfPager src+title+pages)
-
-      Plus: Sveltia config — `clanky` collection může zůstat
-      `extension: md`, žádný split.
+- [x] **A.11 MDX → Markdown s remark-directive shortcodes** — hotov 2026-05-13
+      (commit cdd233b8). Plugin `@csh/remark-csh-directives`
+      (`packages/remark-csh-directives/index.mjs`) převádí direktivy
+      `::name{attr="val"}` na Astro komponenty přes `<Content components>`
+      prop. 15 souborů migrováno (kostky, arduino, prs10, mystery,
+      normalni, segmentovky, slunecni×2, tabor, zidovske, mindelheim,
+      time-slider, fake-atomove + kinsner/litinove → .md bez direktiv).
+      `cms-mdx-blocklist.ts` smazán, `isMdxArticle` flow v Article.astro
+      odstraněn — editorský FAB viditelný pro všech 15 dřív blokovaných
+      článků. Sveltia neměnitelné direktivy vidí jen jako text → nepadá.
+      Handbook (`docs/cms-editor-pomocnici.md`) má novou sekci
+      „Vkládání interaktivních prvků — direktivy".
 
 - [ ] **A.12 MCP server pro hodinářskou terminologii a překlady**
       (~4 working days, blueprint hotový — implementace odložená).
