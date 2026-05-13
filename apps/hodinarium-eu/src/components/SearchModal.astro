@@ -432,7 +432,7 @@ const categoryLabelsForClient = Object.fromEntries(
     // Uživatel by měl vědět, že výsledky nejsou sémantické (jiné skóre, jiný recall).
     const fallbackBanner = (meta.mode === 'fulltext')
       ? `<div class="search-fallback-banner" role="status">
-           <span class="fallback-icon" aria-hidden="true">⚠</span>
+           <span class="fallback-icon" aria-hidden="true"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i></span>
            <span class="fallback-text">${meta.fallbackReason ?? 'Sémantické hledání je momentálně nedostupné — výsledky z fulltextu.'}</span>
          </div>`
       : '';

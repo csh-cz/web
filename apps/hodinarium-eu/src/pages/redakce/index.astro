@@ -104,7 +104,7 @@ const sections: SectionDef[] = [
   {
     key: 'clankyLegacyLinks',
     title: 'Články s legacy /clanky/ odkazy',
-    icon: '🔗',
+    icon: 'fa-link',
     description: 'Inline odkazy `/clanky/<slug>` v textu. CF Pages 301 redirect je v pořádku, ale vnitřní linky procházejí přes redirect — UX/SEO mírně horší. Postupně přepsat na čisté cesty.',
     priority: 'low',
   },
@@ -332,7 +332,11 @@ const hodinariTotal = (r.summary.hodinariTotal as number) ?? 40;
       return (
         <section class={`redakce-section redakce-priority-${s.priority}`} id={`section-${s.key}`}>
           <header class="redakce-section-header">
-            <span class="redakce-section-icon" aria-hidden="true">{s.icon}</span>
+            <span class="redakce-section-icon" aria-hidden="true">
+              {s.icon.startsWith('fa-')
+                ? <i class={`fa-solid ${s.icon}`} aria-hidden="true"></i>
+                : s.icon}
+            </span>
             <h2 class="redakce-section-title">{s.title}</h2>
             <span class={`redakce-priority-badge redakce-priority-${s.priority}`}>{
               s.priority === 'high' ? 'Vysoká' : s.priority === 'medium' ? 'Střední' : 'Nízká'
