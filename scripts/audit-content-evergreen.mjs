@@ -32,6 +32,63 @@ const TOP_IDX = args.indexOf('--top');
 const TOP = TOP_IDX >= 0 && args[TOP_IDX + 1] ? parseInt(args[TOP_IDX + 1], 10) : Infinity;
 const JSON_OUT = args.includes('--json');
 
+/**
+ * Detekce "skrytého listu / tabulky" — 3+ po sobě jdoucích krátkých
+ * paragrafů (≤100 chars) bez strukturního přerušení (heading, list,
+ * blockquote, hr, image, directive). Často je to:
+ *   a) bullet list bez `-` prefixu (legacy HTML → MD turndown ztratil markery)
+ *   b) tabulka rozsypaná na sloupcové hodnoty (`Typ` / `Hodnota` / `Pozn.`)
+ *   c) sekvence subheadings bez explicitních `##`
+ *
+ * Vrací matched runs jako "regex-like" matches pro auditFile loop.
+ * Skutečná klasifikace (list × tabulka) vyžaduje semantic review editorem.
+ */
+function detectHiddenLists(body) {
+  const lines = body.split(/\r?\n/);
+  const blocks = [];
+  let cur = [];
+  let startLineNum = 0;
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].trim() === '') {
+      if (cur.length > 0) {
+        blocks.push({ startLine: startLineNum, text: cur.join(' ').trim(), first: cur[0].trim() });
+        cur = [];
+      }
+    } else {
+      if (cur.length === 0) startLineNum = i + 1;
+      cur.push(lines[i]);
+    }
+  }
+  if (cur.length > 0) blocks.push({ startLine: startLineNum, text: cur.join(' ').trim(), first: cur[0].trim() });
+
+  function isShortParagraph(b) {
+    const f = b.first;
+    if (/^#{1,6}\s/.test(f)) return false;
+    if (/^[-*]\s/.test(f)) return false;
+    if (/^\d+\.\s/.test(f)) return false;
+    if (/^>/.test(f)) return false;
+    if (/^---+$/.test(f)) return false;
+    if (/^!\[/.test(f)) return false;
+    if (/^::/.test(f)) return false;
+    if (/^<\w/.test(f)) return false;
+    if (/^\|/.test(f)) return false;
+    if (/^```/.test(f)) return false;
+    return b.text.length <= 100;
+  }
+
+  const runs = [];
+  let cur2 = [];
+  for (const b of blocks) {
+    if (isShortParagraph(b)) cur2.push(b);
+    else { if (cur2.length >= 3) runs.push(cur2); cur2 = []; }
+  }
+  if (cur2.length >= 3) runs.push(cur2);
+  // Return as fake regex matches (for unified processing in auditFile)
+  return runs.map((run) => ({
+    0: `[${run.length} krátkých ¶ od line ${run[0].startLine}] ` + run.slice(0, 2).map(b => b.text.slice(0, 35)).join(' / '),
+  }));
+}
+
 const RULES = [
   {
     id: 'ocr-bold-attached',
@@ -82,6 +139,13 @@ const RULES = [
     },
     example: 'MDX umožňuje `<Photo>` komponentu s explicit credit/license. Pro foto s creditem preferovat.',
   },
+  {
+    id: 'hidden-list-or-table',
+    name: 'Skrytý list nebo tabulka (3+ krátkých ¶ za sebou)',
+    customDetect: detectHiddenLists,
+    weight: 2,
+    example: '3+ krátkých paragrafů za sebou bez `-` prefixu = pravděpodobně bullet list nebo tabulka rozsypaná na sloupce. Semantic review editorem: buď `- item` markery, nebo markdown table `| Sloupec | Hodnota |`.',
+  },
 ];
 
 async function auditFile(file) {
@@ -114,14 +178,14 @@ async function auditFile(file) {
   // 3. Body checks
   for (const rule of RULES) {
     if (rule.fileFilter && !rule.fileFilter(file)) continue;
-    const matches = [...body.matchAll(rule.re)];
+    const matches = rule.customDetect ? rule.customDetect(body) : [...body.matchAll(rule.re)];
     if (rule.contextCheck) {
       const filtered = matches.filter((m) => rule.contextCheck(m[0], body));
       if (filtered.length === 0) continue;
-      findings.push({ ruleId: rule.id, ruleName: rule.name, weight: rule.weight, count: filtered.length, samples: filtered.slice(0, 2).map((m) => m[0].slice(0, 60)) });
+      findings.push({ ruleId: rule.id, ruleName: rule.name, weight: rule.weight, count: filtered.length, samples: filtered.slice(0, 2).map((m) => m[0].slice(0, 80)) });
     } else {
       if (matches.length === 0) continue;
-      findings.push({ ruleId: rule.id, ruleName: rule.name, weight: rule.weight, count: matches.length, samples: matches.slice(0, 2).map((m) => m[0].slice(0, 60)) });
+      findings.push({ ruleId: rule.id, ruleName: rule.name, weight: rule.weight, count: matches.length, samples: matches.slice(0, 2).map((m) => m[0].slice(0, 80)) });
     }
   }
 
