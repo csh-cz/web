@@ -7,9 +7,10 @@ lastModified: "Wed, 26 Apr 2017 16:01:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:04.335Z"
 tags:
-  - vezni
   - kapesni
-tldr: '![Brevete](/img/hodinky/kapesni_orloj/627893335_6.jpg)'
+  - mechanicke
+  - kuriozita
+tldr: 'Stříbrný hodinkový strojek BREVETE S. G. D. G. o průměru 50 mm s rozsáhlou kalendářní komplikací — pořadovým dnem, dnem v týdnu, názvem měsíce s počtem dnů a indikací fáze Měsíce.'
 ---
 [![Brevete](/img/hodinky/kapesni_orloj/627893335_6_n.jpg)](/img/hodinky/kapesni_orloj/627893335_6.jpg)
 

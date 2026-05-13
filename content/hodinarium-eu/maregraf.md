@@ -2,11 +2,13 @@
 title: Maregrag - mořské hodiny v Rouenu - 1893
 slug: maregraf
 category: konstrukce
-tldr: Astronomické jevy a hodiny patří neoddělitelně k sobě. Pro přímořské státy je nejdůležltější  vliv Měsíce na příliv a odliv.  Proto se stavěly maregrafy.
+tldr: 'Záznam o registračním přístroji v rouenské přístavní vodárně z roku 1893, který spojoval astronomickou indikaci s průběžným měřením výšky mořské hladiny. Zveřejněno původně v Kurzových rozhledech Z říše vědy a práce.'
 author: ''
 tags:
+  - vezni
   - mechanicke
   - 1800s
+  - kuriozita
 originalUrl: https://hodinarium.eu/maregraf.htm
 lastModified: Wed, 26 Apr 2017 16:26:00 GMT
 sourceCharset: windows-1250

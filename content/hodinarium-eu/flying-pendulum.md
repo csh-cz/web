@@ -2,7 +2,7 @@
 title: FLYING PENDULUM CLOCK
 slug: flying-pendulum
 category: konstrukce
-tldr: Flying Pendulum Clock, kuželové kyvadlo či přelétavé kyvadlo , také nazývané "Ignatz clock" bylo poprvé vynalezeno v roce 1883. Znovu se hodiny vyráběly v 50. letech minulého století. Malá kulička zavěšená na ramenu zde hraje roli velmi atraktivního kyvadla.
+tldr: 'Kuriózní hodiny patentované 1883 (znovu vyráběné v 50. letech 20. století), u nichž kulička na ramenu opisuje povrch kužele a střídavě se obtáčí kolem svislých tyček. Výrazně atraktivnější, byť méně přesné než lihýř.'
 author: Petr Král
 tags:
   - kuzelove-kyvadlo

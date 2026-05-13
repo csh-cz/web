@@ -2,7 +2,7 @@
 title: Žárovkový kompresor  aneb natahování a řízení pneumatikou.
 slug: pneumatika
 category: konstrukce
-tldr: Ve třicátých letech postavil Junghans hodiny s elektro-pneumatickým nátahem (patent 1926 Max Fischer). Měly by to být přesné dílenské hodiny, které bez magnetických komponent byly schopny ovládat několik podružných hodin tlakem vzduchu.
+tldr: 'Konstrukce Elektronom — žárovkový kompresor minutovými impulsy natahuje hlavní strojek a zároveň hadičkou rozvádí přetlak k až šesti podružným hodinám bez magnetických komponent.'
 author: Petr Král
 tags:
   - pneumaticke

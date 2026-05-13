@@ -6,7 +6,12 @@ originalUrl: "https://hodinarium.eu/mazan.htm"
 lastModified: "Fri, 29 Apr 2022 16:43:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:09.600Z"
-tldr: '\- vizualizace celodenního AM/PM času s astronomickými prvky- úsporné zobrazení nejen pro děje v časové kompresi'
+tags:
+  - digi
+  - kuriozita
+  - slovensko
+  - historie-spolku
+tldr: 'Návrh slovenského korespondenta ČSH na eliptickou 24hodinovou stupnici se symboly Slunce a Měsíce a posuvnými horizonty východu a západu. Cílí na čitelnost při periferním vnímání a komprimovaných meteozáznamech.'
 ---
 \- vizualizace celodenního AM/PM času s astronomickými prvky- úsporné zobrazení nejen pro děje v časové kompresi
 

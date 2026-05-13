@@ -8,7 +8,11 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:52.120Z"
 tags:
   - budik
-tldr: 'Budíky (Alarm Clock) jistě nejsou považovány za kuriózní hodiny. Když ovšem jde o budicí stroj podlahových či velkých závěsných hodin, je situace trochu jiná.…'
+  - nastenne
+  - zavazi
+  - krok-vreteno
+  - 1800s
+tldr: 'Závažový budicí mechanismus francouzských hodin Comtoise a Schwarzwaldek 19. století — vřetenový krok s paličkou tloukoucí do zvonu a vačka spouště nastavená pootočením středového kolečka.'
 ---
 Budíky (Alarm Clock) jistě nejsou považovány za kuriózní hodiny. Když ovšem jde o budicí stroj podlahových či velkých závěsných hodin, je situace trochu jiná. Budík se většinou nemontoval do hodin stojících někde v salónu.
 

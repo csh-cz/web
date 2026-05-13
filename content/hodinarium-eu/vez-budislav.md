@@ -10,7 +10,12 @@ relatedKarty:
   - inv-17-vezni-hainz
 tags:
   - vezni
-tldr: 'Do expozice Věžního muzejíčka v Soběslavi byl v roce 2012 zapůjčen vřetenový stroj věžních hodin z kostela Nanebevzetí Panny Marie z nedaleké obce Budislav.…'
+  - mechanicke
+  - zavazi
+  - krok-vreteno
+  - 1700s
+  - cesko
+tldr: 'Stroj s vřetenovým krokem a půlovým bitím z kostela Nanebevzetí Panny Marie (kolem poloviny 18. století), v roce 2012 přesunutý do Věžního muzejíčka v Soběslavi a později do děčínské expozice.'
 ---
 ![kostel](/img/vez/Budislav/f/kostel.jpg)
 

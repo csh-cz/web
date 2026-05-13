@@ -6,7 +6,11 @@ originalUrl: "https://hodinarium.eu/Timometer.htm"
 lastModified: "Mon, 03 Nov 2025 17:07:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:20.481Z"
-tldr: "V roce 2015 se na Aukru objevil Timometr a byl zakoupen soukromou osobou a umístěn v Hodináriu. Timometr se tak stane jedním ze dvou nejstarších \"píchaček\" v Hodináriu.…"
+tags:
+  - pichacky
+  - mechanicke
+  - 1900s
+tldr: 'Bostonský docházkový přístroj Johna C. Wilsona z přelomu století (patenty 1899 a 1903), předchůdce moderních píchaček a produkt firmy, jež se později stala součástí IBM.'
 ---
 ![Pohled na ciferník](/img/Timometer/f/foto_0008.jpg)
 

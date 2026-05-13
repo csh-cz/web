@@ -26,7 +26,7 @@ relatedKarty:
   - inv-120-nastenne-schauer
   - inv-121-podruzne-pragotron-perla
   - inv-122-ipj-0612-3x
-tldr: 'V horní části panelu jsou podružné hodiny CPJ061, které kromě časové informace ukazují den v týdnu, datum a měsíc.'
+tldr: 'Sestava výrobků Elektročas/Pragotron: matiční EH40, signální SH40, linkový rozváděč RL83, podružné CPJ061 a IPJ0612, elektronická náhrada ESH 3 a DCF varianta EH81.'
 ---
 
 ![Panel 4 v Sálu elektro — Pragotron / Elektročas](/img/panely/panel-4.jpg)

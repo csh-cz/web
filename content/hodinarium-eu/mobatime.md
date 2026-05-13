@@ -2,13 +2,21 @@
 title: "Samostavitelné hodiny MOBALine"
 slug: "mobatime"
 category: "sbirka"
+tags:
+  - jednotny-cas
+  - elektricke
+  - gps-rizeno
+  - krystal
+  - 2000s
+  - mobatime
+  - akvizice
 originalUrl: "https://hodinarium.eu/mobatime.htm"
 lastModified: "Wed, 07 Jul 2021 09:15:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:45.365Z"
 relatedKarty:
   - inv-125-podruzne-hodiny-mobatime
-tldr: 'Do Hodinária bylo pro sezónu 2020 zapůjčena od firmy Elekon s.r.o(člen mezinárodního holdingu MOSER-BAER AG se sídlem ve Švýcarsku) sestava hlavních hodiny HN 61 a samostavitelné analogové hodiny 3218.SAM.40.C2.…'
+tldr: 'Zápůjčka švýcarské soustavy hlavních hodin HN 61 a podružných 3218.SAM.40.C2 do Hodinária 2020. Popis sériového kódu MOBATIME, modulace MOBALine a synchronizace GPS přes Elekon s.r.o.'
 ---
 Do Hodinária bylo pro sezónu 2020 zapůjčena od firmy [Elekon s.r.o](http://www.mobatime.cz)(člen mezinárodního [holdingu MOSER-BAER AG](/img/Mobatime/struktura2020.jpg) se sídlem ve Švýcarsku) sestava hlavních hodiny HN 61 a samostavitelné analogové hodiny 3218.SAM.40.C2. Sestava demonstruje použití automatického nastavení podřízených hodin. ![hlavní hodiny HN 60](/img/Mobatime/HN60IP20.jpg)
 

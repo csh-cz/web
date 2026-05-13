@@ -2,11 +2,16 @@
 title: "Meinberg NTP LANTIME M100 GPS (ELX)"
 slug: "lantime-m100"
 category: "projekty"
+tags:
+  - ntp-rizeno
+  - gps-rizeno
+  - krystal
+  - meinberg
 originalUrl: "https://hodinarium.eu/Lantime_M100.htm"
 lastModified: "Mon, 01 Feb 2021 01:21:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:29.659Z"
-tldr: 'Společnost Meinberg Funkuhren GmbH & Co. KG byla založena v roce 1979 Wernerem a Günterem Meinbergem a nyní je moderní průmyslovou společností.…'
+tldr: 'Nejmenší NTP server řady Meinberg LANTIME postavený na průmyslovém PC s Linuxem a upraveným ntpd. GPS synchronizace včetně PPS pulzů, jediný ethernetový port. V roce 2021 neúspěšný pokus o aukční pořízení do expozice.'
 ---
 ![Panel Lantime M100](/img/decin/NTP_Meinberg/panelM100.jpg)
 

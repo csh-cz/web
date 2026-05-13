@@ -10,7 +10,13 @@ relatedKarty:
   - inv-18-vezni-barokni-kovane
 tags:
   - vezni
-tldr: '![Kostel Zlaté Hory](/img/vez/ZlateHory/f/kostel_Zlate_Hory.jpg)'
+  - mechanicke
+  - zavazi
+  - kyvadlo
+  - baroko
+  - 1700s
+  - pred-restaurovanim
+tldr: 'Miniaturní kovaný čtvrťový stroj (30 × 21 × 29 cm) snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách — barokní jádro z první poloviny 18. století s pozdějšími přestavbami a dodatečně vloženým čtvrťovým bitím.'
 ---
 [![Kostel Zlaté Hory](/img/vez/ZlateHory/kostel_Zlate_Hory.jpg)](/img/vez/ZlateHory/f/kostel_Zlate_Hory.jpg)
 

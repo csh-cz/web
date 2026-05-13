@@ -2,11 +2,17 @@
 title: "\"Hodinky\" v mobilu"
 slug: "mobil"
 category: "projekty"
+tags:
+  - digi
+  - gps-rizeno
+  - ntp-rizeno
+  - 2000s
+  - popularizace
 originalUrl: "https://hodinarium.eu/mobil.htm"
 lastModified: "Wed, 26 Apr 2017 13:40:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:47.608Z"
-tldr: 'Trochu s povzdechem na první stránce tvrdíme, že dnes se čas měří více mobilem než hodinkami. Zdá se nám, že je to trochu škoda. Ovšem doba je dnes mobilní. Mobilů je snad víc než lidí.…'
+tldr: 'Reflexe nad přesunem čtení času z hodinek do mobilních telefonů — synchronizace NTP a GPS, automatický letní čas a Java aplikace WTime jako příklad rozšířených časoměrných funkcí.'
 ---
 Trochu s povzdechem na první stránce tvrdíme, že dnes se čas měří více mobilem než hodinkami. Zdá se nám, že je to trochu škoda. Ovšem doba je dnes mobilní. Mobilů je snad víc než lidí. Proto i Virtuální muzeum hodin musí mobilům věnovat alespoň zmínku.
 

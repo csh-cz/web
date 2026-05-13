@@ -10,7 +10,14 @@ relatedKarty:
   - inv-38-soucast-veznich-hodin
 tags:
   - vezni
-tldr: 'Do expozice Věžního muzejíčka v Soběslavi byly v roce 2012 zapůjčeny laskavostí Biskupství litoměřického věžní hodiny, které byly před instalací moderních, elektronicky řízených hodin, umístěny ve zvo…'
+  - mechanicke
+  - zavazi
+  - kyvadlo
+  - krok-kotva
+  - michael-christ
+  - 1800s
+  - restaurovane
+tldr: 'Čtvrťový stroj s kotvovým krokem a 2,8m kyvadlem z kostela Petra a Pavla, pravděpodobně dílo Michaela Christa ze Šluknova z první čtvrtiny 19. století — popis restaurátorského zákroku Baudisch/Kořínek.'
 ---
 ![foto2 0](/img/vez/prysk/f/foto2_000.jpg)
 

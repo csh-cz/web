@@ -8,7 +8,7 @@ lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.519Z"
 manualEdit: true
-tldr: "Inv. č. 2. Komplet ze zámku Býchory (1868) s Robertovým krokem, jednopákovým vypouštěním bicích strojů a cévkovými pastorky. Signatura Jana Prokeše ze Sobotky."
+tldr: 'Inv. č. 2. Čtvrťový komplet ze zámku Býchory (1868) signovaný Janem Prokešem ze Sobotky. Klidový kotvový krok s kolíčkovým krokovým kolem (patent A. Roberta 1852), cévkové pastorky, jednopákové vypouštění bití.'
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -16,6 +16,10 @@ tags:
   - funkcni
   - krok-benoit-robert
   - prokes
+  - 1800s
+  - zavazi
+  - kyvadlo
+  - cesko
 karta:
   inventarniCislo: "2"
   umisteni: "Hlavní sál"

@@ -9,7 +9,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:46.015Z"
 tags:
   - jednotny-cas
-tldr: 'Do Hodinária jsme získali zajímavý stroj podružných hodin. Jedná se o systém s krokovým motorkem, řízeným polarizovanými minutovými impulzy, doplněný vteřinovým ukazatelem, poháněným synchronním motorkem.…'
+tldr: 'Akvírovaný kombinovaný stroj německých drah — krokový motorek řízený polarizovanými minutovými impulsy a synchronní vteřinový pohon s mechanickou synchronizací výřezem v kole.'
 ---
 Do Hodinária jsme získali zajímavý stroj podružných hodin. Jedná se o systém s krokovým motorkem, řízeným polarizovanými minutovými impulzy, doplněný vteřinovým ukazatelem, poháněným synchronním motorkem. Na strojku není označení výrobce, ale jedná se o typ, používaný u německých drah – vteřinová ručka se pohybuje ve vteřinových skocích, neboť pastorek zasahující do vteřinového kola, má jen dva zuby. Po dosažení pozice 12 čeká na posun minutové ručky. Synchronizace je provedena mechanicky.
 

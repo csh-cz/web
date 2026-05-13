@@ -4,14 +4,15 @@ slug: "astronomicke-sauter"
 category: "konstrukce"
 tags:
   - mechanicke
-  - baroko
+  - elektricke
+  - 1900s
 author: "Petr Král"
 originalUrl: "https://hodinarium.eu/astronomicke_Sauter.htm"
 lastModified: "Tue, 08 Sep 2020 00:00:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:24.078Z"
 manualEdit: true
-tldr: "Mechanické astronomické spínací hodiny systému Fr. Sauter Basel, výrobní č. 333573 ZWE6K. Vačky východu a západu Slunce zajišťovaly automatické přizpůsobení doby spínání podle roční doby."
+tldr: 'Mechanická realizace ročního programu sepnutí osvětlení pomocí dvojice tvarovaných vaček pro východ a západ Slunce, s analýzou pravděpodobné poruchy zeměpisného nastavení u dochovaného exempláře.'
 ---
 ![Spínací kotouč astronomických hodin Fr. Sauter](/img/astronomicky_Sauter/f/Sauter1.jpg)
 

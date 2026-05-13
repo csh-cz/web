@@ -6,7 +6,7 @@ originalUrl: "https://hodinarium.eu/ruzne.htm"
 lastModified: "Wed, 12 Feb 2025 10:53:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:04.597Z"
-tldr: 'Tato stránka odkazů byla aktualizována 12.2.2025. Bohužel velká většina dříve zde uvedených odkazů již nefungovala. Ze stránky zbylo jen torzo.'
+tldr: 'Seznam vybraných odkazů na publikace o metrologii času a frekvence, historii měření a tematické časopisy — torzo z dřívější rozsáhlejší rozcestníkové stránky.'
 ---
 Tato stránka odkazů byla aktualizována 12.2.2025. Bohužel velká většina dříve zde uvedených odkazů již nefungovala. Ze stránky zbylo jen torzo.
 

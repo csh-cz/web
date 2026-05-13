@@ -2,10 +2,12 @@
 title: Časový zámek - Time Lock
 slug: casovy-zamek
 category: konstrukce
-tldr: K zabezpečení třeba bankovních trezorů patřil i mechanický časový zámek, který umožňoval otevření až po uplynutí určité doby.
+tldr: 'Trezorová profesní hodinařina od Jamese Sargenta (1874) — funkční dvojstrojový exemplář Thomas Fox v Hodináriu, princip zdvojených nebo ztrojených strojů kvůli redundanci proti poruše.'
 author: ''
 tags:
   - mechanicke
+  - kuriozita
+  - 1800s
 originalUrl: https://hodinarium.eu/casovy_zamek.htm
 lastModified: Sun, 23 Apr 2017 09:11:00 GMT
 sourceCharset: windows-1250

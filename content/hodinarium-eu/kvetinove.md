@@ -4,11 +4,13 @@ slug: "kvetinove"
 category: "virtualni-muzeum"
 tags:
   - kvetinove
+  - svet
+  - evropa
 originalUrl: "https://hodinarium.eu/kvetinove.htm"
 lastModified: "Wed, 26 Apr 2017 16:18:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:13.635Z"
-tldr: "Jak můžeme chápat toto označení? Významů je hned několik. Můžeme tím např. rozumět \"chování\" rostlin během dne.…"
+tldr: 'Mezinárodní přehled květinových hodin coby parkových exponátů — od edinburských z roku 1903 přes ženevské, žitavské a Klagenfurt po hodiny v Tenerife, Méridě či australském Melbourne. V Česku najdeme Nové Město nad Metují a Poděbrady.'
 ---
 ![Květinové hodiny před zámkem Klagenfurt / Rakousko](/img/kvetinove/Klagenfurt2.jpg)
 

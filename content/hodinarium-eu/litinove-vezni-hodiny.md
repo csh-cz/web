@@ -3,13 +3,17 @@ title: "Litinové věžní hodiny v českých zemích (1809–1834)"
 slug: "litinove-vezni-hodiny"
 category: "zajimavosti"
 tags:
-  - popularizace
+  - vezni
+  - mechanicke
+  - kyvadlo
   - 1800s
+  - cesko
+  - popularizace
 originalUrl: "https://radioeng.cz/poster.htm"
 lastModified: "2026-05-04T00:00:00Z"
 sourceCharset: "utf-8"
 scrapedAt: "2026-05-04T00:00:00Z"
-tldr: "Sériová výroba kompletně litinových věžních hodin v českých zemích v první třetině 19. století — od konstrukce Františka Josefa Gerstnera a Josefa Božka v Komárovských železárnách (1809) po samostatnou linii Heinricha Alexandra Luze v Brně (1834). Dochované exempláře na Křivoklátu (1817) a v evangelickém kostele ve Vanovicích u Blanska. Unikát v evropském měřítku, dokládající propojení Pražské polytechniky s českou metalurgií."
+tldr: 'Dvě nezávislé linie sériové výroby celolitinových strojů (Komárov 1809, Luz 1834) propojily Pražskou polytechniku s metalurgií Berounska a Brna. Dochované exempláře na Křivoklátu a ve Vanovicích dokládají evropsky unikátní technologii.'
 author: "David Knespl"
 referenceStyle: "numbered"
 references:

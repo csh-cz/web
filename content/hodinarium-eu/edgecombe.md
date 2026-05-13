@@ -9,7 +9,7 @@ originalUrl: "https://hodinarium.eu/edgecombe.htm"
 lastModified: "Sun, 10 Mar 2019 12:44:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:43.694Z"
-tldr: 'V expozici Hodinária jsou vystaveny funkční krbové hodiny, označené na ciferníku Everest Edgecombe elektric synchroclock London.…'
+tldr: 'Krbové synchronní hodiny z roku 1931 s motorem 220V/50 Hz a převodovkou redukující 3 000 ot/min na minutovou otáčku. Zapouzdřený rotor a indikátor výpadku napájení patří k charakteristickým prvkům konstrukce.'
 ---
 ![celkový pohled EVERETEDGECOMBE](/img/elektrika/edgecombe/celek.jpg)
 

@@ -15,7 +15,7 @@ tags:
 references:
   - bibKey: 'Patekmuseumcom'
     type: odkaz
-tldr: 'Privátní muzeum slavné ženevské manufaktury Patek Philippe (založena 1839). Jedna z nejvýznamnějších sbírek kapesních a náramkových hodinek ve světě.'
+tldr: 'Manufakturní sbírka v ženevském Plainpalais kombinuje Antique Collection ze 16.–19. století s kompletním katalogem firmy od roku 1839 včetně proslulých grand complications.'
 ---
 
 Privátní muzeum slavné ženevské manufaktury Patek Philippe (založena 1839). Jedna z nejvýznamnějších sbírek **kapesních a náramkových hodinek** ve světě.

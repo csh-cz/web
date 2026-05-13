@@ -2,11 +2,14 @@
 title: "Lahváče"
 slug: "lahvace"
 category: "sbirka"
+tags:
+  - kuriozita
+  - stolni
 originalUrl: "https://hodinarium.eu/lahvace.htm"
 lastModified: "Wed, 26 Apr 2017 14:02:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:56.954Z"
-tldr: 'Do lahví se stavěly miniaturní lodě. Na webu digitron.cz jsou k vidění reklamní hodiny vestavěné do láhve. Nejde o láhve ledajaké.…'
+tldr: 'Reklamní hodinová kuriozita po vzoru lodí v lahvích — hodinový strojek vestavěný do skleněné nádoby s pivovarským etiketem. Obtížnou součástí přípravy je dostat ven původní obsah lahve.'
 ---
 Do lahví se stavěly miniaturní lodě. Na webu [**digitron.cz**](http://www.digitron.cz/rekl_hodiny.htm) jsou k vidění reklamní hodiny vestavěné do láhve. Nejde o láhve ledajaké. Z korespondence s autory a současně výrobci vím, že přípravné činnosti před výrobou jsou také zajímavé. K základům hodinářské dovednosti přece patří i odstranění původního obsahu.
 

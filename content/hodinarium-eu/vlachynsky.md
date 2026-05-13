@@ -3,12 +3,14 @@ title: "Hodiny v Holiday Inn Brno"
 slug: "vlachynsky"
 category: "virtualni-muzeum"
 tags:
+  - vodni
   - cesko
+  - kuriozita
 originalUrl: "https://hodinarium.eu/vlachynsky.htm"
 lastModified: "Wed, 26 Apr 2017 16:24:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:53.030Z"
-tldr: "Velmi zajímavé \"vodní hodiny\" se nacházejí ve foyer kongresové haly pětihvězdičkového hotelu Holiday Inn Brno. Hodiny vyrobilo pasířství Matys v roce 2001 podle návrhu ing. arch. Vlachynského a ing. arch.…"
+tldr: 'Kinetická plastika z nerezu, mosazi a skla ve foyer brněnského hotelu s vodním krokovým ústrojím a kolmými lucernovými převody — návrh Atelieru 90 z roku 2001, realizace pasířství Matys.'
 ---
 **V**elmi zajímavé "vodní hodiny" se nacházejí ve foyer kongresové haly pětihvězdičkového hotelu [**Holiday Inn Brno**](http://www.hibrno.cz/). Hodiny vyrobilo pasířství Matys v roce 2001 podle návrhu **ing. arch. Vlachynského a ing. arch. Foretníka** **\- [Atelier 90](http://www.atelier90.cz/).** Virtuálně si je můžete prohlédnout v [**prezentaci**](/download/KONGRES-hodiny.pdf)ateliéru. Z těchto informací jsme také vycházeli při přípravě této stránky.
 

@@ -2,11 +2,16 @@
 title: "C.T.W. neboli Wagner clock"
 slug: "ctwagner"
 category: "projekty"
+tags:
+  - jednotny-cas
+  - elektromagneticke
+  - wagner
+  - 1900s
 originalUrl: "https://hodinarium.eu/ctwagner.htm"
 lastModified: "Wed, 26 Apr 2017 13:39:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:45.712Z"
-tldr: 'Vážení sběratelé, znáte ten pocit, že o nějakých hodinách jen čtete, studujete jejich internetovou podobu, v tomto případě dokonce výbornou animaci, a pak najednou přijde krabice a jsou tam. Skoro celé. C.T.…'
+tldr: 'Mateční hodiny C.T. Wagner s elektromagnetickým natahováním závaží jednou za minutu a samostatným signálovým strojem vysílajícím polarizované impulzy do sítě podružných hodin.'
 ---
 *Vážení sběratelé, znáte ten pocit, že o nějakých hodinách jen čtete, studujete jejich internetovou podobu, v tomto případě dokonce výbornou **animaci**, a pak najednou přijde krabice a jsou tam. Skoro celé. C.T. Wagner jako živý. Mě tato událost potkala. Je to trochu výjimka z tradice našeho virtuálního muzea. Tyto jsou reálné.*
 

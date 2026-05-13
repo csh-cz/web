@@ -2,11 +2,15 @@
 title: "Devítkové hodiny pro matematiky"
 slug: "matematicke"
 category: "projekty"
+tags:
+  - digi
+  - kuriozita
+  - diy
 originalUrl: "https://hodinarium.eu/matematicke.htm"
 lastModified: "Wed, 26 Apr 2017 16:10:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:08.015Z"
-tldr: 'Na cifernících hodin se již objevila čísla ve všech možných vyjádřeních. Známe římské digitálky, čárokódky, digitálky s překladem, hodiny bez ručiček, snad i hodiny s nožičkami a kdo ví co ještě.'
+tldr: 'Hříčka, v níž je každá číslice na ciferníku vyjádřena matematickým výrazem ze tří devítek. Autoři představují i vlastní textovou variantu s definicí nuly přes (9-9)/9 a komentují čitelnost zápisu.'
 ---
 Na cifernících hodin se již objevila čísla ve všech možných vyjádřeních. Známe [římské digitálky](/clanky/rimskedigi), [čárokódky](/clanky/carokodky), [digitálky s překladem](/projekty/segmentovky-s-prekladem), hodiny bez ručiček, snad i hodiny s nožičkami a kdo ví co ještě.
 

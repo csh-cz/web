@@ -2,11 +2,12 @@
 title: Elektromagnetické hodiny Bulle
 slug: bulle
 category: konstrukce
-tldr: Jde o elektromagnetické hodiny s cívkou na kyvadle pohybující se kolem magnetu se složitě uspořádaným magnetickým polem.  Kyvadlo následně posunuje stroj.
+tldr: 'Konstrukční výklad francouzské alternativy k systému ATO — pohyblivá cívka na kyvadle prochází gradientním polem trojpólového magnetu N–S–N, čímž impulz účinkuje v kratším úhlu kyvu.'
 author: ''
 tags:
   - bulle
   - elektromagneticke
+  - kyvadlo
   - 1900s
 originalUrl: https://hodinarium.eu/bulle.htm
 lastModified: Sun, 09 Feb 2020 16:02:00 GMT

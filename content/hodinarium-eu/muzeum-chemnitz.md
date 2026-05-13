@@ -10,11 +10,13 @@ manualEdit: true
 author: "Český spolek horologický"
 tags:
   - vezni
+  - jednotny-cas
+  - pichacky
   - evropa
 references:
   - bibKey: 'Uhrenmuseumchemnitzde'
     type: odkaz
-tldr: 'Privátní muzeum se zaměřením podobným našemu Hodináriu. Spolek byl založen v roce 2010, sídlí na adrese Zwickauer Straße 164a, Chemnitz. Otevřeno po telefonické dohodě.'
+tldr: 'Saská spolková sbírka (zal. 2010) zaměřená na věžní stroje místních výrobců (Zachariä, Han), systémy jednotného času, ústředny, píchačky a časová razítka. Programaticky průmyslová horologie.'
 ---
 
 Privátní muzeum se zaměřením podobným našemu Hodináriu. Spolek byl založen v roce 2010, sídlí na adrese **Zwickauer Straße 164a, Chemnitz**. Otevřeno po telefonické dohodě.

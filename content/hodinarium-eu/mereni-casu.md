@@ -3,12 +3,14 @@ title: "MĚŘENÍ ČASU"
 slug: "mereni-casu"
 category: "zajimavosti"
 tags:
+  - slunecni
+  - atomove
   - popularizace
 originalUrl: "https://hodinarium.eu/mereni_casu.htm"
 lastModified: "Wed, 26 Apr 2017 16:02:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:04.915Z"
-tldr: 'Měření času dělá lidstvu problémy, neboť sluneční soustava je nehomogenní a tělesa se v ní pohybují různými směry. Pro měření času je nutno vytvořit soustavy souřadnic.'
+tldr: 'Souhrn astronomických a fyzikálních základů časomíry: tropický a siderický rok, hvězdný čas, UT, atomová sekunda, pásma, datová mez i kalendářní soustavy s ukázkovými výpočty zeměpisné délky.'
 references:
   - title: "Měření času — zemepis.eu"
     url: "https://www.zemepis.eu/stranka/mereni-casu"
