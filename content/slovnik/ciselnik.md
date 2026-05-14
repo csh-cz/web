@@ -78,12 +78,14 @@ Podsvícení (lit-from-behind, dial illumination) je technika ze 2. poloviny 19.
 
 ### Chronologie raných podsvícených věžních číselníků
 
-| Rok | Lokalita | Provedení |
-|---|---|---|
-| **1854** | Big Ben, Westminsterské opatství (Londýn) | **312 ks opálového skla** v kovové konstrukci, návrh August Pugin |
-| **1860** | **Sobotka — radniční věž** (hodinář Jan Prokeš) | „**Údajně jako první v Rakousku**" — průsvitný podsvícený číselník (Knespl 2018) |
-| **1865/66** | **Pražský orloj** — boční číselníky | Matné sklo, **plynové hořáky zezadu** (po velké opravě 1865); doloženo Chvalozpěvem 1866 |
-| **30. léta 20. st.** | Textilana Liberec — štítové hodiny | Malba a nástřik na skle, prosvětlení systémem **Siemens-Halske / Siemens-Schuckert** |
+| Rok | Lokalita | Autor | Provedení |
+|---|---|---|---|
+| **1854** | Big Ben, Westminsterské opatství (Londýn) | August Pugin (návrh ciferníku) | **312 ks opálového skla** v kovové konstrukci |
+| **1860** | **Sobotka — radniční věž** | Jan Prokeš (Sobotka) | „**Údajně jako první v Rakousku**" — průsvitný podsvícený číselník (Knespl 2018) |
+| **1865/66** | **Pražský orloj** — boční číselníky | **Ludvík Hainz** (Praha) | Průsvitné ciferníky, plynové hořáky zezadu; **Hainz se přimlouval o osvětlení už od 1856** |
+| **1866** | **Pražský orloj** — automatizace zapalování | **Václav Krečmer** (Praha) | Jednodušší plynový automat na orloji (sám Krečmer 1883 označoval za „pouhý experiment") |
+| **1883** | **Staroměstská vodárna** — Krečmerův hodinový stroj | **Václav Krečmer** | **Efemeridní plynový automat** — 10 230 operací ročně, zhasínal/zapínal plyn podle skutečného východu/západu slunce (unikátní v Evropě) |
+| **30. léta 20. st.** | Textilana Liberec — štítové hodiny | Siemens-Halske | Malba a nástřik na skle, prosvětlení systémem **Siemens-Schuckert** |
 
 **Prokeš v Sobotce 1860** je pozoruhodný — předbíhá pražskou aplikaci 1865/66 o 5 let:
 
@@ -91,7 +93,15 @@ Podsvícení (lit-from-behind, dial illumination) je technika ze 2. poloviny 19.
 > s průsvitným podsvíceným číselníkem, aby vážení měšťané viděli, v kolik jdou z hospody domů."
 > — KNESPL, David. *Jan Prokeš, hodinář ze Sobotky. 200 let od narození.* 2018. [Zotero `35DKG7WY`]
 
-**Pražský orloj 1865/66** — báseň F. X. J. M., *Chvalozpěv* (1866), strofa 11, zaznamenává osazení podsvícených ciferníků:
+**Pražský orloj 1865/66** — **Ludvík Hainz** (1814–1898), pražský hodinář, byl autorem realizace průsvitných ciferníků. Doloženo *Zprávou o starobylém orloji* (Erben et al.):
+
+> „Zřízení pak těchto **nočních hodin průsvitných svěřených panu
+> Hainzovi samému**, kterýž se byl již léta **1856**, když v radě
+> městské byla řeč, aby ty hodiny byly obnoveny, **za to přimlouval,
+> aby se k nim také přidělati dal ciferník času středního, jenž by
+> v noci byl osvětlován**."
+
+Hainz tedy průsvitné podsvícení **navrhoval od roku 1856** a realizoval **v rámci velké opravy orloje 1865/66**. Dobovou ódu na novou orloj zaznamenal *Chvalozpěv* F. X. J. M. (1866), strofa 11:
 
 > „Přidány dva ciferniky nově
 > Z obou radnice výklenku stran,
@@ -101,7 +111,17 @@ Podsvícení (lit-from-behind, dial illumination) je technika ze 2. poloviny 19.
 > Tak zevrubně, jako když je den,
 > V noci účel pěstovaly…"
 
-(Chvalozpěv je dobovou ódou na orloj po opravě, Prokeš ze Sobotky v textu jako autor modelu, finální realizace pražští hodináři **Holub a Hainz**.)
+**Krečmerův plynový automat 1866 — automatizace zapalování.** Když Hainzovy průsvitné ciferníky vyžadovaly noční zapínání/zhasínání plynu, mladý hodinář **Václav Krečmer** (1844–1918) zkonstruoval jednoduchý plynový automat. Sám Krečmer ve své přednášce 1883 toto rané dílo označoval za **„pouhý experiment"** ve srovnání se svým pozdějším vodárenským efemeridním automatem. Není to tedy příspěvek ke konstrukci ciferníku samotnému, ale ke **konstrukci jeho ovládání**.
+
+**Krečmerův efemeridní plynový automat 1883** — vrchol cs hodinářské automatizace 19. století. Instalovaný k vlastnímu Krečmerovu stroji ve **Staroměstské vodárenské věži** (1879/1880, viz [1883-praha-staromestska-vodarna-krecmer-plynovy-automat](/soupis-veznich-hodin/1883-praha-staromestska-vodarna-krecmer-plynovy-automat)):
+
+- Ovládal pouliční plynové osvětlení **podle astronomických efemeridních tabulek** (jiný čas zhasnutí každý den dle skutečného slunce)
+- **Roční nastavení** přes „hvězdové kolo" (Jahresrad)
+- Otevíral půlnoční plynový kohout, natahoval kladívka, zapaloval plyn pro 4 ciferníky perkusním hříšníkem
+- **10 230 operací ročně**; ušetřil 1 095 nebezpečných výstupů na věž
+- Krečmer ve stejné přednášce diskutoval i o paralelní technologii pneumatických pařížských hodin (jeden zdroj — 4 500 ciferníků)
+
+Krečmerův 1883 automat byl **unikátní v Evropě** — distribuovaným, autonomním zařízením integrujícím astronomický výpočet + plynové ovládání + zapalování v jediném strojku. Spojení podsvíceného číselníku s jeho **inteligentním ovládáním** představuje technologický horizont, který Hainz 1865 ještě neměl.
 
 Po krátkém období plynového osvětlení Pražského orloje (a postupně se vzdalujícím dobovým úzu) ciferníky **přestaly svítit** — Z. Horský v *Pražském orloji* uvádí: „Dnes ciferníky večer a v noci nesvítí a je to tak lépe." Obnoveno až **2008** (LED + soumrakový spínač).
 
@@ -244,8 +264,26 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 > — F. X. J. M. *Chvalozpěv astronomický, staroslavný, pověstný nově
 > zřízený časoměr radnici staroměstského náměstí.* Praha, 1866, strofa 11.
 > [Zotero `P6XWW876`]
-> (Dobová óda na Pražský orloj po opravě 1865/66 — Prokeš ze Sobotky
-> autorem modelu, finální realizace Holub a Hainz.)
+> (Dobová óda na Pražský orloj po opravě 1865/66; samotný text Chvalozpěvu
+> však **nezmiňuje konkrétně autora podsvícených ciferníků** — to je
+> doloženo až *Zprávou o starobylém orloji* a dalšími prameny.)
+
+> „Zřízení pak těchto nočních hodin průsvitných svěřených panu
+> Hainzovi samému, kterýž se byl již léta 1856, když v radě městské
+> byla řeč, aby ty hodiny byly obnoveny, za to přimlouval, aby se
+> k nim také přidělati dal ciferník času středního, jenž by v noci
+> byl osvětlován."
+> — ERBEN, K. J. et al. *Zpráva o starobylém orloji na radnici Starého
+> města Pražského.* [Reedice 2016 — Praha: Národní památkový ústav.]
+> [Zotero `5EPYPG78`]
+> (Doslovný zdroj autorství podsvícení = **Ludvík Hainz**, navrhoval
+> od 1856, realizoval 1865.)
+
+> KREČMER, V. *O plynovém automatu na hodinách na staroměstské vodárně.*
+> Národní listy, roč. 23, č. 23, 27. 1. 1883, s. 3. [Zotero `52Z2ZSUR`]
+> (Krečmerova přednáška o vodárenském efemeridním automatu 1883;
+> zmínka o jeho ranějším automatu na Pražském orloji **1866** jako
+> „pouhém experimentu".)
 
 > *Fondation de la Haute Horlogerie* — encyklopedické heslo *Roman
 > numeral IIII on dials*. Diskutuje původ aditivní formy IIII, vizuální
