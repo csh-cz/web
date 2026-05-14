@@ -26,7 +26,20 @@ pribuzne:
 
 Číselník je **vizuálně nejvýznamnější součást věžních hodin** — pro většinu pozorovatelů je to *jediná* viditelná část (stroj zůstává skryt ve zvonovém patře nebo podkroví). Slouží proto **dvojí funkci**: technické (ukazuje čas) a **architektonicko-dekorativní** (zdůrazňuje význam budovy v rámci sídla, je integrální součástí kompozice věže nebo štítu).
 
-**Terminologická poznámka:** dnes je preferovaný cs termín *číselník* (etymologicky z *číslo* + sufix *-ník* — čistě cs neologismus). Forma *ciferník* je archaismus, kalk z německého *Zifferblatt* přes románské *cifra* (původně arabsky *ṣifr* = „nula"). Sušický 1900 a další cs autoři přelomu 19./20. století užívají *číselník* jako moderní termín; *ciferník* zůstává jako akceptovatelná varianta v dobových citacích.
+**Terminologická poznámka:** dnes je preferovaný cs termín *číselník* (etymologicky z *číslo* + sufix *-ník* — čistě cs neologismus). Forma *ciferník* je archaismus, kalk z německého *Zifferblatt* přes románské *cifra* (původně arabsky *ṣifr* = „nula").
+
+Audit korpusu cs hodinářské literatury (full-text grep PDFů, 2026-05-14) ukazuje **jasný posun preference v průběhu 20. století**:
+
+| Pramen | *číselník* | *ciferník* |
+|---|---|---|
+| Sušický 1900 | 4× | 6× |
+| Sladkovský 1947 | 16× | **0×** |
+| Hajn 1953 | 38× | **0×** |
+| Boukal 1958 | 80× | **0×** |
+| Martínek+Řehoř 1964 | 4×+ | **0×** |
+| Bureš 1974 | 10×+ | **0×** |
+
+Sušický 1900 oba termíny ještě střídá jako synonyma (mírně častěji *ciferník*); od **Sladkovský 1947** dále cs odborná literatura **rezolutně přechází na *číselník*** — žádný z auditovaných pramenů po 1947 *ciferník* nepoužívá.
 
 NPÚ MIS Jičín 2016 detailně popisuje barokní číselníky kostela sv. Ignáce z Loyoly:
 
@@ -116,7 +129,7 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 
 > „Registrátor času, ukazuje uplynulý čas na **číselníku** hodin."
 > — SUŠICKÝ, V. R. *Hodinářství.* 1900. [Zotero `M2MD5J34`]
-> (Sušický užívá moderního cs *číselník* — preferovaný cs neologismus, na rozdíl od dobového kalku *ciferník* z DE *Zifferblatt*.)
+> (Sušický 1900 v plném textu střídá *číselník* (4×) a *ciferník* (6×) jako rovnocenná synonyma; v této definici užívá *číselník*.)
 
 > „Ručky mají větší právo být jasně viditelné a rozpoznatelné než
 > číslice, protože čas se dá určit i bez všech číslic, jen podle polohy
