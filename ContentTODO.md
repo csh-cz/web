@@ -163,8 +163,13 @@ Doporučení sortováno podle ROI:
 
 ---
 
+## TODO follow-ups
+
+- **Schema enum `veznihodinaFoto.typ`** — hodnota `cifernik` je archaická forma, mělo by se přejmenovat na `ciselnik` per moderní cs úzus. Breaking change ve `content.config.ts` (apps/hodinarium-eu/src/content.config.ts) + retrofit ~všech soupis entries užívajících `typ: cifernik` v `foto:` blocích. Skript via grep + sed je rovnost. Plus update komentářů v soupis-veznich-hodin/index.astro.
+
 ## Hotové (archiv)
 
+- 2026-05-14: **Slovník heslo `cifernik` → `ciselnik`** (přejmenováno: archaismus → moderní cs termín číselník) + doplněno o sekci „Teorie čitelnosti dle Romualda Božka" s 6 zásadami funkcionalismu 19. století + citacemi z Die neue Stadtuhr 1859 ed. Knespl 2024 [`99WRKNS4`], Über astronomische Uhren 1894 [`53MNBESG`], Dolenský 1935 [`ZK5ARYU9`]
 - 2026-05-13: **5 tower-clock slovník hesel** — klečový rám, nátahový buben, ukazovací stroj, ciferník, kolíčkový krok, remontoir (commit [`53df39f5`](https://github.com/csh-cz/web/commit/53df39f5))
 - 2026-05-13: **schema rozšíření pro DE/FR genus** + retrofit 37 existujících hesel + skill docs (commit [`f5517680`](https://github.com/csh-cz/web/commit/f5517680))
 - 2026-05-13: **6 TIER 1/2 NPÚ stubs** — Borotín 1767, Domažlice 1893, Velenice 1935, Kraslice 1888, Hrádek 1901, Krnov 1903, Kristiánov Liberec, Třebovice ve Slezsku (s opravou Prokeš false-positive)
