@@ -142,12 +142,122 @@ Schéma cifer na barokních číselnících bývá **dvojí** — hodinová stup
 
 **Konstrukční typy číselníku** dále (chronologicky):
 
-- **Barokní kovaný plechový** (17.–18. století) — kovaný železný rám potažený plechem, ručně malované cifry, ručky tepané ve fantazijních tvarech (trojlístek, lilie, šíp)
+- **Barokní kovaný plechový** (17.–18. století) — viz samostatná sekce „Barokní číselník" níže — kovaný železný rám potažený plechem, ručně malované cifry, ručky tepané ve fantazijních tvarech (trojlístek, lilie, šíp), **prohozené velikosti ručiček** vůči dnešnímu zvyku
 - **Klasicistní litinový/plechový** (1. polovina 19. století) — odlévaný litinový rám nebo válcovaný plech, standardizované římské číslice, jednodušší ručky
 - **Smaltovaný** (od 2. poloviny 19. století) — bílý smaltový povrch, černé číslice; typický pro pozdně 19. století (Hainz, Krečmer, Prokeš)
 - **Skleněný průsvitný (lit-from-behind)** (od poloviny 19. století) — opálové, matné nebo leptané sklo s vnitřním zdrojem světla. Nejstarší dochované příklady: **Big Ben** (Westminsterské opatství 1854, **312 ks opálového skla**, August Pugin), **Sobotka — Prokešovy radniční hodiny 1860** (viz „Osvětlení číselníku" níže), **Pražský orloj** boční číselníky po opravě **1865/66** (matné sklo, plynové hořáky). Ve 20. století elektrifikace + leptané sklo: textilana Liberec Siemens-Halske 30. léta
 
 **U strojů v interiéru** (radnice, škola) je číselník často **vsazený do atiky** nebo **trojúhelníkového štítu** flankovaného pilastry — typicky kraslická radnice, nebo „segmentový štít" Kristiánov-Liberec (NPÚ MIS 1737276 popisuje **„černý ciferník věžních hodin s bílými rafijemi a číslicemi, obklopený bohatou štukovou ornamentikou s florálními motivy**"). Mechanismus stroje sedí v podkroví, číselník je s ním propojen **kovovým táhlem** (typicky vertikálním nebo lomeným přes vidlici).
+
+## Barokní číselník (17.–18. století)
+
+Barokní typ věžního číselníku je **dominantní v Evropě 17.–18. století** a v Čechách se s ním setkáváme dodnes (často přemalovaný, ale konstrukčně zachovaný) — typické příklady: **Jičín — kostel sv. Ignáce z Loyoly** (1. pol. 18. stol.), **Markvartice — kostel sv. Jiljí** (1. pol. 19. stol., navazuje na barokní typ), **Borotín — zámek** (1767), **Třebovice ve Slezsku — kostel Nanebevzetí PM** (1881–82 přestavba věže s historizujícími prvky).
+
+### Konstrukční schéma barokního ciferníku
+
+Typický barokní věžní ciferník má **dvě soustředné stupnice**:
+
+1. **Vnější velký kruh** (po obvodu ciferníku) — **římské číslice I–XII** pro hodiny
+2. **Vnitřní menší kruh** (uprostřed ciferníku) — **římské číslice I–IIII** pro 4 čtvrtě jedné hodiny (= „minutový" ciferník v barokním pojetí)
+
+Tomu odpovídají **dvě prohozené ručky proti dnešnímu zvyku**. NPÚ MIS Markvartice 2017 a NPÚ Jičín 2016 popisují schéma identicky:
+
+> „**Hodinová ručka byla větší, dosahovala ke středům cifer I–XII**
+> vyznačeným po obvodu ciferníku, a **menší ručka minutová** dosahovala
+> jen k cifrám I–IIII **menšího minutového ciferníku vyznačeného uvnitř
+> ciferníku hodinového**. Ručky a cifry byly pravděpodobně zlaceny."
+> — NPÚ. *Návrh na prohlášení Markvartice / Jičín za kulturní památku.*
+> 2016, 2017. [Zotero `HFFICJDA` / `J5QHN6HG` / `E8NULF2Z`]
+
+### Proč jsou ručky „prohozené" — čtyři důvody
+
+Dnešní pozorovatel je matoucí: na barokním ciferníku je **hodinová ručka delší než minutová**, opačně proti všem moderním hodinám. Důvodů je několik a vzájemně se posilují:
+
+**1. Hodina je důležitější informace než minuta.** V 17.–18. století byl občanský život strukturován hodinami (a kostelní zvon odbíjel hodiny + čtvrti). **Přesná minuta byla irelevantní** pro většinu denních aktivit — důležité bylo „za půl hodiny" nebo „kolem 3. odpolední", ne „v 15:23". Číselník to vizuálně odráží: ručka, která má největší pozornost, musí ukazovat nejdůležitější údaj — a tím je **hodina**, ne minuta.
+
+**2. Architektonika ciferníku — každá ručka má vlastní stupnici.** Vnější kruh (hodinový) je velký a daleko od středu; vnitřní kruh (čtvrťový) je menší a blíže ke středu. **Délka ručky musí odpovídat své stupnici**:
+- Hodinová ručka dlouhá → dosahuje na vnější obvodový hodinový kruh
+- Minutová ručka krátká → dosahuje jen na vnitřní čtvrťový kruh
+
+Není to estetická volba, ale **funkční konvence**. Konečky obou ručiček musí dosahovat ke svým číslicím; jinak by čtenář nemohl odečíst čas.
+
+**3. Čitelnost z dálky — hodinová ručka musí být viditelná z náměstí.** Věžní ciferník je čten ze vzdálenosti **20–100 m**. Hodinová ručka musí být dlouhá, široká, kontrastní, aby ji bylo vidět; minutová (sekundární údaj) může být kratší a tenčí. Romuald Božek v *Nové městské hodiny* (1859, ed. Knespl 2024) tuto zásadu formuluje jako vědomé pravidlo:
+
+> „Snadné a pohodlné odečítání času je vlastním účelem všech hodin,
+> a proto **nejdůležitějším prvkem na vnější straně každých hodin,
+> zejména věžních nebo pouličních, jsou jejich číselníky.** Není tedy
+> jedno, zda mají číselníky krátké nebo dlouhé, tlusté nebo tenké
+> číslice a zda mají ručky krátké nebo dlouhé. **Čím více se číslice
+> prodlužují, tím kratší, a tedy méně viditelná je hodinová ručka,
+> což je rozhodně špatně.**"
+> — BOŽEK, Romuald (ed. Knespl 2024). [Zotero `99WRKNS4`]
+
+Božkův argument se tedy přímo vztahuje k barokní logice: hodinová ručka **musí** být dlouhá a robustní, jinak utopuje v ornamentu ciferníku.
+
+**4. Kognitivní jednoduchost pro málo gramotnou populaci.** Do konce 18. století byla **většina obyvatel negramotná** — uměli rozeznat polohu ručky vůči hodinovým značkám, ale **neuměli číst číslice** ani sledovat dvě ručky současně. Jeden velký ukazatel (= hodinová ručka) byl **kognitivně snazší** než kombinace „dvě ručky, nezaměňovat, hodinová kratší/tlustější, minutová delší/tenčí". Barokní řešení (dlouhá hodinová + krátká minutová) **redukuje minutu na sekundární — nepovinný — údaj**. Dokud nevíte, jak číst minutu, můžete ignorovat tu krátkou ručku.
+
+### Vývojová linie: od jedné ručky k moderní konvenci
+
+Barokní dva-ručkový ciferník je **mezikrok** mezi středověkým jedno-ručkovým a moderním ciferníkem (19. stol.+) s prohozenou hierarchií ručiček. Bilfinger 1892 popisuje pre-barokní stav:
+
+> „Věžní hodiny 16. století **v pravidle pouze čárkou mezi jednotlivými
+> hodinami** označovaly půlhodiny. O minutách nebo dokonce sekundách
+> nebyla řeč."
+> — BILFINGER, G. *Die mittelalterlichen Horen und die modernen Stunden:
+> ein Beitrag zur Kulturgeschichte.* 1892. [Zotero `TF5QAS76`]
+
+**Chronologie evropských věžních ciferníků:**
+
+| Období | Typ | Ručky | Stupnice |
+|---|---|---|---|
+| **14.–15. stol.** | Středověký | **1 hodinová** | Hodiny I–XII (nebo I–XXIV) |
+| **16. stol.** | Pozdně středověký | 1 hodinová | Hodiny + půlhodinová značka mezi nimi |
+| **17. stol.** | Raně barokní | 2 (hodinová dlouhá + minutová krátká) | Vnější hodinová + vnitřní čtvrťová I–IIII |
+| **18. stol.** | Barokní zralý | jako 17. stol., **architektonika fasády bohatá** | Vnější + vnitřní; první obvodové minutové dělení (vzácně) |
+| **1690 →** | Grahamův přechod | Vznik moderní minutové ručky díky **přesnosti** kyvadlového kroku (Graham 1715) — ale na věžních hodinách se prosazuje pomalu | Pomalé zavádění obvodového minutového kruhu |
+| **19. stol.** | Moderní | **Minutová dlouhá** (obvodová) + hodinová krátká | Jedna stupnice 0–59 minut, vnitřní 12 hodin |
+
+**Klíčové: konvenční obrat ručiček** (= dnešní stav, kdy minutová je dlouhá) je výsledek souběhu několika faktorů:
+- **Zlepšení přesnosti** (kyvadlo 1656 Huygens, Grahamův klidový krok 1715) → minutová ručka se stala užitečná
+- **Industriální rytmus práce** (10hodinové směny, vlakové jízdní řády) → minuta se stává relevantní
+- **Standardizace** (1880s — zavedení mezinárodního a národních časových pásem) → minuta je norma
+
+V Čechách k tomuto obratu dochází **postupně v průběhu 19. století**; mnohé venkovské stroje si **podržely barokní schéma do konce 19. stol.** Při restaurování barokních věžních hodin (Skála a další po 2000) je rekonstrukce původního barokního schématu s prohozenými ručkami **historicky správným postupem**, i když pro moderního čtenáře potřebuje vysvětlení.
+
+### Evropská distribuce barokního typu
+
+Barokní dva-ručkový ciferník se rozšířil **napříč katolickou Evropou** v 17.–18. století:
+
+- **Čechy a Morava** — typický pro venkovské kostelní i radniční hodiny; dochovaný v Jičíně, Markvarticích, Borotíně, Třebovicích ve Slezsku a desítkách dalších objektů (NPÚ MIS dokumenty)
+- **Hansovní města severního Německa** — Schukowski 2009 popisuje typologii pro **Stralsundskou Nikolaikirche**: starší typ ciferníku s možností číst **temporální (proměnlivé) i ekvinokční (rovnoměrné) hodiny současně** ([Zotero `UWNCIXIQ`])
+- **Středomořská a jihoněmecká oblast** — barokní ciferníky kostelů (Salzburg, Mnichov, alpská údolí)
+- **Pražský orloj** — sice astronomický specialitě, ale i jeho 4 vnitřní tabulky (Erben 2016 [Zotero `5EPYPG78`]) odpovídají **logice rozvrstvené informace**: zvlášť minuty/čtvrti (1× za hodinu rotující ručka), zvlášť 12 hodin (postupně), zvlášť astronomická stupnice
+
+V protestantské oblasti severní Evropy (Anglie, Nizozemí) se přechod na moderní minutovou ručku odehrál o něco dříve (~konec 17. stol., Tompion, Graham), kdežto v katolické střední Evropě barokní schéma přežívalo **až do 19. století**.
+
+### Typografie a ornamentální detail
+
+- **Římské číslice** dominují (slavnostně, monumentálně)
+- **„IIII" pro 4** (ne IV) — viz sekce o římských číslicích níže
+- **Hodinová stupnice na vnějším kruhu** — někdy s **dotted leaders** mezi cifry
+- **Vnitřní čtvrťový ciferník** s I, II, III, IIII v 4 polohách (90° intervaly)
+- **Zlacené cifry a ručky** — typické pro reprezentativní městské hodiny; venkovské černé na bílém pozadí
+- **Ručky ve fantazijních tvarech** — trojlístek (Jičín), lilie, šíp, kruhový terč; rozlišují hodinovou (širší lopatka u konce) od minutové (užší, ostře zakončená)
+- **Architektonické zarámování** — věnec, štukové ornamentum, palmety, andělíčci kolem ciferníku, kovaný věnec
+
+### Bibliografická literatura pro další studium
+
+Z Himmlerovy bibliografie 2006 ([Zotero `BB7EQHPE`]) a dalších:
+
+- **DURDÍK, T.** *Středověké mechanické hodiny.* Archaeologia Historica, 1991, sv. 16, s. 345–355. (Pre-barokní kontext)
+- **HAVRLANT, P.** *Z historie věžních hodin a ciferníků aneb Jak vypadaly věžní hodiny na radniční věži v Ostravě.* Zpravodaj Ostravského muzea 11, 2004, č. 3, s. 24–31.
+- **KYNČL, R.** *Věžní hodiny.* In: Hodiny a hodinky. Praha 2001, s. 44–57.
+- **SCHUKOWSKI, M.** *Uhren in Kirchen aus hansischer Zeit — eine Familie, zwei Generationen, drei Väter.* 2009. [Zotero `UWNCIXIQ`] (Hansovní pobaltské kostelní hodiny — starší typ ciferníku s temporálními i ekvinokčními hodinami)
+- **BILFINGER, G.** *Die mittelalterlichen Horen und die modernen Stunden: ein Beitrag zur Kulturgeschichte.* 1892. [Zotero `TF5QAS76`] (Středověký kontext, vznik moderní hodiny)
+- **UNGERER, A.** *Les horloges astronomiques et monumentales les plus remarquables de l'Antiquité jusqu'à nos jours.* Nákladem autora, Strasbourg 1931. (Cited in [Zotero `29HLV667`, `9QXJJXMJ`])
+- **HORSKÝ, Z.** *Astronomy and the art of clockmaking in the fourteenth, fifteenth and sixteenth centuries.* Vistas in Astronomy 9 (1967), 25–34.
+- **DOHRN-VAN ROSSUM, G.** *L'histoire de l'heure: horlogerie et organisation moderne du temps.* Paris, 1997. (Standard work on rise of modern time consciousness)
+- **SNYDER, J.** *A King's Treasury Could Not Compare: Making Clocks Tick in Fourteenth-Century Europe.* PhD thesis 2021. [Zotero `NLQ5CVJL`] (Medieval clocks combined *hourly, calendrical, astronomical, and religious time in a single device*)
 
 ## Číselník jako památkový palimpsest
 
