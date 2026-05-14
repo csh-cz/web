@@ -20,6 +20,11 @@ pribuzne:
   - hridelik-orloje
   - ramenko
   - ukazovaci-stroj
+crossRefs:
+  clanky:
+    - svitici
+  hodinari:
+    - jan-prokes
 ---
 
 ## Výklad
@@ -61,11 +66,87 @@ Schéma cifer na barokních číselnících bývá **dvojí** — hodinová stup
 - **Barokní kovaný plechový** (17.–18. století) — kovaný železný rám potažený plechem, ručně malované cifry, ručky tepané ve fantazijních tvarech (trojlístek, lilie, šíp)
 - **Klasicistní litinový/plechový** (1. polovina 19. století) — odlévaný litinový rám nebo válcovaný plech, standardizované římské číslice, jednodušší ručky
 - **Smaltovaný** (od 2. poloviny 19. století) — bílý smaltový povrch, černé číslice; typický pro pozdně 19. století (Hainz, Krečmer, Prokeš)
-- **Skleněný / lit-from-behind** (od 20. století) — průsvitný číselník s vnitřním osvětlením, typicky na věžích radnic a nádraží
+- **Skleněný průsvitný (lit-from-behind)** (od poloviny 19. století) — opálové, matné nebo leptané sklo s vnitřním zdrojem světla. Nejstarší dochované příklady: **Big Ben** (Westminsterské opatství 1854, **312 ks opálového skla**, August Pugin), **Sobotka — Prokešovy radniční hodiny 1860** (viz „Osvětlení číselníku" níže), **Pražský orloj** boční číselníky po opravě **1865/66** (matné sklo, plynové hořáky). Ve 20. století elektrifikace + leptané sklo: textilana Liberec Siemens-Halske 30. léta
 
 **U strojů v interiéru** (radnice, škola) je číselník často **vsazený do atiky** nebo **trojúhelníkového štítu** flankovaného pilastry — typicky kraslická radnice, nebo „segmentový štít" Kristiánov-Liberec (NPÚ MIS 1737276 popisuje **„černý ciferník věžních hodin s bílými rafijemi a číslicemi, obklopený bohatou štukovou ornamentikou s florálními motivy**"). Mechanismus stroje sedí v podkroví, číselník je s ním propojen **kovovým táhlem** (typicky vertikálním nebo lomeným přes vidlici).
 
 **Současný stav historických číselníků:** často přepalované, opakovaně přemalovávané, ručky zkorodované. NPÚ Jičín konstatuje: „dožilé jsou pouze ciferníky" — tj. stroj zachován, ale číselníky vyžadují restaurátorský zásah. Při restaurování se preferuje **návrat k původnímu schématu** (Hrádek nad Nisou 2006–2018: čtyři číselníky „nově natřeny a opatřeny římskými číslicemi dle původního vzoru").
+
+## Osvětlení číselníku
+
+Podsvícení (lit-from-behind, dial illumination) je technika ze 2. poloviny 19. století, motivovaná **noční čitelností** veřejných hodin. Plný přehled způsobů osvětlení v článku [Svítící hodiny](/clanky/svitici).
+
+### Chronologie raných podsvícených věžních číselníků
+
+| Rok | Lokalita | Provedení |
+|---|---|---|
+| **1854** | Big Ben, Westminsterské opatství (Londýn) | **312 ks opálového skla** v kovové konstrukci, návrh August Pugin |
+| **1860** | **Sobotka — radniční věž** (hodinář Jan Prokeš) | „**Údajně jako první v Rakousku**" — průsvitný podsvícený číselník (Knespl 2018) |
+| **1865/66** | **Pražský orloj** — boční číselníky | Matné sklo, **plynové hořáky zezadu** (po velké opravě 1865); doloženo Chvalozpěvem 1866 |
+| **30. léta 20. st.** | Textilana Liberec — štítové hodiny | Malba a nástřik na skle, prosvětlení systémem **Siemens-Halske / Siemens-Schuckert** |
+
+**Prokeš v Sobotce 1860** je pozoruhodný — předbíhá pražskou aplikaci 1865/66 o 5 let:
+
+> „Na soboteckou radniční věž umístil **roku 1860, údajně jako první v Rakousku**, hodiny
+> s průsvitným podsvíceným číselníkem, aby vážení měšťané viděli, v kolik jdou z hospody domů."
+> — KNESPL, David. *Jan Prokeš, hodinář ze Sobotky. 200 let od narození.* 2018. [Zotero `35DKG7WY`]
+
+**Pražský orloj 1865/66** — báseň F. X. J. M., *Chvalozpěv* (1866), strofa 11, zaznamenává osazení podsvícených ciferníků:
+
+> „Přidány dva ciferniky nově
+> Z obou radnice výklenku stran,
+> Plynem osvícený v noční době,
+> By se na ně ve tmách ohled bral.
+> By noční dobou čas zvěstovaly,
+> Tak zevrubně, jako když je den,
+> V noci účel pěstovaly…"
+
+(Chvalozpěv je dobovou ódou na orloj po opravě, Prokeš ze Sobotky v textu jako autor modelu, finální realizace pražští hodináři **Holub a Hainz**.)
+
+Po krátkém období plynového osvětlení Pražského orloje (a postupně se vzdalujícím dobovým úzu) ciferníky **přestaly svítit** — Z. Horský v *Pražském orloji* uvádí: „Dnes ciferníky večer a v noci nesvítí a je to tak lépe." Obnoveno až **2008** (LED + soumrakový spínač).
+
+### Typologie způsobů osvětlení (dle článku [Svítící hodiny](/clanky/svitici))
+
+**Vnější osvětlení** klasických neprůhledných číselníků:
+1. **Reflektory na zemi nebo sloupech** osvětlující celou věž (nejhezčí, nehyzdí konstrukci)
+2. **Reflektory pod číselníky** (nejhorší — odraz od pozlacení, ruší pohled)
+3. **Reflektory nad číselníky** (přijatelné, ale „tykadla na věži")
+4. **Reflektory vedle číselníků**
+5. **Žárovka v ručičkové ose / ze středu** (kuriózní, neosvědčilo se; cit. Poswapinski, *Zegarmistrzostwo, czešč 5: Zegary wieżove*)
+
+**Vnitřní osvětlení (průsvitný číselník):** opálové sklo / matné sklo / leptané sklo / mléčné sklo. Problém: údržba (špína na okně více vidět), výměna žárovky uvnitř věže.
+
+**Ovládání:** soumrakový spínač, spínání podle astronomického času východu/západu slunce, časový spínač (Pražský orloj 16–8 h).
+
+## Římské číslice na číselnících — IIII vs IV
+
+Na číselnících věžních hodin se **římská čtyřka tradičně píše IIII**, nikoli subtraktivně IV. Není to chyba — je to **starší aditivní forma** římské numerace, která se v hodinářské praxi udržela jako konvence. Souhrn důvodů dle *Fondation de la Haute Horlogerie* a *Seiko Museum*:
+
+**1. Tradice aditivního zápisu.** Římské číslice byly původně aditivní: I, II, III, IIII, V, VI, VII, VIII, VIIII, X, … Subtraktivní princip (IV, IX, XL) se prosadil později a nikdy nebyl plně univerzální — Koloseum např. systematicky používá IIII místo IV, ale zároveň XL pro 40 (44 = XLIIII). V starších 24hodinových číselnících byly běžné formy XIIII, XVIIII, XXIIII.
+
+**2. Vizuální vyvážení číselníku.** Na 12hodinovém číselníku tvoří IIII přirozenou protiváhu VIII (oba znaky vizuálně „masivní"). Tři skupiny po čtyřech znacích vytvářejí symetrickou kompozici:
+
+| Skupina | Znaky |
+|---|---|
+| I.   | I  II  III  IIII |
+| II.  | V  VI  VII  VIII |
+| III. | IX  X  XI  XII   |
+
+**3. Čitelnost na radiálním číselníku.** Číslice jsou typicky orientované paprskovitě ke středu. Při natočení / horším osvětlení / poškození se zápis IV snáze plete s VI; IIII tuto záměnu vylučuje.
+
+**4. Řemeslná praktičnost.** Kované, smaltované nebo malované číslice se snadněji opakují stejným tahem „I" — výsledný rytmus je pravidelnější, dílenská reprodukce jednodušší.
+
+**5. Hodinářská konvence.** *Seiko Museum* dokumentuje IIII u mechanických věžních hodin **před cca 17. stoletím**; v moderní hodinářské literatuře se forma drží jako kontinuální tradice.
+
+**Výjimky a varianty:**
+
+- **Big Ben (Elizabeth Tower)** používá **IV** — moderní výjimka, autor August Pugin (1854) volil subtraktivní normu
+- **Hodiny s tzv. Roman striking** (odbíjení podle římské logiky — větší tón = 5, menší = 1): zde IV vyhovuje lépe, protože odpovídá způsobu odbíjení
+- **Folklorní teorie** — Jupiter (IVPPITER), údajný edikt Karla V. nebo Ludvíka XIV. — jsou populární anekdoty bez dostatečné historické dokumentace; *Seiko Museum* je uvádí jako jednu z teorií, nikoli jako doložené vysvětlení
+
+**Praktická formulace pro popis věžního číselníku:**
+
+> Zápis římské čtyřky jako *IIII* na číselnících věžních hodin nelze chápat jako omyl, nýbrž jako přežívání **starší aditivní formy římské numerace**. V hodinářské praxi se tato forma udržela zejména proto, že na radiálním číselníku zvyšovala čitelnost, vytvářela typografickou rovnováhu vůči VIII a navazovala na starší tradici slunečních a veřejných číselníků. Subtraktivní zápis IV se sice stal později normativním, ale na hodinových číselnících **nikdy zcela nevytlačil starší IIII**. Rozdíl mezi IIII a IV proto vypovídá spíše o lokální tradici, době vzniku, restaurátorské volbě a estetickém pojetí číselníku než o prosté správnosti či nesprávnosti zápisu.
 
 ## Teorie čitelnosti dle Romualda Božka
 
@@ -151,3 +232,34 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 > a číslicemi, obklopený bohatou štukovou ornamentikou s florálními
 > motivy."
 > — NPÚ. *Návrh na prohlášení budovy základní školy v Kristiánově (Liberec) za kulturní památku.* 2023. NPÚ MIS dokument id 1737276.
+
+> „Na soboteckou radniční věž umístil roku 1860, údajně jako první
+> v Rakousku, hodiny s průsvitným podsvíceným číselníkem."
+> — KNESPL, David. *Jan Prokeš, hodinář ze Sobotky. 200 let od narození.*
+> Zpravodaj Společnosti přátel starožitných hodin, č. 88, 2018, s. 7–12.
+> [Zotero `35DKG7WY`]
+
+> „Přidány dva ciferniky nově / Z obou radnice výklenku stran, /
+> Plynem osvícený v noční době, / By se na ně ve tmách ohled bral."
+> — F. X. J. M. *Chvalozpěv astronomický, staroslavný, pověstný nově
+> zřízený časoměr radnici staroměstského náměstí.* Praha, 1866, strofa 11.
+> [Zotero `P6XWW876`]
+> (Dobová óda na Pražský orloj po opravě 1865/66 — Prokeš ze Sobotky
+> autorem modelu, finální realizace Holub a Hainz.)
+
+> *Fondation de la Haute Horlogerie* — encyklopedické heslo *Roman
+> numeral IIII on dials*. Diskutuje původ aditivní formy IIII, vizuální
+> vyvážení 12hodinového číselníku, řemeslné a typografické důvody.
+> URL: <https://www.hautehorlogerie.org/zh/watches-and-culture/watchmaking-knowledge/encyclopedia/roman-numeral-iiii-on-dials>
+
+> SEIKO MUSEUM — kapitola o číselnících mechanických věžních hodin
+> před 17. stoletím, dokumentující kontinuální užití IIII v hodinářské
+> konvenci; folklorní teorie (Jupiter, Karel V., Ludvík XIV.) uvedeny
+> jako tradice, nikoli jako historicky doložená vysvětlení.
+
+## Související článek
+
+Detailní fotodokumentovaný přehled způsobů osvětlení hodin viz článek
+[Svítící hodiny](/clanky/svitici) — od plynového podsvícení Pražského orloje
+a Big Benu přes vnitřní a vnější reflektory věžních hodin po autohodiny,
+noční budíky a Art Deco lampy.
