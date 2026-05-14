@@ -23,6 +23,7 @@ pribuzne:
 crossRefs:
   clanky:
     - svitici
+    - zidovske
   hodinari:
     - jan-prokes
 ---
@@ -30,6 +31,84 @@ crossRefs:
 ## Výklad
 
 Číselník je **vizuálně nejvýznamnější součást věžních hodin** — pro většinu pozorovatelů je to *jediná* viditelná část (stroj zůstává skryt ve zvonovém patře nebo podkroví). Slouží proto **dvojí funkci**: technické (ukazuje čas) a **architektonicko-dekorativní** (zdůrazňuje význam budovy v rámci sídla, je integrální součástí kompozice věže nebo štítu).
+
+## Číselník jako veřejné rozhraní času
+
+Číselník není **technická součást stroje**, ale **veřejné uživatelské rozhraní** — převádí mechanický pohyb na srozumitelný obraz času. To je jeho první důležitá vlastnost: na věži musí být **čitelný z dálky, zespodu, za šera, v dešti, při stínu** a často z různých úhlů. Tomu odpovídá vizuální styl — velké kontrastní číslice, výrazné dělení na čtvrti, omezené množství textu, zlaté na tmavém nebo černé na světlém poli.
+
+**Číselník nebyl od počátku samozřejmost.** Nejstarší veřejné mechanické hodiny primárně *odbíjely* čas, neukazovaly ho ručičkou — pro městský provoz bylo důležitější **slyšet hodinu** než neustále číst ciferník. Věžní hodiny tak nejsou původně malé hodinky zvětšené na věž, ale **veřejný signální systém**. Číselník se postupně stával vizuálním doplňkem a teprve později samozřejmou součástí veřejných hodin.
+
+**Jedna ručička je starší než dvě.** Mnoho starších věžních hodin mělo pouze **hodinovou ručičku**. Minutová ručička se rozšířila až později — po zlepšení přesnosti hodinových strojů a po společenské poptávce po jemnějším časovém dělení. U starého číselníku proto **absence minutové ručičky není primitivnost**, ale odpovídá jiné kultuře času: důležitá byla hodina, půlhodina, případně čtvrthodina, nikoli přesná minuta. Pro věžní hodiny je dodnes **akustická čtvrť** (odbíjení čtvrťovým bicím strojem) často významnější než vizuální minutové dělení — viz [bicí stroj](/slovnik/bici-stroj) a [čtvrťové bití](/slovnik/ctvrtove-biti).
+
+**Veřejná autorita času.** Věžní hodiny vyjadřují, **kdo má právo určovat veřejný čas**. Na radnici město, na kostele církev, na nádraží dopravní systém, na továrně průmyslový režim práce. Číselník proto **není neutrální** — je to **veřejná norma času**, která říká, podle jakého rytmu má obec žít. Tato městsko-institucionální dimenze vysvětluje, proč v 19. století byla podsvícení Pražského orloje („**Hainz se přimlouval od 1856**", *Zpráva o starobylém orloji*) a Krečmerova **automatizace zapalování plynu** (1866, 1883) tak významné — šlo nejen o pohodlí občanů, ale o městskou reprezentaci modernity.
+
+## Číselník jako astronomický obraz světa
+
+U **astronomických číselníků** přestává být ciferník jen ukazatelem času a stává se **kosmografickým obrazem**. Ukazuje denní dráhu Slunce, znamení zvěrokruhu, fáze Měsíce, horizont, soumrak, kalendář a svátky. Rozdíl je zásadní: *běžný číselník říká **kolik je hodin**, astronomický číselník říká **jak je člověk zasazen do rytmu nebe***.
+
+**Pražský orloj** je vzorovým příkladem této typologie. Pakosta v *STO LET LITOMYŠLSKÉHO ORLOJE 1907–2007* shrnuje:
+
+> „Astronomický ciferník je astroláb poháněný hodinovým strojem orloje.
+> **Znázorňuje geocentrický model vesmíru** s nehybnou Zemí uprostřed,
+> kolem níž obíhá Slunce, Měsíc a znamení zvěrokruhu nebeské sféry."
+> — PAKOSTA. *STO LET LITOMYŠLSKÉHO ORLOJE 1907–2007.* [Zotero `IVSGJLYL`]
+
+Astronomický ciferník Pražského orloje je dokumentován k roku 1410. **Kalendářní deska** (dnes Mánesova z 1865) byla doplněna později, v 15. století. Konstrukce stupnic se opírá o **stereografickou projekci** povrchu nebeské sféry — viz Skála *Nepřesnosti v konstrukci původního astrolábu* (2013, [Zotero `9MSY6PPS`]) a Křížek/Šolc *Astronomické omyly provázející pražský orloj* (2010, [Zotero `HMCFJF6X`]).
+
+**Pražský orloj ručičky a stupnice:**
+- **Pevný střed** — Země; nepohyblivý znak Starého Města pražského do 1648
+- **Otáčejivý prstenec znamení zvěrokruhu** — Mánesovy postavy 1865
+- **Rafije Slunce + Měsíc + hvězdná ručička** s lidskou rukou na konci (viz Pakosta + Křížek *600 let Pražského orloje*, [Zotero `6SIMRV4V`])
+- **Pomocná stupnice s arabskými číslicemi** na vnějším černém prstenci — staročeské 24hodinové dělení
+- **Římské číslice I–XII** na vnitřní stupnici — středoevropský čas
+- **Kalendárium** v dolním ciferníku — 12 obrazů měsíců, cisiojanus
+
+Podobně **Benátská Torre dell'Orologio** má pevný mramorový kruh s římskými hodinami, pohyblivý prstenec se znameními zvěrokruhu, ručičku Slunce a disk Země s Měsícem. Původní pozdně středověká podoba měla dokonce zobrazovat **planety podle ptolemaiovského systému**.
+
+**Olomoucký orloj** představuje paralelní cs typologii — viz Knespl *Chyba planetního číselníku olomouckého orloje* ([Zotero `LRCSJ3KF`]) a komplexní cyklus Knesplových studií *Anaforické hodiny* ([Zotero `KIWB52MD`]), *Giloš* ([Zotero `GNUKXYP8`]), *Pobaltské orloje Wismar Lübeck* ([Zotero `H8ZLR2J2`]).
+
+## Číselník jako kosmologický „čas různého druhu"
+
+Na starých číselnících **„čas" neznamená dnešní rovnoměrný středoevropský čas**. Historicky existovalo více souběžných systémů:
+
+| Systém | Definice | Kde |
+|---|---|---|
+| **Rovnodenné hodiny** | Den dělen na 24 stejně dlouhých hodin | Moderní občanský čas |
+| **Temporální hodiny** | Denní část a noc dělená každá na 12 částí; **délka hodiny kolísá podle ročního období** | Antika, středověk klášterní praxe |
+| **Italské hodiny** | Počítání hodin **od západu Slunce** | Itálie, Středozemí do 18. stol. |
+| **Babylonské hodiny** | Počítání **od východu Slunce** | Astronomie + některé orloje |
+| **Staročeské hodiny** | 24hodinový cyklus, počítaný od **západu Slunce** (kapřížné s italskými) | Čechy do 18. století |
+| **Kanonické hodiny** | Liturgický čas modliteb (matutinum, primae, tercie, sexta, nona, vesper, completorium) | Kláštery, kostely |
+
+**Pražský orloj** historicky používal několik systémů současně — **dvě stupnice na téže ploše** (staročeský 24h + středoevropský 12h). Tj. když vidíte starý ciferník, je dobrá otázka: **jaký čas vlastně zobrazuje?**
+
+Petr Král cituje v článku [*Židovské hodiny z roku 1764*](/clanky/zidovske) další unikum:
+
+## Židovský hebrejský zrcadlový ciferník (Praha, 1764)
+
+Na štítu **Židovské radnice** v Praze (proti Staronové synagoze) se nachází **patrně nejstarší známé hebrejské hodiny na veřejném místě**, možná nejstarší hebrejské hodiny vůbec. Stroj vyrobil **Sebastian Londensperger** (1764), v 90. letech 20. století je restauroval **Petr Skála** (Ateliér věžních hodin).
+
+**Tři zásadní zvláštnosti:**
+
+1. **Číselník s hebrejskými písmeny ve významu číslic** — místo I–XII jsou znaky א (1, alef), ב (2, bet), … יב (12, jod+bet — sečtení 10+2). Hebrejská číselná soustava nemá nulu a hodnota se získává sečtením znaků (analogicky římským).
+2. **Ručičky se otáčejí proti směru hodinových ručiček** — zrcadlově! Odpovídá tomu, že hebrejský text se **čte zprava doleva**. Z hlediska západního pozorovatele „ručička jde pozpátku".
+3. **Menší ručička ukazuje minuty, větší hodiny** — prohozené proti běžnému zvyku.
+
+> „Tak jako se hebrejský text čte zprava doleva, tak se ručičky těchto
+> hodin otáčejí doleva. Trochu nelogicky můžeme prohlásit, že **ručičky
+> se pohybují proti směru hodinových ručiček**. Navíc menší ručička
+> ukazuje minuty, větší pak hodiny. **Koncepce ciferníku je rarita
+> i v židovské kultuře.**"
+> — KRÁL, Petr. *Židovské hodiny z roku 1764.* hodinarium.eu, 2017,
+> upd. 2020. Cross-link: [/clanky/zidovske](/clanky/zidovske).
+
+Stroj v půdě radnice pohání **více ciferníků současně** (štít + věžička) přes komplikované převody — viz [ukazovací stroj](/slovnik/ukazovaci-stroj). Hebrejský ciferník je tak nejen kulturní kuriozita, ale **kompletní inženýrské řešení** zrcadlového převodu z normálního chodu stroje do zpětného chodu jediného ciferníku.
+
+## Číselník jako součást architektury
+
+Věžní ciferník **není jen technický prvek** — je to **součást fasády**, věže, radnice, kostela nebo městské brány. Musí odpovídat měřítku stavby, ose průčelí, barvě omítky, gotickému/renesančnímu/baroknímu/historizujícímu rámu. Dva ciferníky **téhož stroje mohou být různé** — na jedné straně věže reprezentativní ciferník do náměstí, na boční straně jednodušší ciferník do uličky.
+
+### Konstrukční typy číselníku (chronologicky)
 
 **Terminologická poznámka:** dnes je preferovaný cs termín *číselník* (etymologicky z *číslo* + sufix *-ník* — čistě cs neologismus). Forma *ciferník* je archaismus, kalk z německého *Zifferblatt* přes románské *cifra* (původně arabsky *ṣifr* = „nula").
 
@@ -61,7 +140,7 @@ Schéma cifer na barokních číselnících bývá **dvojí** — hodinová stup
 > jen k cifrám I – IIII menšího minutového ciferníku vyznačeného
 > uvnitř ciferníku hodinového."
 
-**Konstrukční typy číselníku** (chronologicky):
+**Konstrukční typy číselníku** dále (chronologicky):
 
 - **Barokní kovaný plechový** (17.–18. století) — kovaný železný rám potažený plechem, ručně malované cifry, ručky tepané ve fantazijních tvarech (trojlístek, lilie, šíp)
 - **Klasicistní litinový/plechový** (1. polovina 19. století) — odlévaný litinový rám nebo válcovaný plech, standardizované římské číslice, jednodušší ručky
@@ -69,6 +148,64 @@ Schéma cifer na barokních číselnících bývá **dvojí** — hodinová stup
 - **Skleněný průsvitný (lit-from-behind)** (od poloviny 19. století) — opálové, matné nebo leptané sklo s vnitřním zdrojem světla. Nejstarší dochované příklady: **Big Ben** (Westminsterské opatství 1854, **312 ks opálového skla**, August Pugin), **Sobotka — Prokešovy radniční hodiny 1860** (viz „Osvětlení číselníku" níže), **Pražský orloj** boční číselníky po opravě **1865/66** (matné sklo, plynové hořáky). Ve 20. století elektrifikace + leptané sklo: textilana Liberec Siemens-Halske 30. léta
 
 **U strojů v interiéru** (radnice, škola) je číselník často **vsazený do atiky** nebo **trojúhelníkového štítu** flankovaného pilastry — typicky kraslická radnice, nebo „segmentový štít" Kristiánov-Liberec (NPÚ MIS 1737276 popisuje **„černý ciferník věžních hodin s bílými rafijemi a číslicemi, obklopený bohatou štukovou ornamentikou s florálními motivy**"). Mechanismus stroje sedí v podkroví, číselník je s ním propojen **kovovým táhlem** (typicky vertikálním nebo lomeným přes vidlici).
+
+## Číselník jako památkový palimpsest
+
+**Starý číselník neznamená automaticky starý stroj** — a starý stroj neznamená původní číselník. Při památkovém výkladu je nutné **rozlišovat různé vrstvy**: stroj, číselník, ručičky, odbíjení, pohon, fasádní rám. Možné kombinace:
+
+| Situace | Příklad |
+|---|---|
+| Středověká věž + novověký stroj + novodobý číselník | Většina cs venkovských kostelů |
+| Gotický stroj + barokní číselník | (vzácné, ale doloženo u kostelních hodin po 1650) |
+| Původní číselník + pozdější minutová ručička | Standardní situace 18. → 19. století |
+| Historizující číselník 19. století napodobující středověk | „Velký Bratrský orloj" stylizace |
+| Elektrifikovaný / synchronizovaný mechanismus za starým číselníkem | Velenice 2009; mnoho radnic po 1950 |
+
+**Číselník je tedy palimpsest** — nese stopy různých epoch. NPÚ Jičín 2016 explicitně konstatuje toto rozlišení: „Stroj zachován, **dožilé jsou pouze ciferníky**." Tj. stroj jednoho stáří, ciferníky jiného. Naopak NPÚ Markvartice (HFFICJDA / J5QHN6HG) pro stroj 1. pol. 19. století říká: „Ciferníky byly **původně pravděpodobně barokního typu**" — pozdější přemalby a opravy zakryly původní barokní schéma.
+
+**„Nepřesnosti" číselníku jsou často záměrné nebo pochopitelné.** Staré číselníky někdy nemají rovnoměrné mezery, přesné typografické proporce nebo dokonale geometrické členění. Nemusí to být chyba — důvody:
+
+- **Ruční výroba** (kovářská kresba bez šablony)
+- **Přizpůsobení architektuře** (asymetrický štít, omezená šířka)
+- **Pozdější opravy a přemalby** (akumulace vrstev)
+- **Změna z jedné časové soustavy na jinou** (staročeské 24h → středoevropské 12h)
+- **Doplnění minutového kruhu** (jemný kroužek nedávně přidaný)
+- **Restaurátorský kompromis** (rekonstrukce neúplných údajů)
+
+## Číselník jako doklad proměny časové kultury
+
+**Minutové dělení je mladší vrstva.** Jemné minutové značky na starém číselníku jsou často **později přidaný doplněk** — dlouho nebylo prakticky nutné, aby věžní hodiny ukazovaly minuty přesně. Veřejný čas byl hrubší.
+
+Zavedení minutové ručičky je kulturně zajímavé: ukazuje **přechod od městského/liturgického rytmu k přesnějšímu, disciplinovanějšímu času** raného novověku a modernity. Jičínský barokní ciferník (NPÚ E8NULF2Z) je archeologickým dokladem této vrstvy:
+
+> „**Hodinová ručka byla větší**, dosahovala ke středům cifer I–XII
+> vyznačeným po obvodu ciferníku, a **menší ručka minutová** dosahovala
+> jen k cifrám I–IIII menšího **minutového ciferníku vyznačeného uvnitř
+> ciferníku hodinového**."
+> — NPÚ. *Návrh na prohlášení Jičín sv. Ignác.* 2016. [Zotero `E8NULF2Z`]
+
+Toto **rozdělení na dva soustředné ciferníky** (vnější hodinový + vnitřní minutový do 4) je barokní řešení — bicí čtvrťový stroj je primární, „minuty" jsou interpolace mezi čtvrtěmi. **Moderní 60minutový vnější kruh** (s plnou stupnicí 0–59) je až produkt pozdního 19. století, kdy se po regulační reformě 1891 přesnost rozšířila na minuty napříč pravidly železniční dopravy.
+
+**Římské vs arabské číslice** mají různé funkce. Římské působí **slavnostně, monumentálně, tradičně** — typicky pro hlavní hodinovou stupnici. Arabské jsou **praktičtější pro minuty, datumy, kalendářní údaje nebo pomocné stupnice**. Pražský orloj kombinuje oboje současně (viz výše) — **číselník jako vícevrstvá informační grafika**.
+
+**Barvy nejsou náhodné.** Zlatá na modré nebo černé je čitelná a reprezentativní současně. **Modrá** u astronomických hodin **evokuje nebe**. **Červená** se používá pro zvýraznění kalendářních údajů, svátků nebo důležitých značek. Na monumentálních hodinách čte barva jako součást **městské ikonografie**.
+
+## Symbolika ručiček
+
+Ručička **není jen ukazatel**. U astronomických hodin může mít podobu:
+
+| Tvar | Význam |
+|---|---|
+| Slunce | Sluneční čas (hlavní rafije Pražského orloje) |
+| Měsíc | Lunární cyklus, fáze |
+| Hvězda | Astronomická / hvězdná stupnice |
+| Drak | Pohyb uzlů (uzlové body měsíční dráhy) |
+| Ruka (rafije s rukou) | Středoevropský čas (Pražský orloj — „rafije s rukou") |
+| Kopí / šíp | Standardní (větší = hodinová) |
+| Trojlístek | Barokní ozdobný (Jičín — „kostry ruček železné tepané ve **tvaru trojlístku**") |
+| Paprsek | Modernizující varianta, často pozlacená |
+
+U běžných věžních hodin bývá **hodinová ručička robustnější a ornamentálnější** než minutová. Někdy má ručička tvar, který **z dálky pomáhá rozeznat**, která je hodinová a která minutová (viz Boženova zásada „diferenciace tvarů ručiček" v sekci níže).
 
 **Současný stav historických číselníků:** často přepalované, opakovaně přemalovávané, ručky zkorodované. NPÚ Jičín konstatuje: „dožilé jsou pouze ciferníky" — tj. stroj zachován, ale číselníky vyžadují restaurátorský zásah. Při restaurování se preferuje **návrat k původnímu schématu** (Hrádek nad Nisou 2006–2018: čtyři číselníky „nově natřeny a opatřeny římskými číslicemi dle původního vzoru").
 
@@ -308,6 +445,33 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 > před 17. stoletím, dokumentující kontinuální užití IIII v hodinářské
 > konvenci; folklorní teorie (Jupiter, Karel V., Ludvík XIV.) uvedeny
 > jako tradice, nikoli jako historicky doložená vysvětlení.
+
+> KRÁL, Petr. *Židovské hodiny z roku 1764.* hodinarium.eu, 2017,
+> upd. 2020. Cross-link: [/clanky/zidovske](/clanky/zidovske).
+> (Stroj Sebastian Londensperger 1764, restaurace Petr Skála 90. léta —
+> patrně nejstarší hebrejské hodiny na veřejném místě. Zrcadlový chod
+> ručiček odpovídá hebrejskému čtení zprava doleva.)
+
+> PAKOSTA, F. *STO LET LITOMYŠLSKÉHO ORLOJE 1907–2007.* [Zotero `IVSGJLYL`]
+> (Astronomický ciferník jako geocentrický model — paralelní k pražskému
+> orloji, kalendářní deska a struktura astronomického číselníku.)
+
+> SKÁLA, Petr. *Nepřesnosti v konstrukci původního astrolábu staroměstského
+> orloje.* 2013. [Zotero `9MSY6PPS`]
+> (Detailní matematická analýza stereografické projekce na číselníku
+> Pražského orloje — proč astrolábské stupnice nejsou geometricky
+> dokonalé.)
+
+> KŘÍŽEK, M., KŘÍŽEK, P., ŠOLC, J. *Astronomické omyly provázející pražský
+> orloj.* 2010. [Zotero `HMCFJF6X`]
+> (Komentář k astronomickým interpretacím orloje.)
+
+> KŘÍŽEK, M. *600 let Pražského orloje.* 2009. [Zotero `6SIMRV4V`]
+> (Souhrn architektonického vývoje + rafije Slunce + Měsíc + kalendárium.)
+
+> KNESPL, David. *Chyba planetního číselníku olomouckého orloje.* 2021.
+> [Zotero `LRCSJ3KF`]
+> (Paralelní cs astronomický číselník + jeho konstrukční chyba.)
 
 ## Související článek
 
