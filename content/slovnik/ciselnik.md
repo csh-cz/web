@@ -279,6 +279,20 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 > (Doslovný zdroj autorství podsvícení = **Ludvík Hainz**, navrhoval
 > od 1856, realizoval 1865.)
 
+> „Roku 1864 vystavil sobotecký hodinář Jan Prokeš veřejně na
+> podívanou vzor hodin Staroměstských, nabízeje se ochotně ku správě
+> orloje. Tím upozorněni byli Pražané na svou vzácnou památku
+> a oprava vnitřního ústrojí orloje provedena jest hodinářem
+> Ludvíkem Hainzem … kardinál arcibiskup kníže ze Schwarzenberka
+> [posvětil] nový i starý stroj orloje, jenž pak o půlnoci na rozhraní
+> roku 1865 a 1866 byl spuštěn."
+> — *Staroměstský orloj v Praze.* Čech: politický týdenník katolický,
+> roč. 18, č. 51 (4. 3. 1886) a č. 53 (6. 3. 1886). [Zotero `I2QY5HH8`]
+> (Dobový primární doklad o tom, že **Prokeš ze Sobotky model
+> vystavil, zakázku ale nezískal — opravu i podsvícení realizoval
+> Hainz** 1865/66. PDF stažen z Kramerius MZK 2026-05-14, public
+> domain.)
+
 > KREČMER, V. *O plynovém automatu na hodinách na staroměstské vodárně.*
 > Národní listy, roč. 23, č. 23, 27. 1. 1883, s. 3. [Zotero `52Z2ZSUR`]
 > (Krečmerova přednáška o vodárenském efemeridním automatu 1883;
