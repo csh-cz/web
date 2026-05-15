@@ -315,7 +315,7 @@ Ručička **není jen ukazatel**. U astronomických hodin může mít podobu:
 | Trojlístek | Barokní ozdobný (Jičín — „kostry ruček železné tepané ve **tvaru trojlístku**") |
 | Paprsek | Modernizující varianta, často pozlacená |
 
-U běžných věžních hodin bývá **hodinová ručička robustnější a ornamentálnější** než minutová. Někdy má ručička tvar, který **z dálky pomáhá rozeznat**, která je hodinová a která minutová (viz Boženova zásada „diferenciace tvarů ručiček" v sekci níže).
+U běžných věžních hodin bývá **hodinová ručička robustnější a ornamentálnější** než minutová. Někdy má ručička tvar, který **z dálky pomáhá rozeznat**, která je hodinová a která minutová (viz Božkova zásada „diferenciace tvarů ručiček" v sekci níže).
 
 **Současný stav historických číselníků:** často přepalované, opakovaně přemalovávané, ručky zkorodované. NPÚ Jičín konstatuje: „dožilé jsou pouze ciferníky" — tj. stroj zachován, ale číselníky vyžadují restaurátorský zásah. Při restaurování se preferuje **návrat k původnímu schématu** (Hrádek nad Nisou 2006–2018: čtyři číselníky „nově natřeny a opatřeny římskými číslicemi dle původního vzoru").
 
