@@ -14,6 +14,7 @@ import { formatCite, getRef } from '../../utils/cite';
 import WipBanner from '../../components/WipBanner.astro';
 import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
 import CrossRefs from '../../components/CrossRefs.astro';
+import { CSH_CONTENT_COMPONENTS } from '../../utils/content-components';
 
 import type { CatalogEntry } from '../../data/catalog-types';
 
@@ -233,7 +234,7 @@ const personJsonLd = hodinar.typ === 'osoba'
       )}
 
       {hasFull && Content && (
-        <Content />
+        <Content components={CSH_CONTENT_COMPONENTS} />
       )}
 
       {/* Veřejná „profil je stub" hláška: pokud MDX neexistuje,
