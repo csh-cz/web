@@ -2,7 +2,7 @@
   "_meta": {
     "comment": "Řízeně rozšiřovatelný whitelist tagů pro články. Sloučení všech polí (kromě _meta) se používá v Zod refine validaci v content.config.ts. Nový tag = PR commit s update tohoto souboru. Bez whitelistu by se tagy množily nekonzistentně (atomovky / atomické / atomic).",
     "version": 3,
-    "updated": "2026-05-04"
+    "updated": "2026-05-16"
   },
   "typ": [
     "vezni",
@@ -88,12 +88,13 @@
     "svet"
   ],
   "kontext": [
-    "kuriozita",
-    "tematicka-vystava",
     "akvizice",
+    "diy",
     "historie-spolku",
+    "kuriozita",
     "popularizace",
-    "diy"
+    "prazsky-orloj",
+    "tematicka-vystava"
   ],
   "umisteni": [
     "hlavni-sal",
