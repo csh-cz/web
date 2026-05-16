@@ -48,7 +48,7 @@ Spolek se schází **jednou měsíčně, mimo letní prázdniny** (červenec a s
     Vytvoření 1. varianty webu orloj.eu** u příležitosti 600. výročí sestrojení Pražského orloje
 - **2010** **Aktivní účast na seminářích k výročí Pražského orloje
     Rozšíření počtu členů spolku
-    Vznik Věžního muzejíčka v Soběslavi Základem bylo “objevení” [starého soběslavského stroje](/clanky/vez1) v roce 2009
+    Vznik Věžního muzejíčka v Soběslavi Základem bylo “objevení” [starého soběslavského stroje](https://hodinarium-eu.pages.dev/kronika/vez1) v roce 2009
     Výlet do Glashütte**
 - **2014** **Rozšíření expozice Věžního muzejíčka o hodiny elektrické
     Účast na odhalení pomníku Mikuláše z Kadaně – Kadaň
@@ -112,4 +112,4 @@ Spolek se schází **jednou měsíčně, mimo letní prázdniny** (červenec a s
 
 **Poznámka na okraj:** **Připomeňme jen, že Český spolek horologický vznikl zásadní proměnou ze **Shluku přátel kuriózních hodin**, který nebral svou existenci až tak vážně. Konečně tedy nastala doba, kdy můžeme " i psát zápisy z valných hromad a výborových sezení". Již na první valné hromadě jsme konstatovali, že účastníci jsou řádně sešlí a snášení schopní (ze schodů).;**
 
-**Připomeňme si, že Shluk přátel kuriózních hodin byla neoficiální organizace, která jako tři sudičky stála ve dvou zástupech u zrodu tohoto serveru. Shluk byl jakýmsi tahounem naší činnosti. (Viz obrázek). Za jeho čelního postavení bylo učiněno několik epochálních vynálezů. Jmenujme alespoň [římské digitálky](/clanky/rimskedigi). Sdružení bylo založeno také proto aby se k nám oficiální místa již neobracela svými oficiálními zády. To bylo tenkrát.....**
+**Připomeňme si, že Shluk přátel kuriózních hodin byla neoficiální organizace, která jako tři sudičky stála ve dvou zástupech u zrodu tohoto serveru. Shluk byl jakýmsi tahounem naší činnosti. (Viz obrázek). Za jeho čelního postavení bylo učiněno několik epochálních vynálezů. Jmenujme alespoň [římské digitálky](https://hodinarium-eu.pages.dev/clanky/rimskedigi). Sdružení bylo založeno také proto aby se k nám oficiální místa již neobracela svými oficiálními zády. To bylo tenkrát.....**
