@@ -26,7 +26,7 @@ scrapedAt: "2026-04-27T17:36:33.395Z"
 
 ## V sezóně 2011 je ve věži vystaveno:
 
-- **[Starý kovaný věžní stroj](/clanky/vez1) se základem patrně z r. 1484**, pozdější samostatný stroj pro [čtvrťové bití](/slovnik/ctvrtove-biti), ručičkové převody, bicí kladiva a kamenná závaží.
+- **[Starý kovaný věžní stroj](/kronika/vez1) se základem patrně z r. 1484**, pozdější samostatný stroj pro [čtvrťové bití](/slovnik/ctvrtove-biti), ručičkové převody, bicí kladiva a kamenná závaží.
 
 > Hlavní a nejzajímavější exponát, který pochází z doby legendárního "[mistra Hanuše](http://www.orloj.eu/cs/mistr_hanus.htm)", dříve považovaného za autora Pražského orloje.
 

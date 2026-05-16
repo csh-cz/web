@@ -24,7 +24,7 @@ V moderní hodinářské češtině se používá **buben** nebo **válec hnací
 
 ## Příbuzné termíny
 
-[rumpal](/slovnik/rumpal), [vaha](/slovnik/vaha)
+[rumpal](/slovnik/rumpal), [vaha](/slovnik/vaha-orloje)
 
 ## Obrázky
 

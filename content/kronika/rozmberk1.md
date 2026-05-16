@@ -22,4 +22,4 @@ scrapedAt: 2026-04-27T17:36:35.941Z
 
 **Z**dá se tedy, že by Věžní muzejíčko mělo co nabídnout i Petru Vokovi, pokud by je navštíviti ráčil. I vy budete mít možnost přesvědčit se, co pro Vás Věžní muzejíčko v nadcházející sezóně připravilo. Kromě již známé expozice, jejímž základem je restaurovaný stroj věžních hodin se základem z 15. století uvidíte ...... Ale to se přijďte podívat sami. Věžní muzejíčko bude otevřeno v červenci a v srpnu.
 
-Podrobnější článek [**PETR VOK Z ROŽMBERKA – MECENÁŠ A SBĚRATEL**](/clanky/rozmberk2)
+Podrobnější článek [**PETR VOK Z ROŽMBERKA – MECENÁŠ A SBĚRATEL**](/kronika/rozmberk2)

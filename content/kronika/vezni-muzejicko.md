@@ -10,7 +10,7 @@ lastModified: "Sat, 18 Jul 2020 10:44:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:32.117Z"
 ---
-**Český spolek horologický nyní buduje [Hodinárium na zámku Děčín](/clanky/decin_koncepce). Přesun hodinářské expozice byl vyvolán postojem soběslavské radnice. Nová expozice tak sice přišla o [nejstarší exponát,](/clanky/vez1) získala však mnohem větší prostory a podporu vedení zámku. Následující text a ilustrující fotografie berte jako vzpomínku na několikaleté působení spolku na věži. I po odsunu hodinářské technologie na věži zůstává [starý soběslavský stroj](/clanky/vez1) a zvonařská část. Stojí za to věž navštívit.**
+**Český spolek horologický nyní buduje [Hodinárium na zámku Děčín](/o-hodinariu). Přesun hodinářské expozice byl vyvolán postojem soběslavské radnice. Nová expozice tak sice přišla o [nejstarší exponát,](/kronika/vez1) získala však mnohem větší prostory a podporu vedení zámku. Následující text a ilustrující fotografie berte jako vzpomínku na několikaleté působení spolku na věži. I po odsunu hodinářské technologie na věži zůstává [starý soběslavský stroj](/kronika/vez1) a zvonařská část. Stojí za to věž navštívit.**
 
 ![Fotografie 10](/img/vez/28_11_2010/foto_010.jpg)
 
@@ -27,7 +27,7 @@ scrapedAt: "2026-04-27T17:36:32.117Z"
 **A**ť přicházíme, přijíždíme či připlouváme do Soběslavi odkudkoliv vždy nás zdaleka přivítá významný symbol zdejšího kraje - soběslavská věž. Její vysoké (68 m) štíhlé tělo ční nad okolní terén tak, aby celé údolí bylo z ochozu jako na dlani. Patří mezi nejstarší a nejzajímavější stavby Soběslavi. Již od svého vzniku byla pozorovatelnou, strážním místem, malou pevností, zvonicí a také městskou klenotnicí. Již roku 1484 na ní byly zřízeny hodiny. ...
 (Volně podle knihy Petra Lintnera - Pohledy soběslavské.)
 
-**V**ěž byla tedy místem pro uložení pokladů. Díky členům [Českého spolku horologického](/clanky/spolek) také nějakou dobu byla **Věžním muzejíčkem**, které ukrývalo mnohé historické poklady. Muzejíčko začínalo v prvním patře v klenuté místnosti bývalé městské klenotnice nad kaplí sv. Jana Křtitele a pokračovalo směrem vzhůru. Expozice Věžního muzejíčko doprovázela 168 schodů výstupové trasy na ochoz věže. Přístup na věž provozuje **Aeroklub Soběslav**.
+**V**ěž byla tedy místem pro uložení pokladů. Díky členům [Českého spolku horologického](https://horologie.cz/clanky/spolek) také nějakou dobu byla **Věžním muzejíčkem**, které ukrývalo mnohé historické poklady. Muzejíčko začínalo v prvním patře v klenuté místnosti bývalé městské klenotnice nad kaplí sv. Jana Křtitele a pokračovalo směrem vzhůru. Expozice Věžního muzejíčko doprovázela 168 schodů výstupové trasy na ochoz věže. Přístup na věž provozuje **Aeroklub Soběslav**.
 
 [![klenotnice](/img/vez/expozice/expozice2011.jpg)](/img/vez/expozice/expozice2011.jpg)
 
@@ -35,13 +35,13 @@ Virtuálně si můžete město prohlédnout [zde](http://www.istudio.cz/sobeslav
 
 ## Starý soběslavský stroj
 
-Nález starého **[stroje kovaných soběslavských věžních hodin](/clanky/vez1)** a jeho restaurování byl hlavním impulzem pro vznik Věžního muzejíčka, a to se ještě nevědělo, že je to stroj tak vzácný. Jeho **některé části patrně pocházejí již z 15. století**. Město Soběslav zaplatilo restaurování stroje a upravilo místnost klenotnice pro jeho vystavení. Vznikl tak základ hodinářské expozice. Další exponáty zapůjčili další instituce a členové sdružení. Po opuštění věže naším spolkem zůstal starý stroj s asi o dvě stě let mladším čtvrťovým zvonícím strojem hlavním vystaveným exponátem. V klenotnici zůstaly také tři dochované rafie, závaží a několik drobností. Gotická skříň částečně zobrazená na levé fotografii byla přemístěna do místního muzea.
+Nález starého **[stroje kovaných soběslavských věžních hodin](/kronika/vez1)** a jeho restaurování byl hlavním impulzem pro vznik Věžního muzejíčka, a to se ještě nevědělo, že je to stroj tak vzácný. Jeho **některé části patrně pocházejí již z 15. století**. Město Soběslav zaplatilo restaurování stroje a upravilo místnost klenotnice pro jeho vystavení. Vznikl tak základ hodinářské expozice. Další exponáty zapůjčili další instituce a členové sdružení. Po opuštění věže naším spolkem zůstal starý stroj s asi o dvě stě let mladším čtvrťovým zvonícím strojem hlavním vystaveným exponátem. V klenotnici zůstaly také tři dochované rafie, závaží a několik drobností. Gotická skříň částečně zobrazená na levé fotografii byla přemístěna do místního muzea.
 
 ![cimbál Býchory](/img/vez/bychory/f/velky_cimbal.jpg)
 
 I v mnoha jiných muzeích jsou vystaveny věžní hodiny. Tím je ovšem většinou míněn pouze hlavní stroj. Trochu se zapomíná na to, že více koleček věžních hodin je až v rozvodovce (obvykle na 4 strany věže) a v převodech ciferníků. V klenotnici najdete proto i rozvodové tyče a ručičkové převody.
 
-Muzejíčko se nezaměřovalo jen na hodiny "seriózní", ale zajímalo se také o hodiny, které jsou spíše artefaktem, případně jsou nějakým způsobem zvláštní - kuriózní. Byly zde i krátkodobější drobné tematické výstavy, které představily buď určitý typ hodin, způsob výroby, produkci firmy, značky. Věžní muzejíčko Soběslav tak bylo spíše galerií i když vystavovalo historické exponáty. V expozicích byla i soudobá díla hodinářská i "hodinařinou" inspirovaná. Například [steampunkové šperky z hodinových součástek](/clanky/steampunk), či "bláznivá" dílka jako jsou [sluneční polarizační hodiny](/sbirka/slunecni-polarizacni) provedené ve stylu stempunkové pistole.
+Muzejíčko se nezaměřovalo jen na hodiny "seriózní", ale zajímalo se také o hodiny, které jsou spíše artefaktem, případně jsou nějakým způsobem zvláštní - kuriózní. Byly zde i krátkodobější drobné tematické výstavy, které představily buď určitý typ hodin, způsob výroby, produkci firmy, značky. Věžní muzejíčko Soběslav tak bylo spíše galerií i když vystavovalo historické exponáty. V expozicích byla i soudobá díla hodinářská i "hodinařinou" inspirovaná. Například [steampunkové šperky z hodinových součástek](/kronika/steampunk), či "bláznivá" dílka jako jsou [sluneční polarizační hodiny](/sbirka/slunecni-polarizacni) provedené ve stylu stempunkové pistole.
 
 Nesmíme zapomínat ani na [stroj Elektročas z roku 1959](/sbirka/vez-elektrocas1959), který dosud řídí ručičky věže. I on je historickým exponátem, právě tak jako rumpál na úrovni ochozu věže.
 

@@ -9,7 +9,7 @@ definice: "Astronomický ciferník / nebeský kotouč orloje s indikátory slunc
 pribuzne:
   - okolek
   - pukla
-  - pravidlo
+  - pravidlo-orloje
   - zodiak
 isStub: true
 references:
@@ -26,7 +26,7 @@ Z latinského *sphaera* ("koule, nebe"); v 16. století běžně psané s grafé
 
 ## Příbuzné termíny
 
-[okolek](/slovnik/okolek), [pukla](/slovnik/pukla), [pravidlo](/slovnik/pravidlo), [zodiak](/slovnik/zodiak)
+[okolek](/slovnik/okolek), [pukla](/slovnik/pukla), [pravidlo](/slovnik/pravidlo-orloje), [zodiak](/slovnik/zodiak)
 
 ## Obrázky
 

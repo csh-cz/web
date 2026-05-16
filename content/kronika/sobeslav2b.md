@@ -157,4 +157,4 @@ chronologický výpis z archivních dokumentů a hypotézy vzniku
 
 Podle archivních výpisů sestavil Petr Lintner
 
-Pokračujte **[Od historie k hypotézám](/clanky/sobeslav2c)**
+Pokračujte **[Od historie k hypotézám](/kronika/sobeslav2c)**
