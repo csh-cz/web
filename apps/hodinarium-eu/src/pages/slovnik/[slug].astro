@@ -31,6 +31,9 @@ const pribuzneEntries = (data.pribuzne ?? [])
   .map((s) => slovnikBySlug.get(s))
   .filter((e): e is NonNullable<typeof e> => Boolean(e));
 
+// Resolve redirectTo target (alias/synonym entries)
+const redirectTarget = data.redirectTo ? slovnikBySlug.get(data.redirectTo) : null;
+
 const KATEGORIE_LABEL: Record<string, string> = {
   mechanika: 'Mechanika času',
   bici: 'Bicí mechanismy',
@@ -80,6 +83,16 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
 
       {data.definice && (
         <p class="slovnik-definice-lead" set:html={tinyMarkdown(data.definice).replace(/^<p>|<\/p>$/g, '')}></p>
+      )}
+
+      {redirectTarget && (
+        <aside class="slovnik-redirect-banner" role="note" aria-label="Přesměrování">
+          <span class="redirect-arrow" aria-hidden="true">→</span>
+          <span class="redirect-label">Viz hlavní heslo:</span>
+          <a href={`/slovnik/${redirectTarget.data.slug}`} class="redirect-target">
+            <strong>{redirectTarget.data.title}</strong>
+          </a>
+        </aside>
       )}
     </header>
 
@@ -324,6 +337,37 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
     line-height: 1.55;
     color: var(--color-text);
     margin: 0;
+  }
+
+  /* Přesměrovací banner (alias / synonym heslá) */
+  .slovnik-redirect-banner {
+    margin: 1.25rem 0 0;
+    padding: 0.85rem 1.1rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.65rem;
+    flex-wrap: wrap;
+    background: color-mix(in srgb, var(--color-brass) 8%, transparent);
+    border-left: 3px solid var(--color-brass);
+    border-radius: 0 3px 3px 0;
+  }
+  .slovnik-redirect-banner .redirect-arrow {
+    font-size: 1.4rem;
+    line-height: 1;
+    color: var(--color-brass);
+    font-weight: 600;
+  }
+  .slovnik-redirect-banner .redirect-label {
+    color: color-mix(in srgb, var(--color-text) 75%, transparent);
+    font-style: italic;
+  }
+  .slovnik-redirect-banner .redirect-target {
+    color: var(--color-brass);
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  .slovnik-redirect-banner .redirect-target:hover {
+    text-decoration: underline;
   }
 
   /* Překlady tabulka */

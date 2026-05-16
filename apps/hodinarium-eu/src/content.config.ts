@@ -739,6 +739,15 @@ const slovnik = defineCollection({
     /** True = heslo je stub — výklad v MDX body čeká na doplnění. */
     isStub: z.boolean().optional(),
 
+    /**
+     * Slug cílového hesla, na které se přesměrovává.
+     * Pokud je vyplněn, jde o **přesměrovací heslo** (alias / synonym) —
+     * např. `cifernik` přesměrovává na `ciselnik`. Tělo MDX může obsahovat
+     * krátké vysvětlení proč (terminologický posun, archaismus, …).
+     * Renderování zobrazí banner „→ Viz [cílové heslo]" před body.
+     */
+    redirectTo: z.string().optional(),
+
     /** Editorské poznámky (TODO, varování o nejistotě). */
     editorNotes: z.array(editorNote).optional(),
 
