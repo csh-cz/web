@@ -252,7 +252,7 @@
 
     resultsEl.innerHTML = '';
     for (const { key, item } of matches.slice(0, 30)) {
-      const yr = item.issued?.['date-parts']?.[0]?.[0] || '';
+      // const yr = item.issued?.['date-parts']?.[0]?.[0] || ''; // unused — removed
       const div = document.createElement('div');
       div.className = 'csh-cite-result';
       div.dataset.bibkey = key;

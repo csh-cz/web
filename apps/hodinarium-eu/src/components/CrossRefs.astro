@@ -53,7 +53,7 @@ interface Props {
   showReverse?: boolean;
 }
 
-const { refs, selfType, selfSlug, showReverse = true } = Astro.props;
+const { refs, selfType, selfSlug, showReverse = true } = Astro.props as Props;
 
 // Reverse refs pro tento entry (pokud existují)
 const reverseForThis = (reverseMap as Record<string, Record<string, Record<string, string[]>>>)[selfType]?.[selfSlug] ?? {};

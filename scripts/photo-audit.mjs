@@ -73,6 +73,9 @@ const references = {
   frontmatterHero: [],    // hero: { src, alt, caption, credit }
   frontmatterObrazek: [], // obrazek: { src, alt, caption, credit }
   frontmatterOg: [],      // ogImage, thumbnail
+  directivePhoto: [],     // ::photo{src="..."}
+  astroSrc: [],           // <img src="/img/..."> v Astro pages / komponentách
+  cssBackground: [],      // url(/img/...) v <style>
 };
 
 function listMarkdownFiles(dir) {
@@ -99,6 +102,11 @@ const contentFiles = listMarkdownFiles(contentDir);
 
 const INLINE_IMG_RE = /!\[([^\]]*)\]\((\/img\/[^)\s]+)(?:\s+"([^"]*)")?\)/g;
 const FOTO_BLOCK_START = /^foto:\s*$/m;
+// ::photo{src="..." alt="..."} direktiva (markdown-directives plugin)
+const PHOTO_DIRECTIVE_RE = /::photo\{[^}]*src=["'](\/img\/[^"']+)["']/g;
+// `src="/img/..."` v Astro pages / komponentách + CSS background-image
+const SRC_ATTR_RE = /\bsrc=["'](\/img\/[^"']+)["']/g;
+const CSS_BG_RE = /url\(['"]?(\/img\/[^)'"\s]+)['"]?\)/g;
 
 function splitFrontmatter(content) {
   if (!content.startsWith('---\n')) return { fm: null, body: content };
@@ -125,6 +133,15 @@ for (const file of contentFiles) {
       alt: m[1],
       src: m[2],
       title: m[3] ?? null,
+    });
+  }
+
+  // 2.a.2 — ::photo{src="..."} direktivy
+  PHOTO_DIRECTIVE_RE.lastIndex = 0;
+  while ((m = PHOTO_DIRECTIVE_RE.exec(body)) !== null) {
+    references.directivePhoto.push({
+      file: relFile,
+      src: m[1],
     });
   }
 
@@ -201,6 +218,54 @@ for (const file of contentFiles) {
 }
 
 // =====================================================================
+// 2.5. Glob Astro pages / komponent — `src="/img/..."` + CSS background-image
+// =====================================================================
+
+function listAstroFiles(dir) {
+  const results = [];
+  let entries;
+  try {
+    entries = readdirSync(dir, { withFileTypes: true });
+  } catch {
+    return results;
+  }
+  for (const e of entries) {
+    const full = join(dir, e.name);
+    if (e.isDirectory()) {
+      if (e.name === 'node_modules' || e.name === 'dist' || e.name === '.astro') continue;
+      results.push(...listAstroFiles(full));
+    } else if (e.isFile() && (e.name.endsWith('.astro') || e.name.endsWith('.tsx') || e.name.endsWith('.jsx'))) {
+      results.push(full);
+    }
+  }
+  return results;
+}
+
+const astroFiles = [
+  ...listAstroFiles(join(REPO_ROOT, 'apps/hodinarium-eu/src')),
+  ...listAstroFiles(join(REPO_ROOT, 'apps/horologie-cz/src')),
+];
+
+for (const file of astroFiles) {
+  let text;
+  try { text = readFileSync(file, 'utf-8'); } catch { continue; }
+  const relFile = relative(REPO_ROOT, file);
+
+  // Strip JSDoc-style /** ... */ blocks (often obsahují @example s placeholder src)
+  const codeOnly = text.replace(/\/\*\*[\s\S]*?\*\//g, '');
+
+  SRC_ATTR_RE.lastIndex = 0;
+  let m;
+  while ((m = SRC_ATTR_RE.exec(codeOnly)) !== null) {
+    references.astroSrc.push({ file: relFile, src: m[1] });
+  }
+  CSS_BG_RE.lastIndex = 0;
+  while ((m = CSS_BG_RE.exec(codeOnly)) !== null) {
+    references.cssBackground.push({ file: relFile, src: m[1] });
+  }
+}
+
+// =====================================================================
 // 3. Cross-correlate — který image je referencován kde, který má credit
 // =====================================================================
 
@@ -211,6 +276,9 @@ const allRefs = [
   ...references.frontmatterHero.map((r) => ({ ...r, _type: 'fm-hero', _hasCredit: !!r.credit })),
   ...references.frontmatterObrazek.map((r) => ({ ...r, _type: 'fm-obrazek', _hasCredit: !!r.credit })),
   ...references.frontmatterOg.map((r) => ({ ...r, _type: 'fm-og-thumb', _hasCredit: false })),
+  ...references.directivePhoto.map((r) => ({ ...r, _type: 'directive-photo', _hasCredit: true })),
+  ...references.astroSrc.map((r) => ({ ...r, _type: 'astro-src', _hasCredit: false })),
+  ...references.cssBackground.map((r) => ({ ...r, _type: 'css-bg', _hasCredit: false })),
 ];
 
 // Decode URL-encoded paths (some markdown uses %20 for space)
