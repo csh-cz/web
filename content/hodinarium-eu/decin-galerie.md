@@ -77,7 +77,7 @@ v Casablance.
 V průběhu roku **2015** proběhly v galerii dvě tématické výstavy:
 
 - [Miniatury ve tvaru kostky](/clanky/kostky) — soubor MUDr. Adama
-- [Nonsens](/clanky/nonsens2015) — díla různých autorů (prodlouženo na neurčito)
+- [Nonsens](/kronika/nonsens2015) — díla různých autorů (prodlouženo na neurčito)
 
 Pro sezónu **2017** byly zapůjčeny plastiky z [kovářství Gibbus](http://gibbus.cz).
 

@@ -1,0 +1,41 @@
+---
+title: "Elektronický (mikroprocesorový) krok"
+slug: "elektronicky-mikroprocesorovy-krok"
+perex: |
+  Moderní ekvivalent mechanického [kroku](/slovnik/krok) — místo mechanického oscilátoru a paletek řídí pohyb ručky **elektronický mikroprocesor**, který v daný okamžik vydá impulz krokovému motoru. Reference signálu obvykle krystalový oscilátor (32 768 Hz), GPS, DCF77 nebo NTP server přes Internet. Použito v moderních věžních hodinách (např. konstruce ESP8266/Arduino projekty popsané v Hodináriu Děčín), v jednotném časem (matěřní hodiny → podružné), v náramkových hodinkách s krokem.
+workflow:
+  status: todo
+  notes: "Stub. K rozšíření o detail typů (PWM, plně elektronický vs hybridní s mechanickým motorem), foto."
+editorNotes:
+  - level: info
+    text: "Heslo vzniklo jako vyplnění broken internal links 16. května 2026 v rámci sanitace."
+---
+
+## Stručně
+
+Elektronický mikroprocesorový krok je **moderní funkční ekvivalent mechanického kroku**. Místo mechanického oscilátoru (kyvadlo, setrvačka) a paletek, mikroprocesor:
+1. Měří čas z **přesné reference** (krystal, GPS, NTP, DCF77)
+2. V daný okamžik vyšle elektrický **impulz krokovému motoru**
+3. Motor otočí o pevný úhel — typicky se 1×/minutu nebo 1×/sekundu krok
+
+## Typy elektronických krokových systémů
+
+- **Quartz** s lokálním krystalovým oscilátorem (typické náramkové hodinky, autonomní krokové motory v levných nástěnných hodinách)
+- **DCF77** — synchronizace časem ze stanice DCF77 v Mainflingen (Německo, 77,5 kHz)
+- **GPS / GNSS** — synchronizace satelitním časem (přesnost ±100 ns)
+- **NTP přes Wi-Fi** — synchronizace přes Internet NTP server (přesnost ±10 ms)
+- **Pulsní z mistr hodin** — moderní equivalent jednotného času (sběrnice DCF, BCD, IRIG-B)
+
+## Konstrukce v Hodináriu Děčín
+
+V Hodináriu jsou demonstrované **vlastní DIY projekty** moderní elektronické kroky:
+- [Hlavní NTP hodiny ESP8266 (NTPimpulzer)](/clanky/arduino) — pro tří- a dvoudrátový impulzní rozvod
+- [Hlavní NTP hodiny pro třídrátový IBM rozvod](/clanky/arduino-ibm)
+- [GPS synchronizované hodiny Sakul](/clanky/gps-sakul)
+- [Astronomické hodiny z čínské stavebnice (Astro2 + NTP)](/clanky/astro2-ntp)
+
+## Související
+
+- [krok](/slovnik/krok) — slovník (obecný pojem)
+- [Hippův přerušovač](/kroky/hippuv-prerusovac) — historický elektromagnetický předchůdce
+- [Arduino NTPimpulzer](/clanky/arduino) — DIY projekt Hodinária

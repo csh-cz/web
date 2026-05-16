@@ -12,7 +12,7 @@ scrapedAt: "2026-04-27T17:36:36.800Z"
 ---
 Kapitola z již zmíněné knihy **POHLEDY SOBĚSLAVSKÉ Petra Lintnera** (vydalo Město Soběslav v roce 2009) Převzato beze změn se souhlasem autora.
 
-Trochu jiný pohled najdete na stránce **[Historie věžních hodin v Soběslavi, chronologický výpis z archivních dokumentů a dvě hypotézy](/clanky/sobeslav2b)**.
+Trochu jiný pohled najdete na stránce **[Historie věžních hodin v Soběslavi, chronologický výpis z archivních dokumentů a dvě hypotézy](/kronika/sobeslav2b)**.
 
 ## Po stopách času
 

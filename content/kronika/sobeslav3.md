@@ -24,7 +24,7 @@ Nalezené součásti byly nejprve rozneseny po místnosti. Vybrány byly části
 
 **N**ávrh byl schválen a díky restaurátorskému ateliéru manželů Skálových můžete i vy vidět sestavený stroj ve Věžním muzejíčku.
 
-[Fotografie z výstavy](/clanky/vez1) v roce 2010 také najdete na našich stránkách.
+[Fotografie z výstavy](/kronika/vez1) v roce 2010 také najdete na našich stránkách.
 
 ## Zatím ještě špinavý pták Fénix vstává z popela
 

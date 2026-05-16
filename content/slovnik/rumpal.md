@@ -24,7 +24,7 @@ Slovo zachováno do dnes ve smyslu *navijádlo*, *naviják* (vč. lodního). V h
 
 ## Příbuzné termíny
 
-[val](/slovnik/val), [vaha](/slovnik/vaha)
+[val](/slovnik/val), [vaha](/slovnik/vaha-orloje)
 
 ## Obrázky
 
