@@ -318,12 +318,6 @@
     // První načtení — počkej na editor mode hydration (může chvíli trvat).
     // Použijeme polling — pokud body[data-editor-mode] není set do 5 s,
     // ukážeme login prompt.
-    function tryLoad() {
-      if (document.body.hasAttribute('data-editor-mode')) {
-        loadReports();
-      }
-    }
-
     // Initial check + retry after hydration
     if (document.body.hasAttribute('data-editor-mode')) {
       loadReports();
