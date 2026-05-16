@@ -27,6 +27,9 @@
  * aby šly výchozí styly článku použít. Pokud není class, [slug].astro
  * skript přidá auto-classifikaci.
  */
+import { existsSync } from 'node:fs';
+import { resolve } from 'node:path';
+import exifr from 'exifr';
 import imageSizes from '../data/image-sizes.json';
 
 interface ImageSizeEntry {
@@ -51,13 +54,126 @@ const {
   src,
   alt,
   class: imgClass,
-  author,
-  authorUrl,
-  license,
-  licenseUrl,
-  sourceUrl,
-  year,
+  author: propAuthor,
+  authorUrl: propAuthorUrl,
+  license: propLicense,
+  licenseUrl: propLicenseUrl,
+  sourceUrl: propSourceUrl,
+  year: propYear,
 } = Astro.props;
+
+/**
+ * Build-time auto-read XMP/IPTC metadata z `public/img/...` souboru.
+ *
+ * Fallback chain: MDX prop > XMP field > undefined.
+ *
+ * Pokud soubor nemá XMP (žádné exifr metadata), fallback pouze na MDX props.
+ * Pokud exifr selže (neformální PDF/image), tichý fallback.
+ *
+ * XMP fields čteme:
+ *   - XMP-dc:Creator           → author
+ *   - XMP-dc:Rights / xmpRights:UsageTerms → license
+ *   - XMP-cc:license / xmpRights:WebStatement → licenseUrl
+ *   - XMP-dc:Source            → sourceUrl
+ *   - XMP-dc:CreateDate (year extraction)
+ */
+/**
+ * exifr s `true` filter parse-uje všechny XMP/IPTC/EXIF do flat objektu.
+ * Pole jsou camelCase / lowercase dle XMP property names:
+ *   - dc:creator → `creator` (string nebo array)
+ *   - dc:rights → `rights` ({ lang, value } language alternative)
+ *   - dc:source → `source` (string)
+ *   - dc:description → `description` ({ lang, value })
+ *   - cc:license → `license` ({ resource: URL }) — RDF resource
+ *   - cc:attributionName → `attributionName`
+ *   - cc:attributionURL → `attributionURL`
+ *   - xmpRights:UsageTerms → `UsageTerms` ({ lang, value })
+ *   - xmpRights:WebStatement → `WebStatement` (string)
+ *   - xmp:CreateDate → `CreateDate` (Date)
+ */
+type XmpMeta = {
+  creator?: string | string[];
+  rights?: string | { lang?: string; value: string };
+  source?: string;
+  description?: string | { lang?: string; value: string };
+  license?: string | { resource: string };
+  attributionName?: string;
+  attributionURL?: string;
+  UsageTerms?: string | { lang?: string; value: string };
+  WebStatement?: string;
+  CreateDate?: Date | string;
+};
+
+function pickFirst<T>(v: T | T[] | undefined): T | undefined {
+  if (Array.isArray(v)) return v[0];
+  return v;
+}
+
+function extractLang(v: unknown): string | undefined {
+  if (v == null) return undefined;
+  if (typeof v === 'string') return v;
+  if (typeof v === 'object') {
+    const obj = v as { lang?: string; value?: string } & Record<string, string>;
+    if (typeof obj.value === 'string') return obj.value;
+    // Plain mapping like { 'x-default': '...', 'en': '...' }
+    return obj['x-default'] ?? obj['en'] ?? obj['cs'] ?? Object.values(obj).find((x) => typeof x === 'string');
+  }
+  return undefined;
+}
+
+function extractResource(v: unknown): string | undefined {
+  if (v == null) return undefined;
+  if (typeof v === 'string') return v;
+  if (typeof v === 'object') {
+    const obj = v as { resource?: string };
+    return obj.resource;
+  }
+  return undefined;
+}
+
+async function readXmp(srcPath: string): Promise<XmpMeta | null> {
+  // Mapping URL path /img/foo.jpg → filesystem absolute path.
+  // Astro build běží typicky z apps/<app>/, hledáme public/ relativně + apex pro safety.
+  const candidates = [
+    resolve(process.cwd(), 'public' + srcPath),
+    resolve(process.cwd(), 'apps/hodinarium-eu/public' + srcPath),
+    resolve(process.cwd(), 'apps/horologie-cz/public' + srcPath),
+  ];
+  const filePath = candidates.find((p) => existsSync(p));
+  if (!filePath) return null;
+  try {
+    // Filter `true` = parse all segments; vrací flat object s parsed hodnotami.
+    const meta = await exifr.parse(filePath, true);
+    return (meta as XmpMeta) ?? null;
+  } catch {
+    return null;
+  }
+}
+
+const xmp = await readXmp(src);
+
+// Resolve hodnoty: MDX prop > XMP field
+const author = propAuthor ?? (xmp ? pickFirst(xmp.creator) : undefined);
+const authorUrl = propAuthorUrl ?? xmp?.attributionURL;
+
+let license = propLicense;
+if (!license && xmp) {
+  license = extractLang(xmp.UsageTerms) ?? extractLang(xmp.rights);
+}
+
+let licenseUrl = propLicenseUrl;
+if (!licenseUrl && xmp) {
+  licenseUrl = extractResource(xmp.license) ?? xmp.WebStatement;
+}
+
+const sourceUrl = propSourceUrl ?? xmp?.source;
+
+let year = propYear;
+if (year === undefined && xmp?.CreateDate) {
+  const d = xmp.CreateDate instanceof Date ? xmp.CreateDate : new Date(String(xmp.CreateDate));
+  if (!Number.isNaN(d.getTime())) year = d.getFullYear();
+}
+
 const showCredit = Boolean(author || license || sourceUrl);
 const sizeInfo = (imageSizes as Record<string, ImageSizeEntry>)[src];
 // Default 'light' (světlý text + tmavé halo) — bezpečnější pro neznámé pozadí,
