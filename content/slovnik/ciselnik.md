@@ -224,6 +224,74 @@ Barokní dva-ručkový ciferník je **mezikrok** mezi středověkým jedno-ručk
 
 V Čechách k tomuto obratu dochází **postupně v průběhu 19. století**; mnohé venkovské stroje si **podržely barokní schéma do konce 19. stol.** Při restaurování barokních věžních hodin (Skála a další po 2000) je rekonstrukce původního barokního schématu s prohozenými ručkami **historicky správným postupem**, i když pro moderního čtenáře potřebuje vysvětlení.
 
+### Paralelní vývoj interiérových a věžních číselníků v 17. století
+
+Skála (2005, [Zotero `GYTWGESX`]) upozorňuje, že **se vznikem druhé — minutové — ručky se od počátku rozeběhly dvě paralelní linie vývoje**, nikoli jedna sekvence:
+
+- **Interiérové hodiny:** minutová ručka **DELŠÍ a štíhlejší** než hodinová, hrot obíhá po **vnějším obvodu** hodinového číselníku, kam byl přimalován **vnější minutový kruh** s arabskými ciframi po 5 minutách. Toto je schéma, na které jsme zvyklí dnes.
+- **Věžní hodiny:** minutová ručka **KRATŠÍ a menší plochy** než hodinová, oběhne za hodinu po **vnitřním minutovém číselníku** s římskými ciframi I–IIII (= čtvrti). Toto je barokní věžní schéma popsané výše.
+
+> „Vývoj dvouručkových ciferníků se tedy od samého počátku ubíral
+> dvěma směry — u hodin interiérových vzniklo schéma s ručkou
+> minutovou ‚velkou' a u hodin věžních s ručkou minutovou ‚malou'."
+> — SKÁLA, Petr. *Ciferníky věžních hodin na památkově chráněné
+> architektuře.* Památky středních Čech 19, 2005, č. 2. [Zotero `GYTWGESX`]
+
+Důvod rozdílu byl praktický: u **věžního číselníku čteného z 20–100 m** je vnitřní čtvrťový číselník čitelnější než drobné minutové dílky na obvodu. Hodinová ručka mohla zůstat masivní, minutová byla potlačena na sekundární údaj.
+
+Sjednocení obou schémat (= moderní konvence s delší minutovou i na věžních hodinách) probíhá **až v 19. století**, kdy nastupuje tovární výroba domácích hodin a požadavek na vyšší přesnost čtení.
+
+### Pravidla pro rozpoznání ručiček na starých věžních číselnících
+
+Stovky věžních hodin byly v 19.–20. století přestavovány — vnitřní minutové číselníky odstraňovány, ručky upravovány nebo vyměňovány. Výsledkem je dnes **nejednotnost**, která pro nezasvěceného pozorovatele způsobuje **omyly v odečítání času**. Skála 2005 formuluje pět pravidel:
+
+**1. Spolehlivé technické pravidlo (univerzální).** **Hodinová ručka je vždy blíže k ploše číselníku** než minutová — vyplývá to z konstrukce souosých hřídelů (hodinová hřídel je dutá, prochází jí vnitřní hřídel minutová, která vyčnívá výš). Při šikmém pohledu z nepříliš velké dálky lze ručky vždy rozlišit.
+
+**2. Pravidlo plochy ručky.** U starých věžních číselníků je **minutová ručka subtilnější** — má menší plochu, tenčí raménko, méně viditelnou koncovou plochu. Hodinová ručka je naopak masivní, výrazně viditelná. Toto pravidlo platí i tehdy, byla-li minutová ručka později prodloužena.
+
+**3. Pravidlo s vnitřním minutovým číselníkem.** Má-li číselník **vyznačen vnitřní kruh I–IIII**, je ručka s menší plochou vždy minutová — bez ohledu na délku. Pokud byla později prodloužena (úprava délek), pravidlo plochy zůstává platné.
+
+**4. Pravidlo bez vnitřního minutového číselníku.** Není-li vnitřní kruh, je rozhodující **délka ručky** — delší je minutová (moderní konvence). Výjimka: některé staré číselníky byly přemalovány (vnitřní kruh odstraněn) bez úpravy ruček — pak je minutová stále krátká.
+
+**5. Kontroverzní výjimky.** Existují číselníky, kde žádné z výše uvedených pravidel jednoznačně nefunguje — typicky **vzájemně zaměněné ručky** (viz následující odstavec). Pak jsou ručky čitelné oběma způsoby a omyly nezasvěceného pozorovatele jsou pravidlem.
+
+### Typy pozdějších úprav barokních číselníků
+
+Při přechodu na moderní konvenci (minutová ručka delší) docházelo k pěti typům úprav, **každý s odlišnými vizuálními a funkčními důsledky**:
+
+| Typ úpravy | Postup | Vizuální výsledek | Příklad |
+|---|---|---|---|
+| **A. Zkrácení + prodloužení** | Hodinová ručka zkrácena, minutová prodloužena; vnitřní č. odstraněn | Moderní schéma — delší ručka má menší plochu (správně) | Kaple Zvěstování PM, zámek Karlova Koruna (F. Londensperger ~1765) |
+| **B. Záměna ručiček na hřídelích** | Ručky pouze prohozeny; vnitřní č. odstraněn | Větší plocha je teď minutová — vizuálně barokní, funkčně moderní | Loučeň zámecký kostel (úprava po 1848) |
+| **C. Záměna se zachovaným vnitřním č.** | Ručky prohozeny, vnitřní I–IIII ponechán | **Kontroverzní** — ručky čitelné oběma způsoby, omyly časté | Pražská Loreta (úprava 17. stol. číselníku) |
+| **D. Ponechání vnitřního č. + úprava délek** | Minutová prodloužena, vnitřní I–IIII ponechán z estetiky | Vnitřní kruh nefunkční, jen dekorativní | Kostel sv. Vavřince v Novém Bydžově; zámek Lužany |
+| **E. Nové ručky moderního tvaru** | Osazeny zcela nové ručky, vnitřní č. ponechán nebo odstraněn | Modernizace bez snahy o vizuální kontinuitu | Kostel Narození sv. Jana Křtitele ve Sv. Janu pod Skalou; zámek Březnice |
+
+**Speciální případ — žádná úprava ruček, jen odstraněn vnitřní č.:** Mnichovo Hradiště, Obříství, Klementinum. Tady ručky zůstaly v původním barokním poměru (hodinová delší, větší plocha), ale chybějící vnitřní I–IIII vede k nejčastějším omylům — moderní pozorovatel automaticky čte delší ručku jako minutovou.
+
+### Oddělené hodinový a minutový číselník
+
+Vzácně se setkáváme se **dvěma fyzicky oddělenými ciferníky** — jeden ukazuje hodiny, druhý minuty (resp. čtvrti). Skála 2005 uvádí dva české příklady:
+
+- **Katedrála sv. Víta v Praze** — spodní číselník je minutový, horní hodinový
+- **Klášter v Plasích** — analogické rozdělení
+
+Toto řešení vzniklo z technické nemožnosti umístit dvě ručky na jednu osu (dvě úplně oddělené ručkové stroje s vlastním převodem). U novostaveb 19.–20. století je vzácné; je to spíš dědictví ze starších víceciferníkových konstrukcí.
+
+### Konkrétní české exempláře (typologie dle Skály 2005)
+
+- **Měšice u Prahy, zámek** — barokní original (Sebastian Londensperger 1774), menší ručka minutová, **vzor původního schématu**
+- **Chlumec nad Cidlinou, zámek Karlova Koruna, kaple Zvěstování PM** — barokní původní (F. Londensperger ~1765), upraveno typu **A** (zkrácení + prodloužení)
+- **Poděbrady, zámek** (Jan Janata 1870) — barokní typ ručiček, ale **vnitřní č. nikdy nevyznačen** → omyly při odečítání. Stejný typ: ev. kostel Libice n. C. (J. Mareš 1895), ev. kostel Chleby
+- **Opolany, evangelický kostel** (J. Mareš 1898) — typ **B** (záměna ručiček)
+- **Loučeň, zámecký kostel Nanebevzetí PM** — typ **B** (záměna při opravě 1848), původní letopočet na ciferníku 1780 a 1726
+- **Pražská Loreta** — typ **C** (záměna 17. st. ciferníku, vnitřní č. zachován)
+- **Březnice, zámek** — typ **E** (nové ručky moderního tvaru poč. 20. stol.)
+- **Nový Bydžov, kostel sv. Vavřince** — typ **D** (vnitřní č. zachován, minutová prodloužena), podobně zámek Lužany
+- **Nymburk, kostel sv. Jiljí** (1856) — již **moderní schéma**, ale s respektem k velikostem ploch (delší ručka má menší plochu)
+- **Tvoršovice, zámek** (1909) — interiérový styl i s minutovými dílky
+- **Hostivice, kostel sv. Jakuba** (Karel Adamec, poč. 20. stol.) — **historizující** ciferník: delší ručka minutová má větší plochu (vzácný kompromis)
+
 ### Evropská distribuce barokního typu
 
 Barokní dva-ručkový ciferník se rozšířil **napříč katolickou Evropou** v 17.–18. století:
@@ -673,6 +741,14 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 
 > SKÁLA, Petr. *Nepřesnosti v konstrukci původního astrolábu staroměstského
 > orloje.* 2013. [Zotero `9MSY6PPS`]
+
+> SKÁLA, Petr. *Ciferníky věžních hodin na památkově chráněné architektuře.*
+> Památky středních Čech 19, 2005, č. 2, s. 61–70. [Zotero `GYTWGESX`]
+> (Klíčový přehled vývoje českých věžních číselníků od středověku po
+> moderní dobu — paralelní linie interiérové vs věžní v 17. stol., 5 typů
+> pozdějších úprav barokních ciferníků, spolehlivá pravidla pro rozpoznání
+> ručiček, desítky doložených českých exemplářů s atribucí a datací.
+> Plný text dostupný online na vlastním webu autora: veznihodiny.cz/ciferniky.pdf.)
 > (Detailní matematická analýza stereografické projekce na číselníku
 > Pražského orloje — proč astrolábské stupnice nejsou geometricky
 > dokonalé.)

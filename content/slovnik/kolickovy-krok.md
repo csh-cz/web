@@ -58,11 +58,13 @@ Himmler 2006 popisuje konkrétní stroj ve sbírce VMO s kolíčkovým kotvovým
 
 (Mosazné soukolí + kolíčkový kotvový krok = typická konfigurace pozdně 19. století — tovární výroba s méně tradičně kovářskými prvky.)
 
-**Pro atribuci konkrétního stroje:** typ kroku je jeden z **klíčových identifikátorů dílny** (Prokeš preferoval Robertův kolíčkový, Krečmer Grahamův klidový, Mannhardt vlastní gravitační, …). Restaurátorská prozkoumka stroje vždy zahrnuje detailní popis kroku — viz NPÚ MIS Markvartice 2017 pro stroj atribuovaný Prokešovi:
+**Pro atribuci konkrétního stroje:** typ kroku je jeden z **klíčových identifikátorů dílny** (Prokeš preferoval [Robertův krok](/kroky/robertuv-krok) — kolíčkový klidový s prostřední kotvou, Krečmer Grahamův klidový, Mannhardt vlastní gravitační, …). Restaurátorská prozkoumka stroje vždy zahrnuje detailní popis kroku — viz NPÚ MIS Markvartice 2017 pro stroj atribuovaný Prokešovi:
 
 > „Krok jícího stroje: **kolíčkový krok Roberta de Sancerre**.
 > Tento málo rozšířený krok používal později při stavbě hodinových
 > strojů významný hodinář Jan Prokeš ze Sobotky (1818–1890)."
+
+*Redakční poznámka: v moderní české horologické terminologii preferujeme označení **[Robertův krok](/kroky/robertuv-krok)** (Sancerre je město původu autora Adolpha Roberta, nikoli jeho příjmení). Citace z primárních pramenů ponecháváme v původním znění; viz [Náprava terminologie v článku o Robertově kroku](/kroky/robertuv-krok#náprava-terminologie).*
 
 ## Reference
 
