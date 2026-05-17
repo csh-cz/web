@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-05-17T11:43:56.962Z",
+  "deadCount": 4,
+  "withWaybackCount": 0,
+  "byFile": {
+    "content/hodinarium-eu/akvizice-2015-2025.md": [
+      {
+        "url": "http://dominanty.cz/pamatky-velka-chmelistna.php",
+        "status": 403,
+        "context": "rchive.org/web/20160327202644/http://dominanty.cz/pamatky-velka-chmelistna.php). ![kostel sv. Bartoloměje V",
+        "field": "body:bare",
+        "wayback": null
+      }
+    ],
+    "content/hodinarium-eu/arduino-pps.md": [
+      {
+        "url": "https://www.accubeat.com/rubidium-frequency-oscillators",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "edia.org. [cit. 2026-04-28] - [Rubidium Frequency Oscillators firmy AccuBeat](https://www.accubeat.com/rubidium-frequency-oscillators) — accubeat.com. [cit. 2026-0",
+        "field": "body:link",
+        "wayback": null
+      }
+    ],
+    "content/hodinarium-eu/atomove-kapesni.md": [
+      {
+        "url": "https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5570-miniature-atomic-clock-mac-sa5x",
+        "status": 0,
+        "error": "timeout",
+        "context": "turního čipu atomových hodin: [MAC-SA5X](https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5570-miniature-atomic-clock-mac-sa5x) Miniaturizované miniaturní ",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://www.microsemi.com/images/gallery/new_products/EvalKit%20Cartoon.png",
+        "status": 0,
+        "error": "timeout",
+        "context": "kačních pinů rs232 nebo USB. [Obrázek vývojového kitu](https://www.microsemi.com/images/gallery/new_products/EvalKit%20Cartoon.png) , [Datasheed](/download/micr",
+        "field": "body:link",
+        "wayback": null
+      }
+    ]
+  }
+}
