@@ -12,8 +12,8 @@ prekladyFr:
   - term: cadran solaire
 definice: "Nejstarší typ časoměrného přístroje, který určuje denní dobu **podle směru a délky stínu** vrhaného sluncem na kalibrovanou plochu (číselník) tělesem zvaným **gnómon** nebo **ukazovák**."
 pribuzne:
-  - gnómon
-  - časová-rovnice
+  - gnomon
+  - casova-rovnice
   - kvadrant
 ---
 

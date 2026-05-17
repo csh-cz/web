@@ -12,8 +12,8 @@ prekladyFr:
   - term: palette d'élévation
 definice: "Páková nebo prstová součást bicího stroje typu II (s početníkem), která při každém oběhu posune **početník** o jeden zub a tím umožní pravidelné odpočítávání úderů."
 pribuzne:
-  - bicí-stroj
-  - početník
+  - bici-stroj
+  - pocetnik
   - srdcovka
   - stupnice
 ---

@@ -202,6 +202,25 @@ export const kroky: Krok[] = [
     ],
   },
   {
+    slug: 'denisonuv-gravitacni-krok',
+    jmeno: 'Denisonův gravitační krok',
+    aliasy: [
+      'Denisonův krok',
+      'gravitační krok',
+      'Big Ben krok',
+      'double three-legged gravity escapement',
+      'Grimthorpe escapement',
+    ],
+    vynalezce: 'Edmund Beckett Denison (Lord Grimthorpe)',
+    rok: '1852',
+    shrnuti:
+      'Dvojitý třícípý gravitační krok (double three-legged gravity escapement), použitý ve Westminster Great Clock (Big Ben) 1854. Kyvadlo dostává impuls vždy ze stejné výšky od malé gravitační páky, kterou krokové kolo pouze zvedá — odstraňuje slabinu předchozích kroků (citlivost na kolísání pohonné síly).',
+    charakteristika:
+      'Kombinovaný oscilátor + remontoár v jediné jednotce. Standardem pro nejpřesnější věžní hodiny 2. poloviny 19. století. V Čechách aplikoval Romuald Božek 1864 (Karlínská strojírna Daněk + Holub) pro kostel sv. Cyrila a Metoděje v Praze-Karlíně.',
+    relatedSlugs: [],
+    skupina: 'presne',
+  },
+  {
     slug: 'hippuv-prerusovac',
     jmeno: 'Hippův přerušovač',
     aliasy: ['Hipp', 'Hippův', 'Hippova', 'Hipp-Toggle'],

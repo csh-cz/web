@@ -11,8 +11,8 @@ prekladyFr:
   - term: école pragoise
 definice: "Hodinářská tradice rozvíjená v Praze od 15. století, spojená s **astronomickými orloji** (Pražský orloj 1410), renesančním hodinařením (Rudolf II.) a moderní organizací cechu (1881 vydání Špatného slovníku, 1947 Sladkovský). Specifická pro **bohatou astronomickou linii** (Růže, Táborský, Steffenbauer) a **česky psanou odbornou literaturu** od konce 19. století."
 pribuzne:
-  - hodinář
-  - švýcarská-škola
+  - hodinar
+  - svycarska-skola
 ---
 
 ## Výklad

@@ -15,9 +15,9 @@ varianty:
   - "počítadlo** (méně častá varianta)"
 definice: "Ozubený segment v bicím stroji typu „s početníkem a stupnicí\" (Sladkovský 1947 typ II), který svým **vypadnutím** předem započte počet úderů, jež má bicí stroj odbít."
 pribuzne:
-  - bicí-stroj
+  - bici-stroj
   - srdcovka
-  - kolo-závěrkové
+  - kolo-zaverkove
   - stupnice
   - posuvka
 ---

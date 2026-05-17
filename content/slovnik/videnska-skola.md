@@ -14,8 +14,8 @@ prekladyFr:
     genus: f
 definice: "Hodinářská tradice **Vídně** (a habsburské monarchie), zaměřená na **kvalitní stojací a nástěnné hodiny** — sloupkové, rámové, kyvadlovky závažové (vídeňské regulátory). Vrchol cca 1820–1880, výroba zanikla na konci 19. století s nástupem švýcarské sériové výroby. Vzor pro **švarcvaldskou** (Lorenz Bob 1840) a **českou** sériovou výrobu mosazných strojů."
 pribuzne:
-  - hodinář
-  - švarcvaldská-škola
+  - hodinar
+  - svarcvaldska-skola
 ---
 
 ## Výklad

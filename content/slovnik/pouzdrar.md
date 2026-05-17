@@ -13,7 +13,7 @@ prekladyFr:
   - term: fabricant de boîtes
 definice: "Řemeslník vyrábějící **pouzdra hodinek** — zlatnické, stříbřilo-tepecké specializace. V 16.–19. století **separátní obor** od samotného hodinářství (Uhrmacher × Gehäusemacher), často s vazbou na zlatnictví / klenotnictví. Dnes v luxury manufakturách **interní specializace** (case workshop), v běžné výrobě externalizováno na průmyslové dodavatele."
 pribuzne:
-  - hodinář
+  - hodinar
   - pouzdro
   - signatura
 ---

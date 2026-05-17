@@ -16,7 +16,7 @@ prekladyFr:
   - term: deuxième fuseau horaire
 definice: "Komplikace hodinek umožňující **současné zobrazení dvou časových pásem** (typicky lokální + GMT/UTC). Realizováno **24-hodinovou ručkou** (s odlišnou rychlostí 1 otáčka / 24 h místo 1 otáčka / 12 h) a obvykle bezelem se 24-h stupnicí. Některé varianty zobrazují **všech 24 zón** (world timer)."
 pribuzne:
-  - časová-rovnice
+  - casova-rovnice
 ---
 
 ## Výklad

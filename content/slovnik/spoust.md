@@ -12,8 +12,7 @@ prekladyFr:
   - term: déclenchement
 definice: "Mechanismus, který v určeném okamžiku **uvolní bicí stroj** zachycený v klidové poloze a umožní mu rozběhnout se a odbít. Spuštění obvykle iniciuje **jicí stroj** přes kolíček nebo páku napojenou na hodinovou ručku."
 pribuzne:
-  - bicí-stroj
-  - raménko-zapadací-výpustné
+  - bici-stroj
   - stupnice
 ---
 

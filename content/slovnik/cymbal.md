@@ -12,15 +12,15 @@ prekladyFr:
   - term: cloche
     genus: f
 varianty:
-  - cymbál
+  - cymbal
   - cimbál
   - zvon hodinový
   - zvonec
   - zvoneček
 definice: "Zvukové těleso bicího stroje — kovový zvon nebo zvonek, na nějž udírá kladívko. Tvar a slitina (zvonovina = bronz s vyšším podílem cínu) určují tón a délku doznění."
 pribuzne:
-  - bicí-stroj
-  - kladívko
+  - bici-stroj
+  - kladivko
   - stupnice
 ---
 

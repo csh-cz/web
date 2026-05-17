@@ -4,7 +4,7 @@ slug: kladivko-orloje
 kategorie: bici
 varianty:
   - kladivo
-  - kladívko
+  - kladivko
 definice: "Bicí kladivo — úderník zvonu věžních hodin. Táborský používá synonymně s *palicí*, ale rozlišuje *kladivo* primárně pro vnější úderník na zvonu (na věži) a *palici* pro vnitřní spouštěcí prvek bicího ústrojí."
 pribuzne:
   - palice-orloje

@@ -11,8 +11,8 @@ prekladyFr:
   - term: horlogerie suisse
 definice: "Hodinářská tradice **Švýcarska** — od 1587 v Ženevě, později rozvedená do **Jura** (La Chaux-de-Fonds, Le Locle, Vallée de Joux, Glashütte/Solothurn). **Globální dominance** od 1850 v sériové i luxury výrobě hodinek. Charakteristická pro **vertikální specializaci** (établissage — montáž z dílů od subdodavatelů), později manufakturní integraci, vrcholová certifikace přes **Geneva Seal**, **COSC**."
 pribuzne:
-  - hodinář
-  - pouzdrář
+  - hodinar
+  - pouzdrar
 ---
 
 ## Výklad

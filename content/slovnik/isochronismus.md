@@ -18,8 +18,8 @@ varianty:
 definice: "Vlastnost oscilátoru — kyvadla nebo setrvačky — že **délka jednoho kyvu nezávisí na rozkyvu** (amplitudě). Klíčová podmínka přesnosti hodin: čím lépe je oscilátor isochronní, tím méně kolísavá je jeho doba kyvu při změnách hnací síly nebo polohy."
 pribuzne:
   - kyvadlo
-  - setrvačka
-  - vlásek
+  - setrvacka
+  - vlasek
   - chronometr
   - krok
 ---

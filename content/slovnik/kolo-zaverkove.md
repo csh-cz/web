@@ -19,8 +19,8 @@ varianty:
   - závěrník
 definice: "Plochý kotouč bicího stroje s neravnoměrně rozdělenými zářezy nebo zuby na věnci, který určuje, **kolik úderů** kladívka odbije na danou hodinu. Otočí se obvykle jednou za 12 hodin."
 pribuzne:
-  - bicí-stroj
-  - početník
+  - bici-stroj
+  - pocetnik
   - srdcovka
 ---
 

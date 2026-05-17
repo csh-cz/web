@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T20:01:38.686Z",
+  "generatedAt": "2026-05-17T19:08:14.242Z",
   "summary": {
     "kartyTotal": 292,
     "kartyNoTyp": 93,
@@ -8,16 +8,16 @@
     "kartyNoUmisteni": 41,
     "kartyPlaceholderTitle": 12,
     "clankyNoTldr": 2,
-    "clankyShort": 59,
-    "clankyLegacyLinks": 38,
-    "hodinariTotal": 104,
-    "hodinariShort": 72,
-    "hodinariNoPortret": 90,
-    "soupisTotal": 396,
+    "clankyShort": 60,
+    "clankyLegacyLinks": 36,
+    "hodinariTotal": 135,
+    "hodinariShort": 97,
+    "hodinariNoPortret": 121,
+    "soupisTotal": 428,
     "stubsKarty": 0,
     "stubsClanky": 0,
-    "stubsHodinari": 46,
-    "stubsSoupis": 1,
+    "stubsHodinari": 75,
+    "stubsSoupis": 8,
     "kronikaYears": [
       2009,
       2010,
@@ -3098,7 +3098,7 @@
         "title": "Výtvarné miniatury ve tvaru kostky Dr. Jaroslava Adama",
         "category": "sbirka",
         "editUrl": "/admin/#/collections/clanky/entries/kostky",
-        "wordCount": 182
+        "wordCount": 176
       },
       {
         "slug": "kralovstvi-casu",
@@ -3147,7 +3147,7 @@
         "title": "Virtuální prohlídka muzea v Mindelheimu",
         "category": "muzea",
         "editUrl": "/admin/#/collections/clanky/entries/mindelheim",
-        "wordCount": 143
+        "wordCount": 137
       },
       {
         "slug": "motorky",
@@ -3315,14 +3315,14 @@
         "title": "Mysteriózní hodiny — sběratelský bonbónek",
         "category": "sbirka",
         "editUrl": "/admin/#/collections/clanky/entries/mystery",
-        "wordCount": 153
+        "wordCount": 148
       },
       {
         "slug": "normalni",
         "title": "\\\"Normální hodiny ?\\\"",
         "category": "zajimavosti",
         "editUrl": "/admin/#/collections/clanky/entries/normalni",
-        "wordCount": 94
+        "wordCount": 89
       },
       {
         "slug": "panel-2-maticni-elektrocas",
@@ -3371,7 +3371,7 @@
         "title": "segmentovky",
         "category": "projekty",
         "editUrl": "/admin/#/collections/clanky/entries/segmentovky-s-prekladem",
-        "wordCount": 112
+        "wordCount": 117
       },
       {
         "slug": "sestka",
@@ -3385,7 +3385,14 @@
         "title": "Sluneční hodiny Vlasty Fillera",
         "category": "sbirka",
         "editUrl": "/admin/#/collections/clanky/entries/slunecni-filler",
-        "wordCount": 86
+        "wordCount": 81
+      },
+      {
+        "slug": "slunecni",
+        "title": "Sluneční hodiny — odkazy a kuriozity",
+        "category": "sbirka",
+        "editUrl": "/admin/#/collections/clanky/entries/slunecni",
+        "wordCount": 199
       },
       {
         "slug": "svarcvaldky-hraci",
@@ -3453,6 +3460,13 @@
         "legacyCount": 1
       },
       {
+        "slug": "big-ben-denisonuv-gravitacni-krok",
+        "title": "Big Ben a Denisonův gravitační krok",
+        "category": "zajimavosti",
+        "editUrl": "/admin/#/collections/clanky/entries/big-ben-denisonuv-gravitacni-krok",
+        "legacyCount": 3
+      },
+      {
         "slug": "budiky1",
         "title": "HODINY BUDÍKOVÉ",
         "category": "sbirka",
@@ -3506,7 +3520,7 @@
         "title": "Galerie uměleckých děl v Hodináriu Děčín",
         "category": "sbirka",
         "editUrl": "/admin/#/collections/clanky/entries/decin-galerie",
-        "legacyCount": 2
+        "legacyCount": 1
       },
       {
         "slug": "decin-ntp",
@@ -3541,7 +3555,7 @@
         "title": "Hodinárium Děčín",
         "category": "zajimavosti",
         "editUrl": "/admin/#/collections/clanky/entries/index",
-        "legacyCount": 4
+        "legacyCount": 2
       },
       {
         "slug": "jednotnycas",
@@ -3549,20 +3563,6 @@
         "category": "konstrukce",
         "editUrl": "/admin/#/collections/clanky/entries/jednotnycas",
         "legacyCount": 7
-      },
-      {
-        "slug": "kardasova-recice",
-        "title": "Jsou v Kardašově Řečici hodiny mistra Hanuše ??",
-        "category": "virtualni-muzeum",
-        "editUrl": "/admin/#/collections/clanky/entries/kardasova-recice",
-        "legacyCount": 1
-      },
-      {
-        "slug": "kostky",
-        "title": "Výtvarné miniatury ve tvaru kostky Dr. Jaroslava Adama",
-        "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/kostky",
-        "legacyCount": 1
       },
       {
         "slug": "kvetinove",
@@ -3590,7 +3590,7 @@
         "title": "O Hodináriu",
         "category": "sbirka",
         "editUrl": "/admin/#/collections/clanky/entries/o-hodinariu",
-        "legacyCount": 3
+        "legacyCount": 2
       },
       {
         "slug": "pichacky",
@@ -3663,6 +3663,13 @@
         "legacyCount": 1
       },
       {
+        "slug": "sobotecka-dilna-prokesova-robertuv-krok",
+        "title": "Sobotecká dílna Prokešova a Robertův krok",
+        "category": "zajimavosti",
+        "editUrl": "/admin/#/collections/clanky/entries/sobotecka-dilna-prokesova-robertuv-krok",
+        "legacyCount": 1
+      },
+      {
         "slug": "spinka",
         "title": "Kinetické artefakty",
         "category": "sbirka",
@@ -3670,24 +3677,10 @@
         "legacyCount": 5
       },
       {
-        "slug": "svarcvaldky",
-        "title": "Švarcvaldky",
-        "category": "konstrukce",
-        "editUrl": "/admin/#/collections/clanky/entries/svarcvaldky",
-        "legacyCount": 2
-      },
-      {
         "slug": "synchronizace-hodin",
         "title": "Jednotně řízené hodiny a synchronizace času",
         "category": "konstrukce",
         "editUrl": "/admin/#/collections/clanky/entries/synchronizace-hodin",
-        "legacyCount": 1
-      },
-      {
-        "slug": "vez-elektrocas1959",
-        "title": "Stroj Elektročas 1959",
-        "category": "sbirka",
-        "editUrl": "/admin/#/collections/clanky/entries/vez-elektrocas1959",
         "legacyCount": 1
       },
       {
@@ -3719,10 +3712,40 @@
         "wordCount": 1
       },
       {
+        "slug": "alois-petrlak",
+        "title": "Alois Petrlák",
+        "editUrl": "/admin/#/collections/hodinari/entries/alois-petrlak",
+        "wordCount": 68
+      },
+      {
+        "slug": "andreas-kugler",
+        "title": "Andreas Kugler",
+        "editUrl": "/admin/#/collections/hodinari/entries/andreas-kugler",
+        "wordCount": 101
+      },
+      {
+        "slug": "anton-grasse",
+        "title": "Anton Grasse",
+        "editUrl": "/admin/#/collections/hodinari/entries/anton-grasse",
+        "wordCount": 78
+      },
+      {
+        "slug": "antonin-stancl",
+        "title": "Antonín Štancl",
+        "editUrl": "/admin/#/collections/hodinari/entries/antonin-stancl",
+        "wordCount": 55
+      },
+      {
         "slug": "bernhard-zacharia",
         "title": "Bernhard Zacharia (Thurmuhren Fabrik, Leipzig)",
         "editUrl": "/admin/#/collections/hodinari/entries/bernhard-zacharia",
         "wordCount": 193
+      },
+      {
+        "slug": "blasius-schuster",
+        "title": "Blasius Schuster",
+        "editUrl": "/admin/#/collections/hodinari/entries/blasius-schuster",
+        "wordCount": 101
       },
       {
         "slug": "bodet",
@@ -3779,12 +3802,6 @@
         "wordCount": 97
       },
       {
-        "slug": "engelbert-seige",
-        "title": "Engelbert Seige",
-        "editUrl": "/admin/#/collections/hodinari/entries/engelbert-seige",
-        "wordCount": 1
-      },
-      {
         "slug": "ericsson",
         "title": "Ericsson",
         "editUrl": "/admin/#/collections/hodinari/entries/ericsson",
@@ -3795,6 +3812,12 @@
         "title": "Eureka Clock Co. (Sir John Bennett)",
         "editUrl": "/admin/#/collections/hodinari/entries/eureka",
         "wordCount": 1
+      },
+      {
+        "slug": "frantisek-bozek",
+        "title": "František Božek",
+        "editUrl": "/admin/#/collections/hodinari/entries/frantisek-bozek",
+        "wordCount": 170
       },
       {
         "slug": "frantisek-rebicek",
@@ -3815,6 +3838,18 @@
         "wordCount": 149
       },
       {
+        "slug": "franz-konig",
+        "title": "Franz König",
+        "editUrl": "/admin/#/collections/hodinari/entries/franz-konig",
+        "wordCount": 68
+      },
+      {
+        "slug": "franz-xaver-bayer",
+        "title": "Franz Xaver Bayer",
+        "editUrl": "/admin/#/collections/hodinari/entries/franz-xaver-bayer",
+        "wordCount": 141
+      },
+      {
         "slug": "friedrich-moritz-bassler",
         "title": "Friedrich Moritz Bassler",
         "editUrl": "/admin/#/collections/hodinari/entries/friedrich-moritz-bassler",
@@ -3831,6 +3866,18 @@
         "title": "Hans Bechler z Magdeburku",
         "editUrl": "/admin/#/collections/hodinari/entries/hans-bechler",
         "wordCount": 159
+      },
+      {
+        "slug": "hans-illichmann",
+        "title": "Hans Illichmann",
+        "editUrl": "/admin/#/collections/hodinari/entries/hans-illichmann",
+        "wordCount": 72
+      },
+      {
+        "slug": "heinrich-sigmund",
+        "title": "Heinrich Sigmund",
+        "editUrl": "/admin/#/collections/hodinari/entries/heinrich-sigmund",
+        "wordCount": 174
       },
       {
         "slug": "hipp-favarger",
@@ -3851,6 +3898,12 @@
         "wordCount": 175
       },
       {
+        "slug": "jan-pavlicek",
+        "title": "Jan Pavlíček",
+        "editUrl": "/admin/#/collections/hodinari/entries/jan-pavlicek",
+        "wordCount": 114
+      },
+      {
         "slug": "jan-prokes-jr",
         "title": "Jan Prokeš ml.",
         "editUrl": "/admin/#/collections/hodinari/entries/jan-prokes-jr",
@@ -3863,10 +3916,28 @@
         "wordCount": 59
       },
       {
+        "slug": "jiri-valenta",
+        "title": "Jiří Valenta",
+        "editUrl": "/admin/#/collections/hodinari/entries/jiri-valenta",
+        "wordCount": 88
+      },
+      {
         "slug": "johann-burk",
         "title": "Johann Bürk",
         "editUrl": "/admin/#/collections/hodinari/entries/johann-burk",
         "wordCount": 1
+      },
+      {
+        "slug": "johann-georg-hollmayer",
+        "title": "Johann Georg Hollmayer",
+        "editUrl": "/admin/#/collections/hodinari/entries/johann-georg-hollmayer",
+        "wordCount": 112
+      },
+      {
+        "slug": "johann-hieff",
+        "title": "Johann Hieff",
+        "editUrl": "/admin/#/collections/hodinari/entries/johann-hieff",
+        "wordCount": 101
       },
       {
         "slug": "john-harrison",
@@ -3885,6 +3956,18 @@
         "title": "Josef Prokeš",
         "editUrl": "/admin/#/collections/hodinari/entries/josef-prokes",
         "wordCount": 158
+      },
+      {
+        "slug": "joseph-kubicek",
+        "title": "Joseph Kubíček",
+        "editUrl": "/admin/#/collections/hodinari/entries/joseph-kubicek",
+        "wordCount": 157
+      },
+      {
+        "slug": "joseph-nowack",
+        "title": "Joseph Nowack",
+        "editUrl": "/admin/#/collections/hodinari/entries/joseph-nowack",
+        "wordCount": 55
       },
       {
         "slug": "joseph-winnerl",
@@ -3917,10 +4000,22 @@
         "wordCount": 1
       },
       {
+        "slug": "kavkova",
+        "title": "Ing. Alena Kavková",
+        "editUrl": "/admin/#/collections/hodinari/entries/kavkova",
+        "wordCount": 107
+      },
+      {
         "slug": "kohlert",
         "title": "Kohlert",
         "editUrl": "/admin/#/collections/hodinari/entries/kohlert",
         "wordCount": 40
+      },
+      {
+        "slug": "ladislav-faigl",
+        "title": "Ladislav Faigl",
+        "editUrl": "/admin/#/collections/hodinari/entries/ladislav-faigl",
+        "wordCount": 77
       },
       {
         "slug": "lenzkirch",
@@ -3935,10 +4030,10 @@
         "wordCount": 84
       },
       {
-        "slug": "mannhardt",
-        "title": "Mannhardt (firma)",
-        "editUrl": "/admin/#/collections/hodinari/entries/mannhardt",
-        "wordCount": 78
+        "slug": "ludwig-leowill",
+        "title": "Ludwig Leowill",
+        "editUrl": "/admin/#/collections/hodinari/entries/ludwig-leowill",
+        "wordCount": 100
       },
       {
         "slug": "martin-hruska",
@@ -3963,6 +4058,12 @@
         "title": "Meinberg (firma)",
         "editUrl": "/admin/#/collections/hodinari/entries/meinberg",
         "wordCount": 1
+      },
+      {
+        "slug": "melanie-skalova",
+        "title": "Melanie Skálová",
+        "editUrl": "/admin/#/collections/hodinari/entries/melanie-skalova",
+        "wordCount": 76
       },
       {
         "slug": "michael-christ",
@@ -4001,10 +4102,22 @@
         "wordCount": 33
       },
       {
+        "slug": "peter-camaler",
+        "title": "Peter Camaler",
+        "editUrl": "/admin/#/collections/hodinari/entries/peter-camaler",
+        "wordCount": 79
+      },
+      {
         "slug": "peter-fridrich",
         "title": "Peter Fridrich",
         "editUrl": "/admin/#/collections/hodinari/entries/peter-fridrich",
         "wordCount": 53
+      },
+      {
+        "slug": "peter-hader",
+        "title": "Peter Hader",
+        "editUrl": "/admin/#/collections/hodinari/entries/peter-hader",
+        "wordCount": 60
       },
       {
         "slug": "petr-heinrich",
@@ -4079,6 +4192,18 @@
         "wordCount": 1
       },
       {
+        "slug": "sebastian-ecker",
+        "title": "Sebastian Ecker",
+        "editUrl": "/admin/#/collections/hodinari/entries/sebastian-ecker",
+        "wordCount": 71
+      },
+      {
+        "slug": "simecek",
+        "title": "Šimeček",
+        "editUrl": "/admin/#/collections/hodinari/entries/simecek",
+        "wordCount": 72
+      },
+      {
         "slug": "solari-udine",
         "title": "Solari (Udine)",
         "editUrl": "/admin/#/collections/hodinari/entries/solari-udine",
@@ -4097,10 +4222,22 @@
         "wordCount": 1
       },
       {
+        "slug": "thomas-lampel",
+        "title": "Thomas Lampel",
+        "editUrl": "/admin/#/collections/hodinari/entries/thomas-lampel",
+        "wordCount": 44
+      },
+      {
         "slug": "thomas-tompion",
         "title": "Thomas Tompion",
         "editUrl": "/admin/#/collections/hodinari/entries/thomas-tompion",
         "wordCount": 1
+      },
+      {
+        "slug": "tobias-ebner",
+        "title": "Tobias Ebner",
+        "editUrl": "/admin/#/collections/hodinari/entries/tobias-ebner",
+        "wordCount": 64
       },
       {
         "slug": "vavrinec-frejlich",
@@ -4113,6 +4250,12 @@
         "title": "Vídeňská polytechnika (dílna věžních hodin)",
         "editUrl": "/admin/#/collections/hodinari/entries/videnska-polytechnika",
         "wordCount": 80
+      },
+      {
+        "slug": "vladimir-jelinek",
+        "title": "Vladimír Jelínek",
+        "editUrl": "/admin/#/collections/hodinari/entries/vladimir-jelinek",
+        "wordCount": 88
       },
       {
         "slug": "vlasta-filler",
@@ -4151,9 +4294,34 @@
         "editUrl": "/admin/#/collections/hodinari/entries/adolf-lange"
       },
       {
+        "slug": "alois-petrlak",
+        "title": "Alois Petrlák",
+        "editUrl": "/admin/#/collections/hodinari/entries/alois-petrlak"
+      },
+      {
+        "slug": "andreas-kugler",
+        "title": "Andreas Kugler",
+        "editUrl": "/admin/#/collections/hodinari/entries/andreas-kugler"
+      },
+      {
+        "slug": "anton-grasse",
+        "title": "Anton Grasse",
+        "editUrl": "/admin/#/collections/hodinari/entries/anton-grasse"
+      },
+      {
+        "slug": "antonin-stancl",
+        "title": "Antonín Štancl",
+        "editUrl": "/admin/#/collections/hodinari/entries/antonin-stancl"
+      },
+      {
         "slug": "bernhard-zacharia",
         "title": "Bernhard Zacharia (Thurmuhren Fabrik, Leipzig)",
         "editUrl": "/admin/#/collections/hodinari/entries/bernhard-zacharia"
+      },
+      {
+        "slug": "blasius-schuster",
+        "title": "Blasius Schuster",
+        "editUrl": "/admin/#/collections/hodinari/entries/blasius-schuster"
       },
       {
         "slug": "bodet",
@@ -4202,7 +4370,7 @@
       },
       {
         "slug": "engelbert-seige",
-        "title": "Engelbert Seige",
+        "title": "P. Engelbert Seige",
         "editUrl": "/admin/#/collections/hodinari/entries/engelbert-seige"
       },
       {
@@ -4221,9 +4389,19 @@
         "editUrl": "/admin/#/collections/hodinari/entries/ferdinand-landesberger"
       },
       {
+        "slug": "frantisek-bozek",
+        "title": "František Božek",
+        "editUrl": "/admin/#/collections/hodinari/entries/frantisek-bozek"
+      },
+      {
         "slug": "frantisek-eisgruber",
         "title": "František Eisgruber",
         "editUrl": "/admin/#/collections/hodinari/entries/frantisek-eisgruber"
+      },
+      {
+        "slug": "frantisek-lang",
+        "title": "František Lang",
+        "editUrl": "/admin/#/collections/hodinari/entries/frantisek-lang"
       },
       {
         "slug": "frantisek-rebicek",
@@ -4239,6 +4417,16 @@
         "slug": "frantisek-x-beitel",
         "title": "František X. Beitel",
         "editUrl": "/admin/#/collections/hodinari/entries/frantisek-x-beitel"
+      },
+      {
+        "slug": "franz-konig",
+        "title": "Franz König",
+        "editUrl": "/admin/#/collections/hodinari/entries/franz-konig"
+      },
+      {
+        "slug": "franz-xaver-bayer",
+        "title": "Franz Xaver Bayer",
+        "editUrl": "/admin/#/collections/hodinari/entries/franz-xaver-bayer"
       },
       {
         "slug": "friedrich-moritz-bassler",
@@ -4261,6 +4449,11 @@
         "editUrl": "/admin/#/collections/hodinari/entries/hans-bechler"
       },
       {
+        "slug": "hans-illichmann",
+        "title": "Hans Illichmann",
+        "editUrl": "/admin/#/collections/hodinari/entries/hans-illichmann"
+      },
+      {
         "slug": "hans-pohl",
         "title": "Hans Pohl",
         "editUrl": "/admin/#/collections/hodinari/entries/hans-pohl"
@@ -4269,6 +4462,11 @@
         "slug": "heinrich-alexander-luz",
         "title": "Heinrich Alexander Luz",
         "editUrl": "/admin/#/collections/hodinari/entries/heinrich-alexander-luz"
+      },
+      {
+        "slug": "heinrich-sigmund",
+        "title": "Heinrich Sigmund",
+        "editUrl": "/admin/#/collections/hodinari/entries/heinrich-sigmund"
       },
       {
         "slug": "hipp-favarger",
@@ -4311,6 +4509,11 @@
         "editUrl": "/admin/#/collections/hodinari/entries/jan-mares"
       },
       {
+        "slug": "jan-pavlicek",
+        "title": "Jan Pavlíček",
+        "editUrl": "/admin/#/collections/hodinari/entries/jan-pavlicek"
+      },
+      {
         "slug": "jan-prokes-jr",
         "title": "Jan Prokeš ml.",
         "editUrl": "/admin/#/collections/hodinari/entries/jan-prokes-jr"
@@ -4321,9 +4524,24 @@
         "editUrl": "/admin/#/collections/hodinari/entries/jednotny-cas"
       },
       {
+        "slug": "jiri-valenta",
+        "title": "Jiří Valenta",
+        "editUrl": "/admin/#/collections/hodinari/entries/jiri-valenta"
+      },
+      {
         "slug": "johann-burk",
         "title": "Johann Bürk",
         "editUrl": "/admin/#/collections/hodinari/entries/johann-burk"
+      },
+      {
+        "slug": "johann-georg-hollmayer",
+        "title": "Johann Georg Hollmayer",
+        "editUrl": "/admin/#/collections/hodinari/entries/johann-georg-hollmayer"
+      },
+      {
+        "slug": "johann-hieff",
+        "title": "Johann Hieff",
+        "editUrl": "/admin/#/collections/hodinari/entries/johann-hieff"
       },
       {
         "slug": "johann-lissner",
@@ -4351,6 +4569,21 @@
         "editUrl": "/admin/#/collections/hodinari/entries/josef-prokes"
       },
       {
+        "slug": "josef-radda",
+        "title": "Josef Radda (rodina)",
+        "editUrl": "/admin/#/collections/hodinari/entries/josef-radda"
+      },
+      {
+        "slug": "joseph-kubicek",
+        "title": "Joseph Kubíček",
+        "editUrl": "/admin/#/collections/hodinari/entries/joseph-kubicek"
+      },
+      {
+        "slug": "joseph-nowack",
+        "title": "Joseph Nowack",
+        "editUrl": "/admin/#/collections/hodinari/entries/joseph-nowack"
+      },
+      {
         "slug": "julius-hiemann",
         "title": "Julius Hiemann",
         "editUrl": "/admin/#/collections/hodinari/entries/julius-hiemann"
@@ -4366,6 +4599,11 @@
         "editUrl": "/admin/#/collections/hodinari/entries/kavalir"
       },
       {
+        "slug": "kavkova",
+        "title": "Ing. Alena Kavková",
+        "editUrl": "/admin/#/collections/hodinari/entries/kavkova"
+      },
+      {
         "slug": "kohlert",
         "title": "Kohlert",
         "editUrl": "/admin/#/collections/hodinari/entries/kohlert"
@@ -4374,6 +4612,11 @@
         "slug": "l-hainz",
         "title": "L. Hainz (firma)",
         "editUrl": "/admin/#/collections/hodinari/entries/l-hainz"
+      },
+      {
+        "slug": "ladislav-faigl",
+        "title": "Ladislav Faigl",
+        "editUrl": "/admin/#/collections/hodinari/entries/ladislav-faigl"
       },
       {
         "slug": "lenzkirch",
@@ -4386,9 +4629,19 @@
         "editUrl": "/admin/#/collections/hodinari/entries/leopold-prokes"
       },
       {
+        "slug": "ludwig-leowill",
+        "title": "Ludwig Leowill",
+        "editUrl": "/admin/#/collections/hodinari/entries/ludwig-leowill"
+      },
+      {
         "slug": "martin-hruska",
         "title": "Martin Hruška",
         "editUrl": "/admin/#/collections/hodinari/entries/martin-hruska"
+      },
+      {
+        "slug": "martin-vogt",
+        "title": "Martin Vogt",
+        "editUrl": "/admin/#/collections/hodinari/entries/martin-vogt"
       },
       {
         "slug": "matthaus-hipp",
@@ -4404,6 +4657,11 @@
         "slug": "meinberg",
         "title": "Meinberg (firma)",
         "editUrl": "/admin/#/collections/hodinari/entries/meinberg"
+      },
+      {
+        "slug": "melanie-skalova",
+        "title": "Melanie Skálová",
+        "editUrl": "/admin/#/collections/hodinari/entries/melanie-skalova"
       },
       {
         "slug": "michael-christ",
@@ -4446,9 +4704,19 @@
         "editUrl": "/admin/#/collections/hodinari/entries/pavel-frejlich"
       },
       {
+        "slug": "peter-camaler",
+        "title": "Peter Camaler",
+        "editUrl": "/admin/#/collections/hodinari/entries/peter-camaler"
+      },
+      {
         "slug": "peter-fridrich",
         "title": "Peter Fridrich",
         "editUrl": "/admin/#/collections/hodinari/entries/peter-fridrich"
+      },
+      {
+        "slug": "peter-hader",
+        "title": "Peter Hader",
+        "editUrl": "/admin/#/collections/hodinari/entries/peter-hader"
       },
       {
         "slug": "petr-heinrich",
@@ -4521,9 +4789,19 @@
         "editUrl": "/admin/#/collections/hodinari/entries/schauer"
       },
       {
+        "slug": "sebastian-ecker",
+        "title": "Sebastian Ecker",
+        "editUrl": "/admin/#/collections/hodinari/entries/sebastian-ecker"
+      },
+      {
         "slug": "sebastian-landesberger",
         "title": "Sebastian Landesberger",
         "editUrl": "/admin/#/collections/hodinari/entries/sebastian-landesberger"
+      },
+      {
+        "slug": "simecek",
+        "title": "Šimeček",
+        "editUrl": "/admin/#/collections/hodinari/entries/simecek"
       },
       {
         "slug": "solari-udine",
@@ -4536,14 +4814,29 @@
         "editUrl": "/admin/#/collections/hodinari/entries/spel"
       },
       {
+        "slug": "theodor-jankowsky",
+        "title": "Theodor Jankowsky",
+        "editUrl": "/admin/#/collections/hodinari/entries/theodor-jankowsky"
+      },
+      {
         "slug": "thomas-fox",
         "title": "Thomas Fox / Safe and Vault Company Ltd.",
         "editUrl": "/admin/#/collections/hodinari/entries/thomas-fox"
       },
       {
+        "slug": "thomas-lampel",
+        "title": "Thomas Lampel",
+        "editUrl": "/admin/#/collections/hodinari/entries/thomas-lampel"
+      },
+      {
         "slug": "thomas-tompion",
         "title": "Thomas Tompion",
         "editUrl": "/admin/#/collections/hodinari/entries/thomas-tompion"
+      },
+      {
+        "slug": "tobias-ebner",
+        "title": "Tobias Ebner",
+        "editUrl": "/admin/#/collections/hodinari/entries/tobias-ebner"
       },
       {
         "slug": "vaclav-cepek",
@@ -4564,6 +4857,11 @@
         "slug": "videnska-polytechnika",
         "title": "Vídeňská polytechnika (dílna věžních hodin)",
         "editUrl": "/admin/#/collections/hodinari/entries/videnska-polytechnika"
+      },
+      {
+        "slug": "vladimir-jelinek",
+        "title": "Vladimír Jelínek",
+        "editUrl": "/admin/#/collections/hodinari/entries/vladimir-jelinek"
       },
       {
         "slug": "vlasta-filler",
@@ -4605,6 +4903,31 @@
         "editUrl": "/admin/#/collections/hodinari/entries/adolf-lange"
       },
       {
+        "slug": "alois-petrlak",
+        "title": "Alois Petrlák",
+        "editUrl": "/admin/#/collections/hodinari/entries/alois-petrlak"
+      },
+      {
+        "slug": "andreas-kugler",
+        "title": "Andreas Kugler",
+        "editUrl": "/admin/#/collections/hodinari/entries/andreas-kugler"
+      },
+      {
+        "slug": "anton-grasse",
+        "title": "Anton Grasse",
+        "editUrl": "/admin/#/collections/hodinari/entries/anton-grasse"
+      },
+      {
+        "slug": "antonin-stancl",
+        "title": "Antonín Štancl",
+        "editUrl": "/admin/#/collections/hodinari/entries/antonin-stancl"
+      },
+      {
+        "slug": "blasius-schuster",
+        "title": "Blasius Schuster",
+        "editUrl": "/admin/#/collections/hodinari/entries/blasius-schuster"
+      },
+      {
         "slug": "bodet",
         "title": "Bodet (firma)",
         "editUrl": "/admin/#/collections/hodinari/entries/bodet"
@@ -4635,11 +4958,6 @@
         "editUrl": "/admin/#/collections/hodinari/entries/elekon"
       },
       {
-        "slug": "engelbert-seige",
-        "title": "Engelbert Seige",
-        "editUrl": "/admin/#/collections/hodinari/entries/engelbert-seige"
-      },
-      {
         "slug": "ericsson",
         "title": "Ericsson",
         "editUrl": "/admin/#/collections/hodinari/entries/ericsson"
@@ -4650,14 +4968,44 @@
         "editUrl": "/admin/#/collections/hodinari/entries/eureka"
       },
       {
+        "slug": "frantisek-bozek",
+        "title": "František Božek",
+        "editUrl": "/admin/#/collections/hodinari/entries/frantisek-bozek"
+      },
+      {
+        "slug": "frantisek-lang",
+        "title": "František Lang",
+        "editUrl": "/admin/#/collections/hodinari/entries/frantisek-lang"
+      },
+      {
         "slug": "frantisek-rebicek",
         "title": "František Rebíček",
         "editUrl": "/admin/#/collections/hodinari/entries/frantisek-rebicek"
       },
       {
+        "slug": "franz-konig",
+        "title": "Franz König",
+        "editUrl": "/admin/#/collections/hodinari/entries/franz-konig"
+      },
+      {
+        "slug": "franz-xaver-bayer",
+        "title": "Franz Xaver Bayer",
+        "editUrl": "/admin/#/collections/hodinari/entries/franz-xaver-bayer"
+      },
+      {
         "slug": "george-graham",
         "title": "George Graham (Jiří Graham)",
         "editUrl": "/admin/#/collections/hodinari/entries/george-graham"
+      },
+      {
+        "slug": "hans-illichmann",
+        "title": "Hans Illichmann",
+        "editUrl": "/admin/#/collections/hodinari/entries/hans-illichmann"
+      },
+      {
+        "slug": "heinrich-sigmund",
+        "title": "Heinrich Sigmund",
+        "editUrl": "/admin/#/collections/hodinari/entries/heinrich-sigmund"
       },
       {
         "slug": "hipp-favarger",
@@ -4675,14 +5023,49 @@
         "editUrl": "/admin/#/collections/hodinari/entries/jan-mares"
       },
       {
+        "slug": "jan-pavlicek",
+        "title": "Jan Pavlíček",
+        "editUrl": "/admin/#/collections/hodinari/entries/jan-pavlicek"
+      },
+      {
+        "slug": "jiri-valenta",
+        "title": "Jiří Valenta",
+        "editUrl": "/admin/#/collections/hodinari/entries/jiri-valenta"
+      },
+      {
         "slug": "johann-burk",
         "title": "Johann Bürk",
         "editUrl": "/admin/#/collections/hodinari/entries/johann-burk"
       },
       {
+        "slug": "johann-georg-hollmayer",
+        "title": "Johann Georg Hollmayer",
+        "editUrl": "/admin/#/collections/hodinari/entries/johann-georg-hollmayer"
+      },
+      {
+        "slug": "johann-hieff",
+        "title": "Johann Hieff",
+        "editUrl": "/admin/#/collections/hodinari/entries/johann-hieff"
+      },
+      {
         "slug": "john-harrison",
         "title": "John Harrison",
         "editUrl": "/admin/#/collections/hodinari/entries/john-harrison"
+      },
+      {
+        "slug": "josef-radda",
+        "title": "Josef Radda (rodina)",
+        "editUrl": "/admin/#/collections/hodinari/entries/josef-radda"
+      },
+      {
+        "slug": "joseph-kubicek",
+        "title": "Joseph Kubíček",
+        "editUrl": "/admin/#/collections/hodinari/entries/joseph-kubicek"
+      },
+      {
+        "slug": "joseph-nowack",
+        "title": "Joseph Nowack",
+        "editUrl": "/admin/#/collections/hodinari/entries/joseph-nowack"
       },
       {
         "slug": "julius-hiemann",
@@ -4700,9 +5083,24 @@
         "editUrl": "/admin/#/collections/hodinari/entries/kavalir"
       },
       {
+        "slug": "kavkova",
+        "title": "Ing. Alena Kavková",
+        "editUrl": "/admin/#/collections/hodinari/entries/kavkova"
+      },
+      {
+        "slug": "ladislav-faigl",
+        "title": "Ladislav Faigl",
+        "editUrl": "/admin/#/collections/hodinari/entries/ladislav-faigl"
+      },
+      {
         "slug": "lenzkirch",
         "title": "Lenzkirch (firma)",
         "editUrl": "/admin/#/collections/hodinari/entries/lenzkirch"
+      },
+      {
+        "slug": "ludwig-leowill",
+        "title": "Ludwig Leowill",
+        "editUrl": "/admin/#/collections/hodinari/entries/ludwig-leowill"
       },
       {
         "slug": "matthaus-hipp",
@@ -4713,6 +5111,11 @@
         "slug": "meinberg",
         "title": "Meinberg (firma)",
         "editUrl": "/admin/#/collections/hodinari/entries/meinberg"
+      },
+      {
+        "slug": "melanie-skalova",
+        "title": "Melanie Skálová",
+        "editUrl": "/admin/#/collections/hodinari/entries/melanie-skalova"
       },
       {
         "slug": "milos-flossmann",
@@ -4738,6 +5141,16 @@
         "slug": "papouch",
         "title": "Papouch (firma)",
         "editUrl": "/admin/#/collections/hodinari/entries/papouch"
+      },
+      {
+        "slug": "peter-camaler",
+        "title": "Peter Camaler",
+        "editUrl": "/admin/#/collections/hodinari/entries/peter-camaler"
+      },
+      {
+        "slug": "peter-hader",
+        "title": "Peter Hader",
+        "editUrl": "/admin/#/collections/hodinari/entries/peter-hader"
       },
       {
         "slug": "petr-heinrich",
@@ -4785,9 +5198,24 @@
         "editUrl": "/admin/#/collections/hodinari/entries/schauer"
       },
       {
+        "slug": "sebastian-ecker",
+        "title": "Sebastian Ecker",
+        "editUrl": "/admin/#/collections/hodinari/entries/sebastian-ecker"
+      },
+      {
+        "slug": "simecek",
+        "title": "Šimeček",
+        "editUrl": "/admin/#/collections/hodinari/entries/simecek"
+      },
+      {
         "slug": "spel",
         "title": "Spel (firma)",
         "editUrl": "/admin/#/collections/hodinari/entries/spel"
+      },
+      {
+        "slug": "theodor-jankowsky",
+        "title": "Theodor Jankowsky",
+        "editUrl": "/admin/#/collections/hodinari/entries/theodor-jankowsky"
       },
       {
         "slug": "thomas-fox",
@@ -4795,14 +5223,29 @@
         "editUrl": "/admin/#/collections/hodinari/entries/thomas-fox"
       },
       {
+        "slug": "thomas-lampel",
+        "title": "Thomas Lampel",
+        "editUrl": "/admin/#/collections/hodinari/entries/thomas-lampel"
+      },
+      {
         "slug": "thomas-tompion",
         "title": "Thomas Tompion",
         "editUrl": "/admin/#/collections/hodinari/entries/thomas-tompion"
       },
       {
+        "slug": "tobias-ebner",
+        "title": "Tobias Ebner",
+        "editUrl": "/admin/#/collections/hodinari/entries/tobias-ebner"
+      },
+      {
         "slug": "vaclav-cepek",
         "title": "Václav Čepek",
         "editUrl": "/admin/#/collections/hodinari/entries/vaclav-cepek"
+      },
+      {
+        "slug": "vladimir-jelinek",
+        "title": "Vladimír Jelínek",
+        "editUrl": "/admin/#/collections/hodinari/entries/vladimir-jelinek"
       },
       {
         "slug": "vlasta-filler",
@@ -4830,6 +5273,41 @@
         "slug": "1700-pomezi-nad-ohri-jakub-vetsi",
         "title": "1700-pomezi-nad-ohri-jakub-vetsi",
         "editUrl": "/admin/#/collections/soupis-veznich-hodin/entries/1700-pomezi-nad-ohri-jakub-vetsi"
+      },
+      {
+        "slug": "1882-trebovice-ve-slezsku-kostel",
+        "title": "1882-trebovice-ve-slezsku-kostel",
+        "editUrl": "/admin/#/collections/soupis-veznich-hodin/entries/1882-trebovice-ve-slezsku-kostel"
+      },
+      {
+        "slug": "1888-kraslice-radnice",
+        "title": "1888-kraslice-radnice",
+        "editUrl": "/admin/#/collections/soupis-veznich-hodin/entries/1888-kraslice-radnice"
+      },
+      {
+        "slug": "1901-hradek-nad-nisou-chram-pokoje",
+        "title": "1901-hradek-nad-nisou-chram-pokoje",
+        "editUrl": "/admin/#/collections/soupis-veznich-hodin/entries/1901-hradek-nad-nisou-chram-pokoje"
+      },
+      {
+        "slug": "1903-krnov-evangelicky-kostel",
+        "title": "1903-krnov-evangelicky-kostel",
+        "editUrl": "/admin/#/collections/soupis-veznich-hodin/entries/1903-krnov-evangelicky-kostel"
+      },
+      {
+        "slug": "1935-velenice-svata-anezka",
+        "title": "1935-velenice-svata-anezka",
+        "editUrl": "/admin/#/collections/soupis-veznich-hodin/entries/1935-velenice-svata-anezka"
+      },
+      {
+        "slug": "kristianov-liberec-zakladni-skola",
+        "title": "kristianov-liberec-zakladni-skola",
+        "editUrl": "/admin/#/collections/soupis-veznich-hodin/entries/kristianov-liberec-zakladni-skola"
+      },
+      {
+        "slug": "nedatovano-pouchov-prokes",
+        "title": "nedatovano-pouchov-prokes",
+        "editUrl": "/admin/#/collections/soupis-veznich-hodin/entries/nedatovano-pouchov-prokes"
       }
     ],
     "duplicates": []

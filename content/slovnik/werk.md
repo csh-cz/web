@@ -16,7 +16,7 @@ varianty:
 definice: "Vlastní **mechanický stroj** hodin — soukolí, krok, oscilátor, perovník, krokové kolo a ručky — bez pouzdra a ciferníku. V kapesních / náramkových hodinkách obvykle synonymum s **kalibrem** v konkrétní instanci (kalibr je typ, werk je kus)."
 pribuzne:
   - kalibr
-  - soukolí
+  - soukoli
 ---
 
 ## Výklad

@@ -14,9 +14,9 @@ varianty:
   - "schody** (regionálně)"
 definice: "V bicím stroji s početníkem **kotouč ve tvaru schodů** (nebo spirálovité šnečí formy) o 12 výškách, spojený přímo s hodinovou ručkou. Hloubka, do níž **početník** vypadne, závisí na výšce schůdku, který je v daném okamžiku pod ramenem početníku."
 pribuzne:
-  - bicí-stroj
-  - početník
-  - posůvka
+  - bici-stroj
+  - pocetnik
+  - posuvka
 ---
 
 ## Výklad

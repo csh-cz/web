@@ -19,7 +19,7 @@ varianty:
   - "rubín** (zkrátka)"
 definice: "Drobné válcovité ložisko z **uměle pěstovaného rubínu** (korund, Al₂O₃ s příměsí Cr) zaražené do desky nebo můstku, které **snižuje tření** čepu otáčejícího se kola. V současnosti standardní řešení u všech kvalitních mechanických hodin."
 pribuzne:
-  - setrvačka
+  - setrvacka
   - paleta
   - krok
   - chronometr

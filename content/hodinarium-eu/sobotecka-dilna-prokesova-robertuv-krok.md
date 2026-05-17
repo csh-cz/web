@@ -117,7 +117,7 @@ Aktuální nejstarší dochovaný Prokešův stroj s Robertovým krokem je **Byc
 
 | Rok | Lokalita | Poznámka |
 |---|---|---|
-| **1868** | [Bychory u Kolína (zámek)](/soupis-veznich-hodin/bychory-prokes1) | dnes [Hodinárium Děčín inv. 2](/sbirka/karta/inv-2-vezni-prokes-1868-soubor/); nejstarší dochovaný Prokešův Robertův krok |
+| **1868** | [Bychory u Kolína (zámek)](/soupis-veznich-hodin/1868-bychory-prokes) | dnes [Hodinárium Děčín inv. 2](/sbirka/karta/inv-2-vezni-prokes-1868-soubor/); nejstarší dochovaný Prokešův Robertův krok |
 | 1869 | Dymokury (zámek) | funkční |
 | **1879** | Markvartice (kostel sv. Jiljí) | přestavba barokního stroje 1788 na Robertův krok |
 | 1880 | Hořice | 700 zl. |

@@ -12,8 +12,8 @@ prekladyFr:
   - term: came en cœur
 definice: "V bicím stroji typu II („s početníkem a stupnicí\") **kotoučová součást ve tvaru srdce nebo s obdobným profilem**, do níž zapadá raménko zapadací; jedno otočení srdcovky odpovídá jednomu úderu kladívka."
 pribuzne:
-  - bicí-stroj
-  - početník
+  - bici-stroj
+  - pocetnik
   - posuvka
 ---
 

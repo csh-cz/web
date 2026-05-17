@@ -12,7 +12,7 @@ prekladyFr:
     genus: f
 definice: "Hodinářská tradice **Anglie** (zejména Londýn) — **vrchol přesné mechaniky 17.–18. století** (Tompion, Graham, Mudge, Arnold, Earnshaw, Harrison). Kolébka **klidového kroku, chronometru, duplex kroku, kompenzační setrvačky**. Specifická pro **konzervatismus** (držela šnek do 19. století, odmítala válečkový krok) a **vědecký přesah** (Royal Society, Greenwich)."
 pribuzne:
-  - hodinář
+  - hodinar
   - chronometr
 ---
 

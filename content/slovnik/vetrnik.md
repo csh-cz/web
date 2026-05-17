@@ -21,7 +21,7 @@ varianty:
   - archaicky)
 definice: "Lopatkovité kolo (obvykle dvoukřídlé) na konci soukolí bicího stroje, jehož vzdušný odpor brzdí rychlost otáčení a tím **reguluje rychlost úderů kladívka**."
 pribuzne:
-  - bicí-stroj
+  - bici-stroj
   - kotva
 ---
 

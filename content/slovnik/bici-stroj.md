@@ -14,10 +14,10 @@ prekladyFr:
     genus: f
 definice: "Soukolí samostatné od jicího stroje, jehož úkolem je v pravidelných intervalech (celé hodiny, půle, čtvrtě) udeřit kladívkem na cymbál a tím zvukem oznámit čas."
 pribuzne:
-  - kladívko
-  - cymbál
-  - kolo-závěrkové
-  - početník
+  - kladivko
+  - cymbal
+  - kolo-zaverkove
+  - pocetnik
   - srdcovka
   - posuvka
   - spoust

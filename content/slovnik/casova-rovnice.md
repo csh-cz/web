@@ -18,8 +18,8 @@ varianty:
   - "rovnice časová** (Sladkovský)"
 definice: "Rozdíl mezi **pravým slunečním časem** (skutečnou polohou Slunce nad poledníkem) a **středním slunečním časem** (rovnoměrnou „strojovou\" hodinou). Hodnota časové rovnice se v průběhu roku mění od cca **−14 min** (kolem 12. února) do **+16 min** (kolem 3. listopadu)."
 pribuzne:
-  - sluneční-hodiny
-  - gnómon
+  - slunecni-hodiny
+  - gnomon
 ---
 
 ## Výklad
