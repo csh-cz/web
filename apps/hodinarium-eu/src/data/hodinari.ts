@@ -1695,7 +1695,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Jáchymov',
     zeme: 'CZ',
     shrnuti:
-      'Hodinář a restaurátor mechanických přístrojů z Jáchymova (Karlovarský kraj), sídlo Boženy Němcové 606. Licence MK ČR č. 6214/99 z 24. 6. 1999. V letech 2013–2014 zrestauroval ručně kovaný věžní stroj z počátku 17. století z kostela sv. Jakuba Většího v Pomezí nad Ohří — stroj prošel dle dochovaných stop nejméně třemi přestavbami kroku (lihýřový → vřetenový → kotvový s kyvadlem).',
+      'Hodinář a restaurátor mechanických přístrojů z Jáchymova (Karlovarský kraj). Licence MK ČR č. 6214/99 z 24. 6. 1999. V letech 2013–2014 zrestauroval ručně kovaný věžní stroj z počátku 17. století z kostela sv. Jakuba Většího v Pomezí nad Ohří — stroj prošel dle dochovaných stop nejméně třemi přestavbami kroku (lihýřový → vřetenový → kotvový s kyvadlem).',
     relatedSlugs: [],
     era: 'soucasnost',
   },
@@ -2035,7 +2035,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Karlovy Vary',
     zeme: 'CZ',
     shrnuti:
-      'Restaurátorka hodinových strojů a historických přístrojů z Karlových Varů s licencí MK ČR od 20. 11. 1990 (rozh. č. 12371/90). Doložené realizace: Václav Krečmer 1906 Budětice a Jan Prokeš v pražském Klementinu.',
+      'Restaurátorka hodinových strojů a historických přístrojů z Karlových Varů s licencí MK ČR od 20. 11. 1990 (rozh. č. 12371/90, viz [rejstřík MK ČR](https://rrkp.mkcr.cz/rejstrik/fxJa0xd)). Doložené realizace: Václav Krečmer 1906 Budětice a Jan Prokeš v pražském Klementinu.',
     relatedSlugs: [],
     era: 'soucasnost',
   },
