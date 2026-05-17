@@ -46,7 +46,7 @@ import { fileURLToPath } from 'node:url';
 import { parse as parseYaml } from 'yaml';
 
 /** Minimální frontmatter parser bez extra deps — split na ---/--- a YAML parse. */
-function parseFrontmatter(raw: string): Record<string, unknown> {
+export function parseFrontmatter(raw: string): Record<string, unknown> {
   const m = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
   if (!m) return {};
   return parseYaml(m[1]) as Record<string, unknown>;
@@ -58,7 +58,7 @@ const ROOT = join(__dirname, '..');
 const SLOVNIK_DIR = join(ROOT, 'content', 'slovnik');
 const OUT = join(ROOT, 'apps', 'hodinarium-eu', 'public', 'dictionary-index.json');
 
-interface VariantaStruct {
+export interface VariantaStruct {
   term: string;
   status: string;
   note?: string;
@@ -85,7 +85,7 @@ interface DictionaryEntry {
 }
 
 /** Normalizuje varianta na strukturovaný formát (i z legacy string array). */
-function normalizeVarianta(v: unknown): VariantaStruct {
+export function normalizeVarianta(v: unknown): VariantaStruct {
   if (typeof v === 'string') {
     return { term: v, status: 'admitted' };  // legacy default: admitted (nikoli preferred — preferred musí být explicit)
   }
@@ -100,6 +100,9 @@ function normalizeVarianta(v: unknown): VariantaStruct {
   }
   return { term: String(v), status: 'admitted' };
 }
+
+/** Spuštění jen pokud byl skript spuštěn přímo (ne importován z testů). */
+const isMain = import.meta.url === `file://${process.argv[1]}`;
 
 async function main() {
   const files = await readdir(SLOVNIK_DIR);
@@ -187,7 +190,9 @@ async function main() {
   console.log(`  stubs: ${stubs}, redirects: ${redirects}, conceptId: ${withConcept}, vyznamy: ${withVyznamy}, atestace: ${withAtestace}`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+if (isMain) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

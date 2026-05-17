@@ -343,6 +343,38 @@ const summary = {
 await writeFile(jsonPath, JSON.stringify(summary, null, 2) + '\n');
 console.error(`✓ JSON report: ${relative(ROOT, jsonPath)}`);
 
+/**
+ * Pro Sveltia editor (A.21 V2 follow-up): kompaktní index dead links
+ * per file path, načtený přes `csh-dead-links.js` widget v editoru.
+ *
+ * Pouze dead URLs (ne full findings), seskupené per source file.
+ * Lehčí než full JSON (filter pro per-article view).
+ */
+const editorIndexPath = join(ROOT, 'apps/hodinarium-eu/public/admin/dead-links-latest.json');
+await mkdir(dirname(editorIndexPath), { recursive: true });
+const byFileIndex = {};
+for (const f of deadUrls) {
+  for (const s of f.sources) {
+    if (!byFileIndex[s.file]) byFileIndex[s.file] = [];
+    byFileIndex[s.file].push({
+      url: f.url,
+      status: f.status,
+      error: f.error,
+      context: s.context,
+      field: s.field,
+      wayback: f.wayback,
+    });
+  }
+}
+const editorIndex = {
+  generatedAt: summary.generatedAt,
+  deadCount: summary.deadCount,
+  withWaybackCount: summary.withWaybackCount,
+  byFile: byFileIndex,
+};
+await writeFile(editorIndexPath, JSON.stringify(editorIndex, null, 2) + '\n');
+console.error(`✓ Sveltia editor index: ${relative(ROOT, editorIndexPath)} (${Object.keys(byFileIndex).length} souborů s dead links)`);
+
 if (JSON_ONLY) {
   console.log(JSON.stringify(summary, null, 2));
   process.exit(0);
