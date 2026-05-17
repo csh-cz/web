@@ -19,21 +19,16 @@ Pokračování slovník MVP (57 hesel) metodou Zotero MCP semantic search +
 verbatim grep v plaintextech (Šumavský 1851, Špatný 1882, Sušický 1900,
 Sladkovský 1947).
 
-- [ ] **SL7 — `krok` Bureš 1965 dělení** ⚠ **blocker** (potvrzeno 2026-05-17):
-      `Bureš J., Hodinové stroje I (SPN, Praha 1965)` je v references.json
-      jako metadata (citation-key `buresHodinoveStroje1965`), ale **PDF v Zotero
-      storage chybí**. Semantic search vrátí jen díly II (1982, `EHKQXJFB`)
-      a III (1974, `WDDY29VD`) — díl I není indexovaný protože nemá fulltext.
+- [x] **SL7 — `krok` Bureš 1965 dělení** — hotov 2026-05-17.
+      PDF Bureš 1965 doplněno do Zotero (`G8KJDSAC`) + OCR text
+      `~/Zotero/storage/G8KJDSAC/Bureš - 1965 - Hodinové stroje I.PDF.ocr.txt`.
+      Do `content/slovnik/krok.md` doplněna sekce „Rozdělení kroků (Bureš 1965)"
+      s tabulkou 3 základních skupin (vratné/klidové/volné) podle Bureše s.97
+      + dlouhá citace v Reference sekci.
 
-      Akce pro Davida: dohledat fyzický exemplář Bureš 1965, naskenovat /
-      najít už existující scan (digiBooks.cz? Národní knihovna ČR Kramerius?
-      antikvariát Karolinum?) a doplnit PDF do Zotero `buresHodinoveStroje1965`
-      attachment. Pak rebuild semantic index (`pnpm search:rebuild`) a SL7
-      lze dokončit.
-
-      **Mezitím:** pro citaci kroků v `slovnik/krok.md` lze provizorně použít
-      **Sladkovský 1947** (`VIBRCUZT`, máme fulltext) — má kompletní výklad
-      kroků. Bureš 1965 by přidal jen verifikaci dělení do moderní typologie.
+      **Pro rebuild semantic index:** spustit `pnpm search:rebuild` aby
+      Bureš 1965 byl dostupný v `mcp__zotero-mcp__semantic_search` výsledcích
+      (dnes zatím není indexován vektorově, jen filesystem OCR).
 
 Po každé etapě spustit `pnpm slovnik:auto-link` (přibyly hesla → znovu
 prosvítit články) a `pnpm search:rebuild` (corpus + embed).

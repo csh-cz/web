@@ -34,7 +34,19 @@ Krok je **centrálním pojmem hodinářské konstrukce** — přesnost hodin je 
 
 V češtině termín **„krok"** razil Špatný 1882 (před tím se používaly kalky z němčiny: „hák anglický" pro anglický kotvový krok, „spravovací stroj v hodinkách" pro Hemmung obecně, viz Šumavský 1851). Etymologicky pravděpodobně z analogie pravidelného kráčení.
 
-Hlavní typy kroků (chronologicky):
+## Rozdělení kroků (Bureš 1965)
+
+Hodinářská učebnice **Bureš J., *Hodinové stroje I*** (SPN, Praha 1965, s. 97) zavádí pro výuku 1. ročníku hodinářského učebního oboru **standardní dělení na tři skupiny** podle chování krokového kola při překyvu kyvadla:
+
+| Skupina | Charakteristika | Příklady |
+|---|---|---|
+| **Vratné kroky** | Po dopadu zubu na paletu kotva při překyvu kyvadla **vrací krokové kolo poněkud zpět**. | vřetenový, sloupkový, černoleský, kolíčkový (Brocot), kotoučkový |
+| **Klidové kroky** | Kotva při překyvu **nevrací zub zpět**, krokové kolo zůstává v klidu. | Grahamův, Brocotův kolíčkový, Amantův kolíčkový |
+| **Volné kroky** | Regulátor přichází do styku s krokovým kolem **jen v okamžiku impulsu**, dále kýve volně. | chronometrový (Le Roy, Earnshaw), volný kotvový (Mudge), válečkový |
+
+V opravářské praxi se podle Bureše ve vratných krocích setkáme s pěti typy (v.k., sloupkový, černoleský, kolíčkový, kotoučkový — *„částečně vratný"*). U klidových přidává **dvojí druh kotvy** (Grahamova × Amantova). Kuriozity řadí do skupin **diferenciálních** a **zarážkových** (přímé i nepřímé).
+
+## Hlavní typy kroků (chronologicky)
 - **vřetenový krok** (~13. stol., anonymně)
 - **kotvový krok** (Robert Hooke / William Clement, ~1670)
 - **Grahamův krok / klidový** (George Graham, 1715)
@@ -49,6 +61,9 @@ Hlavní typy kroků (chronologicky):
 [kotva](#kotva), [krokové kolo], [paleta], [vidlička kotvy], [vřetenový krok], [kotvový krok], [Grahamův krok]
 
 ## Reference
+
+> „Kroky dělíme na několik skupin: podle provedení krokového kola a kotvy, podle přenosu síly na regulátor, nebo podle vynálezce. Vžité je rozdělení podle toho, jak se chová krokové kolo při překyvu kyvadla. … Podle zmíněného hlediska, jak se chová krokové kolo při překyvu kyvadla, dělíme kroky do tří základních skupin: 1. kroky vratné, 2. kroky klidové, 3. kroky volné."
+> — BUREŠ, Josef. *Hodinové stroje I — pro 1. ročník odborných učilišť a učňovských škol, učební obor 0463 hodinář, hodinářka.* Státní pedagogické nakladatelství, Praha 1965, s. 97. [Zotero `buresHodinoveStroje1965`]
 
 > „Robertův krok je klidový kotvový krok s kolíčkovým krokovým kolem a se středově umístěnou kotvou."
 > — KNESPL, David. *Robertův krok – oprava chybného označení hodinového kroku.* Zpravodaj Společnosti přátel starožitných hodin, 38/2023, s. 10. [Zotero `SFQ3RQTR`]
