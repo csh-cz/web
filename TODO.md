@@ -19,6 +19,42 @@ Pokračování slovník MVP (57 hesel) metodou Zotero MCP semantic search +
 verbatim grep v plaintextech (Šumavský 1851, Špatný 1882, Sušický 1900,
 Sladkovský 1947).
 
+- [ ] **H1 — 14 stub medailonů hodinářů z Jubilejní výstavy 1891**
+      (~6 h, navrženo 2026-05-18). Dobový katalog *Jubilejní výstava
+      zemská království Českého v Praze 1891* (Google Books `S9tvQy_8o8EC`,
+      s. 587) zmiňuje hodinářskou sekci se 17 vystavovateli — máme medailony
+      jen pro 3 (Hainz, Mareš, Adamec — všichni updated 2026-05-18 s 1891).
+      Zpracováno v článku `content/hodinarium-eu/jubilejni-vystava-zemska-1891-hodinari.md`.
+
+      **Chybí 14 stub medailonů** (jména + lokality + jediná dobová zmínka 1891):
+
+      | Jméno | Lokalita | Exponát 1891 | Priorita |
+      |---|---|---|---|
+      | Karel Suchý a synové | Praha (dvorní dodavatelé) | měsíční opakovací gotika, roční hodiny | vysoká |
+      | Bart. Štěpánovský | Kolín | velké astronomické hodiny s vyrovnávacím kyvadlem | vysoká |
+      | V. Červený | Plzeň | elektrické hodiny, sokolské, pendlovky 7 měsíců | vysoká |
+      | Jindřich Havlíček | Praha | měsíční čtvrťové opakovačky | střední |
+      | Fr. Donát | Nymburk | renaissanční + barokní | střední |
+      | Ferd. Diepold | Mšec | hodiny na 2 roky, datum dne+měsíce | střední |
+      | Otakar Šťastný | Praha | posunovací, hodiny s globem, dekorační | střední |
+      | Petr Hajný + Jos. Patera | Jičín | roční hodiny (společný výrobek) | střední |
+      | Lad. Plný | Kolín | roční hodiny | nízká |
+      | G. Becker | Broumov | budíky (továrník) | nízká |
+      | Č. Acht | Chomutov | chronometr | nízká |
+      | Fr. Křivánek | Žižkov | pendlovky | nízká |
+      | Jan Dušek | Zásmuky | „zvláštní ukazování hodin a minut" | nízká |
+      | Václav Šťastný | Praha | pouzdra na hodinky | nízká |
+      | V. Hrdý | Nová Paka | model Pražského orloje | nízká (kuriozita) |
+
+      Pro každý stub: jméno, lokalita, dobová zmínka z katalogu 1891,
+      reference na článek `jubilejni-vystava-zemska-1891-hodinari` v
+      hodinarium-eu, isStub: true, editorNotes.todo s pokyny pro dohledání
+      (matriky, regionální archivy, sbírky muzeí).
+
+      **Workflow:** vytvořit batch 5–10 stubů per session; po každém spustit
+      `pnpm validate:content` + dict:build. Postupně doplnit z dalších
+      pramenů (Hellichův soupis 1917, regionální tisk, NPÚ pamatkovy katalog).
+
 - [x] **SL7 — `krok` Bureš 1965 dělení** — hotov 2026-05-17.
       PDF Bureš 1965 doplněno do Zotero (`G8KJDSAC`) + OCR text
       `~/Zotero/storage/G8KJDSAC/Bureš - 1965 - Hodinové stroje I.PDF.ocr.txt`.
