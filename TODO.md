@@ -460,9 +460,33 @@ Plný design + zamítnutí ChatGPT návrhu v session transcriptu
 
 ## A.7 — Tech dluh (větší)
 
-- [ ] **D1 Test coverage** — Vitest setup pro `scripts/*.ts`
-      (parse-soupis, build-redirects, apply-popisy, migrate-renumbering),
-      snapshot testy pro layouty (~3 h).
+- [ ] **D2 Pre-push CI check** (~1 h) — **vysoká priorita po incidentu
+      2026-05-17**. Cloudflare Pages deploy byl od 7. května zaseknutý
+      (`prebuild` step `build-cross-refs --strict` selhával na 82 broken
+      cross-refs), nikdo si nevšiml — live web 10 dní bez nových commitů.
+
+      Akce: GitHub Actions workflow `.github/workflows/validate-content.yml`
+      který spouští na každý push do main:
+      ```yaml
+      - run: pnpm install
+      - run: node scripts/validate-content.mjs       # broken refs / dupl. keys
+      - run: pnpm --filter hodinarium-eu astro check  # types + content schema
+      - run: pnpm --filter hodinarium-eu build         # full build (~30 s)
+      ```
+      Failed run = červený GH badge na PR + email notif. Tím se zachytí
+      regrese před tím, než trapped Cloudflare deploy. Stejný workflow
+      pro horologie-cz.
+
+      Bonus: pridať `pnpm test:unit` (D1 hotov, 10 testů) jako quality gate.
+
+- [partial] **D1 Test coverage** — V1 hotov 2026-05-17 (commit 8629ecdc):
+      Vitest 3.2.4 setup, 10 testů v `scripts/__tests__/build-dictionary-index.test.ts`
+      (parseFrontmatter, normalizeVarianta), `pnpm test:unit` + `pnpm test:unit:watch`.
+
+      **V2 follow-up:** snapshot testy pro layouty + testy pro
+      další build scripts (parse-soupis, build-redirects, apply-popisy,
+      migrate-renumbering, audit-dead-links). Cílit na ~60 % coverage
+      pro `scripts/` (dnes ~10 %). Bonus: hookat do D2 CI workflow.
 - [x] **R2 image variants pipeline** (hotovo 2026-05-11)
       Krok 1+2+V2 hotov. R2 bucket `csh-imgvariants` naplněn (5684 variant,
       367 MB = 4% free), `<picture>` wrap aktivní v obou apps s
