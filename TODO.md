@@ -200,6 +200,78 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
 - [ ] **Live ciferník na titulce** — SVG zobrazující aktuální stav
       astrolábu (sun/moon position).
 
+- [ ] **A.25 Sjednocený image systém + náhrada Highslide** (~3 dny,
+      navrženo 2026-05-17). Plný návrh v memory note
+      `feedback_image_system.md` + skill `obrazky/SKILL.md`. Krátce:
+      sjednotit 4 dnešní renderingové cesty (články, sbírkové karty,
+      soupis, hodinari) do jednoho systému se sdíleným lightboxem,
+      galerií a credit overlay. Nahradit Highslide ze staré stránky
+      (z 2007, neudržovaný od 2012). Plán emailu pro Petra:
+      `audit-pro-petra.md` nebo v memory.
+
+      **Vrstvy:**
+      - L2 normalizace: jeden `ImageData` typ pro markdown `![]()`,
+        direktivu `::photo`, schema `foto[]` i `portret`.
+      - L3 komponenty: `<ResponsivePicture/>` (už máme části přes
+        R2 variants, viz `R2 image variants pipeline` níže —
+        `imgvariants:build` + `cdnBase`), `<ImageCard/>` (overlay
+        credit z `Photo`, tone-aware), `<Gallery/>` (grid + sdílený
+        `<dialog>` lightbox všude, klávesnice + swipe + ESC).
+      - L4 layout: `ArticleImageBehavior` zúžit na ~250 řádků
+        (z dnešních 618), oddělit `CollectionFotoGrid` a
+        `ThumbnailList` pro non-article kontexty.
+
+      **Migrace markdown:** remark plugin v build pipeline transformuje
+      `![]()` na `<ResponsivePicture/>` server-side — autoři dál píší
+      obyčejný markdown, ale browser dostane `<picture>` se všemi
+      variantami. Nula práce pro editora.
+
+      **Highslide phase-out:** v legacy PHP webu `hodinarium.eu` je
+      Highslide ~80 KB JS + CSS, draggable popupy, na mobilu nepoužitelný,
+      bez a11y. Nový lightbox je native `<dialog>`, ~3 KB JS, mobile-first,
+      ARIA labels.
+
+      **Závislosti:**
+      - A.9 DNS switch (potom přejmenovat R2 cdnBase z `pub-…r2.dev`
+        na `imgcdn.<doména>`)
+      - bez závislosti na A.26 (XMP migrace) — tu lze dělat paralelně
+
+- [ ] **A.26 Plná migrace všech fotek na R2 + XMP metadata** (~2 dny,
+      navrženo 2026-05-17). Dnes je v R2 jen `csh-imgvariants` bucket
+      s AVIF/WebP varianty (367 MB), originální JPG jsou stále v gitu
+      v `public/img/` (2 822 souborů, stovky MB). Cíl: přesunout
+      originály do druhého R2 bucketu (`csh-images` nebo do stejného)
+      + zapsat XMP metadata do binárních souborů.
+
+      **Free tier R2 (ověřeno 2026-05-17):** 10 GB úložiště měsíčně
+      zdarma, 1M Class A + 10M Class B operations zdarma, **egress vždy
+      úplně zdarma** (i nad limit). Naše ~400 MB je 25× pod limit.
+      Cena nad limit: $0.015/GB-měsíc (symbolické).
+
+      **Kroky:**
+      1. Build script `migrate-originals-to-r2.ts` — upload `public/img/*`
+         do R2 s `x-amz-meta-*` headers (author, license, source URL,
+         checksum). Idempotent.
+      2. Před uploadem: pro každý soubor zavolat `exiftool` a zapsat
+         XMP do binárky (autor, licence, zdroj, rok). Helper script
+         `embed-xmp-from-frontmatter.ts` — čte credit z `foto[]` /
+         `Photo` direktiv / hodinari `portret` + propojené credit.
+      3. `<ResponsivePicture/>` přepnout originály na R2 URL přes
+         existing `cdnBase` config (žádný nový kód).
+      4. Po validaci (1 měsíc dual-running) → `git rm -r public/img/`.
+         Repo zhubne o stovky MB; clone bude rychlejší o ~30 s.
+      5. Sveltia CMS upload widget: přepnout z git-commit binárek
+         na R2 signed URL upload (custom CMS widget, ~1 den práce).
+
+      **Metadata strategie trojvrstvě:** XMP v binárce (čte Photoshop /
+      Lightroom + náš build pipeline přes `exifr`), R2 custom metadata
+      (rychlý lookup bez stahování), frontmatter `alt`/`caption`
+      (povinný pro a11y, kontext-specific).
+
+      **Akce pro Davida:** schválit přesun bucketu (eventuálně použít
+      `csh-imgvariants` jako single bucket pro vše místo dvou).
+      Připravit `imgcdn.<doména>` DNS po A.9.
+
 ## A.7 — Tech dluh (větší)
 
 - [ ] **D1 Test coverage** — Vitest setup pro `scripts/*.ts`
