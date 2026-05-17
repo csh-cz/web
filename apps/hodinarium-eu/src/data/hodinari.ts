@@ -1648,6 +1648,19 @@ export const hodinari: Hodinar[] = [
     era: 'soucasnost',
   },
   {
+    slug: 'opp-vyskov',
+    jmeno: 'OPP Vyškov',
+    aliasy: ['OPP Vyškov', 'OPP Vyškov na Moravě', 'Okresní průmyslový podnik Vyškov'],
+    typ: 'firma',
+    obdobi: '~1960–1992',
+    mesto: 'Vyškov',
+    zeme: 'CZ',
+    shrnuti:
+      'Socialistický Okresní průmyslový podnik ve Vyškově — výrobce věžních hodin s elektrickým pohonem v 70.–80. letech 20. století. Jediný systematický cs poválečný výrobce velkých mechanických hodin. Typové řady 230 C a 280 B s logem věže vyškovské radnice na kontrolním číselníku. Dodávky pro radnice, kostely, instituce po celé ČSSR. Zanikl kolem 1992 v rámci ekonomické transformace.',
+    relatedSlugs: [],
+    era: '20stol',
+  },
+  {
     slug: 'elias-mathias-landesberger',
     jmeno: 'Elias Mathias Landesberger',
     aliasy: ['Elias Mathias Landesberger', 'Eliáš Landesperger', 'Eliáš Landesberger', 'E. Landesberger'],
@@ -1747,7 +1760,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Poděbrady',
     zeme: 'CZ',
     shrnuti:
-      'Poděbradský hodinářský mistr přelomu 19. a 20. století. Sedm doložených věžních strojů v Polabí: Slověč 1886, Libice nad Cidlinou 1895, Kostomlátky 1896, Opolany 1898, plus nedatované Veleliby, Vrbice a Činěves. Konstrukce v tradici poděbradské školy navazující na [Jana Janatu](/hodinari/jan-janata). Jeden Marešův stroj (Opolany) zrestauroval Petr Skála v ateliéru veznihodiny.cz.',
+      'Poděbradský hodinářský mistr přelomu 19. a 20. století. Sedm doložených strojů v Polabí (Slověč 1886, Libice n. C. 1895, Kostomlátky 1896, Opolany 1898, plus nedat. Veleliby, Vrbice, Činěves) + Kunratice u Liberce (atribuce 2023, restauroval [Jan Marek](/hodinari/jan-marek) za 333 300 Kč ze sbírky). Konstrukce v tradici poděbradské školy navazující na [Jana Janatu](/hodinari/jan-janata).',
     relatedSlugs: [],
     era: 'prelom',
   },
