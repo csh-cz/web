@@ -1,0 +1,5675 @@
+{
+  "_meta": {
+    "generated": "2026-05-17T11:23:01.045Z",
+    "count": 153,
+    "stubs": 84,
+    "redirects": 5,
+    "withConceptId": 10,
+    "withVyznamy": 0,
+    "withAtestace": 1,
+    "schema_version": "1.0",
+    "description": "Slovník hodinářské terminologie — Hodinárium. Pro AI agenty, MCP server, terminology lint."
+  },
+  "entries": {
+    "anglicka-skola": {
+      "lemma": "anglická škola",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Englische Schule",
+            "genus": "f"
+          }
+        ],
+        "en": [
+          {
+            "term": "English school"
+          }
+        ],
+        "fr": [
+          {
+            "term": "école anglaise",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Hodinářská tradice **Anglie** (zejména Londýn) — **vrchol přesné mechaniky 17.–18. století** (Tompion, Graham, Mudge, Arnold, Earnshaw, Harrison). Kolébka **klidového kroku, chronometru, duplex kroku, kompenzační setrvačky**. Specifická pro **konzervatismus** (držela šnek do 19. století, odmítala válečkový krok) a **vědecký přesah** (Royal Society, Greenwich).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hodinář",
+        "chronometr"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "astrolab": {
+      "lemma": "astroláb",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "astroláb",
+          "status": "admitted"
+        },
+        {
+          "term": "astrolabium",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Astrolabium",
+            "genus": "n"
+          }
+        ],
+        "en": [
+          {
+            "term": "astrolabe"
+          }
+        ],
+        "fr": [
+          {
+            "term": "astrolabe",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Středověký astronomický přístroj k měření výšky hvězd, identifikaci nebeských těles a výpočtu času. Sestává z **matkové desky (mater)** s kruhovou stupnicí, **tympanonu** (vyměnitelná deska pro konkrétní geografickou šířku), **rete** (pohyblivá mapa nebeské sféry) a **alidády** (otáčivé pravítko). U mechanických orlojů tvoří princip astrolábu základ astronomického ciferníku — Pražský orloj 1410, Olomoucký orloj 15. století.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "sphera",
+        "zodiak",
+        "orloj"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "automatic": {
+      "lemma": "automatic (samonatahovací)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "hodinky",
+      "varianty": [
+        {
+          "term": "automatic",
+          "status": "admitted"
+        },
+        {
+          "term": "samonatahovací** (preferovaný cs ekvivalent)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Automatik",
+            "genus": "f"
+          },
+          {
+            "term": "Selbstaufzug",
+            "genus": "m"
+          }
+        ],
+        "en": [
+          {
+            "term": "automatic"
+          },
+          {
+            "term": "self-winding"
+          }
+        ],
+        "fr": [
+          {
+            "term": "automatique",
+            "genus": "m"
+          },
+          {
+            "term": "remontage automatique",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Hodinky, které **získávají energii z pohybu zápěstí** nositele — výkyvný **rotor** uvnitř pouzdra reaguje na zrychlení a přes rotor reverser napíná **tažné péro** v perovníku. Typicky drží „rezervu chodu\" 38–80 hodin (luxury kalibry až 8 dní).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "korunka",
+        "perovník"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "balanc": {
+      "lemma": "balanc",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "hodinky",
+      "varianty": [
+        {
+          "term": "balanc",
+          "status": "admitted"
+        },
+        {
+          "term": "balance",
+          "status": "admitted"
+        },
+        {
+          "term": "balanc-koleso",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Anglicismus pro **setrvačku** — torzní oscilátor v kapesních a náramkových hodinkách. V moderní české hodinářské terminologii preferujeme **[setrvačka](/slovnik/setrvacka)** (primární termín; balanc je akceptovaný, ale ne primární).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "setrvacka",
+        "vlasek"
+      ],
+      "isStub": false,
+      "redirectTo": "setrvacka"
+    },
+    "bici-stroj": {
+      "lemma": "bicí stroj",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Schlagwerk",
+            "genus": "n",
+            "zdroj": "Špatný 1882: Schlagwerk → bicí stroj"
+          }
+        ],
+        "en": [
+          {
+            "term": "striking train"
+          },
+          {
+            "term": "striking work"
+          }
+        ],
+        "fr": [
+          {
+            "term": "sonnerie",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Soukolí samostatné od jicího stroje, jehož úkolem je v pravidelných intervalech (celé hodiny, půle, čtvrtě) udeřit kladívkem na cymbál a tím zvukem oznámit čas.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kladívko",
+        "cymbál",
+        "kolo-závěrkové",
+        "početník",
+        "srdcovka",
+        "posuvka",
+        "spoust"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "bludit": {
+      "lemma": "bluditi",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "bluditi",
+          "status": "admitted"
+        },
+        {
+          "term": "blud",
+          "status": "admitted"
+        },
+        {
+          "term": "blud spher",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Sloveso: ukazovat odchylně, jít chybně (o hodinách / astronomickém ciferníku). \"Blud spher\" = chyba v ukazování polohy slunce a měsíce.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "majlit"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "casova-rovnice": {
+      "lemma": "časová rovnice",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "časová rovnice",
+          "status": "admitted"
+        },
+        {
+          "term": "aequační kotouč** (Sladkovský 1947",
+          "status": "admitted"
+        },
+        {
+          "term": "mechanizovaná podoba)",
+          "status": "admitted"
+        },
+        {
+          "term": "rovnice časová** (Sladkovský)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Zeitgleichung",
+            "genus": "f",
+            "zdroj": "obecně rozšířený moderní termín; Špatný 1882 přímý ekvivalent v hodinářském slovníku nemá"
+          }
+        ],
+        "en": [
+          {
+            "term": "equation of time"
+          }
+        ],
+        "fr": [
+          {
+            "term": "équation du temps",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Rozdíl mezi **pravým slunečním časem** (skutečnou polohou Slunce nad poledníkem) a **středním slunečním časem** (rovnoměrnou „strojovou\" hodinou). Hodnota časové rovnice se v průběhu roku mění od cca **−14 min** (kolem 12. února) do **+16 min** (kolem 3. listopadu).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "sluneční-hodiny",
+        "gnómon"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "cech-hodinarsky": {
+      "lemma": "mistr × učedlník × tovaryš",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "mistr",
+          "status": "admitted"
+        },
+        {
+          "term": "učedlník",
+          "status": "admitted"
+        },
+        {
+          "term": "tovaryš",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Standardní cechovní hierarchie středověkého řemesla: **mistr** (samostatný řemeslník s vlastní dílnou) → **tovaryš** (vyučený, ale ještě nesvobodný) → **učedlník** (učeň). Pro mistrovství bylo potřeba mistrovský kus, návrh, zápis v cechu.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "orlojnik",
+        "zpravce-orloje",
+        "mistr-malych-hodinek"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "centralni-prevodovka": {
+      "lemma": "centrální převodovka",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "centrální převodovka",
+          "status": "admitted"
+        },
+        {
+          "term": "centrální soukolí",
+          "status": "admitted"
+        },
+        {
+          "term": "central gear train (en)",
+          "status": "admitted"
+        },
+        {
+          "term": "centre wheel (en)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Minutenrad",
+            "genus": "n"
+          },
+          {
+            "term": "Zentralrad",
+            "genus": "n"
+          }
+        ],
+        "en": [
+          {
+            "term": "centre wheel"
+          },
+          {
+            "term": "center wheel"
+          }
+        ],
+        "fr": [
+          {
+            "term": "roue de centre",
+            "genus": "f"
+          },
+          {
+            "term": "roue centrale",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "**Středové (centrální) kolo** v hodinovém soukolí, jehož osa prochází středem ciferníku a na níž je nasazena minutová ručka. V klasickém hodinovém převodu obvykle **otáčí jednou za hodinu** (60 minut = 1 otáčka minutové ručky). Centrální převodovka je referenční bod, od kterého se odvozují všechny ostatní převody — k hodinové ručce (převod 1/12), k sekundové ručce (převod 60/1, pokud má hodiny střední sekundovku), k bicímu stroji, kalendáriu, atd.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "soukoli",
+        "krokove-kolo"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "cep-orloje": {
+      "lemma": "čep / čípek (orlojní)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "čep",
+          "status": "admitted"
+        },
+        {
+          "term": "čípek",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Konec hřídele otáčející se v ložisku (herštuku, pušce, kštudlici). Táborský detailně popisuje opotřebení čepů — v 16. století ještě nebyly z ušlechtilé oceli, jen \"v hertu kalené\".",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "herstuk",
+        "kstudle",
+        "vyhloditi"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "chronograf": {
+      "lemma": "chronograf",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "hodinky",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Chronograph",
+            "genus": "m"
+          },
+          {
+            "term": "Stoppuhr",
+            "genus": "f"
+          }
+        ],
+        "en": [
+          {
+            "term": "chronograph"
+          }
+        ],
+        "fr": [
+          {
+            "term": "chronographe",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Hodinky s **přídavnou funkcí měření krátkých časových intervalů** — uživatel může spustit / zastavit / nulovat sekundovou ručku nezávisle na hlavním chodu hodin. Jedna **základní hodinka** zobrazuje aktuální čas, druhá **subskupina** (totalizers) měří uplynulou dobu od stisknutí start.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "chronometr",
+        "opakovací-hodinky",
+        "setrvačka",
+        "kalibr"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "chronometr": {
+      "lemma": "chronometr",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Chronometer",
+            "genus": "m",
+            "zdroj": "Špatný 1882"
+          }
+        ],
+        "en": [
+          {
+            "term": "chronometer",
+            "zdroj": "Saunier 1887"
+          }
+        ],
+        "fr": [
+          {
+            "term": "chronomètre",
+            "genus": "m",
+            "zdroj": "Gros 1913"
+          }
+        ]
+      },
+      "definice": "Hodinkový stroj nejvyšší přesnosti, typicky s chronometrovým krokem (volným, s detentem); v užším smyslu lodní (mořský) chronometr pro určování zeměpisné délky.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "setrvacka",
+        "vlasek"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "cifernik": {
+      "lemma": "ciferník",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "ciferník",
+          "status": "admitted"
+        },
+        {
+          "term": "cifernik",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Vnější indikační plocha hodin — kruhová nebo hranatá deska s číslicemi a stupnicemi, na níž ručky ukazují čas. **V moderním českém hodinářském úzu preferujeme tvar číselník** (viz hlavní heslo). *Ciferník* je v současnosti archaismus / kalk z německého *Zifferblatt*.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "ciselnik"
+      ],
+      "isStub": false,
+      "redirectTo": "ciselnik"
+    },
+    "ciselnik": {
+      "lemma": "číselník",
+      "lang": "cs",
+      "conceptId": "HORO-DIAL-001",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "číselník",
+          "status": "preferred",
+          "note": "Moderní cs odborný úzus (Sladkovský 1947, Hajn 1953, Bureš 1965)."
+        },
+        {
+          "term": "ciferník",
+          "status": "archaic",
+          "note": "Kalk z DE Zifferblatt, v 19. století běžný.",
+          "doloženo": "Špatný 1882"
+        },
+        {
+          "term": "cifrák",
+          "status": "erroneous",
+          "note": "Lidové, v odborném textu nepoužívat."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Zifferblatt",
+            "genus": "n"
+          }
+        ],
+        "en": [
+          {
+            "term": "dial"
+          },
+          {
+            "term": "clock face"
+          }
+        ],
+        "fr": [
+          {
+            "term": "cadran",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "**Vnější indikační plocha hodin** — kruhová (méně často hranatá) deska s vyznačenými číslicemi a stupnicemi, na níž ručky (rafije) ukazují aktuální čas. U věžních hodin je číselník typicky **kruhový o průměru 100–250 cm**, kovaný železný rám potažený plechem; u radničních a školních budov často **ve štítu nebo atikovém štítu**, propojený mechanicky táhlem se strojem v podkroví.",
+      "vyznamy": null,
+      "atestace": [
+        {
+          "rok": 1844,
+          "pramen": "Šumavský DE-CS",
+          "forma": "ciferník",
+          "note": "Šumavský překládá DE Zifferblatt jako ciferník (kalk)."
+        },
+        {
+          "rok": 1882,
+          "pramen": "Špatný",
+          "forma": "ciferník",
+          "note": "V odborném slovníku Špatného (s Krečmerem) ještě ciferník."
+        },
+        {
+          "rok": 1947,
+          "pramen": "Sladkovský",
+          "forma": "číselník",
+          "note": "Sjednocení moderní cs terminologie — číselník nahrazuje ciferník."
+        },
+        {
+          "rok": 1965,
+          "pramen": "Bureš",
+          "forma": "číselník",
+          "note": "Číselník jako jednoznačně primární odborný termín."
+        }
+      ],
+      "pribuzne": [
+        "hridelik-orloje",
+        "ramenko",
+        "ukazovaci-stroj"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "claves-paschae": {
+      "lemma": "claves paschae",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "claves paschae",
+          "status": "admitted"
+        },
+        {
+          "term": "clavem pasche",
+          "status": "admitted"
+        },
+        {
+          "term": "klíč k Velikonocům",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Latinský termín pro \"klíč k Velikonocům\" — číslo udávající datum Velikonoc v daném roce. Táborský přidal na Staroměstský orloj jako jeden z novinkových indikátorů.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hruden",
+        "hodiny-celeorloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "coniunctio-oppositio": {
+      "lemma": "coniunctio × oppositio",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "coniunctio",
+          "status": "admitted"
+        },
+        {
+          "term": "oppositio",
+          "status": "admitted"
+        },
+        {
+          "term": "konjunkce",
+          "status": "admitted"
+        },
+        {
+          "term": "opozice",
+          "status": "admitted"
+        },
+        {
+          "term": "nov",
+          "status": "admitted"
+        },
+        {
+          "term": "úplněk",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Astronomické termíny pro postavení slunce a měsíce: *coniunctio* (= konjunkce, nov, slunce a měsíc na stejné délce) × *oppositio* (= opozice, úplněk, slunce a měsíc na opačných stranách).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "linea-aspectus",
+        "zodiak"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "coufati": {
+      "lemma": "coufati (couvnout)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "coufati",
+          "status": "admitted"
+        },
+        {
+          "term": "coufla",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Sloveso: couvnout, vrátit se zpět. Z něm. *zaufen* (= odhánět zpět). Táborský používá pro popis vad orloje, kdy ručička \"couvla skoro o hodinu\" — ukazatel se vrátil zpět místo aby pokračoval.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "majlit",
+        "bludit"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "ctvrtove-biti": {
+      "lemma": "čtvrťové bití",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Viertelschlag",
+            "genus": "m",
+            "zdroj": "Špatný 1882: 12× kompozit Viertel–"
+          }
+        ],
+        "en": [
+          {
+            "term": "quarter strike"
+          },
+          {
+            "term": "quarter chime"
+          }
+        ],
+        "fr": [
+          {
+            "term": "sonnerie au quart"
+          },
+          {
+            "term": "sonnerie des quarts"
+          }
+        ]
+      },
+      "definice": "Bicí mechanismus, který kromě **celých hodin** odbíjí i **čtvrti**. Standardní nastavení moderních věžních a bohatších nástěnných hodin (po 1700). Existuje ve více variantách: **prosté čtvrťové** (1 úder na čtvrt), **dvoutónové** (čtvrť + půl + tříčtvrtě různým počtem úderů), **Westminster chime** (4-tónová melodie).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bicí-stroj",
+        "kladívko"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "cursus-violentus": {
+      "lemma": "cursus violentus (běh prudký)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "cursus violentus",
+          "status": "admitted"
+        },
+        {
+          "term": "raptus",
+          "status": "admitted"
+        },
+        {
+          "term": "běh prudký",
+          "status": "admitted"
+        },
+        {
+          "term": "běh násilný",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Zdánlivý denní pohyb celé oblohy z východu na západ — to, co astronomové nazývají *raptus diurnus* nebo *cursus violentus*. Vzniká rotací Země kolem osy.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "motus-naturalis",
+        "linea-poledni"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "cymbal": {
+      "lemma": "cymbál",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "cymbál",
+          "status": "admitted"
+        },
+        {
+          "term": "cimbál",
+          "status": "admitted"
+        },
+        {
+          "term": "zvon hodinový",
+          "status": "admitted"
+        },
+        {
+          "term": "zvonec",
+          "status": "admitted"
+        },
+        {
+          "term": "zvoneček",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Glocke",
+            "genus": "f"
+          }
+        ],
+        "en": [
+          {
+            "term": "bell"
+          }
+        ],
+        "fr": [
+          {
+            "term": "timbre"
+          },
+          {
+            "term": "cloche",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Zvukové těleso bicího stroje — kovový zvon nebo zvonek, na nějž udírá kladívko. Tvar a slitina (zvonovina = bronz s vyšším podílem cínu) určují tón a délku doznění.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bicí-stroj",
+        "kladívko",
+        "stupnice"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "declinatio-solis": {
+      "lemma": "declinatio (deklinace)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "declinatio",
+          "status": "admitted"
+        },
+        {
+          "term": "declinatio solis",
+          "status": "admitted"
+        },
+        {
+          "term": "declinatio lunae",
+          "status": "admitted"
+        },
+        {
+          "term": "deklinace",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Úhlová vzdálenost slunce / měsíce / hvězdy od světového rovníku — kladná pro severní polokouli, záporná pro jižní. Mění se v průběhu roku (slunce: +23.5° v létě, −23.5° v zimě).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "solsticium",
+        "supra-orizontem"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "francouzska-skola": {
+      "lemma": "francouzská škola",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Französische Schule",
+            "genus": "f"
+          }
+        ],
+        "en": [
+          {
+            "term": "French school"
+          }
+        ],
+        "fr": [
+          {
+            "term": "école française",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Hodinářská tradice **Francie** (Paříž, Besançon, Beaucourt) — **estetické vrcholy 18. století** (pendules, bronzové, Le Roy, Lépine), **chronometrie** (Pierre Le Roy 1748) a **moderní průmysl Besançonu** od 1830. Tradičně specializovaná na **luxury casework** a **astronomické komplikace**.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hodinář",
+        "švýcarská-škola"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "gmt-druha-casova-zona": {
+      "lemma": "GMT / druhá časová zóna",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "hodinky",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "GMT"
+          },
+          {
+            "term": "Zweite Zeitzone"
+          },
+          {
+            "term": "Weltzeit"
+          }
+        ],
+        "en": [
+          {
+            "term": "GMT"
+          },
+          {
+            "term": "dual time"
+          },
+          {
+            "term": "second time zone"
+          },
+          {
+            "term": "world time"
+          }
+        ],
+        "fr": [
+          {
+            "term": "GMT"
+          },
+          {
+            "term": "deuxième fuseau horaire"
+          }
+        ]
+      },
+      "definice": "Komplikace hodinek umožňující **současné zobrazení dvou časových pásem** (typicky lokální + GMT/UTC). Realizováno **24-hodinovou ručkou** (s odlišnou rychlostí 1 otáčka / 24 h místo 1 otáčka / 12 h) a obvykle bezelem se 24-h stupnicí. Některé varianty zobrazují **všech 24 zón** (world timer).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "časová-rovnice"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "gnomon": {
+      "lemma": "gnómon",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "gnómon",
+          "status": "admitted"
+        },
+        {
+          "term": "ukazovák** (Sušický 1900)",
+          "status": "admitted"
+        },
+        {
+          "term": "tyčinka kovová** (Sušický)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Gnomon",
+            "genus": "m"
+          },
+          {
+            "term": "Schattenstab",
+            "genus": "m"
+          },
+          {
+            "term": "Polschatten"
+          }
+        ],
+        "en": [
+          {
+            "term": "gnomon"
+          },
+          {
+            "term": "style"
+          }
+        ],
+        "fr": [
+          {
+            "term": "gnomon",
+            "genus": "m"
+          },
+          {
+            "term": "style"
+          }
+        ]
+      },
+      "definice": "Část slunečních hodin, která vrhá stín na číselník — **vrhací těleso**. Pro správné fungování musí být osa gnómonu rovnoběžná s osou zemské rotace, tj. mířit do **nebeského pólu**.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "sluneční-hodiny"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "grad-zodiakalni": {
+      "lemma": "grad (stupeň)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "grad",
+          "status": "admitted"
+        },
+        {
+          "term": "grád",
+          "status": "admitted"
+        },
+        {
+          "term": "gradus",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Stupeň zodiaku (1°). Třicet gradů tvoří jedno zvířetníkové znamení. Lat. *gradus*; v Táborského textu psáno česky-latinsky *grad* / *grád*.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "strych-zodiakalni",
+        "zodiak"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "herstuk": {
+      "lemma": "herštuk",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "herštuk",
+          "status": "admitted"
+        },
+        {
+          "term": "herštukové (mn. č.)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Kalené ložiskové pouzdro pro čep hřídele. Z něm. *Härtstück* (kalený díl). Táborský zaměnitelně používá *herštuk* a *puška* — obojí pro souosá ložiska indikátorů slunce/měsíce/zodiaku.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "puska-orloje",
+        "kstudle"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "hever-orloje": {
+      "lemma": "hever (kolo heverní)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "hever",
+          "status": "admitted"
+        },
+        {
+          "term": "kolo heverní",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Pákový převod / mechanismus s vyšším převodovým poměrem, který usnadňuje natahování závaží. Z něm. *Heber* (= zdviž, páka). Táborský sám hever vymyslil a zapsal: \"vymyslil sem kolo heverní … aby pacholík natáhne sám\".",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "rumpal",
+        "vaha-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "hodinar": {
+      "lemma": "hodinář",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Uhrmacher",
+            "genus": "m",
+            "zdroj": "Špatný 1882: 40+ kompozit Uhrmacher–"
+          }
+        ],
+        "en": [
+          {
+            "term": "watchmaker"
+          },
+          {
+            "term": "horologist"
+          }
+        ],
+        "fr": [
+          {
+            "term": "horloger",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Řemeslník zhotovující, opravující a udržující hodiny. Cechovní mistr v 16.–19. století; po průmyslové revoluci se profese rozpadla na **výrobní specialisty** (manufaktura) a **opraváře/servisera** (městští hodináři). Dnes v ČR akreditován učební obor „Hodinář\"; v restaurátorství samostatný subobor (zámecké, kostelní hodiny).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "pouzdrář",
+        "pražská-škola"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "hodiny-celeorloje": {
+      "lemma": "hodiny celé (česká hodina)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "hodiny celé",
+          "status": "admitted"
+        },
+        {
+          "term": "počet celého orloje",
+          "status": "admitted"
+        },
+        {
+          "term": "česká hodina",
+          "status": "admitted"
+        },
+        {
+          "term": "italská hodina",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Tradiční staročeský a italský systém počítání času: den dělen na 24 hodin počítaných souvisle od západu slunce po další západ. Hodiny mají stejnou délku, ale start dne se posunuje s ročním obdobím.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hodiny-polouorlojni",
+        "hodiny-planetni"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "hodiny-planetni": {
+      "lemma": "hodiny planetní",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "hodiny planetní",
+          "status": "admitted"
+        },
+        {
+          "term": "horae inequales",
+          "status": "admitted"
+        },
+        {
+          "term": "nestejné hodiny",
+          "status": "admitted"
+        },
+        {
+          "term": "temporální hodiny",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Astronomický systém, v němž je den (od východu do západu slunce) i noc (od západu do východu) dělen na 12 stejných dílů. Délka jedné planetní hodiny se mění s ročním obdobím — letní denní hodina je delší než zimní.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hodiny-celeorloje",
+        "hodiny-polouorlojni"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "hodiny-polouorlojni": {
+      "lemma": "hodiny polouorlojní",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "hodiny polouorlojní",
+          "status": "admitted"
+        },
+        {
+          "term": "hodiny německé",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Středoevropská 12hodinová doba (poledne / půlnoc, 2× 12 hodin denně). Táborský zavádí na pražský orloj jako novinku: \"v Čechách německých hodin neužívali a málo o nich věděli, až teprv za králování krále Ferdinanda.\"",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hodiny-celeorloje",
+        "hodiny-planetni"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "hranice-stroje": {
+      "lemma": "hranice (kajz)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "hranice",
+          "status": "admitted"
+        },
+        {
+          "term": "kajz",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Rám / kostra / skříň hodinového stroje, do níž jsou zasazeny jednotlivé chody (strany). Z něm. *Käfig* (= klec, schránka).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "strana-orloje",
+        "stroj-podsestava"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "hridelik-orloje": {
+      "lemma": "hřídelík",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "hřídelík",
+          "status": "admitted"
+        },
+        {
+          "term": "hřídel",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "U Táborského 1570 *hřídelík* označuje drobný hřídel (zmenšenina od *hřídel*) — typicky čepový hřídelík nesoucí měsíc nebo jiný malý indikátor. Synonymum: *vřeteno*.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "vreteno-orloje",
+        "cep-orloje",
+        "vos"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "hruden": {
+      "lemma": "hruden (rok)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "hruden",
+          "status": "admitted"
+        },
+        {
+          "term": "rok hrudní",
+          "status": "admitted"
+        },
+        {
+          "term": "embolický rok",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Embolický rok: lunární rok, do něhož se vkládá 13. (přestupný) měsíc, aby se zarovnal s rokem solárním. V kalendáři Staroměstského orloje má speciální označení.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hodiny-celeorloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "index-orloje": {
+      "lemma": "index (slunce, měsíce, deklinace)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "index",
+          "status": "admitted"
+        },
+        {
+          "term": "index solis",
+          "status": "admitted"
+        },
+        {
+          "term": "index lunae",
+          "status": "admitted"
+        },
+        {
+          "term": "index declinationis",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Latinský termín pro *ukazatel* (slunce, měsíce, deklinace) přejatý do hodinářské latinizované terminologie. Přejaté z astronomie středověku.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "pravidlo-orloje",
+        "declinatio-solis"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "invar": {
+      "lemma": "invar",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "materialy",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Invar",
+            "genus": "n"
+          }
+        ],
+        "en": [
+          {
+            "term": "invar"
+          }
+        ],
+        "fr": [
+          {
+            "term": "Invar"
+          }
+        ]
+      },
+      "definice": "Slitina niklu (~36 %) a železa (~64 %) s mimořádně **nízkým koeficientem teplotní roztažitelnosti** (~0,9·10⁻⁶ /K, asi 13× méně než ocel), patentovaná Charlesem Édouardem Guillaumem v roce 1896 (Nobelova cena za fyziku 1920). V hodinářství zásadně zjednodušila konstrukci kompenzačních kyvadel a lodních chronometrů.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kyvadlo",
+        "setrvačka",
+        "vlásek",
+        "kompenzace-teplotní",
+        "chronometr"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "isochronismus": {
+      "lemma": "isochronismus",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "materialy",
+      "varianty": [
+        {
+          "term": "isochronismus",
+          "status": "admitted"
+        },
+        {
+          "term": "isochronický** (adj.)",
+          "status": "admitted"
+        },
+        {
+          "term": "rovnodobý** (Sladkovský 1947)",
+          "status": "admitted"
+        },
+        {
+          "term": "stejnodobý** (Sušický 1900)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Isochronismus",
+            "genus": "m"
+          }
+        ],
+        "en": [
+          {
+            "term": "isochronism"
+          }
+        ],
+        "fr": [
+          {
+            "term": "isochronisme",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Vlastnost oscilátoru — kyvadla nebo setrvačky — že **délka jednoho kyvu nezávisí na rozkyvu** (amplitudě). Klíčová podmínka přesnosti hodin: čím lépe je oscilátor isochronní, tím méně kolísavá je jeho doba kyvu při změnách hnací síly nebo polohy.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kyvadlo",
+        "setrvačka",
+        "vlásek",
+        "chronometr",
+        "krok"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "kalendarium": {
+      "lemma": "kalendárium",
+      "lang": "cs",
+      "conceptId": "HORO-CALENDAR-001",
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "kalendárium",
+          "status": "admitted"
+        },
+        {
+          "term": "kalendář orloje",
+          "status": "admitted"
+        },
+        {
+          "term": "kalendářní deska",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Kalendarium",
+            "genus": "n"
+          },
+          {
+            "term": "Kalenderscheibe",
+            "genus": "f"
+          }
+        ],
+        "en": [
+          {
+            "term": "calendar dial"
+          },
+          {
+            "term": "calendarium"
+          }
+        ],
+        "fr": [
+          {
+            "term": "cadran calendaire",
+            "genus": "m"
+          },
+          {
+            "term": "calendrier",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Spodní kalendářní ciferník orloje s indikací **dne v roce**, **měsíce**, **svátku** a **znamení zvěrokruhu** ve kterém se Slunce právě nachází. Klasicky pomalu otáčivá disk (1 oběh = 1 rok), umístěný pod astronomickým ciferníkem. U Pražského orloje je **Mánesova kalendářní deska** z roku 1865 — alegorický cyklus 12 měsíců a 12 znamení zodiaku.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "orloj",
+        "astrolab",
+        "zodiak",
+        "sphera",
+        "znameni-zodiaku"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "kalibr": {
+      "lemma": "kalibr",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "hodinky",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Kaliber",
+            "genus": "n",
+            "zdroj": "Špatný 1882: Kaliber → ráž, kalibr"
+          }
+        ],
+        "en": [
+          {
+            "term": "caliber"
+          },
+          {
+            "term": "calibre"
+          }
+        ],
+        "fr": [
+          {
+            "term": "calibre"
+          }
+        ]
+      },
+      "definice": "Označení **typu hodinového stroje** — jeho tvaru, rozměrů, uspořádání desek a součástek. V hodinkách kapesních a náramkových identifikuje konkrétní konstrukci (např. „kalibr ETA 2824\" nebo „kalibr Lange L901.0\"); manufaktury každý kalibr vyvíjí jako samostatnou platformu.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "werk",
+        "pouzdro"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "kladivko-orloje": {
+      "lemma": "kladivo (bicí kladívko)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "kladivo",
+          "status": "admitted"
+        },
+        {
+          "term": "kladívko",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Bicí kladivo — úderník zvonu věžních hodin. Táborský používá synonymně s *palicí*, ale rozlišuje *kladivo* primárně pro vnější úderník na zvonu (na věži) a *palici* pro vnitřní spouštěcí prvek bicího ústrojí.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "palice-orloje",
+        "zvon-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "kladivko": {
+      "lemma": "kladívko",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Hammer",
+            "genus": "m"
+          }
+        ],
+        "en": [
+          {
+            "term": "hammer"
+          }
+        ],
+        "fr": [
+          {
+            "term": "marteau",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Páková součást bicího stroje, která je periodicky zvedána kolíčky zdvihacího kola a po uvolnění udeří na cymbál (zvon, gong nebo cinkavý drát).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bicí-stroj",
+        "cymbál"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "klapacek": {
+      "lemma": "klapáček",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "klapáček",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Klapající jazýček / drobná páčka u astronomického ciferníku Staroměstského orloje, která \"klape\" při každém úderu hodin. Sloužil jako akustické počítadlo úderů.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "palice-orloje",
+        "sphera"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "klecovy-ram": {
+      "lemma": "klečový rám",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "klečový rám",
+          "status": "admitted"
+        },
+        {
+          "term": "klec (zkráceně)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Gestell",
+            "genus": "n"
+          },
+          {
+            "term": "Käfig",
+            "genus": "m"
+          },
+          {
+            "term": "Bockgestell",
+            "genus": "n"
+          }
+        ],
+        "en": [
+          {
+            "term": "birdcage frame"
+          },
+          {
+            "term": "birdcage clock frame"
+          }
+        ],
+        "fr": [
+          {
+            "term": "cage",
+            "genus": "f"
+          },
+          {
+            "term": "cage à coq",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Tradiční konstrukční typ rámu věžního hodinového stroje z 14.–19. století — **kovaná železná konstrukce klecového tvaru** ze čtyř svislých rohových pilířů spojených horními a dolními pásnicemi, do nichž je vsazeno soukolí stroje. Spoje jsou typicky klínové, později šroubové.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "soukoli",
+        "hranice-stroje",
+        "kotva",
+        "krokove-kolo"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "klinek-orloje": {
+      "lemma": "klínek (dřevěný)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "klínek",
+          "status": "admitted"
+        },
+        {
+          "term": "klín dřevěný",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Pojistný klín — drobná dřevěná zástrčka, kterou Táborský používá k zajištění klíčových kol (např. kalendářového kola) proti otočení na hřídeli.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "klustice",
+        "hridelik-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "klustice": {
+      "lemma": "kluštice",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "kluštice",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Závlačka tvaru \"kleštiček\" — dvojitý klín zajišťující trýbík proti vysunutí z hřídele. Hapax legomenon z Táborského *Zprávy* (jediný doklad).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "tryb"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "kolickovy-krok": {
+      "lemma": "kolíčkový krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "kolíčkový krok",
+          "status": "admitted"
+        },
+        {
+          "term": "kolíčkový kotvový krok (varianta s kotvou)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Stiftengang",
+            "genus": "m"
+          },
+          {
+            "term": "Stiftenanker",
+            "genus": "m"
+          }
+        ],
+        "en": [
+          {
+            "term": "pin-wheel escapement"
+          },
+          {
+            "term": "pin pallet escapement"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement à chevilles",
+            "genus": "m"
+          },
+          {
+            "term": "échappement à goupilles",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Typ [kroku](/slovnik/krok), v němž **klidové i popudové plochy nejsou na zubech krokového kola**, ale na **kolíčcích (čepech) zasazených do plochého kotouče**. Paleta kotvy se opírá o boční plochu kolíčku. Vyvinuto v 18. století jako alternativa ke Grahamovu kotvovému kroku — snadnější výroba kolíčků oproti tvarovaným zubům, ale obtížnější přesné seřízení. Typické pro **francouzské a české věžní hodiny 18.–19. století**, ale použito i v některých kapesních hodinkách (Brocot).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "kotva",
+        "krokove-kolo",
+        "paleta"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "kolo-zaverkove": {
+      "lemma": "kolo závěrkové",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "kolo závěrkové (Sladkovský 1947)",
+          "status": "admitted"
+        },
+        {
+          "term": "počíetnice / početnice** (Špatný 1882",
+          "status": "admitted"
+        },
+        {
+          "term": "archaicky)",
+          "status": "admitted"
+        },
+        {
+          "term": "závěrník",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Schlossscheibe",
+            "genus": "f"
+          },
+          {
+            "term": "Schloßscheibe",
+            "genus": "f"
+          }
+        ],
+        "en": [
+          {
+            "term": "count wheel"
+          },
+          {
+            "term": "locking plate"
+          }
+        ],
+        "fr": [
+          {
+            "term": "roue de compte"
+          }
+        ]
+      },
+      "definice": "Plochý kotouč bicího stroje s neravnoměrně rozdělenými zářezy nebo zuby na věnci, který určuje, **kolik úderů** kladívka odbije na danou hodinu. Otočí se obvykle jednou za 12 hodin.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bicí-stroj",
+        "početník",
+        "srdcovka"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "kompenzace-teplotni": {
+      "lemma": "kompenzace teplotní",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "materialy",
+      "varianty": [
+        {
+          "term": "kompenzace teplotní",
+          "status": "admitted"
+        },
+        {
+          "term": "kompensace** (starší pravopis Sušický/Sladkovský)",
+          "status": "admitted"
+        },
+        {
+          "term": "vyrovnání teplotní",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Temperaturkompensation",
+            "genus": "f",
+            "zdroj": "Špatný 1882: Compensation → kompensace, vyrovnání"
+          }
+        ],
+        "en": [
+          {
+            "term": "temperature compensation"
+          }
+        ],
+        "fr": [
+          {
+            "term": "compensation thermique",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Konstrukční opatření v kyvadlu nebo setrvačce, které **vyrovnává změnu účinné délky** (resp. setrvačného momentu) způsobenou teplotní roztažitelností kovů, takže perioda oscilace zůstává nezávislá na okolní teplotě.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kyvadlo",
+        "setrvačka",
+        "chronometr",
+        "invar"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "korunka": {
+      "lemma": "korunka",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "hodinky",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Krone",
+            "genus": "f",
+            "zdroj": "Špatný 1882: Krone → koruna"
+          }
+        ],
+        "en": [
+          {
+            "term": "crown"
+          }
+        ],
+        "fr": [
+          {
+            "term": "couronne",
+            "zdroj": "Špatný 1882: Couronne → korunka"
+          }
+        ]
+      },
+      "definice": "Otočný a vytahovatelný knoflík na pouzdru hodinek (typicky ve 3 hodinách u náramkových), kterým uživatel **natahuje pero** a **nastavuje čas** (případně datum, druhou časovou zónu, atd.). V moderních hodinkách obvykle dvou- nebo třípolohová.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kalibr",
+        "pouzdro"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "kotva": {
+      "lemma": "kotva",
+      "lang": "cs",
+      "conceptId": "HORO-ANCHOR-001",
+      "kategorie": "mechanika",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Anker",
+            "genus": "m",
+            "zdroj": "Špatný 1882: Anker → kotva"
+          }
+        ],
+        "en": [
+          {
+            "term": "anchor"
+          },
+          {
+            "term": "pallet bridge"
+          }
+        ],
+        "fr": [
+          {
+            "term": "ancre",
+            "zdroj": "Gros 1913"
+          }
+        ]
+      },
+      "definice": "Součást kroku ve tvaru ramen, na jejichž koncích jsou palety; zachycuje krokové kolo a předává energii kyvadlu nebo setrvačce.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "paleta",
+        "krokove-kolo"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "krok": {
+      "lemma": "krok",
+      "lang": "cs",
+      "conceptId": "HORO-ESCAPEMENT-001",
+      "kategorie": "mechanika",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Hemmung",
+            "genus": "f",
+            "zdroj": "Špatný 1882: Hemmung → krok"
+          },
+          {
+            "term": "Gang",
+            "genus": "m",
+            "zdroj": "Šumavský 1851: Gang → chod"
+          }
+        ],
+        "en": [
+          {
+            "term": "escapement",
+            "zdroj": "Saunier 1887, en, klíč `25YXVRCA`"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement",
+            "genus": "m",
+            "zdroj": "Gros 1913, fr, klíč `AQI736GP`"
+          }
+        ]
+      },
+      "definice": "Mechanismus, který přerušuje pohyb soukolí v pravidelných intervalech a předává tak energii ze závaží nebo péra na oscilátor (kyvadlo nebo setrvačku).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kotva",
+        "krokove-kolo",
+        "paleta"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "krokove-kolo": {
+      "lemma": "krokové kolo",
+      "lang": "cs",
+      "conceptId": "HORO-ESCAPEWHEEL-001",
+      "kategorie": "mechanika",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Hemmungsrad"
+          },
+          {
+            "term": "Steigerad",
+            "zdroj": "Sladkovský 1947"
+          },
+          {
+            "term": "Stiftenrad"
+          }
+        ],
+        "en": [
+          {
+            "term": "escape wheel",
+            "zdroj": "Saunier 1887"
+          }
+        ],
+        "fr": [
+          {
+            "term": "roue d'échappement",
+            "zdroj": "Gros 1913"
+          }
+        ]
+      },
+      "definice": "Poslední ozubené kolo soukolí, jehož zuby jsou zachycovány paletami kotvy; jeho otáčení reguluje krok a tím udává rytmus hodin.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "kotva",
+        "paleta"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "kstudle": {
+      "lemma": "kštudle",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "kštudle",
+          "status": "admitted"
+        },
+        {
+          "term": "kštudlice",
+          "status": "admitted"
+        },
+        {
+          "term": "kštudlička",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Drobné ložisko / držák čepu, obvykle přinýtovaný k rámu nebo prutu kola. Z něm. *Studel* (drobné lůžko). Táborský používá pro malá ložiska indikátorových pravidel.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "herstuk",
+        "puska-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "kvadrant": {
+      "lemma": "kvadrant",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "kvadrant",
+          "status": "admitted"
+        },
+        {
+          "term": "kruho-čtvrť** (Špatný 1882)",
+          "status": "admitted"
+        },
+        {
+          "term": "čtvrtikruh** (Špatný)",
+          "status": "admitted"
+        },
+        {
+          "term": "čtverník** (Špatný)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Quadrant",
+            "zdroj": "Špatný 1882: Quadrant → kvadrant"
+          }
+        ],
+        "en": [
+          {
+            "term": "quadrant"
+          }
+        ],
+        "fr": [
+          {
+            "term": "quart de cercle"
+          },
+          {
+            "term": "quadrant"
+          }
+        ]
+      },
+      "definice": "Astronomický nebo geodetický přístroj ve tvaru **čtvrtkruhu** (90°) s úhlovou stupnicí, používaný k měření výšek nebeských těles nad horizontem. V hodinářství souvisí se **sestavováním slunečních hodin** a v širším smyslu i s ručním zaměřováním zenitu pro nastavení **polární výšky**.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "sluneční-hodiny",
+        "chronometr",
+        "setrvacka"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "kyvadlo": {
+      "lemma": "kyvadlo",
+      "lang": "cs",
+      "conceptId": "HORO-PENDULUM-001",
+      "kategorie": "mechanika",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Pendel",
+            "genus": "n"
+          },
+          {
+            "term": "Špatný 1882]"
+          },
+          {
+            "term": "Perpendikel"
+          }
+        ],
+        "en": [
+          {
+            "term": "pendulum",
+            "zdroj": "Saunier 1887"
+          }
+        ],
+        "fr": [
+          {
+            "term": "pendule",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Oscilátor ve formě tyče s čočkou, zavěšený na pružné planžetě; jeho pravidelné kývání reguluje chod hodin přes krok.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "invar",
+        "setrvacka",
+        "lihyr"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "lermo": {
+      "lemma": "lermo",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "lermo",
+          "status": "admitted"
+        },
+        {
+          "term": "ryklík lermo",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Poplašné / spouštěcí ústrojí bití — západka, která uvolní zámek bicího stroje. Z něm. *Lärm* nebo it. *allarme* (poplach, povyk). U Táborského synonymum s *ryklem*.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "rykl",
+        "worff",
+        "palice-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "lihyr": {
+      "lemma": "lihýř",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Foliot",
+            "zdroj": "Šumavský 1851: foliot"
+          },
+          {
+            "term": "Waag",
+            "zdroj": "Špatný 1882"
+          }
+        ],
+        "en": [
+          {
+            "term": "foliot",
+            "zdroj": "Saunier 1887"
+          }
+        ],
+        "fr": [
+          {
+            "term": "foliot",
+            "zdroj": "Gros 1913"
+          }
+        ]
+      },
+      "definice": "Předkyvadlový oscilátor — vodorovné rameno (vahadlo) s pohyblivými závažíčky na koncích, připevněné k svislé ose vřetenového kroku; reguluje chod prvních věžních hodin (13.–17. století) před zavedením kyvadla.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kyvadlo",
+        "setrvacka"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "linea-aspectus": {
+      "lemma": "linea coniunctionis × oppositionis",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "linea coniunctionis",
+          "status": "admitted"
+        },
+        {
+          "term": "linea oppositionis",
+          "status": "admitted"
+        },
+        {
+          "term": "konjunkční přímka",
+          "status": "admitted"
+        },
+        {
+          "term": "opoziční přímka",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Geometrické přímky spojující slunce a měsíc v okamžiku konjunkce (nov) nebo opozice (úplněk) na zodiaku. Pomocný indikátor pro určení fáze měsíce.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "coniunctio-oppositio",
+        "zodiak"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "linea-poledni": {
+      "lemma": "linea polední (meridián)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "linea polední",
+          "status": "admitted"
+        },
+        {
+          "term": "linie polední",
+          "status": "admitted"
+        },
+        {
+          "term": "meridián",
+          "status": "admitted"
+        },
+        {
+          "term": "poledník",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Svislá osa astronomického ciferníku ukazující směr na pravé poledne — kdy je slunce na nejvyšším bodě své denní dráhy a leží na poledníku pozorovatele.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "sphera",
+        "solsticium"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "luozko": {
+      "lemma": "lůžko (luožko měsícovo)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "lůžko",
+          "status": "admitted"
+        },
+        {
+          "term": "luožko",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Drobné lůžko / držák kotouče měsíce. V něm rotuje kulička měsíce, čímž se na pukle (terči uprostřed ciferníku) ukazuje fáze měsíce.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "pukla",
+        "pravidlo-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "majlit": {
+      "lemma": "majlit",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "majlit",
+          "status": "admitted"
+        },
+        {
+          "term": "zmajlit",
+          "status": "admitted"
+        },
+        {
+          "term": "nemajlit",
+          "status": "admitted"
+        },
+        {
+          "term": "majlení",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Sloveso: chybit, jít nesprávně, ukazovat odchylně (o hodinách). Z něm. *fehlen* (= chybět, mýlit se). Táborský: \"aby hodiny … dobře bily a nemajlily.\"",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bludit"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "minuta-hodinarska": {
+      "lemma": "minuta hodinářská × astronomická",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "minuta hodinářská",
+          "status": "admitted"
+        },
+        {
+          "term": "minuta astronomická",
+          "status": "admitted"
+        },
+        {
+          "term": "minuta hvězdářská",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "U Táborského dvojí pojetí: **minuta hodinářská** (1/15 hodiny ≈ 4 minuty dnes) vs. **minuta astronomická** (1/60 hodiny = dnešní minuta). Rozdíl plyne z dělení hodinového ciferníku na 15 dílů u věžních hodin 16. století.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hodiny-celeorloje",
+        "grad-zodiakalni"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "mistr-malych-hodinek": {
+      "lemma": "mistr malých hodinek",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "mistr malých hodinek",
+          "status": "admitted"
+        },
+        {
+          "term": "hodinář malých hodinek",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Cechovní specialista na drobné, přenosné nebo pokojové hodiny — kontrastní k *orlojníkovi*, který vyráběl a udržoval velké věžní stroje. V 16. století byly tyto profese striktně oddělené.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "orlojnik",
+        "zpravce-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "motus-naturalis": {
+      "lemma": "motus naturalis (běh přirozený)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "motus naturalis",
+          "status": "admitted"
+        },
+        {
+          "term": "běh přirozený",
+          "status": "admitted"
+        },
+        {
+          "term": "vlastní pohyb",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Vlastní pohyb slunce, měsíce a planet po ekliptice — pomalu od západu k východu (z hlediska pozorovatele na Zemi). Slunce projde celou ekliptikou za 1 rok, měsíc za ~27 dní.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "cursus-violentus",
+        "zodiak",
+        "declinatio-solis"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "natahovy-buben": {
+      "lemma": "nátahový buben",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "nátahový buben",
+          "status": "admitted"
+        },
+        {
+          "term": "nátahový válec",
+          "status": "admitted"
+        },
+        {
+          "term": "lanový buben",
+          "status": "admitted"
+        },
+        {
+          "term": "lanový válec",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Seiltrommel",
+            "genus": "f"
+          },
+          {
+            "term": "Aufzugtrommel",
+            "genus": "f"
+          },
+          {
+            "term": "Trommel",
+            "genus": "f"
+          }
+        ],
+        "en": [
+          {
+            "term": "barrel"
+          },
+          {
+            "term": "rope drum"
+          },
+          {
+            "term": "winding drum"
+          }
+        ],
+        "fr": [
+          {
+            "term": "tambour",
+            "genus": "m"
+          },
+          {
+            "term": "tambour de corde",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Válcová součást věžního hodinového stroje, na kterou se navíjí **lano nesoucí závaží**. Otáčením bubnu při natahování se závaží zvedá nahoru; při chodu hodin závaží klesá a tahem za lano otáčí buben opačným směrem, čímž **přenáší energii do soukolí stroje**. Každý dílčí stroj (jicí, čtvrťový, hodinový) má vlastní nátahový buben.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "soukoli",
+        "zavazi",
+        "pero",
+        "perovnik"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "oblouk-orloje": {
+      "lemma": "oblouk (vobloukek)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "oblouk",
+          "status": "admitted"
+        },
+        {
+          "term": "vobloukek",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Železný díl ve tvaru oblouku spojující dva pruty trojprutého kola; nese ryklík a drobné ložisko (kštudlici). U Staroměstského orloje vyrobený v rámci Táborského oprav 16. století.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "prut-orloje",
+        "kstudle",
+        "rykl"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "okolek": {
+      "lemma": "okolek",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "okolek",
+          "status": "admitted"
+        },
+        {
+          "term": "vobruč",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Prstenec / ráfek na ciferníku orloje — typicky pohyblivý železný kruh s počtem hodin (1–24 pro českou hodinu, 1–12 pro polouorlojní), který se otáčí kolem astronomického ciferníku.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "sphera",
+        "hodiny-celeorloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "opakovaci-hodinky": {
+      "lemma": "opakovací hodinky",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "hodinky",
+      "varianty": [
+        {
+          "term": "opakovací hodinky",
+          "status": "admitted"
+        },
+        {
+          "term": "opakovačky** (Špatný 1882)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Repetiruhr",
+            "zdroj": "Špatný 1882: Repetiruhr → opakovací hodiny"
+          }
+        ],
+        "en": [
+          {
+            "term": "repeating watch"
+          },
+          {
+            "term": "repeater"
+          }
+        ],
+        "fr": [
+          {
+            "term": "montre à répétition"
+          }
+        ]
+      },
+      "definice": "Hodinky s **bicí mechanismem ovládaným tlačítkem** nebo přitahovací **šňůrkou**: stisknutí spustí sekvenci úderů, která zazvoní **aktuální čas** (počet hodin + případně počet čtvrtí + počet minut). Vyvinuto pro **noční četbu času** (před elektrickým osvětlením) a jako prestižní komplikace luxury kapesních hodinek.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bicí-stroj",
+        "kladívko"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "orloj": {
+      "lemma": "orloj",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "orloj",
+          "status": "admitted"
+        },
+        {
+          "term": "horologium",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "astronomische Uhr",
+            "genus": "f"
+          },
+          {
+            "term": "Kunstuhr",
+            "genus": "f",
+            "zdroj": "Špatný 1882 (zastaralá forma)"
+          }
+        ],
+        "en": [
+          {
+            "term": "astronomical clock"
+          },
+          {
+            "term": "astrolabium clock"
+          }
+        ],
+        "fr": [
+          {
+            "term": "horloge astronomique",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Komplexní mechanické hodiny zobrazující kromě času i astronomické údaje — polohu Slunce a Měsíce na nebeské sféře, znamení zvěrokruhu, pohyblivé figurky, kalendárium. Klasické příklady: Staroměstský orloj (Praha, 1410), Olomoucký orloj (15. století), orloj v Litomyšli (1907).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "sphera",
+        "zodiak",
+        "astrolab",
+        "tatrmani-aparat",
+        "kalendarium"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "orlojik": {
+      "lemma": "orlojík (malý orloj)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "orlojík",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Zdrobnělina od *orloj* — malý nebo stolní astronomický orloj (kontrast k velkému věžnímu). Táborský zmiňuje *orlojík ne veliký o vosmi spherách*, který viděl mimo Prahu — to je raný doklad existence stolních astronomických hodin před érou Tycho Braha.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "orlojnik"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "orlojnik": {
+      "lemma": "orlojník",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "orlojník",
+          "status": "admitted"
+        },
+        {
+          "term": "mistr orlojník",
+          "status": "admitted"
+        },
+        {
+          "term": "zprávce orloje",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Hodinář specializovaný na konstrukci, opravu a údržbu velkých věžních a astronomických orlojů — odlišný od *mistra malých hodinek* (= výrobce drobných, přenosných nebo pokojových hodin).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "zpravce-orloje",
+        "mistr-malych-hodinek"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "paleta": {
+      "lemma": "paleta",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Palette"
+          },
+          {
+            "term": "Ankerlappen"
+          }
+        ],
+        "en": [
+          {
+            "term": "pallet",
+            "zdroj": "Saunier 1887"
+          }
+        ],
+        "fr": [
+          {
+            "term": "palette",
+            "zdroj": "Gros 1913"
+          }
+        ]
+      },
+      "definice": "Drobná pracovní plocha na konci ramene kotvy, která zachycuje zub krokového kola — má klidovou a popudnou (zdvihovou) plochu.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kotva",
+        "krokove-kolo"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "palice-orloje": {
+      "lemma": "palice (orlojní)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "palice",
+          "status": "admitted"
+        },
+        {
+          "term": "palčík",
+          "status": "admitted"
+        },
+        {
+          "term": "kladívko spouště",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Spouštěcí kladívko / palec, kterým worff zvedá rykl. Když palice po pádu vyrazí zámek bicího stroje, orloj odbije patřičný počet úderů.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "worff",
+        "rykl",
+        "zamek-orloje",
+        "kladivko"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "pero": {
+      "lemma": "pero (tažné péro)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Zugfeder",
+            "zdroj": "Špatný 1882"
+          },
+          {
+            "term": "Uhrfeder"
+          }
+        ],
+        "en": [
+          {
+            "term": "mainspring",
+            "zdroj": "Saunier 1887"
+          }
+        ],
+        "fr": [
+          {
+            "term": "ressort moteur"
+          },
+          {
+            "term": "grand ressort",
+            "zdroj": "Gros 1913"
+          }
+        ]
+      },
+      "definice": "Pohonná pružina svinutá v perovníku, která svým rozvíjením přenáší energii na soukolí; primární zdroj síly v kapesních a stolních hodinách (na rozdíl od závaží u věžních a stojacích).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "perovnik",
+        "snek"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "perovnik": {
+      "lemma": "perovník",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Federhaus",
+            "genus": "n"
+          },
+          {
+            "term": "Uhrtrommel"
+          }
+        ],
+        "en": [
+          {
+            "term": "mainspring barrel",
+            "zdroj": "Saunier 1887"
+          }
+        ],
+        "fr": [
+          {
+            "term": "barillet",
+            "zdroj": "Gros 1913"
+          }
+        ]
+      },
+      "definice": "Válcový buben, ve kterém je svinuto pohonné péro (mainspring); přenáší tah pera na soukolí přes ozubení obvodu.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "snek"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "petite-a-grande-sonnerie": {
+      "lemma": "petite a grande sonnerie",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "**Kleines"
+          },
+          {
+            "term": "Großes Schlagwerk** (mensí"
+          },
+          {
+            "term": "velký bicí)"
+          }
+        ],
+        "en": [
+          {
+            "term": "petite sonnerie"
+          },
+          {
+            "term": "grande sonnerie"
+          }
+        ],
+        "fr": [
+          {
+            "term": "petite sonnerie"
+          },
+          {
+            "term": "grande sonnerie"
+          }
+        ]
+      },
+      "definice": "Dva základní **provozní režimy** bicího stroje: - **Petite sonnerie** — bije **jen čtvrtě** (1×, 2×, 3× v 15/30/45 min) + **celé hodiny** ve 00 min (počet hodin). Energy efficient. - **Grande sonnerie** — bije **plný počet** v každé čtvrti: každých 15 min zazní **počet hodin + počet čtvrtí**. Energeticky náročné, ale informativně kompletní.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bicí-stroj",
+        "opakovací-hodinky"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "pocetnik": {
+      "lemma": "početník",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "početník (moderní)",
+          "status": "admitted"
+        },
+        {
+          "term": "počítadlo** (méně častá varianta)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Rechen",
+            "genus": "m",
+            "zdroj": "Špatný 1882: Rechen → početník"
+          }
+        ],
+        "en": [
+          {
+            "term": "rack"
+          }
+        ],
+        "fr": [
+          {
+            "term": "râteau"
+          }
+        ]
+      },
+      "definice": "Ozubený segment v bicím stroji typu „s početníkem a stupnicí\" (Sladkovský 1947 typ II), který svým **vypadnutím** předem započte počet úderů, jež má bicí stroj odbít.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bicí-stroj",
+        "srdcovka",
+        "kolo-závěrkové",
+        "stupnice",
+        "posuvka"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "ponebi": {
+      "lemma": "ponebí (patro věže)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "jine",
+      "varianty": [
+        {
+          "term": "ponebí",
+          "status": "admitted"
+        },
+        {
+          "term": "podlaha",
+          "status": "admitted"
+        },
+        {
+          "term": "podnebí (= podlaha hořejší)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Archaický termín pro patro nebo strop. U Táborského *na prvním ponebí od země* = v přízemí (na první podlaze). Etymologicky souvisí se *strop* (= horní rozhraní místnosti, nebo \"nebí\" = nebe).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "rynk"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "posuvka": {
+      "lemma": "posůvka",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Schaltfinger"
+          },
+          {
+            "term": "Schaltklinke"
+          }
+        ],
+        "en": [
+          {
+            "term": "gathering pallet"
+          },
+          {
+            "term": "lifting piece"
+          }
+        ],
+        "fr": [
+          {
+            "term": "palette d'élévation"
+          }
+        ]
+      },
+      "definice": "Páková nebo prstová součást bicího stroje typu II (s početníkem), která při každém oběhu posune **početník** o jeden zub a tím umožní pravidelné odpočítávání úderů.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bicí-stroj",
+        "početník",
+        "srdcovka",
+        "stupnice"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "pouzdrar": {
+      "lemma": "pouzdrář",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Gehäusemacher",
+            "zdroj": "Špatný 1882: 9× v podtitulu i tělě slovníku"
+          }
+        ],
+        "en": [
+          {
+            "term": "case maker"
+          }
+        ],
+        "fr": [
+          {
+            "term": "boîtier",
+            "genus": "m"
+          },
+          {
+            "term": "fabricant de boîtes"
+          }
+        ]
+      },
+      "definice": "Řemeslník vyrábějící **pouzdra hodinek** — zlatnické, stříbřilo-tepecké specializace. V 16.–19. století **separátní obor** od samotného hodinářství (Uhrmacher × Gehäusemacher), často s vazbou na zlatnictví / klenotnictví. Dnes v luxury manufakturách **interní specializace** (case workshop), v běžné výrobě externalizováno na průmyslové dodavatele.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hodinář",
+        "pouzdro",
+        "signatura"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "pouzdro": {
+      "lemma": "pouzdro",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "hodinky",
+      "varianty": [
+        {
+          "term": "pouzdro",
+          "status": "admitted"
+        },
+        {
+          "term": "skříně** (archaicky",
+          "status": "admitted"
+        },
+        {
+          "term": "Špatný)",
+          "status": "admitted"
+        },
+        {
+          "term": "kapsel",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Gehäuse",
+            "genus": "n"
+          }
+        ],
+        "en": [
+          {
+            "term": "case"
+          }
+        ],
+        "fr": [
+          {
+            "term": "boîte"
+          },
+          {
+            "term": "boîtier",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Vnější schránka hodinek — drží stroj uvnitř, chrání ho před prachem, vodou, nárazy a magnetickým polem. Skládá se z **obroučku** (carrure / middle), **dna** (back / fond) a **rámku se sklíčkem** (lunette / bezel).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "sklíčko",
+        "korunka"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "pravidlo-orloje": {
+      "lemma": "pravidlo (orlojní)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "pravidlo",
+          "status": "admitted"
+        },
+        {
+          "term": "pravidlko",
+          "status": "admitted"
+        },
+        {
+          "term": "ručka",
+          "status": "admitted"
+        },
+        {
+          "term": "ruka",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Železný plochý prut nesoucí ručku / slunce / měsíc na konci — ekvivalent moderní **rafije** nebo **ručičky** ciferníku. Táborský používá *pravidlo* speciálně pro ukazatele orloje, ne pro malé hodinky.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "sphera",
+        "ruka-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "prazska-skola": {
+      "lemma": "pražská škola",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Prager Schule",
+            "genus": "f"
+          }
+        ],
+        "en": [
+          {
+            "term": "Prague school"
+          }
+        ],
+        "fr": [
+          {
+            "term": "école pragoise"
+          }
+        ]
+      },
+      "definice": "Hodinářská tradice rozvíjená v Praze od 15. století, spojená s **astronomickými orloji** (Pražský orloj 1410), renesančním hodinařením (Rudolf II.) a moderní organizací cechu (1881 vydání Špatného slovníku, 1947 Sladkovský). Specifická pro **bohatou astronomickou linii** (Růže, Táborský, Steffenbauer) a **česky psanou odbornou literaturu** od konce 19. století.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hodinář",
+        "švýcarská-škola"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "prut-orloje": {
+      "lemma": "prut (rameno kola)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "prut",
+          "status": "admitted"
+        },
+        {
+          "term": "rameno",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Rameno / paprsek kola. U Táborského *kolo tréprutové* = kolo se třemi rameny (paprsky), na kterém sedí indikátory orloje.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "oblouk-orloje",
+        "sphera"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "prysek": {
+      "lemma": "prysek",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "prysek",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Rozdvojený / rozeklaný konec — jako vrub vidlice. Táborský popisuje *kolečko maličké rozdvojené v kraji způsobem prysku*, což je v podstatě nekonečný šroub (vrtulovitě uspořádaný hřídel zabírající mezi zuby kalendářového kola).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "vrub-zub",
+        "tryb"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "pukla": {
+      "lemma": "pukla",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "pukla",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Terč / disk uprostřed astronomického ciferníku orloje, na němž jsou namalovaná zvířetníková znamení. Slouží k odečtu fáze měsíce vůči slunci.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "sphera",
+        "zodiak"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "puska-orloje": {
+      "lemma": "puška (orlojní)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "puška",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Dutý hřídel / souosé pouzdro nesoucí indikátory (slunce, měsíc, zodiak) na společné ose. Táborský pokládá *pušku* za klíčový a nejvíce \"tajemný\" konstrukční prvek Staroměstského orloje.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "herstuk",
+        "kstudle",
+        "sphera"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "rafije": {
+      "lemma": "rafije",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "rafije",
+          "status": "admitted"
+        },
+        {
+          "term": "rafička",
+          "status": "admitted"
+        },
+        {
+          "term": "raphija",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Archaický český termín pro **ručku** orloje nebo hodin. Z latinského *raphia* (= pruh, vlákno), deminutivum **rafička**. V moderním cs hodinářském úzu preferujeme **[ručka](/slovnik/ruka-orloje)** (resp. „ruka orloje\" v středověké terminologii Táborského).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "ruka-orloje"
+      ],
+      "isStub": false,
+      "redirectTo": "ruka-orloje"
+    },
+    "ramenko": {
+      "lemma": "raménko (zapadací / výpustné)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Hebearm"
+          }
+        ],
+        "en": [
+          {
+            "term": "detent arm"
+          },
+          {
+            "term": "lifting arm"
+          }
+        ],
+        "fr": [
+          {
+            "term": "bras de levée"
+          },
+          {
+            "term": "détente",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Pákové nebo háčkovité součásti bicího stroje, které **zachytávají či pouštějí** klíčová kola. Rozeznávají se 3 hlavní typy: **zapadací** (drží stroj v klidu), **výpustné** (uvolňuje při spouštění), **bicí** (nese kladívko).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bicí-stroj",
+        "kolo-závěrkové",
+        "srdcovka",
+        "kladívko"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "regulator": {
+      "lemma": "regulátor",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Regulator",
+            "zdroj": "Špatný 1882"
+          },
+          {
+            "term": "spravovák"
+          }
+        ],
+        "en": [
+          {
+            "term": "regulator",
+            "zdroj": "Saunier 1887"
+          }
+        ],
+        "fr": [
+          {
+            "term": "régulateur",
+            "zdroj": "Gros 1913"
+          }
+        ]
+      },
+      "definice": "(1) Funkční prvek hodin, který řídí časový rytmus (= kyvadlo, setrvačka, lihýř); (2) typ velmi přesných referenčních hodin v hvězdárnách, dílnách, nádražích — typicky stojací stroj s vteřinovým kyvadlem a Grahamovým krokem.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kyvadlo",
+        "setrvacka",
+        "lihyr"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "remontoir": {
+      "lemma": "remontoir",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "remontoir",
+          "status": "admitted"
+        },
+        {
+          "term": "remontoár (cs adaptace)",
+          "status": "admitted"
+        },
+        {
+          "term": "pomocné péro / pomocný stroj (popisný cs ekvivalent)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Remontoir",
+            "genus": "n"
+          },
+          {
+            "term": "Hilfstriebwerk",
+            "genus": "n"
+          }
+        ],
+        "en": [
+          {
+            "term": "remontoire"
+          },
+          {
+            "term": "constant force device"
+          }
+        ],
+        "fr": [
+          {
+            "term": "remontoir",
+            "genus": "m"
+          },
+          {
+            "term": "échappement à force constante",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Mechanické zařízení, které **dodává krok hodinového stroje konstantní silou**, nezávisle na okamžitém stavu hlavního pohonu (závaží, péro). Pomocné péro nebo závaží je v krátkých intervalech (typicky 30 s – několik minut) **přizváno hlavním strojem** k natažení, a jeho rovnoměrná energie pak pohání krok. Tím se odstraní vliv kolísání tahu lana / poklesu pružinového momentu při vybíjení na přesnost chodu.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "pero",
+        "perovnik",
+        "zavazi"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "rubinovy-kamen": {
+      "lemma": "rubínový kámen",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "materialy",
+      "varianty": [
+        {
+          "term": "rubínový kámen",
+          "status": "admitted"
+        },
+        {
+          "term": "kámen ložiskový",
+          "status": "admitted"
+        },
+        {
+          "term": "ložisko** (s drahokamem)",
+          "status": "admitted"
+        },
+        {
+          "term": "rubín** (zkrátka)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Rubinstein",
+            "zdroj": "Špatný 1882: Rubinstein → rubín"
+          }
+        ],
+        "en": [
+          {
+            "term": "jewel"
+          },
+          {
+            "term": "ruby jewel"
+          }
+        ],
+        "fr": [
+          {
+            "term": "rubis",
+            "genus": "m"
+          },
+          {
+            "term": "pierre"
+          }
+        ]
+      },
+      "definice": "Drobné válcovité ložisko z **uměle pěstovaného rubínu** (korund, Al₂O₃ s příměsí Cr) zaražené do desky nebo můstku, které **snižuje tření** čepu otáčejícího se kola. V současnosti standardní řešení u všech kvalitních mechanických hodin.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "setrvačka",
+        "paleta",
+        "krok",
+        "chronometr"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "ruka-orloje": {
+      "lemma": "ruka (ručka, ručička)",
+      "lang": "cs",
+      "conceptId": "HORO-HAND-001",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "ruka",
+          "status": "admitted"
+        },
+        {
+          "term": "ručka",
+          "status": "admitted"
+        },
+        {
+          "term": "ručička",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Pozlacená kovová ručička / rafije orloje, kterou se ukazuje hodina na ciferníku. Na konci *pravidla* (= železného plochého prutu) Táborského orloje sedí *ruka pozlacená*.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "pravidlo-orloje",
+        "sphera"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "rumpal": {
+      "lemma": "rumpál",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "rumpál",
+          "status": "admitted"
+        },
+        {
+          "term": "rumpálík",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Naviják / válec na hnacím hřídeli orloje. Synonymum k *válu*. Zmenšenina *rumpálík* označuje válec menšího rozměru, např. u dlouhého hřídele kalendářního stroje.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "val",
+        "vaha"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "rykl": {
+      "lemma": "rykl",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "rykl",
+          "status": "admitted"
+        },
+        {
+          "term": "ryklík",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Spouštěcí páčka / západka bicího ústrojí. Z něm. *Rückel*. Worff (kolík na boku kola) ji zvedne; když poté padne, vyrazí zámek bicího stroje a hodiny začnou bít.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "worff",
+        "lermo",
+        "palice-orloje",
+        "zamek-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "rynk": {
+      "lemma": "rynk (náměstí)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "jine",
+      "varianty": [
+        {
+          "term": "rynk",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Náměstí — typicky před věží orloje. Z něm. *Ring* (= kruh, kruhové prostranství). Táborský používá v topologickém smyslu: \"když vítr silný kalendářem z rynku pohnul do vnitřku\" = vítr ze Staroměstského náměstí pohnul kalendářní deskou orloje směrem dovnitř radnice.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "ponebi"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "setrvacka": {
+      "lemma": "setrvačka",
+      "lang": "cs",
+      "conceptId": "HORO-BALANCE-001",
+      "kategorie": "mechanika",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Unruhe",
+            "genus": "f"
+          },
+          {
+            "term": "Unrast",
+            "genus": "f",
+            "zdroj": "Špatný 1882: Unruhe → nepokoj, váhadlo"
+          }
+        ],
+        "en": [
+          {
+            "term": "**balance"
+          },
+          {
+            "term": "balance wheel**"
+          }
+        ],
+        "fr": [
+          {
+            "term": "balancier",
+            "genus": "m",
+            "zdroj": "Gros 1913"
+          }
+        ]
+      },
+      "definice": "Setrvačný oscilátor v kapesních a náramkových hodinkách, regulátor chodu — drobné kolo s rameny rotující kolem své osy, spolu s vláskem tvoří regulační prvek.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "vlasek",
+        "kyvadlo"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "signatura": {
+      "lemma": "signatura",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "hodinky",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Signatur"
+          },
+          {
+            "term": "Signierung"
+          }
+        ],
+        "en": [
+          {
+            "term": "signature"
+          },
+          {
+            "term": "maker's mark"
+          }
+        ],
+        "fr": [
+          {
+            "term": "signature"
+          }
+        ]
+      },
+      "definice": "Označení **autora hodin** na ciferníku, můstku, spodním desce nebo dnu pouzdra. U historických věžních a stojacích hodin obvykle na čele rámu (např. „THEODOR JANKOWSKY in OLMÜTZ 1902\"); u kapesních a náramkových hodinek na ciferníku, můstku (rotorová strana) nebo na můstku setrvačky.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "pouzdro",
+        "kalibr"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "sklicko": {
+      "lemma": "sklíčko",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "hodinky",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Glas",
+            "genus": "n"
+          },
+          {
+            "term": "Uhrglas"
+          }
+        ],
+        "en": [
+          {
+            "term": "crystal"
+          }
+        ],
+        "fr": [
+          {
+            "term": "verre",
+            "genus": "m"
+          },
+          {
+            "term": "glace"
+          }
+        ]
+      },
+      "definice": "Průhledná desková součást krytu hodinek — kryje ciferník a chrání ručky před prachem, vlhkostí a poškozením. Historicky **plné sklo**, později **plexisklo / akryl** (1940–1980), dnes výhradně **safírové sklo** (umělý korund Al₂O₃, Mohs 9) u kvalitních hodinek.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "pouzdro",
+        "rubínový-kámen"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "skripec": {
+      "lemma": "skřipec (skřípeček)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "skřipec",
+          "status": "admitted"
+        },
+        {
+          "term": "skřipeček",
+          "status": "admitted"
+        },
+        {
+          "term": "skřípeček",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Drobný železný třmen / spona / svorka — upevňuje pohyblivé části orloje (např. ráfek s počtem hodin) k pevné konstrukci. Hapax legomenon hodinářské terminologie 16. století.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "okolek",
+        "kstudle"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "slunecni-hodiny": {
+      "lemma": "sluneční hodiny",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Sonnenuhr",
+            "genus": "f",
+            "zdroj": "Špatný 1882: Sonnenuhr → sluneční hodiny"
+          }
+        ],
+        "en": [
+          {
+            "term": "sundial"
+          }
+        ],
+        "fr": [
+          {
+            "term": "cadran solaire"
+          }
+        ]
+      },
+      "definice": "Nejstarší typ časoměrného přístroje, který určuje denní dobu **podle směru a délky stínu** vrhaného sluncem na kalibrovanou plochu (číselník) tělesem zvaným **gnómon** nebo **ukazovák**.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "gnómon",
+        "časová-rovnice",
+        "kvadrant"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "snek": {
+      "lemma": "šnek (závitek)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Schnecke",
+            "zdroj": "Špatný 1882, Sladkovský 1947"
+          }
+        ],
+        "en": [
+          {
+            "term": "fusee",
+            "zdroj": "Saunier 1887"
+          }
+        ],
+        "fr": [
+          {
+            "term": "fusée",
+            "zdroj": "Gros 1913"
+          }
+        ]
+      },
+      "definice": "Kuželové kolo se šroubovitými chody, na něž se navíjí struna nebo řetízek z bubnu pohonné pružiny; vyrovnává nestejný tah pera (mainspring).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "perovnik"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "solsticium": {
+      "lemma": "solsticium (slunovrat)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "solsticium",
+          "status": "admitted"
+        },
+        {
+          "term": "solstitium",
+          "status": "admitted"
+        },
+        {
+          "term": "letní solsticium",
+          "status": "admitted"
+        },
+        {
+          "term": "zimní solsticium",
+          "status": "admitted"
+        },
+        {
+          "term": "slunovrat",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Lat. termín pro slunovrat — okamžik, kdy slunce dosahuje extrémní deklinace (severní = letní = 21. červen, jižní = zimní = 21. prosinec). Táborský používá výhradně lat. formu.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "declinatio-solis",
+        "linea-poledni"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "soukoli": {
+      "lemma": "soukolí",
+      "lang": "cs",
+      "conceptId": "HORO-GEARTRAIN-001",
+      "kategorie": "mechanika",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Räderwerk",
+            "genus": "n",
+            "zdroj": "Špatný 1882"
+          },
+          {
+            "term": "Uhrwerk",
+            "genus": "n"
+          }
+        ],
+        "en": [
+          {
+            "term": "gear train"
+          },
+          {
+            "term": "wheel train",
+            "zdroj": "Saunier 1887"
+          }
+        ],
+        "fr": [
+          {
+            "term": "rouage",
+            "genus": "m"
+          },
+          {
+            "term": "mouvement",
+            "genus": "m",
+            "zdroj": "Gros 1913"
+          }
+        ]
+      },
+      "definice": "Sestava ozubených kol, která přenáší energii od pohonu (závaží nebo péra) přes řadu převodů ke kroku a k ručkám hodin.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "spacium-orloje": {
+      "lemma": "spacium denní × noční",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "spacium denní",
+          "status": "admitted"
+        },
+        {
+          "term": "spacium noční",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Denní × noční pásmo na astronomickém ciferníku — barevně odlišená oblast (typicky lazurová pro den, tmavá modř nebo černá pro noc) ukazující, kdy slunce stojí nad obzorem (\"supra orizontem\") a kdy pod obzorem.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "sphera",
+        "supra-orizontem"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "sphera": {
+      "lemma": "sphera",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "sphera",
+          "status": "admitted"
+        },
+        {
+          "term": "sphéra",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Astronomický ciferník / nebeský kotouč orloje s indikátory slunce, měsíce, zodiaku a hodin. U Táborského má Staroměstský orloj *dvě sphery* (přední astronomická + dolní kalendářní) plus malou na věži Týnské.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "okolek",
+        "pukla",
+        "pravidlo-orloje",
+        "zodiak"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "spoust": {
+      "lemma": "spoušť",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Auslösung",
+            "zdroj": "Špatný 1882: Auslösung → spoušť, spouštění"
+          }
+        ],
+        "en": [
+          {
+            "term": "release"
+          },
+          {
+            "term": "trigger"
+          }
+        ],
+        "fr": [
+          {
+            "term": "déclenchement"
+          }
+        ]
+      },
+      "definice": "Mechanismus, který v určeném okamžiku **uvolní bicí stroj** zachycený v klidové poloze a umožní mu rozběhnout se a odbít. Spuštění obvykle iniciuje **jicí stroj** přes kolíček nebo páku napojenou na hodinovou ručku.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bicí-stroj",
+        "raménko-zapadací-výpustné",
+        "stupnice"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "srdcovka": {
+      "lemma": "srdcovka",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Herzscheibe"
+          }
+        ],
+        "en": [
+          {
+            "term": "gathering pallet"
+          },
+          {
+            "term": "heart cam"
+          }
+        ],
+        "fr": [
+          {
+            "term": "palette élévatrice"
+          },
+          {
+            "term": "came en cœur"
+          }
+        ]
+      },
+      "definice": "V bicím stroji typu II („s početníkem a stupnicí\") **kotoučová součást ve tvaru srdce nebo s obdobným profilem**, do níž zapadá raménko zapadací; jedno otočení srdcovky odpovídá jednomu úderu kladívka.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bicí-stroj",
+        "početník",
+        "posuvka"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "stegrad": {
+      "lemma": "štegrad",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "štegrad",
+          "status": "admitted"
+        },
+        {
+          "term": "štegrád",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Staročeské označení pro krokové kolo (něm. *Steigrad*). U Táborského 1570 je to druhé kolo orloje, do něhož zabírá trýb (pastorek) a které předává impuls krokovému ústrojí.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "tryb",
+        "krok"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "strana-orloje": {
+      "lemma": "strana (orlojní)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "strana",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "U Táborského *strana* = **chod / soustrojí** = funkčně samostatný celek mechanismu. Staroměstský orloj má *čtyři strany*: minutní (hodiny), čtvrťové (čtvrťové bití), bicí (hodinové bití), kalendářní (kalendář).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "stroj",
+        "vaha-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "stroj-podsestava": {
+      "lemma": "stroj (podsestava orloje)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "stroj",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "U Táborského *stroj* ≠ celý hodinový stroj. Označuje **funkční podsestavu** — např. bicí stroj, kalendářní stroj, spouštěcí stroj. Celý mechanismus orloje se skládá ze 4 takových strojů (= 4 stran).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "strana-orloje",
+        "zamek-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "stroj": {
+      "lemma": "stroj",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "stroj",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "V kontextu středověkých orlojů (Táborský 1570) označuje **stroj** funkční podsestavu — bicí stroj, kalendářní stroj, spouštěcí stroj. Pro plnou výklad viz hlavní heslo.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "stroj-podsestava",
+        "bici-stroj",
+        "ukazovaci-stroj"
+      ],
+      "isStub": false,
+      "redirectTo": "stroj-podsestava"
+    },
+    "struna-orloje": {
+      "lemma": "strúna (struna), drát, lano, provázek",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "strúna",
+          "status": "admitted"
+        },
+        {
+          "term": "struna",
+          "status": "admitted"
+        },
+        {
+          "term": "drát",
+          "status": "admitted"
+        },
+        {
+          "term": "lano",
+          "status": "admitted"
+        },
+        {
+          "term": "provaz",
+          "status": "admitted"
+        },
+        {
+          "term": "provázky",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Souhrnný termín pro táhla / spojovací prvky orloje: kovová struna (drát) pro spouštěcí vazby, lano nebo provaz pro pohon (mezi válem a závažím). Pravopis *strúna* (s o-ú) je typický pro 16. století.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "zamek-orloje",
+        "rumpal"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "strych-zodiakalni": {
+      "lemma": "štrych",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "štrych",
+          "status": "admitted"
+        },
+        {
+          "term": "štrychy",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Dílek po 5° na zodiaku. Šest štrychů tvoří jedno znamení (30°). V kalendářním systému Staroměstského orloje rozdělení 365 dnů na zodiakální štrychy slouží k odečítání polohy slunce.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "grad-zodiakalni",
+        "zodiak"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "stupnice": {
+      "lemma": "stupnice",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "stupnice (specificky bicí stroj)",
+          "status": "admitted"
+        },
+        {
+          "term": "schody** (regionálně)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Staffelscheibe"
+          },
+          {
+            "term": "Schneckenrad"
+          }
+        ],
+        "en": [
+          {
+            "term": "snail"
+          }
+        ],
+        "fr": [
+          {
+            "term": "limaçon"
+          }
+        ]
+      },
+      "definice": "V bicím stroji s početníkem **kotouč ve tvaru schodů** (nebo spirálovité šnečí formy) o 12 výškách, spojený přímo s hodinovou ručkou. Hloubka, do níž **početník** vypadne, závisí na výšce schůdku, který je v daném okamžiku pod ramenem početníku.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bicí-stroj",
+        "početník",
+        "posůvka"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "sumavsky-1851-historicke-ceske-hodinarske-terminy": {
+      "lemma": "Šumavský 1851 — historické české hodinářské termíny",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "jine",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "*(přehled archaismů, není jediný překlad)*"
+          }
+        ],
+        "en": [
+          {
+            "term": "*Czech horological archaisms — Šumavský 1851 dictionary*"
+          }
+        ],
+        "fr": [
+          {
+            "term": "*archaïsmes horlogers tchèques 1851*"
+          }
+        ]
+      },
+      "definice": "Souhrn **historických českých hodinářských termínů** zaznamenaných v slovníku Josefa Franty Šumavského *Česko-německý slovník* (1851). Jde o **pre-Špatný (1882) terminologii** — ražené české kalky a purismy 1. poloviny 19. století, **většina se neujala**. Důležitý dokumentární zdroj pro pochopení vývoje češtiny v hodinářství.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "supra-orizontem": {
+      "lemma": "supra orizontem × sub orizonte",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "supra orizontem",
+          "status": "admitted"
+        },
+        {
+          "term": "sub orizonte",
+          "status": "admitted"
+        },
+        {
+          "term": "nad obzorem",
+          "status": "admitted"
+        },
+        {
+          "term": "pod obzorem",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Astronomické pásma: zda je nebeské těleso nad horizontem (viditelné) nebo pod ním (neviditelné). Staroměstský orloj indikuje aktuální pozici slunce a měsíce vůči obzoru pozorovatele.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "declinatio-solis",
+        "spacium-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "svarcvaldska-skola": {
+      "lemma": "švarcvaldská škola",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "švarcvaldská škola",
+          "status": "admitted"
+        },
+        {
+          "term": "černoleské hodiny** (Špatný",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Schwarzwälder Uhrmacherei"
+          }
+        ],
+        "en": [
+          {
+            "term": "Black Forest school"
+          }
+        ],
+        "fr": [
+          {
+            "term": "école de la Forêt-Noire"
+          }
+        ]
+      },
+      "definice": "Hodinářská tradice **Schwarzwaldu** (Černolesí, jihozápadní Německo, kraj Bádensko-Württembersko) — od 17. století zaměřená na **lidové domácí hodiny**: dřevěné ozubená kola, švarcvaldky, **lakované ciferníky** (Lackschilduhren), **kukačkové hodiny** (Kuckucksuhren). Od 1840 přechod na mosazné stroje, masová průmyslová výroba.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hodinář",
+        "vídeňská-škola"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "svycarska-skola": {
+      "lemma": "švýcarská škola",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Schweizer Uhrmacherei"
+          }
+        ],
+        "en": [
+          {
+            "term": "Swiss watchmaking"
+          },
+          {
+            "term": "Swiss school"
+          }
+        ],
+        "fr": [
+          {
+            "term": "horlogerie suisse"
+          }
+        ]
+      },
+      "definice": "Hodinářská tradice **Švýcarska** — od 1587 v Ženevě, později rozvedená do **Jura** (La Chaux-de-Fonds, Le Locle, Vallée de Joux, Glashütte/Solothurn). **Globální dominance** od 1850 v sériové i luxury výrobě hodinek. Charakteristická pro **vertikální specializaci** (établissage — montáž z dílů od subdodavatelů), později manufakturní integraci, vrcholová certifikace přes **Geneva Seal**, **COSC**.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hodinář",
+        "pouzdrář"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "synchronni-motor": {
+      "lemma": "synchronní motor",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "jine",
+      "varianty": [
+        {
+          "term": "synchronní motor",
+          "status": "admitted"
+        },
+        {
+          "term": "elektrický synchronní motor",
+          "status": "admitted"
+        },
+        {
+          "term": "AC synchronous motor (en)",
+          "status": "admitted"
+        },
+        {
+          "term": "Warren-Telechron motor (en)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Synchronmotor",
+            "genus": "m"
+          },
+          {
+            "term": "Wechselstromsynchronmotor",
+            "genus": "m"
+          }
+        ],
+        "en": [
+          {
+            "term": "synchronous motor"
+          },
+          {
+            "term": "AC synchronous motor"
+          }
+        ],
+        "fr": [
+          {
+            "term": "moteur synchrone",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "**Elektromotor jehož otáčky jsou pevně vázány na frekvenci napájecí sítě** (50 Hz v EU, 60 Hz v Severní Americe). V hodinařině se používá jako pohon **síťových elektrických hodin** od 20. let 20. století — typicky **Warren-Telechron** princip (1918, Henry Warren, USA). Přesnost takových hodin je dána přesností frekvence sítě (provozovatel sítě garantuje dlouhodobě průměrnou 50,000 Hz s denní integrací nuly chyby), což je v Evropě udržováno na úrovni **±10 sekund/měsíc** pro běžné účely.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "elektricke-hodiny",
+        "jednotny-cas",
+        "kyvadlo"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "tatrmani-aparat": {
+      "lemma": "tatrmani / aparát (pohyblivé figurky)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "tatrmani",
+          "status": "admitted"
+        },
+        {
+          "term": "aparát",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Pohyblivé figurky / pohyblivá divadla na orlojích — postavičky, které se v daný okamžik objeví, otočí, kývnou. Táborský používá pohrdlivě (\"tatrmani a jiných aparátův bystře a nákladně, ale neužitečně udělaných\") pro orloje, které jsou pouhou show bez astronomické funkce.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "orloj",
+        "umeni"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "tepati": {
+      "lemma": "tepati (hodiny tepou)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "tepati",
+          "status": "admitted"
+        },
+        {
+          "term": "hodiny tepou",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Sloveso v archaickém významu: bíti, odbíjet. *Hodiny tepou* = hodiny bijí (na zvon). Z praslovan. *těp-* (= bít, tloukat).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "zvon-orloje",
+        "kladivko-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "tryb": {
+      "lemma": "trýb",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "trýb",
+          "status": "admitted"
+        },
+        {
+          "term": "tryblík",
+          "status": "admitted"
+        },
+        {
+          "term": "tryb",
+          "status": "admitted"
+        },
+        {
+          "term": "tribus",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Staročeské označení pro pastorek (malé hnací kolo se soukolím). U Táborského 1570 popisuje pastorky pohánějící hlavní, minutní, kalendářní a bicí kola Staroměstského orloje.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "stegrad",
+        "vos"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "ukazovaci-stroj": {
+      "lemma": "ukazovací stroj",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "ukazovací stroj",
+          "status": "admitted"
+        },
+        {
+          "term": "ukazovací soukolí",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Anzeigewerk",
+            "genus": "n"
+          },
+          {
+            "term": "Zeigerwerk",
+            "genus": "n"
+          }
+        ],
+        "en": [
+          {
+            "term": "motion work"
+          },
+          {
+            "term": "indication train"
+          }
+        ],
+        "fr": [
+          {
+            "term": "rouage de cadrature",
+            "genus": "m"
+          },
+          {
+            "term": "cadrature",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "**Vedlejší soukolí**, které z hlavní hřídele [jicího stroje](/slovnik/stroj-podsestava) odebírá pohyb a převádí ho na **otáčení ručiček (rafií) ciferníku** s vhodným redukčním převodem (typicky 1:12 mezi minutovou a hodinovou ručkou). U věžních hodin převádí pohyb mechanicky přes řadu kol a hřídelí k jednomu nebo více ciferníkům umístěným v různých stranách věže.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "soukoli",
+        "hridelik-orloje",
+        "ramenko",
+        "kolo-zaverkove"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "umeni": {
+      "lemma": "umění (= řemeslo)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "umění",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Archaický význam slova *umění* = **řemeslo, dovednost** (lat. *ars*, něm. *Kunst*, fr. *art* — všechny tyto termíny ve středověku znamenaly \"řemeslo\" stejně jako \"umění\"). Táborský používá v kontextu *umění orlojnické* nebo *umění hvězdářské*.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "cech-hodinarsky",
+        "orlojnik"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "v-hertu-kalen": {
+      "lemma": "v hertu kalený",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "materialy",
+      "varianty": [
+        {
+          "term": "v hertu kalený",
+          "status": "admitted"
+        },
+        {
+          "term": "hertovaný",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Železná součástka, kterou hodinář ve výhni (něm. *Härte* / *Härteofen* = kalicí pec, ohniště) zahřál do ruda a prudce ochladil ve vodě nebo oleji — tj. zakalil. Před zavedením oceli byly takto opracovávané čepy a herštuky často nestabilní (Táborský: „vyhlodali a vyjedli\").",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "vocel",
+        "vyhloditi"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "vaha-orloje": {
+      "lemma": "váha (orlojní)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "váha",
+          "status": "admitted"
+        },
+        {
+          "term": "závaží",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Závaží orloje, které tahem za lano navinuté na válu pohání hodinový stroj. U Táborského má každá ze „čtyř stran\" (= chodů) Staroměstského orloje svou samostatnou váhu.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "val",
+        "rumpal",
+        "strana-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "val": {
+      "lemma": "vál",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "vál",
+          "status": "admitted"
+        },
+        {
+          "term": "rumpál",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Buben hnacího hřídele, na který se navíjí lano (provaz) se závažím. U Táborského synonymum s *rumpálem*. Pohon Staroměstského orloje funguje na principu navíjení lana po válu.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "rumpal",
+        "vaha"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "vetrnik": {
+      "lemma": "větrník",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "větrník",
+          "status": "admitted"
+        },
+        {
+          "term": "větrober** (Špatný 1882",
+          "status": "admitted"
+        },
+        {
+          "term": "archaicky)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Windfang",
+            "genus": "m",
+            "zdroj": "Špatný 1882: Windfang → větrník, větrober"
+          }
+        ],
+        "en": [
+          {
+            "term": "fly"
+          },
+          {
+            "term": "fan-fly"
+          },
+          {
+            "term": "fly governor"
+          }
+        ],
+        "fr": [
+          {
+            "term": "volant",
+            "genus": "m"
+          },
+          {
+            "term": "volant régulateur",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Lopatkovité kolo (obvykle dvoukřídlé) na konci soukolí bicího stroje, jehož vzdušný odpor brzdí rychlost otáčení a tím **reguluje rychlost úderů kladívka**.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bicí-stroj",
+        "kotva"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "videnska-skola": {
+      "lemma": "vídeňská škola",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Wiener Schule",
+            "genus": "f"
+          },
+          {
+            "term": "Wiener Uhren"
+          }
+        ],
+        "en": [
+          {
+            "term": "Vienna school"
+          },
+          {
+            "term": "Viennese style"
+          }
+        ],
+        "fr": [
+          {
+            "term": "école viennoise",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Hodinářská tradice **Vídně** (a habsburské monarchie), zaměřená na **kvalitní stojací a nástěnné hodiny** — sloupkové, rámové, kyvadlovky závažové (vídeňské regulátory). Vrchol cca 1820–1880, výroba zanikla na konci 19. století s nástupem švýcarské sériové výroby. Vzor pro **švarcvaldskou** (Lorenz Bob 1840) a **českou** sériovou výrobu mosazných strojů.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hodinář",
+        "švarcvaldská-škola"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "vidlice": {
+      "lemma": "vidlice",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "hodinky",
+      "varianty": [
+        {
+          "term": "vidlice",
+          "status": "admitted"
+        },
+        {
+          "term": "vidlička",
+          "status": "admitted"
+        },
+        {
+          "term": "pallet fork (en)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Ankerklaue",
+            "genus": "f"
+          },
+          {
+            "term": "Anker",
+            "genus": "m"
+          }
+        ],
+        "en": [
+          {
+            "term": "pallet fork"
+          },
+          {
+            "term": "lever"
+          }
+        ],
+        "fr": [
+          {
+            "term": "ancre à fourchette",
+            "genus": "f"
+          },
+          {
+            "term": "fourchette",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "**Středový převodový článek** v páčkovém (švýcarském) kroku náramkových a kapesních hodinek. Vidlice spojuje **[krokové kolo](/slovnik/krokove-kolo)** s **[setrvačkou](/slovnik/setrvacka)** — palety na jednom konci vidlice zachycují zuby krokového kola, zatímco druhý konec (= vlastní vidlice) komunikuje se safírovou tříhrannou paletkou na ose setrvačky. Tím přenáší **diskrétní impulsy** (jeden za půlperiodu kyvu) na oscilátor.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "setrvacka",
+        "paleta",
+        "krokove-kolo"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "vlasek": {
+      "lemma": "vlásek",
+      "lang": "cs",
+      "conceptId": "HORO-HAIRSPRING-001",
+      "kategorie": "mechanika",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Spirale",
+            "genus": "f"
+          },
+          {
+            "term": "Unruhspirale",
+            "genus": "f",
+            "zdroj": "Špatný 1882: Spirale → spirála, vlásek"
+          }
+        ],
+        "en": [
+          {
+            "term": "hairspring"
+          },
+          {
+            "term": "balance spring",
+            "zdroj": "Saunier 1887"
+          }
+        ],
+        "fr": [
+          {
+            "term": "spiral",
+            "genus": "m",
+            "zdroj": "Gros 1913"
+          }
+        ]
+      },
+      "definice": "Tenká spirálová pružinka navinutá v kotouči nad setrvačkou; vrací setrvačku do středové polohy a tím udržuje její pravidelné rotační kmity.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "setrvacka",
+        "invar"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "vlaskova-krivka": {
+      "lemma": "vlásková křivka (Breguetova / Phillipsova)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "materialy",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Breguetspirale",
+            "zdroj": "Špatný 1882: Breguetspirale → vlásek Breguetův"
+          }
+        ],
+        "en": [
+          {
+            "term": "overcoil hairspring"
+          },
+          {
+            "term": "Phillips curve"
+          }
+        ],
+        "fr": [
+          {
+            "term": "spiral Breguet"
+          },
+          {
+            "term": "courbe terminale Phillips"
+          }
+        ]
+      },
+      "definice": "Ohnutý / zdvižený vnější závit vlásku setrvačky vzhůru a do středu, který umožňuje, aby **těžiště vlásku zůstalo na ose otáčení setrvačky** během celého kyvu. Tato úprava výrazně **zlepšuje isochronismus** kapesních a náramkových hodin v různých polohách (poloha plochá × poloha hřbetní).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "vlásek",
+        "setrvačka",
+        "isochronismus",
+        "chronometr"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "vlasova-pruzinka": {
+      "lemma": "vlasová pružinka",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "hodinky",
+      "varianty": [
+        {
+          "term": "vlasová pružinka",
+          "status": "admitted"
+        },
+        {
+          "term": "vlasová pružina",
+          "status": "admitted"
+        },
+        {
+          "term": "balanční pružinka",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Popisná moderní varianta pro **vlásek** — spirálová pružina, která spolu se setrvačkou tvoří torzní oscilátor v kapesních a náramkových hodinkách. V moderní české hodinářské terminologii preferujeme jednoslovný **[vlásek](/slovnik/vlasek)** (primární termín).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "vlasek",
+        "setrvacka"
+      ],
+      "isStub": false,
+      "redirectTo": "vlasek"
+    },
+    "vocel": {
+      "lemma": "vocel (ocel)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "materialy",
+      "varianty": [
+        {
+          "term": "vocel",
+          "status": "admitted"
+        },
+        {
+          "term": "vocelový",
+          "status": "admitted"
+        },
+        {
+          "term": "ocel",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Staročeský pravopis slova *ocel* — s protetickým *v-* na začátku, typickým rysem 16. století. Táborský zdůrazňuje výhody nové oceli oproti zastaralému kalenému železu pro výrobu herštuků (ložisek) a tryblíků (pastorků).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "v-hertu-kalen",
+        "herstuk"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "volovo": {
+      "lemma": "volovo (olovo)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "materialy",
+      "varianty": [
+        {
+          "term": "volovo",
+          "status": "admitted"
+        },
+        {
+          "term": "olovo",
+          "status": "admitted"
+        },
+        {
+          "term": "volověná váha",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Staročeský pravopis slova *olovo* — s protetickým *v-*. U Táborského *volovo* označuje specificky **olověnou vyvažovací zátěž**, vlitou do kola slunce nebo měsíce pro vyvážení excentrického zatížení (např. olovo + indikátor na opačné straně osy).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "vocel",
+        "okolek"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "vos": {
+      "lemma": "vos (osa)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "vos",
+          "status": "admitted"
+        },
+        {
+          "term": "vůs",
+          "status": "admitted"
+        },
+        {
+          "term": "osa",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Staročeský pravopis slova *osa* — s protetickým *v-* na začátku. Charakteristický pravopisný rys češtiny 16. století.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hridelik-orloje",
+        "puska-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "vreteno-orloje": {
+      "lemma": "vřeteno (orlojní)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "vřeteno",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "U Táborského 1570 *vřeteno* označuje drobný hřídelík (typicky nesoucí měsíc nebo malý indikátor). Synonymum: *hřídelík*. Pozor: nezaměňovat s moderním hodinářským *vřetenovým krokem* (= 13. st. typ kroku).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hridelik-orloje",
+        "cep-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "vrub-zub": {
+      "lemma": "vrub (vroubek, zub)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "vrub",
+          "status": "admitted"
+        },
+        {
+          "term": "vroubek",
+          "status": "admitted"
+        },
+        {
+          "term": "zub",
+          "status": "admitted"
+        },
+        {
+          "term": "zoubek",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Mezera mezi zuby kola, nebo synonymně i samotný zub. Táborský zaměnitelně používá *vrub*, *vroubek*, *zub* a *zoubek*.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "prysek",
+        "tryb"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "vyhloditi": {
+      "lemma": "vyhloditi, vyjedli, vychodili",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "vyhloditi",
+          "status": "admitted"
+        },
+        {
+          "term": "vyhlodaný",
+          "status": "admitted"
+        },
+        {
+          "term": "vyjeden",
+          "status": "admitted"
+        },
+        {
+          "term": "vychozen",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Slovesa popisující opotřebení hodinářských součástí: čep nebo herštuk se „vyhlodal\" = vybrousil tahem rotujícího hřídele do nepoužitelného stavu. Synonyma: *vyjeden*, *vychozen* (opotřebovaný).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "v-hertu-kalen",
+        "cep-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "vyklusati": {
+      "lemma": "vyklusati, vyklusalo",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "vyklusati",
+          "status": "admitted"
+        },
+        {
+          "term": "vyklusalo",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Sloveso: uvolnit se, vykloubit se, vypadnout ze svého místa. U Táborského konkrétně o olověné protiváze, která se v kole měsíce uvolnila a vypadla.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "volovo",
+        "vyhloditi"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "werk": {
+      "lemma": "werk",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "hodinky",
+      "varianty": [
+        {
+          "term": "werk (germanism v žargonu)",
+          "status": "admitted"
+        },
+        {
+          "term": "stroj** (Špatný 1882",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Werk",
+            "genus": "n"
+          }
+        ],
+        "en": [
+          {
+            "term": "movement"
+          }
+        ],
+        "fr": [
+          {
+            "term": "mouvement",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Vlastní **mechanický stroj** hodin — soukolí, krok, oscilátor, perovník, krokové kolo a ručky — bez pouzdra a ciferníku. V kapesních / náramkových hodinkách obvykle synonymum s **kalibrem** v konkrétní instanci (kalibr je typ, werk je kus).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kalibr",
+        "soukolí"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "westminster-chime": {
+      "lemma": "Westminster chime",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "Westminster chime",
+          "status": "admitted"
+        },
+        {
+          "term": "westminsterský zvon",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Westminster-Schlag"
+          },
+          {
+            "term": "Westminster-Glockenspiel"
+          }
+        ],
+        "en": [
+          {
+            "term": "Westminster chime"
+          },
+          {
+            "term": "Westminster quarters"
+          }
+        ],
+        "fr": [
+          {
+            "term": "carillon de Westminster"
+          }
+        ]
+      },
+      "definice": "**Čtyřtónová melodie**, kterou nejznámější věžní hodiny světa **Big Ben** (Westminster Palace, Londýn, 1859) odbíjejí každou **čtvrt hodiny**. Sekvence se prodlužuje od 1 fráze v 15 min, přes 2 v 30 min, 3 v 45 min, až 4 ve 00 min. Pak teprve hodinové bití.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "čtvrťové-bití"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "winnerluv-krok": {
+      "lemma": "Winnerlův krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Winnerlův krok",
+          "status": "admitted"
+        },
+        {
+          "term": "Winnerl-Hemmung",
+          "status": "admitted"
+        },
+        {
+          "term": "Winnerl gravity escapement",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Winnerl-Hemmung",
+            "genus": "f"
+          },
+          {
+            "term": "Winnerlsche Schwerkraft-Hemmung",
+            "genus": "f"
+          }
+        ],
+        "en": [
+          {
+            "term": "Winnerl escapement"
+          },
+          {
+            "term": "Winnerl gravity escapement"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement de Winnerl",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "**Gravitační krok s dvěma závažíčky na ramenech**, vynalezený rakousko-francouzským hodinářem **[Josephem Winnerlem](/hodinari/joseph-winnerl)** (1799–1886) **kolem roku 1836** v Paříži. Princip: dvě malá závažíčka na ramenech, mezi nimiž si kyvadlo střídavě přebírá energii — kyvadlu dává impuls vždy pouze gravitační síla padajícího závažíčka, nikoli proměnlivá síla převodovky. Předchůdce slavnějšího [Denisonova gravitačního kroku](/kroky/denisonuv-gravitacni-krok) (1852), který princip dále zdokonalil pro Westminster Great Clock.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "kyvadlo",
+        "krokove-kolo"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "worff": {
+      "lemma": "worff",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "worff",
+          "status": "admitted"
+        },
+        {
+          "term": "worf",
+          "status": "admitted"
+        },
+        {
+          "term": "hřebík (v boku kola)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Zdvih / kolík v boku kola, který v určitý okamžik zvedne ryklík (spouštěcí páčku) bicího ústrojí. Z něm. *Worf*. U Staroměstského orloje rotující sluneční kolo má v boku worff, jenž každou hodinu spustí bití.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "rykl",
+        "lermo",
+        "palice-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "zamek-orloje": {
+      "lemma": "zámek (bicího stroje)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "zámek",
+          "status": "admitted"
+        },
+        {
+          "term": "závora bicí",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Západka / zástavka držící bicí stroj zamknutý, dokud není uvolněna pádem palice. Po vyražení zámku se bicí soukolí roztočí a odbije počet úderů odpovídající hodině.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "palice-orloje",
+        "rykl",
+        "stroj"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "zavazi": {
+      "lemma": "závaží",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [],
+      "translations": {
+        "de": [
+          {
+            "term": "Gewicht",
+            "zdroj": "Špatný 1882"
+          }
+        ],
+        "en": [
+          {
+            "term": "weight"
+          },
+          {
+            "term": "driving weight",
+            "zdroj": "Saunier 1887"
+          }
+        ],
+        "fr": [
+          {
+            "term": "poids",
+            "genus": "m",
+            "zdroj": "Gros 1913"
+          }
+        ]
+      },
+      "definice": "Hmotné těleso, které svou tíží přes lano nebo řetízek navíjené na bubnu pohání soukolí; primární zdroj energie u věžních a stojacích hodin.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kyvadlo"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "zfalsovati": {
+      "lemma": "zfalšovati",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "zfalšovati",
+          "status": "admitted"
+        },
+        {
+          "term": "zfalšován",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Sloveso: udělat falešně, zkazit pokus o opravu, sestavit chybně. Táborský pohrdlivě o stavu orloje po předchozí nekompetentní opravě: \"byl ten stroj … zfalšován\".",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "zmotrchati",
+        "majlit"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "zmotrchati": {
+      "lemma": "zmotrchati, zamotrchán",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "zmotrchati",
+          "status": "admitted"
+        },
+        {
+          "term": "zamotrchán",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Sloveso: zamotat, popřehazovat, dát do nepořádku. U Táborského konkrétně o spouštěcích strúnách (drátech) orloje, které předchozí opravář promíchal: \"provázky zamotrchán\".",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "struna-orloje",
+        "zfalsovati"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "znameni-zodiaku": {
+      "lemma": "Skopec, Bajk a další (znamení)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "Skopec (Beran)",
+          "status": "admitted"
+        },
+        {
+          "term": "Bajk (Býk)",
+          "status": "admitted"
+        },
+        {
+          "term": "Blíženci",
+          "status": "admitted"
+        },
+        {
+          "term": "Rak",
+          "status": "admitted"
+        },
+        {
+          "term": "Lev",
+          "status": "admitted"
+        },
+        {
+          "term": "Panna",
+          "status": "admitted"
+        },
+        {
+          "term": "Váha",
+          "status": "admitted"
+        },
+        {
+          "term": "Kozorožec",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Staročeské tvary jmen zvířetníkových znamení používané v textu Táborského 1570: *Skopec* (Beran), *Bajk* (Býk). Ostatní znamení (Blíženci, Rak, Lev, Panna, Váha, Kozorožec) Táborský používá v moderním tvaru.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "zodiak",
+        "grad-zodiakalni"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "zodiak": {
+      "lemma": "zodiak",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "zodiak",
+          "status": "admitted"
+        },
+        {
+          "term": "zodyak",
+          "status": "admitted"
+        },
+        {
+          "term": "zvěrokruh",
+          "status": "admitted"
+        },
+        {
+          "term": "zodiakův okolek",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Zvěrokruh — pás 12 zvířetníkových znamení v ekliptice, po kterém zdánlivě postupuje slunce, měsíc a planety. Na Staroměstském orloji je zobrazen jako otáčející se plech s namalovanými symboly.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "sphera",
+        "grad-zodiakalni",
+        "strych-zodiakalni"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "zpravce-orloje": {
+      "lemma": "zprávce orloje",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "zprávce orloje",
+          "status": "admitted"
+        },
+        {
+          "term": "správce orloje",
+          "status": "admitted"
+        },
+        {
+          "term": "opatrovník orloje",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Cechovní funkce: hodinář pověřený městskou radou udržováním orloje. Měl k orloji výhradní přístup; smluvně byl odpovědný za jeho chod a opravy. Táborský sám byl zprávcí Staroměstského orloje.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "orlojnik",
+        "mistr-malych-hodinek"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "zvon-orloje": {
+      "lemma": "zvon × zvonec (orlojní)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "zvon",
+          "status": "admitted"
+        },
+        {
+          "term": "zvonec",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Tonální tělesa bicího stroje orloje: **zvon** = velký bicí zvon na věži (úderem kladiva odbíjí hodiny), **zvonec** = menší signální zvonek (zvoní krátký signál chvíli před vlastním bitím, jako upozornění).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kladivko-orloje",
+        "tepati",
+        "cymbal"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    }
+  }
+}

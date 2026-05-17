@@ -1,6 +1,7 @@
 ---
 title: vlásek
 slug: vlasek
+conceptId: HORO-HAIRSPRING-001
 kategorie: mechanika
 prekladyDe:
   - term: Spirale

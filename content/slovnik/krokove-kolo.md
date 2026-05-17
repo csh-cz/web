@@ -1,6 +1,7 @@
 ---
 title: krokové kolo
 slug: krokove-kolo
+conceptId: HORO-ESCAPEWHEEL-001
 kategorie: mechanika
 prekladyDe:
   - term: Hemmungsrad

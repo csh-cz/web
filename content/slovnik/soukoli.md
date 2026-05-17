@@ -1,6 +1,7 @@
 ---
 title: soukolí
 slug: soukoli
+conceptId: HORO-GEARTRAIN-001
 kategorie: mechanika
 prekladyDe:
   - term: Räderwerk

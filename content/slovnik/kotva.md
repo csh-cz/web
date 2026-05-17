@@ -1,6 +1,7 @@
 ---
 title: kotva
 slug: kotva
+conceptId: HORO-ANCHOR-001
 kategorie: mechanika
 prekladyDe:
   - term: Anker

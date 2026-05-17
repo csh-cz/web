@@ -1,6 +1,7 @@
 ---
 title: krok
 slug: krok
+conceptId: HORO-ESCAPEMENT-001
 kategorie: mechanika
 prekladyDe:
   - term: Hemmung

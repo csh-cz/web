@@ -1,6 +1,7 @@
 ---
 title: číselník
 slug: ciselnik
+conceptId: HORO-DIAL-001
 kategorie: mechanika
 prekladyDe:
   - term: Zifferblatt
@@ -12,10 +13,34 @@ prekladyFr:
   - term: cadran
     genus: m
 varianty:
-  - číselník (preferovaný moderní cs termín)
-  - ciferník (archaismus, kalk z DE Zifferblatt)
-  - cifrák (lid., nepoužívat)
+  - term: číselník
+    status: preferred
+    note: "Moderní cs odborný úzus (Sladkovský 1947, Hajn 1953, Bureš 1965)."
+  - term: ciferník
+    status: archaic
+    note: "Kalk z DE Zifferblatt, v 19. století běžný."
+    doloženo: "Špatný 1882"
+  - term: cifrák
+    status: erroneous
+    note: "Lidové, v odborném textu nepoužívat."
 definice: "**Vnější indikační plocha hodin** — kruhová (méně často hranatá) deska s vyznačenými číslicemi a stupnicemi, na níž ručky (rafije) ukazují aktuální čas. U věžních hodin je číselník typicky **kruhový o průměru 100–250 cm**, kovaný železný rám potažený plechem; u radničních a školních budov často **ve štítu nebo atikovém štítu**, propojený mechanicky táhlem se strojem v podkroví."
+atestace:
+  - rok: 1844
+    pramen: "Šumavský DE-CS"
+    forma: "ciferník"
+    note: "Šumavský překládá DE Zifferblatt jako ciferník (kalk)."
+  - rok: 1882
+    pramen: "Špatný"
+    forma: "ciferník"
+    note: "V odborném slovníku Špatného (s Krečmerem) ještě ciferník."
+  - rok: 1947
+    pramen: "Sladkovský"
+    forma: "číselník"
+    note: "Sjednocení moderní cs terminologie — číselník nahrazuje ciferník."
+  - rok: 1965
+    pramen: "Bureš"
+    forma: "číselník"
+    note: "Číselník jako jednoznačně primární odborný termín."
 pribuzne:
   - hridelik-orloje
   - ramenko
