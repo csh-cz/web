@@ -1,8 +1,8 @@
 {
   "_meta": {
     "comment": "Řízeně rozšiřovatelný whitelist tagů pro články. Sloučení všech polí (kromě _meta) se používá v Zod refine validaci v content.config.ts. Nový tag = PR commit s update tohoto souboru. Bez whitelistu by se tagy množily nekonzistentně (atomovky / atomické / atomic).",
-    "version": 3,
-    "updated": "2026-05-16"
+    "version": 4,
+    "updated": "2026-05-17"
   },
   "typ": [
     "vezni",
@@ -76,7 +76,8 @@
     "krok-hipp",
     "krok-winnerl",
     "krok-benoit-robert",
-    "krok-lihyr"
+    "krok-lihyr",
+    "krok-denison-gravitacni"
   ],
   "lokace": [
     "sobeslav",
@@ -94,7 +95,9 @@
     "kuriozita",
     "popularizace",
     "prazsky-orloj",
-    "tematicka-vystava"
+    "tematicka-vystava",
+    "westminster",
+    "big-ben"
   ],
   "umisteni": [
     "hlavni-sal",
@@ -146,6 +149,8 @@
     "jednotny-cas",
     "datumatic",
     "manesova",
-    "solari-udine"
+    "solari-udine",
+    "dent",
+    "mannhardt"
   ]
 }
