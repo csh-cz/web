@@ -272,6 +272,185 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
       `csh-imgvariants` jako single bucket pro vše místo dvou).
       Připravit `imgcdn.<doména>` DNS po A.9.
 
+---
+
+### Slovník — rozšíření modelu (návrh 2026-05-17)
+
+Sada inkrementálních rozšíření slovníkového schématu motivovaná
+ChatGPT návrhem na plnohodnotný lexikografický model (LemmaEntry +
+Sense + Concept + Term + Translation + CrossRef + Attestation
++ PostgreSQL + OpenSearch + Neo4j + MCP). Po kritickém review jsme
+plný refactor zamítli (overkill pro 153 hesel, 3 nové deployment
+surfaces, vendor lock-in, ztráta Sveltia compat) a místo toho
+zvolili **5 menších kroků**, které řeší konkrétní pain points
+a zachovávají Astro MDX content collections jako source of truth.
+
+Volby Davida (2026-05-17):
+- Jazyky: pouze cs hesla dnes, conceptId opt-in jako příprava pro V2
+- MCP: hybrid (JSON export teď, MCP po stabilizaci A.25/A.26 — sjednotí s A.12)
+- Multi-sense: středně (5–20 hesel, opt-in `vyznamy[]` schema)
+- Atestace: strukturovaná `atestace[]` jen kde má smysl (historické změny)
+
+Plný design + zamítnutí ChatGPT návrhu v session transcriptu
+2026-05-17.
+
+- [ ] **A.27 Slovník — multi-sense schema `vyznamy[]`** (~4 h).
+      Schema rozšířit o optional pole:
+      ```yaml
+      vyznamy:
+        - kontext: "v hodinařině"
+          definice: "Vnější indikační plocha hodin..."
+          kategorie: mechanika
+        - kontext: "obecně"
+          definice: "Číslovaná tabule (silnice, sport)..."
+          kategorie: jine
+      ```
+      Backward compat: `definice` zachovat, pokud má heslo 1 význam.
+      Render v `pages/slovnik/[slug].astro`: pokud `vyznamy[]` →
+      render jednotlivé sense bloky s kontextovým nadpisem; jinak
+      současný `definice`.
+
+      **Kandidáti k migraci** (5–20 hesel s polysémií v hodinařině):
+      ručka, balanc, lihýř, vlásek, vidlice, krok, hřídel, ciferník,
+      ramenko, soukolí (často 1 cs slovo = více technických rolí).
+
+- [ ] **A.28 Slovník — varianty se status field** (~6 h). Dnes
+      `varianty: ["X", "Y", "Z"]` flat array bez kontextu — uživatel
+      nevidí, která je preferovaná a která archaická. Vylepšit:
+      ```yaml
+      varianty:
+        - term: číselník
+          status: preferred
+        - term: ciferník
+          status: archaic
+          note: "Kalk z DE Zifferblatt, v 19. století běžný"
+          doloženo: "Špatný 1882, s. 23"
+        - term: cifrák
+          status: erroneous
+          note: "Lidové, v odborném textu nepoužívat"
+      ```
+      Status enum: `preferred | admitted | archaic | erroneous | ocr-variant | historical`.
+      Schema přijme oboje (string i objekt) — incremental migrace.
+      Render: status badge u každé varianty (zelený preferred, šedý
+      archaic, červený erroneous, ...).
+
+      **Konkrétní akce:**
+      1. Schema rozšířit v `content.config.ts` o union (string | object)
+      2. Render `[slug].astro` — badge komponenta pro každou variantu
+      3. CSS pro status badges (sjednoceno s ostatními badges v projektu)
+      4. Migrovat 5 hesel s nejvíce variantami jako pilot
+
+- [ ] **A.29 Slovník — atestace[] array pro historické hesla** (~6 h).
+      Pro hesla s významnou terminologickou proměnou napříč staletími
+      (např. `rafije` → `ručka`, `ciferník` → `číselník`, `vlasová
+      pružinka` → `vlásek`) přidat strukturované atestace:
+      ```yaml
+      atestace:
+        - rok: 1851
+          pramen: "Šumavský"
+          forma: rafije
+        - rok: 1882
+          pramen: "Špatný"
+          forma: rafije
+          citace: "..rafije jest šipka.."
+        - rok: 1947
+          pramen: "Sladkovský"
+          forma: ručka
+          note: "Sladkovský sjednotil terminologii na ručka"
+      ```
+      Render: timeline UI s formami v různých dobách (vlnovková
+      grafika 1850→2020, jednotlivé prameny jako body).
+
+      **Kandidáti** (~10 hesel kde má smysl): rafije/ručka,
+      ciferník/číselník, vlasová pružinka/vlásek, vřetenový krok,
+      lihýř, balanc/setrvačka, foliot.
+
+      **Zdroje** (už máme indexované): Šumavský 1851, Špatný 1882,
+      Sušický 1900, Sladkovský 1947, Hajn 1953, Michal 1980, Bureš 1965
+      (Bureš OCR cache poškozený, viz SL7 v A.1).
+
+- [ ] **A.30 Slovník — conceptId infrastructure pro V2 vícejazyčný**
+      (~3 h). Schema přidat optional `conceptId: string` (format
+      `HORO-<TOPIC>-<NN>`, např. `HORO-DIAL-001`, `HORO-HAND-001`).
+      Concept **neexistuje jako separátní stránka** — je to jen klíč
+      pro group/lookup.
+
+      Build script v `scripts/build-concept-index.ts` postaví mapu
+      `conceptId → [slug1, slug2, ...]` napříč všemi hesly. Render
+      v `[slug].astro`: pokud heslo má conceptId a existují další
+      hesla se stejným conceptId (např. budoucí en/de/fr varianty),
+      zobrazit „Související koncepty" sekci s odkazy.
+
+      **Dnes:** vyplnit conceptId u ~10 pilotních hesel (číselník,
+      ručka, krok, kotva, kyvadlo, setrvačka, vlásek, krokové kolo,
+      soukolí, ciferník). Bez immediate UI changes.
+
+      **V2 (až bude potřeba):** založit en/de/fr varianty hesel
+      (`content/slovnik/en/dial.md`, …) → automatic cross-language
+      nav přes conceptId. Wiktionary-like bez separátní Concept
+      entity.
+
+      **Důležité:** žádné `/slovnik/concept/<id>` stránky — concept
+      je metadata, ne entity s vlastním lifecycle.
+
+- [ ] **A.31 Slovník — JSON export pro AI agents** (~3 h). Build
+      script `scripts/build-dictionary-index.ts` generuje
+      `apps/hodinarium-eu/public/dictionary-index.json` (~50 KB
+      odhadem pro 153 hesel). Schema per slug:
+      ```json
+      {
+        "ciselnik": {
+          "lemma": "číselník",
+          "lang": "cs",
+          "conceptId": "HORO-DIAL-001",
+          "kategorie": "mechanika",
+          "varianty": [
+            {"term": "číselník", "status": "preferred"},
+            {"term": "ciferník", "status": "archaic", "note": "..."}
+          ],
+          "translations": {
+            "de": [{"term": "Zifferblatt", "genus": "n"}],
+            "en": [{"term": "dial"}, {"term": "clock face"}],
+            "fr": [{"term": "cadran", "genus": "m"}]
+          },
+          "definice": "...",
+          "vyznamy": [...],         // pokud A.27 implementováno
+          "isStub": false,
+          "redirectTo": null
+        }
+      }
+      ```
+      Expose přes `/dictionary-index.json` (static, Cloudflare CDN
+      cache). Pro AI translation agent / external consumers / budoucí
+      MCP V2. **Bez API server** — jen statický JSON, cache-friendly.
+
+      **Závislosti:** ideálně po A.28 (status field) a A.27 (vyznamy[])
+      aby export obsahoval kompletní strukturu.
+
+- [ ] **A.32 MCP server pro slovník + Zotero** (V2, ~4 dny po A.31).
+      Sjednoceno s **A.12 (`@csh-cz/mcp-horologie`)** — plný design
+      v `docs/design-mcp-horologie-2026-05-09.md` (11 PBI ticketů).
+      Implementaci pustit **až po A.25/A.26 stabilizaci** (image
+      systém + R2 migrace) a A.27–A.31 (slovník schema rozšíření).
+
+      Tools (V1 read-only):
+      - `search_entries(query, lang?, kategorie?)`
+      - `get_entry(slug)`
+      - `translate_term(term, src_lang, target_lang, context?)`
+      - `suggest_glossary_for_text(text, src_lang, target_lang)`
+      - `check_translation_consistency(src_text, target_text, ...)`
+      - `get_attestation_history(term, lang)` — využije A.29 atestace[]
+      - `find_concept_synonyms(slug)` — využije A.30 conceptId
+      - `cite_term(term, lang)` — vrátí ISO 690 citaci z Zotero refs
+
+      **Stack:** stdio MCP server, ~200–300 řádků TypeScript, čte
+      `dictionary-index.json` z A.31 + Zotero `references.json`.
+      Žádná DB. Distribuovat jako `npx @csh-cz/mcp-horologie`.
+
+      **Write capabilities (V2):** `add_or_update_entry`,
+      `add_translation` — generují PR drafty pro git commit, ne
+      přímý write. Zachovává validation + review workflow.
+
 ## A.7 — Tech dluh (větší)
 
 - [ ] **D1 Test coverage** — Vitest setup pro `scripts/*.ts`
