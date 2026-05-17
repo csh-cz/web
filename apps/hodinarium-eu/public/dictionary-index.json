@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generated": "2026-05-17T11:23:01.045Z",
-    "count": 153,
+    "generated": "2026-05-17T23:30:45.993Z",
+    "count": 154,
     "stubs": 84,
     "redirects": 5,
     "withConceptId": 10,
@@ -40,7 +40,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "hodinář",
+        "hodinar",
         "chronometr"
       ],
       "isStub": false,
@@ -141,7 +141,7 @@
       "atestace": null,
       "pribuzne": [
         "korunka",
-        "perovník"
+        "perovnik"
       ],
       "isStub": false,
       "redirectTo": null
@@ -209,10 +209,10 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "kladívko",
-        "cymbál",
-        "kolo-závěrkové",
-        "početník",
+        "kladivko",
+        "cymbal",
+        "kolo-zaverkove",
+        "pocetnik",
         "srdcovka",
         "posuvka",
         "spoust"
@@ -296,8 +296,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "sluneční-hodiny",
-        "gnómon"
+        "slunecni-hodiny",
+        "gnomon"
       ],
       "isStub": false,
       "redirectTo": null
@@ -458,8 +458,8 @@
       "atestace": null,
       "pribuzne": [
         "chronometr",
-        "opakovací-hodinky",
-        "setrvačka",
+        "opakovaci-hodinky",
+        "setrvacka",
         "kalibr"
       ],
       "isStub": false,
@@ -499,6 +499,58 @@
       "pribuzne": [
         "setrvacka",
         "vlasek"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "cifernik 2": {
+      "lemma": "ciferník",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "ciferník",
+          "status": "admitted"
+        },
+        {
+          "term": "číselník (archaicky, Sušický 1900)",
+          "status": "admitted"
+        },
+        {
+          "term": "cifrák (lid., nepoužívat)",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Zifferblatt",
+            "genus": "n"
+          }
+        ],
+        "en": [
+          {
+            "term": "dial"
+          },
+          {
+            "term": "clock face"
+          }
+        ],
+        "fr": [
+          {
+            "term": "cadran",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "**Vnější indikační plocha hodin** — kruhová (méně často hranatá) deska s vyznačenými číslicemi a stupnicemi, na níž ručky (rafije) ukazují aktuální čas. U věžních hodin je ciferník typicky **kruhový o průměru 100–250 cm**, kovaný železný rám potažený plechem; u radničních a školních budov často **ve štítu nebo atikovém štítu**, propojený mechanicky táhlem se strojem v podkroví.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hridelik-orloje",
+        "ramenko",
+        "ukazovaci-stroj"
       ],
       "isStub": false,
       "redirectTo": null
@@ -742,8 +794,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "bicí-stroj",
-        "kladívko"
+        "bici-stroj",
+        "kladivko"
       ],
       "isStub": false,
       "redirectTo": null
@@ -789,7 +841,7 @@
       "kategorie": "bici",
       "varianty": [
         {
-          "term": "cymbál",
+          "term": "cymbal",
           "status": "admitted"
         },
         {
@@ -835,8 +887,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "bicí-stroj",
-        "kladívko",
+        "bici-stroj",
+        "kladivko",
         "stupnice"
       ],
       "isStub": false,
@@ -905,8 +957,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "hodinář",
-        "švýcarská-škola"
+        "hodinar",
+        "svycarska-skola"
       ],
       "isStub": false,
       "redirectTo": null
@@ -956,7 +1008,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "časová-rovnice"
+        "casova-rovnice"
       ],
       "isStub": false,
       "redirectTo": null
@@ -968,7 +1020,7 @@
       "kategorie": "astronomicke",
       "varianty": [
         {
-          "term": "gnómon",
+          "term": "gnomon",
           "status": "admitted"
         },
         {
@@ -1016,7 +1068,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "sluneční-hodiny"
+        "slunecni-hodiny"
       ],
       "isStub": false,
       "redirectTo": null
@@ -1136,8 +1188,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "pouzdrář",
-        "pražská-škola"
+        "pouzdrar",
+        "prazska-skola"
       ],
       "isStub": false,
       "redirectTo": null
@@ -1381,9 +1433,9 @@
       "atestace": null,
       "pribuzne": [
         "kyvadlo",
-        "setrvačka",
-        "vlásek",
-        "kompenzace-teplotní",
+        "setrvacka",
+        "vlasek",
+        "kompenzace-teplotni",
         "chronometr"
       ],
       "isStub": false,
@@ -1436,8 +1488,8 @@
       "atestace": null,
       "pribuzne": [
         "kyvadlo",
-        "setrvačka",
-        "vlásek",
+        "setrvacka",
+        "vlasek",
         "chronometr",
         "krok"
       ],
@@ -1555,7 +1607,7 @@
           "status": "admitted"
         },
         {
-          "term": "kladívko",
+          "term": "kladivko",
           "status": "admitted"
         }
       ],
@@ -1599,8 +1651,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "bicí-stroj",
-        "cymbál"
+        "bici-stroj",
+        "cymbal"
       ],
       "isStub": false,
       "redirectTo": null
@@ -1844,8 +1896,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "bicí-stroj",
-        "početník",
+        "bici-stroj",
+        "pocetnik",
         "srdcovka"
       ],
       "isStub": false,
@@ -1895,7 +1947,7 @@
       "atestace": null,
       "pribuzne": [
         "kyvadlo",
-        "setrvačka",
+        "setrvacka",
         "chronometr",
         "invar"
       ],
@@ -2143,7 +2195,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "sluneční-hodiny",
+        "slunecni-hodiny",
         "chronometr",
         "setrvacka"
       ],
@@ -2639,8 +2691,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "bicí-stroj",
-        "kladívko"
+        "bici-stroj",
+        "kladivko"
       ],
       "isStub": false,
       "redirectTo": null
@@ -2940,8 +2992,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "bicí-stroj",
-        "opakovací-hodinky"
+        "bici-stroj",
+        "opakovaci-hodinky"
       ],
       "isStub": false,
       "redirectTo": null
@@ -2984,9 +3036,9 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "bicí-stroj",
+        "bici-stroj",
         "srdcovka",
-        "kolo-závěrkové",
+        "kolo-zaverkove",
         "stupnice",
         "posuvka"
       ],
@@ -3055,8 +3107,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "bicí-stroj",
-        "početník",
+        "bici-stroj",
+        "pocetnik",
         "srdcovka",
         "stupnice"
       ],
@@ -3095,7 +3147,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "hodinář",
+        "hodinar",
         "pouzdro",
         "signatura"
       ],
@@ -3151,7 +3203,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "sklíčko",
+        "sklicko",
         "korunka"
       ],
       "isStub": false,
@@ -3219,8 +3271,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "hodinář",
-        "švýcarská-škola"
+        "hodinar",
+        "svycarska-skola"
       ],
       "isStub": false,
       "redirectTo": null
@@ -3381,10 +3433,10 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "bicí-stroj",
-        "kolo-závěrkové",
+        "bici-stroj",
+        "kolo-zaverkove",
         "srdcovka",
-        "kladívko"
+        "kladivko"
       ],
       "isStub": false,
       "redirectTo": null
@@ -3542,7 +3594,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "setrvačka",
+        "setrvacka",
         "paleta",
         "krok",
         "chronometr"
@@ -3600,8 +3652,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "val",
-        "vaha"
+        "val"
       ],
       "isStub": true,
       "redirectTo": null
@@ -3774,7 +3825,7 @@
       "atestace": null,
       "pribuzne": [
         "pouzdro",
-        "rubínový-kámen"
+        "rubinovy-kamen"
       ],
       "isStub": false,
       "redirectTo": null
@@ -3838,8 +3889,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "gnómon",
-        "časová-rovnice",
+        "gnomon",
+        "casova-rovnice",
         "kvadrant"
       ],
       "isStub": false,
@@ -4049,8 +4100,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "bicí-stroj",
-        "raménko-zapadací-výpustné",
+        "bici-stroj",
         "stupnice"
       ],
       "isStub": false,
@@ -4089,8 +4139,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "bicí-stroj",
-        "početník",
+        "bici-stroj",
+        "pocetnik",
         "posuvka"
       ],
       "isStub": false,
@@ -4296,9 +4346,9 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "bicí-stroj",
-        "početník",
-        "posůvka"
+        "bici-stroj",
+        "pocetnik",
+        "posuvka"
       ],
       "isStub": false,
       "redirectTo": null
@@ -4403,8 +4453,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "hodinář",
-        "vídeňská-škola"
+        "hodinar",
+        "videnska-skola"
       ],
       "isStub": false,
       "redirectTo": null
@@ -4439,8 +4489,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "hodinář",
-        "pouzdrář"
+        "hodinar",
+        "pouzdrar"
       ],
       "isStub": false,
       "redirectTo": null
@@ -4498,8 +4548,6 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "elektricke-hodiny",
-        "jednotny-cas",
         "kyvadlo"
       ],
       "isStub": true,
@@ -4743,8 +4791,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "rumpal",
-        "vaha"
+        "rumpal"
       ],
       "isStub": true,
       "redirectTo": null
@@ -4802,7 +4849,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "bicí-stroj",
+        "bici-stroj",
         "kotva"
       ],
       "isStub": false,
@@ -4843,8 +4890,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "hodinář",
-        "švarcvaldská-škola"
+        "hodinar",
+        "svarcvaldska-skola"
       ],
       "isStub": false,
       "redirectTo": null
@@ -4989,8 +5036,8 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "vlásek",
-        "setrvačka",
+        "vlasek",
+        "setrvacka",
         "isochronismus",
         "chronometr"
       ],
@@ -5272,7 +5319,7 @@
       "atestace": null,
       "pribuzne": [
         "kalibr",
-        "soukolí"
+        "soukoli"
       ],
       "isStub": false,
       "redirectTo": null
@@ -5319,7 +5366,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "čtvrťové-bití"
+        "ctvrtove-biti"
       ],
       "isStub": false,
       "redirectTo": null
