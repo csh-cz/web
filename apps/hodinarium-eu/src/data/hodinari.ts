@@ -1656,7 +1656,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Poděbrady',
     zeme: 'CZ',
     shrnuti:
-      'Poděbradský hodinářský mistr přelomu 19. a 20. století. Doložené věžní stroje v Polabí (Slověč 1886, Libice nad Cidlinou 1895, Kostomlátky 1896, Chleby a Činěves nedatované) — konstrukce v tradici poděbradské školy navazující na [Jana Janatu](/hodinari/jan-janata). Jeden Marešův stroj (přelom 19./20. století) zrestauroval Petr Skála v ateliéru veznihodiny.cz.',
+      'Poděbradský hodinářský mistr přelomu 19. a 20. století. Sedm doložených věžních strojů v Polabí: Slověč 1886, Libice nad Cidlinou 1895, Kostomlátky 1896, Opolany 1898, plus nedatované Veleliby, Vrbice a Činěves. Konstrukce v tradici poděbradské školy navazující na [Jana Janatu](/hodinari/jan-janata). Jeden Marešův stroj (Opolany) zrestauroval Petr Skála v ateliéru veznihodiny.cz.',
     relatedSlugs: [],
     era: 'prelom',
   },
