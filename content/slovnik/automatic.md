@@ -21,7 +21,7 @@ varianty:
 definice: "Hodinky, které **získávají energii z pohybu zápěstí** nositele — výkyvný **rotor** uvnitř pouzdra reaguje na zrychlení a přes rotor reverser napíná **tažné péro** v perovníku. Typicky drží „rezervu chodu\" 38–80 hodin (luxury kalibry až 8 dní)."
 pribuzne:
   - korunka
-  - perovník
+  - perovnik
 ---
 
 ## Výklad

@@ -12,9 +12,9 @@ prekladyFr:
 definice: "Slitina niklu (~36 %) a železa (~64 %) s mimořádně **nízkým koeficientem teplotní roztažitelnosti** (~0,9·10⁻⁶ /K, asi 13× méně než ocel), patentovaná Charlesem Édouardem Guillaumem v roce 1896 (Nobelova cena za fyziku 1920). V hodinářství zásadně zjednodušila konstrukci kompenzačních kyvadel a lodních chronometrů."
 pribuzne:
   - kyvadlo
-  - setrvačka
-  - vlásek
-  - kompenzace-teplotní
+  - setrvacka
+  - vlasek
+  - kompenzace-teplotni
   - chronometr
 ---
 

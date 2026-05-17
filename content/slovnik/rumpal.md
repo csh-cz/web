@@ -8,7 +8,6 @@ varianty:
 definice: "Naviják / válec na hnacím hřídeli orloje. Synonymum k *válu*. Zmenšenina *rumpálík* označuje válec menšího rozměru, např. u dlouhého hřídele kalendářního stroje."
 pribuzne:
   - val
-  - vaha
 isStub: true
 references:
   - bibKey: taborskyzklokotskehoryZpravaStaromestskemOrloji1570

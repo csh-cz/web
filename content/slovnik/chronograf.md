@@ -15,8 +15,8 @@ prekladyFr:
 definice: "Hodinky s **přídavnou funkcí měření krátkých časových intervalů** — uživatel může spustit / zastavit / nulovat sekundovou ručku nezávisle na hlavním chodu hodin. Jedna **základní hodinka** zobrazuje aktuální čas, druhá **subskupina** (totalizers) měří uplynulou dobu od stisknutí start."
 pribuzne:
   - chronometr
-  - opakovací-hodinky
-  - setrvačka
+  - opakovaci-hodinky
+  - setrvacka
   - kalibr
 ---
 

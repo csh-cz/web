@@ -12,8 +12,8 @@ prekladyFr:
     genus: m
 definice: "Páková součást bicího stroje, která je periodicky zvedána kolíčky zdvihacího kola a po uvolnění udeří na cymbál (zvon, gong nebo cinkavý drát)."
 pribuzne:
-  - bicí-stroj
-  - cymbál
+  - bici-stroj
+  - cymbal
 ---
 
 ## Výklad

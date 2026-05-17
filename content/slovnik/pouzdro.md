@@ -18,7 +18,7 @@ varianty:
   - kapsel
 definice: "Vnější schránka hodinek — drží stroj uvnitř, chrání ho před prachem, vodou, nárazy a magnetickým polem. Skládá se z **obroučku** (carrure / middle), **dna** (back / fond) a **rámku se sklíčkem** (lunette / bezel)."
 pribuzne:
-  - sklíčko
+  - sklicko
   - korunka
 ---
 

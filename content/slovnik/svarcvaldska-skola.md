@@ -13,8 +13,8 @@ varianty:
   - "černoleské hodiny** (Špatný"
 definice: "Hodinářská tradice **Schwarzwaldu** (Černolesí, jihozápadní Německo, kraj Bádensko-Württembersko) — od 17. století zaměřená na **lidové domácí hodiny**: dřevěné ozubená kola, švarcvaldky, **lakované ciferníky** (Lackschilduhren), **kukačkové hodiny** (Kuckucksuhren). Od 1840 přechod na mosazné stroje, masová průmyslová výroba."
 pribuzne:
-  - hodinář
-  - vídeňská-škola
+  - hodinar
+  - videnska-skola
 ---
 
 ## Výklad

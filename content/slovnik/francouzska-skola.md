@@ -12,8 +12,8 @@ prekladyFr:
     genus: f
 definice: "Hodinářská tradice **Francie** (Paříž, Besançon, Beaucourt) — **estetické vrcholy 18. století** (pendules, bronzové, Le Roy, Lépine), **chronometrie** (Pierre Le Roy 1748) a **moderní průmysl Besançonu** od 1830. Tradičně specializovaná na **luxury casework** a **astronomické komplikace**."
 pribuzne:
-  - hodinář
-  - švýcarská-škola
+  - hodinar
+  - svycarska-skola
 ---
 
 ## Výklad

@@ -14,8 +14,8 @@ prekladyFr:
   - term: grande sonnerie
 definice: "Dva základní **provozní režimy** bicího stroje: - **Petite sonnerie** — bije **jen čtvrtě** (1×, 2×, 3× v 15/30/45 min) + **celé hodiny** ve 00 min (počet hodin). Energy efficient. - **Grande sonnerie** — bije **plný počet** v každé čtvrti: každých 15 min zazní **počet hodin + počet čtvrtí**. Energeticky náročné, ale informativně kompletní."
 pribuzne:
-  - bicí-stroj
-  - opakovací-hodinky
+  - bici-stroj
+  - opakovaci-hodinky
 ---
 
 ## Výklad

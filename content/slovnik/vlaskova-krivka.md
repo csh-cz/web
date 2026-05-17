@@ -13,8 +13,8 @@ prekladyFr:
   - term: courbe terminale Phillips
 definice: "Ohnutý / zdvižený vnější závit vlásku setrvačky vzhůru a do středu, který umožňuje, aby **těžiště vlásku zůstalo na ose otáčení setrvačky** během celého kyvu. Tato úprava výrazně **zlepšuje isochronismus** kapesních a náramkových hodin v různých polohách (poloha plochá × poloha hřbetní)."
 pribuzne:
-  - vlásek
-  - setrvačka
+  - vlasek
+  - setrvacka
   - isochronismus
   - chronometr
 ---

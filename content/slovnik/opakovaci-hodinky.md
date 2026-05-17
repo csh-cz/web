@@ -15,8 +15,8 @@ varianty:
   - "opakovačky** (Špatný 1882)"
 definice: "Hodinky s **bicí mechanismem ovládaným tlačítkem** nebo přitahovací **šňůrkou**: stisknutí spustí sekvenci úderů, která zazvoní **aktuální čas** (počet hodin + případně počet čtvrtí + počet minut). Vyvinuto pro **noční četbu času** (před elektrickým osvětlením) a jako prestižní komplikace luxury kapesních hodinek."
 pribuzne:
-  - bicí-stroj
-  - kladívko
+  - bici-stroj
+  - kladivko
 ---
 
 ## Výklad

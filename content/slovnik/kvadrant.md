@@ -17,7 +17,7 @@ varianty:
   - "čtverník** (Špatný)"
 definice: "Astronomický nebo geodetický přístroj ve tvaru **čtvrtkruhu** (90°) s úhlovou stupnicí, používaný k měření výšek nebeských těles nad horizontem. V hodinářství souvisí se **sestavováním slunečních hodin** a v širším smyslu i s ručním zaměřováním zenitu pro nastavení **polární výšky**."
 pribuzne:
-  - sluneční-hodiny
+  - slunecni-hodiny
   - chronometr
   - setrvacka
 ---

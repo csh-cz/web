@@ -20,8 +20,6 @@ prekladyFr:
     genus: m
 definice: "**Elektromotor jehož otáčky jsou pevně vázány na frekvenci napájecí sítě** (50 Hz v EU, 60 Hz v Severní Americe). V hodinařině se používá jako pohon **síťových elektrických hodin** od 20. let 20. století — typicky **Warren-Telechron** princip (1918, Henry Warren, USA). Přesnost takových hodin je dána přesností frekvence sítě (provozovatel sítě garantuje dlouhodobě průměrnou 50,000 Hz s denní integrací nuly chyby), což je v Evropě udržováno na úrovni **±10 sekund/měsíc** pro běžné účely."
 pribuzne:
-  - elektricke-hodiny
-  - jednotny-cas
   - kyvadlo
 isStub: true
 references:

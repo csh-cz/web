@@ -16,12 +16,12 @@ prekladyFr:
     genus: m
   - term: style
 varianty:
-  - gnómon
+  - gnomon
   - "ukazovák** (Sušický 1900)"
   - "tyčinka kovová** (Sušický)"
 definice: "Část slunečních hodin, která vrhá stín na číselník — **vrhací těleso**. Pro správné fungování musí být osa gnómonu rovnoběžná s osou zemské rotace, tj. mířit do **nebeského pólu**."
 pribuzne:
-  - sluneční-hodiny
+  - slunecni-hodiny
 ---
 
 ## Výklad

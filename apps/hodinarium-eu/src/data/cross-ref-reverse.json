@@ -4,6 +4,11 @@
       "soupis": [
         "1788-markvartice-prokes"
       ]
+    },
+    "grahamuv-krok": {
+      "hodinari": [
+        "george-graham"
+      ]
     }
   },
   "hodinari": {
@@ -100,10 +105,14 @@
         "nedatovano-hradec-kralove-prokes",
         "nedatovano-klementinum-prokes",
         "nedatovano-kourim-prokes",
+        "nedatovano-pouchov-prokes",
         "nedatovano-raabs-an-der-thaya-prokes",
         "nedatovano-vysoke-myto-prokes",
         "nedatovano-vysoke-nad-jizerou-prokes",
         "nedatovano-zitovlice-prokes"
+      ],
+      "slovnik": [
+        "ciselnik"
       ]
     },
     "engelbert-seige": {
@@ -240,6 +249,24 @@
         "nedatovano-chotoun-skala-2004"
       ]
     },
+    "jan-holub": {
+      "soupis": [
+        "1866-praha-karlin-cyril-metodej-holub"
+      ]
+    },
+    "cenek-danek": {
+      "soupis": [
+        "1866-praha-karlin-cyril-metodej-holub"
+      ]
+    },
+    "petr-skala": {
+      "soupis": [
+        "1873-bakov-nad-jizerou-prokes",
+        "1882-jenisovice-u-turnova-prokes",
+        "1887-bosin-prokes",
+        "skala-realizace-jicin-svaty-ignac"
+      ]
+    },
     "vaclav-krecmer": {
       "soupis": [
         "1876-praha-krecmer",
@@ -333,6 +360,11 @@
         "1891-chroustov-prokes-jr",
         "1893-zdar-tanvald-brand-prokes-jr",
         "1894-jablonec-nad-jizerou-prokes-jr"
+      ]
+    },
+    "ludvik-hainz": {
+      "soupis": [
+        "1893-domazlice-hainz"
       ]
     },
     "bernhard-zacharia": {
@@ -804,16 +836,56 @@
         "lenzkirch"
       ]
     },
-    "bychory-dalsi-kola": {
+    "litinove-vezni-hodiny": {
+      "soupis": [
+        "1810-komarov-bozek",
+        "1810-praha-polytechnika-bozek",
+        "1810-vienna-imperial-collection-bozek",
+        "1817-krivoklat-bozek",
+        "1834-brno-stara-radnice-luz",
+        "1834-brno-tovarna-luz",
+        "1834-vanovice-luz"
+      ],
       "hodinari": [
-        "jan-prokes"
+        "franz-joseph-gerstner",
+        "heinrich-alexander-luz",
+        "jan-marek",
+        "josef-bozek",
+        "petr-skala"
+      ]
+    },
+    "svitici": {
+      "soupis": [
+        "1861-sobotka-prokes"
+      ],
+      "slovnik": [
+        "ciselnik"
       ]
     },
     "bychory-prokes1": {
+      "soupis": [
+        "1868-bychory-prokes"
+      ],
       "hodinari": [
         "jan-prokes",
         "petr-skala",
         "rodina-bellmann"
+      ]
+    },
+    "zidovske": {
+      "slovnik": [
+        "ciselnik"
+      ],
+      "hodinari": [
+        "hans-bechler",
+        "ludvik-hainz",
+        "petr-skala",
+        "sebastian-landesberger"
+      ]
+    },
+    "bychory-dalsi-kola": {
+      "hodinari": [
+        "jan-prokes"
       ]
     },
     "decin-bici-stroje": {
@@ -843,15 +915,6 @@
         "edmund-kinsner",
         "jan-prokes",
         "josef-bozek"
-      ]
-    },
-    "litinove-vezni-hodiny": {
-      "hodinari": [
-        "franz-joseph-gerstner",
-        "heinrich-alexander-luz",
-        "jan-marek",
-        "josef-bozek",
-        "petr-skala"
       ]
     },
     "akvizice-2015-2025": {
@@ -932,14 +995,6 @@
         "elektrocas",
         "l-hainz",
         "ludvik-hainz"
-      ]
-    },
-    "zidovske": {
-      "hodinari": [
-        "hans-bechler",
-        "ludvik-hainz",
-        "petr-skala",
-        "sebastian-landesberger"
       ]
     },
     "janovice": {
@@ -1418,6 +1473,25 @@
     }
   },
   "slovnik": {
+    "ciselnik": {
+      "soupis": [
+        "1861-sobotka-prokes"
+      ],
+      "slovnik": [
+        "cifernik"
+      ]
+    },
+    "hodinar": {
+      "slovnik": [
+        "anglicka-skola",
+        "francouzska-skola",
+        "pouzdrar",
+        "prazska-skola",
+        "svarcvaldska-skola",
+        "svycarska-skola",
+        "videnska-skola"
+      ]
+    },
     "chronometr": {
       "slovnik": [
         "anglicka-skola",
@@ -1430,10 +1504,122 @@
         "vlaskova-krivka"
       ]
     },
+    "sphera": {
+      "slovnik": [
+        "astrolab",
+        "kalendarium",
+        "klapacek",
+        "linea-poledni",
+        "okolek",
+        "orloj",
+        "pravidlo-orloje",
+        "prut-orloje",
+        "pukla",
+        "puska-orloje",
+        "ruka-orloje",
+        "spacium-orloje",
+        "zodiak"
+      ]
+    },
+    "zodiak": {
+      "slovnik": [
+        "astrolab",
+        "coniunctio-oppositio",
+        "grad-zodiakalni",
+        "kalendarium",
+        "linea-aspectus",
+        "motus-naturalis",
+        "orloj",
+        "pukla",
+        "sphera",
+        "strych-zodiakalni",
+        "znameni-zodiaku"
+      ]
+    },
+    "orloj": {
+      "slovnik": [
+        "astrolab",
+        "kalendarium",
+        "tatrmani-aparat"
+      ]
+    },
     "korunka": {
       "slovnik": [
         "automatic",
         "pouzdro"
+      ]
+    },
+    "perovnik": {
+      "slovnik": [
+        "automatic",
+        "natahovy-buben",
+        "pero",
+        "remontoir",
+        "snek"
+      ]
+    },
+    "setrvacka": {
+      "slovnik": [
+        "balanc",
+        "chronograf",
+        "chronometr",
+        "invar",
+        "isochronismus",
+        "kompenzace-teplotni",
+        "kvadrant",
+        "kyvadlo",
+        "lihyr",
+        "regulator",
+        "rubinovy-kamen",
+        "vidlice",
+        "vlasek",
+        "vlaskova-krivka",
+        "vlasova-pruzinka"
+      ]
+    },
+    "vlasek": {
+      "slovnik": [
+        "balanc",
+        "chronometr",
+        "invar",
+        "isochronismus",
+        "setrvacka",
+        "vlaskova-krivka",
+        "vlasova-pruzinka"
+      ]
+    },
+    "kladivko": {
+      "slovnik": [
+        "bici-stroj",
+        "ctvrtove-biti",
+        "cymbal",
+        "opakovaci-hodinky",
+        "palice-orloje",
+        "ramenko"
+      ]
+    },
+    "cymbal": {
+      "slovnik": [
+        "bici-stroj",
+        "kladivko",
+        "zvon-orloje"
+      ]
+    },
+    "kolo-zaverkove": {
+      "slovnik": [
+        "bici-stroj",
+        "pocetnik",
+        "ramenko",
+        "ukazovaci-stroj"
+      ]
+    },
+    "pocetnik": {
+      "slovnik": [
+        "bici-stroj",
+        "kolo-zaverkove",
+        "posuvka",
+        "srdcovka",
+        "stupnice"
       ]
     },
     "srdcovka": {
@@ -1449,7 +1635,8 @@
       "slovnik": [
         "bici-stroj",
         "pocetnik",
-        "srdcovka"
+        "srdcovka",
+        "stupnice"
       ]
     },
     "spoust": {
@@ -1462,6 +1649,19 @@
         "bludit",
         "coufati",
         "zfalsovati"
+      ]
+    },
+    "slunecni-hodiny": {
+      "slovnik": [
+        "casova-rovnice",
+        "gnomon",
+        "kvadrant"
+      ]
+    },
+    "gnomon": {
+      "slovnik": [
+        "casova-rovnice",
+        "slunecni-hodiny"
       ]
     },
     "orlojnik": {
@@ -1485,6 +1685,41 @@
         "cech-hodinarsky",
         "orlojnik",
         "zpravce-orloje"
+      ]
+    },
+    "krok": {
+      "slovnik": [
+        "centralni-prevodovka",
+        "isochronismus",
+        "kolickovy-krok",
+        "kotva",
+        "krokove-kolo",
+        "remontoir",
+        "rubinovy-kamen",
+        "stegrad",
+        "vidlice",
+        "winnerluv-krok"
+      ]
+    },
+    "soukoli": {
+      "slovnik": [
+        "centralni-prevodovka",
+        "klecovy-ram",
+        "natahovy-buben",
+        "ukazovaci-stroj",
+        "werk"
+      ]
+    },
+    "krokove-kolo": {
+      "slovnik": [
+        "centralni-prevodovka",
+        "klecovy-ram",
+        "kolickovy-krok",
+        "kotva",
+        "krok",
+        "paleta",
+        "vidlice",
+        "winnerluv-krok"
       ]
     },
     "herstuk": {
@@ -1511,6 +1746,12 @@
         "vyklusati"
       ]
     },
+    "opakovaci-hodinky": {
+      "slovnik": [
+        "chronograf",
+        "petite-a-grande-sonnerie"
+      ]
+    },
     "kalibr": {
       "slovnik": [
         "chronograf",
@@ -1519,20 +1760,25 @@
         "werk"
       ]
     },
-    "setrvacka": {
+    "hridelik-orloje": {
       "slovnik": [
-        "chronometr",
-        "kvadrant",
-        "kyvadlo",
-        "lihyr",
-        "regulator",
-        "vlasek"
+        "ciselnik",
+        "klinek-orloje",
+        "ukazovaci-stroj",
+        "vos",
+        "vreteno-orloje"
       ]
     },
-    "vlasek": {
+    "ramenko": {
       "slovnik": [
-        "chronometr",
-        "setrvacka"
+        "ciselnik",
+        "ukazovaci-stroj"
+      ]
+    },
+    "ukazovaci-stroj": {
+      "slovnik": [
+        "ciselnik",
+        "stroj"
       ]
     },
     "hruden": {
@@ -1555,22 +1801,28 @@
         "coniunctio-oppositio"
       ]
     },
-    "zodiak": {
-      "slovnik": [
-        "coniunctio-oppositio",
-        "grad-zodiakalni",
-        "linea-aspectus",
-        "motus-naturalis",
-        "pukla",
-        "sphera",
-        "strych-zodiakalni",
-        "znameni-zodiaku"
-      ]
-    },
     "bludit": {
       "slovnik": [
         "coufati",
         "majlit"
+      ]
+    },
+    "bici-stroj": {
+      "slovnik": [
+        "ctvrtove-biti",
+        "cymbal",
+        "kladivko",
+        "kolo-zaverkove",
+        "opakovaci-hodinky",
+        "petite-a-grande-sonnerie",
+        "pocetnik",
+        "posuvka",
+        "ramenko",
+        "spoust",
+        "srdcovka",
+        "stroj",
+        "stupnice",
+        "vetrnik"
       ]
     },
     "motus-naturalis": {
@@ -1604,6 +1856,18 @@
         "spacium-orloje"
       ]
     },
+    "svycarska-skola": {
+      "slovnik": [
+        "francouzska-skola",
+        "prazska-skola"
+      ]
+    },
+    "casova-rovnice": {
+      "slovnik": [
+        "gmt-druha-casova-zona",
+        "slunecni-hodiny"
+      ]
+    },
     "strych-zodiakalni": {
       "slovnik": [
         "grad-zodiakalni",
@@ -1631,6 +1895,17 @@
         "strana-orloje"
       ]
     },
+    "pouzdrar": {
+      "slovnik": [
+        "hodinar",
+        "svycarska-skola"
+      ]
+    },
+    "prazska-skola": {
+      "slovnik": [
+        "hodinar"
+      ]
+    },
     "hodiny-polouorlojni": {
       "slovnik": [
         "hodiny-celeorloje",
@@ -1652,7 +1927,8 @@
     },
     "stroj-podsestava": {
       "slovnik": [
-        "hranice-stroje"
+        "hranice-stroje",
+        "stroj"
       ]
     },
     "vreteno-orloje": {
@@ -1677,7 +1953,8 @@
       "slovnik": [
         "index-orloje",
         "luozko",
-        "ruka-orloje"
+        "ruka-orloje",
+        "sphera"
       ]
     },
     "declinatio-solis": {
@@ -1696,16 +1973,25 @@
         "lihyr",
         "regulator",
         "setrvacka",
+        "synchronni-motor",
+        "winnerluv-krok",
         "zavazi"
       ]
     },
-    "krok": {
+    "kompenzace-teplotni": {
       "slovnik": [
-        "isochronismus",
-        "kotva",
-        "krokove-kolo",
-        "rubinovy-kamen",
-        "stegrad"
+        "invar"
+      ]
+    },
+    "astrolab": {
+      "slovnik": [
+        "kalendarium",
+        "orloj"
+      ]
+    },
+    "znameni-zodiaku": {
+      "slovnik": [
+        "kalendarium"
       ]
     },
     "werk": {
@@ -1738,30 +2024,24 @@
         "tepati"
       ]
     },
-    "sphera": {
+    "hranice-stroje": {
       "slovnik": [
-        "klapacek",
-        "linea-poledni",
-        "okolek",
-        "pravidlo-orloje",
-        "prut-orloje",
-        "pukla",
-        "puska-orloje",
-        "ruka-orloje",
-        "spacium-orloje",
-        "zodiak"
+        "klecovy-ram"
+      ]
+    },
+    "kotva": {
+      "slovnik": [
+        "klecovy-ram",
+        "kolickovy-krok",
+        "krok",
+        "krokove-kolo",
+        "paleta",
+        "vetrnik"
       ]
     },
     "klustice": {
       "slovnik": [
         "klinek-orloje"
-      ]
-    },
-    "hridelik-orloje": {
-      "slovnik": [
-        "klinek-orloje",
-        "vos",
-        "vreteno-orloje"
       ]
     },
     "tryb": {
@@ -1772,34 +2052,21 @@
         "vrub-zub"
       ]
     },
+    "paleta": {
+      "slovnik": [
+        "kolickovy-krok",
+        "kotva",
+        "krok",
+        "krokove-kolo",
+        "rubinovy-kamen",
+        "vidlice"
+      ]
+    },
     "invar": {
       "slovnik": [
         "kompenzace-teplotni",
         "kyvadlo",
         "vlasek"
-      ]
-    },
-    "paleta": {
-      "slovnik": [
-        "kotva",
-        "krok",
-        "krokove-kolo",
-        "rubinovy-kamen"
-      ]
-    },
-    "krokove-kolo": {
-      "slovnik": [
-        "kotva",
-        "krok",
-        "paleta"
-      ]
-    },
-    "kotva": {
-      "slovnik": [
-        "krok",
-        "krokove-kolo",
-        "paleta",
-        "vetrnik"
       ]
     },
     "lihyr": {
@@ -1848,9 +2115,31 @@
         "motus-naturalis"
       ]
     },
+    "zavazi": {
+      "slovnik": [
+        "natahovy-buben",
+        "remontoir"
+      ]
+    },
+    "pero": {
+      "slovnik": [
+        "natahovy-buben",
+        "remontoir"
+      ]
+    },
     "prut-orloje": {
       "slovnik": [
         "oblouk-orloje"
+      ]
+    },
+    "tatrmani-aparat": {
+      "slovnik": [
+        "orloj"
+      ]
+    },
+    "kalendarium": {
+      "slovnik": [
+        "orloj"
       ]
     },
     "zamek-orloje": {
@@ -1859,17 +2148,6 @@
         "rykl",
         "stroj-podsestava",
         "struna-orloje"
-      ]
-    },
-    "kladivko": {
-      "slovnik": [
-        "palice-orloje"
-      ]
-    },
-    "perovnik": {
-      "slovnik": [
-        "pero",
-        "snek"
       ]
     },
     "snek": {
@@ -1888,9 +2166,15 @@
         "pouzdrar"
       ]
     },
+    "sklicko": {
+      "slovnik": [
+        "pouzdro"
+      ]
+    },
     "ruka-orloje": {
       "slovnik": [
-        "pravidlo-orloje"
+        "pravidlo-orloje",
+        "rafije"
       ]
     },
     "oblouk-orloje": {
@@ -1920,6 +2204,11 @@
         "rynk"
       ]
     },
+    "rubinovy-kamen": {
+      "slovnik": [
+        "sklicko"
+      ]
+    },
     "okolek": {
       "slovnik": [
         "skripec",
@@ -1932,9 +2221,20 @@
         "slunecni-hodiny"
       ]
     },
+    "stroj": {
+      "slovnik": [
+        "strana-orloje",
+        "zamek-orloje"
+      ]
+    },
     "spacium-orloje": {
       "slovnik": [
         "supra-orizontem"
+      ]
+    },
+    "videnska-skola": {
+      "slovnik": [
+        "svarcvaldska-skola"
       ]
     },
     "umeni": {
@@ -1964,6 +2264,11 @@
         "volovo"
       ]
     },
+    "svarcvaldska-skola": {
+      "slovnik": [
+        "videnska-skola"
+      ]
+    },
     "isochronismus": {
       "slovnik": [
         "vlaskova-krivka"
@@ -1985,6 +2290,11 @@
         "vyklusati"
       ]
     },
+    "ctvrtove-biti": {
+      "slovnik": [
+        "westminster-chime"
+      ]
+    },
     "zmotrchati": {
       "slovnik": [
         "zfalsovati"
@@ -2001,11 +2311,6 @@
       ]
     },
     "tepati": {
-      "slovnik": [
-        "zvon-orloje"
-      ]
-    },
-    "cymbal": {
       "slovnik": [
         "zvon-orloje"
       ]

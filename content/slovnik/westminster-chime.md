@@ -15,7 +15,7 @@ varianty:
   - westminsterský zvon
 definice: "**Čtyřtónová melodie**, kterou nejznámější věžní hodiny světa **Big Ben** (Westminster Palace, Londýn, 1859) odbíjejí každou **čtvrt hodiny**. Sekvence se prodlužuje od 1 fráze v 15 min, přes 2 v 30 min, 3 v 45 min, až 4 ve 00 min. Pak teprve hodinové bití."
 pribuzne:
-  - čtvrťové-bití
+  - ctvrtove-biti
 ---
 
 ## Výklad

@@ -8,7 +8,6 @@ varianty:
 definice: "Buben hnacího hřídele, na který se navíjí lano (provaz) se závažím. U Táborského synonymum s *rumpálem*. Pohon Staroměstského orloje funguje na principu navíjení lana po válu."
 pribuzne:
   - rumpal
-  - vaha
 isStub: true
 references:
   - bibKey: taborskyzklokotskehoryZpravaStaromestskemOrloji1570

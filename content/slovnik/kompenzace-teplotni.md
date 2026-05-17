@@ -18,7 +18,7 @@ varianty:
 definice: "Konstrukční opatření v kyvadlu nebo setrvačce, které **vyrovnává změnu účinné délky** (resp. setrvačného momentu) způsobenou teplotní roztažitelností kovů, takže perioda oscilace zůstává nezávislá na okolní teplotě."
 pribuzne:
   - kyvadlo
-  - setrvačka
+  - setrvacka
   - chronometr
   - invar
 ---

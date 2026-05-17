@@ -14,8 +14,8 @@ prekladyFr:
     genus: m
 definice: "Řemeslník zhotovující, opravující a udržující hodiny. Cechovní mistr v 16.–19. století; po průmyslové revoluci se profese rozpadla na **výrobní specialisty** (manufaktura) a **opraváře/servisera** (městští hodináři). Dnes v ČR akreditován učební obor „Hodinář\"; v restaurátorství samostatný subobor (zámecké, kostelní hodiny)."
 pribuzne:
-  - pouzdrář
-  - pražská-škola
+  - pouzdrar
+  - prazska-skola
 ---
 
 ## Výklad
