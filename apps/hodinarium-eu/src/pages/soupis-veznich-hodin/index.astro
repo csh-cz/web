@@ -273,15 +273,16 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
               <td class="col-hodinar">
                 {h.data.hodinar ? (
                   <a href={`/hodinari/${h.data.hodinar}`}>{displayHodinar(h.data.hodinar)}</a>
+                ) : h.data.hodinarText ? (
+                  <span class="muted">{h.data.hodinarText}</span>
                 ) : (
-                  <span class="muted">{h.data.hodinarText || '—'}</span>
+                  <span class="muted">neuveden</span>
                 )}
               </td>
               <td class="col-misto">
                 <a href={`/soupis-veznich-hodin/${h.data.slug}/`}>
                   {h.data.puvodniMisto.obec}
                 </a>
-                {h.data.puvodniMisto.cast && <span class="muted"> ({h.data.puvodniMisto.cast})</span>}
               </td>
               <td class="col-budova">{h.data.puvodniMisto.budova || <span class="muted">—</span>}</td>
               <td class="col-kraj cell-region">
