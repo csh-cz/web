@@ -136,7 +136,7 @@ const STAV_LABELS: Record<string, string> = {
   preneseno: 'přeneseno',
   ztracene: 'ztracené',
   znicene: 'zničené',
-  neznamy: 'stav neznámý',
+  neznamy: 'neověřeno',
 };
 
 export function stavLabel(stav: string | undefined): string {
