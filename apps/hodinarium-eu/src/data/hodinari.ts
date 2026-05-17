@@ -2011,6 +2011,86 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: [],
     era: '20stol',
   },
+
+  // === Restaurátoři (stuby z A1 cleanup, 2026-05-17) ===
+  {
+    slug: 'ladislav-faigl',
+    jmeno: 'Ladislav Faigl',
+    aliasy: ['Ladislav Faigl', 'L. Faigl', 'Fajgl'],
+    typ: 'osoba',
+    obdobi: 'akt. ~2000–dosud',
+    mesto: null,
+    zeme: 'CZ',
+    shrnuti:
+      'Restaurátor věžních hodin, dlouholetý spolupracovník [Petra Skály](/hodinari/petr-skala). Doložené spoluautorství u restaurací L. Prokeš 1903 Milíčeves a Bernhard Zacharia 1902 Hrob.',
+    relatedSlugs: [],
+    era: 'soucasnost',
+  },
+  {
+    slug: 'kavkova',
+    jmeno: 'Kavková',
+    aliasy: ['Kavková', 'Kavková (Budětice)'],
+    typ: 'osoba',
+    obdobi: 'akt. ~2000–dosud (?)',
+    mesto: null,
+    zeme: 'CZ',
+    shrnuti:
+      'Restaurátorka věžních hodin (křestní jméno zatím neznámé). Doložené realizace: Václav Krečmer 1906 Budětice a Jan Prokeš v pražském Klementinu.',
+    relatedSlugs: [],
+    era: 'soucasnost',
+  },
+  {
+    slug: 'simecek',
+    jmeno: 'Šimeček',
+    aliasy: ['Šimeček'],
+    typ: 'osoba',
+    obdobi: null,
+    mesto: null,
+    zeme: 'CZ',
+    shrnuti:
+      'Restaurátor věžních hodin (křestní jméno ani datace zásahu nejsou zatím dohledány). Doložena restaurace stroje Jana Prokeše 1869 v zámku Dymokury.',
+    relatedSlugs: [],
+    era: 'soucasnost',
+  },
+  {
+    slug: 'vladimir-jelinek',
+    jmeno: 'Vladimír Jelínek',
+    aliasy: ['Vladimír Jelínek', 'V. Jelínek', 'Jelínek Ráječek'],
+    typ: 'osoba',
+    obdobi: 'akt. ~2000–dosud',
+    mesto: 'Ráječek',
+    zeme: 'CZ',
+    shrnuti:
+      'Restaurátor a iniciátor obnovy věžních hodin firmy Thöndel 1902 v Zábřehu na Moravě (sbor CČH, 2003). Vedl skupinu nadšenců, spolupracoval s hodinářem [Jiřím Valentou](/hodinari/jiri-valenta).',
+    relatedSlugs: [],
+    era: 'soucasnost',
+  },
+  {
+    slug: 'jiri-valenta',
+    jmeno: 'Jiří Valenta',
+    aliasy: ['Jiří Valenta', 'J. Valenta', 'Valenta Sudkov'],
+    typ: 'osoba',
+    obdobi: 'akt. ~2000–dosud',
+    mesto: 'Sudkov',
+    zeme: 'CZ',
+    shrnuti:
+      'Hodinář ze Sudkova (okres Šumperk), spolupracovník [Vladimíra Jelínka](/hodinari/vladimir-jelinek) při restauraci stroje firmy Thöndel 1902 v Zábřehu na Moravě (2003).',
+    relatedSlugs: [],
+    era: 'soucasnost',
+  },
+  {
+    slug: 'melanie-skalova',
+    jmeno: 'Melanie Skálová',
+    aliasy: ['Melanie Skálová', 'M. Skálová', 'Petr a Melanie Skálovi'],
+    typ: 'osoba',
+    obdobi: 'akt. ~2000–dosud',
+    mesto: 'Sadská',
+    zeme: 'CZ',
+    shrnuti:
+      'Spolupracovnice a manželka restaurátora [Petra Skály](/hodinari/petr-skala). Podílela se mj. na restauraci stroje dílny Landesbergerů v Bečvarech (2002–2003).',
+    relatedSlugs: [],
+    era: 'soucasnost',
+  },
 ];
 
 export const hodinariBySlug = new Map(hodinari.map((h) => [h.slug, h]));
