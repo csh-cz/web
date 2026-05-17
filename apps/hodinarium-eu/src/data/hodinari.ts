@@ -1648,6 +1648,19 @@ export const hodinari: Hodinar[] = [
     era: 'soucasnost',
   },
   {
+    slug: 'karel-adamec',
+    jmeno: 'Karel Adamec',
+    aliasy: ['Karel Adamec', 'K. Adamec', 'Adamec', 'Adamec Čáslav'],
+    typ: 'osoba',
+    obdobi: 'akt. konec 19. – počátek 20. století',
+    mesto: 'Čáslav',
+    zeme: 'CZ',
+    shrnuti:
+      'Čáslavský hodinářský mistr přelomu 19. a 20. století. V soupisu věžních hodin ČSH dvanáct doložených strojů ve středočeském regionu (Čáslav 1910, Čelákovice, Krušovice, Nehvizdy, Ohaře, Sedlčany, Suchdol, Vojkov, Žibohlavy a další). Typologie dvou velikostí: malý jen-hodinový stroj (kapličky, venkov) a velký čtvrťový stroj (radnice, městské kostely).',
+    relatedSlugs: [],
+    era: 'prelom',
+  },
+  {
     slug: 'jan-mares',
     jmeno: 'Jan Mareš',
     aliasy: ['Jan Mareš', 'Mareš', 'Mareš Poděbrady', 'Jan Mareš Poděbrady'],
