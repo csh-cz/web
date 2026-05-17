@@ -1,6 +1,7 @@
 ---
 title: kalendárium
 slug: kalendarium
+conceptId: HORO-CALENDAR-001
 kategorie: astronomicke
 varianty:
   - kalendárium

@@ -1,6 +1,7 @@
 ---
 title: kyvadlo
 slug: kyvadlo
+conceptId: HORO-PENDULUM-001
 kategorie: mechanika
 prekladyDe:
   - term: Pendel

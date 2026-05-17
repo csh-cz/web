@@ -53,7 +53,7 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
     title: `${data.title} — hodinářský slovník`,
     journalTitle: 'Hodinárium — Hodinářský slovník',
     keywords: [
-      ...(data.varianty ?? []),
+      ...(data.varianty ?? []).map((v) => typeof v === 'string' ? v : v.term),
       ...(data.prekladyDe?.map((p) => p.term) ?? []),
       ...(data.prekladyEn?.map((p) => p.term) ?? []),
       'hodinářský slovník',
@@ -75,9 +75,25 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
       {data.varianty && data.varianty.length > 0 && (
         <p class="slovnik-varianty">
           <span class="varianty-label">též:</span>
-          {data.varianty.map((v, i) => (
-            <span class="varianta">{v}{i < data.varianty!.length - 1 ? ',' : ''}</span>
-          ))}
+          {data.varianty.map((v, i) => {
+            // Legacy flat string nebo strukturovaný objekt se status (A.28)
+            const isStruct = typeof v === 'object' && v !== null;
+            const term = isStruct ? v.term : v;
+            const status = isStruct ? v.status : null;
+            const note = isStruct ? v.note : null;
+            const dolozeno = isStruct ? (v as { doloženo?: string }).doloženo : null;
+            const tooltip = [note, dolozeno && `Doloženo: ${dolozeno}`]
+              .filter(Boolean).join(' — ');
+            return (
+              <span class="varianta" title={tooltip || undefined}>
+                {term}
+                {status && (
+                  <span class={`varianta-badge varianta-status-${status}`}>{status}</span>
+                )}
+                {i < data.varianty!.length - 1 ? ',' : ''}
+              </span>
+            );
+          })}
         </p>
       )}
 
@@ -95,6 +111,59 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
         </aside>
       )}
     </header>
+
+    {data.vyznamy && data.vyznamy.length > 0 && (
+      <section class="slovnik-vyznamy" aria-labelledby="vyznamy-heading">
+        <h2 id="vyznamy-heading">Významy</h2>
+        <ol class="vyznamy-list">
+          {data.vyznamy.map((v) => (
+            <li class="vyznam-item">
+              <span class="vyznam-kontext">{v.kontext}</span>
+              <p class="vyznam-definice" set:html={tinyMarkdown(v.definice).replace(/^<p>|<\/p>$/g, '')}></p>
+              {(v.kategorie && v.kategorie !== data.kategorie) || v.odkaz ? (
+                <p class="vyznam-meta">
+                  {v.kategorie && v.kategorie !== data.kategorie && (
+                    <span class="vyznam-kategorie">kategorie: {v.kategorie}</span>
+                  )}
+                  {v.odkaz && (
+                    <a href={v.odkaz} class="vyznam-odkaz" target="_blank" rel="noopener">externí zdroj</a>
+                  )}
+                </p>
+              ) : null}
+            </li>
+          ))}
+        </ol>
+      </section>
+    )}
+
+    {data.atestace && data.atestace.length > 0 && (
+      <section class="slovnik-atestace" aria-labelledby="atestace-heading">
+        <h2 id="atestace-heading">Atestace v pramenech</h2>
+        <table class="atestace-table">
+          <thead>
+            <tr>
+              <th class="atest-rok">Rok</th>
+              <th class="atest-pramen">Pramen</th>
+              <th class="atest-forma">Forma</th>
+              <th class="atest-note">Poznámka</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.atestace.map((a) => (
+              <tr>
+                <td class="atest-rok"><strong>{a.rok}</strong></td>
+                <td class="atest-pramen">{a.pramen}</td>
+                <td class="atest-forma"><em>{a.forma}</em></td>
+                <td class="atest-note">
+                  {a.citace && <blockquote class="atest-citace">{a.citace}</blockquote>}
+                  {a.note && <span>{a.note}</span>}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+    )}
 
     {(data.prekladyDe || data.prekladyEn || data.prekladyFr) && (
       <section class="slovnik-preklady" aria-labelledby="preklady-heading">
@@ -332,11 +401,177 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
     margin-right: 0.3rem;
   }
 
+  /* Status badges pro varianty (A.28) */
+  .varianta-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    text-transform: lowercase;
+    letter-spacing: 0.03em;
+    padding: 0.05rem 0.4rem;
+    margin-left: 0.35rem;
+    border-radius: 2px;
+    vertical-align: 0.05em;
+    font-family: var(--font-sans, sans-serif);
+    border: 1px solid;
+  }
+  .varianta-status-preferred {
+    color: #4caf50;
+    border-color: #4caf50;
+    background: color-mix(in srgb, #4caf50 8%, transparent);
+  }
+  .varianta-status-admitted {
+    color: #5b9dd9;
+    border-color: #5b9dd9;
+    background: color-mix(in srgb, #5b9dd9 8%, transparent);
+  }
+  .varianta-status-archaic {
+    color: #d9a05b;
+    border-color: #d9a05b;
+    background: color-mix(in srgb, #d9a05b 8%, transparent);
+  }
+  .varianta-status-historical {
+    color: var(--color-text-soft);
+    border-color: color-mix(in srgb, var(--color-brass) 35%, transparent);
+    background: color-mix(in srgb, var(--color-brass) 5%, transparent);
+  }
+  .varianta-status-erroneous {
+    color: #d97070;
+    border-color: #b04848;
+    background: color-mix(in srgb, #b04848 8%, transparent);
+  }
+  .varianta-status-ocr-variant {
+    color: var(--color-text-soft);
+    border-color: color-mix(in srgb, var(--color-text-soft) 50%, transparent);
+    background: transparent;
+    font-style: italic;
+  }
+
   .slovnik-definice-lead {
     font-size: 1.15rem;
     line-height: 1.55;
     color: var(--color-text);
     margin: 0;
+  }
+
+  /* Atestace v pramenech (A.29) — pro hesla s terminologickou proměnou */
+  .slovnik-atestace {
+    margin: 1.75rem 0 0;
+  }
+  .slovnik-atestace h2 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-copper);
+    margin: 0 0 0.85rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+  }
+  .atestace-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+  }
+  .atestace-table th {
+    text-align: left;
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--color-brass-bright);
+    padding: 0.4rem 0.6rem;
+    border-bottom: 2px solid var(--color-brass);
+  }
+  .atestace-table td {
+    padding: 0.55rem 0.6rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 12%, transparent);
+    vertical-align: top;
+  }
+  .atestace-table .atest-rok { width: 80px; white-space: nowrap; }
+  .atestace-table .atest-pramen { width: 130px; }
+  .atestace-table .atest-forma { width: 140px; font-family: var(--font-serif); }
+  .atest-citace {
+    font-size: 0.88rem;
+    color: var(--color-text-soft);
+    margin: 0 0 0.3rem;
+    padding-left: 0.6rem;
+    border-left: 2px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    font-style: italic;
+  }
+
+  /* Polysémní hesla — sekce Významy s rozlišením kontextem (A.27) */
+  .slovnik-vyznamy {
+    margin: 1.75rem 0 0;
+    padding: 0;
+  }
+  .slovnik-vyznamy h2 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-copper);
+    margin: 0 0 0.85rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+  }
+  .vyznamy-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: vyznam;
+  }
+  .vyznam-item {
+    counter-increment: vyznam;
+    margin: 0 0 1.25rem;
+    padding: 0 0 0 2.5rem;
+    position: relative;
+  }
+  .vyznam-item::before {
+    content: counter(vyznam) ".";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    color: var(--color-brass);
+    line-height: 1;
+  }
+  .vyznam-kontext {
+    display: block;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--color-copper);
+    margin: 0 0 0.3rem;
+  }
+  .vyznam-definice {
+    font-size: 1rem;
+    line-height: 1.55;
+    color: var(--color-text);
+    margin: 0;
+  }
+  .vyznam-meta {
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+    margin: 0.4rem 0 0;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .vyznam-kategorie {
+    font-style: italic;
+  }
+  .vyznam-odkaz {
+    color: var(--color-brass-bright);
+    text-decoration: none;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 50%, transparent);
+  }
+  .vyznam-odkaz:hover {
+    color: var(--color-text);
+    border-bottom-color: var(--color-brass-bright);
   }
 
   /* Přesměrovací banner (alias / synonym heslá) */

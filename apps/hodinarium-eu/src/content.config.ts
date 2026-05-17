@@ -715,12 +715,141 @@ const slovnik = defineCollection({
     prekladyEn: z.array(slovnikPreklad).optional(),
     prekladyFr: z.array(slovnikPreklad).optional(),
 
-    /** Alternativní české tvary, archaické varianty, dialektismy. */
-    varianty: z.array(z.string()).optional(),
+    /**
+     * Alternativní cs tvary, archaické varianty, dialektismy.
+     *
+     * Podporuje dva formáty (A.28, 2026-05-17):
+     *
+     * 1. **Legacy flat** — pole stringů (zpětně kompatibilní):
+     *    ```yaml
+     *    varianty: ["číselník", "ciferník", "cifrák"]
+     *    ```
+     *
+     * 2. **Strukturované se status** — pole objektů:
+     *    ```yaml
+     *    varianty:
+     *      - term: číselník
+     *        status: preferred
+     *      - term: ciferník
+     *        status: archaic
+     *        note: "Kalk z DE Zifferblatt, v 19. století běžný"
+     *        doloženo: "Špatný 1882, s. 23"
+     *      - term: cifrák
+     *        status: erroneous
+     *        note: "Lidové, v odborném textu nepoužívat"
+     *    ```
+     *
+     * Render zobrazí status badge u každé varianty (preferred = zelený,
+     * archaic = šedý, erroneous = červený, …).
+     */
+    varianty: z.array(z.union([
+      z.string(),                                   // legacy flat
+      z.object({
+        term: z.string(),
+        status: z.enum([
+          'preferred',                              // moderní cs odborný úzus (Sladkovský 1947, Hajn 1953, Bureš 1965)
+          'admitted',                               // přípustný (anglicismus, neformální, ale ne chybný)
+          'archaic',                                // historický (19. století, dnes nepoužívaný)
+          'erroneous',                              // lidový / chybný / v odborném textu nepoužívat
+          'ocr-variant',                            // OCR artefakt ze skenu / HTR varianta
+          'historical',                             // doložené historicky, ne hodnotící
+        ]),
+        note: z.string().optional(),                // krátké vysvětlení
+        doloženo: z.string().optional(),            // pramen + lokace (např. "Špatný 1882, s. 23")
+      }),
+    ])).optional(),
 
     /** Krátká definice (1–2 věty) — renderuje se v indexu jako náhled
-     *  a v detailu jako lead pod nadpisem. */
+     *  a v detailu jako lead pod nadpisem. Povinné pro hesla s jediným
+     *  významem; pro polysémní hesla se použije `vyznamy[]` níže
+     *  (a `definice` slouží jako stručný souhrn napříč významy). */
     definice: z.string(),
+
+    /**
+     * Pole významů pro **polysémní hesla** (jedno slovo = více významů).
+     *
+     * Většina hesel má jeden význam → použít jen pole `definice`.
+     * Polysémní hesla (cca 5–20 z 153, např. *ručka*, *balanc*, *lihýř*)
+     * mají `vyznamy[]` s rozlišením kontextem:
+     *
+     * ```yaml
+     * vyznamy:
+     *   - kontext: "v hodinařině"
+     *     definice: "Vnější indikační plocha hodin (kruhová deska s číslicemi)..."
+     *     kategorie: mechanika   # může přepsat default kategorie hesla
+     *   - kontext: "obecně"
+     *     definice: "Číslovaná tabule (silnice, sportovní výsledky)..."
+     *     kategorie: jine
+     *     odkaz: "https://cs.wiktionary.org/wiki/..."
+     * ```
+     *
+     * Render: pokud `vyznamy[]` existuje, vyrenderují se jednotlivé bloky;
+     * `definice` zůstává jako shrnutí v indexu a meta description.
+     */
+    vyznamy: z.array(z.object({
+      kontext: z.string(),                          // "v hodinařině" | "v astronomii" | "obecně" | "u astronomických hodin" | ...
+      definice: z.string(),                         // plná definice tohoto významu
+      kategorie: z.enum([
+        'mechanika', 'bici', 'astronomicke',
+        'materialy', 'hodinky', 'profese', 'jine',
+      ]).optional(),                                // může přepsat default kategorie hesla
+      prameny: z.array(z.string()).optional(),     // bibKeys nebo slugy hesel pro reference per význam
+      odkaz: z.string().url().optional(),          // externí odkaz (Wikipedie, Wiktionary, …) pro významy mimo hodinařinu
+    })).optional(),
+
+    /**
+     * Atestace termínu napříč historickými prameny (A.29, 2026-05-17).
+     *
+     * Pro hesla s významnou terminologickou proměnou (např. *rafije* → *ručka*,
+     * *ciferník* → *číselník*, *vlasová pružinka* → *vlásek*) — strukturovaný
+     * záznam, ve kterém prameni a roce se objevuje která forma:
+     *
+     * ```yaml
+     * atestace:
+     *   - rok: 1851
+     *     pramen: "Šumavský"
+     *     forma: rafije
+     *   - rok: 1882
+     *     pramen: "Špatný"
+     *     forma: rafije
+     *     citace: "..rafije jest šipka.."
+     *   - rok: 1947
+     *     pramen: "Sladkovský"
+     *     forma: ručka
+     *     note: "Sjednocení terminologie."
+     * ```
+     *
+     * Render vyrenderuje timeline / tabulku s formami v různých dobách.
+     *
+     * Pro 95 % hesel zbytečné — použít jen kde má smysl (cca 10–15 hesel
+     * s prokazatelnou terminologickou proměnou).
+     */
+    atestace: z.array(z.object({
+      rok: z.union([z.number(), z.string()]),       // 1882 nebo "kolem 1900" / "?–1850"
+      pramen: z.string(),                           // krátký label: "Špatný" / "Sušický" / "Sladkovský" / "Bureš"
+      forma: z.string(),                            // konkrétní forma slova v tomto prameni
+      citace: z.string().optional(),                // doslovný úryvek
+      note: z.string().optional(),                  // komentář k roli pramene v terminologické proměně
+      bibKey: z.string().optional(),                // Zotero citation-key pro plnou citaci
+    })).optional(),
+
+    /**
+     * Stabilní identifikátor odborného pojmu napříč jazyky (A.30, 2026-05-17).
+     *
+     * Formát: `HORO-<TOPIC>-<NN>` — např. `HORO-DIAL-001`, `HORO-HAND-001`,
+     * `HORO-ESCAPEMENT-001`. Hesla se stejným `conceptId` reprezentují stejný
+     * koncept (např. cs *číselník* + de *Zifferblatt* + en *dial* + fr *cadran*).
+     *
+     * Concept **neexistuje jako separátní stránka** — je to jen klíč pro
+     * group/lookup. Build script `scripts/build-concept-index.ts` postaví
+     * mapu `conceptId → [slug1, slug2, ...]` a render zobrazí "Související
+     * koncepty" sekci, pokud existují další hesla se stejným conceptId.
+     *
+     * Dnes (V1): pouze cs hesla, conceptId opt-in jako metadata.
+     * V2 (vícejazyčný slovník): založit en/de/fr varianty hesel
+     * (`content/slovnik/en/dial.md`, …) → automatický cross-language nav.
+     */
+    conceptId: z.string().regex(/^HORO-[A-Z]+-\d{3}$/).optional(),
 
     /** Slugy příbuzných hesel — vyrenderují se jako cross-link list. */
     pribuzne: z.array(z.string()).optional(),

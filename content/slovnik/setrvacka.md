@@ -1,6 +1,7 @@
 ---
 title: setrvačka
 slug: setrvacka
+conceptId: HORO-BALANCE-001
 kategorie: mechanika
 prekladyDe:
   - term: Unruhe

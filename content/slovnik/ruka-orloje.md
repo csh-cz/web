@@ -1,6 +1,7 @@
 ---
 title: ruka (ručka, ručička)
 slug: ruka-orloje
+conceptId: HORO-HAND-001
 kategorie: mechanika
 varianty:
   - ruka
