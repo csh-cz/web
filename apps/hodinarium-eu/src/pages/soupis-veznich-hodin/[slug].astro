@@ -42,6 +42,39 @@ const hodinarName = new Map<string, string>();
 for (const h of hodinari) hodinarName.set(h.slug, h.jmeno);
 const hodinarDisplay = d.hodinar ? (hodinarName.get(d.hodinar) || d.hodinar) : null;
 
+/** Parsuje `restaurator` string na pole položek { slug?, jmeno }.
+ *  Podporuje multi-restaurator oddělený `,`, `;`, ` + `, ` a `.
+ *  Pro každý token: pokud existuje v hodinari registry jako slug,
+ *  vytvoří link; jinak pokud existuje jako display name (přesný match),
+ *  vytvoří link na slug; jinak ponechá jako plain text.
+ *
+ *  Stejný pattern jako displayHodinar v index.astro. */
+const hodinarSlugByName = new Map<string, string>();
+for (const h of hodinari) {
+  hodinarSlugByName.set(h.jmeno, h.slug);
+  for (const alias of h.aliasy || []) hodinarSlugByName.set(alias, h.slug);
+}
+type RestauratorPart = { slug?: string; jmeno: string };
+function parseRestaurator(text?: string): RestauratorPart[] {
+  if (!text) return [];
+  return text
+    .split(/\s*[,;+]\s*|\s+a\s+/)
+    .map((t) => t.trim())
+    .filter(Boolean)
+    .map((token): RestauratorPart => {
+      // 1) Token je slug — exists v registry
+      if (hodinarName.has(token)) return { slug: token, jmeno: hodinarName.get(token)! };
+      // 2) Token je display name — match přes hodinarSlugByName
+      if (hodinarSlugByName.has(token)) {
+        const slug = hodinarSlugByName.get(token)!;
+        return { slug, jmeno: hodinarName.get(slug)! };
+      }
+      // 3) Plain text — žádný medailon
+      return { jmeno: token };
+    });
+}
+const restauratori = parseRestaurator(d.restaurator);
+
 const stavLabel: Record<string, string> = {
   in_situ: 'in situ',
   preneseno: 'přeneseno',
@@ -138,10 +171,22 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
           </dd>
         </>
       )}
-      {d.restaurator && (
+      {restauratori.length > 0 && (
         <>
-          <dt>Restaurátor</dt>
-          <dd>{d.restaurator}{d.rokRestaurovani && <span> ({d.rokRestaurovani})</span>}</dd>
+          <dt>{restauratori.length > 1 ? 'Restaurátoři' : 'Restaurátor'}</dt>
+          <dd>
+            {restauratori.map((r, i) => (
+              <>
+                {i > 0 && ', '}
+                {r.slug ? (
+                  <a href={`/hodinari/${r.slug}`}>{r.jmeno}</a>
+                ) : (
+                  <span>{r.jmeno}</span>
+                )}
+              </>
+            ))}
+            {d.rokRestaurovani && <span> ({d.rokRestaurovani})</span>}
+          </dd>
         </>
       )}
       <dt>Lokace</dt>
