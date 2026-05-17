@@ -531,13 +531,13 @@ export const hodinari: Hodinar[] = [
   {
     slug: 'jan-marek',
     jmeno: 'Jan Marek',
-    aliasy: ['Jan Marek', 'Marek', 'Honza Marek', 'Hodinářství Jan Marek'],
+    aliasy: ['Jan Marek', 'Marek', 'Honza Marek', 'Hodinářství Jan Marek', 'Marek Jan'],
     typ: 'osoba',
     obdobi: 'akt. cca 2010–dosud',
     mesto: 'Turnov',
     zeme: 'CZ',
     shrnuti:
-      'Restaurátor věžních a starožitných hodin z Turnovska ([hodinarmarek.cz](https://www.hodinarmarek.cz)). Doložené restaurace: Jeníšovice u Turnova (Prokeš 1882, 2017), Křivoklát (Fürstenbergské železárny 1817, 2018), Bošín — evangelický kostel (Prokeš 1887, 2020). Pokoušel se také o sestavení rozebraného stroje v kapli zámku Karlova Koruna v Chlumci nad Cidlinou (nedokončeno).',
+      'Restaurátor věžních a starožitných hodin z Turnovska ([hodinarmarek.cz](https://www.hodinarmarek.cz)). Licence MK ČR č. MK 23020/2018 OPP z 26. 4. 2018 (rozsah: restaurování mechanických strojů — hodinových strojů včetně věžních strojů). Doložené restaurace: Jeníšovice u Turnova (Prokeš 1882, 2017), Křivoklát (Fürstenbergské železárny 1817, 2018), Bošín — evangelický kostel (Prokeš 1887, 2020). Pokoušel se také o sestavení rozebraného stroje v kapli zámku Karlova Koruna v Chlumci nad Cidlinou (nedokončeno).',
     relatedSlugs: ['janovice', 'litinove-vezni-hodiny'],
     era: 'soucasnost',
   },
@@ -598,13 +598,13 @@ export const hodinari: Hodinar[] = [
   {
     slug: 'petr-skala',
     jmeno: 'Petr Skála',
-    aliasy: ['Petr Skála', 'P. Skála', 'ak. soch. Petr Skála', 'Skálov'],
+    aliasy: ['Petr Skála', 'P. Skála', 'ak. soch. Petr Skála', 'Skála Petr', 'Skálov'],
     typ: 'osoba',
     obdobi: '*1948',
-    mesto: 'Praha',
+    mesto: 'Sadská',
     zeme: 'CZ',
     shrnuti:
-      'Akademický sochař, restaurátor věžních hodin a dlouholetý orlojník Pražského orloje. Spolu s manželkou Melanií provozuje Atelier restaurování věžních hodin (veznihodiny.cz), který má za sebou desítky restaurátorských zásahů včetně stroje na pražské Židovské radnici (1995) a řady barokních strojů z Hodinária Děčín.',
+      'Akademický sochař, restaurátor věžních hodin a dlouholetý orlojník Pražského orloje. Spolu s manželkou Melanií Skálovou provozuje Atelier restaurování věžních hodin v Sadské (veznihodiny.cz). Licence MK ČR č. 2.147/96 z 10. 4. 1996 (rozsah: restaurování hodinových strojů). Má za sebou desítky restaurátorských zásahů včetně stroje na pražské Židovské radnici (1995) a řady barokních strojů z Hodinária Děčín.',
     relatedSlugs: [
       'bychory-prokes1',
       'decin-velika-ves',
@@ -1689,13 +1689,13 @@ export const hodinari: Hodinar[] = [
   {
     slug: 'milos-flossmann',
     jmeno: 'Miloš Flossmann',
-    aliasy: ['Miloš Flossmann', 'M. Flossmann', 'Flossmann Ostrov'],
+    aliasy: ['Miloš Flossmann', 'M. Flossmann', 'Flossmann Ostrov', 'Flossmann Jáchymov', 'Flossmann Miloš'],
     typ: 'osoba',
-    obdobi: 'akt. ~2014–dosud',
-    mesto: 'Ostrov',
+    obdobi: 'akt. od 1999–dosud',
+    mesto: 'Jáchymov',
     zeme: 'CZ',
     shrnuti:
-      'Hodinář a restaurátor věžních hodin z Ostrova (Karlovarský kraj). V letech 2013–2014 zrestauroval ručně kovaný věžní stroj z počátku 17. století z kostela sv. Jakuba Většího v Pomezí nad Ohří — stroj prošel dle dochovaných stop nejméně třemi přestavbami kroku (lihýřový → vřetenový → kotvový s kyvadlem).',
+      'Hodinář a restaurátor mechanických přístrojů z Jáchymova (Karlovarský kraj), sídlo Boženy Němcové 606. Licence MK ČR č. 6214/99 z 24. 6. 1999. V letech 2013–2014 zrestauroval ručně kovaný věžní stroj z počátku 17. století z kostela sv. Jakuba Většího v Pomezí nad Ohří — stroj prošel dle dochovaných stop nejméně třemi přestavbami kroku (lihýřový → vřetenový → kotvový s kyvadlem).',
     relatedSlugs: [],
     era: 'soucasnost',
   },
