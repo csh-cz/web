@@ -21,6 +21,62 @@ const dateString = z.preprocess(
 );
 
 /**
+ * Sveltia CMS sanitizer — rekurzivně přemění všechny `null` na `undefined`
+ * v parsed YAML datech PŘED Zod validací.
+ *
+ * Sveltia zapisuje `null` (z YAML pohledu `~`/`null` nebo prázdno) pro každé
+ * nevyplněné non-string pole: objekty, listy, čísla, booleany, datetime, image,
+ * select bez defaultu. Zod `.optional()` přijímá `T | undefined`, ne `T | null`,
+ * což ve výsledku znamená:
+ *
+ *   pocetCifernik: null  → ✗ `Expected type "number", received "null"`
+ *   workflow: null       → ✗ `Expected type "object", received "null"`
+ *   souradnice: null     → ✗ `Expected type "tuple", received "null"`
+ *
+ * Tento helper se aplikuje **na celou collection schema** přes
+ * `sveltiaSafeCollection({ ... })` — všechny `.optional()` na úrovni
+ * jakéhokoliv pole tak fungují i pro null hodnoty bez per-field patche.
+ *
+ * Side-effect: `null` literálně se v MDX frontmatteru nemůže používat
+ * jako sémantická hodnota (musel by se odlišit od „nevyplněno") — pro náš
+ * use case to platí (žádné pole neukládá literal null jako business value).
+ *
+ * Pro string fields s validation (`z.string().url()`) Sveltia zapisuje `""`,
+ * ne null — viz `looseStringOptional` níže.
+ */
+function sveltiaCleanNulls(value: unknown): unknown {
+  if (value === null) return undefined;
+  if (Array.isArray(value)) return value.map(sveltiaCleanNulls);
+  if (value && typeof value === 'object' && !(value instanceof Date)) {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(value)) {
+      const cleaned = sveltiaCleanNulls(v);
+      if (cleaned !== undefined) out[k] = cleaned;
+    }
+    return out;
+  }
+  return value;
+}
+
+/**
+ * Wrap collection schema with Sveltia null-cleanup preprocessor.
+ *
+ * Use pro KAŽDOU collection co je editovatelná přes Sveltia CMS — tj. vše,
+ * co je v `public/admin/config.yml`.
+ */
+function sveltiaSafe<T extends z.ZodTypeAny>(schema: T) {
+  return z.preprocess(sveltiaCleanNulls, schema);
+}
+
+/**
+ * Pre-emptive note: pro url fields s validation Sveltia zapisuje `""` (prázdný
+ * string) pro nevyplněné pole — `z.string().url().optional()` pak failuje s
+ * "Invalid url". Workaround per-field je `z.preprocess((v) => v === '' ? undefined
+ * : v, z.string().url().optional())` — viz `portretSource` níže. Pokud někdy
+ * spadne další url field, použij stejný vzor.
+ */
+
+/**
  * Schéma jednoho odkazu / literatury pod článkem.
  * - bibKey (preferred) — citation-key ze Zotera (Better BibTeX), např. "knesplProgressVersusTradition2024".
  *   Když je nastaven, render použije citeproc-js + ISO 690 CSL stylesheet
@@ -158,7 +214,7 @@ const clanky = defineCollection({
     base: '../../content/hodinarium-eu',
     pattern: '**/*.{md,mdx}',
   }),
-  schema: z.object({
+  schema: sveltiaSafe(z.object({
     title: z.string(),
     slug: z.string(),
     /**
@@ -181,7 +237,7 @@ const clanky = defineCollection({
       'decin', 'vezni-hodiny', 'ostatni',
     ]),
     originalUrl: z.string().url(),
-    lastModified: dateString.nullable(),
+    lastModified: dateString.optional(),  // legacy `lastModified: null` se přes sveltiaCleanNulls převede na undefined
     sourceCharset: z.string(),
     scrapedAt: dateString,
     tldr: z.string().optional(),
@@ -211,10 +267,10 @@ const clanky = defineCollection({
     editorNotes: z.array(editorNote).optional(),
     /** Editorial workflow status (PBI A.23) — opt-in tracking
         rozpracovaných článků s lock/review/release flow. */
-    workflow: z.preprocess((v) => v ?? undefined, workflow.optional()),
+    workflow: workflow.optional(),
 
     /** Křížové odkazy na entries z dalších collections (PBI X.1). */
-    crossRefs: z.preprocess((v) => v ?? undefined, crossRefs.optional()),
+    crossRefs: crossRefs.optional(),
     /** True = článek/karta je stub — frontmatter i body čekají na editorovu
         práci. Veřejně se zobrazuje jen základní info; editor v /redakce/
         dashboard vidí seznam stubů napříč collections. */
@@ -347,7 +403,7 @@ const clanky = defineCollection({
      * patřit do tags whitelistu (data/tags.json).
      */
     searchKeywords: z.array(z.string()).optional(),
-  }),
+  })),
 });
 
 /**
@@ -364,7 +420,7 @@ const hodinariMedailony = defineCollection({
     base: '../../content/hodinari',
     pattern: '**/*.{md,mdx}',
   }),
-  schema: z.object({
+  schema: sveltiaSafe(z.object({
     title: z.string(),
     slug: z.string(),
     typ: z.enum(['osoba', 'firma']),
@@ -385,15 +441,15 @@ const hodinariMedailony = defineCollection({
     /** Editorské poznámky (TODO, varování o nejistotě, kontext). */
     editorNotes: z.array(editorNote).optional(),
     /** Editorial workflow status (PBI A.23). */
-    workflow: z.preprocess((v) => v ?? undefined, workflow.optional()),
+    workflow: workflow.optional(),
 
     /** Křížové odkazy na entries z dalších collections (PBI X.1). */
-    crossRefs: z.preprocess((v) => v ?? undefined, crossRefs.optional()),
+    crossRefs: crossRefs.optional(),
     /** Skrytá synonyma pro vyhledávání — viz dokumentace u clanky.searchKeywords.
      *  Pro medailony hodinářů typicky alternativní pravopisy jména (Maresch /
      *  Mareš), zkratky firem, lokality kde hodinář pracoval a které lidé znají. */
     searchKeywords: z.array(z.string()).optional(),
-  }),
+  })),
 });
 
 /**
@@ -409,7 +465,7 @@ const kronika = defineCollection({
     base: '../../content/kronika',
     pattern: '**/*.{md,mdx}',
   }),
-  schema: z.object({
+  schema: sveltiaSafe(z.object({
     title: z.string(),
     slug: z.string(),
     /** ISO datum YYYY-MM-DD (případně rozsah "YYYY-MM-DD — YYYY-MM-DD"). */
@@ -435,13 +491,13 @@ const kronika = defineCollection({
     /** Editorské poznámky (TODO, varování o nejistotě, kontext). */
     editorNotes: z.array(editorNote).optional(),
     /** Editorial workflow status (PBI A.23). */
-    workflow: z.preprocess((v) => v ?? undefined, workflow.optional()),
+    workflow: workflow.optional(),
 
     /** Křížové odkazy na entries z dalších collections (PBI X.1). */
-    crossRefs: z.preprocess((v) => v ?? undefined, crossRefs.optional()),
+    crossRefs: crossRefs.optional(),
     /** Pro legacy import z hodinarium.eu (zachováme původní URL). */
     originalUrl: z.string().url().optional(),
-  }),
+  })),
 });
 
 /**
@@ -495,7 +551,7 @@ const soupisVeznichHodin = defineCollection({
     base: '../../content/soupis-veznich-hodin',
     pattern: '**/*.{md,mdx}',
   }),
-  schema: z.object({
+  schema: sveltiaSafe(z.object({
     /** Stabilní slug — typicky <rok>-<misto>-<hodinar>, např. 1868-bychory-prokes. */
     slug: z.string(),
 
@@ -536,7 +592,7 @@ const soupisVeznichHodin = defineCollection({
     /** Technická charakteristika — všechno optional. */
     krok: z.string().optional(),                    // 'graham', 'denison', '4-leg-denison', 'mannhardt-lepaut', 'amant-lepaut', 'kotvovy', ... (free text, nikoli enum, kvůli historickým variantám)
     pohon: z.string().optional(),                   // 'zavazi', 'pero', 'elektricky', ...
-    pocetCifernik: z.number().nullable().optional(),  // Sveltia CMS zapisuje null pro prázdné number field
+    pocetCifernik: z.number().optional(),  // null se přes sveltiaCleanNulls převede na undefined
     rozmery: z.string().optional(),                 // "ráfek 1200 mm" / "stroj 800 × 600 × 400 mm"
     signatura: z.string().optional(),
     cenaDobova: z.string().optional(),              // "900 zl." / "1125 K"
@@ -584,10 +640,10 @@ const soupisVeznichHodin = defineCollection({
     editorNotes: z.array(editorNote).optional(),
 
     /** Editorial workflow status (PBI A.23). */
-    workflow: z.preprocess((v) => v ?? undefined, workflow.optional()),
+    workflow: workflow.optional(),
 
     /** Křížové odkazy na entries z dalších collections (PBI X.1). */
-    crossRefs: z.preprocess((v) => v ?? undefined, crossRefs.optional()),
+    crossRefs: crossRefs.optional(),
 
     /** True = záznam je stub — minimální data (typicky bulk import z
         Hellichova seznamu nebo z OSM-import), čeká na manuální dopnění
@@ -598,7 +654,7 @@ const soupisVeznichHodin = defineCollection({
     /** Meta. */
     posledniOvereni: dateString.optional(),
     zdrojDat: z.string().optional(),                // 'tabulka_krecmer' / 'tabulka_landesbergerove' / 'manual' / 'osm-import' / ...
-  }),
+  })),
 });
 
 /**
@@ -617,7 +673,7 @@ const krokyDetaily = defineCollection({
     base: '../../content/kroky',
     pattern: '**/*.{md,mdx}',
   }),
-  schema: z.object({
+  schema: sveltiaSafe(z.object({
     title: z.string(),
     slug: z.string(),
     /** Hero obrázek — ilustrativní fotka exempláře nebo historický výkres. */
@@ -633,11 +689,11 @@ const krokyDetaily = defineCollection({
     references: z.array(reference).optional(),
     editorNotes: z.array(editorNote).optional(),
     /** Editorial workflow status (PBI A.23). */
-    workflow: z.preprocess((v) => v ?? undefined, workflow.optional()),
+    workflow: workflow.optional(),
 
     /** Křížové odkazy na entries z dalších collections (PBI X.1). */
-    crossRefs: z.preprocess((v) => v ?? undefined, crossRefs.optional()),
-  }),
+    crossRefs: crossRefs.optional(),
+  })),
 });
 
 /**
@@ -696,7 +752,7 @@ const slovnik = defineCollection({
     base: '../../content/slovnik',
     pattern: '**/*.{md,mdx}',
   }),
-  schema: z.object({
+  schema: sveltiaSafe(z.object({
     title: z.string(),                              // cs heslo (lowercase typicky: "krok", "kotva")
     slug: z.string(),                               // slugified ("kolo-zaverkove", "casova-rovnice")
 
@@ -882,14 +938,14 @@ const slovnik = defineCollection({
     editorNotes: z.array(editorNote).optional(),
 
     /** Editorial workflow status (PBI A.23). */
-    workflow: z.preprocess((v) => v ?? undefined, workflow.optional()),
+    workflow: workflow.optional(),
 
     /** Křížové odkazy na entries z dalších collections (PBI X.1). */
-    crossRefs: z.preprocess((v) => v ?? undefined, crossRefs.optional()),
+    crossRefs: crossRefs.optional(),
 
     /** Datum poslední revize hesla (kdy byly citace ověřeny v pramenech). */
     poslednRevize: dateString.optional(),
-  }),
+  })),
 });
 
 export const collections = {
