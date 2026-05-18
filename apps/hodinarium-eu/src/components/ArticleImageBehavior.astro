@@ -2,7 +2,7 @@
 /**
  * Sdílené chování pro obrázky v dlouhých textových šablonách
  * (`.prose-content` wrapper). Renderuje:
- *   - lightbox dialog (jeden pro celou stránku)
+ *   - lightbox dialog se třemi režimy (single / grid / compare)
  *   - <style is:global> pro img-* klasifikace, gallery grid, lightbox UI
  *   - <script> pro klasifikaci + lightbox logiku + galerie grouping
  *
@@ -13,25 +13,68 @@
  * Předpoklad: stránka obsahuje element `.prose-content` (typicky
  * vyprodukovaný `<Article>` layoutem nebo přímo v kronika [slug].astro).
  *
- * Behavior:
+ * Behavior — klasifikace + layout:
  *   1. První obrázek → auto `img-hero` (full-width, no float)
  *   2. Ostatní obrázky klasifikovány podle image-sizes.json (small/medium/large/tall)
  *   3. Small/medium/tall → float v textu, JS counter rotuje pravo/levo
  *   4. Large → standalone, klik = lightbox
  *   5. ≥2 konsekutivní large obrázky → seskupí do `.article-gallery` (grid)
- *   6. Lightbox: dialog s next/prev, ESC/← →, klik mimo zavře
- *   7. Line-height snap pro floatable images (lícuje s textovým gridem)
- *   8. Post-hero guard přesune samotný obrázek za první paragraf s textem
+ *   6. Line-height snap pro floatable images (lícuje s textovým gridem)
+ *   7. Post-hero guard přesune samotný obrázek za první paragraf s textem
+ *
+ * Behavior — lightbox (přepracováno 2026-05-18, A.33/A.34/A.35):
+ *   L1 — single mode (default):
+ *     - Klik na fotku, backdrop, ESC, ×-tlačítko, swipe-down → close
+ *     - Šipky next/prev v horních rozích, semi-transparent (0.4 → 1 hover)
+ *     - Mobile: swipe ← → nav, ↓ close
+ *     - Mac trackpad: 2-finger horizontal scroll → nav (debounce 300ms)
+ *     - Klávesnice: ← → Esc; 1 single, g grid toggle, c compare toggle
+ *     - Caption auto-hide po 2 s nepohybu kurzoru
+ *   L2 — grid mode (auto pro portréty na širokém displeji):
+ *     - Detekce viewport ≥1200px + aspect ≥3:2 + portrait foto
+ *     - 3-up grid: prev / active / next, active s focus ringem
+ *     - Sousedy 60% opacity, klik přepne aktivní
+ *     - Šipky posunou celé okno o 1 krok
+ *   L3 — compare mode (manuál):
+ *     - Klávesa `c` nebo tlačítko otevře split-screen 2-up
+ *     - Drag divider resize (CSS variable --lb-split)
+ *     - Klávesa `x` swap A↔B, `Esc` zpět do single
  */
 import imageSizes from '../data/image-sizes.json';
 ---
 <!-- Lightbox dialog (jeden pro celou stránku) -->
-<dialog id="lightbox" aria-label="Lightbox obrázku">
-  <button class="lightbox-close" aria-label="Zavřít" type="button">×</button>
-  <button class="lightbox-prev" aria-label="Předchozí obrázek" type="button">‹</button>
-  <button class="lightbox-next" aria-label="Další obrázek" type="button">›</button>
-  <img src="" alt="" />
-  <div class="lightbox-caption" id="lightbox-caption"></div>
+<dialog id="lightbox" class="lb" aria-label="Lightbox obrázku">
+  <div class="lb-stage" data-mode="single">
+    <!-- Sloty se vkládají dynamicky podle režimu -->
+  </div>
+
+  <div class="lb-divider" aria-hidden="true"></div>
+
+  <button class="lb-close" aria-label="Zavřít (Esc)" type="button">
+    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+  </button>
+  <button class="lb-prev" aria-label="Předchozí (←)" type="button">
+    <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+  </button>
+  <button class="lb-next" aria-label="Další (→)" type="button">
+    <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+  </button>
+
+  <div class="lb-toolbar" role="toolbar" aria-label="Režim zobrazení">
+    <button class="lb-mode" data-mode="single" aria-label="Jednoduchý režim (1)" type="button" title="Jednoduchý režim (1)">
+      <i class="fa-solid fa-image" aria-hidden="true"></i>
+    </button>
+    <button class="lb-mode" data-mode="grid" aria-label="Mřížka tří fotek (g)" type="button" title="Mřížka (g)">
+      <i class="fa-solid fa-table-cells" aria-hidden="true"></i>
+    </button>
+    <button class="lb-mode" data-mode="compare" aria-label="Porovnání 2 fotek (c)" type="button" title="Porovnat (c)">
+      <i class="fa-solid fa-table-columns" aria-hidden="true"></i>
+    </button>
+  </div>
+
+  <div class="lb-counter" aria-live="polite"></div>
+  <div class="lb-caption" id="lightbox-caption"></div>
+  <div class="lb-hint" aria-hidden="true">klik fotka / Esc zavřít · ← → další · g mřížka · c porovnat</div>
 </dialog>
 
 <style is:global>
@@ -75,10 +118,7 @@ import imageSizes from '../data/image-sizes.json';
     cursor: zoom-in;
   }
 
-  /* Small + Medium + Tall: float v textu, časopisecký dojem.
-     Small ~220 px, Medium ~320 px, Tall (úzký vysoký) ~240 px se zoomem.
-     Default float right; JS counter rotuje na .img-float-left pro lichá
-     pořadí (rytmus pravo-levo). nth-of-type fallback pro případ vypnutého JS. */
+  /* Small + Medium + Tall: float v textu, časopisecký dojem. */
   .prose-content img.img-small,
   .prose-content img.img-medium,
   .prose-content img.img-tall {
@@ -98,8 +138,7 @@ import imageSizes from '../data/image-sizes.json';
   }
   .prose-content img.img-tall:hover { filter: brightness(1.05); }
 
-  /* JS counter — deterministic střídání pravo-levo. Přebíjí default float
-     a nth-of-type fallback. */
+  /* JS counter — deterministic střídání pravo-levo. */
   .prose-content img.img-float-right {
     float: right !important;
     margin: 0.4rem 0 0.75rem 1.5rem !important;
@@ -117,7 +156,6 @@ import imageSizes from '../data/image-sizes.json';
     margin: 0.4rem 1.5rem 0.75rem 0;
   }
 
-  /* Na úzkých displejích (~mobile) se medium/tall chová jako standalone. */
   @media (max-width: 600px) {
     .prose-content img.img-medium,
     .prose-content img.img-tall,
@@ -131,7 +169,7 @@ import imageSizes from '../data/image-sizes.json';
     .prose-content img.img-tall { max-height: 70vh; }
   }
 
-  /* Large: standalone, klik = lightbox (větší rozlišení k dispozici) */
+  /* Large: standalone, klik = lightbox */
   .prose-content img.img-large {
     display: block;
     width: 100%;
@@ -146,87 +184,230 @@ import imageSizes from '../data/image-sizes.json';
     filter: brightness(1.05);
   }
 
-  /* Vysoké obrázky obtékat přes víc odstavců — žádný overflow: hidden
-     na <p>, float pokračuje až do nejbližšího clear (h2/h3/hr/.fleuron).
-     To zajistí, že tall image se nesvazuje s krátkým paragrafem. */
   .prose-content h2,
   .prose-content h3,
   .prose-content .fleuron,
   .prose-content hr {
     clear: both;
   }
-
-  /* Manuální clearfix — pokud autor chce explicitně ukončit float-block,
-     může vložit <div class="clearfix"></div> nebo <hr>. */
   .prose-content .clearfix { clear: both; }
 
-
-  /* Konsekutivní obrázky v článku — propojit do galerie (jen pro velké) */
   .prose-content p:has(> img:only-child) {
     display: contents;
   }
-
   .prose-content {
     --gallery-gap: 0.75rem;
   }
 
-  /* Inline lightbox styling */
-  dialog#lightbox {
+  /* ============================================================ */
+  /* === LIGHTBOX — single / grid / compare režimy === */
+  /* ============================================================ */
+
+  dialog.lb {
     margin: auto;
     padding: 0;
     border: none;
-    background: rgba(20, 16, 12, 0.95);
-    backdrop-filter: blur(8px);
-    max-width: 96vw;
-    max-height: 96vh;
-    width: 96vw;
-    height: 96vh;
+    background: transparent;
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     color: var(--color-text);
+    overflow: hidden;
   }
-  dialog#lightbox::backdrop {
-    background: rgba(10, 8, 7, 0.85);
-    backdrop-filter: blur(6px);
+  dialog.lb::backdrop {
+    background: rgba(10, 8, 7, 0.92);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
   }
-  dialog#lightbox img {
+
+  /* Stage — kontejner pro sloty (1, 3 nebo 2 podle režimu) */
+  .lb-stage {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    gap: 0.5rem;
+    padding: 4rem 1rem 5rem;
+  }
+  .lb-stage[data-mode="single"] {
+    grid-template-columns: 1fr;
+  }
+  .lb-stage[data-mode="grid"] {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  .lb-stage[data-mode="compare"] {
+    grid-template-columns: var(--lb-split, 1fr) 4px var(--lb-split-b, 1fr);
+    gap: 0;
+  }
+
+  /* Slot — wrapper jedné fotky */
+  .lb-slot {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    transition: opacity 200ms ease, outline-color 200ms ease;
+  }
+  .lb-slot img {
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
     border-radius: 2px;
-    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    cursor: zoom-out;
+    user-select: none;
+    -webkit-user-drag: none;
   }
-  .lightbox-close, .lightbox-prev, .lightbox-next {
-    position: absolute;
-    background: rgba(20, 16, 12, 0.7);
-    border: 1px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
-    color: var(--color-brass-bright);
-    font-family: var(--font-serif);
-    font-size: 1.6rem;
+  .lb-slot.is-active {
+    outline: 2px solid var(--color-brass-bright);
+    outline-offset: -2px;
+  }
+  .lb-stage[data-mode="grid"] .lb-slot:not(.is-active) {
+    opacity: 0.55;
     cursor: pointer;
-    border-radius: 2px;
-    transition: all 150ms ease;
-    z-index: 2;
-    line-height: 1;
   }
-  .lightbox-close {
-    top: 1rem;
-    right: 1rem;
-    width: 44px;
-    height: 44px;
+  .lb-stage[data-mode="grid"] .lb-slot:not(.is-active):hover {
+    opacity: 0.85;
   }
-  .lightbox-prev, .lightbox-next {
-    top: 50%;
-    transform: translateY(-50%);
-    width: 44px;
-    height: 64px;
-    font-size: 2rem;
+  .lb-stage[data-mode="grid"] .lb-slot:not(.is-active) img {
+    cursor: pointer;
   }
-  .lightbox-prev { left: 1rem; }
-  .lightbox-next { right: 1rem; }
-  .lightbox-close:hover, .lightbox-prev:hover, .lightbox-next:hover {
+
+  /* Compare mode pan/zoom — transform driven JS */
+  .lb-stage[data-mode="compare"] .lb-slot {
+    cursor: grab;
+  }
+  .lb-stage[data-mode="compare"] .lb-slot.is-dragging {
+    cursor: grabbing;
+  }
+  .lb-stage[data-mode="compare"] .lb-slot img {
+    cursor: inherit;
+    transform: translate(var(--pan-x, 0px), var(--pan-y, 0px)) scale(var(--zoom, 1));
+    transform-origin: center;
+    transition: transform 50ms linear;
+  }
+  .lb-stage[data-mode="compare"] .lb-slot.is-dragging img {
+    transition: none;
+  }
+
+  /* Divider (compare mode only) */
+  .lb-divider {
+    display: none;
+    width: 4px;
+    height: 100%;
+    background: var(--color-brass);
+    cursor: ew-resize;
+    position: relative;
+    z-index: 3;
+  }
+  dialog.lb[data-mode="compare"] .lb-divider {
+    display: block;
+    position: absolute;
+    left: var(--lb-split-px, 50%);
+    top: 0;
+    bottom: 0;
+  }
+
+  /* Ovládací prvky — close, prev, next, mode toolbar, counter, caption */
+  .lb-close,
+  .lb-prev,
+  .lb-next {
+    position: absolute;
+    background: rgba(20, 16, 12, 0.65);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    color: var(--color-brass-bright);
+    cursor: pointer;
+    border-radius: 50%;
+    transition: opacity 150ms ease, background 150ms ease, color 150ms ease, transform 150ms ease;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    font-size: 0.95rem;
+    opacity: 0.5;
+  }
+  .lb-close:hover,
+  .lb-prev:hover,
+  .lb-next:hover {
+    opacity: 1;
     background: var(--color-brass);
     color: var(--color-ink);
   }
-  .lightbox-caption {
+  .lb-close:focus-visible,
+  .lb-prev:focus-visible,
+  .lb-next:focus-visible {
+    opacity: 1;
+    outline: 2px solid var(--color-brass-bright);
+    outline-offset: 2px;
+  }
+  .lb-close { top: 1rem; right: 1rem; }
+  .lb-prev { top: 1rem; left: 1rem; }
+  .lb-next { top: 1rem; left: 4rem; }
+
+  /* Toolbar — mode switcher */
+  .lb-toolbar {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.25rem;
+    background: rgba(20, 16, 12, 0.65);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    padding: 0.15rem;
+    z-index: 5;
+    opacity: 0.5;
+    transition: opacity 150ms ease;
+  }
+  .lb-toolbar:hover {
+    opacity: 1;
+  }
+  .lb-toolbar .lb-mode {
+    background: transparent;
+    border: none;
+    color: var(--color-brass-bright);
+    cursor: pointer;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.9rem;
+    border-radius: 2px;
+    transition: background 150ms ease, color 150ms ease;
+  }
+  .lb-toolbar .lb-mode:hover {
+    background: color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .lb-toolbar .lb-mode.is-active {
+    background: var(--color-brass);
+    color: var(--color-ink);
+  }
+  .lb-toolbar .lb-mode:focus-visible {
+    outline: 2px solid var(--color-brass-bright);
+    outline-offset: 2px;
+  }
+
+  /* Counter (X / N) */
+  .lb-counter {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background: rgba(20, 16, 12, 0.65);
+    color: var(--color-text-soft);
+    padding: 0.35rem 0.7rem;
+    font-size: 0.85rem;
+    font-variant-numeric: tabular-nums;
+    border-radius: 2px;
+    z-index: 5;
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  /* Caption — auto-hide po 2s nepohybu kurzoru */
+  .lb-caption {
     position: absolute;
     bottom: 1rem;
     left: 50%;
@@ -237,12 +418,49 @@ import imageSizes from '../data/image-sizes.json';
     font-size: 0.9rem;
     font-style: italic;
     border-radius: 2px;
-    max-width: 80%;
+    max-width: min(80%, 60ch);
     text-align: center;
+    z-index: 4;
+    opacity: 1;
+    transition: opacity 400ms ease;
+    pointer-events: none;
   }
-  .lightbox-caption:empty { display: none; }
+  .lb-caption:empty { display: none; }
+  dialog.lb[data-caption-hidden] .lb-caption {
+    opacity: 0;
+  }
 
-  /* Vizuální galerie — pokud script seskupí <p><img></p> za sebou */
+  /* Hint pruh dole — zobrazí se jen při prvním otevření, pak se skryje */
+  .lb-hint {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--color-text-muted);
+    font-size: 0.72rem;
+    letter-spacing: 0.02em;
+    opacity: 0.5;
+    pointer-events: none;
+    z-index: 4;
+    white-space: nowrap;
+    transition: opacity 400ms ease 1s;
+  }
+  dialog.lb[data-hint-seen] .lb-hint {
+    opacity: 0;
+  }
+
+  /* Mobile — menší tlačítka, schovat hint */
+  @media (max-width: 600px) {
+    .lb-prev { left: 1rem; }
+    .lb-next { left: 3.5rem; }
+    .lb-toolbar { top: auto; bottom: 1rem; transform: translateX(-50%); }
+    .lb-counter { bottom: 5rem; }
+    .lb-caption { bottom: 5rem; font-size: 0.82rem; }
+    .lb-hint { display: none; }
+    /* Grid mode na úzkém displeji se přepne na single — viz JS canActivateGridMode() */
+  }
+
+  /* === Galerie (article-gallery) === */
   .article-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
@@ -272,7 +490,6 @@ import imageSizes from '../data/image-sizes.json';
     border-color: var(--color-brass);
   }
 
-  /* Gallery item s caption — figure wrapper okolo img + figcaption */
   .article-gallery .gallery-item {
     margin: 0;
     display: flex;
@@ -291,9 +508,6 @@ import imageSizes from '../data/image-sizes.json';
     color: var(--color-brass);
   }
 
-  /* Modifikátor: zachovat plný poměr stran (žádný crop), pevný počet
-     sloupců na řádek. Použij pro skeny dobových inzerátů, dokumenty apod.,
-     kde má smysl vidět celou stránku. */
   .article-gallery.gallery-portrait {
     grid-template-columns: repeat(3, 1fr);
     gap: 0.75rem;
@@ -314,8 +528,6 @@ import imageSizes from '../data/image-sizes.json';
     display: block;
     border-bottom: none !important;
   }
-
-  /* Galerie obrázků — pouze pro skupinu obrázků, neskupinujeme small/medium */
   .article-gallery img {
     cursor: default;
   }
@@ -327,11 +539,10 @@ import imageSizes from '../data/image-sizes.json';
 <script is:inline define:vars={{ imageSizes }}>
   /**
    * Po načtení článku:
-   * 1. Pro každý <img> přidá class podle skutečné velikosti (small/medium/large).
-   * 2. Small obrázky → float, text obtéká.
-   * 3. Medium → standalone, žádný lightbox.
-   * 4. Large → standalone, lightbox při kliknutí.
-   * 5. ≥2 large obrázky vedle sebe = galerie.
+   * 1. Klasifikuj obrázky (img-small/medium/large/tall/hero) podle image-sizes.json
+   * 2. Float-rytmus, line-height snap
+   * 3. Skupinování konsekutivních large do galerie
+   * 4. Lightbox state machine (single / grid / compare)
    */
 
   function setup() {
@@ -340,9 +551,7 @@ import imageSizes from '../data/image-sizes.json';
 
     const sizes = imageSizes;
 
-    // 0. První obrázek v článku → automaticky `img-hero` (jednotný styl
-    //    napříč články). Manuální override (img-hero/img-full/
-    //    img-standalone/img-skip-hero) vyhrává.
+    // 0. První obrázek → automaticky img-hero (pokud nemá manuální override)
     const allImgs = Array.from(article.querySelectorAll('img'));
     if (allImgs.length > 0) {
       const first = allImgs[0];
@@ -353,11 +562,7 @@ import imageSizes from '../data/image-sizes.json';
       }
     }
 
-    // 1. Klasifikuj zbývající obrázky podle dat z JSON indexu.
-    //    Manuální override class (img-hero/img-full/img-standalone) má přednost.
-    //    Pokud je img uvnitř figure.photo (Photo komponenta), propaguj size
-    //    class i na figure — figure pak nese layout (float/max-width), img
-    //    fills figure (100%). Caption overlay zůstává absolutně na figure.
+    // 1. Klasifikuj zbývající obrázky podle dat z JSON indexu
     for (const img of allImgs) {
       if (
         img.classList.contains('img-hero') ||
@@ -366,19 +571,16 @@ import imageSizes from '../data/image-sizes.json';
       ) continue;
       const src = img.getAttribute('src') || '';
       const dim = sizes[src];
-      const klass = dim ? dim.size : 'medium'; // fallback medium pro externí URL
+      const klass = dim ? dim.size : 'medium';
       img.classList.add(`img-${klass}`);
       const photoFig = img.closest('figure.photo');
       if (photoFig) photoFig.classList.add(`img-${klass}`);
-      // Lightbox pro large i tall; medium/small disable
       if (klass !== 'large' && klass !== 'tall') {
         img.dataset.noLightbox = '1';
       }
     }
 
     // 1.4. Karta sbírky — pokud je první v prose-content, přesunout hned za hero
-    //      (vizuálně: nadpis → hero → karta → text). Bez JS zůstává jako první
-    //      před hero, což je taky čitelné.
     {
       const karta = article.querySelector(':scope > .karta-sbirky');
       const hero = article.querySelector('img.img-hero');
@@ -390,10 +592,7 @@ import imageSizes from '../data/image-sizes.json';
       }
     }
 
-    // 1.5. Post-hero guard — za hero MUSÍ následovat text (paragraf), ne další
-    //      velký obrázek. Pokud je hned po hero blok obsahující jen img
-    //      (img-large / img-full / img-standalone / img-hero), přesun ho
-    //      za první následující paragraf s textem (>50 znaků).
+    // 1.5. Post-hero guard — za hero MUSÍ následovat text, ne další obrázek
     const heroEl = article.querySelector('img.img-hero');
     if (heroEl) {
       const heroBlock = heroEl.closest('figure, p') || heroEl;
@@ -405,7 +604,6 @@ import imageSizes from '../data/image-sizes.json';
           'img.img-large, img.img-full, img.img-standalone, img.img-hero'
         );
         if (!bigImg) return false;
-        // p / figure obsahující jen img + a + br + text-only-uvnitř-figcaption
         if (el.tagName === 'FIGURE') return true;
         if (el.tagName === 'P') {
           return Array.from(el.childNodes).every((n) =>
@@ -426,22 +624,14 @@ import imageSizes from '../data/image-sizes.json';
           }
           cursor = cursor.nextElementSibling;
         }
-        // Pokud nenajdu paragraf, nech to být — krátký článek bez textu.
       }
     }
 
-    // 1.6. Line-height snap pro floatable images — mírné resize tak, aby
-    //      výška obrázku byla celočíselný násobek line-height paragrafu.
-    //      Tím obrázek "lícuje" s textovým gridem v default rozlišení;
-    //      zabrání se polovičním řádkům přebývajícím nad/pod obrázkem.
-    //      Šířka se sníží proporcionálně, max-width z CSS class zůstává limit.
+    // 1.6. Line-height snap pro floatable images
     const proseStyle = window.getComputedStyle(article);
     const baseFontSize = parseFloat(proseStyle.fontSize) || 17;
     const lineHeight = parseFloat(proseStyle.lineHeight) || baseFontSize * 1.65;
 
-    // Photo komponenta (figure.photo) je teď taky floatable — caption overlay
-    // se s float dobře snáší (žádný flow under-image text). Layout se aplikuje
-    // na figure.photo (ne na img uvnitř).
     const floatable = Array.from(
       article.querySelectorAll('img.img-small, img.img-medium, img.img-tall')
     );
@@ -454,11 +644,9 @@ import imageSizes from '../data/image-sizes.json';
       if (!renderedW) return;
       const aspect = natH / natW;
       const renderedH = renderedW * aspect;
-      // Cílová výška: nejbližší celočíselný násobek line-height (min 2 řádky).
       const lines = Math.max(2, Math.round(renderedH / lineHeight));
       const targetH = lines * lineHeight;
       const targetW = targetH / aspect;
-      // Nezvětšuj — jen sniž k cíli, pokud je to v rozumném rozsahu (>20% rozdíl je moc).
       if (Math.abs(targetH - renderedH) / renderedH > 0.2) return;
       img.style.width = Math.round(Math.min(targetW, renderedW)) + 'px';
       img.style.height = Math.round(targetH) + 'px';
@@ -473,10 +661,7 @@ import imageSizes from '../data/image-sizes.json';
     }
     floatable.forEach(processFloatable);
 
-    // 1.7. Rytmický float — sekvenční counter střídá pravo/levo.
-    //      Pro img v markdown ![]() se class přidá na img.
-    //      Pro img uvnitř Photo (figure.photo) se class přidá na figure
-    //      — figure je layout container, img fills 100%.
+    // 1.7. Rytmický float — sekvenční counter střídá pravo/levo
     floatable.forEach((img, idx) => {
       const klass = idx % 2 === 0 ? 'img-float-right' : 'img-float-left';
       const photoFig = img.closest('figure.photo');
@@ -488,13 +673,6 @@ import imageSizes from '../data/image-sizes.json';
     });
 
     // 2. Skupinování konsekutivních LARGE obrázků do galerie
-    //    (small/medium float v textu, ne sloučit)
-    //
-    //    Pravidlo: ≥2 konsekutivní img-large paragrafy → .article-gallery
-    //    grid s thumbnaily + lightbox. Krátké caption paragrafy (text < 120
-    //    znaků, žádný img) sekvenci NEPŘERUŠUJÍ — naopak se připojí jako
-    //    <figcaption> k předchozímu thumbnailu v galerii. Delší text =
-    //    obsahový paragraf, sekvenci ukončí.
     const isImgOnlyP = (el) => {
       if (!el || el.tagName !== 'P') return false;
       if (el.querySelectorAll('img.img-large').length === 0) return false;
@@ -510,7 +688,6 @@ import imageSizes from '../data/image-sizes.json';
       return text.length > 0 && text.length < 120;
     };
 
-    // Posbírej sekvence: img-only p (s případnými short-caption mezi nimi)
     const sequences = [];
     let cursor = article.firstElementChild;
     while (cursor) {
@@ -521,7 +698,6 @@ import imageSizes from '../data/image-sizes.json';
           seq.push(next);
           next = next.nextElementSibling;
         }
-        // Trim trailing captions (caption MUSÍ být MEZI img, ne na konci)
         while (seq.length > 0 && !isImgOnlyP(seq[seq.length - 1])) seq.pop();
         sequences.push(seq);
         cursor = next;
@@ -548,12 +724,11 @@ import imageSizes from '../data/image-sizes.json';
             fig.className = 'gallery-item';
             fig.appendChild(img);
             gallery.appendChild(fig);
-            pendingFigure = fig; // captions se připojí k posledně vloženému
+            pendingFigure = fig;
           }
         } else if (isShortCaptionP(p) && pendingFigure) {
           const cap = document.createElement('figcaption');
           cap.className = 'gallery-caption';
-          // Přesun všech child node z p do figcaption (zachová <a>, <em>, …)
           while (p.firstChild) cap.appendChild(p.firstChild);
           pendingFigure.appendChild(cap);
         }
@@ -563,32 +738,209 @@ import imageSizes from '../data/image-sizes.json';
       for (const p of seq) p.remove();
     }
 
-    // 3. Lightbox — pro large i tall
+    // ==========================================================
+    // 3. Lightbox — single / grid / compare state machine
+    // ==========================================================
     const lb = document.getElementById('lightbox');
     if (!lb) return;
-    const lbImg = lb.querySelector('img');
-    const lbCaption = lb.querySelector('#lightbox-caption');
+    const stage = lb.querySelector('.lb-stage');
+    const captionEl = lb.querySelector('.lb-caption');
+    const counterEl = lb.querySelector('.lb-counter');
+    const closeBtn = lb.querySelector('.lb-close');
+    const prevBtn = lb.querySelector('.lb-prev');
+    const nextBtn = lb.querySelector('.lb-next');
+    const modeBtns = Array.from(lb.querySelectorAll('.lb-mode'));
+
+    // Sbírka všech lightbox-eligible obrázků v článku
     const lbImgs = Array.from(article.querySelectorAll(
       'img.img-large, img.img-tall, img.img-full, img.img-standalone, img.img-hero, .article-gallery img'
     ));
+    if (lbImgs.length === 0) return;
+
+    /** Lightbox state */
+    const state = {
+      mode: 'single',     // 'single' | 'grid' | 'compare'
+      activeIdx: 0,
+      compareSlots: [0, 1],  // [slotA idx, slotB idx]
+      captionTimeout: null,
+      lastWheel: 0,
+      panZoom: {
+        0: { x: 0, y: 0, zoom: 1 },
+        1: { x: 0, y: 0, zoom: 1 },
+      },
+    };
+
+    /** Detekce — vrátí true pokud má smysl auto-přepnout do grid mode */
+    function shouldAutoGrid(idx) {
+      if (window.innerWidth < 1200) return false;
+      // Wide aspect ratio (≥3:2)
+      if (window.innerWidth / window.innerHeight < 1.4) return false;
+      const img = lbImgs[idx];
+      if (!img) return false;
+      const w = img.naturalWidth || img.width || 0;
+      const h = img.naturalHeight || img.height || 0;
+      if (!w || !h) return false;
+      // Portrait foto (aspect < 0.95 to allow square-ish)
+      return (w / h) < 0.95;
+    }
+
+    /** Sloty — vyrenderovat sloty pro daný režim, sync s data */
+    function renderSlots() {
+      stage.dataset.mode = state.mode;
+      lb.dataset.mode = state.mode;
+      stage.innerHTML = '';
+
+      const indices = currentIndices();
+      indices.forEach((idx, slotIdx) => {
+        const slot = document.createElement('div');
+        slot.className = 'lb-slot';
+        slot.dataset.slotIdx = String(slotIdx);
+        slot.dataset.imgIdx = String(idx);
+
+        if (state.mode === 'grid' && idx === state.activeIdx) {
+          slot.classList.add('is-active');
+        }
+        if (state.mode === 'single') {
+          slot.classList.add('is-active');
+        }
+
+        const img = document.createElement('img');
+        const src = lbImgs[idx];
+        img.src = src.src;
+        img.alt = src.alt || '';
+        slot.appendChild(img);
+
+        // Compare mode — apply pan/zoom CSS variables
+        if (state.mode === 'compare') {
+          const pz = state.panZoom[slotIdx] || { x: 0, y: 0, zoom: 1 };
+          img.style.setProperty('--pan-x', pz.x + 'px');
+          img.style.setProperty('--pan-y', pz.y + 'px');
+          img.style.setProperty('--zoom', String(pz.zoom));
+        }
+
+        stage.appendChild(slot);
+      });
+    }
+
+    /** Indices visible v aktuálním režimu */
+    function currentIndices() {
+      const n = lbImgs.length;
+      if (state.mode === 'single') return [state.activeIdx];
+      if (state.mode === 'grid') {
+        // 3-up: prev, active, next (s wrap)
+        const prev = (state.activeIdx - 1 + n) % n;
+        const next = (state.activeIdx + 1) % n;
+        return [prev, state.activeIdx, next];
+      }
+      if (state.mode === 'compare') {
+        return [state.compareSlots[0], state.compareSlots[1]];
+      }
+      return [state.activeIdx];
+    }
+
+    function updateCaption() {
+      let txt = '';
+      if (state.mode === 'single' || state.mode === 'grid') {
+        const img = lbImgs[state.activeIdx];
+        txt = (img.alt && img.alt !== 'menu' && img.alt !== 'grafika') ? img.alt : '';
+      } else if (state.mode === 'compare') {
+        const a = lbImgs[state.compareSlots[0]];
+        const b = lbImgs[state.compareSlots[1]];
+        const aAlt = (a.alt && a.alt !== 'menu') ? a.alt : `foto ${state.compareSlots[0] + 1}`;
+        const bAlt = (b.alt && b.alt !== 'menu') ? b.alt : `foto ${state.compareSlots[1] + 1}`;
+        txt = `A: ${aAlt}  ·  B: ${bAlt}`;
+      }
+      captionEl.textContent = txt;
+      lb.removeAttribute('data-caption-hidden');
+      clearTimeout(state.captionTimeout);
+      state.captionTimeout = setTimeout(() => {
+        lb.setAttribute('data-caption-hidden', '');
+      }, 2000);
+    }
+
+    function updateCounter() {
+      if (state.mode === 'compare') {
+        counterEl.textContent = `A:${state.compareSlots[0] + 1} · B:${state.compareSlots[1] + 1} / ${lbImgs.length}`;
+      } else {
+        counterEl.textContent = `${state.activeIdx + 1} / ${lbImgs.length}`;
+      }
+    }
+
+    function updateToolbar() {
+      modeBtns.forEach((btn) => {
+        btn.classList.toggle('is-active', btn.dataset.mode === state.mode);
+      });
+    }
+
+    function refresh() {
+      renderSlots();
+      updateCaption();
+      updateCounter();
+      updateToolbar();
+    }
 
     function open(idx) {
-      const img = lbImgs[idx];
-      if (!img) return;
-      lbImg.src = img.src;
-      lbImg.alt = img.alt;
-      lbCaption.textContent = img.alt && img.alt !== 'menu' && img.alt !== 'grafika' ? img.alt : '';
-      lb.dataset.idx = String(idx);
+      state.activeIdx = idx;
+      // Auto-grid pro portrétní fotku na širokém displeji (jen při open, ne při nav)
+      if (shouldAutoGrid(idx)) {
+        state.mode = 'grid';
+      } else {
+        state.mode = 'single';
+      }
+      state.compareSlots = [idx, (idx + 1) % lbImgs.length];
+      state.panZoom = {
+        0: { x: 0, y: 0, zoom: 1 },
+        1: { x: 0, y: 0, zoom: 1 },
+      };
+      refresh();
       lb.showModal();
     }
 
-    function closeLb() { lb.close(); }
-    function step(delta) {
-      const idx = parseInt(lb.dataset.idx ?? '0', 10);
-      const next = (idx + delta + lbImgs.length) % lbImgs.length;
-      open(next);
+    function closeLb() {
+      lb.close();
+      clearTimeout(state.captionTimeout);
     }
 
+    function step(delta) {
+      const n = lbImgs.length;
+      if (state.mode === 'compare') {
+        // V compare modu šipky posunou slot B (slot A zůstává — user-controlled)
+        state.compareSlots[1] = (state.compareSlots[1] + delta + n) % n;
+      } else {
+        state.activeIdx = (state.activeIdx + delta + n) % n;
+      }
+      refresh();
+    }
+
+    function setMode(newMode) {
+      if (newMode === state.mode) return;
+      if (newMode === 'compare' && lbImgs.length < 2) return;
+      state.mode = newMode;
+      if (newMode === 'compare') {
+        // Reset pan/zoom při vstupu do compare
+        state.panZoom = {
+          0: { x: 0, y: 0, zoom: 1 },
+          1: { x: 0, y: 0, zoom: 1 },
+        };
+        // Slot A = aktuální, slot B = next
+        if (state.compareSlots[1] === state.compareSlots[0]) {
+          state.compareSlots[1] = (state.compareSlots[0] + 1) % lbImgs.length;
+        }
+      }
+      refresh();
+      // Mark hint as seen
+      lb.setAttribute('data-hint-seen', '');
+    }
+
+    function swapCompare() {
+      [state.compareSlots[0], state.compareSlots[1]] = [state.compareSlots[1], state.compareSlots[0]];
+      [state.panZoom[0], state.panZoom[1]] = [state.panZoom[1], state.panZoom[0]];
+      refresh();
+    }
+
+    // === Event listeners ===
+
+    // Otevírání lightboxu z článku
     lbImgs.forEach((img, idx) => {
       img.addEventListener('click', (e) => {
         e.preventDefault();
@@ -596,18 +948,202 @@ import imageSizes from '../data/image-sizes.json';
       });
     });
 
-    lb.querySelector('.lightbox-close')?.addEventListener('click', closeLb);
-    lb.querySelector('.lightbox-prev')?.addEventListener('click', () => step(-1));
-    lb.querySelector('.lightbox-next')?.addEventListener('click', () => step(1));
-    lb.addEventListener('click', (e) => {
-      if (e.target === lb) closeLb();
+    closeBtn.addEventListener('click', closeLb);
+    prevBtn.addEventListener('click', () => step(-1));
+    nextBtn.addEventListener('click', () => step(1));
+
+    modeBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        setMode(btn.dataset.mode);
+      });
     });
+
+    // Klik handler — single zavře všude, grid přepíná sloty, compare zavře mimo sloty
+    lb.addEventListener('click', (e) => {
+      const target = e.target;
+      // Ignoruj kliky na ovládací prvky (close, prev, next, toolbar, counter, divider)
+      if (target.closest('.lb-close, .lb-prev, .lb-next, .lb-toolbar, .lb-counter, .lb-divider')) return;
+
+      if (state.mode === 'single') {
+        // Single: klik kdekoliv (fotka, backdrop, padding) zavře
+        closeLb();
+        return;
+      }
+
+      if (state.mode === 'grid') {
+        const slot = target.closest('.lb-slot');
+        if (!slot) {
+          // Klik mimo sloty = backdrop → close
+          closeLb();
+          return;
+        }
+        if (slot.classList.contains('is-active')) {
+          // Klik na aktivní slot → zoom (přepne na single)
+          setMode('single');
+        } else {
+          // Klik na souseda → ten se stane aktivní
+          state.activeIdx = parseInt(slot.dataset.imgIdx, 10);
+          refresh();
+        }
+        return;
+      }
+
+      if (state.mode === 'compare') {
+        // Klik mimo sloty (backdrop pruh) = close
+        // (Klik v slotu po pan-dragu nevyvolá click event — to je fajn)
+        if (!target.closest('.lb-slot')) {
+          closeLb();
+        }
+      }
+    });
+
+    // Klávesnice
     document.addEventListener('keydown', (e) => {
       if (!lb.open) return;
-      if (e.key === 'Escape') closeLb();
-      else if (e.key === 'ArrowLeft') step(-1);
-      else if (e.key === 'ArrowRight') step(1);
+      if (e.key === 'Escape') {
+        if (state.mode === 'compare' || state.mode === 'grid') {
+          setMode('single');
+        } else {
+          closeLb();
+        }
+      }
+      else if (e.key === 'ArrowLeft') { step(-1); }
+      else if (e.key === 'ArrowRight') { step(1); }
+      else if (e.key === '1') { setMode('single'); }
+      else if (e.key === 'g' || e.key === 'G') { setMode(state.mode === 'grid' ? 'single' : 'grid'); }
+      else if (e.key === 'c' || e.key === 'C') { setMode(state.mode === 'compare' ? 'single' : 'compare'); }
+      else if (e.key === 'x' || e.key === 'X') {
+        if (state.mode === 'compare') swapCompare();
+      }
     });
+
+    // === Touch gestures ===
+    let touchStart = null;
+    stage.addEventListener('touchstart', (e) => {
+      if (e.touches.length !== 1) return;
+      // V compare modu touch ovládá pan/zoom slotů, ne navigaci
+      if (state.mode === 'compare') return;
+      const t = e.touches[0];
+      touchStart = { x: t.clientX, y: t.clientY, t: Date.now() };
+    }, { passive: true });
+
+    stage.addEventListener('touchend', (e) => {
+      if (!touchStart) return;
+      if (state.mode === 'compare') { touchStart = null; return; }
+      const t = e.changedTouches[0];
+      const dx = t.clientX - touchStart.x;
+      const dy = t.clientY - touchStart.y;
+      const dt = Date.now() - touchStart.t;
+      touchStart = null;
+      if (dt > 600) return;
+      const absX = Math.abs(dx);
+      const absY = Math.abs(dy);
+      if (absX > 50 && absX > absY * 1.5) {
+        step(dx < 0 ? 1 : -1);
+      } else if (dy > 80 && absY > absX * 1.5) {
+        closeLb();
+      }
+    }, { passive: true });
+
+    // === Trackpad horizontal wheel (Mac 2-finger scroll) ===
+    stage.addEventListener('wheel', (e) => {
+      if (state.mode === 'compare') return; // pan/zoom má prio v compare
+      const absX = Math.abs(e.deltaX);
+      const absY = Math.abs(e.deltaY);
+      if (absX < absY || absX < 8) return; // primárně vertikální nebo malý → ignore
+      const now = Date.now();
+      if (now - state.lastWheel < 300) return; // debounce
+      state.lastWheel = now;
+      step(e.deltaX > 0 ? 1 : -1);
+      e.preventDefault();
+    }, { passive: false });
+
+    // === Caption auto-hide on mouse move ===
+    lb.addEventListener('mousemove', () => {
+      lb.removeAttribute('data-caption-hidden');
+      clearTimeout(state.captionTimeout);
+      state.captionTimeout = setTimeout(() => {
+        lb.setAttribute('data-caption-hidden', '');
+      }, 2000);
+    });
+
+    // === Hint dismiss on first interaction ===
+    lb.addEventListener('keydown', () => lb.setAttribute('data-hint-seen', ''), { once: true });
+    lb.addEventListener('click', () => lb.setAttribute('data-hint-seen', ''), { once: true });
+
+    // === Compare mode — pan/zoom per slot ===
+    // Drag = pan, wheel/pinch = zoom
+    let panStart = null;
+    stage.addEventListener('pointerdown', (e) => {
+      if (state.mode !== 'compare') return;
+      const slot = e.target.closest('.lb-slot');
+      if (!slot) return;
+      const slotIdx = parseInt(slot.dataset.slotIdx, 10);
+      const pz = state.panZoom[slotIdx];
+      if (!pz) return;
+      slot.classList.add('is-dragging');
+      slot.setPointerCapture(e.pointerId);
+      panStart = { x: e.clientX, y: e.clientY, slotIdx, startPanX: pz.x, startPanY: pz.y };
+    });
+    stage.addEventListener('pointermove', (e) => {
+      if (!panStart) return;
+      const dx = e.clientX - panStart.x;
+      const dy = e.clientY - panStart.y;
+      const pz = state.panZoom[panStart.slotIdx];
+      pz.x = panStart.startPanX + dx;
+      pz.y = panStart.startPanY + dy;
+      const slot = stage.querySelector(`.lb-slot[data-slot-idx="${panStart.slotIdx}"]`);
+      const img = slot?.querySelector('img');
+      if (img) {
+        img.style.setProperty('--pan-x', pz.x + 'px');
+        img.style.setProperty('--pan-y', pz.y + 'px');
+      }
+    });
+    stage.addEventListener('pointerup', (e) => {
+      if (!panStart) return;
+      const slot = stage.querySelector(`.lb-slot[data-slot-idx="${panStart.slotIdx}"]`);
+      slot?.classList.remove('is-dragging');
+      panStart = null;
+    });
+    stage.addEventListener('pointercancel', () => {
+      const dragging = stage.querySelector('.lb-slot.is-dragging');
+      dragging?.classList.remove('is-dragging');
+      panStart = null;
+    });
+
+    // Wheel zoom v compare modu (per slot pod kurzorem)
+    stage.addEventListener('wheel', (e) => {
+      if (state.mode !== 'compare') return;
+      const slot = e.target.closest('.lb-slot');
+      if (!slot) return;
+      const slotIdx = parseInt(slot.dataset.slotIdx, 10);
+      const pz = state.panZoom[slotIdx];
+      if (!pz) return;
+      e.preventDefault();
+      const delta = e.deltaY > 0 ? -0.1 : 0.1;
+      pz.zoom = Math.max(0.5, Math.min(5, pz.zoom + delta));
+      const img = slot.querySelector('img');
+      if (img) img.style.setProperty('--zoom', String(pz.zoom));
+    }, { passive: false });
+
+    // === Compare divider drag (resize) ===
+    const divider = lb.querySelector('.lb-divider');
+    let dividerDrag = null;
+    divider?.addEventListener('pointerdown', (e) => {
+      if (state.mode !== 'compare') return;
+      dividerDrag = { startX: e.clientX, rect: stage.getBoundingClientRect() };
+      divider.setPointerCapture(e.pointerId);
+      e.preventDefault();
+    });
+    document.addEventListener('pointermove', (e) => {
+      if (!dividerDrag) return;
+      const pct = ((e.clientX - dividerDrag.rect.left) / dividerDrag.rect.width) * 100;
+      const clamped = Math.max(15, Math.min(85, pct));
+      stage.style.setProperty('--lb-split', `${clamped}fr`);
+      stage.style.setProperty('--lb-split-b', `${100 - clamped}fr`);
+      lb.style.setProperty('--lb-split-px', `${clamped}%`);
+    });
+    document.addEventListener('pointerup', () => { dividerDrag = null; });
   }
 
   if (document.readyState === 'loading') {
