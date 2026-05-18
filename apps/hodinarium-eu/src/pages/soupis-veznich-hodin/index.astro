@@ -26,12 +26,24 @@ function surnameOf(jmeno: string): string {
   return tokens[isSuffix ? lastIdx - 1 : lastIdx] ?? jmeno;
 }
 
-/** Display formát „Příjmení, Jméno" pro filtr dropdown.
- *  „Jan Janata" → „Janata, Jan", parentézy zachovány. */
+/** Display formát „Příjmení, Jméno" pro listingy.
+ *  „Jan Janata" → „Janata, Jan", parentézy zachovány.
+ *  Kompozitní názvy (s '+', '&', ' a ', '/'), lowercase start, single-token
+ *  a akronym-prefix („OPP Vyškov") vstupy zůstávají v natural form. */
 function lastFirst(jmeno: string): string {
-  if (/\(.+\)/.test(jmeno)) return jmeno;
-  const tokens = jmeno.trim().split(/\s+/).filter(Boolean);
+  const trimmed = jmeno.trim();
+  // Parentézy zachovat: „Bisswangerové (rod pražských hodinářů)"
+  if (/\(.+\)/.test(trimmed)) return jmeno;
+  // Kompozitní: „F. X. Schnaider + L. Hainz", „John & Mary"
+  if (/\s[+&/]\s|\s+a\s+/.test(trimmed)) return jmeno;
+  // Lowercase start: „dílna Landesbergerů", „neznámý"
+  if (!/^\p{Lu}/u.test(trimmed)) return jmeno;
+  const tokens = trimmed.split(/\s+/).filter(Boolean);
   if (tokens.length <= 1) return jmeno;
+  // Akronym/zkratka jako první token (OPP, ČSH, IT...) — typicky název firmy
+  // s lokalitou. „OPP Vyškov" zůstává „OPP Vyškov" (ne „Vyškov, OPP").
+  // Single-letter iniciála s tečkou („L. Hainz") se flipne normálně.
+  if (/^\p{Lu}{2,}$/u.test(tokens[0])) return jmeno;
   const lastIdx = tokens.length - 1;
   const isSuffix = /^(ml\.|st\.|jr\.|sr\.|I{1,3}V?|VI{0,3})$/i.test(tokens[lastIdx]);
   const surnameIdx = isSuffix ? lastIdx - 1 : lastIdx;
@@ -104,18 +116,13 @@ for (const h of hodiny) {
     if (y > yearMax) yearMax = y;
   }
 }
-// Hodinař dropdown: sort podle příjmení, display ve formátu „Příjmení, Jméno"
-// (snadnější skenování v dropdownu se 100+ jmény).
-// `__text:` entries (volný text — ne medailon) zůstanou v natural formě.
+// Hodinař dropdown: sort podle příjmení, display ve formátu „Příjmení, Jméno".
+// lastFirst() aplikováno na všechny entries (medailony i volný text). Funkce
+// sama přeskočí kompozity (F. X. Schnaider + L. Hainz), lowercase entries
+// (dílna Landesbergerů, neznámý) a single-token jména.
 const hodinariOpts: Array<[string, string]> = [...hodinariSet.entries()]
-  .map(([slug, name]) => {
-    const isTextEntry = slug.startsWith('__text:');
-    return [slug, isTextEntry ? name : lastFirst(name)] as [string, string];
-  })
-  .sort((a, b) => {
-    // Sort by surname-first display (which already starts with surname)
-    return a[1].localeCompare(b[1], 'cs');
-  });
+  .map(([slug, name]) => [slug, lastFirst(name)] as [string, string])
+  .sort((a, b) => a[1].localeCompare(b[1], 'cs'));
 const krajeOpts = [...krajeSet].sort((a, b) => a.localeCompare(b, 'cs'));
 const stateOpts = [...stateSet].sort();
 const krokOpts = [...krokSet].sort((a, b) => a.localeCompare(b, 'cs'));
@@ -294,10 +301,11 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
           if (!hero && fotos.length > 0) hero = { src: fotos[0].src, alt: fotos[0].alt };
           // Hodinař display ve sloupci tabulky: „Příjmení, Jméno" pro snadnější
           // skenování seznamu (mnoho Janů, Františků pod „J"/„F" jinak).
-          // hodinarText (volný text — ne medailon) zůstává v natural formě.
+          // lastFirst() aplikováno i na hodinarText (Emil Schauer → Schauer, Emil),
+          // funkce sama přeskočí kompozity / lowercase / single-token.
           const hodinarDisplay = h.data.hodinar
             ? lastFirst(displayHodinar(h.data.hodinar))
-            : (h.data.hodinarText || '');
+            : lastFirst(h.data.hodinarText || '');
           return (
             <tr
               data-hodinar={hodinarKey}
@@ -320,7 +328,7 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
                 {h.data.hodinar ? (
                   <a href={`/hodinari/${h.data.hodinar}`} title={displayHodinar(h.data.hodinar)}>{hodinarDisplay}</a>
                 ) : h.data.hodinarText ? (
-                  <span class="muted">{h.data.hodinarText}</span>
+                  <span class="muted" title={h.data.hodinarText}>{hodinarDisplay}</span>
                 ) : (
                   <span class="muted">neznámý</span>
                 )}

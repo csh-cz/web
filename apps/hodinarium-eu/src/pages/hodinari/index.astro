@@ -28,17 +28,22 @@ function surnameOf(jmeno: string): string {
 }
 
 /**
- * Display formát „Příjmení, Jméno suffix" pro listingy osob (snadnější skenování).
- *   "Jan Janata" → "Janata, Jan"
- *   "Jan Prokeš ml." → "Prokeš, Jan ml."
- *   "L. Hainz" → "Hainz, L." (iniciála zachována)
- *   "Bisswangerové (rod pražských hodinářů)" → "Bisswangerové (rod pražských hodinářů)" (nezměněno)
+ * Display formát „Příjmení, Jméno suffix" pro listingy (snadnější skenování).
+ *   „Jan Janata" → „Janata, Jan"
+ *   „Jan Prokeš ml." → „Prokeš, Jan ml."
+ *   „L. Hainz" → „Hainz, L." (iniciála zachována)
+ * Zachované v natural form:
+ *   Parentézy („Bisswangerové (rod …)"), kompozity („A + B"),
+ *   lowercase start („dílna X"), akronym prefix („OPP Vyškov"), single-token.
  */
 function lastFirst(jmeno: string): string {
-  // Pokud má parentézu, nezasahuj — typicky rody / kolektivní názvy
-  if (/\(.+\)/.test(jmeno)) return jmeno;
-  const tokens = jmeno.trim().split(/\s+/).filter(Boolean);
+  const trimmed = jmeno.trim();
+  if (/\(.+\)/.test(trimmed)) return jmeno;
+  if (/\s[+&/]\s|\s+a\s+/.test(trimmed)) return jmeno;
+  if (!/^\p{Lu}/u.test(trimmed)) return jmeno;
+  const tokens = trimmed.split(/\s+/).filter(Boolean);
   if (tokens.length <= 1) return jmeno;
+  if (/^\p{Lu}{2,}$/u.test(tokens[0])) return jmeno;
   const lastIdx = tokens.length - 1;
   const isSuffix = /^(ml\.|st\.|jr\.|sr\.|I{1,3}V?|VI{0,3})$/i.test(tokens[lastIdx]);
   const surnameIdx = isSuffix ? lastIdx - 1 : lastIdx;
