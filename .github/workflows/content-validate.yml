@@ -112,6 +112,10 @@ jobs:
       - name: Build hodinarium-eu
         run: pnpm --filter hodinarium-eu build
         env:
+          # Skip image variant generation (sharp processing 2700+ files
+          # trvá 10+ min, není potřeba pro D2 schema/build validation —
+          # plný regen běží přes imgvariants-r2-sync.yml).
+          SKIP_IMG_GEN: '1'
           # Skipnout R2 upload step v prebuild (nemáme R2 secrets v této akci)
           SKIP_R2_UPLOAD: 'true'
 
