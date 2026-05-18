@@ -25,7 +25,7 @@ references:
     type: patent
   - bibKey: 'kinsnerRakouskouherskePrivilegium59631895'
     type: patent
-  - bibKey: 'hartmanChlumeckemVynalezciOrloje1987a'
+  - bibKey: 'hartmanChlumeckemVynalezciOrloje1987'
     type: clanek
   - bibKey: 'UspechCeskePrace1897a'
     type: clanek
