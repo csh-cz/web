@@ -21,6 +21,16 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const ROOT = join(__dirname, '..');
 
+// SKIP_IMG_GEN=1 — bypass úplně (CI validation, ne deploy build).
+// Sharp processing 2700+ obrázků trvá ~10 min na GH Actions cold cache;
+// pro D2 content-validate workflow nepotřebné — varianty jsou cached
+// v repo a CF Pages je nepotřebuje regenerovat při každém content pushi.
+// Plný regen běží přes imgvariants-r2-sync.yml workflow.
+if (process.env.SKIP_IMG_GEN === '1' || process.env.SKIP_IMG_GEN === 'true') {
+  console.log('[imgvariants] SKIP_IMG_GEN=1 — image variant generation skipped');
+  process.exit(0);
+}
+
 const ALL_APPS = ['hodinarium-eu', 'horologie-cz'];
 // CLI: --apps hodinarium-eu  (nebo `--apps a,b`); default = obě.
 const appsArgIdx = process.argv.indexOf('--apps');
