@@ -474,10 +474,14 @@ collections:
       - { name: title, label: 'Jméno / firma', widget: string, required: true }
       - { name: slug, label: 'Slug', widget: string, required: true, hint: 'lowercase-s-pomlckami' }
       - name: typ
-        label: 'Typ'
+        label: 'Typ (vyber „osoba" + „firma" společně, pokud rodinná dílna nese jméno osoby)'
         widget: select
         required: true
+        multiple: true
+        min: 1
+        max: 2
         options: [osoba, firma]
+        hint: 'Většinou jen jedna možnost. Vyber obojí pro rodinné dílny pojmenované po zakladateli (např. Moravus, kde Štěpán a František jsou osoby i zároveň reprezentují firmu Moravus).'
       - { name: obdobi, label: 'Životní data / působení', widget: string, required: false, hint: '„1869–1955" / „akt. ~1880–1920"' }
       - { name: mesto, label: 'Město', widget: string, required: false }
       - { name: zeme, label: 'Země (ISO 3166)', widget: string, required: false, default: 'CZ' }

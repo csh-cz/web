@@ -423,7 +423,12 @@ const hodinariMedailony = defineCollection({
   schema: sveltiaSafe(z.object({
     title: z.string(),
     slug: z.string(),
-    typ: z.enum(['osoba', 'firma']),
+    // typ: může být single string (legacy) nebo array (rodinné dílny — osoba I firma).
+    // V rejstříku /hodinari/ se entry s array typ objeví v obou sekcích (osoby + firmy).
+    typ: z.union([
+      z.enum(['osoba', 'firma']),
+      z.array(z.enum(['osoba', 'firma'])).min(1),
+    ]),
     obdobi: z.string().optional(),
     mesto: z.string().optional(),
     zeme: z.string().default('CZ'),
