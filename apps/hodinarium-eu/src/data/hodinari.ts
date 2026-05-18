@@ -2429,11 +2429,11 @@ export const hodinari: Hodinar[] = [
     jmeno: 'Robert Drozda',
     aliasy: ['Robert Drozda'],
     typ: 'osoba',
-    obdobi: 'doloženo 1980–2019',
+    obdobi: '17. 7. 1948 Praha – 1. 12. 2019 Plasy',
     mesto: 'Plasy',
     zeme: 'CZ',
     shrnuti:
-      'Dlouholetý hodinář kláštera v Plasích (1980–2019). Po 40 let pečoval o barokní věžní hodinový stroj [Friedricha Friedricha](/hodinari/friedrich-friedrich) z roku 1686; péči zdokumentoval v monografii *O duši plaských hodin*. Drozdovu práci v prosinci 2019 převzal Pavel Novák.',
+      'Český železničář a spisovatel, hodinář kláštera v Plasích (17. 5. 1980 – 30. 11. 2019, den před úmrtím). Po čtyři desetiletí pečoval o barokní věžní hodinový stroj [Friedricha Friedricha](/hodinari/friedrich-friedrich) z roku 1686; péči zdokumentoval v monografii *O duši plaských hodin* (Plasy 2006, edice Tilia plassensis, ISBN 80-254-7285-X). Drozdovu práci v prosinci 2019 převzal Pavel Novák.',
     relatedSlugs: [],
     era: '20stol',
   },
