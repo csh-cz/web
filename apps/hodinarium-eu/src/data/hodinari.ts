@@ -5,17 +5,23 @@
  * Doplňuj postupně podle dohledávání v archivech / publikacích.
  *
  * Konvence:
- *   - typ: 'osoba' = jednotlivý hodinář; 'firma' = firma / atelier / značka
+ *   - typ: 'osoba' = jednotlivý hodinář; 'firma' = firma / atelier / značka.
+ *     **Může být array** pro rodinné dílny, kde osoba sama je zároveň firma
+ *     pojmenovaná po sobě (Štěpán Moravus = osoba i firma Moravus).
+ *     Při zobrazení v rejstříku se entry objeví v obou sekcích.
  *   - aliasy: varianty pro fulltextové hledání ve článcích
  *   - relatedSlugs: slugy článků, kde je hodinář zmíněn nebo jím vyrobený stroj
  *   - obdobi: životní data nebo doba aktivity ("1869–1955" / "akt. ~1880–1920")
  *   - shrnuti: 1–3 věty pro stub stránku
  */
+export type HodinarTyp = 'osoba' | 'firma';
+
 export interface Hodinar {
   slug: string;
   jmeno: string;
   aliasy: string[];
-  typ: 'osoba' | 'firma';
+  /** Single hodnota pro backward-compat, array pro multi-role (osoba + firma). */
+  typ: HodinarTyp | HodinarTyp[];
   obdobi: string | null;
   mesto: string | null;
   zeme: string;
@@ -23,6 +29,17 @@ export interface Hodinar {
   relatedSlugs: string[];
   /** Kategorie pro řazení v indexu */
   era: 'baroko' | '19stol' | 'prelom' | '20stol' | 'soucasnost';
+}
+
+/** Normalizační helper — vrátí typy hodináře jako array, ať už je single
+ *  string nebo array. Použij místo `h.typ === 'osoba'` → `hasType(h, 'osoba')`. */
+export function hasType(h: Hodinar, t: HodinarTyp): boolean {
+  return Array.isArray(h.typ) ? h.typ.includes(t) : h.typ === t;
+}
+
+/** Vrátí všechny typy hodináře jako array. */
+export function typesOf(h: Hodinar): HodinarTyp[] {
+  return Array.isArray(h.typ) ? h.typ : [h.typ];
 }
 
 export const hodinari: Hodinar[] = [
@@ -2391,6 +2408,36 @@ export const hodinari: Hodinar[] = [
       'Hodinář z Nové Paky (Podkrkonoší) konce 19. století. Doložen [Zemskou jubilejní výstavou 1891](/clanky/jubilejni-vystava-zemska-1891-hodinari): funkční model Pražského orloje v malém měřítku — řemeslná kuriozita.',
     relatedSlugs: ['jubilejni-vystava-zemska-1891-hodinari'],
     era: '19stol',
+  },
+
+  // ── Moravus (Brno) — rodinná firma + dvě generace (vstupy z MDX od Sveltia CMS) ──
+  // Příklad multi-value typ — Štěpán + František jsou osoby, ale firma Moravus
+  // je pojmenovaná po nich. Zobrazí se v obou sekcích /hodinari/ rejstříku.
+  {
+    slug: 'stepan-moravus',
+    jmeno: 'Štěpán Moravus',
+    aliasy: ['Štěpán Moravus', 'Š. Moravus', 'Stěpán Moravus', 'firma Moravus'],
+    typ: ['osoba', 'firma'],
+    obdobi: '1831–1894',
+    mesto: 'Brno',
+    zeme: 'CZ',
+    shrnuti:
+      'Zakladatel hodinářské firmy Moravus, obchodník s hodinami a výrobce věžních hodin v Brně. Narozen ve Slovensku (Myjava), podnik založil na adrese Křenová 17. Otec [Františka Moravuse](/hodinari/frantisek-moravus).',
+    relatedSlugs: [],
+    era: '19stol',
+  },
+  {
+    slug: 'frantisek-moravus',
+    jmeno: 'František Moravus',
+    aliasy: ['František Moravus', 'F. Moravus', 'firma Moravus', 'Moravus Brno'],
+    typ: ['osoba', 'firma'],
+    obdobi: '1867–1944',
+    mesto: 'Brno',
+    zeme: 'CZ',
+    shrnuti:
+      'Hodinář, obchodník s hodinami a výrobce věžních hodin v Brně. Syn zakladatele firmy [Štěpána Moravuse](/hodinari/stepan-moravus). Vystudoval hodinářskou školu v Bielu (Bienne). Sídlo firmy: palác Mitrovských, dnešní nám. Svobody č. 8.',
+    relatedSlugs: [],
+    era: 'prelom',
   },
 ];
 

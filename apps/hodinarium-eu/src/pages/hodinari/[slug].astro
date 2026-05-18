@@ -4,7 +4,7 @@ import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import EditorNotesBlock from '../../components/EditorNotesBlock.astro';
 import JsonLd from '../../components/JsonLd.astro';
-import { hodinari } from '../../data/hodinari';
+import { hodinari, hasType } from '../../data/hodinari';
 import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
@@ -136,7 +136,7 @@ const portretUrl = medailon?.data.portret
   ? new URL(medailon.data.portret, site).toString()
   : undefined;
 
-const personJsonLd = hodinar.typ === 'osoba'
+const personJsonLd = hasType(hodinar, 'osoba')
   ? {
       '@context': 'https://schema.org',
       '@type': 'Person',
@@ -186,13 +186,13 @@ const personJsonLd = hodinar.typ === 'osoba'
        Bez itemType=webpage by Zotero podle citation_journal_title
        force-mapoval na Journal Article. */
     itemType: 'webpage',
-    title: `${hodinar.jmeno} — ${hodinar.typ === 'osoba' ? 'biografie hodináře' : 'medailon hodinářské firmy'}`,
+    title: `${hodinar.jmeno} — ${hasType(hodinar, 'osoba') ? 'biografie hodináře' : 'medailon hodinářské firmy'}`,
     journalTitle: 'Hodinárium — Hodináři',
     keywords: [
       ...(hodinar.aliasy ?? []),
       ...(hodinar.mesto ? [hodinar.mesto] : []),
       ...(hodinar.obdobi ? [hodinar.obdobi] : []),
-      hodinar.typ === 'osoba' ? 'hodinář' : 'hodinářská firma',
+      hasType(hodinar, 'osoba') ? 'hodinář' : 'hodinářská firma',
     ],
   }}
 >
@@ -205,13 +205,13 @@ const personJsonLd = hodinar.typ === 'osoba'
 
   <article class="hodinar-detail">
     <header class="hodinar-detail-header">
-      <p class="eyebrow mb-3">{hodinar.typ === 'osoba' ? 'Hodinář' : 'Hodinářská firma'}</p>
+      <p class="eyebrow mb-3">{hasType(hodinar, 'osoba') ? 'Hodinář' : 'Hodinářská firma'}</p>
       <h1 class="hodinar-detail-title">{hodinar.jmeno}</h1>
 
       <dl class="hodinar-detail-meta">
         {hodinar.obdobi && (
           <div>
-            <dt>{hodinar.typ === 'osoba' ? 'Životní data / aktivita' : 'Působení'}</dt>
+            <dt>{hasType(hodinar, 'osoba') ? 'Životní data / aktivita' : 'Působení'}</dt>
             <dd>{hodinar.obdobi}</dd>
           </div>
         )}
@@ -253,7 +253,7 @@ const personJsonLd = hodinar.typ === 'osoba'
 
       {(kartySbirky.length > 0 || soupisRecords.length > 0) && (
         <section class="hodinar-stroje" aria-labelledby="stroje-heading">
-          <h2 id="stroje-heading">Stroje od tohoto {hodinar.typ === 'osoba' ? 'hodináře' : 'výrobce'}</h2>
+          <h2 id="stroje-heading">Stroje od tohoto {hasType(hodinar, 'osoba') ? 'hodináře' : 'výrobce'}</h2>
 
           {kartySbirky.length > 0 && (
             <>
