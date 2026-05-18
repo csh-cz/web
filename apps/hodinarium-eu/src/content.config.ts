@@ -36,7 +36,8 @@ const dateString = z.preprocess(
 const reference = z.object({
   bibKey: z.string().optional(),
   title: z.string().optional(),
-  url: z.string().url().optional(),
+  // url: absolute (http/https) nebo relativní cesta (/clanky/...) pro interní odkazy
+  url: z.union([z.string().url(), z.string().regex(/^\/[^\s]*/)]).optional(),
   author: z.string().optional(),
   year: z.union([z.number(), z.string()]).optional(),
   type: z.enum(['kniha', 'clanek', 'pdf', 'odkaz', 'wiki', 'mapa', 'patent', 'archiv', 'zprava']).optional(),
@@ -535,7 +536,7 @@ const soupisVeznichHodin = defineCollection({
     /** Technická charakteristika — všechno optional. */
     krok: z.string().optional(),                    // 'graham', 'denison', '4-leg-denison', 'mannhardt-lepaut', 'amant-lepaut', 'kotvovy', ... (free text, nikoli enum, kvůli historickým variantám)
     pohon: z.string().optional(),                   // 'zavazi', 'pero', 'elektricky', ...
-    pocetCifernik: z.number().optional(),
+    pocetCifernik: z.number().nullable().optional(),  // Sveltia CMS zapisuje null pro prázdné number field
     rozmery: z.string().optional(),                 // "ráfek 1200 mm" / "stroj 800 × 600 × 400 mm"
     signatura: z.string().optional(),
     cenaDobova: z.string().optional(),              // "900 zl." / "1125 K"

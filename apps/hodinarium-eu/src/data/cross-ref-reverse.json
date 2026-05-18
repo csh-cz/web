@@ -1794,7 +1794,6 @@
     },
     "hridelik-orloje": {
       "slovnik": [
-        "cifernik",
         "ciselnik",
         "klinek-orloje",
         "ukazovaci-stroj",
@@ -1804,14 +1803,12 @@
     },
     "ramenko": {
       "slovnik": [
-        "cifernik",
         "ciselnik",
         "ukazovaci-stroj"
       ]
     },
     "ukazovaci-stroj": {
       "slovnik": [
-        "cifernik",
         "ciselnik",
         "stroj"
       ]
