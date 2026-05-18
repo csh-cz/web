@@ -1,23 +1,24 @@
 ---
-title: "Zaniklé květinové hodiny v Chomutově"
-slug: "kvetinovehodiny-chomutov"
-category: "virtualni-muzeum"
+title: Zaniklé květinové hodiny v Chomutově
+slug: kvetinovehodiny-chomutov
+category: virtualni-muzeum
 tags:
   - kvetinove
   - cesko
   - elektricke
   - jednotny-cas
   - 1900s
-author: "Libor Hovorka"
+author: Libor Hovorka
 references:
-  - bibKey: 'AntikhovorkaczPrimlandclanky'
+  - title: antik-hovorka.cz — Primland články
+    url: https://www.antik-hovorka.cz/primland-clanky/
     type: odkaz
-    note: "Další články autora"
-originalUrl: "https://hodinarium.eu/kvetinovehodiny_Chomutov.htm"
-lastModified: "Sat, 14 Mar 2020 12:03:00 GMT"
-sourceCharset: "windows-1250"
+    note: Další články autora.
+originalUrl: https://hodinarium.eu/kvetinovehodiny_Chomutov.htm
+lastModified: Sat, 14 Mar 2020 12:03:00 GMT
+sourceCharset: windows-1250
 scrapedAt: "2026-04-27T17:37:14.224Z"
-tldr: 'Zaniklý parkový exponát u evangelického kostela v Chomutově s rozvodem ze švýcarského zdroje a unikátními truhlíky v ručkách. Inspiroval podobné hodiny v Erlangen, postavené poválečnými chomutovskými Němci jako vzpomínka.'
+tldr: Zaniklý parkový exponát u evangelického kostela v Chomutově s rozvodem ze švýcarského zdroje a unikátními truhlíky v ručkách. Inspiroval podobné hodiny v Erlangen, postavené poválečnými chomutovskými Němci jako vzpomínka.
 ---
 ![Chomutovské květinové hodiny v období protektorátu — pohled k pomníku 460 obětí první světové války](/img/Chomutov/f/foto_0002.jpg)
 

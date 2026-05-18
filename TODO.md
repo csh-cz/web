@@ -554,40 +554,49 @@ Plný design + zamítnutí ChatGPT návrhu v session transcriptu
 - [ ] **Skript pro auto-import fotek z ZIP** — rozzipovat → přejmenovat
       → doplnit data file. Naprogramovat až bude první ZIP od Petra.
 
-- [ ] **REF1 — 66 bibKey-only odkazů bez Zotero match ani fallback dat**
-      (~2 h, navrženo 2026-05-18). Po Phase 1 cleanup commitu `abfbbe71`
-      (Zotero re-sync + 109 bibKey remap) zůstává 66 entries ve 44
-      souborech, kde `bibKey` neexistuje v references.json a chybí i
-      strukturovaná fallback data (title, url, citace). UI tedy v sekci
-      *Literatura* zobrazí bare citation key string místo ISO 690 citace.
+- [x] **REF1 — 66 bibKey-only odkazů bez Zotero match ani fallback dat**
+      — hotovo 2026-05-18. Zpracováno ve 4 fázích:
+      1. **Phase A (KartaInv\*)** — 10 hodinari medailonů odstranilo
+         bibKey reference; sbírková karta je auto-linkována přes
+         existující `relatedSlugs[]` v `data/hodinari.ts` (pro michael-christ
+         doplněno `inv-6-vezni-michael-christ`).
+      2. **Phase B (muzeum stuby)** — 18 souborů `content/hodinarium-eu/muzeum-*.md`
+         dostalo strukturované ad-hoc `title + url` reference s oficiální
+         URL muzea (Furtwangen, Glashütte, MIH, Wien Museum, RMG, Patek,
+         Aschau, Beyer, Chemnitz, Pillichsdorf, Klementinum, Jindřišská,
+         Kadaň, Prostějov, Ostravské, Týniště, Olomouc, Gdaňsk).
+      3. **Phase C (slunecni.mdx)** — 10 URL recovered z legacy
+         `https://hodinarium.eu/slunecni.htm` přes `curl + iconv`;
+         doplněn i cs Wikipedia link a oprava placeholderu
+         `frantisekNarodniTechnickeMuzeum` na NMM Greenwich (správný zdroj).
+      4. **Phase D (24 jednotlivých)** — 18 souborů, mix:
+         - **Wikipedia placeholdery**: `JunghansWikipedia`, `HebrejskaAbeceda`
+           → ad-hoc wiki refs.
+         - **Atelier Skála placeholdery**: `AtelierRestaurovaniVeznich(a)`,
+           `StrojZidovskychHodin` → `http://www.veznihodiny.cz/`.
+         - **Webové stránky** s URL recovered z legacy: `Anatomievarhancz`,
+           `AntikhovorkaczPrimlandclanky`, `MuseoDellorologeriaPesarina`,
+           `SolariDiUdine`, `FachkreisTurmuhrenHistorische`.
+         - **Dobové prameny** (článkové): `104RokuHodinarstvi1940`,
+           `JanProkes1891`, `paukertJanProkesVynikajici1909`,
+           `OddeleniModernihoPrumyslu1895a`, `UspechCeskePrace1897a`,
+           `BrozuraOkresniVystave1911` → ad-hoc s rokem + note
+           (Zotero entry pro tyto pramene by byla dobrá long-term, ale
+           nyní renderuje s plnou bibliografickou citací).
+         - **Knihy s ISBN**: `kuceraJosefRomualdRosalia2017a`,
+           `martinekDejinyCeskoslovenskehoHodinarskeho2009a` → ad-hoc
+           title + author + ISBN.
+         - **Internal links**: `Akvizice20152025` → `/clanky/akvizice-2015-2025/`.
+         - **Sborník**: `HodinariSamotiiskach1996` → URL na samotisky.cz PDF.
+         - **Wenzel Mellner**: `BarokniStrojZnaceny` → archivní záznam
+           (depozitář ČSH, atribuce nejistá).
 
-      **Vzorky:**
-      - `content/hodinarium-eu/slunecni.mdx` — 10 entries
-        (`kol.KatalogSlunecniHodiny`, `SundialWikipediaAnglicky`,
-        `AstronomieMojeHobby`, `OrologiSolariItalsky`, `CadransSolairesHistorie`,
-        `SlunecniHodinarstvi`, `SlunecniHodinyZa{,a}`, `SlunecniParkHolandsku`,
-        `SlunecniHodinyNa`) — všechny placeholdery pro externí weby
-      - `content/hodinari/{michael-christ,paul-zieux,kohlert,…}` — 8 entries
-        s `KartaInv6..KartaInv41` (interní odkazy na sbírkové karty ČSH)
-      - `content/hodinarium-eu/muzeum-*.md` (16 souborů) — placeholdery typu
-        `Patekmuseumcom`, `Uhrenmuseumchemnitzde`, `WeboveStrankyMuzea` apod.
-      - Jednorázové cases v dalších hodinari medailonech (Krečmer, Prokeš,
-        Kinšner, Hainz, Solari di Udine, Junghans).
+      Některé suffix-`a` klíče (`UmelecHodinarsky1882a`, `krecmerHodinarstvi1878a`,
+      `InzeratKrecmer1876a`) byly auto-remapnuté na neyysuffixované Zotero
+      verze pomocí post-sync suffix-strip scriptu.
 
-      **Strategie cleanup (per pattern):**
-      1. **Externí weby** (`Patekmuseumcom`, `Anatomievarhancz`, atd.) →
-         buď přidat do Zotera jako `webpage` (bibKey + URL), nebo
-         konvertovat na ad-hoc `- title: ... url: ...` reference.
-      2. **`KartaInv*`** → konvertovat na strukturovaný odkaz na sbírkovou
-         kartu (`/sbirka/karta/inv-NNN`), bibKey vůbec nepoužívat.
-      3. **Dobové prameny** (`104RokuHodinarstvi1940`, `JanProkes1891`,
-         `cechStaromestsky1886`, `paukertJanProkesVynikajici1909`) → přidat
-         do Zotera jako `article-newspaper` / `article-journal`.
-      4. **Wikipedia entries** (`HebrejskaAbeceda`, `JunghansWikipedia`,
-         `SundialWikipediaAnglicky`) → ad-hoc `type: wiki` s `title` + `url`.
-
-      Audit lze regenerovat skriptem (audit ad-hoc v shell, viz commit
-      `abfbbe71`). Plný report: 66 entries × 44 files.
+      **Verifikace**: `npx tsx scripts/audit-bibkey.ts` reportuje
+      `Problematic: 0 entries, 0 files` (předtím 66 entries, 44 souborů).
 
 ## A.9 — Připraveno k nasazení po DNS switch
 

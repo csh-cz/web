@@ -1,22 +1,23 @@
 ---
-title: "Jindřišská věž — Praha"
-slug: "muzeum-jindrisska-vez"
-category: "muzea"
-originalUrl: "https://hodinarium.eu/vezni_muzejicko_evropa.htm"
+title: Jindřišská věž — Praha
+slug: muzeum-jindrisska-vez
+category: muzea
+originalUrl: https://hodinarium.eu/vezni_muzejicko_evropa.htm
 lastModified: null
-sourceCharset: "utf-8"
+sourceCharset: utf-8
 scrapedAt: "2026-04-29T17:00:00.000Z"
 manualEdit: true
-author: "Český spolek horologický"
+author: Český spolek horologický
 tags:
   - vezni
   - gotika
   - cesko
   - praha
 references:
-  - bibKey: 'Jindrisskavezcz'
+  - title: Jindřišská věž
+    url: https://www.jindrisskavez.cz/
     type: odkaz
-tldr: 'Multifunkční přestavba gotické zvonice na Novém Městě v Praze: ocelová „věž ve věži“ ukrývá galerii, muzeum, restauraci a zvonohru s 20 zvony od Manouška v patnáctém patře.'
+tldr: "Multifunkční přestavba gotické zvonice na Novém Městě v Praze: ocelová „věž ve věži“ ukrývá galerii, muzeum, restauraci a zvonohru s 20 zvony od Manouška v patnáctém patře."
 ---
 
 Patrně nejnákladnější přestavba věže v České republice. Do **400 let staré gotické zvonice** byla vestavěna nová ocelová konstrukce s výtahem — „věž ve věži”. V deseti patrech najdete recepci, whisky bar a kavárnu, **3 patra galerie**, muzeum, restaurace a v posledním patře **zvonohru s 20 zvony od Manouška** s vyhlídkou na Prahu.

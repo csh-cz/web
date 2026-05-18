@@ -1,21 +1,22 @@
 ---
-title: "Patek Philippe Museum — Ženeva"
-slug: "muzeum-patek-philippe"
-category: "muzea"
-originalUrl: "https://www.google.com/maps/d/viewer?mid=1Wga_RKn7FmqptR4d2P1AqfXRMDg"
+title: Patek Philippe Museum — Ženeva
+slug: muzeum-patek-philippe
+category: muzea
+originalUrl: https://www.google.com/maps/d/viewer?mid=1Wga_RKn7FmqptR4d2P1AqfXRMDg
 lastModified: null
-sourceCharset: "utf-8"
+sourceCharset: utf-8
 scrapedAt: "2026-04-29T17:00:00.000Z"
 manualEdit: true
-author: "Český spolek horologický"
+author: Český spolek horologický
 tags:
   - kapesni
   - naramkove
   - evropa
 references:
-  - bibKey: 'Patekmuseumcom'
+  - title: Patek Philippe Museum
+    url: https://www.patekmuseum.com/
     type: odkaz
-tldr: 'Manufakturní sbírka v ženevském Plainpalais kombinuje Antique Collection ze 16.–19. století s kompletním katalogem firmy od roku 1839 včetně proslulých grand complications.'
+tldr: Manufakturní sbírka v ženevském Plainpalais kombinuje Antique Collection ze 16.–19. století s kompletním katalogem firmy od roku 1839 včetně proslulých grand complications.
 ---
 
 Privátní muzeum slavné ženevské manufaktury Patek Philippe (založena 1839). Jedna z nejvýznamnějších sbírek **kapesních a náramkových hodinek** ve světě.

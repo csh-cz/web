@@ -1,22 +1,23 @@
 ---
-title: "Turmmuseum Pillichsdorf"
-slug: "muzeum-pillichsdorf"
-category: "muzea"
-originalUrl: "https://hodinarium.eu/vezni_muzejicko_evropa.htm"
+title: Turmmuseum Pillichsdorf
+slug: muzeum-pillichsdorf
+category: muzea
+originalUrl: https://hodinarium.eu/vezni_muzejicko_evropa.htm
 lastModified: null
-sourceCharset: "utf-8"
+sourceCharset: utf-8
 scrapedAt: "2026-04-29T17:00:00.000Z"
 manualEdit: true
-author: "Český spolek horologický"
+author: Český spolek horologický
 tags:
   - vezni
   - baroko
   - 1700s
   - evropa
 references:
-  - bibKey: 'WeinviertelatPfarrkircheSt'
+  - title: Pfarrkirche St. Vitus, Pillichsdorf — Weinviertel.at
+    url: https://www.weinviertel.at/a-pfarrkirche-st-vitus-pillichsdorf
     type: odkaz
-tldr: 'Dolnorakouské lokální muzeum (zal. 1984) ve farní věži kombinuje halštatské nálezy, regionální historii a barokní hodinový stroj z roku 1762. Příklad menšího kombinovaného sakrálně-technického projektu.'
+tldr: Dolnorakouské lokální muzeum (zal. 1984) ve farní věži kombinuje halštatské nálezy, regionální historii a barokní hodinový stroj z roku 1762. Příklad menšího kombinovaného sakrálně-technického projektu.
 ---
 
 Malé věžní muzeum v **500 let staré věži farního kostela sv. Martina** v Pillichsdorfu (Dolní Rakousko, region Weinviertel). Založeno v roce 1984, od roku 1987 rozšířeno o druhé podlaží věže.

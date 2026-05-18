@@ -1,22 +1,23 @@
 ---
-title: "Technisches Uhrenmuseum Chemnitz"
-slug: "muzeum-chemnitz"
-category: "muzea"
-originalUrl: "https://hodinarium.eu/vezni_muzejicko_evropa.htm"
+title: Technisches Uhrenmuseum Chemnitz
+slug: muzeum-chemnitz
+category: muzea
+originalUrl: https://hodinarium.eu/vezni_muzejicko_evropa.htm
 lastModified: null
-sourceCharset: "utf-8"
+sourceCharset: utf-8
 scrapedAt: "2026-04-29T17:00:00.000Z"
 manualEdit: true
-author: "Český spolek horologický"
+author: Český spolek horologický
 tags:
   - vezni
   - jednotny-cas
   - pichacky
   - evropa
 references:
-  - bibKey: 'Uhrenmuseumchemnitzde'
+  - title: Technisches Uhrenmuseum Chemnitz
+    url: https://www.uhrenmuseum-chemnitz.de/
     type: odkaz
-tldr: 'Saská spolková sbírka (zal. 2010) zaměřená na věžní stroje místních výrobců (Zachariä, Han), systémy jednotného času, ústředny, píchačky a časová razítka. Programaticky průmyslová horologie.'
+tldr: Saská spolková sbírka (zal. 2010) zaměřená na věžní stroje místních výrobců (Zachariä, Han), systémy jednotného času, ústředny, píchačky a časová razítka. Programaticky průmyslová horologie.
 ---
 
 Privátní muzeum se zaměřením podobným našemu Hodináriu. Spolek byl založen v roce 2010, sídlí na adrese **Zwickauer Straße 164a, Chemnitz**. Otevřeno po telefonické dohodě.

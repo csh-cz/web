@@ -1,20 +1,21 @@
 ---
-title: "Uhrenstube Aschau — Aschau im Burgenland"
-slug: "muzeum-aschau-burgenland"
-category: "muzea"
-originalUrl: "https://hodinarium.eu/vezni_muzejicko_evropa.htm"
+title: Uhrenstube Aschau — Aschau im Burgenland
+slug: muzeum-aschau-burgenland
+category: muzea
+originalUrl: https://hodinarium.eu/vezni_muzejicko_evropa.htm
 lastModified: null
-sourceCharset: "utf-8"
+sourceCharset: utf-8
 scrapedAt: "2026-04-29T17:00:00.000Z"
 manualEdit: true
-author: "Český spolek horologický"
+author: Český spolek horologický
 tags:
   - vezni
   - evropa
 references:
-  - bibKey: 'Uhrenstubeaschauat'
+  - title: Uhrenstube Aschau
+    url: https://www.uhrenstube-aschau.at/
     type: odkaz
-tldr: 'Soukromá kolekce Ing. Wolfganga Komzaka v Oberschützenu — věžní hodiny napříč epochami (gotika–průmysl), Bratenwender a hodinářské nářadí. Jedno z mála míst, kde lze studovat rakouskou věžní tradici v koncentrované formě.'
+tldr: Soukromá kolekce Ing. Wolfganga Komzaka v Oberschützenu — věžní hodiny napříč epochami (gotika–průmysl), Bratenwender a hodinářské nářadí. Jedno z mála míst, kde lze studovat rakouskou věžní tradici v koncentrované formě.
 ---
 
 Privátní sbírka **převážně věžních hodin** v rakouském Burgenlandu (adresa Aschau 49, Oberschützen, PSČ 7432). Shromáždil a muzeum provozuje **Ing. Wolfgang Komzak**.
