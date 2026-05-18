@@ -2413,14 +2413,14 @@ export const hodinari: Hodinar[] = [
   // ── Plasy klášter — Friedrich Friedrich (1686) + Robert Drozda (1980–2019 péče) ──
   {
     slug: 'friedrich-friedrich',
-    jmeno: 'Friedrich Friedrich',
-    aliasy: ['Friedrich Friedrich'],
+    jmeno: 'Friedrich',
+    aliasy: ['Friedrich', 'Friedrich Friedrich'],
     typ: 'osoba',
     obdobi: 'doloženo 1686',
     mesto: 'Plasy',
     zeme: 'CZ',
     shrnuti:
-      'Barokní hodinář doložený rokem 1686 — autor věžního hodinového stroje pro hodinovou věž cisterciáckého kláštera v Plasích. Stroj se zachoval *in situ* a je výjimečný tím, že je sestaven bez jediného šroubu — pouze spoji a závlačkami. Čtyři samostatné mechanismy (jicí + čtvrťový bicí + 2 bicí pro celé hodiny).',
+      'Barokní hodinář doložený rokem 1686 — autor věžního hodinového stroje pro hodinovou věž v Matheyově sýpce cisterciáckého kláštera v Plasích. Stroj se zachoval *in situ*, je sestaven bez jediného šroubu i sváru a tvoří čtyři části (jicí + čtvrtě + celé hodiny + opakovací bití hlubším zvukem). Jméno doloženo nápisem „Friedrich fecit 1686"; atribuce „Friedrich Friedrich" na klaster-plasy.cz může být nesprávná interpretace.',
     relatedSlugs: [],
     era: 'baroko',
   },
@@ -2433,7 +2433,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Plasy',
     zeme: 'CZ',
     shrnuti:
-      'Český železničář a spisovatel, hodinář kláštera v Plasích (17. 5. 1980 – 30. 11. 2019, den před úmrtím). Po čtyři desetiletí pečoval o barokní věžní hodinový stroj [Friedricha Friedricha](/hodinari/friedrich-friedrich) z roku 1686; péči zdokumentoval v monografii *O duši plaských hodin* (Plasy 2006, edice Tilia plassensis, ISBN 80-254-7285-X). Drozdovu práci v prosinci 2019 převzal Pavel Novák.',
+      'Český železničář (drážní inspektor) a spisovatel, hodinář kláštera v Plasích (17. 5. 1980 v 11:45 – 30. 11. 2019, den před úmrtím; naposledy vytáhl závaží 607 kg). Po čtyři desetiletí pečoval o barokní věžní hodinový stroj [Friedricha](/hodinari/friedrich-friedrich) z roku 1686; péči zdokumentoval v monografii *O duši plaských hodin* (Plasy 2006, Tilia Plassensis, ISBN 80-254-7285-X, nestránkováno). Drozdovu práci v prosinci 2019 převzal Pavel Novák.',
     relatedSlugs: [],
     era: '20stol',
   },
