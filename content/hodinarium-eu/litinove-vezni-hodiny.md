@@ -25,7 +25,7 @@ references:
     type: clanek
   - bibKey: 'jilekDejinyCeskehoVysokeho1973'
     type: kniha
-  - bibKey: 'UhrenfabrikationMitBesonderer1843'
+  - bibKey: 'UhrenfabrikationMitBesonderer1843a'
     type: clanek
   - bibKey: 'SchematismusFuerKoenigreich1824'
     type: kniha
@@ -37,7 +37,7 @@ references:
     type: kniha
   - bibKey: 'GusseiserneThurmuhrenMechanikus1834'
     type: clanek
-  - bibKey: 'petrskalaZaverecnaZpravaRestaurovani2021'
+  - bibKey: 'petrskalaZaverecnaZpravaRestaurovani202'
     type: zprava
 
 ---

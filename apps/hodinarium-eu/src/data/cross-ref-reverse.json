@@ -328,6 +328,7 @@
         "1902-olomouc-hainz-jankowsky-vmo",
         "1918-vojkovice-skala-2004",
         "1929-knezeves-skala-2004",
+        "nedatovano-chocerady-skala-2004",
         "nedatovano-hruby-jesenik-skala-2004",
         "nedatovano-petrovice-skala-2004",
         "nedatovano-rakovnik-skala-2004",
@@ -352,7 +353,11 @@
         "1886-slovec-skala-2004",
         "1895-libice-nad-cidlinou-evangelicky-mares",
         "1896-kostomlatky-skala-2004",
-        "nedatovano-cineves-skala-2004"
+        "nedatovano-cineves-skala-2004",
+        "nedatovano-veleliby-skala-2004",
+        "nedatovano-vrbice-skala-2004",
+        "prelom-19-20-stol-kunratice-vsech-svatych-mares",
+        "skala-realizace-opolany"
       ]
     },
     "jan-prokes-jr": {
@@ -386,6 +391,28 @@
     "leopold-prokes": {
       "soupis": [
         "1903-miliceves-prokes-leopold"
+      ]
+    },
+    "karel-adamec": {
+      "soupis": [
+        "1910-caslav-skala-2004",
+        "1936-svaty-jan-pod-skalou-vez-kadlec",
+        "nedatovano-celakovice-skala-2004",
+        "nedatovano-cerveny-hradek-skala-2004",
+        "nedatovano-krusovice-skala-2004",
+        "nedatovano-nehvizdy-skala-2004",
+        "nedatovano-ohare-skala-2004",
+        "nedatovano-polni-voderady-skala-2004",
+        "nedatovano-sedlcany-skala-2004",
+        "nedatovano-suchdol-skala-2004",
+        "nedatovano-vojkov-skala-2004",
+        "nedatovano-zibohlavy-skala-2004"
+      ]
+    },
+    "opp-vyskov": {
+      "soupis": [
+        "1970-1980-ostrava-opp-vyskov-vmo",
+        "1989-vyskov-opp-230c-vmo"
       ]
     },
     "jan-hersht": {
@@ -1762,6 +1789,7 @@
     },
     "hridelik-orloje": {
       "slovnik": [
+        "cifernik",
         "ciselnik",
         "klinek-orloje",
         "ukazovaci-stroj",
@@ -1771,12 +1799,14 @@
     },
     "ramenko": {
       "slovnik": [
+        "cifernik",
         "ciselnik",
         "ukazovaci-stroj"
       ]
     },
     "ukazovaci-stroj": {
       "slovnik": [
+        "cifernik",
         "ciselnik",
         "stroj"
       ]

@@ -107,6 +107,24 @@ async function main() {
   const withKey = items.filter((it) => it['citation-key']);
   console.log(`  → ${withKey.length} items s citation-key (Better BibTeX)`);
 
+  // GitHub push protection flags 40-char alphanumeric strings as AWS Secret
+  // Access Keys (false positive). Better BibTeX vygeneruje občas přesně 40 chars
+  // long keys (author + slug + year). Trim na 39 znaků aby regex `^[A-Za-z0-9/+=]{40}$`
+  // nematchnul. (Citation-key je arbitrární identifikátor — krácení nemění význam,
+  // jen musí být in-place i v MDX bibKey: '...' fields.)
+  let shortened = 0;
+  for (const it of withKey) {
+    const k = it['citation-key'];
+    if (k && k.length === 40 && /^[A-Za-z0-9/+=]{40}$/.test(k)) {
+      it['citation-key'] = k.slice(0, 39);
+      it.id = it['citation-key'];
+      shortened++;
+    }
+  }
+  if (shortened > 0) {
+    console.log(`  ⚠ ${shortened} citation-keys zkráceny ze 40 → 39 znaků (GH secret-scan)`);
+  }
+
   writeFileSync(OUT, JSON.stringify(withKey, null, 2));
   const sizeKB = (readFileSync(OUT).length / 1024).toFixed(0);
   console.log(`Saved ${OUT} (${sizeKB} KB)`);

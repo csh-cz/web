@@ -21,7 +21,7 @@ pribuzne:
 isStub: true
 references:
   - title: "Nepřesnosti v konstrukci původního astrolábu staroměstského orloje"
-    bibKey: "skalaNepresnostiVKonstrukci2013"
+    bibKey: "skalaNepresnostiKonstrukciPuvodniho2013"
     note: "Petr Skála, Pokroky matematiky, fyziky a astronomie 58, 2013, č. 3. Zotero 9MSY6PPS."
 ---
 
