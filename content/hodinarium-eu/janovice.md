@@ -1,7 +1,7 @@
 ---
-title: "Hodiny v kostele sv. Josefa v Janovicích"
-slug: "janovice"
-category: "virtualni-muzeum"
+title: Hodiny v kostele sv. Josefa v Janovicích
+slug: janovice
+category: virtualni-muzeum
 tags:
   - vezni
   - cesko
@@ -11,14 +11,15 @@ tags:
   - liebing
   - 1800s
 references:
-  - bibKey: 'Anatomievarhancz'
+  - title: anatomie-varhan.cz
+    url: http://anatomie-varhan.cz/
     type: odkaz
-    note: "Zdrojový web — text k článku převzat se souhlasem"
-originalUrl: "https://hodinarium.eu/janovice.htm"
-lastModified: "Wed, 26 Apr 2017 16:20:00 GMT"
-sourceCharset: "windows-1250"
+    note: Zdrojový web — text k článku převzat se souhlasem.
+originalUrl: https://hodinarium.eu/janovice.htm
+lastModified: Wed, 26 Apr 2017 16:20:00 GMT
+sourceCharset: windows-1250
 scrapedAt: "2026-04-27T17:37:15.610Z"
-tldr: 'Generální oprava věžních hodin Rich. Liebing z Vídně (1899) v kostele sv. Josefa po sto letech provozu — renovace rozvodu, kardanových kloubů a převodovek 1:12, doplnění elektrického nátahu se zachováním původního stroje.'
+tldr: Generální oprava věžních hodin Rich. Liebing z Vídně (1899) v kostele sv. Josefa po sto letech provozu — renovace rozvodu, kardanových kloubů a převodovek 1:12, doplnění elektrického nátahu se zachováním původního stroje.
 ---
 ![Pohled na kostel sv. Josefa v Janovicích u Frýdku-Místku](/img/vezni/janovice/janovice.jpg)
 

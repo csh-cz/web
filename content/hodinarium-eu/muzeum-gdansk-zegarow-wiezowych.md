@@ -1,24 +1,26 @@
 ---
-title: "Muzeum Zegarów Wieżowych — Gdaňsk"
-slug: "muzeum-gdansk-zegarow-wiezowych"
-category: "muzea"
-originalUrl: "https://hodinarium.eu/vezni_muzejicko_evropa.htm"
+title: Muzeum Zegarów Wieżowych — Gdaňsk
+slug: muzeum-gdansk-zegarow-wiezowych
+category: muzea
+originalUrl: https://hodinarium.eu/vezni_muzejicko_evropa.htm
 lastModified: null
-sourceCharset: "utf-8"
+sourceCharset: utf-8
 scrapedAt: "2026-04-29T17:00:00.000Z"
 manualEdit: true
-author: "Český spolek horologický"
+author: Český spolek horologický
 tags:
   - vezni
   - mechanicke
   - elektricke
   - evropa
 references:
-  - bibKey: 'WikipediePLMuzeum'
+  - title: Muzeum Zegarów Wieżowych w Gdańsku
+    url: https://cs.wikipedia.org/wiki/Muzeum_Zegar%C3%B3w_Wie%C5%BCowych_w_Gda%C5%84sku
     type: wiki
-  - bibKey: 'TrojmiastotvMuzeumZegarow'
+  - title: Muzeum Zegarów Wieżowych — trojmiasto.tv
+    url: https://trojmiasto.tv/Muzeum-Zegarow-Wiezowych-Gdansk-22030.html
     type: odkaz
-tldr: 'Jediná polská specializovaná sbírka věžních strojů (zal. 1996) ve věži kostela sv. Kateřiny dokumentuje vývoj mechanických i elektrických mechanismů a od 2011 vystavuje pulsarové hodiny. Jeden z inspiračních zdrojů Hodinária.'
+tldr: Jediná polská specializovaná sbírka věžních strojů (zal. 1996) ve věži kostela sv. Kateřiny dokumentuje vývoj mechanických i elektrických mechanismů a od 2011 vystavuje pulsarové hodiny. Jeden z inspiračních zdrojů Hodinária.
 ---
 
 Specializované muzeum věžních hodin sídlící ve **věži kostela sv. Kateřiny** v Gdaňsku. Pobočka **Historického muzea v Gdaňsku** — uvádí se jako jediné specializované muzeum věžních hodin v Polsku. Založeno 1996.

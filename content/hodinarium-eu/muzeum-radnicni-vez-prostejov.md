@@ -1,13 +1,13 @@
 ---
-title: "Radniční věž s orlojem — Prostějov"
-slug: "muzeum-radnicni-vez-prostejov"
-category: "muzea"
-originalUrl: "https://hodinarium.eu/vezni_muzejicko_evropa.htm"
+title: Radniční věž s orlojem — Prostějov
+slug: muzeum-radnicni-vez-prostejov
+category: muzea
+originalUrl: https://hodinarium.eu/vezni_muzejicko_evropa.htm
 lastModified: null
-sourceCharset: "utf-8"
+sourceCharset: utf-8
 scrapedAt: "2026-04-29T17:00:00.000Z"
 manualEdit: true
-author: "Český spolek horologický"
+author: Český spolek horologický
 tags:
   - vezni
   - mechanicke
@@ -17,9 +17,10 @@ tags:
   - restaurovane
   - cesko
 references:
-  - bibKey: 'ProstejovskyOrlojOrlojeu'
+  - title: Prostějovský orloj — Orloje.eu
+    url: https://www.orloje.eu/sekce/prostejovsky-orloj/
     type: odkaz
-tldr: 'Z 46 m vysoké secesní věže turisté pozorují panorama přes čtyři dalekohledy; vystaveno je restaurované kyvadlové soustrojí s vřetenovým krokem a expozice k historii města a orloje (rekonstrukce 2011 za 6 mil. Kč).'
+tldr: Z 46 m vysoké secesní věže turisté pozorují panorama přes čtyři dalekohledy; vystaveno je restaurované kyvadlové soustrojí s vřetenovým krokem a expozice k historii města a orloje (rekonstrukce 2011 za 6 mil. Kč).
 ---
 
 Secesní věž radnice v Prostějově prošla v letech 2011 razantní přestavbou financovanou z **Regionálního operačního programu Střední Morava** (cca 6 mil. Kč). Cílem bylo zpřístupnit věž, posílit cestovní ruch a prezentovat **místní restaurovaný orloj**.

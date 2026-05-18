@@ -1,7 +1,7 @@
 ---
-title: "Kinšnerovy astronomické hodiny pro salón"
-slug: "kinsner-astronomicke-hodiny"
-category: "zajimavosti"
+title: Kinšnerovy astronomické hodiny pro salón
+slug: kinsner-astronomicke-hodiny
+category: zajimavosti
 tags:
   - popularizace
   - 1800s
@@ -11,25 +11,26 @@ tags:
   - zavazi
   - pero
   - cesko
-originalUrl: "https://www.digitalniknihovna.cz/nkp/uuid/uuid:b4e9a040-435d-11dd-b505-00145e5790ea"
+originalUrl: https://www.digitalniknihovna.cz/nkp/uuid/uuid:b4e9a040-435d-11dd-b505-00145e5790ea
 lastModified: "2026-05-04T00:00:00Z"
-sourceCharset: "utf-8"
+sourceCharset: utf-8
 scrapedAt: "2026-05-04T00:00:00Z"
-tldr: 'Salonní mechanismus Edmunda Kinšnera z Chlumce nad Cidlinou (patent DRP 82 689, privilegium 5963/1895). Ukazuje polohu Slunce ve zvěrokruhu, fáze Měsíce a okamžiky východu/západu kalibrované pro zeměpisnou šířku.'
-author: "David Knespl"
-referenceStyle: "numbered"
+tldr: Salonní mechanismus Edmunda Kinšnera z Chlumce nad Cidlinou (patent DRP 82 689, privilegium 5963/1895). Ukazuje polohu Slunce ve zvěrokruhu, fáze Měsíce a okamžiky východu/západu kalibrované pro zeměpisnou šířku.
+author: David Knespl
+referenceStyle: numbered
 references:
-  - bibKey: 'nekutHvezdarskyOrloj1898'
+  - bibKey: nekutHvezdarskyOrloj1898
     type: clanek
-  - bibKey: 'edmundkinsnerAstronomischeUhr1894'
+  - bibKey: edmundkinsnerAstronomischeUhr1894
     type: patent
-  - bibKey: 'kinsnerRakouskouherskePrivilegium59631895'
+  - bibKey: kinsnerRakouskouherskePrivilegium59631895
     type: patent
-  - bibKey: 'hartmanChlumeckemVynalezciOrloje1987'
+  - bibKey: hartmanChlumeckemVynalezciOrloje1987
     type: clanek
-  - bibKey: 'UspechCeskePrace1897a'
+  - title: Úspěch české práce
+    year: 1897
     type: clanek
-
+    note: Dobový časopisecký článek (zatím nedohledáno bibliograficky).
 ---
 
 ![Kinšnerův astronomický orloj — Provedení I. Ciferník samostatného astronomického orloje (Fig. 1 z patentního spisu DRP 82689). Vnější kruh — 24hodinový ciferník S. Vnitřní kruh — pohyblivý zvěrokruh U s dvanácti znameními. Sluneční ručička X (vychází vzhůru přes znamení Raka) ukazuje denní čas na 24hodinovém ciferníku a zároveň polohu Slunce ve zvěrokruhu. Měsíční ručička Y (zde naproti slunci, mezi Vahami a Štírem) nese otáčivou měsíční kouli s fázemi. Krátké tečné ručičky V a U (na hranici 4. a 8. hodiny po obou stranách) ukazují čas východu a západu Slunce.](/img/zajimavosti/kinsner-astronomicke-hodiny/fig-1-dial-design-i.png)

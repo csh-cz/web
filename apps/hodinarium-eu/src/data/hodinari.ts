@@ -627,7 +627,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Severočeský hodinář působící v první čtvrtině 19. století ve Šluknově. Podle stylu rámu a ozdobných motivů je mu připisován věžní stroj z kostela sv. Petra a Pavla v Horním Prysku, dnes v expozici Hodinária Děčín ([inv. 6](/sbirka/karta/inv-6-vezni-michael-christ/)).',
-    relatedSlugs: [],
+    relatedSlugs: ['inv-6-vezni-michael-christ'],
     era: '19stol',
   },
   {

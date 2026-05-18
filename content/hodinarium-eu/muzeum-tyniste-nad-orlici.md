@@ -1,22 +1,23 @@
 ---
-title: "Vodárenská věž — Týniště nad Orlicí"
-slug: "muzeum-tyniste-nad-orlici"
-category: "muzea"
-originalUrl: "https://hodinarium.eu/vezni_muzejicko_evropa.htm"
+title: Vodárenská věž — Týniště nad Orlicí
+slug: muzeum-tyniste-nad-orlici
+category: muzea
+originalUrl: https://hodinarium.eu/vezni_muzejicko_evropa.htm
 lastModified: null
-sourceCharset: "utf-8"
+sourceCharset: utf-8
 scrapedAt: "2026-04-29T17:00:00.000Z"
 manualEdit: true
-author: "Český spolek horologický"
+author: Český spolek horologický
 tags:
   - vezni
   - mechanicke
   - restaurovane
   - cesko
 references:
-  - bibKey: 'Muzeumtynistecz'
+  - title: Muzeum Týniště nad Orlicí
+    url: https://www.muzeumtyniste.cz/
     type: odkaz
-tldr: 'Místní spolek od roku 2010 přetváří vodárenskou věž v komorní muzeum techniky a regionální historie. Restaurovaný hodinový stroj a expozice o městském vodárenství tvoří jádro pomalu rostoucí kolekce.'
+tldr: Místní spolek od roku 2010 přetváří vodárenskou věž v komorní muzeum techniky a regionální historie. Restaurovaný hodinový stroj a expozice o městském vodárenství tvoří jádro pomalu rostoucí kolekce.
 ---
 
 Skromnější, ale charakterní projekt **Spolku přátel města Týniště nad Orlicí**. Spolek od roku 2010 dlouhodobě užívá místní vodárenskou věž (památka místního významu). První expozice věnovaná vodárenské věži a zásobování města pitnou vodou byla otevřena v roce 2010, druhá vlna úprav přišla v roce 2011 z dotace SZIF.
