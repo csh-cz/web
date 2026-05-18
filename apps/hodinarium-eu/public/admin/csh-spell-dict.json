@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-18T04:40:18.881Z",
+  "generatedAt": "2026-05-18T04:46:24.284Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 153,
-    "hodinari": 144,
+    "hodinari": 145,
     "hodinariTs": 143,
     "soupis": 429
   },
-  "count": 1638,
+  "count": 1639,
   "words": [
     "Abraham",
     "Accutron",
@@ -1316,6 +1316,7 @@
     "státního",
     "Stavitel",
     "stegrad",
+    "Stěpán",
     "Stockholm",
     "strana",
     "Strana",
