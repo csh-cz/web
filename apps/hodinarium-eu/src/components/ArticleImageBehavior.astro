@@ -1239,6 +1239,12 @@ import imageSizes from '../data/image-sizes.json';
 
     // Thumbstrip — klik na thumbnail přidá fotku do workspace
     thumbstrip?.addEventListener('click', (e) => {
+      // STOP PROPAGATION: addTile() rebuilduje thumbstrip → kliknutý target
+      // se odpojí z DOM. Když by pak event bublal do lb handleru,
+      // `target.closest('.lb-thumbstrip')` by vrátilo null (target je
+      // detached) a klik by se chybně interpretoval jako backdrop click
+      // → closeLb(). stopPropagation tomu předejde.
+      e.stopPropagation();
       const target = e.target;
       if (!(target instanceof HTMLImageElement)) return;
       if (target.classList.contains('is-in-workspace')) return;
