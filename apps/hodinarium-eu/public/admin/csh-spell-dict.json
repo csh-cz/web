@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-18T04:31:52.774Z",
+  "generatedAt": "2026-05-18T04:40:18.881Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 153,
-    "hodinari": 143,
+    "hodinari": 144,
     "hodinariTs": 143,
     "soupis": 429
   },
-  "count": 1637,
+  "count": 1638,
   "words": [
     "Abraham",
     "Accutron",
@@ -865,6 +865,7 @@
     "Moravicí",
     "Moravskoslezský",
     "Moravský",
+    "Moravus",
     "Moritz",
     "Most",
     "mostu",
