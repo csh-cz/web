@@ -496,24 +496,28 @@ Plný design + zamítnutí ChatGPT návrhu v session transcriptu
 
 ## A.7 — Tech dluh (větší)
 
-- [ ] **D2 Pre-push CI check** (~1 h) — **vysoká priorita po incidentu
-      2026-05-17**. Cloudflare Pages deploy byl od 7. května zaseknutý
-      (`prebuild` step `build-cross-refs --strict` selhával na 82 broken
-      cross-refs), nikdo si nevšiml — live web 10 dní bez nových commitů.
+- [x] **D2 Pre-push CI check** — hotov 2026-05-18 po druhé sérii Sveltia
+      null deploy fails (\~7 commitů stuck od françzek-moravus do
+      sveltiaCleanNulls fix `f3301c3a`).
 
-      Akce: GitHub Actions workflow `.github/workflows/validate-content.yml`
-      který spouští na každý push do main:
-      ```yaml
-      - run: pnpm install
-      - run: node scripts/validate-content.mjs       # broken refs / dupl. keys
-      - run: pnpm --filter hodinarium-eu astro check  # types + content schema
-      - run: pnpm --filter hodinarium-eu build         # full build (~30 s)
-      ```
-      Failed run = červený GH badge na PR + email notif. Tím se zachytí
-      regrese před tím, než trapped Cloudflare deploy. Stejný workflow
-      pro horologie-cz.
+      Workflow `.github/workflows/content-validate.yml` spouští na push
+      do main i na PR:
+      1. `pnpm validate:content` — broken refs, duplicate keys, slug mismatch
+      2. `node scripts/build-cross-refs.mjs --strict` — cross-collection refs
+      3. `pnpm test:unit` — Vitest (10 tests, D1)
+      4. `pnpm --filter hodinarium-eu astro check` — TS + schema
+      5. `pnpm --filter horologie-cz astro check` — TS + schema
+      6. `pnpm --filter hodinarium-eu build` — plný build
+      7. `pnpm --filter horologie-cz build` — plný build
 
-      Bonus: pridať `pnpm test:unit` (D1 hotov, 10 testů) jako quality gate.
+      Concurrency group cancel-in-progress (Sveltia auto-commits přijdou
+      v rychlém sledu — bez tohoto by se queue plnila). `paths:` filter
+      ignoruje editaci docs/TODO/BUGS aby se neutrácely CI minuty.
+      Failure summary v GH Step Summary s diagnostikou nejčastějších
+      příčin (Sveltia null, broken slug, TS error).
+
+      Bonus: workflow běží i na PR — pull requests dostávají červený X
+      předtím než je merge možný.
 
 - [partial] **D1 Test coverage** — V1 hotov 2026-05-17 (commit 8629ecdc):
       Vitest 3.2.4 setup, 10 testů v `scripts/__tests__/build-dictionary-index.test.ts`

@@ -1,0 +1,137 @@
+# Pre-deploy content & build gate — D2.
+#
+# Účel: zachytit schema/content regrese PŘEDTÍM, než dorazí na Cloudflare
+# Pages. Bez tohoto workflow padají buildy CF Pages tiše (deploy fail bez
+# notifikace, live web zamrzne na poslední úspěšné nasazení).
+#
+# Historie incidentů které tento workflow adresuje:
+#   - 2026-05-07 → 17  10 dní stuck deploy (build-cross-refs --strict
+#                      selhával na 82 broken refs po D6 rename)
+#   - 2026-05-18 03:18 pocetCifernik: null  (Sveltia CMS)
+#   - 2026-05-18 04:35 workflow: null       (Sveltia CMS)
+#   - 2026-05-18 13:30 globální sveltiaCleanNulls fix
+#
+# Triggery: každý push do main + manuální dispatch + pull_request.
+# Spouští se POUZE pokud se měnily soubory co můžou ovlivnit build
+# (content/, apps/*/src/, scripts/, package.json). Čistá editace
+# docs/ nebo TODO.md neutrácí CI minuty.
+#
+# Trvání: ~3–5 min (sync ~30 s, astro check ~30 s, builds ~3 min total).
+# Cloudflare Pages stejně nasazuje nezávisle — tento workflow je gate
+# proti regresi, ne deploy mechanism.
+
+name: Content + build validation
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'content/**'
+      - 'apps/*/src/**'
+      - 'apps/*/public/**'
+      - 'scripts/**'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
+      - 'pnpm-workspace.yaml'
+      - 'apps/*/package.json'
+      - '.github/workflows/content-validate.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'content/**'
+      - 'apps/*/src/**'
+      - 'apps/*/public/**'
+      - 'scripts/**'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
+      - 'pnpm-workspace.yaml'
+      - 'apps/*/package.json'
+      - '.github/workflows/content-validate.yml'
+
+# Jenom 1 běh per ref — pokud přijde další commit, předchozí běh zruš.
+# Sveltia auto-commits přilétají v rychlém sledu (Save = commit), tohle
+# šetří CI minuty.
+concurrency:
+  group: content-validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: validate-content + astro check + build (both apps)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.9.0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # 1) Cross-collection content validation (broken slugs, duplicate keys,
+      #    legacy /clanky/ links). Rychlé (~5 s), spouští se i mimo CI přes
+      #    `pnpm validate:content`.
+      - name: Validate content (slugs, refs, frontmatter)
+        run: pnpm validate:content
+
+      # 2) Cross-refs strict mode — jako prebuild krok hodinarium-eu, ale
+      #    extrahováno aby selhalo dříve než plný build (rychlejší feedback).
+      - name: Cross-refs strict
+        run: node scripts/build-cross-refs.mjs --strict
+
+      # 3) Unit tests (D1 — 10 testů build-dictionary-index, Vitest 3.2.4).
+      - name: Unit tests
+        run: pnpm test:unit
+
+      # 4) Astro check (TypeScript + content collection schemas). Tohle je
+      #    kritický krok — chytí Sveltia null bugs typu „workflow: null"
+      #    DŘÍVE než CF Pages tichý fail. Po fixu sveltiaCleanNulls
+      #    (commit f3301c3a) by null hodnoty měly procházet sanitizer-em.
+      - name: Astro check (hodinarium-eu)
+        run: pnpm --filter hodinarium-eu astro check
+
+      - name: Astro check (horologie-cz)
+        run: pnpm --filter horologie-cz astro check
+
+      # 5) Plný build obou apps. Pomalý (~3 min), ale chytí runtime fails
+      #    co astro check nezachytí (např. MDX render errors, missing imgs).
+      #    R2 image variants generace se přeskakuje (vyžaduje secrets) —
+      #    apps/*/prebuild step ji běží lokálně, v CI ne kvůli velikosti.
+      - name: Build hodinarium-eu
+        run: pnpm --filter hodinarium-eu build
+        env:
+          # Skipnout R2 upload step v prebuild (nemáme R2 secrets v této akci)
+          SKIP_R2_UPLOAD: 'true'
+
+      - name: Build horologie-cz
+        run: pnpm --filter horologie-cz build
+
+      # 6) Status summary do GH Actions report — užitečné když se podívá
+      #    někdo třetí na workflow run.
+      - name: Summary on failure
+        if: failure()
+        run: |
+          echo "## ⚠️ Content/build validation selhalo" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**CF Pages deploy bude tichoščasně stuck** dokud se tento push neopraví." >> $GITHUB_STEP_SUMMARY
+          echo "Typické příčiny:" >> $GITHUB_STEP_SUMMARY
+          echo "- Sveltia CMS zapsala \`null\` do YAML pro pole, které schema očekává jako \`T | undefined\`. Fix: globální \`sveltiaCleanNulls\` v \`content.config.ts\` to řeší pro většinu polí; pokud se objeví nové pole, viz \`portretSource\` jako vzor per-field preprocess." >> $GITHUB_STEP_SUMMARY
+          echo "- Broken cross-ref: odkaz na slug, který neexistuje. Fix: oprava slugu nebo přidání entry do collection." >> $GITHUB_STEP_SUMMARY
+          echo "- TS chyba v Astro source. Fix: \`pnpm --filter hodinarium-eu astro check\` lokálně, oprava, push." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Po opravě: \`git push origin main\` → tento workflow projde → CF Pages se odblokuje." >> $GITHUB_STEP_SUMMARY
+
+      - name: Summary on success
+        if: success()
+        run: |
+          echo "## ✓ Content + build validation passed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Schema/content/build jsou clean — CF Pages deploy by měl projít bez problémů." >> $GITHUB_STEP_SUMMARY
