@@ -2410,6 +2410,34 @@ export const hodinari: Hodinar[] = [
     era: '19stol',
   },
 
+  // ── Plasy klášter — Friedrich Friedrich (1686) + Robert Drozda (1980–2019 péče) ──
+  {
+    slug: 'friedrich-friedrich',
+    jmeno: 'Friedrich Friedrich',
+    aliasy: ['Friedrich Friedrich'],
+    typ: 'osoba',
+    obdobi: 'doloženo 1686',
+    mesto: 'Plasy',
+    zeme: 'CZ',
+    shrnuti:
+      'Barokní hodinář doložený rokem 1686 — autor věžního hodinového stroje pro hodinovou věž cisterciáckého kláštera v Plasích. Stroj se zachoval *in situ* a je výjimečný tím, že je sestaven bez jediného šroubu — pouze spoji a závlačkami. Čtyři samostatné mechanismy (jicí + čtvrťový bicí + 2 bicí pro celé hodiny).',
+    relatedSlugs: [],
+    era: 'baroko',
+  },
+  {
+    slug: 'robert-drozda',
+    jmeno: 'Robert Drozda',
+    aliasy: ['Robert Drozda'],
+    typ: 'osoba',
+    obdobi: 'doloženo 1980–2019',
+    mesto: 'Plasy',
+    zeme: 'CZ',
+    shrnuti:
+      'Dlouholetý hodinář kláštera v Plasích (1980–2019). Po 40 let pečoval o barokní věžní hodinový stroj [Friedricha Friedricha](/hodinari/friedrich-friedrich) z roku 1686; péči zdokumentoval v monografii *O duši plaských hodin*. Drozdovu práci v prosinci 2019 převzal Pavel Novák.',
+    relatedSlugs: [],
+    era: '20stol',
+  },
+
   // ── Moravus (Brno) — rodinná firma + dvě generace (vstupy z MDX od Sveltia CMS) ──
   // Příklad multi-value typ — Štěpán + František jsou osoby, ale firma Moravus
   // je pojmenovaná po nich. Zobrazí se v obou sekcích /hodinari/ rejstříku.
