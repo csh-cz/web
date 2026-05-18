@@ -211,10 +211,10 @@ const clanky = defineCollection({
     editorNotes: z.array(editorNote).optional(),
     /** Editorial workflow status (PBI A.23) — opt-in tracking
         rozpracovaných článků s lock/review/release flow. */
-    workflow: workflow.optional(),
+    workflow: z.preprocess((v) => v ?? undefined, workflow.optional()),
 
     /** Křížové odkazy na entries z dalších collections (PBI X.1). */
-    crossRefs: crossRefs.optional(),
+    crossRefs: z.preprocess((v) => v ?? undefined, crossRefs.optional()),
     /** True = článek/karta je stub — frontmatter i body čekají na editorovu
         práci. Veřejně se zobrazuje jen základní info; editor v /redakce/
         dashboard vidí seznam stubů napříč collections. */
@@ -385,10 +385,10 @@ const hodinariMedailony = defineCollection({
     /** Editorské poznámky (TODO, varování o nejistotě, kontext). */
     editorNotes: z.array(editorNote).optional(),
     /** Editorial workflow status (PBI A.23). */
-    workflow: workflow.optional(),
+    workflow: z.preprocess((v) => v ?? undefined, workflow.optional()),
 
     /** Křížové odkazy na entries z dalších collections (PBI X.1). */
-    crossRefs: crossRefs.optional(),
+    crossRefs: z.preprocess((v) => v ?? undefined, crossRefs.optional()),
     /** Skrytá synonyma pro vyhledávání — viz dokumentace u clanky.searchKeywords.
      *  Pro medailony hodinářů typicky alternativní pravopisy jména (Maresch /
      *  Mareš), zkratky firem, lokality kde hodinář pracoval a které lidé znají. */
@@ -435,10 +435,10 @@ const kronika = defineCollection({
     /** Editorské poznámky (TODO, varování o nejistotě, kontext). */
     editorNotes: z.array(editorNote).optional(),
     /** Editorial workflow status (PBI A.23). */
-    workflow: workflow.optional(),
+    workflow: z.preprocess((v) => v ?? undefined, workflow.optional()),
 
     /** Křížové odkazy na entries z dalších collections (PBI X.1). */
-    crossRefs: crossRefs.optional(),
+    crossRefs: z.preprocess((v) => v ?? undefined, crossRefs.optional()),
     /** Pro legacy import z hodinarium.eu (zachováme původní URL). */
     originalUrl: z.string().url().optional(),
   }),
@@ -584,10 +584,10 @@ const soupisVeznichHodin = defineCollection({
     editorNotes: z.array(editorNote).optional(),
 
     /** Editorial workflow status (PBI A.23). */
-    workflow: workflow.optional(),
+    workflow: z.preprocess((v) => v ?? undefined, workflow.optional()),
 
     /** Křížové odkazy na entries z dalších collections (PBI X.1). */
-    crossRefs: crossRefs.optional(),
+    crossRefs: z.preprocess((v) => v ?? undefined, crossRefs.optional()),
 
     /** True = záznam je stub — minimální data (typicky bulk import z
         Hellichova seznamu nebo z OSM-import), čeká na manuální dopnění
@@ -633,10 +633,10 @@ const krokyDetaily = defineCollection({
     references: z.array(reference).optional(),
     editorNotes: z.array(editorNote).optional(),
     /** Editorial workflow status (PBI A.23). */
-    workflow: workflow.optional(),
+    workflow: z.preprocess((v) => v ?? undefined, workflow.optional()),
 
     /** Křížové odkazy na entries z dalších collections (PBI X.1). */
-    crossRefs: crossRefs.optional(),
+    crossRefs: z.preprocess((v) => v ?? undefined, crossRefs.optional()),
   }),
 });
 
@@ -882,10 +882,10 @@ const slovnik = defineCollection({
     editorNotes: z.array(editorNote).optional(),
 
     /** Editorial workflow status (PBI A.23). */
-    workflow: workflow.optional(),
+    workflow: z.preprocess((v) => v ?? undefined, workflow.optional()),
 
     /** Křížové odkazy na entries z dalších collections (PBI X.1). */
-    crossRefs: crossRefs.optional(),
+    crossRefs: z.preprocess((v) => v ?? undefined, crossRefs.optional()),
 
     /** Datum poslední revize hesla (kdy byly citace ověřeny v pramenech). */
     poslednRevize: dateString.optional(),
