@@ -292,10 +292,16 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
             if (found) { hero = { src: found.src, alt: found.alt }; break; }
           }
           if (!hero && fotos.length > 0) hero = { src: fotos[0].src, alt: fotos[0].alt };
+          // Hodinař display ve sloupci tabulky: „Příjmení, Jméno" pro snadnější
+          // skenování seznamu (mnoho Janů, Františků pod „J"/„F" jinak).
+          // hodinarText (volný text — ne medailon) zůstává v natural formě.
+          const hodinarDisplay = h.data.hodinar
+            ? lastFirst(displayHodinar(h.data.hodinar))
+            : (h.data.hodinarText || '');
           return (
             <tr
               data-hodinar={hodinarKey}
-              data-hodinar-name={h.data.hodinar ? displayHodinar(h.data.hodinar) : (h.data.hodinarText || '')}
+              data-hodinar-name={hodinarDisplay}
               data-rok={yrSafe}
               data-misto={place.filter}
               data-obec={h.data.puvodniMisto.obec}
@@ -312,7 +318,7 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
               <td class="col-rok"><strong>{h.data.rok}</strong></td>
               <td class="col-hodinar">
                 {h.data.hodinar ? (
-                  <a href={`/hodinari/${h.data.hodinar}`}>{displayHodinar(h.data.hodinar)}</a>
+                  <a href={`/hodinari/${h.data.hodinar}`} title={displayHodinar(h.data.hodinar)}>{hodinarDisplay}</a>
                 ) : h.data.hodinarText ? (
                   <span class="muted">{h.data.hodinarText}</span>
                 ) : (
