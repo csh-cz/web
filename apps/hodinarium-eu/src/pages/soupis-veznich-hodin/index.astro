@@ -15,6 +15,32 @@ function displayHodinar(slug?: string, fallback?: string): string {
   return fallback || '—';
 }
 
+/** Extrahuje příjmení z full name pro řazení.
+ *  Stejný pattern jako v /hodinari/index.astro. */
+function surnameOf(jmeno: string): string {
+  const cleaned = jmeno.replace(/\s*\([^)]*\)\s*/g, ' ').trim();
+  const tokens = cleaned.split(/\s+/).filter(Boolean);
+  if (tokens.length === 0) return jmeno;
+  const lastIdx = tokens.length - 1;
+  const isSuffix = /^(ml\.|st\.|jr\.|sr\.|I{1,3}V?|VI{0,3})$/i.test(tokens[lastIdx]);
+  return tokens[isSuffix ? lastIdx - 1 : lastIdx] ?? jmeno;
+}
+
+/** Display formát „Příjmení, Jméno" pro filtr dropdown.
+ *  „Jan Janata" → „Janata, Jan", parentézy zachovány. */
+function lastFirst(jmeno: string): string {
+  if (/\(.+\)/.test(jmeno)) return jmeno;
+  const tokens = jmeno.trim().split(/\s+/).filter(Boolean);
+  if (tokens.length <= 1) return jmeno;
+  const lastIdx = tokens.length - 1;
+  const isSuffix = /^(ml\.|st\.|jr\.|sr\.|I{1,3}V?|VI{0,3})$/i.test(tokens[lastIdx]);
+  const surnameIdx = isSuffix ? lastIdx - 1 : lastIdx;
+  if (surnameIdx < 0) return jmeno;
+  const surname = tokens[surnameIdx];
+  const rest = tokens.filter((_, i) => i !== surnameIdx).join(' ');
+  return rest ? `${surname}, ${rest}` : surname;
+}
+
 // Sort: by year asc, then by obec
 hodiny.sort((a, b) => {
   const ya = typeof a.data.rok === 'number' ? a.data.rok : parseInt(String(a.data.rok), 10) || 0;
@@ -78,8 +104,18 @@ for (const h of hodiny) {
     if (y > yearMax) yearMax = y;
   }
 }
-const hodinariOpts = [...hodinariSet.entries()]
-  .sort((a, b) => a[1].localeCompare(b[1], 'cs'));
+// Hodinař dropdown: sort podle příjmení, display ve formátu „Příjmení, Jméno"
+// (snadnější skenování v dropdownu se 100+ jmény).
+// `__text:` entries (volný text — ne medailon) zůstanou v natural formě.
+const hodinariOpts: Array<[string, string]> = [...hodinariSet.entries()]
+  .map(([slug, name]) => {
+    const isTextEntry = slug.startsWith('__text:');
+    return [slug, isTextEntry ? name : lastFirst(name)] as [string, string];
+  })
+  .sort((a, b) => {
+    // Sort by surname-first display (which already starts with surname)
+    return a[1].localeCompare(b[1], 'cs');
+  });
 const krajeOpts = [...krajeSet].sort((a, b) => a.localeCompare(b, 'cs'));
 const stateOpts = [...stateSet].sort();
 const krokOpts = [...krokSet].sort((a, b) => a.localeCompare(b, 'cs'));
