@@ -44,8 +44,8 @@ import imageSizes from '../data/image-sizes.json';
 ---
 <!-- Lightbox dialog (jeden pro celou stránku) -->
 <dialog id="lightbox" class="lb" aria-label="Lightbox obrázku">
-  <div class="lb-stage" data-mode="single" data-tiles="1">
-    <!-- Sloty se vkládají dynamicky podle režimu -->
+  <div class="lb-stage" data-tiles="1">
+    <!-- Sloty se vkládají dynamicky — 1-9 tiles -->
   </div>
 
   <button class="lb-close" aria-label="Zavřít (Esc)" type="button">
@@ -58,27 +58,12 @@ import imageSizes from '../data/image-sizes.json';
     <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
   </button>
 
-  <div class="lb-toolbar" role="toolbar" aria-label="Režim zobrazení">
-    <button class="lb-mode" data-mode="single" aria-label="Jednoduchý režim (1)" type="button" title="Jednoduchý režim (1)">
-      <i class="fa-solid fa-image" aria-hidden="true"></i>
-    </button>
-    <button class="lb-mode" data-mode="grid" aria-label="Mřížka tří fotek (g)" type="button" title="Mřížka (g)">
-      <i class="fa-solid fa-table-cells" aria-hidden="true"></i>
-    </button>
-    <button class="lb-mode" data-mode="compare" aria-label="Porovnání více fotek (c)" type="button" title="Porovnat 1–6 fotek (c)">
-      <i class="fa-solid fa-table-columns" aria-hidden="true"></i>
-    </button>
-    <button class="lb-add" aria-label="Přidat fotku do porovnání (+)" type="button" title="Přidat fotku (+)" hidden>
-      <i class="fa-solid fa-plus" aria-hidden="true"></i>
-    </button>
-  </div>
-
   <div class="lb-counter" aria-live="polite"></div>
   <div class="lb-caption" id="lightbox-caption"></div>
-  <div class="lb-hint" aria-hidden="true">klik = zavřít · ← → další · g mřížka · c porovnat · + přidat</div>
+  <div class="lb-hint" aria-hidden="true">klik = zavřít · ← → další · klik v pruhu = přidat fotku · r = odebrat</div>
 
-  <!-- Thumbstrip — v selection submode (compare + Přidat) zobrazí všechny fotky -->
-  <div class="lb-thumbstrip" role="listbox" aria-label="Vyberte fotku pro přidání do porovnání" hidden>
+  <!-- Thumbstrip — vždy viditelný, klik na thumbnail přidá fotku do gridu -->
+  <div class="lb-thumbstrip" role="listbox" aria-label="Klikněte na fotku pro přidání do gridu">
     <!-- thumbnaily se vkládají dynamicky -->
   </div>
 </dialog>
@@ -227,46 +212,48 @@ import imageSizes from '../data/image-sizes.json';
     -webkit-backdrop-filter: blur(8px);
   }
 
-  /* Stage — kontejner pro sloty (1, 3 nebo 2 podle režimu) */
+  /* Stage — N tiles (1-9), auto-grid podle data-tiles. Thumbstrip vždy
+     viditelný dole → padding-bottom alokuje místo. */
   .lb-stage {
     position: absolute;
     inset: 0;
     display: grid;
     place-items: center;
     gap: 0.5rem;
-    padding: 4rem 1rem 5rem;
+    padding: 4rem 1rem 9rem;
   }
-  .lb-stage[data-mode="single"] {
+  .lb-stage[data-tiles="1"] {
     grid-template-columns: 1fr;
   }
-  .lb-stage[data-mode="grid"] {
-    grid-template-columns: 1fr 2fr 1fr;
-  }
-  /* Compare mode — N tiles (1-6), auto-grid podle data-tiles */
-  .lb-stage[data-mode="compare"] {
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
-  }
-  .lb-stage[data-mode="compare"][data-tiles="2"] {
+  .lb-stage[data-tiles="2"] {
     grid-template-columns: 1fr 1fr;
   }
-  .lb-stage[data-mode="compare"][data-tiles="3"] {
+  .lb-stage[data-tiles="3"] {
     grid-template-columns: repeat(3, 1fr);
   }
-  .lb-stage[data-mode="compare"][data-tiles="4"] {
+  .lb-stage[data-tiles="4"] {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  .lb-stage[data-mode="compare"][data-tiles="5"],
-  .lb-stage[data-mode="compare"][data-tiles="6"] {
+  .lb-stage[data-tiles="5"],
+  .lb-stage[data-tiles="6"] {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
   }
-  /* Mobile — squish N tiles do 2 sloupců */
+  .lb-stage[data-tiles="7"],
+  .lb-stage[data-tiles="8"],
+  .lb-stage[data-tiles="9"] {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  /* Mobile — squish 3+ tiles do 2 sloupců */
   @media (max-width: 800px) {
-    .lb-stage[data-mode="compare"][data-tiles="3"],
-    .lb-stage[data-mode="compare"][data-tiles="5"],
-    .lb-stage[data-mode="compare"][data-tiles="6"] {
+    .lb-stage[data-tiles="3"],
+    .lb-stage[data-tiles="5"],
+    .lb-stage[data-tiles="6"],
+    .lb-stage[data-tiles="7"],
+    .lb-stage[data-tiles="8"],
+    .lb-stage[data-tiles="9"] {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto;
     }
@@ -292,43 +279,30 @@ import imageSizes from '../data/image-sizes.json';
     user-select: none;
     -webkit-user-drag: none;
   }
-  .lb-slot.is-active {
+  /* Focused tile — outline border (klávesnice nav v jeho gallery) */
+  .lb-slot.is-focused {
     outline: 2px solid var(--color-brass-bright);
     outline-offset: -2px;
-  }
-  .lb-stage[data-mode="grid"] .lb-slot:not(.is-active) {
-    opacity: 0.55;
-    cursor: pointer;
-  }
-  .lb-stage[data-mode="grid"] .lb-slot:not(.is-active):hover {
-    opacity: 0.85;
-  }
-  .lb-stage[data-mode="grid"] .lb-slot:not(.is-active) img {
-    cursor: pointer;
   }
 
-  /* Compare mode pan/zoom — transform driven JS */
-  .lb-stage[data-mode="compare"] .lb-slot {
+  /* Pan/zoom — transform driven JS, vždy pro všechny tiles */
+  .lb-slot {
     cursor: grab;
   }
-  .lb-stage[data-mode="compare"] .lb-slot.is-dragging {
+  .lb-slot.is-dragging {
     cursor: grabbing;
   }
-  .lb-stage[data-mode="compare"] .lb-slot.is-focused {
-    outline: 2px solid var(--color-brass-bright);
-    outline-offset: -2px;
-  }
-  .lb-stage[data-mode="compare"] .lb-slot img {
+  .lb-slot img {
     cursor: inherit;
     transform: translate(var(--pan-x, 0px), var(--pan-y, 0px)) scale(var(--zoom, 1));
     transform-origin: center;
     transition: transform 50ms linear;
   }
-  .lb-stage[data-mode="compare"] .lb-slot.is-dragging img {
+  .lb-slot.is-dragging img {
     transition: none;
   }
 
-  /* Per-tile remove button (compare mode, hover/focus) */
+  /* Per-tile remove button (hover/focus, jen pokud N≥2) */
   .lb-slot-remove {
     position: absolute;
     top: 0.5rem;
@@ -348,8 +322,8 @@ import imageSizes from '../data/image-sizes.json';
     opacity: 0;
     transition: opacity 150ms ease, background 150ms ease, color 150ms ease;
   }
-  .lb-stage[data-mode="compare"] .lb-slot:hover .lb-slot-remove,
-  .lb-stage[data-mode="compare"] .lb-slot.is-focused .lb-slot-remove {
+  .lb-slot:hover .lb-slot-remove,
+  .lb-slot.is-focused .lb-slot-remove {
     display: flex;
     opacity: 0.85;
   }
@@ -358,8 +332,8 @@ import imageSizes from '../data/image-sizes.json';
     color: var(--color-ink);
     opacity: 1 !important;
   }
-  /* Pokud je v compare jen 1 tile — × tlačítko skryto (nelze odebrat poslední) */
-  .lb-stage[data-mode="compare"][data-tiles="1"] .lb-slot-remove {
+  /* Pokud je jen 1 tile — × skryto (nelze odebrat poslední) */
+  .lb-stage[data-tiles="1"] .lb-slot-remove {
     display: none !important;
   }
 
@@ -401,73 +375,7 @@ import imageSizes from '../data/image-sizes.json';
   .lb-prev { top: 1rem; left: 1rem; }
   .lb-next { top: 1rem; left: 4rem; }
 
-  /* Toolbar — mode switcher */
-  .lb-toolbar {
-    position: absolute;
-    top: 1rem;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 0.25rem;
-    background: rgba(20, 16, 12, 0.65);
-    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
-    border-radius: 2px;
-    padding: 0.15rem;
-    z-index: 5;
-    opacity: 0.5;
-    transition: opacity 150ms ease;
-  }
-  .lb-toolbar:hover {
-    opacity: 1;
-  }
-  .lb-toolbar .lb-mode {
-    background: transparent;
-    border: none;
-    color: var(--color-brass-bright);
-    cursor: pointer;
-    padding: 0.4rem 0.6rem;
-    font-size: 0.9rem;
-    border-radius: 2px;
-    transition: background 150ms ease, color 150ms ease;
-  }
-  .lb-toolbar .lb-mode:hover {
-    background: color-mix(in srgb, var(--color-brass) 25%, transparent);
-  }
-  .lb-toolbar .lb-mode.is-active {
-    background: var(--color-brass);
-    color: var(--color-ink);
-  }
-  .lb-toolbar .lb-mode:focus-visible,
-  .lb-toolbar .lb-add:focus-visible {
-    outline: 2px solid var(--color-brass-bright);
-    outline-offset: 2px;
-  }
-
-  /* Add button (visible only in compare mode) */
-  .lb-toolbar .lb-add {
-    background: transparent;
-    border: none;
-    color: var(--color-brass-bright);
-    cursor: pointer;
-    padding: 0.4rem 0.6rem;
-    font-size: 0.9rem;
-    border-radius: 2px;
-    border-left: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
-    margin-left: 0.2rem;
-    transition: background 150ms ease, color 150ms ease;
-  }
-  .lb-toolbar .lb-add:hover {
-    background: color-mix(in srgb, var(--color-brass) 25%, transparent);
-  }
-  .lb-toolbar .lb-add.is-active {
-    background: var(--color-copper);
-    color: var(--color-ink);
-  }
-  .lb-toolbar .lb-add[hidden] {
-    display: none !important;
-  }
-
-  /* Thumbstrip (selection mode v compare) */
+  /* Thumbstrip — vždy viditelný (přidání fotky do gridu) */
   .lb-thumbstrip {
     position: absolute;
     bottom: 0;
@@ -484,9 +392,6 @@ import imageSizes from '../data/image-sizes.json';
     max-height: 120px;
     scrollbar-width: thin;
     scrollbar-color: var(--color-brass) transparent;
-  }
-  .lb-thumbstrip[hidden] {
-    display: none;
   }
   .lb-thumbstrip::-webkit-scrollbar { height: 6px; }
   .lb-thumbstrip::-webkit-scrollbar-thumb { background: var(--color-brass); border-radius: 3px; }
@@ -515,10 +420,37 @@ import imageSizes from '../data/image-sizes.json';
   .lb-thumbstrip img.is-in-workspace:hover {
     transform: none;
   }
-  /* Když je thumbstrip otevřený, posuň caption a counter nahoru aby ho nepřekrývaly */
-  dialog.lb[data-selection-mode] .lb-caption,
-  dialog.lb[data-selection-mode] .lb-counter {
-    bottom: 8rem;
+  /* Caption a counter posunuté nad thumbstrip */
+  .lb-caption,
+  .lb-counter {
+    bottom: 8rem !important;
+  }
+  /* Hint posunutý ještě výš aby ho thumbstrip nepřekrýval */
+  .lb-hint {
+    bottom: 8.5rem;
+  }
+  dialog.lb[data-hint-seen] .lb-hint {
+    opacity: 0;
+  }
+
+  /* Mobile — thumbstrip menší, ale stále viditelný */
+  @media (max-width: 600px) {
+    .lb-thumbstrip {
+      max-height: 70px;
+      padding: 0.3rem;
+    }
+    .lb-thumbstrip img {
+      height: 56px;
+    }
+    .lb-caption, .lb-counter {
+      bottom: 5rem !important;
+    }
+    .lb-hint {
+      bottom: 5.5rem;
+    }
+    .lb-stage {
+      padding-bottom: 6.5rem;
+    }
   }
 
   /* Counter (X / N) */
@@ -580,15 +512,12 @@ import imageSizes from '../data/image-sizes.json';
     opacity: 0;
   }
 
-  /* Mobile — menší tlačítka, schovat hint */
+  /* Mobile — menší tlačítka, schovat hint (caption a counter řeší předchozí media block) */
   @media (max-width: 600px) {
     .lb-prev { left: 1rem; }
     .lb-next { left: 3.5rem; }
-    .lb-toolbar { top: auto; bottom: 1rem; transform: translateX(-50%); }
-    .lb-counter { bottom: 5rem; }
-    .lb-caption { bottom: 5rem; font-size: 0.82rem; }
+    .lb-caption { font-size: 0.82rem; }
     .lb-hint { display: none; }
-    /* Grid mode na úzkém displeji se přepne na single — viz JS canActivateGridMode() */
   }
 
   /* === Galerie (article-gallery) === */
@@ -870,7 +799,7 @@ import imageSizes from '../data/image-sizes.json';
     }
 
     // ==========================================================
-    // 3. Lightbox — single / grid / compare state machine
+    // 3. Lightbox — N-tile workspace state machine
     // ==========================================================
     const lb = document.getElementById('lightbox');
     if (!lb) return;
@@ -880,7 +809,7 @@ import imageSizes from '../data/image-sizes.json';
     const closeBtn = lb.querySelector('.lb-close');
     const prevBtn = lb.querySelector('.lb-prev');
     const nextBtn = lb.querySelector('.lb-next');
-    const modeBtns = Array.from(lb.querySelectorAll('.lb-mode'));
+    const thumbstrip = lb.querySelector('.lb-thumbstrip');
 
     // Sbírka všech lightbox-eligible obrázků v článku
     const lbImgs = Array.from(article.querySelectorAll(
@@ -888,43 +817,21 @@ import imageSizes from '../data/image-sizes.json';
     ));
     if (lbImgs.length === 0) return;
 
-    /** Lightbox state */
-    const MAX_TILES = 6;
+    /** Lightbox state — jediný "N-tile workspace" režim.
+     *  tiles.length === 1 vypadá jako single-photo, ≥2 jako grid. */
+    const MAX_TILES = 9;
     const state = {
-      mode: 'single',         // 'single' | 'grid' | 'compare'
-      activeIdx: 0,
-      tiles: [],              // compare mode: indices fotek v gridu (1-6)
-      focusedTile: -1,        // compare: který tile má focus pro klávesovou nav
-      selectionMode: false,   // compare submode: thumbstrip pro výběr otevřený?
+      tiles: [],          // pole indexů fotek (1-9)
+      focusedTile: -1,    // který tile má focus pro klávesovou nav
       captionTimeout: null,
       lastWheel: 0,
-      panZoom: {},            // keyed by slot index, sloty mají nezávislé pan/zoom
+      panZoom: {},        // keyed by slot index
     };
 
-    const addBtn = lb.querySelector('.lb-add');
-    const thumbstrip = lb.querySelector('.lb-thumbstrip');
-
-    /** Detekce — vrátí true pokud má smysl auto-přepnout do grid mode */
-    function shouldAutoGrid(idx) {
-      if (window.innerWidth < 1200) return false;
-      // Wide aspect ratio (≥3:2)
-      if (window.innerWidth / window.innerHeight < 1.4) return false;
-      const img = lbImgs[idx];
-      if (!img) return false;
-      const w = img.naturalWidth || img.width || 0;
-      const h = img.naturalHeight || img.height || 0;
-      if (!w || !h) return false;
-      // Portrait foto (aspect < 0.95 to allow square-ish)
-      return (w / h) < 0.95;
-    }
-
-    /** Sloty — vyrenderovat sloty pro daný režim, sync s data */
+    /** Render všech tiles do stage podle state.tiles */
     function renderSlots() {
-      stage.dataset.mode = state.mode;
-      lb.dataset.mode = state.mode;
       stage.innerHTML = '';
-
-      const indices = currentIndices();
+      const indices = state.tiles;
       stage.dataset.tiles = String(indices.length);
 
       indices.forEach((idx, slotIdx) => {
@@ -933,13 +840,7 @@ import imageSizes from '../data/image-sizes.json';
         slot.dataset.slotIdx = String(slotIdx);
         slot.dataset.imgIdx = String(idx);
 
-        if (state.mode === 'grid' && idx === state.activeIdx) {
-          slot.classList.add('is-active');
-        }
-        if (state.mode === 'single') {
-          slot.classList.add('is-active');
-        }
-        if (state.mode === 'compare' && slotIdx === state.focusedTile) {
+        if (slotIdx === state.focusedTile) {
           slot.classList.add('is-focused');
         }
 
@@ -947,46 +848,28 @@ import imageSizes from '../data/image-sizes.json';
         const src = lbImgs[idx];
         img.src = src.src;
         img.alt = src.alt || '';
+        // Pan/zoom CSS variables
+        const pz = state.panZoom[slotIdx] || { x: 0, y: 0, zoom: 1 };
+        img.style.setProperty('--pan-x', pz.x + 'px');
+        img.style.setProperty('--pan-y', pz.y + 'px');
+        img.style.setProperty('--zoom', String(pz.zoom));
         slot.appendChild(img);
 
-        // Compare mode — pan/zoom CSS variables + remove button (× v rohu)
-        if (state.mode === 'compare') {
-          const pz = state.panZoom[slotIdx] || { x: 0, y: 0, zoom: 1 };
-          img.style.setProperty('--pan-x', pz.x + 'px');
-          img.style.setProperty('--pan-y', pz.y + 'px');
-          img.style.setProperty('--zoom', String(pz.zoom));
-
-          const remove = document.createElement('button');
-          remove.className = 'lb-slot-remove';
-          remove.type = 'button';
-          remove.setAttribute('aria-label', `Odebrat fotku ${slotIdx + 1} z porovnání`);
-          remove.innerHTML = '<i class="fa-solid fa-xmark" aria-hidden="true"></i>';
-          slot.appendChild(remove);
-        }
+        // Remove × tlačítko (CSS ho skryje pokud N=1)
+        const remove = document.createElement('button');
+        remove.className = 'lb-slot-remove';
+        remove.type = 'button';
+        remove.setAttribute('aria-label', `Odebrat fotku ${slotIdx + 1} z gridu`);
+        remove.innerHTML = '<i class="fa-solid fa-xmark" aria-hidden="true"></i>';
+        slot.appendChild(remove);
 
         stage.appendChild(slot);
       });
     }
 
-    /** Indices visible v aktuálním režimu */
-    function currentIndices() {
-      const n = lbImgs.length;
-      if (state.mode === 'single') return [state.activeIdx];
-      if (state.mode === 'grid') {
-        // 3-up: prev, active, next (s wrap)
-        const prev = (state.activeIdx - 1 + n) % n;
-        const next = (state.activeIdx + 1) % n;
-        return [prev, state.activeIdx, next];
-      }
-      if (state.mode === 'compare') {
-        return state.tiles.slice(0, MAX_TILES);
-      }
-      return [state.activeIdx];
-    }
-
-    /** Render thumbstrip — zobrazí všechny lbImgs jako thumbnaily.
-     *  Klik → addTile(idx). Fotky, které už jsou ve workspace, mají
-     *  zatlumený border + cursor: not-allowed (nelze přidat duplikát). */
+    /** Render thumbstrip — všechny lbImgs jako thumbnaily.
+     *  Klik → addTile(idx). Fotky, které už jsou v gridu, mají
+     *  zatlumený border + cursor: not-allowed (nelze duplikát). */
     function renderThumbstrip() {
       thumbstrip.innerHTML = '';
       lbImgs.forEach((img, idx) => {
@@ -1002,20 +885,19 @@ import imageSizes from '../data/image-sizes.json';
       });
     }
 
-    /** Přidá fotku idx do compare workspace. */
+    /** Přidá fotku idx do gridu (max MAX_TILES, žádné duplikáty). */
     function addTile(idx) {
       if (state.tiles.length >= MAX_TILES) return;
-      if (state.tiles.includes(idx)) return; // duplikát skip
+      if (state.tiles.includes(idx)) return;
       state.tiles.push(idx);
-      // Nový slot — nezávislé pan/zoom
       state.panZoom[state.tiles.length - 1] = { x: 0, y: 0, zoom: 1 };
       refresh();
       renderThumbstrip();
     }
 
-    /** Odebere tile na pozici slotIdx. */
+    /** Odebere tile na pozici slotIdx (kromě posledního). */
     function removeTile(slotIdx) {
-      if (state.tiles.length <= 1) return; // nelze odebrat poslední
+      if (state.tiles.length <= 1) return;
       state.tiles.splice(slotIdx, 1);
       // Re-key panZoom (shift indices down)
       const newPz = {};
@@ -1025,41 +907,24 @@ import imageSizes from '../data/image-sizes.json';
         else if (i > slotIdx) newPz[i - 1] = v;
       });
       state.panZoom = newPz;
-      // Fix focus
       if (state.focusedTile === slotIdx) state.focusedTile = -1;
       else if (state.focusedTile > slotIdx) state.focusedTile--;
       refresh();
       renderThumbstrip();
     }
 
-    /** Otevřít/zavřít thumbstrip selection submode. */
-    function setSelection(active) {
-      state.selectionMode = active;
-      if (active) {
-        renderThumbstrip();
-        thumbstrip.hidden = false;
-        lb.setAttribute('data-selection-mode', '');
-        addBtn?.classList.add('is-active');
-      } else {
-        thumbstrip.hidden = true;
-        lb.removeAttribute('data-selection-mode');
-        addBtn?.classList.remove('is-active');
-      }
-    }
-
     function updateCaption() {
       let txt = '';
-      if (state.mode === 'single' || state.mode === 'grid') {
-        const img = lbImgs[state.activeIdx];
-        txt = (img.alt && img.alt !== 'menu' && img.alt !== 'grafika') ? img.alt : '';
-      } else if (state.mode === 'compare') {
-        // V compare modu zobrazím caption focusovaného tile (nebo prvního)
-        const slotIdx = state.focusedTile >= 0 ? state.focusedTile : 0;
-        const imgIdx = state.tiles[slotIdx];
-        if (typeof imgIdx === 'number') {
-          const img = lbImgs[imgIdx];
-          const baseAlt = (img.alt && img.alt !== 'menu') ? img.alt : `foto ${imgIdx + 1}`;
-          txt = `${slotIdx + 1}/${state.tiles.length}: ${baseAlt}`;
+      // V N-tile workspaceu zobrazím caption focused tile (nebo prvního)
+      const slotIdx = state.focusedTile >= 0 ? state.focusedTile : 0;
+      const imgIdx = state.tiles[slotIdx];
+      if (typeof imgIdx === 'number') {
+        const img = lbImgs[imgIdx];
+        const baseAlt = (img.alt && img.alt !== 'menu' && img.alt !== 'grafika') ? img.alt : '';
+        if (state.tiles.length === 1) {
+          txt = baseAlt;
+        } else {
+          txt = baseAlt ? `${slotIdx + 1}/${state.tiles.length}: ${baseAlt}` : `${slotIdx + 1}/${state.tiles.length}`;
         }
       }
       captionEl.textContent = txt;
@@ -1071,24 +936,10 @@ import imageSizes from '../data/image-sizes.json';
     }
 
     function updateCounter() {
-      if (state.mode === 'compare') {
-        counterEl.textContent = `${state.tiles.length} fotek · z ${lbImgs.length}`;
+      if (state.tiles.length === 1) {
+        counterEl.textContent = `${state.tiles[0] + 1} / ${lbImgs.length}`;
       } else {
-        counterEl.textContent = `${state.activeIdx + 1} / ${lbImgs.length}`;
-      }
-    }
-
-    function updateToolbar() {
-      modeBtns.forEach((btn) => {
-        btn.classList.toggle('is-active', btn.dataset.mode === state.mode);
-      });
-      // Add button (+) je viditelný jen v compare modu
-      if (addBtn) {
-        addBtn.hidden = state.mode !== 'compare';
-      }
-      // Pokud opustíme compare, zavřeme selection
-      if (state.mode !== 'compare' && state.selectionMode) {
-        setSelection(false);
+        counterEl.textContent = `${state.tiles.length} v gridu · z ${lbImgs.length}`;
       }
     }
 
@@ -1096,67 +947,32 @@ import imageSizes from '../data/image-sizes.json';
       renderSlots();
       updateCaption();
       updateCounter();
-      updateToolbar();
     }
 
     function open(idx) {
-      state.activeIdx = idx;
-      // Auto-grid pro portrétní fotku na širokém displeji (jen při open, ne při nav)
-      if (shouldAutoGrid(idx)) {
-        state.mode = 'grid';
-      } else {
-        state.mode = 'single';
-      }
-      // Compare tiles se nastaví až při setMode('compare') — open nezakládá compare
       state.tiles = [idx];
-      state.focusedTile = -1;
-      state.panZoom = {};
-      setSelection(false);
+      state.focusedTile = 0;
+      state.panZoom = { 0: { x: 0, y: 0, zoom: 1 } };
       refresh();
+      renderThumbstrip();
       lb.showModal();
     }
 
     function closeLb() {
-      setSelection(false);
       lb.close();
       clearTimeout(state.captionTimeout);
     }
 
     function step(delta) {
       const n = lbImgs.length;
-      if (state.mode === 'compare') {
-        // V compare modu šipky cyklují fotku ve focusovaném tile.
-        // Pokud žádný tile není focused, použij první.
-        const slotIdx = state.focusedTile >= 0 ? state.focusedTile : 0;
-        if (state.tiles[slotIdx] === undefined) return;
-        state.tiles[slotIdx] = (state.tiles[slotIdx] + delta + n) % n;
-        // Reset pan/zoom pro tento slot (nová fotka)
-        state.panZoom[slotIdx] = { x: 0, y: 0, zoom: 1 };
-      } else {
-        state.activeIdx = (state.activeIdx + delta + n) % n;
-      }
+      // Šipky cyklují fotku v focused tile (nebo prvním pokud focus = -1)
+      const slotIdx = state.focusedTile >= 0 ? state.focusedTile : 0;
+      if (state.tiles[slotIdx] === undefined) return;
+      state.tiles[slotIdx] = (state.tiles[slotIdx] + delta + n) % n;
+      // Reset pan/zoom pro tento slot (nová fotka)
+      state.panZoom[slotIdx] = { x: 0, y: 0, zoom: 1 };
       refresh();
-      if (state.selectionMode) renderThumbstrip(); // aktualizuj is-in-workspace flags
-    }
-
-    function setMode(newMode) {
-      if (newMode === state.mode) return;
-      if (newMode === 'compare' && lbImgs.length < 2) return;
-      const oldMode = state.mode;
-      state.mode = newMode;
-      if (newMode === 'compare') {
-        // Reset: start s 1 tile (aktuální fotka)
-        state.tiles = [state.activeIdx];
-        state.focusedTile = 0;
-        state.panZoom = { 0: { x: 0, y: 0, zoom: 1 } };
-      } else {
-        // Opustili jsme compare → zavřít selection
-        if (oldMode === 'compare') {
-          setSelection(false);
-        }
-      }
-      refresh();
-      lb.setAttribute('data-hint-seen', '');
+      renderThumbstrip(); // is-in-workspace flags se mění
     }
 
     // === Event listeners ===
@@ -1173,19 +989,13 @@ import imageSizes from '../data/image-sizes.json';
     prevBtn.addEventListener('click', () => step(-1));
     nextBtn.addEventListener('click', () => step(1));
 
-    modeBtns.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        setMode(btn.dataset.mode);
-      });
-    });
-
-    // Klik handler — různé chování podle režimu
+    // Klik handler — N-tile workspace
     lb.addEventListener('click', (e) => {
       const target = e.target;
-      // Ignoruj kliky na ovládací prvky (close, prev, next, toolbar, counter, thumbstrip)
-      if (target.closest('.lb-close, .lb-prev, .lb-next, .lb-toolbar, .lb-counter, .lb-thumbstrip')) return;
+      // Ignoruj kliky na ovládací prvky
+      if (target.closest('.lb-close, .lb-prev, .lb-next, .lb-counter, .lb-thumbstrip')) return;
 
-      // Remove × tlačítko na compare tile
+      // Remove × tlačítko na tile
       const removeBtn = target.closest('.lb-slot-remove');
       if (removeBtn) {
         const slot = removeBtn.closest('.lb-slot');
@@ -1196,54 +1006,33 @@ import imageSizes from '../data/image-sizes.json';
         return;
       }
 
-      if (state.mode === 'single') {
-        // Single: klik kdekoliv (fotka, backdrop, padding) zavře
-        closeLb();
-        return;
-      }
-
-      if (state.mode === 'grid') {
-        const slot = target.closest('.lb-slot');
-        if (!slot) {
+      // Klik na tile = focus (klávesnice ← → pak cykluje fotku v tom tile)
+      const slot = target.closest('.lb-slot');
+      if (slot) {
+        if (state.tiles.length === 1) {
+          // Při N=1 klik na tile = close (klasický single lightbox UX)
           closeLb();
           return;
         }
-        if (slot.classList.contains('is-active')) {
-          setMode('single');
-        } else {
-          state.activeIdx = parseInt(slot.dataset.imgIdx, 10);
-          refresh();
-        }
+        const slotIdx = parseInt(slot.dataset.slotIdx, 10);
+        state.focusedTile = slotIdx;
+        stage.querySelectorAll('.lb-slot').forEach((s, i) => {
+          s.classList.toggle('is-focused', i === state.focusedTile);
+        });
+        updateCaption();
         return;
       }
 
-      if (state.mode === 'compare') {
-        const slot = target.closest('.lb-slot');
-        if (slot) {
-          // Klik na tile = focus (umožní arrow nav v jeho gallery)
-          const slotIdx = parseInt(slot.dataset.slotIdx, 10);
-          state.focusedTile = slotIdx;
-          // Refresh jen focus classes (rychlejší než full refresh)
-          stage.querySelectorAll('.lb-slot').forEach((s, i) => {
-            s.classList.toggle('is-focused', i === state.focusedTile);
-          });
-          updateCaption();
-          return;
-        }
-        // Klik mimo sloty (backdrop pruh) = close
-        if (!target.closest('.lb-thumbstrip')) {
-          closeLb();
-        }
-      }
+      // Klik mimo sloty (backdrop pruh) = close
+      closeLb();
     });
 
-    // Thumbstrip — klik na thumbnail přidá fotku do workspace
+    // Thumbstrip — klik na thumbnail přidá fotku do gridu
     thumbstrip?.addEventListener('click', (e) => {
       // STOP PROPAGATION: addTile() rebuilduje thumbstrip → kliknutý target
       // se odpojí z DOM. Když by pak event bublal do lb handleru,
-      // `target.closest('.lb-thumbstrip')` by vrátilo null (target je
-      // detached) a klik by se chybně interpretoval jako backdrop click
-      // → closeLb(). stopPropagation tomu předejde.
+      // `target.closest('.lb-thumbstrip')` by vrátilo null a klik by se
+      // chybně interpretoval jako klik mimo sloty → closeLb().
       e.stopPropagation();
       const target = e.target;
       if (!(target instanceof HTMLImageElement)) return;
@@ -1253,56 +1042,36 @@ import imageSizes from '../data/image-sizes.json';
       addTile(idx);
     });
 
-    // Add button (+) v toolbaru — toggle selection submode
-    addBtn?.addEventListener('click', () => {
-      setSelection(!state.selectionMode);
-    });
-
     // Klávesnice
     document.addEventListener('keydown', (e) => {
       if (!lb.open) return;
       if (e.key === 'Escape') {
-        if (state.selectionMode) {
-          setSelection(false);
-          return;
-        }
-        if (state.mode === 'compare' || state.mode === 'grid') {
-          setMode('single');
-        } else {
-          closeLb();
-        }
+        closeLb();
       }
       else if (e.key === 'ArrowLeft') { step(-1); }
       else if (e.key === 'ArrowRight') { step(1); }
-      else if (e.key === '1') { setMode('single'); }
-      else if (e.key === 'g' || e.key === 'G') { setMode(state.mode === 'grid' ? 'single' : 'grid'); }
-      else if (e.key === 'c' || e.key === 'C') { setMode(state.mode === 'compare' ? 'single' : 'compare'); }
-      else if (e.key === '+' || e.key === '=') {
-        // Plus/= → toggle selection submode v compare modu (nebo zapnout compare a pak selection)
-        if (state.mode !== 'compare') setMode('compare');
-        setSelection(!state.selectionMode);
-      }
       else if (e.key === 'r' || e.key === 'R') {
-        // R → odebrat focused tile
-        if (state.mode === 'compare' && state.focusedTile >= 0) {
+        // R → odebrat focused tile (pokud N≥2)
+        if (state.focusedTile >= 0 && state.tiles.length >= 2) {
           removeTile(state.focusedTile);
         }
       }
     });
 
     // === Touch gestures ===
+    // Single tile (N=1) → swipe ← → cykluje fotku, ↓ zavře.
+    // Multi tile (N≥2) → touch ovládá pan slotů (níže v pointerdown), bez swipe-nav.
     let touchStart = null;
     stage.addEventListener('touchstart', (e) => {
       if (e.touches.length !== 1) return;
-      // V compare modu touch ovládá pan/zoom slotů, ne navigaci
-      if (state.mode === 'compare') return;
+      if (state.tiles.length !== 1) return;
       const t = e.touches[0];
       touchStart = { x: t.clientX, y: t.clientY, t: Date.now() };
     }, { passive: true });
 
     stage.addEventListener('touchend', (e) => {
       if (!touchStart) return;
-      if (state.mode === 'compare') { touchStart = null; return; }
+      if (state.tiles.length !== 1) { touchStart = null; return; }
       const t = e.changedTouches[0];
       const dx = t.clientX - touchStart.x;
       const dy = t.clientY - touchStart.y;
@@ -1319,13 +1088,14 @@ import imageSizes from '../data/image-sizes.json';
     }, { passive: true });
 
     // === Trackpad horizontal wheel (Mac 2-finger scroll) ===
+    // Funguje jen při N=1, jinak má prioritu pan/zoom (níže).
     stage.addEventListener('wheel', (e) => {
-      if (state.mode === 'compare') return; // pan/zoom má prio v compare
+      if (state.tiles.length !== 1) return;
       const absX = Math.abs(e.deltaX);
       const absY = Math.abs(e.deltaY);
-      if (absX < absY || absX < 8) return; // primárně vertikální nebo malý → ignore
+      if (absX < absY || absX < 8) return;
       const now = Date.now();
-      if (now - state.lastWheel < 300) return; // debounce
+      if (now - state.lastWheel < 300) return;
       state.lastWheel = now;
       step(e.deltaX > 0 ? 1 : -1);
       e.preventDefault();
@@ -1344,13 +1114,14 @@ import imageSizes from '../data/image-sizes.json';
     lb.addEventListener('keydown', () => lb.setAttribute('data-hint-seen', ''), { once: true });
     lb.addEventListener('click', () => lb.setAttribute('data-hint-seen', ''), { once: true });
 
-    // === Compare mode — pan/zoom per slot ===
-    // Drag = pan, wheel/pinch = zoom
+    // === Per-tile pan / zoom (jen při N≥2 — single tile používá swipe/wheel nav) ===
     let panStart = null;
     stage.addEventListener('pointerdown', (e) => {
-      if (state.mode !== 'compare') return;
+      if (state.tiles.length < 2) return;
       const slot = e.target.closest('.lb-slot');
       if (!slot) return;
+      // Klik na × tlačítko nezačíná pan
+      if (e.target.closest('.lb-slot-remove')) return;
       const slotIdx = parseInt(slot.dataset.slotIdx, 10);
       const pz = state.panZoom[slotIdx];
       if (!pz) return;
@@ -1372,7 +1143,7 @@ import imageSizes from '../data/image-sizes.json';
         img.style.setProperty('--pan-y', pz.y + 'px');
       }
     });
-    stage.addEventListener('pointerup', (e) => {
+    stage.addEventListener('pointerup', () => {
       if (!panStart) return;
       const slot = stage.querySelector(`.lb-slot[data-slot-idx="${panStart.slotIdx}"]`);
       slot?.classList.remove('is-dragging');
@@ -1384,9 +1155,9 @@ import imageSizes from '../data/image-sizes.json';
       panStart = null;
     });
 
-    // Wheel zoom v compare modu (per slot pod kurzorem)
+    // Wheel zoom per tile (jen N≥2, jinak wheel = horizontal nav viz výše)
     stage.addEventListener('wheel', (e) => {
-      if (state.mode !== 'compare') return;
+      if (state.tiles.length < 2) return;
       const slot = e.target.closest('.lb-slot');
       if (!slot) return;
       const slotIdx = parseInt(slot.dataset.slotIdx, 10);
@@ -1398,8 +1169,6 @@ import imageSizes from '../data/image-sizes.json';
       const img = slot.querySelector('img');
       if (img) img.style.setProperty('--zoom', String(pz.zoom));
     }, { passive: false });
-
-    // (Compare divider drag-to-resize odstraněn ve V2 — N-tile grid je equal layout)
   }
 
   if (document.readyState === 'loading') {
