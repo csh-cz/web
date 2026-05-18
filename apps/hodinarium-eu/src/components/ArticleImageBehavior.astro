@@ -24,7 +24,8 @@
  *
  * Behavior — lightbox (přepracováno 2026-05-18, A.33/A.34/A.35):
  *   L1 — single mode (default):
- *     - Klik na fotku, backdrop, ESC, ×-tlačítko, swipe-down → close
+ *     - Klik na fotku, ESC, ×-tlačítko, swipe-down → close
+ *     - Klik mimo fotku (backdrop) ne-zavírá (vyžadováno explicitní akce)
  *     - Šipky next/prev v horních rozích, semi-transparent (0.4 → 1 hover)
  *     - Mobile: swipe ← → nav, ↓ close
  *     - Mac trackpad: 2-finger horizontal scroll → nav (debounce 300ms)
@@ -60,7 +61,7 @@ import imageSizes from '../data/image-sizes.json';
 
   <div class="lb-counter" aria-live="polite"></div>
   <div class="lb-caption" id="lightbox-caption"></div>
-  <div class="lb-hint" aria-hidden="true">klik = zavřít · ← → další · klik v pruhu = přidat fotku · r = odebrat</div>
+  <div class="lb-hint" aria-hidden="true">klik na fotku = zavřít / focus · × nebo ESC = zavřít · ← → další · klik v pruhu = přidat fotku · r = odebrat</div>
 
   <!-- Thumbstrip — vždy viditelný, klik na thumbnail přidá fotku do gridu -->
   <div class="lb-thumbstrip" role="listbox" aria-label="Klikněte na fotku pro přidání do gridu">
@@ -458,14 +459,16 @@ import imageSizes from '../data/image-sizes.json';
     position: absolute;
     bottom: 1rem;
     right: 1rem;
-    background: rgba(20, 16, 12, 0.65);
-    color: var(--color-text-soft);
-    padding: 0.35rem 0.7rem;
-    font-size: 0.85rem;
+    background: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 500;
     font-variant-numeric: tabular-nums;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 40%, transparent);
     border-radius: 2px;
     z-index: 5;
-    opacity: 0.5;
+    opacity: 0.95;
     pointer-events: none;
   }
 
@@ -475,11 +478,12 @@ import imageSizes from '../data/image-sizes.json';
     bottom: 1rem;
     left: 50%;
     transform: translateX(-50%);
-    padding: 0.5rem 1rem;
-    background: rgba(20, 16, 12, 0.85);
-    color: var(--color-text);
-    font-size: 0.9rem;
+    padding: 0.65rem 1.2rem;
+    background: rgba(0, 0, 0, 0.92);
+    color: #fff;
+    font-size: 0.95rem;
     font-style: italic;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 40%, transparent);
     border-radius: 2px;
     max-width: min(80%, 60ch);
     text-align: center;
@@ -499,10 +503,13 @@ import imageSizes from '../data/image-sizes.json';
     bottom: 0.5rem;
     left: 50%;
     transform: translateX(-50%);
-    color: var(--color-text-muted);
-    font-size: 0.72rem;
+    padding: 0.35rem 0.8rem;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 0.78rem;
     letter-spacing: 0.02em;
-    opacity: 0.5;
+    border-radius: 2px;
+    opacity: 0.9;
     pointer-events: none;
     z-index: 4;
     white-space: nowrap;
@@ -1006,11 +1013,11 @@ import imageSizes from '../data/image-sizes.json';
         return;
       }
 
-      // Klik na tile = focus (klávesnice ← → pak cykluje fotku v tom tile)
+      // Klik na tile = close při N=1 / focus při N>1
+      // Pouze klik na fotku zavírá; klik mimo (backdrop) NIC (jen × / ESC).
       const slot = target.closest('.lb-slot');
       if (slot) {
         if (state.tiles.length === 1) {
-          // Při N=1 klik na tile = close (klasický single lightbox UX)
           closeLb();
           return;
         }
@@ -1023,8 +1030,7 @@ import imageSizes from '../data/image-sizes.json';
         return;
       }
 
-      // Klik mimo sloty (backdrop pruh) = close
-      closeLb();
+      // Klik mimo sloty (backdrop) = bez akce. Zavírá se jen × / ESC / klikem na fotku.
     });
 
     // Thumbstrip — klik na thumbnail přidá fotku do gridu
