@@ -554,6 +554,41 @@ Plný design + zamítnutí ChatGPT návrhu v session transcriptu
 - [ ] **Skript pro auto-import fotek z ZIP** — rozzipovat → přejmenovat
       → doplnit data file. Naprogramovat až bude první ZIP od Petra.
 
+- [ ] **REF1 — 66 bibKey-only odkazů bez Zotero match ani fallback dat**
+      (~2 h, navrženo 2026-05-18). Po Phase 1 cleanup commitu `abfbbe71`
+      (Zotero re-sync + 109 bibKey remap) zůstává 66 entries ve 44
+      souborech, kde `bibKey` neexistuje v references.json a chybí i
+      strukturovaná fallback data (title, url, citace). UI tedy v sekci
+      *Literatura* zobrazí bare citation key string místo ISO 690 citace.
+
+      **Vzorky:**
+      - `content/hodinarium-eu/slunecni.mdx` — 10 entries
+        (`kol.KatalogSlunecniHodiny`, `SundialWikipediaAnglicky`,
+        `AstronomieMojeHobby`, `OrologiSolariItalsky`, `CadransSolairesHistorie`,
+        `SlunecniHodinarstvi`, `SlunecniHodinyZa{,a}`, `SlunecniParkHolandsku`,
+        `SlunecniHodinyNa`) — všechny placeholdery pro externí weby
+      - `content/hodinari/{michael-christ,paul-zieux,kohlert,…}` — 8 entries
+        s `KartaInv6..KartaInv41` (interní odkazy na sbírkové karty ČSH)
+      - `content/hodinarium-eu/muzeum-*.md` (16 souborů) — placeholdery typu
+        `Patekmuseumcom`, `Uhrenmuseumchemnitzde`, `WeboveStrankyMuzea` apod.
+      - Jednorázové cases v dalších hodinari medailonech (Krečmer, Prokeš,
+        Kinšner, Hainz, Solari di Udine, Junghans).
+
+      **Strategie cleanup (per pattern):**
+      1. **Externí weby** (`Patekmuseumcom`, `Anatomievarhancz`, atd.) →
+         buď přidat do Zotera jako `webpage` (bibKey + URL), nebo
+         konvertovat na ad-hoc `- title: ... url: ...` reference.
+      2. **`KartaInv*`** → konvertovat na strukturovaný odkaz na sbírkovou
+         kartu (`/sbirka/karta/inv-NNN`), bibKey vůbec nepoužívat.
+      3. **Dobové prameny** (`104RokuHodinarstvi1940`, `JanProkes1891`,
+         `cechStaromestsky1886`, `paukertJanProkesVynikajici1909`) → přidat
+         do Zotera jako `article-newspaper` / `article-journal`.
+      4. **Wikipedia entries** (`HebrejskaAbeceda`, `JunghansWikipedia`,
+         `SundialWikipediaAnglicky`) → ad-hoc `type: wiki` s `title` + `url`.
+
+      Audit lze regenerovat skriptem (audit ad-hoc v shell, viz commit
+      `abfbbe71`). Plný report: 66 entries × 44 files.
+
 ## A.9 — Připraveno k nasazení po DNS switch
 
 Až se přepne DNS (viz B.3), Claude provede:
