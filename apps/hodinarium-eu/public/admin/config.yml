@@ -97,6 +97,16 @@ _reference_fields: &reference_fields
     options: [kniha, clanek, pdf, odkaz, wiki, mapa]
   - { name: note, label: 'Poznámka', widget: text, required: false }
 
+# Reference field set pro slovník — má strukturu odlišnou od ostatních collections
+# (žádný url/author/year/type, ale verbatim `citace` z primárního pramene).
+# Schema mirror: slovnikReference v src/content.config.ts.
+_slovnik_reference_fields: &slovnik_reference_fields
+  - { name: bibKey, label: 'Zotero bibKey', widget: string, required: false, hint: 'Citation-key z Zotera (Better BibTeX), např. "buresHodinoveStroje1965". Renderuje ISO 690 přes citeproc.' }
+  - { name: title, label: 'Název (ad-hoc, bez bibKey)', widget: string, required: false }
+  - { name: citace, label: 'Citace (doslovný úryvek)', widget: text, required: false, hint: 'Verbatim quote z pramene, renderuje se v blockquote.' }
+  - { name: pages, label: 'Stránky', widget: string, required: false, hint: 'Override stránek pro citaci, např. „97" nebo „97–101".' }
+  - { name: note, label: 'Poznámka', widget: text, required: false }
+
 collections:
   # ── 1) Články (sbirka/konstrukce/projekty/virtualni-muzeum/muzea/zajimavosti) ──
   - name: clanky
@@ -692,3 +702,176 @@ collections:
       - { name: scrapedAt, label: 'Scraped at', widget: hidden }
       - <<: *workflow_field
       - { name: body, label: 'Tělo stránky', widget: markdown }
+
+  # ── 7) Slovník (hodinářská terminologie) ──
+  # 153 hesel z primárních pramenů (Šumavský 1851, Špatný 1882, Sušický 1900,
+  # Sladkovský 1947, Bureš 1965, Saunier 1887, Gros 1913, Dietzschold 1894).
+  # Strukturované překlady DE/EN/FR, varianty (status badge), polysémní
+  # významy, atestace napříč prameny, conceptId pro cross-lingual lookup.
+  # Schema definováno v src/content.config.ts (slovnik collection).
+  - name: slovnik
+    label: 'Slovník (hodinářská terminologie)'
+    label_singular: 'Heslo slovníku'
+    folder: 'content/slovnik'
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    delete: false
+    slug: '{{slug}}'
+    identifier_field: title
+    summary: '{{title}} ({{kategorie}})'
+    fields:
+      - { name: title, label: 'Heslo (cs)', widget: string, required: true, hint: 'Lowercase typicky: „krok", „kotva". U vlastních jmen kapitálka.' }
+      - { name: slug, label: 'Slug (URL část)', widget: string, required: true, hint: 'lowercase-s-pomlckami, např. „kolo-zaverkove"' }
+      - name: kategorie
+        label: 'Kategorie'
+        widget: select
+        required: true
+        options:
+          - { label: 'Mechanika (krok, soukolí, kyvadlo, setrvačka)', value: mechanika }
+          - { label: 'Bicí mechanismy (kladívko, cymbál, početník)', value: bici }
+          - { label: 'Astronomické a sluneční (gnómon, časová rovnice)', value: astronomicke }
+          - { label: 'Materiály (invar, rubínový kámen)', value: materialy }
+          - { label: 'Hodinky (kalibr, korunka, chronograf)', value: hodinky }
+          - { label: 'Profese a školy', value: profese }
+          - { label: 'Jiné', value: jine }
+      - { name: definice, label: 'Definice (1–2 věty)', widget: text, required: true, hint: 'Markdown podporován pro [odkaz](/slovnik/x). Pro polysémní hesla použij `vyznamy[]` níže.' }
+      - name: conceptId
+        label: 'Concept ID (volitelné)'
+        widget: string
+        required: false
+        pattern: ['^HORO-[A-Z]+-\d{3}$', 'Formát: HORO-TOPIC-NNN (např. HORO-DIAL-001)']
+        hint: 'Stabilní identifikátor konceptu napříč jazyky (např. HORO-ESCAPEMENT-001 pro krok / escapement / Hemmung).'
+      - name: redirectTo
+        label: 'Přesměrovat na heslo (slug)'
+        widget: string
+        required: false
+        hint: 'Pokud je vyplněno, jde o alias (např. „cifernik" → „ciselnik"). Banner „→ Viz X" se vyrenderuje před body.'
+      - { name: isStub, label: 'Stub (neúplné heslo, čeká na doplnění)', widget: boolean, required: false, default: false }
+
+      # ── Varianty (česky) ──
+      - name: varianty
+        label: 'Varianty cs (alternativní tvary, archaismy, dialekty)'
+        widget: list
+        required: false
+        hint: 'Pro každou variantu uveď status (preferred/admitted/archaic/erroneous/historical). Legacy plain stringy ve frontmatteru zůstávají funkční.'
+        fields:
+          - { name: term, label: 'Tvar', widget: string, required: true }
+          - name: status
+            label: 'Status'
+            widget: select
+            required: true
+            default: admitted
+            options:
+              - { label: 'Preferred — moderní cs odborný úzus', value: preferred }
+              - { label: 'Admitted — přípustný (anglicismus, neformální)', value: admitted }
+              - { label: 'Archaic — historický (19. stol., dnes neužitý)', value: archaic }
+              - { label: 'Erroneous — lidový / chybný', value: erroneous }
+              - { label: 'OCR-variant — artefakt OCR/HTR', value: 'ocr-variant' }
+              - { label: 'Historical — doloženo, ne hodnotící', value: historical }
+          - { name: note, label: 'Poznámka', widget: string, required: false }
+          - { name: 'doloženo', label: 'Doloženo (pramen)', widget: string, required: false, hint: 'Např. „Špatný 1882, s. 23"' }
+
+      # ── Překlady ──
+      - name: prekladyDe
+        label: 'Překlady DE'
+        widget: list
+        required: false
+        fields:
+          - { name: term, label: 'DE termín', widget: string, required: true }
+          - name: genus
+            label: 'Rod'
+            widget: select
+            required: false
+            options: ['', m, f, n, mf, pl]
+            default: ''
+          - { name: deklinace, label: 'Deklinace', widget: string, required: false, hint: 'gen.sg., nom.pl. nebo zkrácená forma „-(e)s, -e"' }
+          - { name: zdroj, label: 'Zdroj (např. „Špatný 1882")', widget: string, required: false }
+      - name: prekladyEn
+        label: 'Překlady EN'
+        widget: list
+        required: false
+        fields:
+          - { name: term, label: 'EN termín', widget: string, required: true }
+          - { name: zdroj, label: 'Zdroj', widget: string, required: false }
+      - name: prekladyFr
+        label: 'Překlady FR'
+        widget: list
+        required: false
+        fields:
+          - { name: term, label: 'FR termín', widget: string, required: true }
+          - name: genus
+            label: 'Rod'
+            widget: select
+            required: false
+            options: ['', m, f, n, mf, pl]
+            default: ''
+          - { name: zdroj, label: 'Zdroj', widget: string, required: false }
+
+      # ── Polysémní významy ──
+      - name: vyznamy
+        label: 'Polysémní významy (jen pokud heslo má více významů)'
+        widget: list
+        required: false
+        hint: 'Většina hesel má jen jednu definici (pole výše). Použij jen pro hesla s rozlišitelnými významy podle kontextu (např. „ručka").'
+        fields:
+          - { name: kontext, label: 'Kontext', widget: string, required: true, hint: 'Např. „v hodinařině", „v astronomii", „obecně"' }
+          - { name: definice, label: 'Definice', widget: text, required: true }
+          - name: kategorie
+            label: 'Kategorie (override default)'
+            widget: select
+            required: false
+            options: ['', mechanika, bici, astronomicke, materialy, hodinky, profese, jine]
+            default: ''
+          - name: prameny
+            label: 'Prameny (bibKeys nebo slugy)'
+            widget: list
+            required: false
+            field: { name: pramen, label: 'BibKey / slug', widget: string }
+          - { name: odkaz, label: 'Externí odkaz (URL)', widget: string, required: false }
+
+      # ── Atestace (terminologická proměna napříč prameny) ──
+      - name: atestace
+        label: 'Atestace (terminologické proměny napříč prameny)'
+        widget: list
+        required: false
+        hint: 'Jen pro hesla s prokazatelnou terminologickou proměnou (cca 10–15 hesel, např. rafije → ručka). Většina hesel toto nevyžaduje.'
+        fields:
+          - { name: rok, label: 'Rok', widget: string, required: true, hint: 'Číslo nebo text „kolem 1900"' }
+          - { name: pramen, label: 'Pramen (krátký label)', widget: string, required: true, hint: 'Např. „Špatný" / „Sušický" / „Sladkovský"' }
+          - { name: forma, label: 'Forma slova v tomto prameni', widget: string, required: true }
+          - { name: citace, label: 'Doslovný úryvek', widget: text, required: false }
+          - { name: note, label: 'Komentář', widget: string, required: false }
+          - { name: bibKey, label: 'Zotero bibKey (volitelný)', widget: string, required: false }
+
+      # ── Příbuzné termíny ──
+      - name: pribuzne
+        label: 'Příbuzné slugy (cross-links)'
+        widget: list
+        required: false
+        hint: 'Slugy dalších hesel slovníku (např. „kotva", „palety", „krokove-kolo").'
+        field: { name: slug, label: 'Slug', widget: string }
+
+      # ── References s doslovnými citacemi ──
+      - name: references
+        label: 'Reference (doslovné citace z pramenů)'
+        widget: list
+        required: false
+        fields: *slovnik_reference_fields
+
+      # ── Hero obrázek ──
+      - name: obrazek
+        label: 'Hero obrázek (volitelný)'
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - { name: src, label: 'Cesta', widget: image, required: true }
+          - { name: alt, label: 'Alt text', widget: string, required: true }
+          - { name: caption, label: 'Popisek pod obrázkem', widget: string, required: false }
+          - { name: credit, label: 'Atribuce (autor + licence)', widget: string, required: true }
+
+      - { name: poslednRevize, label: 'Poslední revize (datum)', widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false, required: false, hint: 'Kdy byly citace ověřeny v pramenech.' }
+      - <<: *editor_notes_field
+      - <<: *workflow_field
+      - { name: body, label: 'Výklad hesla (markdown / MDX)', widget: markdown, required: false, hint: 'Plný výklad pod definicí — výklad, kontext, etymologie, citace v blockquote.' }
