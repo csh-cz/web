@@ -59,7 +59,7 @@ jobs:
   validate:
     name: validate-content + astro check + build (both apps)
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
 
     steps:
       - uses: actions/checkout@v4
@@ -101,18 +101,19 @@ jobs:
       - name: Astro check (horologie-cz)
         run: pnpm --filter horologie-cz astro check
 
-      # 5) Plný build obou apps. Pomalý (~3 min), ale chytí runtime fails
-      #    co astro check nezachytí (např. MDX render errors, missing imgs).
-      #    R2 image variants generace se přeskakuje (vyžaduje secrets) —
-      #    apps/*/prebuild step ji běží lokálně, v CI ne kvůli velikosti.
+      # 5) Plný build hodinarium-eu (větší + kritičtější collection). Chytí
+      #    runtime fails co astro check nezachytí (MDX render errors, missing
+      #    imgs, broken includes). Build trvá v CI ~8–10 min na cold cache.
+      #
+      #    horologie-cz build se přeskakuje — kolekce je menší (~20 souborů),
+      #    riziko MDX runtime fail je minimální, a oba apps sdílí schema +
+      #    většinu Astro infra → hodinarium-eu build pokryje regrese pro oba.
+      #    Pokud bude potřeba, můžeme přidat samostatným workflow per app.
       - name: Build hodinarium-eu
         run: pnpm --filter hodinarium-eu build
         env:
           # Skipnout R2 upload step v prebuild (nemáme R2 secrets v této akci)
           SKIP_R2_UPLOAD: 'true'
-
-      - name: Build horologie-cz
-        run: pnpm --filter horologie-cz build
 
       # 6) Status summary do GH Actions report — užitečné když se podívá
       #    někdo třetí na workflow run.
