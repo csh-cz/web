@@ -80,3 +80,8 @@ A možná to není takové překvapení. Pátrání po patentové listině pán�
 Větší a nepříjemné překvapení působí ovšem uchycení stroje do schrány. Stroj je přišroubován čtyřmi šrouby k čelní straně schrány brutálně provrtaným ciferníkem. Schrána sama je z nepříliš kvalitního dřeva, povrchově upravena fládrováním. Dřevěný soustružený rámeček, hlavně jeho přišroubování na ledabyle zadlabaný pant, a zavírací háček nesourodý dojem umocňují. Na druhé straně většina úprav patrně není z poslední doby.
 
 **P**řes popsané nedostatky jde o zajímavé hodiny, ať již je způsob jejich vzniku jakkoliv problematický.
+
+## Vložené komponenty
+
+<iframe src="http://muzeumhodin.info/tabor/tab.php" width="350" height="262" loading="lazy" allowfullscreen></iframe>
+
