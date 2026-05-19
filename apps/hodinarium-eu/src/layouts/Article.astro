@@ -24,6 +24,8 @@ interface Reference {
   type?: 'kniha' | 'clanek' | 'pdf' | 'odkaz' | 'wiki' | 'mapa' | 'patent' | 'archiv' | 'zprava';
   pages?: string;
   note?: string;
+  /** Stabilní anchor klíč pro body `[Autor Year](#ref-key)` link. Viz content.config.ts. */
+  key?: string;
 }
 
 interface KartaExtra { label: string; value: string; }
@@ -291,7 +293,7 @@ const articleJsonLd = {
                 || extractWikiTitle(wUrl)
                 || r.bibKey;
               return (
-                <li id={`ref-${i + 1}`} class="reference reference-wiki" title={pramenTooltip('wiki')}>
+                <li id={`ref-${r.key ?? i + 1}`} class="reference reference-wiki" title={pramenTooltip('wiki')}>
                   {wUrl ? <a href={wUrl} rel="noopener" target="_blank">{wTitle}</a> : <span class="ref-title">{wTitle}</span>}
                   {r.note && <span class="ref-note"> — {r.note}</span>}
                 </li>
@@ -301,7 +303,7 @@ const articleJsonLd = {
             // Ostatní typy: bibKey → citeproc, jinak legacy
             const formatted = r.bibKey ? formatCite(r.bibKey, { pages: r.pages }) : null;
             return (
-              <li id={`ref-${i + 1}`} class={`reference reference-${refType}`} title={pramenTooltip(refType)}>
+              <li id={`ref-${r.key ?? i + 1}`} class={`reference reference-${refType}`} title={pramenTooltip(refType)}>
                 {formatted ? (
                   <span class="ref-cite" set:html={formatted} />
                 ) : (
