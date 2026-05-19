@@ -24,15 +24,15 @@ Kovaný rám obsajuje nyní kyvadlový stroj s vřetenovým krokem v horní nás
 
 Na rámu stroje jsou viditelné známky přestavby. Několikeré rozebírání a sestavování dokládají několikeré značky. Je pravděpodobné, že horní nástavba je novější a stroj byl původně stavěn s [lihýřem](/slovnik/lihyr). To by posouvalo dobu vzniku před 18. století. Bohužel o původu a historii stroje nemáme žádné další informace.
 
-![Fotografie 1](/img/vez/Kli/f/foto_0001.jpg)
+![Celkový pohled na stroj — kovaný rám s prodlouženým kyvadlem nad hřídel](/img/vez/Kli/f/foto_0001.jpg)
 
-![Fotografie 2](/img/vez/Kli/f/foto_0002.jpg)![Fotografie 3](/img/vez/Kli/f/foto_0003.jpg)
+![Detail nástavby s vřetenovým krokem a korunovým kolem](/img/vez/Kli/f/foto_0002.jpg)![Detail rámu — voluty zachovány jen u středních sloupků](/img/vez/Kli/f/foto_0003.jpg)
 
-![Fotografie 4](/img/vez/Kli/f/foto_0004.jpg)![Fotografie 5](/img/vez/Kli/f/foto_0005.jpg)
+![Detail bicího stroje se závěrkovým kolem](/img/vez/Kli/f/foto_0004.jpg)![Detail mechaniky — značky po opakovaném rozebírání](/img/vez/Kli/f/foto_0005.jpg)
 
-![Fotografie 6](/img/vez/Kli/f/foto_0006.jpg)![Fotografie 7](/img/vez/Kli/f/foto_0007.jpg)
+![Detail prodloužené kyvadlové tyče](/img/vez/Kli/f/foto_0006.jpg)![Detail krokového ústrojí (vřetenový krok)](/img/vez/Kli/f/foto_0007.jpg)
 
-![Fotografie 10](/img/vez/Kli/f/foto_0010.jpg)
+![Instalace v okenním výklenku klenotnice Věžního muzejíčka](/img/vez/Kli/f/foto_0010.jpg)
 
 Společná natahovací klika pro jicí a bicí stroj nebyla nalezena. Čočka [kyvadla](/slovnik/kyvadlo) byla rekonstruována. Fotografie stroje jsou kromě poslední pořízeny ještě v restaurátorském ateliéru před konzervováním. Poslední fotografie ukazuje instalaci v okenním výklenku klenotnice Věžního muzejíčka. Nálezový stav neuvádíme, protože stroj by předán v rozebraném stavu.
 
