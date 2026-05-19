@@ -32,22 +32,22 @@ Sladkovský 1947 popisuje **specifické typy a chronologii**:
 **Tři klíčové typy:**
 
 1. **Vídeňský sloupkový regulátor** (Säulenuhr) — vysoké úzké
-   nástěnné hodiny v ozdobné dřevěné skříni se sloupky po stranách,
-   kyvadlo viditelné za sklem; klasicky 1820–1850
+ nástěnné hodiny v ozdobné dřevěné skříni se sloupky po stranách,
+ kyvadlo viditelné za sklem; klasicky 1820–1850
 2. **Rámové hodiny** (Rahmenuhr) — pozdější sloh, prostší rámová
-   skříň bez sloupků, 1850–1880
+ skříň bez sloupků, 1850–1880
 3. **Závažové kyvadlovky** (Wiener Regulator s.s.) — vrchol moderní
-   linie, dlouhý kyvadlový stroj na závaží, vysoká přesnost.
-   1860–1900. Velmi rozšířené v ČR po 1880.
+ linie, dlouhý kyvadlový stroj na závaží, vysoká přesnost.
+ 1860–1900. Velmi rozšířené v ČR po 1880.
 
 **Konstrukčně specifické:**
 
 - **„Vídeňský chod"** (Wiener Gang) — variant kotvového kroku se
-  zvláštní geometrií zubů krokového kola
+ zvláštní geometrií zubů krokového kola
 - **Závažový pohon** se dvěma nebo třemi řetízky (nátahy 1× týdně,
-  bicí stroj samostatně)
+ bicí stroj samostatně)
 - **Smaltovaný emailový ciferník** s římskými čísly, často s mosazným
-  bezelem
+ bezelem
 
 **Konec tradice:**
 
@@ -63,7 +63,7 @@ průmyslovou výrobu. Vídenské dílny ekonomicky nemohly konkurovat
 - **Schwarzwald 1840** přebírá vídeňský vzor mosazných strojů
 - **Pražská cechovní organizace** modeluje vídeňské zvyklosti
 - **České nástěnné kyvadlovky** 1880–1920 jsou často „vídeňského typu"
-  i když vyráběné u nás (Prokeš, Lenzkirch importy, atd.)
+ i když vyráběné u nás (Prokeš, Lenzkirch importy, atd.)
 
 ## Příbuzné termíny
 
@@ -73,13 +73,13 @@ průmyslovou výrobu. Vídenské dílny ekonomicky nemohly konkurovat
 ## Reference
 
 > „Od počátku 19. století až do let devadesátých byly sice velmi oblíbeny vídeňské hodiny sloupkové, pak rámové, nato kyvadlovky závažové. Způsob výroby zůstal však až do úplného zaniknutí zcela primitivní. Mistři s málo dělníky, zato ale s více učedníky, zhotovovali ručně jednodenní jicí, půlové a čtvrťové hodiny."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „[1840] začal tam Lorenc Bob vyráběti stroje mosazné, zprvu jednodenní a později i osmidenní podle vzoru vídeňského."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis Schwarzwald přechodu k mosazi. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis Schwarzwald přechodu k mosazi.
 
 > „Wiener Kalk → vídeňské vápno." *(používané pro leštění hodinkových součástí)*
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Wien–. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Wien–.
 
 ## Obrázky
 

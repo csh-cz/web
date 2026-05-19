@@ -63,16 +63,16 @@ V opravářské praxi se podle Bureše ve vratných krocích setkáme s pěti ty
 ## Reference
 
 > „Kroky dělíme na několik skupin: podle provedení krokového kola a kotvy, podle přenosu síly na regulátor, nebo podle vynálezce. Vžité je rozdělení podle toho, jak se chová krokové kolo při překyvu kyvadla. … Podle zmíněného hlediska, jak se chová krokové kolo při překyvu kyvadla, dělíme kroky do tří základních skupin: 1. kroky vratné, 2. kroky klidové, 3. kroky volné."
-> — BUREŠ, Josef. *Hodinové stroje I — pro 1. ročník odborných učilišť a učňovských škol, učební obor 0463 hodinář, hodinářka.* Státní pedagogické nakladatelství, Praha 1965, s. 97. [Zotero `buresHodinoveStroje1965`]
+> — BUREŠ, Josef. *Hodinové stroje I — pro 1. ročník odborných učilišť a učňovských škol, učební obor 0463 hodinář, hodinářka.* Státní pedagogické nakladatelství, Praha 1965, s. 97.
 
 > „Robertův krok je klidový kotvový krok s kolíčkovým krokovým kolem a se středově umístěnou kotvou."
-> — KNESPL, David. *Robertův krok – oprava chybného označení hodinového kroku.* Zpravodaj Společnosti přátel starožitných hodin, 38/2023, s. 10. [Zotero `SFQ3RQTR`]
+> — KNESPL, David. *Robertův krok – oprava chybného označení hodinového kroku.* Zpravodaj Společnosti přátel starožitných hodin, 38/2023, s. 10.
 
 > „Robertem Hookem 1676 vynalezený anglický zvratný krok, který londýnský hodinář William Clement v roce 1680 do hodinářství zavedl. Jiří Graham, rovněž londýnský hodinář, narozený 1673 v Horsgillu, zemřel 1751 v Londýně, přeměnil tento krok v roce 1720 tím způsobem, že zvratné plochy kotvy upravil na plochy klidu a kolo stupni nechal zabírati směrem opačným."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola o krocích. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola o krocích.
 
 > „spravovací stroj v hodinkách" → die Hemmung
-> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Spravov-ací. [Zotero `JVVP4JT8`]
+> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Spravov-ací.
 
 > „Hemmung, f. zadrženi, zastaweni." (= ne hodinářský termín v 1846, jen obecné „zastavení")
 > — ŠUMAVSKÝ, Josef Franta. *Deutsch-böhmisches Wörterbuch.* 1844, A–J. [archive.org `bub_gb_3ehJAAAAcAAJ`]

@@ -45,10 +45,10 @@ V moderní hodinářské praxi je „kvadrant" často součástí **astrolabií*
 ## Reference
 
 > „Quadrant m. kvadrant, kruho-čtvrť, čtvrtikruh, čtverník. Sonnenquadrant m. sluneční kvadrant, sluneční kruho-čtvrť."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch für Uhr- und Gehäusemacher.* 1882. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch für Uhr- und Gehäusemacher.* 1882.
 
 > „Hodináři té doby robili též mechanické nástroje, složité kvadranty a sextanty k pracím astronomickým."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola pražští hodináři XVI. století. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola pražští hodináři XVI. století.
 
 ## Obrázky
 

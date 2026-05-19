@@ -46,13 +46,13 @@ Sladkovský přidává: **početník čtvrťový** má jen 6–7 zubů (bije nej
 ## Reference
 
 > „Rechen m. početník; der Rechen fällt aus početník vypadá; der Rechen fällt nicht ganz početník úplně nevypadá. Rechenarm m. rameno početníku. Rechenfeder f. zpruha početníku. Rechenzahn m. zub početníku."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Rech–. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Rech–.
 
 > „Bicí stroj s početníkem a stupnicí. Jest to pozdější vynález a liší se od prvního způsobu hlavně tou výhodou, že uplynulou hodinu možno libovolně nechat opakovati, aniž by tím nastala změna v pořadí dalšího bití."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola Zařízení strojů bicích. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola Zařízení strojů bicích.
 
 > „Početník čtvrťový má jen 6–7 zubů, posůvka jedno křídlo a zub. Stupnice o 4 stupních sedí na kole střídném a nese 4 kolíčky výpustné, které zvedají spoušť výmrštnou."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 ## Obrázky
 

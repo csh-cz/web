@@ -45,10 +45,10 @@ Materiál: tradičně mosaz pro tělo + ocelové palety (nebo rubínové kameny 
 > — ŠUMAVSKÝ, Josef Franta. *Deutsch-böhmisches Wörterbuch.* 1844, A–J, heslo Anker. [archive.org `bub_gb_3ehJAAAAcAAJ`]
 
 > „Anker → kotva"
-> — ŠPATNÝ, František (s Krečmerem). *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882. [Zotero `W6VEJ854` / `C84TYRVQ`]
+> — ŠPATNÝ, František (s Krečmerem). *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882.
 
 > „Kotev, tve f. kotva; -né, ého, n. das Ankergeld; -ní Anker."
-> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851. [Zotero `JVVP4JT8`]
+> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851.
 
 ## Obrázky
 

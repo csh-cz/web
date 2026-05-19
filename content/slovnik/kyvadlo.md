@@ -50,13 +50,13 @@ Pro přesné regulátory **kompenzace teploty**:
 ## Reference
 
 > „Kývadl-iště, kývadl-o → Schwingungsebene; die Unruhe bei der Uhr, Perpendikel, Metronom, Pendel."
-> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Kývadl-. [Zotero `JVVP4JT8`]
+> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Kývadl-.
 
 > „Pendel n. kyvadlo; —schlag cva-..." (zlomené v OCR)
 > — ŠUMAVSKÝ, Josef Franta. *Deutsch-böhmisches Wörterbuch.* 1846, díl K–Z, heslo Pendel. [archive.org `bub_gb_GOtJAAAAcAAJ`]
 
 > „Kyvadlo roštové (Graham 1721)" + „kompensační kyvadlo Grahamovo rtuťové"
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 ## Obrázky
 

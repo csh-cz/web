@@ -47,16 +47,16 @@ Besançon = **francouzský protějšek Glashütte / La Chaux-de-Fonds**:
 **Klíčoví francouzští hodináři:**
 
 - **Pierre Le Roy** (1717–1785) — chronometrový krok 1748,
-  konkurenční s Harrisonem; **státní cena 1765** za chronometr
+ konkurenční s Harrisonem; **státní cena 1765** za chronometr
 - **Abraham-Louis Bréguet** (1747–1825) — **vrcholný hodinář**
-  všech dob: tourbillon (1801), parachute pro setrvačku, Bréguetův
-  vlásek, automatická hodinka, Marie-Antoinette komplikace…
-  Pozn.: Bréguet narozen v Neuchâtelu (Švýcarsko), ale **dílna
-  v Paříži** — tradičně řazen k francouzské škole.
+ všech dob: tourbillon (1801), parachute pro setrvačku, Bréguetův
+ vlásek, automatická hodinka, Marie-Antoinette komplikace…
+ Pozn.: Bréguet narozen v Neuchâtelu (Švýcarsko), ale **dílna
+ v Paříži** — tradičně řazen k francouzské škole.
 - **Antide Janvier** (1751–1835) — astronomické hodiny,
-  konkurenční s Bréguetem
+ konkurenční s Bréguetem
 - **Jean-Antoine Lépine** (1720–1814) — **Lépine kalibr**,
-  revolučně tenké kapesní hodinky bez fusee
+ revolučně tenké kapesní hodinky bez fusee
 
 > „**Abraham Louis Bréguet** (* v Neuchatelu 1747, + v Paříži 1825),
 > věhlasný hodinář, provedl mnoho změn ku zdokonalení strojů hodin.
@@ -71,13 +71,13 @@ Besançon = **francouzský protějšek Glashütte / La Chaux-de-Fonds**:
 ## Reference
 
 > „Na francouzském dvoře Karla IX. (1560—1574), jakož i Jindřicha III. (1574—1589) nošeny byly již hodinky různých tvarů, jako mušle, kříže, návěsky a pod. V té době byly kapesní hodiny vyráběny nejvíce jen ve Francii."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Ve Francii kvete průmysl hodinářský poblíže švýcarských hranic, v těsném sousedství mohutného průmyslu švýcarského, v kraji kolem Besançonu a obci Beaucourtu. Střediskem výroby jest Besançon."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Abraham Louis Bréguet (* v Neuchatelu 1747, + v Paříži 1825), věhlasný hodinář, provedl mnoho změn ku zdokonalení strojů hodin. On upravil válečkový krok tak, jak jej dnes spatřujeme, totiž s ocelovým stupníkem."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 ## Obrázky
 

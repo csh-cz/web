@@ -43,10 +43,10 @@ Himmler 2006 charakterizuje typologii cs věžních strojů:
 NPÚ MIS Markvartice 2017 popisuje konkrétní stroj (kostel sv. Jiljí, atribuce Jan Prokeš ze Sobotky, 1. polovina 19. století):
 
 > „Rám stroje: **kovaný klečový rám, spoje klínové**.
-> Rozměry (základní rám stroje): šířka 124 cm, výška 62 + 12 cm,
+> Rozměry (základní rám stroje): šířka 124 cm, výška 62 + 12 cm
 > hloubka 40 cm. Podle způsobu konstrukce a také provedení pochází
 > věžní hodinový stroj z 1. poloviny 19. století. Je zhotoven ještě
-> kovářským způsobem, díly rámu i ozubená kola jsou železná, kovaná,
+> kovářským způsobem, díly rámu i ozubená kola jsou železná, kovaná
 > spoje klínové."
 
 Stejně NPÚ MIS Jičín 2016 pro stroj v kostele sv. Ignáce z Loyoly:
@@ -65,21 +65,21 @@ V 2. polovině 19. století byl klečový rám postupně **vytlačen plochým/ro
 
 ## Reference
 
-> „Stroj věžních hodin, sign. FRANTZ LANS(G?) 1734, Uherské Hradiště,
+> „Stroj věžních hodin, sign. FRANTZ LANS(G?) 1734, Uherské Hradiště
 > kovářská práce. Mohutný rám stroje na osmi prohnutých nohách
 > je složen z pásového železa spojeného maticemi a zakončeného
 > v horní části stáčenými volutovými ozdobami."
-> — HIMMLER, T. *Věžní hodinové stroje ve sbírce Vlastivědného muzea v Olomouci.* 2006. [Zotero `BB7EQHPE`]
+> — HIMMLER, T. *Věžní hodinové stroje ve sbírce Vlastivědného muzea v Olomouci.* 2006.
 
 > „Datace: pravděpodobně před rokem 1850. Rám stroje: kovaný klečový
 > rám, spoje klínové. Krok jícího stroje: kolíčkový krok Roberta de
 > Sancerre. Bicí stroje: čtvrťový a hodinový. … Podle způsobu
 > konstrukce a také provedení pochází věžní hodinový stroj
 > z 1. poloviny 19. století."
-> — NPÚ ÚOP Josefov. *Návrh na prohlášení věžních hodin kostela sv. Jiljí v Markvarticích za kulturní památku.* 24. 1. 2017. [Zotero `HFFICJDA` / `J5QHN6HG`]
+> — NPÚ ÚOP Josefov. *Návrh na prohlášení věžních hodin kostela sv. Jiljí v Markvarticích za kulturní památku.* 24. 1. 2017.
 
-> „Datace: 1. polovina 18. století? Rám stroje: kovaný klečový rám,
+> „Datace: 1. polovina 18. století? Rám stroje: kovaný klečový rám
 > spoje klínové. Krok jícího stroje: vratný krok Clementův. … Díly
 > rámu i ozubená kola jsou kovaná železná, spoje jsou klínové
 > a šroubové."
-> — NPÚ. *Návrh na prohlášení věžních hodin kostela sv. Ignáce z Loyoly v Jičíně za kulturní památku.* 2016. [Zotero `E8NULF2Z`]
+> — NPÚ. *Návrh na prohlášení věžních hodin kostela sv. Ignáce z Loyoly v Jičíně za kulturní památku.* 2016.

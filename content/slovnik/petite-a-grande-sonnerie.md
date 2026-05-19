@@ -60,9 +60,9 @@ Nositel může **přepínat režim** přes selektor:
 **Pozor na rozdíl s repetičními hodinkami:**
 
 - **Grande sonnerie** = automaticky bije čtvrtě + hodiny **při každé
-  čtvrti** (není třeba aktivace)
+ čtvrti** (není třeba aktivace)
 - **Repetiční hodinky** = bijí **jen na požádání** (stisknutím
-  tlačítka / vytažením šňůrky). Rozdíl: **active vs passive**.
+ tlačítka / vytažením šňůrky). Rozdíl: **active vs passive**.
 
 Mnoho prestižních hodinek **kombinuje** obě (grande sonnerie +
 minute repeater) — Patek Philippe 5074, AP Royal Oak Concept
@@ -77,7 +77,7 @@ Grande Sonnerie.
 ## Reference
 
 > „Grande sonnerie vynalezl v roce 1859 Henri Golay v Bruselu. Jest to bicí stroj, který samočinně bije hodiny a čtvrtě, stisknutím spouště opakovací bije pak hodiny, čtvrtě a minuty."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 ## Obrázky
 

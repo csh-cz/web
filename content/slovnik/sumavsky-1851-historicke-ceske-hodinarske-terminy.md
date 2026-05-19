@@ -99,8 +99,8 @@ neobjeví se v Špatném 1882 ani v moderní cs.
 
 Z 36 Šumavského hesel se v moderní cs **plně udrželo** jen **2**:
 - **rafika** / **rafije** — zachováno jako alternativní synonymum
-  „ručičky" (zejména v poezii a archaicky stylizovaných textech;
-  „rafije" je v RomanReichl typografii)
+ „ručičky" (zejména v poezii a archaicky stylizovaných textech;
+ „rafije" je v RomanReichl typografii)
 - **hodinařit** (sloveso) — zachováno (ač řidčeji)
 
 **Většina** (časoměr, čísliště, číslovník, čepima, kolostroj,
@@ -108,9 +108,9 @@ pršící, komítací, závěšadlo, krokvička, kyvák, kolisadlo, větrober,
 kotejsadlo, kuželíček, vláločit, postupováček) **se neujala**.
 Důvody:
 1. **Špatný 1882** vyhrál jako autoritativní cs/de hodinářský
-   slovník, vstoupil do cechovní organizace
+ slovník, vstoupil do cechovní organizace
 2. **Sušický 1900** kodifikoval v učebnici „krok", „setrvačka",
-   „soukolí", „ciferník" — moderní termíny
+ „soukolí", „ciferník" — moderní termíny
 3. **Sladkovský 1947** dále upevnil moderní cs
 
 Šumavského termíny ale zůstávají **cenné pro filolologickou
@@ -145,7 +145,7 @@ poznámkami a referencemi.
 > rafije (dvouhláska), ručička. Etymologie „rafije" pravděpodobně
 > z arabského *rāfi'ah* (zvedat) přes evropský arabský vliv 13.–14.
 > století."
-> — Glosar entry `rafika-rafije-1851`. [Zotero `JVVP4JT8`]
+> — Glosar entry `rafika-rafije-1851`.
 
 ## Obrázky
 

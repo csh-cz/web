@@ -74,23 +74,23 @@ U **astronomických číselníků** přestává být ciferník jen ukazatelem č
 **Pražský orloj** je vzorovým příkladem této typologie. Pakosta v *STO LET LITOMYŠLSKÉHO ORLOJE 1907–2007* shrnuje:
 
 > „Astronomický ciferník je astroláb poháněný hodinovým strojem orloje.
-> **Znázorňuje geocentrický model vesmíru** s nehybnou Zemí uprostřed,
+> **Znázorňuje geocentrický model vesmíru** s nehybnou Zemí uprostřed
 > kolem níž obíhá Slunce, Měsíc a znamení zvěrokruhu nebeské sféry."
-> — PAKOSTA. *STO LET LITOMYŠLSKÉHO ORLOJE 1907–2007.* [Zotero `IVSGJLYL`]
+> — PAKOSTA. *STO LET LITOMYŠLSKÉHO ORLOJE 1907–2007.*
 
-Astronomický ciferník Pražského orloje je dokumentován k roku 1410. **Kalendářní deska** (dnes Mánesova z 1865) byla doplněna později, v 15. století. Konstrukce stupnic se opírá o **stereografickou projekci** povrchu nebeské sféry — viz Skála *Nepřesnosti v konstrukci původního astrolábu* (2013, [Zotero `9MSY6PPS`]) a Křížek/Šolc *Astronomické omyly provázející pražský orloj* (2010, [Zotero `HMCFJF6X`]).
+Astronomický ciferník Pražského orloje je dokumentován k roku 1410. **Kalendářní deska** (dnes Mánesova z 1865) byla doplněna později, v 15. století. Konstrukce stupnic se opírá o **stereografickou projekci** povrchu nebeské sféry — viz Skála *Nepřesnosti v konstrukci původního astrolábu* (2013) a Křížek/Šolc *Astronomické omyly provázející pražský orloj* (2010).
 
 **Pražský orloj ručičky a stupnice:**
 - **Pevný střed** — Země; nepohyblivý znak Starého Města pražského do 1648
 - **Otáčejivý prstenec znamení zvěrokruhu** — Mánesovy postavy 1865
-- **Rafije Slunce + Měsíc + hvězdná ručička** s lidskou rukou na konci (viz Pakosta + Křížek *600 let Pražského orloje*, [Zotero `6SIMRV4V`])
+- **Rafije Slunce + Měsíc + hvězdná ručička** s lidskou rukou na konci (viz Pakosta + Křížek *600 let Pražského orloje*)
 - **Pomocná stupnice s arabskými číslicemi** na vnějším černém prstenci — staročeské 24hodinové dělení
 - **Římské číslice I–XII** na vnitřní stupnici — středoevropský čas
 - **Kalendárium** v dolním ciferníku — 12 obrazů měsíců, cisiojanus
 
 Podobně **Benátská Torre dell'Orologio** má pevný mramorový kruh s římskými hodinami, pohyblivý prstenec se znameními zvěrokruhu, ručičku Slunce a disk Země s Měsícem. Původní pozdně středověká podoba měla dokonce zobrazovat **planety podle ptolemaiovského systému**.
 
-**Olomoucký orloj** představuje paralelní cs typologii — viz Knespl *Chyba planetního číselníku olomouckého orloje* ([Zotero `LRCSJ3KF`]) a komplexní cyklus Knesplových studií *Anaforické hodiny* ([Zotero `KIWB52MD`]), *Giloš* ([Zotero `GNUKXYP8`]), *Pobaltské orloje Wismar Lübeck* ([Zotero `H8ZLR2J2`]).
+**Olomoucký orloj** představuje paralelní cs typologii — viz Knespl *Chyba planetního číselníku olomouckého orloje* a komplexní cyklus Knesplových studií *Anaforické hodiny*, *Giloš*, *Pobaltské orloje Wismar Lübeck*.
 
 ## Číselník jako kosmologický „čas různého druhu"
 
@@ -124,7 +124,7 @@ Na štítu **Židovské radnice** v Praze (proti Staronové synagoze) se nacház
 > se pohybují proti směru hodinových ručiček**. Navíc menší ručička
 > ukazuje minuty, větší pak hodiny. **Koncepce ciferníku je rarita
 > i v židovské kultuře.**"
-> — KRÁL, Petr. *Židovské hodiny z roku 1764.* hodinarium.eu, 2017,
+> — KRÁL, Petr. *Židovské hodiny z roku 1764.* hodinarium.eu, 2017
 > upd. 2020. Cross-link: [/clanky/zidovske](/clanky/zidovske).
 
 Stroj v půdě radnice pohání **více ciferníků současně** (štít + věžička) přes komplikované převody — viz [ukazovací stroj](/slovnik/ukazovaci-stroj). Hebrejský ciferník je tak nejen kulturní kuriozita, ale **kompletní inženýrské řešení** zrcadlového převodu z normálního chodu stroje do zpětného chodu jediného ciferníku.
@@ -192,7 +192,7 @@ Tomu odpovídají **dvě prohozené ručky proti dnešnímu zvyku**. NPÚ MIS Ma
 > jen k cifrám I–IIII **menšího minutového ciferníku vyznačeného uvnitř
 > ciferníku hodinového**. Ručky a cifry byly pravděpodobně zlaceny."
 > — NPÚ. *Návrh na prohlášení Markvartice / Jičín za kulturní památku.*
-> 2016, 2017. [Zotero `HFFICJDA` / `J5QHN6HG` / `E8NULF2Z`]
+> 2016, 2017.
 
 ### Proč jsou ručky „prohozené" — čtyři důvody
 
@@ -208,14 +208,14 @@ Není to estetická volba, ale **funkční konvence**. Konečky obou ručiček m
 
 **3. Čitelnost z dálky — hodinová ručka musí být viditelná z náměstí.** Věžní ciferník je čten ze vzdálenosti **20–100 m**. Hodinová ručka musí být dlouhá, široká, kontrastní, aby ji bylo vidět; minutová (sekundární údaj) může být kratší a tenčí. Romuald Božek v *Nové městské hodiny* (1859, ed. Knespl 2024) tuto zásadu formuluje jako vědomé pravidlo:
 
-> „Snadné a pohodlné odečítání času je vlastním účelem všech hodin,
-> a proto **nejdůležitějším prvkem na vnější straně každých hodin,
+> „Snadné a pohodlné odečítání času je vlastním účelem všech hodin
+> a proto **nejdůležitějším prvkem na vnější straně každých hodin
 > zejména věžních nebo pouličních, jsou jejich číselníky.** Není tedy
 > jedno, zda mají číselníky krátké nebo dlouhé, tlusté nebo tenké
 > číslice a zda mají ručky krátké nebo dlouhé. **Čím více se číslice
-> prodlužují, tím kratší, a tedy méně viditelná je hodinová ručka,
+> prodlužují, tím kratší, a tedy méně viditelná je hodinová ručka
 > což je rozhodně špatně.**"
-> — BOŽEK, Romuald (ed. Knespl 2024). [Zotero `99WRKNS4`]
+> — BOŽEK, Romuald (ed. Knespl 2024).
 
 Božkův argument se tedy přímo vztahuje k barokní logice: hodinová ručka **musí** být dlouhá a robustní, jinak utopuje v ornamentu ciferníku.
 
@@ -229,7 +229,7 @@ Barokní dva-ručkový ciferník je **mezikrok** mezi středověkým jedno-ručk
 > hodinami** označovaly půlhodiny. O minutách nebo dokonce sekundách
 > nebyla řeč."
 > — BILFINGER, G. *Die mittelalterlichen Horen und die modernen Stunden:
-> ein Beitrag zur Kulturgeschichte.* 1892. [Zotero `TF5QAS76`]
+> ein Beitrag zur Kulturgeschichte.* 1892.
 
 **Chronologie evropských věžních ciferníků:**
 
@@ -251,7 +251,7 @@ V Čechách k tomuto obratu dochází **postupně v průběhu 19. století**; mn
 
 ### Paralelní vývoj interiérových a věžních číselníků v 17. století
 
-Skála (2005, [Zotero `GYTWGESX`]) upozorňuje, že **se vznikem druhé — minutové — ručky se od počátku rozeběhly dvě paralelní linie vývoje**, nikoli jedna sekvence:
+Skála (2005) upozorňuje, že **se vznikem druhé — minutové — ručky se od počátku rozeběhly dvě paralelní linie vývoje**, nikoli jedna sekvence:
 
 - **Interiérové hodiny:** minutová ručka **DELŠÍ a štíhlejší** než hodinová, hrot obíhá po **vnějším obvodu** hodinového číselníku, kam byl přimalován **vnější minutový kruh** s arabskými ciframi po 5 minutách. Toto je schéma, na které jsme zvyklí dnes.
 - **Věžní hodiny:** minutová ručka **KRATŠÍ a menší plochy** než hodinová, oběhne za hodinu po **vnitřním minutovém číselníku** s římskými ciframi I–IIII (= čtvrti). Toto je barokní věžní schéma popsané výše.
@@ -260,7 +260,7 @@ Skála (2005, [Zotero `GYTWGESX`]) upozorňuje, že **se vznikem druhé — minu
 > dvěma směry — u hodin interiérových vzniklo schéma s ručkou
 > minutovou ‚velkou' a u hodin věžních s ručkou minutovou ‚malou'."
 > — SKÁLA, Petr. *Ciferníky věžních hodin na památkově chráněné
-> architektuře.* Památky středních Čech 19, 2005, č. 2. [Zotero `GYTWGESX`]
+> architektuře.* Památky středních Čech 19, 2005, č. 2.
 
 Důvod rozdílu byl praktický: u **věžního číselníku čteného z 20–100 m** je vnitřní čtvrťový číselník čitelnější než drobné minutové dílky na obvodu. Hodinová ručka mohla zůstat masivní, minutová byla potlačena na sekundární údaj.
 
@@ -322,9 +322,9 @@ Toto řešení vzniklo z technické nemožnosti umístit dvě ručky na jednu os
 Barokní dva-ručkový ciferník se rozšířil **napříč katolickou Evropou** v 17.–18. století:
 
 - **Čechy a Morava** — typický pro venkovské kostelní i radniční hodiny; dochovaný v Jičíně, Markvarticích, Borotíně, Třebovicích ve Slezsku a desítkách dalších objektů (NPÚ MIS dokumenty)
-- **Hansovní města severního Německa** — Schukowski 2009 popisuje typologii pro **Stralsundskou Nikolaikirche**: starší typ ciferníku s možností číst **temporální (proměnlivé) i ekvinokční (rovnoměrné) hodiny současně** ([Zotero `UWNCIXIQ`])
+- **Hansovní města severního Německa** — Schukowski 2009 popisuje typologii pro **Stralsundskou Nikolaikirche**: starší typ ciferníku s možností číst **temporální (proměnlivé) i ekvinokční (rovnoměrné) hodiny současně**
 - **Středomořská a jihoněmecká oblast** — barokní ciferníky kostelů (Salzburg, Mnichov, alpská údolí)
-- **Pražský orloj** — sice astronomický specialitě, ale i jeho 4 vnitřní tabulky (Erben 2016 [Zotero `5EPYPG78`]) odpovídají **logice rozvrstvené informace**: zvlášť minuty/čtvrti (1× za hodinu rotující ručka), zvlášť 12 hodin (postupně), zvlášť astronomická stupnice
+- **Pražský orloj** — sice astronomický specialitě, ale i jeho 4 vnitřní tabulky (Erben 2016) odpovídají **logice rozvrstvené informace**: zvlášť minuty/čtvrti (1× za hodinu rotující ručka), zvlášť 12 hodin (postupně), zvlášť astronomická stupnice
 
 V protestantské oblasti severní Evropy (Anglie, Nizozemí) se přechod na moderní minutovou ručku odehrál o něco dříve (~konec 17. stol., Tompion, Graham), kdežto v katolické střední Evropě barokní schéma přežívalo **až do 19. století**.
 
@@ -347,7 +347,7 @@ Některé německé věžní hodiny řešily přesnost **bez minutové ručky** 
 > ist. **Ein Minutenzeiger ist auch heute überflüssig**, wenn der Zeiger
 > von 1932 nicht unglücklich konstruiert wäre."
 > — MOSEL. *Die Astronomische Uhr im St.-Paulus-Dom in Münster.*
-> [Zotero `HU6I4WC2`]; viz též `IEB7E5YF` *Domuhr+14-11.pdf*.
+>; viz též `IEB7E5YF` *Domuhr+14-11.pdf*.
 
 Hodinová ručka „neplynule schleicht" jako dnes — **trhavě poskakuje** každou minutu, jako vteřinová ručka moderních hodinek. Na ciferníku s jemným dělením 2×12 hodin (= 1440 minutových značek po obvodu) **stačí jediná ručka** k odečtení času na minutu přesně. Toto řešení odpovídá raně novověké preferenci jedné ručky a vysvětluje, proč **většina starých kostelních hodin minutovou ručku nepotřebovala**.
 
@@ -363,7 +363,7 @@ V Anglii vznikl v polovině 19. století celý žánr **průvodců pro architekt
 > the minute hand which terminates in a **blunt point**."
 > — BENSON, J. W. *A Few Notes on Church & Turret Clocks: Addressed to
 > Architects, the Clergy, & Others Interested in Procuring Them.*
-> London, 1863. [Zotero `7D5UC346`]
+> London, 1863.
 
 > „The **utility of a public Clock will, of course, depend much on the
 > distance which the dial and hands can be clearly seen**, and great
@@ -373,9 +373,9 @@ Benson dále upozorňuje, že **hodinová ručka má srdcový tvar konce** (= š
 
 ### Francouzský venkovský úzus — Janvier 1811
 
-Pro venkovské obce vznikl ve Francii samostatný oborový spisek. **A.-L. Janvier** *Essai sur les horloges publiques pour les communes de la campagne* (1811) formuluje technické pravidla **pro malé kostelní hodiny** s důrazem na **finanční omezení** venkovských zadavatelů a **nezbytnou minimální čitelnost** z náměstí. [Zotero `MXKNWN3U`]
+Pro venkovské obce vznikl ve Francii samostatný oborový spisek. **A.-L. Janvier** *Essai sur les horloges publiques pour les communes de la campagne* (1811) formuluje technické pravidla **pro malé kostelní hodiny** s důrazem na **finanční omezení** venkovských zadavatelů a **nezbytnou minimální čitelnost** z náměstí.
 
-Souběžně Wagner *Description d'une horloge publique en fer fondu* (1822, Paris) popisuje technologii **litinových rámů** pro veřejné hodiny — nahrazuje tradiční kovaný železný rám a snižuje výrobní cenu. [Zotero `R4LC3DGQ`]
+Souběžně Wagner *Description d'une horloge publique en fer fondu* (1822, Paris) popisuje technologii **litinových rámů** pro veřejné hodiny — nahrazuje tradiční kovaný železný rám a snižuje výrobní cenu.
 
 ### Pražský orloj v německém popisu — Kaulich 1866
 
@@ -390,10 +390,10 @@ Hugo **Kaulich** v *Erklärung und Beschreibung der Kunstuhr am altstädter Rath
 > „Es geschah dieses einfach dadurch, dass auf dem Stundenblatte selbst
 > der nöthige **Zifferkreis mit zweimal zwölf Stunden** aufgetragen wurde.
 > Man findet diese **deutschen Stunden nahe gegen den böhm. Stundenring**.
-> Sie waren bisher stets **mit rother Farbe, in römischer Schrift I bis XII**,
+> Sie waren bisher stets **mit rother Farbe, in römischer Schrift I bis XII**
 > unmittelbar auf dem Zifferblatte aufgetragen."
 > — KAULICH. *Erklärung und Beschreibung der Kunstuhr am altstädter Rathause
-> in Prag.* 1866. [Zotero `UCGTRXDX`]
+> in Prag.* 1866.
 
 Dva detaily významné pro pochopení orlojního ciferníku:
 1. **Hodinová ručka skáče po minutách** (jako Münster — typicky pro 14.–17. století)
@@ -445,17 +445,17 @@ Dva detaily významné pro pochopení orlojního ciferníku:
 
 ### Bibliografická literatura pro další studium
 
-Z Himmlerovy bibliografie 2006 ([Zotero `BB7EQHPE`]) a dalších:
+Z Himmlerovy bibliografie 2006 a dalších:
 
 - **DURDÍK, T.** *Středověké mechanické hodiny.* Archaeologia Historica, 1991, sv. 16, s. 345–355. (Pre-barokní kontext)
 - **HAVRLANT, P.** *Z historie věžních hodin a ciferníků aneb Jak vypadaly věžní hodiny na radniční věži v Ostravě.* Zpravodaj Ostravského muzea 11, 2004, č. 3, s. 24–31.
 - **KYNČL, R.** *Věžní hodiny.* In: Hodiny a hodinky. Praha 2001, s. 44–57.
-- **SCHUKOWSKI, M.** *Uhren in Kirchen aus hansischer Zeit — eine Familie, zwei Generationen, drei Väter.* 2009. [Zotero `UWNCIXIQ`] (Hansovní pobaltské kostelní hodiny — starší typ ciferníku s temporálními i ekvinokčními hodinami)
-- **BILFINGER, G.** *Die mittelalterlichen Horen und die modernen Stunden: ein Beitrag zur Kulturgeschichte.* 1892. [Zotero `TF5QAS76`] (Středověký kontext, vznik moderní hodiny)
-- **UNGERER, A.** *Les horloges astronomiques et monumentales les plus remarquables de l'Antiquité jusqu'à nos jours.* Nákladem autora, Strasbourg 1931. (Cited in [Zotero `29HLV667`, `9QXJJXMJ`])
+- **SCHUKOWSKI, M.** *Uhren in Kirchen aus hansischer Zeit — eine Familie, zwei Generationen, drei Väter.* 2009. (Hansovní pobaltské kostelní hodiny — starší typ ciferníku s temporálními i ekvinokčními hodinami)
+- **BILFINGER, G.** *Die mittelalterlichen Horen und die modernen Stunden: ein Beitrag zur Kulturgeschichte.* 1892. (Středověký kontext, vznik moderní hodiny)
+- **UNGERER, A.** *Les horloges astronomiques et monumentales les plus remarquables de l'Antiquité jusqu'à nos jours.* Nákladem autora, Strasbourg 1931. (Cited in)
 - **HORSKÝ, Z.** *Astronomy and the art of clockmaking in the fourteenth, fifteenth and sixteenth centuries.* Vistas in Astronomy 9 (1967), 25–34.
 - **DOHRN-VAN ROSSUM, G.** *L'histoire de l'heure: horlogerie et organisation moderne du temps.* Paris, 1997. (Standard work on rise of modern time consciousness)
-- **SNYDER, J.** *A King's Treasury Could Not Compare: Making Clocks Tick in Fourteenth-Century Europe.* PhD thesis 2021. [Zotero `NLQ5CVJL`] (Medieval clocks combined *hourly, calendrical, astronomical, and religious time in a single device*)
+- **SNYDER, J.** *A King's Treasury Could Not Compare: Making Clocks Tick in Fourteenth-Century Europe.* PhD thesis 2021. (Medieval clocks combined *hourly, calendrical, astronomical, and religious time in a single device*)
 
 ## Číselník jako památkový palimpsest
 
@@ -490,7 +490,7 @@ Zavedení minutové ručičky je kulturně zajímavé: ukazuje **přechod od mě
 > vyznačeným po obvodu ciferníku, a **menší ručka minutová** dosahovala
 > jen k cifrám I–IIII menšího **minutového ciferníku vyznačeného uvnitř
 > ciferníku hodinového**."
-> — NPÚ. *Návrh na prohlášení Jičín sv. Ignác.* 2016. [Zotero `E8NULF2Z`]
+> — NPÚ. *Návrh na prohlášení Jičín sv. Ignác.* 2016.
 
 Toto **rozdělení na dva soustředné ciferníky** (vnější hodinový + vnitřní minutový do 4) je barokní řešení — bicí čtvrťový stroj je primární, „minuty" jsou interpolace mezi čtvrtěmi. **Moderní 60minutový vnější kruh** (s plnou stupnicí 0–59) je až produkt pozdního 19. století, kdy se po regulační reformě 1891 přesnost rozšířila na minuty napříč pravidly železniční dopravy.
 
@@ -536,24 +536,24 @@ Podsvícení (lit-from-behind, dial illumination) je technika ze 2. poloviny 19.
 
 > „Na soboteckou radniční věž umístil **roku 1860, údajně jako první v Rakousku**, hodiny
 > s průsvitným podsvíceným číselníkem, aby vážení měšťané viděli, v kolik jdou z hospody domů."
-> — KNESPL, David. *Jan Prokeš, hodinář ze Sobotky. 200 let od narození.* 2018. [Zotero `35DKG7WY`]
+> — KNESPL, David. *Jan Prokeš, hodinář ze Sobotky. 200 let od narození.* 2018.
 
 **Pražský orloj 1865/66** — **Ludvík Hainz** (1814–1898), pražský hodinář, byl autorem realizace průsvitných ciferníků. Doloženo *Zprávou o starobylém orloji* (Erben et al.):
 
 > „Zřízení pak těchto **nočních hodin průsvitných svěřených panu
 > Hainzovi samému**, kterýž se byl již léta **1856**, když v radě
-> městské byla řeč, aby ty hodiny byly obnoveny, **za to přimlouval,
+> městské byla řeč, aby ty hodiny byly obnoveny, **za to přimlouval
 > aby se k nim také přidělati dal ciferník času středního, jenž by
 > v noci byl osvětlován**."
 
 Hainz tedy průsvitné podsvícení **navrhoval od roku 1856** a realizoval **v rámci velké opravy orloje 1865/66**. Dobovou ódu na novou orloj zaznamenal *Chvalozpěv* F. X. J. M. (1866), strofa 11:
 
 > „Přidány dva ciferniky nově
-> Z obou radnice výklenku stran,
-> Plynem osvícený v noční době,
+> Z obou radnice výklenku stran
+> Plynem osvícený v noční době
 > By se na ně ve tmách ohled bral.
-> By noční dobou čas zvěstovaly,
-> Tak zevrubně, jako když je den,
+> By noční dobou čas zvěstovaly
+> Tak zevrubně, jako když je den
 > V noci účel pěstovaly…"
 
 **Krečmerův plynový automat 1866 — automatizace zapalování.** Když Hainzovy průsvitné ciferníky vyžadovaly noční zapínání/zhasínání plynu, mladý hodinář **Václav Krečmer** (1844–1918) zkonstruoval jednoduchý plynový automat. Sám Krečmer ve své přednášce 1883 toto rané dílo označoval za **„pouhý experiment"** ve srovnání se svým pozdějším vodárenským efemeridním automatem. Není to tedy příspěvek ke konstrukci ciferníku samotnému, ale ke **konstrukci jeho ovládání**.
@@ -593,9 +593,9 @@ Na číselnících věžních hodin se **římská čtyřka tradičně píše II
 
 | Skupina | Znaky |
 |---|---|
-| I.   | I  II  III  IIII |
-| II.  | V  VI  VII  VIII |
-| III. | IX  X  XI  XII   |
+| I. | I II III IIII |
+| II. | V VI VII VIII |
+| III. | IX X XI XII |
 
 **3. Čitelnost na radiálním číselníku.** Číslice jsou typicky orientované paprskovitě ke středu. Při natočení / horším osvětlení / poškození se zápis IV snáze plete s VI; IIII tuto záměnu vylučuje.
 
@@ -660,7 +660,7 @@ Vlastní hodiny pro lékárníka Hubatku (popsané v *Über astronomische Uhren*
 > „**Střední plocha ciferníku je nebesky modrá, číselník pak bílý
 > a na něm se nacházející římské číslice jsou černé.** Na slabé
 > tyčce, dosahující od středu ciferníku až k číslicím, je upevněno
-> lesklé Slunce ve tvaru koule, pod nímž se nachází malá ručička,
+> lesklé Slunce ve tvaru koule, pod nímž se nachází malá ručička
 > ukazující nataženým ukazováčkem na celé hodiny, čtvrthodiny a též
 > mezi nimi."
 
@@ -671,26 +671,26 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 > „Ciferníky jsou tři, kruhového tvaru o průměru cca 180 cm. Kované
 > železné rámy jsou potaženy železným plechem. Ručkové stroje a kostry
 > ruček jsou kované, plochy ruček železné tepané ve tvaru trojlístku."
-> — NPÚ. *Návrh na prohlášení věžních hodin kostela sv. Ignáce z Loyoly v Jičíně za kulturní památku.* 2016. [Zotero `E8NULF2Z`]
+> — NPÚ. *Návrh na prohlášení věžních hodin kostela sv. Ignáce z Loyoly v Jičíně za kulturní památku.* 2016.
 
 > „Registrátor času, ukazuje uplynulý čas na **číselníku** hodin."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900.
 > (Sušický 1900 v plném textu střídá *číselník* (4×) a *ciferník* (6×) jako rovnocenná synonyma; v této definici užívá *číselník*.)
 
 > „Ručky mají větší právo být jasně viditelné a rozpoznatelné než
 > číslice, protože čas se dá určit i bez všech číslic, jen podle polohy
 > jasně viditelných ruček."
-> — BOŽEK, Romuald. *Die neue Stadtuhr / Nové městské hodiny.* 1859,
-> ed. Knespl 2024. [Zotero `99WRKNS4`]
+> — BOŽEK, Romuald. *Die neue Stadtuhr / Nové městské hodiny.* 1859
+> ed. Knespl 2024.
 
 > „Střední plocha ciferníku je nebesky modrá, číselník pak bílý
 > a na něm se nacházející římské číslice jsou černé."
 > — BOŽEK, Romuald. *Über astronomische Uhren / O astronomických hodinách.*
-> 1894. [Zotero `53MNBESG`]
+> 1894.
 
-> „Dlouhé pojednání o tom, jak psát číslice na hodinových cifernících,
+> „Dlouhé pojednání o tom, jak psát číslice na hodinových cifernících
 > aby byly snadno čitelné. (Romuald Božek, 1893)"
-> — DOLENSKÝ, A. *Inventář NTM Josef a Romuald Božek.* 1935. [Zotero `ZK5ARYU9`]
+> — DOLENSKÝ, A. *Inventář NTM Josef a Romuald Božek.* 1935.
 > (Samostatný Božkův spis z 1893, rukopis v Archivu NTM — věnovaný čistě typografii číselníků.)
 
 > „Nad ním se nachází černý ciferník věžních hodin s bílými rafijemi
@@ -702,13 +702,13 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 > v Rakousku, hodiny s průsvitným podsvíceným číselníkem."
 > — KNESPL, David. *Jan Prokeš, hodinář ze Sobotky. 200 let od narození.*
 > Zpravodaj Společnosti přátel starožitných hodin, č. 88, 2018, s. 7–12.
-> [Zotero `35DKG7WY`]
+>
 
 > „Přidány dva ciferniky nově / Z obou radnice výklenku stran, /
 > Plynem osvícený v noční době, / By se na ně ve tmách ohled bral."
 > — F. X. J. M. *Chvalozpěv astronomický, staroslavný, pověstný nově
 > zřízený časoměr radnici staroměstského náměstí.* Praha, 1866, strofa 11.
-> [Zotero `P6XWW876`]
+>
 > (Dobová óda na Pražský orloj po opravě 1865/66; samotný text Chvalozpěvu
 > však **nezmiňuje konkrétně autora podsvícených ciferníků** — to je
 > doloženo až *Zprávou o starobylém orloji* a dalšími prameny.)
@@ -720,7 +720,7 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 > byl osvětlován."
 > — ERBEN, K. J. et al. *Zpráva o starobylém orloji na radnici Starého
 > města Pražského.* [Reedice 2016 — Praha: Národní památkový ústav.]
-> [Zotero `5EPYPG78`]
+>
 > (Doslovný zdroj autorství podsvícení = **Ludvík Hainz**, navrhoval
 > od 1856, realizoval 1865.)
 
@@ -731,15 +731,15 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 > Ludvíkem Hainzem … kardinál arcibiskup kníže ze Schwarzenberka
 > [posvětil] nový i starý stroj orloje, jenž pak o půlnoci na rozhraní
 > roku 1865 a 1866 byl spuštěn."
-> — *Staroměstský orloj v Praze.* Čech: politický týdenník katolický,
-> roč. 18, č. 51 (4. 3. 1886) a č. 53 (6. 3. 1886). [Zotero `I2QY5HH8`]
+> — *Staroměstský orloj v Praze.* Čech: politický týdenník katolický
+> roč. 18, č. 51 (4. 3. 1886) a č. 53 (6. 3. 1886).
 > (Dobový primární doklad o tom, že **Prokeš ze Sobotky model
 > vystavil, zakázku ale nezískal — opravu i podsvícení realizoval
 > Hainz** 1865/66. PDF stažen z Kramerius MZK 2026-05-14, public
 > domain.)
 
 > — KREČMER, V. *O plynovém automatu na hodinách na staroměstské vodárně.*
-> Národní listy, roč. 23, č. 23, 27. 1. 1883, s. 3. [Zotero `52Z2ZSUR`]
+> Národní listy, roč. 23, č. 23, 27. 1. 1883, s. 3.
 > (Krečmerova přednáška o vodárenském efemeridním automatu 1883;
 > zmínka o jeho ranějším automatu na Pražském orloji **1866** jako
 > „pouhém experimentu".)
@@ -754,21 +754,21 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 > konvenci; folklorní teorie (Jupiter, Karel V., Ludvík XIV.) uvedeny
 > jako tradice, nikoli jako historicky doložená vysvětlení.
 
-> KRÁL, Petr. *Židovské hodiny z roku 1764.* hodinarium.eu, 2017,
+> KRÁL, Petr. *Židovské hodiny z roku 1764.* hodinarium.eu, 2017
 > upd. 2020. Cross-link: [/clanky/zidovske](/clanky/zidovske).
 > (Stroj Sebastian Londensperger 1764, restaurace Petr Skála 90. léta —
 > patrně nejstarší hebrejské hodiny na veřejném místě. Zrcadlový chod
 > ručiček odpovídá hebrejskému čtení zprava doleva.)
 
-> PAKOSTA, F. *STO LET LITOMYŠLSKÉHO ORLOJE 1907–2007.* [Zotero `IVSGJLYL`]
+> PAKOSTA, F. *STO LET LITOMYŠLSKÉHO ORLOJE 1907–2007.*
 > (Astronomický ciferník jako geocentrický model — paralelní k pražskému
 > orloji, kalendářní deska a struktura astronomického číselníku.)
 
 > SKÁLA, Petr. *Nepřesnosti v konstrukci původního astrolábu staroměstského
-> orloje.* 2013. [Zotero `9MSY6PPS`]
+> orloje.* 2013.
 
 > SKÁLA, Petr. *Ciferníky věžních hodin na památkově chráněné architektuře.*
-> Památky středních Čech 19, 2005, č. 2, s. 61–70. [Zotero `GYTWGESX`]
+> Památky středních Čech 19, 2005, č. 2, s. 61–70.
 > (Klíčový přehled vývoje českých věžních číselníků od středověku po
 > moderní dobu — paralelní linie interiérové vs věžní v 17. stol., 5 typů
 > pozdějších úprav barokních ciferníků, spolehlivá pravidla pro rozpoznání
@@ -779,19 +779,19 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 > dokonalé.)
 
 > — KŘÍŽEK, M., KŘÍŽEK, P., ŠOLC, J. *Astronomické omyly provázející pražský
-> orloj.* 2010. [Zotero `HMCFJF6X`]
+> orloj.* 2010.
 > (Komentář k astronomickým interpretacím orloje.)
 
-> — KŘÍŽEK, M. *600 let Pražského orloje.* 2009. [Zotero `6SIMRV4V`]
+> — KŘÍŽEK, M. *600 let Pražského orloje.* 2009.
 > (Souhrn architektonického vývoje + rafije Slunce + Měsíc + kalendárium.)
 
 > — KNESPL, David. *Chyba planetního číselníku olomouckého orloje.* 2021.
-> [Zotero `LRCSJ3KF`]
+>
 > (Paralelní cs astronomický číselník + jeho konstrukční chyba.)
 
 ## Související článek
 
 Detailní fotodokumentovaný přehled způsobů osvětlení hodin viz článek
 [Svítící hodiny](/clanky/svitici) — od plynového podsvícení Pražského orloje
-a Big Benu přes vnitřní a vnější reflektory věžních hodin po autohodiny,
+a Big Benu přes vnitřní a vnější reflektory věžních hodin po autohodiny
 noční budíky a Art Deco lampy.

@@ -48,13 +48,13 @@ pribuzne:
 ## Reference
 
 > „V roce 1860 uveřejnil francouzský inženýr Eduard Phillips svoje znamenitá studia o vláskové křivce, kterou možno docíliti isochronismu malých i velkých kyvů setrvačky."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Podle teorie francouz. inženýra Eduarda Phillipse jest pravidlo pro vlásek isochronický vyjádřeno následujícím vzorcem … Tvar křivky může býti libovolný, jen když odpovídá 3 hlavním podmínkám: 1. Činná délka křivky musí se rovnati polovině zevního obvodu vlásku. 2. Těžiště křivky t musí se nacházeti…"
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola Phillipsova vlásková křivka. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola Phillipsova vlásková křivka.
 
 > „Breguetspirale f. vlásek Breguetův."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Breguet–. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Breguet–.
 
 ## Obrázky
 

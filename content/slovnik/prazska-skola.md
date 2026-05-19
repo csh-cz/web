@@ -42,22 +42,22 @@ tradice + středoevropské obchodní pozice.
 **Moderní fáze** (od 1860):
 
 - **Václav Krečmer** — výrobník věžních hodin, autor přednášky
-  „o hodinářském průmyslu ve Francii a Švýcarsku" v Průmyslové
-  jednotě 1871. Inspirace pro Špatného slovník.
+ „o hodinářském průmyslu ve Francii a Švýcarsku" v Průmyslové
+ jednotě 1871. Inspirace pro Špatného slovník.
 - **František Špatný** (1882) — Německo-český slovník pro hodináře a
-  pouzdráře, vydán pražským hodinářským společenstvem.
+ pouzdráře, vydán pražským hodinářským společenstvem.
 - **V. R. Sušický** (1900) — *Hodinářství, pro praktickou potřebu
-  hodinářů a škol odborných*, učebnice.
+ hodinářů a škol odborných*, učebnice.
 - **Josef Sladkovský** (1947) — *Učebnice odborné nauky hodinářské*,
-  vrcholová moderní syntéza, vyšla v Jednotě společenstev hodinářů.
+ vrcholová moderní syntéza, vyšla v Jednotě společenstev hodinářů.
 
 **Specifické rysy:**
 
 - **Silná astronomická tradice** (orloj jako symbol)
 - **Trojjazyčná tradice** (česky / německy / latinsky) — Špatný 1882
-  je explicitně cs/de bilingual, vyhovuje obyvatelstvu Prahy té doby
+ je explicitně cs/de bilingual, vyhovuje obyvatelstvu Prahy té doby
 - **Spolková organizace** — společenstvo hodinářské (předchůdce
-  cechu), pak Jednota společenstev po 1918
+ cechu), pak Jednota společenstev po 1918
 
 ## Příbuzné termíny
 
@@ -67,13 +67,13 @@ tradice + středoevropské obchodní pozice.
 ## Reference
 
 > „Na prvním místě stojí pražský orloj, který zámečník Jan Růže v roce 1480 zhotovil a Jan Táborský z Klokotské Hory, společně s Danielem Skřivanem, v roce 1552 zdokonalil."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Z císařských hodinářů zdomácněl v Novém městě Kunrát Steffenbauer, rodem Švýcar. R. 1605 přijal měšťanské právo… Od císaře Rudolfa obdržel privilegium na slévání cymbálů."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Po delším pobytu ve Francii a Švýcarsku pana Václava Krečmera, hodináře, později výrobníka věžních hodin, měl on dne 26. ledna 1871 v průmyslové jednotě v Praze českou přednášku o hodinářském průmyslu ve Francii a Švýcarsku."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, předmluva (geneze slovníku). [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, předmluva (geneze slovníku).
 
 ## Obrázky
 

@@ -42,7 +42,7 @@ Hlavní [jicí stroj](/slovnik/krok) v dřevěné skříni je středověkého p�
 Skála ve zprávě k tomu poznamenává:
 
 > „U složitějších věžních strojů (orloje, astronomické hodiny) ukazovací stroj zahrnuje mnohonásobné výstupy — kromě běžných ručiček i indikátor astronomického data, fází měsíce, znamení zvěrokruhu, kalendářů, planetních pohybů. Seřízení záběru ozubení vyžaduje individuální posouzení pro každý výstup."
-> — SKÁLA, Petr. *Závěrečná zpráva o restaurování stroje a příslušenství Pražského orloje a věžních hodin na věži Staroměstské radnice.* Prosinec 2018. [Zotero `NKIEQQ6E`]
+> — SKÁLA, Petr. *Závěrečná zpráva o restaurování stroje a příslušenství Pražského orloje a věžních hodin na věži Staroměstské radnice.* Prosinec 2018.
 
 ### 2. Podružné stroje za ciferníky
 
@@ -95,20 +95,20 @@ Publikační činnost (výběr):
 
 ## Reference
 
-> SKÁLA, Petr. *Závěrečná zpráva o restaurování stroje a příslušenství Pražského orloje a věžních hodin na věži Staroměstské radnice.* Praha: Atelier věžních hodin, prosinec 2018. [Zotero `NKIEQQ6E`]
+> SKÁLA, Petr. *Závěrečná zpráva o restaurování stroje a příslušenství Pražského orloje a věžních hodin na věži Staroměstské radnice.* Praha: Atelier věžních hodin, prosinec 2018.
 > (Primární zdroj — interní restaurátorský dokument, předaný NPÚ a Magistrátu hl. m. Prahy.)
 
 > SKÁLA, Petr. *Vývoj podoby astrolábu Pražského orloje.* Průzkumy památek XXIII, 1/2016, s. 97–110.
 > (Vývoj astrolábového ciferníku 1410 → dnes; dokumentární fotografie Groll 1856 z NTM jako referenční stav před velkou opravou 1864–65.)
 
-> ČERNÁ, Bára. *Přehled výzkumu k obnově hodinového stroje staroměstského orloje v Praze v letech 1864–1865.* Staletá Praha 28, 2012, č. 1. [Zotero `HFLZIA85`]
+> ČERNÁ, Bára. *Přehled výzkumu k obnově hodinového stroje staroměstského orloje v Praze v letech 1864–1865.* Staletá Praha 28, 2012, č. 1.
 > (Historický kontext velké opravy 1864–65 — archivní výzkum dobové diskuse o zachování středověkého stroje vs. výroba nového.)
 
-> ERBEN, Karel Jaromír et al. *Zpráva o starobylém orloji na radnici Starého města Pražského.* Reedice 2016 — Praha: Národní památkový ústav. [Zotero `5EPYPG78`]
+> ERBEN, Karel Jaromír et al. *Zpráva o starobylém orloji na radnici Starého města Pražského.* Reedice 2016 — Praha: Národní památkový ústav.
 > (Dobový primární zdroj o opravě 1864–66; explicitní zmínka Hainzových podsvícených ciferníků, autorství Holuba pod vedením Daňka, slavnostní spuštění orloje o půlnoci na rozhraní let 1865/1866.)
 
-> *Staroměstský orloj v Praze.* Čech: politický týdenník katolický, roč. 18, č. 51 (4. 3. 1886) a č. 53 (6. 3. 1886). [Zotero `I2QY5HH8`]
+> *Staroměstský orloj v Praze.* Čech: politický týdenník katolický, roč. 18, č. 51 (4. 3. 1886) a č. 53 (6. 3. 1886).
 > (Dobový primární doklad o tom, že Prokeš ze Sobotky model orloje vystavil, zakázku ale nezískal — opravu i podsvícení realizoval Hainz 1865/66.)
 
-> KNESPL, David. *Progress versus tradition — traditional craftsmanship and attempts at industrial tower clock production in the Czech lands in the 19th century.* Acta Polytechnica 64(3):237–245, 2024. [Zotero `IDRANSBM`]
+> KNESPL, David. *Progress versus tradition — traditional craftsmanship and attempts at industrial tower clock production in the Czech lands in the 19th century.* Acta Polytechnica 64(3):237–245, 2024.
 > (Sekce o Holubovi a Daňkově karlínské strojírně 1865-66 — kontext opravy orloje + jediný realizovaný plod plánované sériové výroby věžních hodin: stroj pro karlínský kostel sv. Cyrila a Metoděje 1866.)

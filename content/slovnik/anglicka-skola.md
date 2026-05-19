@@ -57,11 +57,11 @@ Anglie je tedy také **kolébkou repetičních hodinek** (Barlow + Quare).
 
 Po 1800 anglické hodinářství **úpadá**:
 - Zavržené válečkového kroku → drahá výroba šneku → cenová
-  nekompetitivnost
+ nekompetitivnost
 - Švýcarská sériová výroba (po 1820) přebírá střední trh
 - 1850 jen **Greenwich a několik dílen** (Frodsham, Dent, Mercer) drží
-  vrchol — **lodní chronometry**, kde je anglická tradice nadále
-  superlativní:
+ vrchol — **lodní chronometry**, kde je anglická tradice nadále
+ superlativní:
 
 > „Nejlepší jsou i dnes **anglické lodní chronometry**. Střediskem
 > jich výroby, jakož i věžních hodin, jest Londýn."
@@ -75,16 +75,16 @@ Po 1800 anglické hodinářství **úpadá**:
 ## Reference
 
 > „V Anglii počala výroba hodin v 16. století a zkvétala až do 18. století. Následkem toho, že angličtí vyrabitelé hodin lpěli houževnatě na starém zvyku a zhotovovali napořád stroje se šnekem, zavrhujíce úplně krok válečkový, nalezly v Anglii [úpadek]."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola Anglie. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola Anglie.
 
 > „Edward Barlov, anglický hodinář (* 1636, + 1716), sestrojil v roce 1676 první čtvrťové opakovačky. V roce 1691 zařídil tento jím vynalezený čtvrťový stroj též pro kapesní hodiny, který anglický hodinář Daniel Quare pozměnil tak, že pouze jedním stisknutím opakovaly."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Nejlepší jsou i dnes anglické lodní chronometry. Střediskem jich výroby, jakož i věžních hodin, jest Londýn."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Englisch anglický; englische Feile pilník anglický; englischer Haken anglický hák [= kotvový krok]."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Englisch. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Englisch.
 
 ## Obrázky
 

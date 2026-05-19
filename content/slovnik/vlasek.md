@@ -46,16 +46,16 @@ Princip izochronismu vlasové pružinky popsal **Édouard Phillips 1860** (termi
 ## Reference
 
 > „Spirale → spirála, vlásek; Breguetspirale → vlásek Breguetův; Chronometerspirale → vlásek časoměru"
-> — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882. [Zotero `W6VEJ854`]
+> — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882.
 
 > „pero vlasové → Haarfeder"
-> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Pero. [Zotero `JVVP4JT8`] *(historický kontext: substantivum „vlásek" v 1851 ještě nezavedeno, jen adjektivní „pero vlasové")*
+> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Pero. *(historický kontext: substantivum „vlásek" v 1851 ještě nezavedeno, jen adjektivní „pero vlasové")*
 
 > „spirálový tvar vlásku 1674, vlásek kalený 1847 (Lutz)"
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Phillips 1860, isochronismus malých i velkých kyvů"
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 ### Phillipsova matematika — 3 podmínky pro isochronní vlásek
 
@@ -66,11 +66,11 @@ splňující isochronismus podle Phillipsova vzorce (1860):
 > hlavním podmínkám:
 >
 > 1. **Činná délka křivky musí se rovnati polovině zevního obvodu
->    vlásku.**
+> vlásku.**
 > 2. **Těžiště křivky t musí se nacházeti na přímce BD, která stojí
->    kolmo k přímce AC.**
+> kolmo k přímce AC.**
 > 3. **Vzdálenost těžiště t od středu vlásku s musí se rovnati
->    dvojmoci poloměru vlásku, dělené činnou délkou křivky.**"
+> dvojmoci poloměru vlásku, dělené činnou délkou křivky.**"
 
 V Phillipsově vzorci `ζ = r²/d`, kde:
 - ζ — vzdálenost těžiště terminální křivky od středu vlásku
@@ -99,7 +99,7 @@ Immichova křivka:
 - **Snazší zhotovení** v dílně (z volných papírových šablon)
 - **Snazší korekce** (regulátor s kolíčky 90°)
 - **Mírná aproximace** Phillipsova ideálu — isochronismus do malých kyvů,
-  pro velké horší o ~1–2 s/d
+ pro velké horší o ~1–2 s/d
 
 V dnešní výrobě je Phillipsův přesný overcoil **dosažitelný jen u
 luxury kalibrů** (Patek Philippe, A. Lange & Söhne, FP Journe), zatímco
@@ -110,13 +110,13 @@ geometrickou křivkou.
 **Reference (Phillipsova detail):**
 
 > „Podle teorie francouz. inženýra Eduarda Phillipse jest pravidlo pro vlásek isochronický vyjádřeno následujícím vzorcem, v němž ζ značí těžiště křivky, r poloměr vlásku a d činnou délku křivky: ζ = r²/d. Vzorec tento doplňuje věta: Těžiště křivky musí ležeti na přímce, která stojí v pravém úhlu k poloměru vlásku na počátku křivky, a vzdálenost jeho od středu vlásku rovná se dvojmoci poloměru vlásku, dělené činnou délkou křivky."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola Phillipsova vlásková křivka. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola Phillipsova vlásková křivka.
 
 > „Tvar křivky může býti libovolný, jen když odpovídá 3 hlavním podmínkám: 1. Činná délka křivky musí se rovnati polovině zevního obvodu vlásku. 2. Těžiště křivky t musí se nacházeti na přímce BD, která stojí kolmo k přímce AC. 3. Vzdálenost těžiště t od středu vlásku s musí se rovnati dvojmoci poloměru vlásku, dělené činnou délkou křivky."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „[Immichovu vláskovou křivku] tvar její neodpovídá přesně pravidlům Phillipsovým, má tu výhodu, že křivka je velmi jednoduchá, možno ji v praxi lehce zhotoviti i případnou opravu isochronismu lze [provádět snadno]. Činná délka křivky rovná se zde rovněž polovině zevního obvodu vlásku a vzdálenost kolíčků ručky korekční i upevnění zevního konce od středu rovná se ²⁄₃ poloměru vlásku. Špalíček a kolíčky rovné ručky korekční svírají úhel 90°."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola Immichova praktická křivka. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola Immichova praktická křivka.
 
 ## Obrázky
 

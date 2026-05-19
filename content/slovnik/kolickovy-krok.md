@@ -163,7 +163,7 @@ V citacích z primárních pramenů ponecháváme původní znění (i nejednozn
 ## Reference
 
 > „Kroky kolíčkové ... 276. Krok Brocotův ... 278."
-> — HAJN, Miroslav. *Základy jemné mechaniky a hodinářství.* SNTL, Praha 1953, obsah kapitoly IX. [Zotero `9MK4QIHS`]
+> — HAJN, Miroslav. *Základy jemné mechaniky a hodinářství.* SNTL, Praha 1953, obsah kapitoly IX.
 
 > „Důležitou modifikací je kolíčkový krok pro věžní hodiny, sestrojený 1741 Amantem. Změna spočívá v tom, že stoupací kolo je hladké a do jeho věnce rovnoběžně s osou jsou nasazeny kolíčky. Kotva má tvar nůžek na koncích opatřených ocelovými zuby."
 > — HAJN 1953, popis obr. 139 (varianta A).
@@ -172,34 +172,34 @@ V citacích z primárních pramenů ponecháváme původní znění (i nejednozn
 > — HAJN 1953, popis obr. 144 (varianta B).
 
 > „Kolíčkový krok je nejjednodušším volným krokem setrvačkových hodin. Krokové kolo je mosazné, má obvykle 15 zubů (u roskopek 18 zubů). Rovněž kotva s vidlicí je mosazná. Palety mají tvar kolíčků a jsou ocelové, kalené."
-> — MARTÍNEK, Zdeněk; ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964, obr. 43 (varianta B). [Zotero `LXZWE6KE`]
+> — MARTÍNEK, Zdeněk; ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964, obr. 43 (varianta B).
 
 > „U přenosných strojů se setrvačkou se nejlépe osvědčil krok chronometrový, avšak v běžné praxi je nejpoužívanější hlavně krok švýcarský a kolíčkový."
-> — BUREŠ, Josef. *Hodinové stroje III.* SPN, Praha 1974, s. 18 (varianta B). [Zotero `WDDY29VD`]
+> — BUREŠ, Josef. *Hodinové stroje III.* SPN, Praha 1974, s. 18 (varianta B).
 
 > „Hodinář francouzský Amant sestrojil r. 1741. krok koláčkový [tj. kolíčkový]. … Tuto vadu opravil a tím krok kolíčkový zdokonalil Lepaute. Seslabil původně kulaté kolíčky na polovičku a ramena tak upravil, že jedno šlo před a druhé za kolem. Kolo opatřil dvěma řadami kolíčků."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900, s. 172 (varianta A). [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900, s. 172 (varianta A).
 
 > „Krok stroje (kotvový, válečkový, kolíčkový)."
-> — BOUKAL, Jaromír. *Opravy hodinek.* 1958, s. 18 — typologie hodinkových kroků (varianta B). [Zotero `KQVUX5CB`]
+> — BOUKAL, Jaromír. *Opravy hodinek.* 1958, s. 18 — typologie hodinkových kroků (varianta B).
 
 > „Drei Ankerhemmungen sind zu bezeichnen: 1. der ruhende Ankergang auch Grahamgang genannt; 2. der ruhende Stiftengang, dessen beste Anordnung der Brocotgang ist; 3. der Turmuhrstiftengang."
-> — DIETZSCHOLD, Curt. *Die Hemmungen der Uhren.* 1905, s. 88. [Zotero `3BFA92ND`]
+> — DIETZSCHOLD, Curt. *Die Hemmungen der Uhren.* 1905, s. 88.
 
 > „Stiftengang for regulators and turret clocks — with movable arms — with pallets attached to pendulum rod — Vulliamy's pin escapement with movable arms."
-> — SAUNIER, Claudius. *A Treatise on Modern Horology in Theory and Practice.* 1887, obsah kapitoly o pin escapements. [Zotero `25YXVRCA`]
+> — SAUNIER, Claudius. *A Treatise on Modern Horology in Theory and Practice.* 1887, obsah kapitoly o pin escapements.
 
 > „Od roku 1824, kdy můj otec u hodin, které vyráběl, zavedl namísto špatného vratného kroku s obyčejnou kotvou klidový Grahamův a Lepautův kolíčkový krok, byl a je první z těchto kroků napodobován všemi hodináři. … Lepautův klidový krok má na krokovém kole kolíky místo zubů."
-> — BOŽEK, Romuald (1897), překlad KNESPL, David. *Romuald Božek. Die neue Stadtuhr.* 2024 (varianta A). [Zotero `99WRKNS4`]
+> — BOŽEK, Romuald (1897), překlad KNESPL, David. *Romuald Božek. Die neue Stadtuhr.* 2024 (varianta A).
 
 > „Krok jícího stroje: kolíčkový krok Roberta de Sancerre. Tento málo rozšířený krok používal později při stavbě hodinových strojů významný hodinář Jan Prokeš ze Sobotky."
-> — NPÚ ÚOP Josefov. *Návrh na prohlášení věžních hodin kostela sv. Jiljí v Markvarticích za kulturní památku.* 2017 (varianta A). [Zotero `HFFICJDA`]
+> — NPÚ ÚOP Josefov. *Návrh na prohlášení věžních hodin kostela sv. Jiljí v Markvarticích za kulturní památku.* 2017 (varianta A).
 
 > „použití specifického klidového kotvového kroku s kolíčkovým krokovým kolem a se středově umístěnou kotvou."
-> — KNESPL, David. *Robertův krok – oprava chybného označení hodinového kroku.* Zpravodaj SPSH 38/2023, s. 10 — formulační vzor pro variantu A. [Zotero `SFQ3RQTR`]
+> — KNESPL, David. *Robertův krok – oprava chybného označení hodinového kroku.* Zpravodaj SPSH 38/2023, s. 10 — formulační vzor pro variantu A.
 
 > „Stroj s mosazným soukolím má regulaci formou kolíčkového kotvového kroku."
-> — HIMMLER, Radim. *Věžní hodinové stroje ve sbírce Vlastivědného muzea v Olomouci.* 2006 (varianta A, kompozitní termín). [Zotero `BB7EQHPE`]
+> — HIMMLER, Radim. *Věžní hodinové stroje ve sbírce Vlastivědného muzea v Olomouci.* 2006 (varianta A, kompozitní termín).
 
 > „Kolíčkový vestavný krok ER."
-> — VAJSAR, Jaroslav. *Technologie náramkových hodinek Prim.* 2005 — průmyslové označení (varianta B). [Zotero `3VMIS9JD`]
+> — VAJSAR, Jaroslav. *Technologie náramkových hodinek Prim.* 2005 — průmyslové označení (varianta B).

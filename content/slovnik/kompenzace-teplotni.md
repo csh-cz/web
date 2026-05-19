@@ -54,16 +54,16 @@ Klíčové vynálezy:
 ## Reference
 
 > „Aby se vyrovnal vliv teploty, tak jako je u hodin věžních, musí býti postaráno o zvláštní zařízení kyvadla, kterému se říká kompenzace t. j. vyrovnání."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola Kompenzace. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola Kompenzace.
 
 > „Kromě tohoto důležitého vynálezu podařilo se ještě Grahamovi sestrojiti v roce 1721 rtuťové a roštové kompensační kyvadlo, čímž i vliv různé teploty na chod hodin byl z valné části vyrovnán."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „U kapesních hodin a lodních chronometrů vyrovnává vliv různé teploty setrvačka kompensační, sestrojená ze dvou kovů o nestejném koefficientu roztaživosti, ocele a mosazi."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Compensation f. vyrovnání, kompensace. Compensationspendel m. kyvadlo vyrovnávací."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882.
 
 ## Obrázky
 

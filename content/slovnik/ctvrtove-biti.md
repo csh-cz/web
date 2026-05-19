@@ -74,13 +74,13 @@ Sladkovský 1947 popisuje **čtvrťový bicí stroj** v tělese sekce
 ## Reference
 
 > „Hodiny čtvrťové byly rovněž na konci XVII. století vynalezeny."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Soukolí stroje čtvrťového je podobné hodinovému, má však menší počet zubů i zdvižných kolíčků. Početník čtvrťový má jen 6—7 zubů, posůvka jedno křídlo a zub. Stupnice o 4 stupních sedí na kole střídném a nese 4 kolíčky výpustné, které zvedají spoušť výmrštnou."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis čtvrťového stroje. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis čtvrťového stroje.
 
 > „Viertelhammer m. kladívko čtvrťové. Viertelhammerauflage f. opírka kladívka čtvrťového. Viertelrohr n. čtvrťová trubička. Viertelschelle f. cimbál čtvrťový, c. pro čtvrti. Viertelschnabel m. zobáček čtvrťový."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, hesla Viertel–. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, hesla Viertel–.
 
 ## Obrázky
 

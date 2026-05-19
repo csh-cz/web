@@ -48,19 +48,19 @@ V češtině 19. století Šumavský 1851 razil ražený purismus **„časoměr
 ## Reference
 
 > „Krok chronometrový. Volný krok kotvový jest nejvíce rozšířen u kapesních hodinek. Jeho základ spočívá na klidném kroku kotvovém Grahamem zavedeném u hodin kyvadlových. Krok ten dovoluje pouze malý oblouk výkyvu..."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola o krocích. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola o krocích.
 
 > „Krok chronometrový zřizuje se ve dvou různých tvarech konstruktivních. U prvního tvaru je rameno klidu, přezmen, upevněno na ose, která se pohybuje mezi dvěma čípky. O horní díl tohoto ramene opírá se kolo chodové..."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900.
 
 > „[u kroku chronometrového s pérovým detentem] tvoří ramena klidu a péro jedinou společnou část, protože péro je prodloužením ramene."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900.
 
 > „Vynálezcem kroku volného čili svobodného je Francouz Pierre le Roy."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900.
 
 > „Časoměr → Chronometer, Zeitmaß"
-> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851. [Zotero `JVVP4JT8`]
+> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851.
 
 ## Obrázky
 

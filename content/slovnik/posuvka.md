@@ -40,13 +40,13 @@ Funkce posůvky **při bití**: kolo s posůvkou se otáčí synchronně s úder
 ## Reference
 
 > „Místo kotoučku zapadacího čili srdcovky nese prodloužený čep tak zvanou posůvku, která posunuje jedním otočením početník vždy o jeden zub."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, Bicí stroj s početníkem a stupnicí. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, Bicí stroj s početníkem a stupnicí.
 
 > „U hodin čtvrťových, opakovacích, jest hodinový stroj upraven jako u půlových bicích. Rozdíl pozůstává v tom, že početník má všechny zuby stejné výšky, západka stojí zde ve směru obráceném a má na opačné straně jednoramenné zakončení, posůvka je dvojitá se dvěma křídly i zuby."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Početník čtvrťový má jen 6–7 zubů, posůvka jedno křídlo a zub."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis čtvrťového stroje. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis čtvrťového stroje.
 
 ## Obrázky
 

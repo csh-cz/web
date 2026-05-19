@@ -43,16 +43,16 @@ Spouštění bicího stroje provádí **spoušť** (Auslösung) napojená na jic
 ## Reference
 
 > „Schlagwerk n. bicí stroj. Schlagwerksfeder f. pero bicího stroje."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch für Uhr- und Gehäusemacher.* 1882, heslo Schlag–. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch für Uhr- und Gehäusemacher.* 1882, heslo Schlag–.
 
 > „Užije-li se tíže za hnací sílu pro stroj hodinový, užije se téže síly pro hnaní stroje bicího. Z téže příčiny je druhé závaží pro stroj bicí zavedeno, mají-li tlouci hodiny. Mají-li oznamovati i čtvrtě, je nové závaží užito a proto takové hodiny se třemi závažími jsou zařízeny na trojí natahování."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola o bicím přístroji. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola o bicím přístroji.
 
 > „U bicích strojů hodin rozeznáváme 2 hlavní druhy, a to: 1. S kolem závěrkovým a raménkem zapadacím, 2. s početníkem a stupnicí."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola Zařízení strojů bicích. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola Zařízení strojů bicích.
 
 > „Grande sonnerie vynalezl v roce 1859 Henri Golay v Bruselu. Jest to bicí stroj, který samočinně bije hodiny a čtvrtě, stisknutím spouště opakovací bije pak hodiny, čtvrtě a minuty."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 ## Obrázky
 

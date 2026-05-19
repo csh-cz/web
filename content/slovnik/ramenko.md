@@ -45,13 +45,13 @@ Tedy u dvourežimového bicího stroje (kombinace závěrkového kola + srdcovky
 ## Reference
 
 > „Ze 3 ramének, a to raménka výpustného, které je zvedáno kolíčkem, vyčnívajícím buďto z kola střídného nebo čtvrťového, a které opět zvedá raménko zapadací a zároveň zadržuje kolo náběžné při náběhu."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Dále jest to dvojité raménko zapadací, které jednou částí zapadá do srdcovky a zastavuje oběh stroje tím, že nepropustí kolíček kola náběžného. Druhou částí, která u šotských hodin je ze železného drátu ohnutý háček, zapadá do úzkých mezer kola závěrkového."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Arm m. rameno; kleiner A. raménko. Hammerarm m. raménko, rameno kladívka. Hammerstange f. raménko kladívka."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Arm a Hammer. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Arm a Hammer.
 
 ## Obrázky
 

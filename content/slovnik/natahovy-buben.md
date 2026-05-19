@@ -69,12 +69,12 @@ NPÚ MIS Jičín 2016 detailněji popisuje historické bubny:
 > „Tři nátahové bubny pro jicí stroj a bicí stroje čtvrtí a celých
 > hodin jsou umístěny podélně. … Tři nátahové válce pro bití čtvrtí
 > i celých hodin jsou umístěny paralelně."
-> — HIMMLER, T. *Věžní hodinové stroje ve sbírce Vlastivědného muzea v Olomouci.* 2006. [Zotero `BB7EQHPE`]
+> — HIMMLER, T. *Věžní hodinové stroje ve sbírce Vlastivědného muzea v Olomouci.* 2006.
 
 > „Lanové bubny jsou dřevěné, lana původně konopná, závaží kamenná,
 > zavěšená na volných kladkách zhotovených ze dřeva."
-> — NPÚ. *Návrh na prohlášení věžních hodin kostela sv. Ignáce z Loyoly v Jičíně za kulturní památku.* 2016. [Zotero `E8NULF2Z`]
+> — NPÚ. *Návrh na prohlášení věžních hodin kostela sv. Ignáce z Loyoly v Jičíně za kulturní památku.* 2016.
 
 > „Závaží byla zavěšena vevnitř věže na dlouhých lanech navíjených
 > na dřevěné nátahové válce."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900.

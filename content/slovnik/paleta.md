@@ -43,13 +43,13 @@ Materiál palety:
 ## Reference
 
 > „palety vcházejíci s vydutou a vycházejíci plochou rovnou..."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, sekce o kotvovém kroku. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, sekce o kotvovém kroku.
 
 > „úhel klidu rovná se 1° až 2°" + „palety a rovná se 0,35 rozdělení."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, geometrie kroku. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, geometrie kroku.
 
 > „Ankerlappen → ozub kotvičný; Ankerlappenstein → kamínek ozubový; Ankerschräge → úkos kotvičný."
-> — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882. [Zotero `W6VEJ854`]
+> — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882.
 
 ## Obrázky
 

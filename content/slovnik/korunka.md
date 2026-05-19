@@ -37,7 +37,7 @@ chronometrů a kapesních repeticí, kvůli tradici).
 Špatný 1882 dokumentuje terminologickou **trojici** v cs ekvivalentech:
 - **Krone** → „koruna" (obecně)
 - **Bügelkrone** → „korunka natahovací" (s diminutivním tvarem pro
-  kapesní hodinky)
+ kapesní hodinky)
 - **Couronne** (fr půjčené přes Švýcarsko) → „korunka"
 - **Remontoirkrone** → „korunka natahovací" (=remontorky)
 
@@ -45,7 +45,7 @@ chronometrů a kapesních repeticí, kvůli tradici).
 1. **Pozice 0** (zatlačená) — natahování pera
 2. **Pozice 1** (vytažená částečně) — rychlé nastavení data / dne
 3. **Pozice 2** (vytažená plně) — nastavení času (často **stop-second**
-   pauzuje setrvačku pro přesnou synchronizaci)
+ pauzuje setrvačku pro přesnou synchronizaci)
 
 U **GMT hodinek** (s druhou časovou zónou) je často **prostřední
 pozice** pro nezávislé nastavení 24-h ručky.
@@ -61,13 +61,13 @@ vodotěsnost — uživatel ji musí odšroubovat než vytáhne.
 ## Reference
 
 > „Krone f. (bei Remontoiruhren) koruna. Bügelkrone f. korunka natahovací. Couronne f. korunka. Remontoirkrone f. korunka natahovací."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, hesla Bügel-, Couronne, Krone, Remontoir-. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, hesla Bügel-, Couronne, Krone, Remontoir-.
 
 > „Remontoiruhr f. remontorky, hodinky bez klíčku k natahování."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Remontoiruhr. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Remontoiruhr.
 
 > „Dalekosáhlého významu byl vynález natahování hodin kapesních korunkou. Nestalo se tak pojednou, nýbrž postupně. Různé pokusy jsou známy již s počátku 19. století, avšak první praktický způsob pochází z roku 1840 od firmy Bréguet v Paříži."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola o moderních kapesních hodinkách. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola o moderních kapesních hodinkách.
 
 ## Obrázky
 

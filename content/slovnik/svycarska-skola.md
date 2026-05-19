@@ -50,23 +50,23 @@ hugenotská perzekuce ve Francii.
 **Specifické vynálezy a typy:**
 
 - **Établissage** — distribuovaná výroba, mistr montuje stroj z dílů
-  od desítek subdodavatelů. **Důsledek:** rychle scaluje výroba,
-  ale kvalita variabilní. Vrcholné firmy (Patek, AP) postupně
-  přechodí na **manufaktura** (vše in-house).
+ od desítek subdodavatelů. **Důsledek:** rychle scaluje výroba,
+ ale kvalita variabilní. Vrcholné firmy (Patek, AP) postupně
+ přechodí na **manufaktura** (vše in-house).
 - **Roskopf 1867** — **levné lidové hodinky** (Pin-pallet kotva,
-  ETA later). Dle Sladkovského: „velmi levné, ale s velmi nízkou
-  přesností."
+ ETA later). Dle Sladkovského: „velmi levné, ale s velmi nízkou
+ přesností."
 - **Geneva Seal** (1886) — certifikace luxusních hodinek vyrobených
-  v ženevském kantonu, 12 kvalitativních kritérií.
+ v ženevském kantonu, 12 kvalitativních kritérií.
 - **COSC** (1973) — Contrôle Officiel Suisse des Chronomètres,
-  centralizovaná chronometr certifikace.
+ centralizovaná chronometr certifikace.
 
 **Vrcholní hodináři:**
 
 - **Abraham-Louis Bréguet** (1747–1825, narozen v Neuchâtelu, dílna
-  Paříž — viz [francouzská škola](#francouzská-škola))
+ Paříž — viz [francouzská škola](#francouzská-škola))
 - **Adolphe Nicole** (1862, švýcarský původ, dílna Londýn — viz
-  [chronograf](#chronograf))
+ [chronograf](#chronograf))
 - **Henri Piguet** (Vallée de Joux, chronograf 1862)
 - **Henri Golay** (Brusel 1859 — Grande sonnerie, viz [opakovací hodinky](#opakovací-hodinky))
 
@@ -79,16 +79,16 @@ hugenotská perzekuce ve Francii.
 ## Reference
 
 > „Koncem 16. století zabýval se též i ve Švýcarsku větší počet hodinářů výrobou kapesních hodin. Počátek učinil tam hodinář Karel Cusin, narozený v Autunu ve Francii, který v roce 1587 začal v Ženevě vyráběti kapesní hodiny. Záhy se výroba tamní zmohla, neboť v roce 1601 byl tam již zřízen první cech hodinářů."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Střediskem výroby lepších druhů hodin, zvláště složitých, opakovaček, chronografů a chronometrů, jest Ženeva, středních druhů pak La Chaux-de-Fonds."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Schweizeruhr f. švýcarské hodiny."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Schweiz–. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Schweiz–.
 
 > „Po delším pobytu ve Francii a Švýcarsku pana Václava Krečmera, hodináře, později výrobníka věžních hodin, měl on dne 26. ledna 1871 v průmyslové jednotě v Praze českou přednášku o hodinářském průmyslu ve Francii a Švýcarsku."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, předmluva. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, předmluva.
 
 ## Obrázky
 

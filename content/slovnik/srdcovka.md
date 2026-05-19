@@ -40,16 +40,16 @@ Pro **bicí stroj typu I (závěrkový)** Sladkovský pro stejnou funkci použí
 ## Reference
 
 > „Z kola s kotoučkem zapaďacím, zvaným srdcovka. Jeden úder kladívka odpovídá jednomu otočení srdcovky a poměr převodu mezi kolem spodním a srdcovkou rovná se počtům kolíčků zdvižných."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Jakmile raménko zapadací vpadne do srdcovky, zachytí kolíček zástavný a stroj ustane okamžitě v oběhu. Poměr převodu mezi kolem náběžným a srdcovkou musí býti rovněž vyrovnaný."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Místo kotoučku zapadacího čili srdcovky nese prodloužený čep tak zvanou posůvku, která posunuje jedním otočením početník vždy o jeden zub."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Herzrad n. kolo zástavné. Herzradeinfallarm m. zástavník."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Herz–. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Herz–.
 
 ## Obrázky
 

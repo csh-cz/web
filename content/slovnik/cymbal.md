@@ -39,13 +39,13 @@ Sušický cituje vzácně doložené **cymbálové orloje** (například původn
 ## Reference
 
 > „Glocke f. zvon; das Glöcklein zvonec, zvoneček, cimbál. Glockenfuss m. noha cimbálu, noha zvonečku. Glockenspiel n. zvonkostroj, hravé zvonečky, hra zvonku. Glockenstiel m. nožka cimbálu, zvonku. Glockenträger m. podpora zvonku, podpora cimbálu."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Glock–. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Glock–.
 
 > „Při stroji hodinovém byl též hrací stroj cymbálový."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900, popis pražského orloje. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900, popis pražského orloje.
 
 > „Od císaře Rudolfa obdržel privilegium na slévání cymbálů."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola pražští hodináři. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola pražští hodináři.
 
 ## Obrázky
 
