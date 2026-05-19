@@ -25,3 +25,8 @@ Tuto metodu také u vidíte (doufejme) na serveru [www.time.gov](https://www.tim
 Aby to nebylo vše, tak obrázek závisí i na datu v kalendáři, protože slunce svítí jinak v létě, jinak v zimě. Graficky se to projevuje změnou tvaru plochy slunečního svitu. Tvar závisí na poloze Země vůči Slunci, na orientaci zemské osy a vzdálenosti od Slunce.
 
 Tato kombinace technologií je dostatečně efektní, aby byla zařazena do virtuálního muzeu kuriózních hodin. Doporučuji vaší pozornosti i další stránky tohoto serveru
+
+## Vložené komponenty
+
+<iframe src="http://cs.thetimenow.com/clock/czech_republic/sob%c4%9bslav?t=n&amp;embed=1&amp;text=12&amp;textdate=15&amp;format=24&amp;digitalclock=30&amp;analogclock=60&amp;letter_spacing=-2&amp;bordersize=1&amp;bordercolor=BCE2F7&amp;bgcolor=EBF8FF&amp;colorloc=000000&amp;colordigital=2C8EBF&amp;colordate=000000&amp;styleloc=normal&amp;styledigital=normal&amp;styledate=normal&amp;right=0" width="200" height="80" loading="lazy" allowfullscreen></iframe>
+

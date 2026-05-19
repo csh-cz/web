@@ -79,3 +79,8 @@ v intervalu cca 9:00 až 18:00.**
 [Petr Král](/hodinari/petr-kral)
 
 8 Přepínač DIL.
+
+## Vložené komponenty
+
+<iframe src="https://hodinarium.eu/arduino2_IBM2.php?MAC=EFFC" loading="lazy" allowfullscreen></iframe>
+

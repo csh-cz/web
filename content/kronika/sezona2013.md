@@ -80,3 +80,8 @@ Chceme se o svou radost s vámi podělit, proto jsme několik textů z návště
 > Krásné město, krásné památky, krásné „věžní muzejíčko”.
 
 [Petr Král](/hodinari/petr-kral)
+
+## Vložené komponenty
+
+<iframe src="kniha_vez.htm" width="450" height="250" loading="lazy" allowfullscreen></iframe>
+
