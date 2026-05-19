@@ -11,15 +11,7 @@ tags:
   - 1800s
   - cesko
   - praha
-tldr: |
-  **Zemská jubilejní výstava 1891** v Praze byla největší cs průmyslovou
-  přehlídkou 19. století. Hodinářská sekce v pravém křídle paláce
-  průmyslového ukázala **přes 17 českých hodinářů** s rozsáhlým portfoliem
-  od kapesních hodinek po monumentální věžní stroje. Centrem byla exposice
-  **firmy L. Hainz** s věžními hodinami o 1400 dílcích (export Rusko, Srbsko,
-  Itálie). Mezi vystavovateli z poděbradské a polabské školy: **Jan Mareš
-  z Poděbrad** (čtvrťový stroj pro věžní hodiny), **Karel Adamec z Čáslavi**
-  (dva věžní stroje) — důležitá datace pro oba.
+tldr: 'Zemská jubilejní výstava 1891 v Praze byla největší cs průmyslovou přehlídkou 19. století. Hodinářská sekce v pravém křídle paláce průmyslového ukázala přes 17 českých hodinářů s rozsáhlým portfoliem od kapesních hodinek po monumentální věžní stroje. Centrem byla exposice firmy L. Hainz s věžními hodinami o 1400 dílcích (export Rusko, Srbsko, Itálie). Mezi vystavovateli z poděbradské a polabské školy: Jan Mareš z Poděbrad (čtvrťový stroj pro věžní hodiny), Karel Adamec z Čáslavi (dva věžní stroje) — důležitá datace pro oba.'
 manualEdit: true
 originalUrl: "https://hodinarium-eu.pages.dev/zajimavosti/jubilejni-vystava-zemska-1891-hodinari"
 lastModified: "Mon, 18 May 2026 02:00:00 GMT"
