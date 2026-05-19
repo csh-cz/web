@@ -12,7 +12,7 @@ interface Placemark {
   folder: string;
 }
 import type { CatalogEntry } from '../data/catalog-types';
-import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
 
 // Merge KML import + ručně doplněné položky (extra). Extra soubor přežije
 // re-import KML přes pnpm gmaps:parse.

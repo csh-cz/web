@@ -4,7 +4,7 @@ import { milniky } from '../data/milniky';
 import catalog from '../data/catalog.json';
 import { clanekHrefFromSlug } from '../data/url-helpers';
 import { milnikLabel } from '../data/labels';
-import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
 
 const sorted = [...milniky].sort((a, b) => a.rok - b.rok);
 ---

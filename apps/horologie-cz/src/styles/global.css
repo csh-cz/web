@@ -8,6 +8,7 @@
 @import "@csh/ui/styles/tokens.css";
 @import "@csh/ui/styles/utilities.css";
 @import "@csh/ui/styles/buttons.css";
+@import "@csh/ui/styles/breadcrumbs.css";
 
 @theme {
   /* Spolek = formálnější, klidnější paleta. Light-first (inverze

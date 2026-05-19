@@ -13,6 +13,7 @@
 @import "@csh/ui/styles/tokens.css";
 @import "@csh/ui/styles/utilities.css";
 @import "@csh/ui/styles/buttons.css";
+@import "@csh/ui/styles/breadcrumbs.css";
 
 @theme {
   /* Teplá podlaha staré observatoře: hluboká kávová tma, ne studená modř */
@@ -805,36 +806,7 @@ summary::-webkit-details-marker { display: none; }
   color: var(--color-text-muted);
 }
 
-/* Breadcrumbs — drobečková navigace, použito na všech detail page přes <Breadcrumbs />.
-   Sjednoceno ze 5 duplikovaných CSS bloků (Article.astro, karta, kronika, hodinari, tagy). */
-.breadcrumbs {
-  font-size: 0.9rem;
-  color: var(--color-text-muted);
-  margin-bottom: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  align-items: baseline;
-}
-.breadcrumbs a {
-  color: var(--color-text-soft);
-  border-bottom: none;
-}
-.breadcrumbs a:hover {
-  color: var(--color-brass-bright);
-}
-.breadcrumbs .current {
-  color: var(--color-text-soft);
-  font-style: italic;
-}
-.breadcrumbs span[aria-hidden] {
-  color: var(--color-brass);
-  opacity: 0.5;
-}
-.breadcrumbs .bc-dim {
-  color: var(--color-copper);
-  font-style: italic;
-}
+/* Breadcrumbs CSS přesunut do @csh/ui/styles/breadcrumbs.css (FU5 fáze 4, 2026-05-19). */
 
 /* Top nav links — vypnutý border-bottom co všechny <a> mají v global a typography styles.
    Předtím duplikováno 30+ místech jako inline `style="border-bottom: none;"`.

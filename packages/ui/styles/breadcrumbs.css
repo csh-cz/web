@@ -1,0 +1,38 @@
+/*
+ * @csh/ui — Breadcrumbs CSS (drobečková navigace).
+ *
+ * Token-driven — funguje v obou tématech (museum-dark, paper-light).
+ * Komponenta `@csh/ui/components/Breadcrumbs.astro`.
+ *
+ * Použití v app global.css:
+ *   @import "@csh/ui/styles/breadcrumbs.css";
+ */
+
+.breadcrumbs {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+.breadcrumbs a {
+  color: var(--color-text-soft);
+  border-bottom: none;
+}
+.breadcrumbs a:hover {
+  color: var(--color-brass-bright);
+}
+.breadcrumbs .current {
+  color: var(--color-text-soft);
+  font-style: italic;
+}
+.breadcrumbs span[aria-hidden] {
+  color: var(--color-brass);
+  opacity: 0.5;
+}
+.breadcrumbs .bc-dim {
+  color: var(--color-copper);
+  font-style: italic;
+}

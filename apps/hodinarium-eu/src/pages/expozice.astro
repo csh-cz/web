@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import { lokace } from '../data/lokace';
 import catalog from '../data/catalog.json';
 import { clanekHrefFromSlug } from '../data/url-helpers';
-import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
 
 const expozice = lokace.filter((l) => l.typ === 'expozice' || l.typ === 'zajimavost');
 
