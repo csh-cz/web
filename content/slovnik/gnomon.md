@@ -45,10 +45,10 @@ Sušický cituje slovo **polární výška** ve smyslu výška nebeského pólu 
 ## Reference
 
 > „Ve středu horní části je tyčinka kovová čili ukazovák, jehož stín na přímky hodinové dopadající, vyznačuje tu neb onu hodinu denní."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900.
 
 > „Štíhlé, přes 20 metrů vysoké jehlany, zvané gnomony, jako první pomůcky k určování času."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 ## Obrázky
 

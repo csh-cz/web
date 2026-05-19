@@ -21,10 +21,10 @@ pribuzne:
 Spoušť je **vazebním článkem** mezi jicím a bicím strojem. Bez spouště by bicí stroj nevěděl, kdy se má rozběhnout. Sladkovský 1947 rozlišuje dva základní typy:
 
 1. **Spoušť výmrštná** (běžná, vlastním nárazem zdvihu)
-   > „Stupnice o 4 stupních sedí na kole střídném a nese 4 kolíčky výpustné, které zvedají spoušť výmrštnou."
-   
+ > „Stupnice o 4 stupních sedí na kole střídném a nese 4 kolíčky výpustné, které zvedají spoušť výmrštnou."
+
 2. **Spoušť opakovací** (spouštěná manuálním tahem za šňůrku, u repetičních hodinek)
-   > „Mimo spoušť výmrštnou jest zde ještě spoušť opakovací, ve které je zavěšena šňůrka opakovací."
+ > „Mimo spoušť výmrštnou jest zde ještě spoušť opakovací, ve které je zavěšena šňůrka opakovací."
 
 Špatný 1882 dokumentuje příbuzné odvozeniny:
 - **Auslösungsfeder** = zpruha spouštěcí
@@ -42,16 +42,16 @@ Funkce: za normálního chodu drží **západka** kolíček v kole náběžném.
 ## Reference
 
 > „Auslösen spustiti. Auslösung f. spoušť, spouštění. Auslösungsfeder f. zpruha spouštěcí."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Auslös–. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Auslös–.
 
 > „Springende Auslösung spoušť výmrštná."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882.
 
 > „Stisknutím spouště opakovací bije pak hodiny, čtvrtě a minuty."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis Grande sonnerie 1859. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis Grande sonnerie 1859.
 
 > „Mimo spoušť výmrštnou jest zde ještě spoušť opakovací, ve které je zavěšena šňůrka opakovací."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 ## Obrázky
 

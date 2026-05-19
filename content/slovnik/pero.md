@@ -26,9 +26,9 @@ Tažné péro je **uskladňovač mechanické energie** — natažení péra konz
 Vlastnosti:
 - **Tah pera klesá s rozvíjením** — plně natažené péro má největší sílu, dohasínající nejmenší. Tato nestejnost má vliv na přesnost: rytmus kroku závisí na konstantní síle.
 - **Vyrovnávání síly**:
-  - Historicky: **šnek** (kuželové kolo se šroubovicí) — kompenzuje pokles tahu během rozvíjení
-  - Moderně: **stavítko** (`stopwork`) — omezuje použitelný rozsah na rovnoměrnější část křivky
-  - Pro nejpřesnější regulátory a věžní hodiny: **remontoir** — pomocné péro mezi hlavním pohonem a krokem se napíná v krátkých intervalech (Leibniz)
+ - Historicky: **šnek** (kuželové kolo se šroubovicí) — kompenzuje pokles tahu během rozvíjení
+ - Moderně: **stavítko** (`stopwork`) — omezuje použitelný rozsah na rovnoměrnější část křivky
+ - Pro nejpřesnější regulátory a věžní hodiny: **remontoir** — pomocné péro mezi hlavním pohonem a krokem se napíná v krátkých intervalech (Leibniz)
 
 Sušický 1900 popisuje **remontoirní princip** doslovně: „tak že nestejná síla hlavního péra nemá na soukolí žádný škodlivý vliv" — pomocné péro se napíná „po oběhnutí" hlavního péra a teprve to bezprostředně pohání krok. Tím je síla na krok konstantní.
 
@@ -51,13 +51,13 @@ Synonyma:
 ## Reference
 
 > „...soukolí jedině bezprostředním účinkem hlavního péra, nýbrž děje se to zvláštním pérem, které napne po oběhnutí zase hlavní péro do jistého stupně. Toto napjetí jest jen nepatrné a proto účinkuje i druhé péro stejnomerně na soukolí, tak že nestejná síla hlavního péra nemá na soukolí žádný škodlivý vliv."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola o remontoiru. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola o remontoiru.
 
 > „Feder → zpruha; Zugfeder → tažná zpruha; Spiralfeder → spirálová zpruha; Auslösungsfeder → spouštěcí zpruha."
-> — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882. [Zotero `W6VEJ854`]
+> — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882.
 
 > „p. hodinní → Uhrfeder; bicí p. → Schlagfeder; p. vlasové → Haarfeder."
-> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Pero. [Zotero `JVVP4JT8`]
+> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Pero.
 
 ## Obrázky
 

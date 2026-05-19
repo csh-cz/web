@@ -46,16 +46,16 @@ Tabulka časové rovnice se vydává každoročně hvězdárnami (Sladkovský p�
 ## Reference
 
 > „Měříme-li rok dle pravého nebo středního času, je stejně dlouhý. Rozdíl je pouze v tom, že máme delší a kratší dni slunečné, ale stejně dlouhé, měříme-li časem středním. … Chceme-li pak zjistiti onen rozdíl mezi pravým a středním časem, který činí nejvýše asi 16 minut, [...]."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola Pravý a střední čas. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola Pravý a střední čas.
 
 > „Z té příčiny je rozdělena celá roční doba, od jarního bodu počínaje, na 365 stejných dílů (v přestupném roce 366). Jeden takový díl nazývá se střední sluneční den a strojové hodiny podle něho jdoucí ukazují střední sluneční čas."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Silnou křivku AB, představující pravý sluneční čas, opsal by správně barevný hrot raménka, klouzajícího po aequačním kotouči stroje, který registruje rozdíl mezi pravým a středním slunečním časem."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis aequačního kotouče. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis aequačního kotouče.
 
 > „A formula which gives the equation of time, the difference between solar time and mean time, as a function of UT is proposed."
-> — HUGHES, D. W., YALLOP, B. D., HOHENKERK, C. Y. *The equation of time.* Monthly Notices of the Royal Astronomical Society, 1989. [Zotero `GFIMAEE6`]
+> — HUGHES, D. W., YALLOP, B. D., HOHENKERK, C. Y. *The equation of time.* Monthly Notices of the Royal Astronomical Society, 1989.
 
 ## Obrázky
 

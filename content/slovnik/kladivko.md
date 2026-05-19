@@ -35,13 +35,13 @@ U **opakovacích hodinek** (Taschen­repetiruhren) bývá **opěrák kladívka**
 ## Reference
 
 > „Hammer m. kladivo; kleiner H. kladívko; der Hammer liegt an kladívko přilehá. Hammerarm m. raménko, rameno kladívka. Hammerauflage f. (bei Taschen­repetiruhren) opěrák kladívka. Hammerbahn f. ploska kladívka, čelo kladívka. Hammerfeder f. zpruha kladívka."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch für Uhr- und Gehäusemacher.* 1882. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch für Uhr- und Gehäusemacher.* 1882.
 
 > „der Hammer schlägt kladívko tluče; der Hammer schlägt an die Glocke kladívko bije na cimbál, na zvonec."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Schlagen. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Schlagen.
 
 > „Ze spodního kola, v jehož věnci trčí několik kolíčků, které zvedají raménka kladívka."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis bicího stroje typu I. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis bicího stroje typu I.
 
 ## Obrázky
 

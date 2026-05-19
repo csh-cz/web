@@ -40,16 +40,16 @@ V Sušickém 1900 dokumentováno: před perovníkem bylo péro „**volně navin
 ## Reference
 
 > „Antonín Lepin (* 1750, + 1814 v Paříži) počal vyráběti ozubený perovník otáčivý. Tím odpadl šnek se řetízkem a výroba válcovek i kotvovek vyvíjela se ve velkém množství v úhledném plochém zevnějšku."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „...perovníku, ale bylo volně navinuto na hřídeli..."
-> — SUŠICKÝ, V. R. *Hodinářství. Pro praktickou potřebu hodinářů a škol odborných.* 1900, kapitola o pohonu. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství. Pro praktickou potřebu hodinářů a škol odborných.* 1900, kapitola o pohonu.
 
 > „Buben → 4. Federhaus in der Uhr; Uhr trommel"
-> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Buben. [Zotero `JVVP4JT8`]
+> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Buben.
 
 > „peřovnice → Federhaus in der Uhr"
-> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Pero, podheslo -nice. [Zotero `JVVP4JT8`]
+> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Pero, podheslo -nice.
 
 ## Obrázky
 

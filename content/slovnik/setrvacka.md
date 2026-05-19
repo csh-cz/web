@@ -42,13 +42,13 @@ Klíčové: **moderní cs úzus je „setrvačka"** (NE „balanc" jako primárn
 ## Reference
 
 > „Unruhe → nepokoj, váhadlo; Unruhefeder → váhadlová zpruha"
-> — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882. [Zotero `W6VEJ854`]
+> — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882.
 
 > „Kompensační setrvačka — z ocele nebo z invaru s proužkem mosazným"
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Kývadl-iště, kývadl-o → ... die Unruhe bei der Uhr, Perpendikel, Metronom, Pendel."
-> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851. [Zotero `JVVP4JT8`] *(historický kontext: Šumavský NEROZLIŠ kyvadlo od setrvačky)*
+> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851. *(historický kontext: Šumavský NEROZLIŠ kyvadlo od setrvačky)*
 
 ### Moderní materiály (po Sladkovském 1947)
 
@@ -87,16 +87,16 @@ vlásků** (~90 % světových mechanických hodinek používá Nivarox vlásky).
 **ULYSSE NARDIN Freak** (2001) — první komerční hodinky s **silikonovým
 krokovým kolem**. Po něm:
 - **Silicium vlásek** — Patek Philippe „Spiromax" (2005), Rolex
-  „Syloxi" (2014), Omega „Si14" (2008)
+ „Syloxi" (2014), Omega „Si14" (2008)
 - **Silikonová setrvačka** — Patek Philippe „Pulsomax" (2008)
 
 **Vlastnosti silikonu (Si):**
 - **Antimagnetický** (důležité pro NSM, MRI)
 - **Tepelně stabilní** (silikon má nízkou teplotní roztažitelnost)
 - **Odolný proti opotřebení** (DRIE — Deep Reactive Ion Etching umožňuje
-  přesné mikrostruktury)
+ přesné mikrostruktury)
 - **Lze tvarovat** matematicky přesně podle Phillipsovy křivky (DRIE
-  šablona)
+ šablona)
 
 Nevýhody: **křehkost** (silikon je tvrdý ale láme se), **drahá** výroba
 (nutný čistý prostor, fotolitografie).
@@ -110,7 +110,7 @@ do běžné výroby — překážkou je **proces výroby** (ne samotný materiá
 **Reference (moderní materiály):**
 
 > „Kompensační setrvačka — z ocele nebo z invaru s proužkem mosazným."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`] *(stav 1947 — bimetalická vrcholná forma; Glucydur a Nivarox v cs literatuře toho roku ještě neuvedeny)*
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. *(stav 1947 — bimetalická vrcholná forma; Glucydur a Nivarox v cs literatuře toho roku ještě neuvedeny)*
 
 (Pro modernější materiály — Glucydur, Nivarox, silikon — primární
 prameny v cs hodinářské literatuře po 1947 nedostupné v této knihovně.

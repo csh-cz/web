@@ -47,9 +47,9 @@ Sladkovský 1947 dokumentuje **chronologii materiálů**:
 **Šasi pouzdra:**
 - **Lugs** (rohy / chapadla) — výstupky pro řemínek
 - **Pendant** — kruh, kde se kdysi k pouzdru kapesní hodinky přivěsil
-  řetízek; u náramkových obvykle kryt korunky (Špatný 1882: *Bügel*)
+ řetízek; u náramkových obvykle kryt korunky (Špatný 1882: *Bügel*)
 - **Crown guard** (od 1960, sportovní hodinky) — ochrana korunky před
-  nárazem
+ nárazem
 
 ## Příbuzné termíny
 
@@ -59,13 +59,13 @@ Sladkovský 1947 dokumentuje **chronologii materiálů**:
 ## Reference
 
 > „Gehäuse n. pouzdro. Kapsel f. pouzdro."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch für Uhr- und Gehäusemacher.* 1882. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch für Uhr- und Gehäusemacher.* 1882.
 
 > „V této i pozdější době zhotovená a nádherně vyzdobená pouzdra v barevné malbě zdobí dnes sbírky musejní. Milovníci starožitných hodin naleznou v Uměleckoprůmyslovém museu v Praze malou sbírku těchto skvostných uměleckých památek."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola o stříbrných a zlatých kapesních hodinkách 16.–17. století. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola o stříbrných a zlatých kapesních hodinkách 16.–17. století.
 
 > „Po počátečním hledání se preferovaným materiálem stal právě titan. Nejdříve to firma zkoušela se zlatem, platinou a stříbrem, nakonec však převážila funkce nad exkluzivitou."
-> — KNESPL, David. *Ochs und Junior. Důsledná jednoduchost.* HodinyKlenoty 2014. [Zotero `3U6FBYFX`]
+> — KNESPL, David. *Ochs und Junior. Důsledná jednoduchost.* HodinyKlenoty 2014.
 
 ## Obrázky
 

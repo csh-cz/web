@@ -41,13 +41,13 @@ Sladkovský popisuje uspořádání: kolo má 12 nestejně širokých zářezů 
 ## Reference
 
 > „Schlagscheibe f. početnice. Schlagscheibearm m. západka početnice."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882.
 
 > „Z kola závěrkového, které se otočí jednou za 12 hodin. Mimo ozubení boční má toto kolo v odstávající části věnce 12 úzkých odstupňovaných mezer, do kterých zapadá druhá část raménka zapadacího."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis bicího stroje typu I. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis bicího stroje typu I.
 
 > „Druhou částí, která u šotských hodin je ze železného drátu ohnutý háček, zapadá do úzkých mezer kola závěrkového."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 ## Obrázky
 

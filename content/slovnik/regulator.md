@@ -70,13 +70,13 @@ Tj. v 1900 byly v Praze (Klementinum) a Karlíně (vojenská invalidovna) instal
 ## Reference
 
 > „Regulátor čili řidič určuje periody kroku čili onu dobu, za kterou se má soukolí o nějaký počet zubů otočiti."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola o funkčních jednotkách. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola o funkčních jednotkách.
 
 > „Regulátory onoho jsou dosud postaveny na hvězdárně pražské a na invalidovně v Karlině a pracují dosud velmi přesně."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900.
 
 > „Spravovák → Regulator"
-> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Spravov-ací. [Zotero `JVVP4JT8`]
+> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Spravov-ací.
 
 ## Obrázky
 

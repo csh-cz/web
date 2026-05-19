@@ -63,16 +63,16 @@ V opěrném kotouči setrvačky se rubín objevuje jako **kotoučový kámen** (
 ## Reference
 
 > „Vodítko bývá buď z granátu, rubínu nebo safiru zhotovené, a řez jeho má buďto tvar elipsy nebo půlměsíce, anebo jest tříhranný."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola Krok kotvový. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola Krok kotvový.
 
 > „Je-li mnohými tvrzeno, že některý druh drahokamu činí olej zbytečným, na př. nahradí-li se rubín safirem, není to správné."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900.
 
 > „Rubinstein m. rubín. Gebohrt vrtaný; gebohrte Rubine vrtané rubíny; gebohrte Steine vrtané kamínky."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, hesla Gebohrt a Rubin–. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, hesla Gebohrt a Rubin–.
 
 > „Einfassen zasaditi; einen Stein einfassen kámen zasaditi."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Einfass–. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Einfass–.
 
 ## Obrázky
 

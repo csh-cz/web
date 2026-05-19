@@ -50,13 +50,13 @@ V Hodináriu jsou dochované exempláře barokních strojů s lihýřem (sluneč
 ## Reference
 
 > „...vahadlo, ale upevněno na něm vahadlo vodorovné, nazvané lihýř. Na jeho obou koncích byly vypilovány vruby a sice několik za sebou. Do nich byla zavěšována závaží k vůli jeho zatížení. Chod stroje řídil se dle toho, jak daleko byla závaží od středu vřetena vzdálena."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola o vývoji oscilátorů. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola o vývoji oscilátorů.
 
 > „lihýř, velkých rozměrů a několik set liber"
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Starším typem oscilátoru byl tzv. lihýř neboli vahadlo, od konce 17. století postupně nahrazený kyvadlem."
-> — HIMMLER, Radim. *Věžní hodinové stroje VMO Olomouc.* 2006. [Zotero `BB7EQHPE`]
+> — HIMMLER, Radim. *Věžní hodinové stroje VMO Olomouc.* 2006.
 
 ## Obrázky
 

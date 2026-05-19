@@ -45,16 +45,16 @@ Hmotnost se volí podle síly soukolí; přílišné závaží vede k většímu
 ## Reference
 
 > „Závaží byla zavěšena vevnitř věže na dlouhých lanech navíjených na dřevěné nátahové válce."
-> — HIMMLER, Radim. *Věžní hodinové stroje VMO Olomouc.* 2006. [Zotero `BB7EQHPE`]
+> — HIMMLER, Radim. *Věžní hodinové stroje VMO Olomouc.* 2006.
 
 > „Zdroj energie (pohon) středověkých hodin byl zajištěn kamennými či kovovými (olovo) závažími, která měla značnou hmotnost, což vytvářelo na soukolí značný tlak."
-> — HIMMLER, Radim. *Věžní hodinové stroje VMO Olomouc.* 2006. [Zotero `BB7EQHPE`]
+> — HIMMLER, Radim. *Věžní hodinové stroje VMO Olomouc.* 2006.
 
 > „Postupem času nahrazena byla hybná síla u hodin závažím způsobovaná, pružným pérem. Pružné péro je silně stočená ocelová zpruha, která se snaží..."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900.
 
 > „Závaž → das Gewicht; rožeň se -ím — Bratenwender; z. zednické — Bleiwage; z. vodní"
-> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Závaž. [Zotero `JVVP4JT8`]
+> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Závaž.
 
 ## Obrázky
 

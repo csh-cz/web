@@ -108,6 +108,14 @@ const reference = z.object({
    * Pokud chybí, fallback je `ref-<index+1>` (legacy).
    */
   key: z.string().regex(/^[a-z0-9-]+$/, 'key musí být lowercase kebab-case').optional(),
+  /**
+   * Lokální Zotero item key (8-znakový alfanum, např. „IVSGJLYL").
+   * **Skrytý field — nerenderuje se frontendu.** Slouží jen pro
+   * editorské spárování s lokální Zotero knihovnou autorů (David Knespl).
+   * Frontend zobrazuje plnou citaci z `bibKey` (Better BibTeX export
+   * v references.json). Per memory: server má jen BibTeX, ne Zotero.
+   */
+  zoteroKey: z.string().regex(/^[A-Z0-9]{8}$/).optional(),
 }).refine((d) => d.bibKey || d.title, {
   message: 'reference: musí mít bibKey (Zotero) nebo title (ad-hoc).',
 });
@@ -571,6 +579,8 @@ const veznihodinaPramen = z.object({
       `[Drozda 2006](#ref-drozda-2006)`; render vygeneruje
       `<li id="ref-drozda-2006">`. Viz reference[].key v hlavním schema. */
   key: z.string().regex(/^[a-z0-9-]+$/).optional(),
+  /** Lokální Zotero item key (skrytý field — nerenderuje se). */
+  zoteroKey: z.string().regex(/^[A-Z0-9]{8}$/).optional(),
 });
 
 const soupisVeznichHodin = defineCollection({
@@ -774,6 +784,9 @@ const slovnikReference = z.object({
       Konvence: autor-rok kebab-case (`pakosta-2007`, `skala-2013`).
       V body slovník hesla piš `[Pakosta 2007](#ref-pakosta-2007)`. */
   key: z.string().regex(/^[a-z0-9-]+$/).optional(),
+  /** Lokální Zotero item key (skrytý field — nerenderuje se).
+      Slouží jen pro editorské spárování s autorovou Zotero knihovnou. */
+  zoteroKey: z.string().regex(/^[A-Z0-9]{8}$/).optional(),
 }).refine((r) => r.bibKey || r.title || r.citace, {
   message: 'slovnik reference: musí mít bibKey, title nebo citace.',
 });

@@ -52,13 +52,13 @@ Tedy isochronismus setrvačky **závisí především na geometrii vlásku**. Te
 ## Reference
 
 > „Tyto kyvy stejně dlouhou dobu trvající nazývají se isochronické. Této vlastnosti kyvadla říká se isochronismus."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola Kyvadlo. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola Kyvadlo.
 
 > „U kyvadla jsou kyvy, nepřesahující 5°, isochronické, rovnodobé. Větší kyvy než 5° trvají pak tím déle, čím větší je výkyv kyvadla. Setrvačka vykoná naopak velké kyvy někdy za kratší dobu než kyvy malé. Větší kyvy setrvačky mohou býti rychlejší než kyvy malé. Příčinou toho je vlásek."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „V roce 1860 uveřejnil francouzský inženýr Eduard Phillips svoje znamenitá studia o vláskové křivce, kterou možno docíliti isochronismu malých i velkých kyvů setrvačky."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 ## Obrázky
 

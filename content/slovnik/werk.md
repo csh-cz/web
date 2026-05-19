@@ -45,10 +45,10 @@ literatuře (Sušický, Sladkovský, Bureš) výhradně **„stroj"**.
 ## Reference
 
 > „Werk n. stroj, dílo. Werkanker m. kotva strojná. Werkdeckel m. víčko stroje. … Schlagwerk n. bicí stroj. Repetirwerk n. opakovací stroj. Federzugwerk n. stroj s perem."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, hesla Werk– a -werk. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, hesla Werk– a -werk.
 
 > „die Zugfeder im Werk abspannen → peru ve stroji povoliti."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Abspannen. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Abspannen.
 
 ## Obrázky
 

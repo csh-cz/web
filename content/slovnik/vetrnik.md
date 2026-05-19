@@ -55,13 +55,13 @@ Věstavné brzdění většinou doplňuje **třecí brzda** (pero přitlačené 
 ## Reference
 
 > „Windfang m. větrník, větrober. Windfangsanker m. (bei Taschenrepetiruhren) vrtítko. Windfangsfeder f. zpruha větrníku. Windfangsflügel m. křídlo větroberu."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Wind–. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Wind–.
 
 > „Z větrniku, který řídí rychlost úderů kladívka. Pozůstává obyčejně z pastorku o 6 tyčinkách a ze dvou lehkých křídel."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Brzdění provádí se pérem. Byl učiněn pokus opatřiti větrník pohyblivými pákami, které by se za silněji působící síly hnací od osy vzdalovaly, čímž by se docílilo umenšení rychlosti pohybu."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900.
 
 ## Obrázky
 

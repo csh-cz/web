@@ -48,13 +48,13 @@ Pro vlásky se proto vyvinuly speciální slitiny (Elinvar, později Nivarox, mo
 ## Reference
 
 > „Slitina tato, nazvaná „Invar" (z francouzského invariable — nezměnitelná), hodí se výborně pro tyče kyvadel, avšak vlásek z ní zhotovený neuspokojil. Chod hodin s vláskem z „Invaru" vykazuje odchylky nepravidelné, skákavé, a to vlivem změny pružnosti v různých teplotách."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Koefficient roztaživosti tepelné jest velice malý a činí 0,00000088. Slitinu tuto nazval vynálezce „invar", t. j. nezměnitelná. Kyvadla z této slitiny jsou následovně sestrojena: Tyč kyvadla i s regulační matkou jsou z niklooceli."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „U starších výrobků bývá to kyvadlo rtuťové nebo roštové, v novější době zhotovují se kyvadlové tyče z nikloocele nebo křemene."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, modernizace přesných hodin. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, modernizace přesných hodin.
 
 ## Obrázky
 

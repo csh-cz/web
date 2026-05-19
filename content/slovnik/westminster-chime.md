@@ -48,9 +48,9 @@ Mary the Great, Cambridge** (1793–1794). Pro Big Ben (1859) byla
 **Konstrukčně** vyžaduje:
 - **4 cymbály** různé velikosti / výšky
 - **Sloupkové kolo** s vyznačenou sekvencí kolíčků (jako hudební
-  skříňka)
+ skříňka)
 - **Otočná pozice** během hodiny — sekvence se rozšiřuje, takže
-  **disengagement** (deactivation) menších frází.
+ **disengagement** (deactivation) menších frází.
 
 V **náramkových hodinkách** (Patek Philippe Grandmaster Chime,
 Audemars Piguet Royal Oak Concept Westminster) jsou cymbály v rámu
@@ -59,9 +59,9 @@ pouzdra, tóny generuje 4 úhlové gongy.
 **Cambridge** (původní) **vs Westminster** (Big Ben):
 
 - Cambridge chime — **vyšší tonalita** (E-major, originální 1794
-  pro 4 menší zvony)
+ pro 4 menší zvony)
 - Westminster chime — **nižší tonalita** (přizpůsobeno velkým
-  zvonům Big Benu, 4 tunové cymbály)
+ zvonům Big Benu, 4 tunové cymbály)
 
 Hudebně **identická melodie**, akustický rozdíl plyne z velikosti
 zvonů.
@@ -75,7 +75,7 @@ zvonů.
 ## Reference
 
 > „Sestrojen byl londýnským hodinářem Denisonem v r. 1864 pro věžní hodiny paláce „Westminster" v Londýně, u kterých každý ze čtyř velkých číselníků měří v průměru 7,16 metru. Jest nazýván též krokem westminsterovským."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis 4-leg gravitational kroku. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis 4-leg gravitational kroku.
 
 (Pro samotnou melodii ne-Sladkovský primární pramen v české horologii;
 původ Cambridge 1793–1794 a adopce Big Benem 1859 je dokumentována

@@ -36,11 +36,11 @@ profese** s vlastní finanční sílou.
 **Specializace pouzdráře:**
 
 - **Klepání** zlatých / stříbrných tepaných pouzder (ručně, hammer
-  + tvarovací kovadliny — **Amboss**)
+ + tvarovací kovadliny — **Amboss**)
 - **Vrtání a frézování** otvorů pro korunku, push-pieces, lugs
 - **Soustružení** ozdobných linek (Geneva stripes na carrure)
 - **Smaltovaná malba** (od 1600s, vrcholí 1750–1850) — Pražské UPM
-  v Karlově ulici má významnou sbírku
+ v Karlově ulici má významnou sbírku
 - **Gravírování** signatury, monogramu, ornamentu
 
 Sladkovský 1947 dokumentuje **švýcarský přechod ke specializaci**:
@@ -56,13 +56,13 @@ Sladkovský 1947 dokumentuje **švýcarský přechod ke specializaci**:
 ## Reference
 
 > „Wörterbuch für Uhr- und Gehäusemacher / Slovník pro hodináře a pouzdráře hodinářské."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, podtitul. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, podtitul.
 
 > „pan Václav Sommer, pouzdrář hodinářský… 5 zl."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, seznam dárců. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, seznam dárců.
 
 > „V La Chaux-des-Fonds vyvinula se hlavně speciální výroba hodinkových pouzder, která zásobí celou řadu švýcarských továren potřebnými pouzdry v každém provedení."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 ## Obrázky
 

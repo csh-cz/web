@@ -46,13 +46,13 @@ Plochy zubů krokového kola:
 ## Reference
 
 > „Robertem Hookem 1676 vynalezený anglický zvratný krok, který londýnský hodinář William Clement v roce 1680 do hodinářství zavedl. Jiří Graham, rovněž londýnský hodinář, narozený 1673 v Horsgillu, zemřel 1751 v Londýně, přeměnil tento krok v roce 1720 tím způsobem, že zvratné plochy kotvy upravil na plochy klidu a kolo stupni nechal zabírati směrem opačným."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „On upravil válečkový krok tak, jak jej dnes spatřujeme, totiž s ocelovým stupníkem. Zdokonalil krok tourbillonový..."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, sekce o Breguetovi. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, sekce o Breguetovi.
 
 > „...nakonec kolo stupní (korunové), které bylo regulováno, tj. bržděno a vypouštěno v pravidelných intervalech..."
-> — HIMMLER, Radim. *Věžní hodinové stroje VMO Olomouc.* 2006. [Zotero `BB7EQHPE`]
+> — HIMMLER, Radim. *Věžní hodinové stroje VMO Olomouc.* 2006.
 
 ## Obrázky
 

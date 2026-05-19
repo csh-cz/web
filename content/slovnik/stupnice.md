@@ -39,13 +39,13 @@ Pozor na terminologickou vícenásobnost: **stupnice obecně** = jakákoliv kali
 ## Reference
 
 > „Skala f. stupnice, skala. Gradleiter f. stupnice."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882.
 
 > „Předkolí sestává z hvězdy o 12 paprscích, na které sedí stupnice se 12 schůdky. Do hvězdy zasahuje základka hvězdná, která pomocí slabé zpruhy udržuje stupnici vždy svojí jednou stranou na určitý schůdek stupnice."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 > „Stupnice o 4 stupních sedí na kole střídném a nese 4 kolíčky výpustné, které zvedají spoušť výmrštnou."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis čtvrťového stroje. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis čtvrťového stroje.
 
 ## Obrázky
 

@@ -46,12 +46,12 @@ Konstrukčně: kola jsou typicky **mosazná** s **ocelovými pastorky** (drobný
 ## Reference
 
 > „S hnacím válcem jicího stroje bylo pevně spojeno tzv. minutové ozubené kolo, jehož prostřednictvím se energie přenášela do soukolí přes cévkové pastorky na mezilehlé kolo a nakonec kolo stupní (korunové), které bylo regulováno, tj. bržděno a vypouštěno v pravidelných intervalech daných kmity oscilátoru (kyvadla), paletovým hřídelem (vřetenem), nebo kotvou."
-> — HIMMLER, Radim. *Věžní hodinové stroje ve sbírce Vlastivědného muzea v Olomouci.* 2006. [Zotero `BB7EQHPE`]
+> — HIMMLER, Radim. *Věžní hodinové stroje ve sbírce Vlastivědného muzea v Olomouci.* 2006.
 
 > „Stroje byly poměrně jednoduché a skládaly se z masivního rámu spojeného klínovými spoji nebo šrouby a z vnitřního mechanismu (soukolí) sestávajícího z kovaných hřídelů, ozubených kol a pastorků."
-> — HIMMLER, Radim. *Věžní hodinové stroje ve sbírce Vlastivědného muzea v Olomouci.* 2006. [Zotero `BB7EQHPE`]
+> — HIMMLER, Radim. *Věžní hodinové stroje ve sbírce Vlastivědného muzea v Olomouci.* 2006.
 
-> „Kolostroj — das Räderwerk, Uhrwerk." — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Kolo, podheslo -stroj. [Zotero `JVVP4JT8`]
+> „Kolostroj — das Räderwerk, Uhrwerk." — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Kolo, podheslo -stroj.
 
 ## Obrázky
 

@@ -42,13 +42,13 @@ Sušický 1900 dále zaznamenává nevýhodu šneku: **„závitek hodně vysok�
 ## Reference
 
 > „...závitek čili šnek. Kolem něho ovíjela se nejprve struna střevová, jež se jedním koncem upevnila na bubnu a druhým na závitku. Úplně stočená zpruha, v závitek upravená, má největší napjetí čili tah a tento účinkuje..."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola o pohonu. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola o pohonu.
 
 > „...závitek hodně vysoký a tím i celé hodiny byly vysoké a nepěkného tvaru. Struna ukázala se též býti nepraktickou, poněvadž brzy praskala. Proto byla nahražena řetízkem složeným z jemných článečků, jež byly nýtovány..."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900.
 
 > „Antonín Lepin (* 1750, + 1814 v Paříži) počal vyráběti ozubený perovník otáčivý. Tím odpadl šnek se řetízkem a výroba válcovek i kotvovek vyvíjela se ve velkém množství v úhledném plochém zevnějšku."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
 ## Obrázky
 

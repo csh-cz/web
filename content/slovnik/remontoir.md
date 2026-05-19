@@ -61,13 +61,13 @@ Sušický 1900 popisuje **princip remontoiru u kapesních hodinek**:
 > „Natahování věžních hodin … 313 / Remontoir … 315 /
 > Elektrický remontoir … 317."
 > — HAJN, Miroslav. *Základy jemné mechaniky a hodinářství.* 1953,
-> obsah, kapitola Pohon a převody hodin. [Zotero `9MK4QIHS`]
+> obsah, kapitola Pohon a převody hodin.
 
 > „[Pomocné péro] se napíná po oběhnutí [hlavního péra] tak, že
 > nestejná síla hlavního péra nemá na soukolí žádný škodlivý vliv."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola o pomocném péru. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola o pomocném péru.
 
 > „Remontoiruhr f. **remontorky**, hodinky bez klíčku k natahování.
 > Remontoirkrone f. **korunka natahovací**."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch für Uhr- und Gehäusemacher.* 1882, heslo Remontoir-. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch für Uhr- und Gehäusemacher.* 1882, heslo Remontoir-.
 > (Špatný používá *remontoir-* primárně ve významu „bez klíčku k natahování" pro kapesní hodinky; technické užití pro pomocné péro/závaží přejato z FR-DE literatury bez cs překladu.)

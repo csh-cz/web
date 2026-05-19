@@ -58,7 +58,7 @@ V některých historických strojích je ukazovací stroj propojen pomocí **kov
 > ukazovacího stroje do zubů pastorku na hlavní hřídeli jicího
 > stroje. Ovlivňuje také ve svislém směru polohu rafijí a kolmost
 > jejich hřídelí vzhledem k rovině astrolábu."
-> — SKÁLA, Petr. *Závěrečná zpráva o restaurování stroje a příslušenství Pražského orloje a věžních hodin na věži Staroměstské radnice.* 2018. [Zotero `NKIEQQ6E`]
+> — SKÁLA, Petr. *Závěrečná zpráva o restaurování stroje a příslušenství Pražského orloje a věžních hodin na věži Staroměstské radnice.* 2018.
 
 > „Raménko blokující zastavení apoštolského stroje po jedné otáčce
 > a umožňující zastavení až po dvou otáčkách bylo vyrovnáno
@@ -66,4 +66,4 @@ V některých historických strojích je ukazovací stroj propojen pomocí **kov
 > spolehlivou funkci. Na mezilehlém kole jicího stroje byla
 > odstraněna přebytečná mosaz ze spojů mezi paprsky kola
 > a ozubeným věncem připájených mosazí."
-> — SKÁLA, Petr. *Závěrečná zpráva o restaurování věžních hodin kostela sv. Jiljí v Markvarticích.* 2019. [Zotero `2JSQST94`]
+> — SKÁLA, Petr. *Závěrečná zpráva o restaurování věžních hodin kostela sv. Jiljí v Markvarticích.* 2019.

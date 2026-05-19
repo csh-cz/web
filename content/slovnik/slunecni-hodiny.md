@@ -43,13 +43,13 @@ Veškerý dnešní mechanismus hodin (analogový i digitální) je pouze **simul
 ## Reference
 
 > „Sonnenuhr f. sluneční hodiny. Sonnenquadrant m. sluneční kvadrant, sluneční kruho-čtvrť."
-> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch für Uhr- und Gehäusemacher.* 1882. [Zotero `D2A35XU2`]
+> — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch für Uhr- und Gehäusemacher.* 1882.
 
 > „Hodiny sluneční, jak dosud na četných místech se užívají, jsou zařízeny na stěně, na níž jsou nakresleny přímky hodinové, jejichž vzdálenosti od sebe značí rozdíl jedné hodiny. Ve středu horní části je tyčinka kovová čili ukazovák, jehož stín na přímky hodinové dopadající, vyznačuje tu neb onu hodinu denní. Aby pro určitou polární výšku byly sluneční hodiny správně zařízeny, třeba by ukazovák hodin měl rovnoběžný směr s osou světovou."
-> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola Hodiny sluneční. [Zotero `M2MD5J34`]
+> — SUŠICKÝ, V. R. *Hodinářství.* 1900, kapitola Hodiny sluneční.
 
 > „Convenvečer a noc rozděliti ještě na menší časové díly a tu použito bylo nejdříve délky stínu slunečního. Za tím účelem stavěny byly ve starověku na veřejných místech štíhlé, přes 20 metrů vysoké jehlany, zvané gnomony, jako první pomůcky k určování času."
-> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, úvod k historii. [Zotero `VIBRCUZT`]
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, úvod k historii.
 
 ## Obrázky
 
