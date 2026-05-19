@@ -21,16 +21,16 @@ Tato stránka je jen pozvánka do světa stavebnicových konstruktérů.
 
 Na Ebay.it se nedávno prodávaly stojací hodiny, které si dovolujeme uvést v následující galerii.
 
-![Fotografie 1](/img/ujete/Mertur/f/foto_0001.jpg)
+![Hodiny skoro z MERKURU](/img/ujete/Mertur/f/foto_0001.jpg)
 
-![Fotografie 5](/img/ujete/Mertur/f/foto_0005.jpg)![Fotografie 9](/img/ujete/Mertur/f/foto_0009.jpg)
+![Hodiny skoro z MERKURU](/img/ujete/Mertur/f/foto_0005.jpg)![Hodiny skoro z MERKURU](/img/ujete/Mertur/f/foto_0009.jpg)
 
-![Fotografie 2](/img/ujete/Mertur/f/foto_0002.jpg)![Fotografie 10](/img/ujete/Mertur/f/foto_0010.jpg)
+![Hodiny skoro z MERKURU](/img/ujete/Mertur/f/foto_0002.jpg)![Hodiny skoro z MERKURU](/img/ujete/Mertur/f/foto_0010.jpg)
 
-![Fotografie 6](/img/ujete/Mertur/f/foto_0006.jpg)![Fotografie 7](/img/ujete/Mertur/f/foto_0007.jpg)
+![Hodiny skoro z MERKURU](/img/ujete/Mertur/f/foto_0006.jpg)![Hodiny skoro z MERKURU](/img/ujete/Mertur/f/foto_0007.jpg)
 
-![Fotografie 8](/img/ujete/Mertur/f/foto_0008.jpg)![Fotografie 4](/img/ujete/Mertur/f/foto_0004.jpg)
+![Hodiny skoro z MERKURU](/img/ujete/Mertur/f/foto_0008.jpg)![Hodiny skoro z MERKURU](/img/ujete/Mertur/f/foto_0004.jpg)
 
-![Fotografie 11](/img/ujete/Mertur/f/foto_0011.jpg)![Fotografie 3](/img/ujete/Mertur/f/foto_0003.jpg)
+![Hodiny skoro z MERKURU](/img/ujete/Mertur/f/foto_0011.jpg)![Hodiny skoro z MERKURU](/img/ujete/Mertur/f/foto_0003.jpg)
 
 ## A nebo taky z Merkuru jinak - [sluneční hodiny.](/img/ujete/Mertur/slunecni.jpg)

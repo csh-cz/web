@@ -21,26 +21,26 @@ Neobvyklé je i nastavení velikosti ovládacího napětí pro krokový motorek 
 
 Na úvodním obrázku je také napájecí přívod 230 V pro synchronní motorek. Přívod minutových polarizovaných impulzů není připojen. Jeho konektor je zčásti vidět na předposledním obrázku.
 
-![Fotografie 1](/img/elektrika/podruzne_sekundove/f/foto_0001.jpg)
+![Podružné hodiny s vteřinovkou](/img/elektrika/podruzne_sekundove/f/foto_0001.jpg)
 
 1 Vteřinové kolo s výřezem.
 
-![Fotografie 2](/img/elektrika/podruzne_sekundove/f/foto_0002.jpg)
+![Podružné hodiny s vteřinovkou](/img/elektrika/podruzne_sekundove/f/foto_0002.jpg)
 
 2 Vteřinový stroj.
 
-![Fotografie 3](/img/elektrika/podruzne_sekundove/f/foto_0003.jpg)
+![Podružné hodiny s vteřinovkou](/img/elektrika/podruzne_sekundove/f/foto_0003.jpg)
 
 3 Blokovací páka.
 
-![Fotografie 4](/img/elektrika/podruzne_sekundove/f/foto_0004.jpg)
+![Podružné hodiny s vteřinovkou](/img/elektrika/podruzne_sekundove/f/foto_0004.jpg)
 
 4 Mezi kolo s pastorkem.
 
-![Fotografie 6](/img/elektrika/podruzne_sekundove/f/foto_0006.jpg)
+![Podružné hodiny s vteřinovkou](/img/elektrika/podruzne_sekundove/f/foto_0006.jpg)
 
 5 Krokový mechanizmus.
 
-![Fotografie 8](/img/elektrika/podruzne_sekundove/f/foto_0008.jpg)
+![Podružné hodiny s vteřinovkou](/img/elektrika/podruzne_sekundove/f/foto_0008.jpg)
 
 6 Přepínač DIL.

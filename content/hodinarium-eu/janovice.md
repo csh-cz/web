@@ -81,25 +81,25 @@ Na detailu převodovky, jejího uchycení a kloubu náhonu jsou dobře viditeln�
 
 Hodiny po opravě jsou poměrně přesné, nesplnila se naše obava z možného nepravidelného chodu. Předpokládali jsme, že při každodenním natahování bylo nutné denně hodiny seřídit. Po nainstalování elektrického nátahu však hodiny šly prakticky dva měsíce přesně i bez seřizování, což je na staletý stroj parádní výkon, svědčící o precizním provedení mechanismu. A potvrzuje to i správnost našeho rozhodnutí zachovat tento stroj dalším generacím.
 
-![Fotografie 1](/img/vezni/janovice/f/foto_0001.jpg)
+![DCF hodiny](/img/vezni/janovice/f/foto_0001.jpg)
 
-![Fotografie 2](/img/vezni/janovice/f/foto_0002.jpg)
+![DCF hodiny](/img/vezni/janovice/f/foto_0002.jpg)
 
-![Fotografie 3](/img/vezni/janovice/f/foto_0003.jpg)
+![DCF hodiny](/img/vezni/janovice/f/foto_0003.jpg)
 
-![Fotografie 4](/img/vezni/janovice/f/foto_0004.jpg)
+![DCF hodiny](/img/vezni/janovice/f/foto_0004.jpg)
 
-![Fotografie 5](/img/vezni/janovice/f/foto_0005.jpg)
+![DCF hodiny](/img/vezni/janovice/f/foto_0005.jpg)
 
-![Fotografie 6](/img/vezni/janovice/f/foto_0006.jpg)
+![DCF hodiny](/img/vezni/janovice/f/foto_0006.jpg)
 
-![Fotografie 7](/img/vezni/janovice/f/foto_0007.jpg)
+![DCF hodiny](/img/vezni/janovice/f/foto_0007.jpg)
 
-![Fotografie 8](/img/vezni/janovice/f/foto_0008.jpg)
+![DCF hodiny](/img/vezni/janovice/f/foto_0008.jpg)
 
-![Fotografie 9](/img/vezni/janovice/f/foto_0009.jpg)
+![DCF hodiny](/img/vezni/janovice/f/foto_0009.jpg)
 
-![Fotografie 10](/img/vezni/janovice/f/foto_0010.jpg)
+![DCF hodiny](/img/vezni/janovice/f/foto_0010.jpg)
 
 A na závěr ještě alespoň seznam těch, kdo se na opravě hodin podíleli:
 

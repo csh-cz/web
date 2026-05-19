@@ -22,33 +22,33 @@ V kostele sv. Vavřince ve Veliké Vsi se zachovalo torzo hodin s gotickými prv
 
 U kostela stojí renesanční zvonice patrně z roku 1582. V horní části je zvonice hladce omítnutá, na spodní část byla použita rustika. Zvonice má sedlovou střechu. Přízemí zvonice slouží jako vstup ke kostelu a na hřbitov.
 
-![Fotografie 1](/img/decin/gotika/f/foto_0001.jpg)
+![Torzo gotického stroje z Veliké Vsi](/img/decin/gotika/f/foto_0001.jpg)
 
 Torzo stroje položeno. Spodní část zcela v nánosu holubího trusu.
 
-![Fotografie 2](/img/decin/gotika/f/foto_0002.jpg)
+![Torzo gotického stroje z Veliké Vsi](/img/decin/gotika/f/foto_0002.jpg)
 
 Torzo stoje postaveno.
 
-![Fotografie 3](/img/decin/gotika/f/foto_0003.jpg)
+![Torzo gotického stroje z Veliké Vsi](/img/decin/gotika/f/foto_0003.jpg)
 
 Detail [soukolí](/slovnik/soukoli).
 
 O vlastních hodinách jsme dosud nenašli žádné další informace. Naše tři nejstarší fotografie pochází přibližně z roku 1995. Zachycují torzo stroje, které se skládá z klecového rámu s rohovými sloupky zakončenými kováním do podoby gotického hřebu a ze zbytků [bicího stroje](/slovnik/bici-stroj). K naší velké lítosti zcela chybí jicí stroj. Z bicího stroje je zachováno soukolí od lanového bubnu po [větrník](/slovnik/vetrnik). Stroj může být z doby výstavby zvonice, nebo i starší. Více bude možné odhadnou až po vyčištění a podrobnějším průzkumu.
 
-![Fotografie 4](/img/decin/gotika/f/foto_0004.jpg)
+![Torzo gotického stroje z Veliké Vsi](/img/decin/gotika/f/foto_0004.jpg)
 
 Základ rámu narychlo sestaven pro fotografii.
 
-![Fotografie 5](/img/decin/gotika/f/foto_0005.jpg)
+![Torzo gotického stroje z Veliké Vsi](/img/decin/gotika/f/foto_0005.jpg)
 
 Jednotlivé prvky samostatně fotografované.
 
-![Fotografie 7](/img/decin/gotika/f/foto_0007.jpg)
+![Torzo gotického stroje z Veliké Vsi](/img/decin/gotika/f/foto_0007.jpg)
 
 Jednotlivé prvky samostatně fotografované.
 
-![Fotografie 8](/img/decin/gotika/f/foto_0008.jpg)
+![Torzo gotického stroje z Veliké Vsi](/img/decin/gotika/f/foto_0008.jpg)
 
 Zachované lanové kolo bicího stroje s bubnem. Na snímku zřetelné páky natahovacího vratidla.
 
@@ -60,12 +60,12 @@ V květnu roku 2020 náš spolek uzavřel smlouvu na zapůjčení torza stroje d
 
 Součásti stroje byly zbaveny silné vrstvy povrchové koroze. Koroze naštěstí nenarušila strukturu železa. Během čištění nebyla nalezena žádná [signatura](/slovnik/signatura). Kovářské značení součástí bylo nalezeno pouze na jedné pásnici jako 5 záseků. Lze předpokládat, že ostatní překryla koroze. Díky naší nejstarší fotografii však bylo sestavení poměrně snadné. Muselo se doplnit mnoho chybějících klínků, aby bylo možné torzo vystavit. Jiné díly doplňovány nebyly.
 
-![Fotografie 10](/img/decin/gotika/f/foto_0010.jpg)
+![Výsledky restaurování](/img/decin/gotika/f/foto_0010.jpg)
 
-![Fotografie 11](/img/decin/gotika/f/foto_0011.jpg)![Fotografie 12](/img/decin/gotika/f/foto_0012.jpg)
-![Fotografie 13](/img/decin/gotika/f/foto_0013.jpg)
+![Výsledky restaurování](/img/decin/gotika/f/foto_0011.jpg)![Výsledky restaurování](/img/decin/gotika/f/foto_0012.jpg)
+![Výsledky restaurování](/img/decin/gotika/f/foto_0013.jpg)
 
-![Fotografie 14](/img/decin/gotika/f/foto_0014.jpg)![Fotografie 15](/img/decin/gotika/f/foto_0015.jpg)
+![Výsledky restaurování](/img/decin/gotika/f/foto_0014.jpg)![Výsledky restaurování](/img/decin/gotika/f/foto_0015.jpg)
 
 23.4.2021 bylo konečně možné hodiny převést do Hodinária. Je to v k tomuto datu nejstarší stroj v Hodináriu, byť je zachován pouze jako torzo. Snad brzy budou moci návštěvníci obdivovat gotické kování sloupků či natahovací vratidla.
 

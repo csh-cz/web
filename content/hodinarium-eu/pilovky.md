@@ -12,7 +12,7 @@ sourceCharset: windows-1250
 scrapedAt: 2026-04-27T17:37:01.254Z
 ---
 
-![Fotografie 1](/img/pilovky/f/foto_0001.jpg)
+![Pilovky se samonivelačním fyzikálním kyvadlem](/img/pilovky/f/foto_0001.jpg)
 
 Stroj používá fyzikální kyvadlo, které má protizávaží nahoře. Tím dochází k rozdílu  mezi hmotou, který ovlivňuje setrvačnost kyvadla  a mezi hmotou na kterou působí v těžišti gravitační síla. Díky tomuto provedení je jejich chod velmi pomalý, důstojný a klidný. Seřízení přesnosti se provádí malým závažím na závitu na kyvadle u spodní kuličky. Nezvykle se seřizují naopak jako u pendlovky. Hodiny jdou rychleji při šroubování závaží dolů, pomaleji při šroubování nahoru. Díky konstrukci kroku hodiny nejsou závislé na ideálně vodorovné ploše stolu, protože kyvadlo nekývá v klasických ložiskách, ale odvaluje se na čepech v půlkruhovém segmentu. Krokový mechanismus je za chodu pod sklem vidět. Výška hodin je 25 cm, průměr tubusu je 10,3 cm. Klikněte zde a uvidíte [hodiny v pohybu](https://www.youtube.com/watch?v=yUnEWZihKKg).
 
@@ -37,14 +37,14 @@ Otázkou by mohlo být, jak přesné je fyzikální kyvadlo proti matematickému
 
 Myšlenka samonivelace vznikla ze snahy zmírnit požadavek na vodorovnost plochy na které hodiny stojí. Osa kotvy může být na kružnici kolem krokového kola kdekoliv. Vyvážení hodin je nalezení správného úhlu mezi klidovou polohou závěsu kyvadla a vlastní kotvou. Obvyklé uložení hřídele kotvy je nad osou krokového kola, aby se co nejvíce zkrátila potřebná výška hodin pro zavěšení kyvadla. Pokud naopak přemístíme osu kotvy kolno pod krokové kolo do otočného závěsu kolem osy krokového kola, můžeme dosáhnou toho, že v této pozici - kolmo pod osou - vlastní vahou zůstane i při naklonění stroje.
 
-![Fotografie 3](/img/pilovky/f/foto_0003.jpg)
+![Samonivelace](/img/pilovky/f/foto_0003.jpg)
 
-![Fotografie 4](/img/pilovky/f/foto_0004.jpg)
+![Samonivelace](/img/pilovky/f/foto_0004.jpg)
 
-![Fotografie 5](/img/pilovky/f/foto_0005.jpg)
+![Samonivelace](/img/pilovky/f/foto_0005.jpg)
 
-![Fotografie 6](/img/pilovky/f/foto_0006.jpg)
+![Samonivelace](/img/pilovky/f/foto_0006.jpg)
 
-![Fotografie 7](/img/pilovky/f/foto_0007.jpg)
+![Samonivelace](/img/pilovky/f/foto_0007.jpg)
 
-![Fotografie 8](/img/pilovky/f/foto_0008.jpg)
+![Samonivelace](/img/pilovky/f/foto_0008.jpg)

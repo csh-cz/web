@@ -21,19 +21,19 @@ Půlový hodinový stroj s rámem typu flatbed. Strojů s tímto rámem je u ná
 
 ## Nálezový stav
 
-![Fotografie 1](/img/decin/francie1770/f/foto_0001.jpg)
+![Nálezový stav](/img/decin/francie1770/f/foto_0001.jpg)
 
-![Fotografie 2](/img/decin/francie1770/f/foto_0002.jpg)![Fotografie 3](/img/decin/francie1770/f/foto_0003.jpg)
+![Nálezový stav](/img/decin/francie1770/f/foto_0002.jpg)![Nálezový stav](/img/decin/francie1770/f/foto_0003.jpg)
 
-![Fotografie 4](/img/decin/francie1770/f/foto_0004.jpg)![Fotografie 5](/img/decin/francie1770/f/foto_0005.jpg)
+![Nálezový stav](/img/decin/francie1770/f/foto_0004.jpg)![Nálezový stav](/img/decin/francie1770/f/foto_0005.jpg)
 
-![Fotografie 6](/img/decin/francie1770/f/foto_0006.jpg)![Fotografie 7](/img/decin/francie1770/f/foto_0007.jpg)
+![Nálezový stav](/img/decin/francie1770/f/foto_0006.jpg)![Nálezový stav](/img/decin/francie1770/f/foto_0007.jpg)
 
-![Fotografie 8](/img/decin/francie1770/f/foto_0008.jpg)![Fotografie 9](/img/decin/francie1770/f/foto_0009.jpg)
+![Nálezový stav](/img/decin/francie1770/f/foto_0008.jpg)![Nálezový stav](/img/decin/francie1770/f/foto_0009.jpg)
 
-![Fotografie 10](/img/decin/francie1770/f/foto_0010.jpg)![Fotografie 11](/img/decin/francie1770/f/foto_0011.jpg)
+![Nálezový stav](/img/decin/francie1770/f/foto_0010.jpg)![Nálezový stav](/img/decin/francie1770/f/foto_0011.jpg)
 
-![Fotografie 12](/img/decin/francie1770/f/foto_0012.jpg)
+![Nálezový stav](/img/decin/francie1770/f/foto_0012.jpg)
 
 Po prvním postavení na pracovní stůl se ukázalo, že držák [kyvadla](/slovnik/kyvadlo) je namontován obráceně (možná pro úsporu místa při dopravě ?), na krokovém kole je vylomený jeden kolík a spouštěcí páka bití je v nefunkční poloze. Na rámu jsou známky pozdějších přestaveb. Chybí [kyvadlo](/slovnik/kyvadlo) a natahovací klika. Natahovací pastorek je naštěstí zachován. Chybí také několik šroubů a klínků. Zdálo se, že chybí celý převod na rafie. Prodejce však přibalil krabici součástek, ze kterých se podařilo tento převod složit. Tím bylo možné přesunout spouštěcí páku bití do správné polohy. Jak se stroj změnil můžete porovnat z následujících snímků.
 
@@ -43,11 +43,11 @@ Po prvním postavení na pracovní stůl se ukázalo, že držák [kyvadla](/slo
 
 Již se to klube....
 
-![Fotografie 1](/img/decin/francie1770/f/foto__0001.jpg)
+![Restaurování](/img/decin/francie1770/f/foto__0001.jpg)
 
-![Fotografie 2](/img/decin/francie1770/f/foto__0002.jpg)![Fotografie 3](/img/decin/francie1770/f/foto__0003.jpg)
+![Restaurování](/img/decin/francie1770/f/foto__0002.jpg)![Restaurování](/img/decin/francie1770/f/foto__0003.jpg)
 
-![Fotografie 4](/img/decin/francie1770/f/foto__0004.jpg)
+![Restaurování](/img/decin/francie1770/f/foto__0004.jpg)
 
 Tak kam?
 

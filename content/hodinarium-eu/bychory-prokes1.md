@@ -118,13 +118,13 @@ Nápis s okolím byl před ponořením do odrezovací kyseliny dvakrát překryt
 
 ## Stroj v původním umístění
 
-![Fotografie 1](/img/vez/bychory/autenticky/f/foto_0001.jpg)
+![Stroj v původním umístění](/img/vez/bychory/autenticky/f/foto_0001.jpg)
 
-![Fotografie 2](/img/vez/bychory/autenticky/f/foto_0002.jpg)
-![Fotografie 3](/img/vez/bychory/autenticky/f/foto_0003.jpg)
+![Stroj v původním umístění](/img/vez/bychory/autenticky/f/foto_0002.jpg)
+![Stroj v původním umístění](/img/vez/bychory/autenticky/f/foto_0003.jpg)
 
-![Fotografie 4](/img/vez/bychory/autenticky/f/foto_0004.jpg)
-![Fotografie 5](/img/vez/bychory/autenticky/f/foto_0005.jpg)
+![Stroj v původním umístění](/img/vez/bychory/autenticky/f/foto_0004.jpg)
+![Stroj v původním umístění](/img/vez/bychory/autenticky/f/foto_0005.jpg)
 
 ## Stroj v expozici Hodinária
 
