@@ -2,17 +2,17 @@
 title: Časový zámek - Time Lock
 slug: casovy-zamek
 category: konstrukce
-tldr: 'Trezorová profesní hodinařina od Jamese Sargenta (1874) — funkční dvojstrojový exemplář Thomas Fox v Hodináriu, princip zdvojených nebo ztrojených strojů kvůli redundanci proti poruše.'
+tldr: Trezorová profesní hodinařina od Jamese Sargenta (1874) — funkční dvojstrojový exemplář Thomas Fox v Hodináriu, princip zdvojených nebo ztrojených strojů kvůli redundanci proti poruše.
 author: ''
 tags:
   - mechanicke
   - kuriozita
   - 1800s
-imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/casovy_zamek.htm
 lastModified: Sun, 23 Apr 2017 09:11:00 GMT
 sourceCharset: windows-1250
 scrapedAt: 2026-04-27T17:36:30.563Z
+imageCredit: Archiv Petra Krále (hodinarium.eu)
 ---
 
 [![Časový zámek T.FOX and CO](/img/decin/casove_zamky/f/T_FOX_a_CO_LTD.jpg)](/img/decin/casove_zamky/f/T_FOX_a_CO_LTD.jpg)
@@ -39,3 +39,4 @@ Exponát Hodinária je funkční časový zámek Thomas Fox Mechanical Time Over
 - [Web dodavatele našeho exponátu.](http://www.safeandvaultcompany.co.uk/) — Safe + Vault. [cit. 2026-04-28
 - [Time lock](https://en.wikipedia.org/wiki/Time_lock) — en.wikipedia.org. [cit. 2026-04-28]
 - [TMI Guide to Timelock Movements](http://www.sopl.us/uploads/1/3/0/1/1301029/tmi_guide_to_timelock_2009.pdf) — sopl.us. [cit. 2026-04-28]
+- [Trezor s časovým zámkem](https://jinova.cz/index.php/trezor-s-casovym-zamkem)
