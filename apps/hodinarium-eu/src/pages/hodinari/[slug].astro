@@ -8,6 +8,7 @@ import { hodinari, hasType } from '../../data/hodinari';
 import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
+import { cdnUrl } from '../../utils/cdnImage';
 import { formatAuthor } from '../../utils/formatAuthor';
 import { stavLabel } from '../../data/labels';
 import { extractWikiTitle } from '../../utils/referenceTypes';
@@ -273,7 +274,7 @@ const personJsonLd = hasType(hodinar, 'osoba')
                   {kartySbirky.map((k) => (
                     <tr>
                       <td class="stroje-col-thumb">
-                        {k.thumb && <a href={`/sbirka/karta/${k.slug}/`} class="stroje-thumb-link"><img src={k.thumb} alt="" loading="lazy" decoding="async" /></a>}
+                        {k.thumb && <a href={`/sbirka/karta/${k.slug}/`} class="stroje-thumb-link"><img src={cdnUrl(k.thumb)} alt="" loading="lazy" decoding="async" /></a>}
                       </td>
                       <td class="stroje-col-inv">{k.inv && <span class="stroje-inv">inv. {k.inv}</span>}</td>
                       <td class="stroje-col-datace">{k.datace}</td>
@@ -309,7 +310,7 @@ const personJsonLd = hasType(hodinar, 'osoba')
                   {soupisRecords.map((s) => (
                     <tr>
                       <td class="stroje-col-thumb">
-                        {s.thumb && <a href={`/soupis-veznich-hodin/${s.slug}/`} class="stroje-thumb-link"><img src={s.thumb.src} alt={s.thumb.alt ?? ''} loading="lazy" decoding="async" /></a>}
+                        {s.thumb && <a href={`/soupis-veznich-hodin/${s.slug}/`} class="stroje-thumb-link"><img src={cdnUrl(s.thumb.src)} alt={s.thumb.alt ?? ''} loading="lazy" decoding="async" /></a>}
                       </td>
                       <td class="stroje-col-rok">{s.rok}</td>
                       <td class="stroje-col-title">
@@ -379,7 +380,7 @@ const personJsonLd = hasType(hodinar, 'osoba')
               <li>
                 <a href={clanekHref(c)}>
                   {c.thumbnail && (
-                    <img src={c.thumbnail} alt="" loading="lazy" decoding="async" />
+                    <img src={cdnUrl(c.thumbnail)} alt="" loading="lazy" decoding="async" />
                   )}
                   <span class="related-text">
                     <strong>{c.title || c.slug}</strong>

@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
 import { hodinari } from '../../data/hodinari';
+import { cdnUrl } from '../../utils/cdnImage';
 
 const hodiny = await getCollection('soupis-veznich-hodin');
 
@@ -325,7 +326,7 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
               data-stav={h.data.stav}
             >
               <td class="soupis-col-thumb col-thumb">
-                {hero && <img src={hero.src} alt={hero.alt ?? ''} loading="lazy" decoding="async" />}
+                {hero && <img src={cdnUrl(hero.src)} alt={hero.alt ?? ''} loading="lazy" decoding="async" />}
               </td>
               <td class="col-rok"><strong>{h.data.rok}</strong></td>
               <td class="col-hodinar">
