@@ -1,18 +1,16 @@
 ---
 /**
- * Breadcrumbs — drobečková navigace + JSON-LD BreadcrumbList.
+ * @csh/ui — Breadcrumbs drobečková navigace + JSON-LD BreadcrumbList.
  *
- * Sjednocuje 5 dříve duplikovaných implementací (Article.astro,
- * sbirka/karta/[slug].astro, kronika/[slug].astro, hodinari/[slug].astro,
- * kroky/[slug].astro, tagy/[tag].astro). CSS žije v `global.css`
- * (`.breadcrumbs`), takže vyhmatané duplikáty v scoped <style> bloky pryč.
+ * Sjednoceno mezi hodinarium-eu a horologie-cz (FU5 fáze 4, 2026-05-19).
+ * CSS žije v site-specific global.css (`.breadcrumbs`).
  *
  * Crumb props:
  *   - label   : zobrazený text (povinný)
  *   - href    : když je nastavený, vykreslí <a>; bez něj <span class="current">
- *   - soft    : separátor PŘED touto položkou je "·" místo "›" (sub-view, ne další úroveň)
- *   - dim     : ztlumený intermediate label (např. dimenze "Lokality" v /tagy)
- *               — bez href, bez current — vypadne i z JSON-LD BreadcrumbList
+ *   - soft    : separátor PŘED touto položkou je „·" místo „›" (sub-view)
+ *   - dim     : ztlumený intermediate label — bez href, bez current —
+ *               vypadne i z JSON-LD BreadcrumbList
  *
  * Použití:
  *   <Breadcrumbs trail={[
@@ -22,8 +20,9 @@
  *     { label: 'Soustrojí Prokeš 1868' },  // current
  *   ]} />
  *
- * JSON-LD: zahrnuje jen položky bez `dim`. Soft položky (sub-view) tam
- * jsou taky — pro Google jsou to validní úrovně. Vypneš přes noJsonLd.
+ * JSON-LD URL base: `Astro.site` (z astro.config.mjs). Pokud chybí,
+ * BreadcrumbList se vyrenderuje jen s `name` (bez `item` URL) — Google
+ * to akceptuje.
  */
 
 interface Crumb {
@@ -43,14 +42,17 @@ const { trail, noJsonLd = false } = Astro.props;
 
 // JSON-LD BreadcrumbList — Google rich snippets.
 // Filtrujeme dim crumbs (nejsou to skutečné úrovně), ostatní vč. soft zachováváme.
-const site = Astro.site ?? new URL('https://hodinarium-eu.pages.dev');
+const site = Astro.site;
 const ldItems = trail
   .filter((c) => !c.dim)
   .map((c, i) => ({
     '@type': 'ListItem',
     position: i + 1,
     name: c.label,
-    ...(c.href && { item: new URL(c.href, site).toString() }),
+    // Když site není nakonfigurovaná (žádný site: v astro.config), vynechej
+    // absolute item URL — relative URL by Google odmítl. `name` stačí pro
+    // partial markup.
+    ...(c.href && site && { item: new URL(c.href, site).toString() }),
   }));
 
 const jsonLd =

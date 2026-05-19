@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
 
 export async function getStaticPaths() {
   const all = await getCollection('clanky');
@@ -21,13 +22,11 @@ const lastModifiedReadable = (() => {
 })();
 ---
 <Base title={entry.data.title} description="">
-  <nav class="breadcrumbs" aria-label="Drobečková navigace">
-    <a href="/">Spolek</a>
-    <span aria-hidden="true">›</span>
-    <a href="/dokumenty">Dokumenty</a>
-    <span aria-hidden="true">›</span>
-    <span class="current" aria-current="page">{entry.data.title}</span>
-  </nav>
+  <Breadcrumbs trail={[
+    { href: "/", label: "Spolek" },
+    { href: "/dokumenty", label: "Dokumenty" },
+    { label: entry.data.title },
+  ]} />
 
   <article class="article-doc">
     <header class="article-header">
@@ -43,30 +42,7 @@ const lastModifiedReadable = (() => {
 </Base>
 
 <style>
-  .breadcrumbs {
-    font-size: 0.9rem;
-    color: var(--color-text-muted);
-    margin-bottom: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    align-items: baseline;
-  }
-  .breadcrumbs a {
-    color: var(--color-text-soft);
-    border-bottom: none;
-  }
-  .breadcrumbs a:hover {
-    color: var(--color-brass-bright);
-  }
-  .breadcrumbs .current {
-    color: var(--color-text-soft);
-    font-style: italic;
-  }
-  .breadcrumbs span[aria-hidden] {
-    color: var(--color-brass);
-    opacity: 0.5;
-  }
+  /* .breadcrumbs CSS přesunut do @csh/ui/styles/breadcrumbs.css (FU5 fáze 4). */
 
   .article-doc {
     max-width: 720px;

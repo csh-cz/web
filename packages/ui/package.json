@@ -7,9 +7,13 @@
   "exports": {
     "./styles/tokens.css": "./styles/tokens.css",
     "./styles/utilities.css": "./styles/utilities.css",
-    "./styles/buttons.css": "./styles/buttons.css"
+    "./styles/buttons.css": "./styles/buttons.css",
+    "./styles/breadcrumbs.css": "./styles/breadcrumbs.css",
+    "./components/JsonLd.astro": "./components/JsonLd.astro",
+    "./components/Breadcrumbs.astro": "./components/Breadcrumbs.astro"
   },
   "files": [
-    "styles"
+    "styles",
+    "components"
   ]
 }
