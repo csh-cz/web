@@ -5,7 +5,7 @@ import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
 import WipBanner from '../../components/WipBanner.astro';
 import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
 import { formatCite, getRef } from '../../utils/cite';
-import { tinyMarkdown } from '../../utils/tinyMarkdown';
+import { tinyMarkdown, stripMarkdown } from '../../utils/tinyMarkdown';
 import CrossRefs from '../../components/CrossRefs.astro';
 
 export async function getStaticPaths() {
@@ -47,7 +47,7 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
 ---
 <Base
   title={`${data.title} — hodinářský slovník`}
-  description={data.definice}
+  description={stripMarkdown(data.definice)}
   cmsEditUrl={`/admin/#/collections/slovnik/entries/${entry.id}`}
   citation={{
     itemType: 'webpage',
