@@ -451,7 +451,7 @@ const orgJsonLd = isHome ? {
     </main>
 
     <SearchModal />
-    <ReportIssueModal />
+    <ReportIssueModal cmsEditUrl={cmsEditUrl} />
 
     <footer class="site-footer mt-20" role="contentinfo">
       <div class="max-w-6xl mx-auto px-6 py-10 text-sm text-[var(--color-text-muted)]">
@@ -698,25 +698,14 @@ const orgJsonLd = isHome ? {
           const logoutSlot = document.getElementById('admin-logout-slot');
           if (logoutSlot) logoutSlot.classList.remove('hidden');
 
-          // Floating edit button (jen na editovatelných stránkách).
-          // Inject do .fab-stack containeru (renderuje ho ReportIssueModal).
-          // Když není data-cms-edit-url, jen Nahlásit problém zůstane sám.
-          const editUrl = document.body.getAttribute('data-cms-edit-url');
-          if (editUrl) {
-            const stack = document.querySelector('.fab-stack');
-            if (stack) {
-              const btn = document.createElement('a');
-              btn.href = editUrl;
-              btn.className = 'fab fab--primary cms-edit-fab';
-              btn.setAttribute('aria-label', 'Upravit tuto stránku v CMS');
-              btn.innerHTML = '<i class="fa-solid fa-pen" aria-hidden="true"></i><span>Upravit</span>';
-              btn.addEventListener('click', () => {
-                try { sessionStorage.setItem('cms-return-url', window.location.href); } catch {}
-              });
-              // Primary FAB dole — appendChild dá ho na konec, ale stack
-              // má `flex-direction: column-reverse`, takže vizuálně skončí dole.
-              stack.appendChild(btn);
-            }
+          // Floating edit button už je renderovaný server-side z ReportIssueModal
+          // (předtím JS-injected — issue #36 fix). Tady jen `cms-return-url`
+          // handler aby po editu v Sveltia editor mohl navigovat zpět.
+          const editFab = document.getElementById('cms-edit-fab');
+          if (editFab) {
+            editFab.addEventListener('click', () => {
+              try { sessionStorage.setItem('cms-return-url', window.location.href); } catch {}
+            });
           }
         } catch (e) {
           // Tichá chyba — anonymous návštěvníci nemají session, je to OK.

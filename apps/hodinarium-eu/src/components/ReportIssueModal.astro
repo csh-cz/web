@@ -1,30 +1,34 @@
 ---
 /**
- * Editor-only „Nahlásit problém" — floating button + modal form.
+ * Editor-only „Nahlásit problém" + „Upravit" — floating buttons + modal form.
  *
  * Visible only when editor is authenticated (CF Access session). Hydrate
  * logic v Base.astro fetcheuje `/api/cms/auth/user` a pokud authenticated,
  * nastaví `body[data-editor-mode="true"]`. Tahle komponenta se na to
- * pověsí přes CSS (`body:not([data-editor-mode]) .report-issue-fab { display:none }`).
+ * pověsí přes CSS (`body:not([data-editor-mode]) .fab-stack { display:none }`).
+ *
+ * **„Upravit" FAB renderuje SERVER-SIDE** (issue #36), nikoli přes JS inject.
+ * Předtím Base.astro JS injektoval FAB až po fetch `/api/admin-session-status`
+ * — pokud check selhal (cookie expired, race condition), FAB chyběl i pro
+ * přihlášené editory. Statické renderování s data-cms-edit-url z Base props
+ * je deterministické. JS pak jen `sessionStorage.setItem('cms-return-url')`
+ * při kliknutí (return-from-CMS UX).
  *
  * Form posílá JSON na `POST /api/report-issue`. CF Access cookie se posílá
  * automaticky (same-origin), endpoint čte editora z
  * `Cf-Access-Authenticated-User-Email` header.
  *
- * Field reference:
- *   - url, pageTitle, userAgent: vyplněné JS z window.location / document.title / navigator
- *   - problemType <select>: 7 hodnot, validace na serveru proti PROBLEM_TYPES
- *   - description <textarea>: required, 5–2000 znaků
- *   - _url honeypot: skrytý input — boti často všechno vyplní; lidé nechají prázdné
- *
  * Po success: zelený toast + URL odkaz na vytvořený issue.
  * Po fail: červená inline hláška ve formuláři.
  */
+interface Props {
+  /** CMS edit URL z Base.astro (Sveltia route). Když undefined → jen Nahlásit problém. */
+  cmsEditUrl?: string;
+}
+const { cmsEditUrl } = Astro.props as Props;
 ---
 
 {/* FAB stack — společný container pro všechna floating editor tlačítka.
-    Base.astro hydration sem dynamicky inject-uje "Upravit" FAB pokud má
-    stránka data-cms-edit-url. „Nahlásit problém" je tu vždy.
     Stack je vizuálně column-reverse → primary (Upravit) dole, secondary
     (Nahlásit) nad ním. CSS skrývá stack pro anon (body bez data-editor-mode). */}
 <div class="fab-stack" aria-label="Editorské nástroje">
@@ -38,6 +42,18 @@
     <i class="fa-solid fa-bug" aria-hidden="true"></i>
     <span>Nahlásit problém</span>
   </button>
+  {cmsEditUrl && (
+    <a
+      href={cmsEditUrl}
+      id="cms-edit-fab"
+      class="fab fab--primary cms-edit-fab"
+      aria-label="Upravit tuto stránku v CMS"
+      title="Upravit tuto stránku v CMS"
+    >
+      <i class="fa-solid fa-pen" aria-hidden="true"></i>
+      <span>Upravit</span>
+    </a>
+  )}
 </div>
 
 <dialog id="report-issue-modal" aria-label="Nahlásit problém" aria-modal="true">
