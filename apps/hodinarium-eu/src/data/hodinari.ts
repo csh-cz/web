@@ -2410,7 +2410,49 @@ export const hodinari: Hodinar[] = [
     era: '19stol',
   },
 
-  // ── Plasy klášter — Friedrich Friedrich (1686) + Robert Drozda (1980–2019 péče) ──
+  // ── Plasy klášter — kompletní rodina hodinářů (1686 → současnost) ──
+  // Nápis na vnitřním ciferníku: „Friedrich fecit 1686 — Georg Haller melioravit 1720"
+  // (Drozda 2006, Milerová 2025 s. 46). Cymbálová kladiva Štěpán Priquey z Klatov.
+  // Drozda 40 let péče (1980–2019), Pavel Novák od 12/2019.
+  {
+    slug: 'stepan-priquey',
+    jmeno: 'Štěpán Priquey',
+    aliasy: ['Štěpán Priquey', 'Stěpán Priquey'],
+    typ: 'osoba',
+    obdobi: 'doloženo 1686',
+    mesto: 'Klatovy',
+    zeme: 'CZ',
+    shrnuti:
+      'Klatovský zvonař doložený rokem 1686 — zhotovitel cymbálových kladiv pro barokní věžní hodinový stroj v [klášteře Plasy](/soupis-veznich-hodin/1686-plasy-klaster-friedrich). Zakázku objednal opat Ondřej Trojer souběžně s [Friedrichovým](/hodinari/friedrich-friedrich) hodinovým strojem.',
+    relatedSlugs: [],
+    era: 'baroko',
+  },
+  {
+    slug: 'georg-haller',
+    jmeno: 'Georg Haller',
+    aliasy: ['Georg Haller'],
+    typ: 'osoba',
+    obdobi: 'doloženo 1720',
+    mesto: '?',
+    zeme: '?',
+    shrnuti:
+      'Barokní hodinář doložený rokem 1720, kdy provedl vylepšení (lat. *melioravit*) plaského věžního stroje. Jméno na zadní straně malého vnitřního ciferníku: „Friedrich fecit 1686 — Georg Haller melioravit 1720". Pravděpodobně lokální plzeňský / klatovský původ; archivní doklad chybí.',
+    relatedSlugs: [],
+    era: 'baroko',
+  },
+  {
+    slug: 'pavel-novak-plasy',
+    jmeno: 'Pavel Novák (plaský hodinář)',
+    aliasy: ['Pavel Novák'],
+    typ: 'osoba',
+    obdobi: 'od 1. 12. 2019',
+    mesto: 'Plasy',
+    zeme: 'CZ',
+    shrnuti:
+      'Vyučený zámečník a místní rodák z Plas, od 1. 12. 2019 hodinář barokního stroje cisterciáckého kláštera v Plasích. Převzal péči po smrti [Roberta Drozdy](/hodinari/robert-drozda); denně natahuje čtyři závaží (nejtěžší 607 kg) a doprovází návštěvníky.',
+    relatedSlugs: [],
+    era: 'soucasnost',
+  },
   {
     slug: 'friedrich-friedrich',
     jmeno: 'Friedrich',
