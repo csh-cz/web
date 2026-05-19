@@ -172,6 +172,9 @@ const typLabels: Record<string, string> = {
   }
 
   .article-byline {
+    /* Issue #27: clear: both — pokud poslední blok v .prose-content je
+       gallery / floated image, bez clear se byline napíše přes ně. */
+    clear: both;
     margin-top: 2.5rem;
     padding-top: 1.25rem;
     border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
@@ -181,6 +184,13 @@ const typLabels: Record<string, string> = {
     flex-wrap: wrap;
     gap: 0.5rem;
     align-items: baseline;
+  }
+  /* Clearfix na celý prose-content aby float / grid blocky uvnitř nikdy
+     nepřetékaly do siblings (CrossRefs, article-byline). Belt-and-suspenders. */
+  .prose-content::after {
+    content: "";
+    display: block;
+    clear: both;
   }
   .byline-author { color: var(--color-text-soft); font-style: italic; }
   .byline-sep { color: var(--color-brass); opacity: 0.5; }
