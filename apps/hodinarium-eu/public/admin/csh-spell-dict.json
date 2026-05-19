@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-19T15:48:39.480Z",
+  "generatedAt": "2026-05-19T17:09:38.596Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 153,
@@ -8,7 +8,7 @@
     "hodinariTs": 165,
     "soupis": 430
   },
-  "count": 1674,
+  "count": 1675,
   "words": [
     "Abraham",
     "Accutron",
@@ -177,6 +177,7 @@
     "cep",
     "Cepek",
     "Cidlinou",
+    "cifernik",
     "ciferník",
     "cimbály",
     "Církve",
