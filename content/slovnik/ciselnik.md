@@ -738,7 +738,7 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 > Hainz** 1865/66. PDF stažen z Kramerius MZK 2026-05-14, public
 > domain.)
 
-> KREČMER, V. *O plynovém automatu na hodinách na staroměstské vodárně.*
+> — KREČMER, V. *O plynovém automatu na hodinách na staroměstské vodárně.*
 > Národní listy, roč. 23, č. 23, 27. 1. 1883, s. 3. [Zotero `52Z2ZSUR`]
 > (Krečmerova přednáška o vodárenském efemeridním automatu 1883;
 > zmínka o jeho ranějším automatu na Pražském orloji **1866** jako
@@ -778,14 +778,14 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 > Pražského orloje — proč astrolábské stupnice nejsou geometricky
 > dokonalé.)
 
-> KŘÍŽEK, M., KŘÍŽEK, P., ŠOLC, J. *Astronomické omyly provázející pražský
+> — KŘÍŽEK, M., KŘÍŽEK, P., ŠOLC, J. *Astronomické omyly provázející pražský
 > orloj.* 2010. [Zotero `HMCFJF6X`]
 > (Komentář k astronomickým interpretacím orloje.)
 
-> KŘÍŽEK, M. *600 let Pražského orloje.* 2009. [Zotero `6SIMRV4V`]
+> — KŘÍŽEK, M. *600 let Pražského orloje.* 2009. [Zotero `6SIMRV4V`]
 > (Souhrn architektonického vývoje + rafije Slunce + Měsíc + kalendárium.)
 
-> KNESPL, David. *Chyba planetního číselníku olomouckého orloje.* 2021.
+> — KNESPL, David. *Chyba planetního číselníku olomouckého orloje.* 2021.
 > [Zotero `LRCSJ3KF`]
 > (Paralelní cs astronomický číselník + jeho konstrukční chyba.)
 

@@ -770,6 +770,10 @@ const slovnikReference = z.object({
   citace: z.string().optional(),                   // doslovný citát z pramene
   pages: z.string().optional(),
   note: z.string().optional(),
+  /** Stabilní anchor key pro inline body link na tuto referenci.
+      Konvence: autor-rok kebab-case (`pakosta-2007`, `skala-2013`).
+      V body slovník hesla piš `[Pakosta 2007](#ref-pakosta-2007)`. */
+  key: z.string().regex(/^[a-z0-9-]+$/).optional(),
 }).refine((r) => r.bibKey || r.title || r.citace, {
   message: 'slovnik reference: musí mít bibKey, title nebo citace.',
 });
