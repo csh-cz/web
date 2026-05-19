@@ -109,10 +109,21 @@ jobs:
           fi
           echo "✓ 0 [Zotero KEY] mentions in body"
 
+      # `--no-warnings` zabíjí Node `ExperimentalWarning: glob is an experimental
+      # feature` ze stderr — bez něj se warning řádky pomíchají do regex parsingu
+      # a "Touched: N" hodnota se rozbije podle Node minor verze (fail
+      # 47e38c4a). `|| true` chytá případný non-zero exit z node (script jinak
+      # exit 0 i pro found content, počítáme value z stdout).
       - name: Audit tldr markdown (must be plaintext)
         run: |
-          OUTPUT=$(node scripts/strip-tldr-markdown.mjs 2>&1 | tail -n +5)
-          TOUCHED=$(echo "$OUTPUT" | grep -oE "Touched: [0-9]+" | grep -oE "[0-9]+")
+          OUTPUT=$(node --no-warnings scripts/strip-tldr-markdown.mjs 2>&1 || true)
+          TOUCHED=$(echo "$OUTPUT" | grep -oE "Touched: [0-9]+" | head -1 | grep -oE "[0-9]+")
+          TOUCHED=${TOUCHED:-MISSING}
+          if [ "$TOUCHED" = "MISSING" ]; then
+            echo "::error::Audit script nevypsal 'Touched: N' marker — zkontroluj scripts/strip-tldr-markdown.mjs"
+            echo "$OUTPUT"
+            exit 1
+          fi
           if [ "$TOUCHED" != "0" ]; then
             echo "::error::tldr fields contain markdown artefakty — run \`node scripts/strip-tldr-markdown.mjs --apply\`:"
             echo "$OUTPUT" | head -20
@@ -122,8 +133,14 @@ jobs:
 
       - name: Audit OCR drop-caps (no **X**y patterns)
         run: |
-          OUTPUT=$(node scripts/strip-ocr-drop-caps.mjs 2>&1 | tail -n +5)
-          STRIPPED=$(echo "$OUTPUT" | grep -oE "Pattern A stripped:\s+[0-9]+" | grep -oE "[0-9]+$")
+          OUTPUT=$(node --no-warnings scripts/strip-ocr-drop-caps.mjs 2>&1 || true)
+          STRIPPED=$(echo "$OUTPUT" | grep -oE "Pattern A stripped:[[:space:]]+[0-9]+" | head -1 | grep -oE "[0-9]+$")
+          STRIPPED=${STRIPPED:-MISSING}
+          if [ "$STRIPPED" = "MISSING" ]; then
+            echo "::error::Audit script nevypsal 'Pattern A stripped: N' marker — zkontroluj scripts/strip-ocr-drop-caps.mjs"
+            echo "$OUTPUT"
+            exit 1
+          fi
           if [ "$STRIPPED" != "0" ]; then
             echo "::error::Body contains OCR drop-cap **X**y artefakty — run \`node scripts/strip-ocr-drop-caps.mjs --apply\`:"
             echo "$OUTPUT" | head -25
