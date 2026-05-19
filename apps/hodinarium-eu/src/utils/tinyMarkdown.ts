@@ -16,13 +16,28 @@ function escapeHtml(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-export function tinyMarkdown(s: string | undefined | null): string {
+export interface TinyMarkdownOptions {
+  /** Pokud true, markdown link `[text](url)` se převede jen na `text`
+   *  (bez `<a>` wrapperu). Použít když render kontext už je uvnitř
+   *  `<a>` elementu (např. card preview v indexu) — nested `<a>` HTML
+   *  parser auto-rozseká a vyrobí kostýmní artefakty. */
+  stripLinks?: boolean;
+}
+
+export function tinyMarkdown(
+  s: string | undefined | null,
+  options: TinyMarkdownOptions = {}
+): string {
   if (!s) return '';
   let html = escapeHtml(s);
   // Inline code `code`
   html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
-  // Markdown links [text](url)
-  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+  // Markdown links [text](url) — volitelně bez <a> wrapperu
+  if (options.stripLinks) {
+    html = html.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+  } else {
+    html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+  }
   // Bold **text** (ne přes řádek)
   html = html.replace(/\*\*([^*\n]+)\*\*/g, '<strong>$1</strong>');
   // Italic *text* — po bold (aby se nezasáhly stars uvnitř bold)
