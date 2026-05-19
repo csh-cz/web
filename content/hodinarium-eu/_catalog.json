@@ -8,7 +8,10 @@
     "year": null,
     "lastModified": "2016-07-02T20:07:00.000Z",
     "imageCount": 0,
-    "wordCount": 509
+    "wordCount": 509,
+    "tags": [
+      "popularizace"
+    ]
   },
   {
     "slug": "mobil",
@@ -19,7 +22,14 @@
     "year": null,
     "lastModified": "2017-04-26T13:40:00.000Z",
     "imageCount": 0,
-    "wordCount": 305
+    "wordCount": 305,
+    "tags": [
+      "digi",
+      "gps-rizeno",
+      "ntp-rizeno",
+      "2000s",
+      "popularizace"
+    ]
   },
   {
     "slug": "normalni",
@@ -30,7 +40,11 @@
     "year": null,
     "lastModified": "2017-04-26T16:08:00.000Z",
     "imageCount": 0,
-    "wordCount": 94
+    "wordCount": 89,
+    "tags": [
+      "kuriozita",
+      "popularizace"
+    ]
   },
   {
     "slug": "arduino-solari",
@@ -42,6 +56,11 @@
     "lastModified": "2022-04-24T09:31:00.000Z",
     "imageCount": 7,
     "wordCount": 1635,
+    "tags": [
+      "ntp-rizeno",
+      "solari-udine",
+      "diy"
+    ],
     "searchKeywords": [
       "Arduino, ESP8266"
     ]
@@ -252,7 +271,10 @@
     "imageCount": 52,
     "wordCount": 2086,
     "tags": [
-      "akvizice"
+      "akvizice",
+      "vezni",
+      "decin",
+      "historie-spolku"
     ]
   },
   {
@@ -264,7 +286,11 @@
     "year": 1947,
     "lastModified": "2021-11-10T10:08:00.000Z",
     "imageCount": 7,
-    "wordCount": 678
+    "wordCount": 671,
+    "tags": [
+      "1900s",
+      "popularizace"
+    ]
   },
   {
     "slug": "inv-183-amaterske-hodiny-oma",
@@ -324,7 +350,13 @@
     "year": null,
     "lastModified": "2024-12-29T22:31:00.000Z",
     "imageCount": 2,
-    "wordCount": 1018
+    "wordCount": 1015,
+    "tags": [
+      "gps-rizeno",
+      "krystal",
+      "rubidium",
+      "diy"
+    ]
   },
   {
     "slug": "inv-72-astrolab-dreveny",
@@ -362,7 +394,11 @@
     "year": 2018,
     "lastModified": "2025-10-05T18:07:00.000Z",
     "imageCount": 2,
-    "wordCount": 520
+    "wordCount": 520,
+    "tags": [
+      "ntp-rizeno",
+      "diy"
+    ]
   },
   {
     "slug": "astronomicke-sauter",
@@ -373,10 +409,11 @@
     "year": null,
     "lastModified": "2020-09-08T00:00:00.000Z",
     "imageCount": 14,
-    "wordCount": 607,
+    "wordCount": 600,
     "tags": [
       "mechanicke",
-      "baroko"
+      "elektricke",
+      "1900s"
     ]
   },
   {
@@ -390,6 +427,9 @@
     "imageCount": 0,
     "wordCount": 32,
     "tags": [
+      "vezni",
+      "gotika",
+      "mechanicke",
       "evropa"
     ]
   },
@@ -466,7 +506,13 @@
     "year": null,
     "lastModified": "2025-02-09T10:19:00.000Z",
     "imageCount": 5,
-    "wordCount": 942
+    "wordCount": 942,
+    "tags": [
+      "atomove",
+      "kapesni",
+      "rubidium",
+      "2000s"
+    ]
   },
   {
     "slug": "vez-kli",
@@ -477,9 +523,14 @@
     "year": 2013,
     "lastModified": "2017-04-27T09:03:00.000Z",
     "imageCount": 8,
-    "wordCount": 223,
+    "wordCount": 217,
     "tags": [
-      "vezni"
+      "vezni",
+      "mechanicke",
+      "zavazi",
+      "kyvadlo",
+      "krok-vreteno",
+      "1700s"
     ]
   },
   {
@@ -507,7 +558,15 @@
     "year": 1618,
     "lastModified": "2017-04-23T07:58:00.000Z",
     "imageCount": 12,
-    "wordCount": 536
+    "wordCount": 536,
+    "tags": [
+      "vezni",
+      "krok-vreteno",
+      "wenzel-mellner",
+      "baroko",
+      "restaurovane",
+      "decin"
+    ]
   },
   {
     "slug": "vez-zlate-hory",
@@ -520,7 +579,13 @@
     "imageCount": 6,
     "wordCount": 516,
     "tags": [
-      "vezni"
+      "vezni",
+      "mechanicke",
+      "zavazi",
+      "kyvadlo",
+      "baroko",
+      "1700s",
+      "pred-restaurovanim"
     ]
   },
   {
@@ -646,6 +711,27 @@
       "hlavni-sal",
       "funkcni",
       "brillie"
+    ]
+  },
+  {
+    "slug": "big-ben-denisonuv-gravitacni-krok",
+    "title": "Big Ben a Denisonův gravitační krok",
+    "category": "zajimavosti",
+    "thumbnail": null,
+    "excerpt": "V hodinářském slovníku je „Big Ben\" jedním z nejčastěji nesprávně používaných termínů. Big Ben není věž, ani hodinový stroj — je to velký zvon (∅ 2,7 m, hmotnost 13,76 t), na který se vykazuje hodinové bití. Vlastní h…",
+    "year": 1834,
+    "lastModified": "2026-05-17T05:30:00.000Z",
+    "imageCount": 0,
+    "wordCount": 1829,
+    "tags": [
+      "vezni",
+      "westminster",
+      "big-ben",
+      "krok-denison-gravitacni",
+      "kyvadlo",
+      "1800s",
+      "mechanicke",
+      "svet"
     ]
   },
   {
@@ -926,22 +1012,6 @@
     ]
   },
   {
-    "slug": "bulle",
-    "title": "BULLE hodiny - elektromagnet se dvěma magnetickými poli",
-    "category": "konstrukce",
-    "thumbnail": "/img/elektrika/bulle/magnet.jpg",
-    "excerpt": "Jde o hodiny s elektromagnetickým impulzem do kyvadla, které následně posunuje stroj. Proti nákresům z patentních spisů je osa páčky která posunuje rohatku nastavitelná, takže lze nastavit, aby při poměrně velkém ampl…",
-    "year": 1920,
-    "lastModified": "2020-02-09T16:02:00.000Z",
-    "imageCount": 4,
-    "wordCount": 369,
-    "tags": [
-      "bulle",
-      "elektromagneticke",
-      "1900s"
-    ]
-  },
-  {
     "slug": "ctwagner",
     "title": "C.T.W. neboli Wagner clock",
     "category": "projekty",
@@ -950,7 +1020,13 @@
     "year": null,
     "lastModified": "2017-04-26T13:39:00.000Z",
     "imageCount": 0,
-    "wordCount": 341
+    "wordCount": 341,
+    "tags": [
+      "jednotny-cas",
+      "elektromagneticke",
+      "wagner",
+      "1900s"
+    ]
   },
   {
     "slug": "hodinky-12-24-ciferniku",
@@ -961,7 +1037,7 @@
     "year": 1907,
     "lastModified": "2020-11-28T21:01:00.000Z",
     "imageCount": 5,
-    "wordCount": 1128,
+    "wordCount": 1137,
     "tags": [
       "popularizace"
     ]
@@ -1024,7 +1100,11 @@
     "year": null,
     "lastModified": "2017-04-26T16:07:00.000Z",
     "imageCount": 0,
-    "wordCount": 66
+    "wordCount": 66,
+    "tags": [
+      "digi",
+      "kuriozita"
+    ]
   },
   {
     "slug": "vodni",
@@ -1049,7 +1129,13 @@
     "year": 2021,
     "lastModified": "2022-04-29T16:43:00.000Z",
     "imageCount": 3,
-    "wordCount": 860
+    "wordCount": 860,
+    "tags": [
+      "digi",
+      "kuriozita",
+      "slovensko",
+      "historie-spolku"
+    ]
   },
   {
     "slug": "inv-81-casovy-strojek-trezorovy",
@@ -1077,9 +1163,11 @@
     "year": 1874,
     "lastModified": "2017-04-23T09:11:00.000Z",
     "imageCount": 2,
-    "wordCount": 495,
+    "wordCount": 454,
     "tags": [
-      "mechanicke"
+      "mechanicke",
+      "kuriozita",
+      "1800s"
     ]
   },
   {
@@ -1107,7 +1195,12 @@
     "year": 1868,
     "lastModified": "2017-04-23T09:09:00.000Z",
     "imageCount": 4,
-    "wordCount": 713
+    "wordCount": 713,
+    "tags": [
+      "vezni",
+      "prokes",
+      "1800s"
+    ]
   },
   {
     "slug": "dcf77",
@@ -1118,7 +1211,13 @@
     "year": null,
     "lastModified": "2025-08-16T15:13:00.000Z",
     "imageCount": 8,
-    "wordCount": 1115
+    "wordCount": 1112,
+    "tags": [
+      "radio-rizeno",
+      "atomove",
+      "1900s",
+      "2000s"
+    ]
   },
   {
     "slug": "inv-171-dcf-andel-1",
@@ -1199,7 +1298,9 @@
     "imageCount": 1,
     "wordCount": 1002,
     "tags": [
-      "decimalka"
+      "decimalka",
+      "kuriozita",
+      "popularizace"
     ]
   },
   {
@@ -1227,6 +1328,11 @@
     "imageCount": 0,
     "wordCount": 32,
     "tags": [
+      "kapesni",
+      "naramkove",
+      "mechanicke",
+      "1800s",
+      "1900s",
       "evropa"
     ]
   },
@@ -1239,7 +1345,12 @@
     "year": null,
     "lastModified": "2017-04-26T16:10:00.000Z",
     "imageCount": 0,
-    "wordCount": 218
+    "wordCount": 218,
+    "tags": [
+      "digi",
+      "kuriozita",
+      "diy"
+    ]
   },
   {
     "slug": "inv-39-die-turmuhren",
@@ -1265,7 +1376,7 @@
     "year": 2000,
     "lastModified": "2025-05-26T10:10:00.000Z",
     "imageCount": 2,
-    "wordCount": 926,
+    "wordCount": 950,
     "tags": [
       "kyvadlo",
       "elektricke"
@@ -1558,7 +1669,9 @@
     "wordCount": 293,
     "tags": [
       "elektromagneticke",
-      "1900s"
+      "kyvadlo",
+      "1900s",
+      "junghans"
     ]
   },
   {
@@ -1570,7 +1683,11 @@
     "year": 1918,
     "lastModified": "2017-04-26T13:36:00.000Z",
     "imageCount": 4,
-    "wordCount": 195
+    "wordCount": 195,
+    "tags": [
+      "synchronni",
+      "elektricke"
+    ]
   },
   {
     "slug": "ferramo",
@@ -1583,7 +1700,8 @@
     "imageCount": 7,
     "wordCount": 248,
     "tags": [
-      "elektricke"
+      "elektricke",
+      "setrvacka"
     ]
   },
   {
@@ -1595,7 +1713,16 @@
     "year": 1839,
     "lastModified": "2017-05-01T08:49:00.000Z",
     "imageCount": 5,
-    "wordCount": 354
+    "wordCount": 354,
+    "tags": [
+      "vezni",
+      "elektricke",
+      "elektromagneticke",
+      "jednotny-cas",
+      "decin",
+      "1800s",
+      "1900s"
+    ]
   },
   {
     "slug": "inv-147-elektrokapalinove-puja",
@@ -1615,6 +1742,23 @@
     ]
   },
   {
+    "slug": "bulle",
+    "title": "Elektromagnetické hodiny Bulle",
+    "category": "konstrukce",
+    "thumbnail": "/img/elektrika/bulle/magnet.jpg",
+    "excerpt": "Jde o elektromagnetické hodiny s cívkou na kyvadle pohybující se kolem magnetu se složitě uspořádaným magnetickým polem.",
+    "year": 1920,
+    "lastModified": "2020-02-09T16:02:00.000Z",
+    "imageCount": 3,
+    "wordCount": 488,
+    "tags": [
+      "bulle",
+      "elektromagneticke",
+      "kyvadlo",
+      "1900s"
+    ]
+  },
+  {
     "slug": "elektromagneticke-segmenty",
     "title": "Elektromagnetický sedmi segmentový displej H715 M - BODET",
     "category": "projekty",
@@ -1623,7 +1767,12 @@
     "year": 1998,
     "lastModified": "2021-10-10T11:33:00.000Z",
     "imageCount": 0,
-    "wordCount": 835
+    "wordCount": 835,
+    "tags": [
+      "elektromagneticke",
+      "bodet",
+      "gps-rizeno"
+    ]
   },
   {
     "slug": "elektrina-ve-sluzbach-casu",
@@ -1666,7 +1815,11 @@
     "year": null,
     "lastModified": "2020-10-10T12:24:00.000Z",
     "imageCount": 1,
-    "wordCount": 211
+    "wordCount": 211,
+    "tags": [
+      "synchronni",
+      "elektricke"
+    ]
   },
   {
     "slug": "edgecombe",
@@ -1694,7 +1847,9 @@
     "imageCount": 11,
     "wordCount": 2171,
     "tags": [
-      "evropa"
+      "vezni",
+      "evropa",
+      "cesko"
     ]
   },
   {
@@ -1706,17 +1861,25 @@
     "year": 1770,
     "lastModified": "2017-04-28T16:23:00.000Z",
     "imageCount": 23,
-    "wordCount": 326
+    "wordCount": 326,
+    "tags": [
+      "vezni",
+      "krok-amant",
+      "paul-zieux",
+      "decin",
+      "restaurovane",
+      "1700s"
+    ]
   },
   {
     "slug": "flying-pendulum",
     "title": "FLYING PENDULUM CLOCK",
     "category": "konstrukce",
-    "thumbnail": null,
+    "thumbnail": "/img/flying/Ignatz_clock3.jpg",
     "excerpt": "Flying Pendulum Clock, také nazývané \"Ignatz clock\" byly poprvé vynalezené v roce 1883. Znovu se vyráběly v 50. letech minulého století. Malá kulička zavěšená na ramenu se při vodorovné půlotáčce ramene se na závěsu z…",
     "year": 1883,
     "lastModified": "2017-04-26T15:59:00.000Z",
-    "imageCount": 0,
+    "imageCount": 1,
     "wordCount": 216,
     "tags": [
       "kuzelove-kyvadlo",
@@ -1732,9 +1895,10 @@
     "year": 1901,
     "lastModified": "2023-06-30T11:40:00.000Z",
     "imageCount": 3,
-    "wordCount": 969,
+    "wordCount": 955,
     "tags": [
-      "kyvadlo"
+      "kyvadlo",
+      "popularizace"
     ]
   },
   {
@@ -1746,7 +1910,12 @@
     "year": 1907,
     "lastModified": "2024-08-13T09:20:00.000Z",
     "imageCount": 6,
-    "wordCount": 468
+    "wordCount": 468,
+    "tags": [
+      "decin",
+      "tematicka-vystava",
+      "achrer"
+    ]
   },
   {
     "slug": "inv-73-heliochronometr",
@@ -1789,7 +1958,14 @@
     "year": 2003,
     "lastModified": "2017-04-26T14:07:00.000Z",
     "imageCount": 11,
-    "wordCount": 1001
+    "wordCount": 1001,
+    "tags": [
+      "stolni",
+      "nastenne",
+      "replika",
+      "kuriozita",
+      "diy"
+    ]
   },
   {
     "slug": "arduino",
@@ -1800,7 +1976,12 @@
     "year": null,
     "lastModified": "2026-03-16T16:42:00.000Z",
     "imageCount": 6,
-    "wordCount": 2352
+    "wordCount": 2341,
+    "tags": [
+      "jednotny-cas",
+      "ntp-rizeno",
+      "diy"
+    ]
   },
   {
     "slug": "arduino-ibm",
@@ -1811,7 +1992,12 @@
     "year": null,
     "lastModified": "2025-10-05T10:30:00.000Z",
     "imageCount": 5,
-    "wordCount": 969
+    "wordCount": 1010,
+    "tags": [
+      "jednotny-cas",
+      "ntp-rizeno",
+      "diy"
+    ]
   },
   {
     "slug": "index",
@@ -1833,7 +2019,14 @@
     "year": 1913,
     "lastModified": "2023-01-14T10:40:00.000Z",
     "imageCount": 7,
-    "wordCount": 568
+    "wordCount": 563,
+    "tags": [
+      "stolni",
+      "jednotny-cas",
+      "elektromagneticke",
+      "decin",
+      "1900s"
+    ]
   },
   {
     "slug": "settopbox",
@@ -1844,7 +2037,7 @@
     "year": 2005,
     "lastModified": "2025-05-28T11:54:00.000Z",
     "imageCount": 0,
-    "wordCount": 926
+    "wordCount": 963
   },
   {
     "slug": "muzea-cr",
@@ -1921,7 +2114,11 @@
     "imageCount": 7,
     "wordCount": 408,
     "tags": [
-      "budik"
+      "budik",
+      "nastenne",
+      "zavazi",
+      "krok-vreteno",
+      "1800s"
     ]
   },
   {
@@ -1935,7 +2132,10 @@
     "imageCount": 17,
     "wordCount": 243,
     "tags": [
-      "budik"
+      "budik",
+      "nastenne",
+      "kienzle",
+      "1800s"
     ]
   },
   {
@@ -1997,11 +2197,15 @@
     "title": "Hodiny čtyřruční aneb další ciferník",
     "category": "projekty",
     "thumbnail": "/img/elektrika/4ruce/nalez5.jpg",
-    "excerpt": "S ciferníkem na více stranách hodinové schrány se občas setkáme. U věžních hodin ho přímo očekáváme. Málokdo si však v první chvíli uvědomí, že ciferník na zadní straně hodin je určitá komplikace. Ručičky se totiž z p…",
+    "excerpt": "Nejjednodušší je problému se vyhnout a pro každý ciferník použít samostatný stroj. Dnes, v éře elektricky řízených strojů, je to nejčastější a současně nejlevnější řešení. Může se však stát, že na každém ciferníku bud…",
     "year": null,
     "lastModified": "2017-04-26T13:36:00.000Z",
     "imageCount": 5,
-    "wordCount": 251
+    "wordCount": 199,
+    "tags": [
+      "vezni",
+      "synchronni"
+    ]
   },
   {
     "slug": "datumatik",
@@ -2015,6 +2219,8 @@
     "wordCount": 545,
     "tags": [
       "mechanicke",
+      "stolni",
+      "datumatic",
       "1900s"
     ]
   },
@@ -2242,7 +2448,14 @@
     "year": 1934,
     "lastModified": "2017-04-26T14:06:00.000Z",
     "imageCount": 2,
-    "wordCount": 167
+    "wordCount": 167,
+    "tags": [
+      "stolni",
+      "setrvacka",
+      "pero",
+      "kuriozita",
+      "1900s"
+    ]
   },
   {
     "slug": "kavalir",
@@ -2255,7 +2468,11 @@
     "imageCount": 0,
     "wordCount": 43,
     "tags": [
-      "kuriozita"
+      "kuriozita",
+      "stolni",
+      "kyvadlo",
+      "mechanicke",
+      "2000s"
     ]
   },
   {
@@ -2302,7 +2519,15 @@
     "year": null,
     "lastModified": "2025-10-01T11:22:00.000Z",
     "imageCount": 4,
-    "wordCount": 2270
+    "wordCount": 2266,
+    "tags": [
+      "nastenne",
+      "elektricke",
+      "ntp-rizeno",
+      "krystal",
+      "2000s",
+      "diy"
+    ]
   },
   {
     "slug": "inv-275-hodiny-podlahove",
@@ -2420,7 +2645,13 @@
     "year": 2015,
     "lastModified": "2020-06-23T10:27:00.000Z",
     "imageCount": 2,
-    "wordCount": 675
+    "wordCount": 675,
+    "tags": [
+      "digi",
+      "gps-rizeno",
+      "elektricke",
+      "diy"
+    ]
   },
   {
     "slug": "time-slider",
@@ -2431,7 +2662,12 @@
     "year": null,
     "lastModified": "2024-06-30T14:50:00.000Z",
     "imageCount": 1,
-    "wordCount": 287
+    "wordCount": 281,
+    "tags": [
+      "digi",
+      "diy",
+      "decin"
+    ]
   },
   {
     "slug": "vlachynsky",
@@ -2444,7 +2680,9 @@
     "imageCount": 3,
     "wordCount": 199,
     "tags": [
-      "cesko"
+      "vodni",
+      "cesko",
+      "kuriozita"
     ]
   },
   {
@@ -2459,7 +2697,12 @@
     "wordCount": 1579,
     "tags": [
       "vezni",
-      "cesko"
+      "cesko",
+      "restaurovane",
+      "kyvadlo",
+      "zavazi",
+      "liebing",
+      "1800s"
     ]
   },
   {
@@ -2471,7 +2714,12 @@
     "year": 1808,
     "lastModified": "2017-04-26T15:59:00.000Z",
     "imageCount": 2,
-    "wordCount": 169
+    "wordCount": 169,
+    "tags": [
+      "stolni",
+      "kuriozita",
+      "mechanicke"
+    ]
   },
   {
     "slug": "tim-hunkin",
@@ -2527,7 +2775,14 @@
     "year": 1959,
     "lastModified": "2019-03-02T19:58:00.000Z",
     "imageCount": 15,
-    "wordCount": 374
+    "wordCount": 374,
+    "tags": [
+      "vezni",
+      "elektricke",
+      "elektrocas",
+      "decin",
+      "1900s"
+    ]
   },
   {
     "slug": "decin-chronulator",
@@ -2538,18 +2793,32 @@
     "year": 2016,
     "lastModified": "2021-08-26T12:05:00.000Z",
     "imageCount": 3,
-    "wordCount": 247
+    "wordCount": 247,
+    "tags": [
+      "kuriozita",
+      "decin",
+      "diy",
+      "2000s"
+    ]
   },
   {
     "slug": "decin-ntp",
     "title": "Instalované NTP servery",
     "category": "sbirka",
-    "thumbnail": "/img/elektrika/Bodet/Profil930NTP.png",
+    "thumbnail": "/img/elektrika/NTP/NTPschema2.jpg",
     "excerpt": "Synchronizace hodin jednotného času se dělala nejčastěji vysíláním polarizovaných minutových impulzů po dvoudrátovém rozvodu od matečních hodin k hodinám podružným. Méně často se používaly impulzy půlminutové (Brillie…",
     "year": null,
     "lastModified": "2023-03-20T10:16:00.000Z",
     "imageCount": 7,
-    "wordCount": 1660
+    "wordCount": 1677,
+    "tags": [
+      "jednotny-cas",
+      "ntp-rizeno",
+      "gps-rizeno",
+      "bodet",
+      "decin",
+      "2000s"
+    ]
   },
   {
     "slug": "inv-131-internetova-brana",
@@ -2604,9 +2873,13 @@
     "year": null,
     "lastModified": "2021-09-26T09:14:00.000Z",
     "imageCount": 7,
-    "wordCount": 3361,
+    "wordCount": 3378,
     "tags": [
-      "synchronni"
+      "synchronni",
+      "jednotny-cas",
+      "radio-rizeno",
+      "gps-rizeno",
+      "ntp-rizeno"
     ]
   },
   {
@@ -2638,7 +2911,10 @@
     "imageCount": 0,
     "wordCount": 697,
     "tags": [
-      "synchronni"
+      "synchronni",
+      "jednotny-cas",
+      "elektricke",
+      "elektromagneticke"
     ]
   },
   {
@@ -2653,6 +2929,7 @@
     "wordCount": 64,
     "tags": [
       "vezni",
+      "gotika",
       "cesko",
       "praha"
     ]
@@ -2669,7 +2946,30 @@
     "wordCount": 972,
     "tags": [
       "vezni",
-      "cesko"
+      "cesko",
+      "kyvadlo",
+      "krok-vreteno",
+      "restaurovane"
+    ]
+  },
+  {
+    "slug": "jubilejni-vystava-zemska-1891-hodinari",
+    "title": "Jubilejní výstava zemská 1891 — hodinářská sekce",
+    "category": "zajimavosti",
+    "thumbnail": null,
+    "excerpt": "V roce 1891 se v Praze konala Zemská jubilejní výstava království Českého — největší cs průmyslová přehlídka 19. století, sto let po jubilejní výstavě 1791. Hodinářskou sekci v pravém křídle paláce průmyslového popsal…",
+    "year": 1400,
+    "lastModified": "2026-05-18T02:00:00.000Z",
+    "imageCount": 0,
+    "wordCount": 1236,
+    "tags": [
+      "vezni",
+      "kapesni",
+      "nastenne",
+      "mechanicke",
+      "1800s",
+      "cesko",
+      "praha"
     ]
   },
   {
@@ -2683,7 +2983,10 @@
     "imageCount": 0,
     "wordCount": 66,
     "tags": [
-      "cesko"
+      "vezni",
+      "2000s",
+      "cesko",
+      "popularizace"
     ]
   },
   {
@@ -2697,8 +3000,9 @@
     "imageCount": 3,
     "wordCount": 335,
     "tags": [
-      "vezni",
-      "kapesni"
+      "kapesni",
+      "mechanicke",
+      "kuriozita"
     ]
   },
   {
@@ -2727,7 +3031,13 @@
     "year": null,
     "lastModified": "2025-12-08T20:44:00.000Z",
     "imageCount": 4,
-    "wordCount": 942
+    "wordCount": 942,
+    "tags": [
+      "synchronni",
+      "jednotny-cas",
+      "elektricke",
+      "ntp-rizeno"
+    ]
   },
   {
     "slug": "spinka",
@@ -2752,7 +3062,13 @@
     "wordCount": 2349,
     "tags": [
       "popularizace",
-      "1800s"
+      "1800s",
+      "stolni",
+      "nastenne",
+      "kyvadlo",
+      "zavazi",
+      "pero",
+      "cesko"
     ]
   },
   {
@@ -2766,6 +3082,10 @@
     "imageCount": 0,
     "wordCount": 84,
     "tags": [
+      "nastenne",
+      "mechanicke",
+      "baroko",
+      "1700s",
       "cesko",
       "praha"
     ]
@@ -2779,20 +3099,12 @@
     "year": null,
     "lastModified": "2017-04-26T16:29:00.000Z",
     "imageCount": 4,
-    "wordCount": 470
-  },
-  {
-    "slug": "pneumatika",
-    "title": "Kompresní žárovka aneb natahování a řízení pneumatikou.",
-    "category": "konstrukce",
-    "thumbnail": "/img/elektrika/junhhans/kompresslampe.jpg",
-    "excerpt": "Ve třicátých letech postavil Junghans hodiny s elektro-pneumatickým nátahem (patent 1926 Max Fischer). Měly by to být přesné dílenské hodiny, které bez magnetických komponent byly schopny ovládat několik podružných ho…",
-    "year": 1926,
-    "lastModified": "2022-05-11T09:48:00.000Z",
-    "imageCount": 3,
-    "wordCount": 281,
+    "wordCount": 470,
     "tags": [
-      "pneumaticke"
+      "nastenne",
+      "pero",
+      "kuriozita",
+      "hainz"
     ]
   },
   {
@@ -2905,11 +3217,11 @@
     "title": "Kvalifikované časové razítko - Time Stamp",
     "category": "zajimavosti",
     "thumbnail": "/img/razitko2.jpg",
-    "excerpt": "Časové razítko je doplňkový soubor, který pro daný elektronický dokument osvědčuje jeho existenci v určitém čase. Nejčastěji se používá v elektronických podatelnách a při datování smluv a podobných dokumentů. Kvalifik…",
-    "year": null,
+    "excerpt": "Časové razítko je doplňkový soubor, který pro daný elektronický dokument osvědčuje jeho existenci v určitém čase. Používá se v elektronických podatelnách, při datování smluv, elektronických faktur, archivních dokument…",
+    "year": 2014,
     "lastModified": "2017-04-26T16:13:00.000Z",
     "imageCount": 2,
-    "wordCount": 506
+    "wordCount": 575
   },
   {
     "slug": "podebrady",
@@ -2935,11 +3247,15 @@
     "year": 1926,
     "lastModified": "2020-03-14T11:19:00.000Z",
     "imageCount": 10,
-    "wordCount": 1300,
+    "wordCount": 1287,
     "tags": [
       "kvetinove",
       "cesko",
-      "1900s"
+      "1900s",
+      "elektricke",
+      "radio-rizeno",
+      "elektrocas",
+      "jednotny-cas"
     ]
   },
   {
@@ -2998,7 +3314,9 @@
     "imageCount": 6,
     "wordCount": 497,
     "tags": [
-      "kvetinove"
+      "kvetinove",
+      "svet",
+      "evropa"
     ]
   },
   {
@@ -3026,7 +3344,11 @@
     "year": null,
     "lastModified": "2017-04-26T14:02:00.000Z",
     "imageCount": 3,
-    "wordCount": 80
+    "wordCount": 80,
+    "tags": [
+      "kuriozita",
+      "stolni"
+    ]
   },
   {
     "slug": "laplace",
@@ -3037,7 +3359,12 @@
     "year": 1869,
     "lastModified": "2024-03-24T22:15:00.000Z",
     "imageCount": 12,
-    "wordCount": 552
+    "wordCount": 552,
+    "tags": [
+      "synchronni",
+      "elektricke",
+      "1900s"
+    ]
   },
   {
     "slug": "eureka",
@@ -3050,7 +3377,9 @@
     "imageCount": 1,
     "wordCount": 105,
     "tags": [
-      "elektromagneticke"
+      "elektromagneticke",
+      "setrvacka",
+      "1900s"
     ]
   },
   {
@@ -3062,7 +3391,16 @@
     "year": 1810,
     "lastModified": "2017-04-26T13:54:00.000Z",
     "imageCount": 5,
-    "wordCount": 452
+    "wordCount": 453,
+    "tags": [
+      "stolni",
+      "nastenne",
+      "pero",
+      "zavazi",
+      "kyvadlo",
+      "lenzkirch",
+      "1800s"
+    ]
   },
   {
     "slug": "inv-44-lihyrove-hodiny",
@@ -3140,8 +3478,12 @@
     "imageCount": 1,
     "wordCount": 1381,
     "tags": [
-      "popularizace",
-      "1800s"
+      "vezni",
+      "mechanicke",
+      "kyvadlo",
+      "1800s",
+      "cesko",
+      "popularizace"
     ]
   },
   {
@@ -3173,8 +3515,10 @@
     "imageCount": 3,
     "wordCount": 90,
     "tags": [
+      "vezni",
       "mechanicke",
-      "1800s"
+      "1800s",
+      "kuriozita"
     ]
   },
   {
@@ -3186,7 +3530,14 @@
     "year": null,
     "lastModified": "2018-02-18T14:35:00.000Z",
     "imageCount": 2,
-    "wordCount": 673
+    "wordCount": 673,
+    "tags": [
+      "jednotny-cas",
+      "elektromagneticke",
+      "kyvadlo",
+      "brillie",
+      "1900s"
+    ]
   },
   {
     "slug": "inv-94-maticni-elektrocas",
@@ -3357,19 +3708,27 @@
     "year": 1979,
     "lastModified": "2021-02-01T01:21:00.000Z",
     "imageCount": 2,
-    "wordCount": 437
+    "wordCount": 437,
+    "tags": [
+      "ntp-rizeno",
+      "gps-rizeno",
+      "krystal",
+      "meinberg"
+    ]
   },
   {
     "slug": "mereni-casu",
     "title": "MĚŘENÍ ČASU",
     "category": "zajimavosti",
     "thumbnail": null,
-    "excerpt": "Díky laskavosti původních autorů doslovně převzato ze serveru",
+    "excerpt": "Měření času dělá lidstvu problémy, neboť sluneční soustava je nehomogenní a tělesa se v ní pohybují různými směry. Naopak fyzikální procesy se odehrávají tak pomalu, že je můžeme sledovat na vzdálených objektech. Pro …",
     "year": 1900,
     "lastModified": "2017-04-26T16:02:00.000Z",
     "imageCount": 0,
-    "wordCount": 3845,
+    "wordCount": 3889,
     "tags": [
+      "slunecni",
+      "atomove",
       "popularizace"
     ]
   },
@@ -3401,7 +3760,10 @@
     "imageCount": 0,
     "wordCount": 494,
     "tags": [
-      "1800s"
+      "kapesni",
+      "mechanicke",
+      "1800s",
+      "kuriozita"
     ]
   },
   {
@@ -3432,7 +3794,11 @@
     "year": null,
     "lastModified": "2017-04-26T14:00:00.000Z",
     "imageCount": 7,
-    "wordCount": 62
+    "wordCount": 62,
+    "tags": [
+      "kuriozita",
+      "diy"
+    ]
   },
   {
     "slug": "inv-277-mup-40",
@@ -3461,6 +3827,10 @@
     "imageCount": 0,
     "wordCount": 39,
     "tags": [
+      "kapesni",
+      "naramkove",
+      "slunecni",
+      "atomove",
       "evropa"
     ]
   },
@@ -3476,6 +3846,10 @@
     "wordCount": 93,
     "tags": [
       "vezni",
+      "mechanicke",
+      "1700s",
+      "1800s",
+      "1900s",
       "evropa"
     ]
   },
@@ -3490,6 +3864,10 @@
     "imageCount": 0,
     "wordCount": 53,
     "tags": [
+      "stolni",
+      "mechanicke",
+      "baroko",
+      "1700s",
       "cesko"
     ]
   },
@@ -3505,6 +3883,8 @@
     "wordCount": 131,
     "tags": [
       "vezni",
+      "mechanicke",
+      "elektricke",
       "evropa"
     ]
   },
@@ -3517,7 +3897,11 @@
     "year": 2026,
     "lastModified": "2017-04-26T13:40:00.000Z",
     "imageCount": 2,
-    "wordCount": 144
+    "wordCount": 139,
+    "tags": [
+      "stolni",
+      "kuriozita"
+    ]
   },
   {
     "slug": "inv-246-mysteriozni-hodiny-havlicek-male",
@@ -3699,7 +4083,13 @@
     "year": 1868,
     "lastModified": "2017-04-30T15:09:00.000Z",
     "imageCount": 5,
-    "wordCount": 534
+    "wordCount": 534,
+    "tags": [
+      "vezni",
+      "elektricke",
+      "brillie",
+      "decin"
+    ]
   },
   {
     "slug": "inv-78-nocturnal",
@@ -3726,7 +4116,11 @@
     "year": null,
     "lastModified": "2020-05-17T08:27:00.000Z",
     "imageCount": 2,
-    "wordCount": 663
+    "wordCount": 672,
+    "tags": [
+      "kuriozita",
+      "1700s"
+    ]
   },
   {
     "slug": "inv-134-notebook",
@@ -3803,7 +4197,15 @@
     "year": 1868,
     "lastModified": "2020-11-15T19:20:00.000Z",
     "imageCount": 4,
-    "wordCount": 1052
+    "wordCount": 1052,
+    "tags": [
+      "vezni",
+      "mechanicke",
+      "elektricke",
+      "cesko",
+      "decin",
+      "historie-spolku"
+    ]
   },
   {
     "slug": "vezni-zikmund1",
@@ -3814,7 +4216,11 @@
     "year": 2004,
     "lastModified": "2017-04-26T16:21:00.000Z",
     "imageCount": 2,
-    "wordCount": 512
+    "wordCount": 512,
+    "tags": [
+      "vezni",
+      "cesko"
+    ]
   },
   {
     "slug": "vodni-odkazy",
@@ -3957,6 +4363,9 @@
     "imageCount": 0,
     "wordCount": 57,
     "tags": [
+      "vezni",
+      "mechanicke",
+      "1900s",
       "cesko"
     ]
   },
@@ -4013,8 +4422,14 @@
     "wordCount": 327,
     "tags": [
       "panel-1",
+      "jednotny-cas",
       "elektricke",
-      "hipp"
+      "elektromagneticke",
+      "kyvadlo",
+      "1800s",
+      "hipp",
+      "wagner",
+      "brillie"
     ]
   },
   {
@@ -4029,8 +4444,13 @@
     "wordCount": 111,
     "tags": [
       "panel-2",
+      "jednotny-cas",
+      "elektricke",
+      "elektromagneticke",
+      "1900s",
       "elektrocas",
-      "elektricke"
+      "pragotron",
+      "hainz"
     ]
   },
   {
@@ -4118,7 +4538,12 @@
     "year": null,
     "lastModified": "2017-04-26T16:02:00.000Z",
     "imageCount": 10,
-    "wordCount": 666
+    "wordCount": 666,
+    "tags": [
+      "kuriozita",
+      "svet",
+      "popularizace"
+    ]
   },
   {
     "slug": "muzeum-patek-philippe",
@@ -4178,9 +4603,10 @@
     "year": 1888,
     "lastModified": "2018-07-18T09:10:00.000Z",
     "imageCount": 9,
-    "wordCount": 1334,
+    "wordCount": 1325,
     "tags": [
-      "mechanicke"
+      "mechanicke",
+      "pichacky"
     ]
   },
   {
@@ -4364,11 +4790,11 @@
     "title": "Pilovky se samonivelačním fyzikálním kyvadlem",
     "category": "konstrukce",
     "thumbnail": "/img/pilovky/f/foto_0001.jpg",
-    "excerpt": "V roce 2014 se na Aukru prodaly pilové hodiny se samonivelačním fyzikálním kyvadlem. Prodejce uváděl, že se jedná o velmi zajímavé, staré, postříbřené, pilové hodiny, vyrobené kolem roku 1880 - 1900 v Anglii podle ang…",
-    "year": 1880,
+    "excerpt": "Stroj používá fyzikální kyvadlo, které má protizávaží nahoře. Tím dochází k rozdílu  mezi hmotou, který ovlivňuje setrvačnost kyvadla  a mezi hmotou na kterou působí v těžišti gravitační síla. Díky tomuto provedení je…",
+    "year": null,
     "lastModified": "2017-04-26T14:12:00.000Z",
     "imageCount": 7,
-    "wordCount": 729,
+    "wordCount": 716,
     "tags": [
       "kyvadlo"
     ]
@@ -4630,7 +5056,7 @@
     "year": null,
     "lastModified": "2020-05-04T18:16:00.000Z",
     "imageCount": 6,
-    "wordCount": 250,
+    "wordCount": 245,
     "tags": [
       "jednotny-cas"
     ]
@@ -4934,7 +5360,13 @@
     "year": null,
     "lastModified": "2025-04-29T11:00:00.000Z",
     "imageCount": 2,
-    "wordCount": 749
+    "wordCount": 753,
+    "tags": [
+      "atomove",
+      "rubidium",
+      "gps-rizeno",
+      "popularizace"
+    ]
   },
   {
     "slug": "inv-272-poulicni-hodiny",
@@ -5008,6 +5440,22 @@
     "wordCount": 1561
   },
   {
+    "slug": "prazsky-orloj-restaurovani-2018",
+    "title": "Pražský orloj — restaurování stroje 2018",
+    "category": "zajimavosti",
+    "thumbnail": null,
+    "excerpt": "Závěrečná zpráva akademického sochaře Petra Skály z prosince 2018 dokumentuje vrcholný restaurátorský zásah na Pražském staroměstském orloji v 21. století. Skála je restaurátor pověřený správou orloje s povolením Mini…",
+    "year": 1410,
+    "lastModified": "2026-05-16T23:30:00.000Z",
+    "imageCount": 0,
+    "wordCount": 1380,
+    "tags": [
+      "prazsky-orloj",
+      "restaurovane",
+      "vezni"
+    ]
+  },
+  {
     "slug": "inv-252-propagandawecker",
     "title": "Propagandawecker",
     "category": "sbirka",
@@ -5048,7 +5496,14 @@
     "year": null,
     "lastModified": "2017-04-26T14:11:00.000Z",
     "imageCount": 7,
-    "wordCount": 499
+    "wordCount": 499,
+    "tags": [
+      "nastenne",
+      "pero",
+      "setrvacka",
+      "krok-kolicek",
+      "1900s"
+    ]
   },
   {
     "slug": "prestavby",
@@ -5082,12 +5537,12 @@
     "slug": "pulsynetic",
     "title": "Pulsynetic - neobvyklá řešení",
     "category": "konstrukce",
-    "thumbnail": "/img/elektrika/pulsynetic/p1959_3_m.jpg",
-    "excerpt": "Expozice Hodinária bude rozšířená o mateční hodiny z produkce firmy Gent & Co ze série označované jako PUL-SYN-ETIC. Konkrétně jde o \"Gents C7 Pulsynetic master clock\". Informace na této stránce se opírají jednak o vl…",
+    "thumbnail": "/img/elektrika/pulsynetic/p1959_3.jpg",
+    "excerpt": "Informace na této stránce se opírají jednak o vlastní zkušenosti s rekonstrukcí torza tohoto stroje a jednak o zdroje uvedené v části odkazy. Najdete tam mnoho netradičních řešení jako je řízení doby kyvu kyvadla elek…",
     "year": 1872,
     "lastModified": "2022-06-11T09:27:00.000Z",
     "imageCount": 9,
-    "wordCount": 1311,
+    "wordCount": 1251,
     "tags": [
       "pulsynetic",
       "synchronni",
@@ -5117,6 +5572,11 @@
     "wordCount": 80,
     "tags": [
       "vezni",
+      "mechanicke",
+      "kyvadlo",
+      "krok-vreteno",
+      "secese",
+      "restaurovane",
       "cesko"
     ]
   },
@@ -5197,6 +5657,10 @@
     "imageCount": 0,
     "wordCount": 35,
     "tags": [
+      "slunecni",
+      "mechanicke",
+      "1700s",
+      "1800s",
       "svet"
     ]
   },
@@ -5209,7 +5673,7 @@
     "year": null,
     "lastModified": "2025-04-03T16:47:00.000Z",
     "imageCount": 5,
-    "wordCount": 1401
+    "wordCount": 1405
   },
   {
     "slug": "ruzne",
@@ -5322,7 +5786,8 @@
     "imageCount": 0,
     "wordCount": 1200,
     "tags": [
-      "1700s",
+      "slunecni",
+      "vodni",
       "popularizace"
     ]
   },
@@ -5352,7 +5817,16 @@
     "year": 2020,
     "lastModified": "2021-07-07T09:15:00.000Z",
     "imageCount": 4,
-    "wordCount": 823
+    "wordCount": 823,
+    "tags": [
+      "jednotny-cas",
+      "elektricke",
+      "gps-rizeno",
+      "krystal",
+      "2000s",
+      "mobatime",
+      "akvizice"
+    ]
   },
   {
     "slug": "inv-235-satellite-controlled-clock-gps-167",
@@ -5380,7 +5854,7 @@
     "year": null,
     "lastModified": "2017-04-26T16:08:00.000Z",
     "imageCount": 0,
-    "wordCount": 112
+    "wordCount": 126
   },
   {
     "slug": "inv-95-selenovy-usmernovac",
@@ -5474,7 +5948,11 @@
     "imageCount": 0,
     "wordCount": 32,
     "tags": [
-      "evropa"
+      "vezni",
+      "mechanicke",
+      "2000s",
+      "slovensko",
+      "popularizace"
     ]
   },
   {
@@ -5500,7 +5978,7 @@
     "year": null,
     "lastModified": "2016-07-02T20:07:00.000Z",
     "imageCount": 2,
-    "wordCount": 192,
+    "wordCount": 187,
     "tags": [
       "slunecni"
     ]
@@ -5616,9 +6094,29 @@
     "year": null,
     "lastModified": "2023-03-06T12:18:00.000Z",
     "imageCount": 0,
-    "wordCount": 86,
+    "wordCount": 81,
     "tags": [
       "slunecni"
+    ]
+  },
+  {
+    "slug": "sobotecka-dilna-prokesova-robertuv-krok",
+    "title": "Sobotecká dílna Prokešova a Robertův krok",
+    "category": "zajimavosti",
+    "thumbnail": null,
+    "excerpt": "V dějinách českého hodinařství 19. století stojí Sobotka — drobné město v Českém ráji s asi 2 000 obyvateli — překvapivě vysoko. Vděčí za to jednomu člověku a jednomu hodinovému kroku: hodinářskému mistru Janu Prokešo…",
+    "year": 1818,
+    "lastModified": "2026-05-17T06:00:00.000Z",
+    "imageCount": 0,
+    "wordCount": 1861,
+    "tags": [
+      "vezni",
+      "krok-benoit-robert",
+      "1800s",
+      "1900s",
+      "cesko",
+      "mechanicke",
+      "restaurovane"
     ]
   },
   {
@@ -5759,7 +6257,7 @@
     "year": 1512,
     "lastModified": "2022-09-24T12:20:00.000Z",
     "imageCount": 3,
-    "wordCount": 732,
+    "wordCount": 717,
     "tags": [
       "vezni",
       "cesko"
@@ -5946,7 +6444,8 @@
     "imageCount": 3,
     "wordCount": 648,
     "tags": [
-      "cesko"
+      "cesko",
+      "slunecni"
     ]
   },
   {
@@ -5960,7 +6459,13 @@
     "imageCount": 2,
     "wordCount": 393,
     "tags": [
-      "vezni"
+      "vezni",
+      "mechanicke",
+      "elektricke",
+      "kyvadlo",
+      "elektrocas",
+      "sobeslav",
+      "1900s"
     ]
   },
   {
@@ -6023,7 +6528,12 @@
     "imageCount": 11,
     "wordCount": 477,
     "tags": [
-      "vezni"
+      "vezni",
+      "mechanicke",
+      "zavazi",
+      "krok-vreteno",
+      "1700s",
+      "cesko"
     ]
   },
   {
@@ -6037,7 +6547,14 @@
     "imageCount": 12,
     "wordCount": 598,
     "tags": [
-      "vezni"
+      "vezni",
+      "mechanicke",
+      "zavazi",
+      "kyvadlo",
+      "krok-kotva",
+      "michael-christ",
+      "1800s",
+      "restaurovane"
     ]
   },
   {
@@ -6051,7 +6568,14 @@
     "imageCount": 5,
     "wordCount": 354,
     "tags": [
-      "vezni"
+      "vezni",
+      "mechanicke",
+      "zavazi",
+      "kyvadlo",
+      "krok-graham",
+      "hiemann",
+      "decin",
+      "1800s"
     ]
   },
   {
@@ -6312,8 +6836,8 @@
     "excerpt": "Švarcvaldky - Schwarzwald Uhren - Hodiny z Černého lesa - Black Forest Clock - Polodřeváky - Selské hodiny - Selky - Německé hodiny - Šotské hodiny - Škoťáky - Sorg - Jockele - Lidové hodiny - Kukačky. . . . .",
     "year": 1790,
     "lastModified": "2017-04-26T13:42:00.000Z",
-    "imageCount": 5,
-    "wordCount": 420,
+    "imageCount": 1,
+    "wordCount": 461,
     "tags": [
       "mechanicke"
     ]
@@ -6360,6 +6884,8 @@
     "wordCount": 69,
     "tags": [
       "vezni",
+      "jednotny-cas",
+      "pichacky",
       "evropa"
     ]
   },
@@ -6413,7 +6939,12 @@
     "year": 1899,
     "lastModified": "2025-11-03T17:07:00.000Z",
     "imageCount": 11,
-    "wordCount": 382
+    "wordCount": 382,
+    "tags": [
+      "pichacky",
+      "mechanicke",
+      "1900s"
+    ]
   },
   {
     "slug": "inv-62-torzo-ciferniku-s-ruckou-a-rozvody",
@@ -6441,7 +6972,15 @@
     "year": 1340,
     "lastModified": "2021-04-27T15:43:00.000Z",
     "imageCount": 14,
-    "wordCount": 477
+    "wordCount": 465,
+    "tags": [
+      "vezni",
+      "gotika",
+      "torzo",
+      "nalezovy",
+      "decin",
+      "zavazi"
+    ]
   },
   {
     "slug": "decin-patek",
@@ -6452,7 +6991,14 @@
     "year": 1694,
     "lastModified": "2017-04-26T13:50:00.000Z",
     "imageCount": 4,
-    "wordCount": 267
+    "wordCount": 267,
+    "tags": [
+      "vezni",
+      "nalezovy",
+      "baroko",
+      "decin",
+      "1700s"
+    ]
   },
   {
     "slug": "inv-240-tourbillon-spilka",
@@ -6479,7 +7025,14 @@
     "year": 2017,
     "lastModified": "2022-06-10T22:30:00.000Z",
     "imageCount": 6,
-    "wordCount": 1075
+    "wordCount": 1089,
+    "tags": [
+      "jednotny-cas",
+      "pichacky",
+      "elektromagneticke",
+      "decin",
+      "1900s"
+    ]
   },
   {
     "slug": "muzeum-pillichsdorf",
@@ -6493,6 +7046,8 @@
     "wordCount": 97,
     "tags": [
       "vezni",
+      "baroko",
+      "1700s",
       "evropa"
     ]
   },
@@ -6536,7 +7091,10 @@
     "year": null,
     "lastModified": "2017-04-26T16:00:00.000Z",
     "imageCount": 15,
-    "wordCount": 387
+    "wordCount": 387,
+    "tags": [
+      "kuriozita"
+    ]
   },
   {
     "slug": "svarcvaldky-stroje-polodrev",
@@ -6578,7 +7136,12 @@
     "year": null,
     "lastModified": "2017-04-26T14:05:00.000Z",
     "imageCount": 4,
-    "wordCount": 298
+    "wordCount": 298,
+    "tags": [
+      "kuriozita",
+      "praha",
+      "elektricke"
+    ]
   },
   {
     "slug": "inv-10-vezni",
@@ -6761,7 +7324,11 @@
       "hlavni-sal",
       "vezni",
       "funkcni",
-      "krok-amant"
+      "krok-benoit-robert",
+      "zavazi",
+      "kyvadlo",
+      "evropa",
+      "1800s"
     ]
   },
   {
@@ -7000,7 +7567,16 @@
     "lastModified": "2022-11-02T10:11:00.000Z",
     "imageCount": 23,
     "wordCount": 1191,
-    "vyrobce": "Jan Prokeš v Sobotce, 1868"
+    "vyrobce": "Jan Prokeš v Sobotce, 1868",
+    "tags": [
+      "vezni",
+      "prokes",
+      "krok-benoit-robert",
+      "kyvadlo",
+      "zavazi",
+      "restaurovane",
+      "1800s"
+    ]
   },
   {
     "slug": "inv-33-vezni-lexa",
@@ -7094,7 +7670,11 @@
       "vezni",
       "funkcni",
       "krok-benoit-robert",
-      "prokes"
+      "prokes",
+      "1800s",
+      "zavazi",
+      "kyvadlo",
+      "cesko"
     ]
   },
   {
@@ -7169,7 +7749,12 @@
       "hlavni-sal",
       "vezni",
       "funkcni",
-      "krok-benoit-robert"
+      "krok-benoit-robert",
+      "prokes",
+      "1800s",
+      "zavazi",
+      "kyvadlo",
+      "cesko"
     ]
   },
   {
@@ -7277,7 +7862,12 @@
     "year": null,
     "lastModified": "2021-02-24T13:07:00.000Z",
     "imageCount": 2,
-    "wordCount": 792
+    "wordCount": 789,
+    "tags": [
+      "naramkove",
+      "mechanicke",
+      "svet"
+    ]
   },
   {
     "slug": "mindelheim",
@@ -7288,8 +7878,11 @@
     "year": null,
     "lastModified": "2017-04-23T14:14:00.000Z",
     "imageCount": 35,
-    "wordCount": 83,
+    "wordCount": 77,
     "tags": [
+      "vezni",
+      "mechanicke",
+      "kyvadlo",
       "evropa"
     ]
   },
@@ -7304,7 +7897,10 @@
     "imageCount": 0,
     "wordCount": 42,
     "tags": [
-      "cesko"
+      "vezni",
+      "mechanicke",
+      "cesko",
+      "tematicka-vystava"
     ]
   },
   {
@@ -7319,6 +7915,8 @@
     "wordCount": 77,
     "tags": [
       "vezni",
+      "mechanicke",
+      "restaurovane",
       "cesko"
     ]
   },
@@ -7334,7 +7932,8 @@
     "wordCount": 59,
     "tags": [
       "budik",
-      "vodni"
+      "vodni",
+      "kuriozita"
     ]
   },
   {
@@ -7348,7 +7947,9 @@
     "imageCount": 0,
     "wordCount": 347,
     "tags": [
-      "vodni"
+      "vodni",
+      "diy",
+      "kuriozita"
     ]
   },
   {
@@ -7362,7 +7963,8 @@
     "imageCount": 0,
     "wordCount": 211,
     "tags": [
-      "vodni"
+      "vodni",
+      "kuriozita"
     ]
   },
   {
@@ -7427,7 +8029,12 @@
     "year": 1980,
     "lastModified": "2025-02-03T08:42:00.000Z",
     "imageCount": 0,
-    "wordCount": 182
+    "wordCount": 176,
+    "tags": [
+      "slunecni",
+      "kuriozita",
+      "tematicka-vystava"
+    ]
   },
   {
     "slug": "muzeum-wien",
@@ -7440,6 +8047,12 @@
     "imageCount": 0,
     "wordCount": 39,
     "tags": [
+      "stolni",
+      "nastenne",
+      "mechanicke",
+      "kyvadlo",
+      "gotika",
+      "baroko",
       "evropa"
     ]
   },
@@ -7452,7 +8065,11 @@
     "year": null,
     "lastModified": "2017-04-26T14:13:00.000Z",
     "imageCount": 0,
-    "wordCount": 163
+    "wordCount": 163,
+    "tags": [
+      "kuriozita",
+      "popularizace"
+    ]
   },
   {
     "slug": "decin-zamek",
@@ -7463,7 +8080,11 @@
     "year": 1711,
     "lastModified": "2017-04-22T22:36:00.000Z",
     "imageCount": 19,
-    "wordCount": 151
+    "wordCount": 151,
+    "tags": [
+      "decin",
+      "historie-spolku"
+    ]
   },
   {
     "slug": "kvetinovehodiny-chomutov",
@@ -7477,7 +8098,10 @@
     "wordCount": 384,
     "tags": [
       "kvetinove",
-      "cesko"
+      "cesko",
+      "elektricke",
+      "jednotny-cas",
+      "1900s"
     ]
   },
   {
@@ -7489,7 +8113,12 @@
     "year": null,
     "lastModified": "2017-04-26T14:04:00.000Z",
     "imageCount": 4,
-    "wordCount": 86
+    "wordCount": 86,
+    "tags": [
+      "nastenne",
+      "krystal",
+      "kuriozita"
+    ]
   },
   {
     "slug": "inv-253-zavesne-elektrocas-oboustranne",
@@ -7568,7 +8197,11 @@
     "year": 1926,
     "lastModified": "2017-04-26T16:14:00.000Z",
     "imageCount": 0,
-    "wordCount": 395
+    "wordCount": 395,
+    "tags": [
+      "vezni",
+      "cesko"
+    ]
   },
   {
     "slug": "cas-internet1",
@@ -7579,7 +8212,11 @@
     "year": null,
     "lastModified": "2020-11-28T21:07:00.000Z",
     "imageCount": 0,
-    "wordCount": 130
+    "wordCount": 130,
+    "tags": [
+      "digi",
+      "kuriozita"
+    ]
   },
   {
     "slug": "cas-internet2",
@@ -7590,7 +8227,12 @@
     "year": null,
     "lastModified": "2017-04-26T16:12:00.000Z",
     "imageCount": 0,
-    "wordCount": 393
+    "wordCount": 402,
+    "tags": [
+      "digi",
+      "ntp-rizeno",
+      "kuriozita"
+    ]
   },
   {
     "slug": "zvon-petr-vok",
@@ -7601,7 +8243,11 @@
     "year": 1925,
     "lastModified": "2017-04-23T20:05:00.000Z",
     "imageCount": 36,
-    "wordCount": 453
+    "wordCount": 446,
+    "tags": [
+      "sobeslav",
+      "2000s"
+    ]
   },
   {
     "slug": "zvon-petr-pavel",
@@ -7612,7 +8258,10 @@
     "year": 1440,
     "lastModified": "2017-04-23T20:02:00.000Z",
     "imageCount": 2,
-    "wordCount": 184
+    "wordCount": 184,
+    "tags": [
+      "sobeslav"
+    ]
   },
   {
     "slug": "zvony-uvod",
@@ -7623,7 +8272,10 @@
     "year": 1650,
     "lastModified": "2017-04-23T16:06:00.000Z",
     "imageCount": 4,
-    "wordCount": 388
+    "wordCount": 415,
+    "tags": [
+      "sobeslav"
+    ]
   },
   {
     "slug": "inv-243-zvoneni-kavalir",
@@ -7685,14 +8337,34 @@
     ]
   },
   {
+    "slug": "pneumatika",
+    "title": "Žárovkový kompresor  aneb natahování a řízení pneumatikou.",
+    "category": "konstrukce",
+    "thumbnail": null,
+    "excerpt": "Princip řízení podružných hodin stlačeným vzduchem je poměrně jednoduchý. Žárovkový kompresor  je zapnut kontaktem aktivovaným hlavními hodinami v minutových intervalech. Žhavicí vlákno ohřívá vzduch ve skleněné žárov…",
+    "year": null,
+    "lastModified": "2022-05-11T09:48:00.000Z",
+    "imageCount": 2,
+    "wordCount": 266,
+    "tags": [
+      "pneumaticke"
+    ]
+  },
+  {
     "slug": "zidovske",
     "title": "Židovské hodiny z roku 1764",
     "category": "virtualni-muzeum",
-    "thumbnail": "/img/zidovske/holmstad_2014_cifernik.jpg",
+    "thumbnail": null,
     "excerpt": "Na půdě Židovské radnice, proti Staronové synagoze v Praze, se nacházejí patrně nejstarší známé hebrejské hodiny na veřejném místě, možná dokonce nejstarší hebrejské hodiny vůbec. Není dokonce vyloučeno, že na stejném…",
     "year": 1764,
     "lastModified": "2020-11-24T02:06:00.000Z",
     "imageCount": 0,
-    "wordCount": 1276
+    "wordCount": 1259,
+    "tags": [
+      "vezni",
+      "kuriozita",
+      "praha",
+      "1700s"
+    ]
   }
 ]
