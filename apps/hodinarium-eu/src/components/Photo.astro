@@ -179,9 +179,36 @@ const sizeInfo = (imageSizes as Record<string, ImageSizeEntry>)[src];
 // Default 'light' (světlý text + tmavé halo) — bezpečnější pro neznámé pozadí,
 // většina foto-pozadí má střední/tmavé tóny.
 const tone: 'light' | 'dark' = sizeInfo?.tone ?? 'light';
+
+// R2 CDN rewrite — symetrie s rehype-picture (packages/rehype-picture/index.mjs).
+// Markdown `![alt](/img/x.jpg)` prochází rehype-picture, kde se src přepíše na
+// cdnBase + src. `::photo{src=...}` direktiva ale vede přímo do <Photo>
+// komponenty, mimo rehype pipeline — proto stejný rewrite musíme udělat ručně,
+// jinak by po `git rm public/img/` (TODO A.26 validation week) nebyl <img>
+// odkud načíst (R2 by měl originály, ale komponenta by mířila na /img/).
+//
+// TODO refactor: extrahovat cdnBase do shared const a importovat oboustranně
+// (astro.config.mjs i Photo.astro). Dnes hardcoded, sjednoceno s rehype config.
+const CDN_BASE = 'https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev';
+const cdnSrc = src.startsWith('/img/') ? `${CDN_BASE}${src}` : src;
+
+// AVIF/WebP varianty (symetrie s rehype-picture wrapInPicture).
+// `scripts/generate-image-formats.ts` produkuje per soubor `.avif` + `.webp`
+// vedle originálu. R2 obsahuje všechny tři formáty.
+const RASTER_RE = /\.(jpe?g|png)(\?.*)?$/i;
+const isRaster = src.startsWith('/img/') && RASTER_RE.test(src);
+const variantBase = isRaster ? `${CDN_BASE}${src.replace(RASTER_RE, '')}` : '';
 ---
 <figure class="photo">
-  <img src={src} alt={alt} class={imgClass} loading="lazy" decoding="async" />
+  {isRaster ? (
+    <picture>
+      <source type="image/avif" srcset={`${variantBase}.avif`} />
+      <source type="image/webp" srcset={`${variantBase}.webp`} />
+      <img src={cdnSrc} alt={alt} class={imgClass} loading="lazy" decoding="async" />
+    </picture>
+  ) : (
+    <img src={cdnSrc} alt={alt} class={imgClass} loading="lazy" decoding="async" />
+  )}
   {showCredit && (
     <figcaption class={`img-credit-overlay credit-tone-${tone}`}>
       {author && (
