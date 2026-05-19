@@ -10,7 +10,7 @@ lastModified: "Sun, 23 Apr 2017 15:50:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:37.090Z"
 ---
-**K**dyž se jednotlivé součástky hodin ze soběslavské věže začaly vynořovat z čistících lázní, objevily se na nich staré [signatury](/slovnik/signatura) a datace a s nimi vznikly i nové otázky.
+Když se jednotlivé součástky hodin ze soběslavské věže začaly vynořovat z čistících lázní, objevily se na nich staré [signatury](/slovnik/signatura) a datace a s nimi vznikly i nové otázky.
 
 Nejstarší [signatura](/slovnik/signatura) je **z opravy** z roku 1743. Starší signatury a datace asi zanikly spolu s díly náležejícími lihýřovému [regulátoru](/slovnik/regulator), pokud tam vůbec byly. Možná se dřív na stroje ani hodináři nepodepisovali.
 
@@ -89,7 +89,7 @@ Pp
 
 Hodiny demontovány a nahrazeny novým strojem
 
-**P**oměrně s jistotou lze tvrdit, že nalezený stroj jsou hodiny, které v roce 1957 opravdu na věži byly. Hodiny vykazují známky značného stáří. Podle názoru restaurátora jsou až "neuvěřitelně staré", zvláště některé jejich části, zejména rám mohly pocházet již z prvních hodin. Tuto úvahu podporují záznamy o spotřebovaném železe. Při následných opravách i v případědě, že "byly dělány hodiny nový" zakoupené množství železa ani zdaleka nestačilo na výrobu celých hodin. Železo bylo v té době drahé. Dědily se i konské podkovy. Máme tady za to, že šlo vždy o přestavbu ve které byl použit starý rám, možná již z prvních hodiny v Soběslavi, tedy hodin z roku 1484. Provedení ručně kovaného rámu jako štíhlé vysoké klece zakončené hlavicemi ve tvaru gotických hřebů napovídá, že hodiny pochází z doby mistra Hanuše.
+Poměrně s jistotou lze tvrdit, že nalezený stroj jsou hodiny, které v roce 1957 opravdu na věži byly. Hodiny vykazují známky značného stáří. Podle názoru restaurátora jsou až "neuvěřitelně staré", zvláště některé jejich části, zejména rám mohly pocházet již z prvních hodin. Tuto úvahu podporují záznamy o spotřebovaném železe. Při následných opravách i v případědě, že "byly dělány hodiny nový" zakoupené množství železa ani zdaleka nestačilo na výrobu celých hodin. Železo bylo v té době drahé. Dědily se i konské podkovy. Máme tady za to, že šlo vždy o přestavbu ve které byl použit starý rám, možná již z prvních hodiny v Soběslavi, tedy hodin z roku 1484. Provedení ručně kovaného rámu jako štíhlé vysoké klece zakončené hlavicemi ve tvaru gotických hřebů napovídá, že hodiny pochází z doby mistra Hanuše.
 
 **[*Mistra Hanuše*](http://www.orloj.eu/cs/mistr_hanus.htm)***, tedy Jana Růže, zdokonalitele Pražského orloje nepřipomínáme náhodou. Hodiny v Soběslavské věži souvisejí s Jindřichovým Hradcem a v Jindřichově Hradci poněkud [**nejasně zmizely**](/virtualni-muzeum/kardasova-recice) jiné vzácné hodiny mistra Hanuše. Nabízí se otázka, zda rám soběslavského stroje nepochází z těchto ztracených hodin. Prostor pro badatele je tedy otevřen .*
 

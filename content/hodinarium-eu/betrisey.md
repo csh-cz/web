@@ -14,8 +14,8 @@ Kuriózní hodiny mají být nejen technicky zajímavé a tajemné, ale i krásn
 
 !
 
-**V**ětšinou jde o jednorázově vytvořené hodiny, které používají velmi netradiční principy a konstrukce jako jsou například kuličky propadávající paletami, [kyvadla](/slovnik/kyvadlo), pneumatické hodiny a další. Na webu autora jsou k dispozici i krátké videosekvence.
+Většinou jde o jednorázově vytvořené hodiny, které používají velmi netradiční principy a konstrukce jako jsou například kuličky propadávající paletami, [kyvadla](/slovnik/kyvadlo), pneumatické hodiny a další. Na webu autora jsou k dispozici i krátké videosekvence.
 
-**P**rohlídka **[www.betrisey.ch](http://www.betrisey.ch/)**určitě stojí za to.
+Prohlídka **[www.betrisey.ch](http://www.betrisey.ch/)**určitě stojí za to.
 
 !

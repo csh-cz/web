@@ -89,11 +89,11 @@ Zpodkladů v odkazech přebíráme tabulku výrobních čísel, která by měla 
 
 Jako ukázku uvádíme krásné stolní hodiny Lenzkirch značené "**AGUL R4 1 Million**", snad výrobního čísla 927375, které podle uvedené tabulky (modré) svědčí o roku výroby po roce 1891. Označení je poněkud v rozporu s tabulkami výrobních čísel. Bude se muset ještě pátrat. Pracovní hypotéza zní: je možné, že hodiny, vyráběné na začátku existence společnosti, nebyly číslovány v této řadě výrobních čísel. Proto milionté hodiny mohou mít výrobní číslo něco přes 900 000.
 
-Zkratka AGUL znamená: **A**ktien (Stockholder) **G**esellschaft (Corporation) **U**hrenfabrikation (Clock Factory) **L**enzkirch (Location). Označení **1 Million** se používalo pro hodiny vyrobené až po milióntém kusu. Vyskytuje se i označení **2 Million** . Více o značkách [zde.](http://www.lenzkirchclocks.com/lenzkirch-trade-symbols.shtml)
+Zkratka AGUL znamená: Aktien (Stockholder) Gesellschaft (Corporation) Uhrenfabrikation (Clock Factory) Lenzkirch (Location). Označení **1 Million** se používalo pro hodiny vyrobené až po milióntém kusu. Vyskytuje se i označení **2 Million** . Více o značkách [zde.](http://www.lenzkirchclocks.com/lenzkirch-trade-symbols.shtml)
 
 ![Lenzkirch stolní 1](/img/svarcvald/lenzkirch/361747077.jpg)
 
-**J**de jistě o hodiny neobvyklého designu, jak by se řeklo v pohádkách "o hodiny nevšední krásy". Doufáme, že se informace ještě podaří doplnit.
+Jde jistě o hodiny neobvyklého designu, jak by se řeklo v pohádkách "o hodiny nevšední krásy". Doufáme, že se informace ještě podaří doplnit.
 
 **Krbové hodiny AGUL R4 i nr 140 1 Million N0 991583**
 
@@ -107,6 +107,6 @@ Rok výroby kolem roku 1895, rozměry 52 x 25 x 15
 
 - [**Lenzkirch clock**](http://www.lenzkirchclocks.com/)Rozsáhlé stránky **Lenzkirch Clock Community** s galerií, historií, výrobními značkami a mnoha dalšími informacemi.
 - **[Na Lenzkirch Story](http://www.clockguy.com/SiteRelated/SiteReferencePages/LenzkirchHistory.html)**
-- **showroom**na stránkách Beacham´s Clock Company
+- **showroom** na stránkách Beacham´s Clock Company
     \- Lenzkirch - The Rolls-Royce of the Black Forest Clockmakers
 - **wikipedia**

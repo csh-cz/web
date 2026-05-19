@@ -10,11 +10,11 @@ lastModified: "Sun, 23 Apr 2017 15:42:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:35.629Z"
 ---
-**P**rvní zkušební otevření bylo 28.10.2010. Od té doby jsme trochu pokročili. Viz [sezóna 2011](/kronika/vez-provoz2011).
+První zkušební otevření bylo 28.10.2010. Od té doby jsme trochu pokročili. Viz [sezóna 2011](/kronika/vez-provoz2011).
 
-**N**a snímcích se vracíme k přípravě expozice a k otevření 28. 10. 2010. Připraven byl zárodek hodinářské a zvonařské expozice, výstava fotografií orloje a výstavka dětských kreseb s hodinářskou tématikou. Část externí expozice elektromechanických hodin obsadila několik vitrín hodinářství Redžič. Během dne nás navštívilo asi 150 návštěvníků o třech psech nemluvě. Jeden z návštěvníků nám dokonce věnoval nový exponát, nedokončený model mechaniky apoštolů Pražského orloje. Ke zdaru akce přispělo i krásné počasí a dobrou viditelností do dáli.
+Na snímcích se vracíme k přípravě expozice a k otevření 28. 10. 2010. Připraven byl zárodek hodinářské a zvonařské expozice, výstava fotografií orloje a výstavka dětských kreseb s hodinářskou tématikou. Část externí expozice elektromechanických hodin obsadila několik vitrín hodinářství Redžič. Během dne nás navštívilo asi 150 návštěvníků o třech psech nemluvě. Jeden z návštěvníků nám dokonce věnoval nový exponát, nedokončený model mechaniky apoštolů Pražského orloje. Ke zdaru akce přispělo i krásné počasí a dobrou viditelností do dáli.
 
-**J**ak vidíte, nebyl ani čas psát průvodní text. ..... Všem, co se na přípravě podíleli děkujeme, ať již přispěli svou prací, zapůjčením exponátů či finančním darem.
+Jak vidíte, nebyl ani čas psát průvodní text. ..... Všem, co se na přípravě podíleli děkujeme, ať již přispěli svou prací, zapůjčením exponátů či finančním darem.
 
 [Petr Král](/hodinari/petr-kral)
 

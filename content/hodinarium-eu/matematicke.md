@@ -20,7 +20,7 @@ Když jsem hodiny poprvé uviděl, trochu jsem bojoval s číslem 7, než jsem k
 
 !
 
-**N**yní naše vlastní varianta devítkových hodin. Zobrazení používá pouze textový tvar výrazů. Pro digitálky bylo navíc nutné pomocí tří devítek (tak jako u všech čísel) definovat nulu. Zvolil jsem nejjednodušší výraz (9-9)/9. Na druhé straně zůstala nevyužila zobrazení čísel 10, 11, 12 i když vypadají tak pěkně. Třeba 10 = 9 + 9/9, 11 = 99/9.
+Nyní naše vlastní varianta devítkových hodin. Zobrazení používá pouze textový tvar výrazů. Pro digitálky bylo navíc nutné pomocí tří devítek (tak jako u všech čísel) definovat nulu. Zvolil jsem nejjednodušší výraz (9-9)/9. Na druhé straně zůstala nevyužila zobrazení čísel 10, 11, 12 i když vypadají tak pěkně. Třeba 10 = 9 + 9/9, 11 = 99/9.
 
 Nevím jak vám, ale mě to moc číst nejde. A to jsem to programoval.
 

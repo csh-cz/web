@@ -18,11 +18,11 @@ tldr: 'Návrh slovenského korespondenta ČSH na eliptickou 24hodinovou stupnici
 
 Těší nás*, že náš Český spolek horologický má i zahraniční členy-korespondenty. Z dílny jednoho z nich, pana Mazana ze Slovenska, uvidíte návrh netradičního zobrazení celodenního hodinového času na 24-hodinové analogové stupnici pomocí symbolů.. Prezentaci ve formě Flash Player Movie v rámci své diplomové práce vytvořil pan Erik Macháč. Technologie Flash již nebude od roku 2021 podporována, proto je prezentace zde zrušena.*
 
-**D**ejme již slovo autorovi:
+Dejme již slovo autorovi:
 
-*"**P**red rokmi som pri istej príležitosti pocítil potrebu analógového zobrazovania (obrazca) 24-hodinového informatívneho času na obrazovkách, **pre deje premietané v časovej kompresii**. Ale takého, ktorý by bol sledovateľný (vnímateľný)* *aj periférnym videním pri súčasnom sledovaní diania v strede obrazovky*![Původní návrh pana Mazana](/img/Mazan/mazan0.gif) *(meteozábery)."*
+*"Pred rokmi som pri istej príležitosti pocítil potrebu analógového zobrazovania (obrazca) 24-hodinového informatívneho času na obrazovkách, **pre deje premietané v časovej kompresii**. Ale takého, ktorý by bol sledovateľný (vnímateľný)* *aj periférnym videním pri súčasnom sledovaní diania v strede obrazovky*![Původní návrh pana Mazana](/img/Mazan/mazan0.gif) *(meteozábery)."*
 
-*"**V**ychádzajúc z určitých logických požiadaviek, zaužívaným princípom u časomerných zariadení ako aj podobnostiam s prírodnými fenoménmi (pochopiteľné aj pre deti až "cudzie" civilizácie) ma napadla určitá zostava, ktorú som si potom (tak trochu zo žartu) prihlásil k registrácii."*
+*"Vychádzajúc z určitých logických požiadaviek, zaužívaným princípom u časomerných zariadení ako aj podobnostiam s prírodnými fenoménmi (pochopiteľné aj pre deti až "cudzie" civilizácie) ma napadla určitá zostava, ktorú som si potom (tak trochu zo žartu) prihlásil k registrácii."*
 
 ***Ondrej M a z a n
 
@@ -40,25 +40,25 @@ Myšlenka nového časového symbolu se dále rozvíjela a mimo jiné se stala v
 
 *Časová symbolika – pod tímto pracovním názvem se skrývá autorský návrh nových hodin od Ondreje Mazana. Jeho principem je kombinace přesného digitálního číselníku s upravenou verzí – variantou ke klasické 12–hodinové stupnici. Tato stupnice je na rozdíl od té, která se používá u ručičkových hodin, dělena na 24 hodin. Je eliptická (tvořena dvěma kruhovými úseky o stejném poloměru a rozdělena na čtyři segmenty pro časové úseky dne (0 až 6, 6 až 12, 12 a 18 a 18 až 24 hodin).*
 
-***U**kazatelem hodinového času je jen jeden symbol, kterým je (podle období dne) Slunce nebo Měsíc, který se pohybuje po vnějším obvodu ciferníku – hodinové stupnice. Při její eliptickém tvaru se časový údaj lépe fixuje i při periferním vidění.*
+*Ukazatelem hodinového času je jen jeden symbol, kterým je (podle období dne) Slunce nebo Měsíc, který se pohybuje po vnějším obvodu ciferníku – hodinové stupnice. Při její eliptickém tvaru se časový údaj lépe fixuje i při periferním vidění.*
 
 *Další částí ciferníku jsou indexy východu západu Slunce – dvě vodorovníé čáry, jejichž poloha se odvozuje od kalendářního data a geografické polohy uživatele. V extrémních případech, jako u polárních oblastí, kde se vyskytují polární dny a noci, tyto indexy splývají v jeden – mizí. Když se ukazatel času nachází nad nimi, má podobu Slunce, protože se nachází nad horizontem. **Proto se tyto indexy nazývají také horizonty.** Když Slunce zapadá ve skutečnosti, tento západ probíhá i na této hodinové stupnici. – plynule se mění na symbol Měsíce a při východu opět na symbol sSunce.*
 
 *Časový údaj udávaný tímto ukazatelem je zčásti jen informativní, proto je podle potřeby doplněný přesným digitálním údajem uvnitř ciferníku. Tady je možné umístnit i různé doplňkové informace jako datum, kalendář a podobně.*
 
-***N**a rozdíl od klasických 12-hodinových dovedeme získat z těchto hodin více informací. Z analogové stupnice můžeme odečíst informativ, zda je právě zaveden letní čas.*
+*Na rozdíl od klasických 12-hodinových dovedeme získat z těchto hodin více informací. Z analogové stupnice můžeme odečíst informativ, zda je právě zaveden letní čas.*
 
-***P**ři zobrazován nočního symbolu – Měsíce - by se mohly zobrazovat i jeho fáze.*
+*Při zobrazován nočního symbolu – Měsíce - by se mohly zobrazovat i jeho fáze.*
 
 ***V** digitál, jako jsou svátky a tak podobně – dle konkrétní implementace.*
 
-***J**ednou oblastí použití (která byla inspirující pro vznik těchto hodin) je znázorňování dějů v časové kompresi - konkrétně promítání satelitních meteorologických snímků na obrazovce, ale i jiných. Dále tyto hodiny pomohou dřív pochopit dětem časoměrné principy, protože realističtěji znázorňují plynutí celodenního času.*
+*Jednou oblastí použití (která byla inspirující pro vznik těchto hodin) je znázorňování dějů v časové kompresi - konkrétně promítání satelitních meteorologických snímků na obrazovce, ale i jiných. Dále tyto hodiny pomohou dřív pochopit dětem časoměrné principy, protože realističtěji znázorňují plynutí celodenního času.*
 
 ***V*** *zjednodušeném tvaru – bez alfanumerické části – by tato časová symbolika mohla sloužit jako piktogram, symbolický obrázek nesoucí víc časových informací než klasické hodiny.*
 
 **![zobrazení pásmových časů](/img/Mazan/mazan1.jpg)**
 
-**N**a obrázku je použití symbolu pro zobrazení pásmových časů pro různá místa. Všiměte si, pohybu horizontů.
+Na obrázku je použití symbolu pro zobrazení pásmových časů pro různá místa. Všiměte si, pohybu horizontů.
 
 Poslední ukázka uvádí návrh z roku 2017 pro zobrazené meteorologické informace v TV. Obrázek má 9 MB, tak vydržte.
 

@@ -11,7 +11,7 @@ relatedKarty:
   - inv-192-podruzny-stroj-veznich-hodin-velky
 tldr: 'Historie zvonové výbavy věže od 15. století — středověký Petr Pavel (1492), rekvírování v obou světových válkách, nový zvon Petr Vok (2011) a dva cimbály věžních hodin.'
 ---
-**S**oběslavská věž v první podobě vznikla někdy na přelomu 12. a 13.století. Zdá se, že již tehdy na ní zvony byly. První zmínka odkazuje na rok 1210. Ve druhé polovině 15. stol. se již uvádějí zvony čtyři:
+Soběslavská věž v první podobě vznikla někdy na přelomu 12. a 13.století. Zdá se, že již tehdy na ní zvony byly. První zmínka odkazuje na rok 1210. Ve druhé polovině 15. stol. se již uvádějí zvony čtyři:
 
 - **Starý** – pocházející snad ještě z doby předhusitské, 959 kg
 - **Cerazský** (později zvaný **Poledník**, případně Jan Evangelista) – vysvěcený v roce 1490, 486 kg
@@ -22,7 +22,7 @@ tldr: 'Historie zvonové výbavy věže od 15. století — středověký Petr P
 
 V roce 1716 byl nově vyroben zvon Umíráček.
 
-[![rekvírování](/img/vez/zvony/rekvirovani.jpg)](/img/vez/zvony/f/rekvirovani.jpg)**Z**vony svým hlasem určovaly rytmus života města. Nápisy na nich často nesou poselství nabádající k pokoře. Lidé však pokoru před zvony necítili. Během 1. světové války byly k válečným účelům **zrekvírovány 4 zvony**, uchoval se jen Velký (Petr Pavel).
+[![rekvírování](/img/vez/zvony/rekvirovani.jpg)](/img/vez/zvony/f/rekvirovani.jpg)Zvony svým hlasem určovaly rytmus života města. Nápisy na nich často nesou poselství nabádající k pokoře. Lidé však pokoru před zvony necítili. Během 1. světové války byly k válečným účelům **zrekvírovány 4 zvony**, uchoval se jen Velký (Petr Pavel).
 
 Citujme z listu, který je uložen u zachovaného úlomku Cerazkého zvonu:
 
@@ -43,12 +43,12 @@ Zvon Petr Pavel však dlouho osamocen nezůstal. Po válce byly vyrobeny a **v r
 
 *![sundavani zvonu 1942](/img/vez/zvony/f/sundavani_zvonu1942.jpg)*
 
-**N**a věži však nepobyly dlouho. Za II. světové války v roce **1941 byly také zrekvírovány** a opět byl ušetřen pouze zvon Petr Pavel, který je na věži dodnes. Válečné doby přečkal snad jen díky tomu, že byl opravdu ze všech zvonů největší, ale i on během doby své existence utrpěl mnohé šrámy Byl poprvé odlit v roce 1492. V 17.stol. byla věž zasažena bleskem a zvon byl poškozen. **V roce 1663 musel být tedy přelit, přičemž do zvonoviny byly přidány 3 mosazné dělové hlavně**. Rovněž po 1. světové válce byl opravován.
+Na věži však nepobyly dlouho. Za II. světové války v roce **1941 byly také zrekvírovány** a opět byl ušetřen pouze zvon Petr Pavel, který je na věži dodnes. Válečné doby přečkal snad jen díky tomu, že byl opravdu ze všech zvonů největší, ale i on během doby své existence utrpěl mnohé šrámy Byl poprvé odlit v roce 1492. V 17.stol. byla věž zasažena bleskem a zvon byl poškozen. **V roce 1663 musel být tedy přelit, přičemž do zvonoviny byly přidány 3 mosazné dělové hlavně**. Rovněž po 1. světové válce byl opravován.
 
-**V**idíme, že na soběslavské věži během staletí bylo vždy zvonů více a bude tomu tak i v 21. století. Letos totiž v rámci oslav Rožmberského roku přibudou 2 zvony, které budou do věže zavěšeny. Není to však všechno. V budované expozici Věžního muzejíčka jsou další cimbály i zvony.*
+Vidíme, že na soběslavské věži během staletí bylo vždy zvonů více a bude tomu tak i v 21. století. Letos totiž v rámci oslav Rožmberského roku přibudou 2 zvony, které budou do věže zavěšeny. Není to však všechno. V budované expozici Věžního muzejíčka jsou další cimbály i zvony.*
 (vlevo sundavání zvonů za II. stětové války)*
 
-**S**oběslavská věž tak opět získává svůj hlas.
+Soběslavská věž tak opět získává svůj hlas.
 
 (údaje podle knihy P. Lintnera Pohledy soběslavské 1)
 

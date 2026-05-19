@@ -41,7 +41,7 @@ Do kategorie opravdových pásmovek patří hodiny **Digi-tech - Hodiny se svět
 - NFT, GMT + **11:30**, Norfolk Time, Čas ostrova Norfolk
 - ......
 
-**V**íce o značení najdete např. zde. Doporučuji vaší pozornosti zejména pásmo GMT - 10, které je označováno **W** neboli **Whiskey Time Zone.** Tady je možné tušit souvislost s hodinami, kterým na tomto serveru říkáme [lahváče](/clanky/lahvace) ;-). Jako mají Britové čaje o páté, mají Američané Whisky Time Zone. ;-)
+Více o značení najdete např. zde. Doporučuji vaší pozornosti zejména pásmo GMT - 10, které je označováno **W** neboli **Whiskey Time Zone.** Tady je možné tušit souvislost s hodinami, kterým na tomto serveru říkáme [lahváče](/clanky/lahvace) ;-). Jako mají Britové čaje o páté, mají Američané Whisky Time Zone. ;-)
 
 )
 
@@ -53,7 +53,7 @@ Do kategorie opravdových pásmovek patří hodiny **Digi-tech - Hodiny se svět
 
 Mapa světa v projekci ze severního pólu se otáčí jedenkrát za 24 hodin společně s nakreslenými hodinovými ručičkami. Po obvodu je pevný 24 hodinový ciferník. Hodinových ručiček je celkem libovolně. Zde je konkrétně vyneseno 81 důležitých světových měst. Prakticky stačí jedna ručička pro jedno časové pásmo. Hodiny tak simultálně ukazují čas pro celý svět. Najděte město a snadno určíte místní čas.
 
-![sklenění pásmovky](/img/ujete/pasmovky_guartz.jpg)**N**a kanadském serveru [**worldclock2001**](http://web.archive.org/web/20100514052728/http://www.thisisit.ca:80/worldclock2001/)si je můžete prohlédnout i v animaci. Technicky se jedná o synchronní hodiny na 120V. Byly vyrobeny v limitované sérii 100 kusů.
+![sklenění pásmovky](/img/ujete/pasmovky_guartz.jpg)Na kanadském serveru [**worldclock2001**](http://web.archive.org/web/20100514052728/http://www.thisisit.ca:80/worldclock2001/)si je můžete prohlédnout i v animaci. Technicky se jedná o synchronní hodiny na 120V. Byly vyrobeny v limitované sérii 100 kusů.
 
 I naše virtuální muzeum se může pochlubit pásmovkami. Zakoupeny na Aukru jako nefunkční, jen k dekoraci. A to za pouhou jednu korunu. Po výměně baterie fungují bez problémů.
 

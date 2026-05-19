@@ -30,12 +30,12 @@ vybaveny pozoruhodným** **natahovací mechanismem**.
 
 [![LOUIS HAINZ - zadní pohled](/img/hainz/zadni_n.jpg)](/img/hainz/zadni.jpg)[![LOUIS HAINZ - zadní pohled - částečně demontované ](/img/hainz/natah1_n.jpg)](/img/hainz/natah1.jpg)
 
-**P**o zatažení za plochý pásek, který prochází drážkou na zadní straně hodin, se předepíná zkrutná pružina uvnitř natahovacího válce, přičemž rohatka zapadá do kruhové západky a tato natahuje jící mechanismus hodin. Po vytažení pásku v celé délce při zpětném pohybu západka volně přeskakuje po rohatce a pasek je navíjen na válec. Jící pružinový mechanismus hodin má jako každý jiný svojí rohatku a západku na horní desce (ta by samozřejmě teoreticky mohla být připevněna na normálním čtyřhranu a celý mechanismus by pomocí klíčku mohl být natahován zepředu)
+Po zatažení za plochý pásek, který prochází drážkou na zadní straně hodin, se předepíná zkrutná pružina uvnitř natahovacího válce, přičemž rohatka zapadá do kruhové západky a tato natahuje jící mechanismus hodin. Po vytažení pásku v celé délce při zpětném pohybu západka volně přeskakuje po rohatce a pasek je navíjen na válec. Jící pružinový mechanismus hodin má jako každý jiný svojí rohatku a západku na horní desce (ta by samozřejmě teoreticky mohla být připevněna na normálním čtyřhranu a celý mechanismus by pomocí klíčku mohl být natahován zepředu)
 
 **Hodinový strojek je označen**
 
 FARCOT B \_S.O.D.GA. PARIS
 
-**N**a zadní straně najdeme papírový štítek s instrukcemi pro instalaci a dvě ručně psaná čísla g 1160 a 13097
+Na zadní straně najdeme papírový štítek s instrukcemi pro instalaci a dvě ručně psaná čísla g 1160 a 13097
 
 Zajímavé a celkem jednoduché bezklíčové řešní. Nic ale není bez problémů. Takto místo ztráty klíče hrozí utržení hodin ze zdi. ;-)

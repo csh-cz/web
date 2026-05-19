@@ -44,11 +44,11 @@ scrapedAt: "2026-04-27T17:36:33.395Z"
 
 ## Prohlídková trasa
 
-**P**rohlídková trasa je poměrně náročná a je na vlastní nebezpečí. Do prostoru věže smí být vpuštěno maximálně 20 návštěvníků. Nejprve vede trasa po točitém schodišti s vysokými stupni kolem klenuté místnosti bývalé **městské klenotnice.** V klenotnici jsou vystaveny hlavní exponáty muzejíčka.
+Prohlídková trasa je poměrně náročná a je na vlastní nebezpečí. Do prostoru věže smí být vpuštěno maximálně 20 návštěvníků. Nejprve vede trasa po točitém schodišti s vysokými stupni kolem klenuté místnosti bývalé **městské klenotnice.** V klenotnici jsou vystaveny hlavní exponáty muzejíčka.
 
-**P**rohlídková trasa věží pokračuje po točitých schodech do rozměrné **prostory "druhého patra"**. Je v ní nyní expozice zvonařské technologie, výstava fotografií Pražského orloje a výstava žákovských prací s tématem hodin.
+Prohlídková trasa věží pokračuje po točitých schodech do rozměrné **prostory "druhého patra"**. Je v ní nyní expozice zvonařské technologie, výstava fotografií Pražského orloje a výstava žákovských prací s tématem hodin.
 
-**P**o dřevěném schodišti vystupujeme do dalších dřevěných pater věže. 4. podlaží je zcela volné, 5. je rovněž volné s krytým prostorem pro pohyb závaží hodin. V 6. podlaží je [**hodinový stroj Elektročas**](/sbirka/vez-elektrocas1959) (1959), v dalším podlaží je stávající **rozvodka hodin**. Projdeme podlaží se **zvonem** (1890 kg) a po dalším krkolomnějším výstupu jsme na úrovni ochozu věže, mineme veliký rumpál a můžeme vychutnat daleký rozhled.
+Po dřevěném schodišti vystupujeme do dalších dřevěných pater věže. 4. podlaží je zcela volné, 5. je rovněž volné s krytým prostorem pro pohyb závaží hodin. V 6. podlaží je [**hodinový stroj Elektročas**](/sbirka/vez-elektrocas1959) (1959), v dalším podlaží je stávající **rozvodka hodin**. Projdeme podlaží se **zvonem** (1890 kg) a po dalším krkolomnějším výstupu jsme na úrovni ochozu věže, mineme veliký rumpál a můžeme vychutnat daleký rozhled.
 
 > * * *
 

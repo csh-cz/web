@@ -30,7 +30,7 @@ Další zajímavostí jsou **hodiny**. V roce 2000 byla provedena jejich generá
 
 ![Řez věží.](/img/vezni/janovice/kostel.jpg)
 
-**S**tojící hodiny budily v obci značnou pozornost, na jejich zprovoznění měl zájem i obecní úřad, který nakonec celou opravu financoval z prostředků získaných z veřejné sbírky. Zvažováno bylo několik variant, jednou z nich bylo i pořízení nového, elektronického, rádiovým signálem řízeného hodinového stroje.
+Stojící hodiny budily v obci značnou pozornost, na jejich zprovoznění měl zájem i obecní úřad, který nakonec celou opravu financoval z prostředků získaných z veřejné sbírky. Zvažováno bylo několik variant, jednou z nich bylo i pořízení nového, elektronického, rádiovým signálem řízeného hodinového stroje.
 
 Proti tomu, aby byl krásný starý stroj nahrazen jsme ale silně protestovali. Nakonec se nám podařilo všechny zainteresované přesvědčit a starý stroj opravit a doplnit o elektrický nátah. Věží se tak i nadále rozléhá krásné pravidelné klapání krokového kola, i tady je příjemné jen tak pobýt a poslouchat, jak plyne čas...
 
@@ -40,7 +40,7 @@ Výška věže je 55m, ciferníky jsou ve výšce cca 30m, hodinový stroj ješt
 
 Stav rozvodu byl špatný. Velmi opotřebované byly především klouby, některé měly prasklý střední litinový kruh a chybějící čepy. Velké vůle pak znemožňovaly přesný chod a vadné klouby způsobovaly zasekávání hodin. V roce 1971 při výměně zvonové stolice a elektrifikaci zvonění byl celý rozvod navíc dost necitlivě posunut aby nepřekážel zvonům. Ztratil tak stabilitu a aby se nerozpadal, byl různě zadrátován (viz obrázek rozvodky dále).
 
-**C**elý rozvod jsme renovovali, doplnili do něj další kloub tak, aby mohl být fixován na zvonovou stolici a neměl zbytečně velké vůle.
+Celý rozvod jsme renovovali, doplnili do něj další kloub tak, aby mohl být fixován na zvonovou stolici a neměl zbytečně velké vůle.
 
 ![Štítek výrobce.](/img/vezni/janovice/hodiny_stitek.jpg)
 
@@ -54,7 +54,7 @@ Stroj byl doplněn o elektrický nátah, závaží bylo zavěšeno do skříně 
 
 Dvě závaží na nekonečném řetězu zajišťují vlastní chod hodin (pomocné závaží napíná řetěz, obě visí na řetězových kladkách) a pohybují se mezi dvojicí koncových spínačů (ve skutečnosti je to trochu složitější, pohyb hlídají ještě další bezpečnostní spínače, zabraňující poškození hodin např. při selhání vypnutí motoru). Na jedno natažení jdou hodiny asi 90 minut, samo natažení pak trvá 5 minut.
 
-**P**ohled na pohon nátahu ukazuje, že je použit asynchronní převodový motorek J86RR412, výrobek [ATAS](http://www.atas.cz/)u elektromotory v Náchodě. Motorek má převodovku 1:540, otáčí se rychlostí 1,5 ot/min a zvednout 40 kg závaží je pro něj hračka. V detailu jsou dobře viditelné všechny komponenty nátahu - řetězové kolo na bubnu hodin, řetěz a rozeta na motoru. Ovládání je v samostatném rozváděči vně skříně hodin.
+Pohled na pohon nátahu ukazuje, že je použit asynchronní převodový motorek J86RR412, výrobek [ATAS](http://www.atas.cz/)u elektromotory v Náchodě. Motorek má převodovku 1:540, otáčí se rychlostí 1,5 ot/min a zvednout 40 kg závaží je pro něj hračka. V detailu jsou dobře viditelné všechny komponenty nátahu - řetězové kolo na bubnu hodin, řetěz a rozeta na motoru. Ovládání je v samostatném rozváděči vně skříně hodin.
 
 ## Rozvodka.
 
@@ -70,15 +70,15 @@ Na detailu převodovky, jejího uchycení a kloubu náhonu jsou dobře viditeln�
 
 ## Demontáž
 
-**D**emontáž ručiček byla poměrně obtížnou záležitostí. Centrální matici šlo i po sto letech povolit poměrně snadno, stažení ručiček z hřídelí však bylo možné až pomocí stahováku a speciálního přípravku. Přístup k ručičkám byl také poměrně obtížný, v ciferníku je jen maličké 30x30 cm velké okénko, ke kterému navíc z druhé strany vede jen o málo větší "tunel" přes stovku zeď (viz předchozí obrázky převodovek). Manipulace s nástroji se tak proměnila v malé akrobatické vystoupení. Ručičky samotné byly zkorodovány jen místně a stačilo na nich obnovit nátěry. Matice a šrouby byly většinou po opravě použity původní (nebylo je možné bez úprav nahradit, neboť neměly normalizované metrické závity).
+Demontáž ručiček byla poměrně obtížnou záležitostí. Centrální matici šlo i po sto letech povolit poměrně snadno, stažení ručiček z hřídelí však bylo možné až pomocí stahováku a speciálního přípravku. Přístup k ručičkám byl také poměrně obtížný, v ciferníku je jen maličké 30x30 cm velké okénko, ke kterému navíc z druhé strany vede jen o málo větší "tunel" přes stovku zeď (viz předchozí obrázky převodovek). Manipulace s nástroji se tak proměnila v malé akrobatické vystoupení. Ručičky samotné byly zkorodovány jen místně a stačilo na nich obnovit nátěry. Matice a šrouby byly většinou po opravě použity původní (nebylo je možné bez úprav nahradit, neboť neměly normalizované metrické závity).
 
 ## DCF hodiny.
 
 ![DCF hodinový stroj](/img/vezni/janovice/DCF_hodiny.jpg)
 
-**P**ro Vaše srovnání - takto vypadá elektrický hodinový stroj, řízený rádiovým signálem (DCF z Frankfurtu). Má tři části - řídicí elektroniku, přijímač rádiového signálu a elektromotor s převodovkou a čidlem polohy pro pohon ručiček. Na pohled velmi jednoduché, kompaktní a moderní. Ale ve srovnání s klasickým stoletým strojem na předchozích snímcích bez jakékoliv elegance. Vzhledem k mé profesi mne nikdo nemůže podezírat, že jsem proti novým technologiím, když je stále prosazujido praxe. Proto jen kratičké vysvětlení proč jsme byli proti řešení, které nabízelo výměnu hodin za tyto elektrické.
+Pro Vaše srovnání - takto vypadá elektrický hodinový stroj, řízený rádiovým signálem (DCF z Frankfurtu). Má tři části - řídicí elektroniku, přijímač rádiového signálu a elektromotor s převodovkou a čidlem polohy pro pohon ručiček. Na pohled velmi jednoduché, kompaktní a moderní. Ale ve srovnání s klasickým stoletým strojem na předchozích snímcích bez jakékoliv elegance. Vzhledem k mé profesi mne nikdo nemůže podezírat, že jsem proti novým technologiím, když je stále prosazujido praxe. Proto jen kratičké vysvětlení proč jsme byli proti řešení, které nabízelo výměnu hodin za tyto elektrické.
 
-![Detail popouštěcího mechanismu - krokového kola hodin.](/img/vezni/janovice/hodiny_krok.jpg)**St**aré hodiny šly v Janovicích sto let. Vykazovaly až na pár výjimek jen vady, které šly na vrub běžnému opotřebení. Vždyť velká ručička za tu dobu oběhla ciferník 876 tisíckrát, počet kyvů kyvadla se přehoupl přes 1,5 miliardy! Bylo by škoda vyhodit takový krásný kus historie jen proto, že se časem unavil. Vždyť k němu za ta léta musel denně někdo chodit, denně je natahovat a seřizovat. Za těch sto let to je 36,5 tisíce návštěv, při kterých musel někdo vyšlapat 2.701.000 schodů nahoru a stejný počet dolů. I po sto letech jsou hodiny technicky na výši, stejný princip mechanického kroku používají všechny dodnes vyráběné mechanické hodiny. Nový stroj by se ale sta let bez úprav nedožil. Fyzická životnost použité elektroniky (jednočipový mikropočítač, paměti EPROM...) je maximálně dvě desítky let, morální ještě méně. (Teď nepomlouvám tento moderní výrobek, jeho nasazení v nových stavbách a jako náhrada za zničené stroje je dnes jedno z možných řešení a přináší i mnoho výhod, které jiné hodiny přinést nemohou - záruku přesného chodu, automatické přestavování letní/zimní čas apod.).
+![Detail popouštěcího mechanismu - krokového kola hodin.](/img/vezni/janovice/hodiny_krok.jpg)Staré hodiny šly v Janovicích sto let. Vykazovaly až na pár výjimek jen vady, které šly na vrub běžnému opotřebení. Vždyť velká ručička za tu dobu oběhla ciferník 876 tisíckrát, počet kyvů kyvadla se přehoupl přes 1,5 miliardy! Bylo by škoda vyhodit takový krásný kus historie jen proto, že se časem unavil. Vždyť k němu za ta léta musel denně někdo chodit, denně je natahovat a seřizovat. Za těch sto let to je 36,5 tisíce návštěv, při kterých musel někdo vyšlapat 2.701.000 schodů nahoru a stejný počet dolů. I po sto letech jsou hodiny technicky na výši, stejný princip mechanického kroku používají všechny dodnes vyráběné mechanické hodiny. Nový stroj by se ale sta let bez úprav nedožil. Fyzická životnost použité elektroniky (jednočipový mikropočítač, paměti EPROM...) je maximálně dvě desítky let, morální ještě méně. (Teď nepomlouvám tento moderní výrobek, jeho nasazení v nových stavbách a jako náhrada za zničené stroje je dnes jedno z možných řešení a přináší i mnoho výhod, které jiné hodiny přinést nemohou - záruku přesného chodu, automatické přestavování letní/zimní čas apod.).
 
 Hodiny po opravě jsou poměrně přesné, nesplnila se naše obava z možného nepravidelného chodu. Předpokládali jsme, že při každodenním natahování bylo nutné denně hodiny seřídit. Po nainstalování elektrického nátahu však hodiny šly prakticky dva měsíce přesně i bez seřizování, což je na staletý stroj parádní výkon, svědčící o precizním provedení mechanismu. A potvrzuje to i správnost našeho rozhodnutí zachovat tento stroj dalším generacím.
 

@@ -13,7 +13,7 @@ tldr: 'Seznam vyhledávacích řetězců a videí ke kuriózním hodinám — d�
 ---
 Fenomén amatérsky pořizovaných videozáznamů a jejich ukládání na **[YouTube](http://www.youtube.com/)** nemůže zůstat nepovšimnut ani při pátrání po kuriózních hodinách. Není rychlejší prostředek, jak informace o podivuhodných hodinách šířit po celém světě. Zkuste vyhledání třeba dřevěných hodin a uvidíte, jaké množtví nápadů naleznete.
 
-**P**okud najdete příspěvky obzvláště vypečené, sdělte nám adresu nebo vyhledávací řetězec a můžete se o úlovek podělit.
+Pokud najdete příspěvky obzvláště vypečené, sdělte nám adresu nebo vyhledávací řetězec a můžete se o úlovek podělit.
 
 **Několik vybraných typů:**
 
