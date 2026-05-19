@@ -602,6 +602,106 @@ Plný design + zamítnutí ChatGPT návrhu v session transcriptu
       **Verifikace**: `npx tsx scripts/audit-bibkey.ts` reportuje
       `Problematic: 0 entries, 0 files` (předtím 66 entries, 44 souborů).
 
+## A.10 — Bug fixes z GH issues (audit 2026-05-19)
+
+Triáž 10 open issues v `csh-cz/web` z hlášení editorů od 2026-04-28 do
+2026-05-13. Stav po analýze (commitech z 2026-05-13–2026-05-18) +
+verifikace souborového stavu.
+
+### Pravděpodobně už vyřízené (zavřít po manuální verifikaci na live)
+
+- [ ] **#33** „pole hodinář v soupisu — neuvádět restaurátora, sjednotit
+      jména, 'neznámý' bez vysvětlení" — pravděpodobně vyřízeno řadou
+      commitů 2026-05-17/18:
+      - `46b520d8` restaurátor extrahován do samostatného sloupce + slug
+      - `ad89c932` hodinář pole čisté jméno
+      - `812bf7ca` hodinarText sjednocen na „neznámý" (CES standard)
+      - `7c086344` display „Příjmení, Jméno"
+
+      **Verify na live:** otevřít https://hodinarium-eu.pages.dev/soupis-veznich-hodin/
+      a zkontrolovat sloupec Hodinář. Pak `gh issue close 33 -R csh-cz/web`.
+
+- [ ] **#32 (část 2)** „v štítku stavu nebuď 'stav neznámý' ale jen 'neznámý'"
+      — pravděpodobně vyřízeno `db5f4636` (text změněn na „neověřeno").
+      **Verify:** chip v tabulce už říká „neověřeno" místo „stav neznámý"?
+      Pak `gh issue close 32 -R csh-cz/web` s comment že část 1 (reload
+      button) je nově sledována jako #32a níže.
+
+### Vyřízené teď (2026-05-19)
+
+- [x] **#26** broken link `/hodinarium-eu/kinsner-astronomicke-hodiny`
+      v `content/hodinari/dondi.mdx` → opraveno na `/clanky/kinsner-astronomicke-hodiny`
+      (commit 2026-05-19). `gh issue close 26 -R csh-cz/web` po deployi.
+
+### Otevřené — potřeba opravit
+
+- [ ] **#21** `/konstrukce/flying_pendulum/` — „článek nelze opravovat,
+      Not found" v Sveltia editoru. Root cause podezření: slug mismatch
+      Sveltia config × filesystem (`flying_pendulum` vs skutečný
+      `content/hodinarium-eu/flying-pendulum.md` s pomlčkou). **Akce:**
+      zkontrolovat URL Generator v `apps/hodinarium-eu/public/admin/config.yml`
+      pro `clanky-hodinarium-eu` collection — zda generuje slug z filename
+      nebo z `slug:` frontmatteru. Editor klikl na „Upravit" na frontend
+      stránce a CMS hledá pod jiným slugem.
+
+- [ ] **#24** `/sbirka/vez-kli/` — „texty nejsou přiřazeny správným obrázkům.
+      Problém i na jiných stránkách." **Akce:** slug `vez-kli` v
+      `content/sbirka/` neexistuje (pravděpodobně přejmenováno na inv-NNN
+      schéma). Najít aktuální slug + zkontrolovat alignment texty/obrázky
+      v `KartaSbirky.astro` nebo `foto[]` poli. Možná dopad i na jiné
+      sbírkové karty (issue tvrdí „na jiných stránkách").
+
+- [ ] **#25** `/tagy/jednotny-cas/` — „nabídnuté stránky nikam nevedou".
+      Root cause: `apps/hodinarium-eu/src/pages/tagy/[tag].astro`
+      filtruje jen `clanky` collection (`getCollection('clanky')`), zatímco
+      `jednotny-cas` tag je použit i v `content/hodinarium-eu/*` (`ctwagner.md`,
+      `arduino-ibm.md`, `decin-jednotny-cas.md`, …) a `content/hodinari/*`.
+      **Akce:** rozšířit `[tag].astro` aby agregoval tagy napříč collections,
+      a `Card.astro` URL helper aby správně genroval `/clanky/<slug>` vs
+      `/hodinari/<slug>` vs jiné podle typu položky. Alternativa: rozhodnout
+      že tag pages obsahují jen `clanky` a v `hodinari` / legacy `hodinarium-eu`
+      tag-link prostě nezobrazovat (jednodušší — méně regresí).
+
+- [ ] **#27** `/kronika/vez1/` — „patička stránky se píše do a přes
+      fotogalerii". **Akce:** zkontrolovat layout `kronika/[slug].astro`
+      a CSS `.article-gallery` (lightbox-only mode z `b89c737e`) zda
+      footer má dostatečný margin-top / clear: both nebo z-index nad
+      galerií. Možná regrese po lightbox refactoru 2026-05-18.
+
+- [ ] **#34** Soupis tabulka — „otevření karty kliknutím kdekoli na řádek,
+      nedávej na link na jednotlivé položky". **Akce:** v
+      `apps/hodinarium-eu/src/pages/soupis-veznich-hodin/index.astro` přidat
+      `tr[data-href]` + JS handler `click` → `location = data-href`,
+      odstranit inline `<a>` z buněk (nebo nechat jen na .nazev pro hover
+      preview). Zachovat keyboard a11y: `tabindex="0"` + Enter handler na
+      řádku.
+
+- [ ] **#36** Karty sbírkových předmětů — „nejsou editovatelné, chybí
+      tlačítko upravit, je jen tlačítko nahlásit problém". **Akce:**
+      `apps/hodinarium-eu/src/components/EditButton.astro` nebo podobná
+      komponenta — patří na stránky `sbirka/[slug].astro` (Sveltia edit
+      link). Pravděpodobně chybí přidání. Verify config.yml má sbirka
+      collection visible v Sveltia + příslušný edit URL pattern v
+      EditButton.
+
+- [ ] **#32a** Soupis tabulka — „tlačítko reload je příliš velké, stačí
+      malé tlačítko s recycle symbolem". **Akce:** v
+      `apps/hodinarium-eu/src/pages/soupis-veznich-hodin/index.astro`
+      najít „Reset filtr" button → změnit na icon-only (Font Awesome
+      `fa-arrows-rotate` per feedback_ikony_font_awesome). Možná už
+      bylo dotčeno v `13bd09f0`, ale issue stále otevřené — verify size.
+
+### Větší práce — pokračuje
+
+- [ ] **#18** Iframe ztracený při HTML→MD konverzi — zbývá ~13 článků
+      (Arduino, Arduino_IBM, PRS10, TimeSlider, fake_atomove_hodiny,
+      mindelheim, 12_24, cas_internet2, segmentovky_s_prekladem,
+      mystery_prg.htm, normalni_prg.htm, segmentovky_prg.htm, kniha_vez.htm,
+      search.htm, tabor, sezona2012, sezona2013). Postupně řešit batch
+      po batch — možná script: `scripts/recover-iframes.mjs` který scanuje
+      raw HTML import + porovnává s `content/hodinarium-eu/*.md` a navrhuje
+      iframe blok k vložení.
+
 ## A.9 — Připraveno k nasazení po DNS switch
 
 Až se přepne DNS (viz B.3), Claude provede:
