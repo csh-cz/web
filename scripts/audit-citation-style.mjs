@@ -46,11 +46,28 @@ function splitFrontmatter(md) {
 function findViolations(body) {
   const lines = body.split('\n');
   const violations = [];
+  let inCodeFence = false;
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
     const lineNo = i + 1;
-    // Skip code blocks (heuristika — řádek začíná 4+ mezerami nebo je v ``` blocku)
+    // Skip code blocks (4+ mezery, tab, ``` fence)
     if (line.startsWith('    ') || line.startsWith('\t')) continue;
+    if (/^```/.test(line)) { inCodeFence = !inCodeFence; continue; }
+    if (inCodeFence) continue;
+    // Skip image alt texts — false positive zdroj (alt může být dlouhý popisný)
+    if (/^!\[/.test(line.trim())) continue;
+    // Skip blockquote attribution `> — AUTOR. *Title*. [Zotero KEY]` — to je
+    // legit citace attribution pattern. Plný refactor řeší TODO A.2 SL13 part 2
+    // (rehype plugin auto-converter `[Zotero KEY]` → anchor).
+    if (/^>\s*—\s+[A-ZÁ-Ž]/.test(line)) continue;
+    // Skip blockquote standalone citation `> AUTOR. *Title.* [Zotero KEY]` —
+    // používá se v slovník hesle pro citation blocky (ne text v běžné větě).
+    if (/^>\s+[A-ZÁ-Ž]{2,}[.,]\s+\*/.test(line)) continue;
+    // Skip lines obsahující jen `[Zotero KEY]` reference — interim pattern.
+    if (/\[Zotero\s+`[A-Z0-9]+`\]/.test(line) && !/ISBN\s+[\d-]{10,}/.test(line)) {
+      // ale jen pokud nemá ISBN nebo jinou full-citation hint
+      continue;
+    }
 
     // Pattern 1: ISBN/ISSN/DOI v body
     if (/\bISBN\s+[\d-]{10,}|\bISSN\s+\d{4}-\d{3,4}|\b10\.\d{4,}\/\S+/.test(line)) {
@@ -58,23 +75,24 @@ function findViolations(body) {
     }
 
     // Pattern 2: Plná bibliografická citace AUTOR. *Title*. Místo: Vydavatel, RRRR.
-    // Heuristika: CAPS slovo následované tečkou + *italic* (markdown bold/italic)
+    // Heuristika: CAPS slovo následované tečkou + *italic*
     if (/[A-ZÁ-Ž]{2,}[A-ZÁ-Ž,\s]*\.\s+\*[A-ZÁ-Ž]/.test(line)) {
       violations.push({ lineNo, type: 'full-citation', sample: line.trim().slice(0, 120) });
     }
 
     // Pattern 3: Inline italic *Title* (Místo Rok, …) plná citace v parenthesis
-    // Heuristika: `*Title text* (Slovo Slovo, RRRR, ...)` kde RRRR je 4-digit rok
-    if (/\*[A-Z][^*]{3,}\*\s*\([^)]*\b(19|20)\d{2}[^)]*\)/.test(line)) {
+    // Pozor: musí být víc než jen rok v paren — extra `Slovo Slovo, RRRR`.
+    // Pokud jen `(RRRR)` nebo `(životní roky 1814–1899)`, není to citace.
+    if (/\*[A-Z][^*]{3,}\*\s*\([^)]*\b(19|20)\d{2}[,;].+\)/.test(line)) {
       violations.push({ lineNo, type: 'italic-title-paren', sample: line.trim().slice(0, 120) });
     }
 
-    // Pattern 4: Inline link s long bibliographic text
-    // Heuristika: [text >40 chars containing dots + caps](URL)
+    // Pattern 4: Inline link s long bibliographic text (autor + tečka + title)
     const inlineLinks = [...line.matchAll(/\[([^\]]{40,})\]\(([^)]+)\)/g)];
     for (const m of inlineLinks) {
       const text = m[1];
-      if (/[A-Z]{3,}/.test(text) && /\./.test(text)) {
+      // Real bibliographic má AUTOR. *Title* nebo similar pattern.
+      if (/[A-ZÁ-Ž]{3,}.*\.\s+\*/.test(text)) {
         violations.push({ lineNo, type: 'long-inline-link', sample: text.slice(0, 100) });
       }
     }

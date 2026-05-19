@@ -29,6 +29,32 @@ originalUrl: "https://hodinarium-eu.pages.dev/zajimavosti/big-ben-denisonuv-grav
 lastModified: "Sun, 17 May 2026 05:30:00 GMT"
 sourceCharset: "utf-8"
 scrapedAt: "2026-05-17T05:30:00.000Z"
+references:
+  - key: grimthorpe-1874
+    bibKey: WUZTDSFQ
+    title: "A Rudimentary Treatise on Clocks, Watches and Bells"
+    author: "Edmund Beckett, Baron Grimthorpe"
+    year: 1874
+    type: kniha
+    note: "GRIMTHORPE, Edmund Beckett. *A Rudimentary Treatise on Clocks, Watches and Bells*. London, 6. vyd. 1874 (1. vyd. 1860, 8. vyd. 1903). Public domain; Zotero WUZTDSFQ."
+  - key: lange-1923
+    title: "Konstruktionsgrundsätze für Denisons Schwerkraft-Hemmung"
+    author: "W. Lange"
+    year: 1923
+    type: clanek
+    note: "LANGE, W. Konstruktionsgrundsätze für Denisons Schwerkraft-Hemmung. *Deutsche Uhrmacher-Zeitung*, 1923."
+  - key: eichelberger-1907
+    title: "Clocks, Ancient and Modern"
+    author: "Henry Martin Eichelberger"
+    year: 1907
+    type: kniha
+    note: "EICHELBERGER, H. M. *Clocks, Ancient and Modern*. 1907."
+  - key: mckay-2010
+    bibKey: ICQ73E3Q
+    title: "Big Ben: the great clock and the bells at the Palace of Westminster"
+    author: "Chris McKay"
+    year: 2010
+    type: kniha
 ---
 
 V hodinářském slovníku je „Big Ben" jedním z nejčastěji **nesprávně používaných** termínů. **Big Ben není věž, ani hodinový stroj** — je to **velký zvon** (∅ 2,7 m, hmotnost 13,76 t), na který se vykazuje hodinové bití. Vlastní hodinový stroj se v odborné literatuře nazývá **Westminster Great Clock** a věž od roku 2012 nese jméno **Elizabeth Tower** (předtím prostě *Clock Tower*).
@@ -83,7 +109,7 @@ Tato verze byla později ještě **vylepšena** o **dvě sady tří ramen** — 
 
 ## Princip Denisonova dvojitého třícípého gravitačního kroku
 
-**Eichelberger** v *Clocks-Ancient and Modern* (1907) popisuje princip:
+[Eichelberger 1907](#ref-eichelberger-1907) popisuje princip:
 
 > „Denisonův gravitační krok se skládá ze **dvou gravitačních impulsních palet**, čepovaných pokud možno **v ose s ohybovým bodem [vlasové pružinky / závěsu]** kyvadla a dotýkajících [se kyvadla v určitém bodě]…"
 
@@ -110,13 +136,13 @@ Tj. gravitační krok je **kombinovaný oscilátor + remontoár** v jedné jedno
 
 ## Recepce a rozšíření
 
-Po úspěchu Westminster Great Clock se Denisonův gravitační krok stal **standardem pro nejpřesnější věžní hodiny druhé poloviny 19. století**. Sám Denison v předmluvě k osmému vydání *Rudimentary Treatise* (1903, již jako Lord Grimthorpe) píše:
+Po úspěchu Westminster Great Clock se Denisonův gravitační krok stal **standardem pro nejpřesnější věžní hodiny druhé poloviny 19. století**. Sám Denison v předmluvě k 8. vydání ([Grimthorpe 1874](#ref-grimthorpe-1874); 1903 = 8. ed., již jako Lord Grimthorpe) píše:
 
 > „Tato kniha mě dovedla k navržení, buď přímo nebo nepřímo, nejen Westminster a [St. Pauls] hodin…"
 
-Krok byl podrobně popsán i v německé literatuře — **W. Lange** publikoval v roce **1923** v *Deutsche Uhrmacher-Zeitung* podrobné **Konstruktionsgrundsätze für Denisons Schwerkraft-Hemmung** s detailní geometrickou analýzou pro praktické konstrukce.
+Krok byl podrobně popsán i v německé literatuře — viz [Lange 1923](#ref-lange-1923) s detailní geometrickou analýzou pro praktické konstrukce.
 
-V Anglii a USA se s gravitačním krokem stavěly stovky věžních hodin. **Eichelberger 1907** uvádí, že firmy jako *Howard*, *Seth Thomas*, *E. Howard & Co* a další amerikční výrobci adoptovali Denisonův princip pro své prémiové modely.
+V Anglii a USA se s gravitačním krokem stavěly stovky věžních hodin. [Eichelberger 1907](#ref-eichelberger-1907) uvádí, že firmy jako Howard, Seth Thomas, E. Howard & Co a další američtí výrobci adoptovali Denisonův princip pro své prémiové modely.
 
 ## Recepce v Čechách — Romuald Božek 1864
 
