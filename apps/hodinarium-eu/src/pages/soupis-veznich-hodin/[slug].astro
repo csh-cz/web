@@ -255,8 +255,8 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
   </section>
 
   {d.prameny && d.prameny.length > 0 && (
-    <section class="prameny">
-      <h2>Prameny</h2>
+    <section class="references prameny" aria-labelledby="references-heading">
+      <h2 id="references-heading" class="references-title">Literatura a odkazy</h2>
       <ul class="references-list">
         {d.prameny.map((p, i) => {
           const refId = `ref-${p.key ?? i + 1}`;

@@ -239,8 +239,8 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
     </div>
 
     {data.references && data.references.length > 0 && (
-      <section class="slovnik-references" aria-labelledby="slovnik-references-heading">
-        <h2 id="slovnik-references-heading">Prameny a citace</h2>
+      <section class="references slovnik-references" aria-labelledby="references-heading">
+        <h2 id="references-heading" class="references-title">Literatura a odkazy</h2>
         <ol>
           {data.references.map((r, idx) => {
             // Pokud má reference key, použij ji jako stabilní anchor;
