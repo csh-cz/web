@@ -578,7 +578,7 @@ const orgJsonLd = isHome ? {
 
         button.disabled = true;
         const origText = button.textContent;
-        button.textContent = '⏳ Odesílám commit…';
+        button.innerHTML = '<i class="fa-solid fa-hourglass-half" aria-hidden="true"></i> Odesílám commit…';
         try {
           const repoApi = '/api/cms/api/v3/repos/' + githubRepo + '/contents/' + file;
           const r = await fetch(repoApi, { credentials: 'include' });

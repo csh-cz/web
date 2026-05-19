@@ -60,14 +60,17 @@ const reverseForThis = (reverseMap as Record<string, Record<string, Record<strin
 
 // Resolve target → { title, href } pro každý typ. Načteme pouze relevantní
 // collections (jen ty, kde refs/reverse ukazuje), abychom neotvírali zbytečně.
+/** icon = Font Awesome class string (per memory feedback_ikony_font_awesome).
+    Buď „fa-solid fa-XXX" nebo „fa-brands fa-XXX". Renderuje se v Astro
+    template přes <i class={icon}>. */
 const TYPE_META: Record<string, { label: string; icon: string; href: (slug: string) => string }> = {
-  kroky:    { label: 'Krok',     icon: '⚙', href: (s) => `/kroky/${s}` },
-  hodinari: { label: 'Hodinář',  icon: '👤', href: (s) => `/hodinari/${s}` },
-  karty:    { label: 'Sbírka',   icon: '🏛', href: (s) => `/sbirka/karta/${s}` },
-  clanky:   { label: 'Článek',   icon: '📄', href: (s) => `/clanky/${s}` },
-  soupis:   { label: 'Soupis',   icon: '🗼', href: (s) => `/soupis-veznich-hodin/${s}` },
-  slovnik:  { label: 'Slovník',  icon: '📕', href: (s) => `/slovnik/${s}` },
-  kronika:  { label: 'Kronika',  icon: '🗓', href: (s) => `/kronika/${s}` },
+  kroky:    { label: 'Krok',     icon: 'fa-solid fa-gear',          href: (s) => `/kroky/${s}` },
+  hodinari: { label: 'Hodinář',  icon: 'fa-solid fa-user',          href: (s) => `/hodinari/${s}` },
+  karty:    { label: 'Sbírka',   icon: 'fa-solid fa-landmark',      href: (s) => `/sbirka/karta/${s}` },
+  clanky:   { label: 'Článek',   icon: 'fa-solid fa-file-lines',    href: (s) => `/clanky/${s}` },
+  soupis:   { label: 'Soupis',   icon: 'fa-solid fa-tower-observation', href: (s) => `/soupis-veznich-hodin/${s}` },
+  slovnik:  { label: 'Slovník',  icon: 'fa-solid fa-book',          href: (s) => `/slovnik/${s}` },
+  kronika:  { label: 'Kronika',  icon: 'fa-solid fa-calendar-days', href: (s) => `/kronika/${s}` },
 };
 
 // Načteme názvy entries pro pretty display. Lookup map: type → slug → title.
@@ -176,7 +179,7 @@ const hasReverse = reverseGroups.length > 0;
               {cardGroups.map((g) => (
                 <div class="cross-refs-cards-wrap">
                   <p class="cross-refs-cards-eyebrow">
-                    <span class="cross-refs-icon" aria-hidden="true">{g.meta.icon}</span>
+                    <i class={`cross-refs-icon ${g.meta.icon}`} aria-hidden="true"></i>
                     {g.type === 'karty' ? 'Sbírkové předměty' : 'Související články'}
                     {g.items.length > 1 ? ` (${g.items.length})` : ''}
                   </p>
@@ -212,7 +215,7 @@ const hasReverse = reverseGroups.length > 0;
                   {listGroups.map((g) => (
                     <div class="cross-refs-group">
                       <dt class="cross-refs-group-label">
-                        <span class="cross-refs-icon" aria-hidden="true">{g.meta.icon}</span>
+                        <i class={`cross-refs-icon ${g.meta.icon}`} aria-hidden="true"></i>
                         {g.meta.label}{g.items.length > 1 ? ` (${g.items.length})` : ''}
                       </dt>
                       <dd>
@@ -241,7 +244,7 @@ const hasReverse = reverseGroups.length > 0;
           {reverseGroups.map((g) => (
             <div class="cross-refs-group">
               <dt class="cross-refs-group-label">
-                <span class="cross-refs-icon" aria-hidden="true">{g.meta.icon}</span>
+                <i class={`cross-refs-icon ${g.meta.icon}`} aria-hidden="true"></i>
                 {g.meta.label} ({g.items.length})
               </dt>
               <dd>

@@ -61,7 +61,7 @@ for (const c of (catalog as Array<{ slug: string; category: string }>)) {
     <ul class="lokace-list mt-6">
       {puvod.map((l) => (
         <li class="flex items-baseline gap-2">
-          {l.expozice && <span class="text-[var(--color-copper)]" title="Expozice">★</span>}
+          {l.expozice && <i class="fa-solid fa-star text-[var(--color-copper)]" title="Expozice" aria-label="Expozice"></i>}
           {hasArticle(l.slug)
             ? <a href={clanekHrefFromSlug(l.slug, catalog)} class="link-bare">{l.jmeno}</a>
             : <span class="text-[var(--color-text-soft)]">{l.jmeno}</span>}
@@ -91,7 +91,7 @@ for (const c of (catalog as Array<{ slug: string; category: string }>)) {
         <ul class="lokace-list">
           {expoCZ.map((l) => (
             <li class="flex items-baseline gap-2">
-              {l.expozice && <span class="text-[var(--color-copper)]" title="Expozice">★</span>}
+              {l.expozice && <i class="fa-solid fa-star text-[var(--color-copper)]" title="Expozice" aria-label="Expozice"></i>}
               {hasArticle(l.slug)
                 ? <a href={clanekHrefFromSlug(l.slug, catalog)} class="link-bare">{l.jmeno}</a>
                 : <span class="text-[var(--color-text-soft)]">{l.jmeno}</span>}

@@ -465,38 +465,22 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
     color: var(--color-copper);
     font-weight: 700;
   }
-  .prameny .references-list li.reference-kniha::before { content: '📖'; left: 0; font-size: 0.85em; }
-  .prameny .references-list li.reference-pdf::before { content: '⤓'; left: 0.3rem; color: var(--color-brass-bright); }
-  .prameny .references-list li.reference-wiki::before {
-    content: 'ⓦ';
-    left: 0.2rem;
-    color: var(--color-copper);
+  /* Font Awesome codepointy místo emoji glyphů (feedback_ikony_font_awesome
+     migrace 2026-05-19). FA Free Solid = font-family + font-weight: 900;
+     Brands = font-family + font-weight: 400. */
+  .prameny .references-list li[class*="reference-"]::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
     font-style: normal;
-    font-size: 1em;
-  }
-  .prameny .references-list li.reference-clanek::before {
-    content: '📰';
-    left: 0;
-    font-size: 0.85em;
-    color: var(--color-copper);
-    font-style: normal;
-    font-family: var(--font-serif);
-  }
-  .prameny .references-list li.reference-archiv::before {
-    content: '⛁';
-    left: 0.3rem;
     color: var(--color-copper);
   }
-  .prameny .references-list li.reference-patent::before {
-    content: '⚙';
-    left: 0.3rem;
-    color: var(--color-copper);
-  }
-  .prameny .references-list li.reference-zprava::before {
-    content: '✎';
-    left: 0.3rem;
-    color: var(--color-copper);
-  }
+  .prameny .references-list li.reference-kniha::before  { content: '\f02d'; left: 0.1rem; }  /* fa-book */
+  .prameny .references-list li.reference-pdf::before    { content: '\f019'; left: 0.2rem; color: var(--color-brass-bright); }  /* fa-download */
+  .prameny .references-list li.reference-wiki::before   { content: '\f266'; left: 0.2rem; font-family: "Font Awesome 6 Brands"; font-weight: 400; }  /* fa-wikipedia-w */
+  .prameny .references-list li.reference-clanek::before { content: '\f1ea'; left: 0.1rem; }  /* fa-newspaper */
+  .prameny .references-list li.reference-archiv::before { content: '\f187'; left: 0.2rem; }  /* fa-box-archive */
+  .prameny .references-list li.reference-patent::before { content: '\f013'; left: 0.2rem; }  /* fa-gear */
+  .prameny .references-list li.reference-zprava::before { content: '\f304'; left: 0.2rem; }  /* fa-pen */
   .prameny .references-list li.reference-mapa::before {
     content: '';
     left: 0.2rem;

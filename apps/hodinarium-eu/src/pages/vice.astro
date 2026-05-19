@@ -18,6 +18,9 @@ interface Tile {
   href: string;
   title: string;
   description: string;
+  /** Font Awesome icon name bez prefixu, např. 'fa-landmark'. Renderuje
+      se přes `<i class={`fa-solid ${icon}`}>`. Per memory
+      feedback_ikony_font_awesome — emoji zakázány. */
   icon: string;
   external?: boolean;
 }
@@ -28,70 +31,70 @@ const tiles: Tile[] = [
     title: 'Virtuální muzeum',
     description:
       'Cizí hodiny mimo naši fyzickou sbírku — zajímavé exponáty z celého světa, dokumentované jen online.',
-    icon: '🌐',
+    icon: 'fa-globe',
   },
   {
     href: '/muzea',
     title: 'Hodinářská muzea',
     description:
       'Sister muzea a expozice po celém světě — Mindelheim, Aschau, Vídeň, Anglie, ...',
-    icon: '🏛',
+    icon: 'fa-landmark',
   },
   {
     href: '/zajimavosti',
     title: 'Zajímavosti',
     description:
       'Eseje o čase, časoměrných systémech, historii hodin a hodinařiny.',
-    icon: '📖',
+    icon: 'fa-book',
   },
   {
     href: '/kronika',
     title: 'Kronika Hodinária',
     description:
       'Vernisáže, přírůstky, restaurování, návštěvy v expozici. Chronologický feed událostí.',
-    icon: '📅',
+    icon: 'fa-calendar-days',
   },
   {
     href: '/casova-osa',
     title: 'Časová osa',
     description:
       'Klíčové milníky historie hodin a hodinařiny — od gnómonu po atomový čas.',
-    icon: '⏳',
+    icon: 'fa-hourglass-half',
   },
   {
     href: '/expozice',
     title: 'Expozice (seznam)',
     description:
       'Hodinářské expozice a slavné orloje — Pražský orloj, Hodinárium Děčín, Mindelheim, Greenwich a další. Bez mapy, jako přehledný seznam.',
-    icon: '📍',
+    icon: 'fa-location-dot',
   },
   {
     href: '/kroky',
     title: 'Hodinové kroky',
     description:
       'Technický rejstřík typů kroku jicího stroje (escapement) — Graham, Amant, vřetenový, lihýřový, Hippův přerušovač.',
-    icon: '⚙',
+    icon: 'fa-gear',
   },
   {
     href: '/slovnik',
     title: 'Hodinářský slovník',
     description:
       'Výkladový a překladový slovník hodinářské terminologie z primárních pramenů. Cs heslo s překlady do němčiny, angličtiny a francouzštiny — opřené o doslovné citace z Šumavského 1851, Špatného 1882, Sušického 1900, Sladkovského 1947.',
-    icon: '📚',
+    icon: 'fa-book-open',
   },
   {
     href: '/tagy',
     title: 'Tagy',
     description:
       'Křížové filtry — období, výrobci, pohon, regulátor, krok jicího stroje, lokace.',
-    icon: '🏷',
+    icon: 'fa-tag',
   },
   {
     href: '/podpora',
     title: 'Podpora',
     description:
       'Jak podpořit činnost spolku — členství, finanční dary, zápůjčky exponátů, sponzoring.',
-    icon: '🤝',
+    icon: 'fa-handshake',
   },
 ];
 ---
@@ -116,7 +119,7 @@ const tiles: Tile[] = [
   <section class="vice-tiles">
     {tiles.map((t) => (
       <a href={t.href} class="vice-tile" rel={t.external ? 'noopener' : undefined} target={t.external ? '_blank' : undefined}>
-        <div class="vice-tile-icon" aria-hidden="true">{t.icon}</div>
+        <div class="vice-tile-icon" aria-hidden="true"><i class={`fa-solid ${t.icon}`}></i></div>
         <h2 class="vice-tile-title">{t.title}</h2>
         <p class="vice-tile-desc">{t.description}</p>
       </a>

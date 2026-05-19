@@ -184,13 +184,13 @@
                 <button data-wayback-url="${escapeHtml(f.wayback.url)}" data-finding-idx="${i}"
                         style="margin-top:.3rem;background:#5b9dd9;color:#1a1a1a;border:0;padding:.25rem .55rem;
                                border-radius:.2rem;font:500 .75rem ui-sans-serif;cursor:pointer">
-                  📋 Wayback URL
+                  <i class="fa-solid fa-clipboard" aria-hidden="true"></i> Wayback URL
                 </button>
               ` : ''}
               <a href="${escapeHtml(f.url)}" target="_blank" rel="noopener"
                  style="display:inline-block;margin-top:.3rem;color:#5b9dd9;font-size:.78rem;text-decoration:none;
                         margin-left:.4rem">
-                ↗ Otevřít
+                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Otevřít
               </a>
             </li>
           `).join('')}
@@ -198,7 +198,7 @@
         ${snapshotAgeWarning()}
         <div style="margin-top:.5rem;padding-top:.4rem;border-top:1px solid #333;text-align:right">
           <a href="${ghIssueUrl(file, findings)}" target="_blank" rel="noopener"
-             style="color:#c9a85d;font-size:.78rem;text-decoration:none">🐙 GH Issue</a>
+             style="color:#c9a85d;font-size:.78rem;text-decoration:none"><i class="fa-brands fa-github" aria-hidden="true"></i> GH Issue</a>
         </div>
       </div>
     `;
@@ -221,8 +221,8 @@
         const url = btn.getAttribute('data-wayback-url');
         try {
           await navigator.clipboard.writeText(url);
-          btn.textContent = '✓ Zkopírováno';
-          setTimeout(() => { btn.textContent = '📋 Wayback URL'; }, 1500);
+          btn.innerHTML = '<i class="fa-solid fa-check" aria-hidden="true"></i> Zkopírováno';
+          setTimeout(() => { btn.innerHTML = '<i class="fa-solid fa-clipboard" aria-hidden="true"></i> Wayback URL'; }, 1500);
         } catch {
           // fallback: select prompt
           window.prompt('Zkopíruj Wayback URL ručně:', url);

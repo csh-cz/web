@@ -49,11 +49,11 @@
       statusEl.textContent = '⋯ AI přemýšlí';
       statusEl.style.color = '#e8d8a8';
     } else if (state === 'error') {
-      statusEl.textContent = '⚠ ' + (msg || 'AI nedostupná');
+      statusEl.innerHTML = '<i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> ' + (msg || 'AI nedostupná');
       statusEl.style.color = '#d97070';
       setTimeout(() => updateStatus('idle'), 4000);
     } else if (state === 'suggesting') {
-      statusEl.textContent = '✎ AI navrhuje (Tab přijme, Esc odmítne)';
+      statusEl.innerHTML = '<i class="fa-solid fa-pen" aria-hidden="true"></i> AI navrhuje (Tab přijme, Esc odmítne)';
       statusEl.style.color = '#9bd97a';
     }
   }

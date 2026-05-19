@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow" />
     <title>Hodinárium — administrace</title>
+
+    <!-- Font Awesome 6 Free — pro CSH editor pomocníky (csh-editor-helpers.js
+         a další). Per memory feedback_ikony_font_awesome: emoji glyphy
+         zakázány, všechny ikony výhradně FA. -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!--
@@ -27,7 +38,7 @@
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
 
     <!-- CSH editor helpers (settings panel + spell-checker + AI našeptávač).
-         Vše opt-in v UI panelu „⚙ Pomocníci" (vlevo dole). Default OFF —
+         Vše opt-in v UI panelu „[gear] Pomocníci" (vlevo dole). Default OFF —
          uživatel zapne, co chce. Settings persistují v localStorage. -->
     <script src="/admin/csh-editor-helpers.js"></script>
     <script src="/admin/csh-spellchecker.js"></script>
@@ -78,12 +89,12 @@
         });
         document.body.appendChild(btn);
 
-        // "📋 Úkoly" tlačítko vedle "← Zpět na web" — odkaz na úkolovník
+        // „Úkoly" tlačítko (fa-clipboard-list) vedle „← Zpět na web" — odkaz na úkolovník
         // (rozpracované články s editorial workflow, /admin/tasks/).
         const tasks = document.createElement('a');
         tasks.id = 'cms-tasks-link';
         tasks.href = '/admin/tasks/';
-        tasks.textContent = '📋 Úkoly';
+        tasks.innerHTML = '<i class="fa-solid fa-clipboard-list" aria-hidden="true"></i> Úkoly';
         tasks.title = 'Úkolovník — rozpracované články, kdo na čem dělá, co čeká recenzi';
         tasks.style.cssText =
           'position:fixed;top:.6rem;left:10rem;z-index:99998;' +

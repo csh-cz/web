@@ -728,16 +728,17 @@ summary::-webkit-details-marker { display: none; }
 }
 .prose-content h2#odkazy + ul li::marker { content: ''; }
 .prose-content h2#odkazy + ul li::before {
-  /* `\FE0E` = Unicode VS15 Variation Selector — force text presentation
-     pro ↗ (U+2197). Bez něj může OS/browser zvolit emoji-color rendering
-     (Apple Color Emoji apod.). VS15 je universal — funguje napříč browsers,
-     na rozdíl od `font-variant-emoji: text` (Chrome 119+, FF 124+). */
-  content: '↗\FE0E';
+  /* Font Awesome fa-arrow-up-right-from-square (\f08e) — předtím emoji ↗
+     s VS15 fallback selektorem; migrace na FA 2026-05-19 per memory
+     feedback_ikony_font_awesome. */
+  content: '\f08e';
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
   position: absolute;
   left: 0.25rem;
   top: 0.6rem;
   color: var(--color-copper);
-  font-size: 0.9em;
+  font-size: 0.85em;
   opacity: 0.75;
 }
 .prose-content h2#odkazy + ul li:last-child {
@@ -1481,15 +1482,17 @@ body[data-editor-mode] .fab-stack {
  * s wiki/mapa rules výše a s OWN_DOMAIN whitelistem.
  */
 a[href^="http"]:not([href*="wikipedia.org/wiki/"]):not([href*="wikimedia.org/wiki/"]):not([href*="mapy.cz"]):not([href*="mapy.com"]):not([href*="google.com/maps"]):not([href*="maps.google"]):not([href*="goo.gl/maps"]):not([href*="openstreetmap.org"]):not([href*="hodinarium.eu"]):not([href*="hodinarium-eu.pages.dev"]):not([href*="orloj.eu"]):not([href*="horologie.cz"]):not([href*="horologie-cz.pages.dev"])::after {
-  /* U+2197 ↗ + U+FE0E text variation selector — vynutí monochromatický
-     text glyph na Safari/iOS kde Apple Color Emoji jinak přebírá. */
-  content: '\00A0↗\FE0E';
-  font-size: 0.8em;
+  /* Font Awesome fa-arrow-up-right-from-square (\f08e) — predtim
+     emoji ↗ + VS15 fallback. Migrace 2026-05-19 per memory
+     feedback_ikony_font_awesome. \00A0 = nbsp; between text and icon. */
+  content: '\00A0\f08e';
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 0.75em;
   color: var(--color-copper);
   opacity: 0.7;
   letter-spacing: 0;
   font-style: normal;
-  font-weight: 400;
   vertical-align: baseline;
 }
 a[href^="http"]:not([href*="wikipedia.org/wiki/"]):not([href*="wikimedia.org/wiki/"]):not([href*="mapy.cz"]):not([href*="mapy.com"]):not([href*="google.com/maps"]):not([href*="maps.google"]):not([href*="goo.gl/maps"]):not([href*="openstreetmap.org"]):not([href*="hodinarium.eu"]):not([href*="hodinarium-eu.pages.dev"]):not([href*="orloj.eu"]):not([href*="horologie.cz"]):not([href*="horologie-cz.pages.dev"]):hover::after {
@@ -1508,12 +1511,15 @@ a[href^="http"]:not([href*="wikipedia.org/wiki/"]):not([href*="wikimedia.org/wik
    kde je W/ⓦ už jako type-bullet vlevo — duplikát vpravo by byl redundantní. */
 a[href*="wikipedia.org/wiki/"]::after,
 a[href*="wikimedia.org/wiki/"]::after {
-  content: '\00A0ⓦ';
+  /* Font Awesome fa-wikipedia-w (\f266, Brands) — předtím emoji ⓦ.
+     Migrace 2026-05-19. */
+  content: '\00A0\f266';
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
   font-size: 0.85em;
   color: var(--color-copper);
   letter-spacing: 0;
   font-style: normal;
-  font-weight: 400;
   vertical-align: baseline;
 }
 a[href*="wikipedia.org/wiki/"]:hover::after,
