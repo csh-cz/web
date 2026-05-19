@@ -9,6 +9,7 @@ tags:
   - 1800s
   - cesko
   - popularizace
+imageCredit: "David Knespl"
 originalUrl: "https://radioeng.cz/poster.htm"
 lastModified: "2026-05-04T00:00:00Z"
 sourceCharset: "utf-8"

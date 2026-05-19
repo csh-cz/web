@@ -6,6 +6,7 @@ tags:
   - synchronni
   - elektricke
   - 1900s
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/laplace.htm"
 lastModified: "Sun, 24 Mar 2024 22:15:00 GMT"
 sourceCharset: "windows-1250"

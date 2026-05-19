@@ -2,6 +2,7 @@
 title: "Vrtuálky - Propeller Clock - vrtulové hodiny - strobo hodiny"
 slug: "propeller-clock"
 category: "projekty"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/propeller_clock.htm"
 lastModified: "Fri, 13 Apr 2018 15:44:00 GMT"
 sourceCharset: "windows-1250"

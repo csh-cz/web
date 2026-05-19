@@ -6,6 +6,7 @@ tldr: Soběslavská sbírka kování, závěsů a licích forem doplněná zvone
 author: Petr Král
 tags:
   - sobeslav
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/zvony_uvod.htm
 lastModified: Sun, 23 Apr 2017 16:06:00 GMT
 sourceCharset: windows-1250

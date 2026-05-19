@@ -2,6 +2,7 @@
 title: "Barokní věžní ministroj"
 slug: "vez-zlate-hory"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/vez_Zlate_Hory.htm"
 lastModified: "Thu, 27 Apr 2017 23:23:00 GMT"
 sourceCharset: "windows-1250"

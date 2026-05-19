@@ -7,6 +7,7 @@ author: Petr Král
 tags:
   - kyvadlo
   - popularizace
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/line_kyvadlo.htm
 lastModified: Fri, 30 Jun 2023 11:40:00 GMT
 sourceCharset: windows-1250

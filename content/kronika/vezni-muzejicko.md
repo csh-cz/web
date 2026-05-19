@@ -5,6 +5,7 @@ date: "2015-12-31"
 rok: 2015
 typ: historie-spolku
 misto: "Soběslav"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium.eu/vezni_muzejicko.htm"
 lastModified: "Sat, 18 Jul 2020 10:44:00 GMT"
 sourceCharset: "windows-1250"

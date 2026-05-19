@@ -5,6 +5,7 @@ category: "konstrukce"
 tags:
   - mechanicke
   - 1800s
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/svarcvaldky_surrerwerk.htm"
 lastModified: "Wed, 09 Oct 2024 10:47:00 GMT"
 sourceCharset: "windows-1250"

@@ -5,6 +5,7 @@ date: "2011-12-31"
 rok: 2011
 typ: sezona
 misto: "Věžní muzejíčko Soběslav"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium.eu/ohlednuti2011.htm"
 lastModified: "Sun, 23 Apr 2017 15:40:00 GMT"
 sourceCharset: "windows-1250"

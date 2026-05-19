@@ -9,6 +9,7 @@ tags:
   - mechanicke
   - 1800s
   - kuriozita
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/maregraf.htm
 lastModified: Wed, 26 Apr 2017 16:26:00 GMT
 sourceCharset: windows-1250

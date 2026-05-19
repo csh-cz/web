@@ -9,6 +9,7 @@ tags:
   - elektromagneticke
   - kyvadlo
   - 1900s
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/bulle.htm
 lastModified: Sun, 09 Feb 2020 16:02:00 GMT
 sourceCharset: windows-1250

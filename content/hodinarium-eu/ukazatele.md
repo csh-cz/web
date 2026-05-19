@@ -2,6 +2,7 @@
 title: "Ukazatele času u \"normálních\" hodin"
 slug: "ukazatele"
 category: "konstrukce"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/ukazatele.htm"
 lastModified: "Wed, 26 Apr 2017 16:00:00 GMT"
 sourceCharset: "windows-1250"

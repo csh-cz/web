@@ -4,6 +4,7 @@ slug: "svarcvaldky"
 category: "konstrukce"
 tags:
   - mechanicke
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/svarcvaldky.htm"
 lastModified: "Wed, 26 Apr 2017 13:42:00 GMT"
 sourceCharset: "windows-1250"

@@ -6,6 +6,7 @@ category: "konstrukce"
 tags:
   - kyvadlo
   - elektricke
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/rizeni_kyvadla.htm"
 lastModified: "Mon, 26 May 2025 10:10:00 GMT"
 sourceCharset: "windows-1250"

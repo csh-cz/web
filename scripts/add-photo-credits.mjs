@@ -86,15 +86,16 @@ function hasYamlField(yaml, key) {
  */
 function decideCredit({ relPath, author, originalUrl }) {
   const isKronika = relPath.startsWith('content/kronika/');
+  const isHorologieCz = relPath.startsWith('content/horologie-cz/');
   const fromHodinarium = (originalUrl ?? '').includes('hodinarium.eu');
   const fromHodinariumEuPages = (originalUrl ?? '').includes('hodinarium-eu.pages.dev');
   const a = (author ?? '').trim();
 
-  if (isKronika) {
+  if (isKronika || isHorologieCz) {
     return {
       credit: 'Archiv ČSH (Český spolek horologický)',
       needsReview: false,
-      reason: 'kronika → ČSH archiv',
+      reason: isKronika ? 'kronika → ČSH archiv' : 'horologie-cz oficiální spolková stránka → ČSH',
     };
   }
   if (a === 'Petr Král') {

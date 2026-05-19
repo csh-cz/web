@@ -2,6 +2,7 @@
 title: "Stroj Elektročas 1959"
 slug: "vez-elektrocas1959"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/vez_elektrocas1959.htm"
 lastModified: "Sun, 23 Apr 2017 15:54:00 GMT"
 sourceCharset: "windows-1250"

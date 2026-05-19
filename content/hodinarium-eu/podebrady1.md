@@ -5,6 +5,7 @@ category: "virtualni-muzeum"
 tags:
   - kvetinove
   - cesko
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/podebrady1.htm"
 lastModified: "Sat, 01 Feb 2025 16:25:00 GMT"
 sourceCharset: "windows-1250"

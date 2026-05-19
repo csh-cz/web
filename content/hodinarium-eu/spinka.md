@@ -2,6 +2,7 @@
 title: "Kinetické artefakty"
 slug: "spinka"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/spinka.htm"
 lastModified: "Wed, 26 Apr 2017 13:56:00 GMT"
 sourceCharset: "windows-1250"

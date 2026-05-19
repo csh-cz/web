@@ -9,6 +9,7 @@ tags:
   - cesko
   - decin
   - historie-spolku
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/decin_koncepce.htm"
 lastModified: "Sun, 15 Nov 2020 19:20:00 GMT"
 sourceCharset: "windows-1250"

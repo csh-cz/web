@@ -3,6 +3,7 @@ title: "Podružné hodiny Mobatime"
 slug: "inv-125-podruzne-hodiny-mobatime"
 category: "sbirka"
 podsekce: "karta"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"

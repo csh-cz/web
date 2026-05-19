@@ -5,6 +5,7 @@ category: "sbirka"
 tags:
   - kuriozita
   - stolni
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/lahvace.htm"
 lastModified: "Wed, 26 Apr 2017 14:02:00 GMT"
 sourceCharset: "windows-1250"

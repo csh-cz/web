@@ -10,6 +10,7 @@ tags:
   - kyvadlo
   - lenzkirch
   - 1800s
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/lenzkirch.htm"
 lastModified: "Wed, 26 Apr 2017 13:54:00 GMT"
 sourceCharset: "windows-1250"

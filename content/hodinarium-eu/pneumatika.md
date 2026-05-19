@@ -6,6 +6,7 @@ tldr: 'Konstrukce Elektronom — žárovkový kompresor minutovými impulsy nata
 author: Petr Král
 tags:
   - pneumaticke
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/pneumatika.htm
 lastModified: Wed, 11 May 2022 09:48:00 GMT
 sourceCharset: windows-1250

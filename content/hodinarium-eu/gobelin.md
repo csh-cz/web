@@ -7,6 +7,7 @@ author: JIndřiška Bumerlová
 tags:
   - vysivane
   - kuriozita
+imageCredit: "JIndřiška Bumerlová"
 originalUrl: https://hodinarium.eu/gobelin.htm
 lastModified: Wed, 26 Apr 2017 14:07:00 GMT
 sourceCharset: windows-1250

@@ -2,6 +2,7 @@
 title: "Pan Rick Stanley"
 slug: "rick-stanley"
 category: "projekty"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/RickStanley.htm"
 lastModified: "Wed, 26 Apr 2017 13:59:00 GMT"
 sourceCharset: "windows-1250"

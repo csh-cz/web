@@ -3,6 +3,7 @@ title: "Podružné Jednotný čas"
 slug: "inv-267-podruzne-jednotny-cas"
 category: "sbirka"
 podsekce: "karta"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"

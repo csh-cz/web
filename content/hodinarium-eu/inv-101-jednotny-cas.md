@@ -3,6 +3,7 @@ title: "Jednotný čas"
 slug: "inv-101-jednotny-cas"
 category: "sbirka"
 podsekce: "karta"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"

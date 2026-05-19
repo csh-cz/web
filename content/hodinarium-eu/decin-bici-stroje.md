@@ -2,6 +2,7 @@
 title: "Neobvyklý bicí elektrický stroj BRILLIE"
 slug: "decin-bici-stroje"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/decin_bici_stroje.htm"
 lastModified: "Sun, 30 Apr 2017 15:09:00 GMT"
 sourceCharset: "windows-1250"

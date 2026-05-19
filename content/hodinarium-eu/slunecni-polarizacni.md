@@ -2,6 +2,7 @@
 title: "Polarizační sluneční hodiny"
 slug: "slunecni-polarizacni"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/slunecni_polarizacni.htm"
 lastModified: "Wed, 26 Apr 2017 16:22:00 GMT"
 sourceCharset: "windows-1250"

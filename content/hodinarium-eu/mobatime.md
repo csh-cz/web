@@ -10,6 +10,7 @@ tags:
   - 2000s
   - mobatime
   - akvizice
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/mobatime.htm"
 lastModified: "Wed, 07 Jul 2021 09:15:00 GMT"
 sourceCharset: "windows-1250"

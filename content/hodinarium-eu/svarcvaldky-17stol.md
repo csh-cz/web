@@ -5,6 +5,7 @@ category: "konstrukce"
 tags:
   - mechanicke
   - 1700s
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/svarcvaldky_17stol.htm"
 lastModified: "Wed, 26 Apr 2017 21:04:00 GMT"
 sourceCharset: "windows-1250"

@@ -2,6 +2,7 @@
 title: "Sluneční digitálky"
 slug: "slunecni-digi"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/slunecni_digi.htm"
 lastModified: "Wed, 26 Apr 2017 16:23:00 GMT"
 sourceCharset: "windows-1250"

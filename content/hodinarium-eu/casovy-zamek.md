@@ -8,6 +8,7 @@ tags:
   - mechanicke
   - kuriozita
   - 1800s
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/casovy_zamek.htm
 lastModified: Sun, 23 Apr 2017 09:11:00 GMT
 sourceCharset: windows-1250

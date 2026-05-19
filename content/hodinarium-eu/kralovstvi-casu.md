@@ -4,12 +4,17 @@ slug: "kralovstvi-casu"
 category: "muzea"
 tags:
   - cesko
+imageCredit: "autor neznámý — Archiv ČSH"
 originalUrl: "https://kralovstvicasu.cz/"
 lastModified: "Mon, 28 Apr 2026 09:00:00 GMT"
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-28T09:00:00.000Z"
 manualEdit: true
 tldr: 'Soukromá hodinářská sbírka pana Kubelky v secesní vile z roku 1907 obsahuje přes 1200 exponátů — věžní stroje, holubářky, kapesní i náramkové hodinky. Součástí je dětská herna s dílničkou pro malé hodináře a kavárna.'
+editorNotes:
+  - title: "Foto kredity — ověřit autora"
+    noteKey: "photo-credits-needs-review"
+    text: "Default 'autor neznámý — Archiv ČSH' aplikován automatem. Ověřit původ fotografií a doplnit konkrétního autora pokud je znám."
 ---
 ![Detail části expozice — věžní a stojací hodiny](/img/expozice/kralovstvi-casu/02-expozice.jpg)
 

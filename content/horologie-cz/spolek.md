@@ -2,6 +2,7 @@
 title: "Český spolek horologický z.s. IČO: 26573008"
 slug: "spolek"
 category: "spolek"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium.eu/spolek.htm"
 lastModified: "Thu, 23 Apr 2026 09:44:00 GMT"
 sourceCharset: "windows-1250"

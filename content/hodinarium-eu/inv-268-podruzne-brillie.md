@@ -3,6 +3,7 @@ title: "Podružné Brillié"
 slug: "inv-268-podruzne-brillie"
 category: "sbirka"
 podsekce: "karta"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"

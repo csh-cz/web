@@ -2,6 +2,7 @@
 title: "Síťovky"
 slug: "sitovky"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/sitovky.htm"
 lastModified: "Wed, 26 Apr 2017 20:53:00 GMT"
 sourceCharset: "windows-1250"

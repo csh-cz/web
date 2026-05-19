@@ -6,6 +6,7 @@ tags:
   - vodni
   - cesko
   - kuriozita
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/vlachynsky.htm"
 lastModified: "Wed, 26 Apr 2017 16:24:00 GMT"
 sourceCharset: "windows-1250"

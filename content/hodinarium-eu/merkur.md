@@ -5,6 +5,7 @@ category: "zajimavosti"
 tags:
   - kuriozita
   - diy
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/merkur.htm"
 lastModified: "Sun, 03 Nov 2019 11:30:00 GMT"
 sourceCharset: "windows-1250"

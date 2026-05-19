@@ -8,6 +8,7 @@ tags:
   - rubidium
   - diy
 author: "Petr Král"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/arduino_PPS.htm"
 lastModified: "Sun, 29 Dec 2024 22:31:00 GMT"
 sourceCharset: "windows-1250"

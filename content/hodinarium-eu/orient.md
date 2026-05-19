@@ -7,6 +7,7 @@ tags:
   - naramkove
   - mechanicke
   - svet
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/orient.htm"
 lastModified: "Wed, 24 Feb 2021 13:07:00 GMT"
 sourceCharset: "windows-1250"

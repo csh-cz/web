@@ -6,6 +6,7 @@ tags:
   - vezni
   - evropa
   - cesko
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/vezni_muzejicko_evropa.htm"
 lastModified: "Fri, 22 Nov 2019 23:29:00 GMT"
 sourceCharset: "windows-1250"

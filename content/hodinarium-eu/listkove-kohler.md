@@ -8,6 +8,7 @@ tags:
   - setrvacka
   - krok-kolicek
   - 1900s
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/listkove_kohler.htm"
 lastModified: "Wed, 26 Apr 2017 14:11:00 GMT"
 sourceCharset: "windows-1250"

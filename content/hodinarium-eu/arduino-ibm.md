@@ -6,6 +6,7 @@ tags:
   - jednotny-cas
   - ntp-rizeno
   - diy
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/Arduino_IBM.htm"
 lastModified: "Sun, 05 Oct 2025 10:30:00 GMT"
 sourceCharset: "windows-1250"

@@ -5,6 +5,7 @@ date: "2012-06-01"
 rok: 2012
 typ: tematicka-vystava
 misto: "Věžní muzejíčko Soběslav"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium.eu/steampunk.htm"
 lastModified: "Sun, 23 Apr 2017 15:32:00 GMT"
 sourceCharset: "windows-1250"
