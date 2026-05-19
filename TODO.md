@@ -725,24 +725,25 @@ Triáž 10 open issues v `csh-cz/web` z hlášení editorů od 2026-04-28 do
 2026-05-13. Stav po analýze (commitech z 2026-05-13–2026-05-18) +
 verifikace souborového stavu.
 
-### Pravděpodobně už vyřízené (zavřít po manuální verifikaci na live)
+### Hotové (verifikováno na live 2026-05-19)
 
-- [ ] **#33** „pole hodinář v soupisu — neuvádět restaurátora, sjednotit
-      jména, 'neznámý' bez vysvětlení" — pravděpodobně vyřízeno řadou
-      commitů 2026-05-17/18:
+- [x] **#33** „pole hodinář v soupisu — neuvádět restaurátora, sjednotit
+      jména, 'neznámý' bez vysvětlení" — vyřízeno řadou commitů
+      2026-05-17/18:
       - `46b520d8` restaurátor extrahován do samostatného sloupce + slug
       - `ad89c932` hodinář pole čisté jméno
       - `812bf7ca` hodinarText sjednocen na „neznámý" (CES standard)
       - `7c086344` display „Příjmení, Jméno"
 
-      **Verify na live:** otevřít https://hodinarium-eu.pages.dev/soupis-veznich-hodin/
-      a zkontrolovat sloupec Hodinář. Pak `gh issue close 33 -R csh-cz/web`.
+      Verifikace 2026-05-19 (live audit 430 řádků `data-hodinar`):
+      Top hodnoty jsou výrobci (Janata 80×, Prokeš 53×, Krečmer 49×),
+      0× restaurátorských stop (Skála, „restaurát"), fallback „neznámý"
+      136×. Issue **#33 už CLOSED** na GitHubu.
 
-- [ ] **#32 (část 2)** „v štítku stavu nebuď 'stav neznámý' ale jen 'neznámý'"
-      — pravděpodobně vyřízeno `db5f4636` (text změněn na „neověřeno").
-      **Verify:** chip v tabulce už říká „neověřeno" místo „stav neznámý"?
-      Pak `gh issue close 32 -R csh-cz/web` s comment že část 1 (reload
-      button) je nově sledována jako #32a níže.
+- [x] **#32 (část 2)** „v štítku stavu nebuď 'stav neznámý' ale jen
+      'neznámý'" — vyřízeno `db5f4636` (text změněn na „neověřeno").
+      Verifikace 2026-05-19: live HTML obsahuje „neověřeno" 115×,
+      „stav neznámý" 0×. Issue **#32 už CLOSED** na GitHubu.
 
 ### Vyřízené v batchi 2026-05-19 (čeká na push + close)
 
@@ -852,8 +853,11 @@ Claude provede odblokování indexace (viz A.9).
       krok přezmenový etymologie, cinkař obor 60. let, rejdovka/pisárka
       OCR, vypouštěč, stupník vs stupní kolečko, kotvička dvojramenná
       pravopis, remontoirní vs remontoár, Hippův přerušovač atribuce.
-- [ ] **SL10 Slovník v hlavní navigaci** — zatím jen z `/vice`. Po
-      dosažení ~50 hesel rozhodnout přesun do hlavního navu (David).
+- [x] **SL10 Slovník v hlavní navigaci** — hotovo 2026-05-19 (commit
+      `7ab2de30`). Odkaz „Slovník" doplněn v Base.astro do desktop top
+      nav, mobile hamburger menu (sekce „Hodinárium") i footer
+      sekce „Muzeum". Pozice po „Soupis věžních hodin" před „Mapa
+      horologie" — řadí Slovník mezi referenční encyklopedické sekce.
 - [ ] **INV1** — `inv-251` duplikát s jiným záznamem (rozhodnout který
       smazat).
 - [ ] **INV2** — `inv-65/67/68` discrepancy: Petřín × Lissner × Skála ×
