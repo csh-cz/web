@@ -144,7 +144,12 @@ const total = all.length;
                 {en && <span class="lang-tag" title="angličtina"><span class="lang-code">en</span> {en}</span>}
                 {fr && <span class="lang-tag" title="francouzština"><span class="lang-code">fr</span> {fr}</span>}
               </p>
-              <p class="slovnik-definice" set:html={tinyMarkdown(definice).replace(/^<p>|<\/p>$/g, '')}></p>
+              {/* `stripLinks: true` — card je už `<a>` wrapper, takže
+                  nested `<a>` (z markdown `[text](url)` v definici) by HTML
+                  parser auto-roztrhl a vyrobil duplikátní karty (2026-05-19
+                  bug). V náhledu stačí text bez linku — funkční linky uvidí
+                  uživatel po kliknutí na plné heslo. */}
+              <p class="slovnik-definice" set:html={tinyMarkdown(definice, { stripLinks: true }).replace(/^<p>|<\/p>$/g, '')}></p>
             </a>
           );
         })}

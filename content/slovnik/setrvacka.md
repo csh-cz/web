@@ -10,8 +10,8 @@ prekladyDe:
     genus: f
     zdroj: "Špatný 1882: Unruhe → nepokoj, váhadlo"
 prekladyEn:
-  - term: "**balance"
-  - term: "balance wheel**"
+  - term: balance
+  - term: balance wheel
 prekladyFr:
   - term: balancier
     genus: m
