@@ -68830,5 +68830,28 @@
         ]
       ]
     }
+  },
+  {
+    "id": "matzenauerCiziSlovaVe1870",
+    "type": "book",
+    "abstract": "Etymologický slovník cizích slov ve slovanských jazycích. Pro hodinářskou terminologii zásadní heslo *Raflje, rafika*: vysvětluje původ slova z řec.-lat. *grafion — stylus* (rydlo, písátko), kde se v středořeckém *rafis* na místě *grafis — penicillus* počáteční gamma odráží (vypouští).",
+    "citation-key": "matzenauerCiziSlovaVe1870",
+    "language": "cs",
+    "publisher": "Matice moravská",
+    "publisher-place": "Brno",
+    "title": "Cizí slova ve slovanských řečech",
+    "author": [
+      {
+        "family": "Matzenauer",
+        "given": "Antonín"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1870"
+        ]
+      ]
+    }
   }
 ]
