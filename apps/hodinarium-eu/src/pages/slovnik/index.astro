@@ -15,7 +15,12 @@ import { tinyMarkdown } from '../../utils/tinyMarkdown';
  * Sync: pnpm slovnik:build (= node scripts/build-slovnik.mjs)
  */
 
-const all = await getCollection('slovnik');
+// Filtr redirect-stub hesel: ta jsou aliasy/synonyma jiného hesla
+// (např. `vlasova-pruzinka → vlasek`, `rafije → ruka-orloje`). V indexu
+// by tvořila duplicitní karty vedle hlavního hesla. Search blob hlavního
+// hesla obsahuje varianty (data-search), takže uživatel napsání synonyma
+// stejně najde hlavní heslo.
+const all = (await getCollection('slovnik')).filter((e) => !e.data.redirectTo);
 
 type Kategorie = 'mechanika' | 'bici' | 'astronomicke' | 'materialy' | 'hodinky' | 'profese' | 'jine';
 
