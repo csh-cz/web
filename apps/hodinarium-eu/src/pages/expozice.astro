@@ -69,7 +69,7 @@ const zahraniciByZeme = groupByCountry(expoZahranici);
       {expoCZ.map((l) => (
         <article class={`expo-card${l.expozice ? ' expo-card-featured' : ''}`}>
           <header>
-            {l.expozice && <span class="expo-tag">★ Expozice</span>}
+            {l.expozice && <span class="expo-tag"><i class="fa-solid fa-star" aria-hidden="true"></i> Expozice</span>}
             {!l.expozice && l.typ === 'zajimavost' && <span class="expo-tag expo-tag-zajimavost">Zajímavost</span>}
             {!l.expozice && l.typ === 'expozice' && <span class="expo-tag expo-tag-orloj">Orloj</span>}
             <h3>{l.jmeno}</h3>

@@ -140,7 +140,7 @@
       'overflow:hidden;display:none;flex-direction:column';
     m.innerHTML = `
       <h3 style="margin:0 0 .6rem;font-size:1rem;color:#c9a85d;font-weight:500">
-        🔗 Vložit odkaz
+        <i class="fa-solid fa-link" aria-hidden="true"></i> Vložit odkaz
       </h3>
       <input type="search" id="csh-link-q" placeholder="Hledej…"
              style="width:100%;padding:.55rem .8rem;background:#0f0f0f;color:#e8d8a8;
@@ -154,7 +154,7 @@
       </div>
       <div style="margin-top:.6rem;padding-top:.6rem;border-top:1px solid #444">
         <label style="display:block;font-size:.78rem;opacity:.7;margin-bottom:.2rem">
-          🔗 Nebo vlastní URL:
+          <i class="fa-solid fa-link" aria-hidden="true"></i> Nebo vlastní URL:
         </label>
         <div style="display:flex;gap:.4rem">
           <input type="url" id="csh-link-custom" placeholder="https://…"
@@ -241,6 +241,14 @@
 
   // ── Search orchestration ────────────────────────────────────────
 
+  /**
+   * @param {HTMLElement} parent
+   * @param {string} title
+   * @param {Array} results
+   * @param {string} icon — Font Awesome class string (per memory
+   *   feedback_ikony_font_awesome). Buď „fa-solid fa-XXX" nebo
+   *   „fa-brands fa-XXX". Emoji glyphy zakázány.
+   */
   function renderSection(parent, title, results, icon) {
     if (results.length === 0) return;
     const sec = document.createElement('div');
@@ -249,7 +257,9 @@
     head.style.cssText =
       'font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;' +
       'color:#c9a85d;margin:.4rem .4rem .25rem;opacity:.85';
-    head.textContent = `${icon} ${title}`;
+    // innerHTML místo textContent kvůli <i> tagu — title je hardcoded
+    // konstanta z volajícího (renderSection callsite), žádný XSS risk.
+    head.innerHTML = `<i class="${icon}" aria-hidden="true"></i> ${title}`;
     sec.appendChild(head);
     for (const r of results) {
       const item = document.createElement('div');
@@ -305,10 +315,10 @@
 
     function rerender() {
       const container = document.createElement('div');
-      renderSection(container, 'Hodinárium', accumulated.internal, '📍');
-      renderSection(container, 'Wikipedia (cs)', accumulated.wiki_cs, 'ⓦ');
-      renderSection(container, 'Wikidata', accumulated.wikidata, '🏛');
-      renderSection(container, 'Památkový katalog NPÚ', accumulated.npu, '🏛');
+      renderSection(container, 'Hodinárium', accumulated.internal, 'fa-solid fa-location-dot');
+      renderSection(container, 'Wikipedia (cs)', accumulated.wiki_cs, 'fa-brands fa-wikipedia-w');
+      renderSection(container, 'Wikidata', accumulated.wikidata, 'fa-solid fa-landmark');
+      renderSection(container, 'Památkový katalog NPÚ', accumulated.npu, 'fa-solid fa-landmark');
       if (container.children.length === 0 && !firstRender) {
         container.innerHTML =
           '<div style="padding:.5rem .8rem;opacity:.6;font-size:.85rem">' +

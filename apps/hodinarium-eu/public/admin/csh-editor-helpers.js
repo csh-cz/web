@@ -84,7 +84,7 @@
     btn.type = 'button';
     btn.title = 'Editor — pokročilé funkce';
     btn.setAttribute('aria-label', 'Otevřít nastavení editoru');
-    btn.textContent = '⚙ Pomocníci';
+    btn.innerHTML = '<i class="fa-solid fa-gear" aria-hidden="true"></i> Pomocníci';
     btn.style.cssText =
       'position:fixed;bottom:.6rem;left:.6rem;z-index:99998;' +
       'background:#1a1a1a;color:#e8d8a8;text-decoration:none;' +
@@ -126,24 +126,24 @@
       // Spell-check
       const mode = s.spellcheckMode || (s.spellcheck ? 'csh' : 'native');
       if (mode === 'csh') {
-        parts.push('<span style="color:#c9a85d">📖 CSH</span>');
+        parts.push('<span style="color:#c9a85d"><i class="fa-solid fa-book" aria-hidden="true"></i> CSH</span>');
       } else if (mode === 'native') {
-        parts.push('<span style="color:#888">📖 native</span>');
+        parts.push('<span style="color:#888"><i class="fa-solid fa-book" aria-hidden="true"></i> native</span>');
       } else {
-        parts.push('<span style="color:#666;text-decoration:line-through">📖</span>');
+        parts.push('<span style="color:#666;text-decoration:line-through"><i class="fa-solid fa-book" aria-hidden="true"></i></span>');
       }
       // AI
       parts.push(s.ai
-        ? '<span style="color:#9bd97a">🤖 AI</span>'
-        : '<span style="color:#666;text-decoration:line-through">🤖</span>');
+        ? '<span style="color:#9bd97a"><i class="fa-solid fa-robot" aria-hidden="true"></i> AI</span>'
+        : '<span style="color:#666;text-decoration:line-through"><i class="fa-solid fa-robot" aria-hidden="true"></i></span>');
       // Link picker
       parts.push(s.linkPicker
-        ? '<span style="color:#5b9dd9">🔗 ⌘K</span>'
-        : '<span style="color:#666;text-decoration:line-through">🔗</span>');
+        ? '<span style="color:#5b9dd9"><i class="fa-solid fa-link" aria-hidden="true"></i> ⌘K</span>'
+        : '<span style="color:#666;text-decoration:line-through"><i class="fa-solid fa-link" aria-hidden="true"></i></span>');
       // Citation picker
       parts.push(s.citationPicker !== false
-        ? '<span style="color:#c9a85d">📚 ⌘⇧R</span>'
-        : '<span style="color:#666;text-decoration:line-through">📚</span>');
+        ? '<span style="color:#c9a85d"><i class="fa-solid fa-book-open" aria-hidden="true"></i> ⌘⇧R</span>'
+        : '<span style="color:#666;text-decoration:line-through"><i class="fa-solid fa-book-open" aria-hidden="true"></i></span>');
       status.innerHTML = parts.join('<span style="opacity:.4">·</span>');
     }
     renderStatus(settings);
@@ -356,7 +356,7 @@
       </p>
       <div style="overflow-y:auto;flex:1;padding-right:.4rem">
 
-      <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem">📋 Úkolovník (editorial workflow)</h3>
+      <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem"><i class="fa-solid fa-clipboard-list" aria-hidden="true"></i> Úkolovník (editorial workflow)</h3>
       <p style="margin:.2rem 0 .5rem">
         Stránka <a href="/admin/tasks/" style="color:#c9a85d">/admin/tasks/</a>
         ukazuje rozpracované články — kdo na čem pracuje, co čeká recenzi,
@@ -389,7 +389,7 @@
         — neready článek je 404 pro veřejnost (jen editoři).
       </p>
 
-      <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem">📖 Spell-check — 3 režimy</h3>
+      <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem"><i class="fa-solid fa-book" aria-hidden="true"></i> Spell-check — 3 režimy</h3>
       <table style="margin:.4rem 0 .8rem;border-collapse:collapse;width:100%;font-size:.85rem">
         <tr style="border-bottom:1px solid #333">
           <td style="padding:.3rem .5rem;width:8.5rem;vertical-align:top"><strong>Browser nativní (cs)</strong><br>
@@ -483,7 +483,7 @@
             pak znovu zapnout.</li>
       </ul>
 
-      <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem">🤖 AI našeptávač</h3>
+      <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem"><i class="fa-solid fa-robot" aria-hidden="true"></i> AI našeptávač</h3>
       <p style="margin:.2rem 0 .5rem">
         Po pauze ~1.2 s v psaní AI navrhne pokračování věty — jako
         <em>ghost-text</em> (lehce průhledný zelený text za kurzorem).
@@ -504,11 +504,11 @@
         vpravo dole (žlutý = loading, zelený = navrhuje, červený = error).
       </p>
       <p style="margin:.2rem 0 .8rem;font-size:.85rem;opacity:.7">
-        ⚠ Privacy: text odchází na Cloudflare při každém požadavku. Pokud
+        <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Privacy: text odchází na Cloudflare při každém požadavku. Pokud
         je obsah citlivý, vypni AI v Pomocníci.
       </p>
 
-      <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem">🔗 Vkládání odkazů</h3>
+      <h3 style="color:#c9a85d;font-size:1rem;margin:.8rem 0 .3rem"><i class="fa-solid fa-link" aria-hidden="true"></i> Vkládání odkazů</h3>
       <p style="margin:.2rem 0 .5rem">
         Modal pro snadné vkládání odkazů z 5 zdrojů:
       </p>
@@ -527,11 +527,11 @@
           <td>zavře modal</td></tr>
       </table>
       <ul style="margin:.2rem 0 .8rem;padding-left:1.2rem">
-        <li><strong>📍 Hodinárium</strong> — medailony, slovník, soupis, články</li>
-        <li><strong>ⓦ Wikipedia (cs)</strong> — heslo z české Wikipedie</li>
-        <li><strong>🏛 Wikidata</strong> — entity Q-id s cs label</li>
-        <li><strong>🏛 Památkový katalog NPÚ</strong> — kulturní památky</li>
-        <li><strong>🔗 Vlastní URL</strong> — manuální vstup (https://…)</li>
+        <li><strong><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Hodinárium</strong> — medailony, slovník, soupis, články</li>
+        <li><strong><i class="fa-brands fa-wikipedia-w" aria-hidden="true"></i> Wikipedia (cs)</strong> — heslo z české Wikipedie</li>
+        <li><strong><i class="fa-solid fa-landmark" aria-hidden="true"></i> Wikidata</strong> — entity Q-id s cs label</li>
+        <li><strong><i class="fa-solid fa-landmark" aria-hidden="true"></i> Památkový katalog NPÚ</strong> — kulturní památky</li>
+        <li><strong><i class="fa-solid fa-link" aria-hidden="true"></i> Vlastní URL</strong> — manuální vstup (https://…)</li>
       </ul>
       <p style="margin:.2rem 0 .8rem;font-size:.85rem;opacity:.7">
         Tip: označ slovo v textu před stiskem ⌘K → search input bude
@@ -539,7 +539,7 @@
         markdown linkem <code>[text](url)</code>.
       </p>
 
-      <h3 style="color:#c9a85d;font-size:1rem;margin:1rem 0 .3rem">🌐 Kompatibilita prohlížečů</h3>
+      <h3 style="color:#c9a85d;font-size:1rem;margin:1rem 0 .3rem"><i class="fa-solid fa-globe" aria-hidden="true"></i> Kompatibilita prohlížečů</h3>
       <table style="margin:.4rem 0 .8rem;border-collapse:collapse;width:100%;font-size:.85rem">
         <thead>
           <tr style="border-bottom:1px solid #c9a85d">
@@ -560,7 +560,7 @@
             <td style="padding:.2rem .5rem">✅ plně (DevTools v Settings → Advanced)</td></tr>
           <tr><td style="padding:.2rem .5rem">Mobile Safari / Chrome</td>
             <td style="padding:.2rem .5rem">—</td>
-            <td style="padding:.2rem .5rem">⚠ Sveltia není mobile-friendly</td></tr>
+            <td style="padding:.2rem .5rem"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Sveltia není mobile-friendly</td></tr>
         </tbody>
       </table>
       <p style="margin:.2rem 0 .5rem;font-size:.85rem;opacity:.85">
@@ -575,7 +575,7 @@
         Chrome / Firefox.
       </p>
 
-      <h3 style="color:#c9a85d;font-size:1rem;margin:1rem 0 .3rem">⚙ Reset / odstranění problémů</h3>
+      <h3 style="color:#c9a85d;font-size:1rem;margin:1rem 0 .3rem"><i class="fa-solid fa-gear" aria-hidden="true"></i> Reset / odstranění problémů</h3>
       <p style="margin:.2rem 0 .5rem;font-size:.85rem">
         Pokud něco nefunguje, otevři DevTools console (F12 / Cmd+Opt+C) —
         moduly logují své stavy:

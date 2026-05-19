@@ -42,14 +42,14 @@ const SALY = [
     nazev: 'Sál Věžní',
     popis:
       'Velké věžní stroje od 17. do 20. století — od dřevěných (Kli, Budislav) po litinové. Soustrojí Prokeš 1868 ze Soběslavi, stroj z Děčína (Mellner), vypouštěny stroj. Pro fascinováné technikou.',
-    ikona: '🗼',
+    ikona: 'fa-solid fa-tower-observation',
     odhadovanyCas: '30–60 min',
   },
   {
     nazev: 'Sál Elektro',
     popis:
       'Elektrické a elektronické hodiny od 1900 dál — síťovky, jednotný čas, NTP server, Lantime. Včetně vlastních DIY konstrukcí spolku (ESP32, Arduino projekty).',
-    ikona: '⚡',
+    ikona: 'fa-solid fa-bolt',
     odhadovanyCas: '20–40 min',
   },
 ];
@@ -163,7 +163,7 @@ const placeJsonLd = {
       {SALY.map((s) => (
         <article class="navsteva-sal">
           <header>
-            <span class="navsteva-sal-ikona" aria-hidden="true">{s.ikona}</span>
+            <i class={`navsteva-sal-ikona ${s.ikona}`} aria-hidden="true"></i>
             <h3>{s.nazev}</h3>
             <p class="navsteva-sal-cas">{s.odhadovanyCas}</p>
           </header>

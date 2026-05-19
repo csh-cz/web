@@ -65,7 +65,7 @@ const drafts = all
                   <strong>{d.title}</strong>
                   <span class="meta">/{d.category}{d.podsekce === 'karta' ? '/karta' : ''}/{d.slug}</span>
                 </a>
-                <a href={d.cmsEditUrl} class="cms-link" title="Otevřít v CMS">✎</a>
+                <a href={d.cmsEditUrl} class="cms-link" title="Otevřít v CMS" aria-label="Otevřít v CMS"><i class="fa-solid fa-pen" aria-hidden="true"></i></a>
               </li>
             ))}
           </ul>

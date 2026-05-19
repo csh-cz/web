@@ -89,15 +89,17 @@
   }
 
   function typeLabel(type) {
+    // FA icon + label. Per memory feedback_ikony_font_awesome — emoji zakázány.
+    const fa = (icon, label) => `<i class="fa-solid ${icon}" aria-hidden="true"></i> ${label}`;
     return ({
-      'article-journal': '📰 článek',
-      'book': '📖 kniha',
-      'chapter': '📑 kapitola',
-      'thesis': '🎓 dis.',
-      'report': '📋 zpráva',
-      'manuscript': '🖋 rukopis',
-      'webpage': '🌐 web',
-      'paper-conference': '📊 konf.',
+      'article-journal': fa('fa-newspaper', 'článek'),
+      'book': fa('fa-book', 'kniha'),
+      'chapter': fa('fa-file-lines', 'kapitola'),
+      'thesis': fa('fa-graduation-cap', 'dis.'),
+      'report': fa('fa-clipboard-list', 'zpráva'),
+      'manuscript': fa('fa-pen-nib', 'rukopis'),
+      'webpage': fa('fa-globe', 'web'),
+      'paper-conference': fa('fa-chart-column', 'konf.'),
     })[type] || `· ${type}`;
   }
 
@@ -127,7 +129,7 @@
                   box-shadow:0 16px 48px rgba(0,0,0,.7)">
         <div style="padding:.85rem 1rem .35rem;border-bottom:1px solid #3a3a3a">
           <div style="display:flex;align-items:center;gap:.6rem">
-            <span aria-hidden="true" style="font-size:1.05rem">📚</span>
+            <i class="fa-solid fa-book-open" aria-hidden="true" style="font-size:1.05rem"></i>
             <input id="csh-cite-q" type="search" autocomplete="off" spellcheck="false"
                    placeholder="Hledej citaci (Bureš 1965, věžní hodiny, Sušický)…"
                    style="flex:1;background:transparent;border:none;outline:none;

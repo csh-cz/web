@@ -127,17 +127,17 @@
     if (isCurrentEditor) {
       bg = 'color-mix(in srgb, #5b9d5b 12%, transparent)';
       borderColor = '#5b9d5b';
-      label = '✓ Vaše rozpracování';
+      label = '<i class="fa-solid fa-check" aria-hidden="true"></i> Vaše rozpracování';
       body = `Status: <strong>${status}</strong> · Zabráno ${relativeTime(lockedAt)} (vy).`;
     } else if (isStale) {
       bg = 'color-mix(in srgb, #c9a85d 12%, transparent)';
       borderColor = '#c9a85d';
-      label = '⚠ Starý zámek';
+      label = '<i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Starý zámek';
       body = `Status: <strong>${status}</strong> · Naposledy zabral <strong>${lockedBy}</strong> ${relativeTime(lockedAt)}. Pravděpodobně už nepracuje — můžete převzít přes úkolovník.`;
     } else {
       bg = 'color-mix(in srgb, #d97070 14%, transparent)';
       borderColor = '#d97070';
-      label = '🔒 Někdo na článku pracuje';
+      label = '<i class="fa-solid fa-lock" aria-hidden="true"></i> Někdo na článku pracuje';
       body = `Status: <strong>${status}</strong> · Zabral <strong>${lockedBy}</strong> ${relativeTime(lockedAt)}. Domluvte se před úpravou — paralelní edity přepíší jeho rozpracování.`;
     }
 

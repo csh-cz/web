@@ -266,15 +266,15 @@ summary::-webkit-details-marker { display: none; }
  * Sjednoceno s hodinarium-eu — stejná pravidla napříč CSH webem.
  */
 a[href^="http"]:not([href*="wikipedia.org/wiki/"]):not([href*="wikimedia.org/wiki/"]):not([href*="mapy.cz"]):not([href*="mapy.com"]):not([href*="google.com/maps"]):not([href*="maps.google"]):not([href*="goo.gl/maps"]):not([href*="openstreetmap.org"]):not([href*="hodinarium.eu"]):not([href*="hodinarium-eu.pages.dev"]):not([href*="orloj.eu"]):not([href*="horologie.cz"]):not([href*="horologie-cz.pages.dev"])::after {
-  /* U+2197 ↗ + U+FE0E text variation selector — vynutí monochromatický
-     text glyph na Safari/iOS kde Apple Color Emoji jinak přebírá. */
-  content: '\00A0↗\FE0E';
-  font-size: 0.8em;
+  /* Font Awesome fa-arrow-up-right-from-square (\f08e). Migrace 2026-05-19. */
+  content: '\00A0\f08e';
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 0.75em;
   color: var(--color-copper);
   opacity: 0.7;
   letter-spacing: 0;
   font-style: normal;
-  font-weight: 400;
   vertical-align: baseline;
 }
 a[href^="http"]:not([href*="wikipedia.org/wiki/"]):not([href*="wikimedia.org/wiki/"]):not([href*="mapy.cz"]):not([href*="mapy.com"]):not([href*="google.com/maps"]):not([href*="maps.google"]):not([href*="goo.gl/maps"]):not([href*="openstreetmap.org"]):not([href*="hodinarium.eu"]):not([href*="hodinarium-eu.pages.dev"]):not([href*="orloj.eu"]):not([href*="horologie.cz"]):not([href*="horologie-cz.pages.dev"]):hover::after {
@@ -282,15 +282,16 @@ a[href^="http"]:not([href*="wikipedia.org/wiki/"]):not([href*="wikimedia.org/wik
   opacity: 1;
 }
 
-/* Wikipedia & Wikimedia odkazy — ⓦ ikonka. */
+/* Wikipedia & Wikimedia odkazy — fa-wikipedia-w. Migrace 2026-05-19. */
 a[href*="wikipedia.org/wiki/"]::after,
 a[href*="wikimedia.org/wiki/"]::after {
-  content: '\00A0ⓦ';
+  content: '\00A0\f266';
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
   font-size: 0.85em;
   color: var(--color-copper);
   letter-spacing: 0;
   font-style: normal;
-  font-weight: 400;
   vertical-align: baseline;
 }
 a[href*="wikipedia.org/wiki/"]:hover::after,
