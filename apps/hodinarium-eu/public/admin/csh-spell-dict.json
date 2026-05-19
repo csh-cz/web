@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-19T08:24:17.258Z",
+  "generatedAt": "2026-05-19T15:22:43.647Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
-    "slovnik": 153,
+    "slovnik": 152,
     "hodinari": 165,
     "hodinariTs": 165,
     "soupis": 430
   },
-  "count": 1674,
+  "count": 1673,
   "words": [
     "Abraham",
     "Accutron",
@@ -1181,7 +1181,6 @@
     "Radošov",
     "Radouň",
     "Radoušov",
-    "rafije",
     "ráje",
     "Ráječek",
     "Rakousko",
