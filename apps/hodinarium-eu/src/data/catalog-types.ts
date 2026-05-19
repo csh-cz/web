@@ -20,6 +20,11 @@ export interface CatalogEntry {
   title: string;
   /** Kategorie — sbirka / konstrukce / projekty / virtualni-muzeum / muzea / zajimavosti. */
   category: string;
+  /** Podsekce u sbírkových evidenčních karet — `'karta'`. URL je pak
+      `/sbirka/karta/<slug>` (vlastní router `pages/sbirka/karta/[slug].astro`),
+      ne `/sbirka/<slug>`. Pro běžné články undefined. Viz `clanekHref()`
+      v `url-helpers.ts`. */
+  podsekce?: 'karta';
   /** Cesta k thumbnail obrázku, nebo null pokud chybí. */
   thumbnail: string | null;
   /** Krátký výpis (auto z body — typicky první ~200 znaků). */
