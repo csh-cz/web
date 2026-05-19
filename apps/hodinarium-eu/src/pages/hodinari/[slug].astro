@@ -8,6 +8,7 @@ import { hodinari, hasType } from '../../data/hodinari';
 import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
+import { formatAuthor } from '../../utils/formatAuthor';
 import { stavLabel } from '../../data/labels';
 import { extractWikiTitle } from '../../utils/referenceTypes';
 import { formatCite, getRef } from '../../utils/cite';
@@ -394,8 +395,31 @@ const personJsonLd = hasType(hodinar, 'osoba')
 
     <CrossRefs refs={medailon?.data.crossRefs} selfType="hodinari" selfSlug={hodinar.slug} />
 
+    {medailon?.data.acknowledgments && (
+      <section class="article-acknowledgments" aria-labelledby="acknowledgments-heading">
+        <h2 id="acknowledgments-heading" class="references-title">Poděkování</h2>
+        <div class="acknowledgments-body" set:html={tinyMarkdown(medailon.data.acknowledgments)} />
+      </section>
+    )}
+
+    {(medailon?.data.author || medailon?.data.photoAuthor) && (
+      <section class="article-authors" aria-labelledby="authors-heading">
+        <h2 id="authors-heading" class="references-title">Autoři</h2>
+        <dl class="authors-list">
+          {medailon.data.author && (<>
+            <dt>Text:</dt>
+            <dd><span set:html={tinyMarkdown(formatAuthor(medailon.data.author)).replace(/^<p>|<\/p>$/g, '')} /></dd>
+          </>)}
+          {medailon.data.photoAuthor && (<>
+            <dt>Foto:</dt>
+            <dd><span set:html={tinyMarkdown(formatAuthor(medailon.data.photoAuthor)).replace(/^<p>|<\/p>$/g, '')} /></dd>
+          </>)}
+        </dl>
+      </section>
+    )}
+
     <footer class="article-byline">
-      <span class="byline-author">Český spolek horologický</span>
+      <span class="byline-publisher">Český spolek horologický</span>
       <span class="byline-sep" aria-hidden="true">·</span>
       <span class="byline-date">
         {hasFull ? 'Plnohodnotný profil' : 'Stub profil — připravujeme rozšířený životopis'}

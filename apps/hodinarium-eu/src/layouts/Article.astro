@@ -9,6 +9,7 @@ import CrossRefs from "../components/CrossRefs.astro";
 import { pramenTooltip, extractWikiTitle } from "../utils/referenceTypes";
 import { formatCite, getRef } from "../utils/cite";
 import catalog from "../data/catalog.json";
+import { tinyMarkdown } from "../utils/tinyMarkdown";
 import { hodinariProClanek } from "../data/hodinari";
 import { krokyProClanek } from "../data/kroky";
 import { clanekHref } from "../data/url-helpers";
@@ -52,6 +53,10 @@ interface Props {
   slug?: string;
   ogImageOverride?: string;
   author?: string;
+  /** Autor fotek (text). Render v sekci „Autoři" jako „Foto:". */
+  photoAuthor?: string;
+  /** Poděkování (markdown). Samostatná sekce nad „Autoři". */
+  acknowledgments?: string;
   references?: Reference[];
   editorNotes?: Array<{ level: 'info' | 'warn' | 'todo'; title?: string; text: string; noteKey?: string }>;
   referenceStyle?: 'bullet' | 'numbered';
@@ -69,7 +74,7 @@ interface Props {
     kronika?: string[];
   };
 }
-const { title, description, lastModified, tldr, category, slug, ogImageOverride, author, references, referenceStyle = 'bullet', karta, editorNotes, draft, crossRefs } = Astro.props;
+const { title, description, lastModified, tldr, category, slug, ogImageOverride, author, photoAuthor, acknowledgments, references, referenceStyle = 'bullet', karta, editorNotes, draft, crossRefs } = Astro.props;
 
 // CMS edit URL — Sveltia routy: /admin/#/collections/<col>/entries/<file_id>.
 // Karty (podsekce: 'karta') jdou do collection 'karty', zbytek do 'clanky'.
@@ -78,23 +83,9 @@ const cmsEditUrl = slug
   ? `/admin/#/collections/${karta ? 'karty' : 'clanky'}/entries/${slug}`
   : undefined;
 
-/**
- * Formát autora pro byline: "Petr Král" → "P. Král",
- * "Ing. Petr Král" → "P. Král" (titly se zahodí),
- * "P. Král" zůstává.
- */
-function formatAuthor(name: string): string {
-  const titleRe = /^(Ing\.|Dr\.|Mgr\.|MUDr\.|RNDr\.|JUDr\.|PaedDr\.|MgA\.|prof\.|doc\.|Prof\.|Doc\.)\s+/g;
-  const stripped = name.replace(titleRe, '').trim();
-  const parts = stripped.split(/\s+/);
-  if (parts.length < 2) return stripped;
-  const first = parts[0];
-  const surname = parts.slice(1).join(' ');
-  // Pokud je první už iniciál (jedno písmeno + tečka volitelně), normalizuj.
-  if (/^[A-ZÁ-Ž]\.?$/u.test(first)) return `${first.replace(/\.$/, '')}. ${surname}`;
-  return `${first.charAt(0)}. ${surname}`;
-}
+import { formatAuthor } from "../utils/formatAuthor";
 const authorFormatted = author ? formatAuthor(author) : null;
+const photoAuthorFormatted = photoAuthor ? formatAuthor(photoAuthor) : null;
 
 import { categoryLabel } from '../data/labels';
 
@@ -331,13 +322,30 @@ const articleJsonLd = {
       />
     )}
 
+    {acknowledgments && (
+      <section class="article-acknowledgments" aria-labelledby="acknowledgments-heading">
+        <h2 id="acknowledgments-heading" class="references-title">Poděkování</h2>
+        <div class="acknowledgments-body" set:html={tinyMarkdown(acknowledgments)} />
+      </section>
+    )}
+
+    {(authorFormatted || photoAuthorFormatted) && (
+      <section class="article-authors" aria-labelledby="authors-heading">
+        <h2 id="authors-heading" class="references-title">Autoři</h2>
+        <dl class="authors-list">
+          {authorFormatted && (<>
+            <dt>Text:</dt>
+            <dd><span set:html={tinyMarkdown(authorFormatted).replace(/^<p>|<\/p>$/g, '')} /></dd>
+          </>)}
+          {photoAuthorFormatted && (<>
+            <dt>Foto:</dt>
+            <dd><span set:html={tinyMarkdown(photoAuthorFormatted).replace(/^<p>|<\/p>$/g, '')} /></dd>
+          </>)}
+        </dl>
+      </section>
+    )}
+
     <footer class="article-byline">
-      {authorFormatted && (
-        <>
-          <span class="byline-author">{authorFormatted}</span>
-          <span class="byline-sep" aria-hidden="true">·</span>
-        </>
-      )}
       <span class="byline-publisher">Český spolek horologický</span>
       <span class="byline-sep" aria-hidden="true">·</span>
       {lastModifiedReadable
@@ -457,6 +465,41 @@ const articleJsonLd = {
     flex-wrap: wrap;
     gap: 0.5rem;
     align-items: baseline;
+  }
+  /* Autoři + Poděkování sekce — sjednoceno napříč všemi article types
+     (clanky, hodinari, soupis, kronika). Konvence: Text: + Foto: jmen
+     v iniciála + příjmení formátu (formatAuthor helper). */
+  .article-authors,
+  .article-acknowledgments {
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  }
+  .article-acknowledgments + .article-authors {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: none;
+  }
+  .acknowledgments-body {
+    color: var(--color-text-soft);
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+  .authors-list {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.4rem 1rem;
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  .authors-list dt {
+    font-style: italic;
+    color: var(--color-text-muted);
+    font-weight: 400;
+  }
+  .authors-list dd {
+    color: var(--color-text);
+    margin: 0;
   }
   .byline-author {
     color: var(--color-brass-bright);

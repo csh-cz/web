@@ -12,6 +12,7 @@ lastModified: "Wed, 10 Nov 2021 10:08:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:47.237Z"
 tldr: 'Historie československé telefonní časové služby (linka 112, později 14112) — od elektromechanického automatu Ericsson se skleněnými disky a fotobuňkami až po pozdější magnetofonové verze.'
+photoAuthor: NTM, archiv ČT
 ---
 ![Alžběta fy Erikson](/img/alzbeta/Alzbeta_Ericsson.jpg.jpg)
 
@@ -59,4 +60,3 @@ O mluvících hodinkách popisovaných v časopisu **"Z říše vědy a práce" 
 - [Mluvící hodinky](/clanky/mluvici1895)
 - [Když hodiny promluvily](/download/Quando_gli_orologi_parlavano.pdf) - Marisa Addomine, italský text QUANDO GLI OROLOGI PARLAVANO [¬](/download/Kdyz_hodiny_zacaly-mluvit.pdf)
 
-*Foto: NTM, archiv ČT*

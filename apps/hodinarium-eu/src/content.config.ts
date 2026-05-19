@@ -277,6 +277,13 @@ const clanky = defineCollection({
     thumbnail: z.string().optional(),
     /** Autor článku (např. "Petr Král"). Footer ho zobrazí jako "P. Král". */
     author: z.string().optional(),
+    /** Autor fotek pro článek (např. "Miroslav Baudisch"). Footer ho zobrazí
+     *  v sekci „Autoři" jako „Foto: M. Baudisch". Pro multi-autorské fotky:
+     *  „M. Baudisch, P. Král, archiv ČSH" (carry-through formátování). */
+    photoAuthor: z.string().optional(),
+    /** Poděkování (markdown). Renderuje se jako samostatná sekce
+     *  „Poděkování" pod článkem (nad „Autoři"). */
+    acknowledgments: z.string().optional(),
     /** Výchozí kredit pro všechny markdown `![]()` obrázky v těle článku, které
      *  nemají vlastní `::photo{author=}` nebo `<Photo author=>` atribuci.
      *  Příklad: "Archiv Petra Krále (hodinarium.eu)", "Archiv ČSH", "autor neznámý".
@@ -465,6 +472,13 @@ const hodinariMedailony = defineCollection({
     portretCredit: z.string().optional(),
     // CMS posílá prázdný string `''` když editor pole nevyplní → coerce na undefined.
     portretSource: z.preprocess((v) => (v === '' ? undefined : v), z.string().url().optional()),
+    /** Autor textu medailonu (pokud není explicitně uveden, default „D. Knespl"
+        nebo z byline ČSH). Render v sekci „Autoři" jako Text:. */
+    author: z.string().optional(),
+    /** Autor fotek. Render v sekci „Autoři" jako Foto:. */
+    photoAuthor: z.string().optional(),
+    /** Poděkování (markdown). Samostatná sekce nad „Autoři". */
+    acknowledgments: z.string().optional(),
     references: z.array(reference).optional(),
     /** Editorské poznámky (TODO, varování o nejistotě, kontext). */
     editorNotes: z.array(editorNote).optional(),
@@ -515,6 +529,10 @@ const kronika = defineCollection({
     })).optional(),
     photos: z.array(z.string()).optional(),
     author: z.string().optional(),
+    /** Autor fotek pro zápis kroniky. Render v sekci „Autoři" jako Foto:. */
+    photoAuthor: z.string().optional(),
+    /** Poděkování (markdown). Samostatná sekce nad „Autoři". */
+    acknowledgments: z.string().optional(),
     /** Výchozí kredit pro markdown `![]()` obrázky v těle zápisu (viz clanky schema). */
     imageCredit: z.string().optional(),
     references: z.array(reference).optional(),
@@ -691,6 +709,10 @@ const soupisVeznichHodin = defineCollection({
     /** Meta. */
     posledniOvereni: dateString.optional(),
     zdrojDat: z.string().optional(),                // 'tabulka_krecmer' / 'tabulka_landesbergerove' / 'manual' / 'osm-import' / ...
+    /** Autor fotek pro soupis entry. Render v sekci „Autoři" jako Foto:. */
+    photoAuthor: z.string().optional(),
+    /** Poděkování (markdown). Samostatná sekce nad „Autoři". */
+    acknowledgments: z.string().optional(),
   })),
 });
 

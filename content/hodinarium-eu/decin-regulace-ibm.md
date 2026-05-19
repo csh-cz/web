@@ -17,6 +17,7 @@ tags:
   - decin
   - 1900s
 tldr: 'Samočinné dorovnávání odchylek podružných hodin systému IBM International — dvě vačky přepínají od 51. minuty mezi vodiči A a B, rychlé dvousekundové impulzy v 59. minutě doženou zpožděné hodiny.'
+photoAuthor: M. Baudisch, P. Král
 ---
 Hodinárium v Děčíně se v roce 2017 rozrostlo o podružné hodiny INTERNACIONAL určené pro třídrátový rozvod nepolarizovaných řídících impulzů. Tento rozvod je určen pro hodiny IBM se samočinnou regulací jednotlivých podružných hodin. Systém umožňuje podružným hodinám s malou odchylkou upravit nastavení na stav matečních hodin. V současné době je v provozu sestava hlavních hodin IBM, několika podružných hodiny včetně píchaček. ![Stroj podružných hodin Internacional](/img/decin/IBM/stroj.jpg)
 
@@ -58,8 +59,6 @@ Vlastní zapojení kontaktů ukazuje zjednodušené schema. Podstatné je impulz
 ![Nákres kontaktů](/img/decin/IBM/nakres.jpg)
 
 ![Nálezový stav](/img/decin/IBM/RADO_nalezovy_stav.jpg)![zjednodušené schema](/img/decin/IBM/zakladni_schema.jpg)
-
-*Foto: M. Baudisch, P. Král*
 
 ![modul s L286N](/img/arduino/modul_L298N.jpg)
 
