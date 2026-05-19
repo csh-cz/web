@@ -99,6 +99,15 @@ const reference = z.object({
   type: z.enum(['kniha', 'clanek', 'pdf', 'odkaz', 'wiki', 'mapa', 'patent', 'archiv', 'zprava']).optional(),
   pages: z.string().optional(),
   note: z.string().optional(),
+  /**
+   * Stabilní anchor key pro inline body link na tuto referenci.
+   * Konvence ISO 690 autor–datum slug: `drozda-2006`, `knespl-2024`,
+   * `milerova-2025`. V body článku piš `[Drozda 2006](#ref-drozda-2006)`;
+   * Article.astro vygeneruje `<li id="ref-drozda-2006">`. Stabilnější
+   * než poziční `ref-1`/`ref-2` (přežije reordering reference list).
+   * Pokud chybí, fallback je `ref-<index+1>` (legacy).
+   */
+  key: z.string().regex(/^[a-z0-9-]+$/, 'key musí být lowercase kebab-case').optional(),
 }).refine((d) => d.bibKey || d.title, {
   message: 'reference: musí mít bibKey (Zotero) nebo title (ad-hoc).',
 });
@@ -557,6 +566,11 @@ const veznihodinaPramen = z.object({
   type: z.enum(['kniha', 'clanek', 'pdf', 'odkaz', 'wiki', 'mapa', 'patent', 'archiv', 'zprava']).optional(),
   pages: z.string().optional(),
   poznamka: z.string().optional(),                  // editor's free-form context
+  /** Stabilní anchor key pro inline body link na tento pramen. Konvence
+      autor–datum slug: `milerova-2025`, `drozda-2006`. V body článku
+      `[Drozda 2006](#ref-drozda-2006)`; render vygeneruje
+      `<li id="ref-drozda-2006">`. Viz reference[].key v hlavním schema. */
+  key: z.string().regex(/^[a-z0-9-]+$/).optional(),
 });
 
 const soupisVeznichHodin = defineCollection({

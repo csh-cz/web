@@ -331,13 +331,15 @@ const personJsonLd = hasType(hodinar, 'osoba')
         <section class="references" aria-labelledby="references-heading">
           <h2 id="references-heading" class="references-title">Literatura a odkazy</h2>
           <ul class="references-list">
-            {medailon.data.references.map((r) => {
+            {medailon.data.references.map((r, i) => {
+              // Stabilní anchor key pro body [Autor Year](#ref-<key>) linky.
+              const refId = `ref-${r.key ?? i + 1}`;
               // bibKey path: render přes citeproc + ISO 690 CSL ze SSOT.
               const cslItem = r.bibKey ? getRef(r.bibKey) : null;
               const formatted = r.bibKey ? formatCite(r.bibKey) : null;
               if (formatted) {
                 return (
-                  <li class={`reference reference-${r.type ?? 'odkaz'}`}>
+                  <li id={refId} class={`reference reference-${r.type ?? 'odkaz'}`}>
                     <span class="ref-cite" set:html={formatted} />
                     {r.note && <span class="ref-note"> — {r.note}</span>}
                   </li>
@@ -354,7 +356,7 @@ const personJsonLd = hasType(hodinar, 'osoba')
                 || r.bibKey
                 || (url ? url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/.*$/, '') : 'odkaz');
               return (
-                <li class={`reference reference-${r.type ?? 'odkaz'}`}>
+                <li id={refId} class={`reference reference-${r.type ?? 'odkaz'}`}>
                   {r.author && <span class="ref-author">{r.author}:</span>}
                   {url
                     ? <a href={url} rel="noopener" target="_blank">{title}</a>

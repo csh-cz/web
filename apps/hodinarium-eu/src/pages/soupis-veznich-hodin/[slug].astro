@@ -258,7 +258,8 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
     <section class="prameny">
       <h2>Prameny</h2>
       <ul class="references-list">
-        {d.prameny.map((p) => {
+        {d.prameny.map((p, i) => {
+          const refId = `ref-${p.key ?? i + 1}`;
           // bibKey path: render přes citeproc + ISO 690 CSL
           const cslItem = p.bibKey ? getRef(p.bibKey) : null;
           const cslType = (cslItem?.type as string) || '';
@@ -284,7 +285,7 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
               || p.bibKey
               || 'Wikipedie';
             return (
-              <li class="reference reference-wiki" title={pramenTooltip('wiki')}>
+              <li id={refId} class="reference reference-wiki" title={pramenTooltip('wiki')}>
                 {wUrl ? <a href={wUrl} target="_blank" rel="noopener">{wTitle}</a> : <span class="ref-title">{wTitle}</span>}
                 {p.poznamka && <span class="ref-note"> — {p.poznamka}</span>}
               </li>
@@ -295,7 +296,7 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
 
           if (formatted) {
             return (
-              <li class={`reference reference-${type}`} title={pramenTooltip(type)}>
+              <li id={refId} class={`reference reference-${type}`} title={pramenTooltip(type)}>
                 <span class="ref-cite" set:html={formatted} />
                 {p.poznamka && <span class="ref-note"> — {p.poznamka}</span>}
               </li>
@@ -309,7 +310,7 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
           // tinyMarkdown vrací <p>...</p>; pro inline použití strip <p> tagy.
           const linkHtml = tinyMarkdown(linkText).replace(/^<p>|<\/p>$/g, '').replace(/<\/p><p>/g, ' ');
           return (
-            <li class={`reference reference-${type}`} title={pramenTooltip(type)}>
+            <li id={refId} class={`reference reference-${type}`} title={pramenTooltip(type)}>
               {p.autor && <span class="ref-author">{p.autor}:</span>}{' '}
               {p.url
                 ? <a href={p.url} target="_blank" rel="noopener" set:html={linkHtml}></a>
