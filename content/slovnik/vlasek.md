@@ -3,6 +3,14 @@ title: vlásek
 slug: vlasek
 conceptId: HORO-HAIRSPRING-001
 kategorie: mechanika
+varianty:
+  - vlásek
+  - vlasová pružinka
+  - vlasová pružina
+  - balanční pružinka
+  - spirála setrvačky
+  - pero vlasové
+  - váhadlová zpruha
 prekladyDe:
   - term: Spirale
     genus: f

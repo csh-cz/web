@@ -9,6 +9,11 @@ prekladyDe:
   - term: Unrast
     genus: f
     zdroj: "Špatný 1882: Unruhe → nepokoj, váhadlo"
+varianty:
+  - setrvačka
+  - balanc
+  - balanc-koleso
+  - váhadlo
 prekladyEn:
   - term: balance
   - term: balance wheel
