@@ -49,6 +49,15 @@ interface Props {
   licenseUrl?: string;
   sourceUrl?: string;
   year?: number;
+  /** Single-string credit fallback pro kompaktní YAML pole jako
+   *  `foto[].credit: "© David Knespl, 2023"`. Pokud je vyplněn,
+   *  zobrazí se pod obrázkem jako `<figcaption>` (na rozdíl od
+   *  overlay credit composed z author/license/sourceUrl).
+   *  Pokud je zároveň vyplněn `caption`, credit jde za caption. */
+  credit?: string;
+  /** Volitelný popis pod obrázkem (alt text se opakuje pro screen
+   *  reader, caption je vizuální popis pro vidoucí uživatele). */
+  caption?: string;
 }
 const {
   src,
@@ -60,6 +69,8 @@ const {
   licenseUrl: propLicenseUrl,
   sourceUrl: propSourceUrl,
   year: propYear,
+  credit: propCredit,
+  caption: propCaption,
 } = Astro.props;
 
 /**
@@ -226,6 +237,17 @@ const variantBase = isRaster ? `${CDN_BASE}${src.replace(RASTER_RE, '')}` : '';
       )}
       {((author || license) && sourceUrl) && ' · '}
       {sourceUrl && <a href={sourceUrl} rel="noopener" target="_blank">zdroj</a>}
+    </figcaption>
+  )}
+  {/* `credit` + `caption` props — single-string fallback pro YAML pole
+      jako `foto[].credit: "© David Knespl, 2023"`. Renderují se pod obrázkem
+      jako klasický figcaption (na rozdíl od overlay credit composed
+      z author/license). Pre-A.26 byl tu v soupis kartách plain <img>
+      a inline figcaption — refactor sjednotil přes Photo komponentu. */}
+  {(propCaption || propCredit) && !showCredit && (
+    <figcaption class="img-caption-below">
+      {propCaption}
+      {propCredit && <small class="credit"> — {propCredit}</small>}
     </figcaption>
   )}
 </figure>
