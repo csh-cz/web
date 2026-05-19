@@ -45,6 +45,9 @@ pribuzne:
   - hridelik-orloje
   - ramenko
   - ukazovaci-stroj
+  - ruka-orloje
+  - rafije
+  - cifernik
 crossRefs:
   clanky:
     - svitici
