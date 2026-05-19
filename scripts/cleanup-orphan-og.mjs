@@ -76,6 +76,17 @@ for (const [, dir] of Object.entries(collections)) {
   }
 }
 
+// Kroky mají druhý zdroj — TS rejstřík `src/data/kroky.ts`. Některé kroky
+// jsou jen stuby (žádný MDX), ale `/kroky/[slug].astro` page existuje
+// a build-og-images.ts pro ně PNG generuje. Bez tohoto seznamu by je
+// cleanup označil za orphan a smazal.
+try {
+  const krokyTs = readFileSync(join(ROOT, 'apps/hodinarium-eu/src/data/kroky.ts'), 'utf-8');
+  const re = /slug:\s*'([^']+)'/g;
+  let m;
+  while ((m = re.exec(krokyTs)) !== null) allRequired.add(m[1]);
+} catch { /* TS rejstřík chybí — fallback jen na MDX */ }
+
 // Top-level routes (kopie z check-og-coverage.mjs).
 const TOP_LEVEL_ROUTES = [
   'home', 'clanky',
@@ -83,6 +94,8 @@ const TOP_LEVEL_ROUTES = [
   'hodinari', 'kronika', 'tagy', 'mapa', 'mapa-horologie', 'expozice', 'kroky',
   'casova-osa', 'pro-navstevniky', 'vice', 'podpora', 'licence', 'en',
   'soupis-veznich-hodin', 'slovnik', 'o-hodinariu',
+  // Sub-route static pages:
+  'katalog',
   // Deprecated kategorie, které ještě mohou mít OG (postupná migrace):
   'decin', 'vezni-hodiny', 'ostatni',
 ];

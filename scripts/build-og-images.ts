@@ -406,10 +406,12 @@ async function loadKroky(): Promise<OgPage[]> {
   const dir = join(ROOT, 'content', 'kroky');
   const files = (await readdir(dir)).filter((f) => f.endsWith('.md') || f.endsWith('.mdx'));
   const pages: OgPage[] = [];
+  const seen = new Set<string>();
   for (const file of files) {
     const content = await readFile(join(dir, file), 'utf-8');
     const fm = parseFrontmatter(content);
     if (!fm.title || !fm.slug) continue;
+    seen.add(fm.slug);
     pages.push({
       slug: fm.slug,
       title: fm.title,
@@ -418,6 +420,29 @@ async function loadKroky(): Promise<OgPage[]> {
       siteLabel: 'Hodinárium',
     });
   }
+  // Doplnit slugy z TS rejstříku `src/data/kroky.ts`. Některé kroky jsou
+  // jen stuby (žádný MDX), ale `/kroky/[slug].astro` page existuje a
+  // rendruje z TS rejstříku — bez OG by HTML meta tag ukázal na 404.png.
+  // Naivní regex parser (slug + jmeno + shrnuti).
+  try {
+    const krokyTs = await readFile(
+      join(ROOT, 'apps', 'hodinarium-eu', 'src', 'data', 'kroky.ts'),
+      'utf-8'
+    );
+    const re = /slug:\s*'([^']+)',[\s\S]*?jmeno:\s*'([^']+)'[\s\S]*?shrnuti:\s*'([^']*)'/g;
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(krokyTs)) !== null) {
+      const [, slug, jmeno, shrnuti] = m;
+      if (seen.has(slug)) continue;
+      pages.push({
+        slug,
+        title: jmeno,
+        description: stripMarkdown(shrnuti).slice(0, 220),
+        category: 'kroky',
+        siteLabel: 'Hodinárium',
+      });
+    }
+  } catch { /* TS rejstřík chybí — fallback jen na MDX */ }
   return pages;
 }
 
@@ -458,6 +483,10 @@ async function main() {
     { slug: 'mapa', title: 'Mapa', description: 'Mapa exponátů Hodinária + horologické zajímavosti v Evropě', siteLabel: 'Hodinárium' },
     { slug: 'mapa-horologie', title: 'Mapa horologie', description: 'Orloje, muzea, výrobci a zajímavosti po Evropě i ve světě', siteLabel: 'Hodinárium' },
     { slug: 'sbirka', title: 'Sbírka', description: 'Evidenční karty exponátů Hodinária Děčín', siteLabel: 'Hodinárium' },
+    // `/sbirka/katalog` = subsekce sbírky (atlas-style mřížka karet). Base.astro
+    // ogSlugFromPath odvodí slug `katalog` (poslední segment), takže OG musí
+    // existovat pod tímto názvem.
+    { slug: 'katalog', title: 'Katalog sbírkových předmětů', description: 'Atlas exponátů Hodinária — mřížka karet sbírky', siteLabel: 'Hodinárium' },
     { slug: 'konstrukce', title: 'Konstrukce', description: 'Mechanismy a principy hodin', siteLabel: 'Hodinárium' },
     { slug: 'projekty', title: 'Projekty', description: 'DIY hodiny a experimentální konstrukce spolku', siteLabel: 'Hodinárium' },
     { slug: 'virtualni-muzeum', title: 'Virtuální muzeum', description: 'Cizí hodiny mimo fyzickou sbírku — zajímavé exponáty z celého světa', siteLabel: 'Hodinárium' },

@@ -70,10 +70,14 @@ export default defineConfig({
     }),
     sitemap({
       filter: (page) => {
-        // /redakce/* je gated pro editory — z indexace ven.
-        if (page.includes('/redakce/')) return false;
+        // /redakce a /redakce/* je gated pro editory — z indexace ven.
+        // Pozor: `/redakce` (bez trailing) by `/redakce/` includes nezachytil,
+        // proto explicit endsWith check.
+        if (page.includes('/redakce/') || page.endsWith('/redakce')) return false;
         // /admin/* (Sveltia CMS) — taky ne.
         if (page.includes('/admin/')) return false;
+        // /og-preview — interní dev page (preview OG karet pro design review).
+        if (page.endsWith('/og-preview') || page.endsWith('/og-preview/')) return false;
         // Draft articles — vyloučit z sitemap.
         for (const slug of draftSlugs) {
           if (page.includes(`/${slug}`)) return false;
