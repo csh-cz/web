@@ -24,6 +24,30 @@ export interface TinyMarkdownOptions {
   stripLinks?: boolean;
 }
 
+/**
+ * Strip markdown formatting na plain text — pro `<meta description>`,
+ * `og:description` a podobné kontexty kde markdown syntax nepatří.
+ *
+ *   **bold**     → bold
+ *   *italic*     → italic
+ *   _italic_     → italic
+ *   [text](url)  → text
+ *   `code`       → code
+ *   \n\n         → ' '
+ */
+export function stripMarkdown(s: string | undefined | null): string {
+  if (!s) return '';
+  return s
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/\*\*([^*\n]+)\*\*/g, '$1')
+    .replace(/(^|[\s(])\*([^*\n]+)\*/g, '$1$2')
+    .replace(/(^|[\s(])_([^_\n]+)_/g, '$1$2')
+    .replace(/`([^`]+)`/g, '$1')
+    .replace(/\s*\n\s*/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 export function tinyMarkdown(
   s: string | undefined | null,
   options: TinyMarkdownOptions = {}
