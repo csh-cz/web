@@ -1,0 +1,93 @@
+/*
+ * @csh/ui button styles — sdílené tlačítkové třídy.
+ *
+ * Token-driven (var(--color-brass), --color-ink, …) — funguje
+ * v obou tématech (museum-dark, paper-light).
+ *
+ * Konvence:
+ *   .btn-primary    — hlavní akce (CTA, submit). Plný brass background.
+ *   .btn-secondary  — sekundární akce. Outline brass border, transparent bg.
+ *   .btn-text       — terciární (text-only, šipka). Hover underline.
+ *
+ * Šipková konvence:
+ *   - .btn-primary  — bez šipky (akce „Procházet sbírku")
+ *   - .btn-secondary — se šipkou „→" (navigace „Mapa horologie →")
+ *   - .btn-text     — se šipkou (drobnější CTA)
+ *
+ * Použití v app global.css (po `@import "tailwindcss";` a tokens):
+ *
+ *   @import "@csh/ui/styles/buttons.css";
+ */
+
+.btn-primary,
+.btn-secondary,
+.btn-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background 150ms ease,
+    color 150ms ease,
+    border-color 150ms ease,
+    transform 150ms ease;
+  /* WCAG 2.5.8 Target Size — buttons jsou samostatné navigační targety,
+     min 44×44 doporučeno (24×24 strict minimum). */
+  min-height: 44px;
+}
+
+.btn-primary {
+  padding: 0.75rem 1.5rem;
+  background: var(--color-brass);
+  color: var(--color-ink);
+  border: 1px solid var(--color-brass-bright);
+  border-radius: 2px;
+}
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  background: var(--color-brass-bright);
+  transform: translateY(-1px);
+}
+.btn-primary:focus-visible {
+  outline: 2px solid var(--color-brass-bright);
+  outline-offset: 2px;
+}
+
+.btn-secondary {
+  padding: 0.7rem 1.4rem;
+  background: transparent;
+  color: var(--color-brass-bright);
+  border: 1px solid color-mix(in srgb, var(--color-brass) 50%, transparent);
+  border-radius: 2px;
+}
+.btn-secondary:hover,
+.btn-secondary:focus-visible {
+  border-color: var(--color-brass);
+  color: var(--color-brass);
+  background: color-mix(in srgb, var(--color-brass) 8%, transparent);
+}
+.btn-secondary:focus-visible {
+  outline: 2px solid var(--color-brass-bright);
+  outline-offset: 2px;
+}
+
+.btn-text {
+  padding: 0.5rem 0.25rem;
+  color: var(--color-brass-bright);
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+}
+.btn-text:hover,
+.btn-text:focus-visible {
+  border-bottom-color: var(--color-brass);
+  color: var(--color-brass);
+}
+.btn-text:focus-visible {
+  outline: 2px solid var(--color-brass-bright);
+  outline-offset: 4px;
+}

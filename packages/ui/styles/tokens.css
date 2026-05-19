@@ -1,0 +1,38 @@
+/*
+ * @csh/ui — sdílené design tokeny pro hodinarium-eu a horologie-cz.
+ *
+ * Definuje TYPOGRAFII (font stacks) — barevné téma zůstává v každé app
+ * samostatně (Hodinarium museum-dark, Horologie paper-light — strategicky
+ * inverted, viz docs/audit-design-system-2026-05-12.md).
+ *
+ * Tailwind v4 @theme cascade: multiple @theme bloky se mergují,
+ * pozdější přepisuje. Tedy `--font-serif` zde + override v site-specific
+ * global.css funguje.
+ *
+ * Použití v app global.css (po `@import "tailwindcss";`):
+ *
+ *   @import "@csh/ui/styles/tokens.css";
+ *
+ *   @theme {
+ *     /* site-specific colors *\/
+ *     --color-bg: #14100c;
+ *     /* ... *\/
+ *   }
+ */
+
+@theme {
+  /*
+   * Spectral je editorial serif s vysokou čitelností v dlouhých textech.
+   * Cardo + Georgia + Times jako progressive fallback. CSHSymbols je
+   * lokální alias (definovaný v Hodinariu) pro text-style zodiac glyphy
+   * — v Horologii se neaplikuje (žádné astrologické znaky).
+   */
+  --font-serif: "Spectral", "CSHSymbols", "Cardo", Georgia, "Times New Roman", serif;
+
+  /*
+   * Mono font pro kód, signatura, identifier_field. Sloučeno z Hodinaria
+   * (mělo definované) — Horologie ho předtím nemělo a fallback byl
+   * browser-default monospace.
+   */
+  --font-mono: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, monospace;
+}

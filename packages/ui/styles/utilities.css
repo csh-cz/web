@@ -1,0 +1,64 @@
+/*
+ * @csh/ui utility classes — sdílené strukturní třídy mezi
+ * hodinarium-eu a horologie-cz.
+ *
+ * Použití v app global.css (po `@import "tailwindcss";` a tokens):
+ *
+ *   @import "@csh/ui/styles/utilities.css";
+ *
+ * Třídy:
+ *   .eyebrow      — malý uppercase nadpis nad hlavním titulkem
+ *   .hero-title   — velký editorial nadpis (clamp 2.5–5rem)
+ *   .hero-title-sm — menší varianta pro index sekce (clamp 2.5–4.5rem)
+ *   .h2-flush     — reset margin-top na <h2> v hero/sekční kontextu
+ *   .fleuron      — dekorativní dělící prvek mezi sekcemi
+ */
+
+.eyebrow {
+  font-family: var(--font-serif);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--color-copper);
+  font-weight: 500;
+}
+
+.hero-title {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  color: var(--color-brass-bright);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+/* Hodinarium override (font-weight 400, větší clamp, line-height 0.95)
+   je v jeho global.css — site-specific editorial typografie. */
+
+.hero-title-sm {
+  /* Střední varianta pro sub-section pages (mapa, hodinari, sbirka,
+     [kategorie], casova-osa, expozice, kroky, slovnik). Default
+     .hero-title zůstává pro homepage. */
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.h2-flush {
+  /* h2 v section header bez top margin. Globální h2 v site CSS přidává
+     margin-top: 1.5em (kvůli odstupu mezi sekcemi v article body),
+     v section header je to nežádoucí. */
+  margin-top: 0;
+}
+
+/* Divider — jednoduchá tenká linka s gradientem; copper akcent uprostřed. */
+.fleuron {
+  display: block;
+  height: 1px;
+  margin: 3em auto;
+  max-width: 8em;
+  background: linear-gradient(
+    to right,
+    transparent,
+    color-mix(in srgb, var(--color-copper) 55%, transparent),
+    transparent
+  );
+}

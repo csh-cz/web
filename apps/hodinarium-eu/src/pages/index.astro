@@ -225,53 +225,34 @@ const withImages = entries.filter((e) => e.thumbnail).length;
     flex-wrap: wrap;
   }
 
-  .btn-primary, .btn-secondary {
-    font-family: var(--font-serif);
-    padding: 0.7rem 1.4rem;
-    font-size: 1rem;
-    border-radius: 2px;
-    text-decoration: none;
+  /* .btn-primary, .btn-secondary, .btn-text přesunuto do
+     @csh/ui/styles/buttons.css (FU5 fáze 3, 2026-05-19).
+     Hodinarium-specific tweaky (border-bottom none !important — kvůli
+     global a underline, box-shadow inset highlight) jsou v package; pokud
+     budou potřeba site-specific overrides, přidat sem. */
+  .btn-primary,
+  .btn-secondary,
+  .btn-text {
+    /* Override global `a` underline (border-bottom: 1px solid …) — buttony
+       nepatří mezi inline links. */
     border-bottom: none !important;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    transition: all 150ms ease;
   }
-
   .btn-primary {
-    background: var(--color-brass);
-    color: var(--color-ink);
-    border: 1px solid var(--color-brass-bright);
+    /* Subtle inset highlight pro plný brass background (museum-dark theme
+       tone — Horologie paper-light to nepotřebuje). */
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
-    font-weight: 500;
   }
-
-  .btn-primary:hover {
-    background: var(--color-brass-bright);
-    color: var(--color-ink);
-  }
-
   .btn-secondary {
+    /* Museum-dark variant: elevated bg + hover deeper. */
     background: var(--color-bg-elevated);
-    color: var(--color-brass-bright);
-    border: 1px solid color-mix(in srgb, var(--color-brass) 50%, transparent);
   }
-
   .btn-secondary:hover {
-    border-color: var(--color-brass);
     background: var(--color-bg-deep);
   }
-
   .btn-text {
-    font-family: var(--font-serif);
-    padding: 0.7rem 0.6rem;
-    font-size: 1rem;
-    text-decoration: none;
-    border-bottom: none !important;
+    /* Museum-dark: muted default color (vs. brass-bright v light theme). */
     color: var(--color-text-soft);
-    transition: color 150ms ease;
   }
-
   .btn-text:hover {
     color: var(--color-brass-bright);
   }

@@ -7,6 +7,13 @@
  * v src/ nepoužity, takže odstranění je no-op pro vizuál a jen brání
  * budoucímu nedopatření. */
 
+/* Sdílené tokeny (font stacks) + utility classes + button styles z @csh/ui.
+   Site-specific colors jsou v @theme block níže (museum-dark).
+   Viz docs/audit-design-system-2026-05-12.md (FU5 migrace 2026-05-19). */
+@import "@csh/ui/styles/tokens.css";
+@import "@csh/ui/styles/utilities.css";
+@import "@csh/ui/styles/buttons.css";
+
 @theme {
   /* Teplá podlaha staré observatoře: hluboká kávová tma, ne studená modř */
   --color-bg: #14100c;
@@ -28,9 +35,9 @@
   --color-text-muted: #9a8c75;
   --color-ink: #1a120a;
 
-  /* Jediný typografický rod. CSHSymbols (definovaný níže s unicode-range)
-     ošetří astrologická znamení jako text glyphy, ne color emoji. */
-  --font-serif: "Spectral", "CSHSymbols", "Cardo", Georgia, "Times New Roman", serif;
+  /* `--font-serif` přichází z @csh/ui/styles/tokens.css. CSHSymbols
+     je lokální alias (font-face definice níže s unicode-range pro
+     zodiac glyphy U+2648–U+2653 jako text, ne color emoji). */
 }
 
 /* === Symbol font pro astrologická znamení a další unicode glyphy ===
@@ -263,30 +270,7 @@ summary {
 summary::-webkit-details-marker { display: none; }
 
 /* Steampunkové prvky — drobné, ne kýčovité */
-
-/* Eyebrow — malý nadpis nad sekcí, kapitálky + prostrkané */
-.eyebrow {
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 0.22em;
-  color: var(--color-copper);
-  font-weight: 500;
-  font-style: normal;
-}
-
-/* Divider — jednoduchá tenká linka s gradientem */
-.fleuron {
-  display: block;
-  height: 1px;
-  margin: 3em auto;
-  max-width: 8em;
-  background: linear-gradient(
-    to right,
-    transparent,
-    color-mix(in srgb, var(--color-copper) 55%, transparent),
-    transparent
-  );
-}
+/* .eyebrow + .fleuron přesunuto do @csh/ui/styles/utilities.css (FU5, 2026-05-19). */
 
 /* Drop cap pro první odstavec článku */
 .drop-cap > p:first-of-type::first-letter {
@@ -445,7 +429,8 @@ summary::-webkit-details-marker { display: none; }
   padding-top: 0.85rem;
 }
 
-/* Hero čísla / titulek */
+/* Hero titulek — Hodinarium override @csh/ui (větší clamp 5.5rem, lighter
+   font-weight 400, tighter line-height 0.95 — editorial muzejní typografie). */
 .hero-title {
   font-weight: 400;
   letter-spacing: -0.025em;
@@ -459,24 +444,8 @@ summary::-webkit-details-marker { display: none; }
   color: var(--color-copper);
 }
 
-/* Tech-debt TD7 utility classes — odstraňuje 28× duplicitní inline `style=`
-   atribut napříč pages. Před TD7: 17× `style="margin-top: 0;"`, 9× `style=
-   "font-size: clamp(2.5rem, 6vw, 4.5rem);"`, 2× `style="font-size: 0.95rem;"`. */
-
-/* `.hero-title-sm` — střední varianta hero titlu (clamp 2.5/4.5rem) pro
-   sub-section pages: /mapa, /hodinari, /sbirka, /[kategorie], /casova-osa,
-   /expozice, /kroky, /slovnik. Default `.hero-title` (clamp 2.5/5.5rem)
-   zůstává pro homepage. */
-.hero-title-sm {
-  font-size: clamp(2.5rem, 6vw, 4.5rem);
-}
-
-/* `.h2-flush` — h2 v section header bez top margin. Globální h2 pravidlo
-   přidává `margin-top: 1.5em` (kvůli odstupu mezi sekcemi v article body),
-   v section header je to nežádoucí (h2 následuje hned po `<header>` open). */
-.h2-flush {
-  margin-top: 0;
-}
+/* .hero-title-sm + .h2-flush přesunuto do @csh/ui/styles/utilities.css
+   (FU5, 2026-05-19). */
 
 /* `.intro-text` — descriptive paragraph pod hero h1 na top-level pages
    (mapa, mapa-horologie). Lehce menší než body pro vizuální hierarchii. */
