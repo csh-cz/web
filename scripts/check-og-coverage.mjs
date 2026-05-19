@@ -116,6 +116,9 @@ const TOP_LEVEL_ROUTES = [
   'hodinari', 'kronika', 'tagy', 'mapa', 'mapa-horologie', 'expozice', 'kroky',
   'casova-osa', 'pro-navstevniky', 'vice', 'podpora', 'licence', 'en',
   'soupis-veznich-hodin', 'slovnik', 'o-hodinariu',
+  // Sub-route static pages (Base.astro ogSlugFromPath bere poslední segment
+  // u kolekcí s per-page OG, takže `/sbirka/katalog` mapuje na slug `katalog`):
+  'katalog',
 ];
 for (const slug of TOP_LEVEL_ROUTES) {
   validSlugs.add(slug);
@@ -123,6 +126,19 @@ for (const slug of TOP_LEVEL_ROUTES) {
     allRequired.set(slug, { collection: 'top-level', file: '(route)' });
   }
 }
+
+// Kroky druhý zdroj — TS rejstřík (stub-only kroky bez MDX).
+try {
+  const krokyTs = readFileSync(join(ROOT, 'apps/hodinarium-eu/src/data/kroky.ts'), 'utf-8');
+  const re = /slug:\s*'([^']+)'/g;
+  let m;
+  while ((m = re.exec(krokyTs)) !== null) {
+    validSlugs.add(m[1]);
+    if (!allRequired.has(m[1])) {
+      allRequired.set(m[1], { collection: 'kroky', file: 'src/data/kroky.ts' });
+    }
+  }
+} catch { /* fallback jen na MDX */ }
 
 // === STEP 4: diff ===
 // missing = published slugy bez PNG (gate)
