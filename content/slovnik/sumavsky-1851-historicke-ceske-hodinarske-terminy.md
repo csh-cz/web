@@ -3,11 +3,11 @@ title: Šumavský 1851 — historické české hodinářské termíny
 slug: sumavsky-1851-historicke-ceske-hodinarske-terminy
 kategorie: jine
 prekladyDe:
-  - term: "*(přehled archaismů, není jediný překlad)*"
+  - term: "(přehled archaismů, není jediný překlad)"
 prekladyEn:
-  - term: "*Czech horological archaisms — Šumavský 1851 dictionary*"
+  - term: "Czech horological archaisms — Šumavský 1851 dictionary"
 prekladyFr:
-  - term: "*archaïsmes horlogers tchèques 1851*"
+  - term: "archaïsmes horlogers tchèques 1851"
 definice: "Souhrn **historických českých hodinářských termínů** zaznamenaných v slovníku Josefa Franty Šumavského *Česko-německý slovník* (1851). Jde o **pre-Špatný (1882) terminologii** — ražené české kalky a purismy 1. poloviny 19. století, **většina se neujala**. Důležitý dokumentární zdroj pro pochopení vývoje češtiny v hodinářství."
 ---
 

@@ -272,7 +272,7 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
             if (r.title || r.citace) {
               return (
                 <li id={anchorId}>
-                  {r.title && <strong>{r.title}</strong>}
+                  {r.title && <strong set:html={tinyMarkdown(r.title).replace(/^<p>|<\/p>$/g, '')} />}
                   {r.pages && <span class="slovnik-ref-pages">, s. {r.pages}</span>}
                   {r.citace && (
                     <blockquote class="slovnik-ref-citace">{r.citace}</blockquote>
