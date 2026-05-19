@@ -2,22 +2,20 @@
 title: rafije
 slug: rafije
 kategorie: mechanika
-varianty:
-  - rafije
-  - rafika
-  - rafička
-  - raphija
+definice: Archaický český termín pro **ručku** orloje nebo věžních hodin. Etymologicky *z řec. grafion* (rydlo, písátko, stylus) — středověká řečtina počáteční gammu vypouštěla, takže *grafis → rafis*, latinsky *graphium → raphia*. V moderním cs hodinářském úzu preferujeme **[ručka](/slovnik/ruka-orloje)** — viz autorský přehled níže.
+conceptId: HORO-HAND-001
 redirectTo: ruka-orloje
-definice: 'Archaický český termín pro **ručku** orloje nebo věžních hodin. Etymologicky **z řec. *grafion*** (rydlo, písátko, stylus) — středověká řečtina počáteční gammu vypouštěla, takže *grafis → rafis*, latinsky *graphium → raphia*. V moderním cs hodinářském úzu preferujeme **[ručka](/slovnik/ruka-orloje)** — viz autorský přehled níže.'
+varianty: []
 pribuzne:
   - ruka-orloje
 references:
-  - key: matzenauer-1870
-    bibKey: matzenauerCiziSlovaVe1870
+  - bibKey: matzenauerCiziSlovaVe1870
     note: 'Heslové *Raflje, rafika čes. stylus Griffel*: „starší tvar jest rafije ze řec.-lat. *grafion — stylus*, lat. *graphium — Griffel*; počát. souhláska odražena tak jako ve řec. střed. *rafis* na místě *grafis — penicillus*". MATZENAUER, Antonín. *Cizí slova ve slovanských řečech*. Brno: Matice moravská, 1870.'
-  - key: taborsky-1570
-    bibKey: taborskyzklokotskehoryZpravaStaromestskemOrloji1570
+    key: matzenauer-1870
+  - bibKey: taborskyzklokotskehoryZpravaStaromestskemOrloji1570
     note: 'Středověká alternativa *rafije* — Táborský používá **ruka**: „Vsazená jest ruka pozlacená, kteráž ukazuje na počet hodin." Termín *rafije* ani *rafika* zde nezná.'
+    key: taborsky-1570
+poslednRevize: ''
 ---
 
 ## Etymologie
