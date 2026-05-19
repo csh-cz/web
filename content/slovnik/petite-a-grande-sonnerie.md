@@ -3,9 +3,10 @@ title: petite a grande sonnerie
 slug: petite-a-grande-sonnerie
 kategorie: bici
 prekladyDe:
-  - term: "**Kleines"
-  - term: "Großes Schlagwerk** (mensí"
-  - term: velký bicí)
+  - term: Kleines Schlagwerk
+    genus: n
+  - term: Großes Schlagwerk
+    genus: n
 prekladyEn:
   - term: petite sonnerie
   - term: grande sonnerie
