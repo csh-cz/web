@@ -787,7 +787,13 @@ gh issue close 21 24 25 -R csh-cz/web
 (Note: #32a není reálný GH issue, byl follow-up k #32 který je už zavřený.
 Reálné closes: 18, 21, 24, 25, 26, 27, 34, 36.)
 
-## A.9 — Připraveno k nasazení po DNS switch
+## A.9 — Připraveno k nasazení po DNS switch (nízká priorita)
+
+> **Status 2026-05-19:** Přesun na finální adresu (`hodinarium.eu` /
+> `horologie.cz`) **odložen na neurčito** — pages.dev provoz funguje
+> bez problémů, indexace je vědomě blokovaná (interní stage). Tato
+> sekce zůstává jako check-list pro budoucí přepnutí, ale není
+> aktivní backlog. Nepouštět dokud David explicitně neoznámí DNS switch.
 
 Až se přepne DNS (viz B.3), Claude provede:
 
@@ -831,7 +837,11 @@ Claude se zatím nepustí, dokud nedojde input.
 - [ ] **Příspěvky na členských schůzích** — Petr dodá PDF / přepisy /
       audio.
 
-## B.3 — DNS přesun (David)
+## B.3 — DNS přesun (David, odloženo na neurčito)
+
+> **Status 2026-05-19:** DNS přesun odložen — pages.dev URL funguje
+> stabilně, není tlak ho měnit. Až bude vhodný moment (např. spolu
+> s redesignem nebo larger announcement), David rozhodne.
 
 - [ ] **`hodinarium.eu`** přesměrovat na Cloudflare Pages
       (nyní `hodinarium-eu.pages.dev`).
