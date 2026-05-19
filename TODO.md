@@ -291,19 +291,48 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
       úplně zdarma** (i nad limit). Naše ~400 MB je 25× pod limit.
       Cena nad limit: $0.015/GB-měsíc (symbolické).
 
+      **Decision (2026-05-19):** single bucket `csh-imgvariants` — netvořit
+      druhý bucket. JPG originály se uploadují vedle AVIF/WebP s key
+      schématem `img/<path>.jpg` (stejně jako varianty).
+
       **Kroky:**
-      1. Build script `migrate-originals-to-r2.ts` — upload `public/img/*`
+      1. ~~Build script `migrate-originals-to-r2.ts` — upload `public/img/*`
          do R2 s `x-amz-meta-*` headers (author, license, source URL,
-         checksum). Idempotent.
-      2. Před uploadem: pro každý soubor zavolat `exiftool` a zapsat
-         XMP do binárky (autor, licence, zdroj, rok). Helper script
-         `embed-xmp-from-frontmatter.ts` — čte credit z `foto[]` /
-         `Photo` direktiv / hodinari `portret` + propojené credit.
-      3. `<ResponsivePicture/>` přepnout originály na R2 URL přes
-         existing `cdnBase` config (žádný nový kód).
-      4. Po validaci (1 měsíc dual-running) → `git rm -r public/img/`.
-         Repo zhubne o stovky MB; clone bude rychlejší o ~30 s.
-      5. Sveltia CMS upload widget: přepnout z git-commit binárek
+         checksum). Idempotent.~~ ✅ 2026-05-19
+         → `scripts/migrate-originals-to-r2.mjs` (custom-metadata: creator,
+         license, source, article, md5). Idempotent přes ETag+HeadObject
+         metadata match. Spustit přes `pnpm migrate:originals` (vyžaduje
+         reálné R2 credentials v `.dev.vars`, dnes placeholder; David
+         spustí).
+      2. ~~Před uploadem: pro každý soubor zavolat `exiftool` a zapsat
+         XMP do binárky (autor, licence, zdroj, rok).~~ ✅ 2026-05-19
+         → `scripts/write-xmp-metadata.mjs`. Dokončeno na lokálních
+         souborech: hodinarium-eu 2 471/2 678 XMP zapsáno, horologie-cz
+         105/105. 1 803 souborů dostalo default `Archiv ČSH / autor
+         neznámý` — credit pokrytí v článcích je dnes 909 frontmatter +
+         4 ::photo entries; **zlepšení credit pokrytí je samostatný úkol**
+         (vyžaduje per-foto review autorů). Idempotent — re-run neměnní
+         soubory, kde už XMP je.
+      3. ~~`<ResponsivePicture/>` přepnout originály na R2 URL přes
+         existing `cdnBase` config (žádný nový kód).~~ ✅ 2026-05-19
+         → Markdown `![]()` už šlo přes rehype-picture s cdnBase
+         (`wrapInPicture: true`). `Photo.astro` komponenta (renderer
+         `::photo` direktiv) ale obcházela rehype pipeline → patchnuto
+         přidat stejný R2 rewrite + `<picture>` wrapping s AVIF/WebP
+         srcsetem.
+      4. **Validation week** (2026-05-19 → 2026-05-26):
+         - [ ] Spustit `pnpm migrate:originals` s reálnými credentials
+               (David, ~10 min uplinkem, 807 MB).
+         - [ ] Curl ověření: `curl -I https://pub-…r2.dev/img/...jpg`
+               vrátí 200 + `x-amz-meta-creator` header.
+         - [ ] Sleduj prod traffic — `hodinarium-eu.pages.dev` browser
+               console na chyby 404 pro `/img/`.
+         - [ ] Audit `pnpm deadlinks:audit` po týdnu — nulové broken images.
+      5. **Po validation week (~2026-05-26)** → samostatný PR
+         `chore: remove /public/img/ — now on R2` se commit
+         `git rm -r apps/*/public/img/`. Repo zhubne o stovky MB.
+         **NEDĚLAT** dokud David nepotvrdí validation week pass.
+      6. Sveltia CMS upload widget: přepnout z git-commit binárek
          na R2 signed URL upload (custom CMS widget, ~1 den práce).
 
       **Metadata strategie trojvrstvě:** XMP v binárce (čte Photoshop /
@@ -311,9 +340,14 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
       (rychlý lookup bez stahování), frontmatter `alt`/`caption`
       (povinný pro a11y, kontext-specific).
 
-      **Akce pro Davida:** schválit přesun bucketu (eventuálně použít
-      `csh-imgvariants` jako single bucket pro vše místo dvou).
-      Připravit `imgcdn.<doména>` DNS po A.9.
+      **Akce pro Davida:**
+      - Nastavit reálné R2 credentials v `.dev.vars` (lokálně) — dnes
+        v `.dev.vars` placeholder `<co máš v GH secrets…>`. Bez nich
+        nelze `pnpm migrate:originals` spustit.
+      - Spustit `pnpm migrate:originals` lokálně (jednorázový bulk),
+        ne pushovat zatím změny do `public/img/` (jsou jen XMP-modified
+        binary, commitnuto pro reproducibility).
+      - Připravit `imgcdn.<doména>` DNS po A.9.
 
 ---
 
