@@ -11,9 +11,11 @@ prekladyDe:
     zdroj: "Špatný 1882: Unruhe → nepokoj, váhadlo"
 varianty:
   - setrvačka
-  - balanc
-  - balanc-koleso
+  - setrváček
+  - balancka
+  - nepokoj
   - váhadlo
+  - lihýř
 prekladyEn:
   - term: balance
   - term: balance wheel
@@ -38,7 +40,9 @@ Konstrukční typy:
 - **Kompenzační setrvačka** (Earnshaw ~1782) — z bimetalového pásu (mosaz vně, ocel uvnitř), rozříznutá tak, že konce pásků se při zahřátí stáčejí dovnitř a kompenzují prodloužení vlásku
 - **Invarová setrvačka** s mosazným nálitkem na obvodu (po 1900) — moderní řešení
 
-Klíčové: **moderní cs úzus je „setrvačka"** (NE „balanc" jako primární!). „Balanc" je akceptovaný anglicismus, ale ne termín. Špatný 1882 dokumentuje historické varianty **„nepokoj"** a **„váhadlo"** (Unruhe doslova = nepokoj) — používané v 19. století, dnes vzácné, ale validní v dobových citacích. Šumavský 1851 setrvačku jako samostatný pojem ještě neměl — slučoval ji pod „kyvadlo".
+Klíčové: **moderní cs úzus je výhradně „setrvačka"**. Anglické *balance* / *balance wheel* je standardní překlad pro zahraniční literaturu, ale **v české odborné literatuře se nepoužívá** — fulltext napříč 8 učebnicemi (Sušický 1900, Špatný 1882, Sladkovský 1947, Hajn 1953, Boukal 1958, Martínek & Řehoř 1964, Bureš 1974) ho jako cs slovo nedoložil. V ústním odborném žargonu se občas vyskytuje deminutivní *balancka*, ale ne v tištěné literatuře.
+
+Špatný 1882 dokumentuje historické cs varianty **„nepokoj"** (kalk z DE *Unruhe* = doslovně „nepokoj") a **„váhadlo"** (z DE *Balancier*), **„lihýř"** byl v 19. století žargonový termín — všechny dnes vzácné, ale validní v dobových citacích. Krečmer 1878 používá deminutiv **„setrváček"**. Šumavský 1851 setrvačku jako samostatný pojem ještě neměl — slučoval ji pod „kyvadlo".
 
 ## Příbuzné termíny
 
