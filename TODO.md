@@ -689,16 +689,16 @@ target size, focus order, focus visibility.
 
 ### Akční položky
 
-- [ ] **P2 — section CTA target size** v `apps/hodinarium-eu/src/pages/index.astro`
-      (řádky 63 a 120). Fix: přidat `min-height: 24px` (nebo
-      `padding-block: 0.25rem`) na `.text-sm` linky uvnitř sekčních
-      `<header>` blocích. Lze řešit jedním společným utility classem
-      (např. `.cta-end`) pro budoucí konzistenci.
-- [ ] **P3 — soupis checkbox upscale** v
-      `apps/hodinarium-eu/src/pages/soupis-veznich-hodin/index.astro:244`.
-      Fix: `.stav-checkbox input { width: 1.25rem; height: 1.25rem; cursor: pointer; }`.
-      Klik na celý `<label>` už funguje (touch zone > 24×24), ale
-      explicit upscale je čistší pro pointer/keyboard accuracy.
+- [x] **P2 — section CTA target size** v `apps/hodinarium-eu/src/pages/index.astro`
+      (řádky 63 a 120) — hotov 2026-05-19. `.section-cta` utility class
+      (`display: inline-flex; min-height: 24px; padding-block: 0.25rem`)
+      aplikován na oba CTA odkazy. Playwright `a11y-target-size` 11/11
+      passed na live, 0 violations.
+- [x] **P3 — soupis checkbox upscale** v
+      `apps/hodinarium-eu/src/pages/soupis-veznich-hodin/index.astro:244`
+      — hotov 2026-05-19. `.stav-checkbox input { width: 24px; height: 24px;
+      accent-color: brass-bright; cursor: pointer }`. 5 checkboxů filtru
+      Stav upscaled z 13×13 px na 24×24 px včetně barevného brass accent.
 
 ### Continuous monitoring
 
