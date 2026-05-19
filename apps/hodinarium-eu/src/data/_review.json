@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T19:44:59.918Z",
+  "generatedAt": "2026-05-19T08:22:35.942Z",
   "summary": {
     "kartyTotal": 292,
     "kartyNoTyp": 93,
@@ -10,10 +10,10 @@
     "clankyNoTldr": 2,
     "clankyShort": 60,
     "clankyLegacyLinks": 37,
-    "hodinariTotal": 160,
-    "hodinariShort": 116,
+    "hodinariTotal": 165,
+    "hodinariShort": 119,
     "hodinariNoPortret": 144,
-    "soupisTotal": 429,
+    "soupisTotal": 430,
     "stubsKarty": 0,
     "stubsClanky": 0,
     "stubsHodinari": 98,
@@ -3140,7 +3140,7 @@
         "title": "Hodiny skoro z MERKURU",
         "category": "zajimavosti",
         "editUrl": "/admin/#/collections/clanky/entries/merkur",
-        "wordCount": 126
+        "wordCount": 148
       },
       {
         "slug": "mindelheim",
@@ -3154,7 +3154,7 @@
         "title": "Motorky z hodinek",
         "category": "sbirka",
         "editUrl": "/admin/#/collections/clanky/entries/motorky",
-        "wordCount": 73
+        "wordCount": 74
       },
       {
         "slug": "muzeum-aschau-burgenland",
@@ -3371,7 +3371,7 @@
         "title": "segmentovky",
         "category": "projekty",
         "editUrl": "/admin/#/collections/clanky/entries/segmentovky-s-prekladem",
-        "wordCount": 117
+        "wordCount": 126
       },
       {
         "slug": "sestka",
@@ -3905,6 +3905,12 @@
         "wordCount": 133
       },
       {
+        "slug": "georg-haller",
+        "title": "Georg Haller",
+        "editUrl": "/admin/#/collections/hodinari/entries/georg-haller",
+        "wordCount": 181
+      },
+      {
         "slug": "george-graham",
         "title": "George Graham (Jiří Graham)",
         "editUrl": "/admin/#/collections/hodinari/entries/george-graham",
@@ -4187,6 +4193,12 @@
         "wordCount": 33
       },
       {
+        "slug": "pavel-novak-plasy",
+        "title": "Pavel Novák (plaský hodinář)",
+        "editUrl": "/admin/#/collections/hodinari/entries/pavel-novak-plasy",
+        "wordCount": 177
+      },
+      {
         "slug": "peter-camaler",
         "title": "Peter Camaler",
         "editUrl": "/admin/#/collections/hodinari/entries/peter-camaler",
@@ -4305,6 +4317,12 @@
         "title": "Spel (firma)",
         "editUrl": "/admin/#/collections/hodinari/entries/spel",
         "wordCount": 1
+      },
+      {
+        "slug": "stepan-priquey",
+        "title": "Štěpán Priquey",
+        "editUrl": "/admin/#/collections/hodinari/entries/stepan-priquey",
+        "wordCount": 186
       },
       {
         "slug": "stěpán-moravus",
