@@ -91,6 +91,46 @@ jobs:
       - name: Unit tests
         run: pnpm test:unit
 
+      # 3b) Content style audits — preventivně chytí regrese stylistické
+      #    konvence ZAVEDENÉ v posledních batches (2026-05-19):
+      #      - [Zotero KEY] mentions v body  → strip-zotero-keys
+      #      - tldr markdown artefakty       → strip-tldr-markdown
+      #      - OCR drop-cap **X**y           → strip-ocr-drop-caps
+      #    Všechny tři skripty jsou idempotent — pokud něco najdou, znamená
+      #    to že editor pushuje regression a workflow padne.
+      #    Skripty NIC neopravují (žádný --apply), jen audit + non-zero exit.
+      - name: Audit citation style (no [Zotero KEY] in body)
+        run: |
+          OUTPUT=$(grep -rE "\[Zotero\s+\`" content/ 2>/dev/null || true)
+          if [ -n "$OUTPUT" ]; then
+            echo "::error::Body contains [Zotero KEY] mentions — must be in references[].zoteroKey (skrytý field):"
+            echo "$OUTPUT" | head -10
+            exit 1
+          fi
+          echo "✓ 0 [Zotero KEY] mentions in body"
+
+      - name: Audit tldr markdown (must be plaintext)
+        run: |
+          OUTPUT=$(node scripts/strip-tldr-markdown.mjs 2>&1 | tail -n +5)
+          TOUCHED=$(echo "$OUTPUT" | grep -oE "Touched: [0-9]+" | grep -oE "[0-9]+")
+          if [ "$TOUCHED" != "0" ]; then
+            echo "::error::tldr fields contain markdown artefakty — run \`node scripts/strip-tldr-markdown.mjs --apply\`:"
+            echo "$OUTPUT" | head -20
+            exit 1
+          fi
+          echo "✓ tldr fields are plaintext"
+
+      - name: Audit OCR drop-caps (no **X**y patterns)
+        run: |
+          OUTPUT=$(node scripts/strip-ocr-drop-caps.mjs 2>&1 | tail -n +5)
+          STRIPPED=$(echo "$OUTPUT" | grep -oE "Pattern A stripped:\s+[0-9]+" | grep -oE "[0-9]+$")
+          if [ "$STRIPPED" != "0" ]; then
+            echo "::error::Body contains OCR drop-cap **X**y artefakty — run \`node scripts/strip-ocr-drop-caps.mjs --apply\`:"
+            echo "$OUTPUT" | head -25
+            exit 1
+          fi
+          echo "✓ 0 OCR drop-cap artefakty"
+
       # 4) Astro check (TypeScript + content collection schemas). Tohle je
       #    kritický krok — chytí Sveltia null bugs typu „workflow: null"
       #    DŘÍVE než CF Pages tichý fail. Po fixu sveltiaCleanNulls
