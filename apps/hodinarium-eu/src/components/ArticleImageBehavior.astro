@@ -533,6 +533,9 @@ import imageSizes from '../data/image-sizes.json';
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     gap: 0.75rem;
     margin-block: 1.5rem;
+    /* Issue #27: gallery na konci článku — bez clear se footer/byline
+       může na úzkých layoutech (max-width: 72ch) napsat přes obrázky. */
+    clear: both;
   }
   @media (min-width: 640px) {
     .article-gallery {
