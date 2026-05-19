@@ -247,9 +247,8 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
           ))}
         </fieldset>
 
-        <button type="button" id="f-reset" class="filter-reset" disabled aria-label="Smazat všechny aktivní filtry">
+        <button type="button" id="f-reset" class="filter-reset" disabled aria-label="Smazat všechny aktivní filtry" title="Smazat všechny aktivní filtry">
           <i class="fa-solid fa-arrow-rotate-left" aria-hidden="true"></i>
-          Smazat filtry
           <span class="filter-reset-count" data-reset-count hidden></span>
         </button>
       </div>
@@ -308,6 +307,11 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
             : lastFirst(h.data.hodinarText || '');
           return (
             <tr
+              class="row-link"
+              data-href={`/soupis-veznich-hodin/${h.data.slug}/`}
+              tabindex="0"
+              role="link"
+              aria-label={`Otevřít kartu: ${h.data.puvodniMisto.obec}${h.data.puvodniMisto.budova ? ', ' + h.data.puvodniMisto.budova : ''}`}
               data-hodinar={hodinarKey}
               data-hodinar-name={hodinarDisplay}
               data-rok={yrSafe}
@@ -321,12 +325,12 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
               data-stav={h.data.stav}
             >
               <td class="soupis-col-thumb col-thumb">
-                {hero && <a href={`/soupis-veznich-hodin/${h.data.slug}/`} class="soupis-thumb-link"><img src={hero.src} alt={hero.alt ?? ''} loading="lazy" decoding="async" /></a>}
+                {hero && <img src={hero.src} alt={hero.alt ?? ''} loading="lazy" decoding="async" />}
               </td>
               <td class="col-rok"><strong>{h.data.rok}</strong></td>
               <td class="col-hodinar">
                 {h.data.hodinar ? (
-                  <a href={`/hodinari/${h.data.hodinar}`} title={displayHodinar(h.data.hodinar)}>{hodinarDisplay}</a>
+                  <a href={`/hodinari/${h.data.hodinar}`} class="cell-link-escape" title={displayHodinar(h.data.hodinar)}>{hodinarDisplay}</a>
                 ) : h.data.hodinarText ? (
                   <span class="muted" title={h.data.hodinarText}>{hodinarDisplay}</span>
                 ) : (
@@ -334,9 +338,7 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
                 )}
               </td>
               <td class="col-misto">
-                <a href={`/soupis-veznich-hodin/${h.data.slug}/`}>
-                  {h.data.puvodniMisto.obec}
-                </a>
+                {h.data.puvodniMisto.obec}
               </td>
               <td class="col-budova">{h.data.puvodniMisto.budova || <span class="muted">—</span>}</td>
               <td class="col-kraj cell-region">
@@ -581,6 +583,38 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
       });
 
       readUrl();
+
+      // Klik na řádek → detail karty. (Issue #34.)
+      // .cell-link-escape (hodinař na medailon) má vlastní <a> a vyšší z-index,
+      // klik na něj nezachytíme — bublá na <a> a nativní navigace zafunguje.
+      // Ctrl/Cmd/middle-click → nová záložka (jak browsers očekávají).
+      function rowNavigate(tr, openInNewTab) {
+        const href = tr.getAttribute('data-href');
+        if (!href) return;
+        if (openInNewTab) window.open(href, '_blank', 'noopener');
+        else window.location.assign(href);
+      }
+      table.addEventListener('click', (ev) => {
+        const tr = ev.target.closest('tr.row-link');
+        if (!tr) return;
+        // Klik na inline link (jméno hodináře, …) nech projít na anchor.
+        if (ev.target.closest('a, button, input, label')) return;
+        rowNavigate(tr, ev.metaKey || ev.ctrlKey || ev.button === 1);
+      });
+      table.addEventListener('auxclick', (ev) => {
+        if (ev.button !== 1) return; // jen middle-click
+        const tr = ev.target.closest('tr.row-link');
+        if (!tr || ev.target.closest('a, button')) return;
+        ev.preventDefault();
+        rowNavigate(tr, true);
+      });
+      table.addEventListener('keydown', (ev) => {
+        if (ev.key !== 'Enter') return;
+        const tr = ev.target.closest('tr.row-link');
+        if (!tr || ev.target.closest('a, button, input')) return;
+        ev.preventDefault();
+        rowNavigate(tr, ev.metaKey || ev.ctrlKey);
+      });
     })();
   </script>
 </Base>
@@ -693,8 +727,11 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
     align-self: end;
     display: inline-flex;
     align-items: center;
-    gap: 0.45rem;
-    padding: 0.4rem 0.95rem;
+    justify-content: center;
+    gap: 0.35rem;
+    padding: 0;
+    width: 2rem;
+    height: 2rem;
     background: transparent;
     color: var(--color-text-muted);
     border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
@@ -702,7 +739,6 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
     font: inherit;
     font-size: 0.9rem;
     cursor: not-allowed;
-    height: 2rem;
     transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
   }
   .filter-reset[disabled] {
@@ -726,20 +762,25 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
   .filter-reset .fa-arrow-rotate-left {
     font-size: 0.85em;
   }
+  /* Icon-only reset: počet aktivních filtrů jako badge v pravém horním rohu */
   .filter-reset-count {
+    position: absolute;
+    top: -0.4em;
+    right: -0.4em;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 1.4em;
-    padding: 0 0.35em;
-    height: 1.4em;
+    min-width: 1.2em;
+    padding: 0 0.3em;
+    height: 1.2em;
     background: var(--color-copper);
     color: var(--color-ink);
     border-radius: 999px;
-    font-size: 0.75em;
+    font-size: 0.7em;
     font-weight: 600;
     line-height: 1;
   }
+  .filter-reset { position: relative; }
   .filter-reset.is-active:hover .filter-reset-count {
     background: var(--color-bg-deep);
     color: var(--color-brass-bright);
@@ -755,6 +796,17 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
     font-style: normal;
   }
   .hidden { display: none !important; }
+
+  /* Klikatelný řádek tabulky — celý <tr> otevírá detail. Hover state +
+     keyboard focus pro a11y. .cell-link-escape (jméno hodináře) bublá
+     mimo row-handler na svůj vlastní target (/hodinari/<slug>). */
+  tr.row-link { cursor: pointer; transition: background 0.12s ease; }
+  tr.row-link:hover { background: color-mix(in srgb, var(--color-brass) 7%, transparent); }
+  tr.row-link:focus-visible {
+    outline: 2px solid var(--color-brass-bright);
+    outline-offset: -2px;
+  }
+  tr.row-link .cell-link-escape { position: relative; z-index: 1; }
 
   .empty-state {
     padding: 2rem;
