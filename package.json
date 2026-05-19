@@ -10,7 +10,7 @@
     "catalog:hodinarium": "tsx scripts/build-catalog.ts",
     "download:hodinarium": "tsx scripts/download-assets.ts",
     "redirects:hodinarium": "tsx scripts/build-redirects.ts",
-    "og:build": "tsx scripts/build-og-images.ts",
+    "og:build": "pnpm catalog:hodinarium && tsx scripts/build-og-images.ts && node scripts/cleanup-orphan-og.mjs --apply",
     "og:check": "node scripts/check-og-coverage.mjs",
     "og:check:ci": "node scripts/check-og-coverage.mjs --ci",
     "lhci": "lhci autorun --config=lighthouserc.json",
