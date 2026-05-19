@@ -45,9 +45,9 @@ Polarizační rovinu můžeme zjišťovat natáčením polarizačního filtru. U
 
 **D**alší vývojová etapa by zahrnovala vložení aretovatelně otočného skla za filtr s namalovanou ručičkou. Také filtr by měl býr uložen v přípravku s kompasem pro snadnější orientaci, nebo na pevném stanovičti. Pro realizaci těchto hodin jsem vybral styl steampunk. Hodiny jsou pro držení v ruce doplněny pažbou a kompasem pro orientaci.
 
-![Fotografie 6](/img/nonsens2015/f/foto_0006.jpg)
+![Naše zkušenosti](/img/nonsens2015/f/foto_0006.jpg)
 
-![Fotografie 7](/img/nonsens2015/f/foto_0007.jpg)
+![Naše zkušenosti](/img/nonsens2015/f/foto_0007.jpg)
 
 Při pokusech jsem zaznamenal i jakési podivné chování filtru. Teprve po chvíli jsem si uvědomil, že i mé sluneční brýle jsou částečně polarizační a docházá ke křížení polarizátorů. Přiložený proužek celofánu na brýle měl podobný efekt. Celý efekt pootočení roviny polarizace můžete doma dobře pozorovat v polarizovaném světle vašeho LCD monitoru.
 

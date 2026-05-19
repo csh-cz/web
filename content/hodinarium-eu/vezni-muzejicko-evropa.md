@@ -77,9 +77,9 @@ Muzeum sídlí ve věži kostela sv. Kateřiny. Jedná se o pobočku Historické
 
 Věžní hodinářské museum bylo založeno v roce 1996. Naštěstí požár, který vypukl v kostele 22. května 2006, měl za následek pouze drobné poškozením exponátů muzea převážně od vody použité k hašení. Požár však vážně poškodil věž. Během rekonstrukce věže bylo muzeum uzavřeno a probíhaly opravy a údržba exponátů. Před opětovným otevřením byla uspořádána výstava, ze které jsou vystavené fotografie. Mimo jiné dokazují, jak působivá je hra světla na starých exponátech a cihlových zdech.Jako raritu je třeba uvést, že zde jsou od roku 2011 vystaveny pulsarové hodiny, které jako časovou základnu používají impulsy vysílané pulsary.
 
-![Fotografie 14](/img/Mindelheim/f/foto_0014.jpg)
+![Muzeum Zegarów Wieżowych Gdaňsk](/img/Mindelheim/f/foto_0014.jpg)
 
-![Fotografie 12](/img/Mindelheim/f/foto_0012.jpg)Mindelheim
+![Muzeum Zegarów Wieżowych Gdaňsk](/img/Mindelheim/f/foto_0012.jpg)Mindelheim
 
 Rozsáhlé muzeum věžních hodin v bývalém kostele sv. Silvestra bylo založeno v roce 1979 učitelem Wolgangem Vogtem. V současné době vystavuje asi 50 věžních hodin od 30 výrobců z let 1562 - 1933. Kurátor a majitel sbírá věžní hodiny už cca 35 let. Říká, že pokud na ně má, tak si je koupí sám a pokud jsou drahé zakoupí je Město. Město také hradí i provoz muzea.
 

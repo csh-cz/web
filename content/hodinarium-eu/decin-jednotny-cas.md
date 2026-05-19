@@ -47,9 +47,9 @@ Zachovalo se poměrně málo výrobků s označením "Jednotný čas" na cifern�
 
 Hodinový stroj je zapuštěn do masivního dřevěného bloku. Tvar je spíše moderna než kubismus. Chybí bohužel přední rámeček a ani nemáme žádnou fotografii, jak vypadal. Dobu výroby odhadujeme spíše na dobu před II. světovou válkou, ačkoliv firma dovážela strojky až do roku 1944. Na schránce vzadu je namalované pořadové či inventární číslo 309.
 
-![Fotografie 2](/img/elektrika/jednotny_cas/f/foto_0002.jpg)
+![Hodiny značené firmou Jednotný čas](/img/elektrika/jednotny_cas/f/foto_0002.jpg)
 
-![Fotografie 3](/img/elektrika/jednotny_cas/f/foto_0003.jpg)
+![Hodiny značené firmou Jednotný čas](/img/elektrika/jednotny_cas/f/foto_0003.jpg)
 
 Podružný strojek je značen EZ 110838, což odpovídá značení ve firmě Telefonbau und Normalzeit od které firma Jednotný čas strojky běžně kupovala. Možná byla zřízena jako filiálka této německé firmy.
 

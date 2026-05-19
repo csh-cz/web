@@ -32,7 +32,7 @@ Naše hodiny označené jako Bürk - Bundy Original používají hodinový stroj
 
 U našeho exponátu se bohužel nezachoval odlitek předního kola s otvory pro vedení ovládací páky, ani tato páka. Odlitek je symbolizován plexisklem vyřezaným laserem. Po hodinářské stránce je exponát v chodu.
 
-![Fotografie 15](/img/decin/foto201707/f/foto_0015.jpg)
+![Píchačky - kontrolní hodiny - časová razítka](/img/decin/foto201707/f/foto_0015.jpg)
 
 ## Píchačky Laplace
 
