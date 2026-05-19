@@ -28,9 +28,7 @@ const drafts = all
     title: e.data.title,
     category: e.data.category,
     podsekce: e.data.podsekce,
-    href: e.data.podsekce === 'karta'
-      ? `/sbirka/karta/${e.id}`
-      : clanekHref({ slug: e.data.slug, category: e.data.category }),
+    href: clanekHref({ slug: e.data.slug, category: e.data.category, podsekce: e.data.podsekce }),
     cmsEditUrl: `/admin/#/collections/${e.data.podsekce === 'karta' ? 'karty' : 'clanky'}/entries/${e.id}`,
     inv: e.data.karta?.inventarniCislo,
     lastModified: e.data.lastModified,

@@ -40,7 +40,7 @@ export async function GET(context: APIContext) {
     site: context.site ?? SITE,
     items: items.map(({ entry, pub }) => ({
       title: entry.data.title,
-      link: clanekHref({ slug: entry.data.slug, category: entry.data.category }),
+      link: clanekHref({ slug: entry.data.slug, category: entry.data.category, podsekce: entry.data.podsekce }),
       pubDate: pub,
       description: entry.data.tldr ?? KAT_LABELS[entry.data.category] ?? entry.data.category,
       categories: [entry.data.category],

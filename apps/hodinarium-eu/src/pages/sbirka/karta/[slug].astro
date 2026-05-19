@@ -188,7 +188,7 @@ const kartaJsonLd = {
         <ul class="komplet-list">
           {komponenty.map((k) => (
             <li>
-              <a href={k.isKarta ? `/sbirka/karta/${k.slug}/` : clanekHref({ slug: k.slug, category: k.category })}>
+              <a href={clanekHref({ slug: k.slug, category: k.category, podsekce: k.isKarta ? 'karta' : undefined })}>
                 <strong>{k.title}</strong>
                 {k.isKarta && <span class="komplet-badge">karta</span>}
               </a>
@@ -208,7 +208,7 @@ const kartaJsonLd = {
         <ul class="vazane-clanky-list">
           {vazaneClanky.map((a) => (
             <li>
-              <a href={clanekHref({ slug: a.data.slug, category: a.data.category })}>
+              <a href={clanekHref({ slug: a.data.slug, category: a.data.category, podsekce: a.data.podsekce })}>
                 <strong>{a.data.title}</strong>
               </a>
             </li>
