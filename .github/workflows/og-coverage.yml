@@ -1,12 +1,20 @@
-# OG image coverage gate.
+# OG image coverage gate + auto-build.
 #
-# Verifikuje že všechny published články, karty, medailony, hesla, kroky
-# a kronika záznamy mají odpovídající `apps/hodinarium-eu/public/og/<slug>.png`.
-# Editor musí spustit `pnpm og:build` po přidání nového obsahu a commitnout
-# výsledek. Pokud zapomene, tato workflow PR/push fail.
+# Strategie (2026-05-19 systematizace):
+#   PR        → jen `check` job (audit-only, fail pokud chybí OG)
+#   push main → `build` job: regenerace chybějících OG + cleanup orphans +
+#               auto-commit zpět do main s `[skip ci]` markerem
 #
-# Spouští se na PR a push do main, pokud se mění content/* nebo build-og-images
-# script. Skip pro pure docs/TODO commity (nemají dopad na OG).
+# Proč auto-build, ne enforce na editorovi:
+#   Sveltia CMS commitne nový článek bez OG (CMS interface nepushuje
+#   `pnpm og:build`). Bez auto-buildu by Sveltia commit → CF Pages deploy
+#   triggered → og-coverage workflow fail → red badge + zmatek. Auto-build
+#   v CI je idempotent (resvg-js, ~2 s per image) a uzavírá smyčku.
+#
+# Recursive trigger prevention:
+#   Auto-commit má `[skip ci]` v message, takže netriggruje další běh
+#   tohoto ani content-validate workflow. Pokud z nějakého důvodu commit
+#   nedopadne (rebase race apod.), nejhůř se pokus zopakuje při dalším push.
 
 name: OG image coverage
 
@@ -17,6 +25,7 @@ on:
       - 'content/**'
       - 'scripts/build-og-images.ts'
       - 'scripts/check-og-coverage.mjs'
+      - 'scripts/cleanup-orphan-og.mjs'
       - 'apps/hodinarium-eu/public/og/**'
   push:
     branches: [main]
@@ -24,14 +33,23 @@ on:
       - 'content/**'
       - 'scripts/build-og-images.ts'
       - 'scripts/check-og-coverage.mjs'
-      - 'apps/hodinarium-eu/public/og/**'
+      - 'scripts/cleanup-orphan-og.mjs'
+
+# Jenom 1 běh per ref — pokud přijde další commit, předchozí běh zruš.
+concurrency:
+  group: og-coverage-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
+  # === PR: audit only ===
+  # Žádný pnpm install (script je čistý Node std lib) — ~30 s běh.
+  # Cíl: rychle dát editorovi vědět, že chybí OG, ale nedělá auto-build
+  # v PR brache (auto-commit v PR by zamotal review history).
   check:
-    name: og:check --ci
+    name: og:check (PR audit)
+    if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 5
-
     steps:
       - uses: actions/checkout@v4
 
@@ -39,8 +57,106 @@ jobs:
         with:
           node-version: '22'
 
-      # check-og-coverage.mjs nemá runtime deps mimo Node std lib —
-      # žádné `pnpm install` ani pnpm setup, rychlejší CI (~30 s).
-
       - name: Run OG coverage check
         run: node scripts/check-og-coverage.mjs --ci
+
+      - name: Summary on failure
+        if: failure()
+        run: |
+          echo "## ⚠️ OG image coverage selhalo" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Chybí PNG pro nově přidané články. Možnosti opravy:" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**A) Lokálně:** \`pnpm og:build\` + commit \`apps/hodinarium-eu/public/og/*.png\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**B) Auto:** mergni PR — \`og:build\` job na main automaticky doplní chybějící obrázky." >> $GITHUB_STEP_SUMMARY
+
+  # === push to main: auto-build + cleanup ===
+  # Vytvoří chybějící OG, smaže orphan PNG, commitne zpět do main.
+  # Skip pokud commit má `[skip og-build]` (manuální escape hatch) nebo
+  # `[skip ci]` (běžně z předchozího auto-commitu téhož workflow).
+  build:
+    name: og:build (auto-commit)
+    if: github.event_name == 'push' && !contains(github.event.head_commit.message, '[skip og-build]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write   # potřeba pro git push do main
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Použij PAT pokud existuje, jinak GITHUB_TOKEN. PAT je nutný
+          # pokud branch protection vyžaduje signed/admin push (zatím ne).
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.9.0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build OG images (idempotent)
+        # build-og-images.ts iteruje VŠECHNY published slugy a regeneruje
+        # výsledek do public/og/. Pro existující PNG je idempotent (deterministicky
+        # vyrobí stejný byte stream), takže `git diff` ukáže jen reálné novinky.
+        run: pnpm og:build
+
+      - name: Cleanup orphan OG PNG
+        # Smaže PNG slugy, které už neexistují v contentu (D6 rename leftovers,
+        # smazané články, atd.). Apply mode protože jsme na main, ne PR.
+        run: node scripts/cleanup-orphan-og.mjs --apply
+
+      - name: Verify coverage now passes
+        # Sanity check — po build + cleanup MUSÍ být missing = 0.
+        # Pokud ne, je v build-og-images.ts nějaká edge case, kterou
+        # nepokrýváme, a chceme se dozvědět hned (ne tichý drift).
+        run: node scripts/check-og-coverage.mjs --ci
+
+      - name: Commit + push regenerated OG
+        env:
+          COMMIT_MSG: |
+            chore(og): auto-rebuild OG images + cleanup orphans [skip ci]
+
+            Triggered by: ${{ github.event.head_commit.id }}
+            ${{ github.event.head_commit.message }}
+
+            Co-Authored-By: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+        run: |
+          set -e
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+          git add apps/hodinarium-eu/public/og/
+
+          if git diff --staged --quiet; then
+            echo "✓ Žádné OG změny — coverage je up-to-date."
+            exit 0
+          fi
+
+          echo "Změny v OG:"
+          git diff --staged --stat apps/hodinarium-eu/public/og/
+
+          git commit -m "$COMMIT_MSG"
+
+          # Rebase pull pro race condition (concurrent push během našeho běhu).
+          # Pokud se nepodaří, soft-fail — appex automatický retry next push.
+          git pull --rebase origin main || {
+            echo "::warning::rebase failed, skipping push — bude se to zkusit na další push"
+            exit 0
+          }
+          git push origin HEAD:main
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## ✓ OG coverage auto-build" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          node scripts/check-og-coverage.mjs --json | \
+            node -e "const r = JSON.parse(require('fs').readFileSync(0,'utf8')); console.log('Requested: ' + r.summary.requiredTotal); console.log('Existing:  ' + r.summary.existingOgTotal); console.log('Missing:   ' + r.summary.missingCount); console.log('Coverage:  ' + r.summary.coveragePct + ' %');" >> $GITHUB_STEP_SUMMARY || true

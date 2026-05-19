@@ -75,7 +75,11 @@ function parseEntry(file) {
   return { slug: filename, draft: false };
 }
 
+// allRequired = slugy, které MAJÍ mít OG (publikované — gating pro CI mode)
+// validSlugs   = všechny existující content slugy včetně draftů/stubů
+//                (orphan detection vs. cleanup script — drafty NEsmí být orphan)
 const allRequired = new Map(); // slug → { collection, file }
+const validSlugs = new Set();  // všechny slugy z FS (i drafty)
 const skippedDrafts = [];
 
 for (const [colName, dir] of Object.entries(collections)) {
@@ -86,6 +90,9 @@ for (const [colName, dir] of Object.entries(collections)) {
       const filePath = join(fullDir, f);
       const entry = parseEntry(filePath);
       if (!entry) continue;
+      // Slug určit i pro drafty (fallback na filename pokud chybí explicitní)
+      const slug = entry.slug || f.replace(/\.(md|mdx)$/, '');
+      validSlugs.add(slug);
       if (entry.draft) {
         skippedDrafts.push(`${colName}/${f}`);
         continue;
@@ -111,12 +118,16 @@ const TOP_LEVEL_ROUTES = [
   'soupis-veznich-hodin', 'slovnik', 'o-hodinariu',
 ];
 for (const slug of TOP_LEVEL_ROUTES) {
+  validSlugs.add(slug);
   if (!allRequired.has(slug)) {
     allRequired.set(slug, { collection: 'top-level', file: '(route)' });
   }
 }
 
 // === STEP 4: diff ===
+// missing = published slugy bez PNG (gate)
+// orphans = PNG bez ŽÁDNÉHO odpovídajícího slugu (i drafty count jako valid —
+//           jejich PNG zůstává až do skutečného smazání souboru)
 const missing = [];
 const orphans = [];
 
@@ -125,9 +136,8 @@ for (const [slug, info] of allRequired.entries()) {
     missing.push({ slug, ...info });
   }
 }
-const requiredSet = new Set(allRequired.keys());
 for (const slug of existingOg) {
-  if (!requiredSet.has(slug)) {
+  if (!validSlugs.has(slug)) {
     orphans.push(slug);
   }
 }
