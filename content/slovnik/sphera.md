@@ -10,6 +10,7 @@ pribuzne:
   - okolek
   - pukla
   - pravidlo-orloje
+  - ruka-orloje
   - zodiak
 isStub: true
 references:
