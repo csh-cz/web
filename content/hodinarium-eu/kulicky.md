@@ -14,7 +14,7 @@ tldr: 'Tři funkční role kuliček v hodinářské konstrukci — časový norm
 ---
 ![Congrevovy hodiny s kuličkou místo oscilátoru](/img/congrevovy1.jpg)
 
-**V**alící se kuličky se kupodovu používají v hodinářství poměrně hojně a to dokonce v několika funkcích.
+Valící se kuličky se kupodovu používají v hodinářství poměrně hojně a to dokonce v několika funkcích.
 
 Jednak se mohou používat **ve funkci časového normálu.** Hodiny jsou založeny na poznatku Galilea, že kulička proběhne stejnou dráhu za stejný čas. Poprvé se hodiny s tímto kuriózním "oscilátorem" asi objevili již na sklonku 16. století. V roce 1808 na tomto principu vznikly **Congrevovy hodiny**(na obrázku - klikněte pro zvětšení).
 

@@ -21,9 +21,9 @@ Hodiny byly v chodu do roku 1959. Pak byly s úctou demontovány a uloženy vče
 
 Nalezené součásti byly nejprve rozneseny po místnosti. Vybrány byly části rámu a kola jicího a [bicího stroje](/slovnik/bici-stroj). Po nalezení klínků mohlo již začít sestavení rámu a navěšení jednotlivých kol. Za necelé 2 hodiny byl stroj připraven na první prohlídku představitelů města.
 
-**P**rohlídka dopadla příznivě a tak do Rady města schválila návrh na **restaurování strojů pro účely vystavení**.
+Prohlídka dopadla příznivě a tak do Rady města schválila návrh na **restaurování strojů pro účely vystavení**.
 
-**N**ávrh byl schválen a díky restaurátorskému ateliéru manželů Skálových můžete i vy vidět sestavený stroj ve Věžním muzejíčku.
+Návrh byl schválen a díky restaurátorskému ateliéru manželů Skálových můžete i vy vidět sestavený stroj ve Věžním muzejíčku.
 
 [Fotografie z výstavy](/kronika/vez1) v roce 2010 také najdete na našich stránkách.
 

@@ -8,11 +8,11 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:40.635Z"
 tldr: 'Archiv ke stažení obsahující freeware utility z dílny členů spolku (počítačové kukačky M. Špačka, metronom), historické katalogy hodin Bulle a Trenkle a několik zvukových vzorků odbíjení.'
 ---
-**V**irtuální muzeum má tu výhodu, že může některé své exponáty přímo virtuálně šířit. V této části najdete jednak programy našich "klubáků" a různé převzaté programy (pokud autoři takovéto šíření dovolují) a jednak rozličné katalogy.
+Virtuální muzeum má tu výhodu, že může některé své exponáty přímo virtuálně šířit. V této části najdete jednak programy našich "klubáků" a různé převzaté programy (pokud autoři takovéto šíření dovolují) a jednak rozličné katalogy.
 
 **PROGRAMY**
 
-**V**lajkovou lodí jsou **počítačové kukačky 1.0 Beta** pana Michala Špačka (Giovanni) Program vytvoří v počítači virtuální bicí hodiny, které stejně jako hodiny věžní, dokáží "odbíjet čas". Na výběr je pět různých gongů, cimbálů či zvonů včetně klasického zvuku "kukaček". Nastavit lze odbíjení v celou hodinu jednou nebo tolikrát, kolik je hodin. Lze nastavit odbíjení na konkrétní minuty. Dostupný je i **"Big Ben mód"**, který napodobuje chování zvonů Big Ben v Londýně. Viz [www.giovannisoft.cz](http://web.archive.org/web/20170627153127/http://www.giovannisoft.cz/)
+Vlajkovou lodí jsou **počítačové kukačky 1.0 Beta** pana Michala Špačka (Giovanni) Program vytvoří v počítači virtuální bicí hodiny, které stejně jako hodiny věžní, dokáží "odbíjet čas". Na výběr je pět různých gongů, cimbálů či zvonů včetně klasického zvuku "kukaček". Nastavit lze odbíjení v celou hodinu jednou nebo tolikrát, kolik je hodin. Lze nastavit odbíjení na konkrétní minuty. Dostupný je i **"Big Ben mód"**, který napodobuje chování zvonů Big Ben v Londýně. Viz [www.giovannisoft.cz](http://web.archive.org/web/20170627153127/http://www.giovannisoft.cz/)
 
 [Stáhnout](download/pckukacky_setup.exe) 1.5 MB
 

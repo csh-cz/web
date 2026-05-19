@@ -16,7 +16,7 @@ Pan doktor Jegorov má mnoho zajímavých zájmů a jedním z nich je i konstruo
 
 Při cestě do Rakouska obdivoval vodní hodiny od sochaře Elmsteinera (v **[Reichethalu](/img/vodni/reichental.jpg)** a **[Pieberschlagu](/img/vodni/pieberschlag.jpg)**) a rozhodl se vyrobit si své. Požádali jsme ho o bližší informace.
 
-**P**an doktor Jegorov píše: *".... vše je založeno na přesném vyvážení kývajícího se hranolu který má na konci mističku, do které přitéká shora «čůrek» vody, kývne se, voda se vylije a hranol se narovná a vše se opakuje. Hlavní problémem při mé výrobě bylo právě vymyslet vhodné uložení, takže od klasických kuličkových ložisek přes různé valivé konstrukce jsem dospěl k ose z RADEKA, která má spodní břit a ten se kýve ve vybroušeném loži opět z RADEKA. (RADEKO - ocel, ze které se dělají soustružnické nože.)*
+Pan doktor Jegorov píše: *".... vše je založeno na přesném vyvážení kývajícího se hranolu který má na konci mističku, do které přitéká shora «čůrek» vody, kývne se, voda se vylije a hranol se narovná a vše se opakuje. Hlavní problémem při mé výrobě bylo právě vymyslet vhodné uložení, takže od klasických kuličkových ložisek přes různé valivé konstrukce jsem dospěl k ose z RADEKA, která má spodní břit a ten se kýve ve vybroušeném loži opět z RADEKA. (RADEKO - ocel, ze které se dělají soustružnické nože.)*
 
 !
 

@@ -23,7 +23,7 @@ Pokud bychom chtěli podniknout cestu za květinovými hodinami, které se nalé
 
 **V** Evropě bychom se zastavili ještě v **Ženevě**. (Obrázek vlevo) Zde jsou květinové hodiny symbolem profese, která stát proslavila. Květinové hodiny jsou umístěny na levém břehu jezera v Anglické zahradě (Jardin Anglais). Jejich ciferník má průměr kolem 3 m.
 
-**D**alším evropským městem je **Žitava.** (Obrázek vpravo) Její květinové hodiny se nalézají v parku u Řeznické bašty (Fleischerbastei) a jsou doplněny zvonkohrou se zvonky z míšeňského porcelánu.
+Dalším evropským městem je **Žitava.** (Obrázek vpravo) Její květinové hodiny se nalézají v parku u Řeznické bašty (Fleischerbastei) a jsou doplněny zvonkohrou se zvonky z míšeňského porcelánu.
 
 ![Ženeva](/img/kvetinove/Zeneva.jpg)
 
@@ -35,4 +35,4 @@ Květinové hodiny najdeme i v maďarském **Székesfehérvár** a slovenských 
 
 Takto bychom mohli cestovat dlouho (jistě jsme neobjevili všechny květinové hodiny), ale říká se "všude dobře, doma nejlépe". Těší nás, že květinové hodiny najdeme i u nás, například v **Novém** **Městě nad Metují** (obrázek vlevo). Zaniklé hodiny v Chomutově jsou na obrázku vpravo. Možná, že se v Chomutově situace změní a hodiny budou znovu zřízeny na jiném místě. Uvidíme, zda se záměr podaří profinancovat.
 
-**Z**atím nejslavnější květinové hodiny v naší republice jsou však v **Poděbradech.** Proslavily se nejen svou květinovou úpravou, ale i svou "atrakcí" - trpaslíkem odbíjejícím [kladívkem](/slovnik/kladivko) do muchomůrky. V případě poděbradských hodin můžeme v současnosti hovořit o "kauze", právě v souvislosti s jejich rekonstrukcí, či spíše "rekonstrukcí". Věnovali jsme jim samostatnou kapitolu [zde](/clanky/podebrady).
+Zatím nejslavnější květinové hodiny v naší republice jsou však v **Poděbradech.** Proslavily se nejen svou květinovou úpravou, ale i svou "atrakcí" - trpaslíkem odbíjejícím [kladívkem](/slovnik/kladivko) do muchomůrky. V případě poděbradských hodin můžeme v současnosti hovořit o "kauze", právě v souvislosti s jejich rekonstrukcí, či spíše "rekonstrukcí". Věnovali jsme jim samostatnou kapitolu [zde](/clanky/podebrady).

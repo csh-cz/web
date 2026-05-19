@@ -25,10 +25,10 @@ Nejjednodušší je, vyříznout číslice to stínícího plechu. Nastavují se
 
 Podstatně složitější konstrukce je u hodin představených na stránce [www.hineslab.com](http://www.hineslab.com/digital-sundial/) Opět jde o hodiny, které převádějí úhel natočení Země ke Slunci na giditální hodnotu. Pomocí stínících masek a světlovodů rozsvěcujících sedmisegmentový displej. Které segmenty budou svítit ovlivňuje soustava štěrbin v stínící masce. Při zdánlivém pohybu Slunce světlo procházející štěrbinou postupně dopadá na různé kombinace světlovodných vláken sestavených tak, aby displej zobrazoval příslušnou číslici. Na animovaných obrázcích je to k vidění na původních stránkách.
 
-**L**ze vytvořit ještě mnohé konstrukce. Podívejte se například na stránku [parku slunečních hodin](http://www.fransmaes.nl/genk/welcome-e.htm) v Holandsku. Zajímavé jsou třeba hodiny Sonius' Tree.
+Lze vytvořit ještě mnohé konstrukce. Podívejte se například na stránku [parku slunečních hodin](http://www.fransmaes.nl/genk/welcome-e.htm) v Holandsku. Zajímavé jsou třeba hodiny Sonius' Tree.
 
 ## Stínící dvojitá soustava štětbin
 
-**T**řetí systém a asi nejzajímavější systém představuje stránka [www.digitalsundial.com.](http://www.digitalsundial.com/product.html) Jde o digitální zobrazení času vzniklé dvojitou soustavou štěrbin. ![slunecni digi 1](/img/slunecni/slunecni_digi1.jpg) Podle hodinového úhlu pod kterým dopadá sluneční paprsek, soustava štěrbin propustí jen tu část světla, která vytvoří obraz číslice. Je to myšlenka velmi prostá avšak realizovatelná až moderní technologií. Výroba soustavy stínících pásků napařených na skle vyžaduje značnou přesnost.
+Třetí systém a asi nejzajímavější systém představuje stránka [www.digitalsundial.com.](http://www.digitalsundial.com/product.html) Jde o digitální zobrazení času vzniklé dvojitou soustavou štěrbin. ![slunecni digi 1](/img/slunecni/slunecni_digi1.jpg) Podle hodinového úhlu pod kterým dopadá sluneční paprsek, soustava štěrbin propustí jen tu část světla, která vytvoří obraz číslice. Je to myšlenka velmi prostá avšak realizovatelná až moderní technologií. Výroba soustavy stínících pásků napařených na skle vyžaduje značnou přesnost.
 
-**N**a uvedeném webu si můžete hodiny i koupit. Nabízejí se v několika variantách, buď se zrcadlem nebo pozorované ze zadní strany. Doporučujeme návštěvu stránky.
+Na uvedeném webu si můžete hodiny i koupit. Nabízejí se v několika variantách, buď se zrcadlem nebo pozorované ze zadní strany. Doporučujeme návštěvu stránky.

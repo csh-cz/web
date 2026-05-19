@@ -17,7 +17,7 @@ Co byste řekli slunečním hodinám, které nemají žádný ukazatel vrhajíc�
 
 ## Konstrukce slunečních polarizačních hodin
 
-**S**luneční hodiny zcela nového typu jsou založeny na jevu polarizace světla. Princip popsal poprvé pan **Bradley Schaefer v roce 1997**. Zjednodušeně řečeno: světlo se průchodem atmosférou částečně polarizuje. Zjištění polarizační roviny umožňuje určit směr ke Slunci bez toho, aby bylo Slunce přímo viditelné. Ze známého směru pak určíme čas.
+Sluneční hodiny zcela nového typu jsou založeny na jevu polarizace světla. Princip popsal poprvé pan **Bradley Schaefer v roce 1997**. Zjednodušeně řečeno: světlo se průchodem atmosférou částečně polarizuje. Zjištění polarizační roviny umožňuje určit směr ke Slunci bez toho, aby bylo Slunce přímo viditelné. Ze známého směru pak určíme čas.
 
 ![polar 1](/img/slunecni/polar1.jpg)
 
@@ -25,26 +25,26 @@ Co byste řekli slunečním hodinám, které nemají žádný ukazatel vrhajíc�
 
 Polarizační rovinu můžeme zjišťovat natáčením polarizačního filtru. Určení minima nebo maxima procházejícího světla je ovšem u ploché křivky v praxi obtížné. Oko se přizpůsobuje, tak změnu někdy ani nepozorujeme.
 
-**P**an Bradley Schaefer navrhl vložit před filtr proužek celofánu. Celofán je optické prostředí anizotropní. Jední z důsledků je, že celofán stáčí rovinu polarizace. Při otáčení soustavy nastává minimum či maximum v části za proužkem celofánu při jiném natočení než bez něj. Oko dokáže dobře porovnat rozdíl jasu. Určení natočením celé soustavy tak, aby jas byl v obou částech stejný, je poměrně přesné. Za předpokladu orientace hodin k severnímu pólu oblohy lze z natočení přímo odečíst pravý sluneční čas s přesností několika minut.
+Pan Bradley Schaefer navrhl vložit před filtr proužek celofánu. Celofán je optické prostředí anizotropní. Jední z důsledků je, že celofán stáčí rovinu polarizace. Při otáčení soustavy nastává minimum či maximum v části za proužkem celofánu při jiném natočení než bez něj. Oko dokáže dobře porovnat rozdíl jasu. Určení natočením celé soustavy tak, aby jas byl v obou částech stejný, je poměrně přesné. Za předpokladu orientace hodin k severnímu pólu oblohy lze z natočení přímo odečíst pravý sluneční čas s přesností několika minut.
 
-**J**e to celé poněkud složitější. Pokud vás alespoň trochu zajímá fyzika a jevy kolem polarizace světla a dvoujlomu vyhledejte si informace na slova polarizace a celofán.
+Je to celé poněkud složitější. Pokud vás alespoň trochu zajímá fyzika a jevy kolem polarizace světla a dvoujlomu vyhledejte si informace na slova polarizace a celofán.
 
 ## Naše zkušenosti
 
 **I** naše muzeum se rozhodlo princip vyzkoušet. Poněkud jsme rezignovali na přesnost hodin a rozhodli se vyrobit **hodiny přenosné** z běžně dostupných dílů. Jakž takž správnou orientaci při pozorování budeme řešít dodatečně kompasem. Vzhledem k uložení střelky na hrotu můžeme kompasem určit nejen směr, ale i vodorovnou rovinu. Hodiny hodláme vybavit korigovanou stupnicí na letní čas, na zeměpisnou polohu a na časovou rovnici. To umožní odečítat pásmový čas přímo.
 
-**P**oužili jsme fotografický polarizační filtr. Pod přidržovací matici jsme vložili proužek celofánu z papírnictví a na zadní stranu filtru jsme v poledne podle SEČ nakreslili čáru hodinové ručičky. Předpokládáme, že během několika dní na dovolené se korekce příliš nemění. Při měření by pro správnou orientaci bylo nejlépe nasadit filtr na fotoaparát na stativu. Jenže zrcadlovka by převrátila směr otáčení a získali bychom tak spíše [hodiny židovské](/clanky/zidovske). Závodní střelci ovšem mohou filtr držet klidně i v ruce.
+Použili jsme fotografický polarizační filtr. Pod přidržovací matici jsme vložili proužek celofánu z papírnictví a na zadní stranu filtru jsme v poledne podle SEČ nakreslili čáru hodinové ručičky. Předpokládáme, že během několika dní na dovolené se korekce příliš nemění. Při měření by pro správnou orientaci bylo nejlépe nasadit filtr na fotoaparát na stativu. Jenže zrcadlovka by převrátila směr otáčení a získali bychom tak spíše [hodiny židovské](/clanky/zidovske). Závodní střelci ovšem mohou filtr držet klidně i v ruce.
 
 ![filtr 1](/img/slunecni/doma/filtr1.jpg)
 ![filtr 2](/img/slunecni/doma/filtr2.jpg)
 ![filtr 3](/img/slunecni/doma/filtr3.jpg)
 ![filtr 4](/img/slunecni/doma/filtr4.jpg)
 
-**N**a obrázcích pokusný průhled fotografickým polarizačním filtrem s proužkem celofánu přibližně směrem "k Polárce". Otáčením doprava se snažíme vyrovnat jas. Na prvním snímku celofánem prochází podstatně méně světla, druhý je skoro vyrovnaný, na dalších prochází pod celofánem naopak světla více. Na obrázcích, kdy přetočený filtr "kouká" trochu do mraků, vidíme, že efekt funguje jen proti modré obloze.
+Na obrázcích pokusný průhled fotografickým polarizačním filtrem s proužkem celofánu přibližně směrem "k Polárce". Otáčením doprava se snažíme vyrovnat jas. Na prvním snímku celofánem prochází podstatně méně světla, druhý je skoro vyrovnaný, na dalších prochází pod celofánem naopak světla více. Na obrázcích, kdy přetočený filtr "kouká" trochu do mraků, vidíme, že efekt funguje jen proti modré obloze.
 
-**Č**as se odečítá podle šipky momentálně představující hodinovou ručičku SEČ na 24 hodinovém ciferníku s dvanáckou nahoře. Téměř správné natočení je na druhém obrázku. Je tedy poledne, čas na oběd.
+Čas se odečítá podle šipky momentálně představující hodinovou ručičku SEČ na 24 hodinovém ciferníku s dvanáckou nahoře. Téměř správné natočení je na druhém obrázku. Je tedy poledne, čas na oběd.
 
-**D**alší vývojová etapa by zahrnovala vložení aretovatelně otočného skla za filtr s namalovanou ručičkou. Také filtr by měl býr uložen v přípravku s kompasem pro snadnější orientaci, nebo na pevném stanovičti. Pro realizaci těchto hodin jsem vybral styl steampunk. Hodiny jsou pro držení v ruce doplněny pažbou a kompasem pro orientaci.
+Další vývojová etapa by zahrnovala vložení aretovatelně otočného skla za filtr s namalovanou ručičkou. Také filtr by měl býr uložen v přípravku s kompasem pro snadnější orientaci, nebo na pevném stanovičti. Pro realizaci těchto hodin jsem vybral styl steampunk. Hodiny jsou pro držení v ruce doplněny pažbou a kompasem pro orientaci.
 
 ![Naše zkušenosti](/img/nonsens2015/f/foto_0006.jpg)
 

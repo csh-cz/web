@@ -20,8 +20,8 @@ tldr: 'Kuriózní koncept Jamese McAdama (2002) — karafa kalibrovaná na délk
 
 </div>
 
-**N**a stránkách pana **[James McAdama](http://www.jamesmcadam.co.uk/)** je publikován jednoduchý vodní budík. Zařazujeme ho jako kuriozitu k vodním hodinám, protože všechny vodní hodin mají tak trochu i tento rozměr.
+Na stránkách pana **[James McAdama](http://www.jamesmcadam.co.uk/)** je publikován jednoduchý vodní budík. Zařazujeme ho jako kuriozitu k vodním hodinám, protože všechny vodní hodin mají tak trochu i tento rozměr.
 
-**B**udík je poměrně jednoduchý. Jedná se o libovolnou karafu kalibrovanou na délku spánku. Zvolené množství tekutiny je třeba před ulehnutím vypít a probuzení nastane přirozenou cestou.
+Budík je poměrně jednoduchý. Jedná se o libovolnou karafu kalibrovanou na délku spánku. Zvolené množství tekutiny je třeba před ulehnutím vypít a probuzení nastane přirozenou cestou.
 
 ©James McAdam 2002

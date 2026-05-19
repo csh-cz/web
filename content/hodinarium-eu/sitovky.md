@@ -28,7 +28,7 @@ Frekvence 50 Hz je pro mechanické hodiny dost vysoká. Proto jsou synchronní m
 [![Svítící elektrický synchronní budík METAMEC, Dereham, Norfolk, 50 léta minulého století](/img/elektrika/metamec/metamec_004.jpg)
 ](/img/elektrika/metamec/metamec4.jpg)*Obrázky se dají jednotlivě zvětšit*
 
-**T**yto hodiny používají elektrickou síť trojím způsobem. Osvětlují okolí, udávají čas a hlasitě elektricky budí. Pocházejí z padesátých let minulého století. Datování se opírá o fakt, že budíky s osvětlením začala firma METAMEC v Derehamu vyrábět v roce 1952 a v roce 1962 již montovala modernější typ stroje SS, tedy Self-starting synchronous movement.
+Tyto hodiny používají elektrickou síť trojím způsobem. Osvětlují okolí, udávají čas a hlasitě elektricky budí. Pocházejí z padesátých let minulého století. Datování se opírá o fakt, že budíky s osvětlením začala firma METAMEC v Derehamu vyrábět v roce 1952 a v roce 1962 již montovala modernější typ stroje SS, tedy Self-starting synchronous movement.
 
 Dobře viditelná je patice na trubkovou žárovku namontovaná na vrcholu hodin. Osvětlení je ovládané samostatným vypínačem. S funkcí hodin nesouvisí. Zda k osvětlení patřilo nějaké stínítko, se nepodařilo dohledat.
 
@@ -42,11 +42,11 @@ Rozmanitost hodin firmy METAMEC inspiruje k tvorbě specializovaných sbírek. I
 
 ![Metamec Model 856](/img/elektrika/metamec/metamec_model856b.jpg)
 
-**Ji**ž jsme uvedli [mluvící hodinky](/clanky/mluvici1895) z roku 1895. Tentokrát to budou
+Již jsme uvedli [mluvící hodinky](/clanky/mluvici1895) z roku 1895. Tentokrát to budou
 
 **Tlampačohodiny Rufa Sprechanlagen** **z roku 1956** (Uhr - Lautsprecher)
 
-**H**odiny mohou mluvit z reproduktoru třeba i hlasem vašeho "oblíbeného politika". Jedná se totiž o hodiny vestavěné do "reprobedny". Termín Uhr-Lautsprecher lze možná přeložit i jako hodinotlampač nebo tlampačohodiny. Stačí připojit třeba k rozhlasu po drátě a můžete sledovat plynutí času během jeho projevu. Naštěstí i legendární "dráťák" vysílal hudbu. Za doprovodu linoucích se tónů by snad i hodinový stroj lépe snášel působení magnetického pole reproduktoru.
+Hodiny mohou mluvit z reproduktoru třeba i hlasem vašeho "oblíbeného politika". Jedná se totiž o hodiny vestavěné do "reprobedny". Termín Uhr-Lautsprecher lze možná přeložit i jako hodinotlampač nebo tlampačohodiny. Stačí připojit třeba k rozhlasu po drátě a můžete sledovat plynutí času během jeho projevu. Naštěstí i legendární "dráťák" vysílal hudbu. Za doprovodu linoucích se tónů by snad i hodinový stroj lépe snášel působení magnetického pole reproduktoru.
 
 [![Hodiny Rufa rok 1956](/img/elektrika/rufa1_n.jpg)](/img/elektrika/rufa1.jpg)
 

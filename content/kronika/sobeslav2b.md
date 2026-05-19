@@ -12,7 +12,7 @@ scrapedAt: "2026-04-27T17:36:37.362Z"
 ---
 chronologický výpis z archivních dokumentů a hypotézy vzniku
 
-***A**rchivní texty jsou uvedeny tak jak se je podařilo přečíst, či jak byly přeloženy bez odborného překladu hodinářského názvosloví. Není je možné brát doslova. Nejasnosti mohly vniknout jak nesprávným zapsáním původním písařem, kdy již při první zapsání nebyl pochopen vlastní smysl, tak při pozdějším překladu některých textů z němčiny. Uvedené shrnutí a hypotézy nemají charakter vědecké práce. Jsou náznakem případného směru výzkumu.*
+*Archivní texty jsou uvedeny tak jak se je podařilo přečíst, či jak byly přeloženy bez odborného překladu hodinářského názvosloví. Není je možné brát doslova. Nejasnosti mohly vniknout jak nesprávným zapsáním původním písařem, kdy již při první zapsání nebyl pochopen vlastní smysl, tak při pozdějším překladu některých textů z němčiny. Uvedené shrnutí a hypotézy nemají charakter vědecké práce. Jsou náznakem případného směru výzkumu.*
 
 ***(Modřě odlišeny doplněné [signatury](/slovnik/signatura) na stroji.)***
 

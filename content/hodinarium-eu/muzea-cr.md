@@ -10,9 +10,9 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:06.093Z"
 tldr: 'Rozcestník institucionálních sbírek (NTM, UPM, TM Brno, Šternberk, Polná, Teplice, Prostějov) i soukromých aktivit (Dům hodin Karlštejn, Klášterec n. Ohří) doplněný odkazy na specializované weby a komunitní projekty.'
 ---
-***S**bírky hodin vede mnoho subjektů. Některé podléhají evidenční povinnosti. Pro představu lze nahlédnout na stránky **centrální evidence sbírek muzejní povahy (CES) Ministerstva kultury České republiky**. **CES je veřejnosti přístupným informačním systémem** - seznamem sbírek, které jsou spravovány podle zákona č. 122/2000 Sb., o ochraně sbírek muzejní povahy a o změně některých dalších zákonů.*
+*Sbírky hodin vede mnoho subjektů. Některé podléhají evidenční povinnosti. Pro představu lze nahlédnout na stránky **centrální evidence sbírek muzejní povahy (CES) Ministerstva kultury České republiky**. **CES je veřejnosti přístupným informačním systémem** - seznamem sbírek, které jsou spravovány podle zákona č. 122/2000 Sb., o ochraně sbírek muzejní povahy a o změně některých dalších zákonů.*
 
-***P**ři vyhledání dne 12.6.2009 **v podsbírkách** se prohledávalo 2 435 záznamů. Hledaný výraz "**předměty=hodin**" byl obsažen v 101 záznamech. (Záměrně je volen tvar "hodin", který zahrnuje hodiny, hodinky, hodinářství a pod. ) Někdy šlo o sbírky z jiného oblasti doplnění hodinkami historické osoby, někdy o tématické sbírky hodin jako například v [Chebu](http://www.muzeumcheb.cz/) nebo Chronometrie v Přerově. Zabádejte si. (Více o systému na [www.ikaros.cz/node/5382](http://www.ikaros.cz/node/5382)) Následující odkazy podléhají vlivu času. Přesvědčtě se, zda jsou stále platné, případně napište o nových aktivitách.*
+*Při vyhledání dne 12.6.2009 **v podsbírkách** se prohledávalo 2 435 záznamů. Hledaný výraz "**předměty=hodin**" byl obsažen v 101 záznamech. (Záměrně je volen tvar "hodin", který zahrnuje hodiny, hodinky, hodinářství a pod. ) Někdy šlo o sbírky z jiného oblasti doplnění hodinkami historické osoby, někdy o tématické sbírky hodin jako například v [Chebu](http://www.muzeumcheb.cz/) nebo Chronometrie v Přerově. Zabádejte si. (Více o systému na [www.ikaros.cz/node/5382](http://www.ikaros.cz/node/5382)) Následující odkazy podléhají vlivu času. Přesvědčtě se, zda jsou stále platné, případně napište o nových aktivitách.*
 
 **Vybrané sbírky:**
 
@@ -59,7 +59,7 @@ Musíme přiznat, že vedle našeho **[Hodinária Děčín](/kronika/decin-aktua
 
 - [www.muzeum-kolovec.cz](http://www.muzeum-kolovec.cz/)**Muzeum techniky a řemesel Koloveč** má i expozici hodin převážně lidových, ale nechybí aní hodiny věžní.
 
-- **O**d 1.4.2008 je otevřena v Městském muzeu **Nové Město nad Metují** expozice mapující historii hodinářských závodů v Novém Městě nad Metují a Šternberku. Rovněř na webech **[toulavakamera.ct24.cz](http://toulavakamera.ct24.cz/article.asp?article_id=700)** a na stránkách muzea [**www.muzeum-nmnm.cz**](http://www.muzeum-nmnm.cz/index.php/cz/expozice/hodinarska-expozice) se dovíte více.
+- Od 1.4.2008 je otevřena v Městském muzeu **Nové Město nad Metují** expozice mapující historii hodinářských závodů v Novém Městě nad Metují a Šternberku. Rovněř na webech **[toulavakamera.ct24.cz](http://toulavakamera.ct24.cz/article.asp?article_id=700)** a na stránkách muzea [**www.muzeum-nmnm.cz**](http://www.muzeum-nmnm.cz/index.php/cz/expozice/hodinarska-expozice) se dovíte více.
 
 - * * *
 

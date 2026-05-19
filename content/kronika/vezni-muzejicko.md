@@ -25,10 +25,10 @@ scrapedAt: "2026-04-27T17:36:32.117Z"
 
 ![A foto 18](/img/vez/f/A-foto_018.jpg)
 
-**A**ť přicházíme, přijíždíme či připlouváme do Soběslavi odkudkoliv vždy nás zdaleka přivítá významný symbol zdejšího kraje - soběslavská věž. Její vysoké (68 m) štíhlé tělo ční nad okolní terén tak, aby celé údolí bylo z ochozu jako na dlani. Patří mezi nejstarší a nejzajímavější stavby Soběslavi. Již od svého vzniku byla pozorovatelnou, strážním místem, malou pevností, zvonicí a také městskou klenotnicí. Již roku 1484 na ní byly zřízeny hodiny. ...
+Ať přicházíme, přijíždíme či připlouváme do Soběslavi odkudkoliv vždy nás zdaleka přivítá významný symbol zdejšího kraje - soběslavská věž. Její vysoké (68 m) štíhlé tělo ční nad okolní terén tak, aby celé údolí bylo z ochozu jako na dlani. Patří mezi nejstarší a nejzajímavější stavby Soběslavi. Již od svého vzniku byla pozorovatelnou, strážním místem, malou pevností, zvonicí a také městskou klenotnicí. Již roku 1484 na ní byly zřízeny hodiny. ...
 (Volně podle knihy Petra Lintnera - Pohledy soběslavské.)
 
-**V**ěž byla tedy místem pro uložení pokladů. Díky členům [Českého spolku horologického](https://horologie.cz/clanky/spolek) také nějakou dobu byla **Věžním muzejíčkem**, které ukrývalo mnohé historické poklady. Muzejíčko začínalo v prvním patře v klenuté místnosti bývalé městské klenotnice nad kaplí sv. Jana Křtitele a pokračovalo směrem vzhůru. Expozice Věžního muzejíčko doprovázela 168 schodů výstupové trasy na ochoz věže. Přístup na věž provozuje **Aeroklub Soběslav**.
+Věž byla tedy místem pro uložení pokladů. Díky členům [Českého spolku horologického](https://horologie.cz/clanky/spolek) také nějakou dobu byla **Věžním muzejíčkem**, které ukrývalo mnohé historické poklady. Muzejíčko začínalo v prvním patře v klenuté místnosti bývalé městské klenotnice nad kaplí sv. Jana Křtitele a pokračovalo směrem vzhůru. Expozice Věžního muzejíčko doprovázela 168 schodů výstupové trasy na ochoz věže. Přístup na věž provozuje **Aeroklub Soběslav**.
 
 [![klenotnice](/img/vez/expozice/expozice2011.jpg)](/img/vez/expozice/expozice2011.jpg)
 
