@@ -238,10 +238,15 @@ async function main() {
     lines.push(`/clanky/${slug} ${dst} 301`);
   }
 
-  // D6 Slug standardizace 2026-05-10 — 121 souborů snake_case → kebab-case
-  lines.push('', `# D6 Slug standardizace (2026-05-10): ${d6Renames.length} redirects`);
+  // D6 Slug standardizace 2026-05-10 — 121 souborů snake_case → kebab-case.
+  // Generujeme PÁR redirectů pro každý rename: s i bez trailing slash.
+  // Cloudflare Pages pattern matching je strict — /foo/ a /foo jsou
+  // dva odlišné requesty (issue #21: /konstrukce/flying_pendulum 301 OK,
+  // /konstrukce/flying_pendulum/ 404).
+  lines.push('', `# D6 Slug standardizace (2026-05-10): ${d6Renames.length * 2} redirects (×2 trailing slash variants)`);
   for (const r of d6Renames) {
     lines.push(`${r.oldUrl} ${r.newUrl} 301`);
+    lines.push(`${r.oldUrl}/ ${r.newUrl}/ 301`);
   }
 
   // Přejmenování hodinářů
