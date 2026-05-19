@@ -12,18 +12,7 @@ tags:
   - 1800s
   - mechanicke
   - svet
-tldr: |
-  Westminster Great Clock (lidově „Big Ben") spuštěný 30. května 1859
-  na věži Palace of Westminster byl v době svého vzniku **nejpřesnějším
-  věžním strojem světa** — chyba zřídka přesahovala sekundu za týden.
-  Klíčem k této přesnosti byl **Denisonův dvojitý třícípý gravitační krok**
-  (1852), kterým **Edmund Beckett Denison** (1816–1905, pozdější Lord
-  Grimthorpe) odstranil hlavní slabinu věžních hodin: závislost přesnosti
-  na proměnlivém zatížení převodovky (vítr na ručkách, nečistoty, teplotní
-  expanze). V Čechách Denisonův princip aplikoval **[Romuald Božek](/hodinari/romuald-bozek)**
-  pouhé dva roky po anglické publikaci — na věžních hodinách v dílně
-  **[Jana Holuba](/hodinari/jan-holub)** ve strojírně **[Čeňka Daňka](/hodinari/cenek-danek)**
-  v Karlíně.
+tldr: 'Westminster Great Clock (lidově „Big Ben") spuštěný 30. května 1859 na věži Palace of Westminster byl v době svého vzniku nejpřesnějším věžním strojem světa — chyba zřídka přesahovala sekundu za týden. Klíčem k této přesnosti byl Denisonův dvojitý třícípý gravitační krok (1852), kterým Edmund Beckett Denison (1816–1905, pozdější Lord Grimthorpe) odstranil hlavní slabinu věžních hodin: závislost přesnosti na proměnlivém zatížení převodovky (vítr na ručkách, nečistoty, teplotní expanze). V Čechách Denisonův princip aplikoval Romuald Božek pouhé dva roky po anglické publikaci — na věžních hodinách v dílně Jana Holuba ve strojírně Čeňka Daňka v Karlíně.'
 manualEdit: true
 originalUrl: "https://hodinarium-eu.pages.dev/zajimavosti/big-ben-denisonuv-gravitacni-krok"
 lastModified: "Sun, 17 May 2026 05:30:00 GMT"
