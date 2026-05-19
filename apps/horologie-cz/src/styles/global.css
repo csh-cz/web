@@ -1,6 +1,14 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+/* Sdílené tokeny (font stacks vč. --font-mono) + utility classes
+   + button styles z @csh/ui. Site-specific colors jsou v @theme block
+   níže (paper-light). Viz docs/audit-design-system-2026-05-12.md
+   (FU5 migrace 2026-05-19). */
+@import "@csh/ui/styles/tokens.css";
+@import "@csh/ui/styles/utilities.css";
+@import "@csh/ui/styles/buttons.css";
+
 @theme {
   /* Spolek = formálnější, klidnější paleta. Light-first (inverze
      Hodinária) — pergamenové pozadí, tmavá brass typografie. Dark mode
@@ -13,7 +21,11 @@
   /* Tlumený dark-brass (klidné, formální, čitelné na pergamenu) */
   --color-brass: #8b6d2e;
   --color-brass-bright: #6e4d1d;
-  --color-copper: #a85a3c;
+  /* --color-copper sjednocen s Hodinariem (#a85a3c → #c47049, WCAG AA
+     contrast pro text). Audit: docs/audit-design-system-2026-05-12.md
+     bod 7a — drift mezi sister apps; Hodinariova hodnota je závazná
+     (původně bumped per A11y audit C1). */
+  --color-copper: #c47049;
   --color-verdigris: #3d6b5a;
 
   /* Tělo textu — tmavá inkoust */
@@ -22,7 +34,7 @@
   --color-text-muted: #6f5f48;
   --color-ink: #1a140a;
 
-  --font-serif: "Spectral", "Cardo", Georgia, "Times New Roman", serif;
+  /* `--font-serif` + `--font-mono` přicházejí z @csh/ui/styles/tokens.css. */
 }
 
 html {
@@ -150,14 +162,7 @@ summary {
 
 summary::-webkit-details-marker { display: none; }
 
-.eyebrow {
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 0.22em;
-  color: var(--color-copper);
-  font-weight: 500;
-  font-style: normal;
-}
+/* .eyebrow přesunuto do @csh/ui/styles/utilities.css (FU5, 2026-05-19). */
 
 .site-header {
   border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 35%, transparent);

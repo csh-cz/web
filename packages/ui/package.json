@@ -1,0 +1,15 @@
+{
+  "name": "@csh/ui",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sdílené CSS tokeny, utility classes a button styly mezi hodinarium-eu a horologie-cz.",
+  "type": "module",
+  "exports": {
+    "./styles/tokens.css": "./styles/tokens.css",
+    "./styles/utilities.css": "./styles/utilities.css",
+    "./styles/buttons.css": "./styles/buttons.css"
+  },
+  "files": [
+    "styles"
+  ]
+}
