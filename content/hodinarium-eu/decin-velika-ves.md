@@ -16,6 +16,9 @@ lastModified: "Tue, 27 Apr 2021 15:43:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:24.479Z"
 tldr: 'Torzo bicího mechanismu s klecovým rámem, kovanými gotickými hřeby na rozích sloupků a vratidly na lanovém bubnu — pravděpodobně nejstarší stroj v děčínské expozici, restaurováno bez doplňování.'
+photoAuthor: "[Petr Skála](/hodinari/petr-skala), P. Král, [Miroslav Baudisch](/hodinari/miroslav-baudisch)"
+acknowledgments: |
+  Text s využitím české Wikipedie.
 ---
 ![Kostel sv. Vavřince, Veliká Ves](/img/decin/gotika/Kostel_sv._Vavrince.jpg)
 
@@ -74,4 +77,3 @@ Součásti stroje byly zbaveny silné vrstvy povrchové koroze. Koroze naštěst
 
 - [Restaurátorský záměr](/download/RestauratorskyZamerVelikaVes.pdf)
 
-*Foto: [Petr Skála](/hodinari/petr-skala), P. Král, [Miroslav Baudisch](/hodinari/miroslav-baudisch). Text s využitím Wikipedie.*

@@ -14,6 +14,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:24.078Z"
 manualEdit: true
 tldr: 'Mechanická realizace ročního programu sepnutí osvětlení pomocí dvojice tvarovaných vaček pro východ a západ Slunce, s analýzou pravděpodobné poruchy zeměpisného nastavení u dochovaného exempláře.'
+photoAuthor: P. Král, ebay.de
 ---
 ![Spínací kotouč astronomických hodin Fr. Sauter](/img/astronomicky_Sauter/f/Sauter1.jpg)
 
@@ -62,4 +63,3 @@ I ve věžních hodinách mohly být vačky východu a západu Slunce. Jedno tak
 
 </div>
 
-*Foto: P. Král, ebay.de*

@@ -17,6 +17,7 @@ tags:
   - krok-vreteno
   - 1700s
 tldr: 'Stroj s vřetenovým krokem a netradičně prodlouženou kyvadlovou tyčí nad hřídel — známky přestavby naznačují původně lihýřovou regulaci a vznik před 18. stoletím.'
+photoAuthor: "[Petr Skála](/hodinari/petr-skala)"
 ---
 Do Hodinária byl od soukromého sběratele zapůjčen stroj věžních hodin se zajímavým [kyvadlem](/slovnik/kyvadlo) a vřetenovým krokem. Od sezóny 2013 bude dlouhodobou součástí expozice.
 
@@ -38,4 +39,3 @@ Společná natahovací klika pro jicí a bicí stroj nebyla nalezena. Čočka [k
 
 Stroj je nakonzervován a vystaven v Hodináriu v Děčíně od roku 2015. Není vystaven v chodu, ačkoliv by ho byl schopen.
 
-*Foto: [Petr Skála](/hodinari/petr-skala)*

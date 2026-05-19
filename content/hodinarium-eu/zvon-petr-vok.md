@@ -11,6 +11,7 @@ tags:
   - sobeslav
   - 2000s
 tldr: 'Dokumentace odlévání nového soběslavského zvonu o hmotnosti 93 kg zvonařem Michalem Votrubou (2011) — od přípravy hliněné formy přes voskovou výzdobu po vysvěcení a instalaci ve věži v roce 2012.'
+photoAuthor: L. Zbytovská, M. Votruba, P. Král
 ---
 Je říjen LP 2011 a odlévá se nový zvon pro soběslavskou věž. Neodlévá se samozřejmě sám. Odlévá ho [zvonař Michal Votruba](http://zvony-votruba.webnode.cz/) s pomocníky za účasti VIP návštěvníků, fotografů a čumilů. To je událost vpravdě historická. Naposledy se v Soběslavi [světil nový zvon v roce 1925](/sbirka/prehled-zvonu). V roce 2011 v rámci rožmberského roku bylo rozhodnuto o zavěšení nového zvonu a snad i o zavedení pravidelného zvonění. Nový zvon Petr Vok byl 22. 9. 2012 na slavnosti soběslavských zvonů vysvěcen a vytažen na věž společně s další malým zvonem. Stav zvonů ve věži se tedy zvýšil, stále však nedosahuje původních počtů. Ve věži jsou nyní 3 zvony, 2 cimbály věžních hodin a exponáty našeho muzejíčka. V roce 2012 jsou to 3 cimbály a několik takzvaných falešných zvonů podle kterých byly zvony odlévány, včetně zvonu Petr Vok.
 
@@ -136,4 +137,3 @@ Oba nové zvony byly ozdobeny a vystaveny na nádvoří hradu. Následně byly z
 
 ![Soběslavské slavnosti zvonů 22.9. – vysvěcení zvonu Petr Vok a jeho instalace do městské věže](/img/vez/zvony/petrvok/sveceni/f/foto_0012.jpg)
 
-*Foto: L. Zbytovská, M. Votruba, P. Král*

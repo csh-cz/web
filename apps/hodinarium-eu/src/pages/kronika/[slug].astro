@@ -7,6 +7,8 @@ import ArticleImageBehavior from '../../components/ArticleImageBehavior.astro';
 import WipBanner from '../../components/WipBanner.astro';
 import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
 import CrossRefs from '../../components/CrossRefs.astro';
+import { formatAuthor } from '../../utils/formatAuthor';
+import { tinyMarkdown } from '../../utils/tinyMarkdown';
 
 export async function getStaticPaths() {
   const all = await getCollection('kronika');
@@ -116,8 +118,31 @@ const typLabels: Record<string, string> = {
 
     <CrossRefs refs={entry.data.crossRefs} selfType="kronika" selfSlug={entry.id} />
 
+    {entry.data.acknowledgments && (
+      <section class="article-acknowledgments" aria-labelledby="acknowledgments-heading">
+        <h2 id="acknowledgments-heading" class="references-title">Poděkování</h2>
+        <div class="acknowledgments-body" set:html={tinyMarkdown(entry.data.acknowledgments)} />
+      </section>
+    )}
+
+    {(entry.data.author || entry.data.photoAuthor) && (
+      <section class="article-authors" aria-labelledby="authors-heading">
+        <h2 id="authors-heading" class="references-title">Autoři</h2>
+        <dl class="authors-list">
+          {entry.data.author && (<>
+            <dt>Text:</dt>
+            <dd><span set:html={tinyMarkdown(formatAuthor(entry.data.author)).replace(/^<p>|<\/p>$/g, '')} /></dd>
+          </>)}
+          {entry.data.photoAuthor && (<>
+            <dt>Foto:</dt>
+            <dd><span set:html={tinyMarkdown(formatAuthor(entry.data.photoAuthor)).replace(/^<p>|<\/p>$/g, '')} /></dd>
+          </>)}
+        </dl>
+      </section>
+    )}
+
     <footer class="article-byline">
-      <span class="byline-author">{entry.data.author ?? 'Český spolek horologický'}</span>
+      <span class="byline-publisher">Český spolek horologický</span>
       <span class="byline-sep" aria-hidden="true">·</span>
       <span class="byline-date">{entry.data.date}</span>
     </footer>

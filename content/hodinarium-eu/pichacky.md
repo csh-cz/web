@@ -11,6 +11,7 @@ lastModified: "Wed, 18 Jul 2018 09:10:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:24.674Z"
 tldr: 'Historie a typologie kontrolních hodin zaměstnanců — radiální Bürk-Bundy s remontoirem, klíčové, kartové, výstřižkové, tlačítkové i fotografické záznamníky; výrobci Bürk, IBM, Pragotron.'
+acknowledgments: Autoři expozice děkují spolupracujícím jednotlivcům i firmám
 ---
 ![Fronta před píchačkama - USA](/img/pichacky/fronta2.jpg)
 
@@ -95,10 +96,6 @@ Na tento vynález narazil autor webu workclocks, když procházel stovky patent�
 
 - [Firma Bürk](https://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk)
 - [Strážní hodiny Bürk](http://www.watchclocks.org/Types/19th_Century/52_Burk/52_burk.html) — watchclocks.org. [cit. 2026-04-28]
-
-## Poděkování
-
-Autoři expozice děkují spolupracujícím jednotlivcům i firmám
 
 - [KMP](https://www.kmp.cz/) výrobce tonerů, inkoustových náplní a barvicích pásek
 

@@ -6,6 +6,7 @@ import WipBanner from '../../components/WipBanner.astro';
 import { getCollection, render } from 'astro:content';
 import { hodinari } from '../../data/hodinari';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
+import { formatAuthor } from '../../utils/formatAuthor';
 import { pramenTooltip, extractWikiTitle } from '../../utils/referenceTypes';
 import { formatCite, getRef } from '../../utils/cite';
 import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
@@ -336,6 +337,23 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
   )}
 
   <CrossRefs refs={d.crossRefs} selfType="soupis" selfSlug={d.slug} />
+
+  {d.acknowledgments && (
+    <section class="article-acknowledgments" aria-labelledby="acknowledgments-heading">
+      <h2 id="acknowledgments-heading" class="references-title">Poděkování</h2>
+      <div class="acknowledgments-body" set:html={tinyMarkdown(d.acknowledgments)} />
+    </section>
+  )}
+
+  {d.photoAuthor && (
+    <section class="article-authors" aria-labelledby="authors-heading">
+      <h2 id="authors-heading" class="references-title">Autoři</h2>
+      <dl class="authors-list">
+        <dt>Foto:</dt>
+        <dd><span set:html={tinyMarkdown(formatAuthor(d.photoAuthor)).replace(/^<p>|<\/p>$/g, '')} /></dd>
+      </dl>
+    </section>
+  )}
 
   {/* zdrojDat (machine slug) se nezobrazuje — citace pramenů patří do <Prameny>.
       V patičce ponecháváme jen datum posledního ověření, pokud existuje. */}
