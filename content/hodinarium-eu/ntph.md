@@ -12,6 +12,7 @@ tags:
 tldr: 'Autorský projekt s mechanismem z 3D tisku a řídicím modulem ESP8266: synchronizace přes WiFi a NTP, autonomní záložní chod, nastavení a monitoring přes interní webový server. Návod včetně řešení WPS a chybových stavů.'
 author: Petr Král
 manualEdit: true
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/NTPH.htm
 lastModified: Wed, 01 Oct 2025 11:22:00 GMT
 sourceCharset: windows-1250

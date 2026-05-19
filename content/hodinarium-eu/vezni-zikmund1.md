@@ -2,6 +2,7 @@
 title: "O věžních hodinách na ZŠ Šumava v Jablonci nad Nisou"
 slug: "vezni-zikmund1"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/vezni_zikmund1.htm"
 lastModified: "Wed, 26 Apr 2017 16:21:00 GMT"
 sourceCharset: "windows-1250"

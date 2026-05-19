@@ -5,6 +5,7 @@ date: "2013-10-31"
 rok: 2013
 typ: vernisaz
 misto: "Věžní muzejíčko Soběslav"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium.eu/dernisaz2013.htm"
 lastModified: "Sun, 23 Apr 2017 15:22:00 GMT"
 sourceCharset: "windows-1250"

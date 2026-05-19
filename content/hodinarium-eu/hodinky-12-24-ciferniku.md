@@ -4,6 +4,7 @@ slug: "hodinky-12-24-ciferniku"
 category: "zajimavosti"
 tags:
   - popularizace
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/12_24.htm"
 lastModified: "Sat, 28 Nov 2020 21:01:00 GMT"
 sourceCharset: "windows-1250"

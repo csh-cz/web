@@ -8,6 +8,7 @@ tags:
   - 1900s
   - 2000s
 author: "Petr Král"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/dcf77.htm"
 lastModified: "Sat, 16 Aug 2025 15:13:00 GMT"
 sourceCharset: "windows-1250"

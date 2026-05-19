@@ -2,6 +2,7 @@
 title: "Použitá i nepoužitá literatura"
 slug: "literatura"
 category: "zajimavosti"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/literatura.htm"
 lastModified: "Mon, 15 Jan 2024 14:23:00 GMT"
 sourceCharset: "windows-1250"

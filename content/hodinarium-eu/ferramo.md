@@ -5,6 +5,7 @@ category: "konstrukce"
 tags:
   - elektricke
   - setrvacka
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/ferramo.htm"
 lastModified: "Tue, 03 Oct 2023 08:25:00 GMT"
 sourceCharset: "windows-1250"

@@ -6,6 +6,7 @@ tags:
   - elektromagneticke
   - setrvacka
   - 1900s
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/eureka.htm"
 lastModified: "Sat, 17 Mar 2018 18:41:00 GMT"
 sourceCharset: "windows-1250"

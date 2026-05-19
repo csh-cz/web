@@ -7,6 +7,7 @@ tags:
   - pero
   - kuriozita
   - hainz
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/hainz_natahovani.htm"
 lastModified: "Wed, 26 Apr 2017 16:29:00 GMT"
 sourceCharset: "windows-1250"

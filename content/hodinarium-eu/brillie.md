@@ -8,6 +8,7 @@ tags:
   - kyvadlo
   - brillie
   - 1900s
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/brillie.htm"
 lastModified: "Sun, 18 Feb 2018 14:35:00 GMT"
 sourceCharset: "windows-1250"

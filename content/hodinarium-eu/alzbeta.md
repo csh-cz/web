@@ -6,6 +6,7 @@ tags:
   - 1900s
   - popularizace
 author: "Petr Král"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/alzbeta.htm"
 lastModified: "Wed, 10 Nov 2021 10:08:00 GMT"
 sourceCharset: "windows-1250"

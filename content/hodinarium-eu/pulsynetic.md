@@ -8,6 +8,7 @@ tags:
   - pulsynetic
   - synchronni
   - elektromagneticke
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/pulsynetic.htm
 lastModified: Sat, 11 Jun 2022 09:27:00 GMT
 sourceCharset: windows-1250

@@ -7,6 +7,7 @@ tags:
   - jednotny-cas
   - elektricke
   - ntp-rizeno
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/Kappa.htm"
 lastModified: "Mon, 08 Dec 2025 20:44:00 GMT"
 sourceCharset: "windows-1250"

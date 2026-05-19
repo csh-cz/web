@@ -15,6 +15,7 @@ references:
     url: http://anatomie-varhan.cz/
     type: odkaz
     note: Zdrojový web — text k článku převzat se souhlasem.
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/janovice.htm
 lastModified: Wed, 26 Apr 2017 16:20:00 GMT
 sourceCharset: windows-1250

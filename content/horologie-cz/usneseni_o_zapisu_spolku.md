@@ -2,6 +2,7 @@
 title: "Usnesení o zápisu spolku — IČO 265 73 008"
 slug: "usneseni_o_zapisu_spolku"
 category: "spolek"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium.eu/usneseni_o_zapisu_spolku.htm"
 lastModified: "Thu, 20 Apr 2017 09:26:00 GMT"
 sourceCharset: "windows-1250"

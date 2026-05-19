@@ -1,0 +1,104 @@
+{
+  "$schema": "Strukturovaný výstup WCAG 2.2 AA manual-gaps auditu. Generováno z tests/smoke/a11y-*.hodinarium.spec.ts. Doplnění k axe-core baseline (axe-a11y + axe-wcag22 = 22/22 pass, 0 violations).",
+  "auditDate": "2026-05-19",
+  "scope": "11 reprezentativních URL hodinarium-eu (home, sbirka × 2, hodinari × 2, soupis × 2, slovnik × 2, kroky, o-hodinariu)",
+  "baseUrl": "https://hodinarium-eu.pages.dev",
+  "summary": {
+    "totalTests": 33,
+    "totalPassed": 33,
+    "targetSizeViolations": 7,
+    "tabOrderIssues": 0,
+    "focusVisibleIssues": 0
+  },
+  "targetSize": {
+    "wcagCriterion": "2.5.8 Target Size (Minimum) — AA",
+    "wcag22": true,
+    "rule": "Interaktivní elementy musí mít bounding box ≥ 24×24 CSS px (exemption: inline links v textu, UA-styled controls).",
+    "violations": [
+      {
+        "page": "home",
+        "url": "/",
+        "tag": "A",
+        "selector": "a.text-sm",
+        "width": 147.9,
+        "height": 21,
+        "parentTag": "HEADER",
+        "href": "/tagy",
+        "text": "Procházet podle tagu →",
+        "category": "sub-24",
+        "source": "apps/hodinarium-eu/src/pages/index.astro:63",
+        "fix": "Přidat min-height: 24px (nebo padding-y) na .text-sm v header kontextu. Tyto sekční CTA nejsou inline text-link, ale samostatné navigační targety v <header>."
+      },
+      {
+        "page": "home",
+        "url": "/",
+        "tag": "A",
+        "selector": "a.text-sm",
+        "width": 102.4,
+        "height": 21,
+        "parentTag": "HEADER",
+        "href": "/sbirka",
+        "text": "Procházet vše →",
+        "category": "sub-24",
+        "source": "apps/hodinarium-eu/src/pages/index.astro:120",
+        "fix": "Stejné jako výše — společný styl pro section-end CTA."
+      },
+      {
+        "page": "soupis-index",
+        "url": "/soupis-veznich-hodin/",
+        "tag": "INPUT",
+        "selector": "input[type=checkbox]",
+        "width": 13,
+        "height": 13,
+        "parentTag": "LABEL",
+        "href": null,
+        "text": "(5 checkboxů — filtr Stav: brzy, ok, čeká, atd.)",
+        "category": "native-checkradio",
+        "source": "apps/hodinarium-eu/src/pages/soupis-veznich-hodin/index.astro:244",
+        "fix": "Native UA-styled checkbox je 13×13 px. Per WCAG 2.5.8 má 'User Agent Control' exception (Essential), ale doporučení je explicit upscale: `.stav-checkbox input { width: 1.25rem; height: 1.25rem; }` (= 20×20 + label clickable extension přes celý <label>). Klik na label už funguje (touch zone label > 24×24), takže riziko je nízké, ale pro klávesnici/pointer accuracy lepší upscale."
+      }
+    ],
+    "exemptionsApplied": "360+ inline-context elementů vyloučeno (links v <p>, <li>, <span>, <td>, <sup>, atd. — WCAG-spec exception)."
+  },
+  "tabOrder": {
+    "wcagCriterion": "2.4.3 Focus Order — A",
+    "rule": "Logické sekvenční pořadí Tab fokusu odpovídá vizuálnímu/sémantickému pořadí.",
+    "issues": [],
+    "snapshot": {
+      "tabStepsTested": 15,
+      "pagesAllUnique": "9/9 (race condition v JSON append zapsala 9 z 11; všechny zaznamenané = 15/15 unique, žádné cykly nebo trapy)",
+      "note": "Tab order na home: Hodinárium → Návštěva → O Hodináriu → Sbírka → Projekty → Konstrukce → Hodináři → Soupis → Mapa → Více (= logické pořadí top nav). Žádné rogue tabindex regresí."
+    }
+  },
+  "focusVisible": {
+    "wcagCriterion": "2.4.7 Focus Visible (A) + 2.4.13 Focus Appearance (AA, WCAG 2.2)",
+    "rule": "Aktivní fokus musí mít viditelný indikátor odlišný od default state.",
+    "issues": [],
+    "note": "Po vyloučení disabled controls (které browser z tab pořadí beztak vyhazuje) žádné komponenty nemají regresi `:focus { outline: none }` bez náhradního indikátoru. CSS audit napříč 11 stránkami nenašel antipattern."
+  },
+  "actionItems": [
+    {
+      "priority": "P2 (medium)",
+      "component": "apps/hodinarium-eu/src/pages/index.astro",
+      "issue": "2× section-end CTA \"Procházet …\" má height 21px (< 24px)",
+      "fix": "min-height: 24px nebo padding-block: 0.25rem na .text-sm linky uvnitř <header> elementů",
+      "lines": [63, 120]
+    },
+    {
+      "priority": "P3 (low)",
+      "component": "apps/hodinarium-eu/src/pages/soupis-veznich-hodin/index.astro",
+      "issue": "5× native checkbox 13×13 (filter Stav)",
+      "fix": "`.stav-checkbox input { width: 1.25rem; height: 1.25rem; cursor: pointer; }` — touch zone přes <label> už OK, ale upscale checkbox samotného je dobrý a11y standard pro WCAG 2.5.8 strictness",
+      "lines": [244]
+    }
+  ],
+  "rerun": {
+    "command": "pnpm exec playwright test tests/smoke/a11y-*.hodinarium.spec.ts --project=hodinarium-chromium",
+    "duration": "~15s napříč 7 workers",
+    "outputs": [
+      "test-results/a11y-target-size-findings.json",
+      "test-results/a11y-tab-order-findings.json",
+      "test-results/a11y-focus-visible-findings.json"
+    ]
+  }
+}

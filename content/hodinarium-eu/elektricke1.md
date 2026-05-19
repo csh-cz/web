@@ -4,6 +4,7 @@ slug: "elektricke1"
 category: "konstrukce"
 tags:
   - elektricke
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/elektricke1.htm"
 lastModified: "Wed, 20 Mar 2019 09:52:00 GMT"
 sourceCharset: "windows-1250"

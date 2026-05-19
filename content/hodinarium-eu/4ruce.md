@@ -7,6 +7,7 @@ tags:
   - synchronni
 tldr: 'Mechanické řešení obousměrného pohonu ručiček u dvou- a čtyřciferníkových hodinových strojů — od kuželových převodů u nálezu se synchronním motorem až po rozvodku věžních hodin pro čtyři strany věže.'
 author: ''
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/4ruce.htm
 lastModified: Wed, 26 Apr 2017 13:36:00 GMT
 sourceCharset: windows-1250

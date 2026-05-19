@@ -6,6 +6,7 @@ tags:
   - kvetinove
   - svet
   - evropa
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/kvetinove.htm"
 lastModified: "Wed, 26 Apr 2017 16:18:00 GMT"
 sourceCharset: "windows-1250"

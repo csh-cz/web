@@ -260,6 +260,12 @@ const clanky = defineCollection({
     thumbnail: z.string().optional(),
     /** Autor článku (např. "Petr Král"). Footer ho zobrazí jako "P. Král". */
     author: z.string().optional(),
+    /** Výchozí kredit pro všechny markdown `![]()` obrázky v těle článku, které
+     *  nemají vlastní `::photo{author=}` nebo `<Photo author=>` atribuci.
+     *  Příklad: "Archiv Petra Krále (hodinarium.eu)", "Archiv ČSH", "autor neznámý".
+     *  Audit (`scripts/audit-photo-credits.mjs`) ho akceptuje jako prokázanou
+     *  atribuci; render captionu pod obrázkem je zatím TODO (viz A.25). */
+    imageCredit: z.string().optional(),
     /** Literatura a odkazy renderované v sekci pod článkem. */
     references: z.array(reference).optional(),
     /** Editorské poznámky (TODO, varování o nejistotě, kontext) — viditelné
@@ -492,6 +498,8 @@ const kronika = defineCollection({
     })).optional(),
     photos: z.array(z.string()).optional(),
     author: z.string().optional(),
+    /** Výchozí kredit pro markdown `![]()` obrázky v těle zápisu (viz clanky schema). */
+    imageCredit: z.string().optional(),
     references: z.array(reference).optional(),
     /** Editorské poznámky (TODO, varování o nejistotě, kontext). */
     editorNotes: z.array(editorNote).optional(),

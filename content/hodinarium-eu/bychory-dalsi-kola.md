@@ -6,6 +6,7 @@ tags:
   - vezni
   - prokes
   - 1800s
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/bychory_dalsi_kola.htm"
 lastModified: "Sun, 23 Apr 2017 09:09:00 GMT"
 sourceCharset: "windows-1250"

@@ -2,6 +2,7 @@
 title: "Papíráky"
 slug: "papir"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/papir.htm"
 lastModified: "Wed, 26 Apr 2017 14:05:00 GMT"
 sourceCharset: "windows-1250"

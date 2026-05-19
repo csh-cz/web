@@ -10,6 +10,7 @@ tags:
   - nalezovy
   - decin
   - zavazi
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/decin_velika_ves.htm"
 lastModified: "Tue, 27 Apr 2021 15:43:00 GMT"
 sourceCharset: "windows-1250"

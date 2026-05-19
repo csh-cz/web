@@ -6,6 +6,7 @@ rok: 2009
 typ: historie-spolku
 misto: Soběslav
 author: Petr Král
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: https://hodinarium.eu/vez1.htm
 lastModified: Sun, 23 Apr 2017 15:48:00 GMT
 sourceCharset: windows-1250

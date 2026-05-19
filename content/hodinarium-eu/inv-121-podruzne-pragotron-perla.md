@@ -3,6 +3,7 @@ title: "Podružné Pragotron Perla"
 slug: "inv-121-podruzne-pragotron-perla"
 category: "sbirka"
 podsekce: "karta"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"

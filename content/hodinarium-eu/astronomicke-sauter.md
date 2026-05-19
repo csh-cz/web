@@ -7,6 +7,7 @@ tags:
   - elektricke
   - 1900s
 author: "Petr Král"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/astronomicke_Sauter.htm"
 lastModified: "Tue, 08 Sep 2020 00:00:00 GMT"
 sourceCharset: "windows-1250"

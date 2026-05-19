@@ -5,6 +5,7 @@ category: "konstrukce"
 tags:
   - mechanicke
   - pichacky
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/pichacky.htm"
 lastModified: "Wed, 18 Jul 2018 09:10:00 GMT"
 sourceCharset: "windows-1250"

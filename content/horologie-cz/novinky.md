@@ -2,6 +2,7 @@
 title: "NOVINKY"
 slug: "novinky"
 category: "spolek"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium.eu/novinky.htm"
 lastModified: "Wed, 22 Apr 2026 11:41:00 GMT"
 sourceCharset: "windows-1250"

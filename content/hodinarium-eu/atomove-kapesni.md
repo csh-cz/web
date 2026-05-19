@@ -7,6 +7,7 @@ tags:
   - kapesni
   - rubidium
   - 2000s
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/atomove_kapesni.htm"
 lastModified: "Sun, 09 Feb 2025 10:19:00 GMT"
 sourceCharset: "windows-1250"

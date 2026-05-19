@@ -626,6 +626,65 @@ generická slova „Fotografie", „Obrázek" — vždy popis (např.
 
 Continuous — nepatří do jednoho batche.
 
+## A.12 — WCAG 2.2 manual gaps audit (2026-05-19)
+
+Doplnění k existujícím axe-core suitám (`axe-a11y` + `axe-wcag22`,
+oba 22/22 pass, 0 violations). Tři nové Playwright testy pokrývají
+kritéria, která axe nedokáže měřit bez reálné layout introspekce —
+target size, focus order, focus visibility.
+
+**Stav 2026-05-19:** Všech 33 nových testů passed. Findings:
+
+- **2.5.8 Target Size (Minimum) — 7 violations napříč 2 stránkami:**
+  - `apps/hodinarium-eu/src/pages/index.astro` — 2× section CTA
+    „Procházet podle tagu →" (`:63`) a „Procházet vše →" (`:120`)
+    mají height 21 px (< 24 px). Jsou v `<header>` blocích, ne v
+    `<p>`, takže nepokrývá inline-link exemption WCAG spec.
+  - `apps/hodinarium-eu/src/pages/soupis-veznich-hodin/index.astro:244`
+    — 5× native checkbox 13×13 px (filter Stav). UA-styled, technicky
+    má „Essential" výjimku, ale doporučení je explicit upscale.
+- **2.4.3 Focus Order — 0 issues**. Všech 9 zachycených stránek 15/15
+  unikátních tab kroků, žádné cykly ani trapy. (Race condition v JSON
+  append zapsala 9 z 11 stránek; stdout potvrzuje všech 11 = pass.)
+- **2.4.7 + 2.4.13 Focus Visible — 0 issues** po vyloučení disabled
+  controls. Žádná komponenta nepoužívá `:focus { outline: none }` bez
+  náhradního indikátoru.
+
+**Strukturovaný výstup:** `apps/hodinarium-eu/src/data/_a11y_findings.json`
+(audit summary + per-finding source + fix recommendation).
+
+### Akční položky
+
+- [ ] **P2 — section CTA target size** v `apps/hodinarium-eu/src/pages/index.astro`
+      (řádky 63 a 120). Fix: přidat `min-height: 24px` (nebo
+      `padding-block: 0.25rem`) na `.text-sm` linky uvnitř sekčních
+      `<header>` blocích. Lze řešit jedním společným utility classem
+      (např. `.cta-end`) pro budoucí konzistenci.
+- [ ] **P3 — soupis checkbox upscale** v
+      `apps/hodinarium-eu/src/pages/soupis-veznich-hodin/index.astro:244`.
+      Fix: `.stav-checkbox input { width: 1.25rem; height: 1.25rem; cursor: pointer; }`.
+      Klik na celý `<label>` už funguje (touch zone > 24×24), ale
+      explicit upscale je čistší pro pointer/keyboard accuracy.
+
+### Continuous monitoring
+
+Po každé větší UI změně spustit:
+
+```bash
+pnpm exec playwright test tests/smoke/a11y-*.hodinarium.spec.ts \
+  --project=hodinarium-chromium --reporter=list
+```
+
+Output: `test-results/a11y-*-findings.json` (3 soubory). Diff proti
+předchozímu runu odhalí regrese (nové fialové linky bez padding,
+focus state odstraněný omylem v reset CSS, atp.).
+
+Pokud nějaká nová UI komponenta:
+- přidá disabled-by-default tlačítka, ověř `:focus-visible` style i pro
+  aktivní state (test je vyloučí, ale lidská validace pomůže);
+- přidá custom-styled checkbox/radio (zaškrtávátka „přepínače"), nech
+  bounding box ≥ 24×24 px.
+
 ## A.10 — Bug fixes z GH issues (audit 2026-05-19)
 
 Triáž 10 open issues v `csh-cz/web` z hlášení editorů od 2026-04-28 do

@@ -14,6 +14,7 @@ author: Petr Král
 ogImage: /img/elektrika/Bodet/Profil930NTP.png
 relatedKarty:
   - inv-125-podruzne-hodiny-mobatime
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/decin_NTP.htm
 lastModified: Mon, 20 Mar 2023 10:16:00 GMT
 sourceCharset: windows-1250

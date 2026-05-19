@@ -15,6 +15,8 @@ const clanky = defineCollection({
     sourceCharset: z.string().optional(),
     scrapedAt: z.string().optional(),
     manualEdit: z.boolean().optional(),
+    /** Výchozí kredit pro markdown `![]()` obrázky v těle stránky (viz hodinarium-eu/content.config.ts). */
+    imageCredit: z.string().optional(),
   }),
 });
 

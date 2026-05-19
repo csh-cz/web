@@ -2,6 +2,7 @@
 title: "Výroba zvonů"
 slug: "zvony-vyroba"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/zvony_vyroba.htm"
 lastModified: "Sun, 23 Apr 2017 20:06:00 GMT"
 sourceCharset: "windows-1250"

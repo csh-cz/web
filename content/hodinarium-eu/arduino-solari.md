@@ -10,6 +10,7 @@ tldr: 'Vratná modernizace italských překlápěcích hodin Solari Udine s nefu
 author: Petr Král
 searchKeywords:
   - Arduino, ESP8266
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/Arduino_Solari.htm
 lastModified: Sun, 24 Apr 2022 09:31:00 GMT
 sourceCharset: windows-1250

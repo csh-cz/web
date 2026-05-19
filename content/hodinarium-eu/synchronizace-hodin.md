@@ -8,6 +8,7 @@ tags:
   - radio-rizeno
   - gps-rizeno
   - ntp-rizeno
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/synchronizace_hodin.htm"
 lastModified: "Sun, 26 Sep 2021 09:14:00 GMT"
 sourceCharset: "windows-1250"

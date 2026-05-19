@@ -7,6 +7,7 @@ tags:
   - decin
   - diy
   - 2000s
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/decin_chronulator.htm"
 lastModified: "Thu, 26 Aug 2021 12:05:00 GMT"
 sourceCharset: "windows-1250"

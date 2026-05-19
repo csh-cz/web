@@ -2,6 +2,7 @@
 title: "Časová symbolika trochu jinak"
 slug: "mazan"
 category: "zajimavosti"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/mazan.htm"
 lastModified: "Fri, 29 Apr 2022 16:43:00 GMT"
 sourceCharset: "windows-1250"

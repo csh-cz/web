@@ -5,6 +5,7 @@ category: "sbirka"
 tags:
   - decin
   - historie-spolku
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/decin_zamek.htm"
 lastModified: "Sat, 22 Apr 2017 22:36:00 GMT"
 sourceCharset: "windows-1250"

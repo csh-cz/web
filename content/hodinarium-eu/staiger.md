@@ -3,6 +3,7 @@ title: "Astronomické hodiny a hodiny pásmového času"
 slug: staiger
 category: "projekty"
 author: "Petr Král"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/Staiger.htm"
 lastModified: "Sun, 10 May 2020 07:23:00 GMT"
 sourceCharset: "windows-1250"

@@ -3,6 +3,7 @@ title: "Podružné hodiny Pragotron"
 slug: "inv-127-podruzne-hodiny-pragotron"
 category: "sbirka"
 podsekce: "karta"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"

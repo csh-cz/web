@@ -2,6 +2,7 @@
 title: "Vodní budík"
 slug: "vodni-budik"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/vodni_budik.htm"
 lastModified: "Wed, 26 Apr 2017 16:28:00 GMT"
 sourceCharset: "windows-1250"

@@ -8,6 +8,7 @@ tags:
   - kyvadlo
   - krok-vreteno
   - restaurovane
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/kardasova_recice.htm"
 lastModified: "Tue, 23 Jul 2019 14:50:00 GMT"
 sourceCharset: "windows-1250"

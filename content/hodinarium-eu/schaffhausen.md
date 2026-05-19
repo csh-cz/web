@@ -5,6 +5,7 @@ category: "virtualni-muzeum"
 tags:
   - kapesni
   - schaffhausen
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/schaffhausen.htm"
 lastModified: "Wed, 26 Apr 2017 14:11:00 GMT"
 sourceCharset: "windows-1250"

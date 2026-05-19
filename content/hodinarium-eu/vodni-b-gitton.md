@@ -2,6 +2,7 @@
 title: "TIME FLOW CLOCK - hodiny protékajícího času"
 slug: "vodni-b-gitton"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/vodni_B_Gitton.htm"
 lastModified: "Wed, 26 Apr 2017 16:25:00 GMT"
 sourceCharset: "windows-1250"

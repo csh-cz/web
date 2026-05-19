@@ -2,6 +2,7 @@
 title: "Galerie uměleckých děl v Hodináriu Děčín"
 slug: "decin-galerie"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/decin_galerie.htm"
 lastModified: "Tue, 13 Aug 2024 09:20:00 GMT"
 sourceCharset: "windows-1250"

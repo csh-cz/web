@@ -8,6 +8,7 @@ tags:
   - kuzelove-kyvadlo
   - preletave-kyvadlo
 ogImage: /img/flying/Ignatz_clock3.jpg
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/flying_pendulum.htm
 lastModified: Wed, 26 Apr 2017 15:59:00 GMT
 sourceCharset: windows-1250

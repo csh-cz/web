@@ -8,6 +8,7 @@ tags:
 tldr: 'Přeprogramování čínské meteostanice (ESP01S, OLED) na astronomicko-astrologický displej zobrazující efemeridy Slunce a Měsíce, planetní hodiny, staročeský čas i computus včetně data Velikonoc.'
 author: Petr Král
 manualEdit: true
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/astro2_NTP.htm
 lastModified: Sun, 05 Oct 2025 18:07:00 GMT
 sourceCharset: windows-1250

@@ -2,6 +2,7 @@
 title: "Český spolek horologický 392 01 Soběslav, nábřeží Otakara Ostrčila 273/III"
 slug: "kontakt"
 category: "spolek"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium.eu/kontakt.htm"
 lastModified: "Wed, 23 Apr 2025 12:37:00 GMT"
 sourceCharset: "windows-1250"

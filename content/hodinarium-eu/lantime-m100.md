@@ -7,6 +7,7 @@ tags:
   - gps-rizeno
   - krystal
   - meinberg
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/Lantime_M100.htm"
 lastModified: "Mon, 01 Feb 2021 01:21:00 GMT"
 sourceCharset: "windows-1250"

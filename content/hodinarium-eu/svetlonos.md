@@ -5,6 +5,7 @@ category: "virtualni-muzeum"
 tags:
   - cesko
   - slunecni
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/svetlonos.htm"
 lastModified: "Wed, 26 Apr 2017 16:22:00 GMT"
 sourceCharset: "windows-1250"

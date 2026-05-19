@@ -2,6 +2,7 @@
 title: "Stroj věžních hodin 1884 - Podmokly"
 slug: "vez-decin"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/vez_decin.htm"
 lastModified: "Thu, 27 Apr 2017 21:48:00 GMT"
 sourceCharset: "windows-1250"

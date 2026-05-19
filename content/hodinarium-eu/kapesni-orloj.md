@@ -2,6 +2,7 @@
 title: "Kapesní \"orloj\" BREVETE"
 slug: "kapesni-orloj"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/kapesni_orloj.htm"
 lastModified: "Wed, 26 Apr 2017 16:01:00 GMT"
 sourceCharset: "windows-1250"

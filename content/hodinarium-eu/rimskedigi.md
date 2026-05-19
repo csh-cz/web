@@ -2,6 +2,7 @@
 title: "Římské digitálky"
 slug: "rimskedigi"
 category: "projekty"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/rimskedigi.htm"
 lastModified: "Mon, 01 Nov 2021 09:15:00 GMT"
 sourceCharset: "windows-1250"

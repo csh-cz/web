@@ -2,6 +2,7 @@
 title: "HODINY BUDÍKOVÉ 2"
 slug: "budiky2"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/budiky2.htm"
 lastModified: "Wed, 26 Apr 2017 13:46:00 GMT"
 sourceCharset: "windows-1250"

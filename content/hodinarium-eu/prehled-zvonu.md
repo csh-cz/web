@@ -2,6 +2,7 @@
 title: "Zvony na soběslavské věži"
 slug: "prehled-zvonu"
 category: "sbirka"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/prehled_zvonu.htm"
 lastModified: "Sun, 23 Apr 2017 15:56:00 GMT"
 sourceCharset: "windows-1250"

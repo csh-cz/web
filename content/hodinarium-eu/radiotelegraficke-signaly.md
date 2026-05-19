@@ -2,6 +2,7 @@
 title: "Radiotelegrafické časové signály"
 slug: "radiotelegraficke-signaly"
 category: "projekty"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/radiotelegraficke_signaly.htm"
 lastModified: "Mon, 04 Mar 2024 13:06:00 GMT"
 sourceCharset: "windows-1250"

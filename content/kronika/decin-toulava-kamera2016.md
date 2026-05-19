@@ -5,6 +5,7 @@ date: "2016-01-03"
 rok: 2016
 typ: tv
 misto: "Hodinárium Děčín"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium.eu/decin_toulava_kamera2016.htm"
 lastModified: "Sat, 22 Apr 2017 22:32:00 GMT"
 sourceCharset: "windows-1250"

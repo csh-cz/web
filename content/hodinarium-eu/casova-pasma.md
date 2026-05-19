@@ -6,6 +6,7 @@ tags:
   - kuriozita
   - svet
   - popularizace
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/casova_pasma.htm"
 lastModified: "Wed, 26 Apr 2017 16:02:00 GMT"
 sourceCharset: "windows-1250"

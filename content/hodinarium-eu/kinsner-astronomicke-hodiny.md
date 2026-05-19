@@ -11,6 +11,7 @@ tags:
   - zavazi
   - pero
   - cesko
+imageCredit: "David Knespl"
 originalUrl: https://www.digitalniknihovna.cz/nkp/uuid/uuid:b4e9a040-435d-11dd-b505-00145e5790ea
 lastModified: "2026-05-04T00:00:00Z"
 sourceCharset: utf-8

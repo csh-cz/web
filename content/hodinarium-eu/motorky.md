@@ -5,6 +5,7 @@ category: "sbirka"
 tags:
   - kuriozita
   - diy
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/motorky.htm"
 lastModified: "Wed, 26 Apr 2017 14:00:00 GMT"
 sourceCharset: "windows-1250"

@@ -5,6 +5,7 @@ date: "2010-12-01"
 rok: 2010
 typ: historie-spolku
 misto: "Soběslav"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium.eu/sobeslav3.htm"
 lastModified: "Sun, 23 Apr 2017 15:51:00 GMT"
 sourceCharset: "windows-1250"
