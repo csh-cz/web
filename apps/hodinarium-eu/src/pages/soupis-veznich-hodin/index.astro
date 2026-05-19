@@ -722,7 +722,16 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
     cursor: pointer;
     font-size: 0.85rem;
   }
-  .stav-checkbox input { margin: 0; }
+  /* WCAG 2.5.8 Target Size (Minimum, AA): native UA checkbox je 13×13 px.
+     Upscale na 24×24 (přes width/height pro Chromium + accent-color pro
+     barevný hint). Audit 2026-05-19 (A.12). */
+  .stav-checkbox input {
+    margin: 0;
+    width: 24px;
+    height: 24px;
+    accent-color: var(--color-brass-bright);
+    cursor: pointer;
+  }
   .filter-reset {
     align-self: end;
     display: inline-flex;
