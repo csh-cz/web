@@ -10,6 +10,7 @@ import { formatCite, getRef } from '../../utils/cite';
 import { extractWikiTitle } from '../../utils/referenceTypes';
 import WipBanner from '../../components/WipBanner.astro';
 import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
+import { cdnUrl } from '../../utils/cdnImage';
 
 import type { CatalogEntry } from '../../data/catalog-types';
 
@@ -96,7 +97,7 @@ const wipStatus = detailVisible && showsWipBanner(detail.data.workflow) ? detail
 
     {hero && (
       <figure class="krok-hero">
-        <img src={hero.src} alt={hero.alt} loading="eager" decoding="async" />
+        <img src={cdnUrl(hero.src)} alt={hero.alt} loading="eager" decoding="async" />
         {hero.caption && <figcaption>{hero.caption}</figcaption>}
         <p class="krok-figure-credit"><em>{hero.credit}</em></p>
       </figure>
@@ -125,7 +126,7 @@ const wipStatus = detailVisible && showsWipBanner(detail.data.workflow) ? detail
                 {krok.images.map((img) => (
                   <figure class="krok-figure">
                     <a href={img.src} target="_blank" rel="noopener" aria-label="Otevřít v plné velikosti">
-                      <img src={img.src} alt={img.alt} loading="lazy" decoding="async" />
+                      <img src={cdnUrl(img.src)} alt={img.alt} loading="lazy" decoding="async" />
                     </a>
                     {img.caption && <figcaption>{img.caption}</figcaption>}
                     <p class="krok-figure-credit"><em>{img.credit}</em></p>
@@ -221,7 +222,7 @@ const wipStatus = detailVisible && showsWipBanner(detail.data.workflow) ? detail
               <li>
                 <a href={clanekHref(c)}>
                   {c.thumbnail && (
-                    <img src={c.thumbnail} alt="" loading="lazy" decoding="async" />
+                    <img src={cdnUrl(c.thumbnail)} alt="" loading="lazy" decoding="async" />
                   )}
                   <span class="related-text">
                     <strong>{c.title || c.slug}</strong>
