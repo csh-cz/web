@@ -149,8 +149,8 @@ const wipStatus = detailVisible && showsWipBanner(detail.data.workflow) ? detail
       )}
 
       {krok.references && krok.references.length > 0 && (
-        <section class="krok-references" aria-labelledby="krok-references-heading">
-          <h2 id="krok-references-heading">Literatura a odkazy</h2>
+        <section class="references krok-references" aria-labelledby="references-heading">
+          <h2 id="references-heading" class="references-title">Literatura a odkazy</h2>
           <ol>
             {krok.references.map((r) => {
               // Branch 1: bibKey (primárně, ISO 690 přes citeproc-js)
