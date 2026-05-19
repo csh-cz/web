@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
 import EditorNotesBlock from '../../components/EditorNotesBlock.astro';
 import WipBanner from '../../components/WipBanner.astro';
+import Photo from '../../components/Photo.astro';
 import { getCollection, render } from 'astro:content';
 import { hodinari } from '../../data/hodinari';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
@@ -227,15 +228,11 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
   {d.foto && d.foto.length > 0 && (
     <section class="foto-grid">
       {d.foto.map((f) => (
-        <figure>
-          <img src={f.src} alt={f.alt || ''} loading="lazy" />
-          {(f.alt || f.credit) && (
-            <figcaption>
-              {f.alt}
-              {f.credit && <small class="credit"> — {f.credit}</small>}
-            </figcaption>
-          )}
-        </figure>
+        /* `<Photo>` má built-in R2 cdnBase rewrite + AVIF/WebP varianty,
+           takže místo plain `<img src={f.src}>` se každý obrázek serveruje
+           jako `<picture>` ze 3 formátů. Pre-A.26 byl tu plain `<img>`,
+           což obcházelo R2 pipeline (zůstávalo na lokálním `/img/`). */
+        <Photo src={f.src} alt={f.alt || ''} caption={f.alt} credit={f.credit} />
       ))}
     </section>
   )}
