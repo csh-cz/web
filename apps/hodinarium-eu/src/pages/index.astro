@@ -60,7 +60,7 @@ const withImages = entries.filter((e) => e.thumbnail).length;
         <p class="eyebrow mb-3">Vybrané exponáty</p>
         <h2 id="featured-heading" class="text-3xl md:text-4xl h2-flush">Stojí za prohlídku</h2>
       </div>
-      <a href="/tagy" class="text-sm">Procházet podle tagu →</a>
+      <a href="/tagy" class="text-sm section-cta">Procházet podle tagu →</a>
     </header>
     <div class="featured-grid">
       {featured.map((e) => (
@@ -117,7 +117,7 @@ const withImages = entries.filter((e) => e.thumbnail).length;
         <p class="eyebrow mb-3">Pro inspiraci</p>
         <h2 id="random-heading" class="text-3xl md:text-4xl h2-flush">Náhodný výběr</h2>
       </div>
-      <a href="/sbirka" class="text-sm">Procházet vše →</a>
+      <a href="/sbirka" class="text-sm section-cta">Procházet vše →</a>
     </header>
     <div class="featured-grid">
       {browsable.map((e) => (
@@ -169,6 +169,17 @@ const withImages = entries.filter((e) => e.thumbnail).length;
 </Base>
 
 <style>
+  /* Section CTA — odkaz „Procházet vše →" v section <header>.
+     WCAG 2.5.8 Target Size (Minimum, AA): inline-flex + min-height 24px
+     aby celý touch target byl ≥ 24×24 CSS px (text 14px sám má jen 21px).
+     Audit 2026-05-19 (A.12) — viz tests/smoke/a11y-target-size + _a11y_findings.json. */
+  .section-cta {
+    display: inline-flex;
+    align-items: center;
+    min-height: 24px;
+    padding-block: 0.25rem;
+  }
+
   .hero-section {
     margin-top: 1rem;
   }
