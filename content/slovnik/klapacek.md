@@ -4,7 +4,7 @@ slug: klapacek
 kategorie: bici
 varianty:
   - klapáček
-definice: "Klapající jazýček / drobná páčka u astronomického ciferníku Staroměstského orloje, která \"klape\" při každém úderu hodin. Sloužil jako akustické počítadlo úderů."
+definice: "Klapající jazýček / drobná páčka u astronomického číselníku Staroměstského orloje, která \"klape\" při každém úderu hodin. Sloužil jako akustické počítadlo úderů."
 pribuzne:
   - palice-orloje
   - sphera

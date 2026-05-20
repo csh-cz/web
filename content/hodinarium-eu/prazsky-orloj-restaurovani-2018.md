@@ -19,9 +19,9 @@ Závěrečná zpráva akademického sochaře **Petra Skály** z **prosince 2018*
 
 ## Časová osa hlavních zásahů (1410–2018)
 
-- **1410** — vznik orloje. Astronomický ciferník zhotovuje **Mikuláš z Kadaně** (dle listiny purkmistra z 9. října 1410). Hodinový stroj byl pravděpodobně středověký gotický typ s [vretenovým krokem](/kroky/vretenovy-krok) a [lihýřem](/slovnik/lihyr).
+- **1410** — vznik orloje. Astronomický číselník zhotovuje **Mikuláš z Kadaně** (dle listiny purkmistra z 9. října 1410). Hodinový stroj byl pravděpodobně středověký gotický typ s [vretenovým krokem](/kroky/vretenovy-krok) a [lihýřem](/slovnik/lihyr).
 - **1865** — **Mánesovo kalendárium**. Josef Mánes maluje novou kalendářní desku (originál dnes v Národním muzeu, na orloji reprodukce).
-- **1864–65 — velká oprava mechanického stroje**. Hodinový stroj opravuje **Jan Holub** ve strojírně **[Čeňka Daňka](/hodinari/cenek-danek)** v Karlíně. **[Ludvík Hainz](/hodinari/ludvik-hainz)** dodává **podsvícené průsvitné postranní ciferníky** s plynovým osvětlením (navrhoval je již od roku 1856). **[Václav Krečmer](/hodinari/vaclav-krecmer)** přidává **mechanismus rozsvěcování plynového podsvícení** (1866) — kolík na závěrkovém kole bití zvedá páku ovládající zapalovač a regulátor plynu vedeného k postranním ciferníkům. Detail vývoje a dobových sporů popisuje **Bára Černá** v *Přehledu výzkumu k obnově hodinového stroje staroměstského orloje v Praze v letech 1864–1865* (Staletá Praha 28, 2012, č. 1).
+- **1864–65 — velká oprava mechanického stroje**. Hodinový stroj opravuje **Jan Holub** ve strojírně **[Čeňka Daňka](/hodinari/cenek-danek)** v Karlíně. **[Ludvík Hainz](/hodinari/ludvik-hainz)** dodává **podsvícené průsvitné postranní číselníky** s plynovým osvětlením (navrhoval je již od roku 1856). **[Václav Krečmer](/hodinari/vaclav-krecmer)** přidává **mechanismus rozsvěcování plynového podsvícení** (1866) — kolík na závěrkovém kole bití zvedá páku ovládající zapalovač a regulátor plynu vedeného k postranním číselníkům. Detail vývoje a dobových sporů popisuje **Bára Černá** v *Přehledu výzkumu k obnově hodinového stroje staroměstského orloje v Praze v letech 1864–1865* (Staletá Praha 28, 2012, č. 1).
 - **1911** — **Vojtěch Sucharda** restauruje barokní dřevěné sochy (Marnivec, Lakomec, Smrtka, Rozkošník, Filozof, Hvězdář, Kronikář, archanděl Michael) a **přidává rekvizity** do jejich rukou. Tím se mění původní tematický obsah figur — z původně barokní *alegorie ctností a neřestí* se stávají dnešní *alegorie marností a smrti* (viz Skála 2015 — *Alegorie ctností a neřestí na pražském orloji*).
 - **5. května 1945** — orloj **vypálen** německými vojsky během Pražského povstání. Zničen apoštolský stroj, paličkové stroje, mnohé dřevěné komponenty. Mánesova kalendářní deska zachráněna včas díky pohotové akci radničního personálu.
 - **1948** — **Vojtěch Sucharda** opět restauruje sochy. Nová **kompozice apoštolů** dle původních středověkých zaznamenání (12 figur ve dvojici oken nad astrolábem). Restaurován hodinový stroj.
@@ -44,9 +44,9 @@ Skála ve zprávě k tomu poznamenává:
 > „U složitějších věžních strojů (orloje, astronomické hodiny) ukazovací stroj zahrnuje mnohonásobné výstupy — kromě běžných ručiček i indikátor astronomického data, fází měsíce, znamení zvěrokruhu, kalendářů, planetních pohybů. Seřízení záběru ozubení vyžaduje individuální posouzení pro každý výstup."
 > — SKÁLA, Petr. *Závěrečná zpráva o restaurování stroje a příslušenství Pražského orloje a věžních hodin na věži Staroměstské radnice.* Prosinec 2018.
 
-### 2. Podružné stroje za ciferníky
+### 2. Podružné stroje za číselníky
 
-**Tři podružné stroje** za jednotlivými ciferníky (astronomický + kalendářní + boční radniční) přijímají signál od hlavního stroje a převádějí ho na pohyb svých ručiček. Skála jednotlivě **demontoval, vyčistil a znovu seřídil** každý podružný stroj — práce, která se rutinně neprovádí, ale po sedmi desetiletích od posledního zásahu byla nutná pro **eliminaci akumulovaných nepřesností**.
+**Tři podružné stroje** za jednotlivými číselníky (astronomický + kalendářní + boční radniční) přijímají signál od hlavního stroje a převádějí ho na pohyb svých ručiček. Skála jednotlivě **demontoval, vyčistil a znovu seřídil** každý podružný stroj — práce, která se rutinně neprovádí, ale po sedmi desetiletích od posledního zásahu byla nutná pro **eliminaci akumulovaných nepřesností**.
 
 ### 3. Paličkové stroje cimbálů a systém rozvodu tahové síly
 
@@ -62,7 +62,7 @@ Skála v 2018 zaměřil na:
 
 Klíčový princip Skálova přístupu byl **minimální zásah** — nahrazovat jen ty součásti, které jsou opravdu nefunkční nebo poškozené tak, že další užívání by hrozilo havárií. Historické součásti zůstávají na svých místech, pokud to jejich technický stav dovolí. Tento přístup byl konzultován s **NPÚ** a navazuje na evropskou památkářskou praxi (Benátská charta 1964, Charta restaurátorská 1972).
 
-## Vývoj astrolábového ciferníku — paralelní výzkum
+## Vývoj astrolábového číselníku — paralelní výzkum
 
 V roce 2016 publikoval Skála v časopise *Průzkumy památek* (XXIII, 1/2016) studii **Vývoj podoby astrolábu Pražského orloje**, kde dokumentuje **změny vzhledu astrolábu od roku 1410 dodnes**. Klíčové zjištění: **dnešní astroláb pravděpodobně neobsahuje žádnou originální součást z roku 1410.** Výjimkou je snad pouze **symbol Slunce** a ručka ukazující čas. Všechny ostatní díly jsou kopie z opravy 1864–65 nebo pozdějších zásahů, respektující však **původní geometrii astrolábu**.
 
@@ -87,7 +87,7 @@ Publikační činnost (výběr):
 
 ## Související
 
-- [Číselník (cifernik, ciferník)](/slovnik/ciselnik) — sekce o orlojních ciferníkách + Skálova pravidla rozpoznání ručiček
+- [Číselník (číselnik, číselník)](/slovnik/ciselnik) — sekce o orlojních číselníkách + Skálova pravidla rozpoznání ručiček
 - [Ukazovací stroj](/slovnik/ukazovaci-stroj) — odkaz na Skálovu zprávu 2018
 - [Astroláb](/slovnik/astrolab), [orloj](/slovnik/orloj), [kalendárium](/slovnik/kalendarium) — slovník
 - [Jan Holub](/hodinari/jan-holub), [Čeněk Daněk](/hodinari/cenek-danek), [Ludvík Hainz](/hodinari/ludvik-hainz), [Václav Krečmer](/hodinari/vaclav-krecmer) — autoři opravy 1864–66

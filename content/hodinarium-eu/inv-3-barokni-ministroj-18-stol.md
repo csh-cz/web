@@ -37,7 +37,7 @@ sourceCharset: utf-8
 scrapedAt: 2026-04-30T04:12:37.520Z
 ---
 
-Tento barokní kovaný [čtvrťový stroj](/slovnik/ctvrtove-biti) pochází snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách. Malé rozměry stroje postačovaly pro pohon jednoho ciferníku.
+Tento barokní kovaný [čtvrťový stroj](/slovnik/ctvrtove-biti) pochází snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách. Malé rozměry stroje postačovaly pro pohon jednoho číselníku.
 
 Stroj byl stavěn nejméně ve dvou etapách a následně opravován. První etapa vzniku stroje může být z první půlky 18. století, nelze vyloučit ani přelom 17. a 18. století. V rámu byl původně pouze jicí stroj a stroj [odbíjení](/slovnik/odbijeni) celých hodin. Svislé pásnice jsou kovářsky zdobeny v horní části dvojicí záseků. Později byl rám viditelně nastaven a mezi stávající stroje byl vložen nový čtvrťový stroj. Časově rozdílné etapy se projevují i odlišným provedením hřídelí. Starší hřídele jsou zdobnější, kované do zápustky. Na páce závěrky celého bití je vidět její prodloužení. O přestavbě svědčí i svislá pásnice [bicího stroje](/slovnik/bici-stroj) s původními ozdobnými záseky, která je sice nově obroušena (???) a nasazena z vnější strany nastaveného rámu záseky dovnitř místo vnitřního původního uložení. Rovněž na pásnici jicího stroje najdeme původní otvory pro hřídele stroje bicího. Na celém rámu jsou další otvory a zářezy od zatím neznámých mechanismů. Starší spoje jsou klínové, novější spoje jsou šroubové. Ty však patří asi až ke 3. etapě přestavby.
 

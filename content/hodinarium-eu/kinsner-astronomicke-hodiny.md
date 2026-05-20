@@ -34,7 +34,7 @@ references:
     note: Dobový časopisecký článek (zatím nedohledáno bibliograficky).
 ---
 
-![Kinšnerův astronomický orloj — Provedení I. Ciferník samostatného astronomického orloje (Fig. 1 z patentního spisu DRP 82689). Vnější kruh — 24hodinový ciferník S. Vnitřní kruh — pohyblivý zvěrokruh U s dvanácti znameními. Sluneční ručička X (vychází vzhůru přes znamení Raka) ukazuje denní čas na 24hodinovém ciferníku a zároveň polohu Slunce ve zvěrokruhu. Měsíční ručička Y (zde naproti slunci, mezi Vahami a Štírem) nese otáčivou měsíční kouli s fázemi. Krátké tečné ručičky V a U (na hranici 4. a 8. hodiny po obou stranách) ukazují čas východu a západu Slunce.](/img/zajimavosti/kinsner-astronomicke-hodiny/fig-1-dial-design-i.png)
+![Kinšnerův astronomický orloj — Provedení I. Číselník samostatného astronomického orloje (Fig. 1 z patentního spisu DRP 82689). Vnější kruh — 24hodinový číselník S. Vnitřní kruh — pohyblivý zvěrokruh U s dvanácti znameními. Sluneční ručička X (vychází vzhůru přes znamení Raka) ukazuje denní čas na 24hodinovém číselníku a zároveň polohu Slunce ve zvěrokruhu. Měsíční ručička Y (zde naproti slunci, mezi Vahami a Štírem) nese otáčivou měsíční kouli s fázemi. Krátké tečné ručičky V a U (na hranici 4. a 8. hodiny po obou stranách) ukazují čas východu a západu Slunce.](/img/zajimavosti/kinsner-astronomicke-hodiny/fig-1-dial-design-i.png)
 
 V devadesátých letech 19. století začal **chlumecký hodinář [Edmund Kinšner](/hodinari/edmund-kinsner)** (1846–1913) vyrábět astronomické hodiny určené **pro privátní obytné prostory** — nástěnné nebo stojací, srovnatelné rozměrově s běžným nábytkem. Ukazovaly polohu Slunce v zvěrokruhu, fáze Měsíce, okamžiky východu a západu Slunce a — ve výbavě „kombinovaného” provedení — i běžný čas v hodinách a minutách. Pojetím to byly **salonní astronomické hodiny**: žák [Jana Prokeše](/hodinari/jan-prokes) ze Sobotky převedl monumentální orlojnickou tradici staletí (pražský orloj 1410, padovské [Astrarium Giovanniho de Dondi](/hodinari/dondi) 1364, štrasburský orloj) do měřítka pokoje.
 
@@ -60,7 +60,7 @@ Dokud byly astronomické hodiny stavebními prvky katedrál, radnic a knížecí
 
 Z patentu i z Nekutova článku 1898 plyne přesný funkční katalog ukazatelů:
 
-1. **Denní čas** — sluneční ručička otáčející se 1× za 24 hodin po pevném 24hodinovém ciferníku (XII nahoře = poledne, XII dole = půlnoc, VI vlevo = 6 ráno, VI vpravo = 6 večer). Každá hodina dělená na 6 dílků po 10 minutách.
+1. **Denní čas** — sluneční ručička otáčející se 1× za 24 hodin po pevném 24hodinovém číselníku (XII nahoře = poledne, XII dole = půlnoc, VI vlevo = 6 ráno, VI vpravo = 6 večer). Každá hodina dělená na 6 dílků po 10 minutách.
 2. **Polohu Slunce ve zvěrokruhu** — sluneční ručka putuje pohyblivým zvěrokruhem zpětně, tj. *„zdá se, jakoby rafička sluneční po něm zpět se pohybovala”* (Nekut). Za rok projde všemi 12 znameními.
 3. **Polohu Měsíce ve zvěrokruhu** — měsíční ručička (otočí se přibližně jednou za den) ukazuje, ve kterém znamení se Měsíc nachází.
 4. **Fáze Měsíce** — měsíční ručka nese otáčivou kouli, *„z polovice zlacenou a z polovice černou”*. Při novu vidíme černou stranu, při úplňku zlatou.
@@ -70,16 +70,16 @@ Nekut k tomu přidává čistě **estetický detail**, který v patentu chybí:
 
 > *„Ku ozdobě číselníku umístěna jest v jeho středu mapa polokoule zemské, a to takovým způsobem, že ve středu jejím Čechy, resp. Praha se nalézá. Jelikož sluneční ručička v čas východu slunce na straně levé, v poledne nahoře a v čas západu slunce na straně pravé se nachází, umístěna také polokoule východem na levo, jihem (polední stranou) nahoru a západem na pravo, tedy **obráceně, než jak mapy obyčejně jsou upraveny**."*
 
-Mapa Země ve středu ciferníku, **vystředěná na Prahu** a otočená tak, aby kompasovým kruhem ručiček odpovídala pozemské orientaci — vlastenecky a kosmologicky elegantní rys, charakteristický pro pozdní 19. století.
+Mapa Země ve středu číselníku, **vystředěná na Prahu** a otočená tak, aby kompasovým kruhem ručiček odpovídala pozemské orientaci — vlastenecky a kosmologicky elegantní rys, charakteristický pro pozdní 19. století.
 
 ## Provedení a varianty
 
 Patent popisuje **dvě konstrukční provedení**, lišící se tím, jestli orloj současně ukazuje běžný čas v hodinách a minutách:
 
-- **Provedení I — samostatný orloj.** Pouze sluneční ručička s 24hodinovým ciferníkem. Sluneční ručička otáčející se 1× za den slouží zároveň jako čas (s přesností na 10 minut). Ciferník zobrazuje obrázek výše (Fig. 1).
-- **Provedení II — orloj kombinovaný s běžnými hodinami.** Přidána je samostatná **minutová a hodinová ručička** s vlastním 12hodinovým ciferníkem na obvodu. Tím se přesnost zvyšuje na minuty.
+- **Provedení I — samostatný orloj.** Pouze sluneční ručička s 24hodinovým číselníkem. Sluneční ručička otáčející se 1× za den slouží zároveň jako čas (s přesností na 10 minut). Číselník zobrazuje obrázek výše (Fig. 1).
+- **Provedení II — orloj kombinovaný s běžnými hodinami.** Přidána je samostatná **minutová a hodinová ručička** s vlastním 12hodinovým číselníkem na obvodu. Tím se přesnost zvyšuje na minuty.
 
-![Kinšnerův astronomický orloj — Provedení II. Ciferník kombinovaného orloje (Fig. 5 z patentního spisu DRP 82689). Oproti Provedení I přibývá vnější kruh S₁ s 12hodinovým ciferníkem a dvě dlouhé klasické ručky — minutová X₁ a hodinová X₂. Centrální astronomické ústrojí (vnitřní 24hodinový ciferník S, zvěrokruh U, sluneční ručka X, měsíční ručka Y, ručky východu/západu Slunce) zůstává beze změny. Toto provedení tak nabízí současně klasické čtení času na minuty a astronomický stav oblohy.](/img/zajimavosti/kinsner-astronomicke-hodiny/fig-5-dial-design-ii.png)
+![Kinšnerův astronomický orloj — Provedení II. Číselník kombinovaného orloje (Fig. 5 z patentního spisu DRP 82689). Oproti Provedení I přibývá vnější kruh S₁ s 12hodinovým číselníkem a dvě dlouhé klasické ručky — minutová X₁ a hodinová X₂. Centrální astronomické ústrojí (vnitřní 24hodinový číselník S, zvěrokruh U, sluneční ručka X, měsíční ručka Y, ručky východu/západu Slunce) zůstává beze změny. Toto provedení tak nabízí současně klasické čtení času na minuty a astronomický stav oblohy.](/img/zajimavosti/kinsner-astronomicke-hodiny/fig-5-dial-design-ii.png)
 
 Nekut k tomu zaznamenává **čtyři varianty pohonu** podle natahovacího intervalu:
 
@@ -100,7 +100,7 @@ Pro porovnání — roční plat dělníka 100–200 zl., vyššího úředníka
 
 ## Mechanismus
 
-![Patentní spis DRP 82689 — Blatt I (technický výkres). Vlevo Fig. 1 — částečný pohled na ciferník. Uprostřed Fig. 2 — podélný řez celým strojem; označená písmena X (sluneční hřídel), Y (měsíční), U (zvěrokruh), I (závaží pro pohon), T (anker), F (kyvadlo), P, R, O, M, N, J, K, L, G, H, A, B, C, D, E (jednotlivá ozubená kola s počty zubů specifikovanými v textu patentu). Vpravo dole Fig. 8, Fig. 9, Fig. 11 — detaily převodů. Společně tvoří kompletní inženýrský popis Provedení I.](/img/zajimavosti/kinsner-astronomicke-hodiny/fig-2-mechanism-blatt-i.png)
+![Patentní spis DRP 82689 — Blatt I (technický výkres). Vlevo Fig. 1 — částečný pohled na číselník. Uprostřed Fig. 2 — podélný řez celým strojem; označená písmena X (sluneční hřídel), Y (měsíční), U (zvěrokruh), I (závaží pro pohon), T (anker), F (kyvadlo), P, R, O, M, N, J, K, L, G, H, A, B, C, D, E (jednotlivá ozubená kola s počty zubů specifikovanými v textu patentu). Vpravo dole Fig. 8, Fig. 9, Fig. 11 — detaily převodů. Společně tvoří kompletní inženýrský popis Provedení I.](/img/zajimavosti/kinsner-astronomicke-hodiny/fig-2-mechanism-blatt-i.png)
 
 Stroj prošel ve svém vývoji **dvěma generacemi**. Nekut to popisuje takto:
 
@@ -118,7 +118,7 @@ Hřídel pohání **sluneční kolo se 66 zuby**, které se přes převod 55:66 
 
 ### Měsíční ručička s fázemi
 
-**Měsíční kolo má 70 zubů**, hnané přes převody 81 a 83 ze slunečního kola. Z těchto převodních poměrů vychází, že měsíční ručička oběhne ciferník 28½× za **29 dní, 12 hodin a 45 minut** — což je přesná délka **synodického měsíce** (od úplňku k úplňku).
+**Měsíční kolo má 70 zubů**, hnané přes převody 81 a 83 ze slunečního kola. Z těchto převodních poměrů vychází, že měsíční ručička oběhne číselník 28½× za **29 dní, 12 hodin a 45 minut** — což je přesná délka **synodického měsíce** (od úplňku k úplňku).
 
 Sama ručička nese otáčivou kouli — *„zpola zlacenou, zpola černou”* — a kuželová převodová kolečka mezi sluneční a měsíční ručkou způsobují, že koule se postupně natáčí a ukazuje **správnou fázi Měsíce**. Když je Měsíc v opozici se Sluncem (úplněk), ukazuje k pozorovateli zlatou stranu; když v konjunkci (nov), ukazuje černou.
 

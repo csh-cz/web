@@ -13,7 +13,7 @@ originalUrl: "https://hodinarium.eu/hinspirace.htm"
 lastModified: "Wed, 26 Apr 2017 14:07:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:58.791Z"
-tldr: 'Volné repliky vzácných muzejních exponátů vyráběné sběratelem podle dobových obrázků — pilové gravitační hodiny, stolní s prstencovými ciferníky, ptáček v kleci a další netradiční konstrukce přestavěné z běžných kuchyňských strojků.'
+tldr: 'Volné repliky vzácných muzejních exponátů vyráběné sběratelem podle dobových obrázků — pilové gravitační hodiny, stolní s prstencovými číselníky, ptáček v kleci a další netradiční konstrukce přestavěné z běžných kuchyňských strojků.'
 ---
 Některé hodiny prostě neseženete. Jsou třeba jen v jednom exempláři někde v muzeu či za devaterou mříží v soukromé sbírce. Pokud nehodláte muzeum vyloupit, a přesto podobné hodiny chcete vlastnit, nezbývá, než si je vyrobit sám. Ani ne tak pro uspokojení z vlastnictví, ale pro uspokojení z tvorby.
 
@@ -37,9 +37,9 @@ Nápad postavit tyto hodiny vznikl při pohledu na obrázek z časopisu. V člá
 
 Hodiny jsou 65 cm vysoké. Kyvadlo je dlouhé 12,5 cm. Pohon je vlastní vahou stroje po ocelové ozubené liště, která je 44 cm dlouhá. Vyrobeny byly v roce **2000**.
 
-Raritou mezi nástěnnými hodinami jsou "**hodiny pilové**". Název je od toho, že stroj v kovovém bubnu je navlečen na svislou ozubenou tyč, o jejíž zuby opřené [soukolí](/slovnik/soukoli) se vlastní vahou roztáčí a uvádí v pohyb. Chod těchto hodin je řízen [kyvadlem](/slovnik/kyvadlo), které je umístěno před ciferníkem. S jejich výrobou začal po roce 1700 Isaak Ourry v Kasselu a vyráběly se až do první poloviny 19. století, buď zavěšené na konzole nebo namontované na nástěnné prkénko. Bývaly různě ornamentálně a figurálně zdobeny.
+Raritou mezi nástěnnými hodinami jsou "**hodiny pilové**". Název je od toho, že stroj v kovovém bubnu je navlečen na svislou ozubenou tyč, o jejíž zuby opřené [soukolí](/slovnik/soukoli) se vlastní vahou roztáčí a uvádí v pohyb. Chod těchto hodin je řízen [kyvadlem](/slovnik/kyvadlo), které je umístěno před číselníkem. S jejich výrobou začal po roce 1700 Isaak Ourry v Kasselu a vyráběly se až do první poloviny 19. století, buď zavěšené na konzole nebo namontované na nástěnné prkénko. Bývaly různě ornamentálně a figurálně zdobeny.
 
-**V** současné době je tento druh hodin prakticky nedostupný. Protože je sběratelsky velice atraktivní, tak jsem je vyrobil sám. Celé jsem je umístil na černě mořené prkénko s mosazným rámečkem. Čelní kruhová deska je s volutovým nástavcem, ciferník je bílý, ručky černé ocelové, stroj kotvový s kyvadlem před číselníkem.
+**V** současné době je tento druh hodin prakticky nedostupný. Protože je sběratelsky velice atraktivní, tak jsem je vyrobil sám. Celé jsem je umístil na černě mořené prkénko s mosazným rámečkem. Čelní kruhová deska je s volutovým nástavcem, číselník je bílý, ručky černé ocelové, stroj kotvový s kyvadlem před číselníkem.
 
 ## Nástěnné hodiny pilové II.
 

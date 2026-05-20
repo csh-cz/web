@@ -7,7 +7,7 @@ varianty:
   - královská hřídel
   - rozvodová hřídel
   - hlavní rozvod
-  - rozvod k ciferníkům
+  - rozvod k číselníkům
   - lead-off shaft
 prekladyDe:
   - term: Königswelle
@@ -18,7 +18,7 @@ prekladyEn:
 prekladyFr:
   - term: arbre principal
     genus: m
-definice: "**Vertikální (nebo dlouhá horizontální) hřídel** vedoucí od minutového kola hlavního stroje **k ciferníkům**. U věžních hodin typicky **3–5 m dlouhá**, prochází stropem věžní místnosti se strojem a dopravuje točivý moment k **ručkovým strojům** za vnějšími ciferníky. Klíčový prvek konstrukce, který umožňuje umístit stroj v patře pod ciferníky."
+definice: "**Vertikální (nebo dlouhá horizontální) hřídel** vedoucí od minutového kola hlavního stroje **k číselníkům**. U věžních hodin typicky **3–5 m dlouhá**, prochází stropem věžní místnosti se strojem a dopravuje točivý moment k **ručkovým strojům** za vnějšími číselníky. Klíčový prvek konstrukce, který umožňuje umístit stroj v patře pod číselníky."
 pribuzne:
   - hridelik-orloje
   - centralni-prevodovka
@@ -31,28 +31,28 @@ references:
 
 ## Konstrukční schéma
 
-Velké věžní hodiny se obvykle umísťují **ve věži v patře pod ciferníky** (kvůli prostoru pro stroj + závaží + údržbě). Mezi strojem a vnějšími ciferníky musí být **mechanický převod** — od hlavního minutového kola stroje k **ručkovému stroji** (= soukolí převádějícím 1 otáčku/hod minutové hřídele na 1/12 otáčky/hod hodinové ručky) za každým ciferníkem.
+Velké věžní hodiny se obvykle umísťují **ve věži v patře pod číselníky** (kvůli prostoru pro stroj + závaží + údržbě). Mezi strojem a vnějšími číselníky musí být **mechanický převod** — od hlavního minutového kola stroje k **ručkovému stroji** (= soukolí převádějícím 1 otáčku/hod minutové hřídele na 1/12 otáčky/hod hodinové ručky) za každým číselníkem.
 
 **Typická konfigurace:**
 
 ```
-                      ┌─── ciferník S ───┐
+                      ┌─── číselník S ───┐
                       │   (1 ručkový stroj)
                       │
       stroj           │  královská hřídel
       ──────╔═══╗     │  ┌───┐
-      ─×─×──╠═══╣═════╪══╪═══╪══× ciferník E
+      ─×─×──╠═══╣═════╪══╪═══╪══× číselník E
             ╚═══╝     │  └───┘
             │         │
-            └────────┴─── ciferník N
-                      ┌─── ciferník W
+            └────────┴─── číselník N
+                      ┌─── číselník W
 ```
 
-## Rozvod více ciferníků
+## Rozvod více číselníků
 
-U **vícecíferníkových věží** (radniční, zámecké, kostelní typicky 3–4 ciferníky) královská hřídel **distribuuje moment** přes:
+U **vícecíferníkových věží** (radniční, zámecké, kostelní typicky 3–4 číselníky) královská hřídel **distribuuje moment** přes:
 
-- **Kuželové převody** (90°) v každém uzlu kde se hřídel větví k bočnímu ciferníku
+- **Kuželové převody** (90°) v každém uzlu kde se hřídel větví k bočnímu číselníku
 - **Axiální ložiska** — speciálně tam, kde se hřídel mění o směru (vertikální → horizontální)
 
 Janatovo specifické řešení v zámku Poděbrady (1870, [Skála 1996](/soupis-veznich-hodin/skala-realizace-podebrady-zamek)):
@@ -63,7 +63,7 @@ Detail je **významný pro restaurátory** — když je stroj demontován pro re
 
 ## Rozvod tahové síly
 
-Vedle královské hřídele rozvádějící moment k ciferníkům existuje i **rozvod tahové síly** od **bicích strojů** k **paličkovým strojům** (mechanismů odhazujících kladívka na zvony / cymbály). Tato hřídel není kontinuální — typicky používá **lana, řetězy, drátěné táhla** vedoucí ke kladívkovým mechanismům v patrech nad strojem.
+Vedle královské hřídele rozvádějící moment k číselníkům existuje i **rozvod tahové síly** od **bicích strojů** k **paličkovým strojům** (mechanismů odhazujících kladívka na zvony / cymbály). Tato hřídel není kontinuální — typicky používá **lana, řetězy, drátěné táhla** vedoucí ke kladívkovým mechanismům v patrech nad strojem.
 
 [Skála (1996)](/soupis-veznich-hodin/skala-realizace-podebrady-zamek) dokumentuje na zámku Poděbrady **kompletní zrestaurování systému převodu tahové síly** od bicích strojů k paličkovým strojům včetně paličkových strojů samotných.
 

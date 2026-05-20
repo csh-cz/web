@@ -20,7 +20,7 @@ prekladyFr:
     genus: f
   - term: roue centrale
     genus: f
-definice: "**Středové (centrální) kolo** v hodinovém soukolí, jehož osa prochází středem ciferníku a na níž je nasazena minutová ručka. V klasickém hodinovém převodu obvykle **otáčí jednou za hodinu** (60 minut = 1 otáčka minutové ručky). Centrální převodovka je referenční bod, od kterého se odvozují všechny ostatní převody — k hodinové ručce (převod 1/12), k sekundové ručce (převod 60/1, pokud má hodiny střední sekundovku), k bicímu stroji, kalendáriu, atd."
+definice: "**Středové (centrální) kolo** v hodinovém soukolí, jehož osa prochází středem číselníku a na níž je nasazena minutová ručka. V klasickém hodinovém převodu obvykle **otáčí jednou za hodinu** (60 minut = 1 otáčka minutové ručky). Centrální převodovka je referenční bod, od kterého se odvozují všechny ostatní převody — k hodinové ručce (převod 1/12), k sekundové ručce (převod 60/1, pokud má hodiny střední sekundovku), k bicímu stroji, kalendáriu, atd."
 pribuzne:
   - kralovska-hridel
   - krok
@@ -39,7 +39,7 @@ references:
 **Centrální převodovka** (něm. *Minutenrad* nebo *Zentralrad*, en. *centre wheel*, fr. *roue de centre*) je v běžné hodinové architektuře **třetí kolo od pohonu** (po hlavním pohonném válci a hnacím kole) a slouží jako **mechanický referenční bod**:
 
 - Otáčí se **přesně jednou za hodinu** (60 minut)
-- Na její osu je nasazena **minutová ručka**, která stejnou rychlostí obíhá ciferník
+- Na její osu je nasazena **minutová ručka**, která stejnou rychlostí obíhá číselník
 - Z ní se převodem **1 : 12** odvozuje hodinová ručka (osa hodinové ručky je obvykle dutá kolem osy centrálního kola)
 - Z ní se převodem **1 : 60** odvozuje sekundová ručka (pokud je středová) — nebo se sekundová ručka pohání samostatným kolem („malá sekundovka")
 
@@ -49,8 +49,8 @@ references:
 |---|---|
 | Náramkové / kapesní | 1× za hodinu (standard) |
 | Stolní pendlovky | 1× za hodinu |
-| Věžní hodiny | 1× za hodinu (na centrální ose, přenos lanovým / hřídelovým převodem na ciferníky věže) |
-| Astronomické hodiny | 1× za hodinu (referenční), z této osy se odvozuje pohon astronomického ciferníku, kalendária, fází měsíce |
+| Věžní hodiny | 1× za hodinu (na centrální ose, přenos lanovým / hřídelovým převodem na číselníky věže) |
+| Astronomické hodiny | 1× za hodinu (referenční), z této osy se odvozuje pohon astronomického číselníku, kalendária, fází měsíce |
 
 ## V Čechách — terminologická poznámka
 

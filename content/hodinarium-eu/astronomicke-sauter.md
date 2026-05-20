@@ -22,11 +22,11 @@ Pod pojmem **spínací astronomické hodiny** se obvykle myslí spínací hodiny
 
 Hodiny System Fr. Sauter a. s. v Basileji (zakoupeny pro Č. S. R. S. Schop. Praha) jsou mechanické hodiny natahované elektromotorem. Výrobní číslo je **333573 ZWE6K**. Cívky motoru se mohou zapojit buď na 220 V nebo na 380 V. Hodinová hřídel se otočí jednou za 24 hodin a nese vlastní spínací systém.
 
-Otáčivý ciferník nese dvě dvojice spínacích a vypínacích ovládacích pák. V polední poloze je stupnice kalendářního měsíce. Prvek v poloze 12 zajišťuje posun o jeden den při každé otáčce. Rozdělení ciferníku respektuje rozdílný počet dní v jednotlivých měsících. U zkoumaného exempláře chyběl trn, který by přepínání prováděl, takže hodiny byly degradovány na běžné spínací hodiny.
+Otáčivý číselník nese dvě dvojice spínacích a vypínacích ovládacích pák. V polední poloze je stupnice kalendářního měsíce. Prvek v poloze 12 zajišťuje posun o jeden den při každé otáčce. Rozdělení číselníku respektuje rozdílný počet dní v jednotlivých měsících. U zkoumaného exempláře chyběl trn, který by přepínání prováděl, takže hodiny byly degradovány na běžné spínací hodiny.
 
 Jednodenní posun natáčí dvě vačky; samostatně pro východ a západ Slunce. Vačky mají označení 17261 A, což se nepovedlo přiřadit k zeměpisné šířce. Obvod vaček přes pákový systém sludují ramena nesoucí pohyblivé kontakty. Jsou to na obrázku ta ramena nesoucí seřititelné kontakty. Lze tak nastavit, při jaké úrovni soumraku mají spínat. Nastavení je v rozmezí cca dvou hodin. Protože nejde o "absolutní astronomickou přesnost", je vačka spočtena pro nějakou "střední?" zeměpisnou šířku.
 
-Střední šrouby s půlkulatou hlavou slouží jednak k manipilaci s ciferníkem, ale také umožňují ciferník natočit (opět v rozsahu cca dvou hodin) a kompenzovat tak zeměpisný posun vůči poledníku, pro který je astaven pásmový čas. Spínací hodiny je tak možné nastavit lépe na pravý sluneční čas. Systém umožňuje i nastavit posun letního času i když tak asi nebyl zamýšlen.
+Střední šrouby s půlkulatou hlavou slouží jednak k manipilaci s číselníkem, ale také umožňují číselník natočit (opět v rozsahu cca dvou hodin) a kompenzovat tak zeměpisný posun vůči poledníku, pro který je astaven pásmový čas. Spínací hodiny je tak možné nastavit lépe na pravý sluneční čas. Systém umožňuje i nastavit posun letního času i když tak asi nebyl zamýšlen.
 
 Na obrázku je nastavena situace v polovině září. Hodiny spínají přibližně v 18:40, vypínají v 23:05 a znovu spínají v 1:00 a vypínají v 5:05.
 
@@ -56,7 +56,7 @@ I ve věžních hodinách mohly být vačky východu a západu Slunce. Jedno tak
 [![Pohled zboku (foto 6)](/img/astronomicke/vezni_signalni/foto_0006.jpg)](/img/astronomicke/vezni_signalni/f/foto_0006.jpg)
 [![Boční pohled na páky (foto 7)](/img/astronomicke/vezni_signalni/foto_0007.jpg)](/img/astronomicke/vezni_signalni/f/foto_0007.jpg)
 [![Mechanismus z jiného úhlu (foto 8)](/img/astronomicke/vezni_signalni/foto_0008.jpg)](/img/astronomicke/vezni_signalni/f/foto_0008.jpg)
-[![Detail kalendářního ciferníku (foto 9)](/img/astronomicke/vezni_signalni/foto_0009.jpg)](/img/astronomicke/vezni_signalni/f/foto_0009.jpg)
+[![Detail kalendářního číselníku (foto 9)](/img/astronomicke/vezni_signalni/foto_0009.jpg)](/img/astronomicke/vezni_signalni/f/foto_0009.jpg)
 [![Štítek s typovým označením (foto 10)](/img/astronomicke/vezni_signalni/foto_0010.jpg)](/img/astronomicke/vezni_signalni/f/foto_0010.jpg)
 [![Vnitřek hodinového stroje (foto 11)](/img/astronomicke/vezni_signalni/foto_0011.jpg)](/img/astronomicke/vezni_signalni/f/foto_0011.jpg)
 [![Skříň s mechanismem (foto 12)](/img/astronomicke/vezni_signalni/foto_0012.jpg)](/img/astronomicke/vezni_signalni/f/foto_0012.jpg)

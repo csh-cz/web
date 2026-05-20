@@ -11,7 +11,7 @@ prekladyFr:
 varianty:
   - švarcvaldská škola
   - "černoleské hodiny** (Špatný"
-definice: "Hodinářská tradice **Schwarzwaldu** (Černolesí, jihozápadní Německo, kraj Bádensko-Württembersko) — od 17. století zaměřená na **lidové domácí hodiny**: dřevěné ozubená kola, švarcvaldky, **lakované ciferníky** (Lackschilduhren), **kukačkové hodiny** (Kuckucksuhren). Od 1840 přechod na mosazné stroje, masová průmyslová výroba."
+definice: "Hodinářská tradice **Schwarzwaldu** (Černolesí, jihozápadní Německo, kraj Bádensko-Württembersko) — od 17. století zaměřená na **lidové domácí hodiny**: dřevěné ozubená kola, švarcvaldky, **lakované číselníky** (Lackschilduhren), **kukačkové hodiny** (Kuckucksuhren). Od 1840 přechod na mosazné stroje, masová průmyslová výroba."
 pribuzne:
   - hodinar
   - videnska-skola
@@ -31,7 +31,7 @@ Sladkovský 1947 dokumentuje **rozvoj** od počátku 19. století:
 - **17. století** — počátek lidové výroby v Glashütte (kuriozita: dnešní
  saské Glashütte je jiné než švarcvaldský původ; Schwarzwald používal
  dřevo, Sasko sklářství)
-- **1740–1850** — **dřevěné stroje**, **lacquer šild** ciferníky;
+- **1740–1850** — **dřevěné stroje**, **lacquer šild** číselníky;
  **švarcvaldské obchodní karavany** rozvážely hodiny po Evropě
  (Holzuhrenträger), v ČR nazývané **„švarcvaldky"**
 - **1805** — Michael Dorer v Furtwangenu zavádí mosazné kolo
@@ -44,7 +44,7 @@ Sladkovský 1947 dokumentuje **rozvoj** od počátku 19. století:
 
 **Specifické typy:**
 
-1. **Lackschilduhr** — domácí kyvadlové hodiny s lakovaným ciferníkem
+1. **Lackschilduhr** — domácí kyvadlové hodiny s lakovaným číselníkem
  z dřevěné desky, ručně malovaným (květiny, žánrové scény, ptáci).
  Typický 1750–1880, 30hodinový chod nebo týdenní.
 2. **Kuckucksuhr** — figurální budík s kukačkou, 1730 Anton Ketterer

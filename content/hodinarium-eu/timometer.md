@@ -12,7 +12,7 @@ tags:
   - 1900s
 tldr: 'Bostonský docházkový přístroj Johna C. Wilsona z přelomu století (patenty 1899 a 1903), předchůdce moderních píchaček a produkt firmy, jež se později stala součástí IBM.'
 ---
-![Pohled na ciferník](/img/Timometer/f/foto_0008.jpg)
+![Pohled na číselník](/img/Timometer/f/foto_0008.jpg)
 
 V roce 2015 se na Aukru objevil Timometr a byl zakoupen soukromou osobou a umístěn v Hodináriu. Timometr se tak stane jedním ze dvou nejstarších "píchaček" v Hodináriu. AI k tomu dohledala následující informace:
 
@@ -34,15 +34,15 @@ Timometer byl přístroj sloužící k zaznamenávání přesného času pracovn
 
 ### Klíčové prvky:
 
-- Ciferník s názvem **„Timometer – Boston, Mass. U.S.A.”**
+- Číselník s názvem **„Timometer – Boston, Mass. U.S.A.”**
 - Vyražená značení „Patented Nov. 21 ’99”, „Nov. 3 ’03”, „Others Pending”
-- Malý sekundový ciferník nebo stupnice pro přesné měření času
+- Malý sekundový číselník nebo stupnice pro přesné měření času
 - Mosazná skříň nebo čelní deska typické pro přelom století
 - Mechanika realizující razítkovací úkon pomocí pákového nebo klikového mechanismu
 
 ### Inovace
 
-Wilsonův vynález byl jedním z prvních, který kombinoval: klasické mechanické hodiny s automatickým záznamem času (time stamping) — proto se označení „Timometer” dá chápat jako „měřič času s tiskem”. Pozdější modely (okolo roku 1920) byly doplněny o elegantní mosazný ciferník se sekundovou ručkou, jaký je i na zvažovaném exponátu. Patentové datum (Nov. 21, 1899 – Nov. 3, 1903) je vyraženo přímo na čelní desce originálních strojků.
+Wilsonův vynález byl jedním z prvních, který kombinoval: klasické mechanické hodiny s automatickým záznamem času (time stamping) — proto se označení „Timometer” dá chápat jako „měřič času s tiskem”. Pozdější modely (okolo roku 1920) byly doplněny o elegantní mosazný číselník se sekundovou ručkou, jaký je i na zvažovaném exponátu. Patentové datum (Nov. 21, 1899 – Nov. 3, 1903) je vyraženo přímo na čelní desce originálních strojků.
 
 ### Historická hodnota
 

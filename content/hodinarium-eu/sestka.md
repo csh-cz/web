@@ -2,7 +2,7 @@
 title: Hodiny sestka — hodiny z čehokoliv
 slug: sestka
 category: sbirka
-tldr: 'Galerie odkazující na sestka.com s ciferníky sestavenými ze sirek, disket, hracích karet, víček a dalších předmětů — důkaz, že časoměrnou plochu lze vytvořit z čehokoliv.'
+tldr: 'Galerie odkazující na sestka.com s číselníky sestavenými ze sirek, disket, hracích karet, víček a dalších předmětů — důkaz, že časoměrnou plochu lze vytvořit z čehokoliv.'
 author: ''
 manualEdit: true
 originalUrl: https://hodinarium.eu/sestka.htm

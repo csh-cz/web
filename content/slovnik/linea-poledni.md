@@ -7,7 +7,7 @@ varianty:
   - linie polední
   - meridián
   - poledník
-definice: "Svislá osa astronomického ciferníku ukazující směr na pravé poledne — kdy je slunce na nejvyšším bodě své denní dráhy a leží na poledníku pozorovatele."
+definice: "Svislá osa astronomického číselníku ukazující směr na pravé poledne — kdy je slunce na nejvyšším bodě své denní dráhy a leží na poledníku pozorovatele."
 pribuzne:
   - sphera
   - solsticium
@@ -22,7 +22,7 @@ references:
 
 ## Výklad
 
-Lat. *linea meridiana* (= polední čára). V moderní češtině: **poledník**, **meridián**. Na pražském orloji je *linea polední* fyzicky vyznačena jako zlatá svislá čára procházející středem ciferníku — pravidelný indikátor poledne (a fakticky používán k seřízení času ze slunečních hodin).
+Lat. *linea meridiana* (= polední čára). V moderní češtině: **poledník**, **meridián**. Na pražském orloji je *linea polední* fyzicky vyznačena jako zlatá svislá čára procházející středem číselníku — pravidelný indikátor poledne (a fakticky používán k seřízení času ze slunečních hodin).
 
 ## Příbuzné termíny
 

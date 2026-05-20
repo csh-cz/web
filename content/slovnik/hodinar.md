@@ -41,7 +41,7 @@ hodinářských **odborných škol**:
  kus = celé hodiny od desky (klasicky kapesní s budíkem)
 2. **Manufakturní rozpad** (19. stol.) — Schwarzwald, Glashütte,
  La Chaux-de-Fonds — specializace per součást (výroba kol,
- pružinek, krytů, ciferníků v separátních dílnách)
+ pružinek, krytů, číselníků v separátních dílnách)
 3. **Opravář** (20. stol.) — městský hodinář drobí výrobu, soustředí
  se na servis a obchod
 4. **Restaurátor** (po 2000) — návrat k mistrovskému přístupu pro

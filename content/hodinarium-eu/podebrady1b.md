@@ -55,7 +55,7 @@ Zpočátku vadil v blízkosti kýčovitého srdce původním komunistům. Po jeh
 
 Možná ale architektům křivdím, možná trpaslíka nepřemístili oni, možná utekl sám v předtuše, jaké hodiny povedou jeho ruku s kladívkem. Jestli je to tak, pak se jeho temná předtucha naplnila. Možná jsem větší optimista než trpaslíček, protože nemohu uvěřit, že toto je letošní definitivní podoba hodin, nicméně i případná změna osázení nezmění nic na nerezových rafikách a typograficky zvrzaném textu.
 
-Rafiky květinových hodin poprvé oběhly ciferník v dubnu 1936. K sedmdesátým narozeninám jim zprvu parkotvůrci utrhli ručičky a následně provedli nezákonnou eutanázii. A to není hezké.
+Rafiky květinových hodin poprvé oběhly číselník v dubnu 1936. K sedmdesátým narozeninám jim zprvu parkotvůrci utrhli ručičky a následně provedli nezákonnou eutanázii. A to není hezké.
 
 Ale vykládejte tohle všechno někomu, kdo s námi v Poděbradech necvrnkal kuličky a nedělně ustrojený nečekal s napětím, kdy doskočí velká ručička k vrcholu. Nepochopí to. A tak u hodin se málokdo zastaví s potěšením a poděbradský trpaslík nevidí, která bije. Občané však přikovaní nejsou, a tak mohou dohlédnout, která bije. A zvláště před volbami pak mohou i zapřemýšlet, dát do souvislosti děje a události měsíců předešlých, dešifrovat rozhodnutí zdánlivě nevysvětlitelná a podle toho se na podzim zachovat.
 

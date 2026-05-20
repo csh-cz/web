@@ -11,14 +11,14 @@ tags:
   - decimalka
   - kuriozita
   - popularizace
-tldr: 'Krátká epizoda Francouzské revoluce zavádějící dělení dne 10–100–100 a její ozvuky v současnosti — od překreslených ciferníků z roku 1793 po internetový čas firmy Swatch s 1000 beats.'
+tldr: 'Krátká epizoda Francouzské revoluce zavádějící dělení dne 10–100–100 a její ozvuky v současnosti — od překreslených číselníků z roku 1793 po internetový čas firmy Swatch s 1000 beats.'
 ---
-Od malička se učíme hodiny v soustavě 24-60-60 a připadá nám to normální, ačkoliv kopy či mandele dnes nepoužíváme a všude jinde počítáme většinou v soustavě desítkové. Tradice je holt tradice. Francouzi se v roce 1793, v době Francouzské revoluce, vzepřeli a zavedli společně s novým kalendářem i **hodiny decimální, hodiny v soustavě 10-100–100**. Den byl rozdělen na **deset hodin**, každá **hodina na 100 minut** a každá **minuta na sto vteřin**. Půlnoc byla v 10 hodin. Polednice chodila v pět. Poledne je obvykle na hodinách dole i když existují i opačně situované ciferníky.
+Od malička se učíme hodiny v soustavě 24-60-60 a připadá nám to normální, ačkoliv kopy či mandele dnes nepoužíváme a všude jinde počítáme většinou v soustavě desítkové. Tradice je holt tradice. Francouzi se v roce 1793, v době Francouzské revoluce, vzepřeli a zavedli společně s novým kalendářem i **hodiny decimální, hodiny v soustavě 10-100–100**. Den byl rozdělen na **deset hodin**, každá **hodina na 100 minut** a každá **minuta na sto vteřin**. Půlnoc byla v 10 hodin. Polednice chodila v pět. Poledne je obvykle na hodinách dole i když existují i opačně situované číselníky.
 
 Současný čas SEČ na decimálkách by mohl být: **?DECIMÁLKY?** .
 Francouzský revoluční čas pro Paříž byl proti GMT trochu posunut (+9 minut 21 sekund). Více **[zde](http://decimaltime.hynes.net/times.html)**.
 
-Zmínky o decimálním dělení času najdeme i jinde (Egypt, Babylón, Čína, ..), ale "pokus" ve Francii, přestože trval jen dva roky, byl asi nejvýznamější pro "běžného občana". Moc se neprosadil, ačkoliv vláda ve Francii nařídila umístit hodiny s novým ciferníkem na všech možných místech. Vznikl prý tak neuvěřitelný zmatek, že se v roce 1795 Francie radějii vrátila k 24 denním hodinám.
+Zmínky o decimálním dělení času najdeme i jinde (Egypt, Babylón, Čína, ..), ale "pokus" ve Francii, přestože trval jen dva roky, byl asi nejvýznamější pro "běžného občana". Moc se neprosadil, ačkoliv vláda ve Francii nařídila umístit hodiny s novým číselníkem na všech možných místech. Vznikl prý tak neuvěřitelný zmatek, že se v roce 1795 Francie radějii vrátila k 24 denním hodinám.
 
 Nadále proto musíme "bojovat" s převody údajů v soustavě poněkud složitější. V mnoha oborech by desetinné dělení bylo jistě lepší a opravdu se v různých podobách používá zejména v počítačových sítích, ale třeba i v programu EXEL, v astronomii a jinde. Převody dají trochu práce. Pro představu zkuste formulář.
 
@@ -34,19 +34,19 @@ hod.
 
 min.
 
-Nebudeme si všímat bouřlivé politické atmosféry a raději si ukážeme, jak se s nařízením vyrovnali hodináři. Patrně nebyl příliš čas konstruhovat nový stroj, tak se to trochu šidilo. Postavily se hodiny, které nařízení plnily alespoň částečně. Za základ se vzaly celodenní hodiny a a namaloval se jinak ciferník. Většinou revoluční hodiny ukazovaly čas v obou systémech (alespoň hodinovou ručičkou). Existovaly i hodiny, se samostatnými ciferníky pro oba časy.
+Nebudeme si všímat bouřlivé politické atmosféry a raději si ukážeme, jak se s nařízením vyrovnali hodináři. Patrně nebyl příliš čas konstruhovat nový stroj, tak se to trochu šidilo. Postavily se hodiny, které nařízení plnily alespoň částečně. Za základ se vzaly celodenní hodiny a a namaloval se jinak číselník. Většinou revoluční hodiny ukazovaly čas v obou systémech (alespoň hodinovou ručičkou). Existovaly i hodiny, se samostatnými číselníky pro oba časy.
 
-Na prvním obrázku je najjednodušší kombinovaný ciferník, kde hodinová ručička ukazuje
-1-10 decimálních hodin a doplňkově 2 x 1-12. Pro minutovou ručičku má ciferník pouze značení 1-60. Ukazuje tedy v minutách předrevoluční čas a oběhne ciferník za den celkem 24x. Jsou to tedy "normální" celodenní hodiny, včetně převodu na minutovou ručičku, pouze s domalovaným novým ciferníkem hodin. Minuty v desetinné soustavě můžeme pouze odhadovat z polohy malé ručičky. Na ciferníku je přibližne 1,3 hodiny, tedy 1 hodina 30 minut.
+Na prvním obrázku je najjednodušší kombinovaný číselník, kde hodinová ručička ukazuje
+1-10 decimálních hodin a doplňkově 2 x 1-12. Pro minutovou ručičku má číselník pouze značení 1-60. Ukazuje tedy v minutách předrevoluční čas a oběhne číselník za den celkem 24x. Jsou to tedy "normální" celodenní hodiny, včetně převodu na minutovou ručičku, pouze s domalovaným novým číselníkem hodin. Minuty v desetinné soustavě můžeme pouze odhadovat z polohy malé ručičky. Na číselníku je přibližne 1,3 hodiny, tedy 1 hodina 30 minut.
 
 ![](/img/decimalky/225.jpg)[!
 ](/img/decimalky/Horloge-republicaine2.jpg)Obrázky převzaty z serveru [www.decimaltime.hynes.net](http://www.decimaltime.hynes.net/) Kliknutím zvětšte.
 
-Na druhém ciferníku zdobeném revoluční čapkou republiky a národními barvami je již pokročilejší řešení. Pro velkou ručičku jsou opět namalovány oba ciferníky jako v předchozím případě. Tentokrát jsou i dva ciferníky pro minuty. V tomto případě musí být ovšem dvě různé minutové ručičky s různými převody. Jedna minutová ručička obíhá ciferník 10 x za den, druhá (klasická) 24 x za den.
+Na druhém číselníku zdobeném revoluční čapkou republiky a národními barvami je již pokročilejší řešení. Pro velkou ručičku jsou opět namalovány oba číselníky jako v předchozím případě. Tentokrát jsou i dva číselníky pro minuty. V tomto případě musí být ovšem dvě různé minutové ručičky s různými převody. Jedna minutová ručička obíhá číselník 10 x za den, druhá (klasická) 24 x za den.
 
 Hodiny ukazují přibližně 2 hod 73 minut decimálního času a současně 6 hodin 29 minut klasického času. Jedna decimální hodina odpovídá 24/10 = 2,4 (2 h 24 min) klasickým hodinám. Tedy přepočet 2,73 x 2,4 = 6,552 = 6 h 33 minut. Poloha malých ručiček je celkem správná.
 
-I u nás se docházelo k přemalování ciferníků, jak svědčí [nalezená tabulka.](/img/decimalky/cedule2.jpg)
+I u nás se docházelo k přemalování číselníků, jak svědčí [nalezená tabulka.](/img/decimalky/cedule2.jpg)
 
 ## Internetový zavináčový čas - ?zavinac? aneb "Jeden svět - jeden čas"
 
@@ -74,7 +74,7 @@ GMT Londýn LisabonGMT+1 Praha, Paříž, ŘímGMT+2 Atény Istambul KáhiraGMT+
 
 - [**Wikipedie**](http://en.wikipedia.org/wiki/Decimal_time)
 - [**French Revolutionary calendar**](http://www.answers.com/topic/french-republican-calendar)
-- [**Ciferníky a další informace o "Decimal time".
+- [**Číselníky a další informace o "Decimal time".
     **](http://en.wikipedia.org/wiki/Decimal_time)
 
     * * *

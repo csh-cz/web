@@ -20,7 +20,7 @@ prekladyFr:
     genus: m
   - term: calendrier
     genus: m
-definice: "Spodní kalendářní ciferník orloje s indikací **dne v roce**, **měsíce**, **svátku** a **znamení zvěrokruhu** ve kterém se Slunce právě nachází. Klasicky pomalu otáčivá disk (1 oběh = 1 rok), umístěný pod astronomickým ciferníkem. U Pražského orloje je **Mánesova kalendářní deska** z roku 1865 — alegorický cyklus 12 měsíců a 12 znamení zodiaku."
+definice: "Spodní kalendářní číselník orloje s indikací **dne v roce**, **měsíce**, **svátku** a **znamení zvěrokruhu** ve kterém se Slunce právě nachází. Klasicky pomalu otáčivá disk (1 oběh = 1 rok), umístěný pod astronomickým číselníkem. U Pražského orloje je **Mánesova kalendářní deska** z roku 1865 — alegorický cyklus 12 měsíců a 12 znamení zodiaku."
 pribuzne:
   - orloj
   - astrolab
@@ -36,7 +36,7 @@ references:
 
 ## Stručně
 
-Kalendárium je **kalendářní ciferník** mechanických orlojů. Otáčí se pomalu — jeden plný oběh trvá rok (365,25 dne). Indikuje:
+Kalendárium je **kalendářní číselník** mechanických orlojů. Otáčí se pomalu — jeden plný oběh trvá rok (365,25 dne). Indikuje:
 - **Den v roce** (1–365)
 - **Měsíc** (typicky 12 segmentů s názvy / alegorickými obrazy)
 - **Znamení zvěrokruhu** ve kterém je v daný den Slunce
@@ -55,6 +55,6 @@ Pro detail viz Horský 1988 — *Pražský orloj*.
 ## Související
 
 - [orloj](/slovnik/orloj) — hlavní heslo
-- [astroláb](/slovnik/astrolab) — astronomický ciferník (nadřazený)
+- [astroláb](/slovnik/astrolab) — astronomický číselník (nadřazený)
 - [zodiak](/slovnik/zodiak), [znameni-zodiaku](/slovnik/znameni-zodiaku) — stupnice
 - [sphera](/slovnik/sphera)

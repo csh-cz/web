@@ -27,7 +27,7 @@ Hnací kolo a rohatka je na stejné ose jako kolo krokové. Na prvním obrázku 
 
 U budícího stroje se obvykle používá černoleský krok. Krok má však jiný úkol než u hodinového stroje. Slouží pouze k přeměňování otáčivého pohybu v kývavý pohyb paličky, která tak přebírá funkci [regulátoru](/slovnik/regulator) rychlosti otáčení krokového kola. ![součásti budíku](/img/budiky1/budik_comtoise_casti.jpg)U hodin Comtoise na obrázku je opět použit krok vřetenový jako u jicího stroje. Na ose vřetena je palička, která bije do zvonku bicího mechanismu, nebo do samostatného zvonku.
 
-Spouštěcí vačka je na hodinovém kole a nastavuje se ovládacím kolečkem uprostřed ciferníku. Spouštěcí páka, která sleduje obvod vačky, působí jako západka přímo na vřeteno.
+Spouštěcí vačka je na hodinovém kole a nastavuje se ovládacím kolečkem uprostřed číselníku. Spouštěcí páka, která sleduje obvod vačky, působí jako západka přímo na vřeteno.
 
 Nastavení budíku je také trochu neobvyklé. Ovládací kolečko (po jehož obvodu jsou vyobrazeny číslice) se nastaví tak, aby číslice určující požadovaný čas buzení byla v zákrytu s malou hodinovou ručičkou. Někdy je v této ručičce otvor, ve kterém je takto vidět čas buzení. Někdy, zejména u švarcvaldek byla spouštěcí vačka otočená o 180 stupňů. Čas se nastavoval proti druhému konci malé ručičky. Na obrázku dole je budík nastaven patrně na 4 hodiny.
 
@@ -49,7 +49,7 @@ Zde je řešení podobné, jen krokové kolo a krok je jiný.
 
 Téměř celý budící stroj vpravo nahoře.
 
-Seřizovací kolečko ve středu ciferníku. Buzení nastaveno patrně na 4 hodiny.
+Seřizovací kolečko ve středu číselníku. Buzení nastaveno patrně na 4 hodiny.
 
 Vlevo nahoře otvory pro šňůru se závažími.
 

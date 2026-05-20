@@ -46,7 +46,7 @@ Sušický 1900: **„regulátory hvězdářské s kompenzačními kyvadly"** —
 - **Krok**: Grahamův (klidový) — minimální tření, žádný zpětný pohyb
 - **Pohon**: závaží (konstantní tah; péro nedostatečně rovnoměrné)
 - **Skříň**: dřevěná, prosklená, často štíhlá vysoká
-- **Ciferník**: typicky odděleně sekundový (centrální vteřinová ručka)
+- **Číselník**: typicky odděleně sekundový (centrální vteřinová ručka)
 
 Sušický 1900 dokládá:
 > „Regulátory onoho jsou dosud postaveny **na hvězdárně pražské** a **na invalidovně v Karlině** a pracují dosud velmi přesně."

@@ -17,7 +17,7 @@ tags:
   - decin
   - 1800s
   - 1900s
-tldr: 'Od Steinheilova patentu na polarizované impulzy (1839) přes elektrické vypouštění klasických věžních strojů u Dietzscholda až po současné autonomní motorické pohony jednotlivých ciferníků.'
+tldr: 'Od Steinheilova patentu na polarizované impulzy (1839) přes elektrické vypouštění klasických věžních strojů u Dietzscholda až po současné autonomní motorické pohony jednotlivých číselníků.'
 ---
 ![?](/img/decin/elektrika/foto2.jpg)
 
@@ -47,6 +47,6 @@ Záchyt kyvadla řízený elektronicky používá i dnes restaurátorský ateli�
 
 ![Hodinový ručkový převod 1/12 je autonomní pohon hodinových ručiček s zabudovaným motorkem 230 V a mechanickou zpětnou vazbou. Ručkový převod je určen pro montáž na hodinové číselníky do průměru 4 metrů. Převod se montuje za číselník a zeď za pomoci prodloužení os tak, aby vlastní strojek byl až za zdí. Jeho malé rozměry ho předurčují pro instalaci na malé hodinové skleněné nebo plastové číselníky s osvětlením. Ovládání je řešeno minutovým pulsem ( A a B ) s délkou impulsu 4 vteřiny.](/img/decin/elektrika/ecat-2_1299217329.jpg)
 
-Na úvodním obrázku je nahoře ještě vlevo vidět hřídel od motorického vytahování závaží. Postupným vývojem došlo ke sloučení silové a spouštěcí části a věžní stroj byl redukován na spouštěný motorový pohon samostatných ciferníků, případně soustavy ciferníků. Dnes jsou obvykle v cifernících namontovány autonomní motorické pohony řízené z centrální jednotky buď polarizovanými impulzy nebo úplnou časovou informací. Hlavní hodiny jsou obvykle synchronizovány radiovým vysílačem (DCF 77), satelitním přijímačem GTS signálu nebo NTP serverem. Hlavní hodiny také ovládají [odbíjení](/slovnik/odbijeni) elektrickými kladivy i zvonění zvonů.
+Na úvodním obrázku je nahoře ještě vlevo vidět hřídel od motorického vytahování závaží. Postupným vývojem došlo ke sloučení silové a spouštěcí části a věžní stroj byl redukován na spouštěný motorový pohon samostatných číselníků, případně soustavy číselníků. Dnes jsou obvykle v číselnících namontovány autonomní motorické pohony řízené z centrální jednotky buď polarizovanými impulzy nebo úplnou časovou informací. Hlavní hodiny jsou obvykle synchronizovány radiovým vysílačem (DCF 77), satelitním přijímačem GTS signálu nebo NTP serverem. Hlavní hodiny také ovládají [odbíjení](/slovnik/odbijeni) elektrickými kladivy i zvonění zvonů.
 
 To už je však jiná kapitola.

@@ -11,7 +11,7 @@ originalUrl: "https://hodinarium.eu/casova_pasma.htm"
 lastModified: "Wed, 26 Apr 2017 16:02:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:05.222Z"
-tldr: 'Přehled hodin zobrazujících čas ve více pásmech současně — od náramkových automatů Louis Valon přes letištní instalace až po projekce mapy světa ze severního pólu s pohyblivým 24hodinovým ciferníkem.'
+tldr: 'Přehled hodin zobrazujících čas ve více pásmech současně — od náramkových automatů Louis Valon přes letištní instalace až po projekce mapy světa ze severního pólu s pohyblivým 24hodinovým číselníkem.'
 ---
 [![Hodiny „SVĚTOVÝ ČAS”, analogové v kombinaci s datumem, broušený a leštěný nerez](/img/elektrika/svetovy_cas1.jpg)](http://www.hodiny-spel.cz/atypicka_vyroba.php)
 
@@ -51,13 +51,13 @@ Více o značení najdete např. zde. Doporučuji vaší pozornosti zejména pá
 
 ## Pásmovky mohou ale vypadat i jinak.
 
-Mapa světa v projekci ze severního pólu se otáčí jedenkrát za 24 hodin společně s nakreslenými hodinovými ručičkami. Po obvodu je pevný 24 hodinový ciferník. Hodinových ručiček je celkem libovolně. Zde je konkrétně vyneseno 81 důležitých světových měst. Prakticky stačí jedna ručička pro jedno časové pásmo. Hodiny tak simultálně ukazují čas pro celý svět. Najděte město a snadno určíte místní čas.
+Mapa světa v projekci ze severního pólu se otáčí jedenkrát za 24 hodin společně s nakreslenými hodinovými ručičkami. Po obvodu je pevný 24 hodinový číselník. Hodinových ručiček je celkem libovolně. Zde je konkrétně vyneseno 81 důležitých světových měst. Prakticky stačí jedna ručička pro jedno časové pásmo. Hodiny tak simultálně ukazují čas pro celý svět. Najděte město a snadno určíte místní čas.
 
 ![sklenění pásmovky](/img/ujete/pasmovky_guartz.jpg)Na kanadském serveru [**worldclock2001**](http://web.archive.org/web/20100514052728/http://www.thisisit.ca:80/worldclock2001/)si je můžete prohlédnout i v animaci. Technicky se jedná o synchronní hodiny na 120V. Byly vyrobeny v limitované sérii 100 kusů.
 
 I naše virtuální muzeum se může pochlubit pásmovkami. Zakoupeny na Aukru jako nefunkční, jen k dekoraci. A to za pouhou jednu korunu. Po výměně baterie fungují bez problémů.
 
-Klasický bateriový Quartz stroj je doplněn převodem na střední 24 hodinový otočný ciferník (s modrým označením nočních hodin). Na nastavitelném mezikruží je 24 měst, která představují jednotlivá časová pásma. Reprezentují také hodinové ručičky hodin určitého pásma. Po výběru města můžete odečíst odpovídající čas. Patrně vás nepřekvapí, že hodiny s označením "West Germany" pro označení východoevropského času volí raději Kuvajt než Moskvu.
+Klasický bateriový Quartz stroj je doplněn převodem na střední 24 hodinový otočný číselník (s modrým označením nočních hodin). Na nastavitelném mezikruží je 24 měst, která představují jednotlivá časová pásma. Reprezentují také hodinové ručičky hodin určitého pásma. Po výběru města můžete odečíst odpovídající čas. Patrně vás nepřekvapí, že hodiny s označením "West Germany" pro označení východoevropského času volí raději Kuvajt než Moskvu.
 
 ## Pásmové časy na letištích
 

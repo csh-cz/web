@@ -27,17 +27,17 @@ které jednou za minutu dají pokyn k uvolnění zarážkového mechanismu. Jako
 řídící hodiny mohly být použity [kyvadlové](/slovnik/kyvadlo) mateční hodiny z produkce Elektročas.
 Toto řešení je v našich končinách velmi vzácné — více se vyskytovalo například
 v Německu. Dnes jsou k naší lítosti klasické věžní hodinové stroje nahrazovány
-elektrickými pohony přímo u ciferníků a řídící hodiny jsou čistě elektronické.
+elektrickými pohony přímo u číselníků a řídící hodiny jsou čistě elektronické.
 
 ![Strana spouštění s krokovým motorkem a zarážkou](/img/decin/elektricky_spousteny_stroj/strana_spousteni.jpg)
 
 ![Krokový motor — detail](/img/decin/elektricky_spousteny_stroj/krokovy_motor.jpg)
 
-![Strana s brzdícím větrníkem a kontrolním ciferníkem](/img/decin/elektricky_spousteny_stroj/strana_vetrniku.jpg)
+![Strana s brzdícím větrníkem a kontrolním číselníkem](/img/decin/elektricky_spousteny_stroj/strana_vetrniku.jpg)
 
 Na první fotografii je přední strana stroje v klidu. V pravé horní části je
-vypouštěcí ústrojí, ve středu náhon na ciferníky, vlevo dole motor elektrického
-[natahování](/slovnik/natah). Druhá fotografie ukazuje kontrolní ciferník a brzdící [větrník](/slovnik/vetrnik).
+vypouštěcí ústrojí, ve středu náhon na číselníky, vlevo dole motor elektrického
+[natahování](/slovnik/natah). Druhá fotografie ukazuje kontrolní číselník a brzdící [větrník](/slovnik/vetrnik).
 
 ## Jak vypouštění funguje
 

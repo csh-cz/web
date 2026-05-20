@@ -5,7 +5,7 @@ kategorie: mechanika
 varianty:
   - lůžko
   - luožko
-definice: "Drobné lůžko / držák kotouče měsíce. V něm rotuje kulička měsíce, čímž se na pukle (terči uprostřed ciferníku) ukazuje fáze měsíce."
+definice: "Drobné lůžko / držák kotouče měsíce. V něm rotuje kulička měsíce, čímž se na pukle (terči uprostřed číselníku) ukazuje fáze měsíce."
 pribuzne:
   - pukla
   - pravidlo-orloje

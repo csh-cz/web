@@ -10,9 +10,9 @@ originalUrl: "https://hodinarium.eu/matematicke.htm"
 lastModified: "Wed, 26 Apr 2017 16:10:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:08.015Z"
-tldr: 'Hříčka, v níž je každá číslice na ciferníku vyjádřena matematickým výrazem ze tří devítek. Autoři představují i vlastní textovou variantu s definicí nuly přes (9-9)/9 a komentují čitelnost zápisu.'
+tldr: 'Hříčka, v níž je každá číslice na číselníku vyjádřena matematickým výrazem ze tří devítek. Autoři představují i vlastní textovou variantu s definicí nuly přes (9-9)/9 a komentují čitelnost zápisu.'
 ---
-Na cifernících hodin se již objevila čísla ve všech možných vyjádřeních. Známe [římské digitálky](/clanky/rimskedigi), [čárokódky](/clanky/carokodky), [digitálky s překladem](/projekty/segmentovky-s-prekladem), hodiny bez ručiček, snad i hodiny s nožičkami a kdo ví co ještě.
+Na číselnících hodin se již objevila čísla ve všech možných vyjádřeních. Známe [římské digitálky](/clanky/rimskedigi), [čárokódky](/clanky/carokodky), [digitálky s překladem](/projekty/segmentovky-s-prekladem), hodiny bez ručiček, snad i hodiny s nožičkami a kdo ví co ještě.
 
 Představujeme intelektuální hodiny pro matematiky. Docela pěkná hříčka. Všechna používaná čísla jsou vyjádřena pomocí matematického výrazu, který vždy obsahuje pouze tři devítky. Bohužel zatím nevíme, kdo hodiny vymyslel a vyrobil.
 

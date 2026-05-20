@@ -33,9 +33,9 @@ Potřebujeme, nebo si jen přejeme, hodiny, které jdou přesně a správně. K 
 
 ## Mechanické řízení a řízení vůbec
 
-Typickým případem mechanického řízení je Pražský orloj, kde vlastní stroj orloje je v pravidelných minutových intervalech spouštěn mechanickým [chronometrem](/slovnik/chronometr) s podstatně vyšší přesností než měl původní vlastní jicí stroj. Za mechanické řízení můžeme považovat i někdy docela složité rozvody k vedlejším číselníkům mechanických věžních hodin. Vedení pomocí soustavy hřídelů, křížových spojek, dilatačních spojek, šikmých odboček a pod. zaslouží obdiv k umění starých mistrů. I boční ciferníky Pražského orloje jsou takto připojeny na hlavní stroj orloje.
+Typickým případem mechanického řízení je Pražský orloj, kde vlastní stroj orloje je v pravidelných minutových intervalech spouštěn mechanickým [chronometrem](/slovnik/chronometr) s podstatně vyšší přesností než měl původní vlastní jicí stroj. Za mechanické řízení můžeme považovat i někdy docela složité rozvody k vedlejším číselníkům mechanických věžních hodin. Vedení pomocí soustavy hřídelů, křížových spojek, dilatačních spojek, šikmých odboček a pod. zaslouží obdiv k umění starých mistrů. I boční číselníky Pražského orloje jsou takto připojeny na hlavní stroj orloje.
 
-Toto řízení je přímé, bez zpětné vazby. Řídící chronometr nijak nereaguje na hypotetickou situaci, kdy posun o minutu nebyl z nějakých důvodů proveden nebo se některý ciferník uvolnil a neposunul. Tyto nevýhody mají všechny soustavy přímého řízení. Odstraňuje je teprve předávání kompletní časové informace v moderních systémech. Synchronizace času může probíhat s různou periodou.
+Toto řízení je přímé, bez zpětné vazby. Řídící chronometr nijak nereaguje na hypotetickou situaci, kdy posun o minutu nebyl z nějakých důvodů proveden nebo se některý číselník uvolnil a neposunul. Tyto nevýhody mají všechny soustavy přímého řízení. Odstraňuje je teprve předávání kompletní časové informace v moderních systémech. Synchronizace času může probíhat s různou periodou.
 
 ## Synchronizace mechanických věžních hodin
 

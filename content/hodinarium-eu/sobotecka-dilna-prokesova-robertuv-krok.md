@@ -34,7 +34,7 @@ Sobotka neměla v té době žádnou hodinářskou tradici. Šlo o **provinciál
 Prokešova **tržní pozice** byla od počátku postavena na **dvojím pilíři**:
 
 1. **Cena pod úrovní pražských a vídeňských firem.** Tovaryš a několik učedníků (včetně Prokešových vlastních synů) dokázalo v období vysoké poptávky vyrobit **až 10 věžních hodin ročně** ručně, čistě v Sobotce. Při výrobě byla maximální racionalizace — standardizované díly, opakované konstrukce, eliminace zbytných ozdob.
-2. **Technická inovace.** Prokeš byl **nadprůměrně aktivní vynálezce** — viz [jeho medailon](/hodinari/jan-prokes) pro detailní výčet (kapesní hodinky s dvojitým perem, sobotecké hodiny natahované otevřením dveří, [hodiny s větrníkem](/slovnik/vetrnik), kompletní orloj, předchůdce Pallweberových „digitálních" hodinek, hodiny s 8 ciferníky pro českodubskou továrnu — předchůdce jednotného času).
+2. **Technická inovace.** Prokeš byl **nadprůměrně aktivní vynálezce** — viz [jeho medailon](/hodinari/jan-prokes) pro detailní výčet (kapesní hodinky s dvojitým perem, sobotecké hodiny natahované otevřením dveří, [hodiny s větrníkem](/slovnik/vetrnik), kompletní orloj, předchůdce Pallweberových „digitálních" hodinek, hodiny s 8 číselníky pro českodubskou továrnu — předchůdce jednotného času).
 
 Tato kombinace **nízké ceny + technologické pokrokovosti** byla v 19. století výjimečná. Velké pražské firmy ([Karlínská strojírna Daněk-Holub](/hodinari/cenek-danek), Hainz, později Krečmer) měly vyšší ceny, ale prestižnější odběratele (Pražský orloj, Klementinum, kostely v hlavním městě). **Prokeš zacílil na trh, který byl pro velké firmy nezajímavý**: rurální Čechy, vesnické kostely, školy, drobné radnice.
 

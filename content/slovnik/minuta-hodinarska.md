@@ -6,7 +6,7 @@ varianty:
   - minuta hodinářská
   - minuta astronomická
   - minuta hvězdářská
-definice: "U Táborského dvojí pojetí: **minuta hodinářská** (1/15 hodiny ≈ 4 minuty dnes) vs. **minuta astronomická** (1/60 hodiny = dnešní minuta). Rozdíl plyne z dělení hodinového ciferníku na 15 dílů u věžních hodin 16. století."
+definice: "U Táborského dvojí pojetí: **minuta hodinářská** (1/15 hodiny ≈ 4 minuty dnes) vs. **minuta astronomická** (1/60 hodiny = dnešní minuta). Rozdíl plyne z dělení hodinového číselníku na 15 dílů u věžních hodin 16. století."
 pribuzne:
   - hodiny-celeorloje
   - grad-zodiakalni
@@ -21,7 +21,7 @@ references:
 
 ## Výklad
 
-*Hodinářská minuta* (1/15 hodiny) odpovídá dělení tradičního ciferníku na 15 dílků mezi celými hodinami — pochází z doby, kdy věžní hodiny neměly minutovou ručičku. *Astronomická minuta* (1/60 hodiny) odpovídá modernímu pojetí. Dělení na 60 minut se v hodinách prosadilo až s rozšířením minutových ručiček v 17. století.
+*Hodinářská minuta* (1/15 hodiny) odpovídá dělení tradičního číselníku na 15 dílků mezi celými hodinami — pochází z doby, kdy věžní hodiny neměly minutovou ručičku. *Astronomická minuta* (1/60 hodiny) odpovídá modernímu pojetí. Dělení na 60 minut se v hodinách prosadilo až s rozšířením minutových ručiček v 17. století.
 
 ## Příbuzné termíny
 

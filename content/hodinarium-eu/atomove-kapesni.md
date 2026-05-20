@@ -47,9 +47,9 @@ V první sérii je výroba zaměřena především na sběratele. Hodinky budou 
 
 ![hops 3](/img/SCAC/hops_3.jpg)
 
-![hops4](/img/SCAC/hops_4.jpg)![ciferní No10](/img/SCAC/cifernik_No10.jpg)
+![hops4](/img/SCAC/hops_4.jpg)![číselní No10](/img/SCAC/cifernik_No10.jpg)
 
-Za zmínku ještě stojí, že [pouzdro](/slovnik/pouzdro) hodinek s průměrem 82 mm je ze zlata vyrobeno 3D tiskem. Nový majitel musí podepsat dohodu, že čip SA.45s z hodinek nevybere a nepoužije k vojenským účelům. Množství ručkových ukazatelů na ciferníku snad nejde ani spočítat. Cena okolo £ 50,000.
+Za zmínku ještě stojí, že [pouzdro](/slovnik/pouzdro) hodinek s průměrem 82 mm je ze zlata vyrobeno 3D tiskem. Nový majitel musí podepsat dohodu, že čip SA.45s z hodinek nevybere a nepoužije k vojenským účelům. Množství ručkových ukazatelů na číselníku snad nejde ani spočítat. Cena okolo £ 50,000.
 
 ## Nová varianta miniaturního čipu atomových hodin: [MAC-SA5X](https://microsemi.com/product-directory/embedded-clocks-frequency-references/5570-miniature-atomic-clock-mac-sa5x)
 

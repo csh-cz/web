@@ -30,7 +30,7 @@ Naopak fandíme pokusům vytvořit nový časoměrný artefakt. Ať již jsou c�
 
 **Stolní bicí hodiny s prstencovými číselníky, pilové hodiny, ptáček v kleci, různé miniatury a další hodiny...**
 
-![Původní stroj švarcvaldek je doplněn kovovým ciferníkem z jiného typu hodin. Průhledná část je CD. Hodiny doplněny novým řetízkem a kopií závaží. Rovněž kyvadlo je vyrobeno z výlisku, který původně zdobil lustr.](/img/dostavby/svarcvaldky_cd.jpg)
+![Původní stroj švarcvaldek je doplněn kovovým číselníkem z jiného typu hodin. Průhledná část je CD. Hodiny doplněny novým řetízkem a kopií závaží. Rovněž kyvadlo je vyrobeno z výlisku, který původně zdobil lustr.](/img/dostavby/svarcvaldky_cd.jpg)
 
 Nápad například na postavení prstencových hodin prý vznikl při pohledu na obrázek v časopise, kde se psalo, že jsou známy jediné, které vlastní Národní technické muzeum v Praze. Jak se tento a jiné nápady podařilo zhmotnit, ukazuje samostatná stránka **[Historické inspirace.](/clanky/hinspirace)**
 
@@ -42,7 +42,7 @@ Hodinám vytvořeným pro jezdecké závody v roce 1934 z třmenu a kapesních h
 
 ## "Skeletové" švarcvaldky
 
-Cílem jednoduché dostavby hodin vpravo byla snaha prezentovat "skeletový" charakter stroje původních, již kovových, švarcvaldek. Původní stroj včetně skříně je doplněn kovovým ciferníkem z jiného, lehce mladšího typu hodin. Průhledná čelní část je krycí cédéčko. Hodiny jsou doplněny novým řetízkem a kopií závaží v podobě trpaslíků. Kyvadlo je vyrobeno z výlisku, který původně zdobil lustr. Přestože do vlastního stroje není nijak zasaženo a hodiny i po létech bez problémů jdou.
+Cílem jednoduché dostavby hodin vpravo byla snaha prezentovat "skeletový" charakter stroje původních, již kovových, švarcvaldek. Původní stroj včetně skříně je doplněn kovovým číselníkem z jiného, lehce mladšího typu hodin. Průhledná čelní část je krycí cédéčko. Hodiny jsou doplněny novým řetízkem a kopií závaží v podobě trpaslíků. Kyvadlo je vyrobeno z výlisku, který původně zdobil lustr. Přestože do vlastního stroje není nijak zasaženo a hodiny i po létech bez problémů jdou.
 
 ## Náramkové sloupkové
 

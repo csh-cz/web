@@ -79,7 +79,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Sobotka',
     zeme: 'CZ',
     shrnuti:
-      'Příbuzný [Jana Prokeše](/hodinari/jan-prokes) v Sobotce, doložený jako „mistr Josef Prokeš ze Sobotky" a „stavitel Josef Prokeš ze Sobotky". Pracoval v 80. letech 19. století — Janov 1881 (Kostel sv. Filipa a Jakuba, 640 fl., 4 ciferníky), oprava Zdětín 1883.',
+      'Příbuzný [Jana Prokeše](/hodinari/jan-prokes) v Sobotce, doložený jako „mistr Josef Prokeš ze Sobotky" a „stavitel Josef Prokeš ze Sobotky". Pracoval v 80. letech 19. století — Janov 1881 (Kostel sv. Filipa a Jakuba, 640 fl., 4 číselníky), oprava Zdětín 1883.',
     relatedSlugs: [],
     era: '19stol',
   },
@@ -225,7 +225,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Praha',
     zeme: 'CZ',
     shrnuti:
-      'Pražský hodinář a řezbář. V roce 1985 vyrobil pozoruhodné hodiny s vícenásobným ciferníkem pro restauraci Českých drah v Holešovicích.',
+      'Pražský hodinář a řezbář. V roce 1985 vyrobil pozoruhodné hodiny s vícenásobným číselníkem pro restauraci Českých drah v Holešovicích.',
     relatedSlugs: [
       'decin-aktual0',
       'decin-galerie',
@@ -567,7 +567,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Praha',
     zeme: 'CZ',
     shrnuti:
-      'Pražský dvorský hodinář (Hofuhrmacher) v letech 1688–†1720, klíčový restaurátor a přestavovatel hodinového stroje katedrály sv. Víta na Pražském hradě. Brzy po nástupu provedl velkou přestavbu jicího stroje — nahradil původní lihýř kyvadlem a osadil korunové krokové kolo (1688/89), čímž zvýšil přesnost stroje řádově ze stovek minut/den na desítky sekund/den. Pro stroj sv. Víta zhotovil rovněž kontrolní ciferník s habsburským dvouhlavým orlem. Mezi další jeho dílo patří hodinový stroj zámku Brandýs nad Labem (1702/1705), pražské Lorety a kláštera premonstrátek v Doksanech. Pro jeho stroje jsou charakteristické kované akantové voluty na rámu (barokní zdobení).',
+      'Pražský dvorský hodinář (Hofuhrmacher) v letech 1688–†1720, klíčový restaurátor a přestavovatel hodinového stroje katedrály sv. Víta na Pražském hradě. Brzy po nástupu provedl velkou přestavbu jicího stroje — nahradil původní lihýř kyvadlem a osadil korunové krokové kolo (1688/89), čímž zvýšil přesnost stroje řádově ze stovek minut/den na desítky sekund/den. Pro stroj sv. Víta zhotovil rovněž kontrolní číselník s habsburským dvouhlavým orlem. Mezi další jeho dílo patří hodinový stroj zámku Brandýs nad Labem (1702/1705), pražské Lorety a kláštera premonstrátek v Doksanech. Pro jeho stroje jsou charakteristické kované akantové voluty na rámu (barokní zdobení).',
     relatedSlugs: [],
     era: 'baroko',
   },
@@ -606,7 +606,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Padova / Pavia',
     zeme: 'IT',
     shrnuti:
-      'Italský fyzik, astronom a hodinář padovsko-paviánský. V letech 1348–1364 sestrojil **Astrarium** — sofistikovaný astronomický stroj s 7 ciferníky znázorňujícími pohyb Slunce, Měsíce a 5 tehdy známých planet po Ptolemaiově modelu, plus kalendář s pohyblivými svátky. Astrarium je doloženo Dondiho vlastním rukopisem *Tractatus astrarii* (cca 1364), nejstarším podrobným popisem mechanického astronomického stroje vůbec. Originál se nedochoval; několik historických rekonstrukcí (Smithsonian, IBM, Beverwijk).',
+      'Italský fyzik, astronom a hodinář padovsko-paviánský. V letech 1348–1364 sestrojil **Astrarium** — sofistikovaný astronomický stroj s 7 číselníky znázorňujícími pohyb Slunce, Měsíce a 5 tehdy známých planet po Ptolemaiově modelu, plus kalendář s pohyblivými svátky. Astrarium je doloženo Dondiho vlastním rukopisem *Tractatus astrarii* (cca 1364), nejstarším podrobným popisem mechanického astronomického stroje vůbec. Originál se nedochoval; několik historických rekonstrukcí (Smithsonian, IBM, Beverwijk).',
     relatedSlugs: ['kinsner-astronomicke-hodiny', 'muzeum-beyer-zurich'],
     era: 'baroko',
   },
@@ -2411,7 +2411,7 @@ export const hodinari: Hodinar[] = [
   },
 
   // ── Plasy klášter — kompletní rodina hodinářů (1686 → současnost) ──
-  // Nápis na vnitřním ciferníku: „Friedrich fecit 1686 — Georg Haller melioravit 1720"
+  // Nápis na vnitřním číselníku: „Friedrich fecit 1686 — Georg Haller melioravit 1720"
   // (Drozda 2006, Milerová 2025 s. 46). Cymbálová kladiva Štěpán Priquey z Klatov.
   // Drozda 40 let péče (1980–2019), Pavel Novák od 12/2019.
   {
@@ -2436,7 +2436,7 @@ export const hodinari: Hodinar[] = [
     mesto: '?',
     zeme: '?',
     shrnuti:
-      'Barokní hodinář doložený rokem 1720, kdy provedl vylepšení (lat. *melioravit*) plaského věžního stroje. Jméno na zadní straně malého vnitřního ciferníku: „Friedrich fecit 1686 — Georg Haller melioravit 1720". Pravděpodobně lokální plzeňský / klatovský původ; archivní doklad chybí.',
+      'Barokní hodinář doložený rokem 1720, kdy provedl vylepšení (lat. *melioravit*) plaského věžního stroje. Jméno na zadní straně malého vnitřního číselníku: „Friedrich fecit 1686 — Georg Haller melioravit 1720". Pravděpodobně lokální plzeňský / klatovský původ; archivní doklad chybí.',
     relatedSlugs: [],
     era: 'baroko',
   },

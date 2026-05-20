@@ -21,7 +21,7 @@ tldr: 'Miniaturní kovaný čtvrťový stroj (30 × 21 × 29 cm) snad z kostela 
 ---
 [![Kostel Zlaté Hory](/img/vez/ZlateHory/kostel_Zlate_Hory.jpg)](/img/vez/ZlateHory/f/kostel_Zlate_Hory.jpg)
 
-Hodinářská expozice byly rozšířena o zapůjčený barokní kovaný [čtvrťový stroj](/slovnik/ctvrtove-biti) pocházející snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách. Restaurování započalo 7.5.2012. Miniaturní rozměry stroje ( 30 x 21 x 29 cm) stroje postačovaly pro pohon jednoho ciferníku.
+Hodinářská expozice byly rozšířena o zapůjčený barokní kovaný [čtvrťový stroj](/slovnik/ctvrtove-biti) pocházející snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách. Restaurování započalo 7.5.2012. Miniaturní rozměry stroje ( 30 x 21 x 29 cm) stroje postačovaly pro pohon jednoho číselníku.
 
 ## Nálezový stav
 
@@ -37,7 +37,7 @@ Kola jsou železná s výjimkou mosazného krokového kola a mezikola čtvrťov�
 
 ## Historie hodin
 
-Bohužel je i tento odstaveček jen kraťoulinký. V Městském muzeu ve Zlatých Horách je uložen obsáhlý spis nazvaný **Stavebně historický průzkum farního kostela Nanebevzetí Panny Marie ve Zlatých Horách** autorů N. Gyryczkové a A. Grůzy z roku 1999. Tento spis byl zpracován na vlastní žádost vlastníka objektu – Římskokatolické farnosti ve Zlatých Horách. Jedná se o elaborát, který podává komplexní historickou analýzu založenou především na důkladném studiu archivních pramenů uložených v Zemském archivu v Opavě, v jeho pobočce v Olomouci a Okresním archivu v Jeseníku. Bohužel k hodinovému stroji se zde nachází pouze tato informace: ".... 15\. srpna 1880 odpoledne udeřil blesk a poškodil západní stěnu kostela a ciferník hodin." Dodejme alespoň, že první nepřímé zmínky o kostele jsou z roku 1339 a opět z roku 1376 - 1377.
+Bohužel je i tento odstaveček jen kraťoulinký. V Městském muzeu ve Zlatých Horách je uložen obsáhlý spis nazvaný **Stavebně historický průzkum farního kostela Nanebevzetí Panny Marie ve Zlatých Horách** autorů N. Gyryczkové a A. Grůzy z roku 1999. Tento spis byl zpracován na vlastní žádost vlastníka objektu – Římskokatolické farnosti ve Zlatých Horách. Jedná se o elaborát, který podává komplexní historickou analýzu založenou především na důkladném studiu archivních pramenů uložených v Zemském archivu v Opavě, v jeho pobočce v Olomouci a Okresním archivu v Jeseníku. Bohužel k hodinovému stroji se zde nachází pouze tato informace: ".... 15\. srpna 1880 odpoledne udeřil blesk a poškodil západní stěnu kostela a číselník hodin." Dodejme alespoň, že první nepřímé zmínky o kostele jsou z roku 1339 a opět z roku 1376 - 1377.
 
 Další informace o kostele najdete na stránkách města Zlaté Hory.
 

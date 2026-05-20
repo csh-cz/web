@@ -40,7 +40,7 @@ Etymologie z latinského *horologium* (= „hodinář / ukazatel hodin"), které
 
 Slovo *orloj* se v moderním cs úzu používá výhradně pro **astronomické hodinové stroje s nadstandardním zobrazením** — tj. takové, které kromě času ukazují i polohu nebeských těles na [sphere](/slovnik/sphera), znamení [zodiaku](/slovnik/zodiak), kalendářní informace, nebo mají [pohyblivé figurky / aparát](/slovnik/tatrmani-aparat).
 
-Pouhé věžní hodiny s číselníkem (i monumentální) **nejsou orlojem** — jsou prostě věžními hodinami (něm. *Turmuhr*, fr. *horloge de tour*, en. *tower clock*). Pražský orloj má **astronomický a kalendářní ciferník** + sphery + zodiak + apoštoly = orloj. Sobotecké radniční hodiny mají jen ciferník = ne orloj.
+Pouhé věžní hodiny s číselníkem (i monumentální) **nejsou orlojem** — jsou prostě věžními hodinami (něm. *Turmuhr*, fr. *horloge de tour*, en. *tower clock*). Pražský orloj má **astronomický a kalendářní číselník** + sphery + zodiak + apoštoly = orloj. Sobotecké radniční hodiny mají jen číselník = ne orloj.
 
 ## Hlavní české orloje
 
@@ -51,4 +51,4 @@ Pouhé věžní hodiny s číselníkem (i monumentální) **nejsou orlojem** —
 
 ## Příbuzné termíny
 
-[sphera](/slovnik/sphera) (astronomický ciferník), [zodiak](/slovnik/zodiak), [astroláb](/slovnik/astrolab), [tatrmani / aparát](/slovnik/tatrmani-aparat) (figurky), [kalendárium](/slovnik/kalendarium).
+[sphera](/slovnik/sphera) (astronomický číselník), [zodiak](/slovnik/zodiak), [astroláb](/slovnik/astrolab), [tatrmani / aparát](/slovnik/tatrmani-aparat) (figurky), [kalendárium](/slovnik/kalendarium).

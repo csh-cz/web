@@ -80,6 +80,6 @@ Varianty provedení (tučně vyznačená zapůjčená varianta)
 - synchronizace DCF / MOBALine / samostavitelné pro LAN / WTD
 - napájení bateriové / MOBALine / PoE / 230 VAC
 
-Hodiny bude tedy pohánět strojek SAM – samostavitelný hodinový strojek pro připojení k MOBALine. [Podrobnější technické parametry](https://mobatime.cz/obchod/analogove-hodiny-3218/). Ciferník bude typu C2, tedy se zakreslenými číslicemi.
+Hodiny bude tedy pohánět strojek SAM – samostavitelný hodinový strojek pro připojení k MOBALine. [Podrobnější technické parametry](https://mobatime.cz/obchod/analogove-hodiny-3218/). Číselník bude typu C2, tedy se zakreslenými číslicemi.
 
 Podle stránek výrobce napsal [Petr Král](/hodinari/petr-kral)

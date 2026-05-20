@@ -18,7 +18,7 @@ prekladyFr:
 varianty:
   - ukazovací stroj
   - ukazovací soukolí
-definice: "**Vedlejší soukolí**, které z hlavní hřídele [jicího stroje](/slovnik/stroj-podsestava) odebírá pohyb a převádí ho na **otáčení ručiček (rafií) ciferníku** s vhodným redukčním převodem (typicky 1:12 mezi minutovou a hodinovou ručkou). U věžních hodin převádí pohyb mechanicky přes řadu kol a hřídelí k jednomu nebo více ciferníkům umístěným v různých stranách věže."
+definice: "**Vedlejší soukolí**, které z hlavní hřídele [jicího stroje](/slovnik/stroj-podsestava) odebírá pohyb a převádí ho na **otáčení ručiček (rafií) číselníku** s vhodným redukčním převodem (typicky 1:12 mezi minutovou a hodinovou ručkou). U věžních hodin převádí pohyb mechanicky přes řadu kol a hřídelí k jednomu nebo více číselníkům umístěným v různých stranách věže."
 pribuzne:
   - kralovska-hridel
   - soukoli
@@ -47,9 +47,9 @@ Skála na téže Pražské zakázce dále popisuje **strukturu propojení** ukaz
 
 (*Mezilehlé kolo* = kolo na rozhraní jicího a ukazovacího stroje; přes něj se z časoměrné větve odbírá rotace pro ručkové výstupy.)
 
-U **jednoduchých věžních strojů** (typicky 18.–19. století s jedním ciferníkem) je ukazovací stroj velmi prostý — typicky **dvojice kol s redukcí 1:12** mezi minutovou a hodinovou hřídelí. U strojů s více ciferníky (kostel/radnice s ciferníky na 3–4 stranách věže) ukazovací stroj distribuje pohyb přes **horizontální a vertikální převody** (kuželová kola, hřídele) ke každému ciferníku zvlášť.
+U **jednoduchých věžních strojů** (typicky 18.–19. století s jedním číselníkem) je ukazovací stroj velmi prostý — typicky **dvojice kol s redukcí 1:12** mezi minutovou a hodinovou hřídelí. U strojů s více číselníky (kostel/radnice s číselníky na 3–4 stranách věže) ukazovací stroj distribuje pohyb přes **horizontální a vertikální převody** (kuželová kola, hřídele) ke každému číselníku zvlášť.
 
-V některých historických strojích je ukazovací stroj propojen pomocí **kovových táhel** (typicky kostelní/radniční stavby, kde stroj sedí v podkroví, ciferník je daleko ve štítu nebo věži — viz např. stará radnice v Kraslicích, kde mechanismus s kovovým táhlem převáděl pohyb do ciferníku v atikovém štítu).
+V některých historických strojích je ukazovací stroj propojen pomocí **kovových táhel** (typicky kostelní/radniční stavby, kde stroj sedí v podkroví, číselník je daleko ve štítu nebo věži — viz např. stará radnice v Kraslicích, kde mechanismus s kovovým táhlem převáděl pohyb do číselníku v atikovém štítu).
 
 **Restaurátorská praxe:** Skálovy zprávy (Markvartice 2019, Vanovice 2021) ukazují, že **uvolnění a vystředění** ozubení ukazovacího stroje je standardní krok při restaurování — staré stroje trpí korozí a deformacemi, které způsobí nepřesné nasazení rafií nebo dokonce jejich zastavení.
 

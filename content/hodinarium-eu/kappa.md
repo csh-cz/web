@@ -58,11 +58,11 @@ Hodiny KAPPA dnes představují svědectví robustní italské techniky druhé p
 ![SAMSUNG SSC-MQI čelní pohled](/img/elektrika/Kappa/SSC-MQI_celni_pohled.jpg)
 SAMSUNG WATCH COM., LMT SEOUL KOREA
 
-Tyto hlavní hodiny SSC-MQI mají dva hodinové ciferníky. Jeden ukazuje čas hlavních hodin, druhý ukazuje čas linky na slave hodinách. Hodiny mají poměrně jednoduché ovládání. V pravém dolním uzamykatelném panelu jsou tyto prvky:
+Tyto hlavní hodiny SSC-MQI mají dva hodinové číselníky. Jeden ukazuje čas hlavních hodin, druhý ukazuje čas linky na slave hodinách. Hodiny mají poměrně jednoduché ovládání. V pravém dolním uzamykatelném panelu jsou tyto prvky:
 
 - Pro master hodiny červené kulaté tlačítko RESET a bílé hranaté tlačítko označení SEC STOP
 - Pro slave hodiny jsou určené přepínače. První s pozicemi ADJ, NOR, STOP a druhý s pozicemi ADV a REV. Význam zatím není zcela jasný. Přepínače patrně slouží k nastavení linky.
-- Třetí přepínač je označený DIMMER a polohami LIGHT, OFF, DARK slouží k ovládání **podsvícení ciferníku hodin**. Takové nastavení je běžné u **lodních hodin** nebo **panelových zařízení**, kde musí být displej nebo ručičky čitelné jak ve dne, tak v noci, aniž by oslňovaly.
+- Třetí přepínač je označený DIMMER a polohami LIGHT, OFF, DARK slouží k ovládání **podsvícení číselníku hodin**. Takové nastavení je běžné u **lodních hodin** nebo **panelových zařízení**, kde musí být displej nebo ručičky čitelné jak ve dne, tak v noci, aniž by oslňovaly.
 
 Uvnitř jednotky je přepínač napětí sítě, dále samostatné vypínače pro AC a DC a jejich pojistky a také pojistky pro 0.5 sec a 30 sec linky.
 

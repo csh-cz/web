@@ -21,7 +21,7 @@ Pokud najdete příspěvky obzvláště vypečené, sdělte nám adresu nebo vyh
 - létající kuličky - [roling ball clock](http://www.youtube.com/results?search_query=roling+ball+clock&search_type=)
 - vrtulové hodiny - [propeller clock](http://www.youtube.com/results?search_query=propeller+clock&search_type=)
 - buzení vodním dělem? - [Water Gun Alarm Clock](http://www.youtube.com/results?search_query=Water+Gun+Alarm+Clock&search_type=)
-- Ciferníky trochu jinak a dynamicky: [1](http://www.youtube.com/watch?v=y0qdQuJmQa4&feature=related) , [2](http://www.youtube.com/watch?v=pQOossf32OE&feature=related) , [3](http://www.youtube.com/watch?v=KmCxB_LdsBE&feature=related), [4](http://www.youtube.com/watch?v=f4jzrlnUmwM&feature=related)
+- Číselníky trochu jinak a dynamicky: [1](http://www.youtube.com/watch?v=y0qdQuJmQa4&feature=related) , [2](http://www.youtube.com/watch?v=pQOossf32OE&feature=related) , [3](http://www.youtube.com/watch?v=KmCxB_LdsBE&feature=related), [4](http://www.youtube.com/watch?v=f4jzrlnUmwM&feature=related)
 - [tourbillon](http://www.youtube.com/results?search_query=tourbillon&search_type=)
 - naprosto podivuhodné kroky - [escapement](http://www.youtube.com/results?search_query=Escapement&search_type=), pro fajnšmekry [lego escapement](http://www.youtube.com/results?search_query=lego+escapement&search_type=)
 - létající "[kyvadlo](/slovnik/kyvadlo)" - [Flying Pendulum Clock](http://www.youtube.com/results?search_query=Flying+Pendulum+Clock&search_type=) - skoro zapomenutý "skorokrok"

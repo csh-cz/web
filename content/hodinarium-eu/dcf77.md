@@ -17,7 +17,7 @@ manualEdit: true
 ogImage: "/img/dcf_analog.jpg"
 tldr: 'Princip a parametry dlouhovlnného časového signálu 77,5 kHz z vysílače Mainflingen — od pulzně šířkové modulace pod vedením PTB Braunschweig až po analogové, digitální i náramkové aplikace.'
 ---
-![Analogový DCF budík — kombinace klasického ciferníku a atomové přesnosti](/img/dcf_analog.jpg)
+![Analogový DCF budík — kombinace klasického číselníku a atomové přesnosti](/img/dcf_analog.jpg)
 
 Hodiny se synchronizovaly již v dávné minulosti. Zvukem (výstřel z děla), světlem (mávnutí praporem), později vysíláním časového signálu v rádiu či v televizi. ![Náramkové digitální DCF hodinky](/img/dcf_naramkove.jpg) Automatizovaně se synchronizovaly hodiny pomocí speciálních sítí (systémy matričních a podružných hodin), přenosem signálu po elektrickém vedení, Internetem.
 
@@ -29,7 +29,7 @@ Typickým znakem hodin "řízených rádiem" je symbol vysílače a případný 
 
 Hodiny s DCF přijímačem se obvykle vyrábějí, zejména z cenových důvodů, jako digitální. ![DCF pendlovky — efektní „mávátko” bez vlivu na chod](/img/dcf_pendlovky.jpg) V muzeu kuriózních hodin ukážeme proto i několik analogových a kombinovaných budíků. Existují DCF nádražní hodiny i DCF pendlovky. Kyvadlo je zde ovšem spíše jakýmsi mávátkem bez vlivu na chod hodin. Nicméně je to docela efektní. Je celkem zajímavé pozorovat počáteční nastavení analogových hodin. „Pendlovky” se po vložení baterie nastaví na pozici 4, 8 nebo 12 hodin a vyčkávají cca 4 minuty na příjem rádiového signálu. ![DCF hodinky Eurochron — analogový vzhled, atomová přesnost](/img/dcf_naramkove2.jpg) Správný časový údaj se kontroluje 12× za den.
 
-Přijímač DCF lze dnes vestavět i do náramkových hodinek. Kdybych si pořizoval nové hodinky, asi bych sáhl po kombinaci klasického vzhledu s analogovým ukazatelem času a přesnosti atomových hodin dosaženou synchronizací DCF přijímačem. Prostě ručičky jsou ručičky a bezstarostnost o nastavení je to pravé, co nabízejí například **DCF hodinky Eurochron** na obrázku vpravo. Navíc [**římské**](/clanky/rimskedigi) číslice na ciferníku....
+Přijímač DCF lze dnes vestavět i do náramkových hodinek. Kdybych si pořizoval nové hodinky, asi bych sáhl po kombinaci klasického vzhledu s analogovým ukazatelem času a přesnosti atomových hodin dosaženou synchronizací DCF přijímačem. Prostě ručičky jsou ručičky a bezstarostnost o nastavení je to pravé, co nabízejí například **DCF hodinky Eurochron** na obrázku vpravo. Navíc [**římské**](/clanky/rimskedigi) číslice na číselníku....
 
 ## Vysílač časového signálu
 

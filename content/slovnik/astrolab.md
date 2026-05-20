@@ -13,7 +13,7 @@ prekladyEn:
 prekladyFr:
   - term: astrolabe
     genus: m
-definice: "Středověký astronomický přístroj k měření výšky hvězd, identifikaci nebeských těles a výpočtu času. Sestává z **matkové desky (mater)** s kruhovou stupnicí, **tympanonu** (vyměnitelná deska pro konkrétní geografickou šířku), **rete** (pohyblivá mapa nebeské sféry) a **alidády** (otáčivé pravítko). U mechanických orlojů tvoří princip astrolábu základ astronomického ciferníku — Pražský orloj 1410, Olomoucký orloj 15. století."
+definice: "Středověký astronomický přístroj k měření výšky hvězd, identifikaci nebeských těles a výpočtu času. Sestává z **matkové desky (mater)** s kruhovou stupnicí, **tympanonu** (vyměnitelná deska pro konkrétní geografickou šířku), **rete** (pohyblivá mapa nebeské sféry) a **alidády** (otáčivé pravítko). U mechanických orlojů tvoří princip astrolábu základ astronomického číselníku — Pražský orloj 1410, Olomoucký orloj 15. století."
 pribuzne:
   - sphera
   - zodiak
@@ -27,11 +27,11 @@ references:
 
 ## Stručně
 
-Astroláb je **původně samostatný astronomický přístroj** používaný od starověku (vrcholný rozvoj v islámském světě 9.–13. století, evropský recepce přes Andalusii a Sicílii). V hodinářství 14.–15. století se princip astrolábu **mechanizoval** — stal se základem astronomických ciferníků prvních orlojů (Padova 1344, Praha 1410).
+Astroláb je **původně samostatný astronomický přístroj** používaný od starověku (vrcholný rozvoj v islámském světě 9.–13. století, evropský recepce přes Andalusii a Sicílii). V hodinářství 14.–15. století se princip astrolábu **mechanizoval** — stal se základem astronomických číselníků prvních orlojů (Padova 1344, Praha 1410).
 
 ## Mechanický astroláb u orlojů
 
-Astronomický ciferník Pražského orloje funguje jako mechanický astroláb:
+Astronomický číselník Pražského orloje funguje jako mechanický astroláb:
 - **Pevná deska** odpovídá tympanonu (souřadnice pražské 50° s. š.)
 - **Otáčivá hvězdná sféra** (rete) = vnitřní stupnice zodiaku
 - **Ručky Slunce a Měsíce** = ekvivalent alidády (ukazují polohu na sféře)
@@ -49,6 +49,6 @@ Pro detailní výklad mechaniky viz Skála 2013 — *Nepřesnosti v konstrukci p
 ## Související
 
 - [orloj](/slovnik/orloj) — komplexní hodinová stavba s astrolabem jako základem
-- [sphera](/slovnik/sphera) — astronomický ciferník (cs varianta termínu)
-- [zodiak](/slovnik/zodiak), [znameni-zodiaku](/slovnik/znameni-zodiaku) — stupnice na ciferníku
-- [kalendárium](/slovnik/kalendarium) — kalendářní disk pod astronomickým ciferníkem
+- [sphera](/slovnik/sphera) — astronomický číselník (cs varianta termínu)
+- [zodiak](/slovnik/zodiak), [znameni-zodiaku](/slovnik/znameni-zodiaku) — stupnice na číselníku
+- [kalendárium](/slovnik/kalendarium) — kalendářní disk pod astronomickým číselníkem

@@ -42,7 +42,7 @@ Použili jsme fotografický polarizační filtr. Pod přidržovací matici jsme 
 
 Na obrázcích pokusný průhled fotografickým polarizačním filtrem s proužkem celofánu přibližně směrem "k Polárce". Otáčením doprava se snažíme vyrovnat jas. Na prvním snímku celofánem prochází podstatně méně světla, druhý je skoro vyrovnaný, na dalších prochází pod celofánem naopak světla více. Na obrázcích, kdy přetočený filtr "kouká" trochu do mraků, vidíme, že efekt funguje jen proti modré obloze.
 
-Čas se odečítá podle šipky momentálně představující hodinovou ručičku SEČ na 24 hodinovém ciferníku s dvanáckou nahoře. Téměř správné natočení je na druhém obrázku. Je tedy poledne, čas na oběd.
+Čas se odečítá podle šipky momentálně představující hodinovou ručičku SEČ na 24 hodinovém číselníku s dvanáckou nahoře. Téměř správné natočení je na druhém obrázku. Je tedy poledne, čas na oběd.
 
 Další vývojová etapa by zahrnovala vložení aretovatelně otočného skla za filtr s namalovanou ručičkou. Také filtr by měl býr uložen v přípravku s kompasem pro snadnější orientaci, nebo na pevném stanovičti. Pro realizaci těchto hodin jsem vybral styl steampunk. Hodiny jsou pro držení v ruce doplněny pažbou a kompasem pro orientaci.
 

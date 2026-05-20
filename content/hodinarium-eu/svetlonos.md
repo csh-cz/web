@@ -30,7 +30,7 @@ Podstatnější korekci musíme udělat podle **časové rovnice**, která urču
 
 Korekce na případný letní čas už je jednoduchá. Plus jedna hodina v době platnosti letního času.
 
-Zeměpisný posun a posun letního času jsou konstantní a je možné je korigovat natočením ciferníku. Korekce podle časové rovnice je složitější křivka jménem analema. Lze ji nakreslit na ciferník, nebo podle ní tvarovat ukazatel. Čas je pak odečítán v části křivky příslušné k určitému datu v roce. Pozorovatel je v dost obtížné situaci, protože musí rozhodující bod určit obvykle podle znamení zvěrokruhu.
+Zeměpisný posun a posun letního času jsou konstantní a je možné je korigovat natočením číselníku. Korekce podle časové rovnice je složitější křivka jménem analema. Lze ji nakreslit na číselník, nebo podle ní tvarovat ukazatel. Čas je pak odečítán v části křivky příslušné k určitému datu v roce. Pozorovatel je v dost obtížné situaci, protože musí rozhodující bod určit obvykle podle znamení zvěrokruhu.
 
 **Z** úcty k tradici si myslím, že sluneční hodiny mají ukazovat pravý sluneční čas příslušný k stanovišti. Korekci podle časové rovnice by měla usnadňovat vhodná [**tabulka**](/img/slunecni/tab_rovnice.gif). Kdyby taková byla i u Strážce času, nebylo by možné remcat na to, že socha ukazuje špatně. (Ačkoliv. Remcat je možné vždy.)
 
@@ -40,10 +40,10 @@ Zeměpisný posun a posun letního času jsou konstantní a je možné je korigo
 
 [![Vysvětlující tTabulka u Strážce času](/img/slunecni/tabulka_svetlonos2.jpg)](/img/slunecni/f/tabulka_svetlonos2.jpg)
 
-Tabulky jednak uvádějí základní informace o "největších slunečních horizontálních hodinách v České republice s ciferníkem 20 x 21 m vybudovaných v Sezimově Ústí v roce 2005. Hodiny se nacházejí ve výšce 412, n.m. a ukazují pravý sluneční čas odpovídající poloze 14° 41' východní zeměpisné délky a 49° 24' severní šířky.
+Tabulky jednak uvádějí základní informace o "největších slunečních horizontálních hodinách v České republice s číselníkem 20 x 21 m vybudovaných v Sezimově Ústí v roce 2005. Hodiny se nacházejí ve výšce 412, n.m. a ukazují pravý sluneční čas odpovídající poloze 14° 41' východní zeměpisné délky a 49° 24' severní šířky.
 
 Dále jsou na tabulkách vyčísleny časové odchylky po 15 dnech a zároveň je tato zázislost zobrazena jako graf.
 
-Druhá tabulka uvádí znamení zvěrokruhu a grafické znázornění závislosti výšky Slunce nad obzozem na hodině a datu. Na posledním zobrazení je ciferník hodin s doplněnými astronomickými údaji.
+Druhá tabulka uvádí znamení zvěrokruhu a grafické znázornění závislosti výšky Slunce nad obzozem na hodině a datu. Na posledním zobrazení je číselník hodin s doplněnými astronomickými údaji.
 
 Pouze jeden údaj vzbuzuje pochybnosti. Socha údajně drží kouli v LEVÉ ruce. Možná má přezdívaný "lovec tuleňů" obě ruce levé. ;-(

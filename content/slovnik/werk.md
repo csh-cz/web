@@ -13,7 +13,7 @@ prekladyFr:
 varianty:
   - werk (germanism v žargonu)
   - "stroj** (Špatný 1882"
-definice: "Vlastní **mechanický stroj** hodin — soukolí, krok, oscilátor, perovník, krokové kolo a ručky — bez pouzdra a ciferníku. V kapesních / náramkových hodinkách obvykle synonymum s **kalibrem** v konkrétní instanci (kalibr je typ, werk je kus)."
+definice: "Vlastní **mechanický stroj** hodin — soukolí, krok, oscilátor, perovník, krokové kolo a ručky — bez pouzdra a číselníku. V kapesních / náramkových hodinkách obvykle synonymum s **kalibrem** v konkrétní instanci (kalibr je typ, werk je kus)."
 pribuzne:
   - kalibr
   - soukoli
