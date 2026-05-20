@@ -4,11 +4,21 @@ slug: ruka-orloje
 conceptId: HORO-HAND-001
 kategorie: mechanika
 varianty:
-  - ruka
-  - ručka
-  - ručička
-  - rafije
-  - rafika
+  - term: ručka
+    status: preferred
+    note: "Moderní cs odborný úzus (Sladkovský 1947, Boukal 1958, Skála 2005)."
+  - term: ručička
+    status: admitted
+    doloženo: "Božek 1894/1897, Nekut 1898, Rosický 1917 (deminutivum, 19. stol.)"
+  - term: ruka
+    status: historical
+    doloženo: "Táborský 1570 (středověký termín pro pražský orloj, bez deminutivu)"
+  - term: rafije
+    status: archaic
+    note: "Astronomický kontext velkých orlojů; etymologicky z řec. grafion. Viz heslo rafije."
+  - term: rafika
+    status: archaic
+    note: "Varianta rafije."
 definice: 'Kovový ukazatel na ciferníku hodin, který otáčením kolem středové osy indikuje aktuální čas. Standardní moderní cs termín je **ručka** (Sladkovský 1947; Boukal 1958; Skála 2005), staročeské varianty *rafije* / *rafika* dnes přežívají pouze v astronomickém kontextu velkých orlojů. Středověký pražský orloj používá v originálním zápisu Táborského 1570 termín **ruka** (bez deminutivu) — odkazuje na typický gotický motiv ruky s napřaženým ukazovákem na konci osy.'
 pribuzne:
   - pravidlo-orloje
