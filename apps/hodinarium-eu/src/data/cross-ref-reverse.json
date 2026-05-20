@@ -174,8 +174,10 @@
       "soupis": [
         "1865-kolin-skola-janata",
         "1867-dobruska-radnice-janata",
+        "1868-planany-zvestovani-panny-marie-janata",
         "1871-lipnice-nad-sazavou-radnice-janata",
         "1876-police-nad-metuji-radnice-janata",
+        "1877-pomezi-u-policky-janata",
         "hellich-batovce-janata",
         "hellich-benatky-nad-jizerou-janata",
         "hellich-benesov-nad-ploucnici-janata",
@@ -251,7 +253,9 @@
         "hellich-vyshnivchyk-janata",
         "hellich-vysoke-veseli-janata",
         "hellich-zdetin-janata",
-        "nedatovano-chotoun-skala-2004"
+        "nedatovano-chotoun-skala-2004",
+        "skala-realizace-podebrady-zamek",
+        "skala-realizace-zehun-sv-gotthard-janata"
       ]
     },
     "jan-holub": {
@@ -1534,7 +1538,9 @@
         "1861-sobotka-prokes"
       ],
       "slovnik": [
-        "cifernik"
+        "cifernik",
+        "kralovska-hridel",
+        "ruka-orloje"
       ]
     },
     "hodinar": {
@@ -1614,34 +1620,13 @@
         "snek"
       ]
     },
-    "setrvacka": {
+    "odbijeni": {
       "slovnik": [
-        "balanc",
-        "chronograf",
-        "chronometr",
-        "invar",
-        "isochronismus",
-        "kompenzace-teplotni",
-        "kvadrant",
-        "kyvadlo",
-        "lihyr",
-        "regulator",
-        "rubinovy-kamen",
-        "vidlice",
-        "vlasek",
-        "vlaskova-krivka",
-        "vlasova-pruzinka"
-      ]
-    },
-    "vlasek": {
-      "slovnik": [
-        "balanc",
-        "chronometr",
-        "invar",
-        "isochronismus",
-        "setrvacka",
-        "vlaskova-krivka",
-        "vlasova-pruzinka"
+        "bici-stroj",
+        "ctvrtove-biti",
+        "cymbal",
+        "zamek-orloje",
+        "zvon-orloje"
       ]
     },
     "kladivko": {
@@ -1649,6 +1634,7 @@
         "bici-stroj",
         "ctvrtove-biti",
         "cymbal",
+        "odbijeni",
         "opakovaci-hodinky",
         "palice-orloje",
         "ramenko"
@@ -1658,6 +1644,7 @@
       "slovnik": [
         "bici-stroj",
         "kladivko",
+        "odbijeni",
         "zvon-orloje"
       ]
     },
@@ -1743,6 +1730,14 @@
         "zpravce-orloje"
       ]
     },
+    "kralovska-hridel": {
+      "slovnik": [
+        "centralni-prevodovka",
+        "ciselnik",
+        "hridelik-orloje",
+        "ukazovaci-stroj"
+      ]
+    },
     "krok": {
       "slovnik": [
         "centralni-prevodovka",
@@ -1750,6 +1745,7 @@
         "kolickovy-krok",
         "kotva",
         "krokove-kolo",
+        "natah",
         "remontoir",
         "rubinovy-kamen",
         "stegrad",
@@ -1808,6 +1804,24 @@
         "petite-a-grande-sonnerie"
       ]
     },
+    "setrvacka": {
+      "slovnik": [
+        "chronograf",
+        "chronometr",
+        "invar",
+        "isochronismus",
+        "kompenzace-teplotni",
+        "kvadrant",
+        "kyvadlo",
+        "lihyr",
+        "regulator",
+        "rubinovy-kamen",
+        "vidlice",
+        "vlasek",
+        "vlaskova-krivka",
+        "vlasova-pruzinka"
+      ]
+    },
     "kalibr": {
       "slovnik": [
         "chronograf",
@@ -1816,10 +1830,37 @@
         "werk"
       ]
     },
+    "vlasek": {
+      "slovnik": [
+        "chronometr",
+        "invar",
+        "isochronismus",
+        "setrvacka",
+        "vlaskova-krivka",
+        "vlasova-pruzinka"
+      ]
+    },
+    "ruka-orloje": {
+      "slovnik": [
+        "cifernik",
+        "ciselnik",
+        "pravidlo-orloje",
+        "rafije",
+        "sphera"
+      ]
+    },
+    "rafije": {
+      "slovnik": [
+        "cifernik",
+        "ciselnik",
+        "ruka-orloje"
+      ]
+    },
     "hridelik-orloje": {
       "slovnik": [
         "ciselnik",
         "klinek-orloje",
+        "kralovska-hridel",
         "ukazovaci-stroj",
         "vos",
         "vreteno-orloje"
@@ -1834,7 +1875,14 @@
     "ukazovaci-stroj": {
       "slovnik": [
         "ciselnik",
+        "kralovska-hridel",
         "stroj"
+      ]
+    },
+    "cifernik": {
+      "slovnik": [
+        "ciselnik",
+        "ruka-orloje"
       ]
     },
     "hruden": {
@@ -1869,6 +1917,7 @@
         "cymbal",
         "kladivko",
         "kolo-zaverkove",
+        "odbijeni",
         "opakovaci-hodinky",
         "petite-a-grande-sonnerie",
         "pocetnik",
@@ -2005,6 +2054,18 @@
         "tryb"
       ]
     },
+    "podruzne-hodiny": {
+      "slovnik": [
+        "impulsy",
+        "synchronni-motor"
+      ]
+    },
+    "synchronni-motor": {
+      "slovnik": [
+        "impulsy",
+        "podruzne-hodiny"
+      ]
+    },
     "pravidlo-orloje": {
       "slovnik": [
         "index-orloje",
@@ -2077,6 +2138,7 @@
     "zvon-orloje": {
       "slovnik": [
         "kladivko-orloje",
+        "odbijeni",
         "tepati"
       ]
     },
@@ -2125,6 +2187,12 @@
         "vlasek"
       ]
     },
+    "centralni-prevodovka": {
+      "slovnik": [
+        "kralovska-hridel",
+        "podruzne-hodiny"
+      ]
+    },
     "lihyr": {
       "slovnik": [
         "kyvadlo",
@@ -2171,6 +2239,22 @@
         "motus-naturalis"
       ]
     },
+    "natahovy-buben": {
+      "slovnik": [
+        "natah"
+      ]
+    },
+    "remontoir": {
+      "slovnik": [
+        "natah"
+      ]
+    },
+    "natah": {
+      "slovnik": [
+        "natahovy-buben",
+        "remontoir"
+      ]
+    },
     "zavazi": {
       "slovnik": [
         "natahovy-buben",
@@ -2188,6 +2272,21 @@
         "oblouk-orloje"
       ]
     },
+    "ctvrtove-biti": {
+      "slovnik": [
+        "odbijeni",
+        "westminster-chime"
+      ]
+    },
+    "zamek-orloje": {
+      "slovnik": [
+        "odbijeni",
+        "palice-orloje",
+        "rykl",
+        "stroj-podsestava",
+        "struna-orloje"
+      ]
+    },
     "tatrmani-aparat": {
       "slovnik": [
         "orloj"
@@ -2196,14 +2295,6 @@
     "kalendarium": {
       "slovnik": [
         "orloj"
-      ]
-    },
-    "zamek-orloje": {
-      "slovnik": [
-        "palice-orloje",
-        "rykl",
-        "stroj-podsestava",
-        "struna-orloje"
       ]
     },
     "snek": {
@@ -2225,12 +2316,6 @@
     "sklicko": {
       "slovnik": [
         "pouzdro"
-      ]
-    },
-    "ruka-orloje": {
-      "slovnik": [
-        "pravidlo-orloje",
-        "rafije"
       ]
     },
     "oblouk-orloje": {
@@ -2344,11 +2429,6 @@
     "volovo": {
       "slovnik": [
         "vyklusati"
-      ]
-    },
-    "ctvrtove-biti": {
-      "slovnik": [
-        "westminster-chime"
       ]
     },
     "zmotrchati": {
