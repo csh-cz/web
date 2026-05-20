@@ -33,7 +33,7 @@ Je to celé poněkud složitější. Pokud vás alespoň trochu zajímá fyzika 
 
 **I** naše muzeum se rozhodlo princip vyzkoušet. Poněkud jsme rezignovali na přesnost hodin a rozhodli se vyrobit **hodiny přenosné** z běžně dostupných dílů. Jakž takž správnou orientaci při pozorování budeme řešít dodatečně kompasem. Vzhledem k uložení střelky na hrotu můžeme kompasem určit nejen směr, ale i vodorovnou rovinu. Hodiny hodláme vybavit korigovanou stupnicí na letní čas, na zeměpisnou polohu a na časovou rovnici. To umožní odečítat pásmový čas přímo.
 
-Použili jsme fotografický polarizační filtr. Pod přidržovací matici jsme vložili proužek celofánu z papírnictví a na zadní stranu filtru jsme v poledne podle SEČ nakreslili čáru hodinové ručičky. Předpokládáme, že během několika dní na dovolené se korekce příliš nemění. Při měření by pro správnou orientaci bylo nejlépe nasadit filtr na fotoaparát na stativu. Jenže zrcadlovka by převrátila směr otáčení a získali bychom tak spíše [hodiny židovské](/clanky/zidovske). Závodní střelci ovšem mohou filtr držet klidně i v ruce.
+Použili jsme fotografický polarizační filtr. Pod přidržovací matici jsme vložili proužek celofánu z papírnictví a na zadní stranu filtru jsme v poledne podle SEČ nakreslili čáru hodinové ručičky. Předpokládáme, že během několika dní na dovolené se korekce příliš nemění. Při měření by pro správnou orientaci bylo nejlépe nasadit filtr na fotoaparát na stativu. Jenže zrcadlovka by převrátila směr otáčení a získali bychom tak spíše [hodiny židovské](/virtualni-muzeum/zidovske). Závodní střelci ovšem mohou filtr držet klidně i v ruce.
 
 ![filtr 1](/img/slunecni/doma/filtr1.jpg)
 ![filtr 2](/img/slunecni/doma/filtr2.jpg)

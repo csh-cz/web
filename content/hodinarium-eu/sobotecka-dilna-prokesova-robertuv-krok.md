@@ -140,4 +140,4 @@ Aktuální nejstarší dochovaný Prokešův stroj s Robertovým krokem je **Byc
 - **[Robertův krok](/kroky/robertuv-krok)** — slovníkové heslo s technickým popisem a terminologickou diskuzí
 - **[Edmund Kinšner](/hodinari/edmund-kinsner)** — Prokešův žák, autor patentovaných orlojových variant
 - **[Bychory inv. 2](/sbirka/karta/inv-2-vezni-prokes-1868-soubor/)** — nejstarší dochovaný Prokešův stroj s Robertovým krokem v Hodináriu Děčín
-- **[Pražský orloj — restaurování 2018](/clanky/prazsky-orloj-restaurovani-2018)** — kontext sporu Prokeš × Božek × Holub o pražskou opravu 1864
+- **[Pražský orloj — restaurování 2018](/zajimavosti/prazsky-orloj-restaurovani-2018)** — kontext sporu Prokeš × Božek × Holub o pražskou opravu 1864

@@ -90,7 +90,7 @@ Skupina hodinářů ze středních Čech vystavila **hodiny natahované jednou z
 
 > „Památný orloj na staroměstské radnici v Praze pochází z druhé polovice 15. století [...] a jest vesměs práce česká. Mistrně napodobil jej v malém měřítku na výstavě V. Hrdý z Nové Paky."
 
-Šlo o **funkční zmenšeninu [Pražského orloje](/clanky/prazsky-orloj-restaurovani-2018)** — typický salonní exponát vystavený jako poklona staročeské tradici.
+Šlo o **funkční zmenšeninu [Pražského orloje](/zajimavosti/prazsky-orloj-restaurovani-2018)** — typický salonní exponát vystavený jako poklona staročeské tradici.
 
 ## Dobové ekonomické a technologické pozorování
 
@@ -114,7 +114,7 @@ Dobový katalog 1891 ve svém úvodu uvádí tradiční legendu:
 **Toto je vyvrácená legenda**, která se v 19. století běžně traduje v populární a popularizační literatuře. Moderní výzkum (Lynn White Jr., John North, *God's Clockmaker* 2005, Nosonovsky 2024) ukazuje, že:
 
 - **Gerbert d'Aurillac** (papež Silvestr II., 999–1003) byl matematik a astronom; je doloženo, že **propagoval astroláb** (přivezl ze Španělska) a sestrojoval **vodní hodiny**, ne mechanické
-- **První mechanické hodiny se závažím a krokem** v Evropě se objevují **až ve 13. století** (cca 1270–1290), pravděpodobně v Itálii nebo Anglii — viz [Pražský orloj — restaurování 2018](/clanky/prazsky-orloj-restaurovani-2018) (kontext středověkého hodinářství) a Nosonovsky *Early Renaissance Concepts of Time and the Invention of Mechanical Clocks* (2024)
+- **První mechanické hodiny se závažím a krokem** v Evropě se objevují **až ve 13. století** (cca 1270–1290), pravděpodobně v Itálii nebo Anglii — viz [Pražský orloj — restaurování 2018](/zajimavosti/prazsky-orloj-restaurovani-2018) (kontext středověkého hodinářství) a Nosonovsky *Early Renaissance Concepts of Time and the Invention of Mechanical Clocks* (2024)
 - **Gerbertovi je legenda přisouzena nesprávně** — typický příklad **anachronistické projekce** vrcholné mechaniky 13.–14. století do raného středověku, založené na Gerbertově pověsti „mnicha-vědce"
 
 Stejně dobový katalog mylně uvádí „První kapesní hodiny sestrojil Norimberčan Petr Hele 1542" — **Peter Henlein** († 1542) skutečně vyráběl raně mechanické přenosné hodiny (tzv. „Norimberská vejce"), ale šlo o **stolní hodiny s pružinovým pohonem**, ne kapesní hodinky v moderním smyslu.
@@ -141,5 +141,5 @@ Pro historickou rekonstrukci cs hodinářství 19. století je tento katalog **k
 
 - **Vystavující hodináři** (medailony): [Ludvík Hainz](/hodinari/ludvik-hainz), [Jan Mareš](/hodinari/jan-mares), [Karel Adamec](/hodinari/karel-adamec)
 - **Vystavující hodináři bez medailonu** (k doplnění): Karel Suchý a synové, Otakar Šťastný, Václav Šťastný, Fr. Křivánek, Jan Dušek, Petr Hajný + Jos. Patera, Lad. Plný, Fr. Donát, Jindřich Havlíček, Ferd. Diepold, Bart. Štěpánovský, Č. Acht, V. Červený, V. Hrdý — viz [TODO A.1](https://github.com/csh-cz/web/blob/main/TODO.md#a1--slovník-rozšíření-obsahu-continuous)
-- **Pražský orloj** ([restaurování 2018](/clanky/prazsky-orloj-restaurovani-2018)) — V. Hrdý vystavil model
-- **Sobotecká dílna Prokešova** ([článek](/clanky/sobotecka-dilna-prokesova-robertuv-krok)) — Jan Prokeš na výstavě 1891 chyběl, ale dílna byla v plné aktivitě
+- **Pražský orloj** ([restaurování 2018](/zajimavosti/prazsky-orloj-restaurovani-2018)) — V. Hrdý vystavil model
+- **Sobotecká dílna Prokešova** ([článek](/zajimavosti/sobotecka-dilna-prokesova-robertuv-krok)) — Jan Prokeš na výstavě 1891 chyběl, ale dílna byla v plné aktivitě

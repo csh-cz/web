@@ -17,6 +17,6 @@ Poněkud složitější řešení jsou dostupná například na serveru [www.jak
 
 I následující kuriózní hodiny pocházejí z tohoto archivu.
 
-Vlastní řešení textového použití JAVA scriptu jsou rozeseta na tomto serveru ([římské digitálky](/clanky/rimskedigi), [normální hodiny](/clanky/normalni) a pod.)
+Vlastní řešení textového použití JAVA scriptu jsou rozeseta na tomto serveru ([římské digitálky](/projekty/rimskedigi), [normální hodiny](/zajimavosti/normalni) a pod.)
 
 Mnoho zajímavých hodin bylo vytvořeno technologií FLASH. Ta již teď není podporována.

@@ -38,7 +38,7 @@ U našeho exponátu se bohužel nezachoval odlitek předního kola s otvory pro 
 
 ## Píchačky Laplace
 
-Tyto píchačky jsou druhým hlavním exponátem. Elektrický stroj se synchronním motorem je dílem konstruktéra ing. Roberta Michla. Více o hodinovém stroji najdete na stránce [Laplace](/clanky/laplace). Píchačky vznikly patrně ve firmě ČKD.
+Tyto píchačky jsou druhým hlavním exponátem. Elektrický stroj se synchronním motorem je dílem konstruktéra ing. Roberta Michla. Více o hodinovém stroji najdete na stránce [Laplace](/zajimavosti/laplace). Píchačky vznikly patrně ve firmě ČKD.
 
 V expozici dále mimo jiné najdete značky Pragotron či Benzing. Zastoupen bude i výrobek z USA. Pokud třeba máte nějaké zajímavé píchačky, časová razítka, ponocenské či holubářské hodiny a jste ochotni je zapůjčit, rádi expozici rozšíříme.
 
@@ -88,7 +88,7 @@ Na tento vynález narazil autor webu workclocks, když procházel stovky patent�
 
 ## Odkazy
 
-- [Časové razítko na našem serveru](/clanky/razitka)
+- [Časové razítko na našem serveru](/zajimavosti/razitka)
 - Velmi zajímavý specializovaný web "píchaček" http://web.archive.org/web/20251115182513/https://workclocks.co.uk/index.html Z obsahu vyjímáne:
 
 - Day

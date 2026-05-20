@@ -39,7 +39,7 @@ V tomto roce bylo nadále věnováno hodně pozornosti Pražskému orloji a orlo
 
 - Ve dvou prázdninových měsících bylo poprvé Věžní muzejíčko otevřeno.
 
-- Zahájení první sezóny Věžního muzejíčka si kromě vybudování vlastní expozice vyžádalo rozsáhlé změny webu [www.muzeumhodin.info](/clanky/index) Snažíme se, aby celá expozice byla popsána na těchto stránkách. Pravděpodobně bude pro propagaci použita i doména soběslav.cz. Pro propagaci muzejíčka jsme uvedli záznam na portálu Kudy z nudy a i na webu Toulavé kamery. ČR 2 odvysílal procházku věží.
+- Zahájení první sezóny Věžního muzejíčka si kromě vybudování vlastní expozice vyžádalo rozsáhlé změny webu [www.muzeumhodin.info](/zajimavosti/index) Snažíme se, aby celá expozice byla popsána na těchto stránkách. Pravděpodobně bude pro propagaci použita i doména soběslav.cz. Pro propagaci muzejíčka jsme uvedli záznam na portálu Kudy z nudy a i na webu Toulavé kamery. ČR 2 odvysílal procházku věží.
 
 - V roce 2011 jsme vystavili jak v hodinářské části, tak ve zvonařské nové exponáty. Zejména to byl zapůjčený a restaurovaný komplet Prokeš 1868 pocházející ze zámku Býchory. Díky němu se se podstatně přestavěla hlavní expozice. Doufáme, že tuto expozici budeme brzy přestavovat znovu pro vystavení nově zapůjčeného věžního stroje s vřetenovým krokem. Pro rok 2012 připravujeme také funkční propojení zvonícího stroje z Býchor a cimbálu. Expozice byla obohacena o sestavu věžních rozvodů ze zvoničky Svinky.
 

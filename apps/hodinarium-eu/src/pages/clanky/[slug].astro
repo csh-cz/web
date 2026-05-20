@@ -1,0 +1,96 @@
+---
+/**
+ * Catch-all legacy redirect route: /clanky/<slug> → /<kategorie>/<slug>.
+ *
+ * PROČ existuje: legacy URL schéma /clanky/* (z PHP-éry i z taxonomie před
+ * 2026-04) zůstává živé pro externí odkazy a bookmarky. Dřív se řešilo
+ * per-article 301 v public/_redirects, ale Cloudflare Pages honoruje jen
+ * ~258 pravidel (empiricky 2026-05-20: rule #258 OK, #259 už 404), zatímco
+ * /clanky redirectů je ~230+ a nejdou globovat (cílová kategorie se liší per
+ * slug). Proto je řešíme tady, v app vrstvě — statická stránka per slug s
+ * meta-refresh + canonical, bez limitu na počet.
+ *
+ * Interní odkazy už míří na kanonické /<kategorie>/<slug> (žádný 301 bounce);
+ * tahle route je jen pro legacy/externí kompatibilitu.
+ *
+ * Mapy MERGED_INTO a KARTY_SLUG_RENAMES drž v syncu s scripts/build-redirects.ts.
+ */
+import { getCollection } from 'astro:content';
+import { clanekHref } from '../../data/url-helpers';
+import d6 from '../../data/d6-slug-renames.json';
+import { isPubliclyBuildable } from '../../utils/workflow-visibility';
+
+export async function getStaticPaths() {
+  // Mapy lokálně v getStaticPaths (Astro extrahuje getStaticPaths do
+  // samostatného modulu, takže module-scope consts nejsou v jejím scope).
+  // Drž v syncu s scripts/build-redirects.ts.
+  // Konsolidace článků (M5.1+) — staré slugy → anchor v evergreen článku.
+  const MERGED_INTO: Record<string, string> = {
+    bychory_zvonici_stroj: '/sbirka/bychory_prokes1#zvonici-stroj-kuriozita-kompletu',
+    bychory_cimbaly: '/sbirka/bychory_prokes1#cimbaly-bellmannova-slevarna-1868',
+    bychory_restaurovani_napis: '/sbirka/bychory_prokes1#restaurovani-od-nalezu-k-expozici',
+    decin_dalsi_stroje: '/sbirka/akvizice-2015-2025#2015-2018',
+    decin_stroje2019: '/sbirka/akvizice-2015-2025#2019',
+    decin_stroje2020: '/sbirka/akvizice-2015-2025#2020',
+    vezni2021: '/sbirka/akvizice-2015-2025#2021',
+  };
+  // Přejmenování sbírkových karet — starý slug → nový slug (/sbirka/karta/<new>).
+  const KARTY_SLUG_RENAMES: Record<string, string> = {
+    'inv-53-model-prazskeho-orloje': 'inv-53-orloj-hvezdarna-petrin',
+    'inv-67-orloj-hvezdarna-petrin': 'inv-53-orloj-hvezdarna-petrin',
+  };
+
+  const articles = await getCollection('clanky');
+  const kronika = await getCollection('kronika');
+
+  // slug → kanonická URL (zdroj pravdy pro cíl redirectu)
+  const hrefBySlug = new Map<string, string>();
+  for (const e of articles) {
+    hrefBySlug.set(e.id, clanekHref({ slug: e.id, category: e.data.category, podsekce: e.data.podsekce }));
+  }
+  for (const e of kronika) hrefBySlug.set(e.id, `/kronika/${e.id}`);
+
+  // source slug → target URL (dedup: první zápis vyhrává)
+  const redirects = new Map<string, string>();
+  const add = (slug: string, target: string) => {
+    if (slug && target && !redirects.has(slug)) redirects.set(slug, target);
+  };
+
+  // 1) Aktuální články — jen ty, které mají kanonickou URL MIMO /clanky
+  //    (deprecated kategorie decin/vezni-hodiny/ostatni mají href pořád
+  //    /clanky/<slug> → vynechat, jinak by se přesměrovaly samy na sebe).
+  for (const e of articles) {
+    if (!isPubliclyBuildable(e.data.workflow)) continue;
+    const target = hrefBySlug.get(e.id)!;
+    if (target !== `/clanky/${e.id}`) add(e.id, target);
+  }
+  // 2) Kronika /clanky/<slug> → /kronika/<slug>
+  for (const e of kronika) add(e.id, `/kronika/${e.id}`);
+  // 3) D6 přejmenování slugů (starý slug → kanonická URL nového)
+  for (const r of (d6 as { renames: Array<{ collection: string; oldId: string; newId: string }> }).renames) {
+    const target = hrefBySlug.get(r.newId);
+    if (target) add(r.oldId, target);
+  }
+  // 4) Konsolidace + přejmenování karet
+  for (const [oldSlug, target] of Object.entries(MERGED_INTO)) add(oldSlug, target);
+  for (const [oldSlug, newSlug] of Object.entries(KARTY_SLUG_RENAMES)) add(oldSlug, `/sbirka/karta/${newSlug}`);
+
+  return [...redirects].map(([slug, target]) => ({ params: { slug }, props: { target } }));
+}
+
+const { target } = Astro.props as { target: string };
+---
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <meta name="robots" content="noindex" />
+    <title>Přesměrování…</title>
+    <script is:inline set:html={`location.replace(${JSON.stringify(target)})`}></script>
+  </head>
+  <body>
+    <p>Stránka byla přesunuta na <a href={target}>{target}</a>.</p>
+  </body>
+</html>

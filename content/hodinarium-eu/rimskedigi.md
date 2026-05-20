@@ -19,4 +19,4 @@ Ne každý je umí správně nastavit. Proto spějeme s ukázkou. Všiměte si, 
 
 Čas je uveden ve tvaru d.m.r-h:m:s.
 
-## [Římské digitálky na ARDUINU](/clanky/rimskedigi2)
+## [Římské digitálky na ARDUINU](/projekty/rimskedigi2)

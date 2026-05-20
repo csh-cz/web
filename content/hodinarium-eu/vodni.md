@@ -26,7 +26,7 @@ I dnes se můžeme setkat s novými vodními hodinami. Nemají však za úkol pr
 
 Na této a dalších stránkách uvidíte několik ukázek nádherných děl sochařů či architektů i bláznivých nápadů stavitelů vodních hodin. Na stránce jsou například fotografie hodin z dílny sochaře Elmsteinera z Rakouska.Dále si pak můžete prohlédnout:
 
-- **[Velmi zajímavé "vodní hodiny" ve foyer kongresové haly hotelu Holiday Inn Brno.](/clanky/vlachynsky)** Hodiny vyrobilo pasířství Matys v roce 2001 podle návrhu **ing. arch. Vlachynského a ing. arch. Foretníka** **\- [Atelier 90](http://www.atelier90.cz/)**.
+- **[Velmi zajímavé "vodní hodiny" ve foyer kongresové haly hotelu Holiday Inn Brno.](/virtualni-muzeum/vlachynsky)** Hodiny vyrobilo pasířství Matys v roce 2001 podle návrhu **ing. arch. Vlachynského a ing. arch. Foretníka** **\- [Atelier 90](http://www.atelier90.cz/)**.
 - **[Hodiny protékajícího času - Bernard Gitton](/sbirka/vodni-b-gitton)**
 - **[Zahradní hodiny](/sbirka/vodni-jegorov)**, které postavil pan MUDr. Jegorov.
 - Hodně zvláštní [**vodní hodiny na molu Southwold.**](/virtualni-muzeum/tim-hunkin)

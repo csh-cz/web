@@ -50,13 +50,13 @@ Na kotouči šest zvukových stop, tedy stopy pro desítky sekund, konkrétně p
 
 ## Jak to bylo dříve
 
-O mluvících hodinkách popisovaných v časopisu **"Z říše vědy a práce" z roku 1895** píšeme na stránce [Mluvící hodinky](/clanky/mluvici1895). Mnoho nového se dovíte z textu "Když hodiny promluvily", který napsala Marisa Addonise. (PDF v odkazech.) Mimo jiné se dozvíme, že snaha si popovídat s operátorkou hlášení přesného času, nemusela být marná. Uvádí se, že na počátku telefonní časové služby ve Spojeném království četla operátorka hodiny a minuty z hodin před svým stolem. Nevím, jak dlouho to mohla vydržet.
+O mluvících hodinkách popisovaných v časopisu **"Z říše vědy a práce" z roku 1895** píšeme na stránce [Mluvící hodinky](/konstrukce/mluvici1895). Mnoho nového se dovíte z textu "Když hodiny promluvily", který napsala Marisa Addonise. (PDF v odkazech.) Mimo jiné se dozvíme, že snaha si popovídat s operátorkou hlášení přesného času, nemusela být marná. Uvádí se, že na počátku telefonní časové služby ve Spojeném království četla operátorka hodiny a minuty z hodin před svým stolem. Nevím, jak dlouho to mohla vydržet.
 
 ## Odkazy
 
 - [Pražská telefonní časová služba (1949)](https://www.ceskatelevize.cz/porady/10116288585-archiv-ct24/218411058210010/video/609195) — ceskatelevize.cz. [cit. 2026-04-28]
 - [Speaking Clock Aka Time (1954)](https://www.youtube.com/watch?v=rErC-f_ru4c) — youtube.com. [cit. 2026-04-28]
 - [Assman speaking clock](https://clockdoc.org/default.aspx?aid=110) — clockdoc.org. [cit. 2026-04-28]
-- [Mluvící hodinky](/clanky/mluvici1895)
+- [Mluvící hodinky](/konstrukce/mluvici1895)
 - [Když hodiny promluvily](/download/Quando_gli_orologi_parlavano.pdf) - Marisa Addomine, italský text QUANDO GLI OROLOGI PARLAVANO [¬](/download/Kdyz_hodiny_zacaly-mluvit.pdf)
 

@@ -19,7 +19,7 @@ Existují dva hlavní typy natahování a to **natahování motorem** a natahov�
 
 ## Natahování motorem
 
-Výkonová škála elektromotorů je poměrně široká. Od výkonných motorů zdvihajících závaží věžních hodin, přes indukční elektromotork například spínacích hodinách po bateriové elektromotůrky v hodinách stolních. Zajímavý příklad je natahování indukčním motorem [Ferramo (Ferraris)](/clanky/ferramo) na samostatné stránce. Zajímavá je i historie, kdy se o prventví v konstrukci indukčního motoru soudil právě Galileo Ferraris a Nikola Tesla.
+Výkonová škála elektromotorů je poměrně široká. Od výkonných motorů zdvihajících závaží věžních hodin, přes indukční elektromotork například spínacích hodinách po bateriové elektromotůrky v hodinách stolních. Zajímavý příklad je natahování indukčním motorem [Ferramo (Ferraris)](/konstrukce/ferramo) na samostatné stránce. Zajímavá je i historie, kdy se o prventví v konstrukci indukčního motoru soudil právě Galileo Ferraris a Nikola Tesla.
 
 Uveďme několik dalších trochu kuriózních příkladů motorového natahování. První příklad pochází z **[ateliéru restaurování věžních hodin](http://www.veznihodiny.cz/ukaz19.htm)** ak. soch. Melánie a Petra Skálových. Ateliér provádí většinou restaurovaných věžních hodinových strojů a **připojení na automatické natahovacího zařízení** a zařízení korekční, které synchronizuje věžní hodiny s přesným časem podle radiového signálu DCF. Za kuriózní považujeme zejména to, že natahovací mechanizmus je přidán s minimálním zásahem do historického stroje a lze ho kdykoliv demontovat. O unikátním korekčním zařízení více v části o dalším využití elektřiny a samozřejmě na [**vlastním webu ateliéru**](http://www.veznihodiny.cz/)!
 
@@ -35,13 +35,13 @@ V praxi to vypadá tak, že pérovník nebo kolo se závažím se při chodu hod
 
 Zatímco motorové natahování věžních hodin spíná třeba jednou denně, motorové natahován zmíněného PRIM ELECTRIC spíná 1 x za 5 minut. Hodiny se šťouchem aktivují natahovací mechanizmus s vyšší frekvencí, často v rozmezí několika desítek sekund. Konkretně třeba jeden ze strojků KIENZE natahuje 1 x za cca 100 sekund. Mateční hodiny PRAGOTRON HSH 300 natahují při normálním chodu jednou za cca 75 sekund. Při rychlém vysílání [impulsů](/slovnik/impulsy) pro seřízení podružných hodin i 1 x za 3 sekundy. (Podle návodu tento stav nastane, když stiskneme *páču 29* dolů, páč energii závaží spotřebovává signální stroj. )
 
-Jiný způsob natahování používají hodiny C. T. Wagner. Jde o závažové signální hodiny, kde závaží je zavěšené na uzavřeném řetízku přes hnací a natahovací řetězová kola. Závaží se zvedá pomocí elektromagnetu, rotoru a rohatky. [Tyto hodiny](/clanky/ctwagner) našem muzeu existují i v reálné podobě.
+Jiný způsob natahování používají hodiny C. T. Wagner. Jde o závažové signální hodiny, kde závaží je zavěšené na uzavřeném řetízku přes hnací a natahovací řetězová kola. Závaží se zvedá pomocí elektromagnetu, rotoru a rohatky. [Tyto hodiny](/projekty/ctwagner) našem muzeu existují i v reálné podobě.
 
 Pro natažení se přeci jen používají větší proudy a je spínán obvod s indukční zátěží, proto hrozí při použití mechanických kontaktů nebezpečí jejich opalování elektrickým výbojem. Používají se i polovodičové spínací prvky a v případě větších natahovacích motorů výkonové spínače. Jiskření na kontaktech vylučuje použití ve výbušném prostředí.
 
 ## Neobvyklé systémy:
 
-- ## Kompresní žárovka aneb natahování pneumatikou [více na samostatné stránce](/clanky/pneumatika)
+- ## Kompresní žárovka aneb natahování pneumatikou [více na samostatné stránce](/konstrukce/pneumatika)
 
 - ## Odpařovací, případně elektro-termo-pneumatický pohon
 

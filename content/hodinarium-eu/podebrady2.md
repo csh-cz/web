@@ -46,6 +46,6 @@ Píše akademický sochař [Petr Skála](/hodinari/petr-skala)
 
 Na jaře roku 2007 se hodiny ke své květinové podobě opět vrací. Změna hodin je zejména v typu jejich tradiční výsadby. Ručičky jsou replikou původních a jsou jen dvě. Zmizela také nerezová římská čísla 3,6,9,12. Zatím zůstal obrubník a nerezový nápis, který však později také mizí právě tak, jako nerezový nápis "LÁZNĚ PODĚBRADY".
 
-**K** hodinám se vrátil i trpaslík - o něm si můžete přečíst více na [další stránce](/clanky/podebrady3).
+**K** hodinám se vrátil i trpaslík - o něm si můžete přečíst více na [další stránce](/virtualni-muzeum/podebrady3).
 
 [Podrobné informace najdete i na stránce pana Hovorky](https://www.antik-hovorka.cz/primland-clanky/antik-blog-1/chronotoulky-cast-iii-kvetinove-hodiny-v-podebradech-11.html).
