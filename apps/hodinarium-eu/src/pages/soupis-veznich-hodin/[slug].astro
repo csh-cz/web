@@ -11,6 +11,7 @@ import { tinyMarkdown } from '../../utils/tinyMarkdown';
 import { formatAuthor } from '../../utils/formatAuthor';
 import { pramenTooltip, extractWikiTitle } from '../../utils/referenceTypes';
 import { formatCite, getRef } from '../../utils/cite';
+import { deadLinkAttrs } from '../../utils/dead-links';
 import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
 import CrossRefs from '../../components/CrossRefs.astro';
 
@@ -290,7 +291,7 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
               || 'Wikipedie';
             return (
               <li id={refId} class="reference reference-wiki" title={pramenTooltip('wiki')}>
-                {wUrl ? <a href={wUrl} target="_blank" rel="noopener">{wTitle}</a> : <span class="ref-title">{wTitle}</span>}
+                {wUrl ? <a href={wUrl} {...deadLinkAttrs(wUrl)} target="_blank" rel="noopener">{wTitle}</a> : <span class="ref-title">{wTitle}</span>}
                 {p.poznamka && <span class="ref-note"> — {p.poznamka}</span>}
               </li>
             );
@@ -317,7 +318,7 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
             <li id={refId} class={`reference reference-${type}`} title={pramenTooltip(type)}>
               {p.autor && <span class="ref-author">{p.autor}:</span>}{' '}
               {p.url
-                ? <a href={p.url} target="_blank" rel="noopener" set:html={linkHtml}></a>
+                ? <a href={p.url} {...deadLinkAttrs(p.url)} target="_blank" rel="noopener" set:html={linkHtml}></a>
                 : <span class="ref-title" set:html={linkHtml}></span>}
               {p.rok !== undefined && <span class="ref-year"> ({p.rok})</span>}
               {/* citace zobrazujeme jen pokud není už použita jako text odkazu */}

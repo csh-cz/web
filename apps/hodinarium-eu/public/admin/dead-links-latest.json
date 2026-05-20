@@ -1,48 +1,14 @@
 {
-  "generatedAt": "2026-05-20T15:23:43.113Z",
-  "deadCount": 33,
+  "generatedAt": "2026-05-20T16:04:45.611Z",
+  "deadCount": 25,
   "withWaybackCount": 0,
   "byFile": {
-    "content/hodinarium-eu/akvizice-2015-2025.md": [
-      {
-        "url": "https://dominanty.cz/pamatky-velka-chmelistna.php",
-        "status": 403,
-        "context": "rchive.org/web/20160327202644/https://dominanty.cz/pamatky-velka-chmelistna.php). ![kostel sv. Bartoloměje V",
-        "field": "body:bare",
-        "wayback": null
-      }
-    ],
-    "content/hodinarium-eu/brillie.md": [
-      {
-        "url": "http://www.antiquity.in/brillie-1.html",
-        "status": 404,
-        "context": "rchive.org/web/20191122123049/http://www.antiquity.in/brillie-1.html) - [O synchronizaci hodin Bri",
-        "field": "body:bare",
-        "wayback": null
-      }
-    ],
     "content/hodinarium-eu/casova-pasma.md": [
       {
         "url": "http://www.hodiny-spel.cz/atypicka_vyroba.php",
         "status": 404,
         "context": "[![Hodiny „SVĚTOVÝ ČAS”, analogové v kombinaci s datumem, broušený a leštěný nerez](/img/elektrika/svetovy_cas1.jpg)](http://www.hodiny-spel.cz/atypicka_vyroba.php) Mezi kuriózní hodiny můžeme",
         "field": "body:link",
-        "wayback": null
-      },
-      {
-        "url": "http://www.thisisit.ca:80/worldclock2001/",
-        "status": 404,
-        "context": "rchive.org/web/20100514052728/http://www.thisisit.ca:80/worldclock2001/)si je můžete prohlédnout i v ",
-        "field": "body:bare",
-        "wayback": null
-      }
-    ],
-    "content/hodinarium-eu/decimalky.md": [
-      {
-        "url": "http://www.swatch.com:80/xx_en/internettime.html",
-        "status": 404,
-        "context": "rchive.org/web/20130524065953/http://www.swatch.com:80/xx_en/internettime.html) také používá decimální dělen",
-        "field": "body:bare",
         "wayback": null
       }
     ],
@@ -98,22 +64,6 @@
         "context": "ářskou firmu Bürk založil pan [Johannes Bürk](https://www.wikiwand.com/de/Johannes_B%C3%BCrk) v roce 1855. Firma od počátk",
         "field": "body:link",
         "wayback": null
-      },
-      {
-        "url": "https://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk",
-        "status": 403,
-        "context": "u vyjímáne: - Day - Bundy - [Firma Bürk](https://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk) - [Strážní hodiny Bürk](http",
-        "field": "body:link",
-        "wayback": null
-      }
-    ],
-    "content/hodinarium-eu/rick-stanley.md": [
-      {
-        "url": "http://www.usboomers.com:80/clockothers.htm",
-        "status": 404,
-        "context": "rchive.org/web/20170117010318/http://www.usboomers.com:80/clockothers.htm) a další. ",
-        "field": "body:bare",
-        "wayback": null
       }
     ],
     "content/hodinarium-eu/slunecni.mdx": [
@@ -134,28 +84,12 @@
         "wayback": null
       }
     ],
-    "content/hodinarium-eu/tabor.mdx": [
+    "content/hodinarium-eu/synchronizace-hodin.md": [
       {
-        "url": "https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tabor-krov-jan-zizka-600-let.A200821_123202_imp-jihocesky_kov/",
-        "status": 404,
-        "context": "rchive.org/web/20260309004348/https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tabor-krov-jan-zizka-600-let.A200821_123202_imp-jihocesky_kov/) — iRegiony — Rádio Impuls. [",
-        "field": "body:bare",
-        "wayback": null
-      }
-    ],
-    "content/hodinarium-eu/vezni-muzejicko-evropa.md": [
-      {
-        "url": "https://www.jindrisskavez.cz/index.php/cs/",
-        "status": 404,
-        "context": "rchive.org/web/20260317054855/https://www.jindrisskavez.cz/index.php/cs/) [![Jindřížská věž](/img/vez",
-        "field": "body:bare",
-        "wayback": null
-      },
-      {
-        "url": "https://www.jindrisskavez.cz/index.php/cs/",
-        "status": 404,
-        "context": "rchive.org/web/20260317054855/https://www.jindrisskavez.cz/index.php/cs/) a na něm umístěna virtuální ",
-        "field": "body:bare",
+        "url": "https://www.wikiwand.com/cs/Vys%C3%ADla%C4%8D_OMA/",
+        "status": 403,
+        "context": "95 vypnut. Zajímavý podrobný [článek zde](https://www.wikiwand.com/cs/Vys%C3%ADla%C4%8D_OMA/) a také ve [wikipedii](https:",
+        "field": "body:link",
         "wayback": null
       }
     ],
@@ -165,15 +99,6 @@
         "status": 404,
         "context": "vské hodiny najdete přibližně [zde](https://www.mapy.cz/s/kcyO). Obrázek ukazuje Staronovou ",
         "field": "body:link",
-        "wayback": null
-      }
-    ],
-    "content/hodinari/edmund-kinsner.mdx": [
-      {
-        "url": "http://spsh.cz/",
-        "status": 403,
-        "context": "rchive.org/web/20170924202604/http://spsh.cz/) (Zpravodaj SPSH 33).* ",
-        "field": "body:bare",
         "wayback": null
       }
     ],

@@ -132,7 +132,7 @@ function parseFrontmatter(content) {
  *  `[Ostrov](https://cs.wikipedia.org/wiki/Ostrov_(okres_Karlovy_Vary))`).
  *  Counter-balanced paren matching: každá `(` v URL musí být balanced
  *  s `)`, jinak je to closing paren markdown linku. */
-function extractMarkdownLinkUrls(body, file) {
+function extractMarkdownLinkUrls(body, file, consumed) {
   let i = 0;
   while (i < body.length) {
     const start = body.indexOf('](', i);
@@ -162,6 +162,10 @@ function extractMarkdownLinkUrls(body, file) {
     }
     const url = body.slice(urlStart, urlEnd);
     if (/^https?:\/\//i.test(url)) {
+      // Zaznamenej rozsah URL — bare-URL pass pak přeskočí URL VNOŘENÉ uvnitř
+      // (typicky Wayback wrapper `…/web/TS/http://realurl` — vnitřní http://
+      // NENÍ samostatný odkaz, celý wrapper je živý).
+      consumed.push([urlStart, urlEnd]);
       const ctx = body.slice(Math.max(0, textStart - 30), urlEnd + 30).replace(/\s+/g, ' ');
       addUrl(url, file, ctx, 'body:link');
     }
@@ -170,18 +174,23 @@ function extractMarkdownLinkUrls(body, file) {
 }
 
 function extractBodyUrls(body, file) {
-  extractMarkdownLinkUrls(body, file);
+  const consumed = [];
+  extractMarkdownLinkUrls(body, file, consumed);
   let m;
   // <url>
   const re2 = /<(https?:\/\/[^>\s]+)>/g;
   while ((m = re2.exec(body)) !== null) {
+    consumed.push([m.index, m.index + m[0].length]);
     const ctx = body.slice(Math.max(0, m.index - 30), m.index + m[0].length + 30).replace(/\s+/g, ' ');
     addUrl(m[1], file, ctx, 'body:autolink');
   }
+  const inConsumed = (idx) => consumed.some(([a, b]) => idx >= a && idx < b);
   // bare URLs (after `Dostupné z:` etc.) — match http(s)://... až po whitespace/punct
   const re3 = /(?<![("[<])(https?:\/\/[^\s)<>"]+)/g;
   while ((m = re3.exec(body)) !== null) {
-    // Skip if it's already inside a markdown link (rough heuristic)
+    // Skip pokud je uvnitř už zachyceného markdown linku / autolinku
+    // (např. Wayback-wrapped vnitřní URL → false-positive).
+    if (inConsumed(m.index)) continue;
     const before = body.slice(Math.max(0, m.index - 5), m.index);
     if (/]\s*\($/.test(before) || /<$/.test(before)) continue;
     const ctx = body.slice(Math.max(0, m.index - 30), m.index + m[0].length + 30).replace(/\s+/g, ' ');

@@ -71,7 +71,13 @@ export default defineConfig({
     // aby `::name{...}` syntax fungovala v .mdx souborech.
     mdx({
       remarkPlugins: [remarkDirective, remarkCshDirectives, remarkMath],
-      rehypePlugins: [rehypeKatex],
+      // rehype-deadlink musí být explicitně i tady — mdx() nepřebírá markdown
+      // rehypePlugins spolehlivě, takže bez tohoto by .mdx body odkazy
+      // (hodinaři medailony, tabor…) nedostaly ⚠ marker. Stejné options.
+      rehypePlugins: [
+        rehypeKatex,
+        [rehypeDeadlink, { deadUrls: deadLinks.urls, checkedDate: deadLinks._meta.generated }],
+      ],
     }),
     sitemap({
       filter: (page) => {

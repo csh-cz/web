@@ -1,7 +1,7 @@
 {
   "_meta": {
     "generated": "2026-05-20",
-    "count": 33,
+    "count": 25,
     "description": "Genuine dead (HTTP 4xx/5xx) externí odkazy z auditu scripts/audit-dead-links.mjs. Vyloučeno: vlastní domény, status-0 (unverified — viz docs/dead-links-audit-*.md), web.archive.org. Rehype-deadlink (body) + Article.astro (references) flagnou ⚠. Po opravě/odstranění odkazu re-run `pnpm deadlinks:audit`."
   },
   "urls": [
@@ -9,34 +9,26 @@
     "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Beroun/Krecmer_Vaclav_Vinohrady_vezni_hodiny_0001.JPG",
     "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Krecmer_11.jpg",
     "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Kretschmer_V_Praha_1888/Kretschmer_V_Praha_1888.jpg",
-    "http://spsh.cz/",
-    "http://www.antiquity.in/brillie-1.html",
     "http://www.astroama.com/",
     "http://www.hodiny-spel.cz/atypicka_vyroba.php",
     "http://www.novinky.cz/cestovani/tipy-na-vylety/385676-decinsky-zamek-vystavuje-mechanicke-hodiny-nechybi-ani-bizarni-kousky.html",
-    "http://www.swatch.com:80/xx_en/internettime.html",
-    "http://www.thisisit.ca:80/worldclock2001/",
-    "http://www.usboomers.com:80/clockothers.htm",
     "http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html",
     "https://cs.wikipedia.org/wiki/Jan_Klein_(hodin%C3%A1%C5%99)",
     "https://cs.wikipedia.org/wiki/Junghans",
     "https://cs.wikipedia.org/wiki/Muzeum_Zegar%C3%B3w_Wie%C5%BCowych_w_Gda%C5%84sku",
     "https://de.wikipedia.org/wiki/Matth%C3%A4uskirche_(M%C3%BCnchen)",
     "https://de.wikipedia.org/wiki/Philipp_H%C3%B6rz",
-    "https://dominanty.cz/pamatky-velka-chmelistna.php",
     "https://indico.fjfi.cvut.cz/event/127/contributions/2868",
     "https://indico.fjfi.cvut.cz/event/127/contributions/2868attachments/966/1332/Astronomicke_funkce_a_umeleckohistoricka_analyza_planetaria_P._Engelberta_Seige_1792_ve_sbirkach_Narodniho_technickeho_muzea_v_Praze.pdf",
     "https://radioeng.cz/poster.htm",
     "https://www.beyer-ch.com/de/uhrenmuseum-beyer-zurich/",
-    "https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tabor-krov-jan-zizka-600-let.A200821_123202_imp-jihocesky_kov/",
-    "https://www.jindrisskavez.cz/index.php/cs/",
     "https://www.mapy.cz/s/kcyO",
     "https://www.marianskatynice.cz/e_download.php?file=data/editor/124cs_4.pdf",
     "https://www.mesto-kadan.cz/orloj/d-1006",
     "https://www.policenm.cz/e_download.php?file=data/editor/88cs_173.pdf",
     "https://www.researchgate.net/",
     "https://www.weinviertel.at/a-pfarrkirche-st-vitus-pillichsdorf",
-    "https://www.wikiwand.com/de/Johannes_B%C3%BCrk",
-    "https://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk"
+    "https://www.wikiwand.com/cs/Vys%C3%ADla%C4%8D_OMA/",
+    "https://www.wikiwand.com/de/Johannes_B%C3%BCrk"
   ]
 }

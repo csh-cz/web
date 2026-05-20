@@ -13,20 +13,9 @@ import { tinyMarkdown } from "../utils/tinyMarkdown";
 import { hodinariProClanek } from "../data/hodinari";
 import { krokyProClanek } from "../data/kroky";
 import { clanekHref } from "../data/url-helpers";
-import deadLinks from "../data/dead-links.json";
+import { deadLinkAttrs as deadAttrs } from "../utils/dead-links";
 
 import type { CatalogEntry } from '../data/catalog-types';
-
-// Dead-link marker pro references[].url (body odkazy řeší rehype-deadlink).
-// Stejný zdroj dat (src/data/dead-links.json) z `pnpm deadlinks:audit`.
-const DEAD_SET = new Set<string>(deadLinks.urls ?? []);
-const DEAD_TITLE = deadLinks._meta?.generated
-  ? `Odkaz byl při poslední kontrole (${deadLinks._meta.generated}) nedostupný`
-  : 'Odkaz byl při poslední kontrole nedostupný';
-const deadAttrs = (url?: string) =>
-  url && DEAD_SET.has(url)
-    ? { class: 'link-dead', 'data-dead-link': 'true', title: DEAD_TITLE }
-    : {};
 
 interface Reference {
   bibKey?: string;
