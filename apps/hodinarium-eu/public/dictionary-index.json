@@ -1,10 +1,10 @@
 {
   "_meta": {
-    "generated": "2026-05-17T23:39:46.821Z",
-    "count": 154,
-    "stubs": 84,
+    "generated": "2026-05-20T11:11:43.485Z",
+    "count": 157,
+    "stubs": 83,
     "redirects": 5,
-    "withConceptId": 10,
+    "withConceptId": 16,
     "withVyznamy": 0,
     "withAtestace": 1,
     "schema_version": "1.0",
@@ -146,36 +146,6 @@
       "isStub": false,
       "redirectTo": null
     },
-    "balanc": {
-      "lemma": "balanc",
-      "lang": "cs",
-      "conceptId": null,
-      "kategorie": "hodinky",
-      "varianty": [
-        {
-          "term": "balanc",
-          "status": "admitted"
-        },
-        {
-          "term": "balance",
-          "status": "admitted"
-        },
-        {
-          "term": "balanc-koleso",
-          "status": "admitted"
-        }
-      ],
-      "translations": {},
-      "definice": "Anglicismus pro **setrvačku** — torzní oscilátor v kapesních a náramkových hodinkách. V moderní české hodinářské terminologii preferujeme **[setrvačka](/slovnik/setrvacka)** (primární termín; balanc je akceptovaný, ale ne primární).",
-      "vyznamy": null,
-      "atestace": null,
-      "pribuzne": [
-        "setrvacka",
-        "vlasek"
-      ],
-      "isStub": false,
-      "redirectTo": "setrvacka"
-    },
     "bici-stroj": {
       "lemma": "bicí stroj",
       "lang": "cs",
@@ -209,6 +179,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
+        "odbijeni",
         "kladivko",
         "cymbal",
         "kolo-zaverkove",
@@ -390,6 +361,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
+        "kralovska-hridel",
         "krok",
         "soukoli",
         "krokove-kolo"
@@ -503,58 +475,6 @@
       "isStub": false,
       "redirectTo": null
     },
-    "cifernik 2": {
-      "lemma": "ciferník",
-      "lang": "cs",
-      "conceptId": null,
-      "kategorie": "mechanika",
-      "varianty": [
-        {
-          "term": "ciferník",
-          "status": "admitted"
-        },
-        {
-          "term": "číselník (archaicky, Sušický 1900)",
-          "status": "admitted"
-        },
-        {
-          "term": "cifrák (lid., nepoužívat)",
-          "status": "admitted"
-        }
-      ],
-      "translations": {
-        "de": [
-          {
-            "term": "Zifferblatt",
-            "genus": "n"
-          }
-        ],
-        "en": [
-          {
-            "term": "dial"
-          },
-          {
-            "term": "clock face"
-          }
-        ],
-        "fr": [
-          {
-            "term": "cadran",
-            "genus": "m"
-          }
-        ]
-      },
-      "definice": "**Vnější indikační plocha hodin** — kruhová (méně často hranatá) deska s vyznačenými číslicemi a stupnicemi, na níž ručky (rafije) ukazují aktuální čas. U věžních hodin je ciferník typicky **kruhový o průměru 100–250 cm**, kovaný železný rám potažený plechem; u radničních a školních budov často **ve štítu nebo atikovém štítu**, propojený mechanicky táhlem se strojem v podkroví.",
-      "vyznamy": null,
-      "atestace": null,
-      "pribuzne": [
-        "hridelik-orloje",
-        "ramenko",
-        "ukazovaci-stroj"
-      ],
-      "isStub": false,
-      "redirectTo": null
-    },
     "cifernik": {
       "lemma": "ciferník",
       "lang": "cs",
@@ -575,7 +495,9 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "ciselnik"
+        "ciselnik",
+        "ruka-orloje",
+        "rafije"
       ],
       "isStub": false,
       "redirectTo": "ciselnik"
@@ -654,9 +576,13 @@
         }
       ],
       "pribuzne": [
+        "kralovska-hridel",
         "hridelik-orloje",
         "ramenko",
-        "ukazovaci-stroj"
+        "ukazovaci-stroj",
+        "ruka-orloje",
+        "rafije",
+        "cifernik"
       ],
       "isStub": false,
       "redirectTo": null
@@ -794,6 +720,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
+        "odbijeni",
         "bici-stroj",
         "kladivko"
       ],
@@ -887,6 +814,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
+        "odbijeni",
         "bici-stroj",
         "kladivko",
         "stupnice"
@@ -1334,6 +1262,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
+        "kralovska-hridel",
         "vreteno-orloje",
         "cep-orloje",
         "vos"
@@ -1369,6 +1298,40 @@
       ],
       "isStub": true,
       "redirectTo": null
+    },
+    "impulsy": {
+      "lemma": "impulsy",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "impulsy",
+          "status": "admitted"
+        },
+        {
+          "term": "impulzy",
+          "status": "admitted"
+        },
+        {
+          "term": "minutový impuls",
+          "status": "admitted"
+        },
+        {
+          "term": "elektrický impuls",
+          "status": "admitted"
+        }
+      ],
+      "translations": {},
+      "definice": "Krátké elektrické impulsy (typicky 1 s, 24 V) vysílané z hlavních (master) hodin do **[podružných hodin](/slovnik/podruzne-hodiny)**; každý impuls posune krokový motor podružných hodin o pevný úhel (typicky 6° = 1/60 minutové ručky).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "podruzne-hodiny",
+        "synchronni-motor"
+      ],
+      "isStub": false,
+      "redirectTo": "podruzne-hodiny"
     },
     "index-orloje": {
       "lemma": "index (slunce, měsíce, deklinace)",
@@ -1790,49 +1753,108 @@
     "kolickovy-krok": {
       "lemma": "kolíčkový krok",
       "lang": "cs",
-      "conceptId": null,
+      "conceptId": "HORO-ESCAPEMENT-001",
       "kategorie": "mechanika",
       "varianty": [
         {
           "term": "kolíčkový krok",
-          "status": "admitted"
+          "status": "admitted",
+          "note": "Generický (a polysémní) zastřešující termín pro obě konstrukční varianty. Doporučujeme upřesnit kontextem nebo přejít na strukturované termíny níže."
         },
         {
-          "term": "kolíčkový kotvový krok (varianta s kotvou)",
-          "status": "admitted"
+          "term": "kotvový krok s kolíčkovým krokovým kolem",
+          "status": "preferred",
+          "note": "Strukturovaný popisný termín pro variantu A — kolíčky vsazené do krokového kola, kotva má palety (zuby)."
+        },
+        {
+          "term": "kotvový krok s kolíčkovou kotvou",
+          "status": "preferred",
+          "note": "Strukturovaný popisný termín pro variantu B — kolíčky tvoří palety kotvy, krokové kolo má normální zuby."
+        },
+        {
+          "term": "Amantův krok",
+          "status": "historical",
+          "note": "Varianta A, Pierre Amant 1741. Kotva typu „nůžek\" se zuby, jedna řada kolíčků na kole.",
+          "doloženo": "Sušický 1900, s. 172; Hajn 1953, obr. 139"
+        },
+        {
+          "term": "Lepautův krok",
+          "status": "historical",
+          "note": "Varianta A, Jean-André Lepaute. Dvě řady kolíčků (symetrická konstrukce), zlepšení Amantova řešení.",
+          "doloženo": "Sušický 1900, s. 172; Hajn 1953, obr. 142"
+        },
+        {
+          "term": "Brocotův krok",
+          "status": "historical",
+          "note": "Varianta B, Achille Brocot ~1840. Kotva má kolíčky půlkruhového průřezu, krokové kolo zahrocené zuby. Typicky integrovaný do osy kyvadla, viditelný zepředu ciferníku.",
+          "doloženo": "Hajn 1953, obr. 144; Dietzschold 1905 (Brocots Stiftengang)"
+        },
+        {
+          "term": "Robertův krok",
+          "status": "historical",
+          "note": "Varianta A, Adolphe Robert 1852. Klidový kotvový krok s kolíčkovým krokovým kolem a se středově umístěnou kotvou.",
+          "doloženo": "Knespl 2023, Robertův krok – oprava chybného označení"
+        },
+        {
+          "term": "kolíčkový krok Roberta de Sancerre",
+          "status": "erroneous",
+          "note": "Chybná atribuce v některých restaurátorských zprávách (NPÚ MIS). Sancerre je město původu Adolpha Roberta, ne jeho příjmení — viz Knespl 2023.",
+          "doloženo": "NPÚ MIS Markvartice 2017"
+        },
+        {
+          "term": "kolíčkový krok Roskopf",
+          "status": "admitted",
+          "note": "Varianta B, masová produkce levných hodinek (Georges Frédéric Roskopf 1867). 18 zubů krokového kola, kotva s kolíčkovými paletami.",
+          "doloženo": "Martínek & Řehoř 1964"
+        },
+        {
+          "term": "kolíčkový vestavný krok ER",
+          "status": "historical",
+          "note": "Průmyslové označení varianty B v československé produkci PRIM/ELTON (~1970).",
+          "doloženo": "Vajsar 2005"
         }
       ],
       "translations": {
         "de": [
           {
             "term": "Stiftengang",
-            "genus": "m"
+            "genus": "m",
+            "zdroj": "Dietzschold 1905: generický nadřazený termín pro obě varianty"
           },
           {
             "term": "Stiftenanker",
-            "genus": "m"
+            "genus": "m",
+            "zdroj": "rozšířené v hodinkovém kontextu (varianta B — kolíčky na kotvě)"
           }
         ],
         "en": [
           {
-            "term": "pin-wheel escapement"
+            "term": "pin-wheel escapement",
+            "zdroj": "Saunier 1887, primárně pro variantu A"
           },
           {
-            "term": "pin pallet escapement"
+            "term": "pin pallet escapement",
+            "zdroj": "primárně pro variantu B (kotva s kolíčky)"
+          },
+          {
+            "term": "Brocot escapement",
+            "zdroj": "samostatná podkategorie u Saunier 1887"
           }
         ],
         "fr": [
           {
             "term": "échappement à chevilles",
-            "genus": "m"
+            "genus": "m",
+            "zdroj": "francouzská tradice — varianta A"
           },
           {
             "term": "échappement à goupilles",
-            "genus": "m"
+            "genus": "m",
+            "zdroj": "primárně varianta B (kotva s kolíčky)"
           }
         ]
       },
-      "definice": "Typ [kroku](/slovnik/krok), v němž **klidové i popudové plochy nejsou na zubech krokového kola**, ale na **kolíčcích (čepech) zasazených do plochého kotouče**. Paleta kotvy se opírá o boční plochu kolíčku. Vyvinuto v 18. století jako alternativa ke Grahamovu kotvovému kroku — snadnější výroba kolíčků oproti tvarovaným zubům, ale obtížnější přesné seřízení. Typické pro **francouzské a české věžní hodiny 18.–19. století**, ale použito i v některých kapesních hodinkách (Brocot).",
+      "definice": "Skupina [kroků](/slovnik/krok), v níž je část funkčních ploch tvořena **kolíčky (válcovými čepy) místo tvarovaných zubů**. Pod jedním názvem se historicky sjednotily **dvě konstrukčně protilehlé varianty**: (A) **kotvový krok s kolíčkovým krokovým kolem** — kolíčky vsazené do plochého krokového kola, palety na kotvě (Amant 1741, Lepaute, Robert 1852); (B) **kotvový krok s kolíčkovou kotvou** — kolíčky tvoří palety kotvy, krokové kolo má normální zuby (Brocot, Roskopf). Varianta A se historicky uplatnila v **českých a francouzských věžních hodinách 18.–19. století**, varianta B v **levných setrvačkových hodinkách** (typicky Roskopf-systém).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -2026,6 +2048,67 @@
         "krok",
         "paleta",
         "krokove-kolo"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "kralovska-hridel": {
+      "lemma": "královská hřídel",
+      "lang": "cs",
+      "conceptId": "HORO-LEADOFF-001",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "královská hřídel",
+          "status": "admitted"
+        },
+        {
+          "term": "rozvodová hřídel",
+          "status": "admitted"
+        },
+        {
+          "term": "hlavní rozvod",
+          "status": "admitted"
+        },
+        {
+          "term": "rozvod k ciferníkům",
+          "status": "admitted"
+        },
+        {
+          "term": "lead-off shaft",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Königswelle",
+            "genus": "f"
+          }
+        ],
+        "en": [
+          {
+            "term": "lead-off shaft"
+          },
+          {
+            "term": "motion work shaft"
+          }
+        ],
+        "fr": [
+          {
+            "term": "arbre principal",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "**Vertikální (nebo dlouhá horizontální) hřídel** vedoucí od minutového kola hlavního stroje **k ciferníkům**. U věžních hodin typicky **3–5 m dlouhá**, prochází stropem věžní místnosti se strojem a dopravuje točivý moment k **ručkovým strojům** za vnějšími ciferníky. Klíčový prvek konstrukce, který umožňuje umístit stroj v patře pod ciferníky.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hridelik-orloje",
+        "centralni-prevodovka",
+        "ciselnik",
+        "ukazovaci-stroj"
       ],
       "isStub": false,
       "redirectTo": null
@@ -2526,6 +2609,65 @@
       "isStub": true,
       "redirectTo": null
     },
+    "natah": {
+      "lemma": "nátah (natahování)",
+      "lang": "cs",
+      "conceptId": "HORO-WINDING-001",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "nátah",
+          "status": "admitted"
+        },
+        {
+          "term": "natahování",
+          "status": "admitted"
+        },
+        {
+          "term": "natáhnutí",
+          "status": "admitted"
+        },
+        {
+          "term": "winding",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Aufzug",
+            "genus": "m"
+          },
+          {
+            "term": "Aufzieh"
+          }
+        ],
+        "en": [
+          {
+            "term": "winding"
+          },
+          {
+            "term": "wind-up"
+          }
+        ],
+        "fr": [
+          {
+            "term": "remontage",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Akt **dodání energie** hodinovému stroji — nadzdvižení závaží do horní polohy nebo natažení hlavního pera. Tato uložená energie pak postupně uvolňována přes [krok](/slovnik/krok) pohání chod hodin. Doba mezi natahováním (chod stroje) je důležitým parametrem — od **1 dne** (běžné věžní hodiny) přes **5 dnů** (Janatovy zámecké stroje) až po **měsíční** (chronometry, regulátory).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "natahovy-buben",
+        "remontoir",
+        "krok"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "natahovy-buben": {
       "lemma": "nátahový buben",
       "lang": "cs",
@@ -2590,6 +2732,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
+        "natah",
         "soukoli",
         "zavazi",
         "pero",
@@ -2623,6 +2766,79 @@
         "rykl"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "odbijeni": {
+      "lemma": "odbíjení",
+      "lang": "cs",
+      "conceptId": "HORO-STRIKE-001",
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "odbíjení",
+          "status": "admitted"
+        },
+        {
+          "term": "bití",
+          "status": "admitted"
+        },
+        {
+          "term": "úder",
+          "status": "admitted"
+        },
+        {
+          "term": "úder hodin",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Schlagen"
+          },
+          {
+            "term": "Stundenschlag",
+            "genus": "m"
+          },
+          {
+            "term": "Glockenschlag",
+            "genus": "m"
+          }
+        ],
+        "en": [
+          {
+            "term": "striking"
+          },
+          {
+            "term": "chiming"
+          },
+          {
+            "term": "tolling"
+          }
+        ],
+        "fr": [
+          {
+            "term": "sonnerie",
+            "genus": "f"
+          },
+          {
+            "term": "frappement",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Akt **zvukového hlášení času** věžních a nástěnných hodin údery [kladívka](/slovnik/kladivko) na [zvon](/slovnik/zvon-orloje) nebo [cymbál](/slovnik/cymbal). Mechanismus tohoto úderu obstarává [bicí stroj](/slovnik/bici-stroj); termín *odbíjení* označuje **výsledek** (kolik a kdy úderů) a jeho **vzor** (hodinový × čtvrťový × Westminsterský úder × pasační).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bici-stroj",
+        "ctvrtove-biti",
+        "cymbal",
+        "zvon-orloje",
+        "zamek-orloje",
+        "kladivko"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "okolek": {
@@ -2962,13 +3178,12 @@
       "translations": {
         "de": [
           {
-            "term": "**Kleines"
+            "term": "Kleines Schlagwerk",
+            "genus": "n"
           },
           {
-            "term": "Großes Schlagwerk** (mensí"
-          },
-          {
-            "term": "velký bicí)"
+            "term": "Großes Schlagwerk",
+            "genus": "n"
           }
         ],
         "en": [
@@ -3041,6 +3256,73 @@
         "kolo-zaverkove",
         "stupnice",
         "posuvka"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "podruzne-hodiny": {
+      "lemma": "podružné hodiny",
+      "lang": "cs",
+      "conceptId": "HORO-SLAVE-001",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "podružné hodiny",
+          "status": "admitted"
+        },
+        {
+          "term": "vedlejší hodiny",
+          "status": "admitted"
+        },
+        {
+          "term": "sekundární hodiny",
+          "status": "admitted"
+        },
+        {
+          "term": "dceřinné hodiny",
+          "status": "admitted"
+        },
+        {
+          "term": "slave clock",
+          "status": "admitted"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Nebenuhr",
+            "genus": "f"
+          },
+          {
+            "term": "Tochteruhr",
+            "genus": "f"
+          }
+        ],
+        "en": [
+          {
+            "term": "slave clock"
+          },
+          {
+            "term": "secondary clock"
+          }
+        ],
+        "fr": [
+          {
+            "term": "horloge secondaire",
+            "genus": "f"
+          },
+          {
+            "term": "horloge esclave",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Hodiny bez vlastního oscilátoru, jejichž **ručky postupují podle elektrických impulsů** vysílaných z hlavních (master) hodin. Tvoří **distribuovaný časový systém** — jeden přesný master udržuje desítky až stovky podružných hodin v synchronní stejné poloze (nádraží, školy, továrny, města).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "synchronni-motor",
+        "centralni-prevodovka"
       ],
       "isStub": false,
       "redirectTo": null
@@ -3373,24 +3655,11 @@
     "rafije": {
       "lemma": "rafije",
       "lang": "cs",
-      "conceptId": null,
+      "conceptId": "HORO-HAND-001",
       "kategorie": "mechanika",
-      "varianty": [
-        {
-          "term": "rafije",
-          "status": "admitted"
-        },
-        {
-          "term": "rafička",
-          "status": "admitted"
-        },
-        {
-          "term": "raphija",
-          "status": "admitted"
-        }
-      ],
+      "varianty": [],
       "translations": {},
-      "definice": "Archaický český termín pro **ručku** orloje nebo hodin. Z latinského *raphia* (= pruh, vlákno), deminutivum **rafička**. V moderním cs hodinářském úzu preferujeme **[ručka](/slovnik/ruka-orloje)** (resp. „ruka orloje\" v středověké terminologii Táborského).",
+      "definice": "Archaický český termín pro **ručku** orloje nebo věžních hodin. Etymologicky *z řec. grafion* (rydlo, písátko, stylus) — středověká řečtina počáteční gammu vypouštěla, takže *grafis → rafis*, latinsky *graphium → raphia*. V moderním cs hodinářském úzu preferujeme **[ručka](/slovnik/ruka-orloje)** — viz autorský přehled níže.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -3534,6 +3803,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
+        "natah",
         "krok",
         "pero",
         "perovnik",
@@ -3609,27 +3879,43 @@
       "kategorie": "mechanika",
       "varianty": [
         {
-          "term": "ruka",
-          "status": "admitted"
-        },
-        {
           "term": "ručka",
-          "status": "admitted"
+          "status": "preferred",
+          "note": "Moderní cs odborný úzus (Sladkovský 1947, Boukal 1958, Skála 2005)."
         },
         {
           "term": "ručička",
-          "status": "admitted"
+          "status": "admitted",
+          "doloženo": "Božek 1894/1897, Nekut 1898, Rosický 1917 (deminutivum, 19. stol.)"
+        },
+        {
+          "term": "ruka",
+          "status": "historical",
+          "doloženo": "Táborský 1570 (středověký termín pro pražský orloj, bez deminutivu)"
+        },
+        {
+          "term": "rafije",
+          "status": "archaic",
+          "note": "Astronomický kontext velkých orlojů; etymologicky z řec. grafion. Viz heslo rafije."
+        },
+        {
+          "term": "rafika",
+          "status": "archaic",
+          "note": "Varianta rafije."
         }
       ],
       "translations": {},
-      "definice": "Pozlacená kovová ručička / rafije orloje, kterou se ukazuje hodina na ciferníku. Na konci *pravidla* (= železného plochého prutu) Táborského orloje sedí *ruka pozlacená*.",
+      "definice": "Kovový ukazatel na ciferníku hodin, který otáčením kolem středové osy indikuje aktuální čas. Standardní moderní cs termín je **ručka** (Sladkovský 1947; Boukal 1958; Skála 2005), staročeské varianty *rafije* / *rafika* dnes přežívají pouze v astronomickém kontextu velkých orlojů. Středověký pražský orloj používá v originálním zápisu Táborského 1570 termín **ruka** (bez deminutivu) — odkazuje na typický gotický motiv ruky s napřaženým ukazovákem na konci osy.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "pravidlo-orloje",
-        "sphera"
+        "sphera",
+        "rafije",
+        "cifernik",
+        "ciselnik"
       ],
-      "isStub": true,
+      "isStub": false,
       "redirectTo": null
     },
     "rumpal": {
@@ -3711,7 +3997,37 @@
       "lang": "cs",
       "conceptId": "HORO-BALANCE-001",
       "kategorie": "mechanika",
-      "varianty": [],
+      "varianty": [
+        {
+          "term": "setrvačka",
+          "status": "preferred"
+        },
+        {
+          "term": "setrváček",
+          "status": "historical",
+          "doloženo": "Krečmer 1878 (deminutivní tvar)"
+        },
+        {
+          "term": "balancka",
+          "status": "admitted",
+          "note": "Ústní odborný žargon; v tištěné literatuře nedoložená. Anglicismus „balanc\" se v cs nepoužívá vůbec."
+        },
+        {
+          "term": "nepokoj",
+          "status": "archaic",
+          "doloženo": "Špatný 1882 (kalk z DE Unruhe = doslovně „nepokoj\")"
+        },
+        {
+          "term": "váhadlo",
+          "status": "archaic",
+          "doloženo": "Špatný 1882 (z DE Balancier)"
+        },
+        {
+          "term": "lihýř",
+          "status": "archaic",
+          "note": "Žargonový termín 19. století."
+        }
+      ],
       "translations": {
         "de": [
           {
@@ -3726,10 +4042,10 @@
         ],
         "en": [
           {
-            "term": "**balance"
+            "term": "balance"
           },
           {
-            "term": "balance wheel**"
+            "term": "balance wheel"
           }
         ],
         "fr": [
@@ -4064,6 +4380,7 @@
         "okolek",
         "pukla",
         "pravidlo-orloje",
+        "ruka-orloje",
         "zodiak"
       ],
       "isStub": true,
@@ -4362,17 +4679,17 @@
       "translations": {
         "de": [
           {
-            "term": "*(přehled archaismů, není jediný překlad)*"
+            "term": "(přehled archaismů, není jediný překlad)"
           }
         ],
         "en": [
           {
-            "term": "*Czech horological archaisms — Šumavský 1851 dictionary*"
+            "term": "Czech horological archaisms — Šumavský 1851 dictionary"
           }
         ],
         "fr": [
           {
-            "term": "*archaïsmes horlogers tchèques 1851*"
+            "term": "archaïsmes horlogers tchèques 1851"
           }
         ]
       },
@@ -4548,6 +4865,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
+        "podruzne-hodiny",
         "kyvadlo"
       ],
       "isStub": true,
@@ -4688,6 +5006,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
+        "kralovska-hridel",
         "soukoli",
         "hridelik-orloje",
         "ramenko",
@@ -4962,7 +5281,42 @@
       "lang": "cs",
       "conceptId": "HORO-HAIRSPRING-001",
       "kategorie": "mechanika",
-      "varianty": [],
+      "varianty": [
+        {
+          "term": "vlásek",
+          "status": "preferred"
+        },
+        {
+          "term": "spirála setrvačky",
+          "status": "admitted",
+          "note": "Obecnější opisný tvar, srozumitelný, ale ne primární."
+        },
+        {
+          "term": "pero vlasové",
+          "status": "historical",
+          "doloženo": "Šumavský 1851 (adjektivní tvar; substantivum „vlásek\" se prosadilo ve 20. století)"
+        },
+        {
+          "term": "váhadlová zpruha",
+          "status": "archaic",
+          "doloženo": "Špatný 1882 (Unruhefeder → váhadlová zpruha)"
+        },
+        {
+          "term": "vlasová pružinka",
+          "status": "erroneous",
+          "note": "Popisná moderní varianta z DE Haarfeder / EN hairspring — v cs odborné literatuře nedoložená (0 výskytů), nepoužívat jako primární."
+        },
+        {
+          "term": "vlasová pružina",
+          "status": "erroneous",
+          "note": "Viz vlasová pružinka."
+        },
+        {
+          "term": "balanční pružinka",
+          "status": "erroneous",
+          "note": "Kombinace anglicismu (balanc) a opisu; v cs odborné literatuře nedoložená."
+        }
+      ],
       "translations": {
         "de": [
           {
@@ -5478,6 +5832,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
+        "odbijeni",
         "palice-orloje",
         "rykl",
         "stroj"
@@ -5711,6 +6066,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
+        "odbijeni",
         "kladivko-orloje",
         "tepati",
         "cymbal"
