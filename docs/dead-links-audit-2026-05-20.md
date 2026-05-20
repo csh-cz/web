@@ -1,14 +1,14 @@
 # Dead-link audit — 2026-05-20
 
-Vygenerováno skriptem `scripts/audit-dead-links.mjs` 2026-05-20T04:35:20Z.
+Vygenerováno skriptem `scripts/audit-dead-links.mjs` 2026-05-20T12:43:31Z.
 
 ## Souhrn
 
 - **Skenované adresáře:** 7 (content/hodinarium-eu, content/hodinari, content/kroky, content/slovnik, content/soupis-veznich-hodin, content/kronika, content/horologie-cz)
-- **Unikátních URL:** 893
-- **Funkční (2xx/3xx):** 798
-- **Mrtvé / nedostupné:** 95
-- **Z toho s Wayback Machine snapshotem:** 21
+- **Unikátních URL:** 897
+- **Funkční (2xx/3xx):** 809
+- **Mrtvé / nedostupné:** 88
+- **Z toho s Wayback Machine snapshotem:** 15
 
 ## Pro editora
 
@@ -20,28 +20,28 @@ Pro každý mrtvý odkaz níže vyberte:
 
 ---
 
-## Mrtvé odkazy (95 unikátních URL ve 51 souborech)
+## Mrtvé odkazy (88 unikátních URL ve 46 souborech)
 
 ### `content/hodinari/edmund-kinsner.mdx`
 
-- **network error: fetch failed** — https://www.spsh.cz/
-  - Pole: `body:link`
-  - Kontext: …rovi jako Prokešově žákovi je [Knespl 2018](https://www.spsh.cz/) (Zpravodaj SPSH 33).* …
+- **HTTP 403** — http://spsh.cz/
+  - Pole: `body:bare`
+  - Kontext: …rchive.org/web/20170924202604/http://spsh.cz/) (Zpravodaj SPSH 33).* …
   - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20170924202604/http://spsh.cz/ (20170924202604)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinari/engelbert-seige.mdx`
 
-- **HTTP 400** — https://indico.fjfi.cvut.cz/event/127/contributions/2868/attachments/966/1332/Astronomicke_funkce_a_umeleckohistoricka_analyza_planetaria_P._Engelberta_Seige_1792_ve_sbirkach_Narodniho_technickeho_muzea_v_Praze.pdf
+- **HTTP 404** — https://indico.fjfi.cvut.cz/event/127/contributions/2868attachments/966/1332/Astronomicke_funkce_a_umeleckohistoricka_analyza_planetaria_P._Engelberta_Seige_1792_ve_sbirkach_Narodniho_technickeho_muzea_v_Praze.pdf
   - Pole: `fm:references[0]:url`
-  - Kontext: …https://indico.fjfi.cvut.cz/event/127/contributions/2868/attachments/966/1332/As…
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20240216211320/https://indico.fjfi.cvut.cz/event/127/contributions/2868/attachments/966/1332/Astronomicke_funkce_a_umeleckohistoricka_analyza_planetaria_P._Engelberta_Seige_1792_ve_sbirkach_Narodniho_technickeho_muzea_v_Praze.pdf (20240216211320)
+  - Kontext: …https://indico.fjfi.cvut.cz/event/127/contributions/2868attachments/966/1332/Ast…
+  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
-- **HTTP 400** — https://indico.fjfi.cvut.cz/event/127/contributions/2868/
+- **HTTP 400** — https://indico.fjfi.cvut.cz/event/127/contributions/2868
   - Pole: `body:link`
   - Kontext: …a **kovový model** (popsané v [diplomové práci L. Hrůšové, 2020](https://indico.fjfi.cvut.cz/event/127/contributions/286…
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20260207035738/https://indico.fjfi.cvut.cz/event/127/contributions/2868/ (20260207035738)
+  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 - **HTTP 404** — https://cs.wikipedia.org/wiki/Jan_Klein_(hodin%C3%A1%C5%99
@@ -66,16 +66,16 @@ Pro každý mrtvý odkaz níže vyberte:
   - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
-- **HTTP 403** — https://www.researchgate.net
+- **HTTP 403** — https://www.researchgate.net/
   - Pole: `body:link`
-  - Kontext: …res)** — evangelický kostel | [Skála 2005](https://www.researchgate.net) | | 1896 | **[Kostomlátky](/…
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20260519224846/https://www.researchgate.net/ (20260519224846)
+  - Kontext: …res)** — evangelický kostel | [Skála 2005](https://www.researchgate.net/) | | 1896 | **[Kostomlátky](/…
+  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20260520095744/https://www.researchgate.net/ (20260520095744)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
-- **HTTP 403** — https://www.researchgate.net
+- **HTTP 403** — https://www.researchgate.net/
   - Pole: `body:link`
-  - Kontext: …any)** — evangelický kostel | [Skála 2005](https://www.researchgate.net) | | nedat. | **[Veleliby](/s…
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20260519224846/https://www.researchgate.net/ (20260519224846)
+  - Kontext: …any)** — evangelický kostel | [Skála 2005](https://www.researchgate.net/) | | nedat. | **[Veleliby](/s…
+  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20260520095744/https://www.researchgate.net/ (20260520095744)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinari/junghans.mdx`
@@ -126,23 +126,23 @@ Pro každý mrtvý odkaz níže vyberte:
 
 ### `content/hodinarium-eu/akvizice-2015-2025.md`
 
-- **HTTP 403** — http://dominanty.cz/pamatky-velka-chmelistna.php
+- **HTTP 403** — https://dominanty.cz/pamatky-velka-chmelistna.php
   - Pole: `body:bare`
-  - Kontext: …rchive.org/web/20160327202644/http://dominanty.cz/pamatky-velka-chmelistna.php). ![kostel sv. Bartoloměje V…
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20160327202644/http://dominanty.cz/pamatky-velka-chmelistna.php (20160327202644)
+  - Kontext: …rchive.org/web/20160327202644/https://dominanty.cz/pamatky-velka-chmelistna.php). ![kostel sv. Bartoloměje V…
+  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/atomove-kapesni.md`
 
-- **network error: timeout** — https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5570-miniature-atomic-clock-mac-sa5x
+- **network error: timeout** — https://microsemi.com/product-directory/embedded-clocks-frequency-references/5570-miniature-atomic-clock-mac-sa5x
   - Pole: `body:link`
-  - Kontext: …turního čipu atomových hodin: [MAC-SA5X](https://www.microsemi.com/product-directory/embedded-clocks-frequency-reference…
-  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
+  - Kontext: …turního čipu atomových hodin: [MAC-SA5X](https://microsemi.com/product-directory/embedded-clocks-frequency-references/55…
+  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20240127044531/https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5570-miniature-atomic-clock-mac-sa5x (20240127044531)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
-- **network error: timeout** — https://www.microsemi.com/images/gallery/new_products/EvalKit%20Cartoon.png
+- **network error: timeout** — https://microsemi.com/images/gallery/new_products/EvalKit%20Cartoon.png
   - Pole: `body:link`
-  - Kontext: …kačních pinů rs232 nebo USB. [Obrázek vývojového kitu](https://www.microsemi.com/images/gallery/new_products/EvalKit%20C…
+  - Kontext: …kačních pinů rs232 nebo USB. [Obrázek vývojového kitu](https://microsemi.com/images/gallery/new_products/EvalKit%20Carto…
   - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20210910023747/https://www.microsemi.com/images/gallery/new_products/EvalKit%20Cartoon.png (20210910023747)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
@@ -165,7 +165,7 @@ Pro každý mrtvý odkaz níže vyberte:
 - **HTTP 404** — http://www.hodiny-spel.cz/atypicka_vyroba.php
   - Pole: `body:link`
   - Kontext: …[![Hodiny „SVĚTOVÝ ČAS”, analogové v kombinaci s datumem, broušený a leštěný nerez](/img/elektrika/svetovy_cas1.jpg)](ht…
-  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
+  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20120201013404/http://www.hodiny-spel.cz/atypicka_vyroba.php (20120201013404)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 - **HTTP 404** — http://www.thisisit.ca:80/worldclock2001/
@@ -179,29 +179,7 @@ Pro každý mrtvý odkaz níže vyberte:
 - **HTTP 404** — http://www.swatch.com:80/xx_en/internettime.html
   - Pole: `body:bare`
   - Kontext: …rchive.org/web/20130524065953/http://www.swatch.com:80/xx_en/internettime.html) také používá decimální dělen…
-  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
-### `content/hodinarium-eu/decin-jednotny-cas.md`
-
-- **network error: fetch failed** — https://docplayer.org/71200072-Siemens-uhren-historische-sammlung-teil-ii.html
-  - Pole: `body:bare`
-  - Kontext: …lzů. \* \* \* ### Odkazy - https://docplayer.org/71200072-Siemens-uhren-historische-sammlung-teil-ii.html …
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20240619222242/https://docplayer.org/71200072-Siemens-uhren-historische-sammlung-teil-ii.html (20240619222242)
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
-### `content/hodinarium-eu/decin-ntp.md`
-
-- **HTTP 530** — https://proxy.hodinarium2.eu/chrony2.php
-  - Pole: `body:link`
-  - Kontext: …ažené přesnosti času na tomto [odkazu](https://proxy.hodinarium2.eu/chrony2.php). Odkazy - [Chrony server …
-  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
-- **HTTP 530** — https://proxy.hodinarium2.eu/chrony2.php
-  - Pole: `body:link`
-  - Kontext: ….eu/chrony2.php). Odkazy - [Chrony server v Hodinariu](https://proxy.hodinarium2.eu/chrony2.php) - [Wikipedii](https://c…
-  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
+  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20130524065953/http://www.swatch.com:80/xx_en/internettime.html (20130524065953)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/download.md`
@@ -226,14 +204,6 @@ Pro každý mrtvý odkaz níže vyberte:
   - Pole: `fm:originalUrl`
   - Kontext: …https://radioeng.cz/poster.htm…
   - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
-### `content/hodinarium-eu/mereni-casu.md`
-
-- **network error: fetch failed** — https://www.zemepis.eu/stranka/mereni-casu
-  - Pole: `fm:references[0]:url`
-  - Kontext: …https://www.zemepis.eu/stranka/mereni-casu…
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20090716164838/http://www.zemepis.eu:80/stranka/mereni-casu (20090716164838)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/muzeum-beyer-zurich.md`
@@ -262,9 +232,9 @@ Pro každý mrtvý odkaz níže vyberte:
 
 ### `content/hodinarium-eu/muzeum-klementinum.md`
 
-- **network error: fetch failed** — https://www.klementinum.com/
+- **network error: fetch failed** — https://klementinum.com/
   - Pole: `fm:references[0]:url`
-  - Kontext: …https://www.klementinum.com/…
+  - Kontext: …https://klementinum.com/…
   - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20251111080119/http://klementinum.com/ (20251111080119)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
@@ -286,9 +256,9 @@ Pro každý mrtvý odkaz níže vyberte:
 
 ### `content/hodinarium-eu/pichacky.md`
 
-- **HTTP 403** — http://www.wikiwand.com/de/Johannes_B%C3%BCrk
+- **HTTP 403** — https://www.wikiwand.com/de/Johannes_B%C3%BCrk
   - Pole: `body:link`
-  - Kontext: …ářskou firmu Bürk založil pan [Johannes Bürk](http://www.wikiwand.com/de/Johannes_B%C3%BCrk) v roce 1855. Firma od počát…
+  - Kontext: …ářskou firmu Bürk založil pan [Johannes Bürk](https://www.wikiwand.com/de/Johannes_B%C3%BCrk) v roce 1855. Firma od počá…
   - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
@@ -298,41 +268,35 @@ Pro každý mrtvý odkaz níže vyberte:
   - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
-- **HTTP 404** — http://www.workclocks.co.uk/index.html
-  - Pole: `body:bare`
-  - Kontext: …specializovaný web "píchaček" http://www.workclocks.co.uk/index.html Z obsahu vyjímáne: - Day - B…
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20251115182513/https://workclocks.co.uk/index.html (20251115182513)
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
 ### `content/hodinarium-eu/rick-stanley.md`
 
 - **HTTP 404** — http://www.usboomers.com:80/clockothers.htm
   - Pole: `body:bare`
   - Kontext: …rchive.org/web/20170117010318/http://www.usboomers.com:80/clockothers.htm) a další. …
-  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
+  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20170117010318/http://www.usboomers.com:80/clockothers.htm (20170117010318)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/rimskedigi2.md`
 
-- **network error: timeout** — https://www.christies.com/en/lot/lot-4973414
+- **network error: timeout** — https://christies.com/en/lot/lot-4973414
   - Pole: `body:link`
-  - Kontext: …y-taste-l13303/lot.12.html) - [www.christies.com/en/lot/lot-4973414](https://www.christies.com/en/lot/lot-4973414) - Mod…
+  - Kontext: …y-taste-l13303/lot.12.html) - [www.christies.com/en/lot/lot-4973414](https://christies.com/en/lot/lot-4973414) - Moderní…
   - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20260312144619/https://www.christies.com/en/lot/lot-4973414 (20260312144619)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/slunecni-filler.mdx`
 
-- **HTTP 404** — http://vlastafiller.wz.cz/
-  - Pole: `body:link`
-  - Kontext: …a Vlasty Fillera, autora webu [vlastafiller.wz.cz](http://vlastafiller.wz.cz/), můžeme zde ukázat [sluneční…
+- **network error: fetch failed** — https://www.vlastafiller.wz.cz/
+  - Pole: `body:bare`
+  - Kontext: …rchive.org/web/20250408182125/https://www.vlastafiller.wz.cz/), můžeme zde ukázat [sluneční…
   - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20250408182125/https://www.vlastafiller.wz.cz/ (20250408182125)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/slunecni.mdx`
 
-- **HTTP 404** — http://vlastafiller.wz.cz/
-  - Pole: `body:link`
-  - Kontext: …a Vlasty Fillera, autora webu [vlastafiller.wz.cz](http://vlastafiller.wz.cz/), zde můžeme ukázat funkční s…
+- **network error: fetch failed** — https://www.vlastafiller.wz.cz/
+  - Pole: `body:bare`
+  - Kontext: …rchive.org/web/20250408182125/https://www.vlastafiller.wz.cz/), zde můžeme ukázat funkční s…
   - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20250408182125/https://www.vlastafiller.wz.cz/ (20250408182125)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
@@ -364,57 +328,45 @@ Pro každý mrtvý odkaz níže vyberte:
   - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
-- **HTTP 404** — http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm
-  - Pole: `fm:references[8]:url`
-  - Kontext: …http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm…
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20180829235111/http://dorfmuseum-guetenbach.de/de/dorfmuseum.htm (20180829235111)
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
 ### `content/hodinarium-eu/synchronizace-hodin.md`
 
-- **HTTP 403** — https://www.wikiwand.com/cs/Vys%C3%ADla%C4%8D_OMA
+- **HTTP 403** — https://www.wikiwand.com/cs/Vys%C3%ADla%C4%8D_OMA/
   - Pole: `body:link`
-  - Kontext: …95 vypnut. Zajímavý podrobný [článek zde](https://www.wikiwand.com/cs/Vys%C3%ADla%C4%8D_OMA) a také ve [wikipedii](https…
+  - Kontext: …95 vypnut. Zajímavý podrobný [článek zde](https://www.wikiwand.com/cs/Vys%C3%ADla%C4%8D_OMA/) a také ve [wikipedii](http…
   - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/tabor.mdx`
 
 - **HTTP 404** — https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tabor-krov-jan-zizka-600-let.A200821_123202_imp-jihocesky_kov/
-  - Pole: `body:link`
-  - Kontext: …uzeum.cz. [cit. 2026-04-28] - [Obnovení radnice v Táboře](https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tab…
+  - Pole: `body:bare`
+  - Kontext: …rchive.org/web/20260309004348/https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tabor-krov-jan-zizka-600-let.A2…
   - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20260309004348/https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tabor-krov-jan-zizka-600-let.A200821_123202_imp-jihocesky_kov/ (20260309004348)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/vezni-muzejicko-evropa.md`
 
-- **HTTP 404** — https://jindrisskavez.cz/index.php/cs/
-  - Pole: `body:link`
-  - Kontext: …stupu. Několik příkladů. ### [Přestavba Jindřišské věže - Praha](https://jindrisskavez.cz/index.php/cs/) [![Jindřížská v…
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20260317054855/https://www.jindrisskavez.cz/index.php/cs/ (20260317054855)
+- **HTTP 404** — https://www.jindrisskavez.cz/index.php/cs/
+  - Pole: `body:bare`
+  - Kontext: …rchive.org/web/20260317054855/https://www.jindrisskavez.cz/index.php/cs/) [![Jindřížská věž](/img/vez…
+  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
-- **HTTP 404** — https://jindrisskavez.cz/index.php/cs/
-  - Pole: `body:link`
-  - Kontext: …součástí projektu je web věže [www.jindrisskavez.cz](https://jindrisskavez.cz/index.php/cs/) a na něm umístěna virtuální…
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20260317054855/https://www.jindrisskavez.cz/index.php/cs/ (20260317054855)
+- **HTTP 404** — https://www.jindrisskavez.cz/index.php/cs/
+  - Pole: `body:bare`
+  - Kontext: …rchive.org/web/20260317054855/https://www.jindrisskavez.cz/index.php/cs/) a na něm umístěna virtuální …
+  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/zidovske.mdx`
 
-- **HTTP 404** — https://mapy.cz/s/kcyO
+- **HTTP 404** — https://www.mapy.cz/s/kcyO
   - Pole: `body:link`
-  - Kontext: …vské hodiny najdete přibližně [zde](https://mapy.cz/s/kcyO). Obrázek ukazuje Staronovou …
+  - Kontext: …vské hodiny najdete přibližně [zde](https://www.mapy.cz/s/kcyO). Obrázek ukazuje Staronovou …
   - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/horologie-cz/novinky.md`
-
-- **HTTP 530** — http://proxy.hodinarium2.eu/chrony2.php
-  - Pole: `body:link`
-  - Kontext: …diny](60Hz.php) - 20.11. 2025 [NTP server v Hodináriu](http://proxy.hodinarium2.eu/chrony2.php) - 12.11. 2025 [Timometer…
-  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 - **HTTP 404** — https://hodinarium-eu.pages.dev/clanky/laplace
   - Pole: `body:link`
@@ -680,10 +632,10 @@ Pro každý mrtvý odkaz níže vyberte:
 
 ### `content/kronika/decin-aktual0.md`
 
-- **network error: timeout** — http://www.novinky.cz/cestovani/tipy-na-vylety/380344-decinska-expozice-ukaze-jak-nasi-predkove-merili-cas.html
+- **network error: timeout** — http://www.novinky.cz/cestovani/tipy-na-vylety/385676-decinsky-zamek-vystavuje-mechanicke-hodiny-nechybi-ani-bizarni-kousky.html
   - Pole: `body:link`
-  - Kontext: …decin.cz. [cit. 2026-04-28] - [Děčínská expozice ukáže, jak naši předkové měřili čas](http://www.novinky.cz/cestovani/ti…
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20151009214629/http://www.novinky.cz/cestovani/tipy-na-vylety/380344-decinska-expozice-ukaze-jak-nasi-predkove-merili-cas.html (20151009214629)
+  - Kontext: …o.rvp.cz. [cit. 2026-04-28] - [Novinky od ČTK](http://www.novinky.cz/cestovani/tipy-na-vylety/385676-decinsky-zamek-vyst…
+  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/kronika/vezni-muzejicko.md`
@@ -700,14 +652,6 @@ Pro každý mrtvý odkaz níže vyberte:
   - Pole: `fm:prameny[2]:url`
   - Kontext: …https://cs.wikipedia.org/wiki/B%C3%ADl%C3%A1_v%C4%9B%C5%BE_(Hradec_Kr%C3%A1lov%C…
   - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
-### `content/soupis-veznich-hodin/1791-dobris-landesberger-f.mdx`
-
-- **network error: fetch failed** — https://www.veznihodiny.cz/
-  - Pole: `body:link`
-  - Kontext: … z 27. července 2009 (atelier [veznihodiny.cz](https://www.veznihodiny.cz/), Sadská). Restaurátorský zás…
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20230311150443/http://www.veznihodiny.cz/ (20230311150443)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/soupis-veznich-hodin/1876-police-nad-metuji-radnice-janata.mdx`
@@ -732,14 +676,6 @@ Pro každý mrtvý odkaz níže vyberte:
   - Pole: `body:link`
   - Kontext: …l.htm?id=1292106) a publikace [Fišer 2015](https://www.cdsh.cz/). …
   - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
-### `content/soupis-veznich-hodin/1898-hradesice-krecmer.mdx`
-
-- **network error: fetch failed** — https://www.veznihodiny.cz/
-  - Pole: `body:link`
-  - Kontext: …skala) z 18. 6. 2019 (atelier [veznihodiny.cz](https://www.veznihodiny.cz/), Sadská) a z dobového novino…
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20230311150443/http://www.veznihodiny.cz/ (20230311150443)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/soupis-veznich-hodin/1898-paichl-krecmer.mdx`
