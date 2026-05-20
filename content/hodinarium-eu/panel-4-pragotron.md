@@ -34,7 +34,7 @@ tldr: 'Sestava výrobků Elektročas/Pragotron: matiční EH40, signální SH40,
 
 ## Sestava Pragotron — mechanická matice
 
-V horní části panelu jsou podružné hodiny [CPJ061](/sbirka/karta/inv-112-cpj-061/), které kromě časové informace ukazují den v týdnu, datum a měsíc.
+V horní části panelu jsou [podružné hodiny](/slovnik/podruzne-hodiny) [CPJ061](/sbirka/karta/inv-112-cpj-061/), které kromě časové informace ukazují den v týdnu, datum a měsíc.
 
 Ve sloupci pod nimi jsou matiční hodiny [EH40](/sbirka/karta/inv-113-eh40/) (na panelu označené EH41 — dnes evidováno jako EH40), které řídí CPJ061. Linkový rozváděč [RL 83](/sbirka/karta/inv-118-rl-83/) (na panelu RL40) napájí tři datové linky, na panelu představované třemi podružnými hodinami [IPJ0612](/sbirka/karta/inv-122-ipj-0612-3x/).
 

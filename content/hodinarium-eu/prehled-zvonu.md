@@ -58,7 +58,7 @@ Zdá se, že ani ve století dvacátém nekončí historie soběslavských zvon�
 
 ## Cimbály věžních hodin
 
-V lucerně pod horní bání jsou zavěšeny dva cimbály pro odbíjení čtvrtí a celých hodin. Od věžního stroje k nim vedou poměrně dlouhé dráty. Zatím jsme nenalezli žádné písemné prameny určující jejich stáří a historii. Jsme tedy odkázáni pouze na vnější popis a odhady.
+V lucerně pod horní bání jsou zavěšeny dva cimbály pro [odbíjení](/slovnik/odbijeni) čtvrtí a celých hodin. Od věžního stroje k nim vedou poměrně dlouhé dráty. Zatím jsme nenalezli žádné písemné prameny určující jejich stáří a historii. Jsme tedy odkázáni pouze na vnější popis a odhady.
 
 Velký cimbál je zvonovitý. Stáří odhaduje pan Votruba na 15-16 století. Cimbál nenese žádné nápisy ani reliéfy. Průměr cimbálu je 78cm, výška 35cm, síla stěny 4cm. Cimbál je zavěšený na dvouuché koruně se středovým sloupkem pomocí kovaných třmenů přitažených čtyřhrannými maticemi.
 

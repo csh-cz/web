@@ -14,7 +14,7 @@ tldr: 'Tiše běžící indukční motor Ferraris s příkonem pouze 2 W natahuj
 ---
 [![replika 1. motoru Ferraris](/img/elektrika/motore_cmr_1.gif)](/img/elektrika/motore_cmr_1.gif)
 
-V elektricky natahovaných hodinách se silnějším motorem bývá problém ve spínání motoru spínačem odvozeným od stavu pružiny. U hodin Ferramo je pro natahování použit slabý indukční motor Ferraris, který je zapnut stále. Proud se nepřerušuje, protože je to zbytečné. Motor odebírá jen 2 W. Rotor je lehce brzděn pákou potaženou plstí. Zastaví se vlivem odporu natažené pružiny. Motor natahuje v krátkých časových intervalech. Uvádí se interval 2-3 sec. Motor jede dlouze jen po výpadku proudu. Výhodou motoru je tichý chod. Vinutí motoru umožňuje připojení na 110 V, 160 V a 220 V. Vlastní hodinový stroj je setrvačkový se zajímavě řešenou regulací. Motor Ferraris se používal i pro natahování kyvadlových přesných hodin Zenith.
+V elektricky natahovaných hodinách se silnějším motorem bývá problém ve spínání motoru spínačem odvozeným od stavu pružiny. U hodin Ferramo je pro [natahování](/slovnik/natah) použit slabý indukční motor Ferraris, který je zapnut stále. Proud se nepřerušuje, protože je to zbytečné. Motor odebírá jen 2 W. Rotor je lehce brzděn pákou potaženou plstí. Zastaví se vlivem odporu natažené pružiny. Motor natahuje v krátkých časových intervalech. Uvádí se interval 2-3 sec. Motor jede dlouze jen po výpadku proudu. Výhodou motoru je tichý chod. Vinutí motoru umožňuje připojení na 110 V, 160 V a 220 V. Vlastní hodinový stroj je setrvačkový se zajímavě řešenou regulací. Motor Ferraris se používal i pro natahování kyvadlových přesných hodin Zenith.
 
 ## Indukční jednofázový motor
 

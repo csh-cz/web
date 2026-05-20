@@ -27,6 +27,6 @@ karta:
   krokJicihoStroje: "Amantův kolíčkový krok"
 ---
 
-Hodinový stroj věžních hodin byl vyroben firmou Thöndel v Uničově roku 1911. Stroj je konstrukčně zajímavý : má **[Amantův](/kroky/amantuv-krok)** kolíčkový krok, ale palety nejsou, jako obvykle, uspořádány nad sebou, ale na kotvě ve tvaru **[Grahamova](/kroky/grahamuv-krok)** kroku. Odbíjení je také konstruováno méně užívaným způsobem. Sestává se jen z lanového bubnu a šnekového pohonu větrníku. Čtvrťové odbíjené nemá početník, ale počet úderů je dán zářezy v prstenci lanového bubnu: pro první čtvrť po jednom zvedacím zubu, pro půl po dvou zubech, pro třičtvrtě po třech zubech atd.
+Hodinový stroj věžních hodin byl vyroben firmou Thöndel v Uničově roku 1911. Stroj je konstrukčně zajímavý : má **[Amantův](/kroky/amantuv-krok)** kolíčkový krok, ale palety nejsou, jako obvykle, uspořádány nad sebou, ale na kotvě ve tvaru **[Grahamova](/kroky/grahamuv-krok)** kroku. [Odbíjení](/slovnik/odbijeni) je také konstruováno méně užívaným způsobem. Sestává se jen z lanového bubnu a šnekového pohonu větrníku. Čtvrťové odbíjené nemá početník, ale počet úderů je dán zářezy v prstenci lanového bubnu: pro první čtvrť po jednom zvedacím zubu, pro půl po dvou zubech, pro třičtvrtě po třech zubech atd.
 
 Stroj má původní [kyvadlo](/slovnik/kyvadlo) a závaží.

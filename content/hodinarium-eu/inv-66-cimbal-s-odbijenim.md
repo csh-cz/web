@@ -28,4 +28,4 @@ Z kostela sv. Filipa a Jakuba ve Viničnom na Slovensku byl zakoupen cimbál. Je
 
 K cimbálu bylo doplněno odbíjecí zařízení Elektročas s ovládáním, které přes WiFi získává informaci o přesném čase.
 
-Alternativně je cimbál připojen na odbíjecí zařízení od firmy Kavalír, u kterého je možné programově nastavit dobu odbíjení i intervaly mezi jednotlivými údery.
+Alternativně je cimbál připojen na odbíjecí zařízení od firmy Kavalír, u kterého je možné programově nastavit dobu [odbíjení](/slovnik/odbijeni) i intervaly mezi jednotlivými údery.

@@ -15,9 +15,9 @@ tldr: 'Konstrukce levné NTP synchronizované řídící jednotky pro třídrát
 ---
 ![Stroj podružných hodin IBM Internacional](/img/decin/IBM/stroj.jpg)
 
-Elektronika je stále výkonnější a levnější. I elektronické hodiny jsou stále přesnější, případně synchronizované dle DCF 77, GPS, sítě mobilních operátorů nebo z Internetu. Pomalu ztrácí význam řešit sítě jednotného času na bázi rozvodů polarizovaných či stejnosměrných impulzů. Přesto jsou místa, kde takové sítě jsou vhodné.
+Elektronika je stále výkonnější a levnější. I elektronické hodiny jsou stále přesnější, případně synchronizované dle DCF 77, GPS, sítě mobilních operátorů nebo z Internetu. Pomalu ztrácí význam řešit sítě jednotného času na bázi rozvodů polarizovaných či stejnosměrných [impulzů](/slovnik/impulsy). Přesto jsou místa, kde takové sítě jsou vhodné.
 
-Dnes se někdejší "fabrické hodiny" stále častěji stávají cílem sběratelů. Lze občas získat i podružné hodiny pro třídrátový rozvod systému IBM (INTERNATIONAL) původně řízené poměrně složitějšími elektromechanickými kyvadlovými hodinami. Hlavní hodiny IBM se však na trhu se starožitnostmi tak často neobjevují, proto jsou někdy "třídrátové" podružné hodiny připojovány na dvoudrátový rozvod, čímž ztratí schopnost částečného seřízení a jejich hlavní přednost je tak degradována. (Více na stránce [Třídrátový rozvod IBM](/sbirka/decin-regulace-ibm). ) Na fotografii stroje jsou vidět přepínací vačky 59. minuty mezi dráty A a B.
+Dnes se někdejší "fabrické hodiny" stále častěji stávají cílem sběratelů. Lze občas získat i [podružné hodiny](/slovnik/podruzne-hodiny) pro třídrátový rozvod systému IBM (INTERNATIONAL) původně řízené poměrně složitějšími elektromechanickými kyvadlovými hodinami. Hlavní hodiny IBM se však na trhu se starožitnostmi tak často neobjevují, proto jsou někdy "třídrátové" podružné hodiny připojovány na dvoudrátový rozvod, čímž ztratí schopnost částečného seřízení a jejich hlavní přednost je tak degradována. (Více na stránce [Třídrátový rozvod IBM](/sbirka/decin-regulace-ibm). ) Na fotografii stroje jsou vidět přepínací vačky 59. minuty mezi dráty A a B.
 
 Přistoupili jsme k vývoji co nejlevnější varianty elektronických hlavních hodin na bázi ESP8266 i pro třídrátový rozvod hodin INTERNATIONAL. **[Řešení je odvozeno od NTP impulzeru pro polarizované pulzy.](/projekty/arduino)**
 

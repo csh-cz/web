@@ -24,7 +24,7 @@ Další velký exponát Hodinária pochází z evangelického kostela v Podmokle
 
 Malá osada Podmokly, ležící na druhém břehu Labe proti Děčínu, se začala rozrůstat v polovině 19.stol. v souvislosti s rozvíjejícím se průmyslem v této lokalitě. Pro potřeby protestantského obyvatelstva, které bylo v této obci početně zastoupeno, byl na Teplické ulici postaven evangelický kostel s vysokou špičatou věží. Do kostela, jenž byl dostavěn v roce **1884**, byly téhož roku zakoupeny **věžní hodiny od firmy [Julius Hiemann](/hodinari/julius-hiemann)** ze saského Lipska.
 
-Hodinový stroj je uložen v litinovém rámu. **[Grahamův](/kroky/grahamuv-krok)** krok je řízen kyvadlem, zavěšeným na ocelové planžetě. Téměř dvoumetrová kyvadlová tyč je dřevěná, na konci osazená těžkou litinovou čočkou. Bití je čtvrťové, stroj odbíjí jednotlivé čtvrtě, v celou hodinu se odjistí odbíjení příslušného počtu hodin. Plynulost odbíjení regulují dva plechové větrníky. ![decin instalace 3](/img/vez/decin/decin_instalace3.jpg)
+Hodinový stroj je uložen v litinovém rámu. **[Grahamův](/kroky/grahamuv-krok)** krok je řízen kyvadlem, zavěšeným na ocelové planžetě. Téměř dvoumetrová kyvadlová tyč je dřevěná, na konci osazená těžkou litinovou čočkou. Bití je čtvrťové, stroj odbíjí jednotlivé čtvrtě, v celou hodinu se odjistí [odbíjení](/slovnik/odbijeni) příslušného počtu hodin. Plynulost odbíjení regulují dva plechové větrníky. ![decin instalace 3](/img/vez/decin/decin_instalace3.jpg)
 
 Energii dodávají tři těžká litinová závaží, zavěšená na ocelových lanech. Závaží bylo nutno ručně klikou vytahovat každý den přes hnací bubny.
 

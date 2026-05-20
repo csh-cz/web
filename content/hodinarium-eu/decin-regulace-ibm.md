@@ -19,7 +19,7 @@ tags:
 tldr: 'Samočinné dorovnávání odchylek podružných hodin systému IBM International — dvě vačky přepínají od 51. minuty mezi vodiči A a B, rychlé dvousekundové impulzy v 59. minutě doženou zpožděné hodiny.'
 photoAuthor: M. Baudisch, P. Král
 ---
-Hodinárium v Děčíně se v roce 2017 rozrostlo o podružné hodiny INTERNACIONAL určené pro třídrátový rozvod nepolarizovaných řídících impulzů. Tento rozvod je určen pro hodiny IBM se samočinnou regulací jednotlivých podružných hodin. Systém umožňuje podružným hodinám s malou odchylkou upravit nastavení na stav matečních hodin. V současné době je v provozu sestava hlavních hodin IBM, několika podružných hodiny včetně píchaček. ![Stroj podružných hodin Internacional](/img/decin/IBM/stroj.jpg)
+Hodinárium v Děčíně se v roce 2017 rozrostlo o [podružné hodiny](/slovnik/podruzne-hodiny) INTERNACIONAL určené pro třídrátový rozvod nepolarizovaných řídících [impulzů](/slovnik/impulsy). Tento rozvod je určen pro hodiny IBM se samočinnou regulací jednotlivých podružných hodin. Systém umožňuje podružným hodinám s malou odchylkou upravit nastavení na stav matečních hodin. V současné době je v provozu sestava hlavních hodin IBM, několika podružných hodiny včetně píchaček. ![Stroj podružných hodin Internacional](/img/decin/IBM/stroj.jpg)
 
 ## Podružné hodiny
 
@@ -50,7 +50,7 @@ Kuriózní bylo, že získané hodiny byly přestavěny tak, že vodič A byl tr
 
 ## Hlavní hodiny IBM - třídrátový systém
 
-V podružných hodinách je celkem jednoduchý systém. Složitost je obsažena v konstrukci hlavních hodin. Při pohledu na číselník hodin to ani tak nevypadá. Na fotografii jsou hlavní hodiny IBM instalované v Hodináriu. Hodiny mají motorový nátah závaží. Bez elektrického proudu hodiny vydrží v chodu asi 4 hodiny. Tuto odchylku by však automatický systém nedokázal vyrovnat. Proto by vysílání impulzů mělo být zajištěno na přibližně stejnou dobu akumulátorem.
+V podružných hodinách je celkem jednoduchý systém. Složitost je obsažena v konstrukci hlavních hodin. Při pohledu na číselník hodin to ani tak nevypadá. Na fotografii jsou hlavní hodiny IBM instalované v Hodináriu. Hodiny mají motorový [nátah](/slovnik/natah) závaží. Bez elektrického proudu hodiny vydrží v chodu asi 4 hodiny. Tuto odchylku by však automatický systém nedokázal vyrovnat. Proto by vysílání impulzů mělo být zajištěno na přibližně stejnou dobu akumulátorem.
 
 Hlavní logiku systému zajišťuje skupina čtyř kontaktu. Sekundový kontakt, minutový kontakt, advance kontakt (pro zapnutí rychlého chodu) a stop kontakt. Z nákresu uspořádání kontaktů vidíme, že impulzy po dvou sekundách jsou odvozovány od kontaktu na sekundovém kyvadle. Hlavním výstupem jsou minutové impulzy. Protože nejde o polarizované impulzy, odpadá komplikace s obracením polarity. Stroj ještě pomocí vaček spíná pomocné kontakty. Advance kontakt vymezuje časový interval v 59. minutě 10. až 40. sekundě, kdy se po vodiči A posílají impulzy s dvousekundovou prodlevou. Stop kontakt vymezuje interval 49. minuta, 40. sekunda až 59. minuta 40. sekunda, kdy po vodiči B žádné impulzy vysílány nejsou.
 

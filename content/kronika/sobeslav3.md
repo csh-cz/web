@@ -13,7 +13,7 @@ scrapedAt: "2026-04-27T17:36:37.922Z"
 ---
 ![Rozebraný hodinový stroj z roku 1677. Foto Jan Lintner 2008.](/img/vezni/sobeslav/torzo1677_m.jpg)
 
-S potěšením mohu konstatovat, že **9.7.2009** proběhla "inventura" zachovaných částí hodinového věžního stroje. Inventura dopadla neočekávaně příznivě. Ukázalo se, že "ta hromada koleček" vpravo obsahuje téměř kompletní rám s úplným jicím kotvovým strojem a [bicím strojem](/slovnik/bici-stroj) celých hodin a dále samostatný stroj pro odbíjení čtvrtí.
+S potěšením mohu konstatovat, že **9.7.2009** proběhla "inventura" zachovaných částí hodinového věžního stroje. Inventura dopadla neočekávaně příznivě. Ukázalo se, že "ta hromada koleček" vpravo obsahuje téměř kompletní rám s úplným jicím kotvovým strojem a [bicím strojem](/slovnik/bici-stroj) celých hodin a dále samostatný stroj pro [odbíjení](/slovnik/odbijeni) čtvrtí.
 
 **Rozebraný hodinový stroj**
 

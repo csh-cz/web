@@ -25,4 +25,4 @@ karta:
   biciStroje: "půlové"
 ---
 
-Jednoduchý mechanizmus napojený na stroj věžních hodin řídil odbíjení na cimbály….
+Jednoduchý mechanizmus napojený na stroj věžních hodin řídil [odbíjení](/slovnik/odbijeni) na cimbály….

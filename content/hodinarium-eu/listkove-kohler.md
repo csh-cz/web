@@ -21,7 +21,7 @@ Představu*jeme velmi zajímavé mechanické lístkové hodiny ve stavu těsně 
 
 ![kohler 1](/img/listkove/kohler_001.jpg)Jde o klasické lístkové hodiny v dřevěné schráně. Ve výřezu jsou dole ukazovány minuty, nahoře pak hodiny. Cyklus je 12-tihodinový.
 
-Skříň je dýhovaná překližka rozměru V x Š x H cca 190 x 240 x 90. Dole je otvor s přístupem k natahování a seřizování.
+Skříň je dýhovaná překližka rozměru V x Š x H cca 190 x 240 x 90. Dole je otvor s přístupem k [natahování](/slovnik/natah) a seřizování.
 
 ![kohler 2](/img/listkove/kohler_002.jpg)
 

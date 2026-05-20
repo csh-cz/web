@@ -67,7 +67,7 @@ Kromě již zmíněných průhledných nebo průsvitných ciferníků na Big Ben
 
 ![](/img/elektrika/svitici/textilana6.jpg)
 
-Zpět k hodinám. Jedná se o elektrické podružné hodiny **Siemens - Halske**, 30. léta 20. stol., malba a nástřik na skle, prosvětleno systémem Siemens - Schuckert. Na obrázcích je vidět ciferník a ručičky ( hliník, mosaz, litina), detail číslic, podružný hodinový stroj a detail a držáky žárovek.
+Zpět k hodinám. Jedná se o elektrické [podružné hodiny](/slovnik/podruzne-hodiny) **Siemens - Halske**, 30. léta 20. stol., malba a nástřik na skle, prosvětleno systémem Siemens - Schuckert. Na obrázcích je vidět ciferník a ručičky ( hliník, mosaz, litina), detail číslic, podružný hodinový stroj a detail a držáky žárovek.
 
 **I** v domácnostech v nedávné době (cca 1890) sloužily svítící hodiny. Jako zdroj světla se používala svíčka. Na snímcích dole jsou **stolní**, **[kyvadlové](/slovnik/kyvadlo)** hodiny s otáčivým **průsvitným ciferníkem** za pevnou ručičkou. Stroj v dolní části podstavce, hodinová hřídel protažena vzhůru a zakončena držákem kruhového skleněného ciferníku. Výška je 22 cm, průměr skleněné koule asi 9,5 cm. Zajímavé je provedení [kyvadla](/slovnik/kyvadlo), které kývá kolmo ke stroji. Protože není minutová ručička, není ani střídné kolo.
 
@@ -108,7 +108,7 @@ naleznou často uplatnění v dětských pokojících. Jsou tu proto, aby se dě
 
 **Autohodiny**
 
-![](/img/elektrika/svitici/autobus.jpg)![](/img/elektrika/metamec/metamec1.jpg)Nesmíme opominout ještě jednu velkou oblast svítících hodin. **Svítící hodiny v autech**. Obvykle jde o poměrně robustní kvalitní hodiny, které musí snášet otřesy za jízdy. Protože bývají pevně zabudovány mají odlišný systém natahování a seřizování ručiček. Pomocí žároviček pro palubní napětí 12 respektive 24 V je ciferník decentně osvětlován. Často lze intenzitu osvětlení plynule nastavit. Pokud zařadíte autohodiny do své sbírky, zkuste zajistit i osvětlení. Pro úsporu elektrické energie můžete, u starších autohodin poněkud nestylově, použít svítící diody a potřebných 12 voltů brát třeba z počítače. LEDky do parkovaček či interiérového osvětlení auta lze koupit celkem levně. Elektricky osvětlené hodiny z autobusu působí v přítmí obýváku docela pěkně.
+![](/img/elektrika/svitici/autobus.jpg)![](/img/elektrika/metamec/metamec1.jpg)Nesmíme opominout ještě jednu velkou oblast svítících hodin. **Svítící hodiny v autech**. Obvykle jde o poměrně robustní kvalitní hodiny, které musí snášet otřesy za jízdy. Protože bývají pevně zabudovány mají odlišný systém [natahování](/slovnik/natah) a seřizování ručiček. Pomocí žároviček pro palubní napětí 12 respektive 24 V je ciferník decentně osvětlován. Často lze intenzitu osvětlení plynule nastavit. Pokud zařadíte autohodiny do své sbírky, zkuste zajistit i osvětlení. Pro úsporu elektrické energie můžete, u starších autohodin poněkud nestylově, použít svítící diody a potřebných 12 voltů brát třeba z počítače. LEDky do parkovaček či interiérového osvětlení auta lze koupit celkem levně. Elektricky osvětlené hodiny z autobusu působí v přítmí obýváku docela pěkně.
 
 Autohodiny se objevují nejčastěji v nebo na palubní desce. Někdy se ale zatoulají třeba do zpětného zrcátka. I ty mohou být osvětlené. Jeden veteránský exemplář je na dalších obrázcích.
 

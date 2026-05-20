@@ -11,7 +11,7 @@ tags:
   - jednotny-cas
 tldr: 'Akvírovaný kombinovaný stroj německých drah — krokový motorek řízený polarizovanými minutovými impulsy a synchronní vteřinový pohon s mechanickou synchronizací výřezem v kole.'
 ---
-Do Hodinária jsme získali zajímavý stroj podružných hodin. Jedná se o systém s krokovým motorkem, řízeným polarizovanými minutovými impulzy, doplněný vteřinovým ukazatelem, poháněným synchronním motorkem. Na strojku není označení výrobce, ale jedná se o typ, používaný u německých drah – vteřinová ručka se pohybuje ve vteřinových skocích, neboť pastorek zasahující do vteřinového kola, má jen dva zuby. Po dosažení pozice 12 čeká na posun minutové ručky. Synchronizace je provedena mechanicky.
+Do Hodinária jsme získali zajímavý stroj podružných hodin. Jedná se o systém s krokovým motorkem, řízeným polarizovanými minutovými [impulzy](/slovnik/impulsy), doplněný vteřinovým ukazatelem, poháněným synchronním motorkem. Na strojku není označení výrobce, ale jedná se o typ, používaný u německých drah – vteřinová ručka se pohybuje ve vteřinových skocích, neboť pastorek zasahující do vteřinového kola, má jen dva zuby. Po dosažení pozice 12 čeká na posun minutové ručky. Synchronizace je provedena mechanicky.
 
 V části pro vteřinový pohon je kolo vteřinové ručky (1) s výřezem. Sestava vteřinového [soukolí](/slovnik/soukoli) je na obrázku (2). Do výřezu po jedné otáčce zapadne palec blokovací páky (3) a kolo se zastaví. Motorek se může točit dál, protože mezi něj a vteřinové kolo je vloženo kolo s odpruženým pastorkem (4). Pastorek je dutý a je v něm pružina, která třením zprostředkuje přenos pohybu z motorku na vteřinové kolo.
 

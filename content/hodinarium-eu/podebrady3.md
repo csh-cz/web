@@ -16,7 +16,7 @@ tldr: 'Esej sochaře Petra Skály nad osudem litinové figurky odbíjející na 
 
 ![Původní trpaslík](/img/podebrady/trpaslik_puvodni_b.jpg)
 
-Co by to bylo za veřejné hodiny bez odbíjení času. Věžní hodiny odbíjejí na zvony, protože zvony k věžím patří. Odbíjení někdy dokonce provádějí figurky, například vojáci ve zbroji, nazývané jacquemarty.
+Co by to bylo za veřejné hodiny bez [odbíjení](/slovnik/odbijeni) času. Věžní hodiny odbíjejí na zvony, protože zvony k věžím patří. Odbíjení někdy dokonce provádějí figurky, například vojáci ve zbroji, nazývané jacquemarty.
 
 Podobně patří k zahradním hodinám zahradní trpaslík. Tvůrci poděbradských květinových hodin to takto stylově a s humorem pojali a svěřili odbíjení figurce trpaslíka. V bujné zeleni nedaleko od hodin trpaslík odbíjel na cimbál pomalovaný jako muchomůrka.
 

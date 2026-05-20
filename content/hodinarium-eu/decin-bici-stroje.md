@@ -16,7 +16,7 @@ tags:
   - decin
 tldr: 'Elektrický bicí stroj řízený polarizovanými impulzy s rotujícím kolem nesoucím 10 stejných kolíků pro čtvrtě a 12 různě dlouhých kolíků pro celé hodiny — kombinace závěrky, početníku a Surrerwerku.'
 ---
-Do expozice časoměrných strojů na zámku Děčín dorazil poněkud komplikovanou cestou další exponát: elektricky ovládaný [bicí stroj](/slovnik/bici-stroj) využívající podobný způsob odbíjení celých hodin jako tzv. surrerwerk hodin ze Schwarzwaldu. Tento typ každou čtvrthodinu odbíjel úplnou informaci o čase, tedy příslušnou čtvrthodinu, doplněnou údajem o uplynulé hodině. Vystavený exponát se liší tím, že odbíjí čtvrtě a pouze v celou hodinu přidá údaj o aktuální hodině. U věžních hodin by asi odbíjení úplné informace o čase poněkud rušilo.
+Do expozice časoměrných strojů na zámku Děčín dorazil poněkud komplikovanou cestou další exponát: elektricky ovládaný [bicí stroj](/slovnik/bici-stroj) využívající podobný způsob [odbíjení](/slovnik/odbijeni) celých hodin jako tzv. surrerwerk hodin ze Schwarzwaldu. Tento typ každou čtvrthodinu odbíjel úplnou informaci o čase, tedy příslušnou čtvrthodinu, doplněnou údajem o uplynulé hodině. Vystavený exponát se liší tím, že odbíjí čtvrtě a pouze v celou hodinu přidá údaj o aktuální hodině. U věžních hodin by asi odbíjení úplné informace o čase poněkud rušilo.
 
 [![spímací segment](/img/decin_surrerwerk/s3.jpg)](/img/decin_surrerwerk/f/s3.jpg)
 
@@ -30,7 +30,7 @@ U interiérových hodin se později prosadil systém s [početníkem](/slovnik/p
 
 Hlavní součástí stroje je ozubené kolo s kolíky, poháněné elektromotorem. Z jedné strany je osazeno kolíky v pořadí – 1, 2, 3, 4 – tedy celkem 10 stejnými kolíky. Tyto kolíky zdvíhají páku čtvrťového bití. Na druhé straně kola je 12 kolíků různé délky. Posuvná odbíjecí páka podle polohy vačky slouží pro bití celých hodin. Na hřídeli kola je uchycen kruhový kontakt, rozdělený na čtyři segmenty různé délky (třetí obrázek nahoře). Délka každého segmentu odpovídá pootočení, potřebnému pro odbití příslušného počtu úderů dané čtvrthodiny, a na závěr otáčení i odbití celé hodiny. Kolo se celé otočí jednou za hodinu.
 
-Systém je řízen polarizovanými impulzy od matičních hodin s periodou 30 sekund. Tyto impulzy ovládají elektromagnet, který jednak ovládá další kruhový kontakt se čtyřmi segmenty pro spouštění odbíjení čtvrtí, jednak pootáčí vačkou. Povrch vačky kopíruje táhlo, které přesouvá postupně kulisu s pákou pro odbíjení celých hodin. Vodorovným posunem kulisy se dosáhne toho, že odbíjecí páka zabírá s různým počtem ze dvanácti kolíků. Nepotřebné kolíky pro odbíjení vyššího počtu hodin páka mine. Vačka se otočí o 360° za 12 hodin.
+Systém je řízen polarizovanými [impulzy](/slovnik/impulsy) od matičních hodin s periodou 30 sekund. Tyto impulzy ovládají elektromagnet, který jednak ovládá další kruhový kontakt se čtyřmi segmenty pro spouštění odbíjení čtvrtí, jednak pootáčí vačkou. Povrch vačky kopíruje táhlo, které přesouvá postupně kulisu s pákou pro odbíjení celých hodin. Vodorovným posunem kulisy se dosáhne toho, že odbíjecí páka zabírá s různým počtem ze dvanácti kolíků. Nepotřebné kolíky pro odbíjení vyššího počtu hodin páka mine. Vačka se otočí o 360° za 12 hodin.
 
 ![Surrerverk1](/img/decin_surrerwerk/s1.jpg)
 

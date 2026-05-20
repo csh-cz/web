@@ -21,13 +21,13 @@ Ani ti, kdo sledují čas jen na mobilním telefonu, si možná neuvědomují, j
 
 ## Cesty, kterými do hodin přišla elektřina
 
-Elektřina se začala v hodinách používat mnoha způsoby — pro osvětlení, pro natahování (elektrickým motorkem či elektromagnetem), pro přímé dodávání energie do oscilátoru, pro odvozování časového normálu od frekvence sítě, anebo pro budování soustav jednotného času. Vznikla nepřeberná řada konstrukcí, které by neměly upadnout v zapomnění.
+Elektřina se začala v hodinách používat mnoha způsoby — pro osvětlení, pro [natahování](/slovnik/natah) (elektrickým motorkem či elektromagnetem), pro přímé dodávání energie do oscilátoru, pro odvozování časového normálu od frekvence sítě, anebo pro budování soustav jednotného času. Vznikla nepřeberná řada konstrukcí, které by neměly upadnout v zapomnění.
 
 Nejjednodušší elektrické hodiny vznikly doplněním elektrického natahování ke klasickým mechanickým hodinám. Nejprve se elektromotor objevil u věžních hodin, kde podstatně ulehčil práci obsluhy, později u hodin, které s elektřinou nějak souvisely (různé sazbové spínače či časovače). Teprve okolo 50. let minulého století se motorky objevily i u natahování domácích hodin (například PRIM s modelářským motorkem). Takovým hodinám říkáme familiárně „nakopávací” — podle anglického *kick rewind*. Mechanický stroj zajišťuje určitou dobu chodu i bez dodávky elektrické energie.
 
 ## Alexander Bain a kontaktní problémy
 
-Skutečně elektrické hodiny používaly magnetický impulz dodávaný přímo do [kyvadla](/slovnik/kyvadlo), případně [setrvačky](/slovnik/setrvacka). Tady se mění význam převodového [soukolí](/slovnik/soukoli): slouží už jen k počítání kyvů, ne k vydávání elektrických impulzů. Prvním konstruktérem, který se pokusil postavit hodiny s aplikací elektřiny, byl skotský hodinář Alexander Bain. Jeho první konstrukce hodin v polovině 19. století udržovala pohyb kyvadla impulzy z elektromagnetu, spínaného mechanickým kontaktem. Ten byl nespolehlivý a nepříjemně se opaloval.
+Skutečně elektrické hodiny používaly magnetický impulz dodávaný přímo do [kyvadla](/slovnik/kyvadlo), případně [setrvačky](/slovnik/setrvacka). Tady se mění význam převodového [soukolí](/slovnik/soukoli): slouží už jen k počítání kyvů, ne k vydávání elektrických [impulzů](/slovnik/impulsy). Prvním konstruktérem, který se pokusil postavit hodiny s aplikací elektřiny, byl skotský hodinář Alexander Bain. Jeho první konstrukce hodin v polovině 19. století udržovala pohyb kyvadla impulzy z elektromagnetu, spínaného mechanickým kontaktem. Ten byl nespolehlivý a nepříjemně se opaloval.
 
 Nespolehlivý kontakt vyřešil [Matthäus Hipp](/hodinari/matthaus-hipp), který zkonstruoval jednoduchý a spolehlivý spínač: [kyvadlo](/slovnik/kyvadlo) kývá volně; poklesne-li jeho amplituda pod určitou mez, jazýček se vzpříčí v zářezu a kontakt sepne — kyvadlo dostane impulz a kývá dál. Konstrukce z roku ~1850 fungovala v matičních hodinách, které rozváděly přesný čas do podružných hodin v rámci budovy.
 

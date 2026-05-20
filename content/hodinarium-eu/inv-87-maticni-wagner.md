@@ -27,6 +27,6 @@ karta:
 
 Mechanické matiční hodiny s Grahamovým krokem a elektromagnetickým natahováním závaživého pohonu s uzavřeným Huyghensovým řetězcem.
 
-Hodiny se skládají z jicího stroje a stroje signálového, který vysílá polarizované impulzy do podružných hodin. Oba stroje jsou současně natahovány při vysílání minutového impulzu.
+Hodiny se skládají z jicího stroje a stroje signálového, který vysílá polarizované [impulzy](/slovnik/impulsy) do podružných hodin. Oba stroje jsou současně natahovány při vysílání minutového impulzu.
 
 *Text převzat z informačního panelu expozice (Panel 1, Hodinárium Děčín, 2017).*

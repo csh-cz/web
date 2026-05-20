@@ -109,7 +109,7 @@ Luz znal komárovské hodiny, ale rozhodl se pro **vlastní, podle něj zjevně 
 | Typ | Chod | Provedení | Cena |
 |---|---|---|---|
 | **Sofistikovaný** | osmidenní | epicykloidní ozubení, plné listové pastorky | dražší |
-| **Jednodušší** | denní (natahování každý den) | lucernovité pastorky, obdélníkové ozubení (tradiční, ale již zastaralé) | **100 zlatých** (bez ciferníku, ručiček, zvonů a závaží) |
+| **Jednodušší** | denní ([natahování](/slovnik/natah) každý den) | lucernovité pastorky, obdélníkové ozubení (tradiční, ale již zastaralé) | **100 zlatých** (bez ciferníku, ručiček, zvonů a závaží) |
 
 **100 zlatých = méně než polovina ceny běžných vesnických hodin** od řemeslníků. Cena je výrazně nižší než komárovských 600 zl. (i když to byl plný rozsah včetně zvonů).
 

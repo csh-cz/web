@@ -12,9 +12,9 @@ tldr: 'Sběratelský přehled analogových (C30/C40, C301/C401, PPH 413) a digit
 ---
 ukázka ze soukromé sbírky
 
-*Popis některých historických podružných hodin firmy PRAGOTRON od jednoho ze sběratelských nadšenců. Následující část sepsal pan [Michal Klíč](mailto:Scatman.Klic@seznam.cz) . Dokazuje tak, že i podružné hodiny se dají sbírat.*
+*Popis některých historických podružných hodin firmy PRAGOTRON od jednoho ze sběratelských nadšenců. Následující část sepsal pan [Michal Klíč](mailto:Scatman.Klic@seznam.cz) . Dokazuje tak, že i [podružné hodiny](/slovnik/podruzne-hodiny) se dají sbírat.*
 
-!**Podružné hodiny C 30 / C 40** \- jsou to jednostranné čtvercové podružné hodiny, se závěsem na zeď. Ovládání - se provádí minutovými polarizovanými impulzy o napětí 12 / 24 / 60V.
+!**Podružné hodiny C 30 / C 40** \- jsou to jednostranné čtvercové podružné hodiny, se závěsem na zeď. Ovládání - se provádí minutovými polarizovanými [impulzy](/slovnik/impulsy) o napětí 12 / 24 / 60V.
 
 **Materiál:** rám je čtvercového tvaru z plechových částí (svařovaný),sklo je klasické lisované čtvercového tvaru, rám mezi číselníkem a sklem je též ze svařovaných plechových částí, číselník je z hliníkového plechu,strojek: je jugoslávské výroby ( PS 4 ) je vyroben hlavně z mosazi s kombinací ocelového plechu a plastu, ručky jsou z hliníkového plechu.
 

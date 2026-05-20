@@ -12,7 +12,7 @@ Virtuální muzeum má tu výhodu, že může některé své exponáty přímo v
 
 **PROGRAMY**
 
-Vlajkovou lodí jsou **počítačové kukačky 1.0 Beta** pana Michala Špačka (Giovanni) Program vytvoří v počítači virtuální bicí hodiny, které stejně jako hodiny věžní, dokáží "odbíjet čas". Na výběr je pět různých gongů, cimbálů či zvonů včetně klasického zvuku "kukaček". Nastavit lze odbíjení v celou hodinu jednou nebo tolikrát, kolik je hodin. Lze nastavit odbíjení na konkrétní minuty. Dostupný je i **"Big Ben mód"**, který napodobuje chování zvonů Big Ben v Londýně. Viz [www.giovannisoft.cz](http://web.archive.org/web/20170627153127/http://www.giovannisoft.cz/)
+Vlajkovou lodí jsou **počítačové kukačky 1.0 Beta** pana Michala Špačka (Giovanni) Program vytvoří v počítači virtuální bicí hodiny, které stejně jako hodiny věžní, dokáží "odbíjet čas". Na výběr je pět různých gongů, cimbálů či zvonů včetně klasického zvuku "kukaček". Nastavit lze [odbíjení](/slovnik/odbijeni) v celou hodinu jednou nebo tolikrát, kolik je hodin. Lze nastavit odbíjení na konkrétní minuty. Dostupný je i **"Big Ben mód"**, který napodobuje chování zvonů Big Ben v Londýně. Viz [www.giovannisoft.cz](http://web.archive.org/web/20170627153127/http://www.giovannisoft.cz/)
 
 [Stáhnout](download/pckukacky_setup.exe) 1.5 MB
 

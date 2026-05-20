@@ -18,7 +18,7 @@ tags:
   - 1900s
 tldr: 'Dvojice stolních podružných hodin v děčínské expozici — anonymní art-deco se strojkem Siemens 1913 (otočná Z-armatura, šnekový převod) a vzácný kus se značením pražské firmy Jednotný čas.'
 ---
-[![podružné hodiny art deco](/img/elektrika/jednotny_cas/artdeco/celek_artdeco.jpg)Dvoje stolní podružné hodiny s otočnou kotvou](/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg)
+[![podružné hodiny art deco](/img/elektrika/jednotny_cas/artdeco/celek_artdeco.jpg)Dvoje stolní [podružné hodiny](/slovnik/podruzne-hodiny) s otočnou kotvou](/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg)
 
 Stolní podružné hodiny jsou samy o sobě výjimečné. První ukázkou budou nesignované hodiny ve stylu art deco se strojkem Siemens. Druhé podružné hodiny s nápisem "[Jednotný čas](/hodinari/jednotny-cas)" jsou zachované jen částečně, ale jsou také funkční.
 
@@ -56,7 +56,7 @@ Podružný strojek je značen EZ 110838, což odpovídá značení ve firmě Tel
 
 Strojek je navržen pro napětí 6V s cívkou cca 300 ohm. Jeho konstrukce je poměrně jednoduchá, ale velmi precizně provedená. Stroj má například krycí kameny na rotoru. Impulz z centrálních hodin elektromagneticky pootočí hřídel se [šnekem](/slovnik/snek) o polovinu otáčky. Šnek zabírá do ozubeného kola s 30 zuby. Na hřídeli je kluzně připojená minutová fafie.
 
-Protože je celý strojek zapuštěn do schrány a seřirovaví kolečko je normálně nepřístupné, muselo se seřizování provádt přímo za ručičky. Tím odpadl problém s polaritou impulzů.
+Protože je celý strojek zapuštěn do schrány a seřirovaví kolečko je normálně nepřístupné, muselo se seřizování provádt přímo za ručičky. Tím odpadl problém s polaritou [impulzů](/slovnik/impulsy).
 
 \* \* \*
 

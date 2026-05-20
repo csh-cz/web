@@ -17,7 +17,7 @@ tldr: 'Mateční hodiny C.T. Wagner s elektromagnetickým natahováním závaž�
 
 Pokusím se je pro vás popsat, snad to půjde lépe, protože nebudu odkázaný pouze na pokus o překlad cizojazyčných textů. Nicméně obrázek a částečně i popis pochází z nyní již zrušené anglické stránky.
 
-V principu jde o **mechanické mateční hodiny s elektromagnetickým natahováním** závažového pohonu a s Huygensovým uzavřeným řetězem. Hodiny mají dvě oddělené části.; Jicí stroj a signálový stroj k vysílání polarizovaných impulzů do podružných hodin. Oba stroje jsou společně natahovány.
+V principu jde o **mechanické mateční hodiny s elektromagnetickým natahováním** závažového pohonu a s Huygensovým uzavřeným řetězem. Hodiny mají dvě oddělené části.; Jicí stroj a signálový stroj k vysílání polarizovaných [impulzů](/slovnik/impulsy) do podružných hodin. Oba stroje jsou společně natahovány.
 
 !
 

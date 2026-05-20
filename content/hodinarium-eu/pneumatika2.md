@@ -22,7 +22,7 @@ Použití stlačeného vzduchu jako přenosového média pro mechanická zaříz
 
 ## Vídeň 1877
 
-Ve státním archivu v německém Ludwigsburgu se nachází kopie patentu vydaného ve Vídni v roce 1877 Viktoru Poppovi, Ernstu Reschovi a Albertu Mayrhoferovi na distribuovaný systém pneumatických hodin. Tři vynálezci instalovali první síť veřejných hodin se hlavními hodinami a řadou jim podřízených podružných hodin, umístěných jak na veřejných prostranstvích, tak v soukromých domech či firmách. Podružné hodiny byly řízeny z centrálních hodin pulzy stlačeného vzduchu, které byly každou minutu přenášeny hustou sítí podzemních trubek.
+Ve státním archivu v německém Ludwigsburgu se nachází kopie patentu vydaného ve Vídni v roce 1877 Viktoru Poppovi, Ernstu Reschovi a Albertu Mayrhoferovi na distribuovaný systém pneumatických hodin. Tři vynálezci instalovali první síť veřejných hodin se hlavními hodinami a řadou jim podřízených podružných hodin, umístěných jak na veřejných prostranstvích, tak v soukromých domech či firmách. [Podružné hodiny](/slovnik/podruzne-hodiny) byly řízeny z centrálních hodin pulzy stlačeného vzduchu, které byly každou minutu přenášeny hustou sítí podzemních trubek.
 
 ## Paříž 1878 - 1927
 

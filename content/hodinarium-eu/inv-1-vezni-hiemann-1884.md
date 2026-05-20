@@ -48,4 +48,4 @@ K hodinám se dochovaly dvě zajímavé zprávy, jedna pochází od studentů Ji
 
 Nepotřebný stroj byl zakoupen soukromým sběratelem, opraven a restaurován. Pro ukázkový chod v expozici byl doplněn nepůvodními cimbály a závažími.
 
-Hodinový stroj je uložen v litinovém rámu. **[Grahamův](/kroky/grahamuv-krok)** krok je řízen kyvadlem, zavěšeným na ocelové planžetě. Téměř dvoumetrová kyvadlová tyč je dřevěná, na konci osazená těžkou litinovou čočkou. Bití je čtvrťové, stroj odbíjí jednotlivé čtvrtě, v celou hodinu se spustí odbíjení příslušného počtu úderů pro danou hodinu. Plynulost bití regulují dva plechové větrníky. Energii dodávají tři těžká závaží.
+Hodinový stroj je uložen v litinovém rámu. **[Grahamův](/kroky/grahamuv-krok)** krok je řízen kyvadlem, zavěšeným na ocelové planžetě. Téměř dvoumetrová kyvadlová tyč je dřevěná, na konci osazená těžkou litinovou čočkou. Bití je čtvrťové, stroj odbíjí jednotlivé čtvrtě, v celou hodinu se spustí [odbíjení](/slovnik/odbijeni) příslušného počtu úderů pro danou hodinu. Plynulost bití regulují dva plechové větrníky. Energii dodávají tři těžká závaží.
