@@ -32,7 +32,7 @@ Je sice trochu otázka, co vlastně sluneční (respektive "noční" sluneční)
 
 Korekci na pravý místní sluneční čas pak v tomto zobrazení provádějí pohyblivé čáry východu a západu slunce společně se změnou podbarvení. Jejich nesouměrné postavení slouvisí se všemi uvedenými vlivy odchylky pásmového času od pravého Slunce. V extrémních polohách, například na pólu, mohou i splynout. Odhadnout tak lze roční období nebo naopak rovnoběžku. Horizonty východu a západu Slunce celý obrazec značně dynamizují.
 
-Doplnění o internetový "zavináčový" světově jednotný "Swatch" čas na první pohled poskytuje mnoho rozličných časových informací. Jedinou potíž vidím v tom, že běžnější je pohled na ciferník s 12-ti hodinovým dělením. Rychlé odhadnutí času "celého orloje" chce bohužel zapojit i ty malé šedé buňky mozkové a trochu to ubírá z možnosti periferního sledování. Nicméně při větším rozšíření symbolu, například u již zmíněných časově komprimovaných meteozáznamů, lze předpokládat, že implicitní čtení se bude zlepšovat.
+Doplnění o internetový "zavináčový" světově jednotný "Swatch" čas na první pohled poskytuje mnoho rozličných časových informací. Jedinou potíž vidím v tom, že běžnější je pohled na číselník s 12-ti hodinovým dělením. Rychlé odhadnutí času "celého orloje" chce bohužel zapojit i ty malé šedé buňky mozkové a trochu to ubírá z možnosti periferního sledování. Nicméně při větším rozšíření symbolu, například u již zmíněných časově komprimovaných meteozáznamů, lze předpokládat, že implicitní čtení se bude zlepšovat.
 
 Přejme proto tomuto zobrazovacímu způsobu úspěšné rozšíření.
 

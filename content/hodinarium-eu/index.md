@@ -12,7 +12,7 @@ tldr: 'Rozcestník Hodinária Děčín — webu Českého spolku horologického 
 
 Prvním směrem je tvorba tohoto webu Českého spolku horologického. Původní představa byla o shromažďování zajímavých odkazů na jiné hodinářské stránky a tvorba vlastních statí o zajímavých hodinách. Nemůžeme bohužel obsáhnout celou šíři problematiky, proto zde najdete stránky zaměřené zejména na oblastí, které jsou dosud méně popularizované. ![Instalace orloje Skála Kotrba v Hodináriu Děčín](/img/decin0/foto_0020b.jpg)Švarcvaldky, elektrické hodiny, hodiny z bakelitu, hodiny řízené mikroprocesorem, tištěné 3D tiskem, ... Nejde o muzeum hodin pouze z dávné historie, ale o muzeum různorodých historických i současných hodinových konstrukcí. Tento směr je nyní poněkud v pozadí. Nestačíme dostatečně rychle reagovat na změny uváděných odkazů nebo na změny internetových technologií, které u některých prohlížečů způsobují problémy v přístupu k informacím.
 
-V rámci tvorby tohoto webu byly vytvořeny i neobvyklé programy. Uvěďmě například [římské digitálky](/clanky/rimskedigi) či animaci [židovských hodin,](/clanky/zidovske) které na obrazovce ukazují čas počítače na historickém hebrejském ciferníku. Zejména však simulátory orlojů různých typů. Hledejte je na stráce [orloj.eu](http://orloj.eu/).
+V rámci tvorby tohoto webu byly vytvořeny i neobvyklé programy. Uvěďmě například [římské digitálky](/clanky/rimskedigi) či animaci [židovských hodin,](/clanky/zidovske) které na obrazovce ukazují čas počítače na historickém hebrejském číselníku. Zejména však simulátory orlojů různých typů. Hledejte je na stráce [orloj.eu](http://orloj.eu/).
 
 V roce 2025 byl web muzeumhodin.info přejmenován na [hodinarium.eu](https://hodinarium.eu).
 

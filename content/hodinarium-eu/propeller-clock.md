@@ -20,7 +20,7 @@ Možná první číslicové vrtulové hodiny publikoval 25. ledna 1997 pan Bob B
 
 ## Analogové vrtuálky
 
-Analogové vrtulové hodiny zobrazují ručičky imaginárních hodin. Patří tak k jednodušším typům vrtuláků. Rotující rameno hodin (vrtule) nese řadu svítících diod. Mikropočítač ve vhodný okamžik rozsvítí některé LEDky tak, aby pozorovatel viděl zdánlivé ručičky hodin. Základním problémem, který musí být vyřešen, je snímání polohy točícího se ramene. Nejčastěji se to řeší hallovou sondou. Pak už je to na programu mikroprocesoru, aby ve vhodný čas, který odpovídá natočení vrtule, rozsvítil vybrané diody. Na animaci se objevují základní číslice ciferníku. Číslice jsou rovněž vytvořeny záblesky diod ve vhodných polohách ramene. A to je již přechod k číslicovému zobrazení času.
+Analogové vrtulové hodiny zobrazují ručičky imaginárních hodin. Patří tak k jednodušším typům vrtuláků. Rotující rameno hodin (vrtule) nese řadu svítících diod. Mikropočítač ve vhodný okamžik rozsvítí některé LEDky tak, aby pozorovatel viděl zdánlivé ručičky hodin. Základním problémem, který musí být vyřešen, je snímání polohy točícího se ramene. Nejčastěji se to řeší hallovou sondou. Pak už je to na programu mikroprocesoru, aby ve vhodný čas, který odpovídá natočení vrtule, rozsvítil vybrané diody. Na animaci se objevují základní číslice číselníku. Číslice jsou rovněž vytvořeny záblesky diod ve vhodných polohách ramene. A to je již přechod k číslicovému zobrazení času.
 
 **Diodové číslicové vrtuálky**
 

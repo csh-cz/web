@@ -60,16 +60,16 @@ Krokový motor podružných hodin se otočí o **6° na impuls** (1/60 plné ot�
 V Československu byl distribuovaný čas standardem v institucích od 50. let:
 
 - **Pragotron** (Praha, 1953+) — domácí výrobce; vyráběl i master + podružné stroje pro školy, nádraží, továrny
-- **Elektročas** (1959+) — pokračovatel firmy [L. Hainz](/hodinari/l-hainz); věžní stroje s automatickým nátahem + podružné odečty ciferníků
+- **Elektročas** (1959+) — pokračovatel firmy [L. Hainz](/hodinari/l-hainz); věžní stroje s automatickým nátahem + podružné odečty číselníků
 - **MOBATIME** (Mobatime AG, Švýcarsko) — od 90. let dominantní dodavatel pro česká nádraží (ČD), Pražské metro a další distribuované systémy
 
-## Rozvod více ciferníků
+## Rozvod více číselníků
 
-Věžní stroje s mechanickým rozvodem od **královské hřídele** (vertikálního táhla od stroje k ciferníkům) nejsou technicky „podružné hodiny" — všechny ciferníky sdílí **stejný stroj přes mechanický převod**, ne přes elektrický impuls.
+Věžní stroje s mechanickým rozvodem od **královské hřídele** (vertikálního táhla od stroje k číselníkům) nejsou technicky „podružné hodiny" — všechny číselníky sdílí **stejný stroj přes mechanický převod**, ne přes elektrický impuls.
 
 **Rozdíl mezi:**
 
-- **Mechanický rozvod** — jeden stroj, mechanická distribuce (např. zámek Poděbrady: 1 stroj → 4 ciferníky přes královskou hřídel)
+- **Mechanický rozvod** — jeden stroj, mechanická distribuce (např. zámek Poděbrady: 1 stroj → 4 číselníky přes královskou hřídel)
 - **Podružný systém** — jeden master + N podružných hodin propojených dráty
 
 ## Příbuzné termíny

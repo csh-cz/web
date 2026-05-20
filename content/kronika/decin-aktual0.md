@@ -105,15 +105,15 @@ Autorem hodin je hodinář a řezbář [Josef Achrer](/hodinari/josef-achrer) (\
 
 ![Fotografie 12](/img/decin0/18_8_2015/f/foto_0012.jpg)
 
-Hodiny z roku 1985 od řezbáře a hodináře Josefa Achrera. Jsou umístěny ve vyřezávané skříni s ciferníky po obou stranách skříně. Na jedné straně jsou ručičky normálního ciferníku, na druhé straně jsou ciferníky ve tvaru otáčejících se disků. Disky představují hodiny a minuty, dále datum s jemným rozlišením dopoledne a odpoledne a disk sekund. Pohyb zajišťují dva podružné strojky Elektročas PS1000. Sekundový disk je otáčen nezávisle elektrickým motorem společně s hvězdičkou a s rotačním “[kyvadlem](/slovnik/kyvadlo)” kombinující mosaz a dřevo. Při instalaci v Hodináriu Děčín byly do skříně zabudovány elektronické hlavní hodiny, které umožňují samostatný chod i automatické nastavení po výpadku proudu.
+Hodiny z roku 1985 od řezbáře a hodináře Josefa Achrera. Jsou umístěny ve vyřezávané skříni s číselníky po obou stranách skříně. Na jedné straně jsou ručičky normálního číselníku, na druhé straně jsou číselníky ve tvaru otáčejících se disků. Disky představují hodiny a minuty, dále datum s jemným rozlišením dopoledne a odpoledne a disk sekund. Pohyb zajišťují dva podružné strojky Elektročas PS1000. Sekundový disk je otáčen nezávisle elektrickým motorem společně s hvězdičkou a s rotačním “[kyvadlem](/slovnik/kyvadlo)” kombinující mosaz a dřevo. Při instalaci v Hodináriu Děčín byly do skříně zabudovány elektronické hlavní hodiny, které umožňují samostatný chod i automatické nastavení po výpadku proudu.
 
 ![Fotografie 13](/img/decin0/18_8_2015/f/foto_0013.jpg)
 
-Hodiny z roku 1985 od řezbáře a hodináře Josefa Achrera. Detail ciferníků.
+Hodiny z roku 1985 od řezbáře a hodináře Josefa Achrera. Detail číselníků.
 
 ![Fotografie 14](/img/decin0/18_8_2015/f/foto_0014.jpg)
 
-Hodiny z roku 1985 od řezbáře a hodináře Josefa Achrera. Detail ciferníků
+Hodiny z roku 1985 od řezbáře a hodináře Josefa Achrera. Detail číselníků
 
 ![Fotografie 15](/img/decin0/18_8_2015/f/foto_0015.jpg)
 

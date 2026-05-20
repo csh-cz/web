@@ -73,7 +73,7 @@ Kyvadlo kývá většinou volně. Když jeho amplituda kyvů poklesne, "[**Hipp�
 
 Na fotografiích vpravo jsou dva základní detaily: "vyčkávací" soukolí a Hippův kontakt spínání elektromagnetu pohonu.
 
-Systém se vyráběl od roku 1907 ve společnosti Gent & Co. v Halifaxu. Na obrázku je patrně model z roku 1930. Uvádí se, že stroj mohl pohánět 4 ciferníky průměru 1,8 metru nebo jeden ciferník cca 2,3 metry.
+Systém se vyráběl od roku 1907 ve společnosti Gent & Co. v Halifaxu. Na obrázku je patrně model z roku 1930. Uvádí se, že stroj mohl pohánět 4 číselníky průměru 1,8 metru nebo jeden číselník cca 2,3 metry.
 
 O tomto neobvyklém stroji existuje od roku 2008 [blog](http://waitingtrain.blogspot.cz/) obdivovatelů a restaurátorů výrobků Genst. Velmi podrobně popisuje funkce a restaurování jednotlivých strojů. Je tam uveřejněn i [schematický výkres](/img/pulsynetic/f/wt_named_parts_big.jpg). Najdete tam informace o mnoha provedeních stroje WT i dalších výrobků firmy. Můžete si tam přečíst, jaké zkušenosti s ním mají sběratelé, například jak se snaží odstranit hluk, aby bylo možné si stroj v chodu dát do obýváku. Potěší i [video](https://youtu.be/VwSTKJxhaa4).
 

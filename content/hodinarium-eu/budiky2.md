@@ -14,18 +14,18 @@ tags:
   - nastenne
   - kienzle
   - 1800s
-tldr: 'Alternativní konstrukce buzení u švarcvaldek bez kroku — hnací soukolí přes vačku a kladívko rozeznívá velký věžový zvonek; doba buzení se nastavuje mosaznou ručkou na skleněném ciferníku.'
+tldr: 'Alternativní konstrukce buzení u švarcvaldek bez kroku — hnací soukolí přes vačku a kladívko rozeznívá velký věžový zvonek; doba buzení se nastavuje mosaznou ručkou na skleněném číselníku.'
 ---
 ![Obrázek z dobového katalogu](/img/budiky1/budik_schw1.jpg)
 
 [![svarcvald budík](/img/budiky1/budik_schw2_n.jpg)](/img/budiky1/budik_schw2.jpg)[![svarcvald budík](/img/budiky1/budik_schw2b_n.jpg)](/img/budiky1/budik_schw2b.jpg)
 
-U hodin švarcvaldského typu se budicí mechanismus vyskytuje celkem často a to již od počátku jejich výroby. Společným znakem je malý ciferníček umístěný ve středu okolo hodinového kola.
+U hodin švarcvaldského typu se budicí mechanismus vyskytuje celkem často a to již od počátku jejich výroby. Společným znakem je malý číselníček umístěný ve středu okolo hodinového kola.
 
-Objevuje se ale i odlišná technická varianta budicího mechanismu u tohoto typu hodin. Je pro ně typický kulatý skleněný ciferník s vyobrazením šipky, třetí mosazná ručka a nad skříňkou stroje velký zvonek věžního tvaru.
+Objevuje se ale i odlišná technická varianta budicího mechanismu u tohoto typu hodin. Je pro ně typický kulatý skleněný číselník s vyobrazením šipky, třetí mosazná ručka a nad skříňkou stroje velký zvonek věžního tvaru.
 
 **
-D**oba buzení se zde nastavuje mosaznou ručkou, kterou se otáčí ve směru šipky na ciferníku. Ručka je upevněna na mosazné trubičce, která je volně nasazena na hodinovém kole. Na trubce je v drážce nasazeno rameno a na jejím spodním obvodě je výřez. Celá trubička je potom pružinou přitlačována proti čepu, který je na hodinovém kole.
+D**oba buzení se zde nastavuje mosaznou ručkou, kterou se otáčí ve směru šipky na číselníku. Ručka je upevněna na mosazné trubičce, která je volně nasazena na hodinovém kole. Na trubce je v drážce nasazeno rameno a na jejím spodním obvodě je výřez. Celá trubička je potom pružinou přitlačována proti čepu, který je na hodinovém kole.
 
 ![](/img/budiky1/budik_schw3.jpg)Ke spuštění buzení dochází v okamžiku, kdy čep zapadne do výřezu a tím se trubička přitlačována pružinou posune směrem dozadu. Dojde tak i k pohybu ramene, které odblokuje hnací [soukolí](/slovnik/soukoli).
 

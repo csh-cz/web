@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium.eu/rimskedigi.htm"
 lastModified: "Mon, 01 Nov 2021 09:15:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:06.684Z"
-tldr: 'Skript Virtuálního muzea zobrazující datum a čas římskými číslicemi (4 jako IIII) — náhrada za chybějící moderní digitální ukazatele s číselným systémem klasickým pro ciferníky věží.'
+tldr: 'Skript Virtuálního muzea zobrazující datum a čas římskými číslicemi (4 jako IIII) — náhrada za chybějící moderní digitální ukazatele s číselným systémem klasickým pro číselníky věží.'
 ---
 Digitálky se *sedmisegmentovým LCD* ukazatelem zná každý. I na *digitrony* si mnozí vzpomenou. V nádražních halách dodnes někde fungují elektromechanické digitálky ukazující čas překlápěním lístků z číslicemi[![Toto nejsou římské digitálky](/img/digitalky_naramkove1_i.jpg)](/img/digitalky_naramkove1.jpg). Z ukazatele dne v měsíci na náramkových hodinkách či ze starých hodinových katalogů známe i kolečkové digitální ukazatele. Jedny zajímavé jsou na obrázcích. **To ovšem **nejsou římské** **digitálky!!!!**[![Toto nejsou římské digitálky](/img/digitalky_naramkove2_i.jpg)](/img/digitalky_naramkove2.jpg)
 

@@ -44,7 +44,7 @@ chronologický výpis z archivních dokumentů a hypotézy vzniku
 
     * * *
 
-- **1545 – smlouva s hodinářským mistrem Michalem z Českých Budějovic na postavení nových hodin a udělání sféry (ciferníku).** **Na nový stroj koupeno 96 liber železa** za 2 kopy 16 gr. **Později přikoupeno od soběslavského kováře Kocourka ještě železo za 1 kopu 4 gr 2 d.** Mistr Michal pracoval na hodinách v dílně kováře Vaňka a jedl a pil u Bartoše Kuželky za celkovou sumu 45 gr 1d. Mezitím se ve věži připravovala komora. Práce za ½ kopy provedl truhlář Mikuláš. Novou sféru namaloval malíř Hons za 5 kop. Celková cena zaplacená mistru Michalovi není známa. Prokazatelně obdržel 6 kop, stravu a naturálie.
+- **1545 – smlouva s hodinářským mistrem Michalem z Českých Budějovic na postavení nových hodin a udělání sféry (číselníku).** **Na nový stroj koupeno 96 liber železa** za 2 kopy 16 gr. **Později přikoupeno od soběslavského kováře Kocourka ještě železo za 1 kopu 4 gr 2 d.** Mistr Michal pracoval na hodinách v dílně kováře Vaňka a jedl a pil u Bartoše Kuželky za celkovou sumu 45 gr 1d. Mezitím se ve věži připravovala komora. Práce za ½ kopy provedl truhlář Mikuláš. Novou sféru namaloval malíř Hons za 5 kop. Celková cena zaplacená mistru Michalovi není známa. Prokazatelně obdržel 6 kop, stravu a naturálie.
 
     **Hodiny byly českého typu, které ukazovaly 24 hodin. První hodina začínala odpoledne o nynější 16. hodině. Začátek se ale měnil podle roční doby. Jan zámečník dělal k hodinám zámek a panty. Jíra Mohayl dělal za 4 gr. válce k hodinám. Mikuláš truhlář vyrobil rám s okenicí ke sféře za 6 gr.
     **
@@ -134,7 +134,7 @@ chronologický výpis z archivních dokumentů a hypotézy vzniku
 - 1814 – 1825 hodinář Leopold Kotrbelec (č. 235)
     **???? - na stroji signovaná nedatovaná oprava Joseph Kotrbeletz**
 
-- 1826 – soběslavský magistrát žádá do Třeboně o opravu ciferníku a hodin. Rozpočet zpracoval táborský hodinář Jan Kotrbelec (Třeboň IC 5AS 30)
+- 1826 – soběslavský magistrát žádá do Třeboně o opravu číselníku a hodin. Rozpočet zpracoval táborský hodinář Jan Kotrbelec (Třeboň IC 5AS 30)
 
 - **1829 - na čtvrťovém bicím stroji stroji signovaná oprava Joseph Kotrbeletz**
 

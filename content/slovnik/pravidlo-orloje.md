@@ -7,7 +7,7 @@ varianty:
   - pravidlko
   - ručka
   - ruka
-definice: "Železný plochý prut nesoucí ručku / slunce / měsíc na konci — ekvivalent moderní **rafije** nebo **ručičky** ciferníku. Táborský používá *pravidlo* speciálně pro ukazatele orloje, ne pro malé hodinky."
+definice: "Železný plochý prut nesoucí ručku / slunce / měsíc na konci — ekvivalent moderní **rafije** nebo **ručičky** číselníku. Táborský používá *pravidlo* speciálně pro ukazatele orloje, ne pro malé hodinky."
 pribuzne:
   - sphera
   - ruka-orloje

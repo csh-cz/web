@@ -127,7 +127,7 @@ Martínek & Řehoř 1964 zavedli „kolíčkový krok" **jako standardní pojmen
 
 Varianta B zahrnuje:
 
-- **Brocotův krok** (Achille Brocot, ~1840) — kotva s kolíčky půlkruhového průřezu, krokové kolo se zahrocenými zuby; typicky **integrovaný do osy kyvadla, viditelný zepředu ciferníku** ve francouzských stolních hodinách
+- **Brocotův krok** (Achille Brocot, ~1840) — kotva s kolíčky půlkruhového průřezu, krokové kolo se zahrocenými zuby; typicky **integrovaný do osy kyvadla, viditelný zepředu číselníku** ve francouzských stolních hodinách
 - **Kolíčkový krok Roskopfa** (Georges Frédéric Roskopf, 1867) — masová levná hodinková varianta, 18 zubů krokového kola, pohyb kotvy omezen dolehnutím palet na patní průměr (bez dorazových kolíků)
 - **Kolíčkový vestavný krok ER** — průmyslové označení varianty B v československé produkci PRIM/ELTON (Vajsar 2005)
 - Budíkový krok — Hajn 1953 (s. 626): „je to zase krok s kolíčkovou kotvou. Provedení vidlice je mnohem hrubší"

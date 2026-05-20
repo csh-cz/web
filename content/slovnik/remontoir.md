@@ -30,7 +30,7 @@ pribuzne:
 
 ## Výklad
 
-Princip remontoiru formuloval poprvé **Christiaan Huygens a Leibniz** v polovině 17. století, masově se ale prosadil až v **přesných regulátorech a věžních hodinách 19. století** — kde nelineární tlumení mechanismu (tření v lanových bubnech, oscilace závaží při větru, výkyvy v dlouhých táhlech do ciferníku) způsobuje výrazné odchylky tahu na krok.
+Princip remontoiru formuloval poprvé **Christiaan Huygens a Leibniz** v polovině 17. století, masově se ale prosadil až v **přesných regulátorech a věžních hodinách 19. století** — kde nelineární tlumení mechanismu (tření v lanových bubnech, oscilace závaží při větru, výkyvy v dlouhých táhlech do číselníku) způsobuje výrazné odchylky tahu na krok.
 
 Hajn 1953 věnuje remontoiru samostatnou pasáž v kapitole o pohonu hodin, hned za **„Natahováním věžních hodin"**:
 
@@ -53,7 +53,7 @@ Sušický 1900 popisuje **princip remontoiru u kapesních hodinek**:
 - **Závažový remontoir** — pomocné malé závaží zavěšené na páce, hlavní stroj ho v intervalech zvedá. Typický pro **velké astronomické regulátory** (Greenwich Observatory) a **velké věžní hodiny** (Big Ben — Edmund Beckett Denison vyvinul „double three-legged gravity escapement" 1854, který je v podstatě integrovaný remontoir)
 - **Elektrický remontoir** — pomocné péro / závaží je dotahováno **elektromagneticky** (Hipp 1842, Mayer 1875). Hojně používán v hlavních a vedlejších hodinách elektrických rozvodů času (Telegrafenmaster, Bahnhofs-Uhren). Hajn 1953 ho dokumentuje jako etapu mezi mechanickým a plně elektronickým pohonem.
 
-**Pro věžní hodiny je remontoir zásadní** u dlouhých táhel a velkých ciferníků — kde tření v transmission znemožňuje **přesný pohon přímo z lanového bubnu**. Velký Westminsterský stroj (Big Ben) je klasickým příkladem: Denison ve 4. vydání svého *Rudimentary Treatise* (1860, Westminster Clock) detailně diskutuje, proč gravity escapement je v podstatě „interním remontoirem" stroje.
+**Pro věžní hodiny je remontoir zásadní** u dlouhých táhel a velkých číselníků — kde tření v transmission znemožňuje **přesný pohon přímo z lanového bubnu**. Velký Westminsterský stroj (Big Ben) je klasickým příkladem: Denison ve 4. vydání svého *Rudimentary Treatise* (1860, Westminster Clock) detailně diskutuje, proč gravity escapement je v podstatě „interním remontoirem" stroje.
 
 **Použití v cs prostředí:** Knespl 2023 popisuje **Robertův krok** Jana Prokeše jako variantu, která **nepotřebuje remontoir** díky vyrovnanému tahu kolíčkového kroku — proto Prokešovy stroje fungují s relativně přesným chodem i bez pomocného péra. Větší a přesnější věžní hodiny (Westminster, vídeňské observatoře) bez remontoiru pracovat nemohly.
 

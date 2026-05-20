@@ -6,7 +6,7 @@ varianty:
   - bluditi
   - blud
   - blud spher
-definice: "Sloveso: ukazovat odchylně, jít chybně (o hodinách / astronomickém ciferníku). \"Blud spher\" = chyba v ukazování polohy slunce a měsíce."
+definice: "Sloveso: ukazovat odchylně, jít chybně (o hodinách / astronomickém číselníku). \"Blud spher\" = chyba v ukazování polohy slunce a měsíce."
 pribuzne:
   - majlit
 isStub: true
@@ -20,7 +20,7 @@ references:
 
 ## Výklad
 
-V moderní češtině *bloudit* znamená spíš "chodit bez cíle". V Táborského kontextu je *bluditi* technický termín — *blud spher* = systematická odchylka astronomického ciferníku od skutečné polohy nebeských těles.
+V moderní češtině *bloudit* znamená spíš "chodit bez cíle". V Táborského kontextu je *bluditi* technický termín — *blud spher* = systematická odchylka astronomického číselníku od skutečné polohy nebeských těles.
 
 ## Příbuzné termíny
 

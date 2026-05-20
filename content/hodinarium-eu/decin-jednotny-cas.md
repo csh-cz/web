@@ -44,7 +44,7 @@ Odkazy: Götsch, Taschenbuch für Fernmeldetechniker 1950, Teil 2Ww 285: Die ele
 
 Předmětem podnikání firmy [Jednotný čas](/sbirka/karta/inv-101-jednotny-cas/), s. s r.o., Praha nebyla výroba, ale nákup, prodej, pronajímání a instalování elektrických hodin. Společnost byla ustavena v červenci 1923. V roce 1948 byla začleněna do podniku Chromotechny Šternberk a v následujícím roce se společně se závodem [Ludvík Hainz](/hodinari/ludvik-hainz) spojila do závodu Elektročas. (Podle knihy Zdeněk Martínek, Dějiny Československého hodinářského průmyslu.)
 
-Zachovalo se poměrně málo výrobků s označením "Jednotný čas" na ciferníku. Ještě větší raritou jsou tyto vyobrazené podružné stolní hodiny. Možná byly v kanceláři vedení firmy.
+Zachovalo se poměrně málo výrobků s označením "Jednotný čas" na číselníku. Ještě větší raritou jsou tyto vyobrazené podružné stolní hodiny. Možná byly v kanceláři vedení firmy.
 
 Hodinový stroj je zapuštěn do masivního dřevěného bloku. Tvar je spíše moderna než kubismus. Chybí bohužel přední rámeček a ani nemáme žádnou fotografii, jak vypadal. Dobu výroby odhadujeme spíše na dobu před II. světovou válkou, ačkoliv firma dovážela strojky až do roku 1944. Na schránce vzadu je namalované pořadové či inventární číslo 309.
 

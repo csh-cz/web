@@ -5,7 +5,7 @@ kategorie: astronomicke
 varianty:
   - okolek
   - vobruč
-definice: "Prstenec / ráfek na ciferníku orloje — typicky pohyblivý železný kruh s počtem hodin (1–24 pro českou hodinu, 1–12 pro polouorlojní), který se otáčí kolem astronomického ciferníku."
+definice: "Prstenec / ráfek na číselníku orloje — typicky pohyblivý železný kruh s počtem hodin (1–24 pro českou hodinu, 1–12 pro polouorlojní), který se otáčí kolem astronomického číselníku."
 pribuzne:
   - sphera
   - hodiny-celeorloje

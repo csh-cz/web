@@ -10,7 +10,7 @@ prekladyEn:
   - term: maker's mark
 prekladyFr:
   - term: signature
-definice: "Označení **autora hodin** na ciferníku, můstku, spodním desce nebo dnu pouzdra. U historických věžních a stojacích hodin obvykle na čele rámu (např. „THEODOR JANKOWSKY in OLMÜTZ 1902\"); u kapesních a náramkových hodinek na ciferníku, můstku (rotorová strana) nebo na můstku setrvačky."
+definice: "Označení **autora hodin** na číselníku, můstku, spodním desce nebo dnu pouzdra. U historických věžních a stojacích hodin obvykle na čele rámu (např. „THEODOR JANKOWSKY in OLMÜTZ 1902\"); u kapesních a náramkových hodinek na číselníku, můstku (rotorová strana) nebo na můstku setrvačky."
 pribuzne:
   - pouzdro
   - kalibr
@@ -37,7 +37,7 @@ jména výrobce + města + (volitelně) roku umožňuje přesnou identifikaci
 3. **Vyrážené číslo na vrcholu páky** — výrobní (sériové) číslo
  v kombinaci s letopočtem, použité jako vnitřní identifikace dílny.
 
-4. **Ciferníková signatura** (kapesní / náramkové hodinky) — typicky
+4. **Číselníková signatura** (kapesní / náramkové hodinky) — typicky
  pod 12. hodinou („PATEK PHILIPPE & Co GENEVE", „Vacheron Constantin").
 
 5. **Můstková signatura** — kvalitní mechanické hodinky mají na

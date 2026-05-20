@@ -12,7 +12,7 @@ prekladyFr:
   - term: verre
     genus: m
   - term: glace
-definice: "Průhledná desková součást krytu hodinek — kryje ciferník a chrání ručky před prachem, vlhkostí a poškozením. Historicky **plné sklo**, později **plexisklo / akryl** (1940–1980), dnes výhradně **safírové sklo** (umělý korund Al₂O₃, Mohs 9) u kvalitních hodinek."
+definice: "Průhledná desková součást krytu hodinek — kryje číselník a chrání ručky před prachem, vlhkostí a poškozením. Historicky **plné sklo**, později **plexisklo / akryl** (1940–1980), dnes výhradně **safírové sklo** (umělý korund Al₂O₃, Mohs 9) u kvalitních hodinek."
 pribuzne:
   - pouzdro
   - rubinovy-kamen

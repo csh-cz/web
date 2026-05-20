@@ -19,7 +19,7 @@ relatedKarty:
   - inv-268-podruzne-brillie
 tldr: 'Francouzský systém centrálního času s půlsekundovým kyvadlem a třicetisekundovými střídavými impulzy, dochovaný funkční exemplář v Hodináriu i kontext synchronizace přes signál z Eiffelovy věže.'
 ---
-![Mateční hodiny Brillie v Hodináriu bez ciferníku pro lepší pohled na stroj.](/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg)
+![Mateční hodiny Brillie v Hodináriu bez číselníku pro lepší pohled na stroj.](/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg)
 
 Elektromagnetické impulsní mateční hodiny Brilié byly navržené a vyrobené ve Francii. Základní typ s půlsekundovým [kyvadlem](/slovnik/kyvadlo) byl navržen tak, aby každých třicet sekund poskytoval střídavé [impulzy](/slovnik/impulsy) pro podřízené hodiny. Jako zdroj centrálního času donedávna sloužil ve Francii v mnoho továrnách, nádražích, školách i v nemocnicích. V Čechách se používala soustava minutových impulzů, pro impulzy 30 sekund by byly potřeba jiné [podružné hodiny](/slovnik/podruzne-hodiny). Proto je výskyt hodin Brillie zde spíše vzácností. O to větší radost máme z funkčního exponátu v Hodináriu.
 
@@ -27,7 +27,7 @@ Magnet speciálního tvaru zavěšený na konci těžkého půlsekundového [kyv
 
 ### Poznámky k rekonstrukci
 
-V nálezovém stavu byl stroj hodin namontován na originální mramorové desce. Nezachovala se však skříň hodin, závěs kyvadla a držák na baterii. Značně poškozeny byly závěsné šrouby. Při rekonstrukci byl stroj namontován do neautentické prosklené skříně a to bez ciferníku, aby byl chráněn před prachem a zároveň poskytoval pohled na činnost stroje. Byl vyroben nový držák na monočlánek 1,5 V. Nově byl vyroben závěs kyvadla.
+V nálezovém stavu byl stroj hodin namontován na originální mramorové desce. Nezachovala se však skříň hodin, závěs kyvadla a držák na baterii. Značně poškozeny byly závěsné šrouby. Při rekonstrukci byl stroj namontován do neautentické prosklené skříně a to bez číselníku, aby byl chráněn před prachem a zároveň poskytoval pohled na činnost stroje. Byl vyroben nový držák na monočlánek 1,5 V. Nově byl vyroben závěs kyvadla.
 
 Originální propojovací dráty probíhají na do zadní straně mramorové desky. Doba kyvu je regulována mosaznou koulí na závitové části [kyvadlové](/slovnik/kyvadlo) tyče vyrobené pravděpodobně z Invaru. *![Matiční a podružné hodiny Brilie](/img/elektrika/brillie/Brillie_x2_m.jpg)*Kyvadlo jednostranně postrkuje hodinový stroj. Dvě malá železná jádra otočná podél cívky rozptylují magnetické pole a používají se pro doladění chodu hodin. Protože hodiny mají poměrně výrazný zvuk, byl pro rychlé nastavení doby kyvu použit program Clock Tuner na telefonu s OS Android. Vzhledem k tomu, že zvukově převažuje kyv na levou stranu, kdy stroj posunuje rohatku, byla jako referenční frekvence zvolena hodnota 3600 BPH (tj. 1 Hz). Ukázalo se, že nově vyrobené "pendl péro" je příliš dlouhé a nebylo již možné bez jeho zkrácení posunout těžiště kyvadla dostatečně vysoko. V současné době jdou hodiny s dostatečnou přesností.
 

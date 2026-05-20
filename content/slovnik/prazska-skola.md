@@ -26,7 +26,7 @@ za Rudolfa II.:
 
 Pozn.: Nejznámější hodinář z této doby je **Mikuláš z Kadaně** (1410),
 ale Sladkovský zaznamenává až renesanční fázi. Atribuce 1410 je u
-Sladkovského napsaná až ve výkladu o astronomickém ciferníku.
+Sladkovského napsaná až ve výkladu o astronomickém číselníku.
 
 **Rudolfínská éra**:
 

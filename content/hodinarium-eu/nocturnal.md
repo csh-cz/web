@@ -21,9 +21,9 @@ Nocturnal je přístroj k určení místního času na základě natočení refe
 
 Princip nocturnalu je velmi jednoduchý. Spojnice Polárky a referenční hvězdy v "zadním kole" Velkého vozu je považována za hodinovou ručičku místního hvězdného času ve 24 hodinovém dělení. Je dobré si uvědomit, že zdánlivá rotace oblohy je proti směru hodinových ručiček. Proto i stupnice na nocturnalu je v opačném směru než u běžných hodin.
 
-Při měření hodinového úhlu přístroj držíme rukojetí nebo závěsem dolů, tak aby rovina ciferníku byla kolmá na spojnici středního otvoru a Polárky a Polárku jsme tímto otvorem viděli. Pohyblivým ramenem (Alhidádou) nastavíme směr k referenční hvězdě. Vše naznačeno na pravém obrázku. Na správně natočené stupnici pak odečteme místní čas, neboť nocturnal hvězdný čas "přepočítal".
+Při měření hodinového úhlu přístroj držíme rukojetí nebo závěsem dolů, tak aby rovina číselníku byla kolmá na spojnici středního otvoru a Polárky a Polárku jsme tímto otvorem viděli. Pohyblivým ramenem (Alhidádou) nastavíme směr k referenční hvězdě. Vše naznačeno na pravém obrázku. Na správně natočené stupnici pak odečteme místní čas, neboť nocturnal hvězdný čas "přepočítal".
 
-Správné nastavení ciferníku nocturnalu je nutné denně upravit, protože hvězdný den je cca o 4 minuty kratší než běžný den. Natočení ciferníku volíme na základě aktuálního data v kalendáři. Vnitřní disk je třeba natočit tak, aby značka pro vybranou referenční hvězdu ukazovala na aktuální datum na vnějším disku.
+Správné nastavení číselníku nocturnalu je nutné denně upravit, protože hvězdný den je cca o 4 minuty kratší než běžný den. Natočení číselníku volíme na základě aktuálního data v kalendáři. Vnitřní disk je třeba natočit tak, aby značka pro vybranou referenční hvězdu ukazovala na aktuální datum na vnějším disku.
 
 ![torzo nocturnalu](/img/nocturnal/aukro_nocturnal.jpg)
 

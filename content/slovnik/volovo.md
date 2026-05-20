@@ -21,7 +21,7 @@ references:
 
 ## Výklad
 
-Princip — protiváha pro vyvážení excentrického indikátoru — je dodnes standardní u všech indikátorových mechanismů (např. ve velkých kalendářních ciferníkách). V moderní češtině: **olověná protiváha**, **vyvažovací závaží**. Změna *v-/u- → o-* (paralelně s *vocel → ocel*, *vobruč → obruč*) je rys 17.–18. století.
+Princip — protiváha pro vyvážení excentrického indikátoru — je dodnes standardní u všech indikátorových mechanismů (např. ve velkých kalendářních číselníkách). V moderní češtině: **olověná protiváha**, **vyvažovací závaží**. Změna *v-/u- → o-* (paralelně s *vocel → ocel*, *vobruč → obruč*) je rys 17.–18. století.
 
 ## Příbuzné termíny
 

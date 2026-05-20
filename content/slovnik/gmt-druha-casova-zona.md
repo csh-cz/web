@@ -49,7 +49,7 @@ nomenklatuře zůstává **„GMT"** (značkový tag, Rolex GMT-Master 1955).
  (bez ovlivnění minut) → 24-h ukazuje **původní home time**.
  Vhodné pro **cestovatele**.
 
-3. **World timer** (Patek Philippe 5110, 5230) — celá rotující ciferníková
+3. **World timer** (Patek Philippe 5110, 5230) — celá rotující číselníková
  plocha s 24 městy, 24-h ručka. Stisk korunky posune čas o **1 hodinu**
  napříč všemi 24 displaying zónami.
 

@@ -20,7 +20,7 @@ references:
 
 ## Výklad
 
-Také *hodiny německé* — protože systém zavedli ze Svaté říše římské. Dnes standardní 12hodinový (resp. 24hodinový) formát. Termín *polouorlojní* odráží to, že na ciferníku se prstenec točí dvakrát rychleji než *celoorlojní* (24h) prstenec.
+Také *hodiny německé* — protože systém zavedli ze Svaté říše římské. Dnes standardní 12hodinový (resp. 24hodinový) formát. Termín *polouorlojní* odráží to, že na číselníku se prstenec točí dvakrát rychleji než *celoorlojní* (24h) prstenec.
 
 ## Příbuzné termíny
 

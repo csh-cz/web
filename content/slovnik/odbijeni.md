@@ -59,9 +59,9 @@ Většina věžních hodin má **dva samostatné bicí stroje** v rámci jednoho
 
 ## Historický kontext
 
-Odbíjení času **z věží** je v Evropě doloženo nejméně od **13. století** (zvonění mnichů + první mechanické věžní stroje). Středověký městský obyvatel se orientoval v čase **sluchem**, ne zrakem — ciferník byl sekundárním doplněm. To je důvod, proč:
+Odbíjení času **z věží** je v Evropě doloženo nejméně od **13. století** (zvonění mnichů + první mechanické věžní stroje). Středověký městský obyvatel se orientoval v čase **sluchem**, ne zrakem — číselník byl sekundárním doplněm. To je důvod, proč:
 
-- Středověké věže měly velké zvony **slyšitelné km daleko**, ale ciferníky často chyběly nebo byly jen jednoručkové
+- Středověké věže měly velké zvony **slyšitelné km daleko**, ale číselníky často chyběly nebo byly jen jednoručkové
 - I dnes je v některých vesnicích **slyšet kostelní úder každou čtvrt hodiny** — kulturní artefakt z doby, kdy to bylo praktické
 
 ## Pražský orloj — kombinace

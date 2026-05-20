@@ -14,7 +14,7 @@ tldr: 'Krbové synchronní hodiny z roku 1931 s motorem 220V/50 Hz a převodovko
 ---
 ![celkový pohled EVERETEDGECOMBE](/img/elektrika/edgecombe/celek.jpg)
 
-V expozici Hodinária jsou vystaveny funkční krbové hodiny, označené na ciferníku Everest Edgecombe elektric synchroclock London. Jádrem hodinového stroje je válcové [pouzdro](/slovnik/pouzdro), v němž je ukryt motorek 220V/50 Hz, mající 3 000 ot/min. Na něj navazuje převodové [soukolí](/slovnik/soukoli), které otáčky redukuje na potřebnou jednu otáčku za minutu, čímž je ovládáno standardní ručkové soukolí. Stroj je uložen v hezké skříňce z dubového dřeva, svým tvarem odpovídající době výroby, tj. roku 1931.
+V expozici Hodinária jsou vystaveny funkční krbové hodiny, označené na číselníku Everest Edgecombe elektric synchroclock London. Jádrem hodinového stroje je válcové [pouzdro](/slovnik/pouzdro), v němž je ukryt motorek 220V/50 Hz, mající 3 000 ot/min. Na něj navazuje převodové [soukolí](/slovnik/soukoli), které otáčky redukuje na potřebnou jednu otáčku za minutu, čímž je ovládáno standardní ručkové soukolí. Stroj je uložen v hezké skříňce z dubového dřeva, svým tvarem odpovídající době výroby, tj. roku 1931.
 
 Zajímavostí je, že celý rotor včetně převodovky je zaletován v mosazném [pouzdru](/slovnik/pouzdro). Celé toto pouzdro se zasouvá do statoru. Působí to poněkud mysteriózně.
 

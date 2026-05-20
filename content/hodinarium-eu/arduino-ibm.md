@@ -72,7 +72,7 @@ Hlášení stavu se lehce liší:
 
 Červená RGB LED značí zastavení. V normálním stavu jednou za minutu krátce blikne. Rychlé blikání červené LED značí stav PANIKA, kdy není dosaženo počáteční připojení k internetu. (Stav PANIKA lze vyvolat stiskem tlačítka při zapnutí napájení. ) V tomto stavu je potřeba se připojit k wifi impulzeru a na IP adrewse 192.168.4.1. nastavit funkční připojení. Úspěšné připojení signalizuje malá modrá LEDka. Při ztrátě připojení během provozu, malá modrá LEDka zhasne, ale hodiny fungují dál.
 
-V rámečku vlevo je externí monitor reálného provozu NTP impulzeru v Hodináriu. Pro snadnější identifikaci je zobrazena MAC i přidělená IP adresa, ačkoliv tato IP adresa je dostupná pouze v místní síti. Je uvažován pouze dvanáctihodinový ciferník.
+V rámečku vlevo je externí monitor reálného provozu NTP impulzeru v Hodináriu. Pro snadnější identifikaci je zobrazena MAC i přidělená IP adresa, ačkoliv tato IP adresa je dostupná pouze v místní síti. Je uvažován pouze dvanáctihodinový číselník.
 
 **Panel č. 5, kde je NTP impulzer zapojen, je v provozu maximálně
 v intervalu cca 9:00 až 18:00.**

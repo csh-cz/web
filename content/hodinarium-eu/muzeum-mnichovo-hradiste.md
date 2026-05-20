@@ -14,9 +14,9 @@ tags:
   - baroko
   - 1700s
   - cesko
-tldr: 'Mladoboleslavské muzeum chová vzácný kapucínský kabinetní orloj s pohyblivými figurami a astronomickým ciferníkem — typ klášterní učební pomůcky pro výklad nebeských jevů z 18. století.'
+tldr: 'Mladoboleslavské muzeum chová vzácný kapucínský kabinetní orloj s pohyblivými figurami a astronomickým číselníkem — typ klášterní učební pomůcky pro výklad nebeských jevů z 18. století.'
 ---
 
-Městské muzeum v Mnichově Hradišti (severní Čechy, okres Mladá Boleslav). Ve sbírkách najdete unikátní **kapucínský kabinetní orloj** — barokní cabinet clock s pohyblivými figurami a astronomickým ciferníkem.
+Městské muzeum v Mnichově Hradišti (severní Čechy, okres Mladá Boleslav). Ve sbírkách najdete unikátní **kapucínský kabinetní orloj** — barokní cabinet clock s pohyblivými figurami a astronomickým číselníkem.
 
 Kapucínské cabinet clocks byly vytvářeny pro klášterní použití, často jako učební pomůcky pro výklad astronomických jevů. Mnichohradišťský exemplář patří mezi vzácné dochované kusy v české sbírce.

@@ -4,7 +4,7 @@ slug: pukla
 kategorie: astronomicke
 varianty:
   - pukla
-definice: "Terč / disk uprostřed astronomického ciferníku orloje, na němž jsou namalovaná zvířetníková znamení. Slouží k odečtu fáze měsíce vůči slunci."
+definice: "Terč / disk uprostřed astronomického číselníku orloje, na němž jsou namalovaná zvířetníková znamení. Slouží k odečtu fáze měsíce vůči slunci."
 pribuzne:
   - sphera
   - zodiak

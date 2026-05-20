@@ -12,9 +12,9 @@ originalUrl: "https://hodinarium.eu/orient.htm"
 lastModified: "Wed, 24 Feb 2021 13:07:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:24.375Z"
-tldr: 'Analýza ciferníku víceletých kalendářních hodinek na principu 28letého slunečního cyklu — týž princip stoletých kalendářů na orlojích. Doplněno o stejnou indikaci v sovětských hodinkách Raketa a varování před padělky.'
+tldr: 'Analýza číselníku víceletých kalendářních hodinek na principu 28letého slunečního cyklu — týž princip stoletých kalendářů na orlojích. Doplněno o stejnou indikaci v sovětských hodinkách Raketa a varování před padělky.'
 ---
-![Ciferník Orient CEU07005WX](/img/Orient/orientceu07005wx_dial.jpg)
+![Číselník Orient CEU07005WX](/img/Orient/orientceu07005wx_dial.jpg)
 
 **Orient Watch Co., Ltd**., japonský výrobce hodinek ([o firmě](https://cs.wikipedia.org/wiki/Orient_Watch)), vyrábí víceleté kalendářní hodinky již mnoho let. Dávají vám okamžité odpovědi na otázky například „jaký je datum příštího pátku?”. [Kalendář](/img/Orient/kalendar.jpg) je založen na dávno známém principu nazývaném sluneční kruh či solární cyklus (lat. circulus solaris, cyclus solaris). To je kalendářní cyklus 28 let, ve kterém se v juliánském kalendáři opakují roky, ve kterých připadají dny v týdnu na stejná data. Na základě slunečního kruhu byla jednotlivým rokům přiřazována tzv. nedělní písmena. Na tomto principu byl i "stoletý kalendář" na kalendářních deskách různých orlojů. I přes nyní používaný Gregoriánský kalendář se tento princip v hodinkách Orient uplatňuje dodnes.
 
@@ -35,12 +35,12 @@ Celý cyklus se tak prodloužil ze 4 na 400 let. To je ovšem příliš dlouhá 
 
 Naštěstí v běžném životě pro nastavení na rok mimo rozsah nemusíme tento výpočet absolvovat. Využijeme toho, že víme kolikátého je dnes a jaký je den v týdnu. Nastavíme číselník tak, aby den a datum odpovídal bez ohledu na zobrazovaný rok. V dalších měsících postupujeme jednoduše stejně nebo využijte rok zjištěný v předchozím kroku.
 
-[![Ciferník Orient CEU07005WX](/img/Orient/raketa.jpg)](/img/Orient/raketa.jpg)
+[![Číselník Orient CEU07005WX](/img/Orient/raketa.jpg)](/img/Orient/raketa.jpg)
 
 ## Kalendářní systém hodinek Raketa
 
 Na stejném principu je založen víceletý kalendářní systém hodinek Raketa. Číselníky jsou sice uspořádány jinak, ale jde o stejné údaje. Nastavený rok proti měsíci je v dolní části hodinek. V horní části je sedm sloupců s daty, nad kterými se nastaví stupnice dnů v týdnu.
 
-Toto provedení hodinek Raketa je dosti neobvyklé. Nepodařilo se nám zjistit žádné údaje o jejich výrobě. Víme o tom, že hodinky Raketa se vyráběly i s 24 hodinovým ciferníkem a dalšími komplikacemi, například s otočnou lunetou světových časů. Mate-li nějaké další informace, podělte se.
+Toto provedení hodinek Raketa je dosti neobvyklé. Nepodařilo se nám zjistit žádné údaje o jejich výrobě. Víme o tom, že hodinky Raketa se vyráběly i s 24 hodinovým číselníkem a dalšími komplikacemi, například s otočnou lunetou světových časů. Mate-li nějaké další informace, podělte se.
 
-Pozor na fake. Tyto hodinky [Sharp](/img/kalendarni/hodinky-sharp-calendar-quartz.jpeg) funkce víceletého kalendáře nesplňují ačkoliv se to na ciferníku tvrdí. Šířka označení dnů překračuje dva sloupce v tabulce dnů v týdnu. Ve výřezu je proto vidět jen tři a něco dnů v týdnu místo potřebných sedmi dnů. Podobný problém je i u označení posledního dvojčíslí roku. Ve výřezu jsou pouze čtyři. Hodinky tedy ukazují čas, den v měsíci v okýnku a den v týdnu například ve středu výřezu ciferníku. Funkce víceletého kalendáře nejde nastavit, je to jen pro sporný efekt. Použitelné jsou pouze pro lidi, kteří by stejně víceletý kalendář nastavit neuměli.
+Pozor na fake. Tyto hodinky [Sharp](/img/kalendarni/hodinky-sharp-calendar-quartz.jpeg) funkce víceletého kalendáře nesplňují ačkoliv se to na číselníku tvrdí. Šířka označení dnů překračuje dva sloupce v tabulce dnů v týdnu. Ve výřezu je proto vidět jen tři a něco dnů v týdnu místo potřebných sedmi dnů. Podobný problém je i u označení posledního dvojčíslí roku. Ve výřezu jsou pouze čtyři. Hodinky tedy ukazují čas, den v měsíci v okýnku a den v týdnu například ve středu výřezu číselníku. Funkce víceletého kalendáře nejde nastavit, je to jen pro sporný efekt. Použitelné jsou pouze pro lidi, kteří by stejně víceletý kalendář nastavit neuměli.

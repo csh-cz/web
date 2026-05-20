@@ -268,7 +268,7 @@ export const kroky: Krok[] = [
     shrnuti:
       'Rozšíření elektronického kroku o mikroprocesor (MCU), který přebírá řízení motorku a může synchronizovat čas s externím etalonem (DCF77 dlouhovlnný signál, GPS, NTP přes síť). Umožňuje automatickou korekci letního/zimního času, kompenzaci teploty, samočinnou diagnostiku a remote management.',
     charakteristika:
-      'Přesnost řádově ±1 s/rok díky externí synchronizaci. Mobatime, Bodet, Bürk Mobatime moderní řady. U sítí veřejných hodin nezbytné — bez MCU by každý ciferník vyžadoval ruční nastavení po výpadku napájení.',
+      'Přesnost řádově ±1 s/rok díky externí synchronizaci. Mobatime, Bodet, Bürk Mobatime moderní řady. U sítí veřejných hodin nezbytné — bez MCU by každý číselník vyžadoval ruční nastavení po výpadku napájení.',
     relatedSlugs: [],
     skupina: 'elektronicke',
   },

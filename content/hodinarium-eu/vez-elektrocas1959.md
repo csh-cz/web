@@ -21,9 +21,9 @@ tldr: 'Mechanický čtvrťový věžní mechanismus s elektrickým natahem od na
 ---
 ![současný stroj Elektročas 1959](/img/vez/f/elektrocas1959.jpg)
 
-**V** současné době řídí ručičky ciferníků hodin soběslavské věže stroj Elektročas, který v roce 1959 nahradil **[starý stroj](/kronika/vez1)**. Možná po 475 letech. Tento stroj je tedy ve službě více než padesát let. Přejeme mu, aby ještě dlouho vydržel a nikdo nepomýšlel na jeho odchod do důchodu.
+**V** současné době řídí ručičky číselníků hodin soběslavské věže stroj Elektročas, který v roce 1959 nahradil **[starý stroj](/kronika/vez1)**. Možná po 475 letech. Tento stroj je tedy ve službě více než padesát let. Přejeme mu, aby ještě dlouho vydržel a nikdo nepomýšlel na jeho odchod do důchodu.
 
-Stroj vyrobila firma, která pod hlavičkou Elektročas pokračovala ve výrobě věžních strojů po bývalé a nyní opět obnovené firmě **[Hainz](http://www.lhainz.cz/)**. Jedná se o mechanický kyvadlový [čtvrťový stroj](/slovnik/ctvrtove-biti) s elektrickým nátahem. Minutová hřídel je vedena vzhůru k rozvodovce na čtyři ciferníky. Odbíjecí cimbály jsou ve značné výšce pod druhou barokní bání věže.
+Stroj vyrobila firma, která pod hlavičkou Elektročas pokračovala ve výrobě věžních strojů po bývalé a nyní opět obnovené firmě **[Hainz](http://www.lhainz.cz/)**. Jedná se o mechanický kyvadlový [čtvrťový stroj](/slovnik/ctvrtove-biti) s elektrickým nátahem. Minutová hřídel je vedena vzhůru k rozvodovce na čtyři číselníky. Odbíjecí cimbály jsou ve značné výšce pod druhou barokní bání věže.
 
 ## Diferenciální remontoire
 

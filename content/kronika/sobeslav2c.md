@@ -15,7 +15,7 @@ scrapedAt: "2026-04-27T17:36:37.648Z"
 - **1484 – první historická zmínka o věžních hodinách v Soběslavi.** Šlo o hodiny bicí ukazující český čas. (Čas počítaný na 24 hodin od západu Slunce.)
     V roce 1490 dovezeny nové struny k cimbálům, 1544 pořízen (nový?) cimbál
 
-- **1545 – smlouva s hodinářským mistrem Michalem z Českých Budějovic na postavení nových hodin a udělání sféry** *(jednoho ciferníku??)***.** **Na nový stroj koupeno 96 liber železa** **Později přikoupeno od soběslavského kováře Kocourka ještě železo za 1 kopu 4 gr 2 d.** (Celkem tedy nakoupeno cca 80 kg železa, tedy přibližně polovina současné váhy stroje.)
+- **1545 – smlouva s hodinářským mistrem Michalem z Českých Budějovic na postavení nových hodin a udělání sféry** *(jednoho číselníku??)***.** **Na nový stroj koupeno 96 liber železa** **Později přikoupeno od soběslavského kováře Kocourka ještě železo za 1 kopu 4 gr 2 d.** (Celkem tedy nakoupeno cca 80 kg železa, tedy přibližně polovina současné váhy stroje.)
 
 - **1675 - 1677 Předělávány hodiny z českého na německý čas a značně přestavěny nejprve hodinářem Václavem Partlem a později Němcem Janem Möltzerem, hodinářem z Jindřichova Hradce.** Stroj čtvrťového bití možná doplněn v tomto roce nebo až v roce 1707 ??.
 
@@ -27,15 +27,15 @@ scrapedAt: "2026-04-27T17:36:37.648Z"
 
 - **2010 restaurovány** restaurátorským ateliérem věžních hodin akademických sochařů Petra a Melánie Skálových a v roce 2011 vystaveny ve věžní klenotnici.
 
-Uvedené archivní zápisy a nalezené [signatury](/slovnik/signatura) nedávají jednoznačnou odpověď na stáří hodin, ani jednoznačně neurčují jejich tvůrce. Rovněž není jasné jejich umístění ve věži, počet ciferníků a ani umístění a počet odbíjecích cimbálů. Stáří stroje bohužel nepotvrzují nalezené signatury. Rám signován není. Nejstarší nalezená [signatura](/slovnik/signatura) je z roku 1743.
+Uvedené archivní zápisy a nalezené [signatury](/slovnik/signatura) nedávají jednoznačnou odpověď na stáří hodin, ani jednoznačně neurčují jejich tvůrce. Rovněž není jasné jejich umístění ve věži, počet číselníků a ani umístění a počet odbíjecích cimbálů. Stáří stroje bohužel nepotvrzují nalezené signatury. Rám signován není. Nejstarší nalezená [signatura](/slovnik/signatura) je z roku 1743.
 
 Soběslavské hodiny mají vysoký štíhlý ručně kovaný rám. Sloupky jsou zakončeny hlavicemi kovanými do podoby gotických hřebů. Základ stroje, zejména rám, může pocházet z roku 1484 z prvních soběslavských hodin. Většinu zápisů o vytvoření nových hodin lze spíše chápat jako přestavbu, nahrazení opotřeběných kol. Svědčí o tom i použitá množství železa nedostačující na celý stroj. Hlavní stroj bez "čtvrtku" (tedy jen jicí a [bicí stroj](/slovnik/bici-stroj) celých hodin) dnes váží 160 kg, tedy cca 300 liber.
 
-Záměna výměny hodin s výměnou ciferníku je v historických zápisech častá. Formulace "byly na věž taženy hodiny nový" pravděpodobně hovoří o ciferníku, který se musí i pro svou velikost dopravovat vně věže. Naproti tomu hodiny jsou uvnitř věže. Ve věži není vhodné okno, kterým by se hodiny dostaly dovnitř a tažení po točitém schodišti není možné pro značné rozměry sestaveného stroje. Hodiny byly patrně sestaveny až na definitivním místě.
+Záměna výměny hodin s výměnou číselníku je v historických zápisech častá. Formulace "byly na věž taženy hodiny nový" pravděpodobně hovoří o číselníku, který se musí i pro svou velikost dopravovat vně věže. Naproti tomu hodiny jsou uvnitř věže. Ve věži není vhodné okno, kterým by se hodiny dostaly dovnitř a tažení po točitém schodišti není možné pro značné rozměry sestaveného stroje. Hodiny byly patrně sestaveny až na definitivním místě.
 
 Rám byl několikrát přestavován, takže záseky, které měly usnadňovat jeho montáž, již neodpovídají dnešnímu stavu. O novějších přestavbách svědčí i to, že na hřídeli lanového bubnu jicího stroje se nachází jedno ozubené kolo bez zjevné funkce. Nejpravděpodobnější se jeví hypotéza o přestavbách do původního rámu.
 
-Ze zachovaných 4 ručkových převodů je jeden výrazně starší. Je kován z ručně vyrobené pásnice. Na ostatní je již použito železo kované hamrem. To potvrzuje domněnku, že hodiny měly původně jen jeden ciferník a byly patrně v jiném místě než nyní. Kdy byly hodiny rozšířeny o rozvodovku a další ciferníky nevíme. Žádný ze zápisů neuvádí 4 ciferníky. Vždy se píše jen o jednom ciferníku (sféře). Z vyobrazení věže je zřejmé, že nejpozději na přelomu 19. a 20. století bylo na věži ciferníků více.
+Ze zachovaných 4 ručkových převodů je jeden výrazně starší. Je kován z ručně vyrobené pásnice. Na ostatní je již použito železo kované hamrem. To potvrzuje domněnku, že hodiny měly původně jen jeden číselník a byly patrně v jiném místě než nyní. Kdy byly hodiny rozšířeny o rozvodovku a další číselníky nevíme. Žádný ze zápisů neuvádí 4 číselníky. Vždy se píše jen o jednom číselníku (sféře). Z vyobrazení věže je zřejmé, že nejpozději na přelomu 19. a 20. století bylo na věži číselníků více.
 
 Další nejasnosti v datování, existenci a umístění se týkají cimbálů. První zmínka o cimbálech je již z roku 1490. Neuvádí, kde se cimbály nalézali. Barokní střecha věže, kde jsou nyní pod druhou bání umístěné, je až z roku 1750. Lze se domnívat, že dříve se cimbály nacházely ve zvonici s ostatními zvony.
 

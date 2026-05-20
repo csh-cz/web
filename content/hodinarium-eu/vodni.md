@@ -14,7 +14,7 @@ Vodní hodiny se objevily na scéně již v počátcích měření času v Egypt
 
 Starověcí stavitelé hodin se museli vyrovnat s několika problémy. Bylo nutné se vypořádat s faktem, že voda samovolně neteče rovnoměrně. Rychlost toku závisí zejména na rozdílu hladin. Množství protékající vody závisí na velikosti otvoru. Vytékající voda z nádoby, snižuje rozdíl hladin, a tak musí být případná stupnice nerovnoměrná.
 
-Druhým nepříjemným faktem bylo to, že vodní hodiny se stavěly převážně v době, kdy se délka "hodin" v průběhu roku měnila. Bylo nutné průběžně upravovat velikost otvorů, kterými voda natékala nebo vytékala. Další, častěji používanou, možností bylo měnit objem nádoby - například zasouváním vhodného trnu, nebo použít soustavy "ciferníků".
+Druhým nepříjemným faktem bylo to, že vodní hodiny se stavěly převážně v době, kdy se délka "hodin" v průběhu roku měnila. Bylo nutné průběžně upravovat velikost otvorů, kterými voda natékala nebo vytékala. Další, častěji používanou, možností bylo měnit objem nádoby - například zasouváním vhodného trnu, nebo použít soustavy "číselníků".
 
 Bylo také třeba měřit delší časové úseky. První vodní hodiny představovala miska s malým otvorem, položená na vodní hladinu. Miska se zvolna plnila vodou, až se za relativně stálý časový usek ponořila. Patrně problémy s neustálým hledáním utopené misky vedly k sestrojení mechanismů, které začaly počítat, kolikrát k potopení došlo, nebo naopak s větší přesností měřily pomalou změnu výšky hladiny u velkých nádob. U vodních hodin se tak objevily první převody. Nejprve z kladek a provazů, později převody pomocí ozubených kol. Vodní hodiny tak daly základ k mechanickým hodinám všeobecně.
 

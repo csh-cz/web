@@ -22,7 +22,7 @@ references:
 
 ## Výklad
 
-Lat. *horae inequales* (= nestejné hodiny) nebo *horae temporales*. Antický systém užívaný v Řecku, Římě i středověké liturgii (např. *prima*, *tertia*, *sexta*, *nona* = 1., 3., 6., 9. planetní hodina dne). Staroměstský orloj je dodnes jedním z mála, který tyto hodiny dokáže zobrazovat (zakřivené linie planetních hodin na ciferníku).
+Lat. *horae inequales* (= nestejné hodiny) nebo *horae temporales*. Antický systém užívaný v Řecku, Římě i středověké liturgii (např. *prima*, *tertia*, *sexta*, *nona* = 1., 3., 6., 9. planetní hodina dne). Staroměstský orloj je dodnes jedním z mála, který tyto hodiny dokáže zobrazovat (zakřivené linie planetních hodin na číselníku).
 
 ## Příbuzné termíny
 

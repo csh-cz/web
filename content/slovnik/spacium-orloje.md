@@ -5,7 +5,7 @@ kategorie: astronomicke
 varianty:
   - spacium denní
   - spacium noční
-definice: "Denní × noční pásmo na astronomickém ciferníku — barevně odlišená oblast (typicky lazurová pro den, tmavá modř nebo černá pro noc) ukazující, kdy slunce stojí nad obzorem (\"supra orizontem\") a kdy pod obzorem."
+definice: "Denní × noční pásmo na astronomickém číselníku — barevně odlišená oblast (typicky lazurová pro den, tmavá modř nebo černá pro noc) ukazující, kdy slunce stojí nad obzorem (\"supra orizontem\") a kdy pod obzorem."
 pribuzne:
   - sphera
   - supra-orizontem

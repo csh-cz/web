@@ -5,7 +5,7 @@ kategorie: astronomicke
 varianty:
   - sphera
   - sphéra
-definice: "Astronomický ciferník / nebeský kotouč orloje s indikátory slunce, měsíce, zodiaku a hodin. U Táborského má Staroměstský orloj *dvě sphery* (přední astronomická + dolní kalendářní) plus malou na věži Týnské."
+definice: "Astronomický číselník / nebeský kotouč orloje s indikátory slunce, měsíce, zodiaku a hodin. U Táborského má Staroměstský orloj *dvě sphery* (přední astronomická + dolní kalendářní) plus malou na věži Týnské."
 pribuzne:
   - okolek
   - pukla
@@ -23,7 +23,7 @@ references:
 
 ## Výklad
 
-Z latinského *sphaera* ("koule, nebe"); v 16. století běžně psané s grafémem *sph-* (řecký digraf). V moderní češtině: **astronomický ciferník** nebo **nebeský kotouč orloje**. Etymologie souvisí s astronomickými sférami antiky a středověku.
+Z latinského *sphaera* ("koule, nebe"); v 16. století běžně psané s grafémem *sph-* (řecký digraf). V moderní češtině: **astronomický číselník** nebo **nebeský kotouč orloje**. Etymologie souvisí s astronomickými sférami antiky a středověku.
 
 ## Příbuzné termíny
 

@@ -1,5 +1,5 @@
 ---
-title: "torzo ciferníku s ručkou a rozvody"
+title: "torzo číselníku s ručkou a rozvody"
 slug: "inv-62-torzo-ciferniku-s-ruckou-a-rozvody"
 category: "sbirka"
 podsekce: "karta"

@@ -71,7 +71,7 @@ Na rozdíl od menších „flatbed” strojů, které se v té době ujímaly v 
 - Rám a hřídele: litina
 - Ozubená kola: litina, **bez dalšího mechanického opracování**
 - Krok: **[Grahamův](/kroky/grahamuv-krok)** s bronzovými paletkami pro snížení tření
-- Cena: **600 zlatých** (bez ciferníku, ručiček a zvonů — ty si mohli zákazníci pořídit dle potřeby)
+- Cena: **600 zlatých** (bez číselníku, ručiček a zvonů — ty si mohli zákazníci pořídit dle potřeby)
 
 Jedny tyto hodiny byly umístěny **na půdě Pražské polytechniky**, ponechány vystaveny počasí, a po několik týdnů srovnávány s přesnými hodinami astronomické observatoře. **Maximální denní odchylka byla 30 sekund**.
 
@@ -109,7 +109,7 @@ Luz znal komárovské hodiny, ale rozhodl se pro **vlastní, podle něj zjevně 
 | Typ | Chod | Provedení | Cena |
 |---|---|---|---|
 | **Sofistikovaný** | osmidenní | epicykloidní ozubení, plné listové pastorky | dražší |
-| **Jednodušší** | denní ([natahování](/slovnik/natah) každý den) | lucernovité pastorky, obdélníkové ozubení (tradiční, ale již zastaralé) | **100 zlatých** (bez ciferníku, ručiček, zvonů a závaží) |
+| **Jednodušší** | denní ([natahování](/slovnik/natah) každý den) | lucernovité pastorky, obdélníkové ozubení (tradiční, ale již zastaralé) | **100 zlatých** (bez číselníku, ručiček, zvonů a závaží) |
 
 **100 zlatých = méně než polovina ceny běžných vesnických hodin** od řemeslníků. Cena je výrazně nižší než komárovských 600 zl. (i když to byl plný rozsah včetně zvonů).
 

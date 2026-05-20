@@ -46,7 +46,7 @@ Sladkovský 1947 popisuje **specifické typy a chronologii**:
  zvláštní geometrií zubů krokového kola
 - **Závažový pohon** se dvěma nebo třemi řetízky (nátahy 1× týdně,
  bicí stroj samostatně)
-- **Smaltovaný emailový ciferník** s římskými čísly, často s mosazným
+- **Smaltovaný emailový číselník** s římskými čísly, často s mosazným
  bezelem
 
 **Konec tradice:**

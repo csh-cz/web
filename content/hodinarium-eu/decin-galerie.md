@@ -48,14 +48,14 @@ v roce 1985 pro restauraci Českých drah v rámci rekonstrukce nádraží
 v pražských Holešovicích. V roce 2015 je zakoupil soukromý sběratel
 a zapůjčil je do Hodinária.
 
-Hodiny jsou v ručně vyřezávané skříni s ciferníky po obou stranách.
-Na jedné straně klasický ciferník s ručičkami, na druhé ciferníky ve tvaru
+Hodiny jsou v ručně vyřezávané skříni s číselníky po obou stranách.
+Na jedné straně klasický číselník s ručičkami, na druhé číselníky ve tvaru
 otáčejících se disků: hodiny, minuty, datum s rozlišením dopoledne/odpoledne
 a sekundy. Pohyb zajišťují dva podružné strojky **Elektročas PS1000**.
 Při instalaci v Hodináriu byly do skříně zabudovány elektronické hlavní hodiny
 SH71, které umožňují samostatný chod i automatické nastavení po výpadku proudu.
 
-![Hodiny Josefa Achrera — oboustranná skříň s klasickým a diskovým ciferníkem](/img/Achrer/2strany2.jpg)
+![Hodiny Josefa Achrera — oboustranná skříň s klasickým a diskovým číselníkem](/img/Achrer/2strany2.jpg)
 
 ### Drobná kovaná plastika Zdeňka Legnera
 

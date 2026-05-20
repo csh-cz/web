@@ -30,7 +30,7 @@ Srdcem retrográdních hodin je modul hodin reálného času DS3231. Výrobce uv
 
 ![chronulátor konstrukce Kavalír](/img/decin/chronulator/ret7.jpg)
 
-Hodinový ciferník má dvanáctku uprostřed a poněkud neobvykle ukazuje od 6 do 6 hodin. Na obrázku je pondělí, 1 hodina 5 minut.
+Hodinový číselník má dvanáctku uprostřed a poněkud neobvykle ukazuje od 6 do 6 hodin. Na obrázku je pondělí, 1 hodina 5 minut.
 
 Tyto kuriózní hodiny dokazují, že pro unikátní funkci lze kombinovat různé technologie. Poměrně širokou škálu různých řešení můžete vyhledat třeba na slovo "[chronulator](https://www.google.cz/search?q=Chronulator&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjfgoWq9ZXOAhUIKsAKHeGbB9cQ_AUICCgB&biw=1353&bih=652&dpr=0.9#imgrc=_)".
 
