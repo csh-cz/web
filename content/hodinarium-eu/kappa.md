@@ -25,7 +25,7 @@ Informace o firmě shromáždila AI.
 Kappa Orologi Industriali byla založena v Itálii pravděpodobně v druhé polovině 20. století, v době, kdy narůstala potřeba synchronizace času ve velkých průmyslových a námořních komplexech. Jejich výrobní program zahrnoval zejména:
 
 - **Master hodiny** (hlavní hodiny) schopné synchronizovat desítky až stovky podružných (slave) hodin.
-- **Podružné hodiny** s elektrickým pohonem minutovou či půlminutovou synchronizací.
+- **[Podružné hodiny](/slovnik/podruzne-hodiny)** s elektrickým pohonem minutovou či půlminutovou synchronizací.
 - **Specializované námořní hodiny**, které splňovaly požadavky na odolnost vůči vlhkosti, vibracím a změnám teploty.
 - **Systémy pro synchronizaci času** na palubách lodí, v přístavních provozech nebo v průmyslových areálech.
 
@@ -43,7 +43,7 @@ V posledních letech již firma **Kappa Orologi Industriali** není aktivní. Je
 
 ## Podružné **reverzibilní** námořní hodiny SSC-321
 
-Typickým příkladem námořních hodin KAPPA je zobrazený reverzibilní podružný stroj typu **SSC-321**, který pracuje s 24 V impulzy na trojici vodičů označených COM, ADV, REL Použití dvou cívek strojek odlišuje od u nás běžných strojků Elektročas. Hodiny jsou schopné otáčet ručičky v obou směrech. Každá cívka je pro jeden směr. Po připojení 30s polarizovaných impulzů na svorky COM a ADV, jdou hodiny normálním způsobem. Při přivedení polarizovaných pulzů na svorky COM a REV jdou hodiny proti směru normálních hodinových ručiček. To slouží pro rychlejší nastavení na správný čas při startu, po výpadku a například při změně na nižší časové pásmo. Přetočení o jednu hodinu zpět je samozřejmě mnohem rychlejší než o 11 hodin vpřed. Zejména tehdy, když hodiny reagují i na krátké impulzy. (Zkoušeno při impulzech a mezerách 75 ms.)
+Typickým příkladem námořních hodin KAPPA je zobrazený reverzibilní podružný stroj typu **SSC-321**, který pracuje s 24 V [impulzy](/slovnik/impulsy) na trojici vodičů označených COM, ADV, REL Použití dvou cívek strojek odlišuje od u nás běžných strojků Elektročas. Hodiny jsou schopné otáčet ručičky v obou směrech. Každá cívka je pro jeden směr. Po připojení 30s polarizovaných impulzů na svorky COM a ADV, jdou hodiny normálním způsobem. Při přivedení polarizovaných pulzů na svorky COM a REV jdou hodiny proti směru normálních hodinových ručiček. To slouží pro rychlejší nastavení na správný čas při startu, po výpadku a například při změně na nižší časové pásmo. Přetočení o jednu hodinu zpět je samozřejmě mnohem rychlejší než o 11 hodin vpřed. Zejména tehdy, když hodiny reagují i na krátké impulzy. (Zkoušeno při impulzech a mezerách 75 ms.)
 
 Tyto hodiny byly vyrobeny Koreji. Možná si zachovaly svou základní kvalitu, ale některé konstrukční detaily mohly být oproti původním italským modelům zjednodušeny. Reverzibilní slave hodiny nejsou nic neobvyklého v profesionálních systémech. Vyráběly je firmy: Siemens, Bodet, Gorgy, Mobatime, Simplex, Kappa, ... Asijští výrobci se v oblasti **reverzibilních slave hodin** soustředili spíše na praktickou výrobu pro export, často jako OEM dodavatelé pro západní značky nebo pro lodní/průmyslové aplikace.
 

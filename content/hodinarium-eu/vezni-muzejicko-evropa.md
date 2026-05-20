@@ -76,7 +76,7 @@ Nalezené odkazy:
 
 Muzeum sídlí ve věži kostela sv. Kateřiny. Jedná se o pobočku Historického muzea v Gdaňsku a uvádí se, že je to jediné specializované muzeum v Polsku. Vystavují se zde exponáty dokládající vývoj mechanických i elektrických věžních hodin. Ve věži se nachází i zvonkohra s 50 zvonky o celkové hmotnosti skoro 3 tuny. Inspirací by mělo být i to, že měly propagační materiály také v angličtině.
 
-Věžní hodinářské museum bylo založeno v roce 1996. Naštěstí požár, který vypukl v kostele 22. května 2006, měl za následek pouze drobné poškozením exponátů muzea převážně od vody použité k hašení. Požár však vážně poškodil věž. Během rekonstrukce věže bylo muzeum uzavřeno a probíhaly opravy a údržba exponátů. Před opětovným otevřením byla uspořádána výstava, ze které jsou vystavené fotografie. Mimo jiné dokazují, jak působivá je hra světla na starých exponátech a cihlových zdech.Jako raritu je třeba uvést, že zde jsou od roku 2011 vystaveny pulsarové hodiny, které jako časovou základnu používají impulsy vysílané pulsary.
+Věžní hodinářské museum bylo založeno v roce 1996. Naštěstí požár, který vypukl v kostele 22. května 2006, měl za následek pouze drobné poškozením exponátů muzea převážně od vody použité k hašení. Požár však vážně poškodil věž. Během rekonstrukce věže bylo muzeum uzavřeno a probíhaly opravy a údržba exponátů. Před opětovným otevřením byla uspořádána výstava, ze které jsou vystavené fotografie. Mimo jiné dokazují, jak působivá je hra světla na starých exponátech a cihlových zdech.Jako raritu je třeba uvést, že zde jsou od roku 2011 vystaveny pulsarové hodiny, které jako časovou základnu používají [impulsy](/slovnik/impulsy) vysílané pulsary.
 
 ![Muzeum Zegarów Wieżowych Gdaňsk](/img/Mindelheim/f/foto_0014.jpg)
 

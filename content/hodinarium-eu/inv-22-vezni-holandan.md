@@ -26,6 +26,6 @@ karta:
 
 Hodinový stroj je uložen ve zdobném litinovém rámu. Sestává ze dvou soukolí: jicího a bicího. Jicí stroj má vratný **[kotvový krok](/kroky/kotvovy-krok)** ( Clementův).
 
-Bicí stroj je zajímavý málo užívaným umístěním [větrníku](/slovnik/vetrnik) kolmo na stroj. Na obou stranách kola lanového bubnu jsou osazeny zdvihací kolíky. Jedna strana je určená pro odbíjení celých hodin, druhá pro odbíjení půlí. Je to řízeno vačkou na lanovém bubnu hodinového stroje. Vačka pohybuje táhlem, které přesouvá tyč se zdvihacími palci tak, aby v půl byly v záběru kolíky na jedné straně, a v celou kolíky na druhé straně lanového bubnu. V soukolí chybí [početník](/slovnik/pocetnik) s pastorkem.
+Bicí stroj je zajímavý málo užívaným umístěním [větrníku](/slovnik/vetrnik) kolmo na stroj. Na obou stranách kola lanového bubnu jsou osazeny zdvihací kolíky. Jedna strana je určená pro [odbíjení](/slovnik/odbijeni) celých hodin, druhá pro odbíjení půlí. Je to řízeno vačkou na lanovém bubnu hodinového stroje. Vačka pohybuje táhlem, které přesouvá tyč se zdvihacími palci tak, aby v půl byly v záběru kolíky na jedné straně, a v celou kolíky na druhé straně lanového bubnu. V soukolí chybí [početník](/slovnik/pocetnik) s pastorkem.
 
-Zajímavé je též natahování přes pastorky, usazené na otočné tyči.
+Zajímavé je též [natahování](/slovnik/natah) přes pastorky, usazené na otočné tyči.

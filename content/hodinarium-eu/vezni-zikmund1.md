@@ -20,7 +20,7 @@ Pan Zikmund píše:
 
 *Jestlipak jste si všimli, že se nám rozeběhly věžní hodiny na škole Šumava?!*
 
-*To byla akce roku, i když osobně jsem se na tomto záslužném počinu podílel pouze minimálně. Hodinový stroj má nyní zcela nové unikátní elektrické natahování. Hodiny zatím nebijí, ale podrobnosti si teprve musím zjistit, takže se můžete těšit, určitě brzy vám zde tuto akci přiblížím podrobněji.*
+*To byla akce roku, i když osobně jsem se na tomto záslužném počinu podílel pouze minimálně. Hodinový stroj má nyní zcela nové unikátní elektrické [natahování](/slovnik/natah). Hodiny zatím nebijí, ale podrobnosti si teprve musím zjistit, takže se můžete těšit, určitě brzy vám zde tuto akci přiblížím podrobněji.*
 
 *Tak z akce roku se nakonec stalo rozčarování
 roku. Ale pěkně od začátku.*

@@ -16,7 +16,7 @@ tldr: 'Otevřená konstrukce levné řídící jednotky podružných hodin synch
 ---
 **[**pro třídrátový nepolarizovaný rozvod dle IBM**](/projekty/arduino-ibm)**
 
-![Prototyp NTP Witty impulser](/img/arduino/NTP_W_E.jpg)Elektronika je stále výkonnější a levnější. I elektronické hodiny jsou stále přesnější, případně synchronizované dle DCF 77, GPS, sítě mobilních operátorů nebo z NTP servery Internetu. Pomalu ztrácí význam řešit sítě jednotného času na bázi rozvodů polarizovaných či stejnosměrných impulzů. Přesto jsou místa, kde takové sítě jsou vhodné. Přistoupili jsme proto k vývoji SW pro co nejlevnější variantu elektronických hlavních hodin na bázi modulu ESP8266 ESP-12F do napětí 24 V jak pro polarizované impulzy, tak i pro třídrátový rozvod nepolarizovaných pulzů hodin INTERNATIONAL.
+![Prototyp NTP Witty impulser](/img/arduino/NTP_W_E.jpg)Elektronika je stále výkonnější a levnější. I elektronické hodiny jsou stále přesnější, případně synchronizované dle DCF 77, GPS, sítě mobilních operátorů nebo z NTP servery Internetu. Pomalu ztrácí význam řešit sítě jednotného času na bázi rozvodů polarizovaných či stejnosměrných [impulzů](/slovnik/impulsy). Přesto jsou místa, kde takové sítě jsou vhodné. Přistoupili jsme proto k vývoji SW pro co nejlevnější variantu elektronických hlavních hodin na bázi modulu ESP8266 ESP-12F do napětí 24 V jak pro polarizované impulzy, tak i pro třídrátový rozvod nepolarizovaných pulzů hodin INTERNATIONAL.
 
 ## Základní parametry navrhovaných hlavních hodin pro polarizované pulzy do 24V
 
@@ -102,7 +102,7 @@ Dobu čekání lze zkrátit vyvoláním režimu PANIKA bez připojování k WiFi
 
 - SE(L)C - nastavení časového pásma; implicitně čas GMT.
 - Cyklus 12:00 Při aktivace hodiny ukazují čas pouze v intervalu 00:00 až 12:00, jinak je cyklus 24 hodin.
-- Opakovat poslední pulz (Tento parametr byl doplněn 5.9.2024 není na obrázku) Způsobí, že při startu zařízení se nejprve opakuje poslední vysílaný polarizovaný impulz. Na opakovaný polarizovaný impulz hodiny podružné hodiny typu Elektročas nereagují. Dojde však ke sjednocení hodin, pokud byly hlavní hodiny vypnuty právě během pulzu. Pokud v síti jsou hodiny reagující na nepolarizované pulzy, je potřeba volbu vypnout.
+- Opakovat poslední pulz (Tento parametr byl doplněn 5.9.2024 není na obrázku) Způsobí, že při startu zařízení se nejprve opakuje poslední vysílaný polarizovaný impulz. Na opakovaný polarizovaný impulz hodiny [podružné hodiny](/slovnik/podruzne-hodiny) typu Elektročas nereagují. Dojde však ke sjednocení hodin, pokud byly hlavní hodiny vypnuty právě během pulzu. Pokud v síti jsou hodiny reagující na nepolarizované pulzy, je potřeba volbu vypnout.
 - Externí monitor Zapnutí nebo vypnutí vysílání dat pro externí monitor.
 - Délka impulzu v rozmezí 75 až 4000 \[ms\].
 - Délka mezery v rozmezí 75 až 4000 \[ms\]. (Uplatní se pouze při rychlém chodu.)

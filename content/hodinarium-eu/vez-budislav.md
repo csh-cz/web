@@ -20,7 +20,7 @@ tldr: 'Stroj s vřetenovým krokem a půlovým bitím z kostela Nanebevzetí Pan
 ---
 ![kostel](/img/vez/Budislav/f/kostel.jpg)
 
-Do expozice Věžního muzejíčka v Soběslavi byl v roce 2012 zapůjčen vřetenový stroj věžních hodin z kostela Nanebevzetí Panny Marie z nedaleké obce Budislav. Stroj byl před mnoha lety demontován a nahrazen mechanickým strojem Hainz. Byl v chodu, vyžadoval však pravidelné ruční natahování, což je možná zábava pro hodinářského nadšence, méně to vyhovuje jako povinnost. V současné době je odstaven i stroj Hainz a hodiny ovládá elektrický stroj.
+Do expozice Věžního muzejíčka v Soběslavi byl v roce 2012 zapůjčen vřetenový stroj věžních hodin z kostela Nanebevzetí Panny Marie z nedaleké obce Budislav. Stroj byl před mnoha lety demontován a nahrazen mechanickým strojem Hainz. Byl v chodu, vyžadoval však pravidelné ruční [natahování](/slovnik/natah), což je možná zábava pro hodinářského nadšence, méně to vyhovuje jako povinnost. V současné době je odstaven i stroj Hainz a hodiny ovládá elektrický stroj.
 
 Obec Budislav s místními částmi Zálužím u Budislavě a Hlavňov se nachází 11 km severně od Soběslavi směrem ke Kamenici nad Lipou. První zmínka o vsi pochází z roku 1357, kdy na tomto místě byla založena osada vladykou Budislavem. Od té doby nese jméno svého zakladatele. Původní vladycká tvrz byla roku 1754 přestavěna a na jejím místě dnes stojí zámek, který slouží starším občanům jako domov pro seniory. Dominantou obce je Budislavská hora, která sahá do výšky 560 m n. m.. Malebně působí kapličky na Hlavňově a Zaluží u Budislavě.
 

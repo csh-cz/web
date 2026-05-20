@@ -78,7 +78,7 @@ Vlivem zubu času se vylámaly některé spouštěcí kolíky a byl udělán dal
 
 ## Cimbály — Bellmannova slévárna 1868
 
-S hodinovým a zvonicím strojem byly do Hodinária zapůjčeny dva původní cimbály. Sloužily k odbíjení čtvrtí a celých hodin hodinovým strojem; na velký cimbál zároveň vyzváněl zmíněný přídavný zvonicí stroj.
+S hodinovým a zvonicím strojem byly do Hodinária zapůjčeny dva původní cimbály. Sloužily k [odbíjení](/slovnik/odbijeni) čtvrtí a celých hodin hodinovým strojem; na velký cimbál zároveň vyzváněl zmíněný přídavný zvonicí stroj.
 
 | Rozměr | Velký cimbál | Malý cimbál |
 |---|---|---|
@@ -150,6 +150,6 @@ Na pravé straně téhož obrázku je vidět převod 1:2 ze závěrkového kola 
 
 Na čtvrtém obrázku je dobře vidět kyvadlový krok.
 
-Na posledním obrázku bicího stroje celých hodin je vlevo nahoře vidět páka pomocného pohonu v době natahování jicího stroje. Páka se zapřela o zuby kola a pomocí (neautentického) závažíčka poháněla jicí stroj.
+Na posledním obrázku bicího stroje celých hodin je vlevo nahoře vidět páka pomocného pohonu v době [natahování](/slovnik/natah) jicího stroje. Páka se zapřela o zuby kola a pomocí (neautentického) závažíčka poháněla jicí stroj.
 
 *Text vychází z restaurátorské zprávy P. Skály a poznámek členů Českého spolku horologického. Publikováno v rámci konsolidace 5 původních článků o Bychorách (2026-05). Související konstrukční výklad o věžních rozvodech najdete v článku [Další kola made in Prokeš](/sbirka/bychory-dalsi-kola).*

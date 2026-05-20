@@ -25,7 +25,7 @@ tldr: Jediná polská specializovaná sbírka věžních strojů (zal. 1996) ve 
 
 Specializované muzeum věžních hodin sídlící ve **věži kostela sv. Kateřiny** v Gdaňsku. Pobočka **Historického muzea v Gdaňsku** — uvádí se jako jediné specializované muzeum věžních hodin v Polsku. Založeno 1996.
 
-Vystavují se zde exponáty dokumentující vývoj **mechanických i elektrických věžních hodin**. Ve věži se nachází i zvonkohra s 50 zvonky o celkové hmotnosti skoro 3 tuny. **Od roku 2011** jsou zde vystaveny **pulsarové hodiny** používající jako časovou základnu impulsy vysílané pulsary.
+Vystavují se zde exponáty dokumentující vývoj **mechanických i elektrických věžních hodin**. Ve věži se nachází i zvonkohra s 50 zvonky o celkové hmotnosti skoro 3 tuny. **Od roku 2011** jsou zde vystaveny **pulsarové hodiny** používající jako časovou základnu [impulsy](/slovnik/impulsy) vysílané pulsary.
 
 V květnu 2006 vypukl v kostele požár, který poškodil věž a znamenal dočasné uzavření muzea (drobné poškození exponátů od vody). Bývalá silná internetová prezentace s virtuální prohlídkou po požáru zanikla. Jeden z klíčových inspiračních zdrojů pro Věžní muzejíčko v Soběslavi.
 

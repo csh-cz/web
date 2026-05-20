@@ -18,7 +18,7 @@ tldr: 'Polovičatá konstrukce mezi mechanickým a elektrickým strojem — chod
 relatedKarty:
   - inv-50-podruzne-vezni-vh1-elektrocas
 ---
-Chodový podružný věžní stroj Elektročas vypouštěný minutovými impulzy
+Chodový podružný věžní stroj Elektročas vypouštěný minutovými [impulzy](/slovnik/impulsy)
 představuje můstek k nově budované expozici elektrických hodin v Hodináriu
 v Děčíně. Stroj v expozici pochází z roku **1959**.
 
@@ -37,7 +37,7 @@ elektrickými pohony přímo u ciferníků a řídící hodiny jsou čistě elek
 
 Na první fotografii je přední strana stroje v klidu. V pravé horní části je
 vypouštěcí ústrojí, ve středu náhon na ciferníky, vlevo dole motor elektrického
-natahování. Druhá fotografie ukazuje kontrolní ciferník a brzdící [větrník](/slovnik/vetrnik).
+[natahování](/slovnik/natah). Druhá fotografie ukazuje kontrolní ciferník a brzdící [větrník](/slovnik/vetrnik).
 
 ## Jak vypouštění funguje
 

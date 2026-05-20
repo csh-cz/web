@@ -28,6 +28,6 @@ Stroj je řízen volně kývajícím [kyvadlem](/slovnik/kyvadlo). V horní čá
 
 V okamžiku vykývnutí kyvadla na jednu krajní pozici se otevře kontakt elektrického obvodu na jedné krajní pozici a uvolní cívku elektrického proudu. Přitažením s větší vůlí vlastní hmotnosti přes tento kontakt předá impulz [kyvadlu](/slovnik/kyvadlo). Obdobný proces se opakuje při vykývnutí kyvadla do druhé krajní pozice. Tím je řízen krokový motorek.
 
-Na něj je napojena vačka, která vždy po minutě sepne kontakt rtuťový, vysílající nepolarizované impulzy do podružných hodin.
+Na něj je napojena vačka, která vždy po minutě sepne kontakt rtuťový, vysílající nepolarizované [impulzy](/slovnik/impulsy) do podružných hodin.
 
 *Text převzat z informačního panelu expozice (Panel 1, Hodinárium Děčín, 2017). Vedle Ericssona stávaly do nedávna na Panelu 1 také Signální hodiny Bauer & Co. Chemnitz; v aktuálním uspořádání je nahradily [Hodiny Kienzle](/sbirka/karta/inv-91-hodiny-kienzle/) (inv. 91).*

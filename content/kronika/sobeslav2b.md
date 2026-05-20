@@ -16,7 +16,7 @@ chronologický výpis z archivních dokumentů a hypotézy vzniku
 
 ***(Modřě odlišeny doplněné [signatury](/slovnik/signatura) na stroji.)***
 
-- **1484 – první historická zmínka o věžních hodinách v Soběslavi.** V purkmistrovských účtech se nachází položky na opravy hodin, jejich natahování a mazání. Práce prováděl zámečník Štandl za plat 70 gr. ročně. Zároveň získal zdarma obchůdek (SOka Tábor, I M 2)
+- **1484 – první historická zmínka o věžních hodinách v Soběslavi.** V purkmistrovských účtech se nachází položky na opravy hodin, jejich [natahování](/slovnik/natah) a mazání. Práce prováděl zámečník Štandl za plat 70 gr. ročně. Zároveň získal zdarma obchůdek (SOka Tábor, I M 2)
 
 - 1485 – dokončeny zednické práce na věži a krátce nato opraveny hodiny nejmenovaným mistrem
 

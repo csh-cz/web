@@ -23,7 +23,7 @@ Potřebujeme, nebo si jen přejeme, hodiny, které jdou přesně a správně. K 
 
 - mechanické řízení
 - pneumatické řízení
-- řízení polarizovanými elektrickými impulzy po speciálním vedení
+- řízení polarizovanými elektrickými [impulzy](/slovnik/impulsy) po speciálním vedení
 - řízení frekvencí rozvodné sítě
 
 - synchronizace časovou informací po speciálním vedení (sériové kódování, MOBAline, ...)
@@ -45,7 +45,7 @@ Ukázka zde i jinde na webu [www.veznihodiny.cz/ukaz19.htm](http://www.veznihodi
 
 ## Pneumatické řízení podružných hodin - zajímavá kuriozita
 
-Dnes trochu kuriózně působí pneumatický **[systém Elektronom](elektricke1.htm#elektron)** z třicátých let minulého století, který na trh uvedl Junghans. Zavedl žárovkový kompresor (častěji překládáno jako kompresní žárovka) s pulzním elektrickým ohřevem. Získal tak nejenom nový způsob elektrického natahování hodin, ale i možnost rozvádět tyto tlakové pulzy po budově a pohánět tak až 6 podružných hodin. Na obrázku z patentového spisu vidíme princip natahování matečních hodin, způsob rozvodu tlakových pulzů a princip funkce podružných hodin. Český popis jsme si dovolili doplnit, takže neodpovídá přesně originálu.
+Dnes trochu kuriózně působí pneumatický **[systém Elektronom](elektricke1.htm#elektron)** z třicátých let minulého století, který na trh uvedl Junghans. Zavedl žárovkový kompresor (častěji překládáno jako kompresní žárovka) s pulzním elektrickým ohřevem. Získal tak nejenom nový způsob elektrického [natahování](/slovnik/natah) hodin, ale i možnost rozvádět tyto tlakové pulzy po budově a pohánět tak až 6 podružných hodin. Na obrázku z patentového spisu vidíme princip natahování matečních hodin, způsob rozvodu tlakových pulzů a princip funkce podružných hodin. Český popis jsme si dovolili doplnit, takže neodpovídá přesně originálu.
 
 Více najdete na již zmiňované stránce (v němčině)**[www.hwynen.de](http://www.hwynen.de/jgh-elektronom.html) ,** odkud je obrázek převzat.
 
@@ -70,7 +70,7 @@ Více najdete na již zmiňované stránce (v němčině)**[www.hwynen.de](http:
 - 20 — palec spínače
 - 14 — gumová hadička pro pohon podružných hodin
 
-**Podružné hodiny**
+**[Podružné hodiny](/slovnik/podruzne-hodiny)**
 
 - 15 — píst
 - 16 — rohatka minutového kola

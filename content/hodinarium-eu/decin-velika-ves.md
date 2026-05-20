@@ -56,7 +56,7 @@ Jednotlivé prvky samostatně fotografované.
 
 Zachované lanové kolo bicího stroje s bubnem. Na snímku zřetelné páky natahovacího vratidla.
 
-Na dalších fotografiích je stav z roku 2016. Stroj byl nalezen již v rozebraném stavu. Pro potřeby fotografování jsme narychlo sestavili základ rámu. Kromě kování rohových sloupků vidíme na první pohled další gotický prvek - vratidla pro natahování na lanovém bubnu. Z rychlé inventury se zdá, že zachované díly odpovídají stavu na předchozích fotografiích.
+Na dalších fotografiích je stav z roku 2016. Stroj byl nalezen již v rozebraném stavu. Pro potřeby fotografování jsme narychlo sestavili základ rámu. Kromě kování rohových sloupků vidíme na první pohled další gotický prvek - vratidla pro [natahování](/slovnik/natah) na lanovém bubnu. Z rychlé inventury se zdá, že zachované díly odpovídají stavu na předchozích fotografiích.
 
 ## Výsledky restaurování
 

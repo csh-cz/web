@@ -39,11 +39,11 @@ Hlavní hodiny vhodné pro řízení malých systémů jednotného času.
 - provedení k montáži na lištu DIN (6MD), IP 20
 - napájení 230 V~, 12 nebo 24 VDC
 
-Výstupní podružná linka je dosti univerzální. Je volně nastavitelné pro různé způsoby přenosu. Může používat klasické minutové nebo půlminutové polarizované impulzy i sekundové pulzy. V Hodináriu je instalovaná hlavně proto, že může také vysílat kód MOBATIME nebo MOBALine.
+Výstupní podružná linka je dosti univerzální. Je volně nastavitelné pro různé způsoby přenosu. Může používat klasické minutové nebo půlminutové polarizované [impulzy](/slovnik/impulsy) i sekundové pulzy. V Hodináriu je instalovaná hlavně proto, že může také vysílat kód MOBATIME nebo MOBALine.
 
 ## MOBATIME
 
-Sériový kód MOBATIME umožňuje přenos kompletní informace o čase a datu. Probíhá vždy jedenkrát za minutu. Všechny připojené podružné hodiny se dokáží nastavit na správný čas během několika minut. Odpadají tak časové prodlevy při změně na letní čas a celková instalace systému je jednodušší. Přenos informace je velmi odolný proti rušení a maximální přípojná délka je limitována úbytkem napětí na vedení. Podle typu a průřezu použitého vodiče lze dosáhnout přenosu informace na vzdálenost několika kilometrů.
+Sériový kód MOBATIME umožňuje přenos kompletní informace o čase a datu. Probíhá vždy jedenkrát za minutu. Všechny připojené [podružné hodiny](/slovnik/podruzne-hodiny) se dokáží nastavit na správný čas během několika minut. Odpadají tak časové prodlevy při změně na letní čas a celková instalace systému je jednodušší. Přenos informace je velmi odolný proti rušení a maximální přípojná délka je limitována úbytkem napětí na vedení. Podle typu a průřezu použitého vodiče lze dosáhnout přenosu informace na vzdálenost několika kilometrů.
 
 ![seriový kód](/img/Mobatime/kod.gif)
 
@@ -75,7 +75,7 @@ Varianty provedení (tučně vyznačená zapůjčená varianta)
 - dvoustranné hodiny se skládají ze dvou jednostranných a stropního závěsu / boční konzoly z důvodu rušení nelze složit dvoustranné hodiny ze dvou jednostranných s typem strojku R (autonomní hodinový strojek řízený radiosignálem DCF77,5 kHz)
 - konzola lakována ve shodném odstínu se standardní délkou 10, 30 nebo 50 cm
 - automatická změna zimní/letní čas (kromě Quartz strojku)
-- minutové nebo sekundové impulsy
+- minutové nebo sekundové [impulsy](/slovnik/impulsy)
 - autonomní Quartz / DCF strojek
 - synchronizace DCF / MOBALine / samostavitelné pro LAN / WTD
 - napájení bateriové / MOBALine / PoE / 230 VAC

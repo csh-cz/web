@@ -31,7 +31,7 @@ tldr: 'Soustava jednotného času se selenovým usměrňovačem Kj214, linkovým
 ---
 
 ![Panel 2 v Sálu elektro — matiční hodiny Elektročas a okolí](/img/panely/panel-2.jpg)
-*Panel 2 v Sálu elektro: matiční hodiny Elektročas a podružné hodiny pěti časových pásem. Foto: M. Baudisch / ČSH 2026.*
+*Panel 2 v Sálu elektro: matiční hodiny Elektročas a [podružné hodiny](/slovnik/podruzne-hodiny) pěti časových pásem. Foto: M. Baudisch / ČSH 2026.*
 
 [Matiční hodiny Elektročas](/sbirka/karta/inv-94-maticni-elektrocas/) řídí pět podružných strojů, které ukazují čas v různých částech světa. Prostřední velké jsou nařízeny na SEČ.
 

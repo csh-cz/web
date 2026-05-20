@@ -22,7 +22,7 @@ karta:
   rokVyroby: "2018"
 ---
 
-Vystavený exponát je prototypem zařízení, které natahuje závaží Pražského orloje. Uvnitř bubnu je ukryto natahování, sestávající z motorku, řídicího systému a čidla, kontrolujícího navíjení lana. Napájení o napětí 36V je do bubnu přivedeno vodiči, vpletenými do lana, nesoucího závaží.
+Vystavený exponát je prototypem zařízení, které natahuje závaží Pražského orloje. Uvnitř bubnu je ukryto [natahování](/slovnik/natah), sestávající z motorku, řídicího systému a čidla, kontrolujícího navíjení lana. Napájení o napětí 36V je do bubnu přivedeno vodiči, vpletenými do lana, nesoucího závaží.
 
 Při sepnutí vnitřního čidla začne LED blikat rychle zelená/červená, po menší prodlevě se spustí natahování a LED svítí červeně. Natahování je asi v 37 vteřinových intervalech. Po dotažení LED bliká zeleně.
 

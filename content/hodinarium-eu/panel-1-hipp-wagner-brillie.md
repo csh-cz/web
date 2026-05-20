@@ -37,7 +37,7 @@ tldr: 'Pět zástupců rané elektrické časomíry 19. století — Hippův kon
 
 [Model Hippovy konstrukce](/sbirka/karta/inv-85-model-hipp/) — [kyvadlo](/slovnik/kyvadlo) kývá volně. Poklesne-li jeho amplituda pod určitou mez, jazýček se vzpříčí v zářezu, sepne se kontakt a kyvadlo obdrží impulz od elektromagnetu. Kontakt je velmi spolehlivý, vynalezl jej württenbergský hodinář **Mathäus Hipp** kolem roku **1850**.
 
-Kyvadlo vysílá minutové polarizované impulzy, jimiž je řízen podružný strojek.
+Kyvadlo vysílá minutové polarizované [impulzy](/slovnik/impulsy), jimiž je řízen podružný strojek.
 
 ## 2. Podružné hodiny Hippovy konstrukce z poloviny 19. století
 

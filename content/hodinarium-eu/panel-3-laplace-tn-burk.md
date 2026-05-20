@@ -38,7 +38,7 @@ Dalšími hodinami jsou [matiční hodiny T&N](/sbirka/karta/inv-103-maticni-t-n
 
 ## Perconta — DCF77
 
-Signálem DCF77 jsou řízeny [hodiny Perconta](/sbirka/karta/inv-105-perconta/), vybavené řídicím počítačem, který umožňuje naprogramovat odbíjení zvonů v určený den a hodinu po zvolenou dobu. Pro ukázku hodiny ovládají každou čtvrthodinu demonstrační zvonky a v celou hodinu i odbíjení počtu hodin, doprovázené světelnou signalizací.
+Signálem DCF77 jsou řízeny [hodiny Perconta](/sbirka/karta/inv-105-perconta/), vybavené řídicím počítačem, který umožňuje naprogramovat [odbíjení](/slovnik/odbijeni) zvonů v určený den a hodinu po zvolenou dobu. Pro ukázku hodiny ovládají každou čtvrthodinu demonstrační zvonky a v celou hodinu i odbíjení počtu hodin, doprovázené světelnou signalizací.
 
 ## Doplňky panelu
 

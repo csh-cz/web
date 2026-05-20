@@ -18,7 +18,7 @@ Naše muzeum získalo hodiny postavené k oslavě jezdeckých závodů v Praze v
 
 ![](/img/jezdeke/trmen1934_2.jpg)Stroj pochází překvapivě z kapesních hodinek a svými 15 kameny a švýcarským krokem jistě představuje nadstandard pro stolní hodiny.
 
-Stroj je přišroubován na větší chromovanou desku a překryt novým víčkem (není na snímku). Úprava kapesních hodinek na stolní si vyžádala změnit způsob natahování a řízení ručiček. Původní mechanismus byl demontován a poněkud brutálně nahrazen nástavcem přímého natahování na pérovníku.
+Stroj je přišroubován na větší chromovanou desku a překryt novým víčkem (není na snímku). Úprava kapesních hodinek na stolní si vyžádala změnit způsob [natahování](/slovnik/natah) a řízení ručiček. Původní mechanismus byl demontován a poněkud brutálně nahrazen nástavcem přímého natahování na pérovníku.
 
 **I** v současné době je stroj stále v chodu a to si o jeho předchozí údržbě neděláme velké iluze.
 
