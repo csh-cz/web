@@ -51,12 +51,12 @@ V první sérii je výroba zaměřena především na sběratele. Hodinky budou 
 
 Za zmínku ještě stojí, že [pouzdro](/slovnik/pouzdro) hodinek s průměrem 82 mm je ze zlata vyrobeno 3D tiskem. Nový majitel musí podepsat dohodu, že čip SA.45s z hodinek nevybere a nepoužije k vojenským účelům. Množství ručkových ukazatelů na ciferníku snad nejde ani spočítat. Cena okolo £ 50,000.
 
-## Nová varianta miniaturního čipu atomových hodin: [MAC-SA5X](https://www.microsemi.com/product-directory/embedded-clocks-frequency-references/5570-miniature-atomic-clock-mac-sa5x)
+## Nová varianta miniaturního čipu atomových hodin: [MAC-SA5X](https://microsemi.com/product-directory/embedded-clocks-frequency-references/5570-miniature-atomic-clock-mac-sa5x)
 
 Miniaturizované miniaturní rubidiové atomové hodiny MAC-SA5X společnosti Microchip vytvářejí stabilní referenci času a frekvence, která udržuje vysoký stupeň synchronizace s referenčními hodinami. Jeho kombinace nízké rychlosti driftu, krátkodobé stability a stability při změnách teploty umožňuje zařízení udržovat přesné požadavky na frekvenci a načasování po delší dobu výdrže během výpadků GNSS nebo pro aplikace, kde nejsou možné velké hodiny pro montáž do racku.
 
 Modul měří pouze 2 palce na 2 palce při výšce méně než palec - je pětkrát menší než tradiční rubidiové oscilátory. Byl navržen pro rychlý start v různých tepelných prostředích, širší rozsah provozních teplot a vylepšený výkon stability. Maximální frekvenční odchylka je < 5E-11 během velkých teplotních změn, spolu se zlepšenými dlouhodobými rychlostmi driftu, je MAC-SA5X schopen udržovat přesnost pod mikrosekundou mnoho dní v různých prostředích. Výstup 1PPS (jeden pulz za sekundu) umožňuje rychlou kalibraci na externí reference, jako jsou signály 1PPS odvozené od družicové sítě GNSS. Nové softwarové rozhraní přidává uživatelskou univerzálnost, ovládání a monitorování zařízení pomocí komunikačních pinů rs232 nebo USB.
 
-[Obrázek vývojového kitu](https://www.microsemi.com/images/gallery/new_products/EvalKit%20Cartoon.png) , [Datasheed](/download/microchip-mac-sa5x.pdf)
+[Obrázek vývojového kitu](https://microsemi.com/images/gallery/new_products/EvalKit%20Cartoon.png) , [Datasheed](/download/microchip-mac-sa5x.pdf)
 
 [Petr Král](/hodinari/petr-kral) podle uvedených zdrojů

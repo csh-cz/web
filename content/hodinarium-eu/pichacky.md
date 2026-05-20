@@ -89,7 +89,7 @@ Na tento vynález narazil autor webu workclocks, když procházel stovky patent�
 ## Odkazy
 
 - [Časové razítko na našem serveru](/clanky/razitka)
-- Velmi zajímavý specializovaný web "píchaček" http://www.workclocks.co.uk/index.html Z obsahu vyjímáne:
+- Velmi zajímavý specializovaný web "píchaček" http://web.archive.org/web/20251115182513/https://workclocks.co.uk/index.html Z obsahu vyjímáne:
 
 - Day
 - Bundy

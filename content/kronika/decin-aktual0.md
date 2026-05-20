@@ -148,7 +148,7 @@ Za organizátory ing. [Petr Král](/hodinari/petr-kral) a ing. [Miroslav Baudisc
 ## Odkazy
 
 - [Hodiny a hvězdy na zámku](http://www.zamekdecin.cz/web_cz/?p=clanky/hodiny-a-hvezdy-na-zamku&obr=1) — zamekdecin.cz. [cit. 2026-04-28]
-- [Děčínská expozice ukáže, jak naši předkové měřili čas](http://www.novinky.cz/cestovani/tipy-na-vylety/380344-decinska-expozice-ukaze-jak-nasi-predkove-merili-cas.html) — novinky.cz. [cit. 2026-04-28]
+- [Děčínská expozice ukáže, jak naši předkové měřili čas](http://novinky.cz/cestovani/tipy-na-vylety/380344-decinska-expozice-ukaze-jak-nasi-predkove-merili-cas.html) — novinky.cz. [cit. 2026-04-28]
 - [Děčínsko-podmokelská vlastivědná společnost](https://www.facebook.com/dpvsdecin/posts/743961309048510) — facebook.com. [cit. 2026-04-28]
 - [Metodický portál - inspirace a zkušenosti učitelů](http://digifolio.rvp.cz/user/view.php?id=1411) — digifolio.rvp.cz. [cit. 2026-04-28]
 - [Novinky od ČTK](http://www.novinky.cz/cestovani/tipy-na-vylety/385676-decinsky-zamek-vystavuje-mechanicke-hodiny-nechybi-ani-bizarni-kousky.html) — novinky.cz. [cit. 2026-04-28]

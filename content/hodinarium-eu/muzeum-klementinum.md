@@ -17,7 +17,7 @@ tags:
   - praha
 references:
   - title: Klementinum — Národní knihovna ČR
-    url: https://www.klementinum.com/
+    url: https://klementinum.com/
     type: odkaz
 tldr: V bývalé jezuitské koleji jsou pro hodinářskou historii zásadní Kleinovy barokní astronomické hodiny, Trautmannsdorfské nástěnné stroje a astronomická věž, z níž se od 18. století odvozovala přesná časomíra pro celé město.
 ---
