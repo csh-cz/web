@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Photo credit layout — návrh (2026-05-20)</title>
+<style>
+  :root {
+    --color-bg: #14100c;
+    --color-bg-inner: #1f1814;
+    --color-brass: #b8924a;
+    --color-brass-bright: #e8c574;
+    --color-copper: #a85a3c;
+    --color-text: #d4c5a8;
+    --color-text-soft: #b5a888;
+    --color-text-muted: #8a8275;
+    --measure: 42rem; /* šířka textového sloupce (~72ch) */
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'Spectral', Georgia, serif;
+    line-height: 1.7;
+    padding: 3rem 1.5rem;
+  }
+  main { max-width: var(--measure); margin: 0 auto; }
+  h1 { color: var(--color-brass-bright); font-weight: 500; }
+  h2 { color: var(--color-copper); font-weight: 500; margin-top: 3rem; font-size: 1.1rem; letter-spacing: 0.04em; text-transform: uppercase; }
+  p { color: var(--color-text); }
+  code { background: var(--color-bg-inner); padding: 0.1em 0.35em; border-radius: 3px; font-size: 0.85em; color: var(--color-brass-bright); }
+
+  /* ════════════════════════════════════════════════════════════
+     PHOTO CREDIT LAYOUT — jádro návrhu
+     ════════════════════════════════════════════════════════════ */
+
+  figure.photo {
+    /* Grid container — shrink-to-image, ne přes celou šířku */
+    display: grid;
+    gap: 0.5rem 0.7rem;
+    margin: 2rem 0;
+    width: fit-content;        /* zúží se na šířku obrázku */
+    max-width: 100%;
+  }
+  figure.photo img {
+    grid-area: img;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+  }
+  figure.photo figcaption {
+    grid-area: cap;
+    font-size: 0.8rem;
+    line-height: 1.45;
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+  figure.photo figcaption a {
+    color: var(--color-text-soft);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--color-brass) 50%, transparent);
+  }
+  figure.photo figcaption .credit-author { color: var(--color-text-soft); font-style: normal; }
+
+  /* ── VARIANTA 1: caption POD obrázkem (default, landscape + malý portrait) ── */
+  figure.photo {
+    grid-template-areas:
+      "img"
+      "cap";
+    justify-items: start;
+  }
+
+  /* ── VARIANTA 2: caption SVISLE VPRAVO (portrait + delší credit) ── */
+  figure.photo.layout-side {
+    grid-template-areas: "img cap";
+    grid-template-columns: auto min-content;
+    align-items: stretch;       /* caption se roztáhne na výšku obrázku */
+    gap: 0 0.6rem;
+  }
+  figure.photo.layout-side figcaption {
+    writing-mode: vertical-rl;  /* text shora dolů, čte se zprava */
+    text-orientation: mixed;
+    max-height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* zarovnat k hornímu okraji obrázku */
+    align-self: start;
+    padding-block: 0.1rem;
+    border-inline-start: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    padding-inline-start: 0.5rem;
+  }
+
+  /* ── VARIANTA 3: velký portrait — centrovat na šířku textu ── */
+  figure.photo.is-large.is-portrait {
+    margin-inline: auto;
+    justify-items: center;
+  }
+  /* Omezit výšku velkého portrait aby nepřerostl viewport */
+  figure.photo.is-large.is-portrait img {
+    max-height: 80vh;
+    width: auto;
+  }
+
+  /* ── Responsive: na úzkém viewportu vždy caption pod (vertical text
+        je na mobilu nepraktický) ── */
+  @media (max-width: 34rem) {
+    figure.photo.layout-side {
+      grid-template-areas: "img" "cap";
+      grid-template-columns: auto;
+    }
+    figure.photo.layout-side figcaption {
+      writing-mode: horizontal-tb;
+      white-space: normal;
+      border-inline-start: none;
+      padding-inline-start: 0;
+      border-block-start: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+      padding-block-start: 0.3rem;
+    }
+  }
+
+  /* Demo rámeček pro vizualizaci hranic figure */
+  .demo-frame { outline: 1px dashed color-mix(in srgb, var(--color-copper) 40%, transparent); outline-offset: 4px; }
+  .demo-note { font-size: 0.8rem; color: var(--color-text-muted); border-left: 2px solid var(--color-copper); padding-left: 0.8rem; margin: 0.5rem 0 2rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Photo credit layout — návrh</h1>
+<p>Čtyři scénáře. Layout se volí <strong>class modifikátorem</strong> (build-time z <code>image-sizes.json</code> — <code>w</code>/<code>h</code> + délka creditu), žádné runtime JS měření. Grid + <code>writing-mode</code>, bez absolutního pozicování.</p>
+
+<h2>1. Landscape — credit pod obrázkem</h2>
+<p class="demo-note">Default. <code>&lt;figure class="photo"&gt;</code> bez modifikátoru. Caption v grid řádku pod obrázkem.</p>
+<figure class="photo demo-frame">
+  <img src="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/janata/janata-louny-desticka-1871.jpg" alt="Destička Louny 1871">
+  <figcaption><span class="credit-author">Foto: Petr Skála</span> (2021) · © Petr Skála, 2021</figcaption>
+</figure>
+
+<h2>2. Portrait + krátký credit — pod obrázkem</h2>
+<p class="demo-note">Portrait, ale credit krátký → stále pod obrázkem (vejde se). <code>class="photo is-portrait"</code>.</p>
+<figure class="photo is-portrait demo-frame" style="max-width: 18rem;">
+  <img src="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/janata/janata-podebrady-zamek-stroj-bok.jpg" alt="Boční pohled na stroj">
+  <figcaption><span class="credit-author">Foto: Petr Skála</span></figcaption>
+</figure>
+
+<h2>3. Portrait + delší credit — svisle vpravo</h2>
+<p class="demo-note">Portrait + delší credit → <code>class="photo is-portrait layout-side"</code>. Caption svisle vpravo přes <code>writing-mode: vertical-rl</code>, lemuje pravý okraj obrázku.</p>
+<figure class="photo is-portrait layout-side demo-frame" style="max-width: 22rem;">
+  <img src="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/janata/janata-podebrady-zamek-stroj-bok.jpg" alt="Boční pohled na stroj">
+  <figcaption><span class="credit-author">Foto: Petr Skála</span> (2021) · © Petr Skála, 2021 · zdroj</figcaption>
+</figure>
+
+<h2>4. Velký portrait — centrovaný na šířku textu</h2>
+<p class="demo-note"><code>class="photo is-portrait is-large"</code>. Centrováno <code>margin-inline: auto</code>, výška omezena <code>max-height: 80vh</code>.</p>
+<figure class="photo is-portrait is-large demo-frame">
+  <img src="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/janata/janata-podebrady-zamek-stroj-bok.jpg" alt="Boční pohled na stroj">
+  <figcaption><span class="credit-author">Foto: Petr Skála</span> (2021) · © Petr Skála, 2021</figcaption>
+</figure>
+
+<h2>Rozhodovací logika (build-time)</h2>
+<p>V <code>Photo.astro</code> z <code>image-sizes.json</code>:</p>
+<pre style="background: var(--color-bg-inner); padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.8rem; color: var(--color-text-soft);">
+const isPortrait = h > w * 1.15;          // výrazně na výšku
+const isLarge    = w >= 900 || h >= 1200; // velký obrázek
+const creditLen  = (author + license + sourceUrl).length;
+
+const layoutClass = [
+  'photo',
+  isPortrait && 'is-portrait',
+  isLarge && 'is-large',
+  // svisle vpravo jen když: portrait + delší credit + NE velký-centro
+  (isPortrait && !isLarge && creditLen > 24) && 'layout-side',
+].filter(Boolean).join(' ');
+</pre>
+
+</main>
+</body>
+</html>
