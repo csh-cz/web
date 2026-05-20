@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-20T03:31:12.002Z",
+  "generatedAt": "2026-05-20T03:47:25.090Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 152,
     "hodinari": 165,
     "hodinariTs": 165,
-    "soupis": 430
+    "soupis": 432
   },
-  "count": 1674,
+  "count": 1676,
   "words": [
     "Abraham",
     "Accutron",
@@ -361,6 +361,7 @@
     "Golčova",
     "Górne",
     "gotickou",
+    "Gottharda",
     "grad",
     "Graham",
     "grande",
@@ -733,7 +734,6 @@
     "LEPZIK",
     "lermo",
     "lesy",
-    "Lhot",
     "Lhota",
     "Libáň",
     "Liberec",
@@ -1058,7 +1058,7 @@
     "Phillipsova",
     "Pilna",
     "Písek",
-    "Písková",
+    "Plaňany",
     "planetárium",
     "planetni",
     "planetní",
@@ -1668,6 +1668,7 @@
     "zprávce",
     "zub",
     "zúžená",
+    "Zvěstování",
     "zvon",
     "zvonařů",
     "zvonec",
@@ -1676,6 +1677,7 @@
     "Žatec",
     "Žďár",
     "Ždírec",
+    "Žehuň",
     "železárny",
     "Žerčice",
     "Židovská",
