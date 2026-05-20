@@ -2,17 +2,20 @@
 /**
  * Obrázek s volitelným credit captionem (autor, licence, zdroj).
  *
- * Caption se renderuje jako overlay v pravém dolním rohu obrázku.
- * Barva textu je vybrána podle tone pravého dolního rohu (z image-sizes.json
- * pole `tone`, vyrobeno scripts/build-image-index.ts):
- *   - 'dark'  pozadí světlé → tmavý text + jemné světlé halo
- *   - 'light' pozadí tmavé  → světlý text + jemné tmavé halo
+ * Credit se renderuje VŽDY MIMO obrázek (ne overlay) — rozložení se volí
+ * build-time z rozměrů v image-sizes.json (návrh + demo:
+ * docs/photo-credit-layout-2026-05-20/):
+ *   - landscape / krátký credit → caption pod obrázkem (default)
+ *   - portrait + delší credit    → caption svisle vpravo (writing-mode)
+ *   - velký portrait             → figure centrovaný na šířku textu
+ * CC atribuce (TASL): author(+authorUrl) · license(+licenseUrl) · zdroj
+ * (→ sourceUrl); rok se připojí za autora. Jméno se NIKDY nezdvojuje —
+ * „© Jméno" se neuvádí zvlášť, pokud je autor zároveň držitelem práv.
  *
  * Caption se vůbec nerenderuje, pokud není uveden žádný atribut credit
  * (author / license / sourceUrl) — komponenta pak chová jako obyčejný <img>.
  *
- * Mobile (≤600 px): overlay se vrátí pod obrázek (overlay nad ~320 px wide
- * fotkou je nečitelný).
+ * Mobile (≤600 px): svislý side caption degraduje zpět pod obrázek.
  *
  * Použití:
  *   <Photo src="/img/foo.jpg" alt="…"
@@ -187,9 +190,32 @@ if (year === undefined && xmp?.CreateDate) {
 
 const showCredit = Boolean(author || license || sourceUrl);
 const sizeInfo = (imageSizes as Record<string, ImageSizeEntry>)[src];
-// Default 'light' (světlý text + tmavé halo) — bezpečnější pro neznámé pozadí,
-// většina foto-pozadí má střední/tmavé tóny.
-const tone: 'light' | 'dark' = sizeInfo?.tone ?? 'light';
+
+// ── Layout rozhodnutí (build-time z image-sizes.json) ─────────────────
+// Návrh + demo: docs/photo-credit-layout-2026-05-20/{demo,demo-cc}.html
+// Credit je VŽDY mimo obrázek (pod / svisle vpravo), ne overlay.
+//   • landscape / krátký credit → caption pod obrázkem (default)
+//   • portrait + delší credit    → caption svisle vpravo (writing-mode)
+//   • velký portrait             → figure centrovaný na šířku textu
+// Plně-šířkové třídy (img-hero/full/standalone) řeší šířku samy → nový
+// shrink/centering layout na ně NEAPLIKOVAT (jinak by se rozbila šířka).
+const w = sizeInfo?.w ?? 0;
+const h = sizeInfo?.h ?? 0;
+const isPortrait = w > 0 && h > w * 1.15;
+const isLarge = w >= 900 || h >= 1200;
+const FULLWIDTH_RE = /\b(?:img-hero|img-full|img-standalone|img-skip-hero)\b/;
+const inFlow = !FULLWIDTH_RE.test(imgClass ?? '');
+// Délka složeného creditu rozhoduje side vs below (většina CC creditů
+// „Foto: Autor · CC BY-SA 3.0 · zdroj" je dlouhá → side u portrétů).
+const creditText = [author, license, sourceUrl ? 'zdroj' : ''].filter(Boolean).join(' · ');
+const creditLong = creditText.length > 24;
+const layoutSide = showCredit && inFlow && isPortrait && !isLarge && creditLong;
+const figureClass = [
+  'photo',
+  showCredit && inFlow && isPortrait && 'is-portrait',
+  showCredit && inFlow && isPortrait && isLarge && 'is-large',
+  layoutSide && 'layout-side',
+].filter(Boolean).join(' ');
 
 // R2 CDN rewrite — symetrie s rehype-picture (packages/rehype-picture/index.mjs).
 // Markdown `![alt](/img/x.jpg)` prochází rehype-picture, kde se src přepíše na
@@ -210,7 +236,7 @@ const RASTER_RE = /\.(jpe?g|png)(\?.*)?$/i;
 const isRaster = src.startsWith('/img/') && RASTER_RE.test(src);
 const variantBase = isRaster ? `${CDN_BASE}${src.replace(RASTER_RE, '')}` : '';
 ---
-<figure class="photo">
+<figure class={figureClass}>
   {isRaster ? (
     <picture>
       <source type="image/avif" srcset={`${variantBase}.avif`} />
@@ -221,7 +247,7 @@ const variantBase = isRaster ? `${CDN_BASE}${src.replace(RASTER_RE, '')}` : '';
     <img src={cdnSrc} alt={alt} class={imgClass} loading="lazy" decoding="async" />
   )}
   {showCredit && (
-    <figcaption class={`img-credit-overlay credit-tone-${tone}`}>
+    <figcaption class="img-credit">
       {author && (
         <>
           Foto:&nbsp;
@@ -253,117 +279,96 @@ const variantBase = isRaster ? `${CDN_BASE}${src.replace(RASTER_RE, '')}` : '';
 </figure>
 
 <style is:global>
-  .photo {
-    position: relative;
-    margin: 0 0 1.5rem;
-    /* obrázek dědí třídy img-hero / img-large / atd. — žádný layout zde */
-  }
+  /* Photo komponenta — credit caption MIMO obrázek (pod / svisle vpravo),
+     ne overlay. Návrh + demo: docs/photo-credit-layout-2026-05-20/.
+     Plně-šířkové třídy (img-hero/full/standalone) na <img> řeší šířku samy;
+     nový shrink/centering layout se na ně neaplikuje (viz Photo.astro). */
+  .photo { margin: 0 0 1.5rem; }
+  .photo > picture { display: block; }
+  .photo > picture > img { display: block; width: 100%; height: auto; }
 
-  /* Overlay caption — pravý dolní roh nad obrázkem */
-  .img-credit-overlay {
-    position: absolute;
-    right: 0.5rem;
-    bottom: 0.5rem;
-    margin: 0;
-    padding: 0.15rem 0.5rem;
-    max-width: 65%;
-    font-size: 0.7rem;
+  /* ── Credit / caption POD obrázkem (default — landscape i krátké credity) ── */
+  .photo > figcaption {
+    margin: 0.4rem 0 0;
+    font-size: 0.8rem;
+    line-height: 1.45;
     font-style: italic;
-    letter-spacing: 0.01em;
-    line-height: 1.4;
-    text-align: right;
-    pointer-events: none;
-    border-radius: 2px;
+    color: var(--color-text-muted);
   }
-  .img-credit-overlay a,
-  .img-credit-overlay span {
-    pointer-events: auto;
+  .photo > figcaption a {
+    color: var(--color-text-soft);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--color-brass) 50%, transparent);
+    text-underline-offset: 2px;
   }
-  .img-credit-overlay a {
-    color: inherit;
-    text-decoration: none;
-    border-bottom: 1px dotted color-mix(in srgb, currentColor 50%, transparent);
-  }
-
-  /* Audit M5 (a11y): tone-detection z BR rohu obrázku není spolehlivá
-     u nehomogenních pozadí (krajka, gradient). Caption v některých
-     fotkách failuje 4.5:1 i když token tvrdí jinak. Vrátit semi-průhledné
-     pozadí + textový stín pro guaranteed contrast bez ohledu na obraz.
-     Předtím byl jen barevný text bez halo. */
-  /* Tmavý text na světlém pozadí — čistá černá + světlý stín */
-  .img-credit-overlay.credit-tone-dark {
-    color: #000;
-    background: rgba(255, 255, 255, 0.55);
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.6);
-  }
-  /* Světlý text na tmavém pozadí — čistá bílá + tmavý stín */
-  .img-credit-overlay.credit-tone-light {
-    color: #fff;
-    background: rgba(0, 0, 0, 0.55);
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
-  }
-
-  .img-credit-overlay.credit-tone-dark a:hover {
-    color: #5a3818;
-    border-bottom-color: #5a3818;
-  }
-  .img-credit-overlay.credit-tone-light a:hover {
+  .photo > figcaption a:hover {
     color: var(--color-brass-bright, #d4a85a);
-    border-bottom-color: var(--color-brass, #b8923e);
+    text-decoration-color: var(--color-brass, #b8923e);
+  }
+  .photo > figcaption .credit { font-size: 0.92em; opacity: 0.85; }
+
+  /* ── Velký portrait — zúžit na obrázek a vycentrovat na šířku textu ── */
+  .photo.is-large.is-portrait { width: fit-content; max-width: 100%; margin-inline: auto; }
+  .photo.is-large.is-portrait > figcaption { text-align: center; }
+  .photo.is-large.is-portrait img { width: auto; max-width: 100%; max-height: 80vh; }
+
+  /* ── Portrait + delší credit — caption svisle vpravo (writing-mode) ── */
+  .photo.layout-side {
+    display: grid;
+    grid-template-columns: auto min-content;
+    align-items: stretch;
+    gap: 0 0.6rem;
+    width: fit-content;
+    max-width: 100%;
+  }
+  .photo.layout-side > :is(picture, img) { grid-column: 1; grid-row: 1; min-width: 0; }
+  .photo.layout-side img { display: block; width: auto; max-width: min(100%, 22rem); height: auto; }
+  .photo.layout-side > figcaption {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-self: start;
+    max-height: 100%;
+    padding-inline-start: 0.5rem;
+    border-inline-start: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
   }
 
-  /* === Photo komponenta umí floatovat (jako markdown ![]() obrázky) ===
-     Figure.photo s image size class (img-small/medium/tall) → float v textu.
-     Img uvnitř fills figure (width 100%). Caption overlay zůstává absolute. */
-  .prose-content figure.photo.img-small,
-  .prose-content figure.photo.img-medium,
-  .prose-content figure.photo.img-tall {
-    margin: 0.4rem 0 0.75rem 1.5rem;
-    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
-    border-radius: 2px;
-  }
-  .prose-content figure.photo.img-small { float: right; max-width: 220px; }
-  .prose-content figure.photo.img-medium { float: right; max-width: 320px; }
-  .prose-content figure.photo.img-tall { float: right; max-width: 240px; max-height: 480px; }
-
-  /* JS counter rotuje pravo/levo, propaguje na figure.photo */
-  .prose-content figure.photo.img-float-right {
-    float: right !important;
-    margin: 0.4rem 0 0.75rem 1.5rem !important;
-  }
-  .prose-content figure.photo.img-float-left {
-    float: left !important;
-    margin: 0.4rem 1.5rem 0.75rem 0 !important;
-  }
-
-  /* Img uvnitř floatovaného figure.photo se sníží na 100% figure */
-  .prose-content figure.photo.img-small img,
-  .prose-content figure.photo.img-medium img,
-  .prose-content figure.photo.img-tall img {
+  /* === Float thumbnaily (small/medium/tall) — figure floatuje jako ![]() === */
+  .prose-content figure.photo.img-small  { float: right; max-width: 220px; margin: 0.4rem 0 0.75rem 1.5rem; }
+  .prose-content figure.photo.img-medium { float: right; max-width: 320px; margin: 0.4rem 0 0.75rem 1.5rem; }
+  .prose-content figure.photo.img-tall   { float: right; max-width: 240px; margin: 0.4rem 0 0.75rem 1.5rem; }
+  .prose-content figure.photo.img-float-right { float: right !important; margin: 0.4rem 0 0.75rem 1.5rem !important; }
+  .prose-content figure.photo.img-float-left  { float: left  !important; margin: 0.4rem 1.5rem 0.75rem 0 !important; }
+  .prose-content figure.photo:is(.img-small, .img-medium, .img-tall) :is(picture, img) {
     width: 100%;
     height: auto;
     display: block;
-    border: none;
     margin: 0;
   }
+  .prose-content figure.photo:is(.img-small, .img-medium, .img-tall) img {
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+  }
 
-  /* Mobile fallback — overlay zpět pod obrázek + figure float vypnout */
+  /* === Mobile — side caption zpět pod obrázek; floaty vypnout === */
   @media (max-width: 600px) {
-    .img-credit-overlay {
-      position: static;
-      max-width: none;
-      margin-top: 0.35rem;
-      padding: 0;
-      color: var(--color-text-muted) !important;
+    .photo.layout-side { display: block; width: auto; }
+    .photo.layout-side > figcaption {
+      writing-mode: horizontal-tb;
+      white-space: normal;
+      max-height: none;
+      margin-top: 0.4rem;
+      border-inline-start: none;
+      padding-inline-start: 0;
+      border-block-start: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+      padding-block-start: 0.3rem;
     }
-    .img-credit-overlay a {
-      color: var(--color-text-soft);
-    }
-    .prose-content figure.photo.img-small,
-    .prose-content figure.photo.img-medium,
-    .prose-content figure.photo.img-tall,
-    .prose-content figure.photo.img-float-left,
-    .prose-content figure.photo.img-float-right {
+    .prose-content figure.photo:is(.img-small, .img-medium, .img-tall, .img-float-left, .img-float-right) {
       float: none !important;
       max-width: 100%;
       margin: 1.25rem auto !important;
