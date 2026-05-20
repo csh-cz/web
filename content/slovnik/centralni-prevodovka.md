@@ -22,6 +22,7 @@ prekladyFr:
     genus: f
 definice: "**Středové (centrální) kolo** v hodinovém soukolí, jehož osa prochází středem ciferníku a na níž je nasazena minutová ručka. V klasickém hodinovém převodu obvykle **otáčí jednou za hodinu** (60 minut = 1 otáčka minutové ručky). Centrální převodovka je referenční bod, od kterého se odvozují všechny ostatní převody — k hodinové ručce (převod 1/12), k sekundové ručce (převod 60/1, pokud má hodiny střední sekundovku), k bicímu stroji, kalendáriu, atd."
 pribuzne:
+  - kralovska-hridel
   - krok
   - soukoli
   - krokove-kolo

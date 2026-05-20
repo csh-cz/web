@@ -21,6 +21,7 @@ varianty:
   - "pomocné péro / pomocný stroj (popisný cs ekvivalent)"
 definice: "Mechanické zařízení, které **dodává krok hodinového stroje konstantní silou**, nezávisle na okamžitém stavu hlavního pohonu (závaží, péro). Pomocné péro nebo závaží je v krátkých intervalech (typicky 30 s – několik minut) **přizváno hlavním strojem** k natažení, a jeho rovnoměrná energie pak pohání krok. Tím se odstraní vliv kolísání tahu lana / poklesu pružinového momentu při vybíjení na přesnost chodu."
 pribuzne:
+  - natah
   - krok
   - pero
   - perovnik

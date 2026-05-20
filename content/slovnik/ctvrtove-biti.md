@@ -14,6 +14,7 @@ prekladyFr:
   - term: sonnerie des quarts
 definice: "Bicí mechanismus, který kromě **celých hodin** odbíjí i **čtvrti**. Standardní nastavení moderních věžních a bohatších nástěnných hodin (po 1700). Existuje ve více variantách: **prosté čtvrťové** (1 úder na čtvrt), **dvoutónové** (čtvrť + půl + tříčtvrtě různým počtem úderů), **Westminster chime** (4-tónová melodie)."
 pribuzne:
+  - odbijeni
   - bici-stroj
   - kladivko
 ---

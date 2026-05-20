@@ -7,6 +7,7 @@ varianty:
   - hřídel
 definice: "U Táborského 1570 *hřídelík* označuje drobný hřídel (zmenšenina od *hřídel*) — typicky čepový hřídelík nesoucí měsíc nebo jiný malý indikátor. Synonymum: *vřeteno*."
 pribuzne:
+  - kralovska-hridel
   - vreteno-orloje
   - cep-orloje
   - vos

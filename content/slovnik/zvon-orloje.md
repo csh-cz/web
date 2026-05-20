@@ -7,6 +7,7 @@ varianty:
   - zvonec
 definice: "Tonální tělesa bicího stroje orloje: **zvon** = velký bicí zvon na věži (úderem kladiva odbíjí hodiny), **zvonec** = menší signální zvonek (zvoní krátký signál chvíli před vlastním bitím, jako upozornění)."
 pribuzne:
+  - odbijeni
   - kladivko-orloje
   - tepati
   - cymbal

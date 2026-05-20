@@ -7,6 +7,7 @@ varianty:
   - závora bicí
 definice: "Západka / zástavka držící bicí stroj zamknutý, dokud není uvolněna pádem palice. Po vyražení zámku se bicí soukolí roztočí a odbije počet úderů odpovídající hodině."
 pribuzne:
+  - odbijeni
   - palice-orloje
   - rykl
   - stroj

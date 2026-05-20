@@ -25,6 +25,7 @@ varianty:
   - lanový válec
 definice: "Válcová součást věžního hodinového stroje, na kterou se navíjí **lano nesoucí závaží**. Otáčením bubnu při natahování se závaží zvedá nahoru; při chodu hodin závaží klesá a tahem za lano otáčí buben opačným směrem, čímž **přenáší energii do soukolí stroje**. Každý dílčí stroj (jicí, čtvrťový, hodinový) má vlastní nátahový buben."
 pribuzne:
+  - natah
   - soukoli
   - zavazi
   - pero

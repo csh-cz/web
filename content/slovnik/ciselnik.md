@@ -42,6 +42,7 @@ atestace:
     forma: "číselník"
     note: "Číselník jako jednoznačně primární odborný termín."
 pribuzne:
+  - kralovska-hridel
   - hridelik-orloje
   - ramenko
   - ukazovaci-stroj
