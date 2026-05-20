@@ -18,9 +18,9 @@ import { test, expect } from 'playwright/test';
 // Asi OOM v headless renderer s large JPEG paletou. Coverage byline logiky
 // pro virtualni-muzeum kategorii pokryje jiný článek po doplnění.
 const SAMPLES = [
-  '/projekty/Kappa',
+  '/projekty/kappa',
   '/virtualni-muzeum/zidovske',
-  '/sbirka/slunecni_filler',
+  '/sbirka/slunecni-filler',
   '/sbirka/brillie',
 ];
 
