@@ -155,14 +155,13 @@ async function loadD6Renames(catalog: CatalogEntry[], kronikaSlugs: Set<string>)
       const newUrl = newEntry.category === 'sbirka' && newEntry.podsekce === 'karta'
         ? `/sbirka/karta/${r.newId}`
         : `/${newEntry.category}/${r.newId}`;
-      // Legacy /clanky/<old>
+      // Legacy /clanky/<old> — jediná zachovaná varianta (PHP-éra /clanky scheme,
+      // dlouho živá, reálná SEO hodnota).
+      // M7 trim (2026-05-20): varianty /<kategorie>/<old> a /sbirka/karta/<old>
+      // ZRUŠENY — existovaly jen ~3 týdny mezi taxonomy 2026-04 a D6 2026-05-10
+      // (zanedbatelná hodnota) a nafukovaly _redirects přes CF limit, čímž
+      // vyřazovaly z provozu důležitější PRIORITA 3 (/clanky/<currentSlug>).
       out.push({ oldUrl: `/clanky/${r.oldId}`, newUrl });
-      // Direct /<kategorie>/<old> — zkusit aktuální kategorii articlu
-      out.push({ oldUrl: `/${newEntry.category}/${r.oldId}`, newUrl });
-      // Karta-specific path
-      if (newEntry.category === 'sbirka' && newEntry.podsekce === 'karta') {
-        out.push({ oldUrl: `/sbirka/karta/${r.oldId}`, newUrl });
-      }
     } else if (r.collection === 'kronika') {
       out.push({ oldUrl: `/kronika/${r.oldId}`, newUrl: `/kronika/${r.newId}` });
       out.push({ oldUrl: `/clanky/${r.oldId}`, newUrl: `/kronika/${r.newId}` });
@@ -206,16 +205,19 @@ async function main() {
   const kronikaSlugs = await loadKronikaSlugs();
   const d6Renames = await loadD6Renames(catalog, kronikaSlugs);
 
-  // CF Pages limit (deploy 2026-05-10 prokázal): po cca 325 valid rules
-  // přestane parsovat zbytek. Proto jsou rules seřazeny **podle priority**
-  // od nejdůležitějších (SEO-kritické) po méně kritické (legacy hodnota).
+  // CF Pages limit: rules za cca 600 řádky CF tiše ignoruje (empiricky
+  // ověřeno 2026-05-20: rule #600 funguje, #632 už 404). Proto jsou rules
+  // seřazeny **podle priority** od nejdůležitějších (SEO-kritické) po méně
+  // kritické (legacy hodnota) a M7 trim (2026-05-20) zrušil low-value
+  // varianty (D6 /<kat>/<old> + trailing-slash duplikáty), aby se celý
+  // soubor (~555 rules) vešel pod limit a žádný redirect se neztrácel.
   const lines: string[] = [
     '# Cloudflare Pages redirects — auto-generated, nereeditovat ručně.',
     '# Generuje scripts/build-redirects.ts z raw/_index.json + catalog.json.',
     '# Format: <source> <destination> <status>',
     '#',
-    '# CF Pages parsuje zhora dolů a zastaví u limitu (~325 rules).',
-    '# Proto jsou rules **seřazené podle priority** od kritických (SEO,',
+    '# CF Pages parsuje zhora dolů a ignoruje rules za limitem (~600).',
+    '# Rules jsou **seřazené podle priority** od kritických (SEO,',
     '# rename overrides) po legacy (HTM z původního PHP webu).',
   ];
 
@@ -238,15 +240,15 @@ async function main() {
     lines.push(`/clanky/${slug} ${dst} 301`);
   }
 
-  // D6 Slug standardizace 2026-05-10 — 121 souborů snake_case → kebab-case.
-  // Generujeme PÁR redirectů pro každý rename: s i bez trailing slash.
-  // Cloudflare Pages pattern matching je strict — /foo/ a /foo jsou
-  // dva odlišné requesty (issue #21: /konstrukce/flying_pendulum 301 OK,
-  // /konstrukce/flying_pendulum/ 404).
-  lines.push('', `# D6 Slug standardizace (2026-05-10): ${d6Renames.length * 2} redirects (×2 trailing slash variants)`);
+  // D6 Slug standardizace 2026-05-10 — snake_case → kebab-case.
+  // M7 trim (2026-05-20): trailing-slash duplikáty ZRUŠENY pro tento legacy
+  // blok. Kanonická URL je bez slashe (astro `trailingSlash: 'never'`) a
+  // PRIORITA 3 (/clanky/<currentSlug>) stejně emituje jen no-slash variantu —
+  // držíme konzistenci a šetříme řádky pod CF limit. (issue #21 se týkal
+  // /<kat>/<old>/ varianty, která je teď zrušená celá.)
+  lines.push('', `# D6 Slug standardizace (2026-05-10): ${d6Renames.length} redirects (legacy /clanky/<old>)`);
   for (const r of d6Renames) {
     lines.push(`${r.oldUrl} ${r.newUrl} 301`);
-    lines.push(`${r.oldUrl}/ ${r.newUrl}/ 301`);
   }
 
   // Přejmenování hodinářů
