@@ -110,7 +110,7 @@ jobs:
 
       - name: Embed licence metadata (full regen)
         if: steps.changed.outputs.mode == 'full'
-        run: node scripts/write-xmp-metadata.mjs
+        run: node scripts/write-xmp-metadata.mjs --force
 
       - name: Upload variants + sources to R2
         if: steps.changed.outputs.mode != 'none'
