@@ -371,25 +371,20 @@ Volby Davida (2026-05-17):
 Plný design + zamítnutí ChatGPT návrhu v session transcriptu
 2026-05-17.
 
-- [ ] **A.27 Slovník — multi-sense schema `vyznamy[]`** (~4 h).
-      Schema rozšířit o optional pole:
-      ```yaml
-      vyznamy:
-        - kontext: "v hodinařině"
-          definice: "Vnější indikační plocha hodin..."
-          kategorie: mechanika
-        - kontext: "obecně"
-          definice: "Číslovaná tabule (silnice, sport)..."
-          kategorie: jine
-      ```
-      Backward compat: `definice` zachovat, pokud má heslo 1 význam.
-      Render v `pages/slovnik/[slug].astro`: pokud `vyznamy[]` →
-      render jednotlivé sense bloky s kontextovým nadpisem; jinak
-      současný `definice`.
+- [~] **A.27 Slovník — multi-sense schema `vyznamy[]`** — **ZAMÍTNUTO
+      2026-05-20** (David). Hodinářství je **jedna sémantická doména**:
+      „ručka hodin" = „ručka hodinek" = „ručka orloje" — stejný význam,
+      jen různý nositel, ne polysémie. Schema `vyznamy[]` by řešilo
+      neexistující problém.
 
-      **Kandidáti k migraci** (5–20 hesel s polysémií v hodinařině):
-      ručka, balanc, lihýř, vlásek, vidlice, krok, hřídel, ciferník,
-      ramenko, soukolí (často 1 cs slovo = více technických rolí).
+      Jediný skutečný případ dvojznačnosti byl **kolíčkový krok** (dvě
+      konstrukčně protilehlé varianty A/B) — a ten je správně vyřešen
+      **strukturou textu uvnitř hesla** (`content/slovnik/kolickovy-krok.md`),
+      ne separátním schématem.
+
+      **Re-otevřít jen pokud** se nashromáždí **více skutečných případů**
+      jednoho cs termínu se dvěma technicky odlišnými významy v hodinařině
+      (zatím známe pouze 1). Do té doby řešit case-by-case uvnitř hesla.
 
 - [ ] **A.28 Slovník — varianty se status field** (~6 h). Dnes
       `varianty: ["X", "Y", "Z"]` flat array bez kontextu — uživatel
@@ -491,7 +486,6 @@ Plný design + zamítnutí ChatGPT návrhu v session transcriptu
             "fr": [{"term": "cadran", "genus": "m"}]
           },
           "definice": "...",
-          "vyznamy": [...],         // pokud A.27 implementováno
           "isStub": false,
           "redirectTo": null
         }
@@ -501,14 +495,15 @@ Plný design + zamítnutí ChatGPT návrhu v session transcriptu
       cache). Pro AI translation agent / external consumers / budoucí
       MCP V2. **Bez API server** — jen statický JSON, cache-friendly.
 
-      **Závislosti:** ideálně po A.28 (status field) a A.27 (vyznamy[])
-      aby export obsahoval kompletní strukturu.
+      **Závislosti:** ideálně po A.28 (status field) aby export obsahoval
+      kompletní strukturu variant. (A.27 vyznamy[] zamítnuto — viz výše.)
 
 - [ ] **A.32 MCP server pro slovník + Zotero** (V2, ~4 dny po A.31).
       Sjednoceno s **A.12 (`@csh-cz/mcp-horologie`)** — plný design
       v `docs/design-mcp-horologie-2026-05-09.md` (11 PBI ticketů).
       Implementaci pustit **až po A.25/A.26 stabilizaci** (image
-      systém + R2 migrace) a A.27–A.31 (slovník schema rozšíření).
+      systém + R2 migrace) a A.28–A.31 (slovník schema rozšíření;
+      A.27 zamítnuto).
 
       Tools (V1 read-only):
       - `search_entries(query, lang?, kategorie?)`
