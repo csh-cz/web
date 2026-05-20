@@ -365,7 +365,11 @@ const categoryLabelsForClient = Object.fromEntries(
 
   async function ensureFuse() {
     if (fuse) return fuse;
-    const Fuse = (await import('fuse.js')).default;
+    // Plná ESM URL místo bare specifieru: tenhle <script> je `is:inline`
+    // (kvůli define:vars se searchData), takže Astro/Vite ho NEbundluje a
+    // `import('fuse.js')` by na produkci selhal ("Failed to resolve module
+    // specifier 'fuse.js'"). Verze pinnutá na fuse.js z package.json (7.3.0).
+    const Fuse = (await import('https://cdn.jsdelivr.net/npm/fuse.js@7.3.0/dist/fuse.mjs')).default;
     fuse = new Fuse(searchData, {
       keys: [
         { name: 't', weight: 2 },     // title (nejvyšší priorita)
