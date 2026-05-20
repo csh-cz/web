@@ -38,7 +38,7 @@ I na děkanském kostele Nanebevzetí Panny Marie v Havlíčkově Brodě je 24 h
 
 Astronomické interiérové hodiny také používají 24 hodinové dělení. Častěji se ale můžeme setkat s přídavným zařízením, které odlišuje dopolední či odpolední hodiny. Může mít podobu slovního vyjádření (nejčastěji u hodin, které ukazují i datum), nebo má podobu dvoubarevného terčíku. ![](/img/ujete/internation_time.jpg)Například budík Diehl Minetto (elektrický budík poháněný synchronním motorem) zobrazuje čas na klasickém 12-ti hodinovém číselníku. Údaj je doplněn černobílým signalizačním terčíkem. Rozlišení dne a noci je nutné. neboť čas zvonění se nastaví na 24 hodinové stupnici. Budík tedy budí jen ráno a večer zbytečně neobtěžuje.
 
-Druhou velkou oblastí, kde se 24 hodinový číselník objevuje, jsou "pásmové hodiny". Díky tomu mohou na jedné stupnici ukazovat čas v libovolném místě na Zemi. Více na stránce věnované [pásmovkám](svetova_cas1.htm).[![RARE VINTAGE MILITARY POLAR EXPEDITION - kliknout](/img/24hodin2_i.jpg)](/img/24hodin2.jpg)
+Druhou velkou oblastí, kde se 24 hodinový číselník objevuje, jsou "pásmové hodiny". Díky tomu mohou na jedné stupnici ukazovat čas v libovolném místě na Zemi. Více na stránce věnované pásmovkám.[![RARE VINTAGE MILITARY POLAR EXPEDITION - kliknout](/img/24hodin2_i.jpg)](/img/24hodin2.jpg)
 
 Jiný problém mají uživatelé hodin v polárních krajinách. My celkem snadno poznáme, zda je 5 hodin ráno nebo odpoledne. Jak to ale poznat v polární noci nebo dni? Proto třeba sovětské polární hodinky "RARE VINTAGE MILITARY POLAR EXPEDITION" mají 24 hodinový číselník.
 

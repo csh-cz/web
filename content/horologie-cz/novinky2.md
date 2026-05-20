@@ -18,7 +18,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 20\. 8. 2015 Instalován [elektrický bicí stroj Brillie](/sbirka/decin-bici-stroje)
 - 6\. 8. 2015 Výstavka 2015 v Hodináriu Děčín. [Výtvarné miniatury ve tvaru kostky - Dr. Jaroslav Adam](https://hodinarium-eu.pages.dev/sbirka/kostky)
 
-- **V období srpen 2015 proběhla velká inovaci stránek v souvislosti s opuštěním Věžního muzejíčka Soběslav a budování [Hodinária Děčín](https://hodinarium.eu/decin_koncepce.htm). Byly dle možností zkontrolovány odkazy na stránkách a nefunkční odkazy byly zručeny. Programové komponenty byly upravovány tak, aby vyhovovaliy prohlížečúm v tomto období. Některé méně důležité stránky byly odstraněny. Protože za v jistém smyslu nové byly všechny stránky nejsou některé opravdové novinky zaznamenány.**
+- **V období srpen 2015 proběhla velká inovaci stránek v souvislosti s opuštěním Věžního muzejíčka Soběslav a budování [Hodinária Děčín](https://hodinarium-eu.pages.dev/o-hodinariu). Byly dle možností zkontrolovány odkazy na stránkách a nefunkční odkazy byly zručeny. Programové komponenty byly upravovány tak, aby vyhovovaliy prohlížečúm v tomto období. Některé méně důležité stránky byly odstraněny. Protože za v jistém smyslu nové byly všechny stránky nejsou některé opravdové novinky zaznamenány.**
 
 - 6\. 3. 2015 Nový slovník hodinařiny pana Paichla *(původní zdroj zanikl)*
 - 29\. 9. 2014 [Pilové hodiny se samonivelačním fyzikálním kyvadlem](https://hodinarium-eu.pages.dev/konstrukce/pilovky)
@@ -45,19 +45,19 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
     expozice od pana Stan. Marušáka. Změna se týká zejména stránek:
     \- **[stroj Prokeš 1868](/sbirka/bychory-prokes1)** ze zámku Býchory
     \- [soběslavský starý stroj](https://hodinarium-eu.pages.dev/kronika/vez1)
-    \- [cimbály Býchory](https://hodinarium.eu/bychory_cimbaly.htm)
+    \- [cimbály Býchory](https://hodinarium-eu.pages.dev/sbirka/bychory_prokes1#cimbaly-bellmannova-slevarna-1868)
     \- [rozvody ze zvoničky Svinky](/sbirka/bychory-dalsi-kola)
-    \- [zvonicí stroj](https://hodinarium.eu/bychory_zvonici_stroj.htm) ze zámku Býchory
-- 26\. 7. 2011 Stránka o [restaurování povrchové úpravy](https://hodinarium.eu/bychory_restaurovani_napis.htm) stroje Prokeš1868
+    \- [zvonicí stroj](https://hodinarium-eu.pages.dev/sbirka/bychory_prokes1#zvonici-stroj-kuriozita-kompletu) ze zámku Býchory
+- 26\. 7. 2011 Stránka o [restaurování povrchové úpravy](https://hodinarium-eu.pages.dev/sbirka/bychory_prokes1#restaurovani-od-nalezu-k-expozici) stroje Prokeš1868
 - 21\. 7. 2011 Změněna úvodní stránka celého webu. Zavedeno rozdělení na tři směry
     činnosti občanského sdružení Virtuální muzeum hodin o.s.
 - 12\. 6. 2011 [Stránky fotografií](/kronika/vez-instalace1) z přípravy Věžního muzejíčka v roce 2010
     a zkušebního otevření 28.10.2010
-- 8\. 2. 2011 Věžní soustrojí Prokeš 1868 ze zámku Býchory. [Cimbály](https://hodinarium.eu/bychory_cimbaly.htm), [zvonící stroj](https://hodinarium.eu/bychory_zvonici_stroj.htm),...
+- 8\. 2. 2011 Věžní soustrojí Prokeš 1868 ze zámku Býchory. [Cimbály](https://hodinarium-eu.pages.dev/sbirka/bychory_prokes1#cimbaly-bellmannova-slevarna-1868), [zvonící stroj](https://hodinarium-eu.pages.dev/sbirka/bychory_prokes1#zvonici-stroj-kuriozita-kompletu),...
 
     * * *
 
-- 19\. 7. 2009 Doplnění [aktualit](https://hodinarium-eu.pages.dev/kronika/sobeslav3) do restaurování hodin v [Soběslavi](sobeslav.htm)
+- 19\. 7. 2009 Doplnění [aktualit](https://hodinarium-eu.pages.dev/kronika/sobeslav3) do restaurování hodin v Soběslavi
     a **projekt** [**Věžního muzejíčka**.](/kronika/vezni-muzejicko)
     23\. 6. 2009 [Sluněční hodiny využívající polarizaci světla.
     ](/sbirka/slunecni-polarizacni)Ukazují i když je Slunce zakryto. Zkuste si je udělat.
@@ -66,9 +66,9 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
     a přidána [animace slunečních hodin](https://hodinarium-eu.pages.dev/sbirka/slunecni) od pana Vlasty Fillera.
 - 5\. 5. 2009 [Kapesní "orloj" Brevete](/sbirka/kapesni-orloj) - stránka o zajímavé kalendářní komplikaci.
 - 13\. 4. 2009 Mechanické digi [IWC Schaffhausen](https://hodinarium-eu.pages.dev/virtualni-muzeum/schaffhausen) z roku 1885
-- 7\. 4. 2009 [Soběslavské hodiny z 15. století](sobeslav.htm) a 2. část: [Po stopách času](https://hodinarium-eu.pages.dev/kronika/sobeslav2).
-- 3\. 3. 2009 Zmínka o [pokojovém orloji pana Maška](orloj_masek.htm)
-- 12\. 2. 2009 [Doplnění testu](synchronizace_hodin_PC.htm) hodin vašeho PC proti
+- 7\. 4. 2009 Soběslavské hodiny z 15. století a 2. část: [Po stopách času](https://hodinarium-eu.pages.dev/kronika/sobeslav2).
+- 3\. 3. 2009 Zmínka o pokojovém orloji pana Maška
+- 12\. 2. 2009 Doplnění testu hodin vašeho PC proti
     NTP serveru Ústavu Jaderné fyzyky AV ČR.
 - 4\. 2. 2009 "Hodinky" v [mobilu](https://hodinarium-eu.pages.dev/projekty/mobil)
 - 2\. 2. 2009 **[Časová symbolika trochu jinak](https://hodinarium-eu.pages.dev/zajimavosti/mazan) \*\*\*PŮVODNÍ ŘEŠENÍ\*\*\*
@@ -79,27 +79,27 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
     ze serveru www.zemepis.eu/stranka/mereni-casu
 - 1\. 2. 2009 [Římský kalendář](/zajimavosti/kalendar-rimsky) Díky laskavosti autora uvádíme celý článek ze serveru
     [ANTIKA.avonet.cz](http://antika.avonet.cz/)
-- 18\. 1. 2009 Doplněny části o Virtuálnám muzeu hodin, o.s. — úvod, [stanovy](https://hodinarium.eu/stanovy.htm),
+- 18\. 1. 2009 Doplněny části o Virtuálnám muzeu hodin, o.s. — úvod, stanovy,
     sponzorování včetně banerů. Založena možnost výměny odkazů.
-- 17\. 1. 2009 Obecně o orlojích a zejména [o orlojích v Uherském Brodu](orloj_uherskybrod.htm)
+- 17\. 1. 2009 Obecně o orlojích a zejména o orlojích v Uherském Brodu
     s množstvím podstránek (převzato)
-- 17\. 1. 2009 Decimálky doplněny o [Internetový Swatch čas](decimalky.htm#internet) "Jeden svět - jeden čas",
+- 17\. 1. 2009 Decimálky doplněny o [Internetový Swatch čas](https://hodinarium-eu.pages.dev/sbirka/decimalky#internet) "Jeden svět - jeden čas",
     zavináčovky funkční včetně převodního formuláře
-- 17\. 1. 2009 Stránka [o obdivu k prezentaci orloje v Ulmu](orloj_ulm.htm)
+- 17\. 1. 2009 Stránka o obdivu k prezentaci orloje v Ulmu
 - 15\. 1. 2009 Doplněna stránka o možnosti sponzorování
-- 12\. 1. 2009 Nová [**home**](home1.htm) stránka
+- 12\. 1. 2009 Nová [**home**](https://hodinarium-eu.pages.dev/) stránka
 - * * *
 
-- 26.12. 2008 [Mapa serveru](https://hodinarium.eu/mapa.htm) konečně aktualizována
-- 16.12. 2008 [Parkovací hodiny](parkovaci_hodiny.htm) trochu jinak
+- 26.12. 2008 [Mapa serveru](https://hodinarium-eu.pages.dev/mapa) konečně aktualizována
+- 16.12. 2008 Parkovací hodiny trochu jinak
 - 26.11. 2008 [Přestavby hodin](https://hodinarium-eu.pages.dev/zajimavosti/prestavby) - doplněno o [historiché inspirace](https://hodinarium-eu.pages.dev/virtualni-muzeum/hinspirace)
 - 14.11. 2008 [FLYING PENDULUM CLOCK](/konstrukce/flying-pendulum) - hodiny, kde "oscilátor" je "létající kulička"
-- [Metronom](metronom.htm) - krok, kdy nejdůležitější je hluk
-- [Planičkův salónní orloj](planicka.htm) - rozporuplnnost sama
+- Metronom - krok, kdy nejdůležitější je hluk
+- Planičkův salónní orloj - rozporuplnnost sama
 - [Perpetum mobile](/sbirka/perpetum-mobile) Hodiny Atmos, fotovoltaika a jiné
 - [Bez ručiček](https://hodinarium-eu.pages.dev/konstrukce/ukazatele) to také jde
 - Pan Marce [Betrisey](https://hodinarium-eu.pages.dev/virtualni-muzeum/betrisey) - hodiny kuličkové, pneumatické a jiné
-- [Vyčistit a namazat](vycistit_namazat.htm) - rozjímání nad popisy aukcí
+- Vyčistit a namazat - rozjímání nad popisy aukcí
 - 19.10. 2008 [Švarcvaldy se zvonkohrou](/sbirka/svarcvaldky-hraci)
 - 6.10. 2008 [Čtyřruční hodiny](https://hodinarium-eu.pages.dev/projekty/4ruce)
 - 1\. 6. 2008 [Decimálky](https://hodinarium-eu.pages.dev/sbirka/decimalky) - hodiny s dělením 10 hodin - 100 minut - 100 vteřin
@@ -109,22 +109,22 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 16\. 4. 2008 Variace na věžní hodiny [U Špirků](https://hodinarium-eu.pages.dev/sbirka/uspirku)
 - 12\. 4. 2008 Kuriózní hodiny na [YouTube](https://hodinarium-eu.pages.dev/zajimavosti/youtube)
 - 12\. 4. 2008 Hodiny [ATO](/konstrukce/ato) - alespoň základ povídání o těchto elektrických hodinách
-- 8\. 4. 2008 [Orloj v Litomyšli](litomysl.htm) (1907–2007 - článek k výročí orloje)
-- 6\. 4. 2008 Přepracování stránek o **[jednotném čase](jednotnycas.htm#pneumatika)** a doplnění pneumatických
-    systémů [Elektronom](elektricke1.htm#elektronom) (Kompresní žárovka aneb natahování pneumatikou.)
+- 8\. 4. 2008 Orloj v Litomyšli (1907–2007 - článek k výročí orloje)
+- 6\. 4. 2008 Přepracování stránek o **[jednotném čase](https://hodinarium-eu.pages.dev/konstrukce/jednotnycas#pneumatika)** a doplnění pneumatických
+    systémů [Elektronom](https://hodinarium-eu.pages.dev/konstrukce/elektricke1#elektronom) (Kompresní žárovka aneb natahování pneumatikou.)
 - 6\. 4. 2008 Doplněny funkce obnovy rozbalovacího menu
 - 2\. 4. 2008 Dňovky - zobrazování času v 12 čí 24 hodinovém dělení
     hodiny [Hrbek - Wejrostek](/zajimavosti/hodinky-12-24-ciferniku)
 - 23\. 3. 2008 [Přestavby hodin](https://hodinarium-eu.pages.dev/zajimavosti/prestavby)
 - 20\. 3. 2008 Hodiny k ocenění - ["ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934"](https://hodinarium-eu.pages.dev/sbirka/jezdecke)
 - 18\. 3. 2008 Hodiny s [elektrickým impulzem do oscilátoru](https://hodinarium-eu.pages.dev/konstrukce/elektricke2)
-- 15\. 3. 2008 Synchronní svítící budík [METAMEC](sitovky.htm#metamec)
-- 25\. 2. 2008 **[Terminologický slovník hodináře](paichl_slovnik.htm) -** převzato s laskavým svolením autora ze serveru 62.168.39.166:80/paichl/hodiny.html Obsáhlý soubor zejména hodinářských nástrojů včetně fotografií.
+- 15\. 3. 2008 Synchronní svítící budík [METAMEC](https://hodinarium-eu.pages.dev/sbirka/sitovky#metamec)
+- 25\. 2. 2008 **Terminologický slovník hodináře -** převzato s laskavým svolením autora ze serveru 62.168.39.166:80/paichl/hodiny.html Obsáhlý soubor zejména hodinářských nástrojů včetně fotografií.
 - 18\. 2. 2008 [Valící se kuličky](https://hodinarium-eu.pages.dev/sbirka/kulicky)
 - 18\. 2. 2008 [Zapékané hodiny](https://hodinarium-eu.pages.dev/sbirka/zapekane) (do skla)
-- 18\. 2. 2008 Japonské [kuriózní hodinky](whodinky.htm) eshop
+- 18\. 2. 2008 Japonské kuriózní hodinky eshop
 - 14\. 2. 2008 [Svítící hodiny](https://hodinarium-eu.pages.dev/sbirka/svitici)
-- 5\. 1. 2008 [Orloj v Brně](orloj_brno.htm), že by?
+- 5\. 1. 2008 Orloj v Brně, že by?
 
     * * *
 
@@ -135,16 +135,16 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 30\. 7. 2007 Skeletové hodiny [Kavalír](https://hodinarium-eu.pages.dev/virtualni-muzeum/kavalir)
 - 29\. 7. 2007 [TIME FLOW CLOCK](/sbirka/vodni-b-gitton) - hodiny protékajícího času - Bernard Gitton
 - 29\. 7. 2007 [O věžních hodinách na ZŠ Šumava](/sbirka/vezni-zikmund1) v Jablonci nad Nisou
-- 29\. 7. 2007 [Počítačový vibrograf](servis_sw.htm)
+- 29\. 7. 2007 Počítačový vibrograf
 - 28\. 7. 2007 Několik stránek o [vodních hodinách](https://hodinarium-eu.pages.dev/sbirka/vodni)
 - 15\. 7. 2007 Hodiny v kostele sv. Josefa [v Janovicích](https://hodinarium-eu.pages.dev/virtualni-muzeum/janovice)
 - 20\. 6. 2007 [Židovské hodiny z roku 1764](https://hodinarium-eu.pages.dev/virtualni-muzeum/zidovske) (i PC animace)
-- 20\. 6. 2007 [Nový orloj v Kryštofově Údolí](orloj_k_u.htm)
+- 20\. 6. 2007 Nový orloj v Kryštofově Údolí
 - 19\. 6. 2007 [Hodiny ve věži staré táborské radnice](https://hodinarium-eu.pages.dev/virtualni-muzeum/tabor) (včetně PC animace)
 - 11\. 5. 2007 [Vodní hodiny](https://hodinarium-eu.pages.dev/virtualni-muzeum/vlachynsky) z Ateliéru 90 - Ing. Vlachynský
 - 19\. 4. 2007 Větší aktualizace webu, zejména
     [květinové hodiny](https://hodinarium-eu.pages.dev/virtualni-muzeum/kvetinove), [květinové hodiny v Poděbradech 1](https://hodinarium-eu.pages.dev/virtualni-muzeum/podebrady), [2](https://hodinarium-eu.pages.dev/virtualni-muzeum/podebrady1b), [3](https://hodinarium-eu.pages.dev/virtualni-muzeum/podebrady2), [4](https://hodinarium-eu.pages.dev/virtualni-muzeum/podebrady3), [5](https://hodinarium-eu.pages.dev/virtualni-muzeum/podebrady4) a[
-    stroje Švarcvaldek](/konstrukce/svarcvaldky-stroje) , [stroje 2](../sobnet/hodiny/svarcvaldky_stroje_polodrev.htm), [3](/konstrukce/svarcvaldky-stroje2)
+    stroje Švarcvaldek](/konstrukce/svarcvaldky-stroje) , [stroje 2](https://hodinarium-eu.pages.dev/konstrukce/svarcvaldky-stroje-polodrev), [3](/konstrukce/svarcvaldky-stroje2)
 - 25\. 2. 2007 [Schwarzwaldky ze 17. století](/konstrukce/svarcvaldky-17stol) ??
 - 25\. 2. 2007 [Časová pásma](/zajimavosti/casova-pasma) a hodiny pásmovky
 - 13\. 2. 2007 [Co píší jiní](/zajimavosti/co-pisi-jini)
@@ -156,6 +156,6 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 29.12. 2006 [Papíráky](https://hodinarium-eu.pages.dev/sbirka/papir) - hodiny z produkce Papírového světa
 - 17.12. 2006 [Dowload](https://hodinarium-eu.pages.dev/zajimavosti/download) PC kukaček - Udělejte si z počítače Big Ben
 - 4.12. 2006 [Kuriózní budíky hnané závažím](https://hodinarium-eu.pages.dev/sbirka/budiky1)
-- 26.11. 2006 [Starožitníci - Starožitnosti - Antiky](starozitnici.htm)
+- 26.11. 2006 Starožitníci - Starožitnosti - Antiky
 - 23.11. 2006 [Mluvící hodiny](https://hodinarium-eu.pages.dev/konstrukce/mluvici1895) z roku 1895
 - 5.11 2006 [Elektrické hodiny 1](https://hodinarium-eu.pages.dev/konstrukce/elektricke1)

@@ -33,4 +33,4 @@ Na této a dalších stránkách uvidíte několik ukázek nádherných děl soc
 
 - Další informace o vodních hodinách najdete také na stránce **[odkazů](/sbirka/vodni-odkazy)**
 
-Pokud budeme pojem vodní hodiny chápat v širším slova smyslu, můžeme sem zařadit ještě [**vodní minutku**](vodn%C3%A1_minutka.htm), či nápad na [**vodní budík**](/sbirka/vodni-budik). Těžko sem ale zařadíme hodiny, které se také jako vodní začaly označovat, ačkoliv jde o hodiny elektrické na baterii, kde jako elektrolyt působí voda.
+Pokud budeme pojem vodní hodiny chápat v širším slova smyslu, můžeme sem zařadit ještě **vodní minutku**, či nápad na [**vodní budík**](/sbirka/vodni-budik). Těžko sem ale zařadíme hodiny, které se také jako vodní začaly označovat, ačkoliv jde o hodiny elektrické na baterii, kde jako elektrolyt působí voda.

@@ -12,7 +12,7 @@ scrapedAt: "2026-04-27T17:36:08.403Z"
 
 Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu. Byla vedena od roku 2006, kdy již byl web dost velký na to, aby mělo smysl uvádět novinky. Začátkem roku 2017 proběhla přestavba na alespoň částečně respozivní design všech stránek, které na webu zůstaly. Novinky jsou nyní uváděny od této přestavby.
 
-Stará stránka je [zde.](https://hodinarium.eu/novinky2.htm)
+Stará stránka je zde.
 
 - 8\. 4. 2026 [Generátor napětí 110 V 60 Hz pro americké hodiny](60Hz.php)
 - 20.11. 2025 [NTP server v Hodináriu](https://proxy.hodinarium2.eu/chrony2.php)
@@ -33,7 +33,7 @@ Stará stránka je [zde.](https://hodinarium.eu/novinky2.htm)
     ](https://hodinarium-eu.pages.dev/konstrukce/pneumatika2)
 - 1\. 12. 2022 [Doplnění stránky o stolních podružných hodinách](/sbirka/decin-jednotny-cas)
 - 8\. 3. 2022 ["Modernizace" hodin Solari arduinem](/projekty/arduino-solari)
-- 19\. 11. 2021 [Věžní stroj se setrvačkou](https://hodinarium.eu/vezni2021.htm)
+- 19\. 11. 2021 [Věžní stroj se setrvačkou](https://hodinarium-eu.pages.dev/sbirka/akvizice-2015-2025#2021)
 - 19\. 9. 2021 [Římské digitálky tentokrát s Arduinem](https://hodinarium-eu.pages.dev/projekty/rimskedigi2)
 - 9\. 9. 2021 [Hodiny využívající PPS na Arduinu](/projekty/arduino-pps)
 - 15\. 7. 2021 [NTPimpulzer pro třídrátové IBM](/projekty/arduino-ibm)
@@ -56,15 +56,15 @@ Stará stránka je [zde.](https://hodinarium.eu/novinky2.htm)
 - 14\. 3. 2020 Rozšířené stránky o květinovývh hodinách [Nové Město nad Mětuí](/virtualni-muzeum/kvetinovehodiny-nove-mesto-nad-metuji) a [zaniklé hodiny Chomuto](/virtualni-muzeum/kvetinovehodiny-chomutov)v (Dle Libora Hovorky)
 
 - 21.12. 2019 [Stolní podružné hodiny od firmy Jednotný čas.](/sbirka/decin-jednotny-cas)
-- 1\. 4. 2019 [Nový věžní stroj v přírůstcích Hodinária](https://hodinarium.eu/decin_stroje2019.htm)
+- 1\. 4. 2019 [Nový věžní stroj v přírůstcích Hodinária](https://hodinarium-eu.pages.dev/sbirka/akvizice-2015-2025#2019)
 - 25\. 3. 2019 [Jednoduché metody zpomalení kyvadla](/konstrukce/line-kyvadlo)
 - 20\. 3. 2019 Doplnění stránky o kuriózním využití elektřiny - [odpařovací nátah hodin](https://hodinarium-eu.pages.dev/konstrukce/elektricke1)
 - 16\. 3. 2019 Doplnění stránky o [třídrátovém rozvodu IBM hlavní hodiny](/sbirka/decin-regulace-ibm)
 - 10\. 3. 2019 [EVERETT EDGECOMBE ELECTRIC SYNCLOCK](https://hodinarium-eu.pages.dev/konstrukce/edgecombe)
 - 2\. 3. 2019 [Vypouštěný věžní stroj neznámé provenience](/sbirka/decin-vypousteny) - doplnění stránky
-- 20\. 2. 2019 [Zápis z volební schůze spolku](https://hodinarium.eu/zapis20190118.htm)
+- 20\. 2. 2019 Zápis z volební schůze spolku
 
-- 19.12.2018 Doplněna stránka strojů v Hodináriu o [stroj Krečmar](https://hodinarium.eu/decin_dalsi_stroje.htm)
+- 19.12.2018 Doplněna stránka strojů v Hodináriu o [stroj Krečmar](https://hodinarium-eu.pages.dev/sbirka/akvizice-2015-2025#2015-2018)
 - 22.11.2018 Nová [fotogalerie z Hodinária](/kronika/decin-fotolistopad2018)
 - 24.10.2018 Informace o hodinách ze stavebnice [MERKUR](https://hodinarium-eu.pages.dev/zajimavosti/merkur)
 - 18\. 7.2018 [Stránka věnovaná starým "píchačkám"](https://hodinarium-eu.pages.dev/konstrukce/pichacky)

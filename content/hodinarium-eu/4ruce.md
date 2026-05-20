@@ -28,4 +28,4 @@ Nejjednodušší je problému se vyhnout a pro každý číselník použít samo
 **_N_**_a první fotografii je stroj po částečném očičtění s nasazenými předními i zadními ručičkami. Stroj je připojen k síti a je funkční. Další 3 fotografie zachycují nálezový stav. Na poslední je vidět detail kuželových převodů k obrácení směru otáčení. Minutová hřídel je za prvním kuželovým kolem přerušena. Ve stejném směru pokračuje minutová hřídel zadního číselníku ._
 
 Pro úplnost ještě zmínka o rozvodovce věžních hodin pro číselníky na 4 stranách věže. Tady je situace trochu jiná. Stroj není přímo u číselníků, tak není potřeba dodržet souosost minutových hřídelí. Opět se použijí kuželové převody. Minutová hřídel hodinového stroje je vedena vzhůru a je zakončena rozvodkou, která rozvádí otáčení minutové hřídele k číselníkům. Na konci jednotlivých hřídelí jsou samostatné převody pro hodinové ručičky.
-Podrobněji na stránce [o hodinách v Janovicích.](janovice.htm#rozvodka)
+Podrobněji na stránce [o hodinách v Janovicích.](/virtualni-muzeum/janovice#rozvodka)

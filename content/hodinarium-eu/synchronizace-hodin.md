@@ -45,7 +45,7 @@ Ukázka zde i jinde na webu [www.veznihodiny.cz/ukaz19.htm](http://www.veznihodi
 
 ## Pneumatické řízení podružných hodin - zajímavá kuriozita
 
-Dnes trochu kuriózně působí pneumatický **[systém Elektronom](elektricke1.htm#elektron)** z třicátých let minulého století, který na trh uvedl Junghans. Zavedl žárovkový kompresor (častěji překládáno jako kompresní žárovka) s pulzním elektrickým ohřevem. Získal tak nejenom nový způsob elektrického [natahování](/slovnik/natah) hodin, ale i možnost rozvádět tyto tlakové pulzy po budově a pohánět tak až 6 podružných hodin. Na obrázku z patentového spisu vidíme princip natahování matečních hodin, způsob rozvodu tlakových pulzů a princip funkce podružných hodin. Český popis jsme si dovolili doplnit, takže neodpovídá přesně originálu.
+Dnes trochu kuriózně působí pneumatický **[systém Elektronom](/konstrukce/elektricke1#elektron)** z třicátých let minulého století, který na trh uvedl Junghans. Zavedl žárovkový kompresor (častěji překládáno jako kompresní žárovka) s pulzním elektrickým ohřevem. Získal tak nejenom nový způsob elektrického [natahování](/slovnik/natah) hodin, ale i možnost rozvádět tyto tlakové pulzy po budově a pohánět tak až 6 podružných hodin. Na obrázku z patentového spisu vidíme princip natahování matečních hodin, způsob rozvodu tlakových pulzů a princip funkce podružných hodin. Český popis jsme si dovolili doplnit, takže neodpovídá přesně originálu.
 
 Více najdete na již zmiňované stránce (v němčině)**[www.hwynen.de](http://www.hwynen.de/jgh-elektronom.html) ,** odkud je obrázek převzat.
 
