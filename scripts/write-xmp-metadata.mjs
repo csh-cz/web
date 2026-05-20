@@ -53,6 +53,12 @@ const limitIdx = process.argv.indexOf('--limit');
 const LIMIT = limitIdx >= 0 && process.argv[limitIdx + 1]
   ? parseInt(process.argv[limitIdx + 1], 10)
   : Infinity;
+// --files a/b/c — zpracuj jen tyto soubory (CI diff-mode nebo cílený test).
+// Položka matchuje, pokud je substringem cesty souboru (relPath i app path).
+const filesArgIdx = process.argv.indexOf('--files');
+const ONLY_FILES = filesArgIdx >= 0 && process.argv[filesArgIdx + 1]
+  ? process.argv[filesArgIdx + 1].split(',').map((s) => s.trim()).filter(Boolean)
+  : null;
 
 // --- Pre-flight ---
 try {
@@ -83,6 +89,95 @@ function deriveRights(originalUrl, author) {
     return 'Archiv ČSH, použito s povolením';
   }
   return 'autor neznámý';
+}
+
+// --- Licenční konstanty + resolver (pravidlo: skill obrazky §6.1/§6.1.1) ---
+const SITE_DEFAULT_LABEL = 'CC BY 4.0';
+const SITE_DEFAULT_URL = 'https://creativecommons.org/licenses/by/4.0/';
+const SPOLEK = 'Český spolek horologický z. s.';
+const SPOLEK_URL = 'https://hodinarium.eu';
+const OWN_DOMAIN_RE = /(?:hodinarium\.(?:eu|cz)|horologie\.cz|orloj\.eu)/i;
+
+// Vytáhne čistý CC label ze stringu („…CC BY-SA 4.0 (Wikimedia…)" → „CC BY-SA 4.0")
+function extractCcLabel(text) {
+  if (!text) return null;
+  if (/CC0/i.test(text)) return 'CC0 1.0';
+  const m = text.match(/CC\s+(BY(?:-(?:SA|NC|ND|NC-SA|NC-ND))?)\s+(\d\.\d)(\s*CZ)?/i);
+  if (!m) return null;
+  return `CC ${m[1].toUpperCase()} ${m[2]}${m[3] ? ' CZ' : ''}`;
+}
+// CC label → deed URL (generický, zvládne libovolnou verzi/jurisdikci)
+function ccLabelToUrl(label) {
+  if (!label) return null;
+  if (/CC0/i.test(label)) return 'https://creativecommons.org/publicdomain/zero/1.0/';
+  const m = label.match(/CC\s+(BY(?:-(?:SA|NC|ND|NC-SA|NC-ND))?)\s+(\d\.\d)(\s*CZ)?/i);
+  if (!m) return null;
+  const variant = m[1].toLowerCase();
+  const ver = m[2];
+  const juris = m[3] ? 'cz/' : '';
+  return `https://creativecommons.org/licenses/${variant}/${ver}/${juris}`;
+}
+
+/**
+ * Z credit objektu sestaví PLNÝ set exiftool tagů (XMP + IPTC) podle pravidla:
+ *   1) explicitní CC licence (::photo license= nebo derived Wiki/NPÚ) → ta licence
+ *   2) externí zdroj bez CC licence → „se svolením" (NEclaimovat CC)
+ *   3) jinak (originál / vlastní obsah) → site default CC BY 4.0
+ * Vrací { args, kind }.
+ */
+function licenseFields(credit) {
+  const author = cleanAuthor(credit.author || '').trim();
+  const args = [];
+  const push = (k, v) => { if (v) args.push(`-${k}=${v}`); };
+  const ccLabel = extractCcLabel(credit.license);
+  const sourceExternal = credit.sourceUrl && !OWN_DOMAIN_RE.test(credit.sourceUrl);
+  let kind;
+
+  if (ccLabel) {
+    // (1) explicitní CC licence
+    const url = credit.licenseUrl || ccLabelToUrl(ccLabel);
+    kind = `licence:${ccLabel}`;
+    push('XMP-dc:Creator', author);
+    push('IPTC:By-line', author);
+    push('XMP-xmpRights:Marked', 'True');
+    push('XMP-xmpRights:UsageTerms', url ? `${ccLabel}. ${url}` : ccLabel);
+    push('XMP-xmpRights:WebStatement', url);
+    push('XMP-cc:license', url);
+    push('XMP-cc:attributionName', author || credit.sourceUrl);
+    push('XMP-cc:attributionURL', credit.sourceUrl || SPOLEK_URL);
+    push('XMP-dc:Rights', `© ${author || 'autor neznámý'}. ${ccLabel}.`);
+    push('IPTC:CopyrightNotice', `© ${author || 'autor neznámý'}. ${ccLabel}.`);
+    push('XMP-dc:Source', credit.sourceUrl);
+  } else if (sourceExternal) {
+    // (2) externí, bez CC → se svolením, all rights reserved
+    kind = 'se-svolením';
+    push('XMP-dc:Creator', author);
+    push('IPTC:By-line', author);
+    push('XMP-xmpRights:Marked', 'True');
+    push('XMP-xmpRights:UsageTerms', 'Used with permission. All rights reserved by the author.');
+    push('XMP-dc:Rights', `© ${author || 'autor neznámý'}. Použito se svolením / Used with permission.`);
+    push('IPTC:CopyrightNotice', `© ${author || 'autor neznámý'}. Used with permission.`);
+    push('XMP-dc:Source', credit.sourceUrl);
+  } else {
+    // (3) originál / vlastní obsah → site default CC BY 4.0
+    kind = `default:${SITE_DEFAULT_LABEL}`;
+    const who = author || SPOLEK;
+    const rights = `© ${who} / ${SPOLEK} — ${SITE_DEFAULT_LABEL}`;
+    push('XMP-dc:Creator', who);
+    push('IPTC:By-line', who);
+    push('XMP-xmpRights:Marked', 'True');
+    push('XMP-xmpRights:UsageTerms', `This work is licensed under the Creative Commons Attribution 4.0 International License (${SITE_DEFAULT_LABEL}). ${SITE_DEFAULT_URL}`);
+    push('XMP-xmpRights:WebStatement', SITE_DEFAULT_URL);
+    push('XMP-cc:license', SITE_DEFAULT_URL);
+    push('XMP-cc:attributionName', who);
+    push('XMP-cc:attributionURL', SPOLEK_URL);
+    push('XMP-dc:Rights', rights);
+    push('IPTC:CopyrightNotice', rights);
+    push('IPTC:Credit', SPOLEK);
+    push('XMP-dc:Source', credit.sourceUrl || SPOLEK_URL);
+  }
+  if (credit.articleTitle) push('XMP-dc:Subject', credit.articleTitle);
+  return { args, kind };
 }
 
 // --- Parser frontmatter (jen základ — nepotřebujeme plný YAML) ---
@@ -176,7 +271,9 @@ async function buildCreditIndex(contentDir) {
     for (const [src, attrs] of photoMap) {
       imageCredits.set(src, {
         author: cleanAuthor(attrs.author) || author || 'Archiv ČSH',
+        authorUrl: attrs.authorUrl || '',
         license: attrs.license || deriveRights(attrs.sourceUrl || originalUrl, attrs.author || author),
+        licenseUrl: attrs.licenseUrl || '',
         sourceUrl: attrs.sourceUrl || originalUrl,
         articleTitle: title,
         articleSlug: slug,
@@ -218,17 +315,21 @@ async function readExistingXmp(file) {
   }
 }
 
+// Sourozenecké AVIF/WebP varianty (sharp je generuje BEZ metadat → embed i tam,
+// jinak by R2 servíroval varianty bez licence).
+function variantSiblings(file) {
+  const base = file.slice(0, file.length - extname(file).length);
+  return ['.avif', '.webp'].map((v) => base + v).filter((p) => existsSync(p));
+}
+
 async function writeXmp(file, credit) {
-  const args = [
-    '-overwrite_original',
-    '-codedcharacterset=utf8',
-    `-XMP-dc:Creator=${credit.author}`,
-    `-XMP-dc:Rights=${credit.license}`,
-    `-XMP-dc:Subject=${credit.articleTitle}`,
-  ];
-  if (credit.sourceUrl) args.push(`-XMP-dc:Source=${credit.sourceUrl}`);
-  args.push(file);
-  await execFile('exiftool', args);
+  const { args: tagArgs, kind } = licenseFields(credit);
+  const baseArgs = ['-overwrite_original', '-charset', 'utf8', '-charset', 'iptc=utf8'];
+  // Originál + obě varianty dostanou identickou licenci (self-describing soubor).
+  for (const target of [file, ...variantSiblings(file)]) {
+    await execFile('exiftool', [...baseArgs, ...tagArgs, target]);
+  }
+  return kind;
 }
 
 // --- Walk file tree ---
@@ -249,17 +350,21 @@ async function* walk(dir) {
 const JPG_EXT = new Set(['.jpg', '.jpeg', '.JPG', '.JPEG']);
 
 const stats = {
-  scanned: 0, written: 0, skipped: 0, noCredit: 0, failed: 0,
+  scanned: 0, written: 0, skipped: 0, noCredit: 0, failed: 0, byKind: {},
 };
 const failures = [];
 
 async function processOne(file, app, imageCredits) {
   const ext = extname(file);
   if (!JPG_EXT.has(ext)) return;
+
+  const relPath = '/' + relative(join(ROOT, 'apps', app, 'public'), file).replace(/\\/g, '/');
+  // --files filtr (CI diff-mode / cílený test): substring match proti cestě.
+  if (ONLY_FILES && !ONLY_FILES.some((f) => relPath.includes(f) || file.includes(f))) return;
+
   stats.scanned++;
   if (stats.scanned > LIMIT) return;
 
-  const relPath = '/' + relative(join(ROOT, 'apps', app, 'public'), file).replace(/\\/g, '/');
   const credit = imageCredits.get(relPath);
 
   // Idempotence: pokud už XMP existuje, skip (pokud --force).
@@ -282,15 +387,18 @@ async function processOne(file, app, imageCredits) {
   if (!credit) stats.noCredit++;
 
   if (DRY_RUN) {
+    const { kind } = licenseFields(effectiveCredit);
+    stats.byKind[kind] = (stats.byKind[kind] || 0) + 1;
     stats.written++;
-    if (stats.scanned <= 10) {
-      console.log(`  [dry] ${relPath} ← ${effectiveCredit.author} / ${effectiveCredit.license}`);
+    if (stats.scanned <= 12) {
+      console.log(`  [dry] ${relPath} ← [${kind}] author=${cleanAuthor(effectiveCredit.author)}`);
     }
     return;
   }
 
   try {
-    await writeXmp(file, effectiveCredit);
+    const kind = await writeXmp(file, effectiveCredit);
+    stats.byKind[kind] = (stats.byKind[kind] || 0) + 1;
     stats.written++;
   } catch (e) {
     stats.failed++;
@@ -352,7 +460,8 @@ console.log(`\n=== Hotovo za ${elapsed}s ===`);
 console.log(`Scanováno:                  ${stats.scanned}`);
 console.log(`XMP zapsáno:                ${stats.written}${DRY_RUN ? ' (dry-run)' : ''}`);
 console.log(`Skipnuto (XMP už existoval): ${stats.skipped}`);
-console.log(`Bez credit dat (default Archiv ČSH / autor neznámý): ${stats.noCredit}`);
+console.log(`Bez explicitního credit dat (→ default CC BY 4.0 / ČSH): ${stats.noCredit}`);
+console.log(`Podle typu licence:         ${JSON.stringify(stats.byKind)}`);
 if (stats.failed) {
   console.log(`Chyb:                       ${stats.failed}`);
   if (failures.length > 5) console.log(`  …a ${failures.length - 5} dalších (jen prvních 5 logováno).`);

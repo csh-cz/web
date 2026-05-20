@@ -66,6 +66,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Install exiftool (XMP/IPTC licence embed)
+        run: sudo apt-get update && sudo apt-get install -y libimage-exiftool-perl
+
       - name: Detect changed raster sources
         id: changed
         run: |
@@ -97,6 +100,17 @@ jobs:
       - name: Generate variants (full regen)
         if: steps.changed.outputs.mode == 'full'
         run: pnpm imgvariants:build
+
+      # Embed plné licence/atribuce (XMP+IPTC) do originálu i variant PŘED
+      # uploadem — soubor na R2 musí být self-describing i mimo web (kde
+      # neplatí site-wide default CC BY 4.0). Viz skill obrazky §6.1.1.
+      - name: Embed licence metadata (diff)
+        if: steps.changed.outputs.mode == 'diff'
+        run: node scripts/write-xmp-metadata.mjs --force --files "${{ steps.changed.outputs.files }}"
+
+      - name: Embed licence metadata (full regen)
+        if: steps.changed.outputs.mode == 'full'
+        run: node scripts/write-xmp-metadata.mjs
 
       - name: Upload variants + sources to R2
         if: steps.changed.outputs.mode != 'none'
