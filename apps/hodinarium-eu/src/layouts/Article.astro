@@ -13,8 +13,20 @@ import { tinyMarkdown } from "../utils/tinyMarkdown";
 import { hodinariProClanek } from "../data/hodinari";
 import { krokyProClanek } from "../data/kroky";
 import { clanekHref } from "../data/url-helpers";
+import deadLinks from "../data/dead-links.json";
 
 import type { CatalogEntry } from '../data/catalog-types';
+
+// Dead-link marker pro references[].url (body odkazy řeší rehype-deadlink).
+// Stejný zdroj dat (src/data/dead-links.json) z `pnpm deadlinks:audit`.
+const DEAD_SET = new Set<string>(deadLinks.urls ?? []);
+const DEAD_TITLE = deadLinks._meta?.generated
+  ? `Odkaz byl při poslední kontrole (${deadLinks._meta.generated}) nedostupný`
+  : 'Odkaz byl při poslední kontrole nedostupný';
+const deadAttrs = (url?: string) =>
+  url && DEAD_SET.has(url)
+    ? { class: 'link-dead', 'data-dead-link': 'true', title: DEAD_TITLE }
+    : {};
 
 interface Reference {
   bibKey?: string;
@@ -259,7 +271,7 @@ const articleJsonLd = {
       <section class="references" aria-labelledby="references-heading">
         <h2 id="references-heading" class="references-title">Literatura a odkazy</h2>
         <ul class="references-list" data-style={referenceStyle}>
-          {references.map((r, i) => {
+          {references.map((r: Reference, i: number) => {
             // CSL lookup pro bibKey-driven references
             const cslItem = r.bibKey ? getRef(r.bibKey) : null;
             const cslType = (cslItem?.type as string) || '';
@@ -285,7 +297,7 @@ const articleJsonLd = {
                 || r.bibKey;
               return (
                 <li id={`ref-${r.key ?? i + 1}`} class="reference reference-wiki" title={pramenTooltip('wiki')}>
-                  {wUrl ? <a href={wUrl} rel="noopener" target="_blank">{wTitle}</a> : <span class="ref-title">{wTitle}</span>}
+                  {wUrl ? <a href={wUrl} {...deadAttrs(wUrl)} rel="noopener" target="_blank">{wTitle}</a> : <span class="ref-title">{wTitle}</span>}
                   {r.note && <span class="ref-note"> — {r.note}</span>}
                 </li>
               );
@@ -301,7 +313,7 @@ const articleJsonLd = {
                   <>
                     {r.author && <span class="ref-author">{r.author}:</span>}
                     {r.url
-                      ? <a href={r.url} rel="noopener" target="_blank">{r.title}</a>
+                      ? <a href={r.url} {...deadAttrs(r.url)} rel="noopener" target="_blank">{r.title}</a>
                       : <span class="ref-title">{r.title}</span>}
                     {r.year !== undefined && <span class="ref-year">({r.year})</span>}
                   </>

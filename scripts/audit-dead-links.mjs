@@ -45,11 +45,21 @@ const SKIP_WBM = args.includes('--skip-wbm');
 const JSON_ONLY = args.includes('--json');
 
 const CONCURRENCY = 10;
-const TIMEOUT_MS = 10_000;
+const TIMEOUT_MS = 15_000;
 const SKIP_DOMAINS = new Set([
   'localhost',
   'example.com',
   'example.org',
+  // Vlastní domény — interní odkazy ověřuje validate-content / build, ne tenhle
+  // externí audit (a /clanky/* řeší redirect route, takže by jen falešně padaly).
+  'hodinarium-eu.pages.dev',
+  'horologie-cz.pages.dev',
+  'hodinarium.eu',
+  'www.hodinarium.eu',
+  'horologie.cz',
+  'www.horologie.cz',
+  'orloj.eu',
+  'www.orloj.eu',
 ]);
 /** RFC 1918 private IPs — skip (typicky lokální config v dev articles
  *  o Arduino/ESP, např. http://192.168.4.1 pro WiFi access point). */
@@ -67,8 +77,17 @@ function addUrl(url, file, context, field) {
   if (!/^https?:\/\//i.test(normalized)) return;
   // Skip query strings v dedup keyu (často tracking) — ale zachováme původní URL pro display
   let displayUrl = normalized;
-  // Strip trailing punctuation (markdown often has periods inside parentheses)
-  displayUrl = displayUrl.replace(/[.,;:!?)\]]+$/, '');
+  // Strip trailing SENTENCE punctuation (bare URLs často končí větným znaménkem).
+  displayUrl = displayUrl.replace(/[.,;:!?]+$/, '');
+  // Trailing ) nebo ] uřízni JEN když je nevyvážená (markdown bare-URL artefakt).
+  // NESMÍ uříznout balanced závorku, která je součástí URL (Wikipedia hesla typu
+  // …/Ostrov_(okres_Karlovy_Vary)) — extractMarkdownLinkUrls je vrací správně.
+  while (/[)\]]$/.test(displayUrl)) {
+    const opens = (displayUrl.match(/[([]/g) || []).length;
+    const closes = (displayUrl.match(/[)\]]/g) || []).length;
+    if (closes > opens) displayUrl = displayUrl.slice(0, -1);
+    else break;
+  }
   try {
     const u = new URL(displayUrl);
     if (SKIP_DOMAINS.has(u.hostname)) return;
@@ -239,12 +258,15 @@ async function checkUrl(url) {
 }
 
 async function checkUrlWithRetry(url) {
-  const r = await checkUrl(url);
+  let r = await checkUrl(url);
   if (r.ok) return r;
-  // Retry once for network errors (status 0 = fetch threw)
-  if (r.status === 0) {
-    await new Promise((res) => setTimeout(res, 500));
-    return checkUrl(url);
+  // Network errors (status 0 = fetch threw / timeout / bot-block) jsou často
+  // FALSE-POSITIVE u živých webů (pomalá odezva, blokace UA). Zkus 2× navíc
+  // s prodlevou, ať se status-0 nehlásí jako dead zbytečně.
+  for (let attempt = 0; attempt < 2 && r.status === 0; attempt++) {
+    await new Promise((res) => setTimeout(res, 800 * (attempt + 1)));
+    r = await checkUrl(url);
+    if (r.ok) return r;
   }
   return r;
 }
@@ -294,7 +316,8 @@ async function checkWayback(url) {
 }
 
 const findings = [];
-const deadUrls = [];
+const deadUrls = [];        // genuine 4xx/5xx — kandidáti na ⚠ marker
+const unverifiedUrls = [];  // status 0 (network/timeout/bot-block) — NEoznačovat
 
 allUrls.forEach((url, i) => {
   const r = checkResults[i];
@@ -309,10 +332,15 @@ allUrls.forEach((url, i) => {
     wayback: null,
   };
   findings.push(finding);
-  if (!r.ok) deadUrls.push(finding);
+  if (r.ok) return;
+  // Jen skutečný HTTP error (4xx/5xx) = dead k označení. Status 0 (síťová chyba,
+  // timeout, blokace bota) je často FALSE-POSITIVE u živých webů → "unverified",
+  // hlásí se zvlášť k ručnímu ověření, NEoznačuje se markerem.
+  if (r.status >= 400) deadUrls.push(finding);
+  else unverifiedUrls.push(finding);
 });
 
-console.error(`Live: ${findings.filter((f) => f.ok).length}, Dead: ${deadUrls.length}`);
+console.error(`Live: ${findings.filter((f) => f.ok).length}, Dead (4xx/5xx): ${deadUrls.length}, Unverified (status 0): ${unverifiedUrls.length}`);
 
 if (deadUrls.length > 0 && !SKIP_WBM) {
   console.error('Querying Wayback Machine for dead URLs…');
@@ -336,7 +364,9 @@ const summary = {
   totalUrls: allUrls.length,
   liveCount: findings.filter((f) => f.ok).length,
   deadCount: deadUrls.length,
+  unverifiedCount: unverifiedUrls.length,
   withWaybackCount: deadUrls.filter((f) => f.wayback).length,
+  unverifiedUrls: unverifiedUrls.map((f) => ({ url: f.url, error: f.error, sources: f.sources })),
   findings,
 };
 
@@ -374,6 +404,26 @@ const editorIndex = {
 };
 await writeFile(editorIndexPath, JSON.stringify(editorIndex, null, 2) + '\n');
 console.error(`✓ Sveltia editor index: ${relative(ROOT, editorIndexPath)} (${Object.keys(byFileIndex).length} souborů s dead links)`);
+
+// Marker input pro rehype-deadlink (body odkazy) + Article.astro (references):
+// JEN genuine dead (HTTP 4xx/5xx). Status-0 (unverified) se NEoznačuje — bývá
+// false-positive u živých webů (viz report). Hand-curaci REPLACE/REMOVE řeší
+// editor zvlášť; tenhle soubor jen vizuálně flagne ⚠.
+const markerPath = join(ROOT, 'apps/hodinarium-eu/src/data/dead-links.json');
+const markerData = {
+  _meta: {
+    generated: today,
+    count: deadUrls.length,
+    description:
+      'Genuine dead (HTTP 4xx/5xx) externí odkazy z auditu scripts/audit-dead-links.mjs. '
+      + 'Vyloučeno: vlastní domény, status-0 (unverified — viz docs/dead-links-audit-*.md), '
+      + 'web.archive.org. Rehype-deadlink (body) + Article.astro (references) flagnou ⚠. '
+      + 'Po opravě/odstranění odkazu re-run `pnpm deadlinks:audit`.',
+  },
+  urls: deadUrls.map((f) => f.url).sort((a, b) => a.localeCompare(b)),
+};
+await writeFile(markerPath, JSON.stringify(markerData, null, 2) + '\n');
+console.error(`✓ Marker input: ${relative(ROOT, markerPath)} (${deadUrls.length} dead URLs)`);
 
 if (JSON_ONLY) {
   console.log(JSON.stringify(summary, null, 2));
@@ -443,10 +493,23 @@ if (deadUrls.length === 0) {
   }
 }
 
+// Unverified (status 0) — neoznačovat, ale dát editorovi k ručnímu ověření.
+if (unverifiedUrls.length > 0) {
+  mdLines.push('', '---', '');
+  mdLines.push(`## Neověřené (status 0 — síť/timeout/blokace, ${unverifiedUrls.length})`);
+  mdLines.push('');
+  mdLines.push('Tyto URL neodpověděly (network error / timeout / blokace bota). Často jsou');
+  mdLines.push('**živé** — ověřit ručně v prohlížeči, NEoznačovat automaticky markerem.');
+  mdLines.push('');
+  for (const f of unverifiedUrls.sort((a, b) => a.url.localeCompare(b.url))) {
+    mdLines.push(`- ${f.url} _(${f.error || 'network error'})_`);
+  }
+}
+
 await mkdir(join(ROOT, 'docs'), { recursive: true });
 const mdPath = join(ROOT, 'docs', `dead-links-audit-${today}.md`);
 await writeFile(mdPath, mdLines.join('\n'));
 console.error(`✓ Markdown report: ${relative(ROOT, mdPath)}`);
 
 console.error('');
-console.error(`Hotovo. ${summary.deadCount} mrtvých odkazů z ${allUrls.length} (${(100 * summary.deadCount / allUrls.length).toFixed(1)} %).`);
+console.error(`Hotovo. ${summary.deadCount} mrtvých (4xx/5xx) + ${summary.unverifiedCount} neověřených (status 0) z ${allUrls.length} URL.`);
