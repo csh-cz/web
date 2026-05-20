@@ -4,6 +4,7 @@ import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
 import EditorNotesBlock from '../../components/EditorNotesBlock.astro';
 import WipBanner from '../../components/WipBanner.astro';
 import Photo from '../../components/Photo.astro';
+import { CSH_CONTENT_COMPONENTS } from '../../utils/content-components';
 import { getCollection, render } from 'astro:content';
 import { hodinari } from '../../data/hodinari';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
@@ -249,7 +250,12 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
   )}
 
   <section class="prose-content">
-    <Content />
+    {/* `components` prop sdílí MDX runtime resolve s direktivami
+        `::photo{}`, `::youtube{}` atd. — bez něj MDX padá při render
+        s "Expected component `Photo` to be defined" (commit 83d543cc
+        přidal ::photo do soupis karet, ale šablona neměla components
+        prop → CF Pages build failed). */}
+    <Content components={CSH_CONTENT_COMPONENTS} />
   </section>
 
   {d.prameny && d.prameny.length > 0 && (
