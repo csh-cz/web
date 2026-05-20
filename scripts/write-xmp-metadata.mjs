@@ -234,6 +234,25 @@ function cleanAuthor(s) {
   return md ? md[1] : s;
 }
 
+// --- Heuristika autora z názvu souboru: `… (foto Skála).jpg` → „Petr Skála" ---
+// Memory reference_csh_fotografi.md: detekce z `(foto X)` patternu + NFD-fold
+// (jinak `marušák` po toLowerCase nematchuje `marusak`). Vyžaduje token `foto`
+// v názvu, aby místní názvy (Skalná, Kralupy…) nedělaly false-positive.
+const FILENAME_PHOTOGRAPHERS = [
+  [/\bskala\b/, 'Petr Skála'],
+  [/\bmarusak\b/, 'S. Marušák'],
+  [/\bmarek\b/, 'Marek'],
+  [/\bkral\b/, 'P. Král'],
+  [/\bctiborova\b/, 'M. Ctiborová'],
+];
+function authorFromFilename(file) {
+  const base = file.split('/').pop() || '';
+  const ascii = base.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  if (!/foto/.test(ascii)) return null; // jen záměrný credit marker
+  for (const [re, name] of FILENAME_PHOTOGRAPHERS) if (re.test(ascii)) return name;
+  return null;
+}
+
 // --- Build credit index z content/*.{md,mdx} ---
 async function buildCreditIndex(contentDir) {
   /**
@@ -272,6 +291,7 @@ async function buildCreditIndex(contentDir) {
       imageCredits.set(src, {
         author: cleanAuthor(attrs.author) || author || 'Archiv ČSH',
         authorUrl: attrs.authorUrl || '',
+        authorExplicit: Boolean(cleanAuthor(attrs.author)),
         license: attrs.license || deriveRights(attrs.sourceUrl || originalUrl, attrs.author || author),
         licenseUrl: attrs.licenseUrl || '',
         sourceUrl: attrs.sourceUrl || originalUrl,
@@ -290,6 +310,7 @@ async function buildCreditIndex(contentDir) {
       if (imageCredits.has(src)) continue;
       imageCredits.set(src, {
         author: cleanAuthor(author) || 'Archiv ČSH',
+        authorExplicit: false,
         license: deriveRights(originalUrl, author),
         sourceUrl: originalUrl,
         articleTitle: title,
@@ -376,7 +397,7 @@ async function processOne(file, app, imageCredits) {
     }
   }
 
-  const effectiveCredit = credit ?? {
+  const baseCredit = credit ?? {
     author: 'Archiv ČSH',
     license: 'autor neznámý',
     sourceUrl: '',
@@ -385,6 +406,18 @@ async function processOne(file, app, imageCredits) {
     source: 'default',
   };
   if (!credit) stats.noCredit++;
+
+  // Heuristika autora (priorita): explicitní ::photo autor > `(foto X)` v názvu
+  // souboru > článkový autor / Archiv ČSH. Filename detekce přebíjí jen
+  // ne-explicitní (default/frontmatter) autora — nikdy explicitní ::photo.
+  let effectiveCredit = baseCredit;
+  if (!baseCredit.authorExplicit) {
+    const fromName = authorFromFilename(file);
+    if (fromName) {
+      effectiveCredit = { ...baseCredit, author: fromName };
+      stats.byFilenameAuthor = (stats.byFilenameAuthor || 0) + 1;
+    }
+  }
 
   if (DRY_RUN) {
     const { kind } = licenseFields(effectiveCredit);
@@ -462,6 +495,7 @@ console.log(`XMP zapsáno:                ${stats.written}${DRY_RUN ? ' (dry-run
 console.log(`Skipnuto (XMP už existoval): ${stats.skipped}`);
 console.log(`Bez explicitního credit dat (→ default CC BY 4.0 / ČSH): ${stats.noCredit}`);
 console.log(`Podle typu licence:         ${JSON.stringify(stats.byKind)}`);
+console.log(`Autor z názvu (foto X):     ${stats.byFilenameAuthor || 0}`);
 if (stats.failed) {
   console.log(`Chyb:                       ${stats.failed}`);
   if (failures.length > 5) console.log(`  …a ${failures.length - 5} dalších (jen prvních 5 logováno).`);
