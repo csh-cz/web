@@ -18,7 +18,7 @@ tldr: 'Elektrický bicí stroj řízený polarizovanými impulzy s rotujícím k
 ---
 Do expozice časoměrných strojů na zámku Děčín dorazil poněkud komplikovanou cestou další exponát: elektricky ovládaný [bicí stroj](/slovnik/bici-stroj) využívající podobný způsob [odbíjení](/slovnik/odbijeni) celých hodin jako tzv. surrerwerk hodin ze Schwarzwaldu. Tento typ každou čtvrthodinu odbíjel úplnou informaci o čase, tedy příslušnou čtvrthodinu, doplněnou údajem o uplynulé hodině. Vystavený exponát se liší tím, že odbíjí čtvrtě a pouze v celou hodinu přidá údaj o aktuální hodině. U věžních hodin by asi odbíjení úplné informace o čase poněkud rušilo.
 
-[![spímací segment](/img/decin_surrerwerk/s3.jpg)](/img/decin_surrerwerk/f/s3.jpg)
+[![spímací segment](/img/decin_surrerwerk/s3.jpg)](/img/decin_surrerwerk/s3.jpg)
 
 [![zvonicí stroj](/img/vez/bychory/f/zvonici_stroj.jpg)](/img/vez/bychory/f/zvonici_stroj.jpg)[![Věžni muzejíčko - Prokeš 1868 - Býchory](/img/vez/bychory/Prokes1868_3.jpg)](/img/vez/bychory/f/Prokes1868_3.jpg)
 
