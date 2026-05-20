@@ -34,8 +34,8 @@ Funkční nástěnný malovaný orloj s mechanikou, která zajišťuje pohyb uka
 podobných pražskému orloji. Vznikal pomalu od roku 2002 ve volných chvílích.
 Koncepce pohybu [soukolí](/slovnik/soukoli) rohatkami je převzata z **litomyšlského orloje**
 (Karel Adamec, Čáslav, 1907) — jen rozměry kol jsou jiné a převody na měsíční
-rafii přesnější. Pohon zajišťuje malý elektromotorek řízený podružnými
-hodinami: každých dvanáct minut se rafije Slunce spolu s Měsícem a ekliptikou
+ručku přesnější. Pohon zajišťuje malý elektromotorek řízený podružnými
+hodinami: každých dvanáct minut se ručka Slunce spolu s Měsícem a ekliptikou
 otočí o jednu pětinu hodiny.
 
 V roce 2009 plochu orlojní desky omaloval ak. soch. **[Miroslav Kotrba](/hodinari/miroslav-kotrba)**.

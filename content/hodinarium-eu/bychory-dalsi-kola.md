@@ -15,7 +15,7 @@ relatedKarty:
   - inv-2-vezni-prokes-1868-soubor
 tldr: 'Detailní popis rozvodů a ručkových soukolí ze sobotecké dílny Jana Prokeše — dvoukolová rozvodovka se střídnými koly, převod 4/48 cévkovým pastorkem a varianta s dvouchodým šnekem 1:12.'
 ---
-Pokud někdo vystavuje starý věžní hodinový stroj, soustředí se většinou na vlastní rám, ve kterém může být podle okolností samostatný jicí stroj, někdy spolu s [bicím strojem](/slovnik/bici-stroj) celých hodin případně bicím strojem čtvrťovým. To je nejzajímavější část. Věžní hodiny ovšem tvoří další soustavy převodů, které otáčení minutové hřídele jicího stroje převedou až na číselníky. Teprve zde se k minutové hřídeli přidává hřídel hodinová a dají se tak pohánět obě rafie.
+Pokud někdo vystavuje starý věžní hodinový stroj, soustředí se většinou na vlastní rám, ve kterém může být podle okolností samostatný jicí stroj, někdy spolu s [bicím strojem](/slovnik/bici-stroj) celých hodin případně bicím strojem čtvrťovým. To je nejzajímavější část. Věžní hodiny ovšem tvoří další soustavy převodů, které otáčení minutové hřídele jicího stroje převedou až na číselníky. Teprve zde se k minutové hřídeli přidává hřídel hodinová a dají se tak pohánět obě ručky.
 
 Otáčení minutové hřídele se na různé strany rozvádí soustavou tyčí a převodů rozvodovky. Přímo v místě číselníku jsou ručková [soukolí](/slovnik/soukoli). Ve Věžním muzejíčku je vystavena jedna rozvodovka a jedno ručkové soukolí z dílny Prokeš, i když patrně nepochází ze zámku Býchory jako ostatní části. [![rozbodobk Prokeš](/img/vez/bychory/prokes1873.jpg)](/img/vez/bychory/f/prokes1873.jpg)
 
@@ -41,7 +41,7 @@ Pastorek mezilehlého kola s pouze 4 cévkami pak zabírá do 48 zubů hodinové
 
 Pro ukázku kompletních rozvodů jsme sestavili dvoukolovou rozvodovku Prokeš s ručkovými převody pocházejícími ze zvoničky v obci Svinky. Vlastní plechové číselníky jsme vynechali. Nevíme zatím, kdo a kdy tyto rozvody vyrobil. Na demontovaných číselnících bylo datum opravy z roku 1902. Provedením jde o menší variantu výše uvedené převodovky. Rozdíl je v tom, že čtyřcévkový pastorek není vyráběn z hmoty hřídele, ale je nasazen. Tím bylo možné poškozený pastorek snadno vyměnit.
 
-Zvonička ve Svinkách přiléhá ke kovárně a mé proto jen 3 číselníky. Minutová hřídel od hodinového stroje by byla přivedena vpravo dole. Hřídele vycházející na obrázku vlevo a nahoru se otáčí po směru hodinových ručiček (z pohledu od číselníku). Jsou proto připojeny pouze dilatačními spojkami na minutovou hřídel. Levá převodovka z důvodů úspory místa v exponátu je připojena hybridní spojkou částečně plnící i funkci kardanu. Převodové strojky jsou osazeny původními, značně zkorodovanými rafiemi.
+Zvonička ve Svinkách přiléhá ke kovárně a mé proto jen 3 číselníky. Minutová hřídel od hodinového stroje by byla přivedena vpravo dole. Hřídele vycházející na obrázku vlevo a nahoru se otáčí po směru hodinových ručiček (z pohledu od číselníku). Jsou proto připojeny pouze dilatačními spojkami na minutovou hřídel. Levá převodovka z důvodů úspory místa v exponátu je připojena hybridní spojkou částečně plnící i funkci kardanu. Převodové strojky jsou osazeny původními, značně zkorodovanými ručkami.
 
 Pravý strojek se musí vypořádat s opačně točící minutovou hřídelí. Tato [rozvodová hřídel](/slovnik/kralovska-hridel) je proto připojena na střídné kolo. Vzhledem ke krátké vzdálenosti je vypuštěna dilatační spojka.
 

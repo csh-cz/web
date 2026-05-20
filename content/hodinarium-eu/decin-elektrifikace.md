@@ -43,7 +43,7 @@ Na obrázku je vidět výkres záchytu [kyvadla](/slovnik/kyvadlo) a jeho namont
 
 Záchyt kyvadla řízený elektronicky používá i dnes restaurátorský ateliér manželů Skálových. Ukázka použití záchytu [zde](http://www.veznihodiny.cz/ukaz19.htm).
 
-## Dnešní řešení pohonu rafií
+## Dnešní řešení pohonu ruček
 
 ![Hodinový ručkový převod 1/12 je autonomní pohon hodinových ručiček s zabudovaným motorkem 230 V a mechanickou zpětnou vazbou. Ručkový převod je určen pro montáž na hodinové číselníky do průměru 4 metrů. Převod se montuje za číselník a zeď za pomoci prodloužení os tak, aby vlastní strojek byl až za zdí. Jeho malé rozměry ho předurčují pro instalaci na malé hodinové skleněné nebo plastové číselníky s osvětlením. Ovládání je řešeno minutovým pulsem ( A a B ) s délkou impulsu 4 vteřiny.](/img/decin/elektrika/ecat-2_1299217329.jpg)
 

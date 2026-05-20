@@ -1,5 +1,5 @@
 ---
-title: "Soustava rozvodů s rafijemi"
+title: "Soustava rozvodů s ručkami"
 slug: "inv-52-soustava-rozvodu-s-rafijemi"
 category: "sbirka"
 podsekce: "karta"

@@ -63,17 +63,17 @@ Jednoduché a elegantní.
 ### Stroj VH1 (Elektročas, 2017)
 
 Do Hodinária se v roce 2017 dostává další stroj z produkce Elektročasu —
-**Věžní Hodiny VH1**. Jsou zajímavé tím, že rafije jsou ovládány elektromotorem,
+**Věžní Hodiny VH1**. Jsou zajímavé tím, že ručky jsou ovládány elektromotorem,
 který je spouštěn běžným podružným strojkem řízeným polarizovanými impulzy
 24 V.
 
-Mazaně je řešeno seřízení rafijí po výpadku napájení pro motor. Náhon je
+Mazaně je řešeno seřízení ruček po výpadku napájení pro motor. Náhon je
 proveden přes diferenciální soukolí. Na každé straně soukolí je kolo s výřezem,
 takže pokud jdou jen řídící impulzy, kola se proti sobě pootočí a palec, který
 do výřezů zapadal, se nadzvedne. Tím se sepne kontakt pro motor, takže po
-obnovení přívodu el. proudu motor natočí rafije do správné polohy. Až se zase
+obnovení přívodu el. proudu motor natočí ručky do správné polohy. Až se zase
 kola natočí proti sobě výřezy (tedy na správný čas), palec zapadne a odpojí
-motor. Tak se pohlídá výpadek až 12 hodin a věžní rafije jsou nastaveny na čas
+motor. Tak se pohlídá výpadek až 12 hodin a věžní ručky jsou nastaveny na čas
 podružného strojku.
 
 ![VH1 — celkový pohled](/img/decin/ElektrocasVK1/foto_0001.jpg)
