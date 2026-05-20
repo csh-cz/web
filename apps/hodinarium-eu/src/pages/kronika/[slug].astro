@@ -9,6 +9,7 @@ import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibi
 import CrossRefs from '../../components/CrossRefs.astro';
 import { formatAuthor } from '../../utils/formatAuthor';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
+import { CSH_CONTENT_COMPONENTS } from '../../utils/content-components';
 
 export async function getStaticPaths() {
   const all = await getCollection('kronika');
@@ -113,7 +114,7 @@ const typLabels: Record<string, string> = {
     )}
 
     <div class="prose-content drop-cap">
-      <Content />
+      <Content components={CSH_CONTENT_COMPONENTS} />
     </div>
 
     <CrossRefs refs={entry.data.crossRefs} selfType="kronika" selfSlug={entry.id} />

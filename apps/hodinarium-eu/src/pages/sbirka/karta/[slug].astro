@@ -10,6 +10,7 @@ import WipBanner from '../../../components/WipBanner.astro';
 import { clanekHref } from '../../../data/url-helpers';
 import { isPubliclyBuildable, showsWipBanner } from '../../../utils/workflow-visibility';
 import CrossRefs from '../../../components/CrossRefs.astro';
+import { CSH_CONTENT_COMPONENTS } from '../../../utils/content-components';
 
 export async function getStaticPaths() {
   const all = await getCollection('clanky');
@@ -199,7 +200,7 @@ const kartaJsonLd = {
     )}
 
     <div class="prose-content drop-cap" itemprop="description">
-      <Content />
+      <Content components={CSH_CONTENT_COMPONENTS} />
     </div>
 
     {vazaneClanky.length > 0 && (
