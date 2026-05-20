@@ -4,13 +4,26 @@ slug: vlasek
 conceptId: HORO-HAIRSPRING-001
 kategorie: mechanika
 varianty:
-  - vlásek
-  - vlasová pružinka
-  - vlasová pružina
-  - balanční pružinka
-  - spirála setrvačky
-  - pero vlasové
-  - váhadlová zpruha
+  - term: vlásek
+    status: preferred
+  - term: spirála setrvačky
+    status: admitted
+    note: "Obecnější opisný tvar, srozumitelný, ale ne primární."
+  - term: pero vlasové
+    status: historical
+    doloženo: 'Šumavský 1851 (adjektivní tvar; substantivum „vlásek" se prosadilo ve 20. století)'
+  - term: váhadlová zpruha
+    status: archaic
+    doloženo: "Špatný 1882 (Unruhefeder → váhadlová zpruha)"
+  - term: vlasová pružinka
+    status: erroneous
+    note: "Popisná moderní varianta z DE Haarfeder / EN hairspring — v cs odborné literatuře nedoložená (0 výskytů), nepoužívat jako primární."
+  - term: vlasová pružina
+    status: erroneous
+    note: "Viz vlasová pružinka."
+  - term: balanční pružinka
+    status: erroneous
+    note: "Kombinace anglicismu (balanc) a opisu; v cs odborné literatuře nedoložená."
 prekladyDe:
   - term: Spirale
     genus: f

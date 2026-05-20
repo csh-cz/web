@@ -10,12 +10,23 @@ prekladyDe:
     genus: f
     zdroj: "Špatný 1882: Unruhe → nepokoj, váhadlo"
 varianty:
-  - setrvačka
-  - setrváček
-  - balancka
-  - nepokoj
-  - váhadlo
-  - lihýř
+  - term: setrvačka
+    status: preferred
+  - term: setrváček
+    status: historical
+    doloženo: "Krečmer 1878 (deminutivní tvar)"
+  - term: balancka
+    status: admitted
+    note: 'Ústní odborný žargon; v tištěné literatuře nedoložená. Anglicismus „balanc" se v cs nepoužívá vůbec.'
+  - term: nepokoj
+    status: archaic
+    doloženo: 'Špatný 1882 (kalk z DE Unruhe = doslovně „nepokoj")'
+  - term: váhadlo
+    status: archaic
+    doloženo: "Špatný 1882 (z DE Balancier)"
+  - term: lihýř
+    status: archaic
+    note: "Žargonový termín 19. století."
 prekladyEn:
   - term: balance
   - term: balance wheel
