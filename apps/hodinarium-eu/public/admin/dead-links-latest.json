@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-17T11:43:56.962Z",
-  "deadCount": 4,
-  "withWaybackCount": 0,
+  "generatedAt": "2026-05-20T04:35:20.848Z",
+  "deadCount": 95,
+  "withWaybackCount": 21,
   "byFile": {
     "content/hodinarium-eu/akvizice-2015-2025.md": [
       {
@@ -9,17 +9,11 @@
         "status": 403,
         "context": "rchive.org/web/20160327202644/http://dominanty.cz/pamatky-velka-chmelistna.php). ![kostel sv. Bartoloměje V",
         "field": "body:bare",
-        "wayback": null
-      }
-    ],
-    "content/hodinarium-eu/arduino-pps.md": [
-      {
-        "url": "https://www.accubeat.com/rubidium-frequency-oscillators",
-        "status": 0,
-        "error": "fetch failed",
-        "context": "edia.org. [cit. 2026-04-28] - [Rubidium Frequency Oscillators firmy AccuBeat](https://www.accubeat.com/rubidium-frequency-oscillators) — accubeat.com. [cit. 2026-0",
-        "field": "body:link",
-        "wayback": null
+        "wayback": {
+          "url": "http://web.archive.org/web/20160327202644/http://dominanty.cz/pamatky-velka-chmelistna.php",
+          "timestamp": "20160327202644",
+          "status": "200"
+        }
       }
     ],
     "content/hodinarium-eu/atomove-kapesni.md": [
@@ -36,6 +30,948 @@
         "status": 0,
         "error": "timeout",
         "context": "kačních pinů rs232 nebo USB. [Obrázek vývojového kitu](https://www.microsemi.com/images/gallery/new_products/EvalKit%20Cartoon.png) , [Datasheed](/download/micr",
+        "field": "body:link",
+        "wayback": {
+          "url": "http://web.archive.org/web/20210910023747/https://www.microsemi.com/images/gallery/new_products/EvalKit%20Cartoon.png",
+          "timestamp": "20210910023747",
+          "status": "200"
+        }
+      }
+    ],
+    "content/hodinarium-eu/brillie.md": [
+      {
+        "url": "https://regulateurbrillie.monsite-orange.fr/",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "rchive.org/web/20230929035107/https://regulateurbrillie.monsite-orange.fr/) - [Stránky Electrisal Horolo",
+        "field": "body:bare",
+        "wayback": {
+          "url": "http://web.archive.org/web/20230929035107/https://regulateurbrillie.monsite-orange.fr/",
+          "timestamp": "20230929035107",
+          "status": "200"
+        }
+      },
+      {
+        "url": "http://www.antiquity.in/brillie-1.html",
+        "status": 404,
+        "context": "rchive.org/web/20191122123049/http://www.antiquity.in/brillie-1.html) - [O synchronizaci hodin Bri",
+        "field": "body:bare",
+        "wayback": {
+          "url": "http://web.archive.org/web/20191122123049/http://www.antiquity.in/brillie-1.html",
+          "timestamp": "20191122123049",
+          "status": "200"
+        }
+      }
+    ],
+    "content/hodinarium-eu/casova-pasma.md": [
+      {
+        "url": "http://www.hodiny-spel.cz/atypicka_vyroba.php",
+        "status": 404,
+        "context": "[![Hodiny „SVĚTOVÝ ČAS”, analogové v kombinaci s datumem, broušený a leštěný nerez](/img/elektrika/svetovy_cas1.jpg)](http://www.hodiny-spel.cz/atypicka_vyroba.php) Mezi kuriózní hodiny můžeme",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "http://www.thisisit.ca:80/worldclock2001/",
+        "status": 404,
+        "context": "rchive.org/web/20100514052728/http://www.thisisit.ca:80/worldclock2001/)si je můžete prohlédnout i v ",
+        "field": "body:bare",
+        "wayback": {
+          "url": "http://web.archive.org/web/20100514052728/http://www.thisisit.ca:80/worldclock2001/",
+          "timestamp": "20100514052728",
+          "status": "200"
+        }
+      }
+    ],
+    "content/hodinarium-eu/decimalky.md": [
+      {
+        "url": "http://www.swatch.com:80/xx_en/internettime.html",
+        "status": 404,
+        "context": "rchive.org/web/20130524065953/http://www.swatch.com:80/xx_en/internettime.html) také používá decimální dělen",
+        "field": "body:bare",
+        "wayback": null
+      }
+    ],
+    "content/hodinarium-eu/decin-jednotny-cas.md": [
+      {
+        "url": "https://docplayer.org/71200072-Siemens-uhren-historische-sammlung-teil-ii.html",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "lzů. \\* \\* \\* ### Odkazy - https://docplayer.org/71200072-Siemens-uhren-historische-sammlung-teil-ii.html ",
+        "field": "body:bare",
+        "wayback": {
+          "url": "http://web.archive.org/web/20240619222242/https://docplayer.org/71200072-Siemens-uhren-historische-sammlung-teil-ii.html",
+          "timestamp": "20240619222242",
+          "status": "200"
+        }
+      }
+    ],
+    "content/hodinarium-eu/decin-ntp.md": [
+      {
+        "url": "https://proxy.hodinarium2.eu/chrony2.php",
+        "status": 530,
+        "context": "ažené přesnosti času na tomto [odkazu](https://proxy.hodinarium2.eu/chrony2.php). Odkazy - [Chrony server ",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://proxy.hodinarium2.eu/chrony2.php",
+        "status": 530,
+        "context": ".eu/chrony2.php). Odkazy - [Chrony server v Hodinariu](https://proxy.hodinarium2.eu/chrony2.php) - [Wikipedii](https://cs.wik",
+        "field": "body:link",
+        "wayback": null
+      }
+    ],
+    "content/hodinarium-eu/download.md": [
+      {
+        "url": "http://www.giovannisoft.cz/",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "rchive.org/web/20170627153127/http://www.giovannisoft.cz/) [Stáhnout](download/pckukac",
+        "field": "body:bare",
+        "wayback": {
+          "url": "http://web.archive.org/web/20170627153127/http://www.giovannisoft.cz/",
+          "timestamp": "20170627153127",
+          "status": "200"
+        }
+      }
+    ],
+    "content/hodinarium-eu/edgecombe.md": [
+      {
+        "url": "http://saluspopulae.co.uk/synclock/content/IMG\\_0083\\_large.html",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "ress.com. [cit. 2026-04-28] - http://saluspopulae.co.uk/synclock/content/IMG\\_0083\\_large.html - [Warren Type A Synchronous ",
+        "field": "body:bare",
+        "wayback": null
+      }
+    ],
+    "content/hodinarium-eu/litinove-vezni-hodiny.md": [
+      {
+        "url": "https://radioeng.cz/poster.htm",
+        "status": 404,
+        "context": "https://radioeng.cz/poster.htm",
+        "field": "fm:originalUrl",
+        "wayback": null
+      }
+    ],
+    "content/hodinarium-eu/mereni-casu.md": [
+      {
+        "url": "https://www.zemepis.eu/stranka/mereni-casu",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "https://www.zemepis.eu/stranka/mereni-casu",
+        "field": "fm:references[0]:url",
+        "wayback": {
+          "url": "http://web.archive.org/web/20090716164838/http://www.zemepis.eu:80/stranka/mereni-casu",
+          "timestamp": "20090716164838",
+          "status": "200"
+        }
+      }
+    ],
+    "content/hodinarium-eu/muzeum-beyer-zurich.md": [
+      {
+        "url": "https://www.beyer-ch.com/de/uhrenmuseum-beyer-zurich/",
+        "status": 404,
+        "context": "https://www.beyer-ch.com/de/uhrenmuseum-beyer-zurich/",
+        "field": "fm:references[0]:url",
+        "wayback": null
+      }
+    ],
+    "content/hodinarium-eu/muzeum-gdansk-zegarow-wiezowych.md": [
+      {
+        "url": "https://cs.wikipedia.org/wiki/Muzeum_Zegar%C3%B3w_Wie%C5%BCowych_w_Gda%C5%84sku",
+        "status": 404,
+        "context": "https://cs.wikipedia.org/wiki/Muzeum_Zegar%C3%B3w_Wie%C5%BCowych_w_Gda%C5%84sku",
+        "field": "fm:references[0]:url",
+        "wayback": null
+      }
+    ],
+    "content/hodinarium-eu/muzeum-kadan-orloj.md": [
+      {
+        "url": "https://www.mesto-kadan.cz/orloj/d-1006",
+        "status": 404,
+        "context": "https://www.mesto-kadan.cz/orloj/d-1006",
+        "field": "fm:references[0]:url",
+        "wayback": null
+      }
+    ],
+    "content/hodinarium-eu/muzeum-klementinum.md": [
+      {
+        "url": "https://www.klementinum.com/",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "https://www.klementinum.com/",
+        "field": "fm:references[0]:url",
+        "wayback": {
+          "url": "http://web.archive.org/web/20251111080119/http://klementinum.com/",
+          "timestamp": "20251111080119",
+          "status": "200"
+        }
+      }
+    ],
+    "content/hodinarium-eu/muzeum-pillichsdorf.md": [
+      {
+        "url": "https://www.weinviertel.at/a-pfarrkirche-st-vitus-pillichsdorf",
+        "status": 404,
+        "context": "https://www.weinviertel.at/a-pfarrkirche-st-vitus-pillichsdorf",
+        "field": "fm:references[0]:url",
+        "wayback": null
+      }
+    ],
+    "content/hodinarium-eu/muzeum-radnicni-vez-prostejov.md": [
+      {
+        "url": "https://www.orloje.eu/sekce/prostejovsky-orloj/",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "https://www.orloje.eu/sekce/prostejovsky-orloj/",
+        "field": "fm:references[0]:url",
+        "wayback": null
+      }
+    ],
+    "content/hodinarium-eu/pichacky.md": [
+      {
+        "url": "http://www.wikiwand.com/de/Johannes_B%C3%BCrk",
+        "status": 403,
+        "context": "ářskou firmu Bürk založil pan [Johannes Bürk](http://www.wikiwand.com/de/Johannes_B%C3%BCrk) v roce 1855. Firma od počátk",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk",
+        "status": 403,
+        "context": "u vyjímáne: - Day - Bundy - [Firma Bürk](https://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk) - [Strážní hodiny Bürk](http",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "http://www.workclocks.co.uk/index.html",
+        "status": 404,
+        "context": "specializovaný web \"píchaček\" http://www.workclocks.co.uk/index.html Z obsahu vyjímáne: - Day - B",
+        "field": "body:bare",
+        "wayback": {
+          "url": "http://web.archive.org/web/20251115182513/https://workclocks.co.uk/index.html",
+          "timestamp": "20251115182513",
+          "status": "200"
+        }
+      }
+    ],
+    "content/hodinarium-eu/rick-stanley.md": [
+      {
+        "url": "http://www.usboomers.com:80/clockothers.htm",
+        "status": 404,
+        "context": "rchive.org/web/20170117010318/http://www.usboomers.com:80/clockothers.htm) a další. ",
+        "field": "body:bare",
+        "wayback": null
+      }
+    ],
+    "content/hodinarium-eu/rimskedigi2.md": [
+      {
+        "url": "https://www.christies.com/en/lot/lot-4973414",
+        "status": 0,
+        "error": "timeout",
+        "context": "y-taste-l13303/lot.12.html) - [www.christies.com/en/lot/lot-4973414](https://www.christies.com/en/lot/lot-4973414) - Moderní replika - [www.hor",
+        "field": "body:link",
+        "wayback": {
+          "url": "http://web.archive.org/web/20260312144619/https://www.christies.com/en/lot/lot-4973414",
+          "timestamp": "20260312144619",
+          "status": "200"
+        }
+      }
+    ],
+    "content/hodinarium-eu/slunecni-filler.mdx": [
+      {
+        "url": "http://vlastafiller.wz.cz/",
+        "status": 404,
+        "context": "a Vlasty Fillera, autora webu [vlastafiller.wz.cz](http://vlastafiller.wz.cz/), můžeme zde ukázat [sluneční",
+        "field": "body:link",
+        "wayback": {
+          "url": "http://web.archive.org/web/20250408182125/https://www.vlastafiller.wz.cz/",
+          "timestamp": "20250408182125",
+          "status": "200"
+        }
+      }
+    ],
+    "content/hodinarium-eu/slunecni.mdx": [
+      {
+        "url": "http://vlastafiller.wz.cz/",
+        "status": 404,
+        "context": "a Vlasty Fillera, autora webu [vlastafiller.wz.cz](http://vlastafiller.wz.cz/), zde můžeme ukázat funkční s",
+        "field": "body:link",
+        "wayback": {
+          "url": "http://web.archive.org/web/20250408182125/https://www.vlastafiller.wz.cz/",
+          "timestamp": "20250408182125",
+          "status": "200"
+        }
+      },
+      {
+        "url": "http://www.astroama.com/",
+        "status": 409,
+        "context": "http://www.astroama.com/",
+        "field": "fm:references[3]:url",
+        "wayback": null
+      }
+    ],
+    "content/hodinarium-eu/sobotecka-dilna-prokesova-robertuv-krok.md": [
+      {
+        "url": "https://www.hodinarstvi-marek.cz/",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "ké hodinářství **Jan Marek** ([webové stránky](https://www.hodinarstvi-marek.cz/)) provedl restaurace mj. v **",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://www.hodinarstvi-marek.cz/",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "rad — Hodinářství Jan Marek* ([webové stránky](https://www.hodinarstvi-marek.cz/)). Restaurátorské dokumentace",
+        "field": "body:link",
+        "wayback": null
+      }
+    ],
+    "content/hodinarium-eu/svarcvaldky.md": [
+      {
+        "url": "http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html",
+        "status": 404,
+        "context": "http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html",
+        "field": "fm:references[6]:url",
+        "wayback": null
+      },
+      {
+        "url": "http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm",
+        "status": 404,
+        "context": "http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm",
+        "field": "fm:references[8]:url",
+        "wayback": {
+          "url": "http://web.archive.org/web/20180829235111/http://dorfmuseum-guetenbach.de/de/dorfmuseum.htm",
+          "timestamp": "20180829235111",
+          "status": "200"
+        }
+      }
+    ],
+    "content/hodinarium-eu/synchronizace-hodin.md": [
+      {
+        "url": "https://www.wikiwand.com/cs/Vys%C3%ADla%C4%8D_OMA",
+        "status": 403,
+        "context": "95 vypnut. Zajímavý podrobný [článek zde](https://www.wikiwand.com/cs/Vys%C3%ADla%C4%8D_OMA) a také ve [wikipedii](https:",
+        "field": "body:link",
+        "wayback": null
+      }
+    ],
+    "content/hodinarium-eu/tabor.mdx": [
+      {
+        "url": "https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tabor-krov-jan-zizka-600-let.A200821_123202_imp-jihocesky_kov/",
+        "status": 404,
+        "context": "uzeum.cz. [cit. 2026-04-28] - [Obnovení radnice v Táboře](https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tabor-krov-jan-zizka-600-let.A200821_123202_imp-jihocesky_kov/) — iRegiony — Rádio Impuls. [",
+        "field": "body:link",
+        "wayback": {
+          "url": "http://web.archive.org/web/20260309004348/https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tabor-krov-jan-zizka-600-let.A200821_123202_imp-jihocesky_kov/",
+          "timestamp": "20260309004348",
+          "status": "200"
+        }
+      }
+    ],
+    "content/hodinarium-eu/vezni-muzejicko-evropa.md": [
+      {
+        "url": "https://jindrisskavez.cz/index.php/cs/",
+        "status": 404,
+        "context": "stupu. Několik příkladů. ### [Přestavba Jindřišské věže - Praha](https://jindrisskavez.cz/index.php/cs/) [![Jindřížská věž](/img/vez",
+        "field": "body:link",
+        "wayback": {
+          "url": "http://web.archive.org/web/20260317054855/https://www.jindrisskavez.cz/index.php/cs/",
+          "timestamp": "20260317054855",
+          "status": "200"
+        }
+      },
+      {
+        "url": "https://jindrisskavez.cz/index.php/cs/",
+        "status": 404,
+        "context": "součástí projektu je web věže [www.jindrisskavez.cz](https://jindrisskavez.cz/index.php/cs/) a na něm umístěna virtuální ",
+        "field": "body:link",
+        "wayback": {
+          "url": "http://web.archive.org/web/20260317054855/https://www.jindrisskavez.cz/index.php/cs/",
+          "timestamp": "20260317054855",
+          "status": "200"
+        }
+      }
+    ],
+    "content/hodinarium-eu/zidovske.mdx": [
+      {
+        "url": "https://mapy.cz/s/kcyO",
+        "status": 404,
+        "context": "vské hodiny najdete přibližně [zde](https://mapy.cz/s/kcyO). Obrázek ukazuje Staronovou ",
+        "field": "body:link",
+        "wayback": null
+      }
+    ],
+    "content/hodinari/edmund-kinsner.mdx": [
+      {
+        "url": "https://www.spsh.cz/",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "rovi jako Prokešově žákovi je [Knespl 2018](https://www.spsh.cz/) (Zpravodaj SPSH 33).* ",
+        "field": "body:link",
+        "wayback": {
+          "url": "http://web.archive.org/web/20170924202604/http://spsh.cz/",
+          "timestamp": "20170924202604",
+          "status": "200"
+        }
+      }
+    ],
+    "content/hodinari/engelbert-seige.mdx": [
+      {
+        "url": "https://indico.fjfi.cvut.cz/event/127/contributions/2868/attachments/966/1332/Astronomicke_funkce_a_umeleckohistoricka_analyza_planetaria_P._Engelberta_Seige_1792_ve_sbirkach_Narodniho_technickeho_muzea_v_Praze.pdf",
+        "status": 400,
+        "context": "https://indico.fjfi.cvut.cz/event/127/contributions/2868/attachments/966/1332/As",
+        "field": "fm:references[0]:url",
+        "wayback": {
+          "url": "http://web.archive.org/web/20240216211320/https://indico.fjfi.cvut.cz/event/127/contributions/2868/attachments/966/1332/Astronomicke_funkce_a_umeleckohistoricka_analyza_planetaria_P._Engelberta_Seige_1792_ve_sbirkach_Narodniho_technickeho_muzea_v_Praze.pdf",
+          "timestamp": "20240216211320",
+          "status": "200"
+        }
+      },
+      {
+        "url": "https://indico.fjfi.cvut.cz/event/127/contributions/2868/",
+        "status": 400,
+        "context": "a **kovový model** (popsané v [diplomové práci L. Hrůšové, 2020](https://indico.fjfi.cvut.cz/event/127/contributions/2868/), kap. 4). ## Postavení v do",
+        "field": "body:link",
+        "wayback": {
+          "url": "http://web.archive.org/web/20260207035738/https://indico.fjfi.cvut.cz/event/127/contributions/2868/",
+          "timestamp": "20260207035738",
+          "status": "200"
+        }
+      },
+      {
+        "url": "https://cs.wikipedia.org/wiki/Jan_Klein_(hodin%C3%A1%C5%99",
+        "status": 404,
+        "context": "vskými soudobými stroji: - **[Jan Klein](https://cs.wikipedia.org/wiki/Jan_Klein_(hodin%C3%A1%C5%99))** (1684–1762, Praha) — autor",
+        "field": "body:link",
+        "wayback": null
+      }
+    ],
+    "content/hodinari/friedrich-moritz-bassler.mdx": [
+      {
+        "url": "https://www.fachkreis-turmuhren.de/",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "https://www.fachkreis-turmuhren.de/",
+        "field": "fm:references[0]:url",
+        "wayback": null
+      }
+    ],
+    "content/hodinari/jan-mares.mdx": [
+      {
+        "url": "https://www.hodinarstvi-marek.cz/cs/27-hodinove-stroje-jana-janaty-z-podebrad",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "https://www.hodinarstvi-marek.cz/cs/27-hodinove-stroje-jana-janaty-z-podebrad",
+        "field": "fm:references[1]:url",
+        "wayback": null
+      },
+      {
+        "url": "https://www.researchgate.net",
+        "status": 403,
+        "context": "res)** — evangelický kostel | [Skála 2005](https://www.researchgate.net) | | 1896 | **[Kostomlátky](/",
+        "field": "body:link",
+        "wayback": {
+          "url": "http://web.archive.org/web/20260519224846/https://www.researchgate.net/",
+          "timestamp": "20260519224846",
+          "status": "200"
+        }
+      },
+      {
+        "url": "https://www.researchgate.net",
+        "status": 403,
+        "context": "any)** — evangelický kostel | [Skála 2005](https://www.researchgate.net) | | nedat. | **[Veleliby](/s",
+        "field": "body:link",
+        "wayback": {
+          "url": "http://web.archive.org/web/20260519224846/https://www.researchgate.net/",
+          "timestamp": "20260519224846",
+          "status": "200"
+        }
+      }
+    ],
+    "content/hodinari/junghans.mdx": [
+      {
+        "url": "https://cs.wikipedia.org/wiki/Junghans",
+        "status": 404,
+        "context": "https://cs.wikipedia.org/wiki/Junghans",
+        "field": "fm:references[0]:url",
+        "wayback": null
+      }
+    ],
+    "content/hodinari/mannhardt.mdx": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Matth%C3%A4uskirche_(M%C3%BCnchen",
+        "status": 404,
+        "context": "33** dodal věžní hodiny pro **[evangelický kostel sv. Matěje](https://de.wikipedia.org/wiki/Matth%C3%A4uskirche_(M%C3%BCnchen))** (Matthäuskirche). ## Vrch",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://de.wikipedia.org/wiki/Philipp_H%C3%B6rz",
+        "status": 404,
+        "context": "skou továrnou na věžní hodiny [Philipp Hörz](https://de.wikipedia.org/wiki/Philipp_H%C3%B6rz)**, čímž skončila 84letá samo",
+        "field": "body:link",
+        "wayback": null
+      }
+    ],
+    "content/hodinari/milos-flossmann.mdx": [
+      {
+        "url": "https://cs.wikipedia.org/wiki/Ostrov_(okres_Karlovy_Vary",
+        "status": 404,
+        "context": "átor věžních hodin působící v [Ostrově](https://cs.wikipedia.org/wiki/Ostrov_(okres_Karlovy_Vary)) (okres Karlovy Vary, Karlova",
+        "field": "body:link",
+        "wayback": null
+      }
+    ],
+    "content/hodinari/robert-drozda.mdx": [
+      {
+        "url": "https://www.marianskatynice.cz/e_download.php?file=data/editor/124cs_4.pdf",
+        "status": 400,
+        "context": "https://www.marianskatynice.cz/e_download.php?file=data/editor/124cs_4.pdf",
+        "field": "fm:references[7]:url",
+        "wayback": null
+      }
+    ],
+    "content/hodinari/solari-udine.mdx": [
+      {
+        "url": "https://www.museodellorologeria.com/",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "https://www.museodellorologeria.com/",
+        "field": "fm:references[0]:url",
+        "wayback": null
+      }
+    ],
+    "content/soupis-veznich-hodin/1591-hradec-kralove-bila-vez-frejlich.mdx": [
+      {
+        "url": "https://cs.wikipedia.org/wiki/B%C3%ADl%C3%A1_v%C4%9B%C5%BE_(Hradec_Kr%C3%A1lov%C3%A9",
+        "status": 404,
+        "context": "https://cs.wikipedia.org/wiki/B%C3%ADl%C3%A1_v%C4%9B%C5%BE_(Hradec_Kr%C3%A1lov%C",
+        "field": "fm:prameny[2]:url",
+        "wayback": null
+      }
+    ],
+    "content/soupis-veznich-hodin/1791-dobris-landesberger-f.mdx": [
+      {
+        "url": "https://www.veznihodiny.cz/",
+        "status": 0,
+        "error": "fetch failed",
+        "context": " z 27. července 2009 (atelier [veznihodiny.cz](https://www.veznihodiny.cz/), Sadská). Restaurátorský zás",
+        "field": "body:link",
+        "wayback": {
+          "url": "http://web.archive.org/web/20230311150443/http://www.veznihodiny.cz/",
+          "timestamp": "20230311150443",
+          "status": "200"
+        }
+      }
+    ],
+    "content/soupis-veznich-hodin/1898-hradesice-krecmer.mdx": [
+      {
+        "url": "https://www.veznihodiny.cz/",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "skala) z 18. 6. 2019 (atelier [veznihodiny.cz](https://www.veznihodiny.cz/), Sadská) a z dobového novino",
+        "field": "body:link",
+        "wayback": {
+          "url": "http://web.archive.org/web/20230311150443/http://www.veznihodiny.cz/",
+          "timestamp": "20230311150443",
+          "status": "200"
+        }
+      }
+    ],
+    "content/soupis-veznich-hodin/1876-police-nad-metuji-radnice-janata.mdx": [
+      {
+        "url": "https://www.policenm.cz/e_download.php?file=data/editor/88cs_173.pdf",
+        "status": 400,
+        "context": "https://www.policenm.cz/e_download.php?file=data/editor/88cs_173.pdf",
+        "field": "fm:prameny[1]:url",
+        "wayback": null
+      }
+    ],
+    "content/soupis-veznich-hodin/1887-v-soukr-sbirce-krecmer.mdx": [
+      {
+        "url": "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Kretschmer_V_Praha_1888/Kretschmer_V_Praha_1888.jpg",
+        "status": 404,
+        "context": "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Kretschmer_V_Pra",
+        "field": "fm:prameny[0]:url",
+        "wayback": null
+      }
+    ],
+    "content/soupis-veznich-hodin/1893-domazlice-hainz.mdx": [
+      {
+        "url": "https://www.cdsh.cz/",
+        "status": 0,
+        "error": "fetch failed",
+        "context": "l.htm?id=1292106) a publikace [Fišer 2015](https://www.cdsh.cz/). ",
+        "field": "body:link",
+        "wayback": null
+      }
+    ],
+    "content/soupis-veznich-hodin/1898-paichl-krecmer.mdx": [
+      {
+        "url": "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Krecmer_11.jpg",
+        "status": 404,
+        "context": "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Krecmer_11.jpg",
+        "field": "fm:prameny[0]:url",
+        "wayback": null
+      }
+    ],
+    "content/soupis-veznich-hodin/1899-netvorice-krecmer.mdx": [
+      {
+        "url": "https://www.jiskra-benesov.cz/clanek/proc-lenka-filipova-nabidla-pomoc-nezvonicim-zvonum-a-vezni-hodiny-zase-obijeji-cas-7976",
+        "status": 0,
+        "error": "timeout",
+        "context": "https://www.jiskra-benesov.cz/clanek/proc-lenka-filipova-nabidla-pomoc-nezvonici",
+        "field": "fm:prameny[0]:url",
+        "wayback": null
+      }
+    ],
+    "content/soupis-veznich-hodin/nedatovano-nezname-krecmer.mdx": [
+      {
+        "url": "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Beroun/Krecmer_Vaclav_Vinohrady_vezni_hodiny_0001.JPG",
+        "status": 404,
+        "context": "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Beroun/Krecmer_V",
+        "field": "fm:prameny[0]:url",
+        "wayback": null
+      }
+    ],
+    "content/kronika/decin-aktual0.md": [
+      {
+        "url": "http://www.novinky.cz/cestovani/tipy-na-vylety/380344-decinska-expozice-ukaze-jak-nasi-predkove-merili-cas.html",
+        "status": 0,
+        "error": "timeout",
+        "context": "decin.cz. [cit. 2026-04-28] - [Děčínská expozice ukáže, jak naši předkové měřili čas](http://www.novinky.cz/cestovani/tipy-na-vylety/380344-decinska-expozice-ukaze-jak-nasi-predkove-merili-cas.html) — novinky.cz. [cit. 2026-04-",
+        "field": "body:link",
+        "wayback": {
+          "url": "http://web.archive.org/web/20151009214629/http://www.novinky.cz/cestovani/tipy-na-vylety/380344-decinska-expozice-ukaze-jak-nasi-predkove-merili-cas.html",
+          "timestamp": "20151009214629",
+          "status": "200"
+        }
+      }
+    ],
+    "content/kronika/vezni-muzejicko.md": [
+      {
+        "url": "https://horologie.cz/clanky/spolek",
+        "status": 0,
+        "error": "fetch failed",
+        "context": " uložení pokladů. Díky členům [Českého spolku horologického](https://horologie.cz/clanky/spolek) také nějakou dobu byla **Věž",
+        "field": "body:link",
+        "wayback": null
+      }
+    ],
+    "content/horologie-cz/novinky.md": [
+      {
+        "url": "http://proxy.hodinarium2.eu/chrony2.php",
+        "status": 530,
+        "context": "diny](60Hz.php) - 20.11. 2025 [NTP server v Hodináriu](http://proxy.hodinarium2.eu/chrony2.php) - 12.11. 2025 [Timometer – h",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/laplace",
+        "status": 404,
+        "context": "y/time-slider) - 15\\. 3. 2024 [Elektrárenské hodiny LAPLACE](https://hodinarium-eu.pages.dev/clanky/laplace) Doplnění informací. - 15\\. 3",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/pneumatika2",
+        "status": 404,
+        "context": "projekty/ntph) - 11\\. 1. 2023 [Pneumatické veřejné hodiny v Paříži ](https://hodinarium-eu.pages.dev/clanky/pneumatika2) - 1\\. 12. 2022 [Doplnění str",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/rimskedigi2",
+        "status": 404,
+        "context": "vezni2021.htm) - 19\\. 9. 2021 [Římské digitálky tentokrát s Arduinem](https://hodinarium-eu.pages.dev/clanky/rimskedigi2) - 9\\. 9. 2021 [Hodiny využív",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/tabor",
+        "status": 404,
+        "context": "y/lantime-m100) - 3\\. 1. 2021 [O stěhovavém orloji v Táboře](https://hodinarium-eu.pages.dev/clanky/tabor) (aktualizace) - 30\\. 9. 202",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/mobatime",
+        "status": 404,
+        "context": "kty/gps-sakul) - 19\\. 5. 2020 [Samostavitelné hodiny systému MOBALine](https://hodinarium-eu.pages.dev/clanky/mobatime) - 1\\. 5. 2020 [Astronomické ",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/nocturnal",
+        "status": 404,
+        "context": " přesného času - 20\\. 4. 2020 [Nocturnal](https://hodinarium-eu.pages.dev/clanky/nocturnal) - 19\\. 4. 2020 [Kalendářní k",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/orient",
+        "status": 404,
+        "context": "nky/nocturnal) - 19\\. 4. 2020 [Kalendářní kopmlikace u hodinek Orient a Raketa](https://hodinarium-eu.pages.dev/clanky/orient) - 16\\. 4. 2020 [Astronomické",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/pichacky",
+        "status": 404,
+        "context": "/clanky/merkur) - 18\\. 7.2018 [Stránka věnovaná starým \"píchačkám\"](https://hodinarium-eu.pages.dev/clanky/pichacky) - 24\\. 6.2018 O konstatovací",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/eureka",
+        "status": 404,
+        "context": " Legendární elektrické hodiny [Eureka](https://hodinarium-eu.pages.dev/clanky/eureka) - 13\\. 4.2018 Elektricky nat",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/pulsynetic",
+        "status": 404,
+        "context": "/clanky/ferramo) - 1\\. 5.2017 [Pulsynetic - svérázná řešení](https://hodinarium-eu.pages.dev/clanky/pulsynetic) - 29.4.2017 Mateční hodiny [",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/brillie",
+        "status": 404,
+        "context": "c) - 29.4.2017 Mateční hodiny [Brillie](https://hodinarium-eu.pages.dev/clanky/brillie) - nový přírůstek do Hodinári",
+        "field": "body:link",
+        "wayback": null
+      }
+    ],
+    "content/horologie-cz/novinky2.md": [
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/laplace",
+        "status": 404,
+        "context": "2\\. 4. 2013 Synchronní hodiny [LAPLACE](https://hodinarium-eu.pages.dev/clanky/laplace) - 8\\. 4. 2013 Fotogalerie [M",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/tabor",
+        "status": 404,
+        "context": "orloj_k_u.htm) - 19\\. 6. 2007 [Hodiny ve věži staré táborské radnice](https://hodinarium-eu.pages.dev/clanky/tabor) (včetně PC animace) - 11\\. 5",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/kostky",
+        "status": 404,
+        "context": "tavka 2015 v Hodináriu Děčín. [Výtvarné miniatury ve tvaru kostky - Dr. Jaroslav Adam](https://hodinarium-eu.pages.dev/clanky/kostky) - **V období srpen 2015 pro",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/pilovky",
+        "status": 404,
+        "context": "zdroj zanikl)* - 29\\. 9. 2014 [Pilové hodiny se samonivelačním fyzikálním kyvadlem](https://hodinarium-eu.pages.dev/clanky/pilovky) - 12\\. 4. 2013 Synchronní h",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/mindelheim",
+        "status": 404,
+        "context": "ce) - 8\\. 4. 2013 Fotogalerie [Mindelheim](https://hodinarium-eu.pages.dev/clanky/mindelheim) - 2\\. 3. 2013 [Sezóna 2013](",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/zidovske",
+        "status": 404,
+        "context": "5. 2009 Doplněna nová animace [židovských hodin](https://hodinarium-eu.pages.dev/clanky/zidovske) a přidána [animace slune",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/zidovske",
+        "status": 404,
+        "context": "anky/janovice) - 20\\. 6. 2007 [Židovské hodiny z roku 1764](https://hodinarium-eu.pages.dev/clanky/zidovske) (i PC animace) - 20\\. 6. 200",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/slunecni",
+        "status": 404,
+        "context": "lanky/zidovske) a přidána [animace slunečních hodin](https://hodinarium-eu.pages.dev/clanky/slunecni) od pana Vlasty Fillera. - 5\\",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/schaffhausen",
+        "status": 404,
+        "context": " 13\\. 4. 2009 Mechanické digi [IWC Schaffhausen](https://hodinarium-eu.pages.dev/clanky/schaffhausen) z roku 1885 - 7\\. 4. 2009 [S",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/prestavby",
+        "status": 404,
+        "context": "m) trochu jinak - 26.11. 2008 [Přestavby hodin](https://hodinarium-eu.pages.dev/clanky/prestavby) - doplněno o [historiché ins",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/prestavby",
+        "status": 404,
+        "context": "-24-ciferniku) - 23\\. 3. 2008 [Přestavby hodin](https://hodinarium-eu.pages.dev/clanky/prestavby) - 20\\. 3. 2008 Hodiny k ocen",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/ukazatele",
+        "status": 404,
+        "context": " Atmos, fotovoltaika a jiné - [Bez ručiček](https://hodinarium-eu.pages.dev/clanky/ukazatele) to také jde - Pan Marce [Bet",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/betrisey",
+        "status": 404,
+        "context": "tele) to také jde - Pan Marce [Betrisey](https://hodinarium-eu.pages.dev/clanky/betrisey) - hodiny kuličkové, pneumati",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/svitici",
+        "status": 404,
+        "context": "t - 100 vteřin - 24\\. 5. 2008 [Svítící](https://hodinarium-eu.pages.dev/clanky/svitici) hodiny - 18\\. 5. 2008 [Lenzk",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/svitici",
+        "status": 404,
+        "context": "nky.htm) eshop - 14\\. 2. 2008 [Svítící hodiny](https://hodinarium-eu.pages.dev/clanky/svitici) - 5\\. 1. 2008 [Orloj v Brně]",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/lenzkirch",
+        "status": 404,
+        "context": "vitici) hodiny - 18\\. 5. 2008 [Lenzkirch](https://hodinarium-eu.pages.dev/clanky/lenzkirch) - Rolls-Royce ze Schwarzwald",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/uspirku",
+        "status": 404,
+        "context": " 2008 Variace na věžní hodiny [U Špirků](https://hodinarium-eu.pages.dev/clanky/uspirku) - 12\\. 4. 2008 Kuriózní hodi",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/youtube",
+        "status": 404,
+        "context": "\\. 4. 2008 Kuriózní hodiny na [YouTube](https://hodinarium-eu.pages.dev/clanky/youtube) - 12\\. 4. 2008 Hodiny [ATO](",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/zapekane",
+        "status": 404,
+        "context": "lanky/kulicky) - 18\\. 2. 2008 [Zapékané hodiny](https://hodinarium-eu.pages.dev/clanky/zapekane) (do skla) - 18\\. 2. 2008 Jap",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/kvetinove",
+        "status": 404,
+        "context": "aktualizace webu, zejména [květinové hodiny](https://hodinarium-eu.pages.dev/clanky/kvetinove), [květinové hodiny v Poděbra",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/podebrady",
+        "status": 404,
+        "context": ".pages.dev/clanky/kvetinove), [květinové hodiny v Poděbradech 1](https://hodinarium-eu.pages.dev/clanky/podebrady), [2](https://hodinarium-eu.p",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/podebrady",
+        "status": 404,
+        "context": "/co-pisi-jini) - 13\\. 2. 2007 [Květinové hodiny](https://hodinarium-eu.pages.dev/clanky/podebrady) Poděbrady - 12\\. 2. 2007 [Go",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/podebrady1b",
+        "status": 404,
+        "context": ".pages.dev/clanky/podebrady), [2](https://hodinarium-eu.pages.dev/clanky/podebrady1b), [3](https://hodinarium-eu.p",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/podebrady2",
+        "status": 404,
+        "context": "ages.dev/clanky/podebrady1b), [3](https://hodinarium-eu.pages.dev/clanky/podebrady2), [4](https://hodinarium-eu.p",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/podebrady3",
+        "status": 404,
+        "context": "pages.dev/clanky/podebrady2), [4](https://hodinarium-eu.pages.dev/clanky/podebrady3), [5](https://hodinarium-eu.p",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/podebrady4",
+        "status": 404,
+        "context": "pages.dev/clanky/podebrady3), [5](https://hodinarium-eu.pages.dev/clanky/podebrady4) a[ stroje Švarcvaldek](/",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/gobelin",
+        "status": 404,
+        "context": "ady) Poděbrady - 12\\. 2. 2007 [Gobelínky](https://hodinarium-eu.pages.dev/clanky/gobelin) - vyšívané hodiny (kýč je kd",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/razitka",
+        "status": 404,
+        "context": " 1. 2007 Kvalifikovaná časová [razítka](https://hodinarium-eu.pages.dev/clanky/razitka) doplněk elektronického podpi",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/lahvace",
+        "status": 404,
+        "context": "nického podpisu - 29.12. 2006 [Lahváče](https://hodinarium-eu.pages.dev/clanky/lahvace) aneb hodiny v lahvích - 29.1",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/papir",
+        "status": 404,
+        "context": "odiny v lahvích - 29.12. 2006 [Papíráky](https://hodinarium-eu.pages.dev/clanky/papir) - hodiny z produkce Papírové",
+        "field": "body:link",
+        "wayback": null
+      },
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/mluvici1895",
+        "status": 404,
+        "context": "arozitnici.htm) - 23.11. 2006 [Mluvící hodiny](https://hodinarium-eu.pages.dev/clanky/mluvici1895) z roku 1895 - 5.11 2006 [Ele",
+        "field": "body:link",
+        "wayback": null
+      }
+    ],
+    "content/horologie-cz/spolek.md": [
+      {
+        "url": "https://hodinarium-eu.pages.dev/clanky/rimskedigi",
+        "status": 404,
+        "context": "ch vynálezů. Jmenujme alespoň [římské digitálky](https://hodinarium-eu.pages.dev/clanky/rimskedigi). Sdružení bylo založeno také",
         "field": "body:link",
         "wayback": null
       }
