@@ -16,8 +16,8 @@ test.describe('YouTube lite-embed', () => {
   // hit občas 30s timeout — direkt URL je deterministický a rychlejší.
   // Kategorie z catalog.json: Arduino + TimeSlider → projekty, mindelheim → muzea.
   const cases = [
-    { url: '/projekty/Arduino', id: 'RMyYnnAPIV8' },
-    { url: '/projekty/TimeSlider', id: 'VBpDQtAcoWc' },
+    { url: '/projekty/arduino', id: 'RMyYnnAPIV8' },
+    { url: '/projekty/time-slider', id: 'VBpDQtAcoWc' },
     { url: '/muzea/mindelheim', id: 'slDssMuXSz4' },
   ];
 
@@ -53,8 +53,8 @@ test('/zajimavosti/normalni — CasSlovem komponent vyplní slovní čas', async
   expect(text, `obsah: ${text}`).toMatch(/hodin|čtvrt|půl|sekund/);
 });
 
-test('/projekty/segmentovky_s_prekladem — segmentovky formát + slovní překlad', async ({ page }) => {
-  await page.goto('/projekty/segmentovky_s_prekladem');
+test('/projekty/segmentovky-s-prekladem — segmentovky formát + slovní překlad', async ({ page }) => {
+  await page.goto('/projekty/segmentovky-s-prekladem');
   const cas = page.locator('[data-seg-cas]');
   const pre = page.locator('[data-seg-prelozeno]');
   await expect(cas).toBeVisible();

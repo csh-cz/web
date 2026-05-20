@@ -18,7 +18,7 @@
 import { test, expect } from 'playwright/test';
 
 test('Kappa: live monitor iframe je přítomný a směřuje na orloj.eu', async ({ page }) => {
-  await page.goto('/projekty/Kappa');
+  await page.goto('/projekty/kappa');
   const iframe = page.locator('iframe.live-monitor');
   await expect(iframe).toBeVisible();
   const src = await iframe.getAttribute('src');
@@ -26,7 +26,7 @@ test('Kappa: live monitor iframe je přítomný a směřuje na orloj.eu', async 
 });
 
 test('slunecni_filler: Klementinum komponent místo iframu', async ({ page }) => {
-  await page.goto('/sbirka/slunecni_filler');
+  await page.goto('/sbirka/slunecni-filler');
   await expect(page.locator('iframe.filler-clock')).toHaveCount(0);
   await expect(page.locator('figure.klementinum')).toBeVisible();
   // Čas se vyplnil JS hookem
@@ -60,19 +60,19 @@ test('zidovske: hebrejská abeceda jako řádná tabulka', async ({ page }) => {
 });
 
 test('slunecni_polarizacni: žádný HOME/Mapa/Kontakt sidebar', async ({ page }) => {
-  await page.goto('/sbirka/slunecni_polarizacni');
+  await page.goto('/sbirka/slunecni-polarizacni');
   await expect(page.locator('main a[href="/clanky/index"]')).toHaveCount(0);
   await expect(page.locator('main a[href="/clanky/novinky"]')).toHaveCount(0);
 });
 
 test('slunecni_polarizacni: filtr1—4 fotky v těle článku', async ({ page }) => {
-  await page.goto('/sbirka/slunecni_polarizacni');
+  await page.goto('/sbirka/slunecni-polarizacni');
   for (const n of [1, 2, 3, 4]) {
     await expect(page.locator(`main img[src$="filtr${n}.jpg"]`)).toBeVisible();
   }
 });
 
 test('vodni_B_Gitton: žádný HOME/Mapa/Kontakt sidebar', async ({ page }) => {
-  await page.goto('/sbirka/vodni_B_Gitton');
+  await page.goto('/sbirka/vodni-b-gitton');
   await expect(page.locator('main a[href="/clanky/index"]')).toHaveCount(0);
 });
