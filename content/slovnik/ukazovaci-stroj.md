@@ -20,6 +20,7 @@ varianty:
   - ukazovací soukolí
 definice: "**Vedlejší soukolí**, které z hlavní hřídele [jicího stroje](/slovnik/stroj-podsestava) odebírá pohyb a převádí ho na **otáčení ručiček (rafií) ciferníku** s vhodným redukčním převodem (typicky 1:12 mezi minutovou a hodinovou ručkou). U věžních hodin převádí pohyb mechanicky přes řadu kol a hřídelí k jednomu nebo více ciferníkům umístěným v různých stranách věže."
 pribuzne:
+  - kralovska-hridel
   - soukoli
   - hridelik-orloje
   - ramenko

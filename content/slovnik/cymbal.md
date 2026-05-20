@@ -19,6 +19,7 @@ varianty:
   - zvoneček
 definice: "Zvukové těleso bicího stroje — kovový zvon nebo zvonek, na nějž udírá kladívko. Tvar a slitina (zvonovina = bronz s vyšším podílem cínu) určují tón a délku doznění."
 pribuzne:
+  - odbijeni
   - bici-stroj
   - kladivko
   - stupnice
