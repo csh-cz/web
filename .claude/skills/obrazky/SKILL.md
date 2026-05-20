@@ -112,16 +112,54 @@ Výstup: `apps/{hodinarium-eu,horologie-cz}/src/data/image-sizes.json` (~240 KB,
 - `fix-h2-with-image.ts` — autofix h2 + image konflikty
 - `sync-images-horologie.ts` — sync mezi apps
 
-## 6. Pravidla atribuce (GDPR + autorská práva)
+## 6. Pravidla atribuce (licence, autor, zdroj)
 
-Memory `feedback_foto_atribuce.md` a `feedback_npu_foto_licence.md`:
+Memory: `feedback_foto_licence_pravidlo.md` (default + per-foto), `feedback_foto_atribuce.md`, `feedback_npu_foto_licence.md`.
 
-- **Bez výjimky uvádět autora + licenci/copyright** u každé fotky
-- Pokud autor neznámý → buď `"autor neznámý"` nebo nepublikovat
+### 6.1 Default licence webu = CC BY 4.0 — PRAVIDLO (2026-05-21)
+
+Celý web je pod **CC BY 4.0** — deklarováno site-wide v `Base.astro`
+(`<link rel="license" href="https://creativecommons.org/licenses/by/4.0/">`
++ `dcterms.rights` „© Český spolek horologický z. s. — CC BY 4.0") a na
+stránce `/licence`. Z toho plyne per-foto konvence:
+
+| Typ fotky | `author` | `license` | `sourceUrl` (zdroj) |
+|---|---|---|---|
+| **Originál pro web / spolkový** (default CC BY 4.0) | ANO (vždy) | NE — dědí se z webu | NE |
+| **Jiná licence** (NPÚ, Wikimedia CC BY-SA, NC/ND…) | ANO | ANO (+`licenseUrl`) | jen u převzatých |
+| **Převzaté** (Wikimedia, se svolením z cizího webu) | ANO | ANO (+`licenseUrl`) | ANO (`sourceUrl`) |
+
+Pravidla:
+1. **Default = CC BY 4.0**, uvedená jednou pro celý web. U fotky se `license`
+   uvádí **jen když se liší** od defaultu.
+2. **Autor se uvádí VŽDY** (CC BY = atribuce povinná). Neznámý → `"autor
+   neznámý"` / `"Z archivu ČSH"`, jinak nepublikovat.
+3. **Zdroj (`sourceUrl` / „zdroj") jen u převzatých fotek** — Wikimedia nebo
+   se svolením z jiného webu. U originálu pro web se NEUVÁDÍ (zdroj jsme my);
+   volitelně `authorUrl` jako backlink na autora.
+4. „© Jméno" zvlášť **jen když autor ≠ držitel práv** (fotograf × instituce).
+   Jméno se v creditu nikdy nezdvojuje.
+
+Foto vyrobené přímo pro web s volným užitím za podmínky atribuce = přesně
+CC BY 4.0 (= default) → stačí `author` (+ volitelně `authorUrl`), žádná
+`license` ani `sourceUrl`. Pokud autor chce užší rozsah (NC/ND, nebo jen pro
+ČSH) → uvést konkrétní licenci, resp. „použito se svolením" (NE CC štítek,
+ten by veřejně udělil práva, která autor nezamýšlel).
+
+Příklady `::photo`:
+```mdx
+<!-- originál pro web (default CC BY 4.0) -->
+::photo{src="/img/…/foto.jpg" alt="…" author="Jméno Autora" authorUrl="https://autoruv-web.cz" year=2026}
+<!-- převzaté z Wikimedie (jiná licence + zdroj) -->
+::photo{src="/img/…/foto.jpg" alt="…" author="Autor" authorUrl="https://commons.wikimedia.org/wiki/User:…" license="CC BY-SA 3.0" licenseUrl="https://creativecommons.org/licenses/by-sa/3.0/" sourceUrl="https://commons.wikimedia.org/wiki/File:…" year=2014}
+```
+
+### 6.2 Specifické zdroje
 - **NPÚ MIS fotky** — default CC BY-NC-ND 3.0 CZ, ČSH = nekomerční (OK). Nikdy nezasahovat do obsahu (cropovat/retušovat), resize pro web OK. Atribuce `"[Autor] / NPÚ MIS"` (ne jen „NPÚ") u externích autorů restaurátorských zpráv.
 - **Wikimedia Commons** — vždy `author + authorUrl + license + licenseUrl + sourceUrl` (CC BY-SA vyžaduje plnou attribution chain).
-- **Vlastní fotky spolku** — `"© [Autor] (atelier veznihodiny.cz). Použito se svolením."`
+- **Se svolením z cizího webu** — `author` + zdroj (`sourceUrl`) + licence/„použito se svolením"; NE náš CC BY 4.0 default.
 - **CSH fotografové** (memory `reference_csh_fotografi.md`): S. Marušák (NE M.), Petr Skála, Marek (first name neznámý). Detekce z filename `(foto X)` patternu, NFD-fold před regex match.
+- Pozn.: `author` je vždy čistý text + `authorUrl` zvlášť — NIKDY markdown `[Jméno](url)` v poli `author` (vyrenderuje se doslova).
 
 ## 7. Storage konvence
 
