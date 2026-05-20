@@ -154,6 +154,32 @@ Příklady `::photo`:
 ::photo{src="/img/…/foto.jpg" alt="…" author="Autor" authorUrl="https://commons.wikimedia.org/wiki/User:…" license="CC BY-SA 3.0" licenseUrl="https://creativecommons.org/licenses/by-sa/3.0/" sourceUrl="https://commons.wikimedia.org/wiki/File:…" year=2014}
 ```
 
+### 6.1.1 Dvě vrstvy — zobrazený credit × metadata souboru (DŮLEŽITÉ)
+
+Rozlišuj **co zobrazíme na webu** od **co zapíšeme do souboru**:
+
+| Vrstva | Kde | Licence |
+|---|---|---|
+| **Zobrazený credit** | caption na webu (`Photo.astro`) | smí se opřít o site-wide default → u originálu stačí `author` |
+| **Metadata souboru** | XMP/IPTC v binárce na R2 | **VŽDY celá licence** |
+
+Důvod: soubor na R2 je samostatný artefakt — může se sdílet i **mimo web**, kde žádný „default webu" neplatí. Proto musí být **self-describing**: každý soubor (originál i AVIF/WebP varianta) nese kompletní licenci v XMP/IPTC, i když je on-page credit terse.
+
+Pole pro originál pod default CC BY 4.0 (exiftool):
+- `XMP-dc:Creator` = autor (nebo „Český spolek horologický z. s.")
+- `XMP-xmpRights:Marked=True`
+- `XMP-xmpRights:UsageTerms` = „This work is licensed under CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/"
+- `XMP-xmpRights:WebStatement` = `https://creativecommons.org/licenses/by/4.0/`
+- `XMP-cc:license` = `https://creativecommons.org/licenses/by/4.0/`
+- `XMP-cc:attributionName` / `XMP-cc:attributionURL`
+- `XMP-dc:Rights` = „© [rok] [autor] / ČSH — CC BY 4.0"
+- `XMP-dc:Source` / `XMP-dc:Identifier` = kanonická URL fotky na webu
+- IPTC mirror: `By-line`, `CopyrightNotice`, `Credit`, `Source`
+
+Převzaté foto → do metadat se zapíše **jeho vlastní** licence (Wikimedia CC BY-SA 3.0, NPÚ CC BY-NC-ND 3.0 CZ…) + autor + zdroj, NE náš default.
+
+**Stav implementace:** zatím NEautomatizováno v obecné pipeline. Vzor: `scripts/photo-embed-npu.mjs` (exiftool embed pro NPÚ soubory). Pozor: `sharp` v `generate-image-formats.ts` metadata **stripuje** → varianty XMP nemají; embed musí běžet po generování variant (nebo na všech 3 formátech), případně `sharp().withMetadata()` + doplnění zbytku exiftoolem. TODO: obecný embed krok v R2 pipeline (viz §9 / A.26).
+
 ### 6.2 Specifické zdroje
 - **NPÚ MIS fotky** — default CC BY-NC-ND 3.0 CZ, ČSH = nekomerční (OK). Nikdy nezasahovat do obsahu (cropovat/retušovat), resize pro web OK. Atribuce `"[Autor] / NPÚ MIS"` (ne jen „NPÚ") u externích autorů restaurátorských zpráv.
 - **Wikimedia Commons** — vždy `author + authorUrl + license + licenseUrl + sourceUrl` (CC BY-SA vyžaduje plnou attribution chain).
