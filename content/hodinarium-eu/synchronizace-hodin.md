@@ -160,7 +160,7 @@ V okně monitoru vidíme situaci, kdy pokusný NTP server je nainstalován na po
 - \+ Další kandidát pokud aktuální vypadne (považovaný za dobrý zdroj).
 - remote – IP nebo hostname vzdáleného NTP serveru.
 - refid – Reference zdroje. GPS znamená, že čas je synchronizovaný pomocí družic, nebo může se objevit i PPS (pulse per second). ATOM jsou atomové hodiny či velmi přesný krystal
-- st – Stratum, který udává vrstvu časového zdroje v [hierarchii](https://www.ntp-zeit.de/images/stratum-levels.jpg). Čím menší číslo, tím přesnější čas.t – Typ zasílané zprávy (u=unicast, m=multicast, b=broadcast, l=local,..).
+- st – Stratum, který udává vrstvu časového zdroje v hierarchii. Čím menší číslo, tím přesnější čas.t – Typ zasílané zprávy (u=unicast, m=multicast, b=broadcast, l=local,..).
 - when – Počet sekund, které uplynuly od NTP odpovědi (synchronizace).
 - pool – Při naplnění časovače when, vyšle NTP klient žádost o další synchronizaci
 - reach – Stav synchronizace v hodnotě hexa, každá logická 1 níže reprezentuje nový přijatý paket (z prava).delay – Odezva (round trip time) v ms (od vyslání NTP žádosti po NTP odpověď).

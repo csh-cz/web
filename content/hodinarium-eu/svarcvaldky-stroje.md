@@ -25,7 +25,7 @@ Obrázek ukazuje ve spodní části stejnou součástku - minutové kolo - ve v�
 
 Povšimněte si prosím,že celodřevěné ozubené kolo (1. zleva) má jeden zub plombován železnou plombou.
 
-[![švarcvaldky 1840](/img/svarcvald/kukacky1840.jpg)](/http://www.antique-horology.org/_Editorial/BlackForestClocks/Images/koekoek1.jpg)Je zajímavé, že se měnilo i umístění strojů v rámu. Nejčastěji, z pohledu ze strany číselníku, je jicí stroj vlevo, bicí vpravo. Existují stroje s opačnym uspořádáním. To je i případ uvedeného pérového stroje. Klasické uspořádání švarcvldek má v rámu stroje za sebou. Samozřejmě vpředu jicí stroj, vzadu [bicí stroj](/slovnik/bici-stroj). Na níže uvedených obrázcích je tato konstrukce rámu jak pro polodřevěná kola, tak pro mosazná kola. Dělí je tedy od sebe přibližně jedno století.
+![švarcvaldky 1840](/img/svarcvald/kukacky1840.jpg)Je zajímavé, že se měnilo i umístění strojů v rámu. Nejčastěji, z pohledu ze strany číselníku, je jicí stroj vlevo, bicí vpravo. Existují stroje s opačnym uspořádáním. To je i případ uvedeného pérového stroje. Klasické uspořádání švarcvldek má v rámu stroje za sebou. Samozřejmě vpředu jicí stroj, vzadu [bicí stroj](/slovnik/bici-stroj). Na níže uvedených obrázcích je tato konstrukce rámu jak pro polodřevěná kola, tak pro mosazná kola. Dělí je tedy od sebe přibližně jedno století.
 
 Defilé strojů z 19. a 20. století symbolicky zahájíme fotografií nádherných kukaček z muzea **Museum of the Dutch Clock** Zaanse Schans, Zaandam viz **zaandam.klokkenmuseum.info.** Jedná se o polodřevěné hodiny **z roku 1840**. Muzeum uvádí výrobu kukaček od roku 1730, nejstarší exponáty má z roku 1760.
 
