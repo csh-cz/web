@@ -8,6 +8,7 @@ import { formatCite, getRef } from '../../utils/cite';
 import { tinyMarkdown, stripMarkdown } from '../../utils/tinyMarkdown';
 import { cdnUrl } from '../../utils/cdnImage';
 import CrossRefs from '../../components/CrossRefs.astro';
+import { CSH_CONTENT_COMPONENTS } from '../../utils/content-components';
 
 export async function getStaticPaths() {
   const all = await getCollection('slovnik');
@@ -236,7 +237,7 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
     )}
 
     <div class="prose-content">
-      <Content />
+      <Content components={CSH_CONTENT_COMPONENTS} />
     </div>
 
     {data.references && data.references.length > 0 && (
