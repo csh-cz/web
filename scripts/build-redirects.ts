@@ -262,31 +262,23 @@ async function main() {
   }
 
   // ────────────────────────────────────────────────────────────────
-  // PRIORITA 3 — Legacy *.htm (původní PHP web, dnes málo trafficu)
+  // Legacy *.htm → 404.
+  // M8 (2026-05-20): per-article .htm redirecty ZRUŠENY. Web není live, mění
+  // se doména → žádná SEO kontinuita ze staré PHP domény se neřeší. Interní
+  // .htm odkazy v contentu jsou přepsané na kanonické cesty. /clanky/* už
+  // taky neřešíme přes route (interní odkazy kanonické). Zůstává jen pár
+  // root-page přesměrovek (SPECIAL) + slug-rename overrides výše.
   // ────────────────────────────────────────────────────────────────
-
-  lines.push('', '# === PRIORITA 3: legacy *.htm (low-traffic) ===');
-  const seen = new Set<string>(Object.keys(SPECIAL));
-  for (const [path, meta] of Object.entries(index.pages)) {
-    if (seen.has(path)) continue;
-    if (!path.endsWith('.htm')) continue;
-    seen.add(path);
-    lines.push(`${path} ${newHref(meta.slug, catalog, kronikaSlugs)} 301`);
-  }
-
-  // 5. Fallback
-  lines.push('', '# Fallback — neznámé .htm cesty', '/*.htm /404 404');
+  lines.push('', '# === Legacy *.htm → 404 (pre-launch, žádná SEO kontinuita) ===', '/*.htm /404 404');
 
   const out = lines.join('\n') + '\n';
   await writeFile(OUT_PATH, out, 'utf-8');
 
   const activeRules = lines.filter((l) => l && !l.startsWith('#')).length;
   console.log(`=== _redirects vyrobeno ===`);
-  console.log(`Legacy htm pravidel:       ${seen.size}`);
   console.log(`Cross-category přesuny:    ${Object.keys(CATEGORY_MOVES).length}`);
   console.log(`D6 kronika rename:         ${d6Renames.length}`);
-  console.log(`Aktivních pravidel celkem: ${activeRules}  (CF limit ~258)`);
-  console.log(`/clanky/* řeší route:      pages/clanky/[slug].astro`);
+  console.log(`Aktivních pravidel celkem: ${activeRules}`);
   console.log(`Výstup:                    ${OUT_PATH}`);
   console.log(`Velikost:                  ${out.length} bytů`);
 }
