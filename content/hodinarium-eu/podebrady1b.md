@@ -63,4 +63,4 @@ PS: Zdá se, že se vlk v blízké době dosyta nažere, neboť díky místu kde
 
 Miroslav Malovec, Občas na rynku, před komunálními volbami 2006
 
-[Další informace](/clanky/podebrady2)
+[Další informace](/virtualni-muzeum/podebrady2)

@@ -26,7 +26,7 @@ Poznámka pro ty, co si zkratky někdy pletou.
 
 Způsob dělení dne na hodiny se v průběhu času měnil. Svědkem těchto změn jsou právě nejstarší astronomické hodiny - orloje. Základním principem či úkolem orloje je zobrazovat dění na obloze. Proto byl nutný číselník zahrnující den i noc. Nějakou dobu trvalo, než se ujednotilo, kdy den vlastně začíná a kdy je tedy první hodina. I na Staroměstském orloji proto najdeme číselník "čtyřiadvacetník", který se během roku natáčí, aby správně ukazoval čas staročeský (italský, babylónský), který byl počítán od západu slunce. Více na stránkách [o orlojích](http://www.orloj.eu).
 
-Tak i některé jiné věžní hodiny mají číselník rozdělen na 24 hodin. V naší animaci uvádíme **[hodiny na radnici v Táboře](/clanky/tabor)**.
+Tak i některé jiné věžní hodiny mají číselník rozdělen na 24 hodin. V naší animaci uvádíme **[hodiny na radnici v Táboře](/virtualni-muzeum/tabor)**.
 
 Poněkud odlišný je číselník hodin v Hampton-courtském paláci v Anglii. Hodiny byly vyrobené roku 1540 Nicholasem Oursainem. Číselník je sice také rozdělen na 24 hodin, ovšem očíslování je dvakrát 12. Dvanáctka se nachází nahoře i dole. Dost podivné. To jsou holt ti Angličani.
 
@@ -42,7 +42,7 @@ Druhou velkou oblastí, kde se 24 hodinový číselník objevuje, jsou "pásmov�
 
 Jiný problém mají uživatelé hodin v polárních krajinách. My celkem snadno poznáme, zda je 5 hodin ráno nebo odpoledne. Jak to ale poznat v polární noci nebo dni? Proto třeba sovětské polární hodinky "RARE VINTAGE MILITARY POLAR EXPEDITION" mají 24 hodinový číselník.
 
-I mnohé jiné "mnohoručičkové" hodinky ukazují čas i v 24 hodinovém dělení. Nedovedu bohužel posoudit, jak praktické je to při častých mezikontinentálních přeletech. Další varianty [zde](/clanky/normalni).
+I mnohé jiné "mnohoručičkové" hodinky ukazují čas i v 24 hodinovém dělení. Nedovedu bohužel posoudit, jak praktické je to při častých mezikontinentálních přeletech. Další varianty [zde](/zajimavosti/normalni).
 
 [![spínací hodiny](/img/pasmovky/spinac24h_n.jpg)](/img/pasmovky/spinac24h.jpg)
 

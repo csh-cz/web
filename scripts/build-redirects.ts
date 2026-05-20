@@ -138,8 +138,7 @@ const HODINARI_SLUG_RENAMES: Record<string, string> = {
  *   /<kategorie>/<oldId> → /<kategorie>/<newId> (přímý starý URL)
  *   /kronika/<oldId> → /kronika/<newId>         (kronika collection)
  */
-async function loadD6Renames(catalog: CatalogEntry[], kronikaSlugs: Set<string>):
-  Promise<Array<{ oldUrl: string; newUrl: string }>> {
+async function loadD6Renames(): Promise<Array<{ oldUrl: string; newUrl: string }>> {
   const mappingPath = join(ROOT, 'apps/hodinarium-eu/src/data/d6-slug-renames.json');
   let data: { renames: Array<{ collection: string; oldId: string; newId: string }> };
   try {
@@ -147,24 +146,15 @@ async function loadD6Renames(catalog: CatalogEntry[], kronikaSlugs: Set<string>)
   } catch {
     return [];
   }
+  // M7 (2026-05-20): VŠECHNY /clanky/<oldId> → kanonická URL redirecty řeší teď
+  // catch-all route `pages/clanky/[slug].astro` (CF _redirects honoruje jen ~258
+  // pravidel, /clanky jich bylo ~230+ s různými cílovými kategoriemi → nešly
+  // globovat ani vměstnat). Tady zůstává jen přímý /kronika/<old> → /kronika/<new>
+  // rename (mimo /clanky schéma, levný a low-count).
   const out: Array<{ oldUrl: string; newUrl: string }> = [];
   for (const r of data.renames) {
-    if (r.collection === 'hodinarium-eu') {
-      const newEntry = catalog.find((c) => c.slug === r.newId);
-      if (!newEntry) continue;
-      const newUrl = newEntry.category === 'sbirka' && newEntry.podsekce === 'karta'
-        ? `/sbirka/karta/${r.newId}`
-        : `/${newEntry.category}/${r.newId}`;
-      // Legacy /clanky/<old> — jediná zachovaná varianta (PHP-éra /clanky scheme,
-      // dlouho živá, reálná SEO hodnota).
-      // M7 trim (2026-05-20): varianty /<kategorie>/<old> a /sbirka/karta/<old>
-      // ZRUŠENY — existovaly jen ~3 týdny mezi taxonomy 2026-04 a D6 2026-05-10
-      // (zanedbatelná hodnota) a nafukovaly _redirects přes CF limit, čímž
-      // vyřazovaly z provozu důležitější PRIORITA 3 (/clanky/<currentSlug>).
-      out.push({ oldUrl: `/clanky/${r.oldId}`, newUrl });
-    } else if (r.collection === 'kronika') {
+    if (r.collection === 'kronika') {
       out.push({ oldUrl: `/kronika/${r.oldId}`, newUrl: `/kronika/${r.newId}` });
-      out.push({ oldUrl: `/clanky/${r.oldId}`, newUrl: `/kronika/${r.newId}` });
     }
   }
   return out;
@@ -203,7 +193,7 @@ async function main() {
   const index: Index = JSON.parse(raw);
   const catalog: CatalogEntry[] = JSON.parse(await readFile(CATALOG_PATH, 'utf-8'));
   const kronikaSlugs = await loadKronikaSlugs();
-  const d6Renames = await loadD6Renames(catalog, kronikaSlugs);
+  const d6Renames = await loadD6Renames();
 
   // CF Pages limit: rules za cca 600 řádky CF tiše ignoruje (empiricky
   // ověřeno 2026-05-20: rule #600 funguje, #632 už 404). Proto jsou rules
@@ -225,28 +215,26 @@ async function main() {
   // PRIORITA 1 — SEO-kritické rename overrides (musí přežít CF limit)
   // ────────────────────────────────────────────────────────────────
 
-  // Renamed karta slugs — MUSÍ být PŘED glob (first-match-wins).
+  // POZN. (M7, 2026-05-20): VŠECHNY per-article `/clanky/<slug>` redirecty
+  // (karty, články, kronika, konsolidace MERGED_INTO, D6 staré slugy) řeší teď
+  // catch-all route `pages/clanky/[slug].astro` — meta-refresh na kanonickou
+  // URL podle catalog.json + d6-rename mapy. Důvod: CF Pages honoruje jen ~258
+  // pravidel v _redirects (empiricky: rule #258 OK, #259 → 404) a /clanky jich
+  // bylo ~230+ s RŮZNOU cílovou kategorií per slug → nešly globovat (jeden
+  // splat neumí mapovat laplace→zajimavosti, kostky→sbirka) ani vměstnat.
+  // V _redirects proto zůstávají JEN ne-/clanky 301 (přímé karta cesty, kronika
+  // rename, hodinaři, cross-category, root pages, legacy *.htm).
+
+  // Renamed karta slugs — přímá /sbirka/karta/<old> cesta (/clanky/<old> = route).
   lines.push('', '# === PRIORITA 1: rename overrides (SEO kritické) ===');
-  lines.push('# Renamed karta slugs (override před glob):');
+  lines.push('# Renamed karta slugs (přímá karta cesta):');
   for (const [oldSlug, newSlug] of Object.entries(KARTY_SLUG_RENAMES)) {
-    lines.push(`/clanky/${oldSlug} /sbirka/karta/${newSlug} 301`);
     lines.push(`/sbirka/karta/${oldSlug} /sbirka/karta/${newSlug} 301`);
     lines.push(`/sbirka/karta/${oldSlug}/ /sbirka/karta/${newSlug}/ 301`);
   }
 
-  // Konsolidace článků — staré slugy → anchor evergreen
-  lines.push('', '# Konsolidace článků M5.1+ — staré slugy → anchor evergreen');
-  for (const [slug, dst] of Object.entries(MERGED_INTO)) {
-    lines.push(`/clanky/${slug} ${dst} 301`);
-  }
-
-  // D6 Slug standardizace 2026-05-10 — snake_case → kebab-case.
-  // M7 trim (2026-05-20): trailing-slash duplikáty ZRUŠENY pro tento legacy
-  // blok. Kanonická URL je bez slashe (astro `trailingSlash: 'never'`) a
-  // PRIORITA 3 (/clanky/<currentSlug>) stejně emituje jen no-slash variantu —
-  // držíme konzistenci a šetříme řádky pod CF limit. (issue #21 se týkal
-  // /<kat>/<old>/ varianty, která je teď zrušená celá.)
-  lines.push('', `# D6 Slug standardizace (2026-05-10): ${d6Renames.length} redirects (legacy /clanky/<old>)`);
+  // D6 — pouze /kronika/<old> → /kronika/<new> (kronika rename mimo /clanky).
+  lines.push('', `# D6 kronika rename: ${d6Renames.length} redirects`);
   for (const r of d6Renames) {
     lines.push(`${r.oldUrl} ${r.newUrl} 301`);
   }
@@ -264,49 +252,20 @@ async function main() {
   }
 
   // ────────────────────────────────────────────────────────────────
-  // PRIORITA 2 — Specifické root pages + glob pro 290 karet
+  // PRIORITA 2 — Specifické root pages
   // ────────────────────────────────────────────────────────────────
 
-  lines.push('', '# === PRIORITA 2: root pages + glob ===');
+  lines.push('', '# === PRIORITA 2: root pages ===');
   lines.push('# Specifické přesměrovky (root pages legacy hodinarium.eu)');
   for (const [src, dst] of Object.entries(SPECIAL)) {
     lines.push(`${src} ${dst} 301`);
   }
 
-  // Glob pro karty: 290 inv-* záznamů jednou linkou
-  lines.push('', '# Karty (290 záznamů jedním glob řádkem):');
-  lines.push('/clanky/inv-* /sbirka/karta/inv-:splat 301');
-
   // ────────────────────────────────────────────────────────────────
-  // PRIORITA 3 — Taxonomie /clanky/X → /<kat>/X (per-article)
+  // PRIORITA 3 — Legacy *.htm (původní PHP web, dnes málo trafficu)
   // ────────────────────────────────────────────────────────────────
 
-  // /clanky/<slug> → /kronika/<slug> pro přesunuté efemérní články (M4)
-  lines.push('', '# === PRIORITA 3: taxonomie /clanky/X → /<kat>/X ===');
-  lines.push('# M4 Kronika přesun:');
-  let kronikaCount = 0;
-  for (const slug of kronikaSlugs) {
-    lines.push(`/clanky/${slug} /kronika/${slug} 301`);
-    kronikaCount += 1;
-  }
-
-  // Non-karta články — per-entry
-  lines.push('', '# Non-karta články /clanky/X → /<kat>/X:');
-  let migratedCount = 0;
-  for (const e of catalog) {
-    if (!NEW_CATEGORIES.has(e.category)) continue;
-    if (e.category === 'sbirka' && e.podsekce === 'karta') continue; // glob výše
-    lines.push(`/clanky/${e.slug} ${categoryHref(e)} 301`);
-    migratedCount += 1;
-  }
-
-  // ────────────────────────────────────────────────────────────────
-  // PRIORITA 4 — Legacy *.htm (původní PHP web, dnes málo trafficu)
-  // Tyto jsou poslední — pokud CF skipne nějaké, jde o legacy URL
-  // ze starého PHP webu, na které dnes téměř nikdo neklika.
-  // ────────────────────────────────────────────────────────────────
-
-  lines.push('', '# === PRIORITA 4: legacy *.htm (low-traffic) ===');
+  lines.push('', '# === PRIORITA 3: legacy *.htm (low-traffic) ===');
   const seen = new Set<string>(Object.keys(SPECIAL));
   for (const [path, meta] of Object.entries(index.pages)) {
     if (seen.has(path)) continue;
@@ -321,11 +280,13 @@ async function main() {
   const out = lines.join('\n') + '\n';
   await writeFile(OUT_PATH, out, 'utf-8');
 
+  const activeRules = lines.filter((l) => l && !l.startsWith('#')).length;
   console.log(`=== _redirects vyrobeno ===`);
   console.log(`Legacy htm pravidel:       ${seen.size}`);
-  console.log(`Migrace clanky→kateg.:     ${migratedCount}`);
-  console.log(`Migrace clanky→kronika:    ${kronikaCount}`);
   console.log(`Cross-category přesuny:    ${Object.keys(CATEGORY_MOVES).length}`);
+  console.log(`D6 kronika rename:         ${d6Renames.length}`);
+  console.log(`Aktivních pravidel celkem: ${activeRules}  (CF limit ~258)`);
+  console.log(`/clanky/* řeší route:      pages/clanky/[slug].astro`);
   console.log(`Výstup:                    ${OUT_PATH}`);
   console.log(`Velikost:                  ${out.length} bytů`);
 }

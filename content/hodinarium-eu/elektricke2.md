@@ -36,4 +36,4 @@ Po zvětšení obrázku možná překvapí provedení zvonku s klasickým "Vágn
 
 ## PUL-SYN-ETIC
 
-Zajímavým řešením, které můžeme zařadit do této kategorie, je elektromagnetický systém pohybu [kyvadla](/slovnik/kyvadlo) u matečních hodin Pulsynetic. Po každém patnáctém kmitu kyvadla je uvolněna popudná páka, která svou vahou dodá [kyvadlu](/slovnik/kyvadlo) energii. Poté je elektromagnetem vrácena do klidové polohy. Je to tedy varianta gravitačního kroku, který je poměrně přesný. [Více o tomto systému na samostatné stránce.](/clanky/pulsynetic)
+Zajímavým řešením, které můžeme zařadit do této kategorie, je elektromagnetický systém pohybu [kyvadla](/slovnik/kyvadlo) u matečních hodin Pulsynetic. Po každém patnáctém kmitu kyvadla je uvolněna popudná páka, která svou vahou dodá [kyvadlu](/slovnik/kyvadlo) energii. Poté je elektromagnetem vrácena do klidové polohy. Je to tedy varianta gravitačního kroku, který je poměrně přesný. [Více o tomto systému na samostatné stránce.](/konstrukce/pulsynetic)

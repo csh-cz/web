@@ -19,26 +19,26 @@ Naopak fandíme pokusům vytvořit nový časoměrný artefakt. Ať již jsou c�
 
 ## Několik příkladů:
 
-[![Stolní bicí hodiny s prstencovými číselníky](/img/fucik/mini/prstencove.jpg)](/clanky/hinspirace)
-[![Pilové hodiny — varianta 1](/img/fucik/mini/pilove1.jpg)](/clanky/hinspirace)
-[![Pilové hodiny — varianta 2](/img/fucik/mini/pilove2.jpg)](/clanky/hinspirace)
-[![Ptáček v kleci](/img/fucik/mini/klec1.jpg)](/clanky/hinspirace)
-[![Vlastní konstrukce](/img/fucik/mini/vlastni_konstrukce.jpg)](/clanky/hinspirace)
-[![Hodiny rok 2000](/img/fucik/mini/2000.jpg)](/clanky/hinspirace)
-[![Kyvadlové hodiny](/img/fucik/mini/kyvadlo.jpg)](/clanky/hinspirace)
-[![Hodiny rok 2001](/img/fucik/mini/2001_11.jpg)](/clanky/hinspirace)
+[![Stolní bicí hodiny s prstencovými číselníky](/img/fucik/mini/prstencove.jpg)](/virtualni-muzeum/hinspirace)
+[![Pilové hodiny — varianta 1](/img/fucik/mini/pilove1.jpg)](/virtualni-muzeum/hinspirace)
+[![Pilové hodiny — varianta 2](/img/fucik/mini/pilove2.jpg)](/virtualni-muzeum/hinspirace)
+[![Ptáček v kleci](/img/fucik/mini/klec1.jpg)](/virtualni-muzeum/hinspirace)
+[![Vlastní konstrukce](/img/fucik/mini/vlastni_konstrukce.jpg)](/virtualni-muzeum/hinspirace)
+[![Hodiny rok 2000](/img/fucik/mini/2000.jpg)](/virtualni-muzeum/hinspirace)
+[![Kyvadlové hodiny](/img/fucik/mini/kyvadlo.jpg)](/virtualni-muzeum/hinspirace)
+[![Hodiny rok 2001](/img/fucik/mini/2001_11.jpg)](/virtualni-muzeum/hinspirace)
 
 **Stolní bicí hodiny s prstencovými číselníky, pilové hodiny, ptáček v kleci, různé miniatury a další hodiny...**
 
 ![Původní stroj švarcvaldek je doplněn kovovým číselníkem z jiného typu hodin. Průhledná část je CD. Hodiny doplněny novým řetízkem a kopií závaží. Rovněž kyvadlo je vyrobeno z výlisku, který původně zdobil lustr.](/img/dostavby/svarcvaldky_cd.jpg)
 
-Nápad například na postavení prstencových hodin prý vznikl při pohledu na obrázek v časopise, kde se psalo, že jsou známy jediné, které vlastní Národní technické muzeum v Praze. Jak se tento a jiné nápady podařilo zhmotnit, ukazuje samostatná stránka **[Historické inspirace.](/clanky/hinspirace)**
+Nápad například na postavení prstencových hodin prý vznikl při pohledu na obrázek v časopise, kde se psalo, že jsou známy jediné, které vlastní Národní technické muzeum v Praze. Jak se tento a jiné nápady podařilo zhmotnit, ukazuje samostatná stránka **[Historické inspirace.](/virtualni-muzeum/hinspirace)**
 
 ## ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934
 
-[![Hodiny z třmenu a kapesních hodinek — zemské jezdecké závody Praha 1934](/img/jezdeke/trmen1934_1_i.jpg)](/clanky/jezdecke)
+[![Hodiny z třmenu a kapesních hodinek — zemské jezdecké závody Praha 1934](/img/jezdeke/trmen1934_1_i.jpg)](/sbirka/jezdecke)
 
-Hodinám vytvořeným pro jezdecké závody v roce 1934 z třmenu a kapesních hodinek je věnovaná [**samostatná stránka**](/clanky/jezdecke)
+Hodinám vytvořeným pro jezdecké závody v roce 1934 z třmenu a kapesních hodinek je věnovaná [**samostatná stránka**](/sbirka/jezdecke)
 
 ## "Skeletové" švarcvaldky
 

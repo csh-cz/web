@@ -111,7 +111,7 @@ Na starých číselnících **„čas" neznamená dnešní rovnoměrný středoe
 
 **Pražský orloj** historicky používal několik systémů současně — **dvě stupnice na téže ploše** (staročeský 24h + středoevropský 12h). Tj. když vidíte starý ciferník, je dobrá otázka: **jaký čas vlastně zobrazuje?**
 
-Petr Král cituje v článku [*Židovské hodiny z roku 1764*](/clanky/zidovske) další unikum:
+Petr Král cituje v článku [*Židovské hodiny z roku 1764*](/virtualni-muzeum/zidovske) další unikum:
 
 ## Židovský hebrejský zrcadlový ciferník (Praha, 1764)
 
@@ -129,7 +129,7 @@ Na štítu **Židovské radnice** v Praze (proti Staronové synagoze) se nacház
 > ukazuje minuty, větší pak hodiny. **Koncepce ciferníku je rarita
 > i v židovské kultuře.**"
 > — KRÁL, Petr. *Židovské hodiny z roku 1764.* hodinarium.eu, 2017
-> upd. 2020. Cross-link: [/clanky/zidovske](/clanky/zidovske).
+> upd. 2020. Cross-link: [/virtualni-muzeum/zidovske](/virtualni-muzeum/zidovske).
 
 Stroj v půdě radnice pohání **více ciferníků současně** (štít + věžička) přes komplikované převody — viz [ukazovací stroj](/slovnik/ukazovaci-stroj). Hebrejský ciferník je tak nejen kulturní kuriozita, ale **kompletní inženýrské řešení** zrcadlového převodu z normálního chodu stroje do zpětného chodu jediného ciferníku.
 
@@ -523,7 +523,7 @@ U běžných věžních hodin bývá **hodinová ručička robustnější a orna
 
 ## Osvětlení číselníku
 
-Podsvícení (lit-from-behind, dial illumination) je technika ze 2. poloviny 19. století, motivovaná **noční čitelností** veřejných hodin. Plný přehled způsobů osvětlení v článku [Svítící hodiny](/clanky/svitici).
+Podsvícení (lit-from-behind, dial illumination) je technika ze 2. poloviny 19. století, motivovaná **noční čitelností** veřejných hodin. Plný přehled způsobů osvětlení v článku [Svítící hodiny](/sbirka/svitici).
 
 ### Chronologie raných podsvícených věžních číselníků
 
@@ -574,7 +574,7 @@ Krečmerův 1883 automat byl **unikátní v Evropě** — distribuovaným, auton
 
 Po krátkém období plynového osvětlení Pražského orloje (a postupně se vzdalujícím dobovým úzu) ciferníky **přestaly svítit** — Z. Horský v *Pražském orloji* uvádí: „Dnes ciferníky večer a v noci nesvítí a je to tak lépe." Obnoveno až **2008** (LED + soumrakový spínač).
 
-### Typologie způsobů osvětlení (dle článku [Svítící hodiny](/clanky/svitici))
+### Typologie způsobů osvětlení (dle článku [Svítící hodiny](/sbirka/svitici))
 
 **Vnější osvětlení** klasických neprůhledných číselníků:
 1. **Reflektory na zemi nebo sloupech** osvětlující celou věž (nejhezčí, nehyzdí konstrukci)
@@ -759,7 +759,7 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 > jako tradice, nikoli jako historicky doložená vysvětlení.
 
 > KRÁL, Petr. *Židovské hodiny z roku 1764.* hodinarium.eu, 2017
-> upd. 2020. Cross-link: [/clanky/zidovske](/clanky/zidovske).
+> upd. 2020. Cross-link: [/virtualni-muzeum/zidovske](/virtualni-muzeum/zidovske).
 > (Stroj Sebastian Londensperger 1764, restaurace Petr Skála 90. léta —
 > patrně nejstarší hebrejské hodiny na veřejném místě. Zrcadlový chod
 > ručiček odpovídá hebrejskému čtení zprava doleva.)
@@ -796,6 +796,6 @@ Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je
 ## Související článek
 
 Detailní fotodokumentovaný přehled způsobů osvětlení hodin viz článek
-[Svítící hodiny](/clanky/svitici) — od plynového podsvícení Pražského orloje
+[Svítící hodiny](/sbirka/svitici) — od plynového podsvícení Pražského orloje
 a Big Benu přes vnitřní a vnější reflektory věžních hodin po autohodiny
 noční budíky a Art Deco lampy.

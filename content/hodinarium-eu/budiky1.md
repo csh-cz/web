@@ -55,4 +55,4 @@ Vlevo nahoře otvory pro šňůru se závažími.
 
 Celkový pohled na krásné porcelánky.
 
-O budíčcích klinkacích více [zde](/clanky/budiky2).
+O budíčcích klinkacích více [zde](/sbirka/budiky2).

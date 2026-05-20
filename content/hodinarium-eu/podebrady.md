@@ -26,12 +26,12 @@ Moje výtky se netýkají tvůrců nových "Primek", ale zadavatelů a projektan
 INOVACE S ODVAHOU A ROZVAHOU. TRADICE S ÚCTOU A RADOSTÍ.**
 Zda změny místu prospěly, posoudíte sami.
 
-- **[Z historie](/clanky/podebrady1)**
-- [**Vybrané ohlasy v tisku**](/clanky/podebrady1b)
-- [**Poznámky ke stroji hodin**](/clanky/podebrady2)
-- **[Úvahy nad poděbradským trpaslíkem](/clanky/podebrady3)** O památkách, kýči, umění, trpaslíkovi a humoru.
-- **[Historické fotografie](/clanky/podebrady4)**
+- **[Z historie](/virtualni-muzeum/podebrady1)**
+- [**Vybrané ohlasy v tisku**](/virtualni-muzeum/podebrady1b)
+- [**Poznámky ke stroji hodin**](/virtualni-muzeum/podebrady2)
+- **[Úvahy nad poděbradským trpaslíkem](/virtualni-muzeum/podebrady3)** O památkách, kýči, umění, trpaslíkovi a humoru.
+- **[Historické fotografie](/virtualni-muzeum/podebrady4)**
 
-- **[Květinové hodiny jinde ve světě](/clanky/kvetinove)**
+- **[Květinové hodiny jinde ve světě](/virtualni-muzeum/kvetinove)**
 
 *Za materiály ke stránce děkujeme M. Malovcovi, J. Hrabětové a P. Skálovi.*

@@ -37,4 +37,4 @@ Na úpravě se začalo v těchto dnech pracovati (únor 1938). Odstraněním plo
 
 **V roce 1937 vznikají květinové hodiny inspirované podobnými v Žitavě**
 
-[Další informace](/clanky/podebrady1b)
+[Další informace](/virtualni-muzeum/podebrady1b)

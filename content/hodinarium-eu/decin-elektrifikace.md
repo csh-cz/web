@@ -21,7 +21,7 @@ tldr: 'Od Steinheilova patentu na polarizované impulzy (1839) přes elektrické
 ---
 ![?](/img/decin/elektrika/foto2.jpg)
 
-Elektrická energie se nejprve používala k vytahování závaží či k [osvětlení](/clanky/svitici) hodin. Pravá elektrická revoluce v hodinářství začala v první čtvrtině 19. století, kdy se pomocí elektrické energie začal řídit hodinový stroj. Jeden ze tří hlavních směrů - princip řízení hodin polarizovanými [impulzy](/slovnik/impulsy) se nevyhnul ani věžním hodinám. Je to poměrně stará záležitost. Patent na mechanizmus vysílání těchto impulzů získal v roce 1839 profesor mnichovské univerzity Carl August Steinheil.
+Elektrická energie se nejprve používala k vytahování závaží či k [osvětlení](/sbirka/svitici) hodin. Pravá elektrická revoluce v hodinářství začala v první čtvrtině 19. století, kdy se pomocí elektrické energie začal řídit hodinový stroj. Jeden ze tří hlavních směrů - princip řízení hodin polarizovanými [impulzy](/slovnik/impulsy) se nevyhnul ani věžním hodinám. Je to poměrně stará záležitost. Patent na mechanizmus vysílání těchto impulzů získal v roce 1839 profesor mnichovské univerzity Carl August Steinheil.
 
 ## Klasický věžní stroj s elektrickým vypouštěním
 

@@ -29,7 +29,7 @@ Typickým znakem hodin "řízených rádiem" je symbol vysílače a případný 
 
 Hodiny s DCF přijímačem se obvykle vyrábějí, zejména z cenových důvodů, jako digitální. ![DCF pendlovky — efektní „mávátko” bez vlivu na chod](/img/dcf_pendlovky.jpg) V muzeu kuriózních hodin ukážeme proto i několik analogových a kombinovaných budíků. Existují DCF nádražní hodiny i DCF pendlovky. Kyvadlo je zde ovšem spíše jakýmsi mávátkem bez vlivu na chod hodin. Nicméně je to docela efektní. Je celkem zajímavé pozorovat počáteční nastavení analogových hodin. „Pendlovky” se po vložení baterie nastaví na pozici 4, 8 nebo 12 hodin a vyčkávají cca 4 minuty na příjem rádiového signálu. ![DCF hodinky Eurochron — analogový vzhled, atomová přesnost](/img/dcf_naramkove2.jpg) Správný časový údaj se kontroluje 12× za den.
 
-Přijímač DCF lze dnes vestavět i do náramkových hodinek. Kdybych si pořizoval nové hodinky, asi bych sáhl po kombinaci klasického vzhledu s analogovým ukazatelem času a přesnosti atomových hodin dosaženou synchronizací DCF přijímačem. Prostě ručičky jsou ručičky a bezstarostnost o nastavení je to pravé, co nabízejí například **DCF hodinky Eurochron** na obrázku vpravo. Navíc [**římské**](/clanky/rimskedigi) číslice na číselníku....
+Přijímač DCF lze dnes vestavět i do náramkových hodinek. Kdybych si pořizoval nové hodinky, asi bych sáhl po kombinaci klasického vzhledu s analogovým ukazatelem času a přesnosti atomových hodin dosaženou synchronizací DCF přijímačem. Prostě ručičky jsou ručičky a bezstarostnost o nastavení je to pravé, co nabízejí například **DCF hodinky Eurochron** na obrázku vpravo. Navíc [**římské**](/projekty/rimskedigi) číslice na číselníku....
 
 ## Vysílač časového signálu
 

@@ -21,7 +21,7 @@ Otáčení minutové hřídele se na různé strany rozvádí soustavou tyčí a
 
 ## Rozvodovka
 
-Nejčastěji se minutová hřídel od stroje vede vzhůru do roviny číselníků a pomocí jedné rozvodovky se rozvádí na čtyři strany věže. To je určitý technický problém, protože potřebujeme zajistit správný směr otáčení a zachovat převod 1:1. Hypotetická rozvodovka tak má centrální (kuželové) kolo a čtyři kola oběžná. Pokud je použita pětice stejných kol, nevejdou se v kolmém záběru a musí být vzájemně odkloněna. To vidíme například na [rozvodu věžního stroje v Janovicích](/clanky/janovice). Pokud chceme dosáhnout kolmého převodu, můžeme volit jinou velikost centrálního kola a změněný převod kompenzovat v převodu u hodinového stroje.
+Nejčastěji se minutová hřídel od stroje vede vzhůru do roviny číselníků a pomocí jedné rozvodovky se rozvádí na čtyři strany věže. To je určitý technický problém, protože potřebujeme zajistit správný směr otáčení a zachovat převod 1:1. Hypotetická rozvodovka tak má centrální (kuželové) kolo a čtyři kola oběžná. Pokud je použita pětice stejných kol, nevejdou se v kolmém záběru a musí být vzájemně odkloněna. To vidíme například na [rozvodu věžního stroje v Janovicích](/virtualni-muzeum/janovice). Pokud chceme dosáhnout kolmého převodu, můžeme volit jinou velikost centrálního kola a změněný převod kompenzovat v převodu u hodinového stroje.
 
 Prokeš šel jinou cestou a použil jednoduchou **převodovku s pouze dvěma koly**, ovšem za cenu nezajištění správného směru otáčení některých tyčí. Směr musel být dodatečně upravován. Protože často rozvody procházejí složitou stavbou, řadí se rozvodové převody do sérií.
 

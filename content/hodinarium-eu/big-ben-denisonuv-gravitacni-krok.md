@@ -139,7 +139,7 @@ V českých zemích našel Denisonův princip pozoruhodně rychlou recepci. Pouh
 
 Romuald Božek navrhl a sám sestrojil věžní hodiny s **modifikovaným Denisonovým gravitačním krokem** pro [karlínský kostel sv. Cyrila a Metoděje](/soupis-veznich-hodin/1866-praha-karlin-cyril-metodej-holub), které **realizovala dílna [Jana Holuba](/hodinari/jan-holub)** ve strojírně **[Čeňka Daňka](/hodinari/cenek-danek)** v Karlíně. Realizace byla financována přímo Čeňkem Daňkem (zámožný strojírenský průmyslník byl mecenášem výstavby karlínského chrámu).
 
-Tato dílenská kombinace **Božek → Holub → Daněk** se ukázala jako velmi produktivní — během 60. let 19. století Karlínská strojírna postavila několik dalších věžních hodin s gravitačním krokem (mj. opravy a doplňky [Staroměstského orloje](/clanky/prazsky-orloj-restaurovani-2018) 1864–66 — kde Holub opravoval hodinový stroj).
+Tato dílenská kombinace **Božek → Holub → Daněk** se ukázala jako velmi produktivní — během 60. let 19. století Karlínská strojírna postavila několik dalších věžních hodin s gravitačním krokem (mj. opravy a doplňky [Staroměstského orloje](/zajimavosti/prazsky-orloj-restaurovani-2018) 1864–66 — kde Holub opravoval hodinový stroj).
 
 Detail Božkovy modifikace Denisonova kroku popisuje **[Heisler (2007)](/clanky/heisler-rekonstrukce-prazskeho-orloje-2007)** v *Rekonstrukce Pražského orloje v 19. století* — Božek pravděpodobně **prostřední pár ramen** ze čtyř (jak u Denisona) **redukoval na jediný pár**, čímž si zachoval funkci, ale zjednodušil výrobu (jen tři, ne šest ramen). Tato úprava je doložena v Božkově korespondenci s pražskými mechaniky doby a v jeho dochovaných stavebních denících (Inventář NTM, fond Josef a Romuald Božek, [ZK5ARYU9](https://www.zotero.org/)).
 
@@ -176,4 +176,4 @@ Mimo Westminster Great Clock se v anglickém i severoamerickém tisku **„Big B
 - **Kroky** — [Grahamův krok](/kroky/grahamuv-krok), [Amantův krok](/kroky/amantuv-krok)
 - **Slovník** — [kyvadlo](/slovnik/kyvadlo), [krok](/slovnik/krok)
 - **Soupis hodin** — [Karlínské hodiny Holub 1866](/soupis-veznich-hodin/1866-praha-karlin-cyril-metodej-holub) (česká aplikace Denisonova principu)
-- **Pražský orloj** — [Restaurování stroje 2018](/clanky/prazsky-orloj-restaurovani-2018) (kontext Holubovy a Krečmerovy práce v karlínské strojírně 60. let)
+- **Pražský orloj** — [Restaurování stroje 2018](/zajimavosti/prazsky-orloj-restaurovani-2018) (kontext Holubovy a Krečmerovy práce v karlínské strojírně 60. let)

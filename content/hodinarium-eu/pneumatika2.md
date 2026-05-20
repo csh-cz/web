@@ -67,6 +67,6 @@ Ceny předplatného pro soukromé osoby činily pět centů denně za jedny podr
 ## Jiné pneumatické systémy a zajímavé odkazy
 
 - [The Paris Pneumatic Clock Network](http://www.douglas-self.com/MUSEUM/COMMS/airclock/airclock.htm)
-- [Použití patentu Maxe Fischera z roku 1926 - žárovkový kompresor](/clanky/pneumatika)
+- [Použití patentu Maxe Fischera z roku 1926 - žárovkový kompresor](/konstrukce/pneumatika)
 - [http://www.hwynen.de/jgh-elektronom.html](http://www.hwynen.de/jgh-elektronom.html)
 - [https://youtu.be/gol\_p2aWrJg?si=nUwjQInJs2A-c52s](https://youtu.be/gol_p2aWrJg?si=nUwjQInJs2A-c52s) zajímavé video
