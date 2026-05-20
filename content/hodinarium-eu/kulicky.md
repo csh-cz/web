@@ -22,9 +22,7 @@ Hodiny se dočkaly mnoha následovníků.
 
 Valící se kuličky mohou působit jako **zdroj konstatního popudu do [kyvadla](/slovnik/kyvadlo).** Vynikají tak neuvěřitelné kinetické soustsvy. Něktré jsou k vidění na webu pana [MARCELa BETRISEY.](http://www.betrisey.ch/)
 
-Asi nejpropracovanější model je na stránce www.betrisey.ch/emalev.htm K dispozici je i **video**, určitě nevynechejte. Zde několik ukázek od stejného autora.
-
-![](http://www.betrisey.ch/)
+Asi nejpropracovanější model je na stránce www.betrisey.ch/emalev.htm K dispozici je i **video**, určitě nevynechejte. Zde [několik ukázek od stejného autora](http://www.betrisey.ch/).
 
 V neposlední řadě se kuličky používají pro **kuriózní způsob zobrazení času**. Postavit jdou i ze stavebnice.
 
