@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Photo credit — Creative Commons + zdroj (v2)</title>
+<style>
+  :root {
+    --color-bg: #14100c;
+    --color-bg-inner: #1f1814;
+    --color-brass: #b8924a;
+    --color-brass-bright: #e8c574;
+    --color-copper: #a85a3c;
+    --color-text: #d4c5a8;
+    --color-text-soft: #b5a888;
+    --color-text-muted: #8a8275;
+    --measure: 42rem;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'Spectral', Georgia, serif;
+    line-height: 1.7;
+    padding: 3rem 1.5rem;
+  }
+  main { max-width: var(--measure); margin: 0 auto; }
+  h1 { color: var(--color-brass-bright); font-weight: 500; }
+  h2 { color: var(--color-copper); font-weight: 500; margin-top: 3rem; font-size: 1.1rem; letter-spacing: 0.04em; text-transform: uppercase; }
+  h3 { color: var(--color-brass); font-weight: 500; margin-top: 2rem; font-size: 1rem; }
+  p { color: var(--color-text); }
+  code { background: var(--color-bg-inner); padding: 0.1em 0.35em; border-radius: 3px; font-size: 0.85em; color: var(--color-brass-bright); }
+  table { border-collapse: collapse; width: 100%; font-size: 0.85rem; margin: 1rem 0; }
+  th, td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 20%, transparent); vertical-align: top; }
+  th { color: var(--color-copper); font-weight: 500; }
+  .bad { color: #d98c6a; }
+  .good { color: #9fc06a; }
+
+  /* ════════════════════════════════════════════════════════════
+     PHOTO CREDIT LAYOUT — shodné s demo.html (schváleno)
+     ════════════════════════════════════════════════════════════ */
+  figure.photo {
+    display: grid;
+    gap: 0.5rem 0.7rem;
+    margin: 2rem 0;
+    width: fit-content;
+    max-width: 100%;
+    grid-template-areas: "img" "cap";
+    justify-items: start;
+  }
+  figure.photo img {
+    grid-area: img;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+  }
+  figure.photo figcaption {
+    grid-area: cap;
+    font-size: 0.8rem;
+    line-height: 1.45;
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+  figure.photo figcaption a {
+    color: var(--color-text-soft);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--color-brass) 50%, transparent);
+  }
+  figure.photo figcaption .credit-author { color: var(--color-text-soft); font-style: normal; }
+
+  /* caption SVISLE VPRAVO (portrait + delší credit) */
+  figure.photo.layout-side {
+    grid-template-areas: "img cap";
+    grid-template-columns: auto min-content;
+    align-items: stretch;
+    gap: 0 0.6rem;
+  }
+  figure.photo.layout-side figcaption {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    max-height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-self: start;
+    padding-block: 0.1rem;
+    border-inline-start: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    padding-inline-start: 0.5rem;
+  }
+
+  /* velký portrait — centrovat */
+  figure.photo.is-large.is-portrait { margin-inline: auto; justify-items: center; }
+  figure.photo.is-large.is-portrait img { max-height: 80vh; width: auto; }
+
+  @media (max-width: 34rem) {
+    figure.photo.layout-side { grid-template-areas: "img" "cap"; grid-template-columns: auto; }
+    figure.photo.layout-side figcaption {
+      writing-mode: horizontal-tb; white-space: normal;
+      border-inline-start: none; padding-inline-start: 0;
+      border-block-start: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+      padding-block-start: 0.3rem;
+    }
+  }
+
+  .demo-frame { outline: 1px dashed color-mix(in srgb, var(--color-copper) 40%, transparent); outline-offset: 4px; }
+  .demo-note { font-size: 0.8rem; color: var(--color-text-muted); border-left: 2px solid var(--color-copper); padding-left: 0.8rem; margin: 0.5rem 0 2rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Photo credit — Creative Commons &amp; zdroj</h1>
+<p>Navazuje na <code>demo.html</code> (rozložení schváleno). Tady řešíme dvě věci: <strong>(1)</strong> proč bylo jméno dvakrát a jak to opravit, <strong>(2)</strong> jak správně uvádět Creative Commons licenci a zdroj.</p>
+
+<h2>1. Proč bylo jméno dvakrát — a oprava</h2>
+<p>V původním demu byl caption ručně napsaný takto:</p>
+<figure class="photo demo-frame">
+  <img src="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/janata/janata-louny-desticka-1871.jpg" alt="Destička Louny 1871">
+  <figcaption><span class="credit-author">Foto: Petr Skála</span> (2021) · © Petr Skála, 2021</figcaption>
+</figure>
+<p class="demo-note"><span class="bad">Špatně:</span> „Foto: Petr Skála (2021)" je <em>uvedení autora</em>, „© Petr Skála, 2021" je <em>copyright doložka</em> — u <strong>téže osoby</strong> je to nadbytečné. Byl to artefakt ručně psaného HTML; samotná komponenta <code>Photo.astro</code> jméno nikdy nezdvojuje, skládá jen jeden řádek.</p>
+
+<p><strong>Pravidlo:</strong> jedna osoba = jedno uvedení. Dvě uvedení (autor i držitel práv) mají smysl <strong>jen když se liší</strong> — např. fotograf × instituce (NPÚ, muzeum). Viz scénář 3C níže.</p>
+
+<figure class="photo demo-frame">
+  <img src="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/janata/janata-louny-desticka-1871.jpg" alt="Destička Louny 1871">
+  <figcaption><span class="credit-author">Foto: Petr Skála</span>, 2021</figcaption>
+</figure>
+<p class="demo-note"><span class="good">Správně:</span> jediné uvedení. Pro vlastní/spolkové fotky se svolením stačí „Foto: Jméno, rok".</p>
+
+<h2>2. Jak uvádět Creative Commons</h2>
+<p>CC vyžaduje tzv. <strong>TASL</strong> řetězec: <em>Title — Author — Source — License</em>. Pro web caption to znamená tři odkazované části:</p>
+<table>
+  <tr><th>Část</th><th>Co</th><th>Odkaz na</th><th>Prop v <code>::photo</code></th></tr>
+  <tr><td><strong>Autor</strong></td><td>jméno tvůrce</td><td>profil autora (Commons User:)</td><td><code>author</code> + <code>authorUrl</code></td></tr>
+  <tr><td><strong>Licence</strong></td><td>název verze, např. „CC BY-SA 3.0"</td><td><em>deed</em> licence na creativecommons.org</td><td><code>license</code> + <code>licenseUrl</code></td></tr>
+  <tr><td><strong>Zdroj</strong></td><td>slovo „zdroj"</td><td>původní soubor (Commons File:)</td><td><code>sourceUrl</code></td></tr>
+</table>
+<p class="demo-note"><strong>Pozor:</strong> u CC děl <span class="bad">neuvádíme</span> zvlášť „© Jméno". Autor sice copyright má, ale to, co licence vyžaduje, je <em>odkaz na licenci</em> — ten copyright doložku nahrazuje. „©" patří jen k „all rights reserved" / se-svolením fotkám.</p>
+
+<h3>3A. Wikimedia CC — landscape (credit pod obrázkem)</h3>
+<p class="demo-note"><code>::photo{src=… author="Andreas Praefcke" authorUrl=… license="CC BY 3.0" licenseUrl=… sourceUrl=…}</code></p>
+<figure class="photo demo-frame">
+  <img src="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/zidovske/praefcke_2003_synagoga.jpg" alt="Staronová synagoga, v pozadí Židovská radnice s hodinami">
+  <figcaption>
+    Foto: <a href="https://commons.wikimedia.org/wiki/User:AndreasPraefcke" target="_blank" rel="noopener">Andreas Praefcke</a>
+    · <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener nofollow">CC BY 3.0</a>
+    · <a href="https://commons.wikimedia.org/wiki/File:Praha_Staronova_Synagoga.jpg" target="_blank" rel="noopener">zdroj</a>
+  </figcaption>
+</figure>
+
+<h3>3B. Wikimedia CC — portrait + delší credit (svisle vpravo)</h3>
+<p class="demo-note">Portrait + delší CC credit → <code>layout-side</code>, caption svisle lemuje pravý okraj.</p>
+<figure class="photo is-portrait layout-side demo-frame" style="max-width: 22rem;">
+  <img src="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/zidovske/holmstad_2014_cifernik.jpg" alt="Hebrejský číselník Židovské radnice">
+  <figcaption>
+    Foto: <a href="https://commons.wikimedia.org/wiki/User:%C3%98yvind_Holmstad" target="_blank" rel="noopener">Øyvind Holmstad</a>
+    · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener nofollow">CC BY-SA 3.0</a>
+    · <a href="https://commons.wikimedia.org/wiki/File:Prague_Praha_2014_Holmstad_flott_klokke_med_hebraiske_tall_p%C3%A5_det_j%C3%B8diske_r%C3%A5dhuset_i_Josefov_jewish_clock_at_city_hall_Josefov.jpg" target="_blank" rel="noopener">zdroj</a>
+  </figcaption>
+</figure>
+
+<h3>3C. Autor ≠ držitel práv (NPÚ) — landscape</h3>
+<p class="demo-note">Když se fotograf a instituce liší, uvádíme oba — ale každého <strong>jednou</strong>: <code>author="Petr Skála / NPÚ MIS"</code>, licence NPÚ default CC BY-NC-ND 3.0 CZ.</p>
+<figure class="photo demo-frame">
+  <img src="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/janata/janata-louny-desticka-1871.jpg" alt="Příklad NPÚ MIS atribuce">
+  <figcaption>
+    Foto: Petr Skála / NPÚ MIS
+    · <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/cz/" target="_blank" rel="noopener nofollow">CC BY-NC-ND 3.0 CZ</a>
+    · <a href="#" target="_blank" rel="noopener">zdroj</a>
+  </figcaption>
+</figure>
+
+<h3>3D. Velký portrait CC — centrovaný</h3>
+<figure class="photo is-portrait is-large demo-frame">
+  <img src="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/zidovske/holmstad_2014_cifernik.jpg" alt="Hebrejský číselník — velký portrait">
+  <figcaption>
+    Foto: <a href="https://commons.wikimedia.org/wiki/User:%C3%98yvind_Holmstad" target="_blank" rel="noopener">Øyvind Holmstad</a>
+    · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener nofollow">CC BY-SA 3.0</a>
+    · <a href="https://commons.wikimedia.org/wiki/File:Prague_Praha_2014_Holmstad_flott_klokke_med_hebraiske_tall_p%C3%A5_det_j%C3%B8diske_r%C3%A5dhuset_i_Josefov_jewish_clock_at_city_hall_Josefov.jpg" target="_blank" rel="noopener">zdroj</a>
+  </figcaption>
+</figure>
+
+<h2>Shrnutí tří typů creditu</h2>
+<table>
+  <tr><th>Typ fotky</th><th>Caption</th><th>©?</th></tr>
+  <tr><td>Vlastní / spolková (se svolením)</td><td>Foto: Petr Skála, 2021</td><td>jen pokud chce držitel — neopakovat jméno</td></tr>
+  <tr><td>Wikimedia / CC</td><td>Foto: Autor · CC BY-SA 3.0 · zdroj (vše odkazy)</td><td>ne — licence nahrazuje</td></tr>
+  <tr><td>Autor ≠ instituce (NPÚ)</td><td>Foto: Autor / NPÚ MIS · CC BY-NC-ND 3.0 CZ · zdroj</td><td>každý subjekt jednou</td></tr>
+</table>
+
+<p class="demo-note">Komponenta <code>Photo.astro</code> tenhle řetězec skládá automaticky z props <code>author/authorUrl · license/licenseUrl · zdroj→sourceUrl</code> a rok přidá za autora. Žádné ruční psaní „©" do textu — jen vyplnit pole.</p>
+
+</main>
+</body>
+</html>
