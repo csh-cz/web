@@ -6,11 +6,13 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import rehypePicture from '../../packages/rehype-picture/index.mjs';
+import rehypeDeadlink from '../../packages/rehype-deadlink/index.mjs';
 import remarkDirective from 'remark-directive';
 import remarkCshDirectives from '../../packages/remark-csh-directives/index.mjs';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import imageSizes from './src/data/image-sizes.json' with { type: 'json' };
+import deadLinks from './src/data/dead-links.json' with { type: 'json' };
 
 // Build-time discovery draft articles (frontmatter `draft: true`).
 // Sitemap je vygenerován z rendered pages, takže draft articles by tam
@@ -56,6 +58,9 @@ export default defineConfig({
       // rehype-katex: převede math AST nodes (z remark-math) na HTML.
       // Vyžaduje KaTeX CSS v Base.astro (https://katex.org/docs/font.html).
       rehypeKatex,
+      // rehype-deadlink: označí externí odkazy nedostupné při posledním
+      // auditu (src/data/dead-links.json) class `link-dead` + ⚠ marker.
+      [rehypeDeadlink, { deadUrls: deadLinks.urls, checkedDate: deadLinks._meta.generated }],
     ],
   },
   integrations: [

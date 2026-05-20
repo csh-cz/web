@@ -1478,6 +1478,35 @@ a[href^="http"]:not([href*="wikipedia.org/wiki/"]):not([href*="wikimedia.org/wik
   content: none !important;
 }
 
+/* Dead-link marker (rehype-deadlink, A.21 / dead-link audit). Externí
+   odkaz nedostupný při poslední kontrole → ⚠ za textem + tlumená barva.
+   `!important` přebíjí generic external ↗ šipku (vysoká specificita výše).
+   Po opravě/odstranění odkazu re-run `pnpm deadlinks:audit` + regen
+   src/data/dead-links.json → marker zmizí. */
+a.link-dead::after {
+  content: '\00A0\f071' !important;   /* Font Awesome fa-triangle-exclamation */
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: 900;
+  font-size: 0.7em;
+  color: #c89a3c;                     /* tlumená jantarová — varování, ne chyba */
+  opacity: 0.85;
+  letter-spacing: 0;
+  font-style: normal;
+  vertical-align: 0.15em;
+}
+a.link-dead {
+  text-decoration-style: dotted;       /* tečkované podtržení = nejistý odkaz */
+  text-decoration-color: color-mix(in srgb, #c89a3c 60%, transparent);
+}
+.references-list a.link-dead::after {
+  content: '\00A0\f071' !important;    /* i v references-listu (jinak suppressed) */
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: 900;
+  font-size: 0.7em;
+  color: #c89a3c;
+  vertical-align: 0.15em;
+}
+
 /* Wikipedia & Wikimedia odkazy — drobná měděná ⓦ ikonka po textu.
    Platí GLOBÁLNĚ (článek, karta, soupis…), výjimka v references-list,
    kde je W/ⓦ už jako type-bullet vlevo — duplikát vpravo by byl redundantní. */
