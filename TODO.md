@@ -386,9 +386,27 @@ Plný design + zamítnutí ChatGPT návrhu v session transcriptu
       jednoho cs termínu se dvěma technicky odlišnými významy v hodinařině
       (zatím známe pouze 1). Do té doby řešit case-by-case uvnitř hesla.
 
-- [ ] **A.28 Slovník — varianty se status field** (~6 h). Dnes
-      `varianty: ["X", "Y", "Z"]` flat array bez kontextu — uživatel
-      nevidí, která je preferovaná a která archaická. Vylepšit:
+- [~] **A.28 Slovník — varianty se status field** — **INFRASTRUKTURA
+      HOTOVÁ + 5 hesel migrováno** (2026-05-17 schema/render/CSS;
+      2026-05-20 pilot migrace). Zbývá postupná migrace dalších hesel —
+      ale **jen kde status dává smysl** (preferred/archaic rozlišení),
+      což vyžaduje expertní rozhodnutí (ne mechanická migrace).
+
+      **Hotovo:**
+      - Schema union (string | object se status) — `content.config.ts`
+      - Render badges + tooltip (note + doloženo) — `slovnik/[slug].astro`
+      - CSS 6 status barev (preferred zelená, admitted modrá, archaic
+        oranžová, historical brass, erroneous červená, ocr-variant kurzíva)
+      - **5 hesel migrováno:** ciselnik, kolickovy-krok (2026-05-17),
+        vlasek, setrvacka, ruka-orloje (2026-05-20 — z terminologické
+        analýzy memory feedback_setrvacka_vlasek)
+
+      **Zbývá (continuous, jen s expertním vstupem):**
+      ~130 hesel s flat varianty. Většina jsou rovnocenná synonyma /
+      pravopisné varianty, kde status nedává smysl. Migrovat jen hesla
+      s jasným moderní×archaický×chybný rozlišením, postupně při dotyku.
+
+      Původní zadání (reference):
       ```yaml
       varianty:
         - term: číselník
@@ -465,10 +483,16 @@ Plný design + zamítnutí ChatGPT návrhu v session transcriptu
       **Důležité:** žádné `/slovnik/concept/<id>` stránky — concept
       je metadata, ne entity s vlastním lifecycle.
 
-- [ ] **A.31 Slovník — JSON export pro AI agents** (~3 h). Build
-      script `scripts/build-dictionary-index.ts` generuje
-      `apps/hodinarium-eu/public/dictionary-index.json` (~50 KB
-      odhadem pro 153 hesel). Schema per slug:
+- [x] **A.31 Slovník — JSON export pro AI agents** — **HOTOVO**
+      (2026-05-17 script; 2026-05-20 integrace do build pipeline).
+      `scripts/build-dictionary-index.ts` generuje
+      `apps/hodinarium-eu/public/dictionary-index.json` (157 hesel,
+      104.5 KB). **Přidáno do `prebuild`** — regeneruje se při každém
+      buildu (vždy aktuální na CF deploy). Output má `_meta` + `entries`,
+      schema_version 1.0. Servováno na
+      `https://hodinarium-eu.pages.dev/dictionary-index.json`.
+      Obsahuje A.28 status varianty + nová hesla. Připraveno pro A.32
+      (MCP server). Schema per slug:
       ```json
       {
         "ciselnik": {
