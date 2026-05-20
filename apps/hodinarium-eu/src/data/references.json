@@ -68855,6 +68855,33 @@
     }
   },
   {
+    "id": "skalaVezniHodinyZamku1996",
+    "type": "report",
+    "abstract": "Památkářský popis věžních hodin na zámku Poděbrady, vypracovaný Petrem Skálou ke dni 8. 11. 1996. Identifikuje stroj jako dílo Jana Janaty (1870), detailní rozměry, popis kyvadla a ciferníků, stav restaurování včetně automatizace nátahu.",
+    "citation-key": "skalaVezniHodinyZamku1996",
+    "language": "cs",
+    "title": "Věžní hodiny zámku v Poděbradech — popis památkové dokumentace",
+    "title-short": "Věžní hodiny zámku Poděbrady (popis)",
+    "publisher": "atelier veznihodiny.cz",
+    "publisher-place": "Poděbrady",
+    "genre": "Památkářský popis věžních hodin",
+    "author": [
+      {
+        "family": "Skála",
+        "given": "Petr"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1996",
+          11,
+          8
+        ]
+      ]
+    }
+  },
+  {
     "id": "skalaJanJanataJeho2021",
     "type": "article-journal",
     "abstract": "Profesionální medailon Jana Janaty (1821–1878), poděbradského hodináře, vrcholného představitele kusové zakázkové výroby věžních hodin v českých zemích před nástupem malosériové výroby z litiny v 80. letech 19. století. Skála popisuje konstrukci Janatových strojů (klečové rámy, mosazná frézovaná ozubená kola, vždy Grahamův klidový krok s dlouhoramennou kotvou), technické zvláštnosti (planžetový závěs kyvadla, axiální ložisko královské hřídele, absence kontrolního ciferníčku s výjimkou posledních Smržic 1878), navazování na libereckého Jana Bergmanna a pokračování dílny přes Jana Mareše. Inventář dochovaných strojů: zámek Poděbrady, kostel sv. Jiljí Nymburk, radnice Městec Králové, kostel Nanebevzetí Panny Marie Kostelní Lhota (restaurováno 2020); ve špatném stavu Louny, Plaňany 1868, Žehuň. Doslovný přepis Hellichova hesla (Památky archeologické XXIX/4, 1917) v plném znění. Janata zemřel na tuberkulózu ve věku 57 let — poslední stroj signován 18. 6. 1878, jen měsíc před smrtí.",
