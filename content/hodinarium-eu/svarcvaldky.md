@@ -38,7 +38,7 @@ references:
     type: odkaz
     note: "Klášterní muzeum, část expozice věnovaná raným švarcvaldským hodinám"
   - title: "Dorfmuseum Gütenbach"
-    url: "http://www.dorfmuseum-guetenbach.de/de/dorfmuseum.htm"
+    url: "http://web.archive.org/web/20180829235111/http://dorfmuseum-guetenbach.de/de/dorfmuseum.htm"
     type: odkaz
   - title: "Black Forest Clock Association"
     url: "http://www.black-forest.org/"

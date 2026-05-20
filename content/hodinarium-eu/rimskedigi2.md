@@ -58,7 +58,7 @@ Smysl byl, kromě toho že to bylo zajímavé, menší spotřeba energií, déle
 - [www.sothebys.com/en/auctions/ecatalogue/2012/george-daniels-so-l12313/lot.130.html](https://www.sothebys.com/en/auctions/ecatalogue/2012/george-daniels-so-l12313/lot.130.html)
 - [www.sothebys.com/en/auctions/ecatalogue/2012/george-daniels-so-l12313/lot.131.html](https://www.sothebys.com/en/auctions/ecatalogue/2012/george-daniels-so-l12313/lot.131.html)
 - [www.sothebys.com/en/auctions/ecatalogue/2013/treasures-princely-taste-l13303/lot.12.html](https://www.sothebys.com/en/auctions/ecatalogue/2013/treasures-princely-taste-l13303/lot.12.html)
-- [www.christies.com/en/lot/lot-4973414](https://www.christies.com/en/lot/lot-4973414)
+- [www.christies.com/en/lot/lot-4973414](https://christies.com/en/lot/lot-4973414)
 - Moderní replika
 - [www.horologiumprecision.co.uk/joseph-knibb-reconstruction](https://www.horologiumprecision.co.uk/joseph-knibb-reconstruction)
 - [www.youtube.com/watch?v=Bxg6hyv889s](https://www.youtube.com/watch?v=Bxg6hyv889s)

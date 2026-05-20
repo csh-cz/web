@@ -13,7 +13,7 @@ scrapedAt: "2026-04-27T17:37:04.915Z"
 tldr: 'Souhrn astronomických a fyzikálních základů časomíry: tropický a siderický rok, hvězdný čas, UT, atomová sekunda, pásma, datová mez i kalendářní soustavy s ukázkovými výpočty zeměpisné délky.'
 references:
   - title: "Měření času — zemepis.eu"
-    url: "https://www.zemepis.eu/stranka/mereni-casu"
+    url: "http://web.archive.org/web/20090716164838/http://www.zemepis.eu:80/stranka/mereni-casu"
     type: odkaz
     note: "Primární pramen tohoto článku — doslovně převzato s laskavým svolením autorů."
 ---
