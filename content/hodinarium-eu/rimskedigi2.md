@@ -30,7 +30,7 @@ Většinou se před vyšší číslicí odečítá pouze jediná římská čís
 
 Tato teorie je zkráceně převzata z internetové jazykové příručky [https://prirucka.ujc.cas.cz/?id=793](https://prirucka.ujc.cas.cz/?id=793)
 
-![](http://orloj.eu/img/orloje/venecia/f/digitalky1.jpg)
+![Digitální ukazatel minut na orloji v Benátkách — číslice se mění v pětiminutovém intervalu](/img/orloje/venecia/digitalky1.jpg)
 
 ## Použitý HW a SW
 
