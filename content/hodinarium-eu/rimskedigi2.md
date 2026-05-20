@@ -42,7 +42,7 @@ Digitální ukazatel minut na orloji v Benátkách. Číslice se mění v pětim
 
 ## Obecněji k tématu
 
-Slovo "digit" je v překladu číslice. Za "digitálky" můžeme považovat všechny hodiny, které čas ukazují čísly, nikoliv tedy hodiny, kdy rafie "plynulým" pohybem ukazují na číslice. První digitální mechanické kapesní hodinky se objevily na konci 19. století. Ve 20. letech 20. století se objevily první digitální mechanické náramkové hodinky.
+Slovo "digit" je v překladu číslice. Za "digitálky" můžeme považovat všechny hodiny, které čas ukazují čísly, nikoliv tedy hodiny, kdy ručky "plynulým" pohybem ukazují na číslice. První digitální mechanické kapesní hodinky se objevily na konci 19. století. Ve 20. letech 20. století se objevily první digitální mechanické náramkové hodinky.
 
 Existuje i jiné přenesené pojetí, kdy za digitální techniku považujeme vše, co zpracovává "číslicový počítač". Běžně jsou tak označovány i hodinky řízené krystalem, které mají analogový výstup na ručičky. V tomto textu je za digitálky nebudeme považovat.
 

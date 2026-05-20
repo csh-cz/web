@@ -36,7 +36,7 @@ Virtuálně si můžete město prohlédnout [zde](http://www.istudio.cz/sobeslav
 
 ## Starý soběslavský stroj
 
-Nález starého **[stroje kovaných soběslavských věžních hodin](/kronika/vez1)** a jeho restaurování byl hlavním impulzem pro vznik Věžního muzejíčka, a to se ještě nevědělo, že je to stroj tak vzácný. Jeho **některé části patrně pocházejí již z 15. století**. Město Soběslav zaplatilo restaurování stroje a upravilo místnost klenotnice pro jeho vystavení. Vznikl tak základ hodinářské expozice. Další exponáty zapůjčili další instituce a členové sdružení. Po opuštění věže naším spolkem zůstal starý stroj s asi o dvě stě let mladším čtvrťovým zvonícím strojem hlavním vystaveným exponátem. V klenotnici zůstaly také tři dochované rafie, závaží a několik drobností. Gotická skříň částečně zobrazená na levé fotografii byla přemístěna do místního muzea.
+Nález starého **[stroje kovaných soběslavských věžních hodin](/kronika/vez1)** a jeho restaurování byl hlavním impulzem pro vznik Věžního muzejíčka, a to se ještě nevědělo, že je to stroj tak vzácný. Jeho **některé části patrně pocházejí již z 15. století**. Město Soběslav zaplatilo restaurování stroje a upravilo místnost klenotnice pro jeho vystavení. Vznikl tak základ hodinářské expozice. Další exponáty zapůjčili další instituce a členové sdružení. Po opuštění věže naším spolkem zůstal starý stroj s asi o dvě stě let mladším čtvrťovým zvonícím strojem hlavním vystaveným exponátem. V klenotnici zůstaly také tři dochované ručky, závaží a několik drobností. Gotická skříň částečně zobrazená na levé fotografii byla přemístěna do místního muzea.
 
 ![cimbál Býchory](/img/vez/bychory/f/velky_cimbal.jpg)
 

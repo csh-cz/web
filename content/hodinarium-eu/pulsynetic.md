@@ -67,7 +67,7 @@ Mnohé věžní stroje byly dodatečně upravovány pro řízení elektrickými 
 
 ![waiting train](/img/pulsynetic/wt-lifting1-200x252.jpg)
 
-Rafie hodin přes [šnekový](/slovnik/snek) převod a rohatku postrkuje těžké kyvadlo. Kývá poněkud rychleji, než by bylo potřeba pro chod normálních hodin. Rafie se například za 27 sekund pootočí o půl minuty. Po dosažení této polohy je páka zabírající do rohatky kolíkem nadzvednuta a v této poloze je držena elektromagnetickou západkou. Kolík se stihl posunout ze záběru, takže ručkové [soukolí](/slovnik/soukoli) čeká na uvolnění elektrickým impulzem. Odtud název Waiting train, tedy asi vyčkávací soukolí. Po uplynutí 30. sekund elektromagnet vlevo uvolní blokovací páku a kyvadlo začne znovu posunovat rohatku a tím také rafie hodin.
+Ručka hodin přes [šnekový](/slovnik/snek) převod a rohatku postrkuje těžké kyvadlo. Kývá poněkud rychleji, než by bylo potřeba pro chod normálních hodin. Ručka se například za 27 sekund pootočí o půl minuty. Po dosažení této polohy je páka zabírající do rohatky kolíkem nadzvednuta a v této poloze je držena elektromagnetickou západkou. Kolík se stihl posunout ze záběru, takže ručkové [soukolí](/slovnik/soukoli) čeká na uvolnění elektrickým impulzem. Odtud název Waiting train, tedy asi vyčkávací soukolí. Po uplynutí 30. sekund elektromagnet vlevo uvolní blokovací páku a kyvadlo začne znovu posunovat rohatku a tím také ručku hodin.
 
 Kyvadlo kývá většinou volně. Když jeho amplituda kyvů poklesne, "[**Hippův**](/kroky/hippuv-prerusovac) kolíček" na kyvadle se vzepře v zářezu na horním kontaktu a dojde pohybem kyvadla k razantnímu sepnutí proudu do elektromagnetu vpravo. Silový elektromagnet přitáhne a udělí tak kyvadlu další energii.
 

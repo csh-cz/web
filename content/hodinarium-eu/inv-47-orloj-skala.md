@@ -25,8 +25,8 @@ karta:
   rokVyroby: "2002"
 ---
 
-Funkční orloj sochařů Petra Skály a Miroslava Kotrby je vybaven mechanikou, zajišťující pohyb podobných ukazatelů, jaké jsou na Pražském orloji. Orloj vznikal pomalu a postupně od roku 2002. Koncepce pohybu [soukolí](/slovnik/soukoli) rohatkami je převzata z orloje litomyšlského ( Karel Adamec z Čáslavi, 1907). Rozměry kol jsou však jiné a také převod na měsíční rafiji je přesnější.
+Funkční orloj sochařů Petra Skály a Miroslava Kotrby je vybaven mechanikou, zajišťující pohyb podobných ukazatelů, jaké jsou na Pražském orloji. Orloj vznikal pomalu a postupně od roku 2002. Koncepce pohybu [soukolí](/slovnik/soukoli) rohatkami je převzata z orloje litomyšlského ( Karel Adamec z Čáslavi, 1907). Rozměry kol jsou však jiné a také převod na měsíční ručku je přesnější.
 
-Orloj je poháněn malým elektromotorkem, který obdrží každých 12 minut impulz od řídicích hodin, a rafije Slunce spolu s Měsícem a ekliptikou se natočí o jednu pětinu hodiny.
+Orloj je poháněn malým elektromotorkem, který obdrží každých 12 minut impulz od řídicích hodin, a ručka Slunce spolu s Měsícem a ekliptikou se natočí o jednu pětinu hodiny.
 
 V roce 2009 omaloval plochu orlojní desky akad. sochař [Miroslav Kotrba](/hodinari/miroslav-kotrba). Orloj byl zcela dokončen v červenci roku 2015 pro účely expozice v Děčíně.

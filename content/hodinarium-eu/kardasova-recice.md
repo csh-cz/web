@@ -43,7 +43,7 @@ V roce 1822 byla v Jindřichově Hradci zbořena městská brána, zvaná Pražs
 
 ## Nová etapa
 
-Když v roce 2012 v Kardašově Ŕečici začali řešit modernizaci radnice, vzpomněli si i na staré hodiny. Nechali je snést z věže a kompletně restaurovat. Ve věži jejich funkci již dlouho zastává moderní stroj. Jsou nyní ve skleněném výklenku modernizované radnice. Za skleněným číselníkem ním je restaurovaný starý věžní stroj. Stroj je sice po restaurování schopen chodu, ale rafiemi neotáčí. (Klikněte si na obrázek a uvidíte vnitřní pohled.)
+Když v roce 2012 v Kardašově Ŕečici začali řešit modernizaci radnice, vzpomněli si i na staré hodiny. Nechali je snést z věže a kompletně restaurovat. Ve věži jejich funkci již dlouho zastává moderní stroj. Jsou nyní ve skleněném výklenku modernizované radnice. Za skleněným číselníkem ním je restaurovaný starý věžní stroj. Stroj je sice po restaurování schopen chodu, ale ručkami neotáčí. (Klikněte si na obrázek a uvidíte vnitřní pohled.)
 
 ### Krátký popis
 

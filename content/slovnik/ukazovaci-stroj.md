@@ -51,7 +51,7 @@ U **jednoduchých věžních strojů** (typicky 18.–19. století s jedním č�
 
 V některých historických strojích je ukazovací stroj propojen pomocí **kovových táhel** (typicky kostelní/radniční stavby, kde stroj sedí v podkroví, číselník je daleko ve štítu nebo věži — viz např. stará radnice v Kraslicích, kde mechanismus s kovovým táhlem převáděl pohyb do číselníku v atikovém štítu).
 
-**Restaurátorská praxe:** Skálovy zprávy (Markvartice 2019, Vanovice 2021) ukazují, že **uvolnění a vystředění** ozubení ukazovacího stroje je standardní krok při restaurování — staré stroje trpí korozí a deformacemi, které způsobí nepřesné nasazení rafií nebo dokonce jejich zastavení.
+**Restaurátorská praxe:** Skálovy zprávy (Markvartice 2019, Vanovice 2021) ukazují, že **uvolnění a vystředění** ozubení ukazovacího stroje je standardní krok při restaurování — staré stroje trpí korozí a deformacemi, které způsobí nepřesné nasazení ruček nebo dokonce jejich zastavení.
 
 ## Reference
 

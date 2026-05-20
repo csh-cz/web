@@ -30,7 +30,7 @@ Nejdůležitější údaje tohoto číselníku jsou doby východů a západů. B
 
 Na fotografii je zachycen stav přibližně 3. dubna. Slunce je ve znamení Berana a v souhvězdí Ryb. Dobu východu Slunce čteme proti šipce „v pozici 12”. Udávaná hodnota je cca 5:50, což odpovídá skutečnému východu Slunce v dané lokalitě a v tento den bez uvažování letního času. Západ Slunce čteme pod šipkou „v pozici 6 normálního poloorlojního ciferníku”. Západ Slunce v dané lokalitě a v daný den je v 18:59.
 
-Technicky je tento číselník poměrně jednoduchý a vtipný. Strojek otočí rafii Slunce jednou za tropický rok. Společně s rafií se otáčejí dva nelineární číselníky východů a západů Slunce. Číselníky se otáčejí rovnoměrně, avšak na nich vynesené hodnoty reprezentují doby odvozené od reálného pohybu Slunce. Je to jednoduché řešení toho, jak zobrazovat nelineární závislost rovnoměrným pohybem stroje.
+Technicky je tento číselník poměrně jednoduchý a vtipný. Strojek otočí ručičku Slunce jednou za tropický rok. Společně s ručičkou se otáčejí dva nelineární číselníky východů a západů Slunce. Číselníky se otáčejí rovnoměrně, avšak na nich vynesené hodnoty reprezentují doby odvozené od reálného pohybu Slunce. Je to jednoduché řešení toho, jak zobrazovat nelineární závislost rovnoměrným pohybem stroje.
 
 ## Pravý dolní číselník je věnován Měsíci
 

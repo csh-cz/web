@@ -60,8 +60,8 @@ Hodiny jsou vyrobeny 3D tiskem ve dvou variantách a jsou ovládané elektroniko
 Řídící jednotka bohužel nemá zpětnou informaci, jak jsou nastaveny ručičky. Natavit je můžete trojím způsobem:
 
 - Ručičky vyjmete ze elektroniky a znovu sestavíte. Asi se to nepovede úplně přesně, protože nebudou správně sedět zuby [soukolí](/slovnik/soukoli).
-- Stisknete na modulu hodin tlačítko. Krátce blikne červená a začnou se vpřed pohybovat rafičky nejvyšší možnou rychlostí. V okamžiku, kdy tlačítko pustíte, považuje řídící jednotka rafičky za seřízené.
-- Nejjednodušší je, na interním webu nastavit čas, který rafičky právě ukazují. Připojíte se na web dle bodů 6. a 7. Pro jistotu hodiny stopnete, zadáte čas na hodinách a hodiny spustíte. Polohu můžete jemně doladit volbou "+", která posouváte rafičky o 1/10 minuty.
+- Stisknete na modulu hodin tlačítko. Krátce blikne červená a začnou se vpřed pohybovat ručičky nejvyšší možnou rychlostí. V okamžiku, kdy tlačítko pustíte, považuje řídící jednotka ručičky za seřízené.
+- Nejjednodušší je, na interním webu nastavit čas, který ručičky právě ukazují. Připojíte se na web dle bodů 6. a 7. Pro jistotu hodiny stopnete, zadáte čas na hodinách a hodiny spustíte. Polohu můžete jemně doladit volbou "+", která posouváte ručičky o 1/10 minuty.
 
 Modul ESP8266 prvotně obsluhuje WiFi komunikaci. Zde ještě obtížněji, protože hodiny fungují jako stanice i jako AP a webserver. Ve volném čase může probíhat vlastní program hodin. Ten je dále přerušován časovačem, tlačítkem nebo požadavky z webu.
 
@@ -107,7 +107,7 @@ Při vypnutí si hodiny pamatují čas ve kterém k vypnutí došlo. Po zapnutí
 
 ### STOP / CHOD
 
-Volba umožňuje zastavit hodiny například při nějaké manipulaci s rafičkami a pak je zase spustit. Po uvedení do stavu CHOD hodiny zvolí, zda je rychlejší nastavování vpřed či v zad. Aby se zabránilo nejasnému stavu vlivem vůle v převodech, nastavení vzad končí jistým přeběhem a následným nastavením vpřed.
+Volba umožňuje zastavit hodiny například při nějaké manipulaci s ručičkami a pak je zase spustit. Po uvedení do stavu CHOD hodiny zvolí, zda je rychlejší nastavování vpřed či v zad. Aby se zabránilo nejasnému stavu vlivem vůle v převodech, nastavení vzad končí jistým přeběhem a následným nastavením vpřed.
 
 ### Volba " + "
 
@@ -148,9 +148,9 @@ Zelená a modrá LED blikají při aktivitě krokového motoru,
 
 3. **Ručičky jsou mírně posunuty.** Ručičky směrem vpřed posunete krátkým stlačením tlačítka nebo na webu volbou **"+"**.
 
-4. **Na RUČIČKÁCH není správný čas, ale hodiny mají aktuální čas.** Větší posun je nejlépe řešit zadáním času na ve tvaru **hhmm** na vlastním webu hodin. Nouzově jde i znovu nasadit rafičky mechanicky.
+4. **Na RUČIČKÁCH není správný čas, ale hodiny mají aktuální čas.** Větší posun je nejlépe řešit zadáním času na ve tvaru **hhmm** na vlastním webu hodin. Nouzově jde i znovu nasadit ručičky mechanicky.
 
-5. **Hodiny lze spustit poprvé i bez použití webového rozhraní.** Připojení zajistíte **tlačítemWPS**. Nastavíte rafičky na přibližně správný čas a po připojení k internetu zmáčknete tlačítko tentokráte ve významu **"rychlý chod"**. Rafičky se začnou pohybovat rychlejším pohybem, dokud držíte tlačítko.
+5. **Hodiny lze spustit poprvé i bez použití webového rozhraní.** Připojení zajistíte **tlačítemWPS**. Nastavíte ručičky na přibližně správný čas a po připojení k internetu zmáčknete tlačítko tentokráte ve významu **"rychlý chod"**. Ručičky se začnou pohybovat rychlejším pohybem, dokud držíte tlačítko.
 
 6. **Nahrání nové verze programu.** Případná nová verze bude k dispozici v přeložené formě. Pro nahrání musí být na počítači nainstalován ovladač USB CH340, modul s ESP8266 musí být umístěn v dodaném základovém modulu. ( USB konektor na desce slouží jen k napájení. )
 
