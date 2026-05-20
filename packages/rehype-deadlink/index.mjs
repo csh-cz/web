@@ -27,8 +27,18 @@ import { visit } from 'unist-util-visit';
  *   checkedDate?: string,
  * }} [options]
  */
+/** Normalizace URL pro porovnání: dekóduj %-encoding (markdown zdroj může mít
+ *  `(hodinář)`, rendered href `(hodin%C3%A1%C5%99)`) a usekni trailing slash.
+ *  Bez toho marker minul body odkazy kvůli encoding/slash mismatchi. */
+function normUrl(u) {
+  if (!u || typeof u !== 'string') return '';
+  let s = u.trim();
+  try { s = decodeURIComponent(s); } catch { try { s = decodeURI(s); } catch { /* keep raw */ } }
+  return s.replace(/\/+$/, '');
+}
+
 export default function rehypeDeadlink(options = {}) {
-  const deadSet = new Set(options.deadUrls ?? []);
+  const deadSet = new Set((options.deadUrls ?? []).map(normUrl));
   const checkedDate = options.checkedDate ?? '';
   const titleText = checkedDate
     ? `Odkaz byl při poslední kontrole (${checkedDate}) nedostupný`
@@ -41,7 +51,7 @@ export default function rehypeDeadlink(options = {}) {
       if (node.tagName !== 'a') return;
       const href = node.properties?.href;
       if (!href || typeof href !== 'string') return;
-      if (!deadSet.has(href)) return;
+      if (!deadSet.has(normUrl(href))) return;
 
       // Přidat class link-dead (zachovat existující classy)
       const existing = node.properties.className;

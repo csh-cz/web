@@ -1,13 +1,13 @@
 # Dead-link audit — 2026-05-20
 
-Vygenerováno skriptem `scripts/audit-dead-links.mjs` 2026-05-20T15:23:43Z.
+Vygenerováno skriptem `scripts/audit-dead-links.mjs` 2026-05-20T16:04:45Z.
 
 ## Souhrn
 
 - **Skenované adresáře:** 7 (content/hodinarium-eu, content/hodinari, content/kroky, content/slovnik, content/soupis-veznich-hodin, content/kronika, content/horologie-cz)
-- **Unikátních URL:** 586
+- **Unikátních URL:** 575
 - **Funkční (2xx/3xx):** 538
-- **Mrtvé / nedostupné:** 33
+- **Mrtvé / nedostupné:** 25
 - **Z toho s Wayback Machine snapshotem:** 0
 
 ## Pro editora
@@ -20,14 +20,7 @@ Pro každý mrtvý odkaz níže vyberte:
 
 ---
 
-## Mrtvé odkazy (33 unikátních URL ve 27 souborech)
-
-### `content/hodinari/edmund-kinsner.mdx`
-
-- **HTTP 403** — http://spsh.cz/
-  - Pole: `body:bare`
-  - Kontext: …rchive.org/web/20170924202604/http://spsh.cz/) (Zpravodaj SPSH 33).* …
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
+## Mrtvé odkazy (25 unikátních URL ve 21 souborech)
 
 ### `content/hodinari/engelbert-seige.mdx`
 
@@ -84,37 +77,11 @@ Pro každý mrtvý odkaz níže vyberte:
   - Kontext: …https://www.marianskatynice.cz/e_download.php?file=data/editor/124cs_4.pdf…
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
-### `content/hodinarium-eu/akvizice-2015-2025.md`
-
-- **HTTP 403** — https://dominanty.cz/pamatky-velka-chmelistna.php
-  - Pole: `body:bare`
-  - Kontext: …rchive.org/web/20160327202644/https://dominanty.cz/pamatky-velka-chmelistna.php). ![kostel sv. Bartoloměje V…
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
-### `content/hodinarium-eu/brillie.md`
-
-- **HTTP 404** — http://www.antiquity.in/brillie-1.html
-  - Pole: `body:bare`
-  - Kontext: …rchive.org/web/20191122123049/http://www.antiquity.in/brillie-1.html) - [O synchronizaci hodin Bri…
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
 ### `content/hodinarium-eu/casova-pasma.md`
 
 - **HTTP 404** — http://www.hodiny-spel.cz/atypicka_vyroba.php
   - Pole: `body:link`
   - Kontext: …[![Hodiny „SVĚTOVÝ ČAS”, analogové v kombinaci s datumem, broušený a leštěný nerez](/img/elektrika/svetovy_cas1.jpg)](ht…
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
-- **HTTP 404** — http://www.thisisit.ca:80/worldclock2001/
-  - Pole: `body:bare`
-  - Kontext: …rchive.org/web/20100514052728/http://www.thisisit.ca:80/worldclock2001/)si je můžete prohlédnout i v …
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
-### `content/hodinarium-eu/decimalky.md`
-
-- **HTTP 404** — http://www.swatch.com:80/xx_en/internettime.html
-  - Pole: `body:bare`
-  - Kontext: …rchive.org/web/20130524065953/http://www.swatch.com:80/xx_en/internettime.html) také používá decimální dělen…
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/litinove-vezni-hodiny.md`
@@ -159,18 +126,6 @@ Pro každý mrtvý odkaz níže vyberte:
   - Kontext: …ářskou firmu Bürk založil pan [Johannes Bürk](https://www.wikiwand.com/de/Johannes_B%C3%BCrk) v roce 1855. Firma od počá…
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
-- **HTTP 403** — https://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk
-  - Pole: `body:link`
-  - Kontext: …u vyjímáne: - Day - Bundy - [Firma Bürk](https://www.wikiwand.com/de/W%C3%BCrttembergische_Uhrenfabrik_B%C3%BCrk) - [Str…
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
-### `content/hodinarium-eu/rick-stanley.md`
-
-- **HTTP 404** — http://www.usboomers.com:80/clockothers.htm
-  - Pole: `body:bare`
-  - Kontext: …rchive.org/web/20170117010318/http://www.usboomers.com:80/clockothers.htm) a další. …
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
 ### `content/hodinarium-eu/slunecni.mdx`
 
 - **HTTP 409** — http://www.astroama.com/
@@ -185,23 +140,11 @@ Pro každý mrtvý odkaz níže vyberte:
   - Kontext: …http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html…
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
-### `content/hodinarium-eu/tabor.mdx`
+### `content/hodinarium-eu/synchronizace-hodin.md`
 
-- **HTTP 404** — https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tabor-krov-jan-zizka-600-let.A200821_123202_imp-jihocesky_kov/
-  - Pole: `body:bare`
-  - Kontext: …rchive.org/web/20260309004348/https://www.impuls.cz/regiony/jihocesky-kraj/stara-radnice-tabor-krov-jan-zizka-600-let.A2…
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
-### `content/hodinarium-eu/vezni-muzejicko-evropa.md`
-
-- **HTTP 404** — https://www.jindrisskavez.cz/index.php/cs/
-  - Pole: `body:bare`
-  - Kontext: …rchive.org/web/20260317054855/https://www.jindrisskavez.cz/index.php/cs/) [![Jindřížská věž](/img/vez…
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
-- **HTTP 404** — https://www.jindrisskavez.cz/index.php/cs/
-  - Pole: `body:bare`
-  - Kontext: …rchive.org/web/20260317054855/https://www.jindrisskavez.cz/index.php/cs/) a na něm umístěna virtuální …
+- **HTTP 403** — https://www.wikiwand.com/cs/Vys%C3%ADla%C4%8D_OMA/
+  - Pole: `body:link`
+  - Kontext: …95 vypnut. Zajímavý podrobný [článek zde](https://www.wikiwand.com/cs/Vys%C3%ADla%C4%8D_OMA/) a také ve [wikipedii](http…
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/zidovske.mdx`
@@ -254,18 +197,16 @@ Pro každý mrtvý odkaz níže vyberte:
 
 ---
 
-## Neověřené (status 0 — síť/timeout/blokace, 15)
+## Neověřené (status 0 — síť/timeout/blokace, 12)
 
 Tyto URL neodpověděly (network error / timeout / blokace bota). Často jsou
 **živé** — ověřit ručně v prohlížeči, NEoznačovat automaticky markerem.
 
 - http://saluspopulae.co.uk/synclock/content/IMG\_0083\_large.html _(fetch failed)_
-- http://www.giovannisoft.cz/ _(fetch failed)_
 - https://christies.com/en/lot/lot-4973414 _(timeout)_
 - https://klementinum.com/ _(fetch failed)_
 - https://microsemi.com/images/gallery/new_products/EvalKit%20Cartoon.png _(timeout)_
 - https://microsemi.com/product-directory/embedded-clocks-frequency-references/5570-miniature-atomic-clock-mac-sa5x _(timeout)_
-- https://regulateurbrillie.monsite-orange.fr/ _(fetch failed)_
 - https://www.cdsh.cz/ _(fetch failed)_
 - https://www.fachkreis-turmuhren.de/ _(fetch failed)_
 - https://www.hodinarstvi-marek.cz/ _(fetch failed)_
@@ -273,4 +214,3 @@ Tyto URL neodpověděly (network error / timeout / blokace bota). Často jsou
 - https://www.jiskra-benesov.cz/clanek/proc-lenka-filipova-nabidla-pomoc-nezvonicim-zvonum-a-vezni-hodiny-zase-obijeji-cas-7976 _(fetch failed)_
 - https://www.museodellorologeria.com/ _(fetch failed)_
 - https://www.orloje.eu/sekce/prostejovsky-orloj/ _(fetch failed)_
-- https://www.vlastafiller.wz.cz/ _(fetch failed)_

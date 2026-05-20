@@ -13,6 +13,7 @@ import { formatAuthor } from '../../utils/formatAuthor';
 import { stavLabel } from '../../data/labels';
 import { extractWikiTitle } from '../../utils/referenceTypes';
 import { formatCite, getRef } from '../../utils/cite';
+import { deadLinkAttrs } from '../../utils/dead-links';
 import WipBanner from '../../components/WipBanner.astro';
 import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
 import CrossRefs from '../../components/CrossRefs.astro';
@@ -361,7 +362,7 @@ const personJsonLd = hasType(hodinar, 'osoba')
                 <li id={refId} class={`reference reference-${r.type ?? 'odkaz'}`}>
                   {r.author && <span class="ref-author">{r.author}:</span>}
                   {url
-                    ? <a href={url} rel="noopener" target="_blank">{title}</a>
+                    ? <a href={url} {...deadLinkAttrs(url)} rel="noopener" target="_blank">{title}</a>
                     : <span class="ref-title">{title}</span>}
                   {r.year !== undefined && <span class="ref-year">({r.year})</span>}
                   {r.note && <span class="ref-note"> — {r.note}</span>}
