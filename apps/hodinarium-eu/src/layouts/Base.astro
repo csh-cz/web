@@ -666,7 +666,13 @@ const orgJsonLd = isHome ? {
         } catch (e) { /* ignore */ }
 
         try {
-          const r = await fetch('/api/cms/auth/user', { credentials: 'include' });
+          // redirect:'manual' — anonymně je endpoint za Cloudflare Access a
+          // vrací 302 na cloudflareaccess.com; bez 'manual' by fetch ten
+          // cross-origin redirect následoval a spadl na CORS (net::ERR_FAILED
+          // v konzoli na KAŽDÉ stránce). S 'manual' se 302 vrátí jako
+          // opaqueredirect (r.ok=false) → tiše skončíme, žádný console error.
+          // Přihlášený editor dostane 200 JSON přímo (bez redirectu).
+          const r = await fetch('/api/cms/auth/user', { credentials: 'include', redirect: 'manual' });
           if (!r.ok) return;
           const ct = r.headers.get('content-type') || '';
           if (!ct.includes('json')) return;
