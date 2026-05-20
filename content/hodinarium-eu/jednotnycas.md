@@ -42,4 +42,4 @@ Ve světě se používaly i jiné systémy. Francouzský systém [Brillie](/sbir
 
 Na webu [**www.mobatime.cz** firmy **Elekon**](http://www.mobatime.cz/) najdeme základní popis většiny elektronických systémů včetně DCF, satelitního systému, WDT, ... Najdeme zde i popis způsobů řízení podružných hodin od polarizovaných impulzů po kódové systémy.
 
-Na našem webu najdete další informace o jednotném čase také na stránce o **[DCF77](/projekty/dcf77)**, na stránce**[Pragotroňky](/sbirka/pragotron1)**, mateční hodiny **[C.T.Wagner](/projekty/ctwagner)** a na stránce o synchronizaci času **[u sítí LAN](synchronizace_hodin_PC.htm)**.
+Na našem webu najdete další informace o jednotném čase také na stránce o **[DCF77](/projekty/dcf77)**, na stránce**[Pragotroňky](/sbirka/pragotron1)**, mateční hodiny **[C.T.Wagner](/projekty/ctwagner)** a na stránce o synchronizaci času **u sítí LAN**.

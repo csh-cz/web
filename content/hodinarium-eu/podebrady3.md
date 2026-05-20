@@ -20,7 +20,7 @@ Co by to bylo za veřejné hodiny bez [odbíjení](/slovnik/odbijeni) času. Vě
 
 Podobně patří k zahradním hodinám zahradní trpaslík. Tvůrci poděbradských květinových hodin to takto stylově a s humorem pojali a svěřili odbíjení figurce trpaslíka. V bujné zeleni nedaleko od hodin trpaslík odbíjel na cimbál pomalovaný jako muchomůrka.
 
-Podle [vzpomínek paní Vrátné](podebrady1b.htm#1) byl použit trpaslík původně stojící na zahrádce elektrárny, kde byly květinové hodiny vyráběny. Z dalších [článků](podebrady1b.htm#2) můžeme vysledovat pohnutý osud této figurky. Ve jménu boje proti kýči byl trpaslík střídavě odstraňován, ukrýván, navracen a přesouván. Na obrázku dole je stav z poloviny roku 2007. Trpaslík je uzavřen v ohrádce a trochu melancholicky hledí na plastiky z jeho pohledu obrovské. Dle důvěryhodných informací budou tři srdce následně přemístěna.
+Podle [vzpomínek paní Vrátné](/virtualni-muzeum/podebrady1b#1) byl použit trpaslík původně stojící na zahrádce elektrárny, kde byly květinové hodiny vyráběny. Z dalších [článků](/virtualni-muzeum/podebrady1b#2) můžeme vysledovat pohnutý osud této figurky. Ve jménu boje proti kýči byl trpaslík střídavě odstraňován, ukrýván, navracen a přesouván. Na obrázku dole je stav z poloviny roku 2007. Trpaslík je uzavřen v ohrádce a trochu melancholicky hledí na plastiky z jeho pohledu obrovské. Dle důvěryhodných informací budou tři srdce následně přemístěna.
 
 ## Problém s trpaslíkem je trochu složitější
 

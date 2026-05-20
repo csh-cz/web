@@ -16,9 +16,9 @@ Sezóna 2012 ve Věžním muzejíčku byla ve znamení mnoha novinek. Vedle hlav
 
 Ve zvonařské části je i naznačena podoba nového stokilového soběslavského [zvonu Petr Vok](/sbirka/zvon-petr-vok). Zvon čeká slavnostní vysvěcení a tažení na 22.9.2012. [![Hodiny z kostela v Prysku - nálezový stav](/img/vez/prysk/foto_0002.jpg)](/img/vez/prysk/f/foto_0002.jpg)
 
-Aby se i ženy měly na co dívat, byla pořádána [výstavka šperků](/kronika/steampunk) ve stylu [steampunku](steampunk2.htm). Tradičně doplněna výstavou fotografií pana Marušáka, tentokrát na téma [České a moravské zvony](/kronika/sezona2012-foto-marusak). Průvodní text výstavy [ke stažení](/download/zvony2012.pdf).
+Aby se i ženy měly na co dívat, byla pořádána [výstavka šperků](/kronika/steampunk) ve stylu steampunku. Tradičně doplněna výstavou fotografií pana Marušáka, tentokrát na téma [České a moravské zvony](/kronika/sezona2012-foto-marusak). Průvodní text výstavy [ke stažení](/download/zvony2012.pdf).
 
-ny měly na co dívat, byla pořádána [výstavka šperků](/kronika/steampunk) ve stylu [steampunku](steampunk2.htm). Tradičně doplněna výstavou fotografií pana Marušáka, tentokrát na téma [České a moravské zvony](/kronika/sezona2012-foto-marusak). Průvodní text výstavy [ke stažení](/download/zvony2012.pdf).
+ny měly na co dívat, byla pořádána [výstavka šperků](/kronika/steampunk) ve stylu steampunku. Tradičně doplněna výstavou fotografií pana Marušáka, tentokrát na téma [České a moravské zvony](/kronika/sezona2012-foto-marusak). Průvodní text výstavy [ke stažení](/download/zvony2012.pdf).
 
 ## Nový leták 2012
 

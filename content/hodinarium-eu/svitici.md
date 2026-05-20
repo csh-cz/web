@@ -114,7 +114,7 @@ Autohodiny se objevují nejčastěji v nebo na palubní desce. Někdy se ale zat
 
 Teď z jiného soudku. Nemusí jít jen o svítící hodiny. Může jít naopak o tikající světlo. Vlevo zajímavá art deco lampa s budíkem. V noci alespoň víme kolik je a můžeme více na budík vrčet.
 
-Naše sbírky také obohatil anglický **synchronní svítící budík METAMEC**. Spojení hodin ze sítě napájených a řízených s osvětlením je již docela logické. Více **[zde.](sitovky.htm#metamec)**
+Naše sbírky také obohatil anglický **synchronní svítící budík METAMEC**. Spojení hodin ze sítě napájených a řízených s osvětlením je již docela logické. Více **[zde.](/sbirka/sitovky#metamec)**
 
 > A na závěr něco pro oko.
 > Francouzské stolní hodiny Art Deco s lampičkou.

@@ -29,7 +29,7 @@ D**oba buzení se zde nastavuje mosaznou ručkou, kterou se otáčí ve směru �
 
 ![](/img/budiky1/budik_schw3.jpg)Ke spuštění buzení dochází v okamžiku, kdy čep zapadne do výřezu a tím se trubička přitlačována pružinou posune směrem dozadu. Dojde tak i k pohybu ramene, které odblokuje hnací [soukolí](/slovnik/soukoli).
 
-**Hnací soukolí pomocí vačky přetváří točivý pohyb na pohyb kmitavý a ten pomocí [kladívka](/slovnik/kladivko) rozezní zvonek.** To je dost podstatný rozdíl proti běžným budicím strojům, které používají krokové ústrojí, respektive kotvu a krokové kolo. Systém s krokovým kolem najdeme i u švarcvaldek například [zde.](budiky1.htm#budik2)
+**Hnací soukolí pomocí vačky přetváří točivý pohyb na pohyb kmitavý a ten pomocí [kladívka](/slovnik/kladivko) rozezní zvonek.** To je dost podstatný rozdíl proti běžným budicím strojům, které používají krokové ústrojí, respektive kotvu a krokové kolo. Systém s krokovým kolem najdeme i u švarcvaldek například [zde.](/sbirka/budiky1#budik2)
 
 ## Hodiny menšího průměru s ozdobným závěsem zvonku
 
