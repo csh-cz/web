@@ -57,6 +57,6 @@ Miniaturizované miniaturní rubidiové atomové hodiny MAC-SA5X společnosti Mi
 
 Modul měří pouze 2 palce na 2 palce při výšce méně než palec - je pětkrát menší než tradiční rubidiové oscilátory. Byl navržen pro rychlý start v různých tepelných prostředích, širší rozsah provozních teplot a vylepšený výkon stability. Maximální frekvenční odchylka je < 5E-11 během velkých teplotních změn, spolu se zlepšenými dlouhodobými rychlostmi driftu, je MAC-SA5X schopen udržovat přesnost pod mikrosekundou mnoho dní v různých prostředích. Výstup 1PPS (jeden pulz za sekundu) umožňuje rychlou kalibraci na externí reference, jako jsou signály 1PPS odvozené od družicové sítě GNSS. Nové softwarové rozhraní přidává uživatelskou univerzálnost, ovládání a monitorování zařízení pomocí komunikačních pinů rs232 nebo USB.
 
-[Obrázek vývojového kitu](https://microsemi.com/images/gallery/new_products/EvalKit%20Cartoon.png) , [Datasheed](/download/microchip-mac-sa5x.pdf)
+[Datasheet](/download/microchip-mac-sa5x.pdf)
 
 [Petr Král](/hodinari/petr-kral) podle uvedených zdrojů
