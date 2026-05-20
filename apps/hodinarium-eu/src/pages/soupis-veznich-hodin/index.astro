@@ -39,6 +39,10 @@ function lastFirst(jmeno: string): string {
   if (/\s[+&/]\s|\s+a\s+/.test(trimmed)) return jmeno;
   // Lowercase start: „dílna Landesbergerů", „neznámý"
   if (!/^\p{Lu}/u.test(trimmed)) return jmeno;
+  // Už obsahuje čárku („Adolf Bergmann, Liberec", nebo už ve formátu
+  // „Příjmení, Jméno") — explicitní formát, neflipovat (jinak by vznikl
+  // nesmysl „Liberec, Adolf Bergmann,").
+  if (trimmed.includes(',')) return jmeno;
   const tokens = trimmed.split(/\s+/).filter(Boolean);
   if (tokens.length <= 1) return jmeno;
   // Akronym/zkratka jako první token (OPP, ČSH, IT...) — typicky název firmy
