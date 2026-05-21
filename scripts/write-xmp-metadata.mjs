@@ -36,6 +36,7 @@ import { join, dirname, relative, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execFile as execFileCb, spawn } from 'node:child_process';
 import { promisify } from 'node:util';
+import { parse as parseYaml } from 'yaml';
 
 const execFile = promisify(execFileCb);
 const __filename = fileURLToPath(import.meta.url);
@@ -148,8 +149,21 @@ function licenseFields(credit) {
     push('XMP-dc:Rights', `© ${author || 'autor neznámý'}. ${ccLabel}.`);
     push('IPTC:CopyrightNotice', `© ${author || 'autor neznámý'}. ${ccLabel}.`);
     push('XMP-dc:Source', credit.sourceUrl);
-  } else if (sourceExternal) {
-    // (2) externí, bez CC → se svolením, all rights reserved
+  } else if (credit.publicDomain) {
+    // (2) volné dílo — Public Domain Mark (typicky portréty 19. st.)
+    const PDM = 'https://creativecommons.org/publicdomain/mark/1.0/';
+    kind = 'public-domain';
+    push('XMP-dc:Creator', author);
+    push('IPTC:By-line', author);
+    push('XMP-xmpRights:Marked', 'False');
+    push('XMP-xmpRights:UsageTerms', `Public Domain. ${PDM}`);
+    push('XMP-xmpRights:WebStatement', PDM);
+    push('XMP-cc:license', PDM);
+    push('XMP-dc:Rights', `Public domain${author ? ` — ${author}` : ''}`);
+    push('IPTC:CopyrightNotice', `Public domain${author ? ` — ${author}` : ''}`);
+    push('XMP-dc:Source', credit.sourceUrl);
+  } else if (credit.permission || sourceExternal) {
+    // (3) se svolením / externí bez CC → all rights reserved (NEclaimovat CC)
     kind = 'se-svolením';
     push('XMP-dc:Creator', author);
     push('IPTC:By-line', author);
@@ -180,24 +194,15 @@ function licenseFields(credit) {
   return { args, kind };
 }
 
-// --- Parser frontmatter (jen základ — nepotřebujeme plný YAML) ---
+// --- Parser frontmatter (plný YAML — kvůli foto[]/portret/hero nested polím) ---
 function parseFrontmatter(text) {
   const m = text.match(/^---\r?\n([\s\S]*?)\r?\n---/);
   if (!m) return {};
-  const fm = {};
-  const lines = m[1].split(/\r?\n/);
-  for (const line of lines) {
-    // jen prosté `key: value` páry na top level
-    const km = line.match(/^([a-zA-Z_][a-zA-Z0-9_]*):\s*(.*)$/);
-    if (!km) continue;
-    let v = km[2].trim();
-    // Strip surrounding quotes
-    if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) {
-      v = v.slice(1, -1);
-    }
-    fm[km[1]] = v;
+  try {
+    return parseYaml(m[1]) ?? {};
+  } catch {
+    return {};
   }
-  return fm;
 }
 
 // --- Parser ::photo{...} direktiv ---
@@ -253,6 +258,28 @@ function authorFromFilename(file) {
   return null;
 }
 
+// --- Parser free-text credit stringu (foto[].credit, portretCredit, hero.credit) ---
+// Tyhle pole jsou lidská próza, ne strukturovaná. Detekujeme spolehlivě TYP
+// licence (CC / Public Domain / se svolením / default) + best-effort autora;
+// `sourceHint` je strukturovaný zdroj (portretSource), jinak URL ze stringu.
+function parseCreditString(creditStr, sourceHint) {
+  const s = (creditStr || '').trim();
+  const ccLabel = extractCcLabel(s);
+  const publicDomain = /\bpublic domain\b|volné dílo|\bPDM\b/i.test(s);
+  const permission = /se svolením|s povolením|with permission|použito s/i.test(s);
+  const urlM = s.match(/https?:\/\/[^\s)"'<>]+/);
+  const sourceUrl = (sourceHint || (urlM ? urlM[0] : '')).replace(/[.,;]+$/, '');
+  // Best-effort autor (sekundární — license type je to hlavní):
+  let author = '';
+  let m;
+  if ((m = s.match(/^Foto:?\s*([^(.,/]{2,50}?)(?:\s*[(,./]|$)/i))) author = m[1].trim();
+  else if ((m = s.match(/^©\s*([^(.,/]{2,50}?)(?:\s*[(,./]|$)/))) author = m[1].trim();
+  else if (/autor anonymní|anonymous|AnonymousUnknown|autor nezn/i.test(s)) author = 'autor neznámý';
+  else if ((m = s.match(/^([A-ZÁ-Ž][^,(.]{2,48}?),\s/))) author = m[1].trim(); // „Jan Vilímek, Public domain"
+  else if (!publicDomain && /^[A-ZÁ-Ž][\p{L}.\s]{2,40}$/u.test(s)) author = s; // plné jméno („Petr Skála", „S. Marušák")
+  return { author, license: ccLabel || '', licenseUrl: '', sourceUrl, permission, publicDomain };
+}
+
 // --- Build credit index z content/*.{md,mdx} ---
 async function buildCreditIndex(contentDir) {
   /**
@@ -304,6 +331,32 @@ async function buildCreditIndex(contentDir) {
         source: 'photo-directive',
       });
     }
+
+    // Strukturované credity z frontmatteru: foto[] (soupis/sbirka karty),
+    // portret/portretCredit/portretSource (medailony), hero (kroky).
+    const addStructured = (src, creditStr, sourceHint) => {
+      if (!src || typeof src !== 'string' || !src.startsWith('/img/')) return;
+      if (imageCredits.has(src)) return; // ::photo má přednost
+      const c = parseCreditString(creditStr, sourceHint);
+      imageCredits.set(src, {
+        author: c.author || author || 'Archiv ČSH',
+        authorUrl: '',
+        authorExplicit: Boolean(c.author),
+        license: c.license, // CC label nebo ''
+        licenseUrl: c.licenseUrl || '',
+        sourceUrl: c.sourceUrl || '',
+        permission: c.permission,
+        publicDomain: c.publicDomain,
+        articleTitle: title,
+        articleSlug: slug,
+        source: 'frontmatter',
+      });
+    };
+    if (Array.isArray(fm.foto)) {
+      for (const f of fm.foto) if (f && typeof f === 'object') addStructured(f.src, f.credit, '');
+    }
+    if (typeof fm.portret === 'string') addStructured(fm.portret, fm.portretCredit, fm.portretSource);
+    if (fm.hero && typeof fm.hero === 'object') addStructured(fm.hero.src, fm.hero.credit, '');
 
     // Plain markdown `![alt](/img/path.jpg)` — fallback na frontmatter credit
     const mdImg = /!\[([^\]]*)\]\((\/img\/[^)\s]+)/g;
