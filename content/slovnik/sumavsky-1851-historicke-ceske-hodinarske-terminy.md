@@ -2,36 +2,37 @@
 title: Šumavský 1851 — historické české hodinářské termíny
 slug: sumavsky-1851-historicke-ceske-hodinarske-terminy
 kategorie: jine
-prekladyDe:
-  - term: "(přehled archaismů, není jediný překlad)"
-prekladyEn:
-  - term: "Czech horological archaisms — Šumavský 1851 dictionary"
-prekladyFr:
-  - term: "archaïsmes horlogers tchèques 1851"
-definice: "Souhrn **historických českých hodinářských termínů** zaznamenaných v slovníku Josefa Franty Šumavského *Česko-německý slovník* (1851). Jde o **pre-Špatný (1882) terminologii** — ražené české kalky a purismy 1. poloviny 19. století, **většina se neujala**. Důležitý dokumentární zdroj pro pochopení vývoje češtiny v hodinářství."
+definice: Souhrn **historických českých hodinářských termínů** zaznamenaných v slovníku Josefa Franty Šumavského *Česko-německý slovník* (1851). Jde o **pre-Špatný (1882) terminologii** — ražené české kalky a purismy 1. poloviny 19. století, **většina se neujala**. Důležitý dokumentární zdroj pro pochopení vývoje češtiny v hodinářství.
+conceptId: HORO-ARCHAIC-001
+redirectTo: ''
+prekladyDe: []
+prekladyEn: []
+prekladyFr: []
+poslednRevize: ''
 ---
 
 ## Výklad
 
-Josef Franta Šumavský (1796–1857) byl významný **český purista a
-lexikograf** — autor hesel z celé řady řemesel. Jeho hodinářské
+Josef Franta Šumavský (1796–1857) byl významný **český purista a**
+**lexikograf** — autor hesel z celé řady řemesel. Jeho hodinářské
 termíny **odráží stav před Špatným 1882**, kdy český jazyk ještě
-neměl ustálenou hodinářskou terminologii a Šumavský **kalkoval z
-němčiny** vlastními výtvory.
+neměl ustálenou hodinářskou terminologii a Šumavský **kalkoval z**
+**němčiny** vlastními výtvory.
 
 **Klíčový fakt:** Šumavský 1851 **NEMÁ** slovo **„krok"** v
 hodinářském smyslu (objevuje se až u Špatného 1882). Místo „krok"
 používá:
+
 - **„hák anglický"** = englischer Haken (= moderní kotvový krok)
 - **„spravovací stroj v hodinkách"** = die Hemmung (= moderní krok obecně)
 
 Také **NEROZLIŠ kyvadlo od setrvačky** — obojí pod heslem „kyvadlo"
 (Pendel, Unruhe, Perpendikel, Metronom všechno smícháno).
 
-### Tabulka klíčových archaismů (~30 z 36 v glosar.yaml)
+### Tabulka klíčových archaismů (\~30 z 36 v glosar.yaml)
 
 | Šumavský 1851 (cs archaismus) | Moderní cs ekvivalent | de |
-|---|---|---|
+| --- | --- | --- |
 | **časoměr** | chronometr | Chronometer / Zeitmaß |
 | **časoměřičství** | chronometrie / hodinářství | Zeitmesserei |
 | **časohlídač** | (= římský otrok hlídal čas) | Uhrknabe |
@@ -81,7 +82,7 @@ z řec. χρονόμετρον. Šumavského „časoměr" se neujalo, ale deriv
 
 #### **kolostroj** = soukolí
 
-Doslovně **„stroj z kol"** (kalk z německého *Räderwerk*). Šumavský
+Doslovně **„stroj z kol"** (kalk z německého _Räderwerk_). Šumavský
 1851 razí „kolostroj" pro celý hodinový stroj. **Špatný 1882**
 přechází na **„soukolí"** (z „spolu" + „kolí" = sjednocené kola), což
 moderní cs zachovává. **„Kolostroj"** se neujalo, ale lze ho potkat
@@ -98,6 +99,7 @@ neobjeví se v Špatném 1882 ani v moderní cs.
 ### Stav termínů 175 let po Šumavském
 
 Z 36 Šumavského hesel se v moderní cs **plně udrželo** jen **2**:
+
 - **rafika** / **rafije** — zachováno jako alternativní synonymum
  „ručičky" (zejména v poezii a archaicky stylizovaných textech;
  „rafije" je v RomanReichl typografii)
@@ -107,14 +109,15 @@ Z 36 Šumavského hesel se v moderní cs **plně udrželo** jen **2**:
 pršící, komítací, závěšadlo, krokvička, kyvák, kolisadlo, větrober,
 kotejsadlo, kuželíček, vláločit, postupováček) **se neujala**.
 Důvody:
+
 1. **Špatný 1882** vyhrál jako autoritativní cs/de hodinářský
  slovník, vstoupil do cechovní organizace
 2. **Sušický 1900** kodifikoval v učebnici „krok", „setrvačka",
  „soukolí", „ciferník" — moderní termíny
 3. **Sladkovský 1947** dále upevnil moderní cs
 
-Šumavského termíny ale zůstávají **cenné pro filolologickou
-archeologii** a interpretaci dobových textů 1830–1880.
+Šumavského termíny ale zůstávají **cenné pro filolologickou**
+**archeologii** a interpretaci dobových textů 1830–1880.
 
 ## Příbuzné termíny
 
@@ -129,9 +132,9 @@ poznámkami a referencemi.
 ## Reference
 
 > Slovníky pre-Špatný hodinářské terminologie pro 1. polovinu 19.
-> století. Šumavského *Česko-německý slovník* (1851) je primárním
+> století. Šumavského _Česko-německý slovník_ (1851) je primárním
 > zdrojem pro 36 archaismů zachycených v glosar.yaml.
-> — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* Praha: V komisí
+> — ŠUMAVSKÝ, Josef Franta. _Česko-německý slovník._ Praha: V komisí
 > J. G. Calve, 1851. Digitální rekonstrukce dostupná v Zotero
 > [klíč `JVVP4JT8`].
 
@@ -143,10 +146,10 @@ poznámkami a referencemi.
 
 > „Šumavský 1851 má TŘI synonyma pro hodinovou ručičku: rafika,
 > rafije (dvouhláska), ručička. Etymologie „rafije" pravděpodobně
-> z arabského *rāfi'ah* (zvedat) přes evropský arabský vliv 13.–14.
+> z arabského _rāfi'ah_ (zvedat) přes evropský arabský vliv 13.–14.
 > století."
 > — Glosar entry `rafika-rafije-1851`.
 
 ## Obrázky
 
-*(zatím chybí — návrh: skenovaná stránka Šumavského 1851 s heslem „Pendel" nebo „Hemmung"; comparative table cz/de archaismy)*
+_(zatím chybí — návrh: skenovaná stránka Šumavského 1851 s heslem „Pendel" nebo „Hemmung"; comparative table cz/de archaismy)_
