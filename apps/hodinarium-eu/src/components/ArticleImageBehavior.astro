@@ -188,10 +188,20 @@ import imageSizes from '../data/image-sizes.json';
   .prose-content p:has(> picture:only-child) {
     display: contents;
   }
-  /* rehype-picture zabalí <img> do <picture> (avif/webp). <picture> je
-     inline wrapper bez vlastního vizuálu — udělej ho transparentní pro
-     layout, ať se float/grid/hero pravidla aplikují přímo na <img>. */
-  .prose-content picture {
+  /* rehype-picture zabalí <img> do <picture> (avif/webp). NEPOUŽÍVAT
+     `display: contents` na <picture> globálně — láme to nativní
+     loading="lazy": Chromium nezaregistruje obrázek, který nemá vlastní
+     layout box, do IntersectionObserveru a fotky se NIKDY nenačtou
+     (zůstanou „pending", stránka nikdy nedosáhne idle, renderer se může
+     i zaseknout). <picture> proto necháváme jako default `inline`:
+       - float obrázky (small/medium/tall) „uniknou" z inline rodiče do
+         block formatting kontextu <p> → text je obtéká korektně;
+       - blokové (large/hero/full/standalone) <img> uvnitř inline <picture>
+         se renderují jako anonymní blok přes celou šířku sloupce.
+     Jen v GALERII musí <img> vyplnit grid buňku (width:100%), takže tam
+     `display: contents` zapneme — tam lazy funguje, protože grid + pevný
+     aspect-ratio dodají obrázku definitivní geometrii. */
+  .prose-content .article-gallery picture {
     display: contents;
   }
   .prose-content {
