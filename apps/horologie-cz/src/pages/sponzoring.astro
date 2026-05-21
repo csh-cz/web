@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import { cdnUrl } from '../utils/cdnImage';
 ---
 <Base title="Podpora" description="Podpořte Český spolek horologický finančně i věcně — provoz expozice Hodinária Děčín, restaurování věžních strojů a online popularizaci hodinařiny.">
   <header class="sponz-header">
@@ -149,7 +150,7 @@ import Base from '../layouts/Base.astro';
   <section class="sponz-section qr-section" id="qr">
     <h2>QR pro platbu členského příspěvku</h2>
     <div class="qr-block">
-      <img src="/img/prispevky2026.png" alt="QR kód pro platbu členského příspěvku na transparentní účet 2801617704/2010" width="300" height="300" />
+      <img src={cdnUrl("/img/prispevky2026.png")} alt="QR kód pro platbu členského příspěvku na transparentní účet 2801617704/2010" width="300" height="300" />
       <div class="qr-info">
         <p>
           Naskenujte v bankovní aplikaci. QR předvyplní převod na transparentní účet

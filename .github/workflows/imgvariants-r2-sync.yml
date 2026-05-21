@@ -29,6 +29,7 @@ on:
       - 'apps/*/public/img/**/*.jpg'
       - 'apps/*/public/img/**/*.jpeg'
       - 'apps/*/public/img/**/*.png'
+      - 'apps/*/public/img/**/*.gif'
       - 'scripts/generate-image-formats.ts'
       - 'scripts/upload-imgvariants-to-r2.mjs'
       - '.github/workflows/imgvariants-r2-sync.yml'
@@ -94,11 +95,11 @@ jobs:
             if [ -n "$COMMITS" ] && [ "$COMMITS" != "null" ] && [ "$COMMITS" != "[]" ]; then
               CHANGED=$(printf '%s' "$COMMITS" \
                 | jq -r '[.[] | (.added[]?, .modified[]?)] | unique | .[]' \
-                | grep -E '^apps/[^/]+/public/img/.*\.(jpg|jpeg|png)$' \
+                | grep -E '^apps/[^/]+/public/img/.*\.(jpg|jpeg|png|gif)$' \
                 | tr '\n' ',' | sed 's/,$//' || true)
             else
               CHANGED=$(git diff --name-only --diff-filter=AM HEAD^ HEAD \
-                | grep -E '^apps/[^/]+/public/img/.*\.(jpg|jpeg|png)$' \
+                | grep -E '^apps/[^/]+/public/img/.*\.(jpg|jpeg|png|gif)$' \
                 | tr '\n' ',' | sed 's/,$//' || true)
             fi
             if [ -z "$CHANGED" ]; then

@@ -73,13 +73,16 @@ const DRY_RUN = process.argv.includes('--dry-run');
 //   - zdrojové rastr fotky .jpg / .jpeg / .png — slouží jako fallback v <img>
 //     pro starší prohlížeče bez AVIF/WebP. Tím se zároveň eliminuje potřeba
 //     ukládat originál do gitu (po uploadu může Action git rm).
-const UPLOAD_EXTS = new Set(['.avif', '.webp', '.jpg', '.jpeg', '.png']);
+//   - .gif (animované schémata/diagramy) — bez AVIF/WebP variant, jen originál;
+//     serveruje se z R2 přes cdnUrl/rehype-picture (A.26).
+const UPLOAD_EXTS = new Set(['.avif', '.webp', '.jpg', '.jpeg', '.png', '.gif']);
 const MIME = {
   '.avif': 'image/avif',
   '.webp': 'image/webp',
   '.jpg': 'image/jpeg',
   '.jpeg': 'image/jpeg',
   '.png': 'image/png',
+  '.gif': 'image/gif',
 };
 
 const r2 = new S3Client({

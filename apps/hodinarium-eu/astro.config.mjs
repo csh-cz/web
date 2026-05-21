@@ -75,6 +75,14 @@ export default defineConfig({
       // rehypePlugins spolehlivě, takže bez tohoto by .mdx body odkazy
       // (hodinaři medailony, tabor…) nedostaly ⚠ marker. Stejné options.
       rehypePlugins: [
+        // rehype-picture i tady — mdx() nepřebírá markdown rehypePlugins,
+        // bez tohoto by .mdx obrázky zůstaly raw `/img/` (bez R2 + bez
+        // AVIF/WebP <picture>). Stejné options jako v markdown configu.
+        [rehypePicture, {
+          imageSizes,
+          wrapInPicture: true,
+          cdnBase: 'https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev',
+        }],
         rehypeKatex,
         [rehypeDeadlink, { deadUrls: deadLinks.urls, checkedDate: deadLinks._meta.generated }],
       ],

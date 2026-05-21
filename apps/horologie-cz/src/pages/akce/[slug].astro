@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import JsonLd from '@csh/ui/components/JsonLd.astro';
 import { akce, getAkce } from '../../data/akce';
+import { cdnUrl } from '../../utils/cdnImage';
 
 export async function getStaticPaths() {
   return akce.map((a) => ({
@@ -16,7 +17,7 @@ if (!a) return Astro.redirect('/akce');
 
 const fotky = a.fotky ?? [];
 const popisky = a.popisky ?? [];
-const fotkaUrl = (foto: string) => `/img/akce/${a.slug}/${foto}`;
+const fotkaUrl = (foto: string) => cdnUrl(`/img/akce/${a.slug}/${foto}`);
 const heroFoto = fotky[0];
 
 // Předchozí / další akce v chronologii
