@@ -54,7 +54,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Syn [Jana Prokeše](/hodinari/jan-prokes), pokračovatel věžních hodin v rodinné tradici. Po otci přesídlil do Kopidlna, signoval „Jan Prokeš Kopidlno" (1894 Jablonec nad Jizerou, 1893 Žďár u Tanvaldu, 1891 Chroustov). Podle Hartmana 1987 nedosáhl kvalit otce.',
-    relatedSlugs: [],
+    relatedSlugs: ['sobotecka-dilna-prokesova-robertuv-krok'],
     era: '19stol',
   },
   {
@@ -67,7 +67,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Příbuzný [Jana Prokeše](/hodinari/jan-prokes) (pravděpodobně syn nebo synovec), provozoval hodinářskou živnost v Jičíně. Doložené dílo: zámek Milíčeves 1903 (Robertův krok, signováno „L. Prokeš v Jičíně 1903"), v současnosti funkční.',
-    relatedSlugs: [],
+    relatedSlugs: ['sobotecka-dilna-prokesova-robertuv-krok'],
     era: 'prelom',
   },
   {
@@ -97,13 +97,16 @@ export const hodinari: Hodinar[] = [
       'bychory-dalsi-kola',
       'bychory-prokes1',
       'decin-bici-stroje',
-      'o-hodinariu',
       'inv-2-vezni-prokes-1868-soubor',
       'inv-32-vezni-skalice',
+      'jubilejni-vystava-zemska-1891-hodinari',
       'kinsner-astronomicke-hodiny',
       'mapa',
+      'o-hodinariu',
       'ohlednuti2011',
+      'prazsky-orloj-restaurovani-2018',
       'sezona2013',
+      'sobotecka-dilna-prokesova-robertuv-krok',
       'svarcvaldky-surrerwerk',
       'vez-provoz2011',
     ],
@@ -167,12 +170,15 @@ export const hodinari: Hodinar[] = [
       'inv-280-nastenne-hainz',
       'inv-30-vezni-polevsko-hainz',
       'jednotnycas',
+      'jubilejni-vystava-zemska-1891-hodinari',
       'mapa',
       'panel-2-maticni-elektrocas',
+      'prazsky-orloj-restaurovani-2018',
+      'sobotecka-dilna-prokesova-robertuv-krok',
       'tabor',
-      'vez1',
       'vez-budislav',
       'vez-elektrocas1959',
+      'vez1',
       'zidovske',
     ],
     era: 'prelom',
@@ -213,7 +219,12 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Pražský hodinář a inovátor druhé poloviny 19. a počátku 20. století (1844–1918) — nejvýznamnější domácí výrobce věžních hodin své doby (přes 220 strojů). Po práci na opravě Staroměstského orloje (1865–1866) studoval v Ženevě a Besançonu. Jako první v Čechách použil ve věžních hodinách Denisonův gravitační krok (1876), nasadil litinu i u jemných součástí kroku a ve špičkových strojích achátové palety. Stavěl pneumatické (vzduchotlačné) hodiny (1874), efemeridiální plynový automat na Staroměstské vodárenské věži (1879) a hybostroj pro panorama (1891). S Františkem Špatným vydal první německo-český hodinářský slovník (1882). Zemřel 3. listopadu 1918, šest dní po vyhlášení samostatnosti.',
-    relatedSlugs: ['akvizice-2015-2025'],
+    relatedSlugs: [
+      'akvizice-2015-2025',
+      'jubilejni-vystava-zemska-1891-hodinari',
+      'prazsky-orloj-restaurovani-2018',
+      'sobotecka-dilna-prokesova-robertuv-krok',
+    ],
     era: 'prelom',
   },
   {
@@ -342,7 +353,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Hodinářský rod, jehož členové signovali stroje a fasádní hodiny v 19. století — mj. v Kardašově Řečici. Rod je nutno odlišit od slavnější malířské rodiny Mánesů.',
-    relatedSlugs: ['decin-galerie', 'kardasova-recice'],
+    relatedSlugs: ['decin-galerie', 'kardasova-recice', 'prazsky-orloj-restaurovani-2018'],
     era: '19stol',
   },
 
@@ -363,9 +374,10 @@ export const hodinari: Hodinar[] = [
       'hainz-natahovani',
       'inv-30-vezni-polevsko-hainz',
       'jednotnycas',
+      'jubilejni-vystava-zemska-1891-hodinari',
       'tabor',
-      'vez1',
       'vez-elektrocas1959',
+      'vez1',
     ],
     era: 'prelom',
   },
@@ -555,7 +567,11 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Restaurátor věžních a starožitných hodin z Turnovska ([hodinarmarek.cz](https://www.hodinarmarek.cz)). Licence MK ČR č. MK 23020/2018 OPP z 26. 4. 2018 (rozsah: restaurování mechanických strojů — hodinových strojů včetně věžních strojů). Doložené restaurace: Jeníšovice u Turnova (Prokeš 1882, 2017), Křivoklát (Fürstenbergské železárny 1817, 2018), Bošín — evangelický kostel (Prokeš 1887, 2020). Pokoušel se také o sestavení rozebraného stroje v kapli zámku Karlova Koruna v Chlumci nad Cidlinou (nedokončeno).',
-    relatedSlugs: ['janovice', 'litinove-vezni-hodiny'],
+    relatedSlugs: [
+      'janovice',
+      'litinove-vezni-hodiny',
+      'sobotecka-dilna-prokesova-robertuv-krok',
+    ],
     era: 'soucasnost',
   },
   {
@@ -628,6 +644,7 @@ export const hodinari: Hodinar[] = [
       'litinove-vezni-hodiny',
       'podebrady2',
       'podebrady3',
+      'prazsky-orloj-restaurovani-2018',
       'synchronizace-hodin',
       'vez-kli',
       'zidovske',
@@ -683,7 +700,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Český vynálezce a konstruktér, mladší syn Josefa Božka. Studoval pražskou polytechniku. Vodárenský odborník a divadelní mechanik. V hodinářství se věnoval spíše teorii než praxi — je mu připisován návrh externího chronometru Pražského orloje s Denisonovým gravitačním krokem (oprava 1865–1866). Autor rukopisných spisů „Über Uhren und Uhrmeister" a „Die neue Stadtuhr" (NTM Praha).',
-    relatedSlugs: ['josef-bozek', 'frantisek-bozek'],
+    relatedSlugs: ['big-ben-denisonuv-gravitacni-krok', 'frantisek-bozek', 'josef-bozek'],
     era: '19stol',
   },
   {
@@ -709,7 +726,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Mechanik a hodinář, do Prahy přišel z Liberce v roce 1865 jako uznávaný odborník při opravě Pražského orloje. Spolu s Čeňkem Daňkem provedl opravu orloje (1865–1866) včetně konstrukce nového externího chronometru s Denisonovým gravitačním krokem. Plánovali sériovou výrobu věžních hodin, ale jediným výstupem byl stroj pro kostel sv. Cyrila a Metoděje v Karlíně (1866). Po prusko-rakouské válce odešel s bratrem Eduardem do Vídně, kde se věnovali výrobě šicích strojů.',
-    relatedSlugs: [],
+    relatedSlugs: ['big-ben-denisonuv-gravitacni-krok', 'prazsky-orloj-restaurovani-2018'],
     era: '19stol',
   },
   {
@@ -722,7 +739,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Český strojírenský průmyslník, zakladatel pražské strojní továrny v Karlíně. Spolu s Janem Holubem provedl 1865–1866 mechanickou opravu Pražského orloje. Stroj pro kostel sv. Cyrila a Metoděje v Karlíně (1866) je dnes (2024) stále v půdě kostela jako rozebraný, ale pravděpodobně kompletní celek.',
-    relatedSlugs: [],
+    relatedSlugs: ['big-ben-denisonuv-gravitacni-krok', 'prazsky-orloj-restaurovani-2018'],
     era: '19stol',
   },
   {
@@ -805,7 +822,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Český hodinář a vynálezce z Chlumce nad Cidlinou, žák [Jana Prokeše](/hodinari/jan-prokes). Specializoval se na patentované astronomické orloje. Uspěl na Národopisné výstavě 1895 a na vídeňské průmyslové výstavě 1897. Jeden z jeho salónních orlojů byl umístěn ve studovně prezídia rakouské říšské rady ve Vídni.',
-    relatedSlugs: ['kinsner-astronomicke-hodiny'],
+    relatedSlugs: ['kinsner-astronomicke-hodiny', 'sobotecka-dilna-prokesova-robertuv-krok'],
     era: '19stol',
   },
   {
@@ -1414,7 +1431,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'DE',
     shrnuti:
       'Norimberský zámečník, kolem roku **1511** zhotovil **první kapesní hodiny** (tzv. „Norimberská vejce"). Klíčový bod v dějinách miniaturizace času — od kostelních a věžních strojů k osobnímu časoměrnému přístroji. Sladkovský 1947: „Petr Henlein, norimberský zámečník, 1511 první kapesní hodiny."',
-    relatedSlugs: ['elektrina-ve-sluzbach-casu'],
+    relatedSlugs: ['elektrina-ve-sluzbach-casu', 'jubilejni-vystava-zemska-1891-hodinari'],
     era: 'baroko',
   },
   {
@@ -1505,7 +1522,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'PL/DE',
     shrnuti:
       'Slezský hodinář (\\* 2. 5. 1819 Oels), zakladatel velké hodinářské fabriky ve **Świebodzicích/Freiburgu** (Pruské Slezsko). Vyučil se v rodišti, pracoval v Německu, Vídni a Švýcarsku. **V roce 1849 s podporou německé vlády založil dílnu** (jicí kyvadlovky); 1885 už 700 dělníků. **V roce 1899 fúze všech freiburských továren do „Spojené freiburské továrny na hodiny"**. **Pobočka v Broumově v Čechách** byla zřízena **1887**.',
-    relatedSlugs: [],
+    relatedSlugs: ['jubilejni-vystava-zemska-1891-hodinari'],
     era: '19stol',
   },
   {
@@ -1674,7 +1691,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Socialistický Okresní průmyslový podnik ve Vyškově — výrobce věžních hodin s elektrickým pohonem v 70.–80. letech 20. století. Jediný systematický cs poválečný výrobce velkých mechanických hodin. Typové řady 230 C a 280 B s logem věže vyškovské radnice na kontrolním číselníku. Dodávky pro radnice, kostely, instituce po celé ČSSR. Zanikl kolem 1992 v rámci ekonomické transformace.',
-    relatedSlugs: [],
+    relatedSlugs: ['tabor'],
     era: '20stol',
   },
   {
@@ -1765,7 +1782,12 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Čáslavský hodinářský mistr přelomu 19. a 20. století. V soupisu věžních hodin ČSH dvanáct doložených strojů ve středočeském regionu (Čáslav 1910, Čelákovice, Krušovice, Nehvizdy, Ohaře, Sedlčany, Suchdol, Vojkov, Žibohlavy a další). Typologie dvou velikostí: malý jen-hodinový stroj (kapličky, venkov) a velký čtvrťový stroj (radnice, městské kostely).',
-    relatedSlugs: [],
+    relatedSlugs: [
+      'decin-galerie',
+      'inv-47-orloj-skala',
+      'jubilejni-vystava-zemska-1891-hodinari',
+      'o-hodinariu',
+    ],
     era: 'prelom',
   },
   {
@@ -1778,7 +1800,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Poděbradský hodinářský mistr přelomu 19. a 20. století. Sedm doložených strojů v Polabí (Slověč 1886, Libice n. C. 1895, Kostomlátky 1896, Opolany 1898, plus nedat. Veleliby, Vrbice, Činěves) + Kunratice u Liberce (atribuce 2023, restauroval [Jan Marek](/hodinari/jan-marek) za 333 300 Kč ze sbírky). Konstrukce v tradici poděbradské školy navazující na [Jana Janatu](/hodinari/jan-janata).',
-    relatedSlugs: [],
+    relatedSlugs: ['jubilejni-vystava-zemska-1891-hodinari'],
     era: 'prelom',
   },
   {
