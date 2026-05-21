@@ -17,6 +17,7 @@ const { href, title, excerpt, thumbnail, category, lastModified, imageCount, ext
 
 import { categoryLabel } from '../data/labels';
 import { findHodinarFromVyrobce } from '../utils/findHodinarFromVyrobce';
+import { cdnUrl } from '../utils/cdnImage';
 
 const hodinarLink = vyrobce ? findHodinarFromVyrobce(vyrobce) : null;
 
@@ -32,7 +33,7 @@ const lastModifiedShort = lastModified
 <a href={href} class="atlas-card" rel={external ? 'noopener' : undefined} target={external ? '_blank' : undefined}>
   <div class="atlas-card-photo">
     {thumbnail ? (
-      <img src={thumbnail} alt="" loading="lazy" decoding="async" />
+      <img src={cdnUrl(thumbnail)} alt="" loading="lazy" decoding="async" />
     ) : (
       <div class="atlas-card-photo-placeholder">
         <i class="fa-solid fa-clock" aria-hidden="true"></i>

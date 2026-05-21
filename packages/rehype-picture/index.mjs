@@ -70,7 +70,13 @@ export default function rehypePicture(opts = {}) {
       // a src je raster.
       if (!wrap) return;
       if (!src.startsWith('/img/')) return;
-      if (!RASTER_RE.test(src)) return;
+      if (!RASTER_RE.test(src)) {
+        // Non-raster (gif, svg, …) — nemá AVIF/WebP varianty, tedy žádný
+        // <picture> wrap; jen přepiš src na R2 CDN, ať se po `git rm public/img/`
+        // (A.26) servíruje z R2 jako vše ostatní.
+        if (cdnBase) node.properties.src = `${cdnBase}${src}`;
+        return;
+      }
 
       const base = src.replace(RASTER_RE, '');
       // <source> i fallback <img> ukazují na R2 CDN (pokud nastaveno).

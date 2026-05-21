@@ -19,16 +19,17 @@
  * responzivními bez ztráty správného umístění pinu.
  *
  * Obrázky jsou v /public/img/zidovske/clock/ (původní podklad +
- * dvě GIF ručičky).
+ * dvě GIF ručičky) — servírují se z R2 přes cdnUrl (A.26).
  */
+import { cdnUrl } from '../utils/cdnImage';
 ---
 <figure class="zidovske-hodiny" aria-label="Živý ciferník Židovské radnice">
   <div class="zidovske-hodiny-canvas">
-    <img class="zidovske-podklad" src="/img/zidovske/clock/podklad.jpg" alt="Hebrejský ciferník Židovské radnice" width="500" height="362" loading="lazy" decoding="async" />
+    <img class="zidovske-podklad" src={cdnUrl("/img/zidovske/clock/podklad.jpg")} alt="Hebrejský ciferník Židovské radnice" width="500" height="362" loading="lazy" decoding="async" />
     <span class="zidovske-attribution"><strong>www.muzeumhodin.info</strong></span>
     <time class="zidovske-cas" data-clock-time>00:00</time>
-    <img class="zidovske-rucka zidovske-hodinova" data-clock-hour src="/img/zidovske/clock/hodinova.gif" alt="" width="33" height="103" />
-    <img class="zidovske-rucka zidovske-minutova" data-clock-minute src="/img/zidovske/clock/minutova.gif" alt="" width="33" height="67" />
+    <img class="zidovske-rucka zidovske-hodinova" data-clock-hour src={cdnUrl("/img/zidovske/clock/hodinova.gif")} alt="" width="33" height="103" />
+    <img class="zidovske-rucka zidovske-minutova" data-clock-minute src={cdnUrl("/img/zidovske/clock/minutova.gif")} alt="" width="33" height="67" />
   </div>
   <figcaption><strong>Ručičky hodin ukazují stále správný čas.</strong> Vytvořeno pro tento server.</figcaption>
 </figure>

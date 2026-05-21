@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { akce, akceMinule, akcePlanovane } from '../../data/akce';
+import { cdnUrl } from '../../utils/cdnImage';
 
 // Akce na časové ose — všechny seřazené chronologicky vzestupně
 const akceProOsu = [...akce].sort((a, b) => a.rok - b.rok);
@@ -107,7 +108,7 @@ const dalsiMista = lokality.length > 3 ? `, a&nbsp;další ${lokality.length - 3
       <div class="akce-grid">
         {akceMinule.map((a) => {
           const heroFoto = a.fotky?.[0];
-          const fotkaUrl = heroFoto ? `/img/akce/${a.slug}/${heroFoto}` : null;
+          const fotkaUrl = heroFoto ? cdnUrl(`/img/akce/${a.slug}/${heroFoto}`) : null;
           return (
             <a href={`/akce/${a.slug}`} class={`akce-card ${a.status === 'placeholder' ? 'akce-card-placeholder' : ''}`}>
               <div class={`akce-card-photo ${fotkaUrl ? 'has-photo' : 'placeholder-photo'}`}>
