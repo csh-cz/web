@@ -64,6 +64,29 @@ try {
   existingKarty = new Set();
 }
 
+// Mapa inv. č. → reálný slug karty. Robustní dohledání i když se popis
+// v soupisu liší od slugu karty (např. terminologická oprava ručka↔rafije
+// zmrazila slug, ale popis se aktualizoval → kartaSlug() by netrefil).
+const kartaByInv = new Map<string, string[]>();
+for (const slug of existingKarty) {
+  const m = slug.match(/^inv-([0-9x]+)-/);
+  if (m) {
+    const arr = kartaByInv.get(m[1]) ?? [];
+    arr.push(slug);
+    kartaByInv.set(m[1], arr);
+  }
+}
+/** Reálný slug existující karty pro exponát, nebo null. Nejdřív přesná
+ *  shoda (popis→slug), pak fallback podle inv. č. — ale jen když má dané
+ *  číslo právě jednu kartu (u kolizních čísel raději bez linku než špatný). */
+function cardSlugFor(e: Exponat): string | null {
+  const exact = kartaSlug(e);
+  if (existingKarty.has(exact)) return exact;
+  const byInv = kartaByInv.get(String(e.invCislo));
+  if (byInv && byInv.length === 1) return byInv[0];
+  return null;
+}
+
 // Map vyrobce → hodinář slug pro link na medailon (pokud match je)
 const hodinariCandidates: Array<{ needle: string; slug: string; jmeno: string }> = [];
 for (const h of hodinari) {
@@ -132,7 +155,7 @@ const lokaceLabels: Record<string, string> = {
 
 const total = items.length;
 // const maxInv = Math.max(...items.map((i) => i.invCisloNumeric ?? 0));  // (unused)
-const withKarta = items.filter((i) => existingKarty.has(kartaSlug(i))).length;
+const withKarta = items.filter((i) => cardSlugFor(i) !== null).length;
 
 // Counter per stav
 const stavCounts: Record<string, number> = {};
@@ -148,7 +171,8 @@ const typCounts: Record<string, number> = {};
 const vyrobceCounts: Record<string, number> = {};
 for (const i of items) {
   if (i.typ) typCounts[i.typ] = (typCounts[i.typ] ?? 0) + 1;
-  const v = vyrobceMap.get(kartaSlug(i));
+  const cs = cardSlugFor(i);
+  const v = cs ? vyrobceMap.get(cs) : undefined;
   if (v) vyrobceCounts[v] = (vyrobceCounts[v] ?? 0) + 1;
 }
 const typOpts = Object.entries(typCounts)
@@ -281,9 +305,9 @@ const vyrobceOpts = Object.entries(vyrobceCounts)
           <span role="columnheader">Vztah</span>
         </div>
         {list.map((e) => {
-          const slug = kartaSlug(e);
-          const hasKarta = existingKarty.has(slug);
-          const vyrobce = vyrobceMap.get(slug) || '';
+          const slug = cardSlugFor(e);
+          const hasKarta = slug !== null;
+          const vyrobce = slug ? (vyrobceMap.get(slug) || '') : '';
           const hodinarLink = vyrobce ? findHodinarSlug(vyrobce) : null;
           const dataSearch = `${e.popis} ${e.typ} ${e.invCislo} ${vyrobce}`.toLowerCase();
           const inner = (
