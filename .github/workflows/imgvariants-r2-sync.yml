@@ -38,6 +38,10 @@ on:
         description: 'Plný regen všech variantů (jinak diff z posledního pushe)'
         type: boolean
         default: false
+      backfill_metadata:
+        description: 'Metadata backfill — stáhne varianty z R2, embedne licenci (--force), re-uploadne (BEZ regenerace variant)'
+        type: boolean
+        default: false
 
 jobs:
   sync:
@@ -72,7 +76,10 @@ jobs:
       - name: Detect changed raster sources
         id: changed
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.full_regen }}" = "true" ]; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.backfill_metadata }}" = "true" ]; then
+            echo "mode=meta" >> "$GITHUB_OUTPUT"
+            echo "Metadata backfill requested (download variants from R2 + embed + re-upload)."
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.full_regen }}" = "true" ]; then
             echo "mode=full" >> "$GITHUB_OUTPUT"
             echo "Manual full regen requested."
           else
@@ -101,6 +108,17 @@ jobs:
         if: steps.changed.outputs.mode == 'full'
         run: pnpm imgvariants:build
 
+      # Metadata backfill: varianty nejsou v gitu (jen na R2), regenerace je moc
+      # pomalá → stáhneme je z R2 vedle originálů, ať je embed může orazítkovat.
+      - name: Download variants from R2 (metadata backfill)
+        if: steps.changed.outputs.mode == 'meta'
+        run: pnpm imgvariants:download
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: csh-imgvariants
+
       # Embed plné licence/atribuce (XMP+IPTC) do originálu i variant PŘED
       # uploadem — soubor na R2 musí být self-describing i mimo web (kde
       # neplatí site-wide default CC BY 4.0). Viz skill obrazky §6.1.1.
@@ -108,8 +126,8 @@ jobs:
         if: steps.changed.outputs.mode == 'diff'
         run: node scripts/write-xmp-metadata.mjs --force --files "${{ steps.changed.outputs.files }}"
 
-      - name: Embed licence metadata (full regen)
-        if: steps.changed.outputs.mode == 'full'
+      - name: Embed licence metadata (full regen / metadata backfill)
+        if: steps.changed.outputs.mode == 'full' || steps.changed.outputs.mode == 'meta'
         run: node scripts/write-xmp-metadata.mjs --force
 
       - name: Upload variants + sources to R2

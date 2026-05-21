@@ -19,6 +19,7 @@
     "deadlinks:audit": "node scripts/audit-dead-links.mjs",
     "imgvariants:build": "tsx scripts/generate-image-formats.ts",
     "imgvariants:upload": "node scripts/upload-imgvariants-to-r2.mjs",
+    "imgvariants:download": "node scripts/download-imgvariants-from-r2.mjs",
     "imgvariants:sync": "pnpm imgvariants:build && pnpm imgvariants:upload",
     "xmp:write": "node scripts/write-xmp-metadata.mjs",
     "xmp:check": "node scripts/write-xmp-metadata.mjs --dry-run",
