@@ -25,6 +25,10 @@ karta:
   krokJicihoStroje: "Grahamův krok"
 ---
 
+::photo{src="/img/vezni/026a-jirkostroj.jpg" alt="věžní Jirkostroj — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}
+
+::photo{src="/img/vezni/026b-jirkostroj.jpg" alt="věžní Jirkostroj — fotografie sbírkového předmětu (b)" author="Miroslav Baudisch"}
+
 Hodinový stroj byl sestaven ze zachráněných kol stroje věžních hodin. Původní rám se nezachoval, soukolí jicího stroje bylo namontováno do nově zhotovené konstrukce. Stroj má **[Grahamův](/kroky/grahamuv-krok)** krok, pohon závažím.
 
 Na rámu je štítek s německým nápisem:

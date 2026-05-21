@@ -25,6 +25,12 @@ karta:
   rokVyroby: "2002"
 ---
 
+::photo{src="/img/vezni/047a-orloj-skala.jpg" alt="orloj Skála — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}
+
+::photo{src="/img/vezni/047b-orloj-skala.jpg" alt="orloj Skála — fotografie sbírkového předmětu (b)" author="Miroslav Baudisch"}
+
+::photo{src="/img/vezni/047c-orloj-skala.jpg" alt="orloj Skála — fotografie sbírkového předmětu (c)" author="Miroslav Baudisch"}
+
 Funkční orloj sochařů Petra Skály a Miroslava Kotrby je vybaven mechanikou, zajišťující pohyb podobných ukazatelů, jaké jsou na Pražském orloji. Orloj vznikal pomalu a postupně od roku 2002. Koncepce pohybu [soukolí](/slovnik/soukoli) rohatkami je převzata z orloje litomyšlského ( Karel Adamec z Čáslavi, 1907). Rozměry kol jsou však jiné a také převod na měsíční ručku je přesnější.
 
 Orloj je poháněn malým elektromotorkem, který obdrží každých 12 minut impulz od řídicích hodin, a ručka Slunce spolu s Měsícem a ekliptikou se natočí o jednu pětinu hodiny.

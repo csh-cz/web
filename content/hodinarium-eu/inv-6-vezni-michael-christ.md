@@ -34,6 +34,10 @@ karta:
     detail: "zvonici"
 ---
 
+::photo{src="/img/vezni/006a-michael-christ.jpg" alt="věžní Michael Christ — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}
+
+::photo{src="/img/vezni/006b-michael-christ.jpg" alt="věžní Michael Christ — fotografie sbírkového předmětu (b)" author="Miroslav Baudisch"}
+
 Hodiny byly původně umístěny ve zvonici kostela sv. Petra a Pavla v Horním Prysku. Po instalaci nového, elektronicky řízeného stroje, byly Biskupstvím litoměřickým zapůjčeny pro expozici muzea.
 
 Stroj byl pro účely vystavení restaurován, doplněny četné chybějící prvky (např. [větrníky](/slovnik/vetrnik) s rohatkami) a opatřen náhradním [kyvadlem](/slovnik/kyvadlo).
