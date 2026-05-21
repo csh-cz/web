@@ -26,4 +26,8 @@ karta:
   rokVyroby: "1640"
 ---
 
+::photo{src="/img/vezni/029a-benesov-1.jpg" alt="věžní Benešov — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}
+
+::photo{src="/img/vezni/029b-benesov-1.jpg" alt="věžní Benešov — fotografie sbírkového předmětu (b)" author="Miroslav Baudisch"}
+
 Věžní hodinový stroj od neznámého výrobce původně řídil ručky hodin na fasádě městského domu (Benešov n. Pl.), čemuž odpovídají jeho poměrně malé rozměry. Stroj má jen chodové soukolí, které je oproti běžně používané konstrukce rozšířeno o další kolo, což výrazně prodlužuje dobu chodu na jedno natažení. Chod je řízen **[Amantovým](/kroky/amantuv-krok)** krokem, potřebnou energii dodává těžké litinové závaží s vestavěnou kladkou.

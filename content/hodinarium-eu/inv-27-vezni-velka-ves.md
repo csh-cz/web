@@ -25,6 +25,12 @@ karta:
   darceZapujcitel: ""
 ---
 
+::photo{src="/img/vezni/027a-velika-ves.jpg" alt="věžní Velká Ves — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}
+
+::photo{src="/img/vezni/027b-velika-ves.jpg" alt="věžní Velká Ves — fotografie sbírkového předmětu (b)" author="Miroslav Baudisch"}
+
+::photo{src="/img/vezni/027c-velika-ves.jpg" alt="věžní Velká Ves — fotografie sbírkového předmětu (c)" author="Miroslav Baudisch"}
+
 Věžní hodinový stroj je velmi starý, může pocházet z konce 15. století. Svislé rohové sloupky jsou čtyřhranné a jsou zakončeny dekorativním prvkem přetrvávajícím tehdy ještě z gotiky - kovanými hřebovými hlavicemi. Na jednom dochovaném lanovém bubnu jsou osazena rumpálová ramena, za která se navíjelo lano se závažím na lanový buben. Tento systém [natahování](/slovnik/natah) lze dnes vidět jen na nemnoha muzejních hodinových strojích. Je pravděpodobné, že hodinový stroj byl původně vybaven [lihýřem](/slovnik/lihyr). Teprve později byl přestavěn na stroj kyvadlový s vřetenovým krokem, po němž se dochovaly některé detaily na rámu stroje - konzole s axiálněradiálním ložiskem hřídele krokového kola a otvor pro průchod vřetene v horní části svislé střední pásnice rámu. Kyvadlo zde bylo umístěno uprostřed delší strany rámu hodinového stroje.
 
 V hodinách zcela chybí jicí stroj. Stroj bicí je nekompletní, chybí závěrkové kolo. Ostatní součásti hodin se nedochovaly.

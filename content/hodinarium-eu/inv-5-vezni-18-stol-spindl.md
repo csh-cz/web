@@ -26,6 +26,12 @@ karta:
   biciStroje: "půlové"
 ---
 
+::photo{src="/img/vezni/005a-budislav.jpg" alt="věžní 18. stol. špindl — fotografie sbírkového předmětu (a)" author="Stanislav Marušák"}
+
+::photo{src="/img/vezni/005b-budislav.jpg" alt="věžní 18. stol. špindl — fotografie sbírkového předmětu (b)" author="Stanislav Marušák"}
+
+::photo{src="/img/vezni/005c-budislav.jpg" alt="věžní 18. stol. špindl — fotografie sbírkového předmětu (c)" author="Stanislav Marušák"}
+
 V kovaném rámu se sloupky v horní části s ozdobným zatočením je umístěn jicí kyvadlový stroj s vřetenovým krokem a půlový [bicí stroj](/slovnik/bici-stroj). Nezachovalo se [kyvadlo](/slovnik/kyvadlo) ani natahovací klika, která se používala pro oba stroje. Nalezen byl pouze volný natahovací pastorek, jedno kompletní pískové závaží a ještě jedno torzo závaží. Samostatně byl nalezen také [větrník](/slovnik/vetrnik) [bicího stroje](/slovnik/bici-stroj) bez rohatky. Nálezový stav nesl známky provizorních oprav. Některé díly byly přichyceny jen drátem.
 
 V obci se nachází kostel Nanebevzetí Panny Marie, postavený ve 14. století. Tento kostel byl barokně přestavěn. To by mohlo poskytnout vodítko k datování stroje. Podle vzhledu odhadujeme jeho stáří na polovinu 18. století. To celkem dobře koresponduje s barokní přestavbou kostela v roce 1754. Přestože má stroj **[vřetenový krok](/kroky/vretenovy-krok)**, odpovídající spíše starší době zhotovení, může být novější. Na rámu jsou zbytky nápisu, který by mohl datování stavby nebo rekonstrukce obsahovat. Nápis začíná textem: „ Tyto hodiny…” a končí číslicemi a textem: „…8%77 v Táboře”. Znak, vypadající jako % by mohl být den/měsíc, tedy 6/9. Zbytek nápisu zničila koroze. Nápis bude zřejmě zápisem o opravě, protože hodiny v této podobě nemohly vzniknout až v roce 1877.

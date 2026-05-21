@@ -28,6 +28,12 @@ karta:
 thumbnail: '/img/decin/rok2020/Jilove/foto_0006.jpg'
 ---
 
+::photo{src="/img/vezni/023a-jilove.jpg" alt="věžní Jílové — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}
+
+::photo{src="/img/vezni/023b-jilove.jpg" alt="věžní Jílové — fotografie sbírkového předmětu (b)" author="Miroslav Baudisch"}
+
+::photo{src="/img/vezni/023c-jilove.jpg" alt="věžní Jílové — fotografie sbírkového předmětu (c)" author="Miroslav Baudisch"}
+
 Hodiny pocházejí z kostela Nejsvětější Trojice. Kostel má pohnutou historii: v roce 1859 vyhořel po zásahu moždíře při oslavách na zámku. Majitel panství hrabě Thun zafinancoval stavbu nového kostela, takže již za rok se v něm mohly konat bohoslužby.
 
 Způsob stavby stroje a především tvar kotvy hodně připomíná hodiny z dílny Ferdinanda Londenspergera. Hodiny obdobného typu jsou i v kostele v Horní Polici.

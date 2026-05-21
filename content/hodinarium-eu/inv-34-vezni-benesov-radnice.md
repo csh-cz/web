@@ -25,4 +25,6 @@ karta:
   adaptaceProVystavu: "Stroj je konstruován pro automatické natahování, chybějící elektromotor spolu s ovládacím mechanismem byl doplněn po přestěhování do Hodinária."
 ---
 
+::photo{src="/img/vezni/034-benesov-radnice.jpg" alt="Věžní Benešov radnice — fotografie sbírkového předmětu" author="Miroslav Baudisch"}
+
 Hodinový stroj věžních hodin podle loga na kontrolním číselníku byl vyroben Chronotechnou Šternberk v šedesátých letech 20. století. Je vybaven půlovým bitím, jicí stroj má **[Grahamův](/kroky/grahamuv-krok)** kotvový krok, řízený kyvadlem s tyčí 1150 mm dlouhou, na které je litinová čočka. Doba kyvu je tak cca 1 vteřina. V litinovém rámu jsou odnímatelná mosazná ložiska, hřídele a pastorky jsou ocelové, ozubená kola mosazná. Stroj je konstruován pro automatické [natahování](/slovnik/natah), chybějící elektromotor spolu s ovládacím mechanismem byl doplněn po přestěhování do Hodinária.
