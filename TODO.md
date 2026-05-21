@@ -340,20 +340,23 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
                explicitní CC). R2-only (janata, digitalky1) pokryto.
          - [ ] Sleduj prod traffic — `hodinarium-eu.pages.dev` console na 404 `/img/`
          - [ ] Audit `pnpm deadlinks:audit` po týdnu — nulové broken images
-      5. **Plný přesun originálů z gitu** (BLOKOVÁNO — ověřeno 2026-05-21
-         přes Chrome UI test) → `git rm -r apps/*/public/img/` zatím
-         **NELZE**. jpg/png + avif/webp jsou na R2 (ověřeno), ALE část
-         obrázků se servíruje **lokálně z public/img, ne z R2**:
-         - **23 GIFů** (AFM_2, Mazan anim, Mobatime, atomove/schema…) —
-           imgvariants pipeline GIFy NEnahrává (UPLOAD_EXTS jen jpg/png/
-           avif/webp) a rehype-picture je nepřepisuje (RASTER_RE jen jpg|png).
-         - **raw `<img src="/img/…">` v komponentách** — `ZidovskeHodiny.astro`
-           (clock podklad+ručky), `horologie sponzoring.astro`, related-article
-           thumbnaily — obcházejí rehype-picture → lokální cesty.
-         Před git rm nutné: (a) rozšířit pipeline o GIF upload + GIF rewrite
-         na R2 (nebo GIFy nechat/konvertovat), (b) přepnout komponentové
-         `<img>` na R2 (cdnBase). Pak teprve odstranit z gitu. Do té doby
-         R2 + git koexistují (bezpečné, jen větší repo).
+      5. **Plný přesun originálů z gitu** → `git rm -r apps/*/public/img/`.
+         R2 gap z velké části VYŘEŠEN 2026-05-21 (raw `/img/` v dist
+         hodinarium 232→3, `<a href>` 173→0):
+         - ✅ rehype-picture přepisuje gif/svg src + `<a href="/img/">`;
+           registrováno i v mdx() (předtím .mdx obrázky raw); upload skript
+           + workflow umí gif; Card/ZidovskeHodiny/TaborOrloj/Slunecni/
+           horologie sponzoring+akce → cdnUrl; 5 obsahových souborů raw
+           HTML img/a → R2.
+         - ⏳ gif FILES nahrát na R2: pipeline je umí, dispatchnut
+           `backfill_metadata` (běží/hotovo).
+         **Reziduum před git rm** (drobné, lokální /img/):
+           (a) `/og-preview` 3 raw img (admin, robots-disallowed — OK nechat),
+           (b) horologie `/clanky/kontakt` 2 markdown gify (logo_skala, AFM_2
+               — horologie bare mdx() nepřebírá gif rewrite spolehlivě),
+           (c) JSON-LD `logo` v kronika/[slug] (`/img/logo-csh.png`, metadata).
+         Po vyřešení (b)+(c) a potvrzení gif uploadu → git rm. Do té doby
+         R2 + git koexistují (bezpečné).
       6. Sveltia CMS upload widget: přepnout z git-commit binárek
          na R2 signed URL upload (custom CMS widget, ~1 den práce).
 
