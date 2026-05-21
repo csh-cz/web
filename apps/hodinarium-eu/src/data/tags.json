@@ -2,7 +2,7 @@
   "_meta": {
     "comment": "Řízeně rozšiřovatelný whitelist tagů pro články. Sloučení všech polí (kromě _meta) se používá v Zod refine validaci v content.config.ts. Nový tag = PR commit s update tohoto souboru. Bez whitelistu by se tagy množily nekonzistentně (atomovky / atomické / atomic).",
     "version": 4,
-    "updated": "2026-05-17"
+    "updated": "2026-05-21"
   },
   "typ": [
     "vezni",
@@ -114,7 +114,8 @@
     "vitrina-3-vedlejsi",
     "vitrina-4-vedlejsi",
     "vitrina-5-vedlejsi",
-    "rohova-vitrina-vedlejsi"
+    "rohova-vitrina-vedlejsi",
+    "volne-vedlejsi"
   ],
   "vyrobce": [
     "prokes",
