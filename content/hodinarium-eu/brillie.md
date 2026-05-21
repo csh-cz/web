@@ -42,9 +42,9 @@ Bohužel tato informace je velmi stručná a neověřená. Budeme doufat, že na
 ### Dobová inzerce synchronizace
 
 <div class="article-gallery gallery-portrait">
-  <a href="/img/elektrika/brillie/Brillie4.jpg"><img src="/img/elektrika/brillie/Brillie4.jpg" alt="Dobová inzerce Brillie — řízeno T.S.F. signálem z Eiffelovy věže" loading="lazy" /></a>
-  <a href="/img/elektrika/brillie/Brillie5.jpg"><img src="/img/elektrika/brillie/Brillie5.jpg" alt="Dobová inzerce Brillie — synchronizace skupin kyvadlových hodin" loading="lazy" /></a>
-  <a href="/img/elektrika/brillie/Brillie6.jpg"><img src="/img/elektrika/brillie/Brillie6.jpg" alt="Dobová inzerce Brillie — synchronizace pomocí telefonních linek" loading="lazy" /></a>
+  <a href="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/elektrika/brillie/Brillie4.jpg"><img src="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/elektrika/brillie/Brillie4.jpg" alt="Dobová inzerce Brillie — řízeno T.S.F. signálem z Eiffelovy věže" loading="lazy" /></a>
+  <a href="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/elektrika/brillie/Brillie5.jpg"><img src="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/elektrika/brillie/Brillie5.jpg" alt="Dobová inzerce Brillie — synchronizace skupin kyvadlových hodin" loading="lazy" /></a>
+  <a href="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/elektrika/brillie/Brillie6.jpg"><img src="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/elektrika/brillie/Brillie6.jpg" alt="Dobová inzerce Brillie — synchronizace pomocí telefonních linek" loading="lazy" /></a>
 </div>
 
 Na reklamních cedulích je docela zajímavá informace o používané synchronizaci. ***Elektrické hodiny BRILLIÉ řízeny T.S.F.** Tento přístroj je vybaven špičkovým zařízením, které pracuje každý den podle zvláštního signálu vysílaného z Eifelovy věže. Hodiny tohoto typu mohou synchronizovat velké skupiny kyvadlových hodin BRILLIÉ, kterým zaručují souhlasný chod s úředním časem. **Synchronizace regulátorů pomocí telefonní linky**. Elektrické [regulátory](/slovnik/regulator) BRILLIÉ mohou být mezi sebou propojeny za účelem synchronizace prostřednictvím telefonních linek, aniž by toto propojení nějakým způsobem poškozovalo hovory vedené na těchto linkách.*

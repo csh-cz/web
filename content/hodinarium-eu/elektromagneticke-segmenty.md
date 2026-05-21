@@ -16,7 +16,7 @@ Sedmi segmentový displej je nejúspornější způsob vyjádření číslic a n
 
 Jednotky jsou propojeny datovou sběrnicí na kterou řídící jednotka v případě potřeby vyšle data a zároveň adresovacím vodičem určí, pro kterou jednotku je informace určena.
 
-<img src="/img/H715_BODET/schema1.jpg" alt="Schéma zapojení sedmisegmentových jednotek H715 BODET" class="img-full" loading="lazy" />
+<img src="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/H715_BODET/schema1.jpg" alt="Schéma zapojení sedmisegmentových jednotek H715 BODET" class="img-full" loading="lazy" />
 
 ## Hlavní výhody elektromagnetického ovládání displeje
 
