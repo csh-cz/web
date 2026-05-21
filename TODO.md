@@ -360,6 +360,31 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
         chce David lokální R2 operace (krok 5 git-rm to nepotřebuje).
       - Připravit `imgcdn.<doména>` DNS po A.9.
 
+## A.33 — Foto credit / pipeline drobné opravy (2026-05-21)
+
+Vzešlo z foto-licence + XMP embed práce. Obě položky **ověřeny jako stále
+relevantní** (live / v kódu).
+
+- [ ] **Markdown v `author` props** — 19 výskytů `author="[Jméno](url)"` ve
+      `::photo` direktivách (`hodinari/jan-janata.mdx`, `hodinarium-eu/zidovske.mdx`,
+      `soupis-veznich-hodin/*-janata.mdx`, `…/skala-realizace-*.mdx`).
+      Renderuje se **doslova** v creditu na webu — ověřeno live:
+      „Foto: [Petr Skála](/hodinari/petr-skala) · …". Fix: rozdělit na
+      `author="Jméno" authorUrl="url"` (Photo.astro autora s `authorUrl` obalí
+      do `<a>`). Pozn.: XMP embed je OK (`cleanAuthor` markdown stripuje), bug
+      je **jen v zobrazení**. **Relevance: ANO** (živé, ~19 míst, malá změna).
+      `grep -rnoE 'author="\[[^"]*\]\([^"]*\)"' content/`
+
+- [ ] **R2 sync detekce multi-commit pushů** — `imgvariants-r2-sync.yml`
+      hledá změněné fotky přes `git diff HEAD^ HEAD` (jen poslední commit).
+      U batchnutého pushe (víc commitů) se fotka z dřívějšího commitu
+      **přeskočí** (stalo se s `digitalky1`). Fix: `git diff
+      ${{ github.event.before }} ${{ github.sha }}` + ošetřit zero-SHA
+      (první push / branch create) a `fetch-depth` (dnes 2 — nestačí pro
+      delší push range). **Relevance: ANO, ale nižší priorita** — Sveltia
+      commituje 1 fotku/commit (single-commit push = nezasaženo); týká se
+      jen ručních batch pushů, a `backfill_metadata` mode to mezitím dorovná.
+
 ---
 
 ### Slovník — rozšíření modelu (návrh 2026-05-17)
