@@ -75,6 +75,10 @@ jobs:
 
       - name: Detect changed raster sources
         id: changed
+        # COMMITS = všechny commity pushe (added+modified per commit). Předáno
+        # přes env (ne inline), aby commit message s uvozovkami nerozbila shell.
+        env:
+          COMMITS: ${{ toJSON(github.event.commits) }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.backfill_metadata }}" = "true" ]; then
             echo "mode=meta" >> "$GITHUB_OUTPUT"
@@ -83,12 +87,20 @@ jobs:
             echo "mode=full" >> "$GITHUB_OUTPUT"
             echo "Manual full regen requested."
           else
-            # diff vs předchozí commit; filtruj na JPG/PNG v public/img/.
-            # Pozor: git pathspec `**` se chová jinak než gitignore globs
-            # (`*` v pathspecu neexpanduje přes /). Proto grep regex.
-            CHANGED=$(git diff --name-only --diff-filter=AM HEAD^ HEAD \
-              | grep -E '^apps/[^/]+/public/img/.*\.(jpg|jpeg|png)$' \
-              | tr '\n' ',' | sed 's/,$//' || true)
+            # Změněné rastry ze VŠECH commitů pushe (github.event.commits),
+            # ne jen HEAD^..HEAD — to minulo fotky z dřívějších commitů
+            # batchnutého pushe. Fallback na HEAD^..HEAD, když payload chybí
+            # (např. bare workflow_dispatch). jq je na ubuntu-latest předinstalován.
+            if [ -n "$COMMITS" ] && [ "$COMMITS" != "null" ] && [ "$COMMITS" != "[]" ]; then
+              CHANGED=$(printf '%s' "$COMMITS" \
+                | jq -r '[.[] | (.added[]?, .modified[]?)] | unique | .[]' \
+                | grep -E '^apps/[^/]+/public/img/.*\.(jpg|jpeg|png)$' \
+                | tr '\n' ',' | sed 's/,$//' || true)
+            else
+              CHANGED=$(git diff --name-only --diff-filter=AM HEAD^ HEAD \
+                | grep -E '^apps/[^/]+/public/img/.*\.(jpg|jpeg|png)$' \
+                | tr '\n' ',' | sed 's/,$//' || true)
+            fi
             if [ -z "$CHANGED" ]; then
               echo "mode=none" >> "$GITHUB_OUTPUT"
               echo "Žádný JPG/PNG nezměněn v tomto pushi."
