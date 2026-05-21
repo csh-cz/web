@@ -30,4 +30,4 @@ V okamžiku vykývnutí kyvadla na jednu krajní pozici se otevře kontakt elekt
 
 Na něj je napojena vačka, která vždy po minutě sepne kontakt rtuťový, vysílající nepolarizované [impulzy](/slovnik/impulsy) do podružných hodin.
 
-*Text převzat z informačního panelu expozice (Panel 1, Hodinárium Děčín, 2017). Vedle Ericssona stávaly do nedávna na Panelu 1 také Signální hodiny Bauer & Co. Chemnitz; v aktuálním uspořádání je nahradily [Hodiny Kienzle](/sbirka/karta/inv-91-hodiny-kienzle/) (inv. 91).*
+*Text převzat z informačního panelu expozice (Panel 1, Hodinárium Děčín, 2017). Vedle Ericssona stávaly do nedávna na Panelu 1 také Signální hodiny Bauer & Co. Chemnitz; v aktuálním uspořádání je nahradily [Hodiny Kienzle](/sbirka/karta/inv-P107-hodiny-kienzle/) (inv. 91).*
