@@ -37,6 +37,16 @@ export default function rehypePicture(opts = {}) {
 
   return (tree) => {
     visit(tree, 'element', (node, index, parent) => {
+      // Linkované obrázky `[![]()](/img/x.jpg)` — <img> src se přepíše níže,
+      // ale wrapping <a href="/img/…"> by zůstal lokální → po `git rm public/img/`
+      // (A.26) by klik na zoom 404. Přepiš i href na R2 CDN.
+      if (node.tagName === 'a') {
+        const href = node.properties && node.properties.href;
+        if (cdnBase && typeof href === 'string' && href.startsWith('/img/')) {
+          node.properties.href = `${cdnBase}${href}`;
+        }
+        return;
+      }
       if (
         node.tagName !== 'img' ||
         !parent ||

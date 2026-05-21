@@ -17,12 +17,13 @@
  */
 const SUNDIAL_W = 496;
 const SUNDIAL_H = 459;
+import { cdnUrl } from '../utils/cdnImage';
 ---
 <figure class="klementinum" aria-label="Sluneční hodiny — Klementinum, Praha">
   <div class="klementinum-canvas">
     <img
       class="klementinum-photo"
-      src="/img/slunecni/klementinum_anim.jpg"
+      src={cdnUrl("/img/slunecni/klementinum_anim.jpg")}
       alt="Sluneční hodiny na jižní stěně Hospodářského dvora pražského Klementina"
       width={SUNDIAL_W}
       height={SUNDIAL_H}
@@ -31,7 +32,7 @@ const SUNDIAL_H = 459;
     />
     <img
       class="klementinum-overlay"
-      src="/img/slunecni/b0.gif"
+      src={cdnUrl("/img/slunecni/b0.gif")}
       alt="Sluneční hodiny umístěné na jižní stěně Hospodářského dvora pražského Klementina vyzdobené dětmi vypouštějícími mýdlové bubliny, další děti z dolních rohů do bublin foukají, uprostřed stojí přesýpací hodiny na lebce s hnáty — my jsme ty děti, které se bez užitku pachtějí za bublinami tohoto světa a zapomínáme na pomíjivost pozemského života, i když jsme varováni skrze hodiny před jeho krácením s každou uplynulou hodinou"
       width={SUNDIAL_W}
       height={SUNDIAL_H}

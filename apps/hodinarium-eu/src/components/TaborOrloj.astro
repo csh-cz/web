@@ -7,19 +7,20 @@
  * podle stejného vzoru jako ZidovskeHodiny / SlunecniHodinyKlementinum).
  *
  * Statické assety (podklad ciferníku + ručička) zrcadlené z
- * hodinarium.eu/tabor/ do /public/img/tabor/clock/.
+ * hodinarium.eu/tabor/ do /public/img/tabor/clock/ — servírováno z R2 přes cdnUrl (A.26).
  */
+import { cdnUrl } from '../utils/cdnImage';
 ---
 <figure class="tabor-orloj" aria-label="Animace táborského orloje — jednoručičkové 24h hodiny">
   <div class="tabor-orloj-canvas">
     <img class="tabor-podklad"
-         src="/img/tabor/clock/podklad.jpg"
+         src={cdnUrl("/img/tabor/clock/podklad.jpg")}
          alt="24-hodinový ciferník táborského orloje s číslicí 24 nahoře"
          width="350" height="262"
          loading="lazy" decoding="async" />
     <img class="tabor-rafie"
          data-tabor-rafie
-         src="/img/tabor/clock/rafie2.png"
+         src={cdnUrl("/img/tabor/clock/rafie2.png")}
          alt=""
          width="21" height="172" />
     <time class="tabor-cas" data-tabor-cas>00:00</time>
