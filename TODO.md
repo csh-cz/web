@@ -340,10 +340,20 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
                explicitní CC). R2-only (janata, digitalky1) pokryto.
          - [ ] Sleduj prod traffic — `hodinarium-eu.pages.dev` console na 404 `/img/`
          - [ ] Audit `pnpm deadlinks:audit` po týdnu — nulové broken images
-      5. **Plný přesun originálů z gitu** (stále OTEVŘENO) → samostatný PR
-         `chore: remove /public/img/ — now on R2` (`git rm -r apps/*/public/img/`).
-         Repo zhubne o stovky MB. **NEDĚLAT** dokud David nepotvrdí, že
-         R2 originály jsou kompletní (dnes jsou na R2 + v gitu zároveň).
+      5. **Plný přesun originálů z gitu** (BLOKOVÁNO — ověřeno 2026-05-21
+         přes Chrome UI test) → `git rm -r apps/*/public/img/` zatím
+         **NELZE**. jpg/png + avif/webp jsou na R2 (ověřeno), ALE část
+         obrázků se servíruje **lokálně z public/img, ne z R2**:
+         - **23 GIFů** (AFM_2, Mazan anim, Mobatime, atomove/schema…) —
+           imgvariants pipeline GIFy NEnahrává (UPLOAD_EXTS jen jpg/png/
+           avif/webp) a rehype-picture je nepřepisuje (RASTER_RE jen jpg|png).
+         - **raw `<img src="/img/…">` v komponentách** — `ZidovskeHodiny.astro`
+           (clock podklad+ručky), `horologie sponzoring.astro`, related-article
+           thumbnaily — obcházejí rehype-picture → lokální cesty.
+         Před git rm nutné: (a) rozšířit pipeline o GIF upload + GIF rewrite
+         na R2 (nebo GIFy nechat/konvertovat), (b) přepnout komponentové
+         `<img>` na R2 (cdnBase). Pak teprve odstranit z gitu. Do té doby
+         R2 + git koexistují (bezpečné, jen větší repo).
       6. Sveltia CMS upload widget: přepnout z git-commit binárek
          na R2 signed URL upload (custom CMS widget, ~1 den práce).
 
