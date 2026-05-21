@@ -94,6 +94,7 @@ const lokaceOrder = [
   'vitrina-1-vedlejsi', 'vitrina-2-vedlejsi', 'vitrina-3-vedlejsi',
   'vitrina-4-vedlejsi', 'vitrina-5-vedlejsi',
   'rohova-vitrina-vedlejsi',
+  'volne-vedlejsi',
 ];
 const byLokace = new Map<string, Exponat[]>();
 for (const code of lokaceOrder) byLokace.set(code, []);
@@ -126,6 +127,7 @@ const lokaceLabels: Record<string, string> = {
   'vitrina-4-vedlejsi': 'Vitrína 4 — Sál elektro',
   'vitrina-5-vedlejsi': 'Vitrína 5 — Sál elektro',
   'rohova-vitrina-vedlejsi': 'Rohová vitrína — Sál elektro',
+  'volne-vedlejsi': 'Volně — Sál elektro',
 };
 
 const total = items.length;
