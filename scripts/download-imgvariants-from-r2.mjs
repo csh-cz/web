@@ -59,7 +59,7 @@ const DRY_RUN = process.argv.includes('--dry-run');
 const extIdx = process.argv.indexOf('--ext');
 const EXTS = extIdx >= 0 && process.argv[extIdx + 1]
   ? process.argv[extIdx + 1].split(',').map((s) => s.trim().toLowerCase()).filter(Boolean)
-  : ['avif', 'webp'];
+  : ['avif', 'webp', 'jpg', 'jpeg', 'png'];
 const APPS = ['hodinarium-eu', 'horologie-cz'];
 const ORIG_EXTS = ['.jpg', '.jpeg', '.png'];
 
@@ -80,27 +80,43 @@ do {
 } while (token);
 console.log(`  ${keys.length} objektů na R2`);
 
-// --- 2. Vyber varianty + namapuj na app(y) s originálem ---
-function originalExistsInApp(app, variantKey) {
-  const base = variantKey.replace(/\.(avif|webp)$/i, '');
-  return ORIG_EXTS.some((e) => existsSync(join(ROOT, 'apps', app, 'public', base + e)));
+// --- 2. Routing: app, kam soubor patří ---
+// Varianty (avif/webp) routujeme k originálu (app, kde originál je v gitu);
+// pokud originál v gitu není (= R2-only, dřív už git-rm), default hodinarium-eu.
+// Originály (jpg/png) stahujeme JEN když nejsou v gitu nikde (R2-only) — git
+// kopie už v CI checkout je. Tím pokryjeme i fotky dřív přesunuté na R2.
+const DEFAULT_APP = 'hodinarium-eu';
+function gitAppForOriginal(origBaseKey) {
+  for (const app of APPS) {
+    for (const e of ORIG_EXTS) {
+      if (existsSync(join(ROOT, 'apps', app, 'public', origBaseKey + e))) return app;
+    }
+  }
+  return null;
+}
+function originalInGitAnywhere(originalKey) {
+  return APPS.some((app) => existsSync(join(ROOT, 'apps', app, 'public', originalKey)));
 }
 
+const stats0 = { variants: 0, orphanOriginals: 0 };
 const targets = []; // { key, dest }
 for (const key of keys) {
+  if (!key.startsWith('img/')) continue;
   const ext = key.slice(key.lastIndexOf('.') + 1).toLowerCase();
   if (!EXTS.includes(ext)) continue;
-  if (!key.startsWith('img/')) continue;
-  for (const app of APPS) {
-    // varianty routujeme tam, kde je originál; jpg/png přímo (mají originál = ony samy)
-    const isVariant = ext === 'avif' || ext === 'webp';
-    const dest = join(ROOT, 'apps', app, 'public', key);
-    if (isVariant ? originalExistsInApp(app, key) : existsSync(dest)) {
-      targets.push({ key, dest });
+  if (ext === 'avif' || ext === 'webp') {
+    const app = gitAppForOriginal(key.replace(/\.(avif|webp)$/i, '')) ?? DEFAULT_APP;
+    targets.push({ key, dest: join(ROOT, 'apps', app, 'public', key) });
+    stats0.variants++;
+  } else {
+    // originál (jpg/jpeg/png): jen R2-only (ne v gitu) → default app
+    if (!originalInGitAnywhere(key)) {
+      targets.push({ key, dest: join(ROOT, 'apps', DEFAULT_APP, 'public', key) });
+      stats0.orphanOriginals++;
     }
   }
 }
-console.log(`  ${targets.length} souborů ke stažení (ext: ${EXTS.join(', ')})`);
+console.log(`  ${targets.length} ke stažení (${stats0.variants} variant + ${stats0.orphanOriginals} R2-only originálů)`);
 if (DRY_RUN) { console.log('(dry-run) konec.'); process.exit(0); }
 
 // --- 3. Download s concurrency poolem ---

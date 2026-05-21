@@ -263,15 +263,19 @@ async function buildCreditIndex(contentDir) {
   const imageCredits = new Map();
   const articleFallback = new Map(); // slug → { author, originalUrl, title }
 
-  let files;
+  // Rekurzivně přes CELÉ content/ — ne jen content/<app>/. ::photo a foto[]
+  // žijí i v content/hodinari, /soupis-veznich-hodin, /kronika atd.; bez
+  // rekurze by ty obrázky spadly na default místo svého reálného creditu.
+  const files = [];
   try {
-    files = (await readdir(contentDir)).filter((f) => f.endsWith('.md') || f.endsWith('.mdx'));
+    for await (const f of walk(contentDir)) {
+      if (f.endsWith('.md') || f.endsWith('.mdx')) files.push(f);
+    }
   } catch {
     return imageCredits;
   }
 
-  for (const file of files) {
-    const abs = join(contentDir, file);
+  for (const abs of files) {
     let text;
     try {
       text = await readFile(abs, 'utf-8');
@@ -279,7 +283,7 @@ async function buildCreditIndex(contentDir) {
       continue;
     }
     const fm = parseFrontmatter(text);
-    const slug = fm.slug || file.replace(/\.(md|mdx)$/, '');
+    const slug = fm.slug || (abs.split('/').pop() || '').replace(/\.(md|mdx)$/, '');
     const title = fm.title || slug;
     const author = fm.author || '';
     const originalUrl = fm.originalUrl || '';
@@ -453,15 +457,19 @@ const progressTimer = setInterval(() => {
   process.stdout.write(`  [${elapsedS}s] scanned ${stats.scanned}, written ${stats.written}, skipped ${stats.skipped} (already had XMP), no-credit ${stats.noCredit}, failed ${stats.failed}\n`);
 }, 5000);
 
-for (const app of APPS) {
-  const contentDir = join(ROOT, 'content', app);
-  console.log(`\n=== ${app} ===`);
-  console.log(`▸ Building credit index from ${relative(ROOT, contentDir)}…`);
-  const imageCredits = await buildCreditIndex(contentDir);
+// Jeden sdílený credit index z CELÉHO content/ (klíče /img/ jsou sdílené
+// napříč apps i kolekcemi). Recursive → pokryje hodinarium-eu, horologie-cz,
+// hodinari, soupis-veznich-hodin, kronika, slovnik, kroky…
+console.log(`▸ Building credit index from ${relative(ROOT, join(ROOT, 'content'))}/ (recursive)…`);
+const imageCredits = await buildCreditIndex(join(ROOT, 'content'));
+{
   const photoDirectiveCount = [...imageCredits.values()].filter((c) => c.source === 'photo-directive').length;
   const frontmatterCount = [...imageCredits.values()].filter((c) => c.source === 'frontmatter').length;
-  console.log(`  ${imageCredits.size} credit entries (${photoDirectiveCount} z ::photo direktiv, ${frontmatterCount} z frontmatter fallback)`);
+  console.log(`  ${imageCredits.size} credit entries (${photoDirectiveCount} z ::photo direktiv, ${frontmatterCount} z frontmatter/markdown fallback)`);
+}
 
+for (const app of APPS) {
+  console.log(`\n=== ${app} ===`);
   const publicImg = join(ROOT, 'apps', app, 'public', 'img');
   if (!existsSync(publicImg)) {
     console.log(`  ⚠ ${relative(ROOT, publicImg)} neexistuje, skip.`);
