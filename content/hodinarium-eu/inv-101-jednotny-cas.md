@@ -29,12 +29,12 @@ editorNotes:
     noteKey: manual-edit-false
 ---
 
-![](/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg)
+![fotografie sbírkového předmětu](/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg)
 
-![](/img/elektrika/jednotny_cas/artdeco/f/celek_jednotny_cas.jpg)
+![fotografie sbírkového předmětu](/img/elektrika/jednotny_cas/artdeco/f/celek_jednotny_cas.jpg)
 
-![](/img/elektrika/jednotny_cas/artdeco/f/detail_a.jpg)
+![fotografie sbírkového předmětu](/img/elektrika/jednotny_cas/artdeco/f/detail_a.jpg)
 
-![](/img/elektrika/jednotny_cas/artdeco/f/detail_b.jpg)
+![fotografie sbírkového předmětu](/img/elektrika/jednotny_cas/artdeco/f/detail_b.jpg)
 
-![](/img/elektrika/jednotny_cas/artdeco/f/schema.jpg)
+![fotografie sbírkového předmětu](/img/elektrika/jednotny_cas/artdeco/f/schema.jpg)

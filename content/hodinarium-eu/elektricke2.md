@@ -20,15 +20,15 @@ Kyvadlovým elektricky postrkovaným hodinám se budeme věnovat na samostatné 
 **Hodiny ELCHRON Polná
 **cca padesátá léta minulého století.
 
-**Hodiny s impulzem do setrvačky, mechanicky spínané,** **s jednostranným postrčením hodinového stroje.**![](/img/elektrika/elchron1.jpg)
+**Hodiny s impulzem do setrvačky, mechanicky spínané,** **s jednostranným postrčením hodinového stroje.**![ilustrační obrázek](/img/elektrika/elchron1.jpg)
 
-Datování hodin je poněkud nepřesné. Vychází ze štítku Elchron Polná, tedy ze jména družstva, které vzniklo jistě po roce 1947 po přesunutí výroby firmy J Kulhavého z Prahy do Polné. Firma J. Kulhavý se dlouho před 2. světovou válkou zabývala hodinářskou výrobou. V 30. letech zakoupila patent od IBM na výrobu elektrických hodin, které v několika typech vyráběla. Výroba byla po válce obnovena, a pak patrně převedena do Polné ??![](/img/elektrika/elchron2.jpg)
+Datování hodin je poněkud nepřesné. Vychází ze štítku Elchron Polná, tedy ze jména družstva, které vzniklo jistě po roce 1947 po přesunutí výroby firmy J Kulhavého z Prahy do Polné. Firma J. Kulhavý se dlouho před 2. světovou válkou zabývala hodinářskou výrobou. V 30. letech zakoupila patent od IBM na výrobu elektrických hodin, které v několika typech vyráběla. Výroba byla po válce obnovena, a pak patrně převedena do Polné ??![ilustrační obrázek](/img/elektrika/elchron2.jpg)
 
 Hodiny jdou na 4,5 voltovou baterii a jsou spínané přímo kontaktem na hřídeli setrvačky. Rovněž postrčení rohatky hodinového stroje provádí pružina na setrvačce v jednom směru. Při návratu [setrvačkové](/slovnik/setrvacka) pružiny je rohatka zastavena brzdící pružinou. Celý systém působí velmi jednoduše a je i v současné době v chodu.
 
 **Ruský budík SLAVA**
 
-**![](/img/elektrika/slava.jpg)** **Hodiny s impulzem do setrvačky, spínaní elektronicky, popud obousměrný.**
+**![ilustrační obrázek](/img/elektrika/slava.jpg)** **Hodiny s impulzem do setrvačky, spínaní elektronicky, popud obousměrný.**
 
 Detail tohoto "kroku" je zde uveden jako ukázka novějšího řešení. Nad i pod cívkou elekromagnenu kmitají vahadla setrvačky s permanentním magnetem a nemagnetickou protiváhou. Krokové kolo je střídavě postrkováno z obou stran. Elektronika je realizována obvodem s jedním tranzistorem.
 

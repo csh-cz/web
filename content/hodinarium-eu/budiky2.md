@@ -27,26 +27,26 @@ Objevuje se ale i odlišná technická varianta budicího mechanismu u tohoto ty
 **
 D**oba buzení se zde nastavuje mosaznou ručkou, kterou se otáčí ve směru šipky na číselníku. Ručka je upevněna na mosazné trubičce, která je volně nasazena na hodinovém kole. Na trubce je v drážce nasazeno rameno a na jejím spodním obvodě je výřez. Celá trubička je potom pružinou přitlačována proti čepu, který je na hodinovém kole.
 
-![](/img/budiky1/budik_schw3.jpg)Ke spuštění buzení dochází v okamžiku, kdy čep zapadne do výřezu a tím se trubička přitlačována pružinou posune směrem dozadu. Dojde tak i k pohybu ramene, které odblokuje hnací [soukolí](/slovnik/soukoli).
+![fotografie sbírkového předmětu](/img/budiky1/budik_schw3.jpg)Ke spuštění buzení dochází v okamžiku, kdy čep zapadne do výřezu a tím se trubička přitlačována pružinou posune směrem dozadu. Dojde tak i k pohybu ramene, které odblokuje hnací [soukolí](/slovnik/soukoli).
 
 **Hnací soukolí pomocí vačky přetváří točivý pohyb na pohyb kmitavý a ten pomocí [kladívka](/slovnik/kladivko) rozezní zvonek.** To je dost podstatný rozdíl proti běžným budicím strojům, které používají krokové ústrojí, respektive kotvu a krokové kolo. Systém s krokovým kolem najdeme i u švarcvaldek například [zde.](/sbirka/budiky1#budik2)
 
 ## Hodiny menšího průměru s ozdobným závěsem zvonku
 
-![](/img/budiky1/budik_schw5.jpg)![](/img/budiky1/budik_schw6.jpg)![](/img/budiky1/budik_schw7.jpg)
+![fotografie sbírkového předmětu](/img/budiky1/budik_schw5.jpg)![fotografie sbírkového předmětu](/img/budiky1/budik_schw6.jpg)![fotografie sbírkového předmětu](/img/budiky1/budik_schw7.jpg)
 
 ## Stroj vyrobený firmou Kienzle
 
-![](/img/budiky1/budik_schw8.jpg)![](/img/budiky1/budik_schw9.jpg)[![Na zadní straně tohoto stroje je uveden datum prodeje a následných oprav](/img/budiky1/budik_schw10_n.jpg)](/img/budiky1/budik_schw10.jpg)
+![fotografie sbírkového předmětu](/img/budiky1/budik_schw8.jpg)![fotografie sbírkového předmětu](/img/budiky1/budik_schw9.jpg)[![Na zadní straně tohoto stroje je uveden datum prodeje a následných oprav](/img/budiky1/budik_schw10_n.jpg)](/img/budiky1/budik_schw10.jpg)
 
 Na zadní straně tohoto stroje je uveden datum prodeje a následných oprav.
 
 ## Stroj doplněn o půlový bicí mechanismus
 
-![](/img/budiky1/budik_schw11.jpg)
-![](/img/budiky1/budik_schw12.jpg)
-![](/img/budiky1/budik_schw14.jpg)
+![fotografie sbírkového předmětu](/img/budiky1/budik_schw11.jpg)
+![fotografie sbírkového předmětu](/img/budiky1/budik_schw12.jpg)
+![fotografie sbírkového předmětu](/img/budiky1/budik_schw14.jpg)
 
 ## A na závěr lahůdka. Hodiny s “návodem na použití“, který je napsaný na zadní straně stroje.
 
-![](/img/budiky1/budik_schw15.jpg)![](/img/budiky1/budik_schw16.jpg)![](/img/budiky1/budik_schw18.jpg)![](/img/budiky1/budik_schw17.jpg)
+![fotografie sbírkového předmětu](/img/budiky1/budik_schw15.jpg)![fotografie sbírkového předmětu](/img/budiky1/budik_schw16.jpg)![fotografie sbírkového předmětu](/img/budiky1/budik_schw18.jpg)![fotografie sbírkového předmětu](/img/budiky1/budik_schw17.jpg)

@@ -18,14 +18,14 @@ Jicí a [bicí stroj](/slovnik/bici-stroj) uloženy za sebou. Vyráběly se tak 
 
 *Stav strojů je před restaurací. Možná tak chvíli zůstane, protože i restaurátor v tomto počasí zaujímá raději místo v zahrádce před restaurací :-)*
 
-![](/img/svarcvald/stroj_polodrev1.jpg)![](/img/svarcvald/stroj_polodrev1b.jpg)
+![ilustrační obrázek](/img/svarcvald/stroj_polodrev1.jpg)![ilustrační obrázek](/img/svarcvald/stroj_polodrev1b.jpg)
 
-![](/img/svarcvald/stroj_polodrev2.jpg)![](/img/svarcvald/stroj_polodrev2b.jpg)
+![ilustrační obrázek](/img/svarcvald/stroj_polodrev2.jpg)![ilustrační obrázek](/img/svarcvald/stroj_polodrev2b.jpg)
 
 Jiná varianta polodřevěného stroje v nálezovém stavu. Zejména koroze železných drátů značně pokročila. Pravděpodobně pochází z lehce starších hodin. Trochu více dřeva než u předcházejícího stroje. Dřené jsou i hřídele bicího mechanizmu. Také skříň je trochu větší. Závaží visela na provazech. Místo řetězových kol jsou zde klínové kladky. Stroj není kompletní. Chybí krok, závěrkové i minutové kolo, bicí spirála a zadní stěna. Na stroji není patrné zadní ložisko hřídele krokového kola, lze tedy předpokládat, že šlo o štólové hodiny s hřídelí končící až za zadní stěnou.
 
 *Vrátí-li s restaurátor z restaurace, doplníme obrázky.*
 
-![](/img/svarcvald/stroj_polodrev3.jpg)![](/img/svarcvald/stroj_polodrev3b.jpg)
+![ilustrační obrázek](/img/svarcvald/stroj_polodrev3.jpg)![ilustrační obrázek](/img/svarcvald/stroj_polodrev3b.jpg)
 
 >)

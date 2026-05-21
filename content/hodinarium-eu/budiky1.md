@@ -39,13 +39,13 @@ Vlevo dole: dvouramenná palička, krokové kolo; Šikmo středem: vřeteno s tr
 
 Zde je řešení podobné, jen krokové kolo a krok je jiný.
 
-![](/img/budiky1/budik_schwarz3.jpg)
+![fotografie sbírkového předmětu](/img/budiky1/budik_schwarz3.jpg)
 
-![](/img/budiky1/budik_schwarz1.jpg)
+![fotografie sbírkového předmětu](/img/budiky1/budik_schwarz1.jpg)
 
-![](/img/budiky1/budik_schwarz2.jpg)
+![fotografie sbírkového předmětu](/img/budiky1/budik_schwarz2.jpg)
 
-![](/img/budiky1/budik_schwarz4.jpg)
+![fotografie sbírkového předmětu](/img/budiky1/budik_schwarz4.jpg)
 
 Téměř celý budící stroj vpravo nahoře.
 

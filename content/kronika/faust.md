@@ -73,18 +73,18 @@ Propukly nadšené ovace a druhá Faustova proklatá obruč byla zlomena.
 
 Děti si to náramně užily a teď už nezbývá než doufat, že nějaký čert ty hodiny se zdi nesrazí. Například houbou. To se tak ve škole někdy stává.
 
-![Fotografie 1](/img/faust/f/foto_0001.jpg)
+![ilustrační obrázek](/img/faust/f/foto_0001.jpg)
 
-![Fotografie 2](/img/faust/f/foto_0002.jpg)![Fotografie 3](/img/faust/f/foto_0003.jpg)
+![ilustrační obrázek](/img/faust/f/foto_0002.jpg)![ilustrační obrázek](/img/faust/f/foto_0003.jpg)
 
-![Fotografie 4](/img/faust/f/foto_0004.jpg)![Fotografie 5](/img/faust/f/foto_0005.jpg)
+![ilustrační obrázek](/img/faust/f/foto_0004.jpg)![ilustrační obrázek](/img/faust/f/foto_0005.jpg)
 
-![Fotografie 6](/img/faust/f/foto_0006.jpg)![Fotografie 7](/img/faust/f/foto_0007.jpg)
+![ilustrační obrázek](/img/faust/f/foto_0006.jpg)![ilustrační obrázek](/img/faust/f/foto_0007.jpg)
 
-![Fotografie 8](/img/faust/f/foto_0008.jpg)![Fotografie 9](/img/faust/f/foto_0009.jpg)
+![ilustrační obrázek](/img/faust/f/foto_0008.jpg)![ilustrační obrázek](/img/faust/f/foto_0009.jpg)
 
-![Fotografie 10](/img/faust/f/foto_0010.jpg)![Fotografie 11](/img/faust/f/foto_0011.jpg)
+![ilustrační obrázek](/img/faust/f/foto_0010.jpg)![ilustrační obrázek](/img/faust/f/foto_0011.jpg)
 
-![Fotografie 12](/img/faust/f/foto_0012.jpg)![Fotografie 13](/img/faust/f/foto_0013.jpg)
+![ilustrační obrázek](/img/faust/f/foto_0012.jpg)![ilustrační obrázek](/img/faust/f/foto_0013.jpg)
 
-![Fotografie 14](/img/faust/f/foto_0014.jpg)![Fotografie 15](/img/faust/f/foto_0015.jpg)
+![ilustrační obrázek](/img/faust/f/foto_0014.jpg)![ilustrační obrázek](/img/faust/f/foto_0015.jpg)

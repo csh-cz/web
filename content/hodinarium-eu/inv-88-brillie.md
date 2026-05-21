@@ -25,15 +25,15 @@ karta:
 thumbnail: '/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg'
 ---
 
-![](/img/elektrika/brillie/Brillie4.jpg)
+![fotografie sbírkového předmětu](/img/elektrika/brillie/Brillie4.jpg)
 
-![](/img/elektrika/brillie/Brillie5.jpg)
+![fotografie sbírkového předmětu](/img/elektrika/brillie/Brillie5.jpg)
 
-![](/img/elektrika/brillie/Brillie6.jpg)
+![fotografie sbírkového předmětu](/img/elektrika/brillie/Brillie6.jpg)
 
-![](/img/elektrika/brillie/Brillie_x2_m.jpg)
+![fotografie sbírkového předmětu](/img/elektrika/brillie/Brillie_x2_m.jpg)
 
-![](/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg)
+![fotografie sbírkového předmětu](/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg)
 
 Hodiny dostávají impulz do [kyvadla](/slovnik/kyvadlo), na kterém je zavěšen zvláštní tvarovaný magnet. Ke [kyvadlu](/slovnik/kyvadlo) je připevněna západka, která při každém kyvu pootočí pohonem rotorku. Ta zároveň sepne kontakt pro impulz do cívky a posune posunovacím strojkem.
 

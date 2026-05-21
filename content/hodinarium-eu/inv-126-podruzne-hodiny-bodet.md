@@ -30,12 +30,12 @@ editorNotes:
     noteKey: manual-edit-false
 ---
 
-![](/img/H715_BODET/foto_0001.jpg)
+![fotografie sbírkového předmětu](/img/H715_BODET/foto_0001.jpg)
 
-![](/img/H715_BODET/foto_0002.jpg)
+![fotografie sbírkového předmětu](/img/H715_BODET/foto_0002.jpg)
 
-![](/img/H715_BODET/foto_0003.jpg)
+![fotografie sbírkového předmětu](/img/H715_BODET/foto_0003.jpg)
 
-![](/img/H715_BODET/foto_0004.jpg)
+![fotografie sbírkového předmětu](/img/H715_BODET/foto_0004.jpg)
 
-![](/img/H715_BODET/schema1.jpg)
+![fotografie sbírkového předmětu](/img/H715_BODET/schema1.jpg)

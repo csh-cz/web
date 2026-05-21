@@ -13,7 +13,7 @@ scrapedAt: "2026-04-27T17:36:32.117Z"
 ---
 **Český spolek horologický nyní buduje [Hodinárium na zámku Děčín](/o-hodinariu). Přesun hodinářské expozice byl vyvolán postojem soběslavské radnice. Nová expozice tak sice přišla o [nejstarší exponát,](/kronika/vez1) získala však mnohem větší prostory a podporu vedení zámku. Následující text a ilustrující fotografie berte jako vzpomínku na několikaleté působení spolku na věži. I po odsunu hodinářské technologie na věži zůstává [starý soběslavský stroj](/kronika/vez1) a zvonařská část. Stojí za to věž navštívit.**
 
-![Fotografie 10](/img/vez/28_11_2010/foto_010.jpg)
+![ilustrační obrázek](/img/vez/28_11_2010/foto_010.jpg)
 
 *Bývá zvykem, že muzeum je tvořeno několika místnostmi, rozmístěnými na ploše. Ve věži je tomu trochu jinak. Zde musíte k jednotlivým částem expozice vystupovat po poněkud krkolomném schodišti.* *Ve většině věží je cílem návštěvníků dostat se až nahoru a obdivovat pohled do okolí.* *Soběslavská věž nabízí zajímavé pohledy už během cesty.*
 
@@ -46,7 +46,7 @@ Muzejíčko se nezaměřovalo jen na hodiny "seriózní", ale zajímalo se také
 
 Nesmíme zapomínat ani na [stroj Elektročas z roku 1959](/sbirka/vez-elektrocas1959), který dosud řídí ručičky věže. I on je historickým exponátem, právě tak jako rumpál na úrovni ochozu věže.
 
-![Fotografie 12](/img/vez/zvony/petrvok/sveceni/f/foto_0012.jpg)
+![ilustrační obrázek](/img/vez/zvony/petrvok/sveceni/f/foto_0012.jpg)
 
 ## Zvony a cimbály
 

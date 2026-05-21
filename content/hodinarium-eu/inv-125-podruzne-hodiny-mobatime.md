@@ -31,14 +31,14 @@ editorNotes:
     noteKey: manual-edit-false
 ---
 
-![](/img/Mobatime/3218C1.jpg)
+![fotografie sbírkového předmětu](/img/Mobatime/3218C1.jpg)
 
-![](/img/Mobatime/HN60IP20.jpg)
+![fotografie sbírkového předmětu](/img/Mobatime/HN60IP20.jpg)
 
-![](/img/Mobatime/NTP_LAN.jpg)
+![fotografie sbírkového předmětu](/img/Mobatime/NTP_LAN.jpg)
 
-![](/img/Mobatime/OMA50.jpg)
+![fotografie sbírkového předmětu](/img/Mobatime/OMA50.jpg)
 
-![](/img/Mobatime/OMA50_v.jpg)
+![fotografie sbírkového předmětu](/img/Mobatime/OMA50_v.jpg)
 
-![](/img/Mobatime/PIK_dcf1.jpg)
+![fotografie sbírkového předmětu](/img/Mobatime/PIK_dcf1.jpg)

@@ -19,7 +19,7 @@ Od nejstarších dob do nedaleké minulosti měly švarcvaldky dřevěný rám s
 
 Vyráběné stroje se lišily velikostí rámu, velikostí [kyvadla](/slovnik/kyvadlo) a tím jiným poměrem ozubení, dále bicím zařízením, [budíkem](/sbirka/budiky1#budik2) či kukačkou. Neměnila se však základní koncepce stroje. Jicí stroj s typickým kyvadlovým černoleským krokem má pouze 3 kola hlavního [soukolí](/slovnik/soukoli) (hnací kolo, mezilehlé kolo a krokové kolo). Převod na ručičky je odvozen přímo od hnacího kola. Na stejné hřídeli je nasazeno "střídné" kolo s pastorkem zabírající do hodinového i minutového kola. Výjimku tvoří pouze pérový stroj, který pro zmenšení počtu otáček pérovníku, má jedno mezilehlé kolo navíc.
 
-V průběhu 18. a 19. století se podstatně měnila technologie výroby ozubených kol.![](/img/svarcvald/technologie.jpg) Nejstarší hodiny měly zcela dřevěná kola. Později zůstal dřevěný pouze náboj (často s železným trnem ložiska). Lucernový pastorek měl nadále dřevěná čela. Ozubená kola byla mosazná. Ještě později byla celá kolečka mosazná nadále s lucernovým pastorkem. Trochu s humorem nazýváme jednotlivé způsoby výroby převodů "**doba dřevěná**", "**doba polodřevěná**" a "**doba mosazná**".
+V průběhu 18. a 19. století se podstatně měnila technologie výroby ozubených kol.![ilustrační obrázek](/img/svarcvald/technologie.jpg) Nejstarší hodiny měly zcela dřevěná kola. Později zůstal dřevěný pouze náboj (často s železným trnem ložiska). Lucernový pastorek měl nadále dřevěná čela. Ozubená kola byla mosazná. Ještě později byla celá kolečka mosazná nadále s lucernovým pastorkem. Trochu s humorem nazýváme jednotlivé způsoby výroby převodů "**doba dřevěná**", "**doba polodřevěná**" a "**doba mosazná**".
 
 Obrázek ukazuje ve spodní části stejnou součástku - minutové kolo - ve všech zmíněných technologiích. Na obrázku jsou také hnací kolo pro šňůrový pohon a hodinová kola a krokové kolo bez hřídele.
 
@@ -31,14 +31,14 @@ Defilé strojů z 19. a 20. století symbolicky zahájíme fotografií nádhern�
 
 Celodřevěné, trochu nepřesně datované, hodiny jsou [**zde**](/konstrukce/svarcvaldky-17stol) na samostatné stránce.
 
-![](/img/svarcvald/sw_d1.jpg)
+![ilustrační obrázek](/img/svarcvald/sw_d1.jpg)
 
 Polodřevěné hodiny (možná kolem roku 1825), stroje uspořádány za sebou.
 Bicí palička udeří zdola na rozdíl od druhého stroje, kde dopadá shora.
 
 <<<<<<<<
 
-![](/img/svarcvald/sw_d2.jpg)
+![ilustrační obrázek](/img/svarcvald/sw_d2.jpg)
 
 Polodřevěné hodiny, stroje uspořádány vedle sebe.
 Tento stroj je doplněn kukačkou, ze které zde ovšem téměř nic není vidět.
@@ -59,7 +59,7 @@ Asi dnes nejběžnější **"škoťáky**, neboli **šotské hodiny".** Stroje u
 Výška 92 mm. (měřena mezi základnami)
 Půlové bití.
 
-![](/img/svarcvald/sw_d4.jpg)
+![ilustrační obrázek](/img/svarcvald/sw_d4.jpg)
 
 !
 
@@ -75,14 +75,14 @@ Více fotografií tohoto typu hodin po restaurování si můžete prohlédnout [
 
 \>>>>>>>>
 
-![](/img/svarcvald/s-lak2det7.jpg)
+![ilustrační obrázek](/img/svarcvald/s-lak2det7.jpg)
 
 Pérové švarcvaldky s "normálním" uspořádáním strojů.
 Bicí palička však dopadá shora.
 Možná KIENZLE, 30. léta 20. století ?
 <<<<<<<<
 
-![](/img/svarcvald/sw_d6.jpg)
+![ilustrační obrázek](/img/svarcvald/sw_d6.jpg)
 
 Poměrně vzácné **pérové švarcvaldky se stroji stranově obrácenými.**Při pohledu od číselníku je jicí stroj vpravo, bicí vlevo.
 \>>>>>>>>

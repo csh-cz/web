@@ -29,8 +29,8 @@ editorNotes:
     noteKey: manual-edit-false
 ---
 
-![](/img/datumatic/f/foto_0003.jpg)
+![fotografie sbírkového předmětu](/img/datumatic/f/foto_0003.jpg)
 
-![](/img/datumatic/f/foto_0004.jpg)
+![fotografie sbírkového předmětu](/img/datumatic/f/foto_0004.jpg)
 
-![](/img/datumatic/f/foto_0005.jpg)
+![fotografie sbírkového předmětu](/img/datumatic/f/foto_0005.jpg)
