@@ -184,7 +184,14 @@ import imageSizes from '../data/image-sizes.json';
   }
   .prose-content .clearfix { clear: both; }
 
-  .prose-content p:has(> img:only-child) {
+  .prose-content p:has(> img:only-child),
+  .prose-content p:has(> picture:only-child) {
+    display: contents;
+  }
+  /* rehype-picture zabalí <img> do <picture> (avif/webp). <picture> je
+     inline wrapper bez vlastního vizuálu — udělej ho transparentní pro
+     layout, ať se float/grid/hero pravidla aplikují přímo na <img>. */
+  .prose-content picture {
     display: contents;
   }
   .prose-content {
@@ -621,6 +628,16 @@ import imageSizes from '../data/image-sizes.json';
 
     const sizes = imageSizes;
 
+    // image-sizes.json klíčuje lokální `/img/...` cestou, ale rehype-picture
+    // přepisuje <img src> na R2 CDN URL (https://pub-….r2.dev/img/…). Před
+    // lookupem musíme src normalizovat zpět na `/img/…`, jinak klasifikace
+    // nenajde rozměry a spadne na default 'medium' (rozbije galerie + lightbox).
+    const normalizeSrc = (raw) => {
+      if (!raw) return '';
+      const i = raw.indexOf('/img/');
+      return i >= 0 ? raw.slice(i) : raw;
+    };
+
     // 0. První obrázek → automaticky img-hero (pokud nemá manuální override)
     const allImgs = Array.from(article.querySelectorAll('img'));
     if (allImgs.length > 0) {
@@ -639,7 +656,7 @@ import imageSizes from '../data/image-sizes.json';
         img.classList.contains('img-full') ||
         img.classList.contains('img-standalone')
       ) continue;
-      const src = img.getAttribute('src') || '';
+      const src = normalizeSrc(img.getAttribute('src') || '');
       const dim = sizes[src];
       const klass = dim ? dim.size : 'medium';
       img.classList.add(`img-${klass}`);
@@ -679,6 +696,7 @@ import imageSizes from '../data/image-sizes.json';
           return Array.from(el.childNodes).every((n) =>
             n.nodeType !== 1 ||
             n.tagName === 'IMG' ||
+            n.tagName === 'PICTURE' ||
             n.tagName === 'A' ||
             n.tagName === 'BR'
           );
@@ -748,7 +766,8 @@ import imageSizes from '../data/image-sizes.json';
       if (el.querySelectorAll('img.img-large').length === 0) return false;
       return Array.from(el.childNodes).every((n) =>
         n.nodeType !== 1 ||
-        n.tagName === 'IMG' || n.tagName === 'A' || n.tagName === 'BR'
+        n.tagName === 'IMG' || n.tagName === 'PICTURE' ||
+        n.tagName === 'A' || n.tagName === 'BR'
       );
     };
     const isShortCaptionP = (el) => {
@@ -792,7 +811,11 @@ import imageSizes from '../data/image-sizes.json';
           for (const img of Array.from(p.querySelectorAll('img'))) {
             const fig = document.createElement('figure');
             fig.className = 'gallery-item';
-            fig.appendChild(img);
+            // Pokud je <img> zabalený v <picture> (rehype-picture avif/webp),
+            // přesuň celý <picture>, jinak osiří <source> elementy a přijdeme
+            // o moderní formáty.
+            const pic = img.closest('picture');
+            fig.appendChild(pic || img);
             gallery.appendChild(fig);
             pendingFigure = fig;
           }
