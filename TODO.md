@@ -305,14 +305,23 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
          reálné R2 credentials v `.dev.vars`, dnes placeholder; David
          spustí).
       2. ~~Před uploadem: pro každý soubor zavolat `exiftool` a zapsat
-         XMP do binárky (autor, licence, zdroj, rok).~~ ✅ 2026-05-19
-         → `scripts/write-xmp-metadata.mjs`. Dokončeno na lokálních
-         souborech: hodinarium-eu 2 471/2 678 XMP zapsáno, horologie-cz
-         105/105. 1 803 souborů dostalo default `Archiv ČSH / autor
-         neznámý` — credit pokrytí v článcích je dnes 909 frontmatter +
-         4 ::photo entries; **zlepšení credit pokrytí je samostatný úkol**
-         (vyžaduje per-foto review autorů). Idempotent — re-run neměnní
-         soubory, kde už XMP je.
+         XMP do binárky (autor, licence, zdroj, rok).~~ ✅ 2026-05-19,
+         **přepracováno + spuštěno na R2 2026-05-21**.
+         → `scripts/write-xmp-metadata.mjs`. Dnes píše **plný licenční
+         chain** (XMP-xmpRights:Marked/UsageTerms/WebStatement, XMP-cc:license
+         /attributionName/attributionURL, dc:Rights/Source/Subject + IPTC
+         mirror) — ne jen Creator/Rights. Tři případy: explicitní CC /
+         se-svolením (externí, NEclaimovat CC) / default CC BY 4.0; navíc
+         Public Domain Mark. Píše i do **AVIF/WebP variant** (sharp je
+         stripuje). **Credit pokrytí vyřešeno** (dřív „samostatný úkol"):
+         rekurzivní credit index přes celé `content/` (ne jen `content/<app>/`)
+         + parsování `foto[]`/`portret`/`hero` frontmatter (yaml) + autor
+         heuristika z `(foto X)` v názvu (NFD-fold). Pravidlo: skill
+         `obrazky` §6.1/§6.1.1 + memory `feedback_foto_licence_pravidlo`.
+         **Backfill na R2 proběhl** (CI `backfill_metadata` mode — viz krok
+         4): 2783 git-present + R2-only fotky (janata, digitalky1), ověřeno
+         na R2 že jpg+avif+webp nesou licenci. Distribuce: ~2666 default
+         CC BY 4.0 · 102 se-svolením · 12 public-domain · 3 explicitní CC.
       3. ~~`<ResponsivePicture/>` přepnout originály na R2 URL přes
          existing `cdnBase` config (žádný nový kód).~~ ✅ 2026-05-19
          → Markdown `![]()` už šlo přes rehype-picture s cdnBase
@@ -320,33 +329,35 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
          `::photo` direktiv) ale obcházela rehype pipeline → patchnuto
          přidat stejný R2 rewrite + `<picture>` wrapping s AVIF/WebP
          srcsetem.
-      4. **Validation week** (2026-05-19 → 2026-05-26):
-         - [ ] Spustit `pnpm migrate:originals` s reálnými credentials
-               (David, ~10 min uplinkem, 807 MB).
-         - [ ] Curl ověření: `curl -I https://pub-…r2.dev/img/...jpg`
-               vrátí 200 + `x-amz-meta-creator` header.
-         - [ ] Sleduj prod traffic — `hodinarium-eu.pages.dev` browser
-               console na chyby 404 pro `/img/`.
-         - [ ] Audit `pnpm deadlinks:audit` po týdnu — nulové broken images.
-      5. **Po validation week (~2026-05-26)** → samostatný PR
-         `chore: remove /public/img/ — now on R2` se commit
-         `git rm -r apps/*/public/img/`. Repo zhubne o stovky MB.
-         **NEDĚLAT** dokud David nepotvrdí validation week pass.
+      4. ~~**Metadata embed na R2**~~ ✅ **HOTOVO 2026-05-21** — bez
+         lokálních creds, celé přes CI. Nový `workflow_dispatch` mode
+         `backfill_metadata` v `imgvariants-r2-sync.yml`: stáhne varianty
+         z R2 (`scripts/download-imgvariants-from-r2.mjs`) + R2-only
+         originály → embed `--force` (full licence chain) → re-upload na R2.
+         Diff-mode embeduje nové fotky automaticky při každém pushi.
+         - [x] Embed + upload na R2 (jpg+avif+webp) — ověřeno curl+exiftool
+               (default CC BY 4.0, se-svolením bez cc:license, PD mark,
+               explicitní CC). R2-only (janata, digitalky1) pokryto.
+         - [ ] Sleduj prod traffic — `hodinarium-eu.pages.dev` console na 404 `/img/`
+         - [ ] Audit `pnpm deadlinks:audit` po týdnu — nulové broken images
+      5. **Plný přesun originálů z gitu** (stále OTEVŘENO) → samostatný PR
+         `chore: remove /public/img/ — now on R2` (`git rm -r apps/*/public/img/`).
+         Repo zhubne o stovky MB. **NEDĚLAT** dokud David nepotvrdí, že
+         R2 originály jsou kompletní (dnes jsou na R2 + v gitu zároveň).
       6. Sveltia CMS upload widget: přepnout z git-commit binárek
          na R2 signed URL upload (custom CMS widget, ~1 den práce).
 
       **Metadata strategie trojvrstvě:** XMP v binárce (čte Photoshop /
-      Lightroom + náš build pipeline přes `exifr`), R2 custom metadata
-      (rychlý lookup bez stahování), frontmatter `alt`/`caption`
-      (povinný pro a11y, kontext-specific).
+      Lightroom + náš build pipeline přes `exifr`) — ✅ hotovo; R2 custom
+      metadata `x-amz-meta-*` (rychlý lookup bez stahování) — volitelné,
+      zatím neuděláno; frontmatter `alt`/`caption` (povinný pro a11y).
 
-      **Akce pro Davida:**
-      - Nastavit reálné R2 credentials v `.dev.vars` (lokálně) — dnes
-        v `.dev.vars` placeholder `<co máš v GH secrets…>`. Bez nich
-        nelze `pnpm migrate:originals` spustit.
-      - Spustit `pnpm migrate:originals` lokálně (jednorázový bulk),
-        ne pushovat zatím změny do `public/img/` (jsou jen XMP-modified
-        binary, commitnuto pro reproducibility).
+      **Akce pro Davida (zbývá, nižší priorita):**
+      - Metadata embed už NEvyžaduje lokální creds (běží v CI). Lokální
+        cesta (`pnpm xmp:write && pnpm imgvariants:upload` nebo
+        `migrate:originals`) je blokovaná — `.dev.vars` má placeholder
+        `<co máš v GH secrets…>`, ne reálný R2 token. Potřeba jen pokud
+        chce David lokální R2 operace (krok 5 git-rm to nepotřebuje).
       - Připravit `imgcdn.<doména>` DNS po A.9.
 
 ---
