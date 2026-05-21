@@ -365,25 +365,19 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
 Vzešlo z foto-licence + XMP embed práce. Obě položky **ověřeny jako stále
 relevantní** (live / v kódu).
 
-- [ ] **Markdown v `author` props** — 19 výskytů `author="[Jméno](url)"` ve
-      `::photo` direktivách (`hodinari/jan-janata.mdx`, `hodinarium-eu/zidovske.mdx`,
-      `soupis-veznich-hodin/*-janata.mdx`, `…/skala-realizace-*.mdx`).
-      Renderuje se **doslova** v creditu na webu — ověřeno live:
-      „Foto: [Petr Skála](/hodinari/petr-skala) · …". Fix: rozdělit na
-      `author="Jméno" authorUrl="url"` (Photo.astro autora s `authorUrl` obalí
-      do `<a>`). Pozn.: XMP embed je OK (`cleanAuthor` markdown stripuje), bug
-      je **jen v zobrazení**. **Relevance: ANO** (živé, ~19 míst, malá změna).
-      `grep -rnoE 'author="\[[^"]*\]\([^"]*\)"' content/`
+- [x] **Markdown v `author` props** — ✅ HOTOVO 2026-05-21 (commit `117d6842`).
+      19 výskytů `author="[Petr Skála](/hodinari/petr-skala)"` v `::photo`
+      (11 souborů: jan-janata, zidovske, soupis `*-janata`/`skala-realizace-*`)
+      rozděleno na `author="Petr Skála" authorUrl="/hodinari/petr-skala"`.
+      Ověřeno v dist: credit renderuje `<a href="/hodinari/petr-skala">Petr
+      Skála</a>`, 0 syrového markdownu.
 
-- [ ] **R2 sync detekce multi-commit pushů** — `imgvariants-r2-sync.yml`
-      hledá změněné fotky přes `git diff HEAD^ HEAD` (jen poslední commit).
-      U batchnutého pushe (víc commitů) se fotka z dřívějšího commitu
-      **přeskočí** (stalo se s `digitalky1`). Fix: `git diff
-      ${{ github.event.before }} ${{ github.sha }}` + ošetřit zero-SHA
-      (první push / branch create) a `fetch-depth` (dnes 2 — nestačí pro
-      delší push range). **Relevance: ANO, ale nižší priorita** — Sveltia
-      commituje 1 fotku/commit (single-commit push = nezasaženo); týká se
-      jen ručních batch pushů, a `backfill_metadata` mode to mezitím dorovná.
+- [x] **R2 sync detekce multi-commit pushů** — ✅ HOTOVO 2026-05-21.
+      `imgvariants-r2-sync.yml` detect step teď bere změněné fotky ze VŠECH
+      commitů pushe přes `github.event.commits` (`.added[]`+`.modified[]`,
+      předáno env, jq dedup), ne jen `HEAD^ HEAD`. Fallback na `HEAD^ HEAD`
+      když payload chybí (bare workflow_dispatch). jq logika otestována
+      lokálně (multi-commit dedup + filtr + prázdný payload → fallback).
 
 ---
 
