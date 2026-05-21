@@ -36,7 +36,7 @@ Jako další je připojena jednotka Hodiny1000, která by měla fungovat s přes
 
 Jaká je přesnost těchto hodin je však při používání levných modulů poněkud diskutabilní. Základem je příjem signálu PPS GPS modulem NEO-6M. Ten poskytuje PPS signál s přesností kolem 30–100 µs vůči UTC. Další zpracování v Arduino UNO přesnost ještě sníží. Mohli bychom snad předpokládat, že přesnost času je na úrovni milisekund.
 
-<img class="img-standalone" src="/img/PRS10/hodiny1000.jpg" alt="Hodiny1000 HH:MM:SS.ms" />
+<img class="img-standalone" src="https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev/img/PRS10/hodiny1000.jpg" alt="Hodiny1000 HH:MM:SS.ms" />
 
 Při nekvalitním GPS signálu je modulem nejprve poskytován odhad času získaný z vnitřního RTC modulu. Tento odhad času se může i několik sekund lišit. V našem případě se předcházel o 3 sekundy. Teprve po dosažení příjmu z více družic modul přejde na synchronizovaný čas. Kdy se tak stane nelze předpovědět ani tuto zprávu nelze z modulu přímo získat. Předpokládalo by se, že to nastane po zafixování polohy minimálně ze tří družic. To však neplatí. Ani podle kvalitu příjmu podle velikosti HDOP (Horizontal Dilution of Precision in GPS) nedostaneme okamžik, kdy čas je zafixován. Odhadovaný čas je obvykle (v našich podmínkách) vyšší než čas synchronizovaný. O zjištění okamžiku synchronizace času se můžeme pokusit speciálním algoritmem, který bude zjišťovat okamžik snížení času. Dále budeme předpokládat, že synchronizace vydrží i po krátkodobém zhoršení signálu. V konkrétním zkoumaném přílpadě došlo k synchronizaci času při 7 družicích a dosažení HDOP = 1.98.
 
