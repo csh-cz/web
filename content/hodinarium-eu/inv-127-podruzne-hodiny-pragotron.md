@@ -31,14 +31,14 @@ editorNotes:
     noteKey: manual-edit-false
 ---
 
-![](/img/pragotron/C%2030%20ZEZADU+PS%204.jpg)
+![fotografie sbírkového předmětu](/img/pragotron/C%2030%20ZEZADU+PS%204.jpg)
 
-![](/img/pragotron/C%2030%20zezadu%20+%20PS%20100.jpg)
+![fotografie sbírkového předmětu](/img/pragotron/C%2030%20zezadu%20+%20PS%20100.jpg)
 
-![](/img/pragotron/C%2030.jpg)
+![fotografie sbírkového předmětu](/img/pragotron/C%2030.jpg)
 
-![](/img/pragotron/C%20301%20ZEZADU.jpg)
+![fotografie sbírkového předmětu](/img/pragotron/C%20301%20ZEZADU.jpg)
 
-![](/img/pragotron/C%20301.jpg)
+![fotografie sbírkového předmětu](/img/pragotron/C%20301.jpg)
 
-![](/img/pragotron/CPJ061_1.jpg)
+![fotografie sbírkového předmětu](/img/pragotron/CPJ061_1.jpg)

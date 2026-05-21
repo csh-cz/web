@@ -29,8 +29,8 @@ editorNotes:
     noteKey: manual-edit-false
 ---
 
-![](/img/elektrika/bulle/magnet.jpg)
+![fotografie sbírkového předmětu](/img/elektrika/bulle/magnet.jpg)
 
-![](/img/elektrika/bulle/patent.jpg)
+![fotografie sbírkového předmětu](/img/elektrika/bulle/patent.jpg)
 
-![](/img/elektrika/bulle/patent6.jpg)
+![fotografie sbírkového předmětu](/img/elektrika/bulle/patent6.jpg)

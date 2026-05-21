@@ -32,6 +32,6 @@ editorNotes:
     noteKey: manual-edit-false
 ---
 
-![](/img/decin/dalsi_stroje/Hainz/f/foto_0001.jpg)
+![fotografie sbírkového předmětu](/img/decin/dalsi_stroje/Hainz/f/foto_0001.jpg)
 
-![](/img/decin/dalsi_stroje/Hainz/f/foto_0002.jpg)
+![fotografie sbírkového předmětu](/img/decin/dalsi_stroje/Hainz/f/foto_0002.jpg)

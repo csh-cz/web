@@ -29,8 +29,8 @@ editorNotes:
     noteKey: manual-edit-false
 ---
 
-![](/img/decin/ElektrocasVK1/foto_0001.jpg)
+![fotografie sbírkového předmětu](/img/decin/ElektrocasVK1/foto_0001.jpg)
 
-![](/img/decin/ElektrocasVK1/foto_0002.jpg)
+![fotografie sbírkového předmětu](/img/decin/ElektrocasVK1/foto_0002.jpg)
 
-![](/img/decin/ElektrocasVK1/foto_0003.jpg)
+![fotografie sbírkového předmětu](/img/decin/ElektrocasVK1/foto_0003.jpg)
