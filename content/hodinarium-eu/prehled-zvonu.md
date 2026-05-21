@@ -8,7 +8,7 @@ lastModified: "Sun, 23 Apr 2017 15:56:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:38.852Z"
 relatedKarty:
-  - inv-192-podruzny-stroj-veznich-hodin-velky
+  - inv-A173-podruzny-stroj-velky
 tldr: 'Historie zvonové výbavy věže od 15. století — středověký Petr Pavel (1492), rekvírování v obou světových válkách, nový zvon Petr Vok (2011) a dva cimbály věžních hodin.'
 ---
 Soběslavská věž v první podobě vznikla někdy na přelomu 12. a 13.století. Zdá se, že již tehdy na ní zvony byly. První zmínka odkazuje na rok 1210. Ve druhé polovině 15. stol. se již uvádějí zvony čtyři:

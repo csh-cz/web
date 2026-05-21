@@ -468,17 +468,17 @@
         "jan-prokes"
       ]
     },
-    "inv-100-strojek-hainz": {
+    "inv-P207-strojek-hainz": {
       "hodinari": [
         "ludvik-hainz"
       ]
     },
-    "inv-257-podruzne-vezni-hainz": {
+    "inv-A234-podruzne-vezni-hainz": {
       "hodinari": [
         "ludvik-hainz"
       ]
     },
-    "inv-280-nastenne-hainz": {
+    "inv-A257-nastenne-hainz": {
       "hodinari": [
         "ludvik-hainz"
       ]
@@ -535,22 +535,22 @@
         "elektrocas"
       ]
     },
-    "inv-253-zavesne-elektrocas-oboustranne": {
+    "inv-A230-zavesne-elektrocas-oboustranne": {
       "hodinari": [
         "elektrocas"
       ]
     },
-    "inv-262-pichacky-elektrocas-dk6": {
+    "inv-A239-pichacky-elektrocas-dk6": {
       "hodinari": [
         "elektrocas"
       ]
     },
-    "inv-263-pichacky-elektrocas-dk1": {
+    "inv-A240-pichacky-elektrocas-dk1": {
       "hodinari": [
         "elektrocas"
       ]
     },
-    "inv-274-pichacky-elektrocas-dk6": {
+    "inv-A251-pichacky-elektrocas-dk6": {
       "hodinari": [
         "elektrocas"
       ]
@@ -577,22 +577,22 @@
         "kavalir"
       ]
     },
-    "inv-94-maticni-elektrocas": {
+    "inv-P201-maticni-elektrocas": {
       "hodinari": [
         "elektrocas"
       ]
     },
-    "inv-121-podruzne-pragotron-perla": {
+    "inv-P411-podruzne-pragotron-perla": {
       "hodinari": [
         "pragotron"
       ]
     },
-    "inv-127-podruzne-hodiny-pragotron": {
+    "inv-A199-podruzne-hodiny-kh1": {
       "hodinari": [
         "pragotron"
       ]
     },
-    "inv-153-stopky-pragotron": {
+    "inv-A196-stopky-pragotron": {
       "hodinari": [
         "pragotron"
       ]
@@ -617,7 +617,7 @@
         "pragotron"
       ]
     },
-    "inv-270-pragotron-c301": {
+    "inv-A247-pragotron-c301": {
       "hodinari": [
         "pragotron"
       ]
@@ -632,7 +632,7 @@
         "kohlert"
       ]
     },
-    "inv-151-bateriove-junghans-ato-mat": {
+    "inv-A148-junghans-ato-mat": {
       "hodinari": [
         "junghans"
       ]
@@ -681,6 +681,7 @@
     },
     "inv-47-orloj-skala": {
       "hodinari": [
+        "karel-adamec",
         "miroslav-kotrba"
       ]
     },
@@ -689,7 +690,7 @@
         "zdenek-legner"
       ]
     },
-    "inv-139-lodni-hodiny-kappa": {
+    "inv-P517-lodni-hodiny-kappa": {
       "hodinari": [
         "kappa-orologi"
       ]
@@ -699,33 +700,33 @@
         "julius-hiemann"
       ]
     },
-    "inv-85-model-hipp": {
+    "inv-P101-model-hipp": {
       "hodinari": [
         "matthaus-hipp"
       ]
     },
-    "inv-86-podruzne-hodiny-hipp-1860": {
+    "inv-P102-podruzne-hodiny-hipp-1860": {
       "hodinari": [
         "hipp-favarger",
         "matthaus-hipp"
       ]
     },
-    "inv-268-podruzne-brillie": {
+    "inv-A245-podruzne-brillie": {
       "hodinari": [
         "bratri-brillie"
       ]
     },
-    "inv-88-brillie": {
+    "inv-P104-brillie": {
       "hodinari": [
         "bratri-brillie"
       ]
     },
-    "inv-161-hodiny-bulle": {
+    "inv-A110-hodiny-bulle-cinske": {
       "hodinari": [
         "bulle-clock"
       ]
     },
-    "inv-90-maticni-ericsson": {
+    "inv-P106-maticni-ericsson": {
       "hodinari": [
         "ericsson",
         "kienzle"
@@ -736,17 +737,17 @@
         "kienzle"
       ]
     },
-    "inv-91-hodiny-kienzle": {
+    "inv-P107-hodiny-kienzle": {
       "hodinari": [
         "kienzle"
       ]
     },
-    "inv-87-maticni-wagner": {
+    "inv-P103-maticni-wagner": {
       "hodinari": [
         "wagner"
       ]
     },
-    "inv-89-maticni-zenith": {
+    "inv-P105-maticni-zenith": {
       "hodinari": [
         "zenith"
       ]
@@ -756,12 +757,12 @@
         "rochlitz-firma"
       ]
     },
-    "inv-126-podruzne-hodiny-bodet": {
+    "inv-P503-podruzne-hodiny-bodet": {
       "hodinari": [
         "bodet"
       ]
     },
-    "inv-125-podruzne-hodiny-mobatime": {
+    "inv-P502-podruzne-hodiny-mobatime": {
       "hodinari": [
         "elekon",
         "mobatime"
@@ -772,12 +773,12 @@
         "mobatime"
       ]
     },
-    "inv-81-casovy-strojek-trezorovy": {
+    "inv-A92-casovy-strojek-trezorovy": {
       "hodinari": [
         "thomas-fox"
       ]
     },
-    "inv-169-retrogradni-kavalir": {
+    "inv-A176-retrogradni-hodiny-kavalir": {
       "hodinari": [
         "kavalir"
       ]
@@ -807,7 +808,7 @@
         "kavalir"
       ]
     },
-    "inv-124-mini-hlavni-hodiny-hn61": {
+    "inv-P501-mini-hlavni-hodiny-hn61": {
       "hodinari": [
         "elekon"
       ]
@@ -817,7 +818,7 @@
         "elekon"
       ]
     },
-    "inv-120-nastenne-schauer": {
+    "inv-P410-nastenne-schauer": {
       "hodinari": [
         "schauer"
       ]
@@ -924,6 +925,17 @@
         "sebastian-landesberger"
       ]
     },
+    "sobotecka-dilna-prokesova-robertuv-krok": {
+      "hodinari": [
+        "edmund-kinsner",
+        "jan-marek",
+        "jan-prokes",
+        "jan-prokes-jr",
+        "leopold-prokes",
+        "ludvik-hainz",
+        "vaclav-krecmer"
+      ]
+    },
     "bychory-dalsi-kola": {
       "hodinari": [
         "jan-prokes"
@@ -934,20 +946,31 @@
         "jan-prokes"
       ]
     },
-    "o-hodinariu": {
+    "jubilejni-vystava-zemska-1891-hodinari": {
       "hodinari": [
-        "bratri-brillie",
-        "elekon",
-        "elektrocas",
+        "bartolomej-stepanovsky",
+        "cenek-acht",
+        "ferdinand-diepold",
+        "frantisek-donat-nymburk",
+        "frantisek-krivanek",
+        "g-becker-broumov",
+        "gustav-becker",
+        "hajny-patera",
+        "jan-dusek-zasmuky",
+        "jan-mares",
         "jan-prokes",
-        "josef-achrer",
-        "julius-hiemann",
-        "kavalir",
-        "miroslav-baudisch",
-        "miroslav-kotrba",
-        "petr-kral",
-        "pragotron",
-        "zenith"
+        "jindrich-havlicek",
+        "karel-adamec",
+        "karel-suchy-a-synove",
+        "l-hainz",
+        "ladislav-plny",
+        "ludvik-hainz",
+        "otakar-stastny",
+        "petr-henlein",
+        "v-cerveny-plzen",
+        "vaclav-hrdy-nova-paka",
+        "vaclav-krecmer",
+        "vaclav-stastny-pouzdrar"
       ]
     },
     "kinsner-astronomicke-hodiny": {
@@ -956,6 +979,34 @@
         "edmund-kinsner",
         "jan-prokes",
         "josef-bozek"
+      ]
+    },
+    "o-hodinariu": {
+      "hodinari": [
+        "bratri-brillie",
+        "elekon",
+        "elektrocas",
+        "jan-prokes",
+        "josef-achrer",
+        "julius-hiemann",
+        "karel-adamec",
+        "kavalir",
+        "miroslav-baudisch",
+        "miroslav-kotrba",
+        "petr-kral",
+        "pragotron",
+        "zenith"
+      ]
+    },
+    "prazsky-orloj-restaurovani-2018": {
+      "hodinari": [
+        "cenek-danek",
+        "hodinarska-rodina-manesova",
+        "jan-holub",
+        "jan-prokes",
+        "ludvik-hainz",
+        "petr-skala",
+        "vaclav-krecmer"
       ]
     },
     "akvizice-2015-2025": {
@@ -1021,6 +1072,7 @@
         "elektrocas",
         "l-hainz",
         "ludvik-hainz",
+        "opp-vyskov",
         "petr-kral"
       ]
     },
@@ -1049,6 +1101,7 @@
         "elektrocas",
         "hodinarska-rodina-manesova",
         "josef-achrer",
+        "karel-adamec",
         "miroslav-kotrba",
         "petr-kral",
         "zdenek-legner"
@@ -1227,6 +1280,13 @@
       "hodinari": [
         "petr-kral",
         "petr-skala"
+      ]
+    },
+    "big-ben-denisonuv-gravitacni-krok": {
+      "hodinari": [
+        "cenek-danek",
+        "jan-holub",
+        "romuald-bozek"
       ]
     },
     "prehled-zvonu": {
@@ -1503,25 +1563,6 @@
     "zvon-petr-vok": {
       "hodinari": [
         "petr-kral"
-      ]
-    },
-    "jubilejni-vystava-zemska-1891-hodinari": {
-      "hodinari": [
-        "bartolomej-stepanovsky",
-        "cenek-acht",
-        "ferdinand-diepold",
-        "frantisek-donat-nymburk",
-        "frantisek-krivanek",
-        "g-becker-broumov",
-        "hajny-patera",
-        "jan-dusek-zasmuky",
-        "jindrich-havlicek",
-        "karel-suchy-a-synove",
-        "ladislav-plny",
-        "otakar-stastny",
-        "v-cerveny-plzen",
-        "vaclav-hrdy-nova-paka",
-        "vaclav-stastny-pouzdrar"
       ]
     }
   },

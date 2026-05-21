@@ -9,7 +9,7 @@ lastModified: "Sat, 14 Jan 2023 10:40:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:29.942Z"
 relatedKarty:
-  - inv-100-strojek-hainz
+  - inv-P207-strojek-hainz
 tags:
   - stolni
   - jednotny-cas
@@ -42,7 +42,7 @@ Odkazy: Götsch, Taschenbuch für Fernmeldetechniker 1950, Teil 2Ww 285: Die ele
 
 [![podružné hodiny art deco](/img/elektrika/jednotny_cas/artdeco/celek_jednotny_cas.jpg)](/img/elektrika/jednotny_cas/artdeco/f/celek_jednotny_cas.jpg)
 
-Předmětem podnikání firmy [Jednotný čas](/sbirka/karta/inv-101-jednotny-cas/), s. s r.o., Praha nebyla výroba, ale nákup, prodej, pronajímání a instalování elektrických hodin. Společnost byla ustavena v červenci 1923. V roce 1948 byla začleněna do podniku Chromotechny Šternberk a v následujícím roce se společně se závodem [Ludvík Hainz](/hodinari/ludvik-hainz) spojila do závodu Elektročas. (Podle knihy Zdeněk Martínek, Dějiny Československého hodinářského průmyslu.)
+Předmětem podnikání firmy [Jednotný čas](/sbirka/karta/inv-P208-jednotny-cas/), s. s r.o., Praha nebyla výroba, ale nákup, prodej, pronajímání a instalování elektrických hodin. Společnost byla ustavena v červenci 1923. V roce 1948 byla začleněna do podniku Chromotechny Šternberk a v následujícím roce se společně se závodem [Ludvík Hainz](/hodinari/ludvik-hainz) spojila do závodu Elektročas. (Podle knihy Zdeněk Martínek, Dějiny Československého hodinářského průmyslu.)
 
 Zachovalo se poměrně málo výrobků s označením "Jednotný čas" na číselníku. Ještě větší raritou jsou tyto vyobrazené podružné stolní hodiny. Možná byly v kanceláři vedení firmy.
 
