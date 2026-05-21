@@ -16,7 +16,7 @@ scrapedAt: "2026-04-27T17:36:41.155Z"
 manualEdit: true
 thumbnail: "/img/elektrika/brillie/Brillie_x2_m.jpg"
 relatedKarty:
-  - inv-268-podruzne-brillie
+  - inv-A245-podruzne-brillie
 tldr: 'Francouzský systém centrálního času s půlsekundovým kyvadlem a třicetisekundovými střídavými impulzy, dochovaný funkční exemplář v Hodináriu i kontext synchronizace přes signál z Eiffelovy věže.'
 ---
 ![Mateční hodiny Brillie v Hodináriu bez číselníku pro lepší pohled na stroj.](/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg)

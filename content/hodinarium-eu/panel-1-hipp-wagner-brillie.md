@@ -20,13 +20,13 @@ manualEdit: true
 author: "Český spolek horologický"
 perex: "Panel 1 v Sálu elektro představuje principy elektricky řízených hodin 19. století — Hippovo kyvadlo s automatickým spouštěním, podružné hodiny Hipp z poloviny 19. století, mechanické matiční hodiny Wagner s elektromagnetickým natahováním, francouzské matiční hodiny Brillié a kyvadlové hodiny Zenith s natahováním Ferrarisovým motorem."
 relatedKarty:
-  - inv-85-model-hipp
-  - inv-86-podruzne-hodiny-hipp-1860
-  - inv-87-maticni-wagner
-  - inv-88-brillie
-  - inv-89-maticni-zenith
-  - inv-90-maticni-ericsson
-  - inv-91-hodiny-kienzle
+  - inv-P101-model-hipp
+  - inv-P102-podruzne-hodiny-hipp-1860
+  - inv-P103-maticni-wagner
+  - inv-P104-brillie
+  - inv-P105-maticni-zenith
+  - inv-P106-maticni-ericsson
+  - inv-P107-hodiny-kienzle
 tldr: 'Pět zástupců rané elektrické časomíry 19. století — Hippův kontakt s automatickým spouštěním, mechanicky natahovaný stroj s Huyghensovým řetězem, francouzský půlminutový systém a Ferrarisův pohonný motor 70 V.'
 ---
 
@@ -35,27 +35,27 @@ tldr: 'Pět zástupců rané elektrické časomíry 19. století — Hippův kon
 
 ## 1. Kyvadlo s Hippovým kontaktem
 
-[Model Hippovy konstrukce](/sbirka/karta/inv-85-model-hipp/) — [kyvadlo](/slovnik/kyvadlo) kývá volně. Poklesne-li jeho amplituda pod určitou mez, jazýček se vzpříčí v zářezu, sepne se kontakt a kyvadlo obdrží impulz od elektromagnetu. Kontakt je velmi spolehlivý, vynalezl jej württenbergský hodinář **Mathäus Hipp** kolem roku **1850**.
+[Model Hippovy konstrukce](/sbirka/karta/inv-P101-model-hipp/) — [kyvadlo](/slovnik/kyvadlo) kývá volně. Poklesne-li jeho amplituda pod určitou mez, jazýček se vzpříčí v zářezu, sepne se kontakt a kyvadlo obdrží impulz od elektromagnetu. Kontakt je velmi spolehlivý, vynalezl jej württenbergský hodinář **Mathäus Hipp** kolem roku **1850**.
 
 Kyvadlo vysílá minutové polarizované [impulzy](/slovnik/impulsy), jimiž je řízen podružný strojek.
 
 ## 2. Podružné hodiny Hippovy konstrukce z poloviny 19. století
 
-[Podružný strojek z roku 1860](/sbirka/karta/inv-86-podruzne-hodiny-hipp-1860/) řízený polarizovanými impulzy, vysílanými matičními hodinami v minutových intervalech. Tento typ strojku byl vyráběn firmou **Hipp-Favarger** ještě kolem roku **1930**.
+[Podružný strojek z roku 1860](/sbirka/karta/inv-P102-podruzne-hodiny-hipp-1860/) řízený polarizovanými impulzy, vysílanými matičními hodinami v minutových intervalech. Tento typ strojku byl vyráběn firmou **Hipp-Favarger** ještě kolem roku **1930**.
 
 ## 3. Matiční hodiny Wagner
 
-[Mechanické matiční hodiny Wagner](/sbirka/karta/inv-87-maticni-wagner/) s **Grahamovým krokem** a **elektromagnetickým natahováním** závažového pohonu s **uzavřeným Huyghensovým řetězem**. Hodiny se skládají z jicího stroje a stroje signálového, který vysílá polarizované impulzy do podružných hodin. Oba stroje jsou současně natahovány při vysílání minutového impulzu.
+[Mechanické matiční hodiny Wagner](/sbirka/karta/inv-P103-maticni-wagner/) s **Grahamovým krokem** a **elektromagnetickým natahováním** závažového pohonu s **uzavřeným Huyghensovým řetězem**. Hodiny se skládají z jicího stroje a stroje signálového, který vysílá polarizované impulzy do podružných hodin. Oba stroje jsou současně natahovány při vysílání minutového impulzu.
 
 ## 4. Matiční hodiny Brillié
 
-[Hodiny Brillié](/sbirka/karta/inv-88-brillie/) dostávají impulz do [kyvadla](/slovnik/kyvadlo), na kterém je zavěšen zvláštně tvarovaný magnet. Na kyvadlo je připevněna západka, která při každém kyvu pootočí rohatkou. Ta zároveň sepne kontakt pro impulz do cívky a také posune hodinovým strojem.
+[Hodiny Brillié](/sbirka/karta/inv-P104-brillie/) dostávají impulz do [kyvadla](/slovnik/kyvadlo), na kterém je zavěšen zvláštně tvarovaný magnet. Na kyvadlo je připevněna západka, která při každém kyvu pootočí rohatkou. Ta zároveň sepne kontakt pro impulz do cívky a také posune hodinovým strojem.
 
 Systém byl rozšířen ve Francii, kde jej z hodin sestrojených v roce **1908 Charlesem Férym** vyvinuli **bratři Brillié**. Hodiny vysílají **půlminutové impulzy**, jak je ve Francii obvyklé.
 
 ## 5. Matiční hodiny Zenith
 
-[Hodiny Zenith](/sbirka/karta/inv-89-maticni-zenith/) jsou poháněny pérem, pérovník je přes převod napojen na **Ferrarisův motorek**, napájený přes trafo s výstupem **70 V**. Hodinový stroj je kyvadlový s **Grahamovým krokem**.
+[Hodiny Zenith](/sbirka/karta/inv-P105-maticni-zenith/) jsou poháněny pérem, pérovník je přes převod napojen na **Ferrarisův motorek**, napájený přes trafo s výstupem **70 V**. Hodinový stroj je kyvadlový s **Grahamovým krokem**.
 
 Ve stroji je namontován další systém, který přijímá impulzy z vnějšího zdroje. Vzájemným nastavením kontaktu tohoto stroje a matičních hodin lze ovládat připojené zařízení v požadovaných intervalech.
 
@@ -63,7 +63,7 @@ Ve stroji je namontován další systém, který přijímá impulzy z vnějšíh
 
 Panel 1 je v aktuálním uspořádání doplněn ještě o:
 
-- [matiční hodiny Ericsson](/sbirka/karta/inv-90-maticni-ericsson/) — [kyvadlové](/slovnik/kyvadlo), s pákovými impulzy do kyvadla;
-- [hodiny Kienzle](/sbirka/karta/inv-91-hodiny-kienzle/) — kyvadlové, *akvizice 2025*.
+- [matiční hodiny Ericsson](/sbirka/karta/inv-P106-maticni-ericsson/) — [kyvadlové](/slovnik/kyvadlo), s pákovými impulzy do kyvadla;
+- [hodiny Kienzle](/sbirka/karta/inv-P107-hodiny-kienzle/) — kyvadlové, *akvizice 2025*.
 
 *Text panelu je oficiální popis kurátora expozice (M. Baudisch, ČSH 2017, aktualizováno 2026-05).*

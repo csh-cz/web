@@ -16,7 +16,7 @@ lastModified: "Wed, 26 Apr 2017 13:54:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:51.819Z"
 relatedKarty:
-  - inv-151-bateriove-junghans-ato-mat
+  - inv-A148-junghans-ato-mat
 tldr: 'Schwarzwaldská manufaktura Uhrenfabrik (1851–1932, později začleněná do Junghans) reprezentuje tovární výrobu kvalitních pérových i závažových strojů. Tabulka výrobních čísel pomáhá s datací exemplářů AGUL a 1 Million.'
 ---
 Hodiny ze Schawrzwaldu, to nejsou jen lidové hodiny s řetízky a závažími. Již v předminulém století se zde továrně vyráběly hodiny pérové i závažové, hodiny závěsné, volně stojící i stolní či krbové.
