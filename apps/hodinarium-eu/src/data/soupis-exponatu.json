@@ -834,7 +834,7 @@
   {
     "invCislo": "53",
     "invCisloNumeric": 53,
-    "popis": "Model Pražského orloje",
+    "popis": "Orloj Hvězdárna Petřín",
     "typ": "",
     "vyrobce": "",
     "rok": "2025",
@@ -1058,8 +1058,8 @@
   {
     "invCislo": "67",
     "invCisloNumeric": 67,
-    "popis": "Orloj Hvězdárna Petřín",
-    "typ": "model",
+    "popis": "Věžní Lissner",
+    "typ": "Graham",
     "vyrobce": "",
     "rok": "2025",
     "majitel": "spolek",
@@ -4430,22 +4430,6 @@
     "lokaceHuman": "Rohová vitrína (Sál elektro)",
     "sekceCislo": 31,
     "mistnost": "vedlejsi"
-  },
-  {
-    "invCislo": "x1",
-    "invCisloNumeric": null,
-    "popis": "Věžní Lissner",
-    "typ": "",
-    "vyrobce": "",
-    "rok": "",
-    "majitel": "Baudisch",
-    "stav": "funkční",
-    "vztah": "",
-    "poznamka": "",
-    "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
-    "sekceCislo": 67,
-    "mistnost": "hlavni"
   },
   {
     "invCislo": "x10",
