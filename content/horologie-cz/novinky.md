@@ -59,7 +59,7 @@ Stará stránka je zde.
 - 1\. 4. 2019 [Nový věžní stroj v přírůstcích Hodinária](https://hodinarium-eu.pages.dev/sbirka/akvizice-2015-2025#2019)
 - 25\. 3. 2019 [Jednoduché metody zpomalení kyvadla](/konstrukce/line-kyvadlo)
 - 20\. 3. 2019 Doplnění stránky o kuriózním využití elektřiny - [odpařovací nátah hodin](https://hodinarium-eu.pages.dev/konstrukce/elektricke1)
-- 16\. 3. 2019 Doplnění stránky o [třídrátovém rozvodu IBM hlavní hodiny](/sbirka/decin-regulace-ibm)
+- 16\. 3. 2019 Doplnění stránky o [třídrátovém rozvodu IBM hlavní hodiny](/konstrukce/tridratovy-rozvod-ibm)
 - 10\. 3. 2019 [EVERETT EDGECOMBE ELECTRIC SYNCLOCK](https://hodinarium-eu.pages.dev/konstrukce/edgecombe)
 - 2\. 3. 2019 [Vypouštěný věžní stroj neznámé provenience](/sbirka/decin-vypousteny) - doplnění stránky
 - 20\. 2. 2019 Zápis z volební schůze spolku
@@ -73,7 +73,7 @@ Stará stránka je zde.
 - 13\. 4.2018 Elektricky natahované hodiny [Ferramo](https://hodinarium-eu.pages.dev/konstrukce/ferramo)
 - 1\. 5.2017 [Pulsynetic - svérázná řešení](https://hodinarium-eu.pages.dev/konstrukce/pulsynetic)
 - 29.4.2017 Mateční hodiny [Brillie](https://hodinarium-eu.pages.dev/sbirka/brillie) - nový přírůstek do Hodinária
-- 15.4.2017 [Podružné hodiny IBM](/sbirka/decin-regulace-ibm) - hodiny na třídrátový rozvod
+- 15.4.2017 [Podružné hodiny IBM](/konstrukce/tridratovy-rozvod-ibm) - hodiny na třídrátový rozvod
 
 Web vznikl asi v roce 2006. Prošel několika většími událostmi. Vznik občanského sdružení Virtuální muzeum hodin o.s. 9.1.2009. Vznik expozice Věžního muzejíčka v Soběsvlavi koncem roku 2009. Ukončení Věžního muzejíčka v Soběslavi a stěhování do Děčína v roce 2015. Po změně Občanského Zákona bylo občanské sdružení převedeno na spolek. Na členské schůzi 5.6.2015 byla mimo jiné schválena změna názvu, stanovy a nový výbor spolku. Usnesením Krajského soudu v Č.B. ze dne 12.2.2016 bylo rozhodnuto o zápisu změny do spolkového rejstříku. ( L4908/RD10/KSCB Fj 4845/2016/KSCB ) Zapsáno 5.3.2016.
 

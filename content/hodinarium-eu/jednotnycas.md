@@ -21,7 +21,7 @@ Pokusíme se to trochu roztřídit jak lze hodiny synchronizovat:
 
 - mechanicky, pneumaticky
 - elektricky polarizovanými [impulzy](/slovnik/impulsy), nepolarizovanými napěťovýmy i proudovými impulzy.
-- Sofistikovanějšá částečně samořiditelné systémy ([IBM - třídrát](/sbirka/decin-regulace-ibm))
+- Sofistikovanějšá částečně samořiditelné systémy ([IBM - třídrát](/konstrukce/tridratovy-rozvod-ibm))
 - elektronicky - přenosem kódových informací po drátech, rádiovým vysíláním, televizním vysíláním, satelitním vysíláním, speciální sítí, bezdrátovým přenosem, elektrickou silovou sítí, počítačovou sítí, ...
 
 **Mechanické systémy** jednotného času se omezují na sjednocení malého počtu ukazatelů času. Asi typickým případem budou rozvody k číselníkům mechanických věžních hodin. Soustavy hřídelů a křížových spojek, vedoucí někdy i do jiné budovy zaslouží obdiv k umění starých mistrů. Kuriózně působící [pneumatické systémy](/konstrukce/pneumatika), které měly jistou výhodu například ve výbušném prostředí. Mechanicky řízený externím [chronometrem](/slovnik/chronometr) je například i Pražský orloj. Mechanická synchronizace je včak spíše okrajovou záležitostí.
@@ -34,7 +34,7 @@ V roce 1839 si profesor na mnichovsk univerzitě, Carl August Steinheil dal pate
 
 Krátce z historie. V roce 1923 vznikla v naší republice firma [Jednotný čas](/hodinari/jednotny-cas) sro. Hodiny jednotného času celé nevyráběla, ale nakupovala a instalovala. Nakupovala je od německé firmy Elektrozeit, později po fůzi přejmenované na Telefonbau und Normalzeit. Hodiny byly nejprve dováženy celé, později byly z celních důvodů odebírány jen stroje. V roce 1948 byla firma začleněna do národního podniku Chromotechna Šternberk. V roce 1949 se firma spojila s firmou Ludvík Heinz, která se mimo jinézabývala výrobou hlavních, signálních i podružných hodin. Tak vznikl závod Elektročas, později podnik Pragotron, pak zase Elektročas, aby nakonec byl koupen firmou Elekon. **Elekon** působí v oblasti hodin jednotného času, exteriérových, věžních a fasádních hodin a také v oblasti rozsáhlých informačních systémů a synchronizačních systémů všeho druhu. Výroba systému využívající napěťové polarizované impulzy minutové se v naší republice značně rozrostla. Nejčastější byl systém na 24 V, ale používalo se i napětí 12 V a i napětí vyšší (48V, 60V, ..). Vyráběly se i "univerzální podružné strojky" na 12 V s předřadnýmy odpory na vyšší napětí.
 
-Ve světě se používaly i jiné systémy. Francouzský systém [Brillie](/sbirka/brillie), například používá půlminutové impulzy 1,5 V. Anglický systém [Pulsynetic](/konstrukce/pulsynetic) (Gents) používá proudové impulzy. [Podružné hodiny](/slovnik/podruzne-hodiny) nebyly k centrální jednotce připojeny paralelně, ale seriově. Poměrně sofistikovaný systém navrhla firma IBM. Jednalo se o [třídrátový rozvod](/sbirka/decin-regulace-ibm), který umožňoval automatické v určitém rozsahu nastavení podružných hodin na správný čas.
+Ve světě se používaly i jiné systémy. Francouzský systém [Brillie](/sbirka/brillie), například používá půlminutové impulzy 1,5 V. Anglický systém [Pulsynetic](/konstrukce/pulsynetic) (Gents) používá proudové impulzy. [Podružné hodiny](/slovnik/podruzne-hodiny) nebyly k centrální jednotce připojeny paralelně, ale seriově. Poměrně sofistikovaný systém navrhla firma IBM. Jednalo se o [třídrátový rozvod](/konstrukce/tridratovy-rozvod-ibm), který umožňoval automatické v určitém rozsahu nastavení podružných hodin na správný čas.
 
 ## Elektronické systémy
 
