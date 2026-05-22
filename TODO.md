@@ -392,6 +392,40 @@ relevantní** (live / v kódu).
       když payload chybí (bare workflow_dispatch). jq logika otestována
       lokálně (multi-commit dedup + filtr + prázdný payload → fallback).
 
+## A.34 — Multi-width responsive varianty (`srcset`/`sizes`) (2026-05-22)
+
+Vzešlo z review ChatGPT image-workflow doporučení (2026-05-22). **Závěr review:**
+~90 % doporučení už máme hotové (R2 storage, predgenerované AVIF/WebP/JPEG
+varianty přes CDN, `<picture>` s avif/webp/jpg fallback, sharp, XMP metadata,
+immutable cache, žádný Worker pro veřejné derivativy). React `ResponsiveImage`
+komponenta + Worker decision se na Astro stack nehodí. **Jediný reálně přínosný
+nápad navíc** = width-based `srcset`.
+
+- [ ] **Multi-width varianty pro hero/large/galerie** (~0,5–1 den, nízká
+      priorita). Dnes generujeme jednu šířku per formát (avif/webp/jpg v
+      původním rozlišení) → telefon i 4K monitor stáhnou stejně velký soubor.
+      Návrh: generovat sadu šířek (např. 480 / 768 / 1024 / 1440 / 1920) a
+      v `<source>` přidat `srcset` + `sizes`, ať browser na úzkém viewportu
+      stáhne menší soubor.
+
+      **Scope záměrně omezený** jen na **hero / img-large / galerie** — drobné
+      float obrázky (~200–320 px, img-small/medium/tall) z multi-width nic
+      nemají, ne­generovat je (zbytečný nárůst souborů).
+
+      **Dopad:**
+      - Plus: úspora bytů na mobilu, lepší LCP, menší egress z R2.
+      - Minus: ~5× víc variant na R2 (nárůst CI času, počtu souborů). Proto
+        omezit jen na velké obrázky, ne na celý katalog 2867 zdrojů.
+
+      **Dotčené:** `scripts/generate-image-formats.ts` (generovat víc šířek),
+      `packages/rehype-picture/index.mjs` (sestavit `srcset`/`sizes`; rozměry
+      už máme v `image-sizes.json` → `sizes` lze dopočítat), `Photo.astro`.
+
+      **Vztah k A.25:** logicky patří do `<ResponsivePicture/>` přepracování —
+      pokud se A.25 pustí, řešit tam; jako standalone je to malá nezávislá
+      optimalizace. **Není urgentní** — současný pipeline je funkčně kompletní,
+      egress z R2 (free tier, egress vždy zdarma) zatím není problém.
+
 ---
 
 ### Slovník — rozšíření modelu (návrh 2026-05-17)
