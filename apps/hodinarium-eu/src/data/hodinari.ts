@@ -94,8 +94,7 @@ export const hodinari: Hodinar[] = [
     shrnuti:
       'Sobotský hodinářský mistr 19. století. Tvůrce velkého věžního strojového kompletu z roku 1868 ze zámku Býchory s unikátním zvonícím strojem. V roce 1865 dodal modelové návrhy pro Pražský orloj. Z asi 400+ atribuovaných věžních hodin se dochovaly desítky exemplářů. V rodinné tradici pokračovali synové [Jan Prokeš ml.](/hodinari/jan-prokes-jr) (Kopidlno), [Leopold Prokeš](/hodinari/leopold-prokes) (Jičín) a [Josef Prokeš](/hodinari/josef-prokes) (Sobotka).',
     relatedSlugs: [
-      'bychory-dalsi-kola',
-      'bychory-prokes1',
+      'inv-2-vezni-prokes-1868-soubor',
       'decin-bici-stroje',
       'inv-2-vezni-prokes-1868-soubor',
       'inv-32-vezni-skalice',
@@ -256,7 +255,7 @@ export const hodinari: Hodinar[] = [
     shrnuti:
       'Hodinář působící v barokní době, jehož signaturu nesou některé restaurátorské zásahy na starších věžních strojích. Spíše reparátor než původní konstruktér.',
     relatedSlugs: [
-      'decin-wenzel-mellner',
+      'inv-13-vezni-wenzel-mellner',
       'decin-fotobrezen2017',
       'inv-13-vezni-wenzel-mellner',
       'mapa',
@@ -327,7 +326,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'FR',
     shrnuti:
       'Francouzský hodinář, autor věžního stroje s charakteristickým „flatbed" rámem (cca 1770). Jeho dílo dokládá francouzskou tradici hodinářství v pozdně barokní formě.',
-    relatedSlugs: ['decin-flatbed', 'decin-fotobrezen2017', 'inv-14-vezni-hodiny-paul-zieux'],
+    relatedSlugs: ['decin-fotobrezen2017', 'inv-14-vezni-hodiny-paul-zieux'],
     era: 'baroko',
   },
   {
@@ -639,8 +638,8 @@ export const hodinari: Hodinar[] = [
     shrnuti:
       'Akademický sochař, restaurátor věžních hodin a dlouholetý orlojník Pražského orloje. Spolu s manželkou Melanií Skálovou provozuje Atelier restaurování věžních hodin v Sadské (veznihodiny.cz). Licence MK ČR č. 2.147/96 z 10. 4. 1996 (rozsah: restaurování hodinových strojů). Má za sebou desítky restaurátorských zásahů včetně stroje na pražské Židovské radnici (1995) a řady barokních strojů z Hodinária Děčín.',
     relatedSlugs: [
-      'bychory-prokes1',
-      'decin-velika-ves',
+      'inv-2-vezni-prokes-1868-soubor',
+      'inv-27-vezni-velka-ves',
       'litinove-vezni-hodiny',
       'podebrady2',
       'podebrady3',
@@ -860,8 +859,8 @@ export const hodinari: Hodinar[] = [
     mesto: 'Praha',
     zeme: 'CZ',
     shrnuti:
-      'Pražská zvonařská rodina aktivní v 19. století. **Karel Bellmann** (zvonař, doložené odlitky z let 1811 a 1852) měl dceru **Annu Bellmannovou**, která provozovala vlastní slévárnu po jeho smrti. Anna patří mezi malý počet českých zvonařek své doby. Ve slévárně Anny Bellmannové byly v roce 1868 odlity dva [cimbály pro věžní komplet Prokeš](/sbirka/bychory-prokes1#cimbaly-bellmannova-slevarna-1868) ze zámku Býchory, dnes vystavené v Hodináriu Děčín.',
-    relatedSlugs: ['bychory-prokes1', 'inv-2-vezni-prokes-1868-soubor', 'prehled-zvonu'],
+      'Pražská zvonařská rodina aktivní v 19. století. **Karel Bellmann** (zvonař, doložené odlitky z let 1811 a 1852) měl dceru **Annu Bellmannovou**, která provozovala vlastní slévárnu po jeho smrti. Anna patří mezi malý počet českých zvonařek své doby. Ve slévárně Anny Bellmannové byly v roce 1868 odlity dva [cimbály pro věžní komplet Prokeš](/sbirka/karta/inv-2-vezni-prokes-1868-soubor#cimbaly-bellmannova-slevarna-1868) ze zámku Býchory, dnes vystavené v Hodináriu Děčín.',
+    relatedSlugs: ['inv-2-vezni-prokes-1868-soubor', 'prehled-zvonu'],
     era: '19stol',
   },
   {
@@ -935,7 +934,7 @@ export const hodinari: Hodinar[] = [
       'akvizice-2015-2025',
       'datumatik',
       'o-hodinariu',
-      'decin-velika-ves',
+      'inv-27-vezni-velka-ves',
       'inv-28-vezni-se-setrvackou',
       'panel-1-hipp-wagner-brillie',
       'panel-2-maticni-elektrocas',
@@ -943,7 +942,7 @@ export const hodinari: Hodinar[] = [
       'panel-4-pragotron',
       'panel-5-dcf-gps-ntp',
       'podruzne-sekundove',
-      'vez-prysk',
+      'inv-6-vezni-michael-christ',
     ],
     era: 'soucasnost',
   },
@@ -959,7 +958,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'DE',
     shrnuti:
       'Saský hodinář z Lipska, výrobce věžních hodin v 2. polovině 19. století. Jeho stroj z roku 1884 je v Hodináriu Děčín ([inv. 1](/sbirka/karta/inv-1-vezni-hiemann-1884/)) — byl zakoupen evangelickým kostelem v Děčíně-Podmoklech a sloužil tam až do osmdesátých let 20. století.',
-    relatedSlugs: ['o-hodinariu', 'inv-1-vezni-hiemann-1884', 'vez-decin'],
+    relatedSlugs: ['o-hodinariu', 'inv-1-vezni-hiemann-1884'],
     era: '19stol',
   },
   {
@@ -1660,7 +1659,7 @@ export const hodinari: Hodinar[] = [
       'decin-jednotny-cas',
       'o-hodinariu',
       'decin-regulace-ibm',
-      'decin-velika-ves',
+      'inv-27-vezni-velka-ves',
       'elektromagneticke-segmenty',
       'fake-atomove-hodiny',
       'matematicke',
@@ -1676,7 +1675,7 @@ export const hodinari: Hodinar[] = [
       'tabor',
       'inv-5-vezni-18-stol-spindl',
       'vez-kli',
-      'vez-zlate-hory',
+      'inv-3-barokni-ministroj-18-stol',
       'zvon-petr-vok',
     ],
     era: 'soucasnost',

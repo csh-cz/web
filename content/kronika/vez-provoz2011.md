@@ -30,10 +30,10 @@ scrapedAt: "2026-04-27T17:36:33.395Z"
 
 > Hlavní a nejzajímavější exponát, který pochází z doby legendárního "[mistra Hanuše](http://www.orloj.eu/cs/mistr_hanus.htm)", dříve považovaného za autora Pražského orloje.
 
-- **[Věžní hodiny Julius Hiemann](/sbirka/vez-decin)** ze saského Lipska z roku **1884** nabízí srovnání technologií po 400 letech.
-- **[Věžní komplet ze zámku Býchory](/sbirka/bychory-prokes1)**, který obsahuje čtvrťový **stroj zhotovený soboteckým hodinářem Prokešem v roce 1868.** Komplet doplňují cimbály ulité v slévárně Anny,dcery Karla Bellmanna, a unikátní **zvonicí stroj,** který svým zvoněním na hlavní cimbál ohlašoval začátek a konec pracovní doby a přestávky na oběd na pile nedaleko zámku Býchory.
+- **[Věžní hodiny Julius Hiemann](/sbirka/karta/inv-1-vezni-hiemann-1884)** ze saského Lipska z roku **1884** nabízí srovnání technologií po 400 letech.
+- **[Věžní komplet ze zámku Býchory](/sbirka/karta/inv-2-vezni-prokes-1868-soubor)**, který obsahuje čtvrťový **stroj zhotovený soboteckým hodinářem Prokešem v roce 1868.** Komplet doplňují cimbály ulité v slévárně Anny,dcery Karla Bellmanna, a unikátní **zvonicí stroj,** který svým zvoněním na hlavní cimbál ohlašoval začátek a konec pracovní doby a přestávky na oběd na pile nedaleko zámku Býchory.
 - Ve věži je v normálním provozu [**stroj Elektročas z rolu 1959**](/sbirka/vez-elektrocas1959).
-- **[Sestava rozvodů](/sbirka/bychory-dalsi-kola)** pro 3 číselníky ze zvoničky Svinky. Datováno před rok 1902.
+- **[Sestava rozvodů](/sbirka/karta/inv-2-vezni-prokes-1868-soubor)** pro 3 číselníky ze zvoničky Svinky. Datováno před rok 1902.
 - **Několik výstavek** - švarcvaldky, elektromechanické hodiny, hodiny z bakelitu, práce klientů soběslavské Rolničky, různé typy sluneční hodin, například [**polarizační sluneční hodiny**](/sbirka/slunecni-polarizacni) atd.
 - Opakovaná **foto výstava** pana Marušáka - **600 let Pražského orloje**.
 - Showslide fotografií věže a okolí a fotografií z přípravných prací muzejíčka od více fotografů.
