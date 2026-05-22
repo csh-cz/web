@@ -56,13 +56,9 @@ playwright/.cache/
 # Tmp soubory
 /tmp_*
 
-# Pracovní výstupy v tmp/ — Zotero crossref, geocode cache, OSM dumps,
-# výzkumné JSONy. Konkrétní soubory (preview soupisu, report stubů)
-# držíme tracked přes `!` exception níže.
-tmp/*
-!tmp/popisy-stroju-parsed.json
-!tmp/soupis-stuby-preview.json
-!tmp/soupis-stuby-report.md
+# Pracovní výstupy v tmp/ — scratch (Zotero crossref, geocode cache, OSM
+# dumps, výzkumné JSONy, reporty). Celá složka je scratch, nepatří do gitu.
+tmp/
 
 # macOS Finder copy artefakty (s mezerou v názvu — „file 2.json")
 **/* 2.[a-z]*
