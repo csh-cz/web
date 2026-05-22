@@ -1,7 +1,7 @@
 ---
 title: "Jako perpetum mobile - věčné hodiny ?"
 slug: "perpetum-mobile"
-category: "sbirka"
+category: "konstrukce"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/perpetum_mobile.htm"
 lastModified: "Mon, 24 Apr 2017 20:52:00 GMT"

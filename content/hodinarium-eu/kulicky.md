@@ -1,7 +1,7 @@
 ---
 title: "Hodiny valících se kuliček"
 slug: "kulicky"
-category: "sbirka"
+category: "konstrukce"
 tags:
   - stolni
   - kuriozita

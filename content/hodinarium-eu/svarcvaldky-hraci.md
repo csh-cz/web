@@ -1,7 +1,7 @@
 ---
 title: "Zvonkohry a jiné hrací stroje"
 slug: "svarcvaldky-hraci"
-category: "sbirka"
+category: "konstrukce"
 originalUrl: "https://hodinarium.eu/svarcvaldky_hraci.htm"
 lastModified: "Wed, 26 Apr 2017 13:46:00 GMT"
 sourceCharset: "windows-1250"
