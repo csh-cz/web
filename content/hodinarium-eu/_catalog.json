@@ -66,71 +66,6 @@
     ]
   },
   {
-    "slug": "inv-x4-astronomice-hodiny",
-    "title": "[K doplnění] Astronomicé hodiny (inv. x3)",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-4-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-x12-diferencialni-rele-vus",
-    "title": "[K doplnění] Diferenciální relé VUS (inv. x10)",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-5-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-x10-dochazkove-hodiny-timometer",
-    "title": "[K doplnění] Docházkové hodiny Timometer (inv. x8)",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": "/img/Timometer/foto_0009.jpg",
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni",
-      "pichacky"
-    ]
-  },
-  {
-    "slug": "inv-x3-hodiny-digitron",
-    "title": "[K doplnění] Hodiny digitron (inv. x2)",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-4-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
     "slug": "inv-x13-hodiny-hn350",
     "title": "[K doplnění] Hodiny HN350 (inv. x13)",
     "category": "sbirka",
@@ -149,115 +84,18 @@
     ]
   },
   {
-    "slug": "inv-x2-hodiny-kruhove-led",
-    "title": "[K doplnění] Hodiny kruhové LED (inv. x1)",
+    "slug": "inv-A186-3d-hodiny-velke",
+    "title": "3D hodiny velké",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
-    "year": 2025,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-4-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-x11-hodiny-praotron-velke",
-    "title": "[K doplnění] Hodiny Praotron velké (inv. x9)",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Praotron",
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-x5-hotelovy-budik-modry",
-    "title": "[K doplnění] Hotelový budík modrý (inv. x4)",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_sch_m001.jpg",
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "rohova-vitrina-vedlejsi",
-      "budik"
-    ]
-  },
-  {
-    "slug": "inv-x7-hotelovy-budik-velky",
-    "title": "[K doplnění] Hotelový budík velký (inv. x6)",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_schw12.jpg",
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "rohova-vitrina-vedlejsi",
-      "budik"
-    ]
-  },
-  {
-    "slug": "inv-x9-tellurium",
-    "title": "[K doplnění] Tellurium (inv. x9)",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-x6-vodni-hodiny-cinske",
-    "title": "[K doplnění] Vodní hodiny čínské (inv. x5)",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "rohova-vitrina-vedlejsi",
-      "vodni"
-    ]
-  },
-  {
-    "slug": "inv-x8-volne",
-    "title": "[K doplnění] Volně (inv. x7)",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "rohova-vitrina-vedlejsi"
+      "vitrina-4-vedlejsi"
     ]
   },
   {
@@ -293,52 +131,18 @@
     ]
   },
   {
-    "slug": "inv-183-amaterske-hodiny-oma",
+    "slug": "inv-A168-amaterske-hodiny-oma",
     "title": "Amatérské hodiny OMA",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "nefunkcni"
-    ]
-  },
-  {
-    "slug": "inv-216-amaterske-hodiny-oma",
-    "title": "Amatérské hodiny OMA",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "nefunkcni"
-    ]
-  },
-  {
-    "slug": "inv-168-amaterske-synchronni-syntax",
-    "title": "Amatérské synchronní Syntax",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni",
-      "sitovky"
+      "vitrina-3-vedlejsi"
     ]
   },
   {
@@ -359,19 +163,33 @@
     ]
   },
   {
-    "slug": "inv-72-astrolab-dreveny",
+    "slug": "inv-A74-astrolab-dreveny",
     "title": "Astroláb dřevěný",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-hlavni",
-      "funkcni"
+      "vitrina-1-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A189-astronomicke-hodiny",
+    "title": "Astronomické hodiny",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-4-vedlejsi"
     ]
   },
   {
@@ -434,70 +252,6 @@
     ]
   },
   {
-    "slug": "inv-187-ato-art-deco",
-    "title": "ATO Art deco",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-220-ato-art-deco",
-    "title": "ATO Art deco",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-186-ato-kundo",
-    "title": "ATO Kundo",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-219-ato-kundo",
-    "title": "ATO Kundo",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
     "slug": "atomove-kapesni",
     "title": "Atomové hodiny a hodinky",
     "category": "projekty",
@@ -506,12 +260,27 @@
     "year": null,
     "lastModified": "2025-02-09T10:19:00.000Z",
     "imageCount": 5,
-    "wordCount": 942,
+    "wordCount": 938,
     "tags": [
       "atomove",
       "kapesni",
       "rubidium",
       "2000s"
+    ]
+  },
+  {
+    "slug": "inv-A219-automaticke-macedlo-caje",
+    "title": "Automatické máčedlo čaje",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
     ]
   },
   {
@@ -535,76 +304,21 @@
   },
   {
     "slug": "inv-3-barokni-ministroj-18-stol",
-    "title": "Barokní ministroj  18. stol.",
+    "title": "Barokní ministroj 18. stol.",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Tento barokní kovaný čtvrťový stroj pochází snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách. Malé rozměry stroje postačovaly pro pohon jednoho číselníku.",
-    "year": null,
+    "thumbnail": "/img/vez/ZlateHory/f/foto_0001.jpg",
+    "excerpt": "Hodinářská expozice byla rozšířena o zapůjčený barokní kovaný čtvrťový stroj pocházející snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách. Restaurování započalo 7. 5. 2012. Miniaturní rozměry stroje (30 × 21 ×…",
+    "year": 2012,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 241,
+    "imageCount": 6,
+    "wordCount": 452,
     "tags": [
       "hlavni-sal",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "decin-wenzel-mellner",
-    "title": "Barokní stroj značený Wenzel Mellner",
-    "category": "sbirka",
-    "thumbnail": "/img/decin/baroko/barokoMellner/f/foto_0001.jpg",
-    "excerpt": "V závěru roku 2015 byl Hodináriu pronajat od firmy POTRUBÍ Praha, spol. s r.o. špindlový čtvrťový věžní hodinový stroj v nálezovém stavu. O historii stroje zatím mnoho nevíme. Stroj je těžko identifikovatelný. Podle r…",
-    "year": 1618,
-    "lastModified": "2017-04-23T07:58:00.000Z",
-    "imageCount": 12,
-    "wordCount": 536,
-    "tags": [
       "vezni",
-      "krok-vreteno",
-      "wenzel-mellner",
-      "baroko",
-      "restaurovane",
-      "decin"
-    ]
-  },
-  {
-    "slug": "vez-zlate-hory",
-    "title": "Barokní věžní ministroj",
-    "category": "sbirka",
-    "thumbnail": "/img/vez/ZlateHory/kostel_Zlate_Hory.jpg",
-    "excerpt": "Hodinářská expozice byly rozšířena o zapůjčený barokní kovaný čtvrťový stroj pocházející snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách. Restaurování započalo 7.5.2012. Miniaturní rozměry stroje ( 30 x 21 x …",
-    "year": 2012,
-    "lastModified": "2017-04-27T23:23:00.000Z",
-    "imageCount": 6,
-    "wordCount": 516,
-    "tags": [
-      "vezni",
-      "mechanicke",
-      "zavazi",
-      "kyvadlo",
-      "baroko",
-      "1700s",
-      "pred-restaurovanim"
-    ]
-  },
-  {
-    "slug": "inv-151-bateriove-junghans-ato-mat",
-    "title": "Bateriové Junghans Ato-mat",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Junghans",
-    "tags": [
-      "vitrina-1-vedlejsi",
       "funkcni",
-      "junghans",
-      "nastenne"
+      "baroko",
+      "1700s"
     ]
   },
   {
@@ -623,75 +337,6 @@
       "vitrina-1-vedlejsi",
       "funkcni",
       "kienzle",
-      "nastenne"
-    ]
-  },
-  {
-    "slug": "inv-150-bateriove-pasmovy-cas",
-    "title": "Bateriové pásmový čas",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni",
-      "nastenne",
-      "jednotny-cas"
-    ]
-  },
-  {
-    "slug": "inv-149-bateriove-rocky",
-    "title": "Bateriové ročky",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni",
-      "nastenne"
-    ]
-  },
-  {
-    "slug": "inv-185-bateriove-rocky",
-    "title": "Bateriové ročky",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni",
-      "nastenne"
-    ]
-  },
-  {
-    "slug": "inv-218-bateriove-rocky",
-    "title": "Bateriové ročky",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni",
       "nastenne"
     ]
   },
@@ -735,7 +380,22 @@
     ]
   },
   {
-    "slug": "inv-88-brillie",
+    "slug": "inv-A126-big-ben-electric",
+    "title": "Big Ben electric",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-P104-brillie",
     "title": "Brillié",
     "category": "sbirka",
     "podsekce": "karta",
@@ -753,262 +413,258 @@
     ]
   },
   {
-    "slug": "inv-177-budik-bentime",
-    "title": "Budík Bentime",
+    "slug": "inv-A121-budik-24-hod",
+    "title": "Budík 24 hod.",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_schw5_n.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Bentime",
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "budik",
-      "funkcni"
+      "vitrina-1-vedlejsi"
     ]
   },
   {
-    "slug": "inv-210-budik-bentime",
-    "title": "Budík Bentime",
+    "slug": "inv-A146-budik-bt-bentime",
+    "title": "Budík BT Bentime",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_schwarz3.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Bentime",
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-vedlejsi",
-      "budik",
-      "funkcni"
+      "vitrina-2-vedlejsi"
     ]
   },
   {
-    "slug": "inv-174-budik-prim-quartz",
-    "title": "Budík Prim quartz",
+    "slug": "inv-A179-budik-cernyhodiny-ferraris",
+    "title": "Budík černýHodiny Ferraris",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_schw3_n.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "budik",
-      "funkcni"
+      "vitrina-3-vedlejsi"
     ]
   },
   {
-    "slug": "inv-207-budik-prim-quartz",
-    "title": "Budík Prim quartz",
+    "slug": "inv-A142-budik-dcf-s-projekci",
+    "title": "Budík DCF s projekcí",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_schw9.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-vedlejsi",
-      "budik",
-      "funkcni"
+      "vitrina-2-vedlejsi"
     ]
   },
   {
-    "slug": "inv-179-budik-quartz",
-    "title": "Budík quartz",
+    "slug": "inv-A178-budik-elektronika-2",
+    "title": "Budík Elektronika 2",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_schw7_n.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "budik",
-      "funkcni"
+      "vitrina-3-vedlejsi"
     ]
   },
   {
-    "slug": "inv-212-budik-quartz",
-    "title": "Budík quartz",
+    "slug": "inv-A225-budik-naboj",
+    "title": "Budík náboj",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_schw8.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-vedlejsi",
-      "budik",
-      "funkcni"
+      "vitrina-5-vedlejsi"
     ]
   },
   {
-    "slug": "inv-175-budik-ruhla-quartz",
-    "title": "Budík Ruhla quartz",
+    "slug": "inv-A147-budik-prim-kulaty",
+    "title": "Budík Prim kulatý",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_schw17.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Ruhla",
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "budik",
-      "funkcni"
+      "vitrina-2-vedlejsi"
     ]
   },
   {
-    "slug": "inv-208-budik-ruhla-quartz",
-    "title": "Budík Ruhla quartz",
+    "slug": "inv-A158-budik-quartz-plexi",
+    "title": "Budík quartz plexi",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_sch_m002.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Ruhla",
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-vedlejsi",
-      "budik",
-      "funkcni"
+      "vitrina-2-vedlejsi"
     ]
   },
   {
-    "slug": "inv-157-budik-s-lampickou",
-    "title": "Budík s lampičkou",
+    "slug": "inv-A165-budik-renforce",
+    "title": "Budík Renforce",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_schw18_n.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-vedlejsi",
-      "budik",
-      "funkcni"
+      "vitrina-3-vedlejsi"
     ]
   },
   {
-    "slug": "inv-191-budik-s-lampickou",
-    "title": "Budík s lampičkou",
+    "slug": "inv-A145-budik-ruhla-1",
+    "title": "Budík Ruhla 1",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_schw11.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "budik",
-      "funkcni"
+      "vitrina-2-vedlejsi"
     ]
   },
   {
-    "slug": "inv-224-budik-s-lampickou",
-    "title": "Budík s lampičkou",
+    "slug": "inv-A160-budik-ruhla-2",
+    "title": "Budík Ruhla 2",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_sch_m004.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-vedlejsi",
-      "budik",
-      "funkcni"
+      "vitrina-2-vedlejsi"
     ]
   },
   {
-    "slug": "inv-159-budik-s-lampickou-kulatou",
-    "title": "Budík s lampičkou kulatou",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_schwarz1.jpg",
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-1-vedlejsi",
-      "budik",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-160-budik-s-lampickou-podlouhlou",
+    "slug": "inv-A116-budik-s-lampickou-podlouhlou",
     "title": "Budík s lampičkou podlouhlou",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_schw10.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-vedlejsi",
-      "budik",
-      "funkcni"
+      "vitrina-1-vedlejsi"
     ]
   },
   {
-    "slug": "inv-178-budik-slava-sssr",
-    "title": "Budík Slava SSSR",
+    "slug": "inv-A115-budik-s-lampickou-porcelan",
+    "title": "Budík s lampičkou porcelán",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_schw6_n.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "budik",
-      "funkcni"
+      "vitrina-1-vedlejsi"
     ]
   },
   {
-    "slug": "inv-211-budik-slava-sssr",
-    "title": "Budík Slava SSSR",
+    "slug": "inv-A143-budik-slava",
+    "title": "Budík Slava",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_schwarz2.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-vedlejsi",
-      "budik",
-      "funkcni"
+      "vitrina-2-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A223-budik-slava",
+    "title": "Budík Slava",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A154-budik-stroj",
+    "title": "Budík stroj",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A141-budik-television",
+    "title": "Budík Television",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
     ]
   },
   {
@@ -1075,26 +731,24 @@
     ]
   },
   {
-    "slug": "inv-112-cpj-061",
+    "slug": "inv-P401-cpj-061",
     "title": "CPJ 061",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-4",
-      "funkcni",
-      "sitovky"
+      "panel-4"
     ]
   },
   {
     "slug": "carokodky",
     "title": "Čárokódky - svět se čárokóduje",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": null,
     "excerpt": "Dnes již není mnoho lidí, kteří umí číst staré a dnes již nepoužívané arabské číslice. Svět se čárokóduje. Proto i běžné hodiny ukazují v čárovém kódu. Sice máme naprogramované i vlastní muzejní čárokódové hodiny, ale…",
     "year": null,
@@ -1109,7 +763,7 @@
   {
     "slug": "vodni",
     "title": "Čas plyne jako voda ... Hodiny vodní",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": null,
     "excerpt": "Vodní hodiny se objevily na scéně již v počátcích měření času v Egyptě a na Dálném východě. K velké dokonalosti je pak dovedli Řekové. Vodní hodiny poskytly možnost určení času i době či místě, kde Slunce nesvítí a ne…",
     "year": null,
@@ -1138,7 +792,37 @@
     ]
   },
   {
-    "slug": "inv-81-casovy-strojek-trezorovy",
+    "slug": "inv-A183-casova-zakladna-gps-167",
+    "title": "Časová základna GPS 167",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-3-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A182-casova-zakladna-ua509gp",
+    "title": "Časová základna UA509GP",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-3-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A92-casovy-strojek-trezorovy",
     "title": "Časový strojek trezorový — Thomas Fox",
     "category": "sbirka",
     "podsekce": "karta",
@@ -1171,35 +855,18 @@
     ]
   },
   {
-    "slug": "inv-251-cinsky-budik",
-    "title": "Čínský budík",
+    "slug": "inv-A213-cinsky-budik-keramika",
+    "title": "Čínský budík keramika",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/budiky1/budik_sch_m003.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "budik"
-    ]
-  },
-  {
-    "slug": "bychory-dalsi-kola",
-    "title": "Další kola made in Prokeš cca 1868",
-    "category": "sbirka",
-    "thumbnail": "/img/vez/bychory/prokes1873.jpg",
-    "excerpt": "Pokud někdo vystavuje starý věžní hodinový stroj, soustředí se většinou na vlastní rám, ve kterém může být podle okolností samostatný jicí stroj, někdy spolu s bicím strojem celých hodin případně bicím strojem čtvrťov…",
-    "year": 1868,
-    "lastModified": "2017-04-23T09:09:00.000Z",
-    "imageCount": 4,
-    "wordCount": 713,
-    "tags": [
-      "vezni",
-      "prokes",
-      "1800s"
+      "vitrina-5-vedlejsi"
     ]
   },
   {
@@ -1220,77 +887,24 @@
     ]
   },
   {
-    "slug": "inv-171-dcf-andel-1",
-    "title": "DCF Anděl 1",
+    "slug": "inv-A169-dcf-hodiny-pik",
+    "title": "DCF hodiny PIK",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Anděl",
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-204-dcf-andel-1",
-    "title": "DCF Anděl 1",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Anděl",
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-172-dcf-andel-2",
-    "title": "DCF Anděl 2",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Anděl",
-    "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-205-dcf-andel-2",
-    "title": "DCF Anděl 2",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Anděl",
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni"
+      "vitrina-3-vedlejsi"
     ]
   },
   {
     "slug": "decimalky",
     "title": "DECIMÁLKY - hodiny v desítkové soustavě",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": "/img/decimalky/225.jpg",
     "excerpt": "Od malička se učíme hodiny v soustavě 24-60-60 a připadá nám to normální, ačkoliv kopy či mandele dnes nepoužíváme a všude jinde počítáme většinou v soustavě desítkové. Tradice je holt tradice. Francouzi se v roce 179…",
     "year": 1793,
@@ -1301,6 +915,21 @@
       "decimalka",
       "kuriozita",
       "popularizace"
+    ]
+  },
+  {
+    "slug": "inv-A207-deska-hodin-esh1",
+    "title": "Deska hodin ESH1",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
     ]
   },
   {
@@ -1383,122 +1012,33 @@
     ]
   },
   {
-    "slug": "inv-176-digitalni-amaterske",
-    "title": "Digitální amatérské",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni",
-      "digi"
-    ]
-  },
-  {
-    "slug": "inv-209-digitalni-amaterske",
-    "title": "Digitální amatérské",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni",
-      "digi"
-    ]
-  },
-  {
-    "slug": "inv-184-digitalni-hodiny-farny",
+    "slug": "inv-A166-digitalni-hodiny-farny",
     "title": "Digitální hodiny Farny",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni",
-      "digi"
+      "vitrina-3-vedlejsi"
     ]
   },
   {
-    "slug": "inv-217-digitalni-hodiny-farny",
-    "title": "Digitální hodiny Farny",
+    "slug": "inv-A96-diorama",
+    "title": "Dioráma",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni",
-      "digi"
-    ]
-  },
-  {
-    "slug": "inv-238-digitalni-slunecni-hodiny",
-    "title": "Digitální sluneční hodiny",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-4-vedlejsi",
-      "slunecni",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-170-digitalni-vejirove",
-    "title": "Digitální vějířové",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni",
-      "digi"
-    ]
-  },
-  {
-    "slug": "inv-203-digitalni-vejirove",
-    "title": "Digitální vějířové",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni",
-      "digi"
+      "vitrina-2-hlavni"
     ]
   },
   {
@@ -1532,6 +1072,21 @@
     ]
   },
   {
+    "slug": "inv-A261-dochazkove-hodiny-timometer",
+    "title": "Docházkové hodiny Timometer",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "volne-vedlejsi"
+    ]
+  },
+  {
     "slug": "download",
     "title": "DOWNLOAD",
     "category": "zajimavosti",
@@ -1543,20 +1098,18 @@
     "wordCount": 233
   },
   {
-    "slug": "inv-123-dpj57",
+    "slug": "inv-P413-dpj57",
     "title": "DPJ57",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-4",
-      "funkcni",
-      "sitovky"
+      "panel-4"
     ]
   },
   {
@@ -1593,54 +1146,48 @@
     ]
   },
   {
-    "slug": "inv-117-eh81",
+    "slug": "inv-P402-eh41",
+    "title": "EH41",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "panel-4"
+    ]
+  },
+  {
+    "slug": "inv-P407-eh81",
     "title": "EH81",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-4",
-      "funkcni",
-      "sitovky"
+      "panel-4"
     ]
   },
   {
-    "slug": "inv-195-ekvitermni-regulator-term-2",
-    "title": "Ekvitermní regulátor Term 2",
+    "slug": "inv-A118-electro-boy",
+    "title": "Electro Boy",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "nefunkcni",
-      "nastenne"
-    ]
-  },
-  {
-    "slug": "inv-228-ekvitermni-regulator-term-2",
-    "title": "Ekvitermní regulátor Term 2",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "nefunkcni",
-      "nastenne"
+      "vitrina-1-vedlejsi"
     ]
   },
   {
@@ -1707,7 +1254,7 @@
   {
     "slug": "decin-elektrifikace",
     "title": "Elektrifikace věžních strojů",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/decin/elektrika/foto2.jpg",
     "excerpt": "Elektrická energie se nejprve používala k vytahování závaží či k osvětlení hodin. Pravá elektrická revoluce v hodinářství začala v první čtvrtině 19. století, kdy se pomocí elektrické energie začal řídit hodinový stro…",
     "year": 1839,
@@ -1725,20 +1272,18 @@
     ]
   },
   {
-    "slug": "inv-147-elektrokapalinove-puja",
+    "slug": "inv-A128-elektrokapalinove-puja",
     "title": "Elektrokapalinové Puja",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni",
-      "nastenne"
+      "vitrina-1-vedlejsi"
     ]
   },
   {
@@ -1762,7 +1307,7 @@
     "slug": "elektromagneticke-segmenty",
     "title": "Elektromagnetický sedmi segmentový displej H715 M - BODET",
     "category": "projekty",
-    "thumbnail": "/img/H715_BODET/schema1.jpg",
+    "thumbnail": null,
     "excerpt": "Sedmi segmentový displej je nejúspornější způsob vyjádření číslic a několika znaků. Většinou se s nimi setkáváme v provedení LED nebo LCD. Mechanické provedení sedmi segmentového displeje ovládané elektromagnety má ně…",
     "year": 1998,
     "lastModified": "2021-10-10T11:33:00.000Z",
@@ -1772,6 +1317,21 @@
       "elektromagneticke",
       "bodet",
       "gps-rizeno"
+    ]
+  },
+  {
+    "slug": "inv-A185-elektronicky-rizene-odbijeni",
+    "title": "Elektronicky řízené odbíjení",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-4-vedlejsi"
     ]
   },
   {
@@ -1790,20 +1350,63 @@
     ]
   },
   {
-    "slug": "inv-116-esh-3",
+    "slug": "inv-A149-elchron-polna-1",
+    "title": "Elchron Polná 1",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A150-elchron-polna-2",
+    "title": "Elchron Polná 2",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A151-elchron-polna-3",
+    "title": "Elchron Polná 3",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-P406-esh-3",
     "title": "ESH 3",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-4",
-      "funkcni",
-      "sitovky"
+      "panel-4"
     ]
   },
   {
@@ -1853,25 +1456,6 @@
     ]
   },
   {
-    "slug": "decin-flatbed",
-    "title": "Flatbed - Věžní hodinový stroj Paul Zieux",
-    "category": "sbirka",
-    "thumbnail": "/img/decin/francie1770/f/foto_0001.jpg",
-    "excerpt": "Půlový hodinový stroj s rámem typu flatbed. Strojů s tímto rámem je u nás jako šafránu. Stroj byl zakoupen od věžního hodináře Markuse Burmeistera. Na přání majitele bude částečně restaurován a umístěn do Hodinária. P…",
-    "year": 1770,
-    "lastModified": "2017-04-28T16:23:00.000Z",
-    "imageCount": 23,
-    "wordCount": 326,
-    "tags": [
-      "vezni",
-      "krok-amant",
-      "paul-zieux",
-      "decin",
-      "restaurovane",
-      "1700s"
-    ]
-  },
-  {
     "slug": "flying-pendulum",
     "title": "FLYING PENDULUM CLOCK",
     "category": "konstrukce",
@@ -1918,35 +1502,33 @@
     ]
   },
   {
-    "slug": "inv-73-heliochronometr",
+    "slug": "inv-A75-heliochronometr",
     "title": "Heliochronometr",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-hlavni",
-      "funkcni"
+      "vitrina-1-hlavni"
     ]
   },
   {
-    "slug": "inv-76-heliochronometr-s-analemou",
-    "title": "Heliochronometr s analémou",
+    "slug": "inv-A78-heliochronometr-ekvatorealni",
+    "title": "Heliochronometr ekvatoreální",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-hlavni",
-      "funkcni"
+      "vitrina-1-hlavni"
     ]
   },
   {
@@ -2011,24 +1593,6 @@
     "wordCount": 425
   },
   {
-    "slug": "decin-jednotny-cas",
-    "title": "Hodinárium Děčín - expozice časoměrných strojů",
-    "category": "sbirka",
-    "thumbnail": "/img/elektrika/jednotny_cas/artdeco/celek_artdeco.jpg",
-    "excerpt": "Stolní podružné hodiny jsou samy o sobě výjimečné. První ukázkou budou nesignované hodiny ve stylu art deco se strojkem Siemens. Druhé podružné hodiny s nápisem \"Jednotný čas\" jsou zachované jen částečně, ale jsou tak…",
-    "year": 1913,
-    "lastModified": "2023-01-14T10:40:00.000Z",
-    "imageCount": 7,
-    "wordCount": 563,
-    "tags": [
-      "stolni",
-      "jednotny-cas",
-      "elektromagneticke",
-      "decin",
-      "1900s"
-    ]
-  },
-  {
     "slug": "settopbox",
     "title": "Hodinárium Děčín - expozice časoměrných strojů",
     "category": "projekty",
@@ -2054,6 +1618,51 @@
     ]
   },
   {
+    "slug": "inv-A108-hodinarsky-soustruh",
+    "title": "Hodinářský soustruh",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-3-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A98-hodinky-digitalni-20x",
+    "title": "Hodinky digitální 20x",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A99-hodinky-nahrdelnik",
+    "title": "Hodinky náhrdelník",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-hlavni"
+    ]
+  },
+  {
     "slug": "inv-60-hodinovy-hotel",
     "title": "Hodinový hotel",
     "category": "sbirka",
@@ -2070,19 +1679,18 @@
     ]
   },
   {
-    "slug": "inv-244-hodiny-3d",
-    "title": "Hodiny 3D",
+    "slug": "inv-A221-hodiny-vahy",
+    "title": "Hodiny - váhy",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-4-vedlejsi",
-      "funkcni"
+      "vitrina-5-vedlejsi"
     ]
   },
   {
@@ -2095,7 +1703,7 @@
     "year": 1985,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 116,
+    "wordCount": 146,
     "vyrobce": "Josef Achrer",
     "tags": [
       "hlavni-sal",
@@ -2106,7 +1714,7 @@
   {
     "slug": "budiky1",
     "title": "HODINY BUDÍKOVÉ",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/budiky1/budik_comtoise1m.jpg",
     "excerpt": "Budíky (Alarm Clock) jistě nejsou považovány za kuriózní hodiny. Když ovšem jde o budicí stroj podlahových či velkých závěsných hodin, je situace trochu jiná. Budík se většinou nemontoval do hodin stojících někde v sa…",
     "year": 1680,
@@ -2124,7 +1732,7 @@
   {
     "slug": "budiky2",
     "title": "HODINY BUDÍKOVÉ 2",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/budiky1/budik_schw1.jpg",
     "excerpt": "U hodin švarcvaldského typu se budicí mechanismus vyskytuje celkem často a to již od počátku jejich výroby. Společným znakem je malý číselníček umístěný ve středu okolo hodinového kola.",
     "year": null,
@@ -2139,7 +1747,7 @@
     ]
   },
   {
-    "slug": "inv-161-hodiny-bulle",
+    "slug": "inv-A110-hodiny-bulle-cinske",
     "title": "Hodiny Bulle",
     "category": "sbirka",
     "podsekce": "karta",
@@ -2154,6 +1762,21 @@
       "vitrina-1-vedlejsi",
       "funkcni",
       "bulle"
+    ]
+  },
+  {
+    "slug": "inv-A113-hodiny-bulle",
+    "title": "Hodiny Bulle",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-vedlejsi"
     ]
   },
   {
@@ -2193,6 +1816,36 @@
     ]
   },
   {
+    "slug": "inv-A228-hodiny-cylindricke",
+    "title": "Hodiny cylindrické",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A226-hodiny-ctvercove",
+    "title": "Hodiny čtvercové",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
     "slug": "4ruce",
     "title": "Hodiny čtyřruční aneb další číselník",
     "category": "projekty",
@@ -2225,202 +1878,153 @@
     ]
   },
   {
-    "slug": "inv-128-hodiny-dcf",
+    "slug": "inv-A122-hodiny-datumatic",
+    "title": "Hodiny Datumatic",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-P504-hodiny-dcf",
     "title": "Hodiny DCF",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-5",
-      "funkcni"
+      "panel-5"
     ]
   },
   {
-    "slug": "inv-200-hodiny-digitalni-sakul",
-    "title": "Hodiny digitální Sakul",
+    "slug": "inv-A171-hodiny-docekal",
+    "title": "Hodiny Dočekal",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni",
-      "digi"
+      "vitrina-3-vedlejsi"
     ]
   },
   {
-    "slug": "inv-233-hodiny-digitalni-sakul",
-    "title": "Hodiny digitální Sakul",
+    "slug": "inv-A170-hodiny-dochazkove-digitalni",
+    "title": "Hodiny docházkové digitální",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni",
-      "digi"
+      "vitrina-3-vedlejsi"
     ]
   },
   {
-    "slug": "inv-129-hodiny-eh101",
+    "slug": "inv-A123-hodiny-dr-patent",
+    "title": "Hodiny DR Patent",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-P506-hodiny-eh101",
     "title": "Hodiny EH101",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-5",
-      "funkcni",
-      "sitovky"
+      "panel-5"
     ]
   },
   {
-    "slug": "inv-196-hodiny-eh81",
+    "slug": "inv-A205-hodiny-eh81",
     "title": "Hodiny EH81",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni",
-      "sitovky"
+      "vitrina-5-vedlejsi"
     ]
   },
   {
-    "slug": "inv-201-hodiny-eh81",
-    "title": "Hodiny EH81",
+    "slug": "inv-A161-hodiny-elektronika",
+    "title": "Hodiny Elektronika",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni",
-      "sitovky"
+      "vitrina-2-vedlejsi"
     ]
   },
   {
-    "slug": "inv-229-hodiny-eh81",
-    "title": "Hodiny EH81",
+    "slug": "inv-A174-hodiny-exponet",
+    "title": "Hodiny Exponet",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni",
-      "sitovky"
+      "vitrina-3-vedlejsi"
     ]
   },
   {
-    "slug": "inv-234-hodiny-eh81",
-    "title": "Hodiny EH81",
+    "slug": "inv-P505-hodiny-hn350",
+    "title": "Hodiny HN350",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni",
-      "sitovky"
-    ]
-  },
-  {
-    "slug": "inv-180-hodiny-elchron-1",
-    "title": "Hodiny Elchron 1",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-213-hodiny-elchron-1",
-    "title": "Hodiny Elchron 1",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-181-hodiny-elchron-2",
-    "title": "Hodiny Elchron 2",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-214-hodiny-elchron-2",
-    "title": "Hodiny Elchron 2",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni"
+      "panel-5"
     ]
   },
   {
@@ -2440,11 +2044,46 @@
     ]
   },
   {
+    "slug": "inv-A227-hodiny-houslovy-klic",
+    "title": "Hodiny houslový klíč",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A124-hodiny-nastenne-synchro",
+    "title": "Hodiny Jednotný čas",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": "/img/elektrika/jednotny_cas/artdeco/f/celek_jednotny_cas.jpg",
+    "excerpt": "Vzácné stolní podružné hodiny značené pražskou firmou Jednotný čas. Výrobků s tímto označením se dochovalo poměrně málo, tyto stolní jsou ještě větší raritou — možná stály v kanceláři vedení firmy. (Obecný kontext fir…",
+    "year": 1944,
+    "lastModified": null,
+    "imageCount": 3,
+    "wordCount": 193,
+    "vyrobce": "Jednotný čas (Praha)",
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "stolni",
+      "jednotny-cas",
+      "elektromagneticke",
+      "1900s"
+    ]
+  },
+  {
     "slug": "jezdecke",
     "title": "Hodiny k ocenění vítěze - ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934",
     "category": "sbirka",
     "thumbnail": "/img/jezdeke/trmen1934_1.jpg",
-    "excerpt": "Naše muzeum získalo hodiny postavené k oslavě jezdeckých závodů v Praze v roce 1934. A nejsou to hodiny ledajaké. ![ilustrační obrázek](/img/jezdeke/trmen19341.jpg) Dokazují tvrzení, že hodiny jdou udělat z čehokoliv. V tomto případě s…",
+    "excerpt": "Naše muzeum získalo hodiny postavené k oslavě jezdeckých závodů v Praze v roce 1934. A nejsou to hodiny ledajaké. !fotografie sbírkového předmětu Dokazují tvrzení, že hodiny jdou udělat z čehokoliv. V tomto případě se…",
     "year": 1934,
     "lastModified": "2017-04-26T14:06:00.000Z",
     "imageCount": 2,
@@ -2476,38 +2115,48 @@
     ]
   },
   {
-    "slug": "inv-91-hodiny-kienzle",
+    "slug": "inv-P107-hodiny-kienzle",
     "title": "Hodiny Kienzle",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Kienzle",
+    "wordCount": 11,
     "tags": [
-      "panel-1",
-      "funkcni",
-      "kienzle"
+      "panel-1"
     ]
   },
   {
-    "slug": "inv-166-hodiny-nastenne-rumburg",
-    "title": "Hodiny nástěnné Rumburg",
+    "slug": "inv-A156-hodiny-kienzle-everdate",
+    "title": "Hodiny Kienzle Everdate",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-vedlejsi",
-      "nastenne",
-      "funkcni"
+      "vitrina-2-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A125-hodiny-nastenne-otto-rumburg",
+    "title": "Hodiny nástěnné Otto Rumburg",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-vedlejsi"
     ]
   },
   {
@@ -2530,20 +2179,78 @@
     ]
   },
   {
-    "slug": "inv-275-hodiny-podlahove",
+    "slug": "inv-A252-hodiny-podlahove",
     "title": "Hodiny podlahové",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni",
-      "stolni"
+      "volne-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A262-hodiny-pragotron-velke",
+    "title": "Hodiny Pragotron velké",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "volne-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A229-hodiny-presypaci",
+    "title": "Hodiny přesýpací",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A222-hodiny-rocky",
+    "title": "Hodiny ročky",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A181-hodiny-s-digitrony",
+    "title": "Hodiny s digitrony",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-3-vedlejsi"
     ]
   },
   {
@@ -2561,26 +2268,10 @@
     ]
   },
   {
-    "slug": "inv-239-hodiny-s-planetovym-soukolim",
-    "title": "Hodiny s planetovým soukolím",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-4-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
     "slug": "sestka",
     "title": "Hodiny sestka — hodiny z čehokoliv",
-    "category": "sbirka",
-    "thumbnail": "/img/ujete/sestka1.jpg",
+    "category": "virtualni-muzeum",
+    "thumbnail": null,
     "excerpt": "Brouzdajíce webovinou, narazili jsme na stránky www.sestka.com. Tvrdí se tam, že na světě neexistuje žádná hmota nebo věc, ze které by se nedaly udělat hodiny. A namouduši — jde to. To si určitě nenechte ujít. Pěkně v…",
     "year": null,
     "lastModified": "2017-04-26T14:00:00.000Z",
@@ -2588,37 +2279,33 @@
     "wordCount": 103
   },
   {
-    "slug": "inv-197-hodiny-sh350",
-    "title": "Hodiny SH350",
+    "slug": "inv-A172-hodiny-sh-94",
+    "title": "Hodiny SH 94",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni",
-      "sitovky"
+      "vitrina-3-vedlejsi"
     ]
   },
   {
-    "slug": "inv-230-hodiny-sh350",
-    "title": "Hodiny SH350",
+    "slug": "inv-A101-hodiny-schwarzwald",
+    "title": "Hodiny schwarzwald",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni",
-      "sitovky"
+      "vitrina-3-hlavni"
     ]
   },
   {
@@ -2634,6 +2321,66 @@
     "tags": [
       "kuriozita",
       "diy"
+    ]
+  },
+  {
+    "slug": "inv-A224-hodiny-slunecni-pistole",
+    "title": "Hodiny sluneční pistole",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A163-hodiny-stolni-odlevany-ram",
+    "title": "Hodiny stolní odlévaný rám",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A162-hodiny-synchonni-hranate",
+    "title": "Hodiny synchonní hranaté",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A164-hodiny-synchonni-sklenene",
+    "title": "Hodiny synchonní skleněné",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
     ]
   },
   {
@@ -2708,12 +2455,12 @@
   {
     "slug": "kulicky",
     "title": "Hodiny valících se kuliček",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/congrevovy1.jpg",
     "excerpt": "Valící se kuličky se kupodovu používají v hodinářství poměrně hojně a to dokonce v několika funkcích.",
     "year": 1808,
     "lastModified": "2017-04-26T15:59:00.000Z",
-    "imageCount": 2,
+    "imageCount": 1,
     "wordCount": 169,
     "tags": [
       "stolni",
@@ -2736,34 +2483,63 @@
     ]
   },
   {
-    "slug": "inv-79-holubarske-hodiny-1",
+    "slug": "inv-A90-holubarske-hodiny-1",
     "title": "Holubářské hodiny 1",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-hlavni",
-      "funkcni"
+      "vitrina-2-hlavni"
     ]
   },
   {
-    "slug": "inv-80-holubarske-hodiny-2",
+    "slug": "inv-A91-holubarske-hodiny-2",
     "title": "Holubářské hodiny 2",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
       "vitrina-2-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A215-hotelovy-budik-modry",
+    "title": "Hotelový budík modrý",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A217-hotelovy-budik-velky",
+    "title": "Hotelový budík velký",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
     ]
   },
   {
@@ -2785,26 +2561,9 @@
     ]
   },
   {
-    "slug": "decin-chronulator",
-    "title": "Chronulátor",
-    "category": "sbirka",
-    "thumbnail": "/img/decin/chronulator/ret1.jpg",
-    "excerpt": "Slovem chronulátor se označují hodiny, které čas ukazují pomocí systémů ručkových voltmetrů. Nejjednodušší chronulátor má dva voltmetry. Jeden ukazuje hodiny, druhý minuty. Možností je ovšem více. Do Hodinária bude za…",
-    "year": 2016,
-    "lastModified": "2021-08-26T12:05:00.000Z",
-    "imageCount": 3,
-    "wordCount": 247,
-    "tags": [
-      "kuriozita",
-      "decin",
-      "diy",
-      "2000s"
-    ]
-  },
-  {
     "slug": "decin-ntp",
     "title": "Instalované NTP servery",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/elektrika/NTP/NTPschema2.jpg",
     "excerpt": "Synchronizace hodin jednotného času se dělala nejčastěji vysíláním polarizovaných minutových impulzů po dvoudrátovém rozvodu od matečních hodin k hodinám podružným. Méně často se používaly impulzy půlminutové (Brillie…",
     "year": null,
@@ -2821,42 +2580,39 @@
     ]
   },
   {
-    "slug": "inv-131-internetova-brana",
+    "slug": "inv-P508-internetova-brana",
     "title": "Internetová brána",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-5",
-      "funkcni"
+      "panel-5"
     ]
   },
   {
-    "slug": "inv-122-ipj-0612-3x",
+    "slug": "inv-P412-ipj-0612-3x",
     "title": "IPJ 0612 3x",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-4",
-      "funkcni",
-      "sitovky"
+      "panel-4"
     ]
   },
   {
     "slug": "perpetum-mobile",
     "title": "Jako perpetum mobile - věčné hodiny ?",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/slunecni/heliomat.jpg",
     "excerpt": "V současné době je snaha vyrábět čím dál zelenější energii. Energii z větru, z biomasy (tedy také z větrů ???), ze slunečního svitu, z příboje, prostě z kdečeho. Trochu se při tom zapomíná na porovnání množství takto …",
     "year": 1963,
@@ -2883,7 +2639,7 @@
     ]
   },
   {
-    "slug": "inv-101-jednotny-cas",
+    "slug": "inv-P208-jednotny-cas",
     "title": "Jednotný čas",
     "category": "sbirka",
     "podsekce": "karta",
@@ -2973,6 +2729,21 @@
     ]
   },
   {
+    "slug": "inv-A148-junghans-ato-mat",
+    "title": "Junghans Ato-Mat",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
+    ]
+  },
+  {
     "slug": "muzeum-kadan-orloj",
     "title": "Kadaňský orloj — pocta Mikulášovi z Kadaně",
     "category": "muzea",
@@ -2992,13 +2763,13 @@
   {
     "slug": "kapesni-orloj",
     "title": "Kapesní \"orloj\" BREVETE",
-    "category": "sbirka",
-    "thumbnail": "/img/hodinky/kapesni_orloj/627893335_6_n.jpg",
-    "excerpt": "Kolikrát jsem už o větších hodinkách slyšel zvolání: \"to je ale orloj\". Málokdy ovšem na výroku něco bylo. Trochu jinak je to u hodinek BREVETE S. G. D. G. Jejich konstrukce kalendářní komplikace včetně zobrazení měsí…",
+    "category": "virtualni-muzeum",
+    "thumbnail": "/img/hodinky/kapesni_orloj/627893335_6.jpg",
+    "excerpt": "Kolikrát jsem už o větších hodinkách slyšel zvolání: „to je ale orloj\". Málokdy ovšem na výroku něco bylo. Trochu jinak je to u hodinek BREVETE S. G. D. G. Jejich konstrukce kalendářní komplikace včetně zobrazení měsí…",
     "year": null,
     "lastModified": "2017-04-26T16:01:00.000Z",
     "imageCount": 3,
-    "wordCount": 335,
+    "wordCount": 334,
     "tags": [
       "kapesni",
       "mechanicke",
@@ -3006,20 +2777,18 @@
     ]
   },
   {
-    "slug": "inv-271-kapesni-velke",
+    "slug": "inv-A248-kapesni-velke",
     "title": "Kapesní velké",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "kapesni",
-      "funkcni"
+      "volne-vedlejsi"
     ]
   },
   {
@@ -3042,7 +2811,7 @@
   {
     "slug": "spinka",
     "title": "Kinetické artefakty",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/plastiky/zastaveny_cas_n.jpg",
     "excerpt": "Dříve, tak někdy v renezanci, byly každé hodiny osobité umělecké dílo. Průmyslová revoluce umožnila masovou tovární výrobu a umění se trochu vytratilo. Nástupem asijských výrobců to platí dvojnásobně. Je třeba trochu …",
     "year": null,
@@ -3108,6 +2877,21 @@
     ]
   },
   {
+    "slug": "inv-A177-kmitaci-hodiny",
+    "title": "Kmitací hodiny",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-3-vedlejsi"
+    ]
+  },
+  {
     "slug": "skymaster-ghost",
     "title": "Konstatovací hodiny Skymaster Ghost HIGH SPEED TIMING CLOCK",
     "category": "projekty",
@@ -3162,25 +2946,25 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 108,
+    "wordCount": 130,
     "tags": [
       "hlavni-sal",
       "funkcni"
     ]
   },
   {
-    "slug": "inv-248-kovane-zamky-6-ks",
+    "slug": "inv-A209-kovane-zamky-6-ks",
     "title": "Kované zámky 6 ks",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi"
+      "vitrina-5-vedlejsi"
     ]
   },
   {
@@ -3198,16 +2982,46 @@
     ]
   },
   {
-    "slug": "inv-83-kukacky",
+    "slug": "inv-A167-krystalova-casova-zakladna",
+    "title": "Krystalová časová základna",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-3-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A102-kukacky",
     "title": "Kukačky",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-3-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A104-kukacky-vyrezavane",
+    "title": "Kukačky vyřezávané",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
     "tags": [
       "vitrina-3-hlavni"
     ]
@@ -3320,25 +3134,9 @@
     ]
   },
   {
-    "slug": "inv-165-kyvadlo-letna",
-    "title": "Kyvadlo Letná",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": "/img/elektrika/kyvadlo/pripravek.jpg",
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
     "slug": "lahvace",
     "title": "Lahváče",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/papiraky/sklober.jpg",
     "excerpt": "Do lahví se stavěly miniaturní lodě. Na webu digitron.cz jsou k vidění reklamní hodiny vestavěné do láhve. Nejde o láhve ledajaké. Z korespondence s autory a současně výrobci vím, že přípravné činnosti před výrobou js…",
     "year": null,
@@ -3385,13 +3183,13 @@
   {
     "slug": "lenzkirch",
     "title": "Lenzkirch - Rolls-Royce ze Schwarzwaldu",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/svarcvald/lenzkirch/lodicka.jpg",
     "excerpt": "Hodiny ze Schawrzwaldu, to nejsou jen lidové hodiny s řetízky a závažími. Již v předminulém století se zde továrně vyráběly hodiny pérové i závažové, hodiny závěsné, volně stojící i stolní či krbové.",
     "year": 1810,
     "lastModified": "2017-04-26T13:54:00.000Z",
     "imageCount": 5,
-    "wordCount": 453,
+    "wordCount": 451,
     "tags": [
       "stolni",
       "nastenne",
@@ -3420,51 +3218,48 @@
     ]
   },
   {
-    "slug": "inv-266-linkovy-rozvadec-ehu-260",
+    "slug": "inv-A243-linkovy-rozvadec-ehu-260",
     "title": "Linkový rozváděč EHU 260",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni"
+      "volne-vedlejsi"
     ]
   },
   {
-    "slug": "inv-96-linkovy-zesilovac",
+    "slug": "inv-P203-linkovy-zesilovac",
     "title": "Linkový zesilovač",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-2",
-      "funkcni"
+      "panel-2"
     ]
   },
   {
-    "slug": "inv-97-linkovy-zesilovac-releovy",
+    "slug": "inv-P204-linkovy-zesilovac-releovy",
     "title": "Linkový zesilovač reléový",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-2",
-      "funkcni"
+      "panel-2"
     ]
   },
   {
@@ -3487,21 +3282,33 @@
     ]
   },
   {
-    "slug": "inv-139-lodni-hodiny-kappa",
+    "slug": "inv-P517-lodni-hodiny-kappa",
     "title": "Lodní hodiny Kappa",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/elektrika/Kappa/strojek.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Kappa",
+    "wordCount": 11,
     "tags": [
-      "panel-5",
-      "funkcni",
-      "sitovky"
+      "panel-5"
+    ]
+  },
+  {
+    "slug": "inv-A191-magicke-hodiny",
+    "title": "Magické hodiny",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-4-vedlejsi"
     ]
   },
   {
@@ -3540,7 +3347,7 @@
     ]
   },
   {
-    "slug": "inv-94-maticni-elektrocas",
+    "slug": "inv-P201-maticni-elektrocas",
     "title": "Matiční Elektročas",
     "category": "sbirka",
     "podsekce": "karta",
@@ -3559,7 +3366,7 @@
     ]
   },
   {
-    "slug": "inv-90-maticni-ericsson",
+    "slug": "inv-P106-maticni-ericsson",
     "title": "Matiční Ericsson",
     "category": "sbirka",
     "podsekce": "karta",
@@ -3577,20 +3384,18 @@
     ]
   },
   {
-    "slug": "inv-108-maticni-hodiny",
-    "title": "Matiční hodiny",
+    "slug": "inv-P306-maticni-hodiny-synchronni",
+    "title": "Matiční hodiny synchronní",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-3",
-      "funkcni",
-      "sitovky"
+      "panel-3"
     ]
   },
   {
@@ -3612,43 +3417,37 @@
     ]
   },
   {
-    "slug": "inv-281-maticni-siemens",
+    "slug": "inv-A259-maticni-siemens",
     "title": "Matiční Siemens",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Siemens",
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni",
-      "sitovky"
+      "volne-vedlejsi"
     ]
   },
   {
-    "slug": "inv-103-maticni-t-n",
+    "slug": "inv-P301-maticni-t-n",
     "title": "Matiční T&N",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "T&N",
+    "wordCount": 11,
     "tags": [
-      "panel-3",
-      "funkcni",
-      "sitovky"
+      "panel-3"
     ]
   },
   {
-    "slug": "inv-87-maticni-wagner",
+    "slug": "inv-P103-maticni-wagner",
     "title": "Matiční Wagner",
     "category": "sbirka",
     "podsekce": "karta",
@@ -3667,7 +3466,7 @@
     ]
   },
   {
-    "slug": "inv-89-maticni-zenith",
+    "slug": "inv-P105-maticni-zenith",
     "title": "Matiční Zenith",
     "category": "sbirka",
     "podsekce": "karta",
@@ -3733,20 +3532,33 @@
     ]
   },
   {
-    "slug": "inv-124-mini-hlavni-hodiny-hn61",
-    "title": "Mini hlavní hodiny HN61",
+    "slug": "inv-A109-metronom-letna",
+    "title": "Metronom Letná",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/fucik/mini/prstencove.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-5",
-      "funkcni",
-      "sitovky"
+      "vitrina-1-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-P501-mini-hlavni-hodiny-hn61",
+    "title": "Mini hlavní hodiny HN61",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "panel-5"
     ]
   },
   {
@@ -3767,7 +3579,7 @@
     ]
   },
   {
-    "slug": "inv-85-model-hipp",
+    "slug": "inv-P101-model-hipp",
     "title": "Model Hipp",
     "category": "sbirka",
     "podsekce": "karta",
@@ -3788,7 +3600,7 @@
   {
     "slug": "motorky",
     "title": "Motorky z hodinek",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/ujete/motorky/file004681066.jpg",
     "excerpt": "Na jiném místě tohoto webu se tvrdí, že na světě neexistuje žádná hmota nebo věc, ze které by se nedaly udělat hodiny. Tato stránka je tak trochu protipól. Ukazuje, že není nic, co by se nadalo udělat z hodinek. Zde j…",
     "year": null,
@@ -3798,22 +3610,6 @@
     "tags": [
       "kuriozita",
       "diy"
-    ]
-  },
-  {
-    "slug": "inv-277-mup-40",
-    "title": "MUP 40",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni"
     ]
   },
   {
@@ -3891,7 +3687,7 @@
   {
     "slug": "mystery",
     "title": "Mysteriózní hodiny — sběratelský bonbónek",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/mystery/clockincline1.jpg",
     "excerpt": "Hodiny s tajemstvím. Mohou to být hodiny s utajeným strojem nebo hodiny s jinou záhadou. Velmi často to jsou hodiny, které nemají žádné viditelné pohybové ústrojí, žádný zjevný důvod chodu. Prostě si tak nějak jdou. K…",
     "year": 2026,
@@ -3904,51 +3700,48 @@
     ]
   },
   {
-    "slug": "inv-246-mysteriozni-hodiny-havlicek-male",
-    "title": "Mysteriózní hodiny Havlíček malé",
+    "slug": "inv-A188-mysteriozni-hodiny-male",
+    "title": "Mysteriózní hodiny malé",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-4-vedlejsi",
-      "funkcni"
+      "vitrina-4-vedlejsi"
     ]
   },
   {
-    "slug": "inv-245-mysteriozni-hodiny-havlicek-velke",
-    "title": "Mysteriózní hodiny Havlíček velké",
+    "slug": "inv-A187-mysteriozni-hodiny-velke",
+    "title": "Mysteriózní hodiny velké",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-4-vedlejsi",
-      "funkcni"
+      "vitrina-4-vedlejsi"
     ]
   },
   {
-    "slug": "inv-154-mysteriozni-jefferson",
-    "title": "Mysteriózní Jefferson",
+    "slug": "inv-A131-mysteriozni-jefferson-se-zdrojem",
+    "title": "Mysteriozní Jefferson se zdrojem",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni"
+      "vitrina-1-vedlejsi"
     ]
   },
   {
@@ -3968,110 +3761,138 @@
     ]
   },
   {
-    "slug": "inv-261-nastenne-ato",
+    "slug": "inv-A81-naramkove-solarni-hodinky",
+    "title": "Náramkové solární hodinky",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A107-narazecka",
+    "title": "Narážečka",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-3-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A106-narazecka-obdelnik-sada",
+    "title": "Narážečka obdélník sada",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-3-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A238-nastenne-ato",
     "title": "Nástěnné ATO",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "nastenne",
-      "funkcni"
+      "volne-vedlejsi"
     ]
   },
   {
-    "slug": "inv-280-nastenne-hainz",
+    "slug": "inv-A257-nastenne-hainz",
     "title": "Nástěnné Hainz",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/hainz/deska_stroj.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
-    "imageCount": 2,
-    "wordCount": 0,
-    "vyrobce": "Hainz",
+    "imageCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "nastenne",
-      "funkcni",
-      "hainz"
+      "volne-vedlejsi"
     ]
   },
   {
-    "slug": "inv-106-nastenne-laplace",
+    "slug": "inv-P304-nastenne-laplace",
     "title": "Nástěnné Laplace",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/laplace/laplace_prestavba2b.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Laplace",
+    "wordCount": 11,
     "tags": [
-      "panel-3",
-      "nastenne",
-      "funkcni"
+      "panel-3"
     ]
   },
   {
-    "slug": "inv-107-nastenne-laplace-kulate",
+    "slug": "inv-P305-nastenne-laplace-kulate",
     "title": "Nástěnné Laplace kulaté",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/laplace/patent_fig8.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Laplace",
+    "wordCount": 11,
     "tags": [
-      "panel-3",
-      "nastenne",
-      "funkcni"
+      "panel-3"
     ]
   },
   {
-    "slug": "inv-279-nastenne-se-setrvackou",
+    "slug": "inv-A256-nastenne-se-setrvackou",
     "title": "Nástěnné se setrvačkou",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "nastenne",
-      "funkcni"
+      "volne-vedlejsi"
     ]
   },
   {
-    "slug": "inv-120-nastenne-schauer",
+    "slug": "inv-P410-nastenne-schauer",
     "title": "Nástěnné Schauer",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Schauer",
+    "wordCount": 11,
     "tags": [
-      "panel-4",
-      "nastenne",
-      "funkcni"
+      "panel-4"
     ]
   },
   {
@@ -4092,50 +3913,65 @@
     ]
   },
   {
-    "slug": "inv-78-nocturnal",
-    "title": "Nocturnal",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": "/img/nocturnal/aukro_nocturnal.jpg",
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-1-hlavni",
-      "funkcni"
-    ]
-  },
-  {
     "slug": "nocturnal",
     "title": "Nocturnal",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/nocturnal/princip_mereni.jpg",
     "excerpt": "Ve dne k určení času slouží sluneční hodiny. V noci bylo možné k určení času využít postavení hvězd. Noční hodiny ovšem neukazují sami. Bylo třeba nějakým přístrojem postavení hvězd změřit. I když byl noční chod hvězd…",
     "year": null,
     "lastModified": "2020-05-17T08:27:00.000Z",
     "imageCount": 2,
-    "wordCount": 672,
+    "wordCount": 682,
     "tags": [
       "kuriozita",
       "1700s"
     ]
   },
   {
-    "slug": "inv-134-notebook",
+    "slug": "inv-A83-nocturnal",
+    "title": "Nocturnal (lepenkový model)",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Lepenkový demonstrační model nokturnálu — přístroje k určení nočního času podle natočení referenční hvězdy vůči Polárce. Slouží k názorné ukázce principu, který podrobně popisuje článek Nocturnal. Spolek vlastní i dob…",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 33,
+    "tags": [
+      "vitrina-1-hlavni",
+      "kuriozita"
+    ]
+  },
+  {
+    "slug": "inv-A79-nocturnal-mosazny",
+    "title": "Nocturnal mosazný",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": "/img/nocturnal/aukro_nocturnal.jpg",
+    "excerpt": "Nokturnál je přístroj k určení místního nočního času podle natočení referenční hvězdy (nejčastěji bety Velkého vozu) vůči Polárce. V našich sbírkách je jeho mosazný fragment nejasné datace — na první pohled je vidět d…",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 1,
+    "wordCount": 140,
+    "tags": [
+      "vitrina-1-hlavni",
+      "kuriozita"
+    ]
+  },
+  {
+    "slug": "inv-P511-notebook",
     "title": "Notebook",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-5",
-      "funkcni"
+      "panel-5"
     ]
   },
   {
@@ -4155,37 +3991,33 @@
     ]
   },
   {
-    "slug": "inv-132-ntp-a-gps-server",
+    "slug": "inv-P509-ntp-a-gps-server",
     "title": "NTP a GPS server",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-5",
-      "nefunkcni",
-      "atomove"
+      "panel-5"
     ]
   },
   {
-    "slug": "inv-130-ntp-gps-pps-server",
+    "slug": "inv-P507-ntp-gps-pps-server",
     "title": "NTP,GPS, PPS server",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-5",
-      "funkcni",
-      "atomove"
+      "panel-5"
     ]
   },
   {
@@ -4210,7 +4042,7 @@
   {
     "slug": "vezni-zikmund1",
     "title": "O věžních hodinách na ZŠ Šumava v Jablonci nad Nisou",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/vezni/Jablonec/ZSSumVezP.gif",
     "excerpt": "!věž JablonecNerad pokračuji v seriálu o zmizelých hodinách. Život to tak ale chce. Narazil jsem na web hodináře z Jablonce nad Nisou, pana Miloše Zikmunda, a přečetl si kauzu opravy hodin na ZŠ Šumava. S jeho dovolen…",
     "year": 2004,
@@ -4225,7 +4057,7 @@
   {
     "slug": "vodni-odkazy",
     "title": "Odkazy",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": null,
     "excerpt": "Bohužel odkazy rychle stárnou. Najdete-li lepší napište.",
     "year": null,
@@ -4251,50 +4083,16 @@
     ]
   },
   {
-    "slug": "inv-53-model-prazskeho-orloje",
-    "title": "Orloj Hvězdárna Petřín",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Zjednodušený model Pražského orloje (chybí ručka pro pohyb Měsíce) byl sestrojen pro předvedení souvislosti staročeského času a času středoevropského. V minulosti se užíval staročeský čas, u něhož počítání hodin dne …",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 123,
-    "tags": [
-      "hlavni-sal",
-      "funkcni",
-      "vezni"
-    ]
-  },
-  {
     "slug": "inv-53-orloj-hvezdarna-petrin",
     "title": "Orloj Hvězdárna Petřín",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Zjednodušený model Pražského orloje (chybí ručka pro pohyb Měsíce) byl sestrojen pro předvedení souvislosti staročeského času a času středoevropského. V minulosti se užíval staročeský čas, u něhož počítání hodin dne …",
+    "excerpt": "Zjednodušený model Pražského orloje (chybí ručka pro pohyb Měsíce) byl sestrojen pro předvedení souvislosti staročeského času a času středoevropského. V minulosti se užíval staročeský čas, u něhož počítání hodin dne z…",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 123,
-    "tags": [
-      "hlavni-sal",
-      "funkcni",
-      "vezni"
-    ]
-  },
-  {
-    "slug": "inv-67-orloj-hvezdarna-petrin",
-    "title": "Orloj Hvězdárna Petřín",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
     "tags": [
       "hlavni-sal",
       "funkcni",
@@ -4329,7 +4127,7 @@
     "year": 1907,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 108,
+    "wordCount": 138,
     "tags": [
       "hlavni-sal",
       "funkcni",
@@ -4337,19 +4135,18 @@
     ]
   },
   {
-    "slug": "inv-237-osciloskopicke-hodiny",
+    "slug": "inv-A175-osciloskopicke-hodiny",
     "title": "Osciloskopické hodiny",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni"
+      "vitrina-3-vedlejsi"
     ]
   },
   {
@@ -4370,19 +4167,18 @@
     ]
   },
   {
-    "slug": "inv-119-ozubene-ctverce",
+    "slug": "inv-P409-ozubene-ctverce",
     "title": "Ozubené čtverce",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-4",
-      "funkcni"
+      "panel-4"
     ]
   },
   {
@@ -4503,9 +4299,24 @@
     ]
   },
   {
+    "slug": "inv-P405-panel-elektrocas",
+    "title": "Panel Elektročas",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "panel-4"
+    ]
+  },
+  {
     "slug": "papir",
     "title": "Papíráky",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/papiraky/papiraky1.jpg",
     "excerpt": "Hodinové schránky jsou ze železa, z mosazi, ze dřeva, z mramoru, ... ale z papíru?",
     "year": null,
@@ -4514,19 +4325,18 @@
     "wordCount": 137
   },
   {
-    "slug": "inv-276-parkovaci-automat",
+    "slug": "inv-A253-parkovaci-automat",
     "title": "Parkovací automat",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni"
+      "volne-vedlejsi"
     ]
   },
   {
@@ -4578,20 +4388,18 @@
     ]
   },
   {
-    "slug": "inv-105-perconta",
+    "slug": "inv-P303-perconta",
     "title": "Perconta",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Perconta",
+    "wordCount": 11,
     "tags": [
-      "panel-3",
-      "funkcni"
+      "panel-3"
     ]
   },
   {
@@ -4610,92 +4418,82 @@
     ]
   },
   {
-    "slug": "inv-254-pichacky-1",
+    "slug": "inv-A231-pichacky-1",
     "title": "Píchačky 1",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/pichacky/fronta2.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "nefunkcni",
-      "pichacky"
+      "volne-vedlejsi"
     ]
   },
   {
-    "slug": "inv-255-pichacky-2",
+    "slug": "inv-A232-pichacky-2",
     "title": "Píchačky 2",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/pichacky/PragotronDK3Njpg.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "nefunkcni",
-      "pichacky"
+      "volne-vedlejsi"
     ]
   },
   {
-    "slug": "inv-256-pichacky-burk",
+    "slug": "inv-A233-pichacky-burk",
     "title": "Píchačky Bürk",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/pichacky/Benzing.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni",
-      "pichacky"
+      "volne-vedlejsi"
     ]
   },
   {
-    "slug": "inv-269-pichacky-cervene-dk8b",
+    "slug": "inv-A246-pichacky-cervene-dk8b",
     "title": "Píchačky červené DK8B",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/pichacky/PragotronDK8.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni",
-      "pichacky"
+      "volne-vedlejsi"
     ]
   },
   {
-    "slug": "inv-273-pichacky-cervene-dk8b",
+    "slug": "inv-A250-pichacky-cervene-dk8b",
     "title": "Píchačky červené DK8B",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/pichacky/razitko.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni",
-      "pichacky"
+      "volne-vedlejsi"
     ]
   },
   {
-    "slug": "inv-263-pichacky-elektrocas-dk1",
+    "slug": "inv-A240-pichacky-elektrocas-dk1",
     "title": "Píchačky Elektročas Dk1",
     "category": "sbirka",
     "podsekce": "karta",
@@ -4714,7 +4512,7 @@
     ]
   },
   {
-    "slug": "inv-274-pichacky-elektrocas-dk6",
+    "slug": "inv-A251-pichacky-elektrocas-dk6",
     "title": "Píchačky Elektročas Dk6",
     "category": "sbirka",
     "podsekce": "karta",
@@ -4733,7 +4531,7 @@
     ]
   },
   {
-    "slug": "inv-262-pichacky-elektrocas-dk6",
+    "slug": "inv-A239-pichacky-elektrocas-dk6",
     "title": "Píchačky Elektročas DK6",
     "category": "sbirka",
     "podsekce": "karta",
@@ -4752,37 +4550,33 @@
     ]
   },
   {
-    "slug": "inv-264-pichacky-isgus",
+    "slug": "inv-A241-pichacky-isgus",
     "title": "Píchačky Isgus",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/pichacky/listek.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni",
-      "pichacky"
+      "volne-vedlejsi"
     ]
   },
   {
-    "slug": "inv-278-pichacky-omikron",
+    "slug": "inv-A255-pichacky-omikron",
     "title": "Píchačky Omikron",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/pichacky/19141443794.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni",
-      "pichacky"
+      "volne-vedlejsi"
     ]
   },
   {
@@ -4848,20 +4642,18 @@
     ]
   },
   {
-    "slug": "inv-258-podlahove-hh3",
+    "slug": "inv-A235-podlahove-hh3",
     "title": "Podlahové HH3",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni",
-      "stolni"
+      "volne-vedlejsi"
     ]
   },
   {
@@ -4901,7 +4693,22 @@
     ]
   },
   {
-    "slug": "inv-268-podruzne-brillie",
+    "slug": "inv-A206-podruze-hodiny-s-vterinovkou",
+    "title": "Podružé hodiny s vteřinovkou",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A245-podruzne-brillie",
     "title": "Podružné Brillié",
     "category": "sbirka",
     "podsekce": "karta",
@@ -4920,43 +4727,60 @@
     ]
   },
   {
-    "slug": "inv-104-podruzne-burk",
+    "slug": "inv-P302-podruzne-burk",
     "title": "Podružné Bürk",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-3",
-      "funkcni",
-      "jednotny-cas"
+      "panel-3"
     ]
   },
   {
-    "slug": "inv-126-podruzne-hodiny-bodet",
+    "slug": "podruzne-hodiny",
+    "title": "Podružné hodiny",
+    "category": "konstrukce",
+    "thumbnail": null,
+    "excerpt": "Podružné hodiny nemají vlastní časovou základnu — jdou podle impulzů z matečních (centrálních) hodin. Stolní podružné hodiny jsou samy o sobě výjimečné, protože tento typ se obvykle vyráběl jako nástěnný.",
+    "year": 1913,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 141,
+    "tags": [
+      "jednotny-cas",
+      "elektromagneticke",
+      "1900s"
+    ]
+  },
+  {
+    "slug": "inv-P503-podruzne-hodiny-bodet",
     "title": "Podružné hodiny Bodet",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": "/img/elektrika/Bodet/Profil930NTP.png",
-    "excerpt": "",
+    "excerpt": "Analogové podružné hodiny Bodet Profil 930 NTP zastupují v expozici nejmodernější způsob šíření časového signálu — po síti LAN (Ethernet) protokolem NTP. Hodiny očekávají, že do sítě, do které jsou připojeny, přicháze…",
     "year": null,
     "lastModified": null,
-    "imageCount": 5,
-    "wordCount": 0,
+    "imageCount": 6,
+    "wordCount": 147,
     "vyrobce": "Bodet",
     "tags": [
       "panel-5",
       "funkcni",
       "bodet",
-      "jednotny-cas"
+      "jednotny-cas",
+      "ntp-rizeno",
+      "elektricke",
+      "2000s"
     ]
   },
   {
-    "slug": "inv-86-podruzne-hodiny-hipp-1860",
+    "slug": "inv-P102-podruzne-hodiny-hipp-1860",
     "title": "Podružné hodiny Hipp 1860",
     "category": "sbirka",
     "podsekce": "karta",
@@ -4976,56 +4800,81 @@
     ]
   },
   {
-    "slug": "inv-137-podruzne-hodiny-ibm",
+    "slug": "inv-P514-podruzne-hodiny-ibm",
     "title": "Podružné hodiny IBM",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
+    "thumbnail": "/img/decin/IBM/stroj.jpg",
+    "excerpt": "Podružné hodiny INTERNACIONAL určené pro třídrátový rozvod nepolarizovaných řídicích impulzů, získané do Hodinária v roce 2017. Hodiny IBM se umí samočinně dorovnat na čas matečních hodin — odstraní tak menší odchylky…",
+    "year": 2017,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
+    "imageCount": 1,
+    "wordCount": 49,
+    "vyrobce": "IBM International",
     "tags": [
       "panel-5",
       "funkcni",
-      "jednotny-cas"
+      "jednotny-cas",
+      "elektromagneticke",
+      "1900s"
     ]
   },
   {
-    "slug": "inv-99-podruzne-hodiny-male-4x",
+    "slug": "inv-P515-podruzne-hodiny-ibm-strojek",
+    "title": "Podružné hodiny IBM strojek",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Podružný strojek hodin IBM se samočinnou regulací odchylek (kotva elektromagnetu, rohatkové kolo a dvojice vaček přepínajících vodiče A/B). Podrobný popis konstrukce a funkce viz článek Třídrátový rozvod IBM; souvisí …",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 33,
+    "vyrobce": "IBM International",
+    "tags": [
+      "panel-5",
+      "jednotny-cas",
+      "elektromagneticke",
+      "1900s"
+    ]
+  },
+  {
+    "slug": "inv-P206-podruzne-hodiny-male-4x",
     "title": "Podružné hodiny malé 4x",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-2",
-      "funkcni",
-      "jednotny-cas"
+      "panel-2"
     ]
   },
   {
-    "slug": "inv-125-podruzne-hodiny-mobatime",
+    "slug": "inv-P502-podruzne-hodiny-mobatime",
     "title": "Podružné hodiny Mobatime",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/Mobatime/struktura2020.jpg",
-    "excerpt": "",
-    "year": null,
+    "thumbnail": "/img/Mobatime/3218C1.jpg",
+    "excerpt": "Do Hodinária byla pro sezónu 2020 zapůjčena od firmy Elekon s. r. o. (člen mezinárodního holdingu MOSER-BAER AG se sídlem ve Švýcarsku) sestava hlavních hodin HN 61 a samostavitelné analogové hodiny 3218.SAM.40.C2. Se…",
+    "year": 2020,
     "lastModified": null,
-    "imageCount": 6,
-    "wordCount": 0,
+    "imageCount": 9,
+    "wordCount": 535,
     "vyrobce": "Mobatime",
     "tags": [
       "panel-5",
       "funkcni",
       "mobatime",
-      "jednotny-cas"
+      "jednotny-cas",
+      "elektricke",
+      "gps-rizeno",
+      "krystal",
+      "2000s",
+      "akvizice"
     ]
   },
   {
@@ -5048,6 +4897,40 @@
     ]
   },
   {
+    "slug": "inv-A199-podruzne-hodiny-kh1",
+    "title": "Podružné hodiny Pragotron",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": "/img/pragotron/C 30 ZEZADU+PS 4.jpg",
+    "excerpt": "",
+    "year": 2030,
+    "lastModified": null,
+    "imageCount": 6,
+    "wordCount": 0,
+    "vyrobce": "Pragotron",
+    "tags": [
+      "panel-5",
+      "funkcni",
+      "pragotron",
+      "jednotny-cas"
+    ]
+  },
+  {
+    "slug": "inv-A201-podruzne-hodiny-s-vterinovkou",
+    "title": "Podružné hodiny s vteřinovkou",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
     "slug": "podruzne-sekundove",
     "title": "Podružné hodiny s vteřinovkou",
     "category": "sbirka",
@@ -5062,41 +4945,37 @@
     ]
   },
   {
-    "slug": "inv-98-podruzne-hodiny-velke",
+    "slug": "inv-P205-podruzne-hodiny-velke",
     "title": "Podružné hodiny velké",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-2",
-      "funkcni",
-      "jednotny-cas"
+      "panel-2"
     ]
   },
   {
-    "slug": "inv-260-podruzne-ibm-4x",
+    "slug": "inv-A237-podruzne-ibm-4x",
     "title": "Podružné IBM 4x",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni",
-      "jednotny-cas"
+      "volne-vedlejsi"
     ]
   },
   {
-    "slug": "inv-267-podruzne-jednotny-cas",
+    "slug": "inv-A244-podruzne-jednotny-cas",
     "title": "Podružné Jednotný čas",
     "category": "sbirka",
     "podsekce": "karta",
@@ -5114,7 +4993,7 @@
     ]
   },
   {
-    "slug": "inv-121-podruzne-pragotron-perla",
+    "slug": "inv-P411-podruzne-pragotron-perla",
     "title": "Podružné Pragotron Perla",
     "category": "sbirka",
     "podsekce": "karta",
@@ -5130,6 +5009,21 @@
       "funkcni",
       "pragotron",
       "jednotny-cas"
+    ]
+  },
+  {
+    "slug": "inv-A197-podruzne-strojky-10x",
+    "title": "Podružné strojky 10x",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
     ]
   },
   {
@@ -5152,22 +5046,18 @@
     ]
   },
   {
-    "slug": "inv-257-podruzne-vezni-hainz",
+    "slug": "inv-A234-podruzne-vezni-hainz",
     "title": "Podružné věžní Hainz",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/hainz/zadni.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
-    "imageCount": 2,
-    "wordCount": 0,
-    "vyrobce": "Hainz",
+    "imageCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "vezni",
-      "funkcni",
-      "hainz"
+      "volne-vedlejsi"
     ]
   },
   {
@@ -5304,43 +5194,39 @@
     ]
   },
   {
-    "slug": "inv-192-podruzny-stroj-veznich-hodin-velky",
-    "title": "Podružný stroj věžních hodin velký",
+    "slug": "inv-A173-podruzny-stroj-velky",
+    "title": "Podružný stroj velký",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "vezni",
-      "funkcni"
+      "vitrina-3-vedlejsi"
     ]
   },
   {
-    "slug": "inv-225-podruzny-stroj-veznich-hodin-velky",
-    "title": "Podružný stroj věžních hodin velký",
+    "slug": "inv-A97-pohlednice-orloje-20x",
+    "title": "Pohlednice orloje 20x",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-vedlejsi",
-      "vezni",
-      "funkcni"
+      "vitrina-2-hlavni"
     ]
   },
   {
     "slug": "slunecni-polarizacni",
     "title": "Polarizační sluneční hodiny",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/slunecni/polar1.jpg",
     "excerpt": "Co byste řekli slunečním hodinám, které nemají žádný ukazatel vrhající stín? Hodinám, které správně ukazují čas, i když je Slunce zakryto mrakem, a které po nějakou dobu fungují dokonce i po západu Slunce či před jeho…",
     "year": 1997,
@@ -5369,19 +5255,48 @@
     ]
   },
   {
-    "slug": "inv-272-poulicni-hodiny",
+    "slug": "inv-A94-ponocenske-hodiny-1",
+    "title": "Ponocenské hodiny 1",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A95-ponocenske-hodiny-2",
+    "title": "Ponocenské hodiny 2",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A249-poulicni-hodiny",
     "title": "Pouliční hodiny",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni"
+      "volne-vedlejsi"
     ]
   },
   {
@@ -5411,7 +5326,7 @@
     ]
   },
   {
-    "slug": "inv-270-pragotron-c301",
+    "slug": "inv-A247-pragotron-c301",
     "title": "Pragotron C301",
     "category": "sbirka",
     "podsekce": "karta",
@@ -5431,7 +5346,7 @@
   {
     "slug": "pragotron1",
     "title": "Pragotroňky - Analogové i digitální podružné hodiny fy PRAGOTRON",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": null,
     "excerpt": "Popis některých historických podružných hodin firmy PRAGOTRON od jednoho ze sběratelských nadšenců. Následující část sepsal pan Michal Klíč . Dokazuje tak, že i podružné hodiny se dají sbírat.",
     "year": 1988,
@@ -5456,41 +5371,39 @@
     ]
   },
   {
-    "slug": "inv-252-propagandawecker",
+    "slug": "inv-A214-propagandawecker",
     "title": "Propagandawecker",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi"
+      "vitrina-5-vedlejsi"
     ]
   },
   {
-    "slug": "inv-135-preklapeci-hodiny-zavinac",
+    "slug": "inv-P512-preklapeci-hodiny-zavinac",
     "title": "Překlápěcí hodiny zavináč",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-5",
-      "funkcni",
-      "digi"
+      "panel-5"
     ]
   },
   {
     "slug": "listkove-kohler",
     "title": "Překlápěčky Köhler & Co, Laufamholz",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/listkove/kohler_001.jpg",
     "excerpt": "Představujeme velmi zajímavé mechanické lístkové hodiny ve stavu těsně po získání sběratelem. Stránka je sestavena se sérií fotografií a komentáře nového majitele. Za příspěvek děkujeme.",
     "year": null,
@@ -5517,20 +5430,18 @@
     "wordCount": 452
   },
   {
-    "slug": "inv-247-presypaci-hodiny",
+    "slug": "inv-A208-presypaci-hodiny",
     "title": "Přesýpací hodiny",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni",
-      "pisecne"
+      "vitrina-5-vedlejsi"
     ]
   },
   {
@@ -5581,35 +5492,55 @@
     ]
   },
   {
-    "slug": "inv-249-razitko-casove",
+    "slug": "inv-A210-razitko-casove",
     "title": "Razítko časové",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi"
+      "vitrina-5-vedlejsi"
     ]
   },
   {
-    "slug": "inv-169-retrogradni-kavalir",
-    "title": "Retrográdní Kavalír",
+    "slug": "inv-A180-regulator-term-52",
+    "title": "Regulátor Term 52",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-3-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A176-retrogradni-hodiny-kavalir",
+    "title": "Retrográdní hodiny Kavalír",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": "/img/decin/chronulator/ret1.jpg",
+    "excerpt": "Slovem chronulátor se označují hodiny, které čas ukazují pomocí soustavy ručkových voltmetrů. Nejjednodušší chronulátor má dva voltmetry — jeden ukazuje hodiny, druhý minuty. Možností je ovšem více. Tento exponát byl …",
+    "year": 2016,
+    "lastModified": null,
+    "imageCount": 3,
+    "wordCount": 221,
     "vyrobce": "Kavalír",
     "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni"
+      "vitrina-3-vedlejsi",
+      "kuriozita",
+      "diy",
+      "elektricke",
+      "krystal",
+      "2000s",
+      "decin"
     ]
   },
   {
@@ -5630,20 +5561,18 @@
     ]
   },
   {
-    "slug": "inv-118-rl-83",
+    "slug": "inv-P408-rl-83",
     "title": "RL 83",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-4",
-      "funkcni",
-      "sitovky"
+      "panel-4"
     ]
   },
   {
@@ -5687,54 +5616,48 @@
     "wordCount": 70
   },
   {
-    "slug": "inv-109-retezove",
+    "slug": "inv-P307-retezove",
     "title": "Řetězové",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-3",
-      "funkcni"
+      "panel-3"
     ]
   },
   {
-    "slug": "inv-136-ridici-system-gema",
+    "slug": "inv-P513-ridici-system-gema",
     "title": "Řídicí systém Gema",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Gema",
+    "wordCount": 11,
     "tags": [
-      "panel-5",
-      "funkcni",
-      "sitovky"
+      "panel-5"
     ]
   },
   {
-    "slug": "inv-241-rimske-digitalky",
+    "slug": "inv-A194-rimske-digitalky",
     "title": "Římské digitálky",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-4-vedlejsi",
-      "funkcni",
-      "digi"
+      "vitrina-4-vedlejsi"
     ]
   },
   {
@@ -5752,7 +5675,7 @@
     "slug": "rimskedigi2",
     "title": "Římské digitálky - tentokrát s Arduinem",
     "category": "projekty",
-    "thumbnail": null,
+    "thumbnail": "/img/orloje/venecia/digitalky1.jpg",
     "excerpt": "Prosakují zprávy, že se uvažuje o vyřazení římských číslic ze školních osnov. Protože s tímto trendem nesouhlasíme, navrhli jsme římské digitálky nejprve jako script pro tento web (viz níže), následně pak jako exponát…",
     "year": 1550,
     "lastModified": "2022-04-04T09:25:00.000Z",
@@ -5760,19 +5683,18 @@
     "wordCount": 768
   },
   {
-    "slug": "inv-242-rimske-zvoneni",
-    "title": "Římské zvonění",
+    "slug": "inv-A193-rimske-odbijeni",
+    "title": "Římské odbíjení",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-4-vedlejsi",
-      "funkcni"
+      "vitrina-4-vedlejsi"
     ]
   },
   {
@@ -5792,57 +5714,18 @@
     ]
   },
   {
-    "slug": "inv-138-rizeni-ibm-arduino",
+    "slug": "inv-P516-rizeni-ibm-arduino",
     "title": "Řízení IBM Arduino",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/arduino/web_IBM2.jpg",
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "panel-5",
-      "funkcni",
-      "sitovky"
-    ]
-  },
-  {
-    "slug": "mobatime",
-    "title": "Samostavitelné hodiny MOBALine",
-    "category": "sbirka",
-    "thumbnail": "/img/Mobatime/HN60IP20.jpg",
-    "excerpt": "Do Hodinária bylo pro sezónu 2020 zapůjčena od firmy Elekon s.r.o(člen mezinárodního holdingu MOSER-BAER AG se sídlem ve Švýcarsku) sestava hlavních hodiny HN 61 a samostavitelné analogové hodiny 3218.SAM.40.C2. Sesta…",
-    "year": 2020,
-    "lastModified": "2021-07-07T09:15:00.000Z",
-    "imageCount": 4,
-    "wordCount": 823,
-    "tags": [
-      "jednotny-cas",
-      "elektricke",
-      "gps-rizeno",
-      "krystal",
-      "2000s",
-      "mobatime",
-      "akvizice"
-    ]
-  },
-  {
-    "slug": "inv-235-satellite-controlled-clock-gps-167",
-    "title": "Satellite controlled clock GPS 167",
-    "category": "sbirka",
-    "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni",
-      "atomove"
+      "panel-5"
     ]
   },
   {
@@ -5857,58 +5740,69 @@
     "wordCount": 126
   },
   {
-    "slug": "inv-95-selenovy-usmernovac",
+    "slug": "inv-A190-sekvencni-hodiny",
+    "title": "Sekvenční hodiny",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-4-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-P202-selenovy-usmernovac",
     "title": "Selénový usměrňovač",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-2",
-      "funkcni"
+      "panel-2"
     ]
   },
   {
-    "slug": "inv-114-sh40",
+    "slug": "inv-P403-sh40",
     "title": "SH40",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-4",
-      "funkcni",
-      "sitovky"
+      "panel-4"
     ]
   },
   {
-    "slug": "inv-164-schodistovy-spinac-ovladani",
-    "title": "Schodišťový spínač + ovládání",
+    "slug": "inv-A129-schodistovy-spinac-se-zdrojem",
+    "title": "Schodišťový spínač se zdrojem",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni"
+      "vitrina-1-vedlejsi"
     ]
   },
   {
     "slug": "sitovky",
     "title": "Síťovky",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/elektrika/metamec/metamec_001.jpg",
     "excerpt": "Elektrické hodiny se synchronním motorem a hodiny odvozované od frekvence sítě.Hodiny které jdou, ale netikají. Oni vlastně nejdou, protože tikání je zvuk, který doprovází funkci kroku. Bez kroku nelze jít. Jednotka č…",
     "year": null,
@@ -5938,6 +5832,21 @@
     ]
   },
   {
+    "slug": "inv-A93-sky-timer-stopky",
+    "title": "Sky timer stopky",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-hlavni"
+    ]
+  },
+  {
     "slug": "muzeum-stara-bystrica",
     "title": "Slovenský orloj — Stará Bystrica",
     "category": "muzea",
@@ -5958,7 +5867,7 @@
   {
     "slug": "slunecni-digi",
     "title": "Sluneční digitálky",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": "/img/slunecni/slunecni_profilas1.jpg",
     "excerpt": "Za sluneční hodiny lze považovat různé konstrukce. Například elektronické digitální hodiny napájené fotovoltaickým článkem. I ty jde také považovat za hraniční typ slunečních hodin. Ze stejné oblasti pochází \"sledovač…",
     "year": null,
@@ -5972,7 +5881,7 @@
   {
     "slug": "slunecni",
     "title": "Sluneční hodiny — odkazy a kuriozity",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": "/img/slunecni/diptych1a.jpg",
     "excerpt": "Sluneční hodiny patří k nejstarším měřičům času. Tato stránka shromažďuje odkazy na české i zahraniční zdroje o slunečních hodinách a uzavírá ji funkční ukázka slunečních hodin pražského Klementina od Vlasty Fillera.",
     "year": null,
@@ -5984,111 +5893,264 @@
     ]
   },
   {
-    "slug": "inv-71-slunecni-hodiny-diptychove-1",
-    "title": "Sluneční hodiny diptychové 1",
+    "slug": "inv-A192-slunecni-hodiny-digitalni",
+    "title": "Sluneční hodiny digitální",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-hlavni",
-      "slunecni",
-      "funkcni"
+      "vitrina-4-vedlejsi"
     ]
   },
   {
-    "slug": "inv-74-slunecni-hodiny-diptychove-2",
-    "title": "Sluneční hodiny diptychové 2",
+    "slug": "inv-A76-slunecni-hodiny-diptychove",
+    "title": "Sluneční hodiny diptychové",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-hlavni",
-      "slunecni",
-      "funkcni"
+      "vitrina-1-hlavni"
     ]
   },
   {
-    "slug": "inv-68-slunecni-hodiny-horizontalni",
+    "slug": "inv-A77-slunecni-hodiny-drevene",
+    "title": "Sluneční hodiny dřevěné",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A68-slunecni-hodiny-horizontalni",
     "title": "Sluneční hodiny horizontální",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-hlavni",
-      "slunecni",
-      "funkcni"
+      "vitrina-1-hlavni"
     ]
   },
   {
-    "slug": "inv-69-slunecni-hodiny-polarni",
-    "title": "Sluneční hodiny polární",
+    "slug": "inv-A80-slunecni-hodiny-kapesni-zdobene",
+    "title": "Sluneční hodiny kapesní zdobené",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-hlavni",
-      "slunecni",
-      "funkcni"
+      "vitrina-1-hlavni"
     ]
   },
   {
-    "slug": "inv-70-slunecni-hodiny-polarni-mosazne",
+    "slug": "inv-A85-slunecni-hodiny-kubicke",
+    "title": "Sluneční hodiny kubické",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A70-slunecni-hodiny-polarni-mosazne",
     "title": "Sluneční hodiny polární mosazné",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-hlavni",
-      "slunecni",
-      "funkcni"
+      "vitrina-1-hlavni"
     ]
   },
   {
-    "slug": "inv-77-slunecni-hodiny-prstencove",
+    "slug": "inv-A69-slunecni-hodiny-polarni-plechove",
+    "title": "Sluneční hodiny polární plechové",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A71-slunecni-hodiny-polarni-plechove",
+    "title": "Sluneční hodiny polární plechové",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A82-slunecni-hodiny-prstencove",
     "title": "Sluneční hodiny prstencové",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-hlavni",
-      "slunecni",
-      "funkcni"
+      "vitrina-1-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A84-slunecni-hodiny-prstencove",
+    "title": "Sluneční hodiny prstencové",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A72-slunecni-hodiny-prenosne-1",
+    "title": "Sluneční hodiny přenosné 1",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A73-slunecni-hodiny-prenosne-2",
+    "title": "Sluneční hodiny přenosné 2",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A87-slunecni-hodiny-s-analemou-male",
+    "title": "Sluneční hodiny s analémou malé",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A86-slunecni-hodiny-s-analemou-velke",
+    "title": "Sluneční hodiny s analémou velké",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A89-slunecni-hodiny-stolni-barokni",
+    "title": "Sluneční hodiny stolní barokní",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A88-slunecni-hodiny-stolni-engelbrecht",
+    "title": "Sluneční hodiny stolní Engelbrecht",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-hlavni"
     ]
   },
   {
     "slug": "slunecni-filler",
     "title": "Sluneční hodiny Vlasty Fillera",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": null,
     "excerpt": "Díky laskavosti pana Vlasty Fillera, autora webu vlastafiller.wz.cz, můžeme zde ukázat sluneční hodiny z jižní stěny Hospodářského dvora pražského Klementina. Program byl s laskavým souhlasem autora přepsán do moderní…",
     "year": null,
@@ -6169,83 +6231,48 @@
     ]
   },
   {
-    "slug": "inv-173-sovetske-digitalni-elektronika",
-    "title": "Sovětské digitální Elektronika",
+    "slug": "inv-A135-spinaci-hodiny-karel-zofka",
+    "title": "Spínací hodiny Karel Žofka",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni",
-      "digi"
-    ]
-  },
-  {
-    "slug": "inv-206-sovetske-digitalni-elektronika",
-    "title": "Sovětské digitální Elektronika",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni",
-      "digi"
-    ]
-  },
-  {
-    "slug": "inv-162-spinaci-hodiny-5x",
-    "title": "Spínací hodiny 5x",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
       "vitrina-1-vedlejsi"
     ]
   },
   {
-    "slug": "inv-251-staromestska-vez",
-    "title": "Staroměstská věž",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "rohova-vitrina-vedlejsi"
-    ]
-  },
-  {
-    "slug": "inv-250-staromestska-vez-3-klauni",
+    "slug": "inv-A211-staromestska-vez-3-klauni",
     "title": "Staroměstská věž 3 klauni",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "vezni"
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A212-staromestska-vez-keramika",
+    "title": "Staroměstská věž keramika",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
     ]
   },
   {
@@ -6264,159 +6291,267 @@
     ]
   },
   {
-    "slug": "inv-158-stolni-everett-edgecome",
+    "slug": "inv-A137-stolni-alabastr",
+    "title": "Stolní alabastr",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A130-stolni-ato-hranate",
+    "title": "Stolní ATO hranaté",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A133-stolni-budik-synchro",
+    "title": "Stolní budík synchro",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A127-stolni-everett-edgecome",
     "title": "Stolní Everett Edgecome",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-vedlejsi",
-      "stolni",
-      "funkcni"
+      "vitrina-1-vedlejsi"
     ]
   },
   {
-    "slug": "inv-188-stolni-hodiny-12v",
-    "title": "Stolní hodiny 12V",
+    "slug": "inv-A159-stolni-hodiny-orel-s-kalendarem",
+    "title": "Stolní hodiny Orel s kalendářem",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "stolni",
-      "funkcni"
+      "vitrina-2-vedlejsi"
     ]
   },
   {
-    "slug": "inv-221-stolni-hodiny-12v",
-    "title": "Stolní hodiny 12V",
+    "slug": "inv-A120-stolni-hodiny-siemens",
+    "title": "Stolní hodiny Siemens",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-vedlejsi",
-      "stolni",
-      "funkcni"
+      "vitrina-1-vedlejsi"
     ]
   },
   {
-    "slug": "inv-189-stolni-hodiny-orel",
-    "title": "Stolní hodiny Orel",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-2-vedlejsi",
-      "stolni",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-222-stolni-hodiny-orel",
-    "title": "Stolní hodiny Orel",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "stolni",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-190-stolni-hodiny-perfecta",
-    "title": "Stolní hodiny Perfecta",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-2-vedlejsi",
-      "stolni",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-223-stolni-hodiny-perfecta",
-    "title": "Stolní hodiny Perfecta",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "stolni",
-      "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-155-stolni-kyvadlove-art-deco",
+    "slug": "inv-A111-stolni-kyvadlove-art-deco",
     "title": "Stolní kyvadlové Art-deco",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-vedlejsi",
-      "stolni",
-      "funkcni"
+      "vitrina-1-vedlejsi"
     ]
   },
   {
-    "slug": "inv-163-stopky-krizik",
+    "slug": "inv-A157-stolni-listkove-stroj",
+    "title": "Stolní lístkové - stroj",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A105-stolni-misky-na-olej",
+    "title": "Stolní misky na olej",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-3-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A112-synchronni-art-deco",
+    "title": "Stolní podružné hodiny art deco",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": "/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg",
+    "excerpt": "Stolní podružné hodiny ve stylu art deco, vysoké 47 cm, osazené podružným strojkem na 24 V s otočnou kotvou (výrobce patrně Siemens). Strojek má velmi tichý chod a hodí se proto i do interiéru kanceláře. Obecný kontex…",
+    "year": 1913,
+    "lastModified": null,
+    "imageCount": 4,
+    "wordCount": 257,
+    "vyrobce": "Siemens (strojek)",
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "stolni",
+      "jednotny-cas",
+      "elektromagneticke",
+      "1900s"
+    ]
+  },
+  {
+    "slug": "inv-A155-stolni-rocky-quartz",
+    "title": "Stolní ročky Quartz",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A136-stolni-s-digi-vterinovkou",
+    "title": "Stolní s digi vteřinovkou",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A138-stolni-s-vterinovkou",
+    "title": "Stolní s vteřinovkou",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A139-stolni-svetovy-cas",
+    "title": "Stolní světový čas",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A153-stolni-tranzistorove-ato",
+    "title": "Stolní tranzistorové ATO",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A134-stopky-007",
+    "title": "Stopky 007",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-1-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A132-stopky-krizik",
     "title": "Stopky Křižík",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni"
+      "vitrina-1-vedlejsi"
     ]
   },
   {
-    "slug": "inv-153-stopky-pragotron",
+    "slug": "inv-A196-stopky-pragotron",
     "title": "Stopky Pragotron",
     "category": "sbirka",
     "podsekce": "karta",
@@ -6469,40 +6604,6 @@
     ]
   },
   {
-    "slug": "inv-193-stroj-synchronnich-hodin",
-    "title": "Stroj synchronních hodin",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni",
-      "sitovky"
-    ]
-  },
-  {
-    "slug": "inv-226-stroj-synchronnich-hodin",
-    "title": "Stroj synchronních hodin",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni",
-      "sitovky"
-    ]
-  },
-  {
     "slug": "svarcvaldky-stroje2",
     "title": "Stroj štolových hodin (cca pol. 19.stol.)",
     "category": "konstrukce",
@@ -6518,97 +6619,78 @@
     ]
   },
   {
-    "slug": "vez-budislav",
-    "title": "Stroj věžních hodin - Budislav",
-    "category": "sbirka",
-    "thumbnail": "/img/vez/Budislav/f/kostel.jpg",
-    "excerpt": "Do expozice Věžního muzejíčka v Soběslavi byl v roce 2012 zapůjčen vřetenový stroj věžních hodin z kostela Nanebevzetí Panny Marie z nedaleké obce Budislav. Stroj byl před mnoha lety demontován a nahrazen mechanickým …",
-    "year": 1357,
-    "lastModified": "2017-04-27T09:14:00.000Z",
-    "imageCount": 11,
-    "wordCount": 477,
-    "tags": [
-      "vezni",
-      "mechanicke",
-      "zavazi",
-      "krok-vreteno",
-      "1700s",
-      "cesko"
-    ]
-  },
-  {
-    "slug": "vez-prysk",
-    "title": "Stroj věžních hodin - Horní Prysk",
-    "category": "sbirka",
-    "thumbnail": "/img/vez/prysk/f/foto2_000.jpg",
-    "excerpt": "Do expozice Věžního muzejíčka v Soběslavi byly v roce 2012 zapůjčeny laskavostí Biskupství litoměřického věžní hodiny, které byly před instalací moderních, elektronicky řízených hodin, umístěny ve zvonici kostela Petr…",
-    "year": 2012,
-    "lastModified": "2017-04-23T09:01:00.000Z",
-    "imageCount": 12,
-    "wordCount": 598,
-    "tags": [
-      "vezni",
-      "mechanicke",
-      "zavazi",
-      "kyvadlo",
-      "krok-kotva",
-      "michael-christ",
-      "1800s",
-      "restaurovane"
-    ]
-  },
-  {
-    "slug": "vez-decin",
-    "title": "Stroj věžních hodin 1884 - Podmokly",
-    "category": "sbirka",
-    "thumbnail": "/img/vez/decin/decin1.jpg",
-    "excerpt": "Další velký exponát Hodinária pochází z evangelického kostela v Podmoklech. V německých pramenech je kostel uváděn jako evangelische Christuskirche.!decin 1 Kostel byl vybudován zásluhou podnikatele Franze Jordana, kt…",
-    "year": 1884,
-    "lastModified": "2017-04-27T21:48:00.000Z",
-    "imageCount": 5,
-    "wordCount": 354,
-    "tags": [
-      "vezni",
-      "mechanicke",
-      "zavazi",
-      "kyvadlo",
-      "krok-graham",
-      "hiemann",
-      "decin",
-      "1800s"
-    ]
-  },
-  {
-    "slug": "inv-100-strojek-hainz",
+    "slug": "inv-P207-strojek-hainz",
     "title": "Strojek Hainz",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/hainz/predni_n.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
-    "imageCount": 2,
-    "wordCount": 0,
-    "vyrobce": "Hainz",
+    "imageCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-2",
-      "funkcni",
-      "hainz"
+      "panel-2"
     ]
   },
   {
-    "slug": "inv-84-strojek-na-retizky-2ks",
+    "slug": "inv-A103-strojek-na-retizky-2ks",
     "title": "Strojek na řetízky 2ks",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
       "vitrina-3-hlavni"
+    ]
+  },
+  {
+    "slug": "inv-A152-strojek-podruzny-elektrocas-11x",
+    "title": "Strojek podružný Elektročas 11x",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A144-strojek-setrvackovy",
+    "title": "Strojek setrvačkový",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A140-strojek-setrvackovy-orel",
+    "title": "Strojek setrvačkový Orel",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-2-vedlejsi"
     ]
   },
   {
@@ -6629,7 +6711,7 @@
   {
     "slug": "svitici",
     "title": "Svítící hodiny",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": "/img/elektrika/svitici/svitici2.jpg",
     "excerpt": "Na začátku tohoto povídání je nový přírůstek mé sbírky - svítící hodiny či snad osvětlovací těleso s hodinami Watch the light od firmy Massive (katalogové číslo 80999/22/47). Svítidlo používá dvě úsporné \"žárovky\" do …",
     "year": 1854,
@@ -6638,70 +6720,48 @@
     "wordCount": 1519
   },
   {
-    "slug": "inv-133-switch",
+    "slug": "inv-P510-switch",
     "title": "Switch",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-5",
-      "funkcni"
+      "panel-5"
     ]
   },
   {
-    "slug": "inv-143-synchronni-art-deco",
-    "title": "Synchronní Art deco",
+    "slug": "inv-A114-synchronni-bici-stroj-1",
+    "title": "Synchronní bicí - stroj 1",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni",
-      "sitovky"
+      "vitrina-1-vedlejsi"
     ]
   },
   {
-    "slug": "inv-152-synchronni-bici-stroj",
-    "title": "Synchronní bicí - stroj",
+    "slug": "inv-A119-synchronni-bici-stroj-2",
+    "title": "Synchronní bicí - stroj 2",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni",
-      "sitovky"
-    ]
-  },
-  {
-    "slug": "inv-142-synchronni-big-ben-electric",
-    "title": "Synchronní Big Ben electric",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni",
-      "sitovky"
+      "vitrina-1-vedlejsi"
     ]
   },
   {
@@ -6724,74 +6784,33 @@
     ]
   },
   {
-    "slug": "inv-156-synchronni-laplace-stroj",
+    "slug": "inv-A117-synchronni-laplace-stroj",
     "title": "Synchronní Laplace - stroj",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/laplace/patent_fig9.jpg",
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Laplace",
-    "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni",
-      "sitovky"
-    ]
-  },
-  {
-    "slug": "inv-145-synchronni-s-digitalnim-displejem",
-    "title": "Synchronní s digitálním displejem",
-    "category": "sbirka",
-    "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni",
-      "sitovky",
-      "digi"
+      "vitrina-1-vedlejsi"
     ]
   },
   {
-    "slug": "inv-140-synchronni-siemens",
-    "title": "Synchronní Siemens",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Siemens",
-    "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni",
-      "sitovky"
-    ]
-  },
-  {
-    "slug": "inv-110-synchronni-spar",
+    "slug": "inv-P308-synchronni-spar",
     "title": "Synchronní Spar",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-3",
-      "funkcni",
-      "sitovky"
+      "panel-3"
     ]
   },
   {
@@ -6809,23 +6828,6 @@
       "vitrina-1-vedlejsi",
       "stolni",
       "funkcni"
-    ]
-  },
-  {
-    "slug": "inv-141-synchronni-west-clock",
-    "title": "Synchronní West clock",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni",
-      "sitovky"
     ]
   },
   {
@@ -6857,19 +6859,18 @@
     ]
   },
   {
-    "slug": "inv-82-svarcvaldsky-stroj-3-ks",
+    "slug": "inv-A100-svarcvaldsky-stroj-3-ks",
     "title": "Švarcvaldský stroj 3 ks",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/svarcvald/18stol1.jpg",
-    "excerpt": "",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-3-hlavni",
-      "nastenne"
+      "vitrina-3-hlavni"
     ]
   },
   {
@@ -6890,6 +6891,21 @@
     ]
   },
   {
+    "slug": "inv-A258-tellurium",
+    "title": "Tellurium",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "volne-vedlejsi"
+    ]
+  },
+  {
     "slug": "_test-draft-article",
     "title": "Testovací článek s WIP bannerem",
     "category": "zajimavosti",
@@ -6903,7 +6919,7 @@
   {
     "slug": "vodni-b-gitton",
     "title": "TIME FLOW CLOCK - hodiny protékajícího času",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/vodni/time_flow_clock0.jpg",
     "excerpt": "Francouz Bernard Gitton v roce 1979 vytvořil ze skleněných trubic několik fantastických vodních hodin. Dnes je ve světě více než 30 míst, kde se lze těmto hodinám obdivovat. Je to například The Children´s Museum v Ind…",
     "year": 1979,
@@ -6915,19 +6931,18 @@
     ]
   },
   {
-    "slug": "inv-282-time-slider-spilka",
+    "slug": "inv-A260-time-slider-spilka",
     "title": "Time slider Spilka",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni"
+      "volne-vedlejsi"
     ]
   },
   {
@@ -6964,25 +6979,6 @@
     ]
   },
   {
-    "slug": "decin-velika-ves",
-    "title": "Torzo gotického stroje z Veliké Vsi",
-    "category": "sbirka",
-    "thumbnail": "/img/decin/gotika/Kostel_sv._Vavrince.jpg",
-    "excerpt": "V kostele sv. Vavřince ve Veliké Vsi se zachovalo torzo hodin s gotickými prvky. Wikipedie uvádí, že první zmínky o obci i o kostele pochází už ze třetí čtvrtiny 13. století. Ve starší literatuře se uvádí, že kostel n…",
-    "year": 1340,
-    "lastModified": "2021-04-27T15:43:00.000Z",
-    "imageCount": 14,
-    "wordCount": 465,
-    "tags": [
-      "vezni",
-      "gotika",
-      "torzo",
-      "nalezovy",
-      "decin",
-      "zavazi"
-    ]
-  },
-  {
     "slug": "decin-patek",
     "title": "Torzo hodinového stroje z roku 1694 a stroj z roku 1728",
     "category": "sbirka",
@@ -7001,31 +6997,30 @@
     ]
   },
   {
-    "slug": "inv-240-tourbillon-spilka",
+    "slug": "inv-A184-tourbillon-spilka",
     "title": "Tourbillon Spilka",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-4-vedlejsi",
-      "funkcni"
+      "vitrina-4-vedlejsi"
     ]
   },
   {
-    "slug": "decin-regulace-ibm",
+    "slug": "tridratovy-rozvod-ibm",
     "title": "Třídrátový rozvod IBM",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/decin/IBM/stroj.jpg",
-    "excerpt": "Hodinárium v Děčíně se v roce 2017 rozrostlo o podružné hodiny INTERNACIONAL určené pro třídrátový rozvod nepolarizovaných řídících impulzů. Tento rozvod je určen pro hodiny IBM se samočinnou regulací jednotlivých pod…",
+    "excerpt": "Hodinárium v Děčíně se v roce 2017 rozrostlo o podružné hodiny INTERNACIONAL určené pro třídrátový rozvod nepolarizovaných řídicích impulzů. Tento rozvod je určen pro hodiny IBM se samočinnou regulací jednotlivých pod…",
     "year": 2017,
     "lastModified": "2022-06-10T22:30:00.000Z",
     "imageCount": 6,
-    "wordCount": 1089,
+    "wordCount": 850,
     "tags": [
       "jednotny-cas",
       "pichacky",
@@ -7049,6 +7044,21 @@
       "baroko",
       "1700s",
       "evropa"
+    ]
+  },
+  {
+    "slug": "inv-A195-tydenik",
+    "title": "Týdeník",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-4-vedlejsi"
     ]
   },
   {
@@ -7112,25 +7122,39 @@
     ]
   },
   {
-    "slug": "inv-265-ustredna-ehu-0660",
+    "slug": "inv-A242-ustredna-ehu-0660",
     "title": "Ústředna EHU 0660",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni"
+      "volne-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A254-ustredna-mup-40",
+    "title": "Ústředna MUP 40",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "volne-vedlejsi"
     ]
   },
   {
     "slug": "uspirku",
     "title": "Variace na věžní hodiny",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/vezni/praha/uspirku1.JPG",
     "excerpt": "V historických částech měst jsou oblíbené hospůdky, které uspořádáním svého interiéru navozují starobylou, někdy až středověkou atmosféru. Atmosféru klidu. Atmosféru, ve které jako bychom vnímali ubíhající čas. Napomá…",
     "year": null,
@@ -7141,6 +7165,21 @@
       "kuriozita",
       "praha",
       "elektricke"
+    ]
+  },
+  {
+    "slug": "inv-A218-vez-big-ben",
+    "title": "Věž Big - Ben",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
     ]
   },
   {
@@ -7171,7 +7210,7 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 125,
+    "wordCount": 135,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7184,17 +7223,21 @@
     "title": "věžní 18. stol. špindl",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "V kovaném rámu se sloupky v horní části s ozdobným zatočením je umístěn jicí kyvadlový stroj s vřetenovým krokem a půlový bicí stroj. Nezachovalo se kyvadlo ani natahovací klika, která se používala pro oba stroje. Nal…",
-    "year": 1754,
+    "thumbnail": "/img/vez/Budislav/f/kostel.jpg",
+    "excerpt": "Do expozice Věžního muzejíčka v Soběslavi byl v roce 2012 zapůjčen vřetenový stroj věžních hodin z kostela Nanebevzetí Panny Marie z nedaleké obce Budislav. Stroj byl před mnoha lety demontován a nahrazen mechanickým …",
+    "year": 1357,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 187,
+    "imageCount": 9,
+    "wordCount": 466,
     "tags": [
       "hlavni-sal",
       "vezni",
       "nefunkcni",
-      "krok-vreteno"
+      "krok-vreteno",
+      "zavazi",
+      "mechanicke",
+      "1700s",
+      "cesko"
     ]
   },
   {
@@ -7225,7 +7268,7 @@
     "year": 1864,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 106,
+    "wordCount": 115,
     "vyrobce": "Friedrich Moritz Bassler",
     "tags": [
       "hlavni-sal",
@@ -7245,7 +7288,7 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 60,
+    "wordCount": 80,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7263,7 +7306,7 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 80,
+    "wordCount": 90,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7281,7 +7324,7 @@
     "year": 2015,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 69,
+    "wordCount": 78,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7299,7 +7342,7 @@
     "year": 1931,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 187,
+    "wordCount": 211,
     "vyrobce": "F. X. Beitel",
     "tags": [
       "hlavni-sal",
@@ -7356,19 +7399,23 @@
     "title": "věžní Hiemann 1884",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Hodiny zakoupeny v roce 1884 od firmy Julius Hiemann v Lipsku pro evangelický kostel v Děčíně – Podmoklech. Stroj sloužil až do osmdesátých let minulého století, kdy byl pro časté poruchy odstaven a nahrazen strojem m…",
+    "thumbnail": "/img/vez/decin/decin_instalace3.jpg",
+    "excerpt": "Další velký exponát Hodinária pochází z evangelického kostela v Podmoklech, v německých pramenech uváděného jako evangelische Christuskirche. Kostel byl vybudován zásluhou podnikatele Franze Jordana, který v Podmoklec…",
     "year": 1884,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 154,
+    "imageCount": 5,
+    "wordCount": 325,
     "vyrobce": "Hiemann",
     "tags": [
       "hlavni-sal",
       "vezni",
       "funkcni",
       "krok-graham",
-      "hiemann"
+      "hiemann",
+      "decin",
+      "1800s",
+      "zavazi",
+      "kyvadlo"
     ]
   },
   {
@@ -7433,18 +7480,21 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": "/img/decin/francie1770/f/foto_0001.jpg",
-    "excerpt": "Půlový hodinový stroj s rámem typu flat bed. Tento způsob uložení kol se u nás vyskytuje vzácně. Stroj má horizontální uspořádání, Amantův kolíčkový krok. Na rámu jsou patrny stopy dodatečných úprav. Bití je půlové, n…",
+    "excerpt": "Půlový hodinový stroj s rámem typu flat bed. Tento způsob uložení kol se u nás vyskytuje vzácně. Stroj byl zakoupen od věžního hodináře Markuse Burmeistera; podle jeho vyjádření jde o francouzský stroj vyrobený kolem …",
     "year": 1770,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 117,
+    "imageCount": 23,
+    "wordCount": 333,
     "vyrobce": "Paul Zieux",
     "tags": [
       "hlavni-sal",
       "vezni",
       "funkcni",
       "krok-amant",
-      "paul-zieux"
+      "paul-zieux",
+      "decin",
+      "restaurovane",
+      "1700s"
     ]
   },
   {
@@ -7457,7 +7507,7 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 110,
+    "wordCount": 119,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7475,7 +7525,7 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 140,
+    "wordCount": 160,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7493,7 +7543,7 @@
     "year": 1859,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 148,
+    "wordCount": 178,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7511,7 +7561,7 @@
     "year": 1881,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 147,
+    "wordCount": 167,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7547,7 +7597,7 @@
     "year": 1839,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 150,
+    "wordCount": 172,
     "vyrobce": "Kohlert",
     "tags": [
       "hlavni-sal",
@@ -7555,27 +7605,6 @@
       "funkcni",
       "krok-graham",
       "kohlert"
-    ]
-  },
-  {
-    "slug": "bychory-prokes1",
-    "title": "Věžní komplet Prokeš 1868 ze zámku Býchory",
-    "category": "sbirka",
-    "thumbnail": "/img/vez/bychory/f/komplet.jpg",
-    "excerpt": "Do Hodinária byl zapůjčen věžní komplet Prokeš 1868 — kompletní soustava hodinového stroje, přídavného zvonicího stroje a dvou cimbálů, původně osazená na zámku Býchory. Hlavními kuriozitami kompletu jsou neobvyklý Ro…",
-    "year": 1852,
-    "lastModified": "2022-11-02T10:11:00.000Z",
-    "imageCount": 23,
-    "wordCount": 1191,
-    "vyrobce": "Jan Prokeš v Sobotce, 1868",
-    "tags": [
-      "vezni",
-      "prokes",
-      "krok-benoit-robert",
-      "kyvadlo",
-      "zavazi",
-      "restaurovane",
-      "1800s"
     ]
   },
   {
@@ -7601,19 +7630,23 @@
     "title": "věžní Michael Christ",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Hodiny byly původně umístěny ve zvonici kostela sv. Petra a Pavla v Horním Prysku. Po instalaci nového, elektronicky řízeného stroje, byly Biskupstvím litoměřickým zapůjčeny pro expozici muzea.",
-    "year": null,
+    "thumbnail": "/img/vez/prysk/f/foto2_000.jpg",
+    "excerpt": "Hodiny byly původně umístěny ve zvonici kostela sv. Petra a Pavla v Horním Prysku. Do expozice Věžního muzejíčka v Soběslavi byly v roce 2012 zapůjčeny laskavostí Biskupství litoměřického, a to před instalací moderníc…",
+    "year": 2012,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 153,
+    "imageCount": 11,
+    "wordCount": 527,
     "vyrobce": "Michael Christ",
     "tags": [
       "hlavni-sal",
       "vezni",
       "funkcni",
-      "krok-clement",
-      "michael-christ"
+      "krok-kotva",
+      "michael-christ",
+      "1800s",
+      "restaurovane",
+      "kyvadlo",
+      "zavazi"
     ]
   },
   {
@@ -7643,7 +7676,7 @@
     "year": 1896,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 140,
+    "wordCount": 162,
     "vyrobce": "Hainz",
     "tags": [
       "hlavni-sal",
@@ -7659,11 +7692,11 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": "/img/vez/bychory/f/komplet.jpg",
-    "excerpt": "Do expozice byl zapůjčen věžní komplet Prokeš 1868, původně osazený na zámku Býchory, s unikátním zvonícím strojem a cimbály. Stroj má několik zajímavostí. Kromě již zmíněného zvonicího stroje je to i neobvyklý Robert…",
+    "excerpt": "Do Hodinária byl zapůjčen věžní komplet Prokeš 1868 — kompletní soustava hodinového stroje, přídavného zvonicího stroje a dvou cimbálů, původně osazená na zámku Býchory. Hlavními kuriozitami kompletu jsou neobvyklý Ro…",
     "year": 1868,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 186,
+    "imageCount": 27,
+    "wordCount": 1176,
     "vyrobce": "Jan Prokeš",
     "tags": [
       "hlavni-sal",
@@ -7674,7 +7707,8 @@
       "1800s",
       "zavazi",
       "kyvadlo",
-      "cesko"
+      "cesko",
+      "restaurovane"
     ]
   },
   {
@@ -7727,7 +7761,7 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 139,
+    "wordCount": 183,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7821,16 +7855,20 @@
     "title": "věžní Velká Ves",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Věžní hodinový stroj je velmi starý, může pocházet z konce 15. století. Svislé rohové sloupky jsou čtyřhranné a jsou zakončeny dekorativním prvkem přetrvávajícím tehdy ještě z gotiky - kovanými hřebovými hlavicemi. Na…",
-    "year": null,
+    "thumbnail": "/img/decin/gotika/Kostel_sv._Vavrince.jpg",
+    "excerpt": "V kostele sv. Vavřince ve Velké Vsi se zachovalo torzo hodin s gotickými prvky. Wikipedie uvádí, že první zmínky o obci i o kostele pocházejí už ze třetí čtvrtiny 13. století; ve starší literatuře se uvádí, že kostel …",
+    "year": 1340,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 158,
+    "imageCount": 13,
+    "wordCount": 397,
     "tags": [
       "hlavni-sal",
       "vezni",
-      "nefunkcni"
+      "nefunkcni",
+      "torzo",
+      "gotika",
+      "decin",
+      "zavazi"
     ]
   },
   {
@@ -7839,18 +7877,21 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": "/img/decin/baroko/barokoMellner/f/foto_0001.jpg",
-    "excerpt": "Věžní hodiny, které byly do Hodinária zapůjčeny od firmy Potrubí Praha, s. r. o., mohly svou konstrukcí rámu ( rohové kované sloupky čtvercového průřezu bez volut) být vyrobeny v první polovině 17. století. Stroj má v…",
-    "year": null,
+    "excerpt": "V závěru roku 2015 byl Hodináriu pronajat od firmy POTRUBÍ Praha, spol. s r. o. špindlový čtvrťový věžní hodinový stroj v nálezovém stavu. O jeho historii zatím mnoho nevíme a stroj je těžko identifikovatelný. Podle r…",
+    "year": 1618,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 218,
+    "imageCount": 12,
+    "wordCount": 505,
     "vyrobce": "Wenzel Mellner",
     "tags": [
       "hlavni-sal",
       "vezni",
       "funkcni",
       "krok-vreteno",
-      "wenzel-mellner"
+      "wenzel-mellner",
+      "baroko",
+      "restaurovane",
+      "decin"
     ]
   },
   {
@@ -7921,9 +7962,24 @@
     ]
   },
   {
-    "slug": "vodni-budik",
+    "slug": "inv-A220-vodni-budik",
     "title": "Vodní budík",
     "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
+    "slug": "vodni-budik",
+    "title": "Vodní budík",
+    "category": "zajimavosti",
     "thumbnail": "/img/ujete/vodni_budik.jpg",
     "excerpt": "Na stránkách pana James McAdama je publikován jednoduchý vodní budík. Zařazujeme ho jako kuriozitu k vodním hodinám, protože všechny vodní hodin mají tak trochu i tento rozměr.",
     "year": 2002,
@@ -7937,9 +7993,24 @@
     ]
   },
   {
+    "slug": "inv-A216-vodni-hodiny-cinske",
+    "title": "Vodní hodiny čínské",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
     "slug": "vodni-jegorov",
     "title": "Vodní hodiny pana MUDr. Alexandra Jegorova",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": null,
     "excerpt": "Pan doktor Jegorov má mnoho zajímavých zájmů a jedním z nich je i konstruování různých, řekli bychom \"netradičně tradičních\", hodin. Postavil dvoje sluneční hodiny, nyní pracuje na hodinách lihýřových.",
     "year": null,
@@ -7955,7 +8026,7 @@
   {
     "slug": "vodni-minutky",
     "title": "Vodní minutky",
-    "category": "sbirka",
+    "category": "zajimavosti",
     "thumbnail": null,
     "excerpt": "Vodní hodiny nejsou dnes příliš rozšířené. \"Vodní kalendáře\" jsou už častější. Na mnoha domech v našem městě visí cedulky dosvědčující, kam dosahovala voda v roce 2002. I jiné datumy se najdou. Sběratele to naštěstí n…",
     "year": 2002,
@@ -7979,25 +8050,9 @@
     "wordCount": 734
   },
   {
-    "slug": "inv-236-vua509tgp-dcf",
-    "title": "VUA509TGP  DCF",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni"
-    ]
-  },
-  {
     "slug": "zvony-vyroba",
     "title": "Výroba zvonů",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/vez/zvony/pruzez_zvonem.gif",
     "excerpt": "Zvonařství, řemeslo které si svou technologii uchovalo více jak 1000 let. Princip výroby je stále stejný jako ve středověku. Moderní technologie napomáhají pouze při manipulací s těžkými břemeny a během tavby zvonovéh…",
     "year": null,
@@ -8023,7 +8078,7 @@
   {
     "slug": "kostky",
     "title": "Výtvarné miniatury ve tvaru kostky Dr. Jaroslava Adama",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": null,
     "excerpt": "Sbírka je zejména díky množství zúčastněných výtvarníků jedinečná a tak trochu souvisí jak s tématikou hodinářskou, tak také v některých exponátech koresponduje i s výstavkou Nonsens 2015. Ať již je to kostka v láhvi …",
     "year": 1980,
@@ -8107,7 +8162,7 @@
   {
     "slug": "zapekane",
     "title": "Zapékané hodiny",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/vitraze/diricakova2_m.jpg",
     "excerpt": "Věrni záměru představovat netradiční druhy hodin uvádíme hodiny pí Kateřiny Dořičákové. Číselníky těchto hodin jsou vyráběné metodou \"fusing\" - spékání a ohýbání skla nebo číselníky metodou \"Tiffany\" - řezání, broušen…",
     "year": null,
@@ -8121,7 +8176,7 @@
     ]
   },
   {
-    "slug": "inv-253-zavesne-elektrocas-oboustranne",
+    "slug": "inv-A230-zavesne-elektrocas-oboustranne",
     "title": "Závěsné Elektročas oboustranné",
     "category": "sbirka",
     "podsekce": "karta",
@@ -8139,53 +8194,33 @@
     ]
   },
   {
-    "slug": "inv-259-zavesne-ibm",
+    "slug": "inv-A236-zavesne-ibm",
     "title": "Závěsné IBM",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "rohova-vitrina-vedlejsi",
-      "funkcni"
+      "volne-vedlejsi"
     ]
   },
   {
-    "slug": "inv-182-zdroj-zz41",
-    "title": "Zdroj ZZ41",
+    "slug": "inv-A203-zdroj-zz1",
+    "title": "Zdroj ZZ1",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni",
-      "sitovky"
-    ]
-  },
-  {
-    "slug": "inv-215-zdroj-zz41",
-    "title": "Zdroj ZZ41",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni",
-      "sitovky"
+      "vitrina-5-vedlejsi"
     ]
   },
   {
@@ -8237,7 +8272,7 @@
   {
     "slug": "zvon-petr-vok",
     "title": "Zvon Petr Vok - nový soběslavský zvon",
-    "category": "sbirka",
+    "category": "zvony",
     "thumbnail": "/img/vez/zvony/petrvok/f/foto_001.jpg",
     "excerpt": "Je říjen LP 2011 a odlévá se nový zvon pro soběslavskou věž. Neodlévá se samozřejmě sám. Odlévá ho zvonař Michal Votruba s pomocníky za účasti VIP návštěvníků, fotografů a čumilů. To je událost vpravdě historická. Nap…",
     "year": 1925,
@@ -8252,7 +8287,7 @@
   {
     "slug": "zvon-petr-pavel",
     "title": "zvon Velký později zvaný Petr Pavel",
-    "category": "sbirka",
+    "category": "zvony",
     "thumbnail": "/img/vez/zvony/f/petrpavel1.jpg",
     "excerpt": "Hlavní zvon soběslavské věže. Vysvěcený v roce 1492, přelit v roce 1663.  SPODNÍ PRŮMĚR 144 CM HMOTNOST cca 1800 KG (původní uváděná hmotnost 1440 kg) HMOTNOST SRDCE cca 100 KG",
     "year": 1440,
@@ -8266,7 +8301,7 @@
   {
     "slug": "zvony-uvod",
     "title": "Zvonařská expozice",
-    "category": "sbirka",
+    "category": "zvony",
     "thumbnail": "/img/vez/cimbaly/cimbaly_vez_zdola.jpg",
     "excerpt": "Zvonařská expozice Věžního muzejíčka je logickým důsledkem existence muzejíčka ve věži. Jednak proto, že zvony k naší věži patří již nejméně 800 let a jednak proto, že zvony zřetelně nesou stopy po minulém vývoji. Ve …",
     "year": 1650,
@@ -8297,7 +8332,7 @@
   {
     "slug": "svarcvaldky-hraci",
     "title": "Zvonkohry a jiné hrací stroje",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/svarcvald/hraci/462616837.jpg",
     "excerpt": "Švarcvaldky pro zámožnější klientelu byly někdy doplněny i hracím strojem. (UHREN MIT MUSIKWERKEN) U nejstarších hodin se používala zvonkohra se skleněnými zvonky. Torzo takových hodin ukázáno například zde.",
     "year": null,
@@ -8311,7 +8346,7 @@
   {
     "slug": "prehled-zvonu",
     "title": "Zvony na soběslavské věži",
-    "category": "sbirka",
+    "category": "zvony",
     "thumbnail": "/img/vez/zvony/rekvirovani.jpg",
     "excerpt": "Soběslavská věž v první podobě vznikla někdy na přelomu 12. a 13.století. Zdá se, že již tehdy na ní zvony byly. První zmínka odkazuje na rok 1210. Ve druhé polovině 15. stol. se již uvádějí zvony čtyři:",
     "year": 1440,
@@ -8320,20 +8355,18 @@
     "wordCount": 721
   },
   {
-    "slug": "inv-115-zz42",
+    "slug": "inv-P404-zz42",
     "title": "ZZ42",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 11,
     "tags": [
-      "panel-4",
-      "funkcni",
-      "sitovky"
+      "panel-4"
     ]
   },
   {
@@ -8359,7 +8392,7 @@
     "year": 1764,
     "lastModified": "2020-11-24T02:06:00.000Z",
     "imageCount": 0,
-    "wordCount": 1259,
+    "wordCount": 1260,
     "tags": [
       "vezni",
       "kuriozita",
