@@ -34,6 +34,14 @@
 /sbirka/decin-ntp /konstrukce/decin-ntp 301
 /sbirka/mystery /konstrukce/mystery 301
 /sbirka/nocturnal /konstrukce/nocturnal 301
+/sbirka/decin-elektrifikace /konstrukce/decin-elektrifikace 301
+/sbirka/kulicky /konstrukce/kulicky 301
+/sbirka/budiky1 /konstrukce/budiky1 301
+/sbirka/budiky2 /konstrukce/budiky2 301
+/sbirka/sitovky /konstrukce/sitovky 301
+/sbirka/svarcvaldky-hraci /konstrukce/svarcvaldky-hraci 301
+/sbirka/slunecni-polarizacni /konstrukce/slunecni-polarizacni 301
+/sbirka/perpetum-mobile /konstrukce/perpetum-mobile 301
 
 # === PRIORITA 2: root pages ===
 # Specifické přesměrovky (root pages legacy hodinarium.eu)

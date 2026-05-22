@@ -1,7 +1,7 @@
 ---
 title: "HODINY BUDÍKOVÉ"
 slug: "budiky1"
-category: "sbirka"
+category: "konstrukce"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/budiky1.htm"
 lastModified: "Wed, 26 Apr 2017 13:56:00 GMT"
@@ -55,4 +55,4 @@ Vlevo nahoře otvory pro šňůru se závažími.
 
 Celkový pohled na krásné porcelánky.
 
-O budíčcích klinkacích více [zde](/sbirka/budiky2).
+O budíčcích klinkacích více [zde](/konstrukce/budiky2).

@@ -60,7 +60,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 19\. 7. 2009 Doplnění [aktualit](https://hodinarium-eu.pages.dev/kronika/sobeslav3) do restaurování hodin v Soběslavi
     a **projekt** [**Věžního muzejíčka**.](/kronika/vezni-muzejicko)
     23\. 6. 2009 [Sluněční hodiny využívající polarizaci světla.
-    ](/sbirka/slunecni-polarizacni)Ukazují i když je Slunce zakryto. Zkuste si je udělat.
+    ](https://hodinarium-eu.pages.dev/konstrukce/slunecni-polarizacni)Ukazují i když je Slunce zakryto. Zkuste si je udělat.
 - 12\. 6. 2009 Vydána naše první pohlednice s [Bulle hodinymi](https://hodinarium-eu.pages.dev/konstrukce/bulle) z cca 1925
 - 18\. 5. 2009 Doplněna nová animace [židovských hodin](https://hodinarium-eu.pages.dev/virtualni-muzeum/zidovske)
     a přidána [animace slunečních hodin](https://hodinarium-eu.pages.dev/sbirka/slunecni) od pana Vlasty Fillera.
@@ -96,11 +96,11 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 14.11. 2008 [FLYING PENDULUM CLOCK](/konstrukce/flying-pendulum) - hodiny, kde "oscilátor" je "létající kulička"
 - Metronom - krok, kdy nejdůležitější je hluk
 - Planičkův salónní orloj - rozporuplnnost sama
-- [Perpetum mobile](/sbirka/perpetum-mobile) Hodiny Atmos, fotovoltaika a jiné
+- [Perpetum mobile](https://hodinarium-eu.pages.dev/konstrukce/perpetum-mobile) Hodiny Atmos, fotovoltaika a jiné
 - [Bez ručiček](https://hodinarium-eu.pages.dev/konstrukce/ukazatele) to také jde
 - Pan Marce [Betrisey](https://hodinarium-eu.pages.dev/virtualni-muzeum/betrisey) - hodiny kuličkové, pneumatické a jiné
 - Vyčistit a namazat - rozjímání nad popisy aukcí
-- 19.10. 2008 [Švarcvaldy se zvonkohrou](/sbirka/svarcvaldky-hraci)
+- 19.10. 2008 [Švarcvaldy se zvonkohrou](https://hodinarium-eu.pages.dev/konstrukce/svarcvaldky-hraci)
 - 6.10. 2008 [Čtyřruční hodiny](https://hodinarium-eu.pages.dev/projekty/4ruce)
 - 1\. 6. 2008 [Decimálky](https://hodinarium-eu.pages.dev/sbirka/decimalky) - hodiny s dělením 10 hodin - 100 minut - 100 vteřin
 - 24\. 5. 2008 [Svítící](https://hodinarium-eu.pages.dev/sbirka/svitici) hodiny
@@ -118,9 +118,9 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 23\. 3. 2008 [Přestavby hodin](https://hodinarium-eu.pages.dev/zajimavosti/prestavby)
 - 20\. 3. 2008 Hodiny k ocenění - ["ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934"](https://hodinarium-eu.pages.dev/sbirka/jezdecke)
 - 18\. 3. 2008 Hodiny s [elektrickým impulzem do oscilátoru](https://hodinarium-eu.pages.dev/konstrukce/elektricke2)
-- 15\. 3. 2008 Synchronní svítící budík [METAMEC](https://hodinarium-eu.pages.dev/sbirka/sitovky#metamec)
+- 15\. 3. 2008 Synchronní svítící budík [METAMEC](https://hodinarium-eu.pages.dev/konstrukce/sitovky#metamec)
 - 25\. 2. 2008 **Terminologický slovník hodináře -** převzato s laskavým svolením autora ze serveru 62.168.39.166:80/paichl/hodiny.html Obsáhlý soubor zejména hodinářských nástrojů včetně fotografií.
-- 18\. 2. 2008 [Valící se kuličky](https://hodinarium-eu.pages.dev/sbirka/kulicky)
+- 18\. 2. 2008 [Valící se kuličky](https://hodinarium-eu.pages.dev/konstrukce/kulicky)
 - 18\. 2. 2008 [Zapékané hodiny](https://hodinarium-eu.pages.dev/sbirka/zapekane) (do skla)
 - 18\. 2. 2008 Japonské kuriózní hodinky eshop
 - 14\. 2. 2008 [Svítící hodiny](https://hodinarium-eu.pages.dev/sbirka/svitici)
@@ -129,7 +129,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
     * * *
 
 - 18.11.2007 [Čtvrťový bicí stroj "Das Surrerwerk"](/konstrukce/svarcvaldky-surrerwerk). Švarcvaldky
-- 18.11.2007 [HODINY BUDÍČKOVÉ](https://hodinarium-eu.pages.dev/sbirka/budiky2) klinkajícá na zvonek. Švarcvaldky
+- 18.11.2007 [HODINY BUDÍČKOVÉ](https://hodinarium-eu.pages.dev/konstrukce/budiky2) klinkajícá na zvonek. Švarcvaldky
 - 16\. 8. 2007 [Devítkové hodiny pro matematiky](https://hodinarium-eu.pages.dev/projekty/matematicke)
 - 6\. 8. 2007 [Mateční hodiny CTW](https://hodinarium-eu.pages.dev/projekty/ctwagner) neboli C.T. Wagner; také odkaz na úžasnou animaci
 - 30\. 7. 2007 Skeletové hodiny [Kavalír](https://hodinarium-eu.pages.dev/virtualni-muzeum/kavalir)
@@ -155,7 +155,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 29.12. 2006 [Lahváče](https://hodinarium-eu.pages.dev/sbirka/lahvace) aneb hodiny v lahvích
 - 29.12. 2006 [Papíráky](https://hodinarium-eu.pages.dev/sbirka/papir) - hodiny z produkce Papírového světa
 - 17.12. 2006 [Dowload](https://hodinarium-eu.pages.dev/zajimavosti/download) PC kukaček - Udělejte si z počítače Big Ben
-- 4.12. 2006 [Kuriózní budíky hnané závažím](https://hodinarium-eu.pages.dev/sbirka/budiky1)
+- 4.12. 2006 [Kuriózní budíky hnané závažím](https://hodinarium-eu.pages.dev/konstrukce/budiky1)
 - 26.11. 2006 Starožitníci - Starožitnosti - Antiky
 - 23.11. 2006 [Mluvící hodiny](https://hodinarium-eu.pages.dev/konstrukce/mluvici1895) z roku 1895
 - 5.11 2006 [Elektrické hodiny 1](https://hodinarium-eu.pages.dev/konstrukce/elektricke1)
