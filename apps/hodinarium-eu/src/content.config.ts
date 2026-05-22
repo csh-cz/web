@@ -249,7 +249,7 @@ const clanky = defineCollection({
      */
     category: z.enum([
       // nové
-      'sbirka', 'konstrukce', 'projekty', 'virtualni-muzeum', 'muzea', 'zajimavosti',
+      'sbirka', 'konstrukce', 'projekty', 'virtualni-muzeum', 'muzea', 'zajimavosti', 'zvony',
       // staré (deprecated, ponechané kvůli postupné migraci)
       'decin', 'vezni-hodiny', 'ostatni',
     ]),

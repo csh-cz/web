@@ -22,6 +22,7 @@ export const NEW_CATEGORIES = new Set([
   'virtualni-muzeum',
   'muzea',
   'zajimavosti',
+  'zvony',
 ]);
 
 /** True pokud kategorie je v nové taxonomii (= článek má URL podle kat.). */

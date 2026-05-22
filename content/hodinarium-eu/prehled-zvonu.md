@@ -1,7 +1,7 @@
 ---
 title: "Zvony na soběslavské věži"
 slug: "prehled-zvonu"
-category: "sbirka"
+category: "zvony"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/prehled_zvonu.htm"
 lastModified: "Sun, 23 Apr 2017 15:56:00 GMT"
@@ -17,7 +17,7 @@ Soběslavská věž v první podobě vznikla někdy na přelomu 12. a 13.stolet�
 - **Cerazský** (později zvaný **Poledník**, případně Jan Evangelista) – vysvěcený v roce 1490, 486 kg
 - **Marie** - vysvěcený v roce 1492, 252 kg
     (zvon prask r. 1811 a byl přelit pražským zvonařem Karlem Bellmannem v roce 1852. Nesl ornamentální výzdobu a nápis (volně přeloženo) !PŘELITÝ ZA ČASŮ PRVNÍHO CONSTITUČNÍHO PURKMISTRA JOSEFA PALETY A RADNÍCH AUGUSTINA BUZKA, MUDr. BRAULIKA A ANTONÍNA BÍLKA". )
-- **Velký (později zvaný [Petr Pavel](/sbirka/zvon-petr-pavel)) – vysvěcený v roce 1492, 1440 kg
+- **Velký (později zvaný [Petr Pavel](/zvony/zvon-petr-pavel)) – vysvěcený v roce 1492, 1440 kg
     **(v roce 1663 po poškození bleskem nově přelit)
 
 V roce 1716 byl nově vyroben zvon Umíráček.
@@ -54,7 +54,7 @@ Soběslavská věž tak opět získává svůj hlas.
 
 ## Nové zvony 2011 ...
 
-Zdá se, že ani ve století dvacátém nekončí historie soběslavských zvonů. Zvonař Michal Votruba na rožmberských slavnostech věnoval městu menší zvon a v říjnu 2011 ulil stokilový [zvon Petr Vok](/sbirka/zvon-petr-vok). Zavěšení a svěcení se očekává v roce 2012. Nezbývá než se těšit.
+Zdá se, že ani ve století dvacátém nekončí historie soběslavských zvonů. Zvonař Michal Votruba na rožmberských slavnostech věnoval městu menší zvon a v říjnu 2011 ulil stokilový [zvon Petr Vok](/zvony/zvon-petr-vok). Zavěšení a svěcení se očekává v roce 2012. Nezbývá než se těšit.
 
 ## Cimbály věžních hodin
 

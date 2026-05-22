@@ -32,9 +32,9 @@ Bohužel některé loňské exponáty již v expozici nebudou. To se týká repl
 
 ### Hlavní zvonařské exponáty:
 
-- [zvon Petr Pavel](/sbirka/zvon-petr-pavel)
-- [zvon Petr Vok](/sbirka/zvon-petr-vok)
-- [zvonařská expozic](/sbirka/zvony-uvod)e, postup výroby, ukázka forem, kování zvonů, ...
+- [zvon Petr Pavel](/zvony/zvon-petr-pavel)
+- [zvon Petr Vok](/zvony/zvon-petr-vok)
+- [zvonařská expozic](/zvony/zvony-uvod)e, postup výroby, ukázka forem, kování zvonů, ...
 
 ### Minivýstavy:
 

@@ -65,6 +65,11 @@
 /sbirka/motorky /virtualni-muzeum/motorky 301
 /sbirka/kostky /virtualni-muzeum/kostky 301
 /sbirka/uspirku /virtualni-muzeum/uspirku 301
+/sbirka/zvon-petr-pavel /zvony/zvon-petr-pavel 301
+/sbirka/zvon-petr-vok /zvony/zvon-petr-vok 301
+/sbirka/zvony-uvod /zvony/zvony-uvod 301
+/sbirka/prehled-zvonu /zvony/prehled-zvonu 301
+/sbirka/zvony-vyroba /konstrukce/zvony-vyroba 301
 
 # === PRIORITA 2: root pages ===
 # Specifické přesměrovky (root pages legacy hodinarium.eu)
