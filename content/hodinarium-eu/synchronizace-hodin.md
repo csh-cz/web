@@ -132,7 +132,7 @@ Pokud je součástí televizního multiplexu také teletext, je přesný (místn
 Zkratkou GPS, tedy Global Positioning System, je míněn družicový systém pro určování polohy na zeměkouli. Tato informace má značný vojenský význam, proto je vyvíjeno více národních systémů. Označení GPS přešlo do obecné mluvy jako označení nejen pro NOVASTAR GPS, ale pro jakýkoliv elektronický systém zjišťování polohy, jako je čínský BeiDou, ruský GLONASS, evropský systém Galileo nebo zatím čtyř družicový systém QZSS doplňkově používaný pro Japonsko či indický IRNSS. O vlastním nezávislém systému se mluví také v Británii. Kromě Galilea jde zejména o vojenské systémy, které pro civilní použití mají sníženou přesnost. Přesnější údaje jsou šifrovány. 8.6.2020 bylo na oběžné dráze 134 takových družic. Nastavte si polohu a spusťte animaci na stránce [gnssplanning.com/#/skyplot](https://www.gnssplanning.com/#/skyplot). Podstatné je, že nové NTP servery umí časovou informaci získat z většiny těchto dr
 První a nejznámější je americký systém NOVASTAR GPS. Je tvořen 30 družicemi kroužícími na přesně specifikovaných oběžných drahách asi 20 tisíc km nad zemí. Družice jsou vybaveny přijímačem, vysílačem, atomovými hodinami a dalšími přístroji pro navigaci a speciální účely. Každá družice vysílá kódované informace o přesném čase, signál PPS (, informaci o své poloze ve vesmíru a přibližné poloze ostatních družic systému. Pro příjem a zpracování vysílaných signálů byly vyvinuty speciální přijímače. Každý přijímač GPS zpracovává vysílané informace ze tří až dvanácti družic. Na jejich základě určí přesnou pozici uživatele. Součástí vysílaného signálu je časová informace ve formátu UTC (Universal Time Coordinated), ke kterému jsou vztaženy časové základny hlavních hodin a časových center. Lokální čas lze zadat přidělením časové zóny s informací o změně letního času. Výhodou tohoto systému je celosvětový dosah a vysoká přesnost časové informace. S rozšiřováním "chytrých telefonů" nabývá tato synchronizace stále většího objemu.![šíření paketů NTP](/img/ntpanim.gif)
 
-Příklad vhodného řešení i pro malé odloučené počítačové sítě jsou GPS NTP servery popsané na stránce [expozice v našem Hodináriu](/sbirka/decin-ntp).
+Příklad vhodného řešení i pro malé odloučené počítačové sítě jsou GPS NTP servery popsané na stránce [expozice v našem Hodináriu](/konstrukce/decin-ntp).
 
 Více také na [Wikipedii](https://cs.wikipedia.org/wiki/GPS) a [v popisu Systému GPS.](https://cs.wikipedia.org/wiki/Glob%C3%A1ln%C3%AD_dru%C5%BEicov%C3%BD_polohov%C3%BD_syst%C3%A9m)
 
@@ -182,7 +182,7 @@ K síti mohou být připojeny i speciální strojky podružných hodin, které �
 Odkazy:
 
 - [Časová znamení v rozhlase](https://radiozurnal.rozhlas.cz/casova-znameni-10-dil-ceska-republika-6303408)
-- [NTP servery v Hodináriu](/sbirka/decin-ntp)
+- [NTP servery v Hodináriu](/konstrukce/decin-ntp)
 - [Synchronizace času pomocí NTP](http://is.muni.cz/th/143076/fi_m/thesis.pdf) - diplomová práce
 - [Čas a kmitočet](https://dml.cz/bitstream/handle/10338.dmlcz/138777/PokrokyMFA_25-1980-3_4.pdf) - PMFA 1980 - O. Buzek, J. Čermák
 - [Osel.cz](http://osel.cz/index.php?clanek=1458)

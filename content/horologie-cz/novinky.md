@@ -43,7 +43,7 @@ Stará stránka je zde.
 
 - 30\. 9. 2020 [ESV-3 elektromechanické synchronní letecké počítadlo hodin na 115 V / 400 Hz](/projekty/esv3)
 - 12\. 9. 2020 [Elektromechanický sedmisegmentový displej](/projekty/elektromagneticke-segmenty)
-- 4\. 7. 2020 [Synchronizace hodin "levným" NTP serverem](/sbirka/decin-ntp) (druhá verze s využitím GPS).
+- 4\. 7. 2020 [Synchronizace hodin "levným" NTP serverem](/konstrukce/decin-ntp) (druhá verze s využitím GPS).
 - 26\. 6. 2020 [Atomové hodiny a hodinky](/projekty/atomove-kapesni)
 - 23\. 6. 2020 [Hodiny synchronizované signálem z družice systému GPS](/projekty/gps-sakul)
 - 19\. 5. 2020 [Samostavitelné hodiny systému MOBALine](https://hodinarium-eu.pages.dev/sbirka/karta/inv-P502-podruzne-hodiny-mobatime)
