@@ -1,7 +1,7 @@
 ---
 title: "Lenzkirch - Rolls-Royce ze Schwarzwaldu"
 slug: "lenzkirch"
-category: "sbirka"
+category: "virtualni-muzeum"
 tags:
   - stolni
   - nastenne
@@ -31,9 +31,7 @@ Hodiny z Lenzkirchu, technicky zajímavé i pěkné na pohled, dosáhly na celé
 
 ![lodicka](/img/svarcvald/lenzkirch/lodicka.jpg)
 
-![mramorovy budik](/img/svarcvald/lenzkirch/mramorovy_budik.jpg)!
-
-!
+![mramorovy budik](/img/svarcvald/lenzkirch/mramorovy_budik.jpg)
 
 Hodiny většinou zachovávaly tradiční design, který ukazujeme na skupinové fotografii převzaté ze serveru Beacham´s Clock Company. V Lenzkirchu se vyráběl rozmanitý sortiment hodin. Na našich stránkách se zaměříme na design používaný koncem 19. století.
 

@@ -29,6 +29,7 @@
 
 # Cross-category přesuny (článek přeřazen mezi kategoriemi)
 /sbirka/zidovske /virtualni-muzeum/zidovske 301
+/sbirka/lenzkirch /virtualni-muzeum/lenzkirch 301
 
 # === PRIORITA 2: root pages ===
 # Specifické přesměrovky (root pages legacy hodinarium.eu)

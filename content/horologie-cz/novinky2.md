@@ -104,7 +104,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 6.10. 2008 [Čtyřruční hodiny](https://hodinarium-eu.pages.dev/projekty/4ruce)
 - 1\. 6. 2008 [Decimálky](https://hodinarium-eu.pages.dev/sbirka/decimalky) - hodiny s dělením 10 hodin - 100 minut - 100 vteřin
 - 24\. 5. 2008 [Svítící](https://hodinarium-eu.pages.dev/sbirka/svitici) hodiny
-- 18\. 5. 2008 [Lenzkirch](https://hodinarium-eu.pages.dev/sbirka/lenzkirch) - Rolls-Royce ze Schwarzwaldu
+- 18\. 5. 2008 [Lenzkirch](https://hodinarium-eu.pages.dev/virtualni-muzeum/lenzkirch) - Rolls-Royce ze Schwarzwaldu
 - 12\. 5. 2008 [KLÍČOVÁ OTÁZKA](/zajimavosti/hainz-natahovani) - natahovátko Louis Hainz
 - 16\. 4. 2008 Variace na věžní hodiny [U Špirků](https://hodinarium-eu.pages.dev/sbirka/uspirku)
 - 12\. 4. 2008 Kuriózní hodiny na [YouTube](https://hodinarium-eu.pages.dev/zajimavosti/youtube)
