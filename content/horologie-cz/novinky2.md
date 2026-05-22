@@ -64,7 +64,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 12\. 6. 2009 Vydána naše první pohlednice s [Bulle hodinymi](https://hodinarium-eu.pages.dev/konstrukce/bulle) z cca 1925
 - 18\. 5. 2009 Doplněna nová animace [židovských hodin](https://hodinarium-eu.pages.dev/virtualni-muzeum/zidovske)
     a přidána [animace slunečních hodin](https://hodinarium-eu.pages.dev/sbirka/slunecni) od pana Vlasty Fillera.
-- 5\. 5. 2009 [Kapesní "orloj" Brevete](/sbirka/kapesni-orloj) - stránka o zajímavé kalendářní komplikaci.
+- 5\. 5. 2009 [Kapesní "orloj" Brevete](/virtualni-muzeum/kapesni-orloj) - stránka o zajímavé kalendářní komplikaci.
 - 13\. 4. 2009 Mechanické digi [IWC Schaffhausen](https://hodinarium-eu.pages.dev/virtualni-muzeum/schaffhausen) z roku 1885
 - 7\. 4. 2009 Soběslavské hodiny z 15. století a 2. část: [Po stopách času](https://hodinarium-eu.pages.dev/kronika/sobeslav2).
 - 3\. 3. 2009 Zmínka o pokojovém orloji pana Maška
