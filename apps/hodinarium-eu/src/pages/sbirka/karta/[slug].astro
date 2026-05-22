@@ -8,6 +8,7 @@ import KartaSbirky from '../../../components/KartaSbirky.astro';
 import ArticleImageBehavior from '../../../components/ArticleImageBehavior.astro';
 import WipBanner from '../../../components/WipBanner.astro';
 import { clanekHref } from '../../../data/url-helpers';
+import { skupinaForInvCislo, skupinaHref } from '../../../data/skupiny';
 import { isPubliclyBuildable, showsWipBanner } from '../../../utils/workflow-visibility';
 import CrossRefs from '../../../components/CrossRefs.astro';
 import { CSH_CONTENT_COMPONENTS } from '../../../utils/content-components';
@@ -47,6 +48,11 @@ const komponenty = komponentySlugs
     category: a.data.category,
     isKarta: a.data.podsekce === 'karta',
   }));
+
+// Skupina (panel/vitrína), do které exponát patří — pro zpětný breadcrumb.
+const kartaSkupina = entry.data.karta?.inventarniCislo
+  ? skupinaForInvCislo(String(entry.data.karta.inventarniCislo))
+  : null;
 
 const site = Astro.site ?? new URL('https://hodinarium-eu.pages.dev');
 const kartaUrl = new URL(`/sbirka/karta/${entry.data.slug}`, site).toString();
@@ -150,6 +156,7 @@ const kartaJsonLd = {
     { href: '/', label: 'Hodinárium' },
     { href: '/sbirka', label: 'Sbírka' },
     { href: '/sbirka/katalog', label: 'Katalog', soft: true },
+    ...(kartaSkupina ? [{ href: skupinaHref(kartaSkupina.kod), label: kartaSkupina.nazev, soft: true }] : []),
     { label: entry.data.title },
   ]} />
 

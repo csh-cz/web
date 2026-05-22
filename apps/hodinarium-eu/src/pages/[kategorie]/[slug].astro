@@ -1,18 +1,20 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Article from '../../layouts/Article.astro';
+import Skupina from '../../layouts/Skupina.astro';
 import ArticleImageBehavior from '../../components/ArticleImageBehavior.astro';
 import WipBanner from '../../components/WipBanner.astro';
 import { NEW_CATEGORIES } from '../../data/url-helpers';
 import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
 import { CSH_CONTENT_COMPONENTS } from '../../utils/content-components';
+import { getSkupiny } from '../../data/skupiny';
 
 export async function getStaticPaths() {
   const all = await getCollection('clanky');
   // Jen články v NOVÝCH kategoriích.
   // Z `sbirka` vyloučit evidenční karty (`podsekce: 'karta'`) — ty mají
   // vlastní router /sbirka/karta/<slug>/ (viz pages/sbirka/karta/[slug].astro).
-  return all
+  const articlePaths = all
     .filter((entry) => NEW_CATEGORIES.has(entry.data.category))
     .filter((entry) => entry.data.podsekce !== 'karta')
     // Top-level about-pages mají vlastní router (/o-hodinariu, …) —
@@ -24,33 +26,55 @@ export async function getStaticPaths() {
       params: { kategorie: entry.data.category, slug: entry.id },
       props: { entry },
     }));
+
+  // Data-driven souhrnné stránky skupin pro VITRÍNY (/sbirka/vitrina-…).
+  // Panely zůstávají jako kurátorské články (mají vlastní obsah), tady
+  // generujeme jen vitríny, jejichž obsah = auto-seznam členů ze soupisu.
+  const skupinaPaths = getSkupiny()
+    .filter((s) => s.typ === 'vitrina')
+    .map((s) => ({
+      params: { kategorie: 'sbirka', slug: s.kod },
+      props: { skupina: s },
+    }));
+
+  return [...articlePaths, ...skupinaPaths];
 }
 
-const { entry } = Astro.props;
-const { Content } = await render(entry);
-const wipStatus = showsWipBanner(entry.data.workflow) ? entry.data.workflow!.status : null;
+const { entry, skupina } = Astro.props;
+const rendered = entry ? await render(entry) : null;
+const Content = rendered?.Content;
+const wipStatus = entry && showsWipBanner(entry.data.workflow) ? entry.data.workflow!.status : null;
+// Panel? (slug panel-N-…) → karta dostane auto-seznam svých exponátů.
+const skupinaKod = entry ? (entry.id.match(/^(panel-[1-5])-/)?.[1] ?? null) : null;
 ---
-<Article
-  title={entry.data.title}
-  originalUrl={entry.data.originalUrl}
-  lastModified={entry.data.lastModified ?? undefined}
-  tldr={entry.data.tldr}
-  category={entry.data.category}
-  slug={entry.id}
-  ogImageOverride={entry.data.ogImage}
-  author={entry.data.author}
-  photoAuthor={entry.data.photoAuthor}
-  acknowledgments={entry.data.acknowledgments}
-  references={entry.data.references}
-  editorNotes={entry.data.editorNotes}
-  karta={entry.data.karta}
-  draft={entry.data.draft}
-  crossRefs={entry.data.crossRefs}
->
-  {wipStatus && (
-    <WipBanner status={wipStatus as 'todo' | 'in-progress' | 'review'} notes={entry.data.workflow?.notes} />
-  )}
-  <Content components={CSH_CONTENT_COMPONENTS} />
-</Article>
+{skupina && <Skupina skupina={skupina} />}
 
-<ArticleImageBehavior />
+{entry && Content && (
+  <>
+    <Article
+      title={entry.data.title}
+      originalUrl={entry.data.originalUrl}
+      lastModified={entry.data.lastModified ?? undefined}
+      tldr={entry.data.tldr}
+      category={entry.data.category}
+      slug={entry.id}
+      ogImageOverride={entry.data.ogImage}
+      author={entry.data.author}
+      photoAuthor={entry.data.photoAuthor}
+      acknowledgments={entry.data.acknowledgments}
+      references={entry.data.references}
+      editorNotes={entry.data.editorNotes}
+      karta={entry.data.karta}
+      draft={entry.data.draft}
+      crossRefs={entry.data.crossRefs}
+      skupinaKod={skupinaKod}
+    >
+      {wipStatus && (
+        <WipBanner status={wipStatus as 'todo' | 'in-progress' | 'review'} notes={entry.data.workflow?.notes} />
+      )}
+      <Content components={CSH_CONTENT_COMPONENTS} />
+    </Article>
+
+    <ArticleImageBehavior />
+  </>
+)}
