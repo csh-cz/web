@@ -54,7 +54,7 @@ Autorem hodin na obrázku vpravo je hodinář a řezbář [Josef Achrer](/hodina
 
 ![Výstavní galerie](/img/decin0/18_8_2015/f/foto_0015.jpg)Funkční orloj sochařů Petra Skály a Miroslava Kotrby je nástěnný malovaný orloj s mechanikou zajišťující pohyb podobných ukazatelů jako jsou na Pražském orloji. Orloj vznikal pomalu a postupně ve volných chvílích od roku 2002. Koncepce pohybu [soukolí](/slovnik/soukoli) rohatkami je převzata z orloje litomyšlského (Karel Adamec, Čáslav, 1907), jen rozměry kol jsou jiné a převody na měsíční ručku jsou udělány přesnější. Orloj je poháněn malým elektromotorkem podle řídících hodin, každých dvanáct minut se přetočí ručka Slunce spolu s Měsícem a ekliptikou o jednu pětinu hodiny. V roce 2009 plochu orlojní desky omaloval ak. soch. [Miroslav Kotrba](/hodinari/miroslav-kotrba). Zcela dokončen byl orloj v červenci roku 2015 pro účely expozice v Děčíně.
 
-Pro návštěvníky budou postupně pořádány drobné výstavky. V roce 2015 to byla výstavka unikátní sbírky[miniatur ve tvaru kostky](/sbirka/kostky), či výstavka [hodinářských nonsensů](/kronika/nonsens2015) od několika autorů. Tato výstavka bude prodloužena do roku 2016. Pro rok 2016 uvažujeme o výstavce pohledů a modelů Pražského orloje. A když už jsme na zámku, nebude chybět ani malá výstavka kovaných zámků a klíčů.
+Pro návštěvníky budou postupně pořádány drobné výstavky. V roce 2015 to byla výstavka unikátní sbírky[miniatur ve tvaru kostky](/virtualni-muzeum/kostky), či výstavka [hodinářských nonsensů](/kronika/nonsens2015) od několika autorů. Tato výstavka bude prodloužena do roku 2016. Pro rok 2016 uvažujeme o výstavce pohledů a modelů Pražského orloje. A když už jsme na zámku, nebude chybět ani malá výstavka kovaných zámků a klíčů.
 
 ## Elektrická revoluce
 

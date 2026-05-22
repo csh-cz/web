@@ -1,7 +1,7 @@
 ---
 title: "Papíráky"
 slug: "papir"
-category: "sbirka"
+category: "virtualni-muzeum"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/papir.htm"
 lastModified: "Wed, 26 Apr 2017 14:05:00 GMT"

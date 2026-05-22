@@ -1,7 +1,7 @@
 ---
 title: "Zapékané hodiny"
 slug: "zapekane"
-category: "sbirka"
+category: "virtualni-muzeum"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/zapekane.htm"
 lastModified: "Wed, 26 Apr 2017 14:04:00 GMT"

@@ -1,7 +1,7 @@
 ---
 title: "Pragotroňky - Analogové i digitální podružné hodiny fy PRAGOTRON"
 slug: "pragotron1"
-category: "sbirka"
+category: "virtualni-muzeum"
 originalUrl: "https://hodinarium.eu/pragotron1.htm"
 lastModified: "Wed, 26 Apr 2017 13:37:00 GMT"
 sourceCharset: "windows-1250"

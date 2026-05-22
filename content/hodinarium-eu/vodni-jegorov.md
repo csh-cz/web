@@ -1,7 +1,7 @@
 ---
 title: "Vodní hodiny pana MUDr. Alexandra Jegorova"
 slug: "vodni-jegorov"
-category: "sbirka"
+category: "virtualni-muzeum"
 originalUrl: "https://hodinarium.eu/vodni_jegorov.htm"
 lastModified: "Wed, 26 Apr 2017 16:26:00 GMT"
 sourceCharset: "windows-1250"

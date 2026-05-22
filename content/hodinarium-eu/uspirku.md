@@ -1,7 +1,7 @@
 ---
 title: "Variace na věžní hodiny"
 slug: "uspirku"
-category: "sbirka"
+category: "virtualni-muzeum"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/uspirku.htm"
 lastModified: "Wed, 26 Apr 2017 14:05:00 GMT"

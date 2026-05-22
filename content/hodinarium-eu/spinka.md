@@ -1,7 +1,7 @@
 ---
 title: "Kinetické artefakty"
 slug: "spinka"
-category: "sbirka"
+category: "virtualni-muzeum"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/spinka.htm"
 lastModified: "Wed, 26 Apr 2017 13:56:00 GMT"
@@ -27,7 +27,7 @@ Tak jako v **kinetických dřevořezbách** pana **Jiřího Špinky**. ( Více j
 
 Pohon hodin kinetického reliéfu zajišťuje jednoduchý celodřevěný hodinový stroj s omezením na jednu ručičku. U některých reliéfů pak jsou i přidaná [soukolí](/slovnik/soukoli), zvířetníkové či jiné disky. V zájmu výtvarného efektu je pohyb zrychlený, protože autor neměl v úmyslu vytvářet klasické hodiny, ale pouze symboliku času.
 
-Hodinový stroj a zejména krokový mechanizmus inspiroval mnohé výtvarníky. Vznikly zajímavé umělecné předměty s klasickým i s kuriózním hodinovým strojem. Znovu se tak objevují [**vodní hodiny**](/zajimavosti/vodni) či hodiny z netradičních materiálů jako je [**papír**](/sbirka/papir), [**sklo**](/sbirka/zapekane) nebo **[cokoliv](/sbirka/sestka)**, případně je vytvořen nový stylizovaný **[stylizovaný stroj](/sbirka/uspirku)**. Artefakty mohou být v interiéru či na veřejném prostranství jako třeba "**[metronom](/img/metronom_letna.jpg)**" na Letenské pláni. Důležité je, vznikají z potřeby tvořit.
+Hodinový stroj a zejména krokový mechanizmus inspiroval mnohé výtvarníky. Vznikly zajímavé umělecné předměty s klasickým i s kuriózním hodinovým strojem. Znovu se tak objevují [**vodní hodiny**](/zajimavosti/vodni) či hodiny z netradičních materiálů jako je [**papír**](/virtualni-muzeum/papir), [**sklo**](/virtualni-muzeum/zapekane) nebo **[cokoliv](/virtualni-muzeum/sestka)**, případně je vytvořen nový stylizovaný **[stylizovaný stroj](/virtualni-muzeum/uspirku)**. Artefakty mohou být v interiéru či na veřejném prostranství jako třeba "**[metronom](/img/metronom_letna.jpg)**" na Letenské pláni. Důležité je, vznikají z potřeby tvořit.
 
 Symbióza technického a výtvarného pohledu na hodiny je sice zde vychýlena na výtvarnou stranu. Tvoří tak alespoň potřebnou protiváhu opačnému přístupu, který zcela opomíjí designovou stránku.
 
