@@ -49,7 +49,7 @@ Stará stránka je zde.
 - 19\. 5. 2020 [Samostavitelné hodiny systému MOBALine](https://hodinarium-eu.pages.dev/sbirka/karta/inv-P502-podruzne-hodiny-mobatime)
 - 1\. 5. 2020 [Astronomické spínací hodiny](/konstrukce/astronomicke-sauter) syst Fr. Sauter
 - 29\. 4. 2020 [Alžběta](https://hodinarium-eu.pages.dev/projekty/alzbeta) - hlášení přesného času
-- 20\. 4. 2020 [Nocturnal](https://hodinarium-eu.pages.dev/sbirka/nocturnal)
+- 20\. 4. 2020 [Nocturnal](https://hodinarium-eu.pages.dev/konstrukce/nocturnal)
 - 19\. 4. 2020 [Kalendářní kopmlikace u hodinek Orient a Raketa](https://hodinarium-eu.pages.dev/projekty/orient)
 - 16\. 4. 2020 [Astronomické a pásmové hodiny Staiger](/projekty/staiger)
 - 26\. 3. 2020 [Podružné hodiny s vteřinovkou](/sbirka/podruzne-sekundove)
