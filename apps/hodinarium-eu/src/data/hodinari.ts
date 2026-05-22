@@ -162,7 +162,7 @@ export const hodinari: Hodinar[] = [
       'Zakladatel pražské hodinářské firmy L. Hainz (1840), z níž vzešla pozdější výrobní linie Jednotný čas a Elektročas. Mimo věžních hodinových strojů se firma zasloužila o bezklíčový natahovací mechanizmus a o distribuci a údržbu městských hodin.',
     relatedSlugs: [
       'akvizice-2015-2025',
-      'decin-jednotny-cas',
+      'podruzne-hodiny',
       'hainz-natahovani',
       'inv-P207-strojek-hainz',
       'inv-A234-podruzne-vezni-hainz',
@@ -369,7 +369,7 @@ export const hodinari: Hodinar[] = [
       'Pražská hodinářská firma založená Ludvíkem Hainzem. V průběhu téměř století dodávala věžní hodiny do celého Rakouska-Uherska a později ČSR. V roce 1949 byla po znárodnění začleněna do podniku Jednotný čas.',
     relatedSlugs: [
       'akvizice-2015-2025',
-      'decin-jednotny-cas',
+      'podruzne-hodiny',
       'hainz-natahovani',
       'inv-30-vezni-polevsko-hainz',
       'jednotnycas',
@@ -390,7 +390,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Pražská firma zabývající se prodejem, pronájmem a instalací elektrických hodinových sítí. Po roce 1949 byla rozšířena o zestátněnou výrobu L. Hainz a stala se předchůdcem podniku Elektročas.',
-    relatedSlugs: ['decin-jednotny-cas', 'jednotnycas', 'mapa', 'panel-2-maticni-elektrocas'],
+    relatedSlugs: ['podruzne-hodiny', 'jednotnycas', 'mapa', 'panel-2-maticni-elektrocas'],
     era: '20stol',
   },
   {
@@ -407,7 +407,7 @@ export const hodinari: Hodinar[] = [
       'arduino',
       'kappa',
       'decin-galerie',
-      'decin-jednotny-cas',
+      'podruzne-hodiny',
       'o-hodinariu',
       'decin-regulace-ibm',
       'decin-vypousteny',
@@ -1655,7 +1655,7 @@ export const hodinari: Hodinar[] = [
       'dcf77',
       'decin-ntp',
       'decin-galerie',
-      'decin-jednotny-cas',
+      'podruzne-hodiny',
       'o-hodinariu',
       'decin-regulace-ibm',
       'inv-27-vezni-velka-ves',
