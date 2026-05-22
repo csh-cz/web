@@ -489,6 +489,13 @@
         "ludvik-hainz"
       ]
     },
+    "inv-5-vezni-18-stol-spindl": {
+      "hodinari": [
+        "elektrocas",
+        "ludvik-hainz",
+        "petr-kral"
+      ]
+    },
     "inv-8-vezni-r-liebing": {
       "hodinari": [
         "richard-liebing"
@@ -1073,13 +1080,6 @@
         "l-hainz",
         "ludvik-hainz",
         "opp-vyskov",
-        "petr-kral"
-      ]
-    },
-    "vez-budislav": {
-      "hodinari": [
-        "elektrocas",
-        "ludvik-hainz",
         "petr-kral"
       ]
     },

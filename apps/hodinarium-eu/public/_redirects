@@ -48,3 +48,4 @@
 
 # === Legacy *.htm → 404 (pre-launch, žádná SEO kontinuita) ===
 /*.htm /404 404
+/sbirka/vez-budislav /sbirka/karta/inv-5-vezni-18-stol-spindl 301

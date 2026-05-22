@@ -22,7 +22,7 @@ Bohužel některé loňské exponáty již v expozici nebudou. To se týká repl
 - současný věžní stroj [Elektročas 1959](/sbirka/vez-elektrocas1959)
 - [barokní věžní ministroj snad z 18 století](/sbirka/vez-zlate-hory)
 - [barokní špindlový stroj](/sbirka/vez-kli) věžních hodin
-- barokní špindlový [stroj věžních hodin z obce Budislav](/sbirka/vez-budislav)
+- barokní špindlový [stroj věžních hodin z obce Budislav](/sbirka/karta/inv-5-vezni-18-stol-spindl)
 - [stroj věžních hodin 1884 - Podmokly](/sbirka/vez-decin)
 - soustrojí [Prokeš 1868](/sbirka/bychory-prokes1) za zámku Býchory včetně cimbálů a zvonícího stroje
 - stroj věžních hodin - [Horní Prysk](/sbirka/vez-prysk)
