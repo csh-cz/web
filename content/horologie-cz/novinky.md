@@ -31,7 +31,7 @@ Stará stránka je zde.
 - 16\. 12. 2023 [NTP mysteriózní hodiny](/projekty/ntph)
 - 11\. 1. 2023 [Pneumatické veřejné hodiny v Paříži
     ](https://hodinarium-eu.pages.dev/konstrukce/pneumatika2)
-- 1\. 12. 2022 [Doplnění stránky o stolních podružných hodinách](/sbirka/decin-jednotny-cas)
+- 1\. 12. 2022 [Doplnění stránky o stolních podružných hodinách](/konstrukce/podruzne-hodiny)
 - 8\. 3. 2022 ["Modernizace" hodin Solari arduinem](/projekty/arduino-solari)
 - 19\. 11. 2021 [Věžní stroj se setrvačkou](https://hodinarium-eu.pages.dev/sbirka/akvizice-2015-2025#2021)
 - 19\. 9. 2021 [Římské digitálky tentokrát s Arduinem](https://hodinarium-eu.pages.dev/projekty/rimskedigi2)
@@ -55,7 +55,7 @@ Stará stránka je zde.
 - 26\. 3. 2020 [Podružné hodiny s vteřinovkou](/sbirka/podruzne-sekundove)
 - 14\. 3. 2020 Rozšířené stránky o květinovývh hodinách [Nové Město nad Mětuí](/virtualni-muzeum/kvetinovehodiny-nove-mesto-nad-metuji) a [zaniklé hodiny Chomuto](/virtualni-muzeum/kvetinovehodiny-chomutov)v (Dle Libora Hovorky)
 
-- 21.12. 2019 [Stolní podružné hodiny od firmy Jednotný čas.](/sbirka/decin-jednotny-cas)
+- 21.12. 2019 [Stolní podružné hodiny od firmy Jednotný čas.](/konstrukce/podruzne-hodiny)
 - 1\. 4. 2019 [Nový věžní stroj v přírůstcích Hodinária](https://hodinarium-eu.pages.dev/sbirka/akvizice-2015-2025#2019)
 - 25\. 3. 2019 [Jednoduché metody zpomalení kyvadla](/konstrukce/line-kyvadlo)
 - 20\. 3. 2019 Doplnění stránky o kuriózním využití elektřiny - [odpařovací nátah hodin](https://hodinarium-eu.pages.dev/konstrukce/elektricke1)
