@@ -1,7 +1,7 @@
 ---
 title: "DECIMÁLKY - hodiny v desítkové soustavě"
 slug: "decimalky"
-category: "sbirka"
+category: "zajimavosti"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/decimalky.htm"
 lastModified: "Wed, 13 Jan 2021 10:56:00 GMT"

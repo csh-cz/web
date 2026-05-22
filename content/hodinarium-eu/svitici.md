@@ -1,7 +1,7 @@
 ---
 title: "Svítící hodiny"
 slug: "svitici"
-category: "sbirka"
+category: "zajimavosti"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/svitici.htm"
 lastModified: "Wed, 26 Apr 2017 14:10:00 GMT"

@@ -1,7 +1,7 @@
 ---
 title: "Vodní minutky"
 slug: "vodni-minutky"
-category: "sbirka"
+category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/vodni_minutky.htm"
 lastModified: "Wed, 26 Apr 2017 16:27:00 GMT"
 sourceCharset: "windows-1250"

@@ -1,7 +1,7 @@
 ---
 title: "Odkazy"
 slug: "vodni-odkazy"
-category: "sbirka"
+category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/vodni_odkazy.htm"
 lastModified: "Wed, 26 Apr 2017 16:28:00 GMT"
 sourceCharset: "windows-1250"
