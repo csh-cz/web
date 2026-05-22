@@ -56,7 +56,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2  # potřebujeme HEAD^ pro git diff
+          fetch-depth: 0  # potřebujeme celý rozsah before..after pro git diff
           persist-credentials: true  # umožní git push z workflow
 
       - uses: pnpm/action-setup@v4
@@ -92,16 +92,24 @@ jobs:
             # ne jen HEAD^..HEAD — to minulo fotky z dřívějších commitů
             # batchnutého pushe. Fallback na HEAD^..HEAD, když payload chybí
             # (např. bare workflow_dispatch). jq je na ubuntu-latest předinstalován.
-            if [ -n "$COMMITS" ] && [ "$COMMITS" != "null" ] && [ "$COMMITS" != "[]" ]; then
-              CHANGED=$(printf '%s' "$COMMITS" \
-                | jq -r '[.[] | (.added[]?, .modified[]?)] | unique | .[]' \
-                | grep -E '^apps/[^/]+/public/img/.*\.(jpg|jpeg|png|gif)$' \
-                | tr '\n' ',' | sed 's/,$//' || true)
+            # Autoritativní zdroj = git diff přes CELÝ rozsah pushe
+            # (before..after). github.event.commits GitHub u větších commitů
+            # ořezává (added[]/modified[] chybí) → spoléhat jen na payload je
+            # nespolehlivé (minulo to 40 fotek v f8ef6e15). Diff sjednotíme
+            # s payloadem pro jistotu. Vyžaduje fetch-depth: 0.
+            BEFORE="${{ github.event.before }}"
+            if [ -n "$BEFORE" ] && [ "$BEFORE" != "0000000000000000000000000000000000000000" ] && git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
+              GITDIFF=$(git diff --name-only --diff-filter=AM "$BEFORE" "$GITHUB_SHA" || true)
             else
-              CHANGED=$(git diff --name-only --diff-filter=AM HEAD^ HEAD \
-                | grep -E '^apps/[^/]+/public/img/.*\.(jpg|jpeg|png|gif)$' \
-                | tr '\n' ',' | sed 's/,$//' || true)
+              GITDIFF=$(git diff --name-only --diff-filter=AM HEAD^ HEAD || true)
             fi
+            FROM_COMMITS=""
+            if [ -n "$COMMITS" ] && [ "$COMMITS" != "null" ] && [ "$COMMITS" != "[]" ]; then
+              FROM_COMMITS=$(printf '%s' "$COMMITS" | jq -r '[.[] | (.added[]?, .modified[]?)] | unique | .[]' || true)
+            fi
+            CHANGED=$(printf '%s\n%s\n' "$GITDIFF" "$FROM_COMMITS" \
+              | grep -E '^apps/[^/]+/public/img/.*\.(jpg|jpeg|png|gif)$' \
+              | sort -u | tr '\n' ',' | sed 's/,$//' || true)
             if [ -z "$CHANGED" ]; then
               echo "mode=none" >> "$GITHUB_OUTPUT"
               echo "Žádný JPG/PNG nezměněn v tomto pushi."
