@@ -6,6 +6,7 @@ import JsonLd from '@csh/ui/components/JsonLd.astro';
 import KartaSbirky from "../components/KartaSbirky.astro";
 import EditorNotesBlock from "../components/EditorNotesBlock.astro";
 import CrossRefs from "../components/CrossRefs.astro";
+import SkupinaClenove from "../components/SkupinaClenove.astro";
 import { pramenTooltip, extractWikiTitle } from "../utils/referenceTypes";
 import { formatCite, getRef } from "../utils/cite";
 import catalog from "../data/catalog.json";
@@ -62,6 +63,9 @@ interface Props {
   editorNotes?: Array<{ level: 'info' | 'warn' | 'todo'; title?: string; text: string; noteKey?: string }>;
   referenceStyle?: 'bullet' | 'numbered';
   karta?: Karta;
+  /** Kód skupiny (panel-N) — když je article souhrnný panel, vyrenderuje
+   *  se auto-seznam jeho exponátů (členové ze soupisu). */
+  skupinaKod?: string | null;
   /** Article je v draft mode — viditelný jen editorovi (CSS-gated tělem). */
   draft?: boolean;
   /** Křížové odkazy (PBI X.4) — rendrují se před article-byline. */
@@ -75,7 +79,7 @@ interface Props {
     kronika?: string[];
   };
 }
-const { title, description, lastModified, tldr, category, slug, ogImageOverride, author, photoAuthor, acknowledgments, references, referenceStyle = 'bullet', karta, editorNotes, draft, crossRefs } = Astro.props;
+const { title, description, lastModified, tldr, category, slug, ogImageOverride, author, photoAuthor, acknowledgments, references, referenceStyle = 'bullet', karta, editorNotes, draft, crossRefs, skupinaKod } = Astro.props;
 
 // CMS edit URL — Sveltia routy: /admin/#/collections/<col>/entries/<file_id>.
 // Karty (podsekce: 'karta') jdou do collection 'karty', zbytek do 'clanky'.
@@ -217,6 +221,8 @@ const articleJsonLd = {
     </div>
 
     <div class="fleuron"></div>
+
+    {skupinaKod && <SkupinaClenove kod={skupinaKod} title="Všechny exponáty panelu" />}
 
     {hodinariZmineni.length > 0 && (
       <aside class="hodinari-box" aria-label="Hodináři zmínění v článku">

@@ -1,0 +1,104 @@
+---
+// Auto-seznam členů skupiny (panel/vitrína) — odvozeno ze soupisu, linkuje
+// na evidenční karty exponátů. Sdíleno mezi Skupina.astro (vitríny) a
+// Article.astro (panely). Členství = jeden zdroj pravdy (soupis.lokace).
+import { getCollection } from 'astro:content';
+import { getSkupina } from '../data/skupiny';
+
+interface Props {
+  kod: string;
+  title?: string;
+}
+const { kod, title = 'Exponáty v této skupině' } = Astro.props;
+
+const skupina = getSkupina(kod);
+
+// Map inv. č. → slug(y) existujících karet. Link jen když je karta právě jedna
+// (u kolizních čísel raději bez linku než špatný — shodně s katalogem).
+const cards = await getCollection('clanky');
+const byInv = new Map<string, string[]>();
+for (const c of cards) {
+  if (c.data.podsekce !== 'karta') continue;
+  const inv = c.data.karta?.inventarniCislo;
+  if (inv == null) continue;
+  const arr = byInv.get(String(inv)) ?? [];
+  arr.push(c.id);
+  byInv.set(String(inv), arr);
+}
+
+const clenove = (skupina?.clenove ?? []).map((m) => {
+  const slugs = byInv.get(String(m.invCislo));
+  return { ...m, cardSlug: slugs && slugs.length === 1 ? slugs[0] : null };
+});
+---
+{clenove.length > 0 && (
+  <aside class="skupina-clenove" aria-labelledby="skupina-clenove-h">
+    <p class="eyebrow skupina-clenove-label" id="skupina-clenove-h">{title}</p>
+    <ul class="skupina-clenove-list">
+      {clenove.map((m) => (
+        <li>
+          {m.cardSlug ? (
+            <a href={`/sbirka/karta/${m.cardSlug}/`}>
+              <span class="cl-inv">{m.invCislo}</span>
+              <strong class="cl-popis">{m.popis}</strong>
+              {m.stav && <span class="cl-stav">{m.stav}</span>}
+            </a>
+          ) : (
+            <span class="cl-nokarta">
+              <span class="cl-inv">{m.invCislo}</span>
+              <strong class="cl-popis">{m.popis}</strong>
+              {m.stav && <span class="cl-stav">{m.stav}</span>}
+            </span>
+          )}
+        </li>
+      ))}
+    </ul>
+  </aside>
+)}
+
+<style>
+  .skupina-clenove {
+    background: color-mix(in srgb, var(--color-bg-deep) 85%, var(--color-copper));
+    border: 1px solid color-mix(in srgb, var(--color-copper) 25%, transparent);
+    border-left: 3px solid var(--color-copper);
+    border-radius: 2px;
+    padding: 1rem 1.25rem;
+    margin: 2.5rem 0 1rem;
+  }
+  .skupina-clenove-label { margin: 0 0 0.6rem; color: var(--color-brass); }
+  .skupina-clenove-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 0.5rem;
+  }
+  .skupina-clenove-list a,
+  .skupina-clenove-list .cl-nokarta {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0.45rem 0.7rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 20%, transparent);
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--color-brass-bright);
+    transition: border-color 150ms ease;
+  }
+  .skupina-clenove-list a:hover { border-color: var(--color-brass); }
+  .skupina-clenove-list .cl-nokarta { color: var(--color-text-soft); opacity: 0.75; }
+  .cl-inv {
+    font-feature-settings: "lnum";
+    font-size: 0.78rem;
+    color: var(--color-copper);
+    min-width: 2.6em;
+  }
+  .cl-popis { font-family: var(--font-serif); font-weight: 500; }
+  .cl-stav {
+    margin-left: auto;
+    font-size: 0.72rem;
+    color: var(--color-text-muted);
+  }
+</style>

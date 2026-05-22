@@ -5,6 +5,7 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { hodinari } from '../../data/hodinari';
+import { skupinaTyp, skupinaHref } from '../../data/skupiny';
 
 interface Exponat {
   invCislo: string;
@@ -292,7 +293,9 @@ const vyrobceOpts = Object.entries(vyrobceCounts)
   {[...byLokace.entries()].filter(([, list]) => list.length > 0).map(([code, list]) => (
     <section class="katalog-section" id={`l-${code}`} data-lokace-section={code}>
       <h2 class="katalog-section-h">
-        {lokaceLabels[code] ?? code}
+        {skupinaTyp(code)
+          ? <a class="katalog-section-link" href={skupinaHref(code)}>{lokaceLabels[code] ?? code}</a>
+          : (lokaceLabels[code] ?? code)}
         <span class="katalog-section-count">{list.length}</span>
       </h2>
       <div class="katalog-table" role="table">
@@ -478,6 +481,15 @@ const vyrobceOpts = Object.entries(vyrobceCounts)
     border-right: none;
   }
   .katalog-section-h::before { content: none; }
+  .katalog-section-link {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px dotted color-mix(in srgb, var(--color-brass) 40%, transparent);
+  }
+  .katalog-section-link:hover {
+    color: var(--color-brass-bright);
+    border-bottom-color: var(--color-brass);
+  }
   .katalog-section-count {
     color: var(--color-text-muted);
     font-size: 0.85rem;
