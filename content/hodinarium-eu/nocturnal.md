@@ -1,8 +1,11 @@
 ---
 title: "Nocturnal"
 slug: "nocturnal"
-category: "sbirka"
+category: "konstrukce"
 author: "Petr Král"
+relatedKarty:
+  - inv-A79-nocturnal-mosazny
+  - inv-A83-nocturnal
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/nocturnal.htm"
 lastModified: "Sun, 17 May 2020 08:27:00 GMT"
@@ -33,7 +36,7 @@ Noctunal se vyskytuje v mnoha provedeních. [Pomocí Google je na Internetu mů�
 
 ## Náš exemplář
 
-V našich sbírkách je fragment nocturnalu nejasné datace. Na první pohled je vidět, že je dole ulomené "držadlo". Tím se znesnadněno použití přístroje.
+V našich sbírkách je [mosazný fragment nocturnalu](/sbirka/karta/inv-A79-nocturnal-mosazny) nejasné datace. Na první pohled je vidět, že je dole ulomené "držadlo". Tím se znesnadněno použití přístroje. (Princip si lze prohlédnout i na našem [lepenkovém modelu](/sbirka/karta/inv-A83-nocturnal).)
 
 Na vnější stupnici rozdělené na 12 měsíců je jednopísmenové označení odpovídající latinským názvům měsíců. Nikomu patrně nevadilo, že zkratky měsíců se často opakují. Na obrázku nocturnal nastaven začátek května. Velkým otvorem je zároveň vidět platné znamení, zde znamení Býka ♉. Konstrukce počítá pouze s jednou referenční hvězdou.
 
