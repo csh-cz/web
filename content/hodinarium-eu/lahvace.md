@@ -1,7 +1,7 @@
 ---
 title: "Lahváče"
 slug: "lahvace"
-category: "sbirka"
+category: "virtualni-muzeum"
 tags:
   - kuriozita
   - stolni

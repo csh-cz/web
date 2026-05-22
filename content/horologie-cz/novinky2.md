@@ -16,7 +16,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 29.12.2015 [Kovaný stroj Wenzel Mellner](/sbirka/karta/inv-13-vezni-wenzel-mellner) zakoupený naším sponzorem se začíná restaurovat.
 - 4\. 9. 2015 První otevření Hodinária Děčín
 - 20\. 8. 2015 Instalován [elektrický bicí stroj Brillie](/sbirka/decin-bici-stroje)
-- 6\. 8. 2015 Výstavka 2015 v Hodináriu Děčín. [Výtvarné miniatury ve tvaru kostky - Dr. Jaroslav Adam](https://hodinarium-eu.pages.dev/sbirka/kostky)
+- 6\. 8. 2015 Výstavka 2015 v Hodináriu Děčín. [Výtvarné miniatury ve tvaru kostky - Dr. Jaroslav Adam](https://hodinarium-eu.pages.dev/virtualni-muzeum/kostky)
 
 - **V období srpen 2015 proběhla velká inovaci stránek v souvislosti s opuštěním Věžního muzejíčka Soběslav a budování [Hodinária Děčín](https://hodinarium-eu.pages.dev/o-hodinariu). Byly dle možností zkontrolovány odkazy na stránkách a nefunkční odkazy byly zručeny. Programové komponenty byly upravovány tak, aby vyhovovaliy prohlížečúm v tomto období. Některé méně důležité stránky byly odstraněny. Protože za v jistém smyslu nové byly všechny stránky nejsou některé opravdové novinky zaznamenány.**
 
@@ -106,7 +106,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 24\. 5. 2008 [Svítící](https://hodinarium-eu.pages.dev/zajimavosti/svitici) hodiny
 - 18\. 5. 2008 [Lenzkirch](https://hodinarium-eu.pages.dev/virtualni-muzeum/lenzkirch) - Rolls-Royce ze Schwarzwaldu
 - 12\. 5. 2008 [KLÍČOVÁ OTÁZKA](/zajimavosti/hainz-natahovani) - natahovátko Louis Hainz
-- 16\. 4. 2008 Variace na věžní hodiny [U Špirků](https://hodinarium-eu.pages.dev/sbirka/uspirku)
+- 16\. 4. 2008 Variace na věžní hodiny [U Špirků](https://hodinarium-eu.pages.dev/virtualni-muzeum/uspirku)
 - 12\. 4. 2008 Kuriózní hodiny na [YouTube](https://hodinarium-eu.pages.dev/zajimavosti/youtube)
 - 12\. 4. 2008 Hodiny [ATO](/konstrukce/ato) - alespoň základ povídání o těchto elektrických hodinách
 - 8\. 4. 2008 Orloj v Litomyšli (1907–2007 - článek k výročí orloje)
@@ -121,7 +121,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 15\. 3. 2008 Synchronní svítící budík [METAMEC](https://hodinarium-eu.pages.dev/konstrukce/sitovky#metamec)
 - 25\. 2. 2008 **Terminologický slovník hodináře -** převzato s laskavým svolením autora ze serveru 62.168.39.166:80/paichl/hodiny.html Obsáhlý soubor zejména hodinářských nástrojů včetně fotografií.
 - 18\. 2. 2008 [Valící se kuličky](https://hodinarium-eu.pages.dev/konstrukce/kulicky)
-- 18\. 2. 2008 [Zapékané hodiny](https://hodinarium-eu.pages.dev/sbirka/zapekane) (do skla)
+- 18\. 2. 2008 [Zapékané hodiny](https://hodinarium-eu.pages.dev/virtualni-muzeum/zapekane) (do skla)
 - 18\. 2. 2008 Japonské kuriózní hodinky eshop
 - 14\. 2. 2008 [Svítící hodiny](https://hodinarium-eu.pages.dev/zajimavosti/svitici)
 - 5\. 1. 2008 Orloj v Brně, že by?
@@ -133,8 +133,8 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 16\. 8. 2007 [Devítkové hodiny pro matematiky](https://hodinarium-eu.pages.dev/projekty/matematicke)
 - 6\. 8. 2007 [Mateční hodiny CTW](https://hodinarium-eu.pages.dev/projekty/ctwagner) neboli C.T. Wagner; také odkaz na úžasnou animaci
 - 30\. 7. 2007 Skeletové hodiny [Kavalír](https://hodinarium-eu.pages.dev/virtualni-muzeum/kavalir)
-- 29\. 7. 2007 [TIME FLOW CLOCK](/sbirka/vodni-b-gitton) - hodiny protékajícího času - Bernard Gitton
-- 29\. 7. 2007 [O věžních hodinách na ZŠ Šumava](/sbirka/vezni-zikmund1) v Jablonci nad Nisou
+- 29\. 7. 2007 [TIME FLOW CLOCK](https://hodinarium-eu.pages.dev/virtualni-muzeum/vodni-b-gitton) - hodiny protékajícího času - Bernard Gitton
+- 29\. 7. 2007 [O věžních hodinách na ZŠ Šumava](https://hodinarium-eu.pages.dev/virtualni-muzeum/vezni-zikmund1) v Jablonci nad Nisou
 - 29\. 7. 2007 Počítačový vibrograf
 - 28\. 7. 2007 Několik stránek o [vodních hodinách](https://hodinarium-eu.pages.dev/zajimavosti/vodni)
 - 15\. 7. 2007 Hodiny v kostele sv. Josefa [v Janovicích](https://hodinarium-eu.pages.dev/virtualni-muzeum/janovice)
@@ -152,8 +152,8 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 12\. 2. 2007 [Gobelínky](https://hodinarium-eu.pages.dev/virtualni-muzeum/gobelin) - vyšívané hodiny (kýč je když...)
 - 21\. 1. 2007 [DCF 77](https://hodinarium-eu.pages.dev/projekty/dcf77) - vysílač, hodiny a hodinky
 - 15\. 1. 2007 Kvalifikovaná časová [razítka](https://hodinarium-eu.pages.dev/zajimavosti/razitka) doplněk elektronického podpisu
-- 29.12. 2006 [Lahváče](https://hodinarium-eu.pages.dev/sbirka/lahvace) aneb hodiny v lahvích
-- 29.12. 2006 [Papíráky](https://hodinarium-eu.pages.dev/sbirka/papir) - hodiny z produkce Papírového světa
+- 29.12. 2006 [Lahváče](https://hodinarium-eu.pages.dev/virtualni-muzeum/lahvace) aneb hodiny v lahvích
+- 29.12. 2006 [Papíráky](https://hodinarium-eu.pages.dev/virtualni-muzeum/papir) - hodiny z produkce Papírového světa
 - 17.12. 2006 [Dowload](https://hodinarium-eu.pages.dev/zajimavosti/download) PC kukaček - Udělejte si z počítače Big Ben
 - 4.12. 2006 [Kuriózní budíky hnané závažím](https://hodinarium-eu.pages.dev/konstrukce/budiky1)
 - 26.11. 2006 Starožitníci - Starožitnosti - Antiky

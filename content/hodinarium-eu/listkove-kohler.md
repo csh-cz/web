@@ -1,7 +1,7 @@
 ---
 title: "Překlápěčky Köhler & Co, Laufamholz"
 slug: "listkove-kohler"
-category: "sbirka"
+category: "virtualni-muzeum"
 tags:
   - nastenne
   - pero
