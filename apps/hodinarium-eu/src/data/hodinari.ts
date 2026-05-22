@@ -1205,7 +1205,6 @@ export const hodinari: Hodinar[] = [
     shrnuti:
       'Současná česká sklárna a výrobce uměleckých skleněných objektů, mj. **modelů orlojů a hodin se sklem**. V Hodináriu Děčín jsou exponáty: [skeletové hodiny Kavalír (inv. 54)](/sbirka/karta/inv-54-skeletove-hodiny-kavalir/), [Orloj Kavalír — model (inv. 65)](/sbirka/karta/inv-65-orloj-kavalir/), [Cimbál s odbíjením (inv. 66)](/sbirka/karta/inv-66-cimbal-s-odbijenim/), [Zvonění Kavalír (inv. 243)](/sbirka/karta/inv-243-zvoneni-kavalir/). Firma vyrábí i odbíjecí zařízení s programovatelnou dobou odbíjení.',
     relatedSlugs: [
-      'decin-chronulator',
       'o-hodinariu',
       'inv-A176-retrogradni-hodiny-kavalir',
       'inv-202-retrogradni-kavalir',
