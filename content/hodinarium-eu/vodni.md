@@ -1,7 +1,7 @@
 ---
 title: "Čas plyne jako voda ... Hodiny vodní"
 slug: "vodni"
-category: "sbirka"
+category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/vodni.htm"
 lastModified: "Wed, 26 Apr 2017 16:25:00 GMT"
 sourceCharset: "windows-1250"
@@ -31,6 +31,6 @@ Na této a dalších stránkách uvidíte několik ukázek nádherných děl soc
 - **[Zahradní hodiny](/sbirka/vodni-jegorov)**, které postavil pan MUDr. Jegorov.
 - Hodně zvláštní [**vodní hodiny na molu Southwold.**](/virtualni-muzeum/tim-hunkin)
 
-- Další informace o vodních hodinách najdete také na stránce **[odkazů](/sbirka/vodni-odkazy)**
+- Další informace o vodních hodinách najdete také na stránce **[odkazů](/zajimavosti/vodni-odkazy)**
 
-Pokud budeme pojem vodní hodiny chápat v širším slova smyslu, můžeme sem zařadit ještě **vodní minutku**, či nápad na [**vodní budík**](/sbirka/vodni-budik). Těžko sem ale zařadíme hodiny, které se také jako vodní začaly označovat, ačkoliv jde o hodiny elektrické na baterii, kde jako elektrolyt působí voda.
+Pokud budeme pojem vodní hodiny chápat v širším slova smyslu, můžeme sem zařadit ještě **vodní minutku**, či nápad na [**vodní budík**](/zajimavosti/vodni-budik). Těžko sem ale zařadíme hodiny, které se také jako vodní začaly označovat, ačkoliv jde o hodiny elektrické na baterii, kde jako elektrolyt působí voda.

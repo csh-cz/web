@@ -45,7 +45,7 @@ Více o značení najdete např. zde. Doporučuji vaší pozornosti zejména pá
 
 )
 
-*(Trochu kacířská myšlenka. Nešlo by to bez pásmového času??? I tento systém existuje. [**Jeden svět - jeden čas** aneb **zavináčový internetový čas.**](/sbirka/decimalky#internet))*
+*(Trochu kacířská myšlenka. Nešlo by to bez pásmového času??? I tento systém existuje. [**Jeden svět - jeden čas** aneb **zavináčový internetový čas.**](/zajimavosti/decimalky#internet))*
 
 ![pásmové hodiny](/img/ujete/scaleclock.jpg)
 

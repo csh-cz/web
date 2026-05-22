@@ -1,7 +1,7 @@
 ---
 title: "Čárokódky - svět se čárokóduje"
 slug: "carokodky"
-category: "sbirka"
+category: "zajimavosti"
 tags:
   - digi
   - kuriozita

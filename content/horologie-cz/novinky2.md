@@ -63,7 +63,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
     ](https://hodinarium-eu.pages.dev/konstrukce/slunecni-polarizacni)Ukazují i když je Slunce zakryto. Zkuste si je udělat.
 - 12\. 6. 2009 Vydána naše první pohlednice s [Bulle hodinymi](https://hodinarium-eu.pages.dev/konstrukce/bulle) z cca 1925
 - 18\. 5. 2009 Doplněna nová animace [židovských hodin](https://hodinarium-eu.pages.dev/virtualni-muzeum/zidovske)
-    a přidána [animace slunečních hodin](https://hodinarium-eu.pages.dev/sbirka/slunecni) od pana Vlasty Fillera.
+    a přidána [animace slunečních hodin](https://hodinarium-eu.pages.dev/zajimavosti/slunecni) od pana Vlasty Fillera.
 - 5\. 5. 2009 [Kapesní "orloj" Brevete](/virtualni-muzeum/kapesni-orloj) - stránka o zajímavé kalendářní komplikaci.
 - 13\. 4. 2009 Mechanické digi [IWC Schaffhausen](https://hodinarium-eu.pages.dev/virtualni-muzeum/schaffhausen) z roku 1885
 - 7\. 4. 2009 Soběslavské hodiny z 15. století a 2. část: [Po stopách času](https://hodinarium-eu.pages.dev/kronika/sobeslav2).
@@ -83,7 +83,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
     sponzorování včetně banerů. Založena možnost výměny odkazů.
 - 17\. 1. 2009 Obecně o orlojích a zejména o orlojích v Uherském Brodu
     s množstvím podstránek (převzato)
-- 17\. 1. 2009 Decimálky doplněny o [Internetový Swatch čas](https://hodinarium-eu.pages.dev/sbirka/decimalky#internet) "Jeden svět - jeden čas",
+- 17\. 1. 2009 Decimálky doplněny o [Internetový Swatch čas](https://hodinarium-eu.pages.dev/zajimavosti/decimalky#internet) "Jeden svět - jeden čas",
     zavináčovky funkční včetně převodního formuláře
 - 17\. 1. 2009 Stránka o obdivu k prezentaci orloje v Ulmu
 - 15\. 1. 2009 Doplněna stránka o možnosti sponzorování
@@ -102,8 +102,8 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - Vyčistit a namazat - rozjímání nad popisy aukcí
 - 19.10. 2008 [Švarcvaldy se zvonkohrou](https://hodinarium-eu.pages.dev/konstrukce/svarcvaldky-hraci)
 - 6.10. 2008 [Čtyřruční hodiny](https://hodinarium-eu.pages.dev/projekty/4ruce)
-- 1\. 6. 2008 [Decimálky](https://hodinarium-eu.pages.dev/sbirka/decimalky) - hodiny s dělením 10 hodin - 100 minut - 100 vteřin
-- 24\. 5. 2008 [Svítící](https://hodinarium-eu.pages.dev/sbirka/svitici) hodiny
+- 1\. 6. 2008 [Decimálky](https://hodinarium-eu.pages.dev/zajimavosti/decimalky) - hodiny s dělením 10 hodin - 100 minut - 100 vteřin
+- 24\. 5. 2008 [Svítící](https://hodinarium-eu.pages.dev/zajimavosti/svitici) hodiny
 - 18\. 5. 2008 [Lenzkirch](https://hodinarium-eu.pages.dev/virtualni-muzeum/lenzkirch) - Rolls-Royce ze Schwarzwaldu
 - 12\. 5. 2008 [KLÍČOVÁ OTÁZKA](/zajimavosti/hainz-natahovani) - natahovátko Louis Hainz
 - 16\. 4. 2008 Variace na věžní hodiny [U Špirků](https://hodinarium-eu.pages.dev/sbirka/uspirku)
@@ -123,7 +123,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 18\. 2. 2008 [Valící se kuličky](https://hodinarium-eu.pages.dev/konstrukce/kulicky)
 - 18\. 2. 2008 [Zapékané hodiny](https://hodinarium-eu.pages.dev/sbirka/zapekane) (do skla)
 - 18\. 2. 2008 Japonské kuriózní hodinky eshop
-- 14\. 2. 2008 [Svítící hodiny](https://hodinarium-eu.pages.dev/sbirka/svitici)
+- 14\. 2. 2008 [Svítící hodiny](https://hodinarium-eu.pages.dev/zajimavosti/svitici)
 - 5\. 1. 2008 Orloj v Brně, že by?
 
     * * *
@@ -136,7 +136,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 29\. 7. 2007 [TIME FLOW CLOCK](/sbirka/vodni-b-gitton) - hodiny protékajícího času - Bernard Gitton
 - 29\. 7. 2007 [O věžních hodinách na ZŠ Šumava](/sbirka/vezni-zikmund1) v Jablonci nad Nisou
 - 29\. 7. 2007 Počítačový vibrograf
-- 28\. 7. 2007 Několik stránek o [vodních hodinách](https://hodinarium-eu.pages.dev/sbirka/vodni)
+- 28\. 7. 2007 Několik stránek o [vodních hodinách](https://hodinarium-eu.pages.dev/zajimavosti/vodni)
 - 15\. 7. 2007 Hodiny v kostele sv. Josefa [v Janovicích](https://hodinarium-eu.pages.dev/virtualni-muzeum/janovice)
 - 20\. 6. 2007 [Židovské hodiny z roku 1764](https://hodinarium-eu.pages.dev/virtualni-muzeum/zidovske) (i PC animace)
 - 20\. 6. 2007 Nový orloj v Kryštofově Údolí
