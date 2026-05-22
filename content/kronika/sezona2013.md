@@ -20,13 +20,13 @@ Bohužel některé loňské exponáty již v expozici nebudou. To se týká repl
 
 - [starý soběslavský stroj](/kronika/vez1), "čtvrtek" ([bicí stroj](/slovnik/bici-stroj) jednotlivých čtvrtí), ručkové převody
 - současný věžní stroj [Elektročas 1959](/sbirka/vez-elektrocas1959)
-- [barokní věžní ministroj snad z 18 století](/sbirka/vez-zlate-hory)
+- [barokní věžní ministroj snad z 18 století](/sbirka/karta/inv-3-barokni-ministroj-18-stol)
 - [barokní špindlový stroj](/sbirka/vez-kli) věžních hodin
 - barokní špindlový [stroj věžních hodin z obce Budislav](/sbirka/karta/inv-5-vezni-18-stol-spindl)
-- [stroj věžních hodin 1884 - Podmokly](/sbirka/vez-decin)
-- soustrojí [Prokeš 1868](/sbirka/bychory-prokes1) za zámku Býchory včetně cimbálů a zvonícího stroje
-- stroj věžních hodin - [Horní Prysk](/sbirka/vez-prysk)
-- [věžní rozvody](/sbirka/bychory-dalsi-kola) z obce Svinky, samostatné ručkové převody, rozvodové tyče a pod.
+- [stroj věžních hodin 1884 - Podmokly](/sbirka/karta/inv-1-vezni-hiemann-1884)
+- soustrojí [Prokeš 1868](/sbirka/karta/inv-2-vezni-prokes-1868-soubor) za zámku Býchory včetně cimbálů a zvonícího stroje
+- stroj věžních hodin - [Horní Prysk](/sbirka/karta/inv-6-vezni-michael-christ)
+- [věžní rozvody](/sbirka/karta/inv-2-vezni-prokes-1868-soubor) z obce Svinky, samostatné ručkové převody, rozvodové tyče a pod.
 
 - Nová produkce je zastoupena skeletovými hodinymi Kavalír (více na [samostatné stránce](http://www.kavalir.cz/hodiny/)) a také poněkud bláznivými hodinami s indikací času cyklistickým řetězem v čtvrtorlojním dělení (2. obrázek vpravo).
 

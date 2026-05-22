@@ -46,6 +46,17 @@
 /sbirka/o-hodinariu /o-hodinariu 301
 /decin_koncepce.htm /o-hodinariu 301
 
+# === Sloučené sbírkové články → karty (2026-05) ===
+/sbirka/vez-decin /sbirka/karta/inv-1-vezni-hiemann-1884 301
+/sbirka/bychory-prokes1 /sbirka/karta/inv-2-vezni-prokes-1868-soubor 301
+/sbirka/bychory-dalsi-kola /sbirka/karta/inv-2-vezni-prokes-1868-soubor 301
+/sbirka/vez-zlate-hory /sbirka/karta/inv-3-barokni-ministroj-18-stol 301
+/sbirka/vez-prysk /sbirka/karta/inv-6-vezni-michael-christ 301
+/sbirka/decin-wenzel-mellner /sbirka/karta/inv-13-vezni-wenzel-mellner 301
+/sbirka/decin-flatbed /sbirka/karta/inv-14-vezni-hodiny-paul-zieux 301
+/sbirka/decin-velika-ves /sbirka/karta/inv-27-vezni-velka-ves 301
+/sbirka/mobatime /sbirka/karta/inv-P502-podruzne-hodiny-mobatime 301
+
 # === Legacy *.htm → 404 (pre-launch, žádná SEO kontinuita) ===
 /*.htm /404 404
 /sbirka/vez-budislav /sbirka/karta/inv-5-vezni-18-stol-spindl 301

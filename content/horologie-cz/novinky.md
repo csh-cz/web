@@ -46,7 +46,7 @@ Stará stránka je zde.
 - 4\. 7. 2020 [Synchronizace hodin "levným" NTP serverem](/sbirka/decin-ntp) (druhá verze s využitím GPS).
 - 26\. 6. 2020 [Atomové hodiny a hodinky](/projekty/atomove-kapesni)
 - 23\. 6. 2020 [Hodiny synchronizované signálem z družice systému GPS](/projekty/gps-sakul)
-- 19\. 5. 2020 [Samostavitelné hodiny systému MOBALine](https://hodinarium-eu.pages.dev/sbirka/mobatime)
+- 19\. 5. 2020 [Samostavitelné hodiny systému MOBALine](https://hodinarium-eu.pages.dev/sbirka/karta/inv-P502-podruzne-hodiny-mobatime)
 - 1\. 5. 2020 [Astronomické spínací hodiny](/konstrukce/astronomicke-sauter) syst Fr. Sauter
 - 29\. 4. 2020 [Alžběta](https://hodinarium-eu.pages.dev/projekty/alzbeta) - hlášení přesného času
 - 20\. 4. 2020 [Nocturnal](https://hodinarium-eu.pages.dev/sbirka/nocturnal)
