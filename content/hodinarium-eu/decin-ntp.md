@@ -1,7 +1,7 @@
 ---
 title: Instalované NTP servery
 slug: decin-ntp
-category: sbirka
+category: konstrukce
 tags:
   - jednotny-cas
   - ntp-rizeno
@@ -13,6 +13,7 @@ tldr: 'Praktická implementace sítě jednotného času přes NTP — podružné
 author: Petr Král
 ogImage: /img/elektrika/Bodet/Profil930NTP.png
 relatedKarty:
+  - inv-P503-podruzne-hodiny-bodet
   - inv-P502-podruzne-hodiny-mobatime
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: https://hodinarium.eu/decin_NTP.htm
@@ -27,7 +28,7 @@ scrapedAt: 2026-04-27T17:36:29.360Z
 
 Synchronizace hodin jednotného času se dělala nejčastěji vysíláním polarizovaných minutových [impulzů](/slovnik/impulsy) po dvoudrátovém rozvodu od matečních hodin k hodinám podružným. Méně často se používaly impulzy půlminutové ([Brillie](/sbirka/brillie)), stejnosměrné impulzy, impulzy po tří drátu ([IBM](/sbirka/decin-regulace-ibm)) a další systémy. V druhé polovině 19. století se používal i [stlačený vzduch](/konstrukce/pneumatika2). V současné době se pro řízení hodin používá kompletní časová informace například po lince [MOBAline](/sbirka/karta/inv-P502-podruzne-hodiny-mobatime). Nejmodernějším způsobem šíření časového signálu po vlastním vedením je síť LAN - Ethernet nebo WiFi. (Více také na stránce [synchronizace](/konstrukce/synchronizace-hodin).)
 
-V Hodináriu je tato technologie zastoupena NTP podružnými hodinami Bodet (Profil 930 NTP), jednoduchým NTP serverem na bázi MikroTiku, GPS NTP serverem a NTP serverem s demonstračním monitorem chodu dle našeho návrhu. Hodiny  Bodet očekávají, že po LAN síti, do které jsou připojeny, přicházejí NTP pakety (Broadcast) směřující na adresu z rozsahu adres 239.192.54.xx. Kde xx je nastavitelné DIP přepínači na hodinách v rozsahu 1 - 15. DIP přepínači na hodinách je rovněž nastavitelné časové pásmo. Rozsah IP adres od 224.0.0.0 do 239.255.255.255 patří mezi tzv. speciální adresy a je zařazen do třídy D. Tato třída je většinou využívána pro hromadné vysílání videa nebo audia. Podstatné je, že NTP server musí být ve stejném segmentu sítě. Po LAN kabelu jsou hodiny i napájeny napětím 48 V ze switche. [Další informace například zde](https://static.bodet-time.com/images/stories/Pdfs/EN/Manuals/Distribution/606547D%20NTP%20AFNOR%20interface%20instructions.pdf).
+V Hodináriu je tato technologie zastoupena NTP [podružnými hodinami Bodet](/sbirka/karta/inv-P503-podruzne-hodiny-bodet) (Profil 930 NTP), jednoduchým NTP serverem na bázi MikroTiku, GPS NTP serverem a NTP serverem s demonstračním monitorem chodu dle našeho návrhu. Hodiny  Bodet očekávají, že po LAN síti, do které jsou připojeny, přicházejí NTP pakety (Broadcast) směřující na adresu z rozsahu adres 239.192.54.xx. Kde xx je nastavitelné DIP přepínači na hodinách v rozsahu 1 - 15. DIP přepínači na hodinách je rovněž nastavitelné časové pásmo. Rozsah IP adres od 224.0.0.0 do 239.255.255.255 patří mezi tzv. speciální adresy a je zařazen do třídy D. Tato třída je většinou využívána pro hromadné vysílání videa nebo audia. Podstatné je, že NTP server musí být ve stejném segmentu sítě. Po LAN kabelu jsou hodiny i napájeny napětím 48 V ze switche. [Další informace například zde](https://static.bodet-time.com/images/stories/Pdfs/EN/Manuals/Distribution/606547D%20NTP%20AFNOR%20interface%20instructions.pdf).
 
 Po připojení napětí hodiny zaujmou klidovou polohu (12:00, 4:00 nebo 8:00 hodin) a vyčkávají na příchod několika NTP paketů s časovou informací. Poté se nastaví na požadovaný čas. To může trvat několik minut. Hodiny mají dva motory. Samostatně se nastavuje sekundová ručička, je tedy obvykle nastavena jako první a současně se nastavují minuty a hodiny. Podrobný popis vystavovaného exempláře můžete najít v [manuálu](/download/NTP/Analogue_clocks_Profil930-940NTPSlaveClockInstructions.pdf). Bez NTP signálu jdou hodiny autonomně 24 hodin, pak se nastaví do polohy 12:00.
 
