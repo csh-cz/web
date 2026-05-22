@@ -1,13 +1,14 @@
 /**
  * Kurátorská metadata pro každou kategorii — intro, featured slugy, doplňkové odkazy.
  *
- * Taxonomie 2026-04 (6 hlavních + Kronika jako vlastní collection):
+ * Taxonomie 2026-04 (7 hlavních + Kronika jako vlastní collection):
  *   sbirka            — exponáty spolku
  *   konstrukce        — mechanismy a principy hodin obecně
  *   projekty          — DIY autorské konstrukce
  *   virtualni-muzeum  — zajímavé hodiny mimo sbírku
  *   muzea             — sister muzea, přehledy sbírek
  *   zajimavosti       — eseje o čase, kalendáře, časoměrné systémy
+ *   zvony             — zvony soběslavské věže a zvonařská expozice
  *
  * Kronika má vlastní landing /kronika/index.astro (chronologický feed).
  * Hodináři jsou cross-cut na /hodinari/.
@@ -83,5 +84,15 @@ export const kategorie: Record<string, KategorieMeta> = {
       'Téma času. Římský kalendář, časová pásma, 12 vs 24 hodinové dělení dne, kvalifikované časové razítko, ' +
       'literatura. Co je čas a jak ho měříme.',
     featuredSlugs: ['mereni_casu', 'kalendar_rimsky', 'casova_pasma', '12_24'],
+  },
+  zvony: {
+    slug: 'zvony',
+    jmeno: 'Zvony',
+    podnadpis: 'Zvonařská expozice Věžního muzejíčka',
+    intro:
+      'Zvony soběslavské věže a zvonařská expozice Věžního muzejíčka — nalezené kování, závěsy a licí ' +
+      'formy i nové odlitky zvonařství Votruba. Historie zvonů, jejich rekvírování i současné odlévání ' +
+      '(zvon Petr Vok, 2012).',
+    featuredSlugs: ['zvony-uvod', 'prehled-zvonu', 'zvon-petr-pavel', 'zvon-petr-vok'],
   },
 };

@@ -8,7 +8,7 @@ import { clanekHref } from '../../data/url-helpers';
 import type { CatalogEntry as Entry } from '../../data/catalog-types';
 
 export async function getStaticPaths() {
-  // 5 zbývajících hlavních kategorií taxonomie 2026-04. Sbírka má vlastní
+  // 6 zbývajících hlavních kategorií taxonomie 2026-04. Sbírka má vlastní
   // override v pages/sbirka/index.astro (2 sekce: karty + vázané články).
   // Kronika a hodinari mají vlastní pages mimo [kategorie] dynamic.
   return [
@@ -17,6 +17,7 @@ export async function getStaticPaths() {
     { params: { kategorie: 'virtualni-muzeum' } },
     { params: { kategorie: 'muzea' } },
     { params: { kategorie: 'zajimavosti' } },
+    { params: { kategorie: 'zvony' } },
   ];
 }
 

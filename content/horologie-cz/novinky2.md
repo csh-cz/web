@@ -34,11 +34,11 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 29\. 4. 2012 Věžní muzejíčko - [restaurování barokního "ministroje" stroje](/sbirka/karta/inv-3-barokni-ministroj-18-stol) z kostela ve Zlatých horách
 - 29\. 4. 2012 Věžní muzejíčko - Příprava sezóna 2012 - [výstava fotografií známých zvonů](/kronika/sezona2012-foto-marusak). Plánovaná výstava [steapunkových šperků](https://hodinarium-eu.pages.dev/kronika/steampunk).
 
-- 30.10.2011 [Odlévání zvonu Petr Vok](/sbirka/zvon-petr-vok)
+- 30.10.2011 [Odlévání zvonu Petr Vok](https://hodinarium-eu.pages.dev/zvony/zvon-petr-vok)
 - 9\. 8. 2011 Soběslavské hodiny - [co se píše v archivech](https://hodinarium-eu.pages.dev/kronika/sobeslav2b) a [od historie k hypotézám](https://hodinarium-eu.pages.dev/kronika/sobeslav2c)
-- 3\. 8. 2011 [Zvonařská expozice](/sbirka/zvony-uvod)
-- 31\. 7. 2011 [Stránky o technologii výroby zvonů](/sbirka/zvony-vyroba)
-- 31\. 7. 2011 Krátký [popis zvonu Petr a Pavel](/sbirka/zvon-petr-pavel) v soběslavské věži
+- 3\. 8. 2011 [Zvonařská expozice](https://hodinarium-eu.pages.dev/zvony/zvony-uvod)
+- 31\. 7. 2011 [Stránky o technologii výroby zvonů](https://hodinarium-eu.pages.dev/konstrukce/zvony-vyroba)
+- 31\. 7. 2011 Krátký [popis zvonu Petr a Pavel](https://hodinarium-eu.pages.dev/zvony/zvon-petr-pavel) v soběslavské věži
 - 28\. 7. 2011 [Provozní informace](/kronika/vez-provoz2011) pro rok 2011
 - 28\. 7. 2011 Přepracována [úvodní stránka Věžního muzejíča](/kronika/vezni-muzejicko)
 - 27\. 7. 2011 Provedena větší úprava zejména proto, že byly doplněny nové fotografie
