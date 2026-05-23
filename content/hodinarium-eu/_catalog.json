@@ -6132,23 +6132,6 @@
     ]
   },
   {
-    "slug": "inv-75-soubor-malych-slunecnich-hodin",
-    "title": "Soubor malých slunečních hodin",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-1-hlavni",
-      "slunecni",
-      "funkcni"
-    ]
-  },
-  {
     "slug": "inv-38-soucast-veznich-hodin",
     "title": "součást věžních hodin",
     "category": "sbirka",
@@ -6712,25 +6695,6 @@
     "wordCount": 11,
     "tags": [
       "vitrina-1-vedlejsi"
-    ]
-  },
-  {
-    "slug": "inv-144-synchronni-datumatic",
-    "title": "Synchronní Datumatic",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": "/img/datumatic/foto_0003.jpg",
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 3,
-    "wordCount": 0,
-    "vyrobce": "Datumatic",
-    "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni",
-      "datumatic",
-      "sitovky"
     ]
   },
   {
