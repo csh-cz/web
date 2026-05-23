@@ -26,7 +26,7 @@ tags:
 karta:
   inventarniCislo: "P503"
   umisteni: "Panel 5"
-  vyrobce: "Bodet"
+  vyrobce: "Petr Král"
   pridanoDoSbirky: "2020"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

@@ -14,6 +14,8 @@ tags:
 karta:
   inventarniCislo: "P512"
   umisteni: "Panel 5"
+  stav: "funkční"
+  vyrobce: "Český spolek horologický"
 ---
 
 ## Stub karty
