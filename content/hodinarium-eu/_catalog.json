@@ -5013,49 +5013,11 @@
     ]
   },
   {
-    "slug": "inv-227-podruzny-stroj-elektrocas-maly",
-    "title": "Podružný stroj Elektročas malý",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": "/img/elektrika/slava.jpg",
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 3,
-    "wordCount": 0,
-    "vyrobce": "Elektročas",
-    "tags": [
-      "vitrina-3-vedlejsi",
-      "funkcni",
-      "elektrocas",
-      "jednotny-cas"
-    ]
-  },
-  {
     "slug": "inv-198-podruzny-stroj-pragotron-maly",
     "title": "Podružný stroj Pragotron malý",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": "/img/pragotron/PPH 413 ZEZADU.jpg",
-    "excerpt": "",
-    "year": 2030,
-    "lastModified": null,
-    "imageCount": 6,
-    "wordCount": 0,
-    "vyrobce": "Pragotron",
-    "tags": [
-      "vitrina-2-vedlejsi",
-      "funkcni",
-      "pragotron",
-      "jednotny-cas"
-    ]
-  },
-  {
-    "slug": "inv-199-podruzny-stroj-pragotron-maly",
-    "title": "Podružný stroj Pragotron malý",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": "/img/pragotron/C 301.jpg",
     "excerpt": "",
     "year": 2030,
     "lastModified": null,
