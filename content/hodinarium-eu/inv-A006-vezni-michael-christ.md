@@ -31,8 +31,6 @@ karta:
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
-  extra:
-    - { label: "Poznámka", value: "kostel Horní Prysk" }
   krokJicihoStroje: "kotvový krok"
   adaptaceProVystavu: "Stroj byl pro účely vystavení restaurován, doplněny četné chybějící prvky (např. větrníky s rohatkami) a opatřen náhradním kyvadlem."
   puvodniUmisteni:
