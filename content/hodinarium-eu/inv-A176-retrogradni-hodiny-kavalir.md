@@ -40,7 +40,7 @@ Slovem **chronulátor** se označují hodiny, které čas ukazují pomocí soust
 
 ## Konstrukce Kavalír
 
-Pro Hodinárium zkonstruoval [Kavalír](/hodinari/kavalir) **[retrográdní](/kroky/retrogradni-zobrazovani)** hodiny z voltmetrů pocházejících z aukce na Aukru — jde o měřidla ze sovětského servisního přístroje asi z padesátých let. Díky pěti voltmetrům mohou ukazovat mnohem více údajů. Voltmetry byly doplněny ovládací elektronikou s mikroprocesorem a namontovány do nové skříně. První voltmetr ukazuje den v týdnu, druhý hodiny, třetí minuty, čtvrtý sekundy a poslední teplotu.
+Pro Hodinárium zkonstruoval [Jaroslav Kavalír](/hodinari/jaroslav-kavalir) **[retrográdní](/kroky/retrogradni-zobrazovani)** hodiny z voltmetrů pocházejících z aukce na Aukru — jde o měřidla ze sovětského servisního přístroje asi z padesátých let. Díky pěti voltmetrům mohou ukazovat mnohem více údajů. Voltmetry byly doplněny ovládací elektronikou s mikroprocesorem a namontovány do nové skříně. První voltmetr ukazuje den v týdnu, druhý hodiny, třetí minuty, čtvrtý sekundy a poslední teplotu.
 
 ![Pět voltmetrů — den, hodiny, minuty, sekundy, teplota](/img/decin/chronulator/ret5.jpg)
 
