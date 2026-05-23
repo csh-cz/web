@@ -22,7 +22,7 @@ tags:
 karta:
   inventarniCislo: "P514"
   umisteni: "Panel 5"
-  vyrobce: "IBM International"
+  vyrobce: "Český spolek horologický"
   pridanoDoSbirky: "2017"
   stav: "funkční"
 ---

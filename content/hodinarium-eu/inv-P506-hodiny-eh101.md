@@ -14,6 +14,8 @@ tags:
 karta:
   inventarniCislo: "P506"
   umisteni: "Panel 5"
+  stav: "funkční"
+  vyrobce: "Miroslav Baudisch"
 ---
 
 ## Stub karty

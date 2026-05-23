@@ -14,7 +14,8 @@ tags:
 karta:
   inventarniCislo: "P508"
   umisteni: "Panel 5"
-  stav: "MKT"
+  vyrobce: "Petr Král"
+  stav: "funkční"
 ---
 
 ## Stub karty

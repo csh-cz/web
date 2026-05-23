@@ -14,6 +14,8 @@ tags:
 karta:
   inventarniCislo: "P513"
   umisteni: "Panel 5"
+  stav: "funkční"
+  vyrobce: "Český spolek horologický"
 ---
 
 ## Stub karty

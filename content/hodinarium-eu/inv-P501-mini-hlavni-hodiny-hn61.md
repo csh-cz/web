@@ -14,6 +14,8 @@ tags:
 karta:
   inventarniCislo: "P501"
   umisteni: "Panel 5"
+  stav: "funkční"
+  vyrobce: "Elekon"
 ---
 
 ## Stub karty

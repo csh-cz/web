@@ -14,7 +14,8 @@ tags:
 karta:
   inventarniCislo: "P509"
   umisteni: "Panel 5"
-  stav: "vzorek"
+  vyrobce: "Anděl"
+  stav: "nefunkční"
 ---
 
 ## Stub karty
