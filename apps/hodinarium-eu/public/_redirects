@@ -114,6 +114,7 @@
 /sbirka/karta/inv-232-podruzny-stroj-pragotron-maly /sbirka/katalog 301
 /sbirka/karta/inv-199-podruzny-stroj-pragotron-maly /sbirka/katalog 301
 /sbirka/karta/inv-227-podruzny-stroj-elektrocas-maly /sbirka/katalog 301
+/sbirka/karta/inv-127-podruzne-hodiny-pragotron /sbirka/katalog 301
 
 # === Legacy *.htm → 404 (pre-launch, žádná SEO kontinuita) ===
 /*.htm /404 404
