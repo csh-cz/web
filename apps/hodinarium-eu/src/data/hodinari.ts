@@ -1066,12 +1066,11 @@ export const hodinari: Hodinar[] = [
     mesto: 'Schwenningen (Schwarzwald)',
     zeme: 'DE',
     shrnuti:
-      'Tradiční německá hodinářská firma založená v roce **1822 ve Schwenningenu** (Schwarzwald). V meziválečné době byla jednou z největších evropských výroben hodin se silnou exportní orientací. Vyráběla budíky, nástěnné hodiny, kuchyňské „nakopávací" stroje (kick-rewind) i synchronní hodiny. V Hodináriu jsou [hodiny Kienzle (inv. 91)](/sbirka/karta/inv-P107-hodiny-kienzle/) a [bateriové Kienzle (inv. 148)](/sbirka/karta/inv-148-bateriove-kienzle/).',
+      'Tradiční německá hodinářská firma založená v roce **1822 ve Schwenningenu** (Schwarzwald). V meziválečné době byla jednou z největších evropských výroben hodin se silnou exportní orientací. Vyráběla budíky, nástěnné hodiny, kuchyňské „nakopávací" stroje (kick-rewind) i synchronní hodiny. V Hodináriu jsou [hodiny Kienzle (inv. 91)](/sbirka/karta/inv-P107-hodiny-kienzle/).',
     relatedSlugs: [
       'hodinky-12-24-ciferniku',
       'budiky2',
       'elektricke1',
-      'inv-148-bateriove-kienzle',
       'inv-P106-maticni-ericsson',
       'inv-P107-hodiny-kienzle',
       'laplace',

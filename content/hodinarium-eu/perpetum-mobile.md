@@ -7,8 +7,6 @@ originalUrl: "https://hodinarium.eu/perpetum_mobile.htm"
 lastModified: "Mon, 24 Apr 2017 20:52:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:03.155Z"
-relatedKarty:
-  - inv-148-bateriove-kienzle
 tldr: 'Konstrukce poháněné okolními zdroji energie — Atmos využívající změny tlaku a teploty, Kienzle Heliomat s fotovoltaickým článkem, demonstrační hodiny se Stirlingovým motorem.'
 ---
 V současné době je snaha vyrábět čím dál zelenější energii. Energii z větru, z biomasy (tedy také z větrů ???), ze slunečního svitu, z příboje, prostě z kdečeho. Trochu se při tom zapomíná na porovnání množství takto vyrobené energie k celkové spotřebě a na další negativní vlivy. Hodiny ovšem mají spotřebu energie poměrně malou, a proto pokusy o sestrojení hodin připomínající perpetum mobile jsou tady již dlouho. Existují či existovaly hodiny natahované průvanem, hodiny natahované změnou teploty či změnou tlaku vzduchu. Hodiny, které si sami přeměňují jiný druh energie.
