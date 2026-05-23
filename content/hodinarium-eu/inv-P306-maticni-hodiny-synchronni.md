@@ -14,6 +14,7 @@ tags:
 karta:
   inventarniCislo: "P306"
   umisteni: "Panel 3"
+  vyrobce: "Siemens"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
 ---

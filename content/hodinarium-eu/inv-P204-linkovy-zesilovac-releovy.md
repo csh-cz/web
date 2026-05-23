@@ -14,6 +14,7 @@ tags:
 karta:
   inventarniCislo: "P204"
   umisteni: "Panel 2"
+  vyrobce: "Pragotron"
   stav: "funkční"
 ---
 
