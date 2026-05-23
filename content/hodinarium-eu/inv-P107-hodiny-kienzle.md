@@ -14,7 +14,8 @@ tags:
 karta:
   inventarniCislo: "P107"
   umisteni: "Panel 1"
-  stav: "kyvadlové"
+  vyrobce: "Kienzle"
+  stav: "funkční"
 ---
 
 ## Stub karty
