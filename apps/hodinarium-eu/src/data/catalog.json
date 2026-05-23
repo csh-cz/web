@@ -2025,24 +2025,6 @@
     ]
   },
   {
-    "slug": "kavalir",
-    "title": "Hodiny Kavalír",
-    "category": "virtualni-muzeum",
-    "thumbnail": null,
-    "excerpt": "Více na www.kavalir.cz/hodiny",
-    "year": null,
-    "lastModified": "2017-04-26T14:10:00.000Z",
-    "imageCount": 0,
-    "wordCount": 43,
-    "tags": [
-      "kuriozita",
-      "stolni",
-      "kyvadlo",
-      "mechanicke",
-      "2000s"
-    ]
-  },
-  {
     "slug": "inv-P107-hodiny-kienzle",
     "title": "Hodiny Kienzle",
     "category": "sbirka",
@@ -5638,11 +5620,11 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Skeletové kyvadlové hodiny CHRONO z nerezové oceli. Výrobce Ing. Jaroslav Kavalír, design Pavel Hrubý. Konstrukce záměrně podtrhuje viditelnou jednoduchost mechanismu a eleganci použitého materiálu.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
+    "wordCount": 27,
     "vyrobce": "Kavalír",
     "tags": [
       "hlavni-sal",
