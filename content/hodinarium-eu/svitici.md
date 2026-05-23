@@ -7,8 +7,6 @@ originalUrl: "https://hodinarium.eu/svitici.htm"
 lastModified: "Wed, 26 Apr 2017 14:10:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:00.055Z"
-relatedKarty:
-  - inv-146-synchronni-stolni-sklenene
 tldr: 'Přehled způsobů osvětlení hodin od plynového podsvícení číselníků pražského orloje a Big Benu přes vnitřní a vnější reflektory věžních hodin až po autohodiny, noční budíky a Art Deco lampy.'
 ---
 ![massive](/img/elektrika/svitici/svitici2.jpg)

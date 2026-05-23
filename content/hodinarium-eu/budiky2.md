@@ -7,8 +7,6 @@ originalUrl: "https://hodinarium.eu/budiky2.htm"
 lastModified: "Wed, 26 Apr 2017 13:46:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:51.122Z"
-relatedKarty:
-  - inv-148-bateriove-kienzle
 tags:
   - budik
   - nastenne
