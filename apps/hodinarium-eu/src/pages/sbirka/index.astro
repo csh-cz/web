@@ -5,6 +5,7 @@ import Card from '../../components/Card.astro';
 import catalog from '../../data/catalog.json';
 import { kategorie as catMeta } from '../../data/kategorie';
 import { clanekHref } from '../../data/url-helpers';
+import { typTiles, groupLabels, type TypTile } from '../../data/sbirka-typy';
 
 import type { CatalogEntry as Entry } from '../../data/catalog-types';
 import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
@@ -45,53 +46,16 @@ const featuredArticles = featuredArticleSlugs
   .filter((c): c is Entry => Boolean(c));
 
 // ─── ROZCESTNÍK TYPŮ ───────────────────────────────────────────
-// Spočítáme počet entries v každém typu z `tags` field collection.
-// Dlaždice s count > 0 jsou klikatelné, s 0 jsou tlumené (placeholder).
-//
-// URL zatím vede na /tagy/<typ> (existující tag filter). Ve fázi 2
-// nahradíme za dedikovaný /sbirka/<typ>/ atlas s faceted filtry.
-interface TypTile {
-  tag: string;
-  label: string;
-  icon: string;
-  popis: string;
-  group: 'mech' | 'el' | 'spec';
-}
-// icon = Font Awesome class string (per memory feedback_ikony_font_awesome).
-// Renderuje se v template přes <i class={t.icon}>. Emoji glyphy zakázány.
-const typTiles: TypTile[] = [
-  // Mechanické hodiny
-  { tag: 'vezni',        label: 'Věžní a fasádní',     icon: 'fa-solid fa-tower-observation', popis: 'Velké stroje z věží kostelů, radnic, zámků a továren.',     group: 'mech' },
-  { tag: 'nastenne',     label: 'Nástěnné',            icon: 'fa-solid fa-clock',             popis: 'Švarcvaldky, comtoázky, regulátory a další nástěnky.',     group: 'mech' },
-  { tag: 'stolni',       label: 'Stolní',              icon: 'fa-solid fa-clock',             popis: 'Stolní, krbové a podlahové hodiny pro domácí prostředí.',   group: 'mech' },
-  { tag: 'kapesni',      label: 'Kapesní',             icon: 'fa-regular fa-clock',           popis: 'Kapesní hodinky a chronometry.',                            group: 'mech' },
-  { tag: 'naramkove',    label: 'Náramkové',           icon: 'fa-solid fa-stopwatch',         popis: 'Mechanické a kvarcové náramkovky.',                         group: 'mech' },
-  { tag: 'budik',        label: 'Budíky',              icon: 'fa-solid fa-bell',              popis: 'Mechanické a elektromechanické budíky.',                    group: 'mech' },
-  { tag: 'decimalka',    label: 'Decimálky',           icon: 'fa-solid fa-table-cells',       popis: 'Decimální (dělení dne na 10 hodin) — vzácné.',              group: 'mech' },
-  // Elektrické hodiny
-  { tag: 'sitovky',      label: 'Síťovky',             icon: 'fa-solid fa-plug',              popis: 'Synchronní motorové hodiny řízené 50 Hz síťovou frekvencí.', group: 'el' },
-  { tag: 'jednotny-cas', label: 'Jednotný čas',        icon: 'fa-solid fa-network-wired',     popis: 'Mateřní + podružné systémy — kostelní, nádražní, tovární.', group: 'el' },
-  { tag: 'pichacky',     label: 'Píchací (docházkové)', icon: 'fa-solid fa-business-time',    popis: 'Docházkové hodiny pro evidenci pracovní doby.',             group: 'el' },
-  { tag: 'digi',         label: 'Digitálky',           icon: 'fa-solid fa-microchip',         popis: 'Mechanické i elektronické digitální (LCD, LED, flip-clock).', group: 'el' },
-  { tag: 'atomove',      label: 'Atomové',             icon: 'fa-solid fa-atom',              popis: 'Cesiové standardy, GPS-disciplinovaný čas, NTP.',           group: 'el' },
-  // Speciální
-  { tag: 'slunecni',     label: 'Sluneční',            icon: 'fa-solid fa-sun',               popis: 'Sluneční hodiny — stěnové, vodorovné, polární.',            group: 'spec' },
-  { tag: 'vodni',        label: 'Vodní',               icon: 'fa-solid fa-droplet',           popis: 'Vodní hodiny (klepsydry).',                                 group: 'spec' },
-  { tag: 'pisecne',      label: 'Písečné',             icon: 'fa-solid fa-hourglass-half',    popis: 'Přesýpací hodiny.',                                         group: 'spec' },
-  { tag: 'kvetinove',    label: 'Květinové',           icon: 'fa-solid fa-seedling',          popis: 'Květinové hodiny v parcích — Karlovy Vary, Poděbrady.',     group: 'spec' },
-];
-
-// Spočítej výskyty každého typu napříč sbírkovými entries
+// Dlaždice typů (sdílené s /sbirka/typ/[tag]) — viz data/sbirka-typy.ts.
+// Počet = sbírkové KARTY (podsekce=karta) s daným tagem. Klik vede na
+// /sbirka/typ/<tag>/ — jen exponáty sbírky Hodinária, NE články ani
+// obsah z virtuálního muzea / dalších sekcí. Dlaždice s count 0 jsou
+// tlumené (placeholder).
+const kartaEntries = sbirkaEntries.filter((e) => e.data.podsekce === 'karta');
 function countTag(tag: string): number {
-  return sbirkaEntries.filter((e) => (e.data.tags ?? []).includes(tag)).length;
+  return kartaEntries.filter((e) => (e.data.tags ?? []).includes(tag)).length;
 }
 const typTilesWithCount = typTiles.map((t) => ({ ...t, count: countTag(t.tag) }));
-
-const groupLabels: Record<TypTile['group'], string> = {
-  mech: 'Mechanické hodiny',
-  el: 'Elektrické hodiny',
-  spec: 'Speciální časoměrné systémy',
-};
 const groupedTiles: Record<TypTile['group'], typeof typTilesWithCount> = {
   mech: typTilesWithCount.filter((t) => t.group === 'mech'),
   el: typTilesWithCount.filter((t) => t.group === 'el'),
@@ -124,8 +88,7 @@ const groupedTiles: Record<TypTile['group'], typeof typTilesWithCount> = {
       <h2 id="typy-heading" class="section-h">Typy hodin ve sbírce</h2>
       <p class="section-intro mt-3">
         Sbírka rozčleněná podle hlavního typu časoměrného principu.
-        Klik na dlaždici otevře tagovaný atlas — všechny exponáty
-        a články daného typu pohromadě.
+        Klik na dlaždici otevře exponáty daného typu ze sbírky Hodinária.
       </p>
     </header>
 
@@ -135,7 +98,7 @@ const groupedTiles: Record<TypTile['group'], typeof typTilesWithCount> = {
         <div class="typ-grid">
           {groupedTiles[g].map((t) => (
             t.count > 0 ? (
-              <a href={`/tagy/${t.tag}`} class="typ-tile">
+              <a href={`/sbirka/typ/${t.tag}/`} class="typ-tile">
                 <div class="typ-tile-icon" aria-hidden="true"><i class={t.icon}></i></div>
                 <h4 class="typ-tile-label">{t.label}</h4>
                 <p class="typ-tile-popis">{t.popis}</p>
