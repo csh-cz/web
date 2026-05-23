@@ -14,7 +14,6 @@ tags:
 karta:
   inventarniCislo: "P206"
   umisteni: "Panel 2"
-  vyrobce: "Petr Král"
   stav: "funkční"
 ---
 

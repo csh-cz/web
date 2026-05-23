@@ -15,7 +15,6 @@ karta:
   inventarniCislo: "P511"
   umisteni: "Panel 5"
   stav: "funkční"
-  vyrobce: "David Knespl"
 ---
 
 ## Stub karty

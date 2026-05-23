@@ -17,7 +17,6 @@ tags:
 karta:
   inventarniCislo: "P208"
   umisteni: "Panel 2"
-  vyrobce: "Petr Král"
   pridanoDoSbirky: "2020"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

@@ -31,7 +31,7 @@ tags:
 karta:
   inventarniCislo: "P502"
   umisteni: "Panel 5"
-  vyrobce: "Elekon"
+  vyrobce: "Mobatime"
   pridanoDoSbirky: "2020"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

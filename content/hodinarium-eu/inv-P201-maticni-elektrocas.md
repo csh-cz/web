@@ -17,7 +17,7 @@ tags:
 karta:
   inventarniCislo: "P201"
   umisteni: "Panel 2"
-  vyrobce: "Petr Král"
+  vyrobce: "Elektročas"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

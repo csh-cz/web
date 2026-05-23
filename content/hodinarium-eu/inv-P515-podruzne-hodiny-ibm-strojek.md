@@ -20,7 +20,7 @@ tags:
 karta:
   inventarniCislo: "P515"
   umisteni: "Panel 5"
-  vyrobce: "IBM International"
+  vyrobce: "IBM"
 ---
 
 Podružný strojek hodin IBM se samočinnou regulací odchylek (kotva elektromagnetu, rohatkové kolo a dvojice vaček přepínajících vodiče A/B). Podrobný popis konstrukce a funkce viz článek [Třídrátový rozvod IBM](/konstrukce/tridratovy-rozvod-ibm); souvisí s [podružnými hodinami IBM](/sbirka/karta/inv-P514-podruzne-hodiny-ibm).

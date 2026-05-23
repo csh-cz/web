@@ -14,7 +14,6 @@ tags:
 karta:
   inventarniCislo: "P509"
   umisteni: "Panel 5"
-  vyrobce: "Anděl"
   stav: "nefunkční"
 ---
 

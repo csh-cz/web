@@ -15,7 +15,7 @@ karta:
   inventarniCislo: "P403"
   umisteni: "Panel 4"
   stav: "funkční"
-  vyrobce: "Miroslav Baudisch"
+  vyrobce: "Pragotron"
 ---
 
 ## Stub karty

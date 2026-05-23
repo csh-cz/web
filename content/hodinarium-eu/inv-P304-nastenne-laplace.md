@@ -15,7 +15,7 @@ karta:
   inventarniCislo: "P304"
   umisteni: "Panel 3"
   vztahKeSbirce: "zápůjčka"
-  vyrobce: "Petr Král"
+  vyrobce: "Laplace"
   stav: "funkční"
 ---
 
