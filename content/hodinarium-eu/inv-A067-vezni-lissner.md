@@ -17,6 +17,7 @@ tags:
 karta:
   inventarniCislo: "A067"
   umisteni: "Hlavní sál"
+  vyrobce: "Johann Lissner"
   majitel: "zápůjčka"
   pridanoDoSbirky: "2025"
   stav: "funkční"

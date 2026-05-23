@@ -70,7 +70,7 @@ try {
 // zmrazila slug, ale popis se aktualizoval → kartaSlug() by netrefil).
 const kartaByInv = new Map<string, string[]>();
 for (const slug of existingKarty) {
-  const m = slug.match(/^inv-([0-9x]+)-/);
+  const m = slug.match(/^inv-([A-Za-z0-9]+)-/);
   if (m) {
     const arr = kartaByInv.get(m[1]) ?? [];
     arr.push(slug);

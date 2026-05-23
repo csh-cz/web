@@ -18,6 +18,7 @@ tags:
 karta:
   inventarniCislo: "A011"
   umisteni: "Hlavní sál"
+  vyrobce: "Johann Lissner"
   pridanoDoSbirky: "2016"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

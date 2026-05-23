@@ -17,6 +17,7 @@ tags:
 karta:
   inventarniCislo: "A033"
   umisteni: "Hlavní sál"
+  vyrobce: "Johann Lissner"
   pridanoDoSbirky: "2023"
   majitel: "zápůjčka"
   vztahKeSbirce: "dar"
