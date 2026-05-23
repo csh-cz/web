@@ -1202,7 +1202,6 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: [
       'o-hodinariu',
       'inv-A176-retrogradni-hodiny-kavalir',
-      'inv-A202-retrogradni-kavalir',
       'inv-243-zvoneni-kavalir',
       'inv-A054-skeletove-hodiny-kavalir',
       'inv-A064-mysteriozni-natahovani',
