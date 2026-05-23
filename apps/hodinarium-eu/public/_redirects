@@ -104,6 +104,8 @@
 /sbirka/mobatime /sbirka/karta/inv-P502-podruzne-hodiny-mobatime 301
 /sbirka/vez-kli /sbirka/karta/inv-4-vezni-18-stol 301
 /sbirka/podruzne-sekundove /sbirka/karta/inv-A201-podruzne-hodiny-s-vterinovkou 301
+/sbirka/karta/inv-144-synchronni-datumatic /konstrukce/datumatik 301
+/sbirka/karta/inv-75-soubor-malych-slunecnich-hodin /sbirka/katalog 301
 
 # === Legacy *.htm → 404 (pre-launch, žádná SEO kontinuita) ===
 /*.htm /404 404
