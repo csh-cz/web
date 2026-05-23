@@ -99,23 +99,6 @@
     ]
   },
   {
-    "slug": "akvizice-2015-2025",
-    "title": "Akvizice 2015–2025 — kronika přírůstků sbírky",
-    "category": "sbirka",
-    "thumbnail": "/img/decin/dalsi_stroje/Beitel2.jpg",
-    "excerpt": "Od založení expozice v roce 2015 se sbírka Hodinária postupně rozrůstá. Tento článek shrnuje, co kdy přibylo. Jednotlivé položky odkazují na karty v katalogu sbírky, kde je k dispozici více technických detailů.",
-    "year": 1931,
-    "lastModified": null,
-    "imageCount": 52,
-    "wordCount": 2086,
-    "tags": [
-      "akvizice",
-      "vezni",
-      "decin",
-      "historie-spolku"
-    ]
-  },
-  {
     "slug": "alzbeta",
     "title": "Alžběta - 14112 - hlášení přesného času",
     "category": "projekty",
@@ -8129,7 +8112,7 @@
   {
     "slug": "decin-zamek",
     "title": "Zámek Děčín",
-    "category": "sbirka",
+    "category": "muzea",
     "thumbnail": "/img/decin/zamek_decin.jpg",
     "excerpt": "Expozice časoměrných strojů sídlí na zámku Děčín. Zde uvádíme jen krátkou informaci o zámku. Ostatní najdete na stránkách zamekdecin.cz.",
     "year": 1711,
