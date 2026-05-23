@@ -458,8 +458,6 @@ export const hodinari: Hodinar[] = [
       'inv-A196-stopky-pragotron',
       'inv-198-podruzny-stroj-pragotron-maly',
       'inv-199-podruzny-stroj-pragotron-maly',
-      'inv-231-podruzny-stroj-pragotron-maly',
-      'inv-232-podruzny-stroj-pragotron-maly',
       'inv-A247-pragotron-c301',
       'jednotnycas',
       'mapa',

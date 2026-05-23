@@ -110,6 +110,8 @@
 /sbirka/karta/inv-113-eh40 /sbirka/katalog 301
 /sbirka/karta/inv-146-synchronni-stolni-sklenene /sbirka/katalog 301
 /sbirka/karta/inv-148-bateriove-kienzle /sbirka/katalog 301
+/sbirka/karta/inv-231-podruzny-stroj-pragotron-maly /sbirka/katalog 301
+/sbirka/karta/inv-232-podruzny-stroj-pragotron-maly /sbirka/katalog 301
 
 # === Legacy *.htm → 404 (pre-launch, žádná SEO kontinuita) ===
 /*.htm /404 404
