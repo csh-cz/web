@@ -14,6 +14,8 @@ tags:
 karta:
   inventarniCislo: "P202"
   umisteni: "Panel 2"
+  vyrobce: "Petr Král"
+  stav: "funkční"
 ---
 
 ## Stub karty

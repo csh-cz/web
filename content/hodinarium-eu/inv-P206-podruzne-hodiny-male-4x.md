@@ -14,7 +14,8 @@ tags:
 karta:
   inventarniCislo: "P206"
   umisteni: "Panel 2"
-  stav: "Bakelitový kryt"
+  vyrobce: "Petr Král"
+  stav: "funkční"
 ---
 
 ## Stub karty
