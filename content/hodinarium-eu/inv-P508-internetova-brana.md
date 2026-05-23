@@ -14,7 +14,6 @@ tags:
 karta:
   inventarniCislo: "P508"
   umisteni: "Panel 5"
-  vyrobce: "Petr Král"
   stav: "funkční"
 ---
 

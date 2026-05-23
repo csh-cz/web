@@ -15,7 +15,6 @@ karta:
   inventarniCislo: "P306"
   umisteni: "Panel 3"
   vztahKeSbirce: "zápůjčka"
-  vyrobce: "Petr Král"
   stav: "funkční"
 ---
 

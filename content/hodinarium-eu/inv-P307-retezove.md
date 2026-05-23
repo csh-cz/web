@@ -16,7 +16,6 @@ karta:
   umisteni: "Panel 3"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
-  vyrobce: "Petr Král"
 ---
 
 ## Stub karty

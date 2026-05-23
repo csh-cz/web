@@ -16,7 +16,7 @@ karta:
   umisteni: "Panel 3"
   vztahKeSbirce: "dar"
   stav: "funkční"
-  vyrobce: "Český spolek horologický"
+  vyrobce: "Spar"
 ---
 
 ## Stub karty

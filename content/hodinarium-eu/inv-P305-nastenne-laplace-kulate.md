@@ -15,7 +15,7 @@ karta:
   inventarniCislo: "P305"
   umisteni: "Panel 3"
   vztahKeSbirce: "zápůjčka"
-  vyrobce: "Miroslav Baudisch"
+  vyrobce: "Laplace"
   stav: "funkční"
 ---
 

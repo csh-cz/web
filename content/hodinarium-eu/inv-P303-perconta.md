@@ -15,7 +15,7 @@ karta:
   inventarniCislo: "P303"
   umisteni: "Panel 3"
   vztahKeSbirce: "zápůjčka"
-  vyrobce: "Petr Král"
+  vyrobce: "Perconta"
   stav: "funkční"
 ---
 

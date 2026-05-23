@@ -14,6 +14,7 @@ tags:
 karta:
   inventarniCislo: "P405"
   umisteni: "Panel 4"
+  vyrobce: "Elektročas"
 ---
 
 ## Stub karty

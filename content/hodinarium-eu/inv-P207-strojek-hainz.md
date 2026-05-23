@@ -14,7 +14,7 @@ tags:
 karta:
   inventarniCislo: "P207"
   umisteni: "Panel 2"
-  vyrobce: "Petr Král"
+  vyrobce: "Hainz"
   stav: "funkční"
 ---
 

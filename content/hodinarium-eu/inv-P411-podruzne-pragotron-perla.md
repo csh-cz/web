@@ -18,7 +18,7 @@ tags:
 karta:
   inventarniCislo: "P411"
   umisteni: "Panel 4"
-  vyrobce: "Český spolek horologický"
+  vyrobce: "Pragotron"
   majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"

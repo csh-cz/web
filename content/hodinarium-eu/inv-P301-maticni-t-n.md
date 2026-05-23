@@ -16,7 +16,7 @@ karta:
   umisteni: "Panel 3"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
-  vyrobce: "Miroslav Baudisch"
+  vyrobce: "T&N"
 ---
 
 ## Stub karty

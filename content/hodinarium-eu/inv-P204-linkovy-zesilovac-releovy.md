@@ -14,7 +14,6 @@ tags:
 karta:
   inventarniCislo: "P204"
   umisteni: "Panel 2"
-  vyrobce: "Miroslav Baudisch"
   stav: "funkční"
 ---
 

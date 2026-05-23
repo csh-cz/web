@@ -15,7 +15,6 @@ karta:
   inventarniCislo: "P516"
   umisteni: "Panel 5"
   stav: "funkční"
-  vyrobce: "Petr Král"
 ---
 
 ## Stub karty

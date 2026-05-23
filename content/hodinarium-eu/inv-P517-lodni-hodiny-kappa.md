@@ -15,7 +15,7 @@ karta:
   inventarniCislo: "P517"
   umisteni: "Panel 5"
   stav: "funkční"
-  vyrobce: "Petr Král"
+  vyrobce: "Kappa"
 ---
 
 ## Stub karty
