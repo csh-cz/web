@@ -102,6 +102,7 @@
 /sbirka/decin-flatbed /sbirka/karta/inv-14-vezni-hodiny-paul-zieux 301
 /sbirka/decin-velika-ves /sbirka/karta/inv-27-vezni-velka-ves 301
 /sbirka/mobatime /sbirka/karta/inv-P502-podruzne-hodiny-mobatime 301
+/sbirka/vez-kli /sbirka/karta/inv-4-vezni-18-stol 301
 
 # === Legacy *.htm → 404 (pre-launch, žádná SEO kontinuita) ===
 /*.htm /404 404

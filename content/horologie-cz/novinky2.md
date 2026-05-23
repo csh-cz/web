@@ -27,7 +27,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 8\. 4. 2013 Fotogalerie [Mindelheim](https://hodinarium-eu.pages.dev/muzea/mindelheim)
 - 2\. 3. 2013 [Sezóna 2013](https://hodinarium-eu.pages.dev/kronika/sezona2013)
 - 20\. 2. 2013 [Osvobozování Fausta](https://hodinarium-eu.pages.dev/kronika/faust)
-- 11\. 2. 2013 [Přírůstek Věžního muzejíčka - špindlový věžní stroj](/sbirka/vez-kli)
+- 11\. 2. 2013 [Přírůstek Věžního muzejíčka - špindlový věžní stroj](https://hodinarium-eu.pages.dev/sbirka/karta/inv-4-vezni-18-stol)
 
 - 21\. 7. 2012 Kalendářní hodiny [Datumatic](https://hodinarium-eu.pages.dev/konstrukce/datumatik)
 - 16\. 5. 2012 Věžní muzejíčko - [restaurování stroje](/sbirka/karta/inv-6-vezni-michael-christ) z kostela Horní Prysk
