@@ -14,7 +14,8 @@ tags:
 karta:
   inventarniCislo: "P205"
   umisteni: "Panel 2"
-  stav: "Pragotron"
+  vyrobce: "Petr Král"
+  stav: "funkční"
 ---
 
 ## Stub karty

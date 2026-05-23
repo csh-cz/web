@@ -14,7 +14,8 @@ tags:
 karta:
   inventarniCislo: "P204"
   umisteni: "Panel 2"
-  stav: "Pragotron"
+  vyrobce: "Miroslav Baudisch"
+  stav: "funkční"
 ---
 
 ## Stub karty
