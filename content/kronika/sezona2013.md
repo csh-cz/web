@@ -21,7 +21,7 @@ Bohužel některé loňské exponáty již v expozici nebudou. To se týká repl
 - [starý soběslavský stroj](/kronika/vez1), "čtvrtek" ([bicí stroj](/slovnik/bici-stroj) jednotlivých čtvrtí), ručkové převody
 - současný věžní stroj [Elektročas 1959](/virtualni-muzeum/vez-elektrocas1959)
 - [barokní věžní ministroj snad z 18 století](/sbirka/karta/inv-3-barokni-ministroj-18-stol)
-- [barokní špindlový stroj](/sbirka/vez-kli) věžních hodin
+- [barokní špindlový stroj](/sbirka/karta/inv-4-vezni-18-stol) věžních hodin
 - barokní špindlový [stroj věžních hodin z obce Budislav](/sbirka/karta/inv-5-vezni-18-stol-spindl)
 - [stroj věžních hodin 1884 - Podmokly](/sbirka/karta/inv-1-vezni-hiemann-1884)
 - soustrojí [Prokeš 1868](/sbirka/karta/inv-2-vezni-prokes-1868-soubor) za zámku Býchory včetně cimbálů a zvonícího stroje
