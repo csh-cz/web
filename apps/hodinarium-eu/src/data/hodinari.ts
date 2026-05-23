@@ -941,7 +941,7 @@ export const hodinari: Hodinar[] = [
       'panel-3-laplace-tn-burk',
       'panel-4-pragotron',
       'panel-5-dcf-gps-ntp',
-      'podruzne-sekundove',
+      'inv-A201-podruzne-hodiny-s-vterinovkou',
       'inv-6-vezni-michael-christ',
     ],
     era: 'soucasnost',
