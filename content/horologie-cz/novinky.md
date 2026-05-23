@@ -52,7 +52,7 @@ Stará stránka je zde.
 - 20\. 4. 2020 [Nocturnal](https://hodinarium-eu.pages.dev/konstrukce/nocturnal)
 - 19\. 4. 2020 [Kalendářní kopmlikace u hodinek Orient a Raketa](https://hodinarium-eu.pages.dev/projekty/orient)
 - 16\. 4. 2020 [Astronomické a pásmové hodiny Staiger](/projekty/staiger)
-- 26\. 3. 2020 [Podružné hodiny s vteřinovkou](/sbirka/podruzne-sekundove)
+- 26\. 3. 2020 [Podružné hodiny s vteřinovkou](https://hodinarium-eu.pages.dev/sbirka/karta/inv-A201-podruzne-hodiny-s-vterinovkou)
 - 14\. 3. 2020 Rozšířené stránky o květinovývh hodinách [Nové Město nad Mětuí](/virtualni-muzeum/kvetinovehodiny-nove-mesto-nad-metuji) a [zaniklé hodiny Chomuto](/virtualni-muzeum/kvetinovehodiny-chomutov)v (Dle Libora Hovorky)
 
 - 21.12. 2019 [Stolní podružné hodiny od firmy Jednotný čas.](/konstrukce/podruzne-hodiny)
