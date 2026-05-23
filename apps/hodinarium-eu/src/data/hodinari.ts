@@ -1224,7 +1224,7 @@ export const hodinari: Hodinar[] = [
       'o-hodinariu',
       'inv-P501-mini-hlavni-hodiny-hn61',
       'inv-P502-podruzne-hodiny-mobatime',
-      'inv-x13-hodiny-hn350',
+      'inv-P505-hodiny-hn350',
       'jednotnycas',
       'kvetinovehodiny-nove-mesto-nad-metuji',
       'mobatime',
