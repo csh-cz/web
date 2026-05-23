@@ -10,7 +10,7 @@ lastModified: "Sat, 22 Apr 2017 22:35:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:13.007Z"
 ---
-Hodinárium navštívil fotograf a zachytil nové přírůstky věžních strojů, vznikající expozici elektrických hodin i drobné kolekce hodin slunečních a mechanických digitálek. Z fotografií také bude vytvořena nová propagační skládačka. Je vidět, že počet věžních hodinových strojů od založení expozice se podstatně rozšířil a ještě se další významné přírůstky připravují. Asi nejdůležitější je kovaný špindlový [čtvrťový stroj](/slovnik/ctvrtove-biti) [Wenzel Mellner](/sbirka/karta/inv-13-vezni-wenzel-mellner) a stroj s plochým postelovým" rámem [Paul Zieux](/sbirka/karta/inv-14-vezni-hodiny-paul-zieux). Nových strojů je však více. Proto neváhejte a brzo nás navštivte. Aktuální dění můžete sledovat na facebooku.
+Hodinárium navštívil fotograf a zachytil nové přírůstky věžních strojů, vznikající expozici elektrických hodin i drobné kolekce hodin slunečních a mechanických digitálek. Z fotografií také bude vytvořena nová propagační skládačka. Je vidět, že počet věžních hodinových strojů od založení expozice se podstatně rozšířil a ještě se další významné přírůstky připravují. Asi nejdůležitější je kovaný špindlový [čtvrťový stroj](/slovnik/ctvrtove-biti) [Wenzel Mellner](/sbirka/karta/inv-A013-vezni-wenzel-mellner) a stroj s plochým postelovým" rámem [Paul Zieux](/sbirka/karta/inv-A014-vezni-hodiny-paul-zieux). Nových strojů je však více. Proto neváhejte a brzo nás navštivte. Aktuální dění můžete sledovat na facebooku.
 
 ![ilustrační obrázek](/img/decin/foto201703/f/foto_0001.jpg)
 

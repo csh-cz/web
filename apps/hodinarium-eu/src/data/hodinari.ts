@@ -94,10 +94,10 @@ export const hodinari: Hodinar[] = [
     shrnuti:
       'Sobotský hodinářský mistr 19. století. Tvůrce velkého věžního strojového kompletu z roku 1868 ze zámku Býchory s unikátním zvonícím strojem. V roce 1865 dodal modelové návrhy pro Pražský orloj. Z asi 400+ atribuovaných věžních hodin se dochovaly desítky exemplářů. V rodinné tradici pokračovali synové [Jan Prokeš ml.](/hodinari/jan-prokes-jr) (Kopidlno), [Leopold Prokeš](/hodinari/leopold-prokes) (Jičín) a [Josef Prokeš](/hodinari/josef-prokes) (Sobotka).',
     relatedSlugs: [
-      'inv-2-vezni-prokes-1868-soubor',
+      'inv-A002-vezni-prokes-1868-soubor',
       'decin-bici-stroje',
-      'inv-2-vezni-prokes-1868-soubor',
-      'inv-32-vezni-skalice',
+      'inv-A002-vezni-prokes-1868-soubor',
+      'inv-A032-vezni-skalice',
       'jubilejni-vystava-zemska-1891-hodinari',
       'kinsner-astronomicke-hodiny',
       'mapa',
@@ -167,7 +167,7 @@ export const hodinari: Hodinar[] = [
       'inv-P207-strojek-hainz',
       'inv-A234-podruzne-vezni-hainz',
       'inv-A257-nastenne-hainz',
-      'inv-30-vezni-polevsko-hainz',
+      'inv-A030-vezni-polevsko-hainz',
       'jednotnycas',
       'jubilejni-vystava-zemska-1891-hodinari',
       'mapa',
@@ -175,7 +175,7 @@ export const hodinari: Hodinar[] = [
       'prazsky-orloj-restaurovani-2018',
       'sobotecka-dilna-prokesova-robertuv-krok',
       'tabor',
-      'inv-5-vezni-18-stol-spindl',
+      'inv-A005-vezni-18-stol-spindl',
       'vez-elektrocas1959',
       'vez1',
       'zidovske',
@@ -192,7 +192,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'AT',
     shrnuti:
       'Vídeňský hodinář působící v XIII. okresu (Speising). Jeho stroje se vyznačují úsporným převodem na brzdící větrníky — bicí stroj má jen jedno kolo zabírající do šneku větrníku.',
-    relatedSlugs: ['akvizice-2015-2025', 'inv-8-vezni-r-liebing', 'janovice'],
+    relatedSlugs: ['akvizice-2015-2025', 'inv-A008-vezni-r-liebing', 'janovice'],
     era: 'prelom',
   },
   {
@@ -205,7 +205,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Moravský výrobce věžních hodin z meziválečného období. Mezi nejstaršími na Moravě, kdo doplňoval své stroje elektrickým nátahem. Jeho hodiny najdeme v kostelech v Brně, Bruntálu i na Slovensku.',
-    relatedSlugs: ['akvizice-2015-2025', 'inv-7-vezni-f-x-beitel'],
+    relatedSlugs: ['akvizice-2015-2025', 'inv-A007-vezni-f-x-beitel'],
     era: '20stol',
   },
   {
@@ -240,7 +240,7 @@ export const hodinari: Hodinar[] = [
       'decin-aktual0',
       'decin-galerie',
       'o-hodinariu',
-      'inv-41-hodiny-achrer',
+      'inv-A041-hodiny-achrer',
     ],
     era: '20stol',
   },
@@ -255,9 +255,9 @@ export const hodinari: Hodinar[] = [
     shrnuti:
       'Hodinář působící v barokní době, jehož signaturu nesou některé restaurátorské zásahy na starších věžních strojích. Spíše reparátor než původní konstruktér.',
     relatedSlugs: [
-      'inv-13-vezni-wenzel-mellner',
+      'inv-A013-vezni-wenzel-mellner',
       'decin-fotobrezen2017',
-      'inv-13-vezni-wenzel-mellner',
+      'inv-A013-vezni-wenzel-mellner',
       'mapa',
     ],
     era: 'baroko',
@@ -313,7 +313,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'DE',
     shrnuti:
       'Saský zámečník a výrobce věžních hodin. Vyrobil pouze přibližně 17 strojů, což z dochovaných exemplářů činí poměrně vzácné objekty.',
-    relatedSlugs: ['akvizice-2015-2025', 'inv-24-vezni-bassler'],
+    relatedSlugs: ['akvizice-2015-2025', 'inv-A024-vezni-bassler'],
     era: '19stol',
   },
   {
@@ -326,7 +326,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'FR',
     shrnuti:
       'Francouzský hodinář, autor věžního stroje s charakteristickým „flatbed" rámem (cca 1770). Jeho dílo dokládá francouzskou tradici hodinářství v pozdně barokní formě.',
-    relatedSlugs: ['decin-fotobrezen2017', 'inv-14-vezni-hodiny-paul-zieux'],
+    relatedSlugs: ['decin-fotobrezen2017', 'inv-A014-vezni-hodiny-paul-zieux'],
     era: 'baroko',
   },
   {
@@ -339,7 +339,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'SK',
     shrnuti:
       'Současný slovenský hodinář a řezbář. V roce 2015 vyrobil repliku dřevěných věžních hodin — kola, hřídele i části kroku jsou ze dřeva, ozubení tvoří ocelové věnce.',
-    relatedSlugs: ['akvizice-2015-2025', 'inv-21-vezni-drevene'],
+    relatedSlugs: ['akvizice-2015-2025', 'inv-A021-vezni-drevene'],
     era: 'soucasnost',
   },
   {
@@ -371,7 +371,7 @@ export const hodinari: Hodinar[] = [
       'akvizice-2015-2025',
       'podruzne-hodiny',
       'hainz-natahovani',
-      'inv-30-vezni-polevsko-hainz',
+      'inv-A030-vezni-polevsko-hainz',
       'jednotnycas',
       'jubilejni-vystava-zemska-1891-hodinari',
       'tabor',
@@ -417,11 +417,11 @@ export const hodinari: Hodinar[] = [
       'inv-A239-pichacky-elektrocas-dk6',
       'inv-A240-pichacky-elektrocas-dk1',
       'inv-A251-pichacky-elektrocas-dk6',
-      'inv-37-bici-stroj-brillie',
-      'inv-41-hodiny-achrer',
-      'inv-50-podruzne-vezni-vh1-elektrocas',
-      'inv-51-podruzne-vezni-elektrocas',
-      'inv-66-cimbal-s-odbijenim',
+      'inv-A037-bici-stroj-brillie',
+      'inv-A041-hodiny-achrer',
+      'inv-A050-podruzne-vezni-vh1-elektrocas',
+      'inv-A051-podruzne-vezni-elektrocas',
+      'inv-A066-cimbal-s-odbijenim',
       'inv-P201-maticni-elektrocas',
       'jednotnycas',
       'kvetinovehodiny-nove-mesto-nad-metuji',
@@ -433,7 +433,7 @@ export const hodinari: Hodinar[] = [
       'synchronizace-hodin',
       'tabor',
       'vez1',
-      'inv-5-vezni-18-stol-spindl',
+      'inv-A005-vezni-18-stol-spindl',
       'vez-elektrocas1959',
       'vezni-muzejicko-evropa',
     ],
@@ -455,7 +455,7 @@ export const hodinari: Hodinar[] = [
       'inv-P411-podruzne-pragotron-perla',
       'inv-A199-podruzne-hodiny-kh1',
       'inv-A196-stopky-pragotron',
-      'inv-198-podruzny-stroj-pragotron-maly',
+      'inv-A198-podruzny-stroj-pragotron-maly',
       'inv-A247-pragotron-c301',
       'jednotnycas',
       'mapa',
@@ -477,7 +477,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Tradiční výrobce věžních hodin z Uničova (něm. Mährisch Neustadt). V Hodináriu Děčín je torzo hořelo padlého stroje, doplněné o stejný typ ze sbírek Vlastivědného muzea v Olomouci.',
-    relatedSlugs: ['akvizice-2015-2025', 'inv-36-vezni-thondel-2'],
+    relatedSlugs: ['akvizice-2015-2025', 'inv-A036-vezni-thondel-2'],
     era: 'prelom',
   },
   {
@@ -490,7 +490,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Hodinářská firma z Kraslic, jejíž věžní hodinový stroj byl 29. 8. 2016 zapůjčen do Hodinária v Děčíně.',
-    relatedSlugs: ['akvizice-2015-2025', 'inv-15-vezni-kohlert-kraslice'],
+    relatedSlugs: ['akvizice-2015-2025', 'inv-A015-vezni-kohlert-kraslice'],
     era: 'prelom',
   },
   {
@@ -634,14 +634,14 @@ export const hodinari: Hodinar[] = [
     shrnuti:
       'Akademický sochař, restaurátor věžních hodin a dlouholetý orlojník Pražského orloje. Spolu s manželkou Melanií Skálovou provozuje Atelier restaurování věžních hodin v Sadské (veznihodiny.cz). Licence MK ČR č. 2.147/96 z 10. 4. 1996 (rozsah: restaurování hodinových strojů). Má za sebou desítky restaurátorských zásahů včetně stroje na pražské Židovské radnici (1995) a řady barokních strojů z Hodinária Děčín.',
     relatedSlugs: [
-      'inv-2-vezni-prokes-1868-soubor',
-      'inv-27-vezni-velka-ves',
+      'inv-A002-vezni-prokes-1868-soubor',
+      'inv-A027-vezni-velka-ves',
       'litinove-vezni-hodiny',
       'podebrady2',
       'podebrady3',
       'prazsky-orloj-restaurovani-2018',
       'synchronizace-hodin',
-      'inv-4-vezni-18-stol',
+      'inv-A004-vezni-18-stol',
       'zidovske',
     ],
     era: 'soucasnost',
@@ -655,8 +655,8 @@ export const hodinari: Hodinar[] = [
     mesto: 'Šluknov',
     zeme: 'CZ',
     shrnuti:
-      'Severočeský hodinář působící v první čtvrtině 19. století ve Šluknově. Podle stylu rámu a ozdobných motivů je mu připisován věžní stroj z kostela sv. Petra a Pavla v Horním Prysku, dnes v expozici Hodinária Děčín ([inv. 6](/sbirka/karta/inv-6-vezni-michael-christ/)).',
-    relatedSlugs: ['inv-6-vezni-michael-christ'],
+      'Severočeský hodinář působící v první čtvrtině 19. století ve Šluknově. Podle stylu rámu a ozdobných motivů je mu připisován věžní stroj z kostela sv. Petra a Pavla v Horním Prysku, dnes v expozici Hodinária Děčín ([inv. 6](/sbirka/karta/inv-A006-vezni-michael-christ/)).',
+    relatedSlugs: ['inv-A006-vezni-michael-christ'],
     era: '19stol',
   },
   {
@@ -772,8 +772,8 @@ export const hodinari: Hodinar[] = [
     mesto: 'Mnichov',
     zeme: 'DE',
     shrnuti:
-      'Mnichovská hodinářská firma založená Johannem Mannhardtem (1798–1878). Specializovala se na věžní hodiny vysoké přesnosti — mj. zhotovila hodiny na Bavorské státní opeře a na pinakotekách. Ve sbírce Hodinária Děčín je z roku 1864 jeden z mannhardtovských strojů s **Winnerlovým krokem** ([inv. 35](/sbirka/karta/inv-35-vezni-mikulasovice/)) z kostela sv. Mikuláše v Mikulášovicích.',
-    relatedSlugs: ['inv-35-vezni-mikulasovice'],
+      'Mnichovská hodinářská firma založená Johannem Mannhardtem (1798–1878). Specializovala se na věžní hodiny vysoké přesnosti — mj. zhotovila hodiny na Bavorské státní opeře a na pinakotekách. Ve sbírce Hodinária Děčín je z roku 1864 jeden z mannhardtovských strojů s **Winnerlovým krokem** ([inv. 35](/sbirka/karta/inv-A035-vezni-mikulasovice/)) z kostela sv. Mikuláše v Mikulášovicích.',
+    relatedSlugs: ['inv-A035-vezni-mikulasovice'],
     era: '19stol',
   },
   {
@@ -787,10 +787,10 @@ export const hodinari: Hodinar[] = [
     shrnuti:
       'Hodinář působící ve druhé polovině 19. století v Mikulášovicích (něm. Nixdorf) na Šluknovsku. Pravděpodobný autor věžních hodin pro mikulášovickou školu (1881) a pro Severní (Hilgersdorf) v okrese Děčín. Jeho stroje se vyznačují masivní konstrukcí s Grahamovým krokem, dřevěnou kyvadlovou tyčí a litinovou čočkou.',
     relatedSlugs: [
-      'inv-11-vezni-torzo',
-      'inv-26-vezni-jirkostroj',
-      'inv-33-vezni-lexa',
-      'inv-67-vezni-lissner',
+      'inv-A011-vezni-torzo',
+      'inv-A026-vezni-jirkostroj',
+      'inv-A033-vezni-lexa',
+      'inv-A067-vezni-lissner',
     ],
     era: '19stol',
   },
@@ -803,8 +803,8 @@ export const hodinari: Hodinar[] = [
     mesto: 'Mureck → Paříž',
     zeme: 'AT',
     shrnuti:
-      'Vynikající hodinář rakouského původu (Mureck v Štýrsku), od roku 1832 v Paříži. Autor věhlasných námořních chronometrů a vynálezce raritního „Winnerlova kroku" (1836), používaného při stavbě přesných astronomických hodin. Tento krok je k vidění na Mannhardtově věžním stroji z roku 1864 ve sbírce Hodinária Děčín ([inv. 35](/sbirka/karta/inv-35-vezni-mikulasovice/)).',
-    relatedSlugs: ['inv-35-vezni-mikulasovice'],
+      'Vynikající hodinář rakouského původu (Mureck v Štýrsku), od roku 1832 v Paříži. Autor věhlasných námořních chronometrů a vynálezce raritního „Winnerlova kroku" (1836), používaného při stavbě přesných astronomických hodin. Tento krok je k vidění na Mannhardtově věžním stroji z roku 1864 ve sbírce Hodinária Děčín ([inv. 35](/sbirka/karta/inv-A035-vezni-mikulasovice/)).',
+    relatedSlugs: ['inv-A035-vezni-mikulasovice'],
     era: '19stol',
   },
   {
@@ -829,8 +829,8 @@ export const hodinari: Hodinar[] = [
     mesto: 'Samotišky (u Olomouce)',
     zeme: 'CZ',
     shrnuti:
-      'Český hodinář ze Samotíšek u Olomouce, působící v první polovině 20. století. Zručný řemeslník, zabývající se celou škálou od kapesních hodinek po věžní hodiny. Bohatě zařízenou dílnu mu v květnu 1945 zničili a rozkradli vojáci Rudé armády. Zbytky zdědil Spáčilův učeň Miloslav Mádle a v roce 1972 je odprodal Vlastivědnému muzeu v Olomouci. Ve sbírce Hodinária Děčín je vystaven jeho [pérový věžní stroj se setrvačkou (inv. 28)](/sbirka/karta/inv-28-vezni-se-setrvackou/).',
-    relatedSlugs: ['akvizice-2015-2025', 'inv-28-vezni-se-setrvackou'],
+      'Český hodinář ze Samotíšek u Olomouce, působící v první polovině 20. století. Zručný řemeslník, zabývající se celou škálou od kapesních hodinek po věžní hodiny. Bohatě zařízenou dílnu mu v květnu 1945 zničili a rozkradli vojáci Rudé armády. Zbytky zdědil Spáčilův učeň Miloslav Mádle a v roce 1972 je odprodal Vlastivědnému muzeu v Olomouci. Ve sbírce Hodinária Děčín je vystaven jeho [pérový věžní stroj se setrvačkou (inv. 28)](/sbirka/karta/inv-A028-vezni-se-setrvackou/).',
+    relatedSlugs: ['akvizice-2015-2025', 'inv-A028-vezni-se-setrvackou'],
     era: '20stol',
   },
   {
@@ -855,8 +855,8 @@ export const hodinari: Hodinar[] = [
     mesto: 'Praha',
     zeme: 'CZ',
     shrnuti:
-      'Pražská zvonařská rodina aktivní v 19. století. **Karel Bellmann** (zvonař, doložené odlitky z let 1811 a 1852) měl dceru **Annu Bellmannovou**, která provozovala vlastní slévárnu po jeho smrti. Anna patří mezi malý počet českých zvonařek své doby. Ve slévárně Anny Bellmannové byly v roce 1868 odlity dva [cimbály pro věžní komplet Prokeš](/sbirka/karta/inv-2-vezni-prokes-1868-soubor#cimbaly-bellmannova-slevarna-1868) ze zámku Býchory, dnes vystavené v Hodináriu Děčín.',
-    relatedSlugs: ['inv-2-vezni-prokes-1868-soubor', 'prehled-zvonu'],
+      'Pražská zvonařská rodina aktivní v 19. století. **Karel Bellmann** (zvonař, doložené odlitky z let 1811 a 1852) měl dceru **Annu Bellmannovou**, která provozovala vlastní slévárnu po jeho smrti. Anna patří mezi malý počet českých zvonařek své doby. Ve slévárně Anny Bellmannové byly v roce 1868 odlity dva [cimbály pro věžní komplet Prokeš](/sbirka/karta/inv-A002-vezni-prokes-1868-soubor#cimbaly-bellmannova-slevarna-1868) ze zámku Býchory, dnes vystavené v Hodináriu Děčín.',
+    relatedSlugs: ['inv-A002-vezni-prokes-1868-soubor', 'prehled-zvonu'],
     era: '19stol',
   },
   {
@@ -868,8 +868,8 @@ export const hodinari: Hodinar[] = [
     mesto: 'Praha',
     zeme: 'CZ',
     shrnuti:
-      'Akademický sochař (ak. soch.), spoluautor [orloje Skála (inv. 47)](/sbirka/karta/inv-47-orloj-skala/) v Hodináriu Děčín. V roce 2009 omaloval plochu orlojní desky uměleckým výtvarným ztvárněním. Orloj byl dokončen v červenci 2015. Společné dílo s Miroslavem Skálou zachycuje moderní výtvarný přístup k orlojní ikonografii.',
-    relatedSlugs: ['inv-47-orloj-skala', 'decin-galerie', 'o-hodinariu'],
+      'Akademický sochař (ak. soch.), spoluautor [orloje Skála (inv. 47)](/sbirka/karta/inv-A047-orloj-skala/) v Hodináriu Děčín. V roce 2009 omaloval plochu orlojní desky uměleckým výtvarným ztvárněním. Orloj byl dokončen v červenci 2015. Společné dílo s Miroslavem Skálou zachycuje moderní výtvarný přístup k orlojní ikonografii.',
+    relatedSlugs: ['inv-A047-orloj-skala', 'decin-galerie', 'o-hodinariu'],
     era: 'soucasnost',
   },
   {
@@ -881,8 +881,8 @@ export const hodinari: Hodinar[] = [
     mesto: 'Praha (Mánes)',
     zeme: 'CZ',
     shrnuti:
-      'Český sochař, kovář a restaurátor. Vystudoval uměleckoprůmyslovou školu v Turnově, později absolvoval restaurátorskou školu při brněnském muzeu. Člen Českého svazu výtvarných umělců v Mánesu a státní restaurátor. Pracoval na obnově významných českých objektů (palác Kinských, dům Viola, brána Legiobanky) i mnoha mezinárodních zakázek (NYC, Florida, Casablanca, Disneyland Paříž). Autor [kované plastiky-hodin (inv. 43)](/sbirka/karta/inv-43-kovane-hodiny-legner/) v Hodináriu Děčín.',
-    relatedSlugs: ['inv-43-kovane-hodiny-legner', 'decin-galerie'],
+      'Český sochař, kovář a restaurátor. Vystudoval uměleckoprůmyslovou školu v Turnově, později absolvoval restaurátorskou školu při brněnském muzeu. Člen Českého svazu výtvarných umělců v Mánesu a státní restaurátor. Pracoval na obnově významných českých objektů (palác Kinských, dům Viola, brána Legiobanky) i mnoha mezinárodních zakázek (NYC, Florida, Casablanca, Disneyland Paříž). Autor [kované plastiky-hodin (inv. 43)](/sbirka/karta/inv-A043-kovane-hodiny-legner/) v Hodináriu Děčín.',
+    relatedSlugs: ['inv-A043-kovane-hodiny-legner', 'decin-galerie'],
     era: '20stol',
   },
   {
@@ -925,20 +925,20 @@ export const hodinari: Hodinar[] = [
     mesto: 'Děčín',
     zeme: 'CZ',
     shrnuti:
-      'Současný český restaurátor věžních hodin a člen Českého spolku horologického. Autor řady restaurátorských zpráv a fotografií ze sbírky Hodinária Děčín; provedl restaurování několika exponátů včetně pérového stroje Spáčil ([inv. 28](/sbirka/karta/inv-28-vezni-se-setrvackou/)) a dalších kusů z akvizic 2015–2025.',
+      'Současný český restaurátor věžních hodin a člen Českého spolku horologického. Autor řady restaurátorských zpráv a fotografií ze sbírky Hodinária Děčín; provedl restaurování několika exponátů včetně pérového stroje Spáčil ([inv. 28](/sbirka/karta/inv-A028-vezni-se-setrvackou/)) a dalších kusů z akvizic 2015–2025.',
     relatedSlugs: [
       'akvizice-2015-2025',
       'datumatik',
       'o-hodinariu',
-      'inv-27-vezni-velka-ves',
-      'inv-28-vezni-se-setrvackou',
+      'inv-A027-vezni-velka-ves',
+      'inv-A028-vezni-se-setrvackou',
       'panel-1-hipp-wagner-brillie',
       'panel-2-maticni-elektrocas',
       'panel-3-laplace-tn-burk',
       'panel-4-pragotron',
       'panel-5-dcf-gps-ntp',
       'inv-A201-podruzne-hodiny-s-vterinovkou',
-      'inv-6-vezni-michael-christ',
+      'inv-A006-vezni-michael-christ',
     ],
     era: 'soucasnost',
   },
@@ -953,8 +953,8 @@ export const hodinari: Hodinar[] = [
     mesto: 'Lipsko',
     zeme: 'DE',
     shrnuti:
-      'Saský hodinář z Lipska, výrobce věžních hodin v 2. polovině 19. století. Jeho stroj z roku 1884 je v Hodináriu Děčín ([inv. 1](/sbirka/karta/inv-1-vezni-hiemann-1884/)) — byl zakoupen evangelickým kostelem v Děčíně-Podmoklech a sloužil tam až do osmdesátých let 20. století.',
-    relatedSlugs: ['o-hodinariu', 'inv-1-vezni-hiemann-1884'],
+      'Saský hodinář z Lipska, výrobce věžních hodin v 2. polovině 19. století. Jeho stroj z roku 1884 je v Hodináriu Děčín ([inv. 1](/sbirka/karta/inv-A001-vezni-hiemann-1884/)) — byl zakoupen evangelickým kostelem v Děčíně-Podmoklech a sloužil tam až do osmdesátých let 20. století.',
+    relatedSlugs: ['o-hodinariu', 'inv-A001-vezni-hiemann-1884'],
     era: '19stol',
   },
   {
@@ -1006,7 +1006,7 @@ export const hodinari: Hodinar[] = [
       'decin-ntp',
       'o-hodinariu',
       'inv-A245-podruzne-brillie',
-      'inv-37-bici-stroj-brillie',
+      'inv-A037-bici-stroj-brillie',
       'inv-P104-brillie',
       'jednotnycas',
       'panel-1-hipp-wagner-brillie',
@@ -1125,8 +1125,8 @@ export const hodinari: Hodinar[] = [
     mesto: 'Berlin',
     zeme: 'DE',
     shrnuti:
-      'Německá hodinářská firma sídlící na okraji Berlína, založená v roce **1824**. Hlavním výrobním programem je **výroba a instalace věžních hodin** — výrobky firmy lze najít na mnoha místech Berlína a Brandenburgu. V Hodináriu Děčín je [věžní Rochlitz (inv. 12)](/sbirka/karta/inv-12-vezni-rochlitz/).',
-    relatedSlugs: ['inv-12-vezni-rochlitz'],
+      'Německá hodinářská firma sídlící na okraji Berlína, založená v roce **1824**. Hlavním výrobním programem je **výroba a instalace věžních hodin** — výrobky firmy lze najít na mnoha místech Berlína a Brandenburgu. V Hodináriu Děčín je [věžní Rochlitz (inv. 12)](/sbirka/karta/inv-A012-vezni-rochlitz/).',
+    relatedSlugs: ['inv-A012-vezni-rochlitz'],
     era: '19stol',
   },
   {
@@ -1165,7 +1165,7 @@ export const hodinari: Hodinar[] = [
       'decin-ntp',
       'elektromagneticke-segmenty',
       'inv-P502-podruzne-hodiny-mobatime',
-      'inv-18-vezni-barokni-kovane',
+      'inv-A018-vezni-barokni-kovane',
       'jednotnycas',
       'mobatime',
       'panel-5-dcf-gps-ntp',
@@ -1198,16 +1198,16 @@ export const hodinari: Hodinar[] = [
     mesto: 'Průhonice',
     zeme: 'CZ',
     shrnuti:
-      'Elektrikář a konstruktér z Průhonic, dlouholetý člen Českého spolku horologického. Vedle řídicích systémů obráběcích strojů se věnuje zakázkové výrobě **skeletových, slunečních a netradičních hodin** kombinujících mechaniku s moderní elektronikou ([kavalir.cz/hodiny](https://www.kavalir.cz/hodiny)). Pro Hodinárium Děčín zhotovil řadu kuriózních exponátů — mj. [retrográdní hodiny z voltmetrů (inv. A176)](/sbirka/karta/inv-A176-retrogradni-hodiny-kavalir/), [skeletové hodiny (inv. 54)](/sbirka/karta/inv-54-skeletove-hodiny-kavalir/), [model orloje (inv. 65)](/sbirka/karta/inv-65-orloj-kavalir/), [cimbál s odbíjením (inv. 66)](/sbirka/karta/inv-66-cimbal-s-odbijenim/) a [zvonění (inv. 243)](/sbirka/karta/inv-243-zvoneni-kavalir/).',
+      'Elektrikář a konstruktér z Průhonic, dlouholetý člen Českého spolku horologického. Vedle řídicích systémů obráběcích strojů se věnuje zakázkové výrobě **skeletových, slunečních a netradičních hodin** kombinujících mechaniku s moderní elektronikou ([kavalir.cz/hodiny](https://www.kavalir.cz/hodiny)). Pro Hodinárium Děčín zhotovil řadu kuriózních exponátů — mj. [retrográdní hodiny z voltmetrů (inv. A176)](/sbirka/karta/inv-A176-retrogradni-hodiny-kavalir/), [skeletové hodiny (inv. 54)](/sbirka/karta/inv-A054-skeletove-hodiny-kavalir/), [model orloje (inv. 65)](/sbirka/karta/inv-A065-orloj-kavalir/), [cimbál s odbíjením (inv. 66)](/sbirka/karta/inv-A066-cimbal-s-odbijenim/) a [zvonění (inv. 243)](/sbirka/karta/inv-243-zvoneni-kavalir/).',
     relatedSlugs: [
       'o-hodinariu',
       'inv-A176-retrogradni-hodiny-kavalir',
-      'inv-202-retrogradni-kavalir',
+      'inv-A202-retrogradni-kavalir',
       'inv-243-zvoneni-kavalir',
-      'inv-54-skeletove-hodiny-kavalir',
-      'inv-64-mysteriozni-natahovani',
-      'inv-65-orloj-kavalir',
-      'inv-66-cimbal-s-odbijenim',
+      'inv-A054-skeletove-hodiny-kavalir',
+      'inv-A064-mysteriozni-natahovani',
+      'inv-A065-orloj-kavalir',
+      'inv-A066-cimbal-s-odbijenim',
     ],
     era: 'soucasnost',
   },
@@ -1527,7 +1527,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'DE',
     shrnuti:
       'Schwenningenský **městský písař**, který vynalezl **přenosné kontrolní hodiny pro hlídače**. První exemplář zhotovil **Michael Vosseler v roce 1855**. Po Bürkově smrti (1872) synové rozšířili výrobu na **„Württemberská továrna hodin ve Schwenningen"** — pozdější produkční linku Bürk‑Mobatime (firma vstoupila do konkurzu v roce 1996, naskočila do ní švýcarská **[Mobatime](/hodinari/mobatime)** v roce 1997).',
-    relatedSlugs: ['inv-25-vezni-chribska', 'panel-3-laplace-tn-burk', 'pichacky'],
+    relatedSlugs: ['inv-A025-vezni-chribska', 'panel-3-laplace-tn-burk', 'pichacky'],
     era: '19stol',
   },
   {
@@ -1652,7 +1652,7 @@ export const hodinari: Hodinar[] = [
       'podruzne-hodiny',
       'o-hodinariu',
       'tridratovy-rozvod-ibm',
-      'inv-27-vezni-velka-ves',
+      'inv-A027-vezni-velka-ves',
       'elektromagneticke-segmenty',
       'fake-atomove-hodiny',
       'matematicke',
@@ -1666,9 +1666,9 @@ export const hodinari: Hodinar[] = [
       'settopbox',
       'slunecni-polarizacni',
       'tabor',
-      'inv-5-vezni-18-stol-spindl',
-      'inv-4-vezni-18-stol',
-      'inv-3-barokni-ministroj-18-stol',
+      'inv-A005-vezni-18-stol-spindl',
+      'inv-A004-vezni-18-stol',
+      'inv-A003-barokni-ministroj-18-stol',
       'zvon-petr-vok',
     ],
     era: 'soucasnost',
@@ -1776,7 +1776,7 @@ export const hodinari: Hodinar[] = [
       'Čáslavský hodinářský mistr přelomu 19. a 20. století. V soupisu věžních hodin ČSH dvanáct doložených strojů ve středočeském regionu (Čáslav 1910, Čelákovice, Krušovice, Nehvizdy, Ohaře, Sedlčany, Suchdol, Vojkov, Žibohlavy a další). Typologie dvou velikostí: malý jen-hodinový stroj (kapličky, venkov) a velký čtvrťový stroj (radnice, městské kostely).',
     relatedSlugs: [
       'decin-galerie',
-      'inv-47-orloj-skala',
+      'inv-A047-orloj-skala',
       'jubilejni-vystava-zemska-1891-hodinari',
       'o-hodinariu',
     ],

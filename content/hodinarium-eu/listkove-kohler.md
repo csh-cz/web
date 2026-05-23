@@ -14,7 +14,7 @@ lastModified: "Wed, 26 Apr 2017 14:11:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:00.949Z"
 relatedKarty:
-  - inv-198-podruzny-stroj-pragotron-maly
+  - inv-A198-podruzny-stroj-pragotron-maly
 tldr: 'Mechanická lístkovka v dřevěné skříni značená německou firmou z Laufamholzu (po roce 1934). Kolíčkový krok se setrvačkou, kontinuální převod na hodinový bubínek a celuloidové lístky překlopené vlastní pružností.'
 ---
 Představu*jeme velmi zajímavé mechanické lístkové hodiny ve stavu těsně po získání sběratelem. Stránka je sestavena se sérií fotografií a komentáře nového majitele. Za příspěvek děkujeme.*

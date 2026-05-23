@@ -14,7 +14,7 @@
  * pro rychlé renderování listingů (homepage, kategorie, atlas, tagy).
  */
 export interface CatalogEntry {
-  /** Slug bez extension (např. "bychory_prokes1" nebo "inv-1-vezni-hiemann-1884"). */
+  /** Slug bez extension (např. "bychory_prokes1" nebo "inv-A001-vezni-hiemann-1884"). */
   slug: string;
   /** Title z frontmatteru. */
   title: string;

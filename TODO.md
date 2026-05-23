@@ -1035,3 +1035,12 @@ DNS přesunu (kvůli velikosti indexu chce ostré HTTP/2 + Brotli).
 - [ ] **T12 Comments / Disqus** — žádné komentáře ke článkům. Spolek
       malý → přínos nízký, ale e-mail kontakt by stačil. Rozhodnutí:
       potřebujeme to vůbec.
+
+### 📇 Sbírka — evidenční karty
+
+- [ ] **Kolizní inv. čísla 194 + 243** — při přečíslování na formát `Annn`
+      přeskočeny (jejich `A{číslo}` už nese jiný exponát). `inv-194`
+      (Podružný stroj Elektročas malý, Vitrína 2) × `A194` (Římské digitálky);
+      `inv-243` (Zvonění Kavalír — exponát J. Kavalíra) × `A243` (Linkový
+      rozváděč EHU 260). Dořešit: smazat / přečíslovat na volné A číslo / sloučit.
+      Pozn.: 243 je hodnotný exponát (autorská práce Jaroslava Kavalíra).

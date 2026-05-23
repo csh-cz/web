@@ -25,7 +25,7 @@ pribuzne:
 isStub: true
 references:
   - title: "Karta inv. 35 — Mannhardt 1864 (Mikulášovice), Hodinárium Děčín"
-    url: "/sbirka/karta/inv-35-vezni-mikulasovice/"
+    url: "/sbirka/karta/inv-A035-vezni-mikulasovice/"
     type: odkaz
     note: "Praktická ukázka — věžní stroj firmy [Mannhardt](/hodinari/mannhardt) z r. 1864 s Winnerlovým krokem, dochovaný ve sbírce ČSH."
 ---
@@ -50,7 +50,7 @@ Princip:
 
 ## V Čechách
 
-Hlavní známý dochovaný exemplář ve sbírkách ČR: **stroj firmy [Mannhardt](/hodinari/mannhardt) z roku 1864** ze sbírek **[Hodinária Děčín](/sbirka)**, inv. č. 35, původně z kostela sv. Mikuláše v Mikulášovicích na Šluknovsku — viz **[karta inv. 35](/sbirka/karta/inv-35-vezni-mikulasovice/)**.
+Hlavní známý dochovaný exemplář ve sbírkách ČR: **stroj firmy [Mannhardt](/hodinari/mannhardt) z roku 1864** ze sbírek **[Hodinária Děčín](/sbirka)**, inv. č. 35, původně z kostela sv. Mikuláše v Mikulášovicích na Šluknovsku — viz **[karta inv. 35](/sbirka/karta/inv-A035-vezni-mikulasovice/)**.
 
 ## Související
 

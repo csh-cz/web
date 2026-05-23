@@ -137,9 +137,9 @@ export const kroky: Krok[] = [
       'V dobové francouzské literatuře (Gros, Saunier, Revue chronométrique) kritizován jako kompromis, který spojuje slabiny obou výchozích řešení — kotva je stejně náročná na výrobu jako Grahamova, kolíčkové kolo více práce než ploché kolo, kolíky špatně drží olej. Existuje i převrácená varianta od A.-L. Vérité (1806–1887). V Čechách krok výhradně používal Jan Prokeš ze Sobotky od roku 1868 (po vypršení patentu) — pravděpodobně se s ním seznámil na pařížské výstavě 1867. Nejstarší dochovaný exemplář pochází ze zámku Býchory (1868), dnes vystavený v expozici Hodinária. V odborné literatuře dříve označován jako „krok Roberta de Sancerre" — Sancerre je však místo původu, ne příjmení; správně Robertův krok podle Léona Émile Adolphe Roberta ze Sancerre. Otázka původu je nicméně otevřená: Curt Dietzschold ho v knize Die Turmuhren (1894) označuje jako „Älterer Stiftengang" (starší kolíčkový krok) a v práci Simona Stampfera o věžních hodinách na radnici ve Lvově je týž mechanismus zobrazen už roku 1839, tedy 13 let před Robertovým patentem. V principu jde o kombinaci Grahamova kroku (kotva) a Amantova kolíčkového kroku, oba dostupné už v první polovině 18. století — Robertův patent z 1852 možná jen formálně registroval konstrukci, kterou hodináři používali nezávisle už dříve. Hlavní praktický problém: kolíčky musí být v krokovém kole absolutně rovnoměrně osazené, jinak se mění dopad na pravou a levou paletu — typický příklad obtížného ladění je věžní stroj L. Prokeše z Jičína (1905) na zámku Milíčeves, kde výrobce řešil nepřesnost vrtání individuálním zeslabováním palet a opilováním kolíčků.',
     relatedSlugs: [
       'bychory_prokes1',
-      'inv-2-vezni-prokes-1868-soubor',
+      'inv-A002-vezni-prokes-1868-soubor',
       'akvizice-2015-2025',
-      'inv-31-vezni-francie',
+      'inv-A031-vezni-francie',
     ],
     skupina: 'klasicke',
     /**
