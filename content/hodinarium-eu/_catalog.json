@@ -267,25 +267,6 @@
     ]
   },
   {
-    "slug": "vez-kli",
-    "title": "Barokní \"špindlový\" stroj věžních hodin",
-    "category": "sbirka",
-    "thumbnail": "/img/vez/Kli/f/foto_0001.jpg",
-    "excerpt": "Do Hodinária byl od soukromého sběratele zapůjčen stroj věžních hodin se zajímavým kyvadlem a vřetenovým krokem. Od sezóny 2013 bude dlouhodobou součástí expozice.",
-    "year": 2013,
-    "lastModified": "2017-04-27T09:03:00.000Z",
-    "imageCount": 8,
-    "wordCount": 217,
-    "tags": [
-      "vezni",
-      "mechanicke",
-      "zavazi",
-      "kyvadlo",
-      "krok-vreteno",
-      "1700s"
-    ]
-  },
-  {
     "slug": "inv-3-barokni-ministroj-18-stol",
     "title": "Barokní ministroj 18. stol.",
     "category": "sbirka",
@@ -7190,10 +7171,10 @@
     "podsekce": "karta",
     "thumbnail": null,
     "excerpt": "Kovaný rám obsahuje kyvadlový stroj s vřetenovým krokem v horní nástavbě a půlový bicí stroj se závěrkovým kolem. Škoda, že ozdobné voluty rámu se zachovaly jen u středních sloupků. Na krajních sloupcích jsou ulámané.…",
-    "year": null,
+    "year": 2013,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 135,
+    "wordCount": 267,
     "tags": [
       "hlavni-sal",
       "vezni",
