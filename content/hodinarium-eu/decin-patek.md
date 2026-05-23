@@ -1,7 +1,7 @@
 ---
 title: "Torzo hodinového stroje z roku 1694 a stroj z roku 1728"
 slug: "decin-patek"
-category: "sbirka"
+category: "virtualni-muzeum"
 tags:
   - vezni
   - nalezovy

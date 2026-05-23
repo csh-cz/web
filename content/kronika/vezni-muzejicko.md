@@ -44,7 +44,7 @@ I v mnoha jiných muzeích jsou vystaveny věžní hodiny. Tím je ovšem větš
 
 Muzejíčko se nezaměřovalo jen na hodiny "seriózní", ale zajímalo se také o hodiny, které jsou spíše artefaktem, případně jsou nějakým způsobem zvláštní - kuriózní. Byly zde i krátkodobější drobné tematické výstavy, které představily buď určitý typ hodin, způsob výroby, produkci firmy, značky. Věžní muzejíčko Soběslav tak bylo spíše galerií i když vystavovalo historické exponáty. V expozicích byla i soudobá díla hodinářská i "hodinařinou" inspirovaná. Například [steampunkové šperky z hodinových součástek](/kronika/steampunk), či "bláznivá" dílka jako jsou [sluneční polarizační hodiny](/konstrukce/slunecni-polarizacni) provedené ve stylu stempunkové pistole.
 
-Nesmíme zapomínat ani na [stroj Elektročas z roku 1959](/sbirka/vez-elektrocas1959), který dosud řídí ručičky věže. I on je historickým exponátem, právě tak jako rumpál na úrovni ochozu věže.
+Nesmíme zapomínat ani na [stroj Elektročas z roku 1959](/virtualni-muzeum/vez-elektrocas1959), který dosud řídí ručičky věže. I on je historickým exponátem, právě tak jako rumpál na úrovni ochozu věže.
 
 ![ilustrační obrázek](/img/vez/zvony/petrvok/sveceni/f/foto_0012.jpg)
 
