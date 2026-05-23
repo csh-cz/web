@@ -132,7 +132,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 18.11.2007 [HODINY BUDÍČKOVÉ](https://hodinarium-eu.pages.dev/konstrukce/budiky2) klinkajícá na zvonek. Švarcvaldky
 - 16\. 8. 2007 [Devítkové hodiny pro matematiky](https://hodinarium-eu.pages.dev/projekty/matematicke)
 - 6\. 8. 2007 [Mateční hodiny CTW](https://hodinarium-eu.pages.dev/projekty/ctwagner) neboli C.T. Wagner; také odkaz na úžasnou animaci
-- 30\. 7. 2007 Skeletové hodiny [Kavalír](https://hodinarium-eu.pages.dev/virtualni-muzeum/kavalir)
+- 30\. 7. 2007 Skeletové hodiny [Kavalír](https://hodinarium-eu.pages.dev/sbirka/karta/inv-A054-skeletove-hodiny-kavalir)
 - 29\. 7. 2007 [TIME FLOW CLOCK](https://hodinarium-eu.pages.dev/virtualni-muzeum/vodni-b-gitton) - hodiny protékajícího času - Bernard Gitton
 - 29\. 7. 2007 [O věžních hodinách na ZŠ Šumava](https://hodinarium-eu.pages.dev/virtualni-muzeum/vezni-zikmund1) v Jablonci nad Nisou
 - 29\. 7. 2007 Počítačový vibrograf
