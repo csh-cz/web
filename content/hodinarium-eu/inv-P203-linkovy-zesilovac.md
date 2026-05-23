@@ -14,6 +14,7 @@ tags:
 karta:
   inventarniCislo: "P203"
   umisteni: "Panel 2"
+  vyrobce: "Pragotron"
   stav: "funkční"
 ---
 
