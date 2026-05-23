@@ -32,7 +32,7 @@ scrapedAt: "2026-04-27T17:36:33.395Z"
 
 - **[Věžní hodiny Julius Hiemann](/sbirka/karta/inv-1-vezni-hiemann-1884)** ze saského Lipska z roku **1884** nabízí srovnání technologií po 400 letech.
 - **[Věžní komplet ze zámku Býchory](/sbirka/karta/inv-2-vezni-prokes-1868-soubor)**, který obsahuje čtvrťový **stroj zhotovený soboteckým hodinářem Prokešem v roce 1868.** Komplet doplňují cimbály ulité v slévárně Anny,dcery Karla Bellmanna, a unikátní **zvonicí stroj,** který svým zvoněním na hlavní cimbál ohlašoval začátek a konec pracovní doby a přestávky na oběd na pile nedaleko zámku Býchory.
-- Ve věži je v normálním provozu [**stroj Elektročas z rolu 1959**](/sbirka/vez-elektrocas1959).
+- Ve věži je v normálním provozu [**stroj Elektročas z rolu 1959**](/virtualni-muzeum/vez-elektrocas1959).
 - **[Sestava rozvodů](/sbirka/karta/inv-2-vezni-prokes-1868-soubor)** pro 3 číselníky ze zvoničky Svinky. Datováno před rok 1902.
 - **Několik výstavek** - švarcvaldky, elektromechanické hodiny, hodiny z bakelitu, práce klientů soběslavské Rolničky, různé typy sluneční hodin, například [**polarizační sluneční hodiny**](/konstrukce/slunecni-polarizacni) atd.
 - Opakovaná **foto výstava** pana Marušáka - **600 let Pražského orloje**.
@@ -48,7 +48,7 @@ Prohlídková trasa je poměrně náročná a je na vlastní nebezpečí. Do pro
 
 Prohlídková trasa věží pokračuje po točitých schodech do rozměrné **prostory "druhého patra"**. Je v ní nyní expozice zvonařské technologie, výstava fotografií Pražského orloje a výstava žákovských prací s tématem hodin.
 
-Po dřevěném schodišti vystupujeme do dalších dřevěných pater věže. 4. podlaží je zcela volné, 5. je rovněž volné s krytým prostorem pro pohyb závaží hodin. V 6. podlaží je [**hodinový stroj Elektročas**](/sbirka/vez-elektrocas1959) (1959), v dalším podlaží je stávající **rozvodka hodin**. Projdeme podlaží se **zvonem** (1890 kg) a po dalším krkolomnějším výstupu jsme na úrovni ochozu věže, mineme veliký rumpál a můžeme vychutnat daleký rozhled.
+Po dřevěném schodišti vystupujeme do dalších dřevěných pater věže. 4. podlaží je zcela volné, 5. je rovněž volné s krytým prostorem pro pohyb závaží hodin. V 6. podlaží je [**hodinový stroj Elektročas**](/virtualni-muzeum/vez-elektrocas1959) (1959), v dalším podlaží je stávající **rozvodka hodin**. Projdeme podlaží se **zvonem** (1890 kg) a po dalším krkolomnějším výstupu jsme na úrovni ochozu věže, mineme veliký rumpál a můžeme vychutnat daleký rozhled.
 
 > * * *
 

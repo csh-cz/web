@@ -19,7 +19,7 @@ Bohužel některé loňské exponáty již v expozici nebudou. To se týká repl
 [![barokní stroj - před dokončením restaurování](/img/vez/Kli/foto_0001.jpg)](/img/vez/Kli/f/foto_0001.jpg) Hlavní hodinářské exponáty - deset věžních strojů
 
 - [starý soběslavský stroj](/kronika/vez1), "čtvrtek" ([bicí stroj](/slovnik/bici-stroj) jednotlivých čtvrtí), ručkové převody
-- současný věžní stroj [Elektročas 1959](/sbirka/vez-elektrocas1959)
+- současný věžní stroj [Elektročas 1959](/virtualni-muzeum/vez-elektrocas1959)
 - [barokní věžní ministroj snad z 18 století](/sbirka/karta/inv-3-barokni-ministroj-18-stol)
 - [barokní špindlový stroj](/sbirka/vez-kli) věžních hodin
 - barokní špindlový [stroj věžních hodin z obce Budislav](/sbirka/karta/inv-5-vezni-18-stol-spindl)
