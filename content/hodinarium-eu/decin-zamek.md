@@ -1,7 +1,7 @@
 ---
 title: "Zámek Děčín"
 slug: "decin-zamek"
-category: "sbirka"
+category: "muzea"
 tags:
   - decin
   - historie-spolku

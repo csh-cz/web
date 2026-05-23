@@ -31,7 +31,7 @@ export const kategorie: Record<string, KategorieMeta> = {
     intro:
       'Konkrétní hodiny ve sbírce spolku — vystavené v Hodináriu na zámku Děčín nebo v depozitáři. ' +
       'Věžní stroje, mateční hodiny, restaurované, švarcvaldky, sběratelské kuriozity. Každý článek = jeden exponát.',
-    featuredSlugs: ['akvizice-2015-2025', 'bychory_prokes1', 'brillie', 'svarcvaldky'],
+    featuredSlugs: ['bychory_prokes1', 'brillie', 'svarcvaldky'],
     doplnky: [
       { jmeno: 'Mapa expozice', href: '/mapa', ikona: 'mapa' },
       { jmeno: 'Zámek Děčín', href: 'https://www.zamekdecin.cz/vystavy/vystava-decinske-hodinarium', ikona: 'sluzba' },

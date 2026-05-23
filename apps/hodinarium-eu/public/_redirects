@@ -70,6 +70,8 @@
 /sbirka/zvony-uvod /zvony/zvony-uvod 301
 /sbirka/prehled-zvonu /zvony/prehled-zvonu 301
 /sbirka/zvony-vyroba /konstrukce/zvony-vyroba 301
+/sbirka/decin-zamek /muzea/decin-zamek 301
+/sbirka/akvizice-2015-2025 /kronika/akvizice-2015-2025 301
 
 # === PRIORITA 2: root pages ===
 # Specifické přesměrovky (root pages legacy hodinarium.eu)
