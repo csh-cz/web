@@ -829,7 +829,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Samotišky (u Olomouce)',
     zeme: 'CZ',
     shrnuti:
-      'Český hodinář ze Samotíšek u Olomouce, působící v první polovině 20. století. Zručný řemeslník, zabývající se celou škálou od kapesních hodinek po věžní hodiny. Bohatě zařízenou dílnu mu v květnu 1945 zničili a rozkradli vojáci Rudé armády. Zbytky zdědil Spáčilův učeň Miloslav Mádle a v roce 1972 je odprodal Vlastivědnému muzeu v Olomouci. Ve sbírce Hodinária Děčín je vystaven jeho [pérový věžní stroj se setrvačkou (inv. 28)](/sbirka/karta/inv-A028-vezni-se-setrvackou/).',
+      'Český hodinář ze Samotíšek u Olomouce, působící v první polovině 20. století. Zručný řemeslník, zabývající se celou škálou od kapesních hodinek po věžní hodiny. Bohatě zařízenou dílnu mu v květnu 1945 zničili a rozkradli vojáci Rudé armády. Zbytky zdědil Spáčilův učeň Miloslav Mádle a v roce 1972 je odprodal Vlastivědnému muzeu v Olomouci. Ve sbírce Hodinária Děčín je vystaven jeho [pérový věžní stroj se setrvačkou (inv. A028)](/sbirka/karta/inv-A028-vezni-se-setrvackou/).',
     relatedSlugs: ['akvizice-2015-2025', 'inv-A028-vezni-se-setrvackou'],
     era: '20stol',
   },
@@ -868,7 +868,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Praha',
     zeme: 'CZ',
     shrnuti:
-      'Akademický sochař (ak. soch.), spoluautor [orloje Skála (inv. 47)](/sbirka/karta/inv-A047-orloj-skala/) v Hodináriu Děčín. V roce 2009 omaloval plochu orlojní desky uměleckým výtvarným ztvárněním. Orloj byl dokončen v červenci 2015. Společné dílo s Miroslavem Skálou zachycuje moderní výtvarný přístup k orlojní ikonografii.',
+      'Akademický sochař (ak. soch.), spoluautor [orloje Skála (inv. A047)](/sbirka/karta/inv-A047-orloj-skala/) v Hodináriu Děčín. V roce 2009 omaloval plochu orlojní desky uměleckým výtvarným ztvárněním. Orloj byl dokončen v červenci 2015. Společné dílo s Miroslavem Skálou zachycuje moderní výtvarný přístup k orlojní ikonografii.',
     relatedSlugs: ['inv-A047-orloj-skala', 'decin-galerie', 'o-hodinariu'],
     era: 'soucasnost',
   },
@@ -881,7 +881,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Praha (Mánes)',
     zeme: 'CZ',
     shrnuti:
-      'Český sochař, kovář a restaurátor. Vystudoval uměleckoprůmyslovou školu v Turnově, později absolvoval restaurátorskou školu při brněnském muzeu. Člen Českého svazu výtvarných umělců v Mánesu a státní restaurátor. Pracoval na obnově významných českých objektů (palác Kinských, dům Viola, brána Legiobanky) i mnoha mezinárodních zakázek (NYC, Florida, Casablanca, Disneyland Paříž). Autor [kované plastiky-hodin (inv. 43)](/sbirka/karta/inv-A043-kovane-hodiny-legner/) v Hodináriu Děčín.',
+      'Český sochař, kovář a restaurátor. Vystudoval uměleckoprůmyslovou školu v Turnově, později absolvoval restaurátorskou školu při brněnském muzeu. Člen Českého svazu výtvarných umělců v Mánesu a státní restaurátor. Pracoval na obnově významných českých objektů (palác Kinských, dům Viola, brána Legiobanky) i mnoha mezinárodních zakázek (NYC, Florida, Casablanca, Disneyland Paříž). Autor [kované plastiky-hodin (inv. A043)](/sbirka/karta/inv-A043-kovane-hodiny-legner/) v Hodináriu Děčín.',
     relatedSlugs: ['inv-A043-kovane-hodiny-legner', 'decin-galerie'],
     era: '20stol',
   },
@@ -998,7 +998,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Paříž',
     zeme: 'FR',
     shrnuti:
-      'Francouzští bratři Brillié (Charles a Marius), v roce **1908** sestrojili matiční hodiny s **půlminutovými polarizovanými impulzy** posílanými do podružných hodin — systém se ve Francii rozšířil po továrnách, nádražích, školách a v nemocnicích. V Hodináriu je [matiční Brillié (inv. 88)](/sbirka/karta/inv-P104-brillie/) a [podružný strojek (inv. 268)](/sbirka/karta/inv-A245-podruzne-brillie/).',
+      'Francouzští bratři Brillié (Charles a Marius), v roce **1908** sestrojili matiční hodiny s **půlminutovými polarizovanými impulzy** posílanými do podružných hodin — systém se ve Francii rozšířil po továrnách, nádražích, školách a v nemocnicích. V Hodináriu je [matiční Brillié (inv. 88)](/sbirka/karta/inv-P104-brillie/) a [podružný strojek (inv. A245)](/sbirka/karta/inv-A245-podruzne-brillie/).',
     relatedSlugs: [
       'ato',
       'brillie',
@@ -1023,7 +1023,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Paříž',
     zeme: 'FR',
     shrnuti:
-      'Francouzská firma elektrických hodin založená v roce 1920 elektroinženýrem **Marcelem Moulinem** a obchodníkem **Maurice Favre-Bullem** (od jeho jména název firmy). Princip stroje: **cívka zavěšená na kyvadle prochází polem zahnutého tyčového magnetu** s neobvyklým sledem pólů. Hodiny Bulle byly vyráběny do 50. let 20. století. V Hodináriu je [Hodiny Bulle (inv. 161)](/sbirka/karta/inv-A110-hodiny-bulle-cinske/).',
+      'Francouzská firma elektrických hodin založená v roce 1920 elektroinženýrem **Marcelem Moulinem** a obchodníkem **Maurice Favre-Bullem** (od jeho jména název firmy). Princip stroje: **cívka zavěšená na kyvadle prochází polem zahnutého tyčového magnetu** s neobvyklým sledem pólů. Hodiny Bulle byly vyráběny do 50. let 20. století. V Hodináriu je [Hodiny Bulle (inv. A110)](/sbirka/karta/inv-A110-hodiny-bulle-cinske/).',
     relatedSlugs: [
       'ato',
       'bulle',
@@ -1125,7 +1125,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Berlin',
     zeme: 'DE',
     shrnuti:
-      'Německá hodinářská firma sídlící na okraji Berlína, založená v roce **1824**. Hlavním výrobním programem je **výroba a instalace věžních hodin** — výrobky firmy lze najít na mnoha místech Berlína a Brandenburgu. V Hodináriu Děčín je [věžní Rochlitz (inv. 12)](/sbirka/karta/inv-A012-vezni-rochlitz/).',
+      'Německá hodinářská firma sídlící na okraji Berlína, založená v roce **1824**. Hlavním výrobním programem je **výroba a instalace věžních hodin** — výrobky firmy lze najít na mnoha místech Berlína a Brandenburgu. V Hodináriu Děčín je [věžní Rochlitz (inv. A012)](/sbirka/karta/inv-A012-vezni-rochlitz/).',
     relatedSlugs: ['inv-A012-vezni-rochlitz'],
     era: '19stol',
   },
@@ -1198,7 +1198,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Průhonice',
     zeme: 'CZ',
     shrnuti:
-      'Elektrikář a konstruktér z Průhonic, dlouholetý člen Českého spolku horologického. Vedle řídicích systémů obráběcích strojů se věnuje zakázkové výrobě **skeletových, slunečních a netradičních hodin** kombinujících mechaniku s moderní elektronikou ([kavalir.cz/hodiny](https://www.kavalir.cz/hodiny)). Pro Hodinárium Děčín zhotovil řadu kuriózních exponátů — mj. [retrográdní hodiny z voltmetrů (inv. A176)](/sbirka/karta/inv-A176-retrogradni-hodiny-kavalir/), [skeletové hodiny (inv. 54)](/sbirka/karta/inv-A054-skeletove-hodiny-kavalir/), [model orloje (inv. 65)](/sbirka/karta/inv-A065-orloj-kavalir/), [cimbál s odbíjením (inv. 66)](/sbirka/karta/inv-A066-cimbal-s-odbijenim/) a [zvonění (inv. 243)](/sbirka/karta/inv-243-zvoneni-kavalir/).',
+      'Elektrikář a konstruktér z Průhonic, dlouholetý člen Českého spolku horologického. Vedle řídicích systémů obráběcích strojů se věnuje zakázkové výrobě **skeletových, slunečních a netradičních hodin** kombinujících mechaniku s moderní elektronikou ([kavalir.cz/hodiny](https://www.kavalir.cz/hodiny)). Pro Hodinárium Děčín zhotovil řadu kuriózních exponátů — mj. [retrográdní hodiny z voltmetrů (inv. A176)](/sbirka/karta/inv-A176-retrogradni-hodiny-kavalir/), [skeletové hodiny (inv. A054)](/sbirka/karta/inv-A054-skeletove-hodiny-kavalir/), [model orloje (inv. A065)](/sbirka/karta/inv-A065-orloj-kavalir/), [cimbál s odbíjením (inv. A066)](/sbirka/karta/inv-A066-cimbal-s-odbijenim/) a [zvonění (inv. 243)](/sbirka/karta/inv-243-zvoneni-kavalir/).',
     relatedSlugs: [
       'o-hodinariu',
       'inv-A176-retrogradni-hodiny-kavalir',
