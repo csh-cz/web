@@ -21,7 +21,9 @@ const kartySlugs = new Set(
 // Catalog.json poskytuje thumbnail/excerpt/imageCount; rozdělíme podle slugů
 const catalogAll = (catalog as Entry[]).filter((e) => e.category === 'sbirka');
 const karty = catalogAll.filter((e) => kartySlugs.has(e.slug));
-const clanky = catalogAll.filter((e) => !kartySlugs.has(e.slug));
+// o-hodinariu má vlastní top-level router /o-hodinariu (about-page, ne sbírkový
+// článek) — vyloučen ze sbírka landing, stejně jako v [kategorie]/[slug].astro.
+const clanky = catalogAll.filter((e) => !kartySlugs.has(e.slug) && e.slug !== 'o-hodinariu');
 clanky.sort((a, b) => a.title.localeCompare(b.title, 'cs'));
 
 // Featured karty — preferuj ty s thumbnailem (auto-detected fotka),
