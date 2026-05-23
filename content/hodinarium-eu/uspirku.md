@@ -11,8 +11,6 @@ tags:
   - kuriozita
   - praha
   - elektricke
-relatedKarty:
-  - inv-75-soubor-malych-slunecnich-hodin
 tldr: 'Skeletová kinetická plastika v pražské restauraci U Špirků s elektricky poháněnými ručičkami i kyvadlem — zdařilý příklad simulovaného mechanického chodu, doplněný později o další stylové artefakty.'
 ---
 V historických částech měst jsou oblíbené hospůdky, které uspořádáním svého interiéru navozují starobylou, někdy až středověkou atmosféru. Atmosféru klidu. Atmosféru, ve které jako bychom vnímali ubíhající čas. Napomáhá tomu i materiál - dřevěný "starobylý" nábytek, ozdobně kovaná zábradlí a lustry. A hodiny.

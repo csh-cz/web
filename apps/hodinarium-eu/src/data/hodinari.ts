@@ -540,7 +540,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Pražská firma zakladatelů Ing. Jiskry a Františka Kocmánka, vyráběla kalendářní hodiny s automatickým postupem data — řešení nadčasové i v dnešním kontextu.',
-    relatedSlugs: ['datumatik', 'inv-144-synchronni-datumatic', 'mapa'],
+    relatedSlugs: ['datumatik', 'mapa'],
     era: '20stol',
   },
   {
