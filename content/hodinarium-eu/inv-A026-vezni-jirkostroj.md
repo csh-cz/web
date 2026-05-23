@@ -17,6 +17,7 @@ tags:
 karta:
   inventarniCislo: "A026"
   umisteni: "Hlavní sál"
+  vyrobce: "Johann Lissner"
   pridanoDoSbirky: "2021"
   majitel: "zápůjčka"
   vztahKeSbirce: "montáž"

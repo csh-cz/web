@@ -16,6 +16,7 @@ tags:
 karta:
   inventarniCislo: "A047"
   umisteni: "Hlavní sál"
+  vyrobce: "Petr Skála a Miroslav Kotrba"
   pridanoDoSbirky: "2015"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
