@@ -286,25 +286,6 @@
     ]
   },
   {
-    "slug": "inv-148-bateriove-kienzle",
-    "title": "Bateriové Kienzle",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Kienzle",
-    "tags": [
-      "vitrina-1-vedlejsi",
-      "funkcni",
-      "kienzle",
-      "nastenne"
-    ]
-  },
-  {
     "slug": "inv-37-bici-stroj-brillie",
     "title": "bicí stroj Brillié",
     "category": "sbirka",
@@ -6708,23 +6689,6 @@
     "wordCount": 11,
     "tags": [
       "panel-3"
-    ]
-  },
-  {
-    "slug": "inv-146-synchronni-stolni-sklenene",
-    "title": "Synchronní stolní skleněné",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "vitrina-1-vedlejsi",
-      "stolni",
-      "funkcni"
     ]
   },
   {
