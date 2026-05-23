@@ -14,7 +14,9 @@ tags:
 karta:
   inventarniCislo: "P305"
   umisteni: "Panel 3"
-  stav: "dřevěný kryt"
+  vztahKeSbirce: "zápůjčka"
+  vyrobce: "Miroslav Baudisch"
+  stav: "funkční"
 ---
 
 ## Stub karty

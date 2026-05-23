@@ -305,7 +305,6 @@ const vyrobceOpts = Object.entries(vyrobceCounts)
           <span role="columnheader">Hodinář / výrobce</span>
           <span role="columnheader">Typ</span>
           <span role="columnheader">Stav</span>
-          <span role="columnheader">Vztah</span>
         </div>
         {list.map((e) => {
           const slug = cardSlugFor(e);
@@ -331,7 +330,6 @@ const vyrobceOpts = Object.entries(vyrobceCounts)
               </span>
               <span class="katalog-typ" role="cell">{e.typ || '—'}</span>
               <span class="katalog-stav" role="cell">{e.stav || '—'}</span>
-              <span class="katalog-vztah" role="cell">{e.vztah || '—'}</span>
             </>
           );
           const dataAttrs = {
@@ -507,7 +505,7 @@ const vyrobceOpts = Object.entries(vyrobceCounts)
   }
   .katalog-row {
     display: grid;
-    grid-template-columns: 50px 2fr 1.4fr 1fr 0.9fr 0.9fr;
+    grid-template-columns: 50px 2fr 1.4fr 1fr 0.9fr;
     gap: 0.75rem;
     padding: 0.5rem 0.85rem;
     align-items: baseline;
@@ -554,7 +552,7 @@ const vyrobceOpts = Object.entries(vyrobceCounts)
     font-style: italic;
     font-size: 0.85em;
   }
-  .katalog-typ, .katalog-stav, .katalog-vztah, .katalog-vyrobce {
+  .katalog-typ, .katalog-stav, .katalog-vyrobce {
     color: var(--color-text-soft);
   }
   .katalog-vyrobce {
@@ -632,7 +630,7 @@ const vyrobceOpts = Object.entries(vyrobceCounts)
       padding: 0.65rem 0.75rem;
     }
     .katalog-head { display: none; }
-    .katalog-typ, .katalog-stav, .katalog-vztah, .katalog-vyrobce {
+    .katalog-typ, .katalog-stav, .katalog-vyrobce {
       grid-column: 2;
       font-size: 0.78rem;
     }

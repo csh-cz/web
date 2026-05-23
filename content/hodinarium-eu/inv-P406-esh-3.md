@@ -14,6 +14,8 @@ tags:
 karta:
   inventarniCislo: "P406"
   umisteni: "Panel 4"
+  stav: "funkční"
+  vyrobce: "Miroslav Baudisch"
 ---
 
 ## Stub karty

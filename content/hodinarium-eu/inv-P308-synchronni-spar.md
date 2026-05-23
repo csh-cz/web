@@ -14,6 +14,9 @@ tags:
 karta:
   inventarniCislo: "P308"
   umisteni: "Panel 3"
+  vztahKeSbirce: "dar"
+  stav: "funkční"
+  vyrobce: "Český spolek horologický"
 ---
 
 ## Stub karty

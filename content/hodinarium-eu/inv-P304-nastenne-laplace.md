@@ -14,7 +14,9 @@ tags:
 karta:
   inventarniCislo: "P304"
   umisteni: "Panel 3"
-  stav: "Českomoravská"
+  vztahKeSbirce: "zápůjčka"
+  vyrobce: "Petr Král"
+  stav: "funkční"
 ---
 
 ## Stub karty
