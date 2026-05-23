@@ -14,6 +14,9 @@ tags:
 karta:
   inventarniCislo: "P302"
   umisteni: "Panel 3"
+  vztahKeSbirce: "zápůjčka"
+  stav: "funkční"
+  vyrobce: "Petr Král"
 ---
 
 ## Stub karty

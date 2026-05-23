@@ -14,6 +14,8 @@ tags:
 karta:
   inventarniCislo: "P410"
   umisteni: "Panel 4"
+  stav: "funkční"
+  vyrobce: "Petr Král"
 ---
 
 ## Stub karty

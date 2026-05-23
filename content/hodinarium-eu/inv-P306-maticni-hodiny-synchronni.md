@@ -14,7 +14,9 @@ tags:
 karta:
   inventarniCislo: "P306"
   umisteni: "Panel 3"
-  stav: "Siemens"
+  vztahKeSbirce: "zápůjčka"
+  vyrobce: "Petr Král"
+  stav: "funkční"
 ---
 
 ## Stub karty

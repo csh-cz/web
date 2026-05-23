@@ -14,6 +14,9 @@ tags:
 karta:
   inventarniCislo: "P301"
   umisteni: "Panel 3"
+  vztahKeSbirce: "zápůjčka"
+  stav: "funkční"
+  vyrobce: "Miroslav Baudisch"
 ---
 
 ## Stub karty
