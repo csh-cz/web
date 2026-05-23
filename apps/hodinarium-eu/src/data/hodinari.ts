@@ -1194,15 +1194,15 @@ export const hodinari: Hodinar[] = [
 
   // === Druhá vlna auditu článků (2026-05-01) — výrobci zmiňovaní v textu ===
   {
-    slug: 'kavalir',
-    jmeno: 'Kavalír (firma)',
-    aliasy: ['Kavalír', 'Kavalir', 'sklárna Kavalír'],
-    typ: 'firma',
+    slug: 'jaroslav-kavalir',
+    jmeno: 'Jaroslav Kavalír',
+    aliasy: ['Kavalír', 'Kavalir', 'Ing. Jaroslav Kavalír'],
+    typ: 'osoba',
     obdobi: 'akt. 1990–dosud',
-    mesto: 'Sázava',
+    mesto: 'Průhonice',
     zeme: 'CZ',
     shrnuti:
-      'Současná česká sklárna a výrobce uměleckých skleněných objektů, mj. **modelů orlojů a hodin se sklem**. V Hodináriu Děčín jsou exponáty: [skeletové hodiny Kavalír (inv. 54)](/sbirka/karta/inv-54-skeletove-hodiny-kavalir/), [Orloj Kavalír — model (inv. 65)](/sbirka/karta/inv-65-orloj-kavalir/), [Cimbál s odbíjením (inv. 66)](/sbirka/karta/inv-66-cimbal-s-odbijenim/), [Zvonění Kavalír (inv. 243)](/sbirka/karta/inv-243-zvoneni-kavalir/). Firma vyrábí i odbíjecí zařízení s programovatelnou dobou odbíjení.',
+      'Elektrikář a konstruktér z Průhonic, dlouholetý člen Českého spolku horologického. Vedle řídicích systémů obráběcích strojů se věnuje zakázkové výrobě **skeletových, slunečních a netradičních hodin** kombinujících mechaniku s moderní elektronikou ([kavalir.cz/hodiny](https://www.kavalir.cz/hodiny)). Pro Hodinárium Děčín zhotovil řadu kuriózních exponátů — mj. [retrográdní hodiny z voltmetrů (inv. A176)](/sbirka/karta/inv-A176-retrogradni-hodiny-kavalir/), [skeletové hodiny (inv. 54)](/sbirka/karta/inv-54-skeletove-hodiny-kavalir/), [model orloje (inv. 65)](/sbirka/karta/inv-65-orloj-kavalir/), [cimbál s odbíjením (inv. 66)](/sbirka/karta/inv-66-cimbal-s-odbijenim/) a [zvonění (inv. 243)](/sbirka/karta/inv-243-zvoneni-kavalir/).',
     relatedSlugs: [
       'o-hodinariu',
       'inv-A176-retrogradni-hodiny-kavalir',
@@ -1212,7 +1212,6 @@ export const hodinari: Hodinar[] = [
       'inv-64-mysteriozni-natahovani',
       'inv-65-orloj-kavalir',
       'inv-66-cimbal-s-odbijenim',
-      'kavalir',
     ],
     era: 'soucasnost',
   },
