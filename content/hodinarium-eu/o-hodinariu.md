@@ -48,7 +48,7 @@ V okolí dnes již historických fotografií pražského orloje, doufáme, že v
 
 ## Výstavní galerie
 
-V první sezóně v roce 2015 byly hlavními vystavenými výtvarnými díly vyřezávané oboustranné hodiny od pana Josefa Achrera a nový orloj akademického sochaře Petra Skály a Miroslava Kotrby. Můžeme sem zařadit i skeletové hodiny [Jaroslav Kavalír, Pavel Hrubý](/virtualni-muzeum/kavalir), kované hodiny pana Zdeňka Legnera a jiné. Dále budou uspořádány drobnější výstavky děl různých autorů.
+V první sezóně v roce 2015 byly hlavními vystavenými výtvarnými díly vyřezávané oboustranné hodiny od pana Josefa Achrera a nový orloj akademického sochaře Petra Skály a Miroslava Kotrby. Můžeme sem zařadit i skeletové hodiny [Jaroslav Kavalír, Pavel Hrubý](/sbirka/karta/inv-A054-skeletove-hodiny-kavalir), kované hodiny pana Zdeňka Legnera a jiné. Dále budou uspořádány drobnější výstavky děl různých autorů.
 
 Autorem hodin na obrázku vpravo je hodinář a řezbář [Josef Achrer](/hodinari/josef-achrer) (\*1927 - +1988). Hodiny byly zhotoveny v roce 1985 pro restauraci ČD v rámci rekonstrukce nádraží v pražských Holešovicích. V roce 2015 byly zakoupeny soukromým sběratelem a zapůjčeny na tuto výstavu. Hodiny jsou umístěny ve vyřezávané skříni s číselníky po obou stranách skříně. Na jedné straně jsou ručičky normálního číselníku, na druhé straně jsou číselníky ve tvaru otáčejících se disků. Disky představují hodiny a minuty, dále datum s jemným rozlišením dopoledne a odpoledne a disk sekund. Pohyb zajišťují dva podružné strojky Elektročas PS 1000.
 
