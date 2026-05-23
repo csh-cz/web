@@ -106,6 +106,7 @@
 /sbirka/podruzne-sekundove /sbirka/karta/inv-A201-podruzne-hodiny-s-vterinovkou 301
 /sbirka/karta/inv-144-synchronni-datumatic /konstrukce/datumatik 301
 /sbirka/karta/inv-75-soubor-malych-slunecnich-hodin /sbirka/katalog 301
+/sbirka/karta/inv-113-eh40 /sbirka/katalog 301
 
 # === Legacy *.htm → 404 (pre-launch, žádná SEO kontinuita) ===
 /*.htm /404 404

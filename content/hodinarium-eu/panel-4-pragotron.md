@@ -16,7 +16,6 @@ author: "Český spolek horologický"
 perex: "Panel 4 v Sálu elektro je osazen převážně výrobky firmy Elektročas/Pragotron — matiční hodiny, signální hodiny, linkové rozváděče, podružné hodiny CPJ061 a IPJ0612 a několik způsobů elektronické či rádiové synchronizace (DCF, GPS)."
 relatedKarty:
   - inv-P401-cpj-061
-  - inv-113-eh40
   - inv-P403-sh40
   - inv-P404-zz42
   - inv-P406-esh-3
@@ -36,7 +35,7 @@ tldr: 'Sestava výrobků Elektročas/Pragotron: matiční EH40, signální SH40,
 
 V horní části panelu jsou [podružné hodiny](/slovnik/podruzne-hodiny) [CPJ061](/sbirka/karta/inv-P401-cpj-061/), které kromě časové informace ukazují den v týdnu, datum a měsíc.
 
-Ve sloupci pod nimi jsou matiční hodiny [EH40](/sbirka/karta/inv-113-eh40/) (na panelu označené EH41 — dnes evidováno jako EH40), které řídí CPJ061. Linkový rozváděč [RL 83](/sbirka/karta/inv-P408-rl-83/) (na panelu RL40) napájí tři datové linky, na panelu představované třemi podružnými hodinami [IPJ0612](/sbirka/karta/inv-P412-ipj-0612-3x/).
+Ve sloupci pod nimi jsou matiční hodiny EH40 (na panelu označené EH41 — dnes evidováno jako EH40), které řídí CPJ061. Linkový rozváděč [RL 83](/sbirka/karta/inv-P408-rl-83/) (na panelu RL40) napájí tři datové linky, na panelu představované třemi podružnými hodinami [IPJ0612](/sbirka/karta/inv-P412-ipj-0612-3x/).
 
 Na matiční hodiny jsou ještě napojeny signální hodiny [SH40](/sbirka/karta/inv-P403-sh40/). Celou sestavu napájí zdroj [ZZ42](/sbirka/karta/inv-P404-zz42/) (na panelu ZZ41).
 
