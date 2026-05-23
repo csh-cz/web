@@ -16,7 +16,7 @@ tags:
   - 1900s
 tldr: 'Polovičatá konstrukce mezi mechanickým a elektrickým strojem — chodové soukolí, brzdící větrník a zarážka uvolňovaná čtyřpólovým krokovým motorkem; varianty VH1 s diferenciálem i exemplář bez signatury.'
 relatedKarty:
-  - inv-50-podruzne-vezni-vh1-elektrocas
+  - inv-A050-podruzne-vezni-vh1-elektrocas
 ---
 Chodový podružný věžní stroj Elektročas vypouštěný minutovými [impulzy](/slovnik/impulsy)
 představuje můstek k nově budované expozici elektrických hodin v Hodináriu

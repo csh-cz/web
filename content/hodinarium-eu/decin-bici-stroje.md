@@ -8,7 +8,7 @@ lastModified: "Sun, 30 Apr 2017 15:09:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:29.054Z"
 relatedKarty:
-  - inv-2-vezni-prokes-1868-soubor
+  - inv-A002-vezni-prokes-1868-soubor
 tags:
   - vezni
   - elektricke
@@ -22,7 +22,7 @@ Do expozice časoměrných strojů na zámku Děčín dorazil poněkud komplikov
 
 [![zvonicí stroj](/img/vez/bychory/f/zvonici_stroj.jpg)](/img/vez/bychory/f/zvonici_stroj.jpg)[![Věžni muzejíčko - Prokeš 1868 - Býchory](/img/vez/bychory/Prokes1868_3.jpg)](/img/vez/bychory/f/Prokes1868_3.jpg)
 
-Pro odbíjení mechanických věžní hodin se nejčastěji používá systém se závěrkovým kolem. Závěrková kola pro [čtvrťové bití](/slovnik/ctvrtove-biti) i pro bití celých hodin vidíte například na stroji [Prokeš 1868](/sbirka/karta/inv-2-vezni-prokes-1868-soubor) (první obrázek vpravo). Délka segmentu závěrkového kola určuje počet úderů. Po zapadnutí závěrkové páky se systém zastaví a čeká na spuštění pro odbití další hodiny. Tento systém neumožňuje opakování bití, což ovšem u věžních hodin není požadováno. Mezním případem závěrkového kola jen s jedním zářezem je závěrkový mechanismus [zvonícího stroje kompletu Býchory](/sbirka/karta/inv-2-vezni-prokes-1868-soubor#zvonici-stroj-kuriozita-kompletu). V tomto případě je řešení kombinováno převodovým poměrem, který umožňuje zapadnutí západky až po třech otáčkách. Zvonící stroj tak může odzvonit až sto úderů. Dnes se odbíjení i zvonění svěřuje elektronice.
+Pro odbíjení mechanických věžní hodin se nejčastěji používá systém se závěrkovým kolem. Závěrková kola pro [čtvrťové bití](/slovnik/ctvrtove-biti) i pro bití celých hodin vidíte například na stroji [Prokeš 1868](/sbirka/karta/inv-A002-vezni-prokes-1868-soubor) (první obrázek vpravo). Délka segmentu závěrkového kola určuje počet úderů. Po zapadnutí závěrkové páky se systém zastaví a čeká na spuštění pro odbití další hodiny. Tento systém neumožňuje opakování bití, což ovšem u věžních hodin není požadováno. Mezním případem závěrkového kola jen s jedním zářezem je závěrkový mechanismus [zvonícího stroje kompletu Býchory](/sbirka/karta/inv-A002-vezni-prokes-1868-soubor#zvonici-stroj-kuriozita-kompletu). V tomto případě je řešení kombinováno převodovým poměrem, který umožňuje zapadnutí západky až po třech otáčkách. Zvonící stroj tak může odzvonit až sto úderů. Dnes se odbíjení i zvonění svěřuje elektronice.
 
 U interiérových hodin se později prosadil systém s [početníkem](/slovnik/pocetnik), který opakované bití umožňoval. I u některých věžních hodin se tento systém s typickou vačkou objevil. (Zatím ho v naší expozici nemáme.) Surrerwerk - bicí systém s různě dlouhými kolíky se příliš neprosadil. Důvodem patrně bylo obtížné seřizování posuvných pák u mechanického stroje. Použití tohoto systému u švarcvaldek najdete [zde](/konstrukce/svarcvaldky-surrerwerk). Použití systému s různě dlouhými kolíky je u věžního stroje tak spíše výjimečné. V naší expozici představujeme tento bicí systém v elektrické verzi, která je určitou směsí všech systémů. Odbíjení čtvrtí je realizováno kruhovým spínačem ve funkci závěrkového kola, odbíjení celých hodin je provedeno různě dlouhými kolíky, mechanismus pro nastavení bicí páky připomíná vačku početníkového systému. Posuďte sami.
 

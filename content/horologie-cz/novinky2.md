@@ -13,7 +13,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 
 - 3.1.2016 [Toulavá kamera navštívila Hodinárium](/kronika/decin-toulava-kamera2016)
 
-- 29.12.2015 [Kovaný stroj Wenzel Mellner](/sbirka/karta/inv-13-vezni-wenzel-mellner) zakoupený naším sponzorem se začíná restaurovat.
+- 29.12.2015 [Kovaný stroj Wenzel Mellner](/sbirka/karta/inv-A013-vezni-wenzel-mellner) zakoupený naším sponzorem se začíná restaurovat.
 - 4\. 9. 2015 První otevření Hodinária Děčín
 - 20\. 8. 2015 Instalován [elektrický bicí stroj Brillie](/sbirka/decin-bici-stroje)
 - 6\. 8. 2015 Výstavka 2015 v Hodináriu Děčín. [Výtvarné miniatury ve tvaru kostky - Dr. Jaroslav Adam](https://hodinarium-eu.pages.dev/virtualni-muzeum/kostky)
@@ -27,11 +27,11 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 8\. 4. 2013 Fotogalerie [Mindelheim](https://hodinarium-eu.pages.dev/muzea/mindelheim)
 - 2\. 3. 2013 [Sezóna 2013](https://hodinarium-eu.pages.dev/kronika/sezona2013)
 - 20\. 2. 2013 [Osvobozování Fausta](https://hodinarium-eu.pages.dev/kronika/faust)
-- 11\. 2. 2013 [Přírůstek Věžního muzejíčka - špindlový věžní stroj](https://hodinarium-eu.pages.dev/sbirka/karta/inv-4-vezni-18-stol)
+- 11\. 2. 2013 [Přírůstek Věžního muzejíčka - špindlový věžní stroj](https://hodinarium-eu.pages.dev/sbirka/karta/inv-A004-vezni-18-stol)
 
 - 21\. 7. 2012 Kalendářní hodiny [Datumatic](https://hodinarium-eu.pages.dev/konstrukce/datumatik)
-- 16\. 5. 2012 Věžní muzejíčko - [restaurování stroje](/sbirka/karta/inv-6-vezni-michael-christ) z kostela Horní Prysk
-- 29\. 4. 2012 Věžní muzejíčko - [restaurování barokního "ministroje" stroje](/sbirka/karta/inv-3-barokni-ministroj-18-stol) z kostela ve Zlatých horách
+- 16\. 5. 2012 Věžní muzejíčko - [restaurování stroje](/sbirka/karta/inv-A006-vezni-michael-christ) z kostela Horní Prysk
+- 29\. 4. 2012 Věžní muzejíčko - [restaurování barokního "ministroje" stroje](/sbirka/karta/inv-A003-barokni-ministroj-18-stol) z kostela ve Zlatých horách
 - 29\. 4. 2012 Věžní muzejíčko - Příprava sezóna 2012 - [výstava fotografií známých zvonů](/kronika/sezona2012-foto-marusak). Plánovaná výstava [steapunkových šperků](https://hodinarium-eu.pages.dev/kronika/steampunk).
 
 - 30.10.2011 [Odlévání zvonu Petr Vok](https://hodinarium-eu.pages.dev/zvony/zvon-petr-vok)
@@ -43,10 +43,10 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 28\. 7. 2011 Přepracována [úvodní stránka Věžního muzejíča](/kronika/vezni-muzejicko)
 - 27\. 7. 2011 Provedena větší úprava zejména proto, že byly doplněny nové fotografie
     expozice od pana Stan. Marušáka. Změna se týká zejména stránek:
-    \- **[stroj Prokeš 1868](/sbirka/karta/inv-2-vezni-prokes-1868-soubor)** ze zámku Býchory
+    \- **[stroj Prokeš 1868](/sbirka/karta/inv-A002-vezni-prokes-1868-soubor)** ze zámku Býchory
     \- [soběslavský starý stroj](https://hodinarium-eu.pages.dev/kronika/vez1)
     \- [cimbály Býchory](https://hodinarium-eu.pages.dev/sbirka/bychory_prokes1#cimbaly-bellmannova-slevarna-1868)
-    \- [rozvody ze zvoničky Svinky](/sbirka/karta/inv-2-vezni-prokes-1868-soubor)
+    \- [rozvody ze zvoničky Svinky](/sbirka/karta/inv-A002-vezni-prokes-1868-soubor)
     \- [zvonicí stroj](https://hodinarium-eu.pages.dev/sbirka/bychory_prokes1#zvonici-stroj-kuriozita-kompletu) ze zámku Býchory
 - 26\. 7. 2011 Stránka o [restaurování povrchové úpravy](https://hodinarium-eu.pages.dev/sbirka/bychory_prokes1#restaurovani-od-nalezu-k-expozici) stroje Prokeš1868
 - 21\. 7. 2011 Změněna úvodní stránka celého webu. Zavedeno rozdělení na tři směry

@@ -7,7 +7,7 @@ lastModified: "Wed, 26 Apr 2017 13:37:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:44.695Z"
 relatedKarty:
-  - inv-198-podruzny-stroj-pragotron-maly
+  - inv-A198-podruzny-stroj-pragotron-maly
 tldr: 'Sběratelský přehled analogových (C30/C40, C301/C401, PPH 413) a digitálních listových (CPJ 061, DPJ 061, IPJ 061/0612) hodin Pragotron Čelákovice od 70. let do roku 2006.'
 ---
 ukázka ze soukromé sbírky

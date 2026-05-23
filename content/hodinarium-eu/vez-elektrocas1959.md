@@ -8,7 +8,7 @@ lastModified: "Sun, 23 Apr 2017 15:54:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:38.205Z"
 relatedKarty:
-  - inv-17-vezni-hainz
+  - inv-A017-vezni-hainz
 tags:
   - vezni
   - mechanicke

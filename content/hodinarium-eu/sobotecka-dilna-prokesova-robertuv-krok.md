@@ -48,7 +48,7 @@ První dvě desetiletí (1839–1868) stavěl Prokeš věžní hodiny standardn�
 
 Datace 1868 koresponduje s **vypršením francouzského patentu** (1867). Pravděpodobné je, že Prokeš se s krokem seznámil na **pařížské Světové výstavě 1867** — francouzské hodiny tam byly veřejně k vidění bez patentových omezení.
 
-Prvním dochovaným strojem s Robertovým krokem od Prokeše je **věžní stroj z roku 1868 z Bychor u Kolína** — dnes ve sbírce **[Hodinária Děčín pod inv. č. 2](/sbirka/karta/inv-2-vezni-prokes-1868-soubor/)**.
+Prvním dochovaným strojem s Robertovým krokem od Prokeše je **věžní stroj z roku 1868 z Bychor u Kolína** — dnes ve sbírce **[Hodinária Děčín pod inv. č. 2](/sbirka/karta/inv-A002-vezni-prokes-1868-soubor/)**.
 
 ## Proč právě Robertův krok? Tři hypotézy
 
@@ -100,18 +100,18 @@ Z přibližně 400 Prokešových strojů se do dneška dochovalo **několik des�
 
 Hodinářský atelier **[Petra Skály](/hodinari/petr-skala)** (Sadská) zrestauroval v posledních dvou desetiletích nejméně **5 Prokešových strojů**, z nich několik s Robertovým krokem. Také hodinářství **Jan Marek** ([webové stránky](https://www.hodinarstvi-marek.cz/)) provedl restaurace mj. v **Jenišovicích u Turnova (1882)** a **Bošíně u Nymburka (1887)** — obě s Robertovým krokem (viz restaurátorská dokumentace v Zoteru `marekHodinovyVezniStroj2017` a `marekHodinovyVezniStroj2020`).
 
-Aktuální nejstarší dochovaný Prokešův stroj s Robertovým krokem je **Bychory 1868** ve sbírce ČSH ([inv. 2](/sbirka/karta/inv-2-vezni-prokes-1868-soubor/)). Nejnovější je **Milíčeves 1905** (L. Prokeš).
+Aktuální nejstarší dochovaný Prokešův stroj s Robertovým krokem je **Bychory 1868** ve sbírce ČSH ([inv. 2](/sbirka/karta/inv-A002-vezni-prokes-1868-soubor/)). Nejnovější je **Milíčeves 1905** (L. Prokeš).
 
 ## Tabulka vybraných doložených strojů
 
 | Rok | Lokalita | Poznámka |
 |---|---|---|
-| **1868** | [Bychory u Kolína (zámek)](/soupis-veznich-hodin/1868-bychory-prokes) | dnes [Hodinárium Děčín inv. 2](/sbirka/karta/inv-2-vezni-prokes-1868-soubor/); nejstarší dochovaný Prokešův Robertův krok |
+| **1868** | [Bychory u Kolína (zámek)](/soupis-veznich-hodin/1868-bychory-prokes) | dnes [Hodinárium Děčín inv. 2](/sbirka/karta/inv-A002-vezni-prokes-1868-soubor/); nejstarší dochovaný Prokešův Robertův krok |
 | 1869 | Dymokury (zámek) | funkční |
 | **1879** | Markvartice (kostel sv. Jiljí) | přestavba barokního stroje 1788 na Robertův krok |
 | 1880 | Hořice | 700 zl. |
 | 1881–82 | Přibyslav | 630 zl. |
-| **1882** | Česká Skalice (Stará radnice) | viz [karta inv. 32](/sbirka/karta/inv-32-vezni-skalice/) |
+| **1882** | Česká Skalice (Stará radnice) | viz [karta inv. 32](/sbirka/karta/inv-A032-vezni-skalice/) |
 | 1882 | Jenišovice u Turnova (kostel sv. Jiří) | restaurace J. Marek 2017 |
 | 1887 | Bošín u Nymburka (ev. kostel) | restaurace J. Marek 2020 |
 | **1905** | [Milíčeves (zámek)](#prakticky-dusledek-nutnost-rucniho-doladovani) | **L. Prokeš z Jičína** — typický příklad ručního dolaďování |
@@ -139,5 +139,5 @@ Aktuální nejstarší dochovaný Prokešův stroj s Robertovým krokem je **Byc
 - **[L. Prokeš](/hodinari/leopold-prokes)** — pokračovatel v Jičíně
 - **[Robertův krok](/kroky/robertuv-krok)** — slovníkové heslo s technickým popisem a terminologickou diskuzí
 - **[Edmund Kinšner](/hodinari/edmund-kinsner)** — Prokešův žák, autor patentovaných orlojových variant
-- **[Bychory inv. 2](/sbirka/karta/inv-2-vezni-prokes-1868-soubor/)** — nejstarší dochovaný Prokešův stroj s Robertovým krokem v Hodináriu Děčín
+- **[Bychory inv. 2](/sbirka/karta/inv-A002-vezni-prokes-1868-soubor/)** — nejstarší dochovaný Prokešův stroj s Robertovým krokem v Hodináriu Děčín
 - **[Pražský orloj — restaurování 2018](/zajimavosti/prazsky-orloj-restaurovani-2018)** — kontext sporu Prokeš × Božek × Holub o pražskou opravu 1864
