@@ -1,5 +1,5 @@
 ---
-title: "věžní"
+title: "Věžní hodiny"
 slug: "inv-A010-vezni"
 category: "sbirka"
 podsekce: "karta"
@@ -16,7 +16,7 @@ tags:
   - krok-amant
 karta:
   inventarniCislo: "A010"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2016"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

@@ -1,5 +1,5 @@
 ---
-title: "Věžní Skalice"
+title: "Věžní hodiny Skalice"
 slug: "inv-A032-vezni-skalice"
 category: "sbirka"
 podsekce: "karta"
@@ -22,7 +22,7 @@ tags:
   - cesko
 karta:
   inventarniCislo: "A032"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2022"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

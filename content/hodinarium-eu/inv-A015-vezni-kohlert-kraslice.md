@@ -1,5 +1,5 @@
 ---
-title: "věžní Kohlert Kraslice"
+title: "Věžní hodiny Kohlert Kraslice"
 slug: "inv-A015-vezni-kohlert-kraslice"
 category: "sbirka"
 podsekce: "karta"
@@ -17,7 +17,7 @@ tags:
   - kohlert
 karta:
   inventarniCislo: "A015"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Kohlert"
   pridanoDoSbirky: "2016"
   majitel: "zápůjčka"

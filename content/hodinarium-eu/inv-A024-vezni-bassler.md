@@ -1,5 +1,5 @@
 ---
-title: "věžní Bassler"
+title: "Věžní hodiny Bassler"
 slug: "inv-A024-vezni-bassler"
 category: "sbirka"
 podsekce: "karta"
@@ -17,7 +17,7 @@ tags:
   - bassler
 karta:
   inventarniCislo: "A024"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Friedrich Moritz Bassler"
   pridanoDoSbirky: "2020"
   majitel: "zápůjčka"

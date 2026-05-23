@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "A042"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2016"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

@@ -15,7 +15,7 @@ tags:
   - torzo
 karta:
   inventarniCislo: "A062"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2020"
   majitel: "ČSH"
   vztahKeSbirce: "koupě"

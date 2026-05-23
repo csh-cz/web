@@ -1,5 +1,5 @@
 ---
-title: "věžní Polevsko Hainz"
+title: "Věžní hodiny Polevsko Hainz"
 slug: "inv-A030-vezni-polevsko-hainz"
 category: "sbirka"
 podsekce: "karta"
@@ -17,7 +17,7 @@ tags:
   - hainz
 karta:
   inventarniCislo: "A030"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Hainz"
   pridanoDoSbirky: "2022"
   majitel: "zápůjčka"

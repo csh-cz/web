@@ -1,5 +1,5 @@
 ---
-title: "věžní dřevěné"
+title: "Věžní hodiny dřevěné"
 slug: "inv-A021-vezni-drevene"
 category: "sbirka"
 podsekce: "karta"
@@ -16,7 +16,7 @@ tags:
   - krok-vreteno
 karta:
   inventarniCislo: "A021"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2018"
   majitel: "ČSH"
   vztahKeSbirce: "dar"

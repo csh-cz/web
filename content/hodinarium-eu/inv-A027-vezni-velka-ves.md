@@ -1,5 +1,5 @@
 ---
-title: "věžní Velká Ves"
+title: "Věžní hodiny Velká Ves"
 slug: "inv-A027-vezni-velka-ves"
 category: "sbirka"
 podsekce: "karta"
@@ -25,7 +25,7 @@ tags:
   - zavazi
 karta:
   inventarniCislo: "A027"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2020"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

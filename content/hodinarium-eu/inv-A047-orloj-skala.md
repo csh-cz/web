@@ -15,7 +15,7 @@ tags:
   - vezni
 karta:
   inventarniCislo: "A047"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Petr Skála a Miroslav Kotrba"
   pridanoDoSbirky: "2015"
   majitel: "zápůjčka"

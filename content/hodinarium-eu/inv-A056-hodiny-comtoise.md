@@ -16,7 +16,7 @@ tags:
   - nastenne
 karta:
   inventarniCislo: "A056"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2021"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

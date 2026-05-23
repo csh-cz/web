@@ -1,5 +1,5 @@
 ---
-title: "Věžní Lexa"
+title: "Věžní hodiny Lexa"
 slug: "inv-A033-vezni-lexa"
 category: "sbirka"
 podsekce: "karta"
@@ -16,7 +16,7 @@ tags:
   - krok-graham
 karta:
   inventarniCislo: "A033"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Johann Lissner"
   pridanoDoSbirky: "2023"
   majitel: "zápůjčka"

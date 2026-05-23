@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "A063"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2021"
   majitel: "ČSH"
   vztahKeSbirce: "dar"

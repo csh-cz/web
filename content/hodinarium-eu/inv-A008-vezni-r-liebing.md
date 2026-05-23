@@ -1,5 +1,5 @@
 ---
-title: "věžní R. Liebing"
+title: "Věžní hodiny R. Liebing"
 slug: "inv-A008-vezni-r-liebing"
 category: "sbirka"
 podsekce: "karta"
@@ -17,7 +17,7 @@ tags:
   - liebing
 karta:
   inventarniCislo: "A008"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Richard Liebing"
   pridanoDoSbirky: "2015"
   majitel: "zápůjčka"

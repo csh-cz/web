@@ -1,5 +1,5 @@
 ---
-title: "Věžní Benešov radnice"
+title: "Věžní hodiny Benešov radnice"
 slug: "inv-A034-vezni-benesov-radnice"
 category: "sbirka"
 podsekce: "karta"
@@ -16,7 +16,7 @@ tags:
   - krok-graham
 karta:
   inventarniCislo: "A034"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2025"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

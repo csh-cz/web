@@ -1,5 +1,5 @@
 ---
-title: "věžní Prokeš 1868 soubor"
+title: "Věžní hodiny Prokeš 1868 soubor"
 slug: "inv-A002-vezni-prokes-1868-soubor"
 category: "sbirka"
 podsekce: "karta"
@@ -24,7 +24,7 @@ tags:
   - restaurovane
 karta:
   inventarniCislo: "A002"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   datace: "1868"
   vyrobce: "Jan Prokeš"
   ram: "klecový z ocelových pásnic"

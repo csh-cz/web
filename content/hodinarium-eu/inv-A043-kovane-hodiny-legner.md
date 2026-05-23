@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "A043"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

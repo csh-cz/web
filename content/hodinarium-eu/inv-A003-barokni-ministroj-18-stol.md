@@ -15,7 +15,7 @@ karta:
   ciselnik: ''
   pohonDetail: ''
   rozmery: 30 × 21 × 29 cm
-  umisteni: Sál Věžní
+  umisteni: "Sál věžních hodin"
   majitel: ''
   darceZapujcitel: ''
   vztahKeSbirce: zápůjčka

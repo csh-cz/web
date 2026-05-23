@@ -1,5 +1,5 @@
 ---
-title: "věžní Holanďan"
+title: "Věžní hodiny Holanďan"
 slug: "inv-A022-vezni-holandan"
 category: "sbirka"
 podsekce: "karta"
@@ -16,7 +16,7 @@ tags:
   - krok-clement
 karta:
   inventarniCislo: "A022"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2018"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

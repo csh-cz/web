@@ -1,5 +1,5 @@
 ---
-title: věžní Hiemann 1884
+title: "Věžní hodiny Hiemann 1884"
 slug: "inv-A001-vezni-hiemann-1884"
 category: sbirka
 podsekce: karta
@@ -15,7 +15,7 @@ karta:
   ciselnik: ''
   pohonDetail: ''
   rozmery: ''
-  umisteni: Sál Věžní
+  umisteni: "Sál věžních hodin"
   majitel: zápůjčka
   darceZapujcitel: ''
   vztahKeSbirce: zápůjčka

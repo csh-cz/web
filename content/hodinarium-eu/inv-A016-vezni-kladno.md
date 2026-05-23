@@ -1,5 +1,5 @@
 ---
-title: "věžní Kladno"
+title: "Věžní hodiny Kladno"
 slug: "inv-A016-vezni-kladno"
 category: "sbirka"
 podsekce: "karta"
@@ -16,7 +16,7 @@ tags:
   - krok-graham
 karta:
   inventarniCislo: "A016"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2017"
   majitel: "ČSH"
   vztahKeSbirce: "koupě"

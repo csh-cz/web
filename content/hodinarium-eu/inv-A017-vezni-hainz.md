@@ -1,5 +1,5 @@
 ---
-title: "věžní Hainz"
+title: "Věžní hodiny Hainz"
 slug: "inv-A017-vezni-hainz"
 category: "sbirka"
 podsekce: "karta"
@@ -17,7 +17,7 @@ tags:
   - hainz
 karta:
   inventarniCislo: "A017"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Hainz"
   pridanoDoSbirky: "2018"
   majitel: "ČSH"

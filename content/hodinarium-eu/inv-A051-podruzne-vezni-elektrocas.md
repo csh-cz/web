@@ -1,5 +1,5 @@
 ---
-title: "podružné věžní  Elektročas"
+title: "Podružné věžní hodiny Elektročas"
 slug: "inv-A051-podruzne-vezni-elektrocas"
 category: "sbirka"
 podsekce: "karta"
@@ -16,7 +16,7 @@ tags:
   - elektrocas
 karta:
   inventarniCislo: "A051"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Elektročas"
   majitel: "zápůjčka"
   vztahKeSbirce: "dar"

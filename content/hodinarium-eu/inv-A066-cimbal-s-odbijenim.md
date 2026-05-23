@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "A066"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2024"
   majitel: "ČSH"
   stav: "funkční"

@@ -1200,11 +1200,11 @@ export const hodinari: Hodinar[] = [
     mesto: 'Průhonice',
     zeme: 'CZ',
     shrnuti:
-      'Elektroinženýr a konstruktér z Průhonic, dlouholetý člen Českého spolku horologického. Je autorem mechanismu skrytého automatického nátahu závaží Staroměstského orloje, instalovaného při jeho restaurování v roce 2018. Vedle řídicích systémů obráběcích strojů se věnuje zakázkové výrobě **skeletových, slunečních a netradičních hodin** kombinujících mechaniku s moderní elektronikou ([kavalir.cz/hodiny](https://www.kavalir.cz/hodiny)). Pro Hodinárium Děčín zhotovil řadu kuriózních exponátů — mj. [retrográdní hodiny z voltmetrů (inv. A176)](/sbirka/karta/inv-A176-retrogradni-hodiny-kavalir/), [skeletové hodiny (inv. A054)](/sbirka/karta/inv-A054-skeletove-hodiny-kavalir/), [model orloje (inv. A065)](/sbirka/karta/inv-A065-orloj-kavalir/), [cimbál s odbíjením (inv. A066)](/sbirka/karta/inv-A066-cimbal-s-odbijenim/) a [zvonění (inv. 243)](/sbirka/karta/inv-243-zvoneni-kavalir/).',
+      'Elektroinženýr a konstruktér z Průhonic, dlouholetý člen Českého spolku horologického. Je autorem mechanismu skrytého automatického nátahu závaží Staroměstského orloje, instalovaného při jeho restaurování v roce 2018. Vedle řídicích systémů obráběcích strojů se věnuje zakázkové výrobě **skeletových, slunečních a netradičních hodin** kombinujících mechaniku s moderní elektronikou ([kavalir.cz/hodiny](https://www.kavalir.cz/hodiny)). Pro Hodinárium Děčín zhotovil řadu kuriózních exponátů — mj. [retrográdní hodiny z voltmetrů (inv. A176)](/sbirka/karta/inv-A176-retrogradni-hodiny-kavalir/), [skeletové hodiny (inv. A054)](/sbirka/karta/inv-A054-skeletove-hodiny-kavalir/), [model orloje (inv. A065)](/sbirka/karta/inv-A065-orloj-kavalir/), [cimbál s odbíjením (inv. A066)](/sbirka/karta/inv-A066-cimbal-s-odbijenim/) a [zvonění (inv. A263)](/sbirka/karta/inv-A263-zvoneni-kavalir/).',
     relatedSlugs: [
       'o-hodinariu',
       'inv-A176-retrogradni-hodiny-kavalir',
-      'inv-243-zvoneni-kavalir',
+      'inv-A263-zvoneni-kavalir',
       'inv-A054-skeletove-hodiny-kavalir',
       'inv-A064-mysteriozni-natahovani',
       'inv-A065-orloj-kavalir',

@@ -13,7 +13,7 @@ tags:
   - hlavni-sal
 karta:
   inventarniCislo: "A039"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   majitel: "ČSH"
   vztahKeSbirce: "koupě"
   extra:

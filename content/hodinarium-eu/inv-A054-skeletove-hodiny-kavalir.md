@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "A054"
   vyrobce: "Kavalír"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

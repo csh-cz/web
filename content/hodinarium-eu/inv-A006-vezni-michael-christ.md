@@ -1,5 +1,5 @@
 ---
-title: "věžní Michael Christ"
+title: "Věžní hodiny Michael Christ"
 slug: "inv-A006-vezni-michael-christ"
 category: "sbirka"
 podsekce: "karta"
@@ -25,7 +25,7 @@ tags:
   - zavazi
 karta:
   inventarniCislo: "A006"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Michael Christ"
   pridanoDoSbirky: "2012"
   majitel: "zápůjčka"

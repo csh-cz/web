@@ -1,5 +1,5 @@
 ---
-title: "věžní F. X. Beitel"
+title: "Věžní hodiny F. X. Beitel"
 slug: "inv-A007-vezni-f-x-beitel"
 category: "sbirka"
 podsekce: "karta"
@@ -17,7 +17,7 @@ tags:
   - beitel
 karta:
   inventarniCislo: "A007"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "F. X. Beitel"
   pridanoDoSbirky: "2015"
   majitel: "zápůjčka"

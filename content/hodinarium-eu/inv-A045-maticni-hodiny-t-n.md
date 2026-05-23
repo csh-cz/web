@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "A045"
   vyrobce: "T&N"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

@@ -2,7 +2,7 @@
   {
     "invCislo": "A001",
     "invCisloNumeric": 1,
-    "popis": "věžní Hiemann 1884",
+    "popis": "Věžní hodiny Hiemann 1884",
     "typ": "Graham",
     "vyrobce": "",
     "rok": "2010",
@@ -11,14 +11,14 @@
     "vztah": "zápůjčka",
     "poznamka": "kostel Podmokly",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 1,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A002",
     "invCisloNumeric": 2,
-    "popis": "věžní Prokeš 1868 soubor",
+    "popis": "Věžní hodiny Prokeš 1868 soubor",
     "typ": "Benoit a Robert",
     "vyrobce": "",
     "rok": "2010",
@@ -27,7 +27,7 @@
     "vztah": "zápůjčka",
     "poznamka": "Býchory",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 2,
     "mistnost": "hlavni"
   },
@@ -43,14 +43,14 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 3,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A004",
     "invCisloNumeric": 4,
-    "popis": "věžní 18. stol.",
+    "popis": "Věžní hodiny 18. stol.",
     "typ": "špindl",
     "vyrobce": "",
     "rok": "2011",
@@ -59,14 +59,14 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 4,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A005",
     "invCisloNumeric": 5,
-    "popis": "věžní 18. stol. špindl",
+    "popis": "Věžní hodiny 18. stol. špindl",
     "typ": "špindl",
     "vyrobce": "",
     "rok": "2011",
@@ -75,14 +75,14 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 5,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A006",
     "invCisloNumeric": 6,
-    "popis": "věžní Michael Christ",
+    "popis": "Věžní hodiny Michael Christ",
     "typ": "Clement",
     "vyrobce": "",
     "rok": "2012",
@@ -91,14 +91,14 @@
     "vztah": "zápůjčka",
     "poznamka": "kostel Horní Prysk",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 6,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A007",
     "invCisloNumeric": 7,
-    "popis": "věžní F. X. Beitel",
+    "popis": "Věžní hodiny F. X. Beitel",
     "typ": "Graham",
     "vyrobce": "",
     "rok": "2015",
@@ -107,14 +107,14 @@
     "vztah": "zápůjčka",
     "poznamka": "Chřibská",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 7,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A008",
     "invCisloNumeric": 8,
-    "popis": "věžní R. Liebing",
+    "popis": "Věžní hodiny R. Liebing",
     "typ": "Graham",
     "vyrobce": "",
     "rok": "2015",
@@ -123,14 +123,14 @@
     "vztah": "zápůjčka",
     "poznamka": "bývalá radnice Děčín",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 8,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A009",
     "invCisloNumeric": 9,
-    "popis": "věžní Thöndel",
+    "popis": "Věžní hodiny Thöndel",
     "typ": "Graham",
     "vyrobce": "",
     "rok": "2015",
@@ -139,14 +139,14 @@
     "vztah": "dar",
     "poznamka": "torzo",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 9,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A010",
     "invCisloNumeric": 10,
-    "popis": "věžní",
+    "popis": "Věžní hodiny",
     "typ": "Amant",
     "vyrobce": "",
     "rok": "2016",
@@ -155,14 +155,14 @@
     "vztah": "zápůjčka",
     "poznamka": "Staré Město na Moravě",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 10,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A011",
     "invCisloNumeric": 11,
-    "popis": "věžní torzo",
+    "popis": "Věžní hodiny torzo",
     "typ": "Graham",
     "vyrobce": "",
     "rok": "2016",
@@ -171,14 +171,14 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 11,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A012",
     "invCisloNumeric": 12,
-    "popis": "věžní Rochlitz",
+    "popis": "Věžní hodiny Rochlitz",
     "typ": "Graham",
     "vyrobce": "",
     "rok": "2016",
@@ -187,14 +187,14 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 12,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A013",
     "invCisloNumeric": 13,
-    "popis": "věžní Wenzel Mellner",
+    "popis": "Věžní hodiny Wenzel Mellner",
     "typ": "špindl",
     "vyrobce": "",
     "rok": "2016",
@@ -203,14 +203,14 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 13,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A014",
     "invCisloNumeric": 14,
-    "popis": "věžní hodiny Paul Zieux",
+    "popis": "Věžní hodiny Paul Zieux",
     "typ": "Amant",
     "vyrobce": "",
     "rok": "2016",
@@ -219,14 +219,14 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 14,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A015",
     "invCisloNumeric": 15,
-    "popis": "věžní Kohlert Kraslice",
+    "popis": "Věžní hodiny Kohlert Kraslice",
     "typ": "Graham",
     "vyrobce": "",
     "rok": "2016",
@@ -235,14 +235,14 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 15,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A016",
     "invCisloNumeric": 16,
-    "popis": "věžní Kladno",
+    "popis": "Věžní hodiny Kladno",
     "typ": "Graham",
     "vyrobce": "",
     "rok": "2017",
@@ -251,14 +251,14 @@
     "vztah": "koupě",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 16,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A017",
     "invCisloNumeric": 17,
-    "popis": "věžní Hainz",
+    "popis": "Věžní hodiny Hainz",
     "typ": "Graham",
     "vyrobce": "",
     "rok": "2018",
@@ -267,14 +267,14 @@
     "vztah": "koupě",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 17,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A018",
     "invCisloNumeric": 18,
-    "popis": "věžní barokní kované",
+    "popis": "Věžní hodiny barokní kované",
     "typ": "špindl",
     "vyrobce": "",
     "rok": "2018",
@@ -283,14 +283,14 @@
     "vztah": "koupě",
     "poznamka": "torzo",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 18,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A019",
     "invCisloNumeric": 19,
-    "popis": "věžní hodiny Amant 1898",
+    "popis": "Věžní hodiny Amant 1898",
     "typ": "Amant",
     "vyrobce": "",
     "rok": "2018",
@@ -299,14 +299,14 @@
     "vztah": "koupě",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 19,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A020",
     "invCisloNumeric": 20,
-    "popis": "věžní hodiny Krečmer",
+    "popis": "Věžní hodiny Krečmer",
     "typ": "Amant",
     "vyrobce": "",
     "rok": "2018",
@@ -315,14 +315,14 @@
     "vztah": "koupě",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 20,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A021",
     "invCisloNumeric": 21,
-    "popis": "věžní dřevěné",
+    "popis": "Věžní hodiny dřevěné",
     "typ": "špindl",
     "vyrobce": "",
     "rok": "2018",
@@ -331,14 +331,14 @@
     "vztah": "dar",
     "poznamka": "dar pana Fridricha",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 21,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A022",
     "invCisloNumeric": 22,
-    "popis": "věžní Holanďan",
+    "popis": "Věžní hodiny Holanďan",
     "typ": "Clement",
     "vyrobce": "",
     "rok": "2018",
@@ -347,14 +347,14 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 22,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A023",
     "invCisloNumeric": 23,
-    "popis": "věžní Jílové",
+    "popis": "Věžní hodiny Jílové",
     "typ": "Clement",
     "vyrobce": "",
     "rok": "2019",
@@ -363,14 +363,14 @@
     "vztah": "zápůjčka",
     "poznamka": "kostel Jílové",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 23,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A024",
     "invCisloNumeric": 24,
-    "popis": "věžní Bassler",
+    "popis": "Věžní hodiny Bassler",
     "typ": "Amant",
     "vyrobce": "",
     "rok": "2020",
@@ -379,14 +379,14 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 24,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A025",
     "invCisloNumeric": 25,
-    "popis": "věžní Chřibská",
+    "popis": "Věžní hodiny Chřibská",
     "typ": "Clement",
     "vyrobce": "",
     "rok": "2020",
@@ -395,14 +395,14 @@
     "vztah": "zápůjčka",
     "poznamka": "kostel sv. Jiří Chřibská",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 25,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A026",
     "invCisloNumeric": 26,
-    "popis": "věžní Jirkostroj",
+    "popis": "Věžní hodiny Jirkostroj",
     "typ": "Graham",
     "vyrobce": "",
     "rok": "2021",
@@ -411,14 +411,14 @@
     "vztah": "montáž",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 26,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A027",
     "invCisloNumeric": 27,
-    "popis": "věžní Velká Ves",
+    "popis": "Věžní hodiny Velká Ves",
     "typ": "",
     "vyrobce": "",
     "rok": "2020",
@@ -427,14 +427,14 @@
     "vztah": "zápůjčka",
     "poznamka": "kostel sv. Vavřince",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 27,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A028",
     "invCisloNumeric": 28,
-    "popis": "věžní se setrvačkou",
+    "popis": "Věžní hodiny se setrvačkou",
     "typ": "pérové",
     "vyrobce": "",
     "rok": "2021",
@@ -443,14 +443,14 @@
     "vztah": "zápůjčka",
     "poznamka": "Praha Kunratice",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 28,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A029",
     "invCisloNumeric": 29,
-    "popis": "věžní Benešov",
+    "popis": "Věžní hodiny Benešov",
     "typ": "Amant",
     "vyrobce": "",
     "rok": "2021",
@@ -459,14 +459,14 @@
     "vztah": "zápůjčka",
     "poznamka": "dům Benešov n. Pl.",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 29,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A030",
     "invCisloNumeric": 30,
-    "popis": "věžní Polevsko Hainz",
+    "popis": "Věžní hodiny Polevsko Hainz",
     "typ": "Graham",
     "vyrobce": "",
     "rok": "2022",
@@ -475,14 +475,14 @@
     "vztah": "zápůjčka",
     "poznamka": "Nejsv. Trojice Polevsko",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 30,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A031",
     "invCisloNumeric": 31,
-    "popis": "věžní Francie",
+    "popis": "Věžní hodiny Francie",
     "typ": "Amant",
     "vyrobce": "",
     "rok": "2022",
@@ -491,14 +491,14 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 31,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A032",
     "invCisloNumeric": 32,
-    "popis": "Věžní Skalice",
+    "popis": "Věžní hodiny Skalice",
     "typ": "Benoit a Robert",
     "vyrobce": "",
     "rok": "2022",
@@ -507,14 +507,14 @@
     "vztah": "zápůjčka",
     "poznamka": "Sv. Anny Skalice",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 32,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A033",
     "invCisloNumeric": 33,
-    "popis": "Věžní Lexa",
+    "popis": "Věžní hodiny Lexa",
     "typ": "Graham",
     "vyrobce": "",
     "rok": "2023",
@@ -523,14 +523,14 @@
     "vztah": "dar",
     "poznamka": "Mikulášovice škola",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 33,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A034",
     "invCisloNumeric": 34,
-    "popis": "Věžní Benešov radnice",
+    "popis": "Věžní hodiny Benešov radnice",
     "typ": "Graham",
     "vyrobce": "",
     "rok": "2025",
@@ -539,14 +539,14 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 34,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A035",
     "invCisloNumeric": 35,
-    "popis": "Věžní Mikulášovice",
+    "popis": "Věžní hodiny Mikulášovice",
     "typ": "Winnerl",
     "vyrobce": "",
     "rok": "2024",
@@ -555,14 +555,14 @@
     "vztah": "zápůjčka",
     "poznamka": "Sv. Mikuláš Mikulášovice",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 35,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A036",
     "invCisloNumeric": 36,
-    "popis": "věžní Thöndel 2",
+    "popis": "Věžní hodiny Thöndel 2",
     "typ": "Amant",
     "vyrobce": "",
     "rok": "2025",
@@ -571,7 +571,7 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 36,
     "mistnost": "hlavni"
   },
@@ -587,7 +587,7 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 37,
     "mistnost": "hlavni"
   },
@@ -603,7 +603,7 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 38,
     "mistnost": "hlavni"
   },
@@ -619,7 +619,7 @@
     "vztah": "koupě",
     "poznamka": "Gurt Dietzschold 1894",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 39,
     "mistnost": "hlavni"
   },
@@ -635,7 +635,7 @@
     "vztah": "dar",
     "poznamka": "dřevěná plastika",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 40,
     "mistnost": "hlavni"
   },
@@ -651,7 +651,7 @@
     "vztah": "zápůjčka",
     "poznamka": "nádraží Holešovice",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 41,
     "mistnost": "hlavni"
   },
@@ -667,7 +667,7 @@
     "vztah": "zápůjčka",
     "poznamka": "dřevěná plastika",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 42,
     "mistnost": "hlavni"
   },
@@ -683,7 +683,7 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 43,
     "mistnost": "hlavni"
   },
@@ -699,7 +699,7 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 44,
     "mistnost": "hlavni"
   },
@@ -715,7 +715,7 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 45,
     "mistnost": "hlavni"
   },
@@ -731,7 +731,7 @@
     "vztah": "dar",
     "poznamka": "Jan Čejka",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 46,
     "mistnost": "hlavni"
   },
@@ -747,7 +747,7 @@
     "vztah": "zápůjčka",
     "poznamka": "autor Skála, Kotrba",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 47,
     "mistnost": "hlavni"
   },
@@ -763,7 +763,7 @@
     "vztah": "zápůjčka",
     "poznamka": "Boží oko",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 48,
     "mistnost": "hlavni"
   },
@@ -779,14 +779,14 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 49,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A050",
     "invCisloNumeric": 50,
-    "popis": "podružné věžní VH1 Elektročas",
+    "popis": "Podružné věžní hodiny VH1 Elektročas",
     "typ": "elektro",
     "vyrobce": "",
     "rok": "",
@@ -795,14 +795,14 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 50,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A051",
     "invCisloNumeric": 51,
-    "popis": "podružné věžní  Elektročas",
+    "popis": "Podružné věžní hodiny Elektročas",
     "typ": "motorek",
     "vyrobce": "",
     "rok": "",
@@ -811,7 +811,7 @@
     "vztah": "dar",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 51,
     "mistnost": "hlavni"
   },
@@ -827,7 +827,7 @@
     "vztah": "",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 52,
     "mistnost": "hlavni"
   },
@@ -843,7 +843,7 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 53,
     "mistnost": "hlavni"
   },
@@ -859,7 +859,7 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 54,
     "mistnost": "hlavni"
   },
@@ -875,7 +875,7 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 55,
     "mistnost": "hlavni"
   },
@@ -891,7 +891,7 @@
     "vztah": "zápůjčka",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 56,
     "mistnost": "hlavni"
   },
@@ -907,7 +907,7 @@
     "vztah": "zápůjčka",
     "poznamka": "Vráceno 28.4.2020",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 57,
     "mistnost": "hlavni"
   },
@@ -923,7 +923,7 @@
     "vztah": "zápůjčka",
     "poznamka": "Vráceno 28.4.2020",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 58,
     "mistnost": "hlavni"
   },
@@ -939,7 +939,7 @@
     "vztah": "zápůjčka",
     "poznamka": "Vráceno 14.12.2020",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 59,
     "mistnost": "hlavni"
   },
@@ -955,7 +955,7 @@
     "vztah": "zápůjčka",
     "poznamka": "Vráceno 2019",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 60,
     "mistnost": "hlavni"
   },
@@ -971,7 +971,7 @@
     "vztah": "koupě",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 61,
     "mistnost": "hlavni"
   },
@@ -987,7 +987,7 @@
     "vztah": "koupě",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 62,
     "mistnost": "hlavni"
   },
@@ -1003,7 +1003,7 @@
     "vztah": "dar",
     "poznamka": "p. Kozlíková",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 63,
     "mistnost": "hlavni"
   },
@@ -1019,7 +1019,7 @@
     "vztah": "dar",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 64,
     "mistnost": "hlavni"
   },
@@ -1035,7 +1035,7 @@
     "vztah": "",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 65,
     "mistnost": "hlavni"
   },
@@ -1051,14 +1051,14 @@
     "vztah": "",
     "poznamka": "kostel sv. Filipa a Jakuba ve Viničnom",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 66,
     "mistnost": "hlavni"
   },
   {
     "invCislo": "A067",
     "invCisloNumeric": 67,
-    "popis": "Věžní Lissner",
+    "popis": "Věžní hodiny Lissner",
     "typ": "Graham",
     "vyrobce": "",
     "rok": "2025",
@@ -1067,7 +1067,7 @@
     "vztah": "",
     "poznamka": "",
     "lokace": "hlavni-sal",
-    "lokaceHuman": "Hlavní sál",
+    "lokaceHuman": "Sál věžních hodin",
     "sekceCislo": 68,
     "mistnost": "hlavni"
   },
@@ -1088,7 +1088,7 @@
     "mistnost": "hlavni"
   },
   {
-    "invCislo": "A113",
+    "invCislo": "113",
     "invCisloNumeric": 113,
     "popis": "EH40",
     "typ": "",
@@ -1104,7 +1104,7 @@
     "mistnost": "hlavni"
   },
   {
-    "invCislo": "A144",
+    "invCislo": "144",
     "invCisloNumeric": 144,
     "popis": "Synchronní Datumatic",
     "typ": "",
@@ -1120,7 +1120,7 @@
     "mistnost": "vedlejsi"
   },
   {
-    "invCislo": "A146",
+    "invCislo": "146",
     "invCisloNumeric": 146,
     "popis": "Synchronní stolní skleněné",
     "typ": "",
@@ -1136,7 +1136,7 @@
     "mistnost": "vedlejsi"
   },
   {
-    "invCislo": "A148",
+    "invCislo": "148",
     "invCisloNumeric": 148,
     "popis": "Bateriové Kienzle",
     "typ": "",
@@ -1152,7 +1152,7 @@
     "mistnost": "vedlejsi"
   },
   {
-    "invCislo": "A194",
+    "invCislo": "194",
     "invCisloNumeric": 194,
     "popis": "Podružný stroj Elektročas malý",
     "typ": "",
@@ -1216,7 +1216,7 @@
     "mistnost": "vedlejsi"
   },
   {
-    "invCislo": "A227",
+    "invCislo": "227",
     "invCisloNumeric": 227,
     "popis": "Podružný stroj Elektročas malý",
     "typ": "",
@@ -1232,7 +1232,7 @@
     "mistnost": "vedlejsi"
   },
   {
-    "invCislo": "A231",
+    "invCislo": "231",
     "invCisloNumeric": 231,
     "popis": "Podružný stroj Pragotron malý",
     "typ": "",
@@ -1248,7 +1248,7 @@
     "mistnost": "vedlejsi"
   },
   {
-    "invCislo": "A232",
+    "invCislo": "232",
     "invCisloNumeric": 232,
     "popis": "Podružný stroj Pragotron malý",
     "typ": "vteřinovka",
@@ -1264,7 +1264,7 @@
     "mistnost": "vedlejsi"
   },
   {
-    "invCislo": "A243",
+    "invCislo": "A263",
     "invCisloNumeric": 243,
     "popis": "Zvonění Kavalír",
     "typ": "",
@@ -4722,7 +4722,7 @@
   {
     "invCislo": "A234",
     "invCisloNumeric": null,
-    "popis": "Podružné věžní Hainz",
+    "popis": "Podružné věžní hodiny Hainz",
     "typ": "",
     "vyrobce": "",
     "rok": "",

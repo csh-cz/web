@@ -1,5 +1,5 @@
 ---
-title: "věžní barokní kované"
+title: "Věžní hodiny barokní kované"
 slug: "inv-A018-vezni-barokni-kovane"
 category: "sbirka"
 podsekce: "karta"
@@ -16,7 +16,7 @@ tags:
   - krok-vreteno
 karta:
   inventarniCislo: "A018"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2018"
   majitel: "ČSH"
   vztahKeSbirce: "koupě"

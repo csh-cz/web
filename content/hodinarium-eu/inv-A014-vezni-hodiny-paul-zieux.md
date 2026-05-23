@@ -1,5 +1,5 @@
 ---
-title: "věžní hodiny Paul Zieux"
+title: "Věžní hodiny Paul Zieux"
 slug: "inv-A014-vezni-hodiny-paul-zieux"
 category: "sbirka"
 podsekce: "karta"
@@ -22,7 +22,7 @@ tags:
   - 1700s
 karta:
   inventarniCislo: "A014"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Paul Zieux"
   pridanoDoSbirky: "2016"
   majitel: "zápůjčka"

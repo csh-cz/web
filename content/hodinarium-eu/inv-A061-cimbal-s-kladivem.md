@@ -14,7 +14,7 @@ tags:
   - nefunkcni
 karta:
   inventarniCislo: "A061"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2020"
   majitel: "ČSH"
   vztahKeSbirce: "koupě"

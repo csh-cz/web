@@ -1,5 +1,5 @@
 ---
-title: "Věžní torzo Lissner (Hilgersdorf / Severní, 1881)"
+title: "Věžní hodiny torzo Lissner (Hilgersdorf / Severní, 1881)"
 slug: "inv-A011-vezni-torzo"
 category: "sbirka"
 podsekce: "karta"
@@ -17,7 +17,7 @@ tags:
   - krok-graham
 karta:
   inventarniCislo: "A011"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Johann Lissner"
   pridanoDoSbirky: "2016"
   majitel: "zápůjčka"

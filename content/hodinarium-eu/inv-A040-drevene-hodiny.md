@@ -14,7 +14,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "A040"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   majitel: "ČSH"
   vztahKeSbirce: "dar"
   stav: "funkční"

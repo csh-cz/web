@@ -15,7 +15,7 @@ tags:
   - brillie
 karta:
   inventarniCislo: "A037"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Brillié"
   majitel: "zápůjčka"
   pridanoDoSbirky: "2025"
