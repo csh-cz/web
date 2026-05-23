@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-23T04:47:40.054Z",
+  "generatedAt": "2026-05-23T04:55:18.818Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 157,
@@ -537,6 +537,7 @@
     "Janovice",
     "Jánský",
     "Jaroměř",
+    "Jaroslav",
     "Javorník",
     "Jednotny",
     "Jednotný",
@@ -1301,7 +1302,6 @@
     "Skálová",
     "Skálovi",
     "Skalsko",
-    "sklárna",
     "sklicko",
     "sklíčko",
     "skola",
