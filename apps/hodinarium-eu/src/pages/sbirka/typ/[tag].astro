@@ -1,0 +1,134 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
+import Card from '../../../components/Card.astro';
+import catalog from '../../../data/catalog.json';
+import { typTiles, type TypTile } from '../../../data/sbirka-typy';
+import type { CatalogEntry } from '../../../data/catalog-types';
+
+// Sbírkově scoped atlas jednoho typu hodin. Na rozdíl od /tagy/[tag]
+// (globální tag filtr přes všechny kategorie) zobrazuje POUZE karty
+// exponátů ze sbírky Hodinária (category=sbirka, podsekce=karta) —
+// ne články ani obsah z virtuálního muzea a dalších sekcí.
+export async function getStaticPaths() {
+  const all = await getCollection('clanky');
+  const karty = all.filter(
+    (e) => e.data.category === 'sbirka' && e.data.podsekce === 'karta'
+  );
+  return typTiles
+    .map((tile) => ({
+      tile,
+      count: karty.filter((e) => (e.data.tags ?? []).includes(tile.tag)).length,
+    }))
+    .filter((x) => x.count > 0)
+    .map(({ tile }) => ({ params: { tag: tile.tag }, props: { tile } }));
+}
+
+const { tile } = Astro.props as { tile: TypTile };
+
+const all = await getCollection('clanky');
+const matching = all.filter(
+  (e) =>
+    e.data.category === 'sbirka' &&
+    e.data.podsekce === 'karta' &&
+    (e.data.tags ?? []).includes(tile.tag)
+);
+const slugs = new Set(matching.map((e) => e.data.slug));
+
+// catalog.json poskytuje thumbnail / excerpt / imageCount / vyrobce.
+const cards = (catalog as CatalogEntry[]).filter(
+  (e) => e.category === 'sbirka' && slugs.has(e.slug)
+);
+// Řazení podle inventárního čísla (A001, P101…) vzestupně.
+cards.sort((a, b) => {
+  const ka = a.slug.match(/inv-([A-Z]?\d+)/)?.[1] ?? '';
+  const kb = b.slug.match(/inv-([A-Z]?\d+)/)?.[1] ?? '';
+  return ka.localeCompare(kb, 'cs', { numeric: true });
+});
+
+const pocet = cards.length;
+const exponatuWord = pocet === 1 ? 'exponát' : pocet < 5 ? 'exponáty' : 'exponátů';
+---
+<Base
+  title={`${tile.label} — sbírka`}
+  description={`${pocet} ${exponatuWord} typu „${tile.label}" ve sbírce Hodinária Děčín.`}
+>
+  <Breadcrumbs trail={[
+    { href: '/', label: 'Hodinárium' },
+    { href: '/sbirka', label: 'Sbírka' },
+    { label: tile.label },
+  ]} />
+
+  <header class="typ-header">
+    <p class="eyebrow mb-3"><i class={tile.icon} aria-hidden="true"></i> Typ hodin</p>
+    <h1 class="typ-title">{tile.label}</h1>
+    <p class="typ-lede">{tile.popis}</p>
+    <p class="typ-count"><strong>{pocet}</strong> {exponatuWord} ve sbírce</p>
+    <nav class="view-toggle mt-6" aria-label="Další zobrazení">
+      <a href="/sbirka" class="view-toggle-btn">← Rozcestník sbírky</a>
+      <a href="/sbirka/katalog" class="view-toggle-btn">Celý katalog</a>
+      <a href={`/tagy/${tile.tag}`} class="view-toggle-btn">Tag „{tile.tag}" napříč webem →</a>
+    </nav>
+  </header>
+
+  {pocet > 0 ? (
+    <div class="typ-grid">
+      {cards.map((e) => (
+        <Card
+          href={`/sbirka/karta/${e.slug}/`}
+          title={e.title}
+          excerpt={e.excerpt || 'Stub karty — k doplnění z Popisů strojů.'}
+          thumbnail={e.thumbnail}
+          category="sbirka"
+          lastModified={e.lastModified}
+          imageCount={e.imageCount}
+          vyrobce={e.vyrobce}
+        />
+      ))}
+    </div>
+  ) : (
+    <p class="typ-empty">Ve sbírce zatím není žádný exponát tohoto typu.</p>
+  )}
+</Base>
+
+<style>
+  .typ-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .typ-title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 0.6rem;
+    line-height: 1.1;
+  }
+  .typ-lede {
+    font-size: 1rem;
+    color: var(--color-text-soft);
+    margin: 0 0 0.5rem;
+    max-width: 60ch;
+  }
+  .typ-count {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--color-copper);
+  }
+  .typ-count strong {
+    color: var(--color-brass-bright);
+    font-feature-settings: "lnum";
+  }
+  .typ-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.25rem;
+  }
+  .typ-empty {
+    color: var(--color-text-muted);
+    font-style: italic;
+    margin: 2rem 0;
+  }
+</style>
