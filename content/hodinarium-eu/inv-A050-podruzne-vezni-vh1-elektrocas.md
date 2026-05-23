@@ -1,5 +1,5 @@
 ---
-title: Podružné věžní VH1 Elektročas
+title: "Podružné věžní hodiny VH1 Elektročas"
 slug: "inv-A050-podruzne-vezni-vh1-elektrocas"
 category: sbirka
 podsekce: karta
@@ -12,7 +12,7 @@ karta:
   ciselnik: ''
   pohonDetail: ''
   rozmery: ''
-  umisteni: Hlavní sál
+  umisteni: "Sál věžních hodin"
   majitel: zápůjčka
   vztahKeSbirce: zápůjčka
   stav: funkční

@@ -1,5 +1,5 @@
 ---
-title: "věžní hodiny Amant 1898"
+title: "Věžní hodiny Amant 1898"
 slug: "inv-A019-vezni-hodiny-amant-1898"
 category: "sbirka"
 podsekce: "karta"
@@ -16,7 +16,7 @@ tags:
   - krok-amant
 karta:
   inventarniCislo: "A019"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   datace: "1898"
   pridanoDoSbirky: "2018"
   majitel: "ČSH"

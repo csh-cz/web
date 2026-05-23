@@ -17,7 +17,7 @@ tags:
   - nastenne
 karta:
   inventarniCislo: "A049"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

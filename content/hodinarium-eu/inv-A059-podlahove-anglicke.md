@@ -16,7 +16,7 @@ tags:
   - stolni
 karta:
   inventarniCislo: "A059"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2020"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

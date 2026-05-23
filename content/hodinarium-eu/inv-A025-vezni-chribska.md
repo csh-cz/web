@@ -1,5 +1,5 @@
 ---
-title: "věžní Chřibská"
+title: "Věžní hodiny Chřibská"
 slug: "inv-A025-vezni-chribska"
 category: "sbirka"
 podsekce: "karta"
@@ -16,7 +16,7 @@ tags:
   - krok-clement
 karta:
   inventarniCislo: "A025"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2020"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

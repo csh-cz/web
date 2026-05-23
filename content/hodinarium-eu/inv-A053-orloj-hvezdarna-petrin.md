@@ -11,7 +11,7 @@ karta:
   ciselnik: ''
   pohonDetail: ''
   rozmery: ''
-  umisteni: Hlavní sál
+  umisteni: "Sál věžních hodin"
   majitel: zápůjčka
   darceZapujcitel: ''
   vztahKeSbirce: zápůjčka

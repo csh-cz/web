@@ -1,5 +1,5 @@
 ---
-title: "věžní Rochlitz"
+title: "Věžní hodiny Rochlitz"
 slug: "inv-A012-vezni-rochlitz"
 category: "sbirka"
 podsekce: "karta"
@@ -17,7 +17,7 @@ tags:
   - rochlitz
 karta:
   inventarniCislo: "A012"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Rochlitz"
   pridanoDoSbirky: "2016"
   majitel: "zápůjčka"

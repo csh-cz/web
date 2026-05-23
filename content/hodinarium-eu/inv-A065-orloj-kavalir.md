@@ -16,7 +16,7 @@ tags:
 karta:
   inventarniCislo: "A065"
   vyrobce: "Kavalír"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2024"
   majitel: "zápůjčka"
   stav: "funkční"

@@ -1,5 +1,5 @@
 ---
-title: "věžní 18. stol."
+title: "Věžní hodiny 18. stol."
 slug: "inv-A004-vezni-18-stol"
 category: "sbirka"
 podsekce: "karta"
@@ -16,7 +16,7 @@ tags:
   - krok-vreteno
 karta:
   inventarniCislo: "A004"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2011"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

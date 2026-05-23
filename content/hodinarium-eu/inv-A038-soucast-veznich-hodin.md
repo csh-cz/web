@@ -15,7 +15,7 @@ tags:
   - nefunkcni
 karta:
   inventarniCislo: "A038"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2017"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

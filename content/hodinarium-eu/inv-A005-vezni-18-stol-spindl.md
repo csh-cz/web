@@ -1,5 +1,5 @@
 ---
-title: "věžní 18. stol. špindl"
+title: "Věžní hodiny 18. stol. špindl"
 slug: "inv-A005-vezni-18-stol-spindl"
 category: "sbirka"
 podsekce: "karta"
@@ -24,7 +24,7 @@ relatedKarty:
 tldr: 'Vřetenový stroj s půlovým bitím z kostela Nanebevzetí Panny Marie v Budislavi (kolem poloviny 18. století), v roce 2012 přesunutý do Věžního muzejíčka v Soběslavi a později do děčínské expozice.'
 karta:
   inventarniCislo: "A005"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2011"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

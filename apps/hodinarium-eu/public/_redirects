@@ -94,16 +94,16 @@
 
 # === Sloučené sbírkové články → karty (2026-05) ===
 /sbirka/decin-chronulator /sbirka/karta/inv-A176-retrogradni-hodiny-kavalir 301
-/sbirka/vez-decin /sbirka/karta/inv-1-vezni-hiemann-1884 301
-/sbirka/bychory-prokes1 /sbirka/karta/inv-2-vezni-prokes-1868-soubor 301
-/sbirka/bychory-dalsi-kola /sbirka/karta/inv-2-vezni-prokes-1868-soubor 301
-/sbirka/vez-zlate-hory /sbirka/karta/inv-3-barokni-ministroj-18-stol 301
-/sbirka/vez-prysk /sbirka/karta/inv-6-vezni-michael-christ 301
-/sbirka/decin-wenzel-mellner /sbirka/karta/inv-13-vezni-wenzel-mellner 301
-/sbirka/decin-flatbed /sbirka/karta/inv-14-vezni-hodiny-paul-zieux 301
-/sbirka/decin-velika-ves /sbirka/karta/inv-27-vezni-velka-ves 301
+/sbirka/vez-decin /sbirka/karta/inv-A001-vezni-hiemann-1884 301
+/sbirka/bychory-prokes1 /sbirka/karta/inv-A002-vezni-prokes-1868-soubor 301
+/sbirka/bychory-dalsi-kola /sbirka/karta/inv-A002-vezni-prokes-1868-soubor 301
+/sbirka/vez-zlate-hory /sbirka/karta/inv-A003-barokni-ministroj-18-stol 301
+/sbirka/vez-prysk /sbirka/karta/inv-A006-vezni-michael-christ 301
+/sbirka/decin-wenzel-mellner /sbirka/karta/inv-A013-vezni-wenzel-mellner 301
+/sbirka/decin-flatbed /sbirka/karta/inv-A014-vezni-hodiny-paul-zieux 301
+/sbirka/decin-velika-ves /sbirka/karta/inv-A027-vezni-velka-ves 301
 /sbirka/mobatime /sbirka/karta/inv-P502-podruzne-hodiny-mobatime 301
-/sbirka/vez-kli /sbirka/karta/inv-4-vezni-18-stol 301
+/sbirka/vez-kli /sbirka/karta/inv-A004-vezni-18-stol 301
 /sbirka/podruzne-sekundove /sbirka/karta/inv-A201-podruzne-hodiny-s-vterinovkou 301
 /sbirka/karta/inv-144-synchronni-datumatic /konstrukce/datumatik 301
 /sbirka/karta/inv-75-soubor-malych-slunecnich-hodin /sbirka/katalog 301
@@ -118,6 +118,7 @@
 /virtualni-muzeum/kavalir /sbirka/karta/inv-A054-skeletove-hodiny-kavalir 301
 /sbirka/karta/inv-A202-retrogradni-kavalir /sbirka/katalog 301
 /sbirka/karta/inv-x13-hodiny-hn350 /sbirka/karta/inv-P505-hodiny-hn350 301
+/sbirka/karta/inv-243-zvoneni-kavalir /sbirka/karta/inv-A263-zvoneni-kavalir 301
 /sbirka/karta/inv-1-vezni-hiemann-1884 /sbirka/karta/inv-A001-vezni-hiemann-1884 301
 /sbirka/karta/inv-10-vezni /sbirka/karta/inv-A010-vezni 301
 /sbirka/karta/inv-11-vezni-torzo /sbirka/karta/inv-A011-vezni-torzo 301
@@ -190,4 +191,4 @@
 
 # === Legacy *.htm → 404 (pre-launch, žádná SEO kontinuita) ===
 /*.htm /404 404
-/sbirka/vez-budislav /sbirka/karta/inv-5-vezni-18-stol-spindl 301
+/sbirka/vez-budislav /sbirka/karta/inv-A005-vezni-18-stol-spindl 301

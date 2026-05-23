@@ -1,5 +1,5 @@
 ---
-title: "věžní Thöndel"
+title: "Věžní hodiny Thöndel"
 slug: "inv-A009-vezni-thondel"
 category: "sbirka"
 podsekce: "karta"
@@ -17,7 +17,7 @@ tags:
   - thondel
 karta:
   inventarniCislo: "A009"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Thöndel"
   pridanoDoSbirky: "2015"
   majitel: "ČSH"

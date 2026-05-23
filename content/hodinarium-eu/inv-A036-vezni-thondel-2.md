@@ -1,5 +1,5 @@
 ---
-title: "věžní Thöndel 2"
+title: "Věžní hodiny Thöndel 2"
 slug: "inv-A036-vezni-thondel-2"
 category: "sbirka"
 podsekce: "karta"
@@ -17,7 +17,7 @@ tags:
   - thondel
 karta:
   inventarniCislo: "A036"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Thöndel"
   pridanoDoSbirky: "2025"
   majitel: "zápůjčka"

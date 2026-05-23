@@ -1,5 +1,5 @@
 ---
-title: "Věžní Mikulášovice"
+title: "Věžní hodiny Mikulášovice"
 slug: "inv-A035-vezni-mikulasovice"
 category: "sbirka"
 podsekce: "karta"
@@ -15,7 +15,7 @@ tags:
   - krok-winnerl
 karta:
   inventarniCislo: "A035"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2024"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

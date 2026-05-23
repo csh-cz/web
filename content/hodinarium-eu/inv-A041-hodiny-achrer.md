@@ -14,7 +14,7 @@ karta:
   pohon: elektrický (motor)
   pohonDetail: ''
   rozmery: ''
-  umisteni: Sál Věžní
+  umisteni: "Sál věžních hodin"
   majitel: "zápůjčka"
   darceZapujcitel: ""
   vztahKeSbirce: zápůjčka

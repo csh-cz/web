@@ -1,5 +1,5 @@
 ---
-title: "věžní Jílové"
+title: "Věžní hodiny Jílové"
 slug: "inv-A023-vezni-jilove"
 category: "sbirka"
 podsekce: "karta"
@@ -16,7 +16,7 @@ tags:
   - krok-clement
 karta:
   inventarniCislo: "A023"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2019"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

@@ -15,7 +15,7 @@ tags:
   - stolni
 karta:
   inventarniCislo: "A048"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

@@ -1,5 +1,5 @@
 ---
-title: "věžní se setrvačkou"
+title: "Věžní hodiny se setrvačkou"
 slug: "inv-A028-vezni-se-setrvackou"
 category: "sbirka"
 podsekce: "karta"
@@ -15,7 +15,7 @@ tags:
   - funkcni
 karta:
   inventarniCislo: "A028"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2021"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

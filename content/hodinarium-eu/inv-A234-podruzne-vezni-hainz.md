@@ -1,5 +1,5 @@
 ---
-title: "Podružné věžní Hainz"
+title: "Podružné věžní hodiny Hainz"
 slug: "inv-A234-podruzne-vezni-hainz"
 category: "sbirka"
 podsekce: "karta"

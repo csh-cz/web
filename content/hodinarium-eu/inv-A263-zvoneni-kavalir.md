@@ -1,6 +1,6 @@
 ---
 title: "Zvonění Kavalír"
-slug: "inv-243-zvoneni-kavalir"
+slug: "inv-A263-zvoneni-kavalir"
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
@@ -13,7 +13,7 @@ tags:
   - vitrina-4-vedlejsi
   - funkcni
 karta:
-  inventarniCislo: "243"
+  inventarniCislo: "A263"
   vyrobce: "Kavalír"
   umisteni: "Vitrína 4 (Sál elektro)"
   pridanoDoSbirky: "2022"

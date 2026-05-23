@@ -13,7 +13,7 @@ tags:
   - hlavni-sal
 karta:
   inventarniCislo: "A052"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
 editorNotes:
   - level: warn
     title: Auto-import z legacy PHP webu

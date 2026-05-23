@@ -15,7 +15,7 @@ tags:
   - krok-lihyr
 karta:
   inventarniCislo: "A044"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

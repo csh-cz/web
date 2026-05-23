@@ -15,7 +15,7 @@ tags:
 karta:
   inventarniCislo: "A057"
   vyrobce: "Gibbus"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"

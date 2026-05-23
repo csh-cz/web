@@ -1,5 +1,5 @@
 ---
-title: "věžní hodiny Krečmer"
+title: "Věžní hodiny Krečmer"
 slug: "inv-A020-vezni-hodiny-krecmer"
 category: "sbirka"
 podsekce: "karta"
@@ -17,7 +17,7 @@ tags:
   - krecmer
 karta:
   inventarniCislo: "A020"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Krečmer"
   pridanoDoSbirky: "2018"
   majitel: "ČSH"

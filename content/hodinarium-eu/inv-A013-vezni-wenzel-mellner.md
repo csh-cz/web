@@ -1,5 +1,5 @@
 ---
-title: "věžní Wenzel Mellner"
+title: "Věžní hodiny Wenzel Mellner"
 slug: "inv-A013-vezni-wenzel-mellner"
 category: "sbirka"
 podsekce: "karta"
@@ -22,7 +22,7 @@ tags:
   - decin
 karta:
   inventarniCislo: "A013"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Wenzel Mellner"
   pridanoDoSbirky: "2016"
   majitel: "zápůjčka"

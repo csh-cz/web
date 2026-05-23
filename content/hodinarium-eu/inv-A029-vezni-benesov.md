@@ -1,5 +1,5 @@
 ---
-title: "věžní Benešov"
+title: "Věžní hodiny Benešov"
 slug: "inv-A029-vezni-benesov"
 category: "sbirka"
 podsekce: "karta"
@@ -16,7 +16,7 @@ tags:
   - krok-amant
 karta:
   inventarniCislo: "A029"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2021"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

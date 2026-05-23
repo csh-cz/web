@@ -1,5 +1,5 @@
 ---
-title: "věžní Francie"
+title: "Věžní hodiny Francie"
 slug: "inv-A031-vezni-francie"
 category: "sbirka"
 podsekce: "karta"
@@ -21,7 +21,7 @@ tags:
   - 1800s
 karta:
   inventarniCislo: "A031"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2022"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"

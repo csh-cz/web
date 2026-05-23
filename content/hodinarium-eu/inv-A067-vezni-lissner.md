@@ -16,7 +16,7 @@ tags:
   - krok-graham
 karta:
   inventarniCislo: "A067"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Johann Lissner"
   majitel: "zápůjčka"
   pridanoDoSbirky: "2025"

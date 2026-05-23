@@ -1,5 +1,5 @@
 ---
-title: "věžní Jirkostroj"
+title: "Věžní hodiny Jirkostroj"
 slug: "inv-A026-vezni-jirkostroj"
 category: "sbirka"
 podsekce: "karta"
@@ -16,7 +16,7 @@ tags:
   - krok-graham
 karta:
   inventarniCislo: "A026"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   vyrobce: "Johann Lissner"
   pridanoDoSbirky: "2021"
   majitel: "zápůjčka"

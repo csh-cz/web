@@ -16,7 +16,7 @@ tags:
   - nastenne
 karta:
   inventarniCislo: "A055"
-  umisteni: "Hlavní sál"
+  umisteni: "Sál věžních hodin"
   pridanoDoSbirky: "2018"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
