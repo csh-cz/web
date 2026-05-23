@@ -4885,27 +4885,13 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Akvírovaný stroj podružných hodin — systém s krokovým motorkem řízeným polarizovanými minutovými impulzy, doplněný vteřinovým ukazatelem poháněným synchronním motorkem. Na strojku není označení výrobce, jedná se však …",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 232,
     "tags": [
       "vitrina-5-vedlejsi"
-    ]
-  },
-  {
-    "slug": "podruzne-sekundove",
-    "title": "Podružné hodiny s vteřinovkou",
-    "category": "sbirka",
-    "thumbnail": "/img/elektrika/podruzne_sekundove/f/foto_0001.jpg",
-    "excerpt": "Do Hodinária jsme získali zajímavý stroj podružných hodin. Jedná se o systém s krokovým motorkem, řízeným polarizovanými minutovými impulzy, doplněný vteřinovým ukazatelem, poháněným synchronním motorkem. Na strojku n…",
-    "year": null,
-    "lastModified": "2020-05-04T18:16:00.000Z",
-    "imageCount": 6,
-    "wordCount": 245,
-    "tags": [
-      "jednotny-cas"
     ]
   },
   {
@@ -5026,7 +5012,7 @@
   },
   {
     "slug": "inv-50-podruzne-vezni-vh1-elektrocas",
-    "title": "podružné věžní VH1 Elektročas",
+    "title": "Podružné věžní VH1 Elektročas",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": "/img/elektrika/rufa3.jpg",
