@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-23T14:35:46.812Z",
+  "generatedAt": "2026-05-23T14:51:54.437Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 157,
@@ -884,6 +884,7 @@
     "Mnichovo",
     "Mníšek",
     "Mobatime",
+    "MOBATIME",
     "modelu",
     "Modletice",
     "Modřany",
@@ -1392,7 +1393,6 @@
     "Suchý",
     "Suliță",
     "Sumerecker",
-    "Sumiswald",
     "Summerecker",
     "Summerrecker",
     "supra",
