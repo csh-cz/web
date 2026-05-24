@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-24T03:49:18.513Z",
+  "generatedAt": "2026-05-24T13:33:51.139Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 157,
@@ -8,7 +8,7 @@
     "hodinariTs": 165,
     "soupis": 433
   },
-  "count": 1693,
+  "count": 1694,
   "words": [
     "Abraham",
     "Accutron",
@@ -1357,6 +1357,7 @@
     "staré",
     "Staré",
     "Staroměstská",
+    "starší",
     "Staršího",
     "Starý",
     "státního",
