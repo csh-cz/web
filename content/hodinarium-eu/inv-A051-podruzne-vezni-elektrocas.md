@@ -21,9 +21,16 @@ karta:
   majitel: "zápůjčka"
   vztahKeSbirce: "dar"
   stav: "funkční"
-thumbnail: '/img/elektrika/brevet.jpg'
+  datace: '1959'
+thumbnail: '/img/decin/elektricky_spousteny_stroj/strana_spousteni.jpg'
 ---
 
-![Podružný věžní stroj Elektročas — strojek](/img/elektrika/brevet.jpg)
+![Podružný věžní stroj Elektročas vypouštěný impulzy — strana spouštění](/img/decin/elektricky_spousteny_stroj/strana_spousteni.jpg)
 
-Miniaturní stroj věžních hodin (hmotnost pouhých 18 kg) je výrobkem firmy Elektročas. Je řízen polarizovanými [impulzy](/slovnik/impulsy) 24V od matičních hodin. Tyto impulzy přijímá běžný podružný strojek, který pootáčí diferenciálním [soukolím](/slovnik/soukoli), a tím je vyslán impulz pro elektromotor, ovládající ručky. Na každé straně [soukolí](/slovnik/soukoli) je kolo s výřezem, takže pokud přicházejí jen řídící impulzy, kola se proti sobě pootočí a palec, který do výřezů zapadal, se nadzvedne. Tím se sepne kontakt pro motor, který po obnovení přívodu el. proudu natočí ručky do správné polohy. Po natočení ruček na správný čas se kola postaví proti sobě výřezy, do nichž palec zapadne a obvod se přeruší. Tento mechanismus dovede eliminovat až dvanáctihodinový výpadek napájení motorku.
+Hodiny jsou výrobkem firmy Elektročas z roku 1959. Jednoduchý a elegantní systém je poháněn závažím, natahovaným buď elektromotorkem, nebo ručně. Stroj **nemá krokové ústrojí** — sám o sobě nejde; potřebuje řídící hodiny, které jednou za minutu uvolní zarážkový mechanismus.
+
+Stroj je řízen polarizovanými [impulzy](/slovnik/impulsy) od matičních hodin. Tyto impulzy přijímá čtyřpólový krokový motorek, který se po příchodu impulzu pootočí o čtvrtinu kruhu, jeden ze čtyř kolíků na rotoru odsune západku a páka s kruhovou výsečí poklesne, tím uvolní dvouramennou západku. Ta při svém otočení, brzděném [větrníkem](/slovnik/vetrnik), posune [soukolí](/slovnik/soukoli) o jednu minutu. Během otáčení jeden ze dvou kolíků na páce vrátí západku do výchozí polohy.
+
+**POZOR — nebezpečí úrazu:** větrník se po spuštění otáčí; během [natahování](/slovnik/natah) se točí motor s řemenem.
+
+Podrobný popis principu vypouštění i příbuzných strojů v expozici je v článku [Chodový podružný věžní stroj Elektročas vypouštěný impulzy](/sbirka/decin-vypousteny).
