@@ -66,6 +66,8 @@ jobs:
             exit 0
           fi
           DATE=$(date -u +%Y-%m-%d)
-          # [skip ci] — commit jen dat indexu, netřeba spouštět ostatní workflow.
-          git commit -m "chore(search): rebuild semantic index ${DATE} [skip ci]"
+          # POZOR: NEdávat [skip ci] do zprávy — Cloudflare Pages tu značku ctí
+          # a přeskočil by deploy, takže by se nový index nedostal na živý web
+          # (jen do gitu). Radši necháme proběhnout i ostatní workflow.
+          git commit -m "chore(search): rebuild semantic index ${DATE}"
           git push
