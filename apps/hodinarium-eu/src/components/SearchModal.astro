@@ -47,21 +47,21 @@ const categoryLabelsForClient = Object.fromEntries(
       <kbd class="search-kbd">esc</kbd>
     </div>
     <div class="search-mode-tabs" role="tablist" aria-label="Režim vyhledávání">
-      <button data-mode="keyword" class="search-mode-tab is-active" role="tab" aria-selected="true" aria-describedby="mode-hint-keyword" aria-controls="search-results">
-        <i class="fa-solid fa-bullseye mode-icon" aria-hidden="true"></i>
-        <span class="mode-label">Klíčová slova</span>
-        <span class="mode-hint" id="mode-hint-keyword">přesná shoda</span>
-      </button>
-      <button data-mode="semantic" class="search-mode-tab" role="tab" aria-selected="false" aria-describedby="mode-hint-semantic" aria-controls="search-results">
+      <button data-mode="semantic" class="search-mode-tab is-active" role="tab" aria-selected="true" aria-describedby="mode-hint-semantic" aria-controls="search-results">
         <i class="fa-solid fa-wand-magic-sparkles mode-icon" aria-hidden="true"></i>
         <span class="mode-label">Sémanticky</span>
         <span class="mode-hint" id="mode-hint-semantic">významem</span>
       </button>
+      <button data-mode="keyword" class="search-mode-tab" role="tab" aria-selected="false" aria-describedby="mode-hint-keyword" aria-controls="search-results">
+        <i class="fa-solid fa-bullseye mode-icon" aria-hidden="true"></i>
+        <span class="mode-label">Klíčová slova</span>
+        <span class="mode-hint" id="mode-hint-keyword">přesná shoda</span>
+      </button>
     </div>
     <div id="search-results" class="search-results" role="listbox" aria-label="Výsledky vyhledávání" aria-live="polite">
       <p class="search-hint">
-        Začni psát. <strong>Klíčová slova</strong> hledá v názvech a perexech 218 článků.
-        <strong>Sémanticky</strong> najde i věcně blízké stránky napříč všemi 1008 — když nevíš, jak se to přesně řekne.
+        Začni psát. <strong>Sémanticky</strong> projde významem všech 1008 stránek — najde i věcně blízké, i když nevíš, jak se to přesně řekne.
+        Pro přesnou shodu v názvech a perexech přepni na <strong>Klíčová slova</strong>.
         <kbd>↵</kbd> otevře první výsledek, <kbd>esc</kbd> zavře.
       </p>
     </div>
@@ -353,7 +353,7 @@ const categoryLabelsForClient = Object.fromEntries(
   let fuse = null;
   let activeIdx = -1;
   let lastResults = [];
-  let mode = 'keyword';   // 'keyword' (Fuse, instant) | 'semantic' (server)
+  let mode = 'semantic';  // 'semantic' (server, primární) | 'keyword' (Fuse, instant, fallback)
   let semanticAbort = null; // AbortController pro in-flight requesty
 
   const dialog = document.getElementById('search-modal');
