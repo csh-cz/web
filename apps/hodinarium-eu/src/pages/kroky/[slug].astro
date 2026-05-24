@@ -125,7 +125,7 @@ const wipStatus = detailVisible && showsWipBanner(detail.data.workflow) ? detail
                 <h2 id="krok-images-heading">Obrazové prameny</h2>
                 {krok.images.map((img) => (
                   <figure class="krok-figure">
-                    <a href={img.src} target="_blank" rel="noopener" aria-label="Otevřít v plné velikosti">
+                    <a href={cdnUrl(img.src)} target="_blank" rel="noopener" aria-label="Otevřít v plné velikosti">
                       <img src={cdnUrl(img.src)} alt={img.alt} loading="lazy" decoding="async" />
                     </a>
                     {img.caption && <figcaption>{img.caption}</figcaption>}
