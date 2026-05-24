@@ -9,6 +9,7 @@ import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibi
 import CrossRefs from '../../components/CrossRefs.astro';
 import { formatAuthor } from '../../utils/formatAuthor';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
+import { cdnUrl } from '../../utils/cdnImage';
 import { CSH_CONTENT_COMPONENTS } from '../../utils/content-components';
 
 export async function getStaticPaths() {
@@ -41,7 +42,7 @@ const kronikaJsonLd = {
   publisher: {
     '@type': 'Organization',
     name: 'Český spolek horologický',
-    logo: { '@type': 'ImageObject', url: new URL('/img/logo-csh.png', site).toString() },
+    logo: { '@type': 'ImageObject', url: cdnUrl('/img/logo-csh.png') },
   },
   articleSection: 'Kronika',
 };

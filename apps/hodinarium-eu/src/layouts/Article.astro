@@ -15,6 +15,7 @@ import { hodinariProClanek } from "../data/hodinari";
 import { krokyProClanek } from "../data/kroky";
 import { clanekHref } from "../data/url-helpers";
 import { deadLinkAttrs as deadAttrs } from "../utils/dead-links";
+import { cdnUrl } from "../utils/cdnImage";
 
 import type { CatalogEntry } from '../data/catalog-types';
 
@@ -150,7 +151,7 @@ const articleJsonLd = {
     name: 'Český spolek horologický',
     logo: {
       '@type': 'ImageObject',
-      url: new URL('/img/logo-csh.png', site).toString(),
+      url: cdnUrl('/img/logo-csh.png'),
     },
   },
   ...(category && { articleSection: categoryLabel(category, 'long') ?? category }),

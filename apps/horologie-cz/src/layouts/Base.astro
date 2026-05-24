@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import { SISTER_HODINARIUM } from "../data/sites";
 import BrandLogo from "../components/BrandLogo.astro";
+import { cdnUrl } from "../utils/cdnImage";
 
 interface Props {
   title: string;
@@ -42,7 +43,7 @@ const orgJsonLd = isHome ? {
   name: 'Český spolek horologický',
   alternateName: 'CSH',
   url: csUrl,
-  logo: new URL('/img/logo-csh.png', site).toString(),
+  logo: cdnUrl('/img/logo-csh.png'),
   email: 'info@orloj.eu',
   telephone: '+420603502735',
   address: {

@@ -3,6 +3,7 @@ import "../styles/global.css";
 import SearchModal from "../components/SearchModal.astro";
 import ReportIssueModal from "../components/ReportIssueModal.astro";
 import { SISTER_SPOLEK, SISTER_SPOLEK_LABEL } from "../data/sites";
+import { cdnUrl } from "../utils/cdnImage";
 
 /** Highwire Press citation_* metadata pro Zotero connector + Google Scholar.
  *  Per-page layouty (Article, sbirka karta, hodinari, soupis) předávají
@@ -173,7 +174,7 @@ const orgJsonLd = isHome ? {
   name: 'Hodinárium',
   alternateName: 'Český spolek horologický — webová expozice',
   url: csUrl,
-  logo: new URL('/img/logo-csh.png', site).toString(),
+  logo: cdnUrl('/img/logo-csh.png'),
   description: 'Webová a fyzická expozice o hodinách Českého spolku horologického. ~218 článků, sbírka, atlas, mapa expozic.',
   parentOrganization: {
     '@type': 'Organization',
