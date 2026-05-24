@@ -12,6 +12,7 @@
  */
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join } from 'path';
+import { execSync } from 'child_process';
 
 const DIR = 'content/soupis-veznich-hodin';
 const IMGROOT = 'apps/hodinarium-eu/public/img/vez';
@@ -55,8 +56,9 @@ for (const o of props) {
     changed=true; nCoord++;
   } else if (DOCOORDS) { skipPrecise++; }
 
-  // 2) foto — jen volná licence, evidentně kostel (název souboru), jen pokud žádné foto
-  if (DOPHOTOS && o.image && o.free && !hasFoto && CHURCHIMG.test(o.image)) {
+  // 2) foto — jen volná licence, evidentně kostel (název souboru), jen pokud žádné
+  //    foto, a JEN když má záznam ověřenou souřadnici (cur ≤4km → správná shoda)
+  if (DOPHOTOS && cur && o.image && o.free && !hasFoto && CHURCHIMG.test(o.image)) {
     const obecSlug = slugify(o.obec);
     const fname = slugify(o.image.replace(/\.(jpe?g|png|gif)$/i,'')) + (o.image.match(/\.(jpe?g|png|gif)$/i)?.[0]||'.jpg').toLowerCase();
     const rel = `/img/vez/${obecSlug}/${fname}`;
@@ -67,7 +69,9 @@ for (const o of props) {
       const dest = join(dir, fname);
       if (!existsSync(dest)) {
         const r = await fetch(o.imageUrl, { headers:{'User-Agent':UA} });
-        if (r.ok){ const buf=Buffer.from(await r.arrayBuffer()); writeFileSync(dest,buf); await sleep(200);}
+        if (r.ok){ const buf=Buffer.from(await r.arrayBuffer()); writeFileSync(dest,buf);
+          try { execSync(`sips -Z 2000 "${dest}"`, {stdio:'ignore'}); } catch {} // zmenši zdroj na max 2000 px (repo-lean)
+          await sleep(200);}
       }
     }
     // vlož foto blok před závěrečné --- frontmatteru
