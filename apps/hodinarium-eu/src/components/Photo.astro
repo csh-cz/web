@@ -254,12 +254,29 @@ const SVG_RE = /\.svg(\?.*)?$/i;
 const isSvg = SVG_RE.test(src);
 const buildHash = (import.meta.env.PUBLIC_BUILD_HASH ?? Date.now()).toString().slice(0, 8);
 const svgSrc = isSvg ? `${src}?v=${buildHash}` : cdnSrc;
+
+// A.34 — multi-width srcset. Stejné pravidlo jako generátor + rehype-picture:
+// width varianty `{base}-{bp}w.{fmt}` existují jen pro zdroje >= 1024 px,
+// breakpointy MENŠÍ než šířka zdroje. Šířku bereme z image-sizes.json (w).
+const SRCSET_BREAKPOINTS = [480, 1024, 1920];
+const srcW = sizeInfo?.w ?? 0;
+const srcsetEligible = isRaster && srcW >= 1024;
+const photoSizes = '(max-width: 768px) 100vw, 760px';
+function photoSrcset(fmt: 'avif' | 'webp'): string {
+  if (!srcsetEligible) return `${variantBase}.${fmt}`;
+  const parts: string[] = [];
+  for (const bp of SRCSET_BREAKPOINTS) {
+    if (bp < srcW) parts.push(`${variantBase}-${bp}w.${fmt} ${bp}w`);
+  }
+  if (srcW <= 1920) parts.push(`${variantBase}.${fmt} ${srcW}w`);
+  return parts.join(', ');
+}
 ---
 <figure class={figureClass}>
   {isRaster ? (
     <picture>
-      <source type="image/avif" srcset={`${variantBase}.avif`} />
-      <source type="image/webp" srcset={`${variantBase}.webp`} />
+      <source type="image/avif" srcset={photoSrcset('avif')} {...(srcsetEligible ? { sizes: photoSizes } : {})} />
+      <source type="image/webp" srcset={photoSrcset('webp')} {...(srcsetEligible ? { sizes: photoSizes } : {})} />
       <img src={cdnSrc} alt={alt} class={imgClass} loading="lazy" decoding="async" />
     </picture>
   ) : isSvg ? (

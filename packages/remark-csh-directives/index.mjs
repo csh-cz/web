@@ -62,6 +62,24 @@ import { visit } from 'unist-util-visit';
 const CDN_BASE = 'https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev';
 const RASTER_RE = /\.(jpe?g|png)(\?.*)?$/i;
 
+// A.34 — multi-width srcset. Stejné pravidlo jako generátor + rehype-picture:
+// width varianty `{base}-{bp}w.{fmt}` existují jen pro zdroje >= 1024 px,
+// breakpointy MENŠÍ než šířka zdroje. Šířku bereme z předané image-sizes mapy.
+const SRCSET_BREAKPOINTS = [480, 1024, 1920];
+const SRCSET_MIN_SOURCE_WIDTH = 1024;
+const SRCSET_SIZES = '(max-width: 768px) 100vw, 760px';
+
+/** srcset string pro daný formát; width descriptors jen pro dost velký zdroj. */
+function srcsetFor(variantBase, fmt, w) {
+  if (!w || w < SRCSET_MIN_SOURCE_WIDTH) return `${variantBase}.${fmt}`;
+  const parts = [];
+  for (const bp of SRCSET_BREAKPOINTS) {
+    if (bp < w) parts.push(`${variantBase}-${bp}w.${fmt} ${bp}w`);
+  }
+  if (w <= 1920) parts.push(`${variantBase}.${fmt} ${w}w`);
+  return parts.join(', ');
+}
+
 /** Minimal HTML-attribute escape pro raw `html` mdast node. */
 function esc(s) {
   return String(s ?? '')
@@ -84,7 +102,7 @@ function esc(s) {
  * Credit (TASL) z explicitních atributů; XMP fallback tu nemáme (originály
  * po A.26 nejsou lokálně) — `.md` karty stejně uvádějí `author` přímo.
  */
-function photoHtml(p) {
+function photoHtml(p, imageSizes = {}) {
   const src = p.src || '';
   const cdnSrc = src.startsWith('/img/') ? CDN_BASE + src : src;
   const isRaster = src.startsWith('/img/') && RASTER_RE.test(src);
@@ -92,10 +110,12 @@ function photoHtml(p) {
   const imgClass = p.class ? ` class="${esc(p.class)}"` : '';
   const imgTag =
     `<img src="${esc(cdnSrc)}" alt="${esc(p.alt)}"${imgClass} loading="lazy" decoding="async">`;
+  const w = (imageSizes[src] && imageSizes[src].w) || 0;
+  const sizesAttr = w >= SRCSET_MIN_SOURCE_WIDTH ? ` sizes="${SRCSET_SIZES}"` : '';
   const media = isRaster
     ? `<picture>` +
-      `<source type="image/avif" srcset="${esc(variantBase)}.avif">` +
-      `<source type="image/webp" srcset="${esc(variantBase)}.webp">` +
+      `<source type="image/avif" srcset="${esc(srcsetFor(variantBase, 'avif', w))}"${sizesAttr}>` +
+      `<source type="image/webp" srcset="${esc(srcsetFor(variantBase, 'webp', w))}"${sizesAttr}>` +
       imgTag +
       `</picture>`
     : imgTag;
@@ -231,7 +251,8 @@ function reconstructText(node) {
   return s;
 }
 
-export default function remarkCshDirectives() {
+export default function remarkCshDirectives(opts = {}) {
+  const imageSizes = opts.imageSizes ?? {};
   return (tree, file) => {
     // `.md` (na rozdíl od `.mdx`) nejde přes MDX kompilátor → `mdxJsxFlowElement`
     // uzly se zahodí. Pro `::photo` v `.md` emitujeme proto raw HTML (photoHtml).
@@ -270,7 +291,7 @@ export default function remarkCshDirectives() {
       // v non-MDX pipeline zahodila). Ostatní direktivy jsou jen v `.mdx`.
       if (isMd && node.name === 'photo') {
         if (parent && typeof index === 'number') {
-          parent.children[index] = { type: 'html', value: photoHtml(props) };
+          parent.children[index] = { type: 'html', value: photoHtml(props, imageSizes) };
         }
         return;
       }

@@ -44,7 +44,8 @@ export default defineConfig({
       // remark-directive parsuje `::name{attr=value}` syntax do AST.
       // Musí být PŘED remarkCshDirectives, který tyto direktivy mapuje na komponenty.
       remarkDirective,
-      remarkCshDirectives,
+      // imageSizes → ::photo v .md emituje multi-width srcset (A.34).
+      [remarkCshDirectives, { imageSizes }],
       // remark-math: `$inline$` a `$$display$$` LaTeX matematické výrazy
       remarkMath,
     ],
@@ -70,7 +71,7 @@ export default defineConfig({
     // remark-directive) se musí inicializovat v MDX parseru SPECIFICKY,
     // aby `::name{...}` syntax fungovala v .mdx souborech.
     mdx({
-      remarkPlugins: [remarkDirective, remarkCshDirectives, remarkMath],
+      remarkPlugins: [remarkDirective, [remarkCshDirectives, { imageSizes }], remarkMath],
       // rehype-deadlink musí být explicitně i tady — mdx() nepřebírá markdown
       // rehypePlugins spolehlivě, takže bez tohoto by .mdx body odkazy
       // (hodinaři medailony, tabor…) nedostaly ⚠ marker. Stejné options.

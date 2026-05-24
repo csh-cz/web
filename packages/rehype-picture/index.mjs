@@ -23,6 +23,33 @@ import { visit } from 'unist-util-visit';
 
 const RASTER_RE = /\.(jpe?g|png)(\?.*)?$/i;
 
+// A.34 — multi-width srcset. MUSÍ se shodovat s generátorem
+// (scripts/generate-image-formats.ts): width varianty `{base}-{bp}w.{fmt}`
+// existují jen pro zdroje šířky >= 1024 a breakpointy MENŠÍ než šířka zdroje.
+const SRCSET_BREAKPOINTS = [480, 1024, 1920];
+const SRCSET_MIN_SOURCE_WIDTH = 1024;
+const SRCSET_SIZES = '(max-width: 768px) 100vw, 760px';
+
+/**
+ * Sestaví srcset string. Pokud je zdroj dost široký (>= 1024), vrátí
+ * width-descriptor srcset s vygenerovanými variantami; jinak jednoduchý
+ * srcset s plnou variantou (žádné width varianty neexistují).
+ * @param {string} variantBase  base URL bez extense (vč. CDN)
+ * @param {'avif'|'webp'} fmt
+ * @param {number} w  šířka zdroje (z image-sizes.json)
+ */
+function buildSrcset(variantBase, fmt, w) {
+  if (!w || w < SRCSET_MIN_SOURCE_WIDTH) return `${variantBase}.${fmt}`;
+  const parts = [];
+  for (const bp of SRCSET_BREAKPOINTS) {
+    if (bp < w) parts.push(`${variantBase}-${bp}w.${fmt} ${bp}w`);
+  }
+  // Plné-res jako největší descriptor jen do 1920 px; větší zdroje strop
+  // na 1920w variantě (nechceme servírovat 4000px originál přes srcset).
+  if (w <= 1920) parts.push(`${variantBase}.${fmt} ${w}w`);
+  return parts.join(', ');
+}
+
 /**
  * @param {{
  *   imageSizes?: Record<string, { w: number, h: number }>,
@@ -99,23 +126,22 @@ export default function rehypePicture(opts = {}) {
         const origExt = src.match(RASTER_RE)?.[0] ?? '';
         node.properties.src = `${cdnBase}${base}${origExt.replace(/\?.*$/, '')}`;
       }
+      // A.34 — width descriptors pro dost velké zdroje (jinak single srcset).
+      const w = dim && typeof dim.w === 'number' ? dim.w : 0;
+      const eligible = w >= SRCSET_MIN_SOURCE_WIDTH;
+      const avifProps = { type: 'image/avif', srcset: buildSrcset(variantBase, 'avif', w) };
+      const webpProps = { type: 'image/webp', srcset: buildSrcset(variantBase, 'webp', w) };
+      if (eligible) {
+        avifProps.sizes = SRCSET_SIZES;
+        webpProps.sizes = SRCSET_SIZES;
+      }
       const picture = {
         type: 'element',
         tagName: 'picture',
         properties: {},
         children: [
-          {
-            type: 'element',
-            tagName: 'source',
-            properties: { type: 'image/avif', srcset: `${variantBase}.avif` },
-            children: [],
-          },
-          {
-            type: 'element',
-            tagName: 'source',
-            properties: { type: 'image/webp', srcset: `${variantBase}.webp` },
-            children: [],
-          },
+          { type: 'element', tagName: 'source', properties: avifProps, children: [] },
+          { type: 'element', tagName: 'source', properties: webpProps, children: [] },
           node,
         ],
       };
