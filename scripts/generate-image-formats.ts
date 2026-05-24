@@ -48,6 +48,15 @@ const FILES_OVERRIDE: string[] | null = filesArgIdx >= 0 && process.argv[filesAr
 const RASTER_EXTS = new Set(['.jpg', '.jpeg', '.png']); // GIF skip — animace
 const SKIP_NAMES = new Set(['nadpis_hodinarium1.gif']); // ikony, sprite atd.
 
+// A.34 — multi-width responsive varianty. Pro zdroje aspoň SRCSET_MIN_SOURCE_WIDTH
+// široké vygenerujeme zmenšené `{base}-{w}w.avif/webp` pro každý breakpoint
+// MENŠÍ než šířka zdroje (skip upscale). Plné-res `{base}.avif/webp` zůstává jako
+// největší fallback. Render (rehype-picture + Photo.astro) MUSÍ použít stejné
+// pravidlo (breakpoint < zdrojová šířka z image-sizes.json), jinak by srcset
+// odkazoval na neexistující soubor → 404.
+const SRCSET_BREAKPOINTS = [480, 1024, 1920];
+const SRCSET_MIN_SOURCE_WIDTH = 1024;
+
 interface Stats {
   scanned: number;
   generated: number;
@@ -121,6 +130,39 @@ async function processFile(file: string, stats: Stats): Promise<void> {
       stats.failed++;
       const rel = file.replace(`${ROOT}/`, '');
       console.error(`✗ ${rel} → ${t.fmt}: ${(e as Error).message}`);
+    }
+  }
+
+  // A.34 — multi-width varianty pro dost velké zdroje.
+  let srcWidth = 0;
+  try {
+    srcWidth = (await sharp(file).metadata()).width ?? 0;
+  } catch {
+    srcWidth = 0;
+  }
+  if (srcWidth >= SRCSET_MIN_SOURCE_WIDTH) {
+    for (const bp of SRCSET_BREAKPOINTS) {
+      if (bp >= srcWidth) continue; // skip upscale — plné-res pokrývá ≥ srcWidth
+      for (const fmt of ['avif', 'webp'] as const) {
+        const target = `${baseFile}-${bp}w.${fmt}`;
+        if (!(await shouldRegenerate(target, sourceMtime))) {
+          stats.skipped++;
+          continue;
+        }
+        try {
+          const img = sharp(file, { failOn: 'truncated' }).resize({ width: bp, withoutEnlargement: true });
+          if (fmt === 'avif') {
+            await img.avif({ quality: 60, effort: 4 }).toFile(target);
+          } else {
+            await img.webp({ quality: 80 }).toFile(target);
+          }
+          stats.generated++;
+        } catch (e) {
+          stats.failed++;
+          const rel = file.replace(`${ROOT}/`, '');
+          console.error(`✗ ${rel} → ${bp}w ${fmt}: ${(e as Error).message}`);
+        }
+      }
     }
   }
 }

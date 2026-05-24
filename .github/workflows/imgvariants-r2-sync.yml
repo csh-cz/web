@@ -48,7 +48,9 @@ jobs:
   sync:
     name: Generate AVIF/WebP + upload to R2 + remove sources from git
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    # 120 min — plný regen po A.26 musí napřed stáhnout zdroje + varianty z R2
+    # (nejsou v gitu) a pak vygenerovat multi-width varianty (A.34, ~2000 AVIF).
+    timeout-minutes: 120
     # Pro git rm + push commit zpět na main musíme mít write access.
     permissions:
       contents: write
@@ -124,6 +126,20 @@ jobs:
       - name: Generate variants (diff)
         if: steps.changed.outputs.mode == 'diff'
         run: pnpm imgvariants:build -- --files "${{ steps.changed.outputs.files }}"
+
+      # Po A.26 nejsou zdroje (jpg/png) ani varianty (avif/webp) v gitu — žijí
+      # na R2. Plný regen je musí napřed stáhnout, jinak generátor nemá z čeho
+      # generovat (public/img obsahuje jen svg). Stažení existujících variant
+      # navíc zajistí, že se NEgenerují znovu plné-res (shouldRegenerate skip),
+      # takže sharp dělá jen nové multi-width varianty (A.34).
+      - name: Download sources + variants from R2 (full regen)
+        if: steps.changed.outputs.mode == 'full'
+        run: pnpm imgvariants:download
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: csh-imgvariants
 
       - name: Generate variants (full regen)
         if: steps.changed.outputs.mode == 'full'
