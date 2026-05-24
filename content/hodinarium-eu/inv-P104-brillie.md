@@ -39,4 +39,6 @@ Hodiny dostávají impulz do [kyvadla](/slovnik/kyvadlo), na kterém je zavěše
 
 Systém byl rozšířen ve Francii, kde jej v roce 1908 sestrojili bratři Brillié. Hodiny vysílají půlminutové [impulzy](/slovnik/impulsy), jak je ve Francii obvyklé.
 
+Podrobnosti o konstrukci, rekonstrukci stroje a historii značky jsou v článku [Mateční hodiny Brillie](/sbirka/brillie).
+
 *Text převzat z informačního panelu expozice (Panel 1, Hodinárium Děčín, 2017). Fotky byly auto-detekovány z `/img/elektrika/brillie/`. **Foto: archiv Českého spolku horologického**, není-li u konkrétního snímku uvedeno jinak. Potvrďte, že jde o správné fotky tohoto exponátu, nebo je nahraďte; pokud znáte konkrétního autora fotografie, prosíme o doplnění atribuce.*

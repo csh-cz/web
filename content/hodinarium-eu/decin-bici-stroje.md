@@ -8,6 +8,7 @@ lastModified: "Sun, 30 Apr 2017 15:09:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:29.054Z"
 relatedKarty:
+  - inv-A037-bici-stroj-brillie
   - inv-A002-vezni-prokes-1868-soubor
 tags:
   - vezni
