@@ -277,7 +277,7 @@
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 249,
+    "wordCount": 270,
     "vyrobce": "Brillié",
     "tags": [
       "hlavni-sal",
@@ -331,7 +331,7 @@
     "year": 1908,
     "lastModified": null,
     "imageCount": 5,
-    "wordCount": 105,
+    "wordCount": 119,
     "vyrobce": "bratři Brillié",
     "tags": [
       "panel-1",
@@ -5394,7 +5394,7 @@
     "year": null,
     "lastModified": "2025-04-03T16:47:00.000Z",
     "imageCount": 5,
-    "wordCount": 1405
+    "wordCount": 1406
   },
   {
     "slug": "ruzne",
@@ -7599,11 +7599,11 @@
   },
   {
     "slug": "inv-A027-vezni-velka-ves",
-    "title": "Věžní hodiny Velká Ves",
+    "title": "Věžní hodiny Veliká Ves",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": "/img/vezni/027a-velika-ves.jpg",
-    "excerpt": "V kostele sv. Vavřince ve Velké Vsi se zachovalo torzo hodin s gotickými prvky. Wikipedie uvádí, že první zmínky o obci i o kostele pocházejí už ze třetí čtvrtiny 13. století; ve starší literatuře se uvádí, že kostel …",
+    "excerpt": "V kostele sv. Vavřince ve Veliké Vsi se zachovalo torzo hodin s gotickými prvky. Wikipedie uvádí, že první zmínky o obci i o kostele pocházejí už ze třetí čtvrtiny 13. století; ve starší literatuře se uvádí, že kostel…",
     "year": 1340,
     "lastModified": null,
     "imageCount": 13,
