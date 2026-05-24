@@ -184,6 +184,8 @@ async function buildCreditIndex(contentDir) {
     const slug = fm.slug || file.replace(/\.(md|mdx)$/, '');
     const title = fm.title || slug;
     const author = fm.author || '';
+    const photoAuthor = cleanAuthor(fm.photoAuthor || '');
+    const photoLicense = fm.photoLicense || '';
     const originalUrl = fm.originalUrl || '';
 
     // ::photo direktivy
@@ -207,13 +209,14 @@ async function buildCreditIndex(contentDir) {
     while ((m = reI.exec(text))) {
       const src = m[2];
       if (out.has(src)) continue;
+      // Fotoreport (kronika): photoAuthor = fotograf, photoLicense = licence.
       out.set(src, {
-        author: cleanAuthor(author) || 'Archiv ČSH',
-        license: deriveRights(originalUrl, author),
+        author: photoAuthor || cleanAuthor(author) || 'Archiv ČSH',
+        license: photoLicense || deriveRights(originalUrl, author),
         sourceUrl: originalUrl,
         articleSlug: slug,
         articleTitle: title,
-        source: 'frontmatter',
+        source: photoAuthor ? 'frontmatter-photo' : 'frontmatter',
       });
     }
   }
