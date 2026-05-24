@@ -61,7 +61,7 @@ Stará stránka je zde.
 - 20\. 3. 2019 Doplnění stránky o kuriózním využití elektřiny - [odpařovací nátah hodin](https://hodinarium-eu.pages.dev/konstrukce/elektricke1)
 - 16\. 3. 2019 Doplnění stránky o [třídrátovém rozvodu IBM hlavní hodiny](/konstrukce/tridratovy-rozvod-ibm)
 - 10\. 3. 2019 [EVERETT EDGECOMBE ELECTRIC SYNCLOCK](https://hodinarium-eu.pages.dev/konstrukce/edgecombe)
-- 2\. 3. 2019 [Vypouštěný věžní stroj neznámé provenience](/sbirka/decin-vypousteny) - doplnění stránky
+- 2\. 3. 2019 [Vypouštěný věžní stroj neznámé provenience](/konstrukce/decin-vypousteny) - doplnění stránky
 - 20\. 2. 2019 Zápis z volební schůze spolku
 
 - 19.12.2018 Doplněna stránka strojů v Hodináriu o [stroj Krečmar](https://hodinarium-eu.pages.dev/kronika/akvizice-2015-2025#2015-2018)

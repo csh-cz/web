@@ -1,7 +1,7 @@
 ---
 title: "Chodový podružný věžní stroj Elektročas vypouštěný minutovými impulzy"
 slug: "decin-vypousteny"
-category: "sbirka"
+category: "konstrukce"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/decin_vypousteny.htm"
 lastModified: "Sat, 02 Mar 2019 19:58:00 GMT"
