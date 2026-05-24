@@ -32,4 +32,16 @@ Soustava je řízena matičními hodinami firmy T&N, které byly předlohou hodi
 
 Soubor je doplněn o podružný stroj věžních hodin firmy Elektročas. Stroj je zajímavý svou jednoduchou a elegantní konstrukcí. Přijímá minutové polarizované impulzy od matičních hodin. Impulzy spouštějí motorek, který pootočí ručkami o jednu minutu. Ty jsou na něj napojeny tak, jak se ve věžích celá soustava instaluje.
 
-Podrobný výklad principu „elektrického surrerwerku" včetně srovnání se závěrkovým a početníkovým systémem odbíjení je v článku [Neobvyklý bicí elektrický stroj Brillié](/sbirka/decin-bici-stroje).
+## Systémy odbíjení — kontext
+
+Pro odbíjení mechanických věžních hodin se nejčastěji používá systém se **závěrkovým kolem**: délka segmentu určuje počet úderů, po zapadnutí závěrkové páky se systém zastaví (příkladem jsou stroje [Prokeš 1868](/sbirka/karta/inv-A002-vezni-prokes-1868-soubor)). U interiérových hodin se později prosadil [početník](/slovnik/pocetnik), který umožňoval opakování bití. **Surrerwerk** — systém s různě dlouhými kolíky — se kvůli obtížnému seřizování posuvných pák příliš neujal a u věžních strojů je vzácný.
+
+Tento exponát představuje surrerwerk v **elektrické verzi**, která je směsí všech tří principů: odbíjení čtvrtí kruhovým spínačem (ve funkci závěrkového kola), odbíjení celých hodin různě dlouhými kolíky (surrerwerk) a nastavení bicí páky vačkou (jako u početníku).
+
+![Spínací segment kruhového kontaktu](/img/decin_surrerwerk/s3.jpg)
+
+![Ozubené kolo s kolíky — pohled 1](/img/decin_surrerwerk/s1.jpg)
+
+![Ozubené kolo s kolíky — pohled 2](/img/decin_surrerwerk/s2.jpg)
+
+*Podrobný text převzat z článku **Petra Krále** „Neobvyklý bicí elektrický stroj Brillié" (hodinarium.eu). Text k expozici: Český spolek horologický.*

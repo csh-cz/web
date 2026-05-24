@@ -36,7 +36,7 @@ Na prostředním snímku je vidět střídné kolo se spouštěcími palci. Je j
 
 Také jicí stroj má nějaké zvláštnosti. Na prvním místě zaujme různý druh pohonu u jicího a bicího stroje. Zatímco bicí stroj je poháněn klasicky řetízkem, jicí stroj má bubínek, patrně k navinutí závěsného lanka závaží. Toto uspořádání se používalo u hodin s osmidenním chodem. *Protože máme k dispozici jen fotografie, nedokážeme jicí stroj blížeji určit. Nepodařilo se odhalit ani způsob [natahování](/slovnik/natah), respektive navíjení závěsu jicího závaží.* Nicméně rozdílnost pohonů je velmi neobvyklá a viděl jsem ji jen u tohoto stroje.
 
-Použití surrerwerku nebylo omezeno jen na "švarcwaldky". Je použit i na elektrickém bicím stroji Brilie ( [decin\_bici\_stroje.htm](/sbirka/decin-bici-stroje) ), použil ho třeba i hodinář Prošek ze Sobotky u pedlovek. Tyto pendlovky jsou na posledních snímcích.
+Použití surrerwerku nebylo omezeno jen na "švarcwaldky". Je použit i na elektrickém bicím stroji Brilie ( [decin\_bici\_stroje.htm](/sbirka/karta/inv-A037-bici-stroj-brillie) ), použil ho třeba i hodinář Prošek ze Sobotky u pedlovek. Tyto pendlovky jsou na posledních snímcích.
 
 ![Prokeš hodiny se surrerwerkem](/img/Prokes_surrerwerk/Prokes_surrerwerk1.jpg)
 
