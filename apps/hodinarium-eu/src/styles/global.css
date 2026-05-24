@@ -1685,7 +1685,11 @@ body[data-editor-mode] article[data-draft="true"] > .draft-banner code {
   color: var(--color-brass-bright, #d4a85a);
   text-decoration-color: var(--color-brass, #b8923e);
 }
-.photo > figcaption .credit { font-size: 0.92em; opacity: 0.85; }
+/* Audit (2026-05-24): opacity 0.85 srazila var(--color-text-muted) v dark
+   tématu (#9a8c75) na efektivních ~#867965 = 4.45:1 (FAIL AA, hairline).
+   Opacity odebrána — de-emphasis drží muted barva + menší velikost; plná
+   barva dává ~5.7:1 dark / vyšší light (AA pass s rezervou). */
+.photo > figcaption .credit { font-size: 0.92em; }
 
 /* Velký portrait — zúžit na obrázek a vycentrovat na šířku textu */
 .photo.is-large.is-portrait { width: fit-content; max-width: 100%; margin-inline: auto; }
