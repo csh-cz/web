@@ -160,6 +160,15 @@ function cleanAuthor(s) {
   return md ? md[1] : s;
 }
 
+// „Se svolením / all rights reserved" detekce (mirror write-xmp-metadata.mjs).
+const PERMISSION_RE = /se svolením|s povolením|with permission|použito s|all rights reserved|všechna práva vyhrazena/i;
+// Explicitní `permission=` attr na ::photo (truthy nebo prázdná hodnota).
+function isPermissionAttr(v) {
+  if (v === undefined || v === null) return false;
+  const s = String(v).trim().toLowerCase();
+  return s === '' || s === 'true' || s === '1' || s === 'yes' || s === 'ano';
+}
+
 function deriveRights(originalUrl, author) {
   if (!originalUrl) return author && author !== 'Archiv ČSH' ? 'autor uveden' : 'autor neznámý';
   const u = originalUrl.toLowerCase();
@@ -171,17 +180,22 @@ function deriveRights(originalUrl, author) {
 
 async function buildCreditIndex(contentDir) {
   const out = new Map();
-  let files;
+  // Recursive přes CELÉ content/ (shodně s write-xmp-metadata.mjs) — ::photo,
+  // foto[] i markdown fotoreporty žijí i v content/kronika, /sbirka, /hodinari…
+  // Původní per-app readdir je míjel → kronika fotky padaly na „Archiv ČSH".
+  const files = [];
   try {
-    files = (await readdir(contentDir)).filter((f) => f.endsWith('.md') || f.endsWith('.mdx'));
+    for await (const f of walk(contentDir)) {
+      if (f.endsWith('.md') || f.endsWith('.mdx')) files.push(f);
+    }
   } catch {
     return out;
   }
-  for (const file of files) {
+  for (const abs of files) {
     let text;
-    try { text = await readFile(join(contentDir, file), 'utf-8'); } catch { continue; }
+    try { text = await readFile(abs, 'utf-8'); } catch { continue; }
     const fm = parseFrontmatter(text);
-    const slug = fm.slug || file.replace(/\.(md|mdx)$/, '');
+    const slug = fm.slug || (abs.split('/').pop() || '').replace(/\.(md|mdx)$/, '');
     const title = fm.title || slug;
     const author = fm.author || '';
     const photoAuthor = cleanAuthor(fm.photoAuthor || '');
@@ -194,9 +208,13 @@ async function buildCreditIndex(contentDir) {
     while ((m = reP.exec(text))) {
       const attrs = parseAttrs(m[1]);
       if (!attrs.src) continue;
+      const explicitLicense = attrs.license || '';
+      // Explicitní permission= attr bez rozepsané license= → „se svolením"
+      // R2 metadata (jinak deriveRights u vlastní domény vrátí obecný string).
+      const permission = isPermissionAttr(attrs.permission) || PERMISSION_RE.test(explicitLicense);
       out.set(attrs.src, {
         author: cleanAuthor(attrs.author) || author || 'Archiv ČSH',
-        license: attrs.license || deriveRights(attrs.sourceUrl || originalUrl, attrs.author || author),
+        license: explicitLicense || (permission ? 'Použito se svolením / used with permission' : deriveRights(attrs.sourceUrl || originalUrl, attrs.author || author)),
         sourceUrl: attrs.sourceUrl || originalUrl,
         articleSlug: slug,
         articleTitle: title,
@@ -210,9 +228,11 @@ async function buildCreditIndex(contentDir) {
       const src = m[2];
       if (out.has(src)) continue;
       // Fotoreport (kronika): photoAuthor = fotograf, photoLicense = licence.
+      // Jmenovaný fotograf bez explicitní licence → „se svolením" (ne default),
+      // shodně s write-xmp-metadata.mjs (named photographer = all rights reserved).
       out.set(src, {
         author: photoAuthor || cleanAuthor(author) || 'Archiv ČSH',
-        license: photoLicense || deriveRights(originalUrl, author),
+        license: photoLicense || (photoAuthor ? 'Použito se svolením / used with permission' : deriveRights(originalUrl, author)),
         sourceUrl: originalUrl,
         articleSlug: slug,
         articleTitle: title,
@@ -384,12 +404,15 @@ const progressTimer = setInterval(() => {
   );
 }, 5000);
 
+// Jeden sdílený credit index z CELÉHO content/ (recursive). /img/ klíče jsou
+// sdílené napříč apps i kolekcemi (kronika, sbirka, hodinari…); per-app readdir
+// by minul fotoreporty mimo content/<app>/.
+console.log(`▸ Building credit index z ${relative(ROOT, join(ROOT, 'content'))}/ (recursive)…`);
+const imageCredits = await buildCreditIndex(join(ROOT, 'content'));
+console.log(`  ${imageCredits.size} credit entries\n`);
+
 for (const app of APPS) {
-  const contentDir = join(ROOT, 'content', app);
   console.log(`=== ${app} ===`);
-  console.log(`▸ Building credit index z ${relative(ROOT, contentDir)}…`);
-  const imageCredits = await buildCreditIndex(contentDir);
-  console.log(`  ${imageCredits.size} credit entries\n`);
 
   const publicImg = join(ROOT, 'apps', app, 'public', 'img');
   if (!existsSync(publicImg)) {
