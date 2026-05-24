@@ -104,7 +104,7 @@
 /sbirka/decin-velika-ves /sbirka/karta/inv-A027-vezni-velka-ves 301
 /sbirka/mobatime /sbirka/karta/inv-P502-podruzne-hodiny-mobatime 301
 /sbirka/vez-kli /sbirka/karta/inv-A004-vezni-18-stol 301
-/sbirka/podruzne-sekundove /sbirka/karta/inv-A201-podruzne-hodiny-s-vterinovkou 301
+/sbirka/podruzne-sekundove /sbirka/karta/inv-A206-podruzne-hodiny-s-vterinovkou 301
 /sbirka/karta/inv-144-synchronni-datumatic /konstrukce/datumatik 301
 /sbirka/karta/inv-75-soubor-malych-slunecnich-hodin /sbirka/katalog 301
 /sbirka/karta/inv-113-eh40 /sbirka/katalog 301
@@ -119,7 +119,13 @@
 /sbirka/karta/inv-A202-retrogradni-kavalir /sbirka/katalog 301
 /sbirka/karta/inv-x13-hodiny-hn350 /sbirka/karta/inv-P505-hodiny-hn350 301
 /sbirka/karta/inv-243-zvoneni-kavalir /sbirka/karta/inv-A185-elektronicky-rizene-odbijeni 301
+/sbirka/karta/inv-243-zvoneni-kavalir/ /sbirka/karta/inv-A185-elektronicky-rizene-odbijeni/ 301
 /sbirka/karta/inv-A263-zvoneni-kavalir /sbirka/karta/inv-A185-elektronicky-rizene-odbijeni 301
+/sbirka/karta/inv-A263-zvoneni-kavalir/ /sbirka/karta/inv-A185-elektronicky-rizene-odbijeni/ 301
+/sbirka/karta/inv-A201-podruzne-hodiny-s-vterinovkou /sbirka/karta/inv-A206-podruzne-hodiny-s-vterinovkou 301
+/sbirka/karta/inv-A201-podruzne-hodiny-s-vterinovkou/ /sbirka/karta/inv-A206-podruzne-hodiny-s-vterinovkou/ 301
+/sbirka/karta/inv-A206-podruze-hodiny-s-vterinovkou /sbirka/karta/inv-A206-podruzne-hodiny-s-vterinovkou 301
+/sbirka/karta/inv-A206-podruze-hodiny-s-vterinovkou/ /sbirka/karta/inv-A206-podruzne-hodiny-s-vterinovkou/ 301
 /sbirka/karta/inv-194-podruzny-stroj-elektrocas-maly /sbirka/karta/inv-A264-podruzny-stroj-elektrocas-maly 301
 /sbirka/karta/inv-1-vezni-hiemann-1884 /sbirka/karta/inv-A001-vezni-hiemann-1884 301
 /sbirka/karta/inv-10-vezni /sbirka/karta/inv-A010-vezni 301

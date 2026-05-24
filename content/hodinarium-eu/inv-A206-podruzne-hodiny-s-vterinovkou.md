@@ -1,6 +1,6 @@
 ---
 title: "Podružné hodiny s vteřinovkou"
-slug: "inv-A201-podruzne-hodiny-s-vterinovkou"
+slug: "inv-A206-podruzne-hodiny-s-vterinovkou"
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
@@ -12,7 +12,7 @@ author: "Miroslav Baudisch"
 tags:
   - vitrina-5-vedlejsi
 karta:
-  inventarniCislo: "A201"
+  inventarniCislo: "A206"
   umisteni: "Vitrína 5 (Sál elektro)"
 ---
 

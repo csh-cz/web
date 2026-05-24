@@ -925,6 +925,21 @@
     ]
   },
   {
+    "slug": "inv-A204-diferencialni-rele",
+    "title": "Diferenciální relé",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
     "slug": "rizeni-kyvadla",
     "title": "Digitálně řízené kyvadlo s automatickou regulací",
     "category": "konstrukce",
@@ -2808,6 +2823,51 @@
     "wordCount": 353
   },
   {
+    "slug": "inv-A202-kontrolni-hodiny-kh-100",
+    "title": "Kontrolní hodiny KH 100",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A200-kontrolni-hodiny-kh4",
+    "title": "Kontrolní hodiny KH4",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A201-kontrolni-hodiny-s-vterinovkou",
+    "title": "Kontrolní hodiny s vteřinovkou",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 11,
+    "tags": [
+      "vitrina-5-vedlejsi"
+    ]
+  },
+  {
     "slug": "inv-A057-kovane-hodiny-gibbus-1",
     "title": "kované hodiny Gibbus 1",
     "category": "sbirka",
@@ -4610,21 +4670,6 @@
     ]
   },
   {
-    "slug": "inv-A206-podruze-hodiny-s-vterinovkou",
-    "title": "Podružé hodiny s vteřinovkou",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 11,
-    "tags": [
-      "vitrina-5-vedlejsi"
-    ]
-  },
-  {
     "slug": "inv-A245-podruzne-brillie",
     "title": "Podružné Brillié",
     "category": "sbirka",
@@ -4815,7 +4860,7 @@
     ]
   },
   {
-    "slug": "inv-A201-podruzne-hodiny-s-vterinovkou",
+    "slug": "inv-A206-podruzne-hodiny-s-vterinovkou",
     "title": "Podružné hodiny s vteřinovkou",
     "category": "sbirka",
     "podsekce": "karta",

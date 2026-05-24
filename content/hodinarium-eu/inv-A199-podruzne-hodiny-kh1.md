@@ -29,6 +29,10 @@ editorNotes:
     title: Auto-import z legacy PHP webu
     text: 'Tato karta byla automaticky importována ze starých PHP stránek ČSH (frontmatter `manualEdit: false`). Obsah a metadata **nebyly manuálně zkontrolovány** — mohou obsahovat HTML/PHP artefakty, špatně zlomené citace, neúplné údaje. Po manuální revizi nastav `manualEdit: true`, aby tato hláška zmizela. <button type="button" class="editor-note-resolve" data-action="resolve-editor-note">✓ Vyřízeno (smazat tuto poznámku z MDX)</button>'
     noteKey: manual-edit-false
+  - level: todo
+    title: Konflikt číslování se Soupisem 260519
+    text: 'Soupis exponátů (260519) vede inv. č. **A199 = „Kontrolní hodiny KH1"** (vitrína 5). Tato karta je ale legacy auto-import „Podružné hodiny Pragotron" s fotkami Pragotron C30 / C301 / CPJ061 (tag `panel-5`), které ke KH1 nepatří. Fotky nejspíš náleží Pragotron C-sérii (srov. inv. A247 „Pragotron C301") / panelovým exponátům. **Nepřejmenovávat naslepo** na „Kontrolní hodiny KH1" — chybně by se tím označily skutečné archivní fotky. K reconcile s kurátorem (M. Baudisch).'
+    noteKey: a199-cislovani-konflikt
 ---
 
 ![fotografie sbírkového předmětu](/img/pragotron/C%2030%20ZEZADU+PS%204.jpg)

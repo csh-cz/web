@@ -176,6 +176,13 @@ const KARTY_SLUG_RENAMES: Record<string, string> = {
   // inv. č. 185 (vitrína 4). A263 byl duplikát → sloučeno do A185.
   'inv-243-zvoneni-kavalir': 'inv-A185-elektronicky-rizene-odbijeni',
   'inv-A263-zvoneni-kavalir': 'inv-A185-elektronicky-rizene-odbijeni',
+  // 2026-05-24: vitrína 5 dle Soupisu 260519 (kurátor M. Baudisch) rozlišuje
+  // inv. 201 „Kontrolní hodiny s vteřinovkou" × inv. 206 „Podružné hodiny
+  // s vteřinovkou". Baudischem psaná detailní karta (popis podružného stroje
+  // s krokovým motorkem) patří k inv. 206 → přesunuta z A201 na A206.
+  // Zároveň oprava překlepu ve slugu A206 (podruze → podruzne).
+  'inv-A201-podruzne-hodiny-s-vterinovkou': 'inv-A206-podruzne-hodiny-s-vterinovkou',
+  'inv-A206-podruze-hodiny-s-vterinovkou': 'inv-A206-podruzne-hodiny-s-vterinovkou',
 };
 
 /** Načti slugy z content/kronika/ — tyto články byly přesunuty z /clanky/. */

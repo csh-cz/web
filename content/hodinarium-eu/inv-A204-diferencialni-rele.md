@@ -1,6 +1,6 @@
 ---
-title: "Podružé hodiny s vteřinovkou"
-slug: "inv-A206-podruze-hodiny-s-vterinovkou"
+title: "Diferenciální relé"
+slug: "inv-A204-diferencialni-rele"
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
@@ -12,7 +12,7 @@ author: "Český spolek horologický"
 tags:
   - vitrina-5-vedlejsi
 karta:
-  inventarniCislo: "A206"
+  inventarniCislo: "A204"
   umisteni: "Vitrína 5 (Sál elektro)"
 ---
 
