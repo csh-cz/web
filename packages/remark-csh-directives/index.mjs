@@ -54,6 +54,81 @@
 import { visit } from 'unist-util-visit';
 
 /**
+ * R2 CDN base — symetrie s rehype-picture (packages/rehype-picture/index.mjs)
+ * a Photo.astro (apps/hodinarium-eu/src/components/Photo.astro). Hardcoded na
+ * třech místech (TODO: shared const po A.9 DNS switchi z pub-…r2.dev na
+ * imgcdn.<doména>).
+ */
+const CDN_BASE = 'https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev';
+const RASTER_RE = /\.(jpe?g|png)(\?.*)?$/i;
+
+/** Minimal HTML-attribute escape pro raw `html` mdast node. */
+function esc(s) {
+  return String(s ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+/**
+ * Soběstačný `<figure class="photo">` markup pro `::photo` v **.md** souborech.
+ *
+ * Proč ne `<Photo>` komponenta: `.md` (na rozdíl od `.mdx`) nejde přes MDX
+ * kompilátor, takže `mdxJsxFlowElement` uzly se tiše zahodí. Emitujeme proto
+ * rovnou HTML — VČETNĚ R2 URL + `<picture>` avif/webp (nečekáme na
+ * rehype-picture, ať jsme nezávislí na pořadí rehype-raw × rehype-picture).
+ * Styling zajišťuje `.photo` / `.img-credit` v global.css (dřív `is:global`
+ * v Photo.astro, přesunuto aby fungovalo i bez komponenty).
+ *
+ * Credit (TASL) z explicitních atributů; XMP fallback tu nemáme (originály
+ * po A.26 nejsou lokálně) — `.md` karty stejně uvádějí `author` přímo.
+ */
+function photoHtml(p) {
+  const src = p.src || '';
+  const cdnSrc = src.startsWith('/img/') ? CDN_BASE + src : src;
+  const isRaster = src.startsWith('/img/') && RASTER_RE.test(src);
+  const variantBase = isRaster ? CDN_BASE + src.replace(RASTER_RE, '') : '';
+  const imgClass = p.class ? ` class="${esc(p.class)}"` : '';
+  const imgTag =
+    `<img src="${esc(cdnSrc)}" alt="${esc(p.alt)}"${imgClass} loading="lazy" decoding="async">`;
+  const media = isRaster
+    ? `<picture>` +
+      `<source type="image/avif" srcset="${esc(variantBase)}.avif">` +
+      `<source type="image/webp" srcset="${esc(variantBase)}.webp">` +
+      imgTag +
+      `</picture>`
+    : imgTag;
+
+  const showCredit = Boolean(p.author || p.license || p.sourceUrl);
+  let caption = '';
+  if (showCredit) {
+    const parts = [];
+    if (p.author) {
+      const name = p.authorUrl
+        ? `<a href="${esc(p.authorUrl)}" rel="noopener" target="_blank">${esc(p.author)}</a>`
+        : esc(p.author);
+      parts.push(`Foto:&nbsp;${name}${p.year ? ` (${esc(p.year)})` : ''}`);
+    }
+    if (p.license) {
+      parts.push(
+        p.licenseUrl
+          ? `<a href="${esc(p.licenseUrl)}" rel="noopener nofollow" target="_blank">${esc(p.license)}</a>`
+          : `<span>${esc(p.license)}</span>`,
+      );
+    }
+    if (p.sourceUrl) {
+      parts.push(`<a href="${esc(p.sourceUrl)}" rel="noopener" target="_blank">zdroj</a>`);
+    }
+    caption = `<figcaption class="img-credit">${parts.join(' · ')}</figcaption>`;
+  } else if (p.caption) {
+    caption = `<figcaption class="img-caption-below">${esc(p.caption)}</figcaption>`;
+  }
+
+  return `<figure class="photo">${media}${caption}</figure>`;
+}
+
+/**
  * Directive name → { component: PascalCase tag, parse: (attrs) => normalized props }
  *
  * `parse` lets us coerce attribute strings into the types each component
@@ -158,6 +233,10 @@ function reconstructText(node) {
 
 export default function remarkCshDirectives() {
   return (tree, file) => {
+    // `.md` (na rozdíl od `.mdx`) nejde přes MDX kompilátor → `mdxJsxFlowElement`
+    // uzly se zahodí. Pro `::photo` v `.md` emitujeme proto raw HTML (photoHtml).
+    const isMd =
+      typeof file?.path === 'string' && /\.md$/i.test(file.path) && !/\.mdx$/i.test(file.path);
     visit(tree, (node, index, parent) => {
       if (
         node.type !== 'containerDirective' &&
@@ -187,6 +266,14 @@ export default function remarkCshDirectives() {
       }
       const rawAttrs = node.attributes || {};
       const props = spec.parse ? spec.parse(rawAttrs) : {};
+      // `.md` + `::photo` → soběstačný raw HTML <figure> (MDX komponenta by se
+      // v non-MDX pipeline zahodila). Ostatní direktivy jsou jen v `.mdx`.
+      if (isMd && node.name === 'photo') {
+        if (parent && typeof index === 'number') {
+          parent.children[index] = { type: 'html', value: photoHtml(props) };
+        }
+        return;
+      }
       const replacement = jsxNode(spec.component, props);
       if (parent && typeof index === 'number') {
         parent.children[index] = replacement;
