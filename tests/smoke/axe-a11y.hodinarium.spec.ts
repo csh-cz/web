@@ -24,7 +24,7 @@ import AxeBuilder from '@axe-core/playwright';
 const PAGES: Array<{ url: string; name: string }> = [
   { url: '/', name: 'home' },
   { url: '/sbirka/', name: 'sbirka-index' },
-  { url: '/sbirka/karta/inv-1-vezni-hiemann-1884/', name: 'sbirka-karta' },
+  { url: '/sbirka/karta/inv-A001-vezni-hiemann-1884/', name: 'sbirka-karta' },
   { url: '/hodinari/', name: 'hodinari-index' },
   { url: '/hodinari/jan-janata/', name: 'hodinari-medailon' },
   { url: '/soupis-veznich-hodin/', name: 'soupis-index' },
