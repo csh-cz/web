@@ -3,11 +3,14 @@ title: "Podružné věžní hodiny VH1 Elektročas"
 slug: "inv-A050-podruzne-vezni-vh1-elektrocas"
 category: sbirka
 podsekce: karta
+# VH1: rok výroby neznámý (do sbírky 2017) — explicit null, ať se z těla
+# nevytáhne 2017 (rok akvizice) jako datace do katalogu.
+year: null
 karta:
   inventarniCislo: "A050"
   datace: ''
   vyrobce: Elektročas
-  signatura: NEBEZPE
+  signatura: ''
   kyvadlo: ''
   ciselnik: ''
   pohonDetail: ''
@@ -16,7 +19,7 @@ karta:
   majitel: zápůjčka
   vztahKeSbirce: zápůjčka
   stav: funkční
-  rokVyroby: '1959'
+  rokVyroby: ''
 tags:
   - hlavni-sal
   - vezni
@@ -28,17 +31,13 @@ originalUrl: https://hodinarium-eu.pages.dev/sbirka/katalog
 lastModified: null
 sourceCharset: utf-8
 scrapedAt: 2026-04-30T04:12:37.526Z
-thumbnail: /img/elektrika/rufa3.jpg
+thumbnail: /img/decin/ElektrocasVK1/foto_0001.jpg
 ---
 
-![Podružný věžní stroj Elektročas — detail elektromagnetu](/img/elektrika/rufa3.jpg)
+![Podružné věžní hodiny VH1 Elektročas — celkový pohled](/img/decin/ElektrocasVK1/foto_0001.jpg)
 
-Hodiny jsou výrobkem firmy Elektročas z roku 1959. Jednoduchý a elegantní systém je poháněn závažím, natahovaným buď elektromotorkem, nebo ručně. Stroj je řízen polarizovanými [impulzy](/slovnik/impulsy) od matičních hodin. Tyto impulzy přijímá čtyřpólový krokový motorek, který se po příchodu impulzu pootočí o čtvrtinu kruhu, jeden ze čtyř kolíků na rotoru odsune západku a páka s kruhovou výsečí poklesne, tím uvolní dvouramennou západku. Ta při svém otočení, brzděném [větrníkem](/slovnik/vetrnik), posune [soukolí](/slovnik/soukoli) o jednu minutu. Během otáčení jeden ze dvou kolíků na páce vrátí západku do výchozí polohy.
+Miniaturní stroj věžních hodin (hmotnost pouhých 18 kg) je výrobkem firmy Elektročas. Do sbírky se dostal v roce 2017. Je řízen polarizovanými [impulzy](/slovnik/impulsy) 24 V od matičních hodin. Tyto impulzy přijímá běžný podružný strojek, který pootáčí diferenciálním [soukolím](/slovnik/soukoli), a tím je vyslán impulz pro elektromotor ovládající ručky.
 
-POZOR!
+Na každé straně [soukolí](/slovnik/soukoli) je kolo s výřezem, takže pokud přicházejí jen řídící impulzy, kola se proti sobě pootočí a palec, který do výřezů zapadal, se nadzvedne. Tím se sepne kontakt pro motor, který po obnovení přívodu elektrického proudu natočí ručky do správné polohy. Po natočení ruček na správný čas se kola postaví proti sobě výřezy, do nichž palec zapadne a obvod se přeruší. Tento mechanismus dovede eliminovat až dvanáctihodinový výpadek napájení motorku.
 
-Větrník se po spuštění otáčí
-
-Během [natahování](/slovnik/natah) se točí motor se řemenem
-
-NEBEZPEČÍ ÚRAZU
+Podrobný popis principu vypouštěných strojů Elektročas i příbuzných exemplářů v expozici je v článku [Chodový podružný věžní stroj Elektročas vypouštěný impulzy](/sbirka/decin-vypousteny).
