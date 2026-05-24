@@ -399,16 +399,40 @@ immutable cache, žádný Worker pro veřejné derivativy). React `ResponsiveIma
 komponenta + Worker decision se na Astro stack nehodí. **Jediný reálně přínosný
 nápad navíc** = width-based `srcset`.
 
-- [ ] **Multi-width varianty pro hero/large/galerie** (~0,5–1 den, nízká
-      priorita). Dnes generujeme jednu šířku per formát (avif/webp/jpg v
-      původním rozlišení) → telefon i 4K monitor stáhnou stejně velký soubor.
-      Návrh: generovat sadu šířek (např. 480 / 768 / 1024 / 1440 / 1920) a
-      v `<source>` přidat `srcset` + `sizes`, ať browser na úzkém viewportu
-      stáhne menší soubor.
+- [~] **Multi-width varianty (`srcset`)** — ROZPRACOVÁNO 2026-05-24, varianta
+      **B** (3 breakpointy 480/1024/1920, zdroje šířky ≥1024). **Backfill
+      odložen** kvůli pomalosti CI (viz níže). Hotové části:
+      - ✅ **Generátor** (`generate-image-formats.ts`) + **CI full-regen download
+        fix** (po A.26 stahuje zdroje z R2) — commit `f4c9003b`, **na main**.
+        Generuje `{base}-{w}w.avif/webp` pro zdroje ≥1024 (skip upscale).
+        Pozn.: diff-mode CI tak generuje width varianty pro NOVÉ velké fotky
+        už teď (zatím nevyužité, render není nasazený — neškodné).
+      - ✅ **Render** (rehype-picture + Photo.astro + remark-csh-directives
+        photoHtml + imageSizes přes astro.config) — emituje width srcset +
+        sizes pro ≥1024. **ZADRŽENO na větvi `a34-render-hold`** (commit
+        `50e6d4e2`) — nepushovat na main, dokud nebudou width varianty na R2
+        (jinak srcset → 404). Ověřeno v dist (006a 1200px → 480w/1024w/1200w).
+      - ❌ **Backfill na R2 BLOKOVANÝ.** Full-regen po `imgvariants:download`
+        regeneruje VŠECH ~7500 variant (stažené varianty mají novější mtime
+        než zdroje → `shouldRegenerate` true) + `write-xmp --force` embeduje
+        všech ~7500 → ~90+ min, **přesahuje 120min timeout** (run 26361636569
+        zrušen v generaci po 89 min).
 
-      **Scope záměrně omezený** jen na **hero / img-large / galerie** — drobné
-      float obrázky (~200–320 px, img-small/medium/tall) z multi-width nic
-      nemají, ne­generovat je (zbytečný nárůst souborů).
+      **Dokončení (samostatný úkol, ~lean run):**
+      1. Po `imgvariants:download` v CI **touch** existující varianty novější
+         než zdroje (`find apps/*/public/img \( -name '*.avif' -o -name
+         '*.webp' \) -exec touch {} +`) → generátor přeskočí plné-res, udělá
+         jen ~2000 width variant (~15 min).
+      2. **Embed jen nových width variant** (ne `--force` na všech) — buď
+         rozšířit `write-xmp` variantSiblings o `-{w}w`, nebo width varianty
+         nechat bez XMP (gap; licence je shodná s plné-res, viz §6.1.1) a
+         embed v full-regen přeskočit.
+      3. Dispatch `imgvariants-r2-sync.yml -f full_regen=true` (teď ~25–35 min).
+      4. Ověřit width varianty na R2 (`…-480w.avif` → 200), pak
+         `git cherry-pick a34-render-hold` → push → ověřit srcset naživo.
+
+      **Scope** jen hero/large/galerie efektivně = zdroje ≥1024 px; drobné
+      float (img-small/medium) bez variant (zbytečné).
 
       **Dopad:**
       - Plus: úspora bytů na mobilu, lepší LCP, menší egress z R2.
