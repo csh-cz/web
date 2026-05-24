@@ -14,13 +14,16 @@ tags:
   - achrer
 tldr: 'Přehled výtvarné části expozice — malovaný orloj Petra Skály a Miroslava Kotrby, hodiny Josefa Achrera z holešovického nádraží, kovaná plastika Zdeňka Legnera a humorná díla Čejky či Krále.'
 relatedKarty:
-  - inv-A264-podruzny-stroj-elektrocas-maly
+  - inv-A047-orloj-skala
+  - inv-A041-hodiny-achrer
+  - inv-A043-kovane-hodiny-legner
+  - inv-A046-nouzove-zastaveni-casu
 ---
 Hodinárium není jen expozice věžních strojů, ale také galerie různých uměleckých
 děl souvisejících s hodinami. Na rozdíl od technické části je tato sekce více
 dočasná — většina děl je zapůjčena na krátkou dobu. Některé exponáty jsou ovšem
-v expozici trvale: malovaný **orloj od Petra Skály a Miroslava Kotrby**,
-**hodiny Josefa Achrera** a **kovaná plastika Zdeňka Legnera**. Nechybí
+v expozici trvale: malovaný **[orloj od Petra Skály a Miroslava Kotrby](/sbirka/karta/inv-A047-orloj-skala)**,
+**[hodiny Josefa Achrera](/sbirka/karta/inv-A041-hodiny-achrer)** a **[kovaná plastika Zdeňka Legnera](/sbirka/karta/inv-A043-kovane-hodiny-legner)**. Nechybí
 ani humor — mj. v podání pana Čejky a dalších autorů výstavy *Nonsens*.
 
 Provozovatelé Hodinária se snaží získat alespoň krátkodobě další díla,
@@ -87,7 +90,7 @@ Pro sezónu **2017** byly zapůjčeny plastiky z [kovářství Gibbus](http://gi
 ## Humor v expozici
 
 Humor zastupuje několik autorů. Pan Čejka ([sestka.com](http://www.sestka.com))
-vytvořil *Nouzové zastavení času*, **[Petr Král](/hodinari/petr-kral)** je autorem *Vážených hodin*
+vytvořil *[Nouzové zastavení času](/sbirka/karta/inv-A046-nouzove-zastaveni-casu)*, **[Petr Král](/hodinari/petr-kral)** je autorem *Vážených hodin*
 a fotokoláže s pseudonymem **aTeo** ([ateo.cz](http://www.ateo.cz)).
 
 ![Nouzové zastavení času — instalace pana Čejky](/img/decin/galerie/nouzove_zastaveni_casu.jpg)
