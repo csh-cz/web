@@ -45,8 +45,11 @@ jobs:
           git config user.email 'noreply@orloj.eu'
           # Smazat staré dated reporty starší 30 dní (drží jen aktuální + 4 týdny historie)
           find docs -name 'dead-links-audit-*.md' -mtime +30 -delete 2>/dev/null || true
-          find tmp -name 'dead-links-*.json' -mtime +30 -delete 2>/dev/null || true
-          git add docs/dead-links-audit-*.md tmp/dead-links-*.json
+          # POZN.: raw JSON jde do tmp/ (gitignored, viz .gitignore) — jen lokální
+          # debug, NEcommitovat (jinak `git add` na ignored path failne celý krok).
+          # Marker (src/data/dead-links.json) + editor index zůstávají review-gated
+          # (commitují se ručně po kontrole), workflow publikuje jen report + Issue.
+          git add docs/dead-links-audit-*.md
           if git diff --cached --quiet; then
             echo "Žádné změny v reportu (= žádné nové dead links)."
             exit 0
