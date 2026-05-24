@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-24T23:35:04.948Z",
+  "generatedAt": "2026-05-24T23:44:32.037Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 157,
     "hodinari": 165,
     "hodinariTs": 165,
-    "soupis": 443
+    "soupis": 442
   },
-  "count": 1703,
+  "count": 1701,
   "words": [
     "Abraham",
     "Accutron",
@@ -21,7 +21,6 @@
     "Ajsknoben",
     "Alena",
     "Alexander",
-    "Alexandrijské",
     "Alois",
     "Andreas",
     "Anežky",
@@ -615,7 +614,6 @@
     "Kasejovice",
     "Kašperské",
     "katedrály",
-    "Kateřiny",
     "Katusice",
     "Kavalir",
     "Kavalír",
