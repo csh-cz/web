@@ -412,7 +412,7 @@ export const hodinari: Hodinar[] = [
       'tridratovy-rozvod-ibm',
       'decin-vypousteny',
       'elektrina-ve-sluzbach-casu',
-      'inv-194-podruzny-stroj-elektrocas-maly',
+      'inv-A264-podruzny-stroj-elektrocas-maly',
       'inv-A230-zavesne-elektrocas-oboustranne',
       'inv-A239-pichacky-elektrocas-dk6',
       'inv-A240-pichacky-elektrocas-dk1',

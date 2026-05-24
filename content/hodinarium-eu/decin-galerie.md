@@ -14,7 +14,7 @@ tags:
   - achrer
 tldr: 'Přehled výtvarné části expozice — malovaný orloj Petra Skály a Miroslava Kotrby, hodiny Josefa Achrera z holešovického nádraží, kovaná plastika Zdeňka Legnera a humorná díla Čejky či Krále.'
 relatedKarty:
-  - inv-194-podruzny-stroj-elektrocas-maly
+  - inv-A264-podruzny-stroj-elektrocas-maly
 ---
 Hodinárium není jen expozice věžních strojů, ale také galerie různých uměleckých
 děl souvisejících s hodinami. Na rozdíl od technické části je tato sekce více
