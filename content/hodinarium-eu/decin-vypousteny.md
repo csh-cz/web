@@ -86,7 +86,10 @@ podružného strojku.
 ### Vypouštěný stroj neznámé provenience
 
 Druhý vypouštěný stroj v Hodináriu je menší a neznámého výrobce. Princip je
-stejný — zarážkový mechanismus uvolňovaný impulzem do krokového motorku.
+stejný — zarážkový mechanismus uvolňovaný impulzem do krokového motorku. Je
+veden jako [sbírková karta (inv. č. A051)](/sbirka/karta/inv-A051-podruzne-vezni-elektrocas/);
+v expozici byl omylem rovněž označen jako „VH1" (skutečný stroj VH1 je
+[inv. č. A050](/sbirka/karta/inv-A050-podruzne-vezni-vh1-elektrocas/)).
 
 ![Vypouštěný stroj neznámé provenience — fotografie 1](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0001.jpg)
 

@@ -1,5 +1,5 @@
 ---
-title: "Podružné věžní hodiny Elektročas"
+title: "Vypouštěný věžní stroj (neznámá provenience)"
 slug: "inv-A051-podruzne-vezni-elektrocas"
 category: "sbirka"
 podsekce: "karta"
@@ -13,24 +13,21 @@ tags:
   - hlavni-sal
   - vezni
   - funkcni
-  - elektrocas
+  - elektricke
 karta:
   inventarniCislo: "A051"
   umisteni: "Sál věžních hodin"
-  vyrobce: "Elektročas"
+  vyrobce: "neznámý"
   majitel: "zápůjčka"
   vztahKeSbirce: "dar"
   stav: "funkční"
-  datace: '1959'
-thumbnail: '/img/decin/elektricky_spousteny_stroj/strana_spousteni.jpg'
+thumbnail: '/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0001.jpg'
 ---
 
-![Podružný věžní stroj Elektročas vypouštěný impulzy — strana spouštění](/img/decin/elektricky_spousteny_stroj/strana_spousteni.jpg)
+![Vypouštěný věžní stroj neznámé provenience — celkový pohled](/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0001.jpg)
 
-Hodiny jsou výrobkem firmy Elektročas z roku 1959. Jednoduchý a elegantní systém je poháněn závažím, natahovaným buď elektromotorkem, nebo ručně. Stroj **nemá krokové ústrojí** — sám o sobě nejde; potřebuje řídící hodiny, které jednou za minutu uvolní zarážkový mechanismus.
+Menší podružný věžní stroj **neznámého výrobce**, vypouštěný minutovými [impulzy](/slovnik/impulsy). Nemá vlastní krokové ústrojí — sám o sobě nejde; potřebuje řídící (mateční) hodiny, které jednou za minutu uvolní zarážkový mechanismus. Polarizovaný impulz přijme krokový motorek, ten uvolní zarážku a [soukolí](/slovnik/soukoli) se posune o jednu minutu.
 
-Stroj je řízen polarizovanými [impulzy](/slovnik/impulsy) od matičních hodin. Tyto impulzy přijímá čtyřpólový krokový motorek, který se po příchodu impulzu pootočí o čtvrtinu kruhu, jeden ze čtyř kolíků na rotoru odsune západku a páka s kruhovou výsečí poklesne, tím uvolní dvouramennou západku. Ta při svém otočení, brzděném [větrníkem](/slovnik/vetrnik), posune [soukolí](/slovnik/soukoli) o jednu minutu. Během otáčení jeden ze dvou kolíků na páce vrátí západku do výchozí polohy.
+Pracuje na stejném principu jako hlavní vypouštěný stroj v expozici; jeho podrobný výklad je v článku [Chodový podružný věžní stroj Elektročas vypouštěný impulzy](/sbirka/decin-vypousteny).
 
-**POZOR — nebezpečí úrazu:** větrník se po spuštění otáčí; během [natahování](/slovnik/natah) se točí motor s řemenem.
-
-Podrobný popis principu vypouštění i příbuzných strojů v expozici je v článku [Chodový podružný věžní stroj Elektročas vypouštěný impulzy](/sbirka/decin-vypousteny).
+Stroj byl v expozici **omylem rovněž označen jako „VH1"**. Skutečný stroj VH1 (inv. č. A050) má samostatnou kartu [Podružné věžní hodiny VH1 Elektročas](/sbirka/karta/inv-A050-podruzne-vezni-vh1-elektrocas/).

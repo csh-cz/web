@@ -2003,11 +2003,11 @@
     "title": "Hodiny k ocenění vítěze - ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934",
     "category": "sbirka",
     "thumbnail": "/img/jezdeke/trmen1934_1.jpg",
-    "excerpt": "Naše muzeum získalo hodiny postavené k oslavě jezdeckých závodů v Praze v roce 1934. A nejsou to hodiny ledajaké. !fotografie sbírkového předmětu Dokazují tvrzení, že hodiny jdou udělat z čehokoliv. V tomto případě se…",
+    "excerpt": "Tyto pamětní hodiny byly postaveny k oslavě jezdeckých závodů v Praze v roce 1934. Jsou v soukromém vlastnictví Petra Krále — ve fyzické expozici Hodinária nikdy nebyly, představujeme je jen jako kuriozitu. A nejsou t…",
     "year": 1934,
     "lastModified": "2017-04-26T14:06:00.000Z",
     "imageCount": 2,
-    "wordCount": 167,
+    "wordCount": 185,
     "tags": [
       "stolni",
       "setrvacka",
@@ -2454,7 +2454,7 @@
     "year": 1959,
     "lastModified": "2019-03-02T19:58:00.000Z",
     "imageCount": 15,
-    "wordCount": 374,
+    "wordCount": 397,
     "tags": [
       "vezni",
       "elektricke",
@@ -4908,25 +4908,6 @@
     "wordCount": 11,
     "tags": [
       "vitrina-5-vedlejsi"
-    ]
-  },
-  {
-    "slug": "inv-A051-podruzne-vezni-elektrocas",
-    "title": "Podružné věžní hodiny Elektročas",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": "/img/decin/elektricky_spousteny_stroj/strana_spousteni.jpg",
-    "excerpt": "Hodiny jsou výrobkem firmy Elektročas z roku 1959. Jednoduchý a elegantní systém je poháněn závažím, natahovaným buď elektromotorkem, nebo ručně. Stroj nemá krokové ústrojí — sám o sobě nejde; potřebuje řídící hodiny,…",
-    "year": 1959,
-    "lastModified": null,
-    "imageCount": 1,
-    "wordCount": 139,
-    "vyrobce": "Elektročas",
-    "tags": [
-      "hlavni-sal",
-      "vezni",
-      "funkcni",
-      "elektrocas"
     ]
   },
   {
@@ -7795,6 +7776,25 @@
     "lastModified": "2018-04-13T15:44:00.000Z",
     "imageCount": 1,
     "wordCount": 734
+  },
+  {
+    "slug": "inv-A051-podruzne-vezni-elektrocas",
+    "title": "Vypouštěný věžní stroj (neznámá provenience)",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": "/img/decin/dalsi_stroje/elektricky_spousteny/f/foto_0001.jpg",
+    "excerpt": "Menší podružný věžní stroj neznámého výrobce, vypouštěný minutovými impulzy. Nemá vlastní krokové ústrojí — sám o sobě nejde; potřebuje řídící (mateční) hodiny, které jednou za minutu uvolní zarážkový mechanismus. Pol…",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 1,
+    "wordCount": 90,
+    "vyrobce": "neznámý",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "elektricke"
+    ]
   },
   {
     "slug": "zvony-vyroba",
