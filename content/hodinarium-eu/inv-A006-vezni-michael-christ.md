@@ -11,6 +11,7 @@ scrapedAt: "2026-04-30T04:12:37.521Z"
 manualEdit: true
 author: "Český spolek horologický"
 tldr: 'Čtvrťový stroj s kotvovým krokem a 2,8m kyvadlem z kostela sv. Petra a Pavla v Horním Prysku, pravděpodobně dílo Michaela Christa ze Šluknova z první čtvrtiny 19. století — restaurováno Baudisch / Kořínek.'
+thumbnail: '/img/vez/prysk/f/foto2_010.jpg'
 relatedKarty:
   - inv-A038-soucast-veznich-hodin
 tags:
@@ -39,6 +40,8 @@ karta:
     obec: "Horním Prysku"
     detail: "zvonici"
 ---
+
+![Věžní hodiny Michael Christ — restaurovaný stroj](/img/vez/prysk/f/foto2_010.jpg)
 
 ::photo{src="/img/vezni/006a-michael-christ.jpg" alt="věžní stroj Michael Christ — celkový pohled v expozici" author="Miroslav Baudisch"}
 
@@ -79,7 +82,5 @@ Opravu provedli: Ing. [Miroslav Baudisch](/hodinari/miroslav-baudisch), Jiří K
 ![Postup opravy stroje](/img/vez/prysk/f/foto2_008.jpg)
 
 ![Postup opravy stroje](/img/vez/prysk/f/foto2_009.jpg)
-
-![Postup opravy stroje](/img/vez/prysk/f/foto2_010.jpg)
 
 ![Postup opravy stroje](/img/vez/prysk/f/foto2_011.jpg)
