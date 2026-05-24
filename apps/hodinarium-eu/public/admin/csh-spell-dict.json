@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-24T21:08:28.463Z",
+  "generatedAt": "2026-05-24T21:17:08.046Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 157,
@@ -8,7 +8,7 @@
     "hodinariTs": 165,
     "soupis": 433
   },
-  "count": 1694,
+  "count": 1697,
   "words": [
     "Abraham",
     "Accutron",
@@ -101,8 +101,10 @@
     "Billna",
     "Bílovice",
     "Bisswanger",
+    "Bißwanger",
     "Bisswangerové",
     "Bistrița",
+    "Biswanger",
     "biti",
     "bití",
     "Blaníkem",
@@ -304,6 +306,7 @@
     "Engelbertus",
     "Engelschalck",
     "Engelschalckovi",
+    "Engelschalk",
     "Erben",
     "Erhard",
     "Ericsson",
