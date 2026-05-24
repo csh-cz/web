@@ -95,7 +95,7 @@ export const hodinari: Hodinar[] = [
       'Sobotský hodinářský mistr 19. století. Tvůrce velkého věžního strojového kompletu z roku 1868 ze zámku Býchory s unikátním zvonícím strojem. V roce 1865 dodal modelové návrhy pro Pražský orloj. Z asi 400+ atribuovaných věžních hodin se dochovaly desítky exemplářů. V rodinné tradici pokračovali synové [Jan Prokeš ml.](/hodinari/jan-prokes-jr) (Kopidlno), [Leopold Prokeš](/hodinari/leopold-prokes) (Jičín) a [Josef Prokeš](/hodinari/josef-prokes) (Sobotka).',
     relatedSlugs: [
       'inv-A002-vezni-prokes-1868-soubor',
-      'decin-bici-stroje',
+      'inv-A037-bici-stroj-brillie',
       'inv-A002-vezni-prokes-1868-soubor',
       'inv-A032-vezni-skalice',
       'jubilejni-vystava-zemska-1891-hodinari',
@@ -992,7 +992,7 @@ export const hodinari: Hodinar[] = [
       'Francouzští bratři Brillié (Charles a Marius), v roce **1908** sestrojili matiční hodiny s **půlminutovými polarizovanými impulzy** posílanými do podružných hodin — systém se ve Francii rozšířil po továrnách, nádražích, školách a v nemocnicích. V Hodináriu je [matiční Brillié (inv. 88)](/sbirka/karta/inv-P104-brillie/) a [podružný strojek (inv. A245)](/sbirka/karta/inv-A245-podruzne-brillie/).',
     relatedSlugs: [
       'ato',
-      'brillie',
+      'inv-P104-brillie',
       'bulle',
       'decin-ntp',
       'o-hodinariu',

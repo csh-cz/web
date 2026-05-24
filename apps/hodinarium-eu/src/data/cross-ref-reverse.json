@@ -333,6 +333,8 @@
       "soupis": [
         "1880-hlubos-skala-2004",
         "1891-kostelec-n-labem-skala-2004",
+        "1893-domazlice-hainz",
+        "1896-polevsko-hainz",
         "1896-strenice-skala-2004",
         "1902-olomouc-hainz-jankowsky-vmo",
         "1918-vojkovice-skala-2004",
@@ -374,11 +376,6 @@
         "1891-chroustov-prokes-jr",
         "1893-zdar-tanvald-brand-prokes-jr",
         "1894-jablonec-nad-jizerou-prokes-jr"
-      ]
-    },
-    "ludvik-hainz": {
-      "soupis": [
-        "1893-domazlice-hainz"
       ]
     },
     "bernhard-zacharia": {
@@ -448,19 +445,77 @@
       "hodinari": [
         "romuald-bozek"
       ]
+    },
+    "elekon": {
+      "hodinari": [
+        "mobatime"
+      ]
+    },
+    "elektrocas": {
+      "hodinari": [
+        "mobatime"
+      ]
+    },
+    "johann-burk": {
+      "hodinari": [
+        "mobatime"
+      ]
+    },
+    "mobatime": {
+      "hodinari": [
+        "elekon",
+        "petr-kral"
+      ]
     }
   },
   "karty": {
-    "inv-2-vezni-prokes-1868-soubor": {
+    "inv-A029-vezni-benesov": {
+      "soupis": [
+        "1640-benesov-nad-ploucnici-dum"
+      ]
+    },
+    "inv-A005-vezni-18-stol-spindl": {
+      "soupis": [
+        "1754-budislav-kostel-nanebevzeti"
+      ],
+      "hodinari": [
+        "elektrocas",
+        "petr-kral"
+      ]
+    },
+    "inv-A023-vezni-jilove": {
+      "soupis": [
+        "1859-jilove-u-decina-kostel"
+      ]
+    },
+    "inv-A035-vezni-mikulasovice": {
+      "soupis": [
+        "1864-mikulasovice-svaty-mikulas-mannhardt"
+      ],
+      "hodinari": [
+        "joseph-winnerl",
+        "mannhardt"
+      ]
+    },
+    "inv-A002-vezni-prokes-1868-soubor": {
       "soupis": [
         "1868-bychory-prokes"
       ],
       "hodinari": [
         "jan-prokes",
+        "petr-skala",
         "rodina-bellmann"
       ]
     },
-    "inv-32-vezni-skalice": {
+    "inv-A033-vezni-lexa": {
+      "soupis": [
+        "1881-mikulasovice-skola-lissner"
+      ],
+      "hodinari": [
+        "johann-lissner"
+      ]
+    },
+    "inv-A032-vezni-skalice": {
       "soupis": [
         "1882-skalice-u-ceske-lipy-prokes"
       ],
@@ -468,76 +523,98 @@
         "jan-prokes"
       ]
     },
-    "inv-P207-strojek-hainz": {
+    "inv-A001-vezni-hiemann-1884": {
+      "soupis": [
+        "1884-decin-podmokly-hiemann"
+      ],
       "hodinari": [
-        "ludvik-hainz"
+        "julius-hiemann"
       ]
     },
-    "inv-A234-podruzne-vezni-hainz": {
+    "inv-A030-vezni-polevsko-hainz": {
+      "soupis": [
+        "1896-polevsko-hainz"
+      ],
       "hodinari": [
-        "ludvik-hainz"
+        "l-hainz"
       ]
     },
-    "inv-A257-nastenne-hainz": {
-      "hodinari": [
-        "ludvik-hainz"
+    "inv-A034-vezni-benesov-radnice": {
+      "soupis": [
+        "nedatovano-benesov-nad-ploucnici-radnice"
       ]
     },
-    "inv-30-vezni-polevsko-hainz": {
+    "inv-A025-vezni-chribska": {
+      "soupis": [
+        "nedatovano-chribska-svaty-jiri"
+      ],
       "hodinari": [
-        "l-hainz",
-        "ludvik-hainz"
+        "johann-burk"
       ]
     },
-    "inv-5-vezni-18-stol-spindl": {
+    "inv-A006-vezni-michael-christ": {
+      "soupis": [
+        "nedatovano-horni-prysk-petr-pavel-christ"
+      ],
       "hodinari": [
+        "michael-christ",
+        "miroslav-baudisch"
+      ]
+    },
+    "inv-A027-vezni-velka-ves": {
+      "soupis": [
+        "nedatovano-velika-ves-svaty-vavrinec"
+      ],
+      "hodinari": [
+        "miroslav-baudisch",
+        "petr-kral",
+        "petr-skala"
+      ]
+    },
+    "inv-A037-bici-stroj-brillie": {
+      "hodinari": [
+        "bratri-brillie",
         "elektrocas",
-        "ludvik-hainz",
-        "petr-kral"
+        "jan-prokes"
       ]
     },
-    "inv-8-vezni-r-liebing": {
+    "inv-A008-vezni-r-liebing": {
       "hodinari": [
         "richard-liebing"
       ]
     },
-    "inv-7-vezni-f-x-beitel": {
+    "inv-A007-vezni-f-x-beitel": {
       "hodinari": [
         "frantisek-x-beitel"
       ]
     },
-    "inv-41-hodiny-achrer": {
+    "inv-A041-hodiny-achrer": {
       "hodinari": [
         "elektrocas",
         "josef-achrer"
       ]
     },
-    "inv-13-vezni-wenzel-mellner": {
+    "inv-A013-vezni-wenzel-mellner": {
       "hodinari": [
         "wenzel-mellner"
       ]
     },
-    "inv-24-vezni-bassler": {
+    "inv-A024-vezni-bassler": {
       "hodinari": [
         "friedrich-moritz-bassler"
       ]
     },
-    "inv-14-vezni-hodiny-paul-zieux": {
+    "inv-A014-vezni-hodiny-paul-zieux": {
       "hodinari": [
         "paul-zieux"
       ]
     },
-    "inv-21-vezni-drevene": {
+    "inv-A021-vezni-drevene": {
       "hodinari": [
         "peter-fridrich"
       ]
     },
-    "inv-194-podruzny-stroj-elektrocas-maly": {
-      "hodinari": [
-        "elektrocas"
-      ]
-    },
-    "inv-227-podruzny-stroj-elektrocas-maly": {
+    "inv-A264-podruzny-stroj-elektrocas-maly": {
       "hodinari": [
         "elektrocas"
       ]
@@ -562,26 +639,20 @@
         "elektrocas"
       ]
     },
-    "inv-37-bici-stroj-brillie": {
-      "hodinari": [
-        "bratri-brillie",
-        "elektrocas"
-      ]
-    },
-    "inv-50-podruzne-vezni-vh1-elektrocas": {
+    "inv-A050-podruzne-vezni-vh1-elektrocas": {
       "hodinari": [
         "elektrocas"
       ]
     },
-    "inv-51-podruzne-vezni-elektrocas": {
+    "inv-A051-podruzne-vezni-elektrocas": {
       "hodinari": [
         "elektrocas"
       ]
     },
-    "inv-66-cimbal-s-odbijenim": {
+    "inv-A066-cimbal-s-odbijenim": {
       "hodinari": [
         "elektrocas",
-        "kavalir"
+        "jaroslav-kavalir"
       ]
     },
     "inv-P201-maticni-elektrocas": {
@@ -604,22 +675,7 @@
         "pragotron"
       ]
     },
-    "inv-198-podruzny-stroj-pragotron-maly": {
-      "hodinari": [
-        "pragotron"
-      ]
-    },
-    "inv-199-podruzny-stroj-pragotron-maly": {
-      "hodinari": [
-        "pragotron"
-      ]
-    },
-    "inv-231-podruzny-stroj-pragotron-maly": {
-      "hodinari": [
-        "pragotron"
-      ]
-    },
-    "inv-232-podruzny-stroj-pragotron-maly": {
+    "inv-A198-podruzny-stroj-pragotron-maly": {
       "hodinari": [
         "pragotron"
       ]
@@ -629,12 +685,12 @@
         "pragotron"
       ]
     },
-    "inv-36-vezni-thondel-2": {
+    "inv-A036-vezni-thondel-2": {
       "hodinari": [
         "thondel"
       ]
     },
-    "inv-15-vezni-kohlert-kraslice": {
+    "inv-A015-vezni-kohlert-kraslice": {
       "hodinari": [
         "kohlert"
       ]
@@ -644,55 +700,40 @@
         "junghans"
       ]
     },
-    "inv-144-synchronni-datumatic": {
+    "inv-A004-vezni-18-stol": {
       "hodinari": [
-        "datumatic"
+        "petr-kral",
+        "petr-skala"
       ]
     },
-    "inv-6-vezni-michael-christ": {
-      "hodinari": [
-        "michael-christ"
-      ]
-    },
-    "inv-35-vezni-mikulasovice": {
-      "hodinari": [
-        "joseph-winnerl",
-        "mannhardt"
-      ]
-    },
-    "inv-11-vezni-torzo": {
+    "inv-A011-vezni-torzo": {
       "hodinari": [
         "johann-lissner"
       ]
     },
-    "inv-26-vezni-jirkostroj": {
+    "inv-A026-vezni-jirkostroj": {
       "hodinari": [
         "johann-lissner"
       ]
     },
-    "inv-33-vezni-lexa": {
+    "inv-A067-vezni-lissner": {
       "hodinari": [
         "johann-lissner"
       ]
     },
-    "inv-67-vezni-lissner": {
-      "hodinari": [
-        "johann-lissner"
-      ]
-    },
-    "inv-28-vezni-se-setrvackou": {
+    "inv-A028-vezni-se-setrvackou": {
       "hodinari": [
         "jindrich-spacil",
         "miroslav-baudisch"
       ]
     },
-    "inv-47-orloj-skala": {
+    "inv-A047-orloj-skala": {
       "hodinari": [
         "karel-adamec",
         "miroslav-kotrba"
       ]
     },
-    "inv-43-kovane-hodiny-legner": {
+    "inv-A043-kovane-hodiny-legner": {
       "hodinari": [
         "zdenek-legner"
       ]
@@ -702,9 +743,9 @@
         "kappa-orologi"
       ]
     },
-    "inv-1-vezni-hiemann-1884": {
+    "inv-A206-podruzne-hodiny-s-vterinovkou": {
       "hodinari": [
-        "julius-hiemann"
+        "miroslav-baudisch"
       ]
     },
     "inv-P101-model-hipp": {
@@ -718,12 +759,12 @@
         "matthaus-hipp"
       ]
     },
-    "inv-A245-podruzne-brillie": {
+    "inv-P104-brillie": {
       "hodinari": [
         "bratri-brillie"
       ]
     },
-    "inv-P104-brillie": {
+    "inv-A245-podruzne-brillie": {
       "hodinari": [
         "bratri-brillie"
       ]
@@ -736,11 +777,6 @@
     "inv-P106-maticni-ericsson": {
       "hodinari": [
         "ericsson",
-        "kienzle"
-      ]
-    },
-    "inv-148-bateriove-kienzle": {
-      "hodinari": [
         "kienzle"
       ]
     },
@@ -759,7 +795,7 @@
         "zenith"
       ]
     },
-    "inv-12-vezni-rochlitz": {
+    "inv-A012-vezni-rochlitz": {
       "hodinari": [
         "rochlitz-firma"
       ]
@@ -775,8 +811,9 @@
         "mobatime"
       ]
     },
-    "inv-18-vezni-barokni-kovane": {
+    "inv-P501-mini-hlavni-hodiny-hn61": {
       "hodinari": [
+        "elekon",
         "mobatime"
       ]
     },
@@ -787,40 +824,30 @@
     },
     "inv-A176-retrogradni-hodiny-kavalir": {
       "hodinari": [
-        "kavalir"
+        "jaroslav-kavalir"
       ]
     },
-    "inv-202-retrogradni-kavalir": {
+    "inv-A185-elektronicky-rizene-odbijeni": {
       "hodinari": [
-        "kavalir"
+        "jaroslav-kavalir"
       ]
     },
-    "inv-243-zvoneni-kavalir": {
+    "inv-A054-skeletove-hodiny-kavalir": {
       "hodinari": [
-        "kavalir"
+        "jaroslav-kavalir"
       ]
     },
-    "inv-54-skeletove-hodiny-kavalir": {
+    "inv-A064-mysteriozni-natahovani": {
       "hodinari": [
-        "kavalir"
+        "jaroslav-kavalir"
       ]
     },
-    "inv-64-mysteriozni-natahovani": {
+    "inv-A065-orloj-kavalir": {
       "hodinari": [
-        "kavalir"
+        "jaroslav-kavalir"
       ]
     },
-    "inv-65-orloj-kavalir": {
-      "hodinari": [
-        "kavalir"
-      ]
-    },
-    "inv-P501-mini-hlavni-hodiny-hn61": {
-      "hodinari": [
-        "elekon"
-      ]
-    },
-    "inv-x13-hodiny-hn350": {
+    "inv-P505-hodiny-hn350": {
       "hodinari": [
         "elekon"
       ]
@@ -830,9 +857,9 @@
         "schauer"
       ]
     },
-    "inv-25-vezni-chribska": {
+    "inv-A003-barokni-ministroj-18-stol": {
       "hodinari": [
-        "johann-burk"
+        "petr-kral"
       ]
     }
   },
@@ -911,16 +938,6 @@
         "ciselnik"
       ]
     },
-    "bychory-prokes1": {
-      "soupis": [
-        "1868-bychory-prokes"
-      ],
-      "hodinari": [
-        "jan-prokes",
-        "petr-skala",
-        "rodina-bellmann"
-      ]
-    },
     "zidovske": {
       "slovnik": [
         "ciselnik"
@@ -941,16 +958,6 @@
         "leopold-prokes",
         "ludvik-hainz",
         "vaclav-krecmer"
-      ]
-    },
-    "bychory-dalsi-kola": {
-      "hodinari": [
-        "jan-prokes"
-      ]
-    },
-    "decin-bici-stroje": {
-      "hodinari": [
-        "jan-prokes"
       ]
     },
     "jubilejni-vystava-zemska-1891-hodinari": {
@@ -994,10 +1001,10 @@
         "elekon",
         "elektrocas",
         "jan-prokes",
+        "jaroslav-kavalir",
         "josef-achrer",
         "julius-hiemann",
         "karel-adamec",
-        "kavalir",
         "miroslav-baudisch",
         "miroslav-kotrba",
         "petr-kral",
@@ -1016,62 +1023,10 @@
         "vaclav-krecmer"
       ]
     },
-    "akvizice-2015-2025": {
-      "hodinari": [
-        "frantisek-x-beitel",
-        "friedrich-moritz-bassler",
-        "jindrich-spacil",
-        "kohlert",
-        "l-hainz",
-        "ludvik-hainz",
-        "miroslav-baudisch",
-        "peter-fridrich",
-        "richard-liebing",
-        "sebastian-landesberger",
-        "thondel",
-        "vaclav-krecmer"
-      ]
-    },
-    "decin-jednotny-cas": {
-      "hodinari": [
-        "elektrocas",
-        "jednotny-cas",
-        "l-hainz",
-        "ludvik-hainz",
-        "petr-kral"
-      ]
-    },
     "hainz-natahovani": {
       "hodinari": [
         "l-hainz",
         "ludvik-hainz"
-      ]
-    },
-    "jednotnycas": {
-      "hodinari": [
-        "bratri-brillie",
-        "elekon",
-        "elektrocas",
-        "jednotny-cas",
-        "l-hainz",
-        "ludvik-hainz",
-        "mobatime",
-        "pragotron",
-        "wagner"
-      ]
-    },
-    "panel-2-maticni-elektrocas": {
-      "hodinari": [
-        "bratri-brillie",
-        "elektrocas",
-        "ericsson",
-        "jednotny-cas",
-        "ludvik-hainz",
-        "matthaus-hipp",
-        "miroslav-baudisch",
-        "pragotron",
-        "wagner",
-        "zenith"
       ]
     },
     "tabor": {
@@ -1081,13 +1036,6 @@
         "ludvik-hainz",
         "opp-vyskov",
         "petr-kral"
-      ]
-    },
-    "vez-elektrocas1959": {
-      "hodinari": [
-        "elektrocas",
-        "l-hainz",
-        "ludvik-hainz"
       ]
     },
     "janovice": {
@@ -1107,19 +1055,48 @@
         "zdenek-legner"
       ]
     },
-    "decin-wenzel-mellner": {
-      "hodinari": [
-        "wenzel-mellner"
-      ]
-    },
-    "decin-flatbed": {
-      "hodinari": [
-        "paul-zieux"
-      ]
-    },
     "kardasova-recice": {
       "hodinari": [
         "hodinarska-rodina-manesova"
+      ]
+    },
+    "podruzne-hodiny": {
+      "hodinari": [
+        "elektrocas",
+        "jednotny-cas",
+        "l-hainz",
+        "petr-kral"
+      ]
+    },
+    "jednotnycas": {
+      "hodinari": [
+        "bratri-brillie",
+        "elekon",
+        "elektrocas",
+        "jednotny-cas",
+        "l-hainz",
+        "mobatime",
+        "pragotron",
+        "wagner"
+      ]
+    },
+    "vez-elektrocas1959": {
+      "hodinari": [
+        "elektrocas",
+        "l-hainz"
+      ]
+    },
+    "panel-2-maticni-elektrocas": {
+      "hodinari": [
+        "bratri-brillie",
+        "elektrocas",
+        "ericsson",
+        "jednotny-cas",
+        "matthaus-hipp",
+        "miroslav-baudisch",
+        "pragotron",
+        "wagner",
+        "zenith"
       ]
     },
     "arduino": {
@@ -1138,7 +1115,7 @@
         "petr-kral"
       ]
     },
-    "decin-regulace-ibm": {
+    "tridratovy-rozvod-ibm": {
       "hodinari": [
         "elektrocas",
         "petr-kral"
@@ -1259,13 +1236,6 @@
         "dondi"
       ]
     },
-    "decin-velika-ves": {
-      "hodinari": [
-        "miroslav-baudisch",
-        "petr-kral",
-        "petr-skala"
-      ]
-    },
     "podebrady2": {
       "hodinari": [
         "petr-skala"
@@ -1273,12 +1243,6 @@
     },
     "podebrady3": {
       "hodinari": [
-        "petr-skala"
-      ]
-    },
-    "vez-kli": {
-      "hodinari": [
-        "petr-kral",
         "petr-skala"
       ]
     },
@@ -1320,26 +1284,6 @@
       "hodinari": [
         "johann-burk",
         "miroslav-baudisch"
-      ]
-    },
-    "podruzne-sekundove": {
-      "hodinari": [
-        "miroslav-baudisch"
-      ]
-    },
-    "vez-prysk": {
-      "hodinari": [
-        "miroslav-baudisch"
-      ]
-    },
-    "vez-decin": {
-      "hodinari": [
-        "julius-hiemann"
-      ]
-    },
-    "brillie": {
-      "hodinari": [
-        "bratri-brillie"
       ]
     },
     "bulle": {
@@ -1422,26 +1366,9 @@
         "petr-kral"
       ]
     },
-    "mobatime": {
-      "hodinari": [
-        "elekon",
-        "mobatime",
-        "petr-kral"
-      ]
-    },
     "casovy-zamek": {
       "hodinari": [
         "thomas-fox"
-      ]
-    },
-    "decin-chronulator": {
-      "hodinari": [
-        "kavalir"
-      ]
-    },
-    "kavalir": {
-      "hodinari": [
-        "kavalir"
       ]
     },
     "lantime-m100": {
@@ -1551,11 +1478,6 @@
       ]
     },
     "slunecni-polarizacni": {
-      "hodinari": [
-        "petr-kral"
-      ]
-    },
-    "vez-zlate-hory": {
       "hodinari": [
         "petr-kral"
       ]
@@ -2507,6 +2429,22 @@
     "vez-provoz2011": {
       "hodinari": [
         "jan-prokes"
+      ]
+    },
+    "akvizice-2015-2025": {
+      "hodinari": [
+        "frantisek-x-beitel",
+        "friedrich-moritz-bassler",
+        "jindrich-spacil",
+        "kohlert",
+        "l-hainz",
+        "ludvik-hainz",
+        "miroslav-baudisch",
+        "peter-fridrich",
+        "richard-liebing",
+        "sebastian-landesberger",
+        "thondel",
+        "vaclav-krecmer"
       ]
     },
     "vez1": {

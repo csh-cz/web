@@ -15,7 +15,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 
 - 29.12.2015 [Kovaný stroj Wenzel Mellner](/sbirka/karta/inv-A013-vezni-wenzel-mellner) zakoupený naším sponzorem se začíná restaurovat.
 - 4\. 9. 2015 První otevření Hodinária Děčín
-- 20\. 8. 2015 Instalován [elektrický bicí stroj Brillie](/sbirka/decin-bici-stroje)
+- 20\. 8. 2015 Instalován [elektrický bicí stroj Brillie](/sbirka/karta/inv-A037-bici-stroj-brillie)
 - 6\. 8. 2015 Výstavka 2015 v Hodináriu Děčín. [Výtvarné miniatury ve tvaru kostky - Dr. Jaroslav Adam](https://hodinarium-eu.pages.dev/virtualni-muzeum/kostky)
 
 - **V období srpen 2015 proběhla velká inovaci stránek v souvislosti s opuštěním Věžního muzejíčka Soběslav a budování [Hodinária Děčín](https://hodinarium-eu.pages.dev/o-hodinariu). Byly dle možností zkontrolovány odkazy na stránkách a nefunkční odkazy byly zručeny. Programové komponenty byly upravovány tak, aby vyhovovaliy prohlížečúm v tomto období. Některé méně důležité stránky byly odstraněny. Protože za v jistém smyslu nové byly všechny stránky nejsou některé opravdové novinky zaznamenány.**
