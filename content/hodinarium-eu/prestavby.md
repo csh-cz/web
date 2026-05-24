@@ -36,9 +36,9 @@ Nápad například na postavení prstencových hodin prý vznikl při pohledu na
 
 ## ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934
 
-[![Hodiny z třmenu a kapesních hodinek — zemské jezdecké závody Praha 1934](/img/jezdeke/trmen1934_1_i.jpg)](/sbirka/jezdecke)
+[![Hodiny z třmenu a kapesních hodinek — zemské jezdecké závody Praha 1934](/img/jezdeke/trmen1934_1_i.jpg)](/virtualni-muzeum/jezdecke)
 
-Hodinám vytvořeným pro jezdecké závody v roce 1934 z třmenu a kapesních hodinek je věnovaná [**samostatná stránka**](/sbirka/jezdecke)
+Hodinám vytvořeným pro jezdecké závody v roce 1934 z třmenu a kapesních hodinek je věnovaná [**samostatná stránka**](/virtualni-muzeum/jezdecke)
 
 ## "Skeletové" švarcvaldky
 

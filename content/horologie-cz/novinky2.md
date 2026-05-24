@@ -116,7 +116,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 - 2\. 4. 2008 Dňovky - zobrazování času v 12 čí 24 hodinovém dělení
     hodiny [Hrbek - Wejrostek](/zajimavosti/hodinky-12-24-ciferniku)
 - 23\. 3. 2008 [Přestavby hodin](https://hodinarium-eu.pages.dev/zajimavosti/prestavby)
-- 20\. 3. 2008 Hodiny k ocenění - ["ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934"](https://hodinarium-eu.pages.dev/sbirka/jezdecke)
+- 20\. 3. 2008 Hodiny k ocenění - ["ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934"](https://hodinarium-eu.pages.dev/virtualni-muzeum/jezdecke)
 - 18\. 3. 2008 Hodiny s [elektrickým impulzem do oscilátoru](https://hodinarium-eu.pages.dev/konstrukce/elektricke2)
 - 15\. 3. 2008 Synchronní svítící budík [METAMEC](https://hodinarium-eu.pages.dev/konstrukce/sitovky#metamec)
 - 25\. 2. 2008 **Terminologický slovník hodináře -** převzato s laskavým svolením autora ze serveru 62.168.39.166:80/paichl/hodiny.html Obsáhlý soubor zejména hodinářských nástrojů včetně fotografií.

@@ -96,6 +96,9 @@ const SPECIAL: Record<string, string> = {
  * kategorie v catalog.json je zdroj pravdy; tady je jen historie přesunů.
  */
 const CATEGORY_MOVES: Record<string, string> = {
+  // 2026-05: exponátové články přesunuté mimo /sbirka (nejsou ČSH karty)
+  '/sbirka/decin-vypousteny': '/konstrukce/decin-vypousteny',
+  '/sbirka/jezdecke': '/virtualni-muzeum/jezdecke',
   '/sbirka/zidovske': '/virtualni-muzeum/zidovske',
 };
 

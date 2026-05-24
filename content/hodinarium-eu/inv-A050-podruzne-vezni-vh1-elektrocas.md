@@ -40,4 +40,4 @@ Miniaturní stroj věžních hodin (hmotnost pouhých 18 kg) je výrobkem firmy 
 
 Na každé straně [soukolí](/slovnik/soukoli) je kolo s výřezem, takže pokud přicházejí jen řídící impulzy, kola se proti sobě pootočí a palec, který do výřezů zapadal, se nadzvedne. Tím se sepne kontakt pro motor, který po obnovení přívodu elektrického proudu natočí ručky do správné polohy. Po natočení ruček na správný čas se kola postaví proti sobě výřezy, do nichž palec zapadne a obvod se přeruší. Tento mechanismus dovede eliminovat až dvanáctihodinový výpadek napájení motorku.
 
-Podrobný popis principu vypouštěných strojů Elektročas i příbuzných exemplářů v expozici je v článku [Chodový podružný věžní stroj Elektročas vypouštěný impulzy](/sbirka/decin-vypousteny).
+Podrobný popis principu vypouštěných strojů Elektročas i příbuzných exemplářů v expozici je v článku [Chodový podružný věžní stroj Elektročas vypouštěný impulzy](/konstrukce/decin-vypousteny).

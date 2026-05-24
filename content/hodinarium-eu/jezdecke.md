@@ -1,7 +1,7 @@
 ---
 title: "Hodiny k ocenění vítěze - ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934"
 slug: "jezdecke"
-category: "sbirka"
+category: "virtualni-muzeum"
 tags:
   - stolni
   - setrvacka
