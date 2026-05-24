@@ -25,7 +25,7 @@ karta:
     - { label: "Poznámka", value: "kostel Jílové" }
   rokVyroby: "1859"
   krokJicihoStroje: "kotvový krok"
-thumbnail: '/img/decin/rok2020/Jilove/foto_0006.jpg'
+thumbnail: '/img/vezni/023a-jilove.jpg'
 ---
 
 ::photo{src="/img/vezni/023a-jilove.jpg" alt="věžní Jílové — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}

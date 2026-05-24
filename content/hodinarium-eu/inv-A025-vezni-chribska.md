@@ -1,6 +1,7 @@
 ---
 title: "Věžní hodiny Chřibská"
 slug: "inv-A025-vezni-chribska"
+thumbnail: '/img/vezni/025a-chribska.jpg'
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"

@@ -27,6 +27,8 @@ karta:
 thumbnail: '/img/decin/dalsi_stroje/Krecmer/foto_0005.jpg'
 ---
 
+![Věžní hodiny Krečmer — stroj na stojanu](/img/decin/dalsi_stroje/Krecmer/foto_0005.jpg)
+
 Malý hodinový stroj, mající jen chodové soukolí se dvěma koly: hnacím bubnem a krokovým kolem, je uložen v litinovém rámu. Hodiny jsou výrobkem hodináře Václava Krečmera, který působil na přelomu 19. a 20. století v Královských Vinohradech. Vyznačují se pečlivým provedením, typickým pro tohoto hodináře, například způsobem zavěšení kyvadla s paletami **[Amantova](/kroky/amantuv-krok)** kroku.
 
 Hodiny, přestože zažily povodeň na Mělnicku v roce 2002, se podařilo restaurovat do současného stavu, kdy jsou schopny spolehlivé funkce.

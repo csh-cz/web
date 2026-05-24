@@ -29,4 +29,6 @@ karta:
 thumbnail: '/img/hainz/deska_stroj_n.jpg'
 ---
 
+![Věžní hodiny Hainz — strojek na desce](/img/hainz/deska_stroj_n.jpg)
+
 Hodinový stroj byl vyroben v roce 1946. V litinovém rámu jsou uloženy tři stroje: jicí, bicí čtvrtí a bicí celých hodin. **[Grahamův](/kroky/grahamuv-krok)** krok je řízen kyvadlem, zavěšeným na ocelové planžetě. Kyvadlová tyč je dřevěná, na konci osazená těžkou litinovou čočkou. Zajímavým způsobem je řešen pohon jicího stroje při [nátahu](/slovnik/natah) – natahovací čtyřhran je třeba zpřístupnit pootočením páky, na jejímž konci je zavěšeno pomocné závaží, které dodává potřebnou energii během nátahu.

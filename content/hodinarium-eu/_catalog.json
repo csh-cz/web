@@ -66,24 +66,6 @@
     ]
   },
   {
-    "slug": "inv-x13-hodiny-hn350",
-    "title": "[K doplnění] Hodiny HN350 (inv. x13)",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Hodiny HN350 (Elekon) — pokračovatelská řada k HN61, umístěné na Panelu 5 v Sále elektro. Akvizice 2025, zápůjčka od Miroslava Baudische. Cena ze seznamu: 8 000 Kč.",
-    "year": 2025,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 83,
-    "vyrobce": "Elekon",
-    "tags": [
-      "panel-5",
-      "funkcni",
-      "sitovky"
-    ]
-  },
-  {
     "slug": "inv-A186-3d-hodiny-velke",
     "title": "3D hodiny velké",
     "category": "sbirka",
@@ -686,6 +668,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Pragotron",
     "tags": [
       "panel-4"
     ]
@@ -1053,6 +1036,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Pragotron",
     "tags": [
       "panel-4"
     ]
@@ -1084,6 +1068,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Pragotron",
     "tags": [
       "panel-4"
     ]
@@ -1099,6 +1084,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Pragotron",
     "tags": [
       "panel-4"
     ]
@@ -1328,13 +1314,16 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "ESH-3 (elektronické signální hodiny) jsou řídicí hodiny jednotného času, vyráběné podnikem ZPA Pragotron na počátku 80. let. Nahradily starší řídicí hodiny s mechanickým kyvadlem a elektrickým nátahem — pracují plně e…",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 197,
+    "vyrobce": "Pragotron",
     "tags": [
-      "panel-4"
+      "panel-4",
+      "jednotny-cas",
+      "elektricke"
     ]
   },
   {
@@ -1946,13 +1935,16 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
-    "year": null,
+    "excerpt": "Hodiny HN350 (Elekon) — pokračovatelská řada k HN61, umístěné na Panelu 5 v Sále elektro. Akvizice 2025, zápůjčka od Miroslava Baudische.",
+    "year": 2025,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 21,
+    "vyrobce": "Elekon",
     "tags": [
-      "panel-5"
+      "panel-5",
+      "funkcni",
+      "sitovky"
     ]
   },
   {
@@ -2035,6 +2027,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Kienzle",
     "tags": [
       "panel-1"
     ]
@@ -2515,6 +2508,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Pragotron",
     "tags": [
       "panel-4"
     ]
@@ -2559,7 +2553,6 @@
     "lastModified": null,
     "imageCount": 5,
     "wordCount": 0,
-    "vyrobce": "Jednotný čas",
     "tags": [
       "panel-2",
       "funkcni",
@@ -3153,6 +3146,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Pragotron",
     "tags": [
       "panel-2"
     ]
@@ -3168,6 +3162,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Pragotron",
     "tags": [
       "panel-2"
     ]
@@ -3202,6 +3197,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Kappa",
     "tags": [
       "panel-5"
     ]
@@ -3304,6 +3300,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Siemens",
     "tags": [
       "panel-3"
     ]
@@ -3347,11 +3344,12 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Soustava je řízena matičními hodinami firmy T&N, které byly předlohou hodin vyráběných v licenci firmou Elektročas. Jsou poháněny závažím, elektricky natahovaným (systém Schönberg). Matiční hodiny ovládají podružné ho…",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 187,
+    "vyrobce": "T&N",
     "tags": [
       "panel-3"
     ]
@@ -3467,6 +3465,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Elekon",
     "tags": [
       "panel-5"
     ]
@@ -3756,6 +3755,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Laplace",
     "tags": [
       "panel-3"
     ]
@@ -3771,6 +3771,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Laplace",
     "tags": [
       "panel-3"
     ]
@@ -3801,6 +3802,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Schauer",
     "tags": [
       "panel-4"
     ]
@@ -4038,6 +4040,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 138,
+    "vyrobce": "Petr Skála a Miroslav Kotrba",
     "tags": [
       "hlavni-sal",
       "funkcni",
@@ -4219,6 +4222,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Elektročas",
     "tags": [
       "panel-4"
     ]
@@ -4308,6 +4312,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Perconta",
     "tags": [
       "panel-3"
     ]
@@ -4647,6 +4652,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Bürk",
     "tags": [
       "panel-3"
     ]
@@ -4720,7 +4726,7 @@
     "lastModified": null,
     "imageCount": 1,
     "wordCount": 49,
-    "vyrobce": "IBM International",
+    "vyrobce": "IBM",
     "tags": [
       "panel-5",
       "funkcni",
@@ -4740,7 +4746,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 33,
-    "vyrobce": "IBM International",
+    "vyrobce": "IBM",
     "tags": [
       "panel-5",
       "jednotny-cas",
@@ -4832,6 +4838,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Pragotron",
     "tags": [
       "panel-2"
     ]
@@ -4905,14 +4912,14 @@
   },
   {
     "slug": "inv-A051-podruzne-vezni-elektrocas",
-    "title": "podružné věžní  Elektročas",
+    "title": "Podružné věžní hodiny Elektročas",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": "/img/elektrika/brevet.jpg",
     "excerpt": "Miniaturní stroj věžních hodin (hmotnost pouhých 18 kg) je výrobkem firmy Elektročas. Je řízen polarizovanými impulzy 24V od matičních hodin. Tyto impulzy přijímá běžný podružný strojek, který pootáčí diferenciálním s…",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 1,
     "wordCount": 112,
     "vyrobce": "Elektročas",
     "tags": [
@@ -4924,7 +4931,7 @@
   },
   {
     "slug": "inv-A234-podruzne-vezni-hainz",
-    "title": "Podružné věžní Hainz",
+    "title": "Podružné věžní hodiny Hainz",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
@@ -4939,14 +4946,14 @@
   },
   {
     "slug": "inv-A050-podruzne-vezni-vh1-elektrocas",
-    "title": "Podružné věžní VH1 Elektročas",
+    "title": "Podružné věžní hodiny VH1 Elektročas",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": "/img/elektrika/rufa3.jpg",
     "excerpt": "Hodiny jsou výrobkem firmy Elektročas z roku 1959. Jednoduchý a elegantní systém je poháněn závažím, natahovaným buď elektromotorkem, nebo ručně. Stroj je řízen polarizovanými impulzy od matičních hodin. Tyto impulzy …",
     "year": 1959,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 1,
     "wordCount": 100,
     "vyrobce": "Elektročas",
     "tags": [
@@ -4957,7 +4964,7 @@
     ]
   },
   {
-    "slug": "inv-194-podruzny-stroj-elektrocas-maly",
+    "slug": "inv-A264-podruzny-stroj-elektrocas-maly",
     "title": "Podružný stroj Elektročas malý",
     "category": "sbirka",
     "podsekce": "karta",
@@ -5355,6 +5362,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Pragotron",
     "tags": [
       "panel-4"
     ]
@@ -5425,6 +5433,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Gema",
     "tags": [
       "panel-5"
     ]
@@ -5564,6 +5573,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Pragotron",
     "tags": [
       "panel-4"
     ]
@@ -6263,11 +6273,11 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Stolní světové hodiny v průhledném akrylátovém bloku. Quartzový strojek pohání centrální dvanáctihodinový číselník umístěný nad polární projekcí mapy severní polokoule; kolem něj je vnější 24hodinová stupnice a věnec …",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 80,
     "tags": [
       "vitrina-2-vedlejsi"
     ]
@@ -6396,6 +6406,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Hainz",
     "tags": [
       "panel-2"
     ]
@@ -6557,6 +6568,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Spar",
     "tags": [
       "panel-3"
     ]
@@ -6915,7 +6927,7 @@
   },
   {
     "slug": "inv-A010-vezni",
-    "title": "věžní",
+    "title": "Věžní hodiny",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
@@ -6933,10 +6945,10 @@
   },
   {
     "slug": "inv-A004-vezni-18-stol",
-    "title": "věžní 18. stol.",
+    "title": "Věžní hodiny 18. stol.",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/004-vezni-18-stol.jpg",
     "excerpt": "Kovaný rám obsahuje kyvadlový stroj s vřetenovým krokem v horní nástavbě a půlový bicí stroj se závěrkovým kolem. Škoda, že ozdobné voluty rámu se zachovaly jen u středních sloupků. Na krajních sloupcích jsou ulámané.…",
     "year": 2013,
     "lastModified": null,
@@ -6951,10 +6963,10 @@
   },
   {
     "slug": "inv-A005-vezni-18-stol-spindl",
-    "title": "věžní 18. stol. špindl",
+    "title": "Věžní hodiny 18. stol. špindl",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/vez/Budislav/f/kostel.jpg",
+    "thumbnail": "/img/vezni/005a-budislav.jpg",
     "excerpt": "Do expozice Věžního muzejíčka v Soběslavi byl v roce 2012 zapůjčen vřetenový stroj věžních hodin z kostela Nanebevzetí Panny Marie z nedaleké obce Budislav. Stroj byl před mnoha lety demontován a nahrazen mechanickým …",
     "year": 1357,
     "lastModified": null,
@@ -6972,8 +6984,26 @@
     ]
   },
   {
+    "slug": "inv-A019-vezni-hodiny-amant-1898",
+    "title": "Věžní hodiny Amant 1898",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Hodinový stroj je uložen v kovaných pásnicích, které jsou uchyceny v rohových odlévaných sloupcích. Svislé pásnice s ložisky pro kola jsou zdobeny prořezáváním. Chod jicího stroje je řízen Amantovým krokem. Ve stroji …",
+    "year": 1898,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 147,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-amant"
+    ]
+  },
+  {
     "slug": "inv-A018-vezni-barokni-kovane",
-    "title": "věžní barokní kované",
+    "title": "Věžní hodiny barokní kované",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
@@ -6991,10 +7021,10 @@
   },
   {
     "slug": "inv-A024-vezni-bassler",
-    "title": "věžní Bassler",
+    "title": "Věžní hodiny Bassler",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/024-bassler.jpg",
     "excerpt": "Hodinový stroj poměrně jednoduché konstrukce je uložen v kovaných pásnicích, které jsou uchyceny v hlavním vodorovném pásu. Pásnice pro hlavní soukolí je k tomuto pásu přichycena jedním šroubem, druhý uchycovací bod j…",
     "year": 1864,
     "lastModified": null,
@@ -7011,10 +7041,10 @@
   },
   {
     "slug": "inv-A029-vezni-benesov",
-    "title": "věžní Benešov",
+    "title": "Věžní hodiny Benešov",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/029a-benesov-1.jpg",
     "excerpt": "Věžní hodinový stroj od neznámého výrobce původně řídil ručky hodin na fasádě městského domu (Benešov n. Pl.), čemuž odpovídají jeho poměrně malé rozměry. Stroj má jen chodové soukolí, které je oproti běžně používané …",
     "year": null,
     "lastModified": null,
@@ -7029,10 +7059,10 @@
   },
   {
     "slug": "inv-A034-vezni-benesov-radnice",
-    "title": "Věžní Benešov radnice",
+    "title": "Věžní hodiny Benešov radnice",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/034-benesov-radnice.jpg",
     "excerpt": "Hodinový stroj věžních hodin podle loga na kontrolním číselníku byl vyroben Chronotechnou Šternberk v šedesátých letech 20. století. Je vybaven půlovým bitím, jicí stroj má Grahamův kotvový krok, řízený kyvadlem s tyč…",
     "year": null,
     "lastModified": null,
@@ -7047,10 +7077,10 @@
   },
   {
     "slug": "inv-A021-vezni-drevene",
-    "title": "věžní dřevěné",
+    "title": "Věžní hodiny dřevěné",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/021-hodiny-drevene.jpg",
     "excerpt": "Repliku dřevěných věžních hodin vyrobil v roce 2015 pan Peter Fridrich z Hodruše. Hodinový mechanizmus je uložen v dřevěném rámu, má jicí stroj a stroj odbíjení celých hodin. Chod vřetenového kroku je řízen lehkým kyv…",
     "year": 2015,
     "lastModified": null,
@@ -7065,10 +7095,10 @@
   },
   {
     "slug": "inv-A007-vezni-f-x-beitel",
-    "title": "věžní F. X. Beitel",
+    "title": "Věžní hodiny F. X. Beitel",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/007a-beitel.jpg",
     "excerpt": "Hodinový stroj má jeden bicí stroj - hodinový. Stroj jicí má krokový mechanismus s klidovým krokem (krok Grahamův s kotvou krátkoramennou). Na hodinovém stroji je osazen kontrolní číselníček. Rám hodin je litinový – d…",
     "year": 1931,
     "lastModified": null,
@@ -7085,7 +7115,7 @@
   },
   {
     "slug": "inv-A031-vezni-francie",
-    "title": "věžní Francie",
+    "title": "Věžní hodiny Francie",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
@@ -7107,14 +7137,14 @@
   },
   {
     "slug": "inv-A017-vezni-hainz",
-    "title": "věžní Hainz",
+    "title": "Věžní hodiny Hainz",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": "/img/hainz/deska_stroj_n.jpg",
     "excerpt": "Hodinový stroj byl vyroben v roce 1946. V litinovém rámu jsou uloženy tři stroje: jicí, bicí čtvrtí a bicí celých hodin. Grahamův krok je řízen kyvadlem, zavěšeným na ocelové planžetě. Kyvadlová tyč je dřevěná, na kon…",
     "year": 1946,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 1,
     "wordCount": 70,
     "vyrobce": "Hainz",
     "tags": [
@@ -7127,7 +7157,7 @@
   },
   {
     "slug": "inv-A001-vezni-hiemann-1884",
-    "title": "věžní Hiemann 1884",
+    "title": "Věžní hodiny Hiemann 1884",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": "/img/vez/decin/decin_instalace3.jpg",
@@ -7150,33 +7180,126 @@
     ]
   },
   {
-    "slug": "inv-A019-vezni-hodiny-amant-1898",
-    "title": "věžní hodiny Amant 1898",
+    "slug": "inv-A022-vezni-holandan",
+    "title": "Věžní hodiny Holanďan",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Hodinový stroj je uložen v kovaných pásnicích, které jsou uchyceny v rohových odlévaných sloupcích. Svislé pásnice s ložisky pro kola jsou zdobeny prořezáváním. Chod jicího stroje je řízen Amantovým krokem. Ve stroji …",
-    "year": 1898,
+    "thumbnail": "/img/vezni/022-holandan.jpg",
+    "excerpt": "Hodinový stroj je uložen ve zdobném litinovém rámu. Sestává ze dvou soukolí: jicího a bicího. Jicí stroj má vratný kotvový krok ( Clementův).",
+    "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 147,
+    "wordCount": 119,
     "tags": [
       "hlavni-sal",
       "vezni",
       "funkcni",
-      "krok-amant"
+      "krok-clement"
+    ]
+  },
+  {
+    "slug": "inv-A025-vezni-chribska",
+    "title": "Věžní hodiny Chřibská",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": "/img/vezni/025a-chribska.jpg",
+    "excerpt": "Hodiny jsou původem z kostela sv. Jiří ve Chřibské. Podle typu konstrukce lze předpokládat, že byly vyrobeny na počátku 18. století. Stroj, sestávající se ze tří částí : hodinového stroje, odbíjení čtvrtí a odbíjení c…",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 160,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "nefunkcni",
+      "krok-clement"
+    ]
+  },
+  {
+    "slug": "inv-A023-vezni-jilove",
+    "title": "Věžní hodiny Jílové",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": "/img/vezni/023a-jilove.jpg",
+    "excerpt": "Hodiny pocházejí z kostela Nejsvětější Trojice. Kostel má pohnutou historii: v roce 1859 vyhořel po zásahu moždíře při oslavách na zámku. Majitel panství hrabě Thun zafinancoval stavbu nového kostela, takže již za rok…",
+    "year": 1859,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 178,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-clement"
+    ]
+  },
+  {
+    "slug": "inv-A026-vezni-jirkostroj",
+    "title": "Věžní hodiny Jirkostroj",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": "/img/vezni/026a-jirkostroj.jpg",
+    "excerpt": "Hodinový stroj byl sestaven ze zachráněných kol stroje věžních hodin. Původní rám se nezachoval, soukolí jicího stroje bylo namontováno do nově zhotovené konstrukce. Stroj má Grahamův krok, pohon závažím.",
+    "year": 1881,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 167,
+    "vyrobce": "Johann Lissner",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-graham"
+    ]
+  },
+  {
+    "slug": "inv-A016-vezni-kladno",
+    "title": "Věžní hodiny Kladno",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Hodiny jsou prací hodináře, zřejmě seznámeného s výrobky pražského hodináře Londenspergera. Podle způsobu zpracování lze odhadovat dobu vzniku na první polovinu 19. století. Kovaný rám je spojován klínky, rovněž i spo…",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 101,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-graham"
+    ]
+  },
+  {
+    "slug": "inv-A015-vezni-kohlert-kraslice",
+    "title": "Věžní hodiny Kohlert Kraslice",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": "/img/vezni/015a-kohlert.jpg",
+    "excerpt": "Hodinář Josef Kohlert se narodil v Kraslicích roku 1839. Navázal na hodinářskou tradici v obci, vyučil se hodinářem (roku 1865 je uváděn v matrice s tímto povoláním) a roku 1873 založil hodinářskou firmu. Vyráběl kval…",
+    "year": 1839,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 172,
+    "vyrobce": "Kohlert",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-graham",
+      "kohlert"
     ]
   },
   {
     "slug": "inv-A020-vezni-hodiny-krecmer",
-    "title": "věžní hodiny Krečmer",
+    "title": "Věžní hodiny Krečmer",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": "/img/decin/dalsi_stroje/Krecmer/foto_0005.jpg",
     "excerpt": "Malý hodinový stroj, mající jen chodové soukolí se dvěma koly: hnacím bubnem a krokovým kolem, je uložen v litinovém rámu. Hodiny jsou výrobkem hodináře Václava Krečmera, který působil na přelomu 19. a 20. století v K…",
     "year": 2002,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 1,
     "wordCount": 73,
     "vyrobce": "Krečmer",
     "tags": [
@@ -7185,6 +7308,25 @@
       "funkcni",
       "krok-amant",
       "krecmer"
+    ]
+  },
+  {
+    "slug": "inv-A033-vezni-lexa",
+    "title": "Věžní hodiny Lexa",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Hodinový stroj byl sestaven ze zachráněných kol stroje věžních hodin. Původní rám se nezachoval, soukolí jicího stroje bylo namontováno do nově zhotovené konstrukce. Stroj má Grahamův krok, pohon závažím.",
+    "year": 1881,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 147,
+    "vyrobce": "Johann Lissner",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-graham"
     ]
   },
   {
@@ -7198,6 +7340,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 124,
+    "vyrobce": "Johann Lissner",
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7206,8 +7349,49 @@
     ]
   },
   {
+    "slug": "inv-A006-vezni-michael-christ",
+    "title": "Věžní hodiny Michael Christ",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": "/img/vez/prysk/f/foto2_010.jpg",
+    "excerpt": "Hodiny byly původně umístěny ve zvonici kostela sv. Petra a Pavla v Horním Prysku. Do expozice Věžního muzejíčka v Soběslavi byly v roce 2012 zapůjčeny laskavostí Biskupství litoměřického, a to před instalací moderníc…",
+    "year": 2012,
+    "lastModified": null,
+    "imageCount": 11,
+    "wordCount": 527,
+    "vyrobce": "Michael Christ",
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "funkcni",
+      "krok-kotva",
+      "michael-christ",
+      "1800s",
+      "restaurovane",
+      "kyvadlo",
+      "zavazi"
+    ]
+  },
+  {
+    "slug": "inv-A035-vezni-mikulasovice",
+    "title": "Věžní hodiny Mikulášovice",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Hodinový stroj věžních hodin byl vyroben známou firmou Mannhardt v Mnichově roku 1864.",
+    "year": 1799,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 266,
+    "tags": [
+      "hlavni-sal",
+      "vezni",
+      "krok-winnerl"
+    ]
+  },
+  {
     "slug": "inv-A014-vezni-hodiny-paul-zieux",
-    "title": "věžní hodiny Paul Zieux",
+    "title": "Věžní hodiny Paul Zieux",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": "/img/decin/francie1770/f/foto_0001.jpg",
@@ -7229,180 +7413,11 @@
     ]
   },
   {
-    "slug": "inv-A022-vezni-holandan",
-    "title": "věžní Holanďan",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Hodinový stroj je uložen ve zdobném litinovém rámu. Sestává ze dvou soukolí: jicího a bicího. Jicí stroj má vratný kotvový krok ( Clementův).",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 119,
-    "tags": [
-      "hlavni-sal",
-      "vezni",
-      "funkcni",
-      "krok-clement"
-    ]
-  },
-  {
-    "slug": "inv-A025-vezni-chribska",
-    "title": "věžní Chřibská",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Hodiny jsou původem z kostela sv. Jiří ve Chřibské. Podle typu konstrukce lze předpokládat, že byly vyrobeny na počátku 18. století. Stroj, sestávající se ze tří částí : hodinového stroje, odbíjení čtvrtí a odbíjení c…",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 160,
-    "tags": [
-      "hlavni-sal",
-      "vezni",
-      "nefunkcni",
-      "krok-clement"
-    ]
-  },
-  {
-    "slug": "inv-A023-vezni-jilove",
-    "title": "věžní Jílové",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": "/img/decin/rok2020/Jilove/foto_0006.jpg",
-    "excerpt": "Hodiny pocházejí z kostela Nejsvětější Trojice. Kostel má pohnutou historii: v roce 1859 vyhořel po zásahu moždíře při oslavách na zámku. Majitel panství hrabě Thun zafinancoval stavbu nového kostela, takže již za rok…",
-    "year": 1859,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 178,
-    "tags": [
-      "hlavni-sal",
-      "vezni",
-      "funkcni",
-      "krok-clement"
-    ]
-  },
-  {
-    "slug": "inv-A026-vezni-jirkostroj",
-    "title": "věžní Jirkostroj",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Hodinový stroj byl sestaven ze zachráněných kol stroje věžních hodin. Původní rám se nezachoval, soukolí jicího stroje bylo namontováno do nově zhotovené konstrukce. Stroj má Grahamův krok, pohon závažím.",
-    "year": 1881,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 167,
-    "tags": [
-      "hlavni-sal",
-      "vezni",
-      "funkcni",
-      "krok-graham"
-    ]
-  },
-  {
-    "slug": "inv-A016-vezni-kladno",
-    "title": "věžní Kladno",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Hodiny jsou prací hodináře, zřejmě seznámeného s výrobky pražského hodináře Londenspergera. Podle způsobu zpracování lze odhadovat dobu vzniku na první polovinu 19. století. Kovaný rám je spojován klínky, rovněž i spo…",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 101,
-    "tags": [
-      "hlavni-sal",
-      "vezni",
-      "funkcni",
-      "krok-graham"
-    ]
-  },
-  {
-    "slug": "inv-A015-vezni-kohlert-kraslice",
-    "title": "věžní Kohlert Kraslice",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Hodinář Josef Kohlert se narodil v Kraslicích roku 1839. Navázal na hodinářskou tradici v obci, vyučil se hodinářem (roku 1865 je uváděn v matrice s tímto povoláním) a roku 1873 založil hodinářskou firmu. Vyráběl kval…",
-    "year": 1839,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 172,
-    "vyrobce": "Kohlert",
-    "tags": [
-      "hlavni-sal",
-      "vezni",
-      "funkcni",
-      "krok-graham",
-      "kohlert"
-    ]
-  },
-  {
-    "slug": "inv-A033-vezni-lexa",
-    "title": "Věžní Lexa",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Hodinový stroj byl sestaven ze zachráněných kol stroje věžních hodin. Původní rám se nezachoval, soukolí jicího stroje bylo namontováno do nově zhotovené konstrukce. Stroj má Grahamův krok, pohon závažím.",
-    "year": 1881,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 147,
-    "tags": [
-      "hlavni-sal",
-      "vezni",
-      "funkcni",
-      "krok-graham"
-    ]
-  },
-  {
-    "slug": "inv-A006-vezni-michael-christ",
-    "title": "věžní Michael Christ",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": "/img/vez/prysk/f/foto2_000.jpg",
-    "excerpt": "Hodiny byly původně umístěny ve zvonici kostela sv. Petra a Pavla v Horním Prysku. Do expozice Věžního muzejíčka v Soběslavi byly v roce 2012 zapůjčeny laskavostí Biskupství litoměřického, a to před instalací moderníc…",
-    "year": 2012,
-    "lastModified": null,
-    "imageCount": 11,
-    "wordCount": 527,
-    "vyrobce": "Michael Christ",
-    "tags": [
-      "hlavni-sal",
-      "vezni",
-      "funkcni",
-      "krok-kotva",
-      "michael-christ",
-      "1800s",
-      "restaurovane",
-      "kyvadlo",
-      "zavazi"
-    ]
-  },
-  {
-    "slug": "inv-A035-vezni-mikulasovice",
-    "title": "Věžní Mikulášovice",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Hodinový stroj věžních hodin byl vyroben známou firmou Mannhardt v Mnichově roku 1864.",
-    "year": 1799,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 266,
-    "tags": [
-      "hlavni-sal",
-      "vezni",
-      "krok-winnerl"
-    ]
-  },
-  {
     "slug": "inv-A030-vezni-polevsko-hainz",
-    "title": "věžní Polevsko Hainz",
+    "title": "Věžní hodiny Polevsko Hainz",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/hainz/predni.jpg",
+    "thumbnail": "/img/vezni/030a-polevsko.jpg",
     "excerpt": "Hodinový stroj byl vyroben v roce 1896. V ozdobném litinovém rámu opatřeném nápisem Praha L. Hainz Prag, jsou uloženy tři stroje: jicí, bicí čtvrtí a bicí celých hodin. Amantův krok je řízen kyvadlem, zavěšeným na dvo…",
     "year": 1896,
     "lastModified": null,
@@ -7419,7 +7434,7 @@
   },
   {
     "slug": "inv-A002-vezni-prokes-1868-soubor",
-    "title": "věžní Prokeš 1868 soubor",
+    "title": "Věžní hodiny Prokeš 1868 soubor",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": "/img/vez/bychory/f/komplet.jpg",
@@ -7444,7 +7459,7 @@
   },
   {
     "slug": "inv-A008-vezni-r-liebing",
-    "title": "věžní R. Liebing",
+    "title": "Věžní hodiny R. Liebing",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
@@ -7464,7 +7479,7 @@
   },
   {
     "slug": "inv-A012-vezni-rochlitz",
-    "title": "věžní Rochlitz",
+    "title": "Věžní hodiny Rochlitz",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
@@ -7484,10 +7499,10 @@
   },
   {
     "slug": "inv-A028-vezni-se-setrvackou",
-    "title": "věžní se setrvačkou",
+    "title": "Věžní hodiny se setrvačkou",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/028a-vezni-se-setrvackou.jpg",
     "excerpt": "Věžní hodinový stroj je zajímavé konstrukce. Hlavní soukolí je poháněno pérem, uloženým ve velkém pérovníku. Chod stroje je řízen setrvačkou, která dostává popudnou sílu od pomocného perka. Každou minutu kolečko, říze…",
     "year": null,
     "lastModified": null,
@@ -7501,7 +7516,7 @@
   },
   {
     "slug": "inv-A032-vezni-skalice",
-    "title": "Věžní Skalice",
+    "title": "Věžní hodiny Skalice",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
@@ -7524,7 +7539,7 @@
   },
   {
     "slug": "inv-A009-vezni-thondel",
-    "title": "věžní Thöndel",
+    "title": "Věžní hodiny Thöndel",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
@@ -7544,7 +7559,7 @@
   },
   {
     "slug": "inv-A036-vezni-thondel-2",
-    "title": "věžní Thöndel 2",
+    "title": "Věžní hodiny Thöndel 2",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
@@ -7564,7 +7579,7 @@
   },
   {
     "slug": "inv-A011-vezni-torzo",
-    "title": "Věžní torzo Lissner (Hilgersdorf / Severní, 1881)",
+    "title": "Věžní hodiny torzo Lissner (Hilgersdorf / Severní, 1881)",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
@@ -7573,6 +7588,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 235,
+    "vyrobce": "Johann Lissner",
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7583,10 +7599,10 @@
   },
   {
     "slug": "inv-A027-vezni-velka-ves",
-    "title": "věžní Velká Ves",
+    "title": "Věžní hodiny Velká Ves",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/decin/gotika/Kostel_sv._Vavrince.jpg",
+    "thumbnail": "/img/vezni/027a-velika-ves.jpg",
     "excerpt": "V kostele sv. Vavřince ve Velké Vsi se zachovalo torzo hodin s gotickými prvky. Wikipedie uvádí, že první zmínky o obci i o kostele pocházejí už ze třetí čtvrtiny 13. století; ve starší literatuře se uvádí, že kostel …",
     "year": 1340,
     "lastModified": null,
@@ -7604,7 +7620,7 @@
   },
   {
     "slug": "inv-A013-vezni-wenzel-mellner",
-    "title": "věžní Wenzel Mellner",
+    "title": "Věžní hodiny Wenzel Mellner",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": "/img/decin/baroko/barokoMellner/f/foto_0001.jpg",
@@ -8044,7 +8060,7 @@
     ]
   },
   {
-    "slug": "inv-243-zvoneni-kavalir",
+    "slug": "inv-A263-zvoneni-kavalir",
     "title": "Zvonění Kavalír",
     "category": "sbirka",
     "podsekce": "karta",
@@ -8096,6 +8112,7 @@
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 11,
+    "vyrobce": "Pragotron",
     "tags": [
       "panel-4"
     ]

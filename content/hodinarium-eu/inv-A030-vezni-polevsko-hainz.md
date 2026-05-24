@@ -27,7 +27,7 @@ karta:
     - { label: "Poznámka", value: "Nejsv. Trojice Polevsko" }
   rokVyroby: "1896"
   krokJicihoStroje: "Amantův kolíčkový krok"
-thumbnail: '/img/hainz/predni.jpg'
+thumbnail: '/img/vezni/030a-polevsko.jpg'
 ---
 
 ::photo{src="/img/vezni/030a-polevsko.jpg" alt="věžní Polevsko Hainz — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}

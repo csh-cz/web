@@ -1,6 +1,7 @@
 ---
 title: "Věžní hodiny Jirkostroj"
 slug: "inv-A026-vezni-jirkostroj"
+thumbnail: '/img/vezni/026a-jirkostroj.jpg'
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"

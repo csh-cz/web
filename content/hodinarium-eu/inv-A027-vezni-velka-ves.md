@@ -1,6 +1,7 @@
 ---
 title: "Věžní hodiny Velká Ves"
 slug: "inv-A027-vezni-velka-ves"
+thumbnail: '/img/vezni/027a-velika-ves.jpg'
 category: "sbirka"
 podsekce: "karta"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

@@ -1,6 +1,7 @@
 ---
 title: "Věžní hodiny Bassler"
 slug: "inv-A024-vezni-bassler"
+thumbnail: '/img/vezni/024-bassler.jpg'
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
