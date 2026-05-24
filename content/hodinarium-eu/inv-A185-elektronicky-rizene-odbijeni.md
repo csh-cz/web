@@ -22,4 +22,8 @@ karta:
   stav: "funkční"
 ---
 
-Elektronicky řízené odbíjení (dříve též vedené jako „zvonění Kavalír") je funkční exponát od [Jaroslava Kavalíra](/hodinari/jaroslav-kavalir), který kombinuje mechaniku s moderní elektronikou. Je vystaven ve vitríně 4 (Sál elektro).
+Elektronicky řízené odbíjení (dříve též vedené jako „zvonění Kavalír") je funkční exponát od [Jaroslava Kavalíra](/hodinari/jaroslav-kavalir), který kombinuje mechaniku s moderní elektronikou.
+
+Odbíjecí systém využívá prvky stavebnice **Arduino**. Časovou informaci přijímá z místní WiFi sítě a zpracovává ji na signál pro dvojici zvonků, gongů a dalších mechanických zvukových zařízení. Po připojení na AP adresu zařízení (např. přes QR kód) lze počítačem, tabletem či mobilem nastavovat charakteristiku odbíjení — způsob (čtvrt, půl, tři čtvrtě a celou hodinu, nebo jen půl a celou), délku impulzu i prodlevu mezi [impulsy](/slovnik/impulsy).
+
+Model a jeho řízení navrhl a zhotovil Ing. Jaroslav Kavalír, software vytvořil Ing. Ladislav Kavalír. Exponát je vystaven ve vitríně 4 (Sál elektro).

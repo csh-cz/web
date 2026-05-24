@@ -13,7 +13,7 @@ tags:
   - hlavni-sal
   - vezni
   - funkcni
-  - krok-graham
+  - krok-amant
   - hainz
 karta:
   inventarniCislo: "A030"
@@ -23,8 +23,11 @@ karta:
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
-  extra:
-    - { label: "Poznámka", value: "Nejsv. Trojice Polevsko" }
+  puvodniUmisteni:
+    objekt: Kostel Nejsvětější Trojice
+    typObjektu: kostel
+    obec: Polevsko
+    detail: ''
   rokVyroby: "1896"
   krokJicihoStroje: "Amantův kolíčkový krok"
 thumbnail: '/img/vezni/030a-polevsko.jpg'
