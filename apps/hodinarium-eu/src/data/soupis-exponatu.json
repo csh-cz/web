@@ -802,10 +802,10 @@
   {
     "invCislo": "A051",
     "invCisloNumeric": 51,
-    "popis": "Podružné věžní hodiny Elektročas",
+    "popis": "Vypouštěný věžní stroj (neznámá provenience)",
     "typ": "motorek",
-    "vyrobce": "Elektročas",
-    "rok": "1959",
+    "vyrobce": "",
+    "rok": "",
     "majitel": "Baudisch",
     "stav": "funkční",
     "vztah": "dar",
