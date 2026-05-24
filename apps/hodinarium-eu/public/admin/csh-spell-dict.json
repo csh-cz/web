@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-24T21:17:08.046Z",
+  "generatedAt": "2026-05-24T21:23:34.168Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 157,
     "hodinari": 165,
     "hodinariTs": 165,
-    "soupis": 433
+    "soupis": 434
   },
-  "count": 1697,
+  "count": 1698,
   "words": [
     "Abraham",
     "Accutron",
@@ -1108,6 +1108,7 @@
     "Pokutí",
     "poledni",
     "polední",
+    "Polevsko",
     "Police",
     "Poličky",
     "Polná",
