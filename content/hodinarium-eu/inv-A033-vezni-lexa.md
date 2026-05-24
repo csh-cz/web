@@ -22,8 +22,11 @@ karta:
   majitel: "zápůjčka"
   vztahKeSbirce: "dar"
   stav: "funkční"
-  extra:
-    - { label: "Poznámka", value: "Mikulášovice škola" }
+  puvodniUmisteni:
+    objekt: Škola
+    typObjektu: škola
+    obec: Mikulášovice
+    detail: ''
   rokVyroby: "1881"
   krokJicihoStroje: "Grahamův krok"
 ---

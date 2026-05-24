@@ -22,8 +22,11 @@ karta:
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
-  extra:
-    - { label: "Poznámka", value: "kostel sv. Jiří Chřibská" }
+  puvodniUmisteni:
+    objekt: Kostel sv. Jiří
+    typObjektu: kostel
+    obec: Chřibská
+    detail: ''
   krokJicihoStroje: "vřetenový krok"
   adaptaceProVystavu: "Jeden ze sloupků chyběl a byl doplněn novodobou kopií."
 ---

@@ -19,8 +19,11 @@ karta:
   pridanoDoSbirky: "2024"
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
-  extra:
-    - { label: "Poznámka", value: "Sv. Mikuláš Mikulášovice" }
+  puvodniUmisteni:
+    objekt: Kostel sv. Mikuláše
+    typObjektu: kostel
+    obec: Mikulášovice
+    detail: ''
   rokVyroby: "1864"
 ---
 

@@ -35,8 +35,11 @@ karta:
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
-  extra:
-    - { label: "Poznámka", value: "Býchory" }
+  puvodniUmisteni:
+    objekt: Zámek Býchory
+    typObjektu: zámek
+    obec: Býchory
+    detail: ''
   rokVyroby: "1868"
   krokJicihoStroje: "Robertův krok (Adolphe Robert ze Sancerre, patent 1852)"
   signatura: "Jan Prokeš v Sobotce 1868"

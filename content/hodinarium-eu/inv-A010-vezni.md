@@ -21,8 +21,11 @@ karta:
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
-  extra:
-    - { label: "Poznámka", value: "Staré Město na Moravě" }
+  puvodniUmisteni:
+    objekt: ''
+    typObjektu: ''
+    obec: Staré Město
+    detail: 'Morava (přesná lokalita nejistá)'
   rokVyroby: "1741"
   adaptaceProVystavu: "Buben čtvrťového bicího stroje je osazen krátkými a dlouhými kolíčky v pořadí: K-K-D-K-D-D-K-D-D-D (celkem deset), ovládajícími páku bití, zároveň nahrazujícími závěrkové kolo."
 ---

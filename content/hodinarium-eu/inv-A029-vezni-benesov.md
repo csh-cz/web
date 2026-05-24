@@ -22,8 +22,11 @@ karta:
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
-  extra:
-    - { label: "Poznámka", value: "dům Benešov n. Pl." }
+  puvodniUmisteni:
+    objekt: Měšťanský dům
+    typObjektu: dům
+    obec: Benešov nad Ploučnicí
+    detail: ''
   rokVyroby: "1640"
 ---
 

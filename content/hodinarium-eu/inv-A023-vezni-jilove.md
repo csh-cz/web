@@ -21,8 +21,11 @@ karta:
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
-  extra:
-    - { label: "Poznámka", value: "kostel Jílové" }
+  puvodniUmisteni:
+    objekt: Kostel
+    typObjektu: kostel
+    obec: Jílové
+    detail: 'u Děčína'
   rokVyroby: "1859"
   krokJicihoStroje: "kotvový krok"
 thumbnail: '/img/vezni/023a-jilove.jpg'

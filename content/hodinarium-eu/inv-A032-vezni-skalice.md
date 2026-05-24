@@ -8,7 +8,7 @@ lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.524Z"
 manualEdit: true
-tldr: 'Inv. č. 32. Čtvrťový stroj Jana Prokeše ze Sobotky (1882), zakoupený farářem Rathauským pro kostel sv. Anny v České Skalici. Železný kovaný rám, Robertův krok, spouštění bití bez náběhu — pro Prokeše typické.'
+tldr: 'Inv. č. 32. Čtvrťový stroj Jana Prokeše ze Sobotky (1882), zakoupený farářem Rathauským pro kostel sv. Anny ve Skalici u České Lípy (Langenau). Železný kovaný rám, Robertův krok, spouštění bití bez náběhu — pro Prokeše typické.'
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
@@ -27,8 +27,11 @@ karta:
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
-  extra:
-    - { label: "Poznámka", value: "Sv. Anny Skalice" }
+  puvodniUmisteni:
+    objekt: Kostel sv. Anny
+    typObjektu: kostel
+    obec: Skalice u České Lípy
+    detail: ''
   rokVyroby: "1882"
   krokJicihoStroje: "kotvový krok"
   biciStroje: "hodinové"
