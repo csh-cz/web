@@ -272,6 +272,17 @@ async function main() {
         entry = (await nominatimQuery(q)) || undefined;
         await sleep(1100); // Nominatim 1 req/s rate limit
       }
+      // Fallback 2: Nominatim obec only (+ okres/kraj) — village-level, approximate.
+      // Catches entries whose budova name doesn't match OSM but whose obec is clear.
+      if (!entry) {
+        const qObec = [fm.puvodniMisto.obec, fm.puvodniMisto.okres, fm.puvodniMisto.kraj]
+          .filter(Boolean)
+          .join(', ');
+        if (qObec) {
+          entry = (await nominatimQuery(qObec)) || undefined;
+          await sleep(1100);
+        }
+      }
       if (!entry) {
         entry = { query: key, source: 'miss', fetchedAt: new Date().toISOString() };
       }
