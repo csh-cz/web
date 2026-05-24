@@ -340,23 +340,22 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
                explicitní CC). R2-only (janata, digitalky1) pokryto.
          - [ ] Sleduj prod traffic — `hodinarium-eu.pages.dev` console na 404 `/img/`
          - [ ] Audit `pnpm deadlinks:audit` po týdnu — nulové broken images
-      5. **Plný přesun originálů z gitu** → `git rm -r apps/*/public/img/`.
-         R2 gap z velké části VYŘEŠEN 2026-05-21 (raw `/img/` v dist
-         hodinarium 232→3, `<a href>` 173→0):
-         - ✅ rehype-picture přepisuje gif/svg src + `<a href="/img/">`;
-           registrováno i v mdx() (předtím .mdx obrázky raw); upload skript
-           + workflow umí gif; Card/ZidovskeHodiny/TaborOrloj/Slunecni/
-           horologie sponzoring+akce → cdnUrl; 5 obsahových souborů raw
-           HTML img/a → R2.
-         - ⏳ gif FILES nahrát na R2: pipeline je umí, dispatchnut
-           `backfill_metadata` (běží/hotovo).
-         **Reziduum před git rm** (drobné, lokální /img/):
-           (a) `/og-preview` 3 raw img (admin, robots-disallowed — OK nechat),
-           (b) horologie `/clanky/kontakt` 2 markdown gify (logo_skala, AFM_2
-               — horologie bare mdx() nepřebírá gif rewrite spolehlivě),
-           (c) JSON-LD `logo` v kronika/[slug] (`/img/logo-csh.png`, metadata).
-         Po vyřešení (b)+(c) a potvrzení gif uploadu → git rm. Do té doby
-         R2 + git koexistují (bezpečné).
+      5. ~~**Plný přesun originálů z gitu** → `git rm apps/*/public/img/*`.~~
+         ✅ **HOTOVO 2026-05-24** (commity `36f33223` + `f5f9fccf`).
+         `git rm` 2886 raster souborů (jpg/png/gif) z obou public/img;
+         lokální avif/webp (gitignored) smazány z working tree. V gitu
+         zůstává jen 5 svg placeholderů. Working tree odlehčen ~861 MB.
+         Build obou apps čistý (1460 + 36 stránek), `dist` neobsahuje žádné
+         lokální rastry — vše z R2. Reziduum vyřešeno:
+         - (a) `/admin/handbook` + `/og-preview` 5 raw img — robots-disallowed
+           interní stránky za CF Access, OK nechat.
+         - (b) horologie `/clanky/kontakt` gify (logo_skala, AFM_2) — ověřeno
+           že dist je teď přepisuje na R2 (200), rewrite funguje.
+         - (c) JSON-LD `logo` (Base/Article/kronika obou apps) + kroky
+           „otevřít v plné velikosti" `<a href>` přesměrovány přes `cdnUrl()`
+           na R2 (commit `f5f9fccf`).
+         **POZN.:** git history (~1 GB) tím NEZmenšen — to by vyžadovalo
+         `git filter-repo` (riskantní, rewrite historie, odloženo).
       6. Sveltia CMS upload widget: přepnout z git-commit binárek
          na R2 signed URL upload (custom CMS widget, ~1 den práce).
 
