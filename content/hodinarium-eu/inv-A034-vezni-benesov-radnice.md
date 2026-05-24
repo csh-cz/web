@@ -1,6 +1,7 @@
 ---
 title: "Věžní hodiny Benešov radnice"
 slug: "inv-A034-vezni-benesov-radnice"
+thumbnail: '/img/vezni/034-benesov-radnice.jpg'
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"

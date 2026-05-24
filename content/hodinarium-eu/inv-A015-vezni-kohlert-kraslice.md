@@ -1,6 +1,7 @@
 ---
 title: "Věžní hodiny Kohlert Kraslice"
 slug: "inv-A015-vezni-kohlert-kraslice"
+thumbnail: '/img/vezni/015a-kohlert.jpg'
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"

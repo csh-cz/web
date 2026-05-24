@@ -1,6 +1,7 @@
 ---
 title: "Věžní hodiny 18. stol."
 slug: "inv-A004-vezni-18-stol"
+thumbnail: '/img/vezni/004-vezni-18-stol.jpg'
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"

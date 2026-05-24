@@ -1,6 +1,7 @@
 ---
 title: "Věžní hodiny se setrvačkou"
 slug: "inv-A028-vezni-se-setrvackou"
+thumbnail: '/img/vezni/028a-vezni-se-setrvackou.jpg'
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"

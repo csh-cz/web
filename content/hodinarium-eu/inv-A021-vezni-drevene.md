@@ -1,6 +1,7 @@
 ---
 title: "Věžní hodiny dřevěné"
 slug: "inv-A021-vezni-drevene"
+thumbnail: '/img/vezni/021-hodiny-drevene.jpg'
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"

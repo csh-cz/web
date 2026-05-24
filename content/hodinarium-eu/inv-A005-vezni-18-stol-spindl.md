@@ -1,6 +1,7 @@
 ---
 title: "Věžní hodiny 18. stol. špindl"
 slug: "inv-A005-vezni-18-stol-spindl"
+thumbnail: '/img/vezni/005a-budislav.jpg'
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium.eu/vez_Budislav.htm"

@@ -1,6 +1,7 @@
 ---
 title: "Věžní hodiny F. X. Beitel"
 slug: "inv-A007-vezni-f-x-beitel"
+thumbnail: '/img/vezni/007a-beitel.jpg'
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"

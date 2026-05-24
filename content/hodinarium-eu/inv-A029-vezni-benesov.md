@@ -1,6 +1,7 @@
 ---
 title: "Věžní hodiny Benešov"
 slug: "inv-A029-vezni-benesov"
+thumbnail: '/img/vezni/029a-benesov-1.jpg'
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"

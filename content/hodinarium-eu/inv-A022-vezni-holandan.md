@@ -1,6 +1,7 @@
 ---
 title: "Věžní hodiny Holanďan"
 slug: "inv-A022-vezni-holandan"
+thumbnail: '/img/vezni/022-holandan.jpg'
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
