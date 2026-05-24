@@ -1239,13 +1239,15 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Elektronicky řízené odbíjení (dříve též vedené jako „zvonění Kavalír\") je funkční exponát od Jaroslava Kavalíra, který kombinuje mechaniku s moderní elektronikou. Je vystaven ve vitríně 4 (Sál elektro).",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 28,
+    "vyrobce": "Jaroslav Kavalír",
     "tags": [
-      "vitrina-4-vedlejsi"
+      "vitrina-4-vedlejsi",
+      "funkcni"
     ]
   },
   {
@@ -8057,23 +8059,6 @@
     "wordCount": 415,
     "tags": [
       "sobeslav"
-    ]
-  },
-  {
-    "slug": "inv-A263-zvoneni-kavalir",
-    "title": "Zvonění Kavalír",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Kavalír",
-    "tags": [
-      "vitrina-4-vedlejsi",
-      "funkcni"
     ]
   },
   {

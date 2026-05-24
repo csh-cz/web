@@ -171,6 +171,11 @@ const KARTY_SLUG_RENAMES: Record<string, string> = {
   // 'inv-67-orloj-hvezdarna-petrin' (inv-67 patří Lissnerovým hodinám).
   'inv-53-model-prazskeho-orloje': 'inv-53-orloj-hvezdarna-petrin',
   'inv-67-orloj-hvezdarna-petrin': 'inv-53-orloj-hvezdarna-petrin',
+  // 2026-05-24: „Zvonění Kavalír" (dříve inv-243, krátce přečíslováno na A263)
+  // je dle kurátora (M. Baudisch) totéž jako „Elektronicky řízené odbíjení",
+  // inv. č. 185 (vitrína 4). A263 byl duplikát → sloučeno do A185.
+  'inv-243-zvoneni-kavalir': 'inv-A185-elektronicky-rizene-odbijeni',
+  'inv-A263-zvoneni-kavalir': 'inv-A185-elektronicky-rizene-odbijeni',
 };
 
 /** Načti slugy z content/kronika/ — tyto články byly přesunuty z /clanky/. */
