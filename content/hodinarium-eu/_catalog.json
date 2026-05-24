@@ -276,8 +276,8 @@
     "excerpt": "Soustava je řízena matičními hodinami firmy T&N, které byly předlohou hodin, vyráběných v licenci firmou Elektročas. Jsou poháněny závažím, elektricky natahovaným (systém Schönberg). Matiční hodiny ovládají podružné h…",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 270,
+    "imageCount": 3,
+    "wordCount": 371,
     "vyrobce": "Brillié",
     "tags": [
       "hlavni-sal",
@@ -331,7 +331,7 @@
     "year": 1908,
     "lastModified": null,
     "imageCount": 5,
-    "wordCount": 119,
+    "wordCount": 439,
     "vyrobce": "bratři Brillié",
     "tags": [
       "panel-1",
@@ -725,11 +725,12 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Základem přijímače je GPS řízený oscilátor (GPS disciplined oscillator, GPSDO) — kombinace přijímače GPS a vysoce stabilního oscilátoru, jehož výstup je řízen tak, aby souhlasil se signály družic GPS/GNSS. Modul GPS16…",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 134,
+    "vyrobce": "Meinberg",
     "tags": [
       "vitrina-3-vedlejsi"
     ]
@@ -740,11 +741,12 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Modulární systém UA 509 GP — rádiové hodiny společnosti Meinberg přijímají signál dlouhovlnného vysílače DCF77 v Mainflingenu u Frankfurtu nad Mohanem, který vysílá referenční čas Spolkové republiky Německo (středoevr…",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 146,
+    "vyrobce": "Meinberg",
     "tags": [
       "vitrina-3-vedlejsi"
     ]
@@ -764,6 +766,22 @@
     "tags": [
       "vitrina-2-hlavni",
       "funkcni"
+    ]
+  },
+  {
+    "slug": "inv-A092-casovy-zamek",
+    "title": "Časový zámek",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Časový zámek je zabezpečovací zařízení, které po nastavenou dobu zabraňuje otevření trezoru. U nás jeho použití nebylo běžné, proto se ke sběratelům dostanou jen výjimečně zámky anglických či amerických výrobců. První…",
+    "year": 1874,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 140,
+    "vyrobce": "Thomas Fox (Safe and Vault Company Ltd.)",
+    "tags": [
+      "vitrina-2-hlavni"
     ]
   },
   {
@@ -960,11 +978,12 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Hodiny jsou osazené digitrony vlastní výroby firmy Dalibor Farný. Indikace je řízena zabudovaným mikropočítačem, který přijímá časovou informaci z místní počítačové sítě — na tu je třeba je při uvedení do provozu napr…",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 56,
+    "vyrobce": "Dalibor Farný",
     "tags": [
       "vitrina-3-vedlejsi"
     ]
@@ -1020,11 +1039,12 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
-    "year": null,
+    "excerpt": "Timometer byl přístroj sloužící k záznamu přesného času pracovních příchodů a odchodů. Každý zaměstnanec měl v podniku svoji kartu, kterou vložil do zařízení; mechanismus uvnitř na ni z hodinového strojku otiskl aktuá…",
+    "year": 1920,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 149,
+    "vyrobce": "Wilson (Boston)",
     "tags": [
       "volne-vedlejsi"
     ]
@@ -1206,11 +1226,12 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
-    "year": null,
+    "excerpt": "Hodiny s tepelným motorem PUJA vyráběl Karl Jauch v Schwenningenu ve Schwarzwaldu kolem roku 1940. Pohon tvoří dvě dvojice křížem posazených trubiček naplněných alkoholem. Jedna z trubek je zespodu zahřívána, takže al…",
+    "year": 1940,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 89,
+    "vyrobce": "Karl Jauch (Schwenningen)",
     "tags": [
       "vitrina-1-vedlejsi"
     ]
@@ -1254,11 +1275,11 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Elektronicky řízené odbíjení (dříve též vedené jako „zvonění Kavalír\") je funkční exponát od Jaroslava Kavalíra, který kombinuje mechaniku s moderní elektronikou. Je vystaven ve vitríně 4 (Sál elektro).",
+    "excerpt": "Elektronicky řízené odbíjení (dříve též vedené jako „zvonění Kavalír\") je funkční exponát od Jaroslava Kavalíra, který kombinuje mechaniku s moderní elektronikou.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 28,
+    "wordCount": 109,
     "vyrobce": "Jaroslav Kavalír",
     "tags": [
       "vitrina-4-vedlejsi",
@@ -1862,11 +1883,11 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Digitální docházkové hodiny čínské výroby slouží k registraci příchodu a odchodu zaměstnanců na pracoviště. Záznam se provádí přiložením registrovaného prstu do okénka snímače.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 23,
     "tags": [
       "vitrina-3-vedlejsi"
     ]
@@ -2018,7 +2039,7 @@
   {
     "slug": "jezdecke",
     "title": "Hodiny k ocenění vítěze - ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934",
-    "category": "sbirka",
+    "category": "virtualni-muzeum",
     "thumbnail": "/img/jezdeke/trmen1934_1.jpg",
     "excerpt": "Tyto pamětní hodiny byly postaveny k oslavě jezdeckých závodů v Praze v roce 1934. Jsou v soukromém vlastnictví Petra Krále — ve fyzické expozici Hodinária nikdy nebyly, představujeme je jen jako kuriozitu. A nejsou t…",
     "year": 1934,
@@ -2465,7 +2486,7 @@
   {
     "slug": "decin-vypousteny",
     "title": "Chodový podružný věžní stroj Elektročas vypouštěný minutovými impulzy",
-    "category": "sbirka",
+    "category": "konstrukce",
     "thumbnail": "/img/decin/elektricky_spousteny_stroj/strana_spousteni.jpg",
     "excerpt": "Chodový podružný věžní stroj Elektročas vypouštěný minutovými impulzy představuje můstek k nově budované expozici elektrických hodin v Hodináriu v Děčíně. Stroj v expozici pochází z roku 1959.",
     "year": 1959,
@@ -3297,24 +3318,6 @@
     ]
   },
   {
-    "slug": "brillie",
-    "title": "Mateční hodiny Brillie",
-    "category": "sbirka",
-    "thumbnail": "/img/elektrika/brillie/Brillie_x2_m.jpg",
-    "excerpt": "Elektromagnetické impulsní mateční hodiny Brilié byly navržené a vyrobené ve Francii. Základní typ s půlsekundovým kyvadlem byl navržen tak, aby každých třicet sekund poskytoval střídavé impulzy pro podřízené hodiny. …",
-    "year": null,
-    "lastModified": "2018-02-18T14:35:00.000Z",
-    "imageCount": 2,
-    "wordCount": 673,
-    "tags": [
-      "jednotny-cas",
-      "elektromagneticke",
-      "kyvadlo",
-      "brillie",
-      "1900s"
-    ]
-  },
-  {
     "slug": "inv-P201-maticni-elektrocas",
     "title": "Matiční Elektročas",
     "category": "sbirka",
@@ -3547,6 +3550,22 @@
       "mechanicke",
       "1800s",
       "kuriozita"
+    ]
+  },
+  {
+    "slug": "inv-A074-model-astrolabu",
+    "title": "Model astrolábu",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Replika středověkého astrolábu, kterou vyrobila firma Kavalír cz.",
+    "year": null,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 155,
+    "vyrobce": "Kavalír",
+    "tags": [
+      "vitrina-1-hlavni"
     ]
   },
   {
@@ -3870,23 +3889,6 @@
     ]
   },
   {
-    "slug": "decin-bici-stroje",
-    "title": "Neobvyklý bicí elektrický stroj BRILLIE",
-    "category": "sbirka",
-    "thumbnail": "/img/decin_surrerwerk/s3.jpg",
-    "excerpt": "Do expozice časoměrných strojů na zámku Děčín dorazil poněkud komplikovanou cestou další exponát: elektricky ovládaný bicí stroj využívající podobný způsob odbíjení celých hodin jako tzv. surrerwerk hodin ze Schwarzwa…",
-    "year": 1868,
-    "lastModified": "2017-04-30T15:09:00.000Z",
-    "imageCount": 5,
-    "wordCount": 534,
-    "tags": [
-      "vezni",
-      "elektricke",
-      "brillie",
-      "decin"
-    ]
-  },
-  {
     "slug": "nocturnal",
     "title": "Nocturnal",
     "category": "konstrukce",
@@ -4079,12 +4081,12 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "",
+    "excerpt": "Model Pražského (Staroměstského) orloje v měřítku 1:3 sestrojil Jaroslav Kavalír. Pohyb ovládá pět krokových motorů — nejmenší z nich (včetně převodovky) je uvnitř měsíčku; vede k němu šest vodičů tenkou trubičkou a d…",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 0,
-    "vyrobce": "Kavalír",
+    "wordCount": 125,
+    "vyrobce": "Jaroslav Kavalír",
     "tags": [
       "hlavni-sal",
       "funkcni",
@@ -4115,11 +4117,12 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
-    "year": null,
+    "excerpt": "Zajímavé hodiny, které jako displej využívají obrazovku osciloskopu, vyrobil a do Hodinária věnoval pan Martin Šubrt.",
+    "year": 1958,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 102,
+    "vyrobce": "Martin Šubrt",
     "tags": [
       "vitrina-3-vedlejsi"
     ]
@@ -4430,11 +4433,12 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
-    "year": null,
+    "excerpt": "Tento typ píchaček vynalezl Alexander Dey v Glasgow roku 1888. Používal velký číselník s rovnoměrně rozmístěnými, sekvenčně očíslovanými otvory. Koncový ukazatel na středově otočném rameni vložil každý pracovník do sv…",
+    "year": 1888,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 181,
+    "vyrobce": "Bürk-Bundy",
     "tags": [
       "volne-vedlejsi"
     ]
@@ -4547,11 +4551,12 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Hodiny Omikron jsou maďarské výroby, mechanické, s pohonem pérem. Nejsou v perfektním stavu, ale fungují. Mají několik konstrukčních zajímavostí: hodinový stroj má pohon přes remontoir, čas se nenastavuje ručkami, ale…",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 69,
+    "vyrobce": "Omikron (Maďarsko)",
     "tags": [
       "volne-vedlejsi"
     ]
@@ -5212,11 +5217,11 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Zajímavý exponát zakoupený z Městského muzea ve Villingen-Schwenningenu. Propagandawecker se vyráběl v šedesátých letech na objednávku Bundeswehru. V té době přes hranice k nám létaly balóny s propagačním materiálem —…",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 55,
     "tags": [
       "vitrina-5-vedlejsi"
     ]
@@ -5509,11 +5514,12 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
-    "year": null,
+    "excerpt": "Tento způsob odbíjení vymyslel anglický hodinář Joseph Knibb (1640–1711). Odbíjí se na dva zvony (dva tóny): hlubší znamená římské „V\", vyšší římské „I\". Celé hodiny se odbíjejí tak, jako by se „četly\" římské číslice …",
+    "year": 1640,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 96,
+    "vyrobce": "Petr Král",
     "tags": [
       "vitrina-4-vedlejsi"
     ]
@@ -6146,11 +6152,12 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Funkční krbové hodiny nesou na číselníku označení Everett Edgecombe electric synchroclock London. Jádrem stroje je válcové pouzdro, v němž je ukryt synchronní motorek 220 V / 50 Hz s 3 000 ot/min. Na něj navazuje přev…",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 68,
+    "vyrobce": "Everett Edgecombe",
     "tags": [
       "vitrina-1-vedlejsi"
     ]
@@ -6667,11 +6674,11 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Školní model sloužící ke znázornění vzájemných poloh Slunce, Země a Měsíce v průběhu jednoho roku. Umožňuje předvést polohu těchto tří těles pro zvolený časový okamžik a demonstrovat střídání ročních období vlivem nak…",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 60,
     "tags": [
       "volne-vedlejsi"
     ]
@@ -6707,11 +6714,12 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Kuriózní hodiny vytvořené 3D tiskem s osmi krokovými motorky řízenými deskou Arduino Mega vyrobil podle návodu Hanse Andersona pan Jiří Spilka. Oživení a drobné rozšíření programu o rozpoznání letního času provedl pan…",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 163,
+    "vyrobce": "Jiří Spilka",
     "tags": [
       "volne-vedlejsi"
     ]
@@ -6913,11 +6921,11 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Hodinová ústředna slouží jako zdroj přesného časového signálu pro čtyři okruhy podružných hodin. Řídicí část je osazena dvěma hlavními hodinami HSH — jedny jsou provozní a řídí chod ústředny, při jejich výpadku přebír…",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 100,
     "tags": [
       "volne-vedlejsi"
     ]
@@ -7240,7 +7248,7 @@
       "hlavni-sal",
       "vezni",
       "nefunkcni",
-      "krok-clement"
+      "krok-vreteno"
     ]
   },
   {
@@ -7456,7 +7464,7 @@
       "hlavni-sal",
       "vezni",
       "funkcni",
-      "krok-graham",
+      "krok-amant",
       "hainz"
     ]
   },
