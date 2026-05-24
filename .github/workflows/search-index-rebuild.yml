@@ -1,0 +1,71 @@
+# Rebuild sémantického vyhledávacího indexu (semantic-index.json).
+#
+# Extrahuje korpus z content/ (nové slugy) a vygeneruje embeddingy přes
+# Cloudflare Workers AI (@cf/baai/bge-m3). Inkrementální cache: re-embeduje
+# jen záznamy se změněným textem / novým id (např. po přečíslování karet),
+# zbytek vezme z předchozího indexu. Výsledek commitne, pokud se změnil.
+#
+# Řeší to, že index jinak zastarává při změnách content/ (přejmenování slugů
+# → odkazy ve výsledcích sémantického hledání míří na 404). Klíčové hledání
+# (catalog.json + fuse.js) na indexu nezávisí, to je vždy aktuální.
+#
+# Triggery: týdně (neděle 03:30 UTC) + manuální dispatch (po větších změnách
+# obsahu nebo přečíslování spusť ručně přes Actions → Run workflow).
+
+name: Search index rebuild
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Neděle 03:30 UTC — mimo Pages CI / deploy okno; nezávislé na dead-links.
+    - cron: '30 3 * * 0'
+
+# Jeden běh naráz; rozdělané zruš (index je deterministický z content/).
+concurrency:
+  group: search-index-rebuild
+  cancel-in-progress: true
+
+jobs:
+  rebuild:
+    name: Korpus + embed + commit indexu
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write       # commit aktualizovaného indexu
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # extract-search-corpus.mjs potřebuje `yaml` (parse frontmatteru);
+      # build-semantic-index.mjs jede na Node std lib + fetch.
+      - name: Install yaml dep
+        run: npm install yaml
+
+      - name: Extract corpus z content/
+        run: node scripts/extract-search-corpus.mjs
+
+      - name: Embed přes Cloudflare Workers AI
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          # Account ID je stejný jako u R2 — reuse existujícího secretu,
+          # aby stačilo přidat jen CLOUDFLARE_API_TOKEN.
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+        run: node scripts/build-semantic-index.mjs
+
+      - name: Commit aktualizovaný index
+        run: |
+          git config user.name 'csh-bot'
+          git config user.email 'noreply@orloj.eu'
+          git add apps/hodinarium-eu/public/search/semantic-index.json
+          if git diff --cached --quiet; then
+            echo "Index beze změny (žádné nové/změněné záznamy)."
+            exit 0
+          fi
+          DATE=$(date -u +%Y-%m-%d)
+          # [skip ci] — commit jen dat indexu, netřeba spouštět ostatní workflow.
+          git commit -m "chore(search): rebuild semantic index ${DATE} [skip ci]"
+          git push
