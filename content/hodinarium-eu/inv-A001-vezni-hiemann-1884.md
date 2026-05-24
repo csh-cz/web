@@ -10,7 +10,7 @@ karta:
   datace: '1884'
   vyrobce: Hiemann
   signatura: ''
-  krokJicihoStroje: vřetenový krok
+  krokJicihoStroje: Grahamův krok
   kyvadlo: ''
   ciselnik: ''
   pohonDetail: ''

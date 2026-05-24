@@ -14,7 +14,7 @@ tags:
   - hlavni-sal
   - vezni
   - nefunkcni
-  - krok-clement
+  - krok-vreteno
 karta:
   inventarniCislo: "A025"
   umisteni: "Sál věžních hodin"
