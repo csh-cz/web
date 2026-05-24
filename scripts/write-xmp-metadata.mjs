@@ -98,6 +98,10 @@ const SITE_DEFAULT_URL = 'https://creativecommons.org/licenses/by/4.0/';
 const SPOLEK = 'Český spolek horologický z. s.';
 const SPOLEK_URL = 'https://hodinarium.eu';
 const OWN_DOMAIN_RE = /(?:hodinarium\.(?:eu|cz)|horologie\.cz|orloj\.eu)/i;
+// „Se svolením / all rights reserved" detekce z licenčního stringu. Superset
+// starého regexu (přidáno „all rights reserved" + „všechna práva vyhrazena")
+// — sdílí parseCreditString (markdown/foto[]) i ::photo blok v buildCreditIndex.
+const PERMISSION_RE = /se svolením|s povolením|with permission|použito s|all rights reserved|všechna práva vyhrazena/i;
 
 // Vytáhne čistý CC label ze stringu („…CC BY-SA 4.0 (Wikimedia…)" → „CC BY-SA 4.0")
 function extractCcLabel(text) {
@@ -231,6 +235,15 @@ function parseAttrs(s) {
   return out;
 }
 
+// Explicitní `permission=` atribut na ::photo direktivě (truthy hodnota nebo
+// prázdný řetězec = přítomnost úmyslu). Umožní označit „se svolením" i bez
+// rozepsaného license= stringu: `::photo{src=… author=… permission="true"}`.
+function isPermissionAttr(v) {
+  if (v === undefined || v === null) return false;
+  const s = String(v).trim().toLowerCase();
+  return s === '' || s === 'true' || s === '1' || s === 'yes' || s === 'ano';
+}
+
 // --- Strip Markdown wrapping z author hodnoty ---
 // `author="[Petr Skála](/hodinari/petr-skala)"` → `Petr Skála`
 function cleanAuthor(s) {
@@ -266,7 +279,7 @@ function parseCreditString(creditStr, sourceHint) {
   const s = (creditStr || '').trim();
   const ccLabel = extractCcLabel(s);
   const publicDomain = /\bpublic domain\b|volné dílo|\bPDM\b/i.test(s);
-  const permission = /se svolením|s povolením|with permission|použito s/i.test(s);
+  const permission = PERMISSION_RE.test(s);
   const urlM = s.match(/https?:\/\/[^\s)"'<>]+/);
   const sourceUrl = (sourceHint || (urlM ? urlM[0] : '')).replace(/[.,;]+$/, '');
   // Best-effort autor (sekundární — license type je to hlavní):
@@ -323,13 +336,21 @@ async function buildCreditIndex(contentDir) {
     // ::photo{} direktivy — per-image override
     const photoMap = parsePhotoDirectives(text);
     for (const [src, attrs] of photoMap) {
+      // „Se svolením" detekce jen z EXPLICITNÍ license= (ne z deriveRights
+      // fallbacku — ten u vlastní domény vrací „použito s povolením" a flipnul
+      // by jinak default CC BY 4.0 na se-svolením). Volitelně permission= attr.
+      // Bez tohoto by all-rights-reserved foto (např. fotoreport přes ::photo)
+      // se sourceUrl na vlastní doméně spadlo do else větve licenseFields()
+      // = default CC BY 4.0 — špatně.
+      const explicitLicense = attrs.license || '';
       imageCredits.set(src, {
         author: cleanAuthor(attrs.author) || author || 'Archiv ČSH',
         authorUrl: attrs.authorUrl || '',
         authorExplicit: Boolean(cleanAuthor(attrs.author)),
-        license: attrs.license || deriveRights(attrs.sourceUrl || originalUrl, attrs.author || author),
+        license: explicitLicense || deriveRights(attrs.sourceUrl || originalUrl, attrs.author || author),
         licenseUrl: attrs.licenseUrl || '',
         sourceUrl: attrs.sourceUrl || originalUrl,
+        permission: isPermissionAttr(attrs.permission) || PERMISSION_RE.test(explicitLicense),
         articleTitle: title,
         articleSlug: slug,
         source: 'photo-directive',
