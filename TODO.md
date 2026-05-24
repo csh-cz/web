@@ -302,8 +302,8 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
          → `scripts/migrate-originals-to-r2.mjs` (custom-metadata: creator,
          license, source, article, md5). Idempotent přes ETag+HeadObject
          metadata match. Spustit přes `pnpm migrate:originals` (vyžaduje
-         reálné R2 credentials v `.dev.vars`, dnes placeholder; David
-         spustí).
+         reálné R2 credentials v `.dev.vars`). ✅ **Creds dodány 2026-05-24**
+         — lokální R2 ops funkční (ověřeno: Marušák 2018 metadata doplněna).
       2. ~~Před uploadem: pro každý soubor zavolat `exiftool` a zapsat
          XMP do binárky (autor, licence, zdroj, rok).~~ ✅ 2026-05-19,
          **přepracováno + spuštěno na R2 2026-05-21**.
@@ -366,11 +366,10 @@ V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
       zatím neuděláno; frontmatter `alt`/`caption` (povinný pro a11y).
 
       **Akce pro Davida (zbývá, nižší priorita):**
-      - Metadata embed už NEvyžaduje lokální creds (běží v CI). Lokální
-        cesta (`pnpm xmp:write && pnpm imgvariants:upload` nebo
-        `migrate:originals`) je blokovaná — `.dev.vars` má placeholder
-        `<co máš v GH secrets…>`, ne reálný R2 token. Potřeba jen pokud
-        chce David lokální R2 operace (krok 5 git-rm to nepotřebuje).
+      - Metadata embed běží v CI. Lokální cesta (`pnpm xmp:write &&
+        pnpm imgvariants:upload` nebo `migrate:originals`) ✅ **odblokována
+        2026-05-24** — `.dev.vars` má reálný R2 token, ověřeno (Marušák 2018
+        metadata doplněna lokálním skriptem na 390 objektů jpg+avif+webp).
       - Připravit `imgcdn.<doména>` DNS po A.9.
 
 ## A.33 — Foto credit / pipeline drobné opravy (2026-05-21)
@@ -1038,9 +1037,16 @@ DNS přesunu (kvůli velikosti indexu chce ostré HTTP/2 + Brotli).
 
 ### 📇 Sbírka — evidenční karty
 
-- [ ] **Kolizní inv. čísla 194 + 243** — při přečíslování na formát `Annn`
-      přeskočeny (jejich `A{číslo}` už nese jiný exponát). `inv-194`
-      (Podružný stroj Elektročas malý, Vitrína 2) × `A194` (Římské digitálky);
-      `inv-243` (Zvonění Kavalír — exponát J. Kavalíra) × `A243` (Linkový
-      rozváděč EHU 260). Dořešit: smazat / přečíslovat na volné A číslo / sloučit.
-      Pozn.: 243 je hodnotný exponát (autorská práce Jaroslava Kavalíra).
+- [x] **243 Zvonění Kavalír** — ✅ **VYŘEŠENO 2026-05-24**. Kolidovalo s
+      `A243` (Linkový rozváděč EHU 260) → přečíslováno na volné **A263**
+      (`inv-243-…` → `inv-A263-zvoneni-kavalir`, slug+inv č., link v medailonu
+      Jaroslava Kavalíra + `hodinari.ts` + redirect).
+- [ ] **Kolizní inv. číslo 194** — `inv-194` (Podružný stroj Elektročas malý,
+      Vitrína 2) má pořád holé číslo (`A194` už nese „Římské digitálky").
+      Dořešit: přečíslovat na volné A (např. A264) / smazat / sloučit.
+
+- [x] **Úklid soupisu 2026-05-24** — věžní položky zarovnány na `Annn`
+      (78× bare → A&lt;NNN&gt; podle karet), výrobci doplněni z textu/štítků
+      (Lissner, Skála…), smazáno 9 fantomových položek bez karty (75, 113, 144,
+      146, 148, 202, 227, 231, 232). Katalog: klikací řádky + sloupec Rok +
+      „Sál věžních hodin" + „Věžní hodiny X" v názvech.
