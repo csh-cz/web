@@ -42,11 +42,11 @@ To dokumentuje **osminásobný růst počtu hodinářů v Čechách mezi lety 17
 
 > „Nejbohatší kollekci na výstavě měla stará firma L. Hainze. Zvláště pozoruhodny byly veliké věžní hodiny sestrojené na základě nejnovějších výzkumů v oboru tom, s regulačním přístrojem v kamenech a vlastní hybnou silou bez vlivu strojů ukazovacích. Stroj jich skládá se ze 1400 dílců. Výrobky Hainzovy těší se oblibě i v cizině, v Rusku, Srbsku, Italii a jinde."
 
-**Karel Suchý a synové** (dvorní dodavatelé) — luxusní segment:
+**[Karel Suchý a synové](/hodinari/karel-suchy-a-synove)** (dvorní dodavatelé) — luxusní segment:
 
 > „Dvorní dodavatelé továrníci Karel Suchý a synové vystavili efektní měsíční opakovací hodiny v gotickém slohu, jakož i roční hodiny."
 
-**G. Becker, Broumov** — masová výroba budíků (továrník).
+**[G. Becker, Broumov](/hodinari/g-becker-broumov)** — masová výroba budíků (továrník).
 
 ### Věžní hodiny
 
@@ -65,28 +65,28 @@ Pro oba je rok **1891 nejstarší jistá datace zralé dílny** — Mareše dosu
 
 ### Pendlovky a stojací hodiny
 
-- **Fr. Křivánek, Žižkov** — vkusné pendlovky
-- **Fr. Donát, Nymburk** — velké hodiny ve slohu renaissančním a barokovém
-- **Jindřich Havlíček, Praha** — měsíční čtvrťové opakovačky bijící na zvonky
-- **Ferd. Diepold, Mšec** — kyvadlové hodiny natahované jednou za 2 roky, s datem dne a měsíce
-- **V. Červený, Plzeň** — elektrické hodiny, velké nástěnné s odznaky sokolskými, pendlové na 7 měsíců s ukazatelem měsíce/týdne/dne
+- **[Fr. Křivánek, Žižkov](/hodinari/frantisek-krivanek)** — vkusné pendlovky
+- **[Fr. Donát, Nymburk](/hodinari/frantisek-donat-nymburk)** — velké hodiny ve slohu renaissančním a barokovém
+- **[Jindřich Havlíček, Praha](/hodinari/jindrich-havlicek)** — měsíční čtvrťové opakovačky bijící na zvonky
+- **[Ferd. Diepold, Mšec](/hodinari/ferdinand-diepold)** — kyvadlové hodiny natahované jednou za 2 roky, s datem dne a měsíce
+- **[V. Červený, Plzeň](/hodinari/v-cerveny-plzen)** — elektrické hodiny, velké nástěnné s odznaky sokolskými, pendlové na 7 měsíců s ukazatelem měsíce/týdne/dne
 
 ### Hodiny s technickými kuriozitami
 
 Skupina hodinářů ze středních Čech vystavila **hodiny natahované jednou za rok** — kategorie obdivovaná v 19. století jako vrchol mechanické přesnosti (velké pero/závaží + úsporné soukolí):
 
-- **Petr Hajný (hodinář) + Jos. Patera (truhlář), Jičín** — společný výrobek úhledných kyvadlových hodin
-- **Lad. Plný, Kolín** — podobný typ
+- **[Petr Hajný (hodinář) + Jos. Patera (truhlář), Jičín](/hodinari/hajny-patera)** — společný výrobek úhledných kyvadlových hodin
+- **[Lad. Plný, Kolín](/hodinari/ladislav-plny)** — podobný typ
 
 ### Kapesní hodinky a drobná produkce
 
-- **Otakar Šťastný, Praha** — posunovací hodiny, hodiny s globem, dekorační
-- **Václav Šťastný, Praha** — vkusná pouzdra na hodinky
-- **Jan Dušek, Zásmuky** — hodiny se zvláštním ukazováním hodin a minut
+- **[Otakar Šťastný, Praha](/hodinari/otakar-stastny)** — posunovací hodiny, hodiny s globem, dekorační
+- **[Václav Šťastný, Praha](/hodinari/vaclav-stastny-pouzdrar)** — vkusná pouzdra na hodinky
+- **[Jan Dušek, Zásmuky](/hodinari/jan-dusek-zasmuky)** — hodiny se zvláštním ukazováním hodin a minut
 
 ### Modely a kuriozity
 
-**V. Hrdý, Nová Paka** — pozoruhodný exponát:
+**[V. Hrdý, Nová Paka](/hodinari/vaclav-hrdy-nova-paka)** — pozoruhodný exponát:
 
 > „Památný orloj na staroměstské radnici v Praze pochází z druhé polovice 15. století [...] a jest vesměs práce česká. Mistrně napodobil jej v malém měřítku na výstavě V. Hrdý z Nové Paky."
 
@@ -124,7 +124,7 @@ Stejně dobový katalog mylně uvádí „První kapesní hodiny sestrojil Norim
 Zemská jubilejní výstava 1891 byla **vrcholným manifestem české průmyslové vyspělosti** v rámci Rakouska-Uherska. Hodinářská sekce v paláci průmyslovém zdokumentovala **strukturu cs hodinářského řemesla** v okamžiku, kdy:
 
 - místní výroba kapesních hodinek **definitivně podlehla** švýcarské konkurenci (přechod na prodej a opravu)
-- výroba **věžních hodin** byla stále **doménou cs dílen** ([Hainz](/hodinari/ludvik-hainz), [Prokeš](/hodinari/jan-prokes), [Mareš](/hodinari/jan-mares), [Adamec](/hodinari/karel-adamec), Hajný, Plný, Donát, Štěpánovský)
+- výroba **věžních hodin** byla stále **doménou cs dílen** ([Hainz](/hodinari/ludvik-hainz), [Prokeš](/hodinari/jan-prokes), [Mareš](/hodinari/jan-mares), [Adamec](/hodinari/karel-adamec), [Hajný](/hodinari/hajny-patera), [Plný](/hodinari/ladislav-plny), [Donát](/hodinari/frantisek-donat-nymburk), [Štěpánovský](/hodinari/bartolomej-stepanovsky))
 - **luxusní segment** ovládali pražští dvorní dodavatelé (Karel Suchý a synové)
 - nová generace **elektrických a elektromechanických hodin** se objevuje (V. Červený)
 
@@ -139,7 +139,6 @@ Pro historickou rekonstrukci cs hodinářství 19. století je tento katalog **k
 
 ## Související
 
-- **Vystavující hodináři** (medailony): [Ludvík Hainz](/hodinari/ludvik-hainz), [Jan Mareš](/hodinari/jan-mares), [Karel Adamec](/hodinari/karel-adamec)
-- **Vystavující hodináři bez medailonu** (k doplnění): Karel Suchý a synové, Otakar Šťastný, Václav Šťastný, Fr. Křivánek, Jan Dušek, Petr Hajný + Jos. Patera, Lad. Plný, Fr. Donát, Jindřich Havlíček, Ferd. Diepold, Bart. Štěpánovský, Č. Acht, V. Červený, V. Hrdý — viz [TODO A.1](https://github.com/csh-cz/web/blob/main/TODO.md#a1--slovník-rozšíření-obsahu-continuous)
+- **Vystavující hodináři** (medailony): [Ludvík Hainz](/hodinari/ludvik-hainz), [Jan Mareš](/hodinari/jan-mares), [Karel Adamec](/hodinari/karel-adamec), [Karel Suchý a synové](/hodinari/karel-suchy-a-synove), [Bartoloměj Štěpánovský](/hodinari/bartolomej-stepanovsky), [Čeněk Acht](/hodinari/cenek-acht), [František Křivánek](/hodinari/frantisek-krivanek), [František Donát](/hodinari/frantisek-donat-nymburk), [Jindřich Havlíček](/hodinari/jindrich-havlicek), [Ferdinand Diepold](/hodinari/ferdinand-diepold), [V. Červený](/hodinari/v-cerveny-plzen), [Petr Hajný a Josef Patera](/hodinari/hajny-patera), [Ladislav Plný](/hodinari/ladislav-plny), [Otakar Šťastný](/hodinari/otakar-stastny), [Václav Šťastný](/hodinari/vaclav-stastny-pouzdrar), [Jan Dušek](/hodinari/jan-dusek-zasmuky), [G. Becker](/hodinari/g-becker-broumov), [Václav Hrdý](/hodinari/vaclav-hrdy-nova-paka)
 - **Pražský orloj** ([restaurování 2018](/zajimavosti/prazsky-orloj-restaurovani-2018)) — V. Hrdý vystavil model
 - **Sobotecká dílna Prokešova** ([článek](/zajimavosti/sobotecka-dilna-prokesova-robertuv-krok)) — Jan Prokeš na výstavě 1891 chyběl, ale dílna byla v plné aktivitě
