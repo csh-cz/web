@@ -23,6 +23,11 @@ karta:
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   krokJicihoStroje: "kotvový krok"
+  puvodniUmisteni:
+    objekt: Radnice
+    typObjektu: radnice
+    obec: Benešov nad Ploučnicí
+    detail: ''
   adaptaceProVystavu: "Stroj je konstruován pro automatické natahování, chybějící elektromotor spolu s ovládacím mechanismem byl doplněn po přestěhování do Hodinária."
 ---
 

@@ -21,8 +21,11 @@ karta:
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
-  extra:
-    - { label: "Poznámka", value: "Praha Kunratice" }
+  puvodniUmisteni:
+    objekt: ''
+    typObjektu: ''
+    obec: Praha-Kunratice
+    detail: ''
 ---
 
 ::photo{src="/img/vezni/028a-vezni-se-setrvackou.jpg" alt="věžní se setrvačkou — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}

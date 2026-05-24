@@ -23,12 +23,12 @@ karta:
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "nefunkční"
-  extra:
-    - { label: "Poznámka", value: "bývalá radnice Děčín" }
   krokJicihoStroje: "Grahamův krok"
   puvodniUmisteni:
-    objekt: "bývalé děčínské radnice"
+    objekt: "Bývalá děčínská radnice (dnes Okresní soud)"
     typObjektu: "radnice"
+    obec: "Děčín"
+    detail: ''
 ---
 
 Hodinový stroj byl původně osazen v budově bývalé děčínské radnice (nyní Okresní soud). Má dva bicí stroje – čtvrťový a hodinový. Konstrukce obou těchto strojů je zajímavá, používá šnekový převod na větrníky, čímž se převodové soukolí zjednoduší. Stroj jicí má krokový mechanismus s klidovým krokem (krok **[Grahamův](/kroky/grahamuv-krok)** s kotvou krátkoramennou). Rám hodin je masivní, litinový – dva základní díly jsou spojeny rozpěrnými sloupky. Hodiny přes tyč s Kardanovým kloubem ovládaly zvláštní bicí mechanizmus, který zvonil čtyřikrát během 24 hodin.

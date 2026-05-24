@@ -18,8 +18,11 @@ karta:
   pridanoDoSbirky: "2024"
   majitel: "ČSH"
   stav: "funkční"
-  extra:
-    - { label: "Poznámka", value: "kostel sv. Filipa a Jakuba ve Viničnom" }
+  puvodniUmisteni:
+    objekt: Kostel sv. Filipa a Jakuba
+    typObjektu: kostel
+    obec: Viničné
+    detail: 'Slovensko'
   rokVyroby: "2009"
   adaptaceProVystavu: "K cimbálu bylo doplněno odbíjecí zařízení Elektročas s ovládáním, které přes WiFi získává informaci o přesném čase."
 ---
