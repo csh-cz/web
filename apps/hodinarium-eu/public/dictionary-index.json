@@ -1,10 +1,10 @@
 {
   "_meta": {
-    "generated": "2026-05-20T11:11:43.485Z",
+    "generated": "2026-05-24T22:04:49.323Z",
     "count": 157,
     "stubs": 83,
     "redirects": 5,
-    "withConceptId": 16,
+    "withConceptId": 17,
     "withVyznamy": 0,
     "withAtestace": 1,
     "schema_version": "1.0",
@@ -80,7 +80,7 @@
           }
         ]
       },
-      "definice": "Středověký astronomický přístroj k měření výšky hvězd, identifikaci nebeských těles a výpočtu času. Sestává z **matkové desky (mater)** s kruhovou stupnicí, **tympanonu** (vyměnitelná deska pro konkrétní geografickou šířku), **rete** (pohyblivá mapa nebeské sféry) a **alidády** (otáčivé pravítko). U mechanických orlojů tvoří princip astrolábu základ astronomického ciferníku — Pražský orloj 1410, Olomoucký orloj 15. století.",
+      "definice": "Středověký astronomický přístroj k měření výšky hvězd, identifikaci nebeských těles a výpočtu času. Sestává z **matkové desky (mater)** s kruhovou stupnicí, **tympanonu** (vyměnitelná deska pro konkrétní geografickou šířku), **rete** (pohyblivá mapa nebeské sféry) a **alidády** (otáčivé pravítko). U mechanických orlojů tvoří princip astrolábu základ astronomického číselníku — Pražský orloj 1410, Olomoucký orloj 15. století.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -211,7 +211,7 @@
         }
       ],
       "translations": {},
-      "definice": "Sloveso: ukazovat odchylně, jít chybně (o hodinách / astronomickém ciferníku). \"Blud spher\" = chyba v ukazování polohy slunce a měsíce.",
+      "definice": "Sloveso: ukazovat odchylně, jít chybně (o hodinách / astronomickém číselníku). \"Blud spher\" = chyba v ukazování polohy slunce a měsíce.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -357,7 +357,7 @@
           }
         ]
       },
-      "definice": "**Středové (centrální) kolo** v hodinovém soukolí, jehož osa prochází středem ciferníku a na níž je nasazena minutová ručka. V klasickém hodinovém převodu obvykle **otáčí jednou za hodinu** (60 minut = 1 otáčka minutové ručky). Centrální převodovka je referenční bod, od kterého se odvozují všechny ostatní převody — k hodinové ručce (převod 1/12), k sekundové ručce (převod 60/1, pokud má hodiny střední sekundovku), k bicímu stroji, kalendáriu, atd.",
+      "definice": "**Středové (centrální) kolo** v hodinovém soukolí, jehož osa prochází středem číselníku a na níž je nasazena minutová ručka. V klasickém hodinovém převodu obvykle **otáčí jednou za hodinu** (60 minut = 1 otáčka minutové ručky). Centrální převodovka je referenční bod, od kterého se odvozují všechny ostatní převody — k hodinové ručce (převod 1/12), k sekundové ručce (převod 60/1, pokud má hodiny střední sekundovku), k bicímu stroji, kalendáriu, atd.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -1508,7 +1508,7 @@
           }
         ]
       },
-      "definice": "Spodní kalendářní ciferník orloje s indikací **dne v roce**, **měsíce**, **svátku** a **znamení zvěrokruhu** ve kterém se Slunce právě nachází. Klasicky pomalu otáčivá disk (1 oběh = 1 rok), umístěný pod astronomickým ciferníkem. U Pražského orloje je **Mánesova kalendářní deska** z roku 1865 — alegorický cyklus 12 měsíců a 12 znamení zodiaku.",
+      "definice": "Spodní kalendářní číselník orloje s indikací **dne v roce**, **měsíce**, **svátku** a **znamení zvěrokruhu** ve kterém se Slunce právě nachází. Klasicky pomalu otáčivá disk (1 oběh = 1 rok), umístěný pod astronomickým číselníkem. U Pražského orloje je **Mánesova kalendářní deska** z roku 1865 — alegorický cyklus 12 měsíců a 12 znamení zodiaku.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -1632,7 +1632,7 @@
         }
       ],
       "translations": {},
-      "definice": "Klapající jazýček / drobná páčka u astronomického ciferníku Staroměstského orloje, která \"klape\" při každém úderu hodin. Sloužil jako akustické počítadlo úderů.",
+      "definice": "Klapající jazýček / drobná páčka u astronomického číselníku Staroměstského orloje, která \"klape\" při každém úderu hodin. Sloužil jako akustické počítadlo úderů.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -2071,7 +2071,7 @@
           "status": "admitted"
         },
         {
-          "term": "rozvod k ciferníkům",
+          "term": "rozvod k číselníkům",
           "status": "admitted"
         },
         {
@@ -2101,7 +2101,7 @@
           }
         ]
       },
-      "definice": "**Vertikální (nebo dlouhá horizontální) hřídel** vedoucí od minutového kola hlavního stroje **k ciferníkům**. U věžních hodin typicky **3–5 m dlouhá**, prochází stropem věžní místnosti se strojem a dopravuje točivý moment k **ručkovým strojům** za vnějšími ciferníky. Klíčový prvek konstrukce, který umožňuje umístit stroj v patře pod ciferníky.",
+      "definice": "**Vertikální (nebo dlouhá horizontální) hřídel** vedoucí od minutového kola hlavního stroje **k číselníkům**. U věžních hodin typicky **3–5 m dlouhá**, prochází stropem věžní místnosti se strojem a dopravuje točivý moment k **ručkovým strojům** za vnějšími číselníky. Klíčový prvek konstrukce, který umožňuje umístit stroj v patře pod číselníky.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -2453,7 +2453,7 @@
         }
       ],
       "translations": {},
-      "definice": "Svislá osa astronomického ciferníku ukazující směr na pravé poledne — kdy je slunce na nejvyšším bodě své denní dráhy a leží na poledníku pozorovatele.",
+      "definice": "Svislá osa astronomického číselníku ukazující směr na pravé poledne — kdy je slunce na nejvyšším bodě své denní dráhy a leží na poledníku pozorovatele.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -2479,7 +2479,7 @@
         }
       ],
       "translations": {},
-      "definice": "Drobné lůžko / držák kotouče měsíce. V něm rotuje kulička měsíce, čímž se na pukle (terči uprostřed ciferníku) ukazuje fáze měsíce.",
+      "definice": "Drobné lůžko / držák kotouče měsíce. V něm rotuje kulička měsíce, čímž se na pukle (terči uprostřed číselníku) ukazuje fáze měsíce.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -2542,7 +2542,7 @@
         }
       ],
       "translations": {},
-      "definice": "U Táborského dvojí pojetí: **minuta hodinářská** (1/15 hodiny ≈ 4 minuty dnes) vs. **minuta astronomická** (1/60 hodiny = dnešní minuta). Rozdíl plyne z dělení hodinového ciferníku na 15 dílů u věžních hodin 16. století.",
+      "definice": "U Táborského dvojí pojetí: **minuta hodinářská** (1/15 hodiny ≈ 4 minuty dnes) vs. **minuta astronomická** (1/60 hodiny = dnešní minuta). Rozdíl plyne z dělení hodinového číselníku na 15 dílů u věžních hodin 16. století.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -2857,7 +2857,7 @@
         }
       ],
       "translations": {},
-      "definice": "Prstenec / ráfek na ciferníku orloje — typicky pohyblivý železný kruh s počtem hodin (1–24 pro českou hodinu, 1–12 pro polouorlojní), který se otáčí kolem astronomického ciferníku.",
+      "definice": "Prstenec / ráfek na číselníku orloje — typicky pohyblivý železný kruh s počtem hodin (1–24 pro českou hodinu, 1–12 pro polouorlojní), který se otáčí kolem astronomického číselníku.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -3515,7 +3515,7 @@
         }
       ],
       "translations": {},
-      "definice": "Železný plochý prut nesoucí ručku / slunce / měsíc na konci — ekvivalent moderní **rafije** nebo **ručičky** ciferníku. Táborský používá *pravidlo* speciálně pro ukazatele orloje, ne pro malé hodinky.",
+      "definice": "Železný plochý prut nesoucí ručku / slunce / měsíc na konci — ekvivalent moderní **rafije** nebo **ručičky** číselníku. Táborský používá *pravidlo* speciálně pro ukazatele orloje, ne pro malé hodinky.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -3619,7 +3619,7 @@
         }
       ],
       "translations": {},
-      "definice": "Terč / disk uprostřed astronomického ciferníku orloje, na němž jsou namalovaná zvířetníková znamení. Slouží k odečtu fáze měsíce vůči slunci.",
+      "definice": "Terč / disk uprostřed astronomického číselníku orloje, na němž jsou namalovaná zvířetníková znamení. Slouží k odečtu fáze měsíce vůči slunci.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -4095,7 +4095,7 @@
           }
         ]
       },
-      "definice": "Označení **autora hodin** na ciferníku, můstku, spodním desce nebo dnu pouzdra. U historických věžních a stojacích hodin obvykle na čele rámu (např. „THEODOR JANKOWSKY in OLMÜTZ 1902\"); u kapesních a náramkových hodinek na ciferníku, můstku (rotorová strana) nebo na můstku setrvačky.",
+      "definice": "Označení **autora hodin** na číselníku, můstku, spodním desce nebo dnu pouzdra. U historických věžních a stojacích hodin obvykle na čele rámu (např. „THEODOR JANKOWSKY in OLMÜTZ 1902\"); u kapesních a náramkových hodinek na číselníku, můstku (rotorová strana) nebo na můstku setrvačky.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -4136,7 +4136,7 @@
           }
         ]
       },
-      "definice": "Průhledná desková součást krytu hodinek — kryje ciferník a chrání ručky před prachem, vlhkostí a poškozením. Historicky **plné sklo**, později **plexisklo / akryl** (1940–1980), dnes výhradně **safírové sklo** (umělý korund Al₂O₃, Mohs 9) u kvalitních hodinek.",
+      "definice": "Průhledná desková součást krytu hodinek — kryje číselník a chrání ručky před prachem, vlhkostí a poškozením. Historicky **plné sklo**, později **plexisklo / akryl** (1940–1980), dnes výhradně **safírové sklo** (umělý korund Al₂O₃, Mohs 9) u kvalitních hodinek.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -4347,7 +4347,7 @@
         }
       ],
       "translations": {},
-      "definice": "Denní × noční pásmo na astronomickém ciferníku — barevně odlišená oblast (typicky lazurová pro den, tmavá modř nebo černá pro noc) ukazující, kdy slunce stojí nad obzorem (\"supra orizontem\") a kdy pod obzorem.",
+      "definice": "Denní × noční pásmo na astronomickém číselníku — barevně odlišená oblast (typicky lazurová pro den, tmavá modř nebo černá pro noc) ukazující, kdy slunce stojí nad obzorem (\"supra orizontem\") a kdy pod obzorem.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -4373,7 +4373,7 @@
         }
       ],
       "translations": {},
-      "definice": "Astronomický ciferník / nebeský kotouč orloje s indikátory slunce, měsíce, zodiaku a hodin. U Táborského má Staroměstský orloj *dvě sphery* (přední astronomická + dolní kalendářní) plus malou na věži Týnské.",
+      "definice": "Astronomický číselník / nebeský kotouč orloje s indikátory slunce, měsíce, zodiaku a hodin. U Táborského má Staroměstský orloj *dvě sphery* (přední astronomická + dolní kalendářní) plus malou na věži Týnské.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -4673,32 +4673,20 @@
     "sumavsky-1851-historicke-ceske-hodinarske-terminy": {
       "lemma": "Šumavský 1851 — historické české hodinářské termíny",
       "lang": "cs",
-      "conceptId": null,
+      "conceptId": "HORO-ARCHAIC-001",
       "kategorie": "jine",
       "varianty": [],
       "translations": {
-        "de": [
-          {
-            "term": "(přehled archaismů, není jediný překlad)"
-          }
-        ],
-        "en": [
-          {
-            "term": "Czech horological archaisms — Šumavský 1851 dictionary"
-          }
-        ],
-        "fr": [
-          {
-            "term": "archaïsmes horlogers tchèques 1851"
-          }
-        ]
+        "de": [],
+        "en": [],
+        "fr": []
       },
       "definice": "Souhrn **historických českých hodinářských termínů** zaznamenaných v slovníku Josefa Franty Šumavského *Česko-německý slovník* (1851). Jde o **pre-Špatný (1882) terminologii** — ražené české kalky a purismy 1. poloviny 19. století, **většina se neujala**. Důležitý dokumentární zdroj pro pochopení vývoje češtiny v hodinářství.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [],
       "isStub": false,
-      "redirectTo": null
+      "redirectTo": ""
     },
     "supra-orizontem": {
       "lemma": "supra orizontem × sub orizonte",
@@ -4766,7 +4754,7 @@
           }
         ]
       },
-      "definice": "Hodinářská tradice **Schwarzwaldu** (Černolesí, jihozápadní Německo, kraj Bádensko-Württembersko) — od 17. století zaměřená na **lidové domácí hodiny**: dřevěné ozubená kola, švarcvaldky, **lakované ciferníky** (Lackschilduhren), **kukačkové hodiny** (Kuckucksuhren). Od 1840 přechod na mosazné stroje, masová průmyslová výroba.",
+      "definice": "Hodinářská tradice **Schwarzwaldu** (Černolesí, jihozápadní Německo, kraj Bádensko-Württembersko) — od 17. století zaměřená na **lidové domácí hodiny**: dřevěné ozubená kola, švarcvaldky, **lakované číselníky** (Lackschilduhren), **kukačkové hodiny** (Kuckucksuhren). Od 1840 přechod na mosazné stroje, masová průmyslová výroba.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -5002,7 +4990,7 @@
           }
         ]
       },
-      "definice": "**Vedlejší soukolí**, které z hlavní hřídele [jicího stroje](/slovnik/stroj-podsestava) odebírá pohyb a převádí ho na **otáčení ručiček (rafií) ciferníku** s vhodným redukčním převodem (typicky 1:12 mezi minutovou a hodinovou ručkou). U věžních hodin převádí pohyb mechanicky přes řadu kol a hřídelí k jednomu nebo více ciferníkům umístěným v různých stranách věže.",
+      "definice": "**Vedlejší soukolí**, které z hlavní hřídele [jicího stroje](/slovnik/stroj-podsestava) odebírá pohyb a převádí ho na **otáčení ručiček (rafií) číselníku** s vhodným redukčním převodem (typicky 1:12 mezi minutovou a hodinovou ručkou). U věžních hodin převádí pohyb mechanicky přes řadu kol a hřídelí k jednomu nebo více číselníkům umístěným v různých stranách věže.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -5668,7 +5656,7 @@
           }
         ]
       },
-      "definice": "Vlastní **mechanický stroj** hodin — soukolí, krok, oscilátor, perovník, krokové kolo a ručky — bez pouzdra a ciferníku. V kapesních / náramkových hodinkách obvykle synonymum s **kalibrem** v konkrétní instanci (kalibr je typ, werk je kus).",
+      "definice": "Vlastní **mechanický stroj** hodin — soukolí, krok, oscilátor, perovník, krokové kolo a ručky — bez pouzdra a číselníku. V kapesních / náramkových hodinkách obvykle synonymum s **kalibrem** v konkrétní instanci (kalibr je typ, werk je kus).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
