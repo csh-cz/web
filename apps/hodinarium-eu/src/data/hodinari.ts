@@ -1765,7 +1765,7 @@ export const hodinari: Hodinar[] = [
     mesto: 'Čáslav',
     zeme: 'CZ',
     shrnuti:
-      'Čáslavský hodinářský mistr přelomu 19. a 20. století. V soupisu věžních hodin ČSH dvanáct doložených strojů ve středočeském regionu (Čáslav 1910, Čelákovice, Krušovice, Nehvizdy, Ohaře, Sedlčany, Suchdol, Vojkov, Žibohlavy a další). Typologie dvou velikostí: malý jen-hodinový stroj (kapličky, venkov) a velký čtvrťový stroj (radnice, městské kostely).',
+      'Čáslavský hodinářský mistr přelomu 19. a 20. století a jeden z nejznámějších českých výrobců věžních hodin své doby — z jeho továrny mělo vzejít na čtyři sta strojů s vývozem na Moravu i do Srbska, Bulharska, Ruska a Německa. Jeho nejznámějším dílem je **litomyšlský orloj (1907)**. V soupisu věžních hodin ČSH je doloženo dvanáct jeho strojů ve středočeském regionu (typologie dvou velikostí: malý jen-hodinový pro kapličky, velký čtvrťový pro radnice a městské kostely).',
     relatedSlugs: [
       'decin-galerie',
       'inv-A047-orloj-skala',
