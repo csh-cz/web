@@ -5,6 +5,8 @@ date: "2017-03-10"
 rok: 2017
 typ: fotoreport
 misto: "Hodinárium Děčín"
+photoAuthor: "Stanislav Marušák"
+photoLicense: "Použito se svolením autora, všechna práva vyhrazena"
 originalUrl: "https://hodinarium.eu/decin_fotobrezen2017.htm"
 lastModified: "Sat, 22 Apr 2017 22:35:00 GMT"
 sourceCharset: "windows-1250"

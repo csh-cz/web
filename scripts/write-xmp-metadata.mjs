@@ -313,6 +313,10 @@ async function buildCreditIndex(contentDir) {
     const slug = fm.slug || (abs.split('/').pop() || '').replace(/\.(md|mdx)$/, '');
     const title = fm.title || slug;
     const author = fm.author || '';
+    // Fotoreporty (kronika): `photoAuthor` = fotograf, `photoLicense` = typ
+    // licence pro markdown obrázky v těle (jinak by spadly na default).
+    const photoAuthor = cleanAuthor(fm.photoAuthor || '');
+    const photoLicense = fm.photoLicense || '';
     const originalUrl = fm.originalUrl || '';
     articleFallback.set(slug, { author, originalUrl, title });
 
@@ -365,6 +369,29 @@ async function buildCreditIndex(contentDir) {
       const src = m[2];
       // Frontmatter override už existuje (z ::photo) — neztrácíme přesnější data
       if (imageCredits.has(src)) continue;
+      // Fotoreport s `photoAuthor`/`photoLicense` (kronika): per-fotku autor
+      // fotografa + typ licence (CC / se svolením / PD). Bez toho by markdown
+      // obrázky defaultovaly na Archiv ČSH / CC BY 4.0 (špatně u cizích fotek
+      // „se svolením", např. Marušák).
+      if (photoAuthor || photoLicense) {
+        const c = parseCreditString(photoLicense, originalUrl);
+        // photoAuthor má prioritu; bez explicitní CC licence předpokládáme
+        // u jmenovaného fotografa „se svolením" (ne default CC BY 4.0).
+        const permission = c.permission || (Boolean(photoAuthor) && !c.license && !c.publicDomain);
+        imageCredits.set(src, {
+          author: photoAuthor || c.author || cleanAuthor(author) || 'Archiv ČSH',
+          authorExplicit: Boolean(photoAuthor),
+          license: c.license,
+          licenseUrl: c.licenseUrl || '',
+          sourceUrl: originalUrl,
+          permission,
+          publicDomain: c.publicDomain,
+          articleTitle: title,
+          articleSlug: slug,
+          source: 'frontmatter-photo',
+        });
+        continue;
+      }
       imageCredits.set(src, {
         author: cleanAuthor(author) || 'Archiv ČSH',
         authorExplicit: false,

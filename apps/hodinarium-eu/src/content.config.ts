@@ -531,6 +531,9 @@ const kronika = defineCollection({
     author: z.string().optional(),
     /** Autor fotek pro zápis kroniky. Render v sekci „Autoři" jako Foto:. */
     photoAuthor: z.string().optional(),
+    /** Licence/atribuce fotek (free-text: „se svolením" / CC label). Řídí XMP
+     *  embed u markdown `![]()` obrázků (jinak default Archiv ČSH / CC BY 4.0). */
+    photoLicense: z.string().optional(),
     /** Poděkování (markdown). Samostatná sekce nad „Autoři". */
     acknowledgments: z.string().optional(),
     /** Výchozí kredit pro markdown `![]()` obrázky v těle zápisu (viz clanky schema). */
