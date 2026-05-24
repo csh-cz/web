@@ -414,7 +414,11 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
   /* Audit C2 a11y: text #b04848 (3.28:1) → #d97070 (~5.4:1 AA pass).
      Border zůstává sytější — okraj nemá WCAG text-contrast požadavek. */
   .stav-znicene { color: #d97070; border-color: #b04848; }
-  .stav-neznamy { color: #999; border-color: #999; }
+  /* Audit (2026-05-24): #999 = ~2.85:1 (FAIL AA) na světlém pozadí. Posunuto
+     na theme-aware var(--color-text-muted) (#6f5f48 light / #9a8c75 dark),
+     shodné s hodinari/[slug].astro:724. Border ponechán #999 (okraj nemá
+     WCAG text-contrast požadavek — stejný princip jako C2 výše). */
+  .stav-neznamy { color: var(--color-text-muted); border-color: #999; }
 
   .souradnice { margin-top: 0.4rem; font-size: 0.9rem; }
   .pk-badge { margin-top: 0.3rem; font-size: 0.9rem; }

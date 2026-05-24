@@ -952,5 +952,7 @@ function placeMeta(p: { obec: string; cast?: string; kraj?: string; zeme?: strin
      fixem v hodinari/[slug].astro:680. Border-color zůstává sytější
      #b04848 — okraj nemá WCAG požadavek na text contrast. */
   .stav-badge.tone-bad, .stav-badge.stav-mini-tone-bad { border-color: #b04848; color: #d97070; }
-  .stav-badge.tone-mute, .stav-badge.stav-mini-tone-mute { border-color: #888; color: #aaa; }
+  /* Audit (2026-05-24): #aaa = ~2.3:1 (FAIL AA) na bg-elevated → theme-aware
+     var(--color-text-muted). Border #888 ponechán (okraj bez WCAG požadavku). */
+  .stav-badge.tone-mute, .stav-badge.stav-mini-tone-mute { border-color: #888; color: var(--color-text-muted); }
 </style>
