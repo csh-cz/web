@@ -7,7 +7,7 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-05-21T00:00:00.000Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - volne-vedlejsi
@@ -16,6 +16,6 @@ karta:
   umisteni: "Volně (Sál elektro)"
 ---
 
-## Stub karty
+Školní model sloužící ke znázornění vzájemných poloh Slunce, Země a Měsíce v průběhu jednoho roku. Umožňuje předvést polohu těchto tří těles pro zvolený časový okamžik a demonstrovat střídání ročních období vlivem naklonění zemské osy o cca 66,5° k rovině oběhu Země kolem Slunce.
 
-Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.
+Model respektuje i to, že Měsíc obíhá Zemi v rovině, která svírá s rovinou rovníku úhel ±5°.
