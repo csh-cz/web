@@ -1,5 +1,5 @@
 ---
-title: "Věžní hodiny Velká Ves"
+title: "Věžní hodiny Veliká Ves"
 slug: "inv-A027-vezni-velka-ves"
 thumbnail: '/img/vezni/027a-velika-ves.jpg'
 category: "sbirka"
@@ -11,7 +11,7 @@ sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.523Z"
 manualEdit: true
 author: "Petr Král"
-tldr: 'Torzo bicího mechanismu s klecovým rámem, kovanými gotickými hřeby na rozích sloupků a vratidly na lanovém bubnu z kostela sv. Vavřince ve Velké Vsi — pravděpodobně nejstarší stroj v děčínské expozici, restaurováno bez doplňování.'
+tldr: 'Torzo bicího mechanismu s klecovým rámem, kovanými gotickými hřeby na rozích sloupků a vratidly na lanovém bubnu z kostela sv. Vavřince ve Veliké Vsi — pravděpodobně nejstarší stroj v děčínské expozici, restaurováno bez doplňování.'
 references:
   - title: "Restaurátorský záměr — torzo věžního stroje z Veliké Vsi"
     url: "/download/RestauratorskyZamerVelikaVes.pdf"
@@ -38,19 +38,19 @@ karta:
   puvodniUmisteni:
     objekt: "kostel sv. Vavřince"
     typObjektu: "kostel"
-    obec: "Velká Ves"
+    obec: "Veliká Ves"
     detail: ""
 ---
 
-::photo{src="/img/vezni/027a-velika-ves.jpg" alt="věžní torzo z Velké Vsi — celkový pohled v expozici" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/027a-velika-ves.jpg" alt="věžní torzo z Veliké Vsi — celkový pohled v expozici" author="Miroslav Baudisch"}
 
-::photo{src="/img/vezni/027b-velika-ves.jpg" alt="věžní torzo z Velké Vsi — klecový rám s gotickými hřeby na sloupcích" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/027b-velika-ves.jpg" alt="věžní torzo z Veliké Vsi — klecový rám s gotickými hřeby na sloupcích" author="Miroslav Baudisch"}
 
-::photo{src="/img/vezni/027c-velika-ves.jpg" alt="věžní torzo z Velké Vsi — detail lanového bubnu s vratidly" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/027c-velika-ves.jpg" alt="věžní torzo z Veliké Vsi — detail lanového bubnu s vratidly" author="Miroslav Baudisch"}
 
-V kostele sv. Vavřince ve Velké Vsi se zachovalo torzo hodin s gotickými prvky. Wikipedie uvádí, že první zmínky o obci i o kostele pocházejí už ze třetí čtvrtiny 13. století; ve starší literatuře se uvádí, že kostel nechal vystavět děkan pražské kapituly Vít už v roce 1261 na vlastní náklady. Podle Dobroslava Líbala byl kostel vystavěn až kolem roku 1340, sakristie připojena na konci 14. století. Kostel prošel renesančními a barokními úpravami a byl obnoven v roce 1881, kdy zde proběhla i puristická rekonstrukce, jež silně ovlivnila jeho vnější vzhled. U kostela stojí renesanční zvonice patrně z roku 1582 se sedlovou střechou, jejíž přízemí slouží jako vstup ke kostelu a na hřbitov.
+V kostele sv. Vavřince ve Veliké Vsi se zachovalo torzo hodin s gotickými prvky. Wikipedie uvádí, že první zmínky o obci i o kostele pocházejí už ze třetí čtvrtiny 13. století; ve starší literatuře se uvádí, že kostel nechal vystavět děkan pražské kapituly Vít už v roce 1261 na vlastní náklady. Podle Dobroslava Líbala byl kostel vystavěn až kolem roku 1340, sakristie připojena na konci 14. století. Kostel prošel renesančními a barokními úpravami a byl obnoven v roce 1881, kdy zde proběhla i puristická rekonstrukce, jež silně ovlivnila jeho vnější vzhled. U kostela stojí renesanční zvonice patrně z roku 1582 se sedlovou střechou, jejíž přízemí slouží jako vstup ke kostelu a na hřbitov.
 
-![Kostel sv. Vavřince ve Velké Vsi](/img/decin/gotika/Kostel_sv._Vavrince.jpg)
+![Kostel sv. Vavřince ve Veliké Vsi](/img/decin/gotika/Kostel_sv._Vavrince.jpg)
 
 ## Popis torza
 
