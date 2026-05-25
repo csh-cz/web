@@ -15,6 +15,7 @@ import catalog from '../data/catalog.json';
 import { clanekHrefFromSlug } from '../data/url-helpers';
 import { krokyBySlug } from '../data/kroky';
 import { hodinariBySlug } from '../data/hodinari';
+import { formatCite } from '../utils/cite';
 
 const skupiny = milnikyDleEpochy();
 const pocet = milniky.length;
@@ -138,6 +139,7 @@ function odkazyProMilnik(m: Milnik): Odkaz[] {
           {polozky.map((m) => {
             const odkazy = odkazyProMilnik(m);
             const ikona = m.ikona ?? kategorieIkona[m.kategorie];
+            const pramen = m.bibKey ? formatCite(m.bibKey) : null;
             return (
               <li
                 class={`osa-udalost ob-${m.oblast} kat-${m.kategorie}`}
@@ -168,9 +170,10 @@ function odkazyProMilnik(m: Milnik): Odkaz[] {
                       ))}
                     </p>
                   )}
-                  {m.zdroj && (
+                  {(pramen || m.zdroj) && (
                     <p class="osa-zdroj">
-                      <i class="fa-solid fa-book" aria-hidden="true"></i> Pramen: {m.zdroj}
+                      <i class="fa-solid fa-book" aria-hidden="true"></i> Pramen:{' '}
+                      {pramen ? <span class="osa-cite" set:html={pramen} /> : m.zdroj}
                     </p>
                   )}
                 </article>
