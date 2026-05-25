@@ -751,24 +751,6 @@ export const milniky: Milnik[] = [
     zoteroKey: 'CNJ7TTKL',
   },
   {
-    id: 'vavrinec-frejlich-1591',
-    rok: 1591,
-    rokText: 'doloženo 1591',
-    epocha: 'novovek',
-    oblast: 'ceske-zeme',
-    kategorie: 'osobnost',
-    titulek: 'Vavřinec Frejlich — hodinář a zvonař',
-    popis:
-      'Syn Pavla Frejlicha, hodinář i zvonař Nového Města pražského. Pečoval o hodiny na Pražském hradě ' +
-      'a roku 1589 mu Rudolf II. vydal patent, aby si pro své řemeslo směl sám odlévat zvony; zhotovil ' +
-      'orloj na Bílé věži v Hradci Králové a slil řadu zvonů a cimbálů (Bechyně 1590, sv. Jindřich 1591, ' +
-      'Nábzí 1593).',
-    hodinar: 'vavrinec-frejlich',
-    slovnik: 'cymbal',
-    bibKey: 'knesplHodinarPavelFrejlich2022',
-    zdroj: 'Knespl 2022 — Hodinář Pavel Frejlich z Litomyšle',
-  },
-  {
     id: 'jost-burgi-1604',
     rok: 1604,
     rokText: '1604',
