@@ -1,6 +1,7 @@
 ---
 title: "Věžní hodiny Rochlitz"
 slug: "inv-A012-vezni-rochlitz"
+thumbnail: '/img/vezni/012a-rochlitz.jpg'
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
@@ -28,6 +29,8 @@ karta:
   biciStroje: "hodinové"
   adaptaceProVystavu: "Stroj má Grahamův krok, řízený nepůvodním kyvadlem."
 ---
+
+::photo{src="/img/vezni/012a-rochlitz.jpg" alt="Věžní hodiny Rochlitz (Berlín, 1824) — černý kovaný stroj s horizontálním soukolím, zlatým ozdobným číselníkem a dvěma zvony ve sbírce Hodinária Děčín" author="Stanislav Marušák"}
 
 Hodiny jsou výrobkem německé firmy, sídlící na okraji Berlína. Firma byla založena v roce 1824 a hlavním programem je výroba a instalace věžních hodin. Její výrobky lze spatřit na mnoha místech v Berlíně či Brandenburgu.
 
