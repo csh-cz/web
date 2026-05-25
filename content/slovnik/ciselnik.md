@@ -178,6 +178,16 @@ Schéma cifer na barokních číselnících bývá **dvojí** — hodinová stup
 
 **U strojů v interiéru** (radnice, škola) je číselník často **vsazený do atiky** nebo **trojúhelníkového štítu** flankovaného pilastry — typicky kraslická radnice, nebo „segmentový štít" Kristiánov-Liberec (NPÚ MIS 1737276 popisuje **„černý ciferník věžních hodin s bílými rafijemi a číslicemi, obklopený bohatou štukovou ornamentikou s florálními motivy**"). Mechanismus stroje sedí v podkroví, číselník je s ním propojen **kovovým táhlem** (typicky vertikálním nebo lomeným přes vidlici).
 
+## Kontrolní číselník
+
+Vedle vnějšího veřejného číselníku, který čtou kolemjdoucí z náměstí, má řada věžních hodin také **vnitřní kontrolní (řídicí) číselník** — malý ciferník umístěný přímo na hodinovém stroji ve strojovně. Slouží **obsluze** (kostelníkovi, věžníkovi, hodináři) k tomu, aby mohla **zkontrolovat a seřídit chod, aniž by musela ven k hlavnímu líci** — ten bývá na opačné straně věže, vysoko nad střechou nebo přístupný jen po lešení.
+
+::photo{src="/img/slovnik/ciselnik/kontrolni-ciselnik-skala.jpg" alt="Malovaný oválný kontrolní číselník na hodinovém stroji — vnitřní římské hodinové číslice, vnější arabská minutová stupnice, zlacená ručka a malovaný vavřínový věnec" author="Petr Skála" authorUrl="/hodinari/petr-skala" license="© Petr Skála"}
+
+Kontrolní číselník je poháněn **přímo ze [soukolí](/slovnik/soukoli) jicího stroje** (typicky ze středového kola nebo [královské hřídele](/slovnik/kralovska-hridel)), takže ukazuje „pravý" čas mechanismu **nezávisle na vnějším rozvodu**. To je podstatné: k vnějším lícím vede [ukazovací stroj](/slovnik/ukazovaci-stroj) dlouhým táhlem přes vidlice a úhlové převody, kde vzniká vůle a drobné zpoždění; kontrolní číselník naproti tomu sedí u zdroje pohybu, a je proto **referencí pro seřízení** všech vnějších číselníků najednou.
+
+Protože je v interiéru a v zorném poli obsluhy, býval kontrolní číselník často **bohatě malovaný** — drobné umělecké dílo strojovny. Patří k nim oválné ciferníky s **vavřínovým věncem** a dvojí stupnicí (vnitřní římské hodiny + vnější arabská minutová stupnice), jako na fotografii výše. Mimořádným příkladem je kontrolní číselník **Velké svatovítské věže** s namalovaným **habsburským dvouhlavým orlem** (Petr Neumann, kolem 1688) — viz [karta soupisu](/soupis-veznich-hodin/skala-realizace-svaty-vit).
+
 ## Barokní číselník (17.–18. století)
 
 Barokní typ věžního číselníku je **dominantní v Evropě 17.–18. století** a v Čechách se s ním setkáváme dodnes (často přemalovaný, ale konstrukčně zachovaný) — typické příklady: **Jičín — kostel sv. Ignáce z Loyoly** (1. pol. 18. stol.), **Markvartice — kostel sv. Jiljí** (1. pol. 19. stol., navazuje na barokní typ), **Borotín — zámek** (1767), **Třebovice ve Slezsku — kostel Nanebevzetí PM** (1881–82 přestavba věže s historizujícími prvky).
