@@ -1,0 +1,41 @@
+---
+/**
+ * Kompozitní ikona „hodinky" (kapesní + náramkové): pěst
+ * (fa-hand-back-fist) s hodinkovým ciferníkem (fa-clock) na zápěstí —
+ * čte se jako náramkové hodinky na ruce. Měřítko se řídí `font-size`.
+ *
+ * Ciferník je obarven na barvu pozadí (`--color-bg-elevated`), takže
+ * „prosvítá" pěstí jako zapuštěný ciferník — vyříznuté ručičky fa-solid
+ * ukazují barvu pěsti. Funguje v light i dark motivu.
+ *
+ * Určeno pro VĚTŠÍ ikony (dlaždice). V malých kontextech použij prosté
+ * `fa-regular fa-clock`.
+ */
+interface Props {
+  /** Doplňková třída na wrapper (propaguje velikost / barvu). */
+  class?: string;
+}
+const { class: cls } = Astro.props;
+---
+<span class:list={['hodinky-ico', cls]} aria-hidden="true">
+  <i class="fa-solid fa-hand-back-fist hodinky-base"></i>
+  <i class="fa-solid fa-clock hodinky-dial"></i>
+</span>
+<style>
+  .hodinky-ico {
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+  }
+  .hodinky-base {
+    display: block;
+  }
+  .hodinky-dial {
+    position: absolute;
+    bottom: 0.1em;
+    left: 55%;
+    transform: translateX(-50%);
+    font-size: 0.34em;
+    color: var(--color-bg-elevated);
+  }
+</style>
