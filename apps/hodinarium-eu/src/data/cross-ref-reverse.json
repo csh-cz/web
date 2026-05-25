@@ -281,6 +281,7 @@
         "1876-praha-krecmer",
         "1876-praha-krecmer-2",
         "1876-vodnany-krecmer",
+        "1878-vidim-krecmer",
         "1879-praha-krecmer",
         "1881-praha-krecmer",
         "1882-opocno-krecmer",
@@ -319,7 +320,6 @@
         "1909-nezname-krecmer",
         "1910-trebenice-krecmer",
         "1911-uvaly-u-prahy-krecmer",
-        "1912-horni-vidim-krecmer",
         "1912-ostresany-krecmer",
         "1915-kolomyja-krecmer",
         "nedatovano-nezname-krecmer",
@@ -563,7 +563,7 @@
     },
     "inv-A027-vezni-velka-ves": {
       "soupis": [
-        "nedatovano-velika-ves-svaty-vavrinec"
+        "nedatovano-velika-ves-skala-2004"
       ],
       "hodinari": [
         "miroslav-baudisch",
