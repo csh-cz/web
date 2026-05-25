@@ -1,184 +1,476 @@
 ---
 import Base from '../layouts/Base.astro';
-import { milniky } from '../data/milniky';
+import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import {
+  milniky,
+  milnikyDleEpochy,
+  epochy,
+  oblastLabel,
+  kategorieLabel,
+  kategorieIkona,
+  type Milnik,
+} from '../data/milniky';
 import catalog from '../data/catalog.json';
 import { clanekHrefFromSlug } from '../data/url-helpers';
-import { milnikLabel } from '../data/labels';
-import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
+import { krokyBySlug } from '../data/kroky';
+import { hodinariBySlug } from '../data/hodinari';
 
-const sorted = [...milniky].sort((a, b) => a.rok - b.rok);
+const skupiny = milnikyDleEpochy();
+const pocet = milniky.length;
+const pocetSvet = milniky.filter((m) => m.oblast === 'svet').length;
+const pocetCeske = milniky.filter((m) => m.oblast === 'ceske-zeme').length;
+
+// Resolve názvů pro cross-link chipy
+const slovnikMap = new Map(
+  (await getCollection('slovnik')).map((e) => [e.data.slug, e.data.title]),
+);
+const kronikaMap = new Map(
+  (await getCollection('kronika')).map((e) => [e.data.slug, e.data.title]),
+);
+const catalogMap = new Map((catalog as { slug: string }[]).map((e) => [e.slug, e]));
+
+interface Odkaz {
+  href: string;
+  label: string;
+  ikona: string;
+  extern?: boolean;
+}
+
+function odkazyProMilnik(m: Milnik): Odkaz[] {
+  const out: Odkaz[] = [];
+  if (m.clanek) {
+    const e = catalogMap.get(m.clanek) as { title?: string } | undefined;
+    out.push({
+      href: clanekHrefFromSlug(m.clanek, catalog as never),
+      label: e?.title ?? 'Článek',
+      ikona: 'file-lines',
+    });
+  }
+  if (m.krok) {
+    const k = krokyBySlug.get(m.krok);
+    out.push({ href: `/kroky/${m.krok}`, label: `Krok: ${k?.jmeno ?? m.krok}`, ikona: 'gear' });
+  }
+  if (m.hodinar) {
+    const h = hodinariBySlug.get(m.hodinar);
+    out.push({ href: `/hodinari/${m.hodinar}`, label: h?.jmeno ?? m.hodinar, ikona: 'user' });
+  }
+  if (m.slovnik) {
+    const t = slovnikMap.get(m.slovnik);
+    out.push({ href: `/slovnik/${m.slovnik}`, label: `Heslo: ${t ?? m.slovnik}`, ikona: 'book-open' });
+  }
+  if (m.kronika) {
+    const t = kronikaMap.get(m.kronika);
+    out.push({ href: `/kronika/${m.kronika}`, label: `Kronika: ${t ?? m.kronika}`, ikona: 'calendar' });
+  }
+  if (m.externalUrl) {
+    out.push({
+      href: m.externalUrl,
+      label: m.externalUrl.replace(/^https?:\/\//, ''),
+      ikona: 'up-right-from-square',
+      extern: true,
+    });
+  }
+  return out;
+}
 ---
-<Base title="Časová osa" description="Šest set let hodinařiny — od Mikuláše z Kadaně po DIY hodiny s mikroprocesorem.">
+
+<Base
+  title="Časová osa — dějiny měření času"
+  description="Od egyptského gnómonu po hodiny řízené mikroprocesorem. Dvouproudá časová osa světových dějin měření času a vývoje hodinařiny, do níž se od 14. století zapojují i české země."
+>
   <Breadcrumbs trail={[
     { href: "/", label: "Hodinárium" },
     { href: "/vice", label: "Více" },
     { label: "Časová osa" },
   ]} />
-  <header class="max-w-3xl mb-12">
-    <p class="eyebrow mb-4">600 let hodinařiny</p>
+
+  <header class="max-w-3xl mb-8">
+    <p class="eyebrow mb-4">Dějiny měření času</p>
     <h1 class="hero-title mb-5 hero-title-sm">Časová osa</h1>
     <p class="text-[var(--color-text)] leading-relaxed">
-      Od astrolabia Mikuláše z Kadaně (1410) přes lidové švarcvaldky až po hodiny řízené ESP01S
-      modulem (2025). {sorted.length} milníků, které tvoří kontext.
+      Řeka času teče od egyptského gnómonu a antické klepsydry až k hodinám řízeným mikroprocesorem.
+      Po levém břehu plyne <strong>světový</strong> příběh hodinařiny; na pravém se od konce 14. století
+      přidávají <strong>české země</strong> — Zhořelec, pražský orloj, rudolfínská Praha. {pocet} milníků
+      ({pocetSvet} světových, {pocetCeske} z českých zemí), provázaných s články, medailony a slovníkem
+      Hodinária.
     </p>
   </header>
 
-  <ol class="timeline" aria-label="Časová osa milníků hodinařiny">
-    {sorted.map((m) => (
-      <li class={`timeline-item kat-${m.kategorie}`}>
-        <div class="timeline-rok" aria-label={`Rok ${m.rok}`}>
-          <span>{m.rokText ?? m.rok}</span>
-        </div>
-        <div class="timeline-obsah">
-          <p class="eyebrow timeline-kat">{milnikLabel(m.kategorie)}</p>
-          <h3 class="timeline-titulek">{m.titulek}</h3>
-          <p class="timeline-popis" set:html={m.popis} />
-          {(m.slug || m.externalUrl) && (
-            <p class="timeline-odkaz">
-              {m.slug && (
-                <a href={clanekHrefFromSlug(m.slug, catalog)}>Otevřít článek →</a>
-              )}
-              {m.externalUrl && (
-                <a href={m.externalUrl} rel="noopener" target="_blank">
-                  {m.externalUrl.replace(/^https?:\/\//, '')}
-                </a>
-              )}
-            </p>
-          )}
-        </div>
+  <div class="osa-toolbar">
+    <div class="osa-filtr" role="group" aria-label="Filtr podle oblasti">
+      <button type="button" data-oblast="vse" aria-pressed="true">Vše</button>
+      <button type="button" data-oblast="svet" aria-pressed="false">
+        <i class="fa-solid fa-earth-europe" aria-hidden="true"></i> Svět
+      </button>
+      <button type="button" data-oblast="ceske-zeme" aria-pressed="false">
+        <i class="fa-solid fa-landmark" aria-hidden="true"></i> České země
+      </button>
+    </div>
+    <nav class="osa-epochy-nav" aria-label="Skok na epochu">
+      {epochy.map((e) => (
+        <a href={`#epocha-${e.key}`}>{e.jmeno}</a>
+      ))}
+    </nav>
+  </div>
+
+  <ul class="osa-legenda" aria-label="Kategorie milníků">
+    {(Object.keys(kategorieLabel) as (keyof typeof kategorieLabel)[]).map((k) => (
+      <li>
+        <i class={`fa-solid fa-${kategorieIkona[k]}`} aria-hidden="true"></i>
+        {kategorieLabel[k]}
       </li>
     ))}
-  </ol>
+  </ul>
+
+  <div class="osa" data-filtr="vse">
+    {skupiny.map(({ epocha, polozky }) => (
+      <section class="osa-epocha" id={`epocha-${epocha.key}`}>
+        <div class="osa-epocha-hlavicka">
+          <h2>
+            {epocha.jmeno} <span class="osa-epocha-rozsah">{epocha.rozsah}</span>
+          </h2>
+          <p>{epocha.perex}</p>
+        </div>
+
+        <ol class="osa-proud">
+          {polozky.map((m) => {
+            const odkazy = odkazyProMilnik(m);
+            const ikona = m.ikona ?? kategorieIkona[m.kategorie];
+            return (
+              <li
+                class={`osa-udalost ob-${m.oblast} kat-${m.kategorie}`}
+                id={`milnik-${m.id}`}
+                data-oblast={m.oblast}
+              >
+                <p class="osa-rok"><span>{m.rokText ?? m.rok}</span></p>
+                <article class="osa-karta">
+                  <p class="osa-meta">
+                    <i class={`fa-solid fa-${ikona}`} aria-hidden="true"></i>
+                    <span class="osa-kat">{kategorieLabel[m.kategorie]}</span>
+                    <span class="osa-oblast-badge">{oblastLabel[m.oblast]}</span>
+                  </p>
+                  <h3 class="osa-titulek">{m.titulek}</h3>
+                  <p class="osa-popis">{m.popis}</p>
+                  {odkazy.length > 0 && (
+                    <p class="osa-odkazy">
+                      {odkazy.map((o) => (
+                        <a
+                          class="osa-odkaz"
+                          href={o.href}
+                          rel={o.extern ? 'noopener' : undefined}
+                          target={o.extern ? '_blank' : undefined}
+                        >
+                          <i class={`fa-solid fa-${o.ikona}`} aria-hidden="true"></i>
+                          {o.label}
+                        </a>
+                      ))}
+                    </p>
+                  )}
+                  {m.zdroj && (
+                    <p class="osa-zdroj">
+                      <i class="fa-solid fa-book" aria-hidden="true"></i> Pramen: {m.zdroj}
+                    </p>
+                  )}
+                </article>
+              </li>
+            );
+          })}
+        </ol>
+      </section>
+    ))}
+  </div>
+
+  <p class="osa-paticka">
+    Milníky vycházejí z pramenů shromážděných ve výzkumné knihovně spolku.
+    Datace u nejstarších událostí jsou orientační.
+  </p>
 </Base>
 
+<script>
+  const osa = document.querySelector<HTMLElement>('.osa');
+  const btns = document.querySelectorAll<HTMLButtonElement>('.osa-filtr button');
+  btns.forEach((b) => {
+    b.addEventListener('click', () => {
+      if (!osa) return;
+      osa.dataset.filtr = b.dataset.oblast ?? 'vse';
+      btns.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    });
+  });
+</script>
+
 <style>
-  .timeline {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    max-width: 880px;
+  /* ── Toolbar ───────────────────────────────────────────── */
+  .osa-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
   }
 
-  /* Středová linie */
-  .timeline::before {
+  .osa-filtr {
+    display: inline-flex;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
+    border-radius: 999px;
+    padding: 3px;
+    background: var(--color-bg-elevated);
+  }
+  .osa-filtr button {
+    appearance: none;
+    border: 0;
+    background: transparent;
+    color: var(--color-text-soft);
+    font: inherit;
+    font-size: 0.85rem;
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s, color 0.15s;
+  }
+  .osa-filtr button:hover { color: var(--color-text); }
+  .osa-filtr button[aria-pressed='true'] {
+    background: color-mix(in srgb, var(--color-brass) 24%, transparent);
+    color: var(--color-brass-bright);
+  }
+
+  .osa-epochy-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 1rem;
+    font-size: 0.85rem;
+  }
+  .osa-epochy-nav a {
+    color: var(--color-text-muted);
+    text-decoration: none;
+    border-bottom: 1px dotted transparent;
+  }
+  .osa-epochy-nav a:hover {
+    color: var(--color-brass-bright);
+    border-bottom-color: currentColor;
+  }
+
+  /* ── Legenda ───────────────────────────────────────────── */
+  .osa-legenda {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.4rem;
+    padding: 0;
+    margin: 0 0 2.5rem;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+  }
+  .osa-legenda li { display: inline-flex; align-items: center; gap: 0.45rem; }
+  .osa-legenda i { color: var(--color-brass); width: 1rem; text-align: center; }
+
+  /* ── Epocha (celošířkový pás) ──────────────────────────── */
+  .osa-epocha { scroll-margin-top: 5rem; }
+  .osa-epocha-hlavicka {
+    max-width: 720px;
+    margin: 0 auto 1.75rem;
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+  .osa-epocha:first-child .osa-epocha-hlavicka { padding-top: 0; }
+  .osa-epocha-hlavicka h2 {
+    font-family: var(--font-serif);
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.5rem;
+  }
+  .osa-epocha-rozsah {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: var(--color-text-muted);
+  }
+  .osa-epocha-hlavicka p {
+    color: var(--color-text-soft);
+    font-size: 0.95rem;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  /* ── Proud (jeden segment osy) — základ: jednoproudá kolej ─ */
+  .osa-proud {
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0 0 1rem;
+  }
+  .osa-proud::before {
     content: '';
     position: absolute;
-    left: 130px;
-    top: 0.5rem;
-    bottom: 0.5rem;
+    left: 14px;
+    top: 0.4rem;
+    bottom: 0.4rem;
     width: 2px;
     background: linear-gradient(
       to bottom,
       transparent,
-      color-mix(in srgb, var(--color-brass) 40%, transparent) 5%,
-      color-mix(in srgb, var(--color-brass) 40%, transparent) 95%,
+      color-mix(in srgb, var(--color-brass) 45%, transparent) 6%,
+      color-mix(in srgb, var(--color-brass) 45%, transparent) 94%,
       transparent
     );
   }
 
-  @media (max-width: 640px) {
-    .timeline::before {
-      left: 12px;
-    }
-  }
-
-  .timeline-item {
+  .osa-udalost {
     position: relative;
-    padding: 1rem 0 2rem;
     display: grid;
-    grid-template-columns: 130px 1fr;
-    gap: 2rem;
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+    padding: 0 0 1.75rem 2.75rem;
   }
-
-  @media (max-width: 640px) {
-    .timeline-item {
-      grid-template-columns: 12px 1fr;
-      gap: 1.25rem;
-      padding-bottom: 1.5rem;
-    }
-  }
-
-  .timeline-rok {
-    text-align: right;
-    position: relative;
-    font-family: var(--font-serif);
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: var(--color-brass-bright);
-    font-feature-settings: "lnum";
-    font-style: italic;
-    padding-right: 1.5rem;
-  }
-
-  /* Kotva — kovový pin */
-  .timeline-rok::after {
+  /* korálek na ose */
+  .osa-udalost::after {
     content: '';
     position: absolute;
-    right: -7px;
+    left: 8px;
     top: 0.35rem;
     width: 14px;
     height: 14px;
+    border-radius: 50%;
     background: var(--color-bg);
     border: 2px solid var(--color-brass);
-    border-radius: 50%;
-    box-shadow: 0 0 0 4px var(--color-bg);
-    z-index: 1;
+    box-shadow: 0 0 0 3px var(--color-bg);
+  }
+  .ob-svet.osa-udalost::after { border-color: var(--color-copper); }
+  .ob-ceske-zeme.osa-udalost::after { border-color: var(--color-verdigris); }
+
+  .osa-rok {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 1.2rem;
+    color: var(--color-brass-bright);
+    font-feature-settings: 'lnum';
   }
 
-  .timeline-item.kat-orloj .timeline-rok::after { border-color: var(--color-copper); }
-  .timeline-item.kat-projekty .timeline-rok::after { border-color: var(--color-verdigris); }
-
-  @media (max-width: 640px) {
-    .timeline-rok {
-      grid-column: 2;
-      text-align: left;
-      padding-right: 0;
-      font-size: 1.1rem;
-      margin-bottom: 0.25rem;
-    }
-    .timeline-rok::after {
-      left: -29px;
-      right: auto;
-      top: 0.5rem;
-    }
+  .osa-karta {
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 0.5rem;
+    padding: 0.9rem 1.1rem;
   }
+  .ob-svet .osa-karta { border-left: 3px solid var(--color-copper); }
+  .ob-ceske-zeme .osa-karta { border-left: 3px solid var(--color-verdigris); }
 
-  .timeline-obsah {
-    padding-top: 0.1rem;
+  .osa-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin: 0 0 0.4rem;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--color-text-muted);
   }
-
-  @media (max-width: 640px) {
-    .timeline-obsah {
-      grid-column: 2;
-    }
+  .osa-meta i { color: var(--color-brass); }
+  .osa-oblast-badge {
+    margin-left: auto;
+    font-weight: 600;
+    letter-spacing: 0.03em;
   }
+  .ob-svet .osa-oblast-badge { color: var(--color-copper); }
+  .ob-ceske-zeme .osa-oblast-badge { color: var(--color-verdigris); }
 
-  .timeline-kat {
-    font-size: 0.7rem;
-    margin-bottom: 0.3rem;
-  }
-
-  .timeline-titulek {
-    font-size: 1.4rem;
+  .osa-titulek {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
     font-weight: 500;
     color: var(--color-brass-bright);
-    margin: 0 0 0.4rem;
     line-height: 1.25;
+    margin: 0 0 0.4rem;
   }
-
-  .timeline-popis {
+  .osa-popis {
     color: var(--color-text);
-    font-size: 1rem;
+    font-size: 0.97rem;
     line-height: 1.6;
-    margin: 0 0 0.6rem;
+    margin: 0;
   }
 
-  .timeline-odkaz {
-    margin: 0;
-    font-size: 0.9rem;
+  .osa-odkazy {
     display: flex;
-    gap: 1rem;
     flex-wrap: wrap;
+    gap: 0.4rem 0.5rem;
+    margin: 0.7rem 0 0;
+  }
+  .osa-odkaz {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    color: var(--color-brass-bright);
+    text-decoration: none;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 999px;
+    padding: 0.2rem 0.6rem;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .osa-odkaz:hover {
+    background: color-mix(in srgb, var(--color-brass) 14%, transparent);
+    border-color: color-mix(in srgb, var(--color-brass) 55%, transparent);
+  }
+  .osa-odkaz i { font-size: 0.78em; opacity: 0.85; }
+
+  .osa-zdroj {
+    margin: 0.55rem 0 0;
+    font-size: 0.76rem;
+    color: var(--color-text-muted);
+  }
+  .osa-zdroj i { margin-right: 0.2rem; opacity: 0.8; }
+
+  .osa-paticka {
+    margin: 2rem 0 0;
+    font-size: 0.82rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+
+  /* skrytí při filtru na jednu oblast */
+  .osa[data-filtr='svet'] .osa-udalost.ob-ceske-zeme { display: none; }
+  .osa[data-filtr='ceske-zeme'] .osa-udalost.ob-svet { display: none; }
+
+  /* ── Dvouproudá Řeka času (široké okno + filtr „Vše") ───── */
+  @media (min-width: 880px) {
+    .osa[data-filtr='vse'] .osa-proud::before {
+      left: 50%;
+      transform: translateX(-1px);
+    }
+    .osa[data-filtr='vse'] .osa-udalost {
+      grid-template-columns: 1fr 6.5rem 1fr;
+      column-gap: 0;
+      padding: 0 0 2.25rem;
+      align-items: start;
+    }
+    .osa[data-filtr='vse'] .osa-udalost::after {
+      left: calc(50% - 8px);
+      top: 1.9rem;
+    }
+    .osa[data-filtr='vse'] .osa-rok {
+      grid-column: 2;
+      grid-row: 1;
+      text-align: center;
+      align-self: start;
+      padding-top: 0.1rem;
+      font-size: 1.05rem;
+    }
+    .osa[data-filtr='vse'] .ob-svet .osa-karta {
+      grid-column: 1;
+      grid-row: 1;
+      margin-right: 1.4rem;
+    }
+    .osa[data-filtr='vse'] .ob-ceske-zeme .osa-karta {
+      grid-column: 3;
+      grid-row: 1;
+      margin-left: 1.4rem;
+    }
+    /* prázdná protistrana se nevykresluje, ale rezervuje sloupec */
   }
 </style>
