@@ -1,0 +1,38 @@
+---
+/**
+ * Kompozitní ikona „decimální hodiny": obrysový ciferník (fa-regular
+ * fa-clock) s číslicí „10" na pozici 12 — den dělený na 10 hodin.
+ * Měřítko se řídí `font-size` containeru; „10" je v barvě ikony
+ * (currentColor), uvnitř dutého ciferníku.
+ *
+ * Určeno pro VĚTŠÍ ikony (dlaždice). V malých kontextech raději prosté
+ * `fa-solid fa-table-cells` / `fa-regular fa-clock`.
+ */
+interface Props {
+  /** Doplňková třída na wrapper (propaguje velikost / barvu). */
+  class?: string;
+}
+const { class: cls } = Astro.props;
+---
+<span class:list={['decimalka-ico', cls]} aria-hidden="true">
+  <i class="fa-regular fa-clock"></i>
+  <span class="decimalka-10">10</span>
+</span>
+<style>
+  .decimalka-ico {
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+  }
+  .decimalka-ico > i {
+    display: block;
+  }
+  .decimalka-10 {
+    position: absolute;
+    top: 0.14em;
+    left: 50%;
+    transform: translateX(-50%);
+    font: 700 0.28em ui-sans-serif, system-ui, Arial, sans-serif;
+    color: currentColor;
+  }
+</style>

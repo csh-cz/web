@@ -8,6 +8,7 @@ import { clanekHref } from '../../data/url-helpers';
 import { typTiles, groupLabels, type TypTile } from '../../data/sbirka-typy';
 import TowerClockIcon from '../../components/TowerClockIcon.astro';
 import HodinkyIcon from '../../components/HodinkyIcon.astro';
+import DecimalkaIcon from '../../components/DecimalkaIcon.astro';
 
 import type { CatalogEntry as Entry } from '../../data/catalog-types';
 import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
@@ -104,14 +105,14 @@ const groupedTiles: Record<TypTile['group'], typeof typTilesWithCount> = {
           {groupedTiles[g].map((t) => (
             t.count > 0 ? (
               <a href={`/sbirka/typ/${t.tag}/`} class="typ-tile">
-                <div class="typ-tile-icon" aria-hidden="true">{t.tag === 'vezni' ? <TowerClockIcon /> : t.tag === 'hodinky' ? <HodinkyIcon /> : <i class={t.icon} />}</div>
+                <div class="typ-tile-icon" aria-hidden="true">{t.tag === 'vezni' ? <TowerClockIcon /> : t.tag === 'hodinky' ? <HodinkyIcon /> : t.tag === 'decimalka' ? <DecimalkaIcon /> : <i class={t.icon} />}</div>
                 <h4 class="typ-tile-label">{t.label}</h4>
                 <p class="typ-tile-popis">{t.popis}</p>
                 <p class="typ-tile-count"><strong>{t.count}</strong> exponátů</p>
               </a>
             ) : (
               <div class="typ-tile typ-tile-empty" aria-disabled="true">
-                <div class="typ-tile-icon" aria-hidden="true">{t.tag === 'vezni' ? <TowerClockIcon /> : t.tag === 'hodinky' ? <HodinkyIcon /> : <i class={t.icon} />}</div>
+                <div class="typ-tile-icon" aria-hidden="true">{t.tag === 'vezni' ? <TowerClockIcon /> : t.tag === 'hodinky' ? <HodinkyIcon /> : t.tag === 'decimalka' ? <DecimalkaIcon /> : <i class={t.icon} />}</div>
                 <h4 class="typ-tile-label">{t.label}</h4>
                 <p class="typ-tile-popis">{t.popis}</p>
                 <p class="typ-tile-count typ-tile-count-empty">zatím žádný exponát</p>
