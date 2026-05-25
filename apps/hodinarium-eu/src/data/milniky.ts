@@ -423,15 +423,16 @@ export const milniky: Milnik[] = [
     zoteroKey: 'SC8D299S',
   },
   {
-    id: 'vysehrad-1379',
+    id: 'praha-martin-1379',
     rok: 1379,
     rokText: '1379',
     epocha: 'stredovek',
     oblast: 'ceske-zeme',
     kategorie: 'osobnost',
-    titulek: 'Hodináři na Vyšehradě',
+    titulek: 'Pražský hodinář Martin',
     popis:
-      'Spor Johanna Tosta z roku 1379 dokládá ranou přítomnost hodinářského řemesla v pražské aglomeraci.',
+      'Soudní akt pražské konsistoře z roku 1379 zachycuje spor hodináře (orlogisty) Martina s kanovníkem ' +
+      'Janem Tostem — nejstarší jmenovitě doložený pražský hodinář.',
     zdroj: 'Tadra 1896 — Soudní akta konsistoře pražské III, s. 343',
     zoteroKey: 'CGCLGE2L',
   },

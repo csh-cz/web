@@ -92,7 +92,7 @@ export const nejstarsiHodiny: NejstarsiHodiny[] = [
     presnost: 'dolozeno',
     pramen: 'Tadra 1896 — Soudní akta konsistoře pražské III, s. 343',
     zoteroKey: 'CGCLGE2L',
-    milnikId: 'vysehrad-1379',
+    milnikId: 'praha-martin-1379',
   },
   {
     rok: 1387,
