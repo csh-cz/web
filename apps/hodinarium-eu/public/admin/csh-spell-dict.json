@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-25T04:04:06.768Z",
+  "generatedAt": "2026-05-25T04:37:27.569Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 157,
     "hodinari": 165,
     "hodinariTs": 165,
-    "soupis": 442
+    "soupis": 441
   },
-  "count": 1700,
+  "count": 1697,
   "words": [
     "Abraham",
     "Accutron",
@@ -272,7 +272,6 @@
     "Drozda",
     "druhá",
     "dřevěný",
-    "Dřevěný",
     "dříve",
     "Dub",
     "Dubčany",
@@ -1105,7 +1104,6 @@
     "Pohořelice",
     "pohyblivé",
     "pojišťovna",
-    "pokladna",
     "Pokoje",
     "Pokutí",
     "poledni",
@@ -1651,7 +1649,6 @@
     "základní",
     "Základní",
     "Zálesní",
-    "zámecká",
     "Zámeček",
     "zamek",
     "zámek",
