@@ -712,7 +712,8 @@ export const milniky: Milnik[] = [
     popis:
       'U litomyšlského renesančního hodináře Pavla Frejlicha si roku 1571 objednal arcivévoda Ferdinand II. ' +
       'Tyrolský astronomický orloj pro sbírky na zámku Ambras — jediné dochované Frejlichovo dílo; jeho ' +
-      'věžní hodiny pro Bílou věž Pražského hradu, Moravskou Třebovou či Kadaň zanikly.',
+      'věžní hodiny pro Bílou věž Pražského hradu, Moravskou Třebovou či Kadaň zanikly. Řemeslo po něm ' +
+      'převzal syn Vavřinec, hodinář a zvonař.',
     hodinar: 'pavel-frejlich',
     slovnik: 'orloj',
     bibKey: 'knesplAstronomicalClockArchduke2024',
@@ -748,6 +749,24 @@ export const milniky: Milnik[] = [
     zdroj: 'Wallis & Bede 1999 — Bede, The Reckoning of Time',
     bibKey: 'wallisBedeReckoningTime1999',
     zoteroKey: 'CNJ7TTKL',
+  },
+  {
+    id: 'vavrinec-frejlich-1591',
+    rok: 1591,
+    rokText: 'doloženo 1591',
+    epocha: 'novovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    titulek: 'Vavřinec Frejlich — hodinář a zvonař',
+    popis:
+      'Syn Pavla Frejlicha, hodinář i zvonař Nového Města pražského. Pečoval o hodiny na Pražském hradě ' +
+      'a roku 1589 mu Rudolf II. vydal patent, aby si pro své řemeslo směl sám odlévat zvony; zhotovil ' +
+      'orloj na Bílé věži v Hradci Králové a slil řadu zvonů a cimbálů (Bechyně 1590, sv. Jindřich 1591, ' +
+      'Nábzí 1593).',
+    hodinar: 'vavrinec-frejlich',
+    slovnik: 'cymbal',
+    bibKey: 'knesplHodinarPavelFrejlich2022',
+    zdroj: 'Knespl 2022 — Hodinář Pavel Frejlich z Litomyšle',
   },
   {
     id: 'jost-burgi-1604',
