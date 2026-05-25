@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T22:04:48.292Z",
+  "generatedAt": "2026-05-25T15:10:00.118Z",
   "summary": {
     "kartyTotal": 318,
     "kartyNoTyp": 245,
@@ -8,15 +8,15 @@
     "kartyNoUmisteni": 269,
     "kartyPlaceholderTitle": 0,
     "clankyNoTldr": 2,
-    "clankyShort": 59,
+    "clankyShort": 60,
     "clankyLegacyLinks": 1,
-    "hodinariTotal": 165,
-    "hodinariShort": 119,
-    "hodinariNoPortret": 144,
-    "soupisTotal": 444,
+    "hodinariTotal": 168,
+    "hodinariShort": 122,
+    "hodinariNoPortret": 147,
+    "soupisTotal": 441,
     "stubsKarty": 0,
     "stubsClanky": 0,
-    "stubsHodinari": 36,
+    "stubsHodinari": 39,
     "stubsSoupis": 8,
     "kronikaYears": [
       2009,
@@ -5739,6 +5739,13 @@
         "wordCount": 146
       },
       {
+        "slug": "planicka-interierovy-orloj",
+        "title": "Interiérový orloj Františka Planičky",
+        "category": "virtualni-muzeum",
+        "editUrl": "/admin/#/collections/clanky/entries/planicka-interierovy-orloj",
+        "wordCount": 127
+      },
+      {
         "slug": "podebrady4",
         "title": "Květinové hodiny v Poděbradech",
         "category": "virtualni-muzeum",
@@ -5865,6 +5872,12 @@
         "slug": "abraham-louis-breguet",
         "title": "Abraham-Louis Bréguet",
         "editUrl": "/admin/#/collections/hodinari/entries/abraham-louis-breguet",
+        "wordCount": 1
+      },
+      {
+        "slug": "adolf-bergmann",
+        "title": "Adolf Bergmann",
+        "editUrl": "/admin/#/collections/hodinari/entries/adolf-bergmann",
         "wordCount": 1
       },
       {
@@ -6024,6 +6037,12 @@
         "wordCount": 95
       },
       {
+        "slug": "frantisek-wollmann",
+        "title": "František Wollmann",
+        "editUrl": "/admin/#/collections/hodinari/entries/frantisek-wollmann",
+        "wordCount": 1
+      },
+      {
         "slug": "frantisek-x-beitel",
         "title": "František X. Beitel",
         "editUrl": "/admin/#/collections/hodinari/entries/frantisek-x-beitel",
@@ -6142,6 +6161,12 @@
         "title": "Jednotný čas",
         "editUrl": "/admin/#/collections/hodinari/entries/jednotny-cas",
         "wordCount": 59
+      },
+      {
+        "slug": "jindrich-grubsky",
+        "title": "Jindřich Grubský",
+        "editUrl": "/admin/#/collections/hodinari/entries/jindrich-grubsky",
+        "wordCount": 1
       },
       {
         "slug": "jindrich-havlicek",
@@ -6583,6 +6608,11 @@
         "editUrl": "/admin/#/collections/hodinari/entries/abraham-louis-breguet"
       },
       {
+        "slug": "adolf-bergmann",
+        "title": "Adolf Bergmann",
+        "editUrl": "/admin/#/collections/hodinari/entries/adolf-bergmann"
+      },
+      {
         "slug": "adolf-lange",
         "title": "Ferdinand Adolf Lange",
         "editUrl": "/admin/#/collections/hodinari/entries/adolf-lange"
@@ -6743,6 +6773,11 @@
         "editUrl": "/admin/#/collections/hodinari/entries/frantisek-summerecker"
       },
       {
+        "slug": "frantisek-wollmann",
+        "title": "František Wollmann",
+        "editUrl": "/admin/#/collections/hodinari/entries/frantisek-wollmann"
+      },
+      {
         "slug": "frantisek-x-beitel",
         "title": "František X. Beitel",
         "editUrl": "/admin/#/collections/hodinari/entries/frantisek-x-beitel"
@@ -6876,6 +6911,11 @@
         "slug": "jednotny-cas",
         "title": "Jednotný čas",
         "editUrl": "/admin/#/collections/hodinari/entries/jednotny-cas"
+      },
+      {
+        "slug": "jindrich-grubsky",
+        "title": "Jindřich Grubský",
+        "editUrl": "/admin/#/collections/hodinari/entries/jindrich-grubsky"
       },
       {
         "slug": "jindrich-havlicek",
@@ -7307,6 +7347,11 @@
         "editUrl": "/admin/#/collections/hodinari/entries/abraham-louis-breguet"
       },
       {
+        "slug": "adolf-bergmann",
+        "title": "Adolf Bergmann",
+        "editUrl": "/admin/#/collections/hodinari/entries/adolf-bergmann"
+      },
+      {
         "slug": "adolf-lange",
         "title": "Ferdinand Adolf Lange",
         "editUrl": "/admin/#/collections/hodinari/entries/adolf-lange"
@@ -7357,6 +7402,11 @@
         "editUrl": "/admin/#/collections/hodinari/entries/frantisek-krivanek"
       },
       {
+        "slug": "frantisek-wollmann",
+        "title": "František Wollmann",
+        "editUrl": "/admin/#/collections/hodinari/entries/frantisek-wollmann"
+      },
+      {
         "slug": "george-graham",
         "title": "George Graham (Jiří Graham)",
         "editUrl": "/admin/#/collections/hodinari/entries/george-graham"
@@ -7365,6 +7415,11 @@
         "slug": "hipp-favarger",
         "title": "Hipp-Favarger (firma)",
         "editUrl": "/admin/#/collections/hodinari/entries/hipp-favarger"
+      },
+      {
+        "slug": "jindrich-grubsky",
+        "title": "Jindřich Grubský",
+        "editUrl": "/admin/#/collections/hodinari/entries/jindrich-grubsky"
       },
       {
         "slug": "johann-burk",

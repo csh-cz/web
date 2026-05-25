@@ -2515,6 +2515,45 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: [],
     era: 'prelom',
   },
+  {
+    slug: 'jindrich-grubsky',
+    jmeno: 'Jindřich Grubský',
+    aliasy: ['Jindřich Grubský', 'J. Grubský'],
+    typ: 'osoba',
+    obdobi: 'akt. 1. třetina 20. století',
+    mesto: null,
+    zeme: 'CZ',
+    shrnuti:
+      'Hodinář činný v Polabí v 1. třetině 20. století; v soupisu věžních hodin doložen ve Vrbové Lhotě, Brodcích a Úmyslovicích (1930). Bližší životopisné údaje zatím nedohledány.',
+    relatedSlugs: [],
+    era: '20stol',
+  },
+  {
+    slug: 'frantisek-wollmann',
+    jmeno: 'František Wollmann',
+    aliasy: ['František Wollmann', 'F. Wollmann'],
+    typ: 'osoba',
+    obdobi: 'akt. 1. polovina 19. století',
+    mesto: 'Rokycany',
+    zeme: 'CZ',
+    shrnuti:
+      'Rokycanský hodinář 1. poloviny 19. století; roku 1836 zhotovil hodinový stroj radnice (bývalého berního úřadu a soudu) v Blovicích. Bližší životopisné údaje zatím nedohledány.',
+    relatedSlugs: [],
+    era: '19stol',
+  },
+  {
+    slug: 'adolf-bergmann',
+    jmeno: 'Adolf Bergmann',
+    aliasy: ['Adolf Bergmann', 'A. Bergmann'],
+    typ: 'osoba',
+    obdobi: 'akt. 2. polovina 19. století',
+    mesto: null,
+    zeme: 'CZ',
+    shrnuti:
+      'Hodinář činný ve 2. polovině 19. století (Liberecko); v soupisu věžních hodin doložen v Dlouhém Mostě (1878). Bližší životopisné údaje zatím nedohledány.',
+    relatedSlugs: [],
+    era: '19stol',
+  },
 ];
 
 export const hodinariBySlug = new Map(hodinari.map((h) => [h.slug, h]));
