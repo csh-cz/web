@@ -1,6 +1,7 @@
 ---
 title: "Věžní hodiny Kladno"
 slug: "inv-A016-vezni-kladno"
+thumbnail: '/img/vezni/016a-kladno.jpg'
 category: "sbirka"
 podsekce: "karta"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
@@ -28,6 +29,8 @@ karta:
     typObjektu: "zámek"
     obec: "Kladně"
 ---
+
+::photo{src="/img/vezni/016a-kladno.jpg" alt="Věžní hodiny ze zámku Kladno — kovaný stroj s Grahamovým krokem na expozičním stojanu se závažími ve sbírce Hodinária Děčín" author="Stanislav Marušák"}
 
 Hodiny jsou prací hodináře, zřejmě seznámeného s výrobky pražského hodináře Londenspergera. Podle způsobu zpracování lze odhadovat dobu vzniku na první polovinu 19. století. Kovaný rám je spojován klínky, rovněž i spoje pák a hřídelí. Některé detaily jsou podobné, jako na hodinách Michaela Christa.
 
