@@ -182,6 +182,8 @@ Schéma cifer na barokních číselnících bývá **dvojí** — hodinová stup
 
 Barokní typ věžního číselníku je **dominantní v Evropě 17.–18. století** a v Čechách se s ním setkáváme dodnes (často přemalovaný, ale konstrukčně zachovaný) — typické příklady: **Jičín — kostel sv. Ignáce z Loyoly** (1. pol. 18. stol.), **Markvartice — kostel sv. Jiljí** (1. pol. 19. stol., navazuje na barokní typ), **Borotín — zámek** (1767), **Třebovice ve Slezsku — kostel Nanebevzetí PM** (1881–82 přestavba věže s historizujícími prvky).
 
+::photo{src="/img/slovnik/ciselnik/barokni-ciselnik-skala.jpg" alt="Barokní věžní číselník — černá deska se zlatými římskými číslicemi ve dvou soustředných kruzích (vnější hodinový I–XII, vnitřní čtvrťový) a zdobenými zlacenými ručkami" author="Petr Skála" authorUrl="/hodinari/petr-skala" license="© Petr Skála"}
+
 ### Konstrukční schéma barokního ciferníku
 
 Typický barokní věžní ciferník má **dvě soustředné stupnice**:
