@@ -336,6 +336,24 @@ export const milniky: Milnik[] = [
     zoteroKey: 'RHHYLVK9',
   },
   {
+    id: 'rovne-hodiny',
+    rok: 1350,
+    rokText: '14. století',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'system',
+    ikona: 'clock',
+    titulek: 'Od nerovných hodin k rovným',
+    popis:
+      'S nástupem mechanických hodin ustupují nerovné (temporální) hodiny, kdy se den i noc dělily na ' +
+      'dvanáct dílů proměnlivé délky podle ročního období, hodinám rovným o stálé délce — stroj totiž ' +
+      'přirozeně odměřuje stejně dlouhé hodiny a mění tak vnímání času v celé Evropě.',
+    clanek: 'mereni-casu',
+    slovnik: 'hodiny-planetni',
+    bibKey: 'knesplOdHodinNerovnych2021',
+    zdroj: 'Knespl 2021 — Od hodin nerovných k hodinám rovným',
+  },
+  {
     id: 'strasbourg-orloj-1',
     rok: 1352,
     rokText: '1352–1354',
