@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-25T04:37:27.569Z",
+  "generatedAt": "2026-05-25T04:39:47.625Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 157,
     "hodinari": 165,
     "hodinariTs": 165,
-    "soupis": 441
+    "soupis": 440
   },
-  "count": 1697,
+  "count": 1694,
   "words": [
     "Abraham",
     "Accutron",
@@ -522,7 +522,6 @@
     "Ing",
     "institut",
     "Institut",
-    "Interiérový",
     "invar",
     "Iohannes",
     "isochronismus",
@@ -910,7 +909,6 @@
     "Mureck",
     "muzejní",
     "muzeum",
-    "Muzeum",
     "Myšák",
     "Mýto",
     "Načeradec",
@@ -1078,7 +1076,6 @@
     "planetárium",
     "planetni",
     "planetní",
-    "Planičky",
     "plaský",
     "Plasy",
     "Plný",
