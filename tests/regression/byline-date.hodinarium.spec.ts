@@ -17,11 +17,17 @@ import { test, expect } from 'playwright/test';
 // V normálním Chrome stránka renderuje bez chyb (byline OK, 7 imgs).
 // Asi OOM v headless renderer s large JPEG paletou. Coverage byline logiky
 // pro virtualni-muzeum kategorii pokryje jiný článek po doplnění.
+// Pozn. 2026-05-25: /sbirka/* články se postupně slučují do sbírkových
+// karet (/sbirka/karta/inv-*), které mají jiný layout BEZ .article-byline.
+// Proto SAMPLES míří jen na URL renderující článkový layout s bylinem:
+//   - /sbirka/slunecni-filler → přesunuto na /virtualni-muzeum/slunecni-filler
+//   - /sbirka/brillie → sloučeno do karty inv-P104-brillie (bez bylinu),
+//     nahrazeno /konstrukce/bulle pro pokrytí kategorie konstrukce.
 const SAMPLES = [
   '/projekty/kappa',
   '/virtualni-muzeum/zidovske',
-  '/sbirka/slunecni-filler',
-  '/sbirka/brillie',
+  '/virtualni-muzeum/slunecni-filler',
+  '/konstrukce/bulle',
 ];
 
 for (const url of SAMPLES) {
