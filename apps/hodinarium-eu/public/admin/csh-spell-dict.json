@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-25T13:28:03.584Z",
+  "generatedAt": "2026-05-25T13:32:00.603Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 157,
