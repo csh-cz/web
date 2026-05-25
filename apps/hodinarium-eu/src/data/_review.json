@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T15:10:00.118Z",
+  "generatedAt": "2026-05-25T15:17:35.093Z",
   "summary": {
     "kartyTotal": 318,
     "kartyNoTyp": 245,
@@ -10,13 +10,13 @@
     "clankyNoTldr": 2,
     "clankyShort": 60,
     "clankyLegacyLinks": 1,
-    "hodinariTotal": 168,
-    "hodinariShort": 122,
-    "hodinariNoPortret": 147,
+    "hodinariTotal": 169,
+    "hodinariShort": 123,
+    "hodinariNoPortret": 148,
     "soupisTotal": 441,
     "stubsKarty": 0,
     "stubsClanky": 0,
-    "stubsHodinari": 39,
+    "stubsHodinari": 40,
     "stubsSoupis": 8,
     "kronikaYears": [
       2009,
@@ -6001,6 +6001,12 @@
         "wordCount": 1
       },
       {
+        "slug": "f-x-schnaider",
+        "title": "F. X. Schnaider",
+        "editUrl": "/admin/#/collections/hodinari/entries/f-x-schnaider",
+        "wordCount": 1
+      },
+      {
         "slug": "ferdinand-diepold",
         "title": "Ferdinand Diepold",
         "editUrl": "/admin/#/collections/hodinari/entries/ferdinand-diepold",
@@ -6728,6 +6734,11 @@
         "editUrl": "/admin/#/collections/hodinari/entries/eureka"
       },
       {
+        "slug": "f-x-schnaider",
+        "title": "F. X. Schnaider",
+        "editUrl": "/admin/#/collections/hodinari/entries/f-x-schnaider"
+      },
+      {
         "slug": "ferdinand-diepold",
         "title": "Ferdinand Diepold",
         "editUrl": "/admin/#/collections/hodinari/entries/ferdinand-diepold"
@@ -7395,6 +7406,11 @@
         "slug": "eureka",
         "title": "Eureka Clock Co. (Sir John Bennett)",
         "editUrl": "/admin/#/collections/hodinari/entries/eureka"
+      },
+      {
+        "slug": "f-x-schnaider",
+        "title": "F. X. Schnaider",
+        "editUrl": "/admin/#/collections/hodinari/entries/f-x-schnaider"
       },
       {
         "slug": "frantisek-krivanek",
