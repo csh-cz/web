@@ -2554,6 +2554,19 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: [],
     era: '19stol',
   },
+  {
+    slug: 'f-x-schnaider',
+    jmeno: 'F. X. Schnaider',
+    aliasy: ['F. X. Schnaider', 'F. X. Schneider'],
+    typ: 'osoba',
+    obdobi: 'akt. 2. polovina 19. století',
+    mesto: null,
+    zeme: 'CZ',
+    shrnuti:
+      'Hodinář 2. poloviny 19. století; Skála (2004) mu předběžně připisuje původní stroj kostela v Dublovicích (1878), s pozdějším zásahem dílny L. Hainze. Atribuce vyžaduje ověření in situ.',
+    relatedSlugs: [],
+    era: '19stol',
+  },
 ];
 
 export const hodinariBySlug = new Map(hodinari.map((h) => [h.slug, h]));

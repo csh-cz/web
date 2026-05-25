@@ -175,6 +175,11 @@
         "1836-blovice-radnice-wollmann"
       ]
     },
+    "mannhardt": {
+      "soupis": [
+        "1864-mikulasovice-svaty-mikulas-mannhardt"
+      ]
+    },
     "jan-janata": {
       "soupis": [
         "1865-kolin-skola-janata",
@@ -364,6 +369,16 @@
         "1883-zdetin-prokes-josef"
       ]
     },
+    "johann-lissner": {
+      "soupis": [
+        "1881-mikulasovice-skola-lissner"
+      ]
+    },
+    "julius-hiemann": {
+      "soupis": [
+        "1884-decin-podmokly-hiemann"
+      ]
+    },
     "jan-mares": {
       "soupis": [
         "1886-slovec-skala-2004",
@@ -420,6 +435,12 @@
         "nedatovano-zibohlavy-skala-2004"
       ]
     },
+    "schauer": {
+      "soupis": [
+        "1920-roztez-schauer",
+        "nedatovano-tynec-nad-labem-skala-2004"
+      ]
+    },
     "jindrich-grubsky": {
       "soupis": [
         "1930-umyslovice-skala-2004",
@@ -436,6 +457,17 @@
     "jan-hersht": {
       "soupis": [
         "nedatovano-chleby-skala-2004"
+      ]
+    },
+    "f-x-schnaider": {
+      "soupis": [
+        "nedatovano-dublovice-skala-2004"
+      ]
+    },
+    "michael-christ": {
+      "soupis": [
+        "nedatovano-horni-prysk-petr-pavel-christ",
+        "skala-realizace-naceradec"
       ]
     },
     "heinrich-sigmund": {
