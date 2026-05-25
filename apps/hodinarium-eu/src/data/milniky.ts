@@ -336,6 +336,22 @@ export const milniky: Milnik[] = [
     zoteroKey: 'RHHYLVK9',
   },
   {
+    id: 'wallingford-1330',
+    rok: 1330,
+    rokText: 'kolem 1330',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'osobnost',
+    titulek: 'Richard z Wallingfordu',
+    popis:
+      'Opat kláštera v St Albans navrhl kolem roku 1330 jeden z nejsložitějších astronomických orlojů ' +
+      'středověku — s astrolábovým číselníkem, ukazatelem mořského přílivu a vlastním krokem — a popsal ' +
+      'jej v traktátu Tractatus Horologii Astronomici.',
+    slovnik: 'orloj',
+    bibKey: 'northGodsClockmakerRichard2005',
+    zdroj: 'North 2005 — God’s Clockmaker: Richard of Wallingford and the Invention of Time',
+  },
+  {
     id: 'rovne-hodiny',
     rok: 1350,
     rokText: '14. století',
