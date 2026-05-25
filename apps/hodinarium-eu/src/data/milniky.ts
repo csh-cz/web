@@ -432,7 +432,7 @@ export const milniky: Milnik[] = [
     titulek: 'Hodináři na Vyšehradě',
     popis:
       'Spor Johanna Tosta z roku 1379 dokládá ranou přítomnost hodinářského řemesla v pražské aglomeraci.',
-    zdroj: 'Vyšehrad — městské knihy (rkp.)',
+    zdroj: 'Tadra 1896 — Soudní akta konsistoře pražské III, s. 343',
     zoteroKey: 'CGCLGE2L',
   },
   {
@@ -447,7 +447,7 @@ export const milniky: Milnik[] = [
       'Listina z roku 1387 dokládá městský orloj v Českých Budějovicích — nejstarší doklad měření ' +
       'času v jižních Čechách.',
     slovnik: 'orloj',
-    zdroj: 'Listina, 1387 (Nejstarší hodiny v českých zemích)',
+    zdroj: 'Köpl 1901 — Urkundenbuch der Stadt Budweis I, s. 235',
     zoteroKey: 'CCQDVM86',
   },
   {
@@ -476,7 +476,7 @@ export const milniky: Milnik[] = [
       'K roku 1397 se ve Znojmě připomíná orlojník (orloysta) Hanuš — raný doklad hodinářské péče ' +
       'o městský orloj na jihu Moravy.',
     slovnik: 'orlojnik',
-    zdroj: 'Archivní zmínka (orloysta Hanuš, 1397)',
+    zdroj: 'Polesný 1928 — Rejstřík r. 1397 města Znojma',
     zoteroKey: 'NBBB3L6Q',
   },
   {
@@ -491,7 +491,7 @@ export const milniky: Milnik[] = [
       'K roku 1397 jsou doloženy hodiny v hradní kapli na Lipnici — vzácný doklad hodin mimo ' +
       'městské prostředí.',
     slovnik: 'orloj',
-    zdroj: 'Záznam o hodinách na hradě Lipnici (1397)',
+    zdroj: 'Borový–Podlaha 1875 — Libri erectionum, s. 12',
     zoteroKey: 'YGLJAWGR',
   },
   {
@@ -523,7 +523,7 @@ export const milniky: Milnik[] = [
     popis:
       'Notář Ondřej Czlewinger ve své závěti z roku 1420 pamatuje na orloj u kostela sv. Kříže v Jihlavě.',
     slovnik: 'orloj',
-    zdroj: 'Závěť notáře Czlewingera, 1420',
+    zdroj: 'Neumann 1930 — Nové prameny k dějinám husitství na Moravě, s. 213',
     zoteroKey: 'B83MDE9K',
   },
   {
