@@ -9,6 +9,7 @@ import catalog from '../../data/catalog.json';
 import { clanekHref } from '../../data/url-helpers';
 import { tinyMarkdown } from '../../utils/tinyMarkdown';
 import { cdnUrl } from '../../utils/cdnImage';
+import imageSizes from '../../data/image-sizes.json';
 import { formatAuthor } from '../../utils/formatAuthor';
 import { stavLabel } from '../../data/labels';
 import { extractWikiTitle } from '../../utils/referenceTypes';
@@ -138,6 +139,9 @@ const deathYear = periodMatch?.[2];
 const portretUrl = medailon?.data.portret
   ? new URL(medailon.data.portret, site).toString()
   : undefined;
+const portretDims = medailon?.data.portret
+  ? (imageSizes as Record<string, { w: number; h: number }>)[medailon.data.portret]
+  : undefined;
 
 const personJsonLd = hasType(hodinar, 'osoba')
   ? {
@@ -208,6 +212,26 @@ const personJsonLd = hasType(hodinar, 'osoba')
 
   <article class="hodinar-detail">
     <header class="hodinar-detail-header">
+      {medailon?.data.portret && (
+        <figure class="hodinar-portret">
+          <img
+            src={cdnUrl(medailon.data.portret)}
+            alt={`${hodinar.jmeno} — portrét`}
+            width={portretDims?.w}
+            height={portretDims?.h}
+            loading="lazy"
+            decoding="async"
+          />
+          {medailon.data.portretCredit && (
+            <figcaption class="hodinar-portret-credit">
+              {medailon.data.portretCredit}
+              {medailon.data.portretSource && (
+                <> · <a href={medailon.data.portretSource} target="_blank" rel="noopener">zdroj</a></>
+              )}
+            </figcaption>
+          )}
+        </figure>
+      )}
       <p class="eyebrow mb-3">{hasType(hodinar, 'osoba') ? 'Hodinář' : 'Hodinářská firma'}</p>
       <h1 class="hodinar-detail-title">{hodinar.jmeno}</h1>
 
@@ -478,6 +502,26 @@ const personJsonLd = hasType(hodinar, 'osoba')
   .hodinar-zeme {
     color: var(--color-text-muted);
     font-size: 0.9em;
+  }
+  .hodinar-portret {
+    float: right;
+    width: clamp(120px, 28%, 200px);
+    margin: 0 0 1rem 1.5rem;
+  }
+  .hodinar-portret img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2px;
+  }
+  .hodinar-portret-credit {
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    line-height: 1.35;
+    color: var(--color-text-muted);
+  }
+  @media (max-width: 600px) {
+    .hodinar-portret { float: none; width: 60%; margin: 0 auto 1.5rem; }
   }
 
   .lead {
