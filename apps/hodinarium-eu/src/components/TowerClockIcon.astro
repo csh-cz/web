@@ -36,8 +36,10 @@ const { class: cls } = Astro.props;
     top: 0.16em;
     left: 50%;
     transform: translateX(-50%);
-    /* Ciferník v barvě pozadí → zapuštěný do štítu budovy,
-       ručičky (negativní prostor fa-solid) ukazují barvu budovy. */
-    color: var(--color-bg-elevated);
+    /* Ciferník v barvě pozadí → zapuštěný do štítu budovy, vyříznuté
+       fa-solid ručičky ukazují barvu budovy. Default = pozadí dlaždice;
+       v jiném kontextu (např. logo v hlavičce) lze přepsat přes
+       --tower-clock-dial-bg. */
+    color: var(--tower-clock-dial-bg, var(--color-bg-elevated));
   }
 </style>

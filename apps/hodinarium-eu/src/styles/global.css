@@ -323,6 +323,15 @@ summary::-webkit-details-marker { display: none; }
   background: rgba(20, 16, 12, 0.94);
   backdrop-filter: blur(8px);
 }
+/* Logo mark (TowerClockIcon) vlevo od „Hodinárium" v hlavičce.
+   Ciferník obarven na pozadí hlavičky (--tower-clock-dial-bg), aby
+   „prosvítal" landmarkem; default = tmavé pozadí hlavičky, light viz níže. */
+.brand-mark {
+  font-size: 1.5em;
+  vertical-align: -0.28em;
+  margin-right: 0.35em;
+  --tower-clock-dial-bg: #14100c;
+}
 
 .site-footer {
   border-top: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
@@ -1432,6 +1441,10 @@ body[data-editor-mode] .fab-stack {
   .site-header {
     background: rgba(255, 250, 240, 0.94);
     border-bottom-color: color-mix(in srgb, var(--color-brass) 35%, transparent);
+  }
+  /* Ciferník loga musí v light módu prosvítat světlým pozadím hlavičky. */
+  .brand-mark {
+    --tower-clock-dial-bg: #fffaf0;
   }
   .site-footer {
     background: var(--color-bg-deep);
