@@ -81,24 +81,6 @@ export function categoryLabel(
 }
 
 /**
- * Pevné labely pro `casova-osa.astro` — tyhle kategorie pocházejí
- * z `data/milniky.ts` a patří jen do milníkové timeline (ne do
- * obsahových kategorií). Necháváme je oddělené pro klaritu.
- */
-const KATEGORIE_LABELS_MILNIKY: Record<string, string> = {
-  orloj: 'Pražský orloj',
-  vez: 'Věžní hodiny',
-  objev: 'Bádání',
-  sbirka: 'Sbírka',
-  projekty: 'Projekty',
-  spolek: 'Spolek',
-};
-
-export function milnikLabel(kategorie: string): string {
-  return KATEGORIE_LABELS_MILNIKY[kategorie] ?? kategorie;
-}
-
-/**
  * Labely typů kronikových záznamů — z `kronika` collection enum.
  */
 const KRONIKA_TYP_LABELS: Record<string, string> = {
