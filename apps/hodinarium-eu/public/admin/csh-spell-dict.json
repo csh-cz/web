@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-24T23:44:32.037Z",
+  "generatedAt": "2026-05-25T02:45:14.581Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 157,
@@ -8,7 +8,7 @@
     "hodinariTs": 165,
     "soupis": 442
   },
-  "count": 1701,
+  "count": 1696,
   "words": [
     "Abraham",
     "Accutron",
@@ -56,7 +56,6 @@
     "Balkeovi",
     "Banát",
     "Bärn",
-    "barokní",
     "Bart",
     "Bartoloměj",
     "Bartoloměje",
@@ -478,7 +477,6 @@
     "hruden",
     "Hruška",
     "Hrušov",
-    "hřebeni",
     "hřídel",
     "hřídelík",
     "husitské",
@@ -698,7 +696,6 @@
     "krokové",
     "Krušovice",
     "Kruty",
-    "křídla",
     "křídlem",
     "Křinec",
     "Křivánek",
@@ -734,7 +731,6 @@
     "Lans",
     "Lansg",
     "Lány",
-    "Laudonův",
     "Lázně",
     "Ledeč",
     "Legner",
@@ -1661,7 +1657,6 @@
     "zaniklá",
     "Zaniklá",
     "zapadací",
-    "západního",
     "zařízení",
     "Zásmuky",
     "zatím",
