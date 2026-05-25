@@ -352,6 +352,24 @@ export const milniky: Milnik[] = [
     zdroj: 'North 2005 — God’s Clockmaker: Richard of Wallingford and the Invention of Time',
   },
   {
+    id: 'milan-1336',
+    rok: 1336,
+    rokText: '1336',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'monument',
+    ikona: 'bell',
+    titulek: 'Milánské bicí hodiny u San Gottardo',
+    popis:
+      'Kronikář Galvano Fiamma popsal roku 1336 u kostela San Gottardo v Miláně věžní hodiny, jejichž ' +
+      'velké kladivo odbíjelo na zvon 24× podle 24 rovných hodin dne i noci — nejstarší písemná zmínka ' +
+      'o veřejných bicích hodinách. Starší milánský bicí stroj „da maglio" u Sant’Eustorgia (1309) ještě ' +
+      'neměl ciferník.',
+    slovnik: 'bici-stroj',
+    bibKey: 'arnaldiOreItalianeOrigine2006',
+    zdroj: 'Arnaldi 2006 — Le ore italiane (I)',
+  },
+  {
     id: 'rovne-hodiny',
     rok: 1350,
     rokText: '14. století',
