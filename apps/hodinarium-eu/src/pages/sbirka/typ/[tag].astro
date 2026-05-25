@@ -17,10 +17,13 @@ export async function getStaticPaths() {
     (e) => e.data.category === 'sbirka' && e.data.podsekce === 'karta'
   );
   return typTiles
-    .map((tile) => ({
-      tile,
-      count: karty.filter((e) => (e.data.tags ?? []).includes(tile.tag)).length,
-    }))
+    .map((tile) => {
+      const tileTags = tile.matchTags ?? [tile.tag];
+      return {
+        tile,
+        count: karty.filter((e) => (e.data.tags ?? []).some((t) => tileTags.includes(t))).length,
+      };
+    })
     .filter((x) => x.count > 0)
     .map(({ tile }) => ({ params: { tag: tile.tag }, props: { tile } }));
 }
@@ -28,11 +31,14 @@ export async function getStaticPaths() {
 const { tile } = Astro.props as { tile: TypTile };
 
 const all = await getCollection('clanky');
+// Sloučené typy (Interiérové, Hodinky) matchují kterýkoli z matchTags;
+// běžné typy matchují svůj jediný tag.
+const tileTags = tile.matchTags ?? [tile.tag];
 const matching = all.filter(
   (e) =>
     e.data.category === 'sbirka' &&
     e.data.podsekce === 'karta' &&
-    (e.data.tags ?? []).includes(tile.tag)
+    (e.data.tags ?? []).some((t) => tileTags.includes(t))
 );
 const slugs = new Set(matching.map((e) => e.data.slug));
 
@@ -68,7 +74,9 @@ const exponatuWord = pocet === 1 ? 'exponát' : pocet < 5 ? 'exponáty' : 'expon
     <nav class="view-toggle mt-6" aria-label="Další zobrazení">
       <a href="/sbirka" class="view-toggle-btn">← Rozcestník sbírky</a>
       <a href="/sbirka/katalog" class="view-toggle-btn">Celý katalog</a>
-      <a href={`/tagy/${tile.tag}`} class="view-toggle-btn">Tag „{tile.tag}" napříč webem →</a>
+      {tileTags.map((tg) => (
+        <a href={`/tagy/${tg}`} class="view-toggle-btn">Tag „{tg}" napříč webem →</a>
+      ))}
     </nav>
   </header>
 

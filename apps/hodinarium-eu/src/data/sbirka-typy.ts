@@ -7,20 +7,25 @@
  * emoji glyphy zakázány.
  */
 export interface TypTile {
+  /** Route param pro /sbirka/typ/[tag] + výchozí tag karet. */
   tag: string;
   label: string;
   icon: string;
   popis: string;
   group: 'mech' | 'el' | 'spec';
+  /**
+   * Sloučené dlaždice: karty se matchují, pokud mají KTERÝKOLI z těchto
+   * tagů (granulární tagy karet zůstávají pro /tagy/). Když chybí, použije
+   * se `[tag]`. Např. „Interiérové" = ['nastenne','stolni','podlahove'].
+   */
+  matchTags?: string[];
 }
 
 export const typTiles: TypTile[] = [
   // Mechanické hodiny
   { tag: 'vezni',        label: 'Věžní a fasádní',     icon: 'fa-solid fa-landmark', popis: 'Velké stroje z věží kostelů, radnic, zámků a továren.',     group: 'mech' },
-  { tag: 'nastenne',     label: 'Nástěnné',            icon: 'fa-solid fa-clock',             popis: 'Švarcvaldky, comtoázky, regulátory a další nástěnky.',     group: 'mech' },
-  { tag: 'stolni',       label: 'Stolní',              icon: 'fa-solid fa-clock',             popis: 'Stolní, krbové a podlahové hodiny pro domácí prostředí.',   group: 'mech' },
-  { tag: 'kapesni',      label: 'Kapesní',             icon: 'fa-regular fa-clock',           popis: 'Kapesní hodinky a chronometry.',                            group: 'mech' },
-  { tag: 'naramkove',    label: 'Náramkové',           icon: 'fa-solid fa-stopwatch',         popis: 'Mechanické a kvarcové náramkovky.',                         group: 'mech' },
+  { tag: 'interierove',  label: 'Interiérové',         icon: 'fa-solid fa-clock',             popis: 'Nástěnné, stolní, krbové a podlahové hodiny pro domácí prostředí.', group: 'mech', matchTags: ['nastenne', 'stolni', 'podlahove'] },
+  { tag: 'hodinky',      label: 'Hodinky',             icon: 'fa-regular fa-clock',           popis: 'Kapesní a náramkové hodinky a chronometry.',                group: 'mech', matchTags: ['kapesni', 'naramkove'] },
   { tag: 'budik',        label: 'Budíky',              icon: 'fa-solid fa-bell',              popis: 'Mechanické a elektromechanické budíky.',                    group: 'mech' },
   { tag: 'decimalka',    label: 'Decimálky',           icon: 'fa-solid fa-table-cells',       popis: 'Decimální (dělení dne na 10 hodin) — vzácné.',              group: 'mech' },
   // Elektrické hodiny
