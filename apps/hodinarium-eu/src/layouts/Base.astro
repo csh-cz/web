@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import SearchModal from "../components/SearchModal.astro";
+import TowerClockIcon from "../components/TowerClockIcon.astro";
 import ReportIssueModal from "../components/ReportIssueModal.astro";
 import { SISTER_SPOLEK, SISTER_SPOLEK_LABEL } from "../data/sites";
 import { cdnUrl } from "../utils/cdnImage";
@@ -345,7 +346,7 @@ const orgJsonLd = isHome ? {
     <header class="site-header sticky top-0 z-20" role="banner">
       <nav class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between gap-4" aria-label="Hlavní navigace">
         <a href="/" class="text-xl text-[var(--color-brass-bright)] flex-shrink-0 italic nav-link" aria-label="Hodinárium — domů">
-          Hodinárium
+          <TowerClockIcon class="brand-mark" />Hodinárium
         </a>
 
         <ul class="hidden md:flex gap-5 text-sm items-center" style="letter-spacing: 0.05em;">
