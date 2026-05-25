@@ -1,6 +1,6 @@
 # veznihodiny.cz — referenční seznam realizací (Petr Skála)
 
-Archivní výtah z dnes nefunkčního webu **veznihodiny.cz** (atelier věžních hodin Petra Skály), získáno z Wayback Machine. Slouží jako podklad pro `restaurator` / `rokRestaurovani` / investora v soupisu věžních hodin.
+Výtah z webu **veznihodiny.cz** (atelier věžních hodin Petra Skály; web funguje přes **http://**, https servíruje placeholder). Podklad pro `restaurator` / `rokRestaurovani` / investora v soupisu věžních hodin.
 
 | Rok | Objekt | Investor / vlastník |
 |---|---|---|
@@ -47,7 +47,10 @@ Archivní výtah z dnes nefunkčního webu **veznihodiny.cz** (atelier věžníc
 | 2009 | Restaurování věžních hodin zámku Dobříš Ferdinand Londensperger 1791 | Správa zámku |
 | 2009 | Restaurování věžních hodin kostela sv. Jakuba st. v Cítolibech Bernhard Biswanger 1782 | Městys Cítoliby |
 | 2010 | Restaurování věžních hodin evangelického kostela ve Vanovicích | Farní sbor Českobratrské církve evangelické ve Vanovicích |
-| průběžně od roku 2009 | Opravy a údržba Staroměstského orloje |  |
+| průběžně od roku 2009 | Opravy a údržba Staroměstského orloje | Magistrát hl. m. Prahy |
 | 1919 | Restaurování interiérového orloje Fr. Planičky | Muzeum Ústí nad Orlicí |
 | 2010 | Restaurování hodin kostela v Roprachticích | Farnost Trutnov |
-| 1589 | Restaurování hodin katedrály sv. Víta | Správa Pražského hradu |
+| 2014 | Restaurování hodin katedrály sv. Víta z roku 1589 | Správa Pražského hradu |
+| 2019 | Restaurování barokních hodin zámku Nižbor | Obec Nižbor |
+| 2019 | Restaurování hodin kostela sv. Jiljí v Markvarticích | Obec Markvartice |
+| 2018 | Kompletní zrestaurování Staroměstského orloje z roku 1410 | Magistrát hl. m. Prahy |
