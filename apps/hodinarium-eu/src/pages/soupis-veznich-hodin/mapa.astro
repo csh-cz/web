@@ -101,6 +101,22 @@ const withCoords = points.length;
         znicene: '#b04848',
         neznamy: '#999',
       };
+      // Lidské popisky (zrcadlí soupis-veznich-hodin/[slug].astro + legendu mapy).
+      const stavLabels = {
+        in_situ: 'in situ',
+        preneseno: 'přeneseno',
+        ztracene: 'ztracené',
+        znicene: 'zničené',
+        neznamy: 'neověřeno',
+      };
+      const chodLabels = {
+        v_chodu: 'v chodu',
+        nefunkcni: 'nefunkční',
+        restaurovano: 'restaurováno',
+        pred_restaurovanim: 'před restaurováním',
+        znicene: 'zničené',
+        neznamy: 'neznámý',
+      };
 
       const markers = [];
       for (const p of points) {
@@ -118,8 +134,8 @@ const withCoords = points.length;
           <strong>${title}</strong><br>
           <em>${p.rok}</em>
           ${p.hodinar ? '· ' + p.hodinar : ''}<br>
-          <span style="color:${color}">● ${p.stav}</span>
-          ${p.chod ? ' · ' + p.chod : ''}
+          <span style="color:${color}">● ${stavLabels[p.stav] || p.stav}</span>
+          ${p.chod ? ' · ' + (chodLabels[p.chod] || p.chod) : ''}
           <br><a href="/soupis-veznich-hodin/${p.slug}/">→ detail</a>
         `;
         m.bindPopup(html);
