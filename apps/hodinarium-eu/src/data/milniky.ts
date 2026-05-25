@@ -52,7 +52,13 @@ export interface Milnik {
   externalUrl?: string;
 
   // ── Pramen ──
-  /** Krátká citace zobrazená u milníku („Autor rok — Titul"). */
+  /**
+   * Better BibTeX citation-key v references.json → render ISO 690 přes
+   * citeproc (utils/cite.ts). Když je nastaven a nalezen, Časová osa
+   * zobrazí formátovanou citaci; jinak fallback na `zdroj`.
+   */
+  bibKey?: string;
+  /** Krátká citace zobrazená u milníku, fallback když chybí bibKey („Autor rok — Titul"). */
   zdroj?: string;
   /** Lokální Zotero item key (editorský, nerenderuje se). */
   zoteroKey?: string;
@@ -150,6 +156,7 @@ export const milniky: Milnik[] = [
       'účetní měření času pro evidenci práce.',
     slovnik: 'slunecni-hodiny',
     zdroj: 'Englund 1988 — Administrative Timekeeping in Ancient Mesopotamia',
+    bibKey: 'englundAdministrativeTimekeepingAncient1988',
     zoteroKey: 'TTJWSQDI',
   },
   {
@@ -166,6 +173,7 @@ export const milniky: Milnik[] = [
       'slunečním hodinám s jistou provenancí.',
     slovnik: 'gnomon',
     zdroj: 'Bickel & Gautschy 2014 — Eine ramessidische Sonnenuhr im Tal der Könige',
+    bibKey: 'bickelRamessidischeSonnenuhrIm2014',
     zoteroKey: 'YEU3EC5L',
   },
   {
@@ -182,6 +190,7 @@ export const milniky: Milnik[] = [
       'a šíří se celým Předním východem.',
     clanek: 'vodni',
     zdroj: 'Britten 1922 — Old Clocks and Watches & Their Makers',
+    bibKey: 'brittenOldClocksWatches1922',
     zoteroKey: 'JHML26AN',
   },
   {
@@ -197,6 +206,7 @@ export const milniky: Milnik[] = [
       'ukazatelem hodin — jedno z prvních zpětnovazebních řízení v dějinách.',
     clanek: 'vodni',
     zdroj: 'Lepschy, Mian & Viaro 1992 — Feedback Control in Ancient Water and Mechanical Clocks',
+    bibKey: 'lepschyFeedbackControlAncient1992',
     zoteroKey: 'YVSYLCP9',
   },
   {
@@ -212,6 +222,7 @@ export const milniky: Milnik[] = [
       'Řecký bronzový soukolový kalkulátor modeloval pohyby Slunce, Měsíce a planet — nejstarší ' +
       'dochované složité soukolí na světě.',
     zdroj: 'Freeth et al. 2021 — A Model of the Cosmos in the Antikythera Mechanism',
+    bibKey: 'freethModelCosmosAncient2021',
     zoteroKey: 'PVZW9GU5',
   },
   {
@@ -226,6 +237,7 @@ export const milniky: Milnik[] = [
       'Vitruviem popsané anaforické vodní hodiny s otáčejícím se hvězdným kotoučem; dochované úlomky ' +
       'pocházejí ze Salcburku a z Grand ve Francii.',
     zdroj: "Auber 2014 — L'orologio anaforico di Vitruvio",
+    bibKey: 'auberLorologioAnaforicoDi2014',
     zoteroKey: '9HDFQYVI',
   },
 
@@ -242,6 +254,7 @@ export const milniky: Milnik[] = [
       'Tantrický mnich I-Sing sestrojil vodou poháněný regulační mechanismus — vzdálený předchůdce ' +
       'kroku — pohánějící armilární modely oblohy.',
     zdroj: 'Asprey 1973 — The Clockwork of the Heavens',
+    bibKey: 'aspreyClockworkHeavens1973',
     zoteroKey: 'NN4LFV9R',
   },
   {
@@ -257,6 +270,7 @@ export const milniky: Milnik[] = [
       'Monumentální andaluské vodní hodiny dokládají vrchol islámské hydromechaniky v maurském Španělsku.',
     clanek: 'vodni',
     zdroj: 'Hill 1994 — The Toledo Water-Clocks of c. 1075',
+    bibKey: 'hill+ToledoWaterClocks10751994',
     zoteroKey: '8VR82XEM',
   },
   {
@@ -271,6 +285,7 @@ export const milniky: Milnik[] = [
       'Čínská vodou poháněná hvězdářská věž s řetězovým pohonem a článkovým regulátorem — vrchol ' +
       'předmechanické horologie.',
     zdroj: 'Asprey 1973 — The Clockwork of the Heavens',
+    bibKey: 'aspreyClockworkHeavens1973',
     zoteroKey: 'NN4LFV9R',
   },
   {
@@ -285,6 +300,7 @@ export const milniky: Milnik[] = [
       'al-Džazarí sepsal ilustrovaný traktát o vodních hodinách a automatech (sloní hodiny), který ' +
       'předal antickou mechanickou tradici Evropě.',
     zdroj: 'Snyder 2021 — al-Jazari, The Book of Knowledge of Ingenious Mechanical Devices',
+    bibKey: 'snyderKingsTreasuryCould2021',
     zoteroKey: 'NLQ5CVJL',
   },
   {
@@ -300,6 +316,7 @@ export const milniky: Milnik[] = [
       'klepsydry a dala vzniknout celé evropské hodinařině.',
     krok: 'vretenovy-krok',
     zdroj: 'Blumenthal & Nosonovsky 2020 — Friction and Dynamics of Verge and Foliot',
+    bibKey: 'blumenthalFrictionDynamicsVerge2020',
     zoteroKey: 'GFCIRZL3',
   },
   {
@@ -315,6 +332,7 @@ export const milniky: Milnik[] = [
       'počátek éry věžního hodinářství.',
     krok: 'vretenovy-krok',
     zdroj: 'Nosonovsky 2024 — Early Renaissance Concepts of Time and the Invention of Mechanical Clocks',
+    bibKey: 'nosonovskyEarlyRenaissanceConcepts2024',
     zoteroKey: 'RHHYLVK9',
   },
   {
@@ -330,6 +348,7 @@ export const milniky: Milnik[] = [
       'astrolábovým ciferníkem a mechanickým kohoutem.',
     slovnik: 'orloj',
     zdroj: 'Oestmann 2020 — The Astronomical Clock of Strasbourg Cathedral',
+    bibKey: 'oestmannAstronomicalClockStrasbourg2020',
     zoteroKey: 'KPB743UX',
   },
   {
@@ -345,6 +364,7 @@ export const milniky: Milnik[] = [
       'Padovský lékař Dondi dokončil planetární astrarium popsané v traktátu Tractatus astrarii — ' +
       'nejsložitější soukolí své doby.',
     zdroj: 'Bedini & Maddison 1966 — Mechanical Universe: The Astrarium of Giovanni de’ Dondi',
+    bibKey: 'bediniMechanicalUniverseAstrarium1966',
     zoteroKey: 'H868QUKS',
   },
   {
@@ -360,6 +380,7 @@ export const milniky: Milnik[] = [
       'strojům Evropy.',
     krok: 'vretenovy-krok',
     zdroj: 'McKay 1999 — The Turret Clock Keeper’s Handbook',
+    bibKey: 'mckayTurretClockKeepers1999',
     zoteroKey: '6CWV6YDW',
   },
   {
@@ -374,6 +395,7 @@ export const milniky: Milnik[] = [
       'Nahrazení závaží nataženou pružinou umožnilo zmenšit hodinový stroj a otevřelo cestu k ' +
       'přenosným hodinám.',
     zdroj: 'Bray 2001 — Making Clocks',
+    bibKey: 'brayMakingClocks2001',
     zoteroKey: 'H4LB9KDX',
   },
 
@@ -391,6 +413,7 @@ export const milniky: Milnik[] = [
       'dosud doložená zmínka o orloji v zemích Koruny české.',
     slovnik: 'orloj',
     zdroj: 'Šigut 1961 — K dějinám opavského městského orloje',
+    bibKey: 'sigutDejinamOpavskehoMestskeho1961',
     zoteroKey: 'MY7TMGR2',
   },
   {
@@ -406,6 +429,7 @@ export const milniky: Milnik[] = [
       'už v provozu.',
     slovnik: 'orloj',
     zdroj: 'Leminger 1926 — Umělecké řemeslo v Kutné Hoře',
+    bibKey: 'lemingerUmeleckeRemesloKutne1926',
     zoteroKey: 'L5R5XBM3',
   },
   {
@@ -420,6 +444,7 @@ export const milniky: Milnik[] = [
       'Zhořelecké radní účty z července 1377 zmiňují „domus Orleyste" — jedna z nejstarších ' +
       'dochovaných zmínek o věžních hodinách v zemích Koruny české. Roku 1381 následuje zápis o jejich opravě.',
     zdroj: 'Görlitzer Ratsrechnungen (ed. Jecht 1910)',
+    bibKey: 'richardjechtCodexDiplomaticusLusatiae1910',
     zoteroKey: 'SC8D299S',
   },
   {
@@ -434,6 +459,7 @@ export const milniky: Milnik[] = [
       'Soudní akt pražské konsistoře z roku 1379 zachycuje spor hodináře (orlogisty) Martina s kanovníkem ' +
       'Janem Tostem — nejstarší jmenovitě doložený pražský hodinář.',
     zdroj: 'Tadra 1896 — Soudní akta konsistoře pražské III, s. 343',
+    bibKey: 'tadraSoudniAktaKonsistore',
     zoteroKey: 'CGCLGE2L',
   },
   {
@@ -463,6 +489,7 @@ export const milniky: Milnik[] = [
       'K roku 1392 se v Olomouci uvádí „rector orologii Mikuláš" — raný správce městských hodin na Moravě.',
     slovnik: 'orlojnik',
     zdroj: 'Drábek 1957 — Olomoucký orloj',
+    bibKey: 'drabekOlomouckyOrloj1957',
     zoteroKey: 'WXVBZHNE',
   },
   {
@@ -478,6 +505,7 @@ export const milniky: Milnik[] = [
       'o městský orloj na jihu Moravy.',
     slovnik: 'orlojnik',
     zdroj: 'Polesný 1928 — Rejstřík r. 1397 města Znojma',
+    bibKey: 'polesnyRejstrik1397Obnoveny1928',
     zoteroKey: 'NBBB3L6Q',
   },
   {
@@ -493,6 +521,7 @@ export const milniky: Milnik[] = [
       'městské prostředí.',
     slovnik: 'orloj',
     zdroj: 'Borový–Podlaha 1875 — Libri erectionum, s. 12',
+    bibKey: 'borovyLibriErectionumArchidioecesis1875',
     zoteroKey: 'YGLJAWGR',
   },
   {
@@ -511,6 +540,7 @@ export const milniky: Milnik[] = [
     slovnik: 'orloj',
     externalUrl: 'https://orloj.eu',
     zdroj: 'Skála 2016 — Nový pohled na hypotézu o účasti Jana Šindela',
+    bibKey: 'skalaNovyPohledNa2016',
     zoteroKey: 'XRH6Z8SX',
   },
   {
@@ -540,6 +570,7 @@ export const milniky: Milnik[] = [
       's jeho jménem je spjata pověst o oslepení tvůrce.',
     externalUrl: 'https://orloj.eu',
     zdroj: 'Šíma 2009 — Za tajemstvím pražského orloje',
+    bibKey: 'simaZaTajemstvimPrazskeho',
     zoteroKey: 'PQCDTXFW',
   },
 
@@ -568,6 +599,7 @@ export const milniky: Milnik[] = [
     popis:
       'Norimberský zámečník Henlein sestrojil rané přenosné hodinky poháněné pružinou — „Nürnberger Ei".',
     zdroj: 'Dietzschold 1905 — Die Hemmungen der Uhren',
+    bibKey: 'dietzscholdHemmungenUhrenIhre1905',
     zoteroKey: '3BFA92ND',
   },
   {
@@ -583,6 +615,7 @@ export const milniky: Milnik[] = [
       '16. století na radnici v Olomouci.',
     slovnik: 'orloj',
     zdroj: 'Drábek 1957 — Olomoucký orloj',
+    bibKey: 'drabekOlomouckyOrloj1957',
     zoteroKey: 'WXVBZHNE',
   },
   {
@@ -596,6 +629,7 @@ export const milniky: Milnik[] = [
     popis:
       'Datované sférické hodinky filozofa Filipa Melanchthona patří k nejstarším dochovaným přenosným hodinkám.',
     zdroj: 'Wellington Gahtan 2001 — Gott allein die Ehre: Melanchthon’s Watch of 1530',
+    bibKey: 'wellingtingahtanGOTTALLEINEHRE2001',
     zoteroKey: '983ZF928',
   },
   {
@@ -626,6 +660,7 @@ export const milniky: Milnik[] = [
       'platný celosvětový časový systém.',
     clanek: 'kalendar-rimsky',
     zdroj: 'Wallis & Bede 1999 — Bede, The Reckoning of Time',
+    bibKey: 'wallisBedeReckoningTime1999',
     zoteroKey: 'CNJ7TTKL',
   },
   {
@@ -640,6 +675,7 @@ export const milniky: Milnik[] = [
       'V prosinci 1604 byl Jošt Bürgi jmenován dvorním hodinářem Rudolfa II.; v Praze pracoval u ' +
       'alchymistické laboratoře, vynálezce křížového kroku a první minutové ručky.',
     zdroj: 'Clark 2015 — Jost Bürgi’s Progreß Tabulen',
+    bibKey: 'clarkJostBurgisAritmetische2015',
     zoteroKey: 'SUF28IY2',
   },
   {
@@ -655,6 +691,7 @@ export const milniky: Milnik[] = [
       'jako regulátoru hodin.',
     slovnik: 'kyvadlo',
     zdroj: 'Newton 2004 — Galileo’s Pendulum',
+    bibKey: 'newtonGalileosPendulumRhythm2004',
     zoteroKey: 'JD34U7YN',
   },
   {
@@ -670,6 +707,7 @@ export const milniky: Milnik[] = [
       'Pragensis horologium hoc renovatum" zdobil průčelí až do roku 1787.',
     externalUrl: 'https://orloj.eu',
     zdroj: 'Rosický 1923 — Staroměstský Orloj v Praze',
+    bibKey: 'rosickyStaromestskyOrlojPraze1923',
     zoteroKey: '7MXHCXS6',
   },
   {
@@ -686,6 +724,7 @@ export const milniky: Milnik[] = [
     hodinar: 'christiaan-huygens',
     slovnik: 'kyvadlo',
     zdroj: 'Emmerson 2015 — Christiaan Huygens, the Pendulum and the Cycloid',
+    bibKey: 'emmersonThingsAreSeldom2015',
     zoteroKey: 'F684HW28',
   },
   {
@@ -702,6 +741,7 @@ export const milniky: Milnik[] = [
     krok: 'kotvovy-krok',
     slovnik: 'kotva',
     zdroj: 'Stoimenov et al. 2012 — Evolution of Clock Escapement Mechanisms',
+    bibKey: 'stoimenovEvolutionClockEscapement2012',
     zoteroKey: '85N3NAW6',
   },
   {
@@ -718,6 +758,7 @@ export const milniky: Milnik[] = [
     hodinar: 'christiaan-huygens',
     slovnik: 'vlasek',
     zdroj: 'Du & Xie 2013 — The Mechanics of Mechanical Watches and Clocks',
+    bibKey: 'duMechanicsMechanicalWatches2013',
     zoteroKey: 'HGJDZDL6',
   },
   {
@@ -734,6 +775,7 @@ export const milniky: Milnik[] = [
     krok: 'grahamuv-krok',
     hodinar: 'george-graham',
     zdroj: 'Frank 2013 — The Evolution of Tower Clock Movements',
+    bibKey: 'frankEvolutionTowerClock2013',
     zoteroKey: 'HLAQ5V8P',
   },
   {
@@ -749,6 +791,7 @@ export const milniky: Milnik[] = [
       'Pražští hodináři získali vlastní samostatný cech až roku 1705, po desetiletích sporů uvnitř ' +
       'smíšených řemeslných organizací.',
     zdroj: 'Schmidt — k dějinám pražského hodinářského cechu',
+    bibKey: 'schmidtEnglischenPendeluhrenZwar1856a',
     zoteroKey: '87HPR85L',
   },
   {
@@ -763,6 +806,7 @@ export const milniky: Milnik[] = [
       'Andreas Gabriel Teicher vydal roku 1735 v němčině podrobný popis a návod k řízení staroměstského orloje.',
     externalUrl: 'https://orloj.eu',
     zdroj: 'Teicher 1735 — Beschreibung des Kunst-reichen Uhr-Wercks',
+    bibKey: 'andreagabrielteicherBeschreibungKunstreichenUhrWercks1735',
     zoteroKey: 'T9HYRTRH',
   },
 
@@ -782,6 +826,7 @@ export const milniky: Milnik[] = [
     hodinar: 'john-harrison',
     slovnik: 'chronometr',
     zdroj: 'Bartky 2000 — Selling the True Time',
+    bibKey: 'bartkySellingTrueTime2000',
     zoteroKey: 'WLBGVUN7',
   },
   {
@@ -797,6 +842,7 @@ export const milniky: Milnik[] = [
       'roku 1791 následovaly další úpravy, stroj však záhy znovu utichl.',
     externalUrl: 'https://orloj.eu',
     zdroj: 'Erben 2016 — Zpráva o starobylém orloji',
+    bibKey: 'erbenZpravaStarobylemOrloji2016',
     zoteroKey: '5EPYPG78',
   },
   {
@@ -811,6 +857,7 @@ export const milniky: Milnik[] = [
       'Roku 1833 vznikla v Praze Jednota ku povzbuzení průmyslu, která podporovala rozvoj řemesel ' +
       'včetně hodinářství a později i návrhy hodinářských škol.',
     zdroj: 'Maroszová 2023 — Jednota ku povzbuzení průmyslu v Čechách',
+    bibKey: 'maroszovaJednotaKuPovzbuzeni2023',
     zoteroKey: 'VJQVX3DT',
   },
   {
@@ -827,6 +874,7 @@ export const milniky: Milnik[] = [
     clanek: 'big-ben-denisonuv-gravitacni-krok',
     krok: 'denisonuv-gravitacni-krok',
     zdroj: 'McKay 2010 — Big Ben: The Great Clock and the Bells at Westminster',
+    bibKey: 'mckayBigBenGreat2010',
     zoteroKey: 'ICQ73E3Q',
   },
   {
@@ -843,6 +891,7 @@ export const milniky: Milnik[] = [
     hodinar: 'romuald-bozek',
     externalUrl: 'https://orloj.eu',
     zdroj: 'Černá 2012 — Přehled výzkumu k obnově orloje 1864–1865',
+    bibKey: 'cernaPrehledVyzkumuObnove2012a',
     zoteroKey: 'TDWEVEBB',
   },
   {
@@ -858,6 +907,7 @@ export const milniky: Milnik[] = [
       'Roku 1874 podal Kalluš Průmyslové jednotě návrh na zřízení odborné hodinářské školy — raný ' +
       'impuls k institucionalizaci výuky hodinářů v Čechách.',
     zdroj: 'Kalluš 1874 — Dopis Průmyslové jednotě o zřízení hodinářské školy',
+    bibKey: 'kallusDopisPrumysloveJednote1874',
     zoteroKey: 'BDMW3GD4',
   },
   {
@@ -872,6 +922,7 @@ export const milniky: Milnik[] = [
       'O půlnoci 31. prosince 1882 byl orloj uveden do chodu s nově oživeným průvodem apoštolů a kohoutem.',
     externalUrl: 'https://orloj.eu',
     zdroj: 'Nedbal — Staroměstský orloj, apoštolové',
+    bibKey: 'nedbalStaromestskyOrlojApostolove',
     zoteroKey: 'Z82UFNH6',
   },
   {
@@ -888,6 +939,7 @@ export const milniky: Milnik[] = [
       'odborných" — odborná literatura pro vznikající hodinářské školství.',
     slovnik: 'krok',
     zdroj: 'Sušický 1900 — Hodinářství',
+    bibKey: 'susickyHodinarstviProPraktickou1900',
     zoteroKey: 'M2MD5J34',
   },
 
@@ -905,6 +957,7 @@ export const milniky: Milnik[] = [
       'německými kořeny — počátek elektrického měření času v zemi.',
     clanek: 'elektrina-ve-sluzbach-casu',
     zdroj: 'Hamr 2024 — Transfer of Master Clock Network Technology to Czechoslovakia',
+    bibKey: 'hamrTransferMasterClock2024',
     zoteroKey: 'KNKG36A7',
   },
   {
@@ -922,6 +975,7 @@ export const milniky: Milnik[] = [
     krok: 'elektronicky-krok',
     clanek: 'elektrina-ve-sluzbach-casu',
     zdroj: 'Katzir 2017 — Time Standards for the Twentieth Century: The Quartz Clock',
+    bibKey: 'katzirTimeStandardsTwentieth2017',
     zoteroKey: 'BNXNMLN7',
   },
   {
@@ -938,6 +992,7 @@ export const milniky: Milnik[] = [
       'sochy apoštolů — největší škoda v dějinách orloje.',
     externalUrl: 'https://orloj.eu',
     zdroj: 'Skála 2016 — Vývoj podoby astrolábu Pražského orloje',
+    bibKey: 'skalaVyvojPodobyAstrolabu2016',
     zoteroKey: '9CFVGIR7',
   },
   {
@@ -953,6 +1008,7 @@ export const milniky: Milnik[] = [
       'zcela nové sochy apoštolů z lipového dřeva.',
     externalUrl: 'https://orloj.eu',
     zdroj: 'Skála 2015 — Alegorie ctností a neřestí na pražském orloji',
+    bibKey: 'skalaAlegorieCtnostiNeresti2015',
     zoteroKey: 'YKDAJKQN',
   },
   {
