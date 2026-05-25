@@ -16,7 +16,7 @@ export interface TypTile {
 
 export const typTiles: TypTile[] = [
   // Mechanické hodiny
-  { tag: 'vezni',        label: 'Věžní a fasádní',     icon: 'fa-solid fa-monument', popis: 'Velké stroje z věží kostelů, radnic, zámků a továren.',     group: 'mech' },
+  { tag: 'vezni',        label: 'Věžní a fasádní',     icon: 'fa-solid fa-landmark', popis: 'Velké stroje z věží kostelů, radnic, zámků a továren.',     group: 'mech' },
   { tag: 'nastenne',     label: 'Nástěnné',            icon: 'fa-solid fa-clock',             popis: 'Švarcvaldky, comtoázky, regulátory a další nástěnky.',     group: 'mech' },
   { tag: 'stolni',       label: 'Stolní',              icon: 'fa-solid fa-clock',             popis: 'Stolní, krbové a podlahové hodiny pro domácí prostředí.',   group: 'mech' },
   { tag: 'kapesni',      label: 'Kapesní',             icon: 'fa-regular fa-clock',           popis: 'Kapesní hodinky a chronometry.',                            group: 'mech' },
