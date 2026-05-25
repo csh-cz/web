@@ -861,6 +861,21 @@ export const milniky: Milnik[] = [
     bibKey: 'andreagabrielteicherBeschreibungKunstreichenUhrWercks1735',
     zoteroKey: 'T9HYRTRH',
   },
+  {
+    id: 'amantuv-krok-1741',
+    rok: 1741,
+    rokText: 'kolem 1741',
+    epocha: 'novovek',
+    oblast: 'svet',
+    kategorie: 'vynalez',
+    titulek: 'Amantův kolíčkový krok',
+    popis:
+      'Francouzský hodinář Amant zavedl kolem roku 1741 kolíčkový klidový krok pro věžní hodiny; spolu ' +
+      's pozdější Lepautovou úpravou (1753) se stal nejrozšířenějším krokem věžních strojů.',
+    krok: 'amantuv-krok',
+    bibKey: 'frankEvolutionTowerClock2013',
+    zdroj: 'Frank 2013 — The Evolution of Tower Clock Movements',
+  },
 
   // ───────────────────────── PRŮMYSLOVÝ VĚK ─────────────────────────
   {
@@ -880,6 +895,23 @@ export const milniky: Milnik[] = [
     zdroj: 'Bartky 2000 — Selling the True Time',
     bibKey: 'bartkySellingTrueTime2000',
     zoteroKey: 'WLBGVUN7',
+  },
+  {
+    id: 'detentovy-krok-1783',
+    rok: 1783,
+    rokText: '1748–1783',
+    epocha: 'prumysl',
+    oblast: 'svet',
+    kategorie: 'vynalez',
+    ikona: 'compass',
+    titulek: 'Detentový krok — chronometr v sérii',
+    popis:
+      'Detentní (chronometrický) krok pro setrvačku zavedl roku 1748 Pierre Le Roy a roku 1783 jej do ' +
+      'podoby pružinové detenty dovedl Thomas Earnshaw — teprve tím vznikl spolehlivě reprodukovatelný ' +
+      'a sériově vyrobitelný námořní chronometr.',
+    slovnik: 'chronometr',
+    bibKey: 'duMechanicsMechanicalWatches2013',
+    zdroj: 'Du & Xie 2013 — The Mechanics of Mechanical Watches and Clocks',
   },
   {
     id: 'landesperger-1787',
@@ -911,6 +943,38 @@ export const milniky: Milnik[] = [
     zdroj: 'Maroszová 2023 — Jednota ku povzbuzení průmyslu v Čechách',
     bibKey: 'maroszovaJednotaKuPovzbuzeni2023',
     zoteroKey: 'VJQVX3DT',
+  },
+  {
+    id: 'hippuv-prerusovac-1843',
+    rok: 1843,
+    rokText: '1843',
+    epocha: 'prumysl',
+    oblast: 'svet',
+    kategorie: 'vynalez',
+    titulek: 'Hippův přerušovač',
+    popis:
+      'Matthäus Hipp sestrojil elektromechanický přerušovač, který udílí kyvadlu hlavních hodin impuls ' +
+      'až tehdy, když jeho výkyv klesne pod nastavenou mez — základ přesných elektrických hodinových sítí.',
+    krok: 'hippuv-prerusovac',
+    bibKey: 'sladkovskyUcebniceOdborneNauky1947',
+    zdroj: 'Sladkovský 1947 — Učebnice odborné nauky hodinářské',
+  },
+  {
+    id: 'robertuv-krok-1852',
+    rok: 1852,
+    rokText: '1852',
+    epocha: 'prumysl',
+    oblast: 'svet',
+    kategorie: 'vynalez',
+    titulek: 'Robertův krok',
+    popis:
+      'Kolíčkový kotvový krok se středovou kotvou si nechal Léon Émile Adolphe Robert patentovat roku ' +
+      '1852 v Paříži; v Čechách jej výhradně používal Jan Prokeš ze Sobotky — nejstarší dochovaný kus ' +
+      'pochází ze zámku Býchory (1868).',
+    krok: 'robertuv-krok',
+    hodinar: 'jan-prokes',
+    bibKey: 'knesplRobertuvKrokOprava2023',
+    zdroj: 'Knespl 2023 — Robertův krok (oprava chybného označení)',
   },
   {
     id: 'big-ben-1859',
@@ -993,6 +1057,22 @@ export const milniky: Milnik[] = [
     zdroj: 'Sušický 1900 — Hodinářství',
     bibKey: 'susickyHodinarstviProPraktickou1900',
     zoteroKey: 'M2MD5J34',
+  },
+  {
+    id: 'pneumaticke-hodiny-1880',
+    rok: 1880,
+    rokText: 'kolem 1880',
+    epocha: 'prumysl',
+    oblast: 'svet',
+    kategorie: 'vynalez',
+    ikona: 'wind',
+    titulek: 'Pneumatické hodiny v Paříži',
+    popis:
+      'Victor Popp vybudoval v Paříži od roku 1880 veřejnou síť pneumatických hodin: stlačený vzduch ' +
+      'rozváděný kilometry potrubí posouval jediným impulzem ručky stovek číselníků po celém městě.',
+    clanek: 'pneumatika2',
+    bibKey: 'readPneumaticClocks2005',
+    zdroj: 'Read 2005 — Pneumatic Clocks',
   },
 
   // ───────────────────────── MODERNÍ DOBA ─────────────────────────
