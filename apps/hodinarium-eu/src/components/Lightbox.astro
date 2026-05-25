@@ -1,0 +1,192 @@
+---
+/**
+ * Lightbox.astro — odlehčený lightbox pro fotografie mimo článkový tok
+ * (typicky `foto-grid` karet soupisu/sbírky). Záměrně NEzávisí na
+ * `ArticleImageBehavior` (1221 řádků, vázané na `.prose-content` + dělá
+ * floaty/hero klasifikaci, kterou na kartách nechceme).
+ *
+ * Chování: klik na fotku → modální `<dialog>` s plnou velikostí; navigace
+ * šipkami / klávesami ←/→; zavření ESC, ×, klikem na fotku nebo na pozadí.
+ *
+ * Cílí na obrázky dle `selector` (default = foto-grid + prose-content
+ * obrázky). `data-no-lightbox="1"` na <img> ho z výběru vyjme.
+ */
+interface Props {
+  /** CSS selector klikatelných obrázků. */
+  selector?: string;
+}
+const {
+  selector = '.foto-grid figure.photo img, .prose-content figure.photo img',
+} = Astro.props;
+---
+
+<dialog id="soupis-lightbox" class="sb-lb" aria-label="Zvětšená fotografie">
+  <button class="sb-lb-close" type="button" aria-label="Zavřít (Esc)">
+    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+  </button>
+  <button class="sb-lb-prev" type="button" aria-label="Předchozí (←)">
+    <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+  </button>
+  <button class="sb-lb-next" type="button" aria-label="Další (→)">
+    <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+  </button>
+  <img class="sb-lb-img" alt="" />
+  <div class="sb-lb-counter" aria-live="polite"></div>
+  <div class="sb-lb-caption"></div>
+</dialog>
+
+<style>
+  dialog.sb-lb {
+    margin: auto;
+    padding: 0;
+    border: none;
+    background: transparent;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    color: var(--color-text);
+    overflow: hidden;
+  }
+  dialog.sb-lb::backdrop {
+    background: rgba(10, 8, 7, 0.92);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+  .sb-lb-img {
+    position: absolute;
+    inset: 4rem 1rem 5rem;
+    margin: auto;
+    display: block;
+    max-width: calc(100vw - 2rem);
+    max-height: calc(100vh - 9rem);
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    cursor: zoom-out;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+  }
+  .sb-lb-close,
+  .sb-lb-prev,
+  .sb-lb-next {
+    position: absolute;
+    background: rgba(20, 16, 12, 0.65);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    color: var(--color-brass-bright);
+    cursor: pointer;
+    border-radius: 50%;
+    transition: opacity 150ms ease, background 150ms ease, color 150ms ease;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    font-size: 0.95rem;
+    opacity: 0.5;
+  }
+  .sb-lb-close:hover,
+  .sb-lb-prev:hover,
+  .sb-lb-next:hover {
+    opacity: 1;
+    background: var(--color-brass);
+    color: var(--color-ink);
+  }
+  .sb-lb-close:focus-visible,
+  .sb-lb-prev:focus-visible,
+  .sb-lb-next:focus-visible {
+    opacity: 1;
+    outline: 2px solid var(--color-brass-bright);
+    outline-offset: 2px;
+  }
+  .sb-lb-close { top: 1rem; right: 1rem; }
+  .sb-lb-prev { top: 50%; left: 1rem; transform: translateY(-50%); }
+  .sb-lb-next { top: 50%; right: 1rem; transform: translateY(-50%); }
+  .sb-lb-counter {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 0.85rem;
+    color: var(--color-brass-bright);
+    opacity: 0.8;
+  }
+  .sb-lb-caption {
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1.25rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--color-text-soft);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  }
+  @media (max-width: 600px) {
+    .sb-lb-prev { left: 0.5rem; }
+    .sb-lb-next { right: 0.5rem; }
+  }
+</style>
+
+<script is:inline define:vars={{ selector }}>
+  (function () {
+    const dlg = document.getElementById('soupis-lightbox');
+    if (!dlg) return;
+    const stage = dlg.querySelector('.sb-lb-img');
+    const captionEl = dlg.querySelector('.sb-lb-caption');
+    const counterEl = dlg.querySelector('.sb-lb-counter');
+    const prevBtn = dlg.querySelector('.sb-lb-prev');
+    const nextBtn = dlg.querySelector('.sb-lb-next');
+    const closeBtn = dlg.querySelector('.sb-lb-close');
+
+    const imgs = Array.from(document.querySelectorAll(selector)).filter(
+      (im) => !im.closest('#soupis-lightbox') && im.dataset.noLightbox !== '1'
+    );
+    if (!imgs.length) return;
+
+    let idx = 0;
+    const srcOf = (im) => im.getAttribute('src') || im.currentSrc || '';
+    const captionOf = (im) => {
+      const fig = im.closest('figure');
+      const cap = fig && fig.querySelector('figcaption.img-caption-below');
+      return (cap && cap.textContent.trim()) || im.getAttribute('alt') || '';
+    };
+
+    function show(i) {
+      idx = (i + imgs.length) % imgs.length;
+      const im = imgs[idx];
+      stage.src = srcOf(im);
+      stage.alt = im.getAttribute('alt') || '';
+      captionEl.textContent = captionOf(im);
+      const multi = imgs.length > 1;
+      counterEl.textContent = multi ? `${idx + 1} / ${imgs.length}` : '';
+      prevBtn.style.display = multi ? 'flex' : 'none';
+      nextBtn.style.display = multi ? 'flex' : 'none';
+    }
+    function open(i) {
+      show(i);
+      if (!dlg.open) dlg.showModal();
+    }
+    function close() {
+      if (dlg.open) dlg.close();
+    }
+
+    imgs.forEach((im, i) => {
+      im.style.cursor = 'zoom-in';
+      im.addEventListener('click', (e) => {
+        e.preventDefault();
+        open(i);
+      });
+    });
+    closeBtn.addEventListener('click', close);
+    prevBtn.addEventListener('click', () => show(idx - 1));
+    nextBtn.addEventListener('click', () => show(idx + 1));
+    stage.addEventListener('click', close);
+    dlg.addEventListener('click', (e) => {
+      if (e.target === dlg) close();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (!dlg.open) return;
+      if (e.key === 'ArrowLeft') show(idx - 1);
+      else if (e.key === 'ArrowRight') show(idx + 1);
+    });
+  })();
+</script>

@@ -4,6 +4,7 @@ import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
 import EditorNotesBlock from '../../components/EditorNotesBlock.astro';
 import WipBanner from '../../components/WipBanner.astro';
 import Photo from '../../components/Photo.astro';
+import Lightbox from '../../components/Lightbox.astro';
 import { CSH_CONTENT_COMPONENTS } from '../../utils/content-components';
 import { getCollection, render } from 'astro:content';
 import { hodinari } from '../../data/hodinari';
@@ -366,6 +367,8 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
       <small>Poslední ověření {d.posledniOvereni}</small>
     </p>
   )}
+
+  <Lightbox />
 </Base>
 
 <style>
@@ -434,15 +437,31 @@ const pageTitle = `${d.puvodniMisto.obec} ${d.rok} — ${hodinarDisplay || d.hod
   .muted { color: var(--color-text-soft); opacity: 0.7; }
   .poznamka { font-size: 0.9rem; color: var(--color-text-soft); margin-top: 0.3rem; }
 
+  /* Fotky karty: vždy na šířku textu, vystředěné, ve svislém sloupci
+     (ne víceslupcový grid). Plnou šířku vynutíme i u portrétních fotek,
+     které by jinak Photo.astro zúžil přes `.photo.is-large.is-portrait`. */
   .foto-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
     margin-bottom: 2rem;
+    max-width: 720px;
   }
-  .foto-grid img { width: 100%; height: auto; display: block; }
-  .foto-grid figcaption { font-size: 0.85rem; color: var(--color-text-soft); padding-top: 0.4rem; }
-  .foto-grid .credit { font-size: 0.75rem; opacity: 0.75; }
+  .foto-grid :global(figure.photo) {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+  .foto-grid :global(figure.photo > picture > img),
+  .foto-grid :global(figure.photo > img) {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    display: block;
+  }
+  .foto-grid :global(figcaption) { font-size: 0.85rem; color: var(--color-text-soft); padding-top: 0.4rem; }
+  .foto-grid :global(.credit) { font-size: 0.75rem; opacity: 0.75; }
 
   .poznamka-block {
     background: color-mix(in srgb, var(--color-bg-elevated) 50%, transparent);
