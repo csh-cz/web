@@ -1,0 +1,43 @@
+---
+/**
+ * Kompozitní ikona „věžní hodiny": štíhlá věž (fa-monument) s hodinovým
+ * ciferníkem (fa-clock) na dříku. Neutrální pro kostelní i radniční věže
+ * (bez kříže). Měřítko se řídí `font-size` containeru (em-based).
+ *
+ * Ciferník je obarven na barvu pozadí dlaždice (`--color-bg-elevated`),
+ * takže „prosvítá" tělem věže jako zapuštěný ciferník — vyříznuté ručičky
+ * fa-solid ukazují barvu věže. Funguje v light i dark motivu.
+ *
+ * Určeno pro VĚTŠÍ ikony (≥ ~1,5 rem). V malých kontextech (chip,
+ * cross-ref) použij prosté `fa-solid fa-monument` — ciferník by se slil.
+ */
+interface Props {
+  /** Doplňková třída na wrapper (propaguje velikost / barvu). */
+  class?: string;
+}
+const { class: cls } = Astro.props;
+---
+<span class:list={['tower-clock', cls]} aria-hidden="true">
+  <i class="fa-solid fa-monument tower-clock-base"></i>
+  <i class="fa-solid fa-clock tower-clock-dial"></i>
+</span>
+<style>
+  .tower-clock {
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+  }
+  .tower-clock-base {
+    display: block;
+  }
+  .tower-clock-dial {
+    position: absolute;
+    font-size: 0.32em;
+    top: 0.34em;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Ciferník v barvě pozadí dlaždice → zapuštěný do těla věže,
+       ručičky (negativní prostor fa-solid) ukazují barvu věže. */
+    color: var(--color-bg-elevated);
+  }
+</style>

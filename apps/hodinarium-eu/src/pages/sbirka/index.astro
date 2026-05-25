@@ -6,6 +6,7 @@ import catalog from '../../data/catalog.json';
 import { kategorie as catMeta } from '../../data/kategorie';
 import { clanekHref } from '../../data/url-helpers';
 import { typTiles, groupLabels, type TypTile } from '../../data/sbirka-typy';
+import TowerClockIcon from '../../components/TowerClockIcon.astro';
 
 import type { CatalogEntry as Entry } from '../../data/catalog-types';
 import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
@@ -99,14 +100,14 @@ const groupedTiles: Record<TypTile['group'], typeof typTilesWithCount> = {
           {groupedTiles[g].map((t) => (
             t.count > 0 ? (
               <a href={`/sbirka/typ/${t.tag}/`} class="typ-tile">
-                <div class="typ-tile-icon" aria-hidden="true"><i class={t.icon}></i></div>
+                <div class="typ-tile-icon" aria-hidden="true">{t.tag === 'vezni' ? <TowerClockIcon /> : <i class={t.icon} />}</div>
                 <h4 class="typ-tile-label">{t.label}</h4>
                 <p class="typ-tile-popis">{t.popis}</p>
                 <p class="typ-tile-count"><strong>{t.count}</strong> exponátů</p>
               </a>
             ) : (
               <div class="typ-tile typ-tile-empty" aria-disabled="true">
-                <div class="typ-tile-icon" aria-hidden="true"><i class={t.icon}></i></div>
+                <div class="typ-tile-icon" aria-hidden="true">{t.tag === 'vezni' ? <TowerClockIcon /> : <i class={t.icon} />}</div>
                 <h4 class="typ-tile-label">{t.label}</h4>
                 <p class="typ-tile-popis">{t.popis}</p>
                 <p class="typ-tile-count typ-tile-count-empty">zatím žádný exponát</p>
