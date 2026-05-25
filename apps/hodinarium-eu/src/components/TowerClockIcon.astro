@@ -1,15 +1,15 @@
 ---
 /**
- * Kompozitní ikona „věžní hodiny": štíhlá věž (fa-monument) s hodinovým
- * ciferníkem (fa-clock) na dříku. Neutrální pro kostelní i radniční věže
- * (bez kříže). Měřítko se řídí `font-size` containeru (em-based).
+ * Kompozitní ikona „věžní hodiny": civilní/sakrální budova (fa-landmark)
+ * s hodinovým ciferníkem (fa-clock) ve štítu. Neutrální pro kostelní
+ * i radniční věže (bez kříže). Měřítko se řídí `font-size` containeru.
  *
- * Ciferník je obarven na barvu pozadí dlaždice (`--color-bg-elevated`),
- * takže „prosvítá" tělem věže jako zapuštěný ciferník — vyříznuté ručičky
- * fa-solid ukazují barvu věže. Funguje v light i dark motivu.
+ * Ciferník je obarven na barvu pozadí (`--color-bg-elevated`), takže
+ * „prosvítá" štítem budovy jako zapuštěný ciferník — vyříznuté ručičky
+ * fa-solid ukazují barvu budovy. Funguje v light i dark motivu.
  *
- * Určeno pro VĚTŠÍ ikony (≥ ~1,5 rem). V malých kontextech (chip,
- * cross-ref) použij prosté `fa-solid fa-monument` — ciferník by se slil.
+ * Určeno pro VĚTŠÍ ikony (≥ ~1,4 rem). V malých kontextech (chip,
+ * cross-ref) použij prosté `fa-solid fa-landmark` — ciferník by se slil.
  */
 interface Props {
   /** Doplňková třída na wrapper (propaguje velikost / barvu). */
@@ -18,7 +18,7 @@ interface Props {
 const { class: cls } = Astro.props;
 ---
 <span class:list={['tower-clock', cls]} aria-hidden="true">
-  <i class="fa-solid fa-monument tower-clock-base"></i>
+  <i class="fa-solid fa-landmark tower-clock-base"></i>
   <i class="fa-solid fa-clock tower-clock-dial"></i>
 </span>
 <style>
@@ -32,12 +32,12 @@ const { class: cls } = Astro.props;
   }
   .tower-clock-dial {
     position: absolute;
-    font-size: 0.32em;
-    top: 0.34em;
+    font-size: 0.26em;
+    top: 0.16em;
     left: 50%;
     transform: translateX(-50%);
-    /* Ciferník v barvě pozadí dlaždice → zapuštěný do těla věže,
-       ručičky (negativní prostor fa-solid) ukazují barvu věže. */
+    /* Ciferník v barvě pozadí → zapuštěný do štítu budovy,
+       ručičky (negativní prostor fa-solid) ukazují barvu budovy. */
     color: var(--color-bg-elevated);
   }
 </style>
