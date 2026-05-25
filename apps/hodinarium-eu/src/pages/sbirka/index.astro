@@ -53,10 +53,13 @@ const featuredArticles = featuredArticleSlugs
 // obsah z virtuálního muzea / dalších sekcí. Dlaždice s count 0 jsou
 // tlumené (placeholder).
 const kartaEntries = sbirkaEntries.filter((e) => e.data.podsekce === 'karta');
-function countTag(tag: string): number {
-  return kartaEntries.filter((e) => (e.data.tags ?? []).includes(tag)).length;
+function countTags(tags: string[]): number {
+  return kartaEntries.filter((e) => {
+    const et = e.data.tags ?? [];
+    return tags.some((t) => et.includes(t));
+  }).length;
 }
-const typTilesWithCount = typTiles.map((t) => ({ ...t, count: countTag(t.tag) }));
+const typTilesWithCount = typTiles.map((t) => ({ ...t, count: countTags(t.matchTags ?? [t.tag]) }));
 const groupedTiles: Record<TypTile['group'], typeof typTilesWithCount> = {
   mech: typTilesWithCount.filter((t) => t.group === 'mech'),
   el: typTilesWithCount.filter((t) => t.group === 'el'),
