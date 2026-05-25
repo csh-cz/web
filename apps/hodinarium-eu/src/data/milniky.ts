@@ -671,6 +671,23 @@ export const milniky: Milnik[] = [
     zoteroKey: 'WXVBZHNE',
   },
   {
+    id: 'jakub-cech-1525',
+    rok: 1525,
+    rokText: '1525',
+    epocha: 'novovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'monument',
+    ikona: 'clock',
+    titulek: 'Hodiny Jakuba Čecha',
+    popis:
+      'Pražský hodinář Jakub Čech (Iacob Zech, †1540), správce staroměstského orloje, zhotovil roku 1525 ' +
+      'bohatě zdobené astrologické stolní hodiny s pérovým pohonem a stěžejníkem — patří k nejstarším ' +
+      'dochovaným přenosným hodinám na světě (dnes British Museum).',
+    slovnik: 'pero',
+    bibKey: 'davidknesplNejstarsiDochovanePrenosne2025',
+    zdroj: 'Knespl 2025 — Nejstarší dochované přenosné hodiny Jakuba Čecha',
+  },
+  {
     id: 'melanchthon-1530',
     rok: 1530,
     rokText: '1530',
@@ -683,6 +700,23 @@ export const milniky: Milnik[] = [
     zdroj: 'Wellington Gahtan 2001 — Gott allein die Ehre: Melanchthon’s Watch of 1530',
     bibKey: 'wellingtingahtanGOTTALLEINEHRE2001',
     zoteroKey: '983ZF928',
+  },
+  {
+    id: 'pavel-frejlich-1571',
+    rok: 1571,
+    rokText: '1571',
+    epocha: 'novovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    titulek: 'Pavel Frejlich z Litomyšle',
+    popis:
+      'U litomyšlského renesančního hodináře Pavla Frejlicha si roku 1571 objednal arcivévoda Ferdinand II. ' +
+      'Tyrolský astronomický orloj pro sbírky na zámku Ambras — jediné dochované Frejlichovo dílo; jeho ' +
+      'věžní hodiny pro Bílou věž Pražského hradu, Moravskou Třebovou či Kadaň zanikly.',
+    hodinar: 'pavel-frejlich',
+    slovnik: 'orloj',
+    bibKey: 'knesplAstronomicalClockArchduke2024',
+    zdroj: 'Knespl 2024 — The Astronomical Clock of Archduke Ferdinand II of Austria',
   },
   {
     id: 'strasbourg-orloj-2',
@@ -875,6 +909,22 @@ export const milniky: Milnik[] = [
     krok: 'amantuv-krok',
     bibKey: 'frankEvolutionTowerClock2013',
     zdroj: 'Frank 2013 — The Evolution of Tower Clock Movements',
+  },
+  {
+    id: 'pater-klein-1750',
+    rok: 1750,
+    rokText: 'kolem 1750',
+    epocha: 'novovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    titulek: 'Páter Klein z Klementina',
+    popis:
+      'Jezuita Jan (Johann) Klein (1684–1762), astronom a mechanik pražského Klementina, sestrojil čtvery ' +
+      'astronomické hodiny včetně koperníkovských demonstračních a v polovině 18. století se ujal i ' +
+      'zchátralého staroměstského orloje.',
+    slovnik: 'orloj',
+    bibKey: 'svejdaPristrojePomuckyKlementina2019',
+    zdroj: 'Švejda 2019 — Přístroje a pomůcky z Klementina',
   },
 
   // ───────────────────────── PRŮMYSLOVÝ VĚK ─────────────────────────
