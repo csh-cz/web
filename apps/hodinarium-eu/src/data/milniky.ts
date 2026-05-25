@@ -379,6 +379,36 @@ export const milniky: Milnik[] = [
 
   // české země — připojení proudu
   {
+    id: 'opava-1368',
+    rok: 1368,
+    rokText: '1368',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'monument',
+    titulek: 'Opavský městský orloj',
+    popis:
+      'K roku 1368 je v Opavě doložen městský orloj i hodinář povolaný z Vratislavi — nejstarší ' +
+      'dosud doložená zmínka o orloji v zemích Koruny české.',
+    slovnik: 'orloj',
+    zdroj: 'Šigut 1961 — K dějinám opavského městského orloje',
+    zoteroKey: 'MY7TMGR2',
+  },
+  {
+    id: 'kutna-hora-1375',
+    rok: 1375,
+    rokText: '1375',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'monument',
+    titulek: 'Orloj v Kutné Hoře',
+    popis:
+      'Účet za opravu střechy nad orlojem z roku 1375 dokládá, že kutnohorský orloj byl v té době ' +
+      'už v provozu.',
+    slovnik: 'orloj',
+    zdroj: 'Leminger 1926 — Umělecké řemeslo v Kutné Hoře',
+    zoteroKey: 'L5R5XBM3',
+  },
+  {
     id: 'zhorelec-1377',
     rok: 1377,
     rokText: '1377',
@@ -406,6 +436,21 @@ export const milniky: Milnik[] = [
     zoteroKey: 'CGCLGE2L',
   },
   {
+    id: 'ceske-budejovice-1387',
+    rok: 1387,
+    rokText: '1387',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'monument',
+    titulek: 'Listina o budějovickém orloji',
+    popis:
+      'Listina z roku 1387 dokládá městský orloj v Českých Budějovicích — nejstarší doklad měření ' +
+      'času v jižních Čechách.',
+    slovnik: 'orloj',
+    zdroj: 'Listina, 1387 (Nejstarší hodiny v českých zemích)',
+    zoteroKey: 'CCQDVM86',
+  },
+  {
     id: 'olomouc-rector-1392',
     rok: 1392,
     rokText: '1392',
@@ -418,6 +463,36 @@ export const milniky: Milnik[] = [
     slovnik: 'orlojnik',
     zdroj: 'Drábek 1957 — Olomoucký orloj',
     zoteroKey: 'WXVBZHNE',
+  },
+  {
+    id: 'znojmo-1397',
+    rok: 1397,
+    rokText: '1397',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    titulek: 'Znojemský orlojník Hanuš',
+    popis:
+      'K roku 1397 se ve Znojmě připomíná orlojník (orloysta) Hanuš — raný doklad hodinářské péče ' +
+      'o městský orloj na jihu Moravy.',
+    slovnik: 'orlojnik',
+    zdroj: 'Archivní zmínka (orloysta Hanuš, 1397)',
+    zoteroKey: 'NBBB3L6Q',
+  },
+  {
+    id: 'lipnice-1397',
+    rok: 1397,
+    rokText: '1397',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'monument',
+    titulek: 'Hodiny na hradě Lipnici',
+    popis:
+      'K roku 1397 jsou doloženy hodiny v hradní kapli na Lipnici — vzácný doklad hodin mimo ' +
+      'městské prostředí.',
+    slovnik: 'orloj',
+    zdroj: 'Záznam o hodinách na hradě Lipnici (1397)',
+    zoteroKey: 'YGLJAWGR',
   },
   {
     id: 'prazsky-orloj-1410',
@@ -436,6 +511,20 @@ export const milniky: Milnik[] = [
     externalUrl: 'https://orloj.eu',
     zdroj: 'Skála 2016 — Nový pohled na hypotézu o účasti Jana Šindela',
     zoteroKey: 'XRH6Z8SX',
+  },
+  {
+    id: 'jihlava-1420',
+    rok: 1420,
+    rokText: '1420',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'monument',
+    titulek: 'Jihlavský orloj u sv. Kříže',
+    popis:
+      'Notář Ondřej Czlewinger ve své závěti z roku 1420 pamatuje na orloj u kostela sv. Kříže v Jihlavě.',
+    slovnik: 'orloj',
+    zdroj: 'Závěť notáře Czlewingera, 1420',
+    zoteroKey: 'B83MDE9K',
   },
   {
     id: 'mistr-hanus-1490',
