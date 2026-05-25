@@ -1,0 +1,371 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
+import {
+  nejstarsiHodiny,
+  regionLabel,
+  presnostLabel,
+  nedolozenaMesta,
+  prehledovePrameny,
+  type Region,
+} from '../data/nejstarsi-hodiny';
+
+const radky = [...nejstarsiHodiny].sort((a, b) => a.rok - b.rok || a.mesto.localeCompare(b.mesto, 'cs'));
+const regiony = Object.keys(regionLabel) as Region[];
+const pocet = radky.length;
+const nejstarsi = radky[0];
+const pocetRegion = (r: Region) => radky.filter((x) => x.region === r).length;
+---
+
+<Base
+  title="Nejstarší hodiny v českých zemích"
+  description="Rejstřík nejstarších doložených městských hodin a orlojů v zemích Koruny české (1368–1791) — z pramenů výzkumné knihovny spolku. Od opavského orloje 1368 po staročeské orloje 18. století."
+>
+  <Breadcrumbs trail={[
+    { href: "/", label: "Hodinárium" },
+    { href: "/vice", label: "Více" },
+    { label: "Nejstarší hodiny v českých zemích" },
+  ]} />
+
+  <header class="max-w-3xl mb-8">
+    <p class="eyebrow mb-4">Soupis z pramenů</p>
+    <h1 class="hero-title mb-5 hero-title-sm">Nejstarší hodiny v českých zemích</h1>
+    <p class="text-[var(--color-text)] leading-relaxed">
+      {pocet} nejstarších doložených městských (a několika hradních) hodin a orlojů v zemích Koruny
+      české — od <strong>{nejstarsi.mesto} {nejstarsi.rokText}</strong>, nejstarší dosud doložené zmínky,
+      až po staročeské orloje 18. století. Soupis je vytěžen z pramenů výzkumné knihovny spolku;
+      navazuje na <a href="/casova-osa">Časovou osu</a> dějin měření času, kam patří ty nejvýznamnější
+      z těchto milníků.
+    </p>
+    <p class="nh-pozn">
+      <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+      Sloupec <em>doklad</em> rozlišuje sílu pramene: <strong>doloženo</strong> = přímý datovaný
+      záznam; <strong>před&nbsp;rokem</strong> = datum je jen <em>terminus ante quem</em> (např. rok
+      zániku), vznik je starší; <strong>nepřímo</strong> = datum z nepřímé souvislosti.
+    </p>
+  </header>
+
+  <div class="nh-toolbar">
+    <div class="nh-filtr" role="group" aria-label="Filtr podle regionu">
+      <button type="button" data-region="vse" aria-pressed="true">Vše <span class="nh-pocet">{pocet}</span></button>
+      {regiony.map((r) => (
+        <button type="button" data-region={r} aria-pressed="false">
+          {regionLabel[r]} <span class="nh-pocet">{pocetRegion(r)}</span>
+        </button>
+      ))}
+    </div>
+  </div>
+
+  <div class="nh-tabulka-obal" data-region="vse">
+    <table class="nh-tabulka">
+      <thead>
+        <tr>
+          <th class="nh-th-sort" data-sort="rok" aria-sort="ascending">
+            <button type="button">Rok <i class="fa-solid fa-sort" aria-hidden="true"></i></button>
+          </th>
+          <th class="nh-th-sort" data-sort="mesto" aria-sort="none">
+            <button type="button">Místo <i class="fa-solid fa-sort" aria-hidden="true"></i></button>
+          </th>
+          <th>Region</th>
+          <th>Doklad</th>
+          <th>Pramen</th>
+        </tr>
+      </thead>
+      <tbody>
+        {radky.map((h) => (
+          <tr data-region={h.region} data-rok={h.rok} data-mesto={h.mesto}>
+            <td data-label="Rok" class="nh-rok">{h.rokText}</td>
+            <td data-label="Místo" class="nh-mesto">
+              {h.mesto}
+              {h.milnikId && (
+                <a class="nh-osa-link" href={`/casova-osa#milnik-${h.milnikId}`} title="Zobrazit na Časové ose">
+                  <i class="fa-solid fa-timeline" aria-hidden="true"></i><span class="sr-only"> na ose</span>
+                </a>
+              )}
+            </td>
+            <td data-label="Region"><span class={`nh-region nh-region-${h.region}`}>{regionLabel[h.region]}</span></td>
+            <td data-label="Doklad" class="nh-doklad">
+              {h.doklad}
+              {h.presnost !== 'dolozeno' && (
+                <span class={`nh-presnost nh-presnost-${h.presnost}`}>{presnostLabel[h.presnost]}</span>
+              )}
+            </td>
+            <td data-label="Pramen" class="nh-pramen">{h.pramen}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <p class="nh-prazdne" hidden>Pro zvolený region nejsou žádné záznamy.</p>
+
+  <section class="nh-doslov">
+    <h2>Města bez jednoznačného data</h2>
+    <p>
+      V pramenech se připomínají i hodiny v dalších městech, kde se ale konkrétní rok nepodařilo
+      doložit: {nedolozenaMesta.join(', ')}.
+    </p>
+
+    <h2>Přehledové prameny</h2>
+    <ul class="nh-prameny-list">
+      {prehledovePrameny.map((p) => (
+        <li>{p.text}</li>
+      ))}
+    </ul>
+    <p class="nh-paticka">
+      Většina datových záznamů jsou jednověté archivní výpisky bez formální citace; sloupec
+      <em> pramen</em> odkazuje na tištěnou edici jen tam, kde je v podkladech přiložena. Údaje
+      „před&nbsp;rokem" jsou <em>terminus ante quem</em> (datum zániku), nikoli datum vzniku.
+    </p>
+  </section>
+</Base>
+
+<script>
+  const obal = document.querySelector<HTMLElement>('.nh-tabulka-obal');
+  const tbody = obal?.querySelector('tbody');
+  const filtrBtns = document.querySelectorAll<HTMLButtonElement>('.nh-filtr button');
+  const prazdne = document.querySelector<HTMLElement>('.nh-prazdne');
+
+  // ── Filtr podle regionu ──
+  function aplikujFiltr(region: string) {
+    if (!obal) return;
+    obal.dataset.region = region;
+    let viditelne = 0;
+    obal.querySelectorAll<HTMLTableRowElement>('tbody tr').forEach((tr) => {
+      const ok = region === 'vse' || tr.dataset.region === region;
+      tr.hidden = !ok;
+      if (ok) viditelne++;
+    });
+    if (prazdne) prazdne.hidden = viditelne > 0;
+  }
+  filtrBtns.forEach((b) => {
+    b.addEventListener('click', () => {
+      filtrBtns.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+      aplikujFiltr(b.dataset.region ?? 'vse');
+    });
+  });
+
+  // ── Třídění podle sloupce ──
+  const sortHeaders = document.querySelectorAll<HTMLTableCellElement>('.nh-th-sort');
+  sortHeaders.forEach((th) => {
+    th.querySelector('button')?.addEventListener('click', () => {
+      if (!tbody) return;
+      const klic = th.dataset.sort as 'rok' | 'mesto';
+      const smerVzestupne = th.getAttribute('aria-sort') !== 'ascending';
+      sortHeaders.forEach((h) => h.setAttribute('aria-sort', 'none'));
+      th.setAttribute('aria-sort', smerVzestupne ? 'ascending' : 'descending');
+
+      const rows = Array.from(tbody.querySelectorAll('tr'));
+      rows.sort((a, b) => {
+        let cmp: number;
+        if (klic === 'rok') {
+          cmp = Number(a.dataset.rok) - Number(b.dataset.rok);
+        } else {
+          cmp = (a.dataset.mesto ?? '').localeCompare(b.dataset.mesto ?? '', 'cs');
+        }
+        return smerVzestupne ? cmp : -cmp;
+      });
+      rows.forEach((r) => tbody.appendChild(r));
+    });
+  });
+</script>
+
+<style>
+  .nh-pozn {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: var(--color-text-muted);
+    border-left: 2px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
+    padding-left: 0.9rem;
+  }
+  .nh-pozn i { color: var(--color-brass); margin-right: 0.3rem; }
+
+  /* ── Toolbar / filtr ── */
+  .nh-toolbar { margin-bottom: 1.25rem; }
+  .nh-filtr {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
+    border-radius: 999px;
+    padding: 3px;
+    background: var(--color-bg-elevated);
+  }
+  .nh-filtr button {
+    appearance: none;
+    border: 0;
+    background: transparent;
+    color: var(--color-text-soft);
+    font: inherit;
+    font-size: 0.85rem;
+    padding: 0.35rem 0.85rem;
+    border-radius: 999px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s, color 0.15s;
+  }
+  .nh-filtr button:hover { color: var(--color-text); }
+  .nh-filtr button[aria-pressed='true'] {
+    background: color-mix(in srgb, var(--color-brass) 24%, transparent);
+    color: var(--color-brass-bright);
+  }
+  .nh-pocet {
+    font-size: 0.72em;
+    opacity: 0.7;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ── Tabulka ── */
+  .nh-tabulka-obal { overflow-x: auto; }
+  .nh-tabulka {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+  }
+  .nh-tabulka thead th {
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 2px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
+    font-size: 0.74rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--color-text-muted);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .nh-th-sort button {
+    appearance: none;
+    background: transparent;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    text-transform: inherit;
+    letter-spacing: inherit;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .nh-th-sort button:hover { color: var(--color-brass-bright); }
+  .nh-th-sort button i { font-size: 0.85em; opacity: 0.5; }
+  .nh-th-sort[aria-sort='ascending'] button i,
+  .nh-th-sort[aria-sort='descending'] button i { opacity: 1; color: var(--color-brass); }
+
+  .nh-tabulka tbody td {
+    padding: 0.65rem 0.75rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 12%, transparent);
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  .nh-tabulka tbody tr:hover td {
+    background: color-mix(in srgb, var(--color-brass) 7%, transparent);
+  }
+  .nh-rok {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 1.05rem;
+    color: var(--color-brass-bright);
+    white-space: nowrap;
+    font-feature-settings: 'lnum';
+  }
+  .nh-mesto { font-weight: 500; color: var(--color-text); white-space: nowrap; }
+  .nh-osa-link {
+    margin-left: 0.4rem;
+    color: var(--color-brass);
+    text-decoration: none;
+    font-size: 0.85em;
+  }
+  .nh-osa-link:hover { color: var(--color-brass-bright); }
+
+  .nh-region {
+    display: inline-block;
+    font-size: 0.72rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 999px;
+    white-space: nowrap;
+    border: 1px solid currentColor;
+  }
+  .nh-region-cechy { color: var(--color-copper); }
+  .nh-region-morava { color: var(--color-verdigris); }
+  .nh-region-slezsko { color: var(--color-brass-bright); }
+  .nh-region-luzice { color: var(--color-text-muted); }
+
+  .nh-doklad { color: var(--color-text-soft); min-width: 18rem; }
+  .nh-presnost {
+    display: inline-block;
+    margin-left: 0.45rem;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 0.05rem 0.4rem;
+    border-radius: 3px;
+    vertical-align: 1px;
+    background: color-mix(in srgb, var(--color-text-muted) 22%, transparent);
+    color: var(--color-text-muted);
+  }
+  .nh-presnost-ante-quem { background: color-mix(in srgb, var(--color-copper) 22%, transparent); color: var(--color-copper); }
+
+  .nh-pramen {
+    color: var(--color-text-muted);
+    font-size: 0.82rem;
+    min-width: 12rem;
+  }
+
+  .nh-prazdne { color: var(--color-text-muted); font-style: italic; padding: 1rem 0; }
+
+  /* ── Doslov ── */
+  .nh-doslov { margin-top: 2.5rem; max-width: 760px; }
+  .nh-doslov h2 {
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 1.75rem 0 0.6rem;
+  }
+  .nh-doslov p { color: var(--color-text-soft); line-height: 1.65; margin: 0 0 0.5rem; }
+  .nh-prameny-list { color: var(--color-text-soft); line-height: 1.6; padding-left: 1.2rem; }
+  .nh-prameny-list li { margin-bottom: 0.3rem; }
+  .nh-paticka { font-size: 0.82rem; color: var(--color-text-muted); font-style: italic; margin-top: 1rem; }
+
+  .sr-only {
+    position: absolute;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap; border: 0;
+  }
+
+  /* ── Mobil: tabulka → karty ── */
+  @media (max-width: 720px) {
+    .nh-tabulka thead { display: none; }
+    .nh-tabulka, .nh-tabulka tbody, .nh-tabulka tr, .nh-tabulka td { display: block; width: 100%; }
+    .nh-tabulka tbody tr {
+      border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+      border-left: 3px solid var(--color-copper);
+      border-radius: 0.4rem;
+      margin-bottom: 0.9rem;
+      padding: 0.4rem 0.2rem;
+      background: var(--color-bg-elevated);
+    }
+    .nh-tabulka tbody td {
+      border: 0;
+      padding: 0.25rem 0.9rem;
+      display: grid;
+      grid-template-columns: 6rem 1fr;
+      gap: 0.5rem;
+    }
+    .nh-tabulka tbody td::before {
+      content: attr(data-label);
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--color-text-muted);
+      padding-top: 0.15rem;
+    }
+    .nh-doklad { min-width: 0; }
+    .nh-pramen { min-width: 0; }
+  }
+</style>
