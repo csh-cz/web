@@ -706,6 +706,40 @@ manuální review Davidem.
 - [ ] **SL3c** — Pro Tier A koncepty s existujícím slugem v `content/slovnik/`
       doplnit chybějící cizojazyčná synonyma z Berner alignmentu.
 
+### Fáze 4 — Ilustrace pro 25 krok karet v /kroky/ (2026-05-26 ad-hoc) — **ČEKÁ NA OBRÁZKY**
+
+- [ ] **SL4** — Pro 25 nově založených karet typů kroků v
+      `content/kroky/` najít a doplnit **ilustrace mechanizmu**
+      (technické kresby s popisy částí). Kresby jsou zásadní pro
+      pochopení (každý krok má charakteristický geometrický tvar
+      kotvy / palet / krokového kola).
+
+      **Zdroje k prozkoumání:**
+        - **Špatný 1882** (PDF + obrázkové tabule v archivu) —
+          historické kresby drobnějšího rozlišení, public domain
+        - **Bureš 1965** (PDF v Zotero `G8KJDSAC`) — moderní kresby
+          z české odborné literatury (Hodinové stroje I)
+        - **Sušický 1900** + **Martínek 1964** — dohledat zda obsahují
+          ilustrace + atribuce
+        - **Berner FHS / Antiquorum / NAWCC Lexica** — anglické +
+          francouzské zdroje, mnoho mají vlastní moderní rendering
+        - **Wikimedia Commons** — některé kroky mají animace
+          (Graham, Brocot, ...) z public domain / CC BY-SA
+        - **Vlastní kresby** — pokud nic vhodného neexistuje, zhotovit
+          (SVG, ručně), zpravidla nejlepší výsledek dlouhodobě
+
+      **Postup pro každou kartu** (~25 karet × 5 min = ~2 hod):
+        1. Načíst existující slug v `content/kroky/<slug>.mdx`
+        2. Identifikovat ze zdrojů 1-2 ilustrace (přednost: moderní
+           Bureš → Špatný → Wikipedia → Berner)
+        3. Stáhnout do `apps/hodinarium-eu/public/img/kroky/<slug>-N.{jpg,svg}`
+        4. Přidat `::photo{src author license}` nebo markdown `![]()` do mdx
+        5. Atribuce dle pravidel obrázky skill (CC BY 4.0 default + lokálního
+           autora pokud licence se liší)
+
+      **Priorita:** vysoká — bez ilustrace jsou karty kroků
+      málo srozumitelné, slovník bude působit nedotaženě.
+
 ### Hotovo 2026-05-26
 
 - [x] **25 typů kroků** založeno v `content/kroky/` (mdx karty)
