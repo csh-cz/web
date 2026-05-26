@@ -115,7 +115,19 @@ const wipStatus = detailVisible && showsWipBanner(detail.data.workflow) ? detail
       )}
 
       {Detail
-        ? <Detail components={CSH_CONTENT_COMPONENTS} />
+        ? (<>
+            <Detail components={CSH_CONTENT_COMPONENTS} />
+            {/* Speed control pro animované SVG (rubrika /kroky/). Render
+                podmíněně přes hidden+JS detection — viz inline script níže. */}
+            <div class="anim-speed-control" hidden aria-label="Rychlost animace">
+              <span class="anim-speed-label">Rychlost:</span>
+              <button type="button" data-speed="0.25">0,25×</button>
+              <button type="button" data-speed="0.5">0,5×</button>
+              <button type="button" data-speed="1" class="is-active">1×</button>
+              <button type="button" data-speed="2">2×</button>
+              <button type="button" data-speed="0" class="anim-pause" aria-label="Pauza">⏸</button>
+            </div>
+          </>)
         : (
           <>
             <h2>Charakteristika</h2>
@@ -246,6 +258,108 @@ const wipStatus = detailVisible && showsWipBanner(detail.data.workflow) ? detail
     </footer>
   </article>
 </Base>
+
+<script is:inline>
+  /* Speed control pro SMIL animaci v <object type="image/svg+xml">.
+     Po načtení detekuje animované SVG v Detail; pokud existuje,
+     odhalí .anim-speed-control panel + handler na změnu dur všech
+     <animateTransform>/<animate> elementů uvnitř contentDocument. */
+  (function() {
+    function init() {
+      const ctrl = document.querySelector('.anim-speed-control');
+      if (!ctrl) return;
+      const obj = document.querySelector('object[type="image/svg+xml"]');
+      if (!obj) return;
+
+      function applySpeed(speed) {
+        const doc = obj.contentDocument;
+        if (!doc) return;
+        const animates = doc.querySelectorAll('animateTransform, animate');
+        animates.forEach((anim) => {
+          if (!anim._baseDur) {
+            anim._baseDur = parseFloat(anim.getAttribute('dur'));
+          }
+          if (speed === 0) {
+            doc.documentElement.pauseAnimations &&
+              doc.documentElement.pauseAnimations();
+          } else {
+            doc.documentElement.unpauseAnimations &&
+              doc.documentElement.unpauseAnimations();
+            anim.setAttribute('dur', (anim._baseDur / speed) + 's');
+          }
+        });
+      }
+
+      function reveal() {
+        ctrl.hidden = false;
+      }
+
+      ctrl.querySelectorAll('button').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const speed = parseFloat(btn.dataset.speed);
+          ctrl.querySelectorAll('button').forEach((b) =>
+            b.classList.toggle('is-active', b === btn)
+          );
+          applySpeed(speed);
+        });
+      });
+
+      if (obj.contentDocument && obj.contentDocument.documentElement) {
+        reveal();
+      } else {
+        obj.addEventListener('load', reveal, { once: true });
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  })();
+</script>
+
+<style>
+  .anim-speed-control {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    margin: 0.5rem auto 1.5rem;
+    padding: 0.4rem 0.8rem;
+    background: color-mix(in srgb, var(--color-brass) 8%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 4px;
+    font: 0.85rem/1 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+    max-width: 540px;
+  }
+  .anim-speed-label {
+    color: var(--color-text-muted, #6B4A2E);
+    margin-right: 0.3rem;
+  }
+  .anim-speed-control button {
+    padding: 0.35rem 0.7rem;
+    background: transparent;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
+    border-radius: 3px;
+    color: var(--color-text, #3A2818);
+    font: inherit;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .anim-speed-control button:hover {
+    background: color-mix(in srgb, var(--color-brass) 15%, transparent);
+  }
+  .anim-speed-control button.is-active {
+    background: color-mix(in srgb, var(--color-brass) 35%, transparent);
+    border-color: var(--color-brass, #C9A961);
+    font-weight: 600;
+  }
+  .anim-speed-control .anim-pause {
+    margin-left: auto;
+    font-size: 0.9rem;
+  }
+</style>
 
 <style>
   /* .breadcrumbs CSS žije v global.css — sjednoceno přes <Breadcrumbs> component */
