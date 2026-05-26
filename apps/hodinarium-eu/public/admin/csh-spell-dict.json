@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-26T08:23:41.108Z",
+  "generatedAt": "2026-05-26T08:33:05.316Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 157,
     "hodinari": 169,
     "hodinariTs": 169,
-    "soupis": 441
+    "soupis": 443
   },
-  "count": 1703,
+  "count": 1705,
   "words": [
     "Abraham",
     "Accutron",
@@ -836,6 +836,7 @@
     "Martinvs",
     "Marttinus",
     "Máří",
+    "Masarykově",
     "Masarykovo",
     "Maschinen",
     "Mathäus",
@@ -1363,6 +1364,7 @@
     "spoušť",
     "srdcovka",
     "Staatsrealschule",
+    "stará",
     "Stará",
     "staré",
     "Staré",
