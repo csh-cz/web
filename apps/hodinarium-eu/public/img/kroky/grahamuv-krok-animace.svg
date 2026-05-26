@@ -138,9 +138,10 @@
   <g>
     <animateTransform
       attributeName="transform"
+      attributeType="XML"
       type="rotate"
-      from="0 239.5 372.6"
-      to="360 239.5 372.6"
+      values="0 239.5 372.6; 360 239.5 372.6"
+      keyTimes="0; 1"
       dur="30s"
       begin="0s"
       repeatCount="indefinite"/>
