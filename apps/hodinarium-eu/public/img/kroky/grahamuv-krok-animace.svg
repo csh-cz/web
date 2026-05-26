@@ -105,6 +105,17 @@
   <!-- Pozadí (krémový papír) -->
   <rect x="0" y="0" width="475" height="625" fill="#F0E4C8"/>
 
+  <!-- ====== POMOCNÉ ČÁRY: LOCK ARCS ======
+       Kruhové oblouky soustředné s osou kotvy (pivot 242, 42.7) na poloměrech
+       r=243 (OUTER edge LEVÉ palety) a r=222 (INNER edge PRAVÉ palety).
+       Ukazují DRÁHU, po které klouže zub během LOCK fáze — to je definice
+       deadbeat: paleta = kruhový oblouk → tečná síla nulová → kolo stojí.
+       Geometrie 1:1 podle Wikipedia path6132 (jen sépia místo červené). -->
+  <g stroke="#6B4A2E" stroke-width="1.4" fill="none" stroke-dasharray="6 4" opacity="0.45">
+    <path d="M 147.36007,266.60891 C 68.49586,233.1705 13.07385,160.66607 1.5,75.79123"/>
+    <path d="M 463.55796,60.04066 c -7.13549,88.64484 -66.61987,164.41657 -151.03671,192.39192"/>
+  </g>
+
   <!-- CW šipka — statická indikace směru rotace kola, dolní pravý roh -->
   <g opacity="0.55" stroke="#3A2818" stroke-width="1.8" fill="none" stroke-linecap="round">
     <path d="M 425 510 Q 447 470 437 425" />
@@ -193,8 +204,9 @@
 
     <!-- HIGHLIGHT LEVÉ PALETY — rubín, aktivní v lock 1 fázi
          (t=0→0.22 a t=0.755→1.0, kdy levá paleta drží zub).
-         Pozice na V tipu cca (90, 215) podle geometrie path6134. -->
-    <circle cx="90" cy="215" r="12" fill="#B85068" opacity="0">
+         Pozice na PALLET INNER edge (kontakt se zubem kola) cca (92, 204)
+         podle geometrie path6134 a wheel tooth tips. -->
+    <circle cx="92" cy="204" r="11" fill="#B85068" opacity="0">
       <animate attributeName="opacity"
         values="0.8; 0.8; 0; 0; 0; 0.8; 0.8"
         keyTimes="0; 0.22; 0.225; 0.755; 0.76; 0.765; 1"
@@ -206,8 +218,8 @@
 
     <!-- HIGHLIGHT PRAVÉ PALETY — rubín, aktivní v lock 2 fázi
          (t=0.255→0.72, kdy pravá paleta drží zub).
-         Pozice symetricky vůči ose x=237.5: tip cca (385, 215). -->
-    <circle cx="385" cy="215" r="12" fill="#B85068" opacity="0">
+         Pozice symetricky vůči ose x=237.5: inner edge cca (383, 204). -->
+    <circle cx="383" cy="204" r="11" fill="#B85068" opacity="0">
       <animate attributeName="opacity"
         values="0; 0; 0.8; 0.8; 0; 0"
         keyTimes="0; 0.255; 0.26; 0.72; 0.725; 1"
