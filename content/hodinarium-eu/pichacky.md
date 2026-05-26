@@ -19,7 +19,7 @@ Ještě nedávno většina zaměstnanců začínala svou pracovní směnu "odpí
 
 ![Stroj Bürk - Bundy](/img/pichacky/DSCN0109.JPG)
 
-![Kontrolní hodiny Bürk - Bundy - ilustrační obrázek](/img/pichacky/19141443794.jpg)Vlajkovou lodí je neobvyklý stroj**
+![kontrolní hodiny Bürk-Bundy Original — dobové vyobrazení (princip vynalezl 1888 Alexander Dey v Glasgow), velký číselník s rovnoměrně rozloženými sekvenčně očíslovanými otvory, pracovník vkládal ukazatel na středově otočném rameni do otvoru se svým číslem](/img/pichacky/19141443794.jpg)Vlajkovou lodí je neobvyklý stroj**
 Bürk - Bundy Original**
 
 Tento typ píchaček vynalezl Alexander Dey v Glasgow v roce 1888. Používal velký číselník s rovnoměrně rozloženými sekvenčně očíslovanými otvory. Koncový ukazatel na středově otočném rameni byl vložen každým pracovníkem do příslušného očíslovaného otvoru. Tím posunul polohu centrálního papírového bubnu tak, aby vytiskl datum a čas vstupu a výstupu každého čísla na předtištěný válec papíru uvnitř krytu. Časový mechanismus byl řízen osmidenním strojem. Jiným pérovým mechanismem je nastavováno dopoledne/odpoledne a den v týdnu. Informace z tisku papírového papíru používala mzdová účtárna pro výpočet odměny každého zaměstnance na konci týdne.
