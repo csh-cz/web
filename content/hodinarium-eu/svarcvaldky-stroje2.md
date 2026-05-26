@@ -24,6 +24,6 @@ Bicí stroj má také určitou zvláštnost. Spouštěcí kolík [bicího stroje
 
 A nyní se již spolu s námi pokochejte několika obrázky. (klikněte pro zvětšení)
 
-![ilustrační obrázek](/img/svarcvald/stolove1.jpg)![ilustrační obrázek](/img/svarcvald/stolove2.jpg)![ilustrační obrázek](/img/svarcvald/stolove3.jpg)![ilustrační obrázek](/img/svarcvald/stolove4.jpg)![ilustrační obrázek](/img/svarcvald/stolove5.jpg)
+![štólové švarcvaldky s kovovými koly (cca polovina 19. století) — celkový pohled na stroj se třemi sloupky (Stollen) na zadní desce, kyvadlo je za zadní deskou mezi deskou a stěnou](/img/svarcvald/stolove1.jpg)![štólové švarcvaldky — pohled zezadu na sloupky a kyvadlo umístěné za zadní deskou stroje](/img/svarcvald/stolove2.jpg)![štólové švarcvaldky — detail jicího stroje s kovovým ozubením a kovovým náboje (atypické pro tento typ, který byl obvykle polodřevěný)](/img/svarcvald/stolove3.jpg)![štólové švarcvaldky — detail bicího stroje se spouštěcím kolíkem na střídném kole (bije jen v celou hodinu)](/img/svarcvald/stolove4.jpg)![štólové švarcvaldky — detail třecí spojky bicího mechanizmu řešené koženou podložkou](/img/svarcvald/stolove5.jpg)
 
 Majitel ještě dodává, že po opravě hodiny šlapou celkem obstojně.
