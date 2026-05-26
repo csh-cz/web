@@ -646,6 +646,80 @@ Plný design + zamítnutí ChatGPT návrhu v session transcriptu
       `add_translation` — generují PR drafty pro git commit, ne
       přímý write. Zachovává validation + review workflow.
 
+## A.35 — Slovník: NAWCC × Berner × Špatný 1882 master pipeline (2026-05-26)
+
+3-fázová pipeline pro hromadné rozšíření slovníku z mezinárodních zdrojů
+(NAWCC Lexica + Berner FHS dictionary) zakotvených v Špatném 1882 pro CZ.
+
+**Stav 2026-05-26:** Sběr dat hotov, **25 nových slovníkových hesel** pro
+typy kroků + plné mdx karty v `content/kroky/` (chronologicky vretenový →
+švýcarský moderní). **Tier C batches** (419 nových konceptů) čekají na
+manuální review Davidem.
+
+**Vstupní data:**
+- `docs/slovnik-master-clockmaking.md` — master cross-reference
+  (3 517 Berner FHS konceptů × 2 267 Špatný 1882 hesel)
+- `docs/slovnik-kandidati-nawcc-*.md` — 10 jednotlivých výtahů per zdroj
+  (Berner, Antiquorum PDF, Datacomm, Uhrenhanse, Hederer, Le Calibre,
+  Elevators, Lazzini, Aviador, Web Horologists)
+- `docs/slovnik-kandidati-nawcc-lexica-inventar.md` — inventář 16 zdrojů
+- `docs/slovnik-tierC-overlap-enrichment.md` — 31 konceptů s plnou Berner
+  EN definicí pro enrichment existujících hesel (krok, vlasek, vidlice…)
+- `raw/nawcc-lexica/` (gitignored, ~5 MB) — surová HTML/PDF + extractory
+- `raw/spatny-1882/` (gitignored) — Špatný PDF text + JSON parsed
+- `raw/modern-textbooks/` (gitignored) — pdftotext Martínek 1964 + Sušický 1900
+- `raw/kralovstvi-hodin/` (gitignored) — slovníček z kralovstvihodin.cz
+
+### Fáze 1a — překryv s existujícími hesly (31 konceptů) — **ČEKÁ NA DAVIDA**
+
+- [ ] **SL3a-overlap** — Projít `docs/slovnik-tierC-overlap-enrichment.md` —
+      31 Berner FHS konceptů s **plnou EN definicí** mapuje na **20
+      existujících hesel** v `content/slovnik/`. Pro každý rozhodnout,
+      které termíny / definici doplnit do existujícího slugu.
+
+      Hesla s nejvíc kandidáty (top 5):
+      - `krok` (9 konceptů) — různé typy kroků (drop/Fall, cylinder, …)
+      - `vlasek` (3)
+      - `vidlice`, `stupnice` (2 každý)
+      - +16 hesel s 1 konceptem each
+
+      Pozor: některé fuzzy_de matche jsou false positive — filtrovat
+      manuálně. Z 20 hesel je 6 `isStub: true` → Berner výklad lze využít
+      i pro doplnění definice.
+
+### Fáze 1b — review Tier C (419 nových konceptů) — **ČEKÁ NA DAVIDA**
+
+- [ ] **SL3a** — Projít 9 zaškrtávacích batchů po ~50 konceptech v
+      `docs/slovnik-master-clockmaking-tierC-batch-NN.md` a vybrat,
+      která hesla mají vzniknout.
+
+      Statistika modernizace dle Bureš 1965 / Sušický 1900 / Martínek 1964:
+      ~66 % řádků má vysoce jistý moderní CZ kandidát.
+
+### Fáze 2 — Berner full definice (po výběru z Fáze 1) — ČEKÁ na Fázi 1
+
+- [ ] **SL3b** — Pro vybrané ID z Fáze 1 fetchnout plnou definici z Berner
+      FHS přes `xhr/definition.php?id=<ID>&lang=en` (politně, 1 req/s).
+
+### Fáze 3 — auto-doplnění `prekladyDe/En/Fr` u Tier A (48) — ČEKÁ na Fázi 1
+
+- [ ] **SL3c** — Pro Tier A koncepty s existujícím slugem v `content/slovnik/`
+      doplnit chybějící cizojazyčná synonyma z Berner alignmentu.
+
+### Hotovo 2026-05-26
+
+- [x] **25 typů kroků** založeno v `content/kroky/` (mdx karty)
+      + odpovídající slovníková hesla v `content/slovnik/` (krátká forma
+      s jazykovými překlady EN/DE/FR, varianty, references). Commit
+      `dadc9874` content(slovnik+kroky): chronologická řada typů kroků.
+- [x] **Terminologická korekce** dle Martínek 1964:
+      `pacovy-krok` → `kotvovy-krok` / `svycarsky-krok`
+      (české lever = kotva, ne páčka).
+- [x] **Smazán** stub `content/slovnik/cep-orloje.md` (David: blbost).
+- [x] **6 modernizačních korpusů**:
+      Martínek 1964, Bureš 1965, Sušický 1900, Špatný 1882, Berner FHS,
+      Království hodin (kralovstvihodin.cz/slovnicek/, 105 hesel).
+
 ## A.7 — Tech dluh (větší)
 
 - [x] **D2 Pre-push CI check** — hotov 2026-05-18 po druhé sérii Sveltia
