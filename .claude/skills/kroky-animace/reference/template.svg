@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  [NÁZEV KROKU] (anglický překlad) — schematická animace.
+
+  Vznikla pro Hodinarium-eu / Český spolek horologický, [DATUM].
+  Předloha: [autor], "[název]" (Wikimedia Commons, [licence]),
+  https://commons.wikimedia.org/wiki/File:[FILE]
+
+  Geometrie zachována [1:1 podle předlohy / vlastní kresba podle X].
+  Změny oproti originálu:
+  - přebarveno do palety hodinarium-eu (viz docs/kroky-illustration-style.md):
+    pastelová mosaz (kolo) × ocelová modř (kotva, tyč), sépiové obrysy
+  - odstraněny [anotační prvky originálu]
+  - SMIL animace fází lock → release → impulse → drop → lock:
+
+    Perioda kyvadla 4 s. Za půlperiodu (2 s) proběhne jeden tick (zub):
+    - 0.00 s : kyvadlo +6° extrém (vlevo). LEVÁ paleta právě locked.
+    - 0.00 → 0.45 (1.8 s): LOCK 1 — kolo stojí, kotva osciluje volně.
+    - 0.45 → 0.50 (0.2 s): IMPULSE + DROP — zub klouže po impulse face,
+                            kolo posun o 12°. Kyvadlo prochází ~0° (Airy).
+    - 0.50 s : Kolo na +12° (1 zub). Pravá paleta locked.
+    - 0.50 → 0.95: LOCK 2 — kotva pokračuje k -6° a zpět.
+    - 0.95 → 1.0: IMPULSE 2 — kolo o +12°.
+    - 1.00 s : Kolo na +24°. Cyklus opakuje.
+
+    Celá otáčka kola: 60 s (15 period × 24°).
+
+  License: CC BY 4.0 (Český spolek horologický)
+  [Pokud predloha CC BY-SA, OUTPUT musí být CC BY-SA 4.0!]
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 475 625"
+     width="475"
+     height="625"
+     preserveAspectRatio="xMidYMid meet"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">[Název] krok — schematická animace</title>
+  <desc id="desc">
+    Krokové kolo (mosaz, [N] zubů) se otáčí [po směru / proti směru]
+    hodinových ručiček diskrétními skoky po jednom zubu, synchronizovaně
+    s průchodem kyvadla svislou polohou (Airyho teorém). Mezi skoky kolo
+    STOJÍ (deadbeat). Kotva (ocel) osciluje ±6° kolem horního pivotu;
+    rubínový highlight ukazuje aktuálně zachycující paletu, sépiový text
+    nahoře střídá fáze LOCK ↔ IMPULSE + DROP.
+  </desc>
+
+  <style>
+    .krok-popisek {
+      font: 400 12px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+      fill: #3A2818;
+    }
+    .krok-popisek-cislo {
+      font: 600 12px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+      fill: #3A2818;
+    }
+    .krok-popisek-mensi {
+      font: 400 10px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+      fill: #3A2818;
+      opacity: 0.7;
+    }
+    .krok-popisek-faze {
+      font: 600 16px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+      letter-spacing: 0.05em;
+    }
+  </style>
+
+  <!-- Pozadí (krémový papír) -->
+  <rect x="0" y="0" width="475" height="625" fill="#F0E4C8"/>
+
+  <!-- ====== POMOCNÉ ČÁRY: LOCK ARCS ======
+       Kruhové oblouky soustředné s osou kotvy (pivot [px], [py]) na poloměrech
+       r=[outer_r] (OUTER edge LEVÉ palety) a r=[inner_r] (INNER edge PRAVÉ palety).
+       Ukazují DRÁHU, po které klouže zub během LOCK fáze. -->
+  <g stroke="#6B4A2E" stroke-width="1.4" fill="none" stroke-dasharray="6 4" opacity="0.45">
+    <path d="[LEVÝ ARC PATH]"/>
+    <path d="[PRAVÝ ARC PATH]"/>
+  </g>
+
+  <!-- CW/CCW šipka — statická, dolní pravý/levý roh -->
+  <g opacity="0.55" stroke="#3A2818" stroke-width="1.8" fill="none" stroke-linecap="round">
+    <!-- CW (kolo CW): -->
+    <path d="M 425 510 Q 447 470 437 425"/>
+    <path d="M 437 425 L 445 433 M 437 425 L 429 437"/>
+    <text x="415" y="500" class="krok-popisek-mensi" stroke="none" fill="#3A2818" opacity="1" text-anchor="end">CW</text>
+  </g>
+
+  <!-- ====== KROKOVÉ KOLO (discrete tick, accumulate="sum") ====== -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      values="0 [cx] [cy];
+              0 [cx] [cy];
+              12 [cx] [cy];
+              12 [cx] [cy];
+              24 [cx] [cy]"
+      keyTimes="0; 0.45; 0.5; 0.95; 1"
+      calcMode="linear"
+      dur="4s"
+      begin="0s"
+      repeatCount="indefinite"
+      accumulate="sum"/>
+
+    <!-- Tělo kola s [N] zuby -->
+    <path d="[WHEEL PATH]"
+       fill="#E6C97A" stroke="#8A6E35" stroke-width="1.4"
+       stroke-linejoin="miter" stroke-linecap="round"/>
+
+    <!-- Středový čep kola -->
+    <circle cx="[cx]" cy="[cy]" r="16.72" fill="#3A2818" stroke="none"/>
+  </g>
+
+  <!-- ====== KOTVA + KYVADLO + PALETOVÉ HIGHLIGHT ====== -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="6 [pivot_x] [pivot_y]; -6 [pivot_x] [pivot_y]; 6 [pivot_x] [pivot_y]"
+      keyTimes="0; 0.5; 1"
+      dur="4s"
+      begin="0s"
+      repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+
+    <!-- Kyvadlová tyč: hrot na konci -->
+    <path d="[TIP PATH]"
+       fill="#88A8C8" stroke="#3D5878" stroke-width="1"/>
+
+    <!-- Kyvadlová tyč -->
+    <path d="[ROD PATH]"
+       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"
+       stroke-linecap="round" stroke-linejoin="miter"/>
+
+    <!-- Kotva (vrchní díl s V-tvarem nebo specifické geometrie kroku) -->
+    <path d="[ANCHOR PATH]"
+       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"
+       stroke-linecap="round" stroke-linejoin="miter"/>
+
+    <!-- Pivot kotvy — sépia očko -->
+    <circle cx="[pivot_x]" cy="[pivot_y]" r="13.78" fill="#3A2818" stroke="none"/>
+
+    <!-- HIGHLIGHT LEVÉ PALETY -->
+    <circle cx="[left_pallet_x]" cy="[left_pallet_y]" r="11" fill="#B85068" opacity="0">
+      <animate attributeName="opacity"
+        values="0.8; 0.8; 0; 0; 0; 0.8; 0.8"
+        keyTimes="0; 0.45; 0.46; 0.95; 0.96; 0.97; 1"
+        calcMode="linear"
+        dur="4s"
+        begin="0s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <!-- HIGHLIGHT PRAVÉ PALETY -->
+    <circle cx="[right_pallet_x]" cy="[right_pallet_y]" r="11" fill="#B85068" opacity="0">
+      <animate attributeName="opacity"
+        values="0; 0; 0.8; 0.8; 0; 0"
+        keyTimes="0; 0.46; 0.47; 0.95; 0.96; 1"
+        calcMode="linear"
+        dur="4s"
+        begin="0s"
+        repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ====== FÁZOVÝ INDIKÁTOR (LOCK ↔ IMPULSE → DROP) ====== -->
+  <g text-anchor="middle">
+    <text x="237.5" y="25" class="krok-popisek-faze" fill="#3A2818" opacity="1">
+      LOCK
+      <animate attributeName="opacity"
+        values="1; 1; 0; 0; 1; 1; 0; 0; 1"
+        keyTimes="0; 0.44; 0.45; 0.51; 0.52; 0.94; 0.95; 0.99; 1"
+        calcMode="linear"
+        dur="4s"
+        begin="0s"
+        repeatCount="indefinite"/>
+    </text>
+    <text x="237.5" y="25" class="krok-popisek-faze" fill="#B85068" opacity="0">
+      IMPULSE → DROP
+      <animate attributeName="opacity"
+        values="0; 0; 1; 1; 0; 0; 1; 1; 0"
+        keyTimes="0; 0.44; 0.45; 0.51; 0.52; 0.94; 0.95; 0.99; 1"
+        calcMode="linear"
+        dur="4s"
+        begin="0s"
+        repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- ====== POPISKY A/B/C/D ====== -->
+
+  <text x="6" y="395" class="krok-popisek-cislo">A</text>
+  <text x="20" y="395" class="krok-popisek">— Krokové kolo (mosaz, [N] zubů)</text>
+
+  <text x="6" y="72" class="krok-popisek-cislo">B</text>
+  <text x="20" y="72" class="krok-popisek">— Kotva (ocel)</text>
+
+  <text x="410" y="200" class="krok-popisek-cislo" text-anchor="end">C</text>
+  <text x="467" y="200" class="krok-popisek" text-anchor="end">— Palety</text>
+
+  <text x="410" y="560" class="krok-popisek-cislo" text-anchor="end">D</text>
+  <text x="467" y="560" class="krok-popisek" text-anchor="end">— Tyč kyvadla</text>
+
+  <!-- Spodní atribuce -->
+  <text x="237.5" y="615" text-anchor="middle" class="krok-popisek-mensi">
+    [Název] krok ([autor], [rok]) — schematická animace
+  </text>
+</svg>
