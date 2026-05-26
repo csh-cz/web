@@ -292,6 +292,12 @@ const wipStatus = detailVisible && showsWipBanner(detail.data.workflow) ? detail
 
       function reveal() {
         ctrl.hidden = false;
+        // UX: přemístit control hned za SVG figure (jinak by skončil
+        // až po posledním textu v MDX — UX problém)
+        const figure = obj.closest('figure') ?? obj.parentElement;
+        if (figure && figure.parentElement && ctrl.parentElement !== figure.parentElement) {
+          figure.parentElement.insertBefore(ctrl, figure.nextSibling);
+        }
       }
 
       ctrl.querySelectorAll('button').forEach((btn) => {
