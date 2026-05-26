@@ -18,14 +18,14 @@ Jicí a [bicí stroj](/slovnik/bici-stroj) uloženy za sebou. Vyráběly se tak 
 
 *Stav strojů je před restaurací. Možná tak chvíli zůstane, protože i restaurátor v tomto počasí zaujímá raději místo v zahrádce před restaurací :-)*
 
-![ilustrační obrázek](/img/svarcvald/stroj_polodrev1.jpg)![ilustrační obrázek](/img/svarcvald/stroj_polodrev1b.jpg)
+![polodřevěné švarcvaldky (cca 1840) — jicí a bicí stroj uložené za sebou, dřevěné náboje s mosaznými věnci ozubení, totožný hřídel řetězového a minutového kola](/img/svarcvald/stroj_polodrev1.jpg)![polodřevěné švarcvaldky 1840 — pohled na detaily ozubení, celomosazné závěrkové kolo (vybočující z polodřevěné koncepce)](/img/svarcvald/stroj_polodrev1b.jpg)
 
-![ilustrační obrázek](/img/svarcvald/stroj_polodrev2.jpg)![ilustrační obrázek](/img/svarcvald/stroj_polodrev2b.jpg)
+![druhá ukázka polodřevěného švarcvaldského stroje cca 1840 — celkový pohled](/img/svarcvald/stroj_polodrev2.jpg)![druhá ukázka polodřevěného švarcvaldského stroje — detail hřídelového uspořádání](/img/svarcvald/stroj_polodrev2b.jpg)
 
 Jiná varianta polodřevěného stroje v nálezovém stavu. Zejména koroze železných drátů značně pokročila. Pravděpodobně pochází z lehce starších hodin. Trochu více dřeva než u předcházejícího stroje. Dřené jsou i hřídele bicího mechanizmu. Také skříň je trochu větší. Závaží visela na provazech. Místo řetězových kol jsou zde klínové kladky. Stroj není kompletní. Chybí krok, závěrkové i minutové kolo, bicí spirála a zadní stěna. Na stroji není patrné zadní ložisko hřídele krokového kola, lze tedy předpokládat, že šlo o štólové hodiny s hřídelí končící až za zadní stěnou.
 
 *Vrátí-li s restaurátor z restaurace, doplníme obrázky.*
 
-![ilustrační obrázek](/img/svarcvald/stroj_polodrev3.jpg)![ilustrační obrázek](/img/svarcvald/stroj_polodrev3b.jpg)
+![starší polodřevěné švarcvaldky v nálezovém stavu — silně zkorodované železné dráty, dřevěné hřídele bicího mechanizmu, klínové kladky místo řetězových kol, chybí krok, závěrkové a minutové kolo, bicí spirála a zadní stěna (pravděpodobně štólové hodiny)](/img/svarcvald/stroj_polodrev3.jpg)![starší polodřevěné švarcvaldky — pohled z druhé strany s vidět dřevěnými hřídeli a chybějícími díly](/img/svarcvald/stroj_polodrev3b.jpg)
 
 >)
