@@ -32,8 +32,10 @@ karta:
   krokJicihoStroje: "Amantův kolíčkový krok"
   biciStroje: "hodinové"
   adaptaceProVystavu: "Stroj byl opraven a nakonzervován, doplněny chybějící části, např. závěs kyvadla s kompletním kyvadlem a natahovací klika k původnímu pastorku."
-thumbnail: '/img/decin/francie1770/f/foto_0001.jpg'
+thumbnail: '/img/vezni/014a-paul-zieux.jpg'
 ---
+
+::photo{src="/img/vezni/014a-paul-zieux.jpg" alt="věžní stroj Paul Zieux v expozici Hodinária — pohled s malovaným ciferníkem s vyobrazením Madony nahoře, horizontální flatbed rám s velkým bicím kolem a rezavým lanovým bubnem" author="Stanislav Marušák"}
 
 ![Půlový stroj Paul Zieux s rámem typu flatbed — nálezový stav](/img/decin/francie1770/f/foto_0001.jpg)
 
