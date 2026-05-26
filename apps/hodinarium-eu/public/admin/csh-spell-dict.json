@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-25T21:58:05.170Z",
+  "generatedAt": "2026-05-26T07:54:14.991Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 157,
@@ -8,7 +8,7 @@
     "hodinariTs": 169,
     "soupis": 441
   },
-  "count": 1699,
+  "count": 1703,
   "words": [
     "Abraham",
     "Accutron",
@@ -808,6 +808,7 @@
     "Magdeburku",
     "Mähren",
     "Mährisch",
+    "mährische",
     "Mährische",
     "majlit",
     "Malá",
@@ -898,6 +899,7 @@
     "Mor",
     "Moravě",
     "Moravicí",
+    "moravská",
     "Moravskoslezský",
     "Moravský",
     "Moravus",
@@ -1169,6 +1171,7 @@
     "prut",
     "pružinka",
     "první",
+    "První",
     "prysek",
     "Prysk",
     "Předměstí",
@@ -1497,6 +1500,7 @@
     "třída",
     "tudorovském",
     "Tuchoměřice",
+    "Turmuhrenfabrik",
     "Turnov",
     "Turnova",
     "Tvoršovice",
