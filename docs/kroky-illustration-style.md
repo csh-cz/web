@@ -91,12 +91,40 @@ proměnné (lepší pro theming):
 
 ## Typografie popisků
 
-- **Font**: serifový kurzivní — `font-family: 'Georgia', 'Bodoni 72', 'Times New Roman', serif; font-style: italic;`
+Jednoduché technické sans-serif písmo (ne rukopisná kurzíva — pro
+moderní web čitelnější + nebudí kýčovitý dojem):
+
+- **Font**: `font-family: 'Inter', 'Helvetica Neue', 'Arial', sans-serif; font-style: normal; font-weight: 400;`
 - **Velikost**: 11–13px v běžné kompozici, 9–10px pro vedlejší popisky
-- **Barva**: `var(--kroky-label)` (tmavá sépie)
-- **Označení**: A, B, C / I, II, III pro hlavní díly; latinkovou kurzívou
-- **Příklad popisku**: *„A. — Krokové kolo (mosaz)"* → česky, s tečkou,
-  velkým písmenem na začátku
+- **Barva**: `var(--kroky-label)` (tmavá sépie — drží jednotu s
+  obrysovou paletou, ne studeně černá)
+- **Označení**: A, B, C / I, II, III pro hlavní díly; sans-serif
+  capitals
+- **Příklad popisku**: *„A — Krokové kolo (mosaz)"* → česky, pomlčka
+  s mezerami, velkým písmenem na začátku
+- **Číselné rozměry** (pokud potřeba): `font-variant-numeric: tabular-nums;`
+  (proporcionální cifry pro zarovnání)
+
+```css
+.krok-popisek {
+  font: 12px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+  font-weight: 400;
+  fill: var(--kroky-label);
+}
+
+.krok-popisek-mensi {
+  font-size: 10px;
+}
+
+.krok-popisek-cislo {
+  font-variant-numeric: tabular-nums;
+}
+```
+
+> **Pozn.:** Sans-serif drží **technický charakter** a moderní
+> čitelnost. Sépia barva místo studené černé zachovává návaznost na
+> akvarelovou paletu z 19. století, takže celek nepůsobí jako
+> sterilní CAD výkres, ale ani jako kýčovitá imitace ručního písma.
 
 ## Leader lines (popisové vodítka)
 
