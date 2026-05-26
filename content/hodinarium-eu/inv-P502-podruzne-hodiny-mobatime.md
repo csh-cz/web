@@ -47,7 +47,7 @@ Do Hodinária byla pro sezónu 2020 zapůjčena od firmy [Elekon s. r. o.](http:
 
 ## Hlavní hodiny řady HN 60
 
-![Hlavní hodiny HN 60](/img/Mobatime/HN60IP20.jpg)
+![mateční hodiny Mobatime řady HN 60 (provedení IP 20 na DIN lištu) — mikroprocesorové řízení s krystalovou základnou, GPS synchronizace, jedna podružná linka 24 V/150 mA, programovatelný reléový kontakt pro astronomické spínání, DCF výstup, napájení 230 V~ / 12 nebo 24 VDC](/img/Mobatime/HN60IP20.jpg)
 
 Hodiny jsou řízeny mikroprocesorem s vlastní přesnou krystalovou základnou, čas je synchronizován satelitním signálem GPS. Místní čas se počítá s automatickou změnou na letní čas podle nastavené zóny ze standardní tabulky časových pásem. Základní dodávka HN 61 obsahuje hlavní hodiny vhodné pro řízení malých systémů jednotného času:
 

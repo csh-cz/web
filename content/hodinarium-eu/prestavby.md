@@ -24,9 +24,9 @@ Naopak fandíme pokusům vytvořit nový časoměrný artefakt. Ať již jsou c�
 [![Pilové hodiny — varianta 2](/img/fucik/mini/pilove2.jpg)](/virtualni-muzeum/hinspirace)
 [![Ptáček v kleci](/img/fucik/mini/klec1.jpg)](/virtualni-muzeum/hinspirace)
 [![Vlastní konstrukce](/img/fucik/mini/vlastni_konstrukce.jpg)](/virtualni-muzeum/hinspirace)
-[![Hodiny rok 2000](/img/fucik/mini/2000.jpg)](/virtualni-muzeum/hinspirace)
+[![autorské hodiny z roku 2000 — uměleckořemeslná konstrukce ze sbírky J. Fučíka, miniatura](/img/fucik/mini/2000.jpg)](/virtualni-muzeum/hinspirace)
 [![Kyvadlové hodiny](/img/fucik/mini/kyvadlo.jpg)](/virtualni-muzeum/hinspirace)
-[![Hodiny rok 2001](/img/fucik/mini/2001_11.jpg)](/virtualni-muzeum/hinspirace)
+[![autorské hodiny z roku 2001 — další miniatura z hodinářské sbírky J. Fučíka](/img/fucik/mini/2001_11.jpg)](/virtualni-muzeum/hinspirace)
 
 **Stolní bicí hodiny s prstencovými číselníky, pilové hodiny, ptáček v kleci, různé miniatury a další hodiny...**
 

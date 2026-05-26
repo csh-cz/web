@@ -71,7 +71,7 @@ Od ledna 1998 je jako provozní vysílač k dispozici polovodičový vysílač o
 
 Obě vysílací antény jsou vertikální všesměrové antény s horním zatížením. Náhradní anténa má výšku 200 m. Provozní anténa má výšku pouhých 150 m, ale zase vyšší kapacitu horního zatížení. Obě antény vyzařují přibližně stejný výkon a jsou umístěny souvisle na stejném anténním poli. Předpokládá se, že EIRP (Equivalent Isotropic Radiated Power) leží na cca. 30 až 35 kW.
 
-![Generátor DCF 77](/img/dcf77_steuer.jpg)
+![generátor časového signálu DCF77 v Mainflingenu — od konce října 2006 nové zařízení založené na třech atomových hodinách poskytujících standardní frekvenci 77,5 kHz, redundantní logické řízení a nepřerušitelné zdroje napájení](/img/dcf77_steuer.jpg)
 
 Generování signálu DCF77 a jeho monitorovací a řídicí funkce jsou od konce října 2006 založeny na zcela novém zařízení. Tři atomové hodiny poskytují standardní frekvenci, ze které se generuje nosná frekvence, 77,5 KHz, a časový kód. Redundantní logické řízení musí zajistit bezchybné šíření časových informací. Hodiny a jednotky generování signálu jsou připojeny k nepřerušitelným zdrojům napájení, které zaručují spolehlivou nepřetržitou generování signálu.
 

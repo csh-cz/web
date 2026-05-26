@@ -44,7 +44,7 @@ Fotografie jsou druhým hlavním výstavním souborem. Jedná se zejména o foto
 
 V okolí dnes již historických fotografií pražského orloje, doufáme, že v roce 2020 se podaří zajistit zcela unikátní exponát vážící se k Pražskému orloji. Na mysli mám prototyp nového mysteriózního natahovacího systému, podle kterého jsou dnes vytvořeny natahovací bubny stroje Pražského orloje.
 
-![Hodiny Achrer 85](/img/Achrer/2strany2.jpg)
+![oboustranné vyřezávané hodiny Josefa Achrera (1985) — fotografie obou stran skříně, na jedné straně klasické ručky, na druhé otáčející se disky s hodinami, minutami, datem a sekundami](/img/Achrer/2strany2.jpg)
 
 ## Výstavní galerie
 
