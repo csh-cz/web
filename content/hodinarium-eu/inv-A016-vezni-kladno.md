@@ -32,6 +32,8 @@ karta:
 
 ::photo{src="/img/vezni/016a-kladno.jpg" alt="Věžní hodiny ze zámku Kladno — kovaný stroj s Grahamovým krokem na expozičním stojanu se závažími ve sbírce Hodinária Děčín" author="Stanislav Marušák"}
 
+::photo{src="/img/vezni/016b-kladno.jpg" alt="věžní hodiny Kladno — detail kovaného litinového rámu s patrnou korozí, mosazná soukolí a hřídele klínkových spojů, atmosférický close-up bicího mechanismu" author="Stanislav Marušák"}
+
 Hodiny jsou prací hodináře, zřejmě seznámeného s výrobky pražského hodináře Londenspergera. Podle způsobu zpracování lze odhadovat dobu vzniku na první polovinu 19. století. Kovaný rám je spojován klínky, rovněž i spoje pák a hřídelí. Některé detaily jsou podobné, jako na hodinách Michaela Christa.
 
 Stroj se skládá ze tří částí, jednu tvoří jicí stroj v prostředku rámu, po stranách je stroj čtvrťového bití a [odbíjení](/slovnik/odbijeni) celých hodin. Stroj má **[Grahamův](/kroky/grahamuv-krok)** krok, řízený nepůvodním kyvadlem, které bylo zhotoveno pro účely předvedení funkce. Původní kyvadlo měří 2,7m. K hodinám se též zachovala původní závaží, která nejsou osazena.

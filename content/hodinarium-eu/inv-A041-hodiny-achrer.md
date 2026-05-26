@@ -31,6 +31,7 @@ karta:
   rokVyroby: '1927'
 tags:
   - hlavni-sal
+  - vezni
   - funkcni
   - achrer
 author: Český spolek horologický

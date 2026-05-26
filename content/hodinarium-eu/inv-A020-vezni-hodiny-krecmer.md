@@ -23,7 +23,9 @@ karta:
   majitel: "ČSH"
   vztahKeSbirce: "koupě"
   stav: "funkční"
-  rokVyroby: "2002"
+  rokVyroby: "přelom 19. a 20. století"
+  extra:
+    - { label: "Poznámka", value: "Hodiny přežily povodeň na Mělnicku v roce 2002 a byly restaurovány do funkčního stavu." }
 thumbnail: '/img/vezni/020a-krecmer.jpg'
 ---
 
