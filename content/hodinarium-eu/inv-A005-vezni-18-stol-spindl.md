@@ -39,11 +39,11 @@ karta:
     obec: Budislav
 ---
 
-::photo{src="/img/vezni/005a-budislav.jpg" alt="Vřetenový věžní stroj z Budislavi — celkový pohled v expozici" author="Stanislav Marušák"}
+::photo{src="/img/vezni/005a-budislav.jpg" alt="Vřetenový věžní stroj z Budislavi — nálezový stav v říjnu 2012, silně zkorodovaný stroj uložený na podlaze v komoře před snesením z věže kostela Nanebevzetí Panny Marie" author="Stanislav Marušák"}
 
-::photo{src="/img/vezni/005b-budislav.jpg" alt="Vřetenový věžní stroj z Budislavi — pohled na soukolí a horní nástavbu s vřetenovým krokem" author="Stanislav Marušák"}
+::photo{src="/img/vezni/005b-budislav.jpg" alt="Vřetenový věžní stroj z Budislavi v expozici Hodinária — kovaný rám s ozdobnými volutami u středních sloupků, horní nástavba s vřetenovým krokem a korunovým kolem, prodloužená kyvadlová tyč nad hřídel, atmosférický pohled v podkroví" author="Stanislav Marušák"}
 
-::photo{src="/img/vezni/005c-budislav.jpg" alt="Vřetenový věžní stroj z Budislavi — boční detail rámu a bicího stroje" author="Stanislav Marušák"}
+::photo{src="/img/vezni/005c-budislav.jpg" alt="Vřetenový věžní stroj z Budislavi v expozici Hodinária — kontextový pohled sálu věžních hodin: stroj v popředí na podstavci, vpravo informační panely o restaurování, vlevo dole cimbály jiných exponátů" author="Stanislav Marušák"}
 
 Do expozice Věžního muzejíčka v Soběslavi byl v roce 2012 zapůjčen vřetenový stroj věžních hodin z kostela Nanebevzetí Panny Marie z nedaleké obce Budislav. Stroj byl před mnoha lety demontován a nahrazen mechanickým [strojem Hainz](/sbirka/karta/inv-A017-vezni-hainz). Byl v chodu, vyžadoval však pravidelné ruční [natahování](/slovnik/natah), což je možná zábava pro hodinářského nadšence, méně to vyhovuje jako povinnost. V současné době je odstaven i stroj Hainz a hodiny ovládá elektrický stroj.
 
