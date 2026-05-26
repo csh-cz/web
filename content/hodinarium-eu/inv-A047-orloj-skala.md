@@ -29,11 +29,11 @@ thumbnail: '/img/vezni/047d-orloj-skala.jpg'
 
 ::photo{src="/img/vezni/047d-orloj-skala.jpg" alt="nástěnný malovaný orloj Petra Skály a Miroslava Kotrby v expozici Hodinária — kruhový ciferník s malovanou krajinou s hradem, zlatá kalendářová deska a astronomické ukazatele, vlevo částečně viditelný strojní pohon" author="Stanislav Marušák"}
 
-::photo{src="/img/vezni/047a-orloj-skala.jpg" alt="orloj Skála — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/047a-orloj-skala.jpg" alt="nástěnný malovaný orloj sochaře Petra Skály a malíře Miroslava Kotrby (2002–2015) — pohled na rohatkové soukolí převzaté z litomyšlského orloje (Karel Adamec z Čáslavi, 1907), upravené pro přesnější převod na měsíční ručku" author="Miroslav Baudisch"}
 
-::photo{src="/img/vezni/047b-orloj-skala.jpg" alt="orloj Skála — fotografie sbírkového předmětu (b)" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/047b-orloj-skala.jpg" alt="orloj Skála — detail malované orlojní desky s ručkami Slunce, Měsíce a ekliptikou, které se každých 12 minut posunou o pětinu hodiny díky elektromotorickému pohonu řízenému hlavními hodinami" author="Miroslav Baudisch"}
 
-::photo{src="/img/vezni/047c-orloj-skala.jpg" alt="orloj Skála — fotografie sbírkového předmětu (c)" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/047c-orloj-skala.jpg" alt="orloj Skála — boční pohled na elektromechanickou převodovou soustavu pohonu, doplněnou v roce 2015 pro účely expozice v Hodináriu Děčín" author="Miroslav Baudisch"}
 
 Funkční orloj sochařů Petra Skály a Miroslava Kotrby je vybaven mechanikou, zajišťující pohyb podobných ukazatelů, jaké jsou na Pražském orloji. Orloj vznikal pomalu a postupně od roku 2002. Koncepce pohybu [soukolí](/slovnik/soukoli) rohatkami je převzata z orloje litomyšlského ( Karel Adamec z Čáslavi, 1907). Rozměry kol jsou však jiné a také převod na měsíční ručku je přesnější.
 

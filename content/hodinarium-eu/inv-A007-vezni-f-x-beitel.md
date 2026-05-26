@@ -36,9 +36,9 @@ karta:
     obec: "kostele Nanebovzatia"
 ---
 
-::photo{src="/img/vezni/007a-beitel.jpg" alt="věžní F. X. Beitel — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/007a-beitel.jpg" alt="věžní hodiny Franz X. Beitel z Moravského Berouna (1931, výr. č. 68) — masivní litinový rám se dvěma rozpěrnými sloupky, Grahamův krok s kotvou krátkoramennou, jeden hodinový bicí stroj, kontrolní číselníček na hodinovém stroji" author="Miroslav Baudisch"}
 
-::photo{src="/img/vezni/007b-beitel.jpg" alt="věžní F. X. Beitel — fotografie sbírkového předmětu (b)" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/007b-beitel.jpg" alt="věžní hodiny F. X. Beitel — detail rámu se štítkem „FRANZ. X. BEITEL BÄRN Mähren" a výrobním číslem 68; precizně značené díly pro montáž (firma vyráběla hodiny s natahovacím elektromotorem)" author="Miroslav Baudisch"}
 
 ::photo{src="/img/vezni/007c-beitel.jpg" alt="věžní stroj F. X. Beitel v expozici Hodinária — zelený litinový rám s mosazným kontrolním číselníkem nahoře, viditelná mosazná soukolí, popisná cedule „Věžní stroj F. X. Beitel“ na dřevěném stojánku" author="Stanislav Marušák"}
 

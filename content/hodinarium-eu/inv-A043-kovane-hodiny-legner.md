@@ -20,9 +20,9 @@ karta:
   stav: "funkční"
 ---
 
-::photo{src="/img/vezni/043a-legner.jpg" alt="kované hodiny Legner — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/043a-legner.jpg" alt="drobná kovaná plastika — umělecké hodiny od restaurátora Zdeňka Legnera, výrazná kovářská práce" author="Miroslav Baudisch"}
 
-::photo{src="/img/vezni/043b-legner.jpg" alt="kované hodiny Legner — fotografie sbírkového předmětu (b)" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/043b-legner.jpg" alt="kované hodiny Zdeňka Legnera — boční pohled na kovaný plastický detail" author="Miroslav Baudisch"}
 
 Drobná kovaná plastika – hodiny od Zdeňka Legnera
 
