@@ -30,8 +30,8 @@ editorNotes:
     noteKey: manual-edit-false
 ---
 
-![fotografie sbírkového předmětu](/img/decin/ElektrocasVK1/foto_0001.jpg)
+![elektrický podružný stroj Elektročas VK1 — celkový pohled na skříň s mechanizmem](/img/decin/ElektrocasVK1/foto_0001.jpg)
 
-![fotografie sbírkového předmětu](/img/decin/ElektrocasVK1/foto_0002.jpg)
+![elektrický podružný stroj Elektročas VK1 — detail elektromechanického posuvu](/img/decin/ElektrocasVK1/foto_0002.jpg)
 
-![fotografie sbírkového předmětu](/img/decin/ElektrocasVK1/foto_0003.jpg)
+![elektrický podružný stroj Elektročas VK1 — detail soukolí a kontaktního ústrojí](/img/decin/ElektrocasVK1/foto_0003.jpg)
