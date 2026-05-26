@@ -25,7 +25,7 @@ karta:
   krokJicihoStroje: "kotvový krok"
 ---
 
-::photo{src="/img/vezni/022-holandan.jpg" alt="věžní Holanďan — fotografie sbírkového předmětu" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/022-holandan.jpg" alt="věžní stroj „Holanďan" v expozici Hodinária — zdobný litinový rám se dvěma soukolími (jicí stroj s Clementovým kotvovým krokem + bicí stroj), netypicky umístěný větrník kolmo k stroji, lanový buben s vačkou pro střídání odbíjení celých hodin a půlí, natahovací pastorky na otočné tyči" author="Miroslav Baudisch"}
 
 Hodinový stroj je uložen ve zdobném litinovém rámu. Sestává ze dvou soukolí: jicího a bicího. Jicí stroj má vratný **[kotvový krok](/kroky/kotvovy-krok)** ( Clementův).
 
