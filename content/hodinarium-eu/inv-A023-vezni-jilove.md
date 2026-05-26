@@ -31,11 +31,11 @@ karta:
 thumbnail: '/img/vezni/023a-jilove.jpg'
 ---
 
-::photo{src="/img/vezni/023a-jilove.jpg" alt="věžní Jílové — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/023a-jilove.jpg" alt="věžní hodiny z kostela Nejsvětější Trojice v Jílovém u Děčína (1859) — rozměrný stroj (šířka 160 cm) s rámem ze železných kovaných pásů spojených železnými maticemi, vratný kotvový krok připomínající dílnu Ferdinanda Londenspergera, tři funkční celky (jicí + čtvrťové bití + celé hodiny)" author="Miroslav Baudisch"}
 
-::photo{src="/img/vezni/023b-jilove.jpg" alt="věžní Jílové — fotografie sbírkového předmětu (b)" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/023b-jilove.jpg" alt="věžní hodiny Jílové — detail soukolí a kotvy s charakteristickým tvarem podobným Londenspergerovým strojům, vyražená značka „H" na jednom kovaném dílu" author="Miroslav Baudisch"}
 
-::photo{src="/img/vezni/023c-jilove.jpg" alt="věžní Jílové — fotografie sbírkového předmětu (c)" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/023c-jilove.jpg" alt="věžní hodiny Jílové — boční pohled na lanové bubny ze dřeva, na nichž se navíjela závěsná lana s těžkými závažími z upravených pískovcových sloupců" author="Miroslav Baudisch"}
 
 Hodiny pocházejí z kostela Nejsvětější Trojice. Kostel má pohnutou historii: v roce 1859 vyhořel po zásahu moždíře při oslavách na zámku. Majitel panství hrabě Thun zafinancoval stavbu nového kostela, takže již za rok se v něm mohly konat bohoslužby.
 

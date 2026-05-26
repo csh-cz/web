@@ -30,9 +30,9 @@ karta:
   rokVyroby: "1839"
 ---
 
-::photo{src="/img/vezni/015a-kohlert.jpg" alt="věžní Kohlert Kraslice — fotografie sbírkového předmětu (a)" author="Stanislav Marušák"}
+::photo{src="/img/vezni/015a-kohlert.jpg" alt="věžní hodiny Josef Kohlert, Kraslice (1839) v expozici Hodinária — frontální pohled na zelený stroj v litinovém rámu s nasazeným bílým kontrolním číselníkem, dvěma vzpřímenými větrníkovými křídly a třemi závažími na ocelových lanech" author="Stanislav Marušák"}
 
-::photo{src="/img/vezni/015b-kohlert.jpg" alt="věžní Kohlert Kraslice — fotografie sbírkového předmětu (b)" author="Stanislav Marušák"}
+::photo{src="/img/vezni/015b-kohlert.jpg" alt="věžní hodiny Kohlert — detail zelené oválné mosazné plakety na dřevěném podstavci se signaturou „JOS. KOHLERT'S NACHFOLGER GRASLITZ i/B." (firma Josef Kohlert, Kraslice / Graslitz)" author="Stanislav Marušák"}
 
 Hodinář Josef Kohlert se narodil v Kraslicích roku 1839. Navázal na hodinářskou tradici v obci, vyučil se hodinářem (roku 1865 je uváděn v matrice s tímto povoláním) a roku 1873 založil hodinářskou firmu. Vyráběl kvalitní stroje, na kterých je patrna pečlivost zpracování i snaha o vylepšení konstrukce. Zemřel v Hranicích na Moravě roku 1890 a je pohřben v Kraslicích, kde ho připomíná opuštěný a povalený náhrobní kámen. Vystavený stroj pochází z dílny nástupců ve firmě.
 
