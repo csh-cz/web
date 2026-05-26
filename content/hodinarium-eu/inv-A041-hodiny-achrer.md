@@ -39,13 +39,9 @@ originalUrl: https://hodinarium-eu.pages.dev/sbirka/katalog
 lastModified: null
 sourceCharset: utf-8
 scrapedAt: 2026-04-30T04:12:37.525Z
-thumbnail: '/img/Achrer/2strany2.jpg'
+thumbnail: '/img/vezni/041a-j-achrer.jpg'
 ---
 
-::photo{src="/img/vezni/041a-j-achrer.jpg" alt="Hodiny Achrer — fotografie sbírkového předmětu (a)" author="Stanislav Marušák"}
-
-::photo{src="/img/vezni/041b-j-achrer.jpg" alt="Hodiny Achrer — fotografie sbírkového předmětu (b)" author="Stanislav Marušák"}
-
-::photo{src="/img/vezni/041c-j-achrer.jpg" alt="Hodiny Achrer — fotografie sbírkového předmětu (c)" author="Stanislav Marušák"}
+::photo{src="/img/vezni/041a-j-achrer.jpg" alt="solitérní hodiny Josef Achrer (1985) v expozici Hodinária — vyřezávaná černá dřevěná skříň ve tvaru hvězdy se zlatými paprsky, ručky uprostřed, malá osmicípá hvězda v dolní části skříně" author="Stanislav Marušák"}
 
 Autorem hodin je hodinář a řezbář [Josef Achrer](/hodinari/josef-achrer) (\*1927 - +1988). Hodiny byly zhotoveny v roce 1985 pro restauraci ČD v rámci rekonstrukce nádraží v pražských Holešovicích. V roce 2015 byly zakoupeny soukromým sběratelem a zapůjčeny na tuto výstavu. Hodiny jsou umístěny ve vyřezávané skříni s číselníky po obou stranách skříně. Na jedné straně jsou ručičky normálního číselníku, na druhé straně jsou číselníky ve tvaru otáčejících se disků. Disky představují hodiny a minuty, dále datum s jemným rozlišením dopoledne a odpoledne a disk sekund. Pohyb zajišťují dva podružné strojky Elektročas PS1000 a synchronní motor. Při instalaci v Hodináriu byly do skříně zabudovány elektronické hlavní hodiny SH71, které umožňují samostatný chod i automatické nastavení po výpadku proudu.

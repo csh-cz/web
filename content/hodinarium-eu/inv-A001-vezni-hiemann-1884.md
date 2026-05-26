@@ -46,7 +46,12 @@ originalUrl: https://hodinarium-eu.pages.dev/sbirka/katalog
 lastModified: null
 sourceCharset: utf-8
 scrapedAt: 2026-04-30T04:12:37.518Z
+thumbnail: '/img/vezni/001a-hiemann.jpg'
 ---
+
+::photo{src="/img/vezni/001a-hiemann.jpg" alt="věžní stroj Hiemann 1884 v expozici Hodinária — kompletní pohled na kovaný litinový rám s dvěma mosaznými cimbály a malým kontrolním číselníkem na vrcholu, na podlaze visí litinová závaží" author="Stanislav Marušák"}
+
+::photo{src="/img/vezni/001b-hiemann.jpg" alt="věžní stroj Hiemann 1884 — detail soukolí s viditelnou mosaznou signaturou „Julius Hiemann, Leipzig“ na rámu pod jicím soukolím" author="Stanislav Marušák"}
 
 ![Stroj věžních hodin z Podmokel během instalace v expozici](/img/vez/decin/decin_instalace3.jpg)
 
