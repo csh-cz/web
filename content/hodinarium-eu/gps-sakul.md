@@ -7,6 +7,7 @@ tags:
   - gps-rizeno
   - elektricke
   - diy
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/GPS_Sakul.htm"
 lastModified: "Tue, 23 Jun 2020 10:27:00 GMT"
 sourceCharset: "windows-1250"

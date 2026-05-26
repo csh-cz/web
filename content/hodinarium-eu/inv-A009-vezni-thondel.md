@@ -3,6 +3,7 @@ title: "Věžní hodiny Thöndel"
 slug: "inv-A009-vezni-thondel"
 category: "sbirka"
 podsekce: "karta"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"

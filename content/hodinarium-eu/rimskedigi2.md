@@ -2,6 +2,7 @@
 title: "Římské digitálky - tentokrát s Arduinem"
 slug: "rimskedigi2"
 category: "projekty"
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/rimskedigi2.htm"
 lastModified: "Mon, 04 Apr 2022 09:25:00 GMT"
 sourceCharset: "windows-1250"

@@ -57,7 +57,8 @@
     "pipeline:hodinarium": "pnpm scrape:hodinarium && pnpm convert:hodinarium && pnpm catalog:hodinarium && pnpm download:hodinarium && pnpm redirects:hodinarium",
     "dev:hodinarium": "pnpm --filter hodinarium-eu dev",
     "build:hodinarium": "pnpm --filter hodinarium-eu build",
-    "preview:hodinarium": "pnpm --filter hodinarium-eu preview"
+    "preview:hodinarium": "pnpm --filter hodinarium-eu preview",
+    "imgs:refs:build": "node scripts/build-img-refs.mjs"
   },
   "devDependencies": {
     "@aws-sdk/client-s3": "^3.1045.0",

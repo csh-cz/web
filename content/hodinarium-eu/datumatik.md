@@ -7,6 +7,7 @@ tags:
   - stolni
   - datumatic
   - 1900s
+imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/datumatik.htm"
 lastModified: "Wed, 26 Apr 2017 16:00:00 GMT"
 sourceCharset: "windows-1250"

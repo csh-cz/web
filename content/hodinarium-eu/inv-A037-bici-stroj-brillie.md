@@ -3,6 +3,7 @@ title: "bicí stroj Brillié"
 slug: "inv-A037-bici-stroj-brillie"
 category: "sbirka"
 podsekce: "karta"
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"

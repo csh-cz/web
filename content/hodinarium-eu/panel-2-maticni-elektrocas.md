@@ -11,6 +11,7 @@ tags:
   - elektrocas
   - pragotron
   - hainz
+imageCredit: "Archiv ČSH (Český spolek horologický)"
 originalUrl: "https://hodinarium-eu.pages.dev/sbirka/panel-2-maticni-elektrocas"
 lastModified: null
 sourceCharset: "utf-8"
