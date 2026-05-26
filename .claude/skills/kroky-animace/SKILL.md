@@ -351,11 +351,25 @@ Pro každý krok vyhledat **2-3 reference** (Wikipedia + literatura) než začí
 ## 9. Reference
 
 ### Klíčové zdroje
+- **Headrick, M. V.** — *Clock and Watch Escapement Mechanics* (1997) — **THE canonical drawing reference**. Step-by-step CAD instructions pro každý krok. Dostupné PDF: https://www.abbeyclock.com/EscMechanics.pdf
+- **Tam, L. C., Fu, Y., Du, R.** — *Virtual Library of Mechanical Watch Movements* (CAD Journal Vol.4 No.1-4, 2007, pp 127-136) — SolidWorks 3D modely, geometricky přesný. Confirms Headrick parameters.
 - **Saunier, C.** — *Traité d'Horlogerie moderne* (1875) — kapitola XII Escapements
-- **Britten, F. J.** — *Watch & Clockmaker's Handbook* (1899) — heslo "Dead-beat" + jiné
+- **Britten, F. J.** — *Watch & Clockmaker's Handbook* (1899) — heslo "Dead-beat"
 - **Reid, T.** — *Treatise on Clock and Watch Making* (1826) — early reference
-- **Headrick, M.** — *Origin and Evolution of the Anchor Clock Escapement* (IEEE 2002, doi:10.1109/MCS.2002.993199) — moderní analýza
+- **Headrick, M.** — *Origin and Evolution of the Anchor Clock Escapement* (IEEE 2002, doi:10.1109/MCS.2002.993199) — moderní matematická analýza
 - **Rawlings, A. L.** — *The Science of Clocks and Watches* (3. vyd. 1993)
+
+### Headrick design rules — Graham (sekce 3)
+
+Pro 30zubý wheel s radius R (= 3" v Headrick orig.):
+1. **Pivot anchor**: na svislé z wheel center, distance **D = R × √2** (≈ 1.414 R)
+2. **r_pal**: lock arc radius = **R** (= wheel radius!)
+3. **r_inner**: pal V tip inner = R × (5.69/6) ≈ 0.948 R
+4. **r_outer**: pal V tip outer = R × (6.31/6) ≈ 1.052 R
+5. **Anchor span**: 7.5 zubů = 90° na wheelu (pal contact at ±45° z vertikály od wheel center)
+6. **Pal V tip span**: ±3° kolem contact angle (= 6° per palette na pal arc)
+
+⚠️ Wikipedia Chetvorno SVG je **SCHEMATIC**, ne CAD-correct. Wikipedia pal V tipy jsou nadměrně dlouhé a zasahují do zubního pole. Pro nové animace vždy generovat pal podle Headrick (pomocný skript `reference/pal-contact.py`).
 
 ### Online reference
 - Wikipedia Commons: https://commons.wikimedia.org/wiki/Category:Escapement_mechanisms
