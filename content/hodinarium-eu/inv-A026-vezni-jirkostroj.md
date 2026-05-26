@@ -27,9 +27,9 @@ karta:
   krokJicihoStroje: "Grahamův krok"
 ---
 
-::photo{src="/img/vezni/026a-jirkostroj.jpg" alt="věžní Jirkostroj — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/026a-jirkostroj.jpg" alt="věžní stroj sestavený ze zachráněných kol — soukolí jicího stroje od Johanna Lissnera (Mikulášovice / Nixdorf, 1881) namontované do nově zhotovené konstrukce rámu, Grahamův krok, pohon závažím" author="Miroslav Baudisch"}
 
-::photo{src="/img/vezni/026b-jirkostroj.jpg" alt="věžní Jirkostroj — fotografie sbírkového předmětu (b)" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/026b-jirkostroj.jpg" alt="věžní Jirkostroj — detail rámu se zachovaným německým štítkem („Gestiftet v. F H Richter Kaufman in Frankfurt a. Main. Bestellt durch Viltler Oberlehler in Hilgersdorf. Gearbeitet v. Joh. Lissner Uhrmacher in Nixdorf 1881")" author="Miroslav Baudisch"}
 
 Hodinový stroj byl sestaven ze zachráněných kol stroje věžních hodin. Původní rám se nezachoval, soukolí jicího stroje bylo namontováno do nově zhotovené konstrukce. Stroj má **[Grahamův](/kroky/grahamuv-krok)** krok, pohon závažím.
 

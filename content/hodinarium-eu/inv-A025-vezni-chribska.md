@@ -31,9 +31,9 @@ karta:
   adaptaceProVystavu: "Jeden ze sloupků chyběl a byl doplněn novodobou kopií."
 ---
 
-::photo{src="/img/vezni/025a-chribska.jpg" alt="věžní Chřibská — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/025a-chribska.jpg" alt="věžní hodiny z kostela sv. Jiří ve Chřibské (počátek 18. století) — kovaný rám s pásnicemi a ozdobnými volutami v rohových sloupcích (jeden ze sloupků je novodobá kopie chybějícího originálu), klínkové spoje, tři funkční celky (jicí stroj + čtvrťové bití + celé hodiny)" author="Miroslav Baudisch"}
 
-::photo{src="/img/vezni/025b-chribska.jpg" alt="věžní Chřibská — fotografie sbírkového předmětu (b)" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/025b-chribska.jpg" alt="věžní hodiny Chřibská — detail upraveného jicího stroje s plochým krokovým kolem a celými kolíčky (původní vřetenový krok byl nahrazen koncem 19. nebo počátkem 20. století), velká mosazná kola pro nařizování času na číselnících" author="Miroslav Baudisch"}
 
 Hodiny jsou původem z kostela sv. Jiří ve Chřibské. Podle typu konstrukce lze předpokládat, že byly vyrobeny na počátku 18. století. Stroj, sestávající se ze tří částí : hodinového stroje, [odbíjení](/slovnik/odbijeni) čtvrtí a odbíjení celých hodin, je uložen v rámu z kovaných pásnic, zachycených v rohových sloupcích, které jsou ozdobeny volutami. Jeden ze sloupků chyběl a byl doplněn novodobou kopií. Spojení částí je provedeno klínky. Jicí stroj byl zásadně upraven snad koncem 19. nebo počátkem 20. století, kdy byl odstraněn **[vřetenový krok](/kroky/vretenovy-krok)** a nahrazen krokovým mechanismem s plochým krokovým kolem s celými kolíčky. Také byl upraven převod točivého momentu z jicího stroje k číselníkům - byla osazena velká mosazná kola a spojka pro nařizování času na číselnících. Byly zhotoveny také nové, větší větrníky.
 
