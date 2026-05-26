@@ -102,16 +102,6 @@
     }
   </style>
 
-  <defs>
-    <!-- Screw definition — z předlohy Wikipedia, ekvivalent `<g id="screw">`.
-         Použito 3× přes `<use>` v anchor groupě s různými transforms
-         (originál: pivot levo + pivot pravo + vrchol kotvy nad pivotem). -->
-    <g id="screw">
-      <circle cx="322.57" cy="144.01" r="7.54" fill="#F0E4C8" stroke="#3D5878" stroke-width="1.3"/>
-      <path d="m 317.94781,138.07356 9.54465,11.40919" stroke="#3D5878" stroke-width="1" fill="none"/>
-    </g>
-  </defs>
-
   <!-- Pozadí (krémový papír) -->
   <rect x="0" y="0" width="475" height="625" fill="#F0E4C8"/>
 
@@ -194,17 +184,12 @@
     <!-- Pivot kotvy — černé očko (předloha path6114) -->
     <circle cx="242.04" cy="42.69" r="13.78" fill="#3A2818" stroke="none"/>
 
-    <!-- Šrouby v kotvě (3 kusy) — `<use href="#screw">` zachovává
-         identickou geometrii jako Wikipedia originál.
-         Pozice po aplikaci obou transformů (def + use):
-         - screw 1 (levo od pivotu):   (221.21, 62.54)
-         - screw 2 (vpravo od pivotu): (261.34, 61.78)
-         - screw 3 (vrchol kotvy):     (241.26, 13.29) -->
-    <g transform="translate(-101.3616,-81.475)">
-      <use href="#screw"/>
-    </g>
-    <use href="#screw" transform="matrix(0.6903596,-0.7234664,0.7234664,0.6903596,63.683868,177.89531)"/>
-    <use href="#screw" transform="matrix(0.00416913,0.99999131,-0.99999131,0.00416913,302.91468,-208.15311)"/>
+    <!-- Šrouby kotvy odstraněny — v originální Wikipedii se vizuálně
+         "schovávaly" v monochromatickém renderu (vše šedé), ale v naší
+         barevné variantě geometricky vyčnívaly mimo tělo kotvy (anchor
+         body je úzký kolem pivotu). Vzhledem k tomu, že screws nepřinášejí
+         didaktickou hodnotu pro vysvětlení deadbeat fází lock/release/
+         impulse/drop, raději je vynecháme — méně vizuálního šumu. -->
 
     <!-- HIGHLIGHT LEVÉ PALETY — rubín, aktivní v lock 1 fázi
          (t=0→0.22 a t=0.755→1.0, kdy levá paleta drží zub).
