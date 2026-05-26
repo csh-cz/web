@@ -24,8 +24,10 @@ karta:
   vztahKeSbirce: "koupě"
   stav: "funkční"
   rokVyroby: "2002"
-thumbnail: '/img/decin/dalsi_stroje/Krecmer/foto_0005.jpg'
+thumbnail: '/img/vezni/020a-krecmer.jpg'
 ---
+
+::photo{src="/img/vezni/020a-krecmer.jpg" alt="věžní hodiny Václav Krečmer v expozici Hodinária — malý litinový stroj postavený na vysokém černém kovaném stojanu, mosazné soukolí na vrcholu, kontrolní číselník, popisná cedule, závaží zavěšená dole" author="Stanislav Marušák"}
 
 ![Věžní hodiny Krečmer — stroj na stojanu](/img/decin/dalsi_stroje/Krecmer/foto_0005.jpg)
 

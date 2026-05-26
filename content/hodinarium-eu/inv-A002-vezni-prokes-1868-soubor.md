@@ -44,8 +44,10 @@ karta:
   krokJicihoStroje: "Robertův krok (Adolphe Robert ze Sancerre, patent 1852)"
   signatura: "Jan Prokeš v Sobotce 1868"
   adaptaceProVystavu: "Kyvadlová litinová čočka je zavěšena na kyvadlové tyči, která byla pro účely vystavení zkrácena."
-thumbnail: '/img/vez/bychory/f/komplet.jpg'
+thumbnail: '/img/vezni/002a-prokes.jpg'
 ---
+
+::photo{src="/img/vezni/002a-prokes.jpg" alt="věžní komplet Jan Prokeš 1868 ze zámku Býchory v expozici Hodinária — pohled na zelený rám s ozubeným soukolím, signatura „Jan Prokeš v Sobotce 1868“ čitelná na horním břevně, vlevo plaketa s detaily, vpravo přídavný zvonicí stroj, dole zavěšená litinová závaží" author="Stanislav Marušák"}
 
 ![Komplet Prokeš 1868 ze zámku Býchory — fotomontáž všech částí](/img/vez/bychory/f/komplet.jpg)
 

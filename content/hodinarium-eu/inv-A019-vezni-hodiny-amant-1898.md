@@ -24,7 +24,10 @@ karta:
   stav: "funkční"
   rokVyroby: "1898"
   adaptaceProVystavu: "Ve stroji chybělo krokové kolo a kyvadlo s paletami, což bylo doplněno při opravě."
+thumbnail: '/img/vezni/019a-amant-1898.jpg'
 ---
+
+::photo{src="/img/vezni/019a-amant-1898.jpg" alt="věžní hodiny s Amantovým krokem (1898) v expozici Hodinária — frontální pohled na kované pásnice rámu s prořezávanou výzdobou a zelenými ozdobnými prvky, uprostřed bílý kontrolní číselník, na dřevěném rámu vyrytý letopočet „1898“" author="Stanislav Marušák"}
 
 Hodinový stroj je uložen v kovaných pásnicích, které jsou uchyceny v rohových odlévaných sloupcích. Svislé pásnice s ložisky pro kola jsou zdobeny prořezáváním. Chod jicího stroje je řízen **[Amantovým](/kroky/amantuv-krok)** krokem. Ve stroji chybělo krokové kolo a kyvadlo s paletami, což bylo doplněno při opravě. Přesnost chodu je možno sledovat na kontrolním číselníku. Obě bicí soukolí mají méně používanou konstrukci se šnekem. Toto řešení je úsporné, potřebuje pouze hnací buben a šnek s větrníkem, v provozu je obtížněji seříditelné a je náročnější na údržbu. [Odbíjení](/slovnik/odbijeni) čtvrtí je řešeno různě dlouhými kolíky na hnacím bubnu. Buben čtvrťového bicího stroje je osazen krátkými a dlouhými kolíčky v pořadí: K-K-D-K-D-D-K-D-D-D (celkem deset), ovládajícími páku bití, zároveň nahrazujícími závěrkové kolo. Po kolíčcích pojíždějí dvě lyžiny vedle sebe různé délky. Souhrou kolíčků a lyžin je určen počet úderů v dané čtvrthodině.
 
