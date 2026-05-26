@@ -3,193 +3,135 @@
   Grahamův klidový krok (deadbeat escapement) — schematická animace.
 
   Vznikla pro Hodinarium-eu / Český spolek horologický, 2026-05-26.
-  Inspirováno: Chetvorno, "Graham Escapement" (Wikimedia Commons, Public Domain),
+  Předloha: Chetvorno, "Graham Escapement" (Wikimedia Commons, Public Domain),
   https://commons.wikimedia.org/wiki/File:Graham_Escapement.svg
-  Překresleno do jednotného stylu (viz docs/kroky-illustration-style.md):
-  pastelová mosaz × ocelová modř × rubínové palety, sépiové obrysy,
-  technické sans-serif popisky. Geometrie podle originálu (kotva nahoře,
-  V-tvar otevřený dolů, kyvadlová tyč svisle dolů přes rovinu kola).
+
+  Geometrie zachována 1:1 podle předlohy. Změny oproti originálu:
+  - přebarveno do palety hodinarium-eu (viz docs/kroky-illustration-style.md):
+    pastelová mosaz (kolo) × ocelová modř (kotva, tyč), sépiové obrysy,
+    krémový papír v pozadí
+  - odstraněny červené anotace b-b, a, c (zachována jen mechanika)
+  - doplněna SMIL animace: kolo rotuje kontinuálně CCW (1 zub/s = 30s
+    na otáčku), kotva + kyvadlová tyč oscilují ±3° kolem horního pivotu
+    s periodou 2 s (sinusoidální průběh)
 
   License: CC BY 4.0 (Český spolek horologický)
+  Předloha: PD — atribuce zachována v note u ::photo directive.
 -->
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 480 480"
+     viewBox="0 0 475 625"
      role="img"
      aria-labelledby="title desc">
 
   <title id="title">Grahamův klidový krok — schematická animace</title>
   <desc id="desc">
-    Krokové kolo (mosaz, 30 zubů) ve středu kontinuálně rotuje proti
-    směru hodinových ručiček (1 zub/s). Kotva nahoře (ocel) pivotuje
-    s amplitudou ±5°, rubínové palety na koncích ramen střídavě
-    zachycují zuby kola. Kyvadlová tyč svisle dolů, mosazná čočka.
+    Krokové kolo (mosaz, 30 zubů) kontinuálně rotuje proti směru
+    hodinových ručiček. Kotva nahoře (ocel) pivotuje s amplitudou ±3°,
+    kyvadlová tyč svisle dolů přes rovinu kola.
   </desc>
 
-  <defs>
-    <!-- 30zubé krokové kolo: tenké hákovité pily (deadbeat profil),
-         self-centered v (0,0), poloměr ven 80, vnitřní disk 55 -->
-    <g id="krokove-kolo">
-      <!-- Vnitřní mosazný disk -->
-      <circle cx="0" cy="0" r="55" fill="#E6C97A" stroke="#8A6E35" stroke-width="0.8"/>
-      <!-- 30 zubů — tenké hákovité pily naklopené proti směru rotace (CCW).
-           Každý zub: base 4 (od r=55), tip protažený nahoru na r=80,
-           tip mírně nakloněný doprava (proti CCW rotaci = po směru ručiček). -->
-      <g fill="#E6C97A" stroke="#8A6E35" stroke-width="0.7" stroke-linejoin="round">
-        <polygon points="-2.2,-55 4,-80 2.2,-55"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(12)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(24)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(36)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(48)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(60)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(72)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(84)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(96)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(108)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(120)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(132)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(144)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(156)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(168)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(180)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(192)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(204)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(216)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(228)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(240)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(252)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(264)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(276)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(288)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(300)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(312)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(324)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(336)"/>
-        <polygon points="-2.2,-55 4,-80 2.2,-55" transform="rotate(348)"/>
-      </g>
-      <!-- 4 paprsky -->
-      <g stroke="#8A6E35" stroke-width="0.7" fill="none">
-        <line x1="0" y1="-50" x2="0" y2="-14"/>
-        <line x1="0" y1="50" x2="0" y2="14"/>
-        <line x1="-50" y1="0" x2="-14" y2="0"/>
-        <line x1="50" y1="0" x2="14" y2="0"/>
-      </g>
-      <!-- Hub -->
-      <circle cx="0" cy="0" r="13" fill="#D4B760" stroke="#8A6E35" stroke-width="0.9"/>
-      <circle cx="0" cy="0" r="4" fill="#8A6E35"/>
-    </g>
-
-    <!-- Kotva s paletami: V-tvar otevřený dolů, pivot v (0,0),
-         ramena směřují dolů a ven na ~30° od svislice, palety na koncích. -->
-    <g id="kotva">
-      <!-- Ramena kotvy (V otevřená dolů + vnitřní spodní hrana) -->
-      <path d="
-        M -55,80 L -3,3 L -3,-3 L 3,-3 L 3,3 L 55,80
-        L 50,84 L 0,16 L -50,84 Z"
-        fill="#88A8C8" stroke="#3D5878" stroke-width="0.9" stroke-linejoin="round"/>
-      <!-- Levá paleta (dosahá na pravý bok zubu kola) -->
-      <g transform="translate(-52, 82) rotate(-38)">
-        <rect x="-7" y="-3.5" width="14" height="7" rx="1" fill="#B85068" stroke="#8A3850" stroke-width="0.7"/>
-        <line x1="-5" y1="-2.2" x2="-1" y2="-2.2" stroke="#F0C4D0" stroke-width="0.8" opacity="0.7"/>
-      </g>
-      <!-- Pravá paleta (dosahá na levý bok zubu kola) -->
-      <g transform="translate(52, 82) rotate(38)">
-        <rect x="-7" y="-3.5" width="14" height="7" rx="1" fill="#B85068" stroke="#8A3850" stroke-width="0.7"/>
-        <line x1="-5" y1="-2.2" x2="-1" y2="-2.2" stroke="#F0C4D0" stroke-width="0.8" opacity="0.7"/>
-      </g>
-      <!-- Centrální pivot (s ocelovým očkem) -->
-      <circle cx="0" cy="0" r="6" fill="#88A8C8" stroke="#3D5878" stroke-width="0.9"/>
-      <circle cx="0" cy="0" r="2" fill="#3D5878"/>
-    </g>
-
-    <style>
-      .krok-popisek {
-        font: 12px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
-        font-weight: 400;
-        fill: #3A2818;
-      }
-      .krok-popisek-cislo {
-        font: 600 12px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
-        fill: #3A2818;
-      }
-      .krok-popisek-mensi {
-        font: 10px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
-        font-weight: 400;
-        fill: #3A2818;
-        opacity: 0.7;
-      }
-      .krok-leader {
-        stroke: #6B4A2E;
-        stroke-width: 0.5;
-        stroke-dasharray: 2 1;
-        fill: none;
-      }
-    </style>
-  </defs>
-
   <!-- Pozadí (krémový papír) -->
-  <rect x="0" y="0" width="480" height="480" fill="#F0E4C8"/>
+  <rect x="0" y="0" width="475" height="625" fill="#F0E4C8"/>
 
-  <!-- Kyvadlová tyč (svisle přes kolo — schematická abstrakce, v reálu za rovinou) -->
-  <g class="kyvadlo" transform="translate(240, 80)">
+  <!-- ====== KROKOVÉ KOLO (rotace CCW kolem středu 239.5, 372.6) ====== -->
+  <g>
     <animateTransform
       attributeName="transform"
       type="rotate"
-      values="-5; 5; -5"
+      from="0 239.5 372.6"
+      to="-360 239.5 372.6"
+      dur="30s"
+      repeatCount="indefinite"/>
+
+    <!-- Tělo kola s 30 zuby (předloha path4992) — přebarveno na mosaz -->
+    <path d="m 241.79465,136.275 -41.40625,62.25 c -5.97718,1.34016 -11.82856,2.98298 -17.5625,4.90625 l 9.8125,-62.59375 -27.65625,69.65625 c -5.51938,2.54462 -10.89581,5.36326 -16.09375,8.4375 L 145.48215,155.525 132.8884,229.5875 c -4.83811,3.615 -9.4647,7.4858 -13.90625,11.5625 l -16.59375,-61.46875 3.09375,75.25 c -3.9509,4.498 -7.69904,9.18102 -11.1875,14.0625 l -29,-56.75 18.65625,73.03125 c -2.92648,5.20163 -5.59653,10.55464 -8,16.0625 l -40.1875,-49.5 33.46875,67.5625 c -1.77712,5.68901 -3.29274,11.48843 -4.5,17.40625 L 15.10715,296.7125 61.91965,355.9 c -0.51549,5.527 -0.78125,11.11958 -0.78125,16.78125 0,0.36666 -0.002,0.72761 0,1.09375 L 4.23215,344.9 l 58.0625,48.09375 c 0.67861,5.98846 1.65008,11.89389 2.90625,17.6875 L 3.6384,394.275 l 66.625,34.90625 c 1.91201,5.73475 4.10084,11.32216 6.5625,16.78125 l -63.53125,-3.25 72.375,20.28125 c 3.05368,5.19523 6.32768,10.22104 9.875,15.0625 l -62.71875,10 74.8125,4.8125 c 4.05702,4.45164 8.3597,8.6969 12.84375,12.71875 l -59.125,22.78125 74,-10.84375 c 4.90075,3.53326 9.99451,6.81221 15.25,9.84375 L 97.6384,561.9 167.48215,535.9625 c 5.55788,2.46118 11.25491,4.63828 17.09375,6.53125 l -44.5,44.625 62.78125,-39.78125 c 5.96259,1.24986 12.02174,2.20603 18.1875,2.84375 l -34.1875,52.78125 53,-51.8125 c 6.22654,-0.009 12.37567,-0.33811 18.4375,-0.96875 l -22.375,58.5625 40.9375,-61.5 c 6.10255,-1.29551 12.08287,-2.91089 17.9375,-4.8125 l -9.6875,61.75 27.15625,-68.4375 c 5.70734,-2.5458 11.25292,-5.39154 16.625,-8.5 l 3.375,62.25 12.3125,-72.46875 c 5.04911,-3.6767 9.9021,-7.60723 14.53125,-11.78125 l 16.21875,60.09375 -3,-73.34375 c 4.18443,-4.64997 8.12955,-9.52128 11.8125,-14.59375 l 28.3125,55.375 -18.15625,-70.96875 c 3.13207,-5.42309 5.9727,-11.0485 8.53125,-16.8125 l 39.125,48.1875 -32.46875,-65.5625 c 1.92789,-5.96335 3.54502,-12.06163 4.84375,-18.28125 l 48.28125,38.96875 -45.40625,-57.375 c 0.60945,-6.00011 0.90625,-12.08898 0.90625,-18.25 0,-0.22 8e-4,-0.43644 0,-0.65625 l 55.375,28.09375 -56.40625,-46.75 c -0.67932,-6.31123 -1.68016,-12.52823 -3,-18.625 l 60.03125,16 -64.96875,-34.03125 c -1.97827,-5.99429 -4.26626,-11.86804 -6.84375,-17.5625 l 62.125,3.15625 -70.78125,-19.84375 c -3.17636,-5.41108 -6.63295,-10.62896 -10.34375,-15.65625 l 61.625,-9.84375 -73.5625,-4.71875 c -4.19996,-4.59235 -8.65819,-8.96162 -13.3125,-13.09375 l 58.34375,-22.53125 -73.125,10.71875 c -5.03765,-3.59935 -10.27882,-6.93052 -15.6875,-10 L 380.10715,183.11875 310.6384,208.9 c -5.64804,-2.45313 -11.44159,-4.63201 -17.375,-6.5 l 44.375,-44.5 -62.8125,39.78125 c -5.98743,-1.19853 -12.06247,-2.10427 -18.25,-2.6875 l 34.28125,-52.9375 -53.34375,52.15625 c -6.1754,0.0711 -12.2718,0.44172 -18.28125,1.125 l 22.5625,-59.0625 z m -2.1875,75 c 47.40446,0 90.03354,20.42667 119.5625,52.96875 L 261.8259,344.5875 c -6.10655,-4.83872 -13.82241,-7.71875 -22.21875,-7.71875 -1.73549,0 -3.42423,0.13641 -5.09375,0.375 L 189.7009,219.15 c 15.71565,-5.1045 32.48865,-7.875 49.90625,-7.875 z m -66.46875,14.25 46.375,117.46875 c -7.85423,5.32824 -13.44686,13.7215 -15.15625,23.4375 L 78.2009,372.525 c 0.0623,-65.38725 38.98692,-121.6917 94.9375,-147 z m 197.21875,52.5 c 19.28531,26.59215 30.65625,59.29474 30.65625,94.65625 0,29.31513 -7.80844,56.80546 -21.46875,80.5 l -106.46875,-67.75 c 1.5117,-3.96362 2.34375,-8.25543 2.34375,-12.75 0,-5.56293 -1.26798,-10.83419 -3.53125,-15.53125 l 98.46875,-79.125 z m -165.1875,104.46875 c 2.64918,9.29791 8.96591,17.04245 17.28125,21.59375 l -33.25,121.96875 C 130.10928,506.64968 86.09365,454.04874 79.16965,390.30625 l 126,-7.8125 z m 58.9375,16.3125 105.71875,69.25 c -29.37284,40.03341 -76.75918,66.03125 -130.21875,66.03125 -11.38857,0 -22.49667,-1.19406 -33.21875,-3.4375 l 31.53125,-122.21875 c 0.55937,0.026 1.12172,0.0625 1.6875,0.0625 9.46974,0 18.0958,-3.68539 24.5,-9.6875 z"
+       fill="#E6C97A" stroke="#8A6E35" stroke-width="1.4" stroke-linejoin="miter" stroke-linecap="round"/>
+
+    <!-- Středový čep kola (předloha path4988) -->
+    <circle cx="239.61" cy="372.67" r="16.72" fill="#3A2818" stroke="none"/>
+  </g>
+
+  <!-- ====== KOTVA + KYVADLO (oscilace ±3° kolem pivotu 242, 42.7) ====== -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="-3 242 42.7; 3 242 42.7; -3 242 42.7"
       keyTimes="0; 0.5; 1"
       dur="2s"
       repeatCount="indefinite"
       calcMode="spline"
-      keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"
-      additive="sum"/>
-    <!-- Kotva (V-tvar s paletami) -->
-    <g transform="translate(-240, -80)">
-      <use href="#kotva" x="240" y="80"/>
+      keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+
+    <!-- Kyvadlová tyč: hrot na konci (předloha path6112) -->
+    <path d="m 261.6309,622.17293 c -2.23017,1.25778 -4.48017,0.84442 -7.23619,-0.17647 l 6.88654,-6.74472 0.34965,6.92119 z"
+       fill="#88A8C8" stroke="#3D5878" stroke-width="1"/>
+
+    <!-- Kyvadlová tyč (předloha rect6109) — dlouhý úzký pruh -->
+    <path d="m 237.47806,65.911658 11.98442,-0.313642 12.02665,555.535694 c -4.13975,-3.45484 -8.13302,3.9376 -11.98442,0.31364 L 237.47806,65.911658 z"
+       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"
+       stroke-linecap="round" stroke-linejoin="miter"/>
+
+    <!-- Kotva (předloha path6134) — vrchní díl s V-tvarem -->
+    <path d="m 242.16965,0.65 c -10.89209,0 -20.79809,4.185503 -28.21875,11.03125 L 39.98215,177.025 l 0.0937,0.0625 -0.28125,0.21875 c 8.77569,13.2201 18.82472,25.48484 29.9375,36.6875 L 91.9196,204.2125 C 82.41582,195.35247 73.68642,185.66683 65.8571,175.24375 96.52129,147.47318 197.66617,56.025 200.16965,56.025 c 0.95645,0 2.06025,0.49383 3.125,1.125 5.98902,15.64954 21.11949,26.78125 38.875,26.78125 18.82456,0 34.75276,-12.51049 39.90625,-29.65625 0.70893,-0.35538 1.4208,-0.60208 2.0625,-0.625 2.56502,-0.0916 111.43742,92.46091 139.53125,116.375 -5.98454,8.47775 -12.46405,16.40297 -19.375,23.78125 l 9.84375,20.78125 c 13.27525,-13.32312 25.21445,-28.39104 35.4375,-45.15625 l -0.3125,-0.1875 0.125,-0.0937 L 268.85715,10.3375 C 261.62973,4.295441 252.32671,0.65 242.16965,0.65 z"
+       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"
+       stroke-linecap="round" stroke-linejoin="miter"/>
+
+    <!-- Pivot kotvy — černé očko (předloha path6114) -->
+    <circle cx="242.04" cy="42.69" r="13.78" fill="#3A2818" stroke="none"/>
+
+    <!-- Šrouby v kotvě (3 kusy — předloha screw + 2× use) -->
+    <g transform="translate(-101.3616,-81.475)">
+      <circle cx="322.57" cy="144.01" r="7.54" fill="#F0E4C8" stroke="#3D5878" stroke-width="1.3"/>
+      <path d="m 317.94781,138.07356 9.54465,11.40919" stroke="#3D5878" stroke-width="1" fill="none"/>
     </g>
-    <!-- Tyč kyvadla -->
-    <line x1="0" y1="0" x2="0" y2="340" stroke="#3D5878" stroke-width="1.4" opacity="0.5"/>
-    <!-- Čočka kyvadla -->
-    <circle cx="0" cy="360" r="14" fill="#D4B760" stroke="#8A6E35" stroke-width="1" opacity="0.85"/>
-    <circle cx="0" cy="360" r="4.5" fill="#8A6E35" opacity="0.85"/>
-    <line x1="-10" y1="357" x2="-3" y2="357" stroke="#F0E4C8" stroke-width="0.8" opacity="0.6"/>
+    <g transform="matrix(0.6903596,-0.7234664,0.7234664,0.6903596,63.683868,177.89531)">
+      <circle cx="322.57" cy="144.01" r="7.54" fill="#F0E4C8" stroke="#3D5878" stroke-width="1.3"/>
+      <path d="m 317.94781,138.07356 9.54465,11.40919" stroke="#3D5878" stroke-width="1" fill="none"/>
+    </g>
+    <g transform="matrix(0.00416913,0.99999131,-0.99999131,0.00416913,302.91468,-208.15311)">
+      <circle cx="322.57" cy="144.01" r="7.54" fill="#F0E4C8" stroke="#3D5878" stroke-width="1.3"/>
+      <path d="m 317.94781,138.07356 9.54465,11.40919" stroke="#3D5878" stroke-width="1" fill="none"/>
+    </g>
   </g>
 
-  <!-- Krokové kolo (kontinuální linear rotace CCW, 30 zubů × 12° = 360° za 30 s) -->
-  <g transform="translate(240, 240)">
-    <g>
-      <animateTransform
-        attributeName="transform"
-        type="rotate"
-        from="0" to="-360"
-        dur="30s"
-        repeatCount="indefinite"/>
-      <use href="#krokove-kolo"/>
-    </g>
-  </g>
-
-  <!-- POPISKY s leader lines -->
+  <!-- ====== POPISKY (statické, sépie, sans-serif) ====== -->
+  <style>
+    .krok-popisek {
+      font: 12px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+      font-weight: 400;
+      fill: #3A2818;
+    }
+    .krok-popisek-cislo {
+      font: 600 12px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+      fill: #3A2818;
+    }
+    .krok-popisek-mensi {
+      font: 10px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+      font-weight: 400;
+      fill: #3A2818;
+      opacity: 0.7;
+    }
+  </style>
 
   <!-- A — Krokové kolo (vlevo) -->
-  <text x="14" y="240" class="krok-popisek-cislo">A</text>
-  <text x="28" y="240" class="krok-popisek">— Krokové kolo (mosaz, 30 zubů)</text>
-  <path d="M 22 236 Q 80 236 152 240" class="krok-leader"/>
+  <text x="6" y="378" class="krok-popisek-cislo">A</text>
+  <text x="20" y="378" class="krok-popisek">— Krokové kolo (mosaz, 30 zubů)</text>
 
-  <!-- B — Kotva (nahoře) -->
-  <text x="14" y="40" class="krok-popisek-cislo">B</text>
-  <text x="28" y="40" class="krok-popisek">— Kotva (ocel)</text>
-  <path d="M 22 36 Q 80 50 175 75" class="krok-leader"/>
+  <!-- B — Kotva (vlevo nahoře) -->
+  <text x="6" y="50" class="krok-popisek-cislo">B</text>
+  <text x="20" y="50" class="krok-popisek">— Kotva (ocel)</text>
 
-  <!-- C — Palety (vpravo nahoře) -->
-  <text x="340" y="170" class="krok-popisek-cislo">C</text>
-  <text x="354" y="170" class="krok-popisek">— Palety (rubín)</text>
-  <path d="M 337 166 Q 320 160 300 158" class="krok-leader"/>
+  <!-- C — Palety (vpravo, u boků kotvy) -->
+  <text x="350" y="220" class="krok-popisek-cislo">C</text>
+  <text x="364" y="220" class="krok-popisek">— Palety</text>
 
-  <!-- D — Tyč + čočka (vpravo dole) -->
-  <text x="340" y="440" class="krok-popisek-cislo">D</text>
-  <text x="354" y="440" class="krok-popisek">— Tyč kyvadla a čočka</text>
-  <path d="M 337 436 Q 295 440 254 442" class="krok-leader"/>
+  <!-- D — Tyč kyvadla (vpravo dole) -->
+  <text x="290" y="560" class="krok-popisek-cislo">D</text>
+  <text x="304" y="560" class="krok-popisek">— Tyč kyvadla</text>
 
   <!-- Spodní popis -->
-  <text x="240" y="468" text-anchor="middle" class="krok-popisek-mensi">
+  <text x="237.5" y="615" text-anchor="middle" class="krok-popisek-mensi">
     Grahamův klidový krok (G. Graham, 1715) — schematická animace
   </text>
 </svg>
