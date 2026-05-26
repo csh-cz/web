@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated": "2026-05-25T15:17:36.006Z",
-    "count": 157,
-    "stubs": 83,
+    "generated": "2026-05-26T13:15:24.667Z",
+    "count": 181,
+    "stubs": 82,
     "redirects": 5,
     "withConceptId": 17,
     "withVyznamy": 0,
@@ -11,6 +11,82 @@
     "description": "Slovník hodinářské terminologie — Hodinárium. Pro AI agenty, MCP server, terminology lint."
   },
   "entries": {
+    "amantuv-krok": {
+      "lemma": "Amantův krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Amantův krok",
+          "status": "preferred",
+          "note": "Moderní cs eponym; Bureš 1965, Sušický 1900."
+        },
+        {
+          "term": "kolíčkový krok",
+          "status": "admitted",
+          "note": "Generický cs termín pro celou skupinu (Amant, Lepaute, Brocot, Roskopf). V užším smyslu Amantův typ."
+        },
+        {
+          "term": "krok kolíčkový",
+          "status": "archaic",
+          "note": "Sušický 1900: „Amant sestrojil r. 1741 krok koláčkový„ (OCR „koláčkový\" = „kolíčkový\").",
+          "doloženo": "Sušický 1900"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Stiftengang",
+            "genus": "m",
+            "zdroj": "Špatný 1882; Dietzschold 1905 — obecný DE pro kolíčkový krok (Amantův + Brocotův)"
+          },
+          {
+            "term": "Stiftenanker",
+            "genus": "m",
+            "zdroj": "DE varianta — krok s kolíčky na kotvě (Brocot); v užším smyslu Brocot, ne Amant"
+          },
+          {
+            "term": "Amant-Hemmung",
+            "genus": "f",
+            "zdroj": "DE explicitní eponym"
+          }
+        ],
+        "en": [
+          {
+            "term": "pin-wheel escapement",
+            "zdroj": "primární EN — krok s kolíčky na krokovém kole (= Amantův typ)"
+          },
+          {
+            "term": "Amant escapement",
+            "zdroj": "EN eponym"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement à chevilles",
+            "genus": "m",
+            "zdroj": "FR — krok s kolíčky (Sušický 1900: 'Hodinář francouzský Amant sestrojil r. 1741 krok kolíčkový')"
+          },
+          {
+            "term": "échappement Amant",
+            "genus": "m",
+            "zdroj": "FR eponym"
+          }
+        ]
+      },
+      "definice": "Kolíčkový krok francouzského hodináře Pierra Amanta z roku 1741 pro věžní a velké interiérové hodiny. Místo ozubeného krokového kola má kolo s vstavenými kolíčky (1 řada), palety kotvy zabírají do kolíčků z jedné strany. Vhodný pro masivní věžní hodiny — toleruje hrubší výrobu a špínu lépe než kotvový krok s ozubeným kolem.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "kolickovy-krok",
+        "kotva",
+        "krokove-kolo"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "anglicka-skola": {
       "lemma": "anglická škola",
       "lang": "cs",
@@ -42,6 +118,89 @@
       "pribuzne": [
         "hodinar",
         "chronometr"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "anglicky-kotvovy-krok": {
+      "lemma": "anglický kotvový krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "anglický kotvový krok",
+          "status": "preferred",
+          "note": "Cs odborné označení. Anglický „lever escapement\" se v cs překládá jako „kotvový krok\", ne „páčkový\" (Martínek 1964).",
+          "doloženo": "Martínek 1964, terminologie kapitoly Kotvové kroky"
+        },
+        {
+          "term": "volný anglický kotvový krok",
+          "status": "admitted",
+          "note": "Plný popisný — Mudge je první detached (volný) kotvový krok.",
+          "doloženo": "Sušický 1900: Volný krok dělí se na krok kotvový a chronometrový; Království hodin: krok kotvový anglický — volný kotvový krok"
+        },
+        {
+          "term": "krok kotvový anglický",
+          "status": "admitted",
+          "note": "Inverze (Království hodin lemma).",
+          "doloženo": "Království hodin"
+        },
+        {
+          "term": "Mudgeův krok",
+          "status": "admitted",
+          "note": "Eponym — Thomas Mudge (1715–1794)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "englische Ankerhemmung",
+            "genus": "f",
+            "zdroj": "DE standardní (Berner FHS ID 1248)"
+          },
+          {
+            "term": "englischer Ankergang",
+            "genus": "m",
+            "zdroj": "DE starší forma"
+          }
+        ],
+        "en": [
+          {
+            "term": "English lever escapement",
+            "zdroj": "EN standardní (Berner FHS ID 1248)"
+          },
+          {
+            "term": "Mudge lever escapement",
+            "zdroj": "EN eponym"
+          },
+          {
+            "term": "detached lever escapement",
+            "zdroj": "EN obecné — Mudge je prvním detached lever krokem"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement à ancre anglais",
+            "genus": "m",
+            "zdroj": "FR (Berner FHS)"
+          },
+          {
+            "term": "échappement Mudge",
+            "genus": "m",
+            "zdroj": "FR eponym"
+          }
+        ]
+      },
+      "definice": "První volný (detached) kotvový krok pro kapesní hodinky. Setrvačka je v kontaktu s krokem pouze v okamžiku popudu a odjištění; mezitím kýve volně. Sestrojil Thomas Mudge (1715–1794) kolem 1755 ve Velké Británii. Zuby krokového kola jsou ostré (špičaté), popud nese plně paleta. Předchůdce moderního švýcarského kroku (úprava zubů 19. st.: Robin a další).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "kotva",
+        "setrvacka",
+        "kotvovy-krok",
+        "svycarsky-krok"
       ],
       "isStub": false,
       "redirectTo": null
@@ -146,6 +305,85 @@
       "isStub": false,
       "redirectTo": null
     },
+    "berthouduv-krok": {
+      "lemma": "Berthoudův chronometrický krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Berthoudův krok",
+          "status": "preferred",
+          "note": "Cs eponym, krátká forma."
+        },
+        {
+          "term": "Berthoudův chronometrický krok",
+          "status": "preferred",
+          "note": "Plný cs název."
+        },
+        {
+          "term": "krok chronometrický berthoudův",
+          "status": "admitted",
+          "note": "Inverze (Království hodin)."
+        },
+        {
+          "term": "čepový chronometrický krok",
+          "status": "admitted",
+          "note": "Popisný cs termín — k odlišení od Earnshawova pružinového."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Berthoud-Hemmung",
+            "genus": "f",
+            "zdroj": "DE eponym"
+          },
+          {
+            "term": "Chronometerhemmung mit Zapfen­chronometer",
+            "genus": "f",
+            "zdroj": "DE — čepová verze (Zapfenchronometer)"
+          },
+          {
+            "term": "Zapfenchronometer",
+            "genus": "m",
+            "zdroj": "DE — čepový chronometr (typ Berthoud / Le Roy)"
+          }
+        ],
+        "en": [
+          {
+            "term": "Berthoud detent escapement",
+            "zdroj": "EN eponym"
+          },
+          {
+            "term": "pivoted detent escapement",
+            "zdroj": "EN — čepová zástavka (na rozdíl od Earnshawovy pružinové)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement à détente Berthoud",
+            "genus": "m",
+            "zdroj": "FR primární"
+          },
+          {
+            "term": "échappement à détente pivotée",
+            "genus": "m",
+            "zdroj": "FR popisný — čepová zástavka"
+          }
+        ]
+      },
+      "definice": "Francouzská čepová verze volného zarážkového kroku pro mořské chronometry. Zástavka je na otočném čepu (pivot) místo pružiny — robustnější ale výrobně náročnější než Earnshawova varianta. Vynalezl Ferdinand Berthoud (1727–1807) v 70.–80. letech 18. století, principiálně odvozeno z poznatků Pierre Le Roya. Standard pro francouzské mořské chronometry; v 19. století postupně vytlačen britskou Earnshawovou verzí.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "setrvacka",
+        "earnshawuv-krok"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "bici-stroj": {
       "lemma": "bicí stroj",
       "lang": "cs",
@@ -218,6 +456,151 @@
         "majlit"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "brocotuv-krok": {
+      "lemma": "Brocotův krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Brocotův krok",
+          "status": "preferred",
+          "note": "Moderní cs eponym."
+        },
+        {
+          "term": "krok Brocotův",
+          "status": "admitted",
+          "note": "Inverze."
+        },
+        {
+          "term": "krok kotvový kolíčkový s kolíčkovou kotvou",
+          "status": "admitted",
+          "note": "Strukturovaný popisný — varianta B kolíčkového kroku.",
+          "doloženo": "Slovník: kolíčkový krok, varianta B"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Brocots Stiftengang",
+            "genus": "m",
+            "zdroj": "DE — Dietzschold 1905"
+          },
+          {
+            "term": "Brocot-Hemmung",
+            "genus": "f",
+            "zdroj": "DE eponym"
+          },
+          {
+            "term": "Stiftenanker",
+            "genus": "m",
+            "zdroj": "DE varianta — „kotva s kolíčky\" (rys Brocotovy konstrukce)"
+          }
+        ],
+        "en": [
+          {
+            "term": "Brocot escapement",
+            "zdroj": "EN eponym"
+          },
+          {
+            "term": "pin pallet escapement",
+            "zdroj": "EN obecný — kotva s kolíčky (zahrnuje i Roskopfa)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement Brocot",
+            "genus": "m",
+            "zdroj": "FR eponym primární"
+          },
+          {
+            "term": "échappement à goupilles",
+            "genus": "m",
+            "zdroj": "FR — kotva s kolíčky"
+          }
+        ]
+      },
+      "definice": "Klidový kotvový krok s kolíčky tvořícími palety kotvy. Krokové kolo má normální ostré zuby, ale kotva je nahrazena dvěma poloválcovými kolíčky. Vynalezl Achille Brocot kolem 1850. Často integrovaný do osy kyvadla, viditelný zepředu ciferníku — typická vlastnost pařížských pendulí 19. století („Brocotova kotva\" jako dekorativní prvek).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "kolickovy-krok",
+        "amantuv-krok",
+        "kotva"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "carkovy-krok": {
+      "lemma": "čárkový krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "čárkový krok",
+          "status": "preferred",
+          "note": "Cs forma — překlad z FR virgule („čárka\")."
+        },
+        {
+          "term": "krok čárkový",
+          "status": "admitted",
+          "note": "Inverze (Království hodin)."
+        },
+        {
+          "term": "dvojitý čárkový krok",
+          "status": "admitted",
+          "note": "Beaumarchaisovo zdokonalení 1752 (double-virgule)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Virgelgang",
+            "genus": "m",
+            "zdroj": "DE — Berner FHS ID 1248 („virgule escapement\", 1750)"
+          },
+          {
+            "term": "Virgelhemmung",
+            "genus": "f",
+            "zdroj": "DE varianta"
+          }
+        ],
+        "en": [
+          {
+            "term": "virgule escapement",
+            "zdroj": "EN — Berner FHS ID 1248 (1750)"
+          },
+          {
+            "term": "dash escapement",
+            "zdroj": "EN popisný překlad „čárkový\" (Berner: virgule = comma/dash)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement à virgule",
+            "genus": "m",
+            "zdroj": "FR primární (Berner FHS)"
+          },
+          {
+            "term": "échappement à double virgule",
+            "genus": "m",
+            "zdroj": "FR — dvojitý čárkový (Beaumarchais 1752)"
+          }
+        ]
+      },
+      "definice": "Klidový krok pro kvalitní kapesní hodinky 18. století, využívající popudné raménko ve tvaru čárky (FR „virgule\") na hřídeli setrvačky. Vynalezli Jean-André Lepaute a Jean-Antoine Lépine ~1750; dvojitou verzi (double-virgule) Pierre-Auguste Caron de Beaumarchais ~1752. Nepřímý vývoj válcového kroku, nakonec vytlačen anglickým a švýcarským páčkovým krokem.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "setrvacka",
+        "valcovy-krok"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "casova-rovnice": {
@@ -369,31 +752,78 @@
       "isStub": true,
       "redirectTo": null
     },
-    "cep-orloje": {
-      "lemma": "čep / čípek (orlojní)",
+    "cernolesky-krok": {
+      "lemma": "černoleský krok",
       "lang": "cs",
       "conceptId": null,
       "kategorie": "mechanika",
       "varianty": [
         {
-          "term": "čep",
-          "status": "admitted"
+          "term": "černoleský krok",
+          "status": "preferred",
+          "note": "Cs forma — geografický odkaz na Schwarzwald („Černý les\")."
         },
         {
-          "term": "čípek",
-          "status": "admitted"
+          "term": "krok kotvový černoleský",
+          "status": "admitted",
+          "note": "Plný popisný (Království hodin)."
+        },
+        {
+          "term": "schwarzwaldský krok",
+          "status": "admitted",
+          "note": "Přímý překlad z DE."
         }
       ],
-      "translations": {},
-      "definice": "Konec hřídele otáčející se v ložisku (herštuku, pušce, kštudlici). Táborský detailně popisuje opotřebení čepů — v 16. století ještě nebyly z ušlechtilé oceli, jen \"v hertu kalené\".",
+      "translations": {
+        "de": [
+          {
+            "term": "Schwarzwälder Hemmung",
+            "genus": "f",
+            "zdroj": "DE primární — krok černolesský (Schwarzwald)"
+          },
+          {
+            "term": "Schwarzwälder Ankergang",
+            "genus": "m",
+            "zdroj": "DE — kotvový krok schwarzwaldský"
+          },
+          {
+            "term": "Blechanker",
+            "genus": "m",
+            "zdroj": "DE — „plechová kotva\" (rys konstrukce)"
+          }
+        ],
+        "en": [
+          {
+            "term": "Black Forest escapement",
+            "zdroj": "EN — překlad regionálního názvu"
+          },
+          {
+            "term": "sheet metal anchor escapement",
+            "zdroj": "EN popisný — kotva svinutá z plechu"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement Forêt-Noire",
+            "genus": "m",
+            "zdroj": "FR — regionální"
+          },
+          {
+            "term": "échappement à ancre en tôle",
+            "genus": "m",
+            "zdroj": "FR popisný"
+          }
+        ]
+      },
+      "definice": "Vratný kotvový krok s kotvou svinutou z ocelového plechu. Typický prvek lidového jihoněmeckého hodinářství ze Schwarzwaldu (Černý les). Zaveden na přelomu 18. a 19. století, kdy nahradil vretenový krok v lidových hodinách. Levné, robustní, výrobně jednoduché řešení pro hodiny vyráběné v selských dílnách jako vedlejší zaměstnání zemědělců.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "herstuk",
-        "kstudle",
-        "vyhloditi"
+        "krok",
+        "kotva",
+        "kotvovy-krok"
       ],
-      "isStub": true,
+      "isStub": false,
       "redirectTo": null
     },
     "chronograf": {
@@ -822,6 +1252,65 @@
       "isStub": false,
       "redirectTo": null
     },
+    "de-bethunuv-dvoupakovy-krok": {
+      "lemma": "Chevalier de Béthunův dvoupákový krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "dvoupákový krok (systém Chevalier de Béthune)",
+          "status": "preferred",
+          "note": "Plný cs (Království hodin).",
+          "doloženo": "Království hodin"
+        },
+        {
+          "term": "de Béthunův krok",
+          "status": "admitted",
+          "note": "Krátká cs eponymická forma."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Béthune-Hemmung",
+            "genus": "f",
+            "zdroj": "DE eponym"
+          },
+          {
+            "term": "doppelhebelige Hemmung",
+            "genus": "f",
+            "zdroj": "DE — popisný „dvoupáková"
+          }
+        ],
+        "en": [
+          {
+            "term": "Chevalier de Béthune escapement",
+            "zdroj": "EN eponym"
+          },
+          {
+            "term": "double-lever rack escapement",
+            "zdroj": "EN — popisný dvoupákový rohatkový"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement Chevalier de Béthune",
+            "genus": "m",
+            "zdroj": "FR eponym"
+          }
+        ]
+      },
+      "definice": "Nejstarší druh ze skupiny rohatkových kroků s plochým krokovým kolem s čelním ozubením a dvěma pákami. Připisován Chevalierovi de Béthune (Francie, 18. století). Historicky málo rozšířený typ, předchůdce řady experimentálních rohatkových konstrukcí 18.–19. století.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "krokove-kolo"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "declinatio-solis": {
       "lemma": "declinatio (deklinace)",
       "lang": "cs",
@@ -854,6 +1343,358 @@
         "supra-orizontem"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "denisonuv-gravitacni-krok": {
+      "lemma": "Denisonův gravitační krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Denisonův gravitační krok",
+          "status": "preferred",
+          "note": "Plný cs název typu."
+        },
+        {
+          "term": "gravitační krok",
+          "status": "admitted",
+          "note": "Generický termín — gravity escapements jsou skupina (Bloxam, Denison aj.)."
+        },
+        {
+          "term": "Grimthorpův krok",
+          "status": "admitted",
+          "note": "Po pozdějším Denisonově titulu (Lord Grimthorpe od 1886)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Denison-Schwerkrafthemmung",
+            "genus": "f",
+            "zdroj": "DE moderní popisný termín (Schwerkraft = gravitace)"
+          },
+          {
+            "term": "doppelte dreischenklige Schwerkrafthemmung",
+            "genus": "f",
+            "zdroj": "DE plný popis — dvojitý třícípý gravitační krok"
+          }
+        ],
+        "en": [
+          {
+            "term": "double three-legged gravity escapement",
+            "zdroj": "standardní EN — plný název typu"
+          },
+          {
+            "term": "Grimthorpe escapement",
+            "zdroj": "EN po Denisonově titulu (Lord Grimthorpe)"
+          },
+          {
+            "term": "Denison gravity escapement",
+            "zdroj": "EN běžně používané eponym"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement à gravité Denison",
+            "genus": "m",
+            "zdroj": "FR eponym"
+          },
+          {
+            "term": "échappement à gravité à trois bras",
+            "genus": "m",
+            "zdroj": "FR popisný — třícípý gravitační krok"
+          }
+        ]
+      },
+      "definice": "Dvojitý třícípý gravitační krok pro velmi přesné věžní hodiny. Kyvadlo dostává popud ne od krokového kola přímo, ale od gravitací padajících ramének („nohou„), takže síla popudu je nezávislá na třením kolísající síle pohonu. Vynalezl Edmund Beckett Denison (1816–1905, později Lord Grimthorpe) roku 1852 a uplatnil 1854 v londýnských věžních hodinách Westminster Great Clock („Big Ben\").",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "kyvadlo"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "duplexni-krok": {
+      "lemma": "duplexní krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "duplexní krok",
+          "status": "preferred",
+          "note": "Moderní cs."
+        },
+        {
+          "term": "krok duplexní",
+          "status": "admitted",
+          "note": "Inverze (Sušický 1900: „krok dvojitý (duplexní)\", Království hodin).",
+          "doloženo": "Sušický 1900, s. 287"
+        },
+        {
+          "term": "dvoukolý duplexní krok",
+          "status": "admitted",
+          "note": "Původní verze se dvěma krokovými koly (Dutertre)."
+        },
+        {
+          "term": "jednokolý duplexní krok",
+          "status": "admitted",
+          "note": "Pozdější zjednodušení — jedno kolo se dvěma řadami zubů (Pierre Le Roy)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Duplex-Hemmung",
+            "genus": "f",
+            "zdroj": "DE standardní"
+          },
+          {
+            "term": "Duplexgang",
+            "genus": "m",
+            "zdroj": "DE starší forma"
+          }
+        ],
+        "en": [
+          {
+            "term": "duplex escapement",
+            "zdroj": "EN standardní; Berner FHS"
+          },
+          {
+            "term": "dual escapement",
+            "zdroj": "EN popisný (dvojité krokové kolo)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement duplex",
+            "genus": "m",
+            "zdroj": "FR standardní"
+          },
+          {
+            "term": "échappement à roue de duplex",
+            "genus": "m",
+            "zdroj": "FR plný"
+          }
+        ]
+      },
+      "definice": "Klidový krok s dvojitou řadou zubů na krokovém kole — jedna v rovině obvodu pro klidovou fázi, druhá kolmo (jako kolíčky) pro popud setrvačce. Setrvačka dostává popud pouze při průchodu jedním směrem (každý druhý kyv). Vynalezl Jean Baptiste Dutertre ~1724, zjednodušil Pierre Le Roy. Použití převážně v kvalitních kapesních hodinkách 18.–19. století; varianta seconde morte (mrtvé sekundy) i v některých interiérových hodinách.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "setrvacka",
+        "krokove-kolo"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "earnshawuv-krok": {
+      "lemma": "Earnshawův chronometrický krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Earnshawův krok",
+          "status": "preferred",
+          "note": "Cs eponym — krátká forma."
+        },
+        {
+          "term": "Earnshawův chronometrický krok",
+          "status": "preferred",
+          "note": "Plný cs název typu."
+        },
+        {
+          "term": "krok chronometrický earnshawův",
+          "status": "admitted",
+          "note": "Inverze (Království hodin)."
+        },
+        {
+          "term": "volný zarážkový krok",
+          "status": "admitted",
+          "note": "Generický cs termín pro celou skupinu (Earnshaw, Berthoud, Litherland).",
+          "doloženo": "Království hodin: „skupina volných zarážkových kroků"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Earnshaw-Hemmung",
+            "genus": "f",
+            "zdroj": "DE eponym"
+          },
+          {
+            "term": "Chronometerhemmung mit Feder­chronometer",
+            "genus": "f",
+            "zdroj": "DE plný — pružinový chronometrový krok"
+          },
+          {
+            "term": "Federchronometer",
+            "genus": "m",
+            "zdroj": "DE — pružinový chronometr (typ Earnshaw)"
+          }
+        ],
+        "en": [
+          {
+            "term": "Earnshaw detent escapement",
+            "zdroj": "EN standardní"
+          },
+          {
+            "term": "spring detent escapement",
+            "zdroj": "EN popisný — pružinová zástavka"
+          },
+          {
+            "term": "pivoted detent escapement (Berthoud)",
+            "zdroj": "EN — pro odlišení od Berthoudova s čepovou zástavkou"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement à détente Earnshaw",
+            "genus": "m",
+            "zdroj": "FR primární"
+          },
+          {
+            "term": "échappement à détente à ressort",
+            "genus": "m",
+            "zdroj": "FR popisný"
+          }
+        ]
+      },
+      "definice": "Volný zarážkový krok (free detent escapement) pro mořské chronometry. Setrvačka kýve plně volně mimo dva krátké okamžiky: odjištění zubu krokového kola pružinovou zástavkou a předání popudu paletě. Vynalezl Thomas Earnshaw (1749–1814) roku 1782 v Anglii. Standardní krok pro mořské chronometry 19.–20. století, používán dodnes ve sběratelských a vědeckých chronometrech.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "setrvacka",
+        "berthouduv-krok"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "elektronicky-mikroprocesorovy-krok": {
+      "lemma": "elektronický (mikroprocesorový) krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "elektronický krok",
+          "status": "preferred",
+          "note": "Generický cs termín pro celou třídu (od jednoduchých kontaktních přes quartz po GPS-synchronizované)."
+        },
+        {
+          "term": "mikroprocesorový krok",
+          "status": "admitted",
+          "note": "Specifický termín pro digitální řízení mikroprocesorem."
+        },
+        {
+          "term": "kvarcový krok",
+          "status": "admitted",
+          "note": "Užší — quartz watch / clock implementation."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "elektronische Hemmung",
+            "genus": "f",
+            "zdroj": "moderní DE odborný termín"
+          },
+          {
+            "term": "Mikroprozessor-Hemmung",
+            "genus": "f",
+            "zdroj": "DE pro mikroprocesorové řízení"
+          },
+          {
+            "term": "Quarzhemmung",
+            "genus": "f",
+            "zdroj": "DE užší termín — krystalovým oscilátorem řízený krok"
+          }
+        ],
+        "en": [
+          {
+            "term": "electronic escapement",
+            "zdroj": "Berner FHS ID 1248 — sekce „electric escapement"
+          },
+          {
+            "term": "microprocessor escapement",
+            "zdroj": "EN explicit mikroprocesorové řešení"
+          },
+          {
+            "term": "quartz escapement",
+            "zdroj": "EN — quartz watch typical implementation"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement électronique",
+            "genus": "m",
+            "zdroj": "FR odborný"
+          },
+          {
+            "term": "échappement à quartz",
+            "genus": "m",
+            "zdroj": "FR — krystalové řízení"
+          }
+        ]
+      },
+      "definice": "Moderní ekvivalent mechanického kroku. Pohyb ručky řídí elektronický obvod (mikroprocesor) místo mechanického oscilátoru s paletkami. Referenční signál: krystalový oscilátor 32 768 Hz, GPS, DCF77, NTP server přes Internet. Mikroprocesor v daný okamžik vydá impulz krokovému motorku, který přesune ručku o krok dále.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "hippuv-prerusovac"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "flammenvilluv-krok": {
+      "lemma": "Flammenvillův krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Flammenvillův krok",
+          "status": "preferred",
+          "note": "Cs eponym."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Flammenville-Hemmung",
+            "genus": "f",
+            "zdroj": "DE eponym"
+          }
+        ],
+        "en": [
+          {
+            "term": "Flammenville escapement",
+            "zdroj": "EN eponym"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement Flammenville",
+            "genus": "m",
+            "zdroj": "FR eponym"
+          }
+        ]
+      },
+      "definice": "Modifikace [vretenového kroku](/kroky/vretenovy-krok), v níž jsou původní palety nahrazeny válečky s plošnými výbrusy. Pokus o vylepšení rovnoměrnosti chodu vretenového kroku zachováním jeho jednoduché konstrukce. Historicky málo rozšířen.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "vretenovy-krok"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "francouzska-skola": {
@@ -1031,6 +1872,167 @@
       "isStub": true,
       "redirectTo": null
     },
+    "grahamuv-krok": {
+      "lemma": "Grahamův krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Grahamův krok",
+          "status": "preferred",
+          "note": "Moderní cs (Bureš 1965, Martínek 1964, Sušický 1900 — „krok Grahamův\")."
+        },
+        {
+          "term": "krok Grahamův",
+          "status": "admitted",
+          "note": "Inverze slovního pořadí (Sušický 1900, Království hodin).",
+          "doloženo": "Sušický 1900; Království hodin"
+        },
+        {
+          "term": "klidový kotvový krok",
+          "status": "admitted",
+          "note": "Obecný cs popisný termín; Bureš 1965 zařazuje Grahamův do skupiny „kroky klidové\".",
+          "doloženo": "Bureš 1965, s. 1435 („b — krok Grahamův (obr. 29) ze skupiny kroků klidových\")"
+        },
+        {
+          "term": "deadbeat krok",
+          "status": "admitted",
+          "note": "Anglicismus, v moderní cs textech přípustný."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Graham-Hemmung",
+            "genus": "f",
+            "zdroj": "moderní DE (Berner FHS, Bureš 1965)"
+          },
+          {
+            "term": "ruhende Ankerhemmung",
+            "genus": "f",
+            "zdroj": "klidová varianta kotvové hemmungy — obecnější označení"
+          },
+          {
+            "term": "Hakenhemmung (ruhend)",
+            "genus": "f",
+            "zdroj": "starší DE — odlišení od háčkové vratné"
+          }
+        ],
+        "en": [
+          {
+            "term": "Graham deadbeat escapement",
+            "zdroj": "standardní EN; Berner FHS ID 1248"
+          },
+          {
+            "term": "deadbeat anchor escapement",
+            "zdroj": "EN obecné označení klidové kotvové"
+          },
+          {
+            "term": "dead-beat escapement",
+            "zdroj": "varianta zápisu (s pomlčkou)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement à ancre Graham",
+            "genus": "m",
+            "zdroj": "FR standardní; Berner FHS"
+          },
+          {
+            "term": "échappement à repos",
+            "genus": "m",
+            "zdroj": "FR obecné označení klidového kroku"
+          }
+        ]
+      },
+      "definice": "Klidový (deadbeat) kotvový krok — palety mají kruhové obvodové plochy soustředné s osou kotvy, takže v okamžiku styku zubu krokové kolo zůstává v klidu (žádný zpětný pohyb). Vynalezl George Graham roku 1715, zdokonalení Hookova vratného kroku. Standard pro přesné kyvadlové hodiny (regulátory, věžní stroje, observatoře) na 200+ let; v české věžní praxi 19. století převažující typ.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "kotva",
+        "paleta",
+        "krokove-kolo",
+        "kotvovy-krok"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "grasshopper-krok": {
+      "lemma": "Grasshopper-krok (Harrisonův)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Grasshopper-krok",
+          "status": "preferred",
+          "note": "Cs forma s ponechaným EN/DE názvem (zoonym Grasshopper = kobylka)."
+        },
+        {
+          "term": "Harrisonův krok",
+          "status": "admitted",
+          "note": "Eponymická cs forma."
+        },
+        {
+          "term": "kobylkový krok",
+          "status": "admitted",
+          "note": "Cs doslovný překlad. Méně frekventované."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Grasshopper-Hemmung",
+            "genus": "f",
+            "zdroj": "DE primární (Berner FHS ID 1731)"
+          },
+          {
+            "term": "Harrison-Hemmung",
+            "genus": "f",
+            "zdroj": "DE eponym"
+          },
+          {
+            "term": "Heuschrecken-Hemmung",
+            "genus": "f",
+            "zdroj": "DE doslovný překlad — „kobylková"
+          }
+        ],
+        "en": [
+          {
+            "term": "grasshopper escapement",
+            "zdroj": "EN primární (Berner FHS ID 1731)"
+          },
+          {
+            "term": "Harrison escapement",
+            "zdroj": "EN eponym"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement Grasshopper",
+            "genus": "m",
+            "zdroj": "FR (Berner FHS — přejaté EN)"
+          },
+          {
+            "term": "échappement de Harrison",
+            "genus": "m",
+            "zdroj": "FR eponym"
+          }
+        ]
+      },
+      "definice": "Vratný krok, který funguje velmi pravidelně, bez trhání a tření, s výhodou nepotřebuje mazání. Palety mají „kopavý\" pohyb podobný zadním nohám kobylky — odtud anglický název grasshopper. Vynalezl John Harrison kolem 1725. Náročný na regulaci, nikdy se rozšířeně nepoužíval, ale historicky významný jako Harrisonův přínos k chronometrii.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "kyvadlo",
+        "kotva"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "herstuk": {
       "lemma": "herštuk",
       "lang": "cs",
@@ -1081,6 +2083,84 @@
         "vaha-orloje"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "hippuv-prerusovac": {
+      "lemma": "Hippův přerušovač",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Hippův přerušovač",
+          "status": "preferred",
+          "note": "Moderní cs termín — popisuje funkci (přerušovač elektrického obvodu)."
+        },
+        {
+          "term": "Hippův toggle",
+          "status": "admitted",
+          "note": "Anglicismus, v moderní cs textech přípustný."
+        },
+        {
+          "term": "Hippův kontakt",
+          "status": "admitted",
+          "note": "Synonymum zaměřené na elektrickou stránku (kontakt v okruhu)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Hipp-Schalter",
+            "genus": "m",
+            "zdroj": "DE primární — pojmenování po Matthäusi Hippovi"
+          },
+          {
+            "term": "Hipp-Toggle",
+            "genus": "m",
+            "zdroj": "DE varianta (anglo-němec­ký termín)"
+          },
+          {
+            "term": "Hippsche Hemmung",
+            "genus": "f",
+            "zdroj": "DE obecné — Hippův krok"
+          }
+        ],
+        "en": [
+          {
+            "term": "Hipp toggle",
+            "zdroj": "standardní EN; Berner FHS ID 1248 — sekce „Hipp's electric escapement"
+          },
+          {
+            "term": "Hipp's electric escapement",
+            "zdroj": "obecné EN označení celého systému"
+          },
+          {
+            "term": "Hipp tongue",
+            "zdroj": "EN alternativní (toggle = „jazýček\")"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement électrique de Hipp",
+            "genus": "m",
+            "zdroj": "FR — Berner FHS"
+          },
+          {
+            "term": "bascule de Hipp",
+            "genus": "f",
+            "zdroj": "FR — toggle jako mechanická složka"
+          }
+        ]
+      },
+      "definice": "Elektromagnetický „toggle„ mechanismus pro elektrické kyvadlové hodiny. Vyvinul jej švýcarský hodinář Matthäus Hipp kolem 1843. Aktivuje se až když amplituda kyvadla klesne pod kritickou hranici; pak elektromagnet vyšle pulz, který kyvadlo „dotlačí\" zpět na plnou amplitudu. Mezitím kyvadlo kýve volně, bez kontaktu s elektrickou částí. Stojí na hranici mezi mechanikou a elektrotechnikou; podle Berner FHS jde o speciální typ kroku („electric escapement\").",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "kyvadlo",
+        "elektronicky-mikroprocesorovy-krok"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "hodinar": {
@@ -1264,7 +2344,6 @@
       "pribuzne": [
         "kralovska-hridel",
         "vreteno-orloje",
-        "cep-orloje",
         "vos"
       ],
       "isStub": true,
@@ -2052,6 +3131,100 @@
       "isStub": false,
       "redirectTo": null
     },
+    "kotvovy-krok": {
+      "lemma": "kotvový krok (vratný)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "kotvový krok",
+          "status": "preferred",
+          "note": "Moderní cs (Bureš 1965, Martínek 1964); v užším smyslu = vratný kotvový (Hooke/Clement)."
+        },
+        {
+          "term": "vratný kotvový krok",
+          "status": "preferred",
+          "note": "Plný název odlišující od klidového Grahamova kroku.",
+          "doloženo": "Bureš 1965"
+        },
+        {
+          "term": "Clementův kotvový krok",
+          "status": "historical",
+          "note": "Po zdokonalení Williamem Clementem ~1670; v Království hodin samostatné heslo.",
+          "doloženo": "Království hodin: krok-kotvovy-clementuv"
+        },
+        {
+          "term": "hák anglický",
+          "status": "archaic",
+          "note": "Sušický 1900 a Království hodin uvádějí původní cs termín; označovalo právě vratný kotvový krok.",
+          "doloženo": "Království hodin: hák anglický (Robert Hooke 1666)"
+        },
+        {
+          "term": "chod kotvičný",
+          "status": "archaic",
+          "note": "Špatný 1882 forma (Ankergang); „kotvičný„ jako adjektivum se v moderním úzu nahrazuje „kotvový\".",
+          "doloženo": "Špatný 1882"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Ankergang",
+            "genus": "m",
+            "zdroj": "Špatný 1882, s. 8 (Cylindergang, ale Ankergang = kotvový krok obecně); Bureš 1965"
+          },
+          {
+            "term": "Ankerhemmung",
+            "genus": "f",
+            "zdroj": "moderní DE synonymum"
+          },
+          {
+            "term": "rückwirkende Ankerhemmung",
+            "genus": "f",
+            "zdroj": "explicitně vratný typ (recoil, k odlišení od klidového Grahamova)"
+          }
+        ],
+        "en": [
+          {
+            "term": "anchor escapement",
+            "zdroj": "standardní EN; Berner FHS"
+          },
+          {
+            "term": "recoil anchor escapement",
+            "zdroj": "explicit recoil (vratný) typ"
+          },
+          {
+            "term": "Clement's anchor escapement",
+            "zdroj": "po Williamu Clementovi (zdokonalitel)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement à ancre à recul",
+            "genus": "m",
+            "zdroj": "FR explicit recoil; Berner FHS"
+          },
+          {
+            "term": "échappement à ancre Clement",
+            "genus": "m",
+            "zdroj": "po Clementovi"
+          }
+        ]
+      },
+      "definice": "První kotvový krok pro kyvadlové hodiny — kotva s dvěma paletami zabírá do zubů krokového kola, paleta při dopadu zubu tlačí kolo zpět o malou odchylku (= vratný typ). Vynalezl Robert Hooke 1666, zdokonalil William Clement ~1670. Standard pro kyvadlové hodiny 1670–1715, dále nahrazen Grahamovým klidovým krokem.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "kotva",
+        "paleta",
+        "krokove-kolo",
+        "grahamuv-krok"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "kralovska-hridel": {
       "lemma": "královská hřídel",
       "lang": "cs",
@@ -2328,6 +3501,56 @@
       "isStub": false,
       "redirectTo": null
     },
+    "leonharduv-krok": {
+      "lemma": "Leonhardův krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Leonhardův krok",
+          "status": "preferred",
+          "note": "Cs eponym."
+        },
+        {
+          "term": "krok kotvový Leonhardův",
+          "status": "admitted",
+          "note": "Plný popisný."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Leonhard-Hemmung",
+            "genus": "f",
+            "zdroj": "DE eponym"
+          }
+        ],
+        "en": [
+          {
+            "term": "Leonhard escapement",
+            "zdroj": "EN eponym"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement Leonhard",
+            "genus": "m",
+            "zdroj": "FR eponym"
+          }
+        ]
+      },
+      "definice": "Volný kotvový krok ve formě modifikace [Grahamova klidového kroku](/kroky/grahamuv-krok) se segmentovými zakřivenými paletami. Vyvinul německý hodinář F. Leonhard ve 2. polovině 19. století. Alternativní řešení pro přesné stojací regulátory.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "grahamuv-krok",
+        "kotvovy-krok"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "lermo": {
       "lemma": "lermo",
       "lang": "cs",
@@ -2463,6 +3686,60 @@
       "isStub": true,
       "redirectTo": null
     },
+    "litherlanduv-krok": {
+      "lemma": "Litherlandův chronometrický krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Litherlandův krok",
+          "status": "preferred",
+          "note": "Cs eponym."
+        },
+        {
+          "term": "Litherlandův rack-lever",
+          "status": "admitted",
+          "note": "Anglická forma pro chronometrický krok s ozubeným hřebenem."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Litherland-Hemmung",
+            "genus": "f",
+            "zdroj": "DE eponym"
+          }
+        ],
+        "en": [
+          {
+            "term": "Litherland chronometer escapement",
+            "zdroj": "EN eponym"
+          },
+          {
+            "term": "rack lever escapement",
+            "zdroj": "EN — alternativní označení (Litherland rack lever, ~1791)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement Litherland",
+            "genus": "m",
+            "zdroj": "FR eponym"
+          }
+        ]
+      },
+      "definice": "Britský chronometrický krok odvozený z klasické konstrukce kotvového kroku s ostrozubým krokovým kolem. Sestrojil Peter Litherland (1756–1804) v Liverpoolu kolem 1791. V britské hodinkářské tradici 19. století často používaný „lacinější\" konstrukcí chronometru než klasický Earnshawův.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "earnshawuv-krok",
+        "kotvovy-krok"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "luozko": {
       "lemma": "lůžko (luožko měsícovo)",
       "lang": "cs",
@@ -2520,6 +3797,69 @@
         "bludit"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "mannhardtuv-krok": {
+      "lemma": "Mannhardtův krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Mannhardtův krok",
+          "status": "preferred",
+          "note": "Cs eponym, krátká forma."
+        },
+        {
+          "term": "Mannhardtův věžní krok",
+          "status": "admitted",
+          "note": "Plný popisný."
+        },
+        {
+          "term": "krok Mannhardtův",
+          "status": "admitted",
+          "note": "Inverze (Království hodin)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Mannhardt-Hemmung",
+            "genus": "f",
+            "zdroj": "DE eponym"
+          },
+          {
+            "term": "Mannhardt-Gravitationshemmung",
+            "genus": "f",
+            "zdroj": "DE — gravitační varianta věžního kroku"
+          }
+        ],
+        "en": [
+          {
+            "term": "Mannhardt escapement",
+            "zdroj": "EN eponym"
+          },
+          {
+            "term": "Mannhardt gravity escapement",
+            "zdroj": "EN — gravitační rys, blízký Denisonovi"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement Mannhardt",
+            "genus": "m",
+            "zdroj": "FR eponym"
+          }
+        ]
+      },
+      "definice": "Krok pro velké věžní hodiny s občasným impulsem udíleným kyvadlu jednou za 30 nebo 60 sekund. V intervalu mezi impulsy kyvadlo kýve volně, nezávisle na hodinovém stroji. Vynalezl Johann Mannhardt (1798–1878), mnichovský hodinář a vynálezce. Pokus o dosažení vysoké přesnosti u věžních hodin přes minimalizaci kontaktu kyvadla s krokem. Konkurent Denisonova gravitačního kroku.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "kyvadlo"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "minuta-hodinarska": {
@@ -3812,6 +5152,131 @@
       "isStub": false,
       "redirectTo": null
     },
+    "rieflerov-krok": {
+      "lemma": "Rieflerův krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Rieflerův krok",
+          "status": "preferred",
+          "note": "Cs eponym."
+        },
+        {
+          "term": "krok kotvový pružinový (systém Riefler)",
+          "status": "admitted",
+          "note": "Plný popisný (Království hodin).",
+          "doloženo": "Království hodin"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Riefler-Hemmung",
+            "genus": "f",
+            "zdroj": "DE eponym"
+          },
+          {
+            "term": "Federchronometer (System Riefler)",
+            "genus": "m",
+            "zdroj": "DE plný popisný"
+          }
+        ],
+        "en": [
+          {
+            "term": "Riefler escapement",
+            "zdroj": "EN eponym"
+          },
+          {
+            "term": "Riefler spring escapement",
+            "zdroj": "EN popisný — pružinový krok"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement Riefler",
+            "genus": "m",
+            "zdroj": "FR eponym"
+          }
+        ]
+      },
+      "definice": "Krok vynalezený mnichovským hodinářem Sigmundem Rieflerem v posledním desetiletí 19. století pro velmi přesné kyvadlové hodiny (observatorní, vědecké). Závěsné pružiny kyvadla současně slouží jako popudné — popud se předává na kyvadlo přímo přes pružinu, ne přes paletu. Kotva kroku je uložena na achátovém břitu místo čepu, čímž se minimalizuje tření.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "kyvadlo",
+        "grahamuv-krok"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "robertuv-krok": {
+      "lemma": "Robertův krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Robertův krok",
+          "status": "preferred",
+          "note": "Moderní cs eponym."
+        },
+        {
+          "term": "Robertův kotvový kolíčkový krok",
+          "status": "admitted",
+          "note": "Plný popisný termín."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Robert-Hemmung",
+            "genus": "f",
+            "zdroj": "DE eponym"
+          },
+          {
+            "term": "Robertscher Stiftengang",
+            "genus": "m",
+            "zdroj": "DE — Dietzschold 1894 (kolíčkový krok podle Roberta)"
+          }
+        ],
+        "en": [
+          {
+            "term": "Robert escapement",
+            "zdroj": "standardní EN eponym"
+          },
+          {
+            "term": "Robert pin-wheel escapement",
+            "zdroj": "EN — krok s kolíčkovým kolem v Robertově verzi"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement Robert",
+            "genus": "m",
+            "zdroj": "FR primární — patentován ve Francii"
+          },
+          {
+            "term": "échappement à chevilles Robert",
+            "genus": "m",
+            "zdroj": "FR explicitní — kolíčkový"
+          }
+        ]
+      },
+      "definice": "Klidový kotvový krok s kolíčkovým krokovým kolem a středově umístěnou kotvou. Patentován ve Francii roku 1852 Adolphem Robertem ze Sancerre, představen na pařížské Světové výstavě 1855. V Čechách jej výhradně používal Jan Prokeš ze Sobotky od roku 1868 ve svých věžních hodinách. Otázka původu zůstává otevřená — Curt Dietzschold (1894) jej připisuje jinému autorovi.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "amantuv-krok",
+        "kolickovy-krok",
+        "grahamuv-krok"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "rubinovy-kamen": {
       "lemma": "rubínový kámen",
       "lang": "cs",
@@ -4800,6 +6265,95 @@
       "isStub": false,
       "redirectTo": null
     },
+    "svycarsky-krok": {
+      "lemma": "švýcarský krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "švýcarský krok",
+          "status": "preferred",
+          "note": "Moderní cs (Martínek 1964, kapitola).",
+          "doloženo": "Martínek 1964, kapitola Švýcarský krok"
+        },
+        {
+          "term": "švýcarský kotvový krok",
+          "status": "admitted",
+          "note": "Martínek 1964 ř. 1739 — Zvaný také švýcarský kotvový nebo jen kotvový.",
+          "doloženo": "Martínek 1964"
+        },
+        {
+          "term": "kotvový krok",
+          "status": "admitted",
+          "note": "V moderním cs hodinářském úzu (Martínek 1964) je krok běžně označován bez přívlastku — kontext kapesních/náramkových hodinek implikuje švýcarský typ.",
+          "doloženo": "Martínek 1964"
+        },
+        {
+          "term": "krok kotvový švýcarský",
+          "status": "admitted",
+          "note": "Inverze (Království hodin).",
+          "doloženo": "Království hodin"
+        },
+        {
+          "term": "volný kotvový krok (švýcarský)",
+          "status": "admitted",
+          "note": "Popisný — krok je detached (volný)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Schweizer Ankerhemmung",
+            "genus": "f",
+            "zdroj": "DE standardní (Berner FHS ID 1248)"
+          },
+          {
+            "term": "Schweizer Ankergang",
+            "genus": "m",
+            "zdroj": "DE starší forma"
+          },
+          {
+            "term": "freie Ankerhemmung",
+            "genus": "f",
+            "zdroj": "DE obecné — volná kotvová hemmunga (detached lever)"
+          }
+        ],
+        "en": [
+          {
+            "term": "Swiss lever escapement",
+            "zdroj": "EN standardní (Berner FHS ID 1248)"
+          },
+          {
+            "term": "lever escapement",
+            "zdroj": "EN obecné — bez prefixu Swiss, dnes synonymum"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement à ancre suisse",
+            "genus": "m",
+            "zdroj": "FR (Berner FHS)"
+          },
+          {
+            "term": "échappement à ancre",
+            "genus": "m",
+            "zdroj": "FR obecné — moderní default"
+          }
+        ]
+      },
+      "definice": "Moderní standard pro hodinky — volný kotvový krok s lopatkovými zuby krokového kola. Vychází z anglického kotvového kroku (Mudge ~1755), úpravou geometrie zubů. Popud sdílen mezi šikmou plochou zubu a paletou kotvy. Standard ~99 % všech mechanických náramkových hodinek 20.–21. století. V české literatuře (Martínek 1964) označován prostě jako švýcarský krok nebo i jen kotvový krok.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "kotva",
+        "setrvacka",
+        "anglicky-kotvovy-krok"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "synchronni-motor": {
       "lemma": "synchronní motor",
       "lang": "cs",
@@ -4909,6 +6463,65 @@
         "kladivko-orloje"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "tompionuv-kotouckovy-krok": {
+      "lemma": "Tompionův kotoučkový krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "Tompionův kotoučkový krok",
+          "status": "preferred",
+          "note": "Cs forma (Království hodin)."
+        },
+        {
+          "term": "Tompionův krok",
+          "status": "admitted",
+          "note": "Krátká forma — pozor, Tompion má více vynálezů (Tompionův regulátor aj.)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Tompion-Hemmung",
+            "genus": "f",
+            "zdroj": "DE eponym"
+          },
+          {
+            "term": "Tompionscher Vorgänger der Zylinderhemmung",
+            "genus": "f",
+            "zdroj": "DE popisný — předchůdce válcového kroku"
+          }
+        ],
+        "en": [
+          {
+            "term": "Tompion escapement",
+            "zdroj": "EN eponym"
+          },
+          {
+            "term": "Tompion's predecessor cylinder",
+            "zdroj": "EN popisný"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement Tompion",
+            "genus": "m",
+            "zdroj": "FR eponym"
+          }
+        ]
+      },
+      "definice": "Klidový krok s jednostranným popudem. Skok krokového kola a popud setrvačce zprostředkovával výřez v kotoučku na hřídeli setrvačky. Třecí síla mezi kotoučkem a hranami zubů byla zdrojem velkých ztrát energie. Autor: Thomas Tompion (1639–1713), pravděpodobně před rokem 1695. Předchůdce a inspirace pro Grahamův válcový krok (1726).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "valcovy-krok",
+        "setrvacka"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "tryb": {
@@ -5101,6 +6714,85 @@
         "rumpal"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "valcovy-krok": {
+      "lemma": "válcový krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "válcový krok",
+          "status": "preferred",
+          "note": "Preferovaný moderní cs termín. Doloženo u Sušického 1900 („krok válcový čili cylindrový\").",
+          "doloženo": "Sušický 1900, s. 272"
+        },
+        {
+          "term": "válečkový krok",
+          "status": "admitted",
+          "note": "Bureš 1965 používá variantu „Válečkový krok (cylindrový)\".",
+          "doloženo": "Bureš 1965, s. 1651"
+        },
+        {
+          "term": "cylindrický krok",
+          "status": "admitted",
+          "note": "Mezinárodní varianta s latinským kořenem; u Sušického 1900 jako synonymum primárního „válcového\".",
+          "doloženo": "Sušický 1900, s. 272"
+        },
+        {
+          "term": "chod válcový",
+          "status": "archaic",
+          "note": "19. století; v této době se „krok„ obvykle nazýval „chod\" (Cylindergang → chod válcový).",
+          "doloženo": "Špatný 1882, s. 8"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Zylinderhemmung",
+            "genus": "f",
+            "zdroj": "moderní DE odborná terminologie (Bureš 1965; podle Berner FHS)"
+          },
+          {
+            "term": "Zylindergang",
+            "genus": "m",
+            "zdroj": "Špatný 1882, s. 8 (Cylindergang → chod válcový)"
+          }
+        ],
+        "en": [
+          {
+            "term": "cylinder escapement",
+            "zdroj": "Berner FHS dictionary, ID 1248"
+          },
+          {
+            "term": "horizontal escapement",
+            "zdroj": "starší anglosaská tradice (varianta označení podle polohy krokového kola)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement à cylindre",
+            "genus": "m",
+            "zdroj": "Berner FHS dictionary, ID 1248"
+          },
+          {
+            "term": "échappement horizontal",
+            "genus": "m",
+            "zdroj": "francouzská tradice 19. st."
+          }
+        ]
+      },
+      "definice": "Klidový krok s funkcí kotvy přímo na hřídeli setrvačky — duté ocelové válce (cylindru) s podélným výřezem, do něhož postupně vstupují zuby krokového kola. Vynalezen Thomasem Tompionem (1695), zdokonalen Georgem Grahamem (1726).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "krokove-kolo",
+        "kotva",
+        "setrvacka"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "vetrnik": {
@@ -5522,10 +7214,80 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "hridelik-orloje",
-        "cep-orloje"
+        "hridelik-orloje"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "vretenovy-krok": {
+      "lemma": "vretenový krok",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "vretenový krok",
+          "status": "preferred",
+          "note": "Moderní cs forma (Bureš 1965, Martínek 1964, Království hodin)."
+        },
+        {
+          "term": "krok vřetenový",
+          "status": "admitted",
+          "note": "Inverze slovního pořadí — Sušický 1900, Království hodin (jako lemma).",
+          "doloženo": "Sušický 1900, s. 125–135"
+        },
+        {
+          "term": "chod vřetenový",
+          "status": "archaic",
+          "note": "19. st.; tehdy se „krok„ obvykle nazýval „chod\"."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Spindelgang",
+            "genus": "m",
+            "zdroj": "moderní DE odborná terminologie (Bureš 1965)"
+          },
+          {
+            "term": "Spindelhemmung",
+            "genus": "f",
+            "zdroj": "moderní synonymum"
+          }
+        ],
+        "en": [
+          {
+            "term": "verge escapement",
+            "zdroj": "Berner FHS; standardní anglosaská tradice"
+          },
+          {
+            "term": "crown wheel escapement",
+            "zdroj": "Berner FHS ID 1248 — podle tvaru krokového kola (verge + crown wheel)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "échappement à verge",
+            "genus": "m",
+            "zdroj": "Berner FHS; standardní FR"
+          },
+          {
+            "term": "échappement à roue de rencontre",
+            "genus": "m",
+            "zdroj": "FR varianta — podle „kola rencontre\" = nárazového kola"
+          }
+        ]
+      },
+      "definice": "Nejstarší mechanický krok. Svislé vřeteno (kovová hřídel) se dvěma širokými paletami zachytává zuby vodorovně položeného krokového kola (tzv. korunového kola). Vahadlo (lihýř) nebo později kyvadlo na vřetenu udržuje rytmus. Vzniká koncem 13. století s prvními mechanickými věžními hodinami.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "krok",
+        "krokove-kolo",
+        "lihyr",
+        "paleta"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "vrub-zub": {
@@ -5590,8 +7352,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "v-hertu-kalen",
-        "cep-orloje"
+        "v-hertu-kalen"
       ],
       "isStub": true,
       "redirectTo": null

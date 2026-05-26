@@ -10,7 +10,6 @@ varianty:
 definice: "Slovesa popisující opotřebení hodinářských součástí: čep nebo herštuk se „vyhlodal\" = vybrousil tahem rotujícího hřídele do nepoužitelného stavu. Synonyma: *vyjeden*, *vychozen* (opotřebovaný)."
 pribuzne:
   - v-hertu-kalen
-  - cep-orloje
 isStub: true
 references:
   - bibKey: taborskyzklokotskehoryZpravaStaromestskemOrloji1570
@@ -26,7 +25,7 @@ V moderní češtině: **vyběhnout** (čep vyběhl z lůžka), **opotřebovat s
 
 ## Příbuzné termíny
 
-[v-hertu-kalen](/slovnik/v-hertu-kalen), [cep-orloje](/slovnik/cep-orloje)
+[v-hertu-kalen](/slovnik/v-hertu-kalen)
 
 ## Obrázky
 

@@ -3,11 +3,177 @@
     "robertuv-krok": {
       "soupis": [
         "1788-markvartice-prokes"
+      ],
+      "slovnik": [
+        "robertuv-krok"
+      ]
+    },
+    "svycarsky-krok": {
+      "kroky": [
+        "anglicky-kotvovy-krok"
+      ],
+      "slovnik": [
+        "svycarsky-krok"
       ]
     },
     "grahamuv-krok": {
+      "kroky": [
+        "anglicky-kotvovy-krok",
+        "brocotuv-krok",
+        "leonharduv-krok",
+        "mannhardtuv-krok",
+        "rieflerov-krok",
+        "valcovy-krok"
+      ],
+      "slovnik": [
+        "grahamuv-krok"
+      ],
       "hodinari": [
         "george-graham"
+      ]
+    },
+    "earnshawuv-krok": {
+      "kroky": [
+        "berthouduv-krok",
+        "grasshopper-krok",
+        "litherlanduv-krok"
+      ],
+      "slovnik": [
+        "earnshawuv-krok"
+      ]
+    },
+    "amantuv-krok": {
+      "kroky": [
+        "brocotuv-krok"
+      ],
+      "slovnik": [
+        "amantuv-krok"
+      ]
+    },
+    "valcovy-krok": {
+      "kroky": [
+        "carkovy-krok",
+        "duplexni-krok",
+        "tompionuv-kotouckovy-krok"
+      ],
+      "slovnik": [
+        "valcovy-krok"
+      ]
+    },
+    "kotvovy-krok": {
+      "kroky": [
+        "cernolesky-krok",
+        "grasshopper-krok",
+        "litherlanduv-krok",
+        "valcovy-krok"
+      ],
+      "slovnik": [
+        "kotvovy-krok"
+      ]
+    },
+    "vretenovy-krok": {
+      "kroky": [
+        "cernolesky-krok",
+        "flammenvilluv-krok",
+        "tompionuv-kotouckovy-krok",
+        "valcovy-krok"
+      ],
+      "slovnik": [
+        "vretenovy-krok"
+      ]
+    },
+    "tompionuv-kotouckovy-krok": {
+      "kroky": [
+        "duplexni-krok"
+      ],
+      "slovnik": [
+        "tompionuv-kotouckovy-krok"
+      ]
+    },
+    "denisonuv-gravitacni-krok": {
+      "kroky": [
+        "mannhardtuv-krok"
+      ],
+      "slovnik": [
+        "denisonuv-gravitacni-krok"
+      ]
+    },
+    "anglicky-kotvovy-krok": {
+      "kroky": [
+        "svycarsky-krok"
+      ],
+      "slovnik": [
+        "anglicky-kotvovy-krok"
+      ]
+    },
+    "berthouduv-krok": {
+      "slovnik": [
+        "berthouduv-krok"
+      ]
+    },
+    "brocotuv-krok": {
+      "slovnik": [
+        "brocotuv-krok"
+      ]
+    },
+    "carkovy-krok": {
+      "slovnik": [
+        "carkovy-krok"
+      ]
+    },
+    "cernolesky-krok": {
+      "slovnik": [
+        "cernolesky-krok"
+      ]
+    },
+    "de-bethunuv-dvoupakovy-krok": {
+      "slovnik": [
+        "de-bethunuv-dvoupakovy-krok"
+      ]
+    },
+    "duplexni-krok": {
+      "slovnik": [
+        "duplexni-krok"
+      ]
+    },
+    "elektronicky-mikroprocesorovy-krok": {
+      "slovnik": [
+        "elektronicky-mikroprocesorovy-krok"
+      ]
+    },
+    "flammenvilluv-krok": {
+      "slovnik": [
+        "flammenvilluv-krok"
+      ]
+    },
+    "grasshopper-krok": {
+      "slovnik": [
+        "grasshopper-krok"
+      ]
+    },
+    "hippuv-prerusovac": {
+      "slovnik": [
+        "hippuv-prerusovac"
+      ]
+    },
+    "leonharduv-krok": {
+      "slovnik": [
+        "leonharduv-krok"
+      ]
+    },
+    "litherlanduv-krok": {
+      "slovnik": [
+        "litherlanduv-krok"
+      ]
+    },
+    "mannhardtuv-krok": {
+      "slovnik": [
+        "mannhardtuv-krok"
+      ]
+    },
+    "rieflerov-krok": {
+      "slovnik": [
+        "rieflerov-krok"
       ]
     }
   },
@@ -409,9 +575,11 @@
         "1903-medlov-petr-pavel-thondel",
         "1919-olomouc-gymnazium-thondel-vmo",
         "1924-babice-sternberk-thondel",
+        "1927-zabreh-radnice-thondel",
         "1931-olomouc-hodolany-panna-maria-thondel",
         "1932-unicov-radnice-thondel-ntm",
-        "1936-sovinec-sv-augustin-thondel"
+        "1936-sovinec-sv-augustin-thondel",
+        "svitavy-radnice-thondel"
       ]
     },
     "leopold-prokes": {
@@ -1542,6 +1710,11 @@
       "hodinari": [
         "engelbert-seige"
       ]
+    },
+    "svitavy-radnice-thondel": {
+      "hodinari": [
+        "jan-kopriva"
+      ]
     }
   },
   "slovnik": {
@@ -1553,6 +1726,286 @@
         "cifernik",
         "kralovska-hridel",
         "ruka-orloje"
+      ]
+    },
+    "anglicky-kotvovy-krok": {
+      "kroky": [
+        "anglicky-kotvovy-krok"
+      ],
+      "slovnik": [
+        "svycarsky-krok"
+      ]
+    },
+    "krok": {
+      "kroky": [
+        "anglicky-kotvovy-krok",
+        "berthouduv-krok",
+        "brocotuv-krok",
+        "carkovy-krok",
+        "cernolesky-krok",
+        "de-bethunuv-dvoupakovy-krok",
+        "duplexni-krok",
+        "earnshawuv-krok",
+        "flammenvilluv-krok",
+        "grasshopper-krok",
+        "leonharduv-krok",
+        "litherlanduv-krok",
+        "mannhardtuv-krok",
+        "rieflerov-krok",
+        "svycarsky-krok",
+        "tompionuv-kotouckovy-krok",
+        "valcovy-krok"
+      ],
+      "slovnik": [
+        "amantuv-krok",
+        "anglicky-kotvovy-krok",
+        "berthouduv-krok",
+        "brocotuv-krok",
+        "carkovy-krok",
+        "centralni-prevodovka",
+        "cernolesky-krok",
+        "de-bethunuv-dvoupakovy-krok",
+        "denisonuv-gravitacni-krok",
+        "duplexni-krok",
+        "earnshawuv-krok",
+        "elektronicky-mikroprocesorovy-krok",
+        "flammenvilluv-krok",
+        "grahamuv-krok",
+        "grasshopper-krok",
+        "hippuv-prerusovac",
+        "isochronismus",
+        "kolickovy-krok",
+        "kotva",
+        "kotvovy-krok",
+        "krokove-kolo",
+        "leonharduv-krok",
+        "litherlanduv-krok",
+        "mannhardtuv-krok",
+        "natah",
+        "remontoir",
+        "rieflerov-krok",
+        "robertuv-krok",
+        "rubinovy-kamen",
+        "stegrad",
+        "svycarsky-krok",
+        "tompionuv-kotouckovy-krok",
+        "valcovy-krok",
+        "vidlice",
+        "vretenovy-krok",
+        "winnerluv-krok"
+      ]
+    },
+    "kotva": {
+      "kroky": [
+        "anglicky-kotvovy-krok",
+        "brocotuv-krok",
+        "cernolesky-krok",
+        "svycarsky-krok"
+      ],
+      "slovnik": [
+        "amantuv-krok",
+        "anglicky-kotvovy-krok",
+        "brocotuv-krok",
+        "cernolesky-krok",
+        "grahamuv-krok",
+        "grasshopper-krok",
+        "klecovy-ram",
+        "kolickovy-krok",
+        "kotvovy-krok",
+        "krok",
+        "krokove-kolo",
+        "paleta",
+        "svycarsky-krok",
+        "valcovy-krok",
+        "vetrnik"
+      ]
+    },
+    "setrvacka": {
+      "kroky": [
+        "anglicky-kotvovy-krok",
+        "berthouduv-krok",
+        "carkovy-krok",
+        "duplexni-krok",
+        "earnshawuv-krok",
+        "svycarsky-krok",
+        "tompionuv-kotouckovy-krok",
+        "valcovy-krok"
+      ],
+      "slovnik": [
+        "anglicky-kotvovy-krok",
+        "berthouduv-krok",
+        "carkovy-krok",
+        "chronograf",
+        "chronometr",
+        "duplexni-krok",
+        "earnshawuv-krok",
+        "invar",
+        "isochronismus",
+        "kompenzace-teplotni",
+        "kvadrant",
+        "kyvadlo",
+        "lihyr",
+        "regulator",
+        "rubinovy-kamen",
+        "svycarsky-krok",
+        "tompionuv-kotouckovy-krok",
+        "valcovy-krok",
+        "vidlice",
+        "vlasek",
+        "vlaskova-krivka",
+        "vlasova-pruzinka"
+      ]
+    },
+    "berthouduv-krok": {
+      "kroky": [
+        "berthouduv-krok",
+        "earnshawuv-krok"
+      ],
+      "slovnik": [
+        "earnshawuv-krok"
+      ]
+    },
+    "earnshawuv-krok": {
+      "kroky": [
+        "berthouduv-krok",
+        "earnshawuv-krok"
+      ],
+      "slovnik": [
+        "berthouduv-krok",
+        "litherlanduv-krok"
+      ]
+    },
+    "brocotuv-krok": {
+      "kroky": [
+        "brocotuv-krok"
+      ]
+    },
+    "kolickovy-krok": {
+      "kroky": [
+        "brocotuv-krok"
+      ],
+      "slovnik": [
+        "amantuv-krok",
+        "brocotuv-krok",
+        "robertuv-krok"
+      ]
+    },
+    "carkovy-krok": {
+      "kroky": [
+        "carkovy-krok"
+      ]
+    },
+    "cernolesky-krok": {
+      "kroky": [
+        "cernolesky-krok"
+      ]
+    },
+    "de-bethunuv-dvoupakovy-krok": {
+      "kroky": [
+        "de-bethunuv-dvoupakovy-krok"
+      ]
+    },
+    "krokove-kolo": {
+      "kroky": [
+        "de-bethunuv-dvoupakovy-krok",
+        "valcovy-krok"
+      ],
+      "slovnik": [
+        "amantuv-krok",
+        "centralni-prevodovka",
+        "de-bethunuv-dvoupakovy-krok",
+        "duplexni-krok",
+        "grahamuv-krok",
+        "klecovy-ram",
+        "kolickovy-krok",
+        "kotva",
+        "kotvovy-krok",
+        "krok",
+        "paleta",
+        "valcovy-krok",
+        "vidlice",
+        "vretenovy-krok",
+        "winnerluv-krok"
+      ]
+    },
+    "duplexni-krok": {
+      "kroky": [
+        "duplexni-krok"
+      ]
+    },
+    "flammenvilluv-krok": {
+      "kroky": [
+        "flammenvilluv-krok"
+      ]
+    },
+    "grasshopper-krok": {
+      "kroky": [
+        "grasshopper-krok"
+      ]
+    },
+    "kyvadlo": {
+      "kroky": [
+        "grasshopper-krok",
+        "mannhardtuv-krok",
+        "rieflerov-krok"
+      ],
+      "slovnik": [
+        "denisonuv-gravitacni-krok",
+        "grasshopper-krok",
+        "hippuv-prerusovac",
+        "invar",
+        "isochronismus",
+        "kompenzace-teplotni",
+        "lihyr",
+        "mannhardtuv-krok",
+        "regulator",
+        "rieflerov-krok",
+        "setrvacka",
+        "synchronni-motor",
+        "winnerluv-krok",
+        "zavazi"
+      ]
+    },
+    "leonharduv-krok": {
+      "kroky": [
+        "leonharduv-krok"
+      ]
+    },
+    "litherlanduv-krok": {
+      "kroky": [
+        "litherlanduv-krok"
+      ]
+    },
+    "mannhardtuv-krok": {
+      "kroky": [
+        "mannhardtuv-krok"
+      ]
+    },
+    "rieflerov-krok": {
+      "kroky": [
+        "rieflerov-krok"
+      ]
+    },
+    "svycarsky-krok": {
+      "kroky": [
+        "svycarsky-krok"
+      ],
+      "slovnik": [
+        "anglicky-kotvovy-krok"
+      ]
+    },
+    "tompionuv-kotouckovy-krok": {
+      "kroky": [
+        "tompionuv-kotouckovy-krok"
+      ]
+    },
+    "valcovy-krok": {
+      "kroky": [
+        "valcovy-krok"
+      ],
+      "slovnik": [
+        "carkovy-krok",
+        "tompionuv-kotouckovy-krok"
       ]
     },
     "hodinar": {
@@ -1576,6 +2029,15 @@
         "kvadrant",
         "rubinovy-kamen",
         "vlaskova-krivka"
+      ]
+    },
+    "kotvovy-krok": {
+      "slovnik": [
+        "anglicky-kotvovy-krok",
+        "cernolesky-krok",
+        "grahamuv-krok",
+        "leonharduv-krok",
+        "litherlanduv-krok"
       ]
     },
     "sphera": {
@@ -1706,6 +2168,12 @@
         "zfalsovati"
       ]
     },
+    "amantuv-krok": {
+      "slovnik": [
+        "brocotuv-krok",
+        "robertuv-krok"
+      ]
+    },
     "slunecni-hodiny": {
       "slovnik": [
         "casova-rovnice",
@@ -1750,21 +2218,6 @@
         "ukazovaci-stroj"
       ]
     },
-    "krok": {
-      "slovnik": [
-        "centralni-prevodovka",
-        "isochronismus",
-        "kolickovy-krok",
-        "kotva",
-        "krokove-kolo",
-        "natah",
-        "remontoir",
-        "rubinovy-kamen",
-        "stegrad",
-        "vidlice",
-        "winnerluv-krok"
-      ]
-    },
     "soukoli": {
       "slovnik": [
         "centralni-prevodovka",
@@ -1774,64 +2227,10 @@
         "werk"
       ]
     },
-    "krokove-kolo": {
-      "slovnik": [
-        "centralni-prevodovka",
-        "klecovy-ram",
-        "kolickovy-krok",
-        "kotva",
-        "krok",
-        "paleta",
-        "vidlice",
-        "winnerluv-krok"
-      ]
-    },
-    "herstuk": {
-      "slovnik": [
-        "cep-orloje",
-        "kstudle",
-        "puska-orloje",
-        "vocel"
-      ]
-    },
-    "kstudle": {
-      "slovnik": [
-        "cep-orloje",
-        "herstuk",
-        "oblouk-orloje",
-        "puska-orloje",
-        "skripec"
-      ]
-    },
-    "vyhloditi": {
-      "slovnik": [
-        "cep-orloje",
-        "v-hertu-kalen",
-        "vyklusati"
-      ]
-    },
     "opakovaci-hodinky": {
       "slovnik": [
         "chronograf",
         "petite-a-grande-sonnerie"
-      ]
-    },
-    "setrvacka": {
-      "slovnik": [
-        "chronograf",
-        "chronometr",
-        "invar",
-        "isochronismus",
-        "kompenzace-teplotni",
-        "kvadrant",
-        "kyvadlo",
-        "lihyr",
-        "regulator",
-        "rubinovy-kamen",
-        "vidlice",
-        "vlasek",
-        "vlaskova-krivka",
-        "vlasova-pruzinka"
       ]
     },
     "kalibr": {
@@ -1973,6 +2372,16 @@
         "spacium-orloje"
       ]
     },
+    "hippuv-prerusovac": {
+      "slovnik": [
+        "elektronicky-mikroprocesorovy-krok"
+      ]
+    },
+    "vretenovy-krok": {
+      "slovnik": [
+        "flammenvilluv-krok"
+      ]
+    },
     "svycarska-skola": {
       "slovnik": [
         "francouzska-skola",
@@ -1991,11 +2400,32 @@
         "zodiak"
       ]
     },
+    "paleta": {
+      "slovnik": [
+        "grahamuv-krok",
+        "kolickovy-krok",
+        "kotva",
+        "kotvovy-krok",
+        "krok",
+        "krokove-kolo",
+        "rubinovy-kamen",
+        "vidlice",
+        "vretenovy-krok"
+      ]
+    },
     "puska-orloje": {
       "slovnik": [
         "herstuk",
         "kstudle",
         "vos"
+      ]
+    },
+    "kstudle": {
+      "slovnik": [
+        "herstuk",
+        "oblouk-orloje",
+        "puska-orloje",
+        "skripec"
       ]
     },
     "rumpal": {
@@ -2010,6 +2440,11 @@
       "slovnik": [
         "hever-orloje",
         "strana-orloje"
+      ]
+    },
+    "elektronicky-mikroprocesorovy-krok": {
+      "slovnik": [
+        "hippuv-prerusovac"
       ]
     },
     "pouzdrar": {
@@ -2053,13 +2488,6 @@
         "hridelik-orloje"
       ]
     },
-    "cep-orloje": {
-      "slovnik": [
-        "hridelik-orloje",
-        "vreteno-orloje",
-        "vyhloditi"
-      ]
-    },
     "vos": {
       "slovnik": [
         "hridelik-orloje",
@@ -2092,19 +2520,6 @@
         "motus-naturalis",
         "solsticium",
         "supra-orizontem"
-      ]
-    },
-    "kyvadlo": {
-      "slovnik": [
-        "invar",
-        "isochronismus",
-        "kompenzace-teplotni",
-        "lihyr",
-        "regulator",
-        "setrvacka",
-        "synchronni-motor",
-        "winnerluv-krok",
-        "zavazi"
       ]
     },
     "kompenzace-teplotni": {
@@ -2159,16 +2574,6 @@
         "klecovy-ram"
       ]
     },
-    "kotva": {
-      "slovnik": [
-        "klecovy-ram",
-        "kolickovy-krok",
-        "krok",
-        "krokove-kolo",
-        "paleta",
-        "vetrnik"
-      ]
-    },
     "klustice": {
       "slovnik": [
         "klinek-orloje"
@@ -2182,21 +2587,19 @@
         "vrub-zub"
       ]
     },
-    "paleta": {
-      "slovnik": [
-        "kolickovy-krok",
-        "kotva",
-        "krok",
-        "krokove-kolo",
-        "rubinovy-kamen",
-        "vidlice"
-      ]
-    },
     "invar": {
       "slovnik": [
         "kompenzace-teplotni",
         "kyvadlo",
         "vlasek"
+      ]
+    },
+    "grahamuv-krok": {
+      "slovnik": [
+        "kotvovy-krok",
+        "leonharduv-krok",
+        "rieflerov-krok",
+        "robertuv-krok"
       ]
     },
     "centralni-prevodovka": {
@@ -2205,10 +2608,18 @@
         "podruzne-hodiny"
       ]
     },
+    "herstuk": {
+      "slovnik": [
+        "kstudle",
+        "puska-orloje",
+        "vocel"
+      ]
+    },
     "lihyr": {
       "slovnik": [
         "kyvadlo",
-        "regulator"
+        "regulator",
+        "vretenovy-krok"
       ]
     },
     "rykl": {
@@ -2415,6 +2826,12 @@
       "slovnik": [
         "v-hertu-kalen",
         "volovo"
+      ]
+    },
+    "vyhloditi": {
+      "slovnik": [
+        "v-hertu-kalen",
+        "vyklusati"
       ]
     },
     "svarcvaldska-skola": {

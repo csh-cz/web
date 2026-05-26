@@ -9,7 +9,6 @@ definice: "U Táborského 1570 *hřídelík* označuje drobný hřídel (zmenše
 pribuzne:
   - kralovska-hridel
   - vreteno-orloje
-  - cep-orloje
   - vos
 isStub: true
 references:
@@ -26,7 +25,7 @@ V moderní češtině *hřídel* zachováno, ale význam je obecnější (hlavn�
 
 ## Příbuzné termíny
 
-[vreteno-orloje](/slovnik/vreteno-orloje), [cep-orloje](/slovnik/cep-orloje), [vos](/slovnik/vos)
+[vreteno-orloje](/slovnik/vreteno-orloje), [vos](/slovnik/vos)
 
 ## Obrázky
 

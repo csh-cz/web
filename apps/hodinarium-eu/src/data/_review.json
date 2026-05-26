@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-05-25T15:17:35.093Z",
+  "generatedAt": "2026-05-26T13:15:23.664Z",
   "summary": {
     "kartyTotal": 318,
-    "kartyNoTyp": 245,
-    "kartyNoThumb": 275,
-    "kartyNoVyrobce": 285,
-    "kartyNoUmisteni": 269,
+    "kartyNoTyp": 244,
+    "kartyNoThumb": 267,
+    "kartyNoVyrobce": 282,
+    "kartyNoUmisteni": 265,
     "kartyPlaceholderTitle": 0,
     "clankyNoTldr": 2,
-    "clankyShort": 60,
+    "clankyShort": 59,
     "clankyLegacyLinks": 1,
-    "hodinariTotal": 169,
+    "hodinariTotal": 170,
     "hodinariShort": 123,
-    "hodinariNoPortret": 148,
-    "soupisTotal": 441,
+    "hodinariNoPortret": 150,
+    "soupisTotal": 443,
     "stubsKarty": 0,
     "stubsClanky": 0,
     "stubsHodinari": 40,
@@ -58,11 +58,6 @@
         "slug": "inv-A040-drevene-hodiny",
         "title": "dřevěné hodiny",
         "editUrl": "/admin/#/collections/karty/entries/inv-A040-drevene-hodiny"
-      },
-      {
-        "slug": "inv-A041-hodiny-achrer",
-        "title": "Hodiny Achrer",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A041-hodiny-achrer"
       },
       {
         "slug": "inv-A042-hodiny-housle",
@@ -1272,26 +1267,6 @@
     ],
     "kartyNoThumb": [
       {
-        "slug": "inv-A001-vezni-hiemann-1884",
-        "title": "Věžní hodiny Hiemann 1884",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A001-vezni-hiemann-1884"
-      },
-      {
-        "slug": "inv-A003-barokni-ministroj-18-stol",
-        "title": "Barokní ministroj 18. stol.",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A003-barokni-ministroj-18-stol"
-      },
-      {
-        "slug": "inv-A008-vezni-r-liebing",
-        "title": "Věžní hodiny R. Liebing",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A008-vezni-r-liebing"
-      },
-      {
-        "slug": "inv-A009-vezni-thondel",
-        "title": "Věžní hodiny Thöndel",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A009-vezni-thondel"
-      },
-      {
         "slug": "inv-A010-vezni",
         "title": "Věžní hodiny",
         "editUrl": "/admin/#/collections/karty/entries/inv-A010-vezni"
@@ -1302,24 +1277,9 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-A011-vezni-torzo"
       },
       {
-        "slug": "inv-A012-vezni-rochlitz",
-        "title": "Věžní hodiny Rochlitz",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A012-vezni-rochlitz"
-      },
-      {
-        "slug": "inv-A016-vezni-kladno",
-        "title": "Věžní hodiny Kladno",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A016-vezni-kladno"
-      },
-      {
         "slug": "inv-A018-vezni-barokni-kovane",
         "title": "Věžní hodiny barokní kované",
         "editUrl": "/admin/#/collections/karty/entries/inv-A018-vezni-barokni-kovane"
-      },
-      {
-        "slug": "inv-A019-vezni-hodiny-amant-1898",
-        "title": "Věžní hodiny Amant 1898",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A019-vezni-hodiny-amant-1898"
       },
       {
         "slug": "inv-A031-vezni-francie",
@@ -1385,11 +1345,6 @@
         "slug": "inv-A046-nouzove-zastaveni-casu",
         "title": "nouzové zastavení času",
         "editUrl": "/admin/#/collections/karty/entries/inv-A046-nouzove-zastaveni-casu"
-      },
-      {
-        "slug": "inv-A047-orloj-skala",
-        "title": "orloj Skála",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A047-orloj-skala"
       },
       {
         "slug": "inv-A048-podlahove-hodiny-barokni",
@@ -2674,16 +2629,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-A007-vezni-f-x-beitel"
       },
       {
-        "slug": "inv-A008-vezni-r-liebing",
-        "title": "Věžní hodiny R. Liebing",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A008-vezni-r-liebing"
-      },
-      {
-        "slug": "inv-A009-vezni-thondel",
-        "title": "Věžní hodiny Thöndel",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A009-vezni-thondel"
-      },
-      {
         "slug": "inv-A010-vezni",
         "title": "Věžní hodiny",
         "editUrl": "/admin/#/collections/karty/entries/inv-A010-vezni"
@@ -2822,11 +2767,6 @@
         "slug": "inv-A046-nouzove-zastaveni-casu",
         "title": "nouzové zastavení času",
         "editUrl": "/admin/#/collections/karty/entries/inv-A046-nouzove-zastaveni-casu"
-      },
-      {
-        "slug": "inv-A047-orloj-skala",
-        "title": "orloj Skála",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A047-orloj-skala"
       },
       {
         "slug": "inv-A048-podlahove-hodiny-barokni",
@@ -4097,16 +4037,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-A007-vezni-f-x-beitel"
       },
       {
-        "slug": "inv-A008-vezni-r-liebing",
-        "title": "Věžní hodiny R. Liebing",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A008-vezni-r-liebing"
-      },
-      {
-        "slug": "inv-A009-vezni-thondel",
-        "title": "Věžní hodiny Thöndel",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A009-vezni-thondel"
-      },
-      {
         "slug": "inv-A010-vezni",
         "title": "Věžní hodiny",
         "editUrl": "/admin/#/collections/karty/entries/inv-A010-vezni"
@@ -4130,11 +4060,6 @@
         "slug": "inv-A018-vezni-barokni-kovane",
         "title": "Věžní hodiny barokní kované",
         "editUrl": "/admin/#/collections/karty/entries/inv-A018-vezni-barokni-kovane"
-      },
-      {
-        "slug": "inv-A019-vezni-hodiny-amant-1898",
-        "title": "Věžní hodiny Amant 1898",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A019-vezni-hodiny-amant-1898"
       },
       {
         "slug": "inv-A021-vezni-drevene",
@@ -4220,11 +4145,6 @@
         "slug": "inv-A044-lihyrove-hodiny",
         "title": "lihýřové hodiny",
         "editUrl": "/admin/#/collections/karty/entries/inv-A044-lihyrove-hodiny"
-      },
-      {
-        "slug": "inv-A047-orloj-skala",
-        "title": "orloj Skála",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A047-orloj-skala"
       },
       {
         "slug": "inv-A054-skeletove-hodiny-kavalir",
@@ -5526,14 +5446,14 @@
         "title": "Lahváče",
         "category": "virtualni-muzeum",
         "editUrl": "/admin/#/collections/clanky/entries/lahvace",
-        "wordCount": 87
+        "wordCount": 127
       },
       {
         "slug": "maregraf",
         "title": "Maregrag - mořské hodiny v Rouenu - 1893",
         "category": "konstrukce",
         "editUrl": "/admin/#/collections/clanky/entries/maregraf",
-        "wordCount": 93
+        "wordCount": 131
       },
       {
         "slug": "merkur",
@@ -5541,13 +5461,6 @@
         "category": "zajimavosti",
         "editUrl": "/admin/#/collections/clanky/entries/merkur",
         "wordCount": 148
-      },
-      {
-        "slug": "mindelheim",
-        "title": "Virtuální prohlídka muzea v Mindelheimu",
-        "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/mindelheim",
-        "wordCount": 137
       },
       {
         "slug": "motorky",
@@ -6139,6 +6052,12 @@
         "wordCount": 78
       },
       {
+        "slug": "jan-kopriva",
+        "title": "Jan Kopřiva",
+        "editUrl": "/admin/#/collections/hodinari/entries/jan-kopriva",
+        "wordCount": 142
+      },
+      {
         "slug": "jan-marek",
         "title": "Jan Marek",
         "editUrl": "/admin/#/collections/hodinari/entries/jan-marek",
@@ -6559,12 +6478,6 @@
         "wordCount": 133
       },
       {
-        "slug": "vavrinec-frejlich",
-        "title": "Vavřinec Frejlich",
-        "editUrl": "/admin/#/collections/hodinari/entries/vavrinec-frejlich",
-        "wordCount": 109
-      },
-      {
         "slug": "videnska-polytechnika",
         "title": "Vídeňská polytechnika (dílna věžních hodin)",
         "editUrl": "/admin/#/collections/hodinari/entries/videnska-polytechnika",
@@ -6892,6 +6805,11 @@
         "slug": "jan-janata",
         "title": "Jan Janata",
         "editUrl": "/admin/#/collections/hodinari/entries/jan-janata"
+      },
+      {
+        "slug": "jan-kopriva",
+        "title": "Jan Kopřiva",
+        "editUrl": "/admin/#/collections/hodinari/entries/jan-kopriva"
       },
       {
         "slug": "jan-marek",
@@ -7272,6 +7190,11 @@
         "slug": "thomas-tompion",
         "title": "Thomas Tompion",
         "editUrl": "/admin/#/collections/hodinari/entries/thomas-tompion"
+      },
+      {
+        "slug": "thondel",
+        "title": "Thöndel (firma)",
+        "editUrl": "/admin/#/collections/hodinari/entries/thondel"
       },
       {
         "slug": "tobias-ebner",
