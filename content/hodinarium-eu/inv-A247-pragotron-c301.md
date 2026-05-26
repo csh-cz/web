@@ -30,14 +30,14 @@ editorNotes:
     noteKey: manual-edit-false
 ---
 
-![fotografie sbírkového předmětu](/img/pragotron/C%2030%20ZEZADU+PS%204.jpg)
+![podružný stroj Pragotron C-30 zezadu + řízený stroj PS-4 (elektromagnetický posuv)](/img/pragotron/C%2030%20ZEZADU+PS%204.jpg)
 
-![fotografie sbírkového předmětu](/img/pragotron/C%2030%20zezadu%20+%20PS%20100.jpg)
+![podružný stroj Pragotron C-30 zezadu + řízený stroj PS-100](/img/pragotron/C%2030%20zezadu%20+%20PS%20100.jpg)
 
-![fotografie sbírkového předmětu](/img/pragotron/C%2030.jpg)
+![podružný stroj Pragotron C-30 — frontální pohled](/img/pragotron/C%2030.jpg)
 
-![fotografie sbírkového předmětu](/img/pragotron/C%20301%20ZEZADU.jpg)
+![podružný stroj Pragotron C-301 zezadu — elektromagnetický posuv](/img/pragotron/C%20301%20ZEZADU.jpg)
 
-![fotografie sbírkového předmětu](/img/pragotron/C%20301.jpg)
+![podružný stroj Pragotron C-301 — frontální pohled](/img/pragotron/C%20301.jpg)
 
-![fotografie sbírkového předmětu](/img/pragotron/CPJ061_1.jpg)
+![centrální stroj Pragotron CPJ-061](/img/pragotron/CPJ061_1.jpg)
