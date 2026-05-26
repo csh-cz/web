@@ -71,5 +71,5 @@ Detailní popis → **[Čárkový krok v sekci Kroky](/kroky/carkovy-krok)**.
 ## Související
 
 - [válcový krok](/kroky/valcovy-krok) — paralelní vývoj klidového kroku pro hodinky
-- [anglický páčkový krok](/kroky/anglicky-pacovy-krok) — pozdější nástupce (Mudge 1755)
+- [anglický kotvový krok](/kroky/anglicky-kotvovy-krok) — pozdější nástupce (Mudge 1755)
 - [krok](/slovnik/krok), [setrvačka](/slovnik/setrvacka) — slovník

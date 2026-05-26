@@ -272,6 +272,228 @@ export const kroky: Krok[] = [
     relatedSlugs: [],
     skupina: 'elektronicke',
   },
+  // === Doplněno 2026-05-26: chronologická řada krok-typů ===
+  {
+    slug: 'tompionuv-kotouckovy-krok',
+    jmeno: 'Tompionův kotoučkový krok',
+    aliasy: ['Tompionův krok', 'kotoučkový krok', 'Tompion escapement'],
+    vynalezce: 'Thomas Tompion',
+    rok: '~1690–1695',
+    shrnuti:
+      'Klidový krok s jednostranným popudem. Kotouček s výřezem na hřídeli setrvačky; zuby krokového kola vstupují do výřezu a předávají popud. Předchůdce a inspirace pro Grahamův válcový krok (1726).',
+    charakteristika:
+      'Vysoké třecí ztráty mezi kotoučkem a hranami zubů. Jednostranný popud = nižší účinnost než pozdější válcový krok. Tompion řešení nepublikoval; zachovalo se málo exemplářů.',
+    relatedSlugs: [],
+    skupina: 'klasicke',
+  },
+  {
+    slug: 'valcovy-krok',
+    jmeno: 'Válcový krok',
+    aliasy: ['válcový krok', 'válečkový krok', 'cylindrický krok', 'chod válcový', 'cylinder escapement', 'Zylinderhemmung'],
+    vynalezce: 'Thomas Tompion (1695) / George Graham (1726)',
+    rok: '1726',
+    shrnuti:
+      'Klidový (deadbeat) krok bez samostatné kotvy — funkci kotvy plní duté ocelové válce (cylindr) s podélným výřezem nasazené přímo na hřídeli setrvačky. Vynalezl Tompion 1695, zdokonalil Graham 1726. Standard kapesních hodinek 18.–19. století.',
+    charakteristika:
+      'Klidový krok s oboustranným popudem. Vyšší účinnost než Tompionův kotoučkový, ale citlivý na olej a opotřebení cylindru. V 19. století vytlačen švýcarským páčkovým krokem.',
+    relatedSlugs: [],
+    skupina: 'klasicke',
+  },
+  {
+    slug: 'grasshopper-krok',
+    jmeno: 'Grasshopper-krok (Harrisonův)',
+    aliasy: ['Grasshopper', 'Harrisonův krok', 'kobylkový krok', 'grasshopper escapement'],
+    vynalezce: 'John Harrison',
+    rok: '~1725',
+    shrnuti:
+      'Vratný krok s „kopavým" pohybem palet podobným zadním nohám kobylky. Velmi pravidelný, bez tření, bez maziva. Náročný na regulaci, nikdy se rozšířeně nepoužíval. Použit v Harrisonových hodinách Brocklesby Park (1722).',
+    charakteristika:
+      'Pružinou držené palety, drobné komponenty, citlivost na nárazy. Historicky významný — Harrisonův přínos k chronometrii.',
+    relatedSlugs: [],
+    skupina: 'klasicke',
+  },
+  {
+    slug: 'duplexni-krok',
+    jmeno: 'Duplexní krok',
+    aliasy: ['duplex escapement', 'krok duplexní', 'dvoukolý duplexní', 'jednokolý duplexní', 'Duplexhemmung'],
+    vynalezce: 'Jean Baptiste Dutertre',
+    rok: '~1724',
+    shrnuti:
+      'Klidový krok s dvojí řadou zubů na krokovém kole — jedna v rovině obvodu (klidová), druhá kolmo jako kolíčky (popud). Setrvačka dostává popud pouze v jednom směru kyvu. Pierre Le Roy zjednodušil na jednokolou variantu.',
+    charakteristika:
+      'Vyšší přesnost než válcový krok, ale výrobně náročnější. Hlavně v kvalitních kapesních hodinkách 18.–19. století. Varianta seconde morte (mrtvé sekundy).',
+    relatedSlugs: [],
+    skupina: 'klasicke',
+  },
+  {
+    slug: 'anglicky-kotvovy-krok',
+    jmeno: 'Anglický kotvový krok',
+    aliasy: ['anglický kotvový krok', 'krok kotvový anglický', 'Mudgeův krok', 'English lever escapement', 'detached lever'],
+    vynalezce: 'Thomas Mudge',
+    rok: '~1755',
+    shrnuti:
+      'První volný (detached) kotvový krok pro kapesní hodinky. Setrvačka kýve volně, kontakt s krokem jen v okamžiku popudu a odjištění. Zuby krokového kola jsou ostré (špičaté), popud nese plně paleta.',
+    charakteristika:
+      'Předchůdce moderního švýcarského kroku. České lever = kotva (Martínek 1964), nikoli páčka. Dominoval britské hodinkářské tradici Liverpool/Coventry v 19. st.',
+    relatedSlugs: [],
+    skupina: 'volne',
+  },
+  {
+    slug: 'carkovy-krok',
+    jmeno: 'Čárkový krok',
+    aliasy: ['čárkový krok', 'krok čárkový', 'virgule escapement', 'échappement à virgule', 'double-virgule'],
+    vynalezce: 'Jean-André Lepaute / Jean-Antoine Lépine',
+    rok: '~1750',
+    shrnuti:
+      'Klidový krok pro kvalitní kapesní hodinky 18. století. Popudné raménko ve tvaru čárky (FR virgule) na hřídeli setrvačky. Dvojitou variantu (double-virgule) zdokonalil Beaumarchais 1752.',
+    charakteristika:
+      'Vysoké tření v klidové fázi, náročná výroba. V 19. st. vytlačen anglickým a švýcarským páčkovým krokem.',
+    relatedSlugs: [],
+    skupina: 'klasicke',
+  },
+  {
+    slug: 'earnshawuv-krok',
+    jmeno: 'Earnshawův chronometrický krok',
+    aliasy: ['Earnshawův krok', 'krok chronometrický earnshawův', 'spring detent escapement', 'chronometer escapement'],
+    vynalezce: 'Thomas Earnshaw',
+    rok: '1782',
+    shrnuti:
+      'Volný zarážkový krok pro mořské chronometry. Setrvačka kýve plně volně mimo dva krátké okamžiky (odjištění pružinovou zástavkou + popud). Standard britských mořských chronometrů 19.–20. století.',
+    charakteristika:
+      'Pružinová verze (na rozdíl od Berthoudovy čepové). Maximální izochronie kyvů. Citlivost na nárazy → jen stacionární / gimbalově zavěšené instalace.',
+    relatedSlugs: [],
+    skupina: 'volne',
+  },
+  {
+    slug: 'berthouduv-krok',
+    jmeno: 'Berthoudův chronometrický krok',
+    aliasy: ['Berthoudův krok', 'krok chronometrický berthoudův', 'pivoted detent escapement'],
+    vynalezce: 'Ferdinand Berthoud',
+    rok: '~1780',
+    shrnuti:
+      'Francouzská čepová verze volného zarážkového kroku pro mořské chronometry. Zástavka na otočném čepu místo pružiny. Vyvinuto na principech Pierre Le Roya (60. léta 18. st.).',
+    charakteristika:
+      'Robustnější než Earnshawova pružinová verze, ale výrobně náročnější. Standard francouzské mořské chronometrické tradice; v 19. st. postupně vytlačen britským Earnshawem.',
+    relatedSlugs: [],
+    skupina: 'volne',
+  },
+  {
+    slug: 'litherlanduv-krok',
+    jmeno: 'Litherlandův chronometrický krok',
+    aliasy: ['Litherlandův krok', 'krok chronometrický litherlandův', 'rack lever escapement'],
+    vynalezce: 'Peter Litherland',
+    rok: '1791',
+    shrnuti:
+      'Britský chronometrický krok odvozený z klasické konstrukce kotvového kroku s ostrozubým krokovým kolem. Liverpoolská hodinkářská tradice.',
+    charakteristika:
+      'Levnější alternativa Earnshawovu chronometru, využívala ozubený hřeben (rack) na páce. Postupně vytlačen klasickým detached lever escapement.',
+    relatedSlugs: [],
+    skupina: 'volne',
+  },
+  {
+    slug: 'cernolesky-krok',
+    jmeno: 'Černoleský krok',
+    aliasy: ['černoleský krok', 'krok kotvový černoleský', 'schwarzwaldský krok', 'Schwarzwälder Hemmung', 'Black Forest escapement'],
+    vynalezce: 'schwarzwaldští lidoví hodináři',
+    rok: '~1800',
+    shrnuti:
+      'Vratný kotvový krok s kotvou svinutou z ocelového plechu. Typický prvek lidového jihoněmeckého hodinářství ze Schwarzwaldu. Levné, robustní řešení pro masovou výrobu nástěnných hodin (kuckuhren).',
+    charakteristika:
+      'Nahradil vretenový krok v lidových hodinách. Nízká přesnost (~30 s/den), ale dostupný v selských dílnách. V Čechách běžně dovážený + lokální kopie (Krušné hory, Šumava).',
+    relatedSlugs: [],
+    skupina: 'klasicke',
+  },
+  {
+    slug: 'brocotuv-krok',
+    jmeno: 'Brocotův krok',
+    aliasy: ['Brocotův krok', 'krok Brocotův', 'Brocot escapement', 'pin pallet escapement', 'Brocot-Hemmung'],
+    vynalezce: 'Achille Brocot',
+    rok: '~1850',
+    shrnuti:
+      'Klidový kotvový krok s kolíčkovou kotvou. Krokové kolo má ozubené zuby, kotva má dva poloválcové kolíčky místo palet. Charakteristický rys pařížských pendulí 19. století — viditelný zepředu ciferníku.',
+    charakteristika:
+      'Dekorativní prvek pendulových hodin 2. císařství a Bel Epoque. Brocotova regulace (mikroregulační šroub) bývá rovněž viditelná na ciferníku.',
+    relatedSlugs: [],
+    skupina: 'klasicke',
+  },
+  {
+    slug: 'mannhardtuv-krok',
+    jmeno: 'Mannhardtův krok',
+    aliasy: ['Mannhardtův krok', 'krok mannhardtův', 'Mannhardt escapement', 'Mannhardt-Hemmung'],
+    vynalezce: 'Johann Mannhardt',
+    rok: '~1860',
+    shrnuti:
+      'Krok pro velké věžní hodiny s občasným impulsem udíleným kyvadlu jednou za 30 nebo 60 sekund. V intervalu mezi impulsy kyvadlo kýve volně, nezávisle na hodinovém stroji.',
+    charakteristika:
+      'Mnichovská firma Mannhardt dodávala stroje pro bavorské, rakouské a české věže. Konkurent Denisonova gravitačního kroku — paralelní řešení vysoké přesnosti u věžních hodin.',
+    relatedSlugs: [],
+    skupina: 'volne',
+  },
+  {
+    slug: 'rieflerov-krok',
+    jmeno: 'Rieflerův krok',
+    aliasy: ['Rieflerův krok', 'krok kotvový pružinový (systém Riefler)', 'Riefler escapement', 'Riefler-Hemmung'],
+    vynalezce: 'Sigmund Riefler',
+    rok: '~1890',
+    shrnuti:
+      'Krok pro velmi přesné observatorní hodiny. Závěsné pružiny kyvadla současně slouží jako popudné — popud se předává přímo přes pružinu. Kotva uložena na achátovém břitu místo čepu.',
+    charakteristika:
+      'Přesnost ~0,01 s/den. Standard observatorních hodin přelomu 19./20. st. (Greenwich, Potsdam, Pražská hvězdárna Klementinum). Riefler München dodával chronometry po celém světě.',
+    relatedSlugs: [],
+    skupina: 'presne',
+  },
+  {
+    slug: 'svycarsky-krok',
+    jmeno: 'Švýcarský krok',
+    aliasy: ['švýcarský krok', 'švýcarský kotvový krok', 'krok kotvový švýcarský', 'kotvový krok', 'Swiss lever escapement', 'lever escapement'],
+    vynalezce: 'švýcarská manufakturní tradice (Robin, Lange aj.)',
+    rok: '~1860 (moderní podoba)',
+    shrnuti:
+      'Moderní standard pro hodinky — volný kotvový krok s lopatkovými zuby krokového kola. Vychází z anglického kotvového kroku Thomase Mudgeho (~1755). Popud sdílen mezi paletou a šikmou plochou zubu.',
+    charakteristika:
+      '~99 % mechanických náramkových hodinek 20.–21. st. (Patek Philippe, Rolex, Omega, Seiko). V cs literatuře (Martínek 1964) označován prostě „švýcarský krok", nikoli páčkový. Co-axial varianta Daniels 1975 / Omega 1999.',
+    relatedSlugs: [],
+    skupina: 'volne',
+  },
+  {
+    slug: 'leonharduv-krok',
+    jmeno: 'Leonhardův krok',
+    aliasy: ['Leonhardův krok', 'krok kotvový Leonhardův', 'Leonhard escapement'],
+    vynalezce: 'F. Leonhard',
+    rok: '2. polovina 19. st.',
+    shrnuti:
+      'Volný kotvový krok ve formě modifikace Grahamova klidového kroku se segmentovými zakřivenými paletami. Vyvinul německý hodinář F. Leonhard.',
+    charakteristika:
+      'Alternativa pro kvalitní německé stojací regulátory 19. st. Krok se neujal jako standard.',
+    relatedSlugs: [],
+    skupina: 'presne',
+  },
+  {
+    slug: 'flammenvilluv-krok',
+    jmeno: 'Flammenvillův krok',
+    aliasy: ['Flammenvillův krok', 'krok flammenvillův', 'Flammenville escapement'],
+    vynalezce: 'Flammenville',
+    rok: '18. st.',
+    shrnuti:
+      'Modifikace vretenového kroku, v níž jsou původní palety nahrazeny válečky s plošnými výbrusy. Pokus o vylepšení rovnoměrnosti vretenového kroku.',
+    charakteristika:
+      'Historicky málo rozšířený typ. Technická kuriozita 18. století.',
+    relatedSlugs: [],
+    skupina: 'rane',
+  },
+  {
+    slug: 'de-bethunuv-dvoupakovy-krok',
+    jmeno: 'Chevalier de Béthunův dvoupákový krok',
+    aliasy: ['dvoupákový krok', 'de Béthunův krok', 'Chevalier de Béthune escapement'],
+    vynalezce: 'Chevalier de Béthune',
+    rok: '18. st.',
+    shrnuti:
+      'Nejstarší druh ze skupiny rohatkových kroků s plochým krokovým kolem s čelním ozubením a dvěma pákami. Experimentální typ mimo hlavní vývojovou linii.',
+    charakteristika:
+      'Historicky málo rozšířen. Patří k řadě experimentálních rohatkových konstrukcí 18.–19. století.',
+    relatedSlugs: [],
+    skupina: 'rane',
+  },
 ];
 
 export const krokyBySlug = new Map(kroky.map((k) => [k.slug, k]));
