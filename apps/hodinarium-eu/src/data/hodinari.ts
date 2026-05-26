@@ -2206,6 +2206,19 @@ export const hodinari: Hodinar[] = [
     era: 'soucasnost',
   },
   {
+    slug: 'jan-kopriva',
+    jmeno: 'Jan Kopřiva',
+    aliasy: ['Jan Kopřiva', 'Jan Kopřiva Hodinář', 'Kopřiva Ivanovice'],
+    typ: 'osoba',
+    obdobi: 'akt. ~2020–dosud',
+    mesto: 'Ivanovice na Hané',
+    zeme: 'CZ',
+    shrnuti:
+      'Hodinář z Ivanovic na Hané (okres Vyškov), restaurátor historických věžních strojů. V roce 2023 zrenovoval dva věžní stroje ze staré radnice ve [Svitavách](/soupis-veznich-hodin/svitavy-radnice-thondel) — mladší [Thöndel z Uničova](/hodinari/thondel) (poč. 20. stol.) a starší stroj odhadovaný na ~250 let.',
+    relatedSlugs: ['svitavy-radnice-thondel'],
+    era: 'soucasnost',
+  },
+  {
     slug: 'melanie-skalova',
     jmeno: 'Melanie Skálová',
     aliasy: ['Melanie Skálová', 'M. Skálová', 'Petr a Melanie Skálovi'],
