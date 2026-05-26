@@ -11,6 +11,7 @@ import { extractWikiTitle } from '../../utils/referenceTypes';
 import WipBanner from '../../components/WipBanner.astro';
 import { isPubliclyBuildable, showsWipBanner } from '../../utils/workflow-visibility';
 import { cdnUrl } from '../../utils/cdnImage';
+import { CSH_CONTENT_COMPONENTS } from '../../utils/content-components';
 
 import type { CatalogEntry } from '../../data/catalog-types';
 
@@ -114,7 +115,7 @@ const wipStatus = detailVisible && showsWipBanner(detail.data.workflow) ? detail
       )}
 
       {Detail
-        ? <Detail />
+        ? <Detail components={CSH_CONTENT_COMPONENTS} />
         : (
           <>
             <h2>Charakteristika</h2>

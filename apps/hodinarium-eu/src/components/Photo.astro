@@ -235,6 +235,19 @@ const cdnSrc = src.startsWith('/img/') ? `${CDN_BASE}${src}` : src;
 const RASTER_RE = /\.(jpe?g|png)(\?.*)?$/i;
 const isRaster = src.startsWith('/img/') && RASTER_RE.test(src);
 const variantBase = isRaster ? `${CDN_BASE}${src.replace(RASTER_RE, '')}` : '';
+
+// SVG s SMIL/CSS animací — `<img src=*.svg>` v Chrome i Safari SMIL ignoruje,
+// musí se vložit jako `<object type="image/svg+xml">` aby skripty + animace
+// běžely. Statické SVG ikony klidně přes `<img>`, ale pro animace v rubrice
+// /kroky/ je `<object>` nezbytný. Aspekt zachová viewBox SVG, není potřeba
+// width/height z image-sizes.json.
+//
+// SVG NEPROCHÁZÍ R2 CDN — imgvariants-r2-sync.yml syncuje jen rastr (jpg/png),
+// SVG zůstává jen v `public/` na pages.dev origin. CDN rewrite zde proto
+// přeskakujeme: src zůstává `/img/...` (pages.dev origin server).
+const SVG_RE = /\.svg(\?.*)?$/i;
+const isSvg = SVG_RE.test(src);
+const svgSrc = isSvg ? src : cdnSrc;
 ---
 <figure class={figureClass}>
   {isRaster ? (
@@ -243,6 +256,10 @@ const variantBase = isRaster ? `${CDN_BASE}${src.replace(RASTER_RE, '')}` : '';
       <source type="image/webp" srcset={`${variantBase}.webp`} />
       <img src={cdnSrc} alt={alt} class={imgClass} loading="lazy" decoding="async" />
     </picture>
+  ) : isSvg ? (
+    <object type="image/svg+xml" data={svgSrc} class={imgClass} aria-label={alt}>
+      <img src={svgSrc} alt={alt} class={imgClass} loading="lazy" decoding="async" />
+    </object>
   ) : (
     <img src={cdnSrc} alt={alt} class={imgClass} loading="lazy" decoding="async" />
   )}
