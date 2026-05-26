@@ -7,7 +7,6 @@ varianty:
 definice: "U Táborského 1570 *vřeteno* označuje drobný hřídelík (typicky nesoucí měsíc nebo malý indikátor). Synonymum: *hřídelík*. Pozor: nezaměňovat s moderním hodinářským *vřetenovým krokem* (= 13. st. typ kroku)."
 pribuzne:
   - hridelik-orloje
-  - cep-orloje
 isStub: true
 references:
   - bibKey: taborskyzklokotskehoryZpravaStaromestskemOrloji1570
@@ -23,7 +22,7 @@ V moderním hodinářství má *vřeteno* dva významy: (1) Táborského drobný
 
 ## Příbuzné termíny
 
-[hridelik-orloje](/slovnik/hridelik-orloje), [cep-orloje](/slovnik/cep-orloje)
+[hridelik-orloje](/slovnik/hridelik-orloje)
 
 ## Obrázky
 
