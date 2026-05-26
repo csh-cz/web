@@ -26,19 +26,19 @@ a informací poskytnutých Ing. Mariánem Majerníkem z Slovenského technickéh
 
 Zatím bez podrobnějšího popisu uvádíme několik náčrtků patrně z roku 1924, použitých u patentu 17,779 z roku 1930 USA. Na obrázcích je zejména rozkresleno několik způsobů startů synchronních motorů (ručních i elektromagnetických).
 
-![Laplace patent USA 1930](/img/laplace/patent_fig1.jpg)
+![patent Laplace č. 17,779 (USA 1930) — figura 1: schéma synchronního motoru s ručním startem](/img/laplace/patent_fig1.jpg)
 
-![Laplace patent USA 1930](/img/laplace/patent_fig2.jpg)![Laplace patent USA 1930](/img/laplace/patent_fig3.jpg)
+![patent Laplace USA 1930 — figura 2: detail rotoru synchronního motoru](/img/laplace/patent_fig2.jpg)![patent Laplace USA 1930 — figura 3: detail spouštěcího mechanizmu](/img/laplace/patent_fig3.jpg)
 
-![Laplace patent USA 1930](/img/laplace/patent_fig4.jpg)![Laplace patent USA 1930](/img/laplace/patent_fig5.jpg)
+![patent Laplace USA 1930 — figura 4: kresba ovládacího prvku](/img/laplace/patent_fig4.jpg)![patent Laplace USA 1930 — figura 5: schéma elektromagnetického startu](/img/laplace/patent_fig5.jpg)
 
-![Laplace patent USA 1930](/img/laplace/patent_fig6.jpg)
-![Laplace patent USA 1930](/img/laplace/patent_fig7.jpg)
+![patent Laplace USA 1930 — figura 6: kresba převodového ústrojí](/img/laplace/patent_fig6.jpg)
+![patent Laplace USA 1930 — figura 7: detail rotorového pólu](/img/laplace/patent_fig7.jpg)
 
-![Laplace patent USA 1930](/img/laplace/patent_fig8.jpg)
-![Laplace patent USA 1930](/img/laplace/patent_fig9.jpg)
+![patent Laplace USA 1930 — figura 8: schéma připojení k síti](/img/laplace/patent_fig8.jpg)
+![patent Laplace USA 1930 — figura 9: kresba kompletního stroje](/img/laplace/patent_fig9.jpg)
 
-![Laplace patent USA 1930](/img/laplace/patent_fig10.jpg)
+![patent Laplace USA 1930 — figura 10: detail finálního provedení](/img/laplace/patent_fig10.jpg)
 
 ## Novodobá skeletová přestavba
 
