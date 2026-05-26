@@ -32,7 +32,7 @@ V Hodináriu je tato technologie zastoupena NTP [podružnými hodinami Bodet](/s
 
 Po připojení napětí hodiny zaujmou klidovou polohu (12:00, 4:00 nebo 8:00 hodin) a vyčkávají na příchod několika NTP paketů s časovou informací. Poté se nastaví na požadovaný čas. To může trvat několik minut. Hodiny mají dva motory. Samostatně se nastavuje sekundová ručička, je tedy obvykle nastavena jako první a současně se nastavují minuty a hodiny. Podrobný popis vystavovaného exempláře můžete najít v [manuálu](/download/NTP/Analogue_clocks_Profil930-940NTPSlaveClockInstructions.pdf). Bez NTP signálu jdou hodiny autonomně 24 hodin, pak se nastaví do polohy 12:00.
 
-![fotografie sbírkového předmětu](/img/elektrika/Bodet/Profil930NTP.png)
+![podružné hodiny Bodet Profil 930 NTP — analogový číselník napájený přes PoE z LAN switche, hodiny očekávají broadcastované NTP pakety na adrese 239.192.54.xx (DIP přepínači nastavitelné), nastavovací pakety dvou motorů (samostatně sekundy, společně minuty + hodiny)](/img/elektrika/Bodet/Profil930NTP.png)
 
 K hodinám samozřejmě firma Bodet a mnoho jiných nabízí profesionální síťové hlavní hodiny či NTP časové servery. Pro použití v sítích nepřipojených do Internetu jsou tyto servery synchronizovány signálem DCF 77 nebo nyní spíše GPS. Jako obvyklá přesnost nastavení času se uvádí hodnota lepší než +- 0,5 ms. Tato přesnost je vyvážena relativně vyšší cenou. Servery jsou v ceně již od 15.000.- Kč, avšak obvykle je cena mnoho desítek tisíc Kč.
 
