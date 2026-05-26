@@ -245,9 +245,15 @@ const variantBase = isRaster ? `${CDN_BASE}${src.replace(RASTER_RE, '')}` : '';
 // SVG NEPROCHÁZÍ R2 CDN — imgvariants-r2-sync.yml syncuje jen rastr (jpg/png),
 // SVG zůstává jen v `public/` na pages.dev origin. CDN rewrite zde proto
 // přeskakujeme: src zůstává `/img/...` (pages.dev origin server).
+//
+// Cache-bust: pages.dev servíruje SVG s `cache-control: max-age=2592000`
+// (30 dnů). `<object>` honor cache agresivně — když SVG změníš, user vidí
+// starou verzi ještě měsíc. Přidáváme deploy-time hash query param aby
+// se URL měnila při každém buildu → cache miss → fresh fetch.
 const SVG_RE = /\.svg(\?.*)?$/i;
 const isSvg = SVG_RE.test(src);
-const svgSrc = isSvg ? src : cdnSrc;
+const buildHash = (import.meta.env.PUBLIC_BUILD_HASH ?? Date.now()).toString().slice(0, 8);
+const svgSrc = isSvg ? `${src}?v=${buildHash}` : cdnSrc;
 ---
 <figure class={figureClass}>
   {isRaster ? (
