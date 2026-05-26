@@ -1,70 +1,80 @@
 #!/usr/bin/env python3
 """
-Spočítá REÁLNÉ pozice kontaktních bodů zub × paleta v Graham (či jiném
-dead-beat) eskapementu — pro správné umístění highlight markerů v SVG.
+Spočítá CAD-correct geometrii Graham deadbeat eskapementu:
+- Lock arc radius (kruhový oblouk soustředný s pivot kotvy, po kterém
+  klouže zub během lock fáze)
+- Contact body (kde zub fyzicky dotýká palety)
+- SVG arc paths pro helper lines
 
-Geometrie:
-- Anchor pivot (ap_x, ap_y) — osa otáčení kotvy
-- Wheel center (wc_x, wc_y) — osa otáčení kola
-- Wheel tooth tip radius R_t — vzdálenost od wheel center k vrcholu zubu
-- Pallet lock arc radius r_p — vzdálenost od anchor pivot k lock face palety
-  (left pallet OUTER edge = larger r, right pallet INNER edge = smaller r)
-
-Kontakt zub × paleta = průsečík dvou kruhů:
-- Circle 1: |P - anchor_pivot| = r_p
-- Circle 2: |P - wheel_center| = R_t
+Per Saunier 1875, CAD Journal Vol.4 2007 (Tam et al, Fig.15):
+- Standard Graham anchor span = 90° z wheel center (= 7.5 zubů z 30)
+- Tooth tip kde paleta chytá: at angle 45° from vertical z wheel center
+- Lock arc radius vychází z geometrie wheel + anchor pivot positions
 
 Použití:
-  python3 pal-contact.py [ap_x ap_y wc_x wc_y R_t r_left r_right]
+  python3 pal-contact.py [pivot_x pivot_y wheel_cx wheel_cy R_t [anchor_span_deg]]
 
-Default = Graham pilot values.
+Default: Graham pilot (anchor pivot (242, 42.7), wheel center (239.5, 372.6),
+R_t=236.3, anchor span 90°).
 """
 import math
 import sys
 
 # Default Graham geometry
-ap = (242, 42.7)
-wc = (239.5, 372.6)
+pivot = (242, 42.7)
+wheel_center = (239.5, 372.6)
 R_t = 236.3
-r_left = 243   # OUTER edge of LEFT pallet (lock face)
-r_right = 222  # INNER edge of RIGHT pallet (lock face)
+anchor_span = 90  # degrees, paper-standard for Graham
 
-if len(sys.argv) >= 8:
-    ap = (float(sys.argv[1]), float(sys.argv[2]))
-    wc = (float(sys.argv[3]), float(sys.argv[4]))
+if len(sys.argv) >= 6:
+    pivot = (float(sys.argv[1]), float(sys.argv[2]))
+    wheel_center = (float(sys.argv[3]), float(sys.argv[4]))
     R_t = float(sys.argv[5])
-    r_left = float(sys.argv[6])
-    r_right = float(sys.argv[7])
+    if len(sys.argv) >= 7:
+        anchor_span = float(sys.argv[6])
 
-D = math.hypot(wc[0] - ap[0], wc[1] - ap[1])
+D = math.hypot(wheel_center[0] - pivot[0], wheel_center[1] - pivot[1])
 
-def contact(r_p, sign):
-    """Return SVG-coord (x, y) of pallet contact on given side.
-    sign = -1 for left, +1 for right (relative to anchor-wheel axis).
-    Assumes wheel center is roughly DIRECTLY below anchor pivot."""
-    # In rotated frame where anchor is origin, wheel center at (0, D):
-    # x² + y² = r_p²
-    # x² + (y-D)² = R_t²
-    # → y = (D² + r_p² - R_t²) / (2D)
-    y = (D*D + r_p*r_p - R_t*R_t) / (2*D)
-    x2 = r_p*r_p - y*y
-    if x2 < 0:
-        return None
-    x = math.sqrt(x2)
-    return (ap[0] + sign * x, ap[1] + y)
+# Tooth contact at angle (anchor_span/2) from vertical (z wheel center)
+half_span = math.radians(anchor_span / 2)
+sin_a = math.sin(half_span)
+cos_a = math.cos(half_span)
 
-left_contact = contact(r_left, -1)
-right_contact = contact(r_right, +1)
+# Contact points (assumes wheel center is roughly directly below pivot)
+left_tooth = (wheel_center[0] - R_t * sin_a, wheel_center[1] - R_t * cos_a)
+right_tooth = (wheel_center[0] + R_t * sin_a, wheel_center[1] - R_t * cos_a)
 
-print(f"Anchor pivot:      ({ap[0]}, {ap[1]})")
-print(f"Wheel center:      ({wc[0]}, {wc[1]})")
-print(f"D (mech distance): {D:.2f}")
-print(f"Tooth tip radius:  {R_t}")
-print(f"Left pal arc:      r={r_left}")
-print(f"Right pal arc:     r={r_right}")
+# Lock arc radius = distance from pivot to tooth contact (symmetric)
+r_lock = math.hypot(left_tooth[0] - pivot[0], left_tooth[1] - pivot[1])
+
+# Arc endpoints for helper lines (visualize ±18° around contact, ~36° span)
+def arc_endpoints(center, r, contact, span_deg=36):
+    angle = math.atan2(contact[1] - center[1], contact[0] - center[0])
+    a1 = angle - math.radians(span_deg / 2)
+    a2 = angle + math.radians(span_deg / 2)
+    p1 = (center[0] + r * math.cos(a1), center[1] + r * math.sin(a1))
+    p2 = (center[0] + r * math.cos(a2), center[1] + r * math.sin(a2))
+    return p1, p2
+
+left_start, left_end = arc_endpoints(pivot, r_lock, left_tooth)
+right_start, right_end = arc_endpoints(pivot, r_lock, right_tooth)
+
+print(f"=== INPUT ===")
+print(f"Anchor pivot:    ({pivot[0]}, {pivot[1]})")
+print(f"Wheel center:    ({wheel_center[0]}, {wheel_center[1]})")
+print(f"R_t:             {R_t}")
+print(f"Anchor span:     {anchor_span}° (= {anchor_span/12:.1f} zubů z 30)")
+print(f"D (mech dist):   {D:.2f}")
 print()
-print(f"LEFT contact:  ({left_contact[0]:.1f}, {left_contact[1]:.1f})")
-print(f"RIGHT contact: ({right_contact[0]:.1f}, {right_contact[1]:.1f})")
+print(f"=== COMPUTED ===")
+print(f"r_lock (sym):    {r_lock:.2f}")
 print()
-print("Použij tyto pozice pro pallet highlight `<circle cx=... cy=...>` markery")
-print("v animační groupě kotvy. Ne `inner edge V tipu` (to je vizuálně blízko ale fyzicky off).")
+print(f"Pallet highlight positions (use as <circle cx=... cy=...>):")
+print(f"  LEFT:  cx={left_tooth[0]:.2f}, cy={left_tooth[1]:.2f}")
+print(f"  RIGHT: cx={right_tooth[0]:.2f}, cy={right_tooth[1]:.2f}")
+print()
+print(f"Helper arc paths (sepia dashed, opacity ~0.45):")
+print(f"  LEFT:  <path d=\"M {left_start[0]:.2f},{left_start[1]:.2f} "
+      f"A {r_lock:.2f},{r_lock:.2f} 0 0 1 {left_end[0]:.2f},{left_end[1]:.2f}\"/>")
+print(f"  RIGHT: <path d=\"M {right_start[0]:.2f},{right_start[1]:.2f} "
+      f"A {r_lock:.2f},{r_lock:.2f} 0 0 1 {right_end[0]:.2f},{right_end[1]:.2f}\"/>")

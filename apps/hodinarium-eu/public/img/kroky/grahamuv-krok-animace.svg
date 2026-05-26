@@ -109,14 +109,23 @@
   <rect x="0" y="0" width="475" height="625" fill="#F0E4C8"/>
 
   <!-- ====== POMOCNÉ ČÁRY: LOCK ARCS ======
-       Kruhové oblouky soustředné s osou kotvy (pivot 242, 42.7) na poloměrech
-       r=243 (OUTER edge LEVÉ palety) a r=222 (INNER edge PRAVÉ palety).
-       Ukazují DRÁHU, po které klouže zub během LOCK fáze — to je definice
-       deadbeat: paleta = kruhový oblouk → tečná síla nulová → kolo stojí.
-       Geometrie 1:1 podle Wikipedia path6132 (jen sépia místo červené). -->
+       Kruhové oblouky soustředné s osou kotvy (pivot 242, 42.7) na poloměru
+       r=235.09 — SYMETRICKÉ, vypočítané z reálné geometrie:
+
+         R_t (wheel tooth radius) = 236.3
+         D (anchor pivot ↔ wheel center) = 329.9
+         Anchor span = 90° z wheel center (= 7.5 zubů z 30, dle Saunier 1875
+         a CAD Journal Vol.4 No.1-4 2007 Fig.15)
+         → Pal contact at angle 45° from vertical (z wheel center)
+         → Tooth tip position (left): (72.41, 205.51)
+         → Distance from pivot = √(169.59² + 162.81²) = 235.09 = r_lock
+
+       Wikipedia path6132 byly asymetrické (r=243/222) a DECORATIVE —
+       neukazovaly true lock geometry. Tyto symetrické arcs JE skutečná
+       dráha po které klouže zub během LOCK fáze. -->
   <g stroke="#6B4A2E" stroke-width="1.4" fill="none" stroke-dasharray="6 4" opacity="0.45">
-    <path d="M 147.36007,266.60891 C 68.49586,233.1705 13.07385,160.66607 1.5,75.79123"/>
-    <path d="M 463.55796,60.04066 c -7.13549,88.64484 -66.61987,164.41657 -151.03671,192.39192"/>
+    <path d="M 131.02,249.95 A 235.09,235.09 0 0 1 30.40,145.13"/>
+    <path d="M 452.04,148.29 A 235.09,235.09 0 0 1 349.87,251.58"/>
   </g>
 
   <!-- CW šipka — statická indikace směru rotace kola, dolní pravý roh -->
@@ -199,11 +208,11 @@
          impulse/drop, raději je vynecháme — méně vizuálního šumu. -->
 
     <!-- HIGHLIGHT LEVÉ PALETY — rubín, aktivní v lock 1 fázi.
-         Pozice (68.2, 212.5) = SKUTEČNÝ kontakt zub × paleta podle
-         průsečíku: lock arc r=243 od anchor pivot (242, 42.7) ∩
-         wheel tooth circle R_t=236 od wheel center (239.5, 372.6).
-         Distance pivot-to-wheel-center = 329.9 (mechanické zadání). -->
-    <circle cx="68.2" cy="212.5" r="11" fill="#B85068" opacity="0">
+         Pozice (72.41, 205.51) = REAL contact pro 90° anchor span:
+         tooth tip at angle 45° from vertical from wheel center (239.5, 372.6),
+         radius R_t=236.3 → pos (239.5 - 236.3·sin45°, 372.6 - 236.3·cos45°).
+         Distance from pivot = 235.09 (= lock arc radius). -->
+    <circle cx="72.41" cy="205.51" r="11" fill="#B85068" opacity="0">
       <animate attributeName="opacity"
         values="0.8; 0.8; 0; 0; 0; 0.8; 0.8"
         keyTimes="0; 0.22; 0.225; 0.755; 0.76; 0.765; 1"
@@ -214,9 +223,8 @@
     </circle>
 
     <!-- HIGHLIGHT PRAVÉ PALETY — rubín, aktivní v lock 2 fázi.
-         Pozice (400.9, 197.7) = SKUTEČNÝ kontakt zub × paleta podle
-         průsečíku: lock arc r=222 od pivot ∩ wheel tooth circle R_t=236. -->
-    <circle cx="400.9" cy="197.7" r="11" fill="#B85068" opacity="0">
+         Pozice (406.59, 205.51) = symmetric real contact (right tooth). -->
+    <circle cx="406.59" cy="205.51" r="11" fill="#B85068" opacity="0">
       <animate attributeName="opacity"
         values="0; 0; 0.8; 0.8; 0; 0"
         keyTimes="0; 0.255; 0.26; 0.72; 0.725; 1"

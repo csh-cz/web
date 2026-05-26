@@ -94,21 +94,30 @@ Plné CSS proměnné viz `docs/kroky-illustration-style.md`. Vždy konzistentní
 | Fázový text | top center (237, 25) | "LOCK" ↔ "IMPULSE → DROP", weight 600, 16px |
 | Spodní atribuce | dole střed (237, 615) | "[Název] krok (G. Graham, 1715) — schematická animace" |
 
-### 2.4 Pallet kontaktní pozice (přesný výpočet)
+### 2.4 Pallet kontaktní pozice — CAD-correct výpočet
 
-Reálný kontakt zub × paleta = **průsečík dvou kruhů**:
-- Circle 1: `|P − anchor_pivot| = r_p` (pallet lock arc radius, z helper arcs)
-- Circle 2: `|P − wheel_center| = R_t` (wheel tooth tip radius)
+⚠️ **NESPOLÉHEJ na Wikipedia helper arcs!** Wikipedia SVG (Chetvorno) má pal lock arcs na asymetrických r=243/222 — to jsou JEN DECORATIVE čáry odpovídající V tip OUTER/INNER edges, NE skutečné lock face arcs.
 
-Pomocný skript: `reference/pal-contact.py` — input default Graham hodnoty, output přesné `(x, y)` pro `<circle>` highlight markery.
+**Skutečná lock arc geometrie** (per Saunier 1875, CAD Journal Vol.4 2007 Fig.15):
 
-```bash
-python3 .claude/skills/kroky-animace/reference/pal-contact.py
-# →  LEFT contact: (68.2, 212.5)
-# →  RIGHT contact: (400.9, 197.7)
-```
+1. **Anchor span**: standardně 90° z wheel center = 7.5 zubů (z 30zubého kola)
+2. **Tooth tip kde paleta chytá zub**: at angle 45° from vertical z wheel center
+3. **Lock arc radius** r_lock = distance from anchor pivot to tooth tip position:
+   ```
+   tooth_pos = (wheel_cx − R_t·sin45°, wheel_cy − R_t·cos45°)
+   r_lock = √((tooth_x − pivot_x)² + (tooth_y − pivot_y)²)
+   ```
+4. **Symmetric** — `r_left = r_right` (Wikipedia asymmetrické je BUG)
 
-⚠️ NEUMÍSŤOVAT highlight markery na "inner edge V tipu" či "vrchol V" — vizuálně blízko ale fyzicky off o 20-25 px. Vždy spočítat průsečík kruhů.
+Pro Graham reference: R_t=236.3, D=329.9 → r_lock = **235.09** (NE 243/222)
+
+Pal contact positions:
+- Left: (72.41, 205.51) — `wheel_cx − R_t·sin45°, wheel_cy − R_t·cos45°`
+- Right: (406.59, 205.51) — mirror
+
+Pomocný skript: `reference/pal-contact.py` ALE jeho původní default byl založen na Wikipedia r=243/222 (chyba). Updated version vrací paper-correct values pro anchor span 90°.
+
+⚠️ NEUMÍSŤOVAT highlight markery na "inner edge V tipu" či "vrchol V" — vizuálně blízko ale fyzicky off o 20-25 px. Vždy spočítat průsečík kruhů ze správného r_lock.
 
 ### 2.5 Helper arcs (lock geometry)
 
