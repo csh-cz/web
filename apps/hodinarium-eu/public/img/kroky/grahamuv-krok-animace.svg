@@ -198,11 +198,12 @@
          didaktickou hodnotu pro vysvětlení deadbeat fází lock/release/
          impulse/drop, raději je vynecháme — méně vizuálního šumu. -->
 
-    <!-- HIGHLIGHT LEVÉ PALETY — rubín, aktivní v lock 1 fázi
-         (t=0→0.22 a t=0.755→1.0, kdy levá paleta drží zub).
-         Pozice na PALLET INNER edge (kontakt se zubem kola) cca (92, 204)
-         podle geometrie path6134 a wheel tooth tips. -->
-    <circle cx="92" cy="204" r="11" fill="#B85068" opacity="0">
+    <!-- HIGHLIGHT LEVÉ PALETY — rubín, aktivní v lock 1 fázi.
+         Pozice (68.2, 212.5) = SKUTEČNÝ kontakt zub × paleta podle
+         průsečíku: lock arc r=243 od anchor pivot (242, 42.7) ∩
+         wheel tooth circle R_t=236 od wheel center (239.5, 372.6).
+         Distance pivot-to-wheel-center = 329.9 (mechanické zadání). -->
+    <circle cx="68.2" cy="212.5" r="11" fill="#B85068" opacity="0">
       <animate attributeName="opacity"
         values="0.8; 0.8; 0; 0; 0; 0.8; 0.8"
         keyTimes="0; 0.22; 0.225; 0.755; 0.76; 0.765; 1"
@@ -212,10 +213,10 @@
         repeatCount="indefinite"/>
     </circle>
 
-    <!-- HIGHLIGHT PRAVÉ PALETY — rubín, aktivní v lock 2 fázi
-         (t=0.255→0.72, kdy pravá paleta drží zub).
-         Pozice symetricky vůči ose x=237.5: inner edge cca (383, 204). -->
-    <circle cx="383" cy="204" r="11" fill="#B85068" opacity="0">
+    <!-- HIGHLIGHT PRAVÉ PALETY — rubín, aktivní v lock 2 fázi.
+         Pozice (400.9, 197.7) = SKUTEČNÝ kontakt zub × paleta podle
+         průsečíku: lock arc r=222 od pivot ∩ wheel tooth circle R_t=236. -->
+    <circle cx="400.9" cy="197.7" r="11" fill="#B85068" opacity="0">
       <animate attributeName="opacity"
         values="0; 0; 0.8; 0.8; 0; 0"
         keyTimes="0; 0.255; 0.26; 0.72; 0.725; 1"
