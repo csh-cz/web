@@ -29,8 +29,8 @@ editorNotes:
     noteKey: manual-edit-false
 ---
 
-![fotografie sbírkového předmětu](/img/elektrika/bulle/magnet.jpg)
+![hodiny Bulle — detail kyvadlového magnetu (elektromagnetický pohon kyvadla)](/img/elektrika/bulle/magnet.jpg)
 
-![fotografie sbírkového předmětu](/img/elektrika/bulle/patent.jpg)
+![hodiny Bulle — kresba patentu pohonu kyvadla (Marcel-Léon Bulle, 1922)](/img/elektrika/bulle/patent.jpg)
 
-![fotografie sbírkového předmětu](/img/elektrika/bulle/patent6.jpg)
+![hodiny Bulle — kresba patentu pohonu kyvadla, varianta 6 (Marcel-Léon Bulle)](/img/elektrika/bulle/patent6.jpg)

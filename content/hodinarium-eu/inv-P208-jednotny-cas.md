@@ -28,12 +28,12 @@ editorNotes:
     noteKey: manual-edit-false
 ---
 
-![fotografie sbírkového předmětu](/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg)
+![celkový pohled na ArtDeco mateční hodiny systému Jednotný čas — kompletní stroj se skříní](/img/elektrika/jednotny_cas/artdeco/f/celek_artdeco.jpg)
 
-![fotografie sbírkového předmětu](/img/elektrika/jednotny_cas/artdeco/f/celek_jednotny_cas.jpg)
+![celkový pohled na hodiny systému Jednotný čas — mateční stroj s elektromagnetickým pohonem](/img/elektrika/jednotny_cas/artdeco/f/celek_jednotny_cas.jpg)
 
-![fotografie sbírkového předmětu](/img/elektrika/jednotny_cas/artdeco/f/detail_a.jpg)
+![detail mechanizmu hodin Jednotný čas — pohled na soukolí a elektromagnetické součásti (A)](/img/elektrika/jednotny_cas/artdeco/f/detail_a.jpg)
 
-![fotografie sbírkového předmětu](/img/elektrika/jednotny_cas/artdeco/f/detail_b.jpg)
+![detail mechanizmu hodin Jednotný čas — pohled na kontaktní spínání minutových impulzů (B)](/img/elektrika/jednotny_cas/artdeco/f/detail_b.jpg)
 
-![fotografie sbírkového předmětu](/img/elektrika/jednotny_cas/artdeco/f/schema.jpg)
+![schéma elektrického zapojení mateční stanice Jednotný čas se sítí podružných hodin](/img/elektrika/jednotny_cas/artdeco/f/schema.jpg)

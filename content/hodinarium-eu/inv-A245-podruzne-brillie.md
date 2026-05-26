@@ -31,12 +31,12 @@ editorNotes:
     noteKey: manual-edit-false
 ---
 
-![fotografie sbírkového předmětu](/img/elektrika/brillie/Brillie4.jpg)
+![dobová inzerce Brillié — řízeno T.S.F. signálem z Eiffelovy věže](/img/elektrika/brillie/Brillie4.jpg)
 
-![fotografie sbírkového předmětu](/img/elektrika/brillie/Brillie5.jpg)
+![dobová inzerce Brillié — synchronizace velkých skupin kyvadlových hodin se souhlasným úředním časem](/img/elektrika/brillie/Brillie5.jpg)
 
-![fotografie sbírkového předmětu](/img/elektrika/brillie/Brillie6.jpg)
+![dobová inzerce Brillié — vzájemná synchronizace regulátorů po telefonních linkách bez rušení hovorů](/img/elektrika/brillie/Brillie6.jpg)
 
-![fotografie sbírkového předmětu](/img/elektrika/brillie/Brillie_x2_m.jpg)
+![dvě mateční kyvadlové hodiny Brillié s elektromagnetickým pohonem (dobové)](/img/elektrika/brillie/Brillie_x2_m.jpg)
 
-![fotografie sbírkového předmětu](/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg)
+![mateční hodiny Brillié (systém bratří Brillié, 1908) v expozici Hodinária — stroj umístěný v neautentické prosklené skříni bez číselníku](/img/elektrika/brillie/brillie_hodinarium_bez_ciferniku.jpg)
