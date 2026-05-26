@@ -24,7 +24,10 @@ karta:
   extra:
     - { label: "Poznámka", value: "autor Skála, Kotrba" }
   rokVyroby: "2002"
+thumbnail: '/img/vezni/047d-orloj-skala.jpg'
 ---
+
+::photo{src="/img/vezni/047d-orloj-skala.jpg" alt="nástěnný malovaný orloj Petra Skály a Miroslava Kotrby v expozici Hodinária — kruhový ciferník s malovanou krajinou s hradem, zlatá kalendářová deska a astronomické ukazatele, vlevo částečně viditelný strojní pohon" author="Stanislav Marušák"}
 
 ::photo{src="/img/vezni/047a-orloj-skala.jpg" alt="orloj Skála — fotografie sbírkového předmětu (a)" author="Miroslav Baudisch"}
 

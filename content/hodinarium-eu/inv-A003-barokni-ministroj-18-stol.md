@@ -42,7 +42,10 @@ originalUrl: https://hodinarium-eu.pages.dev/sbirka/katalog
 lastModified: null
 sourceCharset: utf-8
 scrapedAt: 2026-04-30T04:12:37.520Z
+thumbnail: '/img/vezni/003a-ministroj.jpg'
 ---
+
+::photo{src="/img/vezni/003a-ministroj.jpg" alt="barokní věžní ministroj ze Zlatých Hor v expozici Hodinária — miniaturní kovaný čtvrťový stroj s viditelným mosazným cimbálem uvnitř rámu, postavený na výstavní stojánek s popisnou plaketou" author="Stanislav Marušák"}
 
 ![Barokní věžní ministroj ze Zlatých Hor — nálezový stav](/img/vez/ZlateHory/f/foto_0001.jpg)
 
