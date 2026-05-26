@@ -89,7 +89,7 @@ Jako ukázku uvádíme krásné stolní hodiny Lenzkirch značené "**AGUL R4 1 
 
 Zkratka AGUL znamená: Aktien (Stockholder) Gesellschaft (Corporation) Uhrenfabrikation (Clock Factory) Lenzkirch (Location). Označení **1 Million** se používalo pro hodiny vyrobené až po milióntém kusu. Vyskytuje se i označení **2 Million** . Více o značkách [zde.](http://www.lenzkirchclocks.com/lenzkirch-trade-symbols.shtml)
 
-![Lenzkirch stolní 1](/img/svarcvald/lenzkirch/361747077.jpg)
+![krbové hodiny Lenzkirch „AGUL R4 1 Million" výr. č. 927375 (kolem 1891) — bohatě zdobená kovová schrána s reliéfní výzdobou, AGUL = Aktien Gesellschaft Uhrenfabrikation Lenzkirch](/img/svarcvald/lenzkirch/361747077.jpg)
 
 Jde jistě o hodiny neobvyklého designu, jak by se řeklo v pohádkách "o hodiny nevšední krásy". Doufáme, že se informace ještě podaří doplnit.
 
@@ -97,9 +97,9 @@ Jde jistě o hodiny neobvyklého designu, jak by se řeklo v pohádkách "o hodi
 
 Rok výroby kolem roku 1895, rozměry 52 x 25 x 15
 
-![Lenzkirch stolní 2](/img/svarcvald/lenzkirch/obraz2899vu7.jpg)
+![krbové hodiny Lenzkirch „AGUL R4 i nr 140 1 Million" výr. č. 991583 (kolem 1895) — rozměry 52 × 25 × 15 cm, dobový design konce 19. století](/img/svarcvald/lenzkirch/obraz2899vu7.jpg)
 
-![Lenzkirch stolní 3](/img/svarcvald/lenzkirch/obraz2894bv3.jpg)
+![krbové hodiny Lenzkirch „AGUL R4 i nr 140 1 Million" — boční pohled ukazující profil schrány s mosazným kováním](/img/svarcvald/lenzkirch/obraz2894bv3.jpg)
 
 **Odkazy:**
 
