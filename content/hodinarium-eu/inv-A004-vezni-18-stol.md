@@ -27,7 +27,7 @@ karta:
   biciStroje: "půlové"
 ---
 
-::photo{src="/img/vezni/004-vezni-18-stol.jpg" alt="věžní 18. stol. — fotografie sbírkového předmětu" author="Miroslav Baudisch"}
+::photo{src="/img/vezni/004-vezni-18-stol.jpg" alt="věžní stroj s vřetenovým krokem (předpokládaně před 18. století) v expozici Hodinária — kovaný rám s ozdobnou nástavbou v horní části, prodloužené kyvadlo nad hřídel, viditelné voluty u středních sloupků, korunové kolo nahoře, ozubení vystavené 3/4 ze předu" author="Stanislav Marušák"}
 
 Kovaný rám obsahuje kyvadlový stroj s vřetenovým krokem v horní nástavbě a půlový [bicí stroj](/slovnik/bici-stroj) se závěrkovým kolem. Škoda, že ozdobné voluty rámu se zachovaly jen u středních sloupků. Na krajních sloupcích jsou ulámané. Pohledově je zajímavá zejména nástavba s prodlouženým [kyvadlem](/slovnik/kyvadlo) a korunovým kolem. Protažení [kyvadlové](/slovnik/kyvadlo) tyče směrem vzhůru nad hřídel není obvyklé řešení. Můžeme se pouze domnívat, zda jde o estetický doplněk, nebo zda prodloužení sloužilo ke snadnější manipulaci s kyvadlem (vysunutí ze záběru) při seřizování stroje.
 
