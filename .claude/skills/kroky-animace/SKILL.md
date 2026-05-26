@@ -153,32 +153,34 @@ POVINNÉ pro každou animaci:
 
 ## 4. SMIL animace — sablona
 
-### 4.1 Krokové kolo (discrete tick s `accumulate="sum"`)
+### 4.1 Krokové kolo (discrete tick BEZ `accumulate="sum"`)
+
+**Chrome v `<object>` má bug** s `<animateTransform type="rotate" accumulate="sum">` + center coords (element zmizí). Workaround: **explicit values list pokrývající celou otáčku** (60s, 30 ticks × 2 keyframes = 61 keyframes).
+
+Generovat skriptem (skill obsahuje `reference/wheel-ticks.py`) nebo ručně:
 
 ```svg
 <g>
   <animateTransform
     attributeName="transform"
-    attributeType="XML"
     type="rotate"
-    values="0 [cx] [cy];
-            0 [cx] [cy];
-            12 [cx] [cy];
-            12 [cx] [cy];
-            24 [cx] [cy]"
-    keyTimes="0; 0.45; 0.5; 0.95; 1"
+    values="0 [cx] [cy]; 0 [cx] [cy]; 12 [cx] [cy]; 12 [cx] [cy]; 24 [cx] [cy]; ... 348 [cx] [cy]; 360 [cx] [cy]"
+    keyTimes="0; 0.03; 0.03333; 0.06333; ... 0.99667; 1"
     calcMode="linear"
-    dur="4s"
+    dur="60s"
     begin="0s"
-    repeatCount="indefinite"
-    accumulate="sum"/>
+    repeatCount="indefinite"/>
 
   <path d="…wheel teeth…" fill="#E6C97A" stroke="#8A6E35" stroke-width="1.4"/>
-  <circle cx="[cx]" cy="[cy]" r="16.7" fill="#3A2818"/>  <!-- center hub -->
+  <circle cx="[cx]" cy="[cy]" r="16.7" fill="#3A2818"/>
 </g>
 ```
 
-**Logika**: hold 0–0.45 (lock), jump 0.45–0.5 (impulse + drop o 12°), hold 0.5–0.95 (lock druhé palety), jump 0.95–1.0 (druhý tick). `accumulate="sum"` postupuje 24° per cyklus → 15 cyklů × 24° = 360°.
+**Logika per tick interval** (1/30 = 0.03333 cyklu = 2s @ dur=60s):
+- 0..0.9 of interval: hold (lock fáze, kolo stojí)
+- 0.9..1.0 of interval: jump from N° to (N+12)° (impulse + drop)
+
+Pattern: `(i/30, N*12)`, `((i+0.9)/30, N*12)` pro `i ∈ 0..29` + final `(1, 360°)`.
 
 ### 4.2 Kotva + kyvadlo (sinusoidální oscilace)
 
@@ -265,12 +267,15 @@ Pro lokální debug: vždy fetch s `?nocache=` query param při testu v Chromu.
 | Animace v `<object>` neaktualizují | Cache | Cache-bust query param (Photo.astro řeší) |
 | `<g>` zmizí po animaci | Možná Chrome bug s `accumulate="sum"` u rotate s center coords | Nejdřív verify že není cache; pak fallback na continuous rotation (from/to bez accumulate) |
 
-### 6.3 `accumulate="sum"` v Chrome
+### 6.3 `accumulate="sum"` v Chrome — POTVRZENÝ BUG
 
-Po Graham debug session (jsem strávil hodinu honbou na neexistující accumulate bug — byl to jen cache) **accumulate="sum" funguje OK** v Chrome `<object>` s rotate type. Pokud máš pochybnosti:
-1. **NEJDŘÍV** ověř cache-bust query param je v `<object data="…?v=X">`
-2. **Pak** otestuj v Chrome MCP s explicit fresh URL
-3. **Až pak** zvažuj alternativní animation strategy
+**Chrome v `<object>` má REÁLNÝ bug** s `<animateTransform type="rotate" accumulate="sum">` + center coords (`X cx cy` format). Element úplně zmizí — potvrzeno přes JS query (path je v DOMu, fill OK, bbox OK, ale renderer ho přeskočí).
+
+Workaround:
+- **NEPOUŽÍVAT** accumulate="sum" pro rotace s center
+- Místo toho **explicit values list pro celou otáčku** (60s, 61 keyframes pro 30 ticků) — viz §4.1
+
+Pozn: bez center (jen `from="0" to="360"`) accumulate funguje, ale center je potřeba pro správnou rotation kolem středu kola.
 
 ### 6.4 Verifikace renderingu
 
