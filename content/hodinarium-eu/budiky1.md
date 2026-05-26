@@ -39,13 +39,13 @@ Vlevo dole: dvouramenná palička, krokové kolo; Šikmo středem: vřeteno s tr
 
 Zde je řešení podobné, jen krokové kolo a krok je jiný.
 
-![fotografie sbírkového předmětu](/img/budiky1/budik_schwarz3.jpg)
+![závažový budík v podlahových hodinách Schwarzwald — celkový pohled na budicí stroj vpravo nahoře](/img/budiky1/budik_schwarz3.jpg)
 
-![fotografie sbírkového předmětu](/img/budiky1/budik_schwarz1.jpg)
+![závažový budík Schwarzwald — detail seřizovacího kolečka ve středu číselníku (buzení nastaveno přibližně na 4 hodiny)](/img/budiky1/budik_schwarz1.jpg)
 
-![fotografie sbírkového předmětu](/img/budiky1/budik_schwarz2.jpg)
+![závažový budík Schwarzwald — pohled na otvory pro šňůru se závažími vlevo nahoře](/img/budiky1/budik_schwarz2.jpg)
 
-![fotografie sbírkového předmětu](/img/budiky1/budik_schwarz4.jpg)
+![Schwarzwald podlahové hodiny — celkový pohled na porcelánkový číselník s budicím mechanismem](/img/budiky1/budik_schwarz4.jpg)
 
 Téměř celý budící stroj vpravo nahoře.
 
