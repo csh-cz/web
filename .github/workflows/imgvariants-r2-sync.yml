@@ -182,10 +182,13 @@ jobs:
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Rozparsuj comma-separated seznam změněných zdrojů a smaž je
+          # Rozparsuj comma-separated seznam změněných zdrojů a smaž je.
+          # -f: po embedu XMP/IPTC (krok výše) má source local modifications;
+          # bez -f git odmítne `rm`. Force je tu bezpečný — `git rm` smaže jen
+          # explicitně vyjmenované FILES, nic víc.
           IFS=',' read -ra FILES <<< "${{ steps.changed.outputs.files }}"
           for f in "${FILES[@]}"; do
-            git rm "$f"
+            git rm -f "$f"
           done
           git commit -m "ci: move uploaded images to R2 [skip ci]
 
