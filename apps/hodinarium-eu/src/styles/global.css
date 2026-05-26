@@ -495,13 +495,26 @@ summary::-webkit-details-marker { display: none; }
 
 /* Drop cap je už definován výš — stačí, aby ho nepřepsalo nic dalšího */
 
-.prose-content img {
+.prose-content img,
+.prose-content object {
   max-width: 100%;
   height: auto;
   display: block;
   margin-block: 1.5em;
   border-radius: 2px;
   border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+}
+
+/* `<object type="image/svg+xml">` (SMIL animované SVG v /kroky/) potřebuje
+   explicit aspect-ratio + max-width pro správný responsive resize.
+   `<img>` má auto-aspect z viewBox, `<object>` ne — záleží na intrinsic
+   width/height v SVG rootu. Pro jistotu aspect-ratio z viewBox 475:625. */
+.prose-content object[type="image/svg+xml"] {
+  width: 100%;
+  max-width: 540px;
+  height: auto;
+  aspect-ratio: 475 / 625;
+  margin-inline: auto;
 }
 
 /* === Multi-image grid ===

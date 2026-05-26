@@ -67,6 +67,9 @@
 -->
 <svg xmlns="http://www.w3.org/2000/svg"
      viewBox="0 0 475 625"
+     width="475"
+     height="625"
+     preserveAspectRatio="xMidYMid meet"
      role="img"
      aria-labelledby="title desc">
 
