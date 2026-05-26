@@ -31,8 +31,10 @@ karta:
   krokJicihoStroje: "vřetenový krok"
   biciStroje: "čtvrťové + hodinové"
   adaptaceProVystavu: "Před instalací v Hodináriu byl stroj kompletně rozebrán a součásti restaurovány, chybějící části doplněny."
-thumbnail: '/img/decin/baroko/barokoMellner/f/foto_0001.jpg'
+thumbnail: '/img/vezni/013a-wenzel-mellner.jpg'
 ---
+
+::photo{src="/img/vezni/013a-wenzel-mellner.jpg" alt="věžní stroj Wenzel Mellner v expozici Hodinária — frontální pohled s plaketou a kamennými závažími, signatura „Wenzel Mellner“ čitelná na horním břevně rámu" author="Stanislav Marušák"}
 
 ![Vřetenový čtvrťový stroj Wenzel Mellner — nálezový stav](/img/decin/baroko/barokoMellner/f/foto_0001.jpg)
 

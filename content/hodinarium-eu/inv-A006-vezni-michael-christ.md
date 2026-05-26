@@ -47,6 +47,8 @@ karta:
 
 ::photo{src="/img/vezni/006b-michael-christ.jpg" alt="věžní stroj Michael Christ — boční detail rámu a soukolí" author="Miroslav Baudisch"}
 
+::photo{src="/img/vezni/006c-michael-christ.jpg" alt="věžní stroj Michael Christ — frontální pohled v expozici Hodinária s popisnou plaketou" author="Stanislav Marušák"}
+
 Hodiny byly původně umístěny ve zvonici kostela sv. Petra a Pavla v Horním Prysku. Do expozice Věžního muzejíčka v Soběslavi byly v roce 2012 zapůjčeny laskavostí Biskupství litoměřického, a to před instalací moderních, elektronicky řízených hodin v kostele. Hodiny delší dobu nebyly funkční a trpěly nepřízní počasí, neboť do věže před její nedávnou opravou zatékalo. Rám stroje i kola byly značně zkorodovány, některé součásti poškozeny nebo zcela chyběly.
 
 Bylo dohodnuto, že před instalací v muzejíčku budou hodiny opraveny tak, aby byly uchráněny před dalším poškozením a aby bylo možno náznakově předvádět jejich činnost. Vzhledem k hmotnosti a rozměrům bylo nutno stroj před přesunem do dílny kompletně rozmontovat; demontáž usnadnily mosazné matky, které šlo bez nebezpečí poškození povolit. Při ní byla provedena inventura — chyběl [větrník](/slovnik/vetrnik) s rohatkou u bití celých hodin, u čtvrťového bití se zachovalo jen částečně jedno křídlo větrníku, dále chyběla spouštěcí páka bití a závěs [kyvadla](/slovnik/kyvadlo).
