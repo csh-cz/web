@@ -1,35 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Grahamův klidový krok (deadbeat escapement) — schematická animace.
+  Grahamův klidový krok (deadbeat escapement) — schematická animace v5.
 
   Vznikla pro Hodinarium-eu / Český spolek horologický, 2026-05-26.
   Předloha: Chetvorno, "Graham Escapement" (Wikimedia Commons, Public Domain),
   https://commons.wikimedia.org/wiki/File:Graham_Escapement.svg
 
-  Geometrie zachována 1:1 podle předlohy. Změny oproti originálu:
-  - přebarveno do palety hodinarium-eu (viz docs/kroky-illustration-style.md):
-    pastelová mosaz (kolo) × ocelová modř (kotva, tyč), sépiové obrysy
-  - odstraněny červené anotace b-b/a/c (zachována jen mechanika)
-  - SMIL animace fází lock → release → impulse → drop → lock:
+  ====== FYZIKA GRAHAMOVA KLIDOVÉHO KROKU ======
 
-    Perioda kyvadla 2 s. Za půlperiodu (1 s) proběhne jeden tick (zub):
-    - 0.00 s : kyvadlo +3° extrém (vlevo). Levá paleta právě locked
-              (zub doléhá na klidovou plochu soustřednou s osou kotvy).
-    - 0.00–0.40 s: LOCK. Kotva pomalu kyve zpět k 0°. Kolo STOJÍ
-              (zub klouže po dead face = nulová tečná síla).
-    - 0.40–0.50 s: RELEASE + IMPULSE. Kotva přechází přes 0° → -3°.
-              Zub opustí dead face, sjede po impulse face → předá
-              tangenciální sílu kotvě. Kolo se posune o ~10° CCW.
-    - 0.50 s : DROP + LOCK. Zub uklouzne z hrany palety (drop ≈ 2°),
-              další zub udeří do pravé palety na její dead face.
-              Kyvadlo na -3° extrému. Kolo stojí na -12° od startu.
-    - 0.50–0.90 s: LOCK. Kotva kyve zpět z -3° k 0°. Kolo STOJÍ.
-    - 0.90–1.00 s: RELEASE + IMPULSE pravé palety. Kolo o dalších -12°.
-    - 1.00 s : kotva na +3°, levá paleta opět locked. Cyklus opakuje.
+  Předpoklady:
+  - 30zubé kolo, rozteč zubů 12° (= 360°/30)
+  - kotva pevně spojena s kyvadlem (přes crutch), perioda 2 s
+  - kotva má 2 palety (entry vlevo, exit vpravo), každá s:
+    * LOCK FACE (kruhový oblouk soustředný s osou kotvy = "dead face")
+    * IMPULSE FACE (krátký úkos na hraně) — předává energii zubu
 
-    Kolo: 30 zubů × 12° = 360°. Za jednu periodu kyvadla (2s) postup
-    o 2 zuby = 24°. Celá otáčka za 30s (15 period). `accumulate="sum"`
-    drží continuous rotation across cykly bez resetu na 0.
+  ====== AIRYHO TEORÉM (Airy 1826) ======
+
+  Impulse se předává PŘI PRŮCHODU KYVADLA SVISLOU POLOHOU
+  (= max rychlost, min citlivost na poruchy). Tj. v cyklu animace
+  v t=0.25 a t=0.75, kde kyvadlo prochází 0°. Lock dominuje
+  zbytek času (~80%) — během lock kolo úplně STOJÍ (odtud
+  "deadbeat" = mrtvý úder, na rozdíl od recoil typu kde kolo couvá).
+
+  ====== TIMING ANIMACE (perioda 2 s) ======
+
+  t = 0.00  : kyvadlo +6° (extrém vlevo). LEVÁ paleta locked.
+  t = 0.00 → 0.22  : LOCK 1 (~22% periody) — kolo stojí,
+                     kotva osciluje volně přes dead face.
+  t = 0.22 → 0.245 : UNLOCK + IMPULSE 1 — zub klouže po úkosu
+                     levé palety, kolo se posune o -10°.
+                     Kyvadlo právě prochází ~0° (Airy).
+  t = 0.245 → 0.255: DROP 1 — zub uklouzne z hrany, kolo volně
+                     proletí dalších -2°. Slyšitelný TIK.
+  t = 0.25  : kyvadlo 0° (svislé). Kolo na -12° (1 zub).
+  t = 0.255 → 0.72 : LOCK 2 (~47% periody) — pravá paleta
+                     locked, kotva pokračuje k -6° extrému a zpět.
+  t = 0.50  : kyvadlo -6° (extrém vpravo). Kolo stále na -12°.
+  t = 0.72 → 0.745 : UNLOCK + IMPULSE 2 — zub klouže po úkosu
+                     pravé palety, kolo o -10°.
+  t = 0.745 → 0.755: DROP 2 — kolo o -2°.
+  t = 0.75  : kyvadlo 0°. Kolo na -24°.
+  t = 0.755 → 1.00 : LOCK 1 — levá paleta opět drží zub.
+  t = 1.00  : kyvadlo +6° (extrém vlevo). Cyklus opakuje.
+
+  Za jednu periodu (2s) kolo postoupí o 24° (= 2 zuby).
+  Za 30 s = 15 period × 24° = 360° (celá otáčka).
+
+  Geometrie postupu kola za 1 zub (12° rozteč):
+  - IMPULSE arc (úkos palety): ~10° na kole
+  - DROP angle: ~2° na kole
+  - LOCK arc: 0° (kolo nepostoupí, jen kotva osciluje)
+
+  Pozn. k amplitudě: reálné Graham regulátory mají kyvadlo
+  ±1,5–2,5°. Pro vizuální čitelnost přeháníme na ±6°.
+
+  ====== VIZUÁLNÍ INDIKACE ======
+
+  - Rubínový kruh nad palety bliká v LOCK fázi té palety,
+    která drží zub (vizualizuje "active pallet")
+  - Sépiový text nahoře střídá "LOCK" ↔ "IMPULSE → DROP"
+  - Tenká CCW šipka indikuje směr rotace kola
 
   License: CC BY 4.0 (Český spolek horologický)
   Předloha: PD — atribuce zachována v note u ::photo directive.
@@ -41,33 +72,73 @@
 
   <title id="title">Grahamův klidový krok — schematická animace</title>
   <desc id="desc">
-    Krokové kolo (mosaz, 30 zubů) kontinuálně rotuje proti směru
-    hodinových ručiček. Kotva nahoře (ocel) pivotuje s amplitudou ±3°,
-    kyvadlová tyč svisle dolů přes rovinu kola.
+    Krokové kolo (mosaz, 30 zubů) se otáčí proti směru hodinových ručiček
+    diskrétními skoky po jednom zubu (12°), synchronizovaně s průchodem
+    kyvadla svislou polohou (Airyho teorém). Mezi skoky kolo STOJÍ
+    (deadbeat). Kotva (ocel) osciluje ±6° kolem horního pivotu;
+    rubínový highlight ukazuje aktuálně zachycující paletu, sépiový text
+    nahoře střídá fáze LOCK ↔ IMPULSE + DROP.
   </desc>
+
+  <style>
+    .krok-popisek {
+      font: 12px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+      font-weight: 400;
+      fill: #3A2818;
+    }
+    .krok-popisek-cislo {
+      font: 600 12px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+      fill: #3A2818;
+    }
+    .krok-popisek-mensi {
+      font: 10px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+      font-weight: 400;
+      fill: #3A2818;
+      opacity: 0.7;
+    }
+    .krok-popisek-faze {
+      font: 600 16px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+      letter-spacing: 0.05em;
+    }
+  </style>
 
   <!-- Pozadí (krémový papír) -->
   <rect x="0" y="0" width="475" height="625" fill="#F0E4C8"/>
 
+  <!-- CCW šipka — statická indikace směru rotace kola, dolní levý roh -->
+  <g opacity="0.55" stroke="#3A2818" stroke-width="1.8" fill="none" stroke-linecap="round">
+    <path d="M 50 510 Q 28 470 38 425" />
+    <path d="M 38 425 L 30 433 M 38 425 L 46 437" />
+    <text x="60" y="500" class="krok-popisek-mensi" stroke="none" fill="#3A2818" opacity="1">CCW</text>
+  </g>
+
   <!-- ====== KROKOVÉ KOLO ======
-       Diskrétní postup 2× za periodu kyvadla (2s) — po 12° (jeden zub).
-       Hold 90% času, impulse window 10% (přesun -12° během 0.1s).
-       `accumulate="sum"` — každý cyklus se akumuluje, kolo plynule
-       postupuje po -24° za 2s → -360° (jedna otáčka) za 30s. -->
+       6 keyframes per cyklus (lock → impulse → drop → lock → impulse → drop):
+       - 0     – 0.22 : LOCK 1 (kolo na 0°)
+       - 0.22  – 0.245: IMPULSE 1 (kolo 0 → -10°)
+       - 0.245 – 0.255: DROP 1 (kolo -10 → -12°)
+       - 0.255 – 0.72 : LOCK 2 (kolo na -12°)
+       - 0.72  – 0.745: IMPULSE 2 (kolo -12 → -22°)
+       - 0.745 – 0.755: DROP 2 (kolo -22 → -24°)
+       - 0.755 – 1.00 : LOCK 1 (kolo na -24°, next cycle start)
+       `accumulate="sum"` → kolo postupuje plynule (15 cyklů × -24° = -360°). -->
   <g>
     <animateTransform
       attributeName="transform"
       type="rotate"
       values="0 239.5 372.6;
               0 239.5 372.6;
+              -10 239.5 372.6;
               -12 239.5 372.6;
               -12 239.5 372.6;
+              -22 239.5 372.6;
+              -24 239.5 372.6;
               -24 239.5 372.6"
-      keyTimes="0; 0.40; 0.50; 0.90; 1"
+      keyTimes="0; 0.22; 0.245; 0.255; 0.72; 0.745; 0.755; 1"
       calcMode="linear"
       dur="2s"
+      begin="0s"
       repeatCount="indefinite"
-      additive="sum"
       accumulate="sum"/>
 
     <!-- Tělo kola s 30 zuby (předloha path4992) — přebarveno na mosaz -->
@@ -78,21 +149,19 @@
     <circle cx="239.61" cy="372.67" r="16.72" fill="#3A2818" stroke="none"/>
   </g>
 
-  <!-- ====== KOTVA + KYVADLO ======
-       Oscilace ±3° kolem horního pivotu (242, 42.7). Profil:
-       extrém vlevo (+3°) v t=0 a t=1, extrém vpravo (-3°) v t=0.5.
-       Splines `0.4 0 0.6 1` dávají cosinus-like profil — pomalé
-       zrychlení od extrému, max rychlost ve středu, plynulé zpomalení.
-       Reálná kotva v Graham kroku je sinusoidální skoro celou dobu;
-       jen v krátké impulse fázi (kolem t=0.45 a t=0.95) lehce zrychlí
-       — tady to schématicky ignorujeme, čitelnost přednost. -->
+  <!-- ====== KOTVA + KYVADLO + PALETOVÉ HIGHLIGHT ======
+       Oscilace ±6° kolem horního pivotu (242, 42.7) — přehnaná amplituda
+       pro vizuální čitelnost (reálné Graham regulátory: ±1,5–2,5°).
+       Kyvadlo na svislé (0°) v t=0.25 a t=0.75 — sync s impulse okny kola.
+       Highlight palet (rubín) bliká v lock fázi té palety, která drží zub. -->
   <g>
     <animateTransform
       attributeName="transform"
       type="rotate"
-      values="3 242 42.7; -3 242 42.7; 3 242 42.7"
+      values="6 242 42.7; -6 242 42.7; 6 242 42.7"
       keyTimes="0; 0.5; 1"
       dur="2s"
+      begin="0s"
       repeatCount="indefinite"
       calcMode="spline"
       keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
@@ -101,7 +170,7 @@
     <path d="m 261.6309,622.17293 c -2.23017,1.25778 -4.48017,0.84442 -7.23619,-0.17647 l 6.88654,-6.74472 0.34965,6.92119 z"
        fill="#88A8C8" stroke="#3D5878" stroke-width="1"/>
 
-    <!-- Kyvadlová tyč (předloha rect6109) — dlouhý úzký pruh -->
+    <!-- Kyvadlová tyč (předloha rect6109) -->
     <path d="m 237.47806,65.911658 11.98442,-0.313642 12.02665,555.535694 c -4.13975,-3.45484 -8.13302,3.9376 -11.98442,0.31364 L 237.47806,65.911658 z"
        fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"
        stroke-linecap="round" stroke-linejoin="miter"/>
@@ -127,42 +196,77 @@
       <circle cx="322.57" cy="144.01" r="7.54" fill="#F0E4C8" stroke="#3D5878" stroke-width="1.3"/>
       <path d="m 317.94781,138.07356 9.54465,11.40919" stroke="#3D5878" stroke-width="1" fill="none"/>
     </g>
+
+    <!-- HIGHLIGHT LEVÉ PALETY — rubín, aktivní v lock 1 fázi
+         (t=0→0.22 a t=0.755→1.0, kdy levá paleta drží zub).
+         Pozice na V tipu cca (90, 215) podle geometrie path6134. -->
+    <circle cx="90" cy="215" r="12" fill="#B85068" opacity="0">
+      <animate attributeName="opacity"
+        values="0.8; 0.8; 0; 0; 0; 0.8; 0.8"
+        keyTimes="0; 0.22; 0.225; 0.755; 0.76; 0.765; 1"
+        calcMode="linear"
+        dur="2s"
+        begin="0s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <!-- HIGHLIGHT PRAVÉ PALETY — rubín, aktivní v lock 2 fázi
+         (t=0.255→0.72, kdy pravá paleta drží zub).
+         Pozice symetricky vůči ose x=237.5: tip cca (385, 215). -->
+    <circle cx="385" cy="215" r="12" fill="#B85068" opacity="0">
+      <animate attributeName="opacity"
+        values="0; 0; 0.8; 0.8; 0; 0"
+        keyTimes="0; 0.255; 0.26; 0.72; 0.725; 1"
+        calcMode="linear"
+        dur="2s"
+        begin="0s"
+        repeatCount="indefinite"/>
+    </circle>
   </g>
 
-  <!-- ====== POPISKY (statické, sépie, sans-serif) ====== -->
-  <style>
-    .krok-popisek {
-      font: 12px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
-      font-weight: 400;
-      fill: #3A2818;
-    }
-    .krok-popisek-cislo {
-      font: 600 12px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
-      fill: #3A2818;
-    }
-    .krok-popisek-mensi {
-      font: 10px/1.3 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
-      font-weight: 400;
-      fill: #3A2818;
-      opacity: 0.7;
-    }
-  </style>
+  <!-- ====== FÁZOVÝ INDIKÁTOR (text nahoře) ======
+       Střídá "LOCK" (sépie) a "IMPULSE → DROP" (rubín) podle aktuální
+       fáze cyklu. Visuálně zvýrazňuje co se právě v mechanismu děje. -->
+  <g text-anchor="middle">
+    <text x="237.5" y="25" class="krok-popisek-faze" fill="#3A2818" opacity="1">
+      LOCK
+      <animate attributeName="opacity"
+        values="1; 1; 0; 0; 1; 1; 0; 0; 1"
+        keyTimes="0; 0.22; 0.225; 0.255; 0.26; 0.72; 0.725; 0.755; 1"
+        calcMode="linear"
+        dur="2s"
+        begin="0s"
+        repeatCount="indefinite"/>
+    </text>
+    <text x="237.5" y="25" class="krok-popisek-faze" fill="#B85068" opacity="0">
+      IMPULSE → DROP
+      <animate attributeName="opacity"
+        values="0; 0; 1; 1; 0; 0; 1; 1; 0"
+        keyTimes="0; 0.22; 0.225; 0.255; 0.26; 0.72; 0.725; 0.755; 1"
+        calcMode="linear"
+        dur="2s"
+        begin="0s"
+        repeatCount="indefinite"/>
+    </text>
+  </g>
 
-  <!-- A — Krokové kolo (vlevo) -->
-  <text x="6" y="378" class="krok-popisek-cislo">A</text>
-  <text x="20" y="378" class="krok-popisek">— Krokové kolo (mosaz, 30 zubů)</text>
+  <!-- ====== POPISKY A/B/C/D + spodní atribuce ====== -->
+
+  <!-- A — Krokové kolo (vlevo dole) -->
+  <text x="6" y="395" class="krok-popisek-cislo">A</text>
+  <text x="20" y="395" class="krok-popisek">— Krokové kolo (mosaz, 30 zubů)</text>
 
   <!-- B — Kotva (vlevo nahoře) -->
-  <text x="6" y="50" class="krok-popisek-cislo">B</text>
-  <text x="20" y="50" class="krok-popisek">— Kotva (ocel)</text>
+  <text x="6" y="72" class="krok-popisek-cislo">B</text>
+  <text x="20" y="72" class="krok-popisek">— Kotva (ocel)</text>
 
-  <!-- C — Palety (vpravo, u boků kotvy) -->
-  <text x="350" y="220" class="krok-popisek-cislo">C</text>
-  <text x="364" y="220" class="krok-popisek">— Palety</text>
+  <!-- C — Palety (vpravo nahoře) -->
+  <text x="410" y="200" class="krok-popisek-cislo" text-anchor="end">C</text>
+  <text x="467" y="200" class="krok-popisek" text-anchor="end">— Palety</text>
 
   <!-- D — Tyč kyvadla (vpravo dole) -->
-  <text x="290" y="560" class="krok-popisek-cislo">D</text>
-  <text x="304" y="560" class="krok-popisek">— Tyč kyvadla</text>
+  <text x="410" y="560" class="krok-popisek-cislo" text-anchor="end">D</text>
+  <text x="467" y="560" class="krok-popisek" text-anchor="end">— Tyč kyvadla</text>
 
   <!-- Spodní popis -->
   <text x="237.5" y="615" text-anchor="middle" class="krok-popisek-mensi">
