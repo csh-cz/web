@@ -25,7 +25,7 @@
 
   ====== TIMING ANIMACE (perioda 2 s) ======
 
-  t = 0.00  : kyvadlo +6° (extrém vlevo). LEVÁ paleta locked.
+  t = 0.00  : kyvadlo +2° (extrém vlevo). LEVÁ paleta locked.
   t = 0.00 → 0.22  : LOCK 1 (~22% periody) — kolo stojí,
                      kotva osciluje volně přes dead face.
   t = 0.22 → 0.245 : UNLOCK + IMPULSE 1 — zub klouže po úkosu
@@ -35,14 +35,14 @@
                      proletí dalších +2°. Slyšitelný TIK.
   t = 0.25  : kyvadlo 0° (svislé). Kolo na +12° (1 zub).
   t = 0.255 → 0.72 : LOCK 2 (~47% periody) — pravá paleta
-                     locked, kotva pokračuje k -6° extrému a zpět.
-  t = 0.50  : kyvadlo -6° (extrém vpravo). Kolo stále na +12°.
+                     locked, kotva pokračuje k -2° extrému a zpět.
+  t = 0.50  : kyvadlo -2° (extrém vpravo). Kolo stále na +12°.
   t = 0.72 → 0.745 : UNLOCK + IMPULSE 2 — zub klouže po úkosu
                      pravé palety, kolo o +10°.
   t = 0.745 → 0.755: DROP 2 — kolo o +2°.
   t = 0.75  : kyvadlo 0°. Kolo na +24°.
   t = 0.755 → 1.00 : LOCK 1 — levá paleta opět drží zub.
-  t = 1.00  : kyvadlo +6° (extrém vlevo). Cyklus opakuje.
+  t = 1.00  : kyvadlo +2° (extrém vlevo). Cyklus opakuje.
 
   Za jednu periodu (2s) kolo postoupí CW o 24° (= 2 zuby).
   Za 30 s = 15 period × 24° = 360° (celá otáčka).
@@ -53,7 +53,7 @@
   - LOCK arc: 0° (kolo nepostoupí, jen kotva osciluje)
 
   Pozn. k amplitudě: reálné Graham regulátory mají kyvadlo
-  ±1,5–2,5°. Pro vizuální čitelnost přeháníme na ±6°.
+  ±1,5–2,5°. Reálné hodnoty zachovány — palety zůstávají v zubním poli bez kolize.
 
   ====== VIZUÁLNÍ INDIKACE ======
 
@@ -78,7 +78,7 @@
     Krokové kolo (mosaz, 30 zubů) se otáčí po směru hodinových ručiček
     diskrétními skoky po jednom zubu (12°), synchronizovaně s průchodem
     kyvadla svislou polohou (Airyho teorém). Mezi skoky kolo STOJÍ
-    (deadbeat). Kotva (ocel) osciluje ±6° kolem horního pivotu;
+    (deadbeat). Kotva (ocel) osciluje ±2° kolem horního pivotu;
     rubínový highlight ukazuje aktuálně zachycující paletu, sépiový text
     nahoře střídá fáze LOCK ↔ IMPULSE + DROP.
   </desc>
@@ -155,15 +155,18 @@
   </g>
 
   <!-- ====== KOTVA + KYVADLO + PALETOVÉ HIGHLIGHT ======
-       Oscilace ±6° kolem horního pivotu (242, 42.7) — přehnaná amplituda
-       pro vizuální čitelnost (reálné Graham regulátory: ±1,5–2,5°).
+       Oscilace ±2° kolem horního pivotu (242, 42.7) — REÁLNÁ amplituda
+       Graham regulátorů (±1,5–2,5°). NEZVĚTŠOVAT pro "vizuální čitelnost"
+       jak jsem zkusil dříve s ±6° — palety pak vyjedou MIMO zubní pole
+       a vizuálně "protínají" zuby kola → vypadá jako kolize.
+       Při ±2° palety zůstávají v lock face contact zone u zubního obvodu.
        Kyvadlo na svislé (0°) v t=0.25 a t=0.75 — sync s impulse okny kola.
        Highlight palet (rubín) bliká v lock fázi té palety, která drží zub. -->
   <g>
     <animateTransform
       attributeName="transform"
       type="rotate"
-      values="6 242 42.7; -6 242 42.7; 6 242 42.7"
+      values="2 242 42.7; -2 242 42.7; 2 242 42.7"
       keyTimes="0; 0.5; 1"
       dur="4s"
       begin="0s"

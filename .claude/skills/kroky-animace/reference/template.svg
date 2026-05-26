@@ -118,7 +118,7 @@
     <animateTransform
       attributeName="transform"
       type="rotate"
-      values="6 [pivot_x] [pivot_y]; -6 [pivot_x] [pivot_y]; 6 [pivot_x] [pivot_y]"
+      values="2 [pivot_x] [pivot_y]; -2 [pivot_x] [pivot_y]; 2 [pivot_x] [pivot_y]"
       keyTimes="0; 0.5; 1"
       dur="4s"
       begin="0s"

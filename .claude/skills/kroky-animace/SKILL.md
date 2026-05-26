@@ -138,9 +138,13 @@ Pro Graham: arcs jsou na poloměru ~243 (left, OUTER edge palety) a ~222 (right,
 
 Pro pilot animace (didakticky čitelnější než reálné):
 - **Perioda kyvadla: 4 s** (2× pomalejší než reálné regulátory s 2 s periodou)
-- **Amplituda kotvy: ±6°** (přehnaná; reálné ±1.5–2.5°)
+- **Amplituda kotvy: ±2°** (REÁLNÁ; NESMÍ se zvětšovat na ±6° pro "čitelnost"!)
 - **Tick každé 2 s** (= 1 zub za 2 s)
 - **Celá otáčka kola: 60 s** (15 period × 24°)
+
+⚠️ **POZOR — amplituda kotvy:** zub v lock fázi LEŽÍ NA PALETE (fyzický kontakt). Paleta = kruhový oblouk soustředný s pivot kotvy, takže při rotaci kotvy zub klouže po této ploše bez kolize. ALE: vizuálně palety (V tipy) se rotují podle pivot kotvy, a pokud amplituda je VĚTŠÍ než pásmo lock face contact, paleta VYJEDE z zubního pole a vypadá to jako že kotva "prochází skrz zub" → vizuální kolize.
+
+**Pravidlo**: amplituda kotvy musí být dostatečně malá aby V tipy palet zůstávaly v zubním poli (kolem r=235 od pivot u Graham geometrie). ±2° je horní hranice pro Graham; ±1,5° pro precision regulátory. NIKDY ±6° nebo víc — zub se nesmí "propíchnout" paletou.
 
 ### 3.4 Vizuální vrstvy didaktické čitelnosti
 
