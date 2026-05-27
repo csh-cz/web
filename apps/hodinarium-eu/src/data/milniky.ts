@@ -1102,6 +1102,26 @@ export const milniky: Milnik[] = [
     zdroj: 'Knespl & Husník 2024 — Cast Iron Tower Clockworks Manufacturing and the Role of Prague Polytechnic',
   },
   {
+    id: 'litinove-hodiny-1810',
+    rok: 1810,
+    rokText: '1809–1834',
+    epocha: 'prumysl',
+    oblast: 'ceske-zeme',
+    kategorie: 'vynalez',
+    ikona: 'industry',
+    titulek: 'Litinové věžní hodiny — pokus o sériovou výrobu',
+    popis:
+      'Hořovická slévárna hraběte Rudolfa z Vrbna začala roku 1810 nabízet litinové věžní stroje ' +
+      's Grahamovým krokem za 600 zlatých — modely zhotovené na pražské polytechnice. Roku 1834 ' +
+      'navázal Heinrich Alexander Luz vlastní litinovou konstrukcí ze šlapanické huti u Brna. ' +
+      'Šlo o první české pokusy o průmyslovou (sériovou) výrobu věžních hodin — proti tradičnímu řemeslu.',
+    clanek: 'litinove-vezni-hodiny',
+    krok: 'grahamuv-krok',
+    hodinar: 'josef-bozek',
+    bibKey: 'knesplProgressTraditionTraditional2024',
+    zdroj: 'Knespl 2024 — Progress versus tradition (industrial tower clock production in the Czech lands)',
+  },
+  {
     id: 'josef-bozek-1824',
     rok: 1824,
     rokText: '1824',
@@ -1166,6 +1186,41 @@ export const milniky: Milnik[] = [
     zdroj: 'Knespl 2023 — Robertův krok (oprava chybného označení)',
   },
   {
+    id: 'l-hainz-1836',
+    rok: 1836,
+    rokText: '1836',
+    epocha: 'prumysl',
+    oblast: 'ceske-zeme',
+    kategorie: 'instituce',
+    ikona: 'shop',
+    titulek: 'Založení firmy L. Hainz',
+    popis:
+      'Ludvík Hainz st. (1815–1875) si roku 1836 otevřel hodinářský krám na Staroměstském náměstí ' +
+      'pod podloubím proti pražskému orloji; firma postupně přerostla v jednu z nejvýznamnějších ' +
+      'českých hodinářských firem a po opravě orloje 1864–65 získala trvalou funkci jeho orlojníka.',
+    hodinar: 'ludvik-hainz',
+    bibKey: 'martinekFirmaLudvikHainz2009',
+    zdroj: 'Martínek 2009 — Firma Ludvík Hainz, Praha',
+  },
+  {
+    id: 'jan-prokes-1839',
+    rok: 1839,
+    rokText: '1839',
+    epocha: 'prumysl',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    titulek: 'Jan Prokeš — sobotecká dílna',
+    popis:
+      'Jan Prokeš (1818–1890) se po vyučení roku 1839 osamostatnil v Sobotce jako hodinář; vyrobil ' +
+      '200–400 věžních strojů (první roku 1848 pro kostel v Loukově), proslul kolíčkovým (Robertovým) ' +
+      'krokem a své stroje vyvážel až do banátské Vingy.',
+    clanek: 'sobotecka-dilna-prokesova-robertuv-krok',
+    hodinar: 'jan-prokes',
+    krok: 'robertuv-krok',
+    bibKey: 'knesplJanProkesHodinar2018',
+    zdroj: 'Knespl 2018 — Jan Prokeš, hodinář ze Sobotky',
+  },
+  {
     id: 'big-ben-1859',
     rok: 1859,
     rokText: '1859',
@@ -1214,6 +1269,23 @@ export const milniky: Milnik[] = [
     zdroj: 'Kalluš 1874 — Dopis Průmyslové jednotě o zřízení hodinářské školy',
     bibKey: 'kallusDopisPrumysloveJednote1874',
     zoteroKey: 'BDMW3GD4',
+  },
+  {
+    id: 'vaclav-krecmer-1878',
+    rok: 1878,
+    rokText: '1878',
+    epocha: 'prumysl',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    titulek: 'Václav Krečmer — hodinář-mechanik',
+    popis:
+      'Václav Krečmer publikoval roku 1878 programovou stať „O hodinářství"; v Praze působil jako ' +
+      'hodinář-mechanik a věžní hodinář, roku 1892 získal cenu pražské Jubilejní výstavy za samočinný ' +
+      'hybostroj mezinárodního panoramy a později se synem dodával věžní stroje i soutěžil s Hainzem ' +
+      'o pražské elektrické hodiny.',
+    hodinar: 'vaclav-krecmer',
+    bibKey: 'knesplVaclavKrecmerHodinar2026',
+    zdroj: 'Knespl 2026 — Václav Krečmer — hodinář inovátor',
   },
   {
     id: 'orloj-apostolove-1882',
