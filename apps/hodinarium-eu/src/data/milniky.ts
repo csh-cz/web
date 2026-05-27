@@ -509,21 +509,24 @@ export const milniky: Milnik[] = [
     zoteroKey: 'KPB743UX',
   },
   {
-    id: 'praha-1354',
-    rok: 1354,
-    rokText: '~1354',
+    id: 'praha-mansionari',
+    rok: 1350,
+    rokText: 'po 1344',
     epocha: 'stredovek',
     oblast: 'ceske-zeme',
     kategorie: 'monument',
-    titulek: 'První veřejné hodiny v Praze',
+    titulek: 'První pražské hodiny — stanovy mansionářů Arnošta z Pardubic',
     popis:
-      'Půl století před staroměstským orlojem už Praha měla veřejné hodiny: statuta kolegiátní kapituly ' +
-      'z roku 1354 zmiňují druhé večerní zvonění, k roku 1359 je doložena vdova po pražském hodináři ' +
-      'a roku 1361 císařský hodinář. Italský způsob počítání hodin v zemích koruny české naznačuje, ' +
-      'že technologie přišla z Itálie.',
+      'Stanovy kolegiátní kapituly mansionářů u sv. Víta, které jim dal arcibiskup Arnošt z Pardubic ' +
+      '(po jejím založení Karlem IV.), obsahují první pražskou zmínku o mechanických hodinách: kdo ' +
+      'z mansionářů by „post secundum pulsum horologii" (po druhém bití hodin na zvon) byl mimo dům, ' +
+      'neměl být v noci vpuštěn. Italský způsob počítání hodin vede k Padově — Arnošt tam 14 let studoval, ' +
+      'mezitím Jacopo Dondi sestrojil 1344 padovský radniční orloj. K roku 1358 je v Praze doložena ' +
+      'vdova po neznámém staršímu mistru hodin („uxor quondam magistri horologii"), od 1361 i dvorní ' +
+      'hodinář Karla IV. Martin. Praha měla mechanické hodiny už generaci před staroměstským orlojem.',
     slovnik: 'orlojnik',
-    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
-    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
+    bibKey: 'rosickyStaromestskyOrlojPraze1923',
+    zdroj: 'Rosický 1923 — Staroměstský Orloj v Praze (O počátcích bicích hodin v Čechách)',
   },
   {
     id: 'aire-sur-lys-1355',
