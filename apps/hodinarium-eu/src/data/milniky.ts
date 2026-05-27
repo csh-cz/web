@@ -1271,18 +1271,18 @@ export const milniky: Milnik[] = [
     zoteroKey: 'BDMW3GD4',
   },
   {
-    id: 'vaclav-krecmer-1878',
-    rok: 1878,
-    rokText: '1878',
+    id: 'vaclav-krecmer-1891',
+    rok: 1891,
+    rokText: '1891–92',
     epocha: 'prumysl',
     oblast: 'ceske-zeme',
     kategorie: 'osobnost',
-    titulek: 'Václav Krečmer — hodinář-mechanik',
+    titulek: 'Václav Krečmer — Panorama na Jubilejní výstavě',
     popis:
-      'Václav Krečmer publikoval roku 1878 programovou stať „O hodinářství"; v Praze působil jako ' +
-      'hodinář-mechanik a věžní hodinář, roku 1892 získal cenu pražské Jubilejní výstavy za samočinný ' +
-      'hybostroj mezinárodního panoramy a později se synem dodával věžní stroje i soutěžil s Hainzem ' +
-      'o pražské elektrické hodiny.',
+      'Pražský hodinář-mechanik Václav Krečmer dodal pro Jubilejní výstavu 1891 samočinný hybostroj ' +
+      'mezinárodní panoramy na Petříně a roku 1892 za něj získal cenu výstavy. K oboru se přihlásil ' +
+      'už programovou statí „O hodinářství" z roku 1878; později se synem dodával věžní stroje (1898) ' +
+      'a soutěžil s Hainzem o pražské elektrické hodiny.',
     hodinar: 'vaclav-krecmer',
     bibKey: 'knesplVaclavKrecmerHodinar2026',
     zdroj: 'Knespl 2026 — Václav Krečmer — hodinář inovátor',
