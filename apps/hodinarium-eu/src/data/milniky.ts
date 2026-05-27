@@ -304,6 +304,22 @@ export const milniky: Milnik[] = [
     zoteroKey: 'NLQ5CVJL',
   },
   {
+    id: 'libros-del-saber-1276',
+    rok: 1276,
+    rokText: '1276',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'vynalez',
+    ikona: 'gears',
+    titulek: 'Rtuťové hodiny v Libros del Saber de Astronomia',
+    popis:
+      'Alfonso X. nechal v Toledu sepsat kompendium „Libros del Saber de Astronomia" (1276–1277); ' +
+      'čtvrtá kniha popisuje hybridní stroj se závažím a regulátorem z rtuťových komůrek — most mezi ' +
+      'antickými vodními hodinami a prvními evropskými lihýřovými hodinami, které se objeví o pár let později.',
+    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
+    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
+  },
+  {
     id: 'paris-condemnation-1277',
     rok: 1277,
     rokText: '1277',
@@ -356,6 +372,23 @@ export const milniky: Milnik[] = [
     zoteroKey: 'RHHYLVK9',
   },
   {
+    id: 'orvieto-1307',
+    rok: 1307,
+    rokText: '1307–1308',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'monument',
+    ikona: 'clock',
+    titulek: 'Orvieto — nejstarší doložené městské hodiny',
+    popis:
+      'Riformagioni (zápisy městské rady) z let 1307–1308 ukládají daň na opravu „ariolagium sive ' +
+      'campanile" v radniční věži a roku 1308 najímají správce hodin. Podle Dohrna nejstarší doložená ' +
+      'městská veřejná hodina v Evropě — předchůdce vlny italských věžních strojů poloviny 14. století.',
+    slovnik: 'bici-stroj',
+    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
+    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
+  },
+  {
     id: 'wallingford-1330',
     rok: 1330,
     rokText: 'kolem 1330',
@@ -401,8 +434,9 @@ export const milniky: Milnik[] = [
     popis:
       'Nejstarší středověký doklad přesýpacích hodin: žena s velkou sklenicí písku se objevuje ' +
       've fresce Ambrogia Lorenzettiho „Allegoria del Buon Governo" (Siena, 1338) jako symbol ' +
-      'Umírněnosti. Že malíř mohl s motivem počítat u diváků naznačuje, že přesýpací hodiny byly ' +
-      'v té době už běžným zařízením — paralelně s nastupujícími mechanickými hodinami.',
+      'Umírněnosti. Druhý raný doklad přidává Tomaso da Modena, jehož freska kardinála Williama ' +
+      'z Anglie v dominikánské kapitulní síni v Trevisu (1352) ukazuje přesýpací hodiny na polici ' +
+      'u stolu — znamení, že už byly v polovině 14. století běžnou pomůckou souběžně s mechanickými hodinami.',
     clanek: 'mereni-casu',
     bibKey: 'nosonovskyEarlyRenaissanceConcepts2024',
     zdroj: 'Nosonovsky 2024 — Early Renaissance Concepts of Time and the Invention of Mechanical Clocks',
@@ -475,6 +509,41 @@ export const milniky: Milnik[] = [
     zoteroKey: 'KPB743UX',
   },
   {
+    id: 'praha-1354',
+    rok: 1354,
+    rokText: '~1354',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'monument',
+    titulek: 'První veřejné hodiny v Praze',
+    popis:
+      'Půl století před staroměstským orlojem už Praha měla veřejné hodiny: statuta kolegiátní kapituly ' +
+      'z roku 1354 zmiňují druhé večerní zvonění, k roku 1359 je doložena vdova po pražském hodináři ' +
+      'a roku 1361 císařský hodinář. Italský způsob počítání hodin v zemích koruny české naznačuje, ' +
+      'že technologie přišla z Itálie.',
+    slovnik: 'orlojnik',
+    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
+    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
+  },
+  {
+    id: 'aire-sur-lys-1355',
+    rok: 1355,
+    rokText: '1355',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'system',
+    ikona: 'bell',
+    titulek: 'Aire-sur-la-Lys — pracovní zvon (Werkglocke)',
+    popis:
+      'Roku 1355 získali měšťané Aire-sur-la-Lys povolení k instalaci pracovního zvonu (Werkglocke), ' +
+      'který by ohlašoval začátek a konec práce textilních dělníků odděleně od kanonických hodin církve. ' +
+      'U Jacquese Le Goffa proslulý doklad „měšťanského času" — měřeného a sekulárního, oddělujícího se ' +
+      'od „církevního času".',
+    slovnik: 'odbijeni',
+    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
+    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
+  },
+  {
     id: 'dondi-astrarium',
     rok: 1364,
     rokText: '1364',
@@ -499,9 +568,11 @@ export const milniky: Milnik[] = [
     kategorie: 'monument',
     titulek: 'Henri de Vick — orloj královského paláce v Paříži',
     popis:
-      'Hodinář Henri de Vick postavil roku 1370 pro královský palác v Paříži věžní hodiny ' +
-      's lihýřovým krokem. Jejich pravidelný úder inspiroval kolem roku 1380 Froissartovu ' +
-      'alegorickou báseň Orloge amoureus, v níž je krok přirovnán k pravé umírněnosti.',
+      'Karel V. Francouzský pověřil hodináře Henriho de Vicka, aby roku 1370 vystavěl pro pařížský ' +
+      'královský palác věžní hodiny s lihýřovým krokem („Horloge du Palais") — součást širokého ' +
+      'panovnického programu, do kterého patří i hodiny ve Vincennes (1359), Sens (1375), Avignon ' +
+      '(1374–75), Beauté-sur-Marne (1377) či Montargis (1380). Pravidelný úder Vickových hodin ' +
+      'inspiroval kolem roku 1380 Froissartovu alegorii „Orloge amoureus".',
     krok: 'vretenovy-krok',
     bibKey: 'nosonovskyEarlyRenaissanceConcepts2024',
     zdroj: 'Nosonovsky 2024 — Early Renaissance Concepts of Time and the Invention of Mechanical Clocks',
@@ -736,7 +807,11 @@ export const milniky: Milnik[] = [
     kategorie: 'osobnost',
     titulek: 'Norimberské vejce Petra Henleina',
     popis:
-      'Norimberský zámečník Henlein sestrojil rané přenosné hodinky poháněné pružinou — „Nürnberger Ei".',
+      'Norimberský zámečník Peter Henlein (~1485–1542), doložený 1509 v cechu zámečníků, patřil ' +
+      'k prvním výrobcům malých pérových hodin přenosných na osobě. Mýtus o Henleinovi jako vynálezci ' +
+      '„Norimberského vejce" je filologické nedorozumění z Fischartova překladu Rabelaise (1571); ' +
+      'pružinový pohon s usňovkou byl totiž zdokonalen už kolem roku 1430 („Burgundské hodiny" ' +
+      'v Germánském národním muzeu).',
     zdroj: 'Dietzschold 1905 — Die Hemmungen der Uhren',
     bibKey: 'dietzscholdHemmungenUhrenIhre1905',
     zoteroKey: '3BFA92ND',
@@ -1354,6 +1429,23 @@ export const milniky: Milnik[] = [
     zdroj: 'Hamr 2024 — Transfer of Master Clock Network Technology to Czechoslovakia',
     bibKey: 'hamrTransferMasterClock2024',
     zoteroKey: 'KNKG36A7',
+  },
+  {
+    id: 'greenwich-1884',
+    rok: 1884,
+    rokText: '1884',
+    epocha: 'moderni',
+    oblast: 'svet',
+    kategorie: 'system',
+    ikona: 'globe',
+    titulek: 'Washingtonská meridiánská konference — světový čas',
+    popis:
+      'Mezinárodní meridiánská konference svolaná v říjnu 1884 do Washingtonu přijala Greenwich jako ' +
+      'nultý poledník a navrhla rozdělení Země na 24 hodinových pásem. Železniční rozvrhy už dříve ' +
+      'donutily státy sjednotit čas v rámci území — teď se synchronizoval celý svět.',
+    clanek: 'casova-pasma',
+    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
+    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
   },
   {
     id: 'kremen-cesium-1930',
