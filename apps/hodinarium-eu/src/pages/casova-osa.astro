@@ -4,6 +4,7 @@ import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
 import {
   milniky,
+  milnikyChronologicky,
   milnikyDleEpochy,
   epochy,
   oblastLabel,
@@ -74,6 +75,24 @@ function odkazyProMilnik(m: Milnik): Odkaz[] {
   }
   return out;
 }
+
+// Číslovaný seznam pramenů — pořadí podle prvního výskytu v chronologii.
+// Render se přesouvá z jednotlivých karet do souhrnné sekce „Literatura a prameny"
+// pod osou; každá karta odkazuje superscriptem [N] na položku v tomto seznamu.
+interface PramenItem { n: number; bibKey?: string; zdroj?: string; }
+const pramenIndex = new Map<string, number>();
+const seznamLiteratury: PramenItem[] = [];
+for (const m of milnikyChronologicky) {
+  const k = m.bibKey ? `bib:${m.bibKey}` : (m.zdroj ? `z:${m.zdroj}` : null);
+  if (!k || pramenIndex.has(k)) continue;
+  const n = pramenIndex.size + 1;
+  pramenIndex.set(k, n);
+  seznamLiteratury.push({ n, bibKey: m.bibKey, zdroj: m.zdroj });
+}
+function pramenCislo(m: Milnik): number | null {
+  const k = m.bibKey ? `bib:${m.bibKey}` : (m.zdroj ? `z:${m.zdroj}` : null);
+  return k ? (pramenIndex.get(k) ?? null) : null;
+}
 ---
 
 <Base
@@ -139,7 +158,7 @@ function odkazyProMilnik(m: Milnik): Odkaz[] {
           {polozky.map((m) => {
             const odkazy = odkazyProMilnik(m);
             const ikona = m.ikona ?? kategorieIkona[m.kategorie];
-            const pramen = m.bibKey ? formatCite(m.bibKey) : null;
+            const pramenNum = pramenCislo(m);
             return (
               <li
                 class={`osa-udalost ob-${m.oblast} kat-${m.kategorie}`}
@@ -154,7 +173,14 @@ function odkazyProMilnik(m: Milnik): Odkaz[] {
                     <span class="osa-oblast-badge">{oblastLabel[m.oblast]}</span>
                   </p>
                   <h3 class="osa-titulek">{m.titulek}</h3>
-                  <p class="osa-popis">{m.popis}</p>
+                  <p class="osa-popis">
+                    {m.popis}
+                    {pramenNum !== null && (
+                      <sup class="osa-ref">
+                        <a href={`#ref-${pramenNum}`} aria-label={`Pramen ${pramenNum}`}>[{pramenNum}]</a>
+                      </sup>
+                    )}
+                  </p>
                   {odkazy.length > 0 && (
                     <p class="osa-odkazy">
                       {odkazy.map((o) => (
@@ -170,12 +196,6 @@ function odkazyProMilnik(m: Milnik): Odkaz[] {
                       ))}
                     </p>
                   )}
-                  {(pramen || m.zdroj) && (
-                    <p class="osa-zdroj">
-                      <i class="fa-solid fa-book" aria-hidden="true"></i> Pramen:{' '}
-                      {pramen ? <span class="osa-cite" set:html={pramen} /> : m.zdroj}
-                    </p>
-                  )}
                 </article>
               </li>
             );
@@ -184,6 +204,20 @@ function odkazyProMilnik(m: Milnik): Odkaz[] {
       </section>
     ))}
   </div>
+
+  <section class="osa-literatura" aria-labelledby="osa-lit-heading">
+    <h2 id="osa-lit-heading">Literatura a prameny</h2>
+    <ol class="osa-literatura-list">
+      {seznamLiteratury.map((p) => {
+        const html = p.bibKey ? formatCite(p.bibKey) : null;
+        return (
+          <li id={`ref-${p.n}`}>
+            {html ? <span set:html={html} /> : <span>{p.zdroj ?? p.bibKey}</span>}
+          </li>
+        );
+      })}
+    </ol>
+  </section>
 
   <p class="osa-paticka">
     Milníky vycházejí z pramenů shromážděných ve výzkumné knihovně spolku.
@@ -424,12 +458,51 @@ function odkazyProMilnik(m: Milnik): Odkaz[] {
   }
   .osa-odkaz i { font-size: 0.78em; opacity: 0.85; }
 
-  .osa-zdroj {
-    margin: 0.55rem 0 0;
-    font-size: 0.76rem;
-    color: var(--color-text-muted);
+  /* ── Inline ref [N] na položku v seznamu literatury ─────── */
+  .osa-ref {
+    font-size: 0.72em;
+    vertical-align: super;
+    line-height: 0;
+    margin-left: 0.15em;
+    font-feature-settings: 'lnum';
   }
-  .osa-zdroj i { margin-right: 0.2rem; opacity: 0.8; }
+  .osa-ref a {
+    color: var(--color-copper);
+    text-decoration: none;
+    padding: 0 0.1em;
+  }
+  .osa-ref a:hover { color: var(--color-brass-bright); }
+
+  /* ── Literatura a prameny (číslovaný seznam pod osou) ───── */
+  .osa-literatura {
+    margin: 3rem 0 1rem;
+    padding-top: 1.75rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .osa-literatura h2 {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+  }
+  .osa-literatura-list {
+    padding-left: 2.4rem;
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+    line-height: 1.55;
+  }
+  .osa-literatura-list li {
+    margin-bottom: 0.5rem;
+    scroll-margin-top: 4rem;
+  }
+  .osa-literatura-list li:target {
+    background: color-mix(in srgb, var(--color-brass) 14%, transparent);
+    border-radius: 0.25rem;
+    padding: 0.15rem 0.4rem;
+    margin-left: -0.4rem;
+  }
 
   .osa-paticka {
     margin: 2rem 0 0;
