@@ -513,7 +513,7 @@ summary::-webkit-details-marker { display: none; }
   width: 100%;
   max-width: 540px;
   height: auto;
-  aspect-ratio: 475 / 625;
+  aspect-ratio: 500 / 650;
   margin-inline: auto;
 }
 
