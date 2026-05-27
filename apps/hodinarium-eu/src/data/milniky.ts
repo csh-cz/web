@@ -469,10 +469,36 @@ export const milniky: Milnik[] = [
     popis:
       'Padovský lékař a astronom Jacopo de\' Dondi (1290–1359) sestrojil věžní orloj instalovaný ' +
       'roku 1344 v Torre dei Signori paláce Palazzo del Capitanio v Padově; podle něj získala ' +
-      'rodina přídomek „dall\'Orologio". Jeho syn Giovanni o dvacet let později navázal slavným astrariem.',
+      'rodina přídomek „dall\'Orologio". Jeho syn Giovanni se v roce 1349 stal dvorním lékařem ' +
+      'Karla IV. v Praze a o dvacet let později dokončil slavné padovské astrarium.',
     slovnik: 'orloj',
     bibKey: 'nosonovskyEarlyRenaissanceConcepts2024',
     zdroj: 'Nosonovsky 2024 — Early Renaissance Concepts of Time and the Invention of Mechanical Clocks',
+  },
+  {
+    id: 'giovanni-dondi-1349',
+    rok: 1349,
+    rokText: '21. 12. 1349',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    ikona: 'scroll',
+    titulek: 'Karel IV. povolává Giovanniho Dondiho do Prahy',
+    popis:
+      'V pražské císařské kanceláři vydal Karel IV. dne 21. prosince 1349 listinu, jíž padovského ' +
+      'lékaře Giovanniho Dondiho — pozdějšího autora slavného padovského astraria (1364) — přijímá ' +
+      'za svého „medicum et familiarem nostrum domesticum et propinquum, cum tribus equis et duobus ' +
+      'familiaribus" (dvorního lékaře a familiáře se třemi koňmi a dvěma služebníky), s osvobozením ' +
+      'od mýta v celé říši. Giovanni byl synem padovského lékaře Jacopa Dondi, autora padovského ' +
+      'radničního orloje 1344. Pražský dvůr měl tak od konce 40. let 14. století přímou vazbu na ' +
+      'padovskou hodinářskou školu — to vysvětluje, proč Arnoštova mansionářská statuta o pět let ' +
+      'později (22. 12. 1354) bezpečně předpokládají moderní hodinový stroj. Listina je dochována ' +
+      'v Biblioteca Civica di Padova, Archivio Dondi, box 11, fol. c. 1 (regesticky též Regesta ' +
+      'Imperii, Karl IV. č. 9396).',
+    slovnik: 'orloj',
+    externalUrl: 'https://www.regesta-imperii.de/id/1349-12-17_1_0_13_0_0_9396_9396',
+    bibKey: 'knesplGiovanniDondiPhysician2025',
+    zdroj: 'Knespl 2025 — Giovanni Dondi: Physician of Charles IV and the First Clock in Prague',
   },
   {
     id: 'rovne-hodiny',
@@ -578,8 +604,8 @@ export const milniky: Milnik[] = [
     ikona: 'gears',
     titulek: 'Astrarium Giovanniho de’ Dondi',
     popis:
-      'Padovský lékař Dondi dokončil planetární astrarium popsané v traktátu Tractatus astrarii — ' +
-      'nejsložitější soukolí své doby.',
+      'Padovský lékař Giovanni Dondi — od roku 1349 dvorní lékař Karla IV. v Praze — dokončil ' +
+      'planetární astrarium popsané v traktátu Tractatus astrarii. Nejsložitější soukolí své doby.',
     zdroj: 'Bedini & Maddison 1966 — Mechanical Universe: The Astrarium of Giovanni de’ Dondi',
     bibKey: 'bediniMechanicalUniverseAstrarium1966',
     zoteroKey: 'H868QUKS',
