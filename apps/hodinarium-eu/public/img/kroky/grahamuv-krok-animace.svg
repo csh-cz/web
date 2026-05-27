@@ -51,23 +51,25 @@
       calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"
       dur="4s" repeatCount="indefinite"/>
     <g transform="translate(250, 200) scale(1.199)">
-      <!-- Vyskocil pendulum components (rod, crutch, bob, pivot bushing) -->
-      <path d="M-1.65 44.1 L4.15 43.9 6.45 109.7 0.65 109.9 -1.65 44.1" fill="#ffcc00" stroke="#000" stroke-width="0.5"/>
-      <path d="M9.0 110.35 L8.9 108.75 8.4 107.25 7.5 106.0 6.3 105.0 5.15 72.55 20.15 72.05 24.85 76.5 27.1 141.35 20.55 148.4 -10.75 149.5 -17.85 142.9 -20.1 78.05 -15.7 73.3 -0.65 72.75 0.5 105.2 0.35 105.35 -0.8 106.4 -1.6 107.8 -1.95 109.3 -1.85 110.9 -1.3 112.4 -0.45 113.65 0.8 114.65 2.3 115.2 3.85 115.35 5.4 115.05 6.8 114.35 7.9 113.2 8.65 111.9 9.0 110.35" fill="#c0c0c0" stroke="#000" stroke-width="0.5"/>
-      <path d="M-9.05 149.45 L18.85 148.5 25.35 334.95 22.25 319.7 19.9 335.3 16.2 318.75 13.65 335.15 10.1 327.0 6.5 336.3 3.0 326.75 0.5 334.15 -0.8 330.1 -2.5 337.25 -9.05 149.45" fill="#cc9933" stroke="#000" stroke-width="0.5"/>
-      <path d="M-1.35 -23.25 L-0.8 -23.3 2.45 70.15 1.9 70.2 -1.35 -23.25" fill="#6666cc" stroke="#000" stroke-width="0.5"/>
+      <!-- Pendulum rod (Wikipedia style — simple thin steel rectangle) -->
+      <rect x="-3" y="0" width="6" height="380" fill="#88A8C8" stroke="#3D5878" stroke-width="0.5"/>
 
-      <!-- Wikipedia anchor body (path6134) místo Vyskocil narrow V.
-           Scale 0.525 / 1.199 = 0.438 (compensating for outer 1.199 scale)
-           tak aby V tip OUTER edge dosáhla na wheel tooth tip at contact
-           angle 45° (= r=127.5 px od pivot v final canvas). -->
+      <!-- Pendulum čočka (mosaz lens at bottom) -->
+      <circle cx="0" cy="385" r="12" fill="#E6C97A" stroke="#8A6E35" stroke-width="0.8"/>
+      <circle cx="0" cy="385" r="4" fill="#8A6E35"/>
+
+      <!-- Wikipedia anchor body (path6134) — modrá ocelová.
+           Scale 0.438 (× outer 1.199 = effective 0.525) tak aby V tip
+           OUTER edge dosáhla na wheel tooth tip at 45° contact angle
+           (r=127.5 px od pivot v final canvas). -->
       <g transform="scale(0.438) translate(-242, -42.7)">
         <path d="m 242.16965,0.65 c -10.89209,0 -20.79809,4.185503 -28.21875,11.03125 L 39.98215,177.025 l 0.0937,0.0625 -0.28125,0.21875 c 8.77569,13.2201 18.82472,25.48484 29.9375,36.6875 L 91.9196,204.2125 C 82.41582,195.35247 73.68642,185.66683 65.8571,175.24375 96.52129,147.47318 197.66617,56.025 200.16965,56.025 c 0.95645,0 2.06025,0.49383 3.125,1.125 5.98902,15.64954 21.11949,26.78125 38.875,26.78125 18.82456,0 34.75276,-12.51049 39.90625,-29.65625 0.70893,-0.35538 1.4208,-0.60208 2.0625,-0.625 2.56502,-0.0916 111.43742,92.46091 139.53125,116.375 -5.98454,8.47775 -12.46405,16.40297 -19.375,23.78125 l 9.84375,20.78125 c 13.27525,-13.32312 25.21445,-28.39104 35.4375,-45.15625 l -0.3125,-0.1875 0.125,-0.0937 L 268.85715,10.3375 C 261.62973,4.295441 252.32671,0.65 242.16965,0.65 z"
-              fill="#ffcc00" stroke="#000" stroke-width="1.1"
+              fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"
               vector-effect="non-scaling-stroke"/>
       </g>
-      <path d="M11.45 0.0 Q11.45 4.75 8.1 8.1 4.75 11.45 0.05 11.45 -4.7 11.45 -8.05 8.1 -11.4 4.75 -11.4 0.0 -11.4 -4.75 -8.05 -8.1 -4.7 -11.45 0.05 -11.45 4.75 -11.45 8.1 -8.1 11.45 -4.75 11.45 0.0" fill="#ccccff" stroke="#000" stroke-width="0.5"/>
-      <path d="M6.35 0.0 Q6.35 2.65 4.5 4.5 2.65 6.4 0.05 6.4 -2.6 6.4 -4.5 4.5 -6.35 2.65 -6.35 0.0 -6.35 -2.65 -4.5 -4.5 -2.6 -6.4 0.05 -6.4 2.65 -6.4 4.5 -4.5 6.35 -2.65 6.35 0.0" fill="#6666cc" stroke="#000" stroke-width="0.5"/>
+
+      <!-- Pivot kotvy — sépiové očko (Wikipedia path6114 style) -->
+      <circle cx="0" cy="0" r="11.5" fill="#3A2818" stroke="none"/>
     </g>
   </g>
 
