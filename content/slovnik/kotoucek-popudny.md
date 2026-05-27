@@ -48,16 +48,29 @@ references:
 
 **Kotouček popudný** (alt. *kotouček vidličky*; Berner *plateau* / *Hebelscheibe* / *impulse roller*) je malý kotouč pevně nasazený na hřídeli [setrvačky](/slovnik/setrvacka). Nese **kámen [vodítka](/slovnik/voditko)** (elipsu), který je hlavním zprostředkovatelem výměny energie mezi kotvou a setrvačkou.
 
-### Jednoduchý vs. dvojitý kotouček (Berner)
+### Jednoduchý vs. dvojitý kotouček
 
-Berner rozlišuje dvě varianty u švýcarského páčkového kroku:
+Sladkovský 1947 a v souladu i Berner 1988 rozlišují dvě varianty u švýcarského páčkového kroku:
 
-- **Jednoduchý kotouček** (plateau simple / single roller) — jediný kotouček *d* nese vodítko *a*; přijímá popud z [vidlice](/slovnik/vidlice) kotvy a brání jejímu nezávislému pohybu, zatímco setrvačka opisuje doplňkový oblouk.
-- **Dvojitý kotouček** (plateau-double / double roller) — kromě hlavního kotoučku *b* s vodítkem *a* je tu i **menší kotouček *c* s vrubem** (encoche), který slouží jako vodicí dráha pro **kopí (dart / guard-pin)** vidlice. Toto provedení mají **vyšší řady přesných hodinek**, protože dvojitý kotouček lépe brání nechtěnému přesmyku vidličky.
+- **Jednoduchý kotouček** (Sladkovský: „kotouček jednoduchý", Berner: *plateau simple / single roller*) — jediný kotouček nese [vodítko](/slovnik/voditko) (kámen) a jeho **zvětšený okraj slouží jako ochrana před zaskočením vidličky**. Přijímá popud z [vidlice](/slovnik/vidlice) kotvy a brání jejímu nezávislému pohybu, zatímco setrvačka opisuje doplňkový oblouk.
+- **Dvojitý kotouček** (Sladkovský: „kotouček dvojitý", Berner: *plateau-double / double roller*) — sestává **ze dvou samostatných kotoučků**:
+  - **kotouček popudný** (velký) — nese kámen vodítka;
+  - **kotouček pojistný** (malý) — má **průchod pro jazýček pojistný** (= guard pin / dart) z vidlice kotvy, který zajišťuje, aby kotva nemohla nechtěně přesmyknout do druhé krajní polohy během výběhu setrvačky.
+
+Sladkovský 1947 výslovně dodává, že **„výhodnější jest kotouček dvojitý"** — jednak proto, že zařízení pojistné je dokonalejší, jednak proto, že jednoduchý kotouček má širší průchod ve vidličce, který způsobuje větší ztrátu síly popudné dopadem.
+
+### Terminologie u Martínka–Řehoře 1964
+
+V Martínkově a Řehořově novější terminologii (převzaté z DE Martínek–Řehoř 1968 *Mechanische Uhren*) se rozlišuje:
+- **Popudný kotouč** = velký kotouček s **popudným kamenem** (= Sladkovského „vodítko", Berner *impulse pin*).
+- **Pojistný kotouč** = menší kotouček s vybráním pro jazyk vidlice.
+- Dvojice obou kotoučů jako celek = **„[vodítko](/slovnik/voditko)"** v Martínkově významu (= Berner *plateau-double*).
+
+Pozor na **polysemii pojmu „vodítko"** — viz [vodítko](/slovnik/voditko).
 
 ### Souvislost s [vidlicí kotvy](/slovnik/vidlice)
 
-Kotouček popudný + vodítko + vidlička kotvy tvoří **trojici klíčových součástí kotvového kroku** přesných náramkových a kapesních hodinek. Jejich vzájemná geometrie (úhel záběru vidlice, hloubka vrubu, tvar kopí) určuje **bezpečnost a přesnost** kroku.
+Kotouček popudný + vodítko + vidlička kotvy tvoří **trojici klíčových součástí kotvového kroku** přesných náramkových a kapesních hodinek. Jejich vzájemná geometrie (úhel záběru vidlice, hloubka vrubu, tvar kopí) určuje **bezpečnost a přesnost** kroku. Sladkovský 1947 uvádí jako poměr: **průměr kotoučku pojistného = polovina průměru kotoučku popudného**.
 
 ### Archaismus „kotouč vahadla"
 
