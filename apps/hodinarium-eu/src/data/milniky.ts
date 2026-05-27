@@ -524,8 +524,7 @@ export const milniky: Milnik[] = [
       '(Kdo z mansionářů by zůstal venku déle než do druhého zvonění hodin, té noci do domu nesmí, ' +
       'anebo je-li vpuštěn, ať je precentorem náležitě potrestán.) Italský způsob počítání hodin vede ' +
       'k Padově — Arnošt tam 14 let studoval, mezitím Jacopo Dondi sestrojil roku 1344 padovský ' +
-      'radniční orloj. K roku 1358 je v Praze doložena vdova po staršímu mistru hodin ' +
-      '(„uxor quondam magistri horologii"), od 1361 i dvorní hodinář Karla IV. Martin.',
+      'radniční orloj. Pražské hodiny tak byly v provozu už generaci před staroměstským orlojem.',
     slovnik: 'orlojnik',
     bibKey: 'blahovaHistorickaChronologie2001',
     zdroj: 'Bláhová 2001 — Historická chronologie, s. 312 (Statuta Dominorum Pragensium Mansionarium, 22. 12. 1354)',
@@ -547,6 +546,28 @@ export const milniky: Milnik[] = [
     slovnik: 'odbijeni',
     bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
     zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
+  },
+  {
+    id: 'praha-vizitace-1358',
+    rok: 1358,
+    rokText: '1358/1359',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    titulek: 'Vdova po hradním hodináři — Arnoštova vizitační statuta',
+    popis:
+      'Statuta post visitationem Arnesti cum reformatione ecclesiae Pragensis (1358/1359) jsou výsledkem ' +
+      'kanonické vizitace arcibiskupa Arnošta z Pardubic. Jeden článek vytýká tumbariovi sv. Vojtěcha ' +
+      '(kanovníkovi katedrální kapituly) zanedbávání svátostí — *„specialiter dicitur, quod uxor quondam ' +
+      'magistri horologii per negligentiam vestram decesisset sine sacra unctione."* (Říká se zejména, ' +
+      'že manželka mistra hodin zemřela jeho nedbalostí bez posledního pomazání.) Hodinář bydlel patrně ' +
+      'na Pražském hradě nebo poblíž — šlo tedy o hradního hodináře. Slůvko „quondam" je dvojznačné: ' +
+      'může znamenat „někdejší [zesnulá] manželka [žijícího] mistra Martina" (Rosického výklad), nebo ' +
+      '„manželka [zemřelého] dřívějšího mistra" — pak by před Martinem (doložen 1361) působil v Praze ' +
+      'ještě starší, nám neznámý hodinář, snad už kolem roku 1350.',
+    slovnik: 'orlojnik',
+    bibKey: 'rosickyStaromestskyOrlojPraze1923',
+    zdroj: 'Rosický 1923 — O počátcích bicích hodin v Čechách (Menčík 1882, Statuta post visitationem Arnesti)',
   },
   {
     id: 'dondi-astrarium',
