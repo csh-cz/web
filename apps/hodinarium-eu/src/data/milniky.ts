@@ -1085,6 +1085,40 @@ export const milniky: Milnik[] = [
     zoteroKey: '5EPYPG78',
   },
   {
+    id: 'prazska-polytechnika-1806',
+    rok: 1806,
+    rokText: '1806',
+    epocha: 'prumysl',
+    oblast: 'ceske-zeme',
+    kategorie: 'instituce',
+    ikona: 'graduation-cap',
+    titulek: 'Pražská polytechnika',
+    popis:
+      'V čele s Františkem Josefem Gerstnerem zahájilo roku 1806 v Praze činnost Královské stavovské ' +
+      'polytechnické učiliště — první polytechnika ve střední Evropě a předchůdce dnešního ČVUT. ' +
+      'Z jejích dílen vzešel mj. Josef Božek i celá zdejší tradice průmyslové výroby věžních hodin.',
+    hodinar: 'josef-bozek',
+    bibKey: 'knesplCastIronTower2024',
+    zdroj: 'Knespl & Husník 2024 — Cast Iron Tower Clockworks Manufacturing and the Role of Prague Polytechnic',
+  },
+  {
+    id: 'josef-bozek-1824',
+    rok: 1824,
+    rokText: '1824',
+    epocha: 'prumysl',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    titulek: 'Josef Božek — mechanik polytechniky',
+    popis:
+      'Mechanik pražské polytechniky a hodinář Josef Božek (1782–1835) sestrojil v Čechách první ' +
+      'použitelné parní stroje a věnoval se i věžnímu hodinářství: roku 1824 dodal hodiny pro Karlínskou ' +
+      'invalidovnu (později i pro Bílou věž v Hradci Králové, 1829). Jako jeden z prvních u nás zavedl ' +
+      'Grahamův a Lepauteho krok; v řemesle pokračoval jeho syn Romuald.',
+    hodinar: 'josef-bozek',
+    bibKey: 'kuceraBozkoveVeSbirkach2011a',
+    zdroj: 'Kučera 2011 — Božkové ve sbírkách Národního technického muzea v Praze',
+  },
+  {
     id: 'jednota-prumysl-1833',
     rok: 1833,
     rokText: '1833',
