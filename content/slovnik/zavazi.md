@@ -22,12 +22,12 @@ prekladyFr:
   - term: poids
     genus: m
     zdroj: 'Berner, *Dictionnaire professionnel illustré de l''horlogerie* (heslo „poids"); Gros 1913'
-definice: "Hmotné těleso, které svou tíží přes lano nebo řetízek navíjené na [válu / nátahovém bubnu](/slovnik/natahovy-buben) pohání soukolí; primární zdroj energie u věžních a stojacích hodin. Staročeské synonymum: [váha](/slovnik/vaha-orloje) (Táborský 1570, Šumavský 1851)."
+definice: 'Hmotné těleso, které svou tíží přes lano nebo řetízek navíjené na [lanovém bubnu](/slovnik/lanovy-buben) pohání soukolí; primární zdroj energie u věžních a stojacích hodin. Staročeské synonymum: [váha](/slovnik/vaha-orloje) (Táborský 1570, Šumavský 1851).'
 pribuzne:
   - kyvadlo
   - val
   - rumpal
-  - natahovy-buben
+  - lanovy-buben
   - vaha-orloje
   - pero
 ---
@@ -72,7 +72,7 @@ V češtině do konce 19. století fungoval **„závaž" / „váha"** jako syn
 
 ## Příbuzné termíny
 
-[vál](/slovnik/val) · [rumpál](/slovnik/rumpal) · [nátahový buben](/slovnik/natahovy-buben) · [váha (orlojní)](/slovnik/vaha-orloje) · [kyvadlo](/slovnik/kyvadlo) · [pero (tažné péro)](/slovnik/pero)
+[lanový buben](/slovnik/lanovy-buben) · [vál](/slovnik/val) (staročes.) · [rumpál](/slovnik/rumpal) (staročes.) · [váha (orlojní)](/slovnik/vaha-orloje) (staročes.) · [kyvadlo](/slovnik/kyvadlo) · [pero (tažné péro)](/slovnik/pero)
 
 ## Reference
 

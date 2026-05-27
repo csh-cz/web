@@ -40,4 +40,4 @@ Toto heslo slouží jen jako **historická poznámka pro čtenáře pramenů 16.
 
 ## Příbuzné termíny
 
-[závaží](/slovnik/zavazi) (= moderní termín) · [vál](/slovnik/val) (staročes. nátahový buben) · [rumpál](/slovnik/rumpal) (synonymum k válu) · [strana (orlojní)](/slovnik/strana-orloje) (Táborského „strany čtyry")
+[závaží](/slovnik/zavazi) (= moderní termín) · [lanový buben](/slovnik/lanovy-buben) · [vál](/slovnik/val) (staročes.) · [rumpál](/slovnik/rumpal) (staročes. synonymum k válu) · [strana (orlojní)](/slovnik/strana-orloje) (Táborského „strany čtyry")

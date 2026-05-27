@@ -20,7 +20,7 @@ prekladyFr:
     genus: m
 definice: "Akt **dodání energie** hodinovému stroji — nadzdvižení závaží do horní polohy nebo natažení hlavního pera. Tato uložená energie pak postupně uvolňována přes [krok](/slovnik/krok) pohání chod hodin. Doba mezi natahováním (chod stroje) je důležitým parametrem — od **1 dne** (běžné věžní hodiny) přes **5 dnů** (Janatovy zámecké stroje) až po **měsíční** (chronometry, regulátory)."
 pribuzne:
-  - natahovy-buben
+  - lanovy-buben
   - remontoir
   - krok
 references:
@@ -75,7 +75,7 @@ Hodiny **bez závaží ani pružiny** — pohyb kyvadla je periodicky **dopuzov�
 |---|---|---|
 | **nátah** | akt + mechanismus dodání energie pohonu | (toto heslo) |
 | **[remontoir](/slovnik/remontoir)** | pomocné pero/závaží **regulující impuls** na kotvu (chod kroku, ne pohon) | viz heslo |
-| **[nátahový buben](/slovnik/natahovy-buben)** | konkrétní díl — buben s navinutým lanem/řetězem | viz heslo |
+| **[lanový buben](/slovnik/lanovy-buben)** | konkrétní díl — buben s navinutým lanem/řetězem | viz heslo |
 
 ## Specifika věžních hodin
 
@@ -85,4 +85,4 @@ Dnešní restaurátorská praxe (atelier veznihodiny.cz / Petr Skála) standardn
 
 ## Příbuzné termíny
 
-[nátahový buben](/slovnik/natahovy-buben), [remontoir](/slovnik/remontoir), [krok](/slovnik/krok), [kyvadlo](/slovnik/kyvadlo), [setrvačka](/slovnik/setrvacka)
+[lanový buben](/slovnik/lanovy-buben), [remontoir](/slovnik/remontoir), [krok](/slovnik/krok), [kyvadlo](/slovnik/kyvadlo), [setrvačka](/slovnik/setrvacka)
