@@ -70,7 +70,7 @@ references:
 - **Hřídel krokového kola** — nese [krokové kolo](/slovnik/krokove-kolo), které regulátor brzdí přes [krok](/slovnik/krok).
 - **Hřídel kotvy** (= osa kotvy) — krátká, otočná v jemných ložiscích.
 - **Hřídel kyvadla** (= závěs kyvadla) — u věžních hodin obvykle pásek perového závěsu.
-- **Hřídel ručky** — u dvou-/tříručkových ciferníků **dutá** s vnitřním hřídelem (hodinová + minutová ručka koncentricky).
+- **Hřídel ručky** — u dvou-/tříručkových číselníků **dutá** s vnitřním hřídelem (hodinová + minutová ručka koncentricky).
 
 ### Materiál a konstrukce
 

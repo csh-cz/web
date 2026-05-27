@@ -24,11 +24,13 @@ definice: "Sestava ozubených kol, která přenáší energii od pohonu (závaž
 
 ## Výklad
 
-Soukolí je **základní mechanický skelet** hodinového stroje. Tradičně se rozlišuje na tři funkční celky:
+Soukolí je **základní mechanický skelet** hodinového stroje. Tradičně se rozlišuje na tři funkční celky (každý má vlastní heslo):
 
-- **Soukolí jicí** (going train, Gehwerk) — pohání ručky a krok
-- **Soukolí bicí** (striking train, Schlagwerk) — pohání bití úderů (čtvrťové, hodinové)
-- **Soukolí zvonící** (chiming train, Spielwerk) — pohání zvonkohru (víctónové melodie)
+- **[Soukolí jicí](/slovnik/soukoli-jici)** (going train, Gehwerk) — pohání ručky a krok, měří plynutí času.
+- **[Soukolí bicí](/slovnik/soukoli-bici)** (striking train, Schlagwerk) — pohání bití úderů (čtvrťové, hodinové).
+- **[Soukolí zvonicí](/slovnik/soukoli-zvonici)** (chiming train, Spielwerk) — pohání zvonkohru (víctónové melodie).
+
+U **věžních hodin** jsou všechna tři soukolí oddělená (vlastní [lanový buben](/slovnik/lanovy-buben), vlastní závaží, vlastní řada převodů); u stojanových hodin a kapesních hodinek bývají integrovaná v jednom rámu se společným pohonem.
 
 Bureš 1965 dělí kola podle pozice:
 - **Soukolí I** — pohonné (na hřídeli pohonu — perovník nebo lanový válec)
@@ -41,7 +43,7 @@ Konstrukčně: kola jsou typicky **mosazná** s **ocelovými pastorky** (drobný
 
 ## Příbuzné termíny
 
-[soukolí jicí], [soukolí bicí], [soukolí zvonící], [pastorek], [cévkový pastorek], [kolo minutové], [kolo sekundové], [kolo mezitimní], [kolo spodní]
+[soukolí jicí](/slovnik/soukoli-jici) · [soukolí bicí](/slovnik/soukoli-bici) · [soukolí zvonicí](/slovnik/soukoli-zvonici) · [pastorek](/slovnik/pastorek) · [krokové kolo](/slovnik/krokove-kolo) · [hřídel](/slovnik/hridel) · [lanový buben](/slovnik/lanovy-buben)
 
 ## Reference
 
