@@ -509,25 +509,26 @@ export const milniky: Milnik[] = [
     zoteroKey: 'KPB743UX',
   },
   {
-    id: 'praha-mansionari',
+    id: 'praha-mansionari-1354',
     rok: 1354,
-    rokText: '1352–1355',
+    rokText: '22. 12. 1354',
     epocha: 'stredovek',
     oblast: 'ceske-zeme',
     kategorie: 'monument',
-    titulek: 'První pražské hodiny — stanovy mansionářů Arnošta z Pardubic',
+    titulek: 'První pražské hodiny — Arnoštova statuta mansionářů',
     popis:
-      'Statuta kapituly mansionářů u sv. Víta, která jí dal arcibiskup Arnošt z Pardubic (po jejím ' +
-      'založení Karlem IV.), obsahují první pražskou zmínku o mechanických hodinách: kdo z mansionářů ' +
-      'by „post secundum pulsum horologii" (po druhém bití hodin na zvon) byl mimo dům, neměl být ' +
-      'v noci vpuštěn. Statuta jsou zachycena v Regestech bohemicko-moravských V/4 (1352–1355) ' +
-      'a edici Menčíka 1882. Italský způsob počítání hodin vede k Padově — Arnošt tam 14 let studoval, ' +
-      'mezitím Jacopo Dondi sestrojil 1344 padovský radniční orloj. K roku 1358 je v Praze doložena ' +
-      'vdova po neznámém staršímu mistru hodin („uxor quondam magistri horologii"), od 1361 i dvorní ' +
-      'hodinář Karla IV. Martin. Praha měla mechanické hodiny už generaci před staroměstským orlojem.',
+      'Arcibiskup Arnošt z Pardubic vydal 22. prosince 1354 pro kapitulu mansionářů u sv. Víta Statuta ' +
+      'Dominorum Pragensium Mansionarium, jejichž jeden článek je první pražskou zmínkou o mechanických ' +
+      'hodinách: „Etsi aliquis ex Mansionariis ultra secundum pulsum horologii steterit foris domum, ' +
+      'ad ipsam eadem nocte non intromittatur, vel intromissus per Precentorem condigne puniatur." ' +
+      '(Kdo z mansionářů by zůstal venku déle než do druhého zvonění hodin, té noci do domu nesmí, ' +
+      'anebo je-li vpuštěn, ať je precentorem náležitě potrestán.) Italský způsob počítání hodin vede ' +
+      'k Padově — Arnošt tam 14 let studoval, mezitím Jacopo Dondi sestrojil roku 1344 padovský ' +
+      'radniční orloj. K roku 1358 je v Praze doložena vdova po staršímu mistru hodin ' +
+      '(„uxor quondam magistri horologii"), od 1361 i dvorní hodinář Karla IV. Martin.',
     slovnik: 'orlojnik',
     bibKey: 'blahovaHistorickaChronologie2001',
-    zdroj: 'Bláhová 2001 — Historická chronologie, s. 312',
+    zdroj: 'Bláhová 2001 — Historická chronologie, s. 312 (Statuta Dominorum Pragensium Mansionarium, 22. 12. 1354)',
   },
   {
     id: 'aire-sur-lys-1355',
