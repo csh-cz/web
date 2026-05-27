@@ -11,9 +11,13 @@ varianty:
     status: preferred
     note: 'Synonymum užívané zejména v kontextu „úhel klidu" / „plocha klidu".'
     doloženo: 'Bureš 1974, *Hodinové stroje III*, s. 84 („úhel klidu", „plocha klidu")'
+  - term: poklid
+    status: archaic
+    note: 'Doložený překlad z 19. století: Špatný 1882 překládá DE „Ruhe f." jako „poklid" (s ilustrativní větou „der Zahn fällt viel oder wenig auf die Ruhe = zub padá mnoho nebo málo na poklid"). Související Ruhepunkt → „bod klidu". Po roce 1947 (Sladkovský) ustupuje termínu „klid" / „záchyt".'
+    doloženo: 'Špatný 1882 (heslo Ruhe + Ruhepunkt)'
   - term: lock
     status: admitted
-    note: "Anglicismus z odborné literatury (Headrick, Roberts); v cs textu jen jako EN ekvivalent."
+    note: 'Anglicismus z odborné literatury (Headrick, Roberts); v cs textu jen jako EN ekvivalent.'
 prekladyDe:
   - term: Ruhe
     genus: f
@@ -60,7 +64,14 @@ references:
 
 **Záchyt** je první ze tří fází cyklu krokového ústrojí (záchyt → [popud](/slovnik/popud) → [odpad](/slovnik/odpad)). Označuje stav, kdy zub [krokového kola](/slovnik/krokove-kolo) spočívá na klidové (záchytné) ploše [palety](/slovnik/paleta) a soukolí je v klidu. Klidová plocha je u Grahamova kroku **kruhový oblouk soustředný s osou kotvy** — tím je zaručeno, že kotva při překyvu kyvadla nepohybuje kolem ani vpřed, ani vzad.
 
-V starším úzu se vedle výrazu „záchyt" užívá také **„klid"** — zejména v sousloví „úhel klidu" (Bureš 1974) nebo „plocha klidu". Oba termíny jsou rovnocenné.
+V starším úzu se vedle výrazu „záchyt" užívá také **„klid"** — zejména v sousloví „úhel klidu" (Bureš 1974) nebo „plocha klidu". Oba termíny jsou rovnocenné. Historický český slovník Špatný 1882 zavedl pro DE *Ruhe* archaismus **„poklid"** („zub padá mnoho nebo málo na poklid"), který v moderní hodinářské literatuře po roce 1947 (Sladkovský) ustupuje.
+
+### Geometrie záchytu (Berner)
+
+Berner kvantifikuje hodnoty pro **švýcarský páčkový krok**:
+- **Záchytný úhel** (locking-angle α) — **1°30' až 3°**, lineární hodnota cca **0,05–0,12 mm** na okraji palety.
+- **Záchytná plocha** (locking face / face c) — plocha palety, na níž zub krokového kola spočívá, **zatímco setrvačka opisuje doplňkový oblouk** (mezi popudem a dalším záchytem).
+- **Detentový krok** (chronometr) má samostatný **záchytný kámen** (locking stone) typicky z **rubínu**.
 
 ### Záchyt jako kritérium dělení kroků
 

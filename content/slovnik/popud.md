@@ -9,7 +9,12 @@ varianty:
     doloženo: 'Martínek–Řehoř 1964, s. 40 („popud", „popudná plocha"); Hajn 1953'
   - term: impuls
     status: admitted
-    note: "Mezinárodní termín (z lat. *impulsus*), v cs textu rovnocenný."
+    note: 'Mezinárodní termín (z lat. *impulsus*), v cs textu rovnocenný. Doložen už Špatným 1882 v trojici „popud, podnět, impuls".'
+    doloženo: 'Špatný 1882 (heslo Impuls)'
+  - term: podnět
+    status: archaic
+    note: 'Doložené české synonymum z 19. století (Špatný 1882: „Impuls m. = popud, podnět, impuls"). Dnes mimo hodinářský úzus.'
+    doloženo: 'Špatný 1882 (heslo Impuls)'
   - term: zdvih
     status: erroneous
     note: 'Strojírenský termín (stroke / lift) — v hodinářské literatuře se pro fázi krokového ústrojí NEUŽÍVÁ. Sladkovský 1947, Hajn 1953, Martínek–Řehoř 1964 znají jen „popud". Připouští se výjimečně v sousloví „úhel zdvihu" jako synonymum k „úhlu popudu".'
@@ -64,6 +69,13 @@ references:
 **Popud** je druhá ze tří fází cyklu krokového ústrojí ([záchyt](/slovnik/zachyt) → popud → [odpad](/slovnik/odpad)). Je to **jediný okamžik, ve kterém soukolí předává energii oscilátoru** — během záchytu i odpadu je kolo a kotva mechanicky odděleny, popud je tedy „srdcem" každého kroku.
 
 Zub [krokového kola](/slovnik/krokove-kolo) klouže po šikmé **popudné ploše** [palety](/slovnik/paleta) a tlačí ji do strany. Sklon popudné plochy (úhel zdvihu) určuje **velikost předané energie** vs. **délku trvání popudu**: strmější plocha → kratší silnější popud, mírnější → delší slabší. U Grahamova kroku je úhel popudu typicky **2°–3°** na paletě (Headrick 1997).
+
+### Geometrie popudu (Berner)
+
+Berner kvantifikuje hodnoty pro **švýcarský páčkový krok** (Swiss lever):
+- **Úhel popudu** (impulse angle α) — úhel páky mezi prvním a posledním kontaktem zubu s popudnou plochou — **8° až 10°**.
+- **Úhel zdvihu setrvačky** (angle of lift of the balance) — celý úhel, který setrvačka ujede během popudu (přes vidličku a vodítko) — **30° až 40°**.
+- **Dvojí popudná plocha** — popud nastává dotykem dvou ploch: *impulse face a* na zubu krokového kola a *impulse face b* na palatě. U švýcarského páčkového kroku probíhá popud na obou plochách současně.
 
 ### Airyho teorém (1826)
 

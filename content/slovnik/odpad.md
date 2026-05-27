@@ -10,10 +10,14 @@ varianty:
   - term: pád
     status: preferred
     note: 'Synonymum užívané zejména v sousloví „vnější pád", „vnitřní pád".'
-    doloženo: 'Bureš 1974, *Hodinové stroje III*, s. 84 („kontrola vnějšího i vnitřního pádu")'
+    doloženo: 'Bureš 1974, *Hodinové stroje III*, s. 84 („kontrola vnějšího i vnitřního pádu"); Špatný 1882 (Fall m. = pád, padnutí)'
+  - term: odpadek
+    status: archaic
+    note: 'Doložená varianta z 19. století: Špatný 1882 překládá DE „Abfall m." jako „odpadek, odpad", s ilustrativním souslovím „knapper Abfall = těsný odpad". Dnes „odpadek" v hodinařině obsazené významem zbytek/smetí, ustoupilo termínu „odpad".'
+    doloženo: 'Špatný 1882 (heslo Abfall)'
   - term: drop
     status: admitted
-    note: "Anglicismus z odborné literatury, v cs textu jen jako EN ekvivalent."
+    note: 'Anglicismus z odborné literatury, v cs textu jen jako EN ekvivalent.'
 prekladyDe:
   - term: Fall
     genus: m
@@ -64,12 +68,19 @@ Během odpadu je kolo **mechanicky volné** — krátce zrychlí pod tlakem souk
 
 ### Vnější a vnitřní odpad
 
-[Bureš 1974](/slovnik/krok) v praxi rozlišuje:
+[Bureš 1974](/slovnik/krok) a v souladu i [Berner](https://dictionary.fhs.swiss) (heslo „drop in an escapement") v praxi rozlišují:
 
-- **Vnější odpad** (drop outside) — vzdálenost zubu od vstupní palety v okamžiku, kdy předchozí zub opustil výstupní paletu.
-- **Vnitřní odpad** (drop inside) — vzdálenost zubu od výstupní palety v okamžiku, kdy předchozí zub opustil vstupní paletu.
+- **Vnější odpad** (outside drop, *outside shake*) — vzdálenost zubu od vstupní palety v okamžiku, kdy předchozí zub opustil výstupní paletu.
+- **Vnitřní odpad** (inside drop, *inside shake*) — vzdálenost zubu od výstupní palety v okamžiku, kdy předchozí zub opustil vstupní paletu.
 
-**Symetrie obou odpadů** je důležitým kritériem správného seřízení kroku (rovnost odpadů = rovnoměrné tikání). Kontrola se provádí na všech dobře udržovaných strojích při generální opravě.
+**Symetrie obou odpadů** je důležitým kritériem správného seřízení kroku (rovnost odpadů = rovnoměrné tikání). Kontrola se provádí na všech dobře udržovaných strojích při generální opravě. Špatný 1882 doložil i sousloví **„knapper Abfall" → „těsný odpad"** (= minimální nutná vůle).
+
+### Kvantifikace (Berner)
+
+Pro švýcarský páčkový krok Berner uvádí:
+- **Lineární hodnota** odpadu: **0,05 až 0,10 mm**
+- **Úhlová hodnota**: **0°30' až 1°**
+- **Energetická charakteristika**: *„A drop is a loss of power"* — odpad je vždy ztrátou energie (zub padá volně, energie soukolí se mění v rázový hluk a opotřebení). Cílem konstruktéra je odpad **minimalizovat** při zachování bezpečnostní rezervy.
 
 ### Akustika a opotřebení
 
