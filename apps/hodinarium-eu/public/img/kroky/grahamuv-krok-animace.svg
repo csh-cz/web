@@ -135,20 +135,24 @@
     <text x="415" y="500" class="krok-popisek-mensi" stroke="none" fill="#3A2818" opacity="1" text-anchor="end">CW</text>
   </g>
 
-  <!-- ====== KOTVA + KYVADLO (Wikipedia V-shape, rendered PŘED kolem) ======
-       Vrácená Wikipedia anchor geometrie — vizuálně lepší V-shape než
-       Headrick rectangle arms. Z-order trick: anchor je rendered před
-       kolem (wheel), tj. kolo se vyrenderuje NA TOP and překryje pal
-       V tipy v contact zone, vizuálně pal "se zastaví" na hraně zubů
-       místo aby vypadalo že "prochází přes ně".
+  <!-- ====== KOTVA + KYVADLO (Headrick 1997 compact design) ======
+       Per Headrick "Clock and Watch Escapement Mechanics" page 7:
+       - Pivot na svislé z wheel center, D = R × √2 = 334.18
+       - Pal pivot at (239.5, 38.42)
+       - r_pal = R = 236.3 (pal lock arc = wheel R)
+       - r_inner = R × 0.948 = 224.13 (5.69" pal circle)
+       - r_outer = R × 1.052 = 248.47 (6.31" pal circle)
+       - Anchor body: rooftop trapezoid + 2 tapered arms + 2 pallets
+       - Pallets at ±3° kolem contact angles (135° L, 45° R)
+       - Pallets SEDÍ přesně na wheel tooth tip area (žádný overlap)
 
-       Pivot at (242, 42.7) — Wikipedia.
-       Amplituda ±2° (real Graham regulator). -->
+       Oscilace ±2°. Rendered PŘED kolem (wheel z-order na top, kdyby
+       něco bylo overlap, wheel by překryla). -->
   <g>
     <animateTransform
       attributeName="transform"
       type="rotate"
-      values="2 242 42.7; -2 242 42.7; 2 242 42.7"
+      values="2 239.5 38.42; -2 239.5 38.42; 2 239.5 38.42"
       keyTimes="0; 0.5; 1"
       dur="4s"
       begin="0s"
@@ -156,22 +160,36 @@
       calcMode="spline"
       keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
 
-    <!-- Kyvadlová tyč: hrot na konci (předloha path6112) -->
+    <!-- Kyvadlová tyč: hrot na konci -->
     <path d="m 261.6309,622.17293 c -2.23017,1.25778 -4.48017,0.84442 -7.23619,-0.17647 l 6.88654,-6.74472 0.34965,6.92119 z"
        fill="#88A8C8" stroke="#3D5878" stroke-width="1"/>
 
-    <!-- Kyvadlová tyč (předloha rect6109) -->
-    <path d="m 237.47806,65.911658 11.98442,-0.313642 12.02665,555.535694 c -4.13975,-3.45484 -8.13302,3.9376 -11.98442,0.31364 L 237.47806,65.911658 z"
-       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"
-       stroke-linecap="round" stroke-linejoin="miter"/>
+    <!-- Kyvadlová tyč (rectangle z pivotu dolů) -->
+    <rect x="235.5" y="38.42" width="8" height="585" fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"/>
 
-    <!-- Kotva (předloha path6134) — Wikipedia V-shape -->
-    <path d="m 242.16965,0.65 c -10.89209,0 -20.79809,4.185503 -28.21875,11.03125 L 39.98215,177.025 l 0.0937,0.0625 -0.28125,0.21875 c 8.77569,13.2201 18.82472,25.48484 29.9375,36.6875 L 91.9196,204.2125 C 82.41582,195.35247 73.68642,185.66683 65.8571,175.24375 96.52129,147.47318 197.66617,56.025 200.16965,56.025 c 0.95645,0 2.06025,0.49383 3.125,1.125 5.98902,15.64954 21.11949,26.78125 38.875,26.78125 18.82456,0 34.75276,-12.51049 39.90625,-29.65625 0.70893,-0.35538 1.4208,-0.60208 2.0625,-0.625 2.56502,-0.0916 111.43742,92.46091 139.53125,116.375 -5.98454,8.47775 -12.46405,16.40297 -19.375,23.78125 l 9.84375,20.78125 c 13.27525,-13.32312 25.21445,-28.39104 35.4375,-45.15625 l -0.3125,-0.1875 0.125,-0.0937 L 268.85715,10.3375 C 261.62973,4.295441 252.32671,0.65 242.16965,0.65 z"
-       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"
-       stroke-linecap="round" stroke-linejoin="miter"/>
+    <!-- ANCHOR: rooftop trapezoid (top decorative element) -->
+    <polygon points="217.50,10.42 261.50,10.42 274.50,33.42 204.50,33.42"
+       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"/>
 
-    <!-- Pivot kotvy — sépiové očko (předloha path6114) -->
-    <circle cx="242.04" cy="42.69" r="13.78" fill="#3A2818" stroke="none"/>
+    <!-- LEFT arm (tapered: wider near roof, narrower near pallet) -->
+    <polygon points="204.50,33.42 54.82,204.70 72.97,188.37 226.64,53.74"
+       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"/>
+
+    <!-- RIGHT arm (mirror) -->
+    <polygon points="274.50,33.42 424.18,204.70 406.03,188.37 252.36,53.74"
+       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"/>
+
+    <!-- LEFT pallet (annular sector ±3° kolem 135°) -->
+    <polygon points="54.82,204.70 73.22,223.10 89.55,204.95 72.97,188.37"
+       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"/>
+
+    <!-- RIGHT pallet (mirror) -->
+    <polygon points="424.18,204.70 405.78,223.10 389.45,204.95 406.03,188.37"
+       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"/>
+
+    <!-- Pivot bushing (kruh nahoře na vrcholu) -->
+    <circle cx="239.5" cy="38.42" r="20" fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"/>
+    <circle cx="239.5" cy="38.42" r="6" fill="#3A2818" stroke="none"/>
   </g>
 
   <!-- ====== KROKOVÉ KOLO (rendered PO kotvě — překryje pal V tipy v contact zone) ======
