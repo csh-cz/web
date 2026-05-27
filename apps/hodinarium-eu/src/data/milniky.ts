@@ -304,6 +304,24 @@ export const milniky: Milnik[] = [
     zoteroKey: 'NLQ5CVJL',
   },
   {
+    id: 'paris-condemnation-1277',
+    rok: 1277,
+    rokText: '1277',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'system',
+    ikona: 'gavel',
+    titulek: 'Pařížské odsouzení a nové pojetí času',
+    popis:
+      'Pařížský biskup Étienne Tempier zakázal 7. března 1277 vyučovat na pařížské univerzitě 219 ' +
+      'aristotelských tezí. Polemika kolem nich vedla Buridana a Oresma k objevu impetu (pohybu ' +
+      'setrvačností) a otevřela nový pohled na čas, prostor a pohyb — koncepční půdu, na níž o pár let ' +
+      'později vyrostly mechanické hodiny.',
+    clanek: 'mereni-casu',
+    bibKey: 'nosonovskyEarlyRenaissanceConcepts2024',
+    zdroj: 'Nosonovsky 2024 — Early Renaissance Concepts of Time and the Invention of Mechanical Clocks',
+  },
+  {
     id: 'vretenovy-krok-vynalez',
     rok: 1280,
     rokText: 'konec 13. století',
@@ -368,6 +386,24 @@ export const milniky: Milnik[] = [
     slovnik: 'bici-stroj',
     bibKey: 'arnaldiOreItalianeOrigine2006',
     zdroj: 'Arnaldi 2006 — Le ore italiane (I)',
+  },
+  {
+    id: 'presypaci-hodiny-1338',
+    rok: 1338,
+    rokText: '1338',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'vynalez',
+    ikona: 'hourglass-half',
+    titulek: 'Přesýpací hodiny v Lorenzettiho fresce',
+    popis:
+      'Nejstarší středověký doklad přesýpacích hodin: žena s velkou sklenicí písku se objevuje ' +
+      've fresce Ambrogia Lorenzettiho „Allegoria del Buon Governo" (Siena, 1338) jako symbol ' +
+      'Umírněnosti. Že malíř mohl s motivem počítat u diváků naznačuje, že přesýpací hodiny byly ' +
+      'v té době už běžným zařízením — paralelně s nastupujícími mechanickými hodinami.',
+    clanek: 'mereni-casu',
+    bibKey: 'nosonovskyEarlyRenaissanceConcepts2024',
+    zdroj: 'Nosonovsky 2024 — Early Renaissance Concepts of Time and the Invention of Mechanical Clocks',
   },
   {
     id: 'rovne-hodiny',
