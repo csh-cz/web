@@ -54,7 +54,7 @@ references:
 
 Berner rozlišuje **dva související úhly**:
 - **Úhel zdvihu páčky / palet** (lift of the pallets, impulse angle α) — **8° až 10°**.
-- **Úhel zdvihu setrvačky** (angle of lift of the balance) — **30° až 40°**. Je výrazně větší díky převodu přes vidličku a [vodítko](/slovnik/vodicko); samotná setrvačka kýve do mnohem širších amplitud (300–340°), z toho aktivní popud zabírá jen tuto malou část.
+- **Úhel zdvihu setrvačky** (angle of lift of the balance) — **30° až 40°**. Je výrazně větší díky převodu přes vidličku a [vodítko](/slovnik/voditko); samotná setrvačka kýve do mnohem širších amplitud (300–340°), z toho aktivní popud zabírá jen tuto malou část.
 
 ### Vztah ke kvalitě kroku
 

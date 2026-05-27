@@ -1,6 +1,6 @@
 ---
 title: vodítko
-slug: vodicko
+slug: voditko
 conceptId: HORO-ESCAPEMENT-009
 kategorie: mechanika
 varianty:

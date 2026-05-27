@@ -1775,6 +1775,7 @@
         "hippuv-prerusovac",
         "isochronismus",
         "kolickovy-krok",
+        "kotoucek-popudny",
         "kotva",
         "kotvovy-krok",
         "krokove-kolo",
@@ -1782,6 +1783,8 @@
         "litherlanduv-krok",
         "mannhardtuv-krok",
         "natah",
+        "odpad",
+        "popud",
         "remontoir",
         "rieflerov-krok",
         "robertuv-krok",
@@ -1792,7 +1795,8 @@
         "valcovy-krok",
         "vidlice",
         "vretenovy-krok",
-        "winnerluv-krok"
+        "winnerluv-krok",
+        "zachyt"
       ]
     },
     "kotva": {
@@ -1811,13 +1815,18 @@
         "grasshopper-krok",
         "klecovy-ram",
         "kolickovy-krok",
+        "kotoucek-popudny",
         "kotvovy-krok",
         "krok",
         "krokove-kolo",
         "paleta",
+        "paleta-vstupni",
+        "paleta-vystupni",
         "svycarsky-krok",
+        "uhel-zdvihu",
         "valcovy-krok",
-        "vetrnik"
+        "vetrnik",
+        "voditko"
       ]
     },
     "setrvacka": {
@@ -1842,6 +1851,7 @@
         "invar",
         "isochronismus",
         "kompenzace-teplotni",
+        "kotoucek-popudny",
         "kvadrant",
         "kyvadlo",
         "lihyr",
@@ -1853,7 +1863,8 @@
         "vidlice",
         "vlasek",
         "vlaskova-krivka",
-        "vlasova-pruzinka"
+        "vlasova-pruzinka",
+        "voditko"
       ]
     },
     "berthouduv-krok": {
@@ -1921,11 +1932,18 @@
         "kotva",
         "kotvovy-krok",
         "krok",
+        "odpad",
         "paleta",
+        "paleta-vstupni",
+        "paleta-vystupni",
+        "popud",
+        "uhel-klidu",
+        "uhel-zdvihu",
         "valcovy-krok",
         "vidlice",
         "vretenovy-krok",
-        "winnerluv-krok"
+        "winnerluv-krok",
+        "zachyt"
       ]
     },
     "duplexni-krok": {
@@ -2408,9 +2426,17 @@
         "kotvovy-krok",
         "krok",
         "krokove-kolo",
+        "odpad",
+        "paleta-vstupni",
+        "paleta-vystupni",
+        "popud",
         "rubinovy-kamen",
+        "uhel-klidu",
+        "uhel-zdvihu",
         "vidlice",
-        "vretenovy-krok"
+        "voditko",
+        "vretenovy-krok",
+        "zachyt"
       ]
     },
     "puska-orloje": {
@@ -2594,6 +2620,16 @@
         "vlasek"
       ]
     },
+    "voditko": {
+      "slovnik": [
+        "kotoucek-popudny"
+      ]
+    },
+    "vidlice": {
+      "slovnik": [
+        "kotoucek-popudny"
+      ]
+    },
     "grahamuv-krok": {
       "slovnik": [
         "kotvovy-krok",
@@ -2710,6 +2746,25 @@
         "struna-orloje"
       ]
     },
+    "zachyt": {
+      "slovnik": [
+        "odpad",
+        "paleta-vstupni",
+        "paleta-vystupni",
+        "popud",
+        "uhel-klidu"
+      ]
+    },
+    "popud": {
+      "slovnik": [
+        "odpad",
+        "paleta-vstupni",
+        "paleta-vystupni",
+        "uhel-zdvihu",
+        "voditko",
+        "zachyt"
+      ]
+    },
     "tatrmani-aparat": {
       "slovnik": [
         "orloj"
@@ -2718,6 +2773,23 @@
     "kalendarium": {
       "slovnik": [
         "orloj"
+      ]
+    },
+    "paleta-vystupni": {
+      "slovnik": [
+        "paleta-vstupni"
+      ]
+    },
+    "paleta-vstupni": {
+      "slovnik": [
+        "paleta-vystupni"
+      ]
+    },
+    "odpad": {
+      "slovnik": [
+        "paleta-vystupni",
+        "popud",
+        "zachyt"
       ]
     },
     "snek": {
@@ -2729,6 +2801,12 @@
     "rynk": {
       "slovnik": [
         "ponebi"
+      ]
+    },
+    "uhel-zdvihu": {
+      "slovnik": [
+        "popud",
+        "uhel-klidu"
       ]
     },
     "signatura": {
@@ -2817,6 +2895,12 @@
         "tryb"
       ]
     },
+    "uhel-klidu": {
+      "slovnik": [
+        "uhel-zdvihu",
+        "zachyt"
+      ]
+    },
     "cech-hodinarsky": {
       "slovnik": [
         "umeni"
@@ -2848,6 +2932,11 @@
       "slovnik": [
         "vocel",
         "vyhloditi"
+      ]
+    },
+    "kotoucek-popudny": {
+      "slovnik": [
+        "voditko"
       ]
     },
     "prysek": {

@@ -30,9 +30,9 @@ prekladyFr:
   - term: plateau d'impulsion
     genus: m
     zdroj: "Sladkovský 1947; podrobnější FR varianta"
-definice: "Kotouč na hřídeli [setrvačky](/slovnik/setrvacka) s elipsoidním kamenem [vodítka](/slovnik/vodicko); spolu s vidličkou kotvy hlavní součást [kotvového kroku](/slovnik/krok) kapesních a náramkových hodinek."
+definice: "Kotouč na hřídeli [setrvačky](/slovnik/setrvacka) s elipsoidním kamenem [vodítka](/slovnik/voditko); spolu s vidličkou kotvy hlavní součást [kotvového kroku](/slovnik/krok) kapesních a náramkových hodinek."
 pribuzne:
-  - vodicko
+  - voditko
   - setrvacka
   - kotva
   - vidlice
@@ -46,7 +46,7 @@ references:
 
 ## Výklad
 
-**Kotouček popudný** (alt. *kotouček vidličky*; Berner *plateau* / *Hebelscheibe* / *impulse roller*) je malý kotouč pevně nasazený na hřídeli [setrvačky](/slovnik/setrvacka). Nese **kámen [vodítka](/slovnik/vodicko)** (elipsu), který je hlavním zprostředkovatelem výměny energie mezi kotvou a setrvačkou.
+**Kotouček popudný** (alt. *kotouček vidličky*; Berner *plateau* / *Hebelscheibe* / *impulse roller*) je malý kotouč pevně nasazený na hřídeli [setrvačky](/slovnik/setrvacka). Nese **kámen [vodítka](/slovnik/voditko)** (elipsu), který je hlavním zprostředkovatelem výměny energie mezi kotvou a setrvačkou.
 
 ### Jednoduchý vs. dvojitý kotouček (Berner)
 
@@ -65,7 +65,7 @@ Sušický 1900 používá ještě **„kotouč vahadla"** — „vahadlo" bylo s
 
 ## Příbuzné termíny
 
-[vodítko](/slovnik/vodicko) · [setrvačka](/slovnik/setrvacka) · [kotva](/slovnik/kotva) · [vidlice](/slovnik/vidlice) · [krok](/slovnik/krok)
+[vodítko](/slovnik/voditko) · [setrvačka](/slovnik/setrvacka) · [kotva](/slovnik/kotva) · [vidlice](/slovnik/vidlice) · [krok](/slovnik/krok)
 
 ## Reference
 
