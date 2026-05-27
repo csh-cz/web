@@ -789,6 +789,23 @@ export const milniky: Milnik[] = [
     zoteroKey: '983ZF928',
   },
   {
+    id: 'taborsky-1570',
+    rok: 1570,
+    rokText: '1570',
+    epocha: 'novovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    titulek: 'Jan Táborský: Zpráva o pražském orloji',
+    popis:
+      'Pražský orlojník Jan Táborský z Klokotské Hory sepsal roku 1570 obšírnou „Zprávu o orloji ' +
+      'pražském" — nejstarší český detailní popis stroje staroměstského orloje a klíčový pramen ' +
+      'jeho dějin. V edici Josefa Teigeho vyšla teprve roku 1901.',
+    slovnik: 'orlojnik',
+    externalUrl: 'https://orloj.eu',
+    bibKey: 'teigeJanaTaborskehoKlokotske1901',
+    zdroj: 'Teige 1901 — Jana Táborského z Klokotské Hory zpráva o orloji staroměstském',
+  },
+  {
     id: 'pavel-frejlich-1571',
     rok: 1571,
     rokText: '1571',
