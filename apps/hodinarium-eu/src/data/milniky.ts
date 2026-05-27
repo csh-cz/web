@@ -1246,9 +1246,10 @@ export const milniky: Milnik[] = [
     kategorie: 'monument',
     titulek: 'Generální obnova orloje a Mánesův kalendář',
     popis:
-      'Při velké obnově 1865–66 zhotovil hodinář Romuald Božek nový stroj, Josef Mánes namaloval ' +
+      'Při velké obnově 1865–66 zhotovil nový stroj hodinář Jan Holub v Daňkově strojírně v Karlíně ' +
+      '(na opravě se podílel i Ludvík Hainz ml. a začínající Václav Krečmer), Josef Mánes namaloval ' +
       'kalendářní desku a Eduard Veselý vyřezal nové apoštoly; orloj byl zprovozněn 1. ledna 1866.',
-    hodinar: 'romuald-bozek',
+    hodinar: 'l-hainz',
     externalUrl: 'https://orloj.eu',
     zdroj: 'Černá 2012 — Přehled výzkumu k obnově orloje 1864–1865',
     bibKey: 'cernaPrehledVyzkumuObnove2012a',
@@ -1271,18 +1272,19 @@ export const milniky: Milnik[] = [
     zoteroKey: 'BDMW3GD4',
   },
   {
-    id: 'vaclav-krecmer-1891',
-    rok: 1891,
-    rokText: '1891–92',
+    id: 'vaclav-krecmer-1865',
+    rok: 1865,
+    rokText: '1865',
     epocha: 'prumysl',
     oblast: 'ceske-zeme',
     kategorie: 'osobnost',
-    titulek: 'Václav Krečmer — Panorama na Jubilejní výstavě',
+    titulek: 'Václav Krečmer — debut na opravě orloje',
     popis:
-      'Pražský hodinář-mechanik Václav Krečmer dodal pro Jubilejní výstavu 1891 samočinný hybostroj ' +
-      'mezinárodní panoramy na Petříně a roku 1892 za něj získal cenu výstavy. K oboru se přihlásil ' +
-      'už programovou statí „O hodinářství" z roku 1878; později se synem dodával věžní stroje (1898) ' +
-      'a soutěžil s Hainzem o pražské elektrické hodiny.',
+      'Pražský hodinář Václav Krečmer (1844–1918) se prvně objevuje při obnově staroměstského orloje ' +
+      '1865–66, kdy pracoval v Daňkově karlínské strojírně pod vedením Jana Holuba. Po studiích ve ' +
+      'Švýcarsku a ve Francii si roku 1869 založil vlastní dílnu, programovou statí „O hodinářství" 1878 ' +
+      'vstoupil do oborové diskuze, roku 1891 dodal pro Jubilejní výstavu samočinný hybostroj petřínské ' +
+      'panoramy (cena 1892) a roku 1910 soutěžil s Hainzem o pražské elektrické hodiny.',
     hodinar: 'vaclav-krecmer',
     bibKey: 'knesplVaclavKrecmerHodinar2026',
     zdroj: 'Knespl 2026 — Václav Krečmer — hodinář inovátor',
