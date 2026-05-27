@@ -522,9 +522,8 @@ export const milniky: Milnik[] = [
       'hodinách: „Etsi aliquis ex Mansionariis ultra secundum pulsum horologii steterit foris domum, ' +
       'ad ipsam eadem nocte non intromittatur, vel intromissus per Precentorem condigne puniatur." ' +
       '(Kdo z mansionářů by zůstal venku déle než do druhého zvonění hodin, té noci do domu nesmí, ' +
-      'anebo je-li vpuštěn, ať je precentorem náležitě potrestán.) Italský způsob počítání hodin vede ' +
-      'k Padově — Arnošt tam 14 let studoval, mezitím Jacopo Dondi sestrojil roku 1344 padovský ' +
-      'radniční orloj. Pražské hodiny tak byly v provozu už generaci před staroměstským orlojem.',
+      'anebo je-li vpuštěn, ať je precentorem náležitě potrestán.) Pražské hodiny tak byly v provozu ' +
+      'už generaci před staroměstským orlojem.',
     slovnik: 'orlojnik',
     bibKey: 'blahovaHistorickaChronologie2001',
     zdroj: 'Bláhová 2001 — Historická chronologie, s. 312 (Statuta Dominorum Pragensium Mansionarium, 22. 12. 1354)',
