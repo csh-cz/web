@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-27T22:53:46.861Z",
+  "generatedAt": "2026-05-27T23:15:23.523Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
-    "slovnik": 190,
+    "slovnik": 191,
     "hodinari": 170,
     "hodinariTs": 170,
     "soupis": 443
   },
-  "count": 1772,
+  "count": 1773,
   "words": [
     "Abraham",
     "Accutron",
@@ -768,6 +768,8 @@
     "Lang",
     "Lange",
     "lano",
+    "lanovy",
+    "lanový",
     "Lans",
     "Lansg",
     "Lány",
@@ -975,7 +977,6 @@
     "natah",
     "nátah",
     "natahování",
-    "natahovy",
     "nátahový",
     "naturalis",
     "Návsí",
