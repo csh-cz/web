@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-27T23:33:25.951Z",
+  "generatedAt": "2026-05-27T23:40:22.203Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
-    "slovnik": 195,
+    "slovnik": 197,
     "hodinari": 170,
     "hodinariTs": 170,
     "soupis": 443
   },
-  "count": 1783,
+  "count": 1784,
   "words": [
     "Abraham",
     "Accutron",
@@ -834,6 +834,7 @@
     "Ludmily",
     "Ludvík",
     "Ludwig",
+    "luozko",
     "luožko",
     "Luz",
     "Luze",
@@ -1099,6 +1100,7 @@
     "Paříž",
     "Paseky",
     "paschae",
+    "pastorek",
     "Pátek",
     "Pater",
     "Patera",
@@ -1429,7 +1431,6 @@
     "Starý",
     "státního",
     "Stavitel",
-    "stegrad",
     "Stěpán",
     "Stockholm",
     "strana",
