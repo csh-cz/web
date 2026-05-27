@@ -347,7 +347,9 @@ export const milniky: Milnik[] = [
     titulek: 'První mechanické věžní hodiny',
     popis:
       'V anglickém Dunstable vznikly patrně první mechanické věžní hodiny s lihýřem a vahadlem — ' +
-      'počátek éry věžního hodinářství.',
+      'počátek éry věžního hodinářství. Snahu sestrojit takové „kolo, které by se pohybovalo přesně ' +
+      'podle nebeské sféry", zaznamenal už roku 1271 anglický astronom Robertus Anglicus v komentáři ' +
+      'ke Sacroboscovu De sphera.',
     krok: 'vretenovy-krok',
     zdroj: 'Nosonovsky 2024 — Early Renaissance Concepts of Time and the Invention of Mechanical Clocks',
     bibKey: 'nosonovskyEarlyRenaissanceConcepts2024',
@@ -406,6 +408,39 @@ export const milniky: Milnik[] = [
     zdroj: 'Nosonovsky 2024 — Early Renaissance Concepts of Time and the Invention of Mechanical Clocks',
   },
   {
+    id: 'buridan-oresme-impetus',
+    rok: 1340,
+    rokText: 'kolem 1340',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'osobnost',
+    titulek: 'Buridan a Oresme: teorie impetu',
+    popis:
+      'Pařížští scholastikové Jean Buridan (1301–1362) a Nicole Oresme (1320–1382) v polemice ' +
+      's aristotelským pojetím pohybu rozvinuli teorii impetu — pohybu setrvačností bez stále ' +
+      'působící síly. Pro hodinařinu znamenala přijetí myšlenky periodického pohybu, který se sám ' +
+      'uchovává; o tři staletí později z ní Galileo a Newton odvodili princip setrvačnosti.',
+    clanek: 'mereni-casu',
+    bibKey: 'nosonovskyEarlyRenaissanceConcepts2024',
+    zdroj: 'Nosonovsky 2024 — Early Renaissance Concepts of Time and the Invention of Mechanical Clocks',
+  },
+  {
+    id: 'jacopo-dondi-1344',
+    rok: 1344,
+    rokText: '1344',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'monument',
+    titulek: 'Jacopo de\' Dondi — orloj v Padově',
+    popis:
+      'Padovský lékař a astronom Jacopo de\' Dondi (1290–1359) sestrojil věžní orloj instalovaný ' +
+      'roku 1344 v Torre dei Signori paláce Palazzo del Capitanio v Padově; podle něj získala ' +
+      'rodina přídomek „dall\'Orologio". Jeho syn Giovanni o dvacet let později navázal slavným astrariem.',
+    slovnik: 'orloj',
+    bibKey: 'nosonovskyEarlyRenaissanceConcepts2024',
+    zdroj: 'Nosonovsky 2024 — Early Renaissance Concepts of Time and the Invention of Mechanical Clocks',
+  },
+  {
     id: 'rovne-hodiny',
     rok: 1350,
     rokText: '14. století',
@@ -454,6 +489,22 @@ export const milniky: Milnik[] = [
     zdroj: 'Bedini & Maddison 1966 — Mechanical Universe: The Astrarium of Giovanni de’ Dondi',
     bibKey: 'bediniMechanicalUniverseAstrarium1966',
     zoteroKey: 'H868QUKS',
+  },
+  {
+    id: 'henri-de-vick-1370',
+    rok: 1370,
+    rokText: '1370',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'monument',
+    titulek: 'Henri de Vick — orloj královského paláce v Paříži',
+    popis:
+      'Hodinář Henri de Vick postavil roku 1370 pro královský palác v Paříži věžní hodiny ' +
+      's lihýřovým krokem. Jejich pravidelný úder inspiroval kolem roku 1380 Froissartovu ' +
+      'alegorickou báseň Orloge amoureus, v níž je krok přirovnán k pravé umírněnosti.',
+    krok: 'vretenovy-krok',
+    bibKey: 'nosonovskyEarlyRenaissanceConcepts2024',
+    zdroj: 'Nosonovsky 2024 — Early Renaissance Concepts of Time and the Invention of Mechanical Clocks',
   },
   {
     id: 'salisbury',
@@ -803,15 +854,15 @@ export const milniky: Milnik[] = [
   },
   {
     id: 'galileo-kyvadlo',
-    rok: 1610,
-    rokText: 'kolem 1602–1610',
+    rok: 1588,
+    rokText: '1588 (publ. 1602)',
     epocha: 'novovek',
     oblast: 'svet',
     kategorie: 'osobnost',
     titulek: 'Galileo a izochronie kyvadla',
     popis:
-      'Galileo Galilei objevil přibližnou izochronii kyvadla, čímž připravil cestu k jeho použití ' +
-      'jako regulátoru hodin.',
+      'Galileo Galilei začal roku 1588 zkoumat izochronii malých kmitů kyvadla a výsledky publikoval ' +
+      'roku 1602 — tím připravil cestu k jeho použití jako regulátoru hodin.',
     slovnik: 'kyvadlo',
     zdroj: 'Newton 2004 — Galileo’s Pendulum',
     bibKey: 'newtonGalileosPendulumRhythm2004',
