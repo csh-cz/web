@@ -124,8 +124,8 @@
        neukazovaly true lock geometry. Tyto symetrické arcs JE skutečná
        dráha po které klouže zub během LOCK fáze. -->
   <g stroke="#6B4A2E" stroke-width="1.4" fill="none" stroke-dasharray="6 4" opacity="0.45">
-    <path d="M 121.35,243.06 A 236.3,236.3 0 0 1 34.86,156.57"/>
-    <path d="M 444.14,156.57 A 236.3,236.3 0 0 1 357.65,243.06"/>
+    <path d="M 131.02,249.95 A 235.09,235.09 0 0 1 30.40,145.14"/>
+    <path d="M 452.04,148.29 A 235.09,235.09 0 0 1 349.87,251.58"/>
   </g>
 
   <!-- CW šipka — statická indikace směru rotace kola, dolní pravý roh -->
@@ -135,7 +135,46 @@
     <text x="415" y="500" class="krok-popisek-mensi" stroke="none" fill="#3A2818" opacity="1" text-anchor="end">CW</text>
   </g>
 
-  <!-- ====== KROKOVÉ KOLO ======
+  <!-- ====== KOTVA + KYVADLO (Wikipedia V-shape, rendered PŘED kolem) ======
+       Vrácená Wikipedia anchor geometrie — vizuálně lepší V-shape než
+       Headrick rectangle arms. Z-order trick: anchor je rendered před
+       kolem (wheel), tj. kolo se vyrenderuje NA TOP and překryje pal
+       V tipy v contact zone, vizuálně pal "se zastaví" na hraně zubů
+       místo aby vypadalo že "prochází přes ně".
+
+       Pivot at (242, 42.7) — Wikipedia.
+       Amplituda ±2° (real Graham regulator). -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="2 242 42.7; -2 242 42.7; 2 242 42.7"
+      keyTimes="0; 0.5; 1"
+      dur="4s"
+      begin="0s"
+      repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+
+    <!-- Kyvadlová tyč: hrot na konci (předloha path6112) -->
+    <path d="m 261.6309,622.17293 c -2.23017,1.25778 -4.48017,0.84442 -7.23619,-0.17647 l 6.88654,-6.74472 0.34965,6.92119 z"
+       fill="#88A8C8" stroke="#3D5878" stroke-width="1"/>
+
+    <!-- Kyvadlová tyč (předloha rect6109) -->
+    <path d="m 237.47806,65.911658 11.98442,-0.313642 12.02665,555.535694 c -4.13975,-3.45484 -8.13302,3.9376 -11.98442,0.31364 L 237.47806,65.911658 z"
+       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"
+       stroke-linecap="round" stroke-linejoin="miter"/>
+
+    <!-- Kotva (předloha path6134) — Wikipedia V-shape -->
+    <path d="m 242.16965,0.65 c -10.89209,0 -20.79809,4.185503 -28.21875,11.03125 L 39.98215,177.025 l 0.0937,0.0625 -0.28125,0.21875 c 8.77569,13.2201 18.82472,25.48484 29.9375,36.6875 L 91.9196,204.2125 C 82.41582,195.35247 73.68642,185.66683 65.8571,175.24375 96.52129,147.47318 197.66617,56.025 200.16965,56.025 c 0.95645,0 2.06025,0.49383 3.125,1.125 5.98902,15.64954 21.11949,26.78125 38.875,26.78125 18.82456,0 34.75276,-12.51049 39.90625,-29.65625 0.70893,-0.35538 1.4208,-0.60208 2.0625,-0.625 2.56502,-0.0916 111.43742,92.46091 139.53125,116.375 -5.98454,8.47775 -12.46405,16.40297 -19.375,23.78125 l 9.84375,20.78125 c 13.27525,-13.32312 25.21445,-28.39104 35.4375,-45.15625 l -0.3125,-0.1875 0.125,-0.0937 L 268.85715,10.3375 C 261.62973,4.295441 252.32671,0.65 242.16965,0.65 z"
+       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"
+       stroke-linecap="round" stroke-linejoin="miter"/>
+
+    <!-- Pivot kotvy — sépiové očko (předloha path6114) -->
+    <circle cx="242.04" cy="42.69" r="13.78" fill="#3A2818" stroke="none"/>
+  </g>
+
+  <!-- ====== KROKOVÉ KOLO (rendered PO kotvě — překryje pal V tipy v contact zone) ======
        Diskrétní tick: 30 ticků × 12° = 360° za 60 s = jedna otáčka.
        Hold 90% času tick intervalu, jump v 10% (impulse + drop o 12°).
        Tedy 2 ticks za 4s periodu kyvadla.
@@ -163,81 +202,28 @@
     <circle cx="239.61" cy="372.67" r="16.72" fill="#3A2818" stroke="none"/>
   </g>
 
-  <!-- ====== KOTVA + KYVADLO ======
-       PŘEPSÁNO podle Headrick "Clock and Watch Escapement Mechanics"
-       (1997), sekce 3 — original Wikipedia pal byl SCHEMATIC s
-       overlarge V tipy zasahujícími do zubního pole kola.
-
-       Headrick design:
-       - Pivot na svislé z wheel center, distance D = R × √2 = 334.18
-       - Pal pivot at (239.5, 38.42) (Wikipedia měla 242, 42.7 — drift ~5 px)
-       - r_pal = R = 236.3 (pal lock arc = wheel tooth radius)
-       - r_inner = 224.09 (5.69" pal circle, vnitřní hrana V tipu)
-       - r_outer = 248.51 (6.31" pal circle, vnější hrana V tipu)
-       - Pal V tip = annular sector ±3° kolem contact angle (135° L, 45° R)
-       - Pal arms = thin straight rectangles (12 px wide) z pivot bushing do V tip
-       - Pal lock face = vnitřní arc na r=R, palety se "rideují" na hraně zubů
-
-       Oscilace ±2° (real Graham regulator amplitude). -->
-  <g>
-    <animateTransform
-      attributeName="transform"
-      type="rotate"
-      values="2 239.5 38.42; -2 239.5 38.42; 2 239.5 38.42"
-      keyTimes="0; 0.5; 1"
+  <!-- ====== PAL CONTACT HIGHLIGHTS (rubín, rendered PO kolu) ======
+       Statické pozice na real contact points (průsečík lock arc r=235.09
+       × wheel tooth circle R_t=236.3). Top z-order — vidět vždy.
+       Animace opacity sync s lock fázemi kotvy. -->
+  <circle cx="72.41" cy="205.51" r="9" fill="#B85068" opacity="0">
+    <animate attributeName="opacity"
+      values="0.85; 0.85; 0; 0; 0; 0.85; 0.85"
+      keyTimes="0; 0.22; 0.225; 0.755; 0.76; 0.765; 1"
+      calcMode="linear"
       dur="4s"
       begin="0s"
-      repeatCount="indefinite"
-      calcMode="spline"
-      keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
-
-    <!-- Kyvadlová tyč: hrot na konci (předloha path6112) -->
-    <path d="m 261.6309,622.17293 c -2.23017,1.25778 -4.48017,0.84442 -7.23619,-0.17647 l 6.88654,-6.74472 0.34965,6.92119 z"
-       fill="#88A8C8" stroke="#3D5878" stroke-width="1"/>
-
-    <!-- Kyvadlová tyč (zjednodušený obdélník od pivotu dolů) -->
-    <rect x="235.5" y="38.42" width="8" height="580" fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"/>
-
-    <!-- Pal V arms (thin rectangles, 12 px wide) z bushing do V tipu -->
-    <polygon points="222.53,46.91 76.80,192.64 85.29,201.12 231.01,55.39"
-       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"/>
-    <polygon points="247.99,55.39 393.71,201.12 402.20,192.64 256.47,46.91"
-       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"/>
-
-    <!-- Pal V tipy (palettes, annular sector ±3° kolem contact angle) -->
-    <polygon points="73.22,223.10 54.82,204.71 72.97,188.37 89.55,204.95"
-       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"/>
-    <polygon points="424.18,204.71 405.78,223.10 389.45,204.95 406.03,188.37"
-       fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"/>
-
-    <!-- Pivot bushing (kotvové pouzdro nad pal arms, aby se polygons covered) -->
-    <circle cx="239.5" cy="38.42" r="18" fill="#88A8C8" stroke="#3D5878" stroke-width="1.3"/>
-
-    <!-- Pivot center (sépia dot) -->
-    <circle cx="239.5" cy="38.42" r="6" fill="#3A2818" stroke="none"/>
-
-    <!-- HIGHLIGHT LEVÉ PALETY — rubín v lock 1 fázi (drží zub). -->
-    <circle cx="72.41" cy="205.51" r="9" fill="#B85068" opacity="0">
-      <animate attributeName="opacity"
-        values="0.85; 0.85; 0; 0; 0; 0.85; 0.85"
-        keyTimes="0; 0.22; 0.225; 0.755; 0.76; 0.765; 1"
-        calcMode="linear"
-        dur="4s"
-        begin="0s"
-        repeatCount="indefinite"/>
-    </circle>
-
-    <!-- HIGHLIGHT PRAVÉ PALETY — rubín v lock 2 fázi. -->
-    <circle cx="406.59" cy="205.51" r="9" fill="#B85068" opacity="0">
-      <animate attributeName="opacity"
-        values="0; 0; 0.85; 0.85; 0; 0"
-        keyTimes="0; 0.255; 0.26; 0.72; 0.725; 1"
-        calcMode="linear"
-        dur="4s"
-        begin="0s"
-        repeatCount="indefinite"/>
-    </circle>
-  </g>
+      repeatCount="indefinite"/>
+  </circle>
+  <circle cx="406.59" cy="205.51" r="9" fill="#B85068" opacity="0">
+    <animate attributeName="opacity"
+      values="0; 0; 0.85; 0.85; 0; 0"
+      keyTimes="0; 0.255; 0.26; 0.72; 0.725; 1"
+      calcMode="linear"
+      dur="4s"
+      begin="0s"
+      repeatCount="indefinite"/>
+  </circle>
 
   <!-- ====== FÁZOVÝ INDIKÁTOR (text nahoře) ======
        Střídá "LOCK" (sépie) a "IMPULSE → DROP" (rubín) podle aktuální
