@@ -17,19 +17,19 @@ varianty:
 prekladyDe:
   - term: Fall
     genus: m
-    zdroj: "Martínek–Řehoř 1968, *Mechanische Uhren*"
+    zdroj: 'Berner, *Illustriertes Fachlexikon der Uhrmacherei* (heslo „drop") — primární'
   - term: Abfall
     genus: m
-    zdroj: "Dietzschold 1905, *Die Hemmungen der Uhren*"
+    zdroj: "Dietzschold 1905 — méně specifický, Berner preferuje Fall"
 prekladyEn:
   - term: drop
-    zdroj: "Headrick 1997; Du–Xie 2013"
+    zdroj: 'Berner, *Illustrated Professional Dictionary of Horology* (heslo „drop n.", „drop in an escapement") — primární'
   - term: fall
-    zdroj: "Saunier 1887"
+    zdroj: "Saunier 1887 — staré užití, dnes Berner upřednostňuje drop"
 prekladyFr:
   - term: chute
     genus: f
-    zdroj: 'Berthoud 1802 („la dent tombe sur un plan circulaire")'
+    zdroj: 'Berner, *Dictionnaire professionnel illustré de l''horlogerie* (heslo „chute") — primární; doloženo už Berthoud 1802'
 definice: "Třetí (poslední) fáze cyklu krokového ústrojí: po skončení popudu zub krokového kola opustí popudnou plochu palety, kolo se volně otočí o malý úhel a další zub dopadne na záchytnou plochu protilehlé palety. Tím cyklus uzavírá a začíná nový [záchyt](/slovnik/zachyt)."
 pribuzne:
   - zachyt
@@ -50,6 +50,10 @@ references:
     citace: "Současně provádíme kontrolu vnějšího i vnitřního pádu a polohy zubů v okamžiku odpadu."
     pages: "84"
     zoteroKey: WDDY29VD
+  - key: berner
+    title: "Illustrated Professional Dictionary of Horology / Dictionnaire professionnel illustré de l'horlogerie / Illustriertes Fachlexikon der Uhrmacherei"
+    citace: "drop n. chute n. f. Fall m. — drop in an escapement: arc or angle d through which the escape-wheel moves freely between the end of the impulse on one of the pallets and the next lock of a tooth on the other pallet."
+    note: "Federation of the Swiss Watch Industry (FH). Online: https://dictionary.fhs.swiss (heslo ID 677)."
 ---
 
 ## Výklad

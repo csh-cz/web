@@ -14,27 +14,25 @@ varianty:
     status: erroneous
     note: 'Strojírenský termín (stroke / lift) — v hodinářské literatuře se pro fázi krokového ústrojí NEUŽÍVÁ. Sladkovský 1947, Hajn 1953, Martínek–Řehoř 1964 znají jen „popud". Připouští se výjimečně v sousloví „úhel zdvihu" jako synonymum k „úhlu popudu".'
 prekladyDe:
-  - term: Antrieb
-    genus: m
-    zdroj: "Dietzschold 1905, *Die Hemmungen der Uhren*"
   - term: Impuls
     genus: m
-    zdroj: "Martínek–Řehoř 1968, *Mechanische Uhren*"
+    zdroj: 'Berner, *Illustriertes Fachlexikon der Uhrmacherei* (heslo „impulse") — primární'
+  - term: Antrieb
+    genus: m
+    zdroj: "Dietzschold 1905 — obecnější termín (drive), Berner preferuje Impuls"
   - term: Hub
     genus: m
-    zdroj: 'Martínek–Řehoř 1968 („Hubwinkel" = úhel popudu)'
+    zdroj: 'Martínek–Řehoř 1968 („Hubwinkel" = úhel popudu); pro samostatný popud Berner uvádí Impuls'
 prekladyEn:
   - term: impulse
-    zdroj: "Saunier 1887, *Treatise on Modern Horology*"
-  - term: impulsion
-    zdroj: "Headrick 1997"
+    zdroj: 'Berner, *Illustrated Professional Dictionary of Horology* (heslo „impulse n.") — primární; Saunier 1887'
 prekladyFr:
   - term: impulsion
     genus: f
-    zdroj: "Berthoud 1802, *Histoire de la mesure du temps par les horloges*"
+    zdroj: 'Berner, *Dictionnaire professionnel illustré de l''horlogerie* (heslo „impulsion") — primární; doloženo už Berthoud 1802'
   - term: levée
     genus: f
-    zdroj: "Gros 1913, *Échappements d'horloges et de montres* (angle de levée = úhel popudu)"
+    zdroj: 'Gros 1913, *Échappements d''horloges et de montres* — užíváno hlavně v sousloví „angle de levée" (úhel popudu)'
 definice: "Druhá fáze cyklu krokového ústrojí: zub krokového kola klouže po šikmé (popudné) ploše palety a předává energii ze soukolí na oscilátor (kyvadlo nebo setrvačku). Trvá od konce záchytu do okamžiku, kdy zub paletu opustí."
 pribuzne:
   - zachyt
@@ -55,6 +53,10 @@ references:
     title: "Histoire de la mesure du temps par les horloges"
     citace: "Les échappemens à repos sont ceux dans lesquels la dent de la roue, s'échappant de dessus la palette ou lévier d'impulsion, tombe sur un plan circulaire…"
     zoteroKey: "8VEUFG6S"
+  - key: berner
+    title: "Illustrated Professional Dictionary of Horology / Dictionnaire professionnel illustré de l'horlogerie / Illustriertes Fachlexikon der Uhrmacherei"
+    citace: "impulse n. impulsion n. f. Impuls m. — Thrust exerted by a moving body on a stationary body causing the latter to move. In a lever escapement, the impulse is the action of the escape wheel tooth (impulse face a) on the pallet (impulse face b)."
+    note: "Federation of the Swiss Watch Industry (FH). Online: https://dictionary.fhs.swiss (heslo ID 1836)."
 ---
 
 ## Výklad

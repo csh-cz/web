@@ -17,23 +17,19 @@ varianty:
 prekladyDe:
   - term: Ruhe
     genus: f
-    zdroj: "Martínek–Řehoř 1968, *Mechanische Uhren*; Dietzschold 1905, *Die Hemmungen der Uhren*"
+    zdroj: 'Berner, *Illustriertes Fachlexikon der Uhrmacherei* (heslo „lock") — dictionary.fhs.swiss'
   - term: Sperrung
     genus: f
-    zdroj: "Dietzschold 1905"
+    zdroj: "Dietzschold 1905 — méně specifický, Berner preferuje Ruhe"
 prekladyEn:
   - term: lock
-    zdroj: "Headrick 1997, *Origin and Evolution of the Anchor Clock Escapement*"
+    zdroj: 'Berner, *Illustrated Professional Dictionary of Horology* (heslo „lock n.") — primární'
   - term: locking
-    zdroj: "Du–Xie 2013, *The Mechanics of Mechanical Watches and Clocks*, s. 12"
-  - term: rest
-    zdroj: "Saunier 1887, *Treatise on Modern Horology*, s. 6"
+    zdroj: 'Du–Xie 2013, s. 12; Berner („locking face", „locking-angle")'
 prekladyFr:
   - term: repos
     genus: m
-    zdroj: "Berthoud 1802, *Histoire de la mesure du temps par les horloges*"
-  - term: arrêt
-    genus: m
+    zdroj: 'Berner, *Dictionnaire professionnel illustré de l''horlogerie* (heslo „repos") — primární; doloženo už Berthoud 1802'
 definice: "První fáze cyklu krokového ústrojí: zub krokového kola spočívá na klidové (záchytné) ploše palety a soukolí je v klidu. Trvá od konce předchozího popudu do okamžiku, kdy paleta zubu uvolní popudnou plochu."
 pribuzne:
   - popud
@@ -54,6 +50,10 @@ references:
     title: "Design kyvadlových hodin"
     citace: "… kotva je opatřena dvojicí stavitelných palet, ty zastavují pohyb kola (záchytné plochy) a následně přenášejí silový impuls z kola na kotvu a oscilátor (popudné plochy)."
     zoteroKey: H5WNHDZ7
+  - key: berner
+    title: "Illustrated Professional Dictionary of Horology / Dictionnaire professionnel illustré de l'horlogerie / Illustriertes Fachlexikon der Uhrmacherei"
+    citace: "lock n. repos n. m. Ruhe f. — Term used by horologists for the penetration, in a lever escapement, of the escape wheel tooth on the pallet stone, after the impulse on the preceding tooth."
+    note: "Federation of the Swiss Watch Industry (FH). Online: https://dictionary.fhs.swiss (heslo ID 384)."
 ---
 
 ## Výklad
