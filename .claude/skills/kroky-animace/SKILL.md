@@ -372,10 +372,50 @@ Pro 30zubý wheel s radius R (= 3" v Headrick orig.):
 ⚠️ Wikipedia Chetvorno SVG je **SCHEMATIC**, ne CAD-correct. Wikipedia pal V tipy jsou nadměrně dlouhé a zasahují do zubního pole. Pro nové animace vždy generovat pal podle Headrick (pomocný skript `reference/pal-contact.py`).
 
 ### Online reference
+- **Volker Vyskocil — uhrentechnik.de**: http://uhrentechnik.vyskocil.de/index.php?id=54 — PROFI Flash animace s krásnými boot pallets, crutch piece, screw rivets. SWF lze dekompilovat (viz workflow níže) na vector paths a použít jako základ.
 - Wikipedia Commons: https://commons.wikimedia.org/wiki/Category:Escapement_mechanisms
 - Wolfram Demo Graham: https://demonstrations.wolfram.com/TheGrahamClockEscapement/
 - Hessmer Deadbeat Builder: https://hessmer.org/gears/DeadbeatEscapementBuilder.html
 - Style guide hodinarium-eu: `docs/kroky-illustration-style.md`
+
+### SWF dekompilační workflow (pro Vyskocil + jiné Flash animace)
+
+Mnoho starých horologických webů má Flash animace s profesionální vector geometrií. Dekompilace přes JPEXS Free Flash Decompiler 26.2.1:
+
+```bash
+# 1. Stáhnout SWF
+curl -sL "http://uhrentechnik.vyskocil.de/fileadmin/ani/Graham_0701.swf" -o /tmp/anim.swf
+
+# 2. Inspect via swftools (volitelné, pro orientaci)
+brew install swftools swfmill
+swfdump /tmp/anim.swf | head -30
+swfmill swf2xml /tmp/anim.swf /tmp/anim.xml  # full XML
+
+# 3. Export shapes jako SVG přes JPEXS
+curl -sL "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version26.2.1/ffdec_26.2.1.zip" -o /tmp/ffdec.zip
+unzip -q /tmp/ffdec.zip -d /tmp/ffdec
+java -jar /tmp/ffdec/ffdec.jar -export shape,frame,sprite /tmp/export /tmp/anim.swf
+
+# Output:
+# /tmp/export/shapes/*.svg  — individual shape paths as SVG
+# /tmp/export/frames/*.png  — rendered frames (for reference)
+# /tmp/export/sprites/*/    — animation sprites
+```
+
+Per-shape SVG má local `<g transform="translate(X, Y)">` (Vyskocil's internal coordinate origin). Pro embed do našeho SVG:
+1. Extract filled paths only (ignore stroke-only outline duplicates) — Python regex
+2. Wrap v outer `<g transform="translate(my_x, my_y) scale(s)">` aby pivot/center sedělo
+3. Pal pivot is typically at local (0, 0) → outer translate = desired position
+4. Vyskocil uses scale 1.199 v PlaceObject2 — apply same pro original proportions
+
+Skill obsahuje pomocný skript pro batch konverzi: `reference/swf-to-svg.sh` (TODO).
+
+### Atribuce
+Pokud SVG paths pocházejí z dekompilované 3rd party animace:
+- `author=` plné jméno autora (např. "Volker Vyskocil")
+- `authorUrl=` URL na původní stránku
+- `license=` např. "© s laskavým svolením" nebo specifická CC licence
+- `note=` detail o překreslení: "Předloha: ... Flash animation. SWF dekompilován přes JPEXS. Animace SMIL doplněna vlastní."
 
 ### Komplet seznam plánovaných kroků
 Viz `apps/hodinarium-eu/src/data/kroky.ts` — 25 kroků. Pilot udělán pro **Graham**. Další priorita per TODO.md SL4 task.
