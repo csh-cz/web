@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-27T18:45:59.573Z",
+  "generatedAt": "2026-05-27T19:13:59.554Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 190,
@@ -1654,7 +1654,7 @@
     "vodárenská",
     "vodárna",
     "Voděrady",
-    "vodicko",
+    "voditko",
     "vodítko",
     "Vodňany",
     "Vogt",
