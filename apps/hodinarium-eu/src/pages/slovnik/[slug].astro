@@ -393,6 +393,8 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
     color: var(--color-text-soft);
     margin: 0 0 1rem;
     font-style: italic;
+    /* Při mnoha variantách (6+) na mobile zabránit přesahu kontejneru */
+    overflow-wrap: anywhere;
   }
   .varianty-label {
     color: var(--color-copper);
@@ -404,6 +406,8 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
   }
   .varianta {
     margin-right: 0.3rem;
+    /* Nelámat termín + badge uprostřed; lámat jen mezi variantami */
+    display: inline-block;
   }
 
   /* Status badges pro varianty (A.28) */
@@ -716,6 +720,29 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
     line-height: 1.4;
   }
 
+  /* MDX body — tabulky (markdown tables) zalamovat / scrollovat na mobilu */
+  .prose-content :global(table) {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+    margin: 1.25rem 0;
+  }
+  .prose-content :global(th),
+  .prose-content :global(td) {
+    padding: 0.4rem 0.75rem;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    text-align: left;
+    vertical-align: top;
+    /* Lámat slova jen v krajním přesahu, ne uprostřed běžných slov */
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+  .prose-content :global(thead th) {
+    background: color-mix(in srgb, var(--color-bg-deep) 60%, transparent);
+    font-weight: 600;
+  }
+
   /* MDX body — citace v blockquote */
   .prose-content :global(blockquote) {
     margin: 1.5rem 0;
@@ -785,6 +812,9 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
     color: var(--color-text);
     /* Anchor target scroll-margin pro vizuální oddech pod header */
     scroll-margin-top: 4rem;
+    /* Dlouhé URL citací (např. permalink AHMP) zalomit na mobile */
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
   .slovnik-references li:target {
     background: color-mix(in srgb, var(--color-brass) 12%, transparent);
