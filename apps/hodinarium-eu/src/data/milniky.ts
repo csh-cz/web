@@ -836,10 +836,19 @@ export const milniky: Milnik[] = [
     epocha: 'stredovek',
     oblast: 'ceske-zeme',
     kategorie: 'monument',
-    titulek: 'Opavský městský orloj',
+    titulek: 'Opavský městský orloj — povolán hodinář z Vratislavi',
     popis:
-      'K roku 1368 je v Opavě doložen městský orloj i hodinář povolaný z Vratislavi — nejstarší ' +
-      'dosud doložená zmínka o orloji v zemích Koruny české.',
+      'K roku 1368 je v Opavě doložen městský orloj a hodinář povolaný k jeho stavbě (respektive ' +
+      'správě) z Vratislavi — nejstarší dosud doložená zmínka o věžním orloji v zemích Koruny české. ' +
+      'Záznam je nepřímým, ale silným důkazem, že Vratislav (Wrocław) měla v 60. letech 14. století ' +
+      'už ustálenou hodinářskou dílnu schopnou „exportu" mistrů do okolí. Opava tehdy patřila k ' +
+      'Opavskému knížectví v rámci Slezska — politicky součásti Zemí koruny české od roku 1335 ' +
+      '(Trenčínská a Vyšehradská smlouva, kterou se Kazimír III. Veliký Polský vzdal nároků na ' +
+      'Slezsko); slezské země zůstaly českou korunní zemí až do roku 1742, kdy byly z větší části ' +
+      'postoupeny Prusku po první slezské válce. Pozn.: na rozdíl od politického začlenění zůstalo ' +
+      'Vratislavské biskupství po celé toto období církevně podřízeno polskému arcibiskupství ' +
+      'v Hnězdně, nikoli pražské arcidiecézi — proto se Slezsko v pražských kanonických edicích ' +
+      '(Libri erectionum atd.) téměř neobjevuje.',
     slovnik: 'orloj',
     zdroj: 'Šigut 1961 — K dějinám opavského městského orloje',
     bibKey: 'sigutDejinamOpavskehoMestskeho1961',
@@ -871,23 +880,51 @@ export const milniky: Milnik[] = [
     titulek: 'Nejstarší zmínka o orloji ve Zhořelci',
     popis:
       'Zhořelecké radní účty z července 1377 zmiňují „domus Orleyste" — jedna z nejstarších ' +
-      'dochovaných zmínek o věžních hodinách v zemích Koruny české. Roku 1381 následuje zápis o jejich opravě.',
+      'dochovaných zmínek o věžních hodinách v zemích Koruny české. Roku 1381 následuje zápis o jejich opravě. ' +
+      'Zhořelec patřil k Horní Lužici, která byla součástí Zemí koruny české od roku 1319/1329 ' +
+      '(Jan Lucemburský) až do bitvy na Bílé hoře, respektive Pražského míru roku 1635, kdy byla ' +
+      'Lužice (Horní i Dolní) postoupena Sasku jako odměna za saskou podporu císaři Ferdinandu II. ' +
+      've třicetileté válce.',
     zdroj: 'Görlitzer Ratsrechnungen (ed. Jecht 1910)',
     bibKey: 'richardjechtCodexDiplomaticusLusatiae1910',
     zoteroKey: 'SC8D299S',
   },
   {
-    id: 'praha-martin-1379',
-    rok: 1379,
-    rokText: '1379',
+    id: 'zhorelec-seigermeister-1380',
+    rok: 1380,
+    rokText: '1380',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    titulek: 'Zhořelecký Seigermeister — opravář městských hodin',
+    popis:
+      'Zhořelecké radní účty z 1. července 1380 zachycují konkrétní výplatu „magistro horologii 1 sch. ' +
+      'et 2 gr. pro reformacione horologii" — mistru hodinářskému jeden kopu a 2 groše za opravu ' +
+      'hodin. Tytéž účty z let 1380–1410 dokumentují další zhořelecké hodináře (Seigermeistere), ' +
+      'mj. **Nyclase Winthera** zvaného „aldyn seigermeister" (= starý hodinář), **Štěpána** a ' +
+      '**Petra**. Jedná se o nejstarší souvisle dokumentované jmenovitě hodinářské řemeslo v zemích ' +
+      'Koruny české. Zhořelec patřil k Horní Lužici, součásti Koruny od r. 1319/1329 do Pražského ' +
+      'míru 1635.',
+    slovnik: 'orlojnik',
+    zdroj: 'Codex diplomaticus Lusatiae Superioris III (ed. Jecht), Görlitzer Ratsrechnungen 1380, s. 47 (oprava) + s. 215 (Nyclas Winther, Stheffan, Peter); rejstřík s. 815',
+    bibKey: 'richardjechtCodexDiplomaticusLusatiae1910',
+    zoteroKey: 'SC8D299S',
+  },
+  {
+    id: 'praha-martin-1361',
+    rok: 1361,
+    rokText: '1361–1403',
     epocha: 'stredovek',
     oblast: 'ceske-zeme',
     kategorie: 'osobnost',
     titulek: 'Pražský hodinář Martin',
     popis:
-      'Soudní akt pražské konsistoře z roku 1379 zachycuje spor hodináře (orlogisty) Martina s kanovníkem ' +
-      'Janem Tostem — nejstarší jmenovitě doložený pražský hodinář.',
-    zdroj: 'Tadra 1896 — Soudní akta konsistoře pražské III, s. 343',
+      'Nejstarší jmenovitě doložený pražský hodinář — Martin „horologista, orlogiator, magister orlogii", ' +
+      'titulovaný také jako „Orologiator imperatoris" (= dvorní hodinář Karla IV.). Roku 1361 koupil dům ' +
+      'č. 39/I a další dům v Plathnergasse od malíře Jaxy. 1362 prodal dům ve Valentinerově ulici zámečníkovi ' +
+      'Tomášovi, který také vyráběl hodiny. Roku 1379 ho zachycuje soudní akt pražské konsistoře ve sporu ' +
+      's kanovníkem Janem Tostem. Zemřel před rokem 1403, kdy se jeho dům uvádí jako „olim Martini Horologistae".',
+    zdroj: 'Tomek — Základy starého místopisu Pražského, Rejstřík osobních jmen, s. 92; Tadra 1896 — Soudní akta konsistoře pražské III, s. 343; Fischer 1966 — Die Uhrmacher in Böhmen und Mähren',
     bibKey: 'tadraSoudniAktaKonsistore',
     zoteroKey: 'CGCLGE2L',
   },
@@ -989,23 +1026,53 @@ export const milniky: Milnik[] = [
     zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
   },
   {
+    id: 'praha-albert-1400',
+    rok: 1400,
+    rokText: '1400–1420',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    titulek: 'Albertus horologista, corrector Staroměstského orloje',
+    popis:
+      'Pražský měšťan Albertus horologista („corrector orlogii", „orlojnik") doložený mezi roky ' +
+      '1400 a 1420 jako správce hodin (corrector horologii) na věži staroměstské radnice. Patřil ' +
+      'k nejmajetnějším pražským měšťanům — vlastnil současně až čtyři domy a držel hypotekární ' +
+      'pohledávky na řadě dalších, k jeho domu patřily i lázně. Po smrti hodináře Jana se stal ' +
+      'poručníkem jeho sirotka Barbory. Zemřel před rokem 1415. Albertův úřad spravce staroměstského ' +
+      'orloje připravil půdu nástupci Mikuláši z Kadaně (dvorní hodinář Václava IV., konstruktér ' +
+      'Staroměstského orloje 1410).',
+    slovnik: 'orlojnik',
+    zdroj: 'Tomek — Základy starého místopisu Pražského, Rejstřík osobních jmen, s. 2 („Albertus horologista, corrector orlogii, orlojnik: 1400–1420"); Pátková 2008 — Berní knihy Starého Města Pražského 1427–1434, s. 283 („Albertus horologista, balneum eius")',
+    bibKey: 'tadraSoudniAktaKonsistore',
+    zoteroKey: 'CGCLGE2L',
+  },
+  {
     id: 'prazsky-orloj-1410',
     rok: 1410,
-    rokText: '1410',
+    rokText: '9. 10. 1410',
     epocha: 'stredovek',
     oblast: 'ceske-zeme',
     kategorie: 'monument',
     ikona: 'star',
     titulek: 'Vznik staroměstského orloje',
     popis:
-      'Pražský orloj sestrojil roku 1410 hodinář Mikuláš z Kadaně podle astronomických propočtů mistra ' +
-      'Jana Šindela — nejstarší orloj na světě, který je dodnes v chodu.',
+      'Listina staroměstské rady ze 9. října 1410 stanoví odměnu hodináři Mikulášovi z Kadaně za ' +
+      'zhotovení orloje: dům u Havelské brány do trvalého vlastnictví (s následnou stavební ' +
+      'investicí na jeho rozšíření, hrazenou samotným Mikulášem), roční plat 600 grošů a záruku ' +
+      '3000 grošů pro dědice v případě, že by město dům jednou odkoupilo. Astronomické výpočty ' +
+      'orloje jsou tradičně přičítány královskému lékaři a astronomu Janu Šindelovi (dle Horského ' +
+      '1988); listina z 1410 jeho účast však přímo nedokládá a jméno spolupracujícího astronoma ' +
+      'v ní není uvedeno. Originál listiny se nedochoval; zachoval se opis pořízený radničním ' +
+      'písařem roku 1628 v rámci konvolutu „Zpráva o Staroměstském orloji a další písemnosti ' +
+      'spojené s orlojem" (1587–1642), uloženého dnes v Archivu hlavního města Prahy ve Sbírce ' +
+      'úředních knih a rukopisů pod signaturou 7916. Opis objevil a edičně zpracoval Stanislav ' +
+      'Macháček (1962). Jedná se o nejstarší astronomický orloj na světě, který je dodnes v chodu.',
     clanek: 'muzeum-kadan-orloj',
     slovnik: 'orloj',
     externalUrl: 'https://orloj.eu',
-    zdroj: 'Skála 2016 — Nový pohled na hypotézu o účasti Jana Šindela',
-    bibKey: 'skalaNovyPohledNa2016',
-    zoteroKey: 'XRH6Z8SX',
+    zdroj: 'Macháček, Stanislav: „Nález nové zprávy o vzniku orloje na Starém Městě v Praze", Časopis Společnosti přátel starožitností 70 (1962), s. 159–161; týž: „Nález zprávy o vytvoření orloje Starého Města r. 1410", Zprávy Komise pro dějiny přírodních, lékařských a technických věd ČSAV 1962, č. 10. Primární pramen: opis z roku 1628 v Archivu hlavního města Prahy, Sbírka úředních knih a rukopisů, sign. 7916 (Zpráva o Staroměstském orloji a další písemnosti, 1587–1642). K atribuci Jana Šindela srov. Horský, Zdeněk: Pražský orloj. Praha: Panorama, 1988 (Edice Pragensia).',
+    bibKey: 'machacekNalezNoveZpravy1962',
+    zoteroKey: 'T6CF9YYH',
   },
   {
     id: 'jihlava-1420',
@@ -1022,16 +1089,79 @@ export const milniky: Milnik[] = [
     zoteroKey: 'B83MDE9K',
   },
   {
+    id: 'martin-unicov-1415',
+    rok: 1415,
+    rokText: '1415–1424',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    titulek: 'Martin z Uničova — filiaster a dědic Alberta hodináře',
+    popis:
+      'Roku 1415 přebírá pražský hodinář Albert (corrector Staroměstského orloje) — staroměstská ' +
+      'kniha trhových (stm. 86) zachycuje, jak „Martinus de Vnyhowa filiaster olim Alberti ' +
+      'horlogistze publicat" (Martin z Uničova/Mährisch Neustadt, Albertův nevlastní syn či zeť, ' +
+      'veřejně přebírá jeho dům). Albertova dílna včetně přilehlých lázní (stuba balnealis, doloženo ' +
+      'k 1417) tak přechází na moravsko-pražskou rodinu. K roku 1424 (stm. 231) je Martin uveden ' +
+      'jako „Martini horologista" — pokračovatel řemesla. Doklad mezigeneračního přenosu pražského ' +
+      'hodinářství i propojení mezi Prahou a moravským Uničovem.',
+    slovnik: 'orlojnik',
+    zdroj: 'Tomek — Základy starého místopisu Pražského I, Staré Město Pražské, s. 46 (stm. 74, 86; 1415); s. 58 (stm. 87 + 158, 1417); s. 46 (stm. 231, 1424)',
+    bibKey: 'tadraSoudniAktaKonsistore',
+    zoteroKey: 'CGCLGE2L',
+  },
+  {
+    id: 'wenceslaus-horologista-1433',
+    rok: 1433,
+    rokText: '1433, 1436',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    titulek: 'Wenceslaus horologista',
+    popis:
+      'Václav (Wenceslaus) horologista — pražský hodinář doložený v městských knihách Starého Města ' +
+      'pražského k rokům 1433 (kniha 166, č. 654c) a 1436 (kniha 167). Patří k řadě pražských hodinářů ' +
+      'činných v období mezi vznikem Staroměstského orloje (1410) a jeho generální opravou mistra ' +
+      'Hanuše z Růže (kolem 1490).',
+    slovnik: 'orlojnik',
+    zdroj: 'Tomek — Základy starého místopisu Pražského, Rejstřík osobních jmen, s. 162 („Wenceslaus horologista 1433 št. 166 č. 654c, 1436 st. 167")',
+    bibKey: 'tadraSoudniAktaKonsistore',
+    zoteroKey: 'CGCLGE2L',
+  },
+  {
+    id: 'praha-jeronimus-1450',
+    rok: 1450,
+    rokText: 'kolem 1450',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    titulek: 'Jeronimus horologista — nový pražský měšťan',
+    popis:
+      'Mistr hodinář **Jeroným** (Jeronimus) horologista získává staroměstské měšťanství kolem ' +
+      'poloviny 15. století. Jeho přijetí zaznamenává městská kniha staroměstské Prahy do dne *„feria V ' +
+      'post Nativitatis Mariae"* (čtvrtek po Narození Panny Marie), za purkmistrování Jana Pražáka ' +
+      '(„Johanne Prazak mag. civ."). Jeden z řady pražských hodinářů 15. století zapsaných v ' +
+      'měšťanských matrikách (společně s Vítem pekařem, Jakubem pekařem a dalšími).',
+    slovnik: 'orlojnik',
+    zdroj: 'Teige — Seznamy měšťanů Pražských I,3, Staré Město 1438–1490, s. 133',
+    bibKey: 'tadraSoudniAktaKonsistore',
+    zoteroKey: 'CGCLGE2L',
+  },
+  {
     id: 'mistr-hanus-1490',
     rok: 1490,
     rokText: 'kolem 1490',
     epocha: 'stredovek',
     oblast: 'ceske-zeme',
     kategorie: 'osobnost',
-    titulek: 'Mistr Hanuš (Jan Růže) obnovuje orloj',
+    titulek: 'Mistr Hanuš (Jan Růže) — generální oprava orloje',
     popis:
-      'Orlojník Jan Růže zvaný mistr Hanuš přestavěl staroměstský orloj a doplnil kalendáriovou desku; ' +
-      's jeho jménem je spjata pověst o oslepení tvůrce.',
+      'Orlojník Jan Růže zvaný mistr Hanuš provedl při přestavbě staroměstské radnice generální ' +
+      'opravu orloje. O orloj pečoval spolu se svým pravděpodobným synem Jakubem Čechem. Dlouhou ' +
+      'dobu — od pozdního středověku až do druhé poloviny 19. století — byl Hanuš na základě ' +
+      'pozdějších zápisů (mj. svědectví Jana Táborského) tradičně považován za autora celého orloje; ' +
+      'tuto atribuci vyvrátil teprve nález Macháčkovy listiny z 1410 (AHMP sign. 7916), která ' +
+      'autorství vrátila Mikulášovi z Kadaně. S Hanušovým jménem je dodnes spjata Jiráskova pověst ' +
+      'o oslepení tvůrce.',
     externalUrl: 'https://orloj.eu',
     zdroj: 'Šíma 2009 — Za tajemstvím pražského orloje',
     bibKey: 'simaZaTajemstvimPrazskeho',
@@ -1351,6 +1481,25 @@ export const milniky: Milnik[] = [
     zoteroKey: 'HLAQ5V8P',
   },
   {
+    id: 'balbin-orloj-1681',
+    rok: 1681,
+    rokText: '1681',
+    epocha: 'novovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'monument',
+    titulek: 'Balbínova kapitola o orloji — první tištěná práce o pražském orloji',
+    popis:
+      'V Liber III. Decadis I. Miscellaneorum historicorum Regni Bohemiae (Praha 1681) jezuita Bohuslav ' +
+      'Balbín otiskl v kapitole „Admirandum, et rarum opus, Horologium" první samostatnou tištěnou ' +
+      'studii o staroměstském orloji. Text je de facto zkráceným latinským přepisem Táborského ' +
+      '„Zprávy o orloji pražském" (1570), doplněným o technický popis stroje od Balbínova ' +
+      'řádového spolubratra Benjamina Šlajera (Schleyer, †1684), matematika klementinské koleje. ' +
+      'Tištěnou formou tak orloj poprvé vstoupil do evropské učené literatury.',
+    externalUrl: 'https://orloj.eu',
+    zdroj: 'Balbín, Bohuslav: Liber III. Decadis I. Miscellaneorum historicorum Regni Bohemiae, cap. „Admirandum, et rarum opus, Horologium". Praha: Georgius Czernoch, 1681.',
+    bibKey: 'balbinAdmirandumRarumOpus1681',
+  },
+  {
     id: 'prazsky-cech-1705',
     rok: 1705,
     rokText: '1705',
@@ -1373,9 +1522,18 @@ export const milniky: Milnik[] = [
     epocha: 'novovek',
     oblast: 'ceske-zeme',
     kategorie: 'monument',
-    titulek: 'První tištěný popis pražského orloje',
+    titulek: 'Teicherův tištěný popis pražského orloje',
     popis:
-      'Andreas Gabriel Teicher vydal roku 1735 v němčině podrobný popis a návod k řízení staroměstského orloje.',
+      'Andrea Gabriel Teicher, rodák z Oseka, vydal roku 1735 v Praze (Königs-Hof, tiskárna Mathia ' +
+      'Adam Höger) v němčině popis staroměstského orloje spojený s praktickým návodem pro orlojníka ' +
+      '(„Unterricht für denjenigen, der die Uhr richtet"). Postupně vykládá pohyblivý český kruh, ' +
+      'dvojí německý kruh, sluneční dráhu se třemi kruhy (Cancri, Aequator, Capricorni), zemský ' +
+      'glóbus uprostřed s nápisem Praga, světlou a tmavou polovinu číselníku (s Crepusculum a ' +
+      'Aurora), sluneční i měsíční ručku, planetární („židovské") hodiny, planetární tabuli na zdi ' +
+      'a kalendářovou desku pod orlojem. Knihu doprovází skládaná mědirytinová tabule s Figurou I ' +
+      '(astronomický číselník) a Figurou II (zvěrokruh s ručkami), kterou ryl pražský rytec Hiller ' +
+      '(„Hiller Sculp. Pragae"); planetní tabuli má v textu jako dřevořez.',
+    clanek: 'teicher-1735-popis-orloje',
     externalUrl: 'https://orloj.eu',
     zdroj: 'Teicher 1735 — Beschreibung des Kunst-reichen Uhr-Wercks',
     bibKey: 'andreagabrielteicherBeschreibungKunstreichenUhrWercks1735',
