@@ -15,7 +15,7 @@ tldr: 'Přehled způsobů osvětlení hodin od plynového podsvícení číseln�
 
 Na začátku tohoto povídání je nový přírůstek mé sbírky - **svítící hodiny** či snad osvětlovací těleso s hodinami **Watch the light od firmy Massive** (katalogové číslo 80999/22/47). Svítidlo používá dvě úsporné "žárovky" do maximálního výkonu 2x9W. Ve středu skleněného stínidla je krystalový hodinový bateriový strojek. Osvětlovací těleso je pro malý světelný výkon použitelné spíše jako dekorační či noční osvětlení. Hodiny dával výrobce jako dárek. Dnes se již nevyrábí.
 
-*Hodinymě docela zaujaly a začal jsem pátrat, jak to s osvětlováním hodin, zejména veřejných, vlastně je. Svítících hodin je kolem nás možná víc, než si uvědomujeme. Svítí, nebo jsou osvětleny ciferníky věžních hodin. Na ulicích svítí mnoho hodin, většinou reklamních. K vidění jsou tu a tam i svítící "neonové" hodiny. Ani doma nás svítící hodiny neopouštějí. Setkáváme se tu s mnoha typy těchto hodin-od fluoreskujících ciferníků starých budíku či hodinek, po svítící digitální hodiny, které nalezneme i na předmětech "zcela nehodinových", jako je mikrovlnka či satelit. I fujtajblové šantánové lucerničky svítí v hodinových hotelech. Čím dál víc k hodinám světlo patří. Vnucují nám myšlenku, že čas **utíká rychlostí světla.***
+*Hodinymě docela zaujaly a začal jsem pátrat, jak to s osvětlováním hodin, zejména veřejných, vlastně je. Svítících hodin je kolem nás možná víc, než si uvědomujeme. Svítí, nebo jsou osvětleny číselníky věžních hodin. Na ulicích svítí mnoho hodin, většinou reklamních. K vidění jsou tu a tam i svítící "neonové" hodiny. Ani doma nás svítící hodiny neopouštějí. Setkáváme se tu s mnoha typy těchto hodin-od fluoreskujících číselníků starých budíku či hodinek, po svítící digitální hodiny, které nalezneme i na předmětech "zcela nehodinových", jako je mikrovlnka či satelit. I fujtajblové šantánové lucerničky svítí v hodinových hotelech. Čím dál víc k hodinám světlo patří. Vnucují nám myšlenku, že čas **utíká rychlostí světla.***
 
 [![Big Ben](/img/elektrika/svitici/bigben1_m.jpg)](/img/elektrika/svitici/bigben1.jpg)
 
@@ -27,15 +27,15 @@ Na začátku tohoto povídání je nový přírůstek mé sbírky - **svítící
 
 Začněme u svítícího číselníku hodinové věže Westminsterského opatství v Londýně, které se podle známého zvonu, obvykle říká **Big Ben**. Podle informací ve [Wikipedii](http://cs.wikipedia.org/wiki/Big_Ben)*"Hodiny na věži byly ve své době největšími hodinami světa a jsou schopny odbít první úder každou celou hodinu s přesností jedné sekundy.* *Mechanismus hodin byl dokončen roku 1854, ale vlastní věž byla dokončena až několik let poté.*
 
-Vzhl*ed hodinových ciferníků je dílem Augusta Pugina. Jsou tvořeny kovovou konstrukcí nesoucí 312 kusů opálového skla podobného obarvenému oknu. Některé skleněné kusy mohou být odejmuty pro případ opravy ručiček."*
+Vzhl*ed hodinových číselníků je dílem Augusta Pugina. Jsou tvořeny kovovou konstrukcí nesoucí 312 kusů opálového skla podobného obarvenému oknu. Některé skleněné kusy mohou být odejmuty pro případ opravy ručiček."*
 
 Detailní obrázek číselníku ukazuje na jisté problémy s údržbou prosvětlovaných číselníků. Špína na okně je holt víc vidět. Obrázek zároveň ukazuje rozměr číselníku v porovnání s lidskou postavou. Pro upřesnění rozměrů dodejme, že hodinová ručička je dlouhá 2,7 m a minutová 4,3 m.
 
 Svítily a již opět svítí i číselníky Staroměstské radnice
 
-Po velké opravě pražského orloje v roce 1865 byly změněny boční číselníky. *Ciferníky byly z matného skla a byly v noci zezadu osvětlovány plynovými hořáky. Byly to svým způsobem prvé svítící hodiny v Praze. Jediné co mohlo být diskutabilní, zda připojení tohoto novodobého doplňku bylo k starobylému orloji dosti citlivé. Dnes ciferníky večer a v noci nesvítí a je to tak lépe,* píše Zdeněk Horský v knize "Pražský orloj".
+Po velké opravě pražského orloje v roce 1865 byly změněny boční číselníky. *Ciferníky byly z matného skla a byly v noci zezadu osvětlovány plynovými hořáky. Byly to svým způsobem prvé svítící hodiny v Praze. Jediné co mohlo být diskutabilní, zda připojení tohoto novodobého doplňku bylo k starobylému orloji dosti citlivé. Dnes číselníky večer a v noci nesvítí a je to tak lépe,* píše Zdeněk Horský v knize "Pražský orloj".
 
-Situace se trochu změnila. Na stránkách praha.eu jsme se 25.2.2008 dočetli, že "Zatímco se instalovaly sochy na orloj, pracovníci magistrátu vyměňovali žárovky u postranních číselníků, které jsou z leptaného skla. *„**Žárovky, které ciferníky podsvěcují, už nebyly funkční. Protože má ale klíč jen orlojník pan Zámečník, počkali jsme na instalaci soch,* ![věžní hodiny na Jezuitské koleji v Kutné Hoře — dodatečně namontované vnější osvětlení reflektory na tyčích pod číselníky („obludoosvětlení" po restaurování)](/img/elektrika/svitici/osvetleni_KHora.jpg) *abychom mohli osvětlení zprovoznit,“*
+Situace se trochu změnila. Na stránkách praha.eu jsme se 25.2.2008 dočetli, že "Zatímco se instalovaly sochy na orloj, pracovníci magistrátu vyměňovali žárovky u postranních číselníků, které jsou z leptaného skla. *„**Žárovky, které číselníky podsvěcují, už nebyly funkční. Protože má ale klíč jen orlojník pan Zámečník, počkali jsme na instalaci soch,* ![věžní hodiny na Jezuitské koleji v Kutné Hoře — dodatečně namontované vnější osvětlení reflektory na tyčích pod číselníky („obludoosvětlení" po restaurování)](/img/elektrika/svitici/osvetleni_KHora.jpg) *abychom mohli osvětlení zprovoznit,“*
 
 řekl energetik hospodářské správy magistrátu Jiří Ježek. Číselníky budou svítit denně od 16 do 8 hodin."
 

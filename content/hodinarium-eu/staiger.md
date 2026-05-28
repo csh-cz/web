@@ -28,7 +28,7 @@ Tropickou polohu Slunce odečítáme na trojité stupnici (kalendář, znamení 
 
 Nejdůležitější údaje tohoto číselníku jsou doby východů a západů. Bohužel ty jsou závislé na lokalitě, kterou asi nelze nastavit. Platí pro město Kassel, tedy pro polohu 51.32 N a 9.49 E. Alespoň pro přibližně stejnou severní šířku lze východní délku přepočítávat konstantou 4 minuty na stupeň.
 
-Na fotografii je zachycen stav přibližně 3. dubna. Slunce je ve znamení Berana a v souhvězdí Ryb. Dobu východu Slunce čteme proti šipce „v pozici 12”. Udávaná hodnota je cca 5:50, což odpovídá skutečnému východu Slunce v dané lokalitě a v tento den bez uvažování letního času. Západ Slunce čteme pod šipkou „v pozici 6 normálního poloorlojního ciferníku”. Západ Slunce v dané lokalitě a v daný den je v 18:59.
+Na fotografii je zachycen stav přibližně 3. dubna. Slunce je ve znamení Berana a v souhvězdí Ryb. Dobu východu Slunce čteme proti šipce „v pozici 12”. Udávaná hodnota je cca 5:50, což odpovídá skutečnému východu Slunce v dané lokalitě a v tento den bez uvažování letního času. Západ Slunce čteme pod šipkou „v pozici 6 normálního poloorlojního číselníku”. Západ Slunce v dané lokalitě a v daný den je v 18:59.
 
 Technicky je tento číselník poměrně jednoduchý a vtipný. Strojek otočí ručičku Slunce jednou za tropický rok. Společně s ručičkou se otáčejí dva nelineární číselníky východů a západů Slunce. Číselníky se otáčejí rovnoměrně, avšak na nich vynesené hodnoty reprezentují doby odvozené od reálného pohybu Slunce. Je to jednoduché řešení toho, jak zobrazovat nelineární závislost rovnoměrným pohybem stroje.
 

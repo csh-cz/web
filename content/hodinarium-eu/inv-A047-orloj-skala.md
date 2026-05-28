@@ -27,7 +27,7 @@ karta:
 thumbnail: '/img/vezni/047d-orloj-skala.jpg'
 ---
 
-::photo{src="/img/vezni/047d-orloj-skala.jpg" alt="nástěnný malovaný orloj Petra Skály a Miroslava Kotrby v expozici Hodinária — kruhový ciferník s malovanou krajinou s hradem, zlatá kalendářová deska a astronomické ukazatele, vlevo částečně viditelný strojní pohon" author="Stanislav Marušák"}
+::photo{src="/img/vezni/047d-orloj-skala.jpg" alt="nástěnný malovaný orloj Petra Skály a Miroslava Kotrby v expozici Hodinária — kruhový číselník s malovanou krajinou s hradem, zlatá kalendářová deska a astronomické ukazatele, vlevo částečně viditelný strojní pohon" author="Stanislav Marušák"}
 
 ::photo{src="/img/vezni/047a-orloj-skala.jpg" alt="nástěnný malovaný orloj sochaře Petra Skály a malíře Miroslava Kotrby (2002–2015) — pohled na rohatkové soukolí převzaté z litomyšlského orloje (Karel Adamec z Čáslavi, 1907), upravené pro přesnější převod na měsíční ručku" author="Miroslav Baudisch"}
 

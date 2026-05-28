@@ -40,11 +40,11 @@ Myšlenka nového časového symbolu se dále rozvíjela a mimo jiné se stala v
 
 *Časová symbolika – pod tímto pracovním názvem se skrývá autorský návrh nových hodin od Ondreje Mazana. Jeho principem je kombinace přesného digitálního číselníku s upravenou verzí – variantou ke klasické 12–hodinové stupnici. Tato stupnice je na rozdíl od té, která se používá u ručičkových hodin, dělena na 24 hodin. Je eliptická (tvořena dvěma kruhovými úseky o stejném poloměru a rozdělena na čtyři segmenty pro časové úseky dne (0 až 6, 6 až 12, 12 a 18 a 18 až 24 hodin).*
 
-*Ukazatelem hodinového času je jen jeden symbol, kterým je (podle období dne) Slunce nebo Měsíc, který se pohybuje po vnějším obvodu ciferníku – hodinové stupnice. Při její eliptickém tvaru se časový údaj lépe fixuje i při periferním vidění.*
+*Ukazatelem hodinového času je jen jeden symbol, kterým je (podle období dne) Slunce nebo Měsíc, který se pohybuje po vnějším obvodu číselníku – hodinové stupnice. Při její eliptickém tvaru se časový údaj lépe fixuje i při periferním vidění.*
 
-*Další částí ciferníku jsou indexy východu západu Slunce – dvě vodorovníé čáry, jejichž poloha se odvozuje od kalendářního data a geografické polohy uživatele. V extrémních případech, jako u polárních oblastí, kde se vyskytují polární dny a noci, tyto indexy splývají v jeden – mizí. Když se ukazatel času nachází nad nimi, má podobu Slunce, protože se nachází nad horizontem. **Proto se tyto indexy nazývají také horizonty.** Když Slunce zapadá ve skutečnosti, tento západ probíhá i na této hodinové stupnici. – plynule se mění na symbol Měsíce a při východu opět na symbol sSunce.*
+*Další částí číselníku jsou indexy východu západu Slunce – dvě vodorovníé čáry, jejichž poloha se odvozuje od kalendářního data a geografické polohy uživatele. V extrémních případech, jako u polárních oblastí, kde se vyskytují polární dny a noci, tyto indexy splývají v jeden – mizí. Když se ukazatel času nachází nad nimi, má podobu Slunce, protože se nachází nad horizontem. **Proto se tyto indexy nazývají také horizonty.** Když Slunce zapadá ve skutečnosti, tento západ probíhá i na této hodinové stupnici. – plynule se mění na symbol Měsíce a při východu opět na symbol sSunce.*
 
-*Časový údaj udávaný tímto ukazatelem je zčásti jen informativní, proto je podle potřeby doplněný přesným digitálním údajem uvnitř ciferníku. Tady je možné umístnit i různé doplňkové informace jako datum, kalendář a podobně.*
+*Časový údaj udávaný tímto ukazatelem je zčásti jen informativní, proto je podle potřeby doplněný přesným digitálním údajem uvnitř číselníku. Tady je možné umístnit i různé doplňkové informace jako datum, kalendář a podobně.*
 
 *Na rozdíl od klasických 12-hodinových dovedeme získat z těchto hodin více informací. Z analogové stupnice můžeme odečíst informativ, zda je právě zaveden letní čas.*
 
