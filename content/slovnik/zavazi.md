@@ -91,6 +91,15 @@ V češtině do konce 19. století fungoval **„závaž" / „váha"** jako syn
 > „**weight** n. **poids** n. m. **Gewicht** n. Result of the action of gravity upon a body. The weight of a body varies with its geographical position. … **driving weight**: weight used to supply drive power. A weight-driven clock. **auxiliary weight**: small calibrated weight placed on the tray of a pendulum to alter its period. **cursor weight**: weight that slides on the rod of a pendulum. Small displacements alter its period. **Device invented by Huygens in 1661**."
 > — BERNER, G.-A. *Illustrated Professional Dictionary of Horology.* Federation of the Swiss Watch Industry (FH). Online: dictionary.fhs.swiss (heslo „weight" ID 2636).
 
+> „**Závaží je nejstarším a nejspolehlivějším druhem hnací síly, který působí dokonale rovnoměrně.** U prvních hodinových strojů to byl kámen zavěšený na laně, které se navíjelo na válcovou část hnacího kola."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965, s. 100.
+
+> „Jako hnací síly pro hodiny se používá: a) **závaží** (tj. hnací síly břemene), b) **pružiny** (tj. hnacího pera namáhaného na ohyb), c) **síly elektromagnetické** (pro speciální druhy hodin)."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965, s. 100 (kap. *Hnací ústrojí*).
+
+> „**Kyvadla přesných hodin mají v cit­livém místě (uprostřed činné délky) připevněn malý talířek, na nějž se pokládají lehká závažíčka pro vyrovnání nepatrných odchylek chodu.** Přidání tenkého plíšku o hmotě třeba jen 0,2 gramu přivodí zrychlení denního chodu hodin, i když vlastní čočka je 6 až 7 kg těžká."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (závažíčko = Bernerův *auxiliary weight*).
+
 ## Obrázky
 
 *(zatím chybí — návrh: foto závaží z věžního stroje Hodinária, schéma navíjení lana na buben)*

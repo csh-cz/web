@@ -78,6 +78,15 @@ Tj. v 1900 byly v Praze (Klementinum) a Karlíně (vojenská invalidovna) instal
 > „Spravovák → Regulator"
 > — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Spravov-ací.
 
+> „**Regulátor chodu je nejdůležitějším orgánem hodinového stroje. Jeho úkolem je pravidelnými kyvy rozměřovat čas — je tedy vlastním měřidlem času.** Úkolem kroku je uvolňovat soukolí hodinového stroje v rytmu kyvů regulátoru a udělovat regulátoru zase impulsy z hnacího ústrojí."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965, s. 49 + 83 (kap. 2 *Regulátor chodu*).
+
+> „**Regulátor chodu udržuje pravidelné zahrazování soukolí krokem, dodává stroji přesnost a pravidelnost chodu.**"
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965, s. 80.
+
+> „Pod pojmem **regulace hodin** si představujeme úpravu těch částí hodin, které mají vliv na přesnost chodu stroje. U kyvadlových hodin je to hlavně kyvadlo a u setrvačkových strojů setrvačka a vlásek, tedy **regulátor chodu**. **Regulátor chodu není však jediným mechanismem, na němž závisí přesnost chodu hodin**, neboť sám je pod vlivem hnací síly pera nebo závaží, pod vlivem funkce kroku, teploty, tření a dalších činitelů."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965, s. 260 (regulace hodin).
+
 ## Obrázky
 
 *(zatím chybí — návrh: regulátor z Klementina 1900, schéma vteřinového roštového kyvadla)*
