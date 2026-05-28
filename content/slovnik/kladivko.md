@@ -2,18 +2,49 @@
 title: kladívko
 slug: kladivko
 kategorie: bici
+varianty:
+  - term: kladívko
+    status: preferred
+    note: 'Moderní cs odborný úzus (Sladkovský 1947, Bureš 1965, MR 1964) — deminutiv k „kladivo" pro úderník bicího stroje.'
+  - term: kladivo
+    status: archaic
+    note: 'Staročes. orlojový termín (Táborský 1570) pro vnější úderník na zvon ve věži — funkčně totéž co moderní „kladívko", liší se měřítkem (Táborský: velký kostelní zvon).'
+    doloženo: 'Táborský 1570; Špatný 1882 (Hammer → kladivo)'
+  - term: bicí kladívko
+    status: preferred
+    note: 'Plný cs termín — explicitní označení úderné funkce.'
 prekladyDe:
   - term: Hammer
     genus: m
+    zdroj: 'Špatný 1882: Hammer → kladivo / kleiner Hammer → kladívko'
+  - term: Schlaghammer
+    genus: m
+    zdroj: 'DE — bicí kladivo'
+  - term: Glockenhammer
+    genus: m
+    zdroj: 'DE — zvonové kladivo (specificky věžní)'
 prekladyEn:
   - term: hammer
+    zdroj: 'EN obecný — kladívko / kladivo'
+  - term: bell hammer
+    zdroj: 'EN — zvonové kladivo'
+  - term: striking hammer
+    zdroj: 'EN — bicí kladivo'
 prekladyFr:
   - term: marteau
     genus: m
-definice: "Páková součást bicího stroje, která je periodicky zvedána kolíčky zdvihacího kola a po uvolnění udeří na cymbál (zvon, gong nebo cinkavý drát)."
+  - term: marteau de cloche
+    genus: m
+    zdroj: 'FR — zvonové kladivo'
+  - term: marteau de sonnerie
+    genus: m
+    zdroj: 'FR — bicí kladivo'
+definice: 'Páková součást bicího stroje, která je periodicky zvedána kolíčky zdvihacího kola a po uvolnění udeří na cymbál (zvon, gong nebo cinkavý drát). Staročes. ekvivalent (Táborský 1570): „kladivo" pro vnější úderník na velký kostelní zvon — viz dříve samostatné heslo [kladivko-orloje](/slovnik/kladivko-orloje) (redirect).'
 pribuzne:
   - bici-stroj
   - cymbal
+  - zvon-orloje
+  - palice-orloje
 ---
 
 ## Výklad
@@ -48,6 +79,9 @@ U **opakovacích hodinek** (Taschen­repetiruhren) bývá **opěrák kladívka**
 
 > „**Kladívko musí mít přesně určenou tíhu a délku páky** — tíha určuje sílu úderu (a tím hlasitost zvuku), délka páky určuje rychlost dopadu a tím i jasnost zaznění. **Příliš lehké kladívko zní mdle, příliš těžké tlumí vlastní rezonanci zvonu.**"
 > — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 5 *Bicí stroj*, konstrukce kladívka).
+
+> „Vyzdvihne kladivo neb palici v té straně třetí tam nahoře na věži."
+> — TÁBORSKÝ Z KLOKOTSKÉ HORY, Jan. *Zpráva o Staroměstském orloji.* 1570 (staročes. „kladivo" = vnější úderník na velký zvon ve věži; rozlišuje od „palice" = vnitřní spouštěcí prvek). Rukopis AHMP, fond 3, sign. 1867. Edice J. Teige, Praha 1901.
 
 ## Obrázky
 

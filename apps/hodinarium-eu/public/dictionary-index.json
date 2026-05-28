@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "generated": "2026-05-28T20:50:07.806Z",
+    "generated": "2026-05-28T20:56:58.954Z",
     "count": 217,
     "stubs": 75,
-    "redirects": 13,
+    "redirects": 14,
     "withConceptId": 56,
     "withVyznamy": 1,
     "withAtestace": 1,
@@ -3364,7 +3364,7 @@
       "redirectTo": null
     },
     "kladivko-orloje": {
-      "lemma": "kladivo (bicí kladívko)",
+      "lemma": "kladivo (orlojní)",
       "lang": "cs",
       "conceptId": null,
       "kategorie": "bici",
@@ -3372,13 +3372,38 @@
         {
           "term": "kladivo",
           "status": "archaic",
-          "note": "Staročes. orlojový termín (Táborský 1570) pro vnější úderník na zvon ve věži (oproti „palici\" = vnitřní spouštěcí prvek).",
+          "note": "Staročes. orlojový termín (Táborský 1570) pro vnější úderník na zvon ve věži. Funkčně totéž co moderní [kladívko](/slovnik/kladivko); rozdíl je v měřítku (zvon kostelní × cymbál interiérový) a v terminologii (Táborského deminutiv „kladivko\" pro vnitřní spouštěcí — viz [palice](/slovnik/palice-orloje)).",
           "doloženo": "Táborský 1570"
-        },
+        }
+      ],
+      "translations": {},
+      "definice": "Staročeský orlojový termín (Táborský 1570) pro **vnější úderník na zvon ve věži**. **V moderní češtině se nepoužívá** — používá se [kladívko](/slovnik/kladivko) (jednotně pro úderník na cymbál i zvon). Táborský explicitně rozlišuje *kladivo* (vnější úderník) od *palice* (vnitřní spouštěcí prvek) — viz [palice (orlojní)](/slovnik/palice-orloje).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kladivko",
+        "palice-orloje",
+        "zvon-orloje"
+      ],
+      "isStub": true,
+      "redirectTo": "kladivko"
+    },
+    "kladivko": {
+      "lemma": "kladívko",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "bici",
+      "varianty": [
         {
           "term": "kladívko",
           "status": "preferred",
-          "note": "Moderní cs hodinářský termín — viz hlavní heslo [kladívko](/slovnik/kladivko)."
+          "note": "Moderní cs odborný úzus (Sladkovský 1947, Bureš 1965, MR 1964) — deminutiv k „kladivo\" pro úderník bicího stroje."
+        },
+        {
+          "term": "kladivo",
+          "status": "archaic",
+          "note": "Staročes. orlojový termín (Táborský 1570) pro vnější úderník na zvon ve věži — funkčně totéž co moderní „kladívko\", liší se měřítkem (Táborský: velký kostelní zvon).",
+          "doloženo": "Táborský 1570; Špatný 1882 (Hammer → kladivo)"
         },
         {
           "term": "bicí kladívko",
@@ -3389,9 +3414,14 @@
       "translations": {
         "de": [
           {
+            "term": "Hammer",
+            "genus": "m",
+            "zdroj": "Špatný 1882: Hammer → kladivo / kleiner Hammer → kladívko"
+          },
+          {
             "term": "Schlaghammer",
             "genus": "m",
-            "zdroj": "DE — bicí kladivo (Špatný 1882: Hammer-, Schlag-)"
+            "zdroj": "DE — bicí kladivo"
           },
           {
             "term": "Glockenhammer",
@@ -3400,6 +3430,10 @@
           }
         ],
         "en": [
+          {
+            "term": "hammer",
+            "zdroj": "EN obecný — kladívko / kladivo"
+          },
           {
             "term": "bell hammer",
             "zdroj": "EN — zvonové kladivo"
@@ -3410,6 +3444,10 @@
           }
         ],
         "fr": [
+          {
+            "term": "marteau",
+            "genus": "m"
+          },
           {
             "term": "marteau de cloche",
             "genus": "m",
@@ -3422,48 +3460,14 @@
           }
         ]
       },
-      "definice": "Bicí kladivo — úderník zvonu věžních hodin. Táborský používá synonymně s *palicí*, ale rozlišuje *kladivo* primárně pro vnější úderník na zvonu (na věži) a *palici* pro vnitřní spouštěcí prvek bicího ústrojí.",
-      "vyznamy": null,
-      "atestace": null,
-      "pribuzne": [
-        "palice-orloje",
-        "zvon-orloje",
-        "kladivko"
-      ],
-      "isStub": true,
-      "redirectTo": null
-    },
-    "kladivko": {
-      "lemma": "kladívko",
-      "lang": "cs",
-      "conceptId": null,
-      "kategorie": "bici",
-      "varianty": [],
-      "translations": {
-        "de": [
-          {
-            "term": "Hammer",
-            "genus": "m"
-          }
-        ],
-        "en": [
-          {
-            "term": "hammer"
-          }
-        ],
-        "fr": [
-          {
-            "term": "marteau",
-            "genus": "m"
-          }
-        ]
-      },
-      "definice": "Páková součást bicího stroje, která je periodicky zvedána kolíčky zdvihacího kola a po uvolnění udeří na cymbál (zvon, gong nebo cinkavý drát).",
+      "definice": "Páková součást bicího stroje, která je periodicky zvedána kolíčky zdvihacího kola a po uvolnění udeří na cymbál (zvon, gong nebo cinkavý drát). Staročes. ekvivalent (Táborský 1570): „kladivo\" pro vnější úderník na velký kostelní zvon — viz dříve samostatné heslo [kladivko-orloje](/slovnik/kladivko-orloje) (redirect).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "bici-stroj",
-        "cymbal"
+        "cymbal",
+        "zvon-orloje",
+        "palice-orloje"
       ],
       "isStub": false,
       "redirectTo": null

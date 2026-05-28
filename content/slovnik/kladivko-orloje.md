@@ -1,42 +1,18 @@
 ---
-title: kladivo (bicí kladívko)
+title: kladivo (orlojní)
 slug: kladivko-orloje
 kategorie: bici
 varianty:
   - term: kladivo
     status: archaic
-    note: 'Staročes. orlojový termín (Táborský 1570) pro vnější úderník na zvon ve věži (oproti „palici" = vnitřní spouštěcí prvek).'
+    note: 'Staročes. orlojový termín (Táborský 1570) pro vnější úderník na zvon ve věži. Funkčně totéž co moderní [kladívko](/slovnik/kladivko); rozdíl je v měřítku (zvon kostelní × cymbál interiérový) a v terminologii (Táborského deminutiv „kladivko" pro vnitřní spouštěcí — viz [palice](/slovnik/palice-orloje)).'
     doloženo: 'Táborský 1570'
-  - term: kladívko
-    status: preferred
-    note: 'Moderní cs hodinářský termín — viz hlavní heslo [kladívko](/slovnik/kladivko).'
-  - term: bicí kladívko
-    status: preferred
-    note: 'Plný cs termín — explicitní označení úderné funkce.'
-prekladyDe:
-  - term: Schlaghammer
-    genus: m
-    zdroj: 'DE — bicí kladivo (Špatný 1882: Hammer-, Schlag-)'
-  - term: Glockenhammer
-    genus: m
-    zdroj: 'DE — zvonové kladivo (specificky věžní)'
-prekladyEn:
-  - term: bell hammer
-    zdroj: 'EN — zvonové kladivo'
-  - term: striking hammer
-    zdroj: 'EN — bicí kladivo'
-prekladyFr:
-  - term: marteau de cloche
-    genus: m
-    zdroj: 'FR — zvonové kladivo'
-  - term: marteau de sonnerie
-    genus: m
-    zdroj: 'FR — bicí kladivo'
-definice: 'Bicí kladivo — úderník zvonu věžních hodin. Táborský používá synonymně s *palicí*, ale rozlišuje *kladivo* primárně pro vnější úderník na zvonu (na věži) a *palici* pro vnitřní spouštěcí prvek bicího ústrojí.'
+redirectTo: kladivko
+definice: 'Staročeský orlojový termín (Táborský 1570) pro **vnější úderník na zvon ve věži**. **V moderní češtině se nepoužívá** — používá se [kladívko](/slovnik/kladivko) (jednotně pro úderník na cymbál i zvon). Táborský explicitně rozlišuje *kladivo* (vnější úderník) od *palice* (vnitřní spouštěcí prvek) — viz [palice (orlojní)](/slovnik/palice-orloje).'
 pribuzne:
+  - kladivko
   - palice-orloje
   - zvon-orloje
-  - kladivko
 isStub: true
 references:
   - bibKey: taborskyzklokotskehoryZpravaStaromestskemOrloji1570
@@ -44,20 +20,19 @@ references:
     note: "Rukopis AHMP, fond 3 (Sbírka úředních knih a rukopisů), sign. 1867."
   - bibKey: teigeJanaTaborskehoKlokotske1901
     note: "Tištěná edice s úvodem (J. Teige, Praha 1901)."
-  - bibKey: spatny1882nemeckoCeskySlovnik
-    title: 'Špatný F., *Německo-český slovník pro hodináře a pouzdráře hodinářské*. 1882.'
-    note: 'Hesla Hammer, Glockenhammer, Schlaghammer — DE odpovídající Táborského „kladivo" jako vnější úderník zvonu věžního orloje.'
-    key: spatny-1882
 ---
 
-## Výklad
+## Kontext
 
-V moderním orlojnictví: **bicí kladivo** (něm. *Schlaghammer*, en. *bell hammer*). Tvar a hmotnost kladiva — spolu se zvonem — určují akustickou charakteristiku odbíjení. Pro Staroměstský orloj jsou kladiva tradičně železná s rukojetí navíjenou koží (tlumení vibrací).
+**„Kladivo"** v hodinářském smyslu je staročeský termín (Táborský 1570) pro vnější úderník na zvon ve věži. Táborský důsledně rozlišuje:
+
+- **kladivo** = vnější úderník na velký kostelní zvon ve věži
+- **[palice](/slovnik/palice-orloje)** = vnitřní spouštěcí prvek bicího ústrojí
+
+V moderní češtině je tato distinkce setřena — používá se jednotně **[kladívko](/slovnik/kladivko)** (deminutiv) pro úderník bicího stroje bez ohledu na velikost (zvon × cymbál × gong).
+
+Toto heslo slouží jen jako **historická poznámka pro čtenáře pramenů 16.–18. století** (Táborského rukopis, jeho edice Teige 1901). Plný výklad mechanického kladívka jako úderné části bicího stroje viz **[kladívko](/slovnik/kladivko)**.
 
 ## Příbuzné termíny
 
-[palice-orloje](/slovnik/palice-orloje), [zvon-orloje](/slovnik/zvon-orloje)
-
-## Obrázky
-
-*(zatím chybí — k doplnění z fotodokumentace Staroměstského orloje nebo z edice Teige 1901)*
+[kladívko](/slovnik/kladivko) (= moderní termín, hlavní heslo) · [palice (orlojní)](/slovnik/palice-orloje) (Táborského vnitřní spouštěcí prvek) · [zvon × zvonec (orlojní)](/slovnik/zvon-orloje)
