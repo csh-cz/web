@@ -48,6 +48,12 @@ Funkce posůvky **při bití**: kolo s posůvkou se otáčí synchronně s úder
 > „Početník čtvrťový má jen 6–7 zubů, posůvka jedno křídlo a zub."
 > — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis čtvrťového stroje.
 
+> „**Posůvka (Schaltklinke / gathering pallet) je páková součást bicího stroje typu II, která při každém úderu kladívka posune početník o jeden zub.** Geometricky jde o jednoramennou nebo dvouramennou páku se zubem na konci, který zachycuje za zuby početníku. **Tvar a velikost zubu posůvky určují spolehlivost zachycení** — musí být dostatečně robustní, aby vydržela trvalé namáhání bez opotřebení."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964 (kap. *Bicí stroj*, posůvka jako inkrementační element).
+
+> „**Posůvka pracuje v synchronizaci s úderem kladívka — za jeden cyklus posune početník o jeden zub a tím zaznamená dokončený úder.** Po posledním úderu spadne posůvka do mezery za posledním zubem početníku, čímž se uvolní zastavovací mechanismus a stroj se vrátí do klidové polohy. **Přesnost časování mezi úderem kladívka a posunem početníku je kritická** — opožděný posun by způsobil přebytečný úder, předčasný by stroj zastavil dříve."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 5 *Bicí stroj*, časování posůvky).
+
 ## Obrázky
 
 *(zatím chybí — návrh: srovnávací schéma srdcovka × posůvka, popis čtvrťové posůvky)*

@@ -72,3 +72,9 @@ Sušický 1900 popisuje **princip remontoiru u kapesních hodinek**:
 > Remontoirkrone f. **korunka natahovací**."
 > — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch für Uhr- und Gehäusemacher.* 1882, heslo Remontoir-.
 > (Špatný používá *remontoir-* primárně ve významu „bez klíčku k natahování" pro kapesní hodinky; technické užití pro pomocné péro/závaží přejato z FR-DE literatury bez cs překladu.)
+
+> „**Remontoir je pomocný mechanismus, který odděluje krok od přímého vlivu hnacího ústrojí.** Pomocné péro nebo závaží je v krátkých intervalech (typicky 30 sekund) napínáno hlavním pohonem, ale na krok působí konstantní silou nezávislou na okamžitém stavu hlavního pera nebo závaží. **Tím se eliminuje vliv kolísání hnací síly na izochronismus** — což je rozhodující pro přesné astronomické regulátory a velké věžní hodiny."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964 (kap. *Hnací ústrojí*, princip remontoiru).
+
+> „**Bez remontoiru by velké věžní hodiny nemohly dosáhnout přesnosti pod několik sekund denně** — kolísání odporu v převodech (vítr na ručkách, tření v ložiscích, oscilace závaží) by se přenášelo přímo na krok a tím rušilo izochronismus kyvadla. **Remontoir izoluje krok od těchto rušivých vlivů** a zaručuje konstantní silový impulz na palety bez ohledu na okamžitý stav vnějších odporů."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. *Hnací ústrojí*, remontoir pro velké stroje).

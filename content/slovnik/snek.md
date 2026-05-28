@@ -50,6 +50,12 @@ Sušický 1900 dále zaznamenává nevýhodu šneku: **„závitek hodně vysok�
 > „Antonín Lepin (* 1750, + 1814 v Paříži) počal vyráběti ozubený perovník otáčivý. Tím odpadl šnek se řetízkem a výroba válcovek i kotvovek vyvíjela se ve velkém množství v úhledném plochém zevnějšku."
 > — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
+> „**Šnek (fusee) je kuželové kolo se šroubovicí pro vyrovnání nestejného tahu hnacího pera.** Princip vyrovnání je geometrický: čím slabší tah pera (rozvíjené pero), tím větší poloměr šneku, na němž pero působí — moment tedy zůstává přibližně konstantní. **Šnek byl zaveden v 15. století (Filip Brunelleschi nebo Leonardo da Vinci, atribuce nejistá) a používal se až do počátku 19. století**, kdy ho u běžných hodinek vytlačilo maltézské stavítko (Phillipe 1842), u lodních chronometrů zůstal déle."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964 (kap. *Hnací ústrojí*, šnek).
+
+> „**Geometrie šnekové šroubovice je kompromis mezi přesností vyrovnání tahu a praktickými limity konstrukce.** Ideální tvar (vyrovnání odchylky tahu na <2 %) vyžaduje sice spirálu odpovídající přesné inverzní charakteristice pera, ale v praxi se používala aproximovaná logaritmická spirála. **Hlavní nevýhodou šneku byly velké rozměry — vysoká skříň hodinek**, což pro kapesní hodinky brzdilo komerční úspěch. Lépineho ozubený perovník proto převzal vedení od 19. století."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. *Hnací ústrojí*, šnek vs maltézské stavítko).
+
 ## Obrázky
 
 *(zatím chybí — návrh: schéma šneku s řetízkem ze Sushického 1900, srovnání kapesní hodinky se šnekem vs. Lépine ploché provedení)*

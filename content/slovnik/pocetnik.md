@@ -54,6 +54,12 @@ Sladkovský přidává: **početník čtvrťový** má jen 6–7 zubů (bije nej
 > „Početník čtvrťový má jen 6–7 zubů, posůvka jedno křídlo a zub. Stupnice o 4 stupních sedí na kole střídném a nese 4 kolíčky výpustné, které zvedají spoušť výmrštnou."
 > — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
+> „**Početník (Rechen) je ozubený segment, který v okamžiku spuštění bicího stroje vypadne na stupnici a hloubka jeho dopadu (počet zubů zachycený za stupnici) určuje počet úderů.** Při každém úderu kladívka posuvka zvedne početník o jeden zub. **Hlavní výhodou systému početníku oproti závěrkovému kolu je možnost repetice** — bicí stroj při každém spuštění odbije přesný počet úderů odpovídající aktuální poloze stupnice, takže umožňuje konstrukci opakovacích hodinek."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964 (kap. *Bicí stroj*, typ II — početník a stupnice).
+
+> „**Početníkový bicí stroj je dokonalejší a používá se u všech kvalitních hodin a hodinek s repetičním ústrojím.** Synchronizace početníku s hodinovou ručkou (prostřednictvím stupnice na hodinovém kole) zajišťuje, že odbití vždy odpovídá skutečné poloze ručky — i po předchozí poruše nebo přestavení ručky."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 5 *Bicí stroj*, vlastnosti početníkového systému).
+
 ## Obrázky
 
 *(zatím chybí — návrh: schéma početníku se stupnicí, foto z věžních hodin)*

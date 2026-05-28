@@ -45,6 +45,18 @@ references:
     title: "Království hodin — Slovníček"
     url: "https://kralovstvihodin.cz/slovnicek/"
     key: kh-denisonuv
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Denisonův gravitační krok — popud kyvadlu předává gravitace padajících ramének, ne přímo krokové kolo; tím je popud nezávislý na okamžitém zatížení pohonu (vítr na ručkách, opotřebení) a stroj je vhodný pro velmi přesné věžní hodiny.'
+    key: bures-1965
+  - bibKey: martinekRehor1964
+    title: "Martínek B., Řehoř J., *Základy hodinářství*. SNTL, Praha 1964."
+    note: 'Gravitační kroky (Bloxam, Denison) — popis principu oddělení popudu od přímého tahu krokového kola.'
+    key: mr-1964
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Denison-Schwerkrafthemmung / doppelte dreischenklige Schwerkrafthemmung — most k DE/EN/FR terminologii.'
+    key: mr-1968
 ---
 
 ## Výklad

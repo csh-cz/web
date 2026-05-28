@@ -53,6 +53,12 @@ Tedy u dvourežimového bicího stroje (kombinace závěrkového kola + srdcovky
 > „Arm m. rameno; kleiner A. raménko. Hammerarm m. raménko, rameno kladívka. Hammerstange f. raménko kladívka."
 > — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Arm a Hammer.
 
+> „**Spouštěcí palec ručkového pastorku pomalu zdvihá spouštěcí páku, která svým druhým ramenem nadzdvihuje zapadací páku, až její kolík vystoupí ze zářezu vačky. Tím jsou vačka a náběžné kolo uvolněny.** Takto uvolněné soukolí se však pootočí pouze o dráhu, která odpovídá 1/3 otáčky náběžného kola, neboť **náběžný kolík narazí na zdvižené druhé rameno spouštěcí páky**."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964, s. 93–94, obr. 86 *„Bicí stroj půlový"* (funkce spouštěcí + zapadací páky).
+
+> „**Páky bicího stroje (spouštěcí, zapadací, výpustná) zajišťují přesnou koordinaci spuštění, počítání úderů a zastavení v základní poloze.** Každá páka musí mít přesně určenou hmotnost a moment setrvačnosti — příliš lehká páka by nezvládla spolehlivě zachytit kolík, příliš těžká by zpomalovala chod stroje. **Pružinky pák udržují páky v klidové poloze, aniž by tlačily nadměrnou silou na kontaktní plochy** — opotřebení by jinak rostlo nepřípustně rychle."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 5 *Bicí stroj*, geometrie pák).
+
 ## Obrázky
 
 *(zatím chybí — návrh: schéma 3 ramének z popisu Sladkovského 1947)*

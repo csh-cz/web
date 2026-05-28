@@ -43,6 +43,12 @@ U **opakovacích hodinek** (Taschen­repetiruhren) bývá **opěrák kladívka**
 > „Ze spodního kola, v jehož věnci trčí několik kolíčků, které zvedají raménka kladívka."
 > — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis bicího stroje typu I.
 
+> „**Kladívko je úderná část bicího stroje, která svým dopadem na cymbál (zvon, gong) vytváří zvuk úderu.** Je nasazeno na páce, jejíž jeden konec je zdvihán zdvižným kolem; po překročení vrchního bodu je kladívko uvolněno a vlastní tíhou (případně přitahováno zpružinou) padá na cymbál. **Mezi pákou kladívka a zdvižným kolem bývá vložen dorazový kolík, který omezuje výchylku kladívka po úderu** — bez něj by se kladívko po dopadu odrazilo a vzniklo by neharmonické dvojí zaznění."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964, s. 93, obr. 86 *„Bicí stroj půlový"*.
+
+> „**Kladívko musí mít přesně určenou tíhu a délku páky** — tíha určuje sílu úderu (a tím hlasitost zvuku), délka páky určuje rychlost dopadu a tím i jasnost zaznění. **Příliš lehké kladívko zní mdle, příliš těžké tlumí vlastní rezonanci zvonu.**"
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 5 *Bicí stroj*, konstrukce kladívka).
+
 ## Obrázky
 
 *(zatím chybí — návrh: foto kladívkové sestavy věžních hodin z Hodinária)*

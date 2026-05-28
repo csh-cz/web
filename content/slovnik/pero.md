@@ -59,6 +59,12 @@ Synonyma:
 > „p. hodinní → Uhrfeder; bicí p. → Schlagfeder; p. vlasové → Haarfeder."
 > — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Pero.
 
+> „**Hnací pero (mainspring, Zugfeder) je svinutá ocelová pružina v perovníku, jejíž rozvíjení dodává soukolí potřebnou energii.** Tah pera však není konstantní — **plně natažené pero má tah o 30–50 % větší než pero těsně před vyběhnutím**. Tato nerovnoměrnost ovlivňuje přesnost chodu hodin. Pro vyrovnání se používal historicky **šnek se řetízkem** (Hooke, 17. století), později **maltézské stavítko** (omezuje rozsah natažení na rovnoměrnější střední úsek)."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964 (kap. *Hnací ústrojí*, charakteristika tahu pera).
+
+> „**Materiál hnacího pera prošel historickým vývojem od kalené uhlíkové oceli (do počátku 20. století) k slitinám typu Nivaflex** (kobalt-nikl-chrom-železo, od 1948), které jsou téměř nezničitelné, antimagnetické a nelámou se. **Tloušťka, šířka a délka pera určují celkový moment a dobu chodu** — typické pero pro náramkové hodinky má tloušťku 0,1–0,15 mm, šířku 1–2 mm a délku 30–60 cm."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. *Hnací ústrojí*, materiál a dimenze pera).
+
 ## Obrázky
 
 *(zatím chybí — návrh: schéma perovníku s pérem v rozloženém stavu, ilustrace remontoiru ze Sushického 1900 nebo Sladkovského 1947)*

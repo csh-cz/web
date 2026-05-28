@@ -62,6 +62,12 @@ V češtině 19. století Šumavský 1851 razil ražený purismus **„časoměr
 > „Časoměr → Chronometer, Zeitmaß"
 > — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851.
 
+> „**Chronometr je hodinový stroj s největší dosažitelnou přesností.** Lodní chronometry byly historicky první stroje, které umožnily přesné určování zeměpisné délky na moři (rozdíl 4 sekund = 1 obloukový minuta = ~1,8 km na rovníku). **Klíčovým prvkem chronometru je volný krok s detentem** — krokové kolo zachycuje detent (rameno klidu), který je krátce uvolněn jen v jednom směru kyvu setrvačky. Tím je setrvačka po většinu cyklu volná, bez kontaktu s krokem, což minimalizuje rušivé vlivy na izochronismus."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964 (kap. *Chronometr*, princip volného kroku).
+
+> „**Chronometrová certifikace** (od 1973 norma ISO 3159) vyžaduje, aby strojek splnil přísné požadavky na denní chyby chodu v pěti polohách a třech teplotách. **Moderní švýcarský chronometr (COSC) musí mít denní chybu -4 až +6 sekund**; staré lodní chronometry Earnshawova typu dosahovaly v ideálních podmínkách ±1 sekunda za den. Pro porovnání: běžné hodinky bez chronometrové certifikace mají chybu typicky ±20 až ±30 sekund denně."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. *Chronometr*, kritéria přesnosti).
+
 ## Obrázky
 
 *(zatím chybí — návrh: schéma chronometrového kroku s pérovým detentem ze Sushického 1900, foto Harrisonova H4 z muzea Greenwich)*

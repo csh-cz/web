@@ -59,6 +59,18 @@ references:
     title: "Dietzschold C., 1905."
     note: '„Brocots Stiftengang" — DE odborný termín.'
     key: dietzschold-1905
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Brocotův krok jako příklad klidového kotvového kroku s rubínovými poloválcovými paletami; populární u pařížských pendulí 19. století.'
+    key: bures-1965
+  - bibKey: martinekRehor1964
+    title: "Martínek B., Řehoř J., *Základy hodinářství*. SNTL, Praha 1964."
+    note: 'Brocotův krok — kolíčková kotva, „úhel klidu rovná se 1°–2°, palety a 0,35 rozdělení" (kap. *Krok*, geometrie kolíčkové kotvy).'
+    key: mr-1964
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Brocots Stiftengang — most k DE/EN/FR terminologii (Stiftenanker, pin pallet escapement, échappement à goupilles).'
+    key: mr-1968
 ---
 
 ## Výklad

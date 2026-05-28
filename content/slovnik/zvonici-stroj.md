@@ -90,3 +90,9 @@ U **stojanových hodin se zvonkohrou** (např. tatovské „Hořkohorské hodiny
 
 > „Vypouštění na palici změněno na vypouštění s náběhem, prováděné **kolíčkem na hlavním kole zvonicího stroje**."
 > — SKÁLA, Petr. *Malé závěrkové kolečko na bicím stroji pražského orloje.* Pokroky matematiky, fyziky a astronomie 58 (2013), č. 3, s. 228.
+
+> „**Zvonicí stroj (Spielwerk, chiming train) hraje melodii pomocí válce s kolíčky, který při otáčení postupně zvedá kladívka různě naladěných cymbálů.** Sekvence kolíčků na válci je předem nastavena tak, aby vytvořila konkrétní melodii (např. Westminster, Whittington, vlastní motiv). **Pro výměnu melodie u některých konstrukcí lze válec axiálně posunout** — kolíčky pak narazí na kladívka v jiné sekvenci. Toto řešení umožňovalo dobové zvonkohře hrát různé melodie podle dne v týdnu."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964 (kap. *Bicí stroj*, zvonkohra a válec s kolíčky).
+
+> „**Zvonicí stroj má vlastní hnací ústrojí (závaží nebo pero) a spouští se v určených okamžicích jicím strojem.** Po dokončení melodie se stroj zastaví v základní poloze, dokud není při příští čtvrtině nebo hodině opět spuštěn. **Větrník reguluje rychlost přehrávání melodie** — bez něj by se válec roztočil rychlostí omezenou jen tíhou závaží a melodie by zazněla jako jediný rachot."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 5 *Bicí stroj*, zvonkohra a větrník).

@@ -49,6 +49,12 @@ Sladkovský popisuje uspořádání: kolo má 12 nestejně širokých zářezů 
 > „Druhou částí, která u šotských hodin je ze železného drátu ohnutý háček, zapadá do úzkých mezer kola závěrkového."
 > — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
+> „**Závěrkové kolo (Schlossscheibe) je starší typ uzamykacího ústrojí bicího stroje.** Na svém obvodu má 12 (nebo 78 pro celý cyklus 1+2+3+…+12 = 78 úderů) zářezů odstupňovaných tak, že hloubka zářezu odpovídá počtu úderů příslušné hodiny. **Hlavní nevýhodou závěrkového systému je, že nelze libovolně opakovat odbití** — pokud bicí stroj přeskočí nebo zaostane, je třeba ručně přetočit závěrkové kolo do souladu se skutečným časem."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964 (kap. *Bicí stroj*, typ I — závěrkové kolo).
+
+> „**Závěrkový bicí stroj je nejjednodušší typ — soukolí běží do té doby, než zapadací raménko zapadne do dalšího zářezu závěrkového kola.** Tato jednoduchost vede ke spolehlivosti, ale za cenu nemožnosti repetice. **Pozdější vynález početníku se stupnicí odstranil tuto nevýhodu** — bicí stroj při každém spuštění odbije přesný počet úderů odpovídající aktuální poloze stupnice, nezávisle na předchozím cyklu."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 5 *Bicí stroj*, srovnání typu I a II).
+
 ## Obrázky
 
 *(zatím chybí — návrh: schéma závěrkového kola s 12 mezerami, foto z věžních hodin)*

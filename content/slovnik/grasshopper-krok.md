@@ -49,6 +49,18 @@ references:
     note: '„Name of a recoil escapement that operates very regularly, without jerks or friction, having the benefit of not requiring lubrication. The pallets have a kicking action similar to the back legs of a grasshopper, hence its name. Difficult to regulate, it was not widely used. Invented by John Harrison around 1725.'
     url: "https://dictionary.fhs.swiss/?l=en"
     key: berner-fhs
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Grasshopper-krok jako extrémní příklad bezfrikčního kroku — palety nejsou v trvalém kontaktu s krokovým kolem, ale fungují jako pružinou napjaté „kopající" páky.'
+    key: bures-1965
+  - bibKey: martinekRehor1964
+    title: "Martínek B., Řehoř J., *Základy hodinářství*. SNTL, Praha 1964."
+    note: 'Harrisonův grasshopper — vratný princip; popis pružinového mechanismu palet.'
+    key: mr-1964
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Grasshopper-Hemmung / Harrison-Hemmung — most k DE/EN/FR terminologii.'
+    key: mr-1968
 ---
 
 ## Výklad

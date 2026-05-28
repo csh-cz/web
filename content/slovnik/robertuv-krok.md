@@ -46,6 +46,18 @@ references:
     title: "Dietzschold C., *Die englische und französische Uhrmacherei*. 1894."
     note: "Otázka autorství Robertova kroku."
     key: dietzschold-1894
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Robertův krok jako klidový kotvový krok s kolíčkovým krokovým kolem; vhodný pro velké interiérové a věžní stroje díky tiché funkci a robustnosti.'
+    key: bures-1965
+  - bibKey: martinekRehor1964
+    title: "Martínek B., Řehoř J., *Základy hodinářství*. SNTL, Praha 1964."
+    note: 'Robertův krok — středová kotva s paletami, kolíčkové krokové kolo; varianta s dvojitým záběrem.'
+    key: mr-1964
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Robert-Hemmung — most k DE/EN/FR terminologii (Robertscher Stiftengang, Robert pin-wheel escapement).'
+    key: mr-1968
 ---
 
 ## Výklad

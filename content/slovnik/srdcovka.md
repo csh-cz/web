@@ -51,6 +51,12 @@ Pro **bicí stroj typu I (závěrkový)** Sladkovský pro stejnou funkci použí
 > „Herzrad n. kolo zástavné. Herzradeinfallarm m. zástavník."
 > — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, heslo Herz–.
 
+> „**Vačka srdcového tvaru (srdcovka) je v hodinářském stroji použita ve dvou nesouvisejících významech.** V bicím stroji typu I (závěrkový) označuje kotouč s charakteristickým profilem, do něhož zapadá zapadací páka. V chronografu označuje navrátný kotouč ve tvaru srdce, který umožňuje **rychlý a přesný návrat sekundové ručičky chronografu na nulu** — pružinou tlačená páka klouže po srdcovitém profilu vždy do nejnižšího bodu (= polohy nula)."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964 (vačky srdcového tvaru — polysémie).
+
+> „**Srdcový tvar vačky vyplývá ze požadavku, aby existoval jediný stabilní bod, do kterého pružinou tlačený dotek vždy spadne.** Matematicky odpovídá srdcovka kardioidní křivce s jediným zákmitem — proto se v chronografech používá k resetu sekundovky na nulu. **Přesnost provedení srdcového profilu určuje přesnost návratu na nulu** (typicky ±2°)."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. *Chronograf*, srdcovka jako návratný mechanismus).
+
 ## Obrázky
 
 *(zatím chybí — návrh: schéma srdcovky v bicím stroji typu I, kontrast s posůvkou typu II)*

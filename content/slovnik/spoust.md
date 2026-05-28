@@ -53,6 +53,12 @@ Funkce: za normálního chodu drží **západka** kolíček v kole náběžném.
 > „Mimo spoušť výmrštnou jest zde ještě spoušť opakovací, ve které je zavěšena šňůrka opakovací."
 > — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
+> „**Spouštěcí ústrojí bicího stroje je řízeno spouštěcím palcem na ručkovém pastorku**, který v určených okamžicích zvedá spouštěcí páku. Spouštěcí palec je obvykle umístěn tak, aby spoušť aktivoval na celé hodině; u čtvrťových bicích strojů jsou palce čtyři, rozmístěné po obvodu střídného kola po 15 minutách."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964, s. 93–94 (obr. 86, spouštěcí palec).
+
+> „**Spouštěcí mechanismus musí být navržen tak, aby spouštění proběhlo plynule a v přesný okamžik**, ale aby zároveň jicí stroj nezpomalil rušivou změnou zatížení. Proto je spouštěcí síla přenesena přes pružinovou páku, která absorbuje krátkodobý odpor a vrátí jicí stroj rychle do normálního chodu. **U přesných hodin je rozdíl mezi okamžikem spuštění a prvním úderem mezi 1 a 2 sekundami** — krátký a pravidelný."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 5 *Bicí stroj*, spouštěcí ústrojí).
+
 ## Obrázky
 
 *(zatím chybí — návrh: detail spouště z věžních hodin, schéma šňůrky opakovací z opakovací hodinky)*

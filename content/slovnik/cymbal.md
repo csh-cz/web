@@ -48,6 +48,12 @@ Sušický cituje vzácně doložené **cymbálové orloje** (například původn
 > „Od císaře Rudolfa obdržel privilegium na slévání cymbálů."
 > — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, kapitola pražští hodináři.
 
+> „**Cymbál (zvon bicího stroje) je vyroben ze zvonoviny — slitiny mědi a cínu v poměru asi 78 : 22**, která dává jasný a dlouhý tón. **Tvar zvonu (poměr výšky k průměru, tloušťka stěny u věnce a u koruny) určuje výšku základního tónu a jeho harmonické složky.** Pro hodinové cymbály se obvykle volí tón mezi C³ a F³ pro hlavní hodiny, vyšší tóny (G³ a výše) pro čtvrtě."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964 (kap. *Bicí stroj*, akustika cymbálu).
+
+> „**U věžních hodin se cymbál (zvon) zavěšuje na pevnou konstrukci, aby kladívko mohlo úderem rozezvučet pouze samotný zvon, nikoli celou konstrukci.** Tlumení vibrací konstrukce by ubíralo zvuku jasnost a dosah. **Kladívko nesmí na zvon přilehnout** — po úderu musí okamžitě odskočit, jinak by zvon dále neznel."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 5 *Bicí stroj*, zavěšení a buzení cymbálu).
+
 ## Obrázky
 
 *(zatím chybí — návrh: foto cymbálu věžních hodin v Hodináriu, foto pražského orloje cymbál)*

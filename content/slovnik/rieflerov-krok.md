@@ -40,6 +40,18 @@ references:
     url: "https://kralovstvihodin.cz/slovnicek/"
     note: "„krok kotvový pružinový (systém riefler) — krok vynalezený mnichovským hodinářem Sigmundem Rieflerem, určen pro velmi přesné kyvadlové hodiny. Pochází z posledního desetiletí 19. století. Závěsné pružiny kyvadla jsou současně pružinami popudnými. Kotva kroku uložena na achátovém břitu."
     key: kh-rieflerov
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Rieflerův krok jako vrcholná konstrukce přesných kyvadlových hodin přelomu 19./20. století; popud přes závěsné pružinky kyvadla minimalizuje tření.'
+    key: bures-1965
+  - bibKey: martinekRehor1964
+    title: "Martínek B., Řehoř J., *Základy hodinářství*. SNTL, Praha 1964."
+    note: 'Rieflerův krok — popis pružinového závěsu a achátového břitu kotvy; přesnost ~0,01 s/den u observatorních modelů.'
+    key: mr-1964
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Riefler-Hemmung — most k DE/EN/FR terminologii (Federchronometer System Riefler, Riefler spring escapement).'
+    key: mr-1968
 ---
 
 ## Výklad

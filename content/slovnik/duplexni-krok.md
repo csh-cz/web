@@ -55,6 +55,18 @@ references:
     url: "https://kralovstvihodin.cz/slovnicek/"
     note: '„Krok duplexní (dvoukolý, jednokolý) — objevil se kolem 1725, autor pravděpodobně Jean Baptiste Dutertre. Později zjednodušená verze s jedním kolem se dvěma řadami zubů.'
     key: kh-duplexni
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Duplexní krok — setrvačka dostává popud jen každý druhý kyv, což znamená vyšší citlivost na vnější rázy; přesto díky tichému chodu a vysoké přesnosti oblíbený v kvalitních anglických hodinkách 19. století.'
+    key: bures-1965
+  - bibKey: martinekRehor1964
+    title: "Martínek B., Řehoř J., *Základy hodinářství*. SNTL, Praha 1964."
+    note: 'Duplexní krok — popis konstrukce s dvojí řadou zubů (klidová + popudná), seconde morte varianta.'
+    key: mr-1964
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Duplexgang / Duplex-Hemmung — most k DE/EN/FR terminologii (duplex escapement, échappement duplex).'
+    key: mr-1968
 ---
 
 ## Výklad

@@ -47,6 +47,12 @@ Pozor na terminologickou vícenásobnost: **stupnice obecně** = jakákoliv kali
 > „Stupnice o 4 stupních sedí na kole střídném a nese 4 kolíčky výpustné, které zvedají spoušť výmrštnou."
 > — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947, popis čtvrťového stroje.
 
+> „**Stupnice (Staffelscheibe, snail) je rotující kotouč se schodovitým profilem, jehož 12 stupňů odpovídá počtu úderů 1 až 12 v cyklu hodin.** Stupnice sedí přímo na hodinovém kole a otáčí se jednou za 12 hodin, takže poloha stupně pod hrotem početníku vždy odpovídá aktuální hodině. **Tím je zaručena synchronizace odbíjení s polohou hodinové ručky** — i po manuálním přestavení ruček odbije bicí stroj při příštím spuštění správný počet úderů."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964 (kap. *Bicí stroj*, stupnice a synchronizace).
+
+> „**Stupnice je u repetičního ústrojí v podobě šnečí (spirálové) křivky** — tzv. snail (limaçon). Šnečí profil dává plynulou změnu počtu úderů a umožňuje **přesnou indikaci hodin, čtvrtí a minut** u kvalitních repetičních hodinek (grande sonnerie, minutová repetice). **Geometrie šneka je daná matematickou křivkou — nejde jen o estetický prvek**."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. *Bicí stroj*, šnečí stupnice u repetic).
+
 ## Obrázky
 
 *(zatím chybí — návrh: schéma 12schůdové stupnice s početníkem, čtvrťová 4-schůdová stupnice)*
