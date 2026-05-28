@@ -83,4 +83,4 @@ průmyslovou výrobu. Vídenské dílny ekonomicky nemohly konkurovat
 
 ## Obrázky
 
-*(zatím chybí — návrh: vídeňský sloupkový regulátor 1830; rámová kyvadlovka 1870; smaltový ciferník detail)*
+*(zatím chybí — návrh: vídeňský sloupkový regulátor 1830; rámová kyvadlovka 1870; smaltový číselník detail)*

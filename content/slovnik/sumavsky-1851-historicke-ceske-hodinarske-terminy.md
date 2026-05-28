@@ -40,7 +40,7 @@ Také **NEROZLIŠ kyvadlo od setrvačky** — obojí pod heslem „kyvadlo"
 | **cylindrovky** | hodinky s válečkovým krokem | Zylinderuhr |
 | **čepima** | dírka čepu / ložisko čepu | Zapfenloch |
 | **cymbál** *(hodinový)* | zvon hodinový / cymbál | Uhrschale |
-| **číslovník** / **čísliště** | ciferník | Zifferblatt |
+| **číslovník** / **čísliště** | číselník (dříve ciferník) | Zifferblatt |
 | **cev** | pastorek (zuby kola) | Spindel am Kammrade |
 | **buben** | perovník | Federhaus |
 | **perovnice** | perovník | Federhaus |
@@ -113,8 +113,9 @@ Důvody:
 1. **Špatný 1882** vyhrál jako autoritativní cs/de hodinářský
  slovník, vstoupil do cechovní organizace
 2. **Sušický 1900** kodifikoval v učebnici „krok", „setrvačka",
- „soukolí", „ciferník" — moderní termíny
-3. **Sladkovský 1947** dále upevnil moderní cs
+ „soukolí" — moderní termíny (u „ciferník/číselník" ještě střídá oba tvary)
+3. **Sladkovský 1947** dále upevnil moderní cs (u „číselníku"
+ pivotní obrat — Sladkovský 1933 ho užívá 16×, „ciferník" 0×)
 
 Šumavského termíny ale zůstávají **cenné pro filolologickou**
 **archeologii** a interpretaci dobových textů 1830–1880.

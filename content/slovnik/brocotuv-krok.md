@@ -40,7 +40,7 @@ pribuzne:
   - kolickovy-krok
   - amantuv-krok
   - kotva
-definice: 'Klidový kotvový krok s kolíčky tvořícími palety kotvy. Krokové kolo má normální ostré zuby, ale kotva je nahrazena dvěma poloválcovými kolíčky. Vynalezl Achille Brocot kolem 1850. Často integrovaný do osy kyvadla, viditelný zepředu ciferníku — typická vlastnost pařížských pendulí 19. století („Brocotova kotva" jako dekorativní prvek).'
+definice: 'Klidový kotvový krok s kolíčky tvořícími palety kotvy. Krokové kolo má normální ostré zuby, ale kotva je nahrazena dvěma poloválcovými kolíčky. Vynalezl Achille Brocot kolem 1850. Často integrovaný do osy kyvadla, viditelný zepředu číselníku — typická vlastnost pařížských pendulí 19. století („Brocotova kotva" jako dekorativní prvek).'
 crossRefs:
   kroky:
     - brocotuv-krok
@@ -70,9 +70,9 @@ references:
 
 Tím Brocot **kombinuje** dvě dříve oddělené tradice: ozubené krokové kolo (Graham 1715) a kolíčkové palety (varianta Amantova kolíčkového kroku).
 
-**Charakteristický rys pařížských pendulí 19. století** — Brocotova kotva je často **integrovaná do osy kyvadla** a **viditelná zepředu ciferníku**. Vzniká tak dekorativní prvek: kyv kyvadla se promítá do oscilace kotvy mezi zuby krokového kola, což je pohled atraktivní pro „pendulové umění" 2. císařství a Bel Epoque. **„Brocotova kotva"** je dnes synonymum pro tyto **viditelné krokové ústrojí** v měšťanských pendulových hodinách.
+**Charakteristický rys pařížských pendulí 19. století** — Brocotova kotva je často **integrovaná do osy kyvadla** a **viditelná zepředu číselníku**. Vzniká tak dekorativní prvek: kyv kyvadla se promítá do oscilace kotvy mezi zuby krokového kola, což je pohled atraktivní pro „pendulové umění" 2. císařství a Bel Epoque. **„Brocotova kotva"** je dnes synonymum pro tyto **viditelné krokové ústrojí** v měšťanských pendulových hodinách.
 
-Brocot vyvinul rovněž **Brocotovu regulaci** — mikroregulační šroub pro nastavení délky kyvadla; ten je rovněž často viditelný na ciferníku (typicky nad číslicí 12, dvojice šipek označená „R" a „A" — *retard*/*avance*).
+Brocot vyvinul rovněž **Brocotovu regulaci** — mikroregulační šroub pro nastavení délky kyvadla; ten je rovněž často viditelný na číselníku (typicky nad číslicí 12, dvojice šipek označená „R" a „A" — *retard*/*avance*).
 
 **Pro velké hodiny** se Brocotův krok běžně **nepoužíval**, je vyhrazen **stolním a nástěnným hodinám** 19. století. Pro věžní hodiny převládá Grahamův krok nebo specializované gravitační kroky.
 

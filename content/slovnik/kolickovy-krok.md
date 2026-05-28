@@ -44,7 +44,7 @@ varianty:
     doloženo: "Sušický 1900, s. 172; Hajn 1953, obr. 142"
   - term: Brocotův krok
     status: historical
-    note: "Varianta B, Achille Brocot ~1840. Kotva má kolíčky půlkruhového průřezu, krokové kolo zahrocené zuby. Typicky integrovaný do osy kyvadla, viditelný zepředu ciferníku."
+    note: "Varianta B, Achille Brocot ~1840. Kotva má kolíčky půlkruhového průřezu, krokové kolo zahrocené zuby. Typicky integrovaný do osy kyvadla, viditelný zepředu číselníku."
     doloženo: "Hajn 1953, obr. 144; Dietzschold 1905 (Brocots Stiftengang)"
   - term: Robertův krok
     status: historical

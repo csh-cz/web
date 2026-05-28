@@ -19,7 +19,7 @@ varianty:
   - term: rafika
     status: archaic
     note: "Varianta rafije."
-definice: 'Kovový ukazatel na ciferníku hodin, který otáčením kolem středové osy indikuje aktuální čas. Standardní moderní cs termín je **ručka** (Sladkovský 1947; Boukal 1958; Skála 2005), staročeské varianty *rafije* / *rafika* dnes přežívají pouze v astronomickém kontextu velkých orlojů. Středověký pražský orloj používá v originálním zápisu Táborského 1570 termín **ruka** (bez deminutivu) — odkazuje na typický gotický motiv ruky s napřaženým ukazovákem na konci osy.'
+definice: 'Kovový ukazatel na číselníku hodin, který otáčením kolem středové osy indikuje aktuální čas. Standardní moderní cs termín je **ručka** (Sladkovský 1947; Boukal 1958; Skála 2005), staročeské varianty *rafije* / *rafika* dnes přežívají pouze v astronomickém kontextu velkých orlojů. Středověký pražský orloj používá v originálním zápisu Táborského 1570 termín **ruka** (bez deminutivu) — odkazuje na typický gotický motiv ruky s napřaženým ukazovákem na konci osy.'
 pribuzne:
   - pravidlo-orloje
   - sphera
@@ -43,16 +43,16 @@ references:
 
 ## Definice
 
-**Ručka** je kovový ukazatel na [ciferníku](/slovnik/cifernik) hodin, který otáčením kolem středové osy indikuje časový údaj (hodinu, minutu, vteřinu, případně den, datum nebo astronomický cyklus). U mechanických hodin je ručka přímo napojena na soustavu převodů hodinového stroje, u digitálních krokových motorů na hřídel krokového motoru.
+**Ručka** je kovový ukazatel na [číselníku](/slovnik/ciselnik) hodin, který otáčením kolem středové osy indikuje časový údaj (hodinu, minutu, vteřinu, případně den, datum nebo astronomický cyklus). U mechanických hodin je ručka přímo napojena na soustavu převodů hodinového stroje, u digitálních krokových motorů na hřídel krokového motoru.
 
 ## Druhy ruček
 
 Podle ukazatele rozlišujeme:
 
-- **Hodinová ručka** — kratší, masivnější (Skála 2005 zdůrazňuje, že má být blíže k ploše ciferníku). Otáčí se jednou za 12 (nebo 24) hodin.
-- **Minutová ručka** — delší a štíhlejší, sahá k vnějšímu obvodu ciferníku. Otáčí se jednou za hodinu. *„U malých hodin interiérových se objevuje minutová ručka štíhlejší a delší než ručka hodinová, její hrot obíhá jednou za hodinu po vnějším obvodu ciferníku."* ([Skála 2005](#ref-skala-2005))
-- **Vteřinová ručka** — nejtenčí, na samostatném ciferníku (subdial), nebo centrálně. U přesnostních hodin je vteřinová ručka standardem.
-- **Centrální ručka** — termín z hodinkářské praxe (Boukal 1958, kapitola XII). Označuje ručku procházející osou ciferníku, na rozdíl od subdial uložení.
+- **Hodinová ručka** — kratší, masivnější (Skála 2005 zdůrazňuje, že má být blíže k ploše číselníku). Otáčí se jednou za 12 (nebo 24) hodin.
+- **Minutová ručka** — delší a štíhlejší, sahá k vnějšímu obvodu číselníku. Otáčí se jednou za hodinu. *„U malých hodin interiérových se objevuje minutová ručka štíhlejší a delší než ručka hodinová, její hrot obíhá jednou za hodinu po vnějším obvodu ciferníku."* ([Skála 2005](#ref-skala-2005); v citaci ponecháno autorovo „ciferník")
+- **Vteřinová ručka** — nejtenčí, na samostatném číselníku (subdial), nebo centrálně. U přesnostních hodin je vteřinová ručka standardem.
+- **Centrální ručka** — termín z hodinkářské praxe (Boukal 1958, kapitola XII). Označuje ručku procházející osou číselníku, na rozdíl od subdial uložení.
 
 U velkých astronomických orlojů dále:
 
@@ -63,8 +63,8 @@ U velkých astronomických orlojů dále:
 
 Skála (2005) popisuje typologickou normu pro barokní věžní hodiny:
 
-1. **Klasické barokní schéma** — hodinová ručka kratší, sahá ke středu cifry I–XII na obvodu hlavního ciferníku. Minutová ručka kratší, sahá jen k vnitřnímu minutovému ciferníku (typicky ovál menší než hodinový).
-2. **Modernizace 19.–20. stol.** — minutový ciferník odstraněn, ručky předělány na "delší minutová, kratší hodinová" pattern moderní hodinky.
+1. **Klasické barokní schéma** — hodinová ručka kratší, sahá ke středu cifry I–XII na obvodu hlavního číselníku. Minutová ručka kratší, sahá jen k vnitřnímu minutovému číselníku (typicky ovál menší než hodinový).
+2. **Modernizace 19.–20. stol.** — minutový číselník odstraněn, ručky předělány na "delší minutová, kratší hodinová" pattern moderní hodinky.
 
 Restaurátorské zprávy z 21. století (NPÚ MIS — Markvartice 2017, Vanovice 2018, Bučovice 2008) potvrzují tyto dva základní typy. Při restaurování barokních věžních hodin (např. dílna Petra Skály) se preferuje návrat k originálnímu barokenímu schématu.
 

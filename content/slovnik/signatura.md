@@ -73,4 +73,4 @@ databází (např. Sotheby's archív, *Patek Philippe Provenance*).
 
 ## Obrázky
 
-*(zatím chybí — návrh: foto reliéfní signatury Thondel 1919 + ciferníková signatura Patek + můstková signatura Lange L901)*
+*(zatím chybí — návrh: foto reliéfní signatury Thondel 1919 + číselníková signatura Patek + můstková signatura Lange L901)*
