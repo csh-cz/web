@@ -3,9 +3,36 @@ title: zfalšovati
 slug: zfalsovati
 kategorie: mechanika
 varianty:
-  - zfalšovati
-  - zfalšován
-definice: "Sloveso: udělat falešně, zkazit pokus o opravu, sestavit chybně. Táborský pohrdlivě o stavu orloje po předchozí nekompetentní opravě: \"byl ten stroj … zfalšován\"."
+  - term: zfalšovati
+    status: archaic
+    note: 'Staročes. germanismus (Táborský 1570) z DE *fälschen* (= falšovat, padělat). V hodinářském významu: pokazit nekompetentní opravou.'
+    doloženo: 'Táborský 1570'
+  - term: zfalšován
+    status: archaic
+    note: 'Pasivní tvar (Táborský: „byl ten stroj … zfalšován").'
+  - term: zkazit
+    status: preferred
+    note: 'Moderní cs ekvivalent.'
+  - term: poškodit nekompetentní opravou
+    status: preferred
+    note: 'Plný moderní cs popisný.'
+  - term: zfušovat
+    status: admitted
+    note: 'Hovorový moderní cs (zase germanismus z DE *fuschen*).'
+prekladyDe:
+  - term: verpfuschen
+    zdroj: 'DE — zfušovat / pokazit'
+  - term: falsch zusammenbauen
+    zdroj: 'DE — chybně sestavit'
+prekladyEn:
+  - term: to botch
+    zdroj: 'EN — zfušovat'
+  - term: to assemble incorrectly
+    zdroj: 'EN — chybně sestavit'
+prekladyFr:
+  - term: bâcler
+    zdroj: 'FR — zfušovat / udělat ledabyle'
+definice: 'Sloveso: udělat falešně, zkazit pokus o opravu, sestavit chybně. Táborský pohrdlivě o stavu orloje po předchozí nekompetentní opravě: „byl ten stroj … zfalšován".'
 pribuzne:
   - zmotrchati
   - majlit

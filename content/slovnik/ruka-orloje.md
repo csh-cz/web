@@ -19,6 +19,41 @@ varianty:
   - term: rafika
     status: archaic
     note: "Varianta rafije."
+prekladyDe:
+  - term: Zeiger
+    genus: m
+    zdroj: 'DE primární — ručka (Špatný 1882: Zeiger → ručička, ručka; Berner FHS)'
+  - term: Stundenzeiger
+    genus: m
+    zdroj: 'DE — hodinová ručka'
+  - term: Minutenzeiger
+    genus: m
+    zdroj: 'DE — minutová ručka'
+  - term: Sekundenzeiger
+    genus: m
+    zdroj: 'DE — vteřinová ručka'
+prekladyEn:
+  - term: hand
+    zdroj: 'EN primární — ručka (Berner FHS)'
+  - term: hour hand
+    zdroj: 'EN — hodinová ručka'
+  - term: minute hand
+    zdroj: 'EN — minutová ručka'
+  - term: second hand
+    zdroj: 'EN — vteřinová ručka'
+prekladyFr:
+  - term: aiguille
+    genus: f
+    zdroj: 'FR primární — ručka (Berner FHS)'
+  - term: aiguille des heures
+    genus: f
+    zdroj: 'FR — hodinová ručka'
+  - term: aiguille des minutes
+    genus: f
+    zdroj: 'FR — minutová ručka'
+  - term: trotteuse
+    genus: f
+    zdroj: 'FR specifický — vteřinová ručka'
 definice: 'Kovový ukazatel na číselníku hodin, který otáčením kolem středové osy indikuje aktuální čas. Standardní moderní cs termín je **ručka** (Sladkovský 1947; Boukal 1958; Skála 2005), staročeské varianty *rafije* / *rafika* dnes přežívají pouze v astronomickém kontextu velkých orlojů. Středověký pražský orloj používá v originálním zápisu Táborského 1570 termín **ruka** (bez deminutivu) — odkazuje na typický gotický motiv ruky s napřaženým ukazovákem na konci osy.'
 pribuzne:
   - pravidlo-orloje

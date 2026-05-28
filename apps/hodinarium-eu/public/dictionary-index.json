@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "generated": "2026-05-28T20:37:00.946Z",
+    "generated": "2026-05-28T20:47:10.684Z",
     "count": 217,
     "stubs": 75,
-    "redirects": 12,
+    "redirects": 13,
     "withConceptId": 56,
     "withVyznamy": 1,
     "withAtestace": 1,
@@ -597,23 +597,75 @@
       "varianty": [
         {
           "term": "bluditi",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. orlojový technický termín (Táborský 1570) pro systematickou odchylku v ukazování — zejména astronomického indikátoru (poloha slunce, měsíce).",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "blud",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Substantivum — odchylka, chyba ukazování (Táborský 1570: „blud spher\").",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "blud spher",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Specifický termín pro chybu v ukazování polohy slunce / měsíce na astronomickém číselníku.",
+          "doloženo": "Táborský 1570"
+        },
+        {
+          "term": "odchylka chodu",
+          "status": "preferred",
+          "note": "Moderní cs ekvivalent — systematická odchylka ukazování od skutečného času (Bureš, MR)."
+        },
+        {
+          "term": "chyba chodu",
+          "status": "preferred",
+          "note": "Synonymum k „odchylka chodu\"; v restaurátorské literatuře běžné."
         }
       ],
-      "translations": {},
-      "definice": "Sloveso: ukazovat odchylně, jít chybně (o hodinách / astronomickém číselníku). \"Blud spher\" = chyba v ukazování polohy slunce a měsíce.",
+      "translations": {
+        "de": [
+          {
+            "term": "Gangabweichung",
+            "genus": "f",
+            "zdroj": "DE — odchylka chodu (Bureš + MR ekvivalent)"
+          },
+          {
+            "term": "Anzeigefehler",
+            "genus": "m",
+            "zdroj": "DE specifický — chyba ukazování"
+          }
+        ],
+        "en": [
+          {
+            "term": "rate deviation",
+            "zdroj": "EN — odchylka chodu"
+          },
+          {
+            "term": "indication error",
+            "zdroj": "EN — chyba ukazování"
+          }
+        ],
+        "fr": [
+          {
+            "term": "erreur de marche",
+            "genus": "f",
+            "zdroj": "FR — chyba chodu"
+          },
+          {
+            "term": "déviation",
+            "genus": "f",
+            "zdroj": "FR — odchylka"
+          }
+        ]
+      },
+      "definice": "Sloveso: ukazovat odchylně, jít chybně (o hodinách / astronomickém číselníku). „Blud spher\" = chyba v ukazování polohy slunce a měsíce.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "majlit"
+        "majlit",
+        "isochronismus"
       ],
       "isStub": true,
       "redirectTo": null
@@ -1257,15 +1309,55 @@
       "varianty": [
         {
           "term": "coufati",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. orlojový germanismus (Táborský 1570) z DE *zaufen* / *zurücklaufen* — couvnout, vrátit se zpět. Specifický význam: ukazatel orloje se vrátil zpět místo aby pokračoval vpřed.",
+          "doloženo": "Táborský 1570"
         },
         {
-          "term": "coufla",
+          "term": "vrátit se zpět",
+          "status": "preferred",
+          "note": "Moderní cs popisný — pro ukazatel jdoucí pozpátku."
+        },
+        {
+          "term": "jít zpětně",
           "status": "admitted"
         }
       ],
-      "translations": {},
-      "definice": "Sloveso: couvnout, vrátit se zpět. Z něm. *zaufen* (= odhánět zpět). Táborský používá pro popis vad orloje, kdy ručička \"couvla skoro o hodinu\" — ukazatel se vrátil zpět místo aby pokračoval.",
+      "translations": {
+        "de": [
+          {
+            "term": "zurücklaufen",
+            "zdroj": "DE — couvat (sloveso)"
+          },
+          {
+            "term": "Rücklauf",
+            "genus": "m",
+            "zdroj": "DE substantivum — zpětný chod"
+          }
+        ],
+        "en": [
+          {
+            "term": "run backward",
+            "zdroj": "EN — jít zpětně"
+          },
+          {
+            "term": "backlash",
+            "zdroj": "EN technický — zpětný úhel / vůle"
+          }
+        ],
+        "fr": [
+          {
+            "term": "reculer",
+            "zdroj": "FR — couvat"
+          },
+          {
+            "term": "marche arrière",
+            "genus": "f",
+            "zdroj": "FR — zpětný chod"
+          }
+        ]
+      },
+      "definice": "Sloveso: couvnout, vrátit se zpět. Z něm. *zaufen* (= odhánět zpět). Táborský používá pro popis vad orloje, kdy ručička „couvla skoro o hodinu\" — ukazatel se vrátil zpět místo aby pokračoval.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -2201,20 +2293,73 @@
       "varianty": [
         {
           "term": "herštuk",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. germanismus (Táborský 1570) z DE *Härtstück* (= kalený díl) — kalené ložiskové pouzdro pro čep hřídele.",
+          "doloženo": "Táborský 1570"
         },
         {
-          "term": "herštukové (mn. č.)",
-          "status": "admitted"
+          "term": "herštukové",
+          "status": "archaic",
+          "note": "Mn. číslo (Táborský: „herštukové, v kterých čepové … jdou\")."
+        },
+        {
+          "term": "kalené ložisko",
+          "status": "preferred",
+          "note": "Moderní cs popisný — kalená lůžková pánev."
+        },
+        {
+          "term": "pánev čepu",
+          "status": "preferred",
+          "note": "Moderní cs strojírenský — viz [hřídel](/slovnik/hridel)."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Härtstück",
+            "genus": "n",
+            "zdroj": "DE etymologický původ (kalený díl) — Táborského zdroj"
+          },
+          {
+            "term": "gehärtetes Lager",
+            "zdroj": "DE moderní — kalené ložisko"
+          },
+          {
+            "term": "Lagerschale",
+            "genus": "f",
+            "zdroj": "DE — ložisková pánev"
+          }
+        ],
+        "en": [
+          {
+            "term": "hardened bearing",
+            "zdroj": "EN — kalené ložisko"
+          },
+          {
+            "term": "pivot jewel",
+            "zdroj": "EN — kamenné lůžko (u hodinek; analogický koncept)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "palier trempé",
+            "genus": "m",
+            "zdroj": "FR — kalené ložisko"
+          },
+          {
+            "term": "contre-pivot",
+            "genus": "m",
+            "zdroj": "FR — protilůžko čepu"
+          }
+        ]
+      },
       "definice": "Kalené ložiskové pouzdro pro čep hřídele. Z něm. *Härtstück* (kalený díl). Táborský zaměnitelně používá *herštuk* a *puška* — obojí pro souosá ložiska indikátorů slunce/měsíce/zodiaku.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "puska-orloje",
-        "kstudle"
+        "kstudle",
+        "hridel"
       ],
       "isStub": true,
       "redirectTo": null
@@ -2647,20 +2792,83 @@
       "varianty": [
         {
           "term": "hranice",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. orlojový termín (Táborský 1570) — rám / kostra / skříň hodinového stroje. Sémanticky odpovídá DE *Käfig* (klec, klecový rám).",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "kajz",
+          "status": "archaic",
+          "note": "Staročes. germanismus (Táborský 1570) z DE *Käfig*. Synonymum k „hranice\".",
+          "doloženo": "Táborský 1570"
+        },
+        {
+          "term": "rám stroje",
+          "status": "preferred",
+          "note": "Moderní cs primární — viz [klecový rám](/slovnik/klecovy-ram) pro plnou typologii."
+        },
+        {
+          "term": "klecový rám",
+          "status": "preferred",
+          "note": "Specifický cs odborný termín pro typický rám věžních strojů 16.–18. století — viz [klecový rám](/slovnik/klecovy-ram)."
+        },
+        {
+          "term": "kostra stroje",
           "status": "admitted"
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Käfig",
+            "genus": "m",
+            "zdroj": "DE etymologický původ (klec, klecový rám) — Táborského zdroj"
+          },
+          {
+            "term": "Werkrahmen",
+            "genus": "m",
+            "zdroj": "DE moderní — rám stroje"
+          },
+          {
+            "term": "Werkgestell",
+            "genus": "n",
+            "zdroj": "DE — kostra / podstavec stroje"
+          }
+        ],
+        "en": [
+          {
+            "term": "cage frame",
+            "zdroj": "EN — klecový rám"
+          },
+          {
+            "term": "clock frame",
+            "zdroj": "EN — rám hodinového stroje"
+          },
+          {
+            "term": "movement frame",
+            "zdroj": "EN — moderní termín"
+          }
+        ],
+        "fr": [
+          {
+            "term": "cage",
+            "genus": "f",
+            "zdroj": "FR — klec / rám stroje"
+          },
+          {
+            "term": "bâti",
+            "genus": "m",
+            "zdroj": "FR — rám / kostra"
+          }
+        ]
+      },
       "definice": "Rám / kostra / skříň hodinového stroje, do níž jsou zasazeny jednotlivé chody (strany). Z něm. *Käfig* (= klec, schránka).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "strana-orloje",
-        "stroj-podsestava"
+        "stroj-podsestava",
+        "klecovy-ram"
       ],
       "isStub": true,
       "redirectTo": null
@@ -4265,24 +4473,78 @@
       "varianty": [
         {
           "term": "kštudle",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. germanismus (Táborský 1570) z DE *Studel* — drobné ložisko / držák čepu malých indikátorů orloje.",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "kštudlice",
-          "status": "admitted"
+          "status": "archaic"
         },
         {
           "term": "kštudlička",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Deminutiv (Táborský: „přinítována kštudlička\")."
+        },
+        {
+          "term": "lůžko (ložisko)",
+          "status": "preferred",
+          "note": "Moderní cs strojírenský ekvivalent — viz [hřídel](/slovnik/hridel)."
+        },
+        {
+          "term": "pánev čepu",
+          "status": "admitted",
+          "note": "Specifický cs termín pro lůžko čepu hodinového hřídele (Bureš, MR)."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Studel",
+            "genus": "m",
+            "zdroj": "DE etymologický původ (Táborského zdroj)"
+          },
+          {
+            "term": "Lager",
+            "genus": "n",
+            "zdroj": "DE moderní — ložisko"
+          },
+          {
+            "term": "Lagerschale",
+            "genus": "f",
+            "zdroj": "DE — ložisková pánev"
+          }
+        ],
+        "en": [
+          {
+            "term": "bearing",
+            "zdroj": "EN — ložisko"
+          },
+          {
+            "term": "pivot hole",
+            "zdroj": "EN — čepové lůžko (specificky hodinářské)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "palier",
+            "genus": "m",
+            "zdroj": "FR — ložisko"
+          },
+          {
+            "term": "pivot",
+            "genus": "m",
+            "zdroj": "FR — čepové lůžko"
+          }
+        ]
+      },
       "definice": "Drobné ložisko / držák čepu, obvykle přinýtovaný k rámu nebo prutu kola. Z něm. *Studel* (drobné lůžko). Táborský používá pro malá ložiska indikátorových pravidel.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "herstuk",
-        "puska-orloje"
+        "puska-orloje",
+        "hridel"
       ],
       "isStub": true,
       "redirectTo": null
@@ -4545,21 +4807,64 @@
       "varianty": [
         {
           "term": "lermo",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. orlojový termín (Táborský 1570) — synonymum k „[rykl](/slovnik/rykl)\"; etymologicky z DE *Lärm* / it. *allarme* (poplach, povyk). V hodinářském významu zcela archaický.",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "ryklík lermo",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Plný popisný — spouštěcí páčka označovaná jako „poplach\" (signál bití)."
+        },
+        {
+          "term": "spouštěcí západka",
+          "status": "preferred",
+          "note": "Moderní cs ekvivalent — viz [rykl](/slovnik/rykl) a [spoušť](/slovnik/spoust)."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Lärm",
+            "zdroj": "DE etymologický původ — poplach, hluk; signál bití"
+          },
+          {
+            "term": "Auslösung",
+            "genus": "f",
+            "zdroj": "DE moderní — spouštěcí ústrojí (Špatný 1882)"
+          }
+        ],
+        "en": [
+          {
+            "term": "alarm release",
+            "zdroj": "EN popisný — signální / poplašné spouštěcí ústrojí"
+          },
+          {
+            "term": "trigger",
+            "zdroj": "EN — spouštěč"
+          }
+        ],
+        "fr": [
+          {
+            "term": "déclencheur",
+            "genus": "m",
+            "zdroj": "FR — spouštěč"
+          },
+          {
+            "term": "alarme",
+            "genus": "f",
+            "zdroj": "FR etymologický kořen italského *allarme*"
+          }
+        ]
+      },
       "definice": "Poplašné / spouštěcí ústrojí bití — západka, která uvolní zámek bicího stroje. Z něm. *Lärm* nebo it. *allarme* (poplach, povyk). U Táborského synonymum s *ryklem*.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "rykl",
         "worff",
-        "palice-orloje"
+        "palice-orloje",
+        "spoust"
       ],
       "isStub": true,
       "redirectTo": null
@@ -4734,20 +5039,64 @@
       "varianty": [
         {
           "term": "lůžko",
-          "status": "admitted"
+          "status": "preferred",
+          "note": "Moderní cs strojírenský / hodinářský termín pro ložisko (pro čep hřídele). Specificky orlojový význam — držák kotouče měsíce — je staročes. užití (Táborský 1570)."
         },
         {
           "term": "luožko",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "16. století pravopis (Táborský 1570: „luožko měsícovo\").",
+          "doloženo": "Táborský 1570"
+        },
+        {
+          "term": "ložisko",
+          "status": "preferred",
+          "note": "Moderní cs synonymum k „lůžko\"; obvyklé ve strojírenství."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Lager",
+            "genus": "n",
+            "zdroj": "DE — ložisko (Špatný 1882, Berner FHS)"
+          },
+          {
+            "term": "Mondscheibenlager",
+            "genus": "n",
+            "zdroj": "DE specifický — lůžko měsíčního kotouče (orlojí)"
+          }
+        ],
+        "en": [
+          {
+            "term": "bearing",
+            "zdroj": "EN — ložisko"
+          },
+          {
+            "term": "moon disc bearing",
+            "zdroj": "EN — specifický orlojní význam"
+          }
+        ],
+        "fr": [
+          {
+            "term": "palier",
+            "genus": "m",
+            "zdroj": "FR — ložisko"
+          },
+          {
+            "term": "support",
+            "genus": "m",
+            "zdroj": "FR — držák"
+          }
+        ]
+      },
       "definice": "Drobné lůžko / držák kotouče měsíce. V něm rotuje kulička měsíce, čímž se na pukle (terči uprostřed číselníku) ukazuje fáze měsíce.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "pukla",
-        "pravidlo-orloje"
+        "pravidlo-orloje",
+        "hridel"
       ],
       "isStub": true,
       "redirectTo": null
@@ -4760,27 +5109,71 @@
       "varianty": [
         {
           "term": "majlit",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. germanismus (Táborský 1570) z DE *fehlen* (= chybět, mýlit se). Hodinářský technický termín pro chybný chod orloje.",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "zmajlit",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Derivativní forma — zkazit, popřehazovat (přesnost hodin)."
         },
         {
           "term": "nemajlit",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Negativní forma (Táborský: „aby hodiny … nemajlily\" = aby chodily přesně)."
         },
         {
           "term": "majlení",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Substantivum — chybný chod, odchylka."
+        },
+        {
+          "term": "mýlit se",
+          "status": "preferred",
+          "note": "Moderní cs obecný ekvivalent."
+        },
+        {
+          "term": "jít špatně",
+          "status": "preferred",
+          "note": "Hovorový moderní cs ekvivalent pro chybný chod hodin."
         }
       ],
-      "translations": {},
-      "definice": "Sloveso: chybit, jít nesprávně, ukazovat odchylně (o hodinách). Z něm. *fehlen* (= chybět, mýlit se). Táborský: \"aby hodiny … dobře bily a nemajlily.\"",
+      "translations": {
+        "de": [
+          {
+            "term": "fehlen",
+            "zdroj": "DE etymologický původ — chybět, mýlit se"
+          },
+          {
+            "term": "falsch gehen",
+            "zdroj": "DE — jít špatně (o hodinách)"
+          }
+        ],
+        "en": [
+          {
+            "term": "to run incorrectly",
+            "zdroj": "EN — jít špatně / chybně"
+          },
+          {
+            "term": "to err",
+            "zdroj": "EN — chybit / mýlit"
+          }
+        ],
+        "fr": [
+          {
+            "term": "marcher mal",
+            "zdroj": "FR — jít špatně (o hodinách)"
+          }
+        ]
+      },
+      "definice": "Sloveso: chybit, jít nesprávně, ukazovat odchylně (o hodinách). Z něm. *fehlen* (= chybět, mýlit se). Táborský: „aby hodiny … dobře bily a nemajlily.\"",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "bludit"
+        "bludit",
+        "coufati",
+        "isochronismus"
       ],
       "isStub": true,
       "redirectTo": null
@@ -7523,7 +7916,70 @@
           "note": "Varianta rafije."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Zeiger",
+            "genus": "m",
+            "zdroj": "DE primární — ručka (Špatný 1882: Zeiger → ručička, ručka; Berner FHS)"
+          },
+          {
+            "term": "Stundenzeiger",
+            "genus": "m",
+            "zdroj": "DE — hodinová ručka"
+          },
+          {
+            "term": "Minutenzeiger",
+            "genus": "m",
+            "zdroj": "DE — minutová ručka"
+          },
+          {
+            "term": "Sekundenzeiger",
+            "genus": "m",
+            "zdroj": "DE — vteřinová ručka"
+          }
+        ],
+        "en": [
+          {
+            "term": "hand",
+            "zdroj": "EN primární — ručka (Berner FHS)"
+          },
+          {
+            "term": "hour hand",
+            "zdroj": "EN — hodinová ručka"
+          },
+          {
+            "term": "minute hand",
+            "zdroj": "EN — minutová ručka"
+          },
+          {
+            "term": "second hand",
+            "zdroj": "EN — vteřinová ručka"
+          }
+        ],
+        "fr": [
+          {
+            "term": "aiguille",
+            "genus": "f",
+            "zdroj": "FR primární — ručka (Berner FHS)"
+          },
+          {
+            "term": "aiguille des heures",
+            "genus": "f",
+            "zdroj": "FR — hodinová ručka"
+          },
+          {
+            "term": "aiguille des minutes",
+            "genus": "f",
+            "zdroj": "FR — minutová ručka"
+          },
+          {
+            "term": "trotteuse",
+            "genus": "f",
+            "zdroj": "FR specifický — vteřinová ručka"
+          }
+        ]
+      },
       "definice": "Kovový ukazatel na číselníku hodin, který otáčením kolem středové osy indikuje aktuální čas. Standardní moderní cs termín je **ručka** (Sladkovský 1947; Boukal 1958; Skála 2005), staročeské varianty *rafije* / *rafika* dnes přežívají pouze v astronomickém kontextu velkých orlojů. Středověký pražský orloj používá v originálním zápisu Táborského 1570 termín **ruka** (bez deminutivu) — odkazuje na typický gotický motiv ruky s napřaženým ukazovákem na konci osy.",
       "vyznamy": null,
       "atestace": null,
@@ -7570,14 +8026,57 @@
       "varianty": [
         {
           "term": "rykl",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. germanismus (Táborský 1570) z DE *Rückel* — spouštěcí páčka bicího ústrojí orloje.",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "ryklík",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Deminutiv k „rykl\"."
+        },
+        {
+          "term": "spouštěcí západka",
+          "status": "preferred",
+          "note": "Moderní cs ekvivalent — viz [spoušť](/slovnik/spoust) + [raménko (zapadací)](/slovnik/ramenko)."
+        },
+        {
+          "term": "spouštěcí páka",
+          "status": "preferred",
+          "note": "MR 1964 termín pro funkční ekvivalent v moderním bicím stroji."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Rückel",
+            "genus": "m",
+            "zdroj": "DE etymologický původ — viz Špatný 1882 a Berner FHS"
+          },
+          {
+            "term": "Auslösehebel",
+            "genus": "m",
+            "zdroj": "DE moderní — spouštěcí páka"
+          }
+        ],
+        "en": [
+          {
+            "term": "release lever",
+            "zdroj": "EN — spouštěcí páka"
+          },
+          {
+            "term": "detent lever",
+            "zdroj": "EN — zachytávací páka"
+          }
+        ],
+        "fr": [
+          {
+            "term": "levier de déclenchement",
+            "genus": "m",
+            "zdroj": "FR — spouštěcí páka"
+          }
+        ]
+      },
       "definice": "Spouštěcí páčka / západka bicího ústrojí. Z něm. *Rückel*. Worff (kolík na boku kola) ji zvedne; když poté padne, vyrazí zámek bicího stroje a hodiny začnou bít.",
       "vyznamy": null,
       "atestace": null,
@@ -7585,7 +8084,9 @@
         "worff",
         "lermo",
         "palice-orloje",
-        "zamek-orloje"
+        "zamek-orloje",
+        "spoust",
+        "ramenko"
       ],
       "isStub": true,
       "redirectTo": null
@@ -7835,18 +8336,67 @@
       "varianty": [
         {
           "term": "skřipec",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. orlojový termín (Táborský 1570) — drobný železný třmen / spona / svorka pro upevnění pohyblivých částí orloje. Hapax legomenon hodinářské terminologie 16. století.",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "skřipeček",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Deminutiv (Táborský 1570: „skřípečkové železní malí\")."
         },
         {
-          "term": "skřípeček",
-          "status": "admitted"
+          "term": "třmen",
+          "status": "preferred",
+          "note": "Moderní cs strojírenský ekvivalent."
+        },
+        {
+          "term": "spona",
+          "status": "preferred",
+          "note": "Moderní cs alternativní ekvivalent."
+        },
+        {
+          "term": "úchyt",
+          "status": "admitted",
+          "note": "Funkčně blízký moderní termín."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Klammer",
+            "genus": "f",
+            "zdroj": "DE — spona / svorka"
+          },
+          {
+            "term": "Bügel",
+            "genus": "m",
+            "zdroj": "DE — třmen / oblouk"
+          }
+        ],
+        "en": [
+          {
+            "term": "clamp",
+            "zdroj": "EN — svorka / spona"
+          },
+          {
+            "term": "bracket",
+            "zdroj": "EN — úchyt / objímka"
+          }
+        ],
+        "fr": [
+          {
+            "term": "agrafe",
+            "genus": "f",
+            "zdroj": "FR — spona"
+          },
+          {
+            "term": "étrier",
+            "genus": "m",
+            "zdroj": "FR — třmen"
+          }
+        ]
+      },
       "definice": "Drobný železný třmen / spona / svorka — upevňuje pohyblivé části orloje (např. ráfek s počtem hodin) k pevné konstrukci. Hapax legomenon hodinářské terminologie 16. století.",
       "vyznamy": null,
       "atestace": null,
@@ -8152,23 +8702,58 @@
       "varianty": [
         {
           "term": "štegrad",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. germanismus (Táborský 1570) z DE *Steigrad* — krokové kolo. Specificky druhé kolo orloje, do něhož zabírá trýb (pastorek).",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "štegrád",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Variantní pravopis (Táborský používá obě formy)."
+        },
+        {
+          "term": "krokové kolo",
+          "status": "preferred",
+          "note": "Moderní cs primární termín — viz [krokové kolo](/slovnik/krokove-kolo)."
         }
       ],
-      "translations": {},
-      "definice": "Staročeské označení pro krokové kolo (něm. *Steigrad*). U Táborského 1570 je to druhé kolo orloje, do něhož zabírá trýb (pastorek) a které předává impuls krokovému ústrojí.",
+      "translations": {
+        "de": [
+          {
+            "term": "Steigrad",
+            "genus": "n",
+            "zdroj": "DE etymologický původ — Steigrad přesně odpovídá českému „krokové kolo\" (Špatný 1882: Steigrad → kolo stupní; Sladkovský 1947)"
+          },
+          {
+            "term": "Hemmungsrad",
+            "genus": "n",
+            "zdroj": "DE moderní — krokové kolo (Berner FHS)"
+          }
+        ],
+        "en": [
+          {
+            "term": "escape wheel",
+            "zdroj": "EN — krokové kolo (Berner FHS, Saunier 1887)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "roue d''échappement",
+            "genus": "f",
+            "zdroj": "FR — krokové kolo (Berner FHS, Gros 1913)"
+          }
+        ]
+      },
+      "definice": "Staročeské označení pro krokové kolo (něm. *Steigrad*). U Táborského 1570 je to druhé kolo orloje, do něhož zabírá trýb (pastorek) a které předává impuls krokovému ústrojí. **V moderní češtině se nepoužívá** — viz [krokové kolo](/slovnik/krokove-kolo).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "tryb",
-        "krok"
+        "krok",
+        "krokove-kolo"
       ],
       "isStub": true,
-      "redirectTo": null
+      "redirectTo": "krokove-kolo"
     },
     "strana-orloje": {
       "lemma": "strana (orlojní)",
@@ -8767,20 +9352,62 @@
       "varianty": [
         {
           "term": "tepati",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. sloveso (Táborský 1570) v hodinářském významu: bíti, odbíjet (z praslovan. *těp-* = tloukat). V moderní cs zachováno jen v obecných významech (puls tepe, kovotepectví).",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "hodiny tepou",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Spojení Táborského: hodiny bijí na zvon.",
+          "doloženo": "Táborský 1570"
+        },
+        {
+          "term": "bíti",
+          "status": "preferred",
+          "note": "Moderní cs sloveso (Sladkovský 1947, Bureš/MR)."
+        },
+        {
+          "term": "odbíjet",
+          "status": "preferred",
+          "note": "Moderní cs primární — viz [odbíjení](/slovnik/odbijeni)."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "schlagen",
+            "zdroj": "DE — bíti (Špatný 1882: Schlagen → bíti)"
+          }
+        ],
+        "en": [
+          {
+            "term": "to strike",
+            "zdroj": "EN — bíti / odbíjet"
+          },
+          {
+            "term": "to toll",
+            "zdroj": "EN — pomalu odbíjet (typicky pohřeb)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "sonner",
+            "zdroj": "FR — bíti / zvonit"
+          },
+          {
+            "term": "frapper",
+            "zdroj": "FR — udeřit"
+          }
+        ]
+      },
       "definice": "Sloveso v archaickém významu: bíti, odbíjet. *Hodiny tepou* = hodiny bijí (na zvon). Z praslovan. *těp-* (= bít, tloukat).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "zvon-orloje",
-        "kladivko-orloje"
+        "kladivko-orloje",
+        "odbijeni"
       ],
       "isStub": true,
       "redirectTo": null
@@ -10107,27 +10734,76 @@
       "varianty": [
         {
           "term": "vyhloditi",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. sloveso (Táborský 1570) popisující opotřebení čepu nebo lůžka rotujícím hřídelem.",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "vyhlodaný",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Přídavné jméno — vybroušený opotřebením."
         },
         {
           "term": "vyjeden",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Synonymum — Táborský 1570: „vyjedli neb vychodili náramně velmi\"."
         },
         {
           "term": "vychozen",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Synonymum — opotřebovaný chůzí (rotace) hřídele."
+        },
+        {
+          "term": "opotřebený",
+          "status": "preferred",
+          "note": "Moderní cs ekvivalent — viz Bureš/MR pro opotřebení čepu a lůžka."
+        },
+        {
+          "term": "vybroušený",
+          "status": "preferred",
+          "note": "Konkrétní moderní cs označení pro mechanické opotřebení."
+        },
+        {
+          "term": "vyběhlý",
+          "status": "admitted",
+          "note": "Žargonový moderní cs — typicky o čepu („čep vyběhl z lůžka\")."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "abgenutzt",
+            "zdroj": "DE — opotřebený"
+          },
+          {
+            "term": "ausgelaufen",
+            "zdroj": "DE — vyběhlý (typicky o čepu)"
+          }
+        ],
+        "en": [
+          {
+            "term": "worn",
+            "zdroj": "EN — opotřebený"
+          },
+          {
+            "term": "worn out",
+            "zdroj": "EN — zcela opotřebený"
+          }
+        ],
+        "fr": [
+          {
+            "term": "usé",
+            "zdroj": "FR — opotřebený"
+          }
+        ]
+      },
       "definice": "Slovesa popisující opotřebení hodinářských součástí: čep nebo herštuk se „vyhlodal\" = vybrousil tahem rotujícího hřídele do nepoužitelného stavu. Synonyma: *vyjeden*, *vychozen* (opotřebovaný).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "v-hertu-kalen"
+        "v-hertu-kalen",
+        "hridel",
+        "luozko"
       ],
       "isStub": true,
       "redirectTo": null
@@ -10140,14 +10816,63 @@
       "varianty": [
         {
           "term": "vyklusati",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. sloveso (Táborský 1570) — uvolnit se, vykloubit se, vypadnout ze svého místa. Etymologicky souvisí s „klouzat\" / „klusati\".",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "vyklusalo",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Tvar minulého času (Táborský 1570: „volovo … to bylo vyklusalo\")."
+        },
+        {
+          "term": "vykloubit se",
+          "status": "preferred",
+          "note": "Moderní cs ekvivalent."
+        },
+        {
+          "term": "uvolnit se",
+          "status": "preferred",
+          "note": "Obecný moderní cs."
+        },
+        {
+          "term": "vypadnout",
+          "status": "preferred",
+          "note": "Konkrétní moderní cs."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "sich lösen",
+            "zdroj": "DE — uvolnit se"
+          },
+          {
+            "term": "ausfallen",
+            "zdroj": "DE — vypadnout"
+          }
+        ],
+        "en": [
+          {
+            "term": "to come loose",
+            "zdroj": "EN — uvolnit se"
+          },
+          {
+            "term": "to fall out",
+            "zdroj": "EN — vypadnout"
+          }
+        ],
+        "fr": [
+          {
+            "term": "se détacher",
+            "zdroj": "FR — uvolnit se"
+          },
+          {
+            "term": "tomber",
+            "zdroj": "FR — spadnout / vypadnout"
+          }
+        ]
+      },
       "definice": "Sloveso: uvolnit se, vykloubit se, vypadnout ze svého místa. U Táborského konkrétně o olověné protiváze, která se v kole měsíce uvolnila a vypadla.",
       "vyznamy": null,
       "atestace": null,
@@ -10313,25 +11038,75 @@
       "varianty": [
         {
           "term": "worff",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. germanismus (Táborský 1570) z DE *Worf* — kolík v boku kola, který v určitý okamžik zvedne ryklík (spouštěcí páčku).",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "worf",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Pravopisná varianta (Táborský používá obě formy)."
         },
         {
           "term": "hřebík (v boku kola)",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Táborského popisná forma pro stejný element."
+        },
+        {
+          "term": "spouštěcí palec",
+          "status": "preferred",
+          "note": "Moderní cs ekvivalent — viz [palec](/slovnik/palec) (na ručkovém pastorku zvedá spouštěcí páku bicího stroje)."
+        },
+        {
+          "term": "zdvih",
+          "status": "admitted",
+          "note": "Strojírenský moderní termín."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Worf",
+            "genus": "m",
+            "zdroj": "DE etymologický původ (Táborského zdroj)."
+          },
+          {
+            "term": "Auslösenocken",
+            "genus": "m",
+            "zdroj": "DE moderní — spouštěcí palec"
+          },
+          {
+            "term": "Hebenagel",
+            "genus": "m",
+            "zdroj": "DE — zvedací kolík (Špatný 1882)"
+          }
+        ],
+        "en": [
+          {
+            "term": "release pin",
+            "zdroj": "EN — spouštěcí kolík"
+          },
+          {
+            "term": "lifting pin",
+            "zdroj": "EN — zvedací kolík"
+          }
+        ],
+        "fr": [
+          {
+            "term": "cheville de déclenchement",
+            "genus": "f",
+            "zdroj": "FR — spouštěcí kolík"
+          }
+        ]
+      },
       "definice": "Zdvih / kolík v boku kola, který v určitý okamžik zvedne ryklík (spouštěcí páčku) bicího ústrojí. Z něm. *Worf*. U Staroměstského orloje rotující sluneční kolo má v boku worff, jenž každou hodinu spustí bití.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "rykl",
         "lermo",
-        "palice-orloje"
+        "palice-orloje",
+        "palec"
       ],
       "isStub": true,
       "redirectTo": null
@@ -10622,15 +11397,60 @@
       "varianty": [
         {
           "term": "zfalšovati",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. germanismus (Táborský 1570) z DE *fälschen* (= falšovat, padělat). V hodinářském významu: pokazit nekompetentní opravou.",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "zfalšován",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Pasivní tvar (Táborský: „byl ten stroj … zfalšován\")."
+        },
+        {
+          "term": "zkazit",
+          "status": "preferred",
+          "note": "Moderní cs ekvivalent."
+        },
+        {
+          "term": "poškodit nekompetentní opravou",
+          "status": "preferred",
+          "note": "Plný moderní cs popisný."
+        },
+        {
+          "term": "zfušovat",
+          "status": "admitted",
+          "note": "Hovorový moderní cs (zase germanismus z DE *fuschen*)."
         }
       ],
-      "translations": {},
-      "definice": "Sloveso: udělat falešně, zkazit pokus o opravu, sestavit chybně. Táborský pohrdlivě o stavu orloje po předchozí nekompetentní opravě: \"byl ten stroj … zfalšován\".",
+      "translations": {
+        "de": [
+          {
+            "term": "verpfuschen",
+            "zdroj": "DE — zfušovat / pokazit"
+          },
+          {
+            "term": "falsch zusammenbauen",
+            "zdroj": "DE — chybně sestavit"
+          }
+        ],
+        "en": [
+          {
+            "term": "to botch",
+            "zdroj": "EN — zfušovat"
+          },
+          {
+            "term": "to assemble incorrectly",
+            "zdroj": "EN — chybně sestavit"
+          }
+        ],
+        "fr": [
+          {
+            "term": "bâcler",
+            "zdroj": "FR — zfušovat / udělat ledabyle"
+          }
+        ]
+      },
+      "definice": "Sloveso: udělat falešně, zkazit pokus o opravu, sestavit chybně. Táborský pohrdlivě o stavu orloje po předchozí nekompetentní opravě: „byl ten stroj … zfalšován\".",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -10648,15 +11468,55 @@
       "varianty": [
         {
           "term": "zmotrchati",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. sloveso (Táborský 1570) — zamotat, popřehazovat, dát do nepořádku. Etymologicky z „motati\" + „trchati\" (zachvátit).",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "zamotrchán",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Pasivní tvar (Táborský: „provázky zamotrchán\")."
+        },
+        {
+          "term": "zamotat",
+          "status": "preferred",
+          "note": "Moderní cs ekvivalent."
+        },
+        {
+          "term": "popřehazovat",
+          "status": "preferred",
+          "note": "Specifický moderní cs."
         }
       ],
-      "translations": {},
-      "definice": "Sloveso: zamotat, popřehazovat, dát do nepořádku. U Táborského konkrétně o spouštěcích strúnách (drátech) orloje, které předchozí opravář promíchal: \"provázky zamotrchán\".",
+      "translations": {
+        "de": [
+          {
+            "term": "verheddern",
+            "zdroj": "DE — zamotat (provazy, lana)"
+          },
+          {
+            "term": "durcheinanderbringen",
+            "zdroj": "DE — popřehazovat"
+          }
+        ],
+        "en": [
+          {
+            "term": "to tangle",
+            "zdroj": "EN — zamotat"
+          },
+          {
+            "term": "to mess up",
+            "zdroj": "EN — popřehazovat"
+          }
+        ],
+        "fr": [
+          {
+            "term": "emmêler",
+            "zdroj": "FR — zamotat"
+          }
+        ]
+      },
+      "definice": "Sloveso: zamotat, popřehazovat, dát do nepořádku. U Táborského konkrétně o spouštěcích strúnách (drátech) orloje, které předchozí opravář promíchal: „provázky zamotrchán\".",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [

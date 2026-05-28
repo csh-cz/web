@@ -3,9 +3,33 @@ title: zmotrchati, zamotrchán
 slug: zmotrchati
 kategorie: mechanika
 varianty:
-  - zmotrchati
-  - zamotrchán
-definice: "Sloveso: zamotat, popřehazovat, dát do nepořádku. U Táborského konkrétně o spouštěcích strúnách (drátech) orloje, které předchozí opravář promíchal: \"provázky zamotrchán\"."
+  - term: zmotrchati
+    status: archaic
+    note: 'Staročes. sloveso (Táborský 1570) — zamotat, popřehazovat, dát do nepořádku. Etymologicky z „motati" + „trchati" (zachvátit).'
+    doloženo: 'Táborský 1570'
+  - term: zamotrchán
+    status: archaic
+    note: 'Pasivní tvar (Táborský: „provázky zamotrchán").'
+  - term: zamotat
+    status: preferred
+    note: 'Moderní cs ekvivalent.'
+  - term: popřehazovat
+    status: preferred
+    note: 'Specifický moderní cs.'
+prekladyDe:
+  - term: verheddern
+    zdroj: 'DE — zamotat (provazy, lana)'
+  - term: durcheinanderbringen
+    zdroj: 'DE — popřehazovat'
+prekladyEn:
+  - term: to tangle
+    zdroj: 'EN — zamotat'
+  - term: to mess up
+    zdroj: 'EN — popřehazovat'
+prekladyFr:
+  - term: emmêler
+    zdroj: 'FR — zamotat'
+definice: 'Sloveso: zamotat, popřehazovat, dát do nepořádku. U Táborského konkrétně o spouštěcích strúnách (drátech) orloje, které předchozí opravář promíchal: „provázky zamotrchán".'
 pribuzne:
   - struna-orloje
   - zfalsovati
