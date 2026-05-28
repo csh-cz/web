@@ -6,10 +6,15 @@ kategorie: mechanika
 varianty:
   - term: palec
     status: preferred
+    note: 'Obecný cs odborný termín.'
     doloženo: 'Skála 2013 („palec přetočí patnáctizubovou rohatku"); Sladkovský 1947'
-  - term: otáčecí palec
+  - term: spouštěcí palec
     status: preferred
-    note: 'Synonymum zdůrazňující funkci.'
+    note: 'Specifická forma pro palec na ručkovém pastorku, který zvedá spouštěcí páku [bicího stroje](/slovnik/bici-stroj). Martínek–Řehoř 1964 systematicky.'
+    doloženo: 'Martínek–Řehoř 1964, s. 93–94 (obr. 86 „Bicí stroj půlový")'
+  - term: otáčecí palec
+    status: admitted
+    note: 'Synonymum zdůrazňující funkci (Skála 2013).'
     doloženo: 'Skála 2013'
   - term: zvedací palec
     status: admitted
@@ -39,6 +44,11 @@ pribuzne:
   - kolicek-vypustny
   - bici-stroj
 references:
+  - key: martinek-rehor-1964
+    title: 'Základy hodinářství'
+    citace: 'Spouštěcí palec ručkového pastorku pomalu zdvihá spouštěcí páku, která svým druhým ramenem nadzdvihuje zapadací páku, až její kolík vystoupí ze zářezu vačky. Tím jsou vačka a náběžné kolo uvolněny.'
+    pages: '93–94'
+    zoteroKey: LXZWE6KE
   - key: skala-2013
     title: 'Malé závěrkové kolečko na bicím stroji pražského orloje'
     citace: 'Při každém úderu na cimbál přetočí palec patnáctizubovou rohatku o jeden zub … Kolečko musí být totiž stále mazáno, protože po stranách jeho zubů klouže otáčecí palec a klín západky.'
@@ -68,6 +78,9 @@ V bicím stroji tvoří palec dvojici s [rohatkou](/slovnik/rohatka) (palec ji o
 [rohatka](/slovnik/rohatka) · [klín západky](/slovnik/klin-zapadky) · [raménko](/slovnik/ramenko) · [kolíček vypouštěcí](/slovnik/kolicek-vypustny) · [bicí stroj](/slovnik/bici-stroj)
 
 ## Reference
+
+> „**Spouštěcí palec** ručkového pastorku pomalu zdvihá spouštěcí páku, která svým druhým ramenem nadzdvihuje zapadací páku, až její kolík vystoupí ze zářezu vačky. Tím jsou vačka a náběžné kolo uvolněny."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964, s. 93–94 (obr. 86 „Bicí stroj půlový").
 
 > „Při každém úderu na cimbál přetočí **palec** patnáctizubovou rohatku o jeden zub … Kolečko musí být totiž stále mazáno, protože po stranách jeho zubů klouže **otáčecí palec** a klín západky."
 > — SKÁLA, Petr. *Malé závěrkové kolečko na bicím stroji pražského orloje.* Pokroky matematiky, fyziky a astronomie 58 (2013), č. 3, s. 228, 230.

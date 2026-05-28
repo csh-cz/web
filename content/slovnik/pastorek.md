@@ -40,6 +40,14 @@ references:
     title: 'Německo-český slovník pro hodináře a pouzdráře hodinářské'
     citace: 'Trieb — pastorek.'
     zoteroKey: W6VEJ854
+  - key: sladkovsky-1947
+    title: 'Učebnice odborné nauky hodinářské'
+    citace: 'V praksi stanovíme výšku klenutí kola, pohánějícího pastorek o 6 nebo 7 zubech 0,45 rozdělení, pro 8 až 10zubý pastorek 0,5 rozdělení a pro 12 a 14zubý pastorek 0,55 a 0,57 rozdělení. Šířka zubu pastorku rovná se 1/6 rozdělení.'
+    zoteroKey: VIBRCUZT
+  - key: martinek-rehor-1964
+    title: 'Základy hodinářství'
+    citace: 'U hlavního soukolí je každé ozubené kolo hnací, kdežto pastorek je hnaný. Ozubené kolo bývá obvykle mosazné, pastorek ocelový (obvykle kalený). Kalená leštěná ocel má při styku s tvrdou mosazí výhodné třecí podmínky.'
+    zoteroKey: LXZWE6KE
   - key: berner
     title: 'Illustrated Professional Dictionary of Horology / Dictionnaire professionnel illustré de l''horlogerie'
     citace: 'pinion n. pignon n. m. Trieb m. Toothed wheel of small diameter, generally driven by a wheel of larger diameter. The teeth of a pinion are called leaves.'
@@ -72,6 +80,12 @@ V starší české hodinářské terminologii (Táborský 1570) se používal te
 
 > „**Trieb** — pastorek."
 > — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882.
+
+> „V praksi stanovíme výšku klenutí kola, pohánějícího **pastorek o 6 nebo 7 zubech 0,45 rozdělení, pro 8 až 10zubý pastorek 0,5 rozdělení a pro 12 a 14zubý pastorek 0,55 a 0,57 rozdělení**. **Šířka zubu pastorku rovná se 1/6 rozdělení**."
+> — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947 (heslo doloženo 105×).
+
+> „U hlavního soukolí je každé ozubené kolo hnací, kdežto **pastorek je hnaný**. Ozubené kolo bývá obvykle **mosazné**, **pastorek ocelový (obvykle kalený)**. Kalená leštěná ocel má při styku s tvrdou mosazí výhodné třecí podmínky."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964.
 
 > „**pinion** n. **pignon** n. m. **Trieb** m. Toothed wheel of small diameter, generally driven by a wheel of larger diameter. The teeth of a pinion are called leaves."
 > — BERNER, G.-A. *Illustrated Professional Dictionary of Horology.* Federation of the Swiss Watch Industry (FH). Online: dictionary.fhs.swiss (heslo „pinion").

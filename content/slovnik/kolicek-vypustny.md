@@ -4,15 +4,21 @@ slug: kolicek-vypustny
 conceptId: HORO-RELEASE-001
 kategorie: bici
 varianty:
-  - term: kolíček vypouštěcí
-    status: preferred
-    doloženo: 'Skála 2013'
   - term: vypouštěcí kolíček
     status: preferred
+    note: 'Termín užívaný Burešem 1974 (sériový signálový stroj).'
+    doloženo: 'Bureš 1974'
+  - term: kolíček vypouštěcí
+    status: preferred
+    note: 'Inverzní slovosled — bez sémantického rozdílu, rovnocenné.'
   - term: kolíček
     status: admitted
-    note: 'Krátká forma v kontextu, kde je význam zřejmý („kolíček na hlavním kole").'
+    note: 'Krátká forma v kontextu, kde je význam zřejmý („kolíček na hlavním kole zvonicího stroje" — Skála 2013).'
     doloženo: 'Skála 2013'
+  - term: spouštěcí palec
+    status: admitted
+    note: 'Funkční synonymum u kapesních/stojanových hodin: Martínek-Řehoř 1964 popisuje obdobnou součást na ručkovém pastorku jako [spouštěcí palec](/slovnik/palec). Tvarově palec ≠ kolíček, ale funkce je shodná.'
+    doloženo: 'Martínek-Řehoř 1964'
 prekladyDe:
   - term: Auslösestift
     genus: m
@@ -35,6 +41,15 @@ pribuzne:
   - spoust
   - bici-stroj
 references:
+  - key: bures-1974
+    title: 'Hodinové stroje III'
+    citace: '[Signálový stroj má] … 14 - perovník; 15 - vypouštěcí páčka; 16 - vypouštěcí kolíček; 17 - vačka.'
+    zoteroKey: WDDY29VD
+  - key: martinek-rehor-1964
+    title: 'Základy hodinářství'
+    citace: 'Spouštěcí palec ručkového pastorku pomalu zdvihá spouštěcí páku, která svým druhým ramenem nadzdvihuje zapadací páku.'
+    pages: '93–94'
+    zoteroKey: LXZWE6KE
   - key: skala-2013
     title: 'Malé závěrkové kolečko na bicím stroji pražského orloje'
     citace: 'Když byl bicí stroj přemístěn z věže k orloji (pravděpodobně v roce 1629), bylo vypouštění na palici změněno na vypouštění s náběhem, prováděné kolíčkem na hlavním kole zvonicího stroje. V roce 1865 pak bylo (v důsledku změny způsobu vypouštění — nově kolíky na slunečním kole) změněno uchycení zapadacího raménka.'
@@ -72,6 +87,12 @@ Skála 2013 zachycuje **tři fáze evoluce vypouštění** Pražského orloje:
 [palec](/slovnik/palec) (obecnější — palec = vyčnívající součást, kolíček = jeho válcová forma) · [raménko](/slovnik/ramenko) (zapadací × výpustné × bicí) · [spoušť](/slovnik/spoust) · [bicí stroj](/slovnik/bici-stroj)
 
 ## Reference
+
+> „[Signálový stroj má] … 14 — perovník; 15 — vypouštěcí páčka; 16 — **vypouštěcí kolíček**; 17 — vačka."
+> — BUREŠ, Josef. *Hodinové stroje III.* SPN, Praha 1974 (popis sériového signálového stroje).
+
+> „**Spouštěcí palec** ručkového pastorku pomalu zdvihá spouštěcí páku, která svým druhým ramenem nadzdvihuje zapadací páku."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964, s. 93–94 (kapesní hodiny, funkční analogie).
 
 > „Když byl bicí stroj přemístěn z věže k orloji (pravděpodobně v roce 1629), bylo vypouštění na palici změněno na **vypouštění s náběhem, prováděné kolíčkem na hlavním kole zvonicího stroje**. V roce 1865 pak bylo (v důsledku změny způsobu vypouštění — nově **kolíky na slunečním kole**) změněno uchycení zapadacího raménka a raménko je nyní upevněno na dlouhém vodorovném rameni otočně uloženém na střední svislé plotně rámu."
 > — SKÁLA, Petr. *Malé závěrkové kolečko na bicím stroji pražského orloje.* Pokroky matematiky, fyziky a astronomie 58 (2013), č. 3, s. 228.
