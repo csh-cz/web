@@ -71,6 +71,14 @@ references:
     note: "Used in almost all watches and chronometers."
     url: "https://dictionary.fhs.swiss/?l=en"
     key: berner-fhs
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Švýcarský krok jako moderní standard kapesních a náramkových hodinek; volný kotvový krok s lopatkovými zuby krokového kola — popud sdílen mezi paletou a šikmou plochou zubu, což výrazně zlepšuje energetickou bilanci proti anglickému kotvovému kroku (Mudge ~1755).'
+    key: bures-1965
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Schweizer Ankerhemmung / freie Ankerhemmung — most k DE/EN/FR terminologii (Swiss lever escapement, échappement à ancre suisse). Pozn.: cs „švýcarský krok" = DE „freie/Schweizer Ankerhemmung" = EN „detached lever / Swiss lever escapement" — v moderním úzu jsou si synonyma.'
+    key: mr-1968
 ---
 
 ## Výklad

@@ -58,6 +58,18 @@ references:
     note: "ID 1248 — escapement → crown wheel/verge escapement; první historicky známý typ."
     url: "https://dictionary.fhs.swiss/?l=en"
     key: berner-fhs
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Vřetenový krok jako historický prekurzor všech kotvových kroků; vratný princip s vysokou ztrátou energie a omezenou přesností, ale extrémně robustní a tolerantní k výrobním nepřesnostem (proto základ středověkých věžních hodin 13.–17. století).'
+    key: bures-1965
+  - bibKey: martinekRehor1964
+    title: "Martínek B., Řehoř J., *Základy hodinářství*. SNTL, Praha 1964."
+    note: 'Vřetenový krok — popis kinematiky: každý zub korunového kola působí na paletu pod úhlem 90°, vahadlo (lihýř) nebo později kyvadlo dostává impuls po každém přechodu nulou.'
+    key: mr-1964
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Spindelgang / Spindelhemmung — most k DE/EN/FR terminologii (verge escapement, échappement à verge, crown wheel escapement).'
+    key: mr-1968
 ---
 
 ## Výklad

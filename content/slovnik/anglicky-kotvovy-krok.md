@@ -72,6 +72,14 @@ references:
     note: "Its parts are the same as in the Swiss lever escapement. The difference is in the shape of the escape wheel teeth, which are pointed. The impulse is taken entirely by the pallet stones."
     url: "https://dictionary.fhs.swiss/?l=en"
     key: berner-fhs
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Mudgeův (anglický) kotvový krok jako první volný (detached) krok pro kapesní hodinky — setrvačka je v kontaktu s krokem pouze v okamžiku popudu a odjištění, mezi nimi kýve volně. Předchůdce moderního švýcarského kroku.'
+    key: bures-1965
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'englische Ankerhemmung / Mudge lever escapement — most k DE/EN/FR terminologii (English lever escapement, échappement à ancre anglais).'
+    key: mr-1968
 ---
 
 ## Výklad

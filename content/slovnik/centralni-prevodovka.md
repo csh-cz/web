@@ -32,6 +32,18 @@ references:
     year: 1859
     type: kniha
     note: "Klasická anglická hodinářská učebnice — kompletní analýza standardního soukolí včetně středového kola (centre wheel)."
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Bureš popisuje centrální (minutové) kolo jako referenční bod hodinového soukolí — otáčí se 1× za hodinu, kolem něho se uspořádává celé jicí soukolí. Plný výklad u hesla [minutové kolo](/slovnik/minutove-kolo).'
+    key: bures-1965
+  - bibKey: martinekRehor1964
+    title: "Martínek B., Řehoř J., *Základy hodinářství*. SNTL, Praha 1964."
+    note: 'Centrální / minutové kolo jako Z₂ v běžném uspořádání hlavního soukolí (obr. 46, s. 67): hnací — minutové — mezilehlé — vteřinové — krokové kolo.'
+    key: mr-1964
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Zentralrad / Minutenrad — most k DE/EN/FR terminologii (centre wheel, roue de centre). Pozn.: cs „centrální převodovka" je popisný úzus; primární odborný termín je [minutové kolo](/slovnik/minutove-kolo).'
+    key: mr-1968
 ---
 
 ## Stručně
