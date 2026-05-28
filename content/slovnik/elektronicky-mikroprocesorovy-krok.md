@@ -54,6 +54,14 @@ references:
     url: "https://kralovstvihodin.cz/slovnicek/"
     note: 'Heslo „motorek krokový" — související komponenta.'
     key: kh-elektronicky
+  - bibKey: bures1974hodinoveStrojeIII
+    title: "Bureš J., *Hodinové stroje III*. SPN, Praha 1974."
+    note: 'Elektronické hodinové stroje — referenční zdroje (krystalový oscilátor 32 768 Hz), krokový motor, mikroprocesorové řízení; historický vývoj od kontaktních (Hipp) přes diodové k mikroprocesorovým.'
+    key: bures-1974
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'elektronische Hemmung / electronic escapement / échappement électronique — most k DE/EN/FR terminologii (pozn. MR 1968 ještě popisuje raná elektrická řešení, ne plně mikroprocesorová).'
+    key: mr-1968
 ---
 
 ## Výklad
