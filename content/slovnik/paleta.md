@@ -51,6 +51,9 @@ Materiál palety:
 > „Ankerlappen → ozub kotvičný; Ankerlappenstein → kamínek ozubový; Ankerschräge → úkos kotvičný."
 > — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882.
 
+> „**V ramenech [krátkoramenné kotvy] jsou profrézovány drážky pro palety, které jsou do drážek vsazeny a přitaženy ocelovou destičkou a dvěma šroubky. Toto řešení usnadňuje i opravu kroku** — vychozené plochy popudu můžeme přebrousit a paletu vysunout."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965, s. 179.
+
 ## Obrázky
 
 *(zatím chybí — návrh: schéma palet kotvy ze Sladkovského 1947 nebo Sauniera 1887)*
