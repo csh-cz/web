@@ -60,9 +60,38 @@ Materiál: tradičně **kalená ocel** (Lutz 1847 razil kalený vlásek), pro ne
 
 Princip izochronismu vlasové pružinky popsal **Édouard Phillips 1860** (terminální křivka pro Breguetův vlásek).
 
+### Pět rušivých vlivů vlásku (Bureš 1974)
+
+Bureš 1974 (kap. „Rušivé vlivy vlásku", s. 23–24) systematicky popisuje **pět hlavních zdrojů nerovnodobosti** kývajícího systému setrvačka-vlásek:
+
+1. **Proměnlivost momentu setrvačnosti** — při kývání setrvačky se vlásek rozvinuje a svinuje („dýchá"); při rozvinutí moment vzrůstá více než při svinutí (úchylka **2–3 s/d** při zmenšení rozkyvu z 270° na 150°, viditelná hlavně u šroubových válečkových vlásků).
+2. **Předpětí vlásku** v místech upevnění — vlásek pevně zasazen v nosníku, vzniká nesouměrné rozvinování při otáčení setrvačky.
+3. **Pohyb těžiště vlásku** — vlivem gravitace u svisle umístěného stroje.
+4. **Upevnění vlásku v rolničce** — způsobuje nesouměrnost v ohybu jednotlivých závitů.
+5. **Proměnlivost čepového tření** u setrvačky.
+
+> *„Největší vliv na rovnodobost, popřípadě i nerovnodobost kyvů má vlásek. Nemůžeme však hovořit izolovaně o vlásku bez setrvačky, proto se budeme zabývat oběma současně."*
+> — Bureš 1974
+
+### Vzorec doby kyvu setrvačky (Bureš 1974)
+
+Pro dobu trvání kyvu setrvačky s vláskem Bureš 1974 uvádí vzorec (s. 9):
+
+$$T = 2\pi \sqrt{\frac{I}{D}}, \quad D = \frac{E \cdot b \cdot h^3}{12 \cdot L}$$
+
+kde *D* = direkční moment vlásku, *E* = modul pružnosti, *b* = šířka, **h = tloušťka (ve třetí mocnině!)**, *L* = délka vlásku.
+
+> *„Při výběru vlásku k určité setrvačce hraje hlavní roli jeho **tloušťka s**, jež je ve vztahu obsažena ve **třetí mocnině**."*
+> — Bureš 1974, s. 9
+
+### Pravidla pro výběr vlásku (Bureš 1974)
+
+- **a)** Co nejmenší vnější průměr, ale současně co nejvíce otáček.
+- **b)** Výška co nejmenší, ale **vlásek radši tlustší** (tj. preferovat tloušťku před výškou).
+
 ## Příbuzné termíny
 
-[setrvačka], [vlásek Breguetův], [izochronismus], [invar], [zpruha] (obecnější)
+[setrvačka](/slovnik/setrvacka) · [vlásek Breguetův] · [izochronismus] · [invar](/slovnik/invar) · [zpruha] (obecnější)
 
 ## Reference
 
@@ -77,6 +106,15 @@ Princip izochronismu vlasové pružinky popsal **Édouard Phillips 1860** (termi
 
 > „Phillips 1860, isochronismus malých i velkých kyvů"
 > — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
+
+> „Kývající systém **'setrvačka - vlásek'** podléhá ještě většímu množství rušivých vlivů než kyvadlo, a proto je dosažení izochronismu nepoměrně složitější otázkou. **Největší vliv na rovnodobost, popřípadě i nerovnodobost kyvů má vlásek.** Nemůžeme však hovořit izolovaně o vlásku bez setrvačky, proto se budeme zabývat oběma současně."
+> — BUREŠ, Josef. *Hodinové stroje III.* SPN, Praha 1974, s. 6, kap. *Izochronismus setrvačky s vláskem*.
+
+> „Při výběru vlásku k určité setrvačce hraje hlavní roli jeho **tloušťka *s*, jež je ve vztahu obsažena ve třetí mocnině**. Je-li vlásek již vybrán, je pro nás nejdůležitější jeho délka, kterou je možno měnit, a tak provádět hrubou regulaci."
+> — BUREŠ, Josef. *Hodinové stroje III.* SPN, Praha 1974, s. 9.
+
+> „Rušivé vlivy vlásku: 1. Proměnlivost momentu setrvačnosti. 2. Předpětí vlásku v místech jeho upevnění. 3. Pohyb těžiště vlásku. 4. Upevnění vlásku v rolničce. 5. Proměnlivost čepového tření u setrvačky."
+> — BUREŠ, Josef. *Hodinové stroje III.* SPN, Praha 1974, s. 23–24, kap. *Rušivé vlivy vlásku*.
 
 ### Phillipsova matematika — 3 podmínky pro isochronní vlásek
 
