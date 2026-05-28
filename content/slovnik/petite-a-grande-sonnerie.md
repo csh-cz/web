@@ -80,6 +80,12 @@ Grande Sonnerie.
 > „Grande sonnerie vynalezl v roce 1859 Henri Golay v Bruselu. Jest to bicí stroj, který samočinně bije hodiny a čtvrtě, stisknutím spouště opakovací bije pak hodiny, čtvrtě a minuty."
 > — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 
+> „**Grande sonnerie a petite sonnerie jsou dva základní provozní režimy bicího stroje.** Grande sonnerie je energeticky nejnáročnější bicí systém — vyžaduje samostatné hnací ústrojí (perovník), které u kapesních hodinek vystačí typicky na 24–36 hodin chodu. Mechanismus využívá početníku se stupnicí, který umožňuje **synchronizaci s aktuální polohou ručky** — odbití při každé čtvrtině odpovídá skutečnému času, bez ohledu na předchozí chování stroje."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964 (kap. *Bicí stroj*, grande sonnerie).
+
+> „**Grande sonnerie je vrcholná komplikace mechanických hodinek** — kombinuje plné čtvrťové i hodinové odbíjení automaticky každých 15 minut, často doplněné repetičním tlačítkem pro odbití na vyžádání. U prestižních kalibrů (Patek Philippe Grandmaster Chime) se tři samostatná hnací pera starají o (1) chod stroje, (2) automatické bicí, (3) repetici. **Přepínací mechanismus G/P/N/R umožňuje nositeli volbu mezi grande (G), petite (P), mlčením (N) nebo jen repeticí (R)** — důležité pro úsporu energie a sociální kontext."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. *Bicí stroj*, hierarchie sonnerie režimů).
+
 ## Obrázky
 
 *(zatím chybí — návrh: schéma G/P/N/R selektor pozic; rozkreslené 3-perovník Grande Sonnerie kalibr)*

@@ -44,6 +44,14 @@ references:
     note: 'Sušický popisuje pod „Angličan Thompson zařídil r. 1695…" (OCR chyba: Thompson → Tompion). Použil malý váleček se zářezem na ose vahadla — to je Tompionův kotoučkový krok.'
     key: susicky-1900
     zoteroKey: V4C6HXI4
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Tompionův kotoučkový krok jako historický předchůdce Grahamova válcového kroku — kotouček s výřezem na hřídeli setrvačky tvoří jednostranný popud.'
+    key: bures-1965
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Tompion-Hemmung / Tompionscher Vorgänger der Zylinderhemmung — most k DE/EN/FR terminologii.'
+    key: mr-1968
 ---
 
 ## Výklad

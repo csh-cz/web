@@ -41,6 +41,18 @@ references:
     url: "https://kralovstvihodin.cz/slovnicek/"
     note: "„krok mannhardtův — krok s občasným impulsem udíleným kyvadlu jednou za 30 nebo 60 sekund. V intervalu mezi impulsy koná kyvadlo pohyb nezávislý na hodinovém stroji. Autorem kroku je mnichovský hodinář Johann Mannhardt (1798–1878)."
     key: kh-mannhardtuv
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Mannhardtův krok jako německá obdoba volného kroku pro velké věžní hodiny — kyvadlo dostává občasný impulz, mezi impulzy kýve volně.'
+    key: bures-1965
+  - bibKey: martinekRehor1964
+    title: "Martínek B., Řehoř J., *Základy hodinářství*. SNTL, Praha 1964."
+    note: 'Mannhardtův věžní krok — popis konstrukce s občasným popudem (30 nebo 60 s); paralelní řešení k Denisonovu gravitačnímu kroku.'
+    key: mr-1964
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Mannhardt-Hemmung / Mannhardt-Gravitationshemmung — most k DE/EN/FR terminologii.'
+    key: mr-1968
 ---
 
 ## Výklad

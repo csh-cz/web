@@ -34,6 +34,18 @@ pribuzne:
 references:
   - bibKey: 'taborskyzklokotskehoryZpravaStaromestskemOrloji1570'
     note: "Středověký kontext odbíjení Staroměstského orloje (kombinace čtvrťových a hodinových úderů)."
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Odbíjení jako akt zvukového hlášení času; dělení podle vzorů (hodinové, čtvrťové, půlové, Westminster); součinnost jicího a bicího stroje přes spouštěcí palec.'
+    key: bures-1965
+  - bibKey: martinekRehor1964
+    title: "Základy hodinářství"
+    note: 'Bicí mechanika podrobně (kap. *Bicí stroj*, obr. 86 *„Bicí stroj půlový"*); časování úderů, intervaly, vztah ke kroku.'
+    key: mr-1964
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Schlagen / Stundenschlag / striking — most k DE/EN/FR terminologii.'
+    key: mr-1968
 ---
 
 ## Druhy odbíjení

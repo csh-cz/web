@@ -39,6 +39,14 @@ references:
     url: "https://kralovstvihodin.cz/slovnicek/"
     note: "„krok dvoupákový (systém chevalier de béthune) — nejstarší druh ze skupiny rohatkových kroků s plochým krokovým kolem s čelním ozubením. Připisován Chevalierovi de Béthune."
     key: kh-de-bethune
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'De Béthunův dvoupákový krok jako experimentální rohatková konstrukce 18. století s plochým krokovým kolem a dvěma páčkami; historicky málo rozšířen, ale dokumentuje hledání alternativ ke klasické geometrii kroku.'
+    key: bures-1965
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Béthune-Hemmung / doppelhebelige Hemmung — most k DE/EN/FR terminologii.'
+    key: mr-1968
 ---
 
 ## Výklad

@@ -50,6 +50,14 @@ references:
     pages: "ID 1248 — virgule escapement (1750), double-virgule escapement (1752)"
     url: "https://dictionary.fhs.swiss/?l=en"
     key: berner-fhs
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Čárkový krok (virgule) jako francouzská přechodová konstrukce 18. století mezi vretenovým a válcovým krokem — popudné raménko ve tvaru čárky předává jednostranný popud.'
+    key: bures-1965
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Virgelgang / Virgelhemmung — most k DE/EN/FR (virgule escapement, échappement à virgule).'
+    key: mr-1968
 ---
 
 ## Výklad

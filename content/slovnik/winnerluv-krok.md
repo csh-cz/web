@@ -28,6 +28,18 @@ references:
     url: "/sbirka/karta/inv-A035-vezni-mikulasovice/"
     type: odkaz
     note: "Praktická ukázka — věžní stroj firmy [Mannhardt](/hodinari/mannhardt) z r. 1864 s Winnerlovým krokem, dochovaný ve sbírce ČSH."
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Winnerlův krok jako rakousko-francouzský předchůdce Denisonova gravitačního kroku — dvě závažíčka na ramenech předávají kyvadlu konstantní gravitační impuls.'
+    key: bures-1965
+  - bibKey: martinekRehor1964
+    title: "Martínek B., Řehoř J., *Základy hodinářství*. SNTL, Praha 1964."
+    note: 'Winnerlův krok — princip dvouramenné gravitační páky pro přesné astronomické a věžní hodiny.'
+    key: mr-1964
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Winnerl-Hemmung / Winnerlsche Schwerkraft-Hemmung — most k DE/EN/FR terminologii.'
+    key: mr-1968
 ---
 
 ## Stručně

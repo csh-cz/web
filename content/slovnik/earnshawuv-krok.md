@@ -60,6 +60,18 @@ references:
     note: "„A delicate escapement used in chronometers. It is composed of a wheel with pointed teeth that rest on a jewel called the locking stone (ruby). This jewel is carried by the detent leaf, to which the detent spring is attached."
     url: "https://dictionary.fhs.swiss/?l=en"
     key: berner-fhs
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Earnshawův pružinový detent — nejpřesnější mechanický krok díky volnému kýmu setrvačky mimo dva krátké okamžiky (odjištění + popud).'
+    key: bures-1965
+  - bibKey: martinekRehor1964
+    title: "Martínek B., Řehoř J., *Základy hodinářství*. SNTL, Praha 1964."
+    note: 'Earnshawův krok jako volný zarážkový — pružinová zástavka, detentový rubínový kámen, jednosměrný popud.'
+    key: mr-1964
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Earnshaw-Hemmung / Federchronometer — most k DE/EN/FR terminologii (spring detent escapement, échappement à détente à ressort).'
+    key: mr-1968
 ---
 
 ## Výklad

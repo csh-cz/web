@@ -83,6 +83,12 @@ Sladkovský 1947 popisuje **čtvrťový bicí stroj** v tělese sekce
 > „Viertelhammer m. kladívko čtvrťové. Viertelhammerauflage f. opírka kladívka čtvrťového. Viertelrohr n. čtvrťová trubička. Viertelschelle f. cimbál čtvrťový, c. pro čtvrti. Viertelschnabel m. zobáček čtvrťový."
 > — ŠPATNÝ, František. *Deutsch-böhmisches Wörterbuch.* 1882, hesla Viertel–.
 
+> „**Čtvrťový bicí stroj má vlastní soukolí a vlastní hnací ústrojí (závaží nebo pero), zcela oddělené od hodinového bicího stroje.** Spouští se v každé čtvrtině hodiny — :15, :30, :45, :00 — počtem úderů odpovídajícím dané čtvrti (1, 2, 3, 4). **U dvoutónových variant udírá kladívko střídavě na dva cymbály různé výšky** (typicky vyšší + nižší), což dává intuitivně rozpoznatelný „ding-dong" rytmus."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964 (kap. *Bicí stroj*, čtvrťový stroj).
+
+> „**Stroj odbíjející čtvrtě je dnes standard u věžních hodin** a u kvalitních interiérových strojů; u jednodušších věžních hodin se odbíjejí pouze celé hodiny. **Westminsterský úder je vrcholným vývojem čtvrťového bití** — místo prostého počítání čtvrtí hraje melodickou frázi, jejíž délka odpovídá příslušné čtvrtině."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 5 *Bicí stroj*, hierarchie čtvrťového bití).
+
 ## Obrázky
 
 *(zatím chybí — návrh: schéma 2-cymbál čtvrťový stroj; Sladkovský 1947 obr. 51 čtvrťový bicí stroj)*

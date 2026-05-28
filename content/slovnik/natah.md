@@ -26,6 +26,18 @@ pribuzne:
 references:
   - bibKey: 'skalaVezniHodinyZamku1996'
     note: "Skála 1996: Stroj zámku Poděbrady má pětidenní chod + automatický nátah se stabilizátorem hnací síly."
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Nátah jako akt dodání energie hodinovému stroji — popis závažového, pružinového, automatického (rotor) a elektrického nátahu; kap. *Hnací ústrojí*.'
+    key: bures-1965
+  - bibKey: martinekRehor1964
+    title: "Martínek B., Řehoř J., *Základy hodinářství*. SNTL, Praha 1964."
+    note: 'Nátahové ústrojí — rohatka s západkou pro zajištění proti zpětnému odvíjení; korunkový nátah u kapesních hodinek (Adrien Phillipe 1842).'
+    key: mr-1964
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Aufzug / winding / remontage — most k DE/EN/FR terminologii (Selbstaufzug = automatický nátah).'
+    key: mr-1968
 ---
 
 ## Typy nátahu

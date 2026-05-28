@@ -51,6 +51,18 @@ references:
     url: "https://kralovstvihodin.cz/slovnicek/"
     note: "„krok chronometrický berthoudův — volný chronometrický krok Ferdinanda Berthouda (1727–1807), odvozený principiálně z poznatků francouzského hodináře Le Roye."
     key: kh-berthouduv
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Berthoudův čepový detent jako francouzská varianta volného zarážkového kroku — robustnější ale výrobně náročnější než Earnshawova pružinová.'
+    key: bures-1965
+  - bibKey: martinekRehor1964
+    title: "Martínek B., Řehoř J., *Základy hodinářství*. SNTL, Praha 1964."
+    note: 'Čepový (pivoted) chronometrický krok — varianta s otočným čepem zástavky, odolnější vůči vibracím.'
+    key: mr-1964
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Berthoud-Hemmung / Zapfenchronometer — most k DE/EN/FR (pivoted detent escapement, échappement à détente pivotée).'
+    key: mr-1968
 ---
 
 ## Výklad

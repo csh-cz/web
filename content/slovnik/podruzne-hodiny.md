@@ -30,6 +30,14 @@ references:
   - bibKey: 'knesplJanProkesHodinar2018'
     type: clanek
     note: "Vývoj cs elektrochronie 1950+ (Pragotron, Elektročas)."
+  - bibKey: bures1974hodinoveStrojeIII
+    title: "Bureš J., *Hodinové stroje III*. SPN, Praha 1974."
+    note: 'Podružné hodiny v elektrochronických systémech — krokový motor, polaritou střídající impulz, převod 6° na minutový impuls; rozdíl mezi master clock a synchronními sítěmi.'
+    key: bures-1974
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Nebenuhr / Tochteruhr / slave clock / horloge secondaire — most k DE/EN/FR terminologii.'
+    key: mr-1968
 ---
 
 ## Princip funkce

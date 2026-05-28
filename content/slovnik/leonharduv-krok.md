@@ -34,6 +34,14 @@ references:
     url: "https://kralovstvihodin.cz/slovnicek/"
     note: "„krok kotvový leonhardův — volný kotvový Grahamův krok v modifikaci německého hodináře F. Leonharda se segmentovými zakřivenými paletami."
     key: kh-leonharduv
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Leonhardův krok jako modifikace Grahamova klidového kroku se segmentovými paletami — využívaný v kvalitních německých stojacích regulátorech.'
+    key: bures-1965
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Leonhard-Hemmung — most k DE/EN/FR terminologii.'
+    key: mr-1968
 ---
 
 ## Výklad

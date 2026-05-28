@@ -81,6 +81,12 @@ zvonů.
 původ Cambridge 1793–1794 a adopce Big Benem 1859 je dokumentována
 v anglosaské literatuře — viz Hawkins R. *Big Ben. The Great Clock and the Bells of Westminster*, 2009.)
 
+> „**Westminsterský úder je čtyřtónová melodie odbíjená v každé čtvrtině hodiny s postupně rostoucí délkou (1, 2, 3, 4 fráze).** U věžních hodin vyžaduje zvonkohru se čtyřmi cymbály různé výšky, válec s předem nastavenými kolíčky pro jednotlivé fráze a samostatný zvonicí stroj. **Tóny G♯, F♯, E, B (v originální Big Benově tonalitě) odpovídají úryvku z árie Händelova Mesiáše** — adoptováno z Cambridge 1793 pro Westminster Palace 1859."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964 (kap. *Bicí stroj*, zvonkohra s předem nastavenou melodií).
+
+> „**Westminsterský úder vyžaduje samostatný zvonicí stroj s vlastním pohonem** — bicí stroj odbíjí pouze počet hodin, zvonicí stroj hraje čtvrťové fráze. Synchronizace mezi oběma stroji je řízena spouštěcími palci na střídném kole. **U menších věžních hodin se používá zjednodušená varianta** — namísto čtyř cymbálů jen dva tóny (vyšší pro čtvrtě, nižší pro celé hodiny)."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 5 *Bicí stroj*, Westminster a její konstrukce).
+
 ## Obrázky
 
 *(zatím chybí — návrh: foto 4 cymbálů Big Benu; notová zápis Westminster chime; pendule Patek Grandmaster Chime)*

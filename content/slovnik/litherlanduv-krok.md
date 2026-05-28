@@ -36,6 +36,14 @@ references:
     url: "https://kralovstvihodin.cz/slovnicek/"
     note: '„krok chronometrický litherlandův — konstrukce odvozena z klasického tvaru kotvového kroku s ostrozubým krokovým kolem.'
     key: kh-litherlanduv
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Litherlandův rack lever krok jako levnější britská alternativa k Earnshawovu chronometru — užíván v liverpoolské tradici 19. století.'
+    key: bures-1965
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Litherland-Hemmung / rack lever escapement — most k DE/EN/FR terminologii.'
+    key: mr-1968
 ---
 
 ## Výklad

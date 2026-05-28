@@ -55,6 +55,18 @@ references:
     title: "Království hodin — Slovníček"
     url: "https://kralovstvihodin.cz/slovnicek/"
     key: kh-hipp
+  - bibKey: bures1974hodinoveStrojeIII
+    title: "Bureš J., *Hodinové stroje III*. SPN, Praha 1974."
+    note: 'Hippův přerušovač jako historický předchůdce elektromechanických a elektronických kroků; volný krok aktivovaný kontaktní pružinou při poklesu amplitudy kyvadla.'
+    key: bures-1974
+  - bibKey: martinekRehor1964
+    title: "Martínek B., Řehoř J., *Základy hodinářství*. SNTL, Praha 1964."
+    note: 'Hippův elektrický krok jako příklad přechodu od čistě mechanického k elektromechanickému hodinovému stroji (1843).'
+    key: mr-1964
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Hipp-Schalter / Hippsche Hemmung — most k DE/EN/FR terminologii (Hipp toggle, échappement électrique de Hipp).'
+    key: mr-1968
 ---
 
 ## Výklad

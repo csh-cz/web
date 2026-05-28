@@ -48,6 +48,14 @@ references:
     url: "https://kralovstvihodin.cz/slovnicek/"
     note: '„krok kotvový černoleský — krok s kotvou svinutou z ocelového plechu. Typický prvek lidového jihoněmeckého hodinářství ze Schwarzwaldu (odtud název černoleský krok). Zaveden na přelomu 18. a 19. století, kde vystřídal krok vřetenový.'
     key: kh-cernolesky
+  - bibKey: bures1965hodinoveStrojeI
+    title: "Bureš J., *Hodinové stroje I*. SPN, Praha 1965."
+    note: 'Černoleský krok jako lidová varianta vratného kotvového kroku s kotvou svinutou z ocelového plechu — typický pro Schwarzwaldské lidové hodiny 19. století.'
+    key: bures-1965
+  - bibKey: martinekRehor1968
+    title: "Martínek B., Řehoř J., *Mechanische Uhren*. SNTL/DE překlad, Praha 1968."
+    note: 'Schwarzwälder Hemmung / Blechanker — most k DE/EN/FR terminologii.'
+    key: mr-1968
 ---
 
 ## Výklad
