@@ -3,9 +3,41 @@ title: oblouk (vobloukek)
 slug: oblouk-orloje
 kategorie: mechanika
 varianty:
-  - oblouk
-  - vobloukek
-definice: "Železný díl ve tvaru oblouku spojující dva pruty trojprutého kola; nese ryklík a drobné ložisko (kštudlici). U Staroměstského orloje vyrobený v rámci Táborského oprav 16. století."
+  - term: oblouk
+    status: archaic
+    note: 'Staročes. orlojový termín (Táborský 1570) — železný díl ve tvaru oblouku spojující dva pruty trojprutého kola.'
+    doloženo: 'Táborský 1570'
+  - term: vobloukek
+    status: archaic
+    note: '16. století pravopis s protetickým „v-", deminutiv.'
+    doloženo: 'Táborský 1570'
+  - term: třmen
+    status: preferred
+    note: 'Moderní cs strojírenský ekvivalent — třmen / obloukový spojovací prvek.'
+  - term: oblouk konstrukce
+    status: admitted
+prekladyDe:
+  - term: Bügel
+    genus: m
+    zdroj: 'DE — třmen / oblouk / svorka'
+  - term: Bogen
+    genus: m
+    zdroj: 'DE — oblouk (geometrický)'
+prekladyEn:
+  - term: bow
+    zdroj: 'EN — oblouk'
+  - term: brace
+    zdroj: 'EN — třmen / svornice'
+  - term: arch
+    zdroj: 'EN — oblouk'
+prekladyFr:
+  - term: arc
+    genus: m
+    zdroj: 'FR — oblouk'
+  - term: étrier
+    genus: m
+    zdroj: 'FR — třmen'
+definice: 'Železný díl ve tvaru oblouku spojující dva pruty trojprutého kola; nese ryklík a drobné ložisko (kštudlici). U Staroměstského orloje vyrobený v rámci Táborského oprav 16. století.'
 pribuzne:
   - prut-orloje
   - kstudle
@@ -17,6 +49,10 @@ references:
     note: "Rukopis AHMP, fond 3 (Sbírka úředních knih a rukopisů), sign. 1867."
   - bibKey: teigeJanaTaborskehoKlokotske1901
     note: "Tištěná edice s úvodem (J. Teige, Praha 1901)."
+  - bibKey: spatny1882nemeckoCeskySlovnik
+    title: 'Špatný F., *Německo-český slovník pro hodináře a pouzdráře hodinářské*. 1882.'
+    note: 'Hesla Bügel, Bogen — DE odpovídající Táborského „oblouk" jako konstrukční prvek; v moderní cs nahrazeno „třmen" / „svornice".'
+    key: spatny-1882
 ---
 
 ## Výklad

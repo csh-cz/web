@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-28T20:28:17.371Z",
+    "generated": "2026-05-28T20:37:00.946Z",
     "count": 217,
     "stubs": 75,
     "redirects": 12,
@@ -2227,20 +2227,54 @@
       "varianty": [
         {
           "term": "hever",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. termín (Táborský 1570) z DE *Heber* (= zdvih, páka, zvedák). Moderní cs hodinářství: natahovací mechanismus s redukcí.",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "kolo heverní",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Specifický Táborského termín pro pomocný převod natahování."
         }
       ],
-      "translations": {},
-      "definice": "Pákový převod / mechanismus s vyšším převodovým poměrem, který usnadňuje natahování závaží. Z něm. *Heber* (= zdviž, páka). Táborský sám hever vymyslil a zapsal: \"vymyslil sem kolo heverní … aby pacholík natáhne sám\".",
+      "translations": {
+        "de": [
+          {
+            "term": "Heber",
+            "genus": "m",
+            "zdroj": "DE — zdvih, páka; etymologický původ cs \"hever\""
+          },
+          {
+            "term": "Aufzugsuntersetzung",
+            "genus": "f",
+            "zdroj": "DE moderní popisný — natahovací převod do pomala"
+          }
+        ],
+        "en": [
+          {
+            "term": "winding reduction gear",
+            "zdroj": "EN popisný — převod usnadňující ruční natahování"
+          },
+          {
+            "term": "winding crank with reduction",
+            "zdroj": "EN popisný"
+          }
+        ],
+        "fr": [
+          {
+            "term": "démultiplication de remontage",
+            "genus": "f",
+            "zdroj": "FR popisný — redukce při natahování"
+          }
+        ]
+      },
+      "definice": "Pákový převod / mechanismus s vyšším převodovým poměrem, který usnadňuje natahování závaží. Z něm. *Heber* (= zdviž, páka). Táborský sám hever vymyslil a zapsal: „vymyslil sem kolo heverní … aby pacholík natáhne sám\".",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "rumpal",
-        "vaha-orloje"
+        "vaha-orloje",
+        "natah"
       ],
       "isStub": true,
       "redirectTo": null
@@ -3129,20 +3163,64 @@
       "varianty": [
         {
           "term": "kladivo",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. orlojový termín (Táborský 1570) pro vnější úderník na zvon ve věži (oproti „palici\" = vnitřní spouštěcí prvek).",
+          "doloženo": "Táborský 1570"
         },
         {
-          "term": "kladivko",
-          "status": "admitted"
+          "term": "kladívko",
+          "status": "preferred",
+          "note": "Moderní cs hodinářský termín — viz hlavní heslo [kladívko](/slovnik/kladivko)."
+        },
+        {
+          "term": "bicí kladívko",
+          "status": "preferred",
+          "note": "Plný cs termín — explicitní označení úderné funkce."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Schlaghammer",
+            "genus": "m",
+            "zdroj": "DE — bicí kladivo (Špatný 1882: Hammer-, Schlag-)"
+          },
+          {
+            "term": "Glockenhammer",
+            "genus": "m",
+            "zdroj": "DE — zvonové kladivo (specificky věžní)"
+          }
+        ],
+        "en": [
+          {
+            "term": "bell hammer",
+            "zdroj": "EN — zvonové kladivo"
+          },
+          {
+            "term": "striking hammer",
+            "zdroj": "EN — bicí kladivo"
+          }
+        ],
+        "fr": [
+          {
+            "term": "marteau de cloche",
+            "genus": "m",
+            "zdroj": "FR — zvonové kladivo"
+          },
+          {
+            "term": "marteau de sonnerie",
+            "genus": "m",
+            "zdroj": "FR — bicí kladivo"
+          }
+        ]
+      },
       "definice": "Bicí kladivo — úderník zvonu věžních hodin. Táborský používá synonymně s *palicí*, ale rozlišuje *kladivo* primárně pro vnější úderník na zvonu (na věži) a *palici* pro vnitřní spouštěcí prvek bicího ústrojí.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "palice-orloje",
-        "zvon-orloje"
+        "zvon-orloje",
+        "kladivko"
       ],
       "isStub": true,
       "redirectTo": null
@@ -3340,20 +3418,74 @@
       "varianty": [
         {
           "term": "klínek",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. termín (Táborský 1570) pro drobnou dřevěnou pojistnou zástrčku.",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "klín dřevěný",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Plný popisný — dřevěný materiál byl ve středověku typický."
+        },
+        {
+          "term": "pojistný kolík",
+          "status": "preferred",
+          "note": "Moderní cs ekvivalent — funkčně odpovídá Táborského klínku (Bureš, MR)."
+        },
+        {
+          "term": "kolík",
+          "status": "preferred",
+          "note": "Univerzální cs strojírenský termín (válcový pojistný element)."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Holzkeil",
+            "genus": "m",
+            "zdroj": "DE — dřevěný klín; historický typ pojistky"
+          },
+          {
+            "term": "Stift",
+            "genus": "m",
+            "zdroj": "DE moderní — kolík"
+          },
+          {
+            "term": "Sicherungsstift",
+            "genus": "m",
+            "zdroj": "DE — pojistný kolík"
+          }
+        ],
+        "en": [
+          {
+            "term": "wooden wedge",
+            "zdroj": "EN — dřevěný klín"
+          },
+          {
+            "term": "locking pin",
+            "zdroj": "EN — pojistný kolík"
+          }
+        ],
+        "fr": [
+          {
+            "term": "cale en bois",
+            "genus": "f",
+            "zdroj": "FR — dřevěný klín"
+          },
+          {
+            "term": "goupille",
+            "genus": "f",
+            "zdroj": "FR — kolík"
+          }
+        ]
+      },
       "definice": "Pojistný klín — drobná dřevěná zástrčka, kterou Táborský používá k zajištění klíčových kol (např. kalendářového kola) proti otočení na hřídeli.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "klustice",
-        "hridelik-orloje"
+        "hridelik-orloje",
+        "klin-zapadky"
       ],
       "isStub": true,
       "redirectTo": null
@@ -5328,14 +5460,66 @@
       "varianty": [
         {
           "term": "oblouk",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. orlojový termín (Táborský 1570) — železný díl ve tvaru oblouku spojující dva pruty trojprutého kola.",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "vobloukek",
+          "status": "archaic",
+          "note": "16. století pravopis s protetickým „v-\", deminutiv.",
+          "doloženo": "Táborský 1570"
+        },
+        {
+          "term": "třmen",
+          "status": "preferred",
+          "note": "Moderní cs strojírenský ekvivalent — třmen / obloukový spojovací prvek."
+        },
+        {
+          "term": "oblouk konstrukce",
           "status": "admitted"
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Bügel",
+            "genus": "m",
+            "zdroj": "DE — třmen / oblouk / svorka"
+          },
+          {
+            "term": "Bogen",
+            "genus": "m",
+            "zdroj": "DE — oblouk (geometrický)"
+          }
+        ],
+        "en": [
+          {
+            "term": "bow",
+            "zdroj": "EN — oblouk"
+          },
+          {
+            "term": "brace",
+            "zdroj": "EN — třmen / svornice"
+          },
+          {
+            "term": "arch",
+            "zdroj": "EN — oblouk"
+          }
+        ],
+        "fr": [
+          {
+            "term": "arc",
+            "genus": "m",
+            "zdroj": "FR — oblouk"
+          },
+          {
+            "term": "étrier",
+            "genus": "m",
+            "zdroj": "FR — třmen"
+          }
+        ]
+      },
       "definice": "Železný díl ve tvaru oblouku spojující dva pruty trojprutého kola; nese ryklík a drobné ložisko (kštudlici). U Staroměstského orloje vyrobený v rámci Táborského oprav 16. století.",
       "vyznamy": null,
       "atestace": null,
@@ -5909,18 +6093,57 @@
       "varianty": [
         {
           "term": "palice",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. orlojový termín (Táborský 1570) — vnitřní spouštěcí prvek bicího ústrojí (NE vnější kladívko na zvon).",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "palčík",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Deminutiv k „palec\" — drobnější verze spouštěcího prvku."
         },
         {
-          "term": "kladívko spouště",
-          "status": "admitted"
+          "term": "spouštěcí palec",
+          "status": "preferred",
+          "note": "Moderní cs ekvivalent (Bureš, MR 1964) — viz [palec](/slovnik/palec)."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Auslösenocken",
+            "genus": "m",
+            "zdroj": "DE — spouštěcí palec; běžné u staročes. věžních strojů"
+          },
+          {
+            "term": "Hebenagel",
+            "genus": "m",
+            "zdroj": "DE — zvedací kolík (Špatný 1882)"
+          }
+        ],
+        "en": [
+          {
+            "term": "lifting pin",
+            "zdroj": "EN — zvedací kolík"
+          },
+          {
+            "term": "release pin",
+            "zdroj": "EN — spouštěcí kolík"
+          }
+        ],
+        "fr": [
+          {
+            "term": "doigt de déclenchement",
+            "genus": "m",
+            "zdroj": "FR — spouštěcí palec"
+          },
+          {
+            "term": "cheville d''entraînement",
+            "genus": "f",
+            "zdroj": "FR — zvedací kolík"
+          }
+        ]
+      },
       "definice": "Spouštěcí kladívko / palec, kterým worff zvedá rykl. Když palice po pádu vyrazí zámek bicího stroje, orloj odbije patřičný počet úderů.",
       "vyznamy": null,
       "atestace": null,
@@ -5928,7 +6151,8 @@
         "worff",
         "rykl",
         "zamek-orloje",
-        "kladivko"
+        "kladivko",
+        "palec"
       ],
       "isStub": true,
       "redirectTo": null
@@ -6554,20 +6778,64 @@
       "varianty": [
         {
           "term": "prut",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. termín (Táborský 1570) — rameno / paprsek rotujícího kola, zejména trojpaprskového kola sphery (astroláb).",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "rameno",
-          "status": "admitted"
+          "status": "preferred",
+          "note": "Moderní cs hodinářský termín pro paprsek kola (Bureš, Martínek-Řehoř)."
+        },
+        {
+          "term": "paprsek",
+          "status": "admitted",
+          "note": "Synonymum k „rameno\"; běžné v restaurátorské literatuře."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Speiche",
+            "genus": "f",
+            "zdroj": "DE moderní — rameno / paprsek kola"
+          },
+          {
+            "term": "Radarm",
+            "genus": "m",
+            "zdroj": "DE — paprsek kola"
+          }
+        ],
+        "en": [
+          {
+            "term": "spoke",
+            "zdroj": "EN standardní — paprsek kola"
+          },
+          {
+            "term": "wheel arm",
+            "zdroj": "EN popisný"
+          }
+        ],
+        "fr": [
+          {
+            "term": "rayon",
+            "genus": "m",
+            "zdroj": "FR — paprsek"
+          },
+          {
+            "term": "bras de roue",
+            "genus": "m",
+            "zdroj": "FR popisný"
+          }
+        ]
+      },
       "definice": "Rameno / paprsek kola. U Táborského *kolo tréprutové* = kolo se třemi rameny (paprsky), na kterém sedí indikátory orloje.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "oblouk-orloje",
-        "sphera"
+        "sphera",
+        "krokove-kolo"
       ],
       "isStub": true,
       "redirectTo": null
@@ -6624,17 +6892,65 @@
       "varianty": [
         {
           "term": "puška",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. orlojový termín (Táborský 1570) pro dutý hřídel / souosé pouzdro indikátorů. Mimo orlojový kontext v moderní cs nevyskytuje (slovo „puška\" má dnes jen význam střelné zbraně).",
+          "doloženo": "Táborský 1570"
+        },
+        {
+          "term": "pouzdro hřídele",
+          "status": "preferred",
+          "note": "Moderní cs ekvivalent — pouzdro souosých hřídelí."
+        },
+        {
+          "term": "dutá trubka",
+          "status": "admitted",
+          "note": "Synonymum užívané pro úzkou soustředenou konstrukci (např. minutová trubka)."
         }
       ],
-      "translations": {},
-      "definice": "Dutý hřídel / souosé pouzdro nesoucí indikátory (slunce, měsíc, zodiak) na společné ose. Táborský pokládá *pušku* za klíčový a nejvíce \"tajemný\" konstrukční prvek Staroměstského orloje.",
+      "translations": {
+        "de": [
+          {
+            "term": "Hülse",
+            "genus": "f",
+            "zdroj": "DE moderní — pouzdro hřídele; trubice koaxiální"
+          },
+          {
+            "term": "Achshülse",
+            "genus": "f",
+            "zdroj": "DE specifický — osové pouzdro"
+          }
+        ],
+        "en": [
+          {
+            "term": "hollow shaft",
+            "zdroj": "EN — dutý hřídel"
+          },
+          {
+            "term": "shaft sleeve",
+            "zdroj": "EN — pouzdro hřídele"
+          }
+        ],
+        "fr": [
+          {
+            "term": "arbre creux",
+            "genus": "m",
+            "zdroj": "FR — dutý hřídel"
+          },
+          {
+            "term": "douille",
+            "genus": "f",
+            "zdroj": "FR — pouzdro"
+          }
+        ]
+      },
+      "definice": "Dutý hřídel / souosé pouzdro nesoucí indikátory (slunce, měsíc, zodiak) na společné ose. Táborský pokládá *pušku* za klíčový a nejvíce „tajemný\" konstrukční prvek Staroměstského orloje.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "herstuk",
         "kstudle",
-        "sphera"
+        "sphera",
+        "minutova-trubka"
       ],
       "isStub": true,
       "redirectTo": null
@@ -7986,36 +8302,83 @@
       "varianty": [
         {
           "term": "strúna",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "16. století pravopis (Táborský 1570) — pro pohyblivý mechanický přenos (vyražení zámku).",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "struna",
-          "status": "admitted"
+          "status": "preferred",
+          "note": "Moderní cs pravopis pro drobnou kovovou vlákno-tažnou součást."
         },
         {
           "term": "drát",
-          "status": "admitted"
+          "status": "preferred",
+          "note": "Pevné spojovací táhlo (drát) — moderní cs."
         },
         {
           "term": "lano",
-          "status": "admitted"
+          "status": "preferred",
+          "note": "Závažové lano / pohon orloje přes vál a rumpál."
         },
         {
           "term": "provaz",
-          "status": "admitted"
-        },
-        {
-          "term": "provázky",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. ekvivalent k „lano\" (Táborský 1570)."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Saite",
+            "genus": "f",
+            "zdroj": "DE — struna (hudební + obecné)"
+          },
+          {
+            "term": "Draht",
+            "genus": "m",
+            "zdroj": "DE — drát"
+          },
+          {
+            "term": "Seil",
+            "genus": "n",
+            "zdroj": "DE — lano"
+          }
+        ],
+        "en": [
+          {
+            "term": "string",
+            "zdroj": "EN — struna"
+          },
+          {
+            "term": "wire",
+            "zdroj": "EN — drát"
+          },
+          {
+            "term": "rope",
+            "zdroj": "EN — lano"
+          }
+        ],
+        "fr": [
+          {
+            "term": "corde",
+            "genus": "f",
+            "zdroj": "FR — struna / lano"
+          },
+          {
+            "term": "fil",
+            "genus": "m",
+            "zdroj": "FR — drát"
+          }
+        ]
+      },
       "definice": "Souhrnný termín pro táhla / spojovací prvky orloje: kovová struna (drát) pro spouštěcí vazby, lano nebo provaz pro pohon (mezi válem a závažím). Pravopis *strúna* (s o-ú) je typický pro 16. století.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "zamek-orloje",
-        "rumpal"
+        "rumpal",
+        "lanovy-buben"
       ],
       "isStub": true,
       "redirectTo": null
@@ -10055,14 +10418,56 @@
       "varianty": [
         {
           "term": "zámek",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. orlojový termín (Táborský 1570) pro západku / zástavku bicího ústrojí.",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "závora bicí",
-          "status": "admitted"
+          "status": "archaic"
+        },
+        {
+          "term": "zástavka bicího stroje",
+          "status": "preferred",
+          "note": "Moderní cs odpovídá funkčně Bureš/MR „zapadací páka\" + „závěrkové kolo\" (jejich kombinace)."
+        },
+        {
+          "term": "závěrkové ústrojí",
+          "status": "preferred",
+          "note": "Souhrnný cs termín pro uzamykací mechanismus bicího stroje — buď s [kolem závěrkovým](/slovnik/kolo-zaverkove) (typ I), nebo s [početníkem](/slovnik/pocetnik) (typ II)."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Sperrung",
+            "genus": "f",
+            "zdroj": "DE — uzamčení; obecně pro klidovou polohu bicího stroje"
+          },
+          {
+            "term": "Schlosswerk",
+            "genus": "n",
+            "zdroj": "DE — uzamykací ústrojí"
+          }
+        ],
+        "en": [
+          {
+            "term": "locking work",
+            "zdroj": "EN — uzamykací mechanismus bicího stroje"
+          },
+          {
+            "term": "strike lock",
+            "zdroj": "EN popisný"
+          }
+        ],
+        "fr": [
+          {
+            "term": "verrouillage de sonnerie",
+            "genus": "m",
+            "zdroj": "FR — uzamykací mechanismus odbíjení"
+          }
+        ]
+      },
       "definice": "Západka / zástavka držící bicí stroj zamknutý, dokud není uvolněna pádem palice. Po vyražení zámku se bicí soukolí roztočí a odbije počet úderů odpovídající hodině.",
       "vyznamy": null,
       "atestace": null,
@@ -10070,7 +10475,9 @@
         "odbijeni",
         "palice-orloje",
         "rykl",
-        "stroj"
+        "stroj",
+        "kolo-zaverkove",
+        "pocetnik"
       ],
       "isStub": true,
       "redirectTo": null
@@ -10382,14 +10789,71 @@
       "varianty": [
         {
           "term": "zvon",
-          "status": "admitted"
+          "status": "preferred",
+          "note": "Velký bicí zvon na věži orloje — odbíjí hodiny silným úderem kladiva. Klíčový rozdíl proti [cymbálu](/slovnik/cymbal) (menší zvonek interiérového stroje): zvon je velký kostelní zvon zavěšený ve věžovém patře."
         },
         {
           "term": "zvonec",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. termín (Táborský 1570) pro signální zvonek (Vorschlag) zvonící krátký signál chvíli před vlastním bitím. V moderní praxi nahrazen termíny „signální zvonek\" / „předbicí zvonek\".",
+          "doloženo": "Táborský 1570"
+        },
+        {
+          "term": "zvoneček",
+          "status": "admitted",
+          "note": "Deminutiv — drobný signální zvonek, obvyklý u interiérových orlojů."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Glocke",
+            "genus": "f",
+            "zdroj": "DE — zvon (Špatný 1882, Berner FHS)"
+          },
+          {
+            "term": "Vorschlagsglocke",
+            "genus": "f",
+            "zdroj": "DE — předbicí signální zvonek"
+          },
+          {
+            "term": "Schlagglocke",
+            "genus": "f",
+            "zdroj": "DE — bicí zvon"
+          }
+        ],
+        "en": [
+          {
+            "term": "bell",
+            "zdroj": "EN — zvon (Berner FHS)"
+          },
+          {
+            "term": "striking bell",
+            "zdroj": "EN — bicí zvon"
+          },
+          {
+            "term": "warning bell",
+            "zdroj": "EN — signální zvonek (Vorschlag)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "cloche",
+            "genus": "f",
+            "zdroj": "FR — zvon (Berner FHS)"
+          },
+          {
+            "term": "cloche de sonnerie",
+            "genus": "f",
+            "zdroj": "FR — bicí zvon"
+          },
+          {
+            "term": "cloche d''avertissement",
+            "genus": "f",
+            "zdroj": "FR — signální zvonek"
+          }
+        ]
+      },
       "definice": "Tonální tělesa bicího stroje orloje: **zvon** = velký bicí zvon na věži (úderem kladiva odbíjí hodiny), **zvonec** = menší signální zvonek (zvoní krátký signál chvíli před vlastním bitím, jako upozornění).",
       "vyznamy": null,
       "atestace": null,
