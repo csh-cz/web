@@ -87,3 +87,6 @@ Sušický 1900 používá ještě **„kotouč vahadla"** — „vahadlo" bylo s
 
 > „**plateau-double**: pour assurer de meilleures fonctions, les échappements soignés ont, en plus du plateau b qui porte la cheville (ellipse) a, un plateau plus petit c avec encoche qui limite l'ébat du dard."
 > — Tamtéž.
+
+> „**Kotouček popudný (kotouček vidličky) je pevně nasazen na hřídeli setrvačky a nese kámen popudný (vodítko / ellipse), který přijímá popud z vidlice kotvy a předává jej setrvačce.** Dvojitý kotouček (popudný + pojistný) se používá u přesnějších kalibrů, jednoduchý u běžných hodinek. **Geometrie kotoučku, jeho kámene a vidlice musí být přesně sladěna** — jinak vzniká buď nesymetrický popud (zhoršuje izochronismus), nebo riziko zaskočení vidlice mimo polohu."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 4 *Krok*, kotvový krok kapesních hodinek).

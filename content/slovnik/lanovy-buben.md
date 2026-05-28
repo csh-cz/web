@@ -162,3 +162,6 @@ NPÚ MIS Jičín 2016 detailněji popisuje historické bubny:
 > „Závaží byla zavěšena vevnitř věže na dlouhých lanech navíjených
 > na dřevěné nátahové válce."
 > — SUŠICKÝ, V. R. *Hodinářství.* 1900.
+
+> „**U závažových hodin je zdrojem energie potenciální energie závaží zavěšeného na laně, které se navíjí na lanový buben.** Při natahování hodin se závaží zvedne do horní polohy, čímž je v něm uložena energie pro celý cyklus chodu. **Velikost bubnu, hloubka šachty pro pokles závaží a převod určují dobu chodu** mezi dvěma nátahy — typicky 24 hodin u jednodenních strojů, týden u týdenních strojů. **Lanový buben dává konstantní tah po celou dobu chodu** (na rozdíl od pera, jehož tah klesá s rozvíjením) — to je hlavní výhoda závažového pohonu u věžních a astronomických hodin."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. *Hnací ústrojí*, závaží a buben).

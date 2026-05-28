@@ -97,3 +97,6 @@ references:
 
 > „**arbor** n. **arbre** n. m. **Welle** f. Axis of rotation of a wheel or other rotating part. The arbor carries the wheel and its pivots run in jewel holes or other bearings."
 > — BERNER, G.-A. *Illustrated Professional Dictionary of Horology.* Federation of the Swiss Watch Industry (FH). Online: dictionary.fhs.swiss.
+
+> „**Hřídele hodinového stroje nesou ozubená kola a pastorky; jejich čepy se otáčejí v lůžkách (ložiscích) pevně připevněných v plotnách rámu.** Přesnost uložení čepů v lůžkách je rozhodující pro chod stroje — **každá vůle nebo opotřebení čepu se projevuje v nerovnoměrném záběru ozubení a tím i v chodu hodin**. U přesných strojů jsou čepy hřídelí leštěné a uložené v kamenných lůžkách (rubín, safír), u věžních strojů v mosazných nebo litinových pánvích."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 3 *Soukolí*, hřídele a čepy).

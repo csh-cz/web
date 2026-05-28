@@ -67,3 +67,6 @@ Anglosaská tradice používá vedle *exit pallet* i archaický **„discharging
 
 > „a is the entry pallet and b is the **exit pallet (discharging pallet)**."
 > — BERNER, G.-A. *Illustrated Professional Dictionary of Horology* (heslo „pallet stone" ID 2453).
+
+> „**Výstupní paleta zachycuje druhý zub krokového kola a má rovinnou popudnou plochu** (na rozdíl od vstupní palety s vydutou plochou). Diagnostické pravidlo pro restaurátora: **při příliš velké záběrové vzdálenosti zůstane vstupní paleta trčet na zubu krokového kola, kdežto u výstupní paleta odpadá zub více než má.** Příliš malá záběrová vzdálenost vyvolá obrácený jev. **Druhá paleta se chová vždy obráceně** — z toho lze poznat, kterým směrem upravit záběr."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965, s. 180 (záběrová vzdálenost a chování palet).

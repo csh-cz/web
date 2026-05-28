@@ -78,3 +78,6 @@ Sklon **šikmé strany zubu** ovlivňuje sílu nutnou k jeho překonání: strm�
 
 > „**Sperrrad** — kolo aretovací (rohatka)."
 > — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882.
+
+> „**Rohatkové kolo s západkou (klínem) je univerzální mechanismus pro jednosměrné otáčení a aretaci.** V hodinovém stroji se nachází zejména v nátahovém ústrojí (zabraňuje zpětnému odvíjení natažené pružiny nebo lana), v bicím stroji (aretace závěrkového kola) a u hodinek v korunovém kolu (Maltézský kříž). **Klíčový parametr je tvar zubu** — strmější svislá strana brání zpětnému otáčení, mírnější šikmá strana umožňuje řetězovité přejíždění pří natahování."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. *Hnací ústrojí*, rohatka v nátahu).

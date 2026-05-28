@@ -51,6 +51,9 @@ V Sušickém 1900 dokumentováno: před perovníkem bylo péro „**volně navin
 > „peřovnice → Federhaus in der Uhr"
 > — ŠUMAVSKÝ, Josef Franta. *Česko-německý slovník.* 1851, heslo Pero, podheslo -nice.
 
+> „**Perovník (perovnice) je válcový buben, ve kterém je svinuto hnací pero (mainspring).** Jeho úkolem je nejen uchovávat energii, ale také **rovnoměrně předávat tah pera na soukolí** přes ozubení na obvodu. **Tah pera klesá s rozvíjením** — proto se k vyrovnání nepravidelnosti tahu používal dříve šnek (Sladkovský), později (Lépine, Phillipe) stavítko maltézské, které omezuje rozsah natažení na rovnoměrnější střední část křivky."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. *Hnací ústrojí*, perovník a vyrovnání tahu pera).
+
 ## Obrázky
 
 *(zatím chybí — návrh: rozložený perovník s pérem a stavítkem maltézským ze Sladkovského 1947, foto historické otáčivého perovníku Lépine)*

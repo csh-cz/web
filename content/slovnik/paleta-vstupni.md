@@ -60,3 +60,6 @@ Materiál: ocelová paleta u věžních strojů, **rubínová paleta** (*pallet 
 
 > „a is the **entry pallet** and b is the exit pallet (discharging pallet)."
 > — BERNER, G.-A. *Illustrated Professional Dictionary of Horology* (heslo „pallet stone" ID 2453).
+
+> „**Vstupní paleta zachycuje zub krokového kola jako první a má vydutou popudnou plochu.** Diagnostické pravidlo pro restaurátora: **posadí-li se kotva níže (zmenší se záběrová vzdálenost), zůstává výstupní paleta trčet na zubu a od vstupní paleta odpadá více; zvětšením záběrové vzdálenosti se chování obrátí.** Druhá paleta se chová vždy obráceně — z asymetrického odpadu palet lze tedy poznat, kterým směrem upravit záběr."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965, s. 180 (záběrová vzdálenost a chování palet).
