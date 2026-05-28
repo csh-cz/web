@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-28T20:38:23.540Z",
+  "generatedAt": "2026-05-28T20:48:42.188Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 217,
@@ -8,7 +8,7 @@
     "hodinariTs": 170,
     "soupis": 443
   },
-  "count": 1823,
+  "count": 1825,
   "words": [
     "Abraham",
     "Accutron",
@@ -671,6 +671,7 @@
     "klášter",
     "Klášter",
     "Klatovy",
+    "klecovy",
     "klečový",
     "Klementina",
     "Klementinum",
@@ -1288,6 +1289,7 @@
     "Ráječek",
     "Rakousko",
     "Rakovník",
+    "ram",
     "rám",
     "ramenko",
     "raménko",
