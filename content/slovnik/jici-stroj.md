@@ -1,20 +1,23 @@
 ---
-title: soukolí jicí
-slug: soukoli-jici
+title: jicí stroj
+slug: jici-stroj
 conceptId: HORO-GEARTRAIN-002
 kategorie: mechanika
 varianty:
-  - term: soukolí jicí
-    status: preferred
-    doloženo: 'Sladkovský 1947; Bureš 1965; Himmler 2006; Skála 2013, 2018'
-  - term: jicí soukolí
-    status: preferred
   - term: jicí stroj
     status: preferred
-    note: 'Synonymum — „stroj" se v staročes. a kontextu věžních hodin používá pro dílčí celek (vedle „bicího stroje", „zvonicího stroje").'
+    note: 'Primární cs odborný termín — analogie k [bicímu stroji](/slovnik/bici-stroj). Doložen Skálou 2018 („stroj jicí/ukazovací") a Himmlerem 2006.'
     doloženo: 'Skála 2018; Himmler 2006'
+  - term: soukolí jicí
+    status: preferred
+    note: 'Druhá rovnocenná varianta — důsledně užívána Sladkovským 1947 v 8 výskytech (kapitola „Mathematické délky kyvadla", „Hodiny strojové"). Bureš 1965.'
+    doloženo: 'Sladkovský 1947; Bureš 1965'
+  - term: jicí soukolí
+    status: preferred
   - term: chodicí soukolí
     status: admitted
+    note: 'Synonymum, Špatný 1882 překládá Gehwerk = „choděcí, chodící, jdoucí stroj".'
+    doloženo: 'Špatný 1882'
 prekladyDe:
   - term: Gehwerk
     genus: n
@@ -33,11 +36,11 @@ prekladyFr:
     zdroj: 'Berner, *Dictionnaire professionnel illustré de l''horlogerie*'
   - term: rouage du temps
     genus: m
-definice: '**Hlavní funkční celek** každého hodinového stroje — sestava ozubených kol a pastorků, která přenáší energii od pohonu (závaží nebo péra) přes [krokové kolo](/slovnik/krokove-kolo) regulované [krokem](/slovnik/krok) k indikaci času (ručkám, ciferníku). Měří plynutí času. U věžních hodin se soukolí jicí oddělené od [soukolí bicího](/slovnik/soukoli-bici) a od [zvonicího](/slovnik/soukoli-zvonici).'
+definice: '**Hlavní funkční celek** každého hodinového stroje — sestava ozubených kol a pastorků, která přenáší energii od pohonu (závaží nebo péra) přes [krokové kolo](/slovnik/krokove-kolo) regulované [krokem](/slovnik/krok) k indikaci času (ručkám, číselníku). Měří plynutí času. U věžních hodin oddělené od [bicího stroje](/slovnik/bici-stroj) a od [zvonicího stroje](/slovnik/zvonici-stroj).'
 pribuzne:
   - soukoli
-  - soukoli-bici
-  - soukoli-zvonici
+  - bici-stroj
+  - zvonici-stroj
   - krok
   - krokove-kolo
   - lanovy-buben
@@ -71,7 +74,7 @@ references:
 
 ### Vztah k bicímu a zvonicímu soukolí
 
-U **věžních hodin** je soukolí jicí oddělené od [soukolí bicího](/slovnik/soukoli-bici) a [soukolí zvonicího](/slovnik/soukoli-zvonici) — každý dílčí celek má vlastní pohon (vlastní [lanový buben](/slovnik/lanovy-buben) a závaží) a vlastní řadu převodů. Soukolí jicí přitom **„obsluhuje"** bicí stroj přes [kolíček vypouštěcí](/slovnik/kolicek-vypustny) na svém hlavním kole — kolíček v určeném okamžiku zvedne výpustnou páku bicího stroje a tím ho spustí.
+U **věžních hodin** je soukolí jicí oddělené od [bicího stroje](/slovnik/bici-stroj) a [zvonicího stroje](/slovnik/zvonici-stroj) — každý dílčí celek má vlastní pohon (vlastní [lanový buben](/slovnik/lanovy-buben) a závaží) a vlastní řadu převodů. Soukolí jicí přitom **„obsluhuje"** bicí stroj přes [kolíček vypouštěcí](/slovnik/kolicek-vypustny) na svém hlavním kole — kolíček v určeném okamžiku zvedne výpustnou páku bicího stroje a tím ho spustí.
 
 U **stojacích hodin a hodinek** je naopak soukolí jicí + bicí často kombinováno v jednom rámu, kdy bicí stroj sdílí část převodů (rohatkový mechanismus).
 
@@ -86,7 +89,7 @@ U přesných hodin přibývá **soukolí IV** (sekundové).
 
 ## Příbuzné termíny
 
-[soukolí](/slovnik/soukoli) (obecně) · [soukolí bicí](/slovnik/soukoli-bici) · [soukolí zvonicí](/slovnik/soukoli-zvonici) · [krok](/slovnik/krok) · [krokové kolo](/slovnik/krokove-kolo) · [lanový buben](/slovnik/lanovy-buben) · [kolíček vypouštěcí](/slovnik/kolicek-vypustny)
+[soukolí](/slovnik/soukoli) (obecně) · [bicí stroj](/slovnik/bici-stroj) · [zvonicí stroj](/slovnik/zvonici-stroj) · [krok](/slovnik/krok) · [krokové kolo](/slovnik/krokove-kolo) · [lanový buben](/slovnik/lanovy-buben) · [kolíček vypouštěcí](/slovnik/kolicek-vypustny)
 
 ## Reference
 

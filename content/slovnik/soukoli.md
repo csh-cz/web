@@ -26,9 +26,9 @@ definice: "Sestava ozubených kol, která přenáší energii od pohonu (závaž
 
 Soukolí je **základní mechanický skelet** hodinového stroje. Tradičně se rozlišuje na tři funkční celky (každý má vlastní heslo):
 
-- **[Soukolí jicí](/slovnik/soukoli-jici)** (going train, Gehwerk) — pohání ručky a krok, měří plynutí času.
-- **[Soukolí bicí](/slovnik/soukoli-bici)** (striking train, Schlagwerk) — pohání bití úderů (čtvrťové, hodinové).
-- **[Soukolí zvonicí](/slovnik/soukoli-zvonici)** (chiming train, Spielwerk) — pohání zvonkohru (víctónové melodie).
+- **[Soukolí jicí](/slovnik/jici-stroj)** (going train, Gehwerk) — pohání ručky a krok, měří plynutí času.
+- **[Soukolí bicí](/slovnik/bici-stroj)** (striking train, Schlagwerk) — pohání bití úderů (čtvrťové, hodinové).
+- **[Soukolí zvonicí](/slovnik/zvonici-stroj)** (chiming train, Spielwerk) — pohání zvonkohru (víctónové melodie).
 
 U **věžních hodin** jsou všechna tři soukolí oddělená (vlastní [lanový buben](/slovnik/lanovy-buben), vlastní závaží, vlastní řada převodů); u stojanových hodin a kapesních hodinek bývají integrovaná v jednom rámu se společným pohonem.
 
@@ -43,7 +43,7 @@ Konstrukčně: kola jsou typicky **mosazná** s **ocelovými pastorky** (drobný
 
 ## Příbuzné termíny
 
-[soukolí jicí](/slovnik/soukoli-jici) · [soukolí bicí](/slovnik/soukoli-bici) · [soukolí zvonicí](/slovnik/soukoli-zvonici) · [pastorek](/slovnik/pastorek) · [krokové kolo](/slovnik/krokove-kolo) · [hřídel](/slovnik/hridel) · [lanový buben](/slovnik/lanovy-buben)
+[jicí stroj](/slovnik/jici-stroj) · [bicí stroj](/slovnik/bici-stroj) · [zvonicí stroj](/slovnik/zvonici-stroj) · [pastorek](/slovnik/pastorek) · [krokové kolo](/slovnik/krokove-kolo) · [hřídel](/slovnik/hridel) · [lanový buben](/slovnik/lanovy-buben)
 
 ## Reference
 

@@ -1,18 +1,18 @@
 ---
-title: soukolí zvonicí
-slug: soukoli-zvonici
+title: zvonicí stroj
+slug: zvonici-stroj
 conceptId: HORO-GEARTRAIN-004
 kategorie: bici
 varianty:
-  - term: soukolí zvonicí
-    status: preferred
-    doloženo: 'Sladkovský 1947; Bureš 1965'
-  - term: zvonicí soukolí
-    status: preferred
   - term: zvonicí stroj
     status: preferred
-    note: 'Synonymum — Skála 2013 v kontextu vypouštění Pražského orloje („kolíčkem na hlavním kole zvonicího stroje").'
+    note: 'Primární cs odborný termín — analogie k [bicímu stroji](/slovnik/bici-stroj). Doložen Skálou 2013 v kontextu vypouštění Pražského orloje („kolíčkem na hlavním kole zvonicího stroje").'
     doloženo: 'Skála 2013'
+  - term: soukolí zvonicí
+    status: admitted
+    note: 'Druhá varianta — analogie k „soukolí jicímu" (Sladkovský 1947).'
+  - term: zvonicí soukolí
+    status: admitted
   - term: soukolí zvonkohry
     status: admitted
     note: 'Specifické pro hodinky/věžní hodiny s víctónovou melodickou zvonkohrou.'
@@ -34,11 +34,11 @@ prekladyFr:
   - term: carillon
     genus: m
     note: 'Krátká forma'
-definice: 'Funkční celek hodinového stroje, jehož úkolem je **hrát melodii** (Westminster chime, vlastní motiv, lidovou píseň) sérií úderů [kladívek](/slovnik/kladivko) na různě naladěné [cymbály](/slovnik/cymbal) nebo zvony zvonkohry. Vlastní [lanový buben](/slovnik/lanovy-buben) a závaží, vlastní hřídel s vačkami nebo válcem s kolíčky, který určuje sekvenci úderů. U věžních hodin oddělené od [jicího](/slovnik/soukoli-jici) a [bicího](/slovnik/soukoli-bici) soukolí.'
+definice: 'Funkční celek hodinového stroje, jehož úkolem je **hrát melodii** (Westminster chime, vlastní motiv, lidovou píseň) sérií úderů [kladívek](/slovnik/kladivko) na různě naladěné [cymbály](/slovnik/cymbal) nebo zvony zvonkohry. Vlastní [lanový buben](/slovnik/lanovy-buben) a závaží, vlastní hřídel s vačkami nebo válcem s kolíčky, který určuje sekvenci úderů. U věžních hodin oddělené od [jicího stroje](/slovnik/jici-stroj) a [bicího stroje](/slovnik/bici-stroj) soukolí.'
 pribuzne:
   - soukoli
-  - soukoli-jici
-  - soukoli-bici
+  - jici-stroj
+  - bici-stroj
   - cymbal
   - kladivko
   - westminster-chime
@@ -64,7 +64,7 @@ references:
 
 ### Princip činnosti
 
-1. **Vypouštění** — analogicky k [bicímu soukolí](/slovnik/soukoli-bici): kolíček na hlavním kole jicího stroje (nebo bicího) zvedne výpustnou páku zvonicího → soukolí se rozjede.
+1. **Vypouštění** — analogicky k [bicímu stroji](/slovnik/bici-stroj): kolíček na hlavním kole jicího stroje (nebo bicího) zvedne výpustnou páku zvonicího → soukolí se rozjede.
 2. **Sekvence úderů** — hnaný hřídel nese **válec s kolíčky** (cylinder pin-barrel) nebo **kotouč s vačkami**; jak se otáčí, jednotlivé kolíčky postupně zvedají [kladívka](/slovnik/kladivko), která dopadají na příslušné [cymbály](/slovnik/cymbal) — vznikne melodie.
 3. **[Větrník](/slovnik/vetrnik)** reguluje rychlost přehrávání.
 4. **Zastavení** — po dokončení sekvence zapadne zapadací raménko a soukolí se zastaví.
@@ -81,7 +81,7 @@ U **stojanových hodin se zvonkohrou** (např. tatovské „Hořkohorské hodiny
 
 ## Příbuzné termíny
 
-[soukolí](/slovnik/soukoli) (obecně) · [soukolí jicí](/slovnik/soukoli-jici) · [soukolí bicí](/slovnik/soukoli-bici) · [cymbál](/slovnik/cymbal) · [kladívko](/slovnik/kladivko) · [Westminster chime](/slovnik/westminster-chime)
+[soukolí](/slovnik/soukoli) (obecně) · [jicí stroj](/slovnik/jici-stroj) · [bicí stroj](/slovnik/bici-stroj) · [cymbál](/slovnik/cymbal) · [kladívko](/slovnik/kladivko) · [Westminster chime](/slovnik/westminster-chime)
 
 ## Reference
 
