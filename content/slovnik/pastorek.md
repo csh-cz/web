@@ -78,6 +78,9 @@ V starší české hodinářské terminologii (Táborský 1570) se používal te
 
 ## Reference
 
+> „**Pastorek je malé ozubené kolo s počtem zubů obvykle 6 až 14.** V hodinovém stroji jsou pastorky **vždy hnanými členy převodu** — větší ozubené kolo pohání menší pastorek. **Pastorek musí být přesně koncentrický s hřídelí a jeho zuby musí mít přesný profil** (cykloidní nebo modifikovaný evolventní), neboť každá nepřesnost převodu se projeví **přímo v chodu hodin**."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 3 *Soukolí*, geometrie a požadavky na pastorky).
+
 > „**Trieb** — pastorek."
 > — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882.
 

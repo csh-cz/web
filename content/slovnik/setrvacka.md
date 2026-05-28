@@ -51,6 +51,16 @@ Konstrukční typy:
 - **Kompenzační setrvačka** (Earnshaw ~1782) — z bimetalového pásu (mosaz vně, ocel uvnitř), rozříznutá tak, že konce pásků se při zahřátí stáčejí dovnitř a kompenzují prodloužení vlásku
 - **Invarová setrvačka** s mosazným nálitkem na obvodu (po 1900) — moderní řešení
 
+**Fyzikální princip — moment setrvačnosti** (Bureš 1974):
+
+Perioda kmitů setrvačky závisí na **momentu setrvačnosti** J podle vztahu
+
+*J = m·ρ² = G·ρ²/g*
+
+kde *m* je hmotnost, *G* tíha setrvačky a *ρ* poloměr setrvačnosti (vzdálenost, v níž by musela být soustředěná veškerá hmota, aby měla stejný moment setrvačnosti jako reálné rozložení hmoty).
+
+Praktický důsledek pro restaurátora: **dvě setrvačky stejného průměru a stejné tíhy nemusí mít stejný moment setrvačnosti**. Setrvačka s tlustými raménky a tenkou obroučkou má menší poloměr setrvačnosti než stejně těžká setrvačka s tenkými raménky a tlustou obroučkou — proto se přesné setrvačky konstruují jako **kolo s tenkými raménky a hutnou obroučkou** (případně s nálitky na obvodu), aby maximalizovaly moment setrvačnosti při minimální celkové hmotě.
+
 Klíčové: **moderní cs úzus je výhradně „setrvačka"**. Anglické *balance* / *balance wheel* je standardní překlad pro zahraniční literaturu, ale **v české odborné literatuře se nepoužívá** — fulltext napříč 8 učebnicemi (Sušický 1900, Špatný 1882, Sladkovský 1947, Hajn 1953, Boukal 1958, Martínek & Řehoř 1964, Bureš 1974) ho jako cs slovo nedoložil. V ústním odborném žargonu se občas vyskytuje deminutivní *balancka*, ale ne v tištěné literatuře.
 
 Špatný 1882 dokumentuje historické cs varianty **„nepokoj"** (kalk z DE *Unruhe* = doslovně „nepokoj") a **„váhadlo"** (z DE *Balancier*), **„lihýř"** byl v 19. století žargonový termín — všechny dnes vzácné, ale validní v dobových citacích. Krečmer 1878 používá deminutiv **„setrváček"**. Šumavský 1851 setrvačku jako samostatný pojem ještě neměl — slučoval ji pod „kyvadlo".
@@ -60,6 +70,9 @@ Klíčové: **moderní cs úzus je výhradně „setrvačka"**. Anglické *balan
 [vlásek], [setrvačka kompenzační], [vodítko / kámen], [kotouček popudný], [vidlička kotvy], [kyvadlo] (rozdíl)
 
 ## Reference
+
+> „**Moment setrvačnosti J je dán vztahem J = m·ρ² = G·ρ²/g**, kde *m* je hmota setrvačky, *G* její tíha, *g* tíhové zrychlení a *ρ* poloměr setrvačnosti. **Dvě setrvačky stejného průměru a stejné tíhy nemusí mít přesto stejný moment setrvačnosti** — setrvačka s tlustými raménky a tenkou obroučkou má menší poloměr setrvačnosti než setrvačka s tenkými raménky a tlustou obroučkou (tedy větší poloměr setrvačnosti)."
+> — BUREŠ, Josef. *Hodinové stroje III.* SPN, Praha 1974. *(klíčový praktický důsledek pro restaurátora — nelze hodnotit setrvačku jen podle průměru a hmotnosti)*
 
 > „Unruhe → nepokoj, váhadlo; Unruhefeder → váhadlová zpruha"
 > — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882.

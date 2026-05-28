@@ -80,6 +80,9 @@ Z toho důvodu je **stanovení tvaru zubů** záběru *ručkový pastorek — st
 
 ## Reference
 
+> „**Střídné kolo s pastorkem tvoří v ručkovém soukolí převod 12 : 1** mezi minutovou trubkou a hodinovým kolem. **Při normálním chodu hodin je střídné kolo hnané minutovou trubkou; při přestavování ruček korunkou se však úloha obrátí** — hodinové kolo se stává hnacím a střídné kolo přenáší pohyb zpět na minutovou trubku. Z toho důvodu musí mít zuby ručkového pastorku a střídného kola tvar, který funguje **oběma směry s minimální vůlí**."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 3 *Soukolí*, ručkové soukolí — reverzibilita).
+
 > „**Wechselrad** — střídné kolo. **Wechselradstift** — kolíček střídného kola. **Wechselradtrieb** — pastorek střídného kola. **Wechselkloben** — můstek kola střídného."
 > — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882.
 

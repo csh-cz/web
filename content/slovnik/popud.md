@@ -101,3 +101,6 @@ Britský astronom George Biddell Airy v roce 1826 dokázal, že **chyba kyvadla 
 
 > „Das Pendel muß über die Hemmung kleine **Impulse** erhalten, damit es die Widerstände der Reibung während des Schwingens und auch an der Hemmung überwinden kann."
 > — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Mechanische Uhren.* Praha 1968 (DE překlad „Základů hodinářství"), s. 19.
+
+> „**Popud (impuls) je okamžik, ve kterém krokové kolo předává regulátoru energii potřebnou k udržení jeho kmitání.** Po dobu popudu zub krokového kola klouže po popudné ploše palety a tlačí ji do strany. **Čím kratší a soustředěnější je popud, tím méně narušuje izochronismus regulátoru** — proto jsou kroky s krátkým popudem (např. detentový krok chronometru) přesnější než kroky s dlouhým popudem (např. vřetenový krok)."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 4 *Krok*, popud a izochronismus).

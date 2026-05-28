@@ -84,6 +84,9 @@ Berner rozlišuje dvě konstrukční varianty:
 
 ## Reference
 
+> „**Minutová trubka (minutový pastorek) je dutý pastorek na centrálním hřídeli, který nese minutovou ručku.** Spojení s hřídelí je třecí — proto lze ručky **přestavovat**, aniž by se zastavilo jicí soukolí. **Tření musí být dostatečně silné, aby spolehlivě přenášelo hnací moment, ale dostatečně malé, aby umožnilo přestavování bez nadměrného odporu.** Třecí síla se nastavuje stiskem pružného kroužku nebo zúžením stěny trubky."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 3 *Soukolí*, třecí spojka minutové trubky).
+
 > „**Minutenrohr** — trubka minutová."
 > — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882.
 

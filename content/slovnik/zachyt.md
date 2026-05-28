@@ -96,3 +96,6 @@ Berner kvantifikuje hodnoty pro **švýcarský páčkový krok**:
 
 > „This escapement is called a **deadbeat** because when the wheel tooth drops on the **locking pallet face**, however far the pallet moves, the wheel remains unmoved, as distinct from a recoil which moves a bit backward (recoil)."
 > — FRANK, Mark. *The Evolution of Tower Clock Movements and Their Design Over the Past 1000 Years.* 2013.
+
+> „**V první fázi cyklu kroku spočívá zub krokového kola na klidové (záchytné) ploše palety. Soukolí je v klidu — Bureš dělí kroky podle toho, zda se v této fázi krokové kolo skutečně nepohybuje (kroky klidové — Grahamův, Brocotův), pohybuje zpět (kroky vratné — vřetenový), nebo je úplně oddělené (kroky volné — chronometr).** Pravidlo dobré geometrie záchytu: úhel klidu nesmí být ani příliš malý (zub by se mohl při otřesech samovolně uvolnit), ani příliš velký (zbytečné tření)."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 4 *Krok*, dělení podle chování v záchytu).

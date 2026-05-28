@@ -63,3 +63,6 @@ U klidového kroku ([Grahamův](/kroky/grahamuv-krok), Brocotův) má záchytná
 
 > „The amount of lock is measured from the centre of the lever by the **locking-angle α**, which may vary between 1°30' and 3°, i.e. a linear value of about 0.05 to 0.12 mm."
 > — BERNER, G.-A. *Illustrated Professional Dictionary of Horology.* Federation of the Swiss Watch Industry (FH). Online: dictionary.fhs.swiss (heslo ID 384).
+
+> „**Úhel záchytu (úhel klidu) u běžných kotvových kroků činí 2°–3°; u velmi přesných strojů jen 20'.** U hodin s dlouhým kyvadlem (vteřinovým) je úhel záchytu opět menší, **1°–1°30'**. Všeobecně lze říci, že čím je provedení stroje přesnější, tím menší lze vytvářet úhel záchytu — **menší úhel znamená menší ztráty třením v záchytu, ale vyžaduje vyšší přesnost výroby krokového kola a palet** (jinak hrozí samovolné uvolnění zubu)."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965, s. 162 (úhly záchytu podle přesnosti stroje).

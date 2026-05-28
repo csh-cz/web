@@ -47,6 +47,12 @@ Konstrukčně: kola jsou typicky **mosazná** s **ocelovými pastorky** (drobný
 
 ## Reference
 
+> „**Hodinový stroj se skládá z těchto hlavních ústrojí: 1. hnací ústrojí (závaží nebo pero), 2. soukolí, 3. krok, 4. regulátor chodu, 5. ústrojí pro ukazování času.** Soukolí je sestava ozubených kol a pastorků, jejichž úkolem je přenášet pohyb od hnacího ústrojí ke kroku a k ukazování času, **současně však zvětšovat počet otáček** (převod do rychla)."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965, s. 11 (úvodní funkční členění hodinového stroje).
+
+> „**Soukolí jicí se počítá od minutového kola ke kolu krokovému.** Mezi nimi je obvykle ještě jedno až dvě kola mezilehlá. **Převod soukolí jicího se vypočítá z dané periody kyvadla a počtu zubů krokového kola.**"
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 3 *Soukolí*, výpočet převodu).
+
 > „S hnacím válcem jicího stroje bylo pevně spojeno tzv. minutové ozubené kolo, jehož prostřednictvím se energie přenášela do soukolí přes cévkové pastorky na mezilehlé kolo a nakonec kolo stupní (korunové), které bylo regulováno, tj. bržděno a vypouštěno v pravidelných intervalech daných kmity oscilátoru (kyvadla), paletovým hřídelem (vřetenem), nebo kotvou."
 > — HIMMLER, Radim. *Věžní hodinové stroje ve sbírce Vlastivědného muzea v Olomouci.* 2006.
 

@@ -45,6 +45,12 @@ Plochy zubů krokového kola:
 
 ## Reference
 
+> „V principu se každý krok skládá z **krokového kola** a **dílce, jenž působí zehrazování krokového kola a přenáší impuls na regulátor**. U některých kroků má tento dílec speciální název. **U kroků dnes nejvíce rozšířených se nazývá kotva**."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965, s. 162. *(definice krokového kola jako jednoho ze dvou základních dílců každého kroku)*
+
+> „**Krokové kolo se zhotovuje z oceli, zakalené a popuštěné**, výjimečně z mosazi (u nepřesných strojů). Zuby musí mít přesný profil — odchylka i nepatrná porušuje funkci kroku."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 4 *Krok*, materiálové požadavky).
+
 > „Robertem Hookem 1676 vynalezený anglický zvratný krok, který londýnský hodinář William Clement v roce 1680 do hodinářství zavedl. Jiří Graham, rovněž londýnský hodinář, narozený 1673 v Horsgillu, zemřel 1751 v Londýně, přeměnil tento krok v roce 1720 tím způsobem, že zvratné plochy kotvy upravil na plochy klidu a kolo stupni nechal zabírati směrem opačným."
 > — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 

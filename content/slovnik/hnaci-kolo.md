@@ -96,6 +96,9 @@ Hnací kolo přijímá moment pohonu (závaží přes lano, nebo pero) a předá
 
 ## Reference
 
+> „**Hnací kolo (kolo hlavní) je první ozubené kolo soukolí, pevně spojené s hnacím ústrojím** — u věžních hodin s hřídelí lanového bubnu, u hodin a hodinek s perovníkem. **Má největší počet zubů z celého soukolí** a otáčí se nejpomaleji. Jeho úkolem je převést pomalý velký moment hnacího ústrojí na rychlejší pohyb dalších kol jicí kaskády."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 3 *Soukolí*, hnací kolo a doba chodu).
+
 > „Jedno **kolo veliké, jenž slove hlavní**, na jehožto hřídeli sedí vál neb rumpál a na něm visí váha."
 > — TÁBORSKÝ Z KLOKOTSKÉ HORY, Jan. *Zpráva o Staroměstském orloji.* 1570 (popis pohonu).
 

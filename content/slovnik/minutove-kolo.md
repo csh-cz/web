@@ -88,6 +88,9 @@ kde **A = minutové kolo**, B = mezitimní, C = krokové, *b/c* = příslušné 
 
 ## Reference
 
+> „**Minutové kolo se otáčí jednou za hodinu** a na jeho ose je upevněna minutová ručka. **Je to kolo centrální, kolem něhož se uspořádává celé soukolí jicí.** Z minutového kola jde převod jednak na ručkové soukolí (motion work), jednak na další kolo jicího soukolí (mezilehlé)."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 3 *Soukolí*, role minutového kola).
+
 > „Kolik kyvů vykoná za 1 minutu kyvadlo hodin nástěnných, u kterých soukolí jicí má následující počet zubů: **Kolo minutové A = 72**, mezitimní B = 66, pastorek mezitimní b = 6, kolo stupni C = 36, pastorek stupni c = 6."
 > — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 

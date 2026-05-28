@@ -87,6 +87,9 @@ Typické počty zubů u hodinek kapesních:
 
 ## Reference
 
+> „**Vteřinové kolo (čtvrté kolo) se otáčí jednou za minutu** a obvykle na něm bývá upevněna sekundová ručka. **Z vteřinového kola jde převod na krokové kolo prostřednictvím krokového pastorku.** U strojů s centrální vteřinovou ručkou prochází vteřinový hřídel středem stroje, koaxiálně s minutovou trubkou."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 3 *Soukolí*, pozice vteřinového kola).
+
 > „Otočí-li se u hodin kapesních **kolo minutové jednou, otočí se za tutéž dobu kolo vteřinové šedesátkráte**. Trvá tudíž jedno otočení **kola vteřinového 1 minutu**."
 > — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947.
 

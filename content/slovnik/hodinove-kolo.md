@@ -84,6 +84,9 @@ Trubka hodinová sedí volně na minutové trubce (která je sama dutá a sedí 
 
 ## Reference
 
+> „**Hodinové kolo je posledním kolem ručkového soukolí (motion work) a nese hodinovou ručku.** Otáčí se jednou za 12 hodin (případně za 24 hodin u 24hodinových strojů). Konstrukčně je to dutá trubka s ozubeným kolem, která sedí volně koaxiálně na minutové trubce — tím je zajištěno, že **hodinová a minutová ručka sdílejí stejnou osu**."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 3 *Soukolí*, ručkové soukolí).
+
 > „**Stundenrad** — hodinové kolo. **Stundenradfeder** (am Stundenrad) — zpružka kola hodinového. **Stundenrohr** — trubka hodinová."
 > — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882.
 

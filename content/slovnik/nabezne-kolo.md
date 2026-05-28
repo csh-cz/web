@@ -84,6 +84,9 @@ Celkový převod 60–100 (podle konstrukce [větrníku](/slovnik/vetrnik)) se r
 
 ## Reference
 
+> „**Bicí stroj se spouští v určitých intervalech a po každém spuštění odbije přesně daný počet úderů.** Náběžné kolo s náběžným kolíkem zajišťuje **zastavení soukolí v základní poloze** po dokončení odbíjení; vačka pak určuje rytmus a počet úderů. Spolu se závěrkovým kolem (u typu I) nebo početníkem (u typu II) tvoří uzamykací ústrojí bicího stroje."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 5 *Bicí stroj*, funkce náběžného kola).
+
 > „Rozložení tohoto převodu na dva dílčí převody (**podávací kolo — náběžný pastorek**, **náběžné kolo — pastorek větrníku**) může být libovolné. Přitom však dílčí převodový poměr mezi podávacím kolem a náběžným pastorkem musí být **vždy celé číslo**, aby byla **poloha náběžného kolíku** dodržena."
 > — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964, s. 93, obr. 86.
 

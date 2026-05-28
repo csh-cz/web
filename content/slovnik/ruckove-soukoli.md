@@ -124,3 +124,6 @@ Detail viz [minutová trubka](/slovnik/minutova-trubka).
 
 > „**Zeigerwerk** n. **minuterie** n. f. **motion work** n. In der Uhr das **Räderwerk, das unter dem Zifferblatt angeordnet ist und die Drehung des Minutenzeigers auf den Stundenzeiger überträgt**."
 > — BERNER, G.-A. *Illustriertes Fachlexikon der Uhrmacherei.* Federation of the Swiss Watch Industry (FH). Online: dictionary.fhs.swiss (heslo „Zeigerwerk" ID 2218) — explicitní mapování DE Zeigerwerk ↔ FR minuterie ↔ EN motion work. **POZOR**: Berner *Zeigerwerk* je užší termín než cs „[ukazovací stroj](/slovnik/ukazovaci-stroj)" (= věžní distribuční ústrojí).
+
+> „**Ručkové soukolí (motion work) odbočuje z hřídele minutového kola a tvoří převod 12 : 1 pro pohon hodinové ručky.** Skládá se ze tří kol: minutová trubka (cannon pinion), střídné kolo s pastorkem a hodinové kolo. **Přenos energie z jicího soukolí na ručkové vždy probíhá přes třecí spojku** — typicky na minutovém pastorku — aby bylo možné ručky přestavovat bez zastavení stroje."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 3 *Soukolí*, ručkové soukolí a třecí spojka).

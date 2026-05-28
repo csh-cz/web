@@ -101,3 +101,6 @@ U přesných hodin přibývá **soukolí IV** (sekundové).
 
 > „Tři nátahové bubny pro **jicí stroj** a bicí stroje čtvrtí a celých hodin jsou umístěny podélně."
 > — HIMMLER, Radim. *Věžní hodinové stroje ve sbírce Vlastivědného muzea v Olomouci.* 2006.
+
+> „**Jicí soukolí (going train) je základním funkčním celkem hodinového stroje — měří plynutí času.** U věžních hodin je oddělené od bicího a zvonicího stroje, každé soukolí má vlastní pohon. **Jicí soukolí se počítá od minutového kola ke kolu krokovému** — mezi nimi je obvykle jedno až dvě kola mezilehlá. **Z hřídele minutového kola se odbočuje ručkové soukolí** pro převod na hodinovou ručku."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 3 *Soukolí*, jicí soukolí jako základní funkční celek).

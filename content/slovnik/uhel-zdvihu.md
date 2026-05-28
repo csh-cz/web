@@ -75,3 +75,6 @@ Pro Grahamův klidový krok bývá úhel zdvihu palety typicky **2°–3°** (He
 
 > „The **impulse angle** α is the angle through which the lever moves between the first contact of the tooth on the impulse face and the last contact. This angle varies between 8 and 10°. The angle through which the balance travels during the impulse is the **angle of lift of the balance**, which is between 30 and 40°."
 > — BERNER, G.-A. *Illustrated Professional Dictionary of Horology* (heslo „impulse" ID 1836).
+
+> „**Úhel popudu (úhel zdvihu) je úhel, o nějž se kotva otočí během popudu.** U běžných kotvových kroků činí **5°**, u nejpřesnějších strojů zhruba stejně. **U hodin s dlouhým kyvadlem (vteřinovým) jsou úhly menší — 1° až 1°30'**, neboť dlouhé kyvadlo má malou amplitudu a širší úhel by zbytečně zvětšil ztrátu energie třením. **Všeobecně lze říci, že čím je provedení stroje přesnější, tím menší lze vytvářet úhel záchytu i popudu.**"
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965, s. 162 (úhly kotvového kroku podle přesnosti stroje).

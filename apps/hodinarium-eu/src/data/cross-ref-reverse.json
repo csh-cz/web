@@ -1774,11 +1774,13 @@
         "grasshopper-krok",
         "hippuv-prerusovac",
         "isochronismus",
+        "jici-stroj",
         "kolickovy-krok",
         "kotoucek-popudny",
         "kotva",
         "kotvovy-krok",
         "krokove-kolo",
+        "krokovy-pastorek",
         "leonharduv-krok",
         "litherlanduv-krok",
         "mannhardtuv-krok",
@@ -1927,21 +1929,31 @@
         "de-bethunuv-dvoupakovy-krok",
         "duplexni-krok",
         "grahamuv-krok",
+        "jici-stroj",
         "klecovy-ram",
         "kolickovy-krok",
         "kotva",
         "kotvovy-krok",
         "krok",
+        "krokovy-pastorek",
+        "mezilehle-kolo",
+        "mezilehly-pastorek",
+        "minutove-kolo",
         "odpad",
         "paleta",
         "paleta-vstupni",
         "paleta-vystupni",
+        "pastorek",
         "popud",
+        "sekundovy-pastorek",
+        "tryb",
         "uhel-klidu",
         "uhel-zdvihu",
         "valcovy-krok",
         "vidlice",
         "vretenovy-krok",
+        "vrub-zub",
+        "vterinove-kolo",
         "winnerluv-krok",
         "zachyt"
       ]
@@ -2058,9 +2070,90 @@
         "litherlanduv-krok"
       ]
     },
+    "bici-stroj": {
+      "slovnik": [
+        "apostolsky-stroj",
+        "ctvrtove-biti",
+        "cymbal",
+        "jici-stroj",
+        "kladivko",
+        "klin-zapadky",
+        "kolicek-vypustny",
+        "kolo-zaverkove",
+        "nabezne-kolo",
+        "odbijeni",
+        "opakovaci-hodinky",
+        "palec",
+        "petite-a-grande-sonnerie",
+        "pocetnik",
+        "posuvka",
+        "ramenko",
+        "rohatka",
+        "spoust",
+        "srdcovka",
+        "stroj",
+        "stupnice",
+        "vacka",
+        "vetrnik",
+        "zdvizne-kolo",
+        "zvonici-stroj"
+      ]
+    },
+    "zvonici-stroj": {
+      "slovnik": [
+        "apostolsky-stroj",
+        "bici-stroj",
+        "jici-stroj",
+        "vetrnik"
+      ]
+    },
+    "jici-stroj": {
+      "slovnik": [
+        "apostolsky-stroj",
+        "bici-stroj",
+        "hnaci-kolo",
+        "mezilehle-kolo",
+        "minutove-kolo",
+        "minutovy-pastorek",
+        "ruckove-soukoli",
+        "ukazovaci-stroj",
+        "vterinove-kolo",
+        "zvonici-stroj"
+      ]
+    },
+    "kolicek-vypustny": {
+      "slovnik": [
+        "apostolsky-stroj",
+        "bici-stroj",
+        "jici-stroj",
+        "palec",
+        "vacka"
+      ]
+    },
+    "lanovy-buben": {
+      "slovnik": [
+        "apostolsky-stroj",
+        "hnaci-kolo",
+        "hridel",
+        "jici-stroj",
+        "natah",
+        "natahovy-buben",
+        "rohatka",
+        "rumpal",
+        "val",
+        "zavazi"
+      ]
+    },
+    "tatrmani-aparat": {
+      "slovnik": [
+        "apostolsky-stroj",
+        "orloj"
+      ]
+    },
     "sphera": {
       "slovnik": [
         "astrolab",
+        "astronomicke-soukoli",
         "kalendarium",
         "klapacek",
         "linea-poledni",
@@ -2078,6 +2171,7 @@
     "zodiak": {
       "slovnik": [
         "astrolab",
+        "astronomicke-soukoli",
         "coniunctio-oppositio",
         "grad-zodiakalni",
         "kalendarium",
@@ -2097,6 +2191,68 @@
         "tatrmani-aparat"
       ]
     },
+    "ukazovaci-stroj": {
+      "slovnik": [
+        "astronomicke-soukoli",
+        "ciselnik",
+        "kralovska-hridel",
+        "ruckove-soukoli",
+        "stroj"
+      ]
+    },
+    "ruckove-soukoli": {
+      "slovnik": [
+        "astronomicke-soukoli",
+        "ruckovy-pastorek",
+        "ukazovaci-stroj"
+      ]
+    },
+    "soukoli": {
+      "slovnik": [
+        "astronomicke-soukoli",
+        "centralni-prevodovka",
+        "hnaci-kolo",
+        "hridel",
+        "jici-stroj",
+        "klecovy-ram",
+        "lanovy-buben",
+        "mezilehle-kolo",
+        "minutove-kolo",
+        "pastorek",
+        "ruckove-soukoli",
+        "tryb",
+        "ukazovaci-stroj",
+        "vrub-zub",
+        "vterinove-kolo",
+        "werk",
+        "zvonici-stroj"
+      ]
+    },
+    "astrolab": {
+      "slovnik": [
+        "astronomicke-soukoli",
+        "kalendarium",
+        "orloj"
+      ]
+    },
+    "kalendarium": {
+      "slovnik": [
+        "astronomicke-soukoli",
+        "orloj"
+      ]
+    },
+    "kralovska-hridel": {
+      "slovnik": [
+        "astronomicke-soukoli",
+        "centralni-prevodovka",
+        "ciselnik",
+        "hnaci-kolo",
+        "hridel",
+        "hridelik-orloje",
+        "jici-stroj",
+        "ukazovaci-stroj"
+      ]
+    },
     "korunka": {
       "slovnik": [
         "automatic",
@@ -2106,7 +2262,8 @@
     "perovnik": {
       "slovnik": [
         "automatic",
-        "natahovy-buben",
+        "hnaci-kolo",
+        "lanovy-buben",
         "pero",
         "remontoir",
         "snek"
@@ -2129,7 +2286,10 @@
         "odbijeni",
         "opakovaci-hodinky",
         "palice-orloje",
-        "ramenko"
+        "ramenko",
+        "vetrnik",
+        "zdvizne-kolo",
+        "zvonici-stroj"
       ]
     },
     "cymbal": {
@@ -2137,14 +2297,18 @@
         "bici-stroj",
         "kladivko",
         "odbijeni",
-        "zvon-orloje"
+        "zdvizne-kolo",
+        "zvon-orloje",
+        "zvonici-stroj"
       ]
     },
     "kolo-zaverkove": {
       "slovnik": [
         "bici-stroj",
+        "nabezne-kolo",
         "pocetnik",
         "ramenko",
+        "rohatka",
         "ukazovaci-stroj"
       ]
     },
@@ -2152,9 +2316,11 @@
       "slovnik": [
         "bici-stroj",
         "kolo-zaverkove",
+        "nabezne-kolo",
         "posuvka",
         "srdcovka",
-        "stupnice"
+        "stupnice",
+        "vacka"
       ]
     },
     "srdcovka": {
@@ -2163,7 +2329,8 @@
         "kolo-zaverkove",
         "pocetnik",
         "posuvka",
-        "ramenko"
+        "ramenko",
+        "vacka"
       ]
     },
     "posuvka": {
@@ -2176,7 +2343,32 @@
     },
     "spoust": {
       "slovnik": [
-        "bici-stroj"
+        "bici-stroj",
+        "kolicek-vypustny"
+      ]
+    },
+    "vetrnik": {
+      "slovnik": [
+        "bici-stroj",
+        "nabezne-kolo",
+        "zdvizne-kolo"
+      ]
+    },
+    "rohatka": {
+      "slovnik": [
+        "bici-stroj",
+        "klin-zapadky",
+        "palec"
+      ]
+    },
+    "palec": {
+      "slovnik": [
+        "bici-stroj",
+        "klin-zapadky",
+        "kolicek-vypustny",
+        "rohatka",
+        "vacka",
+        "zdvizne-kolo"
       ]
     },
     "majlit": {
@@ -2228,23 +2420,6 @@
         "zpravce-orloje"
       ]
     },
-    "kralovska-hridel": {
-      "slovnik": [
-        "centralni-prevodovka",
-        "ciselnik",
-        "hridelik-orloje",
-        "ukazovaci-stroj"
-      ]
-    },
-    "soukoli": {
-      "slovnik": [
-        "centralni-prevodovka",
-        "klecovy-ram",
-        "natahovy-buben",
-        "ukazovaci-stroj",
-        "werk"
-      ]
-    },
     "opakovaci-hodinky": {
       "slovnik": [
         "chronograf",
@@ -2288,6 +2463,7 @@
     "hridelik-orloje": {
       "slovnik": [
         "ciselnik",
+        "hridel",
         "klinek-orloje",
         "kralovska-hridel",
         "ukazovaci-stroj",
@@ -2298,14 +2474,10 @@
     "ramenko": {
       "slovnik": [
         "ciselnik",
+        "kolicek-vypustny",
+        "nabezne-kolo",
+        "palec",
         "ukazovaci-stroj"
-      ]
-    },
-    "ukazovaci-stroj": {
-      "slovnik": [
-        "ciselnik",
-        "kralovska-hridel",
-        "stroj"
       ]
     },
     "cifernik": {
@@ -2338,25 +2510,6 @@
       "slovnik": [
         "coufati",
         "majlit"
-      ]
-    },
-    "bici-stroj": {
-      "slovnik": [
-        "ctvrtove-biti",
-        "cymbal",
-        "kladivko",
-        "kolo-zaverkove",
-        "odbijeni",
-        "opakovaci-hodinky",
-        "petite-a-grande-sonnerie",
-        "pocetnik",
-        "posuvka",
-        "ramenko",
-        "spoust",
-        "srdcovka",
-        "stroj",
-        "stupnice",
-        "vetrnik"
       ]
     },
     "motus-naturalis": {
@@ -2457,20 +2610,70 @@
     "rumpal": {
       "slovnik": [
         "hever-orloje",
+        "lanovy-buben",
+        "natahovy-buben",
         "struna-orloje",
         "vaha-orloje",
-        "val"
+        "val",
+        "zavazi"
       ]
     },
     "vaha-orloje": {
       "slovnik": [
         "hever-orloje",
-        "strana-orloje"
+        "lanovy-buben",
+        "rumpal",
+        "strana-orloje",
+        "val",
+        "zavazi"
       ]
     },
     "elektronicky-mikroprocesorovy-krok": {
       "slovnik": [
         "hippuv-prerusovac"
+      ]
+    },
+    "minutove-kolo": {
+      "slovnik": [
+        "hnaci-kolo",
+        "hodinove-kolo",
+        "mezilehle-kolo",
+        "mezilehly-pastorek",
+        "minutova-trubka",
+        "minutovy-pastorek",
+        "ruckove-soukoli",
+        "ruckovy-pastorek",
+        "stridne-kolo",
+        "vterinove-kolo"
+      ]
+    },
+    "val": {
+      "slovnik": [
+        "hnaci-kolo",
+        "lanovy-buben",
+        "natahovy-buben",
+        "rumpal",
+        "vaha-orloje",
+        "zavazi"
+      ]
+    },
+    "pastorek": {
+      "slovnik": [
+        "hnaci-kolo",
+        "hodinove-kolo",
+        "krokovy-pastorek",
+        "mezilehle-kolo",
+        "mezilehly-pastorek",
+        "minutova-trubka",
+        "minutove-kolo",
+        "minutovy-pastorek",
+        "nabezne-kolo",
+        "ruckovy-pastorek",
+        "sekundovy-pastorek",
+        "stridne-kolo",
+        "tryb",
+        "vrub-zub",
+        "vterinove-kolo"
       ]
     },
     "pouzdrar": {
@@ -2482,6 +2685,33 @@
     "prazska-skola": {
       "slovnik": [
         "hodinar"
+      ]
+    },
+    "minutova-trubka": {
+      "slovnik": [
+        "hodinove-kolo",
+        "minutove-kolo",
+        "ruckove-soukoli",
+        "ruckovy-pastorek",
+        "stridne-kolo"
+      ]
+    },
+    "stridne-kolo": {
+      "slovnik": [
+        "hodinove-kolo",
+        "minutova-trubka",
+        "ruckove-soukoli",
+        "ruckovy-pastorek"
+      ]
+    },
+    "hridel": {
+      "slovnik": [
+        "hodinove-kolo",
+        "hridelik-orloje",
+        "minutova-trubka",
+        "pastorek",
+        "stridne-kolo",
+        "vos"
       ]
     },
     "hodiny-polouorlojni": {
@@ -2509,15 +2739,21 @@
         "stroj"
       ]
     },
-    "vreteno-orloje": {
+    "vos": {
       "slovnik": [
+        "hridel",
         "hridelik-orloje"
       ]
     },
-    "vos": {
+    "vreteno-orloje": {
       "slovnik": [
-        "hridelik-orloje",
-        "tryb"
+        "hridel",
+        "hridelik-orloje"
+      ]
+    },
+    "luozko": {
+      "slovnik": [
+        "hridel"
       ]
     },
     "podruzne-hodiny": {
@@ -2551,12 +2787,6 @@
     "kompenzace-teplotni": {
       "slovnik": [
         "invar"
-      ]
-    },
-    "astrolab": {
-      "slovnik": [
-        "kalendarium",
-        "orloj"
       ]
     },
     "znameni-zodiaku": {
@@ -2600,6 +2830,15 @@
         "klecovy-ram"
       ]
     },
+    "natah": {
+      "slovnik": [
+        "klin-zapadky",
+        "lanovy-buben",
+        "minutova-trubka",
+        "remontoir",
+        "rohatka"
+      ]
+    },
     "klustice": {
       "slovnik": [
         "klinek-orloje"
@@ -2608,9 +2847,9 @@
     "tryb": {
       "slovnik": [
         "klustice",
+        "pastorek",
         "prysek",
-        "stegrad",
-        "vrub-zub"
+        "stegrad"
       ]
     },
     "invar": {
@@ -2627,7 +2866,8 @@
     },
     "vidlice": {
       "slovnik": [
-        "kotoucek-popudny"
+        "kotoucek-popudny",
+        "voditko"
       ]
     },
     "grahamuv-krok": {
@@ -2644,6 +2884,20 @@
         "podruzne-hodiny"
       ]
     },
+    "sekundovy-pastorek": {
+      "slovnik": [
+        "krokovy-pastorek"
+      ]
+    },
+    "vterinove-kolo": {
+      "slovnik": [
+        "krokovy-pastorek",
+        "mezilehle-kolo",
+        "mezilehly-pastorek",
+        "minutove-kolo",
+        "sekundovy-pastorek"
+      ]
+    },
     "herstuk": {
       "slovnik": [
         "kstudle",
@@ -2656,6 +2910,21 @@
         "kyvadlo",
         "regulator",
         "vretenovy-krok"
+      ]
+    },
+    "zavazi": {
+      "slovnik": [
+        "lanovy-buben",
+        "natahovy-buben",
+        "remontoir",
+        "vaha-orloje"
+      ]
+    },
+    "pero": {
+      "slovnik": [
+        "lanovy-buben",
+        "remontoir",
+        "zavazi"
       ]
     },
     "rykl": {
@@ -2685,6 +2954,22 @@
         "sphera"
       ]
     },
+    "hnaci-kolo": {
+      "slovnik": [
+        "mezilehle-kolo",
+        "minutove-kolo",
+        "minutovy-pastorek",
+        "vterinove-kolo"
+      ]
+    },
+    "mezilehle-kolo": {
+      "slovnik": [
+        "mezilehly-pastorek",
+        "minutove-kolo",
+        "sekundovy-pastorek",
+        "vterinove-kolo"
+      ]
+    },
     "grad-zodiakalni": {
       "slovnik": [
         "minuta-hodinarska",
@@ -2693,37 +2978,35 @@
         "zodiak"
       ]
     },
+    "hodinove-kolo": {
+      "slovnik": [
+        "minutova-trubka",
+        "minutove-kolo",
+        "ruckove-soukoli",
+        "ruckovy-pastorek",
+        "stridne-kolo"
+      ]
+    },
     "cursus-violentus": {
       "slovnik": [
         "motus-naturalis"
       ]
     },
-    "natahovy-buben": {
+    "vacka": {
       "slovnik": [
-        "natah"
+        "nabezne-kolo",
+        "zdvizne-kolo"
+      ]
+    },
+    "zdvizne-kolo": {
+      "slovnik": [
+        "nabezne-kolo",
+        "vacka"
       ]
     },
     "remontoir": {
       "slovnik": [
         "natah"
-      ]
-    },
-    "natah": {
-      "slovnik": [
-        "natahovy-buben",
-        "remontoir"
-      ]
-    },
-    "zavazi": {
-      "slovnik": [
-        "natahovy-buben",
-        "remontoir"
-      ]
-    },
-    "pero": {
-      "slovnik": [
-        "natahovy-buben",
-        "remontoir"
       ]
     },
     "prut-orloje": {
@@ -2765,14 +3048,10 @@
         "zachyt"
       ]
     },
-    "tatrmani-aparat": {
+    "klin-zapadky": {
       "slovnik": [
-        "orloj"
-      ]
-    },
-    "kalendarium": {
-      "slovnik": [
-        "orloj"
+        "palec",
+        "rohatka"
       ]
     },
     "paleta-vystupni": {
@@ -2790,6 +3069,13 @@
         "paleta-vystupni",
         "popud",
         "zachyt"
+      ]
+    },
+    "vrub-zub": {
+      "slovnik": [
+        "pastorek",
+        "prysek",
+        "tryb"
       ]
     },
     "snek": {
@@ -2824,15 +3110,10 @@
         "prut-orloje"
       ]
     },
-    "vrub-zub": {
+    "astronomicke-soukoli": {
       "slovnik": [
-        "prysek"
-      ]
-    },
-    "val": {
-      "slovnik": [
-        "rumpal",
-        "vaha-orloje"
+        "ruckove-soukoli",
+        "ukazovaci-stroj"
       ]
     },
     "lermo": {
@@ -2890,11 +3171,6 @@
         "zvon-orloje"
       ]
     },
-    "stegrad": {
-      "slovnik": [
-        "tryb"
-      ]
-    },
     "uhel-klidu": {
       "slovnik": [
         "uhel-zdvihu",
@@ -2916,6 +3192,18 @@
       "slovnik": [
         "v-hertu-kalen",
         "vyklusati"
+      ]
+    },
+    "nabezne-kolo": {
+      "slovnik": [
+        "vacka",
+        "vetrnik",
+        "zdvizne-kolo"
+      ]
+    },
+    "apostolsky-stroj": {
+      "slovnik": [
+        "vetrnik"
       ]
     },
     "svarcvaldska-skola": {
@@ -2967,6 +3255,11 @@
     "tepati": {
       "slovnik": [
         "zvon-orloje"
+      ]
+    },
+    "westminster-chime": {
+      "slovnik": [
+        "zvonici-stroj"
       ]
     }
   },

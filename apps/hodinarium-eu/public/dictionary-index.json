@@ -1,11 +1,11 @@
 {
   "_meta": {
-    "generated": "2026-05-26T13:15:24.667Z",
-    "count": 181,
-    "stubs": 82,
-    "redirects": 5,
-    "withConceptId": 17,
-    "withVyznamy": 0,
+    "generated": "2026-05-28T18:46:40.150Z",
+    "count": 217,
+    "stubs": 75,
+    "redirects": 12,
+    "withConceptId": 56,
+    "withVyznamy": 1,
     "withAtestace": 1,
     "schema_version": "1.0",
     "description": "Slovník hodinářské terminologie — Hodinárium. Pro AI agenty, MCP server, terminology lint."
@@ -205,6 +205,66 @@
       "isStub": false,
       "redirectTo": null
     },
+    "apostolsky-stroj": {
+      "lemma": "apoštolský stroj",
+      "lang": "cs",
+      "conceptId": "HORO-GEARTRAIN-007",
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "apoštolský stroj",
+          "status": "preferred",
+          "note": "Specifický cs odborný termín pro **figurkové soukolí Pražského orloje** — pohon 12 figurek apoštolů, které procházejí horními okénky při bití celých hodin. Doložen restaurátorskou zprávou Petra Skály 2018.",
+          "doloženo": "Skála 2018 (Pražský orloj)"
+        },
+        {
+          "term": "apoštolské soukolí",
+          "status": "admitted"
+        },
+        {
+          "term": "figurkový aparát",
+          "status": "admitted",
+          "note": "Obecnější termín pro pohon pohyblivých figurek — viz [tatrmani / aparát](/slovnik/tatrmani-aparat)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Apostelwerk",
+            "genus": "n",
+            "note": "Historicky doložené v německy psaných popisech Pražského orloje."
+          }
+        ],
+        "en": [
+          {
+            "term": "apostles' mechanism",
+            "note": "Popisná EN forma; ne kanonický Berner termín — Berner orloji se nevěnuje."
+          },
+          {
+            "term": "apostles' procession mechanism"
+          }
+        ],
+        "fr": [
+          {
+            "term": "mécanisme des apôtres",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Samostatný funkční celek (soukolí) Pražského orloje, který pohání **12 dřevěných figurek apoštolů** procházejících horními okénky při odbíjení celých hodin. Spouštěn jicím strojem (přes [kolíček vypouštěcí](/slovnik/kolicek-vypustny) na slunečním kole — od r. 1865), má vlastní [lanový buben](/slovnik/lanovy-buben) se závažím. Vedle [bicího](/slovnik/bici-stroj) a [zvonicího stroje](/slovnik/zvonici-stroj) je třetím přídavným strojem orloje.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bici-stroj",
+        "zvonici-stroj",
+        "jici-stroj",
+        "kolicek-vypustny",
+        "lanovy-buben",
+        "tatrmani-aparat"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "astrolab": {
       "lemma": "astroláb",
       "lang": "cs",
@@ -248,6 +308,77 @@
         "orloj"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "astronomicke-soukoli": {
+      "lemma": "astronomické soukolí",
+      "lang": "cs",
+      "conceptId": "HORO-GEARTRAIN-006",
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "astronomické soukolí",
+          "status": "preferred",
+          "note": "Souhrnný cs odborný termín pro pohonný celek astronomických indikátorů orlojů a astronomických hodin (astroláb, ekliptika, kalendář, fáze Měsíce, planety). Doloženo restaurátorskými zprávami Petra Skály (2018 Pražský orloj).",
+          "doloženo": "Skála 2018"
+        },
+        {
+          "term": "astronomické ukazovací soukolí",
+          "status": "preferred",
+          "note": "Plnější forma — zdůrazňuje rozdíl proti [ručkovému soukolí](/slovnik/ruckove-soukoli) (pouhé minuty/hodiny)."
+        },
+        {
+          "term": "orlojní ukazovací soukolí",
+          "status": "admitted",
+          "note": "Užší varianta pro orloje (≠ astronomické hodiny v interiéru, kde se užívá „astronomické\")."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "astronomisches Anzeigewerk",
+            "genus": "n"
+          },
+          {
+            "term": "Astronomieräderwerk",
+            "genus": "n"
+          }
+        ],
+        "en": [
+          {
+            "term": "astronomical indication train"
+          },
+          {
+            "term": "astronomical wheel work",
+            "note": "EN nemá jednoznačný kanonický termín — používá se popisně"
+          }
+        ],
+        "fr": [
+          {
+            "term": "rouage astronomique",
+            "genus": "m"
+          },
+          {
+            "term": "cadrature astronomique",
+            "genus": "f",
+            "note": "V kontextu cadrature = celý mechanismus za číselníkem"
+          }
+        ]
+      },
+      "definice": "**Rozšířený ukazovací celek** u orlojů a astronomických hodin, který nad rámec [ručkového soukolí](/slovnik/ruckove-soukoli) (minuty + hodiny) pohání také **astronomické indikátory**: sluneční a měsíční ručku, ekliptiku, znamení zvěrokruhu, kalendář, fáze Měsíce, případně planety. Termín „ručkové soukolí\" je v tomto kontextu **nepřesný** — astronomické ukazatele nejsou „ručky\" v běžném smyslu.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "ukazovaci-stroj",
+        "ruckove-soukoli",
+        "soukoli",
+        "astrolab",
+        "kalendarium",
+        "zodiak",
+        "sphera",
+        "kralovska-hridel"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "automatic": {
@@ -387,20 +518,37 @@
     "bici-stroj": {
       "lemma": "bicí stroj",
       "lang": "cs",
-      "conceptId": null,
+      "conceptId": "HORO-GEARTRAIN-003",
       "kategorie": "bici",
-      "varianty": [],
+      "varianty": [
+        {
+          "term": "bicí stroj",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — důsledně užíván Sladkovským 1947, Martínkem–Řehořem 1964 i v restaurátorských zprávách (Skála 2013, 2018).",
+          "doloženo": "Špatný 1882; Sušický 1900; Sladkovský 1947; Martínek–Řehoř 1964; Skála 2013, 2018"
+        },
+        {
+          "term": "soukolí bicí",
+          "status": "admitted",
+          "note": "Vyskytuje se v moderní literatuře jako analogie k „soukolí jicímu\", ale Sladkovský 1947 ani Martínek–Řehoř 1964 ji nepoužívají — jejich preferred je „bicí stroj\"."
+        },
+        {
+          "term": "bicí soukolí",
+          "status": "admitted"
+        }
+      ],
       "translations": {
         "de": [
           {
             "term": "Schlagwerk",
             "genus": "n",
-            "zdroj": "Špatný 1882: Schlagwerk → bicí stroj"
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei*; Špatný 1882"
           }
         ],
         "en": [
           {
-            "term": "striking train"
+            "term": "striking train",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology*; Saunier 1887"
           },
           {
             "term": "striking work"
@@ -409,14 +557,22 @@
         "fr": [
           {
             "term": "sonnerie",
-            "genus": "f"
+            "genus": "f",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*; Gros 1913"
+          },
+          {
+            "term": "rouage de sonnerie",
+            "genus": "m",
+            "zdroj": "Berner — plnější forma"
           }
         ]
       },
-      "definice": "Soukolí samostatné od jicího stroje, jehož úkolem je v pravidelných intervalech (celé hodiny, půle, čtvrtě) udeřit kladívkem na cymbál a tím zvukem oznámit čas.",
+      "definice": "Funkční celek (samostatné soukolí) hodinového stroje, jehož úkolem je v pravidelných intervalech (celé hodiny, půle, čtvrtě) **udeřit kladívkem na cymbál** a tím zvukem oznámit čas. U věžních hodin oddělené od [jicího stroje](/slovnik/jici-stroj) — má vlastní [lanový buben](/slovnik/lanovy-buben) a závaží.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
+        "jici-stroj",
+        "zvonici-stroj",
         "odbijeni",
         "kladivko",
         "cymbal",
@@ -424,7 +580,11 @@
         "pocetnik",
         "srdcovka",
         "posuvka",
-        "spoust"
+        "spoust",
+        "vetrnik",
+        "rohatka",
+        "palec",
+        "kolicek-vypustny"
       ],
       "isStub": false,
       "redirectTo": null
@@ -522,7 +682,7 @@
           }
         ]
       },
-      "definice": "Klidový kotvový krok s kolíčky tvořícími palety kotvy. Krokové kolo má normální ostré zuby, ale kotva je nahrazena dvěma poloválcovými kolíčky. Vynalezl Achille Brocot kolem 1850. Často integrovaný do osy kyvadla, viditelný zepředu ciferníku — typická vlastnost pařížských pendulí 19. století („Brocotova kotva\" jako dekorativní prvek).",
+      "definice": "Klidový kotvový krok s kolíčky tvořícími palety kotvy. Krokové kolo má normální ostré zuby, ale kotva je nahrazena dvěma poloválcovými kolíčky. Vynalezl Achille Brocot kolem 1850. Často integrovaný do osy kyvadla, viditelný zepředu číselníku — typická vlastnost pařížských pendulí 19. století („Brocotova kotva\" jako dekorativní prvek).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -2163,6 +2323,98 @@
       "isStub": false,
       "redirectTo": null
     },
+    "hnaci-kolo": {
+      "lemma": "hnací kolo",
+      "lang": "cs",
+      "conceptId": "HORO-WHEEL-004",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "hnací kolo",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — Martínek–Řehoř 1964 systematicky. U věžních hodin sedí na hřídeli [lanového bubnu](/slovnik/lanovy-buben).",
+          "doloženo": "Martínek–Řehoř 1964; Skála 2018"
+        },
+        {
+          "term": "kolo hnací",
+          "status": "preferred",
+          "note": "Inverzní slovosled."
+        },
+        {
+          "term": "kolo hlavní",
+          "status": "preferred",
+          "note": "Synonymum užívané zejména u věžních hodin (Táborský 1570: „kolo veliké, jenž slove hlavní\"); Sladkovský 1947 též „hlavní kolo\".",
+          "doloženo": "Táborský 1570; Sladkovský 1947"
+        },
+        {
+          "term": "hlavní kolo",
+          "status": "preferred"
+        },
+        {
+          "term": "drive wheel",
+          "status": "admitted",
+          "note": "Berner univerzálně pro „barrel\" (= soudek pera u hodinek) i „great wheel\" (= velké hnací kolo u věžních hodin)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Hauptrad",
+            "genus": "n",
+            "zdroj": "Standardní DE termín pro hnací kolo věžních hodin."
+          },
+          {
+            "term": "Federhausrad",
+            "genus": "n",
+            "zdroj": "Špatný 1882 — kolo perovnice (= bubínek s perem) u hodinek."
+          },
+          {
+            "term": "Antriebsrad",
+            "genus": "n"
+          }
+        ],
+        "en": [
+          {
+            "term": "drive wheel",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „mobile\" — drive wheel: the barrel)"
+          },
+          {
+            "term": "great wheel",
+            "zdroj": "Standardní EN termín u věžních hodin"
+          },
+          {
+            "term": "main wheel"
+          }
+        ],
+        "fr": [
+          {
+            "term": "roue motrice",
+            "genus": "f",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*"
+          },
+          {
+            "term": "grande roue",
+            "genus": "f",
+            "note": "U věžních hodin"
+          }
+        ]
+      },
+      "definice": "První kolo [jicího soukolí](/slovnik/jici-stroj), pevně spojené s hřídelem pohonu — u věžních hodin s [lanovým bubnem](/slovnik/lanovy-buben) [závaží](/slovnik/zavazi), u hodinek s [perovníkem](/slovnik/perovnik) (bubínkem pera). U Táborského 1570 „kolo veliké, jenž slove hlavní\". Předává hnací moment přes pastorek na [minutové kolo](/slovnik/minutove-kolo) (druhé v kaskádě).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "jici-stroj",
+        "soukoli",
+        "lanovy-buben",
+        "perovnik",
+        "minutove-kolo",
+        "kralovska-hridel",
+        "val",
+        "pastorek"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "hodinar": {
       "lemma": "hodinář",
       "lang": "cs",
@@ -2198,6 +2450,63 @@
       "pribuzne": [
         "pouzdrar",
         "prazska-skola"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "hodinove-kolo": {
+      "lemma": "hodinové kolo",
+      "lang": "cs",
+      "conceptId": "HORO-MOTION-003",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "hodinové kolo",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — Špatný 1882 systematicky („Stundenrad → hodinové kolo\") + Sladkovský 1947 + Martínek-Řehoř 1964.",
+          "doloženo": "Špatný 1882; Sladkovský 1947; Martínek–Řehoř 1964"
+        },
+        {
+          "term": "kolo hodinové",
+          "status": "preferred",
+          "note": "Inverzní slovosled."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Stundenrad",
+            "genus": "n",
+            "zdroj": "Berner; Špatný 1882 (Stundenrad → hodinové kolo; Stundenradfeder → zpružka kola hodinového; Stundenrohr → trubka hodinová)"
+          }
+        ],
+        "en": [
+          {
+            "term": "hour wheel",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „pipe\": „hour wheel: in a watch, the wheel bearing the hour hand\")"
+          }
+        ],
+        "fr": [
+          {
+            "term": "roue des heures",
+            "genus": "f",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*"
+          },
+          {
+            "term": "roue d''heures",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Konečné kolo [ručkového soukolí (motion work)](/slovnik/soukoli) — nese **hodinovou ručku**. Sedí jako **dutá trubka koaxiálně na [minutové trubce](/slovnik/minutova-trubka)** kolem centrálního hřídele. Otáčí se **1× za 12 hodin** (případně 1× za 24 h u 24hodinových strojů). Hnané [střídným pastorkem](/slovnik/stridne-kolo) v redukci 12 : 1 vůči minutové trubce.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "minutove-kolo",
+        "minutova-trubka",
+        "stridne-kolo",
+        "pastorek",
+        "hridel"
       ],
       "isStub": false,
       "redirectTo": null
@@ -2322,6 +2631,90 @@
       "isStub": true,
       "redirectTo": null
     },
+    "hridel": {
+      "lemma": "hřídel",
+      "lang": "cs",
+      "conceptId": "HORO-ARBOR-001",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "hřídel",
+          "status": "preferred",
+          "doloženo": "Špatný 1882; Sušický 1900; Sladkovský 1947; Bureš 1965; Skála (restaurátorské zprávy)"
+        },
+        {
+          "term": "osa",
+          "status": "admitted",
+          "note": "V některých kontextech (zejména u krokového kola, palet, kotvy) — Bureš 1974."
+        },
+        {
+          "term": "hřídelík",
+          "status": "archaic",
+          "note": "Zdrobnělina, Táborský 1570 pro tenké čepové osy malých indikátorů orloje — viz [hřídelík](/slovnik/hridelik-orloje).",
+          "doloženo": "Táborský 1570"
+        },
+        {
+          "term": "vos",
+          "status": "archaic",
+          "note": "Staročes. pravopis slova „osa\" s protetickým *v-*. Viz [vos](/slovnik/vos).",
+          "doloženo": "Táborský 1570"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Welle",
+            "genus": "f",
+            "zdroj": "Berner; Špatný 1882 (Welle = hřídel)"
+          },
+          {
+            "term": "Achse",
+            "genus": "f",
+            "zdroj": "Berner — pro tenkou osu (typicky kyvadla, palet)"
+          }
+        ],
+        "en": [
+          {
+            "term": "arbor",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (typický termín pro hodinářské hřídele)"
+          },
+          {
+            "term": "shaft",
+            "zdroj": "Obecnější EN termín pro velký hřídel"
+          },
+          {
+            "term": "axis",
+            "note": "Pro tenkou osu (např. axis of the balance = hřídel setrvačky)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "arbre",
+            "genus": "m",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*; Gros 1913"
+          },
+          {
+            "term": "axe",
+            "genus": "m",
+            "zdroj": "Pro tenkou osu"
+          }
+        ]
+      },
+      "definice": "Otáčející se válcová součást, na které sedí ozubená kola, pastorky, vacky, závaží nebo indikátory. Tvoří **kostru každého kola** hodinového stroje. Konce hřídele (čepy) jsou uložena v ložiscích (lůžkách) v plotnách rámu stroje.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hridelik-orloje",
+        "vos",
+        "vreteno-orloje",
+        "kralovska-hridel",
+        "luozko",
+        "lanovy-buben",
+        "soukoli"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "hridelik-orloje": {
       "lemma": "hřídelík",
       "lang": "cs",
@@ -2330,24 +2723,34 @@
       "varianty": [
         {
           "term": "hřídelík",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročeská zdrobnělina k „hřídeli\", Táborský 1570 pro tenké čepové osy malých indikátorů orloje. V moderní hodinařině [hřídel](/slovnik/hridel) bez zdrobněliny.",
+          "doloženo": "Táborský 1570"
+        },
+        {
+          "term": "vřeteno",
+          "status": "archaic",
+          "note": "Synonymum, Táborský 1570 střídá: „vřeteno aneb hřídeliku\". Viz [vřeteno (orlojní)](/slovnik/vreteno-orloje).",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "hřídel",
-          "status": "admitted"
+          "status": "preferred",
+          "note": "Moderní cs odborný termín (bez zdrobněliny)."
         }
       ],
       "translations": {},
-      "definice": "U Táborského 1570 *hřídelík* označuje drobný hřídel (zmenšenina od *hřídel*) — typicky čepový hřídelík nesoucí měsíc nebo jiný malý indikátor. Synonymum: *vřeteno*.",
+      "definice": "Staročeská zdrobnělina k „hřídeli\", Táborský 1570 pro **tenké čepové osy malých indikátorů orloje** (např. „hřídelík, na kterémž sedí měsíc\"). Synonymum *vřeteno*. **V moderní češtině se nepoužívá** — viz [hřídel](/slovnik/hridel).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "kralovska-hridel",
+        "hridel",
         "vreteno-orloje",
-        "vos"
+        "vos",
+        "kralovska-hridel"
       ],
-      "isStub": true,
-      "redirectTo": null
+      "isStub": false,
+      "redirectTo": "hridel"
     },
     "hruden": {
       "lemma": "hruden (rok)",
@@ -2534,6 +2937,86 @@
         "vlasek",
         "chronometr",
         "krok"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "jici-stroj": {
+      "lemma": "jicí stroj",
+      "lang": "cs",
+      "conceptId": "HORO-GEARTRAIN-002",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "jicí stroj",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — analogie k [bicímu stroji](/slovnik/bici-stroj). Doložen Skálou 2018 („stroj jicí/ukazovací\") a Himmlerem 2006.",
+          "doloženo": "Skála 2018; Himmler 2006"
+        },
+        {
+          "term": "soukolí jicí",
+          "status": "preferred",
+          "note": "Druhá rovnocenná varianta — důsledně užívána Sladkovským 1947 v 8 výskytech (kapitola „Mathematické délky kyvadla\", „Hodiny strojové\"). Bureš 1965.",
+          "doloženo": "Sladkovský 1947; Bureš 1965"
+        },
+        {
+          "term": "jicí soukolí",
+          "status": "preferred"
+        },
+        {
+          "term": "chodicí soukolí",
+          "status": "admitted",
+          "note": "Synonymum, Špatný 1882 překládá Gehwerk = „choděcí, chodící, jdoucí stroj\".",
+          "doloženo": "Špatný 1882"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Gehwerk",
+            "genus": "n",
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei*; Špatný 1882 (Gehwerk = chodicí, jdoucí stroj)"
+          },
+          {
+            "term": "Räderwerk",
+            "genus": "n",
+            "note": "Obecnější DE termín pro soukolí jako takové."
+          }
+        ],
+        "en": [
+          {
+            "term": "going train",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology*; Saunier 1887"
+          },
+          {
+            "term": "time train",
+            "note": "Alternativní EN termín"
+          }
+        ],
+        "fr": [
+          {
+            "term": "rouage de mouvement",
+            "genus": "m",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*"
+          },
+          {
+            "term": "rouage du temps",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "**Hlavní funkční celek** každého hodinového stroje — sestava ozubených kol a pastorků, která přenáší energii od pohonu (závaží nebo péra) přes [krokové kolo](/slovnik/krokove-kolo) regulované [krokem](/slovnik/krok) k indikaci času (ručkám, číselníku). Měří plynutí času. U věžních hodin oddělené od [bicího stroje](/slovnik/bici-stroj) a od [zvonicího stroje](/slovnik/zvonici-stroj).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "soukoli",
+        "bici-stroj",
+        "zvonici-stroj",
+        "krok",
+        "krokove-kolo",
+        "lanovy-buben",
+        "kralovska-hridel",
+        "kolicek-vypustny"
       ],
       "isStub": false,
       "redirectTo": null
@@ -2782,6 +3265,73 @@
       "isStub": false,
       "redirectTo": null
     },
+    "klin-zapadky": {
+      "lemma": "klín západky",
+      "lang": "cs",
+      "conceptId": "HORO-RATCHET-002",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "západka",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — Martínek–Řehoř 1964 systematicky („Rohatka se západkou\"), Bureš 1974 (mnoho výskytů). Akcentuje funkci („západá\" do mezery mezi zuby).",
+          "doloženo": "Martínek–Řehoř 1964, s. 77 obr. 69 „Rohatka se západkou\"; Bureš 1974"
+        },
+        {
+          "term": "klín západky",
+          "status": "admitted",
+          "note": "Skálovo deskriptivnější označení (2013: „klín vtlačovaný zpruhou mezi její zuby\"). Užitečné, když se zdůrazňuje tvar součásti.",
+          "doloženo": "Skála 2013"
+        },
+        {
+          "term": "klín",
+          "status": "admitted",
+          "note": "Krátká forma v kontextu rohatky (Skála 2013: „klín rohatky\").",
+          "doloženo": "Skála 2013"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Sperrklinke",
+            "genus": "f",
+            "zdroj": "Berner; Špatný 1882"
+          },
+          {
+            "term": "Klinke",
+            "genus": "f"
+          }
+        ],
+        "en": [
+          {
+            "term": "pawl",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology*"
+          },
+          {
+            "term": "click",
+            "zdroj": "Berner (heslo „click weight\")"
+          }
+        ],
+        "fr": [
+          {
+            "term": "cliquet",
+            "genus": "m",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*"
+          }
+        ]
+      },
+      "definice": "Pohyblivá součást ve tvaru klínu nebo háčku (v učebnicích **„západka\"**, Martínek–Řehoř 1964; deskriptivně **„klín západky\"**, Skála 2013), kterou **pružina vtlačuje mezi zuby [rohatky](/slovnik/rohatka)** a tím rohatku aretuje v přesné poloze. Při otočení rohatky vpřed západka přejede po šikmé straně zubu a zapadne za další zub; při pokusu o pohyb zpět zaklíní svislou stranu zubu a zabrání pohybu — to vytváří **jednosměrný (zaklapávací) mechanismus**.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "rohatka",
+        "palec",
+        "natah",
+        "bici-stroj"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "klinek-orloje": {
       "lemma": "klínek (dřevěný)",
       "lang": "cs",
@@ -2829,6 +3379,80 @@
       "isStub": true,
       "redirectTo": null
     },
+    "kolicek-vypustny": {
+      "lemma": "kolíček vypouštěcí",
+      "lang": "cs",
+      "conceptId": "HORO-RELEASE-001",
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "vypouštěcí kolíček",
+          "status": "preferred",
+          "note": "Termín užívaný Burešem 1974 (sériový signálový stroj).",
+          "doloženo": "Bureš 1974"
+        },
+        {
+          "term": "kolíček vypouštěcí",
+          "status": "preferred",
+          "note": "Inverzní slovosled — bez sémantického rozdílu, rovnocenné."
+        },
+        {
+          "term": "kolíček",
+          "status": "admitted",
+          "note": "Krátká forma v kontextu, kde je význam zřejmý („kolíček na hlavním kole zvonicího stroje\" — Skála 2013).",
+          "doloženo": "Skála 2013"
+        },
+        {
+          "term": "spouštěcí palec",
+          "status": "admitted",
+          "note": "Funkční synonymum u kapesních/stojanových hodin: Martínek-Řehoř 1964 popisuje obdobnou součást na ručkovém pastorku jako [spouštěcí palec](/slovnik/palec). Tvarově palec ≠ kolíček, ale funkce je shodná.",
+          "doloženo": "Martínek-Řehoř 1964"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Auslösestift",
+            "genus": "m"
+          },
+          {
+            "term": "Hebestift",
+            "genus": "m",
+            "note": "Obecnější DE termín pro „zvedací kolíček\"."
+          }
+        ],
+        "en": [
+          {
+            "term": "lifting pin",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „pin\"); také „release pin\""
+          },
+          {
+            "term": "release pin"
+          }
+        ],
+        "fr": [
+          {
+            "term": "cheville de levée",
+            "genus": "f"
+          },
+          {
+            "term": "cheville de déclenchement",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Vyčnívající kolíček (čep) zalisovaný do **hlavního kola jicího stroje** (nebo jiného hodinového kola), který při průchodu pod **výpustnou pákou bicího stroje** páku zvedne — tím **vypustí (spustí) bicí stroj**. Počet a rozmístění kolíčků na obvodu kola určuje, kolikrát za otáčku se bicí stroj spustí (typicky 4× = čtvrtě, 1× = celá hodina).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "palec",
+        "ramenko",
+        "spoust",
+        "bici-stroj"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "kolickovy-krok": {
       "lemma": "kolíčkový krok",
       "lang": "cs",
@@ -2865,7 +3489,7 @@
         {
           "term": "Brocotův krok",
           "status": "historical",
-          "note": "Varianta B, Achille Brocot ~1840. Kotva má kolíčky půlkruhového průřezu, krokové kolo zahrocené zuby. Typicky integrovaný do osy kyvadla, viditelný zepředu ciferníku.",
+          "note": "Varianta B, Achille Brocot ~1840. Kotva má kolíčky půlkruhového průřezu, krokové kolo zahrocené zuby. Typicky integrovaný do osy kyvadla, viditelný zepředu číselníku.",
           "doloženo": "Hajn 1953, obr. 144; Dietzschold 1905 (Brocots Stiftengang)"
         },
         {
@@ -3087,6 +3711,73 @@
       "pribuzne": [
         "kalibr",
         "pouzdro"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "kotoucek-popudny": {
+      "lemma": "kotouček popudný",
+      "lang": "cs",
+      "conceptId": "HORO-ESCAPEMENT-010",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "kotouček popudný",
+          "status": "preferred",
+          "doloženo": "Sladkovský 1947"
+        },
+        {
+          "term": "kotouček vidličky",
+          "status": "preferred",
+          "note": "Alternativní moderní termín zdůrazňující funkci (kotouček spolupracující s vidličkou kotvy)."
+        },
+        {
+          "term": "kotouč vahadla",
+          "status": "archaic",
+          "note": "Sušický 1900 — „vahadlo\" jako starší výraz pro setrvačku.",
+          "doloženo": "Sušický 1900"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Hebelscheibe",
+            "genus": "f",
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei* (heslo „Hebelscheibe\")"
+          }
+        ],
+        "en": [
+          {
+            "term": "impulse roller",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „plate II, roller-table\")"
+          },
+          {
+            "term": "roller",
+            "zdroj": "Berner — užíváno samostatně v kombinacích „single roller\", „double roller\""
+          }
+        ],
+        "fr": [
+          {
+            "term": "plateau",
+            "genus": "m",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie* (heslo „plateau\" II — organe de l'échappement)"
+          },
+          {
+            "term": "plateau d'impulsion",
+            "genus": "m",
+            "zdroj": "Sladkovský 1947; podrobnější FR varianta"
+          }
+        ]
+      },
+      "definice": "Kotouč na hřídeli [setrvačky](/slovnik/setrvacka) s elipsoidním kamenem [vodítka](/slovnik/voditko); spolu s vidličkou kotvy hlavní součást [kotvového kroku](/slovnik/krok) kapesních a náramkových hodinek.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "voditko",
+        "setrvacka",
+        "kotva",
+        "vidlice",
+        "krok"
       ],
       "isStub": false,
       "redirectTo": null
@@ -3373,6 +4064,67 @@
       "isStub": false,
       "redirectTo": null
     },
+    "krokovy-pastorek": {
+      "lemma": "krokový pastorek",
+      "lang": "cs",
+      "conceptId": "HORO-PINION-005",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "krokový pastorek",
+          "status": "preferred",
+          "note": "Bureš 1965 „pastorek krokového kola\" (s. 152 tabulka, I. skupina č. 6 — poslední element jicí kaskády).",
+          "doloženo": "Bureš 1965, s. 152"
+        },
+        {
+          "term": "pastorek krokového kola",
+          "status": "preferred"
+        },
+        {
+          "term": "stupníkový pastorek",
+          "status": "archaic",
+          "note": "Sladkovský 1947 „pastorek stupní d\" (od „stupníku\" = krokového kola). Termín ustoupil za moderní „krokový pastorek\".",
+          "doloženo": "Sladkovský 1947"
+        },
+        {
+          "term": "pastorek stupní",
+          "status": "archaic",
+          "doloženo": "Sladkovský 1947"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Hemmungstrieb",
+            "genus": "m"
+          }
+        ],
+        "en": [
+          {
+            "term": "escape pinion",
+            "zdroj": "Berner (heslo „mobile\" — going train: ... and escape pinion)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "pignon d''échappement",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Pastorek na hřídeli [krokového kola](/slovnik/krokove-kolo) — **poslední element** [jicí](/slovnik/jici-stroj) kaskády. Sedí na společném hřídeli s krokovým kolem; do něj shora zabírá [sekundový pastorek](/slovnik/sekundovy-pastorek). Sladkovský 1947 typický **d = 6 nebo 7 zubů** (nejmenší pastorek v hodinkovém stroji).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "pastorek",
+        "krokove-kolo",
+        "sekundovy-pastorek",
+        "vterinove-kolo",
+        "krok"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "kstudle": {
       "lemma": "kštudle",
       "lang": "cs",
@@ -3468,35 +4220,137 @@
         "de": [
           {
             "term": "Pendel",
-            "genus": "n"
+            "genus": "n",
+            "zdroj": "Berner; Špatný 1882 (Pendel n. → kyvadlo)"
           },
           {
-            "term": "Špatný 1882]"
-          },
-          {
-            "term": "Perpendikel"
+            "term": "Perpendikel",
+            "genus": "m",
+            "zdroj": "Šumavský 1851 (heslo Kývadl-)"
           }
         ],
         "en": [
           {
             "term": "pendulum",
-            "zdroj": "Saunier 1887"
+            "zdroj": "Berner; Saunier 1887"
           }
         ],
         "fr": [
           {
             "term": "pendule",
-            "genus": "f"
+            "genus": "m",
+            "zdroj": "Berner — POZOR: *le pendule* (mask.) = kyvadlo regulátor; *la pendule* (fem.) = nástěnné/stojanové hodiny"
           }
         ]
       },
-      "definice": "Oscilátor ve formě tyče s čočkou, zavěšený na pružné planžetě; jeho pravidelné kývání reguluje chod hodin přes krok.",
+      "definice": "Oscilátor ve formě tyče s čočkou, zavěšený na pružné planžetě; jeho pravidelné kývání reguluje chod hodin přes krok. Bureš 1965 systematicky rozlišuje **kyvadlo matematické** (idealizace — bod na nehmotné niti) od **kyvadla fyzického** (= reálné s hmotnou tyčí + čočkou).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "invar",
         "setrvacka",
         "lihyr"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "lanovy-buben": {
+      "lemma": "lanový buben",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "lanový buben",
+          "status": "preferred",
+          "note": "Primární moderní cs odborný termín — důsledně užíván v restaurátorských zprávách Petra Skály (2018 Pražský orloj, 2019 Markvartice, 2021 Vanovice).",
+          "doloženo": "Skála 2018, 2019, 2021"
+        },
+        {
+          "term": "nátahový buben",
+          "status": "admitted",
+          "note": "Přípustné synonymum, užíváno Himmlerem 2006 (VMO Olomouc). V současné restaurátorské literatuře ustupuje termínu „lanový buben\".",
+          "doloženo": "Himmler 2006"
+        },
+        {
+          "term": "nátahový válec",
+          "status": "admitted",
+          "note": "Synonymum, u Himmlera 2006 střídavě s „nátahovým bubnem\".",
+          "doloženo": "Himmler 2006"
+        },
+        {
+          "term": "lanový válec",
+          "status": "admitted"
+        },
+        {
+          "term": "vál",
+          "status": "archaic",
+          "note": "Staročeský termín — viz [vál](/slovnik/val) (Táborský 1570).",
+          "doloženo": "Táborský 1570"
+        },
+        {
+          "term": "rumpál",
+          "status": "archaic",
+          "note": "Staročeské synonymum — viz [rumpál](/slovnik/rumpal).",
+          "doloženo": "Táborský 1570"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Seiltrommel",
+            "genus": "f"
+          },
+          {
+            "term": "Aufzugtrommel",
+            "genus": "f"
+          },
+          {
+            "term": "Trommel",
+            "genus": "f"
+          }
+        ],
+        "en": [
+          {
+            "term": "drum",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „drum\": pro lanový buben věžních hodin)"
+          },
+          {
+            "term": "rope drum",
+            "zdroj": "Specializovaný EN termín pro lanový buben (= věžní pohon)"
+          },
+          {
+            "term": "winding drum",
+            "zdroj": "Alternativní EN termín"
+          },
+          {
+            "term": "barrel",
+            "zdroj": "POZOR: Berner *barrel* = soudek pera (mainspring) u hodinek, nikoli lanový buben. Užívejte „drum\" pro věžní kontext."
+          }
+        ],
+        "fr": [
+          {
+            "term": "tambour",
+            "genus": "m"
+          },
+          {
+            "term": "tambour de corde",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Válcová součást věžního hodinového stroje, na kterou se navíjí **lano nesoucí závaží**. Otáčením bubnu při natahování se závaží zvedá nahoru; při chodu hodin závaží klesá a tahem za lano otáčí buben opačným směrem, čímž **přenáší energii do soukolí stroje**. Každý dílčí stroj (jicí, čtvrťový, bicí) má vlastní lanový buben. Primární termín v moderní restaurátorské praxi (Skála 2018+); historicky doložen už Táborským 1570 jako „vál neb rumpál\".",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "natah",
+        "soukoli",
+        "zavazi",
+        "pero",
+        "perovnik",
+        "val",
+        "rumpal",
+        "vaha-orloje"
       ],
       "isStub": false,
       "redirectTo": null
@@ -3862,6 +4716,150 @@
       "isStub": false,
       "redirectTo": null
     },
+    "mezilehle-kolo": {
+      "lemma": "mezilehlé kolo",
+      "lang": "cs",
+      "conceptId": "HORO-WHEEL-002",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "mezilehlé kolo",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — Martínek–Řehoř 1964 systematicky („mezilehlé kolo Z₃\" v obr. 46 hlavního soukolí).",
+          "doloženo": "Martínek–Řehoř 1964, s. 67, obr. 46"
+        },
+        {
+          "term": "kolo mezitimní",
+          "status": "preferred",
+          "note": "Forma užívaná Sladkovským 1947 (14× v učebnici, označení B v převodových vzorcích).",
+          "doloženo": "Sladkovský 1947 („Kolo mezitimní B = 60\")"
+        },
+        {
+          "term": "mezitimní kolo",
+          "status": "admitted"
+        },
+        {
+          "term": "třetí kolo",
+          "status": "admitted",
+          "note": "Z anglické konvence „third wheel\" (Berner) — 3. kolo počítáno od pohonu (1. = barrel, 2. = centre, 3. = third)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Zwischenrad",
+            "genus": "n",
+            "zdroj": "Berner; Špatný 1882 (Zwischen- = mezi-)"
+          },
+          {
+            "term": "Mittelrad",
+            "genus": "n",
+            "zdroj": "Alternativní DE termín (Mittel- = středový)"
+          }
+        ],
+        "en": [
+          {
+            "term": "third wheel",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „mobile\" — going train: centre, third, fourth, escape)"
+          },
+          {
+            "term": "intermediate wheel",
+            "zdroj": "Berner — užíváno pro bicí stroj (heslo „week\" II.: „in a strike train, the wheel between the barrel and the pin wheel\")"
+          }
+        ],
+        "fr": [
+          {
+            "term": "roue moyenne",
+            "genus": "f",
+            "zdroj": "Berner — francouzský standard"
+          },
+          {
+            "term": "roue intermédiaire",
+            "genus": "f",
+            "zdroj": "Berner — pro bicí stroj a alternativně"
+          }
+        ]
+      },
+      "definice": "**Třetí kolo** [jicího soukolí](/slovnik/jici-stroj) — převodový mezičlán mezi [minutovým kolem](/slovnik/minutove-kolo) a [vteřinovým kolem](/slovnik/vterinove-kolo). U přesných hodin přenáší pohyb v poměru 1 : 60 (otáčí se 1× za 8–10 minut). V Sladkovského typologii (1947) má 60–75 zubů u hodinek a 60–72 u kyvadlových strojů.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "jici-stroj",
+        "soukoli",
+        "minutove-kolo",
+        "vterinove-kolo",
+        "krokove-kolo",
+        "hnaci-kolo",
+        "pastorek"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "mezilehly-pastorek": {
+      "lemma": "mezilehlý pastorek",
+      "lang": "cs",
+      "conceptId": "HORO-PINION-003",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "mezilehlý pastorek",
+          "status": "preferred",
+          "note": "Primární cs odborný termín odvozený od mezilehlého kola; Bureš 1965 „pastorek mezilehlého kola\" (s. 152 tabulka).",
+          "doloženo": "Bureš 1965, s. 152"
+        },
+        {
+          "term": "pastorek mezilehlého kola",
+          "status": "preferred",
+          "note": "Plnější forma podle Bureše 1965."
+        },
+        {
+          "term": "mezitimní pastorek",
+          "status": "preferred",
+          "note": "Sladkovský 1947 systematicky („pastorek mezitimní b = 8\" v převodových vzorcích).",
+          "doloženo": "Sladkovský 1947"
+        },
+        {
+          "term": "pastorek mezitimní",
+          "status": "preferred"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Zwischentrieb",
+            "genus": "m"
+          }
+        ],
+        "en": [
+          {
+            "term": "third pinion",
+            "zdroj": "Berner (heslo „mobile\" — going train: ... third wheel and pinion ...)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "pignon de roue moyenne",
+            "genus": "m"
+          },
+          {
+            "term": "pignon intermédiaire",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Pastorek na hřídeli [mezilehlého kola](/slovnik/mezilehle-kolo) (= 3. kola jicího soukolí). Sedí na stejném hřídeli jako mezilehlé kolo a zabírá do **dalšího kola** v kaskádě — buď [vteřinového kola](/slovnik/vterinove-kolo), nebo přímo do [krokového kola](/slovnik/krokove-kolo) (u strojů bez sekundové ručky). Bureš 1965 jej řadí do I. skupiny jako č. 2.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "pastorek",
+        "mezilehle-kolo",
+        "minutove-kolo",
+        "vterinove-kolo",
+        "krokove-kolo"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "minuta-hodinarska": {
       "lemma": "minuta hodinářská × astronomická",
       "lang": "cs",
@@ -3890,6 +4888,218 @@
         "grad-zodiakalni"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "minutova-trubka": {
+      "lemma": "minutová trubka",
+      "lang": "cs",
+      "conceptId": "HORO-MOTION-001",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "minutová trubka",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — Špatný 1882 („Minutenrohr → trubka minutová\"). Dutý pastorek nasunutý na centrálním hřídeli, který nese minutovou ručku.",
+          "doloženo": "Špatný 1882"
+        },
+        {
+          "term": "trubka minutová",
+          "status": "preferred",
+          "note": "Inverzní slovosled — Špatný 1882."
+        },
+        {
+          "term": "minutový pastorek",
+          "status": "admitted",
+          "note": "Synonymum — funkčně jde o pastorek, geometricky o trubku. Sladkovský a Martínek-Řehoř střídavě."
+        },
+        {
+          "term": "chaussée",
+          "status": "admitted",
+          "note": "Přejato z FR (Berner)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Minutenrohr",
+            "genus": "n",
+            "zdroj": "Berner; Špatný 1882 (Minutenrohr → trubka minutová)"
+          }
+        ],
+        "en": [
+          {
+            "term": "cannon pinion",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „cannon pinion\")"
+          },
+          {
+            "term": "cannon-pinion"
+          }
+        ],
+        "fr": [
+          {
+            "term": "chaussée",
+            "genus": "f",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*"
+          }
+        ]
+      },
+      "definice": "Dutý pastorek nasunutý třením na **centrálním hřídeli** [minutového kola](/slovnik/minutove-kolo); nese **minutovou ručku**. Otáčí se **1× za hodinu**. Třecí spojka mezi minutovou trubkou a centrálním hřídelem umožňuje **přestavovat ručky** (korunkou, případně přímo páčkou) — minutová trubka se zatočí, ale jicí soukolí se přitom nezastaví. Klíčový orgán [ručkového soukolí (motion work)](/slovnik/soukoli) každého stroje s víceručičkovou indikací.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "minutove-kolo",
+        "stridne-kolo",
+        "hodinove-kolo",
+        "pastorek",
+        "hridel",
+        "natah"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "minutove-kolo": {
+      "lemma": "minutové kolo",
+      "lang": "cs",
+      "conceptId": "HORO-WHEEL-001",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "minutové kolo",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — v Sladkovském 1947 doložen 14× (jako „kolo minutové\", označení A v převodových vzorcích). Martínek–Řehoř 1964 totéž.",
+          "doloženo": "Sladkovský 1947, kap. „Hodiny strojové\" (14×); Martínek–Řehoř 1964, obr. 46"
+        },
+        {
+          "term": "centrální kolo",
+          "status": "admitted",
+          "note": "Berner anglicky „centre wheel\", obvykle umístěné v centru stroje, nese centrální hřídel."
+        },
+        {
+          "term": "kolo minutové",
+          "status": "preferred",
+          "note": "Inverzní slovosled — Sladkovský 1947 i Martínek–Řehoř 1964 střídavě."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Centrumrad",
+            "genus": "n",
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei* (heslo „centre wheel\" → Centrumrad)"
+          },
+          {
+            "term": "Zentrumrad",
+            "genus": "n",
+            "zdroj": "Berner — moderní pravopis"
+          },
+          {
+            "term": "Minutenrad",
+            "genus": "n",
+            "zdroj": "Špatný 1882 (Minute → minuta; v ekosystému Minutenrad)"
+          }
+        ],
+        "en": [
+          {
+            "term": "centre wheel",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „large\", II. centre wheel)"
+          },
+          {
+            "term": "center wheel",
+            "zdroj": "Berner (US varianta)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "roue de centre",
+            "genus": "f",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*"
+          },
+          {
+            "term": "roue moyenne",
+            "genus": "f",
+            "note": "Synonymum, doložené starší FR literaturou."
+          }
+        ]
+      },
+      "definice": "Centrální kolo [jicího soukolí](/slovnik/jici-stroj) hodinového stroje, umístěné obvykle v jeho geometrickém středu. Otáčí se **jednou za hodinu** a nese **centrální hřídel** s minutovou ručkou (případně přes [minutovou trubku](/slovnik/minutova-trubka)). V Sladkovského a Martínkově soustavě převodů označováno **A** (první kolo za pohonem v jicí kaskádě). U přesných hodin následuje [mezilehlé kolo](/slovnik/mezilehle-kolo).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "jici-stroj",
+        "soukoli",
+        "mezilehle-kolo",
+        "vterinove-kolo",
+        "krokove-kolo",
+        "hnaci-kolo",
+        "minutova-trubka",
+        "hodinove-kolo",
+        "pastorek"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "minutovy-pastorek": {
+      "lemma": "minutový pastorek",
+      "lang": "cs",
+      "conceptId": "HORO-PINION-002",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "minutový pastorek",
+          "status": "preferred",
+          "note": "Plnější forma „pastorek minutového kola\" — Bureš 1965 (s. 152 tabulka 3 skupin) v III. skupině jako č. 4. Sladkovský 1947 doložen 1× v kontextu osmidenního stroje.",
+          "doloženo": "Bureš 1965, s. 152; Sladkovský 1947"
+        },
+        {
+          "term": "pastorek minutového kola",
+          "status": "preferred",
+          "note": "Plnější forma podle Bureš 1965 tabulky pojmenování.",
+          "doloženo": "Bureš 1965, s. 152, tabulka 3 skupin"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Minutentrieb",
+            "genus": "m"
+          },
+          {
+            "term": "Centrumtrieb",
+            "genus": "m",
+            "note": "Alternativa — odpovídá EN \"centre pinion\""
+          }
+        ],
+        "en": [
+          {
+            "term": "centre pinion",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „mobile\" — going train: centre pinion, centre wheel, ...)"
+          },
+          {
+            "term": "center pinion",
+            "note": "US varianta"
+          }
+        ],
+        "fr": [
+          {
+            "term": "pignon de centre",
+            "genus": "m"
+          },
+          {
+            "term": "pignon de minuterie",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Pastorek na centrálním hřídeli stroje, který přijímá pohyb z [hnacího kola](/slovnik/hnaci-kolo) (případně přes mezilehlá přísadní kola) a předává ho [minutovému kolu](/slovnik/minutove-kolo). U strojů s **krátkou dobou chodu** (Martínek–Řehoř 1964: jednodenní) zabírá hnací kolo přímo do minutového pastorku — II. soukolí má pak jednu záběrovou dvojici. U **delších dob chodu** se mezi hnacím kolem a minutovým pastorkem vkládají přísadní kola.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "pastorek",
+        "minutove-kolo",
+        "hnaci-kolo",
+        "jici-stroj"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "mistr-malych-hodinek": {
@@ -3949,6 +5159,77 @@
       "isStub": true,
       "redirectTo": null
     },
+    "nabezne-kolo": {
+      "lemma": "náběžné kolo",
+      "lang": "cs",
+      "conceptId": "HORO-STRIKEWHEEL-001",
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "náběžné kolo",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — Martínek–Řehoř 1964 systematicky (obr. 86 „Bicí stroj půlový\", s. 93).",
+          "doloženo": "Martínek–Řehoř 1964, s. 93, obr. 86"
+        },
+        {
+          "term": "kolo náběžné",
+          "status": "preferred",
+          "note": "Inverzní slovosled."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Auflaufrad",
+            "genus": "n",
+            "note": "Odpovídá funkci „rozběhu\" bicího stroje."
+          },
+          {
+            "term": "Stiftenrad",
+            "genus": "n",
+            "note": "V kontextu pin-and-cam systému (alternativa)."
+          }
+        ],
+        "en": [
+          {
+            "term": "pin wheel",
+            "note": "Berner — heslo „week\" II.: „in a strike train, the wheel between the barrel and the pin wheel\" — implicitně pin wheel = klíčové kolo bicího soukolí",
+            "zdroj": "Berner; běžný EN termín"
+          },
+          {
+            "term": "lift wheel",
+            "note": "Alternativní EN termín; ne vždy přesné."
+          }
+        ],
+        "fr": [
+          {
+            "term": "roue de levée",
+            "genus": "f",
+            "note": "FR popisná forma"
+          },
+          {
+            "term": "roue à chevilles",
+            "genus": "f",
+            "note": "Pro pin wheel doslova"
+          }
+        ]
+      },
+      "definice": "Klíčové kolo [bicího stroje](/slovnik/bici-stroj), na kterém je upevněn **náběžný kolík** zajišťující **zastavení soukolí v základní poloze** po dokončení odbíjení. Spolu s [vačkou](/slovnik/vacka) a [zapadací pákou](/slovnik/ramenko) tvoří klíčové **uzamykací ústrojí** bicího stroje. Otáčí se relativně rychle — pohání jej [pastorek větrníku](/slovnik/vetrnik).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bici-stroj",
+        "vacka",
+        "zdvizne-kolo",
+        "vetrnik",
+        "ramenko",
+        "kolo-zaverkove",
+        "pocetnik",
+        "pastorek"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "natah": {
       "lemma": "nátah (natahování)",
       "lang": "cs",
@@ -4001,7 +5282,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "natahovy-buben",
+        "lanovy-buben",
         "remontoir",
         "krok"
       ],
@@ -4016,70 +5297,28 @@
       "varianty": [
         {
           "term": "nátahový buben",
-          "status": "admitted"
+          "status": "admitted",
+          "note": "Přípustné synonymum, užíváno Himmlerem 2006. V současné restaurátorské praxi (Skála 2018+) ustupuje primárnímu termínu [lanový buben](/slovnik/lanovy-buben).",
+          "doloženo": "Himmler 2006"
         },
         {
           "term": "nátahový válec",
-          "status": "admitted"
-        },
-        {
-          "term": "lanový buben",
-          "status": "admitted"
-        },
-        {
-          "term": "lanový válec",
-          "status": "admitted"
+          "status": "admitted",
+          "note": "Synonymum, Himmler 2006 jej střídá s „nátahovým bubnem\"."
         }
       ],
-      "translations": {
-        "de": [
-          {
-            "term": "Seiltrommel",
-            "genus": "f"
-          },
-          {
-            "term": "Aufzugtrommel",
-            "genus": "f"
-          },
-          {
-            "term": "Trommel",
-            "genus": "f"
-          }
-        ],
-        "en": [
-          {
-            "term": "barrel"
-          },
-          {
-            "term": "rope drum"
-          },
-          {
-            "term": "winding drum"
-          }
-        ],
-        "fr": [
-          {
-            "term": "tambour",
-            "genus": "m"
-          },
-          {
-            "term": "tambour de corde",
-            "genus": "m"
-          }
-        ]
-      },
-      "definice": "Válcová součást věžního hodinového stroje, na kterou se navíjí **lano nesoucí závaží**. Otáčením bubnu při natahování se závaží zvedá nahoru; při chodu hodin závaží klesá a tahem za lano otáčí buben opačným směrem, čímž **přenáší energii do soukolí stroje**. Každý dílčí stroj (jicí, čtvrťový, hodinový) má vlastní nátahový buben.",
+      "translations": {},
+      "definice": "Synonymum k termínu [lanový buben](/slovnik/lanovy-buben) — válcová součást věžního hodinového stroje, na kterou se navíjí lano nesoucí závaží. V současné restaurátorské literatuře (Skála 2018+) převažuje **„lanový buben\"**.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "natah",
-        "soukoli",
+        "lanovy-buben",
         "zavazi",
-        "pero",
-        "perovnik"
+        "val",
+        "rumpal"
       ],
       "isStub": false,
-      "redirectTo": null
+      "redirectTo": "lanovy-buben"
     },
     "oblouk-orloje": {
       "lemma": "oblouk (vobloukek)",
@@ -4177,6 +5416,79 @@
         "zvon-orloje",
         "zamek-orloje",
         "kladivko"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "odpad": {
+      "lemma": "odpad",
+      "lang": "cs",
+      "conceptId": "HORO-ESCAPEMENT-004",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "odpad",
+          "status": "preferred",
+          "doloženo": "Martínek–Řehoř 1964, s. 40 („proběhne odpadem\")"
+        },
+        {
+          "term": "pád",
+          "status": "preferred",
+          "note": "Synonymum užívané zejména v sousloví „vnější pád\", „vnitřní pád\".",
+          "doloženo": "Bureš 1974, *Hodinové stroje III*, s. 84 („kontrola vnějšího i vnitřního pádu\"); Špatný 1882 (Fall m. = pád, padnutí)"
+        },
+        {
+          "term": "odpadek",
+          "status": "archaic",
+          "note": "Doložená varianta z 19. století: Špatný 1882 překládá DE „Abfall m.\" jako „odpadek, odpad\", s ilustrativním souslovím „knapper Abfall = těsný odpad\". Dnes „odpadek\" v hodinařině obsazené významem zbytek/smetí, ustoupilo termínu „odpad\".",
+          "doloženo": "Špatný 1882 (heslo Abfall)"
+        },
+        {
+          "term": "drop",
+          "status": "admitted",
+          "note": "Anglicismus z odborné literatury, v cs textu jen jako EN ekvivalent."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Fall",
+            "genus": "m",
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei* (heslo „drop\") — primární"
+          },
+          {
+            "term": "Abfall",
+            "genus": "m",
+            "zdroj": "Dietzschold 1905 — méně specifický, Berner preferuje Fall"
+          }
+        ],
+        "en": [
+          {
+            "term": "drop",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „drop n.\", „drop in an escapement\") — primární"
+          },
+          {
+            "term": "fall",
+            "zdroj": "Saunier 1887 — staré užití, dnes Berner upřednostňuje drop"
+          }
+        ],
+        "fr": [
+          {
+            "term": "chute",
+            "genus": "f",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie* (heslo „chute\") — primární; doloženo už Berthoud 1802"
+          }
+        ]
+      },
+      "definice": "Třetí (poslední) fáze cyklu krokového ústrojí: po skončení popudu zub krokového kola opustí popudnou plochu palety, kolo se volně otočí o malý úhel a další zub dopadne na záchytnou plochu protilehlé palety. Tím cyklus uzavírá a začíná nový [záchyt](/slovnik/zachyt).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "zachyt",
+        "popud",
+        "krok",
+        "paleta",
+        "krokove-kolo"
       ],
       "isStub": false,
       "redirectTo": null
@@ -4359,6 +5671,198 @@
       "isStub": true,
       "redirectTo": null
     },
+    "palec": {
+      "lemma": "palec",
+      "lang": "cs",
+      "conceptId": "HORO-LIFTING-001",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "palec",
+          "status": "preferred",
+          "note": "Obecný cs odborný termín.",
+          "doloženo": "Skála 2013 („palec přetočí patnáctizubovou rohatku\"); Sladkovský 1947"
+        },
+        {
+          "term": "spouštěcí palec",
+          "status": "preferred",
+          "note": "Specifická forma pro palec na ručkovém pastorku, který zvedá spouštěcí páku [bicího stroje](/slovnik/bici-stroj). Martínek–Řehoř 1964 systematicky.",
+          "doloženo": "Martínek–Řehoř 1964, s. 93–94 (obr. 86 „Bicí stroj půlový\")"
+        },
+        {
+          "term": "otáčecí palec",
+          "status": "admitted",
+          "note": "Synonymum zdůrazňující funkci (Skála 2013).",
+          "doloženo": "Skála 2013"
+        },
+        {
+          "term": "zvedací palec",
+          "status": "admitted",
+          "note": "V kontextu výpustného mechanismu."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Hebestift",
+            "genus": "m"
+          },
+          {
+            "term": "Hebenocken",
+            "genus": "m",
+            "note": "Pro masivnější palec ve tvaru vačky."
+          }
+        ],
+        "en": [
+          {
+            "term": "lifting pin",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „pin\")"
+          },
+          {
+            "term": "cam",
+            "note": "Pro palec ve tvaru vačky."
+          }
+        ],
+        "fr": [
+          {
+            "term": "doigt",
+            "genus": "m"
+          },
+          {
+            "term": "came",
+            "genus": "f",
+            "note": "Pro tvar vačky."
+          }
+        ]
+      },
+      "definice": "Vyčnívající součást (kolíček, vyhnutý hrot, vačka) na hřídeli nebo kole, která při otočení **přetočí, zvedne nebo posune** jinou součást — typicky [rohatku](/slovnik/rohatka), [zapadací raménko](/slovnik/ramenko) nebo výpustnou páku. Univerzální mechanický element ve věžních strojích, orloji i hodinkách.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "rohatka",
+        "klin-zapadky",
+        "ramenko",
+        "kolicek-vypustny",
+        "bici-stroj"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "paleta-vstupni": {
+      "lemma": "paleta vstupní",
+      "lang": "cs",
+      "conceptId": "HORO-ESCAPEMENT-007",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "paleta vstupní",
+          "status": "preferred",
+          "doloženo": "Sladkovský 1947; Bureš 1965"
+        },
+        {
+          "term": "vstupní paleta",
+          "status": "preferred"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Eingangspalette",
+            "genus": "f",
+            "zdroj": "Sladkovský 1947; Martínek–Řehoř 1968 *Mechanische Uhren*"
+          }
+        ],
+        "en": [
+          {
+            "term": "entry pallet",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „pallet stone\": „a is the entry pallet\")"
+          }
+        ],
+        "fr": [
+          {
+            "term": "palette d'entrée",
+            "genus": "f",
+            "zdroj": "Sladkovský 1947"
+          }
+        ]
+      },
+      "definice": "Levá [paleta](/slovnik/paleta) kotvy (u kotvového a Grahamova kroku); zachycuje zub krokového kola na začátku popudu. Vchází s vydutou plochou zdvihu (Sladkovský).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "paleta",
+        "paleta-vystupni",
+        "kotva",
+        "krokove-kolo",
+        "zachyt",
+        "popud"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "paleta-vystupni": {
+      "lemma": "paleta výstupní",
+      "lang": "cs",
+      "conceptId": "HORO-ESCAPEMENT-008",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "paleta výstupní",
+          "status": "preferred",
+          "doloženo": "Sladkovský 1947; Bureš 1965"
+        },
+        {
+          "term": "výstupní paleta",
+          "status": "preferred"
+        },
+        {
+          "term": "paleta vycházející",
+          "status": "archaic",
+          "note": "Sladkovský 1947 ji označuje větou „palety vcházejíci a vycházejíci\"; v modernějším úzu (Bureš 1965) se ustálila „výstupní\".",
+          "doloženo": "Sladkovský 1947"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Ausgangspalette",
+            "genus": "f",
+            "zdroj": "Sladkovský 1947; Martínek–Řehoř 1968 *Mechanische Uhren*"
+          }
+        ],
+        "en": [
+          {
+            "term": "exit pallet",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „pallet stone\": „b is the exit pallet\")"
+          },
+          {
+            "term": "discharging pallet",
+            "zdroj": "Berner — alternativní (archaičtější) anglosaský termín"
+          }
+        ],
+        "fr": [
+          {
+            "term": "palette de sortie",
+            "genus": "f",
+            "zdroj": "Sladkovský 1947"
+          }
+        ]
+      },
+      "definice": "Pravá [paleta](/slovnik/paleta) kotvy (u kotvového a Grahamova kroku); propouští zub krokového kola na konci popudu. Vchází s rovnou plochou zdvihu (Sladkovský).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "paleta",
+        "paleta-vstupni",
+        "kotva",
+        "krokove-kolo",
+        "zachyt",
+        "popud",
+        "odpad"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "paleta": {
       "lemma": "paleta",
       "lang": "cs",
@@ -4427,6 +5931,69 @@
         "kladivko"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "pastorek": {
+      "lemma": "pastorek",
+      "lang": "cs",
+      "conceptId": "HORO-PINION-001",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "pastorek",
+          "status": "preferred",
+          "doloženo": "Špatný 1882; Sušický 1900; Sladkovský 1947; Bureš 1965"
+        },
+        {
+          "term": "hnací kolečko",
+          "status": "admitted",
+          "note": "Funkční synonymum."
+        },
+        {
+          "term": "trýb",
+          "status": "archaic",
+          "note": "Staročeský termín z hodinářské terminologie 16. století (Táborský 1570). Etymologicky z DE *Trieb*. Viz [trýb](/slovnik/tryb).",
+          "doloženo": "Táborský 1570"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Trieb",
+            "genus": "m",
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei*; Špatný 1882"
+          },
+          {
+            "term": "Ritzel",
+            "genus": "n",
+            "zdroj": "Berner — alternativní DE termín"
+          }
+        ],
+        "en": [
+          {
+            "term": "pinion",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology*; Saunier 1887"
+          }
+        ],
+        "fr": [
+          {
+            "term": "pignon",
+            "genus": "m",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*; Gros 1913"
+          }
+        ]
+      },
+      "definice": "Malé hnací kolo (typicky s 6–14 zuby), které zabírá do **většího ozubeného kola** soukolí a přenáší rotační pohyb s **převodem do otáček** (větší kolo se otočí pomaleji než pastorek, ale s větším momentem). Standardní převodový element každého mechanického hodinového stroje — od minutových a hodinových převodů po pohon krokového kola.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "tryb",
+        "soukoli",
+        "krokove-kolo",
+        "vrub-zub",
+        "hridel"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "pero": {
@@ -4694,6 +6261,86 @@
         "rynk"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "popud": {
+      "lemma": "popud",
+      "lang": "cs",
+      "conceptId": "HORO-ESCAPEMENT-003",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "popud",
+          "status": "preferred",
+          "doloženo": "Martínek–Řehoř 1964, s. 40 („popud\", „popudná plocha\"); Hajn 1953"
+        },
+        {
+          "term": "impuls",
+          "status": "admitted",
+          "note": "Mezinárodní termín (z lat. *impulsus*), v cs textu rovnocenný. Doložen už Špatným 1882 v trojici „popud, podnět, impuls\".",
+          "doloženo": "Špatný 1882 (heslo Impuls)"
+        },
+        {
+          "term": "podnět",
+          "status": "archaic",
+          "note": "Doložené české synonymum z 19. století (Špatný 1882: „Impuls m. = popud, podnět, impuls\"). Dnes mimo hodinářský úzus.",
+          "doloženo": "Špatný 1882 (heslo Impuls)"
+        },
+        {
+          "term": "zdvih",
+          "status": "erroneous",
+          "note": "Strojírenský termín (stroke / lift) — v hodinářské literatuře se pro fázi krokového ústrojí NEUŽÍVÁ. Sladkovský 1947, Hajn 1953, Martínek–Řehoř 1964 znají jen „popud\". Připouští se výjimečně v sousloví „úhel zdvihu\" jako synonymum k „úhlu popudu\"."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Impuls",
+            "genus": "m",
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei* (heslo „impulse\") — primární"
+          },
+          {
+            "term": "Antrieb",
+            "genus": "m",
+            "zdroj": "Dietzschold 1905 — obecnější termín (drive), Berner preferuje Impuls"
+          },
+          {
+            "term": "Hub",
+            "genus": "m",
+            "zdroj": "Martínek–Řehoř 1968 („Hubwinkel\" = úhel popudu); pro samostatný popud Berner uvádí Impuls"
+          }
+        ],
+        "en": [
+          {
+            "term": "impulse",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „impulse n.\") — primární; Saunier 1887"
+          }
+        ],
+        "fr": [
+          {
+            "term": "impulsion",
+            "genus": "f",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie* (heslo „impulsion\") — primární; doloženo už Berthoud 1802"
+          },
+          {
+            "term": "levée",
+            "genus": "f",
+            "zdroj": "Gros 1913, *Échappements d'horloges et de montres* — užíváno hlavně v sousloví „angle de levée\" (úhel popudu)"
+          }
+        ]
+      },
+      "definice": "Druhá fáze cyklu krokového ústrojí: zub krokového kola klouže po šikmé (popudné) ploše palety a předává energii ze soukolí na oscilátor (kyvadlo nebo setrvačku). Trvá od konce záchytu do okamžiku, kdy zub paletu opustí.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "zachyt",
+        "odpad",
+        "krok",
+        "paleta",
+        "krokove-kolo",
+        "uhel-zdvihu"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "posuvka": {
@@ -5277,6 +6924,69 @@
       "isStub": false,
       "redirectTo": null
     },
+    "rohatka": {
+      "lemma": "rohatka",
+      "lang": "cs",
+      "conceptId": "HORO-RATCHET-001",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "rohatka",
+          "status": "preferred",
+          "doloženo": "Sladkovský 1947; Bureš 1965; Skála 2013 („patnáctizubová rohatka\")"
+        },
+        {
+          "term": "rohatkové kolo",
+          "status": "preferred",
+          "note": "Synonymum zdůrazňující kolovou povahu — Skála 2013.",
+          "doloženo": "Skála 2013"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Sperrrad",
+            "genus": "n",
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei*; Špatný 1882"
+          },
+          {
+            "term": "Rohatka",
+            "genus": "f",
+            "note": "V německé jihočeské hodinařině přejato z češtiny."
+          }
+        ],
+        "en": [
+          {
+            "term": "ratchet",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology*"
+          },
+          {
+            "term": "ratchet wheel",
+            "zdroj": "Berner"
+          }
+        ],
+        "fr": [
+          {
+            "term": "rochet",
+            "genus": "m",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*"
+          }
+        ]
+      },
+      "definice": "Zubaté kolo s asymetrickými zuby, jejichž poloha je aretována **klínem** vtlačovaným mezi zuby **zpružinou**. Umožňuje **jednosměrný pohyb** (otáčení v jednom směru) a zaručuje **přesné polohování** v každém kroku. Univerzální součást nátahu (kde brání zpětnému otáčení natahovacího bubnu) i bicího stroje (kde aretuje závěrkové kolo nebo zvedací mechanismus).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "palec",
+        "klin-zapadky",
+        "kolo-zaverkove",
+        "natah",
+        "lanovy-buben",
+        "bici-stroj"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "rubinovy-kamen": {
       "lemma": "rubínový kámen",
       "lang": "cs",
@@ -5337,6 +7047,134 @@
       "isStub": false,
       "redirectTo": null
     },
+    "ruckove-soukoli": {
+      "lemma": "ručkové soukolí",
+      "lang": "cs",
+      "conceptId": "HORO-GEARTRAIN-005",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "ručkové soukolí",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — Martínek–Řehoř 1964 systematicky (samostatná kapitola 6 „Ručkové soukolí\", obr. 66–68). Doloženo 9×.",
+          "doloženo": "Martínek–Řehoř 1964, kap. 6, s. 75"
+        },
+        {
+          "term": "rafičkový stroj",
+          "status": "archaic",
+          "note": "Špatný 1882 překládá DE „Zeigerwerk\" jako „ručičkový stroj, rafičkový s.\" (= staročes. rafička = ručička). Dnes ustoupil termínu „ručkové soukolí\".",
+          "doloženo": "Špatný 1882 (heslo Zeigerwerk)"
+        },
+        {
+          "term": "ručičkový stroj",
+          "status": "archaic",
+          "note": "Špatný 1882 — synonymum k rafičkovému stroji.",
+          "doloženo": "Špatný 1882"
+        },
+        {
+          "term": "centrální převodovka",
+          "status": "admitted",
+          "note": "Synonymum, zdůrazňující centrální polohu převodu ručkového soukolí na centrálním hřídeli."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Zeigerwerk",
+            "genus": "n",
+            "zdroj": "Berner *Zeigerwerk* (ID 2218): „In der Uhr das Räderwerk, das unter dem Zifferblatt angeordnet ist und die Drehung des Minutenzeigers auf den Stundenzeiger überträgt.\" Doslovné mapování Zeigerwerk = minuterie = motion work. Špatný 1882: Zeigerwerk → ručičkový/rafičkový stroj."
+          }
+        ],
+        "en": [
+          {
+            "term": "motion work",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „mobile\": „motion work: cannon pinion, minute wheel and pinion, and hour wheel\")"
+          }
+        ],
+        "fr": [
+          {
+            "term": "minuterie",
+            "genus": "f",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*"
+          },
+          {
+            "term": "rouage de minuterie",
+            "genus": "m",
+            "zdroj": "Berner — plnější forma"
+          },
+          {
+            "term": "cadrature",
+            "genus": "f",
+            "note": "Užší koncept — kadratura zahrnuje celý mechanismus za číselníkem (motion work + komplikace)."
+          }
+        ]
+      },
+      "definice": "**Vedlejší soukolí** hodinového stroje, které z [minutového kola](/slovnik/minutove-kolo) (resp. [minutové trubky](/slovnik/minutova-trubka)) odebírá pohyb a redukčním převodem **12 : 1** ho přenáší na [hodinové kolo](/slovnik/hodinove-kolo) (a tím na hodinovou ručku). Skládá se ze tří součástí (Martínek–Řehoř 1964): [ručkový pastorek](/slovnik/minutova-trubka) → [střídné kolo](/slovnik/stridne-kolo) s pastorkem → [hodinové kolo](/slovnik/hodinove-kolo). U běžných hodin a hodinek **úzký koncept** — pouze pro převod minut → hodiny. U věžních hodin s vícenásobnou indikací nebo u orlojů širší [ukazovací stroj](/slovnik/ukazovaci-stroj) (zahrnuje i astronomické ukazatele).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "minutove-kolo",
+        "minutova-trubka",
+        "stridne-kolo",
+        "hodinove-kolo",
+        "ukazovaci-stroj",
+        "astronomicke-soukoli",
+        "soukoli",
+        "jici-stroj"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "ruckovy-pastorek": {
+      "lemma": "ručkový pastorek",
+      "lang": "cs",
+      "conceptId": "HORO-PINION-006",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "ručkový pastorek",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — Bureš 1965 (s. 152 tabulka, II. skupina č. 1) i Martínek–Řehoř 1964 (kap. 6 Ručkové soukolí, obr. 66–68).",
+          "doloženo": "Bureš 1965, s. 152; Martínek–Řehoř 1964, s. 75"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Zeigertrieb",
+            "genus": "m"
+          }
+        ],
+        "en": [
+          {
+            "term": "motion-work pinion"
+          },
+          {
+            "term": "cannon pinion",
+            "note": "V Berner terminologii „cannon pinion\" — viz [minutová trubka](/slovnik/minutova-trubka). Funkčně totéž; v cs užíváme „ručkový pastorek\" pro motion-work komponentu."
+          }
+        ],
+        "fr": [
+          {
+            "term": "pignon de minuterie",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "První element [ručkového soukolí (motion work)](/slovnik/ruckove-soukoli) — pastorek pevně nebo třením spojený s minutovým hřídelem; nese **minutovou ručku** a zabírá do [střídného kola](/slovnik/stridne-kolo) (které pak přes střídný pastorek pohání [hodinové kolo](/slovnik/hodinove-kolo)). Berner přibližně odpovídá konceptu „cannon pinion\" — viz [minutová trubka](/slovnik/minutova-trubka).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "pastorek",
+        "minutova-trubka",
+        "minutove-kolo",
+        "stridne-kolo",
+        "hodinove-kolo",
+        "ruckove-soukoli"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "ruka-orloje": {
       "lemma": "ruka (ručka, ručička)",
       "lang": "cs",
@@ -5370,7 +7208,7 @@
         }
       ],
       "translations": {},
-      "definice": "Kovový ukazatel na ciferníku hodin, který otáčením kolem středové osy indikuje aktuální čas. Standardní moderní cs termín je **ručka** (Sladkovský 1947; Boukal 1958; Skála 2005), staročeské varianty *rafije* / *rafika* dnes přežívají pouze v astronomickém kontextu velkých orlojů. Středověký pražský orloj používá v originálním zápisu Táborského 1570 termín **ruka** (bez deminutivu) — odkazuje na typický gotický motiv ruky s napřaženým ukazovákem na konci osy.",
+      "definice": "Kovový ukazatel na číselníku hodin, který otáčením kolem středové osy indikuje aktuální čas. Standardní moderní cs termín je **ručka** (Sladkovský 1947; Boukal 1958; Skála 2005), staročeské varianty *rafije* / *rafika* dnes přežívají pouze v astronomickém kontextu velkých orlojů. Středověký pražský orloj používá v originálním zápisu Táborského 1570 termín **ruka** (bez deminutivu) — odkazuje na typický gotický motiv ruky s napřaženým ukazovákem na konci osy.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -5391,22 +7229,22 @@
       "varianty": [
         {
           "term": "rumpál",
-          "status": "admitted"
-        },
-        {
-          "term": "rumpálík",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "V hodinářské češtině se nepoužívá. Historicky doložen Táborským 1570 jako synonymum k „válu\". V obecné češtině zachován ve významu „naviják\" (i lodní). V hodinařině dnes [lanový buben](/slovnik/lanovy-buben).",
+          "doloženo": "Táborský 1570"
         }
       ],
       "translations": {},
-      "definice": "Naviják / válec na hnacím hřídeli orloje. Synonymum k *válu*. Zmenšenina *rumpálík* označuje válec menšího rozměru, např. u dlouhého hřídele kalendářního stroje.",
+      "definice": "Staročeské synonymum k [válu](/slovnik/val) (Táborský 1570). **V moderní hodinářské češtině se nepoužívá** — viz [lanový buben](/slovnik/lanovy-buben). V obecné češtině zachováno ve významu „naviják\".",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "val"
+        "lanovy-buben",
+        "val",
+        "vaha-orloje"
       ],
-      "isStub": true,
-      "redirectTo": null
+      "isStub": false,
+      "redirectTo": "lanovy-buben"
     },
     "rykl": {
       "lemma": "rykl",
@@ -5455,6 +7293,68 @@
         "ponebi"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "sekundovy-pastorek": {
+      "lemma": "sekundový pastorek",
+      "lang": "cs",
+      "conceptId": "HORO-PINION-004",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "sekundový pastorek",
+          "status": "preferred",
+          "note": "Bureš 1965 „pastorek sekundového kola\" (s. 152 tabulka, I. skupina č. 4).",
+          "doloženo": "Bureš 1965, s. 152"
+        },
+        {
+          "term": "pastorek sekundového kola",
+          "status": "preferred"
+        },
+        {
+          "term": "vteřinový pastorek",
+          "status": "preferred",
+          "note": "Sladkovský 1947 systematicky („pastorek vteřinový c = 8\" v převodových vzorcích).",
+          "doloženo": "Sladkovský 1947"
+        },
+        {
+          "term": "pastorek vteřinový",
+          "status": "preferred"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Sekundentrieb",
+            "genus": "m"
+          }
+        ],
+        "en": [
+          {
+            "term": "fourth pinion",
+            "zdroj": "Berner (heslo „mobile\" — going train: ... fourth wheel and pinion ...)"
+          },
+          {
+            "term": "seconds pinion"
+          }
+        ],
+        "fr": [
+          {
+            "term": "pignon de seconde",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Pastorek na hřídeli [vteřinového (sekundového) kola](/slovnik/vterinove-kolo). Sedí na stejném hřídeli jako vteřinové kolo a zabírá do **krokového kola** (poslední v kaskádě). Sladkovský 1947 typický **c = 8 nebo 10 zubů**.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "pastorek",
+        "vterinove-kolo",
+        "mezilehle-kolo",
+        "krokove-kolo"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "setrvacka": {
@@ -5974,6 +7874,63 @@
         "vaha-orloje"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "stridne-kolo": {
+      "lemma": "střídné kolo",
+      "lang": "cs",
+      "conceptId": "HORO-MOTION-002",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "střídné kolo",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — Špatný 1882 systematicky („Wechselrad → střídné kolo\") + Sladkovský 1947 + Martínek-Řehoř 1964 (obr. 67–68).",
+          "doloženo": "Špatný 1882; Sladkovský 1947; Martínek–Řehoř 1964"
+        },
+        {
+          "term": "kolo střídné",
+          "status": "preferred",
+          "note": "Inverzní slovosled (Sladkovský 1947)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Wechselrad",
+            "genus": "n",
+            "zdroj": "Berner; Špatný 1882 (Wechselrad → střídné kolo; Wechselradstift → kolíček střídného kola; Wechselradtrieb → pastorek střídného kola)"
+          }
+        ],
+        "en": [
+          {
+            "term": "minute wheel",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „mobile\" — motion work: cannon pinion, minute wheel and pinion, and hour wheel)"
+          },
+          {
+            "term": "intermediate wheel of the motion work",
+            "zdroj": "Plnější popisná EN forma"
+          }
+        ],
+        "fr": [
+          {
+            "term": "roue de minuterie",
+            "genus": "f",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*; FR „minuterie\" = motion work"
+          }
+        ]
+      },
+      "definice": "Mezilehlé kolo [ručkového soukolí (motion work)](/slovnik/soukoli) mezi [minutovou trubkou](/slovnik/minutova-trubka) a [hodinovým kolem](/slovnik/hodinove-kolo). Tvoří **převodovou redukci 12 : 1** — minutová trubka se otáčí 12× rychleji než hodinové kolo, takže střídné kolo (s vlastním pastorkem) zajišťuje, aby se hodinová ručka otočila jednou za 12 hodin, zatímco minutová ručka 12×.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "minutove-kolo",
+        "minutova-trubka",
+        "hodinove-kolo",
+        "pastorek",
+        "hridel"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "stroj-podsestava": {
@@ -6527,35 +8484,195 @@
     "tryb": {
       "lemma": "trýb",
       "lang": "cs",
-      "conceptId": null,
+      "conceptId": "HORO-PINION-001",
       "kategorie": "mechanika",
       "varianty": [
         {
           "term": "trýb",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "V moderní hodinářské češtině se nepoužívá. Doložen Táborským 1570 (varianty *tryblík*, *tribus*) v popisu Staroměstského orloje. Dnes se říká **pastorek**.",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "tryblík",
-          "status": "admitted"
-        },
-        {
-          "term": "tryb",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Zdrobnělina, Táborský 1570: „tři tryblíkové, kteřížto ta tři kola vedou\".",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "tribus",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Latinizovaná varianta z hodinářské terminologie 16. století.",
+          "doloženo": "Táborský 1570"
+        },
+        {
+          "term": "pastorek",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín — primární od 19. století (Špatný 1882, Sušický 1900, Sladkovský 1947, Bureš 1965).",
+          "doloženo": "Špatný 1882"
+        },
+        {
+          "term": "hnací kolečko",
+          "status": "admitted",
+          "note": "Funkční synonymum."
         }
       ],
-      "translations": {},
-      "definice": "Staročeské označení pro pastorek (malé hnací kolo se soukolím). U Táborského 1570 popisuje pastorky pohánějící hlavní, minutní, kalendářní a bicí kola Staroměstského orloje.",
+      "translations": {
+        "de": [
+          {
+            "term": "Trieb",
+            "genus": "m",
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei*; Špatný 1882. Etymologie cs „trýbu\" z DE *Trieb*."
+          },
+          {
+            "term": "Ritzel",
+            "genus": "n",
+            "zdroj": "Berner — alternativní DE termín."
+          }
+        ],
+        "en": [
+          {
+            "term": "pinion",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology*; Saunier 1887"
+          }
+        ],
+        "fr": [
+          {
+            "term": "pignon",
+            "genus": "m",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*; Gros 1913"
+          }
+        ]
+      },
+      "definice": "Staročeský termín z hodinářské latinizované terminologie 16. století pro **malé hnací kolo s ozubením**, které zabírá do většího kola soukolí a přenáší rotační pohyb. Etymologicky z DE *Trieb*. **V moderní češtině se nepoužívá** — viz [pastorek](/slovnik/pastorek) (Špatný 1882, Sušický 1900, Sladkovský 1947).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "stegrad",
-        "vos"
+        "pastorek",
+        "vrub-zub",
+        "soukoli",
+        "krokove-kolo"
       ],
-      "isStub": true,
+      "isStub": false,
+      "redirectTo": "pastorek"
+    },
+    "uhel-klidu": {
+      "lemma": "úhel klidu",
+      "lang": "cs",
+      "conceptId": "HORO-ESCAPEMENT-006",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "úhel klidu",
+          "status": "preferred",
+          "doloženo": "Sladkovský 1947; Bureš 1974"
+        },
+        {
+          "term": "záchytný úhel",
+          "status": "preferred",
+          "note": "Synonymum, důsledně užíváno Martínkem-Řehořem 1964.",
+          "doloženo": "Martínek–Řehoř 1964, s. 40 („záchytný úhel\")"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Ruhewinkel",
+            "genus": "m",
+            "zdroj": "Sladkovský 1947; Berner *Illustriertes Fachlexikon der Uhrmacherei*"
+          }
+        ],
+        "en": [
+          {
+            "term": "locking angle",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* („locking-angle α\")"
+          },
+          {
+            "term": "drop lock",
+            "zdroj": "Anglo-saská tradice (Headrick); rovnocenné synonymum"
+          }
+        ],
+        "fr": [
+          {
+            "term": "angle de repos",
+            "genus": "m",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie* (heslo „repos\")"
+          }
+        ]
+      },
+      "definice": "Úhel, který zaujímá zub krokového kola na záchytné (klidové) ploše palety mezi dvěma popudy. Lineární mírou je hloubka záchytu na okraji palety; určuje bezpečnost zachycení i odpor kroku.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "zachyt",
+        "uhel-zdvihu",
+        "paleta",
+        "krokove-kolo"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "uhel-zdvihu": {
+      "lemma": "úhel zdvihu",
+      "lang": "cs",
+      "conceptId": "HORO-ESCAPEMENT-005",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "úhel zdvihu",
+          "status": "preferred",
+          "note": "Standardní moderní termín (Sladkovský 1947, Bureš 1965). Pozn.: výjimečně přípustné použití slova „zdvih\", jinak v hodinařině je pro fázi krokového ústrojí kanonické [popud](/slovnik/popud).",
+          "doloženo": "Sladkovský 1947"
+        },
+        {
+          "term": "úhel popudu",
+          "status": "preferred",
+          "note": "Synonymum, důsledně užíváno Martínkem-Řehořem 1964.",
+          "doloženo": "Martínek–Řehoř 1964, s. 40"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Hubwinkel",
+            "genus": "m",
+            "zdroj": "Sladkovský 1947; Martínek–Řehoř 1968 *Mechanische Uhren*"
+          },
+          {
+            "term": "Hebung",
+            "genus": "f",
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei* (heslo „lift\")"
+          }
+        ],
+        "en": [
+          {
+            "term": "lift angle",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* („lift of the pallets\")"
+          },
+          {
+            "term": "impulse angle",
+            "zdroj": "Berner („impulse angle α\")"
+          }
+        ],
+        "fr": [
+          {
+            "term": "angle de levée",
+            "genus": "m",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie* (heslo „levée\"); Gros 1913"
+          }
+        ]
+      },
+      "definice": "Úhel, o který se kotva (resp. páčka u páčkového kroku) otočí během [popudu](/slovnik/popud) — od prvního dotyku zubu krokového kola s popudnou plochou palety do okamžiku jejího uvolnění. Souvisí s úhlem zdvihu setrvačky (přes vidličku a vodítko).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "popud",
+        "uhel-klidu",
+        "paleta",
+        "krokove-kolo",
+        "kotva"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "ukazovaci-stroj": {
@@ -6566,30 +8683,35 @@
       "varianty": [
         {
           "term": "ukazovací stroj",
-          "status": "admitted"
+          "status": "preferred",
+          "note": "Doloženo Skálou 2018, 2019, 2021 v restaurátorských zprávách."
         },
         {
           "term": "ukazovací soukolí",
-          "status": "admitted"
+          "status": "preferred"
         }
       ],
       "translations": {
         "de": [
           {
-            "term": "Anzeigewerk",
-            "genus": "n"
+            "term": "Räderwerk unter dem Zifferblatt",
+            "note": "Popisná forma. DE nemá kanonický termín pro „ukazovací stroj\" jako celek u věžních hodin."
           },
           {
             "term": "Zeigerwerk",
-            "genus": "n"
+            "genus": "n",
+            "note": "POZOR — terminologická pasti: etymologicky (*zeigen* = ukazovat, *Werk* = soukolí) odpovídá Zeigerwerk plně cs „ukazovací stroj/soukolí\" v širokém smyslu. ALE moderní DE odborná konvence (Berner ID 2218, Martínek–Řehoř 1968 *Mechanische Uhren* kap. 6) ho zúžila výhradně na motion work = naše [ručkové soukolí](/slovnik/ruckove-soukoli) (trojice Minutenrohr + Wechselrad + Stundenrad). Pro celý ukazovací stroj věžních hodin se Zeigerwerk v moderní DE odborné literatuře nepoužívá; Dietzschold 1984 *Die Turmuhren* termín vůbec nemá.",
+            "zdroj": "Etymologicky správný; odborně zúžený — viz Berner, MR 1968"
           }
         ],
         "en": [
           {
-            "term": "motion work"
+            "term": "indication train",
+            "note": "EN nemá kanonický Berner termín; používá se popisně. Berner *motion work* = úzce ručkové soukolí."
           },
           {
-            "term": "indication train"
+            "term": "cadrature",
+            "note": "V EN/FR užíváno pro celý mechanismus za číselníkem včetně komplikací."
           }
         ],
         "fr": [
@@ -6599,16 +8721,20 @@
           },
           {
             "term": "cadrature",
-            "genus": "f"
+            "genus": "f",
+            "note": "Berner: celý mechanismus za číselníkem."
           }
         ]
       },
-      "definice": "**Vedlejší soukolí**, které z hlavní hřídele [jicího stroje](/slovnik/stroj-podsestava) odebírá pohyb a převádí ho na **otáčení ručiček (rafií) číselníku** s vhodným redukčním převodem (typicky 1:12 mezi minutovou a hodinovou ručkou). U věžních hodin převádí pohyb mechanicky přes řadu kol a hřídelí k jednomu nebo více číselníkům umístěným v různých stranách věže.",
+      "definice": "**Vedlejší soukolí**, které z hlavní hřídele [jicího stroje](/slovnik/jici-stroj) odebírá pohyb a převádí ho na **otáčení ručiček (rafií) číselníku** s vhodným redukčním převodem (typicky 1:12 mezi minutovou a hodinovou ručkou). U věžních hodin převádí pohyb mechanicky přes řadu kol a hřídelí k jednomu nebo více číselníkům umístěným v různých stranách věže. Pro užší koncept jen redukce minut na hodiny viz [ručkové soukolí](/slovnik/ruckove-soukoli); pro rozšířený astronomický kontext (orloje) viz [astronomické soukolí](/slovnik/astronomicke-soukoli). **Etymologická poznámka:** DE *Zeigerwerk* (*zeigen* = ukazovat) etymologicky odpovídá tomuto českému širokému pojmu — v moderní DE odborné konvenci je však zúžen výhradně na ručkové soukolí / motion work.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "kralovska-hridel",
         "soukoli",
+        "ruckove-soukoli",
+        "astronomicke-soukoli",
+        "jici-stroj",
         "hridelik-orloje",
         "ramenko",
         "kolo-zaverkove"
@@ -6664,6 +8790,67 @@
       "isStub": true,
       "redirectTo": null
     },
+    "vacka": {
+      "lemma": "vačka",
+      "lang": "cs",
+      "conceptId": "HORO-CAM-001",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "vačka",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — Martínek–Řehoř 1964 systematicky (obr. 86 „vačka s podávacím kolíkem\", s. 93 a 37× v knize). Univerzální strojírenský termín převzatý do hodinařiny.",
+          "doloženo": "Martínek–Řehoř 1964, s. 93, obr. 86"
+        },
+        {
+          "term": "vačka s podávacím kolíkem",
+          "status": "preferred",
+          "note": "Plnější forma v kontextu bicího stroje typu II (s [početníkem](/slovnik/pocetnik)).",
+          "doloženo": "Martínek–Řehoř 1964, s. 93"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Kurvenscheibe",
+            "genus": "f",
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei* (heslo „cam\" → Kurvenscheibe)"
+          },
+          {
+            "term": "Nocken",
+            "genus": "m",
+            "note": "Obecný DE termín pro vačku/výstupek"
+          }
+        ],
+        "en": [
+          {
+            "term": "cam",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „cam\" ID 535)"
+          }
+        ],
+        "fr": [
+          {
+            "term": "came",
+            "genus": "f",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*"
+          }
+        ]
+      },
+      "definice": "Součást s **profilovanou křivkou** (typicky kovový kotouč s definovaným profilem), která při otáčení transformuje **rotační pohyb na lineární** (nebo jiný řízený) pohyb spolupracující součásti. V hodinářském stroji slouží především jako: (a) **uzamykací prvek** [bicího stroje](/slovnik/bici-stroj) (vačka s podávacím kolíkem, srdcovka, [početník](/slovnik/pocetnik)), (b) **regulátor indikace** (kalendářní vačky, vačka chronografu), (c) **mechanismus opakování** (snail vačka u opakovacích hodinek).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bici-stroj",
+        "nabezne-kolo",
+        "zdvizne-kolo",
+        "srdcovka",
+        "pocetnik",
+        "kolicek-vypustny",
+        "palec"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "vaha-orloje": {
       "lemma": "váha (orlojní)",
       "lang": "cs",
@@ -6672,24 +8859,23 @@
       "varianty": [
         {
           "term": "váha",
-          "status": "admitted"
-        },
-        {
-          "term": "závaží",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "V hodinářské češtině se nepoužívá. Historicky doložena Táborským 1570 („každá ze čtyř stran má svú váhu\"); Šumavský 1851 ještě překládá „Závaž → das Gewicht\". Po roce 1882 (Špatný) se v hodinářské terminologii ustaluje [závaží](/slovnik/zavazi).",
+          "doloženo": "Táborský 1570; Šumavský 1851 (heslo Závaž)"
         }
       ],
       "translations": {},
-      "definice": "Závaží orloje, které tahem za lano navinuté na válu pohání hodinový stroj. U Táborského má každá ze „čtyř stran\" (= chodů) Staroměstského orloje svou samostatnou váhu.",
+      "definice": "Staročeský termín pro [závaží](/slovnik/zavazi) orlojního a věžního stroje, doložený Táborským 1570. **V moderní češtině se nepoužívá** v hodinářském smyslu — slovo „váha\" je vyhrazeno pro měřicí přístroj nebo abstraktní míru hmotnosti. Hodinářský termín je dnes [závaží](/slovnik/zavazi).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
+        "zavazi",
         "val",
         "rumpal",
         "strana-orloje"
       ],
-      "isStub": true,
-      "redirectTo": null
+      "isStub": false,
+      "redirectTo": "zavazi"
     },
     "val": {
       "lemma": "vál",
@@ -6699,22 +8885,22 @@
       "varianty": [
         {
           "term": "vál",
-          "status": "admitted"
-        },
-        {
-          "term": "rumpál",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "V moderní češtině se nepoužívá. Historicky doložen Táborským 1570 v popisu Staroměstského orloje („vál neb rumpál\"). Dnes se říká [lanový buben](/slovnik/lanovy-buben).",
+          "doloženo": "Táborský 1570 (Zpráva o Staroměstském orloji)"
         }
       ],
       "translations": {},
-      "definice": "Buben hnacího hřídele, na který se navíjí lano (provaz) se závažím. U Táborského synonymum s *rumpálem*. Pohon Staroměstského orloje funguje na principu navíjení lana po válu.",
+      "definice": "Staročeský termín z 16. století pro válec hnacího hřídele se závažím. **V moderní češtině se nepoužívá** — viz [lanový buben](/slovnik/lanovy-buben).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "rumpal"
+        "lanovy-buben",
+        "rumpal",
+        "vaha-orloje"
       ],
-      "isStub": true,
-      "redirectTo": null
+      "isStub": false,
+      "redirectTo": "lanovy-buben"
     },
     "valcovy-krok": {
       "lemma": "válcový krok",
@@ -6798,20 +8984,20 @@
     "vetrnik": {
       "lemma": "větrník",
       "lang": "cs",
-      "conceptId": null,
+      "conceptId": "HORO-FLY-001",
       "kategorie": "bici",
       "varianty": [
         {
           "term": "větrník",
-          "status": "admitted"
+          "status": "preferred",
+          "note": "Primární cs odborný termín (Sladkovský 1947, Bureš 1965, Martínek–Řehoř 1964, Skála 2013+). Pozor: ne „větřík\" (= vánek). Větrník je **vzduchová brzda** s lopatkami.",
+          "doloženo": "Sladkovský 1947; Bureš 1965; Martínek–Řehoř 1964"
         },
         {
-          "term": "větrober** (Špatný 1882",
-          "status": "admitted"
-        },
-        {
-          "term": "archaicky)",
-          "status": "admitted"
+          "term": "větrober",
+          "status": "archaic",
+          "note": "Špatný 1882 doložil paralelně s „větrníkem\" jako synonymum (Windfang → větrník, větrober; Windfangsflügel → křídlo větroberu). Dnes ustoupil.",
+          "doloženo": "Špatný 1882"
         }
       ],
       "translations": {
@@ -6819,12 +9005,18 @@
           {
             "term": "Windfang",
             "genus": "m",
-            "zdroj": "Špatný 1882: Windfang → větrník, větrober"
+            "zdroj": "Berner; Špatný 1882 (Windfang → větrník, větrober)"
+          },
+          {
+            "term": "Windflügel",
+            "genus": "m",
+            "zdroj": "Špatný 1882 (Windfangsflügel → křídlo větroberu)"
           }
         ],
         "en": [
           {
-            "term": "fly"
+            "term": "fly",
+            "zdroj": "Berner — standardní termín"
           },
           {
             "term": "fan-fly"
@@ -6836,7 +9028,8 @@
         "fr": [
           {
             "term": "volant",
-            "genus": "m"
+            "genus": "m",
+            "zdroj": "Berner — standardní FR termín"
           },
           {
             "term": "volant régulateur",
@@ -6844,12 +9037,17 @@
           }
         ]
       },
-      "definice": "Lopatkovité kolo (obvykle dvoukřídlé) na konci soukolí bicího stroje, jehož vzdušný odpor brzdí rychlost otáčení a tím **reguluje rychlost úderů kladívka**.",
+      "definice": "Lopatkovité kolo (obvykle dvoukřídlé) na konci [soukolí](/slovnik/soukoli) [bicího stroje](/slovnik/bici-stroj), [zvonicího stroje](/slovnik/zvonici-stroj) nebo [apoštolského stroje](/slovnik/apostolsky-stroj), jehož **aerodynamický odpor** brzdí rychlost otáčení a tím **reguluje rychlost úderů kladívka**. **Není měřicí součást** — neudává čas, ale moderuje rychlost.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "bici-stroj",
-        "kotva"
+        "zvonici-stroj",
+        "apostolsky-stroj",
+        "nabezne-kolo",
+        "kladivko",
+        "kotva",
+        "pastorek-vetrniku"
       ],
       "isStub": false,
       "redirectTo": null
@@ -7138,6 +9336,110 @@
       "isStub": true,
       "redirectTo": null
     },
+    "voditko": {
+      "lemma": "vodítko",
+      "lang": "cs",
+      "conceptId": "HORO-ESCAPEMENT-009",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "vodítko",
+          "status": "preferred",
+          "note": "Polysémní termín — viz vyznamy[] níže.",
+          "doloženo": "Sladkovský 1947 (= kámen); Martínek–Řehoř 1964 (= dvojkomplex kotoučů)"
+        },
+        {
+          "term": "vodicí kámen",
+          "status": "preferred",
+          "note": "Modernější jednoznačné synonymum pro samostatný kámen (Bureš 1974).",
+          "doloženo": "Bureš 1974, *Hodinové stroje III*"
+        },
+        {
+          "term": "popudný kámen",
+          "status": "preferred",
+          "note": "Synonymum důsledně užívané Martínkem–Řehořem 1964 (rozlišení od „vodítka\" jako dvojkomplexu).",
+          "doloženo": "Martínek–Řehoř 1964, s. 55"
+        },
+        {
+          "term": "elipsa",
+          "status": "admitted",
+          "note": "Z FR „ellipse\" (od tvaru průřezu kamene). Mezinárodně velmi rozšířeno."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Hebelstein",
+            "genus": "m",
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei* (heslo „Hebelstein\")"
+          },
+          {
+            "term": "Ellipse",
+            "genus": "f",
+            "zdroj": "Berner — alternativní DE termín od tvaru kamene"
+          }
+        ],
+        "en": [
+          {
+            "term": "impulse pin",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „pin\": „impulse pin\")"
+          },
+          {
+            "term": "roller jewel",
+            "zdroj": "Berner — US varianta; též „roller pin\""
+          }
+        ],
+        "fr": [
+          {
+            "term": "cheville de plateau",
+            "genus": "f",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie* (heslo „cheville de plateau\")"
+          },
+          {
+            "term": "cheville d''impulsion",
+            "genus": "f",
+            "zdroj": "Sladkovský 1947; alternativní FR termín"
+          },
+          {
+            "term": "ellipse",
+            "genus": "f",
+            "zdroj": "Berner — užíváno podle tvaru kamene"
+          }
+        ]
+      },
+      "definice": "Polysémní termín v české hodinařině: (I) drobný kámen na popudném kotoučku setrvačky, který předává popud z vidličky kotvy setrvačce (Sladkovský 1947, Bureš 1974); (II) celý dvojkomplex popudný + pojistný kotouč nalisovaný na hřídeli setrvačky (Martínek–Řehoř 1964).",
+      "vyznamy": [
+        {
+          "kontext": "u Sladkovského 1947, Bureše 1974 (a v souladu s Bernerem)",
+          "definice": "Drobný kámen (typicky rubín, safír nebo granát) usazený svisle na [kotoučku popudném](/slovnik/kotoucek-popudny) hřídele [setrvačky](/slovnik/setrvacka); vidlička kotvy ho při průchodu zachycuje a předává mu popud z krokového kola. Odpovídá Bernerovu *impulse pin / cheville de plateau / Hebelstein*. Bureš 1974 totéž nazývá „vodicí kámen\".",
+          "kategorie": "mechanika",
+          "prameny": [
+            "Sladkovský 1947",
+            "Bureš 1974",
+            "Berner"
+          ]
+        },
+        {
+          "kontext": "u Martínka–Řehoře 1964",
+          "definice": "Celý dvojkomplex [kotoučků](/slovnik/kotoucek-popudny) — popudný kotouč (nesoucí popudný kámen) a pojistný kotouč (s vybráním pro průchod jazyku vidlice) — nalisovaný na hřídeli [setrvačky](/slovnik/setrvacka). Sám kámen Martínek-Řehoř nazývá důsledně „popudný kámen\". Odpovídá Bernerovu *plateau-double / double roller / Doppelrolle*.",
+          "kategorie": "mechanika",
+          "prameny": [
+            "Martínek-Řehoř 1964"
+          ]
+        }
+      ],
+      "atestace": null,
+      "pribuzne": [
+        "kotoucek-popudny",
+        "setrvacka",
+        "kotva",
+        "vidlice",
+        "paleta",
+        "popud"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "volovo": {
       "lemma": "volovo (olovo)",
       "lang": "cs",
@@ -7176,27 +9478,33 @@
       "varianty": [
         {
           "term": "vos",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročeský pravopis slova *osa* s protetickým *v-*. Doložen Táborským 1570. V moderní češtině [hřídel / osa](/slovnik/hridel).",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "vůs",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Varianta s prodlouženým ú v ortografii 16. století.",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "osa",
-          "status": "admitted"
+          "status": "preferred",
+          "note": "Moderní cs forma od konce 18. století — ztráta protetického *v-*. V hodinářském kontextu typicky [hřídel](/slovnik/hridel)."
         }
       ],
       "translations": {},
-      "definice": "Staročeský pravopis slova *osa* — s protetickým *v-* na začátku. Charakteristický pravopisný rys češtiny 16. století.",
+      "definice": "Staročeský pravopis slova *osa* s protetickým *v-* na začátku — charakteristický pravopisný rys češtiny 16. století (paralelně *vobruč → obruč*, *voceloví → oceloví*, *volovo → olovo*). **V moderní češtině se nepoužívá** — viz [hřídel](/slovnik/hridel).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
+        "hridel",
         "hridelik-orloje",
         "puska-orloje"
       ],
-      "isStub": true,
-      "redirectTo": null
+      "isStub": false,
+      "redirectTo": "hridel"
     },
     "vreteno-orloje": {
       "lemma": "vřeteno (orlojní)",
@@ -7293,35 +9601,139 @@
     "vrub-zub": {
       "lemma": "vrub (vroubek, zub)",
       "lang": "cs",
-      "conceptId": null,
+      "conceptId": "HORO-TOOTH-001",
       "kategorie": "mechanika",
       "varianty": [
         {
+          "term": "zub",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín pro výstupek na obvodu kola.",
+          "doloženo": "Špatný 1882 (Zahn = zub); Sušický 1900; Sladkovský 1947; Bureš 1965; Skála 2013"
+        },
+        {
           "term": "vrub",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročeský termín, Táborský 1570 jej užívá zaměnitelně se „zubem\". Dnes zachován pro zářez/vrub na hraně (truhlářství), v hodinářském úzu nahrazen termínem „zub\".",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "vroubek",
-          "status": "admitted"
-        },
-        {
-          "term": "zub",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Zdrobnělina k „vrubu\" (Táborský 1570).",
+          "doloženo": "Táborský 1570"
         },
         {
           "term": "zoubek",
-          "status": "admitted"
+          "status": "admitted",
+          "note": "Zdrobnělina k „zubu\", v hodinářském úzu pro malé zuby krokového kola nebo pastorku."
         }
       ],
-      "translations": {},
-      "definice": "Mezera mezi zuby kola, nebo synonymně i samotný zub. Táborský zaměnitelně používá *vrub*, *vroubek*, *zub* a *zoubek*.",
+      "translations": {
+        "de": [
+          {
+            "term": "Zahn",
+            "genus": "m",
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei*; Špatný 1882"
+          }
+        ],
+        "en": [
+          {
+            "term": "tooth",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology*"
+          }
+        ],
+        "fr": [
+          {
+            "term": "dent",
+            "genus": "f",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*"
+          }
+        ]
+      },
+      "definice": "Výstupek na obvodu ozubeného kola nebo [pastorku](/slovnik/pastorek), který zabírá do mezery (= vrub v původním smyslu) protilehlého kola a tím přenáší rotační pohyb. **Moderní cs odborný termín je „zub\"**; staročeské „vrub\" / „vroubek\" jsou doloženy Táborským 1570.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "prysek",
-        "tryb"
+        "pastorek",
+        "krokove-kolo",
+        "soukoli",
+        "prysek"
       ],
-      "isStub": true,
+      "isStub": false,
+      "redirectTo": null
+    },
+    "vterinove-kolo": {
+      "lemma": "vteřinové kolo",
+      "lang": "cs",
+      "conceptId": "HORO-WHEEL-003",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "vteřinové kolo",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — Sladkovský 1947 i Martínek–Řehoř 1964. Otáčí se 1× za minutu (60 s).",
+          "doloženo": "Sladkovský 1947; Martínek–Řehoř 1964, obr. 46"
+        },
+        {
+          "term": "kolo vteřinové",
+          "status": "preferred",
+          "note": "Inverzní slovosled — Sladkovský 1947 střídavě."
+        },
+        {
+          "term": "sekundové kolo",
+          "status": "admitted",
+          "note": "Synonymum (z mezinárodního „sekunda\"). V Sladkovském ani Martínkovi-Řehořovi se nepoužívá."
+        },
+        {
+          "term": "čtvrté kolo",
+          "status": "admitted",
+          "note": "Z anglické konvence „fourth wheel\" (Berner) — 4. kolo počítáno od pohonu."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Sekundenrad",
+            "genus": "n",
+            "zdroj": "Berner — odpovídá EN „seconds wheel\""
+          }
+        ],
+        "en": [
+          {
+            "term": "fourth wheel",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „mobile\" — going train)"
+          },
+          {
+            "term": "seconds wheel",
+            "zdroj": "Saunier 1887; běžný EN termín u sekundovou ručku"
+          }
+        ],
+        "fr": [
+          {
+            "term": "roue de seconde",
+            "genus": "f",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*"
+          },
+          {
+            "term": "roue des secondes",
+            "genus": "f",
+            "note": "Alternativní FR forma"
+          }
+        ]
+      },
+      "definice": "Čtvrté kolo [jicího soukolí](/slovnik/jici-stroj) (po [hnacím](/slovnik/hnaci-kolo) → [minutovém](/slovnik/minutove-kolo) → [mezilehlém](/slovnik/mezilehle-kolo)). Otáčí se **jednou za minutu** (60 s) a u přesných hodin a hodinek nese **sekundovou ručku** — buď centrálně na hřídeli s minutovou ručkou, nebo na samostatném subdialu. Předchází [krokovému kolu](/slovnik/krokove-kolo) (5., poslední kolo soukolí).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "jici-stroj",
+        "soukoli",
+        "minutove-kolo",
+        "mezilehle-kolo",
+        "krokove-kolo",
+        "hnaci-kolo",
+        "pastorek"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "vyhloditi": {
@@ -7561,6 +9973,80 @@
       "isStub": true,
       "redirectTo": null
     },
+    "zachyt": {
+      "lemma": "záchyt",
+      "lang": "cs",
+      "conceptId": "HORO-ESCAPEMENT-002",
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "záchyt",
+          "status": "preferred",
+          "doloženo": "Martínek–Řehoř 1964, s. 40 („záchytný úhel\", „záchytná plocha\")"
+        },
+        {
+          "term": "klid",
+          "status": "preferred",
+          "note": "Synonymum užívané zejména v kontextu „úhel klidu\" / „plocha klidu\".",
+          "doloženo": "Bureš 1974, *Hodinové stroje III*, s. 84 („úhel klidu\", „plocha klidu\")"
+        },
+        {
+          "term": "poklid",
+          "status": "archaic",
+          "note": "Doložený překlad z 19. století: Špatný 1882 překládá DE „Ruhe f.\" jako „poklid\" (s ilustrativní větou „der Zahn fällt viel oder wenig auf die Ruhe = zub padá mnoho nebo málo na poklid\"). Související Ruhepunkt → „bod klidu\". Po roce 1947 (Sladkovský) ustupuje termínu „klid\" / „záchyt\".",
+          "doloženo": "Špatný 1882 (heslo Ruhe + Ruhepunkt)"
+        },
+        {
+          "term": "lock",
+          "status": "admitted",
+          "note": "Anglicismus z odborné literatury (Headrick, Roberts); v cs textu jen jako EN ekvivalent."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Ruhe",
+            "genus": "f",
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei* (heslo „lock\") — dictionary.fhs.swiss"
+          },
+          {
+            "term": "Sperrung",
+            "genus": "f",
+            "zdroj": "Dietzschold 1905 — méně specifický, Berner preferuje Ruhe"
+          }
+        ],
+        "en": [
+          {
+            "term": "lock",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „lock n.\") — primární"
+          },
+          {
+            "term": "locking",
+            "zdroj": "Du–Xie 2013, s. 12; Berner („locking face\", „locking-angle\")"
+          }
+        ],
+        "fr": [
+          {
+            "term": "repos",
+            "genus": "m",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie* (heslo „repos\") — primární; doloženo už Berthoud 1802"
+          }
+        ]
+      },
+      "definice": "První fáze cyklu krokového ústrojí: zub krokového kola spočívá na klidové (záchytné) ploše palety a soukolí je v klidu. Trvá od konce předchozího popudu do okamžiku, kdy paleta zubu uvolní popudnou plochu.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "popud",
+        "odpad",
+        "krok",
+        "paleta",
+        "krokove-kolo",
+        "uhel-klidu"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "zamek-orloje": {
       "lemma": "zámek (bicího stroje)",
       "lang": "cs",
@@ -7599,31 +10085,124 @@
         "de": [
           {
             "term": "Gewicht",
-            "zdroj": "Špatný 1882"
+            "genus": "n",
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei* (heslo „weight\" → Gewicht); Špatný 1882"
+          },
+          {
+            "term": "Antriebsgewicht",
+            "genus": "n",
+            "zdroj": "Specializovaný DE termín pro hnací závaží"
           }
         ],
         "en": [
           {
-            "term": "weight"
+            "term": "weight",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology* (heslo „weight\")"
           },
           {
             "term": "driving weight",
-            "zdroj": "Saunier 1887"
+            "zdroj": "Berner („driving weight: weight used to supply drive power. A weight-driven clock\"); Saunier 1887"
+          },
+          {
+            "term": "auxiliary weight",
+            "zdroj": "Berner — pomocné závaží na vahadlu kyvadla (mění periodu)"
+          },
+          {
+            "term": "cursor weight",
+            "zdroj": "Berner — vynález Huygens 1661 — pohyblivé závaží na tyči kyvadla"
           }
         ],
         "fr": [
           {
             "term": "poids",
             "genus": "m",
-            "zdroj": "Gros 1913"
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie* (heslo „poids\"); Gros 1913"
           }
         ]
       },
-      "definice": "Hmotné těleso, které svou tíží přes lano nebo řetízek navíjené na bubnu pohání soukolí; primární zdroj energie u věžních a stojacích hodin.",
+      "definice": "Hmotné těleso, které svou tíží přes lano nebo řetízek navíjené na [lanovém bubnu](/slovnik/lanovy-buben) pohání soukolí; primární zdroj energie u věžních a stojacích hodin. Staročeské synonymum: [váha](/slovnik/vaha-orloje) (Táborský 1570, Šumavský 1851).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "kyvadlo"
+        "kyvadlo",
+        "val",
+        "rumpal",
+        "lanovy-buben",
+        "vaha-orloje",
+        "pero"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "zdvizne-kolo": {
+      "lemma": "zdvižné kolo",
+      "lang": "cs",
+      "conceptId": "HORO-STRIKEWHEEL-002",
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "zdvižné kolo",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — Martínek–Řehoř 1964 (obr. 86 „Bicí stroj půlový\", s. 93). Sladkovský 1947 alternativně „kolo spodní\" s kolíčky zdvižnými.",
+          "doloženo": "Martínek–Řehoř 1964, s. 93, obr. 86; Sladkovský 1947"
+        },
+        {
+          "term": "kolo zdvižné",
+          "status": "preferred",
+          "note": "Inverzní slovosled."
+        },
+        {
+          "term": "kolo se zdvižnými kolíky",
+          "status": "admitted",
+          "note": "Popisná forma. Sladkovský 1947: „kolíčků zdvižných kola spodního\".",
+          "doloženo": "Sladkovský 1947"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Hebrad",
+            "genus": "n",
+            "note": "Doslovný překlad „zdvižné kolo\""
+          },
+          {
+            "term": "Hammerrad",
+            "genus": "n",
+            "note": "Synonymum (kladívkové kolo)"
+          }
+        ],
+        "en": [
+          {
+            "term": "hammer wheel",
+            "note": "Funkční překlad — kolo, jehož kolíky/palce zvedají kladívko"
+          },
+          {
+            "term": "lift wheel"
+          }
+        ],
+        "fr": [
+          {
+            "term": "roue de levée",
+            "genus": "f",
+            "note": "FR popisná forma; v Berner kontextu „angle de levée\""
+          },
+          {
+            "term": "roue de marteau",
+            "genus": "f"
+          }
+        ]
+      },
+      "definice": "Kolo [bicího stroje](/slovnik/bici-stroj), které nese po obvodu **zdvižné kolíky** (případně palce nebo vačky), které při otáčení zvedají [kladívko](/slovnik/kladivko) do horní polohy a po vychýlení ho uvolní k volnému dopadu na [cimbál](/slovnik/cymbal) nebo zvon. Tvoří **pracovní část bicího ústrojí** — bez něj by se kladívko nikdy nezvedlo. Sladkovský 1947 popisuje analogicky „kolo spodní s kolíčky zdvižnými\".",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "bici-stroj",
+        "nabezne-kolo",
+        "kladivko",
+        "cymbal",
+        "vacka",
+        "vetrnik",
+        "palec"
       ],
       "isStub": false,
       "redirectTo": null
@@ -7821,6 +10400,82 @@
         "cymbal"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "zvonici-stroj": {
+      "lemma": "zvonicí stroj",
+      "lang": "cs",
+      "conceptId": "HORO-GEARTRAIN-004",
+      "kategorie": "bici",
+      "varianty": [
+        {
+          "term": "zvonicí stroj",
+          "status": "preferred",
+          "note": "Primární cs odborný termín — analogie k [bicímu stroji](/slovnik/bici-stroj). Doložen Skálou 2013 v kontextu vypouštění Pražského orloje („kolíčkem na hlavním kole zvonicího stroje\").",
+          "doloženo": "Skála 2013"
+        },
+        {
+          "term": "soukolí zvonicí",
+          "status": "admitted",
+          "note": "Druhá varianta — analogie k „soukolí jicímu\" (Sladkovský 1947)."
+        },
+        {
+          "term": "zvonicí soukolí",
+          "status": "admitted"
+        },
+        {
+          "term": "soukolí zvonkohry",
+          "status": "admitted",
+          "note": "Specifické pro hodinky/věžní hodiny s víctónovou melodickou zvonkohrou."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Spielwerk",
+            "genus": "n",
+            "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei*; Špatný 1882"
+          },
+          {
+            "term": "Glockenspielwerk",
+            "genus": "n",
+            "note": "Pro skutečnou zvonkohru s víctónovou melodií."
+          }
+        ],
+        "en": [
+          {
+            "term": "chiming train",
+            "zdroj": "Berner, *Illustrated Professional Dictionary of Horology*"
+          },
+          {
+            "term": "chime train"
+          }
+        ],
+        "fr": [
+          {
+            "term": "rouage de carillon",
+            "genus": "m",
+            "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*"
+          },
+          {
+            "term": "carillon",
+            "genus": "m",
+            "note": "Krátká forma"
+          }
+        ]
+      },
+      "definice": "Funkční celek hodinového stroje, jehož úkolem je **hrát melodii** (Westminster chime, vlastní motiv, lidovou píseň) sérií úderů [kladívek](/slovnik/kladivko) na různě naladěné [cymbály](/slovnik/cymbal) nebo zvony zvonkohry. Vlastní [lanový buben](/slovnik/lanovy-buben) a závaží, vlastní hřídel s vačkami nebo válcem s kolíčky, který určuje sekvenci úderů. U věžních hodin oddělené od [jicího stroje](/slovnik/jici-stroj) a [bicího stroje](/slovnik/bici-stroj) soukolí.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "soukoli",
+        "jici-stroj",
+        "bici-stroj",
+        "cymbal",
+        "kladivko",
+        "westminster-chime"
+      ],
+      "isStub": false,
       "redirectTo": null
     }
   }

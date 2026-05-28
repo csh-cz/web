@@ -86,6 +86,9 @@ U **zvonkohry s víctónovou melodií** (Westminster chime, vlastní motivy) je 
 
 ## Reference
 
+> „**Zdvižné kolo nese po obvodu kolíky (palce), které postupně zvedají kladívko a po překročení vrchního bodu jej uvolňují k volnému dopadu na zvon.** Počet kolíků na obvodu určuje **počet úderů na jednu otáčku** zdvižného kola — z toho se počítá převod od náběžného kola tak, aby bylo dosaženo žádaného počtu úderů v cyklu odbíjení."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 5 *Bicí stroj*, zdvižné kolo a počet kolíků).
+
 > „pastorek větrníku | náběžné kolo | náběžný kolík | zapadací páka | spouštěcí páka | **vačka s podávacím kolíkem** | **zdvižné kolo** | páka kladívka | dorazový kolík | **zdvižný kolík** | přísadní kolo."
 > — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964, s. 93, obr. 86 *„Bicí stroj půlový (základní poloha)"*.
 

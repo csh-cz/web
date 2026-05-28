@@ -89,6 +89,9 @@ Berner rozlišuje **dva významy „intermediate wheel"**:
 
 ## Reference
 
+> „**Mezilehlé kolo (třetí kolo) je v jicím soukolí mezi kolem minutovým a kolem vteřinovým.** Jeho úkolem je převést pohyb minutového kola tak, aby vteřinové kolo se otáčelo jednou za minutu. **Mezilehlé kolo samotné se otáčí podle převodu — u běžných hodin přibližně 1× za 8 minut.**"
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 3 *Soukolí*, pozice mezilehlého kola v jicí kaskádě).
+
 > „Pro hodinky: **kolo mezitimní B = 60–75**, pastorek mezitimní b = 8–10."
 > — SLADKOVSKÝ, Josef. *Učebnice odborné nauky hodinářské.* 1947 (typové soustavy hlavního soukolí).
 

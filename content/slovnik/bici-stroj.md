@@ -115,6 +115,9 @@ Spouštění bicího stroje provádí [spoušť](/slovnik/spoust) (Auslösung) n
 > „**striking train** n. **sonnerie** n. f. **Schlagwerk** n. Train of wheels that drives the hammer striking the gong or bell."
 > — BERNER, G.-A. *Illustrated Professional Dictionary of Horology.* Federation of the Swiss Watch Industry (FH). Online: dictionary.fhs.swiss.
 
+> „**Bicí stroj má samostatné soukolí poháněné vlastním závažím (případně perem) a je spouštěn jicím strojem v určitých časových intervalech.** Soustavu bicího stroje tvoří: hnací ústrojí, soukolí (podávací kolo, náběžné kolo, zdvižné kolo, větrník), uzamykací ústrojí (závěrkové kolo nebo početník) a kladívko se zvonem či cymbálem. **Větrník reguluje rychlost odbíjení tak, aby jednotlivé údery následovaly v pravidelných intervalech** — bez větrníku by bicí stroj odbil všechny údery v jediném zhroucení."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. 5 *Bicí stroj*, soustava komponent a funkce větrníku).
+
 ## Obrázky
 
 *(zatím chybí — návrh: schéma bicího stroje s početníkem ze Sladkovského 1947, schéma závěrkového typu z Dietzscholda 1894)*
