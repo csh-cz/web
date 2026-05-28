@@ -34,7 +34,7 @@ export interface Milnik {
   oblast: Oblast;
   kategorie: MilnikKategorie;
   titulek: string;
-  /** 1–2 věty. Smí obsahovat &nbsp; entity. */
+  /** 1–2 věty. Smí obsahovat ne­zlomitelnou mezeru (U+00A0) přímo ve stringu. */
   popis: string;
 
   // ── Křížové odkazy na obsah webu (vše volitelné) ──
@@ -338,6 +338,59 @@ export const milniky: Milnik[] = [
     zdroj: 'Nosonovsky 2024 — Early Renaissance Concepts of Time and the Invention of Mechanical Clocks',
   },
   {
+    id: 'petrus-peregrinus-1269',
+    rok: 1269,
+    rokText: '1269',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'osobnost',
+    ikona: 'compass',
+    titulek: 'Petrus Peregrinus a magnetické perpetuum mobile',
+    popis:
+      'Pikardský vojenský inženýr Pierre de Maricourt v dopise „Epistola de magnete" navrhuje ' +
+      'řízení hvězdné rotace magnetickou koulí, která by — paralelně s nebeskou osou a bez tření — ' +
+      'opisovala přesně jeden otáčku za den. Z konstrukčního pohledu utopie, ale jeden z prvních ' +
+      'evropských zápasů s problémem rovnoměrného pohonu astronomických simulátorů — předehra ' +
+      'mechanickému kroku.',
+    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
+    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
+  },
+  {
+    id: 'robertus-anglicus-1271',
+    rok: 1271,
+    rokText: '1271',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'vynalez',
+    ikona: 'scroll',
+    titulek: 'Robertus Anglicus: „artifices horologiorum"',
+    popis:
+      'V komentáři ke Sacroboscovu astronomickému učebnímu textu „De sphera" si Robertus Anglicus ' +
+      'stěžuje, že žádné dosavadní hodiny nezvládají rovnoměrnou rotaci odpovídající rovnodennému ' +
+      'kruhu — a popisuje skupinu „artifices horologiorum", která se o to marně pokouší. První ' +
+      'explicitní zmínka o evropských hodinářích jako profesní skupině usilující o mechanický pohon ' +
+      'a klíčový terminus ante quem non pro vynález mechanického kroku.',
+    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
+    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
+  },
+  {
+    id: 'roman-de-la-rose-1278',
+    rok: 1278,
+    rokText: 'kolem 1278',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'system',
+    ikona: 'feather',
+    titulek: 'Jean de Meun: „orloges" v Roman de la Rose',
+    popis:
+      'V druhé části Roman de la Rose (skládané mezi roky 1275–1280) Jean de Meun vyjmenovává ' +
+      '„orloges" mezi hudebními nástroji a obdivuje jejich důmyslné soukolí, které „nikdy neumdlévá". ' +
+      'Nejstarší literární doklad, že mechanické hodiny začínaly v latinské Evropě budit pozornost ' +
+      'jako sociální novinka — dvě desetiletí před rozjezdem stavby věžních hodin.',
+    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
+    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
+  },
+  {
     id: 'vretenovy-krok-vynalez',
     rok: 1280,
     rokText: 'konec 13. století',
@@ -397,12 +450,31 @@ export const milniky: Milnik[] = [
     kategorie: 'osobnost',
     titulek: 'Richard z Wallingfordu',
     popis:
-      'Opat kláštera v St Albans navrhl kolem roku 1330 jeden z nejsložitějších astronomických orlojů ' +
-      'středověku — s astrolábovým číselníkem, ukazatelem mořského přílivu a vlastním krokem — a popsal ' +
-      'jej v traktátu Tractatus Horologii Astronomici.',
+      'Opat kláštera v St Albans navrhl kolem roku 1330 jeden z nejsložitějších astronomických orlojů ' +
+      'středověku — s astrolábovým číselníkem, ukazatelem mořského přílivu, oválnými soukolími pro pohyb Slunce ' +
+      'a Měsíce a vlastním krokem se dvěma „strob" koly a srpovými paletami („semicirculus") namísto obvyklého ' +
+      'vretenového kroku — a popsal jej v traktátu Tractatus Horologii Astronomici. Stroj byl vysoký jako člověk.',
     slovnik: 'orloj',
     bibKey: 'northGodsClockmakerRichard2005',
     zdroj: 'North 2005 — God’s Clockmaker: Richard of Wallingford and the Invention of Time',
+  },
+  {
+    id: 'horologium-sapientiae-1334',
+    rok: 1334,
+    rokText: 'kolem 1334',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'system',
+    ikona: 'book',
+    titulek: 'Heinrich Seuse: Horologium Sapientiae',
+    popis:
+      'Dominikán z Kostnice Heinrich Seuse (Suso) staví celou svou nábožensky-didaktickou knihu ' +
+      'kolem obrazu hodin: text dělí na „24 materiae", v prologu Boží moudrost zaznívá z hodin „okrášlených ' +
+      'překrásnými růžemi a libozvučnými cimbály". První velký kulturně-spirituální text, který přijímá ' +
+      'nové dělení dne na 24 rovných hodin jako přirozený rámec života — předzvěst kulturní hegemonie ' +
+      'mechanického času.',
+    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
+    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
   },
   {
     id: 'milan-1336',
@@ -474,6 +546,23 @@ export const milniky: Milnik[] = [
     slovnik: 'orloj',
     bibKey: 'nosonovskyEarlyRenaissanceConcepts2024',
     zdroj: 'Nosonovsky 2024 — Early Renaissance Concepts of Time and the Invention of Mechanical Clocks',
+  },
+  {
+    id: 'london-st-pauls-1344',
+    rok: 1344,
+    rokText: '1344',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'monument',
+    ikona: 'bell',
+    titulek: 'Londýn, St Paul\'s — Walter the Orgoner',
+    popis:
+      'V londýnské katedrále sv. Pavla postavil hodinář a varhanář Walter the Orgoner velký věžní ' +
+      'stroj s ciferníkem, andělem a klaněním Tří králů. Typický „varhanářský" most ke stavbě hodin: ' +
+      'mechanika tažených zvonových sad a bicích strojů u varhan dala technickou základnu pro nové ' +
+      'monumentální orloje.',
+    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
+    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
   },
   {
     id: 'giovanni-dondi-1349',
@@ -611,6 +700,32 @@ export const milniky: Milnik[] = [
     zoteroKey: 'H868QUKS',
   },
   {
+    id: 'horologium-commune-1380',
+    rok: 1380,
+    rokText: 'kolem 1380',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'vynalez',
+    ikona: 'gears',
+    titulek: 'Horologium commune u Dondiho — nejstarší popis vretenového stroje',
+    popis:
+      'V první části Dondiho traktátu Tractatus astrarii má druhá kapitola „De inpositione communis horrologii ' +
+      'in casamento inferiori" stylem i obsahem zvláštní postavení: Dondi tu na fol. 3a–3d odbočuje od popisu ' +
+      'astronomického stroje a stručně popisuje pohon — „commune horrologium" o devíti kolech s vretenovým ' +
+      'krokem („frenum cum corona"), který do dolní kostry vsadil. Sám přitom přiznává, že popisuje jen letmo, ' +
+      '„quoniam compositio ejus multiformis et comunis est" — protože konstrukce je rozmanitá a všeobecně ' +
+      'známá — a několikrát odkáže „eo penitus modo quo facere solent communia horrologia componentes". ' +
+      'Pasáž je nejstarším dochovaným popisem konstrukce běžných mechanických hodin své doby a vůbec ' +
+      'první svědectví o vretenovém kroku v textu, který se nevěnuje jen samotnému hodinovému řemeslu. ' +
+      'Je v původní redakci Dondiho autografu Padua D 39 (verze A, Biblioteca Capitolare Vescovile), ' +
+      'datovaného Emmanuelem Poullem do environs 1380. Pozdější verze B a verze C (mj. Eton 172, ' +
+      'jejichž rok opsání není přesně znám) text přebírají s drobnými variantami.',
+    slovnik: 'vretenovy-krok',
+    bibKey: 'dondidallorologioTractatusAstrarii2003',
+    zdroj: "Poulle (ed.) 2003 — Giovanni Dondi dall'Orologio, Tractatus astrarii (Pars I, Cap. II)",
+    zoteroKey: '6N53AKAQ',
+  },
+  {
     id: 'henri-de-vick-1370',
     rok: 1370,
     rokText: '1370',
@@ -627,6 +742,41 @@ export const milniky: Milnik[] = [
     krok: 'vretenovy-krok',
     bibKey: 'nosonovskyEarlyRenaissanceConcepts2024',
     zdroj: 'Nosonovsky 2024 — Early Renaissance Concepts of Time and the Invention of Mechanical Clocks',
+  },
+  {
+    id: 'visconti-hour-pass-1373',
+    rok: 1373,
+    rokText: '1373',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'system',
+    ikona: 'envelope-open-text',
+    titulek: 'Bernabò Visconti — první hodinové „hour passes"',
+    popis:
+      'Milánský signor Bernabò Visconti začíná na svou korespondenci zapisovat hodinu odeslání ' +
+      'podle nového veřejného úderu. Po něm následuje Ottobono Terzi v Reggio nell\'Emilia (1408) ' +
+      'a kancelář Řádu německých rytířů u Marienburku (1409, 1420). Nejstarší doložené využití ' +
+      'mechanických hodin pro koordinaci komunikace a správy — předchůdce moderního dispečinku.',
+    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
+    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
+  },
+  {
+    id: 'vlna-verejnych-hodin-1380',
+    rok: 1380,
+    rokText: '1371–1410',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'system',
+    ikona: 'chart-line',
+    titulek: 'Velká vlna pořizování městských hodin',
+    popis:
+      'Dohrnova statistika doby pořízení prvních městských orlojů ukazuje mezi roky 1371 a 1380 ' +
+      'rozjezd osmdesáti měst — zhruba 16 % všech evropských pořízení do roku 1450. Vrchol vlny ' +
+      'spadá do roku 1376; po roce 1410 růst opadá, protože síť větších měst už je vybavená. Bicí ' +
+      'hodiny tehdy přestávají být kuriozitou panovnických dvorů a stávají se samozřejmou součástí ' +
+      'každého většího evropského města.',
+    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
+    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour, kap. 5',
   },
   {
     id: 'salisbury',
@@ -658,6 +808,24 @@ export const milniky: Milnik[] = [
     zdroj: 'Bray 2001 — Making Clocks',
     bibKey: 'brayMakingClocks2001',
     zoteroKey: 'H4LB9KDX',
+  },
+  {
+    id: 'tortelli-nova-invento-1450',
+    rok: 1450,
+    rokText: 'kolem 1450',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'system',
+    ikona: 'feather',
+    titulek: 'Tortelli: hodiny jako „nový vynález"',
+    popis:
+      'Italský humanista Giovanni Tortelli ve svém výčtu novodobých vynálezů uvádí, že úderové ' +
+      'hodiny jsou skutečnou „nova invento": „nejen ukazují a značí hodinu pro náš zrak, ale také ' +
+      'jejich zvon oznamuje hodinu uším těch, kteří jsou daleko nebo zůstali doma." Slovo „je to ' +
+      'nový vynález" — sto padesát let po pařížské diskusi z roku 1271 — dobře zachycuje, jak ' +
+      'pozdně mechanické hodiny dospěly k veřejné kulturní samozřejmosti.',
+    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
+    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour, kap. 4',
   },
 
   // české země — připojení proudu
@@ -784,6 +952,41 @@ export const milniky: Milnik[] = [
     zdroj: 'Borový–Podlaha 1875 — Libri erectionum, s. 12',
     bibKey: 'borovyLibriErectionumArchidioecesis1875',
     zoteroKey: 'YGLJAWGR',
+  },
+  {
+    id: 'villingen-1401',
+    rok: 1401,
+    rokText: '1401',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'monument',
+    ikona: 'gears',
+    titulek: 'Astronomické hodiny ve Villingenu',
+    popis:
+      'Hodiny ve farním kostele v Villingenu (Schwarzwald) jsou doloženy dobovým popisem; patří ' +
+      'k nejstarším podrobně popsaným monumentálním astronomickým orlojům střední Evropy. O něco ' +
+      'mladší obdobný stroj měl Frankenberg v Hesensku. Typologicky stojí mezi padovským astrariem ' +
+      'a pražským orlojem 1410.',
+    slovnik: 'orloj',
+    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
+    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
+  },
+  {
+    id: 'moskva-kreml-1404',
+    rok: 1404,
+    rokText: '1404',
+    epocha: 'stredovek',
+    oblast: 'svet',
+    kategorie: 'monument',
+    ikona: 'bell',
+    titulek: 'První kremelské věžní hodiny v Moskvě',
+    popis:
+      'Mnich Lazar postavil pro velkoknížete Vasilije I. Dmitrijeviče v moskevském Kremlu věžní ' +
+      'stroj, který „kladivem odbíjí hodiny dne i noci". Symbolický dotek vlny pořizování městských ' +
+      'hodin východního okraje latinské Evropy — současně s Santiagem de Compostela (1395) ' +
+      'a janovskou kolonií v Caffě na Krymu (1375).',
+    bibKey: 'dohrn-vanrossumHistoryHourClocks1996',
+    zdroj: 'Dohrn-van Rossum 1996 — History of the Hour',
   },
   {
     id: 'prazsky-orloj-1410',
@@ -948,6 +1151,58 @@ export const milniky: Milnik[] = [
     slovnik: 'orloj',
     bibKey: 'knesplAstronomicalClockArchduke2024',
     zdroj: 'Knespl 2024 — The Astronomical Clock of Archduke Ferdinand II of Austria',
+  },
+  {
+    id: 'litomericky-orloj-1578',
+    rok: 1578,
+    rokText: '1575–1598',
+    epocha: 'novovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'monument',
+    ikona: 'clock',
+    titulek: 'Litoměřický orloj — třígenerační dílo Frejlichů',
+    popis:
+      'Ve středu po sv. Lucii 1575 město Litoměřice uzavřelo s Pavlem Frejlichem smlouvu na orloj ' +
+      '„jako v Praze na Starým Městě a ještě mnohem nad pražský způsobnější", za 400 kop míšenských. ' +
+      'Pavel stroj v roce 1578 dodal, ale do věže se ho už nepodařilo instalovat. Starší syn Vavřinec ' +
+      '— hodinář a zvonař — přijel zakázku zkontrolovat, ale k dokončení nedošlo: záhy sám zemřel. ' +
+      'Roku 1598 se proto s doporučením Matouše Ornyse z Lindperka úkolu chopil mladší bratr Adam ' +
+      'Frejlich a orloj nakonec dokončil. Litoměřický stroj sloužil ještě ve 30. letech 19. století, ' +
+      'dnes se však nedochoval — jediné svědectví o díle Frejlichovské dílny na sever od Prahy nesou ' +
+      'už jen archivní zprávy.',
+    hodinar: 'pavel-frejlich',
+    slovnik: 'orloj',
+    bibKey: 'knesplAstronomicalClockArchduke2024',
+    zdroj: 'Archiv města Litoměřice, Pamětní kniha městských písařů 1570–1612, sig. I V B 1 a, fol. 48; Knespl 2024 — The Astronomical Clock of Archduke Ferdinand II of Austria (SOkA Litoměřice, IV D 2:3.5.1)',
+    zoteroKey: '9TFPRCGP',
+  },
+  {
+    id: 'usti-orloj-1591',
+    rok: 1591,
+    rokText: '1591–1614 (Tichtenbaum) — † 1846',
+    epocha: 'novovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'monument',
+    titulek: 'Ústecký radniční astronomický orloj',
+    popis:
+      'Ústecká renesanční radnice prošla v poslední třetině 16. století dlouhou stavební úpravou ' +
+      '— doložen řezaný strop zasedacího sálu (1574), zvon Brikcího z Cymberka (1579), malba ' +
+      '„grüne Stube" (1589) a dokončení („Verfertigung") roku 1591 (Sonnewend). Do tohoto ' +
+      'reprezentativního programu typologicky patří i osazení velkého radničního orloje. ' +
+      'Latinská topografie ústeckého radního a poeta laureata Johanna Augustina Tichtenbauma ' +
+      '(1614) popisuje stroj jako plnohodnotný astronomický orloj: bil každou čtvrti hodiny, pod ' +
+      'ciferníkem hýbal figurální automat rukama i ústy a stroj ukazoval pohyb planet a Měsíce. ' +
+      'Tichtenbaum zároveň rozlišuje ústecké hodiny na „české" (radniční, počítané podle ' +
+      'staroměstské 24hodinové tradice) a „německé" (na domě bratrstva Božího Těla z roku 1613, ' +
+      '12hodinové) — radniční orloj tak typologicky patří k české škole, příbuzné Staroměstskému ' +
+      'pražskému orloji. Pozdější topografie Sonnewenda (1855) zaznamenala na fasádě radnice ' +
+      'letopočet 1591 se zkratkou G. W. (patrně pobožná invokace „Gott walte" — „Bůh opatruj") ' +
+      'a letopočet 1774 s J. J. N. Anno („In Iesu Nomine, Anno…" — „Ve jménu Ježíšově, léta páně"), ' +
+      'spojované s hlavní opravou budovy. Jméno autora orloje, jeho dílny ani přesný rok vyhotovení ' +
+      'se nedochovaly. V roce 1846 byla celá renesanční radnice stržena a orloj s ní zanikl.',
+    slovnik: 'orloj',
+    zdroj: 'Tichtenbaum 1614 — Usta ad Albim delineata (Praha, Caspar Kargesius), cit. Marian 1903 — Alt-Aussig, s. 9; Sonnewend 1855 — Geschichte der königlichen Freistadt Aussig (2. vyd., Prag/Leitmeritz), s. 190–191',
+    zoteroKey: 'PINZU39Z',
   },
   {
     id: 'strasbourg-orloj-2',
