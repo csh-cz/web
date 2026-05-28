@@ -58,6 +58,15 @@ V Hodináriu jsou dochované exempláře barokních strojů s lihýřem (sluneč
 > „Starším typem oscilátoru byl tzv. lihýř neboli vahadlo, od konce 17. století postupně nahrazený kyvadlem."
 > — HIMMLER, Radim. *Věžní hodinové stroje VMO Olomouc.* 2006.
 
+> „**Na vřeténku upevněný lihýř má značnou setrvačnost a pokračuje ještě ve svém pohybu. Je však tlakem zubu krokového kola na paletu postupně zastaven a uveden do pohybu opačného směru.** Působení lihýře si můžeme přiblížit, vezmeme-li do rukou vodorovně tyč 4 až 5 metrů dlouhou a budeme-li se s ní natáčet doprava a zase doleva. Při změně směru pohybu cítíme odpor, tyč chce vždy setrvat v původním směru pohybu."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965, s. 58.
+
+> „**Nerovnoměrný pohyb lihýře znemožňoval výrobu přesnějších strojů. Jako regulátor byl naprosto nevhodný.** Nahradit lihýř kyvadlem není z dnešního hlediska problém. První však na tuto myšlenku přišel na sklonku svého života geniální hvězdář Galileo Galilei."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965, s. 60.
+
+> „**Tehdejší vynálezce neodděloval krok od regulátoru, jak se to děje dnes, a lihýř byl přímou součástí kroku**, jak tomu nasvědčuje pevné spojení s vřeténkem."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965, s. 84 (klíčový historický vhled — krok a regulátor byly před Huygensem jednou součástí).
+
 ## Obrázky
 
 *(zatím chybí — návrh: schéma lihýře z Sushického 1900 nebo Sladkovského 1947, foto barokního stroje s lihýřem z Hodinária)*
