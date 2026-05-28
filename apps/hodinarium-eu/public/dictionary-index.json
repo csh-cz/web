@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generated": "2026-05-28T23:36:09.134Z",
-    "count": 229,
+    "generated": "2026-05-28T23:41:52.265Z",
+    "count": 233,
     "stubs": 75,
     "redirects": 14,
     "withConceptId": 56,
@@ -83,6 +83,76 @@
         "kolickovy-krok",
         "kotva",
         "krokove-kolo"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "amplituda": {
+      "lemma": "amplituda",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "amplituda",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín (Martínek-Řehoř 1964, kap. 1, s. 12): „Výchylka oscilátoru ze střední polohy do úvrati (tj. krajní polohy) se nazývá amplituda.\" Hajn 1953 ji systematicky používá s matematickým aparátem (53× výskytů).",
+          "doloženo": "MR 1964 s. 12; Hajn 1953; Boukal 1958"
+        },
+        {
+          "term": "rozkyv",
+          "status": "admitted",
+          "note": "Synonymum pro amplitudu specificky u setrvačky (Boukal 1958: „Rozkyv setrvačky (amplituda) je kyv setrvačky z jedné úvratě do druhé\").",
+          "doloženo": "Boukal 1958, s. 119"
+        },
+        {
+          "term": "rozkmit",
+          "status": "admitted",
+          "note": "Boukal 1958: „Další důležitá vlastnost setrvačky je její rozkmit (rozkyv) čili amplituda\" — všechny tři jsou ekvivalentní u setrvačky.",
+          "doloženo": "Boukal 1958, s. 157"
+        },
+        {
+          "term": "úhlová výchylka",
+          "status": "admitted",
+          "note": "Plný technický popis — amplituda jako úhlová výchylka ze střední polohy (Hajn 1953)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Amplitude",
+            "genus": "f",
+            "zdroj": "Mezinárodní vědecký termín (latinsko-řecký kořen)."
+          },
+          {
+            "term": "Schwingungsweite",
+            "genus": "f",
+            "zdroj": "DE doslovný — „šíře kmitu\"."
+          }
+        ],
+        "en": [
+          {
+            "term": "amplitude",
+            "zdroj": "Berner FHS; mezinárodní vědecký termín."
+          }
+        ],
+        "fr": [
+          {
+            "term": "amplitude",
+            "genus": "f",
+            "zdroj": "Berner FHS; mezinárodní vědecký termín."
+          }
+        ]
+      },
+      "definice": "Úhlová výchylka oscilátoru ([kyvadla](/slovnik/kyvadlo) nebo [setrvačky](/slovnik/setrvacka)) **ze střední polohy do úvrati** (krajní polohy). Měří se v úhlových stupních. Pro kyvadlové hodiny typicky **±1°–20°** podle typu (přesné astronomické 1°, věžní hodiny 5–10°, lidové 20°+); pro setrvačky **±230°–330°** podle typu kroku (válečkový 240–270°, kotvový až 330° — Boukal 1958). **Kritický parametr regulace** — kolísání amplitudy způsobuje [cirkulární chybu](/slovnik/cirkularni-chyba) a denní úchylku chodu (Hajn 1953: rovnice R = 1,65·ϕ² s/d).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kyvadlo",
+        "setrvacka",
+        "cirkularni-chyba",
+        "doba-kyvu",
+        "regulace"
       ],
       "isStub": false,
       "redirectTo": null
@@ -1144,6 +1214,58 @@
       "isStub": false,
       "redirectTo": "ciselnik"
     },
+    "cirkularni-chyba": {
+      "lemma": "cirkulární chyba",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "cirkulární chyba",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín pro **systematickou odchylku doby kyvu kyvadla** od ideální matematické hodnoty způsobenou tím, že kyvadlo kýve po kruhové dráze (na rozdíl od idealizovaného Huygensova cykloidního zavěšení). Martínek-Řehoř 1964 (kap. 1) explicitně používá.",
+          "doloženo": "Martínek-Řehoř 1964 s. 18, obr. 11, tab. 1"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Zirkularfehler",
+            "genus": "m",
+            "zdroj": "DE standardní (Berner FHS)."
+          },
+          {
+            "term": "Kreisfehler",
+            "genus": "m",
+            "zdroj": "DE alternativní — doslovný „kruhová chyba\"."
+          }
+        ],
+        "en": [
+          {
+            "term": "circular error",
+            "zdroj": "Berner FHS; mezinárodní fyzikální termín."
+          }
+        ],
+        "fr": [
+          {
+            "term": "erreur circulaire",
+            "genus": "f",
+            "zdroj": "Berner FHS."
+          }
+        ]
+      },
+      "definice": "Systematická odchylka **doby kyvu kyvadla** od ideální matematické hodnoty (rovnice T = 2π√(L/g)) způsobená tím, že **kyvadlo kýve po kruhové dráze**, zatímco zemská přitažlivost působí stále ve svislém směru. Vratná síla proto **nevzrůstá úměrně s výchylkou**, jak by vyžadovala čistá rovnice harmonického oscilátoru. **Doba kyvu se prodlužuje s rostoucí [amplitudou](/slovnik/amplituda)** — Hajn 1953 odvozuje vzorec R = 1,65·ϕ² s/d (kde ϕ je amplituda ve stupních a R denní zpoždění). Cirkulární chybu lze pro **určitou základní amplitudu** odstranit regulací (změnou polohy čočky kyvadla), ale **nelze odstranit jako celek** — proto přesné hodiny pracují s **malou amplitudou** (±1°). Christiaan Huygens 1673 navrhl cykloidní zavěšení, které cirkulární chybu eliminuje, ale je technicky obtížné a v praxi se nepoužívá.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kyvadlo",
+        "amplituda",
+        "doba-kyvu",
+        "regulace"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "ciselnik": {
       "lemma": "číselník",
       "lang": "cs",
@@ -1786,6 +1908,155 @@
       "pribuzne": [
         "krok",
         "kyvadlo"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "denni-uchylka-chodu": {
+      "lemma": "denní úchylka chodu",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "denní úchylka chodu",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín pro **denní zpoždění nebo předbíhání hodin** v sekundách za den (s/d). Klíčový parametr přesnosti hodinového stroje. Martínek-Řehoř 1964 systematicky používá (tab. 1, s. 19); Hajn 1953 odvozuje matematické vzorce.",
+          "doloženo": "MR 1964 s. 19; Hajn 1953 (R = 1,65·ϕ² s/d); Boukal 1958"
+        },
+        {
+          "term": "chod hodin",
+          "status": "admitted",
+          "note": "Synonymum (Hajn 1953: „V hodinářství je zvykem chod hodin udávat počtem sekund, oč se hodiny denně zpožďují nebo předbíhají\"). Méně specifický termín — „chod\" znamená i obecně provoz, „denní úchylka chodu\" je konkrétní měření."
+        },
+        {
+          "term": "denní zpoždění / předbíhání",
+          "status": "admitted",
+          "note": "Hajn 1953 specificky používá pro pozitivní a negativní hodnoty (zpoždění = pozitivní R, předbíhání = negativní R)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Gangabweichung",
+            "genus": "f",
+            "zdroj": "Mezinárodní hodinářský termín (Berner FHS)."
+          },
+          {
+            "term": "tägliche Gangabweichung",
+            "genus": "f",
+            "zdroj": "DE plný — denní úchylka chodu."
+          }
+        ],
+        "en": [
+          {
+            "term": "rate deviation",
+            "zdroj": "Berner FHS."
+          },
+          {
+            "term": "daily rate",
+            "zdroj": "EN — denní chod (pozitivní nebo negativní hodnota)."
+          }
+        ],
+        "fr": [
+          {
+            "term": "marche diurne",
+            "genus": "f",
+            "zdroj": "Berner FHS."
+          },
+          {
+            "term": "écart de marche",
+            "genus": "m",
+            "zdroj": "FR — odchylka chodu."
+          }
+        ]
+      },
+      "definice": "Denní zpoždění nebo předbíhání hodin **v sekundách za den (s/d)** vzhledem ke skutečnému (referenčnímu) času. **Klíčový parametr přesnosti** hodinového stroje. Hajn 1953: *„V hodinářství je zvykem chod hodin udávat počtem sekund, oč se hodiny denně zpožďují nebo předbíhají.\"* Měření denní úchylky chodu je standardní součást **regulace** stroje a **chronometrové certifikace** (norma ISO 3159, COSC certifikace: -4 až +6 s/d). Typické hodnoty: přesný observatorní regulátor (Riefler) ±0,01 s/d, mechanický náramkový chronometr ±2 s/d, běžné mechanické hodinky ±20–30 s/d, věžní hodiny ±5–60 s/d podle kvality.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "amplituda",
+        "cirkularni-chyba",
+        "regulace",
+        "chronometr",
+        "isochronismus"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "doba-kyvu": {
+      "lemma": "doba kyvu",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "doba kyvu",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín pro **periodu jednoho kyvu** oscilátoru ([kyvadla](/slovnik/kyvadlo) nebo [setrvačky](/slovnik/setrvacka)) — čas mezi dvěma průchody nulovou polohou stejným směrem. Martínek-Řehoř 1964 systematicky používá; Hajn 1953 odvozuje matematicky.",
+          "doloženo": "MR 1964; Hajn 1953"
+        },
+        {
+          "term": "perioda",
+          "status": "admitted",
+          "note": "Mezinárodní fyzikální termín — synonymum k „doba kyvu\" v širším smyslu."
+        },
+        {
+          "term": "čas kyvu",
+          "status": "admitted",
+          "note": "Hovorové synonymum."
+        },
+        {
+          "term": "T (perioda)",
+          "status": "admitted",
+          "note": "V matematických rovnicích označení T (z lat. tempus)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Schwingungsdauer",
+            "genus": "f",
+            "zdroj": "DE standardní (Berner FHS)."
+          },
+          {
+            "term": "Periodendauer",
+            "genus": "f",
+            "zdroj": "DE moderní."
+          }
+        ],
+        "en": [
+          {
+            "term": "period",
+            "zdroj": "Mezinárodní fyzikální termín (Berner FHS)."
+          },
+          {
+            "term": "time of oscillation",
+            "zdroj": "EN popisný."
+          }
+        ],
+        "fr": [
+          {
+            "term": "période",
+            "genus": "f",
+            "zdroj": "Mezinárodní fyzikální termín."
+          },
+          {
+            "term": "durée d''oscillation",
+            "genus": "f",
+            "zdroj": "FR popisný."
+          }
+        ]
+      },
+      "definice": "Perioda jednoho úplného kmitu (kyvu) oscilátoru — čas mezi dvěma průchody nulovou polohou **stejným směrem**, případně mezi dvěma stejnými fázemi pohybu. **Klíčový parametr** oscilátoru. Pro **kyvadlo** se počítá podle rovnice T = 2π·√(L/g) (kde L je [aktivní délka kyvadla](/slovnik/kyvadlo), g tíhové zrychlení). Pro **setrvačku** T = 2π·√(J/D) (kde J je moment setrvačnosti, D direkční moment vlásku). Typické hodnoty: vteřinové kyvadlo má T = 2 s (1 s tam, 1 s zpět); hodinková setrvačka 21 600 bph má T ≈ 0,333 s. **Doba kyvu se prodlužuje s rostoucí [amplitudou](/slovnik/amplituda)** ([cirkulární chyba](/slovnik/cirkularni-chyba)). Pojem **„půldoba kyvu\"** (T/2) označuje čas jedné polovinou pohybu — od úvrati do úvrati.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kyvadlo",
+        "setrvacka",
+        "amplituda",
+        "cirkularni-chyba",
+        "isochronismus"
       ],
       "isStub": false,
       "redirectTo": null
