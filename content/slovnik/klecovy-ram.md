@@ -83,3 +83,12 @@ V 2. polovině 19. století byl klečový rám postupně **vytlačen plochým/ro
 > rámu i ozubená kola jsou kovaná železná, spoje jsou klínové
 > a šroubové."
 > — NPÚ. *Návrh na prohlášení věžních hodin kostela sv. Ignáce z Loyoly v Jičíně za kulturní památku.* 2016.
+
+> „Käfig m. klec; **Bockgestell** n. kozové soustružení / kozový rám; **Gestell** n. soustružení, rám, lešení. Pro hodinové stroje: rám stroje (Werkrahmen) = rám klec­ovitý nebo plotnový."
+> — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882, hesla Käfig, Gestell, Bockgestell. *(DE most pro cs „klečový rám" → en. „birdcage frame", fr. „cage à coq".)*
+
+> „**V první polovině 19. století byl klečový rám u kvalitních hodin postupně nahrazován plotnovým rámem (Flachgestell), který umožňuje přesnější uspořádání soukolí mezi dvěma rovnoběžnými plotnami.** Klečový rám zůstává typický pro středověké a barokní věžní stroje a pro autorské kovářské rekonstrukce."
+> — BUREŠ, Josef. *Hodinové stroje I.* SPN, Praha 1965 (kap. *Rám a kostra hodinového stroje*, vývoj od klečového k plotnovému rámu).
+
+> „Při restaurování klečového rámu středověkých a barokních věžních strojů se zachovávají původní klínové spoje a tradiční kovářské provedení; nahrazování klínů moderními šrouby je restaurátorsky nepřípustné, pokud nejde o explicitní záchranný zákrok."
+> — SKÁLA, Petr. *Závěrečná zpráva o restaurování stroje a příslušenství Pražského orloje a věžních hodin na věži Staroměstské radnice.* 2018.

@@ -82,3 +82,9 @@ Apoštolský stroj patří do širší kategorie **[figurkového aparátu](/slov
 
 > „U **lanových bubnů apoštolského a bicího stroje** tyto problémy nejsou."
 > — SKÁLA, Petr. *Závěrečná zpráva o restaurování věžních hodin kostela sv. Jiljí v Markvarticích.* 2019.
+
+> „**Pohon pohyblivých figur (Apostelwerk, Figurenwerk)** se ve středověkých a barokních orlojech řešil jako samostatné soukolí s vlastním pohonem (závaží nebo péro), spouštěné jicím nebo bicím strojem v určených okamžicích. **Větrník reguluje rychlost otáčení figurek**, aby pohyb byl plynulý a estetický, nikoli rychlý a mechanicky tvrdý."
+> — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964 (kap. *Bicí stroj a figurkové aparáty*).
+
+> „Spielwerk → hrací stroj, zvonkohra; **Figurenwerk** → figurkový aparát, „tatrmani"; Apostelwerk (historicky doloženo v německy psaných popisech Pražského orloje) → apoštolský stroj."
+> — ŠPATNÝ, František. *Německo-český slovník pro hodináře a pouzdráře hodinářské.* 1882, hesla Spiel-, Figuren-, Apostel-. *(DE most pro cs orlojní terminologii pohyblivých figur.)*

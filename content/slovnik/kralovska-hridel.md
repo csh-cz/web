@@ -27,6 +27,10 @@ pribuzne:
 references:
   - bibKey: 'skalaVezniHodinyZamku1996'
     note: "Skála 1996 popisuje rozvod královské hřídele na zámku Poděbrady — Janatovo specifické řešení s axiálním ložiskem ze dvou koleček odvalujících se po kruhové podložce."
+  - bibKey: spatny1882nemeckoCeskySlovnik
+    title: 'Špatný F., *Německo-český slovník pro hodináře a pouzdráře hodinářské*. 1882.'
+    note: 'Hesla Königswelle, Hauptwelle — DE odpovídající moderní cs „královské hřídeli" jako hlavní rozvodový hřídel věžního stroje.'
+    key: spatny-1882
 ---
 
 ## Konstrukční schéma
