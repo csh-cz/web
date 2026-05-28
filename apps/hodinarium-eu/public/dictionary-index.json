@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generated": "2026-05-28T23:25:05.699Z",
-    "count": 221,
+    "generated": "2026-05-28T23:30:36.563Z",
+    "count": 225,
     "stubs": 75,
     "redirects": 14,
     "withConceptId": 56,
@@ -3386,6 +3386,74 @@
       "isStub": true,
       "redirectTo": null
     },
+    "kaleni": {
+      "lemma": "kalení",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "materialy",
+      "varianty": [
+        {
+          "term": "kalení",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín pro tepelnou úpravu oceli — zahřátí na austenitizační teplotu a rychlé ochlazení (voda, olej) pro získání martenzitické struktury (tvrdý, ale křehký materiál).",
+          "doloženo": "Špatný 1882 (Härten kaliti); Hajn 1953 Základy jemné mechaniky; Bureš 1965"
+        },
+        {
+          "term": "v hertu kalení",
+          "status": "archaic",
+          "note": "Staročes. obrat (Táborský 1570): „čepové nebyli voceloví, než toliko v hertu kalení\" — kalení čepu v ohni výhně.",
+          "doloženo": "Táborský 1570"
+        },
+        {
+          "term": "zakalená ocel",
+          "status": "preferred",
+          "note": "Po kalení musí typicky následovat [popouštění](/slovnik/popousteni), které sníží křehkost na úkor maximální tvrdosti."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Härten",
+            "zdroj": "Špatný 1882: „Härten kaliti; das H. kalení\" (W6VEJ854)."
+          },
+          {
+            "term": "Härtung",
+            "genus": "f",
+            "zdroj": "Špatný 1882: „Härtung f. kalení\" — substantivum."
+          }
+        ],
+        "en": [
+          {
+            "term": "hardening",
+            "zdroj": "Mezinárodní strojírenský termín; Berner FHS."
+          },
+          {
+            "term": "quenching",
+            "zdroj": "EN specificky pro fázi rychlého ochlazení (ne celý proces)."
+          }
+        ],
+        "fr": [
+          {
+            "term": "trempe",
+            "genus": "f",
+            "zdroj": "Mezinárodní strojírenský termín."
+          }
+        ]
+      },
+      "definice": "Tepelná úprava oceli zahřátím na austenitizační teplotu (typicky 800–950 °C podle druhu oceli) a následným rychlým ochlazením (voda, olej, vzduch) pro získání **martenzitické struktury** — tvrdý a otěruvzdorný, ale **křehký materiál**. Po kalení v hodinářství vždy následuje [popouštění](/slovnik/popousteni), které sníží napětí a křehkost. Kalí se zejména **palety** kotvy, **čepy** hřídelí, **zuby krokového kola** a **pružiny**. U staročes. orlojů (Táborský 1570) kalení v „hertu\" (ohni výhně) bylo jediná dostupná technologie; čepy nebyly z plné oceli, ale z měkčího materiálu „v hertu kalené\" (povrchové zakalení).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "popousteni",
+        "kotva",
+        "paleta",
+        "krokove-kolo",
+        "vlasek",
+        "herstuk"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "kalibr": {
       "lemma": "kalibr",
       "lang": "cs",
@@ -6035,6 +6103,83 @@
       "isStub": false,
       "redirectTo": "lanovy-buben"
     },
+    "nytovani": {
+      "lemma": "nýtování",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "nýtování",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín pro **mechanické spojování dvou dílů kovovým nýtem** (válcovým kolíkem zpěchovaným do roztažené hlavičky). Špatný 1882 systematicky pokrývá DE rodinu Niet-: Annieten (přinýtovati), Vernieten (zanýtovati), Nieten (nýtovati).",
+          "doloženo": "Špatný 1882; Bureš 1965; Skála (restaurátorské zprávy)"
+        },
+        {
+          "term": "nýtovati",
+          "status": "preferred",
+          "note": "Sloveso (Špatný 1882: „Nieten nýtovati\")."
+        },
+        {
+          "term": "zanýtování",
+          "status": "admitted",
+          "note": "Špatný 1882: „Vernieten zanýtovati něco; das Vernieten zanýtování.\""
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Nieten",
+            "zdroj": "Špatný 1882 (W6VEJ854)."
+          },
+          {
+            "term": "Annieten",
+            "note": "Špatný 1882: „Annieten přinýtovati\" — spojit nýtem dva díly."
+          },
+          {
+            "term": "Vernieten",
+            "note": "Špatný 1882: „Vernieten zanýtovati něco\" — fixovat nýt do konečné polohy."
+          },
+          {
+            "term": "Niet",
+            "genus": "m",
+            "zdroj": "DE substantivum — nýt (kovový kolík)."
+          }
+        ],
+        "en": [
+          {
+            "term": "riveting",
+            "zdroj": "Mezinárodní strojírenský termín."
+          },
+          {
+            "term": "rivet",
+            "zdroj": "EN substantivum — nýt."
+          }
+        ],
+        "fr": [
+          {
+            "term": "rivetage",
+            "genus": "m",
+            "zdroj": "Mezinárodní strojírenský termín."
+          },
+          {
+            "term": "rivet",
+            "genus": "m",
+            "zdroj": "FR substantivum — nýt."
+          }
+        ]
+      },
+      "definice": "Mechanické spojování dvou nebo více dílů pomocí **kovového nýtu** — válcového kolíku, jehož vyčnívající konec se za studena (nebo zahřátý) zpěchuje kladívkem do roztažené hlavičky, čímž díly trvale spojí. V hodinářství se nýty používají u **klečových rámů** (alternativa klínových spojů), pro **přibíjení paliček** k hodinovým strojům, **spojování číselníků s plotnou**, **fixaci ručkové trubky** a v restaurátorské praxi i pro **doplnění chybějících spojů** historických strojů (NPÚ MIS Markvartice 2017: rám klečový, spoje klínové i šroubové — i nýtové u některých variant).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "pajeni",
+        "klecovy-ram",
+        "klin-zapadky"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "oblouk-orloje": {
       "lemma": "oblouk (vobloukek)",
       "lang": "cs",
@@ -6436,6 +6581,88 @@
         "mistr-malych-hodinek"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "pajeni": {
+      "lemma": "pájení",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "pájení",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín pro spojování kovových dílů pomocí roztaveného přídavného kovu (pájky) s nižší teplotou tání než spojované kovy. Špatný 1882 systematicky pokrývá DE rodinu Löth-: pájení (Löthen), spájení (Verlöthen), tvrdé pájení (Hartlöthen), měkké pájení (Weichlöthen).",
+          "doloženo": "Špatný 1882; Hajn 1953"
+        },
+        {
+          "term": "spájení",
+          "status": "preferred",
+          "note": "Špatný 1882: „Löthen spájeti; Löthung f. spájení\". Synonymum k pájení, časté v 19.–20. století (Sušický, Sladkovský)."
+        },
+        {
+          "term": "připájení",
+          "status": "admitted",
+          "note": "Špatný 1882: „Anlöthen připájeti\" — spájení jedné součásti k jiné (např. zub k mosaznému kolu)."
+        },
+        {
+          "term": "zapájení",
+          "status": "admitted",
+          "note": "Špatný 1882: „Verlöthen spájiti, zapájiti\"."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Löthen",
+            "zdroj": "Špatný 1882 (W6VEJ854): „Löthen spájeti.\""
+          },
+          {
+            "term": "Hartlöthen",
+            "note": "DE — tvrdé pájení (stříbrná nebo mosazná pajka, T ≈ 600–900 °C). Špatný: „Hartlöthen spájeti na tvrdo\"."
+          },
+          {
+            "term": "Weichlöthen",
+            "note": "DE — měkké pájení (cínová pajka, T ≈ 180–250 °C). Špatný: „Weichlöthen spájeti na měkko\"."
+          },
+          {
+            "term": "Loth",
+            "genus": "n",
+            "zdroj": "Špatný: „Loth n. pajka\" — substantivum pro pájecí slitinu."
+          }
+        ],
+        "en": [
+          {
+            "term": "soldering",
+            "zdroj": "EN — měkké pájení (T < 450 °C)."
+          },
+          {
+            "term": "brazing",
+            "zdroj": "EN — tvrdé pájení (T > 450 °C, stříbro/mosaz)."
+          }
+        ],
+        "fr": [
+          {
+            "term": "soudure",
+            "genus": "f",
+            "zdroj": "FR — pájení (obecně)."
+          },
+          {
+            "term": "brasage",
+            "genus": "m",
+            "zdroj": "FR — tvrdé pájení (T > 450 °C)."
+          }
+        ]
+      },
+      "definice": "Spojování kovových dílů pomocí roztaveného **přídavného kovu (pajka, pájka)** s **nižší teplotou tání** než spojované materiály. Spoj vzniká **smáčením** pajky o spojované plochy bez roztavení základního kovu. V hodinářství se rozlišuje **tvrdé pájení** (stříbrná nebo mosazná pajka, T ≈ 600–900 °C — pevný spoj odolný teplu) od **měkkého pájení** (cínová pajka, T ≈ 180–250 °C — slabší, ale snadno opravitelný spoj). Špatný 1882 systematicky pokrývá DE rodinu Löth-: Löthen (spájeti), Hartlöthen (na tvrdo), Weichlöthen (na měkko), Loth (pajka), Löthkolben (spájedlo), Löthlampe (lampa k spájení), Löthwasser (vodička k spájení).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "nytovani",
+        "cisteni",
+        "klecovy-ram"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "palec": {
@@ -7068,6 +7295,66 @@
         "rynk"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "popousteni": {
+      "lemma": "popouštění",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "materialy",
+      "varianty": [
+        {
+          "term": "popouštění",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín pro druhou fázi tepelné úpravy oceli — zahřátí zakalené oceli na nižší teplotu (150–650 °C podle požadované tvrdosti) a kontrolované ochlazení. Snižuje křehkost, zachovává většinu tvrdosti.",
+          "doloženo": "Hajn 1953; Bureš 1965"
+        },
+        {
+          "term": "napouštění",
+          "status": "archaic",
+          "note": "Staročes. termín (Špatný 1882: „Anlassen napustiti, napouštění\") pro popouštění — etymologie z DE „anlassen\" (= rozjet, spustit; metaforicky „uvolnit napětí v oceli\").",
+          "doloženo": "Špatný 1882"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Anlassen",
+            "zdroj": "Špatný 1882: „Anlassen napustiti, napouštění\" (W6VEJ854)."
+          },
+          {
+            "term": "Anlauflassen",
+            "note": "DE moderní specifický termín pro popouštění s vědomým vytvořením teplotního oxidu (popouštěcí barvy)."
+          }
+        ],
+        "en": [
+          {
+            "term": "tempering",
+            "zdroj": "Mezinárodní strojírenský termín; Berner FHS."
+          },
+          {
+            "term": "drawing",
+            "zdroj": "EN historický (anglosaská tradice) — synonymum k tempering."
+          }
+        ],
+        "fr": [
+          {
+            "term": "revenu",
+            "genus": "m",
+            "zdroj": "Mezinárodní strojírenský termín."
+          }
+        ]
+      },
+      "definice": "Druhá fáze dvoufázové tepelné úpravy oceli ([kalení](/slovnik/kaleni) → popouštění) — zahřátí již zakalené součásti na **nižší teplotu** (150–650 °C podle požadované konečné tvrdosti) a kontrolované ochlazení. **Snižuje vnitřní napětí a křehkost** vzniklou kalením, zachovává však většinu tvrdosti. V hodinářství je popouštění obzvláště důležité — všechny kalené součásti (palety, čepy, vlásek) musí být popouštěné, jinak by se rozštípaly. Charakteristickým vizuálním znakem popouštěné oceli jsou **popouštěcí barvy** (slámová žlutá → hnědá → fialová → modrá → šedá) podle teploty popuštění.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "kaleni",
+        "paleta",
+        "vlasek",
+        "vocel"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "popud": {
