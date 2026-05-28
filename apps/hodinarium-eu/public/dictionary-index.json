@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generated": "2026-05-28T20:56:58.954Z",
-    "count": 217,
+    "generated": "2026-05-28T23:25:05.699Z",
+    "count": 221,
     "stubs": 75,
     "redirects": 14,
     "withConceptId": 56,
@@ -1595,6 +1595,67 @@
         "supra-orizontem"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "demontaz": {
+      "lemma": "demontáž",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "demontáž",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín pro **rozebrání stroje na jednotlivé díly** za účelem opravy, restaurování nebo přemístění. V Skálových restaurátorských zprávách (2018, 2019, 2021) systematicky používaný.",
+          "doloženo": "Skála 2019 Markvartice; Skála 2018 Pražský orloj"
+        },
+        {
+          "term": "rozebrání",
+          "status": "admitted",
+          "note": "Synonymum pro demontáž — méně technický registr."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Demontage",
+            "genus": "f",
+            "zdroj": "Mezinárodní technický termín (převzato i v DE)."
+          },
+          {
+            "term": "Auseinandernahme",
+            "genus": "f",
+            "zdroj": "DE technický — doslova „rozebrání\"."
+          }
+        ],
+        "en": [
+          {
+            "term": "disassembly",
+            "zdroj": "Mezinárodní technický termín."
+          },
+          {
+            "term": "dismantling",
+            "zdroj": "EN — synonymum, časté v restaurátorském kontextu."
+          }
+        ],
+        "fr": [
+          {
+            "term": "démontage",
+            "genus": "m",
+            "zdroj": "Mezinárodní technický termín."
+          }
+        ]
+      },
+      "definice": "Rozebrání hodinového stroje na jednotlivé díly za účelem opravy, restaurování, přemístění nebo důkladné prohlídky. Standardní první krok každého restaurátorského zásahu — předchází mu **dokumentace stavu před demontáží** (fotograficky, popisně) a po něm následuje [montáž](/slovnik/montaz) po skončení prací. U historických věžních strojů se klečovými rámy (Táborský 1570) vyžaduje znalost klínových spojů.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "montaz",
+        "restaurovani",
+        "konzervace",
+        "klecovy-ram"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "denisonuv-gravitacni-krok": {
@@ -4023,6 +4084,66 @@
       "isStub": false,
       "redirectTo": null
     },
+    "konzervace": {
+      "lemma": "konzervace",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "konzervace",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín — restaurátorská metoda zaměřená na **stabilizaci stavu předmětu bez doplnění nebo obnovy** chybějících částí. Cílem je zastavit degradační procesy a uchovat předmět v současné podobě pro budoucnost.",
+          "doloženo": "Klimszová & Chalupová 2021 (FKR); Masaryková univerzita (konzervátorská zpráva, Úvod do studia dějepisu)"
+        },
+        {
+          "term": "konzervátorský zásah",
+          "status": "preferred"
+        },
+        {
+          "term": "konzervování",
+          "status": "admitted",
+          "note": "Procesuální forma — „konzervování\" = akt konzervace."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Konservierung",
+            "genus": "f",
+            "zdroj": "Komzak 2017 (Uhrenstube Aschau) — užíváno ekvivalentně s Erhaltung."
+          },
+          {
+            "term": "Erhaltung",
+            "genus": "f",
+            "zdroj": "Komzak 2017: „die weitgehende Erhaltung des Originalzustandes\" (cíl konzervace)."
+          }
+        ],
+        "en": [
+          {
+            "term": "conservation",
+            "zdroj": "Mezinárodní ICOM-CC standard."
+          }
+        ],
+        "fr": [
+          {
+            "term": "conservation",
+            "genus": "f",
+            "zdroj": "Mezinárodní ICOM-CC standard."
+          }
+        ]
+      },
+      "definice": "Restaurátorský zásah s cílem **stabilizovat stav předmětu** (zastavit korozi, degradaci, prachové depozity) a **uchovat ho v současné podobě** pro budoucí generace, **bez doplňování ztracených či poškozených částí**. Odlišuje se od [restaurování](/slovnik/restaurovani) (které usiluje o návrat k originální podobě se zachováním autenticity, případně s doplněním). V hodinářské praxi často součást širšího restaurátorského zásahu (konzervace originálních dílů + restaurování celku).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "restaurovani",
+        "cisteni",
+        "demontaz"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "korunka": {
       "lemma": "korunka",
       "lang": "cs",
@@ -5655,6 +5776,71 @@
         "zpravce-orloje"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "montaz": {
+      "lemma": "montáž",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "montáž",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín pro **zpětné složení** stroje po demontáži a opravě. Standardní závěrečný krok restaurátorského zásahu před zkušebním chodem a finální regulací.",
+          "doloženo": "Skála 2019, 2018; Bureš 1965 (kap. 6 Montáž a regulace strojů)"
+        },
+        {
+          "term": "sestavení",
+          "status": "admitted",
+          "note": "Synonymum — méně technický registr."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Montage",
+            "genus": "f",
+            "zdroj": "Mezinárodní technický termín; Špatný 1882 nepokrývá (moderní pojem)."
+          },
+          {
+            "term": "Zusammenbau",
+            "genus": "m",
+            "zdroj": "DE — doslova „spojení dohromady\"."
+          }
+        ],
+        "en": [
+          {
+            "term": "assembly",
+            "zdroj": "Mezinárodní technický termín."
+          },
+          {
+            "term": "reassembly",
+            "zdroj": "EN — specificky pro montáž po demontáži (re-assembly)."
+          }
+        ],
+        "fr": [
+          {
+            "term": "montage",
+            "genus": "m",
+            "zdroj": "Mezinárodní technický termín."
+          },
+          {
+            "term": "remontage",
+            "genus": "m",
+            "zdroj": "FR — specificky pro zpětnou montáž; pozor na homonymii s remontoirem (natahování)."
+          }
+        ]
+      },
+      "definice": "Zpětné složení hodinového stroje po [demontáži](/slovnik/demontaz) a opravě jednotlivých dílů. Standardní závěrečný krok restaurátorského zásahu — předchází mu opravená a očištěná sada dílů, následuje **zkušební chod** (typicky 14 dnů na verandě) a **finální regulace** chodu hodin. U historických strojů vyžaduje znalost originálního uspořádání (klínové spoje, polohy paliček, smysl otáčení kol).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "demontaz",
+        "restaurovani",
+        "regulace"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "motus-naturalis": {
@@ -7508,6 +7694,67 @@
         "pero",
         "perovnik",
         "zavazi"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "restaurovani": {
+      "lemma": "restaurování",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "restaurování",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín, kanonizovaný restaurátorským právem (Zákon č. 20/1987 Sb., o státní památkové péči, § 14a). Označuje **návrat předmětu k jeho originální podobě** se zachováním autenticity; oproti [konzervaci](/slovnik/konzervace), která usiluje pouze o zachování stavu.",
+          "doloženo": "Klimszová & Chalupová 2021 (FKR); Skála 2018, 2019, 2021 (restaurátorské zprávy)"
+        },
+        {
+          "term": "restaurátorský zásah",
+          "status": "preferred",
+          "note": "Konkrétní akt restaurování. Skála 2018: „Restaurátorský záměr na restaurování orloje a hodin na věži radnice…\""
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Restaurierung",
+            "genus": "f",
+            "zdroj": "Komzak 2017 (Uhrenstube Aschau): „Ziel der Restaurierung und Instandsetzung der Uhren ist… die weitgehende Erhaltung des Originalzustandes.\""
+          },
+          {
+            "term": "Instandsetzung",
+            "genus": "f",
+            "note": "DE pro „uvedení do funkčního stavu\" — užší než restaurování (zahrnuje i rekonstrukci chybějících částí)."
+          }
+        ],
+        "en": [
+          {
+            "term": "restoration",
+            "zdroj": "Klimszová & Chalupová 2021, abstract: „RESTORATION OF THE MODEL OF THE OLOMOUC ASTRONOMICAL CLOCK\""
+          },
+          {
+            "term": "conservation-restoration",
+            "note": "Mezinárodní ICOM-CC termín pro disciplínu jako celek (zahrnuje konzervaci i restaurování)."
+          }
+        ],
+        "fr": [
+          {
+            "term": "restauration",
+            "genus": "f",
+            "zdroj": "Mezinárodní odborný úzus (Berner FHS, ICOM-CC)."
+          }
+        ]
+      },
+      "definice": "Restaurátorský zásah s cílem **návratu předmětu k jeho originální podobě** za maximálního zachování autenticity (Klimszová & Chalupová 2021). U historických hodin a orlojů restaurování zahrnuje: očištění od pozdějších nátěrů a depozitů, opravu mechanických závad, doplnění chybějících či poškozených dílů (přičemž originál se zachovává), zkušební chod a finální seřízení. **Odlišuje se od [konzervace](/slovnik/konzervace)** (která usiluje pouze o zachování stavu bez doplnění) a od **rekonstrukce** (která vytváří kopii ztracené části).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "konzervace",
+        "cisteni",
+        "demontaz",
+        "montaz"
       ],
       "isStub": false,
       "redirectTo": null
