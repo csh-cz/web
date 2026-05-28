@@ -18,10 +18,13 @@ prekladyFr:
 varianty:
   - ukazovací stroj
   - ukazovací soukolí
-definice: "**Vedlejší soukolí**, které z hlavní hřídele [jicího stroje](/slovnik/stroj-podsestava) odebírá pohyb a převádí ho na **otáčení ručiček (rafií) číselníku** s vhodným redukčním převodem (typicky 1:12 mezi minutovou a hodinovou ručkou). U věžních hodin převádí pohyb mechanicky přes řadu kol a hřídelí k jednomu nebo více číselníkům umístěným v různých stranách věže."
+definice: "**Vedlejší soukolí**, které z hlavní hřídele [jicího stroje](/slovnik/jici-stroj) odebírá pohyb a převádí ho na **otáčení ručiček (rafií) číselníku** s vhodným redukčním převodem (typicky 1:12 mezi minutovou a hodinovou ručkou). U věžních hodin převádí pohyb mechanicky přes řadu kol a hřídelí k jednomu nebo více číselníkům umístěným v různých stranách věže. Pro užší koncept jen redukce minut na hodiny viz [ručkové soukolí](/slovnik/ruckove-soukoli); pro rozšířený astronomický kontext (orloje) viz [astronomické soukolí](/slovnik/astronomicke-soukoli)."
 pribuzne:
   - kralovska-hridel
   - soukoli
+  - ruckove-soukoli
+  - astronomicke-soukoli
+  - jici-stroj
   - hridelik-orloje
   - ramenko
   - kolo-zaverkove
