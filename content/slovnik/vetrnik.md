@@ -1,28 +1,44 @@
 ---
 title: větrník
 slug: vetrnik
+conceptId: HORO-FLY-001
 kategorie: bici
+varianty:
+  - term: větrník
+    status: preferred
+    note: 'Primární cs odborný termín (Sladkovský 1947, Bureš 1965, Martínek–Řehoř 1964, Skála 2013+). Pozor: ne „větřík" (= vánek). Větrník je **vzduchová brzda** s lopatkami.'
+    doloženo: 'Sladkovský 1947; Bureš 1965; Martínek–Řehoř 1964'
+  - term: větrober
+    status: archaic
+    note: 'Špatný 1882 doložil paralelně s „větrníkem" jako synonymum (Windfang → větrník, větrober; Windfangsflügel → křídlo větroberu). Dnes ustoupil.'
+    doloženo: 'Špatný 1882'
 prekladyDe:
   - term: Windfang
     genus: m
-    zdroj: "Špatný 1882: Windfang → větrník, větrober"
+    zdroj: 'Berner; Špatný 1882 (Windfang → větrník, větrober)'
+  - term: Windflügel
+    genus: m
+    zdroj: 'Špatný 1882 (Windfangsflügel → křídlo větroberu)'
 prekladyEn:
   - term: fly
+    zdroj: 'Berner — standardní termín'
   - term: fan-fly
   - term: fly governor
 prekladyFr:
   - term: volant
     genus: m
+    zdroj: 'Berner — standardní FR termín'
   - term: volant régulateur
     genus: m
-varianty:
-  - větrník
-  - "větrober** (Špatný 1882"
-  - archaicky)
-definice: "Lopatkovité kolo (obvykle dvoukřídlé) na konci soukolí bicího stroje, jehož vzdušný odpor brzdí rychlost otáčení a tím **reguluje rychlost úderů kladívka**."
+definice: 'Lopatkovité kolo (obvykle dvoukřídlé) na konci [soukolí](/slovnik/soukoli) [bicího stroje](/slovnik/bici-stroj), [zvonicího stroje](/slovnik/zvonici-stroj) nebo [apoštolského stroje](/slovnik/apostolsky-stroj), jehož **aerodynamický odpor** brzdí rychlost otáčení a tím **reguluje rychlost úderů kladívka**. **Není měřicí součást** — neudává čas, ale moderuje rychlost.'
 pribuzne:
   - bici-stroj
+  - zvonici-stroj
+  - apostolsky-stroj
+  - nabezne-kolo
+  - kladivko
   - kotva
+  - pastorek-vetrniku
 ---
 
 ## Výklad
