@@ -22,7 +22,7 @@ varianty:
 prekladyDe:
   - term: Zeigerwerk
     genus: n
-    zdroj: 'Berner; Špatný 1882 (Zeigerwerk → ručičkový stroj, rafičkový stroj)'
+    zdroj: 'Berner *Zeigerwerk* (ID 2218): „In der Uhr das Räderwerk, das unter dem Zifferblatt angeordnet ist und die Drehung des Minutenzeigers auf den Stundenzeiger überträgt." Doslovné mapování Zeigerwerk = minuterie = motion work. Špatný 1882: Zeigerwerk → ručičkový/rafičkový stroj.'
 prekladyEn:
   - term: motion work
     zdroj: 'Berner, *Illustrated Professional Dictionary of Horology* (heslo „mobile": „motion work: cannon pinion, minute wheel and pinion, and hour wheel")'
@@ -57,9 +57,13 @@ references:
     pages: '75, kap. 6, obr. 66–68'
     zoteroKey: LXZWE6KE
   - key: berner-mobile
-    title: 'Berner — heslo „mobile"'
-    citace: 'motion work: cannon pinion, minute wheel and pinion, and hour wheel.'
-    note: 'dictionary.fhs.swiss (ID 2228)'
+    title: 'Berner — heslo „mobile" / „Drehteil"'
+    citace: 'motion work: cannon pinion, minute wheel and pinion, and hour wheel. (DE: Zeigerwerkorgane: Minutenrohr, Wechselrad und -trieb, Stundenrad.)'
+    note: 'dictionary.fhs.swiss (ID 2228) — totožná trojice komponent jako Martínek-Řehoř 1964 kap. 6.'
+  - key: berner-zeigerwerk
+    title: 'Berner — heslo „Zeigerwerk"'
+    citace: 'Zeigerwerk n. minuterie n. f. motion work n. In der Uhr das Räderwerk, das unter dem Zifferblatt angeordnet ist und die Drehung des Minutenzeigers auf den Stundenzeiger überträgt.'
+    note: 'dictionary.fhs.swiss (ID 2218) — explicitní mapování DE Zeigerwerk ↔ FR minuterie ↔ EN motion work. POZOR: Berner Zeigerwerk je užší termín než cs „ukazovací stroj" (= věžní distribuční ústrojí).'
 ---
 
 ## Výklad
@@ -115,4 +119,8 @@ Detail viz [minutová trubka](/slovnik/minutova-trubka).
 > — MARTÍNEK, Bohumil – ŘEHOŘ, Jaroslav. *Základy hodinářství.* SNTL, Praha 1964, s. 75, kap. 6, obr. 66–68.
 
 > „**motion work**: cannon pinion, minute wheel and pinion, and hour wheel."
-> — BERNER, G.-A. *Illustrated Professional Dictionary of Horology.* Federation of the Swiss Watch Industry (FH). Online: dictionary.fhs.swiss (heslo „mobile" ID 2228).
+> *DE: „**Zeigerwerkorgane**: Minutenrohr, Wechselrad und -trieb, Stundenrad."*
+> — BERNER, G.-A. *Illustrated Professional Dictionary of Horology.* Federation of the Swiss Watch Industry (FH). Online: dictionary.fhs.swiss (heslo „mobile / Drehteil" ID 2228) — totožná trojice komponent jako Martínek-Řehoř 1964 kap. 6.
+
+> „**Zeigerwerk** n. **minuterie** n. f. **motion work** n. In der Uhr das **Räderwerk, das unter dem Zifferblatt angeordnet ist und die Drehung des Minutenzeigers auf den Stundenzeiger überträgt**."
+> — BERNER, G.-A. *Illustriertes Fachlexikon der Uhrmacherei.* Federation of the Swiss Watch Industry (FH). Online: dictionary.fhs.swiss (heslo „Zeigerwerk" ID 2218) — explicitní mapování DE Zeigerwerk ↔ FR minuterie ↔ EN motion work. **POZOR**: Berner *Zeigerwerk* je užší termín než cs „[ukazovací stroj](/slovnik/ukazovaci-stroj)" (= věžní distribuční ústrojí).

@@ -3,22 +3,27 @@ title: ukazovací stroj
 slug: ukazovaci-stroj
 kategorie: mechanika
 prekladyDe:
-  - term: Anzeigewerk
-    genus: n
-  - term: Zeigerwerk
-    genus: n
+  - term: Räderwerk unter dem Zifferblatt
+    note: 'Popisná forma — DE nemá kanonický termín pro „ukazovací stroj" jako celek u věžních hodin. Berner *Zeigerwerk* je v úzkém významu motion work (= naše [ručkové soukolí](/slovnik/ruckove-soukoli)), nikoli věžní distribuční ústrojí.'
+    zdroj: 'Berner def. „Zeigerwerk" ID 2218 (definuje úzce jako motion work)'
 prekladyEn:
-  - term: motion work
   - term: indication train
+    note: 'EN nemá kanonický Berner termín; používá se popisně. Berner *motion work* = úzce ručkové soukolí.'
+  - term: cadrature
+    note: 'V EN/FR užíváno pro celý mechanismus za číselníkem včetně komplikací.'
 prekladyFr:
   - term: rouage de cadrature
     genus: m
   - term: cadrature
     genus: f
+    note: 'Berner: celý mechanismus za číselníkem.'
 varianty:
-  - ukazovací stroj
-  - ukazovací soukolí
-definice: "**Vedlejší soukolí**, které z hlavní hřídele [jicího stroje](/slovnik/jici-stroj) odebírá pohyb a převádí ho na **otáčení ručiček (rafií) číselníku** s vhodným redukčním převodem (typicky 1:12 mezi minutovou a hodinovou ručkou). U věžních hodin převádí pohyb mechanicky přes řadu kol a hřídelí k jednomu nebo více číselníkům umístěným v různých stranách věže. Pro užší koncept jen redukce minut na hodiny viz [ručkové soukolí](/slovnik/ruckove-soukoli); pro rozšířený astronomický kontext (orloje) viz [astronomické soukolí](/slovnik/astronomicke-soukoli)."
+  - term: ukazovací stroj
+    status: preferred
+    note: 'Doloženo Skálou 2018, 2019, 2021 v restaurátorských zprávách.'
+  - term: ukazovací soukolí
+    status: preferred
+definice: "**Vedlejší soukolí**, které z hlavní hřídele [jicího stroje](/slovnik/jici-stroj) odebírá pohyb a převádí ho na **otáčení ručiček (rafií) číselníku** s vhodným redukčním převodem (typicky 1:12 mezi minutovou a hodinovou ručkou). U věžních hodin převádí pohyb mechanicky přes řadu kol a hřídelí k jednomu nebo více číselníkům umístěným v různých stranách věže. Pro užší koncept jen redukce minut na hodiny viz [ručkové soukolí](/slovnik/ruckove-soukoli); pro rozšířený astronomický kontext (orloje) viz [astronomické soukolí](/slovnik/astronomicke-soukoli). **Pozor:** DE *Zeigerwerk* je užší termín — odpovídá pouze ručkovému soukolí (motion work), nikoli plnému věžnímu ukazovacímu stroji."
 pribuzne:
   - kralovska-hridel
   - soukoli
