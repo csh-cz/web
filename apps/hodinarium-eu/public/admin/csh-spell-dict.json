@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-27T23:48:23.169Z",
+  "generatedAt": "2026-05-28T04:03:17.584Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
-    "slovnik": 200,
+    "slovnik": 199,
     "hodinari": 170,
     "hodinariTs": 170,
     "soupis": 443
