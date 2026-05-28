@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generated": "2026-05-28T23:30:36.563Z",
-    "count": 225,
+    "generated": "2026-05-28T23:36:09.134Z",
+    "count": 229,
     "stubs": 75,
     "redirects": 14,
     "withConceptId": 56,
@@ -1225,6 +1225,66 @@
         "ruka-orloje",
         "rafije",
         "cifernik"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "cisteni": {
+      "lemma": "čištění",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "čištění",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín. Špatný 1882 systematicky pokrývá: „Reinigen čistiti, ciditi; Reinigung f. čistění, cídění; R. der Uhr č. hodin.\" Klíčový restaurátorský úkon — typicky první krok po [demontáži](/slovnik/demontaz).",
+          "doloženo": "Špatný 1882; Boukal 1958 Opravy hodinek; Skála 2019 Markvartice"
+        },
+        {
+          "term": "cídění",
+          "status": "archaic",
+          "note": "Synonymum (Špatný 1882: „Reinigung f. čistění, cídění\"). Etymologie z „cídit\" (= leštit, čistit kovy). V moderní cs hodinářské literatuře ustoupilo „čištění\"."
+        },
+        {
+          "term": "očištění",
+          "status": "preferred",
+          "note": "Procesuální forma — akt čištění (Skála 2019: „Důkladné očištění od nátěrů a poté nitroředidlem\")."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Reinigen",
+            "zdroj": "Špatný 1882 (W6VEJ854): „Reinigen čistiti, ciditi.\""
+          },
+          {
+            "term": "Reinigung",
+            "genus": "f",
+            "zdroj": "Špatný 1882: „Reinigung f. čistění, cídění; R. der Uhr č. hodin.\""
+          }
+        ],
+        "en": [
+          {
+            "term": "cleaning",
+            "zdroj": "Mezinárodní termín (Berner FHS)."
+          }
+        ],
+        "fr": [
+          {
+            "term": "nettoyage",
+            "genus": "m",
+            "zdroj": "Mezinárodní termín (Berner FHS)."
+          }
+        ]
+      },
+      "definice": "Restaurátorský a údržbový úkon — odstranění **nečistot, prachového depozitu, koroze, pozdějších nátěrů, ztuhlého oleje a mastnoty** z povrchů hodinového stroje. **Typicky první krok** restaurátorského zásahu po [demontáži](/slovnik/demontaz) (Skála 2019). Špatný 1882 zavádí specifickou frázi „**Reinigung der Uhr — čistění hodin**\" jako vžitý hodinářský úkon. V moderním restaurátorství zahrnuje mechanické (kartáčování, oklepávání), chemické (rozpouštědla, ultrazvuková lázeň) i jemnější metody (paprsek demineralizované vody, mikrokuličkování křemičitým pískem).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "demontaz",
+        "restaurovani",
+        "konzervace"
       ],
       "isStub": false,
       "redirectTo": null
@@ -7572,6 +7632,73 @@
       "isStub": false,
       "redirectTo": null
     },
+    "pozlaceni": {
+      "lemma": "pozlacení",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "pozlacení",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín pro nanesení tenké vrstvy zlata na povrch jiného kovu (mosaz, měď, stříbro) — pro estetické nebo ochranné účely. Špatný 1882: „Vergolden zlatili, pozlatití; Vergoldung f. pozlacení, zlacení; galvanische Vergoldung galvanické pozlacení.\"",
+          "doloženo": "Špatný 1882; Skála (restaurátorské zprávy 2018, 2019, 2021)"
+        },
+        {
+          "term": "zlacení",
+          "status": "admitted",
+          "note": "Synonymum (Špatný 1882: „Vergoldung f. pozlacení, zlacení\"). Procesuálnější forma."
+        },
+        {
+          "term": "galvanické pozlacení",
+          "status": "preferred",
+          "note": "Špatný 1882: „galvanische Vergoldung galvanické pozlacení\" — moderní metoda od 19. století (Elkington 1840), elektrochemické nanášení zlata."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Vergolden",
+            "zdroj": "Špatný 1882 (W6VEJ854): „Vergolden zlatili, pozlatití.\""
+          },
+          {
+            "term": "Vergoldung",
+            "genus": "f",
+            "zdroj": "Špatný 1882: „Vergoldung f. pozlacení, zlacení.\""
+          },
+          {
+            "term": "galvanische Vergoldung",
+            "note": "Galvanické pozlacení — elektrochemická metoda."
+          }
+        ],
+        "en": [
+          {
+            "term": "gilding",
+            "zdroj": "Mezinárodní restaurátorský termín."
+          },
+          {
+            "term": "gold plating",
+            "zdroj": "EN pro galvanické pozlacení."
+          }
+        ],
+        "fr": [
+          {
+            "term": "dorure",
+            "genus": "f",
+            "zdroj": "Mezinárodní restaurátorský termín."
+          }
+        ]
+      },
+      "definice": "Nanesení tenké vrstvy zlata na povrch jiného kovu (mosaz, měď, stříbro, ocel) — pro estetické nebo ochranné účely. V hodinářství se pozlacuje **astroláb a indikátory** orlojů (Pražský orloj, Olomoucký orloj), **sluneční a měsíční ručka** (Táborský 1570: „vsazená jest ruka pozlacená\"), **číselníky** kvalitních hodinek a **dekorativní prvky pouzder**. Historicky se používala technologie **ohnivého pozlacení** (amalgam zlata se rtutí, vypaří se zahřátím — toxické, zakázané od 20. století); moderní standard je **galvanické pozlacení** (Špatný 1882: „galvanische Vergoldung\"), které využívá elektrochemické nanášení v lázni se zlatým elektrolytem.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "ruka-orloje",
+        "cisteni"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
     "pravidlo-orloje": {
       "lemma": "pravidlo (orlojní)",
       "lang": "cs",
@@ -9097,6 +9224,70 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "soustruzeni": {
+      "lemma": "soustružení",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "soustružení",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín pro **třískové obrábění rotačních součástí** na soustruhu — díl rotuje, nůž (želízko) odebírá materiál. Špatný 1882 systematicky pokrývá DE rodinu Dreh-: Drehbank (soustruh), Drehen (točení), Drechselabfälle (soustružky).",
+          "doloženo": "Špatný 1882; Hajn 1953; Boukal 1958; Vajsar 2005 (Prim)"
+        },
+        {
+          "term": "točení",
+          "status": "archaic",
+          "note": "Špatný 1882: „Drehen točití; das Drehen točení\". Synonymum k soustružení v 19. století — etymologie z DE „drehen\" (= točit). V moderní cs hodinářské literatuře nahrazeno přesnějším „soustružení\"."
+        },
+        {
+          "term": "soustružky",
+          "status": "admitted",
+          "note": "Špatný 1882: „Drehspäne soustružky, okružky, ostružky, odstružky, struhovačky\" — drobné kovové třísky (špony) odebrané při soustružení."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Drehen",
+            "zdroj": "Špatný 1882 (W6VEJ854): „Drehen točití; das Drehen točení.\""
+          },
+          {
+            "term": "Drehbank",
+            "genus": "f",
+            "note": "Špatný 1882: „Drehbank ť. velký soustruh\" — soustruh jako stroj."
+          }
+        ],
+        "en": [
+          {
+            "term": "turning",
+            "zdroj": "Mezinárodní strojírenský termín."
+          },
+          {
+            "term": "lathing",
+            "zdroj": "EN — méně časté, ale doložené."
+          }
+        ],
+        "fr": [
+          {
+            "term": "tournage",
+            "genus": "m",
+            "zdroj": "Mezinárodní strojírenský termín."
+          }
+        ]
+      },
+      "definice": "Třískové obrábění rotačních součástí na **soustruhu** (Drehbank) — díl rotuje, nůž („želízko soustružní\" — Špatný 1882) odebírá materiál a vytváří **válcové, kuželové a tvarové plochy**. Klíčová technologie pro výrobu hodinářských hřídelí, čepů, pouzder a všech rotačně symetrických komponent. V hodinářské praxi se používá specifický **hodinářský soustruh** (Uhrmacher-Drehbank) s vysokou přesností a malými otáčkami. Špatný 1882 systematicky pokrývá DE rodinu Dreh-: Drehbank (soustruh), Drehen (točení), Dreheisen (želízko), Drehspäne (soustružky), Drehspitze (špička soustružní), Drehbankspindel (vřeteno soustruhu).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hridel",
+        "hridelik-orloje",
+        "pastorek"
+      ],
       "isStub": false,
       "redirectTo": null
     },
@@ -11793,6 +11984,61 @@
         "pocetnik"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "zaskleni": {
+      "lemma": "zasklení",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "profese",
+      "varianty": [
+        {
+          "term": "zasklení",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín pro **nasazení skleněné výplně** do skříně hodin (typicky kolem číselníku nebo víka pouzdra). Špatný 1882 specificky pokrývá: „Verglasen zasklili; Verglasung des Uhrkastens zasklení skříně na hodiny.\"",
+          "doloženo": "Špatný 1882"
+        },
+        {
+          "term": "prosklení",
+          "status": "admitted",
+          "note": "Synonymum — méně technický registr."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Verglasen",
+            "zdroj": "Špatný 1882 (W6VEJ854): „Verglasen zasklili; Verglast zasklený.\""
+          },
+          {
+            "term": "Verglasung",
+            "genus": "f",
+            "zdroj": "Špatný 1882: „Verglasung f. zasklení; Verglasung des Uhrkastens zasklení skříně na hodiny.\""
+          }
+        ],
+        "en": [
+          {
+            "term": "glazing",
+            "zdroj": "Mezinárodní termín."
+          }
+        ],
+        "fr": [
+          {
+            "term": "vitrage",
+            "genus": "m",
+            "zdroj": "Mezinárodní termín."
+          }
+        ]
+      },
+      "definice": "Nasazení **skleněné výplně** do skříně hodin — typicky kolem **číselníku** (ochranný kruhový plát před ručkami), do **dvířek pouzdra** (přední či zadní okna stojacích hodin), nebo do **víka kapesního nebo náramkového pouzdra** (sklíčko). Špatný 1882 specificky pokrývá tuto restaurátorskou/výrobní operaci jako „**Verglasung des Uhrkastens — zasklení skříně na hodiny**\". V restaurátorské praxi je zasklení častou součástí oprav historických hodin (rozbité sklíčko, prasklý kryt číselníku); důležitá je volba **vhodného typu skla** podle stáří originálu.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "sklicko",
+        "pouzdro",
+        "ciselnik"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "zavazi": {
