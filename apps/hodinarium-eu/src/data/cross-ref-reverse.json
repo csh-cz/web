@@ -1725,7 +1725,9 @@
       "slovnik": [
         "barokni-ciselnik",
         "cifernik",
+        "citelnost-ciselniku",
         "kralovska-hridel",
+        "osvetleni-ciselniku",
         "ruka-orloje",
         "zaskleni"
       ]
@@ -2307,6 +2309,7 @@
         "barokni-ciselnik",
         "cifernik",
         "ciselnik",
+        "citelnost-ciselniku",
         "pozlaceni",
         "pravidlo-orloje",
         "rafije",
@@ -2564,6 +2567,12 @@
         "cisteni",
         "demontaz",
         "restaurovani"
+      ]
+    },
+    "barokni-ciselnik": {
+      "slovnik": [
+        "citelnost-ciselniku",
+        "osvetleni-ciselniku"
       ]
     },
     "hruden": {

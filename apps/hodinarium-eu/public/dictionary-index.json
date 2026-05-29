@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generated": "2026-05-29T10:05:11.421Z",
-    "count": 234,
+    "generated": "2026-05-29T21:01:17.577Z",
+    "count": 236,
     "stubs": 75,
     "redirects": 15,
     "withConceptId": 56,
@@ -1466,6 +1466,66 @@
         "demontaz",
         "restaurovani",
         "konzervace"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "citelnost-ciselniku": {
+      "lemma": "čitelnost číselníku",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "čitelnost číselníku",
+          "status": "preferred",
+          "note": "Souhrnný cs odborný termín pro **návrhovou kvalitu** ciferníku, která určuje, jak rychle a spolehlivě pozorovatel odečte čas. Klíčové parametry: rozeznatelnost ručiček (tvar, plocha, kontrast), čitelnost číslic (typografie, mezery, materiál povrchu), kontrast pozadí.",
+          "doloženo": "Božek 1859, 1893, 1894; Benson 1863; Skála 2005; Havrnek 2009"
+        },
+        {
+          "term": "design ciferníku",
+          "status": "admitted",
+          "note": "Moderní designérský termín — Havrnek 2009 (diplomová práce ČVUT FS) má samostatnou kapitolu *Sdělovače* o ergonomii ciferníku."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Lesbarkeit des Zifferblatts",
+            "genus": "f",
+            "zdroj": "DE doslovný — „čitelnost ciferníku\"."
+          },
+          {
+            "term": "Zifferblatt-Gestaltung",
+            "genus": "f",
+            "zdroj": "DE — návrh ciferníku."
+          }
+        ],
+        "en": [
+          {
+            "term": "dial legibility",
+            "zdroj": "EN technický termín (Benson 1863)."
+          },
+          {
+            "term": "dial design",
+            "zdroj": "EN — design ciferníku jako celku."
+          }
+        ],
+        "fr": [
+          {
+            "term": "lisibilité du cadran",
+            "genus": "f",
+            "zdroj": "FR — Janvier 1811."
+          }
+        ]
+      },
+      "definice": "Návrhová kvalita číselníku, která určuje **jak rychle a spolehlivě pozorovatel odečte čas**. Klíčové parametry: (1) **rozeznatelnost ručiček** — tvar, plocha, kontrast; (2) **čitelnost číslic** — typografie, mezery, materiál povrchu; (3) **kontrast pozadí** — barva ciferníku vůči číslicím a ručkám; (4) **pozorovací vzdálenost** — věžní 20–100 m vs interiérové 0,5–3 m. Téma je v cs literatuře pokryté zejména **Romualdem Božkem** (1859, 1893, 1894 — průkopnické formulace), **Petr Skálou** (2005 — pravidla rozpoznání ručiček na věžních ciferníkách) a **Jakubem Havrnkem** (2009, diplomová práce ČVUT FS — moderní designérský pohled). V mezinárodní literatuře: **J. W. Benson** (1863, britská tradice), **A.-L. Janvier** (1811, FR venkov), **Romuald Božek** v paralelě s Benson 1863 formuluje stejné zásady.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "ciselnik",
+        "barokni-ciselnik",
+        "ruka-orloje"
       ],
       "isStub": false,
       "redirectTo": null
@@ -6928,6 +6988,88 @@
         "mistr-malych-hodinek"
       ],
       "isStub": true,
+      "redirectTo": null
+    },
+    "osvetleni-ciselniku": {
+      "lemma": "osvětlení číselníku",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "osvětlení číselníku",
+          "status": "preferred",
+          "note": "Souhrnný cs odborný termín pro **technologii noční čitelnosti** věžních a veřejných hodin. Zahrnuje **vnější osvětlení** (reflektory) a **vnitřní osvětlení** (průsvitné číselníky se světelným zdrojem zezadu).",
+          "doloženo": "Knespl 2018 (Prokeš); článek *Svítící hodiny*"
+        },
+        {
+          "term": "podsvícení číselníku",
+          "status": "preferred",
+          "note": "Specifický termín pro vnitřní osvětlení průsvitného číselníku (lit-from-behind). Etymologicky kalk z DE *Hinterleuchtung*."
+        },
+        {
+          "term": "prosvětlení číselníku",
+          "status": "admitted",
+          "note": "Synonymum k podsvícení."
+        },
+        {
+          "term": "průsvitný číselník",
+          "status": "preferred",
+          "note": "Označuje **konstrukční typ** — číselník z opálového / matového skla, který propouští světlo zezadu. Hainz 1865/66, Pražský orloj."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Zifferblattbeleuchtung",
+            "genus": "f",
+            "zdroj": "DE moderní souhrnný termín."
+          },
+          {
+            "term": "Hinterleuchtung",
+            "genus": "f",
+            "zdroj": "DE specificky pro vnitřní podsvícení."
+          },
+          {
+            "term": "durchscheinendes Zifferblatt",
+            "note": "DE — „průsvitný číselník\" (Hainz 1865/66)."
+          }
+        ],
+        "en": [
+          {
+            "term": "dial illumination",
+            "zdroj": "EN technický termín."
+          },
+          {
+            "term": "lit-from-behind dial",
+            "zdroj": "EN pro vnitřní podsvícení."
+          },
+          {
+            "term": "translucent dial",
+            "zdroj": "EN — průsvitný číselník."
+          }
+        ],
+        "fr": [
+          {
+            "term": "éclairage du cadran",
+            "genus": "m",
+            "zdroj": "FR souhrnný termín."
+          },
+          {
+            "term": "cadran translucide",
+            "genus": "m",
+            "zdroj": "FR — průsvitný číselník."
+          }
+        ]
+      },
+      "definice": "Technologie noční čitelnosti věžních a veřejných hodin. **Vnější osvětlení** — reflektory osvětlující neprůhledný číselník zvenčí (klasické). **Vnitřní osvětlení (podsvícení)** — průsvitný číselník (opálové, matové nebo leptané sklo), za nímž je umístěn světelný zdroj (plyn, žárovka, LED). Motivováno **noční čitelností** veřejných hodin od 2. poloviny 19. století (Big Ben 1854, Sobotka 1860 Prokeš jako první v Rakousku, Pražský orloj 1865/66 Hainz). **Krečmerův plynový automat** (1883, Staroměstská vodárna) — vrchol cs hodinářské automatizace 19. století: efemeridní ovládání plynového osvětlení podle skutečného východu/západu slunce, 10 230 operací ročně.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "ciselnik",
+        "barokni-ciselnik"
+      ],
+      "isStub": false,
       "redirectTo": null
     },
     "pajeni": {

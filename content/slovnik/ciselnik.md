@@ -412,71 +412,13 @@ U běžných věžních hodin bývá **hodinová ručička robustnější a orna
 
 **Současný stav historických číselníků:** často přepalované, opakovaně přemalovávané, ručky zkorodované. NPÚ Jičín konstatuje: „dožilé jsou pouze ciferníky" — tj. stroj zachován, ale číselníky vyžadují restaurátorský zásah. Při restaurování se preferuje **návrat k původnímu schématu** (Hrádek nad Nisou 2006–2018: čtyři číselníky „nově natřeny a opatřeny římskými číslicemi dle původního vzoru").
 
-## Osvětlení číselníku
+## Osvětlení číselníku — krátké shrnutí
 
-Podsvícení (lit-from-behind, dial illumination) je technika ze 2. poloviny 19. století, motivovaná **noční čitelností** veřejných hodin. Plný přehled způsobů osvětlení v článku [Svítící hodiny](/zajimavosti/svitici).
+> **Plné heslo:** [osvětlení číselníku](/slovnik/osvetleni-ciselniku) — kompletní chronologie podsvícených číselníků (Big Ben 1854, Prokeš Sobotka 1860, Hainz Pražský orloj 1865/66, Krečmer efemeridní automat 1883), typologie způsobů osvětlení, ovládání
 
-### Chronologie raných podsvícených věžních číselníků
+**Podsvícení** (lit-from-behind, DE *Hinterleuchtung*) je technika ze 2. poloviny 19. století, motivovaná **noční čitelností** veřejných hodin. **Jan Prokeš** v Sobotce 1860 — „údajně jako první v Rakousku" (Knespl 2018). **Ludvík Hainz** na Pražském orloji 1865/66 (návrh už od 1856). **Václav Krečmer** 1883 — efemeridní plynový automat (vodárenská věž, 10 230 operací ročně) byl **unikátní v Evropě**.
 
-| Rok | Lokalita | Autor | Provedení |
-|---|---|---|---|
-| **1854** | Big Ben, Westminsterské opatství (Londýn) | August Pugin (návrh ciferníku) | **312 ks opálového skla** v kovové konstrukci |
-| **1860** | **Sobotka — radniční věž** | Jan Prokeš (Sobotka) | „**Údajně jako první v Rakousku**" — průsvitný podsvícený číselník (Knespl 2018) |
-| **1865/66** | **Pražský orloj** — boční číselníky | **Ludvík Hainz** (Praha) | Průsvitné ciferníky, plynové hořáky zezadu; **Hainz se přimlouval o osvětlení už od 1856** |
-| **1866** | **Pražský orloj** — automatizace zapalování | **Václav Krečmer** (Praha) | Jednodušší plynový automat na orloji (sám Krečmer 1883 označoval za „pouhý experiment") |
-| **1883** | **Staroměstská vodárna** — Krečmerův hodinový stroj | **Václav Krečmer** | **Efemeridní plynový automat** — 10 230 operací ročně, zhasínal/zapínal plyn podle skutečného východu/západu slunce (unikátní v Evropě) |
-| **30. léta 20. st.** | Textilana Liberec — štítové hodiny | Siemens-Halske | Malba a nástřik na skle, prosvětlení systémem **Siemens-Schuckert** |
-
-**Prokeš v Sobotce 1860** je pozoruhodný — předbíhá pražskou aplikaci 1865/66 o 5 let:
-
-> „Na soboteckou radniční věž umístil **roku 1860, údajně jako první v Rakousku**, hodiny
-> s průsvitným podsvíceným číselníkem, aby vážení měšťané viděli, v kolik jdou z hospody domů."
-> — KNESPL, David. *Jan Prokeš, hodinář ze Sobotky. 200 let od narození.* 2018.
-
-**Pražský orloj 1865/66** — **Ludvík Hainz** (1814–1898), pražský hodinář, byl autorem realizace průsvitných ciferníků. Doloženo *Zprávou o starobylém orloji* (Erben et al.):
-
-> „Zřízení pak těchto **nočních hodin průsvitných svěřených panu
-> Hainzovi samému**, kterýž se byl již léta **1856**, když v radě
-> městské byla řeč, aby ty hodiny byly obnoveny, **za to přimlouval
-> aby se k nim také přidělati dal ciferník času středního, jenž by
-> v noci byl osvětlován**."
-
-Hainz tedy průsvitné podsvícení **navrhoval od roku 1856** a realizoval **v rámci velké opravy orloje 1865/66**. Dobovou ódu na novou orloj zaznamenal *Chvalozpěv* F. X. J. M. (1866), strofa 11:
-
-> „Přidány dva ciferniky nově
-> Z obou radnice výklenku stran
-> Plynem osvícený v noční době
-> By se na ně ve tmách ohled bral.
-> By noční dobou čas zvěstovaly
-> Tak zevrubně, jako když je den
-> V noci účel pěstovaly…"
-
-**Krečmerův plynový automat 1866 — automatizace zapalování.** Když Hainzovy průsvitné ciferníky vyžadovaly noční zapínání/zhasínání plynu, mladý hodinář **Václav Krečmer** (1844–1918) zkonstruoval jednoduchý plynový automat. Sám Krečmer ve své přednášce 1883 toto rané dílo označoval za **„pouhý experiment"** ve srovnání se svým pozdějším vodárenským efemeridním automatem. Není to tedy příspěvek ke konstrukci ciferníku samotnému, ale ke **konstrukci jeho ovládání**.
-
-**Krečmerův efemeridní plynový automat 1883** — vrchol cs hodinářské automatizace 19. století. Instalovaný k vlastnímu Krečmerovu stroji ve **Staroměstské vodárenské věži** (1879/1880, viz [1883-praha-staromestska-vodarna-krecmer-plynovy-automat](/soupis-veznich-hodin/1883-praha-staromestska-vodarna-krecmer-plynovy-automat)):
-
-- Ovládal pouliční plynové osvětlení **podle astronomických efemeridních tabulek** (jiný čas zhasnutí každý den dle skutečného slunce)
-- **Roční nastavení** přes „hvězdové kolo" (Jahresrad)
-- Otevíral půlnoční plynový kohout, natahoval kladívka, zapaloval plyn pro 4 ciferníky perkusním hříšníkem
-- **10 230 operací ročně**; ušetřil 1 095 nebezpečných výstupů na věž
-- Krečmer ve stejné přednášce diskutoval i o paralelní technologii pneumatických pařížských hodin (jeden zdroj — 4 500 ciferníků)
-
-Krečmerův 1883 automat byl **unikátní v Evropě** — distribuovaným, autonomním zařízením integrujícím astronomický výpočet + plynové ovládání + zapalování v jediném strojku. Spojení podsvíceného číselníku s jeho **inteligentním ovládáním** představuje technologický horizont, který Hainz 1865 ještě neměl.
-
-Po krátkém období plynového osvětlení Pražského orloje (a postupně se vzdalujícím dobovým úzu) ciferníky **přestaly svítit** — Z. Horský v *Pražském orloji* uvádí: „Dnes ciferníky večer a v noci nesvítí a je to tak lépe." Obnoveno až **2008** (LED + soumrakový spínač).
-
-### Typologie způsobů osvětlení (dle článku [Svítící hodiny](/zajimavosti/svitici))
-
-**Vnější osvětlení** klasických neprůhledných číselníků:
-1. **Reflektory na zemi nebo sloupech** osvětlující celou věž (nejhezčí, nehyzdí konstrukci)
-2. **Reflektory pod číselníky** (nejhorší — odraz od pozlacení, ruší pohled)
-3. **Reflektory nad číselníky** (přijatelné, ale „tykadla na věži")
-4. **Reflektory vedle číselníků**
-5. **Žárovka v ručičkové ose / ze středu** (kuriózní, neosvědčilo se; cit. Poswapinski, *Zegarmistrzostwo, czešč 5: Zegary wieżove*)
-
-**Vnitřní osvětlení (průsvitný číselník):** opálové sklo / matné sklo / leptané sklo / mléčné sklo. Problém: údržba (špína na okně více vidět), výměna žárovky uvnitř věže.
-
-**Ovládání:** soumrakový spínač, spínání podle astronomického času východu/západu slunce, časový spínač (Pražský orloj 16–8 h).
+Plný přehled typologie (vnější vs vnitřní osvětlení, opálové sklo, soumrakový spínač, astronomické ovládání) viz **[osvětlení číselníku](/slovnik/osvetleni-ciselniku)**.
 
 ## Římské číslice na číselnících — IIII vs IV
 
@@ -508,58 +450,27 @@ Na číselnících věžních hodin se **římská čtyřka tradičně píše II
 
 > Zápis římské čtyřky jako *IIII* na číselnících věžních hodin nelze chápat jako omyl, nýbrž jako přežívání **starší aditivní formy římské numerace**. V hodinářské praxi se tato forma udržela zejména proto, že na radiálním číselníku zvyšovala čitelnost, vytvářela typografickou rovnováhu vůči VIII a navazovala na starší tradici slunečních a veřejných číselníků. Subtraktivní zápis IV se sice stal později normativním, ale na hodinových číselnících **nikdy zcela nevytlačil starší IIII**. Rozdíl mezi IIII a IV proto vypovídá spíše o lokální tradici, době vzniku, restaurátorské volbě a estetickém pojetí číselníku než o prosté správnosti či nesprávnosti zápisu.
 
-## Teorie čitelnosti dle Romualda Božka
+## Čitelnost číselníku — krátké shrnutí
 
-**Romuald Božek** (1814–1899), pražský mechanik a hodinář, věnoval problému čitelnosti číselníků mimořádnou pozornost — napsal o tom dokonce **samostatný spis** *Jak psát číslice na hodinových cifernících, aby byly snadno čitelné* (1893, rukopis v Archivu NTM, viz Dolenský 1935). Polemická pasáž v jeho ranější práci *Die neue Stadtuhr / Nové městské hodiny* (1859, ed. Knespl 2024) formuluje **šest zásad**, které lze označit jako *průkopnický funkcionalismus 19. století*:
+> **Plné heslo:** [čitelnost číselníku](/slovnik/citelnost-ciselniku) — Božek 1859/1893/1894 šest zásad, Benson 1863 britská tradice, Janvier 1811 FR venkov, Skála 2005 pravidla rozpoznání ručiček, Havrnek 2009 (ČVUT FS) moderní designérský pohled
 
-**1. Primát ručiček nad číslicemi.** Čas se dá určit i bez číslic, jen z polohy jasně viditelných ručiček. Číselníky bez číslic jsou legitimní volba:
+**Romuald Božek** (1814–1899) v *Nové městské hodiny* (1859) a samostatném spise *Jak psát číslice na hodinových cifernících, aby byly snadno čitelné* (1893) formuloval **šest zásad** funkcionalistického designu:
+
+1. **Primát ručiček nad číslicemi** — čas lze odečíst i bez číslic
+2. **Diferenciace tvarů ručiček** — ne jen délkou
+3. **Tenké, krátké číslice s velkými mezerami**
+4. **Matný povrch > lesk** (pozlacení mizí na slunci)
+5. Konkrétní příklady špatného designu v Praze (sv. Štěpán, sv. Jindřich)
+6. Pozitivní vzor — průhledný číselník na Staroměstské radnici
 
 > „**Ručky mají větší právo být jasně viditelné a rozpoznatelné než
 > číslice**, protože čas se dá určit i bez všech číslic, jen podle
-> polohy jasně viditelných ruček; jak tomu bylo po léta na číselníku
-> Svatojakubské věže, ba skoro lépe než nyní s lesklými pozlacenými
-> číslicemi a ručkami, a jak dokazuji na některých svých hodinách
-> bez číslic na číselníku."
+> polohy jasně viditelných ruček."
+> — BOŽEK, Romuald. *Die neue Stadtuhr / Nové městské hodiny.* 1859 (ed. Knespl 2024).
 
-**2. Diferenciace tvarů ručiček.** Stejnotvaré hodinová a minutová ručka je kategoricky chyba — musí být rozeznatelné tvarem, ne jen délkou:
+Paralelní pravidla formuluje **J. W. Benson** v *A Few Notes on Church & Turret Clocks* (London 1863) — hodinová ručka má *„heart shape"*, minutová končí *„blunt point"*. **Petr Skála** 2005 přidává 5 technických pravidel pro rozpoznání ručiček (viz [barokní číselník](/slovnik/barokni-ciselnik)). **Jakub Havrnek** 2009 (diplomová práce ČVUT FS) přináší moderní designérský pohled — kruhový talíř ciferníku jako ergonomické řešení širokého pozorovacího úhlu.
 
-> „Ručky musí být provedeny v různých tvarech, aby byly od sebe
-> jasně rozeznatelné. … Ručky jsou však nevhodné, protože jsou
-> provedeny ve stejných tvarech, což je chyba."
-
-**3. Tenké, krátké číslice s dostatečnými mezerami.** Optimum čitelnosti na dálku:
-
-> „Číslice jsou krátké, a přestože by měly být ještě tenčí, **mezery
-> od 6 do 9 jsou poměrně velké**, takže číslice jsou od sebe
-> dostatečně daleko a velmi snadno rozeznatelné."
-
-**4. Matný povrch > lesk.** Pozlacené ručky a číslice se na slunci ztrácejí:
-
-> „[Pozlacení] aby byl lesklý chaos dokonán a **lesklé ručky byly
-> neviditelné, zejména na slunečním světle**."
-
-**5. Konkrétní příklady špatného designu** v Praze:
-- **Sv. Štěpán** (po rekonstrukci): „co se týče nevhodnosti a nečitelnosti ještě horší než ten předchozí"
-- **Sv. Jindřich**: „kromě neobratných gotických číslic měl uvnitř také **zlatou hvězdu s hustými paprsky sahajícími až k číslicím**"
-
-**6. Pozitivní příklad** — průhledný číselník na Staroměstské radnici:
-
-> „Nejpraktičtějším číselníkem z moderní doby je **průhledný číselník
-> na úpatí věže Staroměstské radnice vlevo vedle vstupní brány**, na
-> kterém je délka a šířka číslic v porovnání s ostatními nejsprávnější."
-
-### Aplikace na Božkových vlastních hodinách
-
-Vlastní hodiny pro lékárníka Hubatku (popsané v *Über astronomische Uhren*, 1894) demonstrují uplatnění principů — jednoduché barevné schéma, čistá geometrie:
-
-> „**Střední plocha ciferníku je nebesky modrá, číselník pak bílý
-> a na něm se nacházející římské číslice jsou černé.** Na slabé
-> tyčce, dosahující od středu ciferníku až k číslicím, je upevněno
-> lesklé Slunce ve tvaru koule, pod nímž se nachází malá ručička
-> ukazující nataženým ukazováčkem na celé hodiny, čtvrthodiny a též
-> mezi nimi."
-
-Hierarchie tvarů (lesklé Slunce — funkční tyčka — ukazováček ruky) je promyšlená: každý prvek má **jasnou sémantickou roli** v indikaci času, nic není dekorace kvůli dekoraci.
+Plné rozpracování všech zdrojů viz **[čitelnost číselníku](/slovnik/citelnost-ciselniku)**.
 
 ## Reference
 
