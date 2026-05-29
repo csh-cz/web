@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-29T04:56:13.899Z",
+  "generatedAt": "2026-05-29T07:04:43.851Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
-    "slovnik": 233,
+    "slovnik": 234,
     "hodinari": 170,
     "hodinariTs": 170,
     "soupis": 443
   },
-  "count": 1855,
+  "count": 1856,
   "words": [
     "Abraham",
     "Accutron",
@@ -64,6 +64,7 @@
     "Balkeovi",
     "Banát",
     "Bärn",
+    "barokní",
     "Bart",
     "Bartoloměj",
     "Bartoloměje",
