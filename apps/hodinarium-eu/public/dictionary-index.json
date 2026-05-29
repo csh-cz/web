@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generated": "2026-05-29T04:55:27.078Z",
-    "count": 233,
+    "generated": "2026-05-29T07:03:02.991Z",
+    "count": 234,
     "stubs": 75,
     "redirects": 15,
     "withConceptId": 56,
@@ -502,6 +502,65 @@
       "pribuzne": [
         "korunka",
         "perovnik"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "barokni-ciselnik": {
+      "lemma": "barokní číselník",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "barokní číselník",
+          "status": "preferred",
+          "note": "Moderní cs odborný termín pro typ věžního číselníku **dominantní v Evropě 17.–18. století**, s charakteristickým schématem: dvě soustředné stupnice (vnější hodinová I–XII + vnitřní čtvrťová I–IIII) a dvě „prohozené\" ručky (delší hodinová + kratší minutová).",
+          "doloženo": "Skála 2005; NPÚ MIS Markvartice 2017; NPÚ Jičín 2016"
+        },
+        {
+          "term": "dvojkruhový věžní číselník",
+          "status": "admitted",
+          "note": "Popisný moderní termín — dva soustředné kruhy (vnější hodinový + vnitřní čtvrťový)."
+        },
+        {
+          "term": "dvouručkový barokní číselník",
+          "status": "admitted",
+          "note": "Zdůrazňuje protiklad ke středověkému jednoručkovému ciferníku."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "barocke Turmuhrzifferblatt",
+            "note": "DE popisný termín (Schukowski 2009, Mosel)."
+          },
+          {
+            "term": "doppelte konzentrische Stundenanzeige",
+            "note": "DE popisný — „dvojitá soustředná stupnice hodin\"."
+          }
+        ],
+        "en": [
+          {
+            "term": "baroque tower clock dial",
+            "note": "Anglosaská hodinářská tradice (Benson 1863, McKay 1999)."
+          }
+        ],
+        "fr": [
+          {
+            "term": "cadran baroque",
+            "genus": "m",
+            "zdroj": "FR tradice (Janvier 1811)."
+          }
+        ]
+      },
+      "definice": "Typ věžního [číselníku](/slovnik/ciselnik) **dominantní v Evropě 17.–18. století** s charakteristickou strukturou: **dvě soustředné stupnice** (vnější římské hodinové cifry I–XII + vnitřní římské čtvrťové cifry I–IIII) a **dvě prohozené ručky** proti dnešnímu zvyku — **delší hodinová** ručka dosahující ke středům cifer I–XII, **kratší minutová** ručka dosahující jen k vnitřnímu čtvrťovému kruhu I–IIII. Schéma odpovídá baroknímu vnímání času (hodina = primární údaj, čtvrť = sekundární doplněk; minuta jako koncept ještě nebyla relevantní). V Čechách se s ním setkáváme dodnes (často přemalovaný, ale konstrukčně zachovaný) — typické příklady: Jičín kostel sv. Ignáce z Loyoly, Markvartice kostel sv. Jiljí, Borotín zámek 1767, Třebovice ve Slezsku, řada dochovaných Janatových strojů (Poděbrady, Žehuň).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "ciselnik",
+        "cifernik",
+        "ruka-orloje"
       ],
       "isStub": false,
       "redirectTo": null
