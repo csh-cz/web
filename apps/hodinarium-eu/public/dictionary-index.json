@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "generated": "2026-05-29T04:34:53.044Z",
+    "generated": "2026-05-29T04:55:27.078Z",
     "count": 233,
     "stubs": 75,
-    "redirects": 14,
+    "redirects": 15,
     "withConceptId": 56,
     "withVyznamy": 1,
     "withAtestace": 1,
@@ -5332,56 +5332,12 @@
         {
           "term": "lermo",
           "status": "archaic",
-          "note": "Staročes. orlojový termín (Táborský 1570) — synonymum k „[rykl](/slovnik/rykl)\"; etymologicky z DE *Lärm* / it. *allarme* (poplach, povyk). V hodinářském významu zcela archaický.",
+          "note": "Staročes. orlojový termín (Táborský 1570) — **explicitně synonymní s [rykl](/slovnik/rykl)** („rykl, jenž slove lermo\"). Etymologicky z DE *Lärm* / it. *allarme* (poplach, povyk) — pojmenování zdůrazňuje signální charakter spouštění bití (poplašné spuštění). V hodinářském významu zcela archaický.",
           "doloženo": "Táborský 1570"
-        },
-        {
-          "term": "ryklík lermo",
-          "status": "archaic",
-          "note": "Plný popisný — spouštěcí páčka označovaná jako „poplach\" (signál bití)."
-        },
-        {
-          "term": "spouštěcí západka",
-          "status": "preferred",
-          "note": "Moderní cs ekvivalent — viz [rykl](/slovnik/rykl) a [spoušť](/slovnik/spoust)."
         }
       ],
-      "translations": {
-        "de": [
-          {
-            "term": "Lärm",
-            "zdroj": "DE etymologický původ — poplach, hluk; signál bití"
-          },
-          {
-            "term": "Auslösung",
-            "genus": "f",
-            "zdroj": "DE moderní — spouštěcí ústrojí (Špatný 1882)"
-          }
-        ],
-        "en": [
-          {
-            "term": "alarm release",
-            "zdroj": "EN popisný — signální / poplašné spouštěcí ústrojí"
-          },
-          {
-            "term": "trigger",
-            "zdroj": "EN — spouštěč"
-          }
-        ],
-        "fr": [
-          {
-            "term": "déclencheur",
-            "genus": "m",
-            "zdroj": "FR — spouštěč"
-          },
-          {
-            "term": "alarme",
-            "genus": "f",
-            "zdroj": "FR etymologický kořen italského *allarme*"
-          }
-        ]
-      },
-      "definice": "Poplašné / spouštěcí ústrojí bití — západka, která uvolní zámek bicího stroje. Z něm. *Lärm* nebo it. *allarme* (poplach, povyk). U Táborského synonymum s *ryklem*.",
+      "translations": {},
+      "definice": "Staročes. orlojový termín (Táborský 1570) pro **spouštěcí páčku bicího ústrojí** — Táborský sám explicitně uvádí *„rykl, jenž slove lermo\"* (synonyma jednoho a téhož mechanického prvku). Etymologicky z DE *Lärm* nebo it. *allarme* (poplach, povyk) — pojmenování zdůrazňuje **signální charakter** prvku (poplašné spuštění bití). **V moderní češtině se nepoužívá** — viz [rykl](/slovnik/rykl).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -5391,7 +5347,7 @@
         "spoust"
       ],
       "isStub": true,
-      "redirectTo": null
+      "redirectTo": "rykl"
     },
     "lihyr": {
       "lemma": "lihýř",
@@ -11505,15 +11461,19 @@
       "varianty": [
         {
           "term": "vřeteno",
-          "status": "admitted"
+          "status": "archaic",
+          "note": "Staročes. termín (Táborský 1570) — **explicitně synonymní s [hřídelíkem](/slovnik/hridelik-orloje)**: „čípek vřetena aneb hřídeliku\". Označuje drobnou osu malých indikátorů orloje. Pozor: nezaměňovat s moderním **vřetenovým krokem** (typ kroku 13.–17. století — viz [vřetenový krok](/slovnik/vretenovy-krok)).",
+          "doloženo": "Táborský 1570"
         }
       ],
       "translations": {},
-      "definice": "U Táborského 1570 *vřeteno* označuje drobný hřídelík (typicky nesoucí měsíc nebo malý indikátor). Synonymum: *hřídelík*. Pozor: nezaměňovat s moderním hodinářským *vřetenovým krokem* (= 13. st. typ kroku).",
+      "definice": "Disambiguation: termín „vřeteno\" má v hodinářském úzu **dva nesouvisející významy**: (1) **U Táborského 1570** označuje *vřeteno aneb hřídelík* — drobnou osu malých indikátorů orloje (synonymum [hřídelík](/slovnik/hridelik-orloje)). (2) **V moderním hodinářském lexiku** označuje *vřeteno vřetenového kroku* — vrtulovitě uspořádaný hřídel s dvěma širokými paletami, který tvoří krok středověkých a barokních hodin 13.–17. století (viz [vřetenový krok](/slovnik/vretenovy-krok)). Oba významy jsou nesouvisející — pouze sdílejí staré české slovo *vřeteno* (= drobná otáčející se osa).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
-        "hridelik-orloje"
+        "hridelik-orloje",
+        "hridel",
+        "vretenovy-krok"
       ],
       "isStub": true,
       "redirectTo": null

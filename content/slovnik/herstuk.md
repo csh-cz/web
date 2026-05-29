@@ -57,11 +57,22 @@ references:
 
 ## Výklad
 
-Germanismus typický pro hodinářské lexikum 16. století. V moderní češtině nahrazeno termíny **ložisko**, **pouzdro čepu**. Související: výraz **v hertu kalený** = kalený v ohni výhně (něm. *Härte*).
+Germanismus typický pro hodinářské lexikum 16. století. V moderní češtině nahrazeno termíny **ložisko**, **pouzdro čepu**. Související: výraz **v hertu kalený** = kalený v ohni výhně (něm. *Härte*); viz heslo [kalení](/slovnik/kaleni).
+
+### Herštuk = puška (Táborského synonymie)
+
+Táborský 1570 zavádí pojem „herštuk" jako **vlastní synonymum** k tradičnímu termínu **[puška](/slovnik/puska-orloje)** (původně z ústní tradice o Staroměstském orloji):
+
+> *„Toť jest ta puška, o kteréž sem slajchal rozprávku, že by v ní všecka tajnost orloje toho byla zavřína. **Já ji pak jmenuji herštukem** a jsou ti herštukové tři."*
+
+Tj. Táborský zavádí svůj nový technický termín **„herštuk"** (z DE *Härtstück* = kalený díl) pro tutéž součást, kterou tradičně označoval „pušku". Důvod záměny: **„herštuk"** vystihuje **technologii** (kalené ložisko), zatímco **„puška"** spíše **tvar** (dutá trubka). V moderním úzu se rozlišuje:
+
+- **[Puška (orlojní)](/slovnik/puska-orloje)** = obecně souosé pouzdro indikátorů
+- **Herštuk** = specificky **kalené ložiskové pouzdro** (kalená pánev čepu)
 
 ## Příbuzné termíny
 
-[puska-orloje](/slovnik/puska-orloje), [kstudle](/slovnik/kstudle)
+[puška (orlojní)](/slovnik/puska-orloje) (Táborského tradiční synonymum) · [kstudle](/slovnik/kstudle) (drobné ložisko) · [kalení](/slovnik/kaleni) (technologie kalení v hertu)
 
 ## Obrázky
 

@@ -55,9 +55,22 @@ references:
 
 V moderním orlojnictví: **pouzdro souosých hřídelů** (něm. *Hülsen*). Princip — soustředné duté hřídele rotující různými rychlostmi pro souosé indikátory — používaný dodnes u všech velkých astronomických orlojů. Pozor: *puška* ve standardní češtině je střelná zbraň; specificky orlojní význam je archaický.
 
+### Puška = herštuk (Táborského záměna)
+
+Táborský 1570 explicitně používá oba termíny synonymně:
+
+> *„Toť jest ta puška, o kteréž sem slajchal rozprávku, že by v ní všecka tajnost orloje toho byla zavřína. **Já ji pak jmenuji herštukem** a jsou ti herštukové tři."*
+
+Tj. Táborský zavádí termín **„herštuk"** (z DE *Härtstück* = kalený díl) jako vlastní synonymum k „pušce" (původně mu předaný termín z ústní tradice). V moderním lexiku se rozlišení udržuje:
+
+- **Puška** = obecně souosé pouzdro indikátorů (dutá trubka)
+- **[Herštuk](/slovnik/herstuk)** = specificky **kalené ložiskové pouzdro** pro čep hřídele (kalená pánev)
+
+Táborského „herštuk" pokrývá oba významy — moderní úzus je rozliší. Viz [herštuk](/slovnik/herstuk) pro kalenou variantu.
+
 ## Příbuzné termíny
 
-[herstuk](/slovnik/herstuk), [kstudle](/slovnik/kstudle), [sphera](/slovnik/sphera)
+[herštuk](/slovnik/herstuk) (Táborského synonymum — kalené ložiskové pouzdro) · [kstudle](/slovnik/kstudle) (drobné ložisko) · [sphera](/slovnik/sphera)
 
 ## Obrázky
 
