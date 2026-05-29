@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-29T07:03:02.991Z",
+    "generated": "2026-05-29T10:05:11.421Z",
     "count": 234,
     "stubs": 75,
     "redirects": 15,
@@ -532,8 +532,8 @@
       "translations": {
         "de": [
           {
-            "term": "barocke Turmuhrzifferblatt",
-            "note": "DE popisný termín (Schukowski 2009, Mosel)."
+            "term": "barockes Turmuhrzifferblatt",
+            "note": "DE popisný termín."
           },
           {
             "term": "doppelte konzentrische Stundenanzeige",
@@ -543,14 +543,14 @@
         "en": [
           {
             "term": "baroque tower clock dial",
-            "note": "Anglosaská hodinářská tradice (Benson 1863, McKay 1999)."
+            "note": "Anglosaská hodinářská tradice."
           }
         ],
         "fr": [
           {
             "term": "cadran baroque",
             "genus": "m",
-            "zdroj": "FR tradice (Janvier 1811)."
+            "zdroj": "FR tradice."
           }
         ]
       },

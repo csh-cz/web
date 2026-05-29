@@ -220,7 +220,137 @@ Důvody „prohození" ručiček: (1) hodina = primární údaj, minuta sekundá
 | **D** | Ponechání vnitřního č. + úprava délek | Sv. Vavřinec Nový Bydžov |
 | **E** | Nové ručky moderního tvaru | Zámek Březnice |
 
-Detailní analýza, evropská distribuce (katolická vs protestantská Evropa), německý/francouzský/britský úzus a kompletní bibliografie (Bilfinger 1892, Mosel, Kaulich 1866, Benson 1863, Janvier 1811, Skála 2005) viz **[barokní číselník](/slovnik/barokni-ciselnik)**.
+Detailní analýza, evropská distribuce (katolická vs protestantská Evropa), německý/francouzský/britský úzus, pravidla rozpoznání ručiček a kompletní typologie 5 typů pozdějších úprav (A–E) viz **[barokní číselník](/slovnik/barokni-ciselnik)**.
+
+## Oddělené hodinové a minutové ciferníky
+
+Vzácně se setkáváme se **dvěma fyzicky oddělenými ciferníky** — jeden ukazuje hodiny, druhý minuty (resp. čtvrti). Skála 2005 uvádí dva české příklady:
+
+- **Katedrála sv. Víta v Praze** — spodní číselník je minutový, horní hodinový
+- **Klášter v Plasích** — analogické rozdělení
+
+Toto řešení vzniklo z technické nemožnosti umístit dvě ručky na jednu osu (dvě úplně oddělené ručkové stroje s vlastním převodem). U novostaveb 19.–20. století je vzácné; je to spíš dědictví ze starších víceciferníkových konstrukcí.
+
+## Münsterský variant — skoková hodinová ručka
+
+Některé německé věžní hodiny řešily přesnost **bez minutové ručky** — pomocí **skokového pohybu hodinové ručky** po minutových intervalech. Mosel popisuje astronomické hodiny v dómu v **Münsteru** (Münster, severní Vestfálsko), kde hodinový stroj firmy z roku 1932 udržel toto starobylé řešení s ciferníkem z roku 1535:
+
+> „Der **Stundenzeiger jede Minute weiterspringt**, was der feinsten
+> Unterteilung auf dem **2 × 12-Stunden Zifferblatt nach 1535** angepasst
+> ist. **Ein Minutenzeiger ist auch heute überflüssig**, wenn der Zeiger
+> von 1932 nicht unglücklich konstruiert wäre."
+> — MOSEL. *Die Astronomische Uhr im St.-Paulus-Dom in Münster.*
+
+Hodinová ručka „neplynule schleicht" jako dnes — **trhavě poskakuje** každou minutu, jako vteřinová ručka moderních hodinek. Na ciferníku s jemným dělením 2×12 hodin (= 1440 minutových značek po obvodu) **stačí jediná ručka** k odečtení času na minutu přesně. Toto řešení odpovídá raně novověké preferenci jedné ručky a vysvětluje, proč **většina starých kostelních hodin minutovou ručku nepotřebovala**.
+
+## Britská tradice — Benson 1863 a pravidla designu
+
+V Anglii vznikl v polovině 19. století celý žánr **průvodců pro architekty a duchovní** o tom, jak zadávat věžní hodiny. **J.W. Benson** (londýnský hodinář, zakázka Bodleian Library v Oxfordu) v *A Few Notes on Church & Turret Clocks* (1863) formuluje **explicitní pravidla pro design ciferníku a ruček** vůči pozorovateli z dálky:
+
+> „The ease with which the time can be seen on a **public Clock** depends
+> very much on the **hands as well as the dials**. These should be
+> **sufficiently bold to render them visible at a distance, and yet not
+> so large or broad as to create any confusion**. The **end of the hour
+> hand is generally spread into a heart shape** to distinguish it from
+> the minute hand which terminates in a **blunt point**."
+> — BENSON, J. W. *A Few Notes on Church & Turret Clocks: Addressed to
+> Architects, the Clergy, & Others Interested in Procuring Them.*
+> London, 1863.
+
+> „The **utility of a public Clock will, of course, depend much on the
+> distance which the dial and hands can be clearly seen**, and great
+> care should be used."
+
+Benson dále upozorňuje, že **hodinová ručka má srdcový tvar konce** (= šíp / lopatka), kdežto **minutová končí ostrým hrotem** — paralelní pravidlo k Božkovi 1859 (sekce *Teorie čitelnosti* níže). Britský úzus je tedy v 60. letech 19. století **konsenzuální s pražskou tradicí**.
+
+## Francouzský venkovský úzus — Janvier 1811
+
+Pro venkovské obce vznikl ve Francii samostatný oborový spisek. **A.-L. Janvier** *Essai sur les horloges publiques pour les communes de la campagne* (1811) formuluje technické pravidla **pro malé kostelní hodiny** s důrazem na **finanční omezení** venkovských zadavatelů a **nezbytnou minimální čitelnost** z náměstí.
+
+Souběžně Wagner *Description d'une horloge publique en fer fondu* (1822, Paris) popisuje technologii **litinových rámů** pro veřejné hodiny — nahrazuje tradiční kovaný železný rám a snižuje výrobní cenu.
+
+## Pražský orloj v německém popisu — Kaulich 1866
+
+Hugo **Kaulich** v *Erklärung und Beschreibung der Kunstuhr am altstädter Rathause in Prag* (1866) popisuje **vrstvenou typografii** pražského orloje — souběžné stupnice „českých" 24h hodin a „německých" 12h:
+
+> „Dieser **Stundenzeiger**, der also zu gleicher Zeit die **böhmischen
+> und die deutschen Stunden** angibt, schleicht nicht, wie bei unseren
+> gewöhnlichen Uhren ununterbrochen weiter, sondern er macht **seinen
+> Weg sprungweise** — wie der Secundenzeiger unserer Uhren — **aber
+> von Minute zu Minute**."
+
+> „Es geschah dieses einfach dadurch, dass auf dem Stundenblatte selbst
+> der nöthige **Zifferkreis mit zweimal zwölf Stunden** aufgetragen wurde.
+> Man findet diese **deutschen Stunden nahe gegen den böhm. Stundenring**.
+> Sie waren bisher stets **mit rother Farbe, in römischer Schrift I bis XII**
+> unmittelbar auf dem Zifferblatte aufgetragen."
+> — KAULICH. *Erklärung und Beschreibung der Kunstuhr am altstädter Rathause
+> in Prag.* 1866.
+
+Dva detaily významné pro pochopení orlojního ciferníku:
+1. **Hodinová ručka skáče po minutách** (jako Münster — typicky pro 14.–17. století)
+2. **Německé hodiny I–XII** byly **červené římské číslice** přidané na orlojový ciferník vedle původního staročeského zlatého kruhu — palimpsest přímo na povrchu jednoho ciferníku
+
+## Co se v literatuře píše o věžním ciferníku
+
+### České učebnice 1900–1974
+
+| Učebnice | Co o ciferníku říká |
+|---|---|
+| **Sušický 1900** [`M2MD5J34`] | „Registrátor času, ukazuje uplynulý čas na **číselníku** hodin" (definice ciferníku jako funkce ze 4 dílčích strojů). Užívá střídavě *číselník* / *ciferník* (audit: 4× / 6×). Popis kontrolních a sympatetických hodin („otáčí se papírový ciferník") |
+| **Sladkovský 1947** [`VIBRCUZT`] | **Číselník výhradně** (16× / 0×). Kapitoly o bicím stroji s vazbou na čtvrťovou stupnici |
+| **Hajn 1953** [`9MK4QIHS`] | **Číselník výhradně** (38× / 0×). Detail rozdělení moderní hodinky pod číselník (ručkové soukolí, hodinová a minutová ručka) |
+| **Boukal 1958** [`KQVUX5CB`] | **Číselník výhradně** (80× / 0×). Samostatná kapitola **„VIII. Číselník"** (str. 37) v obsahu opravárenské učebnice — postup snímání, čištění, smaltování, oprava |
+| **Martínek+Řehoř 1964** [`LXZWE6KE`] + DE edice *Mechanische Uhren* 1968 [`PMZ3J9WY`] | Modernizující standardní termín *číselník* + systematický popis konstrukčních prvků hodinového stroje |
+| **Bureš 1974** [`WDDY29VD`] | **Číselník výhradně** (10× / 0×). Učební text pro učební obor 0463 Hodinář — fixace moderního cs úzu |
+
+Po komparativní analýze: **žádný cs autor 1900–1974 nemá samostatnou kapitolu „číselník věžních hodin"** — věž je pojímána jako exteriér konkrétní stavby, ne jako téma per se. Detail o ciferníku pochází z NPÚ MIS památkových dokumentů a Knesplových studií.
+
+### Německé prameny
+
+| Pramen | Co o ciferníku říká |
+|---|---|
+| **Bilfinger 1892** *Die mittelalterlichen Horen und die modernen Stunden* [`TF5QAS76`] | „**Věžní hodiny 16. století** v pravidle pouze **čárkou mezi jednotlivými hodinami** označovaly půlhodiny. O minutách nebo dokonce sekundách nebyla řeč." — kulturně-historický kontext vzniku minutové ručky |
+| **Mosel** *Die Astronomische Uhr im St.-Paulus-Dom in Münster* [`HU6I4WC2`] | 2×12 hodin ciferník od 1535/1540, **hodinová ručka skáče po minutách**, minutová zbytečná |
+| **Schukowski 2009** *Uhren in Kirchen aus hansischer Zeit* [`UWNCIXIQ`] | Stralsundská Nikolaikirche: starší typ ciferníku s **temporálními i ekvinokčními hodinami** současně |
+| **Kaulich 1866** *Erklärung der Kunstuhr am altstädter Rathause in Prag* [`UCGTRXDX`] | Pražský orloj německýma očima — vrstvený ciferník, **červené „německé" hodiny I–XII** vedle „českého" zlatého 24h kruhu |
+| **Dietzschold 1894** *Die Turmuhren* [`43WJSI44`] | Praktická příručka pro velkohodináře — viz Himmler 2006 |
+| **Seebass 1846** *Praktische Anweisung zur Behandlung und Reparatur der Thurmuhren* [`J3VCDAZI`] | Příručka pro mechaniky, hodináře, **kasteláni a věžníky** — instrukce o pohledu na ciferník zvenčí (z věže) i pro orientaci v jeho mechanických propojeních |
+| **Schulte 1902** *Lexikon der Uhrmacherkunst* [`XIIAFBU7`] | Encyklopedická heslá o ciferníku a jeho komponentách |
+| **Astronomische Uhr — MünsterWiki** [`VS7C565C`] | Stupnice astronomického ciferníku (Ziffernkreis, Planetenzeiger, ungleiche Tag- und Nachtstunden, Himmelshäuser, Rete, Tierkreiszeiger, Planetentafeln) |
+
+### Francouzské prameny
+
+| Pramen | Co o ciferníku říká |
+|---|---|
+| **Berthoud 1763** *Essai sur l'horlogerie* [`3C66Z8N2`] / 1802 *Histoire de la mesure du temps* [`6FQFHF6G`, `8VEUFG6S`] | Foundational FR text, alphabetický slovník „pieces qui composent les Horloges" (str. 295 + appendix); detailní popisy planétaire a astronomických ciferníků |
+| **Janvier 1811** *Essai sur les horloges publiques pour les communes de la campagne* [`MXKNWN3U`] | **Venkovské veřejné hodiny** — finanční omezení obcí + minimální čitelnost; nejstarší explicit „pro vesnice" |
+| **Wagner 1822** *Description d'une horloge publique en fer fondu* [`R4LC3DGQ`] | Litinové rámy veřejných hodin — technologická modernizace tradiční kovaní |
+| **Saunier 1887** *Traité d'horlogerie moderne* [`D9B2LYFW` / `25YXVRCA`] | Standardní reference 19. století — detailní popis konstrukce hodinek a hodin pro praxi i učení |
+| **Sasaki 2004** *The astronomical clock with Temporal Hour Dial in Old Paris Observatory* [`8VRSJXWC`] | Specifický příklad starého pařížského observatorního ciferníku s **temporálními (proměnlivými) hodinami** |
+| **Souchier 2019** *Science et techniques au service du public — La synchronisation des horloges parisiennes au XIXe siècle* [`V67JUIXJ`, `PULDRX6Y`] | „pour la grande majorité des habitants, il suffit que **toutes les horloges publiques marquent la même minute et sonnent en même temps**" — **přechod od individuálních místních ciferníků k veřejné synchronizaci** (= moderní představa standardního času) |
+
+### Britská pojednání o věžních hodinách
+
+| Pramen | Co o ciferníku říká |
+|---|---|
+| **Benson 1863** *A Few Notes on Church & Turret Clocks: Addressed to Architects, the Clergy, & Others Interested in Procuring Them* [`7D5UC346`] | **Praktická pravidla pro design ciferníku** — „dial and hands sufficiently bold to render them visible at a distance"; **srdcový tvar hodinové ručky** vs. **tupý hrot minutové** (Knespl interpret: paralelní k Božkovi 1859) |
+| **McKay 1999** *The turret clock keeper's handbook* [`6CWV6YDW`] | „Turret Clock Terminology", glossář ciferníkových termínů; údržbové instrukce pro správce |
+| **Snyder 2021** *A King's Treasury Could Not Compare* [`NLQ5CVJL`] | Medievalní hodiny **kombinovaly hourly + calendrical + astronomical + religious time in a single device** — antropologická interpretace ciferníku |
+
+### Bibliografická literatura pro další studium
+
+Z Himmlerovy bibliografie 2006 a dalších:
+
+- **DURDÍK, T.** *Středověké mechanické hodiny.* Archaeologia Historica, 1991, sv. 16, s. 345–355. (Pre-barokní kontext)
+- **HAVRLANT, P.** *Z historie věžních hodin a ciferníků aneb Jak vypadaly věžní hodiny na radniční věži v Ostravě.* Zpravodaj Ostravského muzea 11, 2004, č. 3, s. 24–31.
+- **KYNČL, R.** *Věžní hodiny.* In: Hodiny a hodinky. Praha 2001, s. 44–57.
+- **SCHUKOWSKI, M.** *Uhren in Kirchen aus hansischer Zeit — eine Familie, zwei Generationen, drei Väter.* 2009. (Hansovní pobaltské kostelní hodiny — starší typ ciferníku s temporálními i ekvinokčními hodinami)
+- **BILFINGER, G.** *Die mittelalterlichen Horen und die modernen Stunden: ein Beitrag zur Kulturgeschichte.* 1892. (Středověký kontext, vznik moderní hodiny)
+- **UNGERER, A.** *Les horloges astronomiques et monumentales les plus remarquables de l'Antiquité jusqu'à nos jours.* Nákladem autora, Strasbourg 1931.
+- **HORSKÝ, Z.** *Astronomy and the art of clockmaking in the fourteenth, fifteenth and sixteenth centuries.* Vistas in Astronomy 9 (1967), 25–34.
+- **DOHRN-VAN ROSSUM, G.** *L'histoire de l'heure: horlogerie et organisation moderne du temps.* Paris, 1997. (Standard work on rise of modern time consciousness)
+- **SNYDER, J.** *A King's Treasury Could Not Compare: Making Clocks Tick in Fourteenth-Century Europe.* PhD thesis 2021. (Medieval clocks combined *hourly, calendrical, astronomical, and religious time in a single device*)
 
 ## Číselník jako památkový palimpsest
 
