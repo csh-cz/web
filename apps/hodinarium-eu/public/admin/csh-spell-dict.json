@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-28T23:43:14.928Z",
+  "generatedAt": "2026-05-29T04:36:17.487Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 233,
@@ -8,7 +8,7 @@
     "hodinariTs": 170,
     "soupis": 443
   },
-  "count": 1854,
+  "count": 1855,
   "words": [
     "Abraham",
     "Accutron",
@@ -960,6 +960,7 @@
     "minutová",
     "minutove",
     "minutové",
+    "minutovy",
     "minutový",
     "Miroslav",
     "Míru",
