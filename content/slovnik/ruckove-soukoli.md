@@ -18,7 +18,7 @@ varianty:
     doloženo: 'Špatný 1882'
   - term: centrální převodovka
     status: admitted
-    note: 'Synonymum, zdůrazňující centrální polohu převodu ručkového soukolí na centrálním hřídeli.'
+    note: '**Není přesné synonymum** — [centrální převodovka](/slovnik/centralni-prevodovka) je užší pojem (jen centrální/minutové kolo a jeho převod), zatímco ručkové soukolí je celá kaskáda tří součástí (minutová trubka + střídné kolo + hodinové kolo). V některých textech se však používá nepřesně jako synonymum.'
 prekladyDe:
   - term: Zeigerwerk
     genus: n

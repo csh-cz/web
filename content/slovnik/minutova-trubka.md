@@ -11,9 +11,9 @@ varianty:
   - term: trubka minutová
     status: preferred
     note: 'Inverzní slovosled — Špatný 1882.'
-  - term: minutový pastorek
+  - term: ručkový pastorek
     status: admitted
-    note: 'Synonymum — funkčně jde o pastorek, geometricky o trubku. Sladkovský a Martínek-Řehoř střídavě.'
+    note: 'Synonymum zdůrazňující funkci — minutová trubka funguje jako pastorek hnaný centrálním hřídelem a hnoucí střídné kolo ručkového soukolí. **Pozor: NEZAMĚŇOVAT s [minutovým pastorkem](/slovnik/minutovy-pastorek)**, který je samostatná součást — pastorek na hřídeli minutového kola hnoucí mezilehlé kolo v hlavní převodové kaskádě jicího soukolí (Bureš 1965, s. 152, III. skupina č. 4).'
   - term: chaussée
     status: admitted
     note: 'Přejato z FR (Berner).'
@@ -35,6 +35,7 @@ pribuzne:
   - stridne-kolo
   - hodinove-kolo
   - pastorek
+  - minutovy-pastorek
   - hridel
   - natah
 references:

@@ -26,7 +26,7 @@ varianty:
     doloženo: "Špatný 1882 (z DE Balancier)"
   - term: lihýř
     status: archaic
-    note: "Žargonový termín 19. století."
+    note: 'Žargonový termín 19. století (Sušický 1900). **POZOR — terminologický překryv**: [lihýř](/slovnik/lihyr) má v moderním cs hodinářském úzu specifický význam **vahadlový oscilátor (foliot) — předchůdce kyvadla u věžních strojů 13.–17. století**, NE setrvačku. Použití „lihýř = setrvačka" je zastaralé (Sušický) a v moderním kontextu zavádějící.'
 prekladyEn:
   - term: balance
   - term: balance wheel

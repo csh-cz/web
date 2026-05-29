@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-28T23:41:52.265Z",
+    "generated": "2026-05-29T04:34:53.044Z",
     "count": 233,
     "stubs": 75,
     "redirects": 14,
@@ -5957,9 +5957,9 @@
           "note": "Inverzní slovosled — Špatný 1882."
         },
         {
-          "term": "minutový pastorek",
+          "term": "ručkový pastorek",
           "status": "admitted",
-          "note": "Synonymum — funkčně jde o pastorek, geometricky o trubku. Sladkovský a Martínek-Řehoř střídavě."
+          "note": "Synonymum zdůrazňující funkci — minutová trubka funguje jako pastorek hnaný centrálním hřídelem a hnoucí střídné kolo ručkového soukolí. **Pozor: NEZAMĚŇOVAT s [minutovým pastorkem](/slovnik/minutovy-pastorek)**, který je samostatná součást — pastorek na hřídeli minutového kola hnoucí mezilehlé kolo v hlavní převodové kaskádě jicího soukolí (Bureš 1965, s. 152, III. skupina č. 4)."
         },
         {
           "term": "chaussée",
@@ -6000,6 +6000,7 @@
         "stridne-kolo",
         "hodinove-kolo",
         "pastorek",
+        "minutovy-pastorek",
         "hridel",
         "natah"
       ],
@@ -8719,7 +8720,7 @@
         {
           "term": "centrální převodovka",
           "status": "admitted",
-          "note": "Synonymum, zdůrazňující centrální polohu převodu ručkového soukolí na centrálním hřídeli."
+          "note": "**Není přesné synonymum** — [centrální převodovka](/slovnik/centralni-prevodovka) je užší pojem (jen centrální/minutové kolo a jeho převod), zatímco ručkové soukolí je celá kaskáda tří součástí (minutová trubka + střídné kolo + hodinové kolo). V některých textech se však používá nepřesně jako synonymum."
         }
       ],
       "translations": {
@@ -9143,7 +9144,7 @@
         {
           "term": "lihýř",
           "status": "archaic",
-          "note": "Žargonový termín 19. století."
+          "note": "Žargonový termín 19. století (Sušický 1900). **POZOR — terminologický překryv**: [lihýř](/slovnik/lihyr) má v moderním cs hodinářském úzu specifický význam **vahadlový oscilátor (foliot) — předchůdce kyvadla u věžních strojů 13.–17. století**, NE setrvačku. Použití „lihýř = setrvačka\" je zastaralé (Sušický) a v moderním kontextu zavádějící."
         }
       ],
       "translations": {
