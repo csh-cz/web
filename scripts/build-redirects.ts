@@ -100,6 +100,9 @@ const CATEGORY_MOVES: Record<string, string> = {
   '/sbirka/decin-vypousteny': '/konstrukce/decin-vypousteny',
   '/sbirka/jezdecke': '/virtualni-muzeum/jezdecke',
   '/sbirka/zidovske': '/virtualni-muzeum/zidovske',
+  // 2026-05-29: nová rubrika /edice/ pro překlady pramenů (DK)
+  '/zajimavosti/balbin-1681-admirandum-horologium': '/edice/balbin-1681-admirandum-horologium',
+  '/zajimavosti/teicher-1735-popis-orloje': '/edice/teicher-1735-popis-orloje',
 };
 
 /**

@@ -95,4 +95,14 @@ export const kategorie: Record<string, KategorieMeta> = {
       '(zvon Petr Vok, 2012).',
     featuredSlugs: ['zvony-uvod', 'prehled-zvonu', 'zvon-petr-pavel', 'zvon-petr-vok'],
   },
+  edice: {
+    slug: 'edice',
+    jmeno: 'Edice pramenů',
+    podnadpis: 'České překlady tištěných a rukopisných pramenů k dějinám hodinářství',
+    intro:
+      'Plné české překlady pramenů — od barokních a osvícenských popisů orloje (Balbín 1681, Teicher 1735) ' +
+      'po dochované rukopisy a regionální studie. U každého pramene uvádíme původní jazyk, použitý exemplář ' +
+      'a redakční atribuci. Rubrika se postupně rozšiřuje.',
+    featuredSlugs: ['balbin-1681-admirandum-horologium', 'teicher-1735-popis-orloje'],
+  },
 };

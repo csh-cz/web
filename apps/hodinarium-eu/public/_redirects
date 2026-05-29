@@ -7,6 +7,12 @@
 # rename overrides) po legacy (HTM z původního PHP webu).
 
 # === PRIORITA 1: rename overrides (SEO kritické) ===
+# 2026-05-29: nová rubrika /edice/ pro překlady pramenů
+/zajimavosti/balbin-1681-admirandum-horologium /edice/balbin-1681-admirandum-horologium 301
+/zajimavosti/balbin-1681-admirandum-horologium/ /edice/balbin-1681-admirandum-horologium/ 301
+/zajimavosti/teicher-1735-popis-orloje /edice/teicher-1735-popis-orloje 301
+/zajimavosti/teicher-1735-popis-orloje/ /edice/teicher-1735-popis-orloje/ 301
+
 # Renamed karta slugs (přímá karta cesta):
 /sbirka/karta/inv-53-model-prazskeho-orloje /sbirka/karta/inv-53-orloj-hvezdarna-petrin 301
 /sbirka/karta/inv-53-model-prazskeho-orloje/ /sbirka/karta/inv-53-orloj-hvezdarna-petrin/ 301

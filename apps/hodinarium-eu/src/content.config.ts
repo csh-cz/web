@@ -242,6 +242,7 @@ const clanky = defineCollection({
      *   - virtualni-muzeum  — zajímavé hodiny mimo sbírku spolku
      *   - muzea             — sister muzea, přehledy sbírek (Mindelheim, Protivín, …)
      *   - zajimavosti       — eseje o čase, kalendáře, časoměrné systémy
+     *   - edice             — překlady tištěných a rukopisných pramenů
      *
      * Stará schema (pre-2026-04, postupná migrace):
      *   - decin, vezni-hodiny, ostatni — deprecated, mapping v
@@ -249,7 +250,7 @@ const clanky = defineCollection({
      */
     category: z.enum([
       // nové
-      'sbirka', 'konstrukce', 'projekty', 'virtualni-muzeum', 'muzea', 'zajimavosti', 'zvony',
+      'sbirka', 'konstrukce', 'projekty', 'virtualni-muzeum', 'muzea', 'zajimavosti', 'zvony', 'edice',
       // staré (deprecated, ponechané kvůli postupné migraci)
       'decin', 'vezni-hodiny', 'ostatni',
     ]),
@@ -524,7 +525,7 @@ const kronika = defineCollection({
       slug: z.string(),
       kategorie: z.enum([
         'sbirka', 'konstrukce', 'projekty', 'virtualni-muzeum',
-        'muzea', 'zajimavosti', 'hodinari',
+        'muzea', 'zajimavosti', 'edice', 'hodinari',
       ]).optional(),
     })).optional(),
     photos: z.array(z.string()).optional(),
