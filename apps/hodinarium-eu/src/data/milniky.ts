@@ -1495,6 +1495,7 @@ export const milniky: Milnik[] = [
       '„Zprávy o orloji pražském" (1570), doplněným o technický popis stroje od Balbínova ' +
       'řádového spolubratra Benjamina Šlajera (Schleyer, †1684), matematika klementinské koleje. ' +
       'Tištěnou formou tak orloj poprvé vstoupil do evropské učené literatury.',
+    clanek: 'balbin-1681-admirandum-horologium',
     externalUrl: 'https://orloj.eu',
     zdroj: 'Balbín, Bohuslav: Liber III. Decadis I. Miscellaneorum historicorum Regni Bohemiae, cap. „Admirandum, et rarum opus, Horologium". Praha: Georgius Czernoch, 1681.',
     bibKey: 'balbinAdmirandumRarumOpus1681',
