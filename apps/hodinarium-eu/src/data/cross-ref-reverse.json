@@ -1726,6 +1726,7 @@
         "barokni-ciselnik",
         "cifernik",
         "citelnost-ciselniku",
+        "italske-hodiny",
         "kralovska-hridel",
         "osvetleni-ciselniku",
         "ruka-orloje",
@@ -2586,6 +2587,7 @@
         "hodiny-planetni",
         "hodiny-polouorlojni",
         "hruden",
+        "italske-hodiny",
         "minuta-hodinarska",
         "okolek"
       ]
@@ -2838,16 +2840,23 @@
         "ruckovy-pastorek"
       ]
     },
+    "italske-hodiny": {
+      "slovnik": [
+        "hodiny-celeorloje"
+      ]
+    },
     "hodiny-polouorlojni": {
       "slovnik": [
         "hodiny-celeorloje",
-        "hodiny-planetni"
+        "hodiny-planetni",
+        "italske-hodiny"
       ]
     },
     "hodiny-planetni": {
       "slovnik": [
         "hodiny-celeorloje",
-        "hodiny-polouorlojni"
+        "hodiny-polouorlojni",
+        "italske-hodiny"
       ]
     },
     "strana-orloje": {

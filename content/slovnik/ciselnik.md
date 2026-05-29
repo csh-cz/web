@@ -104,9 +104,9 @@ Na starých číselnících **„čas" neznamená dnešní rovnoměrný středoe
 |---|---|---|
 | **Rovnodenné hodiny** | Den dělen na 24 stejně dlouhých hodin | Moderní občanský čas |
 | **Temporální hodiny** | Denní část a noc dělená každá na 12 částí; **délka hodiny kolísá podle ročního období** | Antika, středověk klášterní praxe |
-| **Italské hodiny** | Počítání hodin **od západu Slunce** | Itálie, Středozemí do 18. stol. |
+| **Italské hodiny** | Počítání hodin **od západu Slunce** (24h cyklus); varianta *da campanile* od r. 1670 + půl hodiny; **6hodinová varianta** (Kliment VII., 1537) 4× 1–6 za den | Itálie, Středozemí do 18. stol. (Řím-Quirinal do 1846); viz [italské hodiny](/slovnik/italske-hodiny) |
 | **Babylonské hodiny** | Počítání **od východu Slunce** | Astronomie + některé orloje |
-| **Staročeské hodiny** | 24hodinový cyklus, počítaný od **západu Slunce** (kapřížné s italskými) | Čechy do 18. století |
+| **Staročeské hodiny** | 24hodinový cyklus, počítaný od **západu Slunce** (= [italské hodiny](/slovnik/italske-hodiny); Ungerer 1926 *„heures italiennes ou bohémiennes"*) | Čechy do 18. století; viz [hodiny celé / česká hodina](/slovnik/hodiny-celeorloje) |
 | **Kanonické hodiny** | Liturgický čas modliteb (matutinum, primae, tercie, sexta, nona, vesper, completorium) | Kláštery, kostely |
 
 **Pražský orloj** historicky používal několik systémů současně — **dvě stupnice na téže ploše** (staročeský 24h + středoevropský 12h). Tj. když vidíte starý ciferník, je dobrá otázka: **jaký čas vlastně zobrazuje?**

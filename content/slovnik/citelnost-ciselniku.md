@@ -197,11 +197,64 @@ V Anglii vznikl v polovině 19. století celý žánr **průvodců pro architekt
 
 Benson dále upozorňuje, že **hodinová ručka má srdcový tvar konce** (= šíp / lopatka), kdežto **minutová končí ostrým hrotem** — paralelní pravidlo k Božkovi 1859 (diferenciace tvarů ručiček). Britský úzus je tedy v 60. letech 19. století **konsenzuální s pražskou tradicí** — oba autoři nezávisle docházejí k identickým principům, což svědčí o **univerzalitě** zásad.
 
-## A.-L. Janvier (1811) — francouzský venkovský úzus
+## Antide Janvier (1811) — francouzská venkovská minimalistická tradice
 
-Pro venkovské obce vznikl ve Francii samostatný oborový spisek. **A.-L. Janvier** *Essai sur les horloges publiques pour les communes de la campagne* (1811) formuluje technická pravidla **pro malé kostelní hodiny** s důrazem na **finanční omezení** venkovských zadavatelů a **nezbytnou minimální čitelnost** z náměstí.
+Pro venkovské obce vznikl ve Francii samostatný oborový spisek **půl století před** Bensonem a Božkem. **Antide Janvier** (1751–1835), jeden z nejvýznamnějších francouzských hodinářů přelomu 18. a 19. století, vydal *Essai sur les horloges publiques, pour les communes de la campagne* (Paris 1811). Dílo má strukturu **Avertissement** + **Avant-propos** + **Chapitre Premier** (o požadované přesnosti) + **Chapitre II** (o konstrukci) + dodatky s tabulkami + **P.S.**.
 
-Janvier je tedy 50 let **před** Bensonem a Božkem — první moderní příručka pro veřejné hodiny s výslovným důrazem na vizibilitu jako klíčový parametr.
+Janvier formuluje radikálně **minimalistickou** koncepci ciferníku pro malé kostelní hodiny — z důvodu finančního omezení venkovských zadavatelů, ale i z principu úspornosti. Jeho zásady stojí v ostrém kontrastu s pozdějším funkcionalismem Božka a Bensona, kteří se naopak snaží **maximalizovat informaci** přenášenou ciferníkem (dvě ručky tvarem odlišené, jasné členění minut).
+
+### 1. Jediná ručka, dva oběhy za den
+
+Janvier kategoricky odmítá minutovou ručku jako zbytečný luxus pro venkovskou obec — postačí **jediná hodinová ručka**, která se otočí **dvakrát za 24 hodin**:
+
+> „**L'Horloge publique ne doit avoir qu'une seule aiguille, qui fasse
+> deux tours par jour.**" — Janvier 1811
+
+Tj. ciferník je dělen jen na 12 hodin (resp. 2 × 12), bez minutových značek. Pozorovatel z náměstí čte celé hodiny a půlhodiny — přesná minuta není pro venkovský život nezbytná.
+
+### 2. Omezená velikost ciferníku 3–4 stopy
+
+Janvier explicitně limituje průměr ciferníku:
+
+> „**On doit donc exiger que le cadran n'ait pas plus de trois à
+> quatre pieds de diamètre.**" — Janvier 1811
+
+Pařížská stopa ≈ 32,5 cm; 3–4 pieds = cca **97–130 cm** průměru. To je u věžních hodin malá až střední velikost (pro srovnání: Pražský orloj má hlavní ciferník ≈ 300 cm). Pro malou venkovskou obec stačí — pozorovací vzdálenosti jsou kratší (10–30 m, ne 50–100 m jako u městských věží).
+
+### 3. Přesnost 2 minuty za 10 dní
+
+Pro stroj Janvier definuje **dosažitelnou přesnost**, ne ideální:
+
+> „**la quantité de deux minutes de variation en dix jours.**"
+> — Janvier 1811
+
+Tj. ± 12 sekund denně — pro venkovský úzus pohodlně postačující, ale řádově horší než přesnost závěsných hodin v interiéru. Janvier tím ospravedlňuje absenci minutové ručky: **mechanika nemá takovou přesnost**, aby měla smysl indikace na minuty.
+
+### 4. Malý zvon místo velkého — úspornost jako princip
+
+Janvier doporučuje **malý zvonek se stříbřitým tónem** místo nákladného velkého zvonu:
+
+> „**Si l'on veut construire des Horloges d'un petit volume... il faut
+> employer une petite cloche bien sonore, d'un ton argentin... Par une
+> telle disposition on évitera une dépense considérable.**"
+> — Janvier 1811
+
+To není jen návrh úspory; je to **celostná koncepce** — malé hodiny + malý ciferník + jedna ručka + malý zvon = řešení **přiměřené ekonomickým možnostem venkovské fary**.
+
+### Janvier vs Božek/Benson — dva odlišné paradigma
+
+| Aspekt | Janvier 1811 | Božek 1859 / Benson 1863 |
+|---|---|---|
+| **Cílový zadavatel** | Malá venkovská obec, fara | Velké město, parlament, parish |
+| **Ručky** | **Jedna** (jen hodinová) | **Dvě** (hodinová + minutová, tvarem odlišené) |
+| **Velikost ciferníku** | 3–4 pieds (≈ 100–130 cm) | 200–300 cm (městské věže) |
+| **Filozofie** | **Minimalismus + úspornost** | **Maximalizace informace** |
+| **Indikace** | Hodiny + půlhodiny | Hodiny + minuty |
+| **Zvon** | Malý stříbřitý tón | Velký dálkový dosah |
+
+Janvier reprezentuje **starší jednoručkovou tradici** (přežívající z 17.–18. století), kterou aplikuje na ekonomické řešení pro malé obce. Božek a Benson naopak reprezentují **moderní industriální očekávání** — město 19. století už požaduje minuty, ne jen hodiny, a velké hodiny dvouručkové se staly normou. Obě paradigmata jsou platná **pro svůj kontext** — Janvierovský minimalismus pro vesnickou fasádu, Božkovský maximalismus pro radniční věž průmyslového města.
+
+> **Pozn. k souvislosti s italskými hodinami:** Janvierova teze o jediné ručce a 2 obězích za den se podobá ranější francouzské *horloge à une aiguille*. Ta sama o sobě vznikla z dělení **2 × 12 hodin** (rovnodenné hodiny po půlnoci a poledni). To je opak italského systému, kde byl jediný 24hodinový obrat ručky počítaný od západu Slunce (viz [italské hodiny](/slovnik/italske-hodiny)).
 
 ## Petr Skála (2005) — typologie ručiček na starých věžních ciferníkách
 

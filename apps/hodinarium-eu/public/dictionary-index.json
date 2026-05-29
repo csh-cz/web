@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generated": "2026-05-29T21:01:17.577Z",
-    "count": 236,
+    "generated": "2026-05-29T21:23:13.503Z",
+    "count": 237,
     "stubs": 75,
     "redirects": 15,
     "withConceptId": 56,
@@ -3229,6 +3229,7 @@
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
+        "italske-hodiny",
         "hodiny-polouorlojni",
         "hodiny-planetni"
       ],
@@ -3690,6 +3691,121 @@
         "vlasek",
         "chronometr",
         "krok"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "italske-hodiny": {
+      "lemma": "italské hodiny (sistema orario italiano)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "italské hodiny",
+          "status": "preferred",
+          "note": "Souhrnný cs termín pro **24hodinový systém počítaný od západu Slunce** (it. *ore italiche* / *all'italiana* / *dal tramonto* / *ab occasu Solis*). Užíván v Itálii od pol. 14. století do napoleonských válek; lokálně v Římě do roku 1846 (Quirinal), v některých kostelech jižní Itálie do 20. století (Arnaldi 2007).",
+          "doloženo": "Šolc 2009, Pakosta 2009, Arnaldi 2006/2007"
+        },
+        {
+          "term": "ora italica",
+          "status": "preferred",
+          "note": "Italský technický termín v moderní gnomonice (Arnaldi 2006/2007 — *Le ore italiane. Origine e declino…*)."
+        },
+        {
+          "term": "alla romana",
+          "status": "admitted",
+          "note": "Italské synonymum — „po římsku\" (jihoitalský úzus, zejména v bývalém Papežském státu a v Neapolském království)."
+        },
+        {
+          "term": "all''italiana",
+          "status": "admitted",
+          "note": "Italské synonymum — „po italsku\" (severo- a středoitalský úzus)."
+        },
+        {
+          "term": "ore da campanile",
+          "status": "admitted",
+          "note": "Italský termín pro **variantu** ze 17. století — 24. hodina **půl hodiny po západu Slunce** (konec soumraku, signál Ave Maria). Doloženo Vimercato 1565, Scanavacca 1688, Figatelli 1675; jako pevné pravidlo od cca 1670 (Arnaldi 2007)."
+        },
+        {
+          "term": "hora bohemica",
+          "status": "admitted",
+          "note": "Latinský termín ze 14.–16. století; označuje totéž ab-occasu počítání ve východní části Říše (Boemia, Slezsko, Rakousy). Bilfinger 1892 cituje pramen rozlišující *italský* (počítání od východu Slunce) a *český* (počítání od západu Slunce). Viz [hodiny celé / česká hodina](/slovnik/hodiny-celeorloje)."
+        },
+        {
+          "term": "italsko-boemská hodina",
+          "status": "admitted",
+          "note": "Souborný moderní badatelský termín pro 24hodinový ab-occasu systém — používáno Ungererem 1926 („heures italiennes ou bohémiennes\"), v cs literatuře Šolc 2009 jako „staročeský či italský čas\"."
+        },
+        {
+          "term": "sistema orario a 6 ore",
+          "status": "preferred",
+          "note": "Italský termín pro **variantu** zavedenou papežem Klimentem VII. (kolem 1537): odbíjení 1–6 čtyřikrát denně (Arnaldi 2006, cit. Ranieri 1887). Užíváno zejména v Papežském státě a Neapolském království; Ungerer 1926 zaznamenává přežívání do počátku 20. století. Český ekvivalent NEEXISTUJE."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "italische Stunden",
+            "genus": "f",
+            "zdroj": "DE — italské hodiny (Bilfinger 1892, „italische Zählung\")."
+          },
+          {
+            "term": "böhmische Stunden",
+            "genus": "f",
+            "zdroj": "DE — české hodiny (Bilfinger 1892 — paralelní termín pro tutéž 24h ab-occasu metodu v Čechách)."
+          },
+          {
+            "term": "Stunden ab occasu",
+            "genus": "f",
+            "zdroj": "DE latinizující — „hodiny od západu Slunce\" (Bach 1985 v kontextu de Dondiho astraria)."
+          }
+        ],
+        "en": [
+          {
+            "term": "Italian hours",
+            "zdroj": "EN — italské hodiny (Álvarez 2015, „Italian clock\" of Rialto, Venice)."
+          },
+          {
+            "term": "Bohemian hours",
+            "zdroj": "EN — české hodiny (paralelní úzus v anglické historiografii)."
+          },
+          {
+            "term": "hours from sunset",
+            "zdroj": "EN deskriptivní — „hodiny od západu Slunce\"."
+          }
+        ],
+        "fr": [
+          {
+            "term": "heures italiennes",
+            "genus": "f",
+            "zdroj": "FR — italské hodiny (Ungerer 1926, *Les horloges d'édifice*: „heures italiennes ou bohémiennes\")."
+          },
+          {
+            "term": "heures bohémiennes",
+            "genus": "f",
+            "zdroj": "FR — české hodiny (Ungerer 1926 — synonymum k italským)."
+          },
+          {
+            "term": "heures ab occasu",
+            "genus": "f",
+            "zdroj": "FR latinizující — „hodiny od západu Slunce\"."
+          },
+          {
+            "term": "heures à la française",
+            "genus": "f",
+            "zdroj": "FR — protiklad: rovnodenné hodiny od půlnoci/poledne. Tímto pojmem Italové (např. Quirinal 1846) označovali přechod od italských ke „francouzským\" hodinám."
+          }
+        ]
+      },
+      "definice": "Italský **24hodinový systém počítaný od západu Slunce** (it. *ora italica*, lat. *hora ab occasu Solis*). Den začíná v okamžiku západu Slunce předchozího dne; 24. hodina nastává opět při západu Slunce (resp. ve variantě *da campanile* půl hodiny po západu, při skončení soumraku a signálu Ave Maria). Užíván v **Itálii** od pol. 14. století (1335 Milán, věž S. Gottardo — první orloj s číselníkem 24 hodin) do napoleonských válek; v Římě (Quirinal) do roku 1846; v jednotlivých kostelech jižní Itálie a Sicílie přežívá do konce 19. století (Modica 1891 — poslední doložený sluneční ciferník). **Paralelní úzus v Čechách, Slezsku a Rakousech** (lat. *hora bohemica*) — odtud souborný termín *heures italiennes ou bohémiennes* (Ungerer 1926); Pražský orloj zobrazuje 24hodinový staročeský čas dodnes (vnější otáčející se prstenec s gotickými číslicemi). **Varianta 6hodinová** (it. *sistema orario a 6 ore*) — odbíjení 1–6 čtyřikrát denně, zavedená papežem Klimentem VII. (doloženo 1537 v Bologni, Ranieri *Diario*); rozšířená v Papežském státě a Neapolském království, pozorovatelná na věžních ciferníkách dodnes.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "hodiny-celeorloje",
+        "hodiny-polouorlojni",
+        "hodiny-planetni",
+        "ciselnik"
       ],
       "isStub": false,
       "redirectTo": null
