@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-29T21:26:24.002Z",
+  "generatedAt": "2026-05-30T07:19:42.144Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
-    "slovnik": 237,
+    "slovnik": 238,
     "hodinari": 170,
     "hodinariTs": 170,
     "soupis": 443
   },
-  "count": 1865,
+  "count": 1866,
   "words": [
     "Abraham",
     "Accutron",
@@ -49,6 +49,7 @@
     "astronomická",
     "astronomicke",
     "astronomické",
+    "astronomický",
     "Augustina",
     "aus",
     "automat",
