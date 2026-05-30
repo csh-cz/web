@@ -65,7 +65,11 @@ tmp/
 
 # zdroje/ — pracovní materiály mimo git (PDF originály, fotky pro zpracování,
 # ZIP archivy z Google Photos atd.). Příliš velké, ne všechny patří publikovat.
-zdroje/
+# Výjimka: zdroje/README.md = guide pro budoucí session, smí být committed.
+# Pozn.: `zdroje/**` (ne `zdroje/`) je nutné, aby `!` výjimka mohla fungovat —
+# directory-level rule (`zdroje/`) git neumí selektivně přebít.
+zdroje/**
+!zdroje/README.md
 
 # macOS Finder aliases / drag-drop omylem
 fo:Users:*
