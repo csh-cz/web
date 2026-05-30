@@ -1723,6 +1723,7 @@
         "1861-sobotka-prokes"
       ],
       "slovnik": [
+        "astronomicky-ciselnik",
         "barokni-ciselnik",
         "cifernik",
         "citelnost-ciselniku",
@@ -2216,6 +2217,7 @@
     "orloj": {
       "slovnik": [
         "astrolab",
+        "astronomicky-ciselnik",
         "kalendarium",
         "tatrmani-aparat"
       ]
@@ -2280,6 +2282,47 @@
         "hridelik-orloje",
         "jici-stroj",
         "ukazovaci-stroj"
+      ]
+    },
+    "barokni-ciselnik": {
+      "slovnik": [
+        "astronomicky-ciselnik",
+        "citelnost-ciselniku",
+        "osvetleni-ciselniku"
+      ]
+    },
+    "italske-hodiny": {
+      "slovnik": [
+        "astronomicky-ciselnik",
+        "hodiny-celeorloje"
+      ]
+    },
+    "hodiny-celeorloje": {
+      "slovnik": [
+        "astronomicky-ciselnik",
+        "claves-paschae",
+        "hodiny-planetni",
+        "hodiny-polouorlojni",
+        "hruden",
+        "italske-hodiny",
+        "minuta-hodinarska",
+        "okolek"
+      ]
+    },
+    "hodiny-polouorlojni": {
+      "slovnik": [
+        "astronomicky-ciselnik",
+        "hodiny-celeorloje",
+        "hodiny-planetni",
+        "italske-hodiny"
+      ]
+    },
+    "hodiny-planetni": {
+      "slovnik": [
+        "astronomicky-ciselnik",
+        "hodiny-celeorloje",
+        "hodiny-polouorlojni",
+        "italske-hodiny"
       ]
     },
     "korunka": {
@@ -2570,26 +2613,9 @@
         "restaurovani"
       ]
     },
-    "barokni-ciselnik": {
-      "slovnik": [
-        "citelnost-ciselniku",
-        "osvetleni-ciselniku"
-      ]
-    },
     "hruden": {
       "slovnik": [
         "claves-paschae"
-      ]
-    },
-    "hodiny-celeorloje": {
-      "slovnik": [
-        "claves-paschae",
-        "hodiny-planetni",
-        "hodiny-polouorlojni",
-        "hruden",
-        "italske-hodiny",
-        "minuta-hodinarska",
-        "okolek"
       ]
     },
     "linea-aspectus": {
@@ -2838,25 +2864,6 @@
         "minutova-trubka",
         "ruckove-soukoli",
         "ruckovy-pastorek"
-      ]
-    },
-    "italske-hodiny": {
-      "slovnik": [
-        "hodiny-celeorloje"
-      ]
-    },
-    "hodiny-polouorlojni": {
-      "slovnik": [
-        "hodiny-celeorloje",
-        "hodiny-planetni",
-        "italske-hodiny"
-      ]
-    },
-    "hodiny-planetni": {
-      "slovnik": [
-        "hodiny-celeorloje",
-        "hodiny-polouorlojni",
-        "italske-hodiny"
       ]
     },
     "strana-orloje": {

@@ -51,4 +51,4 @@ Pouhé věžní hodiny s číselníkem (i monumentální) **nejsou orlojem** —
 
 ## Příbuzné termíny
 
-[sphera](/slovnik/sphera) (astronomický číselník), [zodiak](/slovnik/zodiak), [astroláb](/slovnik/astrolab), [tatrmani / aparát](/slovnik/tatrmani-aparat) (figurky), [kalendárium](/slovnik/kalendarium).
+[astronomický číselník](/slovnik/astronomicky-ciselnik) (typologie A-D), [sphera](/slovnik/sphera) (synonymum), [zodiak](/slovnik/zodiak), [astroláb](/slovnik/astrolab), [tatrmani / aparát](/slovnik/tatrmani-aparat) (figurky), [kalendárium](/slovnik/kalendarium).

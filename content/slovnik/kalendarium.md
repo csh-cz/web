@@ -55,6 +55,7 @@ Pro detail viz Horský 1988 — *Pražský orloj*.
 ## Související
 
 - [orloj](/slovnik/orloj) — hlavní heslo
-- [astroláb](/slovnik/astrolab) — astronomický číselník (nadřazený)
+- [astronomický číselník](/slovnik/astronomicky-ciselnik) — nadřazené heslo (kalendárium je jeho dolní část)
+- [astroláb](/slovnik/astrolab) — astronomický přístroj, jehož princip tvoří základ typu A
 - [zodiak](/slovnik/zodiak), [znameni-zodiaku](/slovnik/znameni-zodiaku) — stupnice
 - [sphera](/slovnik/sphera)

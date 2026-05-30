@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generated": "2026-05-29T21:23:13.503Z",
-    "count": 237,
+    "generated": "2026-05-30T07:17:36.102Z",
+    "count": 238,
     "stubs": 75,
     "redirects": 15,
     "withConceptId": 56,
@@ -447,6 +447,89 @@
         "zodiak",
         "sphera",
         "kralovska-hridel"
+      ],
+      "isStub": false,
+      "redirectTo": null
+    },
+    "astronomicky-ciselnik": {
+      "lemma": "astronomický číselník",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "astronomický číselník",
+          "status": "preferred",
+          "note": "Souhrnný cs odborný termín — ciferník, který kromě hodinového času zobrazuje astronomické údaje (poloha Slunce/Měsíce v zvířetníku, východ/západ Slunce, fáze Měsíce, druhy historického času, kalendárium). Šolc 2009 dělí na **4 typy A-D** podle konstrukčního principu.",
+          "doloženo": "Šolc 2009, Pakosta 2007, Křížek 2009, Hadravová/Hadrava 2009"
+        },
+        {
+          "term": "orlojní číselník",
+          "status": "admitted",
+          "note": "Synonymum — *číselník orloje* (Táborský 1570 *Sprawa o orlogi prasskem*). Důraz na propojení s orlojní mechanikou."
+        },
+        {
+          "term": "astroláb (na orloji)",
+          "status": "admitted",
+          "note": "Šolc 2009 typ A — *číselníky, jejichž základ tvoří astroláb*. Vychází ze stereografické projekce nebeské sféry do roviny."
+        },
+        {
+          "term": "planisférium",
+          "status": "admitted",
+          "note": "Hadravová/Hadrava 2009 — rovinný *planisférický astroláb* (na rozdíl od sférického). Stupnice zobrazuje celou oblohu (nebo její podstatnou část) jako 2D obraz."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "astronomisches Zifferblatt",
+            "genus": "n",
+            "zdroj": "DE souhrnný termín pro astronomický číselník."
+          },
+          {
+            "term": "Astrolabium",
+            "genus": "n",
+            "zdroj": "DE technický — astroláb / planisférický astroláb (jako konstrukční princip orlojního ciferníku, Bilfinger 1892)."
+          }
+        ],
+        "en": [
+          {
+            "term": "astronomical dial",
+            "zdroj": "EN — souhrnný termín (Álvarez 2015, Turner 1975)."
+          },
+          {
+            "term": "astrolabe dial",
+            "zdroj": "EN — specifický typ A v Šolcově klasifikaci (astrolabe-based dial)."
+          },
+          {
+            "term": "planispheric dial",
+            "zdroj": "EN — pro planisférické astroláby (Hadravová/Hadrava 2009 referenčně)."
+          }
+        ],
+        "fr": [
+          {
+            "term": "cadran astronomique",
+            "genus": "m",
+            "zdroj": "FR — souhrnný termín (Ungerer 1926)."
+          },
+          {
+            "term": "astrolabe planisphérique",
+            "genus": "m",
+            "zdroj": "FR technický (Ungerer 1931 *Les horloges astronomiques et monumentales*)."
+          }
+        ]
+      },
+      "definice": "Číselník, který kromě hodinového času zobrazuje **astronomické údaje** — polohu Slunce a Měsíce ve znameních zvěrokruhu, jejich východy a západy, délku světlého dne a noci, fáze Měsíce, případně horizont, soumrak a kalendárium. Liší se tak od běžného číselníku, který „říká **kolik je hodin**\" — astronomický číselník „říká, **jak je člověk zasazen do rytmu nebe**\". V evropské tradici je typologicky rozdělen Šolcem (2009) na **4 typy**: (A) **astroláb / planisférium** — stereografická projekce nebeské sféry do roviny (Praha, Stralsund, Bern, St. Omer); (B) **centrální kruhy s rafijemi** bez planisféria (Padova, Heilbronn); (C) **smíšený typ** s kruhy i planisfériem (Ulm); (D) **anglický typ** s otočnými kruhy a pevným ukazatelem (Exeter, Ottery). Italský úzus má vlastní variantu se 4 otočnými soustřednými kruhy (Brescia, Mantova, Cremona, Benátky, Clusone). **Pražský orloj** (typ A, projekce ze severního pólu) je vzorovým příkladem — astroláb dokumentovaný k roku 1410, kalendářní deska doplněná v 15. století (dnes Mánesova z 1865); konstrukce vykazuje **nepřesnosti** dobových řemeslníků (Skála 2013, Křížek/Šolc 2010).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "ciselnik",
+        "barokni-ciselnik",
+        "italske-hodiny",
+        "hodiny-celeorloje",
+        "hodiny-polouorlojni",
+        "hodiny-planetni",
+        "orloj"
       ],
       "isStub": false,
       "redirectTo": null

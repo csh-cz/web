@@ -71,30 +71,13 @@ crossRefs:
 
 **Veřejná autorita času.** Věžní hodiny vyjadřují, **kdo má právo určovat veřejný čas**. Na radnici město, na kostele církev, na nádraží dopravní systém, na továrně průmyslový režim práce. Číselník proto **není neutrální** — je to **veřejná norma času**, která říká, podle jakého rytmu má obec žít. Tato městsko-institucionální dimenze vysvětluje, proč v 19. století byla podsvícení Pražského orloje („**Hainz se přimlouval od 1856**", *Zpráva o starobylém orloji*) a Krečmerova **automatizace zapalování plynu** (1866, 1883) tak významné — šlo nejen o pohodlí občanů, ale o městskou reprezentaci modernity.
 
-## Číselník jako astronomický obraz světa
+## Číselník jako astronomický obraz světa — krátké shrnutí
 
 U **astronomických číselníků** přestává být ciferník jen ukazatelem času a stává se **kosmografickým obrazem**. Ukazuje denní dráhu Slunce, znamení zvěrokruhu, fáze Měsíce, horizont, soumrak, kalendář a svátky. Rozdíl je zásadní: *běžný číselník říká **kolik je hodin**, astronomický číselník říká **jak je člověk zasazen do rytmu nebe***.
 
-**Pražský orloj** je vzorovým příkladem této typologie. Pakosta v *STO LET LITOMYŠLSKÉHO ORLOJE 1907–2007* shrnuje:
+**Šolc 2009** rozdělil evropské astronomické číselníky na **4 typy** (A astroláb/planisférium, B centrální kruhy, C smíšený, D anglický s otočnými kruhy). **Pražský orloj** patří k typu A — konstrukce vykazuje řemeslné i konceptuální nepřesnosti (Skála 2013, Křížek/Šolc 2010). **Olomoucký orloj** (Fabricius 1572–1575) představuje paralelní cs typologii.
 
-> „Astronomický ciferník je astroláb poháněný hodinovým strojem orloje.
-> **Znázorňuje geocentrický model vesmíru** s nehybnou Zemí uprostřed
-> kolem níž obíhá Slunce, Měsíc a znamení zvěrokruhu nebeské sféry."
-> — PAKOSTA. *STO LET LITOMYŠLSKÉHO ORLOJE 1907–2007.*
-
-Astronomický ciferník Pražského orloje je dokumentován k roku 1410. **Kalendářní deska** (dnes Mánesova z 1865) byla doplněna později, v 15. století. Konstrukce stupnic se opírá o **stereografickou projekci** povrchu nebeské sféry — viz Skála *Nepřesnosti v konstrukci původního astrolábu* (2013) a Křížek/Šolc *Astronomické omyly provázející pražský orloj* (2010).
-
-**Pražský orloj ručičky a stupnice:**
-- **Pevný střed** — Země; nepohyblivý znak Starého Města pražského do 1648
-- **Otáčejivý prstenec znamení zvěrokruhu** — Mánesovy postavy 1865
-- **Rafije Slunce + Měsíc + hvězdná ručička** s lidskou rukou na konci (viz Pakosta + Křížek *600 let Pražského orloje*)
-- **Pomocná stupnice s arabskými číslicemi** na vnějším černém prstenci — staročeské 24hodinové dělení
-- **Římské číslice I–XII** na vnitřní stupnici — středoevropský čas
-- **Kalendárium** v dolním ciferníku — 12 obrazů měsíců, cisiojanus
-
-Podobně **Benátská Torre dell'Orologio** má pevný mramorový kruh s římskými hodinami, pohyblivý prstenec se znameními zvěrokruhu, ručičku Slunce a disk Země s Měsícem. Původní pozdně středověká podoba měla dokonce zobrazovat **planety podle ptolemaiovského systému**.
-
-**Olomoucký orloj** představuje paralelní cs typologii — viz Knespl *Chyba planetního číselníku olomouckého orloje* a komplexní cyklus Knesplových studií *Anaforické hodiny*, *Giloš*, *Pobaltské orloje Wismar Lübeck*.
+Plný výklad (Šolcova typologie A–D, stereografická projekce, Pražský orloj jako vzorový případ typu A, italská varianta s 4 soustřednými kruhy, čtyřiadvacetník, kalendárium, čtyři druhy zobrazeného času) viz heslo [**astronomický číselník**](/slovnik/astronomicky-ciselnik).
 
 ## Číselník jako kosmologický „čas různého druhu"
 

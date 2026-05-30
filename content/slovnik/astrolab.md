@@ -49,6 +49,7 @@ Pro detailní výklad mechaniky viz Skála 2013 — *Nepřesnosti v konstrukci p
 ## Související
 
 - [orloj](/slovnik/orloj) — komplexní hodinová stavba s astrolabem jako základem
+- [astronomický číselník](/slovnik/astronomicky-ciselnik) — typologie A–D (Šolc 2009); astroláb tvoří princip typu A
 - [sphera](/slovnik/sphera) — astronomický číselník (cs varianta termínu)
 - [zodiak](/slovnik/zodiak), [znameni-zodiaku](/slovnik/znameni-zodiaku) — stupnice na číselníku
 - [kalendárium](/slovnik/kalendarium) — kalendářní disk pod astronomickým číselníkem
