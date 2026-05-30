@@ -1,10 +1,15 @@
 # Setup Cloudflare Web Analytics
 
-Návod pro aktivaci CF Web Analytics beacon na webech `hodinarium-eu` a `horologie-cz`.
+Návod pro aktivaci CF Web Analytics beacon — **aktuálně aktivováno jen na `hodinarium-eu`**, `horologie-cz` záměrně vypnuto (spolkové stránky, malý traffic, dávat counter na úzce zaměřený web spolku není potřeba).
 
 ## Stav
 
-Kód v obou apps už beacon obsahuje (`apps/*/src/layouts/Base.astro`), čeká jen na env proměnnou `PUBLIC_CF_ANALYTICS_TOKEN` v Cloudflare Pages settings. Bez tokenu se script-tag vůbec nevyrenderuje — žádný no-op overhead.
+| Web | Beacon aktivní | Token nastavený | Důvod |
+|---|---|---|---|
+| `hodinarium-eu` | ✅ | `PUBLIC_CF_ANALYTICS_TOKEN` v CF Pages env | sběr Web Vitals + visitor stats |
+| `horologie-cz` | ❌ | bez tokenu | záměrně, spolkový web s malým trafficem |
+
+Kód v obou apps už beacon obsahuje (`apps/*/src/layouts/Base.astro`), je conditional na env proměnnou `PUBLIC_CF_ANALYTICS_TOKEN`. Bez tokenu se script-tag vůbec nevyrenderuje — žádný no-op overhead.
 
 ```astro
 {cfAnalyticsToken && (
@@ -27,7 +32,9 @@ CF Web Analytics je **bez cookies**, **bez fingerprinting**, **bez IP loggingu**
 
 **Neopovídá za:** per-visitor sessions, scroll depth, click heatmaps, A/B testing. Pro to bys potřeboval Umami/Plausible/PostHog.
 
-## Kroky (každý web zvlášť — 2× postup)
+## Kroky (pokud by se rozhodlo i pro horologie-cz později)
+
+> **Pozn.:** Aktuálně potřebné jen pro `hodinarium-eu` — to už hotové. Postup níže je obecný a uplatnitelný i pro `horologie-cz`, kdyby se rozhodlo analytics aktivovat (zatím záměrně vypnuto).
 
 ### A) Vytvořit site v CF Web Analytics
 
