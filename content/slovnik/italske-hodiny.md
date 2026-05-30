@@ -98,12 +98,12 @@ references:
   - bibKey: solcEvropskeAstronomickeOrloje2009
     title: 'Šolc M., *Evropské astronomické orloje*. 2009.'
     citace: '„Babylónský čas od východu Slunce, staročeský či italský čas od západu Slunce předchozího dne (24 hodin, orlojní hodiny)."'
-    note: 'Klíčové cs odborné shrnutí — Šolc explicitně řadí staročeský a italský čas do téže kategorie *ab occasu*.'
+    note: 'Cs odborné shrnutí (zdroj plně dostupný DML-CZ). Šolc řadí staročeský a italský čas do téže kategorie *ab occasu* — to ale **přebírá Horský 1988 a Ungerer 1926** bez nezávislého ověření. Pro primární doklad sjednocení viz Bilfinger 1892 a Ungerer 1926 přímo.'
     key: solc-2009
   - bibKey: krizek2009prazskyOrloj
     title: 'Křížek M., *600 let Pražského orloje*. 2009.'
     citace: '„Italské hodiny, kterým se u nás říkalo „staročeské". Den se dělil na 24 hodin, ale 0 či 24 hodin bylo v okamžiku západu Slunce. V tu chvíli orloj skutečně odbíjel 24 úderů. Na orloji je proto umístěn vnější ciferník, zvaný „čtyřiadvacetník", který se musel během roku natáčet, pokud se chtělo zachovat pravidlo, aby Slunce bylo na orloji vždy v poledne nejvýš."'
-    note: 'Klíčové cs vysvětlení čtyřiadvacetníku Pražského orloje a jeho mechanického posunu během roku (kompenzace měnícího se okamžiku západu Slunce).'
+    note: 'Cs popis čtyřiadvacetníku Pražského orloje. **Pozn. ke kritičnosti**: Křížek (matematik AV ČR) přebírá popis z Horského 1988 bez nezávislého ověření v exponátu — pro primární popis viz Horský 1988 přímo.'
     key: krizek-2009
   - bibKey: hadravoveStaromestskyOrlojSkola2009
     title: 'Hadravová A., Hadrava P., *Zázemí staroměstského orloje v pražské astronomické škole*. Pokroky matematiky, fyziky a astronomie 54, 2009, č. 4.'
@@ -292,7 +292,7 @@ Bilfinger 1892 cituje středověký pramen, který paradoxně tvrdí, že **ital
 
 Tento rozpor s pozdějším územ 14.–19. století (kdy oba ab-occasu splynuly) je sám o sobě cenným dokladem **historické variability**. Pozdější ustálená terminologie:
 
-- **Italské hodiny** = od **západu** Slunce (Arnaldi 2007, Ungerer 1926, Šolc 2009)
+- **Italské hodiny** = od **západu** Slunce (Arnaldi 2007 — primární italská gnomonika; Ungerer 1926 — primární FR; Šolc 2009 — cs sekundární přehled)
 - **Babylonské hodiny** = od **východu** Slunce (astronomický termín)
 - **České hodiny** = od **západu** Slunce (= italské; Bilfinger 1892, Drábek 1957)
 

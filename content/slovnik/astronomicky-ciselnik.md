@@ -5,14 +5,14 @@ kategorie: mechanika
 varianty:
   - term: astronomický číselník
     status: preferred
-    note: 'Souhrnný cs odborný termín — ciferník, který kromě hodinového času zobrazuje astronomické údaje (poloha Slunce/Měsíce v zvířetníku, východ/západ Slunce, fáze Měsíce, druhy historického času, kalendárium). Šolc 2009 dělí na **4 typy A-D** podle konstrukčního principu.'
-    doloženo: 'Šolc 2009, Pakosta 2007, Křížek 2009, Hadravová/Hadrava 2009'
+    note: 'Souhrnný cs odborný termín — ciferník, který kromě hodinového času zobrazuje astronomické údaje (poloha Slunce/Měsíce v zvířetníku, východ/západ Slunce, fáze Měsíce, druhy historického času, kalendárium). Klíčová cs monografie: **Horský 1988** *Pražský orloj* (primární pramen, na ní stojí pozdější autoři).'
+    doloženo: 'Horský 1988 (klíčový), Pakosta 2007, Hadravová/Hadrava 2009. Šolc 2009 a Křížek 2009 jako sekundární astronomické zjednodušení.'
   - term: orlojní číselník
     status: admitted
     note: 'Synonymum — *číselník orloje* (Táborský 1570 *Sprawa o orlogi prasskem*). Důraz na propojení s orlojní mechanikou.'
   - term: astroláb (na orloji)
     status: admitted
-    note: 'Šolc 2009 typ A — *číselníky, jejichž základ tvoří astroláb*. Vychází ze stereografické projekce nebeské sféry do roviny.'
+    note: 'V Šolcově (2009) zjednodušené klasifikaci typ A — *číselníky, jejichž základ tvoří astroláb*. Vychází ze stereografické projekce nebeské sféry do roviny. Pozn.: Šolcova klasifikace je astronomické zjednodušení Horského (1988) podrobnější typologie.'
   - term: planisférium
     status: admitted
     note: 'Hadravová/Hadrava 2009 — rovinný *planisférický astroláb* (na rozdíl od sférického). Stupnice zobrazuje celou oblohu (nebo její podstatnou část) jako 2D obraz.'
@@ -37,7 +37,7 @@ prekladyFr:
   - term: astrolabe planisphérique
     genus: m
     zdroj: 'FR technický (Ungerer 1931 *Les horloges astronomiques et monumentales*).'
-definice: 'Číselník, který kromě hodinového času zobrazuje **astronomické údaje** — polohu Slunce a Měsíce ve znameních zvěrokruhu, jejich východy a západy, délku světlého dne a noci, fáze Měsíce, případně horizont, soumrak a kalendárium. Liší se tak od běžného číselníku, který „říká **kolik je hodin**" — astronomický číselník „říká, **jak je člověk zasazen do rytmu nebe**". V evropské tradici je typologicky rozdělen Šolcem (2009) na **4 typy**: (A) **astroláb / planisférium** — stereografická projekce nebeské sféry do roviny (Praha, Stralsund, Bern, St. Omer); (B) **centrální kruhy s rafijemi** bez planisféria (Padova, Heilbronn); (C) **smíšený typ** s kruhy i planisfériem (Ulm); (D) **anglický typ** s otočnými kruhy a pevným ukazatelem (Exeter, Ottery). Italský úzus má vlastní variantu se 4 otočnými soustřednými kruhy (Brescia, Mantova, Cremona, Benátky, Clusone). **Pražský orloj** (typ A, projekce ze severního pólu) je vzorovým příkladem — astroláb dokumentovaný k roku 1410, kalendářní deska doplněná v 15. století (dnes Mánesova z 1865); konstrukce vykazuje **nepřesnosti** dobových řemeslníků (Skála 2013, Křížek/Šolc 2010).'
+definice: 'Číselník, který kromě hodinového času zobrazuje **astronomické údaje** — polohu Slunce a Měsíce ve znameních zvěrokruhu, jejich východy a západy, délku světlého dne a noci, fáze Měsíce, případně horizont, soumrak a kalendárium. Liší se od běžného číselníku tím, že není primárně časovým ukazatelem, ale **kosmografickou konvencí** (zobrazení pozorovatelné oblohy), nikoli kosmologickým modelem (teorií struktury vesmíru) — geocentrické uspořádání orloje je technické řešení pozičního zobrazení, ne tvrzení o povaze kosmu (viz Olivová 2013). V cs literatuře je klíčovou monografií **Horský 1988** *Pražský orloj* (NTM); francouzskou tradici reprezentuje Ungerer 1931. **Šolc 2009** zjednodušuje Horského podrobnou klasifikaci na 4 typy: (A) **astroláb / planisférium** — stereografická projekce nebeské sféry do roviny (Praha, Stralsund, Bern, St. Omer); (B) **centrální kruhy s rafijemi** bez planisféria (Padova, Heilbronn); (C) **smíšený typ** (Ulm); (D) **anglický typ** s otočnými kruhy a pevným ukazatelem (Exeter, Ottery). Italský úzus má vlastní variantu se 4 otočnými soustřednými kruhy (Brescia, Mantova, Cremona, Benátky, Clusone). **Pražský orloj** (typ A, projekce ze severního pólu) je vzorovým příkladem — astroláb dokumentovaný k roku 1410, kalendářní deska doplněná v 15. století (dnes Mánesova z 1865). Restauratér **Skála 2013** dokumentuje konstrukční odchylky in situ.'
 pribuzne:
   - ciselnik
   - barokni-ciselnik
@@ -50,7 +50,7 @@ references:
   - bibKey: solcEvropskeAstronomickeOrloje2009
     title: 'Šolc M., *Evropské astronomické orloje*. Pokroky matematiky, fyziky a astronomie 54, 2009, č. 4, s. 325–356.'
     citace: '„V analogii s jeho [Horským], v podrobnostech jemněji vypracovanou klasifikací, budeme nadále rozeznávat tyto typy astronomických číselníků: A Číselníky, jejichž základ tvoří astroláb, resp. planisférium, vzniklé stereografickou projekcí nebeské sféry do roviny číselníku. … B Číselníky s centrálními kruhy, na nichž údaje ukazují rafije, tedy bez planisféria (Padova, Heilbronn). C Typ smíšený, který má centrální kruhy i planisférium (Ulm). D Nejčastěji v Anglii se vyskytuje ještě jeden typ číselníku, bez pohyblivých rafijí, ale s otočnými kruhy nesoucími čísla a znamení, na nichž ukazuje pevný ukazatel (Exeter, Ottery)."'
-    note: 'Klíčová cs typologie astronomických číselníků. Autor: Martin Šolc, astronom, Astronomický ústav UK. Plný text DML-CZ: http://dml.cz/dmlcz/141925.'
+    note: 'Astronomické zjednodušení Horského (1988) klasifikace na 4 typy A-D. Autor: Martin Šolc, astronom, Astronomický ústav UK. Plný text DML-CZ: http://dml.cz/dmlcz/141925. **Pozn. ke kritičnosti**: užitečné jako přístupný přehled, ale pro vědecké citace preferuj přímý odkaz na Horský 1988 (primární pramen, na němž Šolc staví bez nezávislého ověření v exponátech).'
     key: solc-2009
   - bibKey: solcEvropskeAstronomickeOrloje2009Praha
     title: 'Šolc M., *Evropské astronomické orloje*. 2009 — Pražský orloj jako typ A.'
@@ -75,7 +75,7 @@ references:
   - bibKey: krizek2009prazskyOrloj
     title: 'Křížek M., *600 let Pražského orloje*. 2009.'
     citace: '„Italské hodiny, kterým se u nás říkalo „staročeské". Den se dělil na 24 hodin, ale 0 či 24 hodin bylo v okamžiku západu Slunce. V tu chvíli orloj skutečně odbíjel 24 úderů. Na orloji je proto umístěn vnější ciferník, zvaný „čtyřiadvacetník", který se musel během roku natáčet, pokud se chtělo zachovat pravidlo, aby Slunce bylo na orloji vždy v poledne nejvýš."'
-    note: 'Křížek vysvětluje čtyřiadvacetník — vnější otáčející se prstenec s gotickými arabskými číslicemi pro staročeský/italský čas.'
+    note: 'Křížek (matematik, Matematický ústav AV ČR) vysvětluje čtyřiadvacetník. **Pozn. ke kritičnosti**: přebírá Horského 1988 bez nezávislého ověření, místy zaměňuje kosmografickou konvenci za kosmologický model. Pro primární pramen viz Horský 1988 přímo.'
     key: krizek-2009
   - bibKey: pakostaStoLetLitomyslOrloj2007
     title: 'Pakosta, *STO LET LITOMYŠLSKÉHO ORLOJE 1907–2007*. 2007.'
@@ -88,7 +88,7 @@ references:
     key: skala-2013-nepresnosti
   - bibKey: krizekSolcAstronomickeOmyly2010
     title: 'Křížek M., Šolc M., *Astronomické omyly provázející pražský orloj*. 2010.'
-    note: 'Doplňující studie ke Skálovi 2013 — astronomické chyby (nikoli ručního provedení, ale **konceptuální**) v sestavení Pražského orloje od středověku.'
+    note: 'Sekundární analýza z pozice moderní astronomické přesnosti. **Pozn. ke kritičnosti**: titulní frázování „omyly" je tendenční — středověký řemeslník neměl nástroje pro přesnost požadovanou autory. Pro epistemologické rámování viz Olivová 2013 (orloj je „veliké středověké planetárium", ne přesný měřič). Pro reálné konstrukční odchylky viz Skála 2013 (restaurátorský pohled in situ).'
     key: krizek-solc-2010
   - bibKey: sandlerPlanetniHodiny2013
     title: 'Sandler K., *Planetní hodiny pražského orloje a trisekce úhlu*. Pokroky matematiky, fyziky a astronomie 2013.'
@@ -108,8 +108,8 @@ references:
     note: 'Klasická FR monografie o astronomických orlojích — typologie podle Horského (1988) navazuje na starší klasifikaci Ungererovu.'
     key: ungerer-1931
   - bibKey: horsky1988prazskyOrloj
-    title: 'Horský Z., *Pražský orloj*. Praha 1988.'
-    note: 'Klíčová cs monografie o Pražském orloji. Horský zavedl podrobnou klasifikaci evropských astronomických orlojů, kterou Šolc 2009 zjednodušuje na 4 typy A-D.'
+    title: 'Horský Z., *Pražský orloj*. Praha: Panorama, 1988.'
+    note: '**KLÍČOVÁ PRIMÁRNÍ MONOGRAFIE.** Zdeněk Horský (1929-1988), astronom z Astronomického ústavu ČSAV, věnoval orloji systematickou pozornost od 60. let. Provedl podrobnou klasifikaci evropských astronomických orlojů založenou na detailním srovnání primárních pramenů a fyzických exponátů. **Pro vědecké citace preferuj Horského přímo**, ne pozdější sekundární zjednodušení (Šolc 2009, Křížek 2009/2010).'
     key: horsky-1988
 ---
 
@@ -117,9 +117,36 @@ references:
 
 **Astronomický číselník** je ciferník, který kromě hodinového času zobrazuje i **astronomické údaje** — polohu Slunce a Měsíce v zvířetníku, jejich východy a západy, délku světlého dne a noci, fáze Měsíce, případně horizont, soumrak a kalendárium. Liší se od běžného číselníku zásadně — místo aby „říkal **kolik je hodin**", **„říká, jak je člověk zasazen do rytmu nebe"**.
 
-V evropské tradici je typologicky rozdělen **Martinem Šolcem** (*Evropské astronomické orloje*, Pokroky matematiky, fyziky a astronomie 2009) na **4 typy A–D** podle konstrukčního principu. Šolc navazuje na podrobnější klasifikaci **Zdeňka Horského** (*Pražský orloj*, 1988) a francouzské tradice **Alfreda Ungerera** (*Les horloges astronomiques et monumentales*, Strasbourg 1931).
+### Epistemologická poznámka — kosmografie, ne kosmologie
 
-## Šolcova typologie astronomických číselníků
+V cs literatuře se astronomický číselník (zejména Pražský orloj) občas popisuje jako **„zobrazení geocentrického modelu vesmíru"**. To je **přesné jen jako popis konvence**, nikoli povahy věci:
+
+- **Kosmologie** = teorie struktury a vzniku vesmíru (geocentrický vs heliocentrický model, ptolemajovský vs koperníkovský)
+- **Kosmografie** = popis a zobrazení pozorovatelné oblohy (mapa, atlas, astrolábová projekce)
+
+Středověký orloj **NEvyhlašuje kosmologickou tezi** — geocentrické uspořádání ručiček je technické řešení **pozičního zobrazení** (z hlediska pozorovatele na Zemi se ostatní tělesa skutečně pohybují kolem něj). Pražský orloj zůstal funkční i po koperníkovské revoluci (1543) — protože jeho předmětem **není pravda o povaze kosmu, ale praktická demonstrace zdánlivého pohybu**. Olivová 2013 to formuluje výslovně: orloj je „**veliké středověké planetárium**", jehož cílem je demonstrovat pohyb, ne přesně měřit.
+
+Tento rozdíl je v cs literatuře občas rozmlžen (Pakosta 2007: „znázorňuje geocentrický model vesmíru"; podobně Křížek 2009). **Korektnější je popisovat orloj jako kosmografickou konvenci**, ne kosmologický model.
+
+### Cs literatura — primární a sekundární prameny
+
+Klíčovou monografií zůstává **Zdeněk Horský** (*Pražský orloj*, Praha: Panorama 1988) — astronom z Astronomického ústavu ČSAV, který se orloji systematicky věnoval od 60. let; ve své knize provádí podrobnou klasifikaci evropských astronomických orlojů založenou na detailním srovnání primárních pramenů a fyzických exponátů.
+
+Francouzskou klasickou tradici reprezentuje **Alfred Ungerer** *Les horloges astronomiques et monumentales* (Strasbourg 1931) — autor sám konstruktér orlojů (rodinná dílna Ungerer-Strasbourg, Štrasburský orloj 1842 a další).
+
+**Šolc 2009** *Evropské astronomické orloje* (Pokroky matematiky, fyziky a astronomie) — **astronomické zjednodušení** Horského klasifikace na 4 typy A-D. Užitečné jako didaktický přehled, ale k některým bodům je třeba přistupovat opatrně:
+
+- Šolc vychází primárně z Horského 1988 a vlastní astronomické perspektivy (Astronomický ústav UK), **nikoli z přímého ohledání exponátů**
+- Některá tvrzení (např. detaily konstrukce čtyřiadvacetníku, datace, autorství) přebírá bez nezávislého ověření
+- Šolcova klasifikace **zjednodušuje** Horského typologii — pro vědecké citace je primárním pramenem Horský, Šolc 2009 jen jako dostupný plnotextový přehled (DML-CZ)
+
+Podobně **Křížek 2009** *600 let Pražského orloje* a **Křížek/Šolc 2010** *Astronomické omyly provázející pražský orloj* — autoři jsou matematici z Matematického ústavu AV ČR, jejich přístup je z pozice **moderní astronomické přesnosti**, ne středověké horologie. Frázování „omyly" je tendenční (viz Olivová 2013 — orloj nemá demonstrovat přesnost na sekundy).
+
+Pro restaurátorský pohled in situ je nezastupitelný **Petr Skála** (*Nepřesnosti v konstrukci původního astrolábu staroměstského orloje*, 2013) — autor jako restaurátor pracoval přímo na stroji a dokumentuje skutečné konstrukční odchylky.
+
+## Typologie astronomických číselníků (Horský 1988 / Šolcovo zjednodušení 2009)
+
+> **Pozn. k autoritě:** níže uvedená klasifikace A-D je Šolcovo (2009) zjednodušení podrobnější klasifikace z Horského *Pražského orloje* (1988). Pro vědeckou práci preferuj přímý odkaz na Horského. Šolcova verze je užitečná jako přístupný plnotextový přehled (DML-CZ).
 
 ### Typ A — astroláb / planisférium
 
@@ -182,14 +209,16 @@ Existovaly i **sférické astroláby** (3D), z praktických důvodů však postu
 
 ## Pražský orloj jako vzorový případ typu A
 
-**Pražský orloj** je vzorovým příkladem Šolcova typu A — projekce ze severního pólu. Astronomický ciferník dokumentovaný **k roku 1410**, kalendářní deska doplněna **v 15. století**.
+**Pražský orloj** je vzorovým příkladem typu A — projekce ze severního pólu. Astronomický ciferník dokumentovaný **k roku 1410**, kalendářní deska doplněna **v 15. století**.
 
-**Pakosta** v *STO LET LITOMYŠLSKÉHO ORLOJE 1907–2007* formuluje typický geocentrický paradigma:
+**Pakosta** v *STO LET LITOMYŠLSKÉHO ORLOJE 1907–2007* používá obvyklou (ale viz výše kritickou poznámku ke kosmologii × kosmografii) formulaci:
 
 > „Astronomický ciferník je **astroláb poháněný hodinovým strojem orloje**.
 > Znázorňuje **geocentrický model vesmíru** s nehybnou Zemí uprostřed,
 > kolem níž obíhá Slunce, Měsíc a znamení zvěrokruhu nebeské sféry."
 > — PAKOSTA. *STO LET LITOMYŠLSKÉHO ORLOJE 1907–2007.*
+
+Pozn.: Pakostova formulace „znázorňuje geocentrický model vesmíru" je **kosmografická konvence** (poziční zobrazení z hlediska pozorovatele), ne kosmologické tvrzení o povaze vesmíru. Středověký orloj **nepředkládá teorii**, ale **demonstruje zdánlivý pohyb** — proto zůstal funkční i po koperníkovské revoluci.
 
 ### Ručky a stupnice Pražského orloje
 
@@ -203,15 +232,13 @@ Existovaly i **sférické astroláby** (3D), z praktických důvodů však postu
 | **Hodinové oblouky uvnitř kruhu** | Planetní (temporální) hodiny — Sandler 2013 |
 | **Kalendárium v dolním ciferníku** | 12 obrazů měsíců, **cisiojanus** (mnemotechnické verše svátků), Mánes 1865 |
 
-### Astronomické omyly a nepřesnosti
+### „Astronomické omyly" — k literatuře kriticky
 
-Pražský orloj vykazuje **konceptuální i řemeslné nepřesnosti** dokumentované recentní cs literaturou:
+Recentní cs literatura dokumentuje **konstrukční odchylky** Pražského orloje. Tři klíčové práce mají velmi odlišnou metodologickou váhu:
 
-- **Skála 2013** *Nepřesnosti v konstrukci původního astrolábu staroměstského orloje* — řemeslné odchylky od ideální stereografické projekce
-- **Křížek/Šolc 2010** *Astronomické omyly provázející pražský orloj* — konceptuální chyby (např. správa znamení Saturna, polohy obratníků)
-- **Olivová 2013** *Oprava chyby na astronomickém ciferníku pražského orloje* — konkrétní oprava při restauraci
-
-Olivová zdůrazňuje, že tyto chyby nesnižují hodnotu díla:
+- **Skála 2013** *Nepřesnosti v konstrukci původního astrolábu staroměstského orloje* — **primární restaurátorský pohled in situ**. Autor jako restaurátor pracoval přímo na stroji, dokumentuje měřitelné řemeslné odchylky od ideální stereografické projekce. Toto je nejvíc důvěryhodný pramen.
+- **Křížek/Šolc 2010** *Astronomické omyly provázející pražský orloj* — sekundární analýza z pozice **moderní astronomické přesnosti**. Frázování „omyly" je tendenční a chyba metodologická: středověký řemeslník neměl k dispozici nástroje na měření, které by autoři očekávali. Některá tvrzení přebírají z Horského 1988 nekriticky.
+- **Olivová 2013** *Oprava chyby na astronomickém ciferníku pražského orloje* — popis konkrétní opravy při restauraci. **Klíčové epistemologické rámování**:
 
 > „Pražský orloj je vlastně **veliké středověké planetárium** a jeho
 > hlavním úkolem **není ukazovat čas a další astronomické údaje s

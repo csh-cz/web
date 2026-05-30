@@ -75,9 +75,9 @@ crossRefs:
 
 U **astronomických číselníků** přestává být ciferník jen ukazatelem času a stává se **kosmografickým obrazem**. Ukazuje denní dráhu Slunce, znamení zvěrokruhu, fáze Měsíce, horizont, soumrak, kalendář a svátky. Rozdíl je zásadní: *běžný číselník říká **kolik je hodin**, astronomický číselník říká **jak je člověk zasazen do rytmu nebe***.
 
-**Šolc 2009** rozdělil evropské astronomické číselníky na **4 typy** (A astroláb/planisférium, B centrální kruhy, C smíšený, D anglický s otočnými kruhy). **Pražský orloj** patří k typu A — konstrukce vykazuje řemeslné i konceptuální nepřesnosti (Skála 2013, Křížek/Šolc 2010). **Olomoucký orloj** (Fabricius 1572–1575) představuje paralelní cs typologii.
+Klíčovou cs monografií zůstává **Horský 1988** *Pražský orloj* (Panorama) — podrobná klasifikace evropských astronomických orlojů. **Šolc 2009** ji zjednodušuje na 4 typy (A astroláb/planisférium, B centrální kruhy, C smíšený, D anglický s otočnými kruhy). **Pražský orloj** patří k typu A; restaurátorský popis konstrukčních odchylek viz Skála 2013. **Olomoucký orloj** (Fabricius 1572–1575) představuje paralelní cs typologii.
 
-Plný výklad (Šolcova typologie A–D, stereografická projekce, Pražský orloj jako vzorový případ typu A, italská varianta s 4 soustřednými kruhy, čtyřiadvacetník, kalendárium, čtyři druhy zobrazeného času) viz heslo [**astronomický číselník**](/slovnik/astronomicky-ciselnik).
+Plný výklad — typologie A–D, stereografická projekce, Pražský orloj jako vzorový případ typu A, italská varianta s 4 soustřednými kruhy, čtyřiadvacetník, kalendárium, čtyři druhy zobrazeného času, **kritické rámování Šolc/Křížek vs Horský/Skála a rozdíl kosmologie × kosmografie** — viz heslo [**astronomický číselník**](/slovnik/astronomicky-ciselnik).
 
 ## Číselník jako kosmologický „čas různého druhu"
 
