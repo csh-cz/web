@@ -288,78 +288,79 @@ const ATTACHMENT_KEYS = [
 ];
 
 // === IMPLEMENTACE ===
+// Pozn.: Zotero "Run JavaScript" dialog už obaluje kód do AsyncFunction,
+// proto NEpoužíváme vlastní (async () => {})() wrapper — return na
+// nejvyšší úrovni funguje a vrátí výsledek do dialogu.
 
-(async () => {
-  const libraryID = Zotero.Libraries.userLibraryID;
-  const results = {
-    found: 0,
-    not_found: 0,
-    already_trashed: 0,
-    trashed: 0,
-    errors: [],
-  };
+const libraryID = Zotero.Libraries.userLibraryID;
+const results = {
+  found: 0,
+  not_found: 0,
+  already_trashed: 0,
+  trashed: 0,
+  errors: [],
+};
 
-  Zotero.debug('=== zotero-trash-duplicates: START ===');
-  Zotero.debug(`DRY_RUN = ${DRY_RUN}`);
-  Zotero.debug(`Total candidates: ${ATTACHMENT_KEYS.length}`);
+Zotero.debug('=== zotero-trash-duplicates: START ===');
+Zotero.debug(`DRY_RUN = ${DRY_RUN}`);
+Zotero.debug(`Total candidates: ${ATTACHMENT_KEYS.length}`);
 
-  const idsToTrash = [];
+const idsToTrash = [];
 
-  for (const key of ATTACHMENT_KEYS) {
-    try {
-      const item = await Zotero.Items.getByLibraryAndKeyAsync(libraryID, key);
-      if (!item) {
-        results.not_found++;
-        continue;
-      }
-      results.found++;
-      if (item.deleted) {
-        results.already_trashed++;
-        continue;
-      }
-      idsToTrash.push(item.id);
-    } catch (e) {
-      results.errors.push({key, error: String(e)});
+for (const key of ATTACHMENT_KEYS) {
+  try {
+    const item = await Zotero.Items.getByLibraryAndKeyAsync(libraryID, key);
+    if (!item) {
+      results.not_found++;
+      continue;
     }
+    results.found++;
+    if (item.deleted) {
+      results.already_trashed++;
+      continue;
+    }
+    idsToTrash.push(item.id);
+  } catch (e) {
+    results.errors.push({key, error: String(e)});
   }
+}
 
-  Zotero.debug(`Found: ${results.found}, not_found: ${results.not_found}, already_trashed: ${results.already_trashed}`);
-  Zotero.debug(`To trash: ${idsToTrash.length}`);
+Zotero.debug(`Found: ${results.found}, not_found: ${results.not_found}, already_trashed: ${results.already_trashed}`);
+Zotero.debug(`To trash: ${idsToTrash.length}`);
 
-  if (DRY_RUN) {
-    const msg = [
-      '=== DRY RUN — nic se nesmazalo ===',
-      `Kandidátů celkem:     ${ATTACHMENT_KEYS.length}`,
-      `Nalezeno v knihovně:  ${results.found}`,
-      `Nenalezeno (já vím):  ${results.not_found}`,
-      `Už v Trashi:          ${results.already_trashed}`,
-      `K přesunu do Trashe:  ${idsToTrash.length}`,
-      `Chyby:                ${results.errors.length}`,
-      '',
-      'Pro skutečné spuštění: změň `const DRY_RUN = true` na `false` a znovu Run.',
-    ].join('\n');
-    Zotero.debug(msg);
-    return msg;
-  }
-
-  // === SKUTEČNÉ MAZÁNÍ (DRY_RUN=false) ===
-  for (let i = 0; i < idsToTrash.length; i += BATCH_SIZE) {
-    const batch = idsToTrash.slice(i, i + BATCH_SIZE);
-    await Zotero.Items.trashTx(batch);
-    results.trashed += batch.length;
-    Zotero.debug(`Batch ${Math.floor(i/BATCH_SIZE)+1}: trashed ${batch.length} (running total ${results.trashed}/${idsToTrash.length})`);
-  }
-
+if (DRY_RUN) {
   const msg = [
-    '=== HOTOVO ===',
-    `Přesunuto do Trashe: ${results.trashed}`,
-    `Už bylo v Trashi:    ${results.already_trashed}`,
-    `Nenalezeno:          ${results.not_found}`,
-    `Chyby:               ${results.errors.length}`,
+    '=== DRY RUN — nic se nesmazalo ===',
+    `Kandidátů celkem:     ${ATTACHMENT_KEYS.length}`,
+    `Nalezeno v knihovně:  ${results.found}`,
+    `Nenalezeno (jiz pryc):${results.not_found}`,
+    `Uz v Trashi:          ${results.already_trashed}`,
+    `K presunu do Trashe:  ${idsToTrash.length}`,
+    `Chyby:                ${results.errors.length}`,
     '',
-    'Zkontroluj v Zotero → Trash. Když je vše OK: Right-click → Empty Trash.',
-    'Pro obnovu: Right-click na item v Trashi → Restore to Library.',
+    'Pro skutecne spusteni: zmen `const DRY_RUN = true` na `false` a znovu Run.',
   ].join('\n');
   Zotero.debug(msg);
   return msg;
-})();
+}
+
+// === SKUTECNE MAZANI (DRY_RUN=false) ===
+for (let i = 0; i < idsToTrash.length; i += BATCH_SIZE) {
+  const batch = idsToTrash.slice(i, i + BATCH_SIZE);
+  await Zotero.Items.trashTx(batch);
+  results.trashed += batch.length;
+  Zotero.debug(`Batch ${Math.floor(i/BATCH_SIZE)+1}: trashed ${batch.length} (running total ${results.trashed}/${idsToTrash.length})`);
+}
+
+const finalMsg = [
+  '=== HOTOVO ===',
+  `Presunuto do Trashe: ${results.trashed}`,
+  `Uz bylo v Trashi:    ${results.already_trashed}`,
+  `Nenalezeno:          ${results.not_found}`,
+  `Chyby:               ${results.errors.length}`,
+  '',
+  'Zkontroluj v Zotero -> Trash. Kdyz je vse OK: Right-click -> Empty Trash.',
+  'Pro obnovu: Right-click na item v Trashi -> Restore to Library.',
+].join('\n');
+Zotero.debug(finalMsg);
+return finalMsg;
