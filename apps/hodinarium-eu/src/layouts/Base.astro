@@ -115,6 +115,7 @@ const fullTitle = title === "Hodinárium" ? title : `${title} — Hodinárium`;
 const desc = description ?? "Český spolek horologický — sbírka, expozice, projekty.";
 // Cloudflare Web Analytics token — set in CF Pages env as PUBLIC_CF_ANALYTICS_TOKEN.
 // Bez tokenu beacon tag se nevyrenderuje (no-op v dev/preview).
+// Setup viz docs/setup-cloudflare-web-analytics.md.
 const cfAnalyticsToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN as string | undefined;
 
 // GitHub repo pro CMS commit pipeline. Override přes PUBLIC_GITHUB_REPO env

@@ -13,6 +13,8 @@ const { title, description, ogSlug } = Astro.props;
 const fullTitle = title === "Český spolek horologický" ? title : `${title} — Český spolek horologický`;
 const desc = description ?? "Český spolek horologický z. s. — sdružení obdivovatelů hodin, restaurátorů a tvůrců.";
 // Cloudflare Web Analytics token — set in CF Pages env as PUBLIC_CF_ANALYTICS_TOKEN.
+// Bez tokenu beacon tag se nevyrenderuje (no-op v dev/preview).
+// Setup viz docs/setup-cloudflare-web-analytics.md.
 const cfAnalyticsToken = import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN as string | undefined;
 // Dočasně canonical na pages.dev — ostrá doména horologie.cz zatím neběží
 // (po DNS switch změnit zpět a aktualizovat astro.config).
@@ -126,7 +128,7 @@ const orgJsonLd = isHome ? {
       <script type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />
     )}
     {cfAnalyticsToken && (
-      <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={`{"token": "${cfAnalyticsToken}"}`}></script>
+      <script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={`{"token": "${cfAnalyticsToken}"}`}></script>
     )}
   </head>
   <body class="min-h-screen flex flex-col antialiased">
