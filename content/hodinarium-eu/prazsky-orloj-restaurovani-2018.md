@@ -87,6 +87,7 @@ Publikační činnost (výběr):
 
 ## Související
 
+- **[Pražský orloj — boční ciferníky věže Staroměstské radnice](/hodinarium-eu/prazsky-orloj-ciferniky-2018)** — samostatná Skálova práce z 13. 3. 2018 o **bočních hodinových cifernících** (nad astronomickým ciferníkem orloje) — historie 1787 Ferdinand Londensperger → 2017–2018 Skálova rekonstrukce, paralelní k tomuto restaurování stroje
 - [Číselník (číselnik, číselník)](/slovnik/ciselnik) — sekce o orlojních číselníkách + Skálova pravidla rozpoznání ručiček
 - [Ukazovací stroj](/slovnik/ukazovaci-stroj) — odkaz na Skálovu zprávu 2018
 - [Astroláb](/slovnik/astrolab), [orloj](/slovnik/orloj), [kalendárium](/slovnik/kalendarium) — slovník
