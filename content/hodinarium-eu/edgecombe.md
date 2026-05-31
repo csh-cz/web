@@ -30,4 +30,4 @@ Hodiny mají jednoduchou indikaci přerušení dodávky proudu: v otvoru pod č�
 
 - [https://lespook.files.wordpress.com/2010/05/s-108-synclock-a.pdf](https://lespook.files.wordpress.com/2010/05/s-108-synclock-a.pdf) — lespook.files.wordpress.com. [cit. 2026-04-28]
 - http://saluspopulae.co.uk/synclock/content/IMG\_0083\_large.html
-- [Warren Type A Synchronous Electric Clock Motor](https://clockhistory.com/telechron/products/typea/index.html) — clockhistory.com. [cit. 2026-04-28]
+- [Warren Type A Synchronous Electric Clock Motor](https://web.archive.org/web/20240528072022/https://clockhistory.com/telechron/products/typea/index.html) — clockhistory.com. [cit. 2026-04-28]

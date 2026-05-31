@@ -16,7 +16,7 @@ Nejjednodušší je zobrazovat čas vždy správně. Nejlépe touto tautologií:
 
 Naštěstí je možné udělat jakýsi kompromis. **Vyslat informaci o správném čase www serverem a** dále **animovat plynutí času** třeba pomocí JAVA scriptu. Tento animační program zjistí odchylku vašich hodin od spráného času a pak již vesele přičítá vteřiny v rytmu vlastních hodin počítače - s přesností podle podmínek spojení tak 0,5 sekundy.
 
-Tak pracovala například stránka [cs.thetimenow.com](http://cs.thetimenow.com/clock/), kde si návštěvník mohl složit vlastní embed widget — výběr formátu (12 / 24h), barev pozadí i číslic, šířky okraje, fontu. Vložená ukázka byla na původním webu virtuálního muzea, dnes by stejně přestala fungovat (služba změnila API i embed-URL formát).
+Tak pracovala například stránka [cs.thetimenow.com](https://web.archive.org/web/20150920012926/http://cs.thetimenow.com/clock/), kde si návštěvník mohl složit vlastní embed widget — výběr formátu (12 / 24h), barev pozadí i číslic, šířky okraje, fontu. Vložená ukázka byla na původním webu virtuálního muzea, dnes by stejně přestala fungovat (služba změnila API i embed-URL formát).
 
 Na serveru [**www.presnycas.cz**](http://www.presnycas.cz/) tvrdí, že "*Přesný čas na serveru je přímo získáván pomocí protokolu NTP z kořenového časového serveru s atomovými hodinami (odchylka času na našem serveru od absolutně přesného času se pohybuje v řádu milisekund). Na Vašem počítači je čas z našeho serveru zobrazován pomocí Java Apletu. Celková odchylka času zobrazeného na Vašem počítači od atomového času je závislá na kvalitě připojení k Internetu. Řádově se pohybuje do 0,5 sec.*"
 
@@ -28,5 +28,5 @@ Tato kombinace technologií je dostatečně efektní, aby byla zařazena do virt
 
 ## Vložené komponenty
 
-<iframe src="http://cs.thetimenow.com/clock/czech_republic/sob%c4%9bslav?t=n&amp;embed=1&amp;text=12&amp;textdate=15&amp;format=24&amp;digitalclock=30&amp;analogclock=60&amp;letter_spacing=-2&amp;bordersize=1&amp;bordercolor=BCE2F7&amp;bgcolor=EBF8FF&amp;colorloc=000000&amp;colordigital=2C8EBF&amp;colordate=000000&amp;styleloc=normal&amp;styledigital=normal&amp;styledate=normal&amp;right=0" width="200" height="80" loading="lazy" allowfullscreen></iframe>
+<iframe src="https://web.archive.org/web/20150920012926/http://cs.thetimenow.com/clock/czech_republic/sob%c4%9bslav?t=n&amp;embed=1&amp;text=12&amp;textdate=15&amp;format=24&amp;digitalclock=30&amp;analogclock=60&amp;letter_spacing=-2&amp;bordersize=1&amp;bordercolor=BCE2F7&amp;bgcolor=EBF8FF&amp;colorloc=000000&amp;colordigital=2C8EBF&amp;colordate=000000&amp;styleloc=normal&amp;styledigital=normal&amp;styledate=normal&amp;right=0" width="200" height="80" loading="lazy" allowfullscreen></iframe>
 
