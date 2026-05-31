@@ -22,11 +22,11 @@ Krásně zachovalé hodiny velikost 27 x 17 x 15 cm, nepoškozený malovaný č�
 
 Jako obvykle se obrázky na kliknutí zvětší
 
-![18stol 1](/img/svarcvald/18stol1.jpg)
+![Selské malované švarcvaldské hodiny — celkový pohled na malovaný číselník s datem 1771 (cca 27 × 17 × 15 cm); celodřevěný stroj s vřetenovým krokem a Kuhschwanz-kyvadlem](/img/svarcvald/18stol1.jpg)
 
-![18stol 6](/img/svarcvald/18stol6.jpg)![18stol 4](/img/svarcvald/18stol4.jpg)
+![Detail celodřevěného strojku zezadu — dřevěná ozubená kola, lucernové pastorky s cévkami, mosazná řetězová kola pro pohon (místo obvyklého provazu)](/img/svarcvald/18stol6.jpg)![Detail vřetenového kroku — krokové kolo se železnými kolíky (ne korunové ozubení), Kuhschwanz-kyvadlo („kravský ocas“) před číselníkem](/img/svarcvald/18stol4.jpg)
 
-![18stol 5](/img/svarcvald/18stol5.jpg)![18stol 7](/img/svarcvald/18stol7.jpg)
+![Detail bicího stroje se závěrkovým kolem — odbíjení celých hodin do skleněného zvonku zavěšeného na konzoli nad strojem](/img/svarcvald/18stol5.jpg)![Boční pohled na celodřevěný stroj se zachovanými dřevěnými koly a lucernovými pastorky (pravděpodobně restaurované)](/img/svarcvald/18stol7.jpg)
 
 Hodiny na první pohled upoutají perfektním vzhledem. I ozubená dřevěná kola a cévky lucernových pastorků vypadají velmi zachovale. Pravděpodobně jsou hodiny restaurované.
 
