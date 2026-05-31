@@ -1,0 +1,73 @@
+---
+/**
+ * Přepínač viditelnosti editorských poznámek v edicích pramenů.
+ *
+ * Editorské poznámky jsou blockquoty s třídou `editorial-note` (přidává
+ * rehype-editorial-notes). Tlačítko přepíná na kořeni článku třídu
+ * `editorial-collapsed`, která je v global.css schová. Volba se pamatuje
+ * v localStorage. Inline skript aplikuje uloženou volbu okamžitě při
+ * parsování (před vykreslením poznámek) → žádný FOUC; bez JS se nic
+ * neschová a poznámky zůstanou viditelné.
+ *
+ * Renderuje se jen v rubrice /edice (viz Article.astro). Pokud článek
+ * žádnou poznámku neobsahuje, skript přepínač skryje.
+ */
+---
+<div class="editorial-toggle" data-editorial-toggle hidden>
+  <button type="button" class="editorial-toggle__btn" aria-pressed="false">
+    <i class="fa-solid fa-eye-slash editorial-toggle__icon" aria-hidden="true"></i>
+    <span class="editorial-toggle__label">Skrýt editorské poznámky</span>
+  </button>
+</div>
+
+<script is:inline>
+  (function () {
+    var KEY = 'hodinarium:edice-notes'; // 'shown' | 'hidden'
+    var article = document.currentScript.closest('.article-single');
+    if (!article) return;
+
+    // No-FOUC: ulož. volbu aplikuj okamžitě, ještě než se poznámky vykreslí.
+    try {
+      if (localStorage.getItem(KEY) === 'hidden') {
+        article.classList.add('editorial-collapsed');
+      }
+    } catch (e) {}
+
+    function init() {
+      var toggle = article.querySelector('[data-editorial-toggle]');
+      if (!toggle) return;
+      var notes = article.querySelectorAll('.editorial-note');
+      if (!notes.length) return; // není co přepínat — přepínač zůstane skrytý
+
+      var btn = toggle.querySelector('button');
+      var label = toggle.querySelector('.editorial-toggle__label');
+      var icon = toggle.querySelector('.editorial-toggle__icon');
+      toggle.hidden = false;
+
+      function sync() {
+        var collapsed = article.classList.contains('editorial-collapsed');
+        btn.setAttribute('aria-pressed', collapsed ? 'true' : 'false');
+        label.textContent = collapsed
+          ? 'Zobrazit editorské poznámky (' + notes.length + ')'
+          : 'Skrýt editorské poznámky';
+        if (icon) {
+          icon.classList.toggle('fa-eye', collapsed);
+          icon.classList.toggle('fa-eye-slash', !collapsed);
+        }
+      }
+
+      sync();
+      btn.addEventListener('click', function () {
+        var collapsed = article.classList.toggle('editorial-collapsed');
+        try { localStorage.setItem(KEY, collapsed ? 'hidden' : 'shown'); } catch (e) {}
+        sync();
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  })();
+</script>

@@ -88,12 +88,27 @@ function extractFirstImage(body: string): string | null {
     if (rasterRe.test(m[1])) candidates.push({ idx: m.index!, url: m[1] });
   }
 
+  // Pattern D (fallback): `::photo{… src="/img/…"}` direktiva (po migraci A.11
+  // na Sveltia-friendly direktivy). Použije se JEN když výše nic nepadlo —
+  // aby se nezměnily existující thumbnaily článků, co mají i markdown/<Photo>
+  // obrázek. Edice pramenů mají v těle pouze ::photo, takže se vezme hero
+  // (sken první stránky pramene = první ::photo v dokumentu).
+  if (candidates.length === 0) {
+    const rePhotoDir = /::photo\{[\s\S]*?\bsrc=["'](\/img\/[^"']+)["']/g;
+    for (const m of body.matchAll(rePhotoDir)) {
+      if (rasterRe.test(m[1])) candidates.push({ idx: m.index!, url: m[1] });
+    }
+  }
+
   candidates.sort((a, b) => a.idx - b.idx);
   return candidates[0]?.url ?? null;
 }
 
 function countImages(body: string): number {
-  return (body.match(/!\[[^\]]*\]\(/g) ?? []).length;
+  // Markdown `![](…)` + direktiva `::photo{…}` (po A.11 migraci).
+  const md = (body.match(/!\[[^\]]*\]\(/g) ?? []).length;
+  const photoDir = (body.match(/::photo\{/g) ?? []).length;
+  return md + photoDir;
 }
 
 function extractExcerpt(body: string): string {

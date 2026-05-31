@@ -249,6 +249,25 @@
     ]
   },
   {
+    "slug": "balbin-1681-admirandum-horologium",
+    "title": "Balbín 1681 — Obdivuhodné a vzácné dílo, orloj (český překlad pramene)",
+    "category": "edice",
+    "thumbnail": "/img/clanky/balbin-1681/str-155-incipit-caput-xii.jpg",
+    "excerpt": "V roce 1681 vyšla v Praze v tiskárně Georgia Czernocha třetí kniha Balbínových Miscellanea historica Regni Bohemiae, jež obsahuje rozsáhlou kapitolu věnovanou staroměstskému orloji. Jezuita Bohuslav Balbín (1621–1688)…",
+    "year": 1490,
+    "lastModified": null,
+    "imageCount": 6,
+    "wordCount": 8210,
+    "tags": [
+      "praha",
+      "prazsky-orloj",
+      "baroko",
+      "1700s",
+      "preklad-pramene",
+      "popularizace"
+    ]
+  },
+  {
     "slug": "inv-A003-barokni-ministroj-18-stol",
     "title": "Barokní ministroj 18. stol.",
     "category": "sbirka",
@@ -257,7 +276,7 @@
     "excerpt": "Hodinářská expozice byla rozšířena o zapůjčený barokní kovaný čtvrťový stroj pocházející snad z kostela Nanebevzetí Panny Marie ve Zlatých Horách. Restaurování započalo 7. 5. 2012. Miniaturní rozměry stroje (30 × 21 ×…",
     "year": 2012,
     "lastModified": null,
-    "imageCount": 6,
+    "imageCount": 7,
     "wordCount": 482,
     "tags": [
       "hlavni-sal",
@@ -1675,7 +1694,7 @@
     "excerpt": "Autorem hodin je hodinář a řezbář Josef Achrer (\\1927 - +1988). Hodiny byly zhotoveny v roce 1985 pro restauraci ČD v rámci rekonstrukce nádraží v pražských Holešovicích. V roce 2015 byly zakoupeny soukromým sběratele…",
     "year": 1985,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 1,
     "wordCount": 147,
     "vyrobce": "Josef Achrer",
     "tags": [
@@ -2529,7 +2548,7 @@
     "year": null,
     "lastModified": "2023-03-20T10:16:00.000Z",
     "imageCount": 7,
-    "wordCount": 1677,
+    "wordCount": 1661,
     "tags": [
       "jednotny-cas",
       "ntp-rizeno",
@@ -2963,11 +2982,11 @@
     "title": "kované hodiny Legner",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/043a-legner.jpg",
     "excerpt": "Zdeněk Legner po vystudování uměleckoprůmyslové školy v Turnově absolvoval při brněnském muzeu restaurátorskou školu a stal se členem Českého svazu výtvarných umělců v Mánesu a státním restaurátorem. Pracoval na obnov…",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 2,
     "wordCount": 138,
     "tags": [
       "hlavni-sal",
@@ -4138,7 +4157,7 @@
     "excerpt": "Funkční orloj sochařů Petra Skály a Miroslava Kotrby je vybaven mechanikou, zajišťující pohyb podobných ukazatelů, jaké jsou na Pražském orloji. Orloj vznikal pomalu a postupně od roku 2002. Koncepce pohybu soukolí ro…",
     "year": 1907,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 4,
     "wordCount": 230,
     "vyrobce": "Petr Skála a Miroslav Kotrba",
     "tags": [
@@ -4905,11 +4924,11 @@
     "title": "Podružné hodiny s vteřinovkou",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/elektrika/podruzne_sekundove/f/foto_0001.jpg",
     "excerpt": "Akvírovaný stroj podružných hodin — systém s krokovým motorkem řízeným polarizovanými minutovými impulzy, doplněný vteřinovým ukazatelem poháněným synchronním motorkem. Na strojku není označení výrobce, jedná se však …",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 6,
     "wordCount": 232,
     "tags": [
       "vitrina-5-vedlejsi"
@@ -5232,6 +5251,22 @@
     "wordCount": 1561
   },
   {
+    "slug": "prazsky-orloj-ciferniky-2018",
+    "title": "Pražský orloj — boční ciferníky věže Staroměstské radnice",
+    "category": "zajimavosti",
+    "thumbnail": null,
+    "excerpt": "Práce akademického sochaře Petra Skály z 13. března 2018 (Hodinové ciferníky věže Staroměstské radnice) dokumentuje boční hodinové ciferníky na věži Staroměstské radnice — ty se nacházejí nad astronomickým ciferníkem …",
+    "year": 1657,
+    "lastModified": "2026-05-30T22:00:00.000Z",
+    "imageCount": 0,
+    "wordCount": 1516,
+    "tags": [
+      "prazsky-orloj",
+      "restaurovane",
+      "vezni"
+    ]
+  },
+  {
     "slug": "prazsky-orloj-restaurovani-2018",
     "title": "Pražský orloj — restaurování stroje 2018",
     "category": "zajimavosti",
@@ -5240,7 +5275,7 @@
     "year": 1410,
     "lastModified": "2026-05-16T23:30:00.000Z",
     "imageCount": 0,
-    "wordCount": 1380,
+    "wordCount": 1419,
     "tags": [
       "prazsky-orloj",
       "restaurovane",
@@ -6707,13 +6742,13 @@
   {
     "slug": "teicher-1735-popis-orloje",
     "title": "Teicher 1735 — Popsání umného orloje (český překlad pramene)",
-    "category": "zajimavosti",
-    "thumbnail": null,
+    "category": "edice",
+    "thumbnail": "/img/clanky/teicher-1735/titulni-list.jpg",
     "excerpt": "Roku 1735 vyšla v Praze v tiskárně Mathiase Adama Högera (arcibiskupský knihtiskař, sídlo „Königs-Hof\") drobná osmerková kniha s dlouhým barokním titulem Beschreibung des Kunst-reichen Uhr-Wercks Auf dem Rath-Hauss de…",
     "year": 1570,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 4339,
+    "imageCount": 4,
+    "wordCount": 4420,
     "tags": [
       "praha",
       "prazsky-orloj",
@@ -7043,7 +7078,7 @@
     "excerpt": "Kovaný rám obsahuje kyvadlový stroj s vřetenovým krokem v horní nástavbě a půlový bicí stroj se závěrkovým kolem. Škoda, že ozdobné voluty rámu se zachovaly jen u středních sloupků. Na krajních sloupcích jsou ulámané.…",
     "year": 2013,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 9,
     "wordCount": 298,
     "tags": [
       "hlavni-sal",
@@ -7061,7 +7096,7 @@
     "excerpt": "Do expozice Věžního muzejíčka v Soběslavi byl v roce 2012 zapůjčen vřetenový stroj věžních hodin z kostela Nanebevzetí Panny Marie z nedaleké obce Budislav. Stroj byl před mnoha lety demontován a nahrazen mechanickým …",
     "year": 1357,
     "lastModified": null,
-    "imageCount": 9,
+    "imageCount": 12,
     "wordCount": 519,
     "tags": [
       "hlavni-sal",
@@ -7083,7 +7118,7 @@
     "excerpt": "Hodinový stroj je uložen v kovaných pásnicích, které jsou uchyceny v rohových odlévaných sloupcích. Svislé pásnice s ložisky pro kola jsou zdobeny prořezáváním. Chod jicího stroje je řízen Amantovým krokem. Ve stroji …",
     "year": 1898,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 2,
     "wordCount": 216,
     "tags": [
       "hlavni-sal",
@@ -7119,7 +7154,7 @@
     "excerpt": "Hodinový stroj poměrně jednoduché konstrukce je uložen v kovaných pásnicích, které jsou uchyceny v hlavním vodorovném pásu. Pásnice pro hlavní soukolí je k tomuto pásu přichycena jedním šroubem, druhý uchycovací bod j…",
     "year": 1864,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 1,
     "wordCount": 145,
     "vyrobce": "Friedrich Moritz Bassler",
     "tags": [
@@ -7139,7 +7174,7 @@
     "excerpt": "Věžní hodinový stroj od neznámého výrobce původně řídil ručky hodin na fasádě městského domu (Benešov n. Pl.), čemuž odpovídají jeho poměrně malé rozměry. Stroj má jen chodové soukolí, které je oproti běžně používané …",
     "year": 1640,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 2,
     "wordCount": 120,
     "tags": [
       "hlavni-sal",
@@ -7157,7 +7192,7 @@
     "excerpt": "Hodinový stroj věžních hodin podle loga na kontrolním číselníku byl vyroben Chronotechnou Šternberk v šedesátých letech 20. století. Je vybaven půlovým bitím, jicí stroj má Grahamův kotvový krok, řízený kyvadlem s tyč…",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 1,
     "wordCount": 127,
     "tags": [
       "hlavni-sal",
@@ -7175,7 +7210,7 @@
     "excerpt": "Repliku dřevěných věžních hodin vyrobil v roce 2015 pan Peter Fridrich z Hodruše. Hodinový mechanizmus je uložen v dřevěném rámu, má jicí stroj a stroj odbíjení celých hodin. Chod vřetenového kroku je řízen lehkým kyv…",
     "year": 2015,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 1,
     "wordCount": 99,
     "tags": [
       "hlavni-sal",
@@ -7193,7 +7228,7 @@
     "excerpt": "Hodinový stroj má jeden bicí stroj - hodinový. Stroj jicí má krokový mechanismus s klidovým krokem (krok Grahamův s kotvou krátkoramennou). Na hodinovém stroji je osazen kontrolní číselníček. Rám hodin je litinový – d…",
     "year": 1931,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 3,
     "wordCount": 290,
     "vyrobce": "F. X. Beitel",
     "tags": [
@@ -7255,7 +7290,7 @@
     "excerpt": "Další velký exponát Hodinária pochází z evangelického kostela v Podmoklech, v německých pramenech uváděného jako evangelische Christuskirche. Kostel byl vybudován zásluhou podnikatele Franze Jordana, který v Podmoklec…",
     "year": 1884,
     "lastModified": null,
-    "imageCount": 5,
+    "imageCount": 7,
     "wordCount": 379,
     "vyrobce": "Hiemann",
     "tags": [
@@ -7279,7 +7314,7 @@
     "excerpt": "Hodinový stroj je uložen ve zdobném litinovém rámu. Sestává ze dvou soukolí: jicího a bicího. Jicí stroj má vratný kotvový krok ( Clementův).",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 1,
     "wordCount": 157,
     "tags": [
       "hlavni-sal",
@@ -7297,7 +7332,7 @@
     "excerpt": "Hodiny jsou původem z kostela sv. Jiří ve Chřibské. Podle typu konstrukce lze předpokládat, že byly vyrobeny na počátku 18. století. Stroj, sestávající se ze tří částí : hodinového stroje, odbíjení čtvrtí a odbíjení c…",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 2,
     "wordCount": 223,
     "tags": [
       "hlavni-sal",
@@ -7315,7 +7350,7 @@
     "excerpt": "Hodiny pocházejí z kostela Nejsvětější Trojice. Kostel má pohnutou historii: v roce 1859 vyhořel po zásahu moždíře při oslavách na zámku. Majitel panství hrabě Thun zafinancoval stavbu nového kostela, takže již za rok…",
     "year": 1859,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 3,
     "wordCount": 245,
     "tags": [
       "hlavni-sal",
@@ -7333,7 +7368,7 @@
     "excerpt": "Hodinový stroj byl sestaven ze zachráněných kol stroje věžních hodin. Původní rám se nezachoval, soukolí jicího stroje bylo namontováno do nově zhotovené konstrukce. Stroj má Grahamův krok, pohon závažím.",
     "year": 1881,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 2,
     "wordCount": 213,
     "vyrobce": "Johann Lissner",
     "tags": [
@@ -7352,7 +7387,7 @@
     "excerpt": "Hodiny jsou prací hodináře, zřejmě seznámeného s výrobky pražského hodináře Londenspergera. Podle způsobu zpracování lze odhadovat dobu vzniku na první polovinu 19. století. Kovaný rám je spojován klínky, rovněž i spo…",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 2,
     "wordCount": 148,
     "tags": [
       "hlavni-sal",
@@ -7370,7 +7405,7 @@
     "excerpt": "Hodinář Josef Kohlert se narodil v Kraslicích roku 1839. Navázal na hodinářskou tradici v obci, vyučil se hodinářem (roku 1865 je uváděn v matrice s tímto povoláním) a roku 1873 založil hodinářskou firmu. Vyráběl kval…",
     "year": 1839,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 2,
     "wordCount": 214,
     "vyrobce": "Kohlert",
     "tags": [
@@ -7390,7 +7425,7 @@
     "excerpt": "Malý hodinový stroj, mající jen chodové soukolí se dvěma koly: hnacím bubnem a krokovým kolem, je uložen v litinovém rámu. Hodiny jsou výrobkem hodináře Václava Krečmera, který působil na přelomu 19. a 20. století v K…",
     "year": 2002,
     "lastModified": null,
-    "imageCount": 1,
+    "imageCount": 2,
     "wordCount": 104,
     "vyrobce": "Krečmer",
     "tags": [
@@ -7448,7 +7483,7 @@
     "excerpt": "Hodiny byly původně umístěny ve zvonici kostela sv. Petra a Pavla v Horním Prysku. Do expozice Věžního muzejíčka v Soběslavi byly v roce 2012 zapůjčeny laskavostí Biskupství litoměřického, a to před instalací moderníc…",
     "year": 2012,
     "lastModified": null,
-    "imageCount": 11,
+    "imageCount": 14,
     "wordCount": 543,
     "vyrobce": "Michael Christ",
     "tags": [
@@ -7489,7 +7524,7 @@
     "excerpt": "Půlový hodinový stroj s rámem typu flat bed. Tento způsob uložení kol se u nás vyskytuje vzácně. Stroj byl zakoupen od věžního hodináře Markuse Burmeistera; podle jeho vyjádření jde o francouzský stroj vyrobený kolem …",
     "year": 1770,
     "lastModified": null,
-    "imageCount": 23,
+    "imageCount": 24,
     "wordCount": 363,
     "vyrobce": "Paul Zieux",
     "tags": [
@@ -7512,7 +7547,7 @@
     "excerpt": "Hodinový stroj byl vyroben v roce 1896. V ozdobném litinovém rámu opatřeném nápisem Praha L. Hainz Prag, jsou uloženy tři stroje: jicí, bicí čtvrtí a bicí celých hodin. Amantův krok je řízen kyvadlem, zavěšeným na dvo…",
     "year": 1896,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 2,
     "wordCount": 222,
     "vyrobce": "Hainz",
     "tags": [
@@ -7532,7 +7567,7 @@
     "excerpt": "Do Hodinária byl zapůjčen věžní komplet Prokeš 1868 — kompletní soustava hodinového stroje, přídavného zvonicího stroje a dvou cimbálů, původně osazená na zámku Býchory. Hlavními kuriozitami kompletu jsou neobvyklý Ro…",
     "year": 1868,
     "lastModified": null,
-    "imageCount": 27,
+    "imageCount": 28,
     "wordCount": 1220,
     "vyrobce": "Jan Prokeš",
     "tags": [
@@ -7557,7 +7592,7 @@
     "excerpt": "Hodinový stroj byl původně osazen v budově bývalé děčínské radnice (nyní Okresní soud). Má dva bicí stroje – čtvrťový a hodinový. Konstrukce obou těchto strojů je zajímavá, používá šnekový převod na větrníky, čímž se …",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 2,
     "wordCount": 148,
     "vyrobce": "Richard Liebing",
     "tags": [
@@ -7577,7 +7612,7 @@
     "excerpt": "Hodiny jsou výrobkem německé firmy, sídlící na okraji Berlína. Firma byla založena v roce 1824 a hlavním programem je výroba a instalace věžních hodin. Její výrobky lze spatřit na mnoha místech v Berlíně či Brandenburgu.",
     "year": 1824,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 2,
     "wordCount": 129,
     "vyrobce": "Rochlitz",
     "tags": [
@@ -7597,7 +7632,7 @@
     "excerpt": "Věžní hodinový stroj je zajímavé konstrukce. Hlavní soukolí je poháněno pérem, uloženým ve velkém pérovníku. Chod stroje je řízen setrvačkou, která dostává popudnou sílu od pomocného perka. Každou minutu kolečko, říze…",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
+    "imageCount": 4,
     "wordCount": 238,
     "tags": [
       "hlavni-sal",
@@ -7697,7 +7732,7 @@
     "excerpt": "V kostele sv. Vavřince ve Veliké Vsi se zachovalo torzo hodin s gotickými prvky. Wikipedie uvádí, že první zmínky o obci i o kostele pocházejí už ze třetí čtvrtiny 13. století; ve starší literatuře se uvádí, že kostel…",
     "year": 1340,
     "lastModified": null,
-    "imageCount": 13,
+    "imageCount": 16,
     "wordCount": 397,
     "tags": [
       "hlavni-sal",
@@ -7718,7 +7753,7 @@
     "excerpt": "V závěru roku 2015 byl Hodináriu pronajat od firmy POTRUBÍ Praha, spol. s r. o. špindlový čtvrťový věžní hodinový stroj v nálezovém stavu. O jeho historii zatím mnoho nevíme a stroj je těžko identifikovatelný. Podle r…",
     "year": 1618,
     "lastModified": null,
-    "imageCount": 12,
+    "imageCount": 13,
     "wordCount": 531,
     "vyrobce": "Wenzel Mellner",
     "tags": [
@@ -8228,11 +8263,11 @@
     "slug": "zidovske",
     "title": "Židovské hodiny z roku 1764",
     "category": "virtualni-muzeum",
-    "thumbnail": null,
+    "thumbnail": "/img/zidovske/holmstad_2014_cifernik.jpg",
     "excerpt": "Na půdě Židovské radnice, proti Staronové synagoze v Praze, se nacházejí patrně nejstarší známé hebrejské hodiny na veřejném místě, možná dokonce nejstarší hebrejské hodiny vůbec. Není dokonce vyloučeno, že na stejném…",
     "year": 1764,
     "lastModified": "2020-11-24T02:06:00.000Z",
-    "imageCount": 0,
+    "imageCount": 4,
     "wordCount": 1260,
     "tags": [
       "vezni",

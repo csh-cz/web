@@ -24,6 +24,30 @@ interface OgPage {
   description?: string;
   category?: string;
   siteLabel: string;
+  /** Cesta k hero obrázku (/img/…) — u edic se vsadí do bočního panelu OG. */
+  thumbnail?: string | null;
+}
+
+/** R2 CDN base (symetrie s rehype-picture / Photo.astro / remark-csh-directives). */
+const CDN_BASE = 'https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev';
+
+/**
+ * Stáhne rasterový obrázek z R2 a vrátí ho jako `data:` URI pro embed do SVG
+ * (resvg neumí vzdálené href, jen embedded data nebo lokální soubor). Vrací
+ * null při chybě → generate() spadne zpět na čistě textovou kartu.
+ */
+async function fetchImageDataUri(imgPath: string): Promise<string | null> {
+  try {
+    const url = imgPath.startsWith('/img/') ? CDN_BASE + imgPath : imgPath;
+    const res = await fetch(url);
+    if (!res.ok) return null;
+    const buf = Buffer.from(await res.arrayBuffer());
+    const ct = (res.headers.get('content-type') || '').toLowerCase();
+    const mime = ct.includes('png') ? 'image/png' : 'image/jpeg';
+    return `data:${mime};base64,${buf.toString('base64')}`;
+  } catch {
+    return null;
+  }
 }
 
 const HODINARIUM_OG = join(ROOT, 'apps', 'hodinarium-eu', 'public', 'og');
@@ -63,6 +87,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   slovnik: 'Hodinářský slovník',
   kroky: 'Hodinový krok',
   kronika: 'Kronika Hodinária',
+  edice: 'Edice pramenů',
 };
 
 function escapeXml(s: string): string {
@@ -113,15 +138,17 @@ interface RenderOpts {
   excerpt?: string;
   domain: string;
   variant: 'hodinarium' | 'horologie';
+  /** `data:` URI hero skenu — když je, vykreslí se vpravo boční panel (edice). */
+  image?: string;
 }
 
 function buildSvg(opts: RenderOpts): string {
   const c = COLORS[opts.variant];
+  const hasImage = Boolean(opts.image);
 
-  // Title — rozlož na max 3 řádky
-  const titleLines = wrapText(opts.title, 28, 3);
-  // Excerpt — max 2 řádky
-  const excerptLines = opts.excerpt ? wrapText(opts.excerpt, 60, 2) : [];
+  // S bočním panelem (pravých ~40 %) je text úžeji zalomený do levých ~60 %.
+  const titleLines = wrapText(opts.title, hasImage ? 17 : 28, 3);
+  const excerptLines = opts.excerpt ? wrapText(opts.excerpt, hasImage ? 34 : 60, 2) : [];
 
   // Vertical layout — eyebrow nahoře, title pod ním, excerpt zespodu, domain úplně dole
   const eyebrowY = 130;
@@ -141,6 +168,11 @@ function buildSvg(opts: RenderOpts): string {
       <stop offset="0%" stop-color="${c.border}" stop-opacity="0.9" />
       <stop offset="100%" stop-color="${c.border}" stop-opacity="0.5" />
     </linearGradient>
+    <clipPath id="ogPanel"><rect x="744" y="0" width="456" height="630" /></clipPath>
+    <linearGradient id="panelShade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="${c.bg}" stop-opacity="0.85" />
+      <stop offset="18%" stop-color="${c.bg}" stop-opacity="0" />
+    </linearGradient>
   </defs>
 
   <!-- Pozadí -->
@@ -148,9 +180,15 @@ function buildSvg(opts: RenderOpts): string {
 
   <!-- Brass left border (mosazný pruh) -->
   <rect x="0" y="0" width="20" height="630" fill="url(#brass)" />
-
+${hasImage ? `
+  <!-- Boční panel: sken první stránky pramene (cover-crop, zarovnaný nahoru
+       aby byl vidět titul/incipit). Tmavý gradient na levé hraně oddělí text. -->
+  <image x="744" y="0" width="456" height="630" href="${opts.image}"
+         preserveAspectRatio="xMidYMin slice" clip-path="url(#ogPanel)" />
+  <rect x="744" y="0" width="456" height="630" fill="url(#panelShade)" clip-path="url(#ogPanel)" />
+  <rect x="740" y="0" width="4" height="630" fill="url(#brass)" />` : `
   <!-- Decentní fleuron ornament v rohu -->
-  <text x="1130" y="60" font-family="Georgia, serif" font-size="36" fill="${c.border}" opacity="0.4" text-anchor="end">❦</text>
+  <text x="1130" y="60" font-family="Georgia, serif" font-size="36" fill="${c.border}" opacity="0.4" text-anchor="end">❦</text>`}
 
   <!-- Eyebrow (kategorie / web) -->
   <text x="80" y="${eyebrowY}"
@@ -222,12 +260,18 @@ async function generate(outDir: string, page: OgPage, variant: 'hodinarium' | 'h
   const eyebrow = page.category
     ? CATEGORY_LABELS[page.category] ?? page.siteLabel
     : page.siteLabel;
+  // Edice pramenů: hero sken první stránky do bočního panelu (fetch z R2).
+  let image: string | undefined;
+  if (variant === 'hodinarium' && page.category === 'edice' && page.thumbnail) {
+    image = (await fetchImageDataUri(page.thumbnail)) ?? undefined;
+  }
   const svg = buildSvg({
     title: page.title,
     eyebrow,
     excerpt: page.description,
     domain: variant === 'hodinarium' ? 'hodinarium.eu' : 'horologie.cz',
     variant,
+    image,
   });
   const png = renderPng(svg);
   await writeFile(join(outDir, `${page.slug}.png`), png);
@@ -238,6 +282,7 @@ interface CatalogEntry {
   title: string;
   category: string;
   excerpt: string;
+  thumbnail?: string | null;
 }
 
 /**
@@ -517,6 +562,7 @@ async function main() {
       description: entry.excerpt,
       category: entry.category,
       siteLabel: 'Hodinárium',
+      thumbnail: entry.thumbnail,
     });
   }
 
