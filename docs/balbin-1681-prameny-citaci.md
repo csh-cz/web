@@ -148,7 +148,7 @@ Tím je **dvojnásobně potvrzeno**, že Balbínova citace o orloji NEpochází 
 
 **Digitalizát:** archive.org `variorumineuropa00chyt` (Nathan, Pragensia s. 444–446); `bub_gb_Ntk5AAAAcAAJ` (David, Saxonia).
 
-**Kritický závěr:** Chytraeus (David — patrně ten, koho Balbín míní jako autoritu o střední Evropě) **pražský orloj nezmiňuje**. Rétorický prvek výčtu, stejně jako Mercator.
+**Kritický závěr:** Chytraeus, kterého Balbín míní — tj. **Nathan** (marginál „in itinerario Europae", potvrzeno Rieggerem 1788) — **pražský orloj nezmiňuje**. Jeho sekce *Pragensia* (s. 444–446) obsahuje jen Scaligerův epigram, inskripci exulanta a Žižkův náhrobek; výskyty „horologium" patří všechny do dánských sekcí (Tycho Brahe). Rétorický prvek výčtu, stejně jako Mercator a Blaeu.
 
 **Otevřený zbytek (nízká priorita):** *Chronicon Saxoniae* Pars prima (1590, `hin-wel-all-00000218-001`) má na archive.org jen PDF bez OCR — negrepnuto. Téma (saské dějiny 1500–1524) činí výskyt orloje krajně nepravděpodobným.
 
