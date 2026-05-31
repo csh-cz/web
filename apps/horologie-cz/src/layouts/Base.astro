@@ -280,11 +280,16 @@ const orgJsonLd = isHome ? {
     border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
     border-radius: 2px;
     box-shadow: 0 8px 24px color-mix(in srgb, var(--color-ink) 25%, transparent);
-    /* Skrolovat když seznam přesahuje viewport (telefon na výšku) */
-    max-height: calc(100vh - 100px);
+    /* Skrolovat když seznam přesahuje viewport (telefon na výšku).
+       dvh = dynamic viewport, počítá s URL barem prohlížeče na mobilu.
+       Fallback 100vh pro starší prohlížeče. + bottom safe-area pro iPhone notch.
+       Bug 2026-05-31: bez dvh menu na mobilu přesahovalo pod URL bar. */
+    max-height: calc(100vh - 100px - env(safe-area-inset-bottom, 0px));
+    max-height: calc(100dvh - 100px - env(safe-area-inset-bottom, 0px));
     overflow-y: auto;
     overscroll-behavior: contain;
     -webkit-overflow-scrolling: touch;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
   }
   .mobile-menu a {
     display: block;

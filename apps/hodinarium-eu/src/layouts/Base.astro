@@ -414,40 +414,52 @@ const orgJsonLd = isHome ? {
           </li>
         </ul>
 
-        <details class="md:hidden relative" id="mobile-menu-details">
-          <summary class="list-none cursor-pointer p-2 -m-2 select-none" aria-label="Otevřít menu">
-            <i class="fa-solid fa-bars" style="font-size: 1.25rem; color: var(--color-brass-bright);" aria-hidden="true"></i>
-          </summary>
-          <ul class="mobile-menu absolute right-0 top-full mt-2 w-72 py-1">
-            <!-- Hlavní (drží se synchronizované s desktop top nav) -->
-            <li class="mobile-section-label">Hodinárium</li>
-            <li><a href="/pro-navstevniky" class="nav-link">Návštěva</a></li>
-            <li><a href="/sbirka" class="nav-link">Sbírka</a></li>
-            <li><a href="/projekty" class="nav-link">Projekty</a></li>
-            <li><a href="/konstrukce" class="nav-link">Konstrukce</a></li>
-            <li><a href="/hodinari" class="nav-link">Hodináři</a></li>
-            <li><a href="/soupis-veznich-hodin" class="nav-link">Soupis věžních hodin</a></li>
-            <li><a href="/slovnik" class="nav-link">Slovník</a></li>
-            <li><a href="/mapa-horologie" class="nav-link">Mapa horologie</a></li>
+        <!-- Mobilní pravý cluster: search (standalone) + hamburger -->
+        <div class="md:hidden flex items-center gap-2">
+          <!-- Search button standalone na mobile — bez něj uživatel
+               nemá jak otevřít vyhledávání (desktop ⌘K + nav-search-btn
+               jsou na mobilu nedostupné). Bug 2026-05-31. -->
+          <button data-search-trigger class="mobile-search-btn" aria-label="Vyhledávat" title="Vyhledávat">
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          </button>
 
-            <!-- Mimo hlavní nav, ale dostupné z hamburgeru přímo (zkratky pro mobil) -->
-            <li class="mobile-section-label">Více</li>
-            <li><a href="/virtualni-muzeum" class="nav-link">Virtuální muzeum</a></li>
-            <li><a href="/muzea" class="nav-link">Muzea</a></li>
-            <li><a href="/zajimavosti" class="nav-link">Zajímavosti</a></li>
-            <li><a href="/kronika" class="nav-link">Kronika</a></li>
-            <li><a href="/casova-osa" class="nav-link">Časová osa</a></li>
-            <li><a href="/expozice" class="nav-link">Expozice (seznam)</a></li>
-            <li><a href="/kroky" class="nav-link">Hodinové kroky</a></li>
-            <li><a href="/tagy" class="nav-link">Tagy</a></li>
-            <li><a href="/podpora" class="nav-link">Podpora</a></li>
+          <details class="relative" id="mobile-menu-details">
+            <summary class="list-none cursor-pointer p-2 -m-2 select-none" aria-label="Otevřít menu">
+              <i class="fa-solid fa-bars" style="font-size: 1.25rem; color: var(--color-brass-bright);" aria-hidden="true"></i>
+            </summary>
+            <ul class="mobile-menu absolute right-0 top-full mt-2 w-72 py-1">
+              <!-- Hlavní (drží se synchronizované s desktop top nav).
+                   Vyhledávání je samostatná ikona (lupa) vedle hamburgeru
+                   v headeru — v menu se neopakuje, aby nezahlcovalo seznam. -->
+              <li class="mobile-section-label">Hodinárium</li>
+              <li><a href="/pro-navstevniky" class="nav-link">Návštěva</a></li>
+              <li><a href="/sbirka" class="nav-link">Sbírka</a></li>
+              <li><a href="/projekty" class="nav-link">Projekty</a></li>
+              <li><a href="/konstrukce" class="nav-link">Konstrukce</a></li>
+              <li><a href="/hodinari" class="nav-link">Hodináři</a></li>
+              <li><a href="/soupis-veznich-hodin" class="nav-link">Soupis věžních hodin</a></li>
+              <li><a href="/slovnik" class="nav-link">Slovník</a></li>
+              <li><a href="/mapa-horologie" class="nav-link">Mapa horologie</a></li>
 
-            <li class="mobile-section-label">Sesterské weby</li>
-            <li><a href={SISTER_SPOLEK} target="_blank" rel="noopener" class="nav-link">Spolek</a></li>
-            <li><a href="https://orloj.eu" target="_blank" rel="noopener" class="nav-link">Orloj.eu</a></li>
-            <li><a href="/en" class="nav-link" hreflang="en" lang="en">English summary</a></li>
-          </ul>
-        </details>
+              <!-- Mimo hlavní nav, ale dostupné z hamburgeru přímo (zkratky pro mobil) -->
+              <li class="mobile-section-label">Více</li>
+              <li><a href="/virtualni-muzeum" class="nav-link">Virtuální muzeum</a></li>
+              <li><a href="/muzea" class="nav-link">Muzea</a></li>
+              <li><a href="/zajimavosti" class="nav-link">Zajímavosti</a></li>
+              <li><a href="/kronika" class="nav-link">Kronika</a></li>
+              <li><a href="/casova-osa" class="nav-link">Časová osa</a></li>
+              <li><a href="/expozice" class="nav-link">Expozice (seznam)</a></li>
+              <li><a href="/kroky" class="nav-link">Hodinové kroky</a></li>
+              <li><a href="/tagy" class="nav-link">Tagy</a></li>
+              <li><a href="/podpora" class="nav-link">Podpora</a></li>
+
+              <li class="mobile-section-label">Sesterské weby</li>
+              <li><a href={SISTER_SPOLEK} target="_blank" rel="noopener" class="nav-link">Spolek</a></li>
+              <li><a href="https://orloj.eu" target="_blank" rel="noopener" class="nav-link">Orloj.eu</a></li>
+              <li><a href="/en" class="nav-link" hreflang="en" lang="en">English summary</a></li>
+            </ul>
+          </details>
+        </div>
       </nav>
     </header>
 
