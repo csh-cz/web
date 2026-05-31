@@ -612,6 +612,19 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: ['kinsner-astronomicke-hodiny', 'muzeum-beyer-zurich'],
     era: 'baroko',
   },
+  {
+    slug: 'benjamin-slajer',
+    jmeno: 'Benjamin Šlajer',
+    aliasy: ['Benjamin Šlajer', 'Benjamin Schlayer', 'Benjamin Schlager', 'Benjamin Schleyer', 'Beniamin Sslaier', 'B. Šlajer'],
+    typ: 'osoba',
+    obdobi: '1620–1670',
+    mesto: 'Praha / Klatovy',
+    zeme: 'CZ',
+    shrnuti:
+      'Pražský jezuita, matematik, astronom a stavební prefekt. Mnoho let profesor matematiky a hebrejštiny na Karlo-Ferdinandově univerzitě v Klementinu; jako prefekt staveb se podílel na raně barokní podobě Klementina a na koncepci Svaté Hory u Příbrami (s Carlem Luragem). Pro dějiny orloje je zásadní jeho **latinský popis stroje staroměstského orloje**, který po jeho smrti otiskl Balbín v třetí knize *Miscellaneí* (1681) — vůbec první tištěný technický popis pražského orloje. Zemřel jako rektor jezuitské koleje v Klatovech; ostatky se dochovaly mezi klatovskými mumiemi.',
+    relatedSlugs: ['balbin-1681-admirandum-horologium', 'teicher-1735-popis-orloje'],
+    era: 'baroko',
+  },
 
   // === Doplnění (2026-05) podle článků a Knespla 2024/2025 ===
   {
