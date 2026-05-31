@@ -50,9 +50,9 @@ Pro současný stav panelu zatím zvolíme variantu číslo 3., tedy konvertor i
 
 ## Odkazy
 
-- [Prospekt H715](https://cdn.sos.sk/productdata/c0/63/d407ac85/h-715-yellow.pdf) — cdn.sos.sk. [cit. 2026-04-28]
+- [Prospekt H715](https://web.archive.org/web/20210705205120/https://cdn.sos.sk/productdata/c0/63/d407ac85/h-715-yellow.pdf) — cdn.sos.sk. [cit. 2026-04-28]
 - [Řídící jednotka](http://mrk.eu/discon-h7-display-controller/) — MRK s.r.o.. [cit. 2026-04-28]
-- [Prodej](https://www.soselectronic.cz/articles/no-name/displej-citelny-za-kazdych-svetelnych-podminek-916) — soselectronic.cz. [cit. 2026-04-28]
+- [Prodej](https://web.archive.org/web/20210302045040/https://www.soselectronic.cz/articles/no-name/displej-citelny-za-kazdych-svetelnych-podminek-916) — soselectronic.cz. [cit. 2026-04-28]
 - [Prospekt jednotky GEMA ADHT](download/ADHT/Doc/ADHTpopis_zapojeni.doc)
 
 Text a řešení panelu: [Petr Král](/hodinari/petr-kral)

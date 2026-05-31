@@ -13,7 +13,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:05.222Z"
 tldr: 'Přehled hodin zobrazujících čas ve více pásmech současně — od náramkových automatů Louis Valon přes letištní instalace až po projekce mapy světa ze severního pólu s pohyblivým 24hodinovým číselníkem.'
 ---
-[![Hodiny „SVĚTOVÝ ČAS”, analogové v kombinaci s datumem, broušený a leštěný nerez](/img/elektrika/svetovy_cas1.jpg)](http://www.hodiny-spel.cz/atypicka_vyroba.php)
+[![Hodiny „SVĚTOVÝ ČAS”, analogové v kombinaci s datumem, broušený a leštěný nerez](/img/elektrika/svetovy_cas1.jpg)](https://web.archive.org/web/20120201013404/http://www.hodiny-spel.cz/atypicka_vyroba.php)
 
 Mezi kuriózní hodiny můžeme zařadit i hodiny ukazující více časů. Na úvodním obrázku jsou hodiny „SVĚTOVÝ ČAS” od firmy Spel. Jedná se o analogové hodiny v kombinaci s digitálním datumem. Hodiny ukazují místní čas a čas v městech ***New York, London, Sofia a Moskva***.
 

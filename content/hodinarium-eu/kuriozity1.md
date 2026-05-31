@@ -16,7 +16,7 @@ tldr: 'Krátký rozcestník na externí webové galerie digitronových a oscilos
 - * * *
 
 - [digitronky](http://www.cathodecorner.com/)
-- [hezké galerie digitronek](http://www.nixieclocks.de/english/gallery/index.php)
+- [hezké galerie digitronek](https://web.archive.org/web/20231003224950/http://www.nixieclocks.de/english/gallery/index.php)
 - [české stránky o digitronkách](http://www.digitron.cz/)
 - [a ještě](http://www.electricstuff.co.uk/nixclock.html)
 - [Nixie Clock Galery](http://www.electricstuff.co.uk/nixclock.html) ( i z telefonních krokových voličů lze udělat hodiny )
