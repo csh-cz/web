@@ -18,7 +18,7 @@ Pracovní pramenná báze k editorské tabulce v `content/hodinarium-eu/balbin-1
 | 2 | **Typotius** | ✅ ano | popis k Sadelerově vedutě Prahy 1606 (NE *Symbola* — ověřeno negativně) | ⚠️ jen z Balbína | Google `YFOerThEjN8C` |
 | 3 | **Fournier** | ✅ ano | *Geographica orbis notitia*, l. IV, c. 6, s. 121 | ⚠️ OCR, čeká kolace | archive `bub_gb_sWcd_d4YfiwC` |
 | 4 | **Mercator** | ❌ NE | Atlas (text P. Montanus) | — (orloj nezmíněn) | archive `atlasminorgerard00merc` |
-| 5 | **Chytraeus** | ❌ NE | žádné jeho dílo | — (orloj nezmíněn) | archive `bub_gb_Ntk5AAAAcAAJ` |
+| 5 | **Chytraeus** (Nathan, NE David — Riegger 1788) | ❌ NE | *Variorum in Europa itinerum deliciae* 1606 (marginál „in itinerario Europae") | — (orloj nezmíněn) | archive `variorumineuropa00chyt` |
 | 6 | **Blaeu** | ❌ NE | *Atlas Maior* 1662, sv. III Germania, Bohemia s. 26 | — (orloj nezmíněn; má jen Karlův most) | sken NLS sv. 3 (Davidem 2026-05-31), viz `balbin-prameny/blaeu-bohemia-1662.md` |
 
 ---
@@ -78,6 +78,8 @@ Tím je **dvojnásobně potvrzeno**, že Balbínova citace o orloji NEpochází 
 
 **Pro definitivní přepis Balbínova s. 155–156** doporučeno kolacovat s faksimile BSB/MDZ (`bsb10864471` nebo `bsb10867214`) — Google OCR má dobové ſ↔f a rozpad přes marginálie.
 
+**Nezávislé potvrzení (Riegger 1788):** Riegger ve svém německém překladu Balbínova §1 zkracuje Typotia jako **„in Descript. Pragae"** (= v popisu Prahy), NE jako *Symbola*. To je druhé, na sobě nezávislé svědectví (vedle Balbínova vlastního marginálu „Itinerario"), že pramen je **popisný text k Sadelerově vedutě Prahy 1606**, ne emblémová kniha. Viz `balbin-prameny/riegger-1788.md`.
+
 ---
 
 ## 3. Georges Fournier S.J. (1595–1652) — ⚠️ OVĚŘENO z OCR, čeká kolace
@@ -124,11 +126,13 @@ Tím je **dvojnásobně potvrzeno**, že Balbínova citace o orloji NEpochází 
 
 ---
 
-## 5. David Chytraeus (1530–1600) — ❌ ORLOJ NEZMIŇUJE
+## 5. Chytraeus — Balbín míní **Nathana** (1543–1598), NE Davida — ❌ ORLOJ NEZMIŇUJE
+
+**KOREKCE ATRIBUCE (Riegger 1788):** Dosud jsem za Balbínova „Chytraea" pokládal nejistě Davida. **Riegger 1788, který překládá Balbínův §1 i s jeho marginálními zkratkami pramenů, uvádí u Chytraea „in itinerario Europae"** — to je jednoznačně Nathanův cestopis *Variorum in Europa itinerum deliciae* (1606), NE Davidova *Saxonia/Chronicon*. Balbín tedy míní **Nathana Chytraea**. (Negativní nález „orloj nezmiňuje" tím není dotčen — viz níže.)
 
 **Disambiguace:** existují DVA Chytraeové —
-- **David Chytraeus** (1530–1600), luteránský teolog, profesor v Rostocku, autor *Chronicon / Saxonia*;
-- **Nathan Chytraeus** (1543–1598), jeho bratr, novolatinský básník, autor cestopisné sbírky nápisů *Variorum in Europa itinerum deliciae*.
+- **Nathan Chytraeus** (1543–1598), novolatinský básník, autor cestopisné sbírky nápisů *Variorum in Europa itinerum deliciae* — **toho míní Balbín** (marginál „in itinerario Europae");
+- **David Chytraeus** (1530–1600), jeho starší bratr, luteránský teolog, profesor v Rostocku, autor *Chronicon / Saxonia* (prověřen pro úplnost, ale Balbín ho nemíní).
 
 **Ověření orloje: NEGATIVNÍ** napříč oběma. Prohledán fulltext:
 
