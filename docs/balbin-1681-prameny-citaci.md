@@ -6,7 +6,7 @@ Pracovní pramenná báze k editorské tabulce v `content/hodinarium-eu/balbin-1
 
 **Metodika:** Rešerše proběhla přes paralelní agenty (2026-05-31), výsledky ověřovány proti digitalizátům (Google Books, archive.org, MDZ, David Rumsey). Latinské texty 16.–17. století pocházejí z OCR fraktury → u každého je uveden **stav ověření**. Tvrdé pravidlo: nepřepisovat do hlavní edice jako verbatim nic, co není zkolacováno s obrazovým faksimile.
 
-**Klíčový závěr:** Balbínův výčet šesti autorit je **zčásti rétorická amplifikace**. Orloj prokazatelně zmiňují jen **3 z 6** (Dresser, Typotius/Sadeler, Fournier); **Mercator a Chytraeus orloj nezmiňují vůbec** (negativně ověřeno proti plnému textu); **Blaeu zůstává neověřen** (text nedostupný). To zapadá do editorské poznámky, že figurální i superlativní chvála orloje je v evropské chorografické tradici nepravidelná.
+**Klíčový závěr:** Balbínův výčet šesti autorit je **zčásti rétorická amplifikace**. Orloj prokazatelně zmiňují jen **3 z 6** (Dresser, Typotius/Sadeler, Fournier); **Mercator, Chytraeus i Blaeu orloj nezmiňují vůbec** (u všech tří negativně ověřeno proti plnému textu — Blaeu doplněn 2026-05-31 ze skenu NLS sv. 3). To zapadá do editorské poznámky, že figurální i superlativní chvála orloje je v evropské chorografické tradici nepravidelná: polovina jmenovaných autorit orloj fakticky neuvádí.
 
 ---
 
@@ -19,7 +19,7 @@ Pracovní pramenná báze k editorské tabulce v `content/hodinarium-eu/balbin-1
 | 3 | **Fournier** | ✅ ano | *Geographica orbis notitia*, l. IV, c. 6, s. 121 | ⚠️ OCR, čeká kolace | archive `bub_gb_sWcd_d4YfiwC` |
 | 4 | **Mercator** | ❌ NE | Atlas (text P. Montanus) | — (orloj nezmíněn) | archive `atlasminorgerard00merc` |
 | 5 | **Chytraeus** | ❌ NE | žádné jeho dílo | — (orloj nezmíněn) | archive `bub_gb_Ntk5AAAAcAAJ` |
-| 6 | **Blaeu** | ❓ neověřeno | *Atlas Maior* 1662, sv. III Germania | nenalezeno (text na versu) | NLS `maps.nls.uk/atlas/blaeu-maior/vol/3` |
+| 6 | **Blaeu** | ❌ NE | *Atlas Maior* 1662, sv. III Germania, Bohemia s. 26 | — (orloj nezmíněn; má jen Karlův most) | sken NLS sv. 3 (Davidem 2026-05-31), viz `balbin-prameny/blaeu-bohemia-1662.md` |
 
 ---
 
@@ -150,23 +150,25 @@ Tím je **dvojnásobně potvrzeno**, že Balbínova citace o orloji NEpochází 
 
 ---
 
-## 6. Joan Blaeu (1596–1673) — ❓ NEOVĚŘENO (text nedostupný)
+## 6. Joan Blaeu (1596–1673) — ❌ ORLOJ NEZMIŇUJE (ověřeno ze skenu NLS 2026-05-31)
 
-**Dílo:** *Atlas Maior sive Cosmographia Blaviana* (latinská edice Amsterdam 1662, sv. 1 dat. 1665). Bohemia ve **sv. III = Europa, liber VIII: Germania**. Autor textu i map = **Joan Blaeu** (ne otec Willem † 1638 — Atlas Maior vyšel až 1662, pro Balbína 1681 relevantní Joan).
+**Dílo:** *Atlas Maior sive Cosmographia Blaviana* (latinská edice Amsterdam 1662), sv. III = Germania, kapitola **Bohemia** (text na s. 25–39; popis Prahy na **s. 26**). Autor textu i map = **Joan Blaeu** (ne otec Willem † 1638 — Atlas Maior vyšel až 1662, pro Balbína 1681 relevantní Joan).
 
-**Verbatim text: NENALEZENO.** Důvod je **technický, ne věcný**: Blaeuovy mapy mají rozsáhlý latinský popis tištěný **na rubu (versu) listu**; popis Prahy by byl právě tam. David Rumsey i archive.org digitalizovaly Blaeuovy listy **pouze jako obrazové skeny lícní strany (mapy), bez OCR a bez rubu**. Plný text má National Library of Scotland, ale `maps.nls.uk` vrací 405/Cloudflare a nešel automaticky stáhnout.
+**Ověření orloje: NEGATIVNÍ.** David proklikal NLS digitalizát (`maps.nls.uk/atlas/blaeu-maior`, sv. 3) a stáhl všech **8 dvojstran** textu Bohemie (s. 24–39, soubory `map_113439100`–`map_113439121`). Přečteno celé z obrazového skenu — **slovo „horologium" se v celé kapitole Bohemia (16 stran) nevyskytuje ani jednou**; rovněž žádné „automatum" ani „Praetorium" ve smyslu orloje. (Pozn.: na s. 37 u Chebu/Egry text dokonce zmiňuje *„Nola duae"* = dva zvony, ale žádné hodiny.)
 
-**Co je dostupné:**
-- mapa Bohemia (jen rytina, bez textu): David Rumsey <https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~279921~90053144>
-- plný text sv. III (Germania) s popisy: **National Library of Scotland** <https://maps.nls.uk/atlas/blaeu-maior/vol/3> (Bohemia kolem `…/browse/3/page/20`) — **nutno otevřít v reálném prohlížeči** (Cloudflare blokuje jen automaty)
+**Co text o Praze SKUTEČNĚ obsahuje** (s. 26, *„Ex Pragensi districtu sola nobis Praga memorabilis…"*): Praha jako hlava království „v pupku" země a sídlo králů; založení Libuší; tři města (Staré, Nové, Malá Strana); **kamenný most o šestnácti obloucích s nápadnými věžemi u vjezdu**; poloha Starého Města v údolí, Nové Město oddělené příkopem a hradbami; dějiny (Jindřich Ptáčník 930, Jan Lucemburský 1316, husitská defenestrace sedmi konšelů → mrtvice Václava IV., Zikmundovo obležení, korunovace 1410). **Žádný orloj.**
 
-**Varování k metodě:** I kdyby se text našel, je vysoká pravděpodobnost, že Blaeu **přejímá popis Prahy z Braun–Hogenbergových *Civitates Orbis Terrarum*** (doloženo u jiných převzetí). Balbín mohl „Blaeua" jmenovat jako šiřitele staršího chvalozpěvu, ne původního autora.
+**Verbatim — pasáž o mostě** (s. 26, přepsáno ze skenu; jediné místo, kde by orloj „logicky" stál vedle mostu, jako u Dressera):
+> *„Pragam Veterem cum parva jungit pons quadrato saxo extructus, inque sedecim arcus porrectus, habens utrinque in aditu insignes turres."*
+
+**Český překlad:**
+> „Staré Město spojuje s Malou Stranou most vystavěný z kvádrového kamene, rozepjatý do šestnácti oblouků, mající po obou stranách u vjezdu nápadné věže."
+
+**Kritický závěr:** Blaeu přebírá z chorografické tradice (srov. Dresserův výčet pražských pozoruhodností) **most o 16 obloucích, ale orloj vynechává** — přesně jako Mercator (resp. Montanus) a Chytraeus. Balbínovo jmenování Blaea je tedy **rétorický odkaz na autoritu „píšící o Praze"**, ne pramen chvály orloje. Tím se „neviditelnost orloje" v humanistické chorografii potvrzuje u **3 ze 6** Balbínových autorit.
+
+**Stav:** ✅ rozhodnuto (negativně). Ověřeno z obrazového skenu (NLS, sv. 3, 8 dvojstran u Davida), ne z OCR → čtení spolehlivé. Plná evidence (verbatim + provenience + filenames) v `docs/balbin-prameny/blaeu-bohemia-1662.md`.
 
 **Pozor — neexistující identifikátory:** archive.org `geographiaeblavi03blae` a podobné `geographiaeblaviNNblae`/`atlasnovusNNblae` **NEEXISTUJÍ** (API vrací `{}`). Nepoužívat.
-
-**Co je potřeba:**
-- otevřít NLS sv. III v prohlížeči, najít letterpress text Bohemia, OCR/přepsat pasáž o Praze a radnici, NEBO
-- Taschen reprint *Joan Blaeu. Atlas Maior of 1665 — Germania* (van der Krogt) má přepis + překlad textu vč. Bohemia.
 
 ---
 
@@ -181,7 +183,7 @@ Dvě věci, které z rešerše vyplývají a patří do editorského komentáře
 
 Nejde tedy o nezávislá svědectví, ale o **konvenční chvalozpěv chorografů**. Edice to má reflektovat: Balbín cituje autority, jejichž „chvála" je topická.
 
-**(B) Výčet šesti autorit je zčásti rétorická amplifikace.** Z šesti jmenovaných orloj prokazatelně zmiňují **jen tři** (Dresser, Typotius/Sadeler, Fournier). **Mercator a Chytraeus orloj nezmiňují** (ověřeno proti plnému textu); Blaeu neověřen. Balbínovo *„slovem všichni, kdokoli o Praze psali, tohoto orloje vzpomněli"* je tedy **kumulace učené autority**, ne přesný bibliografický soupis. Stávající editorská poznámka § 1 to už naznačuje — tento soubor to dokládá konkrétními negativními nálezy.
+**(B) Výčet šesti autorit je zčásti rétorická amplifikace.** Z šesti jmenovaných orloj prokazatelně zmiňují **jen tři** (Dresser, Typotius/Sadeler, Fournier). **Mercator, Chytraeus i Blaeu orloj nezmiňují** (u všech tří ověřeno proti plnému textu; Blaeu doplněn 2026-05-31 ze skenu NLS sv. 3 — má jen most o 16 obloucích, ne orloj). Balbínovo *„slovem všichni, kdokoli o Praze psali, tohoto orloje vzpomněli"* je tedy **kumulace učené autority**, ne přesný bibliografický soupis. Stávající editorská poznámka § 1 to už naznačuje — tento soubor to dokládá konkrétními negativními nálezy: polovina (3 ze 6) jmenovaných autorit orloj ve skutečnosti nezmiňuje.
 
 ---
 
@@ -189,7 +191,7 @@ Nejde tedy o nezávislá svědectví, ale o **konvenční chvalozpěv chorograf�
 
 - [ ] **Opravit tabulku v .mdx:** Typotius → NE *Symbola*, ale popis k Sadelerově vedutě Prahy 1606 (s výhradou *vel quisquis alius author*); Mercator → orloj NEzmiňuje (rétorický odkaz); Chytraeus → orloj NEzmiňuje; Fournier → přesné znění *„turri praetoria eiusque horologio, cui vix parem reperies in toto orbe"* (ne zpětný překlad).
 - [ ] Kolace Fournier s. 121 + Balbín s. 155–156 (Typotius) s obrazovým faksimile (BSB/MDZ), než půjde verbatim do edice.
-- [ ] Blaeu: otevřít NLS sv. III v prohlížeči nebo Taschen reprint → buď doplnit verbatim, nebo zařadit mezi „nezmiňuje/neověřeno".
+- [x] **Blaeu: HOTOVO (2026-05-31)** — proklikán NLS sv. 3, staženo a přečteno 8 dvojstran Bohemie (s. 24–39): orloj NEzmiňuje (jako Mercator/Chytraeus), má jen Karlův most o 16 obloucích. Plná evidence v `balbin-prameny/blaeu-bohemia-1662.md`.
 - [ ] Zvážit doplnění Mout 1999 (Acta Comeniana 13) k Typotiovým dílům.
 - [ ] Případně doplnit do editorské tabulky sloupec „stav ověření" / „zmiňuje orloj ano/ne".
 
