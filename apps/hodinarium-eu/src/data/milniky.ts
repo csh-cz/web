@@ -707,6 +707,28 @@ export const milniky: Milnik[] = [
     zdroj: 'Dobner 1779 — Monumenta historica Boemiae IV, s. 63 (kronika tzv. Beneše Minority / Beneš z Weitmile)',
   },
   {
+    id: 'praha-svvit-jan-mraz-orlogista-1403',
+    rok: 1403,
+    rokText: '1403 a 1411',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'osobnost',
+    titulek: 'Jan Mráz, orlogista svatovítské kapituly',
+    popis:
+      'Účetní knihy metropolitní kapituly u sv. Víta (Registrum acceptorum et divisionum) zaznamenávají ' +
+      'k rokům 1403 a 1411 plat orlojníkovi: „Jan Mráz, orlogista" dostává mzdu „de registro orlogii pro ' +
+      'salario suo". Jan Mráz byl současně vikářem kanovníka Václava z Radče a oltářníkem (knězem) u oltáře ' +
+      'sv. Kříže v katedrále. Je tak jedním z mála jmenovitě doložených raných správců hradního (svatovítského) ' +
+      'orloje — navazuje na o generaci staršího císařského orlojníka Martina (doložen 1361). Záznam objevila ' +
+      'teprve Martina Maříková (2007); starší badatelé (Tomek, Teige, Winter, Rosický) ho přehlédli. ' +
+      'Pozn. k identitě: NEjde o stejnojmenného olomouckého biskupa té doby; rovněž jej nelze ztotožnit s Janem ' +
+      'orlojníkem z domu U Sedmi švábů v Platnéřské ulici na Starém Městě (ten měl dceru provdanou za Jeronýma ' +
+      'z Křižic, kdežto Mráz jako duchovní potomky mít nemohl). Domněnka, že hodiny, o něž pečoval, mohly stát ' +
+      'přímo u kaple sv. Kříže, zůstává nedoloženou spekulací.',
+    slovnik: 'orlojnik',
+    zdroj: 'Maříková 2007 — Registrum acceptorum et divisionum capituli metropolitani Pragensis 1396–1418. Sborník archivních prací 57/1, s. 299',
+  },
+  {
     id: 'dondi-astrarium',
     rok: 1364,
     rokText: '1364',
