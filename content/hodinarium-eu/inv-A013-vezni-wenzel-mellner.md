@@ -36,27 +36,27 @@ thumbnail: '/img/vezni/013a-wenzel-mellner.jpg'
 
 ::photo{src="/img/vezni/013a-wenzel-mellner.jpg" alt="věžní stroj Wenzel Mellner v expozici Hodinária — frontální pohled s plaketou a kamennými závažími, signatura „Wenzel Mellner“ čitelná na horním břevně rámu" author="Stanislav Marušák"}
 
-![Vřetenový čtvrťový stroj Wenzel Mellner — nálezový stav](/img/decin/baroko/barokoMellner/f/foto_0001.jpg)
+![Vřetenový čtvrťový stroj Wenzel Mellner — nálezový stav z antikvariátu před převzetím, frontální pohled na dvojitý rám s prázdnými lanovými bubny](/img/decin/baroko/barokoMellner/f/foto_0001.jpg)
 
 V závěru roku 2015 byl Hodináriu pronajat od firmy POTRUBÍ Praha, spol. s r. o. špindlový čtvrťový věžní hodinový stroj v nálezovém stavu. O jeho historii zatím mnoho nevíme a stroj je těžko identifikovatelný. Podle rámu, který má rohové sloupky čtvercové bez volut, mohl spatřit světlo světa už za třicetileté války (1618–1648). Mohl ho ale postavit i vesnický kovář později podle nějakého staršího vzoru — takto stavěné hodiny se vymykají dobovým zvyklostem. Ani přestavba není prací běžného hodináře věžních hodin.
 
 ## Fotografie nálezového stavu
 
-![Nálezový stav](/img/decin/baroko/barokoMellner/f/foto_0003.jpg)
+![Nálezový stav — boční pohled na stroj v exteriéru antikvariátu, viditelné rohové sloupky rámu čtvercového průřezu bez volut](/img/decin/baroko/barokoMellner/f/foto_0003.jpg)
 
-![Nálezový stav](/img/decin/baroko/barokoMellner/f/foto_0004.jpg)
+![Nálezový stav — širší pohled na celý dvojitý rám s lanovými bubny, vidět přestavbu z původního hodinového na čtvrťový rám](/img/decin/baroko/barokoMellner/f/foto_0004.jpg)
 
-![Nálezový stav](/img/decin/baroko/barokoMellner/f/foto_0005.jpg)
+![Nálezový stav — detail soukolí s kovanou závěsnou planžetou kyvadla a velkými ozubenými koly hlavního pohonu](/img/decin/baroko/barokoMellner/f/foto_0005.jpg)
 
-![Nálezový stav](/img/decin/baroko/barokoMellner/f/foto_0006.jpg)
+![Nálezový stav — pohled shora do rámu, vidět krokové kolo a kolo bicího stroje s ručně vyseknutými zuby](/img/decin/baroko/barokoMellner/f/foto_0006.jpg)
 
-![Nálezový stav](/img/decin/baroko/barokoMellner/f/foto_0002.jpg)
+![Nálezový stav — tříčtvrteční pohled na stroj v zaprášeném interiéru antikvariátu](/img/decin/baroko/barokoMellner/f/foto_0002.jpg)
 
-![Nálezový stav](/img/decin/baroko/barokoMellner/f/foto_0007.jpg)
+![Nálezový stav — detail horního břevna rámu s ručně vyrytou signaturou „Wenzel Mellner" na pozdějším bicím přídavku](/img/decin/baroko/barokoMellner/f/foto_0007.jpg)
 
-![Nálezový stav](/img/decin/baroko/barokoMellner/f/foto_0008.jpg)
+![Nálezový stav — celkový pohled na stroj uložený mezi ostatními kovovými předměty v zaprášeném skladu antikvariátu](/img/decin/baroko/barokoMellner/f/foto_0008.jpg)
 
-![Nálezový stav](/img/decin/baroko/barokoMellner/f/foto_0009.jpg)
+![Nálezový stav — detail kované signatury „Wenzel Mellner" se zdobeným kaligrafickým písmem, pohled zdola](/img/decin/baroko/barokoMellner/f/foto_0009.jpg)
 
 ## Popis a přestavby stroje
 
@@ -70,10 +70,10 @@ Stroj byl kompletně rozebrán. Klínky rámu byly z velké části udělány z 
 
 Při montáži se ukázalo, že krok nelze seřídit pouhým výškovým posunem krokového kola (stroj nemá obvyklé spodní nastavování výšky hřídele šroubem). Konstrukce počítala s tím, že se kolo z hřídele sundavá a hloubka záběru se řeší podložkami pod kolem. Vzhledem k obtížnému rovnoměrnému usazování bylo kolo na hřídeli srovnáno na jednu zvolenou podložku a další seřizování se provádělo posunem vřetene podložkami v konstrukci rámu. Stroj je nyní schopen krátkodobého chodu i práce bicích strojů, není však připojen na ručky ani na cimbály.
 
-![Stroj po restaurování](/img/decin/baroko/barokoMellner/f/foto_0011.jpg)
+![Stroj po restaurování — celkový pohled v dílně, lanové bubny s nově navinutými konopnými lany, rám očištěný od koroze](/img/decin/baroko/barokoMellner/f/foto_0011.jpg)
 
-![Stroj po restaurování](/img/decin/baroko/barokoMellner/f/foto_0012.jpg)
+![Stroj po restaurování v expozici Hodinária — nový dřevěný stojan, zavěšená kamenná závaží pod strojem, dolní řadě kyvadlo](/img/decin/baroko/barokoMellner/f/foto_0012.jpg)
 
-![Stroj po restaurování](/img/decin/baroko/barokoMellner/f/foto_0013.jpg)
+![Stroj po restaurování — detail signatury „Wenzel Mellner" na bicím přídavku rámu, vedle visí informační plaketa expozice mezi lanovými bubny](/img/decin/baroko/barokoMellner/f/foto_0013.jpg)
 
 Jeden z dřevěných bubnů byl zaslán do třeboňského pracoviště Botanického ústavu Akademie věd ČR, v. v. i., kde proběhl pokus o určení stáří dřeva pomocí [dendrochronologie](https://cs.wikipedia.org/wiki/Dendrochronologie). Počet rozpoznatelných letokruhů však nebyl pro jednoznačný výsledek dostatečný, stáří použitého dřeva se tak určit nepodařilo.

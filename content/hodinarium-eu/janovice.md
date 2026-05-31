@@ -82,25 +82,25 @@ Pro Vaše srovnání - takto vypadá elektrický hodinový stroj, řízený rád
 
 Hodiny po opravě jsou poměrně přesné, nesplnila se naše obava z možného nepravidelného chodu. Předpokládali jsme, že při každodenním [natahování](/slovnik/natah) bylo nutné denně hodiny seřídit. Po nainstalování elektrického nátahu však hodiny šly prakticky dva měsíce přesně i bez seřizování, což je na staletý stroj parádní výkon, svědčící o precizním provedení mechanismu. A potvrzuje to i správnost našeho rozhodnutí zachovat tento stroj dalším generacím.
 
-![DCF hodiny](/img/vezni/janovice/f/foto_0001.jpg)
+![Celkový pohled na stroj Rich. Liebing po renovaci — litinová kostra, mosazná soukolí, zelené aerodynamické brzdy odbíjení a krokové kolo s kotvou v horní části](/img/vezni/janovice/f/foto_0001.jpg)
 
-![DCF hodiny](/img/vezni/janovice/f/foto_0002.jpg)
+![Detail soukolí stroje Liebing — kotva krokového kola, mosazná ozubená kola pohonu ručiček a táhla odbíjení](/img/vezni/janovice/f/foto_0002.jpg)
 
-![DCF hodiny](/img/vezni/janovice/f/foto_0003.jpg)
+![Detail mosazného soukolí stroje Liebing — křížově tvarovaná ozubená kola s litinovými rameny na hlavní hřídeli](/img/vezni/janovice/f/foto_0003.jpg)
 
-![DCF hodiny](/img/vezni/janovice/f/foto_0004.jpg)
+![Boční pohled na stroj Liebing s instalovaným elektrickým nátahem — buben s řetězovou rozetou a asynchronní motor J86RR412 s převodovkou](/img/vezni/janovice/f/foto_0004.jpg)
 
-![DCF hodiny](/img/vezni/janovice/f/foto_0005.jpg)
+![Původní stav rozvodky před renovací — opotřebovaný a drátem zajištěný spoj svislého rozvodu v podkroví věže s prasklou středovou litinou](/img/vezni/janovice/f/foto_0005.jpg)
 
-![DCF hodiny](/img/vezni/janovice/f/foto_0006.jpg)
+![Detail elektrického nátahu — buben hodin s řetězovou rozetou (nahoře) a asynchronní motor s převodovkou propojený řetězem (dole)](/img/vezni/janovice/f/foto_0006.jpg)
 
-![DCF hodiny](/img/vezni/janovice/f/foto_0007.jpg)
+![Rozvodka pod stropem věže — pětice stejných ozubených kol rozdělujících otáčivý pohyb tyče rozvodu na čtyři strany k číselníkům](/img/vezni/janovice/f/foto_0007.jpg)
 
-![DCF hodiny](/img/vezni/janovice/f/foto_0008.jpg)
+![Detail převodovky 1:12 s kardanovým kloubem náhonu po renovaci — upevněno na novém ocelovém rámu kotveném do cihlové zdi](/img/vezni/janovice/f/foto_0008.jpg)
 
-![DCF hodiny](/img/vezni/janovice/f/foto_0009.jpg)
+![Převodovka 1:12 v patře číselníků — pohled na zavěšení na novém upevňovacím rámu nahrazujícím původní lomené hřeby ve spárách](/img/vezni/janovice/f/foto_0009.jpg)
 
-![DCF hodiny](/img/vezni/janovice/f/foto_0010.jpg)
+![Detail věže kostela sv. Josefa v Janovicích — kruhový ciferník hodin v kruhovém okénku štítu pod střešním vrcholem](/img/vezni/janovice/f/foto_0010.jpg)
 
 A na závěr ještě alespoň seznam těch, kdo se na opravě hodin podíleli:
 
