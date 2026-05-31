@@ -68903,5 +68903,29 @@
         ]
       ]
     }
+  },
+  {
+    "id": "dobnerMonumentaHistoricaBoemiae1779",
+    "type": "book",
+    "abstract": "Edice středověkých bohemikálních pramenů. Sv. IV obsahuje kroniku tzv. „Beneše Minority\" (dnes řazenou k Benešovi Krabicovi z Weitmile, resp. jejímu pokračování po r. 1374). Na s. 63 zápis k roku 1385: „Anno MCCCLXXXV in die sancte Margarethe XII hora horologii completa est testudo chori ecclesie Pragensis infra solempnia missarum\" — dokončení klenby chóru sv. Víta ve 12. hodině orloje; raný doklad orloje na Pražském hradě.",
+    "citation-key": "dobnerMonumentaHistoricaBoemiae1779",
+    "editor": [
+      {
+        "family": "Dobner",
+        "given": "Gelasius"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1779
+        ]
+      ]
+    },
+    "language": "la",
+    "publisher-place": "Pragae",
+    "title": "Monumenta historica Boemiae nusquam antehac edita, Tomus IV",
+    "volume": "4",
+    "URL": "https://archive.org/details/bub_gb_Ojo_AAAAcAAJ"
   }
 ]
