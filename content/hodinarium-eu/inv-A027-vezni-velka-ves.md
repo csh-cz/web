@@ -72,17 +72,17 @@ O vlastních hodinách jsme dosud nenašli žádné bližší informace. Naše t
 
 V květnu roku 2020 spolek uzavřel smlouvu na zapůjčení torza do Hodinária. Předpokládali jsme, že v letních měsících částečně restaurovaný stroj veřejnosti představíme, pandemie však instalaci posunula až do roku 2021. Součásti byly zbaveny silné vrstvy povrchové koroze, která naštěstí nenarušila strukturu železa. Během čištění nebyla nalezena žádná [signatura](/slovnik/signatura); kovářské značení bylo nalezeno pouze na jedné pásnici jako pět záseků (ostatní zřejmě překryla koroze). Díky naší nejstarší fotografii bylo sestavení poměrně snadné — muselo se doplnit mnoho chybějících klínků, aby bylo možné torzo vystavit, jiné díly doplňovány nebyly.
 
-![Výsledky restaurování](/img/decin/gotika/f/foto_0010.jpg)
+![Výsledky restaurování — dochovaný lanový buben s vratidly (rumpálová ramena) položený horizontálně na štěrku po čištění od koroze, navinuté konopné lano](/img/decin/gotika/f/foto_0010.jpg)
 
-![Výsledky restaurování](/img/decin/gotika/f/foto_0011.jpg)
+![Výsledky restaurování — lanový buben postavený vertikálně, pohled shora na železné víko s šrouby, dřevěná část s navinutým lanem](/img/decin/gotika/f/foto_0011.jpg)
 
-![Výsledky restaurování](/img/decin/gotika/f/foto_0012.jpg)
+![Výsledky restaurování — klecový rám torza sestavený v dílně, lanový buben s navinutým lanem, rohové sloupky s gotickými hřeby](/img/decin/gotika/f/foto_0012.jpg)
 
-![Výsledky restaurování](/img/decin/gotika/f/foto_0013.jpg)
+![Výsledky restaurování — rám torza pohledem zezadu, kompletní soukolí bicího stroje s vratidly natahovacího mechanismu](/img/decin/gotika/f/foto_0013.jpg)
 
-![Výsledky restaurování](/img/decin/gotika/f/foto_0014.jpg)
+![Výsledky restaurování — torzo postavené v expozici Hodinária, vedle samostatně položené demontované součásti k prezentaci](/img/decin/gotika/f/foto_0014.jpg)
 
-![Výsledky restaurování](/img/decin/gotika/f/foto_0015.jpg)
+![Výsledky restaurování — finální instalace v expozici, kompletní soukolí v rámu, v pozadí na zdi viditelný velký číselník s římskými číslicemi](/img/decin/gotika/f/foto_0015.jpg)
 
 23. 4. 2021 bylo torzo konečně převezeno do Hodinária. K tomuto datu jde o nejstarší stroj v expozici, byť je zachován pouze jako torzo. Stroj do expozice zapůjčila Římskokatolická farnost Odolena Voda.
 

@@ -67,22 +67,22 @@ Před konečnou montáží byly doplněny chybějící díly. Podle částečně
 
 Opravu provedli: Ing. [Miroslav Baudisch](/hodinari/miroslav-baudisch), Jiří Kořínek.
 
-![Postup opravy stroje](/img/vez/prysk/f/foto2_000.jpg)
+![Kostel sv. Petra a Pavla v Horním Prysku — žlutomodrá fasáda v zimní mlze, věž s ciferníkem hodin a střechou nad zvonicí](/img/vez/prysk/f/foto2_000.jpg)
 
-![Postup opravy stroje](/img/vez/prysk/f/foto2_002.jpg)
+![Stav před opravou — kompletní rám stroje rozložený před dílnou, viditelná silná koroze pásnic a mosazné matice](/img/vez/prysk/f/foto2_002.jpg)
 
-![Postup opravy stroje](/img/vez/prysk/f/foto2_003.jpg)
+![Detail kované pásnice se zachovaným kovářským značením (pět záseků) — povrch s vrstvami koroze, mosazný šroubový závit](/img/vez/prysk/f/foto2_003.jpg)
 
-![Postup opravy stroje](/img/vez/prysk/f/foto2_004.jpg)
+![Mosazné kolo po vyčištění od korozní krusty — viditelné loukotě s prasklinou, čekající na opravu firmou pana Nováka ze Semil](/img/vez/prysk/f/foto2_004.jpg)
 
-![Postup opravy stroje](/img/vez/prysk/f/foto2_005.jpg)
+![Detail koruny lanového bubnu — křížový hlavec s kruhovými otvory, čtvercový vnitřní průchod pro hřídel](/img/vez/prysk/f/foto2_005.jpg)
 
-![Postup opravy stroje](/img/vez/prysk/f/foto2_006.jpg)
+![Dvě křídla větrníku položená na tmavém pozadí — zachované jedno křídlo (vlevo) jako vzor a nově vyrobená replika (vpravo) podle této předlohy](/img/vez/prysk/f/foto2_006.jpg)
 
-![Postup opravy stroje](/img/vez/prysk/f/foto2_007.jpg)
+![Rozebraná spouštěcí páka bití s vrstvami koroze před restaurováním na ocelovém pracovním stole](/img/vez/prysk/f/foto2_007.jpg)
 
-![Postup opravy stroje](/img/vez/prysk/f/foto2_008.jpg)
+![Detail nově vyrobených matic větrníků s vějířem ozubených zubů — vlevo světlejší nová, vpravo původní zachovaná](/img/vez/prysk/f/foto2_008.jpg)
 
-![Postup opravy stroje](/img/vez/prysk/f/foto2_009.jpg)
+![Detail kované tyče rámu s nově vyrobeným klínkem — vlevo původní zkorodovaná tyč, dole čistý nový klínek po výrobě](/img/vez/prysk/f/foto2_009.jpg)
 
-![Postup opravy stroje](/img/vez/prysk/f/foto2_011.jpg)
+![Stroj po renovaci — všechny díly v barvách RAL (rám červenohnědý, páky šedé, větrníky a bubny černé), tři funkční celky vedle sebe s ozubenými větrníky odbíjení](/img/vez/prysk/f/foto2_011.jpg)
