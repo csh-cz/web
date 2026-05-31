@@ -141,6 +141,26 @@ jobs:
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           R2_BUCKET: csh-imgvariants
 
+      # A.34: touch existující varianty NA NOVĚJŠÍ mtime než zdroje, aby
+      # generátor přeskočil plné-res (shouldRegenerate = false když target
+      # je novější) a vyrobil JEN nové width varianty -480w/-1024w/-1920w
+      # pro zdroje ≥ 1024 px. Bez tohoto by full regen po download regeneroval
+      # všech ~7500 variant a překročil timeout (90+ min v dřívějším runu).
+      # Touch dává `now`, source originály mají mtime z R2 download (= o pár
+      # vteřin starší), takže porovnání 'target > source' projde.
+      # find -newer není možné použít (existující varianty by se přeskakovaly i
+      # když jsou starší než zdroj). touch -d "+1 second" by riskoval clock skew
+      # — `touch` (= now) je dostatečný, protože source originály z download
+      # mají mtime z chvíle dřív.
+      - name: Touch existing variants (skip full-res regen)
+        if: steps.changed.outputs.mode == 'full'
+        run: |
+          set -e
+          # Krátká pauza, aby source originály měly garantovaně starší mtime
+          sleep 2
+          find apps/*/public/img \( -name '*.avif' -o -name '*.webp' \) -exec touch {} +
+          echo "Touched: $(find apps/*/public/img \( -name '*.avif' -o -name '*.webp' \) | wc -l) variants"
+
       - name: Generate variants (full regen)
         if: steps.changed.outputs.mode == 'full'
         run: pnpm imgvariants:build
@@ -163,9 +183,24 @@ jobs:
         if: steps.changed.outputs.mode == 'diff'
         run: node scripts/write-xmp-metadata.mjs --force --files "${{ steps.changed.outputs.files }}"
 
-      - name: Embed licence metadata (full regen / metadata backfill)
-        if: steps.changed.outputs.mode == 'full' || steps.changed.outputs.mode == 'meta'
+      # Embed v módu 'meta' (backfill_metadata) projde vše s --force — to je
+      # úmyslný úkol toho módu.
+      - name: Embed licence metadata (metadata backfill)
+        if: steps.changed.outputs.mode == 'meta'
         run: node scripts/write-xmp-metadata.mjs --force
+
+      # Embed v módu 'full' (A.34 width backfill): plné-res variants už licenci
+      # mají z dřívějších embed runů (stažené z R2). Width varianty -Nw.avif/webp
+      # zatím XMP nemají (variantSiblings cover jen .avif/.webp plné-res) —
+      # acceptable gap (licence shodná s plné-res, viz §6.1.1 skill obrazky).
+      # Bez --force a bez --files projde jen newly created/changed soubory; tady
+      # touchnuté plné-res mají novější mtime než source → embed je přeskočí
+      # (idempotent check), nové width varianty embed taky přeskočí (nejsou v
+      # variantSiblings rotaci). Tj. tento krok je v módu 'full' v podstatě no-op
+      # — necháváme ho jen pro defensivu, kdyby write-xmp někdy width pokrýval.
+      - name: Embed licence metadata (full regen — width vars gap)
+        if: steps.changed.outputs.mode == 'full'
+        run: node scripts/write-xmp-metadata.mjs
 
       - name: Upload variants + sources to R2
         if: steps.changed.outputs.mode != 'none'
