@@ -828,6 +828,32 @@ summary::-webkit-details-marker { display: none; }
   color: var(--color-text-muted);
 }
 
+/* Mobilní search ikona vedle hamburgeru — kompaktní touch target ≥ 44 px */
+.mobile-search-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  color: var(--color-brass-bright);
+  cursor: pointer;
+  font-size: 1.15rem;
+  transition: background 150ms ease;
+}
+.mobile-search-btn:hover, .mobile-search-btn:focus-visible {
+  background: color-mix(in srgb, var(--color-brass) 12%, transparent);
+  outline: none;
+}
+.mobile-search-btn:focus-visible {
+  outline: 2px solid var(--color-brass-bright);
+  outline-offset: 1px;
+}
+
 /* Breadcrumbs CSS přesunut do @csh/ui/styles/breadcrumbs.css (FU5 fáze 4, 2026-05-19). */
 
 /* Top nav links — vypnutý border-bottom co všechny <a> mají v global a typography styles.
@@ -1139,11 +1165,18 @@ body[data-editor-mode] .fab-stack {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
   /* Když je položek hodně (Hodinárium má ~15), seznam přesahuje
      viewport. Necháme ho skrolovat uvnitř — výška se omezí na
-     výšku okna minus header (~80 px) a malý buffer. */
-  max-height: calc(100vh - 100px);
+     skutečnou výšku viewportu (dvh = dynamic, počítá s URL barem
+     prohlížeče na mobilu) minus header (~80 px), minus safe-area
+     (iPhone notch) a malý buffer. Fallback 100vh pro starší prohlížeče.
+     Bug 2026-05-31: bez dvh menu na mobilu přesahovalo pod URL bar
+     a nedalo se scrollnout na poslední položku. */
+  max-height: calc(100vh - 100px - env(safe-area-inset-bottom, 0px));
+  max-height: calc(100dvh - 100px - env(safe-area-inset-bottom, 0px));
   overflow-y: auto;
   overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
+  /* Bottom padding pro safe-area (iPhone home indicator) */
+  padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 .mobile-menu a {
