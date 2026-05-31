@@ -428,17 +428,9 @@ const orgJsonLd = isHome ? {
               <i class="fa-solid fa-bars" style="font-size: 1.25rem; color: var(--color-brass-bright);" aria-hidden="true"></i>
             </summary>
             <ul class="mobile-menu absolute right-0 top-full mt-2 w-72 py-1">
-              <!-- Search jako první položka v menu (duplikace s ikonkou
-                   vedle hamburgeru — pro uživatele co otevřou menu napřímo
-                   a hledají co kde). -->
-              <li>
-                <button data-search-trigger class="nav-link mobile-search-link" aria-label="Vyhledávat na webu">
-                  <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
-                  <span>Vyhledávat</span>
-                </button>
-              </li>
-
-              <!-- Hlavní (drží se synchronizované s desktop top nav) -->
+              <!-- Hlavní (drží se synchronizované s desktop top nav).
+                   Vyhledávání je samostatná ikona (lupa) vedle hamburgeru
+                   v headeru — v menu se neopakuje, aby nezahlcovalo seznam. -->
               <li class="mobile-section-label">Hodinárium</li>
               <li><a href="/pro-navstevniky" class="nav-link">Návštěva</a></li>
               <li><a href="/sbirka" class="nav-link">Sbírka</a></li>

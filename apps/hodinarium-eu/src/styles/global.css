@@ -854,25 +854,6 @@ summary::-webkit-details-marker { display: none; }
   outline-offset: 1px;
 }
 
-/* Search jako první položka v hamburger menu (vedle ikonky, oba mají
-   stejnou akci — duplicita je záměrná pro UX: kdo zná ikonku vedle
-   hamburgeru, tlačí na ni; kdo otevře menu hledat odkaz, vidí ji nahoře). */
-.mobile-search-link {
-  display: flex !important;
-  align-items: center;
-  gap: 0.65rem;
-  width: 100%;
-  text-align: left;
-  background: transparent;
-  border: none;
-  font: inherit;
-  cursor: pointer;
-  color: var(--color-brass-bright);
-}
-.mobile-search-link i {
-  width: 1em;
-}
-
 /* Breadcrumbs CSS přesunut do @csh/ui/styles/breadcrumbs.css (FU5 fáze 4, 2026-05-19). */
 
 /* Top nav links — vypnutý border-bottom co všechny <a> mají v global a typography styles.
