@@ -15,7 +15,7 @@ Pracovní pramenná báze k editorské tabulce v `content/hodinarium-eu/balbin-1
 | # | Autorita | Zmiňuje orloj? | Pramen | Verbatim text | Digitalizát |
 |---|---|---|---|---|---|
 | 1 | **Dresser** | ✅ ano | *De praecipuis Germaniae urbibus*, s. 502 | ✅ ověřeno (vlastní sken) | sken u Davida |
-| 2 | **Typotius** | ✅ ano | popis k Sadelerově vedutě Prahy 1606 (NE *Symbola*) | ⚠️ jen z Balbína | Google `YFOerThEjN8C` |
+| 2 | **Typotius** | ✅ ano | popis k Sadelerově vedutě Prahy 1606 (NE *Symbola* — ověřeno negativně) | ⚠️ jen z Balbína | Google `YFOerThEjN8C` |
 | 3 | **Fournier** | ✅ ano | *Geographica orbis notitia*, l. IV, c. 6, s. 121 | ⚠️ OCR, čeká kolace | archive `bub_gb_sWcd_d4YfiwC` |
 | 4 | **Mercator** | ❌ NE | Atlas (text P. Montanus) | — (orloj nezmíněn) | archive `atlasminorgerard00merc` |
 | 5 | **Chytraeus** | ❌ NE | žádné jeho dílo | — (orloj nezmíněn) | archive `bub_gb_Ntk5AAAAcAAJ` |
@@ -62,7 +62,14 @@ Pracovní pramenná báze k editorské tabulce v `content/hodinarium-eu/balbin-1
 
 **Český překlad** (Balbínova edice): „Vystavuje se k vidění v Praze automat, na němž jsou pravé pohyby Měsíce, znamení Zodiaku, díla zároveň prastará a nejdůmyslnější — jimiž v městech Čech nesnadno ustupuje kterémukoli jinému."
 
-**Stav:** ⚠️ Verbatim text máme **pouze jako Balbínovu citaci** (Google OCR, rozpad přes marginálie), NE z nezávislého digitalizátu Sadelerova/Typotiova textu. Samostatný latinský text k Sadelerově vedutě se v žádném volně dostupném digitalizátu nepodařilo odečíst (veduta dostupná jen jako obraz: Met, British Museum, Google Arts & Culture).
+**NEGATIVNÍ DŮKAZ — *Symbola* orloj NEOBSAHUJE (ověřeno 2026-05-31 přímo ve svazku).** Fulltextové prohledání digitalizátu *Symbola divina et humana*, sv. 1 (Praha 1601), Google Books `1uoDx2QSi_MC` (jscmd SearchWithinVolume), dalo:
+- `horologium`: **0 výsledků**
+- `automatum`: **0 výsledků**
+- `Praga`: pouze 2 výsledky, oba emblematické — (a) vydavatelský kolofon dedikace *„Praga, ipsis Dionysiis. Anno primi hujus seculi"* (= Praha 1601, s. PA4); (b) emblém v sekci *Hierographia… simplex regum Hungariae, Bohemiae, Poloniae*: *„Praga Bohemia. Nisi mi tocchi"* (kn. III, č. 52, s. 124 — devíza s mottem, vedle Kateřiny a Alžběty polských, Štěpána Báthoryho aj.).
+
+Tím je **dvojnásobně potvrzeno**, že Balbínova citace o orloji NEpochází ze *Symbola*: jednak Balbínovým vlastním marginálem („Itinerario") a přiznáním nejistoty *„vel quisquis alius author"*, jednak negativním fulltextovým důkazem přímo ve *Symbola*. *Symbola* je emblémová kniha imprese papežů/císařů/králů; popis automatu/orloje (*„automatum… veri motus Lunae, signa Zodiaci"*) do ní nepatří.
+
+**Stav:** ⚠️ Verbatim text Typotiova citátu máme **pouze jako Balbínovu citaci** (Google OCR, rozpad přes marginálie), NE z nezávislého digitalizátu Sadelerova/Typotiova textu. Samostatný latinský text k Sadelerově vedutě se v žádném volně dostupném digitalizátu nepodařilo odečíst (veduta dostupná jen jako obraz: Met, British Museum, Google Arts & Culture).
 
 **Co je potřeba pro plné ověření:**
 - Odečíst latinskou legendu přímo z hi-res skenu Sadelerova prospektu 1606, NEBO
