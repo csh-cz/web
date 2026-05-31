@@ -40,6 +40,7 @@ jobs:
         run: node scripts/audit-dead-links.mjs
 
       - name: Commit aktualizovaný report
+        id: commit_report
         run: |
           git config user.name 'csh-bot'
           git config user.email 'noreply@orloj.eu'
@@ -52,8 +53,71 @@ jobs:
           git add docs/dead-links-audit-*.md
           if git diff --cached --quiet; then
             echo "Žádné změny v reportu (= žádné nové dead links)."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           DATE=$(date -u +%Y-%m-%d)
           git commit -m "chore(deadlinks): weekly audit ${DATE}"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Aktualizovat / vytvořit GitHub Issue
+        # I když se report nezměnil (= existující stav nepřibyl), pořád
+        # aktualizujeme issue (timestamp + signál „audit běžel"). Pokud
+        # by issue chyběl, vytvoříme nový — i kdyby dead count byl 0.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -e
+          LATEST=$(ls -t docs/dead-links-audit-*.md 2>/dev/null | head -1)
+          if [ -z "$LATEST" ]; then
+            echo "Žádný audit report — issue nezakládáme."
+            exit 0
+          fi
+
+          DATE=$(basename "$LATEST" .md | sed 's/dead-links-audit-//')
+          # Parsování shrnutí z markdown reportu (formát stabilní z audit-dead-links.mjs)
+          DEAD=$(grep -oE 'Mrtvé / nedostupné:\*\* [0-9]+' "$LATEST" | grep -oE '[0-9]+' | head -1 || echo 0)
+          TOTAL=$(grep -oE 'Unikátních URL:\*\* [0-9]+' "$LATEST" | grep -oE '[0-9]+' | head -1 || echo 0)
+          WBM=$(grep -oE 'Wayback Machine snapshotem:\*\* [0-9]+' "$LATEST" | grep -oE '[0-9]+' | head -1 || echo 0)
+          FILES=$(grep -oE 'unikátních URL ve [0-9]+ souborech' "$LATEST" | grep -oE '[0-9]+' | head -1 || echo 0)
+
+          TITLE="Dead-link audit: ${DEAD} mrtvých odkazů (${DATE})"
+          BODY=$(cat <<EOF
+          **Týdenní automatický audit externích odkazů — ${DATE}**
+
+          | Metrika | Hodnota |
+          |---|---|
+          | Skenované unikátní URL | ${TOTAL} |
+          | Mrtvé / nedostupné (4xx/5xx) | **${DEAD}** |
+          | Dotčené soubory | ${FILES} |
+          | S Wayback snapshotem | ${WBM} |
+
+          📄 Plný report: [\`docs/dead-links-audit-${DATE}.md\`](../blob/main/docs/dead-links-audit-${DATE}.md)
+
+          ## Co s tím
+
+          Pro každý dead link v reportu rozhodněte:
+
+          - **REPLACE → Wayback** — nahradit URL za snapshot z Web Archive (pokud existuje a obsah je zachován)
+          - **REPLACE → ekvivalent** — najít aktuální zdroj se stejným obsahem
+          - **REMOVE** — odstranit odkaz (jeho obsah už není relevantní)
+
+          Po opravě spusťte \`pnpm deadlinks:audit\` lokálně, ověřte report a commitněte úpravy v \`content/\`. Tento issue se automaticky aktualizuje při příštím týdenním runu (neděle 04:00 UTC).
+
+          ---
+
+          🤖 Generováno [dead-links-weekly.yml](../blob/main/.github/workflows/dead-links-weekly.yml) ve workflow runu [#${{ github.run_number }}](../actions/runs/${{ github.run_id }}).
+          EOF
+          )
+
+          # Pokud existuje open issue s labelem dead-links, edit; jinak create.
+          EXISTING=$(gh issue list --label dead-links --state open --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            echo "Aktualizace issue #${EXISTING}…"
+            gh issue edit "$EXISTING" --title "$TITLE" --body "$BODY"
+          else
+            echo "Vytváření nového issue…"
+            gh issue create --label dead-links --title "$TITLE" --body "$BODY"
+          fi

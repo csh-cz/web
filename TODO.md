@@ -121,11 +121,23 @@ prosvítit články) a `pnpm search:rebuild` (corpus + embed).
 
 V1 série hotová ([CHANGELOG 2026-05-10](docs/CHANGELOG.md)). V2 polish:
 
-- [ ] **A.21 V2 dead-link auditor follow-ups** (~3 h):
-      tlačítko v Sveltia editoru „Zkontroluj odkazy v tomto článku" (per-article
-      on-demand check), GitHub Issue auto-creation pro nové dead links od
-      posledního runu (diff vs předchozí JSON), auto-PR návrh:
-      replace dead URL na Wayback snapshot pokud existuje.
+- [~] **A.21 V2 dead-link auditor follow-ups** — částečně hotovo:
+      - ✅ **GitHub Issue auto-creation** (2026-05-31) — workflow
+        `dead-links-weekly.yml` po vygenerování reportu vytvoří nebo
+        aktualizuje single open issue s labelem `dead-links`. Body
+        obsahuje tabulku metrik (total/dead count, dotčené soubory,
+        Wayback hit-rate), link na full report v repu a editorský
+        checklist (REPLACE → Wayback / REPLACE → ekvivalent / REMOVE).
+      - [ ] **Tlačítko „Zkontroluj odkazy v tomto článku"** v Sveltia
+        editoru (per-article on-demand check). Současný widget
+        `csh-dead-links.js` jen čte cached snapshot; chybí spustit nový
+        scan jen pro otevřený článek. Vyžaduje serverless endpoint (CF
+        Worker) nebo client-side fetch s CORS proxy.
+      - [ ] **Auto-PR návrh: replace dead URL na Wayback snapshot** —
+        skript už dělá Wayback lookup, ale výsledky jdou jen do reportu.
+        Chybí: vytvořit branche, sed-replace dead URL → Wayback URL ve
+        všech souborech, otevřít PR. Pozor na multi-occurrence (stejný
+        URL na více místech v různých článcích).
 - [x] **A.13 V2 spell-check** — hotov 2026-05-12 (commit 45fbc0da right-click
       suggestion menu v `csh-spellchecker.js` s top-5 nspell suggestions +
       „Přidat do CSH slovníku" → GH Issue přes problemType `dict-word` +
@@ -1004,15 +1016,10 @@ verifikace souborového stavu.
       3 zbývají manual (tabor + sezona2012 — raw chybí; timeslider — md
       neexistuje). Commit `5965c55b`.
 
-### Po deployi spustit close
+### ✅ Issues zavřené (2026-05-31)
 
-```bash
-gh issue close 18 26 27 32a 34 36 -R csh-cz/web
-gh issue close 21 24 25 -R csh-cz/web
-```
-
-(Note: #32a není reálný GH issue, byl follow-up k #32 který je už zavřený.
-Reálné closes: 18, 21, 24, 25, 26, 27, 34, 36.)
+Verifikace: `gh issue list --state open -R csh-cz/web` → `[]` (0 open).
+Všechny issues z auditu 2026-05-19 (18, 21, 24, 25, 26, 27, 33, 34, 36) closed.
 
 ## A.9 — Připraveno k nasazení po DNS switch (nízká priorita)
 
