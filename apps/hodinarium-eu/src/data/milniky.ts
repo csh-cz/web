@@ -715,13 +715,13 @@ export const milniky: Milnik[] = [
     kategorie: 'osobnost',
     titulek: 'Jan Mráz, orlogista svatovítské kapituly',
     popis:
-      '**Jan Mráz** — kněz, vikář kanovníka Václava z Radče a oltářník u oltáře sv. Kříže v katedrále — ' +
-      'pobíral podle účtů svatovítské kapituly k rokům **1403 a 1411** plat orlojníka *„de registro orlogii ' +
-      'pro salario suo"* a je výslovně uveden jako *orlogista*. Patří tak k mála jmenovitě doloženým raným ' +
-      'správcům orloje na Pražském hradě, generaci po císařském orlojníkovi Martinovi (1361). Archivní záznam ' +
-      'objevila teprve M. Maříková (2007). — Pozor na záměnu: nejde o stejnojmenného olomouckého biskupa ani ' +
-      'o Jana orlojníka z domu U Sedmi švábů v Platnéřské (ten měl dceru, kdežto Mráz jako duchovní potomky ' +
-      'mít nemohl). Že by pečované hodiny stály přímo u kaple sv. Kříže, je jen nedoložená domněnka.',
+      'Jan Mráz — kněz, vikář kanovníka Václava z Radče a oltářník u oltáře sv. Kříže v katedrále — pobíral ' +
+      'podle účtů svatovítské kapituly k rokům 1403 a 1411 plat orlojníka „de registro orlogii pro salario ' +
+      'suo" a je výslovně uveden jako orlogista. Patří tak k mála jmenovitě doloženým raným správcům orloje ' +
+      'na Pražském hradě, generaci po císařském orlojníkovi Martinovi (1361). Archivní záznam objevila teprve ' +
+      'M. Maříková (2007). Pozor na záměnu: nejde o stejnojmenného olomouckého biskupa ani o Jana orlojníka ' +
+      'z domu U Sedmi švábů v Platnéřské (ten měl dceru, kdežto Mráz jako duchovní potomky mít nemohl). Že by ' +
+      'pečované hodiny stály přímo u kaple sv. Kříže, je jen nedoložená domněnka.',
     slovnik: 'orlojnik',
     zdroj: 'Maříková 2007 — Registrum acceptorum et divisionum capituli metropolitani Pragensis 1396–1418. Sborník archivních prací 57/1, s. 299',
   },
