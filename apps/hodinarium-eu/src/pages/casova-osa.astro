@@ -17,6 +17,13 @@ import { clanekHrefFromSlug } from '../data/url-helpers';
 import { krokyBySlug } from '../data/kroky';
 import { hodinariBySlug } from '../data/hodinari';
 import { formatCite } from '../utils/cite';
+import { tinyMarkdown } from '../utils/tinyMarkdown';
+
+/** Render popisu milníku jako inline HTML (povolí **tučně**, *kurzíva*, odkazy).
+ *  tinyMarkdown obaluje výstup do <p>; popis je ale uvnitř <p class="osa-popis">,
+ *  tak vnější <p> ořízneme (popisy milníků jsou jednoodstavcové). */
+const popisInline = (s: string): string =>
+  tinyMarkdown(s).replace(/^<p>/, '').replace(/<\/p>$/, '');
 
 const skupiny = milnikyDleEpochy();
 const pocet = milniky.length;
@@ -174,7 +181,7 @@ function pramenCislo(m: Milnik): number | null {
                   </p>
                   <h3 class="osa-titulek">{m.titulek}</h3>
                   <p class="osa-popis">
-                    {m.popis}
+                    <span set:html={popisInline(m.popis)} />
                     {pramenNum !== null && (
                       <sup class="osa-ref">
                         <a href={`#ref-${pramenNum}`} aria-label={`Pramen ${pramenNum}`}>[{pramenNum}]</a>
