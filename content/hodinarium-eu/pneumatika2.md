@@ -14,7 +14,7 @@ tldr: 'Pařížská distribuovaná síť 7800 hodin podle vídeňského patentu 
 ---
 Podle článku Orologi\_pubblici\_pneumatici\_a\_Parigi, který napsala **MARISA ADDOMINE, zkrácenou verzi zpracoval [Petr Král](/hodinari/petr-kral).**
 
-[Původní nezkrácená verze zde.](https://www.academia.edu/35888544/Orologi_pubblici_pneumatici_a_Parigi)
+[Původní nezkrácená verze zde.](https://web.archive.org/web/20250402055629/https://www.academia.edu/35888544/Orologi_pubblici_pneumatici_a_Parigi)
 
 Průmyslová revoluce v 19. století přinesla potřebu hnací síly pro pohon strojů a zařízení. Ve druhé polovině 19. století soupeřily elektřina a stlačený vzduch o roli primárního zdroje energie: velká evropská města měla rozvodné sítě pro oba zdroje. Díky dobovým publikacím bylo možné rekonstruovat historii rozsáhlé sítě pneumatických veřejných hodin v Paříži, která vznikla na základě rakouského patentu.![Pouliční pneumatické hodiny v Paříži](/img/Paris_pneumatika/poulicni.jpg)
 

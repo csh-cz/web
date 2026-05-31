@@ -15,7 +15,7 @@ tags:
   - evropa
 references:
   - title: Muzeum Zegarów Wieżowych w Gdańsku
-    url: https://cs.wikipedia.org/wiki/Muzeum_Zegar%C3%B3w_Wie%C5%BCowych_w_Gda%C5%84sku
+    url: https://pl.wikipedia.org/wiki/Muzeum_Zegar%C3%B3w_Wie%C5%BCowych
     type: wiki
   - title: Muzeum Zegarów Wieżowych — trojmiasto.tv
     url: https://trojmiasto.tv/Muzeum-Zegarow-Wiezowych-Gdansk-22030.html
