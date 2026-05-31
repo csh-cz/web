@@ -684,6 +684,29 @@ export const milniky: Milnik[] = [
     zdroj: 'Rosický 1923 — O počátcích bicích hodin v Čechách (Menčík 1882, Statuta post visitationem Arnesti)',
   },
   {
+    id: 'praha-svvit-klenba-choru-1385',
+    rok: 1385,
+    rokText: '1385',
+    epocha: 'stredovek',
+    oblast: 'ceske-zeme',
+    kategorie: 'monument',
+    titulek: 'Klenba chóru sv. Víta dokončena „ve 12. hodině orloje"',
+    popis:
+      'Kronika tzv. Beneše Minority (dnes řazená k Benešovi Krabicovi z Weitmile, resp. jejímu ' +
+      'pokračování) zaznamenává k roku 1385 dokončení klenby chóru katedrály sv. Víta a datuje ' +
+      'je podle orloje: „Anno MCCCLXXXV in die sancte Margarethe XII hora horologii completa est ' +
+      'testudo chori ecclesie Pragensis infra solempnia missarum." (Léta 1385, o svátku / v předvečer ' +
+      'sv. Markéty, ve dvanácté hodině orloje byla za slavných mší dokončena klenba chóru kostela ' +
+      'pražského.) Je to další z řady raných dokladů orloje na Pražském hradě — po mansionářských ' +
+      'statutech (1354) a hradním hodináři doloženém ve vizitačních statutech (1358/59). Téhož roku ' +
+      'byl chór na svátek sv. Havla (1. října) vysvěcen arcibiskupem Janem z Jenštejna ke cti Panny ' +
+      'Marie a sv. Víta.',
+    slovnik: 'orloj',
+    bibKey: 'dobnerMonumentaHistoricaBoemiae1779',
+    zoteroKey: 'Z4DQSZQJ',
+    zdroj: 'Dobner 1779 — Monumenta historica Boemiae IV, s. 63 (kronika tzv. Beneše Minority / Beneš z Weitmile)',
+  },
+  {
     id: 'dondi-astrarium',
     rok: 1364,
     rokText: '1364',
