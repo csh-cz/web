@@ -23,13 +23,18 @@ prekladyDe:
   - term: Zahn
     genus: m
     zdroj: 'Berner, *Illustriertes Fachlexikon der Uhrmacherei*; Špatný 1882'
+  - term: Kerbe
+    genus: f
 prekladyEn:
   - term: tooth
     zdroj: 'Berner, *Illustrated Professional Dictionary of Horology*'
+  - term: notch
 prekladyFr:
   - term: dent
     genus: f
     zdroj: 'Berner, *Dictionnaire professionnel illustré de l''horlogerie*'
+  - term: coche
+    genus: f
 definice: 'Výstupek na obvodu ozubeného kola nebo [pastorku](/slovnik/pastorek), který zabírá do mezery (= vrub v původním smyslu) protilehlého kola a tím přenáší rotační pohyb. **Moderní cs odborný termín je „zub"**; staročeské „vrub" / „vroubek" jsou doloženy Táborským 1570.'
 pribuzne:
   - pastorek

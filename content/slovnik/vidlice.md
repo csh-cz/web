@@ -11,13 +11,18 @@ prekladyDe:
     genus: f
   - term: Anker
     genus: m
+  - term: Gabel
+    genus: f
 prekladyEn:
   - term: pallet fork
   - term: lever
+  - term: fork
 prekladyFr:
   - term: ancre à fourchette
     genus: f
   - term: fourchette
+    genus: f
+  - term: fourche
     genus: f
 definice: "**Středový převodový článek** v páčkovém (švýcarském) kroku náramkových a kapesních hodinek. Vidlice spojuje **[krokové kolo](/slovnik/krokove-kolo)** s **[setrvačkou](/slovnik/setrvacka)** — palety na jednom konci vidlice zachycují zuby krokového kola, zatímco druhý konec (= vlastní vidlice) komunikuje se safírovou tříhrannou paletkou na ose setrvačky. Tím přenáší **diskrétní impulsy** (jeden za půlperiodu kyvu) na oscilátor."
 pribuzne:

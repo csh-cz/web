@@ -6,13 +6,18 @@ prekladyDe:
   - term: Chronometer
     genus: m
     zdroj: Špatný 1882
+  - term: Halb-Chronometer
+    genus: m
 prekladyEn:
   - term: chronometer
     zdroj: Saunier 1887
+  - term: half-chronometer
 prekladyFr:
   - term: chronomètre
     genus: m
     zdroj: Gros 1913
+  - term: demi-chronomètre
+    genus: m
 definice: "Hodinkový stroj nejvyšší přesnosti, typicky s chronometrovým krokem (volným, s detentem); v užším smyslu lodní (mořský) chronometr pro určování zeměpisné délky."
 pribuzne:
   - setrvacka
