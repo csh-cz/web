@@ -562,6 +562,63 @@ summary::-webkit-details-marker { display: none; }
   font-size: inherit;
 }
 
+/* === Edice pramenů: hierarchie pramen × editorský aparát ===
+   V rubrice /edice je primární přeložený PRAMEN. Redakční poznámky
+   (blockquote „Editorská poznámka…", třída `.editorial-note` z
+   packages/rehype-editorial-notes) jsou sekundární aparát — menší,
+   nekurzivní a tlumené, aby pramen vizuálně vystoupil. SKUTEČNÉ citace
+   pramene (ostatní blockquoty) si výrazný copper-kurziva styl ponechávají.
+   Scoped na edice, ostatní rubriky beze změny. */
+.article-single[data-category="edice"] .prose-content {
+  font-size: 1.04rem;
+}
+.article-single[data-category="edice"] .prose-content blockquote.editorial-note {
+  font-size: 0.86em;
+  font-style: normal;
+  line-height: 1.55;
+  color: var(--color-text-muted);
+  border-left: 2px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
+  background: color-mix(in srgb, var(--color-brass) 5%, transparent);
+  padding: 0.7em 1rem 0.7em 1.1rem;
+  border-radius: 0 2px 2px 0;
+  margin-block: 1.4em;
+}
+.article-single[data-category="edice"] .prose-content blockquote.editorial-note strong {
+  color: var(--color-text-soft);
+}
+
+/* Toggle: tlačítko skrytí/zobrazení poznámek */
+.editorial-toggle {
+  margin: 0 0 1.75rem;
+}
+.editorial-toggle__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.45rem 0.95rem;
+  background: var(--color-bg-elevated);
+  border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+  border-radius: 2px;
+  color: var(--color-text-soft);
+  cursor: pointer;
+  transition: color 150ms ease, border-color 150ms ease;
+}
+.editorial-toggle__btn:hover {
+  border-color: var(--color-brass);
+  color: var(--color-brass-bright);
+}
+.editorial-toggle__icon {
+  color: var(--color-copper);
+}
+
+/* Stav „skryto" — schovej aparát, ponech skutečné citace pramene */
+.article-single.editorial-collapsed .prose-content blockquote.editorial-note {
+  display: none;
+}
+
 /* Horizontální čára — jednoduchá tenká linka s gradientem */
 .prose-content hr {
   border: none;

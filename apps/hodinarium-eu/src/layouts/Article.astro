@@ -5,6 +5,7 @@ import Card from "../components/Card.astro";
 import JsonLd from '@csh/ui/components/JsonLd.astro';
 import KartaSbirky from "../components/KartaSbirky.astro";
 import EditorNotesBlock from "../components/EditorNotesBlock.astro";
+import EditorialNotesToggle from "../components/EditorialNotesToggle.astro";
 import CrossRefs from "../components/CrossRefs.astro";
 import SkupinaClenove from "../components/SkupinaClenove.astro";
 import { pramenTooltip, extractWikiTitle } from "../utils/referenceTypes";
@@ -182,7 +183,7 @@ const articleJsonLd = {
     { label: title },
   ]} />
 
-  <article class="article-single" itemscope itemtype="https://schema.org/Article" data-draft={draft ? 'true' : undefined}>
+  <article class="article-single" itemscope itemtype="https://schema.org/Article" data-category={category} data-draft={draft ? 'true' : undefined}>
     <meta itemprop="inLanguage" content="cs" />
     <meta itemprop="author" content="Český spolek horologický" />
     <meta itemprop="publisher" content="Český spolek horologický" />
@@ -218,6 +219,7 @@ const articleJsonLd = {
     <div class="prose-content drop-cap" itemprop="articleBody">
       {karta && <KartaSbirky karta={karta} />}
       <EditorNotesBlock notes={editorNotes} sourceFile={slug ? `content/hodinarium-eu/${slug}.md` : undefined} />
+      {category === 'edice' && <EditorialNotesToggle />}
       <slot />
     </div>
 

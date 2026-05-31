@@ -7,6 +7,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import rehypePicture from '../../packages/rehype-picture/index.mjs';
 import rehypeDeadlink from '../../packages/rehype-deadlink/index.mjs';
+import rehypeEditorialNotes from '../../packages/rehype-editorial-notes/index.mjs';
 import remarkDirective from 'remark-directive';
 import remarkCshDirectives from '../../packages/remark-csh-directives/index.mjs';
 import remarkMath from 'remark-math';
@@ -62,6 +63,9 @@ export default defineConfig({
       // rehype-deadlink: označí externí odkazy nedostupné při posledním
       // auditu (src/data/dead-links.json) class `link-dead` + ⚠ marker.
       [rehypeDeadlink, { deadUrls: deadLinks.urls, checkedDate: deadLinks._meta.generated }],
+      // rehype-editorial-notes: blockquoty „Editorská poznámka…" dostanou
+      // třídu `editorial-note` (ztlumení aparátu + toggle v edicích).
+      rehypeEditorialNotes,
     ],
   },
   integrations: [
@@ -86,6 +90,7 @@ export default defineConfig({
         }],
         rehypeKatex,
         [rehypeDeadlink, { deadUrls: deadLinks.urls, checkedDate: deadLinks._meta.generated }],
+        rehypeEditorialNotes,
       ],
     }),
     sitemap({
