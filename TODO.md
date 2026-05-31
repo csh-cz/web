@@ -399,37 +399,38 @@ immutable cache, žádný Worker pro veřejné derivativy). React `ResponsiveIma
 komponenta + Worker decision se na Astro stack nehodí. **Jediný reálně přínosný
 nápad navíc** = width-based `srcset`.
 
-- [~] **Multi-width varianty (`srcset`)** — ROZPRACOVÁNO 2026-05-24, varianta
-      **B** (3 breakpointy 480/1024/1920, zdroje šířky ≥1024). **Backfill
-      odložen** kvůli pomalosti CI (viz níže). Hotové části:
-      - ✅ **Generátor** (`generate-image-formats.ts`) + **CI full-regen download
-        fix** (po A.26 stahuje zdroje z R2) — commit `f4c9003b`, **na main**.
-        Generuje `{base}-{w}w.avif/webp` pro zdroje ≥1024 (skip upscale).
-        Pozn.: diff-mode CI tak generuje width varianty pro NOVÉ velké fotky
-        už teď (zatím nevyužité, render není nasazený — neškodné).
-      - ✅ **Render** (rehype-picture + Photo.astro + remark-csh-directives
-        photoHtml + imageSizes přes astro.config) — emituje width srcset +
-        sizes pro ≥1024. **ZADRŽENO na větvi `a34-render-hold`** (commit
-        `50e6d4e2`) — nepushovat na main, dokud nebudou width varianty na R2
-        (jinak srcset → 404). Ověřeno v dist (006a 1200px → 480w/1024w/1200w).
-      - ❌ **Backfill na R2 BLOKOVANÝ.** Full-regen po `imgvariants:download`
-        regeneruje VŠECH ~7500 variant (stažené varianty mají novější mtime
-        než zdroje → `shouldRegenerate` true) + `write-xmp --force` embeduje
-        všech ~7500 → ~90+ min, **přesahuje 120min timeout** (run 26361636569
-        zrušen v generaci po 89 min).
+- [x] **Multi-width varianty (`srcset`)** — DOKONČENO 2026-05-31. Varianta
+      **B** (3 breakpointy 480/1024/1920, zdroje šířky ≥1024). Backfill na R2
+      hotov, render aktivní. **Měřená úspora na mobilu: 75 KB místo 695 KB
+      pro 1920px obrázky = -89 % bytů.**
 
-      **Dokončení (samostatný úkol, ~lean run):**
-      1. Po `imgvariants:download` v CI **touch** existující varianty novější
-         než zdroje (`find apps/*/public/img \( -name '*.avif' -o -name
-         '*.webp' \) -exec touch {} +`) → generátor přeskočí plné-res, udělá
-         jen ~2000 width variant (~15 min).
-      2. **Embed jen nových width variant** (ne `--force` na všech) — buď
-         rozšířit `write-xmp` variantSiblings o `-{w}w`, nebo width varianty
-         nechat bez XMP (gap; licence je shodná s plné-res, viz §6.1.1) a
-         embed v full-regen přeskočit.
-      3. Dispatch `imgvariants-r2-sync.yml -f full_regen=true` (teď ~25–35 min).
-      4. Ověřit width varianty na R2 (`…-480w.avif` → 200), pak
-         `git cherry-pick a34-render-hold` → push → ověřit srcset naživo.
+      **Postup, který fungoval (timeline 2026-05-31):**
+      1. CI workflow `imgvariants-r2-sync.yml` upraven — touch trick mezi
+         download a generate kroky + split XMP embed na meta (`--force`) vs
+         full (idempotent) mode (commit `65704459`, push).
+      2. `workflow_dispatch full_regen=true` (run `26701816508`) doběhl za
+         **85 min** (Download 5 min, Generate ~2000 nových width variant
+         místo 7500 plných ~80 min, Embed/Upload 4 min) — pod 120min limit.
+      3. Cherry-pick render `91fd9a71` z `a34-render-hold` → main (commit
+         `1eafa386`); konflikt v Photo.astro vyřešen (SVG cache-bust +
+         srcset koexistují, keep both), build OK 1582 stránek, push.
+      4. Verify: `curl pub-…r2.dev/img/sbirka/mesice/landesberger-stroj-480w.avif`
+         → 200, 75 KB (vs 695 KB plné-res = -89 %).
+      5. Live srcset na karte Měšice:
+         `srcset="…-480w.avif 480w, …-1024w.avif 1024w, ….avif 1920w"
+         sizes="(max-width: 768px) 100vw, 760px"`.
+      6. Cleanup: `tmp-a34-cherrypick-test` + `a34-render-hold` lokálně
+         smazané; remote `a34-render-hold` neexistoval.
+
+      Hotové části:
+      - ✅ **Generátor** (`generate-image-formats.ts`) — commit `f4c9003b`.
+      - ✅ **Render** (rehype-picture + Photo.astro + remark-csh-directives
+        photoHtml + imageSizes přes astro.config) — commit `1eafa386` na main.
+      - ✅ **CI workflow** s touch trickem — commit `65704459`.
+      - ✅ **Backfill na R2** — run `26701816508` (2026-05-31, 85 min).
+      - 📝 Width varianty bez XMP metadat (`-{w}w` neembedované) — acceptable
+        gap §6.1.1 (licence je shodná s plné-res `.avif` siblingem, web má
+        site-wide footer + per-foto credit).
 
       **Scope** jen hero/large/galerie efektivně = zdroje ≥1024 px; drobné
       float (img-small/medium) bez variant (zbytečné).
