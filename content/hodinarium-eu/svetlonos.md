@@ -12,7 +12,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:16.426Z"
 tldr: 'Čtyřmetrová socha v Sezimově Ústí coby horizontální sluneční hodiny — diskuze o pravém slunečním čase, časové rovnici a korekcích vůči SEČ ve sporu o „správnost" údaje.'
 ---
-![Fotografie Strážce času byla pořízena 12.3.2007 v 11:03. Stín ukazuje přibliž 10:50 a nachází se před čárou rovníku. Údaj odpovídá místnímu slunečnímu času. ](/img/slunecni/svetlonos.jpg)
+![Socha Strážce času v Sezimově Ústí jako horizontální sluneční hodiny — stín ukazuje 10:50 (snímek 12. 3. 2007 v 11:03), nachází se před čárou rovníku, odpovídá místnímu pravému slunečnímu času](/img/slunecni/svetlonos.jpg)
 
 Sluneční hodiny symbolizují sepětí člověka s přírodou. Proto jsem rád, že například i v Sezimově Ústí byla postavena nová čtyřmetrová **socha Strážce času - artefakt s funkcí [slunečních hodin](/slovnik/slunecni-hodiny)**. (Web autora [**zde**](http://www.gibbus.cz/)). Podrobnější informace hodinářské najdete i v [**katalogu**](http://astro.mff.cuni.cz/mira/sh/sh.php?rec=18315) slunečních hodin**.** Jsem rád že hodiny byly postaveny i přes rozporuplné reakce, které to vyvolalo.
 

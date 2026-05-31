@@ -14,7 +14,7 @@ tags:
   - 1800s
 tldr: 'Alternativní konstrukce buzení u švarcvaldek bez kroku — hnací soukolí přes vačku a kladívko rozeznívá velký věžový zvonek; doba buzení se nastavuje mosaznou ručkou na skleněném číselníku.'
 ---
-![Obrázek z dobového katalogu](/img/budiky1/budik_schw1.jpg)
+![Švarcvaldský budík bez kroku — ilustrace z dobového katalogu: skleněný kulatý číselník s šipkou, třetí mosazná ručka pro nastavení doby buzení, nad skříňkou stroje velký zvonek věžního tvaru](/img/budiky1/budik_schw1.jpg)
 
 [![svarcvald budík](/img/budiky1/budik_schw2_n.jpg)](/img/budiky1/budik_schw2.jpg)[![svarcvald budík](/img/budiky1/budik_schw2b_n.jpg)](/img/budiky1/budik_schw2b.jpg)
 
