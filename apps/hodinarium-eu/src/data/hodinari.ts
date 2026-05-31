@@ -622,7 +622,7 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Pražský jezuita, matematik, astronom a stavební prefekt. Mnoho let profesor matematiky a hebrejštiny na Karlo-Ferdinandově univerzitě v Klementinu; jako prefekt staveb se podílel na raně barokní podobě Klementina a na koncepci Svaté Hory u Příbrami (s Carlem Luragem). Pro dějiny orloje je zásadní jeho **latinský popis stroje staroměstského orloje**, který po jeho smrti otiskl Balbín v třetí knize *Miscellaneí* (1681) — vůbec první tištěný technický popis pražského orloje. Zemřel jako rektor jezuitské koleje v Klatovech; ostatky se dochovaly mezi klatovskými mumiemi.',
-    relatedSlugs: ['balbin-1681-admirandum-horologium', 'teicher-1735-popis-orloje'],
+    relatedSlugs: ['balbin-1681-admirandum-horologium'],
     era: 'baroko',
   },
 
