@@ -15,7 +15,7 @@ Tato stránka obsahuje pokus o chronologické sestavení hlavních změn na webu
 Stará stránka je zde.
 
 - 8\. 4. 2026 [Generátor napětí 110 V 60 Hz pro americké hodiny](60Hz.php)
-- 20.11. 2025 [NTP server v Hodináriu](https://proxy.hodinarium2.eu/chrony2.php)
+- 20.11. 2025 NTP server v Hodináriu
 - 12.11. 2025 [Timometer – historické americké časové razítko po roce 1903](/projekty/timometer)
 - 11.10. 2025 [Monitor expozice v Hodináriu](hmonitor.php) (Chráněno heslem)
 - 1.10. 2025 [Astrohodiny ze stavebnice meteostanice](/projekty/astro2-ntp)

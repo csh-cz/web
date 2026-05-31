@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-20T16:04:45.611Z",
-  "deadCount": 25,
+  "generatedAt": "2026-05-31T07:44:32.930Z",
+  "deadCount": 19,
   "withWaybackCount": 0,
   "byFile": {
-    "content/hodinarium-eu/casova-pasma.md": [
+    "content/hodinarium-eu/decin-ntp.md": [
       {
-        "url": "http://www.hodiny-spel.cz/atypicka_vyroba.php",
+        "url": "http://gnssmissionplanning.com/App/Skyplot",
         "status": 404,
-        "context": "[![Hodiny „SVĚTOVÝ ČAS”, analogové v kombinaci s datumem, broušený a leštěný nerez](/img/elektrika/svetovy_cas1.jpg)](http://www.hodiny-spel.cz/atypicka_vyroba.php) Mezi kuriózní hodiny můžeme",
+        "context": " uváděné technické parametry [![družice 8.6.2020](/img/elektrika/NTP/druzice.png)](http://gnssmissionplanning.com/App/Skyplot) - Time synchronization accu",
         "field": "body:link",
         "wayback": null
       }
@@ -30,15 +30,6 @@
         "wayback": null
       }
     ],
-    "content/hodinarium-eu/muzeum-gdansk-zegarow-wiezowych.md": [
-      {
-        "url": "https://cs.wikipedia.org/wiki/Muzeum_Zegar%C3%B3w_Wie%C5%BCowych_w_Gda%C5%84sku",
-        "status": 404,
-        "context": "https://cs.wikipedia.org/wiki/Muzeum_Zegar%C3%B3w_Wie%C5%BCowych_w_Gda%C5%84sku",
-        "field": "fm:references[0]:url",
-        "wayback": null
-      }
-    ],
     "content/hodinarium-eu/muzeum-kadan-orloj.md": [
       {
         "url": "https://www.mesto-kadan.cz/orloj/d-1006",
@@ -57,21 +48,19 @@
         "wayback": null
       }
     ],
-    "content/hodinarium-eu/pichacky.md": [
+    "content/hodinarium-eu/prazsky-orloj-ciferniky-2018.md": [
       {
-        "url": "https://www.wikiwand.com/de/Johannes_B%C3%BCrk",
-        "status": 403,
-        "context": "ářskou firmu Bürk založil pan [Johannes Bürk](https://www.wikiwand.com/de/Johannes_B%C3%BCrk) v roce 1855. Firma od počátk",
+        "url": "http://www.veznihodiny.cz/staromestskaradnice.htm",
+        "status": 404,
+        "context": "ala)** z **13. března 2018** ([Hodinové ciferníky věže Staroměstské radnice](http://www.veznihodiny.cz/staromestskaradnice.htm)) dokumentuje **boční hodinov",
         "field": "body:link",
         "wayback": null
-      }
-    ],
-    "content/hodinarium-eu/slunecni.mdx": [
+      },
       {
-        "url": "http://www.astroama.com/",
-        "status": 409,
-        "context": "http://www.astroama.com/",
-        "field": "fm:references[3]:url",
+        "url": "http://www.veznihodiny.cz/staromestskaradnice.htm",
+        "status": 404,
+        "context": "kopis (PDF, 6 stran), atelier [veznihodiny.cz](http://www.veznihodiny.cz/staromestskaradnice.htm), archiv Hodinária. Verze pro",
+        "field": "body:link",
         "wayback": null
       }
     ],
@@ -84,15 +73,6 @@
         "wayback": null
       }
     ],
-    "content/hodinarium-eu/synchronizace-hodin.md": [
-      {
-        "url": "https://www.wikiwand.com/cs/Vys%C3%ADla%C4%8D_OMA/",
-        "status": 403,
-        "context": "95 vypnut. Zajímavý podrobný [článek zde](https://www.wikiwand.com/cs/Vys%C3%ADla%C4%8D_OMA/) a také ve [wikipedii](https:",
-        "field": "body:link",
-        "wayback": null
-      }
-    ],
     "content/hodinarium-eu/zidovske.mdx": [
       {
         "url": "https://www.mapy.cz/s/kcyO",
@@ -102,67 +82,53 @@
         "wayback": null
       }
     ],
-    "content/hodinari/engelbert-seige.mdx": [
+    "content/hodinari/franz-josef-zink.mdx": [
       {
-        "url": "https://indico.fjfi.cvut.cz/event/127/contributions/2868attachments/966/1332/Astronomicke_funkce_a_umeleckohistoricka_analyza_planetaria_P._Engelberta_Seige_1792_ve_sbirkach_Narodniho_technickeho_muzea_v_Praze.pdf",
+        "url": "https://www.muzeumcb.cz/)**",
         "status": 404,
-        "context": "https://indico.fjfi.cvut.cz/event/127/contributions/2868attachments/966/1332/Ast",
-        "field": "fm:references[0]:url",
-        "wayback": null
-      },
-      {
-        "url": "https://indico.fjfi.cvut.cz/event/127/contributions/2868",
-        "status": 400,
-        "context": "a **kovový model** (popsané v [diplomové práci L. Hrůšové, 2020](https://indico.fjfi.cvut.cz/event/127/contributions/2868), kap. 4). ## Postavení v do",
-        "field": "body:link",
-        "wayback": null
-      },
-      {
-        "url": "https://cs.wikipedia.org/wiki/Jan_Klein_(hodin%C3%A1%C5%99)",
-        "status": 404,
-        "context": "vskými soudobými stroji: - **[Jan Klein](https://cs.wikipedia.org/wiki/Jan_Klein_(hodin%C3%A1%C5%99))** (1684–1762, Praha) — autor",
-        "field": "body:link",
+        "context": "Jeden ze **tří nejvýznamnějších českobudějovických hodinářů** přelomu\n19. a 20. ",
+        "field": "fm:shrnuti:embedded",
         "wayback": null
       }
     ],
-    "content/hodinari/jan-mares.mdx": [
+    "content/hodinari/jiri-valenta.mdx": [
       {
-        "url": "https://www.researchgate.net/",
-        "status": 403,
-        "context": "res)** — evangelický kostel | [Skála 2005](https://www.researchgate.net/) | | 1896 | **[Kostomlátky](/",
-        "field": "body:link",
-        "wayback": null
-      },
-      {
-        "url": "https://www.researchgate.net/",
-        "status": 403,
-        "context": "any)** — evangelický kostel | [Skála 2005](https://www.researchgate.net/) | | nedat. | **[Veleliby](/s",
-        "field": "body:link",
+        "url": "http://www.turmtechnik.com/zabreh/",
+        "status": 404,
+        "context": "Stub medailon — chybí životopisná data (datum narození, vyučení,\ndílna v Sudkově",
+        "field": "fm:editorNotes[0]:text:embedded",
         "wayback": null
       }
     ],
-    "content/hodinari/junghans.mdx": [
+    "content/hodinari/vladimir-jelinek.mdx": [
       {
-        "url": "https://cs.wikipedia.org/wiki/Junghans",
+        "url": "http://www.turmtechnik.com/zabreh/",
         "status": 404,
-        "context": "https://cs.wikipedia.org/wiki/Junghans",
-        "field": "fm:references[0]:url",
+        "context": "Stub medailon — chybí životopisná data (datum narození, profesní\nzázemí, vztah k",
+        "field": "fm:editorNotes[0]:text:embedded",
         "wayback": null
       }
     ],
     "content/hodinari/mannhardt.mdx": [
       {
-        "url": "https://de.wikipedia.org/wiki/Matth%C3%A4uskirche_(M%C3%BCnchen)",
+        "url": "https://en.wikipedia.org/wiki/Alte_Pinakothek)**",
         "status": 404,
-        "context": "33** dodal věžní hodiny pro **[evangelický kostel sv. Matěje](https://de.wikipedia.org/wiki/Matth%C3%A4uskirche_(M%C3%BCnchen))** (Matthäuskirche). ## Vrch",
-        "field": "body:link",
+        "context": "Mnichovská hodinářská firma **Königlich Bayerische Hof-Thurmuhren-Fabrik\nJohann ",
+        "field": "fm:shrnuti:embedded",
         "wayback": null
       },
       {
-        "url": "https://de.wikipedia.org/wiki/Philipp_H%C3%B6rz",
+        "url": "https://cs.wikipedia.org/wiki/Walhalla)**",
         "status": 404,
-        "context": "skou továrnou na věžní hodiny [Philipp Hörz](https://de.wikipedia.org/wiki/Philipp_H%C3%B6rz)**, čímž skončila 84letá samo",
-        "field": "body:link",
+        "context": "Mnichovská hodinářská firma **Königlich Bayerische Hof-Thurmuhren-Fabrik\nJohann ",
+        "field": "fm:shrnuti:embedded",
+        "wayback": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Rathaus-Glockenspiel)**",
+        "status": 404,
+        "context": "Mnichovská hodinářská firma **Königlich Bayerische Hof-Thurmuhren-Fabrik\nJohann ",
+        "field": "fm:shrnuti:embedded",
         "wayback": null
       }
     ],
@@ -175,7 +141,23 @@
         "wayback": null
       }
     ],
+    "content/hodinari/vlasta-filler.mdx": [
+      {
+        "url": "http://vlastafiller.wz.cz/",
+        "status": 404,
+        "context": "Český programátor a popularizátor slunečních hodin, autor webu [vlastafiller.wz.",
+        "field": "fm:shrnuti:embedded",
+        "wayback": null
+      }
+    ],
     "content/soupis-veznich-hodin/1876-police-nad-metuji-radnice-janata.mdx": [
+      {
+        "url": "https://www.policenm.cz/e_download.php?file=data/editor/88cs_173.pdf",
+        "status": 400,
+        "context": "Polická muzejní revue (PM18-01), Městské muzeum a galerie Police nad Metují. Onl",
+        "field": "fm:prameny[1]:citace:embedded",
+        "wayback": null
+      },
       {
         "url": "https://www.policenm.cz/e_download.php?file=data/editor/88cs_173.pdf",
         "status": 400,
@@ -208,22 +190,6 @@
         "status": 404,
         "context": "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Beroun/Krecmer_V",
         "field": "fm:prameny[0]:url",
-        "wayback": null
-      }
-    ],
-    "content/kronika/decin-aktual0.md": [
-      {
-        "url": "http://novinky.cz/cestovani/tipy-na-vylety/380344-decinska-expozice-ukaze-jak-nasi-predkove-merili-cas.html",
-        "status": 404,
-        "context": "decin.cz. [cit. 2026-04-28] - [Děčínská expozice ukáže, jak naši předkové měřili čas](http://novinky.cz/cestovani/tipy-na-vylety/380344-decinska-expozice-ukaze-jak-nasi-predkove-merili-cas.html) — novinky.cz. [cit. 2026-04-",
-        "field": "body:link",
-        "wayback": null
-      },
-      {
-        "url": "http://www.novinky.cz/cestovani/tipy-na-vylety/385676-decinsky-zamek-vystavuje-mechanicke-hodiny-nechybi-ani-bizarni-kousky.html",
-        "status": 404,
-        "context": "o.rvp.cz. [cit. 2026-04-28] - [Novinky od ČTK](http://www.novinky.cz/cestovani/tipy-na-vylety/385676-decinsky-zamek-vystavuje-mechanicke-hodiny-nechybi-ani-bizarni-kousky.html) — novinky.cz. [cit. 2026-04-",
-        "field": "body:link",
         "wayback": null
       }
     ]

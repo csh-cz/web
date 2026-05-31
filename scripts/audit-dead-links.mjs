@@ -118,12 +118,16 @@ async function* walkMd(dir) {
 }
 
 function parseFrontmatter(content) {
-  const m = content.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
+  // Tolerance: závěrečné `---` může být následováno `\n` + body, nebo
+  // pouze EOF (soubor končí `---` bez trailing newline). Bez tolerance
+  // regex fail → celý content jde do body → bare-URL regex zachytí
+  // i URL z frontmatter values (a často je ořeže na `)`).
+  const m = content.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n([\s\S]*))?$/);
   if (!m) return { fm: null, body: content };
   try {
-    return { fm: yaml.parse(m[1]), body: m[2] };
+    return { fm: yaml.parse(m[1]), body: m[2] ?? '' };
   } catch {
-    return { fm: null, body: m[2] };
+    return { fm: null, body: m[2] ?? '' };
   }
 }
 
@@ -185,17 +189,47 @@ function extractBodyUrls(body, file) {
     addUrl(m[1], file, ctx, 'body:autolink');
   }
   const inConsumed = (idx) => consumed.some(([a, b]) => idx >= a && idx < b);
-  // bare URLs (after `Dostupné z:` etc.) — match http(s)://... až po whitespace/punct
-  const re3 = /(?<![("[<])(https?:\/\/[^\s)<>"]+)/g;
+  // bare URLs (after `Dostupné z:` etc.) — match http(s)://... až po whitespace.
+  // Závorky NEUKONČUJÍ URL — řeší balance níže (Wikipedia/Commons File:Foo_(Bar) URLs).
+  const re3 = /(?<![("[<])(https?:\/\/[^\s<>"]+)/g;
   while ((m = re3.exec(body)) !== null) {
-    // Skip pokud je uvnitř už zachyceného markdown linku / autolinku
-    // (např. Wayback-wrapped vnitřní URL → false-positive).
     if (inConsumed(m.index)) continue;
     const before = body.slice(Math.max(0, m.index - 5), m.index);
     if (/]\s*\($/.test(before) || /<$/.test(before)) continue;
+    // Counter-balance: strip trailing `)` JEN když je víc closes než opens.
+    let url = m[1];
+    while (/\)$/.test(url)) {
+      const opens = (url.match(/\(/g) || []).length;
+      const closes = (url.match(/\)/g) || []).length;
+      if (closes > opens) url = url.slice(0, -1);
+      else break;
+    }
     const ctx = body.slice(Math.max(0, m.index - 30), m.index + m[0].length + 30).replace(/\s+/g, ' ');
-    addUrl(m[1], file, ctx, 'body:bare');
+    addUrl(url, file, ctx, 'body:bare');
   }
+}
+
+// Bare-URL extractor pro frontmatter text values (např. credit: "Foto ...
+// Zdroj: https://commons..."). Counter-balance parenů kvůli Commons/Wikipedia
+// URL se závorkami v cestě (File:Foo_(Bar).jpg, Ostrov_(okres_Karlovy_Vary)).
+function extractUrlsFromText(text) {
+  const urls = [];
+  const re = /https?:\/\/[^\s<>"]+/g;
+  let m;
+  while ((m = re.exec(text)) !== null) {
+    let url = m[0];
+    // Trim sentence punctuation
+    url = url.replace(/[.,;:!?]+$/, '');
+    // Balance trailing parens
+    while (/[)\]]$/.test(url)) {
+      const opens = (url.match(/[([]/g) || []).length;
+      const closes = (url.match(/[)\]]/g) || []).length;
+      if (closes > opens) url = url.slice(0, -1);
+      else break;
+    }
+    urls.push(url);
+  }
+  return urls;
 }
 
 function extractFrontmatterUrls(fm, file, prefix = 'fm') {
@@ -203,11 +237,24 @@ function extractFrontmatterUrls(fm, file, prefix = 'fm') {
   for (const [key, val] of Object.entries(fm)) {
     const path = `${prefix}:${key}`;
     if (typeof val === 'string') {
-      if (/^https?:\/\//i.test(val)) addUrl(val, file, val.slice(0, 80), path);
+      if (/^https?:\/\//i.test(val)) {
+        addUrl(val, file, val.slice(0, 80), path);
+      } else if (/https?:\/\//i.test(val)) {
+        // Text field s embedded URL (např. credit: "Foto ... Zdroj: https://...")
+        for (const url of extractUrlsFromText(val)) {
+          addUrl(url, file, val.slice(0, 80), `${path}:embedded`);
+        }
+      }
     } else if (Array.isArray(val)) {
       val.forEach((item, idx) => {
-        if (typeof item === 'string' && /^https?:\/\//i.test(item)) {
-          addUrl(item, file, item.slice(0, 80), `${path}[${idx}]`);
+        if (typeof item === 'string') {
+          if (/^https?:\/\//i.test(item)) {
+            addUrl(item, file, item.slice(0, 80), `${path}[${idx}]`);
+          } else if (/https?:\/\//i.test(item)) {
+            for (const url of extractUrlsFromText(item)) {
+              addUrl(url, file, item.slice(0, 80), `${path}[${idx}]:embedded`);
+            }
+          }
         } else if (item && typeof item === 'object') {
           extractFrontmatterUrls(item, file, `${path}[${idx}]`);
         }
