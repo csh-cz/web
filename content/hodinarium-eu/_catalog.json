@@ -249,6 +249,25 @@
     ]
   },
   {
+    "slug": "balbin-1681-admirandum-horologium",
+    "title": "Balbín 1681 — Obdivuhodné a vzácné dílo, orloj (český překlad pramene)",
+    "category": "edice",
+    "thumbnail": null,
+    "excerpt": "V roce 1681 vyšla v Praze v tiskárně Georgia Czernocha třetí kniha Balbínových Miscellanea historica Regni Bohemiae, jež obsahuje rozsáhlou kapitolu věnovanou staroměstskému orloji. Jezuita Bohuslav Balbín (1621–1688)…",
+    "year": 1490,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 8014,
+    "tags": [
+      "praha",
+      "prazsky-orloj",
+      "baroko",
+      "1700s",
+      "preklad-pramene",
+      "popularizace"
+    ]
+  },
+  {
     "slug": "inv-A003-barokni-ministroj-18-stol",
     "title": "Barokní ministroj 18. stol.",
     "category": "sbirka",
@@ -2529,7 +2548,7 @@
     "year": null,
     "lastModified": "2023-03-20T10:16:00.000Z",
     "imageCount": 7,
-    "wordCount": 1677,
+    "wordCount": 1661,
     "tags": [
       "jednotny-cas",
       "ntp-rizeno",
@@ -5232,6 +5251,22 @@
     "wordCount": 1561
   },
   {
+    "slug": "prazsky-orloj-ciferniky-2018",
+    "title": "Pražský orloj — boční ciferníky věže Staroměstské radnice",
+    "category": "zajimavosti",
+    "thumbnail": null,
+    "excerpt": "Práce akademického sochaře Petra Skály z 13. března 2018 (Hodinové ciferníky věže Staroměstské radnice) dokumentuje boční hodinové ciferníky na věži Staroměstské radnice — ty se nacházejí nad astronomickým ciferníkem …",
+    "year": 1657,
+    "lastModified": "2026-05-30T22:00:00.000Z",
+    "imageCount": 0,
+    "wordCount": 1516,
+    "tags": [
+      "prazsky-orloj",
+      "restaurovane",
+      "vezni"
+    ]
+  },
+  {
     "slug": "prazsky-orloj-restaurovani-2018",
     "title": "Pražský orloj — restaurování stroje 2018",
     "category": "zajimavosti",
@@ -5240,7 +5275,7 @@
     "year": 1410,
     "lastModified": "2026-05-16T23:30:00.000Z",
     "imageCount": 0,
-    "wordCount": 1380,
+    "wordCount": 1419,
     "tags": [
       "prazsky-orloj",
       "restaurovane",
@@ -6707,13 +6742,13 @@
   {
     "slug": "teicher-1735-popis-orloje",
     "title": "Teicher 1735 — Popsání umného orloje (český překlad pramene)",
-    "category": "zajimavosti",
+    "category": "edice",
     "thumbnail": null,
     "excerpt": "Roku 1735 vyšla v Praze v tiskárně Mathiase Adama Högera (arcibiskupský knihtiskař, sídlo „Königs-Hof\") drobná osmerková kniha s dlouhým barokním titulem Beschreibung des Kunst-reichen Uhr-Wercks Auf dem Rath-Hauss de…",
     "year": 1570,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 4339,
+    "wordCount": 4420,
     "tags": [
       "praha",
       "prazsky-orloj",

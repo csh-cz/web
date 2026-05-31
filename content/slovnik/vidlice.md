@@ -7,15 +7,15 @@ varianty:
   - vidlička
   - pallet fork (en)
 prekladyDe:
-  - term: Ankerklaue
+  ['- term: Ankerklaue', 'Gabel']
     genus: f
   - term: Anker
     genus: m
 prekladyEn:
-  - term: pallet fork
+  ['- term: pallet fork', 'fork']
   - term: lever
 prekladyFr:
-  - term: ancre à fourchette
+  ['- term: ancre à fourchette', 'fourche']
     genus: f
   - term: fourchette
     genus: f

@@ -3,14 +3,14 @@ title: chronometr
 slug: chronometr
 kategorie: mechanika
 prekladyDe:
-  - term: Chronometer
+  ['- term: Chronometer', 'Halb-Chronometer']
     genus: m
     zdroj: Špatný 1882
 prekladyEn:
-  - term: chronometer
+  ['- term: chronometer', 'half-chronometer']
     zdroj: Saunier 1887
 prekladyFr:
-  - term: chronomètre
+  ['- term: chronomètre', 'demi-chronomètre']
     genus: m
     zdroj: Gros 1913
 definice: "Hodinkový stroj nejvyšší přesnosti, typicky s chronometrovým krokem (volným, s detentem); v užším smyslu lodní (mořský) chronometr pro určování zeměpisné délky."

@@ -3,14 +3,14 @@ title: kalibr
 slug: kalibr
 kategorie: hodinky
 prekladyDe:
-  - term: Kaliber
+  ['- term: Kaliber', 'Bagnolet-Kaliber']
     genus: n
     zdroj: "Špatný 1882: Kaliber → ráž, kalibr"
 prekladyEn:
-  - term: caliber
+  ['- term: caliber', 'bagnolet']
   - term: calibre
 prekladyFr:
-  - term: calibre
+  ['- term: calibre', 'bagnolet']
 definice: "Označení **typu hodinového stroje** — jeho tvaru, rozměrů, uspořádání desek a součástek. V hodinkách kapesních a náramkových identifikuje konkrétní konstrukci (např. „kalibr ETA 2824\" nebo „kalibr Lange L901.0\"); manufaktury každý kalibr vyvíjí jako samostatnou platformu."
 pribuzne:
   - werk

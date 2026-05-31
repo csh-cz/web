@@ -1453,6 +1453,11 @@
         "dondi"
       ]
     },
+    "balbin-1681-admirandum-horologium": {
+      "hodinari": [
+        "benjamin-slajer"
+      ]
+    },
     "podebrady2": {
       "hodinari": [
         "petr-skala"
@@ -1742,71 +1747,6 @@
         "svycarsky-krok"
       ]
     },
-    "krok": {
-      "kroky": [
-        "anglicky-kotvovy-krok",
-        "berthouduv-krok",
-        "brocotuv-krok",
-        "carkovy-krok",
-        "cernolesky-krok",
-        "de-bethunuv-dvoupakovy-krok",
-        "duplexni-krok",
-        "earnshawuv-krok",
-        "flammenvilluv-krok",
-        "grasshopper-krok",
-        "leonharduv-krok",
-        "litherlanduv-krok",
-        "mannhardtuv-krok",
-        "rieflerov-krok",
-        "svycarsky-krok",
-        "tompionuv-kotouckovy-krok",
-        "valcovy-krok"
-      ],
-      "slovnik": [
-        "amantuv-krok",
-        "anglicky-kotvovy-krok",
-        "berthouduv-krok",
-        "brocotuv-krok",
-        "carkovy-krok",
-        "centralni-prevodovka",
-        "cernolesky-krok",
-        "de-bethunuv-dvoupakovy-krok",
-        "denisonuv-gravitacni-krok",
-        "duplexni-krok",
-        "earnshawuv-krok",
-        "elektronicky-mikroprocesorovy-krok",
-        "flammenvilluv-krok",
-        "grahamuv-krok",
-        "grasshopper-krok",
-        "hippuv-prerusovac",
-        "isochronismus",
-        "jici-stroj",
-        "kolickovy-krok",
-        "kotoucek-popudny",
-        "kotva",
-        "kotvovy-krok",
-        "krokove-kolo",
-        "krokovy-pastorek",
-        "leonharduv-krok",
-        "litherlanduv-krok",
-        "mannhardtuv-krok",
-        "natah",
-        "odpad",
-        "popud",
-        "remontoir",
-        "rieflerov-krok",
-        "robertuv-krok",
-        "rubinovy-kamen",
-        "stegrad",
-        "svycarsky-krok",
-        "tompionuv-kotouckovy-krok",
-        "valcovy-krok",
-        "vidlice",
-        "vretenovy-krok",
-        "winnerluv-krok",
-        "zachyt"
-      ]
-    },
     "kotva": {
       "kroky": [
         "anglicky-kotvovy-krok",
@@ -1826,7 +1766,6 @@
         "kolickovy-krok",
         "kotoucek-popudny",
         "kotvovy-krok",
-        "krok",
         "krokove-kolo",
         "paleta",
         "paleta-vstupni",
@@ -1855,7 +1794,6 @@
         "berthouduv-krok",
         "carkovy-krok",
         "chronograf",
-        "chronometr",
         "doba-kyvu",
         "duplexni-krok",
         "earnshawuv-krok",
@@ -1871,7 +1809,6 @@
         "svycarsky-krok",
         "tompionuv-kotouckovy-krok",
         "valcovy-krok",
-        "vidlice",
         "vlasek",
         "vlaskova-krivka",
         "vlasova-pruzinka",
@@ -1944,7 +1881,6 @@
         "kolickovy-krok",
         "kotva",
         "kotvovy-krok",
-        "krok",
         "krokovy-pastorek",
         "mezilehle-kolo",
         "mezilehly-pastorek",
@@ -1955,16 +1891,13 @@
         "paleta-vystupni",
         "pastorek",
         "popud",
-        "prut-orloje",
         "sekundovy-pastorek",
         "stegrad",
         "tryb",
         "uhel-klidu",
         "uhel-zdvihu",
         "valcovy-krok",
-        "vidlice",
         "vretenovy-krok",
-        "vrub-zub",
         "vterinove-kolo",
         "winnerluv-krok",
         "zachyt"
@@ -2077,19 +2010,6 @@
         "videnska-skola"
       ]
     },
-    "chronometr": {
-      "slovnik": [
-        "anglicka-skola",
-        "chronograf",
-        "denni-uchylka-chodu",
-        "invar",
-        "isochronismus",
-        "kompenzace-teplotni",
-        "kvadrant",
-        "rubinovy-kamen",
-        "vlaskova-krivka"
-      ]
-    },
     "kotvovy-krok": {
       "slovnik": [
         "anglicky-kotvovy-krok",
@@ -2190,7 +2110,6 @@
         "okolek",
         "orloj",
         "pravidlo-orloje",
-        "prut-orloje",
         "pukla",
         "puska-orloje",
         "ruka-orloje",
@@ -2253,7 +2172,6 @@
         "ruckove-soukoli",
         "tryb",
         "ukazovaci-stroj",
-        "vrub-zub",
         "vterinove-kolo",
         "werk",
         "zvonici-stroj"
@@ -2534,26 +2452,6 @@
         "petite-a-grande-sonnerie"
       ]
     },
-    "kalibr": {
-      "slovnik": [
-        "chronograf",
-        "korunka",
-        "signatura",
-        "werk"
-      ]
-    },
-    "vlasek": {
-      "slovnik": [
-        "chronometr",
-        "invar",
-        "isochronismus",
-        "kaleni",
-        "popousteni",
-        "setrvacka",
-        "vlaskova-krivka",
-        "vlasova-pruzinka"
-      ]
-    },
     "rafije": {
       "slovnik": [
         "cifernik",
@@ -2710,7 +2608,6 @@
         "kolickovy-krok",
         "kotva",
         "kotvovy-krok",
-        "krok",
         "krokove-kolo",
         "odpad",
         "paleta-vstupni",
@@ -2720,7 +2617,6 @@
         "rubinovy-kamen",
         "uhel-klidu",
         "uhel-zdvihu",
-        "vidlice",
         "voditko",
         "vretenovy-krok",
         "zachyt"
@@ -2736,7 +2632,6 @@
     "kstudle": {
       "slovnik": [
         "herstuk",
-        "oblouk-orloje",
         "puska-orloje",
         "skripec"
       ]
@@ -2747,7 +2642,6 @@
         "hodinove-kolo",
         "hridelik-orloje",
         "kstudle",
-        "luozko",
         "minutova-trubka",
         "pastorek",
         "soustruzeni",
@@ -2833,7 +2727,6 @@
         "soustruzeni",
         "stridne-kolo",
         "tryb",
-        "vrub-zub",
         "vterinove-kolo"
       ]
     },
@@ -2891,12 +2784,6 @@
         "hridelik-orloje"
       ]
     },
-    "luozko": {
-      "slovnik": [
-        "hridel",
-        "vyhloditi"
-      ]
-    },
     "podruzne-hodiny": {
       "slovnik": [
         "impulsy",
@@ -2912,7 +2799,6 @@
     "pravidlo-orloje": {
       "slovnik": [
         "index-orloje",
-        "luozko",
         "ruka-orloje",
         "sphera"
       ]
@@ -2923,6 +2809,17 @@
         "motus-naturalis",
         "solsticium",
         "supra-orizontem"
+      ]
+    },
+    "vlasek": {
+      "slovnik": [
+        "invar",
+        "isochronismus",
+        "kaleni",
+        "popousteni",
+        "setrvacka",
+        "vlaskova-krivka",
+        "vlasova-pruzinka"
       ]
     },
     "kompenzace-teplotni": {
@@ -2946,21 +2843,6 @@
         "kstudle",
         "puska-orloje",
         "vocel"
-      ]
-    },
-    "werk": {
-      "slovnik": [
-        "kalibr"
-      ]
-    },
-    "pouzdro": {
-      "slovnik": [
-        "kalibr",
-        "korunka",
-        "pouzdrar",
-        "signatura",
-        "sklicko",
-        "zaskleni"
       ]
     },
     "palice-orloje": {
@@ -3023,15 +2905,18 @@
         "restaurovani"
       ]
     },
+    "pouzdro": {
+      "slovnik": [
+        "korunka",
+        "pouzdrar",
+        "signatura",
+        "sklicko",
+        "zaskleni"
+      ]
+    },
     "voditko": {
       "slovnik": [
         "kotoucek-popudny"
-      ]
-    },
-    "vidlice": {
-      "slovnik": [
-        "kotoucek-popudny",
-        "voditko"
       ]
     },
     "grahamuv-krok": {
@@ -3087,7 +2972,6 @@
     "rykl": {
       "slovnik": [
         "lermo",
-        "oblouk-orloje",
         "palice-orloje",
         "worff",
         "zamek-orloje"
@@ -3103,12 +2987,6 @@
     "coniunctio-oppositio": {
       "slovnik": [
         "linea-aspectus"
-      ]
-    },
-    "pukla": {
-      "slovnik": [
-        "luozko",
-        "sphera"
       ]
     },
     "coufati": {
@@ -3181,11 +3059,6 @@
         "nytovani"
       ]
     },
-    "prut-orloje": {
-      "slovnik": [
-        "oblouk-orloje"
-      ]
-    },
     "ctvrtove-biti": {
       "slovnik": [
         "odbijeni",
@@ -3242,13 +3115,6 @@
         "zachyt"
       ]
     },
-    "vrub-zub": {
-      "slovnik": [
-        "pastorek",
-        "prysek",
-        "tryb"
-      ]
-    },
     "snek": {
       "slovnik": [
         "pero",
@@ -3289,11 +3155,6 @@
         "zaskleni"
       ]
     },
-    "oblouk-orloje": {
-      "slovnik": [
-        "prut-orloje"
-      ]
-    },
     "astronomicke-soukoli": {
       "slovnik": [
         "ruckove-soukoli",
@@ -3326,6 +3187,11 @@
     "kvadrant": {
       "slovnik": [
         "slunecni-hodiny"
+      ]
+    },
+    "pukla": {
+      "slovnik": [
+        "sphera"
       ]
     },
     "stroj": {
@@ -3398,11 +3264,6 @@
     "kotoucek-popudny": {
       "slovnik": [
         "voditko"
-      ]
-    },
-    "prysek": {
-      "slovnik": [
-        "vrub-zub"
       ]
     },
     "volovo": {

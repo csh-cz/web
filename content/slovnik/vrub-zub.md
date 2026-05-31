@@ -20,14 +20,14 @@ varianty:
     status: admitted
     note: 'Zdrobnělina k „zubu", v hodinářském úzu pro malé zuby krokového kola nebo pastorku.'
 prekladyDe:
-  - term: Zahn
+  ['- term: Zahn', 'Kerbe']
     genus: m
     zdroj: 'Berner, *Illustriertes Fachlexikon der Uhrmacherei*; Špatný 1882'
 prekladyEn:
-  - term: tooth
+  ['- term: tooth', 'notch']
     zdroj: 'Berner, *Illustrated Professional Dictionary of Horology*'
 prekladyFr:
-  - term: dent
+  ['- term: dent', 'coche']
     genus: f
     zdroj: 'Berner, *Dictionnaire professionnel illustré de l''horlogerie*'
 definice: 'Výstupek na obvodu ozubeného kola nebo [pastorku](/slovnik/pastorek), který zabírá do mezery (= vrub v původním smyslu) protilehlého kola a tím přenáší rotační pohyb. **Moderní cs odborný termín je „zub"**; staročeské „vrub" / „vroubek" jsou doloženy Táborským 1570.'

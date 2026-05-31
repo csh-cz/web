@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T07:17:35.148Z",
+  "generatedAt": "2026-05-31T14:02:15.350Z",
   "summary": {
     "kartyTotal": 318,
     "kartyNoTyp": 244,
@@ -10,9 +10,9 @@
     "clankyNoTldr": 2,
     "clankyShort": 59,
     "clankyLegacyLinks": 1,
-    "hodinariTotal": 170,
+    "hodinariTotal": 171,
     "hodinariShort": 123,
-    "hodinariNoPortret": 150,
+    "hodinariNoPortret": 151,
     "soupisTotal": 443,
     "stubsKarty": 0,
     "stubsClanky": 0,
@@ -5411,7 +5411,7 @@
         "title": "Vyšívané květinové hodiny - hodiny jedna báseň ??",
         "category": "virtualni-muzeum",
         "editUrl": "/admin/#/collections/clanky/entries/gobelin",
-        "wordCount": 41
+        "wordCount": 169
       },
       {
         "slug": "kostky",
@@ -6560,6 +6560,11 @@
         "slug": "bartolomej-stepanovsky",
         "title": "Bartoloměj Štěpánovský",
         "editUrl": "/admin/#/collections/hodinari/entries/bartolomej-stepanovsky"
+      },
+      {
+        "slug": "benjamin-slajer",
+        "title": "Benjamin Šlajer",
+        "editUrl": "/admin/#/collections/hodinari/entries/benjamin-slajer"
       },
       {
         "slug": "bernhard-zacharia",

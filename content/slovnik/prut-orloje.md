@@ -14,19 +14,19 @@ varianty:
     status: admitted
     note: 'Synonymum k „rameno"; běžné v restaurátorské literatuře.'
 prekladyDe:
-  - term: Speiche
+  ['- term: Speiche', 'Arm']
     genus: f
     zdroj: 'DE moderní — rameno / paprsek kola'
   - term: Radarm
     genus: m
     zdroj: 'DE — paprsek kola'
 prekladyEn:
-  - term: spoke
+  ['- term: spoke', 'arm']
     zdroj: 'EN standardní — paprsek kola'
   - term: wheel arm
     zdroj: 'EN popisný'
 prekladyFr:
-  - term: rayon
+  ['- term: rayon', 'branche']
     genus: m
     zdroj: 'FR — paprsek'
   - term: bras de roue

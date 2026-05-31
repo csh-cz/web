@@ -17,21 +17,21 @@ varianty:
   - term: oblouk konstrukce
     status: admitted
 prekladyDe:
-  - term: Bügel
+  ['- term: Bügel', 'Bogen']
     genus: m
     zdroj: 'DE — třmen / oblouk / svorka'
   - term: Bogen
     genus: m
     zdroj: 'DE — oblouk (geometrický)'
 prekladyEn:
-  - term: bow
+  ['- term: bow', 'arc']
     zdroj: 'EN — oblouk'
   - term: brace
     zdroj: 'EN — třmen / svornice'
   - term: arch
     zdroj: 'EN — oblouk'
 prekladyFr:
-  - term: arc
+  ['- term: arc', 'arc']
     genus: m
     zdroj: 'FR — oblouk'
   - term: étrier

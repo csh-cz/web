@@ -14,19 +14,19 @@ varianty:
     status: preferred
     note: 'Moderní cs synonymum k „lůžko"; obvyklé ve strojírenství.'
 prekladyDe:
-  - term: Lager
+  ['- term: Lager', 'Lager']
     genus: n
     zdroj: 'DE — ložisko (Špatný 1882, Berner FHS)'
   - term: Mondscheibenlager
     genus: n
     zdroj: 'DE specifický — lůžko měsíčního kotouče (orlojí)'
 prekladyEn:
-  - term: bearing
+  ['- term: bearing', 'bearing']
     zdroj: 'EN — ložisko'
   - term: moon disc bearing
     zdroj: 'EN — specifický orlojní význam'
 prekladyFr:
-  - term: palier
+  ['- term: palier', 'coussinet']
     genus: m
     zdroj: 'FR — ložisko'
   - term: support
