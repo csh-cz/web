@@ -32,6 +32,8 @@ prekladyFr:
   - term: support
     genus: m
     zdroj: 'FR — držák'
+  - term: coussinet
+    genus: m
 prekladyLa:
   - term: lectulus
     genus: m

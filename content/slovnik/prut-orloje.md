@@ -20,11 +20,14 @@ prekladyDe:
   - term: Radarm
     genus: m
     zdroj: 'DE — paprsek kola'
+  - term: Arm
+    genus: m
 prekladyEn:
   - term: spoke
     zdroj: 'EN standardní — paprsek kola'
   - term: wheel arm
     zdroj: 'EN popisný'
+  - term: arm
 prekladyFr:
   - term: rayon
     genus: m
@@ -32,6 +35,8 @@ prekladyFr:
   - term: bras de roue
     genus: m
     zdroj: 'FR popisný'
+  - term: branche
+    genus: f
 prekladyLa:
   - term: pertica
     genus: f

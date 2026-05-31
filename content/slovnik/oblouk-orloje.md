@@ -30,6 +30,7 @@ prekladyEn:
     zdroj: 'EN — třmen / svornice'
   - term: arch
     zdroj: 'EN — oblouk'
+  - term: arc
 prekladyFr:
   - term: arc
     genus: m
