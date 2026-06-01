@@ -48,7 +48,7 @@
         var collapsed = article.classList.contains('editorial-collapsed');
         btn.setAttribute('aria-pressed', collapsed ? 'true' : 'false');
         label.textContent = collapsed
-          ? 'Zobrazit editorské poznámky (' + notes.length + ')'
+          ? 'Zobrazit editorské poznámky'
           : 'Skrýt editorské poznámky';
         if (icon) {
           icon.classList.toggle('fa-eye', collapsed);
