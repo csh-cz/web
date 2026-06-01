@@ -587,35 +587,55 @@ summary::-webkit-details-marker { display: none; }
   color: var(--color-text-soft);
 }
 
-/* Toggle: tlačítko skrytí/zobrazení poznámek */
+/* Toggle: PLOVOUCÍ tlačítko skrytí/zobrazení poznámek (zůstává při scrollu).
+   Vlevo dole — bottom-right je rezervováno pro editor-mode .fab-stack. */
 .editorial-toggle {
-  margin: 0 0 1.75rem;
+  position: fixed;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  z-index: 45;
+  margin: 0;
 }
 .editorial-toggle__btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.55rem;
   font-size: 0.78rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  padding: 0.45rem 0.95rem;
+  padding: 0.65rem 1.1rem;
   background: var(--color-bg-elevated);
-  border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
-  border-radius: 2px;
+  border: 1px solid color-mix(in srgb, var(--color-brass) 40%, transparent);
+  border-radius: 999px;
   color: var(--color-text-soft);
   cursor: pointer;
-  transition: color 150ms ease, border-color 150ms ease;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);
+  transition: color 150ms ease, border-color 150ms ease, transform 150ms ease;
 }
 .editorial-toggle__btn:hover {
   border-color: var(--color-brass);
   color: var(--color-brass-bright);
+  transform: translateY(-1px);
 }
 .editorial-toggle__icon {
   color: var(--color-copper);
 }
+/* Mobil: kompaktnější, ať nepřekáží */
+@media (max-width: 640px) {
+  .editorial-toggle {
+    bottom: 0.85rem;
+    left: 0.85rem;
+  }
+  .editorial-toggle__btn {
+    font-size: 0.7rem;
+    padding: 0.55rem 0.9rem;
+  }
+}
 
-/* Stav „skryto" — schovej aparát, ponech skutečné citace pramene */
-.article-single.editorial-collapsed .prose-content blockquote.editorial-note {
+/* Stav „skryto" — schovej VEŠKERÝ aparát (inline poznámky, úvod, kolofon);
+   ponech pramen i hero. `.editorial-note` je generická (blockquote i nadpisové
+   sekce úvodu/kolofonu — viz packages/rehype-editorial-notes). */
+.article-single.editorial-collapsed .prose-content .editorial-note {
   display: none;
 }
 
