@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-04T16:13:04.329Z",
+  "generatedAt": "2026-06-04T16:18:45.678Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
-    "slovnik": 245,
+    "slovnik": 246,
     "hodinari": 171,
     "hodinariTs": 171,
     "soupis": 443
   },
-  "count": 1894,
+  "count": 1897,
   "words": [
     "Abraham",
     "Accutron",
@@ -754,6 +754,7 @@
     "kotva",
     "kotvovy",
     "kotvový",
+    "koule",
     "Kouřim",
     "kovaný",
     "kraj",
@@ -946,6 +947,7 @@
     "Mělník",
     "meridián",
     "měsíce",
+    "Měsíce",
     "měsícovo",
     "města",
     "Města",
@@ -1471,6 +1473,7 @@
     "Sloupno",
     "Sloveč",
     "slunce",
+    "Slunce",
     "slunecni",
     "sluneční",
     "slunovrat",
