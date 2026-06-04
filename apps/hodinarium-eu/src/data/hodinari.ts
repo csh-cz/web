@@ -45,6 +45,19 @@ export function typesOf(h: Hodinar): HodinarTyp[] {
 export const hodinari: Hodinar[] = [
   // === Osobnosti ===
   {
+    slug: 'daniel-skrivan',
+    jmeno: 'Daniel Skřivan',
+    aliasy: ['Daniel Skřivan', 'hodinář Skřivan', 'Skřivan'],
+    typ: 'osoba',
+    obdobi: 'akt. 1532 – † před 1566',
+    mesto: 'Praha (Nové Město)',
+    zeme: 'CZ',
+    shrnuti:
+      'Pražský zámečník (Nové Město), Janem Táborským zvaný „hodinář" — hlavní řemeslník přestavby staroměstského orloje 1551–1556 (rozebrání stroje, ocelové čepy a herštuky, kolo heverní). Balbín ho v § 2 už nejmenuje. Viz [edice Balbína 1681](/edice/balbin-1681-admirandum-horologium).',
+    relatedSlugs: ['benjamin-slajer'],
+    era: 'baroko',
+  },
+  {
     slug: 'jan-prokes-jr',
     jmeno: 'Jan Prokeš ml.',
     aliasy: ['Jan Prokeš jr.', 'Jan Prokeš ml.', 'Johann Prokesch aus Kopidlno', 'Prokeš Kopidlno'],
