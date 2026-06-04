@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-03T23:25:26.494Z",
+  "generatedAt": "2026-06-04T12:17:47.839Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
-    "slovnik": 241,
+    "slovnik": 242,
     "hodinari": 171,
     "hodinariTs": 171,
     "soupis": 443
   },
-  "count": 1888,
+  "count": 1890,
   "words": [
     "Abraham",
     "Accutron",
@@ -253,6 +253,7 @@
     "Činěves",
     "číselník",
     "číselníku",
+    "číslo",
     "Čistá",
     "čištění",
     "čitelnost",
@@ -1866,6 +1867,7 @@
     "Zibohlavy",
     "Zieux",
     "Zink",
+    "zlaté",
     "Zlínský",
     "Zlonice",
     "zmotrchati",
