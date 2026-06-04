@@ -838,6 +838,8 @@ const slovnik = defineCollection({
     ]),
 
     /** Překlady do dalších jazyků s informací o zdroji terminologie. */
+    /** Latinský ekvivalent (z dobových pramenů, např. Balbín/Šlajer 1681). */
+    prekladyLa: z.array(slovnikPreklad).optional(),
     prekladyDe: z.array(slovnikPreklad).optional(),
     prekladyEn: z.array(slovnikPreklad).optional(),
     prekladyFr: z.array(slovnikPreklad).optional(),

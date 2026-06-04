@@ -32,6 +32,10 @@ prekladyFr:
   - term: bras de roue
     genus: m
     zdroj: 'FR popisný'
+prekladyLa:
+  - term: pertica
+    genus: f
+    zdroj: 'Balbín/Šlajer 1681'
 definice: 'Rameno / paprsek kola. U Táborského *kolo tréprutové* = kolo se třemi rameny (paprsky), na kterém sedí indikátory orloje.'
 pribuzne:
   - oblouk-orloje

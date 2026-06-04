@@ -10,9 +10,6 @@ varianty:
     status: archaic
     note: 'Počeštěné z lat. vectis „páka, sochor". V Táborského/Šlajerově popisu pražského orloje rameno přenášející pohyb (např. zvedání táhla, ovládání bicího ústrojí).'
     doloženo: 'Balbín (Šlajer) 1681'
-  - term: vectis
-    status: archaic
-    note: 'Latinský tvar užitý Šlajerem.'
 prekladyDe:
   - term: Hebel
     genus: m
@@ -24,6 +21,10 @@ prekladyFr:
   - term: levier
     genus: m
     zdroj: 'FR — páka'
+prekladyLa:
+  - term: vectis
+    genus: m
+    zdroj: 'Balbín/Šlajer 1681'
 definice: 'Tuhé rameno otočné kolem pevné osy (opěrného bodu), jež přenáší sílu nebo mění směr a velikost pohybu. Ve stroji pražského orloje (Táborský 1570 / Šlajer 1681) páka přivádí pohyb od stroje k dalším ústrojím; zvláštní pákou s vlastním názvem je lermo (spouštěcí páka bicího ústrojí).'
 pribuzne:
   - lermo

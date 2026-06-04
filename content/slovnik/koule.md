@@ -6,9 +6,6 @@ varianty:
   - term: koule
     status: preferred
     note: 'Cs termín pro kulový ukazatel Slunce / Měsíce na orloji.'
-  - term: globus
-    status: archaic
-    note: 'Latinský termín (Balbín/Šlajer 1681: „globus Solis", „globus Lunae"); v češtině přejaté slovo.'
 prekladyDe:
   - term: Kugel
     genus: f
@@ -22,6 +19,10 @@ prekladyFr:
   - term: boule
     genus: f
     zdroj: 'FR — koule'
+prekladyLa:
+  - term: globus
+    genus: m
+    zdroj: 'Balbín/Šlajer 1681'
 definice: 'Pozlacená koule Slunce, resp. Měsíce, sloužící na orloji jako ukazatel jejich pohybu po obloze. Koule Měsíce se navíc otáčí v lůžku a černobílým povrchem ukazuje fáze (nov, první čtvrt, úplněk, poslední čtvrt). Balbín/Šlajer ji latinsky nazývají globus.'
 pribuzne:
   - luozko

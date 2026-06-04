@@ -43,6 +43,10 @@ prekladyFr:
   - term: bâti
     genus: m
     zdroj: 'FR — rám / kostra'
+prekladyLa:
+  - term: quadratura
+    genus: f
+    zdroj: 'Balbín/Šlajer 1681'
 definice: 'Rám / kostra / skříň hodinového stroje, do níž jsou zasazeny jednotlivé chody (strany). Z něm. *Käfig* (= klec, schránka).'
 pribuzne:
   - strana-orloje

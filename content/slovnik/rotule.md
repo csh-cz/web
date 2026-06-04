@@ -26,6 +26,10 @@ prekladyFr:
   - term: rouelle
     genus: f
     zdroj: 'FR — kolečko (zdrobnělina od roue)'
+prekladyLa:
+  - term: rotula
+    genus: f
+    zdroj: 'Balbín/Šlajer 1681'
 definice: 'Drobné (zpravidla ozubené) kolečko ve stroji orloje, na rozdíl od velkých kol (rota). Zvláštní případ — „rotule spirálovitě dělená" v Táborského/Šlajerově popisu — není kolečko, nýbrž závitové ústrojí bez konce (šnek); viz heslo šnek.'
 pribuzne:
   - tryb

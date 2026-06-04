@@ -10,9 +10,6 @@ varianty:
     status: archaic
     note: 'Starší cs tvar (Táborský 1570, Balbín 1681).'
     doloženo: 'Táborský 1570'
-  - term: numerus aureus
-    status: archaic
-    note: 'Latinský tvar (Balbín 1681: „aureus numerus").'
 prekladyDe:
   - term: Goldene Zahl
     genus: f
@@ -24,6 +21,10 @@ prekladyFr:
   - term: nombre d’or
     genus: m
     zdroj: 'FR — zlaté číslo'
+prekladyLa:
+  - term: numerus aureus
+    genus: m
+    zdroj: 'Balbín/Šlajer 1681'
 definice: 'Pořadí roku v 19letém lunárním (metonském) cyklu, číslo 1–19. Slouží jako klíč k výpočtu novoluní, a tím i pohyblivých svátků — především data Velikonoc. Patří k tradičním kalendářním (komputistickým) údajům zobrazovaným na astronomických orlojích.'
 pribuzne:
   - claves-paschae

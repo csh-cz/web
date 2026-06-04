@@ -13,6 +13,10 @@ prekladyEn:
 prekladyFr:
   - term: astrolabe
     genus: m
+prekladyLa:
+  - term: astrolabium
+    genus: n
+    zdroj: 'Balbín/Šlajer 1681'
 definice: "Středověký astronomický přístroj k měření výšky hvězd, identifikaci nebeských těles a výpočtu času. Sestává z **matkové desky (mater)** s kruhovou stupnicí, **tympanonu** (vyměnitelná deska pro konkrétní geografickou šířku), **rete** (pohyblivá mapa nebeské sféry) a **alidády** (otáčivé pravítko). U mechanických orlojů tvoří princip astrolábu základ astronomického číselníku — Pražský orloj 1410, Olomoucký orloj 15. století."
 pribuzne:
   - sphera

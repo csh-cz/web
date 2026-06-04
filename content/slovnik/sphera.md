@@ -5,6 +5,10 @@ kategorie: astronomicke
 varianty:
   - sphera
   - sphéra
+prekladyLa:
+  - term: sphaera
+    genus: f
+    zdroj: 'Balbín/Šlajer 1681'
 definice: "Astronomický číselník / nebeský kotouč orloje s indikátory slunce, měsíce, zodiaku a hodin. U Táborského má Staroměstský orloj *dvě sphery* (přední astronomická + dolní kalendářní) plus malou na věži Týnské."
 pribuzne:
   - okolek

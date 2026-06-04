@@ -37,6 +37,10 @@ prekladyFr:
   - term: étrier
     genus: m
     zdroj: 'FR — třmen'
+prekladyLa:
+  - term: arcus
+    genus: m
+    zdroj: 'Balbín/Šlajer 1681'
 definice: 'Železný díl ve tvaru oblouku spojující dva pruty trojprutého kola; nese ryklík a drobné ložisko (kštudlici). U Staroměstského orloje vyrobený v rámci Táborského oprav 16. století.'
 pribuzne:
   - prut-orloje

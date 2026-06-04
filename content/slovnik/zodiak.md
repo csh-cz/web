@@ -7,6 +7,10 @@ varianty:
   - zodyak
   - zvěrokruh
   - zodiakův okolek
+prekladyLa:
+  - term: zodiacus
+    genus: m
+    zdroj: 'Balbín/Šlajer 1681'
 definice: "Zvěrokruh — pás 12 zvířetníkových znamení v ekliptice, po kterém zdánlivě postupuje slunce, měsíc a planety. Na Staroměstském orloji je zobrazen jako otáčející se plech s namalovanými symboly."
 pribuzne:
   - sphera

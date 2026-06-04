@@ -5,7 +5,10 @@ kategorie: astronomicke
 varianty:
   - okolek
   - vobruč
-  - limbus
+prekladyLa:
+  - term: limbus
+    genus: m
+    zdroj: 'Balbín/Šlajer 1681'
 definice: "Prstenec / ráfek na číselníku orloje — typicky pohyblivý železný kruh s počtem hodin (1–24 pro českou hodinu, 1–12 pro polouorlojní), který se otáčí kolem astronomického číselníku."
 pribuzne:
   - sphera

@@ -57,6 +57,7 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
     journalTitle: 'Hodinárium — Hodinářský slovník',
     keywords: [
       ...(data.varianty ?? []).map((v) => typeof v === 'string' ? v : v.term),
+      ...(data.prekladyLa?.map((p) => p.term) ?? []),
       ...(data.prekladyDe?.map((p) => p.term) ?? []),
       ...(data.prekladyEn?.map((p) => p.term) ?? []),
       'hodinářský slovník',
@@ -168,10 +169,26 @@ const kategorieLabel = KATEGORIE_LABEL[data.kategorie] ?? 'Slovník';
       </section>
     )}
 
-    {(data.prekladyDe || data.prekladyEn || data.prekladyFr) && (
+    {(data.prekladyLa || data.prekladyDe || data.prekladyEn || data.prekladyFr) && (
       <section class="slovnik-preklady" aria-labelledby="preklady-heading">
         <h2 id="preklady-heading" class="visually-hidden">Překlady</h2>
         <dl class="preklady-grid">
+          {data.prekladyLa && data.prekladyLa.length > 0 && (
+            <div class="preklad-row">
+              <dt><span class="lang-flag">la</span> latina</dt>
+              <dd>
+                {data.prekladyLa.map((p, i) => (
+                  <span class="preklad-item">
+                    <strong>{p.term}</strong>
+                    {p.genus && <span class="preklad-genus"> {p.genus}.</span>}
+                    {p.deklinace && <span class="preklad-deklinace"> {p.deklinace}</span>}
+                    {p.zdroj && <span class="preklad-zdroj"> [{p.zdroj}]</span>}
+                    {i < data.prekladyLa!.length - 1 && <span class="preklad-sep"> · </span>}
+                  </span>
+                ))}
+              </dd>
+            </div>
+          )}
           {data.prekladyDe && data.prekladyDe.length > 0 && (
             <div class="preklad-row">
               <dt><span class="lang-flag">de</span> němčina</dt>

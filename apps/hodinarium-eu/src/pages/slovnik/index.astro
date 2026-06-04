@@ -137,6 +137,7 @@ const total = all.length;
           const searchBlob = [
             e.data.title,
             ...(e.data.varianty ?? []),
+            ...(e.data.prekladyLa?.map((p) => p.term) ?? []),
             ...(e.data.prekladyDe?.map((p) => p.term) ?? []),
             ...(e.data.prekladyEn?.map((p) => p.term) ?? []),
             ...(e.data.prekladyFr?.map((p) => p.term) ?? []),

@@ -20,6 +20,10 @@ prekladyFr:
   - term: déclinaison
     genus: f
     zdroj: 'FR'
+prekladyLa:
+  - term: declinatio
+    genus: f
+    zdroj: 'Balbín/Šlajer 1681'
 definice: 'Úhlová vzdálenost nebeského tělesa (Slunce, hvězdy) od světového rovníku — jedna ze souřadnic rovníkové soustavy. Deklinace Slunce se v průběhu roku mění mezi obratníky a určuje výšku Slunce nad obzorem i délku dne. Na pražském orloji ji nese pohyblivá figurka na indexu Slunce (Šlajer ji nazývá „deklinace Slunce").'
 pribuzne:
   - zodiak

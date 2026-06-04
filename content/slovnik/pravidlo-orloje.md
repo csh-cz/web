@@ -7,6 +7,10 @@ varianty:
   - pravidlko
   - ručka
   - ruka
+prekladyLa:
+  - term: regula
+    genus: f
+    zdroj: 'Balbín/Šlajer 1681'
 definice: "Železný plochý prut nesoucí ručku / slunce / měsíc na konci — ekvivalent moderní **rafije** nebo **ručičky** číselníku. Táborský používá *pravidlo* speciálně pro ukazatele orloje, ne pro malé hodinky."
 pribuzne:
   - sphera

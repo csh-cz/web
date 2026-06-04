@@ -20,6 +20,10 @@ prekladyFr:
     genus: m
   - term: calendrier
     genus: m
+prekladyLa:
+  - term: calendarium
+    genus: n
+    zdroj: 'Balbín/Šlajer 1681'
 definice: "Spodní kalendářní číselník orloje s indikací **dne v roce**, **měsíce**, **svátku** a **znamení zvěrokruhu** ve kterém se Slunce právě nachází. Klasicky pomalu otáčivá disk (1 oběh = 1 rok), umístěný pod astronomickým číselníkem. U Pražského orloje je **Mánesova kalendářní deska** z roku 1865 — alegorický cyklus 12 měsíců a 12 znamení zodiaku."
 pribuzne:
   - orloj

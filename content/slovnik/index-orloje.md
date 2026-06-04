@@ -7,6 +7,10 @@ varianty:
   - index solis
   - index lunae
   - index declinationis
+prekladyLa:
+  - term: index
+    genus: m
+    zdroj: 'Balbín/Šlajer 1681'
 definice: "Latinský termín pro *ukazatel* (slunce, měsíce, deklinace) přejatý do hodinářské latinizované terminologie. Přejaté z astronomie středověku."
 pribuzne:
   - pravidlo-orloje
