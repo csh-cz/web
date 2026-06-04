@@ -5,6 +5,7 @@ kategorie: astronomicke
 varianty:
   - okolek
   - vobruč
+  - limbus
 definice: "Prstenec / ráfek na číselníku orloje — typicky pohyblivý železný kruh s počtem hodin (1–24 pro českou hodinu, 1–12 pro polouorlojní), který se otáčí kolem astronomického číselníku."
 pribuzne:
   - sphera
@@ -20,7 +21,7 @@ references:
 
 ## Výklad
 
-V moderním orlojnictví: **počtový kruh** nebo **prstenec hodin**. Slovo *vobruč* (s protetickým *v-* místo *u-*) je typický pravopisný rys 16. století (Táborský i jiní).
+V moderním orlojnictví: **počtový kruh** nebo **prstenec hodin**. Slovo *vobruč* (s protetickým *v-* místo *u-*) je typický pravopisný rys 16. století (Táborský i jiní). Benjamin Šlajer (1681) tentýž díl latinsky nazývá *limbus* („lem, obruba") — odtud v některých překladech zavádějící „hodinový lem".
 
 ## Příbuzné termíny
 
