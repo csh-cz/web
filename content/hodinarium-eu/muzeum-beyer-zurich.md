@@ -1,6 +1,7 @@
 ---
 title: Uhrenmuseum Beyer — Curych
 slug: muzeum-beyer-zurich
+year: null
 category: muzea
 originalUrl: https://www.google.com/maps/d/viewer?mid=1Wga_RKn7FmqptR4d2P1AqfXRMDg
 lastModified: null

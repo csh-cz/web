@@ -1,6 +1,7 @@
 ---
 title: "Římský kalendář"
 slug: "kalendar-rimsky"
+year: null
 category: "zajimavosti"
 tags:
   - slunecni

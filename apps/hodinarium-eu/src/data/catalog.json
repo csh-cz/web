@@ -253,11 +253,11 @@
     "title": "Balbín 1681 — Obdivuhodné a vzácné dílo, orloj (český překlad pramene)",
     "category": "edice",
     "thumbnail": "/img/clanky/balbin-1681/str-155-incipit-caput-xii.jpg",
-    "excerpt": "V roce 1681 vyšla v Praze v tiskárně Georgia Czernocha třetí kniha Balbínových Miscellanea historica Regni Bohemiae, jež obsahuje rozsáhlou kapitolu věnovanou staroměstskému orloji. Jezuita Bohuslav Balbín (1621–1688)…",
-    "year": 1490,
+    "excerpt": "V roce 1681 vyšla v Praze v tiskárně Georgia Czernocha (Jiřího Černocha, pražská tiskařská rodina činná od r. 1672) třetí kniha Balbínových Miscellanea historica Regni Bohemiae, jež obsahuje rozsáhlou kapitolu věnovan…",
+    "year": 1570,
     "lastModified": null,
     "imageCount": 6,
-    "wordCount": 8210,
+    "wordCount": 9789,
     "tags": [
       "praha",
       "prazsky-orloj",
@@ -832,6 +832,21 @@
     "wordCount": 11,
     "tags": [
       "vitrina-5-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A060-hodinovy-hotel",
+    "title": "Číslice a ručky ze Staroměstské radnice (rekonstrukce 2017)",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": null,
+    "excerpt": "Inventář A060 zahrnuje soubor původních číslic a hodinových rafií ze čtyř bočních ciferníků věže Staroměstské radnice, demontovaných při Skálově restaurátorském zásahu 13. června 2017. Tyto díly byly nahrazeny novou r…",
+    "year": 1787,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 70,
+    "tags": [
+      "hlavni-sal"
     ]
   },
   {
@@ -1652,22 +1667,6 @@
     "wordCount": 11,
     "tags": [
       "vitrina-2-hlavni"
-    ]
-  },
-  {
-    "slug": "inv-A060-hodinovy-hotel",
-    "title": "Hodinový hotel",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
-    "tags": [
-      "hlavni-sal",
-      "funkcni"
     ]
   },
   {
@@ -2821,7 +2820,7 @@
     "category": "zajimavosti",
     "thumbnail": "/img/zajimavosti/kinsner-astronomicke-hodiny/fig-1-dial-design-i.png",
     "excerpt": "V devadesátých letech 19. století začal chlumecký hodinář Edmund Kinšner (1846–1913) vyrábět astronomické hodiny určené pro privátní obytné prostory — nástěnné nebo stojací, srovnatelné rozměrově s běžným nábytkem. Uk…",
-    "year": 1364,
+    "year": 1895,
     "lastModified": "2026-05-04T00:00:00.000Z",
     "imageCount": 3,
     "wordCount": 2349,
@@ -4060,7 +4059,7 @@
     "year": 1868,
     "lastModified": "2020-11-15T19:20:00.000Z",
     "imageCount": 4,
-    "wordCount": 1052,
+    "wordCount": 1060,
     "tags": [
       "vezni",
       "mechanicke",
@@ -5201,7 +5200,7 @@
     "category": "zajimavosti",
     "thumbnail": "/img/ujete/sikma_plocha_1.jpg",
     "excerpt": "O hodinách jsme četli spoustu knížek. Ještě víc jsme jich nečetli. Víte-li o nějaké pěkné, napište.",
-    "year": 1410,
+    "year": null,
     "lastModified": "2024-01-15T14:23:00.000Z",
     "imageCount": 1,
     "wordCount": 671
@@ -5255,11 +5254,11 @@
     "title": "Pražský orloj — boční ciferníky věže Staroměstské radnice",
     "category": "zajimavosti",
     "thumbnail": null,
-    "excerpt": "Práce akademického sochaře Petra Skály z 13. března 2018 (Hodinové ciferníky věže Staroměstské radnice) dokumentuje boční hodinové ciferníky na věži Staroměstské radnice — ty se nacházejí nad astronomickým ciferníkem …",
+    "excerpt": "Práce akademického sochaře Petra Skály z 13. března 2018 (Hodinové ciferníky věže Staroměstské radnice, rukopis) dokumentuje boční hodinové ciferníky na věži Staroměstské radnice — ty se nacházejí nad astronomickým ci…",
     "year": 1657,
     "lastModified": "2026-05-30T22:00:00.000Z",
     "imageCount": 0,
-    "wordCount": 1516,
+    "wordCount": 1520,
     "tags": [
       "prazsky-orloj",
       "restaurovane",
@@ -5601,7 +5600,7 @@
     "category": "zajimavosti",
     "thumbnail": null,
     "excerpt": "Díky laskavosti autora uvádíme celý článek ze serveru ANTIKA.avonet.cz Případný zájemce na něm najde přes třista článků o antice. Doporučujeme.",
-    "year": 1465,
+    "year": null,
     "lastModified": "2018-06-11T08:48:00.000Z",
     "imageCount": 0,
     "wordCount": 1200,
@@ -6936,7 +6935,7 @@
     "category": "muzea",
     "thumbnail": null,
     "excerpt": "Privátní hodinářské muzeum patřící luxusnímu hodinářství Beyer v centru Curychu (Bahnhofstrasse). Jedna z nejstarších rodinných hodinářských firem ve Švýcarsku — působí nepřetržitě od roku 1760.",
-    "year": 1364,
+    "year": null,
     "lastModified": null,
     "imageCount": 0,
     "wordCount": 87,
@@ -8182,7 +8181,7 @@
     "category": "zvony",
     "thumbnail": "/img/vez/zvony/f/petrpavel1.jpg",
     "excerpt": "Hlavní zvon soběslavské věže. Vysvěcený v roce 1492, přelit v roce 1663.  SPODNÍ PRŮMĚR 144 CM HMOTNOST cca 1800 KG (původní uváděná hmotnost 1440 kg) HMOTNOST SRDCE cca 100 KG",
-    "year": 1440,
+    "year": 1663,
     "lastModified": "2017-04-23T20:02:00.000Z",
     "imageCount": 2,
     "wordCount": 184,
@@ -8224,7 +8223,7 @@
     "category": "zvony",
     "thumbnail": "/img/vez/zvony/rekvirovani.jpg",
     "excerpt": "Soběslavská věž v první podobě vznikla někdy na přelomu 12. a 13.století. Zdá se, že již tehdy na ní zvony byly. První zmínka odkazuje na rok 1210. Ve druhé polovině 15. stol. se již uvádějí zvony čtyři:",
-    "year": 1440,
+    "year": null,
     "lastModified": "2017-04-23T15:56:00.000Z",
     "imageCount": 6,
     "wordCount": 721

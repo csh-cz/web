@@ -1,6 +1,7 @@
 ---
 title: Kinšnerovy astronomické hodiny pro salón
 slug: kinsner-astronomicke-hodiny
+year: 1895
 category: zajimavosti
 tags:
   - popularizace
