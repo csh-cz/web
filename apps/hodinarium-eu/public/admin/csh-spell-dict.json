@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-04T17:14:28.824Z",
+  "generatedAt": "2026-06-05T03:26:37.861Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 246,
-    "hodinari": 172,
-    "hodinariTs": 172,
+    "hodinari": 173,
+    "hodinariTs": 173,
     "soupis": 443
   },
-  "count": 1902,
+  "count": 1905,
   "words": [
     "Abraham",
     "Accutron",
@@ -1263,6 +1263,7 @@
     "Povýšení",
     "později",
     "pozlacení",
+    "požár",
     "Pragotron",
     "Praha",
     "Prahy",
@@ -1628,6 +1629,7 @@
     "Thaddeus",
     "Thaya",
     "Theodor",
+    "Thobiáš",
     "Thom",
     "Thomas",
     "Thondel",
@@ -1636,6 +1638,7 @@
     "Time",
     "Tiszakécske",
     "Tobias",
+    "Tobiáš",
     "Tompion",
     "Tompionův",
     "Tótmegyer",
