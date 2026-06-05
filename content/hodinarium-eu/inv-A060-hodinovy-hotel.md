@@ -1,5 +1,5 @@
 ---
-title: "Hodinový hotel"
+title: "Číslice a ručky ze Staroměstské radnice (rekonstrukce 2017)"
 slug: "inv-A060-hodinovy-hotel"
 category: "sbirka"
 podsekce: "karta"
@@ -7,23 +7,25 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.527Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - hlavni-sal
-  - funkcni
 karta:
   inventarniCislo: "A060"
-  umisteni: "Sál věžních hodin"
-  majitel: "zápůjčka"
-  vztahKeSbirce: "zápůjčka"
-  stav: "funkční"
+  umisteni: "Hodinárium Děčín"
+  majitel: "depozitář"
+  vztahKeSbirce: "trvalá expozice"
+  stav: "vystaveno"
   extra:
-    - { label: "Poznámka", value: "Vráceno 2019" }
-editorNotes:
-  - level: warn
-    title: Auto-import z legacy PHP webu
-    text: 'Tato karta byla automaticky importována ze starých PHP stránek ČSH (frontmatter `manualEdit: false`). Obsah a metadata **nebyly manuálně zkontrolovány** — mohou obsahovat HTML/PHP artefakty, špatně zlomené citace, neúplné údaje. Po manuální revizi nastav `manualEdit: true`, aby tato hláška zmizela. <button type="button" class="editor-note-resolve" data-action="resolve-editor-note">✓ Vyřízeno (smazat tuto poznámku z MDX)</button>'
-    noteKey: manual-edit-false
+    - { label: "Předchozí evidence", value: "Hodinový hotel (zápůjčka vrácená 2019). Pod tímto inventárním číslem je nyní (od ~2020) evidován soubor číslic a rafií ze Staroměstské radnice." }
+relatedKarty:
+  - inv-A047-orloj-skala
+crossRefs:
+  clanky:
+    - prazsky-orloj-ciferniky-2018
 ---
 
+**Inventář A060** zahrnuje **soubor původních číslic a hodinových rafií ze čtyř bočních ciferníků věže Staroměstské radnice**, demontovaných při Skálově restaurátorském zásahu **13. června 2017**. Tyto díly byly nahrazeny novou rekonstrukcí ciferníků do podoby roku 1787 (autorství Ferdinanda Londensperger) — podrobně viz článek [Pražský orloj — boční ciferníky věže Staroměstské radnice](/zajimavosti/prazsky-orloj-ciferniky-2018).
+
+Předmětem evidence A060 byl původně Hodinový hotel (zápůjčka, vrácená 2019). Po jeho návratu bylo inventární číslo přiřazeno tomuto novému souboru.
