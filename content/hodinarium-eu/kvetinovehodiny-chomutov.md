@@ -28,19 +28,19 @@ Po konci druhé světové války došlo k nucenému vystěhování tehdejšího 
 
 Nedaleko místa kde byly dříve květinové hodiny dodnes stojí pomník, který má velmi zajímavou a pro naši zemi bohužel typickou historii. Jeho různé podoby jsou ostatně zachyceny na historických fotografiích, které jsou na konci tohoto článku. Původně to byl bronzový pomník císaře Josefa II. Ten byl v roce 1920 stržen českými vlastenci. Následně bylo místo upraveno jako památník obětem první světové války. Na soklu, který stojí dodnes byl vytesán německý nápis Für Euch (Za Vás) a nahoře umístěna socha schýleného vojáka s přilbou a kopím. Na čtyřech sloupcích lemujících pomník byla vytesána jména 460 padlých občanů Chomutova. Ani tento pomník nevydržel dlouho. Po druhé světové válce byl zničen a zůstal z něho jen sokl. Na ten postavili tehdejší vládci cementový jehlan ozdobený rudou pěticípou hvězdou a nápisem „Na věčnou paměť slavné rudé armádě osvoboditelce všech slovanských zemí od fašismu.” Přišel rok 1989 a opět se měnil vzhled pomníku. Byla stržena rudá hvězda a místo původní desky s nápisem oslavujícím Rudou armádu byla umístěna nová deska opásaná ostnatým drátem. Tentokrát s nápisem „Obětem fašismu”. Jsem zvědavý, jak dlouho tato podoba vydrží. Přál bych si, aby již byla definitivní, ale příliš v to nevěřím.
 
-![Zaniklé květinové hodiny v Chomutově](/img/Chomutov/f/foto_0001.jpg)
+![zaniklé květinové hodiny v Chomutově — historická fotografie č. 1 z 4 (hodiny dnes neexistují)](/img/Chomutov/f/foto_0001.jpg)
 
 Chomutov
 
-![Zaniklé květinové hodiny v Chomutově](/img/Chomutov/f/foto_0003.jpg)
+![zaniklé květinové hodiny v Chomutově — historická fotografie č. 2 z 4 (hodiny dnes neexistují)](/img/Chomutov/f/foto_0003.jpg)
 
 Květinové hodiny a pomník rudé armády - 60.léta.
 
-![Zaniklé květinové hodiny v Chomutově](/img/Chomutov/f/foto_0005.jpg)
+![zaniklé květinové hodiny v Chomutově — historická fotografie č. 3 z 4 (hodiny dnes neexistují)](/img/Chomutov/f/foto_0005.jpg)
 
 Obrázek z Německa.
 
-![Zaniklé květinové hodiny v Chomutově](/img/Chomutov/f/foto_0004.jpg)
+![zaniklé květinové hodiny v Chomutově — historická fotografie č. 4 z 4 (hodiny dnes neexistují)](/img/Chomutov/f/foto_0004.jpg)
 
 Květinové hodiny ve městě Erlangen.
 

@@ -37,14 +37,14 @@ Otázkou by mohlo být, jak přesné je fyzikální kyvadlo proti matematickému
 
 Myšlenka samonivelace vznikla ze snahy zmírnit požadavek na vodorovnost plochy na které hodiny stojí. Osa kotvy může být na kružnici kolem krokového kola kdekoliv. Vyvážení hodin je nalezení správného úhlu mezi klidovou polohou závěsu kyvadla a vlastní kotvou. Obvyklé uložení hřídele kotvy je nad osou krokového kola, aby se co nejvíce zkrátila potřebná výška hodin pro zavěšení kyvadla. Pokud naopak přemístíme osu kotvy kolno pod krokové kolo do otočného závěsu kolem osy krokového kola, můžeme dosáhnou toho, že v této pozici - kolmo pod osou - vlastní vahou zůstane i při naklonění stroje.
 
-![Samonivelace](/img/pilovky/f/foto_0003.jpg)
+![samonivelační mechanizmus dřevěného „pilového" stroje — detail č. 1 z 6 (princip nivelace přes klín v základu pily)](/img/pilovky/f/foto_0003.jpg)
 
-![Samonivelace](/img/pilovky/f/foto_0004.jpg)
+![samonivelační mechanizmus dřevěného „pilového" stroje — detail č. 2 z 6 (princip nivelace přes klín v základu pily)](/img/pilovky/f/foto_0004.jpg)
 
-![Samonivelace](/img/pilovky/f/foto_0005.jpg)
+![samonivelační mechanizmus dřevěného „pilového" stroje — detail č. 3 z 6 (princip nivelace přes klín v základu pily)](/img/pilovky/f/foto_0005.jpg)
 
-![Samonivelace](/img/pilovky/f/foto_0006.jpg)
+![samonivelační mechanizmus dřevěného „pilového" stroje — detail č. 4 z 6 (princip nivelace přes klín v základu pily)](/img/pilovky/f/foto_0006.jpg)
 
-![Samonivelace](/img/pilovky/f/foto_0007.jpg)
+![samonivelační mechanizmus dřevěného „pilového" stroje — detail č. 5 z 6 (princip nivelace přes klín v základu pily)](/img/pilovky/f/foto_0007.jpg)
 
-![Samonivelace](/img/pilovky/f/foto_0008.jpg)
+![samonivelační mechanizmus dřevěného „pilového" stroje — detail č. 6 z 6 (princip nivelace přes klín v základu pily)](/img/pilovky/f/foto_0008.jpg)
