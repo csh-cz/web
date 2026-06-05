@@ -35,8 +35,8 @@ Tato teorie je zkráceně převzata z internetové jazykové příručky [https:
 
 ## Použitý HW a SW
 
-- [ESP8266 ESP-12E OTA WeMos D1 CH340 WiFi](https://dratek.cz/arduino/1457-esp8266-esp-12e-ota-wemos-d1-ch340-wifi.html) Vývojová platforma Espressif založená na ESP-8266EX
-- [IIC I2C Display LCD 1602 16X2 Znaků LCD](https://dratek.cz/arduino/1570-iic-i2c-display-lcd-1602-16x2-znaku-lcd-modul-modry.html)
+- [ESP8266 ESP-12E OTA WeMos D1 CH340 WiFi](http://web.archive.org/web/20250820205158/https://dratek.cz/arduino/1457-esp8266-esp-12e-ota-wemos-d1-ch340-wifi.html) Vývojová platforma Espressif založená na ESP-8266EX
+- [IIC I2C Display LCD 1602 16X2 Znaků LCD](http://web.archive.org/web/20250916221237/https://dratek.cz/arduino/1570-iic-i2c-display-lcd-1602-16x2-znaku-lcd-modul-modry.html)
 - Program (Kdyby si to někdo chtěl snad také vyzkoušet.)
 
 Digitální ukazatel minut na orloji v Benátkách. Číslice se mění v pětiminutovém intervalu.

@@ -41,7 +41,7 @@ Základem těchto astronomicko-astrologických hodin je čínská stavebnice met
 
 ## O přesnosti
 
-Pro menší kapacitu modulu ESP10S byly voleny zjednodušující výpočty. Základem je knihovna SunMoonCalc (Copyright (c) 2018 by ThingPulse Ltd., https://thingpulse.com). Tato knihovna poskytuje i další zatím nepoužité výstupy, jako je třeba moon.brightLimbAngle a pod..
+Pro menší kapacitu modulu ESP10S byly voleny zjednodušující výpočty. Základem je knihovna SunMoonCalc (Copyright (c) 2018 by ThingPulse Ltd., http://web.archive.org/web/20260215101033/https://thingpulse.com/). Tato knihovna poskytuje i další zatím nepoužité výstupy, jako je třeba moon.brightLimbAngle a pod..
 
 Uvádí se, že použitá knihovna používá zjednodušený algoritmus pro výpočet východu a západu Slunce i Měsíce. Přesnost této knihovny je obecně dostatečná pro běžné potřeby, jako jsou meteostanice, displeje nebo informativní zobrazení času východu a západu obou těles. Obvyklá odchylka je ±1 až 3 minuty vůči přesnějším výpočtům (např. algoritmus NOAA, nebo výpočty podle Jean Meeus). Pro Měsíc je přesnost horší.
 

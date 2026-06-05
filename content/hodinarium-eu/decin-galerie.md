@@ -89,7 +89,7 @@ Pro sezónu **2017** byly zapůjčeny plastiky z [kovářství Gibbus](http://gi
 
 ## Humor v expozici
 
-Humor zastupuje několik autorů. Pan Čejka ([sestka.com](http://www.sestka.com))
+Humor zastupuje několik autorů. Pan Čejka ([sestka.com](http://web.archive.org/web/20250927014458/https://www.sestka.com/))
 vytvořil *[Nouzové zastavení času](/sbirka/karta/inv-A046-nouzove-zastaveni-casu)*, **[Petr Král](/hodinari/petr-kral)** je autorem *Vážených hodin*
 a fotokoláže s pseudonymem **aTeo** ([ateo.cz](http://www.ateo.cz)).
 

@@ -100,7 +100,7 @@ Odkazy
 - [www.gpsntp.com](http://www.gpsntp.com/) — gpsntp.com. [cit. 2026-04-28]
 - [Konfigurace NTP serveru](https://web.archive.org/web/20250907175819/https://martinuvzivot.cz/konfigurace-ntp-serveru/) — MartinuvZivot. [cit. 2026-04-28]
 - [Synchronizace času (obsáhlá informace od MEINBERG )](https://kb.meinbergglobal.com/kb/time_sync/start) — kb.meinbergglobal.com. [cit. 2026-04-28]
-- [NTP server na bázi Arduina](https://forum.arduino.cc/t/ntp-time-server/192816) — Arduino Forum. [cit. 2026-04-28]
+- [NTP server na bázi Arduina](http://web.archive.org/web/20260119010907/https://forum.arduino.cc/t/ntp-time-server/192816/) — Arduino Forum. [cit. 2026-04-28]
 - [Digitální hodiny řízené protokolem NTP](https://dspace.vutbr.cz/bitstream/handle/11012/39582/final-thesis.pdf?sequence=-1) — dspace.vutbr.cz. [cit. 2026-04-28]
 
 Text a řešení expozice: Ing. [Petr Král](/hodinari/petr-kral)
