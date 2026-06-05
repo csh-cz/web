@@ -6,11 +6,16 @@ prekladyDe:
   - term: Kaliber
     genus: n
     zdroj: "Špatný 1882: Kaliber → ráž, kalibr"
+  - term: Bagnolet-Kaliber
+    genus: n
 prekladyEn:
   - term: caliber
   - term: calibre
+  - term: bagnolet
 prekladyFr:
   - term: calibre
+  - term: bagnolet
+    genus: m
 definice: "Označení **typu hodinového stroje** — jeho tvaru, rozměrů, uspořádání desek a součástek. V hodinkách kapesních a náramkových identifikuje konkrétní konstrukci (např. „kalibr ETA 2824\" nebo „kalibr Lange L901.0\"); manufaktury každý kalibr vyvíjí jako samostatnou platformu."
 pribuzne:
   - werk

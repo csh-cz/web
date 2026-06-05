@@ -10,13 +10,28 @@ prekladyDe:
   - term: Gang
     genus: m
     zdroj: "Šumavský 1851: Gang → chod"
+  - term: Fall
+    genus: m
+  - term: Zylinder
+    genus: m
+  - term: Grasshopper-Hemmung
+    genus: f
 prekladyEn:
   - term: escapement
     zdroj: "Saunier 1887, en, klíč `25YXVRCA`"
+  - term: drop
+  - term: cylinder
+  - term: grasshopper
 prekladyFr:
   - term: échappement
     genus: m
     zdroj: "Gros 1913, fr, klíč `AQI736GP`"
+  - term: chute
+    genus: f
+  - term: cylindre
+    genus: m
+  - term: grasshopper
+    genus: m
 definice: "Mechanismus, který přerušuje pohyb soukolí v pravidelných intervalech a předává tak energii ze závaží nebo péra na oscilátor (kyvadlo nebo setrvačku)."
 pribuzne:
   - kotva

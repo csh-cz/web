@@ -16,6 +16,14 @@ references:
     note: "Rukopis AHMP, fond 3 (Sbírka úředních knih a rukopisů), sign. 1867."
   - bibKey: teigeJanaTaborskehoKlokotske1901
     note: "Tištěná edice s úvodem (J. Teige, Praha 1901)."
+prekladyEn:
+  - term: apparatus
+prekladyDe:
+  - term: Apparat
+    genus: m
+prekladyFr:
+  - term: appareil
+    genus: m
 ---
 
 ## Výklad
