@@ -54,7 +54,20 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Pražský zámečník (Nové Město), Janem Táborským zvaný „hodinář" — hlavní řemeslník přestavby staroměstského orloje 1551–1556 (rozebrání stroje, ocelové čepy a herštuky, kolo heverní). Balbín ho v § 2 už nejmenuje. Viz [edice Balbína 1681](/edice/balbin-1681-admirandum-horologium).',
-    relatedSlugs: ['benjamin-slajer'],
+    relatedSlugs: ['benjamin-slajer', 'vaclav-tobias'],
+    era: 'baroko',
+  },
+  {
+    slug: 'vaclav-tobias',
+    jmeno: 'Václav Tobiáš',
+    aliasy: ['Václav Tobiáš', 'hodinář Tobiáš', 'Václav Thobiáš', 'Tobiáš'],
+    typ: 'osoba',
+    obdobi: 'akt. 1538 – † 1560',
+    mesto: 'Praha (Staré Město)',
+    zeme: 'CZ',
+    shrnuti:
+      'Staroměstský „mistr malých hodinek", jenž po propuštění Jana Táborského (požár 1556) spravoval staroměstský orloj 1556–1560. Stroj dobře ochránil (navoskované plátno, vyklenutí a železný poklop), do soukolí ale nezasáhl k lepšímu — velkému orloji „dobře nerozuměl". Po jeho smrti 1560 byl k orloji povolán zpět Táborský. Viz [edice Balbína 1681](/edice/balbin-1681-admirandum-horologium).',
+    relatedSlugs: ['daniel-skrivan', 'benjamin-slajer'],
     era: 'baroko',
   },
   {
