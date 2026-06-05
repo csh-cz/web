@@ -21,11 +21,11 @@ Frekvence 50 Hz je pro mechanické hodiny dost vysoká. Proto jsou synchronní m
 
 **Anglické hodiny METAMEC Dereham, Norfolk** - 50 léta minulého století
 
-[![Svítící elektrický synchronní budík METAMEC, Dereham, Norfolk, 50 léta minulého století](/img/elektrika/metamec/metamec_001.jpg)](/img/elektrika/metamec/metamec1.jpg)
+[![svítící elektrický synchronní budík METAMEC (Dereham, Norfolk, 50. léta 20. století) — pohled č. 1 z 4](/img/elektrika/metamec/metamec_001.jpg)](/img/elektrika/metamec/metamec1.jpg)
 
-[![Svítící elektrický synchronní budík METAMEC, Dereham, Norfolk, 50 léta minulého století](/img/elektrika/metamec/metamec_002.jpg)](/img/elektrika/metamec/metamec2.jpg)[![Svítící elektrický synchronní budík METAMEC, Dereham, Norfolk, 50 léta minulého století](/img/elektrika/metamec/metamec_003.jpg)](/img/elektrika/metamec/metamec3.jpg)
+[![svítící elektrický synchronní budík METAMEC (Dereham, Norfolk, 50. léta 20. století) — pohled č. 2 z 4](/img/elektrika/metamec/metamec_002.jpg)](/img/elektrika/metamec/metamec2.jpg)[![svítící elektrický synchronní budík METAMEC (Dereham, Norfolk, 50. léta 20. století) — pohled č. 3 z 4](/img/elektrika/metamec/metamec_003.jpg)](/img/elektrika/metamec/metamec3.jpg)
 
-[![Svítící elektrický synchronní budík METAMEC, Dereham, Norfolk, 50 léta minulého století](/img/elektrika/metamec/metamec_004.jpg)
+[![svítící elektrický synchronní budík METAMEC (Dereham, Norfolk, 50. léta 20. století) — pohled č. 4 z 4](/img/elektrika/metamec/metamec_004.jpg)
 ](/img/elektrika/metamec/metamec4.jpg)*Obrázky se dají jednotlivě zvětšit*
 
 Tyto hodiny používají elektrickou síť trojím způsobem. Osvětlují okolí, udávají čas a hlasitě elektricky budí. Pocházejí z padesátých let minulého století. Datování se opírá o fakt, že budíky s osvětlením začala firma METAMEC v Derehamu vyrábět v roce 1952 a v roce 1962 již montovala modernější typ stroje SS, tedy Self-starting synchronous movement.

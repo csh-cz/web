@@ -22,12 +22,12 @@ Funkce motoru je založena na točivém magnetickém poli v jeho vzduchové meze
 
 Několik fotografií motoru Ferraris použitého pro natahování hodin. Všimněte si jemné regulace [setrvačky](/slovnik/setrvacka) pomocí vačky. Regulaci lze provádět i ze strany číselníku.
 
-[![Zenith - ferraris](/img/elektrika/ferraris1.jpg)](/img/elektrika/ferraris1.jpg)
+[![náramkové hodinky Zenith Ferraris — detail č. 1 z 5 (švýcarský chronograf 1960s)](/img/elektrika/ferraris1.jpg)](/img/elektrika/ferraris1.jpg)
 
-[![Zenith - ferraris](/img/elektrika/ferraris2.jpg)](/img/elektrika/ferraris2.jpg)[![regulace- ferraris](/img/elektrika/ferraris7b.jpg)](/img/elektrika/ferraris7b.jpg)
-[![Zenith - ferraris](/img/elektrika/ferraris4.jpg)](/img/elektrika/ferraris4.jpg)
+[![náramkové hodinky Zenith Ferraris — detail č. 2 z 5 (švýcarský chronograf 1960s)](/img/elektrika/ferraris2.jpg)](/img/elektrika/ferraris2.jpg)[![regulace- ferraris](/img/elektrika/ferraris7b.jpg)](/img/elektrika/ferraris7b.jpg)
+[![náramkové hodinky Zenith Ferraris — detail č. 3 z 5 (švýcarský chronograf 1960s)](/img/elektrika/ferraris4.jpg)](/img/elektrika/ferraris4.jpg)
 
-[![Zenith - ferraris](/img/elektrika/ferraris3.jpg)](/img/elektrika/ferraris3.jpg)[![Zenith - ferraris](/img/elektrika/ferraris5.jpg)](/img/elektrika/ferraris5.jpg)
+[![náramkové hodinky Zenith Ferraris — detail č. 4 z 5 (švýcarský chronograf 1960s)](/img/elektrika/ferraris3.jpg)](/img/elektrika/ferraris3.jpg)[![náramkové hodinky Zenith Ferraris — detail č. 5 z 5 (švýcarský chronograf 1960s)](/img/elektrika/ferraris5.jpg)](/img/elektrika/ferraris5.jpg)
 
 ## Odkazy
 

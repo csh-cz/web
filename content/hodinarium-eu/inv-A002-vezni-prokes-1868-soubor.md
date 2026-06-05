@@ -124,17 +124,17 @@ Nápisy na strojích Prokeše jsou pokaždé psány od ruky, často nesymetricky
 
 ## Stroj v expozici Hodinária
 
-![Komplet Prokeš 1868 v expozici](/img/vez/bychory/f/Prokes1868_1.jpg)
+![soubor věžních hodin Václava Prokeše z roku 1868 v expozici — pohled č. 1 z 6](/img/vez/bychory/f/Prokes1868_1.jpg)
 
-![Komplet Prokeš 1868 v expozici](/img/vez/bychory/f/Prokes1868_2.jpg)
+![soubor věžních hodin Václava Prokeše z roku 1868 v expozici — pohled č. 2 z 6](/img/vez/bychory/f/Prokes1868_2.jpg)
 
-![Komplet Prokeš 1868 v expozici](/img/vez/bychory/f/Prokes1868_3.jpg)
+![soubor věžních hodin Václava Prokeše z roku 1868 v expozici — pohled č. 3 z 6](/img/vez/bychory/f/Prokes1868_3.jpg)
 
-![Komplet Prokeš 1868 v expozici](/img/vez/bychory/f/Prokes1868_4.jpg)
+![soubor věžních hodin Václava Prokeše z roku 1868 v expozici — pohled č. 4 z 6](/img/vez/bychory/f/Prokes1868_4.jpg)
 
-![Komplet Prokeš 1868 v expozici](/img/vez/bychory/f/Prokes1868_5.jpg)
+![soubor věžních hodin Václava Prokeše z roku 1868 v expozici — pohled č. 5 z 6](/img/vez/bychory/f/Prokes1868_5.jpg)
 
-![Komplet Prokeš 1868 v expozici](/img/vez/bychory/f/Prokes1868_6.jpg)
+![soubor věžních hodin Václava Prokeše z roku 1868 v expozici — pohled č. 6 z 6](/img/vez/bychory/f/Prokes1868_6.jpg)
 
 Za povšimnutí stojí několik detailů. Dřevěná tyč [kyvadla](/slovnik/kyvadlo) je asi o metr kratší — záměrem bylo vystavit stroj ve výšce očí, a protože se v expozici používá pouze k demonstračnímu chodu (bez napojení na číselník i cimbály), rychlejší chod nevadí. K vidění je i Prokešova specialita — „kardanové kolečko" místo kardanova kříže, které zakončuje minutovou hřídel procházející kyvadlem a slouží pro připojení tyče k rozvodovce. Dále převod 1:2 ze závěrkového kola na pomocné kolo spouštějící zvonicí stroj a páka pomocného pohonu, jež se v době [natahování](/slovnik/natah) jicího stroje zapřela o zuby kola a pomocí závažíčka jicí stroj poháněla.
 
