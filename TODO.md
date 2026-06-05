@@ -875,29 +875,46 @@ manuální review Davidem.
       **Verifikace**: `npx tsx scripts/audit-bibkey.ts` reportuje
       `Problematic: 0 entries, 0 files` (předtím 66 entries, 44 souborů).
 
-## A.11 — Alt text audit (continuous, 24 článků)
+## A.11 — Alt text audit (continuous, ✅ prakticky dokončeno 2026-06-05)
 
 Issue #24 root cause: legacy import z hodinarium.eu měl všechny `<img>`
 s `alt="Highslide JS"` (default lightbox alt), tedy turndown → markdown
 dostalo generické `![Fotografie N](…)` patterny. To kazí a11y, SEO i
 asociaci text/image.
 
-**Stav 2026-05-19:** 24 souborů s `![Fotografie N]` pattern v
-`content/hodinarium-eu/`. **vez-kli.md** opraven (8 obrázků s popisnými
-alt texty na základě kontextu článku).
+### ✅ Stav 2026-06-05: prakticky uzavřeno
 
-**Zbývá projít** (priorita podle čtenosti):
-- bychory-prokes1, decin-flatbed, decin-patek, decin-jednotny-cas,
-  decin-wenzel-mellner, decin-velika-ves, decin-zamek, kardasova-recice,
-  kvetinovehodiny-nove-mesto-nad-metuji, janovice, … (přesný seznam
-  `grep -lE '!\[Fotografie [0-9]+\]' content/hodinarium-eu/*.md`)
+Pattern `![Fotografie N]` v repu **0 výskytů**. Duplikované alt texty
+(stejný řetězec 4-34× v jednom článku) odstraněny v 5 PR (2026-05-31
++ 2026-06-05). **Zbývající ≤3× duplikáty** jsou de facto false
+positives detekce — typicky fotka před/po restaurování + detail je
+validní design vzor.
 
-**Postup:** při dotyku článku v Sveltia editor přepsat alt texty
-na základě kontextu odstavce, který obrázek doprovází. Nepoužívat
-generická slova „Fotografie", „Obrázek" — vždy popis (např.
-„Detail krokového ústrojí", „Pohled na věž s ciferníkem", …).
+**Hotové dávky:**
 
-Continuous — nepatří do jednoho batche.
+| PR | Datum | Počet alt | Články |
+|---|---|---|---|
+| #41 (sister fixes) | 2026-05-31 | 82 | janovice, inv-A013, inv-A014, inv-A027, inv-A006, gobelin |
+| #52 batch 3 | 2026-06-05 | 106 | mindelheim, zvon-petr-vok (1. sekce), decin-zamek, merkur, kvetinovehodiny-nove-mesto, timometer |
+| #53 batch 4 | 2026-06-05 | 37 | inv-A002, pilovky, ferramo, zapekane, decin-patek, casova-pasma, kvetinovehodiny-chomutov, sitovky |
+| #54 batch 5 | 2026-06-05 | 34 | zvon-petr-vok (2. sekce), inv-A002 cimbály, synchron-bici, kardasova-recice, inv-P503, inv-A003 |
+| **Celkem** | | **259 alt** | **~22 článků** |
+
+**Pattern řešení:**
+- **Galerie ze stejného místa/události** → krátký popisný alt + sekvenční číslo (1/N)
+- **Sekvence s captions v textu** → extract caption → alt (text pod fotkou zachován pro vidící)
+- **Obsahový mismatch** (např. „DCF hodiny" alt → fotky Liebing stroje v janovice) → reálné popisy podle vizuální analýzy
+
+### Continuous policy (going forward)
+
+Při dotyku jakéhokoli článku v Sveltia editor:
+- **Nepoužívat** generická slova „Fotografie", „Obrázek", „Hodiny"
+- **Vždy** popis podle kontextu odstavce (např. „Detail krokového
+  ústrojí", „Pohled na věž s ciferníkem", „Nálezový stav v dílně")
+- Pokud galerie ze stejné lokace, přidej sekvenční číslo (1/N)
+
+Nové duplikáty se sami nahlásí v `pnpm a11y:audit` (běží v CI), tedy
+další A.11 batch už nepotřebujeme — jen continuous při editaci.
 
 ## A.12 — WCAG 2.2 manual gaps audit (2026-05-19)
 
