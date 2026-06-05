@@ -10,7 +10,6 @@ definice: "Staročeský pravopis slova *ocel* — s protetickým *v-* na začát
 pribuzne:
   - v-hertu-kalen
   - herstuk
-isStub: true
 references:
   - bibKey: taborskyzklokotskehoryZpravaStaromestskemOrloji1570
     citace: "Udělal herštuky jiné z samé voceli; tryb na hřídeli kola štegrádu … udělal nový, též vocelový."

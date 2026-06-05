@@ -5,11 +5,10 @@ kategorie: profese
 varianty:
   - tatrmani
   - aparát
-definice: "Pohyblivé figurky / pohyblivá divadla na orlojích — postavičky, které se v daný okamžik objeví, otočí, kývnou. Táborský používá pohrdlivě (\"tatrmani a jiných aparátův bystře a nákladně, ale neužitečně udělaných\") pro orloje, které jsou pouhou show bez astronomické funkce."
+definice: "Pohyblivé figurky / pohyblivá divadla na orlojích — postavičky, které se v daný okamžik objeví, otočí, kývnou. Táborský používá pohrdlivě (\"tatrmani a jiných aparátův bystře a nákladně, ale neužitečně udělaných\") pro orloje, které jsou pouhou show bez astronomické funkce. V anglické terminologii se pohyblivé figurky orloje zovou **jacks** (jednotlivé postavičky), **jaquemarts** (figurky bijící zvon) nebo obecně **automata** / **animated figures**. Berner FHS uvádí **apparatus** jako obecný pojem pro přístroj (analogie s českým „aparát\" u Táborského)."
 pribuzne:
   - orloj
   - umeni
-isStub: true
 references:
   - bibKey: taborskyzklokotskehoryZpravaStaromestskemOrloji1570
     citace: "Tatrmanuov a jiných aparatův bystře a nákladně, ale neužitečně, udělaných."

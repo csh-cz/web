@@ -42,12 +42,11 @@ prekladyLa:
   - term: arcus
     genus: m
     zdroj: 'Balbín/Šlajer 1681'
-definice: 'Železný díl ve tvaru oblouku spojující dva pruty trojprutého kola; nese ryklík a drobné ložisko (kštudlici). U Staroměstského orloje vyrobený v rámci Táborského oprav 16. století.'
+definice: 'Železný díl ve tvaru oblouku spojující dva pruty trojprutého kola; nese ryklík a drobné ložisko (kštudlici). U Staroměstského orloje vyrobený v rámci Táborského oprav 16. století. Anglický termín **arc** odkazuje primárně na geometrický oblouk (úhlovou míru kruhu); pro Táborského fyzickou komponentu je vhodnější **bow** nebo **brace** (vzpěra).'
 pribuzne:
   - prut-orloje
   - kstudle
   - rykl
-isStub: true
 references:
   - bibKey: taborskyzklokotskehoryZpravaStaromestskemOrloji1570
     citace: "Oblouk železný připojený jedním koncem k jednomu prutu kola tréprutého."

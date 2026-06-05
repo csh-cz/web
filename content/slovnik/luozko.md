@@ -38,12 +38,11 @@ prekladyLa:
   - term: lectulus
     genus: m
     zdroj: 'Balbín/Šlajer 1681'
-definice: 'Drobné lůžko / držák kotouče měsíce. V něm rotuje kulička měsíce, čímž se na pukle (terči uprostřed číselníku) ukazuje fáze měsíce.'
+definice: 'Drobné lůžko / držák kotouče měsíce. V něm rotuje kulička měsíce, čímž se na pukle (terči uprostřed číselníku) ukazuje fáze měsíce. V hodinkové terminologii odpovídá moderní pojem **ložisko** (en. bearing) — drobné kruhové pouzdro, ve kterém se otáčí čep hřídele; v náramkových hodinkách často **safírový kámen** (jewel bearing).'
 pribuzne:
   - pukla
   - pravidlo-orloje
   - hridel
-isStub: true
 references:
   - bibKey: taborskyzklokotskehoryZpravaStaromestskemOrloji1570
     citace: "Luožko měsícovo a pod tím lůžkem na samém konci pravidlka udělán jest kroužek."

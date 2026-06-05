@@ -41,12 +41,11 @@ prekladyLa:
   - term: pertica
     genus: f
     zdroj: 'Balbín/Šlajer 1681'
-definice: 'Rameno / paprsek kola. U Táborského *kolo tréprutové* = kolo se třemi rameny (paprsky), na kterém sedí indikátory orloje.'
+definice: 'Rameno / paprsek kola. U Táborského *kolo tréprutové* = kolo se třemi rameny (paprsky), na kterém sedí indikátory orloje. V mezinárodní terminologii odpovídá **spoke** (paprsek), případně **wheel arm**; latinsky **pertica** (Balbín/Šlajer 1681 — *rota tripertita*, kolo tréprutové). Anglické **arm** je obecnější (rameno nástroje — kružítka, ladičky).'
 pribuzne:
   - oblouk-orloje
   - sphera
   - krokove-kolo
-isStub: true
 references:
   - bibKey: taborskyzklokotskehoryZpravaStaromestskemOrloji1570
     citace: "Toliko tři pruty vztahující se k krajuom sphery."

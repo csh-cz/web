@@ -24,13 +24,12 @@ prekladyFr:
     genus: f
   - term: fourche
     genus: f
-definice: "**Středový převodový článek** v páčkovém (švýcarském) kroku náramkových a kapesních hodinek. Vidlice spojuje **[krokové kolo](/slovnik/krokove-kolo)** s **[setrvačkou](/slovnik/setrvacka)** — palety na jednom konci vidlice zachycují zuby krokového kola, zatímco druhý konec (= vlastní vidlice) komunikuje se safírovou tříhrannou paletkou na ose setrvačky. Tím přenáší **diskrétní impulsy** (jeden za půlperiodu kyvu) na oscilátor."
+definice: "**Středový převodový článek** v páčkovém (švýcarském) kroku náramkových a kapesních hodinek. Vidlice spojuje **[krokové kolo](/slovnik/krokove-kolo)** s **[setrvačkou](/slovnik/setrvacka)** — palety na jednom konci vidlice zachycují zuby krokového kola, zatímco druhý konec (= vlastní vidlice) komunikuje se safírovou tříhrannou paletkou na ose setrvačky. Tím přenáší **diskrétní impulsy** (jeden za půlperiodu kyvu) na oscilátor. Anatomicky se na vidlici rozlišuje **vroubek** (notch / lever notch) — výřez, do kterého zapadá paletka setrvačky; **růžky** (horns) — chrání před přerušením kontaktu; a **strážní kolík** (dart / guard pin) — zabraňuje předčasnému uvolnění. Všechny tyto části nese **blok** (block) na konci ramene."
 pribuzne:
   - krok
   - setrvacka
   - paleta
   - krokove-kolo
-isStub: true
 references:
   - title: "Slovník hodinářské terminologie ČSH"
     url: "/slovnik"
