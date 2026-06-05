@@ -100,7 +100,7 @@ Malé věžní muzeum je také ve Waldmünchenu. První zmínky městě jsou z r
 
 První doložitelná zpráva o hodinách na věži je Merianova rytina z roku 1644. Ve 20. století se hodiny na věži „modernizovaly”. Mechanické hodiny byly ve věži do roku 1983. V současné době je ve věži muzeum hodin. Na jednotlivých poschodích je umístěno 16 strojů věžních hodin pocházejících z rozmezí let 1600 – 1920. Vlastní mechanický stroj již se ve věži nepoužívá, nahradila ho elektronika s dálkovým řízením.
 
-### [Uhrenstube Aschau im Burgenland](http://www.uhrenstube-aschau.at/)
+### [Uhrenstube Aschau im Burgenland](http://web.archive.org/web/20260214135546/https://www.uhrenstube-aschau.at/)
 
 Sbírka převážně věžních hodin, kterou shromáždil a muzeum provozuje Ing. Wolfgang Komzak.
 

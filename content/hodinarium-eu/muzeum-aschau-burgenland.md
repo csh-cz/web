@@ -13,7 +13,7 @@ tags:
   - evropa
 references:
   - title: Uhrenstube Aschau
-    url: https://www.uhrenstube-aschau.at/
+    url: http://web.archive.org/web/20260214135546/https://www.uhrenstube-aschau.at/
     type: odkaz
 tldr: Soukromá kolekce Ing. Wolfganga Komzaka v Oberschützenu — věžní hodiny napříč epochami (gotika–průmysl), Bratenwender a hodinářské nářadí. Jedno z mála míst, kde lze studovat rakouskou věžní tradici v koncentrované formě.
 ---
