@@ -55,10 +55,10 @@ Natahovací pastorky jsou posuvné po svých hřídelích, takže v době chodu 
 
 ## Několik fotografií po restaurování
 
-![Několik fotografií po restaurování](/img/KardasovaRecice/f/foto_0003.jpg)
+![věžní hodiny v Kardašově Řečici po restaurování — foto č. 1 z 4](/img/KardasovaRecice/f/foto_0003.jpg)
 
-![Několik fotografií po restaurování](/img/KardasovaRecice/f/foto_0004.jpg)
+![věžní hodiny v Kardašově Řečici po restaurování — foto č. 2 z 4](/img/KardasovaRecice/f/foto_0004.jpg)
 
-![Několik fotografií po restaurování](/img/KardasovaRecice/f/foto_0005.jpg)
+![věžní hodiny v Kardašově Řečici po restaurování — foto č. 3 z 4](/img/KardasovaRecice/f/foto_0005.jpg)
 
-![Několik fotografií po restaurování](/img/KardasovaRecice/f/foto_0006.jpg)
+![věžní hodiny v Kardašově Řečici po restaurování — foto č. 4 z 4](/img/KardasovaRecice/f/foto_0006.jpg)
