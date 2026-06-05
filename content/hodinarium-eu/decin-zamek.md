@@ -24,36 +24,36 @@ Hezký obrázek ze začátku 18. stol. před přestavbou zámku.
 
 ## Několik pohlednic
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0001.jpg)
+![historická pohlednice děčínského zámku — galerie č. 1 z 17](/img/decin/pohledy/f/foto_0001.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0002.jpg)
+![historická pohlednice děčínského zámku — galerie č. 2 z 17](/img/decin/pohledy/f/foto_0002.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0003.jpg)
+![historická pohlednice děčínského zámku — galerie č. 3 z 17](/img/decin/pohledy/f/foto_0003.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0004.jpg)
+![historická pohlednice děčínského zámku — galerie č. 4 z 17](/img/decin/pohledy/f/foto_0004.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0005.jpg)
+![historická pohlednice děčínského zámku — galerie č. 5 z 17](/img/decin/pohledy/f/foto_0005.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0006.jpg)
+![historická pohlednice děčínského zámku — galerie č. 6 z 17](/img/decin/pohledy/f/foto_0006.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0007.jpg)
+![historická pohlednice děčínského zámku — galerie č. 7 z 17](/img/decin/pohledy/f/foto_0007.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0008.jpg)
+![historická pohlednice děčínského zámku — galerie č. 8 z 17](/img/decin/pohledy/f/foto_0008.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0009.jpg)
+![historická pohlednice děčínského zámku — galerie č. 9 z 17](/img/decin/pohledy/f/foto_0009.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0010.jpg)
+![historická pohlednice děčínského zámku — galerie č. 10 z 17](/img/decin/pohledy/f/foto_0010.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0011.jpg)
+![historická pohlednice děčínského zámku — galerie č. 11 z 17](/img/decin/pohledy/f/foto_0011.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0012.jpg)
+![historická pohlednice děčínského zámku — galerie č. 12 z 17](/img/decin/pohledy/f/foto_0012.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0013.jpg)
+![historická pohlednice děčínského zámku — galerie č. 13 z 17](/img/decin/pohledy/f/foto_0013.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0014.jpg)
+![historická pohlednice děčínského zámku — galerie č. 14 z 17](/img/decin/pohledy/f/foto_0014.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0015.jpg)
+![historická pohlednice děčínského zámku — galerie č. 15 z 17](/img/decin/pohledy/f/foto_0015.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0016.jpg)
+![historická pohlednice děčínského zámku — galerie č. 16 z 17](/img/decin/pohledy/f/foto_0016.jpg)
 
-![Několik pohlednic](/img/decin/pohledy/f/foto_0017.jpg)
+![historická pohlednice děčínského zámku — galerie č. 17 z 17](/img/decin/pohledy/f/foto_0017.jpg)

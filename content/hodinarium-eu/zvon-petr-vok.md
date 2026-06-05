@@ -23,99 +23,99 @@ Zvon byl odléván do klasické hliněné formy vytvořené pomocí šablon pro 
 
 ## Několik fotografií z přípravy formy a odlévání
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_001.jpg)
+![Výroba formy - šablona vnitřního tvaru zvonu](/img/vez/zvony/petrvok/f/foto_001.jpg)
 
 výroba formy - šablona vnitřního tvaru zvonu
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_002.jpg)
+![Výroba formy - šablona vnějšího tvaru zvonu](/img/vez/zvony/petrvok/f/foto_002.jpg)
 
 výroba formy - šablona vnějšího tvaru zvonu
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_003.jpg)
+![Výroba formy - model zvonu (falešný zvon) pokrytý voskem, připravený na tvorbu výzdoby](/img/vez/zvony/petrvok/f/foto_003.jpg)
 
 výroba formy - model zvonu (falešný zvon) pokrytý voskem, připravený na tvorbu výzdoby
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_004.jpg)
+![Výroba formy - nasazen plášť formy](/img/vez/zvony/petrvok/f/foto_004.jpg)
 
 výroba formy - nasazen plášť formy
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_005.jpg)
+![Vypalování formy v licí jámě](/img/vez/zvony/petrvok/f/foto_005.jpg)
 
 vypalování formy v licí jámě
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_006.jpg)
+![Vypalování formy](/img/vez/zvony/petrvok/f/foto_006.jpg)
 
 vypalování formy
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_007.jpg)
+![Vypalování formy](/img/vez/zvony/petrvok/f/foto_007.jpg)
 
 vypalování formy
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_009.jpg)
+![Příprava mědi na tavbu](/img/vez/zvony/petrvok/f/foto_009.jpg)
 
 příprava mědi na tavbu
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_008.jpg)
+![Rozebrání formy po vypálení. V pozadí falešný zvon.](/img/vez/zvony/petrvok/f/foto_008.jpg)
 
 Rozebrání formy po vypálení. V pozadí falešný zvon.
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_010.jpg)
+![Utěsnění otvoru po tyči šablony](/img/vez/zvony/petrvok/f/foto_010.jpg)
 
 utěsnění otvoru po tyči šablony
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_012.jpg)
+![Poslední kontrola](/img/vez/zvony/petrvok/f/foto_012.jpg)
 
 poslední kontrola
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_011.jpg)
+![Vypadá to dobře](/img/vez/zvony/petrvok/f/foto_011.jpg)
 
 vypadá to dobře
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_013.jpg)
+![Sesazení formy](/img/vez/zvony/petrvok/f/foto_013.jpg)
 
 sesazení formy
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_014.jpg)
+![Stažení dolní a horní části](/img/vez/zvony/petrvok/f/foto_014.jpg)
 
 stažení dolní a horní části
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_015.jpg)
+![Stažení dolní a horní části](/img/vez/zvony/petrvok/f/foto_015.jpg)
 
 stažení dolní a horní části
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_016.jpg)
+![Zasypání cele formy hlínou](/img/vez/zvony/petrvok/f/foto_016.jpg)
 
 zasypání cele formy hlínou
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_017.jpg)
+![Tavení zvonoviny](/img/vez/zvony/petrvok/f/foto_017.jpg)
 
 tavení zvonoviny
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_018.jpg)
+![Tavení zvonoviny](/img/vez/zvony/petrvok/f/foto_018.jpg)
 
 tavení zvonoviny
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_019.jpg)
+![Odplynění](/img/vez/zvony/petrvok/f/foto_019.jpg)
 
 odplynění
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_020.jpg)
+![Začíná hlavní fáze lití](/img/vez/zvony/petrvok/f/foto_020.jpg)
 
 začíná hlavní fáze lití
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_021.jpg)
+!["tyglík" se zvonovinou je vyzdvižen z pece a přemístněn k formě](/img/vez/zvony/petrvok/f/foto_021.jpg)
 
 "tyglík" se zvonovinou je vyzdvižen z pece a přemístněn k formě
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_022.jpg)
+![A už to teče](/img/vez/zvony/petrvok/f/foto_022.jpg)
 
 a už to teče
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_023.jpg)
+![Odlévání pokračuje](/img/vez/zvony/petrvok/f/foto_023.jpg)
 
 odlévání pokračuje
 
-![Několik fotografií z přípravy formy a odlévání](/img/vez/zvony/petrvok/f/foto_024.jpg)
+![Poslední zbytky zvonoviny pro další použití](/img/vez/zvony/petrvok/f/foto_024.jpg)
 
 poslední zbytky zvonoviny pro další použití
 
