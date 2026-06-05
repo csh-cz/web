@@ -58,7 +58,17 @@ jobs:
           fi
           DATE=$(date -u +%Y-%m-%d)
           git commit -m "chore(deadlinks): weekly audit ${DATE}"
-          git push
+          # Race-safe push: pokud někdo mezi-tím pushnul, rebase + retry.
+          # Bez tohoto se workflow se rozbil, když paralelně bezí jiné PR mergy
+          # (případ z 2026-06-05: během 3-min audit run David mergnul 4 PR).
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Push successful on attempt $attempt"
+              break
+            fi
+            echo "Push attempt $attempt failed — rebase + retry"
+            git pull --rebase origin main
+          done
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Aktualizovat / vytvořit GitHub Issue
