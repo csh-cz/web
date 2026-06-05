@@ -1,6 +1,7 @@
 ---
 title: "zvon Velký později zvaný Petr Pavel"
 slug: "zvon-petr-pavel"
+year: 1663
 category: "zvony"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"
 originalUrl: "https://hodinarium.eu/zvon_petr_pavel.htm"
