@@ -15,7 +15,7 @@ scrapedAt: "2026-05-30T22:00:00.000Z"
 lastModified: "Fri, 30 May 2026 22:00:00 GMT"
 ---
 
-Práce akademického sochaře **[Petra Skály](/hodinari/petr-skala)** z **13. března 2018** ([Hodinové ciferníky věže Staroměstské radnice](http://www.veznihodiny.cz/staromestskaradnice.htm)) dokumentuje **boční hodinové ciferníky** na věži [Staroměstské radnice](https://cs.wikipedia.org/wiki/Starom%C4%9Bstsk%C3%A1_radnice) — ty se nacházejí **nad astronomickým ciferníkem Pražského orloje** a jsou součástí samostatného hodinového stroje (ne orloje). Tato studie navazuje na komplexní [restaurování stroje Pražského orloje 2017–2018](/hodinarium-eu/prazsky-orloj-restaurovani-2018) a doplňuje pohled na **vizibilní rozhraní mezi mechanikou a veřejností**.
+Práce akademického sochaře **[Petra Skály](/hodinari/petr-skala)** z **13. března 2018** (*Hodinové ciferníky věže Staroměstské radnice*, rukopis) dokumentuje **boční hodinové ciferníky** na věži [Staroměstské radnice](https://cs.wikipedia.org/wiki/Starom%C4%9Bstsk%C3%A1_radnice) — ty se nacházejí **nad astronomickým ciferníkem Pražského orloje** a jsou součástí samostatného hodinového stroje (ne orloje). Tato studie navazuje na komplexní [restaurování stroje Pražského orloje 2017–2018](/hodinarium-eu/prazsky-orloj-restaurovani-2018) a doplňuje pohled na **vizibilní rozhraní mezi mechanikou a veřejností**.
 
 ## Stručný vývoj ciferníků věžních hodin (Skálova systematika)
 
@@ -181,7 +181,7 @@ Tvar ručiček odpovídá i nejasnému zobrazení na fotografiích a Morstadtov�
 
 ## Pramen
 
-**SKÁLA, Petr.** *Hodinové ciferníky věže Staroměstské radnice.* Sadská, 13. března 2018. — Rukopis (PDF, 6 stran), atelier [veznihodiny.cz](http://www.veznihodiny.cz/staromestskaradnice.htm), archiv Hodinária. Verze pro tištěnou publikaci; existují dřívější pracovní verze z března a dubna 2017.
+**SKÁLA, Petr.** *Hodinové ciferníky věže Staroměstské radnice.* Sadská, 13. března 2018. — Rukopis (PDF, 6 stran), atelier veznihodiny.cz (web již nedostupný), archiv Hodinária. Verze pro tištěnou publikaci; existují dřívější pracovní verze z března a dubna 2017.
 
 Sladkovský, *Učebnice odborné nauky hodinářské*, s. 31 (Sladkovský 1947 — pro datum narození Jana Londenspergera 1790).
 

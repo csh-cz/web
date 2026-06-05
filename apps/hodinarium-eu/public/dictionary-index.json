@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated": "2026-05-30T07:17:36.102Z",
-    "count": 238,
-    "stubs": 75,
+    "generated": "2026-06-05T10:13:14.357Z",
+    "count": 246,
+    "stubs": 77,
     "redirects": 15,
     "withConceptId": 56,
     "withVyznamy": 1,
@@ -460,8 +460,8 @@
         {
           "term": "astronomický číselník",
           "status": "preferred",
-          "note": "Souhrnný cs odborný termín — ciferník, který kromě hodinového času zobrazuje astronomické údaje (poloha Slunce/Měsíce v zvířetníku, východ/západ Slunce, fáze Měsíce, druhy historického času, kalendárium). Šolc 2009 dělí na **4 typy A-D** podle konstrukčního principu.",
-          "doloženo": "Šolc 2009, Pakosta 2007, Křížek 2009, Hadravová/Hadrava 2009"
+          "note": "Souhrnný cs odborný termín — ciferník, který kromě hodinového času zobrazuje astronomické údaje (poloha Slunce/Měsíce v zvířetníku, východ/západ Slunce, fáze Měsíce, druhy historického času, kalendárium). Klíčová cs monografie: **Horský 1988** *Pražský orloj* (primární pramen, na ní stojí pozdější autoři).",
+          "doloženo": "Horský 1988 (klíčový), Pakosta 2007, Hadravová/Hadrava 2009. Šolc 2009 a Křížek 2009 jako sekundární astronomické zjednodušení."
         },
         {
           "term": "orlojní číselník",
@@ -471,7 +471,7 @@
         {
           "term": "astroláb (na orloji)",
           "status": "admitted",
-          "note": "Šolc 2009 typ A — *číselníky, jejichž základ tvoří astroláb*. Vychází ze stereografické projekce nebeské sféry do roviny."
+          "note": "V Šolcově (2009) zjednodušené klasifikaci typ A — *číselníky, jejichž základ tvoří astroláb*. Vychází ze stereografické projekce nebeské sféry do roviny. Pozn.: Šolcova klasifikace je astronomické zjednodušení Horského (1988) podrobnější typologie."
         },
         {
           "term": "planisférium",
@@ -519,7 +519,7 @@
           }
         ]
       },
-      "definice": "Číselník, který kromě hodinového času zobrazuje **astronomické údaje** — polohu Slunce a Měsíce ve znameních zvěrokruhu, jejich východy a západy, délku světlého dne a noci, fáze Měsíce, případně horizont, soumrak a kalendárium. Liší se tak od běžného číselníku, který „říká **kolik je hodin**\" — astronomický číselník „říká, **jak je člověk zasazen do rytmu nebe**\". V evropské tradici je typologicky rozdělen Šolcem (2009) na **4 typy**: (A) **astroláb / planisférium** — stereografická projekce nebeské sféry do roviny (Praha, Stralsund, Bern, St. Omer); (B) **centrální kruhy s rafijemi** bez planisféria (Padova, Heilbronn); (C) **smíšený typ** s kruhy i planisfériem (Ulm); (D) **anglický typ** s otočnými kruhy a pevným ukazatelem (Exeter, Ottery). Italský úzus má vlastní variantu se 4 otočnými soustřednými kruhy (Brescia, Mantova, Cremona, Benátky, Clusone). **Pražský orloj** (typ A, projekce ze severního pólu) je vzorovým příkladem — astroláb dokumentovaný k roku 1410, kalendářní deska doplněná v 15. století (dnes Mánesova z 1865); konstrukce vykazuje **nepřesnosti** dobových řemeslníků (Skála 2013, Křížek/Šolc 2010).",
+      "definice": "Číselník, který kromě hodinového času zobrazuje **astronomické údaje** — polohu Slunce a Měsíce ve znameních zvěrokruhu, jejich východy a západy, délku světlého dne a noci, fáze Měsíce, případně horizont, soumrak a kalendárium. Liší se od běžného číselníku tím, že není primárně časovým ukazatelem, ale **kosmografickou konvencí** (zobrazení pozorovatelné oblohy), nikoli kosmologickým modelem (teorií struktury vesmíru) — geocentrické uspořádání orloje je technické řešení pozičního zobrazení, ne tvrzení o povaze kosmu (viz Olivová 2013). V cs literatuře je klíčovou monografií **Horský 1988** *Pražský orloj* (NTM); francouzskou tradici reprezentuje Ungerer 1931. **Šolc 2009** zjednodušuje Horského podrobnou klasifikaci na 4 typy: (A) **astroláb / planisférium** — stereografická projekce nebeské sféry do roviny (Praha, Stralsund, Bern, St. Omer); (B) **centrální kruhy s rafijemi** bez planisféria (Padova, Heilbronn); (C) **smíšený typ** (Ulm); (D) **anglický typ** s otočnými kruhy a pevným ukazatelem (Exeter, Ottery). Italský úzus má vlastní variantu se 4 otočnými soustřednými kruhy (Brescia, Mantova, Cremona, Benátky, Clusone). **Pražský orloj** (typ A, projekce ze severního pólu) je vzorovým příkladem — astroláb dokumentovaný k roku 1410, kalendářní deska doplněná v 15. století (dnes Mánesova z 1865). Restauratér **Skála 2013** dokumentuje konstrukční odchylky in situ.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -1303,12 +1303,19 @@
             "term": "Chronometer",
             "genus": "m",
             "zdroj": "Špatný 1882"
+          },
+          {
+            "term": "Halb-Chronometer",
+            "genus": "m"
           }
         ],
         "en": [
           {
             "term": "chronometer",
             "zdroj": "Saunier 1887"
+          },
+          {
+            "term": "half-chronometer"
           }
         ],
         "fr": [
@@ -1316,6 +1323,10 @@
             "term": "chronomètre",
             "genus": "m",
             "zdroj": "Gros 1913"
+          },
+          {
+            "term": "demi-chronomètre",
+            "genus": "m"
           }
         ]
       },
@@ -1977,6 +1988,55 @@
       "pribuzne": [
         "solsticium",
         "supra-orizontem"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "deklinace": {
+      "lemma": "deklinace",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "deklinace",
+          "status": "preferred",
+          "note": "Souřadnice v rovníkové soustavě."
+        },
+        {
+          "term": "deklinace Slunce",
+          "status": "preferred",
+          "note": "Specificky úhlová vzdálenost Slunce od rovníku — mění se během roku mezi obratníky (±23,5°)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Deklination",
+            "genus": "f",
+            "zdroj": "DE"
+          }
+        ],
+        "en": [
+          {
+            "term": "declination",
+            "zdroj": "EN"
+          }
+        ],
+        "fr": [
+          {
+            "term": "déclinaison",
+            "genus": "f",
+            "zdroj": "FR"
+          }
+        ]
+      },
+      "definice": "Úhlová vzdálenost nebeského tělesa (Slunce, hvězdy) od světového rovníku — jedna ze souřadnic rovníkové soustavy. Deklinace Slunce se v průběhu roku mění mezi obratníky a určuje výšku Slunce nad obzorem i délku dne. Na pražském orloji ji nese pohyblivá figurka na indexu Slunce (Šlajer ji nazývá „deklinace Slunce\").",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "zodiak",
+        "sphera"
       ],
       "isStub": true,
       "redirectTo": null
@@ -4115,6 +4175,10 @@
             "term": "Kaliber",
             "genus": "n",
             "zdroj": "Špatný 1882: Kaliber → ráž, kalibr"
+          },
+          {
+            "term": "Bagnolet-Kaliber",
+            "genus": "n"
           }
         ],
         "en": [
@@ -4123,11 +4187,18 @@
           },
           {
             "term": "calibre"
+          },
+          {
+            "term": "bagnolet"
           }
         ],
         "fr": [
           {
             "term": "calibre"
+          },
+          {
+            "term": "bagnolet",
+            "genus": "m"
           }
         ]
       },
@@ -5098,6 +5169,55 @@
       "isStub": false,
       "redirectTo": null
     },
+    "koule": {
+      "lemma": "koule (Slunce a Měsíce)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "koule",
+          "status": "preferred",
+          "note": "Cs termín pro kulový ukazatel Slunce / Měsíce na orloji."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Kugel",
+            "genus": "f",
+            "zdroj": "DE — koule"
+          }
+        ],
+        "en": [
+          {
+            "term": "ball",
+            "zdroj": "EN — koule"
+          },
+          {
+            "term": "sphere",
+            "zdroj": "EN — kulový ukazatel"
+          }
+        ],
+        "fr": [
+          {
+            "term": "boule",
+            "genus": "f",
+            "zdroj": "FR — koule"
+          }
+        ]
+      },
+      "definice": "Pozlacená koule Slunce, resp. Měsíce, sloužící na orloji jako ukazatel jejich pohybu po obloze. Koule Měsíce se navíc otáčí v lůžku a černobílým povrchem ukazuje fáze (nov, první čtvrt, úplněk, poslední čtvrt). Balbín/Šlajer ji latinsky nazývají globus.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "luozko",
+        "pukla",
+        "sphera"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
     "kralovska-hridel": {
       "lemma": "královská hřídel",
       "lang": "cs",
@@ -5176,12 +5296,33 @@
             "term": "Gang",
             "genus": "m",
             "zdroj": "Šumavský 1851: Gang → chod"
+          },
+          {
+            "term": "Fall",
+            "genus": "m"
+          },
+          {
+            "term": "Zylinder",
+            "genus": "m"
+          },
+          {
+            "term": "Grasshopper-Hemmung",
+            "genus": "f"
           }
         ],
         "en": [
           {
             "term": "escapement",
             "zdroj": "Saunier 1887, en, klíč `25YXVRCA`"
+          },
+          {
+            "term": "drop"
+          },
+          {
+            "term": "cylinder"
+          },
+          {
+            "term": "grasshopper"
           }
         ],
         "fr": [
@@ -5189,6 +5330,18 @@
             "term": "échappement",
             "genus": "m",
             "zdroj": "Gros 1913, fr, klíč `AQI736GP`"
+          },
+          {
+            "term": "chute",
+            "genus": "f"
+          },
+          {
+            "term": "cylindre",
+            "genus": "m"
+          },
+          {
+            "term": "grasshopper",
+            "genus": "m"
           }
         ]
       },
@@ -5885,10 +6038,14 @@
             "term": "support",
             "genus": "m",
             "zdroj": "FR — držák"
+          },
+          {
+            "term": "coussinet",
+            "genus": "m"
           }
         ]
       },
-      "definice": "Drobné lůžko / držák kotouče měsíce. V něm rotuje kulička měsíce, čímž se na pukle (terči uprostřed číselníku) ukazuje fáze měsíce.",
+      "definice": "Drobné lůžko / držák kotouče měsíce. V něm rotuje kulička měsíce, čímž se na pukle (terči uprostřed číselníku) ukazuje fáze měsíce. V hodinkové terminologii odpovídá moderní pojem **ložisko** (en. bearing) — drobné kruhové pouzdro, ve kterém se otáčí čep hřídele; v náramkových hodinkách často **safírový kámen** (jewel bearing).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -5896,7 +6053,7 @@
         "pravidlo-orloje",
         "hridel"
       ],
-      "isStub": true,
+      "isStub": false,
       "redirectTo": null
     },
     "majlit": {
@@ -6839,6 +6996,9 @@
           {
             "term": "arch",
             "zdroj": "EN — oblouk"
+          },
+          {
+            "term": "arc"
           }
         ],
         "fr": [
@@ -6854,7 +7014,7 @@
           }
         ]
       },
-      "definice": "Železný díl ve tvaru oblouku spojující dva pruty trojprutého kola; nese ryklík a drobné ložisko (kštudlici). U Staroměstského orloje vyrobený v rámci Táborského oprav 16. století.",
+      "definice": "Železný díl ve tvaru oblouku spojující dva pruty trojprutého kola; nese ryklík a drobné ložisko (kštudlici). U Staroměstského orloje vyrobený v rámci Táborského oprav 16. století. Anglický termín **arc** odkazuje primárně na geometrický oblouk (úhlovou míru kruhu); pro Táborského fyzickou komponentu je vhodnější **bow** nebo **brace** (vzpěra).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -6862,7 +7022,7 @@
         "kstudle",
         "rykl"
       ],
-      "isStub": true,
+      "isStub": false,
       "redirectTo": null
     },
     "odbijeni": {
@@ -7842,6 +8002,71 @@
       "isStub": false,
       "redirectTo": null
     },
+    "pinacidium": {
+      "lemma": "pinacidium (záměrná destička, dioptr)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "pinacidium",
+          "status": "archaic",
+          "note": "Latinský odborný termín (z řec. πινακίδιον „destička\"). U Šlajera 1681 v popisu lůžka Měsíce: provrtaný výstupek vyčnívající z reguly, jenž drží osu měsíčního diferenciálu.",
+          "doloženo": "Balbín (Šlajer) 1681"
+        },
+        {
+          "term": "záměrná destička",
+          "status": "preferred",
+          "note": "Moderní cs překlad — u astronomických přístrojů (astroláb, kvadrant) destička s otvorem či štěrbinou pro záměru."
+        },
+        {
+          "term": "dioptr",
+          "status": "preferred",
+          "note": "Běžnější moderní cs termín pro záměrné zařízení s otvorem; u pinakidia jde o provrtanou (perforovanou) variantu."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Absehe",
+            "genus": "f",
+            "zdroj": "DE — záměrné zařízení na pravítku/alhidádě"
+          },
+          {
+            "term": "Diopter",
+            "genus": "n",
+            "zdroj": "DE — dioptr, záměrná destička"
+          }
+        ],
+        "en": [
+          {
+            "term": "pinnule",
+            "zdroj": "EN — záměrná destička na alhidádě (přímý etymologický příbuzný)"
+          },
+          {
+            "term": "sight vane",
+            "zdroj": "EN — záměrné zařízení"
+          }
+        ],
+        "fr": [
+          {
+            "term": "pinnule",
+            "genus": "f",
+            "zdroj": "FR — záměrná destička (přímý etymologický příbuzný)"
+          }
+        ]
+      },
+      "definice": "Drobná destička či výstupek, uprostřed provrtaná, vyčnívající z pravítka (reguly). V astronomických přístrojích nese záměru. Ve Šlajerově popisu pražského orloje (1681) jde o provrtaný držák vyčnívající z reguly, do něhož je vsazena železná tyč nesoucí ozubený rotulus měsíčního diferenciálu — jím se v lůžku otáčí koule Měsíce a ukazují se fáze.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "pravidlo-orloje",
+        "luozko",
+        "rotule"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
     "pocetnik": {
       "lemma": "početník",
       "lang": "cs",
@@ -8395,6 +8620,55 @@
       "isStub": false,
       "redirectTo": null
     },
+    "primum-mobile": {
+      "lemma": "primum mobile",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "primum mobile",
+          "status": "archaic",
+          "note": "Latinský kosmologický termín; v orlojnictví přeneseně hnací kolo."
+        },
+        {
+          "term": "první hybatel",
+          "status": "preferred",
+          "note": "Český překlad."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Primum Mobile",
+            "genus": "n",
+            "zdroj": "DE"
+          }
+        ],
+        "en": [
+          {
+            "term": "primum mobile",
+            "zdroj": "EN — prime mover / first moved sphere"
+          }
+        ],
+        "fr": [
+          {
+            "term": "premier mobile",
+            "genus": "m",
+            "zdroj": "FR"
+          }
+        ]
+      },
+      "definice": "„První hybatel\" — v geocentrické kosmografii nejzazší (devátá/desátá) sféra, která udílí celé obloze každodenní „násilný\" pohyb od východu k západu. Přeneseně Šlajer tak označuje univerzální hnací kolo orloje, jež za 24 hodin proběhne 15× a strhává s sebou ostatní kola (motus raptus).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "sphera",
+        "zodiak"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
     "prut-orloje": {
       "lemma": "prut (rameno kola)",
       "lang": "cs",
@@ -8429,6 +8703,10 @@
             "term": "Radarm",
             "genus": "m",
             "zdroj": "DE — paprsek kola"
+          },
+          {
+            "term": "Arm",
+            "genus": "m"
           }
         ],
         "en": [
@@ -8439,6 +8717,9 @@
           {
             "term": "wheel arm",
             "zdroj": "EN popisný"
+          },
+          {
+            "term": "arm"
           }
         ],
         "fr": [
@@ -8451,10 +8732,14 @@
             "term": "bras de roue",
             "genus": "m",
             "zdroj": "FR popisný"
+          },
+          {
+            "term": "branche",
+            "genus": "f"
           }
         ]
       },
-      "definice": "Rameno / paprsek kola. U Táborského *kolo tréprutové* = kolo se třemi rameny (paprsky), na kterém sedí indikátory orloje.",
+      "definice": "Rameno / paprsek kola. U Táborského *kolo tréprutové* = kolo se třemi rameny (paprsky), na kterém sedí indikátory orloje. V mezinárodní terminologii odpovídá **spoke** (paprsek), případně **wheel arm**; latinsky **pertica** (Balbín/Šlajer 1681 — *rota tripertita*, kolo tréprutové). Anglické **arm** je obecnější (rameno nástroje — kružítka, ladičky).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -8462,7 +8747,7 @@
         "sphera",
         "krokove-kolo"
       ],
-      "isStub": true,
+      "isStub": false,
       "redirectTo": null
     },
     "prysek": {
@@ -8987,6 +9272,66 @@
         "bici-stroj"
       ],
       "isStub": false,
+      "redirectTo": null
+    },
+    "rotule": {
+      "lemma": "rotule (rotula, kolečko)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "rotule",
+          "status": "archaic",
+          "note": "Z lat. rotula „kolečko\" (zdrobnělina od rota „kolo\"). U Táborského 1570 a Šlajera 1681 označuje drobné ozubené kolečko ve stroji orloje (na rozdíl od velkých kol — rota).",
+          "doloženo": "Táborský 1570; Balbín (Šlajer) 1681"
+        },
+        {
+          "term": "kolečko",
+          "status": "preferred",
+          "note": "Moderní cs překlad — drobné (zpravidla ozubené) kolo soukolí."
+        },
+        {
+          "term": "rotulus",
+          "status": "archaic",
+          "note": "Mužský latinský tvar užitý Šlajerem („rotulus dentatus\" = ozubené kolečko)."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Rädchen",
+            "genus": "n",
+            "zdroj": "DE — kolečko (zdrobnělina od Rad)"
+          }
+        ],
+        "en": [
+          {
+            "term": "small wheel",
+            "zdroj": "EN — drobné kolo"
+          },
+          {
+            "term": "pinion-wheel",
+            "zdroj": "EN — ozubené kolečko v soukolí"
+          }
+        ],
+        "fr": [
+          {
+            "term": "rouelle",
+            "genus": "f",
+            "zdroj": "FR — kolečko (zdrobnělina od roue)"
+          }
+        ]
+      },
+      "definice": "Drobné (zpravidla ozubené) kolečko ve stroji orloje, na rozdíl od velkých kol (rota). Zvláštní případ — „rotule spirálovitě dělená\" v Táborského/Šlajerově popisu — není kolečko, nýbrž závitové ústrojí bez konce (šnek); viz heslo šnek.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "tryb",
+        "snek",
+        "pinacidium"
+      ],
+      "isStub": true,
       "redirectTo": null
     },
     "rubinovy-kamen": {
@@ -10690,15 +11035,33 @@
           "status": "admitted"
         }
       ],
-      "translations": {},
-      "definice": "Pohyblivé figurky / pohyblivá divadla na orlojích — postavičky, které se v daný okamžik objeví, otočí, kývnou. Táborský používá pohrdlivě (\"tatrmani a jiných aparátův bystře a nákladně, ale neužitečně udělaných\") pro orloje, které jsou pouhou show bez astronomické funkce.",
+      "translations": {
+        "de": [
+          {
+            "term": "Apparat",
+            "genus": "m"
+          }
+        ],
+        "en": [
+          {
+            "term": "apparatus"
+          }
+        ],
+        "fr": [
+          {
+            "term": "appareil",
+            "genus": "m"
+          }
+        ]
+      },
+      "definice": "Pohyblivé figurky / pohyblivá divadla na orlojích — postavičky, které se v daný okamžik objeví, otočí, kývnou. Táborský používá pohrdlivě (\"tatrmani a jiných aparátův bystře a nákladně, ale neužitečně udělaných\") pro orloje, které jsou pouhou show bez astronomické funkce. V anglické terminologii se pohyblivé figurky orloje zovou **jacks** (jednotlivé postavičky), **jaquemarts** (figurky bijící zvon) nebo obecně **automata** / **animated figures**. Berner FHS uvádí **apparatus** jako obecný pojem pro přístroj (analogie s českým „aparát\" u Táborského).",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
         "orloj",
         "umeni"
       ],
-      "isStub": true,
+      "isStub": false,
       "redirectTo": null
     },
     "tepati": {
@@ -11328,6 +11691,57 @@
       "isStub": false,
       "redirectTo": null
     },
+    "vekta": {
+      "lemma": "vekta (páka, vectis)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "páka",
+          "status": "preferred",
+          "note": "Moderní cs termín — tuhé rameno otočné kolem osy, jež přenáší nebo mění směr pohybu."
+        },
+        {
+          "term": "vekta",
+          "status": "archaic",
+          "note": "Počeštěné z lat. vectis „páka, sochor\". V Táborského/Šlajerově popisu pražského orloje rameno přenášející pohyb (např. zvedání táhla, ovládání bicího ústrojí).",
+          "doloženo": "Balbín (Šlajer) 1681"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Hebel",
+            "genus": "m",
+            "zdroj": "DE — páka (Špatný 1882)"
+          }
+        ],
+        "en": [
+          {
+            "term": "lever",
+            "zdroj": "EN — páka"
+          }
+        ],
+        "fr": [
+          {
+            "term": "levier",
+            "genus": "m",
+            "zdroj": "FR — páka"
+          }
+        ]
+      },
+      "definice": "Tuhé rameno otočné kolem pevné osy (opěrného bodu), jež přenáší sílu nebo mění směr a velikost pohybu. Ve stroji pražského orloje (Táborský 1570 / Šlajer 1681) páka přivádí pohyb od stroje k dalším ústrojím; zvláštní pákou s vlastním názvem je lermo (spouštěcí páka bicího ústrojí).",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "lermo",
+        "pravidlo-orloje",
+        "rykl"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
     "vetrnik": {
       "lemma": "větrník",
       "lang": "cs",
@@ -11468,6 +11882,10 @@
           {
             "term": "Anker",
             "genus": "m"
+          },
+          {
+            "term": "Gabel",
+            "genus": "f"
           }
         ],
         "en": [
@@ -11476,6 +11894,9 @@
           },
           {
             "term": "lever"
+          },
+          {
+            "term": "fork"
           }
         ],
         "fr": [
@@ -11486,10 +11907,14 @@
           {
             "term": "fourchette",
             "genus": "f"
+          },
+          {
+            "term": "fourche",
+            "genus": "f"
           }
         ]
       },
-      "definice": "**Středový převodový článek** v páčkovém (švýcarském) kroku náramkových a kapesních hodinek. Vidlice spojuje **[krokové kolo](/slovnik/krokove-kolo)** s **[setrvačkou](/slovnik/setrvacka)** — palety na jednom konci vidlice zachycují zuby krokového kola, zatímco druhý konec (= vlastní vidlice) komunikuje se safírovou tříhrannou paletkou na ose setrvačky. Tím přenáší **diskrétní impulsy** (jeden za půlperiodu kyvu) na oscilátor.",
+      "definice": "**Středový převodový článek** v páčkovém (švýcarském) kroku náramkových a kapesních hodinek. Vidlice spojuje **[krokové kolo](/slovnik/krokove-kolo)** s **[setrvačkou](/slovnik/setrvacka)** — palety na jednom konci vidlice zachycují zuby krokového kola, zatímco druhý konec (= vlastní vidlice) komunikuje se safírovou tříhrannou paletkou na ose setrvačky. Tím přenáší **diskrétní impulsy** (jeden za půlperiodu kyvu) na oscilátor. Anatomicky se na vidlici rozlišuje **vroubek** (notch / lever notch) — výřez, do kterého zapadá paletka setrvačky; **růžky** (horns) — chrání před přerušením kontaktu; a **strážní kolík** (dart / guard pin) — zabraňuje předčasnému uvolnění. Všechny tyto části nese **blok** (block) na konci ramene.",
       "vyznamy": null,
       "atestace": null,
       "pribuzne": [
@@ -11498,7 +11923,7 @@
         "paleta",
         "krokove-kolo"
       ],
-      "isStub": true,
+      "isStub": false,
       "redirectTo": null
     },
     "vlasek": {
@@ -11672,7 +12097,25 @@
           "status": "admitted"
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Stahl",
+            "genus": "m"
+          }
+        ],
+        "en": [
+          {
+            "term": "steel"
+          }
+        ],
+        "fr": [
+          {
+            "term": "acier",
+            "genus": "m"
+          }
+        ]
+      },
       "definice": "Staročeský pravopis slova *ocel* — s protetickým *v-* na začátku, typickým rysem 16. století. Táborský zdůrazňuje výhody nové oceli oproti zastaralému kalenému železu pro výrobu herštuků (ložisek) a tryblíků (pastorků).",
       "vyznamy": null,
       "atestace": null,
@@ -11680,7 +12123,7 @@
         "v-hertu-kalen",
         "herstuk"
       ],
-      "isStub": true,
+      "isStub": false,
       "redirectTo": null
     },
     "voditko": {
@@ -11841,7 +12284,25 @@
           "note": "Moderní cs forma od konce 18. století — ztráta protetického *v-*. V hodinářském kontextu typicky [hřídel](/slovnik/hridel)."
         }
       ],
-      "translations": {},
+      "translations": {
+        "de": [
+          {
+            "term": "Achse",
+            "genus": "f"
+          }
+        ],
+        "en": [
+          {
+            "term": "axis"
+          }
+        ],
+        "fr": [
+          {
+            "term": "axe",
+            "genus": "m"
+          }
+        ]
+      },
       "definice": "Staročeský pravopis slova *osa* s protetickým *v-* na začátku — charakteristický pravopisný rys češtiny 16. století (paralelně *vobruč → obruč*, *voceloví → oceloví*, *volovo → olovo*). **V moderní češtině se nepoužívá** — viz [hřídel](/slovnik/hridel).",
       "vyznamy": null,
       "atestace": null,
@@ -11985,12 +12446,19 @@
             "term": "Zahn",
             "genus": "m",
             "zdroj": "Berner, *Illustriertes Fachlexikon der Uhrmacherei*; Špatný 1882"
+          },
+          {
+            "term": "Kerbe",
+            "genus": "f"
           }
         ],
         "en": [
           {
             "term": "tooth",
             "zdroj": "Berner, *Illustrated Professional Dictionary of Horology*"
+          },
+          {
+            "term": "notch"
           }
         ],
         "fr": [
@@ -11998,6 +12466,10 @@
             "term": "dent",
             "genus": "f",
             "zdroj": "Berner, *Dictionnaire professionnel illustré de l'horlogerie*"
+          },
+          {
+            "term": "coche",
+            "genus": "f"
           }
         ]
       },
@@ -12732,6 +13204,66 @@
       "isStub": false,
       "redirectTo": null
     },
+    "zavora-orloje": {
+      "lemma": "závora orloje (Gesperre)",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "mechanika",
+      "varianty": [
+        {
+          "term": "závora",
+          "status": "preferred",
+          "note": "Cs termín pro západku držící natažený bicí stroj orloje."
+        },
+        {
+          "term": "Gesperre",
+          "status": "archaic",
+          "note": "Německý termín přejatý do staročeského orlojnického úzu (Táborský, Šlajer)."
+        },
+        {
+          "term": "západka",
+          "status": "preferred",
+          "note": "Synonymum."
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Gesperre",
+            "genus": "n",
+            "zdroj": "DE — uzamykací/spouštěcí ústrojí"
+          },
+          {
+            "term": "Sperrung",
+            "genus": "f",
+            "zdroj": "DE — zajištění"
+          }
+        ],
+        "en": [
+          {
+            "term": "locking detent",
+            "zdroj": "EN — spouštěcí/uzamykací západka"
+          }
+        ],
+        "fr": [
+          {
+            "term": "arrêt",
+            "genus": "m",
+            "zdroj": "FR — zarážka"
+          }
+        ]
+      },
+      "definice": "Západka (závora) držící natažený bicí stroj orloje v klidu; jakmile se v pravý čas odjistí (uvolní), stroj se rozběhne a hodiny odbijí. Šlajer i Táborský pro ni užívají německý termín Gesperre.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "rohatka",
+        "klin-zapadky",
+        "lermo"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
     "zdvizne-kolo": {
       "lemma": "zdvižné kolo",
       "lang": "cs",
@@ -12872,6 +13404,56 @@
       "pribuzne": [
         "zmotrchati",
         "majlit"
+      ],
+      "isStub": true,
+      "redirectTo": null
+    },
+    "zlate-cislo": {
+      "lemma": "zlaté číslo",
+      "lang": "cs",
+      "conceptId": null,
+      "kategorie": "astronomicke",
+      "varianty": [
+        {
+          "term": "zlaté číslo",
+          "status": "preferred",
+          "note": "Moderní cs termín; na orloji jeden z indikovaných kalendářních údajů."
+        },
+        {
+          "term": "zlatý počet",
+          "status": "archaic",
+          "note": "Starší cs tvar (Táborský 1570, Balbín 1681).",
+          "doloženo": "Táborský 1570"
+        }
+      ],
+      "translations": {
+        "de": [
+          {
+            "term": "Goldene Zahl",
+            "genus": "f",
+            "zdroj": "DE — zlaté číslo"
+          }
+        ],
+        "en": [
+          {
+            "term": "golden number",
+            "zdroj": "EN — zlaté číslo"
+          }
+        ],
+        "fr": [
+          {
+            "term": "nombre d’or",
+            "genus": "m",
+            "zdroj": "FR — zlaté číslo"
+          }
+        ]
+      },
+      "definice": "Pořadí roku v 19letém lunárním (metonském) cyklu, číslo 1–19. Slouží jako klíč k výpočtu novoluní, a tím i pohyblivých svátků — především data Velikonoc. Patří k tradičním kalendářním (komputistickým) údajům zobrazovaným na astronomických orlojích.",
+      "vyznamy": null,
+      "atestace": null,
+      "pribuzne": [
+        "claves-paschae",
+        "kalendarium"
       ],
       "isStub": true,
       "redirectTo": null

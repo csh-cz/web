@@ -653,6 +653,22 @@
         "skala-realizace-svaty-vit"
       ]
     },
+    "benjamin-slajer": {
+      "hodinari": [
+        "daniel-skrivan",
+        "vaclav-tobias"
+      ]
+    },
+    "vaclav-tobias": {
+      "hodinari": [
+        "daniel-skrivan"
+      ]
+    },
+    "daniel-skrivan": {
+      "hodinari": [
+        "vaclav-tobias"
+      ]
+    },
     "romuald-bozek": {
       "hodinari": [
         "frantisek-bozek"
@@ -1453,6 +1469,11 @@
         "dondi"
       ]
     },
+    "balbin-1681-admirandum-horologium": {
+      "hodinari": [
+        "benjamin-slajer"
+      ]
+    },
     "podebrady2": {
       "hodinari": [
         "petr-skala"
@@ -2184,12 +2205,15 @@
       "slovnik": [
         "astrolab",
         "astronomicke-soukoli",
+        "deklinace",
         "kalendarium",
         "klapacek",
+        "koule",
         "linea-poledni",
         "okolek",
         "orloj",
         "pravidlo-orloje",
+        "primum-mobile",
         "prut-orloje",
         "pukla",
         "puska-orloje",
@@ -2203,11 +2227,13 @@
         "astrolab",
         "astronomicke-soukoli",
         "coniunctio-oppositio",
+        "deklinace",
         "grad-zodiakalni",
         "kalendarium",
         "linea-aspectus",
         "motus-naturalis",
         "orloj",
+        "primum-mobile",
         "pukla",
         "sphera",
         "strych-zodiakalni",
@@ -2269,7 +2295,8 @@
     "kalendarium": {
       "slovnik": [
         "astronomicke-soukoli",
-        "orloj"
+        "orloj",
+        "zlate-cislo"
       ]
     },
     "kralovska-hridel": {
@@ -2455,7 +2482,8 @@
       "slovnik": [
         "bici-stroj",
         "klin-zapadky",
-        "palec"
+        "palec",
+        "zavora-orloje"
       ]
     },
     "palec": {
@@ -2894,6 +2922,8 @@
     "luozko": {
       "slovnik": [
         "hridel",
+        "koule",
+        "pinacidium",
         "vyhloditi"
       ]
     },
@@ -2913,8 +2943,10 @@
       "slovnik": [
         "index-orloje",
         "luozko",
+        "pinacidium",
         "ruka-orloje",
-        "sphera"
+        "sphera",
+        "vekta"
       ]
     },
     "declinatio-solis": {
@@ -2997,7 +3029,8 @@
         "klinek-orloje",
         "nytovani",
         "palec",
-        "rohatka"
+        "rohatka",
+        "zavora-orloje"
       ]
     },
     "tryb": {
@@ -3005,6 +3038,7 @@
         "klustice",
         "pastorek",
         "prysek",
+        "rotule",
         "stegrad"
       ]
     },
@@ -3040,6 +3074,13 @@
         "leonharduv-krok",
         "rieflerov-krok",
         "robertuv-krok"
+      ]
+    },
+    "pukla": {
+      "slovnik": [
+        "koule",
+        "luozko",
+        "sphera"
       ]
     },
     "centralni-prevodovka": {
@@ -3089,6 +3130,7 @@
         "lermo",
         "oblouk-orloje",
         "palice-orloje",
+        "vekta",
         "worff",
         "zamek-orloje"
       ]
@@ -3103,12 +3145,6 @@
     "coniunctio-oppositio": {
       "slovnik": [
         "linea-aspectus"
-      ]
-    },
-    "pukla": {
-      "slovnik": [
-        "luozko",
-        "sphera"
       ]
     },
     "coufati": {
@@ -3252,7 +3288,13 @@
     "snek": {
       "slovnik": [
         "pero",
-        "perovnik"
+        "perovnik",
+        "rotule"
+      ]
+    },
+    "rotule": {
+      "slovnik": [
+        "pinacidium"
       ]
     },
     "rynk": {
@@ -3294,6 +3336,11 @@
         "prut-orloje"
       ]
     },
+    "pinacidium": {
+      "slovnik": [
+        "rotule"
+      ]
+    },
     "astronomicke-soukoli": {
       "slovnik": [
         "ruckove-soukoli",
@@ -3303,7 +3350,9 @@
     "lermo": {
       "slovnik": [
         "rykl",
-        "worff"
+        "vekta",
+        "worff",
+        "zavora-orloje"
       ]
     },
     "ponebi": {
@@ -3413,6 +3462,11 @@
     "zmotrchati": {
       "slovnik": [
         "zfalsovati"
+      ]
+    },
+    "claves-paschae": {
+      "slovnik": [
+        "zlate-cislo"
       ]
     },
     "struna-orloje": {
