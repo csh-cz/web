@@ -48,23 +48,23 @@ Wilsonův vynález byl jedním z prvních, který kombinoval: klasické mechanic
 
 Tyto přístroje představují počátky průmyslové evidence pracovní doby a zároveň vývojový krok mezi k moderním docházkovým systémů. Každý dochovaný exemplář je dnes vzácným muzeálním předmětem, který dokumentuje přechod od řemeslné mechaniky k automatizaci – a zároveň vznik pozdějšího impéria IBM.
 
-![Historická hodnota](/img/Timometer/f/foto_0001.jpg)
+![Bostonský docházkový přístroj Timometer (John C. Wilson, US patenty 1899 a 1903) — fotografie č. 1 z aukčního inzerátu](/img/Timometer/f/foto_0001.jpg)
 
-![Historická hodnota](/img/Timometer/f/foto_0010.jpg)
+![Bostonský docházkový přístroj Timometer (John C. Wilson, US patenty 1899 a 1903) — fotografie č. 10 z aukčního inzerátu](/img/Timometer/f/foto_0010.jpg)
 
-![Historická hodnota](/img/Timometer/f/foto_0002.jpg)[
-](/img/Timometer/f/foto_0010.jpg)![Historická hodnota](/img/Timometer/f/foto_0007.jpg)
+![Bostonský docházkový přístroj Timometer (John C. Wilson, US patenty 1899 a 1903) — fotografie č. 2 z aukčního inzerátu](/img/Timometer/f/foto_0002.jpg)[
+](/img/Timometer/f/foto_0010.jpg)![Bostonský docházkový přístroj Timometer (John C. Wilson, US patenty 1899 a 1903) — fotografie č. 7 z aukčního inzerátu](/img/Timometer/f/foto_0007.jpg)
 
-![Historická hodnota](/img/Timometer/f/foto_0008.jpg)
+![Bostonský docházkový přístroj Timometer (John C. Wilson, US patenty 1899 a 1903) — fotografie č. 8 z aukčního inzerátu](/img/Timometer/f/foto_0008.jpg)
 
-![Historická hodnota](/img/Timometer/f/foto_0009.jpg)
+![Bostonský docházkový přístroj Timometer (John C. Wilson, US patenty 1899 a 1903) — fotografie č. 9 z aukčního inzerátu](/img/Timometer/f/foto_0009.jpg)
 
-![Historická hodnota](/img/Timometer/f/foto_0003.jpg)
+![Bostonský docházkový přístroj Timometer (John C. Wilson, US patenty 1899 a 1903) — fotografie č. 3 z aukčního inzerátu](/img/Timometer/f/foto_0003.jpg)
 
-![Historická hodnota](/img/Timometer/f/foto_0004.jpg)
+![Bostonský docházkový přístroj Timometer (John C. Wilson, US patenty 1899 a 1903) — fotografie č. 4 z aukčního inzerátu](/img/Timometer/f/foto_0004.jpg)
 
-![Historická hodnota](/img/Timometer/f/foto_0005.jpg)
+![Bostonský docházkový přístroj Timometer (John C. Wilson, US patenty 1899 a 1903) — fotografie č. 5 z aukčního inzerátu](/img/Timometer/f/foto_0005.jpg)
 
-![Historická hodnota](/img/Timometer/f/foto_0006.jpg)
+![Bostonský docházkový přístroj Timometer (John C. Wilson, US patenty 1899 a 1903) — fotografie č. 6 z aukčního inzerátu](/img/Timometer/f/foto_0006.jpg)
 
 Ing. [Petr Král](/hodinari/petr-kral)

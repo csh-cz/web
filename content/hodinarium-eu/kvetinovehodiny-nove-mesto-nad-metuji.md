@@ -36,43 +36,43 @@ Nyní ještě několik slov k hodinovému stroji. Jedná se o miniaturní elektr
 
 Vzhledem k celkovému opotřebení a tím pádem i vzrůstající poruchovosti hodinového mechanismu se v roce 2003 vedení města rozhodlo provést jeho rekonstrukci. Je vybudován nový přívod elektrické energie a původní zdroj časového signálu je nahrazen hlavními hodinami typ HN 84 P2 od firmy Elekon z Vyškova, které jsou umístěny přímo do kobky pod květinovými hodinami (Obr.10). V případě výpadku elektrické sítě, nebo při přetížení obvodu hlavních hodin jsou [minutové impulsy](/slovnik/impulsy) uloženy po dobu 50 hodin. Po odstranění závady se hodiny automaticky nastaví na přesný čas. Součástí hodin je přijímač řídícího radiosignálu, který na dlouhých vlnách s kmitočtem 77,5 kHz vysílá stanice DCF84 umístěná na vysílači v německém Mainflingenu, který leží asi 20 km jihovýchodně od Frankfurtu nad Mohanem. Časový údaj pro tento vysílač poskytují atomové hodiny z Fyzikálně-technického institutu v Braunschweigu. Díky tomu je chod květinových hodin v Novém Městě nad Metují absolutně přesný. Teoretická odchylka od přesného chodu činí pouhou 1 sekundu za tři tisíce let. O chod hodinového ústrojí a jeho údržbu se nyní stará pracovník městských Technických služeb pan Smrček.
 
-![Květinové hodiny v Novém Městě nad Metují](/img/NMnM/f/foto_0001.jpg)
+![Květinové hodiny v Novém Městě nad Metují — fotografie č. 1 z dokumentační galerie (10 snímků)](/img/NMnM/f/foto_0001.jpg)
 
 Cigaretové krabička, která sloužila jako předloha pro podobu hodin. foto Libor Hovorka
 
-![Květinové hodiny v Novém Městě nad Metují](/img/NMnM/f/foto_0002.jpg)
+![Květinové hodiny v Novém Městě nad Metují — fotografie č. 2 z dokumentační galerie (10 snímků)](/img/NMnM/f/foto_0002.jpg)
 
 Květinové hodiny - výřez výkresu.
 
-![Květinové hodiny v Novém Městě nad Metují](/img/NMnM/f/foto_0003.jpg)
+![Květinové hodiny v Novém Městě nad Metují — fotografie č. 3 z dokumentační galerie (10 snímků)](/img/NMnM/f/foto_0003.jpg)
 
 Provedení hodin dle J. Šimůnka z počátku 60. let.
 
-![Květinové hodiny v Novém Městě nad Metují](/img/NMnM/f/foto_0004.jpg)
+![Květinové hodiny v Novém Městě nad Metují — fotografie č. 4 z dokumentační galerie (10 snímků)](/img/NMnM/f/foto_0004.jpg)
 
 PRIM hodiny 1970.
 
-![Květinové hodiny v Novém Městě nad Metují](/img/NMnM/f/foto_0005.jpg)
+![Květinové hodiny v Novém Městě nad Metují — fotografie č. 5 z dokumentační galerie (10 snímků)](/img/NMnM/f/foto_0005.jpg)
 
 Provedení hodin v 80. letech. foto Ladislav Zajebal
 
-![Květinové hodiny v Novém Městě nad Metují](/img/NMnM/f/foto_0006.jpg)
+![Květinové hodiny v Novém Městě nad Metují — fotografie č. 6 z dokumentační galerie (10 snímků)](/img/NMnM/f/foto_0006.jpg)
 
 Provedení hodin v roce 2015.
 
-![Květinové hodiny v Novém Městě nad Metují](/img/NMnM/f/foto_0007.jpg)
+![Květinové hodiny v Novém Městě nad Metují — fotografie č. 7 z dokumentační galerie (10 snímků)](/img/NMnM/f/foto_0007.jpg)
 
 Jarní provedení v roce 2016.
 
-![Květinové hodiny v Novém Městě nad Metují](/img/NMnM/f/foto_0008.jpg)
+![Květinové hodiny v Novém Městě nad Metují — fotografie č. 8 z dokumentační galerie (10 snímků)](/img/NMnM/f/foto_0008.jpg)
 
 Provedení z roku 2016.
 
-![Květinové hodiny v Novém Městě nad Metují](/img/NMnM/f/foto_0009.jpg)
+![Květinové hodiny v Novém Městě nad Metují — fotografie č. 9 z dokumentační galerie (10 snímků)](/img/NMnM/f/foto_0009.jpg)
 
 Pohon ruček květinových hodin.
 
-![Květinové hodiny v Novém Městě nad Metují](/img/NMnM/f/foto_0010.jpg)
+![Květinové hodiny v Novém Městě nad Metují — fotografie č. 10 z dokumentační galerie (10 snímků)](/img/NMnM/f/foto_0010.jpg)
 
 Zdroj času pro květinové hodiny. foto Libor Hovorka.
 
