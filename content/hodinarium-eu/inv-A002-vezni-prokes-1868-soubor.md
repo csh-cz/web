@@ -92,17 +92,17 @@ S hodinovým a zvonicím strojem byly do Hodinária zapůjčeny dva původní ci
 
 Nápis na cimbálech uvádí, že byly **ulity ve slévárně dcery Karla Bellmanna Anny v Praze 1868**. Šlo o jednu z mála zvonařek, takže od této autorky není mnoho památek. Restaurování převzalo Zvonařství Votruba.
 
-![Cimbály — nálezový stav](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_001.jpg)
+![cimbály věžních hodin Václava Prokeše 1868 — nálezový stav č. 1 z 6](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_001.jpg)
 
-![Cimbály — nálezový stav](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_002.jpg)
+![cimbály věžních hodin Václava Prokeše 1868 — nálezový stav č. 2 z 6](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_002.jpg)
 
-![Cimbály — nálezový stav](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_003.jpg)
+![cimbály věžních hodin Václava Prokeše 1868 — nálezový stav č. 3 z 6](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_003.jpg)
 
-![Cimbály — nálezový stav](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_004.jpg)
+![cimbály věžních hodin Václava Prokeše 1868 — nálezový stav č. 4 z 6](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_004.jpg)
 
-![Cimbály — nálezový stav](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_006.jpg)
+![cimbály věžních hodin Václava Prokeše 1868 — nálezový stav č. 5 z 6](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_006.jpg)
 
-![Cimbály — nálezový stav](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_007.jpg)
+![cimbály věžních hodin Václava Prokeše 1868 — nálezový stav č. 6 z 6](/img/vez/bychory/nalezovy_stav/f/bychory_cimbaly_007.jpg)
 
 ## Restaurování — od nálezu k expozici
 

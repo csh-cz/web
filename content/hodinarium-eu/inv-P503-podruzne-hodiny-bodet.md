@@ -46,12 +46,12 @@ Po připojení napájení hodiny zaujmou klidovou polohu (12:00, 4:00 nebo 8:00)
 
 Technické řešení celé sítě jednotného času v expozici (NTP server na bázi MikroTiku, GPS-NTP server i demonstrační monitor) popisuje článek [Instalované NTP servery](/konstrukce/decin-ntp).
 
-![Hodiny Bodet v expozici](/img/H715_BODET/foto_0001.jpg)
+![podružné hodiny Bodet Profil 930 NTP v expozici Hodinária — pohled č. 1 z 4](/img/H715_BODET/foto_0001.jpg)
 
-![Hodiny Bodet v expozici](/img/H715_BODET/foto_0002.jpg)
+![podružné hodiny Bodet Profil 930 NTP v expozici Hodinária — pohled č. 2 z 4](/img/H715_BODET/foto_0002.jpg)
 
-![Hodiny Bodet v expozici](/img/H715_BODET/foto_0003.jpg)
+![podružné hodiny Bodet Profil 930 NTP v expozici Hodinária — pohled č. 3 z 4](/img/H715_BODET/foto_0003.jpg)
 
-![Hodiny Bodet v expozici](/img/H715_BODET/foto_0004.jpg)
+![podružné hodiny Bodet Profil 930 NTP v expozici Hodinária — pohled č. 4 z 4](/img/H715_BODET/foto_0004.jpg)
 
 ![Schéma zapojení podružných hodin Bodet](/img/H715_BODET/schema1.jpg)

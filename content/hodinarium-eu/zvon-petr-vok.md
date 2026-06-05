@@ -123,17 +123,17 @@ poslední zbytky zvonoviny pro další použití
 
 Oba nové zvony byly ozdobeny a vystaveny na nádvoří hradu. Následně byly za účasti spolků v krojovaném průvodu přivezeny kočárem před městskou věž. Budily značný zájem fotografů i diváků. Fotografové se sice vehementně snažili ostatním divákům prohlídku slavnostního svěcení znemožnit, ale zcela se jim to nepovedlo. Diváci mohli nerušeně sledovat až vytahování zvonů na věž. Zvon byl tažen ručně přes kladku na ochozu pomocí původního věžního rumpálu a byl stabilizován dvojicí lan. Nejkritičtější okamžik, zachycení zvonu a vtažení do okna, byl překonán a oba zvony byly zavěšeny ve zvonici. Večer se všechny, včetně opraveného zvonu Petr Pavel, rozezněly.
 
-![Soběslavské slavnosti zvonů 22.9. – vysvěcení zvonu Petr Vok a jeho instalace do městské věže](/img/vez/zvony/petrvok/sveceni/f/foto_0001.jpg)
+![Soběslavské slavnosti zvonů 22. 9. 2012 — vysvěcení zvonu Petr Vok a instalace do městské věže, foto č. 1 z 12](/img/vez/zvony/petrvok/sveceni/f/foto_0001.jpg)
 
-![Soběslavské slavnosti zvonů 22.9. – vysvěcení zvonu Petr Vok a jeho instalace do městské věže](/img/vez/zvony/petrvok/sveceni/f/foto_0002.jpg)![Soběslavské slavnosti zvonů 22.9. – vysvěcení zvonu Petr Vok a jeho instalace do městské věže](/img/vez/zvony/petrvok/sveceni/f/foto_0003.jpg)
+![Soběslavské slavnosti zvonů 22. 9. 2012 — vysvěcení zvonu Petr Vok a instalace do městské věže, foto č. 2 z 12](/img/vez/zvony/petrvok/sveceni/f/foto_0002.jpg)![Soběslavské slavnosti zvonů 22. 9. 2012 — vysvěcení zvonu Petr Vok a instalace do městské věže, foto č. 3 z 12](/img/vez/zvony/petrvok/sveceni/f/foto_0003.jpg)
 
-![Soběslavské slavnosti zvonů 22.9. – vysvěcení zvonu Petr Vok a jeho instalace do městské věže](/img/vez/zvony/petrvok/sveceni/f/foto_0004.jpg)![Soběslavské slavnosti zvonů 22.9. – vysvěcení zvonu Petr Vok a jeho instalace do městské věže](/img/vez/zvony/petrvok/sveceni/f/foto_0005.jpg)
+![Soběslavské slavnosti zvonů 22. 9. 2012 — vysvěcení zvonu Petr Vok a instalace do městské věže, foto č. 4 z 12](/img/vez/zvony/petrvok/sveceni/f/foto_0004.jpg)![Soběslavské slavnosti zvonů 22. 9. 2012 — vysvěcení zvonu Petr Vok a instalace do městské věže, foto č. 5 z 12](/img/vez/zvony/petrvok/sveceni/f/foto_0005.jpg)
 
-![Soběslavské slavnosti zvonů 22.9. – vysvěcení zvonu Petr Vok a jeho instalace do městské věže](/img/vez/zvony/petrvok/sveceni/f/foto_0006.jpg)![Soběslavské slavnosti zvonů 22.9. – vysvěcení zvonu Petr Vok a jeho instalace do městské věže](/img/vez/zvony/petrvok/sveceni/f/foto_0007.jpg)
+![Soběslavské slavnosti zvonů 22. 9. 2012 — vysvěcení zvonu Petr Vok a instalace do městské věže, foto č. 6 z 12](/img/vez/zvony/petrvok/sveceni/f/foto_0006.jpg)![Soběslavské slavnosti zvonů 22. 9. 2012 — vysvěcení zvonu Petr Vok a instalace do městské věže, foto č. 7 z 12](/img/vez/zvony/petrvok/sveceni/f/foto_0007.jpg)
 
-![Soběslavské slavnosti zvonů 22.9. – vysvěcení zvonu Petr Vok a jeho instalace do městské věže](/img/vez/zvony/petrvok/sveceni/f/foto_0008.jpg)![Soběslavské slavnosti zvonů 22.9. – vysvěcení zvonu Petr Vok a jeho instalace do městské věže](/img/vez/zvony/petrvok/sveceni/f/foto_0009.jpg)
+![Soběslavské slavnosti zvonů 22. 9. 2012 — vysvěcení zvonu Petr Vok a instalace do městské věže, foto č. 8 z 12](/img/vez/zvony/petrvok/sveceni/f/foto_0008.jpg)![Soběslavské slavnosti zvonů 22. 9. 2012 — vysvěcení zvonu Petr Vok a instalace do městské věže, foto č. 9 z 12](/img/vez/zvony/petrvok/sveceni/f/foto_0009.jpg)
 
-![Soběslavské slavnosti zvonů 22.9. – vysvěcení zvonu Petr Vok a jeho instalace do městské věže](/img/vez/zvony/petrvok/sveceni/f/foto_0010.jpg)![Soběslavské slavnosti zvonů 22.9. – vysvěcení zvonu Petr Vok a jeho instalace do městské věže](/img/vez/zvony/petrvok/sveceni/f/foto_0011.jpg)
+![Soběslavské slavnosti zvonů 22. 9. 2012 — vysvěcení zvonu Petr Vok a instalace do městské věže, foto č. 10 z 12](/img/vez/zvony/petrvok/sveceni/f/foto_0010.jpg)![Soběslavské slavnosti zvonů 22. 9. 2012 — vysvěcení zvonu Petr Vok a instalace do městské věže, foto č. 11 z 12](/img/vez/zvony/petrvok/sveceni/f/foto_0011.jpg)
 
-![Soběslavské slavnosti zvonů 22.9. – vysvěcení zvonu Petr Vok a jeho instalace do městské věže](/img/vez/zvony/petrvok/sveceni/f/foto_0012.jpg)
+![Soběslavské slavnosti zvonů 22. 9. 2012 — vysvěcení zvonu Petr Vok a instalace do městské věže, foto č. 12 z 12](/img/vez/zvony/petrvok/sveceni/f/foto_0012.jpg)
 

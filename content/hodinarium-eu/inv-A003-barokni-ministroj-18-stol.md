@@ -57,13 +57,13 @@ Stroj byl stavěn nejméně ve dvou etapách a následně opravován. První eta
 
 Kola jsou železná, s výjimkou nepůvodního mosazného krokového kola a mezikola čtvrťového bití. Na obou bicích strojích jsou dodatečně namontovány novodobé mosazné [větrníky](/slovnik/vetrnik). Pastorek bití celých hodin je vyměněn, zuby zejména pastorků jsou značně opotřebovány. Bicí páky chybějí, nezachovalo se ani [kyvadlo](/slovnik/kyvadlo). Podle počtu zubů jicího stroje lze odhadovat, že kyvadlo bylo cca 90 cm dlouhé. V nálezovém stavu byl stroj zablokován nesprávně vloženou spouštěcí pákou čtvrťového bití.
 
-![Nálezový stav](/img/vez/ZlateHory/f/foto_0007.jpg)
+![barokní ministroj 18. století — nálezový stav č. 1 z 4](/img/vez/ZlateHory/f/foto_0007.jpg)
 
-![Nálezový stav](/img/vez/ZlateHory/f/foto_0002.jpg)
+![barokní ministroj 18. století — nálezový stav č. 2 z 4](/img/vez/ZlateHory/f/foto_0002.jpg)
 
-![Nálezový stav](/img/vez/ZlateHory/f/foto_0003.jpg)
+![barokní ministroj 18. století — nálezový stav č. 3 z 4](/img/vez/ZlateHory/f/foto_0003.jpg)
 
-![Nálezový stav](/img/vez/ZlateHory/f/foto_0005.jpg)
+![barokní ministroj 18. století — nálezový stav č. 4 z 4](/img/vez/ZlateHory/f/foto_0005.jpg)
 
 ## Historie hodin
 
