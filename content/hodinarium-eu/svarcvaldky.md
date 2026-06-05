@@ -30,8 +30,8 @@ references:
   - title: "Black-forest-clock.de"
     url: "http://www.black-forest-clock.de/"
     type: odkaz
-  - title: "Heimat- und Uhrenmuseum Schwenningen"
-    url: "http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html"
+  - title: "Uhrenindustriemuseum Villingen-Schwenningen"
+    url: "https://www.uhrenindustriemuseum.de/startseite"
     type: odkaz
   - title: "Klostermuseum St. Märgen — Die Anfänge der Schwarzwalduhr"
     url: "https://www.kloster-museum.de/"

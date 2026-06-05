@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-31T07:44:32.930Z",
-  "deadCount": 19,
+  "generatedAt": "2026-06-05T10:13:11.274Z",
+  "deadCount": 9,
   "withWaybackCount": 0,
   "byFile": {
-    "content/hodinarium-eu/decin-ntp.md": [
+    "content/hodinarium-eu/laplace.md": [
       {
-        "url": "http://gnssmissionplanning.com/App/Skyplot",
-        "status": 404,
-        "context": " uváděné technické parametry [![družice 8.6.2020](/img/elektrika/NTP/druzice.png)](http://gnssmissionplanning.com/App/Skyplot) - Time synchronization accu",
+        "url": "https://www.entsoe.eu/news/2018/03/06/press-release-continuing-frequency-deviation-in-the-continental-european-power-system-originating-in-serbia-kosovo-political-solution-urgently-needed-in-addition-to-technical/",
+        "status": 502,
+        "context": "iDNES.cz. [cit. 2026-04-28] - [Continuing frequency deviation in the Continental European Power System originating in Serbia/Kosovo: Political solution urgently needed in addition to technical.](https://www.entsoe.eu/news/2018/03/06/press-release-continuing-frequency-deviation-in-the-continental-european-power-system-originating-in-serbia-kosovo-political-solution-urgently-needed-in-addition-to-technical/) — entsoe.eu. [cit. 2026-04-2",
         "field": "body:link",
         "wayback": null
       }
@@ -18,15 +18,6 @@
         "status": 404,
         "context": "https://radioeng.cz/poster.htm",
         "field": "fm:originalUrl",
-        "wayback": null
-      }
-    ],
-    "content/hodinarium-eu/muzeum-beyer-zurich.md": [
-      {
-        "url": "https://www.beyer-ch.com/de/uhrenmuseum-beyer-zurich/",
-        "status": 404,
-        "context": "https://www.beyer-ch.com/de/uhrenmuseum-beyer-zurich/",
-        "field": "fm:references[0]:url",
         "wayback": null
       }
     ],
@@ -48,31 +39,6 @@
         "wayback": null
       }
     ],
-    "content/hodinarium-eu/prazsky-orloj-ciferniky-2018.md": [
-      {
-        "url": "http://www.veznihodiny.cz/staromestskaradnice.htm",
-        "status": 404,
-        "context": "ala)** z **13. března 2018** ([Hodinové ciferníky věže Staroměstské radnice](http://www.veznihodiny.cz/staromestskaradnice.htm)) dokumentuje **boční hodinov",
-        "field": "body:link",
-        "wayback": null
-      },
-      {
-        "url": "http://www.veznihodiny.cz/staromestskaradnice.htm",
-        "status": 404,
-        "context": "kopis (PDF, 6 stran), atelier [veznihodiny.cz](http://www.veznihodiny.cz/staromestskaradnice.htm), archiv Hodinária. Verze pro",
-        "field": "body:link",
-        "wayback": null
-      }
-    ],
-    "content/hodinarium-eu/svarcvaldky.md": [
-      {
-        "url": "http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html",
-        "status": 404,
-        "context": "http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html",
-        "field": "fm:references[6]:url",
-        "wayback": null
-      }
-    ],
     "content/hodinarium-eu/zidovske.mdx": [
       {
         "url": "https://www.mapy.cz/s/kcyO",
@@ -82,71 +48,12 @@
         "wayback": null
       }
     ],
-    "content/hodinari/franz-josef-zink.mdx": [
-      {
-        "url": "https://www.muzeumcb.cz/)**",
-        "status": 404,
-        "context": "Jeden ze **tří nejvýznamnějších českobudějovických hodinářů** přelomu\n19. a 20. ",
-        "field": "fm:shrnuti:embedded",
-        "wayback": null
-      }
-    ],
-    "content/hodinari/jiri-valenta.mdx": [
-      {
-        "url": "http://www.turmtechnik.com/zabreh/",
-        "status": 404,
-        "context": "Stub medailon — chybí životopisná data (datum narození, vyučení,\ndílna v Sudkově",
-        "field": "fm:editorNotes[0]:text:embedded",
-        "wayback": null
-      }
-    ],
-    "content/hodinari/vladimir-jelinek.mdx": [
-      {
-        "url": "http://www.turmtechnik.com/zabreh/",
-        "status": 404,
-        "context": "Stub medailon — chybí životopisná data (datum narození, profesní\nzázemí, vztah k",
-        "field": "fm:editorNotes[0]:text:embedded",
-        "wayback": null
-      }
-    ],
-    "content/hodinari/mannhardt.mdx": [
-      {
-        "url": "https://en.wikipedia.org/wiki/Alte_Pinakothek)**",
-        "status": 404,
-        "context": "Mnichovská hodinářská firma **Königlich Bayerische Hof-Thurmuhren-Fabrik\nJohann ",
-        "field": "fm:shrnuti:embedded",
-        "wayback": null
-      },
-      {
-        "url": "https://cs.wikipedia.org/wiki/Walhalla)**",
-        "status": 404,
-        "context": "Mnichovská hodinářská firma **Königlich Bayerische Hof-Thurmuhren-Fabrik\nJohann ",
-        "field": "fm:shrnuti:embedded",
-        "wayback": null
-      },
-      {
-        "url": "https://en.wikipedia.org/wiki/Rathaus-Glockenspiel)**",
-        "status": 404,
-        "context": "Mnichovská hodinářská firma **Königlich Bayerische Hof-Thurmuhren-Fabrik\nJohann ",
-        "field": "fm:shrnuti:embedded",
-        "wayback": null
-      }
-    ],
     "content/hodinari/robert-drozda.mdx": [
       {
         "url": "https://www.marianskatynice.cz/e_download.php?file=data/editor/124cs_4.pdf",
         "status": 400,
         "context": "https://www.marianskatynice.cz/e_download.php?file=data/editor/124cs_4.pdf",
         "field": "fm:references[7]:url",
-        "wayback": null
-      }
-    ],
-    "content/hodinari/vlasta-filler.mdx": [
-      {
-        "url": "http://vlastafiller.wz.cz/",
-        "status": 404,
-        "context": "Český programátor a popularizátor slunečních hodin, autor webu [vlastafiller.wz.",
-        "field": "fm:shrnuti:embedded",
         "wayback": null
       }
     ],
@@ -166,21 +73,12 @@
         "wayback": null
       }
     ],
-    "content/soupis-veznich-hodin/1887-v-soukr-sbirce-krecmer.mdx": [
-      {
-        "url": "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Kretschmer_V_Praha_1888/Kretschmer_V_Praha_1888.jpg",
-        "status": 404,
-        "context": "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Kretschmer_V_Pra",
-        "field": "fm:prameny[0]:url",
-        "wayback": null
-      }
-    ],
     "content/soupis-veznich-hodin/1898-paichl-krecmer.mdx": [
       {
         "url": "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Krecmer_11.jpg",
         "status": 404,
-        "context": "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Krecmer_11.jpg",
-        "field": "fm:prameny[0]:url",
+        "context": "Původní URL http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Krec",
+        "field": "fm:prameny[0]:note:embedded",
         "wayback": null
       }
     ],
@@ -188,8 +86,8 @@
       {
         "url": "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Beroun/Krecmer_Vaclav_Vinohrady_vezni_hodiny_0001.JPG",
         "status": 404,
-        "context": "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Beroun/Krecmer_V",
-        "field": "fm:prameny[0]:url",
+        "context": "Původní URL http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Bero",
+        "field": "fm:prameny[0]:note:embedded",
         "wayback": null
       }
     ]

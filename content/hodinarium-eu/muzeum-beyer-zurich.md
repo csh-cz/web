@@ -14,7 +14,7 @@ tags:
   - evropa
 references:
   - title: Uhrenmuseum Beyer Zürich
-    url: https://www.beyer-ch.com/de/uhrenmuseum-beyer-zurich/
+    url: https://www.beyer-ch.com/uhrenmuseum/
     type: odkaz
 tldr: Sbírka pod prodejnou nejstaršího švýcarského rodinného hodinářství (od 1760) na Bahnhofstrasse — replika de Dondiho astraria z 1364, věžní stroje, Breguet, automaty a hudební mechanismy.
 ---

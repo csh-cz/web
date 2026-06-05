@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T07:17:35.148Z",
+  "generatedAt": "2026-06-05T10:13:13.188Z",
   "summary": {
     "kartyTotal": 318,
     "kartyNoTyp": 244,
@@ -8,11 +8,11 @@
     "kartyNoUmisteni": 265,
     "kartyPlaceholderTitle": 0,
     "clankyNoTldr": 2,
-    "clankyShort": 59,
+    "clankyShort": 57,
     "clankyLegacyLinks": 1,
-    "hodinariTotal": 170,
+    "hodinariTotal": 173,
     "hodinariShort": 123,
-    "hodinariNoPortret": 150,
+    "hodinariNoPortret": 153,
     "soupisTotal": 443,
     "stubsKarty": 0,
     "stubsClanky": 0,
@@ -5386,13 +5386,6 @@
         "wordCount": 130
       },
       {
-        "slug": "decin-zamek",
-        "title": "Zámek Děčín",
-        "category": "muzea",
-        "editUrl": "/admin/#/collections/clanky/entries/decin-zamek",
-        "wordCount": 191
-      },
-      {
         "slug": "edgecombe",
         "title": "EVERETT EDGECOMBE ELECTRIC SYNCLOCK",
         "category": "konstrukce",
@@ -5411,7 +5404,7 @@
         "title": "Vyšívané květinové hodiny - hodiny jedna báseň ??",
         "category": "virtualni-muzeum",
         "editUrl": "/admin/#/collections/clanky/entries/gobelin",
-        "wordCount": 41
+        "wordCount": 169
       },
       {
         "slug": "kostky",
@@ -5454,13 +5447,6 @@
         "category": "konstrukce",
         "editUrl": "/admin/#/collections/clanky/entries/maregraf",
         "wordCount": 131
-      },
-      {
-        "slug": "merkur",
-        "title": "Hodiny skoro z MERKURU",
-        "category": "zajimavosti",
-        "editUrl": "/admin/#/collections/clanky/entries/merkur",
-        "wordCount": 148
       },
       {
         "slug": "motorky",
@@ -5761,7 +5747,7 @@
         "title": "Zapékané hodiny",
         "category": "virtualni-muzeum",
         "editUrl": "/admin/#/collections/clanky/entries/zapekane",
-        "wordCount": 86
+        "wordCount": 134
       },
       {
         "slug": "zvon-petr-pavel",
@@ -6562,6 +6548,11 @@
         "editUrl": "/admin/#/collections/hodinari/entries/bartolomej-stepanovsky"
       },
       {
+        "slug": "benjamin-slajer",
+        "title": "Benjamin Šlajer",
+        "editUrl": "/admin/#/collections/hodinari/entries/benjamin-slajer"
+      },
+      {
         "slug": "bernhard-zacharia",
         "title": "Bernhard Zacharia (Thurmuhren Fabrik, Leipzig)",
         "editUrl": "/admin/#/collections/hodinari/entries/bernhard-zacharia"
@@ -6605,6 +6596,11 @@
         "slug": "christiaan-huygens",
         "title": "Christiaan Huygens",
         "editUrl": "/admin/#/collections/hodinari/entries/christiaan-huygens"
+      },
+      {
+        "slug": "daniel-skrivan",
+        "title": "Daniel Skřivan",
+        "editUrl": "/admin/#/collections/hodinari/entries/daniel-skrivan"
       },
       {
         "slug": "datumatic",
@@ -7225,6 +7221,11 @@
         "slug": "vaclav-stastny-pouzdrar",
         "title": "Václav Šťastný (pouzdrář)",
         "editUrl": "/admin/#/collections/hodinari/entries/vaclav-stastny-pouzdrar"
+      },
+      {
+        "slug": "vaclav-tobias",
+        "title": "Václav Tobiáš",
+        "editUrl": "/admin/#/collections/hodinari/entries/vaclav-tobias"
       },
       {
         "slug": "vavrinec-frejlich",

@@ -1,27 +1,17 @@
 {
   "_meta": {
-    "generated": "2026-05-31",
-    "count": 19,
+    "generated": "2026-06-05",
+    "count": 9,
     "description": "Genuine dead (HTTP 4xx/5xx) externí odkazy z auditu scripts/audit-dead-links.mjs. Vyloučeno: vlastní domény, status-0 (unverified — viz docs/dead-links-audit-*.md), web.archive.org. Rehype-deadlink (body) + Article.astro (references) flagnou ⚠. Po opravě/odstranění odkazu re-run `pnpm deadlinks:audit`."
   },
   "urls": [
-    "http://gnssmissionplanning.com/App/Skyplot",
     "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Beroun/Krecmer_Vaclav_Vinohrady_vezni_hodiny_0001.JPG",
     "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Krecmer_11.jpg",
-    "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Kretschmer_V_Praha_1888/Kretschmer_V_Praha_1888.jpg",
-    "http://vlastafiller.wz.cz/",
-    "http://www.turmtechnik.com/zabreh/",
-    "http://www.veznihodiny.cz/staromestskaradnice.htm",
-    "http://www.villingen-schwenningen.de/UEber_das_Museum.697.0.html",
-    "https://cs.wikipedia.org/wiki/Walhalla)**",
-    "https://en.wikipedia.org/wiki/Alte_Pinakothek)**",
-    "https://en.wikipedia.org/wiki/Rathaus-Glockenspiel)**",
     "https://radioeng.cz/poster.htm",
-    "https://www.beyer-ch.com/de/uhrenmuseum-beyer-zurich/",
+    "https://www.entsoe.eu/news/2018/03/06/press-release-continuing-frequency-deviation-in-the-continental-european-power-system-originating-in-serbia-kosovo-political-solution-urgently-needed-in-addition-to-technical/",
     "https://www.mapy.cz/s/kcyO",
     "https://www.marianskatynice.cz/e_download.php?file=data/editor/124cs_4.pdf",
     "https://www.mesto-kadan.cz/orloj/d-1006",
-    "https://www.muzeumcb.cz/)**",
     "https://www.policenm.cz/e_download.php?file=data/editor/88cs_173.pdf",
     "https://www.weinviertel.at/a-pfarrkirche-st-vitus-pillichsdorf"
   ]
