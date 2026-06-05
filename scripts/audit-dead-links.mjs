@@ -198,6 +198,9 @@ function extractBodyUrls(body, file) {
     if (/]\s*\($/.test(before) || /<$/.test(before)) continue;
     // Counter-balance: strip trailing `)` JEN když je víc closes než opens.
     let url = m[1];
+    // Trim trailing markdown formatting (`**`, `*`, `_`, etc.) — typical
+    // for [Foo](URL)** patterns in MDX.
+    while (/[*_`]$/.test(url)) url = url.slice(0, -1);
     while (/\)$/.test(url)) {
       const opens = (url.match(/\(/g) || []).length;
       const closes = (url.match(/\)/g) || []).length;
@@ -218,6 +221,9 @@ function extractUrlsFromText(text) {
   let m;
   while ((m = re.exec(text)) !== null) {
     let url = m[0];
+    // Trim trailing markdown formatting (`**`, `*`, `_`, etc.) — typical for
+    // [Foo](URL)** patterns in MDX. Loop because there can be multiple markers.
+    while (/[*_`]$/.test(url)) url = url.slice(0, -1);
     // Trim sentence punctuation
     url = url.replace(/[.,;:!?]+$/, '');
     // Balance trailing parens
