@@ -1,14 +1,14 @@
 # Dead-link audit — 2026-06-05
 
-Vygenerováno skriptem `scripts/audit-dead-links.mjs` 2026-06-05T09:46:22Z.
+Vygenerováno skriptem `scripts/audit-dead-links.mjs` 2026-06-05T09:52:58Z.
 
 ## Souhrn
 
 - **Skenované adresáře:** 7 (content/hodinarium-eu, content/hodinari, content/kroky, content/slovnik, content/soupis-veznich-hodin, content/kronika, content/horologie-cz)
-- **Unikátních URL:** 733
-- **Funkční (2xx/3xx):** 688
-- **Mrtvé / nedostupné:** 25
-- **Z toho s Wayback Machine snapshotem:** 4
+- **Unikátních URL:** 729
+- **Funkční (2xx/3xx):** 673
+- **Mrtvé / nedostupné:** 28
+- **Z toho s Wayback Machine snapshotem:** 10
 
 ## Pro editora
 
@@ -20,16 +20,7 @@ Pro každý mrtvý odkaz níže vyberte:
 
 ---
 
-## Mrtvé odkazy (25 unikátních URL ve 24 souborech)
-
-### `content/hodinari/franz-josef-zink.mdx`
-
-- **HTTP 404** — https://www.muzeumcb.cz/)**
-  - Pole: `fm:shrnuti:embedded`
-  - Kontext: …Jeden ze **tří nejvýznamnějších českobudějovických hodinářů** přelomu
-19. a 20. …
-  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
+## Mrtvé odkazy (28 unikátních URL ve 26 souborech)
 
 ### `content/hodinari/jiri-valenta.mdx`
 
@@ -37,29 +28,6 @@ Pro každý mrtvý odkaz níže vyberte:
   - Pole: `fm:editorNotes[0]:text:embedded`
   - Kontext: …Stub medailon — chybí životopisná data (datum narození, vyučení,
 dílna v Sudkově…
-  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
-### `content/hodinari/mannhardt.mdx`
-
-- **HTTP 404** — https://en.wikipedia.org/wiki/Alte_Pinakothek)**
-  - Pole: `fm:shrnuti:embedded`
-  - Kontext: …Mnichovská hodinářská firma **Königlich Bayerische Hof-Thurmuhren-Fabrik
-Johann …
-  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
-- **HTTP 404** — https://cs.wikipedia.org/wiki/Walhalla)**
-  - Pole: `fm:shrnuti:embedded`
-  - Kontext: …Mnichovská hodinářská firma **Königlich Bayerische Hof-Thurmuhren-Fabrik
-Johann …
-  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
-  - Rozhodnutí: _REPLACE / REMOVE — doplň_
-
-- **HTTP 404** — https://en.wikipedia.org/wiki/Rathaus-Glockenspiel)**
-  - Pole: `fm:shrnuti:embedded`
-  - Kontext: …Mnichovská hodinářská firma **Königlich Bayerische Hof-Thurmuhren-Fabrik
-Johann …
   - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
@@ -88,12 +56,28 @@ zázemí, vztah k…
   - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20250408182125/https://www.vlastafiller.wz.cz/ (20250408182125)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
+### `content/hodinarium-eu/arduino-solari.md`
+
+- **HTTP 403** — https://dratek.cz/arduino/832-eses-krokovy-motor-driver-pro-jednodeskove-pocitace.html
+  - Pole: `body:link`
+  - Kontext: … složeným z ESP8266 ESP-12F a [krokového motoru 28BYJ-48 s řadičem](https://dratek.cz/arduino/832-eses-krokovy-motor-dri…
+  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20250711210346/https://dratek.cz/arduino/832-eses-krokovy-motor-driver-pro-jednodeskove-pocitace.html (20250711210346)
+  - Rozhodnutí: _REPLACE / REMOVE — doplň_
+
+### `content/hodinarium-eu/arduino.mdx`
+
+- **HTTP 403** — https://dratek.cz/arduino/877-arduino-h-mustek-pro-krokovy-motor-l298n-dual-h-most-dc.html
+  - Pole: `body:link`
+  - Kontext: … Root.cz. [cit. 2026-04-28] - [H můstek ... eshop](https://dratek.cz/arduino/877-arduino-h-mustek-pro-krokovy-motor-l298…
+  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
+  - Rozhodnutí: _REPLACE / REMOVE — doplň_
+
 ### `content/hodinarium-eu/astro2-ntp.md`
 
 - **HTTP 403** — https://thingpulse.com
   - Pole: `body:bare`
   - Kontext: … (c) 2018 by ThingPulse Ltd., https://thingpulse.com). Tato knihovna poskytuje i dal…
-  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
+  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20260215101033/https://thingpulse.com/ (20260215101033)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/cas-internet2.md`
@@ -109,7 +93,7 @@ zázemí, vztah k…
 - **HTTP 403** — http://www.sestka.com
   - Pole: `body:link`
   - Kontext: …je několik autorů. Pan Čejka ([sestka.com](http://www.sestka.com)) vytvořil *[Nouzové zastaven…
-  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
+  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20250927014458/https://www.sestka.com/ (20250927014458)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/decin-ntp.md`
@@ -117,7 +101,13 @@ zázemí, vztah k…
 - **HTTP 404** — http://gnssmissionplanning.com/App/Skyplot
   - Pole: `body:link`
   - Kontext: … uváděné technické parametry [![družice 8.6.2020](/img/elektrika/NTP/druzice.png)](http://gnssmissionplanning.com/App/Sk…
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20260112225302/http://gnssmissionplanning.com/App/Skyplot (20260112225302)
+  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
+  - Rozhodnutí: _REPLACE / REMOVE — doplň_
+
+- **HTTP 429** — https://forum.arduino.cc/t/ntp-time-server/192816
+  - Pole: `body:link`
+  - Kontext: …obal.com. [cit. 2026-04-28] - [NTP server na bázi Arduina](https://forum.arduino.cc/t/ntp-time-server/192816) — Arduino …
+  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20260119010907/https://forum.arduino.cc/t/ntp-time-server/192816/ (20260119010907)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/litinove-vezni-hodiny.md`
@@ -126,6 +116,14 @@ zázemí, vztah k…
   - Pole: `fm:originalUrl`
   - Kontext: …https://radioeng.cz/poster.htm…
   - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
+  - Rozhodnutí: _REPLACE / REMOVE — doplň_
+
+### `content/hodinarium-eu/muzeum-aschau-burgenland.md`
+
+- **HTTP 406** — https://www.uhrenstube-aschau.at/
+  - Pole: `fm:references[0]:url`
+  - Kontext: …https://www.uhrenstube-aschau.at/…
+  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20260214135546/https://www.uhrenstube-aschau.at/ (20260214135546)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/muzeum-beyer-zurich.md`
@@ -174,6 +172,20 @@ zázemí, vztah k…
   - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
+### `content/hodinarium-eu/rimskedigi2.md`
+
+- **HTTP 403** — https://dratek.cz/arduino/1457-esp8266-esp-12e-ota-wemos-d1-ch340-wifi.html
+  - Pole: `body:link`
+  - Kontext: …1.jpg) ## Použitý HW a SW - [ESP8266 ESP-12E OTA WeMos D1 CH340 WiFi](https://dratek.cz/arduino/1457-esp8266-esp-12e-ota…
+  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20250820205158/https://dratek.cz/arduino/1457-esp8266-esp-12e-ota-wemos-d1-ch340-wifi.html (20250820205158)
+  - Rozhodnutí: _REPLACE / REMOVE — doplň_
+
+- **HTTP 403** — https://dratek.cz/arduino/1570-iic-i2c-display-lcd-1602-16x2-znaku-lcd-modul-modry.html
+  - Pole: `body:link`
+  - Kontext: …ssif založená na ESP-8266EX - [IIC I2C Display LCD 1602 16X2 Znaků LCD](https://dratek.cz/arduino/1570-iic-i2c-display-l…
+  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20250916221237/https://dratek.cz/arduino/1570-iic-i2c-display-lcd-1602-16x2-znaku-lcd-modul-modry.html (20250916221237)
+  - Rozhodnutí: _REPLACE / REMOVE — doplň_
+
 ### `content/hodinarium-eu/sestka.md`
 
 - **HTTP 403** — http://www.sestka.com/
@@ -195,7 +207,13 @@ zázemí, vztah k…
 - **HTTP 403** — http://www.mojeurlopy.pl/gdansk/atrakcje-turystyczne/1906
   - Pole: `body:link`
   - Kontext: …prezentaci. Nalezené odkazy: [www.mojeurlopy.pl/gdansk/atrakcje-turystyczne/1906](http://www.mojeurlopy.pl/gdansk/atrakc…
-  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20180927230843/http://www.mojeurlopy.pl:80/gdansk/atrakcje-turystyczne/1906 (20180927230843)
+  - ⚠ Žádný Wayback snapshot nenalezen — kandidát na REMOVE
+  - Rozhodnutí: _REPLACE / REMOVE — doplň_
+
+- **HTTP 406** — http://www.uhrenstube-aschau.at/
+  - Pole: `body:link`
+  - Kontext: …nika s dálkovým řízením. ### [Uhrenstube Aschau im Burgenland](http://www.uhrenstube-aschau.at/) Sbírka převážně věžních…
+  - 📦 **Wayback Machine snapshot:** http://web.archive.org/web/20260214135546/https://www.uhrenstube-aschau.at/ (20260214135546)
   - Rozhodnutí: _REPLACE / REMOVE — doplň_
 
 ### `content/hodinarium-eu/zidovske.mdx`
@@ -247,24 +265,32 @@ zázemí, vztah k…
 
 ---
 
-## Neověřené (status 0 — síť/timeout/blokace, 20)
+## Neověřené (status 0 — síť/timeout/blokace, 28)
 
 Tyto URL neodpověděly (network error / timeout / blokace bota). Často jsou
 **živé** — ověřit ručně v prohlížeči, NEoznačovat automaticky markerem.
 
 - http://saluspopulae.co.uk/synclock/content/IMG\_0083\_large.html _(fetch failed)_
+- http://www.aldebaran.cz/bulletin/2004_43_nah.html _(fetch failed)_
 - http://www.ens-lyon.fr/RELIE/Cadrans/ _(fetch failed)_
+- http://www.expozicecasu.cz/ _(fetch failed)_
 - http://www.freepatentsonline.com/6856303.html _(fetch failed)_
 - http://www.ikaros.cz/node/5382 _(fetch failed)_
+- http://www.mjakub.cz/?idc=1308 _(fetch failed)_
 - http://www.muzeum-teplice.cz/historicke-hodiny/ _(fetch failed)_
+- http://www.sbirkajara.cz/ _(fetch failed)_
+- http://www.technicalmuseum.cz/ _(fetch failed)_
+- http://www.trebino.it/Objects/Pagina.asp?ID=5&T=Museo%20orologi _(fetch failed)_
 - https://christies.com/en/lot/lot-4973414 _(timeout)_
 - https://klementinum.com/ _(fetch failed)_
 - https://microsemi.com/product-directory/embedded-clocks-frequency-references/5570-miniature-atomic-clock-mac-sa5x _(timeout)_
+- https://srebrnykruk.pl/do-pobrania/05-Zegarmistrzostwo-Wawrzyniec-Podwapin%CC%81ski.pdf _(fetch failed)_
 - https://web.archive.org/web/20130618212643/http://uv201.com:80/Clock_Pages/mystery_clocks.htm _(fetch failed)_
 - https://web.archive.org/web/20231003224950/http://www.nixieclocks.de/english/gallery/index.php _(fetch failed)_
 - https://web.archive.org/web/20250402055629/https://www.academia.edu/35888544/Orologi_pubblici_pneumatici_a_Parigi _(fetch failed)_
 - https://web.archive.org/web/20250612154618/https://www.astroama.com/ _(fetch failed)_
 - https://www.cdsh.cz/ _(fetch failed)_
+- https://www.daliborfarny.com/story/ _(fetch failed)_
 - https://www.fachkreis-turmuhren.de/ _(fetch failed)_
 - https://www.hodinarstvi-marek.cz/ _(fetch failed)_
 - https://www.hodinarstvi-marek.cz/cs/27-hodinove-stroje-jana-janaty-z-podebrad _(fetch failed)_
