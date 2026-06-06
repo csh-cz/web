@@ -25,7 +25,7 @@ Stále se hledají cesty jak levně obsáhnout co největší okruh uživatelů.
 
 Přijímače signálu DCF jsou stále levnější (nejlevnější prodejní cena nepřesahuje příliš 100.- Kč), a tak se postupně upouští od budování speciálních časových sítí v budovách.
 
-Typickým znakem hodin "řízených rádiem" je symbol vysílače a případný nápis "Radio Controlled Clock". *(Pozor, nezaměnit s Radio Clock- rádiobudíkem, tedy za rádio s vestavěným budíkem. )*
+Typickým znakem hodin "řízených rádiem" je symbol vysílače a případný nápis "Radio Controlled Clock". *(Pozor, nezaměnit s Radio Clock — rádiobudíkem, tedy s rádiem s vestavěným budíkem.)*
 
 Hodiny s DCF přijímačem se obvykle vyrábějí, zejména z cenových důvodů, jako digitální. ![DCF pendlovky — efektní „mávátko” bez vlivu na chod](/img/dcf_pendlovky.jpg) V muzeu kuriózních hodin ukážeme proto i několik analogových a kombinovaných budíků. Existují DCF nádražní hodiny i DCF pendlovky. Kyvadlo je zde ovšem spíše jakýmsi mávátkem bez vlivu na chod hodin. Nicméně je to docela efektní. Je celkem zajímavé pozorovat počáteční nastavení analogových hodin. „Pendlovky” se po vložení baterie nastaví na pozici 4, 8 nebo 12 hodin a vyčkávají cca 4 minuty na příjem rádiového signálu. ![DCF hodinky Eurochron — analogový vzhled, atomová přesnost](/img/dcf_naramkove2.jpg) Správný časový údaj se kontroluje 12× za den.
 

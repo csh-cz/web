@@ -19,7 +19,7 @@ Klíčové otázky dneška jsou aktuální a oblíbená témata různých oborů
 
 Nevím, jak vy, ale já klíče NIKDY nenacházím tam, kam je položím. Hledám tedy – kromě klíčů - i řešení, jak tuto zmizivost omezit – např. univerzální klíč. Vzhledem připomíná zbraň samuraje, která se hází po nepříteli. I když univerzální klíč po nikom neházím, stejně mizí. Snad to jen víc odpovídá dnešní dynamické době - dřív mizel pouze jeden klíč. S univerzálním klíčem docílíte toho, že za stejný čas, který je potřeba ke zmizení jednoho klíče, zmizí jich naráz několik. Dost pochybuji, že právě tahle úspora je žádoucí.
 
-Řešením u zvlášť divokých klíčů (např. u cestovních budíků) je, připoutat je řetězem ke stroji, aby jim přešla chuť na toulání. Je tedy patrné, že zatímco jinde je klíčová otázka pojem spíše abstraktní, u hodin je vskutku zásadní - klíčová, protože bez klíče to opravdu nejde. Konečné řešení této otázky však mizí v nedohlednu- jako klíče samotné.[![LOUIS HAINZ - přední pohled bez číselníku](/img/hainz/deska_stroj_n.jpg)](/img/hainz/deska_stroj.jpg)
+Řešením u zvlášť divokých klíčů (např. u cestovních budíků) je, připoutat je řetězem ke stroji, aby jim přešla chuť na toulání. Je tedy patrné, že zatímco jinde je klíčová otázka pojem spíše abstraktní, u hodin je vskutku zásadní - klíčová, protože bez klíče to opravdu nejde. Konečné řešení této otázky však mizí v nedohlednu — jako klíče samotné.[![LOUIS HAINZ - přední pohled bez číselníku](/img/hainz/deska_stroj_n.jpg)](/img/hainz/deska_stroj.jpg)
 
 **Proto asi jsou
 hodiny LOUIS HAINZ
