@@ -1,5 +1,6 @@
 ---
 title: "Květinové hodiny v Poděbradech - Ohlasy v tisku"
+author: "Petr Král"
 slug: "podebrady1b"
 category: "virtualni-muzeum"
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "Elektrické hodiny ATO"
+author: "Petr Král"
 slug: ato
 category: "konstrukce"
 tags:

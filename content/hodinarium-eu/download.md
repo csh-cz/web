@@ -1,5 +1,6 @@
 ---
 title: "DOWNLOAD"
+author: "Petr Král"
 slug: "download"
 category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/download.htm"

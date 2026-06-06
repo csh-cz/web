@@ -1,5 +1,6 @@
 ---
 title: "Galerie uměleckých děl v Hodináriu Děčín"
+author: "Petr Král"
 slug: "decin-galerie"
 category: "sbirka"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

@@ -1,5 +1,6 @@
 ---
 title: "Hodinárium Děčín"
+author: "Český spolek horologický"
 slug: "index"
 category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/"

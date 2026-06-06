@@ -1,5 +1,6 @@
 ---
 title: "Pan Marce Betrisey - hodiny kuličkové, pneumatické a jiné"
+author: "Petr Král"
 slug: "betrisey"
 category: "virtualni-muzeum"
 tags:

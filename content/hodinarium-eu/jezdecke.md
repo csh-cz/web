@@ -1,5 +1,6 @@
 ---
 title: "Hodiny k ocenění vítěze - ZEMSKÉ JEZDECKÉ ZÁVODY PRAHA 1934"
+author: "Petr Král"
 slug: "jezdecke"
 category: "virtualni-muzeum"
 tags:

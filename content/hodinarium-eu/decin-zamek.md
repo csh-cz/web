@@ -1,5 +1,6 @@
 ---
 title: "Zámek Děčín"
+author: "Petr Král"
 slug: "decin-zamek"
 category: "muzea"
 tags:

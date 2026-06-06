@@ -1,5 +1,6 @@
 ---
 title: "Elektricky natahované hodiny Ferramo"
+author: "Petr Král"
 slug: "ferramo"
 category: "konstrukce"
 tags:

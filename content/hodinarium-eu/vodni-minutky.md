@@ -1,5 +1,6 @@
 ---
 title: "Vodní minutky"
+author: "Petr Král"
 slug: "vodni-minutky"
 category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/vodni_minutky.htm"

@@ -1,5 +1,6 @@
 ---
 title: "Vodní hodiny pana MUDr. Alexandra Jegorova"
+author: "Petr Král"
 slug: "vodni-jegorov"
 category: "virtualni-muzeum"
 originalUrl: "https://hodinarium.eu/vodni_jegorov.htm"

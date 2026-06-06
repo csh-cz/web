@@ -1,5 +1,6 @@
 ---
 title: Hodiny v kostele sv. Josefa v Janovicích
+author: "Petr Král"
 slug: janovice
 category: virtualni-muzeum
 tags:

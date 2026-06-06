@@ -1,5 +1,6 @@
 ---
 title: "Fenomén věžních \"muzeí\""
+author: "Petr Král"
 slug: "vezni-muzejicko-evropa"
 category: "muzea"
 tags:

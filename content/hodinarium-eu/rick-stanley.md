@@ -1,5 +1,6 @@
 ---
 title: "Pan Rick Stanley"
+author: "Petr Král"
 slug: "rick-stanley"
 category: "projekty"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

@@ -1,5 +1,6 @@
 ---
 title: "Meinberg NTP LANTIME M100 GPS (ELX)"
+author: "Petr Král"
 slug: "lantime-m100"
 category: "projekty"
 tags:

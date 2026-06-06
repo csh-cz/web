@@ -1,5 +1,6 @@
 ---
 title: "Píchačky - kontrolní hodiny - časová razítka"
+author: "Petr Král"
 slug: "pichacky"
 category: "konstrukce"
 tags:

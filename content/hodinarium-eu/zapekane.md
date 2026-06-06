@@ -1,5 +1,6 @@
 ---
 title: "Zapékané hodiny"
+author: "Petr Král"
 slug: "zapekane"
 category: "virtualni-muzeum"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

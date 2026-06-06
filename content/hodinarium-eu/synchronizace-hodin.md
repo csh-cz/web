@@ -1,5 +1,6 @@
 ---
 title: "Jednotně řízené hodiny a synchronizace času"
+author: "Petr Král"
 slug: "synchronizace-hodin"
 category: "konstrukce"
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "YOUTUBE"
+author: "Petr Král"
 slug: "youtube"
 category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/youtube.htm"

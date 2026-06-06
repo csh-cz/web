@@ -1,5 +1,6 @@
 ---
 title: "Římské digitálky - tentokrát s Arduinem"
+author: "Petr Král"
 slug: "rimskedigi2"
 category: "projekty"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

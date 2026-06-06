@@ -1,5 +1,6 @@
 ---
 title: "Kapesní \"orloj\" BREVETE"
+author: "Petr Král"
 slug: "kapesni-orloj"
 category: "virtualni-muzeum"
 imageCredit: "Foto z aukční nabídky prodejce (Aukro)"

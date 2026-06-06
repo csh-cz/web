@@ -1,5 +1,6 @@
 ---
 title: "Časová symbolika trochu jinak"
+author: "Petr Král"
 slug: "mazan"
 category: "zajimavosti"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

@@ -1,5 +1,6 @@
 ---
 title: "Elektrické hodiny 1 mechanické hodiny elektricky natahované"
+author: "Petr Král"
 slug: "elektricke1"
 category: "konstrukce"
 tags:

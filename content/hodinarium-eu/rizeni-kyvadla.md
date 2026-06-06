@@ -1,6 +1,7 @@
 ---
 manualEdit: true
 title: "Digitálně řízené kyvadlo s automatickou regulací"
+author: "Petr Král"
 slug: "rizeni-kyvadla"
 category: "konstrukce"
 tags:

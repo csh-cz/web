@@ -1,5 +1,6 @@
 ---
 title: "DECIMÁLKY - hodiny v desítkové soustavě"
+author: "Petr Král"
 slug: "decimalky"
 category: "zajimavosti"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

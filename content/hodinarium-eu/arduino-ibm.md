@@ -1,5 +1,6 @@
 ---
 title: "Hlavní NTP hodiny na bázi ESP8266 pro třídrátový rozvod dle IBM"
+author: "Petr Král"
 slug: "arduino-ibm"
 category: "projekty"
 tags:

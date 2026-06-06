@@ -1,5 +1,6 @@
 ---
 title: "Přestavby a dostavby"
+author: "Petr Král"
 slug: "prestavby"
 category: "zajimavosti"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

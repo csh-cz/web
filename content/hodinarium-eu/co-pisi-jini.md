@@ -1,5 +1,6 @@
 ---
 title: ""
+author: "Petr Král"
 slug: "co-pisi-jini"
 category: "zajimavosti"
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "Zvonkohry a jiné hrací stroje"
+author: "Petr Král"
 slug: "svarcvaldky-hraci"
 category: "konstrukce"
 originalUrl: "https://hodinarium.eu/svarcvaldky_hraci.htm"

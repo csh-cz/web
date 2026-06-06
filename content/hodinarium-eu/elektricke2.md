@@ -1,5 +1,6 @@
 ---
 title: "Hodiny s impulzem do oscilátoru"
+author: "Petr Král"
 slug: "elektricke2"
 category: "konstrukce"
 tags:

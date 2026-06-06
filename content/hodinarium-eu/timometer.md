@@ -1,5 +1,6 @@
 ---
 title: "Timometer – historické americké časové razítko po roce 1903"
+author: "Petr Král"
 slug: timometer
 category: "projekty"
 originalUrl: "https://hodinarium.eu/Timometer.htm"

@@ -1,5 +1,6 @@
 ---
 title: "Čárokódky - svět se čárokóduje"
+author: "Petr Král"
 slug: "carokodky"
 category: "zajimavosti"
 tags:

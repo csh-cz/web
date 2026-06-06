@@ -1,5 +1,6 @@
 ---
 title: "Polarizační sluneční hodiny"
+author: "Petr Král"
 slug: "slunecni-polarizacni"
 category: "konstrukce"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

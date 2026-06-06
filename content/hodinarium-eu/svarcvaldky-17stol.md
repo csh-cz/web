@@ -1,5 +1,6 @@
 ---
 title: "Doba dřevěná - švarcvaldky v 17. století ??"
+author: "Petr Král"
 slug: "svarcvaldky-17stol"
 category: "konstrukce"
 tags:

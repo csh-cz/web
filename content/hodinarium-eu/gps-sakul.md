@@ -1,5 +1,6 @@
 ---
 title: "Hodiny synchronizované systémem GPS respektive GNSS"
+author: "Petr Král"
 slug: "gps-sakul"
 category: "projekty"
 tags:

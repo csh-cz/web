@@ -1,5 +1,6 @@
 ---
 title: "Ukázka 2 strojů polodřevěných - 1. polovina 19. století"
+author: "Petr Král"
 slug: "svarcvaldky-stroje-polodrev"
 category: "konstrukce"
 tags:

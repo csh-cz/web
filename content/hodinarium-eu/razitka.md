@@ -1,5 +1,6 @@
 ---
 title: "Kvalifikované časové razítko - Time Stamp"
+author: "Petr Král"
 slug: "razitka"
 category: "zajimavosti"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

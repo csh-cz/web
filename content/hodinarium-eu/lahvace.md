@@ -1,5 +1,6 @@
 ---
 title: "Lahváče"
+author: "Petr Král"
 slug: "lahvace"
 category: "virtualni-muzeum"
 tags:

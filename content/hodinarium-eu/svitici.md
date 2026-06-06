@@ -1,5 +1,6 @@
 ---
 title: "Svítící hodiny"
+author: "Petr Král"
 slug: "svitici"
 category: "zajimavosti"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

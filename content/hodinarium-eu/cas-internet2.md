@@ -1,5 +1,6 @@
 ---
 title: "Zobrazení času na www 2 - č as generuje server"
+author: "Petr Král"
 slug: "cas-internet2"
 category: "projekty"
 tags:

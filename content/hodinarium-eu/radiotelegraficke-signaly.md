@@ -1,5 +1,6 @@
 ---
 title: "Radiotelegrafické časové signály"
+author: "Petr Král"
 slug: "radiotelegraficke-signaly"
 category: "projekty"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

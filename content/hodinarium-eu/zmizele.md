@@ -1,5 +1,6 @@
 ---
 title: "Zmizelé hodiny"
+author: "Petr Král"
 slug: "zmizele"
 category: "virtualni-muzeum"
 originalUrl: "https://hodinarium.eu/zmizele.htm"

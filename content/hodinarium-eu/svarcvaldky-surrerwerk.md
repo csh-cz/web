@@ -1,5 +1,6 @@
 ---
 title: "Surrerwerk"
+author: "Petr Král"
 slug: "svarcvaldky-surrerwerk"
 category: "konstrukce"
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "PNEUMATICKÉ VEŘEJNÉ HODINY V PAŘÍŽI"
+author: "Petr Král"
 slug: "pneumatika2"
 category: "konstrukce"
 tags:

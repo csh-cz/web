@@ -1,5 +1,6 @@
 ---
 title: "Mechanické digi IWC Schaffhausen z roku 1885"
+author: "Petr Král"
 slug: "schaffhausen"
 category: "virtualni-muzeum"
 tags:

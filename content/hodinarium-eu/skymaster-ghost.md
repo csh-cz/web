@@ -1,5 +1,6 @@
 ---
 title: "Konstatovací hodiny Skymaster Ghost HIGH SPEED TIMING CLOCK"
+author: "Petr Král"
 slug: "skymaster-ghost"
 category: "projekty"
 originalUrl: "https://hodinarium.eu/skymaster_ghost.htm"

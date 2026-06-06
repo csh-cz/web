@@ -1,5 +1,6 @@
 ---
 title: "Překlápěčky Köhler & Co, Laufamholz"
+author: "Petr Král"
 slug: "listkove-kohler"
 category: "virtualni-muzeum"
 tags:

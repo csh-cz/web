@@ -1,5 +1,6 @@
 ---
 title: "Různé o čase, hodinách a hodinkách"
+author: "Petr Král"
 slug: "ruzne"
 category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/ruzne.htm"

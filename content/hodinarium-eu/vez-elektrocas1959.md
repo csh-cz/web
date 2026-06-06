@@ -1,5 +1,6 @@
 ---
 title: "Stroj Elektročas 1959"
+author: "Petr Král"
 slug: "vez-elektrocas1959"
 category: "virtualni-muzeum"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

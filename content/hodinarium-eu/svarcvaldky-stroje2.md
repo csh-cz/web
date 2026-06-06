@@ -1,5 +1,6 @@
 ---
 title: "Stroj štolových hodin (cca pol. 19.stol.)"
+author: "Petr Král"
 slug: "svarcvaldky-stroje2"
 category: "konstrukce"
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "Odkazy na další podivuhodné hodiny"
+author: "Petr Král"
 slug: "kuriozity1"
 category: "zajimavosti"
 tags:

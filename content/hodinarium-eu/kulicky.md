@@ -1,5 +1,6 @@
 ---
 title: "Hodiny valících se kuliček"
+author: "Petr Král"
 slug: "kulicky"
 category: "konstrukce"
 tags:

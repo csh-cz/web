@@ -1,5 +1,6 @@
 ---
 title: "EVERETT EDGECOMBE ELECTRIC SYNCLOCK"
+author: "Petr Král"
 slug: "edgecombe"
 category: "konstrukce"
 tags:

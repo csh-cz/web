@@ -1,5 +1,6 @@
 ---
 title: "Jsou v Kardašově Řečici hodiny mistra Hanuše ??"
+author: "Petr Král"
 slug: "kardasova-recice"
 category: "virtualni-muzeum"
 tags:

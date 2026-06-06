@@ -1,5 +1,6 @@
 ---
 title: "Vodní budík"
+author: "Petr Král"
 slug: "vodni-budik"
 category: "zajimavosti"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

@@ -1,5 +1,6 @@
 ---
 title: "Mluvící hodinky"
+author: "Petr Král"
 slug: "mluvici1895"
 category: "konstrukce"
 tags:

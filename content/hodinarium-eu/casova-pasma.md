@@ -1,5 +1,6 @@
 ---
 title: "Pásmovky"
+author: "Petr Král"
 slug: "casova-pasma"
 category: "zajimavosti"
 tags:

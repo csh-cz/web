@@ -1,5 +1,6 @@
 ---
 title: "Hodiny Datumatic"
+author: "Petr Král"
 slug: "datumatik"
 category: "konstrukce"
 tags:

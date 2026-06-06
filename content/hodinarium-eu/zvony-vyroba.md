@@ -1,5 +1,6 @@
 ---
 title: "Výroba zvonů"
+author: "Petr Král"
 slug: "zvony-vyroba"
 category: "konstrukce"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

@@ -1,5 +1,6 @@
 ---
 title: "Pragotroňky - Analogové i digitální podružné hodiny fy PRAGOTRON"
+author: "Petr Král"
 slug: "pragotron1"
 category: "virtualni-muzeum"
 originalUrl: "https://hodinarium.eu/pragotron1.htm"

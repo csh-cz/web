@@ -1,5 +1,6 @@
 ---
 title: "Interiérový orloj Františka Planičky"
+author: "Český spolek horologický"
 slug: "planicka-interierovy-orloj"
 category: "virtualni-muzeum"
 originalUrl: "http://www.veznihodiny.cz/ukaz10.htm"

@@ -1,5 +1,6 @@
 ---
 title: "Atomové hodiny a hodinky"
+author: "Petr Král"
 slug: "atomove-kapesni"
 category: "projekty"
 tags:

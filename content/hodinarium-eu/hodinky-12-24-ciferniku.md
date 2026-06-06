@@ -1,5 +1,6 @@
 ---
 title: "Celodeňky - 12 verzus 24"
+author: "Petr Král"
 slug: "hodinky-12-24-ciferniku"
 category: "zajimavosti"
 tags:

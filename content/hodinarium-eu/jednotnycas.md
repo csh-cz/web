@@ -1,5 +1,6 @@
 ---
 title: "Jednotný čas - touha po přesnosti"
+author: "Petr Král"
 slug: "jednotnycas"
 category: "konstrukce"
 tags:
