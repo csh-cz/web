@@ -88,7 +88,8 @@ jobs:
 
           DATE=$(basename "$LATEST" .md | sed 's/dead-links-audit-//')
           # Parsování shrnutí z markdown reportu (formát stabilní z audit-dead-links.mjs)
-          DEAD=$(grep -oE 'Mrtvé / nedostupné:\*\* [0-9]+' "$LATEST" | grep -oE '[0-9]+' | head -1 || echo 0)
+          DEAD=$(grep -oE 'Mrtvé / nedostupné \(HTTP 4xx\):\*\* [0-9]+' "$LATEST" | grep -oE '[0-9]+' | head -1 || echo 0)
+          UNVERIFIED=$(grep -oE 'Neověřené \(5xx / timeout / blokace\):\*\* [0-9]+' "$LATEST" | grep -oE '[0-9]+' | head -1 || echo 0)
           TOTAL=$(grep -oE 'Unikátních URL:\*\* [0-9]+' "$LATEST" | grep -oE '[0-9]+' | head -1 || echo 0)
           WBM=$(grep -oE 'Wayback Machine snapshotem:\*\* [0-9]+' "$LATEST" | grep -oE '[0-9]+' | head -1 || echo 0)
           FILES=$(grep -oE 'unikátních URL ve [0-9]+ souborech' "$LATEST" | grep -oE '[0-9]+' | head -1 || echo 0)
@@ -100,7 +101,8 @@ jobs:
           | Metrika | Hodnota |
           |---|---|
           | Skenované unikátní URL | ${TOTAL} |
-          | Mrtvé / nedostupné (4xx/5xx) | **${DEAD}** |
+          | Mrtvé / nedostupné (HTTP 4xx) | **${DEAD}** |
+          | Neověřené (5xx / timeout / blokace) | ${UNVERIFIED} |
           | Dotčené soubory | ${FILES} |
           | S Wayback snapshotem | ${WBM} |
 

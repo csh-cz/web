@@ -23,7 +23,9 @@
  * Strategie:
  *   - Tokenize markdown → najdi `[text](url)`, `<url>` a `url:` ve frontmatteru
  *   - Filter: jen externí http(s) URL (skip mailto:, tel:, internal /...)
- *   - Concurrent HEAD requests (limit 10), timeout 10 s, 1 retry pro network err
+ *   - Concurrent HEAD requests (limit 10), timeout 10 s
+ *   - Retry: status 0 (network err) 2× s 0.8/1.6s delay; status 5xx 2× s 1.5/3s
+ *     delay (druhý pokus přes GET místo HEAD pro servery rate-limitující HEAD)
  *   - HEAD fail s 405/501 → fallback GET (některé servery neumí HEAD)
  *   - Status: live (2xx, 3xx s OK final), redirect-loop, dead (4xx, 5xx, network err)
  *   - Pro dead → query Wayback Machine API: archive.org/wayback/available
@@ -292,18 +294,18 @@ if (LIMIT > 0) {
 
 // ── Step 2: HTTP check (concurrent, throttled) ───────────────────
 
-async function checkUrl(url) {
+async function checkUrl(url, { method = 'HEAD' } = {}) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
   try {
     let r = await fetch(url, {
-      method: 'HEAD',
+      method,
       redirect: 'follow',
       signal: ctrl.signal,
       headers: { 'User-Agent': 'CSH-deadlink-audit/1.0 (https://hodinarium.eu)' },
     });
     // Some servers don't support HEAD — fallback to GET
-    if (r.status === 405 || r.status === 501) {
+    if (method === 'HEAD' && (r.status === 405 || r.status === 501)) {
       r = await fetch(url, {
         method: 'GET',
         redirect: 'follow',
@@ -328,6 +330,17 @@ async function checkUrlWithRetry(url) {
   for (let attempt = 0; attempt < 2 && r.status === 0; attempt++) {
     await new Promise((res) => setTimeout(res, 800 * (attempt + 1)));
     r = await checkUrl(url);
+    if (r.ok) return r;
+  }
+  // 5xx server errors jsou často flaky (overload, rate-limit, anti-bot).
+  // Konkrétní příklad: or.justice.cz vrací 503 i pro živé URL, když je
+  // server přetížen. Zkus 2× navíc s prodlevou + GET místo HEAD (některé
+  // servery omezují HEAD striktněji než GET).
+  for (let attempt = 0; attempt < 2 && r.status >= 500 && r.status < 600; attempt++) {
+    await new Promise((res) => setTimeout(res, 1500 * (attempt + 1)));
+    // Druhý retry: zkus GET (možná HEAD je rate-limited specificky)
+    const method = attempt === 1 ? 'GET' : 'HEAD';
+    r = await checkUrl(url, { method });
     if (r.ok) return r;
   }
   return r;
@@ -379,7 +392,7 @@ async function checkWayback(url) {
 
 const findings = [];
 const deadUrls = [];        // genuine 4xx/5xx — kandidáti na ⚠ marker
-const unverifiedUrls = [];  // status 0 (network/timeout/bot-block) — NEoznačovat
+const unverifiedUrls = [];  // status 0 nebo 5xx (server-side problém) — NEoznačovat
 
 allUrls.forEach((url, i) => {
   const r = checkResults[i];
@@ -395,14 +408,17 @@ allUrls.forEach((url, i) => {
   };
   findings.push(finding);
   if (r.ok) return;
-  // Jen skutečný HTTP error (4xx/5xx) = dead k označení. Status 0 (síťová chyba,
-  // timeout, blokace bota) je často FALSE-POSITIVE u živých webů → "unverified",
+  // Jen 4xx (client error — URL skutečně neexistuje) = dead k označení.
+  // Status 0 (síťová chyba, timeout, blokace bota) = FALSE-POSITIVE u živých
+  // webů. Status 5xx (server error — přetížen, anti-bot challenge, vyžaduje
+  // session/JS) = problém serveru, ne dead URL. Konkrétní příklad: or.justice.cz
+  // vrací 503 i pro živé URL, když je rejstřík přetížen. Oboje → "unverified",
   // hlásí se zvlášť k ručnímu ověření, NEoznačuje se markerem.
-  if (r.status >= 400) deadUrls.push(finding);
+  if (r.status >= 400 && r.status < 500) deadUrls.push(finding);
   else unverifiedUrls.push(finding);
 });
 
-console.error(`Live: ${findings.filter((f) => f.ok).length}, Dead (4xx/5xx): ${deadUrls.length}, Unverified (status 0): ${unverifiedUrls.length}`);
+console.error(`Live: ${findings.filter((f) => f.ok).length}, Dead (4xx): ${deadUrls.length}, Unverified (5xx/timeout): ${unverifiedUrls.length}`);
 
 if (deadUrls.length > 0 && !SKIP_WBM) {
   console.error('Querying Wayback Machine for dead URLs…');
@@ -503,7 +519,8 @@ const mdLines = [
   `- **Skenované adresáře:** ${dirs.length} (${dirs.join(', ')})`,
   `- **Unikátních URL:** ${allUrls.length}`,
   `- **Funkční (2xx/3xx):** ${summary.liveCount}`,
-  `- **Mrtvé / nedostupné:** ${summary.deadCount}`,
+  `- **Mrtvé / nedostupné (HTTP 4xx):** ${summary.deadCount}`,
+  `- **Neověřené (5xx / timeout / blokace):** ${summary.unverifiedCount}`,
   `- **Z toho s Wayback Machine snapshotem:** ${summary.withWaybackCount}`,
   '',
   '## Pro editora',
@@ -558,13 +575,18 @@ if (deadUrls.length === 0) {
 // Unverified (status 0) — neoznačovat, ale dát editorovi k ručnímu ověření.
 if (unverifiedUrls.length > 0) {
   mdLines.push('', '---', '');
-  mdLines.push(`## Neověřené (status 0 — síť/timeout/blokace, ${unverifiedUrls.length})`);
+  mdLines.push(`## Neověřené (5xx / timeout / blokace, ${unverifiedUrls.length})`);
   mdLines.push('');
-  mdLines.push('Tyto URL neodpověděly (network error / timeout / blokace bota). Často jsou');
-  mdLines.push('**živé** — ověřit ručně v prohlížeči, NEoznačovat automaticky markerem.');
+  mdLines.push('Tyto URL nešly automaticky ověřit:');
+  mdLines.push('');
+  mdLines.push('- **status 0** — network error / timeout / blokace bota');
+  mdLines.push('- **5xx** — server-side problém (přetížení, anti-bot challenge, vyžaduje session/JS)');
+  mdLines.push('');
+  mdLines.push('Často jsou **živé** — ověřit ručně v prohlížeči, NEoznačovat automaticky markerem.');
   mdLines.push('');
   for (const f of unverifiedUrls.sort((a, b) => a.url.localeCompare(b.url))) {
-    mdLines.push(`- ${f.url} _(${f.error || 'network error'})_`);
+    const label = f.status > 0 ? `HTTP ${f.status}` : (f.error || 'network error');
+    mdLines.push(`- ${f.url} _(${label})_`);
   }
 }
 
@@ -574,4 +596,4 @@ await writeFile(mdPath, mdLines.join('\n'));
 console.error(`✓ Markdown report: ${relative(ROOT, mdPath)}`);
 
 console.error('');
-console.error(`Hotovo. ${summary.deadCount} mrtvých (4xx/5xx) + ${summary.unverifiedCount} neověřených (status 0) z ${allUrls.length} URL.`);
+console.error(`Hotovo. ${summary.deadCount} mrtvých (4xx) + ${summary.unverifiedCount} neověřených (5xx/timeout) z ${allUrls.length} URL.`);
