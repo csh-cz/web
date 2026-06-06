@@ -11,7 +11,7 @@ tags:
   - cesko
   - mechanicke
   - restaurovane
-tldr: 'Jan Prokeš (1818–1890) ze Sobotky byl jedním z nejvýznamnějších českých hodinářů 19. století. Jeho dílna — fungující 1839–1890 v Sobotce, později přesunutá do Jičína synem L. Prokešem — vyrobila přes 400 věžních hodin, z nichž se desítky dodnes dochovaly v provozu. Charakteristickým „podpisem" sobotecké dílny je Robertův krok (Robertův klidový kotvový krok s kolíčkovým krokovým kolem a středovou kotvou), který Prokeš adoptoval roku 1868 — krátce po vypršení francouzského patentu — a od té doby jím vybavoval prakticky všechny své nové stroje. Stal se tak v Čechách prakticky výhradním uživatelem tohoto kroku.'
+tldr: 'Jan Prokeš (1818–1890) vyrobil 1839–1890 přes 400 strojů, z nichž se desítky dochovaly. Charakteristický „podpis": Robertův klidový kotvový krok adoptovaný 1868 — v Čechách jeho prakticky výhradní uživatel.'
 manualEdit: true
 originalUrl: "https://hodinarium-eu.pages.dev/zajimavosti/sobotecka-dilna-prokesova-robertuv-krok"
 lastModified: "Sun, 17 May 2026 06:00:00 GMT"

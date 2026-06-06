@@ -6,7 +6,7 @@ originalUrl: "http://www.veznihodiny.cz/ukaz10.htm"
 lastModified: null
 sourceCharset: "windows-1250"
 scrapedAt: "2026-05-25T06:00:00.000Z"
-tldr: "Unikátní dřevěný orloj z poloviny 18. století v pokladně zámku Mnichovo Hradiště — deset strojů, 136 dřevěných kol a padesát pohyblivých figur znázorňujících architekturu hradu."
+tldr: "Unikát z poloviny 18. století v zámecké pokladně — deset strojů, 136 dřevěných kol a padesát pohyblivých figur znázorňujících architekturu hradu."
 tags:
   - baroko
   - mechanicke

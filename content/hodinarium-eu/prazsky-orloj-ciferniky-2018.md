@@ -7,7 +7,7 @@ tags:
   - prazsky-orloj
   - restaurovane
   - vezni
-tldr: 'Skálova práce z března 2018 dokumentuje boční hodinové ciferníky na věži Staroměstské radnice. Vyvrací Erbenovo často přebírané tvrzení, že je 1787 zhotovil „Jan" Landesperger — ve skutečnosti to byl Ferdinand. Mapuje vývoj ciferníků 1787 (Ferdinand Londensperger, čtyři ⌀ 320 cm) → konec 19. století (nahrazeny moderními) → 1948 (poválečná oprava) → 2017–2018 (Skálova rekonstrukce do podoby roku 1787).'
+tldr: 'Skálova práce z března 2018 vyvrací Erbenovo často přebírané tvrzení o autorovi z roku 1787 — Jan Landesperger ne, byl to Ferdinand. Mapuje vývoj čtyř ciferníků ⌀ 320 cm od původní instalace po Skálovu rekonstrukci 2017–2018 do podoby roku 1787.'
 manualEdit: true
 originalUrl: "https://hodinarium-eu.pages.dev/zajimavosti/prazsky-orloj-ciferniky-2018"
 sourceCharset: "utf-8"

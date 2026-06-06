@@ -10,7 +10,7 @@ sourceCharset: "utf-8"
 scrapedAt: "2026-05-21T00:00:00.000Z"
 manualEdit: true
 author: "Český spolek horologický"
-tldr: 'Vzácné stolní podružné hodiny značené pražskou firmou Jednotný čas — strojek zapuštěný do masivního dřevěného bloku, podružný stroj Telefonbau und Normalzeit (EZ 110838) na 6 V.'
+tldr: 'Vzácný stolní stroj značený pražskou firmou — strojek zapuštěný do masivního dřevěného bloku, podružný stroj Telefonbau und Normalzeit (EZ 110838) na 6 V.'
 relatedKarty:
   - inv-A112-synchronni-art-deco
 tags:

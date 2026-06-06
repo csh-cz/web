@@ -10,7 +10,7 @@ sourceCharset: "utf-8"
 scrapedAt: "2026-05-21T00:00:00.000Z"
 manualEdit: true
 author: "Český spolek horologický"
-tldr: 'Stolní podružné hodiny ve stylu art deco se strojkem Siemens (otočná Z-armatura, šnekový převod, konstrukce z roku 1913) — velmi tichý chod vhodný i do kanceláře.'
+tldr: 'Skříň se strojkem Siemens (otočná Z-armatura, šnekový převod, konstrukce z roku 1913) — velmi tichý chod vhodný i do kanceláře.'
 relatedKarty:
   - inv-A124-hodiny-nastenne-synchro
 tags:

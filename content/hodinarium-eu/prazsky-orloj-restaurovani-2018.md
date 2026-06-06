@@ -7,7 +7,7 @@ tags:
   - prazsky-orloj
   - restaurovane
   - vezni
-tldr: 'Závěrečná zpráva Petra Skály z prosince 2018 dokumentuje restaurování hlavního stroje, podružných ukazovacích strojů, paličkových strojů cimbálů a systému rozvodu tahové síly. Šlo o největší zásah na orloji od poválečného restaurování 1948 — vrcholný moment dlouhé série oprav, počínaje opravou Hainz–Daněk–Holub 1864–66.'
+tldr: 'Závěrečná zpráva Petra Skály z prosince 2018 — největší zásah od poválečného restaurování 1948. Hlavní stroj, podružné ukazovací stroje, paličkové stroje cimbálů, rozvod tahové síly. Vrchol dlouhé série oprav počínaje Hainzem–Daňkem–Holubem 1864–66.'
 manualEdit: true
 originalUrl: "https://hodinarium-eu.pages.dev/zajimavosti/prazsky-orloj-restaurovani-2018"
 lastModified: "Sat, 16 May 2026 23:30:00 GMT"

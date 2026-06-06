@@ -10,7 +10,7 @@ originalUrl: "https://hodinarium.eu/podebrady1.htm"
 lastModified: "Sat, 01 Feb 2025 16:25:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:12.063Z"
-tldr: 'Vznik lázní v Poděbradech po objevu minerálního pramene roku 1905 a založení parku, ve kterém v roce 1937 podle žitavského vzoru vyrostly květinové hodiny.'
+tldr: 'Lázně vznikly po objevu minerálního pramene roku 1905. V parku v roce 1937 vyrostl ciferník z květin podle žitavského vzoru.'
 ---
 ## Z historie poděbradských květinových hodin
 

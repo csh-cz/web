@@ -6,7 +6,7 @@ originalUrl: "http://www.veznihodiny.cz/ukaz10.htm"
 lastModified: null
 sourceCharset: "windows-1250"
 scrapedAt: "2026-05-25T06:00:00.000Z"
-tldr: "Interiérový orloj samouka Františka Planičky z roku 1919, převzatý v desolátním stavu a po rekonstrukci mechaniky i číselníků vystavený jako funkční exponát v Muzeu v Ústí nad Orlicí."
+tldr: "Dílo samouka z roku 1919, převzaté v desolátním stavu a po rekonstrukci mechaniky i číselníků vystavené jako funkční exponát v Muzeu v Ústí nad Orlicí."
 tags:
   - mechanicke
   - restaurovane
