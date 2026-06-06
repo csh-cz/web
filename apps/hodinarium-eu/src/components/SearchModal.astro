@@ -58,13 +58,17 @@ const categoryLabelsForClient = Object.fromEntries(
         <span class="mode-hint" id="mode-hint-keyword">přesná shoda</span>
       </button>
     </div>
-    <div id="search-results" class="search-results" role="listbox" aria-label="Výsledky vyhledávání" aria-live="polite">
+    <!-- Audit C3 (a11y 2026-05-08): listbox NEMÁ aria-live, jinak SR čte všech
+         12 výsledků pokaždé. Krátké shrnutí počtu („8 výsledků") jde do
+         samostatného visually-hidden status nodu níže. -->
+    <div id="search-results" class="search-results" role="listbox" aria-label="Výsledky vyhledávání">
       <p class="search-hint">
         Začni psát. <strong>Sémanticky</strong> projde významem všech 1008 stránek — najde i věcně blízké, i když nevíš, jak se to přesně řekne.
         Pro přesnou shodu v názvech a perexech přepni na <strong>Klíčová slova</strong>.
         <kbd>↵</kbd> otevře první výsledek, <kbd>esc</kbd> zavře.
       </p>
     </div>
+    <div id="search-status" role="status" aria-live="polite" class="visually-hidden"></div>
   </div>
 </dialog>
 
@@ -359,6 +363,20 @@ const categoryLabelsForClient = Object.fromEntries(
   const dialog = document.getElementById('search-modal');
   const input = document.getElementById('search-input');
   const resultsEl = document.getElementById('search-results');
+  const statusEl = document.getElementById('search-status');
+
+  // Audit C3: krátké announcement pro SR — počet výsledků se announcuje,
+  // ne každý result block. Volá se z render() po zápisu listboxu.
+  function announceCount(query, count) {
+    if (!statusEl) return;
+    if (!query) {
+      statusEl.textContent = '';
+    } else if (count === 0) {
+      statusEl.textContent = `Žádný výsledek pro „${query}"`;
+    } else {
+      statusEl.textContent = `${count} ${count === 1 ? 'výsledek' : count < 5 ? 'výsledky' : 'výsledků'} pro „${query}"`;
+    }
+  }
   const tabs = document.querySelectorAll('.search-mode-tab');
 
   // categoryLabels předány z frontmatter přes define:vars — jediný zdroj pravdy.
@@ -423,11 +441,13 @@ const categoryLabelsForClient = Object.fromEntries(
         : 'Začni psát. Klíčová slova hledají v názvech a perexech 218 článků. Pro průchod všemi 1008 stránkami přepni na <strong>Sémanticky</strong>.';
       resultsEl.innerHTML = '<p class="search-hint">' + hint + ' <kbd>↵</kbd> otevře první výsledek.</p>';
       syncCombobox(0);
+      announceCount('', 0);
       return;
     }
     if (items.length === 0) {
       resultsEl.innerHTML = '<p class="search-empty">Žádný výsledek pro <em>' + query.replace(/[<>&]/g, '') + '</em></p>';
       syncCombobox(0);
+      announceCount(query, 0);
       return;
     }
     const top = items.slice(0, 12);
@@ -454,6 +474,7 @@ const categoryLabelsForClient = Object.fromEntries(
       return `<a class="search-result${isActive ? ' is-active' : ''}" href="${it.href}" data-idx="${idx}" id="search-opt-${idx}" role="option" aria-selected="${isActive ? 'true' : 'false'}">${thumb}<div class="search-result-body"><div class="search-result-meta">${meta}</div><div class="search-result-title">${titleHtml}</div><div class="search-result-excerpt">${excerptHtml}</div></div>${scoreBadge}</a>`;
     }).join('');
     syncCombobox(top.length);
+    announceCount(query, top.length);
   }
 
   // Mapovač Fuse výsledku → unified shape.
