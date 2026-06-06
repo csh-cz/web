@@ -1,5 +1,6 @@
 ---
 title: "KAPPA – výrobce námořních hodin master-slave"
+author: "Petr Král"
 slug: kappa
 category: "projekty"
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "Jako perpetum mobile - věčné hodiny ?"
+author: "Petr Král"
 slug: "perpetum-mobile"
 category: "konstrukce"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

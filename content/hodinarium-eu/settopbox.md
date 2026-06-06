@@ -1,5 +1,6 @@
 ---
 title: "Hodinárium Děčín - expozice časoměrných strojů"
+author: "Petr Král"
 slug: "settopbox"
 category: "projekty"
 originalUrl: "https://hodinarium.eu/settopbox.htm"

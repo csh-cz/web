@@ -1,5 +1,6 @@
 ---
 title: "Švarcvaldky - stroje v 19. a 20 století"
+author: "Petr Král"
 slug: "svarcvaldky-stroje"
 category: "konstrukce"
 tags:

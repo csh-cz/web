@@ -1,5 +1,6 @@
 ---
 title: "Království času — Protivín"
+author: "Petr Král"
 slug: "kralovstvi-casu"
 category: "muzea"
 tags:

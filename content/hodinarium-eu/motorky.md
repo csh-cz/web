@@ -1,5 +1,6 @@
 ---
 title: "Motorky z hodinek"
+author: "Petr Král"
 slug: "motorky"
 category: "virtualni-muzeum"
 tags:

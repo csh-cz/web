@@ -1,5 +1,6 @@
 ---
 title: "Hodiny skoro z MERKURU"
+author: "Petr Král"
 slug: "merkur"
 category: "zajimavosti"
 tags:

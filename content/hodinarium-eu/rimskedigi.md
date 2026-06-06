@@ -1,5 +1,6 @@
 ---
 title: "Římské digitálky"
+author: "Petr Král"
 slug: "rimskedigi"
 category: "projekty"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

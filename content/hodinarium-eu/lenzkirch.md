@@ -1,5 +1,6 @@
 ---
 title: "Lenzkirch - Rolls-Royce ze Schwarzwaldu"
+author: "Petr Král"
 slug: "lenzkirch"
 category: "virtualni-muzeum"
 tags:

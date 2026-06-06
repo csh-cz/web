@@ -1,5 +1,6 @@
 ---
 title: "Zobrazení času na www 1"
+author: "Petr Král"
 slug: "cas-internet1"
 category: "projekty"
 tags:

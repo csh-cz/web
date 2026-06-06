@@ -1,5 +1,6 @@
 ---
 title: "Elektrifikace věžních strojů"
+author: "Petr Král"
 slug: "decin-elektrifikace"
 category: "konstrukce"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

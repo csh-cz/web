@@ -1,5 +1,6 @@
 ---
 title: "Devítkové hodiny pro matematiky"
+author: "Petr Král"
 slug: "matematicke"
 category: "projekty"
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "Kinetické artefakty"
+author: "Petr Král"
 slug: "spinka"
 category: "virtualni-muzeum"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

@@ -1,5 +1,6 @@
 ---
 title: "Papíráky"
+author: "Petr Král"
 slug: "papir"
 category: "virtualni-muzeum"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

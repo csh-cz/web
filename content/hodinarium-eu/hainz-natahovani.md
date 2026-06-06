@@ -1,5 +1,6 @@
 ---
 title: "KLÍČOVÁ OTÁZKA - natahovátko L. Hainz"
+author: "Petr Král"
 slug: "hainz-natahovani"
 category: "zajimavosti"
 tags:

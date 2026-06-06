@@ -1,5 +1,6 @@
 ---
 title: "Odkazy"
+author: "Petr Král"
 slug: "vodni-odkazy"
 category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/vodni_odkazy.htm"

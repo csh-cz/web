@@ -1,5 +1,6 @@
 ---
 title: "Ukazatele času u \"normálních\" hodin"
+author: "Petr Král"
 slug: "ukazatele"
 category: "konstrukce"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

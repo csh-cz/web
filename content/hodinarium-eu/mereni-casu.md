@@ -1,5 +1,6 @@
 ---
 title: "MĚŘENÍ ČASU"
+author: "Petr Král"
 slug: "mereni-casu"
 category: "zajimavosti"
 tags:

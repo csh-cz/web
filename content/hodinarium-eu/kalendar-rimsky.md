@@ -1,5 +1,6 @@
 ---
 title: "Římský kalendář"
+author: "Petr Král"
 slug: "kalendar-rimsky"
 year: null
 category: "zajimavosti"

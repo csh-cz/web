@@ -1,5 +1,6 @@
 ---
 title: "O Hodináriu"
+author: "Petr Král"
 slug: "o-hodinariu"
 category: "sbirka"
 tags:

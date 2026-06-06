@@ -1,5 +1,6 @@
 ---
 title: "Elektrické synchronní hodiny s odbíjením"
+author: "Petr Král"
 slug: "synchron-bici"
 category: "projekty"
 originalUrl: "https://hodinarium.eu/synchron_bici.htm"

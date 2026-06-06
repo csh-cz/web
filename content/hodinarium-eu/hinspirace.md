@@ -1,5 +1,6 @@
 ---
 title: "Historické inspirace"
+author: "Petr Král"
 slug: "hinspirace"
 category: "virtualni-muzeum"
 tags:

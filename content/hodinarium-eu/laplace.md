@@ -1,5 +1,6 @@
 ---
 title: "LAPLACE"
+author: "Petr Král"
 slug: "laplace"
 category: "zajimavosti"
 tags:

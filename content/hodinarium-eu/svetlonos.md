@@ -1,5 +1,6 @@
 ---
 title: "Strážce času v Sezimově Ústí"
+author: "Petr Král"
 slug: "svetlonos"
 category: "virtualni-muzeum"
 tags:

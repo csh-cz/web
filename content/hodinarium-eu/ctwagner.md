@@ -1,5 +1,6 @@
 ---
 title: "C.T.W. neboli Wagner clock"
+author: "Petr Král"
 slug: "ctwagner"
 category: "projekty"
 tags:

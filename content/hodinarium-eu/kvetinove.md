@@ -1,5 +1,6 @@
 ---
 title: "Květinové hodiny ve světě"
+author: "Petr Král"
 slug: "kvetinove"
 category: "virtualni-muzeum"
 tags:

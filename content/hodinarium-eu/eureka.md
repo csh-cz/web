@@ -1,5 +1,6 @@
 ---
 title: "Legendární elektrické hodiny Eureka"
+author: "Petr Král"
 slug: "eureka"
 category: "konstrukce"
 tags:

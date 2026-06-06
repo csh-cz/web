@@ -1,5 +1,6 @@
 ---
 title: "Dřevěný orloj zámku Mnichovo Hradiště"
+author: "Český spolek horologický"
 slug: "mnichovo-hradiste-dreveny-orloj"
 category: "virtualni-muzeum"
 originalUrl: "http://www.veznihodiny.cz/ukaz10.htm"

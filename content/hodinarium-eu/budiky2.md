@@ -1,5 +1,6 @@
 ---
 title: "HODINY BUDÍKOVÉ 2"
+author: "Petr Král"
 slug: "budiky2"
 category: "konstrukce"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

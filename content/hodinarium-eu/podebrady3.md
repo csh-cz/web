@@ -1,5 +1,6 @@
 ---
 title: "Poděbradský trpaslík"
+author: "Petr Král"
 slug: "podebrady3"
 category: "virtualni-muzeum"
 tags:

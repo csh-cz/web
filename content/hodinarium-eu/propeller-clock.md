@@ -1,5 +1,6 @@
 ---
 title: "Vrtuálky - Propeller Clock - vrtulové hodiny - strobo hodiny"
+author: "Petr Král"
 slug: "propeller-clock"
 category: "projekty"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

@@ -1,5 +1,6 @@
 ---
 title: "Elektromagnetický sedmi segmentový displej H715 M - BODET"
+author: "Petr Král"
 slug: "elektromagneticke-segmenty"
 category: "projekty"
 tags:

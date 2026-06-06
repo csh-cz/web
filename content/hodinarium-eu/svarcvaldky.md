@@ -1,5 +1,6 @@
 ---
 title: "Švarcvaldky"
+author: "Petr Král"
 slug: "svarcvaldky"
 category: "konstrukce"
 tags:

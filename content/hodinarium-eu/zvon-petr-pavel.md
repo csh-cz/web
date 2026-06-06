@@ -1,5 +1,6 @@
 ---
 title: "zvon Velký později zvaný Petr Pavel"
+author: "Petr Král"
 slug: "zvon-petr-pavel"
 year: 1663
 category: "zvony"

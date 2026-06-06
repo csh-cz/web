@@ -1,5 +1,6 @@
 ---
 title: "ESV-3 - mechanické počítadlo provozní doby s motorem na 115V/400Hz"
+author: "Petr Král"
 slug: esv3
 category: "projekty"
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "\"Hodinky\" v mobilu"
+author: "Petr Král"
 slug: "mobil"
 category: "projekty"
 tags:

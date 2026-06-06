@@ -1,5 +1,6 @@
 ---
 title: "Použitá i nepoužitá literatura"
+author: "Petr Král"
 slug: "literatura"
 year: null
 category: "zajimavosti"

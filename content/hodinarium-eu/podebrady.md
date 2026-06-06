@@ -1,5 +1,6 @@
 ---
 title: "Květinové hodiny Poděbrady"
+author: "Petr Král"
 slug: "podebrady"
 category: "virtualni-muzeum"
 tags:

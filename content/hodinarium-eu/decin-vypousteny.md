@@ -1,5 +1,6 @@
 ---
 title: "Chodový podružný věžní stroj Elektročas vypouštěný minutovými impulzy"
+author: "Petr Král"
 slug: "decin-vypousteny"
 category: "konstrukce"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

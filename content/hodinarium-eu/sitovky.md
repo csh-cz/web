@@ -1,5 +1,6 @@
 ---
 title: "Síťovky"
+author: "Petr Král"
 slug: "sitovky"
 category: "konstrukce"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

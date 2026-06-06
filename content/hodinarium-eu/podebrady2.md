@@ -1,5 +1,6 @@
 ---
 title: "Poznámky ke stroji květinových hodin v Poděbradech"
+author: "Petr Král"
 slug: "podebrady2"
 category: "virtualni-muzeum"
 tags:

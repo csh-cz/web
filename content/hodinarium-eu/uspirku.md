@@ -1,5 +1,6 @@
 ---
 title: "Variace na věžní hodiny"
+author: "Petr Král"
 slug: "uspirku"
 category: "virtualni-muzeum"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

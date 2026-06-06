@@ -1,5 +1,6 @@
 ---
 title: "Hodně ujeté a asi šokující hodiny pana Tima Hunkina"
+author: "Petr Král"
 slug: "tim-hunkin"
 category: "virtualni-muzeum"
 tags:

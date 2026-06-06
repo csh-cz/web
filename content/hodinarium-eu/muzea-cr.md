@@ -1,5 +1,6 @@
 ---
 title: "Hodinářská muzea, sbírky a weby v ČR"
+author: "Petr Král"
 slug: "muzea-cr"
 category: "muzea"
 tags:

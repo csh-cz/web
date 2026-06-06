@@ -1,5 +1,6 @@
 ---
 title: "Hodiny v Holiday Inn Brno"
+author: "Petr Král"
 slug: "vlachynsky"
 category: "virtualni-muzeum"
 tags:

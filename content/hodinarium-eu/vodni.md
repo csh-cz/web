@@ -1,5 +1,6 @@
 ---
 title: "Čas plyne jako voda ... Hodiny vodní"
+author: "Petr Král"
 slug: "vodni"
 category: "zajimavosti"
 originalUrl: "https://hodinarium.eu/vodni.htm"

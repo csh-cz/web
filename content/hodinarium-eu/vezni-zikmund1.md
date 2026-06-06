@@ -1,5 +1,6 @@
 ---
 title: "O věžních hodinách na ZŠ Šumava v Jablonci nad Nisou"
+author: "Petr Král"
 slug: "vezni-zikmund1"
 category: "virtualni-muzeum"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

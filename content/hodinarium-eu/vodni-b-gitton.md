@@ -1,5 +1,6 @@
 ---
 title: "TIME FLOW CLOCK - hodiny protékajícího času"
+author: "Petr Král"
 slug: "vodni-b-gitton"
 category: "virtualni-muzeum"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"

@@ -1,5 +1,6 @@
 ---
 title: "Zvony na soběslavské věži"
+author: "Petr Král"
 slug: "prehled-zvonu"
 year: null
 category: "zvony"

@@ -1,5 +1,6 @@
 ---
 title: "Sluneční digitálky"
+author: "Petr Král"
 slug: "slunecni-digi"
 category: "zajimavosti"
 imageCredit: "Archiv Petra Krále (hodinarium.eu)"
