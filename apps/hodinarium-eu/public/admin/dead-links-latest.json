@@ -1,16 +1,6 @@
 {
-  "generatedAt": "2026-06-06T18:03:27.890Z",
-  "deadCount": 1,
+  "generatedAt": "2026-06-06T21:01:35.791Z",
+  "deadCount": 0,
   "withWaybackCount": 0,
-  "byFile": {
-    "content/horologie-cz/stanovy.md": [
-      {
-        "url": "https://or.justice.cz/ias/ui/vypis-sl-detail?dokument=42887580&subjektId=794447&spis=439453",
-        "status": 503,
-        "context": "**](/dokumenty/stanovy.pdf) · [Detail v rejstříku](https://or.justice.cz/ias/ui/vypis-sl-detail?dokument=42887580&subjektId=794447&spis=439453) ## Článek I — Název spolku ",
-        "field": "body:link",
-        "wayback": null
-      }
-    ]
-  }
+  "byFile": {}
 }
