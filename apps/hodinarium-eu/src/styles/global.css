@@ -1875,26 +1875,6 @@ body[data-editor-mode] article[data-draft="true"] > .draft-banner code {
   border-radius: 2px;
 }
 
-/* Centrovaný NEobtékaný obrázek (např. dřevořezové diagramy v edici).
-   width: fit-content + max-width brání zvětšování drobných výřezů. */
-.prose-content figure.photo.img-center {
-  float: none;
-  display: block;
-  width: fit-content;
-  max-width: min(360px, 100%);
-  margin: 1.75rem auto;
-}
-.prose-content figure.photo.img-center :is(picture, img) {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0;
-}
-.prose-content figure.photo.img-center img {
-  border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
-  border-radius: 2px;
-}
-
 /* Vždy viditelný inline editorský odkaz (např. „[viz obrázek]") — barevně
    odlišený, NENÍ součástí skrývatelného aparátu (.editorial-note). */
 .prose-content .ed-inline {
