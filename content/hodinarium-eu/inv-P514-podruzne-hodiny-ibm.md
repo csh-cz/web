@@ -10,7 +10,7 @@ sourceCharset: "utf-8"
 scrapedAt: "2026-05-21T00:00:00.000Z"
 manualEdit: true
 author: "Český spolek horologický"
-tldr: 'Podružné hodiny INTERNACIONAL pro třídrátový rozvod IBM (získané do Hodinária 2017) — se samočinnou regulací odchylek vůči matečním hodinám.'
+tldr: 'Stroj INTERNACIONAL pro třídrátový rozvod — samočinně reguluje odchylky vůči matečním hodinám. Do Hodinária získán 2017.'
 relatedKarty:
   - inv-P515-podruzne-hodiny-ibm-strojek
 tags:

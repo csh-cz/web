@@ -9,7 +9,7 @@ sourceCharset: "utf-8"
 scrapedAt: "2026-05-21T00:00:00.000Z"
 manualEdit: true
 author: "Český spolek horologický"
-tldr: 'Matiční hodiny firmy T&N — předloha hodin vyráběných v licenci firmou Elektročas — řídí podružné hodiny a polarizovanými impulzy ovládají bicí stroj Brillié s vačkou a kulisovou pákou pro odbíjení čtvrtí i celých hodin.'
+tldr: 'Předloha hodin vyráběných v licenci firmou Elektročas — řídí podružné stroje a polarizovanými impulzy ovládají bicí stroj Brillié s vačkou a kulisovou pákou pro odbíjení čtvrtí i celých hodin.'
 tags:
   - panel-3
 karta:

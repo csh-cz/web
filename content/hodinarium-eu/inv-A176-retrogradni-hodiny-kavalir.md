@@ -10,7 +10,7 @@ sourceCharset: "utf-8"
 scrapedAt: "2026-05-21T00:00:00.000Z"
 manualEdit: true
 author: "Český spolek horologický"
-tldr: 'Retrográdní „chronulátor" konstrukce Kavalíra — pět sovětských ručkových voltmetrů řízených Arduinem (RTC DS3231) zobrazuje den, hodiny, minuty, sekundy a teplotu.'
+tldr: '„Chronulátor" — pět sovětských ručkových voltmetrů řízených Arduinem (RTC DS3231) zobrazuje den, hodiny, minuty, sekundy a teplotu.'
 references:
   - title: "Retrográdní hodiny — podrobný popis konstrukce"
     url: "https://bastlirna.hwkitchen.cz/retrogradni-hodiny/"

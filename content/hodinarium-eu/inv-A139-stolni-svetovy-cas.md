@@ -9,7 +9,7 @@ sourceCharset: "utf-8"
 scrapedAt: "2026-05-21T00:00:00.000Z"
 manualEdit: true
 author: "Český spolek horologický"
-tldr: 'Propagační stolní „světové hodiny" společnosti Thai Airways International — quartzový strojek, dvanáctihodinový číselník nad polární mapou polokoule, věnec světových měst a 24hodinová stupnice v průhledném akrylátovém bloku.'
+tldr: 'Propagační kus společnosti Thai Airways International — quartzový strojek, dvanáctihodinový číselník nad polární mapou polokoule, věnec světových měst a 24hodinová stupnice v průhledném akrylátovém bloku.'
 tags:
   - vitrina-2-vedlejsi
 karta:

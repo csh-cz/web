@@ -10,7 +10,7 @@ sourceCharset: "utf-8"
 scrapedAt: "2026-04-30T04:12:37.532Z"
 manualEdit: true
 author: "Český spolek horologický"
-tldr: 'Analogové NTP podružné hodiny Bodet Profil 930 NTP — synchronizované po LAN protokolem NTP (Broadcast) a napájené přes PoE; součást ukázky sítě jednotného času na Panelu 5.'
+tldr: 'Analogový stroj Profil 930 NTP — synchronizovaný po LAN protokolem NTP Broadcast, napájený přes PoE. Součást ukázky sítě jednotného času na Panelu 5.'
 references:
   - title: "Bodet Profil 930/940 NTP — návod podružných hodin"
     url: "/download/NTP/Analogue_clocks_Profil930-940NTPSlaveClockInstructions.pdf"
