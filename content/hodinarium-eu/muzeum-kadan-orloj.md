@@ -14,9 +14,10 @@ tags:
   - cesko
   - popularizace
 references:
-  - title: Kadaňský orloj — město Kadaň
-    url: https://www.mesto-kadan.cz/orloj/d-1006
-    type: odkaz
+  - title: "Mikuláš z Kadaně — Wikipedie"
+    url: https://cs.wikipedia.org/wiki/Mikul%C3%A1%C5%A1_z_Kadan%C4%9B
+    type: wiki
+    note: "Středověký hodinář, jehož památce je orloj na kadaňském náměstí věnován. Původní stránka města Kadaň (mesto-kadan.cz/orloj/d-1006) byla z webu odstraněna při redesignu."
 tldr: Soudobá horologická komemorace na rodišti spolutvůrce Pražského orloje. Astronomické hodiny na náměstí připomínají středověkého hodináře a fungují jako turistická atrakce odkazující na regionální historickou identitu.
 ---
 
