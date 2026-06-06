@@ -78,11 +78,11 @@ Historie: tyto hodiny byly vyvinuty v sedmdesátých letech výroba byla ukonče
 
 **Historie:** Tyto hodiny byly vyvinuty v první polovině osmdesátých let, výroba byla ukončena v dubnu 2006, tak skončila éra digitálních podružných mechanických hodin. Poslední série měla 400 kusů.
 
-**!**
+---
 
-**PPH 413** - jsou to analogové stylové hodiny, ovládání minutovými polarizovanými impulzy ( 12 / 24 - 60V ), zavěšení na zeď.
+**PPH 413** — analogové stylové hodiny, ovládání minutovými polarizovanými impulzy (12 / 24 — 60V), zavěšení na zeď.
 
-**!**Materiál: číselník plast ,značky na číselníku plast,ručky hliník, strojek (jugoslávie) PS 4 mosaz / plech.
+**Materiál:** číselník plast, značky na číselníku plast, ručky hliník, strojek (jugoslávie) PS 4 mosaz / plech.
 
 Barevné řešení:číselník je tmavě hnědý (mahagon) značky na číselníku jsou bílé / béžové, ručky jsou bílé / stříbrné.
 

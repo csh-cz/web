@@ -93,7 +93,16 @@ const RULES = [
   {
     id: 'ocr-bold-attached',
     name: 'OCR: tučné slepené s textem (**X**y)',
-    re: /\*\*[^*\s][^*]{0,40}\*\*(?=\w)/g,
+    // True OCR pattern: opening `**` (před ním whitespace/interpunkce/začátek
+    // řádku, NE písmeno — jinak by `**` byl closing nějakého předchozího bold
+    // spanu), bold obsah bez whitespace uvnitř (atomické slovo, ne věta),
+    // closing `**`, písmeno hned za nimi bez mezery.
+    //
+    // Příklad TRUE positive: `**Praha**1564` — turndown OCR sloučil bold word
+    // s následujícím textem.
+    // Příklad FALSE positive (předchozí regex chytal): `**Praha** je hlavní`
+    // — to je legitimní bold span následovaný mezerou a dalším slovem.
+    re: /(?<=^|[\s(\[„"'„>—–-])\*\*[^*\n\s][^*\n\s]{0,40}\*\*[a-zA-Záčďéěíňóřšťúůýž0-9]/gm,
     weight: 3,
     example: '`**Praha**1564` → typicky chyba turndown OCR; zkontroluj jestli má být `**Praha** 1564` nebo prostě `Praha 1564`',
   },
