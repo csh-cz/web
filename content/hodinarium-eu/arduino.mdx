@@ -25,7 +25,7 @@ tldr: 'Otevřená konstrukce levné řídící jednotky podružných hodin synch
 - Automatické přepnutí na letní čas (Možnost trvale zvolit GMT.)
 - Ukládání nastaveného času linky do (simulované nebo reálné) EEPROM paměti pro restart po výpadku.
 - Nouzové ruční nastavení času podružných hodin tlačítkem rychlého chodu FAST.
-- Komunikace s modulem prostřednictvím vnitřního webu. K webu se připojíte pomocí WiFi modulu nebo z místní sítě LAN. WiFi modul se hlásí jako síť se jménem obvykle NTPgenMI- plus 4 poslední znaky MAC adresy vysílače, aby bylo možné odlišit různé exempláře.
+- Komunikace s modulem prostřednictvím vnitřního webu. K webu se připojíte pomocí WiFi modulu nebo z místní sítě LAN. WiFi modul se hlásí jako síť se jménem `NTPgenMI-XXXX`, kde `XXXX` jsou 4 poslední znaky MAC adresy vysílače (pro odlišení různých exemplářů).
     Vybrat lze jméno a zadat heslo sítě, ke které se modul připojuje a základní parametry. Lze nastavit čas zobrazený na podružných hodinách linky pro automatické seřízení linky. Web také zobrazuje posledních 25 řádek protokolu chodu. Parametry, které lze zvolit jsou tyto: SE(L)Č/GMT, 12:00/24:00, STOP chodu, délka pulzu a minimální mezery při rychlém chodu \[v rozsahu 75 - 4000 ms\]. Nastavovací web je chráněn heslem.
 - Pro možnost dálkového sledování je připraven externí monitor.
 
@@ -43,7 +43,7 @@ Na horním obrázku je zapojení ve variantě pro polarizované pulzy generovan�
 
 ## Připojení prohlížečem
 
-K řídící jednotce se můžeme připojit internetovým prohlížečem přímo na její WiFi. Jméno WiFi je obvykle NTPgenMI- plus MAC adresa zařízení. Připojení je bez hesla. Po připojení zadáme IP adresu 192.168.4.1 Pro vstup do ovládání je nutné zadat jméno admin a heslo, které bylo určeno při překladu programu. Připojit se jde i na IP přidělené WiFi sítí, pokud jsme připojeni k téže síti. Pravděpodobně nám nadřízený router nepřidělil veřejnou IP. Lze však za jistých nastaveních v firewallu nastavit DMZ tak, aby web impulzeru byl přístupný i od jinud. Podle mého názoru však nemá velký smysl nařizovat hlavní hodiny, když k nim nemám přístup.
+K řídící jednotce se můžeme připojit internetovým prohlížečem přímo na její WiFi. Jméno WiFi je obvykle `NTPgenMI-XXXX`, kde `XXXX` je MAC adresa zařízení. Připojení je bez hesla. Po připojení zadáme IP adresu 192.168.4.1 Pro vstup do ovládání je nutné zadat jméno admin a heslo, které bylo určeno při překladu programu. Připojit se jde i na IP přidělené WiFi sítí, pokud jsme připojeni k téže síti. Pravděpodobně nám nadřízený router nepřidělil veřejnou IP. Lze však za jistých nastaveních v firewallu nastavit DMZ tak, aby web impulzeru byl přístupný i od jinud. Podle mého názoru však nemá velký smysl nařizovat hlavní hodiny, když k nim nemám přístup.
 
 ## Prvotní zadání jména a hesla WiFi sítě a nastavení všech parametrů
 

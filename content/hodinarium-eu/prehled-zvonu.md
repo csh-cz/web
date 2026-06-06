@@ -30,7 +30,7 @@ Citujme z listu, který je uložen u zachovaného úlomku Cerazkého zvonu:
 
 "Upomínka na soběslav. Jana evangelistu, zvonu tzv. „cerazském”
 
-Po téměř půl tisíciletí vyzváněly chudým i bohatým zvony Soběslavské. Ve chvílích slavnostních, veselých i ponurých! Až dozněly! Naposled se rozhlaholily v harmonickém souladu a loučily se s městem i širým krajem večer v pondělí 16/X 1916 a hlaholem teskným, slzavým. Vzdorovaly po staletí ničivému zubu času i zlobě lidské. Přečkaly nájezdy nepřátelské za častých válek a vzdorovaly, až v osvíceném století dvacátém, věku zázračných vynálezů, pokroku a –humanity- hrůza a děs bezpříkladné války světové rázem roztříštily a zničily velebný onen hlahol zvonů - a navždy!"
+Po téměř půl tisíciletí vyzváněly chudým i bohatým zvony Soběslavské. Ve chvílích slavnostních, veselých i ponurých! Až dozněly! Naposled se rozhlaholily v harmonickém souladu a loučily se s městem i širým krajem večer v pondělí 16/X 1916 a hlaholem teskným, slzavým. Vzdorovaly po staletí ničivému zubu času i zlobě lidské. Přečkaly nájezdy nepřátelské za častých válek a vzdorovaly, až v osvíceném století dvacátém, věku zázračných vynálezů, pokroku a — humanity — hrůza a děs bezpříkladné války světové rázem roztříštily a zničily velebný onen hlahol zvonů - a navždy!"
 
 Na fotografii, která byla pořízena při rekvizici zvonů je prostřední zvon Marie. Menší zvony nedokážeme určit.
 Zajímavé je, že polovina vojáků si dává za odměnu cigárko.

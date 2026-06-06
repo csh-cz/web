@@ -13,7 +13,7 @@ sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:50.491Z"
 tldr: 'Vzácný typ černoleských hodin s kyvadlem za zadní deskou stroje, odsazenou třemi sloupky (Stollen) — typicky polodřevěné z první poloviny 19. století, zde s celokovovými koly a bitím v celou hodinu.'
 ---
-Tento typ stroje švarcvaldek je dnes poměrně vzácný. Kyvadlo je umístěno za zadní deskou stroje- mezi deskou a stěnou. Stroj tedy nemůže přiléhat přímo na stěnu a musí být odsazen pomocí tří sloupků (německy sloupek = e Stolle, r Stollen), umístěných na zadní desce, proto jsou hodiny označovány jako "štolové".
+Tento typ stroje švarcvaldek je dnes poměrně vzácný. Kyvadlo je umístěno za zadní deskou stroje — mezi deskou a stěnou. Stroj tedy nemůže přiléhat přímo na stěnu a musí být odsazen pomocí tří sloupků (německy sloupek = e Stolle, r Stollen), umístěných na zadní desce, proto jsou hodiny označovány jako "štolové".
 
 Toto uspořádání se používalo u hodin starších - s dřevěnými a polodřevěnými koly. Uvádí se, že polodřěvěné provedení štolových hodin se objevuje od roku 1800. (Fotografie se připravuje.) Použití u stroje s celokovovými koly je spíše výjimkou. Možná to však taková výjimka není, když se na aukru v březnu 2007 objevily hned dva tyto stroje s drobnými výrobními odlišnostmi. :-)
 
