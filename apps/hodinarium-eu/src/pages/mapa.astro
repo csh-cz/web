@@ -185,12 +185,14 @@ for (const c of (catalog as Array<{ slug: string; category: string }>)) {
   :global(.leaflet-popup-content a) {
     color: var(--color-brass-bright);
   }
-  :global(.leaflet-popup-content h4) {
+  :global(.leaflet-popup-content .popup-title),
+  :global(.leaflet-popup-content .popup-title strong) {
     font-family: var(--font-serif);
     color: var(--color-brass-bright);
     font-size: 1rem;
     font-weight: 500;
     margin: 0 0 0.25em;
+    display: block;
   }
   :global(.leaflet-popup-content p) {
     margin: 0;
@@ -241,7 +243,11 @@ for (const c of (catalog as Array<{ slug: string; category: string }>)) {
       : '';
     const popis = l.popis ? `<p>${l.popis}</p>` : '';
     const rok = l.rok ? `<p><em>${l.rok}</em></p>` : '';
-    return `<h4>${l.jmeno}</h4>${rok}${popis}${link}`;
+    // Audit N4 (a11y 2026-05-08): popup v Leaflet je mimo heading hierarchy
+    // stránky (h2 sekce „Soupis" → popup by chtělo h3, ne h4). Místo headingu
+    // používáme `<strong class="popup-title">` — vizuálně dál vypadá jako
+    // nadpis, ale nedeformuje document outline tools.
+    return `<p class="popup-title"><strong>${l.jmeno}</strong></p>${rok}${popis}${link}`;
   }
 
   function makeMap(elementId, lokaceList, defaultCenter, defaultZoom) {
