@@ -1,93 +1,14 @@
 {
-  "generatedAt": "2026-06-05T10:13:11.274Z",
-  "deadCount": 9,
+  "generatedAt": "2026-06-06T18:03:27.890Z",
+  "deadCount": 1,
   "withWaybackCount": 0,
   "byFile": {
-    "content/hodinarium-eu/laplace.md": [
+    "content/horologie-cz/stanovy.md": [
       {
-        "url": "https://www.entsoe.eu/news/2018/03/06/press-release-continuing-frequency-deviation-in-the-continental-european-power-system-originating-in-serbia-kosovo-political-solution-urgently-needed-in-addition-to-technical/",
-        "status": 502,
-        "context": "iDNES.cz. [cit. 2026-04-28] - [Continuing frequency deviation in the Continental European Power System originating in Serbia/Kosovo: Political solution urgently needed in addition to technical.](https://www.entsoe.eu/news/2018/03/06/press-release-continuing-frequency-deviation-in-the-continental-european-power-system-originating-in-serbia-kosovo-political-solution-urgently-needed-in-addition-to-technical/) — entsoe.eu. [cit. 2026-04-2",
+        "url": "https://or.justice.cz/ias/ui/vypis-sl-detail?dokument=42887580&subjektId=794447&spis=439453",
+        "status": 503,
+        "context": "**](/dokumenty/stanovy.pdf) · [Detail v rejstříku](https://or.justice.cz/ias/ui/vypis-sl-detail?dokument=42887580&subjektId=794447&spis=439453) ## Článek I — Název spolku ",
         "field": "body:link",
-        "wayback": null
-      }
-    ],
-    "content/hodinarium-eu/litinove-vezni-hodiny.md": [
-      {
-        "url": "https://radioeng.cz/poster.htm",
-        "status": 404,
-        "context": "https://radioeng.cz/poster.htm",
-        "field": "fm:originalUrl",
-        "wayback": null
-      }
-    ],
-    "content/hodinarium-eu/muzeum-kadan-orloj.md": [
-      {
-        "url": "https://www.mesto-kadan.cz/orloj/d-1006",
-        "status": 404,
-        "context": "https://www.mesto-kadan.cz/orloj/d-1006",
-        "field": "fm:references[0]:url",
-        "wayback": null
-      }
-    ],
-    "content/hodinarium-eu/muzeum-pillichsdorf.md": [
-      {
-        "url": "https://www.weinviertel.at/a-pfarrkirche-st-vitus-pillichsdorf",
-        "status": 404,
-        "context": "https://www.weinviertel.at/a-pfarrkirche-st-vitus-pillichsdorf",
-        "field": "fm:references[0]:url",
-        "wayback": null
-      }
-    ],
-    "content/hodinarium-eu/zidovske.mdx": [
-      {
-        "url": "https://www.mapy.cz/s/kcyO",
-        "status": 404,
-        "context": "vské hodiny najdete přibližně [zde](https://www.mapy.cz/s/kcyO). Obrázek ukazuje Staronovou ",
-        "field": "body:link",
-        "wayback": null
-      }
-    ],
-    "content/hodinari/robert-drozda.mdx": [
-      {
-        "url": "https://www.marianskatynice.cz/e_download.php?file=data/editor/124cs_4.pdf",
-        "status": 400,
-        "context": "https://www.marianskatynice.cz/e_download.php?file=data/editor/124cs_4.pdf",
-        "field": "fm:references[7]:url",
-        "wayback": null
-      }
-    ],
-    "content/soupis-veznich-hodin/1876-police-nad-metuji-radnice-janata.mdx": [
-      {
-        "url": "https://www.policenm.cz/e_download.php?file=data/editor/88cs_173.pdf",
-        "status": 400,
-        "context": "Polická muzejní revue (PM18-01), Městské muzeum a galerie Police nad Metují. Onl",
-        "field": "fm:prameny[1]:citace:embedded",
-        "wayback": null
-      },
-      {
-        "url": "https://www.policenm.cz/e_download.php?file=data/editor/88cs_173.pdf",
-        "status": 400,
-        "context": "https://www.policenm.cz/e_download.php?file=data/editor/88cs_173.pdf",
-        "field": "fm:prameny[1]:url",
-        "wayback": null
-      }
-    ],
-    "content/soupis-veznich-hodin/1898-paichl-krecmer.mdx": [
-      {
-        "url": "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Krecmer_11.jpg",
-        "status": 404,
-        "context": "Původní URL http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Krec",
-        "field": "fm:prameny[0]:note:embedded",
-        "wayback": null
-      }
-    ],
-    "content/soupis-veznich-hodin/nedatovano-nezname-krecmer.mdx": [
-      {
-        "url": "http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Beroun/Krecmer_Vaclav_Vinohrady_vezni_hodiny_0001.JPG",
-        "status": 404,
-        "context": "Původní URL http://paichl.cz/knihy/hodiny/hodiny_vezni/Krecmer_Vaclav_Praha/Bero",
-        "field": "fm:prameny[0]:note:embedded",
         "wayback": null
       }
     ]

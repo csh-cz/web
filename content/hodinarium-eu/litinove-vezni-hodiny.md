@@ -10,7 +10,7 @@ tags:
   - cesko
   - popularizace
 imageCredit: "David Knespl"
-originalUrl: "https://radioeng.cz/poster.htm"
+originalUrl: "https://hodinarium-eu.pages.dev/zajimavosti/litinove-vezni-hodiny/"
 lastModified: "2026-05-04T00:00:00Z"
 sourceCharset: "utf-8"
 scrapedAt: "2026-05-04T00:00:00Z"

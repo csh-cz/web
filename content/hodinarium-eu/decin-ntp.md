@@ -65,7 +65,7 @@ V roce 2020 jsme sekci NTP serverů rozšířili o průmyslově vyráběný, av�
 
 ### Vybrané uváděné technické parametry
 
-[![družice 8.6.2020](/img/elektrika/NTP/druzice.png)](http://gnssmissionplanning.com/App/Skyplot)
+[![družice 8.6.2020](/img/elektrika/NTP/druzice.png)](https://www.gnssplanning.com/)
 
 - Time synchronization accuracy: 100 ns
 - NTP v2, v3, v4 (RFC 1119, RFC 1305,RFC5905), SNTP v3 a v4 (RFC 1769, RFC 2030)

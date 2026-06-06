@@ -14,9 +14,10 @@ tags:
   - 1700s
   - evropa
 references:
-  - title: Pfarrkirche St. Vitus, Pillichsdorf — Weinviertel.at
-    url: https://www.weinviertel.at/a-pfarrkirche-st-vitus-pillichsdorf
-    type: odkaz
+  - title: "Pillichsdorf — Wikipedie"
+    url: https://cs.wikipedia.org/wiki/Pillichsdorf
+    type: wiki
+    note: "Obec v Dolním Rakousku (region Weinviertel). Původní stránka turistického webu weinviertel.at byla nahrazena restrukturovanou navigací."
 tldr: Dolnorakouské lokální muzeum (zal. 1984) ve farní věži kombinuje halštatské nálezy, regionální historii a barokní hodinový stroj z roku 1762. Příklad menšího kombinovaného sakrálně-technického projektu.
 ---
 
