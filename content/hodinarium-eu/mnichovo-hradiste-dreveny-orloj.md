@@ -37,6 +37,6 @@ Orloj ukazuje čas, datum, den v týdnu, měsíc, polohu Slunce, fázi Měsíce 
 
 Orloj restauroval roku 2000 atelier veznihodiny.cz ([Petr Skála](/hodinari/petr-skala)); investorem byla Národní galerie v Praze.
 
-* * *
+---
 
 *Zpracováno podle popisu a fotodokumentace na webu [veznihodiny.cz](http://www.veznihodiny.cz/ukaz10.htm) — za restaurování a dokumentaci děkujeme P. Skálovi.*

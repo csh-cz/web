@@ -30,6 +30,6 @@ Při převzetí byl orloj v prakticky desolátním stavu. Celé části mechanik
 
 Mechaniku i číselníky zrestauroval a chybějící díly zrekonstruoval atelier veznihodiny.cz ([Petr Skála](/hodinari/petr-skala)). Po dokončení byl orloj jako funkční exponát zařazen do stálé expozice Muzea v Ústí nad Orlicí; investorem bylo muzeum.
 
-* * *
+---
 
 *Zpracováno podle popisu a fotodokumentace na webu [veznihodiny.cz](http://www.veznihodiny.cz/ukaz10.htm) — za restaurování a dokumentaci děkujeme P. Skálovi.*

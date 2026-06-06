@@ -78,7 +78,7 @@ GMT Londýn LisabonGMT+1 Praha, Paříž, ŘímGMT+2 Atény Istambul KáhiraGMT+
 - [**Číselníky a další informace o "Decimal time".
     **](http://en.wikipedia.org/wiki/Decimal_time)
 
-    * * *
+---
 
 - [**www.swatch.com**](http://www.swatch.com/) Domovské stránky zakladatele internetového času
 - [**www.fodor.sk/Spectrum/itimec.htm**](http://www.fodor.sk/Spectrum/itimec.htm) - konvertor internetového času pro různá místa na světě

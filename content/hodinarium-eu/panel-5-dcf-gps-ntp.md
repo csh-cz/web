@@ -46,7 +46,7 @@ DCF signálem jsou řízeny například [hodiny EH 101](/sbirka/karta/inv-P506-h
 
 ## NTP a počítačová síť
 
-Zajímavostí jsou [podružné částečně samostavitelné hodiny firmy IBM](/sbirka/karta/inv-P514-podruzne-hodiny-ibm/), u nichž  je řízení od mechanických  matičních  hodin nahrazeno elektronickým zařízením, získávajícím časový signál z NTP serveru a zachovávajícím logiku ovládání. 
+Zajímavostí jsou [podružné částečně samostavitelné hodiny firmy IBM](/sbirka/karta/inv-P514-podruzne-hodiny-ibm/), u nichž je řízení od mechanických matičních hodin nahrazeno elektronickým zařízením, získávajícím časový signál z NTP serveru a zachovávajícím logiku ovládání. 
 
 [Lodní hodiny Kappa](/sbirka/karta/inv-P517-lodni-hodiny-kappa/) přebírají časovou informaci z počítačové sítě a jsou dálkově seřiditelné přes mobil.
 
