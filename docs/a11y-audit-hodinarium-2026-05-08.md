@@ -1,10 +1,22 @@
 # Accessibility Audit: hodinarium-eu
 
 **Standard:** WCAG 2.1 AA
-**Datum:** 2026-05-08
+**Datum auditu:** 2026-05-08
 **Auditor:** Claude (skill `design:accessibility-review`, sonnet 4.5 v sister session)
 **Rozsah:** Base layout, Photo, SearchModal, ReportIssueModal, mapa, hodináři (index + detail), tagy, globální tokeny v `apps/hodinarium-eu/src/styles/global.css`
 **Branch při auditu:** `main` @ `206e929`
+
+**Status remediace (2026-06-06):**
+
+- **C1** (copper kontrast) ✅ hotovo — token posunut na `#c47049` (4.7:1) v `global.css:30`
+- **C2** (stav-znicene 3.27:1) ✅ hotovo — `#d97070` v `hodinari/[slug].astro:767` a `soupis-veznich-hodin/[slug].astro:419`
+- **C3** (SearchModal aria-live na full results) ✅ hotovo — separátní `#search-status` visually-hidden node + `announceCount()` funkce, listbox bez aria-live
+- **C4** (SearchModal ArrowUp/Down focus) ✅ hotovo — `aria-activedescendant` pattern (preferred WCAG) v `syncCombobox()`, focus zůstává na input
+- **M3** (focus-visible globálně pro `<button>`) ✅ hotovo — `global.css:189–196` pokrývá `a, button, summary, [role="button"]`
+- **M4** (`.report-form-close` touch target) ✅ hotovo — `min-width/height: 44px` v `ReportIssueModal.astro:178`
+- **M7** (`style="border-bottom: none"` v mapě) ✅ hotovo — refaktor na `class="link-bare"` (`mapa.astro`)
+- **M8** (mobile hamburger aria-label nemění) ✅ hotovo — toggle listener v `Base.astro:557–559`
+- **Zbývá:** M1, M2, M5, M6, R1–R4 (k revizi v dalším batchi)
 
 ---
 
