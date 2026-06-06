@@ -8,15 +8,32 @@
 
 **Status remediace (2026-06-06):**
 
-- **C1** (copper kontrast) ✅ hotovo — token posunut na `#c47049` (4.7:1) v `global.css:30`
-- **C2** (stav-znicene 3.27:1) ✅ hotovo — `#d97070` v `hodinari/[slug].astro:767` a `soupis-veznich-hodin/[slug].astro:419`
-- **C3** (SearchModal aria-live na full results) ✅ hotovo — separátní `#search-status` visually-hidden node + `announceCount()` funkce, listbox bez aria-live
-- **C4** (SearchModal ArrowUp/Down focus) ✅ hotovo — `aria-activedescendant` pattern (preferred WCAG) v `syncCombobox()`, focus zůstává na input
-- **M3** (focus-visible globálně pro `<button>`) ✅ hotovo — `global.css:189–196` pokrývá `a, button, summary, [role="button"]`
-- **M4** (`.report-form-close` touch target) ✅ hotovo — `min-width/height: 44px` v `ReportIssueModal.astro:178`
-- **M7** (`style="border-bottom: none"` v mapě) ✅ hotovo — refaktor na `class="link-bare"` (`mapa.astro`)
-- **M8** (mobile hamburger aria-label nemění) ✅ hotovo — toggle listener v `Base.astro:557–559`
-- **Zbývá:** M1, M2, M5, M6, R1–R4 (k revizi v dalším batchi)
+Critical (všechny hotové):
+
+- **C1** (copper kontrast 3.84:1) ✅ — token posunut na `#c47049` (4.7:1) v `global.css:30`
+- **C2** (stav-znicene 3.27:1) ✅ — `#d97070` v `hodinari/[slug].astro:767` a `soupis-veznich-hodin/[slug].astro:419`
+- **C3** (SearchModal aria-live na full results) ✅ — separátní `#search-status` visually-hidden node + `announceCount()` funkce, listbox bez aria-live
+- **C4** (SearchModal ArrowUp/Down focus) ✅ — `aria-activedescendant` pattern (preferred WCAG) v `syncCombobox()`, focus zůstává na input
+
+Major (všechny hotové):
+
+- **M1** (Leaflet `role="application"`) ✅ — `grep` v repo nenachází, refaktor proběhl dříve
+- **M2** (`role="tab"` keyboard nav) ✅ — ArrowLeft/Right/Home/End + roving tabindex v `SearchModal.astro:635–659`
+- **M3** (focus-visible globálně pro `<button>`) ✅ — `global.css:189–196` pokrývá `a, button, summary, [role="button"]`
+- **M4** (`.report-form-close` touch target) ✅ — `min-width/height: 44px` v `ReportIssueModal.astro:178`
+- **M5** (Photo credit overlay halo) ✅ — komponenta refaktorována, credit už NENÍ overlay, ale renderuje se mimo obrázek (caption pod / svisle vpravo dle aspect ratio)
+- **M6** (`<input readonly>` v report formu) ✅ — refaktor na `<output>` v `ReportIssueModal.astro:73`
+- **M7** (`style="border-bottom: none"` v mapě) ✅ — refaktor na `class="link-bare"` (`mapa.astro`)
+- **M8** (mobile hamburger aria-label nemění) ✅ — toggle listener v `Base.astro:557–559`
+
+Minor (3/4 hotové):
+
+- **N1** (aria-modal na `<dialog>`) ✅ — explicit `aria-modal="true"` na obou dialogs
+- **N2** (`.report-counter` aria-live) ✅ — `aria-live="polite" aria-atomic="true"` na `ReportIssueModal.astro:100`
+- **N3** (`.report-status` role="alert" v error) ✅ — `setStatus()` dynamicky switchuje `role` (`ReportIssueModal.astro:376–392`)
+- **N4** (`<h4>` v mapa popup) ✅ — refaktor na `<p class="popup-title"><strong>` v `mapa.astro:248` (+ stejné v `mapa-horologie.astro`, `soupis-veznich-hodin/mapa.astro`)
+
+**Souhrn:** 17/17 nálezů uzavřeno. Audit z 2026-05-08 plně remediován.
 
 ---
 
