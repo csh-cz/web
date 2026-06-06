@@ -1,5 +1,5 @@
 ---
-title: Žárovkový kompresor  aneb natahování a řízení pneumatikou.
+title: Žárovkový kompresor aneb natahování a řízení pneumatikou.
 slug: pneumatika
 category: konstrukce
 tldr: 'Konstrukce Elektronom — žárovkový kompresor minutovými impulsy natahuje hlavní strojek a zároveň hadičkou rozvádí přetlak k až šesti podružným hodinám bez magnetických komponent.'
@@ -13,7 +13,7 @@ sourceCharset: windows-1250
 scrapedAt: 2026-04-27T17:37:26.041Z
 ---
 
-Princip řízení podružných hodin stlačeným vzduchem je poměrně jednoduchý. Žárovkový kompresor  je zapnut kontaktem aktivovaným hlavními hodinami v minutových intervalech. Žhavicí vlákno ohřívá vzduch ve skleněné žárovce. Výsledný tlak prochází pryžovou hadicí na malý píst na hodinách. Píst se rozpíná, čímž se jednak napíná tahovou pružinu pohybu a jednak se tlakový impulz rozvádí k podružným hodinám, které udělají krok. Po ochlazení žárovky lze proces opakovat. V případě výpadku proudu mají master hodiny více než 12 hodin rezervu chodu. Generovaný přetlak je tak velký, že se může rozvádět až do šesti podružných hodin.
+Princip řízení podružných hodin stlačeným vzduchem je poměrně jednoduchý. Žárovkový kompresor je zapnut kontaktem aktivovaným hlavními hodinami v minutových intervalech. Žhavicí vlákno ohřívá vzduch ve skleněné žárovce. Výsledný tlak prochází pryžovou hadicí na malý píst na hodinách. Píst se rozpíná, čímž se jednak napíná tahovou pružinu pohybu a jednak se tlakový impulz rozvádí k podružným hodinám, které udělají krok. Po ochlazení žárovky lze proces opakovat. V případě výpadku proudu mají master hodiny více než 12 hodin rezervu chodu. Generovaný přetlak je tak velký, že se může rozvádět až do šesti podružných hodin.
 
 > 📷 *Typické uspořádání hodin s žárovkovým kompresorem — schéma z dobového katalogu (obrázek zatím nedostupný).*
 ![Schéma zapojení elektro-pneumatického řízení podružných hodin Junghans](/img/elektrika/junhhans/schema1.jpg "Schéma zapojení elektro-pneumatického řízení podružných hodin Junghans")

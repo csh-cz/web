@@ -14,7 +14,7 @@ sourceCharset: windows-1250
 scrapedAt: 2026-04-27T17:36:59.134Z
 ---
 
-Jsou to  hodiny jedna báseň ??
+Jsou to hodiny jedna báseň ??
 
 ![Kulaté vyšívané nástěnné hodiny s květinovým brokátovým podkladem (růžové růže, zlaté listy), zelené skleněné cabochony místo číslic, jediná černá ručka v pozlaceném dřevěném rámu](/img/ujete/gobelin.jpg)
 
