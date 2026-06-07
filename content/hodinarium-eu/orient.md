@@ -13,10 +13,14 @@ lastModified: "Wed, 24 Feb 2021 13:07:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:37:24.375Z"
 tldr: 'Analýza číselníku víceletých kalendářních hodinek na principu 28letého slunečního cyklu — týž princip stoletých kalendářů na orlojích. Doplněno o stejnou indikaci v sovětských hodinkách Raketa a varování před padělky.'
+references:
+  - title: "Orient Watch — Wikipedie (cs)"
+    url: "https://cs.wikipedia.org/wiki/Orient_Watch"
+    type: wiki
 ---
 ![Číselník Orient CEU07005WX](/img/Orient/orientceu07005wx_dial.jpg)
 
-**Orient Watch Co., Ltd**., japonský výrobce hodinek ([o firmě](https://cs.wikipedia.org/wiki/Orient_Watch)), vyrábí víceleté kalendářní hodinky již mnoho let. Dávají vám okamžité odpovědi na otázky například „jaký je datum příštího pátku?”. [Kalendář](/img/Orient/kalendar.jpg) je založen na dávno známém principu nazývaném sluneční kruh či solární cyklus (lat. circulus solaris, cyclus solaris). To je kalendářní cyklus 28 let, ve kterém se v juliánském kalendáři opakují roky, ve kterých připadají dny v týdnu na stejná data. Na základě slunečního kruhu byla jednotlivým rokům přiřazována tzv. nedělní písmena. Na tomto principu byl i "stoletý kalendář" na kalendářních deskách různých orlojů. I přes nyní používaný Gregoriánský kalendář se tento princip v hodinkách Orient uplatňuje dodnes.
+**Orient Watch Co., Ltd**., japonský výrobce hodinek, vyrábí víceleté kalendářní hodinky již mnoho let. Dávají vám okamžité odpovědi na otázky například „jaký je datum příštího pátku?”. [Kalendář](/img/Orient/kalendar.jpg) je založen na dávno známém principu nazývaném sluneční kruh či solární cyklus (lat. circulus solaris, cyclus solaris). To je kalendářní cyklus 28 let, ve kterém se v juliánském kalendáři opakují roky, ve kterých připadají dny v týdnu na stejná data. Na základě slunečního kruhu byla jednotlivým rokům přiřazována tzv. nedělní písmena. Na tomto principu byl i "stoletý kalendář" na kalendářních deskách různých orlojů. I přes nyní používaný Gregoriánský kalendář se tento princip v hodinkách Orient uplatňuje dodnes.
 
 Celý cyklus je založen na tom, že v roce je 52 týdnů po sedmi dnech plus jeden nebo v přestupném roce dva dny. 52 x 7 +1 = 365 dní. Každého roku se tak posune den v týdnu o jeden až dva dny. V Juliánském kalendáři, kde se pravidelně každé čtyři roky vkládá jeden přestupný den je tedy délka cyklu 7 x 4 = 28 let. Právě tolik let je vepsaných do stupnice na hodinkách Orient. Pravděpodobně každoročně se u nových kusů stupnice inovuje tak, aby nejstarší datum byl rok výroby.
 

@@ -11,6 +11,10 @@ tags:
   - 2000s
 tldr: 'Praktická implementace sítě jednotného času přes NTP — podružné hodiny Bodet Profil 930 napájené přes PoE, MikroTik v režimu Broadcast a vlastní GPS-NTP server stratum 1 s monitorem chronyd na Lubuntu.'
 author: Petr Král
+references:
+  - title: "GPS — Wikipedie (cs)"
+    url: "https://cs.wikipedia.org/wiki/GPS"
+    type: wiki
 ogImage: /img/elektrika/Bodet/Profil930NTP.png
 relatedKarty:
   - inv-P503-podruzne-hodiny-bodet
@@ -95,7 +99,7 @@ Nejnovějším NTP serverem Hodinária je Chrony server běžíci na monitorovac
 
 Odkazy
 
-- [Wikipedii](https://cs.wikipedia.org/wiki/GPS) — cs.wikipedia.org. [cit. 2026-04-28]
+- *GPS — Wikipedie:* viz sekce **Reference** pod článkem
 - [Přesnost atomových hodin, GPS a teorie relativity](https://www.osel.cz/3225-presnost-atomovych-hodin-gps-a-teorie-relativity.html) — osel.cz. [cit. 2026-04-28]
 - [www.gpsntp.com](http://www.gpsntp.com/) — gpsntp.com. [cit. 2026-04-28]
 - [Konfigurace NTP serveru](https://web.archive.org/web/20250907175819/https://martinuvzivot.cz/konfigurace-ntp-serveru/) — MartinuvZivot. [cit. 2026-04-28]
