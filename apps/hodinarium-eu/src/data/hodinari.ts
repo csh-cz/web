@@ -2338,6 +2338,19 @@ export const hodinari: Hodinar[] = [
     era: 'soucasnost',
   },
   {
+    slug: 'patrik-parizek',
+    jmeno: 'Patrik Pařízek',
+    aliasy: ['Patrik Pařízek', 'P. Pařízek'],
+    typ: 'osoba',
+    obdobi: 'současnost',
+    mesto: 'Olomouc / Praha',
+    zeme: 'CZ',
+    shrnuti:
+      'Badatel a historik hodinářství, absolvent FF UP Olomouc. Autor diplomové práce [*České a moravské historické hodiny 18. a 19. století*](https://theses.cz/id/i6oavl) (2022, 607 s.). Aktivní člen [Českého spolku horologického](/o-hodinariu) od roku 2021, distributor Zpravodaje SPSH, autor článků o hodinářské dynastii [Engelbrechtů z Berouna](/hodinari/patrik-parizek), mechanických automatofonech, astronomických a geografických hodinách a hodinách jako mediu.',
+    relatedSlugs: [],
+    era: 'soucasnost',
+  },
+  {
     slug: 'frantisek-donat-nymburk',
     jmeno: 'František Donát (Nymburk)',
     aliasy: ['František Donát', 'Fr. Donát', 'Donát Nymburk'],
