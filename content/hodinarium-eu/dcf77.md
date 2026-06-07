@@ -16,6 +16,22 @@ scrapedAt: "2026-04-27T17:36:46.354Z"
 manualEdit: true
 ogImage: "/img/dcf_analog.jpg"
 tldr: 'Princip a parametry dlouhovlnného časového signálu 77,5 kHz z vysílače Mainflingen — od pulzně šířkové modulace pod vedením PTB Braunschweig až po analogové, digitální i náramkové aplikace.'
+references:
+  - title: "DCF77 — Wikipedie (cs)"
+    url: "https://cs.wikipedia.org/wiki/DCF77"
+    type: wiki
+  - title: "WWVB — Wikipedia (en)"
+    url: "https://en.wikipedia.org/wiki/WWVB"
+    type: wiki
+  - title: "DCF77 — domovská stránka vysílače (PTB)"
+    url: "https://www.ptb.de/cms/en/ptb/fachabteilungen/abt4/fb-44/ag-442/dissemination-of-legal-time/dcf77.html"
+    type: odkaz
+  - title: "DCF77 — Zasazení do kontextu (Meinberg)"
+    url: "http://support.fccps.cz/download/Meinberg/prehled/DCF77.htm"
+    type: odkaz
+  - title: "Martin Pouva: Vše o času"
+    url: "http://home.zcu.cz/~poupa/dcf77.html"
+    type: odkaz
 ---
 ![Analogový DCF budík — kombinace klasického číselníku a atomové přesnosti](/img/dcf_analog.jpg)
 
@@ -39,7 +55,7 @@ Střední hodnota nosného kmitočtu 77,5 kHz se neodchyluje od jmenovité hodno
 
 Kódování časové informace je prováděno pulzně šířkovou modulací, poklesem amplitudy nosné na 25 % na začátku každé sekundy. Klíčování je synchronizováno fázovou synchronizací s nosnou a odpovídá na 10 mikrosekund přesně úřední časové stupnici fyzikálně technického ústavu v Braunschweigu (PTB - Physikalisch-Technischen Bundesanstalt).
 
-Částečně citováno z „[cs.wikipedia.org/wiki/DCF77](http://cs.wikipedia.org/wiki/DCF77)”
+Částečně citováno z Wikipedie.
 
 ![Nejlevnější DCF hodinový modul WT100](/img/dcf_modul.jpg)
 
@@ -53,7 +69,7 @@ Nejlevnější nové DCF hodiny lze patrně získat zakoupením vestavného modu
 
 ![Hodinky EH-23GA](/img/WWVB/EH-23GA.jpg)
 
-Na obrázku vpravo jsou hodinky La Crosse Technology E. Howard EH-23GA Gold Atomic Watch, které díky vestavěnému přijímači přijímají rádiové signály z vysílače atomových hodin NIST WWVB ve Fort Collins v Coloradu. Tento vysílač používá frekvenci 60 kHz. Podrobnější popis včetně kódování je na [wikipedii](https://en.wikipedia.org/wiki/WWVB). Frekvence i způsob kódování se u různých vysílačů různí. Je otázka, co dělat, pokud jsme s hodinkami v oblasti, ve které nelze potřebný vysílač přijímat.
+Na obrázku vpravo jsou hodinky La Crosse Technology E. Howard EH-23GA Gold Atomic Watch, které díky vestavěnému přijímači přijímají rádiové signály z vysílače atomových hodin NIST WWVB ve Fort Collins v Coloradu. Tento vysílač používá frekvenci 60 kHz. Podrobnější popis včetně kódování je na Wikipedii. Frekvence i způsob kódování se u různých vysílačů různí. Je otázka, co dělat, pokud jsme s hodinkami v oblasti, ve které nelze potřebný vysílač přijímat.
 
 ## Simulátory či emulátory časových vysílačů
 
@@ -75,8 +91,4 @@ Obě vysílací antény jsou vertikální všesměrové antény s horním zatí�
 
 Generování signálu DCF77 a jeho monitorovací a řídicí funkce jsou od konce října 2006 založeny na zcela novém zařízení. Tři atomové hodiny poskytují standardní frekvenci, ze které se generuje nosná frekvence, 77,5 KHz, a časový kód. Redundantní logické řízení musí zajistit bezchybné šíření časových informací. Hodiny a jednotky generování signálu jsou připojeny k nepřerušitelným zdrojům napájení, které zaručují spolehlivou nepřetržitou generování signálu.
 
-[Domovská stránka vysílače](https://www.ptb.de/cms/en/ptb/fachabteilungen/abt4/fb-44/ag-442/dissemination-of-legal-time/dcf77.html)
-
-[Zasazení do kontextu od firmy Meinberg](http://support.fccps.cz/download/Meinberg/prehled/DCF77.htm)
-
-[Martin Pouva: Vše o času](http://home.zcu.cz/~poupa/dcf77.html)
+Více informací o vysílači, jeho kontextu a obecných principech viz odkazy v sekci **Reference** pod článkem.
