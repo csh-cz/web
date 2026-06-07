@@ -11,6 +11,19 @@ scrapedAt: "2026-04-27T17:36:53.309Z"
 tags:
   - vodni
 tldr: 'Skleněné vodní hodiny Bernarda Gittona (1979) s pětistupňovou kaskádou sifonů a hladinou ve dvou trubicích zobrazující hodiny i minuty — světově známé instalace včetně dětského muzea v Indianapolis.'
+references:
+  - title: "Water clock — Wikipedia (en)"
+    url: "https://en.wikipedia.org/wiki/Water_clock"
+    type: wiki
+    note: "Obecněji o vodních hodinách."
+  - title: "Bernard Gitton's time-flow clocks (marcdatabase.com)"
+    url: "http://www.marcdatabase.com/~lemur/dm-gitton.html"
+    type: odkaz
+    note: "Informačně nejhodnotnější stránka o autorovi včetně podrobného popisu hodin a vysvětlení principů. (en)"
+  - title: "Cadran-clepsydre — technický nákres (perso.orange.fr)"
+    url: "https://perso.orange.fr/cadrans.solaires/cadrans/Cadran-clepsydre.html"
+    type: odkaz
+    note: "(fr)"
 ---
 **TIME FLOW CLOCK** — hodiny protékajícího času.
 
@@ -30,9 +43,4 @@ Na závěr si dovolím v úctě smeknout dva klobouky. Jeden na počest pana **B
 
 ## **[Animace zde](/img/vodni/time_flow_clock/wuhrmsierelativ.html)**
 
-## Další odkazy na stránky o těchto hodinách:
-
-- Stránky autora Bernarda Gittona
-- www.marcdatabase.com/~lemur/dm-gitton.html Asi informačně nejhodnotnější stránka o autorovi včetně podrobného popisu hodin a vysvětlení principů, na kterých jsou založeny. Obsahuje i nákres [kyvadla](/slovnik/kyvadlo), zde neuvedeného. (An)
-- perso.orange.fr/cadrans.solaires/cadrans/Cadran-clepsydre.html Také technický nákres (FR)
-- [en.wikipedia.org/wiki/Water\_clock](http://en.wikipedia.org/wiki/Water_clock) Obecněji o vodních hodinách ve Wikipedii.
+*Další odkazy o autorovi a technickém řešení viz sekce **Reference** pod článkem.*
