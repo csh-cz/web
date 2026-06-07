@@ -1875,6 +1875,17 @@ body[data-editor-mode] article[data-draft="true"] > .draft-banner code {
   border-radius: 2px;
 }
 
+/* Dřevořezové diagramy v edici — kompaktnější než výchozí img-standalone (480 px),
+   ať nedominují stránce. Modifikátor vedle img-standalone (ten zajišťuje
+   float:none + JS skip + margin auto); zde jen menší max-width/height.
+   Vyšší specificita (2 třídy) přebije .img-standalone. */
+.prose-content img.img-standalone.img-diagram {
+  max-width: 320px;
+  max-height: 380px;
+  width: auto;
+  height: auto;
+}
+
 /* Vždy viditelný inline editorský odkaz (např. „[viz obrázek]") — barevně
    odlišený, NENÍ součástí skrývatelného aparátu (.editorial-note). */
 .prose-content .ed-inline {
