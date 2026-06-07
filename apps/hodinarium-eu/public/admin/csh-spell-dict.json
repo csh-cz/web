@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-07T05:15:14.622Z",
+  "generatedAt": "2026-06-07T07:14:52.922Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 246,
-    "hodinari": 174,
-    "hodinariTs": 174,
+    "hodinari": 175,
+    "hodinariTs": 175,
     "soupis": 443
   },
-  "count": 1906,
+  "count": 1908,
   "words": [
     "Abraham",
     "Accutron",
@@ -1164,6 +1164,7 @@
     "Pápa",
     "Papouch",
     "Pardubický",
+    "Pařízek",
     "Paříž",
     "Paseky",
     "paschae",
@@ -1171,6 +1172,7 @@
     "Pátek",
     "Pater",
     "Patera",
+    "Patrik",
     "patrně",
     "patro",
     "Paul",
