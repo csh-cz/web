@@ -106,6 +106,32 @@ prosvítit články) a `pnpm search:rebuild` (corpus + embed).
       - Drift k opravě: `--color-copper` mezi dark variantami, chybějící
         `--font-mono` v Horologii, `.btn-*` inline v `index.astro`.
 
+- [ ] **FU6 Wiki/mapa link v body — review zbývajících 10 souborů** —
+      částečně hotovo (2026-06-07, PR #72–#75 vyřešily 9 souborů z 18,
+      audit `wiki-link-body` 25 → 11 výskytů). Zbývajících 10 souborů
+      vyžaduje per-soubor review podle skill `clanky-konvence` §5.1 —
+      organické inline linky lze ponechat (jméno hodináře, místo, odborný
+      termín), dovětkové („více ve wiki", „článek zde") přesunout do
+      `references:` block.
+
+      Kandidáti k review (většina vypadá jako **organické inline** — lze ponechat):
+      - `pichacky.md` (2× Johannes Bürk + Firma Bürk — jména/firmy hodinářů)
+      - `prazsky-orloj-ciferniky-2018.md` (Staroměstská radnice — místo)
+      - `inv-A013-vezni-wenzel-mellner.md` (dendrochronologie — odborný termín)
+      - `casovy-zamek.md` (Time lock — anglický termín)
+      - `atomove-kapesni.md` (Rubidium standard — odborný termín)
+      - `arduino-pps.md` (GPS disciplined oscillator — odborný termín)
+      - `svitici.md` (Wikipedia citace Big Ben — organicky uvozená)
+
+      Plus 3 soubory s `Skrytý list/tabulka` výskyty, které mají i wiki
+      linky v body (decin-vypousteny — nebo jiný; audit dále reportuje
+      10 souborů × 12 výskytů této kategorie zvlášť, vyžaduje verify zda
+      jde o legitimní krátké paragrafy nebo o nedotažené listy).
+
+      **David: rozhodni** zda striktně dodržovat „vše do references" (pak
+      všech 10 souborech přesunout) nebo respektovat organický kontext
+      (skill default — ponechat většinu).
+
 ## A.4 — A11y odložené nálezy z auditu 2026-05-08
 
 - [x] **C3 + C4 + M2: SearchModal aria pattern refaktor** — hotov 2026-05-12
