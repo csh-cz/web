@@ -1,0 +1,419 @@
+---
+import Base from '../layouts/Base.astro';
+import { schuzeChronologicky, schuzePoRoce, schuzeStatistiky, referenti } from '../data/schuze';
+
+const roky = Array.from(schuzePoRoce().entries()).sort((a, b) => b[0] - a[0]);
+const stat = schuzeStatistiky;
+
+const formatLabels = {
+  prezencni: { label: 'prezenčně', class: 'fmt-prez' },
+  zoom: { label: 'online (Zoom)', class: 'fmt-zoom' },
+  vyjezd: { label: 'výjezdní zasedání', class: 'fmt-vyjezd' },
+};
+---
+<Base
+  title="Členské schůze ČSH"
+  description="Kompletní seznam členských schůzí Českého spolku horologického od založení v září 2021. Programy, místa konání, počty účastníků."
+>
+  <header class="schuze-header">
+    <p class="eyebrow mb-4">Spolková agenda</p>
+    <h1>Členské schůze ČSH</h1>
+    <p class="lede">
+      Spolek se schází <strong>jednou měsíčně mimo letní prázdniny</strong>.
+      Většina schůzí probíhá v prostorách <a href="/sponzoring#clock-gallery">Clock Gallery Praha</a>
+      (Jungmannova 748/30), které spolku dlouhodobě bezplatně poskytuje
+      majitel galerie. Občasná výjezdní zasedání bývají v expozici
+      <a href="https://hodinarium.eu" target="_blank" rel="noopener">Hodinária na zámku Děčín</a>
+      nebo u členů na zajímavých realizacích.
+    </p>
+    <p class="lede">
+      Témata jsou různorodá — restaurování věžních strojů, vývoj DIY
+      elektroniky pro hodiny, dějepisné nálezy o pražském orloji, hledání
+      autorství historických hodin, ale třeba i kuriozity jako americké
+      synchronní hodiny na 110 V / 60 Hz nebo digitální polární sluneční
+      hodiny s mechanickým světelným filtrem.
+    </p>
+  </header>
+
+  <!-- ── STATISTIKY ── -->
+  <section class="schuze-stats">
+    <div class="stat-grid">
+      <div class="stat-card">
+        <span class="stat-num">{stat.pocetCelkem}</span>
+        <span class="stat-lbl">schůzí celkem</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">{stat.celkemBoduProgramu}</span>
+        <span class="stat-lbl">programových bodů</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">{stat.prumernaUcast}</span>
+        <span class="stat-lbl">průměrná účast</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">{stat.pocetVyjezdnich}</span>
+        <span class="stat-lbl">výjezdních zasedání</span>
+      </div>
+    </div>
+    <p class="stat-note">
+      První zaznamenaná schůze v dochovaném programovém PDF:
+      <strong>{stat.prvniSchuze}</strong>.
+      Spolek formálně existuje pod různými názvy už od roku 2009 (viz
+      <a href="/akce">Akce a události</a>); systematické zápisy programu
+      schůzí jsou dochované od září 2021.
+    </p>
+  </section>
+
+  <!-- ── LEGENDA ZKRATEK REFERENTŮ ── -->
+  <section class="schuze-legenda">
+    <h2>Zkratky referentů</h2>
+    <p class="legenda-lede">
+      V zápisech se referenti označují iniciálami. Pro orientaci:
+    </p>
+    <dl class="legenda-grid">
+      {Object.entries(referenti).map(([zkr, plne]) => (
+        <div class="legenda-item">
+          <dt class="legenda-zkr">{zkr}</dt>
+          <dd class="legenda-plne">{plne}</dd>
+        </div>
+      ))}
+    </dl>
+  </section>
+
+  <!-- ── SCHŮZE PO ROCÍCH ── -->
+  {roky.map(([rok, schuzeRoku]) => (
+    <section class="schuze-rok" id={`rok-${rok}`}>
+      <h2 class="rok-nadpis">
+        <span class="rok-cislo">{rok}</span>
+        <span class="rok-pocet">{schuzeRoku.length} schůzí</span>
+      </h2>
+
+      <div class="schuze-list">
+        {schuzeRoku.map((s) => {
+          const fmt = formatLabels[s.format];
+          return (
+            <article class="schuze-card" id={s.slug}>
+              <header class="schuze-card-head">
+                <div class="schuze-datum-block">
+                  <p class="schuze-datum">{s.datumText}</p>
+                  <p class="schuze-misto">{s.misto}</p>
+                </div>
+                <div class="schuze-meta-block">
+                  <span class={`schuze-format ${fmt.class}`}>{fmt.label}</span>
+                  <span class="schuze-ucast">
+                    {s.pocetUcastniku}&nbsp;<small>účastníků</small>
+                  </span>
+                </div>
+              </header>
+
+              <ol class="schuze-program">
+                {s.program.map((bod) => (
+                  <li class="schuze-bod">
+                    <span class="bod-text">{bod.text}</span>
+                    {bod.referent && (
+                      <span class="bod-referent" title={referenti[bod.referent] ?? bod.referent}>
+                        — {bod.referent}
+                      </span>
+                    )}
+                  </li>
+                ))}
+              </ol>
+
+              {s.poznamka && (
+                <p class="schuze-poznamka">
+                  <em>{s.poznamka}</em>
+                </p>
+              )}
+            </article>
+          );
+        })}
+      </div>
+    </section>
+  ))}
+
+  <!-- ── CTA ── -->
+  <section class="schuze-cta">
+    <h2>Chceš vystoupit s vlastním tématem?</h2>
+    <p>
+      Členské schůze jsou otevřené — kdokoli ze členů (i hostů po dohodě)
+      se může přihlásit s vlastním příspěvkem. Restaurátorská reportáž,
+      ukázka DIY projektu, historický nález, návštěva muzea v zahraničí,
+      diskuzní téma. Téma nahlas předem na
+      <a href="mailto:info@orloj.eu">info@orloj.eu</a>, ať se zařadí do
+      programu.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .schuze-header { margin-bottom: 3rem; }
+  .schuze-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--color-brass-bright);
+    margin: 0 0 1rem;
+    line-height: 1.05;
+  }
+  .lede {
+    font-size: 1.1rem;
+    color: var(--color-text);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  /* Statistiky */
+  .schuze-stats { margin-bottom: 3rem; }
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .stat-card {
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+    padding: 1.25rem 1rem;
+    text-align: center;
+  }
+  .stat-num {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    line-height: 1;
+  }
+  .stat-lbl {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin-top: 0.4rem;
+    letter-spacing: 0.02em;
+  }
+  .stat-note {
+    font-size: 0.9rem;
+    color: var(--color-text-soft);
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  /* Legenda referentů */
+  .schuze-legenda {
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+    border-radius: 2px;
+  }
+  .schuze-legenda h2 {
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.5rem;
+    border: none;
+    padding: 0;
+  }
+  .schuze-legenda h2::before { content: none; }
+  .legenda-lede {
+    margin: 0 0 1rem;
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+  }
+  .legenda-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.5rem 1.5rem;
+    margin: 0;
+  }
+  .legenda-item {
+    display: flex;
+    gap: 0.75rem;
+    align-items: baseline;
+  }
+  .legenda-zkr {
+    font-family: ui-monospace, "SF Mono", monospace;
+    color: var(--color-brass-bright);
+    font-weight: 500;
+    min-width: 3ch;
+  }
+  .legenda-plne {
+    margin: 0;
+    color: var(--color-text);
+    font-size: 0.9rem;
+  }
+
+  /* Rok */
+  .schuze-rok { margin-bottom: 4rem; }
+  .rok-nadpis {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.75rem;
+    color: var(--color-brass-bright);
+    margin: 0 0 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .rok-nadpis::before { content: none; }
+  .rok-pocet {
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--color-text-muted);
+    text-transform: lowercase;
+  }
+
+  /* Karty schůzí */
+  .schuze-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .schuze-card {
+    padding: 1.5rem 1.75rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    border-radius: 2px;
+    border-left: 3px solid var(--color-copper);
+  }
+  .schuze-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    padding-bottom: 0.85rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 12%, transparent);
+  }
+  .schuze-datum {
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.2rem;
+  }
+  .schuze-misto {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+  }
+  .schuze-meta-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.35rem;
+    flex-shrink: 0;
+  }
+  .schuze-format {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    padding: 0.25rem 0.6rem;
+    border-radius: 2px;
+    font-weight: 500;
+  }
+  .fmt-prez {
+    background: color-mix(in srgb, var(--color-brass) 12%, transparent);
+    color: var(--color-brass-bright);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+  }
+  .fmt-zoom {
+    background: color-mix(in srgb, var(--color-copper) 12%, transparent);
+    color: var(--color-copper);
+    border: 1px solid color-mix(in srgb, var(--color-copper) 25%, transparent);
+  }
+  .fmt-vyjezd {
+    background: color-mix(in srgb, var(--color-brass-bright) 12%, transparent);
+    color: var(--color-brass-bright);
+    border: 1px solid color-mix(in srgb, var(--color-brass-bright) 30%, transparent);
+  }
+  .schuze-ucast {
+    font-size: 0.95rem;
+    color: var(--color-text);
+  }
+  .schuze-ucast small {
+    color: var(--color-text-muted);
+    font-size: 0.8rem;
+  }
+
+  /* Program (číslovaný seznam) */
+  .schuze-program {
+    margin: 0;
+    padding: 0 0 0 1.5rem;
+    list-style: decimal;
+    color: var(--color-text);
+  }
+  .schuze-bod {
+    margin-bottom: 0.45rem;
+    line-height: 1.5;
+    padding-left: 0.3rem;
+  }
+  .schuze-bod::marker {
+    color: var(--color-text-muted);
+    font-size: 0.85em;
+  }
+  .schuze-bod:last-child { margin-bottom: 0; }
+  .bod-text { color: var(--color-text); }
+  .bod-referent {
+    color: var(--color-brass-bright);
+    font-size: 0.85em;
+    margin-left: 0.4rem;
+    font-style: italic;
+    cursor: help;
+    border-bottom: 1px dotted color-mix(in srgb, var(--color-brass) 30%, transparent);
+  }
+
+  .schuze-poznamka {
+    margin: 1rem 0 0;
+    padding: 0.75rem 1rem;
+    background: var(--color-bg-deep);
+    border-left: 2px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    font-size: 0.9rem;
+    color: var(--color-text-soft);
+    border-radius: 0 2px 2px 0;
+  }
+  .schuze-poznamka em { font-style: italic; }
+
+  /* CTA */
+  .schuze-cta {
+    margin-top: 4rem;
+    padding: 2rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    border-radius: 2px;
+    border-left: 3px solid var(--color-brass);
+  }
+  .schuze-cta h2 {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.85rem;
+    border: none;
+    padding: 0;
+  }
+  .schuze-cta h2::before { content: none; }
+  .schuze-cta p {
+    margin: 0;
+    color: var(--color-text);
+    line-height: 1.6;
+  }
+
+  @media (max-width: 640px) {
+    .schuze-card-head {
+      flex-direction: column;
+    }
+    .schuze-meta-block {
+      flex-direction: row;
+      align-items: center;
+      align-self: flex-start;
+    }
+  }
+</style>
