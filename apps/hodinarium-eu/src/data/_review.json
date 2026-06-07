@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T04:19:41.462Z",
+  "generatedAt": "2026-06-07T04:29:59.975Z",
   "summary": {
     "kartyTotal": 318,
     "kartyNoTyp": 244,
@@ -5733,7 +5733,7 @@
         "title": "Odkazy",
         "category": "zajimavosti",
         "editUrl": "/admin/#/collections/clanky/entries/vodni-odkazy",
-        "wordCount": 65
+        "wordCount": 111
       },
       {
         "slug": "youtube",
