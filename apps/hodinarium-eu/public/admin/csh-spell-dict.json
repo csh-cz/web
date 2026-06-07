@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-07T07:14:52.922Z",
+  "generatedAt": "2026-06-07T12:48:20.309Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 246,
-    "hodinari": 175,
-    "hodinariTs": 175,
+    "hodinari": 176,
+    "hodinariTs": 176,
     "soupis": 443
   },
-  "count": 1908,
+  "count": 1914,
   "words": [
     "Abraham",
     "Accutron",
@@ -102,6 +102,8 @@
     "Bernard",
     "Bernhard",
     "Beroun",
+    "Berouna",
+    "berounští",
     "berthouduv",
     "Berthoudův",
     "Besarabie",
@@ -343,6 +345,10 @@
     "Emil",
     "Engelbert",
     "Engelbertus",
+    "Engelbrecht",
+    "Engelbrechtové",
+    "Engelpracht",
+    "Engelpreht",
     "Engelschalck",
     "Engelschalckovi",
     "Engelschalk",
