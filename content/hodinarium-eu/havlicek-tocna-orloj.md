@@ -35,7 +35,7 @@ references:
     type: odkaz
 ---
 
-::photo{src="/img/projekty/havlicek-tocna/orloj-ciselniky-detail.jpg" alt="Nový astronomický orloj v Praze-Točné, detail číselníků zblízka — hodinový číselník se zlatými římskými číslicemi a štíhlou hodinovou ručkou v rytířském zdobení, dva malé číselníky pro východ (zleva) a západ (zprava) Slunce, dole velký astronomický disk: vnější čtyřiadvacetník v římských I–XXIV, kalendářní pás s českými názvy měsíců (LEDEN, ÚNOR…), ekliptika se znameními zvířetníku, ve středu fialová deska s geometrickými aspekty a žlutým Sluncem; ručka se symbolem Slunce ukazuje občanský čas" class="img-hero" author="Jiří Havlíček"}
+::photo{src="/img/projekty/havlicek-tocna/orloj-ciselniky-detail.jpg" alt="Nový astronomický orloj v Praze-Točné, detail číselníků zblízka — hodinový číselník se zlatými římskými číslicemi a štíhlou hodinovou ručkou v rytířském zdobení, dva malé číselníky pro východ (zleva) a západ (zprava) Slunce, dole velký astronomický disk: vnější čtyřiadvacetník v římských I–XXIV, kalendářní pás s českými názvy měsíců (LEDEN, ÚNOR…), ekliptika se znameními zvířetníku, ve středu fialová deska s geometrickými aspekty a žlutým Sluncem; ručka se symbolem Slunce ukazuje občanský čas" class="img-standalone img-skip-hero" author="Jiří Havlíček"}
 
 Astronomický orloj postavený členem [Českého spolku horologického](/o-hodinariu) **Jiřím Havlíčkem** na rohu ulice Starý lis 269 v pražské Točné. Realizace trvala asi tři roky (2018–2020), spuštěn byl v říjnu 2020. Cílem byla vlastní stavba podle vzoru šumavského orloje **Zdeňka Landy** v Hojsově Stráži (2017), jehož slavnostního spuštění se autor osobně zúčastnil. Stejně jako on vycházel autor z **Učebnice odborné nauky hodinářské** Josefa Sladkovského.
 
@@ -49,7 +49,7 @@ Rám jicího stroje má rozměry **50 × 50 × 60 cm** a je sešroubován z jäk
 
 Na hodinovou hřídel vycházejí převody **10/15, 8/60, 8/64**. Střídné soukolí pro převod mezi ručkami je **10/40, 12/36**. Pro pohon orloje jsou přidána dvě soukolí **10/50 a 10/48**, která otáčí pomocnou hřídelí 1× za 24 hodin. Na této hřídeli je řetězové kolo, které otáčí slunečním kolem orloje o **365 zubech**.
 
-::photo{src="/img/projekty/havlicek-tocna/jici-stroj-dilna.jpg" alt="Jicí stroj Havlíčkova orloje ve výrobní dílně — černý sešroubovaný jäklový rám asi 1,5 m vysoký se třemi etážemi: nahoře řetězové převody natahovacího ústrojí, uprostřed soustava ozubených kol modulu 3 mm vyřezaných vodním paprskem, dole velké kolo pro pohon astronomického číselníku s metrovým kyvadlem; v pozadí stěna dílny s plakátem starého automobilu" class="img-large" author="Jiří Havlíček"}
+::photo{src="/img/projekty/havlicek-tocna/jici-stroj-dilna.jpg" alt="Jicí stroj Havlíčkova orloje ve výrobní dílně — černý sešroubovaný jäklový rám asi 1,5 m vysoký se třemi etážemi: nahoře řetězové převody natahovacího ústrojí, uprostřed soustava ozubených kol modulu 3 mm vyřezaných vodním paprskem, dole velké kolo pro pohon astronomického číselníku s metrovým kyvadlem; v pozadí stěna dílny s plakátem starého automobilu" class="img-standalone" author="Jiří Havlíček"}
 
 ## Mechanika číselníků
 
