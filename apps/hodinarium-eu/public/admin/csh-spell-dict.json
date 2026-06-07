@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-06T18:10:21.022Z",
+  "generatedAt": "2026-06-07T05:15:14.622Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 246,
-    "hodinari": 173,
-    "hodinariTs": 173,
+    "hodinari": 174,
+    "hodinariTs": 174,
     "soupis": 443
   },
-  "count": 1905,
+  "count": 1906,
   "words": [
     "Abraham",
     "Accutron",
@@ -1639,6 +1639,7 @@
     "Tiszakécske",
     "Tobias",
     "Tobiáš",
+    "Točná",
     "Tompion",
     "Tompionův",
     "Tótmegyer",
