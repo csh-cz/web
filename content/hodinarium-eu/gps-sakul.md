@@ -14,6 +14,10 @@ lastModified: "Tue, 23 Jun 2020 10:27:00 GMT"
 sourceCharset: "windows-1250"
 scrapedAt: "2026-04-27T17:36:46.678Z"
 tldr: 'Prototyp digitálních hodin s GPS modulem Quectel L80 a procesorem ATMEGA328P. Vestavěné RTC družicového modulu zajišťuje chod i při občasném výpadku signálu a synchronizaci do 3 sekund po zapnutí.'
+references:
+  - title: "Globální družicový polohový systém (GNSS) — Wikipedie (cs)"
+    url: "https://cs.wikipedia.org/wiki/Glob%C3%A1ln%C3%AD_dru%C5%BEicov%C3%BD_polohov%C3%BD_syst%C3%A9m"
+    type: wiki
 ---
 V roce 2020 jsme do Hodinária dostali prototyp hodin řízených signálem z družice. Jde o hodiny popsané na [webu sakul.cz](https://www.sakul.cz/gps-hodiny-v2-pe2-2015/n/) včetně podrobné dokumentace pro vlastní stavbu. Rozšířila se tak část expozice věnovaná systémům [synchronizace hodin](/konstrukce/synchronizace-hodin).
 
@@ -45,7 +49,7 @@ U první verze autorových GPS hodin byl použit Bluetooth(BT) GPS modul. To mě
 - Komponenty [forum.sakul.cz/viewtopic.php?p=1512#p1512](https://forum.sakul.cz/viewtopic.php?p=1512#p1512)
 - Jiné konstrukce autora - například [stopky nejen pro hasiče](https://www.sakul.cz/stopky-pro-hasice-smd/n)
 
-- [GNSS - funkce](https://cs.wikipedia.org/wiki/Glob%C3%A1ln%C3%AD_dru%C5%BEicov%C3%BD_polohov%C3%BD_syst%C3%A9m)
+- *GNSS — Wikipedie:* viz sekce **Reference** pod článkem
 - [L80\_GPS\_Protocol\_Specification\_V1.1.pdf](/download/GPS_Sakul/L80_GPS_Protocol_Specification_V1.1.pdf)
 - [Jak pracuje GPS - video](https://www.youtube.com/watch?v=_vfzAL5L29Y&feature=youtu.be)
 - [Přesnost atomových hodin, GPS a teorie relativity](https://www.osel.cz/3225-presnost-atomovych-hodin-gps-a-teorie-relativity.html)
