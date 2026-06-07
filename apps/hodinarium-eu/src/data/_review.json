@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "generatedAt": "2026-06-07T04:29:59.975Z",
-=======
-  "generatedAt": "2026-06-07T04:19:41.462Z",
->>>>>>> origin/main
+  "generatedAt": "2026-06-07T05:02:53.250Z",
   "summary": {
     "kartyTotal": 318,
     "kartyNoTyp": 244,
@@ -14,9 +10,9 @@
     "clankyNoTldr": 2,
     "clankyShort": 57,
     "clankyLegacyLinks": 1,
-    "hodinariTotal": 173,
-    "hodinariShort": 123,
-    "hodinariNoPortret": 153,
+    "hodinariTotal": 174,
+    "hodinariShort": 124,
+    "hodinariNoPortret": 154,
     "soupisTotal": 443,
     "stubsKarty": 0,
     "stubsClanky": 0,
@@ -6090,6 +6086,12 @@
         "wordCount": 102
       },
       {
+        "slug": "jiri-havlicek",
+        "title": "Jiří Havlíček",
+        "editUrl": "/admin/#/collections/hodinari/entries/jiri-havlicek",
+        "wordCount": 110
+      },
+      {
         "slug": "jiri-valenta",
         "title": "Jiří Valenta",
         "editUrl": "/admin/#/collections/hodinari/entries/jiri-valenta",
@@ -6850,6 +6852,11 @@
         "slug": "jindrich-havlicek",
         "title": "Jindřich Havlíček",
         "editUrl": "/admin/#/collections/hodinari/entries/jindrich-havlicek"
+      },
+      {
+        "slug": "jiri-havlicek",
+        "title": "Jiří Havlíček",
+        "editUrl": "/admin/#/collections/hodinari/entries/jiri-havlicek"
       },
       {
         "slug": "jiri-valenta",

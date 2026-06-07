@@ -2325,6 +2325,19 @@ export const hodinari: Hodinar[] = [
     era: '19stol',
   },
   {
+    slug: 'jiri-havlicek',
+    jmeno: 'Jiří Havlíček',
+    aliasy: ['Jiří Havlíček'],
+    typ: 'osoba',
+    obdobi: 'současnost',
+    mesto: 'Praha 4 — Točná',
+    zeme: 'CZ',
+    shrnuti:
+      'Hodinářský autodidakt, člen Českého spolku horologického. V letech 2018–2020 sám zkonstruoval [astronomický orloj na rohu ulice Starý lis 269 v Praze-Točné](/projekty/havlicek-tocna-orloj) — vlastní jicí stroj s [Amantovým krokem](/kroky/amantuv-krok), ekliptika 365 zubů, synodický měsíc přes diferenciální převod 59/24 a 24/57. Inspirován šumavským orlojem Zdeňka Landy v Hojsově Stráži (2017).',
+    relatedSlugs: ['havlicek-tocna-orloj'],
+    era: 'soucasnost',
+  },
+  {
     slug: 'frantisek-donat-nymburk',
     jmeno: 'František Donát (Nymburk)',
     aliasy: ['František Donát', 'Fr. Donát', 'Donát Nymburk'],
