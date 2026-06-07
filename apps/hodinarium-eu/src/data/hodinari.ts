@@ -2346,9 +2346,22 @@ export const hodinari: Hodinar[] = [
     mesto: 'Olomouc / Praha',
     zeme: 'CZ',
     shrnuti:
-      'Badatel a historik hodinářství, absolvent FF UP Olomouc. Autor diplomové práce [*České a moravské historické hodiny 18. a 19. století*](https://theses.cz/id/i6oavl) (2022, 607 s.). Aktivní člen [Českého spolku horologického](/o-hodinariu) od roku 2021, distributor Zpravodaje SPSH, autor článků o hodinářské dynastii [Engelbrechtů z Berouna](/hodinari/patrik-parizek), mechanických automatofonech, astronomických a geografických hodinách a hodinách jako mediu.',
-    relatedSlugs: [],
+      'Badatel a historik hodinářství, absolvent FF UP Olomouc. Autor diplomové práce [*České a moravské historické hodiny 18. a 19. století*](https://theses.cz/id/i6oavl) (2022, 607 s.) a monografického zpracování [Engelbrechtů z Berouna](/hodinari/engelbrechtove-beroun) (DP 2011, Rozpravy NTM 2015). Aktivní člen [Českého spolku horologického](/o-hodinariu) od roku 2021, distributor Zpravodaje SPSH.',
+    relatedSlugs: ['engelbrechtove-beroun'],
     era: 'soucasnost',
+  },
+  {
+    slug: 'engelbrechtove-beroun',
+    jmeno: 'Engelbrechtové z Berouna',
+    aliasy: ['Engelbrechtové', 'Johann Engelbrecht', 'Anton Engelbrecht', 'Engelpreht', 'Engelpracht', 'berounští Engelbrechtové'],
+    typ: ['osoba', 'firma'],
+    obdobi: '1773–1831',
+    mesto: 'Beroun (od 1808 Mělník)',
+    zeme: 'CZ',
+    shrnuti:
+      'Dvougenerační hodinářská dílna v Berouně (1773–1808) a v Mělníku (1808–1831). Zakladatel Johann Engelbrecht (~1725–1807) byl bývalý plukovní hobojista, jehož přenosné sluneční hodiny získaly evropské renomé (Maximilian Hell, pražské Klementinum). Syn Anton Engelbrecht (1780–1831) převzal dílnu, přestěhoval ji do Mělníka a kromě rytectví slunečních hodin se proslavil jako mechanik dvou dochovaných skříňkových hodin (NTM Praha, NPÚ Manětín). Pramen: [Patrik Pařízek 2015](/hodinari/patrik-parizek).',
+    relatedSlugs: ['patrik-parizek'],
+    era: 'baroko',
   },
   {
     slug: 'frantisek-donat-nymburk',
