@@ -13,6 +13,16 @@ tags:
   - kuriozita
   - popularizace
 tldr: 'Krátká epizoda Francouzské revoluce zavádějící dělení dne 10–100–100 a její ozvuky v současnosti — od překreslených číselníků z roku 1793 po internetový čas firmy Swatch s 1000 beats.'
+references:
+  - title: "Decimal time — Wikipedia (en)"
+    url: "https://en.wikipedia.org/wiki/Decimal_time"
+    type: wiki
+  - title: "French Republican calendar"
+    url: "https://www.answers.com/topic/french-republican-calendar"
+    type: odkaz
+  - title: "Swatch Internet Time (archivní snapshot 2013)"
+    url: "https://web.archive.org/web/20130524065953/http://www.swatch.com:80/xx_en/internettime.html"
+    type: odkaz
 ---
 Od malička se učíme hodiny v soustavě 24-60-60 a připadá nám to normální, ačkoliv kopy či mandele dnes nepoužíváme a všude jinde počítáme většinou v soustavě desítkové. Tradice je holt tradice. Francouzi se v roce 1793, v době Francouzské revoluce, vzepřeli a zavedli společně s novým kalendářem i **hodiny decimální, hodiny v soustavě 10-100–100**. Den byl rozdělen na **deset hodin**, každá **hodina na 100 minut** a každá **minuta na sto vteřin**. Půlnoc byla v 10 hodin. Polednice chodila v pět. Poledne je obvykle na hodinách dole i když existují i opačně situované číselníky.
 
@@ -71,12 +81,7 @@ Převod internetového času na místní pásmový čas můžete zkusit pomocí 
 GMT Londýn LisabonGMT+1 Praha, Paříž, ŘímGMT+2 Atény Istambul KáhiraGMT+3 Moskva KuvajtGMT+4 Baku Kábul KaráčíGMT+5 TaškentGMT+6 Alma-Ata NovosibirskGMT+7 Bangkok HanojGMT+8 Peking SingapurGMT+9 Tokio SoulGMT+10 Vladivostot SydnyGMT+11 Šalamounovy ostrovyGMT+12 WellingtonGMT-11 SamolaGMT-10 Havajské ostrovyGMT-9 AljaškaGMT-8 Los AngelesGMT-7 DenverGMT-6 ChicagoGMT-5 New YorkGMT-4 CaracasGMT-3 Rio de JaneiroGMT-2 Střední AtlantikGMT-1 Azory Kapverdy
 — letní čas
 
-**Odkazy**
-
-- [**Wikipedie**](http://en.wikipedia.org/wiki/Decimal_time)
-- [**French Revolutionary calendar**](http://www.answers.com/topic/french-republican-calendar)
-- [**Číselníky a další informace o "Decimal time".
-    **](http://en.wikipedia.org/wiki/Decimal_time)
+*Externí odkazy najdete v sekci **Reference** pod článkem (Wikipedia o decimálním čase, francouzský republikánský kalendář, archivní stránka Swatch Internet Time).*
 
 ---
 
