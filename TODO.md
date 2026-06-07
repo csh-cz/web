@@ -793,6 +793,71 @@ manuální review Davidem.
       Martínek 1964, Bureš 1965, Sušický 1900, Špatný 1882, Berner FHS,
       Království hodin (kralovstvihodin.cz/slovnicek/, 105 hesel).
 
+## A.36 — Patrik Pařízek materials (drive + email 2026-06-06)
+
+Patrik dodal 10 souborů na Google Drive a 1 PDF s programy schůzí.
+Email obsahuje 3 konkrétní požadavky pro spolkový web a 7 odborných
+textů pro hodinarium-eu.
+
+**Drive folder:** `https://drive.google.com/drive/u/0/folders/1UAlLpqByqtZt7mSXUgjjZNp5C26TCoZj`
+**Loga Clock Gallery:** `zdroje/Patrik/CG_logo_01 (3).png`, `CG_logo_03 (2).png`
+
+### horologie-cz (spolkový web)
+
+- [ ] **A.36.1 — `/schuze` stránka + `schuze.ts` data** — V PROGRESS 2026-06-07.
+      35 schůzí ČSH od založení (2021-09 → 2026-05) z PDF.
+      Karta per schůze: datum, místo, program (1-7 bodů + iniciály referenta),
+      počet účastníků. Bez jmenné docházky (GDPR — interní seznam).
+      Téměř všechny v Clock Gallery Praha, výjezdy: Děčín (2×), Hojsova Stráž,
+      Mnichovo Hradiště, U Havlíčků Točná.
+- [ ] **A.36.2 — Clock Gallery v sponzoring.astro** — V PROGRESS 2026-06-07.
+      Nová sekce „Podporovatelé" s Patrikovou verbatim větou:
+      *„Český horologický spolek dlouhodobě spolupracuje s prodejnou hodin
+      a hodinek Clock Gallery Praha. Díky její podpoře máme již od roku 2021
+      k dispozici bezplatně konferenční prostory pro naše členské schůze."*
+      Adresa Jungmannova 748/30, Praha 1. Link http://clockgallery.cz/blog.
+      Logo z `zdroje/Patrik/CG_logo_*.png`.
+- [ ] **A.36.3 — refaktor `/prispevky`** — Stávající placeholder stránka
+      `prispevky.astro` má 3 placeholder příspěvky. Po dokončení `/schuze`
+      ji refaktorovat — tahat programové body ze `schuze.ts` a renderovat
+      je jako příspěvky per autor + per datum. ~35 schůzí × 5 bodů = ~175
+      příspěvků.
+
+### hodinarium-eu (encyklopedie) — postupně, po dohodě priorit
+
+- [ ] **A.36.4 — Patrik Pařízek vlastní medailon** — Badatel/restaurátor,
+      autor 6+ odborných textů. Už cite v `content/hodinari/ludvik-hainz.mdx`
+      (`bibKey: parizekCeskeMoravskeHistoricke2022`), ale medailon neexistuje.
+      `typ: osoba`, `obdobi: současnost`, relatedSlugs po naplnění článků.
+- [ ] **A.36.5 — Engelbrechtové z Berouna** — 3 prameny:
+      - DP (Diplomová práce) — největší zdroj
+      - Zpravodaj „Nové poznatky o Engelbrechtech z Berouna"
+      - Katalog slunečních hodin Engelbrechtové
+      → Nová sekce hodinářské dynastie + sluneční hodiny.
+      Pravděpodobně nutné založit i `content/hodinari/engelbrecht-{krestnijmeno}.mdx`
+      pro klíčové osoby z dynastie.
+- [ ] **A.36.6 — Johann Klein** — PDF z 2016, 6.8 MB. Medailon hodináře
+      + článek. Český či německý kontext (Brno? Vídeň?).
+- [ ] **A.36.7 — Astronomické a geografické hodiny** — Word (Zpravodaj).
+      Článek v `zajimavosti` nebo nová sekce konstrukce.
+- [ ] **A.36.8 — Mechanické automatofony** — Word (Zpravodaj).
+      Sousedící obor (mechanická hudba), článek v `zajimavosti`.
+- [ ] **A.36.9 — Hodiny jako medium** — Word, 2 verze v Drive.
+      Diff verzí před zpracováním (autorova finální preference).
+      Esejistický článek.
+- [ ] **A.36.10 — Pramen „České a moravské hodiny"** — Book PDF 16 MB.
+      NE plnotextově (autorská práva) — přidat do Zotero jako
+      `bibKey: parizekCeskeMoravskeHistoricke2022` (už existuje),
+      případně doplnit DOI/ISBN.
+
+### Konvence (z Patrikova mailu)
+
+Patrik píše: *„Vždycky na začátek stránky těch článků jsem vkládal citace"*.
+Pro články pod jeho autorstvím zachovat tento styl:
+- Nová Astro komponenta `<SourceCite>` (rámeček s ISO 690 citací před perex).
+- U článků „pod autorstvím externího badatele" (Patrik, Havlíček, Skála) navíc
+  byline + cite block nahoře. U redakčních článků jen `references[]` v frontmatter.
+
 ## A.7 — Tech dluh (větší)
 
 - [x] **D2 Pre-push CI check** — hotov 2026-05-18 po druhé sérii Sveltia

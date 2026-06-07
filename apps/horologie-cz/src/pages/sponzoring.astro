@@ -164,6 +164,51 @@ import { cdnUrl } from '../utils/cdnImage';
     </div>
   </section>
 
+  <!-- ── PODPOROVATELÉ (věcná dlouhodobá podpora) ── -->
+  <section class="sponz-section" id="podporovatele">
+    <h2>Podporovatelé</h2>
+    <p class="podporovatele-lede">
+      Kromě finančních dárců se na chodu spolku dlouhodobě podílejí
+      i partneři, kteří poskytují <strong>věcnou nebo organizační podporu</strong>.
+      Bez nich by řada činností nemohla pravidelně probíhat.
+    </p>
+
+    <article class="podporovatel-card" id="clock-gallery">
+      <a href="http://clockgallery.cz/blog" target="_blank" rel="noopener" class="podporovatel-logo-link">
+        <img
+          src={cdnUrl("/img/podporovatele/clock-gallery-wide.png")}
+          alt="Clock Gallery Praha — logo"
+          class="podporovatel-logo"
+          loading="lazy"
+          width="1740"
+          height="356"
+        />
+      </a>
+      <div class="podporovatel-body">
+        <h3 class="podporovatel-nazev">Clock Gallery Praha</h3>
+        <p class="podporovatel-text">
+          Český horologický spolek dlouhodobě spolupracuje s prodejnou
+          hodin a hodinek <strong>Clock Gallery Praha</strong>. Díky její
+          podpoře máme již od roku 2021 k dispozici <strong>bezplatně
+          konferenční prostory pro naše členské schůze</strong>.
+        </p>
+        <dl class="podporovatel-detail">
+          <div class="podporovatel-detail-row">
+            <dt>Adresa</dt>
+            <dd>Jungmannova 748/30, Praha 1<br /><small>(mezi stanicemi metra Můstek a Národní třída)</small></dd>
+          </div>
+          <div class="podporovatel-detail-row">
+            <dt>Web</dt>
+            <dd><a href="http://clockgallery.cz/blog" target="_blank" rel="noopener">clockgallery.cz/blog</a></dd>
+          </div>
+        </dl>
+        <p class="podporovatel-link">
+          <a href="/schuze">Členské schůze, které se zde konají →</a>
+        </p>
+      </div>
+    </article>
+  </section>
+
   <!-- ── DOSAVADNÍ DÁRCI ── -->
   <section class="sponz-section">
     <h2>Dosavadní dárci</h2>
@@ -374,5 +419,113 @@ import { cdnUrl } from '../utils/cdnImage';
   .cta-link:hover {
     background: var(--color-brass-bright);
     color: var(--color-ink);
+  }
+
+  /* Podporovatelé */
+  .podporovatele-lede {
+    margin: 0 0 2rem;
+    color: var(--color-text);
+    line-height: 1.6;
+  }
+  .podporovatel-card {
+    display: grid;
+    grid-template-columns: minmax(180px, 280px) 1fr;
+    gap: 2rem;
+    align-items: center;
+    padding: 1.75rem 2rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 2px;
+    border-left: 3px solid var(--color-brass-bright);
+  }
+  .podporovatel-logo-link {
+    display: block;
+    background: #ffffff;
+    padding: 1.25rem;
+    border-radius: 2px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+    transition: border-color 120ms ease;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  }
+  .podporovatel-logo-link:hover {
+    border-color: var(--color-brass-bright);
+  }
+  .podporovatel-logo {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 60px;
+    object-fit: contain;
+  }
+  .podporovatel-body { min-width: 0; }
+  .podporovatel-nazev {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.85rem;
+    border: none;
+    padding: 0;
+  }
+  .podporovatel-nazev::before { content: none; }
+  .podporovatel-text {
+    margin: 0 0 1.25rem;
+    color: var(--color-text);
+    line-height: 1.6;
+  }
+  .podporovatel-detail {
+    background: var(--color-bg-deep);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 12%, transparent);
+    border-radius: 2px;
+    padding: 0.85rem 1rem;
+    margin: 0 0 1rem;
+  }
+  .podporovatel-detail-row {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    align-items: baseline;
+  }
+  .podporovatel-detail-row:last-child { margin-bottom: 0; }
+  .podporovatel-detail-row dt {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--color-copper);
+    margin: 0;
+    font-weight: 500;
+  }
+  .podporovatel-detail-row dd {
+    margin: 0;
+    color: var(--color-text);
+    font-size: 0.95rem;
+  }
+  .podporovatel-detail-row dd small {
+    display: block;
+    color: var(--color-text-muted);
+    font-size: 0.8rem;
+    margin-top: 0.15rem;
+  }
+  .podporovatel-link {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  .podporovatel-link a {
+    color: var(--color-brass-bright);
+    border-bottom: none;
+    font-weight: 500;
+  }
+  .podporovatel-link a:hover { color: var(--color-paper); }
+
+  @media (max-width: 640px) {
+    .podporovatel-card {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+    .podporovatel-logo-link {
+      max-width: 280px;
+      margin: 0 auto;
+    }
   }
 </style>
