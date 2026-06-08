@@ -23,7 +23,6 @@ karta:
 ::photo{src="/img/sbirka/A117-laplace-stroj.jpg" alt="Stroj hodin Laplace ve vitríně 1 (Sál elektro) Hodinária Děčín — synchronní motorek dle Roberta Michla z roku 1919 s viditelným odstředivým regulátorem pro stabilitu otáček, soukolí redukující synchronní otáčky na hodinový chod" author="Mirek Baudisch"}
 
 Vystavený stroj byl použit v hodinách, které byly vyráběny od roku **1924 firmou Laplace v Košicích**. Později výroba přešla do firmy **Českomoravská-Kolben v Praze**.
-
 Je v něm použit **synchronní motorek**, zkonstruovaný **Robertem Michlem v roce 1919**. Pohledově zajímavý je **odstředivý regulátor**, sloužící pro stabilitu otáček. Přesnost tohoto typu hodin je dána přesností, s jakou je udržována frekvence kmitočtu rozvodné sítě.
 
 Tento typ strojku je použit ve dvou hodinách na **panelu 3** a v **docházkových hodinách** vedle tohoto panelu.
