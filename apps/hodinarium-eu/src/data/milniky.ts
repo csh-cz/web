@@ -1372,6 +1372,7 @@ export const milniky: Milnik[] = [
       'a letopočet 1774 s J. J. N. Anno („In Iesu Nomine, Anno…" — „Ve jménu Ježíšově, léta páně"), ' +
       'spojované s hlavní opravou budovy. Jméno autora orloje, jeho dílny ani přesný rok vyhotovení ' +
       'se nedochovaly. V roce 1846 byla celá renesanční radnice stržena a orloj s ní zanikl.',
+    clanek: 'ustecky-orloj-1591',
     slovnik: 'orloj',
     zdroj: 'Tichtenbaum 1614 — Usta ad Albim delineata (Praha, Caspar Kargesius), cit. Marian 1903 — Alt-Aussig, s. 9; Sonnewend 1855 — Geschichte der königlichen Freistadt Aussig (2. vyd., Prag/Leitmeritz), s. 190–191',
     zoteroKey: 'PINZU39Z',
