@@ -31,6 +31,10 @@ karta:
 
 ::photo{src="/img/vezni/026b-jirkostroj.jpg" alt="věžní Jirkostroj — detail rámu se zachovaným německým štítkem („Gestiftet v. F H Richter Kaufman in Frankfurt a. Main. Bestellt durch Viltler Oberlehler in Hilgersdorf. Gearbeitet v. Joh. Lissner Uhrmacher in Nixdorf 1881")" author="Miroslav Baudisch"}
 
+::photo{src="/img/vezni/026c-jirkostroj.jpg" alt="věžní Jirkostroj A026 — soukolí Lissnerova jicího stroje (Mikulášovice 1881) na archivních snímcích z 1898, celkový pohled" author="Stanislav Marušák"}
+
+::photo{src="/img/vezni/026d-jirkostroj.jpg" alt="věžní Jirkostroj A026 — detail Grahamova kroku a kolíčkového rozvodu, archivní snímek z 1898" author="Stanislav Marušák"}
+
 Hodinový stroj byl sestaven ze zachráněných kol stroje věžních hodin. Původní rám se nezachoval, soukolí jicího stroje bylo namontováno do nově zhotovené konstrukce. Stroj má **[Grahamův](/kroky/grahamuv-krok)** krok, pohon závažím.
 
 Na rámu je štítek s německým nápisem:

@@ -29,7 +29,14 @@ originalUrl: https://hodinarium-eu.pages.dev/sbirka/katalog
 lastModified: null
 sourceCharset: utf-8
 scrapedAt: 2026-04-30T04:12:37.526Z
+thumbnail: '/img/vezni/053a-petrin.jpg'
 ---
+
+::photo{src="/img/vezni/053a-petrin.jpg" alt="Orloj Hvězdárna Petřín A053 ve sbírce Hodinária Děčín — zjednodušený model Pražského orloje (bez ručky Měsíce) sestrojený Hvězdárnou Petřín pro předvedení vazby mezi staročeským a středoevropským časem" author="Stanislav Marušák"}
+
+::photo{src="/img/vezni/053b-petrin.jpg" alt="Orloj Petřín A053 — detail čtyřiadvacetníku a ekliptiky, demonstrace vazby na západ Slunce v různých ročních obdobích" author="Stanislav Marušák"}
+
+::photo{src="/img/vezni/053c-petrin.jpg" alt="Orloj Petřín A053 — celkový pohled na model s ručkou Slunce a symbolem dlaně pro spuštění demonstrace" author="Stanislav Marušák"}
 
 Zjednodušený model Pražského orloje (chybí ručka pro pohyb Měsíce) byl sestrojen pro předvedení souvislosti staročeského času a času středoevropského. V minulosti se užíval staročeský čas, u něhož počítání hodin dne začínalo západem Slunce. To znamená, že počátek dne se v průběhu roku měnil. Na orloji se to projevuje tím, že čtyřiadvacátník se v průběhu roku natáčí tak, aby jeho číslice 24 byla proti římské číslici, odpovídající okamžiku západu Slunce pro daný den.
 
