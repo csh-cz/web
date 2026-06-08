@@ -85,7 +85,7 @@ references:
 
 **Mohou v přeneseném smyslu historické hodiny mluvit? Co sdělují a nakolik výmluvné to je? Obstojí před tradičně vnímanými paměťovými nosiči?**
 
-Druhý díl Patrikovy studie zveřejňujeme s laskavým svolením autora. První díl o **přímých záznamech v hodinách** (signatury hodináře, gravury, štítky prodejců) vyšel v dřívějším čísle Zpravodaje SPSH a zaměřuje se na záměrné vepisování informací. Tento díl rozebírá *nepřímé*, *nezáměrné* a *katastrofické* záznamy — od vlivu slunce a vlhkosti přes požáry až po vandalismus.
+Druhý díl Patrikovy studie zveřejňujeme s laskavým svolením autora. **[První díl](/zajimavosti/hodiny-jako-medium-1)** o **přímých záznamech v hodinách** (signatury hodináře, gravury, štítky prodejců, Huygensova synchronizace dvou kyvadel, vliv tikotu na cirkadiální rytmus, temná epizoda NKK po 1945) vyšel ve Zpravodaji SPSH 39/2024. Tento díl rozebírá *nepřímé*, *nezáměrné* a *katastrofické* záznamy — od vlivu slunce a vlhkosti přes požáry až po vandalismus.
 
 ## Hodiny jako sekundární médium paměti
 

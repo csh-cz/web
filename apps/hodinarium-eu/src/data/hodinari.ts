@@ -2347,8 +2347,21 @@ export const hodinari: Hodinar[] = [
     zeme: 'CZ',
     shrnuti:
       'Badatel a historik hodinářství, absolvent FF UP Olomouc. Autor diplomové práce [*České a moravské historické hodiny 18. a 19. století*](https://theses.cz/id/i6oavl) (2022, 607 s.) a monografického zpracování [Engelbrechtů z Berouna](/hodinari/engelbrechtove-beroun) (DP 2011, Rozpravy NTM 2015). Aktivní člen [Českého spolku horologického](/o-hodinariu) od roku 2021, distributor Zpravodaje SPSH.',
-    relatedSlugs: ['engelbrechtove-beroun'],
+    relatedSlugs: ['engelbrechtove-beroun', 'johann-klein'],
     era: 'soucasnost',
+  },
+  {
+    slug: 'johann-klein',
+    jmeno: 'Johann Klein',
+    aliasy: ['Johann Klein', 'Joannes Klein', 'Jan Klein', 'P. Klein'],
+    typ: 'osoba',
+    obdobi: '1684–1762',
+    mesto: 'Kroměříž / Praha (Klementinum)',
+    zeme: 'CZ',
+    shrnuti:
+      'Jezuita, technik a hodinář, správce matematického kabinetu pražského Klementina 1732–1762. Ve spolupráci s Josephem Steplingem zhotovil čtyři astronomické a geografické hodiny: [tychonské a koperníkovské planetní hodiny 1751–1752](/zajimavosti/klein-astronomicke-geograficke-hodiny), pražské geografické hodiny 1738–1754 (vše NK ČR Klementinum) a drážďanské geografické hodiny 1750–1754 pro Friedricha Augusta III. (Mathematisch-Physikalischer Salon Dresden). Pramen: [Patrik Pařízek 2016](/hodinari/patrik-parizek).',
+    relatedSlugs: ['klein-astronomicke-geograficke-hodiny', 'patrik-parizek'],
+    era: 'baroko',
   },
   {
     slug: 'engelbrechtove-beroun',
