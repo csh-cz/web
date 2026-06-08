@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-07T12:48:20.309Z",
+  "generatedAt": "2026-06-08T03:25:16.043Z",
   "description": "Custom slovník pro CSH spell-checker. Kanonické cs formy + jména hodinářů + aliasy (de/en variant). Mergne se s base cs_CZ Hunspell dict v browseru.",
   "sources": {
     "slovnik": 246,
-    "hodinari": 176,
-    "hodinariTs": 176,
+    "hodinari": 177,
+    "hodinariTs": 177,
     "soupis": 443
   },
-  "count": 1914,
+  "count": 1917,
   "words": [
     "Abraham",
     "Accutron",
@@ -640,6 +640,7 @@
     "Jizerou",
     "již",
     "Joan",
+    "Joannes",
     "Joh",
     "Johann",
     "Johannes",
@@ -708,6 +709,7 @@
     "Klatovy",
     "klecovy",
     "klečový",
+    "Klein",
     "Klementina",
     "Klementinum",
     "klidu",
@@ -787,6 +789,7 @@
     "krokove",
     "krokové",
     "krokový",
+    "Kroměříž",
     "Krušovice",
     "Kruty",
     "křídlem",
