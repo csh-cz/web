@@ -23,6 +23,9 @@ karta:
   ram: "kovaný"
   krokJicihoStroje: "lihýřový krok"
   biciStroje: "půlové"
+thumbnail: '/img/vezni/038a-soucast.jpg'
 ---
+
+::photo{src="/img/vezni/038a-soucast.jpg" alt="Součást věžních hodin A038 ve sbírce Hodinária Děčín — jednoduchý mechanizmus s kovaným rámem a lihýřovým krokem, řídí odbíjení půlových úderů na cimbály" author="Stanislav Marušák"}
 
 Jednoduchý mechanizmus napojený na stroj věžních hodin řídil [odbíjení](/slovnik/odbijeni) na cimbály….

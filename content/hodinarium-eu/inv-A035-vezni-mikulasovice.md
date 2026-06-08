@@ -25,7 +25,10 @@ karta:
     obec: Mikulášovice
     detail: ''
   rokVyroby: "1864"
+thumbnail: '/img/vezni/035a-mikulasovice.jpg'
 ---
+
+::photo{src="/img/vezni/035a-mikulasovice.jpg" alt="Věžní hodiny A035 Mikulášovice — stroj firmy Mannhardt z Mnichova z roku 1864 vystavený v Sále věžních hodin Hodinária Děčín, raritní Winnerlův krok (Joseph Thaddeus Winnerl, Paříž 1836) používaný při stavbě přesných astronomických hodin; pochází z kostela sv. Mikuláše v Mikulášovicích" author="Stanislav Marušák"}
 
 Hodinový stroj věžních hodin byl vyroben známou firmou Mannhardt v Mnichově roku 1864.
 

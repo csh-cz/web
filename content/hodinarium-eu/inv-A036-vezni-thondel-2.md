@@ -25,7 +25,10 @@ karta:
   stav: "funkční"
   rokVyroby: "1911"
   krokJicihoStroje: "Amantův kolíčkový krok"
+thumbnail: '/img/vezni/036a-thondel-2.jpg'
 ---
+
+::photo{src="/img/vezni/036a-thondel-2.jpg" alt="Věžní hodiny A036 Thöndel 2 — atypický stroj firmy Thöndel z Uničova (Mährisch Neustadt) z roku 1911 ve sbírce Hodinária Děčín; má vzácně Amantův kolíčkový krok místo Grahamova kotvového, palety na kotvě ve tvaru Grahamova kroku, odbíjení s lanovým bubnem bez početníku" author="Stanislav Marušák"}
 
 Hodinový stroj věžních hodin byl vyroben firmou [Thöndel](/hodinari/thondel) v Uničově (Mährisch Neustadt) roku 1911 — jde o **atypický kus** v rámci Thöndelovy produkce, která jinak používala standardně [Grahamův kotvový krok](/kroky/grahamuv-krok). Stroj je konstrukčně zajímavý: má **[Amantův](/kroky/amantuv-krok)** kolíčkový krok, ale palety nejsou, jako obvykle, uspořádány nad sebou, ale na kotvě ve tvaru **[Grahamova](/kroky/grahamuv-krok)** kroku. [Odbíjení](/slovnik/odbijeni) je také konstruováno méně užívaným způsobem. Sestává se jen z lanového bubnu a šnekového pohonu větrníku. Čtvrťové odbíjené nemá početník, ale počet úderů je dán zářezy v prstenci lanového bubnu: pro první čtvrť po jednom zvedacím zubu, pro půl po dvou zubech, pro třičtvrtě po třech zubech atd.
 
