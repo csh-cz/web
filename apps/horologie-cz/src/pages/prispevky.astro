@@ -1,134 +1,205 @@
 ---
 import Base from '../layouts/Base.astro';
+import { schuzeChronologicky, referenti } from '../data/schuze';
 import { SISTER_HODINARIUM } from '../data/sites';
 
-interface Prispevek {
-  rok: number;
-  datum?: string;
-  schuze?: string;       // např. "Členská schůze 2018"
-  autor: string;
-  nazev: string;
-  popis?: string;
-  prilohy?: { jmeno: string; href: string }[];
-  status: 'plný_text' | 'shrnutí' | 'placeholder' | 'audio';
+/**
+ * Rozpad programových bodů z 35 schůzí ČSH na jednotlivé příspěvky.
+ *
+ * Každý bod programu = jeden příspěvek. Autor je odvozen ze zkratky
+ * referenta (PK → Petr Král, MB → Mirek Baudisch, atd.) přes mapu
+ * `referenti` ve `data/schuze.ts`. Body bez uvedeného referenta
+ * jsou „— autor neuveden —".
+ */
+interface PrispevekRozpad {
+  schuzeSlug: string;
+  schuzeDatum: string;
+  schuzeDatumText: string;
+  schuzeMisto: string;
+  schuzeFormat: 'prezencni' | 'zoom' | 'vyjezd';
+  poradi: number;            // pozice v programu schůze
+  text: string;              // titulek příspěvku
+  autorZkratka?: string;
+  autorPlne: string;         // plné jméno nebo „— autor neuveden —"
 }
 
-// Placeholder příspěvků — bude doplněno o reálná data od Petra a dalších členů.
-const prispevky: Prispevek[] = [
-  // Placeholdery pro budoucí dodatky
-  {
-    rok: 2025,
-    datum: 'jaro 2025',
-    schuze: 'Členská schůze 2025',
-    autor: 'Ing. Petr Král',
-    nazev: 'Astronomické hodiny ASTRO2 — od stavebnice meteostanice k Computu',
-    popis:
-      'Prezentace o vývoji DIY astronomických hodin postavených na čínské stavebnici '
-      + 'meteostanice s ESP01S, programovaných s pomocí AI. Detailní článek na Hodinariu.',
-    prilohy: [
-      { jmeno: 'Plný článek na Hodinariu', href: `${SISTER_HODINARIUM}/clanky/astro2_NTP` },
-    ],
-    status: 'shrnutí',
-  },
-  {
-    rok: 2020,
-    datum: '10. 1. 2020',
-    schuze: 'Členská schůze 2020',
-    autor: '— neuvedeno —',
-    nazev: 'Příspěvky budou doplněny',
-    popis: 'Zápis ze schůze obsahuje strukturu prezentací, ale konkrétní obsah příspěvků zatím nemáme.',
-    prilohy: [
-      { jmeno: 'Zápis ze schůze 10. 1. 2020', href: `${SISTER_HODINARIUM}/clanky/zapis20200110` },
-    ],
-    status: 'placeholder',
-  },
-  {
-    rok: 2019,
-    datum: '18. 1. 2019',
-    schuze: 'Členská schůze 2019',
-    autor: '— neuvedeno —',
-    nazev: 'Příspěvky budou doplněny',
-    popis: 'Zápis ze schůze obsahuje strukturu prezentací, ale konkrétní obsah příspěvků zatím nemáme.',
-    prilohy: [
-      { jmeno: 'Zápis ze schůze 18. 1. 2019', href: `${SISTER_HODINARIUM}/clanky/zapis20190118` },
-    ],
-    status: 'placeholder',
-  },
-];
+const prispevky: PrispevekRozpad[] = [];
+for (const s of schuzeChronologicky) {
+  s.program.forEach((bod, i) => {
+    const zk = bod.referent;
+    const plne = zk ? (referenti[zk] ?? zk) : '— autor neuveden —';
+    prispevky.push({
+      schuzeSlug: s.slug,
+      schuzeDatum: s.datum,
+      schuzeDatumText: s.datumText,
+      schuzeMisto: s.misto,
+      schuzeFormat: s.format,
+      poradi: i + 1,
+      text: bod.text,
+      autorZkratka: zk,
+      autorPlne: plne,
+    });
+  });
+}
 
-prispevky.sort((a, b) => b.rok - a.rok || (b.datum ?? '').localeCompare(a.datum ?? ''));
+/** Statistika top referentů (top 8). */
+const autorPocet = new Map<string, number>();
+for (const p of prispevky) {
+  autorPocet.set(p.autorPlne, (autorPocet.get(p.autorPlne) ?? 0) + 1);
+}
+const topReferenti = Array.from(autorPocet.entries())
+  .filter(([a]) => a !== '— autor neuveden —')
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 8);
 
-const statusLabels: Record<Prispevek['status'], string> = {
-  plný_text: 'Plný text',
-  shrnutí: 'Shrnutí',
-  placeholder: 'Čeká na doplnění',
-  audio: 'Audio záznam',
+/** Příspěvky seskupené po schůzích (pro renderování). */
+const prispevkyPoSchuzich = new Map<string, PrispevekRozpad[]>();
+for (const p of prispevky) {
+  if (!prispevkyPoSchuzich.has(p.schuzeSlug)) {
+    prispevkyPoSchuzich.set(p.schuzeSlug, []);
+  }
+  prispevkyPoSchuzich.get(p.schuzeSlug)!.push(p);
+}
+
+/** Seznam schůzí v pořadí (nejnovější první) pro iteraci. */
+const schuzeProRender = schuzeChronologicky.filter((s) => prispevkyPoSchuzich.has(s.slug));
+
+/** Schůze seskupené po rocích. */
+const schuzePoRoce = new Map<number, typeof schuzeChronologicky>();
+for (const s of schuzeProRender) {
+  const rok = parseInt(s.datum.slice(0, 4), 10);
+  if (!schuzePoRoce.has(rok)) schuzePoRoce.set(rok, []);
+  schuzePoRoce.get(rok)!.push(s);
+}
+const rokyDesc = Array.from(schuzePoRoce.keys()).sort((a, b) => b - a);
+
+const formatLabels = {
+  prezencni: 'prezenčně',
+  zoom: 'online (Zoom)',
+  vyjezd: 'výjezdní',
 };
 ---
-<Base title="Příspěvky na členských schůzích" description="Prezentace, přednášky a referáty z členských schůzí Českého spolku horologického.">
+<Base
+  title="Příspěvky na členských schůzích"
+  description="Prezentace, přednášky a referáty z členských schůzí Českého spolku horologického — kompletní rozpad programových bodů od září 2021."
+>
   <header class="prispevky-header">
     <p class="eyebrow mb-4">Spolková agenda</p>
     <h1>Příspěvky na členských schůzích</h1>
     <p class="lede">
-      Členské schůze CSH nejsou jen formální agenda. Spolek se schází
-      jednou měsíčně (mimo letní prázdniny — červenec a srpen) a členové
+      Členské schůze ČSH nejsou jen formální agenda. Spolek se schází
+      <strong>jednou měsíčně mimo letní prázdniny</strong> a členové
       představují své projekty, výzkumy a nálezy — od restaurování věžních
-      strojů přes DIY elektroniku po historické bádání. Tato stránka
-      shromažďuje přepisy, prezentace a doplňující materiály.
+      strojů přes DIY elektroniku po historické bádání.
+    </p>
+    <p class="lede">
+      Tato stránka shromažďuje <strong>{prispevky.length} programových bodů</strong>
+      z <strong>{schuzeProRender.length} schůzí</strong> od září 2021
+      (kompletní seznam schůzí s místem konání je na stránce
+      <a href="/schuze">Členské schůze</a>). Stránka roste s každou další
+      schůzí — bibliografické rozšíření jednotlivých referátů (přepisy,
+      PDF prezentace, audio záznamy) postupně doplňujeme.
     </p>
   </header>
 
+  <!-- ── TOP REFERENTI ── -->
   <section class="prispevky-section">
-    {prispevky.map((p) => (
-      <article class={`prispevek ${p.status === 'placeholder' ? 'prispevek-placeholder' : ''}`}>
-        <div class="prispevek-meta">
-          <span class="prispevek-rok">{p.rok}</span>
-          {p.datum && <span class="prispevek-datum">{p.datum}</span>}
-          {p.schuze && <span class="prispevek-schuze">{p.schuze}</span>}
-          <span class={`prispevek-status status-${p.status}`}>{statusLabels[p.status]}</span>
-        </div>
-
-        <h2 class="prispevek-nazev">{p.nazev}</h2>
-        <p class="prispevek-autor">— {p.autor}</p>
-
-        {p.popis && <p class="prispevek-popis">{p.popis}</p>}
-
-        {p.prilohy && p.prilohy.length > 0 && (
-          <ul class="prispevek-prilohy">
-            {p.prilohy.map((pr) => (
-              <li>
-                <a href={pr.href} target={pr.href.startsWith('http') ? '_blank' : undefined} rel={pr.href.startsWith('http') ? 'noopener' : undefined}>
-                  {pr.jmeno}
-                </a>
-              </li>
-            ))}
-          </ul>
-        )}
-      </article>
-    ))}
+    <h2>Nejaktivnější referenti</h2>
+    <p class="top-lede">
+      Top osm členů spolku podle počtu referovaných příspěvků
+      v dochovaném zápisu (2021–2026). Zbytek (~{prispevky.length - topReferenti.reduce((s, [, n]) => s + n, 0)}
+      bodů) je tematicky rozprostřený mezi další členy a hosty.
+    </p>
+    <ol class="top-list">
+      {topReferenti.map(([jmeno, pocet]) => (
+        <li class="top-item">
+          <span class="top-jmeno">{jmeno}</span>
+          <span class="top-pocet">{pocet}&nbsp;<small>příspěvků</small></span>
+        </li>
+      ))}
+    </ol>
   </section>
 
+  <!-- ── PER ROK → PER SCHŮZE → BODY ── -->
+  {rokyDesc.map((rok) => (
+    <section class="rok-section" id={`rok-${rok}`}>
+      <h2 class="rok-h">
+        <span class="rok-num">{rok}</span>
+        <span class="rok-stat">
+          {schuzePoRoce.get(rok)!.length} schůzí ·
+          {schuzePoRoce.get(rok)!.reduce((s, sch) => s + (prispevkyPoSchuzich.get(sch.slug)?.length ?? 0), 0)} příspěvků
+        </span>
+      </h2>
+
+      {schuzePoRoce.get(rok)!.map((s) => {
+        const body = prispevkyPoSchuzich.get(s.slug)!;
+        return (
+          <article class="schuze-block">
+            <header class="schuze-block-head">
+              <a href={`/schuze#${s.slug}`} class="schuze-link">
+                <span class="schuze-datum">{s.datumText}</span>
+                <span class="schuze-fmt fmt-{s.format}">{formatLabels[s.format]}</span>
+              </a>
+              <p class="schuze-misto">{s.misto}</p>
+            </header>
+            <ol class="body-list">
+              {body.map((p) => (
+                <li class="bod-item">
+                  <div class="bod-titulek">{p.text}</div>
+                  <div class="bod-autor">
+                    {p.autorZkratka ? (
+                      <>
+                        <span class="autor-zkr" title={p.autorPlne}>{p.autorZkratka}</span>
+                        <span class="autor-plne">{p.autorPlne}</span>
+                      </>
+                    ) : (
+                      <span class="autor-neuveden">{p.autorPlne}</span>
+                    )}
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </article>
+        );
+      })}
+    </section>
+  ))}
+
+  <!-- ── CTA ── -->
   <section class="prispevky-cta">
-    <h2 style="border:none; padding:0;">Chcete vystoupit na příští schůzi?</h2>
+    <h2 style="border:none; padding:0;">Chceš vystoupit s vlastním tématem?</h2>
     <p>
-      Členové spolku jsou srdečně zváni přidat se s vlastním příspěvkem na
-      další členské schůzi. Téma může být jakékoli — restaurování konkrétního
-      stroje, vlastní DIY projekt, historický nález, návštěva muzea v zahraničí,
-      diskusní příspěvek k tématu hodinařiny.
+      Členské schůze jsou otevřené — kdokoli ze členů (i hostů po dohodě)
+      se může přihlásit s vlastním příspěvkem. Restaurátorská reportáž,
+      ukázka DIY projektu, historický nález, návštěva muzea v zahraničí,
+      diskuzní téma. Téma nahlas předem na
+      <a href="mailto:info@orloj.eu">info@orloj.eu</a>, ať se zařadí do
+      programu.
     </p>
     <p>
-      Nahlas téma předem na <a href="mailto:info@orloj.eu">info@orloj.eu</a>,
-      aby se mohlo zařadit do programu.
+      Detailní agendu i místo konání ukazuje stránka
+      <a href="/schuze">Členské schůze</a>.
     </p>
   </section>
 
+  <!-- ── PUBLIKACE NA HODINÁRIU ── -->
   <section class="prispevky-archive">
-    <h2>Archivace materiálů</h2>
+    <h2>Doplňující materiály a publikace</h2>
+    <p>
+      Některé referáty mají rozšíření na sesterském webu
+      <a href={SISTER_HODINARIUM} target="_blank" rel="noopener">Hodinárium</a> —
+      například plný technický popis astronomického orloje v Točné
+      (<a href={`${SISTER_HODINARIUM}/projekty/havlicek-tocna-orloj`} target="_blank" rel="noopener">projekt Jiřího Havlíčka</a>),
+      Pařízkovy odborné články o
+      <a href={`${SISTER_HODINARIUM}/zajimavosti/mechanicke-automatofony`} target="_blank" rel="noopener">
+      mechanických automatofonech</a> a
+      <a href={`${SISTER_HODINARIUM}/hodinari/engelbrechtove-beroun`} target="_blank" rel="noopener">
+      Engelbrechtech z Berouna</a>.
+    </p>
     <p>
       Pokud máš PDF prezentaci, audio záznam, fotografii nebo přepis vlastního
       či cizího příspěvku z minulých schůzí, pošli to na
-      <a href="mailto:info@orloj.eu">info@orloj.eu</a>. Doplníme zde jméno
-      autora, datum a celý materiál.
+      <a href="mailto:info@orloj.eu">info@orloj.eu</a>.
     </p>
     <p>
       Cílem je, aby všechno, co se na členských schůzích řekne, zůstalo
@@ -140,7 +211,7 @@ const statusLabels: Record<Prispevek['status'], string> = {
 
 <style>
   .prispevky-header {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
   .prispevky-header h1 {
     font-family: var(--font-serif);
@@ -152,129 +223,194 @@ const statusLabels: Record<Prispevek['status'], string> = {
   }
   .lede {
     font-size: 1.1rem;
-    color: var(--color-text-soft);
-    }
-
-  .prispevky-section {
-    display: flex;
-    flex-direction: column;
-    gap: 2.5rem;
-    margin-bottom: 4rem;
+    color: var(--color-text);
+    line-height: 1.6;
+    margin-bottom: 1rem;
   }
 
-  .prispevek {
-    padding: 1.75rem 2rem;
+  /* Top referenti */
+  .prispevky-section {
+    margin-bottom: 3rem;
+    padding: 1.75rem;
     background: var(--color-bg-elevated);
     border: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
     border-radius: 2px;
-    border-left: 3px solid var(--color-copper);
   }
-  .prispevek-placeholder {
-    opacity: 0.7;
-    border-left-style: dashed;
-    border-left-color: var(--color-text-muted);
-  }
-
-  .prispevek-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    align-items: baseline;
-    font-size: 0.85rem;
-    color: var(--color-text-muted);
-    margin-bottom: 0.85rem;
-    padding-bottom: 0.85rem;
-    border-bottom: 1px dashed color-mix(in srgb, var(--color-brass) 15%, transparent);
-  }
-  .prispevek-rok {
+  .prispevky-section h2 {
     font-family: var(--font-serif);
     font-size: 1.4rem;
     font-weight: 500;
     color: var(--color-brass-bright);
-    font-feature-settings: "lnum";
-  }
-  .prispevek-datum {
-    color: var(--color-text-soft);
-  }
-  .prispevek-schuze {
-    color: var(--color-text-soft);
-    font-style: italic;
-  }
-  .prispevek-status {
-    margin-left: auto;
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 0.18em;
-    padding: 0.15rem 0.55rem;
-    border-radius: 2px;
-    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
-  }
-  .status-plný_text {
-    color: var(--color-brass-bright);
-    border-color: var(--color-brass);
-  }
-  .status-shrnutí {
-    color: var(--color-text);
-  }
-  .status-placeholder {
-    color: var(--color-text-muted);
-    font-style: italic;
-  }
-  .status-audio {
-    color: var(--color-verdigris);
-    border-color: var(--color-verdigris);
-  }
-
-  .prispevek-nazev {
-    font-family: var(--font-serif);
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: var(--color-brass-bright);
-    margin: 0 0 0.4rem;
-    line-height: 1.3;
+    margin: 0 0 0.85rem;
     border: none;
     padding: 0;
   }
-  .prispevek-nazev::before { content: none; }
-
-  .prispevek-autor {
-    color: var(--color-copper);
-    font-style: italic;
-    margin: 0 0 1rem;
+  .prispevky-section h2::before { content: none; }
+  .top-lede {
+    margin: 0 0 1.25rem;
     font-size: 0.95rem;
+    color: var(--color-text-soft);
   }
-
-  .prispevek-popis {
-    color: var(--color-text);
-    line-height: 1.6;
-    margin: 0 0 1rem;
-  }
-
-  .prispevek-prilohy {
+  .top-list {
     list-style: none;
     padding: 0;
     margin: 0;
+    counter-reset: rank;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.5rem 1.5rem;
+  }
+  .top-item {
+    counter-increment: rank;
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
+    align-items: baseline;
+    gap: 0.75rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px dotted color-mix(in srgb, var(--color-brass) 18%, transparent);
   }
-  .prispevek-prilohy li {
-    margin: 0;
+  .top-item::before {
+    content: counter(rank) ".";
+    color: var(--color-copper);
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    width: 2ch;
+    text-align: right;
+    flex-shrink: 0;
   }
-  .prispevek-prilohy a {
-    display: inline-block;
-    padding: 0.45rem 0.85rem;
-    background: var(--color-bg-deep);
-    border: 1px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
-    border-radius: 2px;
+  .top-jmeno {
+    flex: 1;
+    color: var(--color-text);
+    font-size: 0.95rem;
+  }
+  .top-pocet {
     color: var(--color-brass-bright);
-    font-size: 0.9rem;
-    text-decoration: none;
+    font-weight: 500;
+    font-feature-settings: "lnum";
   }
-  .prispevek-prilohy a:hover {
-    border-color: var(--color-brass);
+  .top-pocet small {
+    font-weight: 400;
+    color: var(--color-text-muted);
+    font-size: 0.75rem;
   }
 
+  /* Rok */
+  .rok-section { margin-bottom: 3.5rem; }
+  .rok-h {
+    font-family: var(--font-serif);
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid color-mix(in srgb, var(--color-brass) 25%, transparent);
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .rok-h::before { content: none; }
+  .rok-stat {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--color-text-muted);
+  }
+
+  /* Block per schůze */
+  .schuze-block {
+    margin-bottom: 1.5rem;
+    padding: 1.25rem 1.5rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 15%, transparent);
+    border-radius: 2px;
+    border-left: 3px solid var(--color-copper);
+  }
+  .schuze-block-head {
+    margin-bottom: 0.85rem;
+    padding-bottom: 0.65rem;
+    border-bottom: 1px dashed color-mix(in srgb, var(--color-brass) 12%, transparent);
+  }
+  .schuze-link {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    color: var(--color-brass-bright);
+    border-bottom: none;
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .schuze-link:hover .schuze-datum {
+    color: var(--color-paper);
+  }
+  .schuze-datum { color: var(--color-brass-bright); }
+  .schuze-fmt {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    padding: 0.15rem 0.5rem;
+    border-radius: 2px;
+    font-weight: 500;
+    font-family: var(--font-sans);
+  }
+  .fmt-prezencni {
+    background: color-mix(in srgb, var(--color-brass) 10%, transparent);
+    color: var(--color-brass-bright);
+  }
+  .fmt-zoom {
+    background: color-mix(in srgb, var(--color-copper) 12%, transparent);
+    color: var(--color-copper);
+  }
+  .fmt-vyjezd {
+    background: color-mix(in srgb, var(--color-brass-bright) 12%, transparent);
+    color: var(--color-brass-bright);
+  }
+  .schuze-misto {
+    margin: 0.35rem 0 0;
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+  }
+
+  /* Body programu jako příspěvky */
+  .body-list {
+    margin: 0;
+    padding: 0 0 0 1.5rem;
+    list-style: decimal;
+  }
+  .bod-item {
+    margin-bottom: 0.65rem;
+    padding-left: 0.3rem;
+    line-height: 1.5;
+  }
+  .bod-item::marker {
+    color: var(--color-text-muted);
+    font-size: 0.85em;
+  }
+  .bod-item:last-child { margin-bottom: 0; }
+  .bod-titulek {
+    color: var(--color-text);
+  }
+  .bod-autor {
+    margin-top: 0.15rem;
+    font-size: 0.85rem;
+    color: var(--color-copper);
+    font-style: italic;
+  }
+  .autor-zkr {
+    font-family: ui-monospace, "SF Mono", monospace;
+    color: var(--color-brass-bright);
+    font-weight: 500;
+    margin-right: 0.35rem;
+    font-style: normal;
+  }
+  .autor-plne {}
+  .autor-neuveden {
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+
+  /* CTA + archiv */
   .prispevky-cta,
   .prispevky-archive {
     background: var(--color-bg-elevated);
@@ -284,10 +420,23 @@ const statusLabels: Record<Prispevek['status'], string> = {
     margin-bottom: 2rem;
     max-width: 720px;
   }
+  .prispevky-cta h2,
+  .prispevky-archive h2 {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.85rem;
+    border: none;
+    padding: 0;
+  }
+  .prispevky-cta h2::before,
+  .prispevky-archive h2::before { content: none; }
   .prispevky-cta p,
   .prispevky-archive p {
     color: var(--color-text);
     margin: 0 0 1rem;
+    line-height: 1.6;
   }
   .prispevky-cta p:last-child,
   .prispevky-archive p:last-child {
