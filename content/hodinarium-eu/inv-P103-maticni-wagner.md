@@ -25,6 +25,8 @@ karta:
   pohon: "elektromagnetické natahování závaží (uzavřený Huyghensův řetězec)"
 ---
 
+::photo{src="/img/sbirka/P103-wagner.jpg" alt="Matiční hodiny Wagner na panelu 1 v Hodináriu Děčín — mechanický stroj s Grahamovým krokem a elektromagnetickým natahováním závaží přes uzavřený Huygensův řetězec; jicí a signálový stroj společně natahovány při vysílání minutového impulzu" author="Mirek Baudisch"}
+
 Mechanické matiční hodiny s Grahamovým krokem a elektromagnetickým natahováním závaživého pohonu s uzavřeným Huyghensovým řetězcem.
 
 Hodiny se skládají z jicího stroje a stroje signálového, který vysílá polarizované [impulzy](/slovnik/impulsy) do podružných hodin. Oba stroje jsou současně natahovány při vysílání minutového impulzu.

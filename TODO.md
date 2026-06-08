@@ -1292,6 +1292,38 @@ DNS přesunu (kvůli velikosti indexu chce ostré HTTP/2 + Brotli).
       Vitrína 2) má pořád holé číslo (`A194` už nese „Římské digitálky").
       Dořešit: přečíslovat na volné A (např. A264) / smazat / sloučit.
 
+- [ ] **Kolize Baudisch mail 2026-06-08 — 263/264 dvojí významy** ⚠️
+      Baudisch píše: doplnit nové exponáty č. **263 Docházkové hodiny Laplace**
+      (funkční), č. **264 Gens–Pulsynetic** (funkční), č. **265 Hodiny Ferraris**
+      (funkční, vitrína 3). Ale v repo:
+      - `A263` = **Zvonění Kavalír** (přečísleno 2026-05-24 z A243 kvůli kolizi
+        s Linkový rozváděč EHU 260)
+      - `A264` = **Podružný stroj Elektročas malý** (přečísleno z holého `inv-194`,
+        memory ref výše)
+      - `A265` = volné — vytvořeno jako Ferraris ✅
+      
+      **K rozhodnutí:** Baudisch sleduje fyzické etikety v Hodináriu (které jsou
+      asi nové po jeho přečíslování), repo přečíslovalo kvůli rozporům v Soupisu
+      260519. Možnosti:
+      
+      a) **Renumber repo podle Baudische** — Zvonění Kavalír → A266+, Podružný
+         Elektročas malý → A267+, vytvořit nové A263 Docházkové Laplace +
+         A264 Gens-Pulsynetic. Vyžaduje redirect mapping pro staré URL.
+      b) **Vytvořit nové karty pod jinými čísly** (A266+) s notou „dle Baudische
+         č. 263 / 264".
+      c) **Konzultovat s Baudischem** — co je v Hodináriu skutečně dnes
+         připevněno na exponátu? Případně přečíslovat etikety.
+      
+      Fotka `263 Laplace pichacky.JPG` z zásilky 6/2026 čeká v
+      `zdroje/zasilka-VHF3PS3KHS6GCTBU/` na vyřešení.
+
+- [ ] **Chybějící fotky věžních strojů (Baudisch 6/2026)** — Baudisch ptá zda
+      máme fotky pro 10 věžních strojů. Stav v `zdroje/archiv StanM - expozice 2015-2018`:
+      - ✅ k dispozici (prefix v archivu): **10** (3 fotky), **26** Jirkostroj 1898
+        (5+ fotek), **18** Rochlitz/barokní kované (5+), **53** Petřín (5+)
+      - ❌ chybí v archivu (Baudisch má poslat): **31** Francie, **35** Mikulášovice,
+        **36** Thöndel 2, **38** součást, **67** Lissner, **65** Kavalír
+
 - [x] **Úklid soupisu 2026-05-24** — věžní položky zarovnány na `Annn`
       (78× bare → A&lt;NNN&gt; podle karet), výrobci doplněni z textu/štítků
       (Lissner, Skála…), smazáno 9 fantomových položek bez karty (75, 113, 144,
