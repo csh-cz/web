@@ -27,7 +27,10 @@ karta:
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
   krokJicihoStroje: "kotvový krok"
+thumbnail: '/img/vezni/031a-francie.jpg'
 ---
+
+::photo{src="/img/vezni/031a-francie.jpg" alt="Věžní hodiny A031 — nesignovaný čtvrťový stroj domnělého francouzského původu ve sbírce Hodinária Děčín, konstrukčně blízký dílně Jana Prokeše ze Sobotky; Robertův krok (klidový kotvový krok s kolíčkovým krokovým kolem podle francouzského patentu Adolphe Roberta ze Sancerre 1852), cévkové pastorky, dřevěná kyvadlová tyč, kotva s prořezávaným zdobným motivem" author="Stanislav Marušák"}
 
 Věžní hodiny, podle prodejce údajně z Francie, svou konstrukcí odpovídají podobným strojům z dílny Jana Prokeše ze Sobotky. Liší se od nich poněkud subtilnějším provedením. Hodinový stroj je čtvrťový, s cévkovými ( lucernovými ) pastorky. Vypouštění bicích strojů je jednopákové. Kyvadlová litinová čočka je zavěšena na dřevěné kyvadlové tyči. Stroj má **[Robertův krok](/kroky/robertuv-krok)** — klidový kotvový krok s kolíčkovým krokovým kolem podle francouzského patentu Adolphe Roberta ze Sancerre (1852).
 
