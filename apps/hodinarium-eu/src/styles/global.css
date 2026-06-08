@@ -1886,6 +1886,13 @@ body[data-editor-mode] article[data-draft="true"] > .draft-banner code {
   height: auto;
 }
 
+/* Malé index-figury (diagramy V a VI) — menší než velké mechanismy, ať
+   odpovídají své povaze drobných okrajových regulí v předloze.
+   Vyšší specificita (3 třídy) přebije .img-diagram výše. */
+.prose-content img.img-standalone.img-diagram.img-diagram-sm {
+  max-height: 240px;
+}
+
 /* Vždy viditelný inline editorský odkaz (např. „[viz obrázek]") — barevně
    odlišený, NENÍ součástí skrývatelného aparátu (.editorial-note). */
 .prose-content .ed-inline {
