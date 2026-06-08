@@ -15,16 +15,31 @@
  * kdy se i tak změní z `pub-...r2.dev` na `imgcdn.<doména>`).
  */
 
+import imageHashes from '../data/image-hashes.json';
+
 const CDN_BASE = 'https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev';
+
+/** Cache-bust query pro `/img/...` zdroj se známým content-hashem
+ *  (image-hashes.json, plněno CI při R2-move). Prázdné, když hash chybí.
+ *  R2 servíruje rastry `Cache-Control: immutable, max-age=1 rok` — bez
+ *  busted URL by změna obsahu pod stejným názvem nedorazila do prohlížeče.
+ *  Viz Photo.astro pro plný komentář. */
+export function cdnCacheBust(src: string | undefined | null): string {
+  if (!src) return '';
+  const h = (imageHashes as Record<string, string>)[src];
+  return h ? `?v=${h}` : '';
+}
 
 /** Přepíše `/img/...` URL na R2 CDN; externí URL nechá netknutou. */
 export function cdnUrl(src: string | undefined | null): string {
   if (!src) return '';
-  return src.startsWith('/img/') ? `${CDN_BASE}${src}` : src;
+  return src.startsWith('/img/') ? `${CDN_BASE}${src}${cdnCacheBust(src)}` : src;
 }
 
 /** Pro `<picture>` s AVIF/WebP variantami vrátí base URL bez extense.
- *  Vrací `null` pokud src není raster image v `/img/...`. */
+ *  Vrací `null` pokud src není raster image v `/img/...`.
+ *  Cache-bust query si volající doplní zvlášť přes `cdnCacheBust(src)`
+ *  (base nemá extenzi, query musí být až za `.avif`/`.webp`). */
 export function cdnVariantBase(src: string | undefined | null): string | null {
   if (!src || !src.startsWith('/img/')) return null;
   const m = /\.(jpe?g|png)(\?.*)?$/i.exec(src);

@@ -13,6 +13,7 @@ import remarkCshDirectives from '../../packages/remark-csh-directives/index.mjs'
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import imageSizes from './src/data/image-sizes.json' with { type: 'json' };
+import imageHashes from './src/data/image-hashes.json' with { type: 'json' };
 import deadLinks from './src/data/dead-links.json' with { type: 'json' };
 
 // Build-time discovery draft articles (frontmatter `draft: true`).
@@ -53,6 +54,7 @@ export default defineConfig({
     rehypePlugins: [
       [rehypePicture, {
         imageSizes,
+        imageHashes,
         wrapInPicture: true,
         // DEV stage URL — po DNS switch nahradit za imgcdn.<doména>.cz.
         cdnBase: 'https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev',
@@ -85,6 +87,7 @@ export default defineConfig({
         // AVIF/WebP <picture>). Stejné options jako v markdown configu.
         [rehypePicture, {
           imageSizes,
+          imageHashes,
           wrapInPicture: true,
           cdnBase: 'https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev',
         }],

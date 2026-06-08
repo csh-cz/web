@@ -37,16 +37,17 @@ const SRCSET_SIZES = '(max-width: 768px) 100vw, 760px';
  * @param {string} variantBase  base URL bez extense (vč. CDN)
  * @param {'avif'|'webp'} fmt
  * @param {number} w  šířka zdroje (z image-sizes.json)
+ * @param {string} cb  cache-bust query (`?v=hash`) nebo '' (z image-hashes.json)
  */
-function buildSrcset(variantBase, fmt, w) {
-  if (!w || w < SRCSET_MIN_SOURCE_WIDTH) return `${variantBase}.${fmt}`;
+function buildSrcset(variantBase, fmt, w, cb = '') {
+  if (!w || w < SRCSET_MIN_SOURCE_WIDTH) return `${variantBase}.${fmt}${cb}`;
   const parts = [];
   for (const bp of SRCSET_BREAKPOINTS) {
-    if (bp < w) parts.push(`${variantBase}-${bp}w.${fmt} ${bp}w`);
+    if (bp < w) parts.push(`${variantBase}-${bp}w.${fmt}${cb} ${bp}w`);
   }
   // Plné-res jako největší descriptor jen do 1920 px; větší zdroje strop
   // na 1920w variantě (nechceme servírovat 4000px originál přes srcset).
-  if (w <= 1920) parts.push(`${variantBase}.${fmt} ${w}w`);
+  if (w <= 1920) parts.push(`${variantBase}.${fmt}${cb} ${w}w`);
   return parts.join(', ');
 }
 
@@ -59,6 +60,7 @@ function buildSrcset(variantBase, fmt, w) {
  */
 export default function rehypePicture(opts = {}) {
   const sizes = opts.imageSizes ?? {};
+  const hashes = opts.imageHashes ?? {};
   const wrap = opts.wrapInPicture === true;
   const cdnBase = (opts.cdnBase ?? '').replace(/\/+$/, '');
 
@@ -90,6 +92,11 @@ export default function rehypePicture(opts = {}) {
       const src = node.properties && node.properties.src;
       if (typeof src !== 'string') return;
 
+      // Cache-bust query (`?v=hash`) z image-hashes.json — viz Photo.astro.
+      // R2 servíruje rastry immutable/1 rok; bez busted URL by změna obsahu
+      // pod stejným názvem nedorazila. Prázdné, když hash chybí.
+      const cb = hashes[src] ? `?v=${hashes[src]}` : '';
+
       // Doplň width/height (intrinsic, CLS), pokud chybí a máme z indexu.
       const dim = sizes[src];
       if (dim) {
@@ -111,7 +118,7 @@ export default function rehypePicture(opts = {}) {
         // Non-raster (gif, svg, …) — nemá AVIF/WebP varianty, tedy žádný
         // <picture> wrap; jen přepiš src na R2 CDN, ať se po `git rm public/img/`
         // (A.26) servíruje z R2 jako vše ostatní.
-        if (cdnBase) node.properties.src = `${cdnBase}${src}`;
+        if (cdnBase) node.properties.src = `${cdnBase}${src}${cb}`;
         return;
       }
 
@@ -124,13 +131,13 @@ export default function rehypePicture(opts = {}) {
       if (cdnBase) {
         // Přepiš <img src> na R2 URL (zachová original ext).
         const origExt = src.match(RASTER_RE)?.[0] ?? '';
-        node.properties.src = `${cdnBase}${base}${origExt.replace(/\?.*$/, '')}`;
+        node.properties.src = `${cdnBase}${base}${origExt.replace(/\?.*$/, '')}${cb}`;
       }
       // A.34 — width descriptors pro dost velké zdroje (jinak single srcset).
       const w = dim && typeof dim.w === 'number' ? dim.w : 0;
       const eligible = w >= SRCSET_MIN_SOURCE_WIDTH;
-      const avifProps = { type: 'image/avif', srcset: buildSrcset(variantBase, 'avif', w) };
-      const webpProps = { type: 'image/webp', srcset: buildSrcset(variantBase, 'webp', w) };
+      const avifProps = { type: 'image/avif', srcset: buildSrcset(variantBase, 'avif', w, cb) };
+      const webpProps = { type: 'image/webp', srcset: buildSrcset(variantBase, 'webp', w, cb) };
       if (eligible) {
         avifProps.sizes = SRCSET_SIZES;
         webpProps.sizes = SRCSET_SIZES;

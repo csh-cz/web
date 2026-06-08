@@ -34,6 +34,7 @@ import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 import exifr from 'exifr';
 import imageSizes from '../data/image-sizes.json';
+import imageHashes from '../data/image-hashes.json';
 
 interface ImageSizeEntry {
   w: number;
@@ -236,6 +237,15 @@ const RASTER_RE = /\.(jpe?g|png)(\?.*)?$/i;
 const isRaster = src.startsWith('/img/') && RASTER_RE.test(src);
 const variantBase = isRaster ? `${CDN_BASE}${src.replace(RASTER_RE, '')}` : '';
 
+// Cache-bust rastrů: R2 servíruje s `Cache-Control: immutable, max-age=1 rok`
+// (předpoklad „stejný název = stejný obsah"). Když se obsah obrázku změní,
+// prohlížeč by držel starou verzi navždy. `image-hashes.json` mapuje
+// `/img/...` → krátký content-hash (md5/8), plní ho CI při R2-move. URL se
+// změní jen když se změní obsah → cache miss jen pro změněný obrázek
+// (immutable benefit u nezměněných zůstává). Chybí-li hash, žádná query.
+const cbHash = (imageHashes as Record<string, string>)[src];
+const cbQ = cbHash ? `?v=${cbHash}` : '';
+
 // SVG s SMIL/CSS animací — `<img src=*.svg>` v Chrome i Safari SMIL ignoruje,
 // musí se vložit jako `<object type="image/svg+xml">` aby skripty + animace
 // běžely. Statické SVG ikony klidně přes `<img>`, ale pro animace v rubrice
@@ -263,12 +273,12 @@ const srcW = sizeInfo?.w ?? 0;
 const srcsetEligible = isRaster && srcW >= 1024;
 const photoSizes = '(max-width: 768px) 100vw, 760px';
 function photoSrcset(fmt: 'avif' | 'webp'): string {
-  if (!srcsetEligible) return `${variantBase}.${fmt}`;
+  if (!srcsetEligible) return `${variantBase}.${fmt}${cbQ}`;
   const parts: string[] = [];
   for (const bp of SRCSET_BREAKPOINTS) {
-    if (bp < srcW) parts.push(`${variantBase}-${bp}w.${fmt} ${bp}w`);
+    if (bp < srcW) parts.push(`${variantBase}-${bp}w.${fmt}${cbQ} ${bp}w`);
   }
-  if (srcW <= 1920) parts.push(`${variantBase}.${fmt} ${srcW}w`);
+  if (srcW <= 1920) parts.push(`${variantBase}.${fmt}${cbQ} ${srcW}w`);
   return parts.join(', ');
 }
 ---
@@ -277,7 +287,7 @@ function photoSrcset(fmt: 'avif' | 'webp'): string {
     <picture>
       <source type="image/avif" srcset={photoSrcset('avif')} {...(srcsetEligible ? { sizes: photoSizes } : {})} />
       <source type="image/webp" srcset={photoSrcset('webp')} {...(srcsetEligible ? { sizes: photoSizes } : {})} />
-      <img src={cdnSrc} alt={alt} class={imgClass} loading="lazy" decoding="async" />
+      <img src={`${cdnSrc}${cbQ}`} alt={alt} class={imgClass} loading="lazy" decoding="async" />
     </picture>
   ) : isSvg ? (
     <object type="image/svg+xml" data={svgSrc} class={imgClass} aria-label={alt}>

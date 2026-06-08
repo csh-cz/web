@@ -4,6 +4,7 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import rehypePicture from '../../packages/rehype-picture/index.mjs';
 import imageSizes from './src/data/image-sizes.json' with { type: 'json' };
+import imageHashes from './src/data/image-hashes.json' with { type: 'json' };
 
 export default defineConfig({
   // Dočasně pages.dev — ostrá doména horologie.cz zatím neběží.
@@ -17,6 +18,7 @@ export default defineConfig({
     rehypePlugins: [
       [rehypePicture, {
         imageSizes,
+        imageHashes,
         wrapInPicture: true,
         // DEV stage URL — po DNS switch nahradit za imgcdn.<doména>.cz.
         cdnBase: 'https://pub-e96bd8c658664b38af73a48cb8872b60.r2.dev',
