@@ -237,7 +237,13 @@ jobs:
           # Cache-bust manifest (aktualizovaný krokem „Update image-hashes")
           # zařaď do téhož commitu. `git add` nezměněného souboru = no-op.
           git add apps/hodinarium-eu/src/data/image-hashes.json apps/horologie-cz/src/data/image-hashes.json
-          git commit -m "ci: move uploaded images to R2 [skip ci]
+          # POZOR na skip token: `[skip actions]` zastaví jen GitHub Actions
+          # (aby se tenhle workflow nespustil sám na sobě = smyčka), ale
+          # Cloudflare Pages ho NEzná → CF Pages build proběhne. To je nutné:
+          # tento commit mění image-hashes.json, z něhož se za buildu počítá
+          # `?v=<hash>` cache-bust, takže se MUSÍ přerenderovat HTML. Dřívější
+          # `[skip ci]` skipoval i CF Pages → nový ?v= se nikdy nenasadil.
+          git commit -m "ci: move uploaded images to R2 [skip actions]
 
           Source files uploaded by Sveltia editor have been pushed to the
           R2 bucket (csh-imgvariants). They no longer need to live in the
