@@ -31,12 +31,16 @@ references:
     rok: 1855
     type: kniha
     note: '2. vydání. Praha / Litoměřice: Carl Wilhelm Medau. Autor v titulu označen jako „protokollierter Registrand und Chronist der Stadt Böhmisch-Leipa". Klíčové strany 188–191. Zotero FSHTBV2S. Exemplář s razítkem „Archiv der Stadt Aussig 18. 9. 1899".'
+  - title: 'Allgemeine Deutsche Ausstellung für Gewerbe, Industrie und Landwirthschaft Aussig 1903 — sekce „Alt-Aussig"'
+    rok: 1903
+    type: archiv
+    note: 'Všeobecná německá výstava pro řemesla, průmysl a zemědělství uspořádaná v Ústí nad Labem 1903. Její součástí byla rekonstrukční expoziční sekce „Alt-Aussig" (Staré Ústí) s modely zaniklých budov včetně staré renesanční radnice (stržené 1846). Z výstavy pochází série propagačních pohlednic „Alt-Aussig" (úvodní fotografie tohoto článku) a místopisná publikace Mariana 1903 (viz dále).'
   - title: "Alt-Aussig auf der Allgemeinen Deutschen Ausstellung für Gewerbe, Industrie und Landwirthschaft 1903"
     autor: "Alexander Marian"
     rok: 1903
     type: kniha
     url: "https://ceskadigitalniknihovna.cz/view/uuid:e8df0d64-d64b-450e-a559-19e2eef849f6?source=svkul"
-    note: 'Místopisná publikace připravená u příležitosti Všeobecné německé výstavy pro řemesla, průmysl a zemědělství 1903 v Ústí nad Labem. Provázela expoziční rekonstrukci „Alt-Aussig" (Staré Ústí). Cituje Tichtenbauma 1614 (s. 9) ke vzhledu radničního orloje. Plný OCR text stažitelný z [SVKUL Kramerius](https://kramerius.knihovnauk.cz/) přes klientské API (např. s. 9 = uuid:2d494c38-9c4a-11e6-b170-001b63bd97ba). Zotero Q8GQLHQE.'
+    note: 'Místopisná publikace vydaná jako průvodce k expoziční sekci „Alt-Aussig" Všeobecné německé výstavy 1903 v Ústí n. L. (viz výše). Cituje Tichtenbauma 1614 (s. 9) ke vzhledu radničního orloje a popisuje osud zvonu Brikcího v městském muzeu (s. 10). Plný OCR text stažitelný z [SVKUL Kramerius](https://kramerius.knihovnauk.cz/) přes klientské API (např. s. 9 = uuid:2d494c38-9c4a-11e6-b170-001b63bd97ba). Zotero Q8GQLHQE.'
   - title: "Smlouva o opravě hodin"
     autor: "Joseph Fischer, Uhrmacher Meister (Aussig)"
     type: archiv
@@ -49,11 +53,13 @@ references:
 
 V renesanční radnici **královského svobodného města Ústí nad Labem** (německy **Aussig**) byl podle dobových pramenů umístěn **astronomický orloj** — věžní stroj s figurálním automatem a astronomickými ukazateli. Stroj zanikl v roce **1846** spolu se starou radnicí, která byla stržena.
 
-Tento článek shrnuje, co o ústeckém radničním orloji víme ze čtyř dochovaných pramenů:
+Tento článek shrnuje, co o ústeckém radničním orloji víme z pěti dochovaných pramenů:
 
 1. **Tichtenbaum 1614** — *Vsta, ad Albim delineata* — latinská básnická topografie ústeckého radního a poety laureata, který orloj viděl jako svůj současník (primární pramen)
 2. **Sonnewend 1855** — *Geschichte der Königlichen Freistadt Aussig* — dějiny města (zaznamenává letopočet 1591 + G. W. *na samotném stroji* + dřevěné soukolí na půdě nové radnice po stržení 1846)
-3. **Marian 1903** — *Alt-Aussig* — místopis k Všeobecné německé výstavě 1903 (parafrázuje Tichtenbauma, dodává osud zvonu Brikcího)
+3. **Všeobecná německá výstava pro řemesla, průmysl a zemědělství 1903** v Ústí n. L. — *Allgemeine Deutsche Ausstellung für Gewerbe, Industrie und Landwirthschaft* — městská výstava, jejíž součástí byla expoziční sekce **„Alt-Aussig"** (Staré Ústí) s rekonstrukcemi zaniklých budov včetně staré renesanční radnice. Z této výstavy pochází:
+   - **Pohlednice** „Alt-Aussig — Marktplatz mit Rathaus" v úvodu tohoto článku (= výstavní rekonstrukce, NE fotografie skutečné budovy)
+   - **Marian 1903** — *Alt-Aussig* — průvodcovský místopis k výstavě, který cituje Tichtenbauma (s. 9) a popisuje osud zvonu Brikcího (s. 10)
 4. **Joseph Fischer, Uhrmacher Meister** — rukopisná smlouva o opravě hodin (kurent, 18./19. století, plně nepřečteno)
 
 ## Tichtenbaum 1614 — primární latinská citace
