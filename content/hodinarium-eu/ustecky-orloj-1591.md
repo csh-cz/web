@@ -36,7 +36,7 @@ references:
     rok: 1903
     type: kniha
     url: "https://ceskadigitalniknihovna.cz/view/uuid:e8df0d64-d64b-450e-a559-19e2eef849f6?source=svkul"
-    note: 'Místopisná publikace připravená u příležitosti Všeobecné německé výstavy pro řemesla, průmysl a zemědělství 1903 v Ústí nad Labem. Provázela expoziční rekonstrukci „Alt-Aussig" (Staré Ústí) s modely zaniklých budov. Cituje Tichtenbauma 1614 (s. 9) ke vzhledu radničního orloje. Zotero Q8GQLHQE. Online v České digitální knihovně (SVKUL).'
+    note: 'Místopisná publikace připravená u příležitosti Všeobecné německé výstavy pro řemesla, průmysl a zemědělství 1903 v Ústí nad Labem. Provázela expoziční rekonstrukci „Alt-Aussig" (Staré Ústí). Cituje Tichtenbauma 1614 (s. 9) ke vzhledu radničního orloje. Plný OCR text stažitelný z [SVKUL Kramerius](https://kramerius.knihovnauk.cz/) přes klientské API (např. s. 9 = uuid:2d494c38-9c4a-11e6-b170-001b63bd97ba). Zotero Q8GQLHQE.'
   - title: "Smlouva o opravě hodin"
     autor: "Joseph Fischer, Uhrmacher Meister (Aussig)"
     type: archiv
@@ -51,22 +51,31 @@ V renesanční radnici **královského svobodného města Ústí nad Labem** (n�
 
 Tento článek shrnuje, co o ústeckém radničním orloji víme z dochovaných pramenů: **latinské topografie Johanna Augustina Tichtenbauma (1614)**, převzaté místopisem **Alexandra Mariana** *Alt-Aussig* (1903), z **dějin města Friedricha Sonnewenda** (1855) a z **rukopisné smlouvy o opravě hodin podepsané Josephem Fischerem, Uhrmacher Meister** (datace zatím nestanovena).
 
-## Tichtenbaum 1614 — popis astronomického orloje (podle Mariana 1903, s. 9)
+## Tichtenbaum 1614 — co skutečně píše (podle Mariana 1903, s. 9)
 
-Autoritativním pramenem o ústeckém orloji je **latinská topografie** *Usta ad Albim delineata* tištěná v Praze u Caspara Kargesia roku **1614**. Autor — **Johann Augustin Tichtenbaum** — byl ústeckým radním a *poetou laureátem*. Jeho text je nám dostupný jen druhotně, prostřednictvím místopisu **Alexandra Mariana** *Alt-Aussig* (1903, s. 9), který Tichtenbauma cituje:
+Autoritativním pramenem o ústeckém orloji je **latinská topografie** *Vsta, ad Albim delineata* tištěná v Praze u Caspara Kargesia roku **1614**. Autor — **Johann Augustin Tichtenbaum** — byl sám ústeckým radním (Marian 1903 ho uvádí mezi radními na s. 12). Tichtenbaumův text je nám dostupný buď přímo (digitalizát na [Google Books](https://books.google.cz/books?id=9aLaDLc6-dYC), bibl. záznam Knihověda BCBT41494), nebo prostřednictvím parafráze Mariana 1903 v *Alt-Aussig* (s. 9). Verbatim přepis z digitalizovaného Mariana (Česká digitální knihovna, [SVKUL Kramerius](https://kramerius.knihovnauk.cz/), stránka s indexem 15):
 
-> *„Das Rathaus, von dem unbegreiflicherweise vor seiner gänzlichen Abtragung im Jahre 1846 kein Bild und keine Beschreibung angefertigt wurde […], hatte, wie die meisten Häuser am Marktplatze, Lauben und war ein Stock hoch mit hohem Frontispiß und Vordermauern, **es trug — wie Tichtenbaum erwähnt — einen Thurm mit einer künstlichen Uhr, welche alle Viertelstunden schlug. Eine darunter angebrachte Figur steht mit dem Werke in Verbindung und bewegt Hände und Lippen; auch zeigte die Uhr die Bewegung der Planeten und des Mondes an.**"*
-> — Marian 1903, s. 9 (citace Tichtenbauma 1614)
+> *„Das Rathhaus, von dem unbegreiflicherweise vor seiner gänzlichen Abtragung im Jahre **1846** kein Bild und keine Beschreibung angefertigt wurde (nur die anläßlich der Ausarbeitung der Pläne für das jetzt bestehende nothwendigen Situationsskizzen sind im Stadtarchiv vorhanden), hatte, wie die meisten Häuser am Marktplatze, Lauben und war ein Stock hoch mit hohem Frontispiz und Vordermauern, **es trug — wie Tichtenbaum erwähnt — einen Thurm mit einer künstlichen Uhr, welche alle Viertelstunden schlug. Eine darunter angebrachte Figur steht mit dem Werke in Verbindung und bewegt Hände und Lippen; auch zeigte die Uhr die Bewegung der Planeten und des Mondes an.**"*
+> — Marian 1903, s. 9
 
-V překladu: *„Radnice — o níž bylo nepochopitelně před jejím úplným stržením roku 1846 pořízeno bez obraz a bez popisu […] — nesla věž s **uměleckými hodinami, které bily každou čtvrť hodiny**. **Pod nimi byla osazena figura propojená se strojem, která hýbala rukama i ústy; hodiny také ukazovaly pohyb planet a Měsíce.**"*
+V překladu: *„O radnici, o níž bylo nepochopitelně před jejím úplným stržením roku 1846 pořízeno bez obraz a bez popisu (jen situační skicy zhotovené při přípravě plánů dnešní budovy se nacházejí v městském archivu) — měla, jako většina domů na náměstí, podloubí a byla jedno patro vysoká s vysokým průčelím a zdmi; **nesla — jak Tichtenbaum zmiňuje — věž s uměleckou hodinou (künstliche Uhr), která bila každou čtvrť hodiny. Pod ní připojená figura je spojena se strojem a hýbe rukama a rty; hodina také ukazovala pohyb planet a Měsíce.**"*
 
-Ústecký radniční stroj tedy podle Tichtenbauma (a Mariana) měl:
+Co tedy Tichtenbaum (v Marianově parafrázi) přisuzuje ústeckému radničnímu stroji:
 
-- **Bicí stroj na čtvrti**
-- **Figurální automat** propojený se strojem, pohybující rukama a ústy
-- **Astronomické ukazatele** pohybu planet a Měsíce
+- **Věž s „uměleckou hodinou"** (*künstliche Uhr*) — renesanční terminus pro mistrovský mechanický kunstwerk
+- **Bicí na čtvrti** (*alle Viertelstunden schlug*)
+- **Figurální automat pod ciferníkem**, který *„hýbe rukama a rty"* (*bewegt Hände und Lippen*) — populární typologie 16. století
+- **Astronomické ukazatele** — pohyb planet a Měsíce (*Bewegung der Planeten und des Mondes*)
 
-Marian dále poznamenává, že tato charakteristika **typologicky odpovídá pražskému Staroměstskému orloji**.
+**Co Tichtenbaum (v Marianově parafrázi) NEUVÁDÍ:**
+
+- Letopočet **1591** ani iniciály **G. W.** na stroji — tyto údaje pochází JEN ze Sonnewenda (1855, s. 190), Marian je nepřebírá. Buď je Marian vynechal, nebo jejich pramen není Tichtenbaum.
+- Jméno autora, dílny ani město původu hodináře
+- Konkrétní popis ciferníku (jen „Uhr")
+- Údaj o **„české" vs „německé" hodinovém počítání** (24h vs 12h, Boží Tělo 1613) — *tento údaj v Marianově verzi citace také není a vyžadoval by ověření přímo v Tichtenbaumovi 1614*
+- Cokoli o lokaci stroje uvnitř věže nebo o jeho velikosti
+
+> **TODO:** Přečíst přímo Tichtenbauma 1614 (digitalizát Google Books) a porovnat — najít přesnou latinskou pasáž o orloji a ověřit, zda Marian něco nevynechal (zvláště rozdělení „české/německé" hodiny, které máme zatím jen z milníku ČSH).
 
 ## Sonnewend 1855 — letopočet 1591 + iniciály G. W. NA SAMOTNÉM STROJI
 
@@ -94,7 +103,7 @@ Sonnewend ke stavebním dějinám radnice dále uvádí (s. 190–191):
 | Rok | Údaj |
 |---|---|
 | **1574** | Řezaný dřevěný strop **zasedacího sálu** |
-| **1579** | Zvon **Brikcího z Cymberka**, pražského zvonaře; český nápis: *„Brykcý Zwonarz Cynperku w Praze ole. Leta 1579"* |
+| **1579** | Zvon **Brikcího z Cymberka**, pražského zvonaře; český nápis: *„Brykcý Zwonarz Cynperku w Praze ole. Leta 1579"*. **Pozn.:** Marian (1903, s. 10) ten samý zvon datuje rokem **1574** a označuje jej za *„Feuerglocke"* (požární zvon) — a dodává, že **zvon se nachází v městském muzeu**. Datace 1574 vs 1579 mezi Sonnewendem a Marianem (po 48 letech) k ověření. |
 | **1589** | Místnost **„grüne Stube"** |
 | **1591 + G. W.** | **Letopočet a iniciály na samotném orloji** (signatura mistra) |
 | **1774 + J. J. N. Anno** | Hlavní oprava hodin (latinská zkratka *„In Iesu Nomine, Anno…"* — „Ve jménu Ježíšově, léta páně") |
