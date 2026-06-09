@@ -49,7 +49,12 @@ references:
 
 V renesanční radnici **královského svobodného města Ústí nad Labem** (německy **Aussig**) byl podle dobových pramenů umístěn **astronomický orloj** — věžní stroj s figurálním automatem a astronomickými ukazateli. Stroj zanikl v roce **1846** spolu se starou radnicí, která byla stržena.
 
-Tento článek shrnuje, co o ústeckém radničním orloji víme z dochovaných pramenů: **latinské topografie Johanna Augustina Tichtenbauma (1614)**, převzaté místopisem **Alexandra Mariana** *Alt-Aussig* (1903), z **dějin města Friedricha Sonnewenda** (1855) a z **rukopisné smlouvy o opravě hodin podepsané Josephem Fischerem, Uhrmacher Meister** (datace zatím nestanovena).
+Tento článek shrnuje, co o ústeckém radničním orloji víme ze čtyř dochovaných pramenů:
+
+1. **Tichtenbaum 1614** — *Vsta, ad Albim delineata* — latinská básnická topografie ústeckého radního a poety laureata, který orloj viděl jako svůj současník (primární pramen)
+2. **Sonnewend 1855** — *Geschichte der Königlichen Freistadt Aussig* — dějiny města (zaznamenává letopočet 1591 + G. W. *na samotném stroji* + dřevěné soukolí na půdě nové radnice po stržení 1846)
+3. **Marian 1903** — *Alt-Aussig* — místopis k Všeobecné německé výstavě 1903 (parafrázuje Tichtenbauma, dodává osud zvonu Brikcího)
+4. **Joseph Fischer, Uhrmacher Meister** — rukopisná smlouva o opravě hodin (kurent, 18./19. století, plně nepřečteno)
 
 ## Tichtenbaum 1614 — primární latinská citace
 
@@ -129,7 +134,7 @@ V překladu: *„Na velkých radničních hodinách se nachází letopočet **15
 To znamená, že:
 
 - Hodinový stroj nesl **signaturu — letopočet 1591** a **iniciály G. W.** (pravděpodobně mistra, který orloj zhotovil)
-- Tichtenbaum tedy roku 1614 popisuje **stroj starý 23 let**
+- **Tichtenbaum 1614 tedy popisuje stroj starý 23 let** (samotný letopočet 1591 ani iniciály G. W. ale ve Tichtenbaumovi nejsou — možná byly na stroji nezřetelné, nebo Tichtenbauma jako básníka nezajímaly, nebo je Sonnewend o 241 let později četl z dnes ztracené části)
 - **Identita mistra „G. W." není doložena** a vyžaduje další badatelské hledání (v ústeckých městských knihách, mistrovských listinách a v korpusu signatur českých renesančních hodinářů)
 
 Sonnewend ke stavebním dějinám radnice dále uvádí (s. 190–191):
@@ -187,6 +192,7 @@ Renesanční radnice byla **stržena roku 1846** a astronomický orloj s ní zan
 2. **Plná paleografická transkripce Fischerovy smlouvy** + přesná datace + identifikace druhého podpisu (rychtář?)
 3. **Souvislost Fischerovy smlouvy s opravou 1774 (J. J. N. Anno)** — ověřit datací rukopisu
 4. **Osud dřevěného „Räderwerku"** zaznamenaného Sonnewendem 1855 na půdě nové radnice
-5. ~~Dohledat Tichtenbauma 1614~~ ✅ **Vyřešeno (2026-06-09):** Tichtenbaum 1614 nalezen digitalizovaný a přečten v latinském originále (PDF v Zotero ČSH Z42QAZSS). Klíčové nálezy oproti Marianově parafrázi 1903: kulatá věž (turri rotunda), zodiakální znamení a fáze Měsíce v ukazatelích, druhý orloj na domě bratrstva 1613 s 12hodinovým „německým" počítáním explicitně doložen. Letopočet 1591 + G. W. ve Tichtenbaumovi NEJSOU — jsou pouze ze Sonnewenda 1855, který je o 241 let později četl na samotném stroji.
+5. **Osud zvonu Brikcího z Cymberka** — podle Mariana (1903) se nacházel v ústeckém městském muzeu; zda dnes existuje (a kde) k ověření; sjednotit datacích (1574 vs 1579 podle pramenů)
+6. **Druhý ústecký orloj (dům bratrstva 1613)** — kdy a za jakých okolností zanikl, případně zda se z něho něco dochovalo
 
 *Pokud k jakékoli z těchto otázek máte další informace, kontaktujte [Český spolek horologický](/o-hodinariu).*
