@@ -20,11 +20,12 @@ manualEdit: true
 tldr: 'Renesanční astronomický orloj na radnici v Ústí nad Labem (Aussig). Podle latinské topografie Johanna Augustina Tichtenbauma (1614, převzato Marianem 1903) bil čtvrťové, ukazoval pohyb planet a Měsíce a měl figurální automat. Na samotném stroji byl letopočet 1591 s iniciálami G. W. (Sonnewend 1855). Stroj zanikl v roce 1846 spolu se stržením staré radnice.'
 relatedHodinari: []
 references:
-  - title: "Usta ad Albim delineata, carmine rebusque suis memorabilibus illustrata"
+  - title: "Vsta, ad Albim delineata carmine rebusque suis memorabilibus illustrata"
     autor: "Johann Augustin Tichtenbaum"
     rok: 1614
     type: kniha
-    note: "Praha, Caspar Kargesius (tisk). Primární popis ústeckého radničního orloje. V tomto článku citováno druhotně podle Mariana 1903, s. 9 (Zotero PINZU39Z)."
+    url: "https://books.google.cz/books?id=9aLaDLc6-dYC"
+    note: "Praha, Caspar Kargesius (tisk). Primární popis ústeckého radničního orloje. V tomto článku citováno druhotně podle Mariana 1903, s. 9. Bibliografický záznam: Knihověda AV ČR BCBT41494 (https://bcbt.lib.cas.cz/records/2e8f5c6f-dd9f-48e6-868f-5118a7d32af0). Tři známé exempláře (Litoměřice Biskupství — knihovna I Q/88; 2× Strahovská knihovna EB XIV 50 a AO XVI 56). Digitalizát dostupný na Google Books. Zotero PINZU39Z."
   - title: "Geschichte der Königlichen Freistadt Aussig"
     autor: "Friedrich Sonnewend"
     rok: 1855
@@ -143,6 +144,6 @@ Renesanční radnice byla **stržena roku 1846** a astronomický orloj s ní zan
 2. **Plná paleografická transkripce Fischerovy smlouvy** + přesná datace + identifikace druhého podpisu (rychtář?)
 3. **Souvislost Fischerovy smlouvy s opravou 1774 (J. J. N. Anno)** — ověřit datací rukopisu
 4. **Osud dřevěného „Räderwerku"** zaznamenaného Sonnewendem 1855 na půdě nové radnice
-5. **Dohledat Tichtenbauma 1614** jako primární pramen (Marian 1903 cituje, ale úplné PDF zatím nemáme)
+5. ~~Dohledat Tichtenbauma 1614~~ ✅ **Vyřešeno (2026-06-09):** Tichtenbaum 1614 je digitalizován a dostupný [na Google Books](https://books.google.cz/books?id=9aLaDLc6-dYC). Bibliografický záznam v [Knihovědě AV ČR (BCBT41494)](https://bcbt.lib.cas.cz/records/2e8f5c6f-dd9f-48e6-868f-5118a7d32af0); tři známé exempláře (Biskupství litoměřické I Q/88; 2× Strahovská knihovna). Zbývající úkol: přečíst přímo Tichtenbaumovu kapitolu VI o radničním orloji a porovnat s Marianovou parafrází z roku 1903 — jestli Marian vynechal nebo přidal podstatné detaily.
 
 *Pokud k jakékoli z těchto otázek máte další informace, kontaktujte [Český spolek horologický](/o-hodinariu).*
