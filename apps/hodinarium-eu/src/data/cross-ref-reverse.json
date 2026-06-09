@@ -699,6 +699,22 @@
         "elekon",
         "petr-kral"
       ]
+    },
+    "engelbrechtove-beroun": {
+      "hodinari": [
+        "patrik-parizek"
+      ]
+    },
+    "johann-klein": {
+      "hodinari": [
+        "patrik-parizek"
+      ]
+    },
+    "patrik-parizek": {
+      "hodinari": [
+        "engelbrechtove-beroun",
+        "johann-klein"
+      ]
     }
   },
   "karty": {
@@ -1733,6 +1749,11 @@
     "havlicek-tocna-orloj": {
       "hodinari": [
         "jiri-havlicek"
+      ]
+    },
+    "klein-astronomicke-geograficke-hodiny": {
+      "hodinari": [
+        "johann-klein"
       ]
     }
   },

@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-06-07T05:30:13.881Z",
+  "generatedAt": "2026-06-09T07:45:08.518Z",
   "summary": {
-    "kartyTotal": 318,
-    "kartyNoTyp": 244,
-    "kartyNoThumb": 267,
+    "kartyTotal": 319,
+    "kartyNoTyp": 245,
+    "kartyNoThumb": 261,
     "kartyNoVyrobce": 282,
-    "kartyNoUmisteni": 265,
+    "kartyNoUmisteni": 259,
     "kartyPlaceholderTitle": 0,
     "clankyNoTldr": 2,
     "clankyShort": 57,
     "clankyLegacyLinks": 1,
-    "hodinariTotal": 174,
+    "hodinariTotal": 177,
     "hodinariShort": 124,
-    "hodinariNoPortret": 154,
+    "hodinariNoPortret": 157,
     "soupisTotal": 443,
     "stubsKarty": 0,
     "stubsClanky": 0,
@@ -216,7 +216,7 @@
       },
       {
         "slug": "inv-A117-synchronni-laplace-stroj",
-        "title": "Synchronní Laplace - stroj",
+        "title": "Stroj hodin Laplace",
         "editUrl": "/admin/#/collections/karty/entries/inv-A117-synchronni-laplace-stroj"
       },
       {
@@ -905,6 +905,11 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-A262-hodiny-pragotron-velke"
       },
       {
+        "slug": "inv-A265-hodiny-ferraris",
+        "title": "Hodiny Ferraris",
+        "editUrl": "/admin/#/collections/karty/entries/inv-A265-hodiny-ferraris"
+      },
+      {
         "slug": "inv-A68-slunecni-hodiny-horizontalni",
         "title": "Sluneční hodiny horizontální",
         "editUrl": "/admin/#/collections/karty/entries/inv-A68-slunecni-hodiny-horizontalni"
@@ -1267,24 +1272,9 @@
     ],
     "kartyNoThumb": [
       {
-        "slug": "inv-A010-vezni",
-        "title": "Věžní hodiny",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A010-vezni"
-      },
-      {
         "slug": "inv-A011-vezni-torzo",
         "title": "Věžní hodiny torzo Lissner (Hilgersdorf / Severní, 1881)",
         "editUrl": "/admin/#/collections/karty/entries/inv-A011-vezni-torzo"
-      },
-      {
-        "slug": "inv-A018-vezni-barokni-kovane",
-        "title": "Věžní hodiny barokní kované",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A018-vezni-barokni-kovane"
-      },
-      {
-        "slug": "inv-A031-vezni-francie",
-        "title": "Věžní hodiny Francie",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A031-vezni-francie"
       },
       {
         "slug": "inv-A032-vezni-skalice",
@@ -1295,21 +1285,6 @@
         "slug": "inv-A033-vezni-lexa",
         "title": "Věžní hodiny Lexa",
         "editUrl": "/admin/#/collections/karty/entries/inv-A033-vezni-lexa"
-      },
-      {
-        "slug": "inv-A035-vezni-mikulasovice",
-        "title": "Věžní hodiny Mikulášovice",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A035-vezni-mikulasovice"
-      },
-      {
-        "slug": "inv-A036-vezni-thondel-2",
-        "title": "Věžní hodiny Thöndel 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A036-vezni-thondel-2"
-      },
-      {
-        "slug": "inv-A038-soucast-veznich-hodin",
-        "title": "součást věžních hodin",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A038-soucast-veznich-hodin"
       },
       {
         "slug": "inv-A039-die-turmuhren",
@@ -1360,11 +1335,6 @@
         "slug": "inv-A052-soustava-rozvodu-s-rafijemi",
         "title": "Soustava rozvodů s ručkami",
         "editUrl": "/admin/#/collections/karty/entries/inv-A052-soustava-rozvodu-s-rafijemi"
-      },
-      {
-        "slug": "inv-A053-orloj-hvezdarna-petrin",
-        "title": "Orloj Hvězdárna Petřín",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A053-orloj-hvezdarna-petrin"
       },
       {
         "slug": "inv-A054-skeletove-hodiny-kavalir",
@@ -1518,7 +1488,7 @@
       },
       {
         "slug": "inv-A117-synchronni-laplace-stroj",
-        "title": "Synchronní Laplace - stroj",
+        "title": "Stroj hodin Laplace",
         "editUrl": "/admin/#/collections/karty/entries/inv-A117-synchronni-laplace-stroj"
       },
       {
@@ -2202,6 +2172,11 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-A262-hodiny-pragotron-velke"
       },
       {
+        "slug": "inv-A265-hodiny-ferraris",
+        "title": "Hodiny Ferraris",
+        "editUrl": "/admin/#/collections/karty/entries/inv-A265-hodiny-ferraris"
+      },
+      {
         "slug": "inv-A68-slunecni-hodiny-horizontalni",
         "title": "Sluneční hodiny horizontální",
         "editUrl": "/admin/#/collections/karty/entries/inv-A68-slunecni-hodiny-horizontalni"
@@ -2729,11 +2704,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-A035-vezni-mikulasovice"
       },
       {
-        "slug": "inv-A036-vezni-thondel-2",
-        "title": "Věžní hodiny Thöndel 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A036-vezni-thondel-2"
-      },
-      {
         "slug": "inv-A038-soucast-veznich-hodin",
         "title": "součást věžních hodin",
         "editUrl": "/admin/#/collections/karty/entries/inv-A038-soucast-veznich-hodin"
@@ -2935,7 +2905,7 @@
       },
       {
         "slug": "inv-A117-synchronni-laplace-stroj",
-        "title": "Synchronní Laplace - stroj",
+        "title": "Stroj hodin Laplace",
         "editUrl": "/admin/#/collections/karty/entries/inv-A117-synchronni-laplace-stroj"
       },
       {
@@ -3612,6 +3582,11 @@
         "slug": "inv-A262-hodiny-pragotron-velke",
         "title": "Hodiny Pragotron velké",
         "editUrl": "/admin/#/collections/karty/entries/inv-A262-hodiny-pragotron-velke"
+      },
+      {
+        "slug": "inv-A265-hodiny-ferraris",
+        "title": "Hodiny Ferraris",
+        "editUrl": "/admin/#/collections/karty/entries/inv-A265-hodiny-ferraris"
       },
       {
         "slug": "inv-A68-slunecni-hodiny-horizontalni",
@@ -4037,11 +4012,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-A007-vezni-f-x-beitel"
       },
       {
-        "slug": "inv-A010-vezni",
-        "title": "Věžní hodiny",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A010-vezni"
-      },
-      {
         "slug": "inv-A012-vezni-rochlitz",
         "title": "Věžní hodiny Rochlitz",
         "editUrl": "/admin/#/collections/karty/entries/inv-A012-vezni-rochlitz"
@@ -4055,11 +4025,6 @@
         "slug": "inv-A016-vezni-kladno",
         "title": "Věžní hodiny Kladno",
         "editUrl": "/admin/#/collections/karty/entries/inv-A016-vezni-kladno"
-      },
-      {
-        "slug": "inv-A018-vezni-barokni-kovane",
-        "title": "Věžní hodiny barokní kované",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A018-vezni-barokni-kovane"
       },
       {
         "slug": "inv-A021-vezni-drevene",
@@ -4102,11 +4067,6 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-A029-vezni-benesov"
       },
       {
-        "slug": "inv-A031-vezni-francie",
-        "title": "Věžní hodiny Francie",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A031-vezni-francie"
-      },
-      {
         "slug": "inv-A032-vezni-skalice",
         "title": "Věžní hodiny Skalice",
         "editUrl": "/admin/#/collections/karty/entries/inv-A032-vezni-skalice"
@@ -4120,21 +4080,6 @@
         "slug": "inv-A034-vezni-benesov-radnice",
         "title": "Věžní hodiny Benešov radnice",
         "editUrl": "/admin/#/collections/karty/entries/inv-A034-vezni-benesov-radnice"
-      },
-      {
-        "slug": "inv-A035-vezni-mikulasovice",
-        "title": "Věžní hodiny Mikulášovice",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A035-vezni-mikulasovice"
-      },
-      {
-        "slug": "inv-A036-vezni-thondel-2",
-        "title": "Věžní hodiny Thöndel 2",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A036-vezni-thondel-2"
-      },
-      {
-        "slug": "inv-A038-soucast-veznich-hodin",
-        "title": "součást věžních hodin",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A038-soucast-veznich-hodin"
       },
       {
         "slug": "inv-A043-kovane-hodiny-legner",
@@ -4268,7 +4213,7 @@
       },
       {
         "slug": "inv-A117-synchronni-laplace-stroj",
-        "title": "Synchronní Laplace - stroj",
+        "title": "Stroj hodin Laplace",
         "editUrl": "/admin/#/collections/karty/entries/inv-A117-synchronni-laplace-stroj"
       },
       {
@@ -4947,6 +4892,11 @@
         "editUrl": "/admin/#/collections/karty/entries/inv-A262-hodiny-pragotron-velke"
       },
       {
+        "slug": "inv-A265-hodiny-ferraris",
+        "title": "Hodiny Ferraris",
+        "editUrl": "/admin/#/collections/karty/entries/inv-A265-hodiny-ferraris"
+      },
+      {
         "slug": "inv-A68-slunecni-hodiny-horizontalni",
         "title": "Sluneční hodiny horizontální",
         "editUrl": "/admin/#/collections/karty/entries/inv-A68-slunecni-hodiny-horizontalni"
@@ -5045,11 +4995,6 @@
         "slug": "inv-A87-slunecni-hodiny-s-analemou-male",
         "title": "Sluneční hodiny s analémou malé",
         "editUrl": "/admin/#/collections/karty/entries/inv-A87-slunecni-hodiny-s-analemou-male"
-      },
-      {
-        "slug": "inv-A88-slunecni-hodiny-stolni-engelbrecht",
-        "title": "Sluneční hodiny stolní Engelbrecht",
-        "editUrl": "/admin/#/collections/karty/entries/inv-A88-slunecni-hodiny-stolni-engelbrecht"
       },
       {
         "slug": "inv-A89-slunecni-hodiny-stolni-barokni",
@@ -6639,6 +6584,11 @@
         "editUrl": "/admin/#/collections/hodinari/entries/engelbert-seige"
       },
       {
+        "slug": "engelbrechtove-beroun",
+        "title": "Engelbrechtové z Berouna (dílna 1773–1831)",
+        "editUrl": "/admin/#/collections/hodinari/entries/engelbrechtove-beroun"
+      },
+      {
         "slug": "ericsson",
         "title": "Ericsson",
         "editUrl": "/admin/#/collections/hodinari/entries/ericsson"
@@ -6879,6 +6829,11 @@
         "editUrl": "/admin/#/collections/hodinari/entries/johann-hieff"
       },
       {
+        "slug": "johann-klein",
+        "title": "Johann Klein (1684–1762)",
+        "editUrl": "/admin/#/collections/hodinari/entries/johann-klein"
+      },
+      {
         "slug": "johann-lissner",
         "title": "Johann Lissner",
         "editUrl": "/admin/#/collections/hodinari/entries/johann-lissner"
@@ -7052,6 +7007,11 @@
         "slug": "papouch",
         "title": "Papouch (firma)",
         "editUrl": "/admin/#/collections/hodinari/entries/papouch"
+      },
+      {
+        "slug": "patrik-parizek",
+        "title": "Patrik Pařízek",
+        "editUrl": "/admin/#/collections/hodinari/entries/patrik-parizek"
       },
       {
         "slug": "paul-zieux",
