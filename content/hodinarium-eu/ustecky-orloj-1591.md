@@ -17,15 +17,15 @@ imageCredit: "Archiv města Ústí nad Labem; Marian 1903 / Sonnewend 1855"
 sourceCharset: "utf-8"
 scrapedAt: "2026-06-08T00:00:00.000Z"
 manualEdit: true
-tldr: 'Renesanční astronomický orloj na radnici v Ústí nad Labem (Aussig). Podle latinské topografie Johanna Augustina Tichtenbauma (1614, převzato Marianem 1903) bil čtvrťové, ukazoval pohyb planet a Měsíce a měl figurální automat. Na samotném stroji byl letopočet 1591 s iniciálami G. W. (Sonnewend 1855). Stroj zanikl v roce 1846 spolu se stržením staré radnice.'
+tldr: 'Renesanční astronomický orloj na radnici v Ústí nad Labem (Aussig). Podle Tichtenbauma 1614 měl figurální automat hýbající pravou rukou a rty, zodiakální znamení, ukazatele planet (vaga sydera) a fáze Měsíce (Dyctinnae globus); visel v okrouhlé věži (turri rotunda) a bil hodiny i čtvrti. Na stroji byl letopočet 1591 s iniciálami G. W. (Sonnewend 1855). Tichtenbaum popisuje i druhý ústecký orloj (dům bratrstva 1613, 12hodinový „německý" systém). Stroj zanikl 1846 při stržení staré radnice.'
 relatedHodinari: []
 references:
-  - title: "Vsta, ad Albim delineata carmine rebusque suis memorabilibus illustrata"
+  - title: "VSTA, AD ALBIM DELINEATA CARMINE REBVSQVE SVIS MEMORABILIBVS ILLVSTRATA, erga diuos relligionis, erga patriam charissimam gratitudinis & obseruantiae, ergo"
     autor: "Johann Augustin Tichtenbaum"
     rok: 1614
     type: kniha
     url: "https://books.google.cz/books?id=9aLaDLc6-dYC"
-    note: "Praha, Caspar Kargesius (tisk). Primární popis ústeckého radničního orloje. V tomto článku citováno druhotně podle Mariana 1903, s. 9. Bibliografický záznam: Knihověda AV ČR BCBT41494 (https://bcbt.lib.cas.cz/records/2e8f5c6f-dd9f-48e6-868f-5118a7d32af0). Tři známé exempláře (Litoměřice Biskupství — knihovna I Q/88; 2× Strahovská knihovna EB XIV 50 a AO XVI 56). Digitalizát dostupný na Google Books. Zotero PINZU39Z."
+    note: 'Praha, dědicové Caspar Kargesius (tisk). Latinská básnická topografie Ústí nad Labem od ústeckého radního a poety laureata. Primární popis ústeckého radničního i bratrského orloje (kniha VI, str. 108–110 = sekce „Curiae laus"). Bibliografický záznam: Knihověda AV ČR BCBT41494 (https://bcbt.lib.cas.cz/records/2e8f5c6f-dd9f-48e6-868f-5118a7d32af0). Tři známé exempláře (Litoměřice Biskupství — knihovna I Q/88; 2× Strahovská knihovna EB XIV 50 a AO XVI 56). Digitalizát Google Books, plný PDF stažen do Zotero (Z42QAZSS).'
   - title: "Geschichte der Königlichen Freistadt Aussig"
     autor: "Friedrich Sonnewend"
     rok: 1855
@@ -51,31 +51,65 @@ V renesanční radnici **královského svobodného města Ústí nad Labem** (n�
 
 Tento článek shrnuje, co o ústeckém radničním orloji víme z dochovaných pramenů: **latinské topografie Johanna Augustina Tichtenbauma (1614)**, převzaté místopisem **Alexandra Mariana** *Alt-Aussig* (1903), z **dějin města Friedricha Sonnewenda** (1855) a z **rukopisné smlouvy o opravě hodin podepsané Josephem Fischerem, Uhrmacher Meister** (datace zatím nestanovena).
 
-## Tichtenbaum 1614 — co skutečně píše (podle Mariana 1903, s. 9)
+## Tichtenbaum 1614 — primární latinská citace
 
-Autoritativním pramenem o ústeckém orloji je **latinská topografie** *Vsta, ad Albim delineata* tištěná v Praze u Caspara Kargesia roku **1614**. Autor — **Johann Augustin Tichtenbaum** — byl sám ústeckým radním (Marian 1903 ho uvádí mezi radními na s. 12). Tichtenbaumův text je nám dostupný buď přímo (digitalizát na [Google Books](https://books.google.cz/books?id=9aLaDLc6-dYC), bibl. záznam Knihověda BCBT41494), nebo prostřednictvím parafráze Mariana 1903 v *Alt-Aussig* (s. 9). Verbatim přepis z digitalizovaného Mariana (Česká digitální knihovna, [SVKUL Kramerius](https://kramerius.knihovnauk.cz/), stránka s indexem 15):
+Autoritativním pramenem o ústeckém orloji je **latinská básnická topografie** *VSTA, AD ALBIM DELINEATA CARMINE REBVSQVE SVIS MEMORABILIBVS ILLVSTRATA* tištěná v Praze u dědiců Caspara Kargesia roku **1614**. Autor — **Johann Augustin Tichtenbaum** — byl sám ústeckým radním (Marian 1903 ho uvádí mezi senátory na s. 12) a *poetou laureatem*. Plný text je digitalizován na [Google Books](https://books.google.cz/books?id=9aLaDLc6-dYC) a archivován v Zoteru ČSH (Z42QAZSS); kniha VI obsahuje popis městských staveb.
 
-> *„Das Rathhaus, von dem unbegreiflicherweise vor seiner gänzlichen Abtragung im Jahre **1846** kein Bild und keine Beschreibung angefertigt wurde (nur die anläßlich der Ausarbeitung der Pläne für das jetzt bestehende nothwendigen Situationsskizzen sind im Stadtarchiv vorhanden), hatte, wie die meisten Häuser am Marktplatze, Lauben und war ein Stock hoch mit hohem Frontispiz und Vordermauern, **es trug — wie Tichtenbaum erwähnt — einen Thurm mit einer künstlichen Uhr, welche alle Viertelstunden schlug. Eine darunter angebrachte Figur steht mit dem Werke in Verbindung und bewegt Hände und Lippen; auch zeigte die Uhr die Bewegung der Planeten und des Mondes an.**"*
-> — Marian 1903, s. 9
+### Pasáž o radničním orloji — sekce *„Curiae laus"* (Chvála radnice)
 
-V překladu: *„O radnici, o níž bylo nepochopitelně před jejím úplným stržením roku 1846 pořízeno bez obraz a bez popisu (jen situační skicy zhotovené při přípravě plánů dnešní budovy se nacházejí v městském archivu) — měla, jako většina domů na náměstí, podloubí a byla jedno patro vysoká s vysokým průčelím a zdmi; **nesla — jak Tichtenbaum zmiňuje — věž s uměleckou hodinou (künstliche Uhr), která bila každou čtvrť hodiny. Pod ní připojená figura je spojena se strojem a hýbe rukama a rty; hodina také ukazovala pohyb planet a Měsíce.**"*
+Tichtenbaum nejprve chválí radnici samotnou (*„Curia læta Patrum, clara senatorum sedes, domus ampla potentis Iustitiæ…"*) a hned poté navazuje popis orloje. Marginální poznámka na okraji tisku: **„Horologi[um]"**.
 
-Co tedy Tichtenbaum (v Marianově parafrázi) přisuzuje ústeckému radničnímu stroji:
+> *„Hác super altra sono, quæ tempora lucis & horas*
+> *Quadrantesque notat, turri suspensa rotunda,*
+> *[Horologium]*
+> *Mensura iusto[?], spatium campana, meatu mirabile.*
+> *Effigiem inferius mediam, similesque gerentem*
+> *Viventis gestus, dextrâ, labiisque minantem,*
+> *Et iuxtà ostendens signum, vaga sydera motus,*
+> *Dyctinnæque globum, vicibus sua fata rotantem*
+> *Atque senescentem, artificum manus inclyta fixit."*
+> — Tichtenbaum 1614, kniha VI (radniční orloj)
 
-- **Věž s „uměleckou hodinou"** (*künstliche Uhr*) — renesanční terminus pro mistrovský mechanický kunstwerk
-- **Bicí na čtvrti** (*alle Viertelstunden schlug*)
-- **Figurální automat pod ciferníkem**, který *„hýbe rukama a rty"* (*bewegt Hände und Lippen*) — populární typologie 16. století
-- **Astronomické ukazatele** — pohyb planet a Měsíce (*Bewegung der Planeten und des Mondes*)
+V překladu: *„Nad touto vyšší [stranou] — která hlasem označuje **časy denního světla, hodiny a čtvrti** — v okrouhlé věži zavěšený **orloj** spravedlivou mírou [bije] zvonem, prostor [vyznačuje], podivuhodným chodem. **Figuru** uprostřed dole [nesoucí], mající **živá gesta**, **pravou rukou a rty hrozí**; a vedle [ní] **ukazuje znamení** [zvířetníku], **pohyby bludných hvězd** [planet], **Dyktinnin globus** [Měsíc] v cyklech svým osudem otáčející se a **stárnoucí** [tj. ubývající ve fázích] — to vše **slavná ruka mistrů** upevnila."*
 
-**Co Tichtenbaum (v Marianově parafrázi) NEUVÁDÍ:**
+Co se z primárního textu dozvídáme oproti Marianově parafrázi 1903:
 
-- Letopočet **1591** ani iniciály **G. W.** na stroji — tyto údaje pochází JEN ze Sonnewenda (1855, s. 190), Marian je nepřebírá. Buď je Marian vynechal, nebo jejich pramen není Tichtenbaum.
-- Jméno autora, dílny ani město původu hodináře
-- Konkrétní popis ciferníku (jen „Uhr")
-- Údaj o **„české" vs „německé" hodinovém počítání** (24h vs 12h, Boží Tělo 1613) — *tento údaj v Marianově verzi citace také není a vyžadoval by ověření přímo v Tichtenbaumovi 1614*
-- Cokoli o lokaci stroje uvnitř věže nebo o jeho velikosti
+| Detail | Tichtenbaum 1614 (verbatim) | Marian 1903 (parafráze) |
+|---|---|---|
+| Tvar věže | **„turri rotunda"** (kulatá / okrouhlá věž) | obecně „Thurm" |
+| Bicí | **„tempora lucis & horas Quadrantesque"** — časy dne, hodiny i čtvrti | „alle Viertelstunden schlug" |
+| Figurální automat | **„Effigiem… viventis gestus, dextrâ, labiisque minantem"** — pravou rukou + rty *hrozí* (silné sloveso *minari*) | „bewegt Hände und Lippen" (= pohybuje) |
+| Zodiakální znamení | **„iuxtà ostendens signum"** — vedle ukazuje znamení (zvířetník) | ❌ vynecháno |
+| Planety | **„vaga sydera motus"** — pohyby bludných hvězd (renesanční výraz pro planety) | „Planeten" |
+| Měsíc | **„Dyctinnæque globum"** — Diktynnin globus (řecká bohyně Měsíce/Artemis, humanistický básnický jazyk) | „Mondes" |
+| **Fáze Měsíce** | **„vicibus sua fata rotantem atque senescentem"** — v cyklech svým osudem rotující a stárnoucí | ❌ vynecháno |
+| Autor stroje | **„artificum manus inclyta fixit"** — slavná ruka mistrů (plurál, generická chvála) | mistr nejmenován |
 
-> **TODO:** Přečíst přímo Tichtenbauma 1614 (digitalizát Google Books) a porovnat — najít přesnou latinskou pasáž o orloji a ověřit, zda Marian něco nevynechal (zvláště rozdělení „české/německé" hodiny, které máme zatím jen z milníku ČSH).
+**Co Tichtenbaum NEUVÁDÍ:**
+
+- Letopočet **1591** ani iniciály **G. W.** — tyto údaje pochází výlučně ze Sonnewenda (1855, s. 190), který je četl na samotném hodinovém stroji o 241 let později
+- Jméno hodináře, jeho dílny ani město původu
+- Rok vyhotovení stroje
+
+### Druhý ústecký orloj — Tichtenbaum popisuje i dům bratrstva 1613
+
+Tichtenbaumova kniha VI obsahuje ještě jeden popis orloje — na **domě bratrstva Božího Těla** (Corpus-Christi-Bruderschaftshaus) na náměstí, postaveném **roku 1613**. Marginalia tisku: **„Horologi[um] Turricula"** (věžičkový orloj).
+
+> *„Supremum excellens tectum, supereminet altè*
+> *[Horologium]*
+> *in Turricula; hæc pinna aurata spectabilis exit.*
+> *Hinc medias, seu **Teutonico de more** dici*
+> *Emensuratas designat malleus horas."*
+> — Tichtenbaum 1614, kniha VI (orloj na domě bratrstva 1613)
+
+V překladu: *„Nad vyvýšenou střechou ční vysoko **orloj věžičkový**; tato pozlacená korouhvička viditelná vystupuje. Odtud **podle německého zvyku** [zvané] **kladivo značí spočtené hodiny [v polovinách / půlích]**."*
+
+To je **klíčové ověření milníku ČSH**: Tichtenbaum **skutečně rozlišuje dva odlišné systémy počítání hodin** v Ústí n. L.:
+
+- **Radniční orloj** (kapitola výše) — bije *„tempora lucis & horas Quadrantesque"* (denní časy + hodiny + čtvrti) a má astronomické ukazatele (planety, zodiak, Měsíc s fázemi). Tichtenbaum tu vlastní 24hodinový systém **explicitně nepojmenovává** „českým" — to je interpretace milníku ČSH na základě typologie.
+- **Orloj domu bratrstva 1613** — bije **„Teutonico de more"** (= podle německého zvyku) **kladivem** rovné/odměřené hodiny (*„malleus emensuratas horas"*). To je explicitní 12hodinová „německá" tradice doložená přímo Tichtenbaumem.
+
+Marian (1903) tento druhý orloj vůbec nezmiňuje a o domu bratrstva 1613 hovoří jen o jeho rozpadu (kolem 1817). Že na něm visel **vlastní orloj rozlišený od radničního typologií počítání**, je tedy přínos primárního pramene Tichtenbauma 1614 — který tu mizí v Marianově sekundární verzi.
 
 ## Sonnewend 1855 — letopočet 1591 + iniciály G. W. NA SAMOTNÉM STROJI
 
@@ -153,6 +187,6 @@ Renesanční radnice byla **stržena roku 1846** a astronomický orloj s ní zan
 2. **Plná paleografická transkripce Fischerovy smlouvy** + přesná datace + identifikace druhého podpisu (rychtář?)
 3. **Souvislost Fischerovy smlouvy s opravou 1774 (J. J. N. Anno)** — ověřit datací rukopisu
 4. **Osud dřevěného „Räderwerku"** zaznamenaného Sonnewendem 1855 na půdě nové radnice
-5. ~~Dohledat Tichtenbauma 1614~~ ✅ **Vyřešeno (2026-06-09):** Tichtenbaum 1614 je digitalizován a dostupný [na Google Books](https://books.google.cz/books?id=9aLaDLc6-dYC). Bibliografický záznam v [Knihovědě AV ČR (BCBT41494)](https://bcbt.lib.cas.cz/records/2e8f5c6f-dd9f-48e6-868f-5118a7d32af0); tři známé exempláře (Biskupství litoměřické I Q/88; 2× Strahovská knihovna). Zbývající úkol: přečíst přímo Tichtenbaumovu kapitolu VI o radničním orloji a porovnat s Marianovou parafrází z roku 1903 — jestli Marian vynechal nebo přidal podstatné detaily.
+5. ~~Dohledat Tichtenbauma 1614~~ ✅ **Vyřešeno (2026-06-09):** Tichtenbaum 1614 nalezen digitalizovaný a přečten v latinském originále (PDF v Zotero ČSH Z42QAZSS). Klíčové nálezy oproti Marianově parafrázi 1903: kulatá věž (turri rotunda), zodiakální znamení a fáze Měsíce v ukazatelích, druhý orloj na domě bratrstva 1613 s 12hodinovým „německým" počítáním explicitně doložen. Letopočet 1591 + G. W. ve Tichtenbaumovi NEJSOU — jsou pouze ze Sonnewenda 1855, který je o 241 let později četl na samotném stroji.
 
 *Pokud k jakékoli z těchto otázek máte další informace, kontaktujte [Český spolek horologický](/o-hodinariu).*
