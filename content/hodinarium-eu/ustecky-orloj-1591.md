@@ -45,6 +45,17 @@ references:
     autor: "Joseph Fischer, Uhrmacher Meister (Aussig); Anwaldschaft města Ústí n. L."
     type: archiv
     note: 'Rukopisný dvojlist v kurentu, hlavička „Königl. Stadt Aussig am 6. [měsíc/rok dosud nečitelné]", odkaz na Konferenz Protocoll Sub. Acta Pol. 978. Předmět: licitace opravy městských hodin mezi mistry Joseph Fischer a Karl Kauffenbühl; Fischerova vítězná nabídka 40 zl. Wiener Währung. Podpisy: Anwald, Schubert, Joseph Fi[e]scher. Datace podle písma a slovní zásoby (Wiener Währung) přelom 18./19. století. Plný HTR přepis přes Transkribus (model The Text Titan I ter, kolekce „Aussig" colId 2417023, docId 16468522). Zotero RXVE6SL9.'
+  - title: "Ústí nad Labem: historie a památky"
+    autor: "Tomáš Velinský, Michaela Hrubá, Václav Houfek, Kristina Kaiserová, Martin Veselý, Petr Hrubý"
+    rok: 2007
+    type: kniha
+    url: "https://www.usti.cz/images/turistum/tiskoviny/2007_Usti-nad-Labem-historie-a-pamatky.pdf"
+    note: 'Oficiální trojjazyčná (cs/en/de) publikace Statutárního města Ústí nad Labem a Muzea města Ústí nad Labem. V kapitole „Radnice" nezávisle potvrzuje radniční orloj z roku 1591 (ukazatel planet a Měsíce, čtvrťové bicí, figury hýbající rty), Tichtenbaumovo rozlišení „českých" radničních a „německých" hodin domu bratrstva 1613 (bily půlhodinu) i poplašný zvonek z roku 1579 (Praha, znak města, nápis „Miesto Austi nad Labem"). Mezi vyobrazeními figuruje „Zaniklá renesanční radnice na Mírovém náměstí" i titulní list Tichtenbaumovy kroniky 1614.'
+  - title: "Ústí nad Labem — radniční zvon Brikcího z Cymberka (Wikimedia Commons)"
+    autor: "foto Lukas Sova, 2001"
+    type: odkaz
+    url: "https://commons.wikimedia.org/wiki/File:%C3%9Ast%C3%AD_nad_Labem_radnice_zvon.JPG"
+    note: 'Fotografie zvonu Brikcího z Cymberka (1579) ze staré ústecké radnice, dnes ve sbírkách Muzea města Ústí nad Labem. Public domain. Potvrzuje, že zvon zaznamenaný Sonnewendem (1855) i Marianem (1903) se dochoval dodnes.'
 ---
 
 ::photo{src="/img/aussig-orloj-1591/alt-aussig-pohlednice-radnice.jpg" alt="Dobová pohlednice s nadpisem Alt-Aussig — Marktplatz mit Rathaus; expoziční rekonstrukce tržního náměstí starého Ústí nad Labem postavená pro Všeobecnou německou výstavu pro řemesla, průmysl a zemědělství 1903; centrální budova rekonstruované radnice s věžovou nástavbou a ciferníkem, vlevo arkády a štítové domy, vpravo hrázděný dům s arkýřem" class="img-standalone img-skip-hero" author="archiv (Allgemeine Deutsche Ausstellung 1903, sekce Alt-Aussig)"}
@@ -58,8 +69,10 @@ V renesanční radnici **královského svobodného města Ústí nad Labem** (n�
 Příběh, který umíme dnes složit, drží tři postupní svědci:
 
 - **Johann Augustin Tichtenbaum** stroj viděl jako ústecký radní a básník-humanista; latinská topografie *Vsta, ad Albim delineata* z roku **1614** popisuje stroj jen 23 let starý.
-- **Friedrich Sonnewend**, kronikář České Lípy, sepsal dějiny města už po stržení staré radnice — jeho *Geschichte der Königlichen Freistadt Aussig* (**1855**) zaznamenává letopočet a iniciály mistra, které byly *napsané přímo na stroji*.
+- **Friedrich Sonnewend**, kronikář České Lípy, sepsal dějiny města už po stržení staré radnice — jeho *Geschichte der Königlichen Freistadt Aussig* (**1855**) zaznamenává letopočet a pobožnou zkratku, které byly *napsané přímo na stroji*.
 - **Alexander Marian** sestavil k Všeobecné německé výstavě roku **1903** průvodce *Alt-Aussig*, kde Tichtenbauma cituje a doplňuje osudy jednotlivých předmětů (zvon, dřevěné soukolí). Z téže výstavy pochází i úvodní pohlednice.
+
+Tyto starší prameny shrnuje a nezávisle potvrzuje i moderní oficiální publikace **[Ústí nad Labem: historie a památky](https://www.usti.cz/images/turistum/tiskoviny/2007_Usti-nad-Labem-historie-a-pamatky.pdf)** (Velinský, Hrubá, Houfek, Kaiserová, Veselý a Hrubý, 2007), kterou vydalo statutární město spolu s Muzeem města Ústí nad Labem. Její kapitola o radnici líčí orloj slovy, jež se s Tichtenbaumem i Sonnewendem zcela shodují: *„Jistě s velkou slávou byly v roce 1591 do věžičky radnice umístěny velké hodiny, které ukazovaly postavení planet a měsíce a bily každou čtvrthodinu. S mechanismem hodin byly propojeny pod nimi stojící figury, které při odbíjení pohybovaly rty."*
 
 K tomu se zachoval ještě **jeden rukopis** — smlouva o opravě hodin podepsaná Josephem Fischerem, Uhrmacher Meister. Patří patrně do 18. nebo počátku 19. století a vyžaduje paleografické zpracování; vrátíme se k ní níže.
 
@@ -99,6 +112,8 @@ V překladu: *„Nad vyvýšenou střechou ční vysoko orloj věžičkový; tat
 
 Tahle pasáž je překvapivě cenná, protože Tichtenbaum tu dělá rozdíl, který Marian o tři staletí později **zcela vynechá**: nový bratrský orloj bije *Teutonico de more*, „podle německého zvyku" — tedy v běžných **12hodinových** intervalech, kladivem na zvon. Naproti tomu radniční orloj na téže straně města má bicí na čtvrti a astronomické ukazatele. V Ústí tedy roku 1613 přibyly k „české" radniční tradici hodiny **„německého" počítání**, a Tichtenbaum jen rok poté oba systémy ve své básni explicitně rozlišuje.
 
+Toto čtení potvrzuje i moderní městská publikace z roku 2007, která přímo parafrázuje Tichtenbauma: *„J. A. Tichtenbaum… píše o německých hodinách umístěných v pozlacené věžičce domu bratrstva Božího Těla, který byl postaven roku 1613 uprostřed rynku. Německé hodiny bily, na rozdíl od českých na radnici, každou půl hodinu."* (Velinský et al. 2007). Dichotomie český radniční / německý bratrský orloj v Ústí tak má dnes oporu hned ve dvou nezávislých čteních primárního pramene.
+
 ## Sonnewend 1855 — co stálo na stroji a co zbylo na půdě
 
 ::photo{src="/img/aussig-orloj-1591/sonnewend-1855-frontispis.jpg" alt="Titulní strana knihy Friedricha Sonnewenda Geschichte der königlichen Freistadt Aussig, 2. vydání, Praha a Litoměřice 1855, Druck und Verlag von Carl Wilhelm Medau; vlevo dobová veduta starého Ústí nad Labem, vpravo nadpis frakturou; nahoře vpravo razítko Archiv der Stadt Aussig s datem 18. září 1899" class="img-standalone" author="Sonnewend 1855, Archiv města Ústí n. L."}
@@ -136,7 +151,7 @@ Pro úplnost shrnuje Sonnewend i hlavní stavební epochy radnice:
 | Rok | Údaj |
 |---|---|
 | **1574** | Řezaný dřevěný strop **zasedacího sálu** |
-| **1579** | Zvon **Brikcího z Cymberka**, pražského zvonaře; český nápis: *„Brykcý Zwonarz Cynperku w Praze ole. Leta 1579"*. **Pozn.:** Marian (1903, s. 10) ten samý zvon datuje rokem **1574** a označuje jej za *„Feuerglocke"* (požární zvon) — a dodává, že se zvon nachází v městském muzeu. Sjednocení datací 1574 vs 1579 k ověření. |
+| **1579** | **Poplašný zvonek** odlitý v Praze (zvonař **Brikcí z Cymberka**), se znakem města a nápisem *„Miesto Austi nad Labem"* (Sonnewend čte český nápis *„Brykcý Zwonarz Cynperku w Praze ole. Leta 1579"*). Marian (1903, s. 10) jej omylem datuje 1574 — správně je **1579**, jak potvrzuje publikace 2007 i dochovaný zvon. **Dnes ve sbírkách Muzea města Ústí nad Labem** ([fotka, Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%C3%9Ast%C3%AD_nad_Labem_radnice_zvon.JPG)). |
 | **1589** | Místnost **„grüne Stube"** |
 | **1591 + G. W.** | **Letopočet a devocionální formule** *„Gott walte"* („Bůh opatruj") na samotném orloji — v paralele s J. J. N. Anno na témže stroji k roku 1774 |
 | **1774 + J. J. N. Anno** | Hlavní oprava hodin (latinská zkratka *„In Iesu Nomine, Anno…"* — „Ve jménu Ježíšově, léta páně") |
@@ -183,7 +198,7 @@ Toto vědomí ztráty vlastně **stálo za vznikem výstavy 1903**: u příleži
 3. **Souvislost Fischerovy smlouvy s opravou 1774 (J. J. N. Anno)** — ověřit datací rukopisu (viz bod #2)
 4. **Karl Kauffenbühl** — další ústecký hodinářský mistr (spolu-uchazeč v licitaci proti Fischerovi); identifikovat v matrikách a mistrovských listinách
 5. **Osud dřevěného „Räderwerku"** zaznamenaného Sonnewendem 1855 na půdě nové radnice
-6. **Osud zvonu Brikcího z Cymberka** — podle Mariana (1903) se nacházel v ústeckém městském muzeu; zda dnes existuje (a kde) k ověření; sjednotit datacích (1574 vs 1579 podle pramenů)
+6. ~~Osud zvonu Brikcího z Cymberka~~ ✅ **Vyřešeno (2026-06):** zvon (poplašný zvonek, 1579, Praha, znak města + nápis „Miesto Austi nad Labem") se dochoval a je **ve sbírkách Muzea města Ústí nad Labem** — viz [fotka na Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%C3%9Ast%C3%AD_nad_Labem_radnice_zvon.JPG) a publikace Velinský et al. 2007. Datace **1579** (Marianova 1574 byla chybná).
 7. **Druhý ústecký orloj (dům bratrstva 1613)** — kdy a za jakých okolností zanikl, případně zda se z něho něco dochovalo
 
 *Pokud k jakékoli z těchto otázek máte další informace, kontaktujte [Český spolek horologický](/o-hodinariu).*
