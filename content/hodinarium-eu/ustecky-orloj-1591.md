@@ -17,7 +17,7 @@ imageCredit: "Archiv města Ústí nad Labem; Marian 1903 / Sonnewend 1855"
 sourceCharset: "utf-8"
 scrapedAt: "2026-06-08T00:00:00.000Z"
 manualEdit: true
-tldr: 'Renesanční astronomický orloj na radnici v Ústí nad Labem (Aussig). Podle Tichtenbauma 1614 měl figurální automat hýbající pravou rukou a rty, zodiakální znamení, ukazatele planet (vaga sydera) a fáze Měsíce (Dyctinnae globus); visel v okrouhlé věži (turri rotunda) a bil hodiny i čtvrti. Na stroji byl letopočet 1591 s iniciálami G. W. (Sonnewend 1855). Tichtenbaum popisuje i druhý ústecký orloj (dům bratrstva 1613, 12hodinový „německý" systém). Stroj zanikl 1846 při stržení staré radnice. Dochovaný protokol mistra Josepha Fischera (kurent, přečteno přes Transkribus) doložuje opravu městských hodin za 40 zlatých w. w., spolu s licitací proti mistru Karlu Kauffenbühlovi.'
+tldr: 'Renesanční astronomický orloj na radnici v Ústí nad Labem (Aussig). Podle Tichtenbauma 1614 měl figurální automat hýbající pravou rukou a rty, zodiakální znamení, ukazatele planet (vaga sydera) a fáze Měsíce (Dyctinnae globus); visel v okrouhlé věži (turri rotunda) a bil hodiny i čtvrti. Na stroji byl letopočet 1591 doprovázený zkratkou G. W. (patrně devocionální formule „Gott walte" — „Bůh opatruj") podle Sonnewenda 1855. Tichtenbaum popisuje i druhý ústecký orloj (dům bratrstva 1613, 12hodinový „německý" systém). Stroj zanikl 1846 při stržení staré radnice. Dochovaný protokol mistra Josepha Fischera (kurent, přečteno přes Transkribus) doložuje opravu městských hodin za 40 zlatých w. w., spolu s licitací proti mistru Karlu Kauffenbühlovi.'
 relatedHodinari: []
 references:
   - title: "VSTA, AD ALBIM DELINEATA CARMINE REBVSQVE SVIS MEMORABILIBVS ILLVSTRATA, erga diuos relligionis, erga patriam charissimam gratitudinis & obseruantiae, ergo"
@@ -82,7 +82,7 @@ V překladu: *„Nad touto vyšší [stranou] — která hlasem označuje časy 
 
 Tichtenbaum tedy popisuje **plnohodnotný astronomický orloj** s figurálním automatem a třemi vrstvami ukazatelů — zvířetníkovým znamením, planetami a Měsícem v jeho fázích. Bicí pokrýval hodiny i čtvrti, věž byla **okrouhlá** (*turri rotunda*) a stroj sám visel v ní zavěšený. Figura uprostřed pod ciferníkem **hýbala pravou rukou a rty** a sloveso *minari*, kterým ji Tichtenbaum charakterizuje, znamená *hrozit* — celé pojetí tedy bylo spíš varovné než žertovné. Pohyb planet básník nazývá *vaga sydera* („bludné hvězdy" — renesanční výraz; planeta totiž doslova znamená „bludice"); Měsíc jmenuje *Dyctinnae globus* (Diktynnin globus, podle řecké bohyně Měsíce a lovu — typický humanistický idiom poety laureata). Autora stroje Tichtenbaum nejmenuje; mluví obecně o *artificum manus inclyta*, „slavné ruce mistrů" v množném čísle. Generická chvála řemesla, ne konkrétní attribuce.
 
-> **Pozor:** ani **letopočet 1591**, ani iniciály **G. W.**, které spojujeme se signaturou na stroji, **v Tichtenbaumovi nenajdeme**. Tyto údaje pochází výlučně až ze Sonnewenda (1855) — buď byly v roce 1614 nezřetelné, nebo Tichtenbauma jako básníka nezajímaly, nebo je Sonnewend o 241 let později četl z části stroje, jež se nedochovala v jeho původním stavu.
+> **Pozor:** ani **letopočet 1591**, ani zkratku **G. W.**, které spojujeme s nápisem na stroji, **v Tichtenbaumovi nenajdeme**. Tyto údaje pochází výlučně až ze Sonnewenda (1855) — buď byly v roce 1614 nezřetelné, nebo Tichtenbauma jako básníka nezajímaly, nebo je Sonnewend o 241 let později četl z části stroje, jež se nedochovala v jeho původním stavu.
 
 ### Druhý orloj — dům bratrstva Božího Těla 1613
 
@@ -107,15 +107,22 @@ O dvě a půl století později — a devět let po stržení staré radnice —
 
 ::photo{src="/img/aussig-orloj-1591/sonnewend-1855-s190-191-radnice-rederwerk.jpg" alt="Sonnewendovy strany 190 a 191 — popis ústecké radnice frakturou; nahoře údaj o požáru radnice 1788 způsobeném bleskem, pak věta o starém dřevěném soukolí města na půdě radnice; níže český nápis Brykcý Zwonarz Cymperku w Praze 1579 a údaje o vnitřních prostorách" class="img-standalone" author="Sonnewend 1855, Archiv města Ústí n. L."}
 
-Tím prvním je **signatura mistra** přímo na hodinovém stroji:
+Tím prvním je **letopočet s pobožnou zkratkou** přímo na hodinovém stroji:
 
 > *„Auf der großen Rathausuhr befindet sich die Jahreszahl 1591, mit den Anfangsbuchstaben G. W., welche Jahreszahl wahrscheinlich die Zeit ihrer Verfertigung angibt."*
 >
 > — Sonnewend 1855, s. 190
 
-V překladu: *„Na velkých radničních hodinách se nachází letopočet 1591 s iniciálami G. W., kteréžto datum patrně udává čas jejich zhotovení."*
+V překladu: *„Na velkých radničních hodinách se nachází letopočet 1591 s počátečními písmeny G. W., kteréžto datum patrně udává čas jejich zhotovení."*
 
-Pokud Sonnewendovo čtení důvěřujeme — a nemáme důvod ne, byl to zkušený zapisovatel pracující s městskými knihami — pak orloj nesl **dataci a signaturu mistra: rok 1591 a iniciály G. W.** Tichtenbaum tedy roku 1614 popisoval stroj starý třiadvacet let; rok 1591 také dobře zapadá do série stavebních prací na radnici, která vrcholí kolem přelomu 16. a 17. století (řezaný strop zasedacího sálu 1574, zvon Brikcího z Cymberka 1579, „grüne Stube" 1589) — pravděpodobně součást jednoho většího reprezentačního programu.
+Sonnewendovo čtení je zřejmě spolehlivé (byl to zkušený zapisovatel, jemuž stroj byl ještě fyzicky přístupný před stržením 1846). Jeho interpretace je opatrná: o letopočtu **1591** říká, že *„patrně udává čas zhotovení"*, a zkratku **G. W.** sám **neidentifikuje** — jen ji popíše jako *„Anfangsbuchstaben"* (počáteční písmena).
+
+Při čtení nápisu z renesančního a barokního stroje jsou dvě hlavní možnosti, jak G. W. vyložit:
+
+- **(1) Pobožná devocionální formule** — v dobových inskripcích na zvonech, věžních strojích, ciferníkích, krovech radničních věží a hraničních kamenech bývají u letopočtů typicky **pobožné zkratky**: *A. D.* (Anno Domini), *J. J. N.* (In Iesu Nomine), *S. D. G.* (Soli Deo Gloria), *I. N. R. I.*, nebo německy *G. W.* (*Gott walte* — „Bůh opatruj", „Z Boží vůle"). Tato hypotéza je **silně podporována** tím, že **na stejné stavbě byl Sonnewendem zaznamenán letopočet 1774 s explicitně rozluštěnou devocionální formulí J. J. N. Anno** („In Iesu Nomine, Anno…" — Ve jménu Ježíšově, léta páně). Pokud měl stroj nebo radnice tuto typografickou konvenci v roce 1774, je pravděpodobné, že stejnou logikou byl označen i letopočet 1591.
+- **(2) Iniciály hodinářského mistra** — tj. „Georg Wagner", „Gregor Walter", apod. Tato možnost není vyloučena, ale je v dobových orlojích **méně typická** — signatura mistra na renesančních věžních strojích bývá spíš uvnitř rámu, na korunce kola nebo na samostatném štítku, ne primárně vedle letopočtu na vnější straně.
+
+**Pravděpodobnější výklad** zkratky G. W. je tedy **devocionální „Gott walte"**. Tichtenbaum (1614) sice o letopočtu ani zkratce nemluví, ale jako rok zhotovení orloje **1591 dobře zapadá** do série stavebních prací na radnici (řezaný strop zasedacího sálu 1574, zvon Brikcího z Cymberka 1579, „grüne Stube" 1589) — pravděpodobně součást jednoho většího reprezentačního programu.
 
 Druhým údajem je něco, co po stržení radnice **podivuhodně zůstalo**:
 
@@ -134,7 +141,7 @@ Pro úplnost shrnuje Sonnewend i hlavní stavební epochy radnice:
 | **1574** | Řezaný dřevěný strop **zasedacího sálu** |
 | **1579** | Zvon **Brikcího z Cymberka**, pražského zvonaře; český nápis: *„Brykcý Zwonarz Cynperku w Praze ole. Leta 1579"*. **Pozn.:** Marian (1903, s. 10) ten samý zvon datuje rokem **1574** a označuje jej za *„Feuerglocke"* (požární zvon) — a dodává, že se zvon nachází v městském muzeu. Sjednocení datací 1574 vs 1579 k ověření. |
 | **1589** | Místnost **„grüne Stube"** |
-| **1591 + G. W.** | **Letopočet a iniciály na samotném orloji** (signatura mistra) |
+| **1591 + G. W.** | **Letopočet a pobožná zkratka na samotném orloji** — G. W. patrně *„Gott walte"* („Bůh opatruj"), v paralele s J. J. N. Anno na témže stroji (1774); méně pravděpodobně iniciála mistra |
 | **1774 + J. J. N. Anno** | Hlavní oprava hodin (latinská zkratka *„In Iesu Nomine, Anno…"* — „Ve jménu Ježíšově, léta páně") |
 | **1788** | Požár radnice způsobený bleskem |
 
@@ -174,7 +181,7 @@ Toto vědomí ztráty vlastně **stálo za vznikem výstavy 1903**: u příleži
 
 ## Otevřené otázky pro další bádání
 
-1. **Identita mistra „G. W." (1591)** — městské knihy Ústí, signatury českých renesančních hodinářů
+1. **Rozluštění zkratky G. W. (1591)** — pravděpodobně pobožná devocionální formule *„Gott walte"* (Bůh opatruj), v paralele s J. J. N. Anno na témže stroji (1774); alternativně iniciála mistra. K ověření v dobových paralelách na ústeckých zvonech a inskripcích a v korpusu typických devocionálních formulí 16.–17. století
 2. **Přesná datace Fischerova protokolu (měsíc a rok)** — Transkribus HTR přečetl jen den (6.). Dohledat *Konferenz Protocoll Sub. Acta Pol. 978* v ústeckém archivu by určilo měsíc a rok.
 3. **Souvislost Fischerovy smlouvy s opravou 1774 (J. J. N. Anno)** — ověřit datací rukopisu (viz bod #2)
 4. **Karl Kauffenbühl** — další ústecký hodinářský mistr (spolu-uchazeč v licitaci proti Fischerovi); identifikovat v matrikách a mistrovských listinách
