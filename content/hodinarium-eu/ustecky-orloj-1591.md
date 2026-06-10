@@ -17,7 +17,7 @@ imageCredit: "Archiv města Ústí nad Labem; Marian 1903 / Sonnewend 1855"
 sourceCharset: "utf-8"
 scrapedAt: "2026-06-08T00:00:00.000Z"
 manualEdit: true
-tldr: 'Renesanční astronomický orloj na radnici v Ústí nad Labem (Aussig). Podle Tichtenbauma 1614 měl figurální automat hýbající pravou rukou a rty, zodiakální znamení, ukazatele planet (vaga sydera) a fáze Měsíce (Dyctinnae globus); visel v okrouhlé věži (turri rotunda) a bil hodiny i čtvrti. Na stroji byl letopočet 1591 s devocionální formulí G. W. („Gott walte" — Bůh opatruj) podle Sonnewenda 1855, v paralele s formulí J. J. N. Anno na témže stroji k roku 1774. Tichtenbaum popisuje i druhý ústecký orloj (dům bratrstva 1613, 12hodinový „německý" systém). Stroj zanikl 1846 při stržení staré radnice. Dochovaný protokol mistra Josepha Fischera (kurent, přečteno přes Transkribus) doložuje opravu městských hodin za 40 zlatých w. w., spolu s licitací proti mistru Karlu Kauffenbühlovi.'
+tldr: 'Renesanční astronomický orloj na radnici v Ústí nad Labem (Aussig). Podle Tichtenbauma 1614 měl figurální automat hýbající pravou rukou a rty, zodiakální znamení, ukazatele planet (vaga sydera) a fáze Měsíce (Dyctinnae globus); visel v okrouhlé věži (turri rotunda) a bil hodiny i čtvrti. Na stroji byl letopočet 1591 s devocionální formulí G. W. („Gott walte" — Bůh opatruj) podle Sonnewenda 1855, v paralele s formulí J. J. N. Anno na témže stroji k roku 1774. Tichtenbaum popisuje i druhý ústecký orloj (dům bratrstva 1613, 12hodinový „německý" systém). Stroj zanikl 1846 při stržení staré radnice. Dochovaný protokol mistra Josepha Fischera (kurent, přečteno přes Transkribus) doložuje opravu městských hodin za 40 zlatých w. w.; cenový odhad podal vedle Fischera i druhý ústecký mistr Karl Kauffenbühl, ale dráž, takže zakázku dostal Fischer.'
 relatedHodinari: []
 references:
   - title: "VSTA, AD ALBIM DELINEATA CARMINE REBVSQVE SVIS MEMORABILIBVS ILLVSTRATA, erga diuos relligionis, erga patriam charissimam gratitudinis & obseruantiae, ergo"
@@ -44,7 +44,7 @@ references:
   - title: "Protokol o slyšení mistra Josepha Fischera ohledně opravy městských hodin (Stadt Uhr Aussig)"
     autor: "Joseph Fischer, Uhrmacher Meister (Aussig); Anwaldschaft města Ústí n. L."
     type: archiv
-    note: 'Rukopisný dvojlist v kurentu, hlavička „Königl. Stadt Aussig am 6. [měsíc/rok dosud nečitelné]", odkaz na Konferenz Protocoll Sub. Acta Pol. 978. Předmět: licitace opravy městských hodin mezi mistry Joseph Fischer a Karl Kauffenbühl; Fischerova vítězná nabídka 40 zl. Wiener Währung. Podpisy: Anwald, Schubert, Joseph Fi[e]scher. Datace podle písma a slovní zásoby (Wiener Währung) přelom 18./19. století. Plný HTR přepis přes Transkribus (model The Text Titan I ter, kolekce „Aussig" colId 2417023, docId 16468522). Zotero RXVE6SL9.'
+    note: 'Rukopisný dvojlist v kurentu, hlavička „Königl. Stadt Aussig am 6. [měsíc/rok dosud nečitelné]", odkaz na Konferenz Protocoll Sub. Acta Pol. 978. Předmět: oprava městských hodin. Cenové odhady podali dva ústečtí mistři — Joseph Fischer a Karl Kauffenbühl; Fischerův byl nejlevnější (45 zl.), město pak s ním cenu sjednalo přímo na 40 zl. Wiener Währung, aby se vyhnulo licitaci. Podpisy: Anwald, Schubert, Joseph Fi[e]scher. Datace podle písma a slovní zásoby (Wiener Währung) přelom 18./19. století. Plný HTR přepis přes Transkribus (model The Text Titan I ter, kolekce „Aussig" colId 2417023, docId 16468522). Zotero RXVE6SL9.'
   - title: "Ústí nad Labem: historie a památky"
     autor: "Tomáš Velinský, Michaela Hrubá, Václav Houfek, Kristina Kaiserová, Martin Veselý, Petr Hrubý"
     rok: 2007
@@ -172,7 +172,7 @@ Příběh, který protokol zaznamenává:
 Pro Ústí nad Labem to znamená přírůstek hned několika nových znalostí:
 
 - **„Stadt Uhr"** je v dobové městské administrativě termín pro **městské hodiny — tj. radniční stroj**. Vazba protokolu k radničnímu orloji 1591, dříve hypotetická, je teď **doložena přímo dobovou terminologií**.
-- **Karl Kauffenbühl** se objevuje jako další ústecký hodinářský mistr — dosud v repu nedoložená osoba, vážený dost na to, aby se účastnil oficiální veřejné licitace.
+- **Karl Kauffenbühl** se objevuje jako **druhý ústecký měšťanský hodinářský mistr** — dosud v repu nedoložená osoba. Jeho vztah k orloji je nepřímý: vedle Fischera podal vlastní cenový odhad na opravu městských hodin, ten však byl dražší než Fischerův (nejlevnější, 45 zl.). K samotné veřejné licitaci nakonec nedošlo — město jí chtělo předejít a sjednalo cenu přímo s Fischerem (40 zl.). Není doloženo, že by Kauffenbühl orloj kdy opravoval či vyrobil; figuruje jen jako neúspěšný uchazeč o zakázku.
 - **Schubert** je třetí podpis (původně jsme tipovali rychtáře/*Schultheiss*) — v kontextu protokolu spíš městský úředník (možná *Stadtschreiber* nebo radní).
 
 > **Datace zůstává otevřená.** Hlavička uvádí den (6.), ale měsíc a rok nejsou v OCR rozpoznatelné a vyžadují prozkoumání originálu nebo dohledání protokolu *Sub. Acta Pol. 978* v ústeckém archivu. Sonnewend zaznamenává na orloji letopočet **1774 + J. J. N. Anno** jako rok hlavní opravy — to zůstává atraktivní kandidát pro dataci Fischerova protokolu, ale úředně-protokolární jazyk *„Wiener Währung"* a typografie kurentu mohou ukazovat spíš na **přelom 18./19. století**.
@@ -196,7 +196,7 @@ Toto vědomí ztráty vlastně **stálo za vznikem výstavy 1903**: u příleži
 1. **Jméno hodinářského mistra orloje 1591** — městské knihy Ústí, mistrovské listiny, korpus signatur českých renesančních hodinářů; eventuální dochovaná část stroje se signaturou
 2. **Přesná datace Fischerova protokolu (měsíc a rok)** — Transkribus HTR přečetl jen den (6.). Dohledat *Konferenz Protocoll Sub. Acta Pol. 978* v ústeckém archivu by určilo měsíc a rok.
 3. **Souvislost Fischerovy smlouvy s opravou 1774 (J. J. N. Anno)** — ověřit datací rukopisu (viz bod #2)
-4. **Karl Kauffenbühl** — další ústecký hodinářský mistr (spolu-uchazeč v licitaci proti Fischerovi); identifikovat v matrikách a mistrovských listinách
+4. **Karl Kauffenbühl** — druhý ústecký hodinářský mistr, neúspěšný uchazeč o opravu městských hodin (dražší odhad než Fischer); identifikovat v matrikách a mistrovských listinách
 5. **Osud dřevěného „Räderwerku"** zaznamenaného Sonnewendem 1855 na půdě nové radnice
 6. ~~Osud zvonu Brikcího z Cymberka~~ ✅ **Vyřešeno (2026-06):** zvon (poplašný zvonek, 1579, Praha, znak města + nápis „Miesto Austi nad Labem") se dochoval a je **ve sbírkách Muzea města Ústí nad Labem** — viz [fotka na Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%C3%9Ast%C3%AD_nad_Labem_radnice_zvon.JPG) a publikace Velinský et al. 2007. Datace **1579** (Marianova 1574 byla chybná).
 7. **Druhý ústecký orloj (dům bratrstva 1613)** — kdy a za jakých okolností zanikl, případně zda se z něho něco dochovalo
