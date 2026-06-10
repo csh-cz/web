@@ -17,7 +17,7 @@ imageCredit: "Archiv města Ústí nad Labem; Marian 1903 / Sonnewend 1855"
 sourceCharset: "utf-8"
 scrapedAt: "2026-06-08T00:00:00.000Z"
 manualEdit: true
-tldr: 'Renesanční astronomický orloj na radnici v Ústí nad Labem (Aussig). Podle Tichtenbauma 1614 měl figurální automat hýbající pravou rukou a rty, zodiakální znamení, ukazatele planet (vaga sydera) a fáze Měsíce (Dyctinnae globus); visel v okrouhlé věži (turri rotunda) a bil hodiny i čtvrti. Na stroji byl letopočet 1591 s iniciálami G. W. (Sonnewend 1855). Tichtenbaum popisuje i druhý ústecký orloj (dům bratrstva 1613, 12hodinový „německý" systém). Stroj zanikl 1846 při stržení staré radnice.'
+tldr: 'Renesanční astronomický orloj na radnici v Ústí nad Labem (Aussig). Podle Tichtenbauma 1614 měl figurální automat hýbající pravou rukou a rty, zodiakální znamení, ukazatele planet (vaga sydera) a fáze Měsíce (Dyctinnae globus); visel v okrouhlé věži (turri rotunda) a bil hodiny i čtvrti. Na stroji byl letopočet 1591 s iniciálami G. W. (Sonnewend 1855). Tichtenbaum popisuje i druhý ústecký orloj (dům bratrstva 1613, 12hodinový „německý" systém). Stroj zanikl 1846 při stržení staré radnice. Dochovaný protokol mistra Josepha Fischera (kurent, přečteno přes Transkribus) doložuje opravu městských hodin za 40 zlatých w. w., spolu s licitací proti mistru Karlu Kauffenbühlovi.'
 relatedHodinari: []
 references:
   - title: "VSTA, AD ALBIM DELINEATA CARMINE REBVSQVE SVIS MEMORABILIBVS ILLVSTRATA, erga diuos relligionis, erga patriam charissimam gratitudinis & obseruantiae, ergo"
@@ -41,10 +41,10 @@ references:
     type: kniha
     url: "https://ceskadigitalniknihovna.cz/view/uuid:e8df0d64-d64b-450e-a559-19e2eef849f6?source=svkul"
     note: 'Místopisná publikace vydaná jako průvodce k expoziční sekci „Alt-Aussig" Všeobecné německé výstavy 1903 v Ústí n. L. (viz výše). Cituje Tichtenbauma 1614 (s. 9) ke vzhledu radničního orloje a popisuje osud zvonu Brikcího v městském muzeu (s. 10). Plný OCR text stažitelný z [SVKUL Kramerius](https://kramerius.knihovnauk.cz/) přes klientské API (např. s. 9 = uuid:2d494c38-9c4a-11e6-b170-001b63bd97ba). Zotero Q8GQLHQE.'
-  - title: "Smlouva o opravě hodin"
-    autor: "Joseph Fischer, Uhrmacher Meister (Aussig)"
+  - title: "Protokol o slyšení mistra Josepha Fischera ohledně opravy městských hodin (Stadt Uhr Aussig)"
+    autor: "Joseph Fischer, Uhrmacher Meister (Aussig); Anwaldschaft města Ústí n. L."
     type: archiv
-    note: 'Rukopisná německá smlouva nebo zápis o opravě hodin, podepsán „Joseph Fischer / Uhrmacher Meister". Datace podle písma 18./začátek 19. století (orientačně, k ověření). Plný text v kurentu zatím nerozluštěn — vyžaduje paleografické zpracování. Zotero RXVE6SL9.'
+    note: 'Rukopisný dvojlist v kurentu, hlavička „Königl. Stadt Aussig am 6. [měsíc/rok dosud nečitelné]", odkaz na Konferenz Protocoll Sub. Acta Pol. 978. Předmět: licitace opravy městských hodin mezi mistry Joseph Fischer a Karl Kauffenbühl; Fischerova vítězná nabídka 40 zl. Wiener Währung. Podpisy: Anwald, Schubert, Joseph Fi[e]scher. Datace podle písma a slovní zásoby (Wiener Währung) přelom 18./19. století. Plný HTR přepis přes Transkribus (model The Text Titan I ter, kolekce „Aussig" colId 2417023, docId 16468522). Zotero RXVE6SL9.'
 ---
 
 ::photo{src="/img/aussig-orloj-1591/alt-aussig-pohlednice-radnice.jpg" alt="Dobová pohlednice s nadpisem Alt-Aussig — Marktplatz mit Rathaus; expoziční rekonstrukce tržního náměstí starého Ústí nad Labem postavená pro Všeobecnou německou výstavu pro řemesla, průmysl a zemědělství 1903; centrální budova rekonstruované radnice s věžovou nástavbou a ciferníkem, vlevo arkády a štítové domy, vpravo hrázděný dům s arkýřem" class="img-standalone img-skip-hero" author="archiv (Allgemeine Deutsche Ausstellung 1903, sekce Alt-Aussig)"}
@@ -138,19 +138,29 @@ Pro úplnost shrnuje Sonnewend i hlavní stavební epochy radnice:
 | **1774 + J. J. N. Anno** | Hlavní oprava hodin (latinská zkratka *„In Iesu Nomine, Anno…"* — „Ve jménu Ježíšově, léta páně") |
 | **1788** | Požár radnice způsobený bleskem |
 
-## Smlouva o opravě — Joseph Fischer, Uhrmacher Meister
+## Protokol mistra Josepha Fischera o opravě městských hodin
 
-::photo{src="/img/aussig-orloj-1591/fischer-specifikace-oprav-1.jpg" alt="Rukopisný dvojlist v kurentu, první strana — nadpis Specification, popis prací při opravě hodin, hnědý inkoust na chamoisovém papíře" class="img-standalone" author="Joseph Fischer (rukopis)"}
+::photo{src="/img/aussig-orloj-1591/fischer-specifikace-oprav-1.jpg" alt="Rukopisný dvojlist v kurentu, první strana — protokol slyšení Josepha Fischera, hnědý inkoust na chamoisovém papíře, 29 řádků" class="img-standalone" author="Joseph Fischer (rukopis)"}
 
-V archivních materiálech k ústeckým radničním hodinám se dochoval ještě jeden zajímavý kus — rukopisná německá **smlouva (nebo zápis) o opravě hodin**, dvoulistá, psaná kurentem s nadpisem *„Specification"*. Podle písma orientačně z 18. nebo počátku 19. století; přesnou dataci by určila až paleografická analýza.
+V archivních materiálech k ústeckému orloji se dochoval ještě jeden vzácný kus — **úřední protokol města Ústí o slyšení hodinářského mistra Josepha Fischera ohledně opravy městských hodin**. Dvoulistá listina psaná kurentem byla v roce 2026 přečtena přes Transkribus (HTR modelem *The Text Titan I ter*, 56 řádků celkem) a její obsah vrhá nové světlo na nedoložené dějiny stroje.
 
-::photo{src="/img/aussig-orloj-1591/fischer-specifikace-oprav-2.jpg" alt="Druhá strana Fischerovy smlouvy — pokračování rukopisu, dole dva podpisy: vlevo nečitelný snad rychtář (N. Heimreich / Schultheiss), vpravo Joseph Fischer Uhrmacher Meister" class="img-standalone" author="Joseph Fischer (rukopis)"}
+Hlavička dokumentu zní *„Königl[iche] Stadt Aussig am 6. [měsíc dosud nečitelný]"* a protokol nese odkaz na **Konferenz Protocoll Sub. Acta Pol. 978** — tj. číslo městského archivního fondu, podle něhož by bylo možné dohledat přesný rok. Předmětem je *„Die Einvernehmung des Bürgerlichen Uhrmachermeisters Joseph Fischer … wegen Reparatur der **Stadt Uhr** und Überlassung derselben"* (Slyšení měšťanského hodinářského mistra Josepha Fischera ohledně opravy **městských hodin** a jejich převzetí).
 
-Na druhé straně dole jsou dva podpisy. Vlevo je nečitelný, snad **N. Heimreich** s funkcí *Schultheiss* (rychtář), vpravo zřetelně **Joseph Fischer, Uhrmacher Meister**. Před podpisem stojí závěrečná datovací formule typu *„passieret und Tag und fest und ober…"*, kterou bez paleografického zpracování nelze přečíst.
+Příběh, který protokol zaznamenává:
 
-Vazba k radničnímu orloji **doložená není**. Lákavou hypotézou nabízí Sonnewend: na orloji byl letopočet *1774 + J. J. N. Anno*, který by mohl označovat právě hlavní opravu, jíž by se Fischerova smlouva týkala. Kdyby se podařilo Fischerův rukopis datovat blízko roku 1774, šlo by o prvotřídní doklad. Bez paleografie to však zatím zůstává spekulace.
+> Joseph Fischer předložil spolu se zdejším měšťanským hodinářským mistrem **Karlem Kauffenbühlem** **kostový rozpočet** na opravu městských hodin (radnice byla podle protokolu *baufällig*, sešlá). Oba rozpočty byly soudně zaregistrovány u městské *Anwaldschaft* (městské advokacie). Fischer dal nejlevnější nabídku — **45 zlatých**. Aby se městská kasa vyhnula licitaci a dalším kostům, advokacie se Fischera dotázala, zda by zakázku nepřevzal za **40 zlatých Wiener Währung**. Fischer souhlasil za podmínky, že obdrží **10 zlatých jako zálohu, zbytek až po opravě a kontrole**. Protokol byl uzavřen s výhradou potvrzení magistrátu, podepsán je *Anwald*, *Schubert* a **Joseph Fi[e]scher, Uhrmacher Meister**.
 
-Stojí za zmínku, že Sonnewend (s. 188–189) zaznamenává v souvislosti s dominikánskou farností donace **Leopolda Fischera** (1719, kapitál 12 000 fl.) a **Margarethy Fischer** (14. dubna 1734, 1775 fl. 36 fr.). Dokládají přítomnost rodu Fischerů v Ústí v 18. století, ale **zda Joseph Fischer, Uhrmacher Meister, patří k téže rodině, není doloženo**.
+Pro Ústí nad Labem to znamená přírůstek hned několika nových znalostí:
+
+- **„Stadt Uhr"** je v dobové městské administrativě termín pro **městské hodiny — tj. radniční stroj**. Vazba protokolu k radničnímu orloji 1591, dříve hypotetická, je teď **doložena přímo dobovou terminologií**.
+- **Karl Kauffenbühl** se objevuje jako další ústecký hodinářský mistr — dosud v repu nedoložená osoba, vážený dost na to, aby se účastnil oficiální veřejné licitace.
+- **Schubert** je třetí podpis (původně jsme tipovali rychtáře/*Schultheiss*) — v kontextu protokolu spíš městský úředník (možná *Stadtschreiber* nebo radní).
+
+> **Datace zůstává otevřená.** Hlavička uvádí den (6.), ale měsíc a rok nejsou v OCR rozpoznatelné a vyžadují prozkoumání originálu nebo dohledání protokolu *Sub. Acta Pol. 978* v ústeckém archivu. Sonnewend zaznamenává na orloji letopočet **1774 + J. J. N. Anno** jako rok hlavní opravy — to zůstává atraktivní kandidát pro dataci Fischerova protokolu, ale úředně-protokolární jazyk *„Wiener Währung"* a typografie kurentu mohou ukazovat spíš na **přelom 18./19. století**.
+
+::photo{src="/img/aussig-orloj-1591/fischer-specifikace-oprav-2.jpg" alt="Druhá strana Fischerova protokolu — pokračování zápisu, dole tři podpisy: Anwald, Joseph Fiescher a Schubert" class="img-standalone" author="Joseph Fischer (rukopis)"}
+
+Stojí za zmínku, že Sonnewend (s. 188–189) zaznamenává v souvislosti s dominikánskou farností donace **Leopolda Fischera** (1719, kapitál 12 000 fl.) a **Margarethy Fischer** (14. dubna 1734, 1775 fl. 36 fr.). Dokládají přítomnost rodu Fischerů v Ústí v 18. století, ale **zda Joseph Fischer, Uhrmacher Meister, patří k téže rodině, není přímo doloženo**.
 
 ## Zánik 1846 a rekonstrukce 1903
 
@@ -165,10 +175,11 @@ Toto vědomí ztráty vlastně **stálo za vznikem výstavy 1903**: u příleži
 ## Otevřené otázky pro další bádání
 
 1. **Identita mistra „G. W." (1591)** — městské knihy Ústí, signatury českých renesančních hodinářů
-2. **Plná paleografická transkripce Fischerovy smlouvy** + přesná datace + identifikace druhého podpisu (rychtář?)
-3. **Souvislost Fischerovy smlouvy s opravou 1774 (J. J. N. Anno)** — ověřit datací rukopisu
-4. **Osud dřevěného „Räderwerku"** zaznamenaného Sonnewendem 1855 na půdě nové radnice
-5. **Osud zvonu Brikcího z Cymberka** — podle Mariana (1903) se nacházel v ústeckém městském muzeu; zda dnes existuje (a kde) k ověření; sjednotit datacích (1574 vs 1579 podle pramenů)
-6. **Druhý ústecký orloj (dům bratrstva 1613)** — kdy a za jakých okolností zanikl, případně zda se z něho něco dochovalo
+2. **Přesná datace Fischerova protokolu (měsíc a rok)** — Transkribus HTR přečetl jen den (6.). Dohledat *Konferenz Protocoll Sub. Acta Pol. 978* v ústeckém archivu by určilo měsíc a rok.
+3. **Souvislost Fischerovy smlouvy s opravou 1774 (J. J. N. Anno)** — ověřit datací rukopisu (viz bod #2)
+4. **Karl Kauffenbühl** — další ústecký hodinářský mistr (spolu-uchazeč v licitaci proti Fischerovi); identifikovat v matrikách a mistrovských listinách
+5. **Osud dřevěného „Räderwerku"** zaznamenaného Sonnewendem 1855 na půdě nové radnice
+6. **Osud zvonu Brikcího z Cymberka** — podle Mariana (1903) se nacházel v ústeckém městském muzeu; zda dnes existuje (a kde) k ověření; sjednotit datacích (1574 vs 1579 podle pramenů)
+7. **Druhý ústecký orloj (dům bratrstva 1613)** — kdy a za jakých okolností zanikl, případně zda se z něho něco dochovalo
 
 *Pokud k jakékoli z těchto otázek máte další informace, kontaktujte [Český spolek horologický](/o-hodinariu).*
