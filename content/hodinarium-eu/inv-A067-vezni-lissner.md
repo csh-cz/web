@@ -34,7 +34,10 @@ relatedKarty:
   - inv-A011-vezni-torzo
 relatedSlugs:
   - johann-lissner
+thumbnail: '/img/vezni/067a-lissner.jpg'
 ---
+
+::photo{src="/img/vezni/067a-lissner.jpg" alt="Věžní hodiny Lissner ze školy v Mikulášovicích, vystavené v Hodináriu Děčín — horizontální mosazný stroj v původní zelené prosklené skříni; vlevo soukolí jicího stroje s velkými mosaznými koly, vpravo soukolí bicího stroje, uprostřed nahoře malý ciferník" class="img-standalone" author="Zdeňka Baudischová"}
 
 Věžní hodiny pocházejí původně z **budovy školy v Mikulášovicích**. Jejich autorem je zřejmě místní hodinář **[Johan Lissner](/hodinari/johann-lissner)**, který zde působil v druhé polovině 19. století.
 
@@ -48,6 +51,8 @@ Stroj se sestává ze:
 **Všechna kola jsou vyrobena z mosazi.**
 
 Stroj je umístěn v **původní pěkně provedené skříni**, která hodiny chrání před nečistotami.
+
+::photo{src="/img/vezni/067b-lissner.jpg" alt="Detail soukolí věžních hodin Lissner — mosazná kola jicího i bicího stroje na společné vodorovné lože, černé ocelové kyvadlo s plochou tyčí a litinovou čočkou, lanový buben pohonu vpravo" class="img-standalone" author="Zdeňka Baudischová"}
 
 ## Druhý Lissner v Hodináriu
 
