@@ -33,3 +33,11 @@ thumbnail: '/img/vezni/017a-hainz.jpg'
 ::photo{src="/img/vezni/017a-hainz.jpg" alt="Věžní hodiny Hainz (1946) v Sále věžních hodin Hodinária Děčín — litinový rám se třemi stroji na dřevěném stojanu, mosazná ozubená kola, kontrolní ciferník vpravo, závaží zavěšená pod stojanem; v pozadí podkrovní expozice" class="img-standalone" author="Zdeňka Baudischová"}
 
 Hodinový stroj byl vyroben v roce 1946. V litinovém rámu jsou uloženy tři stroje: jicí, bicí čtvrtí a bicí celých hodin. **[Grahamův](/kroky/grahamuv-krok)** krok je řízen kyvadlem, zavěšeným na ocelové planžetě. Kyvadlová tyč je dřevěná, na konci osazená těžkou litinovou čočkou. Zajímavým způsobem je řešen pohon jicího stroje při [nátahu](/slovnik/natah) – natahovací čtyřhran je třeba zpřístupnit pootočením páky, na jejímž konci je zavěšeno pomocné závaží, které dodává potřebnou energii během nátahu.
+
+::photo{src="/img/vezni/017d-hainz.jpg" alt="Věžní hodiny Hainz — boční pohled na litinový rám se třemi stroji a mosaznými koly" class="img-standalone" author="Mirek Baudisch"}
+
+::photo{src="/img/vezni/017e-hainz.jpg" alt="Věžní hodiny Hainz — pohled na soukolí jicího a bicího stroje s krokovým kolem" class="img-standalone" author="Mirek Baudisch"}
+
+::photo{src="/img/vezni/017b-hainz.jpg" alt="Věžní hodiny Hainz — detail soukolí s Grahamovým krokem a kyvadlem na ocelové planžetě" class="img-standalone" author="Zdeňka Baudischová"}
+
+::photo{src="/img/vezni/017c-hainz.jpg" alt="Věžní hodiny Hainz — detail pohonu jicího stroje s pákou pro zpřístupnění natahovacího čtyřhranu a pomocným závažím" class="img-standalone" author="Zdeňka Baudischová"}
