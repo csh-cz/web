@@ -21,7 +21,10 @@ references:
     rok: 2015
     type: clanek
     note: "Rozpravy NTM: Z dějin geodézie a kartografie. Praha: Národní technické muzeum, 2015, s. 271–282."
+thumbnail: '/img/sbirka/A88-engelbrecht.jpg'
 ---
+
+::photo{src="/img/sbirka/A88-engelbrecht.jpg" alt="Stolní sluneční hodiny Engelbrecht ve sbírce Hodinária Děčín — mosazná trojúhelníková deska (gnomon) s olovnicí zavěšenou na niti a stupnicí zeměpisné šířky (40–60°) pro nastavení sklonu, na mosazné desce s černým profilovaným dřevěným podstavcem" class="img-standalone" author="Zdeňka Baudischová"}
 
 ## Stručně
 
