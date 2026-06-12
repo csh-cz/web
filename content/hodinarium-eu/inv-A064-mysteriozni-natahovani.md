@@ -20,10 +20,15 @@ karta:
   vztahKeSbirce: "dar"
   stav: "funkční"
   rokVyroby: "2018"
+thumbnail: '/img/sbirka/A064-mysteriozni.jpg'
 ---
+
+::photo{src="/img/sbirka/A064-mysteriozni.jpg" alt="Mysteriózní natahování závaží Pražského orloje v Hodináriu Děčín — zelený kovový stojan s velkým lanovým bubnem nahoře, do něhož je ukryt motorek a řídicí elektronika, závaží visící uvnitř rámu; v pozadí reprodukce orlojového ciferníku" class="img-standalone" author="Mirek Baudisch"}
 
 Vystavený exponát je prototypem zařízení, které natahuje závaží Pražského orloje. Uvnitř bubnu je ukryto [natahování](/slovnik/natah), sestávající z motorku, řídicího systému a čidla, kontrolujícího navíjení lana. Napájení o napětí 36V je do bubnu přivedeno vodiči, vpletenými do lana, nesoucího závaží.
 
 Při sepnutí vnitřního čidla začne LED blikat rychle zelená/červená, po menší prodlevě se spustí natahování a LED svítí červeně. Natahování je asi v 37 vteřinových intervalech. Po dotažení LED bliká zeleně.
+
+::photo{src="/img/sbirka/A064-mysteriozni-detail.jpg" alt="Detail mysteriózního natahování — lanový buben s ukrytým motorkem, čidlem navíjení a LED signalizací; napájení 36 V přivedeno vodiči vpletenými do lana" class="img-standalone" author="Mirek Baudisch"}
 
 Zařízení navrhl a sestrojil Ing. Jaroslav Kavalír. Do Pražského orloje bylo zabudováno v rámci generální opravy stroje v roce 2018.
