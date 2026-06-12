@@ -7,15 +7,17 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-05-21T00:00:00.000Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - vitrina-4-vedlejsi
+  - elektricke
+  - digi
 karta:
   inventarniCislo: "A191"
   umisteni: "Vitrína 4 (Sál elektro)"
 ---
 
-## Stub karty
+**Magické hodiny** ukazují čas **LED diodami**: hodiny červeně, minuty zeleně a vteřiny modře.
 
-Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.
+*Text karty vychází z popisu Mirka Baudische (Český spolek horologický, červen 2026).*
