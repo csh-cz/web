@@ -143,18 +143,37 @@
     ]
   },
   {
+    "slug": "klein-astronomicke-geograficke-hodiny",
+    "title": "Astronomické a geografické hodiny Johanna Kleina (1738–1754)",
+    "category": "zajimavosti",
+    "thumbnail": null,
+    "excerpt": "> „Pařízek, Patrik. Astronomické a geografické hodiny Johanna Kleina. Rozpravy NTM: Z dějin geodézie a kartografie. Praha: Národní technické muzeum, 2016, s. 291–298.\"",
+    "year": 2016,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 1181,
+    "tags": [
+      "baroko",
+      "1700s",
+      "cesko",
+      "kuriozita",
+      "popularizace"
+    ]
+  },
+  {
     "slug": "inv-A189-astronomicke-hodiny",
     "title": "Astronomické hodiny",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
-    "year": null,
+    "excerpt": "Astronomické hodiny ukazují kromě času občanského také čas východu a západu Slunce a Měsíce, jejich polohu na obloze, dále epaktu, nedělní písmeno, zlaté číslo a datum Velikonoc.",
+    "year": 2026,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 39,
     "tags": [
-      "vitrina-4-vedlejsi"
+      "vitrina-4-vedlejsi",
+      "elektricke"
     ]
   },
   {
@@ -256,8 +275,8 @@
     "excerpt": "V roce 1681 vyšla v Praze v tiskárně Georgia Czernocha (Jiřího Černocha, pražská tiskařská rodina činná od r. 1672) třetí kniha Balbínových Miscellanea historica Regni Bohemiae, jež obsahuje rozsáhlou kapitolu věnovan…",
     "year": 1570,
     "lastModified": null,
-    "imageCount": 6,
-    "wordCount": 9789,
+    "imageCount": 8,
+    "wordCount": 9844,
     "tags": [
       "praha",
       "prazsky-orloj",
@@ -858,7 +877,7 @@
     "year": null,
     "lastModified": "2025-08-16T15:13:00.000Z",
     "imageCount": 8,
-    "wordCount": 1112,
+    "wordCount": 1114,
     "tags": [
       "radio-rizeno",
       "atomove",
@@ -890,7 +909,7 @@
     "year": 1793,
     "lastModified": "2021-01-13T10:56:00.000Z",
     "imageCount": 1,
-    "wordCount": 1002,
+    "wordCount": 1004,
     "tags": [
       "decimalka",
       "kuriozita",
@@ -1135,7 +1154,7 @@
     "year": 2000,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 220,
+    "wordCount": 218,
     "tags": [
       "baroko",
       "mechanicke",
@@ -1513,14 +1532,15 @@
     "title": "Heliochronometr",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "thumbnail": "/img/sbirka/A75-heliochronometr.jpg",
+    "excerpt": "Heliochronometr je přesný sluneční přístroj, který po seřízení podle časové rovnice ukazuje občanský (středního slunce) čas s přesností na minuty. Mosazné provedení s nakloněnou stupnicí, jemným ozubeným nastavením a …",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 11,
+    "imageCount": 1,
+    "wordCount": 73,
     "tags": [
-      "vitrina-1-hlavni"
+      "vitrina-1-hlavni",
+      "slunecni"
     ]
   },
   {
@@ -1536,6 +1556,46 @@
     "wordCount": 11,
     "tags": [
       "vitrina-1-hlavni"
+    ]
+  },
+  {
+    "slug": "hodiny-jako-medium-1",
+    "title": "Historické hodiny jako médium paměti a zdroj komunikace (1/2)",
+    "category": "zajimavosti",
+    "thumbnail": null,
+    "excerpt": "> „Pařízek, Patrik. Historické hodiny jako médium paměti a zdroj komunikace (1/2). Zpravodaj Společnosti přátel starožitných hodin 39/2024.\"",
+    "year": 2024,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 1879,
+    "tags": [
+      "kuriozita",
+      "popularizace",
+      "cesko",
+      "svet",
+      "1700s",
+      "1800s",
+      "1900s"
+    ]
+  },
+  {
+    "slug": "hodiny-jako-medium",
+    "title": "Historické hodiny jako médium paměti a zdroj komunikace (2/2)",
+    "category": "zajimavosti",
+    "thumbnail": null,
+    "excerpt": "> „Pařízek, Patrik. Historické hodiny jako médium paměti a zdroj komunikace (2/2). Zpravodaj Společnosti přátel starožitných hodin 40/2025.\"",
+    "year": 2025,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 2534,
+    "tags": [
+      "kuriozita",
+      "popularizace",
+      "cesko",
+      "svet",
+      "1800s",
+      "1900s",
+      "2000s"
     ]
   },
   {
@@ -1565,7 +1625,7 @@
     "year": null,
     "lastModified": "2026-03-16T16:42:00.000Z",
     "imageCount": 6,
-    "wordCount": 2341,
+    "wordCount": 2342,
     "tags": [
       "jednotny-cas",
       "ntp-rizeno",
@@ -1776,12 +1836,12 @@
     "title": "Hodiny Comtoise",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/sbirka/A055-comtoise.jpg",
     "excerpt": "Hodiny tohoto typu pocházejí z regionu Franche-Comté, kde se koncem 17. století začaly vyrábět v obci Morbier. Mají typickou konstrukci uložením soukolí ve třech oddílech. Stroj je spolehlivý, sestavený z masivních ko…",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 165,
+    "imageCount": 2,
+    "wordCount": 215,
     "tags": [
       "hlavni-sal",
       "funkcni",
@@ -1794,12 +1854,12 @@
     "title": "Hodiny Comtoise",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/sbirka/A056-comtoise.jpg",
     "excerpt": "Hodiny tohoto typu pocházejí z regionu Franche-Comté, kde se koncem 17. století začaly vyrábět v obci Morbier. Mají typickou konstrukci uložením soukolí ve třech oddílech. Stroj je spolehlivý, sestavený z masivních ko…",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 165,
+    "imageCount": 2,
+    "wordCount": 213,
     "tags": [
       "hlavni-sal",
       "funkcni",
@@ -2002,6 +2062,25 @@
     "wordCount": 11,
     "tags": [
       "vitrina-3-vedlejsi"
+    ]
+  },
+  {
+    "slug": "inv-A265-hodiny-ferraris",
+    "title": "Hodiny Ferraris",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": "/img/sbirka/A265-ferraris.jpg",
+    "excerpt": "Hodiny Ferraris jsou uloženy v masivním kovovém pouzdře. Jde o mechanické hodiny s pérovým pohonem — pérovník však není natahován ručně, nýbrž Ferrarisovým motorkem (asynchronním indukčním motorkem), který pero průběž…",
+    "year": 2026,
+    "lastModified": null,
+    "imageCount": 2,
+    "wordCount": 125,
+    "tags": [
+      "vitrina-3-hlavni",
+      "elektricke",
+      "pero",
+      "setrvacka",
+      "funkcni"
     ]
   },
   {
@@ -2370,7 +2449,7 @@
     "year": 2015,
     "lastModified": "2020-06-23T10:27:00.000Z",
     "imageCount": 2,
-    "wordCount": 675,
+    "wordCount": 680,
     "tags": [
       "digi",
       "gps-rizeno",
@@ -2547,7 +2626,7 @@
     "year": null,
     "lastModified": "2023-03-20T10:16:00.000Z",
     "imageCount": 7,
-    "wordCount": 1661,
+    "wordCount": 1664,
     "tags": [
       "jednotny-cas",
       "ntp-rizeno",
@@ -2566,7 +2645,7 @@
     "year": 1919,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 127,
+    "wordCount": 125,
     "tags": [
       "mechanicke",
       "restaurovane",
@@ -2625,7 +2704,7 @@
     "year": null,
     "lastModified": "2021-09-26T09:14:00.000Z",
     "imageCount": 7,
-    "wordCount": 3378,
+    "wordCount": 3391,
     "tags": [
       "synchronni",
       "jednotny-cas",
@@ -2863,7 +2942,7 @@
     "year": null,
     "lastModified": "2017-04-26T16:29:00.000Z",
     "imageCount": 4,
-    "wordCount": 470,
+    "wordCount": 471,
     "tags": [
       "nastenne",
       "pero",
@@ -3245,12 +3324,12 @@
     "title": "lihýřové hodiny",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/sbirka/A044-lihyrove.jpg",
     "excerpt": "Vystavený stroj představuje konstrukci raně středověkých hodin z počátku vývoje kolečkových hodin. Nejstarší stroje měly pouze tři kola: hlavní s bubnem, na který se namotávalo lanko se závažím, kolo krokové, spolu s …",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 62,
+    "imageCount": 1,
+    "wordCount": 91,
     "tags": [
       "hlavni-sal",
       "funkcni",
@@ -3263,13 +3342,14 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Linkový rozváděč EHU 260 rozšiřuje kapacitu hodinové ústředny EHU 0660, kterým se zvýší počet řízených linek o dalších 16.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 64,
     "tags": [
-      "volne-vedlejsi"
+      "volne-vedlejsi",
+      "elektricke"
     ]
   },
   {
@@ -3345,13 +3425,15 @@
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
-    "year": null,
+    "excerpt": "Magické hodiny ukazují čas LED diodami: hodiny červeně, minuty zeleně a vteřiny modře.",
+    "year": 2026,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 25,
     "tags": [
-      "vitrina-4-vedlejsi"
+      "vitrina-4-vedlejsi",
+      "elektricke",
+      "digi"
     ]
   },
   {
@@ -3478,12 +3560,12 @@
     "title": "Matiční Wagner",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/sbirka/P103-wagner.jpg",
     "excerpt": "Mechanické matiční hodiny s Grahamovým krokem a elektromagnetickým natahováním závaživého pohonu s uzavřeným Huyghensovým řetězcem.",
     "year": 2017,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 51,
+    "imageCount": 1,
+    "wordCount": 87,
     "vyrobce": "Wagner",
     "tags": [
       "panel-1",
@@ -3508,6 +3590,25 @@
       "panel-1",
       "funkcni",
       "sitovky"
+    ]
+  },
+  {
+    "slug": "mechanicke-automatofony",
+    "title": "Mechanické automatofonické nástroje ve sbírkách Muzea Českého krasu",
+    "category": "zajimavosti",
+    "thumbnail": null,
+    "excerpt": "> „Pařízek, Patrik. Mechanické automatofonické nástroje ve sbírkách Muzea Českého krasu. Český kras XL/2014. Beroun: Muzeum Českého krasu, 2015.\"",
+    "year": 2014,
+    "lastModified": null,
+    "imageCount": 0,
+    "wordCount": 1860,
+    "tags": [
+      "kuriozita",
+      "popularizace",
+      "cesko",
+      "1800s",
+      "1900s",
+      "svet"
     ]
   },
   {
@@ -3793,12 +3894,12 @@
     "title": "Mysteriózní natahování",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/sbirka/A064-mysteriozni.jpg",
     "excerpt": "Vystavený exponát je prototypem zařízení, které natahuje závaží Pražského orloje. Uvnitř bubnu je ukryto natahování, sestávající z motorku, řídicího systému a čidla, kontrolujícího navíjení lana. Napájení o napětí 36V…",
     "year": 2018,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 90,
+    "imageCount": 2,
+    "wordCount": 154,
     "tags": [
       "hlavni-sal",
       "funkcni"
@@ -4021,6 +4122,26 @@
     ]
   },
   {
+    "slug": "havlicek-tocna-orloj",
+    "title": "Nový orloj v obci Točná u Prahy",
+    "category": "projekty",
+    "thumbnail": "/img/projekty/havlicek-tocna/orloj-ciselniky-detail.jpg",
+    "excerpt": "Astronomický orloj postavený členem Českého spolku horologického Jiřím Havlíčkem na rohu ulice Starý lis 269 v pražské Točné. Realizace trvala asi tři roky (2018–2020), spuštěn byl v říjnu 2020. Cílem byla vlastní sta…",
+    "year": 2020,
+    "lastModified": null,
+    "imageCount": 2,
+    "wordCount": 1098,
+    "tags": [
+      "vezni",
+      "mechanicke",
+      "kyvadlo",
+      "krok-amant",
+      "cesko",
+      "praha",
+      "2000s"
+    ]
+  },
+  {
     "slug": "inv-P509-ntp-a-gps-server",
     "title": "NTP a GPS server",
     "category": "sbirka",
@@ -4089,11 +4210,11 @@
     "title": "Odkazy",
     "category": "zajimavosti",
     "thumbnail": null,
-    "excerpt": "Bohužel odkazy rychle stárnou. Najdete-li lepší napište.",
+    "excerpt": "Sbírka externích odkazů na téma vodních hodin. Bohužel odkazy rychle stárnou — najdete-li lepší, dejte vědět.",
     "year": null,
     "lastModified": "2017-04-26T16:28:00.000Z",
     "imageCount": 0,
-    "wordCount": 65,
+    "wordCount": 111,
     "tags": [
       "vodni"
     ]
@@ -4117,12 +4238,12 @@
     "title": "Orloj Hvězdárna Petřín",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/053a-petrin.jpg",
     "excerpt": "Zjednodušený model Pražského orloje (chybí ručka pro pohyb Měsíce) byl sestrojen pro předvedení souvislosti staročeského času a času středoevropského. V minulosti se užíval staročeský čas, u něhož počítání hodin dne z…",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 123,
+    "imageCount": 3,
+    "wordCount": 193,
     "tags": [
       "hlavni-sal",
       "funkcni",
@@ -4134,12 +4255,12 @@
     "title": "Orloj Kavalír",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/065a-orloj-kavalir.jpg",
     "excerpt": "Model Pražského (Staroměstského) orloje v měřítku 1:3 sestrojil Jaroslav Kavalír. Pohyb ovládá pět krokových motorů — nejmenší z nich (včetně převodovky) je uvnitř měsíčku; vede k němu šest vodičů tenkou trubičkou a d…",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 125,
+    "imageCount": 3,
+    "wordCount": 208,
     "vyrobce": "Jaroslav Kavalír",
     "tags": [
       "hlavni-sal",
@@ -4620,7 +4741,7 @@
     "title": "Pilovky se samonivelačním fyzikálním kyvadlem",
     "category": "konstrukce",
     "thumbnail": "/img/pilovky/f/foto_0001.jpg",
-    "excerpt": "Stroj používá fyzikální kyvadlo, které má protizávaží nahoře. Tím dochází k rozdílu  mezi hmotou, který ovlivňuje setrvačnost kyvadla  a mezi hmotou na kterou působí v těžišti gravitační síla. Díky tomuto provedení je…",
+    "excerpt": "Stroj používá fyzikální kyvadlo, které má protizávaží nahoře. Tím dochází k rozdílu mezi hmotou, který ovlivňuje setrvačnost kyvadla a mezi hmotou na kterou působí v těžišti gravitační síla. Díky tomuto provedení je j…",
     "year": null,
     "lastModified": "2017-04-26T14:12:00.000Z",
     "imageCount": 7,
@@ -4694,19 +4815,22 @@
   },
   {
     "slug": "inv-A048-podlahove-hodiny-barokni",
-    "title": "podlahové hodiny barokní",
+    "title": "Podlahové hodiny barokní",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "",
-    "year": null,
+    "thumbnail": "/img/sbirka/A048-podlahove-barokni.jpg",
+    "excerpt": "Barokní kovaný stroj vestavěný do pozdější skříně. Ve vrcholu číselníku je Boží oko, které se pohybuje spolu s kyvadlem. Stroj je poháněn závažím zavěšeným na řetízku a je pouze chodový (bez bicího stroje).",
+    "year": 2026,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 0,
+    "imageCount": 1,
+    "wordCount": 83,
     "tags": [
       "hlavni-sal",
-      "funkcni",
-      "stolni"
+      "mechanicke",
+      "zavazi",
+      "kyvadlo",
+      "baroko",
+      "funkcni"
     ]
   },
   {
@@ -5036,12 +5160,12 @@
     "title": "Podružné věžní hodiny VH1 Elektročas",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/decin/ElektrocasVK1/foto_0001.jpg",
+    "thumbnail": "/img/sbirka/A050-vh1-krokovy-motor.jpg",
     "excerpt": "Miniaturní stroj věžních hodin (hmotnost pouhých 18 kg) je výrobkem firmy Elektročas. Do sbírky se dostal v roce 2017. Je řízen polarizovanými impulzy 24 V od matičních hodin. Tyto impulzy přijímá běžný podružný stroj…",
     "year": null,
     "lastModified": null,
-    "imageCount": 1,
-    "wordCount": 141,
+    "imageCount": 2,
+    "wordCount": 184,
     "vyrobce": "Elektročas",
     "tags": [
       "hlavni-sal",
@@ -5247,7 +5371,7 @@
     "year": 1988,
     "lastModified": "2017-04-26T13:37:00.000Z",
     "imageCount": 0,
-    "wordCount": 1561
+    "wordCount": 1558
   },
   {
     "slug": "prazsky-orloj-ciferniky-2018",
@@ -5576,7 +5700,7 @@
     "year": 1550,
     "lastModified": "2022-04-04T09:25:00.000Z",
     "imageCount": 1,
-    "wordCount": 768
+    "wordCount": 767
   },
   {
     "slug": "inv-A193-rimske-odbijeni",
@@ -5716,12 +5840,12 @@
     "title": "skeletové hodiny Kavalír",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/sbirka/A054-skeletove.jpg",
     "excerpt": "Skeletové kyvadlové hodiny CHRONO z nerezové oceli. Výrobce Ing. Jaroslav Kavalír, design Pavel Hrubý. Konstrukce záměrně podtrhuje viditelnou jednoduchost mechanismu a eleganci použitého materiálu.",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 27,
+    "imageCount": 1,
+    "wordCount": 65,
     "vyrobce": "Kavalír",
     "tags": [
       "hlavni-sal",
@@ -5810,14 +5934,15 @@
     "title": "Sluneční hodiny diptychové",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "thumbnail": "/img/sbirka/A76-diptychove.jpg",
+    "excerpt": "Diptychové (skládací knížkové) sluneční hodiny. Po rozevření obou desek se mezi nimi napne nit (gnomon), která vrhá stín na vodorovný i svislý číselník zároveň; kompas v dolní desce slouží k orientaci. Replika je díle…",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 11,
+    "imageCount": 1,
+    "wordCount": 98,
     "tags": [
-      "vitrina-1-hlavni"
+      "vitrina-1-hlavni",
+      "slunecni"
     ]
   },
   {
@@ -5855,14 +5980,16 @@
     "title": "Sluneční hodiny kapesní zdobené",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "thumbnail": "/img/sbirka/A80-kapesni-zdobene.jpg",
+    "excerpt": "Kapesní zdobené sluneční hodiny — drobné cestovní provedení s ozdobně zpracovaným číselníkem.",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 11,
+    "imageCount": 1,
+    "wordCount": 41,
     "tags": [
-      "vitrina-1-hlavni"
+      "vitrina-1-hlavni",
+      "slunecni",
+      "kapesni"
     ]
   },
   {
@@ -5870,14 +5997,15 @@
     "title": "Sluneční hodiny kubické",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "thumbnail": "/img/sbirka/A85-kubicke.jpg",
+    "excerpt": "Kubické sluneční hodiny — krychle, na jejíchž stěnách jsou číselníky pro různé světové strany; každá stěna má vlastní trojúhelníkový gnomon, takže hodiny ukazují čas po celý den podle polohy Slunce. Provedení v dobové…",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 11,
+    "imageCount": 1,
+    "wordCount": 82,
     "tags": [
-      "vitrina-1-hlavni"
+      "vitrina-1-hlavni",
+      "slunecni"
     ]
   },
   {
@@ -5885,14 +6013,15 @@
     "title": "Sluneční hodiny polární mosazné",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "thumbnail": "/img/sbirka/A70-polarni-mosazne.jpg",
+    "excerpt": "Polární (rovníkové) sluneční hodiny v mosazném provedení — protějšek plechové varianty A69. Hodinová stupnice leží v rovině rovnoběžné s rovníkem, gnomon míří k nebeskému pólu.",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 11,
+    "imageCount": 1,
+    "wordCount": 55,
     "tags": [
-      "vitrina-1-hlavni"
+      "vitrina-1-hlavni",
+      "slunecni"
     ]
   },
   {
@@ -5900,14 +6029,15 @@
     "title": "Sluneční hodiny polární plechové",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "thumbnail": "/img/sbirka/A69-polarni-plechove.jpg",
+    "excerpt": "Polární (rovníkové) sluneční hodiny z plechu. Hodinový prstenec je rovnoběžný s rovníkem a gnomon míří k nebeskému pólu, takže stín dopadá na rovnoměrně dělenou hodinovou stupnici po celý rok.",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 11,
+    "imageCount": 1,
+    "wordCount": 70,
     "tags": [
-      "vitrina-1-hlavni"
+      "vitrina-1-hlavni",
+      "slunecni"
     ]
   },
   {
@@ -5960,14 +6090,15 @@
     "title": "Sluneční hodiny přenosné 1",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "thumbnail": "/img/sbirka/A72-A73-prenosne.jpg",
+    "excerpt": "Přenosné (cestovní) sluneční hodiny — vystaveny společně s druhým kusem A73.",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 11,
+    "imageCount": 1,
+    "wordCount": 40,
     "tags": [
-      "vitrina-1-hlavni"
+      "vitrina-1-hlavni",
+      "slunecni"
     ]
   },
   {
@@ -5975,14 +6106,15 @@
     "title": "Sluneční hodiny přenosné 2",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "thumbnail": "/img/sbirka/A72-A73-prenosne.jpg",
+    "excerpt": "Přenosné (cestovní) sluneční hodiny — vystaveny společně s prvním kusem A72.",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 11,
+    "imageCount": 1,
+    "wordCount": 40,
     "tags": [
-      "vitrina-1-hlavni"
+      "vitrina-1-hlavni",
+      "slunecni"
     ]
   },
   {
@@ -5990,14 +6122,15 @@
     "title": "Sluneční hodiny s analémou malé",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "thumbnail": "/img/sbirka/A87-analema.jpg",
+    "excerpt": "Sluneční hodiny s analemou (menší provedení). Osmičkovitá křivka analemy na číselníku zohledňuje časovou rovnici — rozdíl mezi pravým slunečním a středním (občanským) časem během roku — takže hodiny ukazují přímo obča…",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 11,
+    "imageCount": 1,
+    "wordCount": 70,
     "tags": [
-      "vitrina-1-hlavni"
+      "vitrina-1-hlavni",
+      "slunecni"
     ]
   },
   {
@@ -6020,14 +6153,16 @@
     "title": "Sluneční hodiny stolní barokní",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "thumbnail": "/img/sbirka/A89-barokni.jpg",
+    "excerpt": "Foto Zdeňka Baudischová, sbírka Hodinária Děčín (Český spolek horologický).",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 11,
+    "imageCount": 1,
+    "wordCount": 34,
     "tags": [
-      "vitrina-1-hlavni"
+      "vitrina-1-hlavni",
+      "slunecni",
+      "baroko"
     ]
   },
   {
@@ -6035,12 +6170,12 @@
     "title": "Sluneční hodiny stolní Engelbrecht",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
-    "year": null,
+    "thumbnail": "/img/sbirka/A88-engelbrecht.jpg",
+    "excerpt": "Stolní (přenosné) sluneční hodiny signované Engelbrecht, ze sbírky Hodinária Děčín. Karta je zatím v rozpracovaném stavu — podrobná identifikace přesné varianty a porovnání s typologií podle Patrika Pařízka 2015 (meda…",
+    "year": 1725,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 11,
+    "imageCount": 1,
+    "wordCount": 210,
     "tags": [
       "vitrina-1-hlavni"
     ]
@@ -6084,12 +6219,12 @@
     "title": "součást věžních hodin",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/038a-soucast.jpg",
     "excerpt": "Jednoduchý mechanizmus napojený na stroj věžních hodin řídil odbíjení na cimbály….",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 11,
+    "imageCount": 1,
+    "wordCount": 37,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -6486,15 +6621,32 @@
     ]
   },
   {
+    "slug": "inv-A117-synchronni-laplace-stroj",
+    "title": "Stroj hodin Laplace",
+    "category": "sbirka",
+    "podsekce": "karta",
+    "thumbnail": "/img/sbirka/A117-laplace-stroj.jpg",
+    "excerpt": "Vystavený stroj byl použit v hodinách, které byly vyráběny od roku 1924 firmou Laplace v Košicích. Později výroba přešla do firmy Českomoravská-Kolben v Praze. Je v něm použit synchronní motorek, zkonstruovaný Roberte…",
+    "year": 1919,
+    "lastModified": null,
+    "imageCount": 1,
+    "wordCount": 118,
+    "vyrobce": "Laplace (Košice) / Českomoravská-Kolben (Praha)",
+    "tags": [
+      "vitrina-1-vedlejsi",
+      "elektricke"
+    ]
+  },
+  {
     "slug": "svarcvaldky-stroje2",
     "title": "Stroj štolových hodin (cca pol. 19.stol.)",
     "category": "konstrukce",
     "thumbnail": "/img/svarcvald/stolove1.jpg",
-    "excerpt": "Tento typ stroje švarcvaldek je dnes poměrně vzácný. Kyvadlo je umístěno za zadní deskou stroje- mezi deskou a stěnou. Stroj tedy nemůže přiléhat přímo na stěnu a musí být odsazen pomocí tří sloupků (německy sloupek =…",
+    "excerpt": "Tento typ stroje švarcvaldek je dnes poměrně vzácný. Kyvadlo je umístěno za zadní deskou stroje — mezi deskou a stěnou. Stroj tedy nemůže přiléhat přímo na stěnu a musí být odsazen pomocí tří sloupků (německy sloupek …",
     "year": 1800,
     "lastModified": "2017-04-26T13:44:00.000Z",
     "imageCount": 5,
-    "wordCount": 260,
+    "wordCount": 261,
     "tags": [
       "mechanicke",
       "1800s"
@@ -6648,21 +6800,6 @@
     ]
   },
   {
-    "slug": "inv-A117-synchronni-laplace-stroj",
-    "title": "Synchronní Laplace - stroj",
-    "category": "sbirka",
-    "podsekce": "karta",
-    "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
-    "year": null,
-    "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 11,
-    "tags": [
-      "vitrina-1-vedlejsi"
-    ]
-  },
-  {
     "slug": "inv-P308-synchronni-spar",
     "title": "Synchronní Spar",
     "category": "sbirka",
@@ -6792,7 +6929,7 @@
     "year": 1979,
     "lastModified": "2017-04-26T16:25:00.000Z",
     "imageCount": 2,
-    "wordCount": 372,
+    "wordCount": 331,
     "tags": [
       "vodni"
     ]
@@ -6990,18 +7127,39 @@
     ]
   },
   {
+    "slug": "ustecky-orloj-1591",
+    "title": "Ústecký radniční astronomický orloj (1591–1846)",
+    "category": "virtualni-muzeum",
+    "thumbnail": "/img/aussig-orloj-1591/alt-aussig-pohlednice-radnice.jpg",
+    "excerpt": "> Pohlednice nezachycuje skutečnou ústeckou radnici, ale expoziční rekonstrukci — pavilon vystavěný v rámci sekce „Alt-Aussig\" Všeobecné německé výstavy pro řemesla, průmysl a zemědělství uspořádané v Ústí roku 1903. …",
+    "year": 1591,
+    "lastModified": null,
+    "imageCount": 6,
+    "wordCount": 2824,
+    "tags": [
+      "vezni",
+      "mechanicke",
+      "renesance",
+      "cesko",
+      "kuriozita",
+      "popularizace",
+      "preklad-pramene"
+    ]
+  },
+  {
     "slug": "inv-A242-ustredna-ehu-0660",
     "title": "Ústředna EHU 0660",
     "category": "sbirka",
     "podsekce": "karta",
     "thumbnail": null,
-    "excerpt": "Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.",
+    "excerpt": "Elektronická hodinová ústředna EHU 0660 slouží jako zdroj přesného časového signálu pro šest okruhů podružných hodin.",
     "year": null,
     "lastModified": null,
     "imageCount": 0,
-    "wordCount": 11,
+    "wordCount": 135,
     "tags": [
-      "volne-vedlejsi"
+      "volne-vedlejsi",
+      "elektricke"
     ]
   },
   {
@@ -7055,12 +7213,12 @@
     "title": "Věžní hodiny",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/010a-vezni.jpg",
     "excerpt": "Hodinový stroj původem zřejmě z poloviny dvacátého století pravděpodobně není výrobkem odborné firmy, ale sestaven z různých dílů neznámým hodinářem. Jsou na něm použity prvky z různých zdrojů. Je vybaven Amantovým (1…",
     "year": 1741,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 81,
+    "imageCount": 2,
+    "wordCount": 139,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7131,12 +7289,12 @@
     "title": "Věžní hodiny barokní kované",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/018a-barokni-kovane.jpg",
     "excerpt": "Kovaný rám ozdobený několika zachovalými volutami obsahuje tři stroje: jicí, čtvrťového bití a odbíjení celých hodin. Ve stroji jicím, který měl vřetenový krok, chybí mezilehlé kolo a kolo krokové. Také v bití chybí n…",
     "year": null,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 86,
+    "imageCount": 2,
+    "wordCount": 142,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7243,12 +7401,12 @@
     "title": "Věžní hodiny Francie",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/031a-francie.jpg",
     "excerpt": "Věžní hodiny, podle prodejce údajně z Francie, svou konstrukcí odpovídají podobným strojům z dílny Jana Prokeše ze Sobotky. Liší se od nich poněkud subtilnějším provedením. Hodinový stroj je čtvrťový, s cévkovými ( lu…",
     "year": 1852,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 85,
+    "imageCount": 1,
+    "wordCount": 136,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7265,12 +7423,12 @@
     "title": "Věžní hodiny Hainz",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": "/img/hainz/deska_stroj_n.jpg",
+    "thumbnail": "/img/vezni/017a-hainz.jpg",
     "excerpt": "Hodinový stroj byl vyroben v roce 1946. V litinovém rámu jsou uloženy tři stroje: jicí, bicí čtvrtí a bicí celých hodin. Grahamův krok je řízen kyvadlem, zavěšeným na ocelové planžetě. Kyvadlová tyč je dřevěná, na kon…",
     "year": 1946,
     "lastModified": null,
-    "imageCount": 1,
-    "wordCount": 70,
+    "imageCount": 5,
+    "wordCount": 183,
     "vyrobce": "Hainz",
     "tags": [
       "hlavni-sal",
@@ -7367,8 +7525,8 @@
     "excerpt": "Hodinový stroj byl sestaven ze zachráněných kol stroje věžních hodin. Původní rám se nezachoval, soukolí jicího stroje bylo namontováno do nově zhotovené konstrukce. Stroj má Grahamův krok, pohon závažím.",
     "year": 1881,
     "lastModified": null,
-    "imageCount": 2,
-    "wordCount": 213,
+    "imageCount": 4,
+    "wordCount": 250,
     "vyrobce": "Johann Lissner",
     "tags": [
       "hlavni-sal",
@@ -7386,8 +7544,8 @@
     "excerpt": "Hodiny jsou prací hodináře, zřejmě seznámeného s výrobky pražského hodináře Londenspergera. Podle způsobu zpracování lze odhadovat dobu vzniku na první polovinu 19. století. Kovaný rám je spojován klínky, rovněž i spo…",
     "year": null,
     "lastModified": null,
-    "imageCount": 2,
-    "wordCount": 148,
+    "imageCount": 3,
+    "wordCount": 185,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7459,12 +7617,12 @@
     "title": "Věžní hodiny Lissner (Mikulášovice — škola)",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/067a-lissner.jpg",
     "excerpt": "Věžní hodiny pocházejí původně z budovy školy v Mikulášovicích. Jejich autorem je zřejmě místní hodinář Johan Lissner, který zde působil v druhé polovině 19. století.",
     "year": 1881,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 124,
+    "imageCount": 2,
+    "wordCount": 197,
     "vyrobce": "Johann Lissner",
     "tags": [
       "hlavni-sal",
@@ -7502,12 +7660,12 @@
     "title": "Věžní hodiny Mikulášovice",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/035a-mikulasovice.jpg",
     "excerpt": "Hodinový stroj věžních hodin byl vyroben známou firmou Mannhardt v Mnichově roku 1864.",
     "year": 1799,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 266,
+    "imageCount": 1,
+    "wordCount": 310,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7644,12 +7802,12 @@
     "title": "Věžní hodiny Skalice",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/032a-skalice.jpg",
     "excerpt": "O původu hodin byla nalezena zpráva v obecní kronice, podle které hodiny zakoupil farář Rathauský v roce 1882 od firmy Jan Prokeš Sobotka. Původ stroje potvrzuje obtížně čitelný nápis, nalezený při čištění konstrukce …",
     "year": 1852,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 122,
+    "imageCount": 2,
+    "wordCount": 171,
     "tags": [
       "hlavni-sal",
       "vezni",
@@ -7687,12 +7845,12 @@
     "title": "Věžní hodiny Thöndel 2",
     "category": "sbirka",
     "podsekce": "karta",
-    "thumbnail": null,
+    "thumbnail": "/img/vezni/036a-thondel-2.jpg",
     "excerpt": "Hodinový stroj věžních hodin byl vyroben firmou Thöndel v Uničově (Mährisch Neustadt) roku 1911 — jde o atypický kus v rámci Thöndelovy produkce, která jinak používala standardně Grahamův kotvový krok. Stroj je konstr…",
     "year": 1911,
     "lastModified": null,
-    "imageCount": 0,
-    "wordCount": 108,
+    "imageCount": 1,
+    "wordCount": 153,
     "vyrobce": "[Thöndel](/hodinari/thondel) (Uničov / Mährisch Neustadt)",
     "tags": [
       "hlavni-sal",
@@ -7771,11 +7929,11 @@
     "title": "Víceletý kalendář Orient",
     "category": "projekty",
     "thumbnail": "/img/Orient/orientceu07005wx_dial.jpg",
-    "excerpt": "Orient Watch Co., Ltd., japonský výrobce hodinek (o firmě), vyrábí víceleté kalendářní hodinky již mnoho let. Dávají vám okamžité odpovědi na otázky například „jaký je datum příštího pátku?”. Kalendář je založen na dá…",
+    "excerpt": "Orient Watch Co., Ltd., japonský výrobce hodinek, vyrábí víceleté kalendářní hodinky již mnoho let. Dávají vám okamžité odpovědi na otázky například „jaký je datum příštího pátku?”. Kalendář je založen na dávno známém…",
     "year": null,
     "lastModified": "2021-02-24T13:07:00.000Z",
     "imageCount": 2,
-    "wordCount": 789,
+    "wordCount": 787,
     "tags": [
       "naramkove",
       "mechanicke",
@@ -7791,7 +7949,7 @@
     "year": null,
     "lastModified": "2017-04-23T14:14:00.000Z",
     "imageCount": 35,
-    "wordCount": 77,
+    "wordCount": 804,
     "tags": [
       "vezni",
       "mechanicke",
@@ -7949,7 +8107,7 @@
     "year": null,
     "lastModified": "2017-04-23T20:06:00.000Z",
     "imageCount": 1,
-    "wordCount": 690
+    "wordCount": 693
   },
   {
     "slug": "gobelin",
@@ -8226,7 +8384,7 @@
     "year": null,
     "lastModified": "2017-04-23T15:56:00.000Z",
     "imageCount": 6,
-    "wordCount": 721
+    "wordCount": 723
   },
   {
     "slug": "inv-P404-zz42",
@@ -8246,10 +8404,10 @@
   },
   {
     "slug": "pneumatika",
-    "title": "Žárovkový kompresor  aneb natahování a řízení pneumatikou.",
+    "title": "Žárovkový kompresor aneb natahování a řízení pneumatikou.",
     "category": "konstrukce",
     "thumbnail": null,
-    "excerpt": "Princip řízení podružných hodin stlačeným vzduchem je poměrně jednoduchý. Žárovkový kompresor  je zapnut kontaktem aktivovaným hlavními hodinami v minutových intervalech. Žhavicí vlákno ohřívá vzduch ve skleněné žárov…",
+    "excerpt": "Princip řízení podružných hodin stlačeným vzduchem je poměrně jednoduchý. Žárovkový kompresor je zapnut kontaktem aktivovaným hlavními hodinami v minutových intervalech. Žhavicí vlákno ohřívá vzduch ve skleněné žárovc…",
     "year": null,
     "lastModified": "2022-05-11T09:48:00.000Z",
     "imageCount": 2,
