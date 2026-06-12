@@ -31,13 +31,15 @@ originalUrl: https://hodinarium-eu.pages.dev/sbirka/katalog
 lastModified: null
 sourceCharset: utf-8
 scrapedAt: 2026-04-30T04:12:37.526Z
-thumbnail: /img/decin/ElektrocasVK1/foto_0001.jpg
+thumbnail: /img/sbirka/A050-vh1-krokovy-motor.jpg
 ---
 
-![Podružné věžní hodiny VH1 Elektročas — celkový pohled](/img/decin/ElektrocasVK1/foto_0001.jpg)
+::photo{src="/img/sbirka/A050-vh1-krokovy-motor.jpg" alt="Podružné věžní hodiny VH1 Elektročas v Hodináriu Děčín — miniaturní podružný strojek s krokovým motorkem pro pohon ruček" class="img-standalone" author="Mirek Baudisch"}
 
 Miniaturní stroj věžních hodin (hmotnost pouhých 18 kg) je výrobkem firmy Elektročas. Do sbírky se dostal v roce 2017. Je řízen polarizovanými [impulzy](/slovnik/impulsy) 24 V od matičních hodin. Tyto impulzy přijímá běžný podružný strojek, který pootáčí diferenciálním [soukolím](/slovnik/soukoli), a tím je vyslán impulz pro elektromotor ovládající ručky.
 
 Na každé straně [soukolí](/slovnik/soukoli) je kolo s výřezem, takže pokud přicházejí jen řídící impulzy, kola se proti sobě pootočí a palec, který do výřezů zapadal, se nadzvedne. Tím se sepne kontakt pro motor, který po obnovení přívodu elektrického proudu natočí ručky do správné polohy. Po natočení ruček na správný čas se kola postaví proti sobě výřezy, do nichž palec zapadne a obvod se přeruší. Tento mechanismus dovede eliminovat až dvanáctihodinový výpadek napájení motorku.
+
+::photo{src="/img/sbirka/A050-vh1-spousteni.jpg" alt="Podružný stroj VH1 Elektročas — detail strany spouštění s diferenciálním soukolím a kontaktem pro elektromotor ovládající ručky" class="img-standalone" author="Mirek Baudisch"}
 
 Podrobný popis principu vypouštěných strojů Elektročas i příbuzných exemplářů v expozici je v článku [Chodový podružný věžní stroj Elektročas vypouštěný impulzy](/konstrukce/decin-vypousteny).

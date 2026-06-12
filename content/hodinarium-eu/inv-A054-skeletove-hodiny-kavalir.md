@@ -20,7 +20,10 @@ karta:
   majitel: "zápůjčka"
   vztahKeSbirce: "zápůjčka"
   stav: "funkční"
+thumbnail: '/img/sbirka/A054-skeletove.jpg'
 ---
+
+::photo{src="/img/sbirka/A054-skeletove.jpg" alt="Skeletové hodiny Kavalír na zdi Hodinária Děčín — kruhový kostrový ciferník z nerezové oceli s odkrytým soukolím a římskými číslicemi po obvodu, zlaté ručky, pod ním kyvadlo s válcovou čočkou zavěšené na tenkém vlákně" class="img-standalone" author="Mirek Baudisch"}
 
 Skeletové kyvadlové hodiny **CHRONO** z nerezové oceli. Výrobce [Ing. Jaroslav Kavalír](/hodinari/jaroslav-kavalir), design Pavel Hrubý. Konstrukce záměrně podtrhuje viditelnou jednoduchost mechanismu a eleganci použitého materiálu.
 

@@ -35,6 +35,11 @@ karta:
   rokVyroby: "1882"
   krokJicihoStroje: "kotvový krok"
   biciStroje: "hodinové"
+thumbnail: '/img/vezni/032a-skalice.jpg'
 ---
 
+::photo{src="/img/vezni/032a-skalice.jpg" alt="Věžní hodiny Skalice (Jan Prokeš, 1882) v Hodináriu Děčín — věžní stroj s železným kovaným rámem, mosaznými koly a Robertovým kotvovým krokem" class="img-standalone" author="Mirek Baudisch"}
+
 O původu hodin byla nalezena zpráva v obecní kronice, podle které hodiny zakoupil farář Rathauský v roce 1882 od firmy [Jan Prokeš](/hodinari/jan-prokes) Sobotka. Původ stroje potvrzuje obtížně čitelný nápis, nalezený při čištění konstrukce rámu. Stroj věžních hodin má rám složený ze železných kovaných pásů, spojených maticemi. Sestává se ze tří funkčních celků: soukolí hodinového, bití čtvrtí a bití celých hodin. Má **[Robertův krok](/kroky/robertuv-krok)** — klidový kotvový krok s kolíčkovým krokovým kolem podle francouzského patentu Adolphe Roberta ze Sancerre z roku 1852. Tento krok je pro Jana Prokeše typický, v expozici je již třetí stroj s tímto krokem. Zajímavé rovněž je, že spouštění bití je bez náběhu, což se objevuje i u jiných Prokešových strojů, rovněž typický je i tvar početníku čtvrťového bití.
+
+::photo{src="/img/vezni/032b-skalice.jpg" alt="Detail věžních hodin Skalice — kovaný železný rám spojený maticemi, soukolí hodinové i bicí, kolíčkové krokové kolo Robertova kroku" class="img-standalone" author="Mirek Baudisch"}
