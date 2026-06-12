@@ -7,15 +7,19 @@ originalUrl: "https://hodinarium-eu.pages.dev/sbirka/katalog"
 lastModified: null
 sourceCharset: "utf-8"
 scrapedAt: "2026-05-21T00:00:00.000Z"
-manualEdit: false
+manualEdit: true
 author: "Český spolek horologický"
 tags:
   - vitrina-1-hlavni
+  - slunecni
 karta:
   inventarniCislo: "A72"
   umisteni: "Vitrína 1 (Sál věžních hodin)"
+thumbnail: '/img/sbirka/A72-A73-prenosne.jpg'
 ---
 
-## Stub karty
+::photo{src="/img/sbirka/A72-A73-prenosne.jpg" alt="Přenosné sluneční hodiny ze sbírky Hodinária Děčín — dvojice malých cestovních (přenosných) slunečních hodin vystavená společně" class="img-standalone" author="Zdeňka Baudischová"}
 
-Karta vygenerovaná ze Soupisu exponátů 260519. Doplňte ručně.
+**Přenosné (cestovní) sluneční hodiny** — vystaveny společně s [druhým kusem A73](/sbirka/karta/inv-A73-slunecni-hodiny-prenosne-2/).
+
+*Foto Zdeňka Baudischová, sbírka Hodinária Děčín (Český spolek horologický).*
