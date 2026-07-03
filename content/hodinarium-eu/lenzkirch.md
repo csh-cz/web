@@ -36,7 +36,7 @@ Hodiny z Lenzkirchu, technicky zajímavé i pěkné na pohled, dosáhly na celé
 
 Hodiny většinou zachovávaly tradiční design, který ukazujeme na skupinové fotografii převzaté ze serveru Beacham´s Clock Company. V Lenzkirchu se vyráběl rozmanitý sortiment hodin. Na našich stránkách se zaměříme na design používaný koncem 19. století.
 
-Zpodkladů v odkazech přebíráme tabulku výrobních čísel, která by měla pomoci při datování hodin. Zpracováno původně dle tránek [Na Lenzkirch Story](http://www.clockguy.com/SiteRelated/SiteReferencePages/LenzkirchHistory.html) Na stránkách [Lenzkirch clock](http://www.lenzkirchclocks.com/lenzkirch-serial-numbers.shtml) je ale uvedeno jiné, podrobnější a zároveň dost odlišné přiřazení let k výrobním číslům. Že by to byla příslovečná německá přesnost? Uvedeny oba údaje.
+Zpodkladů v odkazech přebíráme tabulku výrobních čísel, která by měla pomoci při datování hodin. Zpracováno původně dle stránek Na Lenzkirch Story (server clockguy.com, dnes již nedostupný). Na stránkách [Lenzkirch clock](http://www.lenzkirchclocks.com/lenzkirch-serial-numbers.shtml) je ale uvedeno jiné, podrobnější a zároveň dost odlišné přiřazení let k výrobním číslům. Že by to byla příslovečná německá přesnost? Uvedeny oba údaje.
 
 **Rok výroby**
 
@@ -105,7 +105,6 @@ Rok výroby kolem roku 1895, rozměry 52 x 25 x 15
 **Odkazy:**
 
 - [**Lenzkirch clock**](http://www.lenzkirchclocks.com/)Rozsáhlé stránky **Lenzkirch Clock Community** s galerií, historií, výrobními značkami a mnoha dalšími informacemi.
-- **[Na Lenzkirch Story](http://www.clockguy.com/SiteRelated/SiteReferencePages/LenzkirchHistory.html)**
 - **showroom** na stránkách Beacham´s Clock Company
     \- Lenzkirch - The Rolls-Royce of the Black Forest Clockmakers
 - **wikipedia**

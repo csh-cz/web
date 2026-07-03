@@ -71,7 +71,7 @@ Několik podobných "malých" projektů najdeme i u sousedů v Německu či Rako
 Toto muzeum mělo ještě nedávno velice působivou internetovou prezentaci včetně virtuální procházky po expozici. V roce 2006 vypukl v kostele požár a muzeum bylo uzavřeno. Muzeum však snad dále existuje, jen asi nemá vlastní prezentaci.
 Nalezené odkazy:
 
-[www.mojeurlopy.pl/gdansk/atrakcje-turystyczne/1906](http://www.mojeurlopy.pl/gdansk/atrakcje-turystyczne/1906)
+[www.mojeurlopy.pl/gdansk/atrakcje-turystyczne/1906](https://web.archive.org/web/20180927230843/http://www.mojeurlopy.pl/gdansk/atrakcje-turystyczne/1906)
 [trojmiasto.tv/Muzeum-Zegarow-Wiezowych-5893.html](https://trojmiasto.tv/Muzeum-Zegarow-Wiezowych-5893.html)
 [pl.wikipedia.org/wiki/Muzeum\_Zegar%C3%B3w\_Wie%C5%BCowych](https://pl.wikipedia.org/wiki/Muzeum_Zegar%C3%B3w_Wie%C5%BCowych)
 
