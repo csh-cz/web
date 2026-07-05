@@ -59,6 +59,31 @@ katalogu NPÚ **dochovaný funkční stroj na půdě** a ciferník ve štítu;
 přestavba budovy 1895–97 časově sedí na dodávku. Výrobce v katalogu není
 jmenován — vhodný cíl pro ověření signatury „L. Hainz" na stroji.
 
+## Dochované stroje jako muzejní exponáty
+
+- **Krupka** (radnice) — původní stroj věžních hodin je vystaven na hradě Krupka.
+- **Železný Brod** (radnice) — věžní stroj z konce 19. století k vidění ve věži; ciferník z původní dřevěné radnice v muzeu Běliště.
+- **Třeboň** (radnice, věž „Ferdinandka") — starý mechanický stroj dochován ve věži (funkční, mimo provoz); čas dnes ukazují elektrické hodiny.
+- **Sanok** (radnice) — původní stroj (spuštěný 1906) po výměně 2007 zachován jako exponát (místo uložení nedohledáno).
+
+## Radnice s funkčními věžními hodinami (bez potvrzené atribuce)
+
+Náchod (novorenesanční hodinová věž), Domažlice (radnice 1893, stroj v nárožní
+věži — chronologicky odpovídá), Mnichovo Hradiště, Nový Bydžov, Stod —
+věžní hodiny existují, konkrétní doklad Hainzova stroje se nepodařilo dohledat.
+U Tábora pozor: hodiny na staré radnici (dnes Husitské muzeum) jsou historické
+(přeneseny 1656) + táborský orloj, nejde o Hainzovu dodávku.
+
+## Nádraží
+
+Staniční hodiny byly zpravidla nahrazeny elektronickými podružnými hodinami
+ČD — dochování původního mechanického stroje z ~1904 je u nádraží výjimečné.
+Doložené případy: **Praha hlavní nádraží** — staré nádraží přestavěno na
+Fantovu budovu (1901–09), takže hodiny z 1904 zanikly; L. Hainz osadil nové
+elektrické hodiny do Fantovy kavárny 2017. **Moldava v Krušných horách** —
+staniční budova je kulturní památka (od 1998, moldavská horská dráha), dnes
+železniční muzeum.
+
 ## Zaniklé instalace
 
 - **Zahrádka u Petrovic (zámek)** — budova se 2007 zřítila.
