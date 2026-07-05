@@ -1,0 +1,492 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '@csh/ui/components/Breadcrumbs.astro';
+import { hainz1904, hainzNeurceno } from '../data/hainz1904';
+
+// Kategorie: pořadí, popisky, barvy pinů
+const KATEGORIE: Record<string, { label: string; barva: string }> = {
+  sakralni:   { label: 'Kostely a sakrální stavby', barva: '#d4b13d' },
+  radnice:    { label: 'Radnice',                   barva: '#c0563f' },
+  zamek:      { label: 'Zámky',                     barva: '#a678b8' },
+  skola:      { label: 'Školy',                     barva: '#5b9bd5' },
+  nadrazi:    { label: 'Nádraží',                   barva: '#4fae8f' },
+  prumysl:    { label: 'Továrny a průmysl',         barva: '#97a05a' },
+  kandelabr:  { label: 'Kandelábry a pouliční hodiny', barva: '#e6d47a' },
+  zdymadlo:   { label: 'Vltavská kanalizace',       barva: '#58b8cc' },
+  instituce:  { label: 'Instituce a úřady',         barva: '#cf8fb0' },
+  zastoupeni: { label: 'Obchodní zastoupení',       barva: '#8d8d8d' },
+  ostatni:    { label: 'Ostatní',                   barva: '#b5a58f' },
+};
+
+const ZEME_NAZVY: Record<string, string> = {
+  CZ: 'Česko', PL: 'Polsko', UA: 'Ukrajina', SK: 'Slovensko', HU: 'Maďarsko',
+  AT: 'Rakousko', HR: 'Chorvatsko', RS: 'Srbsko', BA: 'Bosna a Hercegovina',
+  SI: 'Slovinsko', IT: 'Itálie', RO: 'Rumunsko', BG: 'Bulharsko', RU: 'Rusko',
+};
+
+const pocetHodin = hainz1904.reduce((s, z) => s + z.pocet, 0);
+const pocetElektro = hainz1904.filter((z) => z.elektro).length;
+const pocetBudova = hainz1904.filter((z) => z.presnost === 'budova').length;
+
+const katStat = Object.keys(KATEGORIE)
+  .map((k) => ({ k, ...KATEGORIE[k], n: hainz1904.filter((z) => z.kategorie === k).length }))
+  .filter((x) => x.n > 0);
+
+const zemeStat = Object.entries(
+  hainz1904.reduce((acc: Record<string, number>, z) => {
+    acc[z.zeme] = (acc[z.zeme] || 0) + z.pocet;
+    return acc;
+  }, {})
+).sort((a, b) => b[1] - a[1]);
+
+// seznam pod mapou: CZ podle okresu, zahraničí podle země
+const zahranici = [...new Set(hainz1904.filter((z) => z.zeme !== 'CZ').map((z) => z.zeme))]
+  .sort((a, b) => (ZEME_NAZVY[a] || a).localeCompare(ZEME_NAZVY[b] || b, 'cs'));
+const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => z.misto))]
+  .sort((a, b) => a.localeCompare(b, 'cs'));
+---
+<Base
+  title="Hodiny firmy Hainz do roku 1904 — mapa"
+  description={`Interaktivní mapa ${hainz1904.length} instalací věžních a veřejných hodin pražské firmy Ludwig Hainz podle firemního seznamu z roku 1904 — od Prahy přes Halič po Split a Sant’Elpidio a Mare.`}
+>
+  <Breadcrumbs trail={[
+    { href: '/', label: 'Hodinárium' },
+    { href: '/virtualni-muzeum', label: 'Virtuální muzeum' },
+    { label: 'Hainz 1904 — mapa' },
+  ]} />
+
+  <header class="max-w-3xl mb-10">
+    <p class="eyebrow mb-4">Firemní seznam z roku 1904</p>
+    <h1 class="hero-title mb-5 hero-title-sm">Kam všude dodala firma Hainz hodiny</h1>
+    <p class="text-[var(--color-text)] leading-relaxed">
+      Pražská továrna <a href="/hodinari/l-hainz"><strong>Ludwig Hainz</strong></a> vydala
+      počátkem roku 1905 leták se seznamem všech míst, kam do konce roku 1904 dodala
+      věžní nebo jiné veřejné hodiny — <strong
+      class="text-[var(--color-brass-bright)]">{pocetHodin} hodin</strong> na
+      <strong class="text-[var(--color-brass-bright)]">{hainz1904.length} místech</strong> od
+      Petrohradu… vlastně od ruských Klinců přes Halič, Vídeň a Budapešť po Split
+      a italské Sant’Elpidio a Mare. Každou položku jsme identifikovali a zanesli
+      do mapy. Souvislosti popisuje <a href="/virtualni-muzeum/hainz-seznam-1904">doprovodný
+      článek</a>.
+    </p>
+    <p class="text-[var(--color-text-soft)] leading-relaxed mt-3 intro-text">
+      {pocetBudova} pinů míří na konkrétní budovu (kostel, radnici, zámek či nádraží),
+      ostatní na střed obce. Položky s otazníkem v popisku mají nejistou identifikaci.
+      Zvlášť jsou vyznačeny elektrické hodinové systémy ({pocetElektro} instalací) —
+      na svou dobu žhavá novinka.
+    </p>
+  </header>
+
+  <!-- ═══ FILTRY ═══ -->
+  <section class="mb-4" aria-label="Filtry mapy">
+    <div class="hainz-filtry" id="hainz-filtry">
+      {katStat.map((k) => (
+        <label class="hainz-filtr" style={`--pin-barva: ${k.barva}`}>
+          <input type="checkbox" checked data-kat={k.k} />
+          <span class="hainz-filtr-tecka" aria-hidden="true"></span>
+          {k.label} <span class="hainz-filtr-n">{k.n}</span>
+        </label>
+      ))}
+      <button type="button" id="hainz-filtr-vse" class="hainz-filtr-btn">vše</button>
+      <button type="button" id="hainz-filtr-nic" class="hainz-filtr-btn">nic</button>
+    </div>
+  </section>
+
+  <div id="hainz-mapa" class="mapa-canvas" role="region" aria-label="Mapa instalací hodin firmy Hainz do roku 1904"></div>
+
+  <p class="text-sm text-[var(--color-text-muted)] mt-2 mb-12">
+    Podklad © přispěvatelé OpenStreetMap. Poloha pinů: {pocetBudova}× budova, zbytek střed obce.
+  </p>
+
+  <!-- ═══ STATISTIKY ═══ -->
+  <section class="mb-14">
+    <h2 class="text-3xl mb-5 h2-flush">Čísla ze seznamu</h2>
+    <div class="hainz-stat-grid">
+      <div>
+        <h3 class="lokace-list-h">Podle typu objektu</h3>
+        <ul class="hainz-stat-list">
+          {katStat.map((k) => (
+            <li>
+              <span class="hainz-filtr-tecka" style={`--pin-barva: ${k.barva}`} aria-hidden="true"></span>
+              {k.label}
+              <strong>{k.n}</strong>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <h3 class="lokace-list-h">Podle dnešních zemí (počet hodin)</h3>
+        <ul class="hainz-stat-list">
+          {zemeStat.map(([cc, n]) => (
+            <li>{ZEME_NAZVY[cc] || cc} <strong>{n}</strong></li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SEZNAM LOKALIT ═══ -->
+  <section class="mb-14">
+    <h2 class="text-3xl mb-5 h2-flush">Rejstřík lokalit</h2>
+    <h3 class="lokace-list-h">Česko — {mistaCZ.length} míst</h3>
+    <ul class="lokace-list mb-8">
+      {mistaCZ.map((m) => {
+        const zaznamy = hainz1904.filter((z) => z.zeme === 'CZ' && z.misto === m);
+        const nejiste = zaznamy.some((z) => z.nejiste);
+        return (
+          <li class="text-[var(--color-text-soft)]">
+            <strong class="text-[var(--color-text)]">{m}</strong>{nejiste && ' (?)'} —
+            {' '}{zaznamy.map((z) => z.objekt).join(', ')}
+          </li>
+        );
+      })}
+    </ul>
+    <h3 class="lokace-list-h">Za dnešními hranicemi</h3>
+    <ul class="lokace-list">
+      {zahranici.map((cc) => {
+        const mista = [...new Set(hainz1904.filter((z) => z.zeme === cc).map((z) => z.misto))]
+          .sort((a, b) => a.localeCompare(b, 'cs'));
+        return (
+          <li class="text-[var(--color-text-soft)]">
+            <strong class="text-[var(--color-text)]">{ZEME_NAZVY[cc] || cc}:</strong>
+            {' '}{mista.join(', ')}
+          </li>
+        );
+      })}
+    </ul>
+  </section>
+
+  <!-- ═══ NEURČENO ═══ -->
+  <section class="mb-14 max-w-3xl">
+    <h2 class="text-3xl mb-5 h2-flush">Co se nepodařilo určit</h2>
+    <p class="text-[var(--color-text-soft)] leading-relaxed mb-4">
+      Dvě položky seznamu se zatím nepodařilo jednoznačně lokalizovat — jde
+      o jména, která v Čechách nese příliš mnoho obcí. Pokud poznáte, o kterou
+      jde, <a href="mailto:info@orloj.eu">napište nám</a>.
+    </p>
+    <ul class="lokace-list">
+      {hainzNeurceno.map((n) => (
+        <li class="text-[var(--color-text-soft)]">
+          <strong class="text-[var(--color-text)]"><em>{n.original}</em></strong> — {n.pozn}
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <!-- ═══ ZDROJ ═══ -->
+  <section class="max-w-3xl mb-8">
+    <h2 class="text-3xl mb-5 h2-flush">Pramen</h2>
+    <p class="text-[var(--color-text-soft)] leading-relaxed">
+      <em>Ortsverzeichnis der bis Ende 1904 zur Aufstellung gebrachten Turm- oder
+      sonstigen öffentlichen Uhren.</em> Praha: Ludwig Hainz, Uhrenfabrik in Prag,
+      Altstädter Ring No. 483, [1905]. Tisk Alois Wiesner, Praha. Sken poskytnut
+      z archivu firmy L. Hainz. Přepis, identifikace lokalit a mapové zpracování:
+      Český spolek horologický, 2026. Podrobnosti o letáku i firmě najdete
+      v <a href="/virtualni-muzeum/hainz-seznam-1904">doprovodném článku</a>
+      a v <a href="/hodinari/l-hainz">medailonu firmy</a>.
+    </p>
+  </section>
+</Base>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script is:inline src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+<script is:inline define:vars={{ zaznamy: hainz1904, kategorie: KATEGORIE, zemeNazvy: ZEME_NAZVY }}>
+  function popupHtml(z) {
+    const nejiste = z.nejiste ? ' <span title="nejistá identifikace">(?)</span>' : '';
+    const okres = z.okres && z.okres !== 'Praha' ? `, okres ${z.okres}` : '';
+    const zeme = z.zeme !== 'CZ' ? ` (${zemeNazvy[z.zeme] || z.zeme})` : '';
+    const elektro = z.elektro ? '<p><strong>⚡ elektrická hodinová instalace</strong></p>' : '';
+    const presnost = z.presnost === 'budova'
+      ? '<p class="popup-meta">pin: konkrétní budova (OSM)</p>'
+      : '<p class="popup-meta">pin: střed obce</p>';
+    const pozn = z.pozn ? `<p class="popup-meta">${z.pozn}</p>` : '';
+    return `<p class="popup-title"><strong>${z.misto}</strong>${nejiste}${zeme}</p>` +
+      `<p>${z.objekt}${z.pocet > 1 ? ` — ${z.pocet} ks` : ''}${okres}</p>` +
+      elektro +
+      `<p class="popup-original">„${z.original}"</p>` +
+      pozn + presnost;
+  }
+
+  // Init až po DOMContentLoaded — v dev módu se scoped styly načítají jako
+  // module (deferred); okamžitý běh by inicializoval Leaflet nad kontejnerem
+  // s nulovou výškou a markercluster by nevykreslil nic.
+  function initHainzMapa() {
+
+  // @ts-expect-error Leaflet z CDN
+  const mapa = L.map('hainz-mapa', { zoomControl: true, scrollWheelZoom: false })
+    .setView([49.7, 15.5], 7);
+  // @ts-expect-error
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap přispěvatelé',
+    maxZoom: 18,
+  }).addTo(mapa);
+  window.addEventListener('load', () => mapa.invalidateSize());
+
+  // @ts-expect-error markercluster z CDN
+  const cluster = L.markerClusterGroup({
+    maxClusterRadius: 42,
+    showCoverageOnHover: false,
+    spiderfyOnMaxZoom: true,
+  });
+  mapa.addLayer(cluster);
+
+  const vsechnyMarkery = zaznamy.map((z) => {
+    const classes = ['hainz-pin', `kat-${z.kategorie}`];
+    if (z.elektro) classes.push('elektro');
+    if (z.nejiste) classes.push('nejiste');
+    // @ts-expect-error
+    const icon = L.divIcon({ className: classes.join(' '), html: '', iconSize: [12, 12] });
+    // @ts-expect-error
+    const m = L.marker([z.lat, z.lon], { icon, title: `${z.misto} — ${z.objekt}` });
+    m.bindPopup(popupHtml(z));
+    return { kat: z.kategorie, marker: m };
+  });
+
+  function prekresli() {
+    const zapnute = new Set(
+      [...document.querySelectorAll('#hainz-filtry input[data-kat]:checked')]
+        .map((el) => el.dataset.kat)
+    );
+    cluster.clearLayers();
+    for (const { kat, marker } of vsechnyMarkery) {
+      if (zapnute.has(kat)) cluster.addLayer(marker);
+    }
+  }
+  document.querySelectorAll('#hainz-filtry input[data-kat]').forEach((el) =>
+    el.addEventListener('change', prekresli)
+  );
+  document.getElementById('hainz-filtr-vse').addEventListener('click', () => {
+    document.querySelectorAll('#hainz-filtry input[data-kat]').forEach((el) => { el.checked = true; });
+    prekresli();
+  });
+  document.getElementById('hainz-filtr-nic').addEventListener('click', () => {
+    document.querySelectorAll('#hainz-filtry input[data-kat]').forEach((el) => { el.checked = false; });
+    prekresli();
+  });
+  prekresli();
+
+  } // initHainzMapa
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initHainzMapa);
+  } else {
+    initHainzMapa();
+  }
+</script>
+
+<style define:vars={{}}>
+  .mapa-canvas {
+    width: 100%;
+    height: 65vh;
+    min-height: 460px;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    box-shadow:
+      inset 0 1px 0 color-mix(in srgb, var(--color-brass) 12%, transparent),
+      0 4px 16px rgba(0, 0, 0, 0.4);
+    background: var(--color-bg-deep);
+  }
+
+  .hainz-filtry {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.6rem;
+    align-items: center;
+  }
+  .hainz-filtr {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.82rem;
+    color: var(--color-text-soft);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 22%, transparent);
+    border-radius: 999px;
+    padding: 0.15rem 0.6rem 0.15rem 0.4rem;
+    cursor: pointer;
+    user-select: none;
+    background: color-mix(in srgb, var(--color-bg-elevated) 60%, transparent);
+  }
+  .hainz-filtr:has(input:not(:checked)) {
+    opacity: 0.45;
+  }
+  .hainz-filtr input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .hainz-filtr-tecka {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--pin-barva, var(--color-brass));
+    display: inline-block;
+    flex: none;
+  }
+  .hainz-filtr-n {
+    color: var(--color-text-muted);
+    font-size: 0.75rem;
+  }
+  .hainz-filtr-btn {
+    font-size: 0.75rem;
+    color: var(--color-brass-bright);
+    background: none;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 999px;
+    padding: 0.15rem 0.7rem;
+    cursor: pointer;
+  }
+
+  .hainz-stat-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  @media (min-width: 700px) {
+    .hainz-stat-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .hainz-stat-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    color: var(--color-text-soft);
+  }
+  .hainz-stat-list li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.45rem;
+  }
+  .hainz-stat-list li strong {
+    margin-left: auto;
+    color: var(--color-brass-bright);
+    font-variant-numeric: tabular-nums;
+  }
+  .hainz-stat-list .hainz-filtr-tecka {
+    align-self: center;
+  }
+
+  .lokace-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+  }
+  @media (min-width: 600px) {
+    .lokace-list {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.4rem 1.5rem;
+    }
+  }
+  .lokace-list-h {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--color-brass-bright);
+    margin: 0 0 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-brass) 18%, transparent);
+  }
+
+  /* Sépiový vzhled Leaflet vrstvy (shodné s /mapa) */
+  :global(.leaflet-container) {
+    background: var(--color-bg-deep) !important;
+    font-family: var(--font-serif) !important;
+  }
+  :global(.leaflet-tile) {
+    filter: sepia(0.5) saturate(0.7) brightness(0.85) contrast(1.05);
+  }
+  :global(.leaflet-popup-content-wrapper) {
+    background: var(--color-bg-elevated);
+    color: var(--color-text);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+    border-radius: 2px;
+    font-family: var(--font-serif);
+  }
+  :global(.leaflet-popup-tip) {
+    background: var(--color-bg-elevated);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+  }
+  :global(.leaflet-popup-content a) { color: var(--color-brass-bright); }
+  :global(.leaflet-popup-content .popup-title),
+  :global(.leaflet-popup-content .popup-title strong) {
+    font-family: var(--font-serif);
+    color: var(--color-brass-bright);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0 0.25em;
+    display: block;
+  }
+  :global(.leaflet-popup-content p) {
+    margin: 0 0 0.2em;
+    color: var(--color-text-soft);
+    font-size: 0.85rem;
+  }
+  :global(.leaflet-popup-content .popup-original) {
+    font-style: italic;
+    color: var(--color-text-muted);
+  }
+  :global(.leaflet-popup-content .popup-meta) {
+    font-size: 0.72rem;
+    color: var(--color-text-muted);
+  }
+  :global(.leaflet-control-attribution) {
+    background: rgba(20, 16, 12, 0.7) !important;
+    color: var(--color-text-muted) !important;
+    font-size: 0.7rem !important;
+  }
+  :global(.leaflet-control-attribution a) { color: var(--color-brass) !important; }
+  :global(.leaflet-control-zoom a) {
+    background: var(--color-bg-elevated) !important;
+    color: var(--color-brass-bright) !important;
+    border-color: color-mix(in srgb, var(--color-brass) 30%, transparent) !important;
+  }
+
+  /* Piny podle kategorie */
+  :global(.leaflet-marker-icon.hainz-pin) {
+    border: 1.5px solid var(--color-bg);
+    border-radius: 50%;
+    width: 12px !important;
+    height: 12px !important;
+    margin-left: -6px !important;
+    margin-top: -6px !important;
+    box-shadow: 0 0 0 1.5px rgba(0, 0, 0, 0.35);
+  }
+  :global(.hainz-pin.kat-sakralni)   { background: #d4b13d; }
+  :global(.hainz-pin.kat-radnice)    { background: #c0563f; }
+  :global(.hainz-pin.kat-zamek)      { background: #a678b8; }
+  :global(.hainz-pin.kat-skola)      { background: #5b9bd5; }
+  :global(.hainz-pin.kat-nadrazi)    { background: #4fae8f; }
+  :global(.hainz-pin.kat-prumysl)    { background: #97a05a; }
+  :global(.hainz-pin.kat-kandelabr)  { background: #e6d47a; }
+  :global(.hainz-pin.kat-zdymadlo)   { background: #58b8cc; }
+  :global(.hainz-pin.kat-instituce)  { background: #cf8fb0; }
+  :global(.hainz-pin.kat-zastoupeni) { background: #8d8d8d; }
+  :global(.hainz-pin.kat-ostatni)    { background: #b5a58f; }
+  :global(.hainz-pin.elektro) {
+    box-shadow: 0 0 0 2.5px #7ec8e3;
+  }
+  :global(.hainz-pin.nejiste) {
+    opacity: 0.55;
+    border-style: dashed;
+  }
+
+  /* Cluster bubliny v tématu webu */
+  :global(.marker-cluster) {
+    background: color-mix(in srgb, var(--color-brass) 30%, transparent) !important;
+  }
+  :global(.marker-cluster div) {
+    background: color-mix(in srgb, var(--color-brass) 75%, #3a2f1d) !important;
+    color: var(--color-bg) !important;
+    font-family: var(--font-serif) !important;
+    font-weight: 600;
+  }
+</style>
