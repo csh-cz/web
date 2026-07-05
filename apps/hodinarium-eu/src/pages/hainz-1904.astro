@@ -120,6 +120,13 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     <li><span class="ring-swatch"></span> barva výplně = typ objektu (viz filtry výše)</li>
   </ul>
 
+  <p id="hainz-ru-legenda" class="hainz-ru-legenda" hidden>
+    Barva výplně rozlišuje dvě poloviny monarchie:
+    <span class="ru-half ru-predlit">Předlitavsko</span> (rakouská část),
+    <span class="ru-half ru-zalit">Zalitavsko</span> (země uherské koruny) a
+    <span class="ru-half ru-kondo">Bosna a Hercegovina</span> (společné kondominium).
+  </p>
+
   <p class="text-sm text-[var(--color-text-muted)] mt-2 mb-12">
     Podklad: © přispěvatelé OpenStreetMap (ODbL), dlaždice OpenFreeMap.
     Historické hranice (stav 1910): HistoGIS, ACDH-ÖAW, CC BY 4.0.
@@ -481,12 +488,30 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     ]);
     // @ts-expect-error Leaflet z CDN
     const g = L.layerGroup();
-    // korunní země — tenká čárkovaná linka, decentní zlatavý nádech výplně
+    // korunní země obarvené podle poloviny monarchie: Předlitavsko (rakouská
+    // část) zlatě, Zalitavsko (uherská koruna sv. Štěpána) červeně, Bosna a
+    // Hercegovina (společné kondominium) olivově.
+    const ZALITAVSKO = new Set([
+      'Königreich Ungarn',
+      'Königreich Kroatien und Slawonien',
+      'Freie Stadt Fiume mit Gebiet',
+    ]);
+    const KONDOMINIUM = new Set(['Bosnien und Herzegowina']);
+    const RU_STYL = {
+      predlitavsko: { fillColor: '#c9a227', color: '#9c7a4f' },
+      zalitavsko:   { fillColor: '#b5654a', color: '#8a4a30' },
+      kondominium:  { fillColor: '#7c8a6a', color: '#5f6b4f' },
+    };
+    const polovinaRU = (name) =>
+      KONDOMINIUM.has(name) ? 'kondominium' : ZALITAVSKO.has(name) ? 'zalitavsko' : 'predlitavsko';
     // @ts-expect-error
     L.geoJSON(zeme, {
       pane: 'hranice-ru',
-      style: { color: '#9c7a4f', weight: 1, opacity: 0.65, dashArray: '4,3',
-               fillColor: '#c9a227', fillOpacity: 0.04 },
+      style: (f) => {
+        const s = RU_STYL[polovinaRU(f.properties && f.properties.name)];
+        return { color: s.color, weight: 1, opacity: 0.7, dashArray: '4,3',
+                 fillColor: s.fillColor, fillOpacity: 0.13 };
+      },
       onEachFeature: (f, layer) => {
         if (f.properties && f.properties.name) {
           layer.bindTooltip(f.properties.name, { sticky: true, direction: 'top', className: 'ru-tooltip' });
@@ -517,13 +542,16 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   }
 
   document.getElementById('hainz-vrstva-ru').addEventListener('change', async (ev) => {
+    const legenda = document.getElementById('hainz-ru-legenda');
     if (ev.target.checked) {
       if (!vrstvaRU) vrstvaRU = await nactiVrstvuRU();
       vrstvaRU.addTo(mapa);
       mapa.attributionControl.addAttribution(ATTR_RU);
+      if (legenda) legenda.hidden = false;
     } else if (vrstvaRU) {
       mapa.removeLayer(vrstvaRU);
       mapa.attributionControl.removeAttribution(ATTR_RU);
+      if (legenda) legenda.hidden = true;
     }
   });
 
@@ -584,6 +612,33 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   .ring-zlaty  { box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px #d9a521; }
   .ring-modry  { box-shadow: 0 0 0 2.5px #7ec8e3; }
   .ring-prerus { border-style: dashed; opacity: 0.6; }
+
+  /* Legenda dvou polovin monarchie (jen když je vrstva zapnutá) */
+  .hainz-ru-legenda {
+    margin: 0.75rem 0 0;
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+    line-height: 1.5;
+  }
+  .hainz-ru-legenda[hidden] { display: none; }
+  .ru-half {
+    white-space: nowrap;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+  .ru-half::before {
+    content: '';
+    display: inline-block;
+    width: 0.85em;
+    height: 0.85em;
+    margin-right: 0.35em;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    vertical-align: -0.08em;
+  }
+  .ru-predlit::before { background: #c9a227; }
+  .ru-zalit::before   { background: #b5654a; }
+  .ru-kondo::before   { background: #7c8a6a; }
 
   .hainz-filtry {
     display: flex;
