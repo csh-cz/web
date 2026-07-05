@@ -6,9 +6,8 @@ a (c) zda se dochoval **původní Hainzův stroj z doby kolem roku 1904**.
 
 Stav k 2026-07-05. Zdroje: firemní referenční seznam L. Hainz
 (lhainz.cz/reference), Wikipedia, Památkový katalog NPÚ, hrady.cz, weby
-zámků/měst, Povodí Vltavy. Zpracováno v první vlně pro **zámky, pražské
-instituce a vltavská zdymadla**; radnice, nádraží a mimopražské instituce
-zůstávají na druhé kolo.
+zámků/měst, Povodí Vltavy. Zpracováno pro **zámky, pražské instituce, vltavská zdymadla a mimopražské
+instituce/průmysl**; radnice a nádraží zůstávají na další kolo.
 
 ## Klíčový nález: firma L. Hainz dodnes servisuje řadu strojů
 
@@ -26,6 +25,8 @@ z letáku 1904** — pravděpodobná kontinuita původní dodávky:
 | **Praha — Průmyslový palác** | čtvrťový, 5/2006 | hodinová věž 51 m, po požáru 2008 obnovena 2024 |
 | **Praha-Smíchov — pivovar Staropramen** | čtvrťový, 4/2000 | |
 | **Praha — Staroměstská radnice** | 4× jdoucí, 4/2015 | Hainz je orlojníkem Pražského orloje |
+| **Kladno — nemocnice** | 7/2012 | Niederleho pavilon, hodiny ve věžičce nad kaplí |
+| **Benešov — MÚ** (bývalá radnice/hejtmanství) | 2/2009 | věž s bicími cimbály |
 
 ## Doložený Hainzův stroj — Štěnovice
 
@@ -33,6 +34,13 @@ z letáku 1904** — pravděpodobná kontinuita původní dodávky:
 věž a osadil do ní *„čtvrťový hodinový stroj firmy Hainz zakoupený na
 Jubilejní zemské výstavě v Praze 1891"*. Věž s hodinami dodnes stojí —
 jde o nejlépe doložený konkrétní Hainzův stroj z celého seznamu.
+
+## Nejnadějnější dochovaný stroj — Česká Kamenice
+
+Bývalá městská spořitelna (nám. Míru čp. 272) má podle Památkového
+katalogu NPÚ **dochovaný funkční stroj na půdě** a ciferník ve štítu;
+přestavba budovy 1895–97 časově sedí na dodávku. Výrobce v katalogu není
+jmenován — vhodný cíl pro ověření signatury „L. Hainz" na stroji.
 
 ## Zaniklé instalace
 
