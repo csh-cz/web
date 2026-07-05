@@ -105,6 +105,11 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     </div>
   </section>
 
+  <div id="hainz-vyber" class="hainz-vyber" hidden>
+    Zvýrazněno: <strong id="hainz-vyber-text"></strong>
+    <button type="button" id="hainz-vyber-zrus" aria-label="Zrušit zvýraznění">zrušit ✕</button>
+  </div>
+
   <div id="hainz-mapa" class="mapa-canvas" role="region" aria-label="Mapa instalací hodin firmy Hainz do roku 1904"></div>
 
   <p class="text-sm text-[var(--color-text-muted)] mt-2 mb-12">
@@ -116,12 +121,15 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   <!-- ═══ STATISTIKY ═══ -->
   <section class="mb-14">
     <h2 class="text-3xl mb-5 h2-flush">Čísla ze seznamu</h2>
+    <p class="text-sm text-[var(--color-text-muted)] mb-4">
+      Klepnutím na řádek zvýrazníte odpovídající místa na mapě.
+    </p>
     <div class="hainz-stat-grid">
       <div>
         <h3 class="lokace-list-h">Podle typu objektu</h3>
         <ul class="hainz-stat-list">
           {katStat.map((k) => (
-            <li>
+            <li class="hainz-stat-row" role="button" tabindex="0" data-dim="typ" data-val={k.k}>
               <span class="hainz-filtr-tecka" style={`--pin-barva: ${k.barva}`} aria-hidden="true"></span>
               {k.label}
               <strong>{k.n}</strong>
@@ -133,7 +141,9 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
         <h3 class="lokace-list-h">Podle dnešních zemí (počet hodin)</h3>
         <ul class="hainz-stat-list">
           {zemeStat.map(([cc, n]) => (
-            <li>{ZEME_NAZVY[cc] || cc} <strong>{n}</strong></li>
+            <li class="hainz-stat-row" role="button" tabindex="0" data-dim="zeme" data-val={cc}>
+              {ZEME_NAZVY[cc] || cc} <strong>{n}</strong>
+            </li>
           ))}
         </ul>
       </div>
@@ -141,7 +151,9 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
         <h3 class="lokace-list-h">Podle korunních zemí (stav 1904)</h3>
         <ul class="hainz-stat-list">
           {zeme1904Stat.map(([zeme, n]) => (
-            <li>{zeme} <strong>{n}</strong></li>
+            <li class="hainz-stat-row" role="button" tabindex="0" data-dim="zeme1904" data-val={zeme}>
+              {zeme} <strong>{n}</strong>
+            </li>
           ))}
         </ul>
       </div>
@@ -151,6 +163,9 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   <!-- ═══ SEZNAM LOKALIT ═══ -->
   <section class="mb-14">
     <h2 class="text-3xl mb-5 h2-flush">Rejstřík lokalit</h2>
+    <p class="text-sm text-[var(--color-text-muted)] mb-4">
+      Klepnutím na místo přeletíte na jeho značku na mapě.
+    </p>
     <h3 class="lokace-list-h">Česko — {mistaCZ.length} míst</h3>
     <ul class="lokace-list mb-8">
       {mistaCZ.map((m) => {
@@ -158,7 +173,7 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
         const nejiste = zaznamy.some((z) => z.nejiste);
         return (
           <li class="text-[var(--color-text-soft)]">
-            <strong class="text-[var(--color-text)]">{m}</strong>{nejiste && ' (?)'} —
+            <button type="button" class="lokace-odkaz" data-misto={m}>{m}</button>{nejiste && ' (?)'} —
             {' '}{zaznamy.map((z) => z.objekt).join(', ')}
           </li>
         );
@@ -171,8 +186,10 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
           .sort((a, b) => a.localeCompare(b, 'cs'));
         return (
           <li class="text-[var(--color-text-soft)]">
-            <strong class="text-[var(--color-text)]">{ZEME_NAZVY[cc] || cc}:</strong>
-            {' '}{mista.join(', ')}
+            <strong class="text-[var(--color-text)]">{ZEME_NAZVY[cc] || cc}:</strong>{' '}
+            {mista.map((m, i) => (
+              <>{i > 0 && ', '}<button type="button" class="lokace-odkaz" data-misto={m}>{m}</button></>
+            ))}
           </li>
         );
       })}
@@ -264,6 +281,7 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   });
   mapa.addLayer(cluster);
 
+  const markeryByMisto = new Map();
   const vsechnyMarkery = zaznamy.map((z) => {
     const classes = ['hainz-pin', `kat-${z.kategorie}`];
     if (z.elektro) classes.push('elektro');
@@ -273,8 +291,20 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     // @ts-expect-error
     const m = L.marker([z.lat, z.lon], { icon, title: `${z.misto} — ${z.objekt}` });
     m.bindPopup(popupHtml(z));
-    return { kat: z.kategorie, marker: m };
+    if (!markeryByMisto.has(z.misto)) markeryByMisto.set(z.misto, []);
+    markeryByMisto.get(z.misto).push(m);
+    return { z, kat: z.kategorie, marker: m };
   });
+
+  // ── zvýraznění (výběr přes statistiky) ──
+  let vyber = null; // { dim, val }
+  function odpovida(z) {
+    if (!vyber) return true;
+    if (vyber.dim === 'typ') return z.kategorie === vyber.val;
+    if (vyber.dim === 'zeme') return z.zeme === vyber.val;
+    if (vyber.dim === 'zeme1904') return z.zeme1904 === vyber.val;
+    return true;
+  }
 
   function prekresli() {
     const zapnute = new Set(
@@ -282,8 +312,8 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
         .map((el) => el.dataset.kat)
     );
     cluster.clearLayers();
-    for (const { kat, marker } of vsechnyMarkery) {
-      if (zapnute.has(kat)) cluster.addLayer(marker);
+    for (const { z, kat, marker } of vsechnyMarkery) {
+      if (zapnute.has(kat) && odpovida(z)) cluster.addLayer(marker);
     }
   }
   document.querySelectorAll('#hainz-filtry input[data-kat]').forEach((el) =>
@@ -298,6 +328,75 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     prekresli();
   });
   prekresli();
+
+  function scrollMapuDoZobrazeni() {
+    const box = document.getElementById('hainz-mapa').getBoundingClientRect();
+    if (box.top < 0 || box.bottom > window.innerHeight) {
+      document.getElementById('hainz-mapa').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  const chip = document.getElementById('hainz-vyber');
+  const chipText = document.getElementById('hainz-vyber-text');
+  function popisVyberu(v) {
+    if (v.dim === 'typ') return (kategorie[v.val] && kategorie[v.val].label) || v.val;
+    if (v.dim === 'zeme') return zemeNazvy[v.val] || v.val;
+    return v.val;
+  }
+  function nastavVyber(dim, val) {
+    if (vyber && vyber.dim === dim && vyber.val === val) { zrusVyber(); return; }
+    vyber = { dim, val };
+    // při zvýraznění zapnout všechny typy, aby výběr nebyl skrytý filtrem
+    document.querySelectorAll('#hainz-filtry input[data-kat]').forEach((el) => { el.checked = true; });
+    prekresli();
+    chipText.textContent = popisVyberu(vyber);
+    chip.hidden = false;
+    document.querySelectorAll('.hainz-stat-row').forEach((el) => {
+      el.classList.toggle('aktivni', el.dataset.dim === dim && el.dataset.val === val);
+    });
+    const matched = vsechnyMarkery.filter((x) => odpovida(x.z)).map((x) => x.marker);
+    if (matched.length) {
+      // @ts-expect-error
+      const b = L.featureGroup(matched).getBounds();
+      mapa.fitBounds(b, { padding: [40, 40], maxZoom: 12 });
+    }
+    scrollMapuDoZobrazeni();
+  }
+  function zrusVyber() {
+    vyber = null;
+    chip.hidden = true;
+    document.querySelectorAll('.hainz-stat-row.aktivni').forEach((el) => el.classList.remove('aktivni'));
+    prekresli();
+  }
+  document.getElementById('hainz-vyber-zrus').addEventListener('click', zrusVyber);
+
+  document.querySelector('.hainz-stat-grid').addEventListener('click', (ev) => {
+    const row = ev.target.closest('.hainz-stat-row');
+    if (row) nastavVyber(row.dataset.dim, row.dataset.val);
+  });
+  document.querySelector('.hainz-stat-grid').addEventListener('keydown', (ev) => {
+    if (ev.key !== 'Enter' && ev.key !== ' ') return;
+    const row = ev.target.closest('.hainz-stat-row');
+    if (row) { ev.preventDefault(); nastavVyber(row.dataset.dim, row.dataset.val); }
+  });
+
+  // ── proklik z rejstříku lokalit na značku ──
+  function letNaMisto(misto) {
+    const markery = markeryByMisto.get(misto);
+    if (!markery || !markery.length) return;
+    if (vyber) zrusVyber();
+    document.querySelectorAll('#hainz-filtry input[data-kat]').forEach((el) => { el.checked = true; });
+    prekresli();
+    scrollMapuDoZobrazeni();
+    const m = markery[0];
+    // rozbalit případný cluster a otevřít popup
+    cluster.zoomToShowLayer(m, () => m.openPopup());
+    setTimeout(() => mapa.setView(m.getLatLng(), Math.max(mapa.getZoom(), 12), { animate: true }), 50);
+  }
+  document.body.addEventListener('click', (ev) => {
+    const btn = ev.target.closest('.lokace-odkaz');
+    if (btn) letNaMisto(btn.dataset.misto);
+  });
 
   // ── Historická vrstva Rakouska-Uherska 1910 (HistoGIS, CC BY 4.0) ──
   // Lazy fetch při prvním zapnutí; vlastní pane pod markery.
@@ -490,6 +589,61 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   }
   .hainz-stat-list .hainz-filtr-tecka {
     align-self: center;
+  }
+  .hainz-stat-row {
+    cursor: pointer;
+    padding: 0.15rem 0.4rem;
+    margin: 0 -0.4rem;
+    border-radius: 4px;
+    transition: background 0.12s;
+  }
+  .hainz-stat-row:hover,
+  .hainz-stat-row:focus-visible {
+    background: color-mix(in srgb, var(--color-brass) 14%, transparent);
+    outline: none;
+  }
+  .hainz-stat-row.aktivni {
+    background: color-mix(in srgb, var(--color-brass) 26%, transparent);
+  }
+  .hainz-stat-row.aktivni strong { color: var(--color-brass-bright); }
+
+  /* proklik z rejstříku */
+  .lokace-odkaz {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: var(--color-text);
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 1px dotted color-mix(in srgb, var(--color-brass) 45%, transparent);
+  }
+  .lokace-odkaz:hover,
+  .lokace-odkaz:focus-visible {
+    color: var(--color-brass-bright);
+    border-bottom-color: var(--color-brass-bright);
+    outline: none;
+  }
+
+  /* chip aktivního zvýraznění */
+  .hainz-vyber {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+  }
+  .hainz-vyber[hidden] { display: none; }
+  .hainz-vyber strong { color: var(--color-brass-bright); }
+  #hainz-vyber-zrus {
+    font-size: 0.78rem;
+    color: var(--color-brass-bright);
+    background: none;
+    border: 1px solid color-mix(in srgb, var(--color-brass) 35%, transparent);
+    border-radius: 999px;
+    padding: 0.1rem 0.6rem;
+    cursor: pointer;
   }
 
   .lokace-list {
