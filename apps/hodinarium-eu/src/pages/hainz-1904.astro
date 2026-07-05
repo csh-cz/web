@@ -112,6 +112,14 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
 
   <div id="hainz-mapa" class="mapa-canvas" role="region" aria-label="Mapa instalací hodin firmy Hainz do roku 1904"></div>
 
+  <ul class="hainz-ring-legenda" aria-label="Vysvětlivky značení pinů">
+    <li><span class="ring-swatch ring-zeleny"></span> <strong>zelený prsten</strong> — stroj dochován dle <a href="/soupis-veznich-hodin">našeho soupisu</a></li>
+    <li><span class="ring-swatch ring-zlaty"></span> <strong>zlatý prsten</strong> — jinde doložený Hainzův stroj</li>
+    <li><span class="ring-swatch ring-modry"></span> <strong>modrý prsten</strong> — elektrická instalace (1904)</li>
+    <li><span class="ring-swatch ring-prerus"></span> <strong>přerušovaný okraj</strong> — nejistá identifikace</li>
+    <li><span class="ring-swatch"></span> barva výplně = typ objektu (viz filtry výše)</li>
+  </ul>
+
   <p class="text-sm text-[var(--color-text-muted)] mt-2 mb-12">
     Podklad: © přispěvatelé OpenStreetMap (ODbL), dlaždice OpenFreeMap.
     Historické hranice (stav 1910): HistoGIS, ACDH-ÖAW, CC BY 4.0.
@@ -540,6 +548,42 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
       0 4px 16px rgba(0, 0, 0, 0.4);
     background: var(--color-bg-deep);
   }
+
+  /* Legenda značení pinů pod mapou */
+  .hainz-ring-legenda {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0.75rem 0 0.25rem;
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+  }
+  .hainz-ring-legenda li {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+  .hainz-ring-legenda a {
+    color: var(--color-brass-bright);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .ring-swatch {
+    flex: none;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 3px;
+    border-radius: 50%;
+    background: #b5a58f;
+    border: 1.5px solid var(--color-bg);
+  }
+  .ring-zeleny { box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px #4a9e5c; }
+  .ring-zlaty  { box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px #d9a521; }
+  .ring-modry  { box-shadow: 0 0 0 2.5px #7ec8e3; }
+  .ring-prerus { border-style: dashed; opacity: 0.6; }
 
   .hainz-filtry {
     display: flex;
