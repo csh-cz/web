@@ -196,6 +196,28 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     </ul>
   </section>
 
+  <!-- ═══ SHODA SE SOUPISEM ═══ -->
+  <section class="mb-14 max-w-3xl">
+    <h2 class="text-3xl mb-5 h2-flush">Shoda s naším soupisem věžních hodin</h2>
+    <p class="text-[var(--color-text-soft)] leading-relaxed mb-3">
+      Sedm míst z letáku 1904 najdete i v našem <a href="/soupis-veznich-hodin">soupisu
+      věžních hodin</a> — tam je Hainzův stroj doložen konkrétní kartou, většinou
+      dodnes <em>in situ</em>. Nezávisle to potvrzuje dodávky ze seznamu:
+    </p>
+    <ul class="lokace-list">
+      <li class="text-[var(--color-text-soft)]"><a class="lokace-odkaz" href="/soupis-veznich-hodin/1893-domazlice-hainz">Domažlice — radnice</a> (L. Hainz 1891–1893)</li>
+      <li class="text-[var(--color-text-soft)]"><a class="lokace-odkaz" href="/soupis-veznich-hodin/1880-hlubos-skala-2004">Hluboš — zámek</a> (L. Hainz 1880)</li>
+      <li class="text-[var(--color-text-soft)]"><a class="lokace-odkaz" href="/soupis-veznich-hodin/nedatovano-tvorsovice-skala-2004">Tvoršovice — zámek</a></li>
+      <li class="text-[var(--color-text-soft)]"><a class="lokace-odkaz" href="/soupis-veznich-hodin/nedatovano-chocerady-skala-2004">Chocerady — kostel</a></li>
+      <li class="text-[var(--color-text-soft)]"><a class="lokace-odkaz" href="/soupis-veznich-hodin/nedatovano-zlonice-skala-2004">Zlonice — kostel</a></li>
+      <li class="text-[var(--color-text-soft)]"><a class="lokace-odkaz" href="/soupis-veznich-hodin/1896-strenice-skala-2004">Strenice — kostel</a> (L. Hainz 1896)</li>
+      <li class="text-[var(--color-text-soft)]"><a class="lokace-odkaz" href="/soupis-veznich-hodin/1902-olomouc-hainz-jankowsky-vmo">Olomouc</a> (L. Hainz 1902, dnes v muzeu)</li>
+    </ul>
+    <p class="text-sm text-[var(--color-text-muted)] mt-3">
+      U těchto míst vede odkaz na kartu soupisu i přímo z bubliny na mapě.
+    </p>
+  </section>
+
   <!-- ═══ NEURČENO ═══ -->
   <section class="mb-14 max-w-3xl">
     <h2 class="text-3xl mb-5 h2-flush">Co se nepodařilo určit</h2>
@@ -247,11 +269,14 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
       ? '<p class="popup-meta">pin: konkrétní budova (OSM)</p>'
       : '<p class="popup-meta">pin: střed obce</p>';
     const pozn = z.pozn ? `<p class="popup-meta">${z.pozn}</p>` : '';
+    const soupis = z.soupisSlug
+      ? `<p class="popup-soupis"><a href="/soupis-veznich-hodin/${z.soupisSlug}">→ karta v soupisu věžních hodin</a></p>`
+      : '';
     return `<p class="popup-title"><strong>${z.misto}</strong>${nejiste}${zeme}</p>` +
       `<p>${z.objekt}${z.pocet > 1 ? ` — ${z.pocet} ks` : ''}${okres}</p>` +
       elektro +
       `<p class="popup-original">„${z.original}"</p>` +
-      pozn + presnost;
+      pozn + soupis + presnost;
   }
 
   // Init až po DOMContentLoaded — v dev módu se scoped styly načítají jako
@@ -710,6 +735,14 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   :global(.leaflet-popup-content .popup-meta) {
     font-size: 0.72rem;
     color: var(--color-text-muted);
+  }
+  :global(.leaflet-popup-content .popup-soupis) {
+    margin-top: 0.35em;
+    font-size: 0.8rem;
+  }
+  :global(.leaflet-popup-content .popup-soupis a) {
+    color: var(--color-brass-bright);
+    font-weight: 500;
   }
   :global(.leaflet-control-attribution) {
     background: rgba(20, 16, 12, 0.7) !important;
