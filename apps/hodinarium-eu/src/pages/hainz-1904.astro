@@ -214,7 +214,9 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
       <li class="text-[var(--color-text-soft)]"><a class="lokace-odkaz" href="/soupis-veznich-hodin/1902-olomouc-hainz-jankowsky-vmo">Olomouc</a> (L. Hainz 1902, dnes v muzeu)</li>
     </ul>
     <p class="text-sm text-[var(--color-text-muted)] mt-3">
-      U těchto míst vede odkaz na kartu soupisu i přímo z bubliny na mapě.
+      Na mapě jsou tato místa (kde je stroj dle soupisu dochován <em>in situ</em>)
+      vyznačena <strong style="color:#4a9e5c">zeleným prstenem</strong>; odkaz na
+      kartu soupisu vede i přímo z bubliny.
     </p>
   </section>
 
@@ -269,6 +271,11 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
       ? '<p class="popup-meta">pin: konkrétní budova (OSM)</p>'
       : '<p class="popup-meta">pin: střed obce</p>';
     const pozn = z.pozn ? `<p class="popup-meta">${z.pozn}</p>` : '';
+    const badge = z.dochovano === 'in_situ'
+      ? '<p class="popup-dochovano">✓ stroj dochován in situ (náš soupis)</p>'
+      : z.dochovano === 'muzeum'
+      ? '<p class="popup-dochovano popup-dochovano-muzeum">◆ stroj dochován v muzeu (náš soupis)</p>'
+      : '';
     const soupis = z.soupisSlug
       ? `<p class="popup-soupis"><a href="/soupis-veznich-hodin/${z.soupisSlug}">→ karta v soupisu věžních hodin</a></p>`
       : '';
@@ -276,7 +283,7 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
       `<p>${z.objekt}${z.pocet > 1 ? ` — ${z.pocet} ks` : ''}${okres}</p>` +
       elektro +
       `<p class="popup-original">„${z.original}"</p>` +
-      pozn + soupis + presnost;
+      pozn + badge + soupis + presnost;
   }
 
   // Init až po DOMContentLoaded — v dev módu se scoped styly načítají jako
@@ -311,6 +318,7 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     const classes = ['hainz-pin', `kat-${z.kategorie}`];
     if (z.elektro) classes.push('elektro');
     if (z.nejiste) classes.push('nejiste');
+    if (z.dochovano) classes.push('dochovano');
     // @ts-expect-error
     const icon = L.divIcon({ className: classes.join(' '), html: '', iconSize: [12, 12] });
     // @ts-expect-error
@@ -744,6 +752,15 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     color: var(--color-brass-bright);
     font-weight: 500;
   }
+  :global(.leaflet-popup-content .popup-dochovano) {
+    margin-top: 0.3em;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #4a9e5c;
+  }
+  :global(.leaflet-popup-content .popup-dochovano-muzeum) {
+    color: var(--color-copper);
+  }
   :global(.leaflet-control-attribution) {
     background: rgba(20, 16, 12, 0.7) !important;
     color: var(--color-text-muted) !important;
@@ -783,6 +800,14 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   :global(.hainz-pin.nejiste) {
     opacity: 0.55;
     border-style: dashed;
+  }
+  /* stroj dochovaný dle našeho soupisu — výrazný zelený prsten */
+  :global(.hainz-pin.dochovano) {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #4a9e5c;
+    width: 14px !important;
+    height: 14px !important;
+    margin-left: -7px !important;
+    margin-top: -7px !important;
   }
 
   /* Cluster bubliny v tématu webu */
