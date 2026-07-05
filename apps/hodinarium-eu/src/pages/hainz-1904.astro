@@ -89,13 +89,20 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
       ))}
       <button type="button" id="hainz-filtr-vse" class="hainz-filtr-btn">vše</button>
       <button type="button" id="hainz-filtr-nic" class="hainz-filtr-btn">nic</button>
+      <label class="hainz-filtr hainz-filtr-hranice" title="Historické hranice monarchie a korunních zemí (HistoGIS, stav 1910)">
+        <input type="checkbox" id="hainz-vrstva-ru" />
+        <span class="hainz-filtr-tecka" style="--pin-barva: #7a4a2b" aria-hidden="true"></span>
+        hranice Rakouska-Uherska (1910)
+      </label>
     </div>
   </section>
 
   <div id="hainz-mapa" class="mapa-canvas" role="region" aria-label="Mapa instalací hodin firmy Hainz do roku 1904"></div>
 
   <p class="text-sm text-[var(--color-text-muted)] mt-2 mb-12">
-    Podklad © přispěvatelé OpenStreetMap. Poloha pinů: {pocetBudova}× budova, zbytek střed obce.
+    Podklad: © přispěvatelé OpenStreetMap (ODbL), dlaždice OpenFreeMap.
+    Historické hranice (stav 1910): HistoGIS, ACDH-ÖAW, CC BY 4.0.
+    Poloha pinů: {pocetBudova}× budova, zbytek střed obce.
   </p>
 
   <!-- ═══ STATISTIKY ═══ -->
@@ -191,8 +198,11 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
 <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script is:inline src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script is:inline src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script is:inline src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js"></script>
 
 <script is:inline define:vars={{ zaznamy: hainz1904, kategorie: KATEGORIE, zemeNazvy: ZEME_NAZVY }}>
   function popupHtml(z) {
@@ -217,12 +227,15 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   function initHainzMapa() {
 
   // @ts-expect-error Leaflet z CDN
-  const mapa = L.map('hainz-mapa', { zoomControl: true, scrollWheelZoom: false })
+  const mapa = L.map('hainz-mapa', { zoomControl: true, scrollWheelZoom: false, maxZoom: 18 })
     .setView([49.7, 15.5], 7);
-  // @ts-expect-error
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap přispěvatelé',
-    maxZoom: 18,
+  // Vektorový podklad OpenFreeMap (styl Positron) přes MapLibre GL.
+  // Bez API klíče, bez limitů, self-hostovatelné; NEpoužíváme produkčně
+  // tile.openstreetmap.org.
+  // @ts-expect-error maplibre-gl-leaflet z CDN
+  L.maplibreGL({
+    style: 'https://tiles.openfreemap.org/styles/positron',
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> přispěvatelé | <a href="https://openfreemap.org">OpenFreeMap</a>',
   }).addTo(mapa);
   window.addEventListener('load', () => mapa.invalidateSize());
 
@@ -268,6 +281,53 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     prekresli();
   });
   prekresli();
+
+  // ── Historická vrstva Rakouska-Uherska 1910 (HistoGIS, CC BY 4.0) ──
+  // Lazy fetch při prvním zapnutí; vlastní pane pod markery.
+  mapa.createPane('hranice-ru');
+  mapa.getPane('hranice-ru').style.zIndex = '350';
+  let vrstvaRU = null;
+  const ATTR_RU = 'Hranice 1910: <a href="https://histogis.acdh.oeaw.ac.at/">HistoGIS</a> (ACDH-ÖAW), CC BY 4.0';
+
+  async function nactiVrstvuRU() {
+    const [zeme, hranice] = await Promise.all([
+      fetch('/data/hainz/rakousko-uhersko-1910-zeme.geojson').then((r) => r.json()),
+      fetch('/data/hainz/rakousko-uhersko-1910-hranice.geojson').then((r) => r.json()),
+    ]);
+    // @ts-expect-error Leaflet z CDN
+    const g = L.layerGroup();
+    // korunní země — tenká čárkovaná linka, decentní zlatavý nádech výplně
+    // @ts-expect-error
+    L.geoJSON(zeme, {
+      pane: 'hranice-ru',
+      style: { color: '#9c7a4f', weight: 1, opacity: 0.65, dashArray: '4,3',
+               fillColor: '#c9a227', fillOpacity: 0.04 },
+      onEachFeature: (f, layer) => {
+        if (f.properties && f.properties.name) {
+          layer.bindTooltip(f.properties.name, { sticky: true, direction: 'top', className: 'ru-tooltip' });
+        }
+      },
+    }).addTo(g);
+    // vnější hranice monarchie — výraznější plná linka
+    // @ts-expect-error
+    L.geoJSON(hranice, {
+      pane: 'hranice-ru',
+      style: { color: '#7a4a2b', weight: 2.2, opacity: 0.85, fill: false },
+      interactive: false,
+    }).addTo(g);
+    return g;
+  }
+
+  document.getElementById('hainz-vrstva-ru').addEventListener('change', async (ev) => {
+    if (ev.target.checked) {
+      if (!vrstvaRU) vrstvaRU = await nactiVrstvuRU();
+      vrstvaRU.addTo(mapa);
+      mapa.attributionControl.addAttribution(ATTR_RU);
+    } else if (vrstvaRU) {
+      mapa.removeLayer(vrstvaRU);
+      mapa.attributionControl.removeAttribution(ATTR_RU);
+    }
+  });
 
   } // initHainzMapa
 
@@ -339,6 +399,17 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     padding: 0.15rem 0.7rem;
     cursor: pointer;
   }
+  .hainz-filtr-hranice {
+    margin-left: auto;
+    border-style: dashed;
+  }
+  :global(.ru-tooltip) {
+    font-family: var(--font-serif);
+    font-size: 0.78rem;
+    background: var(--color-bg-elevated);
+    color: var(--color-text-soft);
+    border: 1px solid color-mix(in srgb, var(--color-brass) 30%, transparent);
+  }
 
   .hainz-stat-grid {
     display: grid;
@@ -401,8 +472,10 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     background: var(--color-bg-deep) !important;
     font-family: var(--font-serif) !important;
   }
-  :global(.leaflet-tile) {
-    filter: sepia(0.5) saturate(0.7) brightness(0.85) contrast(1.05);
+  /* Jemný sépiový nádech GL podkladu (Positron je šedý — sladit s tématem webu) */
+  :global(.leaflet-gl-layer canvas),
+  :global(.maplibregl-canvas) {
+    filter: sepia(0.35) saturate(0.9) brightness(0.96);
   }
   :global(.leaflet-popup-content-wrapper) {
     background: var(--color-bg-elevated);
