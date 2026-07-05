@@ -189,6 +189,7 @@ export const hodinari: Hodinar[] = [
     relatedSlugs: [
       'akvizice-2015-2025',
       'hainz-natahovani',
+      'hainz-seznam-1904',
       'jubilejni-vystava-zemska-1891-hodinari',
       'mapa',
       'prazsky-orloj-restaurovani-2018',
@@ -388,6 +389,7 @@ export const hodinari: Hodinar[] = [
       'akvizice-2015-2025',
       'podruzne-hodiny',
       'hainz-natahovani',
+      'hainz-seznam-1904',
       'inv-A030-vezni-polevsko-hainz',
       'jednotnycas',
       'jubilejni-vystava-zemska-1891-hodinari',
