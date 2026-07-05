@@ -35,7 +35,24 @@ věž a osadil do ní *„čtvrťový hodinový stroj firmy Hainz zakoupený na
 Jubilejní zemské výstavě v Praze 1891"*. Věž s hodinami dodnes stojí —
 jde o nejlépe doložený konkrétní Hainzův stroj z celého seznamu.
 
-## Nejnadějnější dochovaný stroj — Česká Kamenice
+## Doložený dochovaný stroj — Rzeszów (Halič)
+
+Radnice v Rzeszowě: polský památkový úřad **WUOZ Przemyśl** ve svém popisu
+budovy výslovně uvádí *„Zachował się zegar zbudowany w firmie: Ludwik Hainz.
+Fabryka zegarów"* — dochoval se věžní stroj firmy **Ludwik Hainz, Praha**
+(atribuce se opírá pravděpodobně o signaturu na stroji). Městská
+popularizační verze mylně připisuje hodiny „lvovské firmě Komorowski",
+jejíž existence jako výrobce věžních hodin však není v odborné literatuře
+doložena. Po Štěnovicích druhý nejlépe doložený konkrétní Hainzův stroj.
+(Souřadnice radnice opraveny — původní hodnota mířila 2,7 km jižně.)
+
+Podobně **Sanok** (Stará radnice, Rynek 16): hodiny vyrobené v Praze,
+slavnostně spuštěné 1. 2. 1906 (výroba ~1904 sedí); jediný novinový pramen
+z 1991 je připisuje firmě „Najder" — jméno v hodinářské literatuře
+nedoložené, patrně zkomolenina. Stroj byl 2007 vyměněn, původní zachován
+jako exponát (místo uložení nedohledáno).
+
+## Nejnadějnější dochovaný stroj v Česku — Česká Kamenice
 
 Bývalá městská spořitelna (nám. Míru čp. 272) má podle Památkového
 katalogu NPÚ **dochovaný funkční stroj na půdě** a ciferník ve štítu;
