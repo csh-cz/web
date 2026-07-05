@@ -61,6 +61,8 @@ Zvláštní kapitolou je **splavnění Vltavy**: zdymadla a plavební komory v H
 
 Geograficky seznam sahá daleko za hranice monarchie. V dnešním Polsku a na Ukrajině (tehdejší Halič) najdeme přes třicet míst včetně Lvova, Zakopaného či Nowego Sącze, dále Vídeň, Budapešť, Záhřeb, Bělehrad, Niš, hercegovské Nevesinje, Split, Terst, bulharskou Silistru, rumunské Călărași, ruskou Varšavu a Lublin — a dva úplné výstřelky: městečko **Klincy** v dnešní Brjanské oblasti Ruska a italské **Sant'Elpidio a Mare** v Marche.
 
+A právě v cizině se paradoxně dochovaly nejtvrdší doklady. Čtvrťový stroj na **katedrální věži Wawelu** připisuje polská odborná literatura přímo *„firmě L. Heinza z Pragi"* (spuštěn v říjnu 1899) a **jde dodnes**; stejně tak radniční *„zegar firmy Heinz"* v **Nowém Sączu**, o který od roku 1901 pečují tři generace hodinářů Dobrzańských. Věžní stroj *„Ludwik Hainz, Praha"* eviduje i polský památkový úřad na radnici v **Rzeszowě**, kterou mapa proto — spolu s Wawelem, Nowým Sączem a Sanokem — vyznačuje zlatým prstenem. V Česku se naproti tomu jmenovitý doklad dochovaného stroje z této doby zatím dohledat nepodařilo.
+
 ::photo{src="/img/hainz-1904/hainz-ortsverzeichnis-1904-s2.jpg" alt="Druhá strana letáku — pokračování seznamu od Napagedl po Zvole a závěrečná sekce Elektrische Uhrenanlagen wurden ausgeführt s třinácti elektrickými hodinovými instalacemi" author="archiv firmy L. Hainz" license="volné dílo"}
 
 ## Elektrické hodiny už v roce 1904

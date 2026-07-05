@@ -220,6 +220,28 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     </p>
   </section>
 
+  <!-- ═══ DOLOŽENÉ STROJE V CIZINĚ ═══ -->
+  <section class="mb-14 max-w-3xl">
+    <h2 class="text-3xl mb-5 h2-flush">Doložené Hainzovy stroje v cizině</h2>
+    <p class="text-[var(--color-text-soft)] leading-relaxed mb-3">
+      U několika zahraničních položek se podařilo najít nezávislý pramen, který
+      Hainzův (resp. „Heinzův") stroj jmenovitě potvrzuje. Dva z nich <strong>jdou
+      dodnes</strong>:
+    </p>
+    <ul class="lokace-list">
+      <li class="text-[var(--color-text-soft)]"><button type="button" class="lokace-odkaz" data-misto="Krakov — Wawel">Krakov — Wawel</button> — čtvrťový stroj „firmy L. Heinza z Prahy", spuštěný v říjnu 1899, dodnes funkční (kyvadlo 196 cm)</li>
+      <li class="text-[var(--color-text-soft)]"><button type="button" class="lokace-odkaz" data-misto="Nowy Sącz (Neu-Sandec)">Nowy Sącz — radnice</button> — „zegar firmy Heinz" z Prahy, osazený 1901, dodnes funkční, o stroj pečují hodináři Dobrzańští</li>
+      <li class="text-[var(--color-text-soft)]"><button type="button" class="lokace-odkaz" data-misto="Rzeszów">Rzeszów — radnice</button> — dochovaný stroj „Ludwik Hainz, Praha" (památkový úřad WUOZ Przemyśl)</li>
+      <li class="text-[var(--color-text-soft)]"><button type="button" class="lokace-odkaz" data-misto="Sanok">Sanok — radnice</button> — pražský stroj spuštěný 1906, po výměně 2007 zachován jako muzejní exponát</li>
+    </ul>
+    <p class="text-sm text-[var(--color-text-muted)] mt-3">
+      Tato místa jsou na mapě vyznačena <strong style="color:#d9a521">zlatým prstenem</strong>.
+      Další zahraniční položky (Skawina — secesní radnice z 1904, Zakopane, Chyrów,
+      Stryj a další) mají věž s hodinami chronologicky odpovídající dodávce, konkrétní
+      doklad výrobce se ale zatím nenašel — viz poznámky v bublinách.
+    </p>
+  </section>
+
   <!-- ═══ NEURČENO ═══ -->
   <section class="mb-14 max-w-3xl">
     <h2 class="text-3xl mb-5 h2-flush">Co se nepodařilo určit</h2>
@@ -275,6 +297,10 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
       ? '<p class="popup-dochovano">✓ stroj dochován in situ (náš soupis)</p>'
       : z.dochovano === 'muzeum'
       ? '<p class="popup-dochovano popup-dochovano-muzeum">◆ stroj dochován v muzeu (náš soupis)</p>'
+      : z.dolozenyStroj === 'zachovan'
+      ? '<p class="popup-dochovano popup-dolozeny">★ doložený Hainzův stroj, zachován</p>'
+      : z.dolozenyStroj === 'exponat'
+      ? '<p class="popup-dochovano popup-dolozeny">★ doložený Hainzův stroj, dnes muzejní exponát</p>'
       : '';
     const soupis = z.soupisSlug
       ? `<p class="popup-soupis"><a href="/soupis-veznich-hodin/${z.soupisSlug}">→ karta v soupisu věžních hodin</a></p>`
@@ -319,6 +345,7 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     if (z.elektro) classes.push('elektro');
     if (z.nejiste) classes.push('nejiste');
     if (z.dochovano) classes.push('dochovano');
+    if (z.dolozenyStroj) classes.push('dolozeny');
     // @ts-expect-error
     const icon = L.divIcon({ className: classes.join(' '), html: '', iconSize: [12, 12] });
     // @ts-expect-error
@@ -761,6 +788,9 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   :global(.leaflet-popup-content .popup-dochovano-muzeum) {
     color: var(--color-copper);
   }
+  :global(.leaflet-popup-content .popup-dolozeny) {
+    color: #d9a521;
+  }
   :global(.leaflet-control-attribution) {
     background: rgba(20, 16, 12, 0.7) !important;
     color: var(--color-text-muted) !important;
@@ -804,6 +834,14 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   /* stroj dochovaný dle našeho soupisu — výrazný zelený prsten */
   :global(.hainz-pin.dochovano) {
     box-shadow: 0 0 0 2px #fff, 0 0 0 4px #4a9e5c;
+    width: 14px !important;
+    height: 14px !important;
+    margin-left: -7px !important;
+    margin-top: -7px !important;
+  }
+  /* doložený Hainzův stroj z externí literatury — zlatý prsten */
+  :global(.hainz-pin.dolozeny) {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #d9a521;
     width: 14px !important;
     height: 14px !important;
     margin-left: -7px !important;
