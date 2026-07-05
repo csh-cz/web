@@ -1,0 +1,72 @@
+{
+  "version": 8,
+  "name": "ČSH — soudobý minimální podklad (Hainz 1904)",
+  "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
+  "sources": {
+    "openmaptiles": { "type": "vector", "url": "https://tiles.openfreemap.org/planet" }
+  },
+  "layers": [
+    { "id": "pozadi", "type": "background",
+      "paint": { "background-color": "#f6f1e5" } },
+
+    { "id": "voda", "type": "fill", "source": "openmaptiles", "source-layer": "water",
+      "paint": { "fill-color": "#d9e2df" } },
+
+    { "id": "reky", "type": "line", "source": "openmaptiles", "source-layer": "waterway",
+      "minzoom": 7,
+      "paint": { "line-color": "#c3d1d5",
+                 "line-width": ["interpolate", ["linear"], ["zoom"], 7, 0.4, 12, 1.6] } },
+
+    { "id": "silnice-hlavni", "type": "line", "source": "openmaptiles", "source-layer": "transportation",
+      "minzoom": 9,
+      "filter": ["in", ["get", "class"], ["literal", ["motorway", "trunk", "primary"]]],
+      "paint": { "line-color": "#e6ddc8",
+                 "line-width": ["interpolate", ["linear"], ["zoom"], 9, 0.5, 14, 3] } },
+
+    { "id": "silnice-ostatni", "type": "line", "source": "openmaptiles", "source-layer": "transportation",
+      "minzoom": 12,
+      "filter": ["in", ["get", "class"], ["literal", ["secondary", "tertiary", "minor", "service", "path"]]],
+      "paint": { "line-color": "#ece5d3",
+                 "line-width": ["interpolate", ["linear"], ["zoom"], 12, 0.4, 16, 2.5] } },
+
+    { "id": "budovy", "type": "fill", "source": "openmaptiles", "source-layer": "building",
+      "minzoom": 13,
+      "paint": { "fill-color": "#e3dbc6", "fill-opacity": 0.7 } },
+
+    { "id": "hranice-statu", "type": "line", "source": "openmaptiles", "source-layer": "boundary",
+      "filter": ["all", ["==", ["get", "admin_level"], 2], ["!=", ["get", "maritime"], 1]],
+      "paint": { "line-color": "#a89c85",
+                 "line-width": ["interpolate", ["linear"], ["zoom"], 3, 0.6, 8, 1.4],
+                 "line-dasharray": [3, 1.5] } },
+
+    { "id": "popisky-vesnic", "type": "symbol", "source": "openmaptiles", "source-layer": "place",
+      "minzoom": 11,
+      "filter": ["in", ["get", "class"], ["literal", ["village", "suburb", "hamlet"]]],
+      "layout": { "text-field": ["coalesce", ["get", "name:cs"], ["get", "name:latin"], ["get", "name"]],
+                  "text-font": ["Noto Sans Regular"], "text-size": 11 },
+      "paint": { "text-color": "#8d8672", "text-halo-color": "#f6f1e5", "text-halo-width": 1.2 } },
+
+    { "id": "popisky-mest-mala", "type": "symbol", "source": "openmaptiles", "source-layer": "place",
+      "minzoom": 8,
+      "filter": ["==", ["get", "class"], "town"],
+      "layout": { "text-field": ["coalesce", ["get", "name:cs"], ["get", "name:latin"], ["get", "name"]],
+                  "text-font": ["Noto Sans Regular"], "text-size": 12 },
+      "paint": { "text-color": "#7c7563", "text-halo-color": "#f6f1e5", "text-halo-width": 1.2 } },
+
+    { "id": "popisky-mest", "type": "symbol", "source": "openmaptiles", "source-layer": "place",
+      "filter": ["all", ["==", ["get", "class"], "city"], ["<=", ["get", "rank"], 9]],
+      "layout": { "text-field": ["coalesce", ["get", "name:cs"], ["get", "name:latin"], ["get", "name"]],
+                  "text-font": ["Noto Sans Regular"],
+                  "text-size": ["interpolate", ["linear"], ["zoom"], 4, 11, 8, 15] },
+      "paint": { "text-color": "#6d675c", "text-halo-color": "#f6f1e5", "text-halo-width": 1.4 } },
+
+    { "id": "popisky-statu", "type": "symbol", "source": "openmaptiles", "source-layer": "place",
+      "maxzoom": 8,
+      "filter": ["==", ["get", "class"], "country"],
+      "layout": { "text-field": ["coalesce", ["get", "name:cs"], ["get", "name:latin"], ["get", "name"]],
+                  "text-font": ["Noto Sans Regular"],
+                  "text-transform": "uppercase", "text-letter-spacing": 0.15,
+                  "text-size": ["interpolate", ["linear"], ["zoom"], 3, 10, 7, 14] },
+      "paint": { "text-color": "#a09781", "text-halo-color": "#f6f1e5", "text-halo-width": 1.2 } }
+  ]
+}
