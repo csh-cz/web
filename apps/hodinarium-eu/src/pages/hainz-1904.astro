@@ -39,6 +39,14 @@ const zemeStat = Object.entries(
   }, {})
 ).sort((a, b) => b[1] - a[1]);
 
+// Rozdělení podle korunních zemí monarchie / zahraničních entit (stav 1904)
+const zeme1904Stat = Object.entries(
+  hainz1904.reduce((acc: Record<string, number>, z) => {
+    acc[z.zeme1904] = (acc[z.zeme1904] || 0) + z.pocet;
+    return acc;
+  }, {})
+).sort((a, b) => b[1] - a[1]);
+
 // seznam pod mapou: CZ podle okresu, zahraničí podle země
 const zahranici = [...new Set(hainz1904.filter((z) => z.zeme !== 'CZ').map((z) => z.zeme))]
   .sort((a, b) => (ZEME_NAZVY[a] || a).localeCompare(ZEME_NAZVY[b] || b, 'cs'));
@@ -126,6 +134,14 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
         <ul class="hainz-stat-list">
           {zemeStat.map(([cc, n]) => (
             <li>{ZEME_NAZVY[cc] || cc} <strong>{n}</strong></li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <h3 class="lokace-list-h">Podle korunních zemí (stav 1904)</h3>
+        <ul class="hainz-stat-list">
+          {zeme1904Stat.map(([zeme, n]) => (
+            <li>{zeme} <strong>{n}</strong></li>
           ))}
         </ul>
       </div>
@@ -447,8 +463,11 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  @media (min-width: 700px) {
+  @media (min-width: 600px) {
     .hainz-stat-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (min-width: 900px) {
+    .hainz-stat-grid { grid-template-columns: 1fr 1fr 1fr; }
   }
   .hainz-stat-list {
     list-style: none;
