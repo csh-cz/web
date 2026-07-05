@@ -134,11 +134,42 @@ radnice/Heinrich 1834, Mladá Boleslav – Novoměstská věž/Prokeš 1866, Lou
 stará radnice/Janata 1871, Křivoklát – Božek 1817 apod.), ne o Hainzovu
 dodávku 1904.
 
+## Zahraniční exempláře
+
+Zvláštní kolo rešerše se soustředilo na necelou padesátku skutečných
+zahraničních instalací (mimo pouhá obchodní zastoupení). U čtyř se podařilo
+najít **nezávislý pramen, který Hainzův stroj jmenovitě potvrzuje** — na mapě
+mají zlatý prsten:
+
+| Místo | Doklad | Stav |
+|---|---|---|
+| **Krakov — Wawel** (katedrální hodinová věž) | Klub Miłośników Zegarów i Zegarków: čtvrťový stroj *„firmy L. Heinza z Pragi"*, spuštěný v říjnu 1899 | **jde dodnes** (kyvadlo 196 cm, kotvový krok, závaží 120 + 120 + 40 kg) |
+| **Nowy Sącz — radnice** | polský tisk i město: *„zegar firmy Heinz"* přivezený z Prahy 1896, osazený 1901, první úder 14. 12. 1901 | **jde dodnes**, pečují o něj tři generace hodinářů Dobrzańských |
+| **Rzeszów — radnice** | WUOZ Przemyśl: dochovaný stroj *„Ludwik Hainz, Praha"* (viz výše) | zachován in situ |
+| **Sanok — radnice** | pražský stroj spuštěný 1. 2. 1906, po výměně 2007 | zachován jako muzejní exponát |
+
+Wawel a Nowy Sącz jsou tak **dva prokazatelně funkční Hainzovy stroje mimo
+české země** — vedle Rzeszówa nejsilnější zahraniční doklady dodávek ze seznamu.
+
+**Silní kandidáti bez přímého dokladu výrobce** (věž s hodinami chronologicky
+odpovídá): *Skawina* — secesní radnice postavená přesně 1904 (arch. W. Ekielski,
+věž se čtyřmi ciferníky); *Zakopane* — nový farní kostel Sv. Rodiny (dokončen
+1896, na věži časoměr ukazoval místní astronomický čas o 20 min odlišný);
+*Chyrów* — jezuitský konvikt s věží; *Stryj* — kostel Narození P. Marie s novou
+věží a hodinami z 1891.
+
+**Doložené hodiny, které ale s Hainzem nesouvisejí** (leták mířil na jinou,
+neuvedenou budovu): banskobystrická Hodinová věž (renesanční, 1552), splitská
+Pjaca s benátskými 24hodinovými hodinami, nevesinjská sahat-kula (nový stroj
+1891, zastavena 1937). *Idrijský* kostel sv. Barbory byl 1951 zbořen.
+
 ## Metodická poznámka
 
 Přímý doklad *dochování* stroje z ~1904 (restaurátorská zpráva s datací
-stroje) se u žádného objektu najít nepodařilo — nejsilnější indicií
+stroje) se u českých objektů najít nepodařilo — nejsilnější indicií tu
 zůstává buď servis toutéž firmou L. Hainz, nebo dobově doložená Hainzova
-dodávka (Štěnovice). Nejnadějnější cíle pro archivní dohledání: **firemní
-archiv L. Hainz** (dodací a servisní knihy) a **Průmyslový palác**
-(zhotovitel nového stroje 2024–26).
+dodávka (Štěnovice). Paradoxně **nejtvrdší doklady dochovaných Hainzových
+strojů pocházejí z ciziny** (Wawel, Nowy Sącz, Rzeszów), kde je stroj
+jmenovitě uveden v místní památkové či popularizační literatuře. Nejnadějnější
+cíle pro archivní dohledání v Česku: **firemní archiv L. Hainz** (dodací a
+servisní knihy) a **Průmyslový palác** (zhotovitel nového stroje 2024–26).
