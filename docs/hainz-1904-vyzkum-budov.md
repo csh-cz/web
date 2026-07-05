@@ -163,6 +163,28 @@ neuvedenou budovu): banskobystrická Hodinová věž (renesanční, 1552), split
 Pjaca s benátskými 24hodinovými hodinami, nevesinjská sahat-kula (nový stroj
 1891, zastavena 1937). *Idrijský* kostel sv. Barbory byl 1951 zbořen.
 
+## Nepřiřazené objekty (2. dávka)
+
+U položek, kde leták uvedl jen jméno místa (bez konkrétní stavby), se podařilo
+určit hlavní veřejnou hodinovou stavbu města u šesti záznamů — na mapě nově
+míří pin na budovu:
+
+| Místo | Budova | Poznámka |
+|---|---|---|
+| **Bělehrad** | sahat-kula v Bělehradské pevnosti (Kalemegdan) | 18. stol.; Hainz mohl dodat/vyměnit stroj |
+| **Călărași** (RO) | věž prefektury (1895–98) | pin obce byl ~15 km vedle — opraveno |
+| **Sant'Elpidio a Mare** (IT) | Torre Gerosolimitana | starší věž |
+| **Banská Bystrica** | Hodinová věž (Nám. SNP) | renesanční 1552 → případně jen výměna stroje |
+| **Nevesinje** (BA) | sahat-kula | nový stroj 1891 — možná Hainzův (rok sedí) |
+| **Bystřice p. H.** | kostel sv. Jiljí | ⚠ doložený stroj 1791 → nesedí na Hainze, ponecháno na obci |
+
+Slabší kandidáti bez potvrzení (ponecháni na úrovni obce): Szombathely (radnice),
+Split — Pjaca (benátské hodiny) a budova tabákové režie 1904–05, Záhřeb (stará
+radnice). **Vily a soukromé budovy** (Záhřeb, Bregenz, Č. Budějovice, Lázně
+Jeseník, Hlubočepy, Krč, Janov, Správčice, Praha I / Libeň) zůstávají bez určení
+— bez jména vlastníka nebo dobové adresy jsou z veřejných zdrojů nedohledatelné;
+rozhodly by adresáře nebo Hainzovy dodací knihy.
+
 ## Metodická poznámka
 
 Přímý doklad *dochování* stroje z ~1904 (restaurátorská zpráva s datací
