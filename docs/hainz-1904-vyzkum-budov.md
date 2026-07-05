@@ -108,6 +108,32 @@ ani hodiny nepotvrzeny), Čeminy (jen pseudogotická vížka), Vráž, Lunz
 (Schloss Seehof — jen sluneční hodiny), Henndorf (Schloss neidentifikován),
 Kolomyja (spořitelna — hodiny nedoloženy; radniční orloj je z 1948).
 
+## Shoda s naším soupisem věžních hodin
+
+Porovnání letáku 1904 s naším [soupisem věžních hodin](/soupis-veznich-hodin)
+(443 položek): **122 letákových lokalit má v soupisu věžní hodiny do 1,5 km**.
+U **9 z nich soupis dokládá přímo Hainzův stroj** (většinou in situ) — silné
+nezávislé potvrzení dodávek 1904:
+
+| Místo | Karta soupisu | Doklad |
+|---|---|---|
+| Domažlice — radnice | 1893-domazlice-hainz | L. Hainz 1891–1893, in situ |
+| Hluboš — zámek | 1880-hlubos-skala-2004 | L. Hainz 1880, in situ |
+| Tvoršovice — zámek | nedatovano-tvorsovice-skala-2004 | Hainz, in situ |
+| Chocerady — kostel | nedatovano-chocerady-skala-2004 | Hainz, in situ |
+| Zlonice — kostel | nedatovano-zlonice-skala-2004 | Hainz, in situ |
+| Strenice — kostel | 1896-strenice-skala-2004 | L. Hainz 1896, in situ |
+| Olomouc | 1902-olomouc-hainz-jankowsky-vmo | L. Hainz 1902, dnes v muzeu (přeneseno) |
+| Kněževes — sušička chmele | 1929-knezeves-skala-2004 | Hainz 1929 (pozdější, jiná budova než v letáku) |
+| Rakovník — škola | (soupis) | Hainz (jiná budova než radnice v letáku) |
+
+Prvních sedm (shoduje se i budova) je na mapě prolinkováno přímo z bubliny
+(`soupisSlug`). Zbylých 113 lokalit má poblíž stroj jiného výrobce — vesměs
+jde o **jiné (starší či nahrazené) věžní hodiny téhož města** (Brno – Stará
+radnice/Heinrich 1834, Mladá Boleslav – Novoměstská věž/Prokeš 1866, Louny –
+stará radnice/Janata 1871, Křivoklát – Božek 1817 apod.), ne o Hainzovu
+dodávku 1904.
+
 ## Metodická poznámka
 
 Přímý doklad *dochování* stroje z ~1904 (restaurátorská zpráva s datací
