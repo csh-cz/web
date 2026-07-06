@@ -158,10 +158,13 @@ věž se čtyřmi ciferníky); *Zakopane* — nový farní kostel Sv. Rodiny (do
 *Chyrów* — jezuitský konvikt s věží; *Stryj* — kostel Narození P. Marie s novou
 věží a hodinami z 1891.
 
-**Doložené hodiny, které ale s Hainzem nesouvisejí** (leták mířil na jinou,
-neuvedenou budovu): banskobystrická Hodinová věž (renesanční, 1552), splitská
-Pjaca s benátskými 24hodinovými hodinami, nevesinjská sahat-kula (nový stroj
-1891, zastavena 1937). *Idrijský* kostel sv. Barbory byl 1951 zbořen.
+**Staré věže, kam Hainz mohl nanejvýš dodat či vyměnit stroj** (samotná věž
+vznikla dávno před 1904): banskobystrická Hodinová věž (renesanční, 1552) a
+nevesinjská sahat-kula (doložená před 1664, nový stroj 1891 — rok by Hainzovi
+seděl, atribuce ale nedoložena). Obě jsou hlavní veřejnou hodinovou stavbou
+města, a proto na mapě míří pin na budovu — viz níže. Naproti tomu splitská
+Pjaca s benátskými 24hodinovými hodinami s Hainzem nesouvisí a *idrijský*
+kostel sv. Barbory byl 1951 zbořen.
 
 ## Nepřiřazené objekty (2. dávka)
 
