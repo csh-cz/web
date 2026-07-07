@@ -348,27 +348,42 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   // OpenFreeMap. Bez API klíče, bez limitů, self-hostovatelné; NEpoužíváme
   // produkčně tile.openstreetmap.org.
   // @ts-expect-error maplibre-gl-leaflet z CDN
-  L.maplibreGL({
+  const glVrstva = L.maplibreGL({
     style: '/data/hainz/podklad-soudoby.json',
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> přispěvatelé | <a href="https://openfreemap.org">OpenFreeMap</a>',
   }).addTo(mapa);
-  // FIX mizejícího podkladu: maplibre-gl-leaflet nechává GL plátno rozjeté ve
-  // velikosti i pozici vůči Leaflet kontejneru — po zoomu (a při pozdním
-  // ustálení layoutu) se podklad vykreslí jen ve výřezu nebo zmizí úplně (piny
-  // kreslí Leaflet, ty jsou OK). Samotný glMap.resize() spraví jen velikost, ne
-  // pozici. Spolehlivě přesynchronizuje obojí až window 'resize' (maplibre
-  // trackResize → resize() + Leaflet trackResize → invalidateSize → _update
-  // pozice GL plátna). Emulujeme ho po ustálení layoutu a debounced po zoomu.
-  // Pozor: posloucháme jen 'zoomend' (ne 'moveend'), aby invalidateSize
-  // (který fire-uje 'move') nevytvořil smyčku.
-  let glFixTimer;
-  function synchronizujPodklad() {
-    clearTimeout(glFixTimer);
-    glFixTimer = setTimeout(() => window.dispatchEvent(new Event('resize')), 250);
+  // FIX mizejícího podkladu (watchdog): maplibre-gl-leaflet nechává GL plátno
+  // rozjeté ve velikosti i pozici vůči Leaflet kontejneru — po zoomu / při
+  // studeném načtení se podklad vykreslí jen ve výřezu nebo zmizí (piny kreslí
+  // Leaflet, ty jsou OK). resync() srovná GL: glMap.resize() VELIKOST a
+  // mapa.fire('move') přinutí plugin (_update) srovnat POZICI/transform plátna —
+  // bez resetu pohledu. Spouštíme z více NEZÁVISLÝCH zdrojů, protože Leaflet
+  // 'zoomend' se v téhle kombinaci ne vždy propíše: ResizeObserver, Leaflet i
+  // maplibre vlastní eventy, přímé DOM interakce a krátký watchdog na start.
+  let resyncBezi = false;
+  function resync() {
+    if (resyncBezi) return;
+    resyncBezi = true;
+    try {
+      const m = glVrstva.getMaplibreMap ? glVrstva.getMaplibreMap() : glVrstva._glMap;
+      if (m && m.resize) m.resize();   // velikost GL plátna
+      mapa.fire('move');               // → plugin _update = pozice/transform GL
+    } catch (e) { /* no-op */ }
+    finally { resyncBezi = false; }
   }
-  mapa.on('zoomend', synchronizujPodklad);
-  window.addEventListener('load', () => { mapa.invalidateSize(); synchronizujPodklad(); });
-  mapa.whenReady(synchronizujPodklad);
+  const mapaEl = document.getElementById('hainz-mapa');
+  try { new ResizeObserver(resync).observe(mapaEl); } catch (e) { /* starší prohlížeč */ }
+  mapa.on('zoomend moveend', resync);
+  try {
+    const gm = glVrstva.getMaplibreMap && glVrstva.getMaplibreMap();
+    if (gm && gm.on) { gm.on('moveend', resync); gm.on('idle', resync); }
+  } catch (e) { /* no-op */ }
+  ['dblclick', 'wheel'].forEach((ev) =>
+    mapaEl.addEventListener(ev, () => setTimeout(resync, 300), { passive: true }));
+  window.addEventListener('load', () => { mapa.invalidateSize(); resync(); });
+  mapa.whenReady(resync);
+  let wdN = 0;
+  const wd = setInterval(() => { resync(); if (++wdN >= 20) clearInterval(wd); }, 500);
 
   // @ts-expect-error markercluster z CDN
   const cluster = L.markerClusterGroup({
