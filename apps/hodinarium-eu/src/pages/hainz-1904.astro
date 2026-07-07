@@ -141,8 +141,7 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
 
   <p class="text-sm text-[var(--color-text-muted)] mt-2 mb-12">
     Podklad: © přispěvatelé OpenStreetMap (ODbL), dlaždice OpenFreeMap.
-    Historické hranice (stav 1910): korunní země HistoGIS (ACDH-ÖAW, CC BY 4.0),
-    státy Evropy a vnější obrys monarchie historical-basemaps (GPL-3.0).
+    Historické hranice (stav ~1910): HistoGIS (ACDH-ÖAW), CC BY 4.0.
     Poloha pinů: {pocetBudova}× budova, zbytek střed obce; {pocetZaniklo}× stavba už nestojí (tmavý pin na bývalém místě).
   </p>
 
@@ -529,7 +528,7 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   mapa.createPane('hranice-ru');
   mapa.getPane('hranice-ru').style.zIndex = '350';
   let vrstvaRU = null;
-  const ATTR_RU = 'Korunní země: <a href="https://histogis.acdh.oeaw.ac.at/">HistoGIS</a> (ACDH-ÖAW, CC BY 4.0); vnější obrys sladěn s <a href="https://github.com/aourednik/historical-basemaps">historical-basemaps</a> (GPL-3.0)';
+  const ATTR_RU = 'Hranice 1910: <a href="https://histogis.acdh.oeaw.ac.at/">HistoGIS</a> (ACDH-ÖAW), CC BY 4.0';
 
   async function nactiVrstvuRU() {
     const [zeme, hranice, popisky] = await Promise.all([
@@ -607,13 +606,14 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   });
 
   // ── Historická vrstva evropských států kolem 1910 ──
-  // Data: historical-basemaps (A. Ourednik, GPL-3.0); snímek 1900 = konfigurace
-  // Evropy platná do balkánských válek 1912–13. Ořez na Evropu + zjednodušeno.
-  // Vlastní pane pod R-U detailem i pod markery.
+  // Data: HistoGIS (ACDH-ÖAW, CC BY 4.0) — snímek států platných k roku 1910
+  // (před balkánskými válkami 1912–13: velká Osmanská říše, malé Srbsko/Řecko/
+  // Bulharsko/Černá Hora). Rakousko-Uhersko = sjednocení korunních zemí, takže
+  // detailní R-U vrstva na něj přesně navazuje. Ořez na Evropu + zjednodušeno.
   mapa.createPane('hranice-evropa');
   mapa.getPane('hranice-evropa').style.zIndex = '345';
   let vrstvaEvropa = null;
-  const ATTR_EVROPA = 'Hranice ~1910: <a href="https://github.com/aourednik/historical-basemaps">historical-basemaps</a> (GPL-3.0)';
+  const ATTR_EVROPA = 'Hranice ~1910: <a href="https://histogis.acdh.oeaw.ac.at/">HistoGIS</a> (ACDH-ÖAW), CC BY 4.0';
 
   async function nactiVrstvuEvropa() {
     const [staty, popisky] = await Promise.all([
