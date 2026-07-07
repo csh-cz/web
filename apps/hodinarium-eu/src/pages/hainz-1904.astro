@@ -348,22 +348,27 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   // OpenFreeMap. Bez API klíče, bez limitů, self-hostovatelné; NEpoužíváme
   // produkčně tile.openstreetmap.org.
   // @ts-expect-error maplibre-gl-leaflet z CDN
-  const glVrstva = L.maplibreGL({
+  L.maplibreGL({
     style: '/data/hainz/podklad-soudoby.json',
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> přispěvatelé | <a href="https://openfreemap.org">OpenFreeMap</a>',
   }).addTo(mapa);
-  // FIX podkladu: maplibre-gl-leaflet občas nechá GL plátno v zaseklé (menší)
-  // velikosti vůči kontejneru — podklad se pak po zoomu vykreslí jen v malém
-  // výřezu, nebo zmizí úplně (piny kreslí Leaflet, ty jsou OK). Jediné, co GL
-  // mapu spolehlivě přesynchronizuje na správnou velikost, je resize(); voláme
-  // ho tedy po ustálení layoutu i po každém přiblížení/posunu.
-  function glResize() {
-    const m = glVrstva.getMaplibreMap ? glVrstva.getMaplibreMap() : glVrstva._glMap;
-    if (m && m.resize) m.resize();
+  // FIX mizejícího podkladu: maplibre-gl-leaflet nechává GL plátno rozjeté ve
+  // velikosti i pozici vůči Leaflet kontejneru — po zoomu (a při pozdním
+  // ustálení layoutu) se podklad vykreslí jen ve výřezu nebo zmizí úplně (piny
+  // kreslí Leaflet, ty jsou OK). Samotný glMap.resize() spraví jen velikost, ne
+  // pozici. Spolehlivě přesynchronizuje obojí až window 'resize' (maplibre
+  // trackResize → resize() + Leaflet trackResize → invalidateSize → _update
+  // pozice GL plátna). Emulujeme ho po ustálení layoutu a debounced po zoomu.
+  // Pozor: posloucháme jen 'zoomend' (ne 'moveend'), aby invalidateSize
+  // (který fire-uje 'move') nevytvořil smyčku.
+  let glFixTimer;
+  function synchronizujPodklad() {
+    clearTimeout(glFixTimer);
+    glFixTimer = setTimeout(() => window.dispatchEvent(new Event('resize')), 250);
   }
-  mapa.on('zoomend moveend resize', glResize);
-  window.addEventListener('load', () => { mapa.invalidateSize(); glResize(); });
-  mapa.whenReady(() => { setTimeout(glResize, 300); });
+  mapa.on('zoomend', synchronizujPodklad);
+  window.addEventListener('load', () => { mapa.invalidateSize(); synchronizujPodklad(); });
+  mapa.whenReady(synchronizujPodklad);
 
   // @ts-expect-error markercluster z CDN
   const cluster = L.markerClusterGroup({
