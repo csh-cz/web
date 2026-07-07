@@ -27,6 +27,7 @@ const ZEME_NAZVY: Record<string, string> = {
 const pocetHodin = hainz1904.reduce((s, z) => s + z.pocet, 0);
 const pocetElektro = hainz1904.filter((z) => z.elektro).length;
 const pocetBudova = hainz1904.filter((z) => z.presnost === 'budova').length;
+const pocetZaniklo = hainz1904.filter((z) => z.zaniklo).length;
 
 const katStat = Object.keys(KATEGORIE)
   .map((k) => ({ k, ...KATEGORIE[k], n: hainz1904.filter((z) => z.kategorie === k).length }))
@@ -117,6 +118,7 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     <li><span class="ring-swatch ring-zlaty"></span> <strong>zlatý prsten</strong> — jinde doložený Hainzův stroj</li>
     <li><span class="ring-swatch ring-modry"></span> <strong>modrý prsten</strong> — elektrická instalace (1904)</li>
     <li><span class="ring-swatch ring-prerus"></span> <strong>přerušovaný okraj</strong> — nejistá identifikace</li>
+    <li><span class="ring-swatch ring-zaniklo"></span> <strong>tmavá výplň</strong> — zaniklá stavba (pin na bývalém místě)</li>
     <li><span class="ring-swatch"></span> barva výplně = typ objektu (viz filtry výše)</li>
   </ul>
 
@@ -130,7 +132,7 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   <p class="text-sm text-[var(--color-text-muted)] mt-2 mb-12">
     Podklad: © přispěvatelé OpenStreetMap (ODbL), dlaždice OpenFreeMap.
     Historické hranice (stav 1910): HistoGIS, ACDH-ÖAW, CC BY 4.0.
-    Poloha pinů: {pocetBudova}× budova, zbytek střed obce.
+    Poloha pinů: {pocetBudova}× budova, zbytek střed obce; {pocetZaniklo}× stavba už nestojí (tmavý pin na bývalém místě).
   </p>
 
   <!-- ═══ STATISTIKY ═══ -->
@@ -240,7 +242,7 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     <h2 class="text-3xl mb-5 h2-flush">Doložené Hainzovy stroje v cizině</h2>
     <p class="text-[var(--color-text-soft)] leading-relaxed mb-3">
       U několika zahraničních položek se podařilo najít nezávislý pramen, který
-      Hainzův (resp. „Heinzův") stroj jmenovitě potvrzuje. Dva z nich <strong>jdou
+      Hainzův (resp. „Heinzův") stroj jmenovitě potvrzuje. Několik z nich <strong>jde
       dodnes</strong>:
     </p>
     <ul class="lokace-list">
@@ -248,6 +250,7 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
       <li class="text-[var(--color-text-soft)]"><button type="button" class="lokace-odkaz" data-misto="Nowy Sącz (Neu-Sandec)">Nowy Sącz — radnice</button> — „zegar firmy Heinz" z Prahy, osazený 1901, dodnes funkční, o stroj pečují hodináři Dobrzańští</li>
       <li class="text-[var(--color-text-soft)]"><button type="button" class="lokace-odkaz" data-misto="Rzeszów">Rzeszów — radnice</button> — dochovaný stroj „Ludwik Hainz, Praha" (památkový úřad WUOZ Przemyśl)</li>
       <li class="text-[var(--color-text-soft)]"><button type="button" class="lokace-odkaz" data-misto="Sanok">Sanok — radnice</button> — pražský stroj spuštěný 1906, po výměně 2007 zachován jako muzejní exponát</li>
+      <li class="text-[var(--color-text-soft)]"><button type="button" class="lokace-odkaz" data-misto="Silistra">Silistra (Bulharsko) — galerie</button> — bývalá pedagogická škola z roku 1892; na střešní věži dodnes čtyřciferníkový stroj, který bulharské prameny připisují „firmě Heinz-Prague"</li>
     </ul>
     <p class="text-sm text-[var(--color-text-muted)] mt-3">
       Tato místa jsou na mapě vyznačena <strong style="color:#d9a521">zlatým prstenem</strong>.
@@ -292,10 +295,13 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
-<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" />
 <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script is:inline src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-<script is:inline src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<!-- maplibre-gl PŘIPNUTO na 3.6.2: plugin maplibre-gl-leaflet@0.0.22 je s v4
+     nekompatibilní (vektorový podklad po zoomu přestane překreslovat / zmizí,
+     bez chyby v konzoli). S 3.6.2 podklad renderuje a přežije zoom (ověřeno). -->
+<script is:inline src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
 <script is:inline src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js"></script>
 
 <script is:inline define:vars={{ zaznamy: hainz1904, kategorie: KATEGORIE, zemeNazvy: ZEME_NAZVY }}>
@@ -304,7 +310,9 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     const okres = z.okres && z.okres !== 'Praha' ? `, okres ${z.okres}` : '';
     const zeme = z.zeme !== 'CZ' ? ` (${zemeNazvy[z.zeme] || z.zeme})` : '';
     const elektro = z.elektro ? '<p><strong>⚡ elektrická hodinová instalace</strong></p>' : '';
-    const presnost = z.presnost === 'budova'
+    const presnost = z.zaniklo
+      ? '<p class="popup-meta">pin: bývalé místo stavby (nedochovala se)</p>'
+      : z.presnost === 'budova'
       ? '<p class="popup-meta">pin: konkrétní budova</p>'
       : '<p class="popup-meta">pin: střed obce</p>';
     const pozn = z.pozn ? `<p class="popup-meta">${z.pozn}</p>` : '';
@@ -357,6 +365,7 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   const markeryByMisto = new Map();
   const vsechnyMarkery = zaznamy.map((z) => {
     const classes = ['hainz-pin', `kat-${z.kategorie}`];
+    if (z.zaniklo) classes.push('zaniklo');
     if (z.elektro) classes.push('elektro');
     if (z.nejiste) classes.push('nejiste');
     if (z.dochovano) classes.push('dochovano');
@@ -612,6 +621,7 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   .ring-zlaty  { box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px #d9a521; }
   .ring-modry  { box-shadow: 0 0 0 2.5px #7ec8e3; }
   .ring-prerus { border-style: dashed; opacity: 0.6; }
+  .ring-zaniklo { background: #3a3530; }
 
   /* Legenda dvou polovin monarchie (jen když je vrstva zapnutá) */
   .hainz-ru-legenda {
@@ -923,6 +933,9 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   :global(.hainz-pin.kat-instituce)  { background: #cf8fb0; }
   :global(.hainz-pin.kat-zastoupeni) { background: #8d8d8d; }
   :global(.hainz-pin.kat-ostatni)    { background: #b5a58f; }
+  /* zaniklá stavba — pin míří na bývalé místo; tmavá „ruinová" barva
+     přebíjí barvu kategorie (musí být až za kat-* pravidly) */
+  :global(.hainz-pin.zaniklo)        { background: #3a3530; }
   :global(.hainz-pin.elektro) {
     box-shadow: 0 0 0 2.5px #7ec8e3;
   }
