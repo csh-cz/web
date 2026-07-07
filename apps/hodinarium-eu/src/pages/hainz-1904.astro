@@ -621,8 +621,9 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     ]);
     // @ts-expect-error Leaflet z CDN
     const g = L.layerGroup();
-    // teplá „atlasová" paleta — každý stát jiný odstín (jako R-U, jen víc barev)
-    const PALETA = ['#c9a227', '#b5654a', '#7c8a6a', '#a8825b', '#8a8fae', '#b58aa0', '#6f9a8a'];
+    // světlá pastelová „atlasová" paleta — každý stát jiný jemný odstín
+    const PALETA = ['#f6c6c6', '#c8e6c9', '#bbdefb', '#fff1b8', '#e1bee7', '#ffd8b0',
+                    '#b3e5dc', '#f8c8dc', '#dcedc8', '#cdd3ee', '#ffe0b2', '#d0c4e0'];
     const barvaStatu = (nazev) => {
       let h = 0;
       for (let i = 0; i < nazev.length; i++) h = (h * 31 + nazev.charCodeAt(i)) >>> 0;
@@ -632,8 +633,8 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     L.geoJSON(staty, {
       pane: 'hranice-evropa',
       style: (f) => ({
-        color: '#7a5a3a', weight: 1.2, opacity: 0.75, dashArray: '4,3',
-        fillColor: barvaStatu((f.properties && f.properties.nazev) || ''), fillOpacity: 0.16,
+        color: '#8a6a4a', weight: 1, opacity: 0.6, dashArray: '4,3',
+        fillColor: barvaStatu((f.properties && f.properties.nazev) || ''), fillOpacity: 0.45,
       }),
       onEachFeature: (f, layer) => {
         if (f.properties && f.properties.nazev) {
