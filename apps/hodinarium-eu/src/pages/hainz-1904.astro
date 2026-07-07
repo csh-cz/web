@@ -615,18 +615,46 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   const ATTR_EVROPA = 'Hranice ~1910: <a href="https://github.com/aourednik/historical-basemaps">historical-basemaps</a> (GPL-3.0)';
 
   async function nactiVrstvuEvropa() {
-    const staty = await fetch('/data/hainz/evropa-staty-1910.geojson').then((r) => r.json());
+    const [staty, popisky] = await Promise.all([
+      fetch('/data/hainz/evropa-staty-1910.geojson').then((r) => r.json()),
+      fetch('/data/hainz/evropa-staty-1910-popisky.geojson').then((r) => r.json()),
+    ]);
     // @ts-expect-error Leaflet z CDN
-    return L.geoJSON(staty, {
+    const g = L.layerGroup();
+    // teplá „atlasová" paleta — každý stát jiný odstín (jako R-U, jen víc barev)
+    const PALETA = ['#c9a227', '#b5654a', '#7c8a6a', '#a8825b', '#8a8fae', '#b58aa0', '#6f9a8a'];
+    const barvaStatu = (nazev) => {
+      let h = 0;
+      for (let i = 0; i < nazev.length; i++) h = (h * 31 + nazev.charCodeAt(i)) >>> 0;
+      return PALETA[h % PALETA.length];
+    };
+    // @ts-expect-error
+    L.geoJSON(staty, {
       pane: 'hranice-evropa',
-      style: { color: '#6a6f8a', weight: 1.2, opacity: 0.7,
-               fillColor: '#8a8fae', fillOpacity: 0.06 },
+      style: (f) => ({
+        color: '#7a5a3a', weight: 1.2, opacity: 0.75, dashArray: '4,3',
+        fillColor: barvaStatu((f.properties && f.properties.nazev) || ''), fillOpacity: 0.16,
+      }),
       onEachFeature: (f, layer) => {
         if (f.properties && f.properties.nazev) {
           layer.bindTooltip(f.properties.nazev, { sticky: true, direction: 'top', className: 'ru-tooltip' });
         }
       },
-    });
+    }).addTo(g);
+    // stálé názvy států (mimo husté jádro R-U, které popisuje vrstva R-U)
+    // @ts-expect-error
+    L.geoJSON(popisky, {
+      pane: 'hranice-evropa',
+      pointToLayer: (f, latlng) =>
+        // @ts-expect-error
+        L.marker(latlng, {
+          // @ts-expect-error
+          icon: L.divIcon({ className: 'ru-popisek evropa-popisek', html: f.properties.nazev, iconSize: null }),
+          interactive: false,
+          keyboard: false,
+        }),
+    }).addTo(g);
+    return g;
   }
 
   document.getElementById('hainz-vrstva-evropa').addEventListener('change', async (ev) => {
@@ -803,6 +831,14 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     pointer-events: none;
     background: none;
     border: none;
+  }
+  /* názvy evropských států — velké „atlasové" kapitálky (odliší od korunních zemí) */
+  :global(.evropa-popisek) {
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 0.95rem;
+    letter-spacing: 0.14em;
+    opacity: 0.72;
   }
 
   .hainz-stat-grid {
