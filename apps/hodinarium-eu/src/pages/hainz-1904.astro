@@ -625,7 +625,10 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     // světlá pastelová „atlasová" paleta — každý stát jiný jemný odstín
     const PALETA = ['#f6c6c6', '#c8e6c9', '#bbdefb', '#fff1b8', '#e1bee7', '#ffd8b0',
                     '#b3e5dc', '#f8c8dc', '#dcedc8', '#cdd3ee', '#ffe0b2', '#d0c4e0'];
+    // ruční odstíny tam, kde by hash dal sousedním státům stejnou barvu
+    const BARVA_OVERRIDE = { 'Švýcarsko': '#f6c6c6' }; // odliš od Francie (obě jinak tyrkysové)
     const barvaStatu = (nazev) => {
+      if (BARVA_OVERRIDE[nazev]) return BARVA_OVERRIDE[nazev];
       let h = 0;
       for (let i = 0; i < nazev.length; i++) h = (h * 31 + nazev.charCodeAt(i)) >>> 0;
       return PALETA[h % PALETA.length];
