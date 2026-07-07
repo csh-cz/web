@@ -98,15 +98,10 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
       ))}
       <button type="button" id="hainz-filtr-vse" class="hainz-filtr-btn">vše</button>
       <button type="button" id="hainz-filtr-nic" class="hainz-filtr-btn">nic</button>
-      <label class="hainz-filtr hainz-filtr-hranice" title="Historické hranice monarchie a korunních zemí (HistoGIS, stav 1910)">
-        <input type="checkbox" id="hainz-vrstva-ru" />
-        <span class="hainz-filtr-tecka" style="--pin-barva: #7a4a2b" aria-hidden="true"></span>
-        hranice Rakouska-Uherska (1910)
-      </label>
-      <label class="hainz-filtr hainz-filtr-hranice" title="Hranice evropských států kolem roku 1910 (stav před balkánskými válkami 1912–13)">
-        <input type="checkbox" id="hainz-vrstva-evropa" />
-        <span class="hainz-filtr-tecka" style="--pin-barva: #6a6f8a" aria-hidden="true"></span>
-        hranice evropských států (kolem 1910)
+      <label class="hainz-filtr hainz-filtr-hranice" title="Historické hranice evropských států a korunních zemí Rakouska-Uherska (HistoGIS, stav před balkánskými válkami 1912–13)">
+        <input type="checkbox" id="hainz-vrstva-hranice" />
+        <span class="hainz-filtr-tecka" style="--pin-barva: #8a6a4a" aria-hidden="true"></span>
+        historické hranice (kolem 1910)
       </label>
     </div>
   </section>
@@ -127,16 +122,13 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     <li><span class="ring-swatch"></span> barva výplně = typ objektu (viz filtry výše)</li>
   </ul>
 
-  <p id="hainz-ru-legenda" class="hainz-ru-legenda" hidden>
-    Barva výplně rozlišuje dvě poloviny monarchie:
+  <p id="hainz-hranice-legenda" class="hainz-ru-legenda" hidden>
+    Politická mapa Evropy kolem roku 1910 (stav před balkánskými válkami 1912–13) — Německé
+    císařství, Ruské impérium, Osmanská říše a další. V Rakousku-Uhersku barva výplně rozlišuje
     <span class="ru-half ru-predlit">Předlitavsko</span> (rakouská část),
     <span class="ru-half ru-zalit">Zalitavsko</span> (země uherské koruny) a
-    <span class="ru-half ru-kondo">Bosna a Hercegovina</span> (společné kondominium).
-  </p>
-
-  <p id="hainz-evropa-legenda" class="hainz-ru-legenda" hidden>
-    Politická mapa Evropy kolem roku 1910 (stav před balkánskými válkami 1912–13) — Německé
-    císařství, Ruské impérium, Osmanská říše a další. Najetím na stát se zobrazí jeho tehdejší název.
+    <span class="ru-half ru-kondo">Bosnu a Hercegovinu</span> (společné kondominium).
+    Najetím na stát nebo korunní zemi se zobrazí tehdejší název.
   </p>
 
   <p class="text-sm text-[var(--color-text-muted)] mt-2 mb-12">
@@ -523,105 +515,32 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     if (btn) letNaMisto(btn.dataset.misto);
   });
 
-  // ── Historická vrstva Rakouska-Uherska 1910 (HistoGIS, CC BY 4.0) ──
-  // Lazy fetch při prvním zapnutí; vlastní pane pod markery.
+  // ── Historická vrstva hranic kolem 1910 (HistoGIS, CC BY 4.0) ──
+  // Jeden přepínač: evropské státy (pastel) + detail korunních zemí Rakouska-
+  // Uherska (dvě poloviny monarchie) v jedné vrstvě. Data HistoGIS = snímek
+  // států platných k roku 1910 (před balkánskými válkami 1912–13: velká
+  // Osmanská říše, malé Srbsko/Řecko/Bulharsko/Černá Hora). A-U je sjednocením
+  // korunních zemí, takže detail navazuje přesně. Dva pane: evropské výplně dole
+  // (345), korunní země nahoře (350), obojí pod markery. Lazy fetch.
+  mapa.createPane('hranice-evropa');
+  mapa.getPane('hranice-evropa').style.zIndex = '345';
   mapa.createPane('hranice-ru');
   mapa.getPane('hranice-ru').style.zIndex = '350';
-  let vrstvaRU = null;
-  const ATTR_RU = 'Hranice 1910: <a href="https://histogis.acdh.oeaw.ac.at/">HistoGIS</a> (ACDH-ÖAW), CC BY 4.0';
+  let vrstvaHranice = null;
+  const ATTR_HRANICE = 'Hranice ~1910: <a href="https://histogis.acdh.oeaw.ac.at/">HistoGIS</a> (ACDH-ÖAW), CC BY 4.0';
 
-  async function nactiVrstvuRU() {
-    const [zeme, hranice, popisky] = await Promise.all([
+  async function nactiVrstvuHranice() {
+    const [staty, evPopisky, ruZeme, ruHranice, ruPopisky] = await Promise.all([
+      fetch('/data/hainz/evropa-staty-1910.geojson').then((r) => r.json()),
+      fetch('/data/hainz/evropa-staty-1910-popisky.geojson').then((r) => r.json()),
       fetch('/data/hainz/rakousko-uhersko-1910-zeme.geojson').then((r) => r.json()),
       fetch('/data/hainz/rakousko-uhersko-1910-hranice.geojson').then((r) => r.json()),
       fetch('/data/hainz/rakousko-uhersko-1910-popisky.geojson').then((r) => r.json()),
     ]);
     // @ts-expect-error Leaflet z CDN
     const g = L.layerGroup();
-    // korunní země obarvené podle poloviny monarchie: Předlitavsko (rakouská
-    // část) zlatě, Zalitavsko (uherská koruna sv. Štěpána) červeně, Bosna a
-    // Hercegovina (společné kondominium) olivově.
-    const ZALITAVSKO = new Set([
-      'Königreich Ungarn',
-      'Königreich Kroatien und Slawonien',
-      'Freie Stadt Fiume mit Gebiet',
-    ]);
-    const KONDOMINIUM = new Set(['Bosnien und Herzegowina']);
-    const RU_STYL = {
-      predlitavsko: { fillColor: '#c9a227', color: '#9c7a4f' },
-      zalitavsko:   { fillColor: '#b5654a', color: '#8a4a30' },
-      kondominium:  { fillColor: '#7c8a6a', color: '#5f6b4f' },
-    };
-    const polovinaRU = (name) =>
-      KONDOMINIUM.has(name) ? 'kondominium' : ZALITAVSKO.has(name) ? 'zalitavsko' : 'predlitavsko';
-    // @ts-expect-error
-    L.geoJSON(zeme, {
-      pane: 'hranice-ru',
-      style: (f) => {
-        const s = RU_STYL[polovinaRU(f.properties && f.properties.name)];
-        return { color: s.color, weight: 1, opacity: 0.7, dashArray: '4,3',
-                 fillColor: s.fillColor, fillOpacity: 0.13 };
-      },
-      onEachFeature: (f, layer) => {
-        if (f.properties && f.properties.name) {
-          layer.bindTooltip(f.properties.name, { sticky: true, direction: 'top', className: 'ru-tooltip' });
-        }
-      },
-    }).addTo(g);
-    // vnější hranice monarchie — výraznější plná linka
-    // @ts-expect-error
-    L.geoJSON(hranice, {
-      pane: 'hranice-ru',
-      style: { color: '#7a4a2b', weight: 2.2, opacity: 0.85, fill: false },
-      interactive: false,
-    }).addTo(g);
-    // názvy korunních zemí — stálé textové popisky (česky)
-    // @ts-expect-error
-    L.geoJSON(popisky, {
-      pane: 'hranice-ru',
-      pointToLayer: (f, latlng) =>
-        // @ts-expect-error
-        L.marker(latlng, {
-          // @ts-expect-error
-          icon: L.divIcon({ className: 'ru-popisek', html: f.properties.nazev, iconSize: null }),
-          interactive: false,
-          keyboard: false,
-        }),
-    }).addTo(g);
-    return g;
-  }
 
-  document.getElementById('hainz-vrstva-ru').addEventListener('change', async (ev) => {
-    const legenda = document.getElementById('hainz-ru-legenda');
-    if (ev.target.checked) {
-      if (!vrstvaRU) vrstvaRU = await nactiVrstvuRU();
-      vrstvaRU.addTo(mapa);
-      mapa.attributionControl.addAttribution(ATTR_RU);
-      if (legenda) legenda.hidden = false;
-    } else if (vrstvaRU) {
-      mapa.removeLayer(vrstvaRU);
-      mapa.attributionControl.removeAttribution(ATTR_RU);
-      if (legenda) legenda.hidden = true;
-    }
-  });
-
-  // ── Historická vrstva evropských států kolem 1910 ──
-  // Data: HistoGIS (ACDH-ÖAW, CC BY 4.0) — snímek států platných k roku 1910
-  // (před balkánskými válkami 1912–13: velká Osmanská říše, malé Srbsko/Řecko/
-  // Bulharsko/Černá Hora). Rakousko-Uhersko = sjednocení korunních zemí, takže
-  // detailní R-U vrstva na něj přesně navazuje. Ořez na Evropu + zjednodušeno.
-  mapa.createPane('hranice-evropa');
-  mapa.getPane('hranice-evropa').style.zIndex = '345';
-  let vrstvaEvropa = null;
-  const ATTR_EVROPA = 'Hranice ~1910: <a href="https://histogis.acdh.oeaw.ac.at/">HistoGIS</a> (ACDH-ÖAW), CC BY 4.0';
-
-  async function nactiVrstvuEvropa() {
-    const [staty, popisky] = await Promise.all([
-      fetch('/data/hainz/evropa-staty-1910.geojson').then((r) => r.json()),
-      fetch('/data/hainz/evropa-staty-1910-popisky.geojson').then((r) => r.json()),
-    ]);
-    // @ts-expect-error Leaflet z CDN
-    const g = L.layerGroup();
+    // --- evropské státy (pastel), kromě Rakouska-Uherska (kreslí ho detail níže) ---
     // světlá pastelová „atlasová" paleta — každý stát jiný jemný odstín
     const PALETA = ['#f6c6c6', '#c8e6c9', '#bbdefb', '#fff1b8', '#e1bee7', '#ffd8b0',
                     '#b3e5dc', '#f8c8dc', '#dcedc8', '#cdd3ee', '#ffe0b2', '#d0c4e0'];
@@ -636,6 +555,7 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     // @ts-expect-error
     L.geoJSON(staty, {
       pane: 'hranice-evropa',
+      filter: (f) => !(f.properties && f.properties.nazev === 'Rakousko-Uhersko'),
       style: (f) => ({
         color: '#8a6a4a', weight: 1, opacity: 0.6, dashArray: '4,3',
         fillColor: barvaStatu((f.properties && f.properties.nazev) || ''), fillOpacity: 0.45,
@@ -646,9 +566,9 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
         }
       },
     }).addTo(g);
-    // stálé názvy států (mimo husté jádro R-U, které popisuje vrstva R-U)
+    // stálé názvy států (popisky už A-U neobsahují)
     // @ts-expect-error
-    L.geoJSON(popisky, {
+    L.geoJSON(evPopisky, {
       pane: 'hranice-evropa',
       pointToLayer: (f, latlng) =>
         // @ts-expect-error
@@ -659,19 +579,70 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
           keyboard: false,
         }),
     }).addTo(g);
+
+    // --- Rakousko-Uhersko: korunní země obarvené podle poloviny monarchie ---
+    // Předlitavsko (rakouská část) zlatě, Zalitavsko (uherská koruna) červeně,
+    // Bosna a Hercegovina (společné kondominium) olivově.
+    const ZALITAVSKO = new Set([
+      'Königreich Ungarn',
+      'Königreich Kroatien und Slawonien',
+      'Freie Stadt Fiume mit Gebiet',
+    ]);
+    const KONDOMINIUM = new Set(['Bosnien und Herzegowina']);
+    const RU_STYL = {
+      predlitavsko: { fillColor: '#c9a227', color: '#9c7a4f' },
+      zalitavsko:   { fillColor: '#b5654a', color: '#8a4a30' },
+      kondominium:  { fillColor: '#7c8a6a', color: '#5f6b4f' },
+    };
+    const polovinaRU = (name) =>
+      KONDOMINIUM.has(name) ? 'kondominium' : ZALITAVSKO.has(name) ? 'zalitavsko' : 'predlitavsko';
+    // @ts-expect-error
+    L.geoJSON(ruZeme, {
+      pane: 'hranice-ru',
+      style: (f) => {
+        const s = RU_STYL[polovinaRU(f.properties && f.properties.name)];
+        return { color: s.color, weight: 1, opacity: 0.7, dashArray: '4,3',
+                 fillColor: s.fillColor, fillOpacity: 0.13 };
+      },
+      onEachFeature: (f, layer) => {
+        if (f.properties && f.properties.name) {
+          layer.bindTooltip(f.properties.name, { sticky: true, direction: 'top', className: 'ru-tooltip' });
+        }
+      },
+    }).addTo(g);
+    // vnější hranice monarchie — výraznější plná linka
+    // @ts-expect-error
+    L.geoJSON(ruHranice, {
+      pane: 'hranice-ru',
+      style: { color: '#7a4a2b', weight: 2.2, opacity: 0.85, fill: false },
+      interactive: false,
+    }).addTo(g);
+    // názvy korunních zemí — stálé textové popisky (česky)
+    // @ts-expect-error
+    L.geoJSON(ruPopisky, {
+      pane: 'hranice-ru',
+      pointToLayer: (f, latlng) =>
+        // @ts-expect-error
+        L.marker(latlng, {
+          // @ts-expect-error
+          icon: L.divIcon({ className: 'ru-popisek', html: f.properties.nazev, iconSize: null }),
+          interactive: false,
+          keyboard: false,
+        }),
+    }).addTo(g);
     return g;
   }
 
-  document.getElementById('hainz-vrstva-evropa').addEventListener('change', async (ev) => {
-    const legenda = document.getElementById('hainz-evropa-legenda');
+  document.getElementById('hainz-vrstva-hranice').addEventListener('change', async (ev) => {
+    const legenda = document.getElementById('hainz-hranice-legenda');
     if (ev.target.checked) {
-      if (!vrstvaEvropa) vrstvaEvropa = await nactiVrstvuEvropa();
-      vrstvaEvropa.addTo(mapa);
-      mapa.attributionControl.addAttribution(ATTR_EVROPA);
+      if (!vrstvaHranice) vrstvaHranice = await nactiVrstvuHranice();
+      vrstvaHranice.addTo(mapa);
+      mapa.attributionControl.addAttribution(ATTR_HRANICE);
       if (legenda) legenda.hidden = false;
-    } else if (vrstvaEvropa) {
-      mapa.removeLayer(vrstvaEvropa);
-      mapa.attributionControl.removeAttribution(ATTR_EVROPA);
+    } else if (vrstvaHranice) {
+      mapa.removeLayer(vrstvaHranice);
+      mapa.attributionControl.removeAttribution(ATTR_HRANICE);
       if (legenda) legenda.hidden = true;
     }
   });
