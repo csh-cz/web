@@ -298,9 +298,9 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" />
 <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script is:inline src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-<!-- maplibre-gl PŘIPNUTO na 3.6.2: plugin maplibre-gl-leaflet@0.0.22 je s v4
-     nekompatibilní (vektorový podklad po zoomu přestane překreslovat / zmizí,
-     bez chyby v konzoli). S 3.6.2 podklad renderuje a přežije zoom (ověřeno). -->
+<!-- maplibre-gl připnuto na 3.6.2 = konzervativní párování se starým pluginem
+     maplibre-gl-leaflet@0.0.22 (vlastní příčinu mizejícího podkladu ale řeší
+     glResize() při zoomu, ne verze — viz init mapy níže). -->
 <script is:inline src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
 <script is:inline src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js"></script>
 
@@ -348,11 +348,22 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
   // OpenFreeMap. Bez API klíče, bez limitů, self-hostovatelné; NEpoužíváme
   // produkčně tile.openstreetmap.org.
   // @ts-expect-error maplibre-gl-leaflet z CDN
-  L.maplibreGL({
+  const glVrstva = L.maplibreGL({
     style: '/data/hainz/podklad-soudoby.json',
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> přispěvatelé | <a href="https://openfreemap.org">OpenFreeMap</a>',
   }).addTo(mapa);
-  window.addEventListener('load', () => mapa.invalidateSize());
+  // FIX podkladu: maplibre-gl-leaflet občas nechá GL plátno v zaseklé (menší)
+  // velikosti vůči kontejneru — podklad se pak po zoomu vykreslí jen v malém
+  // výřezu, nebo zmizí úplně (piny kreslí Leaflet, ty jsou OK). Jediné, co GL
+  // mapu spolehlivě přesynchronizuje na správnou velikost, je resize(); voláme
+  // ho tedy po ustálení layoutu i po každém přiblížení/posunu.
+  function glResize() {
+    const m = glVrstva.getMaplibreMap ? glVrstva.getMaplibreMap() : glVrstva._glMap;
+    if (m && m.resize) m.resize();
+  }
+  mapa.on('zoomend moveend resize', glResize);
+  window.addEventListener('load', () => { mapa.invalidateSize(); glResize(); });
+  mapa.whenReady(() => { setTimeout(glResize, 300); });
 
   // @ts-expect-error markercluster z CDN
   const cluster = L.markerClusterGroup({
