@@ -103,6 +103,11 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
         <span class="hainz-filtr-tecka" style="--pin-barva: #7a4a2b" aria-hidden="true"></span>
         hranice Rakouska-Uherska (1910)
       </label>
+      <label class="hainz-filtr hainz-filtr-hranice" title="Hranice evropských států kolem roku 1910 (stav před balkánskými válkami 1912–13)">
+        <input type="checkbox" id="hainz-vrstva-evropa" />
+        <span class="hainz-filtr-tecka" style="--pin-barva: #6a6f8a" aria-hidden="true"></span>
+        hranice evropských států (kolem 1910)
+      </label>
     </div>
   </section>
 
@@ -127,6 +132,11 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     <span class="ru-half ru-predlit">Předlitavsko</span> (rakouská část),
     <span class="ru-half ru-zalit">Zalitavsko</span> (země uherské koruny) a
     <span class="ru-half ru-kondo">Bosna a Hercegovina</span> (společné kondominium).
+  </p>
+
+  <p id="hainz-evropa-legenda" class="hainz-ru-legenda" hidden>
+    Politická mapa Evropy kolem roku 1910 (stav před balkánskými válkami 1912–13) — Německé
+    císařství, Ruské impérium, Osmanská říše a další. Najetím na stát se zobrazí jeho tehdejší název.
   </p>
 
   <p class="text-sm text-[var(--color-text-muted)] mt-2 mb-12">
@@ -591,6 +601,44 @@ const mistaCZ = [...new Set(hainz1904.filter((z) => z.zeme === 'CZ').map((z) => 
     } else if (vrstvaRU) {
       mapa.removeLayer(vrstvaRU);
       mapa.attributionControl.removeAttribution(ATTR_RU);
+      if (legenda) legenda.hidden = true;
+    }
+  });
+
+  // ── Historická vrstva evropských států kolem 1910 ──
+  // Data: historical-basemaps (A. Ourednik, GPL-3.0); snímek 1900 = konfigurace
+  // Evropy platná do balkánských válek 1912–13. Ořez na Evropu + zjednodušeno.
+  // Vlastní pane pod R-U detailem i pod markery.
+  mapa.createPane('hranice-evropa');
+  mapa.getPane('hranice-evropa').style.zIndex = '345';
+  let vrstvaEvropa = null;
+  const ATTR_EVROPA = 'Hranice ~1910: <a href="https://github.com/aourednik/historical-basemaps">historical-basemaps</a> (GPL-3.0)';
+
+  async function nactiVrstvuEvropa() {
+    const staty = await fetch('/data/hainz/evropa-staty-1910.geojson').then((r) => r.json());
+    // @ts-expect-error Leaflet z CDN
+    return L.geoJSON(staty, {
+      pane: 'hranice-evropa',
+      style: { color: '#6a6f8a', weight: 1.2, opacity: 0.7,
+               fillColor: '#8a8fae', fillOpacity: 0.06 },
+      onEachFeature: (f, layer) => {
+        if (f.properties && f.properties.nazev) {
+          layer.bindTooltip(f.properties.nazev, { sticky: true, direction: 'top', className: 'ru-tooltip' });
+        }
+      },
+    });
+  }
+
+  document.getElementById('hainz-vrstva-evropa').addEventListener('change', async (ev) => {
+    const legenda = document.getElementById('hainz-evropa-legenda');
+    if (ev.target.checked) {
+      if (!vrstvaEvropa) vrstvaEvropa = await nactiVrstvuEvropa();
+      vrstvaEvropa.addTo(mapa);
+      mapa.attributionControl.addAttribution(ATTR_EVROPA);
+      if (legenda) legenda.hidden = false;
+    } else if (vrstvaEvropa) {
+      mapa.removeLayer(vrstvaEvropa);
+      mapa.attributionControl.removeAttribution(ATTR_EVROPA);
       if (legenda) legenda.hidden = true;
     }
   });
